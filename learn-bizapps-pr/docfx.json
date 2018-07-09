@@ -35,9 +35,11 @@
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/learn-bizapps-pr/breadcrumb/toc.json",
+      "breadcrumb_path": "/learn/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/learn",
+      "clicktale": true
     },
     "fileMetadata": {},
     "template": [],
