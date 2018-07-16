@@ -12,5 +12,4 @@ metadata:
   title: Sample Learning Path Page Title
   description: Sample Learning Path Page Description
 modules:
-- uid: learn-bizapps.sample-module
-  durationInMinutes: 23
+- learn-bizapps.sample-module
