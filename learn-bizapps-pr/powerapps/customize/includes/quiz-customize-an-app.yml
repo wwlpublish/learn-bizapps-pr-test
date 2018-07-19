@@ -1,0 +1,30 @@
+### YamlMime:Quiz
+uid: learn.path.customize.quiz
+title: Customize and app quiz
+questions:
+- content: Where are PowerApps created?
+  choices: 
+  - content: Web.powerapps.com 
+    explanation: Web.powerapps.com is where you can view all your apps, but is not where you design them.
+  - content: PowerApps Studio
+    isCorrect: true
+  - content: SharePoint
+    explanation: SharePoint can be a data source for PowerApps, but it is not where apps are designed.
+  - choice: Windows AppSource
+    explanation: PowerApps apps are installed from the Windows AppSource, but they are designed on PowerApps Studio.
+- content: Which is not a main screen on a PowerApps app?
+  choices:
+  - content: Browse screen
+    explanation: The Browse screen is one of the main screens on PowerApps screen.
+  - content: Update screen
+    explanation: The three main screens on a PowerApps app are Browse, Details, and Edit.
+  - content: The Preview pain
+    explanation: A Preview pain is not a main screen. The Run button does start your app for previewing, but is not a screen.
+- content: Which screen is the first screen on a PowerApps app?
+  choices:
+  - content: Preview screen.
+    explanation: A Preview pain is not a main screen. The Run button does start your app for previewing, but is not a screen.
+  - content: Details screen
+    explantion: The Details screen isn't the First screen. The first screen is the Browse screen. When an item is clicked on the Browse screen, typically a details screen will be displayed.
+  - content: Browse screen
+    isCorrect: true

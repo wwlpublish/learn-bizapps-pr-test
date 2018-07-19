@@ -1,0 +1,30 @@
+### YamlMime:Quiz
+uid: learn.path.manage.quiz
+title: Manage an app quiz
+questions:
+- content: When a version of an app is restored, what happens?
+  choices: 
+  - content: The original app version is overwritten by a new one 
+    explantion: The original version is not overwritten. A new version is created.
+  - content: The new version is made available to AppSource for your team to use.
+    explanation: The new version is added to your list of versions. It is not automatically ready to be used by team members until you explicity share it.
+  - content: The new version is added to the list of versions.
+    isCorrect: true
+  - choice: Answer
+    explanation: Why wrong
+- content: When you share a new version of an app, which is true?
+  choices:
+  - content: Everyone you shared an earlier version with your team will need to reinstall the app.
+    explanation: No one will need to do anything to see the new version if you had shared an earlier version with them.
+  - content: Anyone who has the earlier version will not need to reinstall.
+    isCorrect: true
+  - content: All previous version will be deleted from the Admin Center.
+    explanation: when you save a new version of an app, all previous version will be retained.
+- content: Which of the following are true for PowerApps environments.
+  choices:
+  - content: They help you share an app.
+    explanation: Sharing an app happens in the Admin Center. Working in an enviroment doesn't help you share an app.
+  - content: App environments can help reduce bug counts.
+    isCorrect: true
+  - content: App environments allow you to security separate an app in developement and evaluation from versions that your team sees.
+    isCorrect: true
