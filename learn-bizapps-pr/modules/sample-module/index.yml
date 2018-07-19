@@ -14,3 +14,4 @@ abstract: This is the abstract of the Sample Module
 units:
 - learn-bizapps.sample-module.unit-1
 - learn-bizapps.sample-module.unit-2
+achievement: learn-bizapps.sample-module.badge

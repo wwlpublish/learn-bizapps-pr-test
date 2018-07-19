@@ -13,3 +13,4 @@ metadata:
   description: Sample Learning Path Page Description
 modules:
 - learn-bizapps.sample-module
+achievement: learn-bizapps.sample-path.trophy
