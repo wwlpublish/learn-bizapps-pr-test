@@ -1,0 +1,6 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.get-started.powerapps-ways-to-build
+  title: Ways to build powerapps
+  description: Learn the different ways PowerApps can be built.
+Content: |
+  [!include[](includes/powerapps-ways-to-build.md)]
