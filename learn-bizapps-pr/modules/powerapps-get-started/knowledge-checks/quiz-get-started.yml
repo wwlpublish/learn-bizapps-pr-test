@@ -1,0 +1,30 @@
+### YamlMime:Quiz
+uid: learn.path.get-started.quiz
+title: Get an app started quiz
+questions:
+- content: Where do you set up a PowerApps app for sharing with a team?
+  choices: 
+  - content: In the PowerApps admin center.  
+    isCorrect: true
+  - content: In the Windows AppStore
+    explanation: The Windows AppStore is where you browse and install PowerApps. It is not where you manage them.
+  - content: In Dynamics 365.
+    explanation: Dyanamics 365 is your place to view many apps and servies. It is not the specific location to administer them.
+  - choice: In PowerApps Studio
+    explanation: PowerApps Studio is where you design your apps, not where you share them with your team.
+- content: Which of the following is true about data sources?
+  choices:
+  - content: Data sources for your PowerApps come primarily from your PC or iOS device.
+    explanation: Data sources come from many sources, including SharePoint, Google Drive, and Salesforce.
+  - content: Twitter can be a data source.
+    isCorrect: true
+  - content: Dropbox cannot be a data source.
+    explanation: Dropbox is one of many data sources you can use for PowerApps.
+- content: If you're a contributor to PowerApps, which is true.
+  choices:
+  - content: Everyone on a team contributes to the team. Therefore, they are contributors for PowerApps apps.
+    explanation: Contributors on PowerApps are allowed to customize apps.
+  - content: Contributors have read-only access to apps.
+    explanation: Contributors can help design apps. Therefore they have read and write access to them.
+  - content: Contributors have access to www.powerapps.com, but team members who don't design app don't have access to www.powerapps.com.
+    isCorrect: true

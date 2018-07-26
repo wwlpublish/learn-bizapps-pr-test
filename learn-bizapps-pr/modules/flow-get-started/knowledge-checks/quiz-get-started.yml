@@ -1,0 +1,30 @@
+### YamlMime:Quiz
+uid: learn.path.get-started.quiz
+title: Get a flow started quiz
+questions:
+- content: Where do you get a flow started?
+  choices: 
+  - content: In the Flow web site.  
+    isCorrect: true
+  - content: By downloading the Microsoft Flow app in the Windows AppStore
+    explanation: Microsoft Flow is a service, not an app. You can't download it from the AppStore.
+  - content: In Dynamics 365.
+    explanation: Dyanamics 365 is your place to view many apps and servies. It is not the specific location to start a flow.
+  - choice: In PowerApps Studio
+    explanation: PowerApps Studio is where you design PowerApps apps, but it is not where you start a flow. Though flows can work with PowerApps apps.
+- content: Which of the following is true about flows?
+  choices:
+  - content: They respond to triggers and variables.
+    explanation: Flows respond to triggers and actions
+  - content: They respond to triggers and actions
+    isCorrect: true
+  - content: They respond to actions and methods.
+    explanation: They respond to triggers and actions.
+- content: Which of the following are true of the Microsoft Flow mobile app?
+  choices:
+  - content: You can't create a flow from the app. You can only view the result of a flow.
+    explanation: You can create simple flows from the mobile app, such as button flow to send an sick-day message to your manager.
+  - content: You can create a flow from the mobile app
+    isCorrect: true
+  - content: Flows cannot be created that work with PowerApps.
+    explantion: You can set up a flow to work with PowerApps.
