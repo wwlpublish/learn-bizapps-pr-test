@@ -1,6 +1,6 @@
 ### YamlMime:Module
 # YML code for `module`
-uid: learn.sample-module-cloudshell
+uid: learn.sample-module-bizapps
 # `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>. Keep it easy on yourself and keep the module-short-name the same as the module folder name.
 metadata:
 # HTML metadata for search engines
@@ -24,9 +24,9 @@ product: Azure
 # 
 units:
 # `units` are lists of all of the unit uids, in the order they should be displayed to the user in
-- learn.sample-module-cloudshell.1-unit-text-only
-- learn.sample-module-cloudshell.2-unit-text-and-knowledge-check
-- learn.sample-module-cloudshell.3-unit-knowledge-check-only
-- learn.sample-module-cloudshell.4-unit-cloudshell-lab
-achievement: learn.sample-module-cloudshell.badge
+- learn.sample-module-bizapps.1-unit-text-only
+- learn.sample-module-bizapps.2-unit-text-and-knowledge-check
+- learn.sample-module-bizapps.3-unit-knowledge-check-only
+- learn.sample-module-bizapps.4-unit-cloudshell-lab
+achievement: learn.sample-module-bizapps.badge
 # `achievement` is the `uid` for the badge
