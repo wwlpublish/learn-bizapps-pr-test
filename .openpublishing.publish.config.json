@@ -9,9 +9,12 @@
       "moniker_ranges": [],
       "open_to_public_contributors": false,
       "type_mapping": {
+        "Achievements": "Toc",
+        "Conceptual": "Content",
+        "Hub": "Content",
+        "LearningPath": "Content",
         "Module": "Content",
-        "ModuleUnit": "Content",
-        "LearningPath": "Content"
+        "ModuleUnit": "Content"
       },
       "build_entry_point": "docs",
       "template_folder": "_themes"
