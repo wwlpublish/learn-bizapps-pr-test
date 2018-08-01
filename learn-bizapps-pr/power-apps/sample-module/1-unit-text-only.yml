@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 # YML code for unit
-uid: learn.sample-module-cloudshell.1-unit-text-only
+uid: learn.sample-module-power-apps.1-unit-text-only
 # `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
 metadata:
 # Search engine metadata

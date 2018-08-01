@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 # YML code for unit
-uid: learn.sample-module-cloudshell.4-unit-cloudshell-lab
+uid: learn.sample-module-power-bi.4-unit-cloudshell-lab
 # `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
 metadata:
-# Search engine metadata  
+# Search engine metadata
   title: Sample unit 4 - CloudShell lab
   description: This is an example of a unit that uses the CloudShell editor.
   displayType: two-column

@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 # YML code for unit
-uid: learn.sample-module-cloudshell.2-unit-text-and-knowledge-check
+uid: learn.sample-module-power-bi.2-unit-text-and-knowledge-check
 # `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
 metadata:
 # Search engine metadata
-  title: Sample unit 2 - Text and knowledge check 
+  title: Sample unit 2 - Text and knowledge check
   description: This unit is an example of text (no lab components) with a knowledge check.
   displayType: one-column
   # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
