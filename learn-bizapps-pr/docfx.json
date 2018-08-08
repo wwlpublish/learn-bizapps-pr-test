@@ -8,6 +8,27 @@
         "dest": "achievements/bizapps/"
       },
       {
+        "src": "dynamics",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "power-apps",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "power-bi",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -21,7 +42,6 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "modules/sample-module/**",
           "paths/sample-path/**"
         ]
       }
@@ -37,7 +57,6 @@
           "**/includes/**",
           "_themes/**",
           "_themes.pdf/**",
-          "modules/sample-module/**",
           "paths/sample-path/**"
         ]
       }
@@ -47,8 +66,7 @@
     "globalMetadata": {
       "breadcrumb_path": "/learn/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "GitHub",
-      "feedback_github_repo": "MicrosoftDocs/learn",
+      "feedback_system": "None",
       "clicktale": true
     },
     "fileMetadata": {},
