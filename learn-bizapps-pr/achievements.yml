@@ -9,7 +9,6 @@ achievements:
   type: badge
   title: Sample Module with CloudShell Badge
   summary: Sample Module with CloudShell Badge Summary
-
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.sample-module-dynamics.badge
   type: badge
@@ -25,3 +24,4 @@ achievements:
   type: badge
   title: Sample Module Power BI Badge
   summary: Sample Module Power BI Badge Summary
+  iconUrl: http://via.placeholder.com/120x120
