@@ -6,7 +6,7 @@ A control is simply a UI element that produces an action or displays information
 
 In addition to these typical controls, PowerApps has more specialized controls. These can be found on the top toolbar.
 
-![Controls tab on PowerApps Studio ribbon](media/powerapps-ribbon-controls.png)
+![Controls tab on PowerApps Studio ribbon](../media/powerapps-ribbon-controls.png)
 
 Here are just a few that add interest and impact to your apps:
 
@@ -25,13 +25,13 @@ Here are some of the primary controls for the Browse screen that you will want t
 - **NextArrow1**: This control when selected sends the app to the Details screen. 
 -  **IconNewItem1**: This screen sends the app to the Edit/Create screen.
 
-![Browse screen with controls](media/powerapps-browse-screen.png)
+![Browse screen with controls](../media/powerapps-browse-screen.png)
 
 PowerApps has a variety of gallery types beyond the default vertical orientation. 
 
 - Try the horizontal orientation to see how it changes the look of your app. You will see more ways to control layout later in this section.
 
-![PowerApps gallery options](media/powerapps-galleries.png)
+![PowerApps gallery options](../media/powerapps-galleries.png)
 
 ## Explore the details screen
 Next is the details screen. Here are its main controls:
@@ -40,7 +40,7 @@ Next is the details screen. Here are its main controls:
 - **DataCard1**: This is a card control, which displays, in this case, a flooring category from the Flooring Estimates app seen from the previous topic. 
 - **IconEdit1** This control when selected allows a user to edit the current item using the Edit/Create screen in the next section.
 
-![Details screen with controls](media/powerapps-details-screen.png)
+![Details screen with controls](../media/powerapps-details-screen.png)
 
 ## Explore the Edit/Screan screen
 The third screen in the app is the Edit/Create screen. Here are its main controls:
@@ -49,6 +49,6 @@ The third screen in the app is the Edit/Create screen. Here are its main control
 -  **DataCard8** This is another a card control, which displays a flooring category from tghe Flooring Estimates app see from the previous topic.
 - **IconAccept1** This control when selected allows the user to save the changes made on the screen.
 
-![Edit screen with controls](media/powerapps-edit-screen.png)
+![Edit screen with controls](../media/powerapps-edit-screen.png)
 
 Now that you have a sense of how the app is composed of screens and controls, we'll look at how you customize the app in the next topic.

@@ -8,7 +8,7 @@ We'll start with the browse screen. The app contains an image for each product b
 1. On the **Screens** pane on the left, select the control for the main gallery , **BrowseGallery1**. 
 1. On the right pane, select the **Layout** control.
 
-    ![Change the browse screen layout](media/powerapps-layout.png)
+    ![Change the browse screen layout](../media/powerapps-layout.png)
 
 3. Select a different layout for the browse screen, such as a horizontal layout. You'll see the change immediately.
 
@@ -16,7 +16,7 @@ Now let's change your app some more.
 
 1. On the **Screens** pane on the left, select the **Body1** control, which contains a description for the item. The control will now be highlighted on the app.
 
-    ![Change the browse screen layout](media/powerapps-delete-body.png)
+    ![Change the browse screen layout](../media/powerapps-delete-body.png)
 
 1. Press the Delete key to remove the description text. Don't worry. You're not deleting this information from your data source. You're just note making it viewable in the app.
 
@@ -30,11 +30,11 @@ On the details screen, we want to change the order of the fields. There are diff
 1. On the **Screens** pane on the left, select the control for the Detail screen, **DetailScreen1**.
 1. On the right pane, select the control for the number of fields indicated.
 
-   ![Move fields](media/powerapps-edit-fields.png)
+   ![Move fields](../media/powerapps-edit-fields.png)
 
 3. Select and drag the **Name** field to the top. Then select and drag the **Image** field underneath the **Price** field.
 
-   ![Move fields](media/powerapps-move-fields.png)
+   ![Move fields](../media/powerapps-move-fields.png)
 
 ## Edit/create screen
 Finally, on the screen where your app user edits and creates entries (**EditScreen1**), we want to change a text field so that it's easier to enter text. 
@@ -43,6 +43,6 @@ Finally, on the screen where your app user edits and creates entries (**EditScre
 1. On the right pane, select the control for the number of fields indicated.
 1. Select the down arrow for the **Overview** field list, and then select **Edit multi-line text** control. A multi-line edit control will make it easier to add information to the app.
 
-   ![Change the edit screen fields](media/powerapps-change-editscreen.png)
+   ![Change the edit screen fields](../media/powerapps-change-editscreen.png)
 
 You can see how a few basic steps can do a lot to improve the appearance and experience of using an app. In this topic, we focused on the PowerApps Studio UI, which provides a lot of options for customizing your apps. In the next topic, we'll get into formulas, which play an important role in driving app behavior.  

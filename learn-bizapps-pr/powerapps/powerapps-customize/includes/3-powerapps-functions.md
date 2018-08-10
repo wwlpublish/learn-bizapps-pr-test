@@ -8,20 +8,20 @@ In the previous topic, we worked with the Browse screen gallery. Now we're going
 
 The Price field showed up as a plain number without a currency symbol. Suppose we want to add a dollar sign, and also change the text color depending on how much the item costs (for example red if it's more than $5, otherwise green). The following image shows the idea.
 
-![Text formatting for color and currency](media/powerapps-formulas2.png)
+![Text formatting for color and currency](../media/powerapps-formulas2.png)
 
 Let's start with the currency formatting. By default PowerApps just pulls in a Price value for each item, which is set as the **Text** *property* of the label that displays the price.
 
 1. On the Screens pane on the left, select the Details screen since that is the main screen we want to change (**DetailsScreen1** ).
 1. Select the Price control in the app.
 
-   ![Price formatting](media/powerapps-formulas3.png)
+   ![Price formatting](../media/powerapps-formulas3.png)
 
  
 
 3. In the Functions bar at the top, select the properties for this control, and then select the **Text** property in the list. The list of properties are the ones that are relevant to the control that is currently selected in your app. You'll see that the Price control is currently set to the number value only and has not been formatted yet to be more helpful. 
 
-   ![Price formatting](media/powerapps-formulas1.png)
+   ![Price formatting](../media/powerapps-formulas1.png)
 
 4. To add the US currency symbol, replace "Price" with this formula: 
 
@@ -32,7 +32,7 @@ The formula `Text(Price, "[$-en-US]$ ##.00"` uses the **Text** *function* to spe
 If you select a control and then select the property drop down list, you see a list of properties that are relevant to the control. For example, here is a partial list of the properties for a label. Some properties are relevant across a broad range of controls and others only for a specific control.
 
 
-   ![Setting properties](media/powerapps-formulas4.png)
+   ![Setting properties](../media/powerapps-formulas4.png)
 
 To format the color conditionally based on the price, use a formula like the following for the **Color** property of the label:
 
@@ -41,15 +41,15 @@ To format the color conditionally based on the price, use a formula like the fol
 ## Formulas included in the generated app
 Now that you understand how to use formulas in conjunction with properties, we'll look at three examples of formulas that PowerApps uses in the generated app. The examples are all from the browse screen and work with the OnSelect property, which defines what happens when a user clicks or taps an app control.
 
-* The first formula is associated with the **IconNewItem1** control: ![New item icon](media/powerapps-icon-add-item.png). You click or tap this control to go from the browse screen to the edit/create screen and create an item. 
+* The first formula is associated with the **IconNewItem1** control: ![New item icon](../media/powerapps-icon-add-item.png). You click or tap this control to go from the browse screen to the edit/create screen and create an item. 
   
   * The formula is `NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)`
   * The formula *instantiates* a new edit form and then navigates to the edit/create screen so that you can create a new item. A value of `ScreenTransition.None` means there is no transition between screens (such as a fade).
-* The second formula is associated with the **IconSortUpDown1** control: ![Sort gallery icon](media/powerapps-icon-sort.png). You click or tap this control to sort the list of items in the browse screen gallery.
+* The second formula is associated with the **IconSortUpDown1** control: ![Sort gallery icon](../media/powerapps-icon-sort.png). You click or tap this control to sort the list of items in the browse screen gallery.
   
   * The formula is `UpdateContext({SortDescending1: !SortDescending1})`
   * The formula uses `UpdateContext` to update a *variable* called `SortDescending1`. The value of the variable switches back and forth as you click the control. This tells the gallery on this screen how to sort the items (watch the video for more details). 
-* The third formula is associated with the **NextArrow1** control: ![Go to details arrow icon](media/powerapps-icon-arrow.png). You click or tap this control to go from the browse screen to the details screen.
+* The third formula is associated with the **NextArrow1** control: ![Go to details arrow icon](../media/powerapps-icon-arrow.png). You click or tap this control to go from the browse screen to the details screen.
   
   * The formula is `Navigate(DetailScreen1, ScreenTransition.None)`
   * The formula navigates to the details screen, again with no transition.
