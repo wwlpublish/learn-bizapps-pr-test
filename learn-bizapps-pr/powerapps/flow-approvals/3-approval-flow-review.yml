@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-create-approval.3-flow-review
+title: Review what you've learned about approval flows 
+metadata: 
+  title: Review what you've learned about approval flows 
+  description: Review what you've learned about approval flows 
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/3-flow-review.md)]  
