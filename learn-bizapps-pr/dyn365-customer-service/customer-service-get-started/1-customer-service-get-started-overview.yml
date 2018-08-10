@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
+title: Understand the core components of Customer Service
+metadata:
+  title: Customer Service core components
+  description: Learn the core compents of Customer Service for Dynamics 365.
+durationInMinutes: 12
+content: |
+  [!include[](includes/1-customer-service-get-started-overview.md)]
