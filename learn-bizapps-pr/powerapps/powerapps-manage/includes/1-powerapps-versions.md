@@ -6,7 +6,7 @@ Keep in mind that if the app is shared, the people you shared with also receive 
 ## View versions of your app
 1. In web.powerapps.com, click or tap the info icon.
 
-    ![Click details to access app version](media/powerapps-versions-details2.png)
+    ![Click details to access app version](../media/powerapps-versions-details2.png)
 
 2. Select the **Versions** tab.
 3. View all version of your app that PowerApps created as you developed the app.

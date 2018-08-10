@@ -1,13 +1,13 @@
 # Create environments for your apps
 An environment is a container for apps and other resources, like data connections and flows from Microsoft Flow. It's a way to group things based on business requirements.
 
-![Environment picker](media/powerapps-environments2.png)
+![Environment picker](../media/powerapps-environments2.png)
 
 If you have followed along with the course so far, you've spent some time working in web.powerapps.com. Whether you knew it or not, you have been working in a specific environment the whole time.
 
 In the upper right web.powerapps.com page, you see your current environment.
 
-![Environment picker](media/powerapps-environment-picker.png)
+![Environment picker](../media/powerapps-environment-picker.png)
 
 If you are new to PowerApps, you might have only the default environment at this point.
 
@@ -50,7 +50,7 @@ Two types of people within an organizaion have access to an environment:
 7. Select **Manage Roles** in the toolbar.
 8. Select the types of roles for this user in the **Manage User Roles** box. In the example below, the user has been assigned the Environment Maker role.
 
-    ![Select a new user role](media/powerapps-user-roles.png)
+    ![Select a new user role](../media/powerapps-user-roles.png)
 
 9. Select **OK**.
 

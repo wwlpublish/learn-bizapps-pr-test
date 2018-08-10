@@ -19,5 +19,5 @@ units:
 - learn-bizapps.powerapps-manage.2-powerapps-share
 - learn-bizapps.powerapps-manage.3-powerapps-environments
 - learn-bizapps.powerapps-manage.4-review-powerapps
-- learn-bizapps.powerapps-manage.5-quiz-powerapps-manage
-achievement: learn-bizapps.powerapps-manage.badge
+- learn-bizapps.powerapps-manage.quiz-manage-apps
+achievement: learn.powerapps-manage.badge
