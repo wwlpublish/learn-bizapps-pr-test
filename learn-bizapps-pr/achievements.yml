@@ -54,4 +54,9 @@ achievements:
   type: badge
   title: Create an approval flow Badge
   summary: Create an approval flow Summary
-  iconUrl: http://via.placeholder.com/120x120  
+  iconUrl: http://via.placeholder.com/120x120
+- uid: earn.flow-get-started.badge 
+  type: badge
+  title: Get started with Microsoft Flow Badge
+  summary: Get started with Microsoft Flow Summary
+  iconUrl: http://via.placeholder.com/120x120

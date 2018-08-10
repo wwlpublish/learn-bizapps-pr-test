@@ -15,8 +15,8 @@ roles:
 products:  
 - PowerApps 
 units: 
-- learn-bizapps.flow-get-started.1-flow-introduction
-- learn-bizapps.flow-get-started.2-flow-create-first
-- learn-bizapps.flow-get-started.3-flow-mobile-app
-- learn-bizapps.flow-get-started.4-quiz-flow-get-started
-achievement: learn-bizapps.flow-get-started.badge  
+- learn-bizapps.flow-get-started.1-unit
+- learn-bizapps.flow-get-started.2-unit
+- learn-bizapps.flow-get-started.3-unit
+- learn-bizapps.flow-get-started.quiz-flow-get-started
+achievement: learn.flow-get-started.badge

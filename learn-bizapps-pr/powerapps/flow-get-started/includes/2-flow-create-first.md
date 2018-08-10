@@ -10,7 +10,7 @@ Take a look at the [ Microsoft Flow website](https://ms.flow.microsoft.com), and
 
 Select the **Save Office 365 email attachments to OneDrive for Business** template.
 
-![Office 365 email](media/office-365-email.png)
+![Office 365 email](./media/office-365-email.png)
 
 ## Create the flow
 This is one of our one click templates, where you only answer relevant questions necessary to build the flow, without punching a line of code.
@@ -21,31 +21,31 @@ You are asked to provide credentials for the Office 365 Outlook and SharePoint s
 
 1. Select **Create Flow**.
 
-   ![Save Office 365 email](media/save-flow-office-description.png)
+   ![Save Office 365 email](./media/save-flow-office-description.png)
 
     Flow has created a folder on your OneDrive, where it will now automatically place every attachment that gets emailed to your work email.
    
-    ![Create successful](media/create-successful.png)
+    ![Create successful](./media/create-successful.png)
    
     
 2. Select the **My Flows** menu.
    
-    ![Open my flows](media/click-my-flows.png)
+    ![Open my flows](./media/click-my-flows.png)
 3. Select the flow you just made to see how it works.
    
-    ![Select the flow](media/click-the-flow.png)
+    ![Select the flow](./media/click-the-flow.png)
 4. You see a green check mark, indicating that the flow succeeded. 
 5. Select **Edit** to see how the Flow is defined.
 
-   ![Actions on new email](media/trigger-or-action.png) 
+   ![Actions on new email](./media/trigger-or-action.png) 
  
 1. Select **Succeeded** to see the run history and the results.
    
-    ![Flow successful](media/flow-successful.png)
+    ![Flow successful](./media/flow-successful.png)
    
     All parts of the flow were successful. 
    
-    ![Run history](media/run-history.png)
+    ![Run history](./media/run-history.png)
 
 ## Important concepts in Microsoft Flow
 Keep the following in mind when building flows: 

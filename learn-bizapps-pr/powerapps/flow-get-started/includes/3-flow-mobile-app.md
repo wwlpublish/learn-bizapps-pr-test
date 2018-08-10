@@ -3,7 +3,7 @@ Of course we have an app! The Microsoft Mobile Flow app. From the mobile app, yo
 
 First, you’ll need to download and install the Microsoft Flow app from your app store.
 
-![Mobile app](media/open-mobile-app.png)
+![Mobile app](./media/open-mobile-app.png)
 
 Once it's installed, open it and sign in. When you open the app, you'll see the Activity Feed.
 
@@ -11,7 +11,7 @@ The Activity Feed is the spot to see what’s happening with your flows. It won'
 
 For example, below you'll see the flow's last activity. You can see whether it succeeded or failed to run, and if it failed, which step it failed on.
 
-![Activity Feed](media/see-all-activity.png)
+![Activity Feed](./media/see-all-activity.png)
 
 When you click on the flow, you'll see that it succeeded in both steps. 
 
@@ -22,11 +22,11 @@ When you click on the flow, you'll see that it succeeded in both steps.
 
 - Select the **Buttons** icon to use some of these flows.
 
-![Activity details](media/activity-details.png)
+![Activity details](./media/activity-details.png)
 
 - Select the **Browse** button to check out templates for more button flows to add to your collection.
 
-![Last activity](media/click-browse-button.png)
+![Last activity](./media/click-browse-button.png)
 
 To see how to use buttons, we'll use the **Send myself a reminder in 10 minutes button** flow.
 
@@ -34,20 +34,20 @@ To see how to use buttons, we'll use the **Send myself a reminder in 10 minutes 
 2. Select the reminder button flow.
 3. Select **Use this template**.
    
-    ![Use this template](media/use-this-template.png)
+    ![Use this template](./media/use-this-template.png)
 4. Select **Create**, and then select **Done**.
    
-    ![Create complete](media/create-complete.png)
+    ![Create complete](./media/create-complete.png)
    
     The flow is saved.
    
-    ![Completed reminder](media/complete-reminder.png)
+    ![Completed reminder](./media/complete-reminder.png)
 5. On the Activity Feed screen, select **Buttons** to see the new flow. 
    
-    ![In our buttons](media/button-send-reminder.png)
+    ![In our buttons](./media/button-send-reminder.png)
 6. Select the flow, and in 10 minutes, you'll get a reminder.
    
-    ![In your buttons](media/in-your-collection.png)
+    ![In your buttons](./media/in-your-collection.png)
 
 It's simple to add additional buttons to your collection.
 
@@ -56,10 +56,10 @@ If you decide that you want to modify or delete one of your flows, it's easy.
 
 1. Select the **Flows** button.
    
-    ![Click flows icon](media/click-flows-button.png)
+    ![Click flows icon](./media/click-flows-button.png)
 2. Select one of your flows.
    
-    ![Unwanted flow](media/send-a-reminder.png)
+    ![Unwanted flow](./media/send-a-reminder.png)
    
     Select one of the options:
    
@@ -68,7 +68,7 @@ If you decide that you want to modify or delete one of your flows, it's easy.
    * To view the history of flow, select **Run history** to get an idea of its successful and unsuccessful runs.
    * To delete a flow, select **Delete flow**.
      
-     ![Disable or delete](media/disable-delete.png)
+     ![Disable or delete](./media/disable-delete.png)
 
 ## Next Lesson
 The next lesson covers how to create a button flow for a team. 

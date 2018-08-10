@@ -7,11 +7,11 @@ If you're a beginner with Microsoft Flow, this course will get you going. If you
 ## What is Microsoft Flow?
 Microsoft Flow is an online workflow service that automates events (known as workflows) across the most common apps and services. For example, you can create a flow that adds a lead to Dynamics 365 and a record in MailChimp whenever someone with more than 100 followers tweets about your company.
 
-![Flow conceptual sketch](media/flow-conceptual.png)
+![Flow conceptual sketch](./media/flow-conceptual.png)
 
 When you sign up, you can connect to more than 100 services and manage data in either the cloud or on-premises sources such as SharePoint and SQL Server. The list of applications and services that you can use with Microsoft Flow grows constantly.
 
-![List of services](media/flow-services.png)
+![List of services](./media/flow-services.png)
 
 ## What can you do with Microsoft Flow?
 You can use Microsoft Flow to automate workflows between your favorite applications and services, synchronize files, get notifications, collect data, and much more. 
@@ -33,7 +33,7 @@ You can also use Microsoft Flow to copy files. For example, you can ensure that 
 
 ![List of files in Dropbox](./media/dropbox-files.png) 
 
-![List of same files in SharePoint](media/sharepoint-files.png) 
+![List of same files in SharePoint](./media/sharepoint-files.png) 
 
 You can monitor what people are saying about your business by creating a flow that runs whenever someone sends a tweet with a certain hashtag. The flow could put details about that tweet into a SQL Server database, a SharePoint list, or even an Excel file hosted on OneDrive—whichever service works for you. 
 
@@ -41,7 +41,7 @@ With the data that you collect, you can create actions to connect it to Power BI
 
 ![List of tweets in Excel](./media/tweets-to-excel.png)
 
-![List of tweets in Excel](media/excel-tweets.png)
+![List of tweets in Excel](./media/excel-tweets.png)
 
 And finally, you can automate approval loops for, as an example, vacation requests in a SharePoint list.
 
@@ -49,7 +49,7 @@ And finally, you can automate approval loops for, as an example, vacation reques
 
 For more ideas, browse our list of templates, which help you build flows in just a few steps. For example, you can easily build flows to send yourself weather forecasts, reminders at regular intervals, or phone notifications whenever your manager sends you mail.
 
-![List of templates](media/templates-you-might-use.png)
+![List of templates](./media/templates-you-might-use.png)
 
 Got an idea for a flow that you don't see in the list? Create your own from scratch and, if you want, share it with the community!
 
