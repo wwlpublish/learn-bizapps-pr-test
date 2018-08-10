@@ -12,7 +12,7 @@ levels:
 - beginner
 roles: 
 - businessUser
-product: 
+products: 
 - powerapps
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction
