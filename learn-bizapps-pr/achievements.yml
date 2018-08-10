@@ -35,3 +35,8 @@ achievements:
   title: Get started with Customer Service for Dynamics 365 Badge
   summary: Get started with Customer Service for Dynamics 365 Summary
   iconUrl: http://via.placeholder.com/120x120
+- uid: learn.powerapps-customize.badge
+  type: badge
+  title: Customize and manage PowerApps Badge
+  summary: Customize and manage PowerApps Summary
+  iconUrl: http://via.placeholder.com/120x120

@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-customize.3-powerapps-functions
+title: Powerapps functions 
+metadata: 
+  title: Powerapps functions 
+  description: Learn how to work with PowerApps functions 
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/3-powerapps-functions.md)]  
