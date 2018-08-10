@@ -6,4 +6,4 @@ metadata:
   description: This course will teach you how to process an approval request. 
 durationInMinutes: 12 
 content: | 
-  [!include[](includes/flow-process-approval-request.md)]  
+  [!include[](includes/2-process-approval-request.md)]  

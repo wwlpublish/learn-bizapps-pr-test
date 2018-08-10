@@ -6,4 +6,4 @@ metadata:
   description: This course will teach you how to create an approval SharePoing list 
 durationInMinutes: 12 
 content: | 
-  [!include[](includes/flow-create-approval-request.md)]  
+  [!include[](includes/1-create-approval-request.md)]  

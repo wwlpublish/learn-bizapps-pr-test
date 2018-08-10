@@ -6,4 +6,4 @@ metadata:
   description: Review what you've learned about approval flows 
 durationInMinutes: 12 
 content: | 
-  [!include[](includes/flow-review.md)]  
+  [!include[](includes/3-flow-review.md)]  
