@@ -25,3 +25,8 @@ achievements:
   title: Sample Module Power BI Badge
   summary: Sample Module Power BI Badge Summary
   iconUrl: http://via.placeholder.com/120x120
+- uid: learn.learn-bizapps.customer-service-cases.badge.badge
+  type: badge
+  title: Customer Service Cases Badge
+  summary: Customer Service Cases Badge Summary
+  iconUrl: http://via.placeholder.com/120x120
