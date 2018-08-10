@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit
+# YML code for unit
+uid: learn-bizapps.customer-service-get-started.quiz-customer-service
+# `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
+metadata:
+# Search engine metadata
+  title: Custermer Service quiz
+  description: This quiz will test your knowledge of Customer Service for Dynamics 365.
+  # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
+title: Customer Service quiz
+# `title` appears in the header, ToC, and breadcrumbs
+durationInMinutes: 12
+# `durationInMinutes` is manually created by the writer
+content: This is a quiz for Customer Service.
+quiz:
+  title: Customer Service quiz
+  questions:
+  - content: What is true about modern customer service?
+    choices: 
+    - content: Engagement through Facebook and Twitter is important and growing.
+      correctExplanation: Social media platforms as a way for customers to communicate with a company is rising and is becoming a critical component of solving issues customers have with products and services.
+      isCorrect: true
+    - content: Connecting products like switches and mechanical parts to the internet is not a part of customer service.
+      incorrectExplanation: To the extent that connect parts become part of the internet of things, data collected through these connections can be an important part of the data used in customer service.
+      isCorrect: false
+    - content: The Internet of things is part of self service.
+      incorrectExplanation: Self-service doesn't typically include the internet of things. Self-service incluse things like a knowledge base and searchable support websites.
+      isCorrect: false
+    - content: Data collected from the internet of things is contained in knowledge bases.
+      incorrectExplanation: Data from connected devices is not collected in knowledge bases. Knolwedge bases articles are developed by a company or service organization to help them respond to issues customers have with a product or service. 
+      isCorrect: false
+  - content: Which of the following is true about social media?
+    choices:
+    - content: Knowledge bases are an important part of social media since everybody shares the information collected there.
+      incorrectExplanation: This is only indirectly true. Knowedge bases form a history of product and service issues agents can use. Some of the issues can come from social media and other sources.
+      isCorrect: false
+    - content: Social media includes Instagram.
+      correctExplanation: Social media includes any service devoted to people sharing information and posting questions, include Instagram, Facebook, Twitter, and many others.
+      isCorrect: true
+    - content: Social media is a slow process and not effective in solving customer problems.
+      incorrectExplanation: Social media provides a platform where customer issues can be handled directly and swifly, especially if the answer is quick and simple.
+      isCorrect: false
+  - content: What are not a part of a modern customers journey to get help on a product or service?
+    choices:
+    - content: Automated bots that are programmed to answer a customer's search questions aren't a part of a customer's journey to find help.
+      incorrectExplanation: Automated bots, if they are carefully designed, can be an integral part of how a customer gets help since they can answer questions based upon a company's growing collection of information and solutions gathered from numerous sources and knowledge bases.
+      isCorrect: false
+    - content: What happens after a customer's problem is solved is not important.
+      incorrectExplanation: What a company service agent does after a customer's problem is solved is called "post-engagement" and is becoming increasing important in improving customer relationships, especially in the long term.
+      isCorrect: false
+    - content: Walking into a store and filing a warranty about a defective part.
+      correctExplanation: A modern customer journey is becoming more about how a customer can solve a problem quickly and effectively. Chat sessions, social media, website searches and much faster then talking to someone in a store.
+      isCorrect: true

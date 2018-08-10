@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.get-started.3-powerapps-related-technologies
+title: Powerapps related technologies
+metadata:
+  title: Powerapps related technologies
+  description: PowerApps work with other technologies to help build and share your apps across your organization and into the field. 
+durationInMinutes: 12
+content: |
+  [!include[](includes/3-powerapps-related-technologies.md)]

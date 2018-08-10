@@ -8,15 +8,15 @@
         "dest": "achievements/bizapps/"
       },
       {
+        "src": "dyn365-customer-service",
 
-        "src": "dynamics",
         "files": [
           "**.yml"
         ],
         "dest": "modules"
       },
       {
-        "src": "power-apps",
+        "src": "powerapps",
         "files": [
           "**.yml"
         ],

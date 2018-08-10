@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.get-started.2-powerapps-building-blocks
+title: Powerapps building blocks
+metadata:
+  title: Powerapps building blocks
+  description: In the first topic you read about the main parts of PowerApps. 
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-powerapps-building-blocks.md)]

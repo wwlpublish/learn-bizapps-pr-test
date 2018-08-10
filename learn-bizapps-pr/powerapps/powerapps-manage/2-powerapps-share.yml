@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-manage.2-powerapps-share
+title: Share Powerapps
+metadata:
+  title: Share Powerapps
+  description: In this course you'll learn how to share PowerApps
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-powerapps-share.md)]
