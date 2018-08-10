@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-cases.2-customer-service-automate-cases
+title: Learn how to automate case creation
+metadata:
+  title: Learn how to automate case creation
+  description: Learn how to automate case creation.
+durationInMinutes: 12
+content: |
+  [!include[](includes/2-customer-service-automate-cases.md)]
