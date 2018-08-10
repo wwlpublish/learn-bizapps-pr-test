@@ -1,0 +1,24 @@
+### YamlMime:Module
+uid: learn-bizapps.powerapps-get-started
+metadata:
+  title: Get started with PowerApps
+  description: Learn the basics of PowerApps
+title: Get started with PowerApps
+summary: This course will you show you the basic of PowerApps. You'll learn about the pieces of PowerApps and how you use PowerApps in your organization.
+abstract: This course introduces PowerApps to the beginning student. You'll learn about the pieces of PowerApps and how you use PowerApps in your organization.
+cardDescription: This course introduces PowerApps to the beginning student.
+iconUrl: http://via.placeholder.com/120x120
+levels: 
+- beginner
+roles: 
+- businessUser
+products: 
+- powerapps
+units:
+- learn-bizapps.powerapps-get-started.1-powerapps-introduction
+- learn-bizapps.get-started.2-powerapps-building-blocks
+- learn-bizapps.get-started.3-powerapps-related-technologies
+- learn-bizapps.get-started.4-powerapps-ways-to-build
+- learn-bizapps.get-started.5-powerapps-create-first
+- learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
+achievement: learn.powerapps-get-started.badge
