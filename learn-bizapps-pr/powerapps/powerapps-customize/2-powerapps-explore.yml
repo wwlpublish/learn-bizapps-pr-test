@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-customize.2-powerapps-explore
+title: Explore PowerApps 
+metadata: 
+  title: Explore PowerApps 
+  description: In thie course you'll learn about your first PowerApps app in greater deatil as you explore. 
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/2-powerapps-explore.md)]  
