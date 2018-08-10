@@ -40,3 +40,8 @@ achievements:
   title: Customize and manage PowerApps Badge
   summary: Customize and manage PowerApps Summary
   iconUrl: http://via.placeholder.com/120x120
+- uid: learn.powerapps-get-started.badge
+  type: badge
+  title: Get started with PowerApps Badge
+  summary: Get started with PowerApps Summary
+  iconUrl: http://via.placeholder.com/120x120

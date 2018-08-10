@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-manage.4-review-powerapps
+title: PowerApps review
+metadata:
+  title: PowerApps review
+  description: Review what you've learned so far.
+durationInMinutes: 12
+content: |
+  [!include[](includes/4-review-powerapps.md)]
