@@ -20,7 +20,7 @@ Cases are the fundamental record type in service management, and represent a sin
  
 Cases can also have knowledge base articles, subjects, products, and entitlements associated with them as related or dependent record types. In addition to these related entities, cases can have activities (such as any communication records) associated with them so that everyone in the organization can see what is happening with a case.
 
-![Today's customer across sales, service and marketing](./media/cases2.png)
+![Today's customer across sales, service and marketing](../media/cases2.png)
 
 ## Creating Case Records
 Activity record types, sometimes referred to as "activities" can be used to manage and report on interactions with customers and potential customers, such as accounts, contacts and leads. Activities can also be associated with most other record types in Microsoft Dynamics 365 for Customer Service, including cases.  Activities include:
@@ -36,4 +36,4 @@ In addition, custom activity types can be created by users with the right securi
 
 In some cases, the information that is required to create a case is already contained in an activity. In these situations, it is easier to convert that information into a case than it is to create a new case and re-enter the information.
 
-![Creating case records](./media/cases3.png)
+![Creating case records](../media/cases3.png)

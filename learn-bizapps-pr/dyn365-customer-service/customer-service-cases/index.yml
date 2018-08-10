@@ -15,7 +15,7 @@ roles:
 products: 
 - Dynamics
 units:
-- learn-bizapps.customer-service-cases.1-customer-service-cases
+- learn-bizapps.customer-service-cases.1-customer-service-manage-cases
 - learn-bizapps.customer-service-cases.2-customer-service-automate-cases
 - learn-bizapps.customer-service-cases.3-customer-service-cases-get-started-quiz
-achievement: learn-bizapps.customer-service-cases.badge
+achievement: learn.customer-service-cases.badge
