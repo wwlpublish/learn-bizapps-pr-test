@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-create-approval.2-process-approval-request 
+title: Process an approval request 
+metadata: 
+  title: Process an approval request 
+  description: This course will teach you how to process an approval request. 
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/flow-process-approval-request.md)]  

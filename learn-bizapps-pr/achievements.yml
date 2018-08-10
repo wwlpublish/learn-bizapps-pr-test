@@ -50,3 +50,8 @@ achievements:
   title: Manage your PowerApps Badge
   summary: Manage your PowerApps Summary
   iconUrl: http://via.placeholder.com/120x120
+- uid: learn.flow-create-approval.badge
+  type: badge
+  title: Create an approval flow Badge
+  summary: Create an approval flow Summary
+  iconUrl: http://via.placeholder.com/120x120  
