@@ -3,6 +3,33 @@
     "content": [
       {
         "files": [
+          "achievements.yml"
+        ],
+        "dest": "achievements/bizapps/"
+      },
+      {
+        "src": "dyn365-customer-service",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "powerapps",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "power-bi",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "files": [
           "**/*.md",
           "**/*.yml"
         ],
@@ -14,30 +41,36 @@
           "README.md",
           "LICENSE",
           "LICENSE-CODE",
-          "ThirdPartyNotices"
+          "ThirdPartyNotices",
+          "paths/sample-path/**"
         ]
       }
     ],
     "resource": [
       {
         "files": [
+          "**/*.gif",
           "**/*.png",
-          "**/*.jpg"
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**"
+          "_themes.pdf/**",
+          "paths/sample-path/**"
         ]
       }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
-      "breadcrumb_path": "/learn-bizapps-pr/breadcrumb/toc.json",
+      "breadcrumb_path": "/learn/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "None",
+      "clicktale": true
     },
     "fileMetadata": {},
     "template": [],

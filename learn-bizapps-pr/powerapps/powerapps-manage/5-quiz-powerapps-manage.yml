@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-manage.quiz-manage-apps
+title: Manage an app quiz
+metadata:
+# Search engine metadata
+  title: Manage your PowerApps quiz
+  description: This quiz will test your knowledge of how to manage your PowerApps apps.
+durationInMinutes: 12
+content: Manage your PowerApps quiz
+quiz:
+  title: Manage your PowerApps quiz
+  questions:
+  - content: When a version of an app is restored, what happens?
+    choices: 
+    - content: The original app version is overwritten by a new one.
+      incorrectExplanation: The original version is not overwritten. A new version is created.
+      isCorrect: false
+    - content: The new version is made available to AppSource for your team to use.
+      incorrectExplanation: The new version is added to your list of versions. It is not automatically ready to be used by team members until you explicity share it.
+      isCorrect: false
+    - content: The new version is added to the list of versions.
+      correctExplanation: When an app is restored, the old version is never removed or overwritten. The new version is simply incremented and added to the top of the list.
+      isCorrect: true      
+  - content: When you share a new version of an app, which is true?
+    choices:
+    - content: Everyone you shared an earlier version with your team will need to reinstall the app.
+      incorrectExplanation: No one will need to do anything to see the new version if you had shared an earlier version with them.
+      isCorrect: false
+    - content: Anyone who has the earlier version will not need to reinstall.
+      correctExplanation: If someone already has your app, they won't need to reinstall.
+      isCorrect: true  
+    - content: All previous version will be deleted from the Admin Center.
+      incorrectExplanation: when you save a new version of an app, all previous version will be retained.
+      isCorrect: false
+  - content: Which of the following are true for PowerApps environments.
+    choices:
+    - content: They help you share an app.
+      incorrectExplanation: Sharing an app happens in the Admin Center. Working in an enviroment doesn't help you share an app.
+      isCorrect: false
+    - content: App environments can help reduce bug counts.
+      correctExplanation: App environments will allow people to work within similar environments, thus minimizing bugs related to the details of the environements.
+      isCorrect: true      
+    - content: App environments allow you to securely separate an app in developement and evaluation from versions that your team sees.
+      correctExplanation: Different app environments can be set up for different states of your apps, thus causing less confusion within teams about what version they should use.
+      isCorrect: true
+      
