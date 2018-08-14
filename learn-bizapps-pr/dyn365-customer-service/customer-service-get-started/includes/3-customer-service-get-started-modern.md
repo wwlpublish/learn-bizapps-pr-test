@@ -6,7 +6,7 @@ Service has changed drastically over the past five to ten years. In the past, a 
 
 Today’s customer starts a support journey from multiple starting points. 
 
-![Modern customer journey](media/customer-journey.jpg)
+![Modern customer journey](../media/customer-journey.jpg)
 
 Now with the advent of self-service capabilities, customers can begin to educate themselves using any of the following:
 
@@ -19,7 +19,7 @@ Now with the advent of self-service capabilities, customers can begin to educate
 
 This tells us that we can never be certain just where the customer is coming from, but we do need to be prepared with all possible channels and media open and listening.
 
-![Modern customer journey](media/customer-journey2.png)
+![Modern customer journey](../media/customer-journey2.png)
 
 ## Customer perspective and expections
 It is also not enough just to have a bunch of different channels. Your service organization must be integrated so that:

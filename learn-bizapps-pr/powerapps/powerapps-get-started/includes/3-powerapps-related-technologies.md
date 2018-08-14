@@ -26,8 +26,5 @@ Many data sources are cloud services, like Salesforce. Even Twitter can be a dat
 
 For data that is stored on-premises rather than in the cloud, you use a gateway to provide a reliable connection between PowerApps and your data source. The gateway sits on an on-premises computer and communicates with PowerApps.
 
-## Next steps
-
 Now you have a little more information about all the parts of PowerApps and related technologies. we will continue to deepen your knowledge on each of the parts throughout this course. 
 
-Next up is an introduction to the options you have for creating apps.

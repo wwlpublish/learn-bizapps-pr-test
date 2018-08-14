@@ -36,5 +36,4 @@ To create, share, and administer apps, you'll typically need to visit four place
 
 And when you're done with all that, you can simply run your apps in a browser from Microsoft Dynamics 365. You can also run them by using PowerApps Mobile, which is available for Windows, iOS, and Android devices.
 
-## Next steps
 Now that you have an overview of this course, what PowerApps is and its main elements, we'll look more closely at PowerApps components.
