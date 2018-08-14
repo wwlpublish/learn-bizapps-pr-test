@@ -2,7 +2,7 @@
 
 A key aspect of a customer relationship management strategy is customer service. Microsoft Dynamics 365 for Customer Service provides many features organizations use to manage the services they provide to customers
 
-![Customer Engagement Case Flow](media/customer-engagement.jpg)
+![Customer Engagement Case Flow](../media/customer-engagement.jpg)
 
 ## Dynamics 365 for Customer Service  - Agent Interface  
 
@@ -12,7 +12,7 @@ This short video shows how Dynamics 365 is used for customer service
 
 To better understand the context of customer service, let’s review some real-life customer scenarios.
 
-![Today's Customer across sales, service and marketing. ](media/customer-engagement2.png)
+![Today's Customer across sales, service and marketing. ](../media/customer-engagement2.png)
 
 
 **Addressing and solving customer or product issues:**  Paul Cannon is a customer of Contoso Bicycles. He recently discovered that the suspension on his Contoso mountain bike is defective and is not functioning correctly. Paul contacts Contoso Bicycles to discuss the issue and to obtain help with his bike. The issue is logged in the Mountain Bikes Support Request Queue. 
