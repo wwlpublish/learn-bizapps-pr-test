@@ -1,9 +1,0 @@
-### YamlMime:ModuleUnit
-uid: learn-bizapps.get-started.powerapps-introduction
-title: Get started with PowerApps
-metadata:
-  title: Get started with PowerApps
-  description: This course will teach you the basics of PowerApps
-durationInMinutes: 12
-Content: |
-  [!include[](includes/powerapps-introduction.md)]
