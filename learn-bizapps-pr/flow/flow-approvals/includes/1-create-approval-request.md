@@ -1,5 +1,5 @@
 # Create an approval request
-In a previous topic, you saw how to power your Twitter feed with a SharePoint list in a  simple way. In this topic, you’ll learn how to build a more business-friendly scenario using approvals.
+In this topic, you’ll learn how to build a business-friendly scenario using approvals.
 
 This way, anyone with access to the SharePoint list can contribute tweets without knowing anything about Twitter. The social media team can approve or reject those tweets. The team maintains control of the account and the content that goes out to customers. 
 
@@ -82,5 +82,4 @@ Congratulations! You just create your first flow.
 
 This is just one way that Microsoft Flow can empower productivity for your team. Your team can contribute ideas, relevant news, or product guidance, and you still get to maintain control over what gets tweeted out to customers.
 
-In our next topic, we’ll see what it looks like when an approver receives a new request for a proposed tweet. 
-
+In our next topic, we’ll see what it looks like when an approver receives a new request for a proposed tweet.

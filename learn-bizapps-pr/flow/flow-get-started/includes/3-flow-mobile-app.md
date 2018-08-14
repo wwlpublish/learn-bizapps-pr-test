@@ -70,6 +70,4 @@ If you decide that you want to modify or delete one of your flows, it's easy.
      
      ![Disable or delete](./media/disable-delete.png)
 
-## Next Lesson
-The next lesson covers how to create a button flow for a team. 
-
+The next lesson covers how to create a button flow for a team.

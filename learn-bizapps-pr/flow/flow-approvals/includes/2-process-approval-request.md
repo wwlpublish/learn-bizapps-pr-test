@@ -34,5 +34,4 @@ First we need to add an item to our SharePoint list, then we can process an appr
    
     ![SharePoint refresh list](./media/sharepoint-list-approved.png)
 
-In this topic, you saw the experience from the approver’s point of view - from receiving an approval request email, to processing the request in the Approval Center.
-
+In this topic, you saw the experience from the approver’s point of view, from receiving an approval request email, to processing the request in the Approval Center.

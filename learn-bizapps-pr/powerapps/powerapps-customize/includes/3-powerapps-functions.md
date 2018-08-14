@@ -60,5 +60,3 @@ For more information about these and other functions, see the [formula reference
 
 ## Wrapping it all up
 This brings us to the end of exploring the generated app, and taking a look behind the scenes at the screens, controls, properties, and formulas that give the app its capabilities and even personality. If you've followed along, you should have a better understanding of how a generated app works. Now you can take this understanding into creating your own app.
-
-In the next series of topics, we'll look at how to create versions of your apps.

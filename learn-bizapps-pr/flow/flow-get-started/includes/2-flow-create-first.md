@@ -59,6 +59,5 @@ Other actions could be, send an email, post a Tweet, start an approval, or many 
 
 These will all come into play later, as you build your own flows from scratch. 
 
-## Next Lesson
-The next lesson will look at the Microsoft Flow Mobile app and its capabilities. 
+In the next lesson will look at the Microsoft Flow Mobile app and its capabilities. 
 

@@ -1,4 +1,4 @@
-## Manage Cases
+## Manage Case workload
 You want to understand how your organization measures success to gain insight into core priorities and drivers. Only then can you understand what data modeling, security requirements, and customization needs to be done.
 
 While every organization will have different items they focus on as part of their practice, there are many different key performance indicators (KPI’s) that are common.  Some of the more common customer service key performance indicators are:

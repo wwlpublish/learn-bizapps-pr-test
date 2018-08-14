@@ -12,7 +12,7 @@ This short video shows how Dynamics 365 is used for customer service
 
 To better understand the context of customer service, let’s review some real-life customer scenarios.
 
-![Today's Customer across sales, service and marketing. ](media/customer-engagement2.jpg)
+![Today's Customer across sales, service and marketing. ](media/customer-engagement2.png)
 
 
 **Addressing and solving customer or product issues:**  Paul Cannon is a customer of Contoso Bicycles. He recently discovered that the suspension on his Contoso mountain bike is defective and is not functioning correctly. Paul contacts Contoso Bicycles to discuss the issue and to obtain help with his bike. The issue is logged in the Mountain Bikes Support Request Queue. 
@@ -49,7 +49,7 @@ There are many different trends that are currently affecting how customer servic
 - **Self-service:** Self-Service can mean different things.
   - It could be as simple as providing a knowledge base that customers can leverage to find answers to simple procedural questions. 
   - It could involve customers being able to manage their accounts.
-  -   Sometimes customers are looking for the ability to engage with other customers who are in the same situation.
+  - Sometimes customers are looking for the ability to engage with other customers who are in the same situation.
 
 - **Internet of things:**  With more and more devices connected to the internet and sending back and forth communication, it is important to leverage the technology used on these devices to engage service calls.  This could be with:
   - Anomaly detection
