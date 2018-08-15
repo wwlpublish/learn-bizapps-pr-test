@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps-manage.1-powerapps-versions
 title: Manage PowerApps versions
 metadata:
   title: Manage PowerApps versions
-  description: This course will teach you how to manage versions of your PowerApps
+  description: This course will teach you how to manage versions of your PowerApps.
 durationInMinutes: 12
 content: |
   [!include[](includes/1-powerapps-versions.md)]

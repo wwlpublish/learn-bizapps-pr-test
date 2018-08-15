@@ -2,10 +2,10 @@
 uid: learn-bizapps.powerapps-customize 
 metadata: 
   title: Customize and manage PowerApps 
-  description: Learn how to customize and manage your PowerAps app. 
+  description: Learn how to customize and manage PowerApps. 
 title: Customize PowerApps 
-summary: This course will you show you the basics of PowerApps. You'll learn how to customize your PowerApps. 
-abstract: This course will you show you the basics of PowerApps. You'll learn how to customize your PowerApps. 
+summary: This course will you show how to customize and manage PowerApps.
+abstract: This course will you show you the basics of PowerApps. You'll learn how to customize them with functions and manage them. 
 cardDescription: This course introduces managing PowerApps to the beginning student. 
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
@@ -18,5 +18,5 @@ units:
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore
 - learn-bizapps.powerapps-customize.3-powerapps-functions
-- learn-bizapps.powerapps-customize.quiz-customize-an-app
+- learn-bizapps.powerapps-customize.4-quiz-customize-an-app
 achievement: learn.powerapps-customize.badge  
