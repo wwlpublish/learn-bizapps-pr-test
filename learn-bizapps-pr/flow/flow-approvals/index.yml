@@ -11,7 +11,7 @@ iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner 
 roles: 
-- businessUser 
+- business-user 
 products:  
 - PowerApps
 units: 
