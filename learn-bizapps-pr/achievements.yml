@@ -1,10 +1,20 @@
 ### YamlMime:Achievements
 achievements:
-- uid: learn.sample-path.trophy
+- uid: learn.automate-process-using-flow.trophy
   type: trophy
   ## Note: Trophies are for learning paths.
-  title: Sample Learning Path Trophy
-  summary: Trophy for the 'Sample Learning Path' learning path.
+  title: Automate a business process using Flow Trophy
+  summary: Trophy for the 'Automate a business process using Flow' learning path.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.create-powerapps.trophy
+  type: trophy
+  title: Create an app in PowerApps Trophy
+  summary: Trophy for the 'Create an app in PowerApps' learning path.
+  iconUrl: http://via.placeholder.com/120x120
+- uid: learn.customer-service-hub-cases-slas.trophy
+  type: trophy
+  title: Work with cases and SLAs in Dynamics 365 for Customer Service
+  summary: Trophy for the 'Work with cases and SLAs in Dynamics 365 for Customer Service' learning path.
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.sample-module-bizapps.badge
   type: badge

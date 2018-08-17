@@ -9,6 +9,7 @@
       },
       {
         "src": "dyn365-customer-service",
+
         "files": [
           "**.yml"
         ],
@@ -29,6 +30,7 @@
         "dest": "modules"
       },
       {
+
         "files": [
           "**/*.md",
           "**/*.yml"
