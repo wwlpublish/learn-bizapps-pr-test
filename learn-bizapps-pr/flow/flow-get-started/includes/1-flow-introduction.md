@@ -7,11 +7,11 @@ If you're a beginner with Microsoft Flow, this course will get you going. If you
 ## What is Microsoft Flow?
 Microsoft Flow is an online workflow service that automates events (known as workflows) across the most common apps and services. For example, you can create a flow that adds a lead to Dynamics 365 and a record in MailChimp whenever someone with more than 100 followers tweets about your company.
 
-![Flow conceptual sketch](./media/flow-conceptual.png)
+![Flow conceptual sketch](../media/flow-conceptual.png)
 
 When you sign up, you can connect to more than 100 services and manage data in either the cloud or on-premises sources such as SharePoint and SQL Server. The list of applications and services that you can use with Microsoft Flow grows constantly.
 
-![List of services](./media/flow-services.png)
+![List of services](../media/flow-services.png)
 
 ## What can you do with Microsoft Flow?
 You can use Microsoft Flow to automate workflows between your favorite applications and services, synchronize files, get notifications, collect data, and much more. 
@@ -27,36 +27,36 @@ For example, you can automate these tasks:
 
 A common use of Microsoft Flow is to receive notifications. For example, you can instantly receive an email or a push notification on your phone whenever a sales lead is added to Dynamics 365 or Salesforce.
 
-![Example of a notification mail or a push notification](./media/sales-lead.png)
+![Example of a notification mail or a push notification](../media/sales-lead.png)
 
 You can also use Microsoft Flow to copy files. For example, you can ensure that any file that's added to Dropbox gets automatically copied to SharePoint where your team can find it.
 
-![List of files in Dropbox](./media/dropbox-files.png) 
+![List of files in Dropbox](../media/dropbox-files.png) 
 
-![List of same files in SharePoint](./media/sharepoint-files.png) 
+![List of same files in SharePoint](../media/sharepoint-files.png) 
 
 You can monitor what people are saying about your business by creating a flow that runs whenever someone sends a tweet with a certain hashtag. The flow could put details about that tweet into a SQL Server database, a SharePoint list, or even an Excel file hosted on OneDrive—whichever service works for you. 
 
 With the data that you collect, you can create actions to connect it to Power BI, spot trends, and ask questions about the data.
 
-![List of tweets in Excel](./media/tweets-to-excel.png)
+![List of tweets in Excel](../media/tweets-to-excel.png)
 
-![List of tweets in Excel](./media/excel-tweets.png)
+![List of tweets in Excel](../media/excel-tweets.png)
 
 And finally, you can automate approval loops for, as an example, vacation requests in a SharePoint list.
 
-![List of vacation requests in SharePoint](./media/vacation-requests.png)
+![List of vacation requests in SharePoint](../media/vacation-requests.png)
 
 For more ideas, browse our list of templates, which help you build flows in just a few steps. For example, you can easily build flows to send yourself weather forecasts, reminders at regular intervals, or phone notifications whenever your manager sends you mail.
 
-![List of templates](./media/templates-you-might-use.png)
+![List of templates](../media/templates-you-might-use.png)
 
 Got an idea for a flow that you don't see in the list? Create your own from scratch and, if you want, share it with the community!
 
 ## Where can I create and administer a flow?
 You can create a flow and perform administrative tasks in a browser or on your phone - if you download the mobile app for Microsoft Flow.
 
-![Screen shot of mobile app](./media/screen-mobile-app.png)  
+![Screen shot of mobile app](../media/screen-mobile-app.png)  
 
 You can perform these tasks, among others:
 
@@ -68,7 +68,7 @@ You can perform these tasks, among others:
 ## A brief tour of Microsoft Flow
 Let's jump into the tool, and we'll show you around. We have tons of information for you to learn about how to use Microsoft Flow.
 
-![Start of tour](./media/start-of-tour.png)
+![Start of tour](../media/start-of-tour.png)
 
 On the home page, there are menus for:
 

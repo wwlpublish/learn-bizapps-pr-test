@@ -2,7 +2,7 @@
 
 ![Welcome to PowerApps](../media/powerapps-mobile.png)
 
-[!VIDEO <https://youtu.be/n9fkvkekINE>]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2r0x7]
 
 Welcome to Microsoft PowerApps. This self-paced online course helps you build apps from the ground up. You will learn how to easily create a app from data in an Excel spreadsheet that lives on OneDrive for Business.  And you'll be able to this without touching a traditional programming language such as C#.
 
@@ -36,5 +36,4 @@ To create, share, and administer apps, you'll typically need to visit four place
 
 And when you're done with all that, you can simply run your apps in a browser from Microsoft Dynamics 365. You can also run them by using PowerApps Mobile, which is available for Windows, iOS, and Android devices.
 
-## Next steps
 Now that you have an overview of this course, what PowerApps is and its main elements, we'll look more closely at PowerApps components.

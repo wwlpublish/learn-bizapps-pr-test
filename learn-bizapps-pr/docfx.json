@@ -51,8 +51,11 @@
     "resource": [
       {
         "files": [
+          "**/*.gif",
           "**/*.png",
-          "**/*.jpg"
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
         ],
         "exclude": [
           "**/obj/**",

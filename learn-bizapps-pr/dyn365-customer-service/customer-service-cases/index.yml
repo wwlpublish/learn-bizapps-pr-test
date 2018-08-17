@@ -1,17 +1,17 @@
 ### YamlMime:Module
 uid: learn-bizapps.customer-service-cases
 metadata:
-  title: Get started with cases for customer service.
+  title: Get started with cases for customer service
   description: Get started with cases for customer service.
 title: Get started with cases for customer service.
-summary: This course will teach you the basic of getting started with cases for Customer Service.
-abstract: This course will teach you the basic of getting started with cases for Customer Service.
-cardDescription: Get started with cases for customer service.
+summary: This course will teach you the basic cases.
+abstract: This course will teach you the basic of cases for Customer Service. You'll learn how to create case, resolve cases, reassign cases, and work with knowledge bases.
+cardDescription: Get started with cases for customer service
 iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
 roles: 
-- businessUser
+- business-user
 products: 
 - Dynamics
 units:

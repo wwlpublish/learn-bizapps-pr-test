@@ -38,7 +38,7 @@ Next is the details screen. Here are its main controls:
 - **DetailScreen1** This is the main control on this screen
 - **DetailForm1**: This control is a container for other controls.
 - **DataCard1**: This is a card control, which displays, in this case, a flooring category from the Flooring Estimates app seen from the previous topic. 
-- **IconEdit1** This control when selected allows a user to edit the current item using the Edit/Create screen in the next section.
+- **IconEdit1**: This control when selected allows a user to edit the current item using the Edit/Create screen in the next section.
 
 ![Details screen with controls](../media/powerapps-details-screen.png)
 
@@ -46,8 +46,8 @@ Next is the details screen. Here are its main controls:
 The third screen in the app is the Edit/Create screen. Here are its main controls:
 - **EditScreen1**: This is the main control on this screen.
 - **EditForm1**: This control is a container for other controls.
--  **DataCard8** This is another a card control, which displays a flooring category from tghe Flooring Estimates app see from the previous topic.
-- **IconAccept1** This control when selected allows the user to save the changes made on the screen.
+-  **DataCard8**: This is another a card control, which displays a flooring category from tghe Flooring Estimates app see from the previous topic.
+- **IconAccept1**: This control when selected allows the user to save the changes made on the screen.
 
 ![Edit screen with controls](../media/powerapps-edit-screen.png)
 
