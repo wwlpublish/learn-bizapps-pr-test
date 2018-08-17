@@ -1,9 +1,9 @@
-# Customize an app
-In the previous topic, you looked more closely at the Flooring Estimates app and explored it to get a better understanding of how three-screen apps are composed. The app that PowerApps generated is useful, but you will often customize an app after it's generated.
+## Customize an app
+In the previous unit, you looked more closely at the Flooring Estimates app and explored it to get a better understanding of how three-screen apps are composed. The app that PowerApps generated is useful, but you will often customize an app after it's generated.
 
-In this topic, we'll walk through some basic changes for each screen in the app. There is a lot more you can do to customize an app, but for now the best way to learn is to take any app you generate from a list, such as from an Excel file, and see how you can customize it.
+In this unit, we'll walk through some basic changes for each screen in the app. There is a lot more you can do to customize an app, but for now the best way to learn is to take any app you generate from a list, such as from an Excel file, and see how you can customize it.
 
-## Browse screen
+### Browse screen
 We'll start with the browse screen. The app contains an image for each product but the layout could be improved. Let's work on that.
 1. On the **Screens** pane on the left, select the control for the main gallery , **BrowseGallery1**. 
 1. On the right pane, select the **Layout** control.
@@ -24,7 +24,7 @@ Continue selecting controls on the left pane and changing the information for th
 
 You might start finding out how easy and fun this is to do!
 
-## Details screen
+### Details screen
 On the details screen, we want to change the order of the fields. There are different controls on this screen, so the process is a little different from the browse screen. 
 
 1. On the **Screens** pane on the left, select the control for the Detail screen, **DetailScreen1**.
@@ -36,7 +36,7 @@ On the details screen, we want to change the order of the fields. There are diff
 
    ![Move fields](../media/powerapps-move-fields.png)
 
-## Edit/create screen
+### Edit/create screen
 Finally, on the screen where your app user edits and creates entries (**EditScreen1**), we want to change a text field so that it's easier to enter text. 
 
 1. On the **Screens** pane on the left, select the control for the Edit/Create screen, **EditScreen1**.
@@ -45,4 +45,4 @@ Finally, on the screen where your app user edits and creates entries (**EditScre
 
    ![Change the edit screen fields](../media/powerapps-change-editscreen.png)
 
-You can see how a few basic steps can do a lot to improve the appearance and experience of using an app. In this topic, we focused on the PowerApps Studio UI, which provides a lot of options for customizing your apps. In the next topic, we'll get into formulas, which play an important role in driving app behavior.  
+You can see how a few basic steps can do a lot to improve the appearance and experience of using an app. In this topic, we focused on the PowerApps Studio UI, which provides a lot of options for customizing your apps. In the next unit, we'll get into formulas, which play an important role in driving app behavior.  

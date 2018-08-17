@@ -21,7 +21,7 @@ This tells us that we can never be certain just where the customer is coming fro
 
 ![Modern customer journey](../media/customer-journey2.png)
 
-## Customer perspective and expections
+### Customer perspective and expections
 It is also not enough just to have a bunch of different channels. Your service organization must be integrated so that:
 
 - All the support channels have the same information. You don't want your bots giving advice that differs from what a customer representative would give.
@@ -35,7 +35,7 @@ And the complexity doesn't stop here. In general, the modern service company mus
 - **Fast response times**: Customers expect fast response times. If you can't give them a timely response, they'll go elsewhere, including to your competitors who might have a better support channel in place.
 - **On-site support**: If the customer can't be helped online, the customer often expects the service company to visit the customer at their place of business or in the field to resolve an issue. 
 
-## Typical customer journey
+### Typical customer journey
 The typical customer will follow a particular path to get a resolution to their problem:
 
 1. **Self-assisted**: When people need help, the first thing they do is hop onto the internet and see if they can fix it themselves. They'll visit a few forums and newsgroups and ask a few questions hoping for a quick fix. They might visit the company's website do some research while rooting around in the documentation.

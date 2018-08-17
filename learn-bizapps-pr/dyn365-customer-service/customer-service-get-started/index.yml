@@ -3,7 +3,7 @@ uid: learn-bizapps.customer-service-get-started
 metadata:
   title: Get started with Customer Service for Dynamics 365
   description: Learn the basics of Customer Service for Dynamics 365.
-title: Get started with Customer Service for Dynamics 365
+title: Get started with with Dynamics 365 Customer Service
 summary: This course will get you started with Customer Service.
 abstract: This course will get you started with Customer Service For Dynamics 365. You'll learn about the pieces of customer service and how to optimize it to improve your customer relations.
 cardDescription: This course introduces Microsft Dynamics 365 Customer Service to the beginning student
@@ -13,7 +13,7 @@ levels:
 roles: 
 - business-user
 products: 
-- Dynamics
+- Customer Service
 units:
 - learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
 - learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components

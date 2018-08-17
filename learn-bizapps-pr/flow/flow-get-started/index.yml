@@ -13,7 +13,7 @@ levels:
 roles:  
 - business-user 
 products:  
-- PowerApps 
+- Flow 
 units: 
 - learn-bizapps.flow-get-started.1-flow-introduction
 - learn-bizapps.flow-get-started.2-flow-create-first
