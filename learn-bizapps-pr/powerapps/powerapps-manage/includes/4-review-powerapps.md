@@ -1,4 +1,4 @@
-# Review
+## Review
 Congratulations on building your first app! Let's do a quick review of what you learned so far.
 
 - You built an app based on data in an Excel worksheet that lives on OneDrive for Business.  You learned that PowerApps could connect almost as easily to any cloud service data sources you're already using, like SharePoint, Azure, Google Drive, and Salesforce.
@@ -10,16 +10,16 @@ And you probably did all this before lunch. Outstanding!
 
 The easiest way to advance your skills is to run the samples, play around with the templates, and generate more apps from your own data.
 
-## What's Next?
+### What's Next?
 Regardless of how much experience you began with, we hope you now have a very clear picture of what PowerApps is and how you can start creating apps. We've included some useful resources and downloads below.
 
-## PowerApps resources
+### PowerApps resources
 * Dig deeper with the [PowerApps documentation](https://docs.microsoft.com/powerapps/)
 * Stay current with the [PowerApps blog](https://powerapps.microsoft.com/blog/)
 * Join the [PowerApps community](https://powerusers.microsoft.com/t5/PowerApps-Community/ct-p/PowerApps1)
 * Improve PowerApps by submitting an [idea](https://powerusers.microsoft.com/t5/PowerApps-Ideas/idb-p/PowerAppsIdeas)
 
-## PowerApps downloads
+### PowerApps downloads
 * [PowerApps Studio for Windows](https://aka.ms/powerappswin)
 * [PowerApps Mobile for Windows](https://aka.ms/powerappswin)
 * [PowerApps Mobile for iOS](https://aka.ms/powerappsios)

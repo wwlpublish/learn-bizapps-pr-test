@@ -13,7 +13,7 @@ levels:
 roles: 
 - business-user
 products: 
-- Dynamics
+- Customer Service
 units:
 - learn-bizapps.customer-service-cases.1-customer-service-manage-cases
 - learn-bizapps.customer-service-cases.2-customer-service-automate-cases

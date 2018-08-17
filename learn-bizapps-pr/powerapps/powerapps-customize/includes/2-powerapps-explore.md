@@ -1,7 +1,7 @@
-# Explore your app
+## Explore your app
 Now we're going to look more closely at PowerApps Studio and the screens and controls that define your app's behavior. You can  We won't go through all the details, but seeing more about how this app works will help you to build your own apps. 
 
-## Understand controls in PowerApps
+### Understand controls in PowerApps
 A control is simply a UI element that produces an action or displays information. Many controls in PowerApps are the same as controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on.
 
 In addition to these typical controls, PowerApps has more specialized controls. These can be found on the top toolbar.
@@ -17,7 +17,7 @@ Here are just a few that add interest and impact to your apps:
 
 To see what's available, Select **Insert** on the ribbon, and then select each of the options in turn.
 
-## Explore the browse screen
+### Explore the browse screen
 Each of the three app screens has a main control and some additional controls. The first screen in the app is the browse screen, named **BrowseScreen1** by default. 
 
 Here are some of the primary controls for the Browse screen that you will want to become familiar with:
@@ -33,7 +33,7 @@ PowerApps has a variety of gallery types beyond the default vertical orientation
 
 ![PowerApps gallery options](../media/powerapps-galleries.png)
 
-## Explore the details screen
+### Explore the details screen
 Next is the details screen. Here are its main controls:
 - **DetailScreen1** This is the main control on this screen
 - **DetailForm1**: This control is a container for other controls.
@@ -42,7 +42,7 @@ Next is the details screen. Here are its main controls:
 
 ![Details screen with controls](../media/powerapps-details-screen.png)
 
-## Explore the Edit/Screan screen
+### Explore the Edit/Screan screen
 The third screen in the app is the Edit/Create screen. Here are its main controls:
 - **EditScreen1**: This is the main control on this screen.
 - **EditForm1**: This control is a container for other controls.
@@ -51,4 +51,4 @@ The third screen in the app is the Edit/Create screen. Here are its main control
 
 ![Edit screen with controls](../media/powerapps-edit-screen.png)
 
-Now that you have a sense of how the app is composed of screens and controls, we'll look at how you customize the app in the next topic.
+Now that you have a sense of how the app is composed of screens and controls, we'll look at how you customize the app in the next unit.

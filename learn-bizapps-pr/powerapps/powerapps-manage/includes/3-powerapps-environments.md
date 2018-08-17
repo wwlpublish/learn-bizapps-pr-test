@@ -1,4 +1,4 @@
-# Create environments for your apps
+## Create environments for your apps
 An environment is a container for apps and other resources, like data connections and flows from Microsoft Flow. It's a way to group things based on business requirements.
 
 ![Environment picker](../media/powerapps-environments2.png)
@@ -13,7 +13,7 @@ If you are new to PowerApps, you might have only the default environment at this
 
 - Select the menu to see if there are other environments available.
 
-## Why use environments?
+### Why use environments?
 There are several reasons to create additional environments beyond the default one:
 
 - **Separate app development by department**: In a large organization, each department could work in a different environment. Having separate environments allows department employee to see only apps and company data appropriate to their needs.
@@ -22,7 +22,7 @@ There are several reasons to create additional environments beyond the default o
 
 [!NOTE] Keep in mind that environments are relevant only to app creators and PowerApps admins. When you share an app to a user, that user just runs the app as long as they have the right permissions. You users don't have to worry about what environment it came from.
 
-## Create an environment
+### Create an environment
 Only an admin can create environments. If you're not an admin, this information can still be helpful when you talk to your admin about setting up environments.
 
 1. From the Web.powerapps.com home page, select the gear icon on the right, and select **Admin Center**.
@@ -35,7 +35,7 @@ Only an admin can create environments. If you're not an admin, this information 
 
 That's it. You now have a new environment to work in. If you go back to web.powerapps.com, you will see it in the environments list.
 
-## Manage access to an environment
+### Manage access to an environment
 Two types of people within an organizaion have access to an environment:
 
 * **System administrator**: A system admin has full permissions to create and manage environments.
