@@ -5,7 +5,7 @@ uid: learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
 metadata:
 # Search engine metadata
   title: Get an app started quiz
-  description: This quiz will test your knowledge of how to get a PowerApps app started.
+  description: This quiz tests your knowledge of how to get a PowerApps app started.
   # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
 title: Get an app started quiz
 # `title` appears in the header, ToC, and breadcrumbs
@@ -15,39 +15,39 @@ content: This is a quiz for getting an app started.
 quiz:
   title: Get an app started quiz
   questions:
-  - content: Where do you set up a PowerApps app for sharing with a team?
+  - content: Where do you set up a Microsoft PowerApps app so that you can share it with a team?
     choices: 
     - content: In the PowerApps admin center.
-      correctExplanation: Only in the admin center can you share your app. You must have the correct permissions.
+      correctExplanation: You can share your apps only in the admin center. You must have the correct permissions.
       isCorrect: true
-    - content: In the Windows AppStore
-      incorrectExplanation: The Windows AppStore is where you browse and install PowerApps. It is not where you manage them.
+    - content: In the Windows AppStore.
+      incorrectExplanation: The Windows AppStore is where you browse and install PowerApps apps. It isn't where you manage them.
       isCorrect: false
-    - content: In Dynamics 365
-      incorrectExplanation: Dyanamics 365 is your place to view many apps and servies. It is not the specific location to administer them.
+    - content: In Microsoft Dynamics 365.
+      incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you administer them.
       isCorrect: false
-    - content: In PowerApps Studio
-      incorrectExplanation: PowerApps Studio is where you design your apps, not where you share them with your team.
+    - content: In PowerApps Studio.
+      incorrectExplanation: PowerApps Studio is where you design apps. It isn't where you share them with your team.
       isCorrect: false
-  - content: Which of the following is true about data sources?
+  - content: Which of these statements about data sources is true?
     choices:
-    - content: Data sources for your PowerApps come primarily from your PC or iOS device.
-      incorrectExplanation: Data sources come from many sources, including SharePoint, Google Drive, and Salesforce.
+    - content: Data for your PowerApps apps comes primarily from your PC or Apple iOS device.
+      incorrectExplanation: Data can come from many sources, including Microsoft SharePoint, Google Drive, and Salesforce.
       isCorrect: false
     - content: Twitter can be a data source.
-      correctExplanation: There are many data sources, including Twitter, Facebook, SQL, Salesforce, and so on.
+      correctExplanation: There are many data sources, including Twitter, Facebook, Microsoft SQL SQL, and Salesforce.
       isCorrect: true
     - content: Dropbox cannot be a data source.
-      incorrectExplanation: Dropbox is one of many data sources you can use for PowerApps.
+      incorrectExplanation: Dropbox is one of many data sources that you can use for PowerApps apps.
       isCorrect: false
-  - content: If you're a contributor to PowerApps, which is true.
+  - content: Which of these statements about contributors to PowerApps apps is true?
     choices:
-    - content: Everyone on a team contributes to the team. Therefore, they are contributors for PowerApps apps.
-      incorrectExplanation: Contributors on PowerApps are allowed to customize apps.
+    - content: Everyone on a team contributes to the team. Therefore, all team members are contributors to PowerApps apps.
+      incorrectExplanation: Contributors to PowerApps apps are allowed to customize apps.
       isCorrect: false
     - content: Contributors have read-only access to apps.
-      incorrectExplanation: Contributors can help design apps. Therefore they have read and write access to them.
+      incorrectExplanation: Contributors can help design apps. Therefore, they have read and write access to them.
       isCorrect: false
-    - content: Contributors have access to www.powerapps.com, but team members who don't design apps don't have access to www.powerapps.com.
-      correctExplanation: Contributors by definition can create and modify apps.
+    - content: Contributors have access to www.powerapps.com, but team members who don't design apps don't have access to that site.
+      correctExplanation: By definition, contributors can create and modify apps.
       isCorrect: true

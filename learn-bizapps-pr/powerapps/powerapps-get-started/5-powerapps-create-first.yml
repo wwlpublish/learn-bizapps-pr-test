@@ -3,7 +3,7 @@ uid: learn-bizapps.get-started.5-powerapps-create-first
 title: Create your first PowerApps app
 metadata:
   title: Create your first PowerApps app
-  description: Learn to build your first PowerApps app
+  description: Learn to build your first PowerApps app.
 durationInMinutes: 12
 content: |
   [!include[](includes/5-powerapps-create-first.md)]
