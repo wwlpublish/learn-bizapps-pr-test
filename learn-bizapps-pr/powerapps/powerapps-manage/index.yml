@@ -1,12 +1,12 @@
 ### YamlMime:Module
 uid: learn-bizapps.powerapps-manage
 metadata:
-  title: Manage your PowerApps
-  description: Manage your PowerApps versions, sharing, and environments.
-title: Manage your PowerApps
-summary: This course will you show you how to manage your PowerApps.
-abstract: This course will you show the beginning student how to manage your PowerApps. You'll learn about versions, sharing, and environments.
-cardDescription: This course teaches how to manage the versions, environments, and sharing of PowerApps apps.
+  title: Manage your PowerApps apps
+  description: Manage versions, sharing, and environments for PowerApps apps.
+title: Manage your PowerApps apps
+summary: This module teaches you to manage versions, sharing, and environments for your PowerApps apps.
+abstract: This teaches the beginning student how to manage versions, sharing, and environments for PowerApps apps.
+cardDescription: This course teaches how to manage the versions, sharing, and environments for PowerApps apps.
 iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
