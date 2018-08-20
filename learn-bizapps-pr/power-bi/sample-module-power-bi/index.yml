@@ -21,7 +21,7 @@ levels:
 # `beginner`, `intermediate`, `advanced`
 roles:
 - developer
-# `developer`, `administrator`, `solutionsArchitect`, `businessUser`, `businessAnalyst`
+# `developer`, `administrator`, `solutions-architect`, `business-user`, `business-analyst`; multiple values accepted
 products:
 - Azure
 #

@@ -4,6 +4,7 @@ If something goes wrong with your app, or if you saved changes to your app that 
 Keep in mind that if the app is shared, the people you shared it with also receive the restored version.
 
 ### View versions of your app
+
 1. On web.powerapps.com, select the **Details** button.
 
     ![View app versions](../media/powerapps-versions-details2.png)

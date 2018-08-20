@@ -24,6 +24,7 @@ There are several reasons to create additional environments beyond the default o
 > Keep in mind that environments are relevant only to app creators and PowerApps admins. When you share an app with users, those users just run the app, provided that they have the correct permissions. They don't have to worry about what environment the app came from.
 
 ### Create an environment
+
 Only an admin can create environments. If you aren't an admin, this information can still be helpful when you talk to your admin about setting up environments.
 
 1. On the web.powerapps.com home page, select the gear symbol on the right, and then select **Admin center**.
@@ -37,6 +38,7 @@ Only an admin can create environments. If you aren't an admin, this information 
 That's it. You now have a new environment to work in. If you go back to web.powerapps.com, you'll see it in the environments list.
 
 ### Manage access to an environment
+
 Two types of people in an organization have access to an environment:
 
 * **System admin**: A system admin has full permissions to create and manage environments.
