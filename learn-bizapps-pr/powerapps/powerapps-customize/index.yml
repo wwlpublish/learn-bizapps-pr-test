@@ -11,12 +11,12 @@ iconUrl: http://via.placeholder.com/120x120
 levels:  
 - beginner 
 roles:  
-- businessUser 
+- business-user 
 products:  
 - PowerApps 
 units: 
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore
 - learn-bizapps.powerapps-customize.3-powerapps-functions
-- learn-bizapps.powerapps-customize.quiz-customize-an-app
+- learn-bizapps.powerapps-customize.4-quiz-customize-an-app
 achievement: learn.powerapps-customize.badge  

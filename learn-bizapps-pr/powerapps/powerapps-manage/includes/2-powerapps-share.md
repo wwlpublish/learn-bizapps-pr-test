@@ -1,9 +1,9 @@
-# Share an app
+## Share an app
 Now that you know how to build an app, in this topic you will learn how to share it. You can share an app with specific users or groups, or you can share it with your entire organization. When you share an app with someone, they can run it from Dynamics 365 in a browser or in PowerApps Mobile for Windows, iOS, or Android. 
 
 Even better, if you give someone contributor permissions, they can also update the app.
 
-## Prepare to share an app
+### Prepare to share an app
 You must save an app to the cloud before you can share it with anyone. 
 1. In PowerApps studio, on the **File** menu, select **Save**.
 1. Under **Save as**, select **The Cloud**.  Powerapps need to be saved to the cloud before they can be shared.
@@ -22,7 +22,7 @@ You must save an app to the cloud before you can share it with anyone.
 
 Keep in mind that any changes you make to a shared app will flow through to the people you shared it with as soon as you save the changes. This can be great if you improve the app, but can also impact others if you remove or significantly change features.
 
-## Permissions and licensing
+### Permissions and licensing
 We're not going to get into detail about permissions and licensing, but we want to cover a couple of basics related to sharing:
 
 - Users and contributors need permissions to any data connections and gateways that a shared app uses. Some permissions come along implicitly with the app, but others must be explicitly granted.

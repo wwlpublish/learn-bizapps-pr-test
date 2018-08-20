@@ -1,4 +1,4 @@
-# Use the mobile app for flows
+## Use the mobile app for flows
 Of course we have an app! The Microsoft Mobile Flow app. From the mobile app, you can access these features: Activity Feed, Browsing, Buttons, and Managing Flows.
 
 First, you’ll need to download and install the Microsoft Flow app from your app store.
@@ -16,7 +16,7 @@ For example, below you'll see the flow's last activity. You can see whether it s
 When you click on the flow, you'll see that it succeeded in both steps. 
 
 
-## How flows are started
+### How flows are started
    Buttons are flows that are started with a manual action. For example, you could create a button like Send a "Working from home today" email to your manager.
    You could use this one if you live far away and on days when the traffic is a mess!
 
@@ -51,7 +51,7 @@ To see how to use buttons, we'll use the **Send myself a reminder in 10 minutes 
 
 It's simple to add additional buttons to your collection.
 
-## Modify or delete a flow
+### Modify or delete a flow
 If you decide that you want to modify or delete one of your flows, it's easy.
 
 1. Select the **Flows** button.
@@ -70,4 +70,4 @@ If you decide that you want to modify or delete one of your flows, it's easy.
      
      ![Disable or delete](../media/disable-delete.png)
 
-The next lesson covers how to create a button flow for a team.
+The next unit covers how to create a button flow for a team.

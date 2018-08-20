@@ -13,7 +13,7 @@ Keep in mind that although the Microsoft Dynamics 365 for Customer Service will 
 
 The purpose of a case is to track customer issues, questions, and requests and manage them through a resolution. There are times when a customer might submit a request and then change their mind. Microsoft Dynamics 365 for Customer Service users, by default, have two options to handle this. They can either cancel the case or delete it. 
 
-## Resolving Cases 
+### Resolving Cases 
 Cases can be resolved in many ways. Sometimes the issue can be resolved without having to do research or use other resources. However, sometimes the customer service representative needs to perform research on the issue to determine how other representatives resolved similar issues by checking the knowledge base. Sometimes the issue might have to be escalated. 
 
 A case cannot be resolved until all activities that are related to the case, such as telephone calls, letters, appointments, or email messages, are completed. This prevents anyone from accidentally closing a case before all workflow or mandated activities are finished.

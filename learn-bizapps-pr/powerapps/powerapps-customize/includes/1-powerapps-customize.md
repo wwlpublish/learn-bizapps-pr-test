@@ -1,4 +1,5 @@
 ## Customize an app
+
 In the previous unit, you looked more closely at the Flooring Estimates app and explored it to get a better understanding of how three-screen apps are built. Although the app that Microsoft PowerApps generated is useful, you'll often want to customize an app after it's generated.
 
 In this unit, we'll walk you through some basic changes for each screen in the app. There's a lot more you can do to customize an app, but the best way to start learning is to take any app that you've generated from a list (for example, a Microsoft Excel file) and see how you can customize it.
@@ -25,6 +26,7 @@ Now let's change your app some more.
 You might start finding out how easy and fun this is to do!
 
 ### Details screen
+
 On the details screen, we want to change the order of the fields. The controls on this screen are different from the controls on the browse screen, so the process for changing them is also a little different. 
 
 1. On the **Screens** pane on the left, select the control for the details screen, **DetailScreen1**.
@@ -37,6 +39,7 @@ On the details screen, we want to change the order of the fields. The controls o
     ![Move fields on the details screen](../media/powerapps-move-fields.png)
 
 ### Edit/create screen
+
 Finally, on the screen where your app user edits and creates entries, we want to change a text field so that it's easier to enter text. 
 
 1. On the **Screens** pane on the left, select the control for the edit/create screen, **EditScreen1**.

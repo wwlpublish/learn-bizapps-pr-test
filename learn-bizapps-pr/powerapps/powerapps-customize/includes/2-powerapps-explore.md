@@ -1,4 +1,5 @@
 ## Explore your app
+
 We're now going to look more closely at Microsoft PowerApps Studio, and the screens and controls that define your app's behavior. We won't go through all the details, but knowing more about how this app works will help you build your own apps. 
 
 ### Understand controls in PowerApps
@@ -18,6 +19,7 @@ Here are just a few of the controls that can add interest and impact to your app
 To see what's available, select **Insert** on the ribbon, and then select each option in turn.
 
 ### Explore the browse screen
+
 Each of the three main app screens has a main control and some additional controls. The first screen in the app is the browse screen, named **BrowseScreen1** by default. 
 
 Here are some of the main controls that you'll want to become familiar with for the browse screen:
