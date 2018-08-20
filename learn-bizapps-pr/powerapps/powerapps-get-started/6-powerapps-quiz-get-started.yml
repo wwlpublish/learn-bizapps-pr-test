@@ -35,7 +35,7 @@ quiz:
       incorrectExplanation: Data can come from many sources, including Microsoft SharePoint, Google Drive, and Salesforce.
       isCorrect: false
     - content: Twitter can be a data source.
-      correctExplanation: There are many data sources, including Twitter, Facebook, Microsoft SQL SQL, and Salesforce.
+      correctExplanation: There are many data sources, including Twitter, Facebook, Microsoft SQL Server, and Salesforce.
       isCorrect: true
     - content: Dropbox cannot be a data source.
       incorrectExplanation: Dropbox is one of many data sources that you can use for PowerApps apps.
