@@ -46,7 +46,7 @@ Now that you understand how to use formulas in conjunction with properties, we'l
 * The second formula is associated with the **IconSortUpDown1** control ![Sort gallery icon](../media/powerapps-icon-sort.png). You select this control to sort the list of items in the browse screen gallery.
 
     * The formula is `UpdateContext({SortDescending1: !SortDescending1})`.
-    * The formula uses `UpdateContext` to update a *variable* called `SortDescending1`. The value of the variable switches back and forth as you select the control. This tells the gallery on this screen how to sort the items (watch the video for more details).
+    * The formula uses `UpdateContext` to update a *variable* called `SortDescending1`. The value of the variable switches back and forth as you select the control. This tells the gallery on this screen how to sort the items.
 
 * The third formula is associated with the **NextArrow1** control ![Go to details arrow icon](../media/powerapps-icon-arrow.png). You select this control to go from the browse screen to the details screen.
 

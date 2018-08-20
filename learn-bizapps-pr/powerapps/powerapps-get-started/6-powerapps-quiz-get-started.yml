@@ -21,10 +21,10 @@ quiz:
       correctExplanation: You can share your apps only in the admin center. You must have the correct permissions.
       isCorrect: true
     - content: In the Windows AppStore.
-      incorrectExplanation: The Windows AppStore is where you browse and install PowerApps apps. It isn't where you manage them.
+      incorrectExplanation: The Windows AppSource is where you browse and install PowerApps apps. It isn't where you share them.
       isCorrect: false
     - content: In Microsoft Dynamics 365.
-      incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you administer them.
+      incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you share them.
       isCorrect: false
     - content: In PowerApps Studio.
       incorrectExplanation: PowerApps Studio is where you design apps. It isn't where you share them with your team.
@@ -48,6 +48,6 @@ quiz:
     - content: Contributors have read-only access to apps.
       incorrectExplanation: Contributors can help design apps. Therefore, they have read and write access to them.
       isCorrect: false
-    - content: Contributors have access to www.powerapps.com, but team members who don't design apps don't have access to that site.
+    - content: Contributors have access to web.powerapps.com, but team members who don't design apps don't have access to that site.
       correctExplanation: By definition, contributors can create and modify apps.
       isCorrect: true

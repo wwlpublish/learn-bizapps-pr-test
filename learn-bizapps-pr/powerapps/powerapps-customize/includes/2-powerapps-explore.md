@@ -5,9 +5,9 @@ We're now going to look more closely at Microsoft PowerApps Studio, and the scre
 ### Understand controls in PowerApps
 A control is just a UI element that produces an action or shows information. Many of the controls in PowerApps are just like controls that you've used in other apps: labels, text input boxes, drop-down lists, navigation elements, and so on.
 
-In addition to these typical controls, PowerApps has more specialized controls. These can be found on the top toolbar.
+In addition to these typical controls, PowerApps has more specialized controls. These can be found in the ribbon when you click **Insert**.
 
-![Controls tab on the PowerApps Studio ribbon](../media/powerapps-ribbon-controls.png)
+![Insert ribbon for PowerApps Studio](../media/powerapps-ribbon-controls.png)
 
 Here are just a few of the controls that can add interest and impact to your apps:
 
@@ -32,7 +32,7 @@ Here are some of the main controls that you'll want to become familiar with for 
 
 PowerApps has a variety of gallery types beyond the default vertical orientation. 
 
-- Try the horizontal orientation to see how it changes the look of your app. You'll see more ways to control layout later in this section.
+- Try the horizontal orientation to see how it changes the look of your app. You'll see more ways to control layout later in this unit.
 
 ![PowerApps gallery options](../media/powerapps-galleries.png)
 
@@ -56,4 +56,4 @@ The third screen in the app is the edit/create screen. Here are its main control
 
 ![Edit/create screen with controls](../media/powerapps-edit-screen.png)
 
-You now have a sense of the screens and controls that the app consists of. In the next unit, we'll look at how you can customize the app.
+You now have a sense of the screens and controls that the app consists of. 

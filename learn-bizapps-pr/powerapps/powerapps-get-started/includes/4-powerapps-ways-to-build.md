@@ -1,5 +1,6 @@
+Now that you know the basics of Microsoft PowerApps, let's get to it. 
 ## Ways to build PowerApps
-Now that you know the basics of Microsoft PowerApps, let's get to it. In this unit, we'll look at sample apps, creating apps from a template or by using shared apps, and creating apps from a data source. Then, in the next unit, we'll get more hands-on with app creation.
+In this unit, we'll look at sample apps, creating apps from a template or by using shared apps, and creating apps from a data source. Then, in the next unit, we'll get more hands-on with app creation.
 
 ### Check out some sample apps
 On web.powerapps.com, you'll be greeted with several sample apps that you can use in your web browser. Explore these apps to quickly get a sense of what's possible and how PowerApps can help your business.
@@ -23,7 +24,7 @@ Another good way to create an app is to start from a template. Templates use sam
 
 ![PowerApps app template](../media/powerapps-templates.png)
 
-For example, you can use the Budget Tracker template to create an app that helps you track the budget for projects and events, with custom categories, easy data entry, and visuals that highlight expenditures for easy inspection. Unlike sample apps, app templates let you explore the data source behind them, which is called a Common Data Source.
+For example, you can use the Budget Tracker template to create an app that helps you track the budget for projects and events, with custom categories, easy data entry, and visuals that highlight expenditures for easy inspection. Unlike sample apps, app templates let you explore the data source behind them, which is called a Common Data Service.
 
 ![PowerApps Budget Tracker template](../media/powerapps-budget-tracker.png)
 
