@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-create-approval.1-create-approval-request
-title: Create an approval request in a SharePoint list 
+title: Create an approval request for a SharePoint list 
 metadata: 
-  title: Create an approval request in a SharePoint list 
-  description: This course will teach you how to create an approval SharePoing list 
+  title: Create an approval request for a SharePoint list 
+  description: Learn how to create an approval SharePoint list. 
 durationInMinutes: 12 
 content: | 
   [!include[](includes/1-create-approval-request.md)]  

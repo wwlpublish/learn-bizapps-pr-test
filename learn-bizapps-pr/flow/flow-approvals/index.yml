@@ -2,11 +2,11 @@
 uid: learn-bizapps.flow-create-approval 
 metadata: 
   title: Create an approval flow 
-  description: Learn how to create an approval request on a SharePoint list. 
+  description: Learn how to create an approval request for a SharePoint list. 
 title: Create an approval flow 
-summary: This course will you show you the basics of creating an approval flow using a SharePoint list. You'll learn about how to create a SharePoint list where people can suggest Twitter tweetsm, and then later have them approved and posted later. 
-abstract: This course introduces PowerApps to the beginning student. You'll learn about the pieces of PowerApps and how you use PowerApps in your organization. 
-cardDescription: This course teaches how to create an approval SharePoint list containing Twitter tweats. 
+summary: This module teaches you the basics of creating an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted. 
+abstract:  This module teaches you the basics of creating an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted. 
+cardDescription: This course teaches how to create an approval SharePoint list containing Twitter tweets. 
 iconUrl: http://via.placeholder.com/120x120 
 levels: 
 - beginner 
