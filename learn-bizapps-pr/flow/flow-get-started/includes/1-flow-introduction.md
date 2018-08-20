@@ -1,4 +1,5 @@
 ## Introducing Microsoft Flow
+
 Welcome to Microsoft Flow! In this module, you'll learn how to build two flows:
 
 - A flow that automatically saves email attachments to your Microsoft OneDrive for Business account.
@@ -16,6 +17,7 @@ When you sign up, you can connect to more than 100 services, and can manage data
 ![List of services](../media/flow-services.png)
 
 ### What can you do with Microsoft Flow?
+
 You can use Microsoft Flow to automate workflows between your favorite applications and services, sync files, get notifications, collect data, and much more. 
 
 For example, you can automate these tasks:
@@ -56,6 +58,7 @@ For more ideas, browse our list of templates. Templates help you build flows in 
 Have an idea for a flow that you don't see in the list? Create your own from scratch and, if you want, share it with the community!
 
 ### Where can I create and administer a flow?
+
 You can create a flow and perform administrative tasks in a browser or, if you download the Microsoft Flow mobile app, on your phone.
 
 ![Screenshot of the mobile app](../media/screen-mobile-app.png)

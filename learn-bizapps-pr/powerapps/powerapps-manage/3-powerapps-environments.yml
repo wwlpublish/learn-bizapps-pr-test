@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-manage.3-powerapps-environments
-title: Powerapps environments
+title: PowerApps environments
 metadata:
-  title: Powerapps environments
-  description: Learn how to work with PowerApps environments
+  title: PowerApps environments
+  description: Learn how to work with PowerApps environments.
 durationInMinutes: 12
 content: |
   [!include[](includes/3-powerapps-environments.md)]
