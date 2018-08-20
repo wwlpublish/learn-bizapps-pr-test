@@ -2,10 +2,10 @@
 uid: learn-bizapps.flow-get-started 
 metadata: 
   title: Get started with Microsoft Flow 
-  description: Learn how to create an approval request on a SharePoint list. 
-title: Get started with PowerApps 
-summary: This course will you show you the basics of creating an approval flow using a SharePoint list. You'll learn about how to create a SharePoint list where people can suggest Twitter tweetsm, and then later have them approved and posted later. 
-abstract: This course will you show you the basics of creating an approval flow using a SharePoint list. You'll learn about how to create a SharePoint list where people can suggest Twitter tweetsm, and then later have them approved and posted later. 
+  description: Learn how to create an approval request for a SharePoint list. 
+title: Get started with Microsoft Flow 
+summary: This module teaches you the basics of creating an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted. 
+abstract: This module teaches you the basics of creating an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
 cardDescription: Get started with Microsoft Flow 
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
