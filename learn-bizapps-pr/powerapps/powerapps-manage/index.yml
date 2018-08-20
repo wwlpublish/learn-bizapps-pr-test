@@ -3,15 +3,15 @@ uid: learn-bizapps.powerapps-manage
 metadata:
   title: Manage your PowerApps
   description: Manage your PowerApps versions, sharing, and environments.
-title: Get started with PowerApps
-summary: This course will you show you how to manage your PowerApps versions, sharing, and environments.
-abstract: This course will you show the beginning student how to manage your PowerApps versions, sharing, and environments.
+title: Manage your PowerApps
+summary: This course will you show you how to manage your PowerApps.
+abstract: This course will you show the beginning student how to manage your PowerApps. You'll learn about versions, sharing, and environments.
 cardDescription: This course teaches how to manage the versions, environments, and sharing of PowerApps apps.
 iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
 roles: 
-- businessUser
+- business-user
 products: 
 - PowerApps
 units:
@@ -19,5 +19,5 @@ units:
 - learn-bizapps.powerapps-manage.2-powerapps-share
 - learn-bizapps.powerapps-manage.3-powerapps-environments
 - learn-bizapps.powerapps-manage.4-review-powerapps
-- learn-bizapps.powerapps-manage.quiz-manage-apps
+- learn-bizapps.powerapps-manage.5-quiz-manage-apps
 achievement: learn.powerapps-manage.badge

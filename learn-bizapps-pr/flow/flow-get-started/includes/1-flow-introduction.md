@@ -1,10 +1,10 @@
-# Introducing Microsoft Flow
-Welcome to Microsoft Flow! In this course, you'll learn how to build two flows:
+## Introducing Microsoft Flow
+Welcome to Microsoft Flow! In this unit, you'll learn how to build two flows:
 - A flow that automatically saves email attachments to your OneDrive for Business account.
 - A flow that collects proposed tweets on a SharePoint list, and then if approved posts those tweets.
 
 If you're a beginner with Microsoft Flow, this course will get you going. If you already have some experience, this course will tie concepts together and fill in the gaps.
-## What is Microsoft Flow?
+### What is Microsoft Flow?
 Microsoft Flow is an online workflow service that automates events (known as workflows) across the most common apps and services. For example, you can create a flow that adds a lead to Dynamics 365 and a record in MailChimp whenever someone with more than 100 followers tweets about your company.
 
 ![Flow conceptual sketch](../media/flow-conceptual.png)
@@ -13,7 +13,7 @@ When you sign up, you can connect to more than 100 services and manage data in e
 
 ![List of services](../media/flow-services.png)
 
-## What can you do with Microsoft Flow?
+### What can you do with Microsoft Flow?
 You can use Microsoft Flow to automate workflows between your favorite applications and services, synchronize files, get notifications, collect data, and much more. 
 
 For example, you can automate these tasks:
@@ -53,7 +53,7 @@ For more ideas, browse our list of templates, which help you build flows in just
 
 Got an idea for a flow that you don't see in the list? Create your own from scratch and, if you want, share it with the community!
 
-## Where can I create and administer a flow?
+### Where can I create and administer a flow?
 You can create a flow and perform administrative tasks in a browser or on your phone - if you download the mobile app for Microsoft Flow.
 
 ![Screen shot of mobile app](../media/screen-mobile-app.png)  
@@ -65,7 +65,7 @@ You can perform these tasks, among others:
 * Review detailed run-history reports.
 * View and filter runs by notification type.
 
-## A brief tour of Microsoft Flow
+### A brief tour of Microsoft Flow
 Let's jump into the tool, and we'll show you around. We have tons of information for you to learn about how to use Microsoft Flow.
 
 ![Start of tour](../media/start-of-tour.png)
@@ -89,4 +89,3 @@ For now, let's focus on the **Learn** menu, which contains:
 * **Pricing** can help you choose the right plan for you or your business.
 ## Next lesson
 Now that you've gotten a taste of what Microsoft Flow is and what it can do, let's take a look at what makes a flow.
-

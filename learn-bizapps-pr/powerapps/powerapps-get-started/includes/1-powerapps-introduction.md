@@ -2,7 +2,7 @@
 
 ![Welcome to PowerApps](../media/powerapps-mobile.png)
 
-[!VIDEO <https://youtu.be/n9fkvkekINE>]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2r0x7]
 
 Welcome to Microsoft PowerApps. This self-paced online module helps you build apps from the ground up. You'll learn how to easily create an app from data in a Microsoft Excel workbook that's stored on Microsoft OneDrive for Business. And you'll be able to do this without having to use a traditional programming language like C#.
 

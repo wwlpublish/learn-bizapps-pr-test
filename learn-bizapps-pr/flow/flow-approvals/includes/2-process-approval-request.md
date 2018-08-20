@@ -1,7 +1,7 @@
-# Approve a request
-In a previous topic, you saw how to build an approval process around tweets that are stored in a SharePoint list.  In this topic, you'll see what the experience looks like when an approver receives a new approval request. 
+## Approve a request
+In a previous unit, you saw how to build an approval process around tweets that are stored in a SharePoint list.  In this unit, you'll see what the experience looks like when an approver receives a new approval request. 
 
-## Step One: Modify the SharePoint list
+### Step One: Modify the SharePoint list
 First we need to add an item to our SharePoint list, then we can process an approval request for that item.
 
 1. Open the SharePoint list **ContosoTweets**, which was configured in the previous topic.  Select **New** to create a new tweet. 
@@ -16,7 +16,7 @@ First we need to add an item to our SharePoint list, then we can process an appr
      
      ![SharePoint new item](../media/sharepoint-new-tweet.png)
 
-## Step Two: Modify the flow
+### Step Two: Modify the flow
 1. In **Microsoft Flow**, select **My Flows**. 
 4. Select the **Post list items to Twitter after approval** flow that was configured in the previous topic, then select the running flow under **RUN HISTORY**.
    
@@ -34,4 +34,4 @@ First we need to add an item to our SharePoint list, then we can process an appr
    
     ![SharePoint refresh list](../media/sharepoint-list-approved.png)
 
-In this topic, you saw the experience from the approver’s point of view, from receiving an approval request email, to processing the request in the Approval Center.
+In this unit, you saw the experience from the approver’s point of view, from receiving an approval request email, to processing the request in the Approval Center.
