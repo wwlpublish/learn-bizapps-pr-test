@@ -3,45 +3,45 @@ uid: learn-bizapps.powerapps-customize.4-quiz-customize-an-app
 title: Customize and app quiz
 metadata:
   title: Customize an app quiz
-  description: This quiz will test your knowledge of how to customize and manage an app.
+  description: This quiz tests your knowledge of how to customize and manage an app.
 durationInMinutes: 12
 content: Customize an app quiz
 quiz:
   title: Customize an app quiz
   questions:
-  - content: Where are PowerApps created?
+  - content: Where are Microsoft PowerApps apps created?
     choices: 
     - content: Web.powerapps.com 
       isCorrect: false
-      incorrectExplanation: Web.powerapps.com is where you can view all your apps, but is not where you design them.
+      incorrectExplanation: Web.powerapps.com is where you can view all your apps. It isn't where you design them.
     - content: PowerApps Studio
       correctExplanation: PowerApps Studio is where you build out your apps.
       isCorrect: true
-    - content: SharePoint
-      incorrectExplanation: SharePoint can be a data source for PowerApps, but it is not where apps are designed.
+    - content: Microsoft SharePoint
+      incorrectExplanation: SharePoint can be a data source for PowerApps apps, but it isn't where they're designed.
       isCorrect: false
-    - content: Windows AppSource
-      incorrectExplanation: PowerApps apps are installed from the Windows AppSource, but they are designed on PowerApps Studio.
+    - content: Microsoft AppSource
+      incorrectExplanation: PowerApps apps are installed from AppSource, but they're designed in PowerApps Studio.
       isCorrect: false
-  - content: Which is not a main screen on a PowerApps app?
+  - content: Which of the following isn't a main screen in PowerApps apps?
     choices:
     - content: Browse screen
-      incorrectExplanation: The Browse screen is one of the main screens on PowerApps screen.
+      incorrectExplanation: The browse screen is one of the main screens in PowerApps apps.
       isCorrect: false
-    - content: Update screen
-      correctExplanation: The three main screens on a PowerApps app are Browse, Details, and Edit.
+    - content: Edit/create screen
+      correctExplanation: The three main screens in PowerApps apps are the browse, details, and edit/create screens.
       isCorrect: true
-    - content: The Preview pain
-      incorrectExplanation: A Preview pain is not a main screen. The Run button does start your app for previewing, but is not a screen.
+    - content: Preview pane
+      incorrectExplanation: Although the Run button does start your app so that you can preview it, the Preview pane isn't a main screen.
       isCorrect: false
-  - content: Which screen is the first screen on a PowerApps app?
+  - content: Which screen is the first screen in PowerApps apps?
     choices:
-    - content: Preview screen
-      incorrectExplanation: A Preview pain is not a main screen. The Run button does start your app for previewing, but is not a screen.
+    - content: Preview pane
+      incorrectExplanation: Although the Run button does start your app so that you can preview it, the Preview pane isn't a main screen.
       isCorrect: false
     - content: Details screen
-      incorrectExplanation: The Details screen isn't the First screen. The first screen is the Browse screen. When an item is clicked on the Browse screen, typically a details screen is displayed.
+      incorrectExplanation: The browse screen is the first screen. A details screen typically opens when a specific item is selected on the browse screen.
       isCorrect: false
     - content: Browse screen
-      correctExplanation: PowerApps always opens first with the Browse screen.
+      correctExplanation: When PowerApps apps start, the browse screen is always the first screen.
       isCorrect: true

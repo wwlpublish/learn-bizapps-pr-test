@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps-customize.1-powerapps-customize
 title: Customize PowerApps  
 metadata: 
   title: Customize PowerApps 
-  description: This course will teach you how to custmize your powerapps. 
+  description: This module teaches you how to customize your PowerApps apps. 
 durationInMinutes: 12 
 content: | 
   [!include[](includes/1-powerapps-customize.md)]  
