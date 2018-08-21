@@ -3,7 +3,7 @@ uid: learn-bizapps.customer-service-get-started.3-customer-service-get-started-m
 title: Understand the modern customer journey
 metadata:
   title: Understand the modern customer journey
-  description: Understand the modern customer journey for Dynamics 365 Customer Service.
+  description: Understand the modern customer journey for Dynamics 365 for Customer Service.
 durationInMinutes: 12
 content: |
   [!include[](includes/3-customer-service-get-started-modern.md)]
