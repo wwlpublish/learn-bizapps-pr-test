@@ -1,6 +1,6 @@
 ## Customize an app
 
-In the previous unit, you looked more closely at the Flooring Estimates app and explored it to get a better understanding of how three-screen apps are built. Although the app that Microsoft PowerApps generated is useful, you'll often want to customize an app after it's generated.
+In a previous unit, you looked more closely at the Flooring Estimates app and explored it to get a better understanding of how three-screen apps are built. Although the app that Microsoft PowerApps generated is useful, you'll often want to customize an app after it's generated.
 
 In this unit, we'll walk you through some basic changes for each screen in the app. There's a lot more you can do to customize an app, but the best way to start learning is to take any app that you've generated from a list (for example, a Microsoft Excel file) and see how you can customize it.
 
@@ -23,7 +23,7 @@ Now let's change your app some more.
 1. Press the Delete key to remove the description text. Don't worry. You aren't deleting this information from your data source. You're just making it so that the information no longer shows up in the app.
 1. Continue selecting controls in the left pane and changing the information for them in the right pane. You can also select controls directly in the app and then change their details in the right pane. 
 
-You might start finding out how easy and fun this is to do!
+It's that easy. And you might find that it's fun too!
 
 ### Details screen
 
@@ -48,4 +48,4 @@ Finally, on the screen where your app user edits and creates entries, we want to
 
     ![Change the edit/create screen fields](../media/powerapps-change-editscreen.png)
 
-You've seen how a few basic steps can do a lot to improve the appearance and experience of using an app. In this unit, we focused on the PowerApps Studio UI, which provides lots of options for customizing apps. In the next unit, we'll get into formulas, which play an important role in driving app behavior.
+You've seen how a few basic steps can do a lot to improve the appearance and experience of using an app. In this unit, we focused on the PowerApps Studio UI, which provides lots of options for customizing apps. In the next unit, we'll explore the app in greater detail.

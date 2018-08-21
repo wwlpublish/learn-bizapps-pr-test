@@ -22,7 +22,7 @@ PowerApps apps use many data sources, and connectors are used to make connection
 
 ![PowerApps data sources](../media/powerapps-datasources.png)
 
-Many data sources are cloud services, like Salesforce. Even Twitter can be a data source if you're tracking your company's hashtags. Connectors might not feel like the coolest part of app development, but they're essential when you work with data that you, your colleagues, and your customers care about. And when an app lights up with your data source for the first time, you'll suddenly find that they're very cool!
+Many data sources are cloud services, like Salesforce. Even Twitter can be a data source if you're tracking your company's hashtags. Connectors might not feel like the coolest part of app development, but they're essential when you work with data that you, your colleagues, and your customers care about. And when an app shows up with your data source for the first time, you'll suddenly find that they're very cool!
 
 For data that's stored on-premises instead of in the cloud, you use a gateway to provide a reliable connection between PowerApps and your data source. The gateway sits on an on-premises computer and communicates with PowerApps.
 

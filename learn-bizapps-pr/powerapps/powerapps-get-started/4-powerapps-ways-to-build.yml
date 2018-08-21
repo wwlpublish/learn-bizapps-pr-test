@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps-get-started.4-powerapps-ways-to-build
 title: Ways to build PowerApps
 metadata:
   title: Ways to build PowerApps
-  description: Learn how PowerApps works with other technologies to help you build and share apps across your organization and in the field. 
+  description: Learn the different ways you can build PowerApps.
 durationInMinutes: 12
 content: |
   [!include[](includes/4-powerapps-ways-to-build.md)]

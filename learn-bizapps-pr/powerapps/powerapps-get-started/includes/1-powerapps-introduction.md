@@ -1,16 +1,18 @@
 ## Welcome to PowerApps
 
-![Welcome to PowerApps](../media/powerapps-mobile.png)
+Welcome to Microsoft PowerApps. This self-paced online module helps you build apps from the ground up. 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2r0x7]
 
-Welcome to Microsoft PowerApps. This self-paced online module helps you build apps from the ground up. You'll learn how to easily create an app from data in a Microsoft Excel workbook that's stored on Microsoft OneDrive for Business. And you'll be able to do this without having to use a traditional programming language like C#.
+With this introductory module, you'll learn how to easily create an app from data in a Microsoft Excel workbook that's stored on Microsoft OneDrive for Business. And you'll be able to do this without having to use a traditional programming language like C#.
 
 With PowerApps, you can:
 
 - Quickly build an app by using the skills you already have. 
 - Connect to the cloud services and data sources you're already using.
 - Instantly share your apps so that co-workers across the company or across the world can use them on their phones and tablets.
+
+![Welcome to PowerApps](../media/powerapps-mobile.png)
 
 The sky's the limit when it comes to using PowerApps to get things done and keep people informed. Here are just a few examples to get you thinking about how you can use an app, instead of traditional paper notes, to run your business:
 
@@ -25,12 +27,11 @@ PowerApps is a collection of software services, apps, and connectors that work t
 You can now act on your data and update it anywhere and on any device.
 
 ![Welcome to PowerApps](../media/powerapps-intro.gif)
-![PowerApps animated introduction]
 
 To create, share, and administer apps, you'll typically need to visit four places in the following order:
 
-1. **<web.powerapps.com>**: You'll use this site to start creating apps based on sample apps and templates.
-1. **PowerApps Studio**: This is where you'll create apps based on the data connections they require.
+1. [web.powerapps.com](https://web.powerapps.com) You'll use this site to specify how to create your app, based on sample apps or templates.
+1. **PowerApps Studio**: This is where you'll flesh out your apps with app screens and other controls.
 1. **PowerApps Mobile**: You can run your apps in PowerApps Mobile, which is available for Microsoft Windows, Apple iOS, and Google Android devices.
 1.  **PowerApps admin center**: This is where you'll define environments for your apps, and manage data connections and other elements. 
 

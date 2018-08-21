@@ -26,9 +26,9 @@ PowerApps now starts generating the app. PowerApps makes all sorts of inferences
 ### Explore the generated app
 Success! Your new three-screen app opens in PowerApps Studio. 
 
-On the left, you'll see the **Screens** pane. Select an icon in the upper-right corner to switch to the thumbnail view. 
+On the left, you'll see the **Screens** pane. In the upper right of the screens pane select the thumbnail view. 
 
-![Toggle the view](../media/powerapps-app-nav.png)
+![Toggle the view](../media/Powerapps-app-nav.png)
 
 Select the thumbnail for each screen to view the controls on that screen. 
 
@@ -36,7 +36,7 @@ Here is the main PowerApps Studio development window, which you'll learn more ab
 
 ![The generated app](../media/powerapps-full-screen2.png)
 
-Select the **Play** button ![Start app preview arrow](../media/powerapps-arrow.png) in the upper right to run the app. Try out the app. You'll see that it includes all the data from the list and provides a good default experience.
+Select **Play** ![Start app preview arrow](../media/powerapps-arrow.png) in the upper right to run the app. Try out the app. You'll see that it includes all the data from the list and provides a good default experience.
 
 All apps generated from data have the same set of screens that an app user works with:
 
