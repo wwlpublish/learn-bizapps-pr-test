@@ -1,11 +1,11 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-manage.5-quiz-manage-apps
-title: Manage your PowerApps app quiz
+title: "knowledge check: Manage your PowerApps"
 metadata:
 # Search engine metadata
   title: Manage your PowerApps app quiz
   description: This quiz tests your knowledge of how to manage your PowerApps apps.
-durationInMinutes: 12
+durationInMinutes: 8
 content: Manage your PowerApps app quiz
 quiz:
   title: Manage your PowerApps app quiz

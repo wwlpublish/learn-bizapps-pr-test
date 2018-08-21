@@ -7,9 +7,9 @@ metadata:
   title: Get an app started quiz
   description: This quiz tests your knowledge of how to get a PowerApps app started.
   # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
-title: Get an app started quiz
+title: "Knowledge check: Get an app started"
 # `title` appears in the header, ToC, and breadcrumbs
-durationInMinutes: 12
+durationInMinutes: 10
 # `durationInMinutes` is manually created by the writer
 content: This is a quiz for getting an app started.
 quiz:
@@ -21,7 +21,7 @@ quiz:
       correctExplanation: You can share your apps only in the admin center. You must have the correct permissions.
       isCorrect: true
     - content: In the Windows AppStore.
-      incorrectExplanation: The Windows AppSource is where you browse and install PowerApps apps. It isn't where you share them.
+      incorrectExplanation: The Microsoft AppSource is where you browse and install PowerApps apps. It isn't where you share them.
       isCorrect: false
     - content: In Microsoft Dynamics 365.
       incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you share them.

@@ -1,4 +1,5 @@
 Now that you know the basics of Microsoft PowerApps, let's get to it. 
+
 ## Ways to build PowerApps
 In this unit, we'll look at sample apps, creating apps from a template or by using shared apps, and creating apps from a data source. Then, in the next unit, we'll get more hands-on with app creation.
 

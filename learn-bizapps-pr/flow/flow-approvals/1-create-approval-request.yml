@@ -4,6 +4,6 @@ title: Create an approval request for a SharePoint list
 metadata: 
   title: Create an approval request for a SharePoint list 
   description: Learn how to create an approval SharePoint list. 
-durationInMinutes: 12 
+durationInMinutes: 15 
 content: | 
   [!include[](includes/1-create-approval-request.md)]  

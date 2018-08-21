@@ -1,12 +1,10 @@
-## Create your first app
-
 OK, let's get started.
 
 Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook that's stored on your Microsoft OneDrive for Business account. This Excel workbook lists a company's inventory of flooring samples, together with pictures and prices. 
 
 But keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
-### Connect to a data source
+## Connect to a data source
 1.  Download the [Flooring Estimates spreadsheet](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx), and save it to your OneDrive for Business account.
 1. Go to <https://web.powerapps.com>, and sign in.
 1. In the left pane, select **Apps**.
@@ -23,7 +21,7 @@ But keep in mind that you can use data from lots of other sources, including Mic
 
 PowerApps now starts generating the app. PowerApps makes all sorts of inferences about your data to generate a useful app as a starting point.
 
-### Explore the generated app
+## Explore the generated app
 Success! Your new three-screen app opens in PowerApps Studio. 
 
 On the left, you'll see the **Screens** pane. In the upper right of the screens pane select the thumbnail view. 
@@ -44,7 +42,7 @@ All apps generated from data have the same set of screens that an app user works
 * **Edit/create screen**: This screen is where the app user edits an existing item or creates a new one.
 * **Details screen**: Select an item in the app, and you'll see the details screen. This screen is where you can view more details about an item, and can also delete or edit the item.
 
-### Install the app on your device 
+## Install the app on your device 
 Of course, you'll want to install your app on your phone to see how it looks there.
 
 1. Download the PowerApps player app from the appropriate app store, depending on whether you have a phone or a PC.

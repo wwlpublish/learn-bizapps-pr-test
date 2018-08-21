@@ -1,4 +1,3 @@
-## Create your first flow
 In this unit, you'll see more of the Microsoft Flow environment as you build your first flow.
 
 It can be time consuming to search for attachments through email. The flow that you'll build saves time by storing all your email attachments in a folder on your Microsoft OneDrive for Business account.
@@ -12,7 +11,7 @@ Select the **Save Office 365 email attachments to OneDrive for Business** templa
 
 ![Office 365 email](../media/office-365-email.png)
 
-### Create the flow
+## Create the flow
 **Save Office 365 email attachments to OneDrive for Business** is one of our one-click templates, where you just answer questions that are necessary to build the flow, without having to write a single line of code.
 
 On the template graphic, there's a description of what the template does and what it needs to succeed.
@@ -48,7 +47,7 @@ You're asked to provide credentials for the Microsoft Office 365 Outlook and Mic
 
     ![Run history](../media/run-history.png)
 
-### Important concepts in Microsoft Flow
+## Important concepts in Microsoft Flow
 Keep these concepts in mind when building flows: 
 
 - Every flow has two main parts: a *trigger*, and one or more *actions*.

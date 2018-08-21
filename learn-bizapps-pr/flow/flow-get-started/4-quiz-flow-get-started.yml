@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.4-quiz-flow-get-started
-title: Get a flow started quiz 
+title: "Knowledge check: Get a flow started" 
 metadata: 
 # Search engine metadata 
   title: Get a flow started quiz 
@@ -15,9 +15,9 @@ quiz:
     - content: On the Microsoft Flow website.
       correctExplanation: The Microsoft Flow website is typically where you start a flow.
       isCorrect: true 
-    - content: By downloading the Microsoft Flow app from the Windows AppStore.
-      incorrectExplanation: Microsoft Flow is a service, not an app. You can't download it from the Windows AppStore.
-      isCorrect: false 
+    - content: By downloading the Microsoft Flow app.
+      correctExplanation: Simple flows can be started from the app.
+      isCorrect: true 
     - content: In Microsoft Dynamics 365.
       incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you start a flow. 
       isCorrect: false 

@@ -1,9 +1,8 @@
-## Add formulas to PowerApps
 One of the major benefits of Microsoft PowerApps is that you don't have to write complicated application code as a developer does. But you still need a way to express logic in an app, and to control an app's navigation, filtering, sorting, and other functionality. This is where formulas come in.
 
 If you've used Microsoft Excel functions, the approach that PowerApps takes should feel familiar. In this unit, we'll show a couple of basic formulas for text formatting and then walk through three of the formulas that PowerApps includes in the generated app. You'll get a taste of what formulas can do and will also start writing your own.
 
-### Understand formulas and properties
+## Understand formulas and properties
 In the previous unit, we worked with the browse screen gallery. Now we're going to work with the details screen, which is the screen the user opens to look more closely at a carpet item. 
 
 By default, the price appears as a plain number without a currency symbol. But suppose we want to add a dollar sign, and that we also want the text color to change, depending on the item's cost (for example, red if it's more than $5 but green otherwise). The following illustration gives an idea of what we want.
@@ -35,7 +34,7 @@ To format the color conditionally, based on the price, use a formula like the fo
 
 `If(Price > 5, Color.Red, Color.Green)`
 
-### Formulas included in the generated app
+## Formulas included in the generated app
 Now that you understand how to use formulas in conjunction with properties, we'll look at three examples of formulas that PowerApps uses in the generated app. All the examples are from the browse screen and work with the **OnSelect** property, which defines what happens when a user selects an app control.
 
 * The first formula is associated with the **IconNewItem1** control ![New item icon](../media/powerapps-icon-add-item.png). You select this control to go from the browse screen to the edit/create screen to create an item. 
@@ -57,5 +56,5 @@ There are many other formulas in the app, so take some time to select controls a
 
 For more information about these and other functions, see the [formula reference](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference).
 
-### Wrapping it all up
+## Wrapping it all up
 This brings us to the end of our exploration of the generated app, and our behind-the-scenes look at the screens, controls, properties, and formulas that give the app its capabilities—and even its personality. If you've followed along, you should have a better understanding of how a generated app works. You can now take this understanding and use it to create your own app.
