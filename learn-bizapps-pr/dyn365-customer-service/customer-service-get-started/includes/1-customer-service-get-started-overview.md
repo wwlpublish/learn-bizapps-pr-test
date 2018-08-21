@@ -25,7 +25,7 @@ Sidney, a Customer Support Specialist at Fabrikam Furniture, receives Jim's ques
 **Collecting and applying customer feedback**: Maria is the Products Manager for Tables and Chairs at Fabrikam Furniture. She wants to collect feedback about the at-home assembly process when customers contact Fabrikam. She uses the case management functionality of Customer Service to capture this feedback. She can also analyze the tables and chairs that cause more issues during at-home assembly, and those that are easier to assemble. Additionally, Maria can determine which instructions for at-home assembly of tables and chairs must be prioritized for editing and review.
 
 ### Understanding today's customer
-Customers today are more informed than ever. Customer are used to having what they want, when they want it, the way they want it. 
+Customers today are more informed than ever. Customers are used to having what they want, when they want it, the way they want it. 
  
 Think of the typical process of buying a TV:
 
