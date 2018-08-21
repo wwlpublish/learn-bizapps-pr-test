@@ -18,7 +18,7 @@ To help you better understand the context of customer service, let's review some
 
 Rob, the Mountain Bikes Support Specialist for Contoso Bicycles, receives the issue through Customer Service. He then works with Paul to schedule a service activity to repair or replace the defective suspension.
 
-**Receiving and answering customer questions**: Jim Glynn is a customer of Fabrikam Furniture. He recently received a table that he purchased through the Fabrikam website. Although Jim tries to assemble the table, he isn't sure he's doing it correctly. Therefore, he contacts Fabrikam Furniture to ask questions and get help with his table. 
+**Receiving and answering customer questions**: Jim Glynn is a customer of Fabrikam Furniture. He recently received a table that he bought through the Fabrikam website. Although Jim tries to assemble the table, he isn't sure he's doing it correctly. Therefore, he contacts Fabrikam Furniture to ask questions and get help with his table. 
 
 Sidney, a Customer Support Specialist at Fabrikam Furniture, receives Jim's questions. He uses the Knowledge Base in Customer Service to find a frequently asked questions (FAQ) document for the table. He then uses that document to help answer Jim's questions.
 
@@ -34,7 +34,7 @@ Think of the typical process of buying a TV:
 1. You'll likely check out customer reviews and determine which TV you think is best before you set foot in a store.
 1. After you're in the store, you might engage with a sales rep, but you already have a good idea of what you're looking for.
 
-The same process can be applied across different experiences. Customers want to be in control of the experience, and they prefer little or no interference as they work through the process. It's critical that customers be given the flexibility to drive the engagement experience but still have the option to engage with live agents on their terms.
+The same process can be applied across different experiences. Customers want to be in control of the experience, and they prefer little or no interference as they work through the process. Customers should have the flexibility to drive the engagement experience but still be able to engage with live agents. But any such engagement should be on *their* terms.
 
 ### Trends influencing customer service
 There are many trends that are currently affecting how customer service works. As a service organization, it's important that you understand what those trends are and how you can take advantage of them to enhance and drive the customer experience. Here are some of the trends influencing service today:
