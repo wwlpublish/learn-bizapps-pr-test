@@ -11,9 +11,9 @@ iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner 
 roles: 
-- businessUser 
+- business-user 
 products:  
-- PowerApps
+- Flow
 units: 
 - learn-bizapps.flow-create-approval.1-create-approval-request
 - learn-bizapps.flow-create-approval.2-process-approval-request

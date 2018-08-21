@@ -1,0 +1,21 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.create-powerapps
+title: Create an app in PowerApps
+summary: This learning path introduces you to PowerApps, helps you create and customize an app, and then manage and distribute it. 
+cardDescription: Create, customize and share an app 
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- business-user
+products:
+- PowerApps
+prerequisites: This course assumes that you are familiar with OneDrive, SharePoint, and Excel. 
+metadata:
+  title: Create an app in PowerApps
+  description: This learning path introduces you to PowerApps, helps you create and customize an app, and then manage and distribute it.
+modules:
+- learn-bizapps.powerapps-get-started
+- learn-bizapps.powerapps-customize
+- learn-bizapps.powerapps-manage
+achievement: learn.create-powerapps.trophy

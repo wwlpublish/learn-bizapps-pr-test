@@ -1,6 +1,6 @@
 ### YamlMime:ModuleUnit
 # YML code for unit
-uid: learn-bizapps.customer-service-get-started.quiz-customer-service
+uid: learn-bizapps.customer-service-get-started.4-quiz-customer-service
 # `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
 metadata:
 # Search engine metadata

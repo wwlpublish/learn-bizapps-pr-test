@@ -1,9 +1,11 @@
 ## Create an approval request
+
 In this unit, you'll learn how to build a business-friendly scenario that uses approvals.
 
 In this scenario, anyone who has access to the Microsoft SharePoint list can contribute tweets without knowing anything about Twitter. The social media team can then approve or reject those tweets. That team maintains control of the account and the content that goes out to customers. 
 
 ### Step one: Create a SharePoint list for tweets
+
 You'll use a template that starts an approval process whenever a new item is created in a specific list. If the item is approved, a tweet is then posted to Twitter. But for this unit, you'll change the process by adding steps that update a SharePoint list with the approval response, indicate whether the item was approved, and add any comments that the approver added to the proposed tweet. 
 
 First, let's create the SharePoint list.
@@ -23,6 +25,7 @@ First, let's create the SharePoint list.
 
 ### Step two: Create an approval request flow
 1. On the Microsoft Flow home page, select **Approvals**.
+
 1. Select **Create approval flow**, and then scroll down and select the **Post list items to Twitter after approval** template. 
 
     ![Select template](../media/create-approval.png)

@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps-get-started.1-powerapps-introduction
 title: Get started with PowerApps
 metadata:
   title: Get started with PowerApps
-  description: This course will teach you the basics of PowerApps
+  description: This module teaches you the basics of PowerApps.
 durationInMinutes: 12
 content: |
   [!include[](includes/1-powerapps-introduction.md)]

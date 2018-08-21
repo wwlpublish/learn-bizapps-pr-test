@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.flow-get-started.1-unit 
-title: Get started with Microsoft Flow. 
+uid: learn-bizapps.flow-get-started.1-flow-introduction
+title: Get started with Microsoft Flow
 metadata: 
-  title: Get started with Microsoft Flow. 
-  description: This course will teach you the basics of Microsoft Flow. 
+  title: Get started with Microsoft Flow
+  description: Learn the basics of Microsoft Flow. 
 durationInMinutes: 12 
 content: | 
   [!include[](includes/1-flow-introduction.md)] 

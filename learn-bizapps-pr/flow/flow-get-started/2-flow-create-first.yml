@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.flow-get-started.2-unit 
+uid: learn-bizapps.flow-get-started.2-flow-create-first
 title: Create your first flow 
 metadata: 
   title: Create your first flow 
-  description: In this topic you'll create your first flow. 
+  description: Learn how to create your first flow.
 durationInMinutes: 12 
 content: | 
   [!include[](includes/2-flow-create-first.md)] 

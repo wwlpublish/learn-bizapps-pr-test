@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps-customize.2-powerapps-explore
 title: Explore PowerApps 
 metadata: 
   title: Explore PowerApps 
-  description: In thie course you'll learn about your first PowerApps app in greater deatil as you explore. 
+  description: Learn about your first PowerApps app in more detail as you explore it. 
 durationInMinutes: 12 
 content: | 
   [!include[](includes/2-powerapps-explore.md)]  
