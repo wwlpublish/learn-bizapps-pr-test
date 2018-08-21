@@ -40,7 +40,7 @@ The same process can be applied across different experiences. Customers want to 
 There are many trends that are currently affecting how customer service works. As a service organization, it's important that you understand what those trends are and how you can take advantage of them to enhance and drive the customer experience. Here are some of the trends influencing service today:
 
 - **Mobile devices**: With so many mobile devices available today, people are no longer engaging with customer service just through a phone call or email. They want to be able to access portal information on their mobile devices or engage with an agent through a chat that they initiate on their device. 
-- **Social media**: People aren't generally shy when it comes to expressing their thoughts and opinions on social media. You must be able to take advantage of this platform to ensure that customer issues or complaints are handled the same way they would be if the customer engaged directly with support.
+- **Social media**: People aren't usually shy when it comes to expressing their thoughts and opinions on social media. You must be able to take advantage of this platform to ensure that customer issues or complaints are handled the same way they would be if the customer engaged directly with support.
 - **Self-service**: Self-service can mean different things:
 
     - It can be as simple as providing a knowledge base that customers can use to find answers to simple procedural questions. 
@@ -55,6 +55,6 @@ There are many trends that are currently affecting how customer service works. A
 
 - **Customer engagement**: Engagement is more than just reaching out to gain customers opinions. It can include knowing these details:
 
-    - When is the right time is to engage?
+    - When is the right time to engage?
     - What channels should be used?
     - What information should you collect?
