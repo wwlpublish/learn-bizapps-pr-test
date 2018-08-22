@@ -4,6 +4,6 @@ title: Microsoft Flow mobile app
 metadata: 
   title: Microsoft Flow mobile app 
   description: Learn how to use the mobile app for Microsoft Flow.
-durationInMinutes: 12 
+durationInMinutes: 15 
 content: | 
   [!include[](includes/3-flow-mobile-app.md)] 

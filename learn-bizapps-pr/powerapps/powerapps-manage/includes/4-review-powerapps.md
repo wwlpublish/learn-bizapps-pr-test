@@ -1,5 +1,3 @@
-## Review
-
 Congratulations on building your first app! Let's do a quick review of what you've learned so far:
 
 - You built an app based on data in a Microsoft Excel workbook that's stored on Microsoft OneDrive for Business. You learned that Microsoft PowerApps can connect almost as easily to any cloud service data sources you're already using, like Microsoft SharePoint, Microsoft Azure, Google Drive, and Salesforce.

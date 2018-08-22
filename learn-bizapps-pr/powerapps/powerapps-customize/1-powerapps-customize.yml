@@ -4,6 +4,6 @@ title: Customize PowerApps
 metadata: 
   title: Customize PowerApps 
   description: This module teaches you how to customize your PowerApps apps. 
-durationInMinutes: 12 
+durationInMinutes: 10 
 content: | 
   [!include[](includes/1-powerapps-customize.md)]  

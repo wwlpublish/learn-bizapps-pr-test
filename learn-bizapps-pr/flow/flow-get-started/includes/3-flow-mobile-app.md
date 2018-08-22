@@ -1,4 +1,3 @@
-# Use the mobile app for flows
 Of course we have an app! The Microsoft Flow mobile app. From this app, you can access these features:
 
 - Activity Feed
@@ -33,7 +32,7 @@ Buttons are flows that are started through a manual action. For example, you can
 
 To show you how you can use buttons, we'll use the **Send myself a reminder in 10 minutes button** flow.
 
-1. Select **Buttons**, and then Browse templates.
+1. Select **Buttons**, and then **Browse**.
 2. Select the **Send myself a reminder in 10 minutes button** flow.
 3. Select **Use this template**.
 

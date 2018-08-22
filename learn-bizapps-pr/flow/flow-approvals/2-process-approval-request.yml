@@ -4,6 +4,6 @@ title: Process an approval request
 metadata: 
   title: Process an approval request 
   description: Learn how to process an approval request. 
-durationInMinutes: 12 
+durationInMinutes: 15 
 content: | 
   [!include[](includes/2-process-approval-request.md)]  

@@ -1,10 +1,8 @@
-## Create an approval request
-
 In this unit, you'll learn how to build a business-friendly scenario that uses approvals.
 
 In this scenario, anyone who has access to the Microsoft SharePoint list can contribute tweets without knowing anything about Twitter. The social media team can then approve or reject those tweets. That team maintains control of the account and the content that goes out to customers. 
 
-### Step one: Create a SharePoint list for tweets
+## Step one: Create a SharePoint list for tweets
 
 You'll use a template that starts an approval process whenever a new item is created in a specific list. If the item is approved, a tweet is then posted to Twitter. But for this unit, you'll change the process by adding steps that update a SharePoint list with the approval response, indicate whether the item was approved, and add any comments that the approver added to the proposed tweet. 
 
@@ -14,16 +12,16 @@ First, let's create the SharePoint list.
 1. Open the list, and select **Add column**.
 1. Select **+ Add column** to add the following columns:
 
-    - Add a **TweetContent** column, and set the column type to **Multiple lines of text**. This will contain the content of the tweets for later approval.
+    - Add a **TweetContent** column, and set the column type to **Multiple lines of text**. This will contain the content of the tweets for later approval. Select **Save** after each column you create.
     - Add a **TweetDate** column, and set the column type to **Date and Time**. Select **More** to find the **Date and Time** type.
-    - Add an **ApprovalStatus** column, set the column type to **Yes/No**, and then select **Save**. The approver can then select **Yes** or **No** to approve or reject the tweet.
+    - Add an **ApprovalStatus** column, set the column type to **Yes/No**. The approver can then select **Yes** or **No** to approve or reject the tweet.
     - Add an **ApproverComments**, and set the column type to **Single line of text**. The approver can then add a comment about the approval status.
 
     ![Add columns](../media/new-columns.png)
 
 1. Copy the URL of the SharePoint list. You'll use it when you create the flow.
 
-### Step two: Create an approval request flow
+## Step two: Create an approval request flow
 1. On the Microsoft Flow home page, select **Approvals**.
 
 1. Select **Create approval flow**, and then scroll down and select the **Post list items to Twitter after approval** template. 
