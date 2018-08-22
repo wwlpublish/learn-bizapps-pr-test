@@ -3,7 +3,7 @@ uid: learn-bizapps.customer-service-get-started.2-customer-service-get-started-c
 title: Understand the core components of Customer Service
 metadata:
   title: Customer Service core components
-  description: Learn the core compents of Customer Service for Dynamics 365.
+  description: Learn the core components of Dynamics 365 for Customer Service.
 durationInMinutes: 12
 content: |
   [!include[](includes/2-customer-service-get-started-core-components.md)]
