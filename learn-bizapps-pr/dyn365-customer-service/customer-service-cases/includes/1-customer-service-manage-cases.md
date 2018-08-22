@@ -1,4 +1,3 @@
-## Manage case workload
 By understanding how your organization measures success, you gain insight into core priorities and drivers. Only then can you understand what data modeling, security requirements, and customization must be done.
 
 Although every organization focuses on different items as part of its practice, here are some of the more common key performance indicators (KPIs) for customer service:
@@ -10,19 +9,19 @@ Although every organization focuses on different items as part of its practice, 
 - **Wait Time and Backlog metrics**: Wait Time indicates the average time that customers spend on hold as they wait for an agent to take their call. Backlog metrics track the number of open cases or tickets for any period.
 - **Average Handle Time**: Average Handle Time indicates the average duration of one transaction. Duration is typically measured from the customer's initiation of the call, and includes any hold time, talk time, and related tasks that follow the transaction.
 
-### Case management
-*Cases* are the fundamental record type in service management. Each case represents a single incident of service. Organizations might use different terms to refer to cases: incidents, tickets, service requests, and so on. Many cases can be associated with a single customer record at the same time. In Microsoft Dynamics 365 for Customer Service, users can see open and resolved cases from the customer record.
+## Case management
+*Cases* are the fundamental record type in service management. Each case represents a single incident that requires service from a customer representative. Organizations might use different terms to refer to cases: incidents, tickets, service requests, and so on. Many cases can be associated with a single customer record at the same time. In Microsoft Dynamics 365 for Customer Service, users can see open and resolved cases from the customer record.
 
 Knowledge Base articles, subjects, products, and entitlements can be associated with cases as related or dependent record types. In addition, activity record types, sometimes referred to as *activities*, can be associated with cases. That way, everyone in the organization can see what's happening with a case. Examples of activities include communication records.
 
 ![Today's customer across sales, service, and marketing](../media/cases2.png)
 
-### Creating case records
+## Creating case records
 Activities can be used to manage and report on interactions with customers and potential customers, like accounts, contacts, and leads. Activities can also be associated with most other record types in Customer Service, including cases.
 
 Here are some examples of activities:
 
-### Case Management
+## Case Management
 Cases are the fundamental record type in service management, and represent a single incident of service. Organizations may refer to cases using different terms, including incident, ticket, service request, and so forth. A customer can have many cases associated with their record at any time. Within Microsoft Dynamics 365 for Customer Service, users can see open and resolved cases from the customer record.
  
 Cases can also have knowledge base articles, subjects, products, and entitlements associated with them as related or dependent record types. In addition to these related entities, cases can have activities (such as any communication records) associated with them so that everyone in the organization can see what is happening with a case.

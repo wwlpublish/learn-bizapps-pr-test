@@ -1,10 +1,9 @@
-## Practice with Customer Service
-
-This practice will take you through the fundamentals of the Customer Service Hub for Microsoft Dynamics 365. After you complete the tasks in this practice, you'll be well on your way to helping your customers find solutions to issues with products and services.
+This practice will take you through the fundamentals of Dynamics 365 for Customer Service. After you complete the tasks in this practice, you'll be well on your way to helping your customers find solutions to issues with products and services.
 
 > [!NOTE]
 > For the following scenarios, you must have the Customer Service Manager or Customer Service Representative role, or equivalent permissions. [Find out if you have the correct permissions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/view-your-user-profile).
 
+## Scenarios
 All the following scenarios are based on the following premise. HCL is a professional services company, and most of its profits come from the support services that it offers to its customers. HCL offers help desk services to its customers during regular business hours, from 8:00 AM to 5:00 PM. For preferred customers, it offers 24/7 support.
 
 Preferred customers are divided into three levels:
@@ -15,9 +14,9 @@ Preferred customers are divided into three levels:
 
 HCL has identified two areas where it wants to focus its attention: 
 
-- Each customer service representative should have a centralized dashboard that shows the representatives daily workloads. The dashboard should include the following information:
+- Each customer service representative should have a centralized dashboard that shows the representative's daily workloads. The dashboard should include the following information:
 
-    - A list of all the open cases that are currently assigned to the representative 
+    - A list of all the open cases that are currently assigned to the customer service representative
     - A list of all the open activities that are assigned to the representative 
     - Cases by origin
     - Cases by priority
@@ -41,6 +40,7 @@ Tasks to complete for this scenario:
 
     - **Origin**: Phone
     - **Title**: Network Backup Failed
+    - **Customer**: Coho Consulting
     - **Contact**: Wendy Smith
     - **Product**: (Blank)
     - **Entitlement**: (Blank) 
@@ -57,7 +57,7 @@ Tasks to complete for this scenario:
 
 1. Find the **Contacts** table.
 1. Select the plus sign (**+**) to add a new contact.
-1. In the Contact Quick Create form, fill in the contact information.
+1. In the **Quick Create** box, fill in the contact information.
 1. Select **Save**.
 
 **Task three**: Create a new case for Coho Consulting.
@@ -68,6 +68,7 @@ Tasks to complete for this scenario:
 1. For **Customer**, enter "Coho Consulting".
 1. For **Contact**, enter "Wendy Smith".
 1. For **Origin**, enter "Phone".
+1. For **Priority**, enter "High".
 1. Select **Save**.
 
 ### Scenario two: Create a case
@@ -79,11 +80,11 @@ Because no business was conducted on that day, the agent can skip the backup job
 
 Tasks to complete for this scenario:
 
-1. Add an incoming phone call activity from Wendy Smith to the case.
+1. Add a task to the case for an incoming phone call activity from Wendy Smith.
 2. Add a task to the case to be performed by the agent.
 3. Add an outgoing phone call activity to Wendy Smith task named "Inform Wendy of Resolution".
 
-**Task one**: Add an incoming phone call activity from Wendy Smith to the case.
+**Task one**: Add a task to the case for an incoming phone call activity from Wendy Smith.
 
 1. Find **Activities**.
 1. Select **Add Phone Call**.
@@ -91,7 +92,7 @@ Tasks to complete for this scenario:
 1. Add the following note: "Initial call from Wendy to report the discovery of a failed backup."
 1. Select **OK**.
 
-**Task two**: Add a task named "Research problem" to the case.
+**Task two**: Add a task to the case to be performed by the agent.
 
 1. Find **Activities**.
 1. Select **Task**. 
@@ -108,7 +109,7 @@ Tasks to complete for this scenario:
 1. Select **OK**. 
 
 ### Scenario three: Resolve a case
-After a case is resolved, the agent needs to resolve the case. To resolve a case, agents must note what they did to resolve the case. Agents must also account for the time they spent working on the case activities.
+After a case is handled and completed, the agent needs to resolve the case. To resolve a case, agents must note what they did on the case. Agents must also account for the time they spent working on the case activities.
 
 Tasks to complete for this scenario:
 
@@ -156,7 +157,7 @@ Create four queues in the application: Gold, Silver, Bronze, and Standard.
 1. Select **New**.
 1. Enter the name of the first queue.
 1. Select **Save**.
-1. Repeat for each additional queue you need to create.
+1. Repeat steps 3 through 5 for each additional queue you need to create.
 
 **Task two**: Create the rules.
 
@@ -172,7 +173,7 @@ Create routing rules that route cases to the appropriate queues, based on the se
 1. Under **Rule Criteria**, in the **If Conditions** section, specify the conditions that the case will be routed under. For example, specify "Case – Service Level – Equals - Gold".
 1. Under **Then Conditions**, specify the queue to route the case to. For example, select the **Gold** queue.
 1. Select **Save** and then **Close**.
-1. Repeat for each additional queue you need to route items to.
+1. Repeat steps 6 through 10 for each additional queue you need to route items to.
 1. On the **Routing Rule Set** record, select **Activate**.
 
 ### Scenario five: Manage a case

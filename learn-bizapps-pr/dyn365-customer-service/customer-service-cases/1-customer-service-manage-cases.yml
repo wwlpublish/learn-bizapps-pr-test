@@ -4,6 +4,6 @@ title: Learn how to manage your cases
 metadata:
   title: Learn how to manage your cases
   description: Learn how to manage your customer service cases.
-durationInMinutes: 12
+durationInMinutes: 15
 content: |
   [!include[](includes/1-customer-service-manage-cases.md)]
