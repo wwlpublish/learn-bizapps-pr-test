@@ -1,177 +1,213 @@
-# Practice with Customer Service
+## Practice with Customer Service
 
-This practice will take you through the fundamentals of the Customer Service Hub for Microsoft Dynamics 365. When you complete the tasks in this practice, you'll be well along your way to helping your customers find solutions to problems with their products and services.
+This practice will take you through the fundamentals of the Customer Service Hub for Microsoft Dynamics 365. After you complete the tasks in this practice, you'll be well on your way to helping your customers find solutions to issues with products and services.
 
 > [!NOTE]
-> Keep in mind that for the following scenarios, you must have the Customer Service Manager or Customer Service Representative role, or equivalent permissions. [Find out if you have the correct permissions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/view-your-user-profile)
+> For the following scenarios, you must have the Customer Service Manager or Customer Service Representative role, or equivalent permissions. [Find out if you have the correct permissions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/view-your-user-profile).
 
-Consider the following scenario. HCL is a professional services company and most of their profits come from the support services that they offer to their customers.   HCL offers help desk services to their customers during normal business hours of 8 to 5.  Additionally, they provide their preferred customers with 24-7 support,
+All the following scenarios are based on the following premise. HCL is a professional services company, and most of its profits come from the support services that it offers to its customers. HCL offers help desk services to its customers during regular business hours, from 8:00 AM to 5:00 PM. For preferred customers, it offers 24/7 support.
 
-Their preferred customers are broken down into three different levels: 
-- **Gold**: Highest Priority customers with a guaranteed 15-minute response time.   
-- **Silver**: Customer are guaranteed a callback from a customer service agent in 1 hour 
-- **Bronze**: Customers are entitled to 24/7 support and a 2-hour agent response time.   
+Preferred customers are divided into three levels:
 
-HCL has identified two areas that they would like to focus their attention on: 
- 
-1. Each customer service representative, should have a centralized dashboard that shows the representatives daily workloads.  The dashboard should contain the following information. 
- 
-    - A list of all the open cases that they are currently assigned to them 
-    - A list of all the open Activities assigned to them   
-    - Cases by Origin  
-    - Cases by Priority 
+- **Gold**: These highest-priority customers are guaranteed a 15-minute response time.
+- **Silver**: These customers are guaranteed a callback from a customer service representative within one hour.
+- **Bronze**: These customers are entitled to 24/7 support and a two-hour response time.
 
-1. Agents can take cases from either new of existing customers.  Agents should be able to easily identify if the customer is new or existing prior to creating a case.   
-    - If the customer is an existing customer, they can create the case directly.  
-    - If the customer is a new client, they must first create a new record for the customer and then, create a case for them.
+HCL has identified two areas where it wants to focus its attention: 
 
-## Scenario one: Create a new account
+- Each customer service representative should have a centralized dashboard that shows the representatives daily workloads. The dashboard should include the following information:
 
-A new customer name Wendy Smith who works for Coho Consulting has just contacted HCL about the following issue:
-- A network backup from the previous evening has failed. 
+    - A list of all the open cases that are currently assigned to the representative 
+    - A list of all the open activities that are assigned to the representative 
+    - Cases by origin
+    - Cases by priority
 
-Tasks to Accomplish in this Exercise: 
-- Add a new account for Coho Consulting.
-- Add a contact record from Dennis Smith to Coho Consulting.
-- Create a new case for Coho Consulting with the following information:
-    - **Origin**: Phone 
-    - **Title**: Network backup Failed 
-    - **Contact**: Dennis Smith. 
-    - **Product**: leave blank 
-    - **Entitlement**: leave blank 
-    - **Priority**: High 
+- Representatives can take cases from either new or existing customers. Before creating a case, representatives should be able to easily identify if the customer is new or existing:
 
+    - If the customer is an existing customer, representatives can create the case directly.
+    - If the customer is a new customer, representatives must first create a new record for the customer. They can then create a case for the customer.
+
+### Scenario one: Create a new account
+
+A new customer named Wendy Smith, who works for Coho Consulting, has just called HCL about the following issue:
+
+- A network backup from the previous evening failed. 
+
+Tasks to complete for this scenario:
+
+1. Add a new account for Coho Consulting.
+2. Add a contact record from Wendy Smith to Coho Consulting.
+3. Create a new case for Coho Consulting. This case will have the following information:
+
+    - **Origin**: Phone
+    - **Title**: Network Backup Failed
+    - **Contact**: Wendy Smith
+    - **Product**: (Blank)
+    - **Entitlement**: (Blank) 
+    - **Priority**: High
 
 **Task one**: Add a new account for Coho Consulting.
-1. In the Customer Service Hub, Go to **Service**, and then select **Accounts**.
+
+1. In the Customer Service Hub, go to **Service**, and then select **Accounts**.
 1. On the command bar, select **New**.
 1. Fill in information about the account.
 1. Select **Save**.
 
 **Task two**: Add a contact record from Wendy Smith to Coho Consulting.
-1. Locate the **Contacts** table.
-1. Select the **+** to add a new contact.
-1. Fill the contact information into the Contact Quick Create form.
+
+1. Find the **Contacts** table.
+1. Select the plus sign (**+**) to add a new contact.
+1. In the Contact Quick Create form, fill in the contact information.
 1. Select **Save**.
 
-**Task three**: Create a new case for Coho Consulting
-1. Go to **Service** > **Cases**.
+**Task three**: Create a new case for Coho Consulting.
+
+1. Go to **Service** &gt; **Cases**.
 1. Select **New Case**.
-1. For **Case title** enter “Network Backup Failed”.
-1. For **Customer** enter “Coho Consulting”.
-1.For **Contact** enter "Wendy Smith”.
-1. For **Origin** enter “Phone”.
+1. For **Case title**, enter "Network Backup Failed".
+1. For **Customer**, enter "Coho Consulting".
+1. For **Contact**, enter "Wendy Smith".
+1. For **Origin**, enter "Phone".
 1. Select **Save**.
 
-## Scenario two: Create a case
-HCL generally bills their customers based on the total amount of time an agent spends on a call.  The total time spent is a summary of all the activities attached to a specific case.  It is important that all activities related to the case are documented as agents work through the calls.
+### Scenario two: Create a case
+HCL generally bills its customers based on the total amount of time an agent spends on a call. The total time spent is a summary of all the activities attached to a specific case. As agents work through calls, it's important that they document all activities that are related to a case.
 
-After doing some research, the agent identifies that the problem is because the previous day was a holiday.  Because it was a holiday, the previous back-up media was not replaced.  The backup will not overwrite media that was written to in the last 48 hours.  
+After doing some research, the agent identifies that the customer's issue occurred because the previous day was a holiday. Because of the holiday, the previous backup media wasn't replaced. The backup job won't overwrite media that was written to in the last 48 hours.
 
-Since no business was conducted on that day, the agent can skip the back-up job.
+Because no business was conducted on that day, the agent can skip the backup job.
 
-Tasks to Accomplish in this Exercise:
- 
-- Add an incoming phone call activity from Wendy Smith to the case.
-- Add a task to the case to be performed by the agent.
-- Add an outgoing phone call activity to Wendy Smith task called "Inform Dennis on Resolution".
- 
+Tasks to complete for this scenario:
+
+1. Add an incoming phone call activity from Wendy Smith to the case.
+2. Add a task to the case to be performed by the agent.
+3. Add an outgoing phone call activity to Wendy Smith task named "Inform Wendy of Resolution".
+
 **Task one**: Add an incoming phone call activity from Wendy Smith to the case.
-1. Locate **Activities**.
-1. Choose **Add Phone Call**.
-1. Set the duration to 15-minutes.
-1. Add the following notes: "Initial call from Wendy to report the discovery of a failed backup."
+
+1. Find **Activities**.
+1. Select **Add Phone Call**.
+1. Set the duration to 15 minutes.
+1. Add the following note: "Initial call from Wendy to report the discovery of a failed backup."
 1. Select **OK**.
 
-**Task two**: Add a task called "Research problem" to the case.
-1. Locate **Activities**.
-1. Choose **Task**. 
-1. Set the duration to 20-minutes.
-1. Add the following notes: "Because it was a holiday, the previous back-up media was not replaced.  The backup will not overwrite media that was written to in the last 48 hours."
+**Task two**: Add a task named "Research problem" to the case.
+
+1. Find **Activities**.
+1. Select **Task**. 
+1. Set the duration to 20 minutes.
+1. Add the following note: "Because it was a holiday, the previous back-up media wasn't replaced. The backup won't overwrite media that was written to in the last 48 hours."
 1. Select **OK**. 
 
-**Task four**: Add an outgoing phone call activity to Wendy Smith task called "Inform Dennis of Resolution".
-1. Locate **Activities**.
-1. Choose **Add Phone Call**.
-1. Set the duration to 15-minutes.
-1. Add the following notes: "Called Dennis to inform him on the Resolution".
+**Task three**: Add an outgoing phone call activity to Wendy Smith task named "Inform Wendy of Resolution".
+
+1. Find **Activities**.
+1. Select **Add Phone Call**.
+1. Set the duration to 15 minutes.
+1. Add the following note: "Called Wendy to inform her of the resolution."
 1. Select **OK**. 
 
-## Scenario three: Resolve a case
-Once a case has been resolved, the agent needs to resolve the case.  When a case is resolved, they need to note what they did to resolve the case.  The time they spent working on the case activities also need to be accounted for.  
- 
-**Task one**: Ensure that all case related activities are completed.
-1. Open each activity on the Case. Ensure all case-related activites are complete.
+### Scenario three: Resolve a case
+After a case is resolved, the agent needs to resolve the case. To resolve a case, agents must note what they did to resolve the case. Agents must also account for the time they spent working on the case activities.
+
+Tasks to complete for this scenario:
+
+1. Make sure all case-related activities are completed.
+2. Resolve the case.
+
+**Task one**: Make sure all case-related activities are completed.
+
+1. Open each activity on the case. Make sure all case-related activities are completed.
 1. Select **Mark Complete**.
 
 **Task two**: Resolve the case.
+
 1. On the command bar, select **Resolve case**.
-1. In the Resolve Case dialog box, select the **Resolution Type** list, and the select how the case was resolved. 
+1. In the **Resolve Case** dialog box, in the **Resolution Type** list, select how the case was resolved. 
 1. In the **Resolution** box, type a short explanation of the resolution. 
 1. Select **Resolve**.
- 
-## Scenario four: Route a case
-HCL will need four queues that they can use to route cases for agents to work on.  Those 4 queues are:   
+
+### Scenario four: Route a case
+HCL needs four queues that can be used to route cases for agents to work on:
+
 - Gold 
 - Silver 
 - Bronze 
 - Standard 
 
-When a new case is created the service level of the case needs to be captured on the case.  Based on the service level, the case will automatically be routed to the correct queue. Rules need to be created that allow the automatic routing: 
+When a new case is created, the service level must be captured on it. Based on the service level, the case will automatically be routed to the correct queue. Here are the rules that must be created to do the automatic routing: 
 
-- Route any cases with a service level of Gold to the Gold Queue.
-- Route any cases with a service level of Silver to the Silver Queue.
-- Route any cases with a service level of Bronze to the Bronze Queue.
-- Route any cases that do not have a service level defined to the Standard Queue. 
+- Route any cases with a service level of Gold to the Gold queue.
+- Route any cases with a service level of Silver to the Silver queue.
+- Route any cases with a service level of Bronze to the Bronze queue.
+- Route any cases that don't have a service level defined to the Standard queue. 
+
+Tasks to complete for this scenario:
+
+1. Create the queues.
+2. Create the rules.
 
 **Task one**: Create the queues.
-Create four Queues in the application: Gold, Silver, Bronze, and Standard.
-1. Go to **Settings** and the select **Service Management**. 
-1. Choose **Queues**.
-1. 1. Select **New**.
-1. Enter the name of the Queue.
+
+Create four queues in the application: Gold, Silver, Bronze, and Standard.
+
+1. Go to **Settings**, and then select **Service Management**. 
+1. Select **Queues**.
+1. Select **New**.
+1. Enter the name of the first queue.
 1. Select **Save**.
+1. Repeat for each additional queue you need to create.
 
 **Task two**: Create the rules.
-Create a routing rule that routes cases to the appropriate queue based on the service level of the case. 
-1. Go to **Settings** and then select **Service Management**.
+
+Create routing rules that route cases to the appropriate queues, based on the service level of the case. 
+
+1. Go to **Settings**, and then select **Service Management**.
 1. Select **Routing Rule Sets**.
 1. Select **New**. 
 1. Select **Rule Case Routing**.
 1. Select **Save**. 
 1. In the **Rule Items** section, select **Add Rule** to specify conditions for routing cases to a queue. 
-1. In the **Rule Item** form, type a descriptive name for the rule item, for example: Gold.
-1. Under **Rule Criteria**, in the If Conditions section, specify the conditions for which the case will be routed. For example, Case – Service Level – Equals - Gold.
-1. Under **Then Conditions**, specify the queue to route the case to.  For example: Select the Gold Queue
+1. In the **Rule Item** form, type a descriptive name for the rule item. For example, type "Gold".
+1. Under **Rule Criteria**, in the **If Conditions** section, specify the conditions that the case will be routed under. For example, specify "Case – Service Level – Equals - Gold".
+1. Under **Then Conditions**, specify the queue to route the case to. For example, select the **Gold** queue.
 1. Select **Save** and then **Close**.
-1. Repeat for each Queue you want to route items to.
-1. In the **Routing Rule Set** record, select **Activate**.
+1. Repeat for each additional queue you need to route items to.
+1. On the **Routing Rule Set** record, select **Activate**.
 
-## Scenario five: Manage a case
+### Scenario five: Manage a case
 
-This scenario continues the previous scenario by applying the tasks to the Coho Consulting company. Assume Coho Consulting has just become a gold customer with your company. Wendy Smith has contacted you about a printer problem she is having.
+This scenario continues the previous scenario by applying the tasks to the Coho Consulting company. For this scenario, assume that Coho Consulting has just become a Gold customer with your company. Wendy Smith has once again called HCL. She's having an issue with a printer that was recently installed.
 
-- She is having a problem with a printer that was recently installed, and a case needs to be logged into Dynamics 365 Customer Service Hub. 
-- Because the company is a Gold customer, the case needs to be routed to the Gold queue. 
-- You need to find the case and pick it so you can work on it.
+Because Coho Consulting is a Gold customer, the case that's created will need to be routed to the Gold queue.
+
+Tasks to complete for this scenario:
+
+1. Create the case.
+2. Route the case to the Gold queue.
+3. Work on the case.
 
 **Task one**: Create the case.
 
-1. Go to **Service** and then select **Cases**.
+1. Go to **Service**, and then select **Cases**.
 1. Select **New Case**. 
-1. For **Case title** enter “Printer Issue”.
-1. For **Customer** enter “Coho Consulting”.
-1. For **Contact** enter “Wendy Smith”.
-1. For **Origin** enter “Phone”.
-1. For **Service Level** enter “Gold”.
+1. For **Case title**, enter "Printer Issue".
+1. For **Customer**, enter "Coho Consulting".
+1. For **Contact**, enter "Wendy Smith".
+1. For **Origin**, enter "Phone".
+1. For **Service Level**, enter "Gold".
 1. Select **Save**.
 
-**Task two**: Route the case to the Gold Queue.
-- One the Command Bar, select **Save** and the **Route**. 
+**Task two**: Route the case to the Gold queue.
 
-**Task three**: Work on the case. You need to locate the case in the Gold Queue, and Pick it so you can work on it.
-1. Go to **Service** and then select **Queues**.
+- On the command bar, select **Save** and then **Route**. 
+
+**Task three**: Work on the case.
+
+You need to find the case in the Gold queue and pick it so that you can work on it.
+
+1. Go to **Service**, and then select **Queues**.
 1. Select a view and a filter to see the items that you want.
-1. To see all cases from the selected queue, in the **View** list, select **All Cases in Selected Queues**.
-1. In the Queue list, select the **Gold Queue**.
-1. Select the case or item that you want to work on, and on the command bar, select **Pick**.
+1. To see all cases in the selected queue, in the **View** list, select **All Cases in Selected Queues**.
+1. In the **Queue** list, select the **Gold** queue.
+1. Select the case or item to work on, and then, on the command bar, select **Pick**.
