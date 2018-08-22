@@ -1,4 +1,4 @@
-# Practice with Customer Service
+## Practice with Customer Service
 
 This practice will take you through the fundamentals of the Customer Service Hub for Microsoft Dynamics 365. When you complete the tasks in this practice, you'll be well along your way to helping your customers find solutions to problems with their products and services.
 

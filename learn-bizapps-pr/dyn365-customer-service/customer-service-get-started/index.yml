@@ -11,12 +11,12 @@ iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
 roles: 
-- businessUser
+- business-user
 products: 
-- Dynamics
+- Customer Service
 units:
 - learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
 - learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components
 - learn-bizapps.customer-service-get-started.3-customer-service-get-started-modern
-- learn-bizapps.customer-service-get-started.quiz-customer-service
+- learn-bizapps.customer-service-get-started.4-quiz-customer-service
 achievement: learn.customer-service-get-started.badge

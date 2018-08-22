@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.flow-get-started.quiz-flow-get-started 
-title: Get a flow started quiz 
+uid: learn-bizapps.flow-get-started.4-quiz-flow-get-started
+title: "Knowledge check: Get a flow started" 
 metadata: 
 # Search engine metadata 
   title: Get a flow started quiz 
-  description: This quiz will test your knowledge of how to get a flow started. 
+  description: This quiz tests your knowledge of how to get a flow started. 
 durationInMinutes: 12 
 content: This is a quiz for getting a flow started. 
 quiz: 
@@ -12,37 +12,37 @@ quiz:
   questions: 
   - content: Where do you get a flow started? 
     choices:  
-    - content: On the Flow web site.  
-      correctExplanation: The Flow web site is typically where you can start a flow.  
+    - content: On the Microsoft Flow website.
+      correctExplanation: The Microsoft Flow website is typically where you start a flow.
       isCorrect: true 
-    - content: By downloading the Microsoft Flow app in the Windows AppStore 
-      incorrectExplanation: Microsoft Flow is a service, not an app. You can't download it from the AppStore. 
+    - content: By downloading the Microsoft Flow app.
+      correctExplanation: Simple flows can be started from the app.
+      isCorrect: true 
+    - content: In Microsoft Dynamics 365.
+      incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you start a flow. 
       isCorrect: false 
-    - content: In Dynamics 365 
-      incorrectExplanation: Dyanamics 365 is your place to view many apps and services. It is not the specific location to start a flow. 
+    - content: In Microsoft PowerApps Studio.
+      incorrectExplanation: PowerApps Studio is where you design PowerApps apps. It isn't where you start a flow, even though flows can work with PowerApps apps. 
       isCorrect: false 
-    - content: In PowerApps Studio 
-      incorrectExplanation: PowerApps Studio is where you design PowerApps apps, but it is not where you start a flow. Though flows can work with PowerApps apps. 
-      isCorrect: false 
-  - content: Which of the following is true about flows? 
+  - content: Which of the following statements about flows is true? 
     choices: 
     - content: They respond to triggers and variables. 
-      incorrectExplanation: Flows respond to triggers and actions. 
+      incorrectExplanation: Flows respond to triggers and actions, not variables. 
       isCorrect: false 
     - content: They respond to triggers and actions. 
-      correctExplanation: Triggers and actions are both used in developing flows. 
+      correctExplanation: Triggers and actions are both used to develop flows. 
       isCorrect: true 
     - content: They respond to actions and methods. 
       incorrectExplanation: They respond to triggers and actions, not methods. 
       isCorrect: false 
-  - content: Which of the following are true of the Microsoft Flow mobile app? 
+  - content: Which of the following statements about the Microsoft Flow mobile app is true? 
     choices: 
-    - content: You can't create a flow from the app. You can only view the result of a flow. 
-      incorrectExplanation: You can create simple flows from the mobile app, such as button flow to send an sick-day message to your manager. 
+    - content: You can't create a flow from the mobile app. You can only view the result of a flow. 
+      incorrectExplanation: You can create simple flows from the mobile app, like a button flow to send a sick day message to your manager. 
       isCorrect: false 
     - content: You can create a flow from the mobile app. 
-      correctExplanation: You can create flows from the Flow web site as well as from the Flow mobile app. 
+      correctExplanation: You can create flows from the mobile app and also from the Microsoft Flow website. 
       isCorrect: true 
-    - content: Flows cannot be created that work with PowerApps. 
-      incorrectExplanation: You can set up a flow to work with PowerApps. 
+    - content: You can't create flows that work with PowerApps apps. 
+      incorrectExplanation: You can set up flows to work with PowerApps apps. 
       isCorrect: false

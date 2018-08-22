@@ -36,6 +36,7 @@ And the complexity doesn't stop there. In general, the modern service company mu
 - **On-site support**: Sometimes, customers can't be helped online. In this case, they often expect the service company to visit them at their place of business or in the field to resolve an issue. 
 
 ### Typical customer journey
+
 The typical customer will follow a specific path to get a resolution to an issue:
 
 1. **Self-assistance**: When people need help, the first thing they do is go on the internet and see if they can fix the issue themselves. They'll visit a few forums and newsgroups, and ask a few questions, hoping for a quick fix. They might visit the company's website and do some research while looking around in the documentation.

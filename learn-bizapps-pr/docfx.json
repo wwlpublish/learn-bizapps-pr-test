@@ -15,7 +15,7 @@
         "dest": "modules"
       },
       {
-        "src": "powerapps",
+        "src": "flow",
         "files": [
           "**.yml"
         ],
@@ -23,6 +23,13 @@
       },
       {
         "src": "power-bi",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "powerapps",
         "files": [
           "**.yml"
         ],
