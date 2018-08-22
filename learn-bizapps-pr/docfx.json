@@ -9,14 +9,13 @@
       },
       {
         "src": "dyn365-customer-service",
-
         "files": [
           "**.yml"
         ],
         "dest": "modules"
       },
       {
-        "src": "powerapps",
+        "src": "flow",
         "files": [
           "**.yml"
         ],
@@ -30,7 +29,13 @@
         "dest": "modules"
       },
       {
-
+        "src": "powerapps",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
