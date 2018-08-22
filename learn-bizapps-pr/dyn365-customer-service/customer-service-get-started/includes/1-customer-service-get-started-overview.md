@@ -1,62 +1,54 @@
-## Overview of Dynamics 365 for Customer Service  
+Customer service is key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers.
 
-A key aspect of a customer relationship management strategy is customer service. Microsoft Dynamics 365 for Customer Service provides many features organizations use to manage the services they provide to customers
+![Customer engagement case flow](../media/customer-engagement.jpg)
 
-![Customer Engagement Case Flow](../media/customer-engagement.jpg)
+## Overview of the customer service landscape
 
-## Dynamics 365 for Customer Service  - Agent Interface  
+To help you better understand the context of customer service, let's review some real-life customer scenarios.
 
-This short video shows how Dynamics 365 is used for customer service
+![Today's customer across sales, service, and marketing](../media/customer-engagement2.png)
 
-## Overview of Customer Service Landscape
+**Addressing and solving customer or product issues**: Paul Cannon is a customer of Contoso Bicycles. He recently discovered that the suspension on his Contoso mountain bike is defective and isn't working correctly. Paul contacts Contoso Bicycles to discuss the issue and get help with his bike. The issue is logged in the Mountain Bikes Support Request queue. 
 
-To better understand the context of customer service, let’s review some real-life customer scenarios.
+Rob, the Mountain Bikes Support Specialist for Contoso Bicycles, receives the issue through Customer Service. He then works with Paul to schedule a service activity to repair or replace the defective suspension.
 
-![Today's Customer across sales, service and marketing. ](../media/customer-engagement2.png)
+**Receiving and answering customer questions**: Jim Glynn is a customer of Fabrikam Furniture. He recently received a table that he bought through the Fabrikam website. Although Jim tries to assemble the table, he isn't sure he's doing it correctly. Therefore, he contacts Fabrikam Furniture to ask questions and get help with his table. 
 
+Sidney, a Customer Support Specialist at Fabrikam Furniture, receives Jim's questions. He uses the Knowledge Base in Customer Service to find a frequently asked questions (FAQ) document for the table. He then uses that document to help answer Jim's questions.
 
-**Addressing and solving customer or product issues:**  Paul Cannon is a customer of Contoso Bicycles. He recently discovered that the suspension on his Contoso mountain bike is defective and is not functioning correctly. Paul contacts Contoso Bicycles to discuss the issue and to obtain help with his bike. The issue is logged in the Mountain Bikes Support Request Queue. 
-
-Rob is the Mountain Bikes Support Specialist for Contoso Bicycles, and receives the issue through Microsoft Dynamics 365 for Customer Service. Rob will work with Paul to schedule a service activity to repair or replace Paul’s suspension.
-
-**Receiving and answering customer questions:**  Jim Glynn is a customer of Fabrikam Furniture. He recently received the new table he purchased through the Fabrikam website.  Although Jim tries to assemble the new table, he is not sure if he is assembling the table correctly.  Therefore, Jim contacts Fabrikam Furniture to ask questions and to obtain help with his table. 
-
-The question is received by Sidney, a Customer Support Specialist at Fabrikam Furniture.  Sidney uses the Knowledge Base in Microsoft Dynamics 365 for Customer Service to find a frequently asked questions (FAQ) document for the table. Then, Sidney uses the document to help answer Jim’s questions.
-
-**Collecting and applying customer feedback:** Maria is the Products Manager for Tables and Chairs at Fabrikam Furniture. She wants to collect feedback about the at-home assembly process when customers contact Fabrikam. 
-
-She uses the case management functionality of Microsoft Dynamics 365 for Customer Service to capture the feedback. She is also able to analyze the tables and chairs that are more troublesome for at-home assembly, and the products that are easier to assemble. Additionally, Maria can determine the instructions that must be prioritized for editing and review for the at-home sets of tables and chairs assembly.
+**Collecting and applying customer feedback**: Maria is the Products Manager for Tables and Chairs at Fabrikam Furniture. She wants to collect feedback about the at-home assembly process when customers contact Fabrikam. She uses the case management functionality of Customer Service to capture this feedback. She can also analyze the tables and chairs that cause more issues during at-home assembly, and those that are easier to assemble. Additionally, Maria can determine which instructions for at-home assembly of tables and chairs must be prioritized for editing and review.
 
 ## Understanding today's customer
-Customers today are more informed than ever.  Customer are used to having what they want at any specific time they way that they want it. 
+Customers today are more informed than ever. Customers are used to having what they want, when they want it, the way they want it. 
  
-Think of going to buy a TV.  Here's the typical process:
+Think of the typical process of buying a TV:
 
-1. Before you go to the store to purchase the item, you will probably do some research on the internet.  
-1. You might select multiple T.V.’s and compare the different options and features.  
-1. You will likely check out customer reviews and determine which one you think is best before you set foot into a store.  
-1. Once you are in the store, you might engage with a sales rep, but you already have a good idea as to what you are looking for.
-  
-The same can be applied across different experiences.  Customers what to be in control of the experience and prefer little or no interference as they work through the process.  It is critical that customers are given the flexibility to drive their engagement experience, but still have the option to engage with live agents under their terms.  
+1. Before you go to the store to buy the item, you probably do some research on the internet.
+1. You might select several TVs, and compare the different options and features.
+1. You'll likely check out customer reviews and determine which TV you think is best before you set foot in a store.
+1. After you're in the store, you might engage with a sales rep, but you already have a good idea of what you're looking for.
+
+The same process can be applied across different experiences. Customers want to be in control of the experience, and they prefer little or no interference as they work through the process. Customers should have the flexibility to drive the engagement experience but still be able to engage with live agents. But any such engagement should be on *their* terms.
 
 ## Trends influencing customer service
-There are many different trends that are currently affecting how customer service works.  As a service organization, it is important to understand what those trends are and how to leverage them to enhance and drive the customer experience.  Some of those trends influencing service today include:
+There are many trends that are currently affecting how customer service works. As a service organization, it's important that you understand what those trends are and how you can take advantage of them to enhance and drive the customer experience. Here are some of the trends influencing service today:
 
-- **Mobile devices:**  With so many mobile devices available today, people are no longer engaging customer service with just a phone call or an email.  They want to be able to access portal information on their mobile devices, or engage with an agent through a chat that they initiate on their device. 
+- **Mobile devices**: With so many mobile devices available today, people are no longer engaging with customer service just through a phone call or email. They want to be able to access portal information on their mobile devices or engage with an agent through a chat that they initiate on their device. 
+- **Social media**: People aren't usually shy when it comes to expressing their thoughts and opinions on social media. You must be able to take advantage of this platform to ensure that customer issues or complaints are handled the same way they would be if the customer engaged directly with support.
+- **Self-service**: Self-service can mean different things:
 
-- **Social media:**  People are generally not shy when it comes to expressing their thoughts and opinions on social media.  It is important to be able to leverage this platform to ensure that customer issues or complaints can be handled in the same manner as if they engaged support directly.
+    - It can be as simple as providing a knowledge base that customers can use to find answers to simple procedural questions. 
+    - It can involve letting customers manage their accounts.
+    - Sometimes, it can involve giving customers a way to engage with other customers who are in the same situation.
 
-- **Self-service:** Self-Service can mean different things.
-  - It could be as simple as providing a knowledge base that customers can leverage to find answers to simple procedural questions. 
-  - It could involve customers being able to manage their accounts.
-  - Sometimes customers are looking for the ability to engage with other customers who are in the same situation.
+- **Internet of Things**: With more and more devices connected to the internet and communicating back and forth, it's important to take advantage of the technology used on these devices to engage in service calls. Here are some of the ways this can be done:
 
-- **Internet of things:**  With more and more devices connected to the internet and sending back and forth communication, it is important to leverage the technology used on these devices to engage service calls.  This could be with:
-  - Anomaly detection
-  - Predictive maintenance
-  - Or just using the data collected to help drive service offerings in the future
+    - Anomaly detection
+    - Predictive maintenance
+    - Just using the data that's collected to help drive service offerings in the future
 
-- **Customer engagement**: Engagement is more than just reaching out to gain customers opinions.  It could include knowing:
-  - When the right time is to engage
-  - What channels should be used
-  - What information should you collect
+- **Customer engagement**: Engagement is more than just reaching out to gain customers opinions. It can include knowing these details:
+
+    - When is the right time to engage?
+    - What channels should be used?
+    - What information should you collect?

@@ -3,7 +3,7 @@ uid: learn-bizapps.flow-create-approval.2-process-approval-request
 title: Process an approval request 
 metadata: 
   title: Process an approval request 
-  description: This course will teach you how to process an approval request. 
-durationInMinutes: 12 
+  description: Learn how to process an approval request. 
+durationInMinutes: 15 
 content: | 
   [!include[](includes/2-process-approval-request.md)]  

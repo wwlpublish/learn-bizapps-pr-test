@@ -22,6 +22,13 @@ Activities can be used to manage and report on interactions with customers and p
 
 Here are some examples of activities:
 
+### Case Management
+Cases are the fundamental record type in service management, and represent a single incident of service. Organizations may refer to cases using different terms, including incident, ticket, service request, and so forth. A customer can have many cases associated with their record at any time. Within Microsoft Dynamics 365 for Customer Service, users can see open and resolved cases from the customer record.
+ 
+Cases can also have knowledge base articles, subjects, products, and entitlements associated with them as related or dependent record types. In addition to these related entities, cases can have activities (such as any communication records) associated with them so that everyone in the organization can see what is happening with a case.
+
+![Today's customer across sales, service and marketing](../media/cases2.png)
+
 - E-mails
 - Phone calls
 - Appointments

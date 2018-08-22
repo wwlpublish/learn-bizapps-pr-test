@@ -11,9 +11,9 @@ iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
 roles: 
-- businessUser
+- business-user
 products: 
-- Dynamics
+- Customer Service
 units:
 - learn-bizapps.customer-service-cases.1-customer-service-manage-cases
 - learn-bizapps.customer-service-cases.2-customer-service-automate-cases
