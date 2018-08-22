@@ -5,49 +5,49 @@ uid: learn-bizapps.customer-service-cases.3-customer-service-cases-get-started-q
 metadata:
 # Search engine metadata
   title: Quiz on managing cases
-  description: This quiz will test your knowledge of how to work with cases.
+  description: This quiz tests your knowledge of how to work with cases.
   # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
 title: Quiz on managing cases
 # `title` appears in the header, ToC, and breadcrumbs
 durationInMinutes: 12
 # `durationInMinutes` is manually created by the writer
-content: Quiz on managing cases.
+content: Quiz on managing cases
 quiz:
   title: Quiz on managing cases
   questions:
-  - content: Which are key performance indicators?
+  - content: Which of these is a key performance indicator (KPI)?
     choices: 
     - content: Customer Satisfaction (CSAT).
-      correctExplanation: Customer satisfaction is one of most important indicators a company can have.
+      correctExplanation: CSAT is one of the most important KPIs a company can have.
       isCorrect: true
-    - content: Latency
-      incorrectExplanation: Latency is not a performance indicator. It measures anomalies in a network that can slow it down.
+    - content: Latency.
+      incorrectExplanation: Latency isn't a KPI. It measures anomalies in a network that can slow it down.
       isCorrect: false
-    - content: Average load time
-      incorrectExplanation: Average Handle time is the average duration of a transaction and is an important metric. Average Load time refers to web site performance.
+    - content: Average load time.
+      incorrectExplanation: Average Handle Time is the average duration of a transaction and is an important KPI. Average load time refers to website performance and isn't a KPI.
       isCorrect: false
-    - content: Cost per resolution
-      incorrectExplanation: Cost per Contact is a key performanc indicator that measures the cost in dollars of a customer contact.
+    - content: Cost per resolution.
+      incorrectExplanation: Cost per Contact is a KPI that measures the cost in dollars of a customer contact. Cost per resolution isn't a KPI.
       isCorrect: false
-  - content: Which is true about cases?
+  - content: Which of the following statements about cases is true?
     choices:
-    - content: A customer can have only one case associated with their record.
-      incorrectExplanation: A record can have multiple cases associated with a record.
+    - content: Only one case can be associated with a customer's record.
+      incorrectExplanation: Multiple cases can be associated with a customer record.
       isCorrect: false
     - content: Cases are the fundamental record type of service management.
-      correctExplanation: Record management are based primarily upon customer cases.
+      correctExplanation: Service management is based primarily on customer cases.
       isCorrect: true
-    - content: A case record must have all of its associated activites completed before the case can be closed.
-      incorrectExplanation: A case record can have incomplete activities. The user will be informed that incomplete activities will be cancelled when the case is closed.
+    - content: All associated activities for a case record must be completed before the case can be closed.
+      incorrectExplanation: A case record can have incomplete activities. The user will be informed that incomplete activities will be canceled when the case is closed.
       isCorrect: false
-  - content: What is true about cancelling and deleting cases?
+  - content: Which of the following statements about canceling and deleting cases is true?
     choices:
-    - content: Cases can always be deleted if the customer wants this.
-      incorrectExplanation: Sometimes a company's security policies prevent cases from being deleted.
+    - content: Cases can always be deleted if the customer wants this to happen.
+      incorrectExplanation: Sometimes, a company's security policies prevent cases from being deleted.
       isCorrect: false
-    - content: A deleted case can be reactivate later.
-      incorrectExplanation: Deleting a case is a permanent action and cannot be undone.
+    - content: A deleted case can be reactivated later.
+      incorrectExplanation: Deleting a case is a permanent action and can't be undone.
       isCorrect: false
-    - content: Cases can be reactivated if closed.
-      correctExplanation: If a customer has an issue that is related to a past case, the original case can be reactivated.
+    - content: Cases can be reactivated if they're closed.
+      correctExplanation: If a customer has an issue that's related to a past case, the original case can be reactivated.
       isCorrect: true
