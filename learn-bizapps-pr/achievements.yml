@@ -72,3 +72,8 @@ achievements:
   title: Get started with Microsoft Flow badge
   summary: Badge for the 'Get started with Microsoft Flow' module.
   iconUrl: http://via.placeholder.com/120x120
+- uid: learn.get-started-with-power-bi.badge 
+  type: badge
+  title: Get started with Power BI badge
+  summary: Badge for the 'Get started with Power BI' module.
+  iconUrl: http://via.placeholder.com/120x120
