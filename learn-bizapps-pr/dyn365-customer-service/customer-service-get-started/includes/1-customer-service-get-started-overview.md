@@ -1,14 +1,8 @@
-## Overview of Dynamics 365 for Customer Service
-
 Customer service is key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers.
 
 ![Customer engagement case flow](../media/customer-engagement.jpg)
 
-### Dynamics 365 for Customer Service - Agent interface
-
-This short video shows how Dynamics 365 is used for customer service.
-
-### Overview of the customer service landscape
+## Overview of the customer service landscape
 
 To help you better understand the context of customer service, let's review some real-life customer scenarios.
 
@@ -24,7 +18,7 @@ Sidney, a Customer Support Specialist at Fabrikam Furniture, receives Jim's ques
 
 **Collecting and applying customer feedback**: Maria is the Products Manager for Tables and Chairs at Fabrikam Furniture. She wants to collect feedback about the at-home assembly process when customers contact Fabrikam. She uses the case management functionality of Customer Service to capture this feedback. She can also analyze the tables and chairs that cause more issues during at-home assembly, and those that are easier to assemble. Additionally, Maria can determine which instructions for at-home assembly of tables and chairs must be prioritized for editing and review.
 
-### Understanding today's customer
+## Understanding today's customer
 Customers today are more informed than ever. Customers are used to having what they want, when they want it, the way they want it. 
  
 Think of the typical process of buying a TV:
@@ -36,7 +30,7 @@ Think of the typical process of buying a TV:
 
 The same process can be applied across different experiences. Customers want to be in control of the experience, and they prefer little or no interference as they work through the process. Customers should have the flexibility to drive the engagement experience but still be able to engage with live agents. But any such engagement should be on *their* terms.
 
-### Trends influencing customer service
+## Trends influencing customer service
 There are many trends that are currently affecting how customer service works. As a service organization, it's important that you understand what those trends are and how you can take advantage of them to enhance and drive the customer experience. Here are some of the trends influencing service today:
 
 - **Mobile devices**: With so many mobile devices available today, people are no longer engaging with customer service just through a phone call or email. They want to be able to access portal information on their mobile devices or engage with an agent through a chat that they initiate on their device. 
