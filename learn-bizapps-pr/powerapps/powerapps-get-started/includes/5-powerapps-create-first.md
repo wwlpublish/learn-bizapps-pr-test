@@ -6,7 +6,7 @@ But keep in mind that you can use data from lots of other sources, including Mic
 
 ## Connect to a data source
 1.  Download the [Flooring Estimates spreadsheet](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx), and save it to your OneDrive for Business account.
-1. Go to <https://web.powerapps.com>, and sign in.
+1. Go to <https://web.powerapps.com>, and sign in with your organizational account.
 1. In the left pane, select **Apps**.
 1. Select **Create an app**.
 1. For the **OneDrive for Business** data source, select **Phone layout**.

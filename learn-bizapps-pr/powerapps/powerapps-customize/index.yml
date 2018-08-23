@@ -4,8 +4,8 @@ metadata:
   title: Customize and manage PowerApps 
   description: Learn how to customize and manage your PowerApps app. 
 title: Customize PowerApps 
-summary: This module teaches you the basics of PowerApps. You'll learn how to customize your PowerApps apps. 
-abstract: This module teaches you the basics of PowerApps. You'll learn how to customize your PowerApps apps. 
+summary: This module teaches you how to customize your PowerApps. 
+abstract: This module teaches you how to customize your PowerApps by adding controls, images, and logic to your apps.
 cardDescription: This module introduces customization of PowerApps apps to the beginning student. 
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
