@@ -10,7 +10,7 @@ roles:
 - business-user
 products:
 - Flow
-prerequisites: This course assumes that you are familiar with SharePoint, OneDrive, and Excel. 
+prerequisites: This learning path assumes that you are familiar with SharePoint, OneDrive, and Excel. 
 metadata:
   title: Automate a business process using Flow
   description: This learning path introduces you to Microsoft Flow, and teaches you how to build two types of business workflows. 
