@@ -15,19 +15,19 @@ content: This is a quiz for getting started in PowerApps.
 quiz:
   title: Get started in PowerApps quiz
   questions:
-  - content: Where do you share an app with one or more users in your organization?
+  - content: Where do you share an app with others?
     choices: 
     - content: web.powerapps.com
-      correctExplanation: In web.powerapps.com, you can share an app with others, giving them permission either to just run the app or to not only run it but also edit and reshare it.
+      correctExplanation: In web.powerapps.com, you can share an app with others, allowing them to just run it or to both run and edit it.
       isCorrect: true
-    - content: In the Windows AppSource.
-      incorrectExplanation: You can browse and install apps in Microsoft AppSource, but you can't share them from that location.
+    - content: In the PowerApps admin center.
+      incorrectExplanation: You can manage environments and create databases in the PowerApps admin center, but you can't share apps from that location.
       isCorrect: false
     - content: In Microsoft Dynamics 365.
       incorrectExplanation: You can run apps in Dynamics 365, but you can't share them from that location.
       isCorrect: false
     - content: In PowerApps Studio.
-      incorrectExplanation: You design apps in PowerApps Studio, but you can't share them from that location.
+      incorrectExplanation: You can design apps in PowerApps Studio, but you can't share them from that location.
       isCorrect: false
   - content: Which of these statements about data sources is true?
     choices:
@@ -38,16 +38,16 @@ quiz:
       correctExplanation: You can use many data sources, including Twitter, Facebook, Microsoft SQL Server, and Salesforce.
       isCorrect: true
     - content: Dropbox can't be a data source.
-      incorrectExplanation: Dropbox is one of many data sources that you can when you build an app in PowerApps.
+      incorrectExplanation: Dropbox is one of many data sources that you can use when you build an app in PowerApps.
       isCorrect: false
-  - content: Which of these statements about app contributors is true?
+  - content: Which of these statements *doesn't** describe a way to build apps?
     choices:
-    - content: Everyone on a team contributes to the team. Therefore, all team members are contributors to PowerApps apps.
-      incorrectExplanation: Contributors to PowerApps apps are allowed to customize apps.
+    - content: You can build an app from a template or a sample.
+      incorrectExplanation: PowerApps ships with many templates and samples from which you can build apps.
       isCorrect: false
-    - content: Contributors have read-only access to apps.
-      incorrectExplanation: Contributors can help design apps. Therefore, they have read and write access to them.
+    - content: You can build an app from a blank screen.
+      incorrectExplanation: You can build an app from the ground up by adding UI elements that determine how the app looks and creating formulas that determine how the app behaves.
       isCorrect: false
-    - content: Contributors have access to web.powerapps.com, but team members who don't design apps don't have access to that site.
-      correctExplanation: By definition, contributors can create and modify apps.
+    - content: You can build an app in PowerApps Mobile.
+      correctExplanation: You can run but not build apps in PowerApps Mobile.
       isCorrect: true
