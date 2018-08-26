@@ -1,12 +1,12 @@
 OK, let's get started.
 
-Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook. You'll first download, which lists a company's inventory of flooring samples, together with pictures and prices. Then you'll upload the workbook to a Microsoft OneDrive for Business account.
+Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook. You'll first download the workbook, which shows a company's inventory of flooring samples. Then you'll upload the workbook to a Microsoft OneDrive for Business account.
 
 But keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
 ## Connect to a data source
 
-1. Download the [Flooring Estimates spreadsheet](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx), and save it to your OneDrive for Business account.
+1. Download the [Flooring Estimates workbook](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx), and save it to your OneDrive for Business account.
 1. Go to [web.powerapps.com](https://web.powerapps.com), and sign in with your organizational account.
 1. In the left pane, select **Apps**.
 1. Select **Create an app**.
@@ -48,6 +48,6 @@ You'll want to install your app on your phone to see how it looks there.
 
 1. Download PowerApps Mobile from the app store for the platform that you want to use.
 2. Sign in by using your user name and password.
-3. Run the Flooring estimates app on your phone or tablet. If you're using a PC, run the app from a web browser.
+3. On your phone or tablet, run the Flooring estimates app in PowerApps Mobile. Otherwise, run the app in a browser.
 
 In just a few minutes, you learned how to connect to a data source and generate an app. You also got acquainted with PowerApps Studio and the three screens in a generated app. In later modules, you'll learn how to customize generated apps.

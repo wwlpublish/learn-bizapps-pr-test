@@ -17,7 +17,7 @@ quiz:
   questions:
   - content: Where do you share an app with others?
     choices: 
-    - content: web.powerapps.com
+    - content: In web.powerapps.com
       correctExplanation: In web.powerapps.com, you can share an app with others, allowing them to just run it or to both run and edit it.
       isCorrect: true
     - content: In the PowerApps admin center.

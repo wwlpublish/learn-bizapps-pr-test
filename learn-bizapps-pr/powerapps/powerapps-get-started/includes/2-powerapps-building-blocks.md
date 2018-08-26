@@ -15,7 +15,7 @@ PowerApps Studio is where you flesh out your apps to make them more effective as
 
 - Left pane, which shows a hierarchical view of all the controls on each screen or a thumbnail for each screen in your app.
 - Middle pane, which shows the app that you're working on.
-- Right pane, where you set options such the layout and data sources for certain controls.
+- Right pane, where you set options such as the layout and data sources for certain controls.
 - Property drop-down list, where you select the properties that formulas apply to.
 - Function bar, where you add formulas (as for Excel worksheet functions) that define app behavior.
 - Ribbon, where you add controls and customize design elements.
