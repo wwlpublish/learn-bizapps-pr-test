@@ -1,7 +1,7 @@
 Now that you know the basics, let's get to building an app in Microsoft PowerApps.
 
 ## Ways to build PowerApps
-In this unit, we'll look at customizing sample apps, creating apps from a template or by using shared apps, and creating apps from a data source. Then, in the next unit, we'll get more hands-on with app creation.
+In this unit, we'll look at how to create an app from a sample app, a template, a shared app, or a data source. In the next unit, we'll get more hands-on with app creation.
 
 ### Check out some sample apps
 On web.powerapps.com, you'll be greeted with several sample apps that you can use in your web browser. Explore these apps to quickly get a sense of what's possible and how PowerApps can help your business.

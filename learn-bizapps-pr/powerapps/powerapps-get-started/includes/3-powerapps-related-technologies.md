@@ -7,7 +7,7 @@ Microsoft PowerApps works with other technologies to help you build and share ap
 ## Dynamics 365
 Dynamics 365 is a cloud service with apps that help you address specific business needs, such as sales automation, operations, or customer service.
 
-The advantage of having the apps in Dynamics 365 is that you have one place to run all your business apps, whether they come from app builders in your organization, from Microsoft, or from external companies.
+Dynamics 365 provides one place to run all your business apps, whether they come from app makers in your organization, Microsoft, or external companies.
 
 ![Dynamics 365 home page](../media/powerapps-dynamics.png)
 
@@ -21,7 +21,7 @@ In PowerApps, you can add many data sources to your apps through built-in or cus
 
 ![PowerApps data sources](../media/powerapps-datasources.png)
 
-Many data sources are cloud services, like Salesforce. Even Twitter can be a data source if, for example, you're tracking your company's hashtags. Connectors might not feel like the coolest part of app development, but they're essential when you work with data that you, your colleagues, and your customers care about. And when an app shows up with your data source for the first time, you'll suddenly find that they're very cool!
+Many data sources are cloud services, like Salesforce. Even Twitter can be a data source if, for example, you're tracking your company's hashtags. Connectors might not feel like the coolest part of app development. However, they're essential when you work with data that you, your colleagues, and your customers care about. And when an app shows up with your data source for the first time, you'll suddenly find they're very cool!
 
 For data that's stored on-premises instead of in the cloud, you use a gateway to provide a reliable connection between PowerApps and your data source. The gateway sits on an on-premises computer and communicates with PowerApps.
 

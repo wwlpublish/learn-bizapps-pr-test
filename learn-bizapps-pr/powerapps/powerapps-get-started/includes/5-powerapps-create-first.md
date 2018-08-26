@@ -1,6 +1,6 @@
 OK, let's get started.
 
-Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook that's stored on your Microsoft OneDrive for Business account. This Excel workbook lists a company's inventory of flooring samples, together with pictures and prices.
+Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook. You'll first download, which lists a company's inventory of flooring samples, together with pictures and prices. Then you'll upload the workbook to a Microsoft OneDrive for Business account.
 
 But keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
@@ -39,15 +39,15 @@ Select **Play** ![Start app preview arrow](../media/powerapps-arrow.png) in the 
 
 All apps generated from data have the same set of screens:
 
-* **Browse screen**: This is the main screen where you browse, sort, filter, and refresh the data from the data source. In the browse screen, you add items to the data source by selecting the plus sign (**+**).
+* **Browse screen**: This screen appears by default. In it, you can browse, sort, filter, and refresh the data from the data source. In the browse screen, you add items to the data source by selecting the plus sign (**+**).
 * **Details screen**: Select an item in the browse screen to open the details screen, which shows all details about an item. In this screen, you can open an item for editing or delete it.
 * **Edit/create screen**: In this screen, you edit an existing item, or you create one.
 
 ## Install the app on your device
-Of course, you'll want to install your app on your phone to see how it looks there.
+You'll want to install your app on your phone to see how it looks there.
 
 1. Download PowerApps Mobile from the app store for the platform that you want to use.
 2. Sign in by using your user name and password.
 3. Run the Flooring estimates app on your phone or tablet. If you're using a PC, run the app from a web browser.
 
-Wow, that was pretty easy! In just a few minutes, you learned how to connect to a data source and generate an app. You also got acquainted with PowerApps Studio and the three screens in a generated app. In later modules, you'll learn how to customize generated apps.
+In just a few minutes, you learned how to connect to a data source and generate an app. You also got acquainted with PowerApps Studio and the three screens in a generated app. In later modules, you'll learn how to customize generated apps.
