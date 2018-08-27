@@ -1,6 +1,6 @@
-In a previous unit, you looked more closely at the Flooring Estimates app and explored it to get a better understanding of how three-screen apps are built. Although the app that Microsoft PowerApps generated is useful, you'll often want to customize an app after it's generated.
+In a previous unit, you looked more closely at the Flooring Estimates app and explored it to get a better understanding of how three-screen apps are built. Apps that Microsoft PowerApps generates are useful, but you'll often want to customize an app after it's generated.
 
-In this unit, we'll walk you through some basic changes for each screen in the app. There's a lot more you can do to customize an app, but the best way to start learning is to take any app that you've generated from a list (for example, a Microsoft Excel file) and see how you can customize it.
+In this unit, we'll walk you through some basic changes for each screen in the app. You can do a lot more to customize an app, but the best way to start learning is to take any app that you've generated from a list (for example, a Microsoft Excel file) and see how you can customize it.
 
 ## Browse screen
 We'll start on the browse screen. The app currently contains an image for each product, but the layout could be better. Let's work on that.
