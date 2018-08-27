@@ -50,7 +50,6 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "paths/sample-path/**",
-          "achievements.yml",
           "dyn365-customer-service/**",
           "flow/**",
           "power-bi/**",
