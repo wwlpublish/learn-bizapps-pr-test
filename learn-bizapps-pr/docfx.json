@@ -49,7 +49,12 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "paths/sample-path/**"
+          "paths/sample-path/**",
+          "achievements.yml",
+          "dyn365-customer-service/**",
+          "flow/**",
+          "power-bi/**",
+          "powerapps/**"
         ]
       }
     ],
