@@ -1,11 +1,12 @@
-In a previous unit, you generated the Flooring Estimates app and started to explore its default design. Apps that Microsoft PowerApps generates are useful out of the box, but you'll often want to customize generated apps to suit your needs.
+In a previous unit, you generated the Flooring Estimates app and started to explore its default design. Apps that Microsoft PowerApps generates are useful out of the box, but you'll often want to customize a generated app to suit your needs.
 
 In this unit, we'll walk you through some basic changes for each screen in the app. You can do a lot more to customize an app, but the best way to start learning is to take any generated app and make common customizations.
 
 ## Browse screen
-We'll start on the browse screen. The app shows an image for each product, but the layout could be better. Let's work on that.
+We'll start on the browse screen. The app already shows an image and some text for each product, but the layout could be better. Let's work on that.
 
 1. In the **Screens** pane on the left, select **BrowseGallery1**.
+
 1. In the right pane, select **Layout**.
 
     ![Show layout options](../media/powerapps-layout.png)
@@ -30,7 +31,7 @@ It's that easy to change the layout of a gallery and the types of data that it s
 
 ## Details screen
 
-On the details screen, we want to change the order of the fields. The controls on this screen are different from the controls on the browse screen, so the process for changing them is also a little different.
+On the details screen, we want to change the order of the fields. The controls on this screen differ from the controls on the browse screen, so the process for changing them is also a little different.
 
 1. On the **Screens** pane on the left, select **DetailForm1**.
 
@@ -44,7 +45,7 @@ On the details screen, we want to change the order of the fields. The controls o
 
 ## Edit/create screen
 
-Finally, on the screen where your user edits and creates entries, we want to make it easier to enter information in a text field.
+Finally, on the screen where your user edits and creates entries, we want to make it easier to enter information in a text box.
 
 1. On the **Screens** pane on the left, select **EditForm1**.
 
@@ -56,4 +57,4 @@ Finally, on the screen where your user edits and creates entries, we want to mak
 
     ![Change the edit/create screen fields](../media/powerapps-change-editscreen.png)
 
-You've seen how a few basic steps can do a lot to improve the appearance and experience of using an app. In this unit, we focused on PowerApps Studio, which provides lots of options for customizing apps. In the next unit, we'll explore the app in greater detail.
+You've seen how a few basic steps can do a lot to improve the appearance and experience of using an app. In this unit, we focused on PowerApps Studio, which provides lots of options for customizing apps. In the next unit, we'll explore the controls in the app in greater detail.

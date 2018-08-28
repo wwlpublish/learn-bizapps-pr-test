@@ -1,6 +1,6 @@
-When you use Microsoft PowerApps, you don't have to write complicated application code as a traditional developer does. But you still must express logic in an app and control its navigation, filtering, sorting, and other functionality. This is where formulas come in.
+When you use Microsoft PowerApps, you don't have to write complicated application code the way a traditional developer does. But you still must express logic in an app and control its navigation, filtering, sorting, and other functionality. This is where formulas come in.
 
-If you've used Microsoft Excel functions, the approach that PowerApps takes should feel familiar. In this unit, we'll show a couple of basic formulas for text formatting and then walk through three of the formulas that PowerApps includes when it generates an app. You'll get a taste of what formulas can do and also start to write your own.
+If you've used Microsoft Excel functions, you should recognize the approach that PowerApps takes. In this unit, we'll show a couple of basic formulas for text formatting and then walk through three of the formulas that PowerApps includes when it generates an app. You'll get a taste of what formulas can do and also start to write your own.
 
 ## Get started with formulas and properties
 In the previous unit, we explored controls in all three screens of an app that PowerApps generated. In this section, we'll work with the details screen, which is where users can look more closely at a flooring item.
