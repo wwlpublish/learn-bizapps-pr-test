@@ -3,19 +3,17 @@ When you use Microsoft PowerApps, you don't have to write complicated applicatio
 If you've used Microsoft Excel functions, you should recognize the approach that PowerApps takes. In this unit, we'll show a couple of basic formulas for text formatting and then walk through three of the formulas that PowerApps includes when it generates an app. You'll get a taste of what formulas can do and also start to write your own.
 
 ## Get started with formulas and properties
-In the previous unit, we explored controls in all three screens of an app that PowerApps generated. In this section, we'll work with the details screen, which is where users can look more closely at a flooring item.
+In the previous unit, we explored controls in all three screens of an app that PowerApps generated. In this section, we'll format the price that we added to the browse screen earlier.
 
-By default, the price appears as a plain number without a currency symbol. But suppose that we want to add a dollar sign and change the text color based on the item's cost (for example, red if it's more than $5 but green otherwise). This graphic gives you an idea of what we want.
+By default, the price appears as a plain number without a currency symbol. But suppose that we want to add a dollar sign and change the text color based on the item's cost (for example, red if it's more than $5 but green otherwise). This graphic shows the expected result.
 
-![Text formatting for color and currency](../media/powerapps-formulas2.png)
+![Text formatting for color and currency](../media/conditional-format.png)
 
 Let's start with the currency formatting. By default, PowerApps just pulls in a price value for each item. This value is set as the **Text** property of the label that shows the price.
 
-1. In the **Screens** pane on the left, select **DetailsScreen1**.
+1. In **BrowseScreen1**, select the price of the first item.
 
-1. On the canvas, select the **Label** control that shows the price of the first item.
-
-    ![Price formatting](../media/powerapps-formulas3.png)
+    ![Select price](../media/select-price.png)
 
 1. In the drop-down list of properties, select **Text**.
 
@@ -31,7 +29,7 @@ If you select a control and then open the property drop-down list, you'll see a 
 
 ![Setting properties](../media/powerapps-formulas4.png)
 
-To format the color conditionally, based on the price, use a formula like the following for the **Color** property of the **Label** control:
+To conditionally format the price's color, set the **Color** property of the price's **Label** control to this formula:
 
 `If(Price > 5, Color.Red, Color.Green)`
 

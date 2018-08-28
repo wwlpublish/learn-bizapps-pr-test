@@ -15,19 +15,19 @@ We'll start on the browse screen. The app already shows an image and some text f
 
     ![Show layout options](../media/powerapps-layout.png)
 
-1. Select a different layout, such as the one that shows the title and the subtitle under the image.
+1. Select a different layout, such as the one that shows the image, the title, and the subtitle but not the body.
 
-     ![Change the browse screen layout](../media/vertical-layout.png)
+    ![Change layout](../media/change-layout.png)
 
-1. Change the gallery back to the original layout, which shows the image to the left of the title, the subtitle, and the body.
+1. Select the category of the item at the top of the gallery.
 
-1. Select the description in the item at the top of the gallery.
+    ![Select category label](../media/select-category.png)
 
-    ![Change the item description](../media/powerapps-delete-body.png)
+1. Change **ThisItem.Category** to **ThisItem.Name** in the formula bar.
 
-1. In the right pane, select the **Advanced** tab.
+1. Repeat the previous two steps, but change the other **Label** control to show the price of each item.
 
-1. In the **Data** section, change **ThisItem.Overview** to **ThisItem.Price** (under **Text**).
+    ![Add price](../media/add-price.png)
 
 It's that easy to change the layout of a gallery and the types of data that it shows. And you might find that it's fun too!
 
