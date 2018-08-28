@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.powerapps-customize.1-powerapps-customize
-title: Improve PowerApps by modifying them
+title: Improve apps by modifying them
 metadata: 
-  title: Customize PowerApps 
-  description: This module teaches you how to customize your PowerApps apps. 
+  title: Customize apps 
+  description: This module teaches you how to customize your apps in PowerApps. 
 durationInMinutes: 10 
 content: | 
   [!include[](includes/1-powerapps-customize.md)]  

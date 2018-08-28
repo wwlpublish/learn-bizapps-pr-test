@@ -1,32 +1,35 @@
-One of the major benefits of Microsoft PowerApps is that you don't have to write complicated application code as a developer does. But you still need a way to express logic in an app, and to control an app's navigation, filtering, sorting, and other functionality. This is where formulas come in.
+When you use Microsoft PowerApps, you don't have to write complicated application code as a traditional developer does. But you still must express logic in an app and control an app's navigation, filtering, sorting, and other functionality. This is where formulas come in.
 
-If you've used Microsoft Excel functions, the approach that PowerApps takes should feel familiar. In this unit, we'll show a couple of basic formulas for text formatting and then walk through three of the formulas that PowerApps includes in the generated app. You'll get a taste of what formulas can do and will also start writing your own.
+If you've used Microsoft Excel functions, the approach that PowerApps takes should feel familiar. In this unit, we'll show a couple of basic formulas for text formatting and then walk through three of the formulas that PowerApps includes when it generate an app. You'll get a taste of what formulas can do and also start to write your own.
 
-## Understand formulas and properties
-In the previous unit, we worked with the browse screen gallery. Now we're going to work with the details screen, which is the screen the user opens to look more closely at a carpet item. 
+## Get started with formulas and properties
+In the previous unit, we worked with the browse screen gallery. Now we're going to work with the details screen, which is the screen that the user opens to look more closely at a flooring item. 
 
-By default, the price appears as a plain number without a currency symbol. But suppose we want to add a dollar sign, and that we also want the text color to change, depending on the item's cost (for example, red if it's more than $5 but green otherwise). The following illustration gives an idea of what we want.
+By default, the price appears as a plain number without a currency symbol. But suppose that we want to add a dollar sign, and we also want to change the text color based on the item's cost (for example, red if it's more than $5 but green otherwise). This illustration gives an idea of what we want.
 
 ![Text formatting for color and currency](../media/powerapps-formulas2.png)
 
 Let's start with the currency formatting. By default, PowerApps just pulls in a price value for each item. This value is set as the **Text** *property* of the label that shows the price.
 
-1. In the **Screens** pane on the left, select the control for the details screen, **DetailsScreen1**, because that's the main screen we want to change.
-1. Select the **Price** control in the app.
+1. In the **Screens** pane on the left, select the thumbnail for **DetailsScreen1**.
+
+1. On the canvas, select the **Price** control.
 
     ![Price formatting](../media/powerapps-formulas3.png)
 
-1. On the function bar, select the properties for this control, and then select the **Text** property in the drop-down list. This list includes all properties that are relevant to the control that's currently selected in your app. You'll see that the **Price** control is currently set to show only a numeric value and hasn't yet been formatted to be more helpful. 
+1. In the drop-down list of properties, select **Text**.
+
+    This list includes all properties that are relevant to the selected control. The **Text** property shows only an unformatted number.
 
     ![Price formatting](../media/powerapps-formulas1.png)
 
-1. To add the currency symbol for US dollars, replace "Price" with this formula: 
+1. To add the currency symbol for US dollars, set the **Text** property to this formula:
 
     `Text(Price, "[$-en-US]$ ##.00")`
 
-The formula `Text(Price, "[$-en-US]$ ##.00")` uses the **Text** *function* to specify how the number should be formatted. The formula is like an Excel function, but PowerApps formulas refer to controls and other elements in an app instead of cells in a workbook.
+The **Text** *function* specifies how to format the number. The formula is like an Excel function, but PowerApps formulas refer to controls and other app elements instead of cells in a workbook.
 
-If you select a control and then select the property drop-down list, you'll see a list of properties that are relevant to the control. For example, here is a partial list of the properties for a label. Some properties are relevant across a wide range of controls, whereas others are relevant only for a specific control.
+If you select a control and then open the property drop-down list, you'll see a list of properties that are relevant to the control. For example, here is a partial list of the properties for a label. Some properties are relevant across a wide range of controls, whereas others are relevant only for a specific control.
 
 ![Setting properties](../media/powerapps-formulas4.png)
 

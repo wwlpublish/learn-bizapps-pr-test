@@ -1,7 +1,7 @@
 We're now going to look more closely at Microsoft PowerApps Studio, and the screens and controls that define your app's behavior. We won't go through all the details, but knowing more about how this app works will help you build your own apps. 
 
 ## Understand controls in PowerApps
-A control is just a UI element that produces an action or shows information. Many of the controls in PowerApps are just like controls that you've used in other apps: labels, text input boxes, drop-down lists, navigation elements, and so on.
+A control is just a UI element that produces an action or shows information. Many of the controls in PowerApps are just like controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on.
 
 In addition to these typical controls, PowerApps has more specialized controls. These can be found in the ribbon when you click **Insert**.
 
@@ -14,7 +14,7 @@ Here are just a few of the controls that can add interest and impact to your app
 - **Media**: These controls let you add background images, a camera button so that users can take pictures from the app, and a barcode reader for quick capture of identification information. 
 - **Charts**: These controls let you to add charts so that users can do instant analysis while they're on the road.
 
-To see what's available, select **Insert** on the ribbon, and then select each option in turn.
+To see what's available, select the **Insert** tab, and then select each option in turn.
 
 ## Explore the browse screen
 
