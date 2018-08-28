@@ -77,12 +77,12 @@ achievements:
   title: Get started with Power BI badge
   summary: Badge for the 'Get started with Power BI' module.
   iconUrl: http://via.placeholder.com/120x120
-- uid: learn.design-model-driven-apps.badge 
+- uid: learn.powerapps-design-model-driven-apps.badge 
   type: badge
   title: Get started with model-driven apps
   summary: Badge for the 'Get started with model-driven apps' module.
   iconUrl: http://via.placeholder.com/120x120
-- uid: learn.business-process-flow.badge 
+- uid: learn.powerapps-business-process-flow.badge 
   type: badge
   title: Get started with business process flows
   summary: Badge for the 'Get started with business process flows' module.
