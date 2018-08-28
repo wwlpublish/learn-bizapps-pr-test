@@ -11,14 +11,14 @@ Here are just a few of the controls that can add interest and impact to your app
 
 - **Galleries**: These controls are layout containers that hold a set of controls that show data from a data source.
 - **Forms**: These controls show details about your data and let you create and edit items.
-- **Media**: These controls let you add background images and include a camera button so that users can take pictures from the app and a barcode reader for quickly capturing identification information.
+- **Media**: These controls let you add background images and include a camera button (so that users can take pictures from the app) and a barcode reader for quickly capturing identification information.
 - **Charts**: These controls let you add charts so that users can do instant analysis while they're on the road.
 
 To see what's available, select the **Insert** tab, and then select each option in turn.
 
 ## Explore the browse screen
 
-Each screen in the app has multiple controls, but one control takes up most of the area. The first screen in the app is the browse screen, which is named **BrowseScreen1** by default.
+Each screen in the app has multiple controls, but one control takes up most of the screen space. The first screen in the app is the browse screen, which is named **BrowseScreen1** by default.
 
 Here are some of the controls that you'll want to become familiar with for the browse screen:
 
@@ -28,12 +28,8 @@ Here are some of the controls that you'll want to become familiar with for the b
 
 ![Browse screen with controls](../media/powerapps-browse-screen.png)
 
-PowerApps has a variety of gallery types beyond the default vertical orientation. Try the horizontal orientation to see how it changes the look of your app. You'll see more ways to control layout later in this unit.
-
-![PowerApps gallery options](../media/powerapps-galleries.png)
-
 ## Explore the details screen
-Next is the details screen, which is named **DetailScreen1** by default. Here are its main controls:
+Next is the details screen, which is named **DetailScreen1** by default. Here are some of its controls:
 
 - **DetailForm1**: This control contains other controls.
 - **DataCard1**: This is a card control. In this case, it shows a flooring category from the Flooring Estimates table, as seen in the previous unit.
@@ -42,7 +38,7 @@ Next is the details screen, which is named **DetailScreen1** by default. Here ar
 ![Details screen with controls](../media/powerapps-details-screen.png)
 
 ## Explore the edit/create screen
-The third screen in the app is **EditScreen1**. Here are its main controls:
+The third screen in the app is **EditScreen1**. Here are some of its controls:
 
 - **EditForm1**: This control contains other controls.
 - **DataCard8**: This is another card control that shows a flooring category from the Flooring Estimates table, as seen in the previous unit.
