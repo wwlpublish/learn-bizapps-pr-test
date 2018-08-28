@@ -3,7 +3,7 @@ uid: learn-bizapps.flow-get-started.3-flow-mobile-app
 title: Microsoft Flow mobile app 
 metadata: 
   title: Microsoft Flow mobile app 
-  description: Learn how to use the mobile app for Microsoft Flow.
+  description: Learn how to use the Microsoft Flow mobile app.
 durationInMinutes: 15 
 content: | 
   [!include[](includes/3-flow-mobile-app.md)] 
