@@ -3,6 +3,7 @@ uid: learn-bizapps.powerapps-manage
 metadata:
   title: Manage your PowerApps apps
   description: Manage versions, sharing, and environments for PowerApps apps.
+  ms.date: 09/24/2018
 title: Manage your PowerApps apps
 summary: This module teaches you to manage PowerApps.
 abstract: This module teaches the beginning student how to manage versions, sharing, and environments for PowerApps apps.
@@ -14,6 +15,7 @@ roles:
 - business-user
 products: 
 - PowerApps
+- d365
 units:
 - learn-bizapps.powerapps-manage.1-powerapps-versions
 - learn-bizapps.powerapps-manage.2-powerapps-share

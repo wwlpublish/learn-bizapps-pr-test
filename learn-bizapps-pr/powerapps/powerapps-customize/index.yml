@@ -2,7 +2,8 @@
 uid: learn-bizapps.powerapps-customize 
 metadata: 
   title: Customize and manage PowerApps 
-  description: Learn how to customize and manage your PowerApps app. 
+  description: Learn how to customize and manage your PowerApps app.
+  ms.date: 09/24/2018
 title: Customize PowerApps 
 summary: This module teaches you how to customize your PowerApps. 
 abstract: This module teaches you how to customize your PowerApps by adding controls, images, and logic to your apps.
@@ -13,7 +14,8 @@ levels:
 roles:  
 - business-user 
 products:  
-- PowerApps 
+- PowerApps
+- d365 
 units: 
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore

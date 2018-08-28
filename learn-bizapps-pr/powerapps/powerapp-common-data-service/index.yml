@@ -3,6 +3,7 @@ uid: learn-bizapps.powerapps-common-data-service
 metadata: 
   title: Get started with the Common Data Service 
   description: The Common Data Service for apps lets you securely store and manage data that's used by business applications. Standard and custom entities within CDS for Apps provide a secure and cloud-based storage option for your data.
+  ms.date: 09/24/2018 
 title: Get started with the Common Data Service
 summary: The Common Data Service (CDS) for apps lets you store and manage data.
 abstract: The Common Data Service for apps lets you securely store and manage data that's used by business applications. Standard and custom entities within CDS for Apps provide a secure and cloud-based storage option for your data.
@@ -13,7 +14,9 @@ levels:
 roles:  
 - business-user 
 products:  
-- PowerApps 
+- flow
+- PowerApps
+- d365
 units: 
 - learn-bizapps.powerapps-common-data-service.1-introduction
 - learn-bizapps.powerapps-common-data-service.2-learn-about-entities

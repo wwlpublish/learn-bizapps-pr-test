@@ -1,11 +1,11 @@
-One of the major benefits of Microsoft PowerApps is that you don't have to write complicated application code as a developer does. But you still need a way to express logic in an app, and to control an app's navigation, filtering, sorting, and other functionality. This is where formulas come in.
+One of the major benefits of Microsoft PowerApps is that you don't have to write complicated application code as a developer does. You still need a way to express logic in an app, and to control an app's navigation, filtering, sorting, and other functionality. This is where formulas come in.
 
 If you've used Microsoft Excel functions, the approach that PowerApps takes should feel familiar. In this unit, we'll show a couple of basic formulas for text formatting and then walk through three of the formulas that PowerApps includes in the generated app. You'll get a taste of what formulas can do and will also start writing your own.
 
 ## Understand formulas and properties
 In the previous unit, we worked with the browse screen gallery. Now we're going to work with the details screen, which is the screen the user opens to look more closely at a carpet item. 
 
-By default, the price appears as a plain number without a currency symbol. But suppose we want to add a dollar sign, and that we also want the text color to change, depending on the item's cost (for example, red if it's more than $5 but green otherwise). The following illustration gives an idea of what we want.
+By default, the price appears as a plain number without a currency symbol. Suppose we want to add a dollar sign, and that we also want the text color to change, depending on the item's cost (for example, red if it's more than $5 but green otherwise). The following illustration gives an idea of what we want.
 
 ![Text formatting for color and currency](../media/powerapps-formulas2.png)
 
