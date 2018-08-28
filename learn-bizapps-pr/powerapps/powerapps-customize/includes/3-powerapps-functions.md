@@ -34,29 +34,23 @@ To conditionally format the price's color, set the **Color** property of the pri
 `If(Price > 5, Color.Red, Color.Green)`
 
 ## Formulas included in the generated app
-Now that you understand how to use formulas in conjunction with properties, we'll look at three examples of formulas that PowerApps uses in every app it generates. All the examples are from the browse screen and work with the **OnSelect** property, which defines what happens when a user selects a control.
+Now that you understand how to use formulas in conjunction with properties, we'll look at a couple of formulas that PowerApps uses in every app it generates. Both the examples are from the browse screen and work with the **OnSelect** property. This property defines what happens when a user selects a control (for example, by clicking it with a mouse).
 
-* The first formula is associated with the **IconNewItem1** control ![New item icon](../media/powerapps-icon-add-item.png). You select this control to go from the browse screen to the edit/create screen so that you can create an item. The formula is:
+* The first formula is associated with the **IconNewItem1** control ![New item icon](../media/powerapps-icon-add-item.png). You select this control to open the edit/create screen where you can create an item. The formula is:
 
     `NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)`
 
-    The formula instantiates an edit form on the edit/create screen so that users can create an item. A value of `ScreenTransition.None` means there's no transition between screens (such as a fade).
+    The formula instantiates an edit form on the edit/create screen so that users can create an item. A value of `ScreenTransition.None` means there's no transition, such as a fade, between screens.
 
-* The second formula is associated with the **IconSortUpDown1** control ![Sort gallery icon](../media/powerapps-icon-sort.png). You select this control to sort the list of items in the browse screen gallery. The formula is:
+* The second formula is associated with the **IconSortUpDown1** control ![Sort gallery icon](../media/powerapps-icon-sort.png). You select this control to sort the items in the gallery. The formula is:
 
     `UpdateContext({SortDescending1: !SortDescending1})`
 
-    The formula uses `UpdateContext` to update a variable called `SortDescending1`. The value of the variable switches back and forth as you select the control. This tells the gallery on this screen how to sort the items.
-
-* The third formula is associated with the **NextArrow1** control ![Go to details arrow icon](../media/powerapps-icon-arrow.png). You select this control to go from the browse screen to the details screen. The formula is:
-
-    `Navigate(DetailScreen1, ScreenTransition.None)`
-
-    The formula opens the details screen. Once again, there's no transition.
+    The formula uses `UpdateContext` to update a variable called `SortDescending1`. The value of the variable switches back and forth as you select the control. This variable tells the gallery on this screen how to sort the items.
 
 There are many other formulas in the app, so take some time to select controls and see what formulas are set for various properties.
 
-For more information about these and other functions, see the [formula reference](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference).
+For more information about these and other functions, see the [formula reference](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference).
 
 ## Wrapping it all up
 This brings us to the end of our exploration of the generated app and our behind-the-scenes look at the screens, controls, properties, and formulas that give the app its capabilities—and even its personality. If you've followed along, you should have a better understanding of how a generated app works. You can now take this understanding and use it to create your own app.
