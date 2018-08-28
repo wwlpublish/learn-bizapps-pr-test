@@ -21,7 +21,7 @@ Now let's change your app some more.
 1. Press the Delete key to remove the description text. Don't worry. You aren't deleting this information from your data source. You're just making it so that the information no longer shows up in the app.
 1. Continue selecting controls in the left pane and changing the information for them in the right pane. You can also select controls directly in the app and then change their details in the right pane. 
 
-It's that easy. And you might find that it's fun too!
+It's that easy.  You might even find that it's fun too!
 
 ## Details screen
 

@@ -13,7 +13,7 @@ You must save apps to the cloud before you can share them with anyone.
 1. On the **Share** tab, specify the users or groups you want to share the app with. To add everyone in your organization, select the **Add everyone in my org** check box.
 1. To notify users by email, select the **Send an email invitation** check box. Then everyone you shared the app with will receive an email that has a link to Dynamics 365. App contributors will also receive a link to web.powerapps.com.
 
-    Only people who follow the link to Dynamics 365 will see the app there. But the app will also be in Microsoft AppSource. Anyone who didn't follow the link will have to add the app from AppSource to Dynamics 365 themselves.
+    Only people who follow the link to Dynamics 365 will see the app there. The app will also be in Microsoft AppSource. Anyone who didn't follow the link will have to add the app from AppSource to Dynamics 365 themselves.
 
 1. In the **Shared with** list, in the **Permissions** list on the right, specify how the users or groups can interact with the app:
 

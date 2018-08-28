@@ -3,18 +3,19 @@ uid: learn-bizapps.powerapps-get-started
 metadata:
   title: Get started with PowerApps
   description: Learn the basics of PowerApps
+  ms.date: 09/24/2018
 title: Get started with PowerApps
 summary: This module teaches you the basics of PowerApps and how you can use it in your organization.
 abstract: This module introduces PowerApps to the beginning student. You'll learn about the pieces of PowerApps and how you can use them in your organization.
 cardDescription: This module introduces PowerApps to the beginning student.
-
 iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
 roles: 
 - business-user
 products: 
-- powerapps
+- powerApps
+- d365
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction
 - learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
