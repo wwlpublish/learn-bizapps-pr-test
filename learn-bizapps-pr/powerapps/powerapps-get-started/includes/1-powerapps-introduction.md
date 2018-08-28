@@ -1,38 +1,33 @@
-Welcome to Microsoft PowerApps. This self-paced online module helps you build apps from the ground up. 
+Welcome to Microsoft PowerApps. This self-paced online module helps you build apps from the ground up.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2r0x7]
-
-With this introductory module, you'll learn how to easily create an app from data in a Microsoft Excel workbook that's stored on Microsoft OneDrive for Business. And you'll be able to do this without having to use a traditional programming language like C#.
+With this introductory module, you'll learn how to create an app from data in a Microsoft Excel workbook. As a prerequisite, you'll download the workbook, which contains sample data. Then you'll upload the workbook to Microsoft OneDrive for Business, where you can share the data with others. Then you'll build the app without using a traditional programming language such as C#.
 
 With PowerApps, you can:
 
-- Quickly build an app by using the skills you already have. 
-- Connect to the cloud services and data sources you're already using.
+- Quickly build an app by using the skills that you already have.
+- Connect to the cloud services and data sources that you're already using.
 - Instantly share your apps so that co-workers across the company or across the world can use them on their phones and tablets.
 
 ![Welcome to PowerApps](../media/powerapps-mobile.png)
 
-The sky's the limit when it comes to using PowerApps to get things done and keep people informed. Here are just a few examples to get you thinking about how you can use an app, instead of traditional paper notes, to run your business:
+The sky's the limit when it comes to using PowerApps to get things done and keep people informed. These examples can help you think about how to use an app, instead of traditional paper notes, to run your business:
 
-- **Equipment in the field**: Often, company representatives who visit customers in the field carry clipboards to help guarantee a paper trail of parts with scheduled replacement dates. By using a tablet and a PowerApps app for parts, reps can look up the customer's equipment, see a picture of a part, test and analyze the part, and then order new parts—all without having to leave the customer's warehouse as they might have done in the past.
-- **Restaurant employee management**: Employees of a large restaurant used to have to fill out work schedules and vacation requests on sheets of paper stapled to a back wall. With PowerApps running on everyone's smartphone, employees now just open the app to record the same information, anywhere, any time. There are even built-in reminders for the start of the next day's shift.
+- **Equipment in the field**: Often, company representatives who visit customers in the field carry clipboards to help guarantee a paper trail of parts with scheduled replacement dates. By running an app on a tablet, reps can look up the customer's equipment, see a picture of a part, test and analyze the part, and then order new parts. Reps can perform these tasks on site instead of leaving the customer's warehouse.
+- **Restaurant employee management**: Employees of a large restaurant might fill out work schedules and vacation requests on paper that's stapled to a wall. With PowerApps running on everyone's smartphone, employees now just open the app to record the same information, anywhere, any time. The app can even send reminders for the start of the next day's shift.
 
 If you're a beginner with PowerApps, this module gets you going quickly. If you're familiar with PowerApps, it ties concepts together and fills in the gaps.
 
 ## PowerApps building blocks
-PowerApps is a collection of software services, apps, and connectors that work together to let you do much more than just view your data.
-
-You can now act on your data and update it anywhere and on any device.
+PowerApps is a collection of services, apps, and connectors that work together to let you do much more than just view your data. You can act on your data and update it anywhere and on any device.
 
 ![Welcome to PowerApps](../media/powerapps-intro.gif)
 
-To create, share, and administer apps, you'll typically need to visit four places in the following order:
+To create, share, and administer apps, you'll use these sites:
 
-1. [web.powerapps.com](https://web.powerapps.com) You'll use this site to specify how to create your app, based on sample apps or templates.
-1. **PowerApps Studio**: This is where you'll flesh out your apps with app screens and other controls.
-1. **PowerApps Mobile**: You can run your apps in PowerApps Mobile, which is available for Microsoft Windows, Apple iOS, and Google Android devices.
-1.  **PowerApps admin center**: This is where you'll define environments for your apps, and manage data connections and other elements. 
+1. [web.powerapps.com](https://web.powerapps.com) In this site, you can open apps, specify the type of app that you want to create, create data connections and flows, and manage entities in Common Data Service (CDS) for Apps.
+1. **PowerApps Studio**: In this site, you build apps by configuring UI elements and Excel-like formulas.
+1. **PowerApps admin center**: In this site, you'll define environments, databases in CDS for Apps, and data policies.
 
-When you're done with all that, you can just run your apps in a browser from Microsoft Dynamics 365. You can also run them in PowerApps Mobile, which is available for Windows, iOS, and Android devices.
+When you're done with all that, you can run your apps in a browser (from Microsoft Dynamics 365) or in PowerApps Mobile (available for Windows tablets, iOS devices, and Android devices).
 
-Now that you have an overview of this module, what PowerApps is, and what its main parts are, we'll look more closely at PowerApps components.
+In this unit, you got an overview of what you can do with PowerApps what its main parts are. In the next unit, you'll look more closely at PowerApps components.
