@@ -16,10 +16,10 @@ products:
 - PowerApps 
 units: 
 - learn-bizapps.powerapps-design-model-driven-apps.1-introduction
-- learn-bizapps.powerapps-design-model-driven-appse.2-building-blocks-of-model-driven-apps
+- learn-bizapps.powerapps-design-model-driven-apps.2-building-blocks-of-model-driven-apps
 - learn-bizapps.powerapps-design-model-driven-apps.3-create-a-model-driven-app
 - learn-bizapps.powerapps-design-model-driven-apps.4-explore-sample-model-driven-apps
 - learn-bizapps.powerapps-design-model-driven-apps.5-control-security-when-sharing-model-driven-apps
 - learn-bizapps.powerapps-design-model-driven-apps.6-knowledge-check
 - learn-bizapps.powerapps-design-model-driven-apps.7-summary
-achievement: learn.powerapps-customize.badge  
+achievement: learn.powerapps-design-model-driven-apps.badge  
