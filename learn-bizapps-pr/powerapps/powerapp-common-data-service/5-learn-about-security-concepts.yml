@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-common-data-service.5-learn-about-security-concepts
+title: Learn about security concepts  
+metadata: 
+  title: Learn about security concepts
+  description: Learn about security concepts
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/5-learn-about-security-concepts.md)]  

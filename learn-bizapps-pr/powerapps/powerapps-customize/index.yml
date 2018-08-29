@@ -3,6 +3,7 @@ uid: learn-bizapps.powerapps-customize
 metadata: 
   title: Customize an app
   description: Learn how to customize an app by adding controls, images, and logic.
+  ms.date: 09/24/2018
 title: Customize an app 
 summary: Learn how to customize an app by adding controls, images, and logic.
 abstract:
@@ -22,7 +23,8 @@ levels:
 roles:  
 - business-user 
 products:  
-- PowerApps 
+- PowerApps
+- d365 
 units: 
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore

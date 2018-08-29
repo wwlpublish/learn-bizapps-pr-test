@@ -19,7 +19,7 @@ These samples also contain sample data to inspire your thinking. For example, th
 ![PowerApps flooring sample app](../media/powerapps-flooring-sample.png)
 
 ### Create an app from a template
-Another good way to create an app is to start from a template. Templates use sample data to help you get a sense of what's possible. And by opening them in PowerApps Studio, you can learn hands-on how an app is built.
+Another good way to create an app is to start from a template. Templates use sample data to help you get a sense of what's possible. By opening them in PowerApps Studio, you can learn hands-on how an app is built.
 
 ![PowerApps app template](../media/powerapps-templates.png)
 
@@ -42,6 +42,6 @@ This app was created from a SharePoint list and lets you browse items in the lis
 ### Build from the ground up
 You can also build app from scratch and add all the pieces as you go. You can then branch out and let your imagination run wild. There will be plenty of that later in this module!
 
-But the easiest way to learn about PowerApps is to start with a sample app, open a template, or connect to your data source and have PowerApps generate the app for you.
+The easiest way to learn about PowerApps is to start with a sample app, open a template, or connect to your data source and have PowerApps generate the app for you.
 
 In the next unit, you'll learn how to generate an app from data.

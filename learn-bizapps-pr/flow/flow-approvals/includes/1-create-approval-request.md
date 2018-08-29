@@ -4,7 +4,7 @@ In this scenario, anyone who has access to the Microsoft SharePoint list can con
 
 ## Step one: Create a SharePoint list for tweets
 
-You'll use a template that starts an approval process whenever a new item is created in a specific list. If the item is approved, a tweet is then posted to Twitter. But for this unit, you'll change the process by adding steps that update a SharePoint list with the approval response, indicate whether the item was approved, and add any comments that the approver added to the proposed tweet. 
+You'll use a template that starts an approval process whenever a new item is created in a specific list. If the item is approved, a tweet is then posted to Twitter. For this unit, you'll change the process by adding steps that update a SharePoint list with the approval response, indicate whether the item was approved, and add any comments that the approver added to the proposed tweet. 
 
 First, let's create the SharePoint list.
 

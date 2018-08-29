@@ -5,7 +5,7 @@ Congratulations on building your first app! Let's do a quick review of what you'
 - You learned that you can share apps instantly with your co-workers across the web, tablets, and mobile devices.
 - You set up app environments so that you can separate a working environment from the one you want to share with your team.
 
-And you probably did all this before lunch. Outstanding!
+You probably did all this before lunch. Outstanding!
 
 The easiest way to advance your skills is to run the samples, play around with the templates, and generate more apps from your own data.
 
