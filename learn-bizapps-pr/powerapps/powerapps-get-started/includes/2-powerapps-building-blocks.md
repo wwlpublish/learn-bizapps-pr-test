@@ -1,7 +1,7 @@
 In the first unit, you learned about the main parts of Microsoft PowerApps. We're now going to dive deeper into each part. The PowerApps components are:
 
 * **web.powerapps.com**: Apps start here, whether you build them from data, a sample app, or a blank screen.
-* **PowerApps Studio**: Flesh out your apps by easily connecting to data, adding and arranging UI elements (known as controls), and building formulas.
+* **PowerApps Studio**: Flesh out your apps by easily connecting to data, adding and arranging user interface (UI) elements (known as controls), and building formulas.
 * **PowerApps Mobile**: Run your apps on Microsoft Windows, Apple iOS, and Google Android devices.
 * **PowerApps admin center**: Manage PowerApps environments and other components.
 

@@ -2,7 +2,8 @@
 uid: learn-bizapps.flow-create-approval 
 metadata: 
   title: Create an approval flow 
-  description: Learn how to create an approval request for a SharePoint list. 
+  description: Learn how to create an approval request for a SharePoint list.
+  ms.date: 09/24/2018 
 title: Create an approval flow 
 summary: This module teaches you the basics of creating an approval flow. 
 abstract:  This module teaches you how to create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted. 
@@ -14,6 +15,7 @@ roles:
 - business-user 
 products:  
 - Flow
+- d365
 units: 
 - learn-bizapps.flow-create-approval.1-create-approval-request
 - learn-bizapps.flow-create-approval.2-process-approval-request

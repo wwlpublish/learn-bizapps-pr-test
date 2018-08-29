@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-design-model-driven-apps.5-control-security-when-sharing-model-driven-apps
+title: Control security when sharing model-driven apps  
+metadata: 
+  title: Control security when sharing model-driven apps 
+  description: Control security when sharing model-driven apps
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/5-control-security-when-sharing-model-driven-apps.md)]  

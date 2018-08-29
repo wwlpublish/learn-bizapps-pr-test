@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-business-process-flow.2-create-a-business-flow-app
+title: Create a business process flow app  
+metadata: 
+  title: Create a business process flow app
+  description: Create a business process flow app
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/2-create-a-business-flow-app.md)]  
