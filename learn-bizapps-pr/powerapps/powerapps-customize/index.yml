@@ -1,13 +1,22 @@
 ### YamlMime:Module 
 uid: learn-bizapps.powerapps-customize 
 metadata: 
-  title: Customize and manage PowerApps 
-  description: Learn how to customize and manage your PowerApps app.
+  title: Customize an app
+  description: Learn how to customize an app by adding controls, images, and logic.
   ms.date: 09/24/2018
-title: Customize PowerApps 
-summary: This module teaches you how to customize your PowerApps. 
-abstract: This module teaches you how to customize your PowerApps by adding controls, images, and logic to your apps.
-cardDescription: This module introduces customization of PowerApps apps to the beginning student. 
+title: Customize an app 
+summary: Learn how to customize an app by adding controls, images, and logic.
+abstract: |
+  In this module, you will:
+  - Change the layout of a gallery.
+  - Change the data that a control shows.
+  - Change the order in which fields appear.
+  - Change the control with which a user provides information.
+  - Explore controls on each screen of an app.
+  - Format a number as a price.
+  - Color prices based on their values.
+  - Explore formulas in a generated app.
+cardDescription: Learn how to customize an app by adding controls, images, and logic.
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
 - beginner 

@@ -2,13 +2,17 @@
 uid: learn-bizapps.powerapps-get-started
 metadata:
   title: Get started with PowerApps
-  description: Learn the basics of PowerApps
-  ms.date: 09/24/2018
+  description: Learn the basics of PowerApps and how you can use it in your organization.
 title: Get started with PowerApps
-summary: This module teaches you the basics of PowerApps and how you can use it in your organization.
-abstract: This module introduces PowerApps to the beginning student. You'll learn about the pieces of PowerApps and how you can use them in your organization.
-cardDescription: This module introduces PowerApps to the beginning student.
-iconUrl: http://via.placeholder.com/120x120
+summary: Learn the basics of PowerApps and how you can use it in your organization.
+abstract: |
+  In this module, you will:
+  - Explore how PowerApps can make your business more efficent.
+  - Understand how you use different technologies to perform different tasks in PowerApps.
+  - Understand the different ways to build an app in PowerApps.
+  - Create your first app from data in an Excel workbook.
+cardDescription: Learn the basics of PowerApps and how you can use it in your organization.
+iconUrl: /learn/achievements/build-a-serverless-web-app.svg
 levels: 
 - beginner
 roles: 

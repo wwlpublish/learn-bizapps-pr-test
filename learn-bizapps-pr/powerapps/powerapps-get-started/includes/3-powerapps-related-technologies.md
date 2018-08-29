@@ -5,9 +5,7 @@ Microsoft PowerApps works with other technologies to help you build and share ap
 - **Data sources**: Without data, you don't have a business. Data sources bring cloud and on-premises data into your apps. You access data through built-in connections, custom connectors, and gateways.
 
 ## Dynamics 365
-Dynamics 365 is a cloud service with apps that help you address specific business needs, such as sales automation, operations, or customer service.
-
-Dynamics 365 provides one place to run all your business apps, whether they come from app makers in your organization, Microsoft, or external companies.
+The Dynamics 365 home page provides one place to run all your business apps, whether they come from app makers in your organization, Microsoft, or external companies.
 
 ![Dynamics 365 home page](../media/powerapps-dynamics.png)
 

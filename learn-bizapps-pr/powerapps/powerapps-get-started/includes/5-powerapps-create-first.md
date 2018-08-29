@@ -1,26 +1,30 @@
 OK, let's get started.
 
-Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook. You'll first download the workbook, which shows a company's inventory of flooring samples. Then you'll upload the workbook to a Microsoft OneDrive for Business account.
+Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook lists a company's inventory of flooring samples, together with pictures and prices.
 
 keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
 ## Connect to a data source
 
-1. Download the [Flooring Estimates workbook](https://pwrappssamples.blob.core.windows.net/samples/FlooringEstimates.xlsx), and save it to your OneDrive for Business account.
+1. Download the [Flooring Estimates workbook](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx), and save it to OneDrive for Business.
+
 1. Go to [web.powerapps.com](https://web.powerapps.com), and sign in with your organizational account.
+
 1. In the left pane, select **Apps**.
+
 1. Select **Create an app**.
+
 1. For the **OneDrive for Business** data source, select **Phone layout**.
 
     ![Phone app from SharePoint list](../media/powerapps-start-excel.png)
 
     Generated apps are always based on a single list or table, but you can add more data to the app later. The next three steps explain how to connect to the Excel workbook.
 
-1. Under **Connections**, select the OneDrive for Business account where you uploaded the Excel workbook.
+1. Under **Connections**, select **OneDrive for Business**.
 1. Under **Choose an Excel file**, select the Excel workbook.
 1. Select **Connect**.
 
-PowerApps generates the app, making all sorts of inferences about your data to generate a useful app as a starting point.
+PowerApps generates the app by inspecting your data and matching it with PowerApps capabilities so that you get a working app as a starting point.
 
 ## Explore the generated app
 Success! Your new three-screen app opens in PowerApps Studio.
@@ -47,7 +51,9 @@ All apps generated from data have the same set of screens:
 You'll want to install your app on your phone to see how it looks there.
 
 1. Download PowerApps Mobile from the app store for the platform that you want to use.
+
 2. Sign in by using your user name and password.
-3. On your phone or tablet, run the Flooring Estimates app in PowerApps Mobile. Otherwise, run the app in a browser.
+
+3. On your phone or tablet, run the flooring-estimates app in PowerApps Mobile. Otherwise, run the app in a browser.
 
 In just a few minutes, you learned how to connect to a data source and generate an app. You also got acquainted with PowerApps Studio and the three screens in a generated app. In later modules, you'll learn how to customize generated apps.

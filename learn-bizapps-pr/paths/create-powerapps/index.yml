@@ -10,7 +10,7 @@ roles:
 - business-user
 products:
 - PowerApps
-prerequisites: This lerning path assumes that you are familiar with OneDrive, SharePoint, and Excel. 
+prerequisites: This learning path assumes that you are familiar with OneDrive, SharePoint, and Excel. 
 metadata:
   title: Create an app in PowerApps
   description: This learning path introduces you to PowerApps, helps you create and customize an app, and then manage and distribute it.
