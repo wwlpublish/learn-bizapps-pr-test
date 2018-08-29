@@ -17,7 +17,7 @@ quiz:
   questions:
   - content: Where do you share an app with others?
     choices: 
-    - content: In web.powerapps.com
+    - content: In web.powerapps.com.
       correctExplanation: In web.powerapps.com, you can share an app with others, allowing them to just run it or to both run and edit it.
       isCorrect: true
     - content: In the PowerApps admin center.
@@ -40,7 +40,7 @@ quiz:
     - content: Dropbox can't be a data source.
       incorrectExplanation: Dropbox is one of many data sources that you can use when you build an app in PowerApps.
       isCorrect: false
-  - content: Which of these statements *doesn't** describe a way to build apps?
+  - content: Which of these statements *doesn't* describe a way to build apps?
     choices:
     - content: You can build an app from a template or a sample.
       incorrectExplanation: PowerApps ships with many templates and samples from which you can build apps.

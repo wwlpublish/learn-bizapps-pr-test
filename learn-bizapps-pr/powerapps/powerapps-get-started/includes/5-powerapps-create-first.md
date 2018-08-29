@@ -1,5 +1,6 @@
 OK, let's get started.
 
+
 Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook lists a company's inventory of flooring samples, together with pictures and prices.
 
 But keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
@@ -51,7 +52,9 @@ All apps generated from data have the same set of screens:
 You'll want to install your app on your phone to see how it looks there.
 
 1. Download PowerApps Mobile from the app store for the platform that you want to use.
+
 2. Sign in by using your user name and password.
+
 3. On your phone or tablet, run the flooring-estimates app in PowerApps Mobile. Otherwise, run the app in a browser.
 
 In just a few minutes, you learned how to connect to a data source and generate an app. You also got acquainted with PowerApps Studio and the three screens in a generated app. In later modules, you'll learn how to customize generated apps.

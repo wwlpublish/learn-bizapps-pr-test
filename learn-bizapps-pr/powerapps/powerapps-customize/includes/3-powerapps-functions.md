@@ -3,19 +3,17 @@ When you use Microsoft PowerApps, you don't have to write complicated applicatio
 If you've used Microsoft Excel functions, you should recognize the approach that PowerApps takes. In this unit, we'll show a couple of basic formulas for text formatting and then walk through three of the formulas that PowerApps includes when it generates an app. You'll get a taste of what formulas can do and also start to write your own.
 
 ## Get started with formulas and properties
-In the previous unit, we explored controls in all three screens of an app that PowerApps generated. In this section, we'll work with the details screen, which is where users can look more closely at a flooring item.
+In the previous unit, we explored controls in all three screens of an app that PowerApps generated. In this section, we'll format the price that we added to the browse screen earlier.
 
-By default, the price appears as a plain number without a currency symbol. But suppose that we want to add a dollar sign and change the text color based on the item's cost (for example, red if it's more than $5 but green otherwise). This graphic gives you an idea of what we want.
+By default, the price appears as a plain number without a currency symbol. But suppose that we want to add a dollar sign and change the text color based on the item's cost (for example, red if it's more than $5 but green otherwise). This graphic shows the expected result.
 
-![Text formatting for color and currency](../media/powerapps-formulas2.png)
+![Text formatting for color and currency](../media/conditional-format.png)
 
 Let's start with the currency formatting. By default, PowerApps just pulls in a price value for each item. This value is set as the **Text** property of the label that shows the price.
 
-1. In the **Screens** pane on the left, select **DetailsScreen1**.
+1. In **BrowseScreen1**, select the price of the first item.
 
-1. On the canvas, select the **Label** control that shows the price of the first item.
-
-    ![Price formatting](../media/powerapps-formulas3.png)
+    ![Select price](../media/select-price.png)
 
 1. In the drop-down list of properties, select **Text**.
 
@@ -31,34 +29,28 @@ If you select a control and then open the property drop-down list, you'll see a 
 
 ![Setting properties](../media/powerapps-formulas4.png)
 
-To format the color conditionally, based on the price, use a formula like the following for the **Color** property of the **Label** control:
+To conditionally format the price's color, set the **Color** property of the price's **Label** control to this formula:
 
 `If(Price > 5, Color.Red, Color.Green)`
 
 ## Formulas included in the generated app
-Now that you understand how to use formulas in conjunction with properties, we'll look at three examples of formulas that PowerApps uses in every app it generates. All the examples are from the browse screen and work with the **OnSelect** property, which defines what happens when a user selects a control.
+Now that you understand how to use formulas in conjunction with properties, we'll look at a couple of formulas that PowerApps uses in every app it generates. Both the examples are from the browse screen and work with the **OnSelect** property. This property defines what happens when a user selects a control (for example, by clicking it with a mouse).
 
-* The first formula is associated with the **IconNewItem1** control ![New item icon](../media/powerapps-icon-add-item.png). You select this control to go from the browse screen to the edit/create screen so that you can create an item. The formula is:
+* The first formula is associated with the **IconNewItem1** control ![New item icon](../media/powerapps-icon-add-item.png). You select this control to open the edit/create screen where you can create an item. The formula is:
 
     `NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)`
 
-    The formula instantiates an edit form on the edit/create screen so that users can create an item. A value of `ScreenTransition.None` means there's no transition between screens (such as a fade).
+    The formula instantiates an edit form on the edit/create screen so that users can create an item. A value of `ScreenTransition.None` means there's no transition, such as a fade, between screens.
 
-* The second formula is associated with the **IconSortUpDown1** control ![Sort gallery icon](../media/powerapps-icon-sort.png). You select this control to sort the list of items in the browse screen gallery. The formula is:
+* The second formula is associated with the **IconSortUpDown1** control ![Sort gallery icon](../media/powerapps-icon-sort.png). You select this control to sort the items in the gallery. The formula is:
 
     `UpdateContext({SortDescending1: !SortDescending1})`
 
-    The formula uses `UpdateContext` to update a variable called `SortDescending1`. The value of the variable switches back and forth as you select the control. This tells the gallery on this screen how to sort the items.
-
-* The third formula is associated with the **NextArrow1** control ![Go to details arrow icon](../media/powerapps-icon-arrow.png). You select this control to go from the browse screen to the details screen. The formula is:
-
-    `Navigate(DetailScreen1, ScreenTransition.None)`
-
-    The formula opens the details screen. Once again, there's no transition.
+    The formula uses `UpdateContext` to update a variable called `SortDescending1`. The value of the variable switches back and forth as you select the control. This variable tells the gallery on this screen how to sort the items.
 
 There are many other formulas in the app, so take some time to select controls and see what formulas are set for various properties.
 
-For more information about these and other functions, see the [formula reference](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/formula-reference).
+For more information about these and other functions, see the [formula reference](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference).
 
 ## Wrapping it all up
 This brings us to the end of our exploration of the generated app and our behind-the-scenes look at the screens, controls, properties, and formulas that give the app its capabilities—and even its personality. If you've followed along, you should have a better understanding of how a generated app works. You can now take this understanding and use it to create your own app.

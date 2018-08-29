@@ -7,25 +7,27 @@ We'll start on the browse screen. The app already shows an image and some text f
 
 1. In the **Screens** pane on the left, select **BrowseGallery1**.
 
-1. In the right pane, select **Layout**.
+    The selection box around the gallery confirms your choice.
+
+    ![Select gallery](../media/select-gallery.png)
+
+1. In the right pane, open the **Data** pane by selecting the link next to **Layout**.
 
     ![Show layout options](../media/powerapps-layout.png)
 
-1. Select a different layout, such as the one that shows the title and the subtitle under the image.
+1. Select a different layout, such as the one that shows the image, the title, and the subtitle but not the body.
 
-     ![Change the browse screen layout](../media/vertical-layout.png)
+    ![Change layout](../media/change-layout.png)
 
-1. Change the gallery back to the original layout, which shows the image to the left of the title, the subtitle, and the body.
+1. Select the category of the item at the top of the gallery.
 
-1. In the **Screens** pane on the left, select the **Body1** control, which contains a description for the item.
+    ![Select category label](../media/select-category.png)
 
-    The control is highlighted in the app.
+1. Change **ThisItem.Category** to **ThisItem.Name** in the formula bar.
 
-    ![Change the item description](../media/powerapps-delete-body.png)
+1. Repeat the previous two steps, but change the other **Label** control to show the price of each item.
 
-1. Press the Delete key to remove the description text.
-
-    Don't worry. You aren't deleting this information from your data source. You're just hiding it from this screen of the app. The other screens still show the description (unless you hide it on those screens too).
+    ![Add price](../media/add-price.png)
 
 It's that easy to change the layout of a gallery and the types of data that it shows. And you might find that it's fun too!
 
