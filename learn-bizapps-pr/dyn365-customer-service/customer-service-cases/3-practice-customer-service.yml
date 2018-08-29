@@ -2,8 +2,8 @@
 uid: learn-bizapps.customer-service-cases.3-practice-customer-service
 title: Practice working with customer cases
 metadata:
-  title: Practcie working with customer cases
-  description: practice working with customer cases.
+  title: Practice working with customer cases
+  description: Practice working with customer cases.
 durationInMinutes: 10
 content: |
   [!include[](includes/3-practice-customer-service.md)]

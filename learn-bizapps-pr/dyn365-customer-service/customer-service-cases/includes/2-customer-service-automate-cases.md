@@ -1,10 +1,10 @@
 In many organizations, the customer service function is highly structured. Customer service can include entitlement commitments to service level agreements (SLAs), requirements to track information like the amount of time spent in resolving cases, and much more.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2r0x8]
+Learn more and watch a video on [how to work with cases](> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2r0x8])
 
 Because of these characteristics, activity records interact somewhat differently with case records than with other record types. Here are two of the most important differences:
 
-- A case record can be resolved if it has incomplete activities. The user will be informed that any open activities will be automatically canceled.
+- A case record cannot be resolved if it has incomplete activities. The user will be informed that any open activities will be automatically canceled if the case is resolved.
 - When a case record is resolved, the duration of the case resolution process is automatically calculated by adding the actual time spent on all activities that are associated with the case.
 
 Keep in mind that although Microsoft Dynamics 365 for Customer Service automatically calculates the total time spent on a case, that value might not accurately reflect the time that was spent. During the resolution process, the user can enter a different duration that reflects the actual amount of time spent.
