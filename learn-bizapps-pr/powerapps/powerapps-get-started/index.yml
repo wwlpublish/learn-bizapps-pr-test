@@ -12,7 +12,7 @@ abstract: |
   - Understand the different ways to build an app in PowerApps.
   - Create your first app from data in an Excel workbook.
 cardDescription: Learn the basics of PowerApps and how you can use it in your organization.
-iconUrl: /learn/achievements/build-a-serverless-web-app.svg
+iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
 roles: 
