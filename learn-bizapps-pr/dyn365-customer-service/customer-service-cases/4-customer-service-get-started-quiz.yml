@@ -37,8 +37,8 @@ quiz:
     - content: Cases are the fundamental record type of service management.
       correctExplanation: Service management is based primarily on customer cases.
       isCorrect: true
-    - content: All associated activities for a case record must be completed before the case can be closed.
-      incorrectExplanation: A case record can have incomplete activities. The user will be informed that incomplete activities will be canceled when the case is closed.
+    - content: All associated activities for a case record can be incompleted before the case can be closed.
+      incorrectExplanation: A case record cannot have incomplete activities. The user will be informed that incomplete activities will be canceled when the case is closed.
       isCorrect: false
   - content: Which of the following statements about canceling and deleting cases is true?
     choices:

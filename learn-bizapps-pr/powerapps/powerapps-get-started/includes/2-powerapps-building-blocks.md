@@ -16,11 +16,8 @@ PowerApps Studio is where you flesh out your apps to make them more effective as
 - Left pane, which shows a hierarchical view of all the controls on each screen or a thumbnail for each screen in your app.
 - Middle pane, which shows the app that you're working on.
 - Right pane, where you set options such as the layout and data sources for certain controls.
-- Property drop-down list, where you select the properties that formulas apply to.
-- Function bar, where you add formulas (as for Excel worksheet functions) that define app behavior.
-- Ribbon, where you add controls and customize design elements.
 
-![PowerApps Studio](../media/powerapps-studio2.png)
+![PowerApps Studio](../media/powerapps-full-screen.png)
 
 ## PowerApps Mobile
 PowerApps Mobile for Windows, iOS, and Android devices provides an environment where you can find and use your apps. You don't need to open separate app stores to use all the apps that you've created and that others have shared with you. When you use apps in PowerApps Mobile, you get the most out of your device's capabilities: camera controls, GPS location, and more.
