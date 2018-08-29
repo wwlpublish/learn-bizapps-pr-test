@@ -6,7 +6,7 @@ metadata:
   ms.date: 09/24/2018
 title: Customize an app 
 summary: Learn how to customize an app by adding controls, images, and logic.
-abstract:
+abstract: |
   In this module, you will:
   - Change the layout of a gallery.
   - Change the data that a control shows.

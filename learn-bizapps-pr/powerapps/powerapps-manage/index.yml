@@ -15,7 +15,7 @@ metadata:
   title: Manage apps in PowerApps
   description: Manage app versions, app sharing, and environments in PowerApps.
   ms.date: 09/24/2018
-abstract: 
+abstract: |
   In this module, you will: 
   - Learn how to review and restore app versions.
   - Explore how to share an app, including permissions and notification.
