@@ -24,7 +24,7 @@ But keep in mind that you can use data from lots of other sources, including Mic
 1. Under **Choose an Excel file**, select the Excel workbook.
 1. Select **Connect**.
 
-PowerApps generates the app, making all sorts of inferences about your data to generate a useful app as a starting point.
+PowerApps generates the app by inspecting your data and matching it with PowerApps capabilities so that you get a working app as a starting point.
 
 ## Explore the generated app
 Success! Your new three-screen app opens in PowerApps Studio.

@@ -33,7 +33,7 @@ PowerApps has a variety of gallery types beyond the default vertical orientation
 ![PowerApps gallery options](../media/powerapps-galleries.png)
 
 ## Explore the details screen
-Next is the details screen, which is named **DetailScreen1** by default. Here are its main controls:
+Next is the details screen, which is named **DetailScreen1** by default. Here are some of its controls:
 
 - **DetailForm1**: This control contains other controls.
 - **DataCard1**: This is a card control. In this case, it shows a flooring category from the Flooring Estimates table, as seen in the previous unit.
@@ -42,7 +42,7 @@ Next is the details screen, which is named **DetailScreen1** by default. Here ar
 ![Details screen with controls](../media/powerapps-details-screen.png)
 
 ## Explore the edit/create screen
-The third screen in the app is **EditScreen1**. Here are its main controls:
+The third screen in the app is **EditScreen1**. Here are some of its controls:
 
 - **EditForm1**: This control contains other controls.
 - **DataCard8**: This is another card control that shows a flooring category from the Flooring Estimates table, as seen in the previous unit.
@@ -50,4 +50,4 @@ The third screen in the app is **EditScreen1**. Here are its main controls:
 
 ![Edit/create screen with controls](../media/powerapps-edit-screen.png)
 
-You now have a sense of the screens and controls in this app.
+Hopefully, this unit gives you a good idea of what controls are on each screen of this app.
