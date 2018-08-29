@@ -21,7 +21,7 @@ In this unit, you'll create a model-driven app by using one of the standard enti
 You add components to your app using the App Designer.
 1.	Select the **Open the Site Map Designer** arrow to open the sitemap designer. 
 
-    ![Create-new-sitemap](../../media/new-sitemap.png)
+    ![Create-new-sitemap](../media/new-sitemap.png)
 
 2.	On the sitemap designer select **New Subarea**, in the right pane select the **Properties** tab, and then select the following properties.
   - **Type**: Entity
