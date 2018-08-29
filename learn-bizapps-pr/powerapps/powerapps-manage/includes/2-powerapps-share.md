@@ -4,42 +4,38 @@ Even better, you can give someone permission to update the app.
 
 ## Prepare to share an app
 
-You must save an app to the cloud before you can share it with anyone.
-
-1. In PowerApps Studio, on the **File** menu, select **Save**.
-
-1. Under **Save as**, select **The Cloud**.
-
-    You must save an app to the cloud before you can share it.
+1. In PowerApps Studio, select **App settings** on the **File** menu.
 
 1. Give the app a meaningful name and description so that your team knows what your app does and can easily find it in a list.
 
-1. Select **Save**.
+1. On the **File** menu, select **Save as**, and then select **The cloud**.
 
-1. Select **Share this app**.
+    You must save an app to the cloud before you can share it.
 
-1. On the **Share** tab, specify the users or groups whom you want to share the app with. To add everyone in your organization, select the **Add everyone in my org** check box.
+1. Select **Save**, and then elect **Share this app**.
+
+1. On the **Share** tab, specify the users or groups with whom you want to share the app. To add everyone in your organization, select the **Add everyone in my org** button.
 
 1. To notify users by email, select the **Send an email invitation** check box.
 
-    If you select that check box, everyone you shared the app with will receive an email that has a link to Dynamics 365. App contributors will also receive a link to web.powerapps.com.
+    If you select that check box, everyone you shared the app with will get an email message that has a link to Dynamics 365. People whom you granted edit permission for the app will also get a link to web.powerapps.com.
 
     Only people who follow the link to Dynamics 365 will see the app there. The app will also be in Microsoft AppSource. Anyone who didn't follow the link will have to add the app from AppSource to Dynamics 365 themselves.
 
-1. In the **Shared with** list, in the **Permissions** list on the right, specify how the users or groups can interact with the app:
+1. In the **Shared with** list, in the **Permission** list on the right, specify how each user or group can interact with the app:
 
-    - **Can edit**: Users can make changes to the app by using PowerApps Studio.
-    - **Can use**: Users can view and use the app, but they can't make changes to it.
+    - **Can edit**: Users can change the app by using PowerApps Studio.
+    - **Can use**: Users can view and use the app, but they can't change it.
 
 1. Select **Save**.
 
-Keep in mind that if you make and save changes to a shared app, the people you shared it with will see your changes as soon as you save them. This immediacy can be great if you improve the app, but it can also negatively affect other users if you remove or significantly change features.
+If you make and save changes to a shared app, the people you shared it with will see your changes as soon as you publish them. This immediacy can be great if you improve the app, but it can also negatively affect other users if you remove or significantly change features.
 
 ## Permissions and licensing
 
 Here are some basics about permissions and licensing that you should be aware of:
 
-- Users and contributors need permissions to any data connections and gateways that a shared app uses. Some permissions come implicitly with the app, but others must be explicitly granted.
-- If the app uses entities in Common Data Service for Apps, users and contributors need access to that database. Contributors also need a PowerApps "P2" license to work directly with entities.
+- Users and contributors need permissions to any data connections and gateways that a shared app uses. Some permissions come implicitly with the app, but you must explicitly grant others.
+- People who have **Can edit** permission also need a PowerApps "P2" license to work directly with entities.
 
 Sharing apps is easy, and it's a great way to take an app that you find useful and make it available to people across your organization.
