@@ -1,70 +1,71 @@
-In [powerapps.com](https://powerapps.com), you can use a sample app to explore design possibilities. You'll also discover concepts that you can apply as you develop your own apps. Each sample app uses fictitious data to showcase a real-world scenario. 
+On [powerapps.com](https://powerapps.com), you can use a sample app to explore design possibilities. You'll also discover concepts that you can apply as you develop your own apps. Every sample app uses fictitious data to showcase a real-world scenario. 
 
-Be sure to check out documentation specific to each sample app for more details. 
+For more details, be sure to check out the documentation that's specific to each sample app. 
 
-![Fundraiser Sample App](../media/fundraiser-app1.png)
-
+![Fundraiser sample app](../media/fundraiser-app1.png)
 
 ## Get sample apps
 
-In order to play or edit model-driven sample apps, the apps must first be provisioned in a Common Data Service database. First create a trial environment and database and be sure to check **Include sample apps and data**.
+To play around with or edit model-driven sample apps, you must first set up the apps in a Common Data Service database. First create a trial environment and database, and be sure to select the **Include sample apps and data** check box.
 
-![Create database](../media/create-database1.png)
-
+![Create a database](../media/create-database1.png)
 
 > [!IMPORTANT]
-> This option installs all available sample apps in your database. Sample apps are for educational and demonstration purposes and we do not recommend installing them in production databases. 
+> By selecting this check box, you install all available sample apps in your database. Sample apps are for educational and demonstration purposes. We don't recommend installing them in production databases. 
 
 ## Customize a sample app
 
-1. Sign in to [powerapps.com](https://powerapps.com) and chose **Model-driven** for the design mode. 
+1. Sign in to [powerapps.com](https://powerapps.com), and select **Model-driven** as the design mode. 
 
-    ![Choose design mode](../media/choose-design-mode.png)
+    ![Select the design mode](../media/choose-design-mode.png)
 
-2. From the home page, hover over the sample app and click **Customize**.
-3. The App Designer will open providing multiple options for customizing the app. 
-4. For additional customization options, click **Advanced** from the left pane.
+2. On the home page, hover over a sample app, and select **Customize**.
+
+    The App Designer opens, providing multiple options for customizing the app.
+
+3. For more customization options, select **Advanced** in the left pane.
 
 ## Remove sample apps and data 
-Keep in mind the following when removing samples apps and data:
-- Deleting a sample app requires deleting the corresponsing  [managed solution](https://docs.microsoft.com/dynamics365/customer-engagement/developer/uninstall-delete-solution). 
-- Deleting the solution also deletes any sample data specific to the custom entities for the app.
-- If customizations were made to the sample app, there may be [dependencies](https://docs.microsoft.com/dynamics365/customer-engagement/developer/dependency-tracking-solution-components), which must be removed before deleting the solution.
+Keep these points in mind when removing samples apps and data:
 
-#
-1. Login to the [PowerApps admin portal](https://admin.powerapps.com).
+- Deleting a sample app requires deleting the corresponding [managed solution](https://docs.microsoft.com/dynamics365/customer-engagement/developer/uninstall-delete-solution). 
+- Deleting the solution also deletes any sample data that's specific to the custom entities for the app.
+- If customizations were made to the sample app, there might be [dependencies](https://docs.microsoft.com/dynamics365/customer-engagement/developer/dependency-tracking-solution-components) that must be removed before the solution can be deleted.
 
+To remove sample apps and data, follow these steps.
+
+1. Sign in to the [Microsoft PowerApps admin portal](https://admin.powerapps.com).
 2. Select an environment.
-
-3. Click **Dynamics 365 Administration Center** 
+3. Select **Dynamics 365 Administration Center**.
 
     ![Dynamics 365 Administration Center](../media/admin-center.png)
 
-4. Select your Database from the list and select **OPEN**.
+4. Select your database in the list, and then select **Open**.
 
-    ![Select database](../media/select-database.png)
+    ![Select a database](../media/select-database.png)
 
-5. Navigate to **Settings/Solutions**.
+5. Go to **Settings \> Solutions**.
+6. Select the solution for the app that must be deleted, and then select **Delete**.
 
-6. Select the solution for the app that is to be deleted and select **delete**.
+    ![Delete a solution](../media/delete-solution.png)
 
-    ![Delete solution](../media/delete-solution.png)
-
-You can also navigate to the list of solutions by clicking **Advanced** in the maker portal and delete everything in the URL after .dynamics.com/*
+You can also go to the list of solutions by selecting **Advanced** in the maker portal and then deleting everything in the URL after **.dynamics.com/**.
 
 > [!IMPORTANT]
-> Do not delete other system solutions unless you're aware of the impact.
+> Don't delete other system solutions unless you're aware of the effect.
 
-## Install or uninstall Sample Data
-1. Login to the [PowerApps admin portal](https://admin.powerapps.com).
+## Install or uninstall sample data
+1. Sign in to the [PowerApps admin portal](https://admin.powerapps.com).
 1. Select an environment.
-1. Click **Dynamics 365 Administration Center** 
+1. Select **Dynamics 365 Administration Center**.
 
     ![Dynamics 365 Administration Center](../media/admin-center.png)
 
-1. Select your Database from the list and select **OPEN**.
-    ![Select database](../media/select-database.png)
-1. Navigate to **Settings/Data Management/Sample Data**.
-1. If sample data is installed, the option to remove is available. Otherwise the option to install is available. 
+1. Select your database in the list, and then select **Open**.
 
-    ![remove sample data](../media/remove-sample-data.png)
+    ![Select a database](../media/select-database.png)
+
+1. Go to **Settings \> Data Management \> Sample Data**.
+1. If sample data is installed, the option to remove it is available. Otherwise, the option to install sample data is available. 
+
+    ![Remove sample data](../media/remove-sample-data.png)

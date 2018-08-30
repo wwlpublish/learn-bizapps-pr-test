@@ -1,45 +1,46 @@
-In this unit, you'll create a model-driven app by using one of the standard entities that's available in your PowerApps environment.
+In this unit, you'll create a model-driven app by using one of the standard entities that's available in your Microsoft PowerApps environment.
 
 ## Create your model-driven app
 
-1.	Sign in to [PowerApps](https://web.powerapps.com/) using your organizational account.
-
+1. Sign in to [PowerApps](https://web.powerapps.com/) by using your organizational account.
 1. Select the environment you want, or go to the [PowerApps admin center](https://admin.powerapps.com/) to create a new one.
-1.	From the left pane, select **Model-driven** on the bottom. 
+1. At the bottom of the left pane, select **Model-driven** as the design mode. 
 
     ![Model-driven](../media/choose-design-mode.png)
 
-  > [!IMPORTANT]
-  > If the **Model-driven** design mode isn't available, you may need to [Create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).
+    > [!IMPORTANT]
+    > If the **Model-driven** design mode isn't available, you might need to [create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
-1. From the left pane, select **Apps**, and then select **Create an app**.
-
+1. In the left pane, select **Apps**, and then select **Create an app**.
 1. On the **Create a New App** page, enter a name and description for the app.
-1. Select **Done**. Your new app will appear in the App Designer where you can add components.
+1. Select **Done**. Your new app appears in the App Designer, and you can now add components to it.
 
- ## Add components to your app
-You add components to your app using the App Designer.
-1.	Select the **Open the Site Map Designer** arrow to open the sitemap designer. 
+## Add components to your app
+You add components to your app by using the App Designer.
 
-    ![Create-new-sitemap](../media/new-sitemap.png)
+1. Select the **Open the Site Map Designer** arrow to open the site map designer. 
 
-2.	On the sitemap designer select **New Subarea**, in the right pane select the **Properties** tab, and then select the following properties.
-  - **Type**: Entity
-  - **Entity**: Account
+    ![Create a new site map](../media/new-sitemap.png)
 
-    ![Add components to sitemap](../media/sitemap.png)
+2. In the site map designer, select **New Subarea**, and then, in the right pane, on the **Properties** tab, select the following properties:
 
-3.	Select **Save And Close**.
-4.	On the App Designer select **Forms**, and then on the right pane under the **Main Forms** group select the **Account** form.
+    - **Type**: Entity
+    - **Entity**: Account
+
+    ![Add components to the site map](../media/sitemap.png)
+
+3. Select **Save And Close**.
+4. In the App Designer, select **Forms**, and then, in the right pane, under **Main Forms**, select the **Account** form.
 
     ![Account main form](../media/main-form.png)
 
-5.	On the App Designer select **Views**, and then select the following properties:
-**Active Accounts**
-**All Accounts**
-**My Active Accounts**.
+5. In the App Designer, select **Views**, and then select the following properties:
 
-6. On the App Designer select **Charts**, and then select the **Accounts by Industry** chart.
+    - Active Accounts
+    - All Accounts
+    - My Active Accounts
+
+6. In the App Designer, select **Charts**, and then select the **Accounts by Industry** chart.
 7. On the App Designer toolbar, select **Save**.
 
 <!-- ##  Validate your app
@@ -55,6 +56,6 @@ This step checks for component dependencies that are required for the app to wor
 ## Publish your app
 On the App Designer toolbar, select **Publish**.
 
-After publishing the app it's ready for you to run or share with others.
+After you publish the app, it's ready for you to run or share with others.
 
 ![Simple account entity app](../media/accounts-quickstart-app.png)
