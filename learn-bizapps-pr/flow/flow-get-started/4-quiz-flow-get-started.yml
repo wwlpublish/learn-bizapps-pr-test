@@ -22,7 +22,7 @@ quiz:
       incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you start a flow. 
       isCorrect: false 
     - content: In Microsoft PowerApps Studio.
-      incorrectExplanation: PowerApps Studio is where you design PowerApps apps. It isn't where you start a flow, even though flows can work with PowerApps apps. 
+      incorrectExplanation: PowerApps Studio is where you can design PowerApps apps. It isn't where you start a flow, even though flows can work with PowerApps apps. 
       isCorrect: false 
   - content: Which of the following statements about flows is true? 
     choices: 
