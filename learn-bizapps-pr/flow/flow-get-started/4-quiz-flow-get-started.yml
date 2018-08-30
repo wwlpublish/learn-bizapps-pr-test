@@ -12,9 +12,9 @@ quiz:
   questions: 
   - content: Where do you get a flow started? 
     choices:  
-    - content: On the Microsoft Flow website.
-      correctExplanation: The Microsoft Flow website is typically where you start a flow.
-      isCorrect: true 
+    - content: Only on the Microsoft Flow website.
+      incorrectExplanation: The Microsoft Flow website is only one place where you start a flow. You can also start a flow on the mobile app.
+      isCorrect: false 
     - content: By downloading the Microsoft Flow app.
       correctExplanation: Simple flows can be started from the app.
       isCorrect: true 
