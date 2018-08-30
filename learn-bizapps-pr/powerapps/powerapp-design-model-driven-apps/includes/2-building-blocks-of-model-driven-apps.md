@@ -8,7 +8,7 @@ The data components determine what data the app will be based upon.
 | Entity           | Entities are items with properties that you track. Examples include contacts and accounts. Many standard entities are available. You can customize a non-system standard entity (or production entity). You can also create a custom entity from scratch. | Entity designer |
 | Field            | Fields are properties that are associated with an entity and help define that entity. A field is defined by a data type, which determines the type of data that can be entered or selected. Examples of data types include text, number, date and time, currency, and lookup (which creates a relationship with another entity). Fields are typically used with forms, views, and searches. | Entity designer |
 | Relationship     | Relationships define how entities can be related to each other. There are 1:N (one-to-many), N:1 (many-to-one), and N:N (many-to-many) relationships. For example, adding a lookup field to an entity creates a new 1:N relationship between the two entities and lets you add that lookup field to a form. | Entity designer |
-| Option set field | This type of field shows a control that lets the user select among predefined options. Each option has a number value and a label. Option set fields can require either a single value or multiple values. | Entity |
+| Option set field | This type of field shows a control that lets the user select among predefined options. Each option has a number value and a label. Option set fields can require either a single value or multiple values. | Entity designer|
 
 ## User interface
 The user interface components determine how users interact with the app. 
@@ -46,7 +46,7 @@ The visualization components determine what type of data and reporting the app w
 
 ![Sample dashboard](../media/dashboard-designer.png)
 
-## Advanced model-driven app making
-Solution Explorer is used to advanced model-driven app building. By using the navigation pane on the left side of the tool, you can navigate a hierarchy that consists of all app components.
+## Advanced model-driven apps
+Solution Explorer is used for making advanced model-driven apps. By using the navigation pane on the left side of the tool, you can navigate a hierarchy that consists of all app components.
 
 ![Solution Explorer](../media/solutionexplorer-entitiescollapsed.png)
