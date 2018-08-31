@@ -12,16 +12,13 @@ Specifically, you'll learn how to:
 
 To share an app, you must have the Environment Admin or System Admin role. 
 
-## Sign in to PowerApps
-Sign in to [PowerApps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
-
-## Share an app 
+## Scenario
 This unit uses the example of a company named Contoso, which has a pet grooming business that services dogs and cats. An app that has a custom entity for tracking the pet grooming business has already been created and published. 
 
 The app must be shared so that the pet grooming staff can use it. To share the app, an admin or app maker assigns one or more security roles to users and to the app.
 
 ## Create or set up a security role
-The PowerApps environment includes [predefined security roles](https://docs.microsoft.com/en-us/powerapps/maker/model-driven-apps/share-model-driven-app#about-predefined-security-roles). These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that's required to use the app. 
+The PowerApps environment includes predefined security roles. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that's required to use the app. 
 
 Remember that the Contoso pet grooming app is based on a custom entity. Because the entity is custom, privileges must be explicitly specified before users can work in it. To do this, you can use either of the following approaches:
 

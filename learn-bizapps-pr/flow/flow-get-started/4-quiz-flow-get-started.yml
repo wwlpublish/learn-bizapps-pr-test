@@ -12,9 +12,9 @@ quiz:
   questions: 
   - content: Where do you get a flow started? 
     choices:  
-    - content: On the Microsoft Flow website.
-      correctExplanation: The Microsoft Flow website is typically where you start a flow.
-      isCorrect: true 
+    - content: Only on the Microsoft Flow website.
+      incorrectExplanation: The Microsoft Flow website is only one place where you start a flow. You can also start a flow on the mobile app.
+      isCorrect: false 
     - content: By downloading the Microsoft Flow app.
       correctExplanation: Simple flows can be started from the app.
       isCorrect: true 
@@ -22,7 +22,7 @@ quiz:
       incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you start a flow. 
       isCorrect: false 
     - content: In Microsoft PowerApps Studio.
-      incorrectExplanation: PowerApps Studio is where you design PowerApps apps. It isn't where you start a flow, even though flows can work with PowerApps apps. 
+      incorrectExplanation: PowerApps Studio is where you can design PowerApps apps. It isn't where you start a flow, even though flows can work with PowerApps apps. 
       isCorrect: false 
   - content: Which of the following statements about flows is true? 
     choices: 

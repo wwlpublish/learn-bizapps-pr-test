@@ -40,7 +40,7 @@ quiz:
     - content: App users.
       incorrectExplanation: App users can open shared apps regardless of the environment in which the apps were created.
       isCorrect: false
-    - content: App makers.
-      correctExplanation: App makers must ensure that they create apps in the same environment as the resources - such as connections, entities, and flows - on which the apps rely.
-      isCorrect: true
+    - content: App designers.
+      incorrectExplanation: App designers don't need to know about environments.
+      isCorrect: false
       
