@@ -4,6 +4,6 @@ title: Control security when sharing model-driven apps
 metadata: 
   title: Control security when sharing model-driven apps 
   description: Control security when sharing model-driven apps
-durationInMinutes: 12 
+durationInMinutes: 10 
 content: | 
   [!include[](includes/5-control-security-when-sharing-model-driven-apps.md)]  

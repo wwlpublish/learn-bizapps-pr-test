@@ -4,6 +4,6 @@ title: Create a model-driven app
 metadata: 
   title: Create a model-driven app 
   description: Create a model-driven app
-durationInMinutes: 12 
+durationInMinutes: 15 
 content: | 
   [!include[](includes/3-create-a-model-driven-app.md)]  
