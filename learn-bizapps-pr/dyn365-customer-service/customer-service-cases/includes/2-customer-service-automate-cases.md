@@ -1,6 +1,6 @@
 In many organizations, the customer service function is highly structured. Customer service can include entitlement commitments to service level agreements (SLAs), requirements to track information like the amount of time spent in resolving cases, and much more.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/cde80c83-f592-4b15-b1a1-4fae13be93f9]
 
 Because of these characteristics, activity records interact somewhat differently with case records than with other record types. Here are two of the most important differences:
 
