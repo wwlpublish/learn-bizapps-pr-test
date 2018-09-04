@@ -12,7 +12,7 @@ products:
 - Dynamics 365 for Customer Service
 prerequisites: In order to complete the labs for this course, you must have a trial subscription to Dynamics 365 for Customer Engagement.
 metadata:
-  title: Create an app in PowerApps
+  title: Work with cases and SLAs in Dynamics 365 for Customer Service
   description: This learning path introduces you to the basics of the Customer Service hub, and working with cases.
 modules:
 - learn-bizapps.customer-service-get-started
