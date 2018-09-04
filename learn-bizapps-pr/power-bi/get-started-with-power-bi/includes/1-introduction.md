@@ -9,7 +9,7 @@ If you're a **beginner** with Power BI this course will get you going, and if yo
 ## The parts of Power BI
 Power BI consists of a Windows desktop application called **Power BI Desktop**, an online SaaS (*Software as a Service*) service called the **Power BI service**, and mobile Power BI **apps** available on Windows phones and tablets, as well as for iOS and Android devices.
 
-![The parts of Power BI](../media/pbi-intro_01.png)
+![The parts of Power BI](../media/pbi-intro_02.png)
 
 These three elements – the **Desktop**, the **service**, and **Mobile** – are designed to let people create, share, and consume business insights in the way that serves them, or their role, most effectively.
 
