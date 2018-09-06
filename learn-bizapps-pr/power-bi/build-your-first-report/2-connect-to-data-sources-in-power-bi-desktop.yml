@@ -1,0 +1,10 @@
+### YamlMime:ModuleUnit
+uid: learn.build-your-first-report.2-connect-to-data-sources-in-power-bi-desktop
+metadata:
+  title: Connect to data source in Power BI desktop
+  description: Connect to data source in Power BI desktop
+  displayType: one-column
+title: Connect to data source in Power BI desktop
+durationInMinutes: 10
+content: |
+ [!include[](includes/2-connect-to-data-sources-in-power-bi-desktop.md)]
