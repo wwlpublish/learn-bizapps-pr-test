@@ -14,8 +14,7 @@ levels:
 roles: 
 - business-user
 products: 
-- d365CustomerService
-- d365
+- bizapps-d365
 units:
 - learn-bizapps.customer-service-cases.1-customer-service-manage-cases
 - learn-bizapps.customer-service-cases.2-customer-service-automate-cases

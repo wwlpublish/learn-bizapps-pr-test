@@ -23,8 +23,8 @@ levels:
 roles:  
 - business-user 
 products:  
-- PowerApps
-- d365 
+- bizapps-d365
+- bizapps-power-apps
 units: 
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore

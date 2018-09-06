@@ -14,8 +14,8 @@ levels:
 roles: 
 - business-user 
 products:  
-- Flow
-- d365
+- bizapps-d365
+- bizapps-flow
 units: 
 - learn-bizapps.flow-create-approval.1-create-approval-request
 - learn-bizapps.flow-create-approval.2-process-approval-request

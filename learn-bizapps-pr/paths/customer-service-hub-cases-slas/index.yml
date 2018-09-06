@@ -9,7 +9,7 @@ levels:
 roles:
 - business-user
 products:
-- Dynamics 365 for Customer Service
+- bizapps-d365
 prerequisites: In order to complete the labs for this course, you must have a trial subscription to Dynamics 365 for Customer Engagement.
 metadata:
   title: Create an app in PowerApps

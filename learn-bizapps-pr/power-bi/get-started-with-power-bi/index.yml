@@ -13,8 +13,7 @@ levels:
 roles:
 - business-analyst
 products:
-- bizzapps
-
+- bizapps
 units:
 - learn.get-started-with-power-bi.1-introduction
 - learn.get-started-with-power-bi.2-using-power-bi
