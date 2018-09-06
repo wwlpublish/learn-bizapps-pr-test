@@ -13,7 +13,7 @@ levels:
 roles:
 - business-analyst
 products:
-- powerbi
+- powerBi
 units:
 - learn.build-your-first-report.1-introduction
 - learn.build-your-first-report.2-connect-to-data-sources-in-power-bi-desktop
