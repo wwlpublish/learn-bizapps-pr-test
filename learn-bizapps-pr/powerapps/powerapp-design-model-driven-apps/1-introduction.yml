@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-design-model-driven-apps.1-introduction
+title: Introducing model-driven apps  
+metadata: 
+  title: Introducing model-driven apps 
+  description: Introducing model-driven apps
+durationInMinutes: 5 
+content: | 
+  [!include[](includes/1-introduction.md)]  

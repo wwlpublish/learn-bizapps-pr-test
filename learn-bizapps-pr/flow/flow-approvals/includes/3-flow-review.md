@@ -7,7 +7,7 @@ Let's do a quick review of what you've learned so far:
 - You created a more complicated flow that uses a Microsoft SharePoint list where company employees can suggest tweets. When a tweet is approved, it's automatically posted to the company's Twitter account.
 - You learned that there are many templates to help you create even more flows so that you can easily connect your vital services.
 
-And you probably did all this quickly. Outstanding!
+You probably did all this quickly. Outstanding!
 
 The easiest way to advance your skills is to run the samples, play around with the templates, and generate more flows.
 

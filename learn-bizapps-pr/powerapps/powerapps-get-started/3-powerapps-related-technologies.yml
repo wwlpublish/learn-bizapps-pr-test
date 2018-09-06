@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps-get-started.3-powerapps-related-technologies
 title: PowerApps related technologies
 metadata:
   title: PowerApps related technologies
-  description: Learn how PowerApps works with other technologies to help you build and share apps across your organization and in the field. 
-durationInMinutes: 12
+  description: Learn how you can use PowerApps with other technologies to build and share apps across your organization. 
+durationInMinutes: 10
 content: |
   [!include[](includes/3-powerapps-related-technologies.md)]

@@ -2,10 +2,11 @@
 uid: learn-bizapps.flow-get-started 
 metadata: 
   title: Get started with Microsoft Flow 
-  description: Learn how to create an approval request for a SharePoint list. 
+  description: Learn how to create an approval request for a SharePoint list.
+  ms.date: 09/24/2018 
 title: Get started with Microsoft Flow 
-summary: This module teaches you the basics of creating an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted. 
-abstract: This module teaches you the basics of creating an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
+summary: This module teaches you the basics of creating an approval flow.
+abstract: This module teaches you how to create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
 cardDescription: Get started with Microsoft Flow 
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
@@ -14,6 +15,7 @@ roles:
 - business-user 
 products:  
 - Flow 
+- d365
 units: 
 - learn-bizapps.flow-get-started.1-flow-introduction
 - learn-bizapps.flow-get-started.2-flow-create-first

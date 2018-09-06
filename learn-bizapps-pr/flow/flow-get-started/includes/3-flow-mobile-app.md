@@ -1,4 +1,3 @@
-# Use the mobile app for flows
 Of course we have an app! The Microsoft Flow mobile app. From this app, you can access these features:
 
 - Activity Feed
@@ -14,7 +13,7 @@ After it's installed, start it and sign in.
 
 When you first start the app, you'll see the Activity Feed. The Activity Feed is the place to see what's happening with your flows. It won't be the full experience you'd expect from your PC, but it will show you useful details.
 
-For example, you'll see the flow's last activity, as shown here. You can see whether the flow succeeded or failed to run. And if it failed, you'll see which step it failed on.
+For example, you'll see the flow's last activity, as shown here. You can see whether the flow succeeded or failed to run. if it failed, you'll see which step it failed on.
 
 ![Activity Feed](../media/see-all-activity.png)
 
@@ -33,7 +32,7 @@ Buttons are flows that are started through a manual action. For example, you can
 
 To show you how you can use buttons, we'll use the **Send myself a reminder in 10 minutes button** flow.
 
-1. Select **Buttons**, and then Browse templates.
+1. Select **Buttons**, and then **Browse**.
 2. Select the **Send myself a reminder in 10 minutes button** flow.
 3. Select **Use this template**.
 

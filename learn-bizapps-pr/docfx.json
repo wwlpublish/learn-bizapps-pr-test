@@ -9,14 +9,13 @@
       },
       {
         "src": "dyn365-customer-service",
-
         "files": [
           "**.yml"
         ],
         "dest": "modules"
       },
       {
-        "src": "powerapps",
+        "src": "flow",
         "files": [
           "**.yml"
         ],
@@ -30,7 +29,13 @@
         "dest": "modules"
       },
       {
-
+        "src": "powerapps",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
         "files": [
           "**/*.md",
           "**/*.yml"
@@ -44,7 +49,11 @@
           "LICENSE",
           "LICENSE-CODE",
           "ThirdPartyNotices",
-          "paths/sample-path/**"
+          "paths/sample-path/**",
+          "dyn365-customer-service/**",
+          "flow/**",
+          "power-bi/**",
+          "powerapps/**"
         ]
       }
     ],
@@ -72,7 +81,8 @@
       "breadcrumb_path": "/learn/breadcrumb/toc.json",
       "extendBreadcrumb": true,
       "feedback_system": "None",
-      "clicktale": true
+      "clicktale": true,
+      "uhfHeaderId":"MSDocsHeader-Learn"
     },
     "fileMetadata": {},
     "template": [],

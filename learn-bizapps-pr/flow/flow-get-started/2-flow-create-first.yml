@@ -4,6 +4,6 @@ title: Create your first flow
 metadata: 
   title: Create your first flow 
   description: Learn how to create your first flow.
-durationInMinutes: 12 
+durationInMinutes: 15 
 content: | 
   [!include[](includes/2-flow-create-first.md)] 

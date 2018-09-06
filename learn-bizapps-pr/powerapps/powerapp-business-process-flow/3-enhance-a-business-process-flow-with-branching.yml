@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-business-process-flow.3-enhance-a-business-process-flow-with-branching
+title: Enhance a business process flow with branching  
+metadata: 
+  title: Enhance a business process flow with branching
+  description: Enhance a business process flow with branching
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/3-enhance-a-business-process-flow-with-branching.md)]  
