@@ -1,0 +1,10 @@
+### YamlMime:ModuleUnit
+uid: learn.build-your-first-report.4-exercise-create-visuals-in-power-bi
+metadata:
+  title: Exercise - Create visuals in Power BI
+  description: Exercise - Create visuals in Power BI
+  displayType: one-column
+title: Exercise - Create visuals in Power BI
+durationInMinutes: 10
+content: |
+ [!include[](includes/4-exercise-create-visuals-in-power-bi.md)]

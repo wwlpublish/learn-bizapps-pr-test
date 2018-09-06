@@ -1,0 +1,10 @@
+### YamlMime:ModuleUnit
+uid: learn.build-your-first-report.3-clean-and-transform-data-with-power-query-editor
+metadata:
+  title: Clean and transform data with Power Query editor
+  description: Clean and transform data with Power Query editor
+  displayType: one-column
+title: Clean and transform data with Power Query editor
+durationInMinutes: 10
+content: |
+ [!include[](includes/3-clean-and-transform-data-with-power-query-editor.md)]
