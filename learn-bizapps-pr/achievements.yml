@@ -76,6 +76,7 @@ achievements:
   type: badge
   title: Create and share your first Power BI report
   summary: Badge for the 'Create and share your first Power BI report' module.
+  iconUrl: http://via.placeholder.com/120x120
 - uid: learn.get-started-with-power-bi.badge 
   type: badge
   title: Get started with Power BI badge
