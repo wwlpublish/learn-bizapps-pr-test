@@ -20,9 +20,6 @@ products:
 units: 
 - learn-bizapps.powerapps-common-data-service.1-introduction
 - learn-bizapps.powerapps-common-data-service.2-learn-about-entities
-- learn-bizapps.powerapps-common-data-service.3-types-of-entities
 - learn-bizapps.powerapps-common-data-service.4-import-data-into-your-database
-- learn-bizapps.powerapps-common-data-service.5-learn-about-security-concepts
-- learn-bizapps.powerapps-common-data-service.6-knowledge-check
 - learn-bizapps.powerapps-common-data-service.7-summary
-achievement: learn.powerapps-common-data-service.badge  
+achievement: learn.powerapps-common-data-service.badge 

@@ -1,9 +1,0 @@
-### YamlMime:ModuleUnit 
-uid: learn-bizapps.powerapps-common-data-service.3-types-of-entities
-title: Types of entities  
-metadata: 
-  title: Types of entities
-  description: Types of entities
-durationInMinutes: 12 
-content: | 
-  [!include[](includes/3-types-of-entities.md)]  
