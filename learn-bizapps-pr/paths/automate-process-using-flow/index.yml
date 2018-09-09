@@ -15,6 +15,6 @@ metadata:
   title: Automate a business process using Flow
   description: This learning path introduces you to Microsoft Flow, and teaches you how to build two types of business workflows. 
 modules:
-- learn-bizapps.flow-create-approval
 - learn-bizapps.flow-get-started
+- learn-bizapps.flow-create-approval
 achievement: learn.automate-process-using-flow.trophy
