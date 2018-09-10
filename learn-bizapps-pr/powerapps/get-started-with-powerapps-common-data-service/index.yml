@@ -11,6 +11,7 @@ metadata:
   ms.prod: learning-powerapps
 title: Get started with the Common Data Service
 summary: The Common Data Service (CDS) for apps lets you store and manage data.
+#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
 abstract: The Common Data Service for apps lets you securely store and manage data that's used by business applications. Standard and custom entities within CDS for Apps provide a secure and cloud-based storage option for your data.
 prerequisites: None
 #TODO: Update with real image.

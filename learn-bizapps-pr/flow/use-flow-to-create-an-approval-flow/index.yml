@@ -11,6 +11,7 @@ metadata:
   ms.prod: learning-flow
 title: Create an approval flow 
 summary: This module teaches you the basics of creating an approval flow. 
+#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
 abstract:  This module teaches you how to create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted. 
 prerequisites: None
 #TODO: Update with real image.

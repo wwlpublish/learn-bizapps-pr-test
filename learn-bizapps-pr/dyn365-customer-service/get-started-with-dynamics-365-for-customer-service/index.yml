@@ -13,6 +13,7 @@ metadata:
   ms.prod: learning-d365
 title: Get started with cases for Customer Service
 summary: This module teaches you the basics of getting started with cases for Customer Service.
+#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
 abstract: This module teaches you the basics of getting started with cases for Customer Service.
 prerequisites: None
 #TODO: Update with real image.
