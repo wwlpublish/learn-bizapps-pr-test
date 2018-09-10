@@ -15,7 +15,7 @@ metadata:
   title: This learning path introduces you to creating a model-driven PowerApp that uses the Common Data Service for Apps, and models business processes.
   description: This learning path introduces you to creating a model-driven PowerApp that uses the Common Data Service for Apps, and models business processes.
 modules:
-- learn-bizapps.powerapp-design-model-driven-apps
-- learn-bizapps.power-common-data-service
+- learn-bizapps.powerapps-design-model-driven-apps
+- learn-bizapps.powerapps-common-data-service
 - learn-bizapps.flow-create-approval
 achievement: learn.create-app-models-business-processes.trophy
