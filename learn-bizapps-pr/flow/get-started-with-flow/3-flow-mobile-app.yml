@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-get-started.3-flow-mobile-app
+title: Microsoft Flow mobile app 
+metadata: 
+  title: Microsoft Flow mobile app 
+  description: Learn how to use the Microsoft Flow mobile app.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 15 
+content: | 
+  [!include[](includes/3-flow-mobile-app.md)] 

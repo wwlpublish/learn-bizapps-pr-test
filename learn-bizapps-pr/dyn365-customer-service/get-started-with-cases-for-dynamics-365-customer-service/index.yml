@@ -1,0 +1,31 @@
+### YamlMime:Module
+uid: learn-bizapps.customer-service-get-started
+metadata:
+  title: Get started with Dynamics 365 for Customer Service
+  description: Learn the basics of Dynamics 365 for Customer Service.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Get started with Dynamics 365 for Customer Service
+summary: This module gets you started with Dynamics 365 for Customer Service.
+#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
+abstract: This module gets you started with Dynamics 365 for Customer Service. You'll learn about the pieces of Customer Service and how to optimize it to improve your customer relations.
+prerequisites: None
+#TODO: Update with real image.
+iconUrl: http://via.placeholder.com/120x120
+levels: 
+- beginner
+roles: 
+- business-user
+products: 
+- bizapps
+- bizapps-d365
+units:
+- learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
+- learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components
+- learn-bizapps.customer-service-get-started.3-customer-service-get-started-modern
+- learn-bizapps.customer-service-get-started.4-quiz-customer-service
+achievement: learn.customer-service-get-started.badge

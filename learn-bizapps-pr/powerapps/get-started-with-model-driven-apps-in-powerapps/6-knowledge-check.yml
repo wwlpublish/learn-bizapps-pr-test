@@ -1,0 +1,41 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-design-model-driven-apps.6-knowledge-check
+metadata:
+  title: "Knowledge check: Get started in model-driven apps"
+  description: This quiz tests your knowledge of how to get started building model-driven apps.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: Check your knowledge
+durationInMinutes: 5
+quiz:
+  title: "Knowledge check: Get started in model-driven apps"
+  questions:
+  - content: Which of the following statements about entities is true?
+    choices: 
+    - content: Entities are properties that help define a field.
+      incorrectExplanation: Entities aren't properties. But they have properties.
+      isCorrect: false
+    - content: Entities have fields.
+      incorrectExplanation: Entities don't have fields. Properties have fields.
+      isCorrect: false
+    - content: Account names are a type of entity.
+      correctExplanation: Accounts are a common entity that's used to describe customers.
+      isCorrect: true
+    - content: Relationships associate a field with a property.
+      incorrectExplanation: Relationships define how entities can be related to each other. They don't relate entities or fields.
+      isCorrect: false
+  - content: Which of the following statements about security for model-driven apps is true?
+    choices:
+    - content: Security is based on Microsoft SharePoint permissions.
+      incorrectExplanation: Security for model-driven apps is built on roles that contain a set of privileges.
+      isCorrect: false
+    - content: Security roles can be assigned to teams.
+      correctExplanation: Security roles can be assigned to teams and individuals.
+      isCorrect: true
+    - content: Security roles are defined by Microsoft Windows and can't be changed.
+      incorrectExplanation: Security roles can be customized.
+      isCorrect: false

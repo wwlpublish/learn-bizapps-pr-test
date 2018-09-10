@@ -1,9 +1,0 @@
-### YamlMime:ModuleUnit 
-uid: learn-bizapps.powerapps-common-data-service.1-introduction
-title: Introducing Common Data Service  
-metadata: 
-  title: Introducing Common Data Service 
-  description: Introducing Common Data Service
-durationInMinutes: 5 
-content: | 
-  [!include[](includes/1-introduction.md)]  

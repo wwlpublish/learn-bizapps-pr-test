@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.customer-service-hub-cases-slas
+metadata:
+  title: Work with cases and SLAs in Dynamics 365 for Customer Service
+  description: This learning path introduces you to the basics of the Customer Service hub, and working with cases.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Work with cases and SLAs in Dynamics 365 for Customer Service
+summary: Learn the basics of the Customer Service hub, and work with cases.
+#TODO: Add link to how to get a trial subscription.
+prerequisites: |
+  - Have a trial subscription to Dynamics 365 for Customer Engagement.
+#TODO: Update with real image.
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- business-user
+products:
+- bizapps
+- bizapps-d365
+modules:
+- learn-bizapps.customer-service-get-started
+- learn-bizapps.customer-service-cases
+achievement: learn.customer-service-hub-cases-slas.trophy

@@ -1,0 +1,25 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-business-process-flow.4-knowledge-check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: Check your knowledge
+durationInMinutes: 11
+#TODO: Update knowledge check with real questions.
+quiz:
+  title: Knowledge check
+  questions:
+  - content: 'What this markdown file talking about:'
+    choices:
+    - content: Brainstorming of markdown file format for quiz.
+      correctExplanation: Why this answer is correct
+      incorrectExplanation: Why this answer is incorrect
+      isCorrect: true
+    - content: Brainstorming of markdown file format for quiz. Part 2
+      isCorrect: false

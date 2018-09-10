@@ -3,7 +3,12 @@ uid: learn.build-your-first-report.2-connect-to-data-sources-in-power-bi-desktop
 metadata:
   title: Connect to data source in Power BI desktop
   description: Connect to data source in Power BI desktop
-  displayType: one-column
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
 title: Connect to data source in Power BI desktop
 durationInMinutes: 10
 content: |

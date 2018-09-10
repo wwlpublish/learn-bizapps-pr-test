@@ -3,7 +3,12 @@ uid: learn.build-your-first-report.1-introduction
 metadata:
   title: Introduction
   description: Introduction
-  displayType: one-column
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
 title: Introduction
 durationInMinutes: 3
 content: |
