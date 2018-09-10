@@ -22,6 +22,6 @@ When you add data to a template files, you'll need to make sure that the data is
 1. Select the **Pets** entity, click **Get Data**, and then click **Get data from Excel**.  
 1. Select the file that you created. After it has been uploaded and the **Mapping status** is green, in the top-right corner, click **Import**.
   > [!div class="mx-imgBorder"] 
-  > ![Example of a successful **Mapping status** and **Import** button](./media/success-map-imp.png)
+  > ![Example of a successful **Mapping status** and **Import** button](../media/success-map-imp.png)
 
 1. After the import finishes successfully, you'll see the total number of inserts and updates.  
