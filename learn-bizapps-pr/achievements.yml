@@ -102,21 +102,6 @@ achievements:
   title: Get started with business process flows
   summary: Badge for the 'Get started with business process flows' module.
   iconUrl: http://via.placeholder.com/120x120
-- uid: learn.get-started-with-power-bi.badge 
-  type: badge
-  title: Get started with Power BI
-  summary: Badge for the 'Get started with Power BI' module.
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.build-your-first-report.badge 
-  type: badge
-  title: Create and share your first Power BI report
-  summary: Badge for the 'Create and share your first Power BI report' module.
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.powerapps-design-model-driven-apps.badge 
-  type: badge
-  title: Get started with model-driven apps
-  summary: Badge for the 'Get started with model-driven apps' module.
-  iconUrl: http://via.placeholder.com/120x120
 - uid: learn.powerapps-common-data-service.badge 
   type: badge
   title: Get started with the Common Data Service
