@@ -1,0 +1,9 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-business-process-flow.1-introduction
+title: Introducing business process flow  
+metadata: 
+  title: Introducing business process flow 
+  description: Introducing business process flow
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/1-introduction.md)]  
