@@ -21,14 +21,9 @@ levels:
 roles:  
 - business-user 
 products:  
-<<<<<<< HEAD:learn-bizapps-pr/powerapps/powerapp-design-model-driven-apps/index.yml
-- bizapps-power-apps
-- bizapps-d365 
-=======
 - bizapps
 - bizapps-d365
 - bizapps-power-apps
->>>>>>> master:learn-bizapps-pr/powerapps/get-started-with-model-driven-apps-in-powerapps/index.yml
 units: 
 - learn-bizapps.powerapps-design-model-driven-apps.1-introduction
 - learn-bizapps.powerapps-design-model-driven-apps.2-building-blocks-of-model-driven-apps

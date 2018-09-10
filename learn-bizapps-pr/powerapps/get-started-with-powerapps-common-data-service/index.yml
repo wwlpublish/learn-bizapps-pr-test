@@ -21,16 +21,10 @@ levels:
 roles:  
 - business-user 
 products:  
-<<<<<<< HEAD:learn-bizapps-pr/powerapps/powerapp-common-data-service/index.yml
-- bizapps-flow
-- bizapps-power-apps
-- bizapps-d365
-=======
 - bizapps
 - bizapps-d365
 - bizapps-flow
 - bizapps-power-apps
->>>>>>> master:learn-bizapps-pr/powerapps/get-started-with-powerapps-common-data-service/index.yml
 units: 
 - learn-bizapps.powerapps-common-data-service.1-introduction
 - learn-bizapps.powerapps-common-data-service.2-learn-about-entities

@@ -21,14 +21,9 @@ levels:
 roles: 
 - business-user 
 products:  
-<<<<<<< HEAD:learn-bizapps-pr/flow/flow-approvals/index.yml
-- bizapps-flow
-- bizapps-d365
-=======
 - bizapps
 - bizapps-d365
 - bizapps-flow
->>>>>>> master:learn-bizapps-pr/flow/use-flow-to-create-an-approval-flow/index.yml
 units: 
 - learn-bizapps.flow-create-approval.1-create-approval-request
 - learn-bizapps.flow-create-approval.2-process-approval-request

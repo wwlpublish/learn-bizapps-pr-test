@@ -21,16 +21,8 @@ levels:
 roles:
 - business-user
 products:
-<<<<<<< HEAD:learn-bizapps-pr/paths/customer-service-hub-cases-slas/index.yml
-- bizapps-d365
-prerequisites: In order to complete the labs for this course, you must have a trial subscription to Dynamics 365 for Customer Engagement.
-metadata:
-  title: Create an app in PowerApps
-  description: This learning path introduces you to the basics of the Customer Service hub, and working with cases.
-=======
 - bizapps
 - bizapps-d365
->>>>>>> master:learn-bizapps-pr/paths/work-with-cases-and-slas-in-dynamics-365-for-customer-service/index.yml
 modules:
 - learn-bizapps.customer-service-get-started
 - learn-bizapps.customer-service-cases

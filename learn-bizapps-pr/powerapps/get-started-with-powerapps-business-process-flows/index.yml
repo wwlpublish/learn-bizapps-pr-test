@@ -21,15 +21,9 @@ levels:
 roles:  
 - business-user 
 products:
-<<<<<<< HEAD:learn-bizapps-pr/powerapps/powerapp-business-process-flow/index.yml
-- bizapps-flow
-- bizapps-power-apps
-- bizapps-d365 
-=======
 - bizapps-d365
 - bizapps-flow
 - bizapps-power-apps
->>>>>>> master:learn-bizapps-pr/powerapps/get-started-with-powerapps-business-process-flows/index.yml
 units: 
 - learn-bizapps.powerapps-business-process-flow.1-introduction
 - learn-bizapps.powerapps-business-process-flow.2-create-a-business-flow-app

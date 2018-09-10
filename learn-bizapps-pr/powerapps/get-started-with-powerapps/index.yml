@@ -25,14 +25,9 @@ levels:
 roles: 
 - business-user
 products: 
-<<<<<<< HEAD:learn-bizapps-pr/powerapps/powerapps-get-started/index.yml
-- bizapps-power-apps
-- bizapps-d365
-=======
 - bizapps
 - bizapps-d365
 - bizapps-power-apps
->>>>>>> master:learn-bizapps-pr/powerapps/get-started-with-powerapps/index.yml
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction
 - learn-bizapps.powerapps-get-started.2-powerapps-building-blocks

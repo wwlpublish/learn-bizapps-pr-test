@@ -23,11 +23,7 @@ levels:
 roles: 
 - business-user
 products: 
-<<<<<<< HEAD:learn-bizapps-pr/dyn365-customer-service/customer-service-cases/index.yml
-- d365CustomerService
-=======
 - bizapps
->>>>>>> master:learn-bizapps-pr/dyn365-customer-service/get-started-with-dynamics-365-for-customer-service/index.yml
 - bizapps-d365
 units:
 - learn-bizapps.customer-service-cases.1-customer-service-manage-cases

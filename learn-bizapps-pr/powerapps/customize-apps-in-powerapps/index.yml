@@ -29,14 +29,9 @@ levels:
 roles:  
 - business-user 
 products:  
-<<<<<<< HEAD:learn-bizapps-pr/powerapps/powerapps-customize/index.yml
-- bizapps-power-apps
-- bizapps-d365 
-=======
 - bizapps
 - bizapps-d365
 - bizapps-power-apps
->>>>>>> master:learn-bizapps-pr/powerapps/customize-apps-in-powerapps/index.yml
 units: 
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore

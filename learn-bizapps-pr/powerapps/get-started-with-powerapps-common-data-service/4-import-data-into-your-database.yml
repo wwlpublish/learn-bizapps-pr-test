@@ -2,10 +2,6 @@
 uid: learn-bizapps.powerapps-common-data-service.4-import-data-into-your-database
 title: Create an entity and import data into your CDS for Apps database  
 metadata: 
-<<<<<<< HEAD:learn-bizapps-pr/powerapps/powerapp-common-data-service/4-import-data-into-your-database.yml
-  title: Create an entity and import data into your CDS for Apps database 
-  description: Create an entity and import data into your CDS for Apps database.
-=======
   title: Import data into your database
   description: Import data into your database
   ms.date: 09/24/2018
@@ -14,7 +10,6 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
->>>>>>> master:learn-bizapps-pr/powerapps/get-started-with-powerapps-common-data-service/4-import-data-into-your-database.yml
 durationInMinutes: 12 
 content: | 
   [!include[](includes/4-import-data-into-your-database.md)]  
