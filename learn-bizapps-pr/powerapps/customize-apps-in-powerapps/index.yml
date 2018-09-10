@@ -4,6 +4,11 @@ metadata:
   title: Customize an app
   description: Learn how to customize an app by adding controls, images, and logic.
   ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
 title: Customize an app 
 summary: Learn how to customize an app by adding controls, images, and logic.
 abstract: |
@@ -17,6 +22,7 @@ abstract: |
   - Color prices based on their values.
   - Explore formulas in a generated app.
 prerequisites: None
+#TODO:  update with real image.
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
 - beginner 

@@ -3,11 +3,19 @@ uid: learn-bizapps.customer-service-cases
 metadata:
   title: Get started with cases for Dynamics 365 for Customer Service
   description: Get started with cases for Dynamics for Customer Service.
+  title: Get started with Dynamics 365 for Customer Service
+  description: Learn the basics of Dynamics 365 for Customer Service.
   ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
 title: Get started with cases for Customer Service
 summary: This module teaches you the basics of getting started with cases for Customer Service.
 abstract: This module teaches you the basics of getting started with cases for Customer Service.
 prerequisites: None
+#TODO: Update with real image.
 iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner

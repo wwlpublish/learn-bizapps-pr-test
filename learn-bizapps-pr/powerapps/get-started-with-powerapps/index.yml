@@ -3,6 +3,12 @@ uid: learn-bizapps.powerapps-get-started
 metadata:
   title: Get started with PowerApps
   description: Learn the basics of PowerApps and how you can use it in your organization.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
 title: Get started with PowerApps
 summary: Learn the basics of PowerApps and how you can use it in your organization.
 abstract: |
@@ -12,6 +18,7 @@ abstract: |
   - Understand the different ways to build an app in PowerApps.
   - Create your first app from data in an Excel workbook.
 prerequisites: None
+#TODO: Update with real image.
 iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
