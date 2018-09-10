@@ -7,6 +7,7 @@ metadata:
 title: Get started with model-driven apps
 summary: Learn how to view business data quickly with a model-driven approach.
 abstract: Model-driven app design is an approach that focuses on quickly adding components to your apps. These components include dashboards, forms, views, and charts. With no code, or very little, you can make apps that are simple or very complex. Unlike in canvas app development, where the designer has total control over app layout, much of the layout in model-driven apps is determined by the components you add. In other words, the emphasis is more on quickly viewing your business data and making decisions than on intricate app design.
+prerequisites: None
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
 - beginner 

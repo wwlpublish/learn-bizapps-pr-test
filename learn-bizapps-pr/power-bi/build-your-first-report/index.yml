@@ -6,6 +6,7 @@ metadata:
 title: Get started with Power BI
 summary: Learn how to create a report in Power BI, and how to share the report with others.
 abstract: With Power BI you can create compelling visuals and reports. In this module you learn how to use Power BI Desktop to connect to data, build visuals, and create a report that you can share with others in your organization. Then you learn how to publish the report to the Power BI service, and let others see your insights and benefit from your work.
+prerequisites: None
 iconUrl: http://via.placeholder.com/120x120
 levels:
 - intermediate

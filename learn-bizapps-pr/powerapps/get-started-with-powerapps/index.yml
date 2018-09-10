@@ -11,6 +11,7 @@ abstract: |
   - Understand how you use different technologies to perform different tasks in PowerApps.
   - Understand the different ways to build an app in PowerApps.
   - Create your first app from data in an Excel workbook.
+prerequisites: None
 iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner

@@ -7,6 +7,7 @@ metadata:
 title: Get started with business process flows
 summary: Business process flows help ensure people enter data consistently.
 abstract: Business process flow help ensure that people enter data consistently and follow the same steps every time they work with a customer. Business process flows use the same underlying technology as other processes, but the capabilities that they provide are very different from other features that use processes.
+prerequisites: None
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
 - beginner 

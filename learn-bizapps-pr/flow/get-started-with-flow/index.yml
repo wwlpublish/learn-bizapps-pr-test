@@ -7,6 +7,7 @@ metadata:
 title: Get started with Microsoft Flow 
 summary: This module teaches you the basics of creating an approval flow.
 abstract: This module teaches you how to create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
+prerequisites: None
 iconUrl: http://via.placeholder.com/120x120 
 levels:  
 - beginner 

@@ -7,6 +7,7 @@ metadata:
 title: Get started with Dynamics 365 for Customer Service
 summary: This module gets you started with Dynamics 365 for Customer Service.
 abstract: This module gets you started with Dynamics 365 for Customer Service. You'll learn about the pieces of Customer Service and how to optimize it to improve your customer relations.
+prerequisites: None
 iconUrl: http://via.placeholder.com/120x120
 levels: 
 - beginner
