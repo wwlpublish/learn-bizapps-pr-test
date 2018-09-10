@@ -18,8 +18,8 @@ achievements:
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.create-app-models-business-processes.trophy
   type: trophy
-  title: Create a model-driven application that models business processes
-  summary: Trophy for the 'Create a model-driven application that models business processes' learning path.
+  title: Create a model-driven application
+  summary: Trophy for the 'Create a model-driven application' learning path.
   iconUrl: http://via.placeholder.com/120x120
 - uid: learn.create-use-analytics-reports-power-bi.trophy
   type: trophy
