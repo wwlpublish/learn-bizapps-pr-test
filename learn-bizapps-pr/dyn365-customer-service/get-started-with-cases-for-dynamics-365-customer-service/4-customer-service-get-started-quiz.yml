@@ -1,17 +1,16 @@
 ### YamlMime:ModuleUnit
-# YML code for unit
 uid: learn-bizapps.customer-service-get-started.4-quiz-customer-service
-# `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
 metadata:
-# Search engine metadata
   title: Customer Service quiz
   description: This quiz will test your knowledge of Dynamics 365 for Customer Service.
-  # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
-title: "Knowledge check: Customer Service"
-# `title` appears in the header, ToC, and breadcrumbs
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Check your knowledge
 durationInMinutes: 10
-# `durationInMinutes` is manually created by the writer
-content: This is a quiz for Customer Service.
 quiz:
   title: Customer Service quiz
   questions:

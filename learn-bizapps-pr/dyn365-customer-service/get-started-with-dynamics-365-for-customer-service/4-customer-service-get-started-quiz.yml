@@ -1,19 +1,18 @@
 ### YamlMime:ModuleUnit
-# YML code for unit
 uid: learn-bizapps.customer-service-cases.4-customer-service-cases-get-started-quiz
-# `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
 metadata:
-# Search engine metadata
-  title: Quiz on managing cases
-  description: This quiz tests your knowledge of how to work with cases.
-  # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
-title: "Knowledge check: Managing cases"
-# `title` appears in the header, ToC, and breadcrumbs
+  title: "Knowledge check: Managing cases"
+  description: This knowledge check tests your knowledge of how to work with cases.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Check your knowledge
 durationInMinutes: 10
-# `durationInMinutes` is manually created by the writer
-content: Quiz on managing cases
 quiz:
-  title: Quiz on managing cases
+  title: "Knowledge check: Managing cases"
   questions:
   - content: Which of these is a key performance indicator (KPI)?
     choices: 

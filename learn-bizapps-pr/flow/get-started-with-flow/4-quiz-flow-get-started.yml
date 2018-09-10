@@ -1,14 +1,18 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.4-quiz-flow-get-started
-title: "Knowledge check: Get a flow started" 
+title: Check your knowledge
 metadata: 
-# Search engine metadata 
-  title: Get a flow started quiz 
-  description: This quiz tests your knowledge of how to get a flow started. 
+  title: "Knowledge check: Get a flow started" 
+  description: This knowledge check tests your knowledge of how to get a flow started. 
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
 durationInMinutes: 12 
-content: This is a quiz for getting a flow started. 
 quiz: 
-  title: Get a flow started quiz 
+  title: "Knowledge check: Get a flow started" 
   questions: 
   - content: Where do you get a flow started? 
     choices:  

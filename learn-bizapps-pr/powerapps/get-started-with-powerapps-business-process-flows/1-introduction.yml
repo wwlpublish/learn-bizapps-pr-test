@@ -4,6 +4,12 @@ title: Introducing business process flow
 metadata: 
   title: Introducing business process flow 
   description: Introducing business process flow
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
 durationInMinutes: 12 
 content: | 
   [!include[](includes/1-introduction.md)]  

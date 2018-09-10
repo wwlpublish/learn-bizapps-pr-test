@@ -1,20 +1,18 @@
 ### YamlMime:ModuleUnit
-# YML code for unit
 uid: learn-bizapps.powerapps-design-model-driven-apps.6-knowledge-check
-# `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
 metadata:
-# Search engine metadata
-  title: Get started with model-driven apps quiz
+  title: "Knowledge check: Get started in model-driven apps"
   description: This quiz tests your knowledge of how to get started building model-driven apps.
   ms.date: 09/24/2018
-  # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
-title: "Knowledge check: Get started in model-driven apps"
-# `title` appears in the header, ToC, and breadcrumbs
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: Check your knowledge
 durationInMinutes: 5
-# `durationInMinutes` is manually created by the writer
-content: This is a quiz for getting started with model-driven apps.
 quiz:
-  title: Get started with model-driven apps quiz
+  title: "Knowledge check: Get started in model-driven apps"
   questions:
   - content: Which of the following statements about entities is true?
     choices: 

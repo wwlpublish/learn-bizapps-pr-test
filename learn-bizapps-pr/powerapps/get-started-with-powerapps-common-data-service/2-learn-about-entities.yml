@@ -4,6 +4,12 @@ title: Learn about entities
 metadata: 
   title: Learn about entities
   description: Learn about entities
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
 durationInMinutes: 12 
 content: | 
   [!include[](includes/2-learn-about-entities.md)]  

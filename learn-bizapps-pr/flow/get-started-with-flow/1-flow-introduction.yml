@@ -4,6 +4,12 @@ title: Introducing Microsoft Flow
 metadata: 
   title: Introducing Microsoft Flow
   description: Learn the basics of Microsoft Flow. 
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
 durationInMinutes: 5 
 content: | 
   [!include[](includes/1-flow-introduction.md)] 

@@ -21,6 +21,7 @@ levels:
 roles:  
 - business-user 
 products:  
+- bizapps
 - bizapps-d365
 - bizapps-flow
 units: 

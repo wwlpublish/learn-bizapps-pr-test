@@ -4,6 +4,12 @@ title: Understand environments in PowerApps
 metadata:
   title: Understand environments in PowerApps
   description: Learn how to work with environments in PowerApps.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
 durationInMinutes: 12
 content: |
   [!include[](includes/3-powerapps-environments.md)]

@@ -4,6 +4,12 @@ title: Types of entities
 metadata: 
   title: Types of entities
   description: Types of entities
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
 durationInMinutes: 12 
 content: | 
   [!include[](includes/3-types-of-entities.md)]  

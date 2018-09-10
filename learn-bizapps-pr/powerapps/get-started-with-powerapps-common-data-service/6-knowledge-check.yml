@@ -3,10 +3,15 @@ uid: learn-bizapps.powerapps-common-data-service.6-knowledge-check
 metadata:
   title: Knowledge check
   description: Knowledge check
-  displayType: one-column
-title: Sample unit 3 - Knowledge check only
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: Check your knowledge
 durationInMinutes: 11
-content: Content is required
+#TODO: Update knowledge check with real questions.
 quiz:
   title: 'Quiz Title'
   questions:

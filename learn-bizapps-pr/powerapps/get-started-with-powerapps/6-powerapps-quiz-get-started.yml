@@ -1,19 +1,18 @@
 ### YamlMime:ModuleUnit
-# YML code for unit
 uid: learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
-# `uid`s are manually created by the writer and should follow the format <repo>.<module-short-name>.<unit-short-name>. Keep it easy on yourself and keep the module-short-name the same as the unit YAML file name.
 metadata:
-# Search engine metadata
-  title: Get started in PowerApps quiz
-  description: This quiz tests your knowledge of how to get started in PowerApps.
-  # Text-only units use the one-column option, which drives a single-column layout, similar to a normal article, with no interactive component.
-title: "Knowledge check: Get started in PowerApps"
-# `title` appears in the header, ToC, and breadcrumbs
+  title: "Knowledge check: Get started in PowerApps"
+  description: This knowledge check tests your knowledge of how to get started in PowerApps.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: Check your knowledge
 durationInMinutes: 10
-# `durationInMinutes` is manually created by the writer
-content: This is a quiz for getting started in PowerApps.
 quiz:
-  title: Get started in PowerApps quiz
+  title: "Knowledge check: Get started in PowerApps"
   questions:
   - content: Where do you share an app with others?
     choices: 

@@ -1,14 +1,18 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-manage.5-quiz-manage-apps
-title: "Knowledge check: Manage apps in PowerApps"
+title: Check your knowledge
 metadata:
-# Search engine metadata
-  title: Manage apps in PowerApps quiz
-  description: This quiz tests your knowledge of how to manage apps in PowerApps.
+  title: "Knowledge check: Manage apps in PowerApps"
+  description: This knowledge check tests your knowledge of how to manage apps in PowerApps.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
 durationInMinutes: 8
-content: Manage apps in PowerApps quiz
 quiz:
-  title: Manage apps in PowerApps quiz
+  title: "Knowledge check: Manage apps in PowerApps"
   questions:
   - content: What happens when you restore a previous version of an app?
     choices: 
