@@ -14,9 +14,9 @@ levels:
 roles:  
 - business-user 
 products:
-- flow
-- PowerApps
-- d365 
+- bizapps-flow
+- bizapps-power-apps
+- bizapps-d365 
 units: 
 - learn-bizapps.powerapps-business-process-flow.1-introduction
 - learn-bizapps.powerapps-business-process-flow.2-create-a-business-flow-app

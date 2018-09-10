@@ -9,7 +9,7 @@ levels:
 roles:
 - business-user
 products:
-- PowerApps
+- bizapps-power-apps
 prerequisites: This learning path assumes that you are familiar with PowerApps, Excel, and Microsoft Flow. 
 metadata:
   title: This learning path introduces you to creating a model-driven PowerApp that uses the Common Data Service for Apps, and models business processes.

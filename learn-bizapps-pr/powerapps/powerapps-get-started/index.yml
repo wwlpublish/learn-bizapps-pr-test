@@ -18,8 +18,8 @@ levels:
 roles: 
 - business-user
 products: 
-- powerApps
-- d365
+- bizapps-power-apps
+- bizapps-d365
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction
 - learn-bizapps.powerapps-get-started.2-powerapps-building-blocks

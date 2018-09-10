@@ -14,8 +14,8 @@ levels:
 roles:  
 - business-user 
 products:  
-- Flow 
-- d365
+- bizapps-flow 
+- bizapps-d365
 units: 
 - learn-bizapps.flow-get-started.1-flow-introduction
 - learn-bizapps.flow-get-started.2-flow-create-first
