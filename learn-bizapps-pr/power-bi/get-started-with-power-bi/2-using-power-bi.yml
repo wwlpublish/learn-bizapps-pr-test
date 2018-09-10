@@ -3,7 +3,12 @@ uid: learn.get-started-with-power-bi.2-using-power-bi
 metadata:
   title: Using Power BI
   description: Using Power BI
-  displayType: one-column
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
 title: Using Power BI
 durationInMinutes: 10
 content: |

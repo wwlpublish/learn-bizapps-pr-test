@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.flow-get-started 
+metadata: 
+  title: Get started with Microsoft Flow 
+  description: Learn how to create an approval request for a SharePoint list.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+title: Get started with Microsoft Flow 
+summary: This module teaches you the basics of creating an approval flow.
+#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
+abstract: This module teaches you how to create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
+prerequisites: None
+#TODO: Update with real image.
+iconUrl: http://via.placeholder.com/120x120 
+levels:  
+- beginner 
+roles:  
+- business-user 
+products:  
+<<<<<<< HEAD:learn-bizapps-pr/flow/flow-get-started/index.yml
+- bizapps-flow 
+- bizapps-d365
+=======
+- bizapps
+- bizapps-d365
+- bizapps-flow
+>>>>>>> master:learn-bizapps-pr/flow/get-started-with-flow/index.yml
+units: 
+- learn-bizapps.flow-get-started.1-flow-introduction
+- learn-bizapps.flow-get-started.2-flow-create-first
+- learn-bizapps.flow-get-started.3-flow-mobile-app
+- learn-bizapps.flow-get-started.4-quiz-flow-get-started
+achievement: learn.flow-get-started.badge

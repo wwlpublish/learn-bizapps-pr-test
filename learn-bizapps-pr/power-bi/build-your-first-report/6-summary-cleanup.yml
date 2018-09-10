@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.build-your-first-report.6-summary-cleanup
+metadata:
+  title: Summary and cleanup
+  description: Summary and cleanup
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+title: Summary and cleanup
+durationInMinutes: 5
+content: |
+ [!include[](includes/6-summary-cleanup.md)]

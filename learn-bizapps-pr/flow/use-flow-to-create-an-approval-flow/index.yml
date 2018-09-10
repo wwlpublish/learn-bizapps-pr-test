@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.flow-create-approval 
+metadata: 
+  title: Create an approval flow 
+  description: Learn how to create an approval request for a SharePoint list.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+title: Create an approval flow 
+summary: This module teaches you the basics of creating an approval flow. 
+#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
+abstract:  This module teaches you how to create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted. 
+prerequisites: None
+#TODO: Update with real image.
+iconUrl: http://via.placeholder.com/120x120 
+levels: 
+- beginner 
+roles: 
+- business-user 
+products:  
+<<<<<<< HEAD:learn-bizapps-pr/flow/flow-approvals/index.yml
+- bizapps-flow
+- bizapps-d365
+=======
+- bizapps
+- bizapps-d365
+- bizapps-flow
+>>>>>>> master:learn-bizapps-pr/flow/use-flow-to-create-an-approval-flow/index.yml
+units: 
+- learn-bizapps.flow-create-approval.1-create-approval-request
+- learn-bizapps.flow-create-approval.2-process-approval-request
+- learn-bizapps.flow-create-approval.3-flow-review
+- learn-bizapps.flow-create-approval.4-quiz-flow-approval
+achievement: learn.flow-create-approval.badge
