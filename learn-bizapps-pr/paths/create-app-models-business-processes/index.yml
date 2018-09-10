@@ -1,0 +1,21 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.create-app-models-business-processes
+title: Create a model-driven application that models business processes
+summary: This learning path introduces you to creating a model-driven PowerApp that uses the Common Data Service for Apps, and models business processes. 
+cardDescription: Create a model-driven application that models business processes
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- advanced
+roles:
+- business-user
+products:
+- PowerApps
+prerequisites: This learning path assumes that you are familiar with PowerApps, Excel, and Microsoft Flow. 
+metadata:
+  title: This learning path introduces you to creating a model-driven PowerApp that uses the Common Data Service for Apps, and models business processes.
+  description: This learning path introduces you to creating a model-driven PowerApp that uses the Common Data Service for Apps, and models business processes.
+modules:
+- learn-bizapps.powerapp-design-model-driven-apps
+- learn-bizapps.power-common-data-service
+- learn-bizapps.flow-create-approval
+achievement: learn.create-app-models-business-processes.trophy

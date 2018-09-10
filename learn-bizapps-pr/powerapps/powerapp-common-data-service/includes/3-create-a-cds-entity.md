@@ -16,7 +16,7 @@ Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=l
 
 1. On the left navigation pane expand **Data**, click **Entities**, and then click **New entity**.
     > [!div class="mx-imgBorder"] 
-    > ![New entity](media/create-new-entity.png)
+    > ![New entity](../media/create-new-entity.png)
 2. Enter the following values:
   - **Display name**: *Pet* 
   - **Description**: *Custom entity to track pet services*
@@ -31,7 +31,7 @@ Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=l
   -	Select **Searchable**  
   
     > [!div class="mx-imgBorder"] 
-    > ![Change primary field](media/primary-field.png)
+    > ![Change primary field](../media/primary-field.png)
 3. Select **Done**.
 4. On the **Fields** tab on the entity designer toolbar select **Add field**. On the **Field properties** pane, enter or select the following values and options.
   - **Display name**. *Species*
@@ -50,7 +50,7 @@ Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=l
   e. Select **Save**. 
 
   > [!div class="mx-imgBorder"] 
-  > ![New option set](media/optionset-add-items.png)
+  > ![New option set](../media/optionset-add-items.png)
 
 6. Select **Searchable**, and then select **Done**.
 
@@ -76,7 +76,7 @@ Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=l
 
   Notice that when you add a many-to-one relationship, an **Account** field with the data type **Lookup** is automatically added to your list of fields on the **Fields** tab.
   > [!div class="mx-imgBorder"]
-  > ![Account lookup field](media/account-lookup-field.png)
+  > ![Account lookup field](../media/account-lookup-field.png)
 
 ## Customize a view
 
@@ -89,7 +89,7 @@ Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=l
 3. Select the **Created On** column, select **Remove**, and then select **OK** to confirm the column removal.
 4. To arrange the columns, select the column you want to move and then use the <- and -> arrow buttons until your view looks like this.
     > [!div class="mx-imgBorder"] 
-    > ![Active pets view](media/active-pets-view.png)
+    > ![Active pets view](../media/active-pets-view.png)
 5. On the view designer toolbar, select **Save and Close**.  
 
 ## Customize the main form
@@ -98,10 +98,10 @@ Sign in to [PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=l
 2. On the left navigation pane, expand **Data**, select **Entities**, and then select **Pet**.
 3. Select the **Forms** tab, and then select **Information** next to the **Main** form type to open the form editor.
     > [!div class="mx-imgBorder"] 
-    > ![Edit main form](media/main-form-edit.png)
+    > ![Edit main form](../media/main-form-edit.png)
 4. On the form editor, drag and drop the **Species**, **Breed**, **Appointment date**, and **Account** fields located on the Field Explorer pane on to the General section of the form canvas until the form looks like this.
     > [!div class="mx-imgBorder"] 
-    > ![Select fields for main form](media/main-form-edit2.png) 
+    > ![Select fields for main form](../media/main-form-edit2.png) 
 5. Select **Save**.
 6. Select **Publish**.
 7. Select **Save and close** to close the form designer.
