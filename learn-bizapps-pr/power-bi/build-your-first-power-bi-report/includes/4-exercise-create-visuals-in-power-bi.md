@@ -24,7 +24,7 @@ Notice that in the **Visualizations** pane, I can select different types of visu
 
 ![The first visual](../media/pbid-visuals_04.png)
 
-Let’s fast-forward a bit, and see what the **Report** view looks like after a handful of visualizations have been added, as well as a few new Report pages. For more information about reports, see [Report View in Power BI Desktop](desktop-report-view.md).
+Let’s fast-forward a bit, and see what the **Report** view looks like after a handful of visualizations have been added, as well as a few new Report pages. For more information about reports, see [Report View in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-report-view).
 
 The first Report page provides a perspective of the data based on *Overall rank*. When we select one of the visualizations, the **Fields and Filters** pane shows which fields are selected, and the structure of the visualization (which fields are applied to the **Shared Axis**, **Column Values**, and **Line Values**).
 

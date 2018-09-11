@@ -35,7 +35,7 @@ We need to make a few more changes to get the query where we want it:
 
 * *Change the Table Name* – that **Table 0** is not a useful descriptor, but changing it simple
 
-Each of these steps is demonstrated in **[Shape and Combine Data in Power BI Desktop](desktop-shape-and-combine-data.md)**. Feel free to check out that page, or keep going in this document to see what you would do next. The next section picks up after the changes above are applied.
+Each of these steps is demonstrated in **[Shape and Combine Data in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**. Feel free to check out that page, or keep going in this document to see what you would do next. The next section picks up after the changes above are applied.
 
 ## Combine data
 That data about various states is interesting, and will be useful for building additional analysis efforts and queries. But there’s one problem: most data out there uses a two-letter abbreviation for state codes, not the full name of the state. We need some way to associate state names with their abbreviations.
@@ -48,7 +48,7 @@ From the **Home** ribbon in **Query Editor**, we select **Get Data > Web** and t
 
 ![US State abbreviations](../media/pbid-clean-xform_04.png)
 
-We select **Table[edit]** because it includes the data we want, but it’s going to take quite a bit of shaping to pare that table’s data down. Each of these steps is also demonstrated in **[Shape and Combine Data in Power BI Desktop](desktop-shape-and-combine-data.md)**. To summarize those steps, here's what we do:
+We select **Table[edit]** because it includes the data we want, but it’s going to take quite a bit of shaping to pare that table’s data down. Each of these steps is also demonstrated in **[Shape and Combine Data in Power BI Desktop](https://docs.microsoft.com/en-us/power-bi/desktop-shape-and-combine-data)**. To summarize those steps, here's what we do:
 
 We select **Edit**, then:
 
