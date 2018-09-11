@@ -23,6 +23,6 @@ products:
 - bizapps
 - bizapps-flow
 modules:
-- learn-bizapps.flow-create-approval
 - learn-bizapps.flow-get-started
+- learn-bizapps.flow-create-approval
 achievement: learn.automate-process-using-flow.trophy

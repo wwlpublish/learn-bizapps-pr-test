@@ -45,7 +45,7 @@ The **Power BI** service displays the first page of the report. Along the bottom
 
 You can make changes to a report in the **Power BI** service by selecting **Edit Report** from the top of the report canvas.
 
-To save your report, select **File > Save As** from the service. There are all sorts of interesting visuals you can create in the **Power BI** service from your report, which you can pin to a *dashboard*. To learn about dashboards in the **Power BI** service<strong>[, see Tips for designing a great dashboard](service-dashboards-design-tips.md)</strong>.
+To save your report, select **File > Save As** from the service. There are all sorts of interesting visuals you can create in the **Power BI** service from your report, which you can pin to a *dashboard*. To learn about dashboards in the **Power BI** service<strong>[, see Tips for designing a great dashboard](https://docs.microsoft.com/en-us/power-bi/service-dashboards-design-tips)</strong>.
 
 ![Save a copy of the report](../media/pbid-share_10.png)
 
@@ -57,6 +57,6 @@ From here, you can send an email to colleagues with whom you’d like to share t
 
 ![Email your published report](../media/pbid-share_12.png)
 
-For more information about creating, sharing, and modifying dashboards, see [Share a dashboard](service-share-dashboards.md).
+For more information about creating, sharing, and modifying dashboards, see [Share a dashboard](https://docs.microsoft.com/en-us/power-bi/service-share-dashboards).
 
 There are all sorts of compelling data-related mash-ups and visualizations you can do with Power BI Desktop, and with the Power BI service. Check out the next section for more information.
