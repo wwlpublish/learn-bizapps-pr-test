@@ -43,7 +43,7 @@ You're asked to provide credentials for the Microsoft Office 365 Outlook and Mic
 
     ![Flow successful](../media/flow-successful.png)
 
-    In this cae, all parts of the flow were successful. 
+    In this case, all parts of the flow were successful. 
 
     ![Run history](../media/run-history.png)
 
