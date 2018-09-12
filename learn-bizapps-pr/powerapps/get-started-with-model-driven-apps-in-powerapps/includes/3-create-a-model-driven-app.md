@@ -11,7 +11,7 @@ In this unit, you'll create a model-driven app by using one of the standard enti
     > [!IMPORTANT]
     > If the **Model-driven** design mode isn't available, you might need to [create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
-1. In the left pane, select **Apps**, and then select **Create an app**.
+1. In the left pane, select **Apps**, then select **Create an app**.
 1. On the **Create a New App** page, enter a name and description for the app.
 1. Select **Done**. Your new app appears in the App Designer, and you can now add components to it.
 

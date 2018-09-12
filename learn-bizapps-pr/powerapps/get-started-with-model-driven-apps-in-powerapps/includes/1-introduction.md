@@ -8,10 +8,10 @@ Here are some of the benefits of model-driven apps:
 
 - Create rich, component-focused environments.
 - No code (or very little) is needed. 
-- Create complex responsive apps that look great on a variety of devices, while developing them in one environment.
+- Create complex responsive apps that look great on a variety of devices while developing them in one environment.
 - Design capabilities are similar to what's available in the Microsoft Dynamics 365 Customer Engagement platform.
 - Your app can be distributed as a solution.
- 
+
 ## The approach to making model-driven apps
 Model-driven apps have three design phases:
 
@@ -20,10 +20,10 @@ Model-driven apps have three design phases:
 1. Build the app.
 
 ### Model your business data
-Model-driven design uses a metadata-driven architecture so that designers can customize the app without writing code. To model business data, you determine what data the app will need and how that data will relate to other data. Metadata means "data about data," and it defines the structure of the data stored in Common Data Service for Apps.
+Model-driven design uses metadata-driven architecture so that designers can customize apps without writing code. To model business data, you determine what data the app will need and how that data will relate to other data. Metadata means "data about data," and it defines the structure of the data stored in Common Data Service for Apps.
 
 ### Define your business processes
-Defining and enforcing consistent business processes is a key aspect of model-driven app design. Consistent processes help ensure that your app users can focus on their work, not on remembering to perform a set of manual steps. Processes can be simple or complex, and they often change over time.
+Defining and enforcing consistent business processes is a key aspect of model-driven app design. Consistent processes help ensure that your app users can focus on their work and not worry about having to remember to perform a set of manual steps. Processes can be simple or complex, and they often change over time.
 
 ### Build the app
 After modeling data and defining processes, you build your app by selecting and setting up the components you need in the App Designer.
