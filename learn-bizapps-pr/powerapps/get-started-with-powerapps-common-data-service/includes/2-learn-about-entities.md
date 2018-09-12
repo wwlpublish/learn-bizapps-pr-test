@@ -1,13 +1,13 @@
 Common Data Service for Apps is designed so that you can quickly and easily create a data model for your application based on the entities, and the entity metadata that you include in your app. 
 
-Entities describe the kinds of data that is stored in the CDS for Apps database. Each entity corresponds to a database table and each field (also known as an attribute) within an entity represents a column in that table. 
+Entities describe the kinds of data that is stored in the Common Data Service for Apps database. Each entity corresponds to a database table and each field (also known as an attribute) within an entity represents a column in that table. 
 
-In CDS for apps, metadata (data about data), is a collection of entities. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. When you use customization tools to create or edit entities, fields, and entity relationships, you are editing this metadata.
+In Common Data Service for Apps, metadata (data about data), is a collection of entities. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. When you use customization tools to create or edit entities, fields, and entity relationships, you are editing this metadata.
 
 The apps that your customers use to interact with the data in your environment depend on the entity metadata and adapt as you customize the metadata. 
 
 ## When to use standard entities, and when to create new entities
-CDS for Apps comes with a number of standard entities that support core business application capabilities. Each entity also contains a number of metadata fields that represent common data that the system needs to store for that entity. We recommend that you become very familiar with the catalog of standard entities, and use them where possible, because any applications written with standard entities will work as you expect in your environment without additional effort.
+Common Data Service for Apps comes with a number of standard entities that support core business application capabilities. Each entity also contains a number of metadata fields that represent common data that the system needs to store for that entity. We recommend that you become very familiar with the catalog of standard entities, and use them where possible, because any applications written with standard entities will work as you expect in your environment without additional effort.
 
 You may not need to create a custom entity for minor changes: 
 
@@ -31,10 +31,10 @@ Beyond defining how records can be related to other records, 1:N entity relation
 - How should people viewing a record be able to view the associated records?
 
 ## Entity types
-Before creating or editing entities in CDS for Apps, you should understand the different types of entities that you can create. After a custom entity is created, the entity type can't be changed. 
+Before creating or editing entities in Common Data Service for Apps, you should understand the different types of entities that you can create. After a custom entity is created, the entity type can't be changed. 
 
 ### Types of entity owners
- When you create a custom entity, the options for ownership are *User or team owner*, or *Organization-owned*. After an entity is created, you can’t change the ownership. 
+ When you create a custom entity, the options for ownership are *User or team owned*, or *Organization-owned*. After an entity is created, you can’t change the ownership. 
 
 - **User or team owned** Actions that can be performed on these records can be controlled on a user level.
 - **Organization-owned** Access to the data is controlled at the organization level.
