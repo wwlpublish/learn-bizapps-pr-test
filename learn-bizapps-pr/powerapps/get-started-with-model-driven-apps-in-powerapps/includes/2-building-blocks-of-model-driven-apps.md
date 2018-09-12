@@ -8,10 +8,10 @@ The data components determine what data the app will be based upon.
 | Entity           | Entities are items with properties that you track. Examples include contacts and accounts. Many standard entities are available. You can customize a non-system standard entity (or production entity). You can also create a custom entity from scratch. | Entity designer |
 | Field            | Fields are properties that are associated with an entity and help define that entity. A field is defined by a data type, which determines the type of data that can be entered or selected. Examples of data types include text, number, date and time, currency, and lookup (which creates a relationship with another entity). Fields are typically used with forms, views, and searches. | Entity designer |
 | Relationship     | Relationships define how entities can be related to each other. There are 1:N (one-to-many), N:1 (many-to-one), and N:N (many-to-many) relationships. For example, adding a lookup field to an entity creates a new 1:N relationship between the two entities and lets you add that lookup field to a form. | Entity designer |
-| Option set field | This type of field shows a control that lets the user select among predefined options. Each option has a number value and a label. Option set fields can require either a single value or multiple values. | Entity designer|
+| Option set field | This type of field shows a control that lets the user select among predefined options. Each option has a number value and a label. Option set fields can require either a single value or multiple values. | Entity designer |
 
 ## User interface
-The user interface components determine how users interact with the app. 
+The user interface components determine how users will interact with the app. 
 
 | Component | Description | Designer |
 |-----------|-------------|----------|
@@ -31,7 +31,7 @@ The logic components determine what business processes, rules, and automation th
 | Workflow              | Workflows automate business processes without a user interface. Designers use workflows to initiate automation that doesn't require any user interaction. | Workflow designer |
 | Actions               | Actions are a type of process that lets you manually invoke actions, including custom actions, directly from a workflow. | Process designer |
 | Business rule         | Business rules apply rules or recommendation logic to a form to set field requirements, hide fields, validate data, and more. App designers use a simple interface to implement and maintain fast-changing and commonly used rules. | Business rule designer |
-| Flow                  | Microsoft Flow is a cloud-based service that lets you create automated workflows between apps and services to get notifications, synchronize files, collect data, and more. | Microsoft Flow |
+| Flow                  | Microsoft Flow is a cloud-based service that lets you create automated workflows between apps and services to get notifications, sync files, collect data, and more. | Microsoft Flow |
 
 ![Workflow, action, and business process flow designers](../media/designer-mash.png)
 
@@ -40,13 +40,13 @@ The visualization components determine what type of data and reporting the app w
 
 | Component                   | Description | Designer |
 |-----------------------------|-------------|----------|
-|Chart                        | Charts are individual graphical visualizations that can appear in a view or a form, or that can be added to a dashboard. | Chart designer |
-|Dashboard                    | Dashboards show one or more graphical visualizations that provide an overview of actionable business data. | Dashboard designer |
+| Chart                       | Charts are individual graphical visualizations that can appear in a view or a form, or that can be added to a dashboard. | Chart designer |
+| Dashboard                   | Dashboards show one or more graphical visualizations that provide an overview of actionable business data. | Dashboard designer |
 | Embedded Microsoft Power BI | Power BI adds embedded Power BI tiles and dashboards to your app. Power BI is a cloud-based service that provides business intelligence (BI) insight. | A combination of chart designer, dashboard designer, and Power BI |
 
 ![Sample dashboard](../media/dashboard-designer.png)
 
 ## Advanced model-driven apps
-Solution Explorer is used for making advanced model-driven apps. By using the navigation pane on the left side of the tool, you can navigate a hierarchy that consists of all app components.
+Solution Explorer is used to make advanced model-driven apps. By using the navigation pane on the left side of the tool, you can navigate a hierarchy that consists of all app components.
 
 ![Solution Explorer](../media/solutionexplorer-entitiescollapsed.png)
