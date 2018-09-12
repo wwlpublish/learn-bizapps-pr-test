@@ -1,10 +1,10 @@
-With Power BI Desktop installed, you’re ready to connect to the ever expanding world of data. There are *all sorts* of data sources available in the Power Query window. The following image shows how to connect to data, by selecting the **Home** ribbon, then **Get Data \> More**.
+With Power BI Desktop installed, you’re ready to connect to the ever expanding world of data. There are *all sorts* of data sources available in the Power Query window. The following image shows how to connect to data, by selecting the **Home** ribbon, then **Get Data > More**.
 
 ![Get data](../media/TC-DesktopIntro.gif)
 
 For this unit, we'll connect to a couple different **Web** data sources.
 
-Imagine you’re retiring – you want to live where there’s lots of sunshine, preferable taxes, and good health care – or perhaps you’re a data analyst, and you want that information to help your customers. For example, perhaps you want to help your sunglasses retailer target sales where the sun shines most frequently.
+Imagine you’re retiring – you want to live where there’s lots of sunshine, preferable taxes, and good health care – or perhaps you’re a data analyst, and you want that information to help your customers. For example, maybe you want to help your sunglasses retailer target sales where the sun shines most frequently.
 
 Either way, the following Web resource has interesting data about those topics, and more:
 

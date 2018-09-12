@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
 title: Clean and transform data with Power Query editor
-durationInMinutes: 10
+durationInMinutes: 20
 content: |
  [!include[](includes/3-clean-and-transform-data-with-power-query-editor.md)]

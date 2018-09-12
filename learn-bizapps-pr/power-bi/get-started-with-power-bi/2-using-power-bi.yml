@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
 title: Using Power BI
-durationInMinutes: 10
+durationInMinutes: 4
 content: |
  [!include[](includes/2-using-power-bi.md)]
