@@ -45,6 +45,6 @@ quiz:
       incorrectExplanation: App users can open shared apps regardless of the environment in which the apps were created.
       isCorrect: false
     - content: App designers.
-      incorrectExplanation: App designers don't need to know about environments.
-      isCorrect: false
+      incorrectExplanation: App designers need to select the correct environment for their apps.
+      isCorrect: true
       
