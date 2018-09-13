@@ -16,7 +16,7 @@ If you're new to Microsoft PowerApps, you might have only the default environmen
 There are several reasons to create environments beyond the default one:
 
 - **Separate app development by department**: In a large organization, each department can work in a different environment. That way, department employees see only apps and company data that are appropriate to their needs.
-- **Support application lifecycle management (ALM)**: Separate environments let you separate apps that are in development stages from those that have already been shared. Or maybe you want a trial environment so that you can gain feedback from employees before rolling out the final app. For some organizations, showing apps before they're completely developed and published can present security concerns.
+- **Support application lifecycle management (ALM)**: Separate environments let you separate apps that are in development stages from those that have already been shared. Or you might want to use a trial environment so that you can gain feedback from employees before rolling out the final app. For some organizations, showing apps before they're completely developed and published can present security concerns.
 - **Manage data access**: Each environment can have its own source of business data, called a  database for Common Data Service for Apps. Other data connections are specific to an environment and can't be shared across environments.
 
 > [!NOTE]
@@ -47,7 +47,7 @@ Admins can create other security roles as needed and, as this procedure describe
 
 1. Near the left edge, select **Environments**.
 2. Select an environment, and then select **Manage security for this instance.**
-3. In the search box near the upper-right corner, type or paste the email address of the person to which you want to grant access.
+3. In the search box near the upper-right corner, type or paste the email address of the person you want to grant access to.
 4. Hover over the result that you want, select its check box, and then select **Manage roles**.
 5. In the **Manage User Roles** box, select the types of roles for the user. In this example, the user has been assigned to the Environment Maker role.
 

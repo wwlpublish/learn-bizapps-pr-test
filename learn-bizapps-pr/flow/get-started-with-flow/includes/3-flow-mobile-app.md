@@ -1,4 +1,4 @@
-Of course we have an app! The Microsoft Flow mobile app. From this app, you can access these features:
+Of course we have an app -- the Microsoft Flow mobile app! From this app, you can access these features:
 
 - Activity Feed
 - Browsing
@@ -20,7 +20,7 @@ For example, you'll see the flow's last activity, as shown here. You can see whe
 If you select this flow, you'll see that it succeeded in both steps. 
 
 ## How flows are started
-Buttons are flows that are started through a manual action. For example, you can create a button to send a "Working from home today" email to your manager. If you live far from your workplace, you can then use this button on days when the traffic is a mess!
+Buttons are flows that are started through a manual action. For example, you can create a button to send a *Working from home today* email to your manager. If you live far from your workplace, you can then use this button on days when the traffic is a mess!
 
 - Select **Buttons** to use some of these flows.
 

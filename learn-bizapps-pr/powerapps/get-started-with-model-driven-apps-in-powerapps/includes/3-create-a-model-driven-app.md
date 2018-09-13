@@ -11,7 +11,7 @@ In this unit, you'll create a model-driven app by using one of the standard enti
     > [!IMPORTANT]
     > If the **Model-driven** design mode isn't available, you might need to [create an environment](https://docs.microsoft.com/powerapps/administrator/create-environment).
 
-1. In the left pane, select **Apps**, and then select **Create an app**.
+1. In the left pane, select **Apps**, then select **Create an app**.
 1. On the **Create a New App** page, enter a name and description for the app.
 1. Select **Done**. Your new app appears in the App Designer, and you can now add components to it.
 
@@ -22,7 +22,7 @@ You add components to your app by using the App Designer.
 
     ![Create a new site map](../media/new-sitemap.png)
 
-2. In the site map designer, select **New Subarea**, and then, in the right pane, on the **Properties** tab, select the following properties:
+2. In the site map designer, select **New Subarea**, and then, in the right pane on the **Properties** tab, select the following properties:
 
     - **Type**: Entity
     - **Entity**: Account
@@ -30,17 +30,17 @@ You add components to your app by using the App Designer.
     ![Add components to the site map](../media/sitemap.png)
 
 3. Select **Save And Close**.
-4. In the App Designer, select **Forms**, and then, in the right pane, under **Main Forms**, select the **Account** form.
+4. In the App Designer, select **Forms**, and then, in the right pane under **Main Forms**, select the **Account** form.
 
     ![Account main form](../media/main-form.png)
 
-5. In the App Designer, select **Views**, and then select the following properties:
+5. In the App Designer, select **Views**, then select the following properties:
 
     - Active Accounts
     - All Accounts
     - My Active Accounts
 
-6. In the App Designer, select **Charts**, and then select the **Accounts by Industry** chart.
+6. In the App Designer, select **Charts**, then select the **Accounts by Industry** chart.
 7. On the App Designer toolbar, select **Save**.
 
 <!-- ##  Validate your app

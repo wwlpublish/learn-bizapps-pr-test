@@ -19,11 +19,10 @@ To play around with or edit model-driven sample apps, you must first set up the 
 
     ![Select the design mode](../media/choose-design-mode.png)
 
-2. On the home page, hover over a sample app, and select **Customize**.
+2. On the home page, hover over a sample app, such as *Fundraiser* and select **Customize**.
 
     The App Designer opens, providing multiple options for customizing the app.
 
-3. For more customization options, select **Advanced** in the left pane.
 
 ## Remove sample apps and data 
 Keep these points in mind when removing samples apps and data:
@@ -40,12 +39,12 @@ To remove sample apps and data, follow these steps.
 
     ![Dynamics 365 Administration Center](../media/admin-center.png)
 
-4. Select your database in the list, and then select **Open**.
+4. Select your database in the list, then select **Open**.
 
     ![Select a database](../media/select-database.png)
 
 5. Go to **Settings \> Solutions**.
-6. Select the solution for the app that must be deleted, and then select **Delete**.
+6. Select the solution for the app that must be deleted, then select **Delete**.
 
     ![Delete a solution](../media/delete-solution.png)
 
@@ -61,7 +60,7 @@ You can also go to the list of solutions by selecting **Advanced** in the maker 
 
     ![Dynamics 365 Administration Center](../media/admin-center.png)
 
-1. Select your database in the list, and then select **Open**.
+1. Select your database in the list, then select **Open**.
 
     ![Select a database](../media/select-database.png)
 

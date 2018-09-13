@@ -14,7 +14,7 @@ summary: Manage app versions, app sharing, and environments in PowerApps.
 abstract: |
   In this module, you will: 
   - Learn how to review and restore app versions.
-  - Explore how to share an app, including permissions and notification.
+  - Explore how to share an app, including permissions and notifications.
   - Understand what environments are, how to create them, and how to manage security.
   - Find more information about PowerApps.
 prerequisites: None

@@ -64,11 +64,11 @@ Tasks to complete for this scenario:
 
 1. Go to **Service** &gt; **Cases**.
 1. Select **New Case**.
-1. For **Case title**, enter "Network Backup Failed".
-1. For **Customer**, enter "Coho Consulting".
-1. For **Contact**, enter "Wendy Smith".
-1. For **Origin**, enter "Phone".
-1. For **Priority**, enter "High".
+1. For **Case title**, enter *Network Backup Failed*.
+1. For **Customer**, enter *Coho Consulting*.
+1. For **Contact**, enter *Wendy Smith*.
+1. For **Origin**, enter *Phone*.
+1. For **Priority**, enter *High*.
 1. Select **Save**.
 
 ### Scenario two: Create a case
@@ -82,30 +82,30 @@ Tasks to complete for this scenario:
 
 1. Add a task to the case for an incoming phone call activity from Wendy Smith.
 2. Add a task to the case to be performed by the agent.
-3. Add an outgoing phone call activity to Wendy Smith task named "Inform Wendy of Resolution".
+3. Add an outgoing phone call activity to the task named *Inform Wendy of Resolution*.
 
 **Task one**: Add a task to the case for an incoming phone call activity from Wendy Smith.
 
 1. Find **Activities**.
 1. Select **Add Phone Call**.
 1. Set the duration to 15 minutes.
-1. Add the following note: "Initial call from Wendy to report the discovery of a failed backup."
+1. Add the following note: *Initial call from Wendy to report the discovery of a failed backup*.
 1. Select **OK**.
 
 **Task two**: Add a task to the case to be performed by the agent.
 
-1. Find **Activities**.
+1. On the **Activities** tab, click the ellipses (**...**).
 1. Select **Task**. 
-1. Set the duration to 20 minutes.
-1. Add the following note: "Because it was a holiday, the previous back-up media wasn't replaced. The backup won't overwrite media that was written to in the last 48 hours."
+1. Set the duration to 30 minutes.
+1. Add the following note: *Because it was a holiday, the previous backup media wasn't replaced. The backup won't overwrite media that was written to in the last 48 hours*.
 1. Select **OK**. 
 
-**Task three**: Add an outgoing phone call activity to Wendy Smith task named "Inform Wendy of Resolution".
+**Task three**: Add an outgoing phone call activity to the task named *Inform Wendy of Resolution*.
 
 1. Find **Activities**.
 1. Select **Add Phone Call**.
 1. Set the duration to 15 minutes.
-1. Add the following note: "Called Wendy to inform her of the resolution."
+1. Add the following note: *Called Wendy to inform her of the resolution*.
 1. Select **OK**. 
 
 ### Scenario three: Resolve a case
@@ -169,8 +169,8 @@ Create routing rules that route cases to the appropriate queues, based on the se
 1. Select **Rule Case Routing**.
 1. Select **Save**. 
 1. In the **Rule Items** section, select **Add Rule** to specify conditions for routing cases to a queue. 
-1. In the **Rule Item** form, type a descriptive name for the rule item. For example, type "Gold".
-1. Under **Rule Criteria**, in the **If Conditions** section, specify the conditions that the case will be routed under. For example, specify "Case – Service Level – Equals - Gold".
+1. In the **Rule Item** form, type a descriptive name for the rule item. For example, type *Gold*.
+1. Under **Rule Criteria**, in the **If Conditions** section, specify the conditions that the case will be routed under. For example, specify *Case – Service Level – Equals - Gold*.
 1. Under **Then Conditions**, specify the queue to route the case to. For example, select the **Gold** queue.
 1. Select **Save** and then **Close**.
 1. Repeat steps 6 through 10 for each additional queue you need to route items to.
@@ -192,11 +192,11 @@ Tasks to complete for this scenario:
 
 1. Go to **Service**, and then select **Cases**.
 1. Select **New Case**. 
-1. For **Case title**, enter "Printer Issue".
-1. For **Customer**, enter "Coho Consulting".
-1. For **Contact**, enter "Wendy Smith".
-1. For **Origin**, enter "Phone".
-1. For **Service Level**, enter "Gold".
+1. For **Case title**, enter *Printer Issue*.
+1. For **Customer**, enter *Coho Consulting*.
+1. For **Contact**, enter *Wendy Smith*.
+1. For **Origin**, enter *Phone*.
+1. For **Service Level**, enter *Gold*.
 1. Select **Save**.
 
 **Task two**: Route the case to the Gold queue.

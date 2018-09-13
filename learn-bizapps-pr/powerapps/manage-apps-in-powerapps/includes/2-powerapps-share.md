@@ -12,7 +12,7 @@ Even better, you can give someone permission to update the app.
 
     You must save an app to the cloud before you can share it.
 
-1. Select **Save**, and then elect **Share this app**.
+1. Select **Save**, and then select **Share this app**.
 
 1. On the **Share** tab, specify the users or groups with whom you want to share the app. To add everyone in your organization, select the **Add everyone in my org** button.
 

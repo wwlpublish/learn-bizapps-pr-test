@@ -1,4 +1,4 @@
-Customer service is key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers.
+Customer service is a key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers.
 
 ![Customer engagement case flow](../media/customer-engagement.jpg)
 
@@ -12,14 +12,14 @@ To help you better understand the context of customer service, let's review some
 
 Rob, the Mountain Bikes Support Specialist for Contoso Bicycles, receives the issue through Customer Service. He then works with Paul to schedule a service activity to repair or replace the defective suspension.
 
-**Receiving and answering customer questions**: Jim Glynn is a customer of Fabrikam Furniture. He recently received a table that he bought through the Fabrikam website. Although Jim tries to assemble the table, he isn't sure he's doing it correctly. Therefore, he contacts Fabrikam Furniture to ask questions and get help with his table. 
+**Receiving and answering customer questions**: Jim Glynn is a customer of Fabrikam Furniture. He recently received a table that he bought through the Fabrikam website. Jim tries to assemble the table, but he isn't sure he's doing it correctly. He contacts Fabrikam Furniture to ask questions and get help with his table. 
 
 Sidney, a Customer Support Specialist at Fabrikam Furniture, receives Jim's questions. He uses the Knowledge Base in Customer Service to find a frequently asked questions (FAQ) document for the table. He then uses that document to help answer Jim's questions.
 
-**Collecting and applying customer feedback**: Maria is the Products Manager for Tables and Chairs at Fabrikam Furniture. She wants to collect feedback about the at-home assembly process when customers contact Fabrikam. She uses the case management functionality of Customer Service to capture this feedback. She can also analyze the tables and chairs that cause more issues during at-home assembly, and those that are easier to assemble. Additionally, Maria can determine which instructions for at-home assembly of tables and chairs must be prioritized for editing and review.
+**Collecting and applying customer feedback**: Maria is the Products Manager for Tables and Chairs at Fabrikam Furniture. She wants to collect feedback about the at-home assembly process when customers contact Fabrikam. She uses the case management functionality of Customer Service to capture this feedback. She can also analyze the tables and chairs that cause the most issues during at-home assembly, and those that are easier to assemble. Additionally, Maria can determine which instructions for at-home assembly of tables and chairs must be prioritized for editing and review.
 
 ## Understanding today's customer
-Customers today are more informed than ever. Customers are used to having what they want, when they want it, the way they want it. 
+Customers today are more informed than ever. Customers are used to getting what they want, when they want it, the way they want it. 
  
 Think of the typical process of buying a TV:
 
@@ -45,7 +45,7 @@ There are many trends that are currently affecting how customer service works. A
 
     - Anomaly detection
     - Predictive maintenance
-    - Just using the data that's collected to help drive service offerings in the future
+    - Using the data that's collected to help drive service offerings in the future
 
 - **Customer engagement**: Engagement is more than just reaching out to gain customers opinions. It can include knowing these details:
 
