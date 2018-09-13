@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: llearn-bizapps.get-started-with-connected-field-service.4-process-telemetry
+title: Process telemetry
+metadata:
+  title: Process telemetry
+  description: Process telemetry.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+durationInMinutes: 15
+content: |
+  [!include[](includes/4-process-telemetry.md)]
