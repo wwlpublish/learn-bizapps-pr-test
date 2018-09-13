@@ -12,10 +12,10 @@ First, let's create the SharePoint list.
 1. Open the list, and select **Add column**.
 1. Select **+ Add column** to add the following columns:
 
-    - Add a **TweetContent** column, and set the column type to **Multiple lines of text**. This will contain the content of the tweets for later approval. Select **Save** after each column you create.
-    - Add a **TweetDate** column, and set the column type to **Date and Time**. Select **More** to find the **Date and Time** type.
-    - Add an **ApprovalStatus** column, set the column type to **Yes/No**. The approver can then select **Yes** or **No** to approve or reject the tweet.
-    - Add an **ApproverComments**, and set the column type to **Single line of text**. The approver can then add a comment about the approval status.
+    - Add a **TweetContent** column and set the column type to **Multiple lines of text**. This will contain the content of the tweets for later approval. Select **Save** after each column you create.
+    - Add a **TweetDate** column and set the column type to **Date and Time**. Select **More** to find the **Date and Time** type.
+    - Add an **ApprovalStatus** column and set the column type to **Yes/No**. The approver can then select **Yes** or **No** to approve or reject the tweet.
+    - Add an **ApproverComments** and set the column type to **Single line of text**. The approver can then add a comment about the approval status.
 
     ![Add columns](../media/new-columns.png)
 

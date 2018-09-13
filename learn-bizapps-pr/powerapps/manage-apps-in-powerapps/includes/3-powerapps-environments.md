@@ -2,7 +2,7 @@ An environment is a container for apps and other resources, such as data connect
 
 ![Environment picker](../media/powerapps-environments2.png)
 
-If you've followed along with this module so far, you've spent some time working in web.powerapps.com. Whether you knew it or not, you've been working in a specific environment the whole time.
+If you've followed along with this module so far, you've spent some time working in https://web.powerapps.com. Whether you knew it or not, you've been working in a specific environment the whole time.
 
 In the upper-right corner of the web.powerapps.com home page, you can see your current environment.
 
