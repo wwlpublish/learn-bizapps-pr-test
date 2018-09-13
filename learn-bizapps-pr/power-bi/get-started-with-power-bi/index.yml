@@ -2,7 +2,7 @@
 uid: learn-bizapps.get-started-with-power-bi
 metadata:
   title: Get started with Power BI
-  description: Power BI is a collection of software services and applications that let you connect to all sorts of different data sources, and create compelling visuals and reports. You can benefit from receiving those reports or share with others in or outside your organization. Learn the basics about Power BI, how its services and applications work together, and how they can be used to create or experience compelling visuals and analytics based on your data.
+  description: Power BI is a collection of software services and applications that let you connect to all sorts of data sources, and create compelling visuals and reports. You can benefit from receiving those reports, or you can share them with others inside or outside your organization. Learn the basics of Power BI, how its services and applications work together, and how they can be used to create or experience compelling visuals and analytics based on your data.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
@@ -12,7 +12,7 @@ metadata:
 title: Get started with Power BI
 summary: Learn what Power BI is, including its building blocks and how they work together.
 #TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
-abstract: Power BI is a collection of software services and applications that let you connect to all sorts of different data sources, and create compelling visuals and reports. You can benefit from receiving those reports or share with others in or outside your organization. Learn the basics about Power BI, how its services and applications work together, and how they can be used to create or experience compelling visuals and analytics based on your data.
+abstract: Power BI is a collection of software services and applications that let you connect to all sorts of data sources, and create compelling visuals and reports. You can benefit from receiving those reports, or you can share them with others inside or outside your organization. Learn the basics of Power BI, how its services and applications work together, and how they can be used to create or experience compelling visuals and analytics based on your data.
 prerequisites: None
 #TODO: Update with real image.
 iconUrl: http://via.placeholder.com/120x120
