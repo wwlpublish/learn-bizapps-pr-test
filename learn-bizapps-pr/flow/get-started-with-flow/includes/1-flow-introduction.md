@@ -83,8 +83,8 @@ On the home page, you'll find these menus:
 
 For now, let's focus on the **Learn** menu, which has these options:
 
-* **Guided Learning** can walk you through using Microsoft Flow, all the way from beginning techniques to advanced scenarios.
 * **Documentation** is where our advanced topics reside. If you want to really understand a feature or function, you can do a deep dive here to figure things out.
+* **Learn** has learning paths to guide you through using Microsoft Flow, all the way from beginning techniques to advanced scenarios.
 * **Support** is a great landing place to find help.
 * **Community** is a place to plug into and find out how other people use Microsoft Flow.
 * **Give Feedback** taps into a community of power users, and is where you can send comments and questions to developers and other experienced users.

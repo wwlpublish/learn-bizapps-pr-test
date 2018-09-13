@@ -40,8 +40,8 @@ The visualization components determine what type of data and reporting the app w
 
 | Component                   | Description | Designer |
 |-----------------------------|-------------|----------|
-| Chart                       | Charts are individual graphical visualizations that can appear in a view or a form or that can be added to a dashboard. | Chart designer |
-| Dashboard                   | Dashboards show one or more graphical visualizations that provide an overview of actionable business data. | Dashboard designer |
+|Chart                        | Charts are individual graphical visualizations that can appear in a view or a form or that can be added to a dashboard. | Chart designer |
+|Dashboard                    | Dashboards show one or more graphical visualizations that provide an overview of actionable business data. | Dashboard designer |
 | Embedded Microsoft Power BI | Power BI adds embedded Power BI tiles and dashboards to your app. Power BI is a cloud-based service that provides business intelligence (BI) insight. | A combination of chart designer, dashboard designer, and Power BI |
 
 ![Sample dashboard](../media/dashboard-designer.png)
