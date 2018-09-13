@@ -11,7 +11,7 @@ If you are building an app, you'll start here. You can build apps from sample ap
 ![The web.powerapps.com site](../media/powerapps-homepage5.png)
 
 ## PowerApps Studio
-PowerApps Studio is where you flesh out your apps to make them more effective as a business tool — and to make them more attractive. PowerApps Studio has three panes that make creating apps feel more like building a slide deck in Microsoft PowerPoint:
+PowerApps Studio is where you flesh out your apps to make them more effective as a business tool and to make them more attractive. PowerApps Studio has three panes that make creating apps feel more like building a slide deck in Microsoft PowerPoint:
 
 - Left pane, which shows a hierarchical view of all the controls on each screen or a thumbnail for each screen in your app.
 - Middle pane, which shows the app that you're working on.

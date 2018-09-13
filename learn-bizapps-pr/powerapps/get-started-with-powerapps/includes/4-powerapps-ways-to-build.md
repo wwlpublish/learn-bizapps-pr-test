@@ -4,7 +4,11 @@ Now that you know the basics, let's get to building an app in Microsoft PowerApp
 In this unit, we'll look at how to create an app from a sample app, a template, a shared app, or a data source. In the next unit, we'll get more hands-on with app creation.
 
 ### Check out some sample apps
+<<<<<<< HEAD
 On [https://web.powerapps.com](https://web.powerapps.com), you'll be greeted with several sample apps that you can use in your web browser. Explore these apps to quickly get a sense of what's possible and how PowerApps can help your business.
+=======
+On https://web.powerapps.com, you'll be greeted with several sample apps that you can use in your web browser. Explore these apps to quickly get a sense of what's possible and how PowerApps can help your business.
+>>>>>>> master
 
 ![PowerApps sample apps](../media/powerapps-samples.png)
 

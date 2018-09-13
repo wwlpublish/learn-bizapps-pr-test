@@ -4,9 +4,7 @@ Even better, you can give someone permission to update the app.
 
 ## Prepare to share an app
 
-1. In PowerApps Studio, select **App settings** on the **File** menu.
-
-1. Give the app a meaningful name and description so that your team knows what your app does and can easily find it in a list.
+1. In PowerApps Studio, select **App settings** on the **File** menu. Give the app a meaningful name and description so that your team knows what your app does and can easily find it in a list.
 
 1. On the **File** menu, select **Save as**, and then select **The cloud**.
 

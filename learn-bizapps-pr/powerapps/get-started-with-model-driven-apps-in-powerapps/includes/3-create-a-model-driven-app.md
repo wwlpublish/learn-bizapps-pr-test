@@ -1,6 +1,6 @@
 In this unit, you'll create a model-driven app by using one of the standard entities that's available in your Microsoft PowerApps environment.
 
-## Create your model-driven app
+## Create a model-driven app
 
 1. Sign in to [PowerApps](https://web.powerapps.com/) by using your organizational account.
 1. Select the environment you want, or go to the [PowerApps admin center](https://admin.powerapps.com/) to create a new one.
@@ -18,14 +18,14 @@ In this unit, you'll create a model-driven app by using one of the standard enti
 ## Add components to your app
 You add components to your app by using the App Designer.
 
-1. Select the **Open the Site Map Designer** arrow to open the site map designer. 
+1. Select the **Open the Site Map Designer** arrow to open the site map designer.
 
     ![Create a new site map](../media/new-sitemap.png)
 
 2. In the site map designer, select **New Subarea**, and then, in the right pane on the **Properties** tab, select the following properties:
 
-    - **Type**: Entity
-    - **Entity**: Account
+    - **Type**: *Entity*
+    - **Entity**: *Account*
 
     ![Add components to the site map](../media/sitemap.png)
 

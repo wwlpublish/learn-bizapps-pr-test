@@ -1,6 +1,10 @@
 Congratulations on creating your first model-driven app! 
 
+<<<<<<< HEAD
 Defining and enforcing consistent business processes is a key aspect of model-driven app design. Consistent processes help ensure that your app users can focus on their work and not have to remember to perform a set of manual steps.
+=======
+Defining and enforcing consistent business processes are key aspects of model-driven app design. Consistent processes help ensure that your app users can focus on their work, not on remembering to perform a set of manual steps.
+>>>>>>> master
 
 Let's review what you've learned:
 
