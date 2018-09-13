@@ -1,9 +1,0 @@
-### YamlMime:ModuleUnit
-uid: learn-bizapps.customer-service-cases.1-customer-service-manage-cases
-title: Learn about cases
-metadata:
-  title: Learn about cases
-  description: Learn about cases.
-durationInMinutes: 15
-content: |
-  [!include[](includes/1-customer-service-manage-cases.md)]

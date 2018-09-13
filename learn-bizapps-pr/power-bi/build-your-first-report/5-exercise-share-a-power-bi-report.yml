@@ -3,7 +3,12 @@ uid: learn.build-your-first-report.5-exercise-share-a-power-bi-report
 metadata:
   title: Exercise - Share a Power BI report
   description: Exercise - Share a Power BI report
-  displayType: one-column
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
 title: Exercise - Share a Power BI report
 durationInMinutes: 10
 content: |

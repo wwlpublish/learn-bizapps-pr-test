@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-common-data-service.4-import-data-into-your-database
+title: Import data into your database  
+metadata: 
+  title: Import data into your database
+  description: Import data into your database
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/4-import-data-into-your-database.md)]  

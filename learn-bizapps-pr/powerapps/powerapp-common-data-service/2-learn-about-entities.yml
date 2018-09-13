@@ -1,9 +1,0 @@
-### YamlMime:ModuleUnit 
-uid: learn-bizapps.powerapps-common-data-service.2-learn-about-entities
-title: Learn about entities  
-metadata: 
-  title: Learn about entities
-  description: Learn about entities
-durationInMinutes: 12 
-content: | 
-  [!include[](includes/2-learn-about-entities.md)]  
