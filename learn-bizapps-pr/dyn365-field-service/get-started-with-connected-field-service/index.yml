@@ -12,11 +12,7 @@ metadata:
 title: Get started with Dynamics 365 for Customer Service
 summary: This module gets you started with Dynamics 365 for Customer Service.
 #TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
-abstract: By the end of this course, students will be able to:
--	Describe the difference between Azure IoT and Azure IoT Central and how they relate to Connected Field Service
--	Setup an environment with Connected Field Service
--	Identify the key components that comprise the Connected Field Service solution
--	Describe the flow of data from the IoT device to Dynamics 365
+abstract: By the end of this course, students will be able to describe the difference between Azure IoT and Azure IoT Central and how they relate to Connected Field Service, set up an environment with Connected Field Service, identify the key components that comprise the Connected Field Service solution, and describe the flow of data from an IoT device to Dynamics 365 for Field Service.
 prerequisites: None
 #TODO: Update with real image.
 iconUrl: http://via.placeholder.com/120x120

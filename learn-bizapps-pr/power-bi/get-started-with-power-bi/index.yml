@@ -22,7 +22,7 @@ roles:
 - business-analyst
 products:
 - bizapps
-- bizapps-power-bi
+- power-bi
 units:
 - learn.get-started-with-power-bi.1-introduction
 - learn.get-started-with-power-bi.2-using-power-bi
