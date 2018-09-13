@@ -14,13 +14,13 @@ durationInMinutes: 5
 quiz: 
   title: "Knowledge check: Create an approval flow" 
   questions: 
-  - content: Where can you start an approval flow? 
+  - content: Where can you create an approval flow? 
     choices:  
     - content: On the Microsoft Flow website.  
-      correctExplanation: Approval flows always start on the Microsoft Flow website. 
+      correctExplanation: Approval flows can only be created on the Microsoft Flow website. 
       isCorrect: true 
     - content: From Twitter.
-      incorrectExplanation: Flows can't be started from social media sites like Twitter. They're typically started from either the Microsoft Flow website or the Microsoft Flow mobile app. 
+      incorrectExplanation: Flows can't be created on social media sites like Twitter. 
       isCorrect: false 
     - content: In Microsoft SharePoint.
       incorrectExplanation: SharePoint can be involved in a flow process, but it isn't where flows are created. 
@@ -36,8 +36,8 @@ quiz:
     - content: Twitter is a type of connector. 
       correctExplanation: Twitter is one of many connectors that can be used in flows. 
       isCorrect: true 
-    - content: Connectors have actions and procedures. 
-      incorrectExplanation: Connectors have actions and triggers. 
+    - content: Connectors can be started from actions and triggers. 
+      incorrectExplanation: Connectors can be started from triggers, but not from actions. 
       isCorrect: false 
   - content: Who can create flows? 
     choices: 
