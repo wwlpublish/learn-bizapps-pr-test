@@ -1,18 +1,9 @@
-<<<<<<< HEAD
 Common Data Service for Apps lets you securely store and manage data used by business applications. 
 
 ## Entities
 Data within Common Data Service for Apps is stored within a set of records called entities. An **entity** is a set of records used to store data, similar to how a table stores data within a database.
 
 Common Data Service for Apps includes a base set of standard entities that support common business scenarios that connect to Dynamics 365 application data. You can also create custom entities specific to your organization and populate them with data that you import from lists in SharePoint, from Excel, or from PowerQuery. App makers can then use PowerApps to build rich applications using this data.
-=======
-Common Data Service (CDS) for Apps lets you securely store and manage data that's used by business applications. 
-
-## Entities
-In CDS for Apps, data is stored in a set of records called entities. An *entity* is a set of records that's used to store data, similar to how a table stores data in a database.
-
-CDS for Apps includes a base set of standard entities that support common business scenarios that connect to Microsoft Dynamics 365 application data. You can also create custom entities that are specific to your organization, and populate them with data that you import from lists in Microsoft SharePoint, from Microsoft Excel, or from Microsoft Power Query for Excel. App makers can then use Microsoft PowerApps to build rich applications that use this data.
->>>>>>> master
 
 ![Illustration showing an overview of the Business Application Platform](../media/platform.png)
 

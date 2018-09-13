@@ -20,11 +20,7 @@ Model-driven apps have three design phases:
 1. Build the app.
 
 ### Model your business data
-<<<<<<< HEAD
 Model-driven design uses metadata-driven architecture so that designers can customize apps without writing code. To model business data, you determine what data the app will need and how that data will relate to other data. Metadata means *data about data* and it defines the structure of the data stored in Common Data Service for Apps.
-=======
-Model-driven design uses metadata-driven architecture so that designers can customize apps without writing code. To model business data, you determine what data the app will need and how that data will relate to other data. Metadata means "data about data," and it defines the structure of the data stored in Common Data Service for Apps.
->>>>>>> master
 
 ### Define your business processes
 Defining and enforcing consistent business processes is a key aspect of model-driven app design. Consistent processes help ensure that your app users can focus on their work and not worry about having to remember to perform a set of manual steps. Processes can be simple or complex, and they often change over time.

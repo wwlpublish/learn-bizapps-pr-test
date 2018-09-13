@@ -1,14 +1,8 @@
 Common Data Service (CDS) for Apps is designed to let you quickly and easily create a data model for your application, based on the entities and the entity metadata that you include in your app. 
 
-<<<<<<< HEAD
 Entities describe the kinds of data that is stored in the Common Data Service for Apps database. Each entity corresponds to a database table and each field (also known as an attribute) within an entity represents a column in that table. 
 
 In Common Data Service for Apps, metadata (data about data), is a collection of entities. Entity metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. When you use customization tools to create or edit entities, fields, and entity relationships, you are editing this metadata.
-=======
-Entities describe the kinds of data that's stored in the CDS for Apps database. Each entity corresponds to a database table, and each field (attribute) in an entity represents a column in that table. 
-
-*Metadata* means data about data. In CDS for Apps, metadata is a collection of entities. Entity metadata controls the kinds of records you can create and the kinds of actions that can be performed on those records. When you use customization tools to create or edit entities, fields, and entity relationships, you're editing this metadata.
->>>>>>> master
 
 The apps that your customers use to interact with the data in your environment depend on the entity metadata, and they adapt as you customize the metadata. 
 

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 You can import data into your Common Data Service for Apps database in bulk from Microsoft Excel or CSV files. 
-=======
-You can import data, in bulk, from Microsoft Excel or comma-separated values (CSV) files into your Common Data Service (CDS) for Apps database.
->>>>>>> master
 
 Every entity has required fields that must exist in your input file. We recommend that you create a template. A template will save you time and effort. First, export data from the entity. You'll use the same file (updated with your data) to import data into the entity.
 
