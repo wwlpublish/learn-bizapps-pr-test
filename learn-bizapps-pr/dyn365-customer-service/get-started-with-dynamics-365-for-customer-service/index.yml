@@ -3,21 +3,20 @@ uid: learn-bizapps.customer-service-cases
 metadata:
   title: Get started with cases for Dynamics 365 for Customer Service
   description: Get started with cases for Dynamics for Customer Service.
-  title: Get started with Dynamics 365 for Customer Service
-  description: Learn the basics of Dynamics 365 for Customer Service.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-customer-service
+  #ms.learn-support: margoc
 title: Get started with cases for Customer Service
-summary: This module teaches you the basics of getting started with cases for Customer Service.
-#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
-abstract: This module teaches you the basics of getting started with cases for Customer Service.
+summary: By understanding how your organization measures success, you gain insight into core priorities and drivers. Only then can you understand what data modeling, security requirements, and customization must be done.
+abstract: |
+    In this module, you will:
+    - Learn how to manage cases in Dynamics 365 for Customer Service
 prerequisites: None
-#TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/get-started-with-dynamics-365-for-customer-service.svg
 levels: 
 - beginner
 roles: 

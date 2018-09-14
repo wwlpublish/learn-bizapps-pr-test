@@ -9,12 +9,12 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
+  #ms.learn-contact: margoc
 title: Automate a business process using Flow
 summary: This learning path introduces you to Microsoft Flow, and teaches you how to build two types of business workflows. 
 prerequisites: |
   - Familiarity with SharePoint, OneDrive, and Excel. 
-#TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/automate-process-using-flow.svg
 levels:
 - beginner
 roles:
