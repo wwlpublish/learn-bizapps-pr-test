@@ -14,7 +14,7 @@ The **Report** view in Power BI Desktop has five main areas:
    
 ![Report view areas](../media/pbid-visuals_01.png)
 
-The **Visualizations** and **Fields** pane can be collapsed by selecting the small arrow along the edge, providing more space in the **Report** view to build cool visualizations. When modifying visualizations, you'll also see these arrows pointing up or down, which means you can expand or collapse that section, accordingly.
+The **Visualizations** and **Fields** pane can be collapsed by selecting the small arrow along the edge, providing more space in the **Report** view to build cool visualizations.
 
 ![Collapse panes](../media/pbid-visuals_02.png)
 
@@ -37,7 +37,7 @@ Let's create a few visuals on this first page, and see what happens. I can chang
 
 ![Adjust the first visual](../media/pbid-visuals_04b.png)
 
-To adjust the colors used in the map, select the **Format** tab (looks like a paint roller) in the **Visualizations** pane, and expand **Data colors** to adjust
+To adjust the colors used in the map, select the **Format** tab (looks like a paint roller) in the **Visualizations** pane, and expand **Data colors** to adjust.
 
 ![change data colors](../media/pbid-visuals_04c.png)
 

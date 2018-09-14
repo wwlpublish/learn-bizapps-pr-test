@@ -4,7 +4,7 @@ With Power BI Desktop installed, you’re ready to connect to the ever expanding
 
 For this unit, we'll connect to a couple different **Web** data sources.
 
-Imagine you’re retiring – you want to live where there’s lots of sunshine, preferable taxes, and good health care – or perhaps you’re a data analyst, and you want that information to help your customers. For example, maybe you want to help your sunglasses retailer target sales where the sun shines most frequently.
+Imagine you’re retiring – you want to live where there’s lots of sunshine, low crime rates, and good health care – or perhaps you’re a data analyst, and you want that information to help your customers. For example, maybe you want to help your sunglasses retailer target sales where the sun shines most frequently.
 
 Either way, the following Web resource has interesting data about those topics, and more:
 
