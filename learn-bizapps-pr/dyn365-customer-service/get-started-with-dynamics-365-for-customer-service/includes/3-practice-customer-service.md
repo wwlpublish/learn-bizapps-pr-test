@@ -1,7 +1,8 @@
-This practice will take you through the fundamentals of Dynamics 365 for Customer Service. After you complete the tasks in this practice, you'll be well on your way to helping your customers find solutions to issues with products and services.
+This lab will take you through the fundamentals of Dynamics 365 for Customer Service. After you complete the tasks in this lab, you'll be well on your way to helping your customers find solutions to issues with products and services.
 
-> [!NOTE]
-> For the following scenarios, you must have the Customer Service Manager or Customer Service Representative role, or equivalent permissions. [Find out if you have the correct permissions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/view-your-user-profile).
+For the following scenarios, you must have a trial experience or full instance of [Customer Service](https://trials.dynamics.com/Dynamics365/Signup/service).
+
+You must also be a member of the Customer Service Manager or Customer Service Representative role, or equivalent permissions. [Find out if you have the correct permissions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/view-your-user-profile).
 
 ## Scenarios
 All the following scenarios are based on the following premise. HCL is a professional services company, and most of its profits come from the support services that it offers to its customers. HCL offers help desk services to its customers during regular business hours, from 8:00 AM to 5:00 PM. For preferred customers, it offers 24/7 support.
@@ -53,7 +54,7 @@ Tasks to complete for this scenario:
 1. Fill in information about the account.
 1. Select **Save**.
 
-**Task two**: Add a contact record from Wendy Smith to Coho Consulting.
+**Task two**: Add a contact record for Wendy Smith to Coho Consulting.
 
 1. Find the **Contacts** table.
 1. Select the plus sign (**+**) to add a new contact.
