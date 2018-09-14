@@ -2,7 +2,8 @@
 uid: learn-bizapps.remotely-monitor-and-service-customer-equipment.1-remotely-monitor-and-service-customer-equipment-overview
 title: Remotely Monitor and Service Customer Equipment 
 metadata:
-  title: This module will focus on the end to end process of remotely monitoring IoT enabled devices using the Connected Field Service solution including device registration, working with alerts, and designing processes to take specific actions.
+  title: Remotely Monitor and Service Customer Equipment
+  description: This module will focus on the end to end process of remotely monitoring IoT enabled devices using the Connected Field Service solution including device registration, working with alerts, and designing processes to take specific actions.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: dbeasley
