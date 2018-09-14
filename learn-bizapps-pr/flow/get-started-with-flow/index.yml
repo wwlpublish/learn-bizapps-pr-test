@@ -9,13 +9,15 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
+  #ms.learn-contact: margoc
 title: Get started with Microsoft Flow 
-summary: This module teaches you the basics of creating an approval flow.
-#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
-abstract: This module teaches you how to create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
+summary: Microsoft Flow is an online workflow service that automates events (known as *workflows*) across the most common apps and services.
+abstract: |
+    In this module, you will:
+    - Create a flow that automatically saves email attachments to your Microsoft OneDrive for Business account
+    - Create a flow that collects proposed tweets on a Microsoft SharePoint list and then, if they're approved, posts them
 prerequisites: None
-#TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120 
+iconUrl: /learn/achievements/get-started-with-flow.svg
 levels:  
 - beginner 
 roles:  
