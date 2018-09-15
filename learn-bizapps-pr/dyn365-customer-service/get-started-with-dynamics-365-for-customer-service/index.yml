@@ -12,8 +12,7 @@ metadata:
    #ms.learn-support: margoc
 title: Get started with managing cases in Dynamics 365 for Customer Service
 summary: This module teaches you the basics of getting started with cases for Customer Service.
-abstract: 
-  In this module, you will learn: 
+abstract: In this module, you will learn
     - How cases relate to key performance indicators and activities.
     - How cases can be resolved.
 prerequisites: None
