@@ -1,7 +1,7 @@
 Welcome to Microsoft Flow! In this module, you'll learn how to build two flows:
 
 - A flow that automatically saves email attachments to your Microsoft OneDrive for Business account.
-- A flow that collects proposed tweets on a Microsoft SharePoint list and then, if they're approved, posts them.
+- A button flow that you create from the Microsoft Flow app to send you a reminder after 10 minutes.
 
 If you're a beginner with Microsoft Flow, this module will get you going. If you already have some experience, this module will tie concepts together and fill in the gaps.
 
@@ -10,7 +10,7 @@ Microsoft Flow is an online workflow service that automates events (known as *wo
 
 ![Flow conceptual sketch](../media/flow-conceptual.png)
 
-When you sign up, you can connect to more than 100 services, and can manage data either in the cloud or in on-premises sources like SharePoint and Microsoft SQL Server. The list of applications and services that you can use with Microsoft Flow grows constantly.
+When you sign up, you can connect to more than 220 services, and can manage data either in the cloud or in on-premises sources like SharePoint and Microsoft SQL Server. The list of applications you can use with Microsoft Flow grows constantly.
 
 ![List of services](../media/flow-services.png)
 
@@ -22,7 +22,6 @@ For example, you can automate these tasks:
 
 * Instantly respond to high-priority notifications or emails.
 * Capture, track, and follow up with new sales leads.
-* Copy files from one service to another.
 * Copy all email attachments to your OneDrive for Business account.
 * Collect data about your business, and share that information with your team.
 * Automate approval workflows.
@@ -37,9 +36,11 @@ You can also use Microsoft Flow to copy files. For example, you can ensure that 
 
 ![List of the same files in SharePoint](../media/sharepoint-files.png) 
 
-You can monitor what people are saying about your business by creating a flow that runs whenever someone sends a tweet with a certain hashtag. The flow can add details about each tweet to a SQL Server database, a SharePoint list, or even a Microsoft Excel file that's hosted on OneDrive for Business–whichever service works for you. 
+You can monitor what people are saying about your business by creating a flow that runs whenever someone sends a tweet with a certain hashtag. The flow can add details about each tweet to a Facebook post, a SQL Server database, a SharePoint list, or even a Microsoft Excel file that's hosted on OneDrive for Business–-whichever service works for you. 
 
 You can create actions to connect the data you collect to Microsoft Power BI, spot trends in that data, and ask questions about it.
+
+The following example shows a flow that saves tweets with the hashtag #MicrosoftFlow to an Excel file.
 
 ![Tweet](../media/tweets-to-excel.png)
 
@@ -69,16 +70,16 @@ Here are some of the tasks you can perform:
 * View and filter runs by notification type.
 
 ## A brief tour of Microsoft Flow
-Let's jump into the tool, and we'll show you around. We have tons of information for you to learn about how to use Microsoft Flow.
+Let's jump into Microsoft Flow, and we'll show you around. We have tons of information for you to learn about how to use Microsoft Flow.
 
 ![Start of the tour](../media/start-of-tour.png)
 
-On the home page, you'll find these menus:
+When you sign in to Microsoft Flow, you'll find these menus:
 
 * **My flows**, where your flows reside.
 * **Templates**, where you can take a look at some of the most popular templates. These should give you some great ideas for flows you want to try.
 * **Approvals**, where you can automate and streamline your approval process.
-* **Connectors** (formerly called Services), where you can connect from one service to another.
+* **Connectors**, (formerly called Services), where you can connect from one service to another.
 * **Learn**, where you can find information that will help you quickly ramp up on Microsoft Flow.
 
 For now, let's focus on the **Learn** menu, which has these options:

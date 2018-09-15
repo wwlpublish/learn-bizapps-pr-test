@@ -2,7 +2,7 @@
 uid: learn-bizapps.flow-get-started 
 metadata: 
   title: Get started with Microsoft Flow 
-  description: Learn how to create an approval request for a SharePoint list.
+  description: Learn how to create simple flows to make your life easier.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
@@ -10,10 +10,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 title: Get started with Microsoft Flow 
-summary: This module teaches you the basics of creating an approval flow.
+summary: This module teaches you the basics of creating a flow.
 #TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
-abstract: This module teaches you how to create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
-prerequisites: None
+abstract: In this module, you will create a flow that automatically saves email attachments. You'll learn also learn how to create a button flow to send yourself a reminder.
+prerequisites: You must have signed up for Microsoft Flow, and have a OneDrive for Business account.
 #TODO: Update with real image.
 iconUrl: http://via.placeholder.com/120x120 
 levels:  

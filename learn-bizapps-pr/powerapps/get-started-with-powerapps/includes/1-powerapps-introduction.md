@@ -1,6 +1,12 @@
 Welcome to Microsoft PowerApps. This self-paced online module helps you build apps from the ground up.
 
-With this introductory module, you'll learn how to create an app from data in a Microsoft Excel workbook. As a prerequisite, you'll download the workbook, which contains sample data. Then you'll upload the workbook to Microsoft OneDrive for Business, where you can share the data with others. Then you'll build the app without using a traditional programming language such as C#.
+ In this module, you will:
+  - Explore how PowerApps can make your business more efficent.
+  - Understand which technologies to use to perform tasks in PowerApps.
+  - Understand the different ways to build an app in PowerApps.
+  - Create your first app from data in a Microsoft Excel workbook.
+
+In this introductory module, you'll learn how to create an app from data in a Microsoft Excel workbook. As a prerequisite, you'll download a workbook that contains sample data. Then you'll upload the workbook to Microsoft OneDrive for Business, where you can share the data with others. Then you'll build the app without using a traditional programming language such as C#.
 
 With PowerApps, you can:
 

@@ -1,11 +1,11 @@
-In this unit, you'll see more of the Microsoft Flow environment as you build your first flow.
+In this unit, you'll see more of Microsoft Flow as you build your first flow.
 
 It can be time consuming to search for attachments through email. The flow that you'll build saves time by storing all your email attachments in a folder on your Microsoft OneDrive for Business account.
 
 ## Choose a template
 Our many templates will get your flows flowing quickly. They'll help you connect the services you're already using in more meaningful ways.
 
-Go to the [Microsoft Flow website](https://ms.flow.microsoft.com), and select the **Templates** menu. As you scroll through the list, you'll see that Microsoft Flow lets you connect to many services.
+Sign in to [Microsoft Flow](https://ms.flow.microsoft.com), and select the **Templates** menu. You can sign up for Microsoft Flow with a Microsoft account.
 
 Select the **Save Office 365 email attachments to OneDrive for Business** template.
 
@@ -22,7 +22,7 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
     ![Save Office 365 email](../media/save-flow-office-description.png)
 
-    Flow creates a folder on your OneDrive for Business account and will now automatically put every attachment that's sent to your work email address in that folder.
+    Microsoft Flow creates a folder on your OneDrive for Business account and will now automatically put every attachment that's sent to your work email address in that folder.
 
     ![Creation successful](../media/create-successful.png)
 
