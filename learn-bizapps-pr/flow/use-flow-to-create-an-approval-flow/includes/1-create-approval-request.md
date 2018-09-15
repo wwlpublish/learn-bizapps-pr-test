@@ -22,9 +22,9 @@ First, let's create the SharePoint list.
 1. Copy the URL of the SharePoint list. You'll use it when you create the flow.
 
 ## Step two: Create an approval request flow
-1. On the Microsoft Flow home page, select **Approvals**.
+1. Sign in to [Microsoft Flow](https://ms.flow.microsoft.com), and then select **Approvals**.
 
-1. Select **CreateSelect **Create approval flow**, and then scroll down and select the **Post list items to Twitter after approval** template. 
+1. Select **Create approval flow**, and then scroll down and select the **Post list items to Twitter after approval** template. 
 
     ![Select template](../media/create-approval.png)
 
@@ -35,7 +35,7 @@ First, let's create the SharePoint list.
 1. Back in Microsoft Flow, in the **When a new item is created** action, enter the following values:
 
     * **Site Address**: Enter the URL of your team's SharePoint site.
-    * **List Name**: Enter *ContosoTweets*.
+    * **List Name**: Select *ContosoTweets*.
 
     ![Site Address and List Name](../media/site-address.png)
 

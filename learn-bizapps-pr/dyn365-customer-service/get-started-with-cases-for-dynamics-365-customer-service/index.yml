@@ -16,6 +16,7 @@ abstract: |
     In this module, you will:
     - Learn about the pieces of Dynamics 365 for Customer Service
     - Learn how to optimize Dynamics 365 for Customer Service to improve your customer relations
+
 prerequisites: None
 iconUrl: /learn/achievements/get-started-with-cases-for-dynamics-365-customer-service.svg
 levels: 
@@ -30,4 +31,5 @@ units:
 - learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components
 - learn-bizapps.customer-service-get-started.3-customer-service-get-started-modern
 - learn-bizapps.customer-service-get-started.4-quiz-customer-service
+- learn-bizapps.customer-service-get-started.5-summary-cleanup
 achievement: learn.customer-service-get-started.badge
