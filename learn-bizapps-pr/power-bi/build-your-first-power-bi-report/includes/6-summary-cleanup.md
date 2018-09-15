@@ -20,6 +20,6 @@ And after your report is all done, you can share it with others in your organiza
 
 Great work! As you might remember, we went through a few visuals but then had to move on, promising that the finished report would be available from a link in this summary. Well, here we are, and here it is. To download the finished Power BI Desktop report, use the following link:
 
-Completed Power BI Desktop report - Getting Started with Power BI Desktop
+* Completed Power BI Desktop report - [Getting Started with Power BI Desktop](https://go.microsoft.com/fwlink/?linkid=2021059)
 
 Great work! There's more to learn about Power BI, and Power BI Desktop, so look for more modules that will take your learning even further. 

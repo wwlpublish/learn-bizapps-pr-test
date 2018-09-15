@@ -14,7 +14,7 @@ The **Report** view has five main areas:
 
 ![Report view areas](../media/pbid-visuals_01.png)
 
-You can collapse the **Visualizations** and **Fields** panes by selecting the small arrow along the edge. In this way, you provide more space for the **Report** view, which can be useful when you're building visualizations. As you're changing visualizations, you'll see the arrows pointing either up or down, which means you can expand or collapse that pane, respectively.
+The **Visualizations** and **Fields** pane can be collapsed by selecting the small arrow along the edge, providing more space in the **Report** view to build cool visualizations.
 
 ![Collapse panes](../media/pbid-visuals_02.png)
 
@@ -41,7 +41,7 @@ Drag the **Overall rank** field from the **Fields** pane to the **Color saturati
 
 ![Adjust the first visual](../media/pbid-visuals_04b.png)
 
-To adjust the colors used in the map, select the **Format** tab (the paint roller symbol) in the **Visualizations** pane, and then expand **Data colors** to change the colors.
+To adjust the colors used in the map, select the **Format** tab (looks like a paint roller) in the **Visualizations** pane, and expand **Data colors** to adjust.
 
 ![Change data colors](../media/pbid-visuals_04c.png)
 
