@@ -20,7 +20,7 @@ When you select **OK**, the **Query** functionality of Power BI Desktop goes to 
 
 At this point, you can edit the query before loading the table, by selecting **Edit** at the bottom of the window. Or, you can just load the table.
 
-When you select **Edit**, Power Query Editor starts, and a representative view of the table is shown. The **Query Settings** pane appears (if it doesn't, select the **View** tab on the ribbon, and then select **Show \> Query Settings**). Here's what it looks like.
+When you select **Edit**, Power Query Editor starts, and a representative view of the table is shown. The **Query Settings** pane appears (if it doesn't, select the **View** tab on the ribbon, then select **Show \> Query Settings**). Here's what it looks like.
 
 ![Power Query Editor window](../media/pbid-getdata_03.jpg)
 
