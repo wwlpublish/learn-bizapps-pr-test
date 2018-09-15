@@ -41,7 +41,7 @@ Here is the main development window for PowerApps Studio, which you'll learn mor
 
 Select **Play** ![Start app preview arrow](../media/powerapps-arrow.png) in the upper-right corner to try out the app. You'll see that it includes all the data from the list and provides a good default experience.
 
-All apps generated from data have the same set of screens:
+All apps generated from data have the same set of screens that you can view from the Thumbnail pane:
 
 * **Browse screen**: This screen appears by default. In it, you can browse, sort, filter, and refresh the data from the data source. In the browse screen, you add items to the data source by selecting the plus sign (**+**).
 * **Details screen**: Select an item in the browse screen to open the details screen, which shows all details about an item. In this screen, you can open an item for editing or delete it.
