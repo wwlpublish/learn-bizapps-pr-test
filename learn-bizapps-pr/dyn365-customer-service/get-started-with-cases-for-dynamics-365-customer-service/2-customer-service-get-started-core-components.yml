@@ -9,7 +9,7 @@ metadata:
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-customer-service
 durationInMinutes: 10
 content: |
   [!include[](includes/2-customer-service-get-started-core-components.md)]

@@ -1,18 +1,18 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.customer-service-get-started.4-quiz-customer-service
 metadata:
-  title: Customer Service quiz
-  description: This quiz will test your knowledge of Dynamics 365 for Customer Service.
+  title: Customer Service knowledge check
+  description: This knowledge check will test your knowledge of Dynamics 365 for Customer Service.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-customer-service
 title: Check your knowledge
-durationInMinutes: 10
+durationInMinutes: 5
 quiz:
-  title: Customer Service quiz
+  title: Customer Service knowledge check
   questions:
   - content: Which of the following statements about modern customer service is true?
     choices: 

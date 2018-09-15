@@ -10,6 +10,6 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-durationInMinutes: 15 
+durationInMinutes: 5 
 content: | 
   [!include[](includes/3-flow-mobile-app.md)] 
