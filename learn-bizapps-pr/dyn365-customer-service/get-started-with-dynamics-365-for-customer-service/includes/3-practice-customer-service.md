@@ -1,9 +1,10 @@
-This practice will take you through the fundamentals of Dynamics 365 for Customer Service. After you complete the tasks in this practice, you'll be well on your way to helping your customers find solutions to issues with products and services.
+This lab will take you through the fundamentals of Dynamics 365 for Customer Service. After you complete the tasks in this lab, you'll be well on your way to helping your customers find solutions to issues with products and services.
 
-> [!NOTE]
-> For the following scenarios, you must have the Customer Service Manager or Customer Service Representative role, or equivalent permissions. [Find out if you have the correct permissions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/view-your-user-profile).
+For the following scenarios, you must have a trial experience or full instance of [Customer Service](https://trials.dynamics.com/Dynamics365/Signup/service).
 
-## Scenarios
+You must also be a member of the Customer Service Manager or Customer Service Representative role, or equivalent permissions. [Find out if you have the correct permissions](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/basics/view-your-user-profile).
+
+## Scenario
 All the following scenarios are based on the following premise. HCL is a professional services company, and most of its profits come from the support services that it offers to its customers. HCL offers help desk services to its customers during regular business hours, from 8:00 AM to 5:00 PM. For preferred customers, it offers 24/7 support.
 
 Preferred customers are divided into three levels:
@@ -38,40 +39,38 @@ Tasks to complete for this scenario:
 2. Add a contact record from Wendy Smith to Coho Consulting.
 3. Create a new case for Coho Consulting. This case will have the following information:
 
-    - **Origin**: Phone
-    - **Title**: Network Backup Failed
-    - **Customer**: Coho Consulting
-    - **Contact**: Wendy Smith
-    - **Product**: (Blank)
-    - **Entitlement**: (Blank) 
-    - **Priority**: High
-
-**Task one**: Add a new account for Coho Consulting.
+**Add a new account for Coho Consulting**
 
 1. In the Customer Service Hub, go to **Service**, and then select **Accounts**.
 1. On the command bar, select **New**.
 1. Fill in information about the account.
 1. Select **Save**.
 
-**Task two**: Add a contact record from Wendy Smith to Coho Consulting.
+   ![New Customer account](../media/new-account.PNG)
+
+**Add a contact record for Wendy Smith to Coho Consulting**
 
 1. Find the **Contacts** table.
 1. Select the plus sign (**+**) to add a new contact.
-1. In the **Quick Create** box, fill in the contact information.
+1. Fill in the contact information.
 1. Select **Save**.
 
-**Task three**: Create a new case for Coho Consulting.
+   ![New contact](../media/contacts.PNG)
+
+**Create a new case for Coho Consulting**
 
 1. Go to **Service** &gt; **Cases**.
 1. Select **New Case**.
-1. For **Case title**, enter "Network Backup Failed".
-1. For **Customer**, enter "Coho Consulting".
-1. For **Contact**, enter "Wendy Smith".
-1. For **Origin**, enter "Phone".
-1. For **Priority**, enter "High".
+1. For **Case title**, enter *Network Backup Failed*.
+1. For **Customer**, enter *Coho Consulting*.
+1. For **Contact**, enter *Wendy Smith*.
+1. For **Origin**, enter *Phone*.
+1. For **Priority**, enter *High*.
 1. Select **Save**.
 
-### Scenario two: Create a case
+   ![New case](../media/cases.PNG)
+
+### Scenario two: Add detail to a case
 HCL generally bills its customers based on the total amount of time an agent spends on a call. The total time spent is a summary of all the activities attached to a specific case. As agents work through calls, it's important that they document all activities that are related to a case.
 
 After doing some research, the agent identifies that the customer's issue occurred because the previous day was a holiday. Because of the holiday, the previous backup media wasn't replaced. The backup job won't overwrite media that was written to in the last 48 hours.
@@ -82,30 +81,29 @@ Tasks to complete for this scenario:
 
 1. Add a task to the case for an incoming phone call activity from Wendy Smith.
 2. Add a task to the case to be performed by the agent.
-3. Add an outgoing phone call activity to Wendy Smith task named "Inform Wendy of Resolution".
+3. Add an outgoing phone call activity to the task named *Inform Wendy of Resolution*.
 
-**Task one**: Add a task to the case for an incoming phone call activity from Wendy Smith.
+**Add a task to the case for incoming phone call activity**
 
-1. Find **Activities**.
-1. Select **Add Phone Call**.
+1. On the **Activities** tab in the center, click **Add Phone Call**.
 1. Set the duration to 15 minutes.
-1. Add the following note: "Initial call from Wendy to report the discovery of a failed backup."
+1. Add the following note: *Initial call from Wendy to report the discovery of a failed backup*.
 1. Select **OK**.
 
-**Task two**: Add a task to the case to be performed by the agent.
+**Add a task to the case to be performed by the agent**
 
-1. Find **Activities**.
+1. On the **Activities** tab, click the ellipses (**...**).
 1. Select **Task**. 
-1. Set the duration to 20 minutes.
-1. Add the following note: "Because it was a holiday, the previous back-up media wasn't replaced. The backup won't overwrite media that was written to in the last 48 hours."
+1. Set the duration to 30 minutes.
+1. Add the following note: *Because it was a holiday, the previous backup media wasn't replaced. The backup won't overwrite media that was written to in the last 48 hours*.
 1. Select **OK**. 
 
-**Task three**: Add an outgoing phone call activity to Wendy Smith task named "Inform Wendy of Resolution".
+**Add an outgoing phone call activity**
 
 1. Find **Activities**.
 1. Select **Add Phone Call**.
 1. Set the duration to 15 minutes.
-1. Add the following note: "Called Wendy to inform her of the resolution."
+1. Add the following note: *Called Wendy to inform her of the resolution*.
 1. Select **OK**. 
 
 ### Scenario three: Resolve a case
@@ -116,14 +114,14 @@ Tasks to complete for this scenario:
 1. Make sure all case-related activities are completed.
 2. Resolve the case.
 
-**Task one**: Make sure all case-related activities are completed.
+**Mark all case related activities complete**
 
 1. Open each activity on the case. Make sure all case-related activities are completed.
 1. Select **Mark Complete**.
 
-**Task two**: Resolve the case.
+**Resolve the case**
 
-1. On the command bar, select **Resolve case**.
+1. On the command bar, click **Resolve case**.
 1. In the **Resolve Case** dialog box, in the **Resolution Type** list, select how the case was resolved. 
 1. In the **Resolution** box, type a short explanation of the resolution. 
 1. Select **Resolve**.
@@ -148,18 +146,22 @@ Tasks to complete for this scenario:
 1. Create the queues.
 2. Create the rules.
 
-**Task one**: Create the queues.
+**Create the queues**
 
 Create four queues in the application: Gold, Silver, Bronze, and Standard.
 
 1. Go to **Settings**, and then select **Service Management**. 
+   ![Service management settings](../media/settings.PNG)
 1. Select **Queues**.
 1. Select **New**.
 1. Enter the name of the first queue.
 1. Select **Save**.
 1. Repeat steps 3 through 5 for each additional queue you need to create.
 
-**Task two**: Create the rules.
+    ![New queue](../media/new-queue.PNG)
+
+
+**Create rules**
 
 Create routing rules that route cases to the appropriate queues, based on the service level of the case. 
 
@@ -169,8 +171,8 @@ Create routing rules that route cases to the appropriate queues, based on the se
 1. Select **Rule Case Routing**.
 1. Select **Save**. 
 1. In the **Rule Items** section, select **Add Rule** to specify conditions for routing cases to a queue. 
-1. In the **Rule Item** form, type a descriptive name for the rule item. For example, type "Gold".
-1. Under **Rule Criteria**, in the **If Conditions** section, specify the conditions that the case will be routed under. For example, specify "Case – Service Level – Equals - Gold".
+1. In the **Rule Item** form, type a descriptive name for the rule item. For example, type *Gold*.
+1. Under **Rule Criteria**, in the **If Conditions** section, specify the conditions that the case will be routed under. For example, specify *Case – Service Level – Equals - Gold*.
 1. Under **Then Conditions**, specify the queue to route the case to. For example, select the **Gold** queue.
 1. Select **Save** and then **Close**.
 1. Repeat steps 6 through 10 for each additional queue you need to route items to.
@@ -188,22 +190,22 @@ Tasks to complete for this scenario:
 2. Route the case to the Gold queue.
 3. Work on the case.
 
-**Task one**: Create the case.
+**Create a case**
 
 1. Go to **Service**, and then select **Cases**.
 1. Select **New Case**. 
-1. For **Case title**, enter "Printer Issue".
-1. For **Customer**, enter "Coho Consulting".
-1. For **Contact**, enter "Wendy Smith".
-1. For **Origin**, enter "Phone".
-1. For **Service Level**, enter "Gold".
+1. For **Case title**, enter *Printer Issue*.
+1. For **Customer**, enter *Coho Consulting*.
+1. For **Contact**, enter *Wendy Smith*.
+1. For **Origin**, enter *Phone*.
+1. For **Service Level**, enter *Gold*.
 1. Select **Save**.
 
-**Task two**: Route the case to the Gold queue.
+**Route the case to the Gold queue**
 
 - On the command bar, select **Save** and then **Route**. 
 
-**Task three**: Work on the case.
+**Work on the case**
 
 You need to find the case in the Gold queue and pick it so that you can work on it.
 

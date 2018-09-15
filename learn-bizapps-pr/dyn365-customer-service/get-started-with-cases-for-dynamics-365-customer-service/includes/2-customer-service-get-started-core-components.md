@@ -9,14 +9,14 @@ Now we'll look at the basic record types that are used for service management.
 
 Although these are the typical uses of accounts and contacts, different Customer Service deployments might use these record types differently. But they're both typically referred to as *customers*. For example, when entering the customer on a case, you can select either an account or a contact.
 
-**Cases**: Cases are the fundamental record type in service management and represent a single incident of any requested service. Different organizations might use different terms to refer to cases: incidents, tickets, service requests, and so on. 
+**Cases**: Cases are the fundamental record type in service management and represent a single incident of any requested service. Different organizations might use different terms to refer to cases: *incidents*, *tickets*, *service requests*, and so on. 
 
 In other words, cases are anything in the context of a customer interaction that requires some type of resolution or answer. Many cases can be associated with a single customer record at the same time. In Customer Service, customer representatives can view open and resolved cases from the customer record.
 
 **Activities**: Interactions between a business and its customers that are considered important enough to track in Customer Service are known as *activities*. Activities can be associated with many kinds of records in Customer Service. You can open the record and find the activities under **Closed activities** or **Open activities**. 
 
-- Closed activities are those that have marked as been completed.
-- Open activities either haven't been marked as completed or are pending completion at a different date and time.
+- Closed activities are those that have been marked as completed.
+- Open activities either haven't been marked as completed or are waiting for completion at a different date and time.
 
 **Entitlements**: Entitlements can be used to specify how much  support services a customer is entitled to. For example, a customer's entitlement in Customer Service might allot ten support cases that the customer can use at his or her discretion. 
 

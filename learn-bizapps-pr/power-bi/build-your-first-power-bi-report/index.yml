@@ -8,16 +8,18 @@ metadata:
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
-  ms.prod: learning-powerbi
+  ms.prod: learning-power-bi
+  #ms.learn-contact: margoc
 title: Create and share your first Power BI report
-summary: Learn how to create a report in Power BI, and how to share the report with others.
-#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
-abstract: With Power BI, you can create compelling visuals and reports. In this module, you learn how to use Power BI Desktop to connect to data, build visuals, and create a report that you can share with others in your organization. You then learn how to publish the report to the Power BI service, so that others can see your insights and benefit from your work.
+summary: With Power BI you can create compelling visuals and reports. In this module you learn how to use Power BI Desktop to connect to data, build visuals, and create a report that you can share with others in your organization. Then you learn how to publish the report to the Power BI service, and let others see your insights and benefit from your work.
+abstract: |
+    In this module, you will:
+    - Create a report in Power BI
+    - Share Power BI reports
 prerequisites: None
-#TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/build-your-first-power-bi-report.svg
 levels:
-- intermediate
+- beginner
 roles:
 - business-analyst
 products:

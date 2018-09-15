@@ -9,8 +9,8 @@ First, we need to add an item to our SharePoint list. We can then process an app
 
 2. Enter the following values, and then select **Save**.
 
-    - For **Title**, enter "Promotions".
-    - For **TweetContent**, enter "Check out the new line of Contoso Flooring #ohsocontoso". Notice that the tweet contains a hashtag.
+    - For **Title**, enter *Promotions*.
+    - For **TweetContent**, enter *Check out the new line of Contoso Flooring #ohsocontoso*. Notice that the tweet contains a hashtag.
     - For **TweetDate**, enter today's date.
 
     ![New SharePoint item](../media/sharepoint-new-tweet.png)

@@ -35,22 +35,21 @@ To learn more about access and the scope of the different privileges, see [Secur
 ## Create a custom security role
 1. Sign in to [PowerApps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
 1. On the PowerApps home page, select **Model-driven**.
-1. For the app you want to share, select the **More Commands** button (**...**), and then select **Share link**.
-1. In the **Share this app** dialog box, under **Create a security role**, select **Security Setting**.
-1. On the **Settings** page, select **New**.
-1. In the Security Role designer, select actions, like read, write, or delete.
-1. Select the scope for performing those actions. Scope determines how deep or high in the environments hierarchy a user can perform a particular action. In the **Role Name** box, enter *Pet Grooming Technicians*.
-1. On the **Custom Entities** tab, find the custom entity you want. For this example, the custom entity named **Pet** is used.
-1. On the **Pet** row, select each of the following privileges four times, until the global organization scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Read**, **Write**, and **Append**.
+1. For your new app, select the **More Commands** button (**...**), and then click **Share**.
+1. In the **Share this app** dialog box, under **Create a security role**, click the **Security Setting** link.
+1. On the **All Roles** page, click **New**.
+1. In the **Role Name** box, enter *Pet Grooming Technicians*.
+1. In the Security Role designer, on the **Custom Entities** tab, find the **Pet** entity.
+1. On the **Pet** row, click **Read**, **Write**, and **Append** four times, to set the scope for each to *organization* ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **.
 
     ![New security role](../media/custom-security-role.png)
 
-1. The pet grooming app also has a relationship with the account entity. Therefore, on the **Core Records** tab, on the **Account** row, select the **Read** privilege four times, until the global organization scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected.
-1. Select **Save and Close**.
-1. In the Security Role designer, in the **Role Name** box, enter *Pet Grooming Schedulers*.
-1. On the **Custom Entities** tab, find the **Pet** entity.
-1. On the **Pet** row, select each of the following privileges four times, until the global organization scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
-1. The pet grooming app also has a relationship with the account entity, and schedulers must be able to create and change account records. Therefore, on the **Core Records** tab, on the **Account** row, select each of the following privileges four times, until the global organization scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
+1. The pet grooming app also has a relationship with the account entity. On the **Core Records** tab, on the **Account** row select the **Read** privilege four times until it is set to *organization* scope ![Global organization scope](../media/organizational-scope-privilege.png). 
+1. Click **Save and Close**. 
+1. In the Security Role designer, in the **Role Name** box, enter *Pet Grooming Schedulers*. 
+1. On the **Custom Entities** tab, find the **Pet** entity. 
+1. On the **Pet** row, click each of the following privileges four times, until the *organization* scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
+1. The pet grooming app also has a relationship with the account entity, and schedulers must be able to create and change account records. Therefore, on the **Core Records** tab, on the **Account** row, select each of the following privileges four times, until the *organization* scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
 1. Select **Save and Close**.
 
 ## Assign security roles to users
@@ -75,7 +74,7 @@ Security roles control a user's access to data through a set of access levels an
 Next, one or more security roles must be assigned to the app. The apps that users can use depends on the security roles they're assigned to.
 
 1. In the **Share this app** dialog box, under **Add the security role to your app**, select **My Apps**.
-2. On the tile for the Contoso Pet Grooming app, select the **More options** button (**...**), and then select **Manage Roles**.
+2. On the tile for your Pet Grooming app, select the **More options** button (**...**), and then select **Manage Roles**.
 
     ![Manage roles for the app](../media/manage-roles.png)
 

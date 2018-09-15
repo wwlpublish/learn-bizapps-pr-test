@@ -38,13 +38,14 @@ quiz:
       isCorrect: false
   - content: Which two groups need to know about environments?
     choices:
-    - content: Administrators.
-      correctExplanation: Only administrators can create environments.
-      isCorrect: true
-    - content: App users.
+    - content: Administrators and App users.
+      correctExplanation: App users can open shared apps, no matter which environment they are created in.
+      isCorrect: false
+    - content: App users and App designers.
       incorrectExplanation: App users can open shared apps regardless of the environment in which the apps were created.
       isCorrect: false
-    - content: App designers.
-      incorrectExplanation: App designers don't need to know about environments.
-      isCorrect: false
+    - content: App designers and Administrators.
+      incorrectExplanation: App designers need to select the correct environment for their apps, and Administrators can create environments.
+      isCorrect: true
+
       

@@ -2,86 +2,64 @@
 achievements:
 - uid: learn.automate-process-using-flow.trophy
   type: trophy
-  ## Note: Trophies are for learning paths.
   title: Automate a business process using Flow Trophy
   summary: Trophy for the 'Automate a business process using Flow' learning path.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/automate-process-using-flow.svg
 - uid: learn.create-powerapps.trophy
   type: trophy
   title: Create an app in PowerApps Trophy
   summary: Trophy for the 'Create an app in PowerApps' learning path.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/create-powerapps.svg
 - uid: learn.customer-service-hub-cases-slas.trophy
   type: trophy
   title: Work with cases and SLAs in Dynamics 365 for Customer Service
   summary: Trophy for the 'Work with cases and SLAs in Dynamics 365 for Customer Service' learning path.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/work-with-cases-and-slas-in-dynamics-365-for-customer-service.svg
 - uid: learn.create-app-models-business-processes.trophy
   type: trophy
   title: Create a model-driven application
   summary: Trophy for the 'Create a model-driven application' learning path.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/create-app-models-business-processes.svg
 - uid: learn.create-use-analytics-reports-power-bi.trophy
   type: trophy
   title: Create and use analytics reports with Power BI
   summary: Trophy for the 'Create and use analytics reports with Power BI' learning path.
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.sample-module-bizapps.badge
-  type: badge
-  ## Note: Badges are for modules.
-  title: Sample Module with CloudShell Badge
-  summary: Badge for the 'Sample Module with CloudShell' module.
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.sample-module-dynamics.badge
-  type: badge
-  title: Sample Module Dynamics Badge
-  summary: Badge for the 'Sample Module Dynamics' module.
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.sample-module-power-apps.badge
-  type: badge
-  title: Sample Module Power Apps Badge
-  summary: Badge for the 'Sample Module Power Apps' module.
-  iconUrl: http://via.placeholder.com/120x120
-- uid: learn.sample-module-power-bi.badge
-  type: badge
-  title: Sample Module Power BI Badge
-  summary: Badge for the 'Sample Module PowerBI' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/create-use-analytics-reports-power-bi.svg
 - uid: learn.customer-service-cases.badge
   type: badge
   title: Customer Service Cases Badge
   summary: Badge for the 'Customer Service Cases' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-cases-for-dynamics-365-customer-service.svg
 - uid: learn.customer-service-get-started.badge
   type: badge
   title: Get started with Customer Service for Dynamics 365 Badge
   summary: Badge for the 'Get started with Customer Service for Dynamics 365' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-dynamics-365-for-customer-service.svg
 - uid: learn.powerapps-customize.badge
   type: badge
   title: Customize and manage PowerApps Badge
   summary: Badge for the 'Customize and manage PowerApps' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
 - uid: learn.powerapps-get-started.badge
   type: badge
   title: Get started with PowerApps Badge
   summary: Badge for the 'Get started with PowerApps' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-powerapps.svg
 - uid: learn.powerapps-manage.badge
   type: badge
   title: Manage your PowerApps Badge
   summary: Badge for the 'Manage your PowerApps' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/manage-apps-in-powerapps.svg
 - uid: learn.flow-create-approval.badge
   type: badge
   title: Create an approval flow Badge
   summary: Badge for the 'Create an approval flow' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/use-flow-to-create-an-approval-flow.svg
 - uid: learn.flow-get-started.badge 
   type: badge
   title: Get started with Microsoft Flow badge
   summary: Badge for the 'Get started with Microsoft Flow' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-flow.svg
 - uid: learn.build-your-first-report.badge 
   type: badge
   title: Create and share your first Power BI report
@@ -96,7 +74,7 @@ achievements:
   type: badge
   title: Get started with model-driven apps
   summary: Badge for the 'Get started with model-driven apps' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-model-driven-apps-in-powerapps.svg
 - uid: learn.powerapps-business-process-flow.badge 
   type: badge
   title: Get started with business process flows
@@ -106,4 +84,4 @@ achievements:
   type: badge
   title: Get started with the Common Data Service
   summary: Badge for the 'Get started with the Common Data Service' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
