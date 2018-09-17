@@ -24,7 +24,7 @@ Customers today are more informed than ever. Customers are used to getting what 
 Think of the typical process of buying a TV:
 
 1. Before you go to the store to buy the item, you probably do some research on the internet.
-1. You might select several TVs, and compare the different options and features.
+1. You might select several TVs and compare the different options and features.
 1. You'll likely check out customer reviews and determine which TV you think is best before you set foot in a store.
 1. After you're in the store, you might engage with a sales rep, but you already have a good idea of what you're looking for.
 

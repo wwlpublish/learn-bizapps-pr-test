@@ -54,20 +54,20 @@ In Power BI, a **tile** is a single visualization on a report or a dashboard. It
 
 ![Power BI tiles](../media/pbi-bblocks_04.png)
 
-When you're *creating* a report or a dashboard in Power BI, you can move or arrange tiles to reflect the way you want to present your information. You can make them bigger, change their height or width, and snuggle them up to other tiles however you want.
+When you're *creating* a report or a dashboard in Power BI, you can move or arrange tiles however you want. You can make them bigger, change their height or width, and snuggle them up to other tiles.
 
 When you're *viewing*, or *consuming*, a dashboard or report—which means you're not the creator or owner, but the report or dashboard has been shared with you—you can interact with it, but you can't change the size of the tiles or their arrangement.
 
 ## All together now
 Those are the basics of Power BI and its building blocks. Let's take a moment to review.
 
-Power BI is a collection of services, apps, and connectors that lets you connect to your data, wherever it happens to reside, filter it if necessary, and then bring it into Power BI, where you can create compelling visualizations that you can share with others.
+Power BI is a collection of services, apps, and connectors that lets you connect to your data, wherever it happens to reside, filter it if necessary, and then bring it into Power BI to create compelling visualizations that you can share with others.
 
 Now that you've learned about the handful of basic building blocks of Power BI, it should be clear that you can create datasets that make sense *to you* and create visually compelling reports that tell your story. Stories told with Power BI don't have to be complex, or complicated, to be compelling.
 
 For some people, using a single Excel table in a dataset and then sharing a dashboard with their team will be an incredibly valuable way to use Power BI.
 
-For others, the value of Power BI will come from being able to use real-time Azure SQL Data Warehouse tables that combine with other databases and real-time sources, which are then filtered in real time to build a dataset that monitors moment-by-moment manufacturing progress.
+For others, the value of Power BI will be in using real-time Azure SQL Data Warehouse tables that combine with other databases and real-time sources to build a moment-by-moment dataset.
 
 For both groups, the process is the same: create datasets, build compelling visuals, and share them with others. And the result is also the same for both groups: harness your ever-expanding world of data, and turn it into actionable insights.
 
