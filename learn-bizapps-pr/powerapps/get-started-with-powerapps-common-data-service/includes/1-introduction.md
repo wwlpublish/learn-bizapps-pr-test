@@ -7,28 +7,17 @@ Common Data Service for Apps includes a base set of standard entities that suppo
 
 ![Illustration showing an overview of the Business Application Platform](../media/platform.png)
 
-<<<<<<< HEAD
 Dynamics 365 applications, including Dynamics 365 for Sales, Service, and Talent, use Common Data Service for Apps to store and secure data used by the applications. This means you can build apps using PowerApps and Common Data Service for Apps directly against your core business data already used within Dynamics 365 without the need for manual integration.
 
     > [!NOTE]
     > Dynamics 365 for Finance and Operations and Dynamics 365 for Retail currently require the configuration of the Data Integrator to make your business data available within Common Data Service for Apps.
-=======
-Dynamics 365 applications, including Dynamics 365 for Sales, Dynamics 365 for Service, and Dynamics 365 for Talent, use CDS for Apps to store and help secure the data they use. This means you can use PowerApps and CDS for Apps to build apps directly against core business data that's already used in Dynamics 365, without having to do manual integration.
-
-> [!NOTE]
-> Dynamics 365 for Finance and Operations and Dynamics 365 for Retail currently require you to set up the Data Integrator to make your business data available in CDS for Apps.
->>>>>>> master
 
 ![Screenshot showing a list of entities](../media/entitylist.png "Entity list")
 
 For most organizations, it's a good idea to use the standard entities and attributes as they were intended. But to meet your business needs, you can extend the functionality of standard entities by creating one or more custom entities to store information that's unique to your organization. 
 
 ## Logic and validation
-<<<<<<< HEAD
 Entities within Common Data Service for Apps can leverage rich server-side logic and validation to ensure data quality. You can also reduce repetitive code in each app that creates and uses data within an entity.
-=======
-Entities in CDS for Apps can take advantage of rich server-side logic and validation to ensure data quality. You can also reduce repetitive code in each app that creates and uses data in an entity.
->>>>>>> master
 
 * **Business rules**: Business rules validate data across multiple fields and entities, and provide warning and error messages, regardless of the app that's used to create the data. 
 * **Business process flows**: Business process flows guide users to ensure they enter data consistently and follow the same steps every time. Business process flows are currently supported only for model-driven apps.
@@ -36,8 +25,4 @@ Entities in CDS for Apps can take advantage of rich server-side logic and valida
 * **Business logic with code**: Business logic supports advanced developer scenarios that extend the application directly through code. 
 
 ## Security
-<<<<<<< HEAD
 Data in Common Data Service for Apps is securely stored so that users can see it only if you grant them access. Role-based security, based on the Dynamics 365 system allows you to control access to entities for different users within your organization.
-=======
-Data in CDS for Apps is securely stored so that users can see it only if you grant them access. Role-based security, based on the Dynamics 365 system, lets you control access to entities for different users in your organization.
->>>>>>> master

@@ -18,7 +18,7 @@ When you add data to a template file, you must make sure the data is unique. You
 
 ## Import the file
 1. In the left navigation pane, expand **Data**, and then select **Entities**.
-1. Select the **Pets** entity, select **Get Data**, and then select **Get data from Excel**.
+1. Select the **Pet** entity, select **Get Data**, and then select **Get data from Excel**.
 1. Select the file that you created.
 1. After the file is uploaded, and the **Mapping status** field indicates that mapping was successful, select **Import** in the upper-right corner.
 
