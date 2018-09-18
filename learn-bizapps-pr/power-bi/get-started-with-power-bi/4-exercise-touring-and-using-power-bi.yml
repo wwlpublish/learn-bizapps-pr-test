@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-power-bi.4-exercise-touring-and-using-power-bi
 metadata:
-  title: Exercise - Tour and use the Power BI service
-  description: Exercise - Tour and use the Power BI service
+  title: Tour and use the Power BI service
+  description: Tour and use the Power BI service
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-title: Exercise - Tour and use the Power BI service
+title: Tour and use the Power BI service
 durationInMinutes: 12
 content: |
  [!include[](includes/4-exercise-touring-and-using-power-bi.md)]
