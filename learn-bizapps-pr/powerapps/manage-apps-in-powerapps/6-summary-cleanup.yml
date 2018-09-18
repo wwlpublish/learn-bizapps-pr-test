@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-manage.6-summary-cleanup
 metadata:
-  title: Summary and cleanup
-  description: Summary and cleanup
+  title: Summary
+  description: Summary
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Summary and cleanup
+title: Summary
 durationInMinutes: 2
 content: |
  [!include[](includes/6-summary-cleanup.md)]
