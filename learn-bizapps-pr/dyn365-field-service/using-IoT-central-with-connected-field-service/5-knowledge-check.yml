@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.using-IoT-central-with-connected-field-service.5-knowledge-check
+title: Using IoT Central with Connected Field Service
+metadata:
+  title: Using IoT Central with Connected Field Service
+  description: This quiz will test your knowledge of Using IoT Central with Connected Field Service.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: amsilb
+  ms.author: amsilb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Check your Knowledge
+durationInMinutes: 10
+quiz:
+  title: Using IoT Central with Connected Field Service Quiz
+  questions:
+  - content: Question 1
+    choices: 
+    - content: 
+      correctExplanation: 
+      isCorrect: 
+    - content: 
+      incorrectExplanation: 
+      isCorrect: 
+    - content: 
+      incorrectExplanation: 
+      isCorrect: 
+    - content: 
+      incorrectExplanation: 
+      isCorrect: 
