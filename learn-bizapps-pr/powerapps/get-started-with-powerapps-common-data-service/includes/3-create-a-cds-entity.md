@@ -8,10 +8,6 @@ In this unit, you'll create an entity and then customize key components, like fi
 
 The tutorial follows the Contoso company, which is a pet grooming business that grooms dogs and cats. Contoso needs an app for client and pet tracking that can be used by employees on a variety of devices.
 
-## Prerequisites
-
-Sign in to [Microsoft PowerApps](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc). If you don't already have a PowerApps account, select the **Get started free** link on [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
-
 ## Create a custom entity
 
 1. In the left navigation pane, expand **Data**, select **Entities**, and then select **New entity**.
