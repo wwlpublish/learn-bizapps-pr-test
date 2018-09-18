@@ -37,7 +37,7 @@ Tasks to complete for this scenario:
 
 1. Add a new account for Coho Consulting.
 2. Add a contact record from Wendy Smith to Coho Consulting.
-3. Create a new case for Coho Consulting. This case will have the following information:
+3. Create a new case for Coho Consulting. 
 
 **Add a new account for Coho Consulting**
 

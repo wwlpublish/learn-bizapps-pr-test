@@ -1,7 +1,7 @@
 Welcome to Microsoft PowerApps. This self-paced online module helps you build apps from the ground up.
 
  In this module, you will:
-  - Explore how PowerApps can make your business more efficent.
+  - Explore how PowerApps can make your business more efficient.
   - Understand which technologies to use to perform tasks in PowerApps.
   - Understand the different ways to build an app in PowerApps.
   - Create your first app from data in a Microsoft Excel workbook.
