@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
-    <title>get-started-with-microsoft-flow</title>
+    <title>Automate a process using Flow/get-started-with-microsoft-flow</title>
     <desc>Created with Sketch.</desc>
     <defs>
         <rect id="path-1" x="0" y="0" width="96" height="96" rx="48"></rect>
@@ -24,12 +24,12 @@
     </defs>
     <g id="Badges-FINAL" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
         <g id="Automate-a-process-using-Flow" transform="translate(-576.000000, -320.000000)">
-            <g id="get-started-with-microsoft-flow" transform="translate(576.000000, 320.000000)">
+            <g id="Automate-a-process-using-Flow/get-started-with-microsoft-flow" transform="translate(576.000000, 320.000000)">
                 <g id="Mask" transform="translate(2.000000, 2.000000)">
                     <mask id="mask-2" fill="white">
                         <use xlink:href="#path-1"></use>
                     </mask>
-                    <use id="BG" fill="#F2D969" xlink:href="#path-1"></use>
+                    <use id="BG" fill="#B7D2F7" xlink:href="#path-1"></use>
                     <g id="Group-7" mask="url(#mask-2)">
                         <g transform="translate(26.000000, 46.000000)">
                             <path d="M16.8118104,0.837436971 C18.4506823,1.09146157 19.7136168,2.16307458 20.303575,3.53840146 C21.1534846,2.22834906 22.7646309,1.52858462 24.3745456,1.92998143 C25.0717354,2.10381038 25.6218533,2.51459808 26.1366591,2.94208919 C28.2582777,4.70162079 34.4160064,9.76470545 34.4160064,9.76470545 C36.7680324,11.8243936 37.8499358,15.0306183 37.0978611,18.0470251 L36.1447493,21.8697477 C34.2093137,29.6323561 29.7805204,28.6564453 28.8430126,32.4165838 L28.1172469,35.327471 L7.59010178,30.2094789 C9.19349962,23.7786014 8.30079462,21.1111519 6.82722333,17.6519084 C5.35365204,14.1926649 4.80198113,13.2821577 6.07207108,8.18810513 C6.57197688,6.18309248 9.35787415,5.14254673 11.3783317,5.64630338 L10.1082418,10.7403559 L11.6985758,4.36187441 C12.2683019,2.07682798 14.4676574,0.473267636 16.8118104,0.837436971 Z" id="Fill-13" fill="#84522D"></path>
@@ -61,7 +61,7 @@
                         </g>
                     </g>
                 </g>
-                <g id="Power-BI-Border" stroke="#F2C811" stroke-width="4">
+                <g id="Flow-Border" stroke="#0066FF" stroke-width="4">
                     <rect id="Azure-Border" x="2" y="2" width="96" height="96" rx="48"></rect>
                 </g>
             </g>
