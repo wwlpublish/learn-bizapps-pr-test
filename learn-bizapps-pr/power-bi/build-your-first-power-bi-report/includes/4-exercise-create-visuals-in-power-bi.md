@@ -51,9 +51,9 @@ Select any blank area of the canvas, so that no visual is selected. You're now r
 
 **Second visual**
 
-Drag **State** from **RetirementStats** onto a blank area of the canvas. Then drag the **State** field, then the **Health care quality** field, and then the **Well-being** field onto that visual. Now let's change the visual to a **Line and clustered column chart** visual by selecting the appropriate tile in the **Visualizations** pane.
+Drag **State** from **RetirementStats** onto a blank area of the canvas. Then drag the **Overall rank** field, then the **Health care quality** field, and then the **Well-being** field onto that visual. Now let's change the visual to a **Line and clustered column chart** visual by selecting the appropriate tile in the **Visualizations** pane.
 
-We're almost done. On the **Fields** tab, move the **Well-being** field to the **Line values** well. The following image shows what your visual should now look like.
+We're almost done. On the **Fields** tab, move the **Well-being** field to the **Line values** well. The following image shows what your visual should now look like. Note that the order of the fields in each bucket will change how a visual appears. For example, **Health care quality** is above **Overall rank** in the **Column values** bucket, shown in the following image. 
 
 ![Finished visual](../media/pbid-visuals_04d.png)
 

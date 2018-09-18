@@ -17,7 +17,7 @@ quiz:
   - content: Which of the following tools let you shape data sources?
     choices: 
     - content: The Get Data menu item.
-      correctExplanation: The Get Data menu item connects you to data, but doesn't let you shape data.
+      incorrectExplanation: The Get Data menu item connects you to data, but doesn't let you shape data.
       isCorrect: false
     - content: A browser.
       incorrectExplanation: A browser does not let you shape data.
@@ -26,7 +26,7 @@ quiz:
       incorrectExplanation: The Power BI service lets you view and interact with reports and dashboards, but doesn't let you shape data.
       isCorrect: false
     - content: Power Query Editor.
-      incorrectExplanation: The Power Query Editor is the tool used to shape and transform data.
+      correctExplanation: The Power Query Editor is the tool used to shape and transform data.
       isCorrect: true
   - content: Which of the following statements is true about shaping data with Power BI Desktop?
     choices:
