@@ -17,9 +17,9 @@ abstract: |
     - Create a flow that automatically saves email attachments
     - Learn also learn how to create a button flow to send yourself a reminder
 prerequisites: |
+    - Signed up for Microsoft Flow
+    - Have a OneDrive for Business account
 #TODO: Add links to these.
-  - Signed up for Microsoft Flow
-  - Have a OneDrive for Business account
 iconUrl: /learn/achievements/get-started-with-flow.svg
 levels:  
 - beginner 
