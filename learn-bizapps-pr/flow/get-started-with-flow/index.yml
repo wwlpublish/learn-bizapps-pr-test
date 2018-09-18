@@ -12,8 +12,14 @@ metadata:
   #ms.learn-contact: margoc
 title: Get started with Microsoft Flow 
 summary: Microsoft Flow is an online workflow service that automates events (known as *workflows*) across the most common apps and services.
-abstract: In this module, you will create a flow that automatically saves email attachments. You'll learn also learn how to create a button flow to send yourself a reminder.
-prerequisites: You must have signed up for Microsoft Flow, and have a OneDrive for Business account.
+abstract: |
+    In this module, you will:
+    - Create a flow that automatically saves email attachments
+    - Learn also learn how to create a button flow to send yourself a reminder
+prerequisites: |
+#TODO: Add links to these.
+  - Signed up for Microsoft Flow
+  - Have a OneDrive for Business account
 iconUrl: /learn/achievements/get-started-with-flow.svg
 levels:  
 - beginner 
