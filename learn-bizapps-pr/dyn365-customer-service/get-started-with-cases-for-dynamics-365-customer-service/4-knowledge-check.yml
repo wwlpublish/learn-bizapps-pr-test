@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.customer-service-get-started.4-quiz-customer-service
+uid: learn-bizapps.customer-service-cases.4-customer-service-cases-get-started-quiz
 metadata:
-  title: Customer Service knowledge check
-  description: This knowledge check will test your knowledge of Dynamics 365 for Customer Service.
+  title: "Knowledge check: Managing cases"
+  description: This knowledge check tests your knowledge of how to work with cases.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
@@ -10,43 +10,43 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-customer-service
 title: Check your knowledge
-durationInMinutes: 5
+durationInMinutes: 3
 quiz:
-  title: Customer Service knowledge check
+  title: "Knowledge check: Managing cases"
   questions:
-  - content: Which of the following statements about modern customer service is true?
+  - content: Which of these is a key performance indicator (KPI)?
     choices: 
-    - content: Engagement through Facebook and Twitter is important and growing.
-      correctExplanation: More and more, customers use social media platforms to communicate with companies. Therefore, these platforms are becoming a critical component in the process of solving issues that customers have with products and services.
+    - content: Customer Satisfaction (CSAT).
+      correctExplanation: CSAT is one of the most important KPIs a company can have.
       isCorrect: true
-    - content: Connecting products like switches and mechanical parts to the internet isn't part of customer service.
-      incorrectExplanation: To the extent that connected products become part of the Internet of Things, data collected through the connections can be an important part of the data that's used in customer service.
+    - content: Latency.
+      incorrectExplanation: Latency isn't a KPI. It measures anomalies in a network that can slow it down.
       isCorrect: false
-    - content: The Internet of Things is part of self-service.
-      incorrectExplanation: Self-service doesn't typically include the Internet of Things. Self-service includes things like a knowledge base and searchable support websites.
+    - content: Average load time.
+      incorrectExplanation: Average Handle Time is the average duration of a transaction and is an important KPI. Average load time refers to website performance and isn't a KPI.
       isCorrect: false
-    - content: Data collected from the Internet of Things is contained in knowledge bases.
-      incorrectExplanation: Data from connected products isn't collected in knowledge bases. Knowledge base articles are developed by a company or service organization to help them respond to issues that customers have with products or services. 
+    - content: Cost per resolution.
+      incorrectExplanation: Cost per Contact is a KPI that measures the cost in dollars of a customer contact. Cost per resolution isn't a KPI.
       isCorrect: false
-  - content: Which of the following statements about social media is true?
+  - content: Which of the following statements about cases is true?
     choices:
-    - content: Knowledge bases are an important part of social media because everybody shares the information collected there.
-      incorrectExplanation: This is only indirectly true. Knowledge bases form a history of product and service issues that agents can use. Some of the issues can come from social media and other sources.
+    - content: Only one case can be associated with a customer's record.
+      incorrectExplanation: Multiple cases can be associated with a customer record.
       isCorrect: false
-    - content: Social media includes Instagram.
-      correctExplanation: Social media includes any service where people share information and post questions. Instagram, Facebook, and Twitter are just a few of the many examples.
+    - content: Cases are the fundamental record type of service management.
+      correctExplanation: Service management is based primarily on customer cases.
       isCorrect: true
-    - content: Social media is a slow process and isn't effective for solving customer issues.
-      incorrectExplanation: Social media provides a platform where customer issues can be handled directly and swiftly, especially if the answer is quick and simple.
+    - content: All associated activities for a case record can be incomplete before the case can be closed.
+      incorrectExplanation: A case record cannot have incomplete activities. The user will be informed that incomplete activities will be canceled when the case is closed.
       isCorrect: false
-  - content: Which of the following is NOT part of a modern customer journey to get help for a product or service?
+  - content: Which of the following statements about canceling and deleting cases is true?
     choices:
-    - content: Automated bots that are programmed to answer a customer's search questions.
-      incorrectExplanation: If automated bots are carefully designed, they can be an integral part of the modern customer journey to get help, because they can answer questions based on a growing collection of information and solutions that a company has gathered from numerous sources and knowledge bases.
+    - content: Cases can always be deleted if the customer wants this to happen.
+      incorrectExplanation: Sometimes, a company's security policies prevent cases from being deleted.
       isCorrect: false
-    - content: What happens after a customer's issue is solved.
-      incorrectExplanation: What a company's service agents do after customer issues are solved is called post-engagement. This is becoming increasingly important for improving customer relationships, especially in the long term.
+    - content: A deleted case can be reactivated later.
+      incorrectExplanation: Deleting a case is a permanent action and can't be undone.
       isCorrect: false
-    - content: Walking into a store and filing a warranty claim about a defective part.
-      correctExplanation: The modern customer journey is becoming more about how customers can solve issues quickly and effectively. Chat sessions, social media, and website searches are much faster than talking to someone in a store.
+    - content: Cases can be reactivated if they're closed.
+      correctExplanation: If a customer has an issue that's related to a past case, the original case can be reactivated.
       isCorrect: true
