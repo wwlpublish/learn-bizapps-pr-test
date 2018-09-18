@@ -17,13 +17,13 @@ quiz:
   - content: What is the common flow of activity in Power BI? 
     choices:  
     - content: Create a report in Power BI mobile, share it to the Power BI Desktop, view and interact in the Power BI service. 
-      correctExplanation: You can't create reports in Power BI mobile; you create reports in Power BI Desktop. 
+      incorrectExplanation: You can't create reports in Power BI mobile; you create reports in Power BI Desktop. 
       isCorrect: false 
     - content: Create a report in the Power BI service, share it to Power BI mobile, interact with it in Power BI Desktop.
       incorrectExplanation: The common flow of activity in Power BI doesn't start with creating a report in the Power BI service. Commonly, the flow begins by creating a report in Power BI Desktop. 
       isCorrect: false 
     - content: Bring data into Power BI Desktop and create a report, share it to the Power BI service, view and interact with reports and dashboards in the service and Power BI mobile. 
-      incorrectExplanation: The Power BI service lets you view and interact with reports and dashboards, but doesn't let you shape data. 
+      correctExplanation: The Power BI service lets you view and interact with reports and dashboards, but doesn't let you shape data. 
       isCorrect: true 
     - content: Bring data into Power BI mobile, create a report, then share it to Power BI Desktop. 
       incorrectExplanation: You can't bring data directly into Power BI mobile, you connect to data and create reports in Power BI Desktop. 
