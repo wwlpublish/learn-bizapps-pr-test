@@ -18,7 +18,8 @@ abstract: |
   - Understand how you use different technologies to perform different tasks in PowerApps
   - Understand the different ways to build an app in PowerApps
   - Create your first app from data in an Excel workbook
-prerequisites: Access to Microsoft Excel, and OneDrive for Business.
+prerequisites: |
+ - Access to Microsoft Excel, and OneDrive for Business.
 iconUrl: /learn/achievements/get-started-with-powerapps.svg
 levels: 
 - beginner
