@@ -4,11 +4,7 @@ Microsoft PowerApps can help you out if you saved changes to an app that you sho
 
 1. On [web.powerapps.com](http://web.powerapps.com), select **Apps** near the left edge.
 
-<<<<<<< HEAD
 1. In the list of apps, select ellipsis (**...**), and then select **Details**.
-=======
-1. In the list of apps, select an ellipsis (**...**), and then select **Details**.
->>>>>>> master
 
     ![View app versions](../media/powerapps-versions-details2.png)
 
