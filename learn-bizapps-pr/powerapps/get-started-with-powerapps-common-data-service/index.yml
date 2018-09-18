@@ -15,7 +15,8 @@ summary: The Common Data Service for Apps lets you securely store and manage dat
 abstract: |
     In this module, you will:
     - Create entities with the Common Data Service for Apps. 
-prerequisites: None
+prerequisites: |
+  - A Microsoft PowerApps account. If you don't already have a PowerApps account, select the **Get started free** link on [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
 levels:  
 - beginner 

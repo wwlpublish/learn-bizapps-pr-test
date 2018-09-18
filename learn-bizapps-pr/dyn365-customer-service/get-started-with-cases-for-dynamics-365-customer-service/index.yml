@@ -1,22 +1,21 @@
 ### YamlMime:Module
-uid: learn-bizapps.customer-service-get-started
+uid: learn-bizapps.customer-service-cases
 metadata:
-  title: Get started with Dynamics 365 for Customer Service
-  description: Customer service is a key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers.
+  title: Get started with cases for Dynamics 365 for Customer Service
+  description: Get started with cases for Dynamics for Customer Service.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
-  #ms.learn-support: margoc
-title: Get started with Dynamics 365 for Customer Service
-summary: Customer service is a key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers.
+  ms.prod: learning-d365-customer-service
+   #ms.learn-support: margoc
+title: Get started with managing cases in Dynamics 365 for Customer Service
+summary: This module teaches you the basics of getting started with cases for Customer Service.
 abstract: |
     In this module, you will:
-    - Learn about the pieces of Dynamics 365 for Customer Service
-    - Learn how to optimize Dynamics 365 for Customer Service to improve your customer relations
-
+    - Learn how cases relate to key performance indicators and activities.
+    - Learn how cases can be resolved.
 prerequisites: None
 iconUrl: /learn/achievements/get-started-with-cases-for-dynamics-365-customer-service.svg
 levels: 
@@ -27,9 +26,9 @@ products:
 - bizapps
 - bizapps-d365
 units:
-- learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
-- learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components
-- learn-bizapps.customer-service-get-started.3-customer-service-get-started-modern
-- learn-bizapps.customer-service-get-started.4-quiz-customer-service
-- learn-bizapps.customer-service-get-started.5-summary-cleanup
-achievement: learn.customer-service-get-started.badge
+- learn-bizapps.customer-service-cases.1-customer-service-manage-cases
+- learn-bizapps.customer-service-cases.2-customer-service-automate-cases
+- learn-bizapps.customer-service-cases.3-practice-customer-service
+- learn-bizapps.customer-service-cases.4-customer-service-cases-get-started-quiz
+- learn-bizapps.customer-service-cases.5-summary-cleanup
+achievement: learn.customer-service-cases.badge

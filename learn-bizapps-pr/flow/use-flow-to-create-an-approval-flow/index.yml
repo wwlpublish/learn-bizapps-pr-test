@@ -12,8 +12,12 @@ metadata:
   #ms.learn-contact: margoc
 title: Create an approval flow 
 summary: Learn the basics of creating an approval flow for a SharePoint list.
-abstract: In this module, you will create an approval flow that uses a SharePoint list. You'll learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
-prerequisites: Rights to create a SharePoint list, a Twitter account
+abstract: |
+   In this module, you will:
+   - Create an approval flow that uses a SharePoint list. 
+   - Learn how to create a SharePoint list where people can suggest Twitter tweets that can later be approved and posted.
+prerequisites: |
+  - Rights to create a SharePoint list, a Twitter account
 iconUrl: /learn/achievements/use-flow-to-create-an-approval-flow.svg
 levels: 
 - beginner 
