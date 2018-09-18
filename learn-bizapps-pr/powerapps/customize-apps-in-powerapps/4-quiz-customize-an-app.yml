@@ -34,10 +34,10 @@ quiz:
       incorrectExplanation: The browse screen opens by default in apps that PowerApps generates.
       isCorrect: false
     - content: Edit/create screen
-      correctExplanation: When PowerApps generates an app, it contains browse, details, and edit/create screens.
+      incorrectExplanation: When PowerApps generates an app, it contains browse, details, and edit/create screens.
       isCorrect: false
     - content: Preview pane
-      incorrectExplanation: Although the Run button does start your app so that you can preview it, the Preview pane isn't a main screen.
+      correctExplanation: Although the Run button does start your app so that you can preview it, the Preview pane isn't a main screen.
       isCorrect: true
   - content: Which screen opens by default in apps that PowerApps generates?
     choices:
