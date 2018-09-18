@@ -13,10 +13,10 @@ metadata:
 title: Check your Knowledge
 durationInMinutes: 10
 quiz:
-  title: Using IoT Central with Connected Field Service Quiz
+  title: Using IoT Central with Connected Field Service quiz
   questions:
-   - content: Question 1
-     choices: 
+  - content: Question 1
+    choices: 
     - content: Engagement through Facebook and Twitter is important and growing.
       correctExplanation: More and more, customers use social media platforms to communicate with companies. Therefore, these platforms are becoming a critical component in the process of solving issues that customers have with products and services.
       isCorrect: true
