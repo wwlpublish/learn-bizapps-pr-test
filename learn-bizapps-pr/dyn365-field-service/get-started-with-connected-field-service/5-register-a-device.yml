@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.get-started-with-connected-field-service.5-register-a-service
-title: Register a service
+uid: learn-bizapps.get-started-with-connected-field-service.5-register-a-device
+title: Register a Service
 metadata:
-  title: Register a service
-  description: Register a service.
+  title: Register a Service
+  description: Register a Service.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 15
 content: |
-  [!include[](includes/5-register-a-service.md)]
+  [!include[](includes/5-register-a-device.md)]

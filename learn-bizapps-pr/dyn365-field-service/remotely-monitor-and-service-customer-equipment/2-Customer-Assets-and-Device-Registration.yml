@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.remotely-monitor-and-service-customer-equipment.2-Customer-Assets-and-Device-Registration
+title: Customer Assets and Device Registration 
+metadata:
+  title: Customer Assets and Device Regisration
+  description: Customer Assets and Device Regisration
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-Customer-Assets-and-Device-Registration.md)]
