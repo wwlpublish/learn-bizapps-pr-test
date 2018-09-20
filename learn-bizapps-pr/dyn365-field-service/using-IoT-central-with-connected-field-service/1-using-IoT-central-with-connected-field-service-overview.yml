@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.using-IoT-central-with-connected-field-service.1-using-IoT-central-with-connected-field-service-overview
+uid: learn-bizapps.using-iot-central-with-connected-field-service.1-using-iot-central-with-connected-field-service-overview
 title: Using IoT Central with Connected Field Service Overview
 metadata:
   title: Using IoT Central with Connected Field Service Overview
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 5
 content: |
-  [!include[](includes/1-using-IoT-central-with-connected-field-service-overview.md)]
+  [!include[](includes/1-using-iot-central-with-connected-field-service-overview.md)]

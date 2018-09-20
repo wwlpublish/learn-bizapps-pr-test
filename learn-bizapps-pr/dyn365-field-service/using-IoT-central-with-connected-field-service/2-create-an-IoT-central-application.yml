@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.using-IoT-central-with-connected-field-service.2-create-an-IoT-central-application
+uid: learn-bizapps.using-iot-central-with-connected-field-service.2-create-an-iot-central-application
 title: Create an IoT Central Application
 metadata:
   title: Create an IoT Central Application
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 5
 content: |
-  [!include[](includes/2-create-an-IoT-central-application.md)]
+  [!include[](includes/2-create-an-iot-central-application.md)]
