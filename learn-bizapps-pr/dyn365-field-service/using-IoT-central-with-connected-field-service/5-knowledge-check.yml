@@ -1,0 +1,31 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.using-IoT-central-with-connected-field-service.5-knowledge-check
+title: Using IoT Central with Connected Field Service
+metadata:
+  title: Using IoT Central with Connected Field Service
+  description: This quiz will test your knowledge of Using IoT Central with Connected Field Service.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: amsilb
+  ms.author: amsilb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Check your Knowledge
+durationInMinutes: 10
+quiz:
+  title: Using IoT Central with Connected Field Service quiz
+  questions:
+  - content: Question 1
+    choices: 
+    - content: Engagement through Facebook and Twitter is important and growing.
+      correctExplanation: More and more, customers use social media platforms to communicate with companies. Therefore, these platforms are becoming a critical component in the process of solving issues that customers have with products and services.
+      isCorrect: true
+    - content: Connecting products like switches and mechanical parts to the internet isn't part of customer service.
+      incorrectExplanation: To the extent that connected products become part of the Internet of Things, data collected through the connections can be an important part of the data that's used in customer service.
+      isCorrect: false
+    - content: The Internet of Things is part of self-service.
+      incorrectExplanation: Self-service doesn't typically include the Internet of Things. Self-service includes things like a knowledge base and searchable support websites.
+      isCorrect: false
+    - content: Data collected from the Internet of Things is contained in knowledge bases.
+      incorrectExplanation: Data from connected products isn't collected in knowledge bases. Knowledge base articles are developed by a company or service organization to help them respond to issues that customers have with products or services. 
+      isCorrect: false
