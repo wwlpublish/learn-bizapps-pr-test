@@ -24,7 +24,7 @@ To better understand the tradeoffs the following table offers a comparison betwe
 			</th>
         </tr>
     </thead>
-    <tbody>
+    
         <tr>
             <td>Primary Usage</td>
             <td>
@@ -52,7 +52,7 @@ To better understand the tradeoffs the following table offers a comparison betwe
         </tr>
             
         
-    </tbody>
+   
 </table>
 
 When you deploy the Connected Field Service add-in, which you will do in the next unit, the following diagram shows the components that are configured as part of the Connected Field Service template.

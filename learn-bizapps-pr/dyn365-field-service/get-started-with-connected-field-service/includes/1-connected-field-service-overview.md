@@ -33,7 +33,7 @@ When you install the Connected Field Service add-on, which you will be doing in 
             </th>
         </tr>
     </thead>
-    <tbody>
+   
         <tr>
             <td>IoT Alert</td>
             <td>
@@ -59,7 +59,7 @@ When you install the Connected Field Service add-on, which you will be doing in 
             <td>Tracks the history of device registration activities</td>
         </tr>       
         
-    </tbody>
+    
 </table>
 
 The solution also installs a number of workflows and actions that can be used to automate work as you customize your Connected Field Service solution.  Additionally, it installs a template solution for how to detect anomalies and raise alerts into Dynamics 365 for Field Service.
