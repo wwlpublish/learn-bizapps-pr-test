@@ -23,8 +23,8 @@ To better understand the tradeoffs the following table offers a comparison betwe
 				Connected Field Service Template/Azure Solution Accelerators
 			</th>
         </tr>
-    </thead>
-    
+   </thead>
+    <tbody>
         <tr>
             <td>Primary Usage</td>
             <td>
@@ -51,7 +51,7 @@ To better understand the tradeoffs the following table offers a comparison betwe
 			<td>Can be fine-tuned at the component level to manage cost</td>
         </tr>
             
-        
+  </tbody>      
    
 </table>
 
