@@ -1,3 +1,5 @@
+## Device Registration and Digital Twins
+
 When you begin to work with the Connected Field Service solution, you will find that there are two critical aspects that drive how effective the solution is when working with and administrating IoT devices.  These aspects are: 
 
 - Effectively registering IoT devices with either an Azure IoT Hub or IoT Central.  
