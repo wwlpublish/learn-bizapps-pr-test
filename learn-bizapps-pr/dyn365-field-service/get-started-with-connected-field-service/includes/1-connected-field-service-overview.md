@@ -23,15 +23,17 @@ As part of building an overall Connected Field Service solution, you may also be
 When you install the Connected Field Service add-on, which you will be doing in a later unit, it installs two solutions into your environment that builds on the Dynamics 365 for Field Service application.  The following entities are included in these solutions and are a key subset of entities that support the integration with Azure IoT; you will be working with these as you perform customizations:
 
 <table>
+	<thread>
       <tr>
-            <td>
+            <th>
                 Entity Name
-            </td>
-            <td>
+            </th>
+            <th>
                 Description
-            </td>
+            </th>
         </tr>
-     
+  	</thread>
+	<tbody>  
         <tr>
             <td>IoT Alert</td>
             <td>
@@ -56,7 +58,7 @@ When you install the Connected Field Service add-on, which you will be doing in 
             <td>IoT Device Registration History</td>
             <td>Tracks the history of device registration activities</td>
         </tr>       
-        
+     </tbody>  
     
 </table>
 
