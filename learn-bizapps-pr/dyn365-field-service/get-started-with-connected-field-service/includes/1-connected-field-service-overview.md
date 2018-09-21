@@ -8,7 +8,7 @@ In this module, we look at how Connected Field Service works with Azure IoT capa
 A simple way of thinking of a complete IoT solution would be to cover the following three key areas:
 
 
-![Modern customer journey](../media/1-gs-unit1.png)
+![IoT Key Areas-things, insights, actions](../media/1-gs-unit1.png)
 
 With all of the hype about Internet of Things, it is easy to focus on the low-level details of ingesting telemetry and forget about how to handle a problem that was detected and get a technician on site to resolve it.  
 
@@ -16,7 +16,7 @@ Connected Field Service is an important part of the Actions Based on Insights.  
 
 The following diagram is from the Microsoft Azure IoT Reference Architecture with a highlight around Business Integration which is where Connected Field Service fits in with the reference architecture.
 
-![Modern customer journey](../media/2-gs-unit1.png)
+![Core Subsystem of Key Areas](../media/2-gs-unit1.png)
 
 As part of building an overall Connected Field Service solution, you may also be involved in the generation of Insights as well.  For example, you might modify the stream processing to detect an anomaly in the telemetry.  Take a scenario where you are monitoring a temperature-controlled room.  Detecting the room suddenly has too high of a temperature is easy.  The higher business value is if you could detect and generate the insight as the temperature was slowly rising over a period of eight hours.  This would allow you to have a technician dispatched before the temperature reaching a point where it is a crisis for the customer.
 
