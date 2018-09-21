@@ -63,4 +63,6 @@ When you install the Connected Field Service add-on, which you will be doing in 
 </table>
 
 The solution also installs a number of workflows and actions that can be used to automate work as you customize your Connected Field Service solution.  Additionally, it installs a template solution for how to detect anomalies and raise alerts into Dynamics 365 for Field Service.
+
 In the next unit, we will look at the deployment options and how to choose what is appropriate for your solution.
+
