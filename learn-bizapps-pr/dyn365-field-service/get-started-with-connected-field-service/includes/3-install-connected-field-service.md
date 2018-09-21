@@ -15,43 +15,42 @@ See onboarding options for getting an environment [https://docs.microsoft.com/en
 
 ### Install Connected Field Service App
 
-<ol>
-		<li>Go to your Dynamics 365 org and click Switch to Another App</li>
+1. Go to your Dynamics 365 org and click Switch to Another App
 
 ![Switch Apps](../media/2-gs-unit3.png)
 
-		<li>Click Get More Apps</li>
+2. Click Get More Apps</li>
 
 ![Get more apps](../media/3-gs-unit3.png)
 
-		<li>Search for Connected Field Service and select it.</li>
+3. Search for Connected Field Service and select it.
 
 ![Select Connected Field Service App](../media/4-gs-unit3.png)
 
-		<li>Click GET IT NOW</li>
+4. Click GET IT NOW.
 
 ![Get it now button](../media/5-gs-unit3.png)
 
-		<li>Click Continue</li>
+5. Click Continue.
 
 ![Continue button](../media/6-gs-unit3.png)
 
-		<li>Select the organization and continue</li>
+6. Select the organization and continue.
 
 ![Organization selection](../media/7-gs-unit3.png)
 
-		<li>Click Accecpt</li>
+7. Click Accept.
 
 ![Permission requested accept](../media/8-gs-unit3.png)
 
-		<li>Read the Terms of Service and click Next.</li>
+8. Read the Terms of Service and click Next.
 
 ![Terms of Service](../media/9-gs-unit3.png)
 
-		<li>Click Next again.</li>
+9. Click Next again.
 
 ![Next button](../media/10-gs-unit3.png)
-</ol>
+
 
 ## Create Deployment
 
