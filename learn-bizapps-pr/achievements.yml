@@ -64,12 +64,12 @@ achievements:
   type: badge
   title: Create and share your first Power BI report
   summary: Badge for the 'Create and share your first Power BI report' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/build-your-first-power-bi-report.svg
 - uid: learn.get-started-with-power-bi.badge 
   type: badge
   title: Get started with Power BI badge
   summary: Badge for the 'Get started with Power BI' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-power-bi.svg
 - uid: learn.powerapps-design-model-driven-apps.badge 
   type: badge
   title: Get started with model-driven apps
@@ -79,7 +79,7 @@ achievements:
   type: badge
   title: Get started with business process flows
   summary: Badge for the 'Get started with business process flows' module.
-  iconUrl: http://via.placeholder.com/120x120
+  iconUrl: /learn/achievements/get-started-with-flow.svg
 - uid: learn.powerapps-common-data-service.badge 
   type: badge
   title: Get started with the Common Data Service
