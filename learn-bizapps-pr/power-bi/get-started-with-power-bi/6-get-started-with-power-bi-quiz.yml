@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-power-bi.6-get-started-with-power-bi-quiz 
+metadata: 
+  title: "Knowledge check: Get started with Power BI" 
+  description: This knowledge check tests your knowledge of getting started with Power BI. 
+  ms.date: 09/24/2018 
+  #TODO: Update with real author name. 
+  author: davidiseminger 
+  ms.author: davidi 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerbi 
+title: Check your knowledge 
+durationInMinutes: 10 
+quiz: 
+  title: "Knowledge check: Get started with Power BI" 
+  questions: 
+  - content: What is the common flow of activity in Power BI? 
+    choices:  
+    - content: Create a report in Power BI mobile, share it to the Power BI Desktop, view and interact in the Power BI service. 
+      incorrectExplanation: You can't create reports in Power BI mobile; you create reports in Power BI Desktop. 
+      isCorrect: false 
+    - content: Create a report in the Power BI service, share it to Power BI mobile, interact with it in Power BI Desktop.
+      incorrectExplanation: The common flow of activity in Power BI doesn't start with creating a report in the Power BI service. Commonly, the flow begins by creating a report in Power BI Desktop. 
+      isCorrect: false 
+    - content: Bring data into Power BI Desktop and create a report, share it to the Power BI service, view and interact with reports and dashboards in the service and Power BI mobile. 
+      correctExplanation: The Power BI service lets you view and interact with reports and dashboards, but doesn't let you shape data. 
+      isCorrect: true 
+    - content: Bring data into Power BI mobile, create a report, then share it to Power BI Desktop. 
+      incorrectExplanation: You can't bring data directly into Power BI mobile, you connect to data and create reports in Power BI Desktop. 
+      isCorrect: false 
+  - content: Which of the following are building blocks of Power BI? 
+    choices: 
+    - content: Tiles, dashboards, databases, mobile devices. 
+      incorrectExplanation: Tiles and dashboards are building blocks of Power BI, and while databases and mobile devices are important, they aren't among the building blocks. 
+      isCorrect: false 
+    - content: Visualizations, datasets, reports, dashboards, tiles. 
+      correctExplanation: Building blocks for Power BI are visualizations, datasets, reports, dashboards, tiles. 
+      isCorrect: true 
+    - content: Visual Studio, C#, and JSON files. 
+      incorrectExplanation: Power BI makes creating reports and interacting with data easy, and is not dependent on development languages or tools. 
+      isCorrect: false 
+  - content: A collection of ready-made visuals, pre-arranged in dashboards and reports is called what in Power BI? 
+    choices: 
+    - content: The canvas. 
+      incorrectExplanation: The canvas is the area in the center of Power BI Desktop or the Power BI service, and is blank until you create visuals or reports. 
+      isCorrect: false 
+    - content: Scheduled refresh. 
+      incorrectExplanation: Scheduled refresh lets you automatically update data for datasets, but is not a collection of ready-made visuals. 
+      isCorrect: false 
+    - content: An app. 
+      correctExplanation: An app is a collection of ready-made visuals, pre-arranged in dashboards and reports. You can get apps that connect to many online services from the AppSource.  
+      isCorrect: true 
