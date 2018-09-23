@@ -79,6 +79,7 @@
     "externalReference": [],
     "globalMetadata": {
       "breadcrumb_path": "/learn/breadcrumb/toc.json",
+      "ROBOTS": "NOINDEX, NOFOLLOW",
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "clicktale": true,
