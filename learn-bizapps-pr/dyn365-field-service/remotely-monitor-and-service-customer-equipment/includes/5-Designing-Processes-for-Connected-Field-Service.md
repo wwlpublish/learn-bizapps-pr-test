@@ -31,7 +31,7 @@ Additionally, you can execute Workflows when you enter or exit a specific stage 
 | **Display Name** | **Description** |
 | :-------------- | :--- |
 | **IoT- Register Customer Entity** | Registers any custom entity that may or may not already have connected IoT devices. This action invokes the IoT – register device action. |
-| **IoT- Register Device ** | Publishes the registration for an IoT device. |
+| **IoT- Register Device** | Publishes the registration for an IoT device. |
 | **IoT – Debounce IoT Alerts** | Links potential redundant alerts to an existing parent alert.  |
 
 
