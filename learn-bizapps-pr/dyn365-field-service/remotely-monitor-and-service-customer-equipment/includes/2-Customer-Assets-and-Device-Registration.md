@@ -11,6 +11,7 @@ When you want to track a specific piece of customer equipment at a customer loca
 ![Customer Asset record](../media/2-rm-unit2.png)   
 
 As mentioned in the previous unit, there are many instances when an IoT enabled customer asset might have multiple IoT sensors associated with it.  In these instances, each of these IoT sensors could have a customer asset created for them that is attached to the Master Asset record.   
+
 Connected Field Service uses Dynamics 365’s Connections and Connection Roles functionality to link Customer Asset records with IoT Device records.  There is a connection role called **“IoT Connected Device”**.  When a customer asset is registered as an IoT device, the connection is automatically created using this role.     
 
 ![Connected Devices](../media/3-rm-unit2.png)  
