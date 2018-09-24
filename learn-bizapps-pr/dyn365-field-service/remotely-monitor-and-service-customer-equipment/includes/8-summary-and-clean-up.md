@@ -1,4 +1,4 @@
-##Summary
+##Summary##
 In this module you remotely managed IoT devices using the Dynamics 365 Connected Field Service solution.  There are several items to go into monitoring and servicing remote devices.  
 
 We explored some of these items including:
@@ -10,7 +10,7 @@ We explored some of these items including:
   
 The next steps from here would be to gain a deeper understanding of interacting with devices.    This would include understanding how device twins can be used to report and query information.   You should also explore some of the additional feature available for interacting with devices using commands.  This would include items like device categories as well as command and property definitions.  
 
-##Cleaning up you Environment
+##Cleaning up you Environment##
 If you are done, and ready to clean up your environment we will need to remove all the items that we created in this exercise.  During this exercise, we created an **IoTAlertProcesses** solution to store all the customizations, workflows, and business process flows that we created.  This was done to not only make it easier to keep our changes together, but to also assist in the removal of these items upon completion of this module.  
 
 When you remove an unmanaged solution from Dynamics 365 it will only remove the container that groups the customizations together.  Each customization would need to be manually removed from the system in a specific order.  Rather than having to manually removing each process, relationship, and customization is a specific order, it is much easier to remove all the items at once.  This can be done by using a managed solution.  When you remove a managed solution, it removes all the items included in the solution as well.    This is the process that we will be using.  
