@@ -32,7 +32,7 @@ When you remove an unmanaged solution from Dynamics 365 it will only remove the 
 	- *Ignore any dependency or missing components messages since we will just be importing it back into the same environment.*
 	- *The file will export with a name of* ***IoTAlertProcesses_1_0_0_0.zip.***
 1. After the export process is complete, click the **Export** button again and follow the steps to export the solution as a **Managed** solution.
-	- *The file will export with a name of * ***IoTAlertProcesses_1_0_0_0_Managed.zip***
+	- *The file will export with a name of* ***IoTAlertProcesses_1_0_0_0_Managed.zip***
 1. With the **IoTAlertProcesses** *(unmanaged)* solution still selected, click the **Delete** button to remove the unmanaged solution from your environment. 
 	- ***Remember:*** *This will only remove the solution container; all customizations will remain.*
 1. Click the **Import** button and follow the prompts to import the **IoTAlertProcesses_1_0_0_0_managed.zip** file into your environment. 
