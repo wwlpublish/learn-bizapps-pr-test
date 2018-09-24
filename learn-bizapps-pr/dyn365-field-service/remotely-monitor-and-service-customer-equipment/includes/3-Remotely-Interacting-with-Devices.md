@@ -5,7 +5,7 @@ Dynamics 365 Connected Field Service solution contains several record types that
 The table below defines some of the key record types that are used.  
 
 | **Record Type** | **Use** |
-| :--- | :--- |
+| :-------------- | :--- |
 | **Device Category** | Allows for grouping of IoT devices by a specific category.  Device categories can be used in conjunction with Command Definitions for easier device management |
 | **Command** | Used to remotely interact with a connected IoT device by passing JSON commands the device. |
 | **Command Definition** | Used to predefine commands to streamline sending them to devices.  When creating a Command, a Command Definition can be selected, and any defined properties will be populated. |
