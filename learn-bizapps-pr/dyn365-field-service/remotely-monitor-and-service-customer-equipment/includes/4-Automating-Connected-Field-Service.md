@@ -73,7 +73,7 @@ Let’s say that we have a Smart Thermostat that is registered as an IoT Device.
 
 We can accomplish this by creating a workflow that does the following: 
 
-- Firsts executes the JSON -Based Field Value – Get Number action to capture the value of the “reading” property.
+- Firsts executes the **JSON -Based Field Value – Get Number** action to capture the value of the “reading” property.
 - Next it writes the output value returned to a custom field on the IoT Alert record for example Device Reading.
 - Another workflow could be triggered on the update of the Device Reading field, the does the following:
 	- If the Device Reading field is between 70 and 85: It will create a Command related to the IoT Alert that send a reset command to the device.
