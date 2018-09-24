@@ -6,10 +6,10 @@ The table below defines some of the key record types that are used.
 
 | **Record Type** | **Use** |
 | :--- | :--- |
-| **Device Category ** | Allows for grouping of IoT devices by a specific category.  Device categories can be used in conjunction with Command Definitions for easier device management |
-| **Command ** | Used to remotely interact with a connected IoT device by passing JSON commands the device. |
-| **Command Definition ** | Used to predefine commands to streamline sending them to devices.  When creating a Command, a Command Definition can be selected, and any defined properties will be populated. |
-| **Property Definition ** | Used to define specific properties that can be passed as part of a Command Definition. |
+| **Device Category** | Allows for grouping of IoT devices by a specific category.  Device categories can be used in conjunction with Command Definitions for easier device management |
+| **Command** | Used to remotely interact with a connected IoT device by passing JSON commands the device. |
+| **Command Definition** | Used to predefine commands to streamline sending them to devices.  When creating a Command, a Command Definition can be selected, and any defined properties will be populated. |
+| **Property Definition** | Used to define specific properties that can be passed as part of a Command Definition. |
 
 When you install and configure the Connected Field Service solution, you have the option to setup a Power BI chart.  This requires that you add a SQL database to your IoT Hub, and then connect it to a Power BI template that will assist in publishing device readings to a chart in Dynamics 365.   If you chose to configure Power BI, once the device is registered, you will be able to view readings sent by the device directly on the Customer Asset record.  By default, you can see the last 20 readings, but you can change the default settings in the report by using Power BI desktop. 
  
