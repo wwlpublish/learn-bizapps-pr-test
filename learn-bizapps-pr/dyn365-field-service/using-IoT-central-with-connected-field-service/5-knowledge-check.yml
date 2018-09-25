@@ -32,7 +32,7 @@ quiz:
       content: Use a Dynamics 365 workflow
       incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
       isCorrect: false
-- content: When an IoT Central rule is used to trigger the Microsoft Flow action what record type is created in Dynamics 365?
+  - content: When an IoT Central rule is used to trigger the Microsoft Flow action what record type is created in Dynamics 365?
     choices: 
     - content: Work order 
       incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
@@ -49,7 +49,7 @@ quiz:
     - content: Customer asset 
       incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
       isCorrect: false
-- content: In Azure IoT Central what do we create to describe our collection of devices that make up the application?
+  - content: In Azure IoT Central what do we create to describe our collection of devices that make up the application?
     choices: 
     - content: Customer asset
       incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
@@ -66,7 +66,7 @@ quiz:
       content: Device twins
       incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
       isCorrect: false
-- content: To be able to tag a device with its physical location (e.g. address) what would we create in Azure IoT Central to track that on the device?
+  - content: To be able to tag a device with its physical location (e.g. address) what would we create in Azure IoT Central to track that on the device?
     choices: 
     - content: Event
       incorrectExplanation: To be able to tag a device with its physical location you need to create a property on it.
