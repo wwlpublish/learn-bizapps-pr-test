@@ -81,5 +81,4 @@ quiz:
       isCorrect: false
     - content: It is determined by Dynamics 365 and not in the Azure configured components
       incorrectExplanation: Stream analytics has the logic to determine if an exception has occured in the telemetry.
-      isCorrect: false
-    
+      isCorrect: false   
