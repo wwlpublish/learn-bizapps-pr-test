@@ -1,37 +1,62 @@
-## Device Registration and Digital Twins
+## Device Registration and Digital Twins##
 
-When you begin to work with the Connected Field Service solution, you will find that there are two critical aspects that drive how effective the solution is when working with and administrating IoT devices.  These aspects are: 
+When you register a Customer Asset or an IoT Device from Connected Field Service (CFS) with an IoT Hub, a corresponding IoT device record is created in the IoT Hub.  The Device ID defined on the Customer Asset record will be passed to the IoT Device.  The IoT Device will also contain items like keys and connection strings that are used to connect a physical device to the IoT Device in the Hub.   
 
-- Effectively registering IoT devices with either an Azure IoT Hub or IoT Central.  
-- Effectively managing IoT devices and streamlining how you interact with them.   
+![Device Detail](../1-rg-unit2.png)
+ 
+Additionally, in the IoT Hub there is a corresponding Device Twin.  A Device Twin is a JSON document associated with a specific device that is used to synchronize state information between the device and an IoT hub.  In the case of Connected Field Service, it might be a Customer Asset that was registered with the IoT Hub.  The device twin holds metadata and configuration data of the device, as well as a virtual cloud representation of physical devices.   
 
-In this module, we will examine both of these items in much more detail.  However, before we do that let’s take a quick high-level look as them.   
+Below you can see snippet of what a Device Twin JSON document looks like. 
+![Device Twin JSON](../2-rg-unit2.png)
  
-**IoT Device Registration:**  
-When you want to track a specific piece of customer equipment at a customer location in Field Service, you create a Customer Asset record.  Since many Customer Assets will often be IoT enabled devices, customer assets can also be registered as IoT devices.  The IoT device entity plays a critical role in the Connected Field Service solution, because the IoT device entity is what is used to connect IoT devices with either an Azure IoT Hub or IoT Central.   IoT devices could represent a physical device or a non-physical device in the application.   
+From a Dynamics 365 standpoint, the Connected Field Service solution leverages device twins to store device-related in two primary ways: 
+Synchronize Device Conditions and Properties: Report operating conditions such as a device state, heartbeat for connectivity speed, machine vibration, and so on.  Leverage this information to gain visibility into device conditions and properties on a graphical dashboard.  
  
-**Device Management and Interaction** 
-Once your devices have been registered as IoT devices, readings from those devices will be captured and communicated back to the Azure IoT Hub or IoT Central.  When a device raises an exception, it will be sent back into Dynamics 365 as an alert.  For example, let’s say that you have a smart thermostat.  The smart thermostat will constantly send temperature readings to Azure IoT Hub or IoT Central.   As soon as a temperature reading that is outside of your specified threshold is discovered, it will generate an IoT alert record in Dynamics 365.  
+For example: You might have a holding tank that stores excess waste from a filtering process before it is disposed of.  The capacity of a tank could be monitored through IoT Hub and then represented on dashboard in Dynamics 365.   Once the tank’s capacity reaches a specific threshold, an alert is sent to designated users for follow-up action. 
+ 
+Synchronize Device Tags: Allows grouping of devices to make them easier to search and find. The tags are created in Connected Field Service and converted into JSON that is understood by a device. 
+ 
+For example: Customer assets needing a similar repair can be grouped using a tag. 
+ 
+A device twin JSON document contains three primary components that are used to not only capture relevant information to the device, but to assist in interaction with the device.   
 
-Many times, the first step in dealing with an IoT alert is to remotely interact with the device and send specific commands to the device.  The Connected Field Service solution contains several record types that can be leveraged to assist in remotely managing and interacting with these devices.   
+Those three components are: 
+- Tags 
+- Desired Properties 
+- Reported Properties 
 
-Let’s examine some of the key record types that Connected Field Service uses for device management and interaction.   
+The image below shows at a high level how these components are used. 
 
-**Device Category:** Device categories are used to group together multiple devices by the type of device it is.  Device categories can be leveraged for reporting purposes, management, and to simplify device interactions. 
+![Table of Use of Components](../3-rg-unit2.png)
  
-- **For Example:**  You might create temperature and humidity categories to separate out temperature related IoT devices or commands from IoT devices or commands that are more humidity focused.      
+Tags: 
+A tag does not communicate with the actual device, rather they can be set and read by a back-end application (in this case Connected Field Service) as a way of grouping or organizing devices together.  Device tags can be defined directly on the IoT Device record in Connected Field Service.   
+Note:  Setting and defining Properties and Tags will be covered in more detail in the Property Definition Unit.     
+
+For example:  You might use Tags to define the specific location of an IoT Device.  If the device is moved from one location to another, we can update the location in Connected Field Service, and the tag will be updated accordingly.   
+
+![Device Tags Settings](../4-rg-unit2.png)
  
-**Command:** A command record is the actual action or command that you want to execute against a specific IoT device.  They typically consist of different JSON properties that are passed to the device to do that does something to the device. 
+**Desired Properties:**
+Desired Properties work hand and hand with Reported Properties.  A desired property would be set by Connected Field Service and the device can read them as well as receive notifications of changes to them.  Like tags, Desired Properties can be defined directly on the IoT Device record in Connected Field Service.   
+For example:  Since the device is in building 34 and on floor 3, we know that the device should be on the Building 34 network and transmitting on channel 6.
+We can set those desired properties for that Device on the device’s record in Dynamics 365. 
+  
+![Device Settings in CFS](../5-rg-unit2.png)
  
-- **For Example:**  If you wanted to set the temperature and humidity of a device to specific values, you would pass the following JSON script to the device using a command record. 
-{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"60","Humidity":"40"}}} 
+**Reported Properties:** 
+Reported Properties work hand and hand with Reported Properties.  A reported property would be set by the device and Connected Field Service can read and query them.  Unlike Tags and Desired Properties, Reported Properties are not defined in Connected Field Service.  They can be retrieved when Device Data is pulled down into the application.   
+For example:  After the Wi-Fi network and transmitting channel properties are set on a device we can pull the device data (manually or on a schedule) and the current reported properties will be displayed in Connected Field Service.  This could be used to determine next steps in the application.   
  
-**Command Definition:** A command definition represents a predefined command that can be added directly to a command record.  The definition contains multiple pre-configured properties that can then be modified to help streamline the process of sending to devices.  When creating a command, a command definition can be selected.  Any properties in the definition will be populated with default values, but those values can be over ridden. 
+The Connected field service solution make it easy to define Device Tags and Desired properties through Property Definitions and Device Categories.  
+
+![Device Status](../6-rg-unit2.png) 
  
-- **For Example:**  You could create a command definition called set values.  In the command definition you could pre-define the parameters; such as reading, temperature, and humidity.  When the command definition is selected, it will auto-populate the command, and you can manually change any parameters needed.   
+**Device Categories:**
+Device Categories make it easier to group devices together based on commonalities.  You may create a Device Category to a specific type of device (Ex. Temperature) that is being deployed.  When a Device Category is created in Connected Field Service, you can define the specific Device Properties and Device Tags that are relevant to that device category.  
+
+![Device Properties](../7-rg-unit2.png)
  
-**Property Definition:** A property definition is used to define what specific properties are available and that can be passed as part of a command definition. 
- 
-- **For Example:** If you created the set values command definition as defined above each parameter such as reading, temperature, and humidity would have a property definition defined for them that was associated with the set values command definition.    
- 
-In future units, we will examine each of these element is much more detail.  
+When an IoT Device that uses the category is created in Connected Field Service, the Properties and Tags will automatically be added to the device.  You can then set those items directly from the device in CFS.  
+
+![Properties and Tags automatically added](../8-rg-unit2.png)
