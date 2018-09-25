@@ -173,6 +173,133 @@ To assist in automating items and actions based on IoT alerts, we will need to b
 
 1.	Click **Save and Close**.
 
+#### Task 3: Create a workflow to populate values
+
+Now that we have the field available to store the data that we need, we next need to populate those fields with the correct data.  To do this we will be leveraging some of the JSON –based field value actions that are included in the Connected Field Service solution.  We are going to create a workflow that executes a JSON – based field value action, to extract a specific piece of data from the alert data field, and then populate that data to one of the fields we created in the previous task.
+
+1.	In the **IoT Alert Process** solution, select **Processes** and click the **New**.
+![IoT Alert Process New](../media/12-rm-unit6.png)
+
+1.	Configure as follows:
+	- **Process Name:** *Populate Alert Fields*
+	- **Category:** *Workflow*
+	- **Entity:** *IoT Alert*
+![Create Process](../media/13-rm-unit6.png)
+
+1.	Click **OK**
+1.	Set the **Workflow Scope** to **Organization**
+1.	Click the **Add Step** button and choose **Perform Action**.
+![Perform Action](../media/14-rm-unit6.png)
+
+1.	Enter **Get the Reading Value** into the **Description**.
+1.	Choose the **JSON-Based Field Value – Get Number** action, click **Set Properties**.
+![Set Properties](../media/15-rm-unit6.png)
+
+1.	Set the Properties as follows:
+	- **Json:** *{Alert Data(IoT Alert)}*
+	- **PropertyPath:** *reading*
+	- **DefaultReturnValue:** *70*
+![Process: Populate Alert Fields](../media/16-rm-unit6.png)
+1.	Click **Save and Close**
+1.	Click the **Add Step** button again and choose **Perform Action**. 
+1.	Enter **Get the Threshold Value** into the **Description**.
+1.	Choose the **JSON-Based Field Value – Get Number** action, click **Set Properties**. 
+1.	Set the Properties as follows:
+	- **Json:** *{Alert Data(IoT Alert)}*
+	- **PropertyPath:** *threshold*
+	- **DefaultReturnValue:** *70*
+![JSON Based Field](../media/17-rm-unit6.png)
+1.	Click **Save and Close**.
+1.	Click the **Add Step** button again and choose **Perform Action**. 
+1.	Enter **Get the Reading Type Value** into the **Description**.
+1.	Choose the **JSON-Based Field Value – Get Boolean** action, click **Set Properties**. 
+1.	Set the Properties as follows:
+	- **Json:** *{Alert Data(IoT Alert)}*
+	- **PropertyPath:** *readingtype*
+	- **DefaultReturnValue:** *false*
+![Get Boolean](../media/18-rm-unit6.png)
+1.	Click **Save and Close**.
+1.	Click the **Add Step** button again and choose **Perform Action**. 
+1.	Enter **Get the Rule Output Value** into the **Description**.
+1.	Choose the **JSON-Based Field Value – Get String** action, click **Set Properties**. 
+1.	Set the Properties as follows:
+	- **Json:** *{Alert Data(IoT Alert)}*
+	- **PropertyPath:** *ruleoutput*
+	- **DefaultReturnValue:** *Alarm*
+![Get String](../media/19-rm-unit6.png)
+1.	Click **Save and Close**.
+1.	Click the **Add Step** button again and choose **Update Record**.
+1.	Enter **Populate Values** into the Description.
+1.	Make sure **IoT Alert** is selected, click Set Properties.  
+1.	Configure as follows:
+	- **Customer:** *{Account(Device(IoT Device))}*
+	- **Reading:** *{Value(Get the Reading Value)}*
+	- **Reading Type:** *{Value(Get the Reading Type Value)}*
+	- **Rule Output:** *{Value(Get the Rule Output Value)}*
+	- **Threshold:** *{Value(Get the Threshold Value)}*
+![IoT Alert Set Properties](../media/20-rm-unit6.png)
+1.	Click **Save and Close**.
+1.	Your completed workflow should resemble the image below:
+![Completed Workflow](../media/21-rm-unit6.png)
+1.	**Activate and Close** the **Populate Alert Fields** Workflow.
+
+#### Task 4: Create the remote reset workflow
+
+Now that we have extracted the correct data and placed it in the correct fields, we will need to create a workflow that will determine the temperature value in the reading field and if it falls between 71 and 85 degrees a IoT device command should be automatically created and sent to the device that will perform a device reset.  
+ 
+1.	In the **IoT Alert Process** solution, select **Processes**.
+1.	Click the **New** button
+1.	Configure as follows:
+	- **Process Name:** *Auto Remote Reset*
+	- **Category:** *Workflow*
+	- **Entity:** *IoT Alert*
+![Create Process](../media/22-rm-unit6.png)
+1.	Click **OK**
+1.	Set the **Workflow Scope** to **Organization**.
+1.	Uncheck **Start when Record is Created**, check **Record Fields Change**, and click **Select**.
+![Select](../media/23-rm-unit6.png)
+1.	Select **Reading** field and click **OK**.
+![Select Fields](../media/24-rm-unit6.png)
+1.	Click the **Add Step** button, select **Check Condition**.
+1.	Enter **Temp between 71 & 85** into the description
+1.	Select the condition and configure as follows:
+	1. **IoT Alert – Reading – Is Greater Than or Equal To – 71**
+	1. **IoT Alert – Reading – Is Less Than or Equal To - 85**
+![Check Condition](../media/25-rm-unit6.png)
+1.	Click **Save and Close**
+1.	Select the row beneath the condition and click the **Add Step** button.
+1.	Select **Create Record**, enter **Send Reset Command** in the description field, choose **IoT Device Command**, and select the **Set Properties** button.
+![Set Properties](../media/26-rm-unit6.png)
+1.	Configure the command as follows:
+	1. **Name:** *{IoT Alert(IoT Alert)} Device Reset*
+	1. **Customer Asset:** *{Customer Asset(IoT Alert)}*
+	1. **Device:** *{Device (IoT Alert)}*
+	1. **Device ID:** *{Device ID(Device (IoT Device))}*
+	1. **Parent Alert:** *{IoT Alert(IoT Alert)}*
+	1. **Message:** *{"CommandName":"Reset Thermostat","Parameters":{}}*
+![Configure Commands](../media/27-rm-unit6.png)
+1.	**Save and Close** the **Command** record.
+1.	Select the **Send Reset Command** row, click the **Add Step** button, and select **Change Status**.
+1.	Enter **Deactivate IoT Alert** into the **Description** field, set the **IoT Alert** record status to **Inactive**.
+![Send Reset Command](../media/28-rm-unit6.png)
+1.	Select the **IoT Alert Reading** condition, click the **Add Step** Button, and select **Default Action**.
+1.	Select the new **Row**, click the **Add Step** button, and choose **Stop Workflow**.
+1.	Your completed workflow should resemble the image below:
+![Completed Workflow](../media/29-rm-unit6.png)
+1.	Activate and Close the **Auto Remote Reset** workflow.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
