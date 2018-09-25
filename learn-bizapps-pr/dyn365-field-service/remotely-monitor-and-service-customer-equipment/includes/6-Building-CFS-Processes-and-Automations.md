@@ -158,7 +158,7 @@ To assist in automating items and actions based on IoT alerts, we will need to b
 
 1.	Configure the Relationship as follows:
 	- **Primary Entity:** *IoT Alert*
-	- **Related Entity:** *Case *
+	- **Related Entity:** *Case*
 	- **Display Name:** *IoT Alert*
 ![Relationship Definition](../media/9-rm-unit6.png)
 
@@ -296,7 +296,7 @@ Currently we are using a business process flow called CFS – IoT Alert Process 
 ![Add Existing](../media/30-rm-unit6.png)
 1.	Select the **CFS – IoT Alert Process Flow** and click **OK**.
 ![Select Solution Components](../media/31-rm-unit6.png)
-1.	Select** Yes, Include required components** and click **OK**. 
+1.	Select **Yes, Include required components** and click **OK**. 
 1.	Open the **CFS – IoT Alert Process Flow**.
 1.	Click the **Deactivate** button to deactivate the process.
 ![Deactivate](../media/32-rm-unit6.png)
