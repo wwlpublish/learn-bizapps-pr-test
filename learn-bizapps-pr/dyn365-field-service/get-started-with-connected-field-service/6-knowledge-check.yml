@@ -65,7 +65,7 @@ quiz:
     - content: Temperature
       incorrectExplanation: Temperature is the default Connected Field Service scenario.
       isCorrect: true
-- content: Which Azure component used by the Connected Field Service template has the logic to determine if an exception has occurred in the telemetry?
+    - content: Which Azure component used by the Connected Field Service template has the logic to determine if an exception has occurred in the telemetry?
     choices: 
     - content: Logic App
       correctExplanation: Stream analytics has the logic to determine if an exception has occured in the telemetry.
