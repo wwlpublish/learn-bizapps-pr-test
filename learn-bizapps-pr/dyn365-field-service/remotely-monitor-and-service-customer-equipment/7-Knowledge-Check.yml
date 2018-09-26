@@ -56,10 +56,10 @@ quiz:
     - content: Create a workflow that pulls the reading value from the title field on the IoT alert.
       incorrectExplanation: TBD
       isCorrect: false
-    - content: Create a workflow that calls the JSON-Based Field Value – Get Boolean action to pull the reading value from the alert data field. 
+    - content: Create a workflow that calls the JSON-Based Field Value Get Boolean action to pull the reading value from the alert data field. 
       incorrectExplanation: TBD
       isCorrect: false
-    - content: Create a workflow that calls the JSON-Based Field Value – Get Number action to pull the reading value from the alert data field. 
+    - content: Create a workflow that calls the JSON-Based Field Value Get Number action to pull the reading value from the alert data field. 
       correctExplanation: TBD 
       isCorrect: true
   - content: You have an IoT device that has generated a temperature alert in Connected Field Service.  If the temperature is above 70 but below 80, the issue is first attempted to be resolved by a case, and then a work order if the case cannot be resolved.  If the temperature is above 80 degrees, a work order is created.  There are specific items that need to be captured for both the case and work order.   How would you accomplish this? 
