@@ -8,14 +8,14 @@ metadata:
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-customer-service
+  #ms.learn-contact: margoc
 title: Work with cases and SLAs in Dynamics 365 for Customer Service
-summary: Learn the basics of the Customer Service hub, and work with cases.
+summary: This learning path introduces you to the basics of the Customer Service hub, and working with cases.
 #TODO: Add link to how to get a trial subscription.
 prerequisites: |
   - Have a trial subscription to Dynamics 365 for Customer Engagement.
-#TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/work-with-cases-and-slas-in-dynamics-365-for-customer-service.svg
 levels:
 - beginner
 roles:

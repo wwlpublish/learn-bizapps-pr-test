@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.get-started-with-power-bi.1-introduction
+uid: learn-bizapps.get-started-with-power-bi.1-introduction
 metadata:
   title: Introduction
   description: Introduction
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
 title: Introduction
-durationInMinutes: 3
+durationInMinutes: 6
 content: |
  [!include[](includes/1-introduction.md)]

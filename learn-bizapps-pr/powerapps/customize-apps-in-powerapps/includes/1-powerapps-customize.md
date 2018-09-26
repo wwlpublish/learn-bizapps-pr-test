@@ -35,7 +35,7 @@ It's that easy to change the layout of a gallery and the types of data that it s
 
 On the details screen, we want to change the order of the fields. The controls on this screen differ from the controls on the browse screen, so the process for changing them is also a little different.
 
-1. On the **Screens** pane on the left, select **DetailForm1**.
+1. On the **Screens** pane on the left, select **DetailScreen1** > **DetailForm1**.
 
 1. In the right pane, select the text that shows the number of selected fields.
 
@@ -49,7 +49,7 @@ On the details screen, we want to change the order of the fields. The controls o
 
 Finally, on the screen where your user edits and creates entries, we want to make it easier to enter information in a text box.
 
-1. On the **Screens** pane on the left, select **EditForm1**.
+1. On the **Screens** pane on the left, select **EditScreen1** > **EditForm1**.
 
 1. In the right pane, select the text that shows the number of selected fields.
 
