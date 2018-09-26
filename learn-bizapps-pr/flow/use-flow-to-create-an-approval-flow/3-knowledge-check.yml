@@ -52,4 +52,4 @@ quiz:
       isCorrect: true
     - content: An employee's manager can always create a flow. 
       isCorrect: false 
-      incorrectExplanation: Employhees must have the correct permissons to create flows. An employee might have the correct permissions, while his or her manager might not.
+      incorrectExplanation: Employhees must have the correct permissons to create new flows. An employee might have the correct permissions, while his or her manager might not.
