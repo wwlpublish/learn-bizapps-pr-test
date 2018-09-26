@@ -1,59 +1,54 @@
-As we learned, the common flow of work in Power BI is to create a report in Power BI Desktop, publish it to the Power BI service, then share it with others so they can view it in the service or on a mobile app.
+As we learned in the previous unit, the common flow of work in Microsoft Power BI is to create a report in Power BI Desktop, publish it to the Power BI service, and then share it with others, so that they can view it in the service or on a mobile app.
 
-Some people begin in the Power BI service, though, so let's take a quick look at the service, and learn about an easy and popular way to quickly create visuals in Power BI: *apps*.
+But because some people begin in the Power BI service, let's take a quick look at that first, and learn about an easy and popular way to quickly create visuals in Power BI: *apps*.
 
-An **app** is a collection of pre-configured, ready-made visuals and reports based on specific data sources, such as Salesforce. Using an app is like microwaving a TV dinner or ordering a fast-food value meal: with just a few clicks and comments, you're quickly served up a collection of entrees designed to go well together, all presented in a tidy, ready-to-consume package.
+An **app** is a collection of preset, ready-made visuals and reports that are shared with an entire organization. Using an app is like microwaving a TV dinner or ordering a fast-food value meal: you just have to press a few buttons or make a few comments, and you're quickly served a collection of entrees designed to go together, all presented in a tidy, ready-to-consume package.
 
-So let's take a quick look at apps, the service, and how it works. We go into more detail about apps (and the service) in upcoming sections; think of this as a bit of taste-testing to whet your appetite.
+So, let's take a quick look at apps, the service, and how it works. We'll go into more detail about apps (and the service) in upcoming modules, but you can think of this as a taste to whet your appetite.
 
-## Create out-of-the-box dashboards with cloud services
-With Power BI, connecting to data is easy. From the Power BI service, you can simply select the **Get Data** button in the bottom left corner of the home screen.
+## Create out-of-box dashboards with cloud services
+With Power BI, connecting to data is easy. From the Power BI service, you can just select the **Get Data** button in the lower-left corner of the home page.
 
 ![Power BI dashboards](../media/pbi-touring_01.png)
 
-The *canvas* (the area in the center of the Power BI service) shows you the available sources of data in the Power BI service. In addition to common data sources such as Excel files, databases, or Azure data, Power BI can connect to **software services** (also called SaaS providers, or cloud services) such as Salesforce, Facebook, Google Analytics, and a whole assortment of other SaaS services just as easily.
+The *canvas* (the area in the center of the Power BI service) shows you the available sources of data in the Power BI service. In addition to common data sources like Microsoft Excel files, databases, or Microsoft Azure data, Power BI can just as easily connect to a whole assortment of **software services** (also called SaaS providers or cloud services): Salesforce, Facebook, Google Analytics, and more.
 
 ![Power BI Get Data](../media/pbi-touring_02.png)
 
-For these software services, the **Power BI service** provides a collection of ready-made visuals, pre-arranged in dashboards and reports called **apps**. Apps get you up and running in Power BI quickly with data from the service that you select. For example, when you use the Salesforce app, Power BI connects to your Salesforce account (once you provide your credentials) and then populates a pre-defined collection of visuals and dashboards in Power BI.
+For these software services, the **Power BI service** provides a collection of ready-made visuals that are pre-arranged on dashboards and reports for your organization. This collection of visuals is called an **app**. Apps get you up and running quickly, with data and dashboards that your organization has created for you. For example, when you use the GitHub app, Power BI connects to your GitHub account (after you provide your credentials) and then populates a predefined collection of visuals and dashboards in Power BI.
 
-Power BI provides apps for all sorts of services. The following image shows the first screen of services, in alphabetical order, that is displayed when you select **Get** from the **Services** box (shown in the previous image). As you can see from the image below, there are many to choose from.
+There are apps for all sorts of online services. The following image shows a page of apps that are available for different online services, in alphabetical order. This page is shown when you select the **Get** button in the **Services** box (shown in the previous image). As you can see from the following image, there are many apps to choose from.
 
 ![Power BI services](../media/pbi-touring_03.png)
 
-For our purposes, we’ll choose **GitHub**. GitHub is an application for online source control. Once I enter the information and credentials for the GitHub app, it begins importing my data.
+For our purposes, we'll choose **GitHub**. GitHub is an application for online source control. When you select the **Get it now** button in the box for the GitHub app, the **Connect to GitHub** dialog box appears. 
+
+![The GitHub app](../media/pbi-touring_03b.png)
+
+After you enter the information and credentials for the GitHub app, installation of the app begins.
 
 ![Import data](../media/pbi-touring_04.png)
 
-Once the data is loaded, the pre-defined GitHub app dashboard appears.
+After the data is loaded, the predefined GitHub app dashboard appears.
 
 ![Power BI app loaded](../media/pbi-touring_05.png)
 
-In addition to the **Dashboard**, the **Report** that was generated (as part of the GitHub app) to create the dashboard is available too, as is the **Dataset** (the collection of data pulled from GitHub) that was created during the data import, and used to create the GitHub Report.
+In addition to the app **dashboard**, the **report** that was generated (as part of the GitHub app) and used to create the dashboard is available, as is the **dataset** (the collection of data pulled from GitHub) that was created during data import and used to create the GitHub report.
 
 ![Power BI navigation](../media/pbi-touring_06.png)
 
-On the Dashboard, you can click on any of the visuals, and automatically be taken to the **Report** page from which that visual was created. So when the **Top 5 users by pull requests** visual is clicked, Power BI opens the **Pull Requests** page in the Report (the Report page from which that visual was created).
+On the dashboard, you can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when the **May 2018** bar is selected in the **Pull Requests (by month)** visual, the other visuals on the page adjust to reflect that selection.
 
-## Asking questions of your data
-You can also ask questions of your data, and the Power BI service will create visuals based on your question, in real time. In the following image, you can see Power BI creates a number visual showing the Count of Issues closed, based on what is typed in the **Natural Language Query** bar.
+![Power BI navigation](../media/pbi-touring_06b.png)
 
-![Power BI Q&A](../media/pbi-touring_07.png)
+## Update data in the Power BI service
+You can also choose to **update** the dataset for an app, or other data that you use in Power BI. To set update settings, select the schedule update icon for the dataset to update, and then use the menu that appears. You can also select the update icon (the circle with an arrow) next to the schedule update icon to update the dataset immediately.
 
-When you have a visual that you like, you can select the **Pin** icon, to the right of the Natural Language Query bar, to pin that visual to the dashboard. In this case, the visual is pinned to the GitHub dashboard, since that’s the dashboard currently selected.
+![Scheduling an update for dashboards](../media/pbi-touring_09.png)
 
-![Pin tiles to a dashboard](../media/pbi-touring_08.png)
-
-## Refreshing data in the Power BI service
-You can also choose to **refresh** the dataset for an app, or other data you use in Power BI. To set refresh settings, select the ellipses (the three dots) next to a data set, and a menu appears.
-
-![Scheduling refresh for dashboards](../media/pbi-touring_09.png)
-
-Select the **Schedule Refresh** option from the bottom of that menu. The Settings dialog appears on the canvas, letting you set the refresh settings that meet your needs.
+The **Datasets** tab is selected on the **Settings** page that appears. In the right pane, select the arrow next to **Scheduled refresh** to expand that section. The **Settings** dialog box appears on the canvas, letting you set the update settings that meet your needs.
 
 ![Scheduling refresh buttons](../media/pbi-touring_10.png)
 
-That's enough for our quick look at the Power BI service. There are many more things you can do with the service, which we'll cover later in this course. Remember, too, that there are many different types of data you can connect to, and all sorts of apps, with more of each coming all the time.
-
-Okay, let's move to the next topic, where we summarize this **Getting Started** section, and get you ready for what's next.
+That's enough for our quick look at the Power BI service. There are many more things you can do with the service, and we'll cover these later in this module and in upcoming modules. Also, remember that there are many types of data you can connect to, and all sorts of apps, with more of both coming all the time.
 

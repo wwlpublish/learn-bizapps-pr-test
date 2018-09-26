@@ -14,15 +14,15 @@ First, let's create the SharePoint list.
 
     - Add a **TweetContent** column, and set the column type to **Multiple lines of text**. This will contain the content of the tweets for later approval. Select **Save** after each column you create.
     - Add a **TweetDate** column, and set the column type to **Date and Time**. Select **More** to find the **Date and Time** type.
-    - Add an **ApprovalStatus** column, set the column type to **Yes/No**. The approver can then select **Yes** or **No** to approve or reject the tweet.
-    - Add an **ApproverComments**, and set the column type to **Single line of text**. The approver can then add a comment about the approval status.
+    - Add an **ApprovalStatus** column, and set the column type to **Yes/No**. The approver can then select **Yes** or **No** to approve or reject the tweet.
+    - Add an **ApproverComments** column, and set the column type to **Single line of text**. The approver can then add a comment about the approval status.
 
     ![Add columns](../media/new-columns.png)
 
 1. Copy the URL of the SharePoint list. You'll use it when you create the flow.
 
 ## Step two: Create an approval request flow
-1. On the Microsoft Flow home page, select **Approvals**.
+1. Sign in to [Microsoft Flow](https://ms.flow.microsoft.com), and then select **Approvals**.
 
 1. Select **Create approval flow**, and then scroll down and select the **Post list items to Twitter after approval** template. 
 
@@ -35,7 +35,7 @@ First, let's create the SharePoint list.
 1. Back in Microsoft Flow, in the **When a new item is created** action, enter the following values:
 
     * **Site Address**: Enter the URL of your team's SharePoint site.
-    * **List Name**: Enter "ContosoTweets".
+    * **List Name**: Select *ContosoTweets*.
 
     ![Site Address and List Name](../media/site-address.png)
 
@@ -43,7 +43,7 @@ First, let's create the SharePoint list.
 
     ![Edit fields](../media/edit-all-fields.png)
 
-1. For **Title**, enter "New tweet for", and then select **Title** in the dynamic content list. 
+1. For **Title**, enter *New tweet for*, and then select **Title** in the dynamic content list. 
 
     ![Title](../media/tweet-title.png)
 
@@ -51,11 +51,11 @@ First, let's create the SharePoint list.
 
     ![Assigned to](../media/tweet-assigned-to.png)
 
-1. For **Details**, remove the default items, and add **TweetContent**, **TweetDate**, and **Created by DisplayName** from the dynamic content list. Be sure to add the words "on" and "by" to make the content more readable. 
+1. For **Details**, remove the default items, and add **TweetContent**, **TweetDate**, and **Created by DisplayName** from the dynamic content list. Be sure to add the words *on* and *by* to make the content more readable. 
 
     ![Details](../media/tweet-details.png)
 
-1. For **Item Link**, paste the URL of your SharePoint list, which you copied in the "Step one" procedure. For **Item Link Description**, enter "Contoso Tweet List". 
+1. For **Item Link**, paste the URL of your SharePoint list, which you copied in the procedure in **Step one**. For **Item Link Description**, enter *Contoso Tweet List*. 
 
     ![Item link](../media/tweet-item-link.png)
 
@@ -63,15 +63,15 @@ First, let's create the SharePoint list.
 
     ![Add an action](../media/add-an-action.png)
 
-1. Search for "update item", select the **SharePoint** connector, and then select the **SharePoint – Update item** action.
+1. Search for *update item*, select the **SharePoint** connector, and then select the **SharePoint – Update item** action.
 
     ![SharePoint update item](../media/update-item.png)
 
-1. For **Site Address** and **List Name**, enter the URL of the team's SharePoint site and "ContosoTweets" again. For **ID**, add **ID** from the dynamic content list. The **ID** field is used to match the actual tweet request in the SharePoint list.
+1. For **Site Address** and **List Name**, enter the URL of the team's SharePoint site and *ContosoTweets* again. For **ID**, add **ID** from the dynamic content list. The **ID** field is used to match the actual tweet request in the SharePoint list.
 
     ![Site, list, and ID](../media/address-list-id.png)
 
-1. Select the **Title** field, and then, in the dynamic content list, search for "title". Add the **Title** item from the **When a new item is created** action. 
+1. Select the **Title** field, and then, in the dynamic content list, search for *title*. Add the **Title** item from the **When a new item is created** action. 
 
     ![New title](../media/add-title.png)
 

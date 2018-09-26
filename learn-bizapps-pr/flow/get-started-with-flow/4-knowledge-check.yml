@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-get-started.4-quiz-flow-get-started
+title: Check your knowledge
+metadata: 
+  title: "Knowledge check: Create a flow" 
+  description: This knowledge check tests your knowledge of how to create a flow. 
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 4 
+quiz: 
+  title: "Knowledge check: Create a flow" 
+  questions: 
+  - content: Where can you create a flow? 
+    choices:  
+    - content: Only on the Microsoft Flow website.
+      incorrectExplanation: The Microsoft Flow website is only one place where you start a flow. You can also start a flow on the mobile app.
+      isCorrect: false 
+    - content: In the Microsoft Flow app.
+      correctExplanation: Simple flows can be started from the app.
+      isCorrect: false 
+    - content: In Microsoft Dynamics 365.
+      incorrectExplanation: Dynamics 365 is where you can view many apps and services. It isn't where you start a flow. 
+      isCorrect: false 
+    - content: In Microsoft PowerApps Studio.
+      incorrectExplanation: PowerApps Studio is where you can design PowerApps apps. It isn't where you start a flow, even though flows can work with PowerApps apps. 
+      isCorrect: false 
+    - content:  On the Flow website and in the Flow app.
+      incorrectExplanation: You can create a flow in either the Flow website or the Flow app. 
+      isCorrect: true
+    - content: All of the above
+      incorrectExplanation: You can only create a flow from the Flow website or the Flow app. 
+      isCorrect: false
+    - content: None of the above
+      incorrectExplanation: You can only create a flow in either the Flow website or the Flow app. 
+      isCorrect: false
+  - content: Which of the following statements about flows is true? 
+    choices: 
+    - content: They respond to triggers. 
+      incorrectExplanation: Flows respond to triggers, but also execute actions. 
+      isCorrect: false 
+    - content: They execute actions. 
+      correctExplanation: Flows can execute actions, but also respond to triggers. 
+      isCorrect: false 
+    - content: All of the above. 
+      incorrectExplanation: Flows respond to triggers and execute actions. 
+      isCorrect: true 
+    - content: None of the above.
+      incorrectExplanation: Flows respond to triggers and execute actions. 
+      isCorrect: false

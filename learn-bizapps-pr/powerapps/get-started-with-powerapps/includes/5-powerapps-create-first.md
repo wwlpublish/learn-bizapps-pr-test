@@ -1,14 +1,14 @@
 OK, let's get started.
 
-Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook lists a company's inventory of flooring samples, together with pictures and prices.
+Now that you're familiar with all the parts of Microsoft PowerApps and the options for creating apps, it's time to actually build an app. In this unit, you'll generate a phone app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook lists a company's inventory of flooring samples with pictures and prices.
 
-keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
+Keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
 ## Connect to a data source
 
 1. Download the [Flooring Estimates workbook](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx), and save it to OneDrive for Business.
 
-1. Go to [web.powerapps.com](https://web.powerapps.com), and sign in with your organizational account.
+1. Go to [https://web.powerapps.com](https://web.powerapps.com), and sign in with your organizational account.
 
 1. In the left pane, select **Apps**.
 
@@ -41,7 +41,7 @@ Here is the main development window for PowerApps Studio, which you'll learn mor
 
 Select **Play** ![Start app preview arrow](../media/powerapps-arrow.png) in the upper-right corner to try out the app. You'll see that it includes all the data from the list and provides a good default experience.
 
-All apps generated from data have the same set of screens:
+All apps generated from data have the same set of screens that you can view from the Thumbnail pane:
 
 * **Browse screen**: This screen appears by default. In it, you can browse, sort, filter, and refresh the data from the data source. In the browse screen, you add items to the data source by selecting the plus sign (**+**).
 * **Details screen**: Select an item in the browse screen to open the details screen, which shows all details about an item. In this screen, you can open an item for editing or delete it.

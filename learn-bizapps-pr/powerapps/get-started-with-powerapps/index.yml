@@ -9,17 +9,18 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
+  #ms.learn-contact: margoc
 title: Get started with PowerApps
 summary: Learn the basics of PowerApps and how you can use it in your organization.
 abstract: |
   In this module, you will:
-  - Explore how PowerApps can make your business more efficent.
-  - Understand how you use different technologies to perform different tasks in PowerApps.
-  - Understand the different ways to build an app in PowerApps.
-  - Create your first app from data in an Excel workbook.
-prerequisites: None
-#TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+  - Explore how PowerApps can make your business more efficient
+  - Understand how you use different technologies to perform different tasks in PowerApps
+  - Understand the different ways to build an app in PowerApps
+  - Create your first app from data in an Excel workbook
+prerequisites: |
+ - Access to Microsoft Excel, and OneDrive for Business.
+iconUrl: /learn/achievements/get-started-with-powerapps.svg
 levels: 
 - beginner
 roles: 
@@ -35,4 +36,5 @@ units:
 - learn-bizapps.powerapps-get-started.4-powerapps-ways-to-build
 - learn-bizapps.powerapps-get-started.5-powerapps-create-first
 - learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
+- learn-bizapps.powerapps-get-started.7-summary-cleanup
 achievement: learn.powerapps-get-started.badge
