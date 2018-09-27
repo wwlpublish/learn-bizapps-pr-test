@@ -1,1 +1,23 @@
-Markdown placeholder
+## Detail Telemetry Storage
+
+IoT devices generate a lot of data that is ingested into the Azure IoT Hub and available for processing.  This flow of data is essential to the ability to generate immediate insights.  The Connected Field Service add-in application template processes this data stream using an Azure Stream Analytics job.  After evaluation and raising of alerts the data is not kept for further use by default.   
+
+You do have the option during the deployment of the Connected Field Service add-in to enable a Power BI option.  This causes a second Azure Stream Analytics job to be connected to the Azure IoT Hub getting its own copy of the device data.  This data is summarized into one-minute time windows and persisted into an Azure SQL database that can then be fed into Power BI and displayed using the Power BI Report Template for Connected Field Service ([https://www.microsoft.com/en-us/download/details.aspx?id=54298](https://www.microsoft.com/en-us/download/details.aspx?id=54298)). This approach allows unlimited storage but is very tailored to the current template scenario.  If you need to support different device data, you would need to construct your own table format and reports. 
+
+An Azure IoT Hub has multiple end points, the primary one for receiving detail device data (device-to-cloud messages) is an endpoint that is compatible with Azure Event Hubs.  This is what allows services like Azure Stream Analytics to process the data stream.  These messages are limited to 256kb.  You can also define additional custom endpoints allowing messages to be routed to them after meeting filtering criteria. These endpoints can be Azure Storage, Event Hubs, or Service Bus Queues and Service Bus Topics. The following is an example of adding an Azure Storage endpoint. 
+
+![Azure Storage endpoint](../media/1-ie-unit3.png)
+ 
+When you have additional endpoints, IoT Hub Routes determine what messages go where.  The events built-in endpoint only gets messages that aren’t routed to other endpoints unless you add an explicit rule.  The route can be filtered using a SQL-like language ([https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-query-language](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-query-language).  
+
+For example, if we wanted to save a copy of every message to Azure Storage, the IoT Hub routes would look like the following to make sure both endpoints got every message from the device. 
+ 
+![IoT Hub routes](../media/2-ie-unit3.png)
+
+To take the discussion up a level, let’s look back at the overall flow of data through our IoT solution. One of the categorizations done by the Azure IoT reference architecture is to look at data storage as being either “warm” or “cold”. Where warm needs to have access to data that is relatively recent with low latency for accessing the data.  Warm storage might keep only a day, week or a month of data.  Cold storage usually uses lower cost technology like Azure Storage and might be a longer-term storage of the detail data.  The cold storage might be used to train future machine learning models or just for detail device analysis in the future. 
+
+Early on we talked about using Power BI, but the template does this uses an Azure SQL database as the storage.  Another approach that would be more consistent with the “warm” storage concept would be to simply create another output from the Stream Analytic Job that wrote directly to Power BI.  That is one of the capabilities of Azure Stream Analytics.  This enables a real time viewing of data in Power BI but is limited by capacity automatically.  This approach has a 200,000-record limit and the records are kept in a First in First Out(FIFO) sequence. 
+  
+Stream Analytics also can output to Azure Cosmos DB.  This is another approach you could take to store detail data.  Using this approach, the data is persisted into the Azure Cosmos DB from the Stream Analytics job.  You can also augment that data with the Dynamics 365 ID for the Customer Asset.  This would allow for you to use the Dynamics 365 Azure Cosmos DB Virtual Entity provider to surface the detail telemetry into the model-driven user experience.  Allowing viewing of the device detail data in the context of looking at the IoT Alert or Customer Asset records in Dynamics 365 for Field Service. 
+
+As you look to customize the Connected Field Service template application to fit your unique requirements you should consider storage and processing flow of the ingested device detail data.  There are many extension points from IoT Hub to the Stream Analytics job where you can tap in and store off detail data that can be useful for analysis down the road or surfaced immediately to help staff respond to IoT Alerts. 
