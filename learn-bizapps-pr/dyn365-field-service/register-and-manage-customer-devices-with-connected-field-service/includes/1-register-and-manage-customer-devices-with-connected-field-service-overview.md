@@ -1,4 +1,4 @@
-##Register and Manage Customer Devices with Connected Field Service Overview##
+## Register and Manage Customer Devices with Connected Field Service Overview
 
 When you begin to work with the Connected Field Service solution, you will find that there are two critical aspects that drive how effective the solution is when working with and administrating IoT devices.  These aspects are: 
 
@@ -34,4 +34,4 @@ Let’s examine some of the key record types that Connected Field Service uses f
  
 - **For Example:** If you created the set values command definition as defined above each parameter such as reading, temperature, and humidity would have a property definition defined for them that was associated with the set values command definition.    
  
-In future units, we will examine each of these element is much more detail.  
+In future units, we will examine each of these element is much more detail.
