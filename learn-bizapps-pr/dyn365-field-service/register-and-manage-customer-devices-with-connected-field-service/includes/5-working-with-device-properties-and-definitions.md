@@ -12,12 +12,12 @@ A Property Definition contains the following information:
 - Type: Defines the type of Property it is.  You have six different types to choose from.  
 
 | **Type**                 | **Description**          |
-| :------------------- | -------------------: |
+| :------------------- | :------------------- |
 | **String**  	       | Used when the value you want to pass to a property is a text-based value.  
 
 **Additional Properties Include:** max length and default value.
 
-**Example:** A message property would use the string type since the contents of the message will be text.|
+**Example:** A message property would use the string type since the contents of the message will be text. |
 | **Date and Time **       | Used when the value to pass to a property is date and/or time based.  
 
 **Additional Properties Include:** minimum and maximum values. 
