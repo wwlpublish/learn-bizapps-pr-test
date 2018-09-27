@@ -227,7 +227,6 @@ If the SSID still shows AZ-XXXXXXXXXX, please refer to:  https://microsoft.githu
 
 ```json
 ...
-
 WITH AlertData AS 
 	(	-- Web Simulator Devices
 	SELECT
@@ -270,7 +269,6 @@ WITH AlertData AS
 	INTO AlertsQueue
 	FROM AlertData data
 	WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.ReadingType LIMIT DURATION(minute, 1)) IS NULL
-
 ...
 ``` 	
 
@@ -293,7 +291,6 @@ WITH AlertData AS
 
 ```json
 ...
-
 WITH AlertData AS 
 (-- Web Simulator Devices
 SELECT
@@ -319,7 +316,6 @@ SELECT data.DeviceId,
 INTO AlertsQueue
 FROM AlertData data
 WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.ReadingType LIMIT DURATION(minute, 1)) IS NULL
-
 ...
 ``` 
 
