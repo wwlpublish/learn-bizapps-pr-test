@@ -34,7 +34,7 @@ quiz:
       isCorrect: false
   - content: When an IoT Central rule is used to trigger the Microsoft Flow action what record type is created in Dynamics 365?
     choices: 
-    - content: Work order 
+    - content: Work order
       incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
       isCorrect: false
     - content: Case
@@ -43,10 +43,10 @@ quiz:
     - content: A note on the customer asset
       incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
       isCorrect: false
-    - content: IoT Alert 
+    - content: IoT Alert
       correctExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
       isCorrect: true
-    - content: Customer asset 
+    - content: Customer asset
       incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
       isCorrect: false
   - content: In Azure IoT Central what do we create to describe our collection of devices that make up the application?
@@ -60,7 +60,7 @@ quiz:
     - content: Work order
       incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
       isCorrect: false
-    - content: Device template 
+    - content: Device template
       correctExplanation: A device template is created to describe the collection of devices that make up the application.
       isCorrect: true
       content: Device twins
