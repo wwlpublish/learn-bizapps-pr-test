@@ -6,12 +6,12 @@ In the first unit, you learned about the main parts of Microsoft PowerApps. We'r
 * **PowerApps admin center**: Manage PowerApps environments and other components.
 
 ## web.powerapps.com
-If you build apps, you'll start here. You can build apps from sample apps, from templates, or from a blank screen. All the apps that you've built appear here, along with any apps that others have created and shared with you.
+If you are building an app, you'll start here. You can build apps from sample apps, from templates, or from a blank screen. All the apps that you've built appear here, along with any apps that others have created and shared with you.
 
 ![The web.powerapps.com site](../media/powerapps-homepage5.png)
 
 ## PowerApps Studio
-PowerApps Studio is where you flesh out your apps to make them more effective as a business tool — and to make them more attractive. PowerApps Studio has three panes that make creating apps feel more like building a slide deck in Microsoft PowerPoint:
+PowerApps Studio is where you flesh out your apps to make them more effective as a business tool and to make them more attractive. PowerApps Studio has three panes that make creating apps feel more like building a slide deck in Microsoft PowerPoint:
 
 - Left pane, which shows a hierarchical view of all the controls on each screen or a thumbnail for each screen in your app.
 - Middle pane, which shows the app that you're working on.
@@ -25,7 +25,7 @@ PowerApps Mobile for Windows, iOS, and Android devices provides an environment w
 ![PowerApps Mobile](../media/powerapps-mobile.png)
 
 ## Admin center
-The PowerApps admin center is the centralized place for managing PowerApps for an organization. On this site, you define different environments that house the apps and where you define data connections and other elements. The admin center is also where you manage permissions and data policies.
+The PowerApps admin center is the centralized place for managing PowerApps for an organization. On this site, you define different environments that house the apps. You also define data connections and other elements. The admin center is also where you manage permissions and data policies.
 
 ![PowerApps admin center](../media//powerapps-admin.png)
 

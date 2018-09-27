@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
-uid: learn.build-your-first-report.3-clean-and-transform-data-with-power-query-editor
+uid: learn-bizapps.build-your-first-report.3-clean-and-transform-data-with-power-query-editor
 metadata:
-  title: Clean and transform data with Power Query editor
-  description: Clean and transform data with Power Query editor
+  title: Clean and transform data with Power Query Editor
+  description: Clean and transform data with Power Query Editor
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
-title: Clean and transform data with Power Query editor
-durationInMinutes: 10
+title: Clean and transform data with Power Query Editor
+durationInMinutes: 20
 content: |
  [!include[](includes/3-clean-and-transform-data-with-power-query-editor.md)]

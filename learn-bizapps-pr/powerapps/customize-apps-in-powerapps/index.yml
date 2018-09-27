@@ -9,21 +9,21 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
+  #ms.learn-contact: margoc
 title: Customize an app 
 summary: Learn how to customize an app by adding controls, images, and logic.
 abstract: |
   In this module, you will:
-  - Change the layout of a gallery.
-  - Change the data that a control shows.
-  - Change the order in which fields appear.
-  - Change the control with which a user provides information.
-  - Explore controls on each screen of an app.
-  - Format a number as a price.
-  - Color prices based on their values.
-  - Explore formulas in a generated app.
+  - Change the layout of a gallery
+  - Change the data that a control shows
+  - Change the order in which fields appear
+  - Change the control with which a user provides information
+  - Explore controls on each screen of an app
+  - Format a number as a price
+  - Color prices based on their values
+  - Explore formulas in a generated app
 prerequisites: None
-#TODO:  update with real image.
-iconUrl: http://via.placeholder.com/120x120 
+iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
 levels:  
 - beginner 
 roles:  
@@ -37,4 +37,5 @@ units:
 - learn-bizapps.powerapps-customize.2-powerapps-explore
 - learn-bizapps.powerapps-customize.3-powerapps-functions
 - learn-bizapps.powerapps-customize.4-quiz-customize-an-app
+- learn-bizapps.powerapps-customize.5-summary-cleanup
 achievement: learn.powerapps-customize.badge  

@@ -9,17 +9,18 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
+  #ms.learn-contact: margoc
 title: Create an app in PowerApps
 summary: This learning path introduces you to PowerApps, helps you create and customize an app, and then manage and distribute it. 
 prerequisites: |
   - Familiarity with OneDrive, SharePoint, and Excel. 
-#TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/create-powerapps.svg
 levels:
 - beginner
 roles:
 - business-user
 products:
+- bizapps
 - bizapps-power-apps
 modules:
 - learn-bizapps.powerapps-get-started

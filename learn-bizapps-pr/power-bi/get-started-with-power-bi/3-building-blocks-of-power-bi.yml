@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn.get-started-with-power-bi.3-building-blocks-of-power-bi
+uid: learn-bizapps.get-started-with-power-bi.3-building-blocks-of-power-bi
 metadata:
   title: Building blocks of Power BI
   description: Building blocks of Power BI
@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerbi
 title: Building blocks of Power BI
-durationInMinutes: 10
+durationInMinutes: 12
 content: |
  [!include[](includes/3-building-blocks-of-power-bi.md)]
