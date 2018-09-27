@@ -186,10 +186,10 @@ After the device reboots, you need to configure the Wi-Fi on the device.
 ![IOT DevKit Location](../media/26-rg-unit3.png)
 If your Wi-Fi SSID starts with AZ and not AZ3166 after applying the firmware, you need to follow the following steps to make sure the firmware gets applied correctly. 
  
-![Bad Window](../media/27-rg-unit3.png)
+![Bad Window](../media/27-rg-unit3.jpg)
 Bad – Firmware Not Applied Correctly
 
-![Good Window](../media/28-rg-unit3.png)
+![Good Window](../media/28-rg-unit3.jpg)
 Good – Firmware Applied Correctly
 
 
