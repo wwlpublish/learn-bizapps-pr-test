@@ -225,9 +225,11 @@ If the SSID still shows AZ-XXXXXXXXXX, please refer to:  https://microsoft.githu
 18. This query does not include necessary information for the device we are working with, so we will replace it.  Highlight all information in the query window and delete it.  
 19. Next, paste the code below into the window.
 
-``WITH AlertData AS 
-	(
-	-- Web Simulator Devices
+```json
+...
+
+WITH AlertData AS 
+	(	-- Web Simulator Devices
 	SELECT
 	     Stream.DeviceID,
 	     'Temperature' AS ReadingType,
@@ -267,7 +269,10 @@ If the SSID still shows AZ-XXXXXXXXXX, please refer to:  https://microsoft.githu
 	    data.Time
 	INTO AlertsQueue
 	FROM AlertData data
-	WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.ReadingType LIMIT DURATION(minute, 1)) IS NULL	
+	WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.ReadingType LIMIT DURATION(minute, 1)) IS NULL
+
+...
+``` 	
 
 20. Click the Save button within the query window. 
 21. Close out the query window.  This will return you to the properties of the Stream Analytics job. 
@@ -288,9 +293,9 @@ If the SSID still shows AZ-XXXXXXXXXX, please refer to:  https://microsoft.githu
 
 ```json
 ...
+
 WITH AlertData AS 
-(
--- Web Simulator Devices
+(-- Web Simulator Devices
 SELECT
      Stream.DeviceID,
      'Temperature' AS ReadingType,
@@ -302,9 +307,7 @@ SELECT
 FROM IoTStream Stream
 JOIN DeviceRulesBlob Ref ON Ref.DeviceType = 'Thermostat'
 WHERE
-     Ref.Temperature IS NOT NULL AND Stream.Temperature > Ref.Temperature 
-
-)
+     Ref.Temperature IS NOT NULL AND Stream.Temperature > Ref.Temperature)
 
 SELECT data.DeviceId,
     data.ReadingType,
