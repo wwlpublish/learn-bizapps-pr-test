@@ -1,4 +1,4 @@
-## Device Registration and Digital Twins##
+## Device Registration and Digital Twins
 
 When you register a Customer Asset or an IoT Device from Connected Field Service (CFS) with an IoT Hub, a corresponding IoT device record is created in the IoT Hub.  The Device ID defined on the Customer Asset record will be passed to the IoT Device.  The IoT Device will also contain items like keys and connection strings that are used to connect a physical device to the IoT Device in the Hub.   
 

@@ -1,6 +1,6 @@
-#Registering IOT Devices - Hands-on Lab
+## Registering IOT Devices - Hands-on Lab
 
-##**Lab Environment**
+### **Lab Environment**
 
 Several paragraphs – or longer – describing an overview of the module including a description of why this content is important and a concise description of the main points of the module 
 
@@ -9,12 +9,12 @@ During this lab, you will work in a simulated environment with the following com
 Computers and Virtual Machines Used in This Lab
 
 
-| Item Name                  | Description               
-| :------------------- | -------------------: 
+| Item Name                 				   | Description               
+| :-------------------                         | -------------------: 
 | Dynamics 365 Online Non-Production Instance  | You should have a Dynamics 365 Online environment that you use for this lab, it should not be your production (live) instance.
-| Dynamics 365 Field Service                | You should have Dynamics 365 for Field Service deployed.               
-| Connected Field Service                  | You should have Connected Field Service deployed                    
-| Azure IoT Hub                    | You should have a Azure IoT Hub setup and deployed that Connected Field Service is talking to.  
+| Dynamics 365 Field Service               	   | You should have Dynamics 365 for Field Service deployed.               
+| Connected Field Service                      | You should have Connected Field Service deployed                    
+| Azure IoT Hub                                | You should have a Azure IoT Hub setup and deployed that Connected Field Service is talking to.  
 
 **Lab Overview**
 Several paragraphs – or longer – describing an overview of the lab including a description of the lab and why certain topics are covered. This is also called the ‘LAB ABSTRACT’ that will be used for hand-off to conferences as part of the content hand-off process 

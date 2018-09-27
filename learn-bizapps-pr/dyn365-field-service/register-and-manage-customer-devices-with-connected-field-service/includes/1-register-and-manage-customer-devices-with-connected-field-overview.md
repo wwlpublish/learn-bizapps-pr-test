@@ -1,4 +1,4 @@
-##Register and Manage Customer Devices with Connected Field Service Overview##
+## Register and Manage Customer Devices with Connected Field Service Overview
 
 When you begin to work with the Connected Field Service solution, you will find that there are two critical aspects that drive how effective the solution is when working with and administrating IoT devices.  These aspects are: 
 
