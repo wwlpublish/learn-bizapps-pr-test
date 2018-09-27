@@ -24,9 +24,11 @@ products:
 - bizapps-d365
 units:
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.1-register-and-manage-customer-devices-with-connected-field-service-overview
-- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.2-create-an-IoT-central-application
-- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.3-connecting-to-connected-field-service
-- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.4-creating-an-IoT-alert
-- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.5-knowledge-check
-- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.6-summary-and-clean-up
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.2-device-registration-and-digital-twins
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.3-register-iot-devices
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.4-working-with-command-definitions
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.5-working-with-device-properties-and-definitions
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.6-populating-and-sending-commands
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.7-knowledge-check
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.8-summary-and-cleanup
 achievement: learn.customer-service-cases.badge
