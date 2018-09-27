@@ -1,5 +1,5 @@
 ### YamlMime:Module
-uid: learn-bizapps.identify-exceptions-with-connected.1-field-service-overview
+uid: learn-bizapps.identify-exceptions-with-connected-field-service
 metadata:
   title: identify-exceptions-with-connected
   description: This module will focus on the proactive detection of anomalies in the IoT device telemetry.  Additionally, this module will cover the customization of the Connected Field Service components to handle different telemetry from the device and options for storing detail data for future analysis.
@@ -24,12 +24,12 @@ products:
 - bizapps
 - bizapps-d365
 units:
-- learn-bizapps.remotely-monitor-and-service-customer-equipment.1-identify-exceptions-with-connected-field-service-overview
-- learn-bizapps.remotely-monitor-and-service-customer-equipment.2-connect-to-a-device
-- learn-bizapps.remotely-monitor-and-service-customer-equipment.3-detail-telemetry-storage
-- learn-bizapps.remotely-monitor-and-service-customer-equipment.4-identify-exceptions
-- learn-bizapps.remotely-monitor-and-service-customer-equipment.5-options-for-anomaly-detection
-- learn-bizapps.remotely-monitor-and-service-customer-equipment.6-anomaly-detection
-- learn-bizapps.remotely-monitor-and-service-customer-equipment.7-knowledge-check
-- learn-bizapps.remotely-monitor-and-service-customer-equipment.8-summary-and-cleanup
+- learn-bizapps.identify-exceptions-with-connected-field-service.1-identify-exceptions-with-connected-field-service-overview
+- learn-bizapps.identify-exceptions-with-connected-field-service.2-connect-to-a-device
+- learn-bizapps.identify-exceptions-with-connected-field-service.3-detail-telemetry-storage
+- learn-bizapps.identify-exceptions-with-connected-field-service.4-identify-exceptions
+- learn-bizapps.identify-exceptions-with-connected-field-service.5-options-for-anomaly-detection
+- learn-bizapps.identify-exceptions-with-connected-field-service.6-anomaly-detection
+- learn-bizapps.identify-exceptions-with-connected-field-service.7-knowledge-check
+- learn-bizapps.identify-exceptions-with-connected-field-service.8-summary-and-cleanup
 achievement: learn.customer-service-cases.badge
