@@ -11,29 +11,34 @@ A Property Definition contains the following information:
 
 - Type: Defines the type of Property it is.  You have six different types to choose from.  
 
-_____Table______
-Type	Description
-String	Used when the value you want to pass to a property is a text-based value.  
+| **Type** | **Description** |
+| :-------------- | :--- |
+| **String** | Used when the value you want to pass to a property is a text-based value.  
 
-Additional Properties Include: max length and default value.
+**Additional Properties Include:** max length and default value.
 
-Example: A message property would use the string type since the contents of the message will be text.    
-Date and Time	Used when the value to pass to a property is date and/or time based.  
+**Example:** A message property would use the string type since the contents of the message will be text.    
+ |
+| **Date and Time** | Used when the value to pass to a property is date and/or time based.  
 
-Additional Properties Include: minimum and maximum values. 
-Boolean	Used when you want to pass one of two possible values to a property.  
+**Additional Properties Include:** minimum and maximum values. 
+ |
+| **Boolean** | Used when you want to pass one of two possible values to a property.  
 
-Additional Properties Include: Display name for true, display name for false, and default value.  
-Whole Number	Used when you want to pass a whole number to the property. 
+**Additional Properties Include:** Display name for true, display name for false, and default value.  
+ |
+| **Whole Number** | Used when you want to pass a whole number to the property. 
 
-Additional Properties Include: minimum, maximum, and default value. 
-Decimal Number	Used when you want to pass a decimal number to the property. 
+**Additional Properties Include:** minimum, maximum, and default value. 
+ |
+| **Decimal Number** | Used when you want to pass a decimal number to the property. 
 
-Additional Properties Include: minimum, maximum, and default value as well as decimal precision
-Object	Used when the Item you want to pass is an object.  
+**Additional Properties Include:** minimum, maximum, and default value as well as decimal precision
+ |
+| **Object** | Used when the Item you want to pass is an object.  
 
-Example:  A reading property might contain both a temperature and humidity property.  By setting the reading property to a Type of Object, you will be able to define specific sub-properties for it.  (More on this Later)  
-_____Table______
+**Example: ** A reading property might contain both a temperature and humidity property.  By setting the reading property to a Type of Object, you will be able to define specific sub-properties for it.  **(More on this Later) ** 
+ |
 
 - Parent Property: Specifies that the property is a child property of another property.  
 - Editable: Specifies if the property will be editable when used in a command definition.  
@@ -66,14 +71,24 @@ The image below shows how properties are displayed for both commands sent to a d
 As mentioned in the previous unit, command definitions can be used to create pre-defined commands that have the specific parameters that you want to work with predefined.  This is done by creating property definitions and associating those property definitions with specific command definitions.  A Property Definition defines specific details about the property being passed to the command.  
 
 Let’s look at the example command below:
+```json
+...
 {"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}
+...
+```
+
 The parameters the specific properties that we want to include in the command.  The “Message” property tells us that we want to send a message to the device, and the text is the message that we want to include in the message.  The message property above is good example of where Property Definitions could be used.  
 
 ### Working with Parent Properties:
 Many times, a property will have multiple sub-properties that make up the entire Property Definition.  In this case you can use Parent Properties to relate a Property to multiple Sub-Properties.  
 
 Let’s look at the example below:    
+```json
+...
 {"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"30","Humidity":"30"}}}
+...
+```
+
 In this example reading would be considered the parent property for temperature and humidity.  We would set Readings Type to Object. This defines that the reading property should be considered an object, and it may contain other properties that make up the overall value.  
 
 ![Reading Name and Type Window](../media/4-rg-unit5.png)
@@ -89,7 +104,12 @@ You can see that under parameters, it includes the reading property.  The readin
 This same thought process would apply if you were using the Property Definition to populate a Device Tag or Device Setting.  
 
 Let’s look at a potential Device Tag example below:    
+```json
+...
 {"deploymentlocation":{"building":"34","floor":"3"}}
+...
+```
+
 Here, deploymentlocation would be considered the parent property for building and floor.  We would set deployment location’s Type to Object, and both “building” and “floor” would have deploymentlocation defined as the Parent.     
 
 ![Property Definition Window](../media/6-rg-unit5.png)
