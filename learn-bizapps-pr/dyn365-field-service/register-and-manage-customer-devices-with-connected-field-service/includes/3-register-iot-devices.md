@@ -67,7 +67,7 @@ The first critical component in your company moving to a connected IoT solution 
 ![Customer Asset Configuration](../media/2-rg-unit3.png)
 5. Save the Customer Asset and leave the record open 
 6. One the Command bar, select Register Devices and click OK. 
-7. In your web browser select a new tab and navigate to Https://8. Portal.Azure.com (Log into Azure if prompted. You need an Azure subscription associated with the account you are using) 
+7. In your web browser select a new tab and navigate to [https://Portal.Azure.com](Https://Portal.Azure.com") (Log into Azure if prompted. You need an Azure subscription associated with the account you are using) 
 8. Select Resource Groups
 ![Resource Groups](../media/3-rg-unit3.png)
 9. Open the IoT Hub that you are using with your Connected Field Service installation. 
