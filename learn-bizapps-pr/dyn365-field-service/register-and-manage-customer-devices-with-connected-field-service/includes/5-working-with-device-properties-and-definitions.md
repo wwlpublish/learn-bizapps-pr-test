@@ -13,25 +13,18 @@ A Property Definition contains the following information:
 
 | **Type** | **Description** |
 | :-------------- | :--- |
-| **String** | Used when the value you want to pass to a property is a text-based value.  
-
+| **String** | Used when the value you want to pass to a property is a text-based value.
 **Additional Properties Include:** max length and default value.
-
 **Example:** A message property would use the string type since the contents of the message will be text.|
-| **Date and Time** | Used when the value to pass to a property is date and/or time based.  
-
+| **Date and Time** | Used when the value to pass to a property is date and/or time based.
 **Additional Properties Include:** minimum and maximum values.|
-| **Boolean** | Used when you want to pass one of two possible values to a property.  
-
+| **Boolean** | Used when you want to pass one of two possible values to a property.
 **Additional Properties Include:** Display name for true, display name for false, and default value.|
-| **Whole Number** | Used when you want to pass a whole number to the property. 
-
+| **Whole Number** | Used when you want to pass a whole number to the property.
 **Additional Properties Include:** minimum, maximum, and default value.|
-| **Decimal Number** | Used when you want to pass a decimal number to the property. 
-
+| **Decimal Number** | Used when you want to pass a decimal number to the property.
 **Additional Properties Include:** minimum, maximum, and default value as well as decimal precision |
-| **Object** | Used when the Item you want to pass is an object.  
-
+| **Object** | Used when the Item you want to pass is an object.
 **Example: ** A reading property might contain both a temperature and humidity property.  By setting the reading property to a Type of Object, you will be able to define specific sub-properties for it.  **(More on this Later) ** |
 
 - Parent Property: Specifies that the property is a child property of another property.  
