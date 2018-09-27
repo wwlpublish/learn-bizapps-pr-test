@@ -38,7 +38,6 @@ The message design window also contains a toggle that allows us to switch betwee
 
 ![Switch to Design View Window](../media/3-rg-unit4.png)
 
-Not only do command definitions make it easier to streamline the process of building commands to send to devices, but because of the property definitions, it is easier to use automations like workflows and Microsoft Flow to identify and manipulate specific values that you want to pass in a command.   
+Not only do command definitions make it easier to streamline the process of building commands to send to devices, but because of the property definitions, it is easier to use automation like work flows and Microsoft Flow to identify and manipulate specific values that you want to pass in a command.   
 
-In the next unit we will examine property definitions in more detail and discuss the different options that are available when you create them to provide more flexibility when using them in commands and command definitions.   
- 
+In the next unit we will examine property definitions in more detail and discuss the different options that are available when you create them to provide more flexibility when using them in commands and command definitions.

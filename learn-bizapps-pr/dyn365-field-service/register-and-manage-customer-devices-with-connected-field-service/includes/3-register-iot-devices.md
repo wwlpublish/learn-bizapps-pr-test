@@ -1,6 +1,6 @@
-##Registering IOT Devices - Hands-on Lab##
+## Registering IOT Devices - Hands-on Lab
 
-**Lab Environment**
+### **Lab Environment**
 
 Several paragraphs – or longer – describing an overview of the module including a description of why this content is important and a concise description of the main points of the module 
 
@@ -8,20 +8,13 @@ During this lab, you will work in a simulated environment with the following com
  
 Computers and Virtual Machines Used in This Lab
 
-<table>
 
-Item Name 
-Description 
-Dynamics 365 Online Non-Production Instance 
-You should have a Dynamics 365 Online environment that you use for this lab, it should not be your production (live) instance. 
-Dynamics 365 Field Service 
-You should have Dynamics 365 for Field Service deployed. 
-Connected Field Service 
-You should have Connected Field Service deployed  
-Azure IoT Hub 
-You should have a Azure IoT Hub setup and deployed that Connected Field Service is talking to.  
-
-</table>
+| Item Name                 				   | Description               
+| :-------------------                         | -------------------: 
+| Dynamics 365 Online Non-Production Instance  | You should have a Dynamics 365 Online environment that you use for this lab, it should not be your production (live) instance.
+| Dynamics 365 Field Service               	   | You should have Dynamics 365 for Field Service deployed.               
+| Connected Field Service                      | You should have Connected Field Service deployed                    
+| Azure IoT Hub                                | You should have a Azure IoT Hub setup and deployed that Connected Field Service is talking to.  
 
 **Lab Overview**
 Several paragraphs – or longer – describing an overview of the lab including a description of the lab and why certain topics are covered. This is also called the ‘LAB ABSTRACT’ that will be used for hand-off to conferences as part of the content hand-off process 
@@ -232,9 +225,11 @@ If the SSID still shows AZ-XXXXXXXXXX, please refer to:  https://microsoft.githu
 18. This query does not include necessary information for the device we are working with, so we will replace it.  Highlight all information in the query window and delete it.  
 19. Next, paste the code below into the window.
 
-``WITH AlertData AS 
-	(
-	-- Web Simulator Devices
+```json
+...
+
+WITH AlertData AS 
+	(	-- Web Simulator Devices
 	SELECT
 	     Stream.DeviceID,
 	     'Temperature' AS ReadingType,
@@ -274,7 +269,10 @@ If the SSID still shows AZ-XXXXXXXXXX, please refer to:  https://microsoft.githu
 	    data.Time
 	INTO AlertsQueue
 	FROM AlertData data
-	WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.ReadingType LIMIT DURATION(minute, 1)) IS NULL	
+	WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.ReadingType LIMIT DURATION(minute, 1)) IS NULL
+
+...
+``` 	
 
 20. Click the Save button within the query window. 
 21. Close out the query window.  This will return you to the properties of the Stream Analytics job. 
@@ -293,10 +291,11 @@ If the SSID still shows AZ-XXXXXXXXXX, please refer to:  https://microsoft.githu
 ![Edit Query](../media/36-rg-unit3.png) 
 5. Next, paste the code below into the window. 
 
+```json
+...
 
-	'''WITH AlertData AS 
-(
--- Web Simulator Devices
+WITH AlertData AS 
+(-- Web Simulator Devices
 SELECT
      Stream.DeviceID,
      'Temperature' AS ReadingType,
@@ -308,9 +307,7 @@ SELECT
 FROM IoTStream Stream
 JOIN DeviceRulesBlob Ref ON Ref.DeviceType = 'Thermostat'
 WHERE
-     Ref.Temperature IS NOT NULL AND Stream.Temperature > Ref.Temperature 
-
-)
+     Ref.Temperature IS NOT NULL AND Stream.Temperature > Ref.Temperature)
 
 SELECT data.DeviceId,
     data.ReadingType,
@@ -322,13 +319,13 @@ SELECT data.DeviceId,
 INTO AlertsQueue
 FROM AlertData data
 WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.ReadingType LIMIT DURATION(minute, 1)) IS NULL
-------
+
+...
+``` 
+
 6. Click the Save button within the Query Window. 
 7. Close out the Query window.  This will return you to the properties of the Stream Analytics job. 
 8. Along the top click the Start button.  The job will take a minute or two to start.  Once it is started, it will show under the Notifications area.
-
-----------
-
 
 Several paragraphs – or longer – describing an overview of the lab including a description of the lab and why certain topics are covered. This is also called the ‘LAB ABSTRACT’ that will be used for hand-off to conferences as part of the content hand-off process.
 
