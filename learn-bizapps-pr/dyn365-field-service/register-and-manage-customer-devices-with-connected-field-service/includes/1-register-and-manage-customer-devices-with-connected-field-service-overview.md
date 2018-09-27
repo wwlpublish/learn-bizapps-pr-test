@@ -24,7 +24,12 @@ Let’s examine some of the key record types that Connected Field Service uses f
 **Command:** A command record is the actual action or command that you want to execute against a specific IoT device.  They typically consist of different JSON properties that are passed to the device to do that does something to the device. 
  
 - **For Example:**  If you wanted to set the temperature and humidity of a device to specific values, you would pass the following JSON script to the device using a command record. 
-{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"60","Humidity":"40"}}} 
+
+```json
+...
+{"CommandName":"Set Values","Parameters":{"Reading":{"Temperature":"60","Humidity":"40"}}}
+...
+```
  
 **Command Definition:** A command definition represents a predefined command that can be added directly to a command record.  The definition contains multiple pre-configured properties that can then be modified to help streamline the process of sending to devices.  When creating a command, a command definition can be selected.  Any properties in the definition will be populated with default values, but those values can be over ridden. 
  
