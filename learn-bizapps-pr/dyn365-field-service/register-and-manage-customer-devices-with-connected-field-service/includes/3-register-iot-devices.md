@@ -10,7 +10,7 @@ Computers and Virtual Machines Used in This Lab
 
 
 | Item Name                 				   | Description               
-| :-------------------                         | -------------------: 
+| :-------------------                         | :------------------- 
 | Dynamics 365 Online Non-Production Instance  | You should have a Dynamics 365 Online environment that you use for this lab, it should not be your production (live) instance.
 | Dynamics 365 Field Service               	   | You should have Dynamics 365 for Field Service deployed.               
 | Connected Field Service                      | You should have Connected Field Service deployed                    
