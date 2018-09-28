@@ -1,6 +1,10 @@
 ## Working with Device Properties and Definitions
 
-Property Definitions make it easy to pre-define specific properties that are associated with IoT Devices.  There are two primary areas where Property Definitions can be leveraged. 
+Property Definitions make it easy to pre-define specific properties that are associated with IoT Devices.  
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBv]
+> 
+There are two primary areas where Property Definitions can be leveraged. 
  
 - Assisting in syncing and communicating with Device Twins
 - Streamlining population of properties in Command Definitions.  
