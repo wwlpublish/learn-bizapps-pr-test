@@ -26,22 +26,27 @@ In this task, you will add a new Output for the AnomalyData collection
 ![Close Window](../media/5-ie-unit6.png) 
 2. Locate and open the Stream Analytics Job.
 ![Analytic Job window](../media/6-ie-unit6.png) 
-3. Click Stop. The Stream Analytics Job must be stopped before you can change its query and input/outputs. 
+3. Click Stop. The Stream Analytics Job must be stopped before you can change its query and input/outputs.
+![Stop Button](../media/7-ie-unit6.png) 
 4. Click Yes.
 5. After the Job stops, select Output, click Add, and select Cosmo DB.
+![Outputs](../media/8-ie-unit6.png) 
 6. Enter AnomalyDB for Output Alias, select your subscription, select the Cosmo DB you created, select the Database you created, enter AnomalyDB for Collection Name Pattern, and click Save 
+![Analytic Job window](../media/9-ie-unit6.png) 
  
 #### Task 3: Prepare and Build the New Query 
 
 1. Select Query. 
+![Query](../media/10-ie-unit6.png) 
 2. Copy the existing query and save it in case you want to reference it later. 
 3. Clear the existing query, we are going to build a new one step by step.
+![New Query window](../media/11-ie-unit6.png) 
 4. Paste the below snippet in the Query editor. 
 
 ```json
-...WITH AlertData AS  
+...
+WITH AlertData AS  
 ( 
- 
 SELECT 
     IoTHub.ConnectionDeviceId as Device, 
     System.Timestamp as tumblingWindowEnd, 
@@ -49,24 +54,24 @@ SELECT
        AVG(((Stream.temp*1.8)+32)) as TempF, 
        AVG(Stream.accelerometerX) as accelerometerX, 
        AVG(Stream.accelerometerY) as accelerometerY, 
-       AVG(Stream.accelerometerZ) as accelerometerZ 
-     
+       AVG(Stream.accelerometerZ) as accelerometerZ     
 FROM 
     IoTStream Stream TIMESTAMP BY IoTHub.EnqueuedTime 
 GROUP BY IoTHub.ConnectionDeviceId, TumblingWindow(second, 10) 
- 
 )
- 
 ...
 ```
 
-Note: This will process the raw data off the device and group into 10 second tumbling windows that will be evaluated for anomalies.  We choose to use averages for the data in the window, you could use whatever aggregation that made since for your scenario. 
+![Query Editor window](../media/12-ie-unit6.png) 
+
+*Note: This will process the raw data off the device and group into 10 second tumbling windows that will be evaluated for anomalies.  We choose to use averages for the data in the window, you could use whatever aggregation that made since for your scenario. *
  
-Paste the following just after the prior query, this will use the data from the last query and further augment it. 
+
+
+5. Paste the following just after the prior query, this will use the data from the last query and further augment it. 
 
 ```json
 ...
-
 FillInMissingValuesStep AS 
     ( 
           SELECT                 
@@ -74,18 +79,15 @@ FillInMissingValuesStep AS
                 TopOne() OVER (ORDER BY tumblingWindowEnd DESC) AS lastEvent 
          FROM AlertData 
          GROUP BY HOPPINGWINDOW(second, 300, 5) 
- 
     )
-
 ...
 ``` 
 
-Note: To help ensure uniformity of data so we don't have any gaps, we've chosen to fill the gaps by taking the last event in every hop window. 
-Paste the following step to do the actual anomaly scoring. 
+*Note: To help ensure uniformity of data so we don't have any gaps, we've chosen to fill the gaps by taking the last event in every hop window. 
+Paste the following step to do the actual anomaly scoring. *
 
 ```json
 ...
-
 AnomalyDetectionStep AS ( 
 SELECT 
      lastevent.Device as lastEventDevice, 
@@ -100,17 +102,17 @@ SELECT
      ANOMALYDETECTION(lastEvent.TempC) OVER (PARTITION BY lastevent.Device LIMIT DURATION(mi, 2)) as  scores 
 FROM FillInMissingValuesStep 
 ), 
-
 ...
 ```  
 
 Note: This query uses the ANOMALYDETECTION operator on the TempC value.  It is done on each device and is measured over a 2 minute duration.  This causes training of the anomaly detection to be device specific and could accommodate for differences in baseline temperatures at each device location. The output from this results in scores being added to the output for evaluation in the next query 
  
-Paste the following on to the query you are building. 
+
+
+6. Paste the following on to the query you are building. 
 
 ```json
 ...
-
 AnomalyDetectionFilter AS ( 
 SELECT lastEventDevice as DeviceId, 
     CAST(GetRecordPropertyValue(scores, 'BiLevelChangeScore') as float) as BiLevelChangeScore, 
@@ -121,7 +123,6 @@ SELECT lastEventDevice as DeviceId,
     'Trend Up ' as Threshold, 
     'EventToken' as EventToken, 
     lastTumblingWindowEnd as time 
- 
 FROM AnomalyDetectionStep  
 WHERE  
        CAST(GetRecordPropertyValue(scores, 'SlowPosTrendScore') as float) >= 10       
@@ -135,12 +136,10 @@ SELECT lastEventDevice as DeviceId,
     'Trend Down ' as Threshold, 
     'EventToken' as EventToken, 
     lastTumblingWindowEnd as time 
- 
 FROM AnomalyDetectionStep  
 WHERE        
       CAST(GetRecordPropertyValue(scores, 'SlowNegTrendScore') as float) >= 10 
 ) 
-
 ...
 ``` 
  
@@ -153,7 +152,7 @@ INTO AlertsQueue
 FROM AnomalyDetectionFilter data 
 WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, CAST(data.Reading as bigint), data.ReadingType LIMIT DURATION(minute, 1)) IS NULL 
  
-Note: This does the actual insert into AlertsQueue which will be picked up by the Logic App to create the IoT Alert Record.  Note we are keeping the LAG operator in the where to limit how often we put messages into the Queue to only when the same device for a rounded temperature has new data within the minute. 
+*Note: This does the actual insert into AlertsQueue which will be picked up by the Logic App to create the IoT Alert Record.  Note we are keeping the LAG operator in the where to limit how often we put messages into the Queue to only when the same device for a rounded temperature has new data within the minute. *
 
 To insure we log the same detail data from the device add back the following query. 
 SELECT  
