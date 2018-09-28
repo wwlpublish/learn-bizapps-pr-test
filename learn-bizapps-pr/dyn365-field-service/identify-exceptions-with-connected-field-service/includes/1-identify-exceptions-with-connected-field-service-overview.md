@@ -2,6 +2,8 @@
 
 An important part of a connected field service application is the identification of anomalies and the escalation of those into the application where they can be acted upon.  When you install the Connected Field Service add-in for Dynamics 365 for Field Service it includes a pre-built template application that uses a temperature-based scenario with a specific format of data coming from the IoT device.  This template also uses static rules to detect anomalies. In this unit, we will be looking at how to customize the template components to handle your own scenario’s unique requirements.  This includes handing different data being sent from the device as well as altering the rules used for evaluating the data and generating IoT Alerts.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBx]
+
 The following is the architecture used by the default components installed with the Connected Field Service add-in. The telemetry from the device is evaluated by an Azure Stream Analytics job for exceptions to the static rules.
 
 ![default components](../media/1-ie-unit1.png)
