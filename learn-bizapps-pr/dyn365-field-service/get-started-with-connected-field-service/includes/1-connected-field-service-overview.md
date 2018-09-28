@@ -1,7 +1,6 @@
 Connected Field Service is an add-on solution to Dynamics 365 for Field Service that connects IoT (Internet of Things) telemetry to business actions. In many cases, this allows businesses to become proactive instead of reactive, and transform their business model of how they work with their customers.  
 
-**NEED CORRECT VIDEO LINK**
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2rlss]
+[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2DQPr]
 
 In this module, we look at how Connected Field Service works with Azure IoT capabilities to implement a complete IoT solution.
 
