@@ -1,118 +1,115 @@
-## Exercise - Registering a Device
+## Exercise – Registering a device
 
-In this exercise, you will configure the simulator and register a device.
+In this exercise, you'll set up the simulator and register a device.
 
-### Configure the Simulator
+### Set up the simulator
 
+1. Open your Microsoft Azure portal, select **Resource groups**, and open the resource group that you created when you deployed Connected Field Service.
 
-1. Go to your Azure portal, select Resource Groups, and open the resource group you created when you deployed Connected Field Service.
+    ![Select the resource group](../media/1-gs-unit5.png)
 
-![Resource Groups](../media/1-gs-unit5.png)
+2. Find and select the simulator app service.
 
-2. Locate and click on the Simulator App Service.
+    ![Select the simulator app service](../media/2-gs-unit5.png)
 
-![Simulator app service](../media/2-gs-unit5.png)
+3. Select the URL.
 
-3. Click on the URL.
+    ![Select the URL](../media/3a-gs-unit5.png)
 
-![URL](../media/3a-gs-unit5.png)
+4. Select **Connection**.
 
-4. Select Connection.
+    ![Connection tab](../media/3-gs-unit5.png)
 
-![Connect selection](../media/3-gs-unit5.png)
+5. Go back to Azure, select the resource group that you created, and then select the Internet of Things (IoT) hub.
 
-5. Go back to Azure, select the Resource Group you created and click on the IoT Hub.
+    ![Select the IoT hub](../media/4-gs-unit5.png)
 
-![Click newly created resource group](../media/4-gs-unit5.png)
+6. Copy the host name.
 
-6. Copy the Host Name.
+    ![Copy the host name](../media/5-gs-unit5.png)
 
-![Copy host name icon](../media/5-gs-unit5.png)
+7. Go back to the simulator, and paste the host name into the **Host** field.
 
-7. Go back to the simulator and paste the Host Name into the Host Field.
+    ![Set up the connection](../media/6-gs-unit5.png)
 
-![Configure connection](../media/7-gs-unit5.png)
+8. Go back to Azure, and select **Shared access policies**.
 
-8. Go back to Azure and select Shared Access Policies.
+    ![Shared access policies](../media/7-gs-unit5.png)
 
-![Shared Policies](../media/7-gs-unit5.png)
+9. Select the IoT hub owner.
 
-9. Click on the IoT Hub Owner.
+    ![Select the IoT hub owner](../media/8-gs-unit5.png)
 
-![IoT hub owner](../media/7-gs-unit5.png)
+10. Copy the primary key.
 
-10. Copy the Primary Key.
+    ![Copy the primary key](../media/9-gs-unit5.png)
 
-![Copy primary key](../media/9-gs-unit5.png)
+11. Go back to the simulator, paste the primary key in the **Key** field, and then select **Connect**.
 
-11. Go back to the simulator, paste the Primary in the Key field and click Connect.
+    ![Connect button](../media/10-gs-unit5.png)
 
-![Primary key entry](../media/10-gs-unit5.png)
+12. In the **Device ID** field, notice that no devices are currently listed. You'll register a device in the next exercise. **Don't close this browser window.**
 
-12. Click on the Devices dropdown. You will notice that we currently don’t have any devices, you will register a device in the next exercise.  **Do not close this browser window. **
+    ![No devices listed](../media/11-gs-unit5.png)
 
-![No devices showing](../media/11-gs-unit5.png)
+### Register a device
 
-### Register a Device
+You'll now create a customer asset and then register a device with Azure IoT Hub. You'll then manipulate the device so that an IoT Alert is created in Dynamics 365. By completing this procedure, you confirm that your deployment of Connected Field Service is working.
 
-In this exercise, you will be creating a customer asset, and then registering a device with Azure IoT Hub.  You will then manipulate the device to cause the creation of an IoT Alert into Dynamics 365.  By completing this you will have verified your deployment of Connected Field Service is working.
+1. Start the Connected Field Service app.
 
-1. Start the Connected Field Service App.
+    ![Start the app](../media/12-gs-unit5.png)
 
-![Open app](../media/12-gs-unit5.png)
+2. Open the site map, and select **Customer Assets**.
 
-2. Click Site Map and select Customer Assets.
+    ![Customer Assets](../media/13-gs-unit5.png)
 
-![Open site map](../media/13-gs-unit5.png)
+3. Select **New**.
 
-3. Click New.
+    ![New button](../media/14-gs-unit5.png)
 
-![Click New](../media/14-gs-unit5.png)
+4. Enter *My Thermostat Simulator* as the name, select **A. Datum** as the account, scroll down and enter *MyThermSim1* as the device ID, and then select **Save**.
 
-4. Enter My Thermostat Simulator for Name, select A. Datum for Account, scroll down and enter MyThermSim1 for Device ID, and click Save.
+    ![Set up the customer asset](../media/15-gs-unit5.png)
 
-![Save](../media/15-gs-unit5.png)
+5. Select **Register devices**.
 
-5. Click Register Devices.
+    ![Register devices button](../media/16-gs-unit5.png)
 
-![Register Devices](../media/16-gs-unit5.png)
+6. Select **OK**.
+7. In the **Connected Devices** section, select the ellipse (**...**) button, and then select **Refresh**.
 
-6. Click OK.
+    ![Refresh](../media/17-gs-unit5.png)
 
-7. In the Connected Device section, click on the ellipse ... button and click Refresh.
+    You should see the device registration progress.
 
-![Refresh](../media/17-gs-unit5.png)
+    ![Device registration in progress](../media/19-gs-unit5.png)
 
-8. You should see the device registration progress.
+8. Repeat the previous step until the device is registered.
 
-![Registered device](../media/19-gs-unit5.png)
+    ![Device registered](../media/20-gs-unit5.png)
 
-9. Refresh until the device is registered.
+9. Go back to the simulator, and select **Refresh**.
 
-![Device shows registered](../media/20-gs-unit5.png)
+    ![Refresh button](../media/21-gs-unit5.png)
 
-10. Go back to the simulator and click Refresh.
+10. In the **Device ID** field, select the device that you registered.
 
-![Click refresh](../media/21-gs-unit5.png)
+    ![Select the registered device](../media/22-gs-unit5.png)
 
-11. Click on the dropdown and select the device you registered.
+11. Change the temperature to *86*.
 
-![Registered device](../media/22-gs-unit5.png)
+    ![Change the temperature](../media/23-gs-unit5.png)
 
-12. Change the temperature to 86.
+12. The **Messages Sent** section shows the temperature and humidity.
 
-![Change temp](../media/23-gs-unit5.png)
+    ![Temperature change messages](../media/24-gs-unit5.png)
 
-13. The Message Sent will contain the temperature and humidity.
+13. Go back to your Connected Field Service app, and open the customer asset that you created.
+14. Select **Related**, and then select **IoT Alerts**.
 
-![Change temp messages](../media/24-gs-unit5.png)
+    ![IoT Alerts](../media/25-gs-unit5.png)
 
-14. Go back to your Connected Field Service application and open the customer asset you created.
+    You should see the alerts that were generated by the simulator.
 
-15. Click Related and select IoT Alerts.
-
-![IoT alerts](../media/25-gs-unit5.png)
-
-16. You should see the alerts generated by the simulator.
-
-![Simulator alerts](../media/26-gs-unit5.png)
+    ![Simulator alerts](../media/26-gs-unit5.png)
