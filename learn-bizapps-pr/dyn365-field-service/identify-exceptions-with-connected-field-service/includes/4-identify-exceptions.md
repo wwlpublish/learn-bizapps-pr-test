@@ -1,12 +1,11 @@
 ## Identify Exceptions
 
-### Scenario 
- 
-In this unit we are going to modify the Stream Analytics job to work with the data from our physical device that comes in a different format than the simulated device.  We will also be adjusting the stream job to store the data into an Azure Cosmos DB in addition to evaluating it for anomalies 
-
 ### Exercise 1: Azure Cosmos DB 
 In this exercise, you will be pre-creating an Azure Cosmos DB that will be used in the next exercise.  This database will be used to store detail telemetry from the device.  
 
+### Scenario 
+ 
+In this unit we are going to modify the Stream Analytics job to work with the data from our physical device that comes in a different format than the simulated device.  We will also be adjusting the stream job to store the data into an Azure Cosmos DB in addition to evaluating it for anomalies 
 
 #### Task 1: Create Azure Cosmos DB 
 
