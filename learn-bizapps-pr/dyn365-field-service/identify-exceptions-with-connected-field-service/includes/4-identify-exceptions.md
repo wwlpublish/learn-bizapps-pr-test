@@ -61,7 +61,6 @@ In this exercise, you will be modifying the Azure Stream Analytics job to accomm
 ```json
 ...
 UNION 
-  
 -- MX Chip 
 SELECT 
      GetMetadataPropertyValue(Stream, '[IoTHUB].[ConnectionDeviceId]') as DeviceID, 
