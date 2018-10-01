@@ -49,32 +49,34 @@ quiz:
       incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
       isCorrect: false
   - content: In Azure IoT Central what do we create to describe our collection of devices that make up the application?
-    content: Customer asset
+    choices:
+    - content: Customer asset
       incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
       isCorrect: false
-    content: IoT device
+    - content: IoT device
       incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
       isCorrect: false
-    content: Work order
+    - content: Work order
       incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
       isCorrect: false
-    content: Device template
+    - content: Device template
       correctExplanation: A device template is created to describe the collection of devices that make up the application.
       isCorrect: true
-    content: Device twins
+    - content: Device twins
       incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
       isCorrect: false
   - content: To be able to tag a device with its physical location (e.g. address) what would we create in Azure IoT Central to track that on the device?
-    content: Event
+    choices:
+    - content: Event
       incorrectExplanation: To be able to tag a device with its physical location you need to create a property on it.
       isCorrect: false
-    content: Property
+    - content: Property
       correctExplanation: To be able to tag a device with its physical location you need to create a property on it.
       isCorrect: true
-    content: Setting
+    - content: Setting
       incorrectExplanation: To be able to tag a device with its physical location you need to create a property on it.
       isCorrect: false
-    content: State
+    - content: State
       incorrectExplanation: To be able to tag a device with its physical location you need to create a property on it.
       isCorrect: false
       
