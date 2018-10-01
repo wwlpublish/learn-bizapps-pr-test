@@ -13,9 +13,8 @@ durationInMinutes: 10
 quiz:
   title: Identify Exceptions with Connected Field Service quiz
   questions:
-  - content: questions:1
   - content: Which of the following need to be modified to change the rules used to raise alerts with the Connected Field Service template application?
-    choices: 
+     choices: 
     - content: Dynamics 365
       incorrectExplanation: TBD
       isCorrect: false
@@ -31,7 +30,6 @@ quiz:
     - content: Customer Asset
       incorrectExplanation: TBD
       isCorrect: false
-  questions:2
   - content: To add additional fields to the Alert Data on the IoT Alert in Dynamics 365 what do you need to modify or create? 
     choices: 
     - content: The Select Into statement for the AlertQueue
@@ -49,7 +47,6 @@ quiz:
     - content: You can not modify the data that is stored in the Alert Data field
       incorrectExplanation: TBD
       isCorrect: false
-  questions:3
   - content: If you had static rules and stateless processing for anomaly detection and wanted to simplify the creation of IoT Alerts what would be an alternative?
     choices: 
     - content: Replace the current process with a workflow in Dynamics 365 to ingest and evaluate the device data
@@ -67,7 +64,6 @@ quiz:
     - content: You can not modify the data that is stored in the Alert Data field
       incorrectExplanation: TBD
       isCorrect: false
-  questions:4
   - In order to modify the Azure Stream Analytics Job to change the criteria you must?
     choices: 
     - content: Disable the crm-to-IotHub Logic App
