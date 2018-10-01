@@ -1,4 +1,4 @@
-## Working with Device Properties and Definitions
+****## Working with Device Properties and Definitions
 
 Property Definitions make it easy to pre-define specific properties that are associated with IoT Devices.  
 
@@ -30,36 +30,36 @@ There are two primary areas where Property Definitions can be leveraged.
 		<tr>
 			<td>String</td>
 			<td>Used when the value you want to pass to a property is a text-based value.
-				<br>**Additional Properties Include:** max lenght and default value. As an example, A message property would use the string type since the contents of the message will be text.    </br></td>
+				<br></br><br>Additional Properties Include: max lenght and default value. As an example, A message property would use the string type since the contents of the message will be text.    </br></td>
 		</tr>
 		<tr>			
 			<td>Date and Time</td>
 			<td>Used when the value to pass to a property is date and/or time based.  
-				<br>**Additional Properties Include:** minimum and maximum values. </br>
+				<br></br><br>Additional Properties Include: minimum and maximum values. </br>
 			</td>
 		</tr>
 		<tr>
 			<td>Boolean</td>
 			<td>Used when you want to pass one of two possible values to a property.
-				<br>**Additional Properties Include:** Display name for true, display name for false, and default value.  </br>
+				<br></br><br>Additional Properties Include: Display name for true, display name for false, and default value.  </br>
 			</td>
 		</tr>
 		<tr>
 			<td>Whole Number</td>
 			<td>Used when you want to pass a whole number to the property.
-				<br>**Additional Properties Include:** minimum, maximum, and default value.</br>
+				<br></br><br>Additional Properties Include: minimum, maximum, and default value.</br>
 			</td>
 		</tr>
 		<tr>
 			<td>Decimal Number</td>
 			<td>Used when you want to pass a decimal number to the property. 
-				<br>**Additional Properties Include:** minimum, maximum, and default value as well as decimal precision</br>
+				<br></br><br>Additional Properties Include: minimum, maximum, and default value as well as decimal precision</br>
 			</td>
 		</tr>
 		<tr>
 			<td>Object</td>
 			<td>Used when the Item you want to pass is an object.
-				<br>**Example:**  A reading property might contain both a temperature and humidity property.  By setting the reading property to a Type of Object, you will be able to define specific sub-properties for it.  (More on this Later)  </br>
+				<br></br><br>Example:  A reading property might contain both a temperature and humidity property.  By setting the reading property to a Type of Object, you will be able to define specific sub-properties for it.  (More on this Later)  </br>
 			</td>
 		</tr>
 	</tbody>
