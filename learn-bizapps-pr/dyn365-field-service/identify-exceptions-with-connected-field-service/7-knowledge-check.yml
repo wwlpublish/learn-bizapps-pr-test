@@ -14,7 +14,7 @@ quiz:
   title: Identify Exceptions with Connected Field Service quiz
   questions:
   - content: Which of the following need to be modified to change the rules used to raise alerts with the Connected Field Service template application?
-     choices: 
+    choices: 
     - content: Dynamics 365
       incorrectExplanation: TBD
       isCorrect: false
@@ -64,7 +64,7 @@ quiz:
     - content: You can not modify the data that is stored in the Alert Data field
       incorrectExplanation: TBD
       isCorrect: false
-  - In order to modify the Azure Stream Analytics Job to change the criteria you must?
+  - content: In order to modify the Azure Stream Analytics Job to change the criteria you must?
     choices: 
     - content: Disable the crm-to-IotHub Logic App
       incorrectExplanation: TBD
