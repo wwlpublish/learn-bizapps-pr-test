@@ -1,4 +1,3 @@
-
 ## Summary and Cleanup
 
 In this module you have connected a real device to your deployment.  You have modified the template application to send alerts to the Dynamics 365 Connected Field Service add-on.  You have also used the advanced anomaly detection capabilities of Azure Stream Analytics to implement more complex dynamic rules.   And finally, you seen several of the extension points where you store detail telemetry as well as hook in your own custom processing of the device data stream. 
@@ -22,4 +21,4 @@ N- avigate to the Azure Portal [https://portal.azure.com ](https://portal.azure.
 Navigate to [https://shell.azure.com ](https://shell.azure.com )
 - List your accounts using command az account list 
 - Select your account using command: az account set -s “My Account Name” 
-- Delete the resource group using command: az group delete -n “Your Resource Group Name” 
+- Delete the resource group using command: az group delete -n “Your Resource Group Name”
