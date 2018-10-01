@@ -1,3 +1,5 @@
+## Connecting to Connected Field Service
+
 Now that you have built an Azure IoT Central application let’s look at how we can connect that up with Connected Field Service.  To accomplish that we are going to use the Microsoft Flow connectors to register devices and raise alerts with Dynamics 365.  
 
 Today, when you install the Connected Field Service add-in it installs several Azure components that aren’t required when working with IoT Central. This is because IoT Central includes similar components packaged as part of the overall service.  In the future it is on the roadmap to provide an install that does not include installing these redundant components.  The key components that you will be leveraging to complete the integration are the solutions that are installed on the Dynamics 365 side that include entities like IoT Alert and IoT Device.  If you were doing this for a real project you could also turn off some of the Azure components like IoT Hub, so you aren’t being billed for it.

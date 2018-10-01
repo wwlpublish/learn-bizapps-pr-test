@@ -79,9 +79,11 @@ In this exercise, you will be creating a customer asset, and then registering a 
 
 6. Click OK.
 
+![OK](../media/17-gs-unit5.png)
+
 7. In the Connected Device section, click on the ellipse ... button and click Refresh.
 
-![Refresh](../media/17-gs-unit5.png)
+![Refresh](../media/18-gs-unit5.png)
 
 8. You should see the device registration progress.
 

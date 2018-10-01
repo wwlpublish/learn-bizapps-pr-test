@@ -1,12 +1,12 @@
-## Anomaly Detection
+## Exercise - Anomaly Detection
 
-### Exercise 1: Building New Query  
+### Building New Query  
 In this exercise, you will be building a new query to replace the existing Azure Stream Analytics job query.  You will be building this new query incrementally, so you can see what the parts do.  This lab is designed to work with your physical device, if you don’t have a physical device you can alter the query to use fields from the simulated device. 
 
 ### Scenario 
 In this hands-on exercise you will be modifying the logic used to generate an IoT Alert to be more dynamic by using the Anomaly Detection preview feature of Azure Stream Analytics.  Currently, the IoT Alert is generated when the temperature from the device reaches the hard-coded limit.  Using the anomaly detection capabilities, you will be modifying the stream job queries to detect both an upward and downward trend in the temperature.  This type of detection would be idea where you want early notification of a change from an expected state but not have a hard-coded value that indicates when it becomes a problem.
  
-#### Task 1: Add Anomaly Data Collection to Azure 
+#### Add Anomaly Data Collection to Azure 
 To save the detail scores generated from our anomaly detection we need to create another collection in the Azure Cosmos DB we used in the prior hands on unit.  We are doing this to make it easy to see the values generated from the anomaly detection operator.   
 
 1. Go to your Azure portal, select Resource Groups and open the Resource Group you created when you deployed Connected Field Service.
@@ -19,7 +19,7 @@ To save the detail scores generated from our anomaly detection we need to create
 ![Collecion ID Field](../media/4-ie-unit6.png) 
 
  
-#### Task 2: Add New Output 
+#### Add New Output 
 In this task, you will add a new Output for the AnomalyData collection 
 
 1. Close the Azure Cosmos DB blade. 
@@ -34,7 +34,7 @@ In this task, you will add a new Output for the AnomalyData collection
 6. Enter AnomalyDB for Output Alias, select your subscription, select the Cosmo DB you created, select the Database you created, enter AnomalyDB for Collection Name Pattern, and click Save 
 ![Analytic Job window](../media/9-ie-unit6.png) 
  
-#### Task 3: Prepare and Build the New Query 
+#### Prepare and Build the New Query 
 
 1. Select Query. 
 ![Query](../media/10-ie-unit6.png) 
@@ -203,11 +203,11 @@ FROM AnomalyDetectionStep
  
 Make sure the job stats successfully. 
 
-### Exercise 1: Testing the Query  
+### Testing the Query  
 In this exercise, you will attempt to cause the temperature on your physical device to be changed to test the anomaly detection. 
 Each exercise consists of a scenario and learning objectives, the scenario describes the purpose of the exercices, while the objectives are listed and have bullet points.  
  
-#### Task 1: Test the Query 
+#### Test the Query 
 Now is the challenging part, you need something to slowly heat the temperature the device reads.  Ice packs work well, as do cans of compressed air.  Hair dryer or a hand warmer might work as well.  Just make sure to protect your device so you don't get it wet or otherwise damage it. 
 
 1. Close the Stream Analytics blade. 

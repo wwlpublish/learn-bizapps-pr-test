@@ -1,3 +1,5 @@
+## Remotely Monitor and Service Customer Equipment Overview
+
 With more and more devices being connected, there is a large amount of telemetry available for organizations to capture, analyze, and act on.  Microsoft’s Connected Field Service Solution for Dynamics 365 combines monitoring and preventative maintenance with the internet of things (IoT) to replace your traditional break fix service model with a more proactive never-fail model.  Your organization can capture all the information that is being transmitted from your IoT enabled devices and turn that information into actionable items that can be executed directly from a Dynamics 365 instance.  
 
 ![Azure IoT Hub](../media/1-rm-unit1.png)  

@@ -1,3 +1,5 @@
+## Remotely Interacting with Devices
+
 Once your IoT enabled Customer Assets are registered with either an Azure IoT Hub or IoT Central, readings from the device will be captured based on the configuration.  From within Azure IoT Hub or IoT Central, you can define how and when you want to trigger an alert that can be sent back into Dynamics 365.  For example, let’s say that you have an IoT enabled thermostat.  The device will constantly send temperature readings back to the IoT Hub.  As soon as a temperature reading that is outside of your specified threshold is discovered, it will generate an IoT alert record in Dynamics 365. 
 
 Dynamics 365 Connected Field Service solution contains several record types that can be used to assist in sending commands back to the device. 

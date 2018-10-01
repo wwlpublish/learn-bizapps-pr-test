@@ -1,7 +1,7 @@
-# Exercise 1: Register a Device #
+## Exercise Creating and IoT Alert
 
 
-## Task 1: Create Flow ##
+## Create Flow
 
 In this task, you will create a flow that will register device.
 
@@ -110,7 +110,7 @@ In this task, you will create a flow that will register device.
 ![Save flow](../media/24-ic-unit4.png)
 
 
-## Task 2: Test Registering Device ##
+## Test Registering Device 
 
 
 1: Return to your Connected Field Service application and navigate to **Customer Assets**.
@@ -142,11 +142,11 @@ In this task, you will create a flow that will register device.
 ![Device ID](../media/30-ic-unit4.png)
 
 
-# Exercise 2: Create IoT Alerts #
+## Create IoT Alerts 
 
 In this exercise, you will create an IoT alert for the trash container pickup request
 
-## Task 1: Create Pickup Request Alert ##
+### Create Pickup Request Alert 
 
 1: Go to your Azure IoT Central and open the left navigation.
 
@@ -281,7 +281,7 @@ In this exercise, you will create an IoT alert for the trash container pickup re
 ![save flow](../media/63-ic-unit4.png)
 
 
-## Task 2: Test Alerts ##
+### Test Alerts 
 
 
 1: Return to your Azure IoT Central, open the Test Device created by the flow, and click the **Measurements** tab.
