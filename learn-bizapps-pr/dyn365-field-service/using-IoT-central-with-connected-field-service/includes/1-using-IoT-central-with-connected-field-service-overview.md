@@ -22,8 +22,8 @@ The following table contains more details on each of the key device template com
         <tr>
             <td>Measurements</td>
             <td>
-                These can be telemetry which is time series data from the device. State e.g. is the lid open, or an Event e.g. Customer pushes button to request trash pickup.  Time series data is stored for use by the analytics service which is Azure Time Series Insights</li>
-                </ul>
+                These can be telemetry which is time series data from the device. State e.g. is the lid open, or an Event e.g. Customer pushes button to request trash pickup.  Time series data is stored for use by the analytics service which is Azure Time Series Insights
+                
             </td>
         </tr>
         <tr>
@@ -33,31 +33,30 @@ The following table contains more details on each of the key device template com
         </tr>
         <tr>
             <td>Settings</td>
-            <td>
-Settings control the behavior of your device, for example we could have an odor control feature and the setting could control how active the feature is (high, medium, low). 
+            <td>Settings control the behavior of your device, for example we could have an odor control feature and the setting could control how active the feature is (high, medium, low). 
             </td>
         </tr>
         <tr>
             <td>
-Commands</td>
+			Commands</td>
             <td>
             These allow remote commands to be sent to the device. With Connected Field Service this would extend the command into the Dynamics 365 user interface.  For example, a command could be sent to force close the lid if it was left open.
             </td>
         </tr>
         <tr>
             <td>
-Dashboards</td>
+			Dashboards</td>
             <td>
             Dashboards contain tiles that have information on the device.  These can include settings, properties and even maps.  For example, we could include a map showing the location of the device.  This would come in handy after a severe weather event with trash cans blowing all over the place.
             </td>
         </tr>
-<tr>
-            <td>
-Rules</td>
+		<tr>
+            <td>Rules</td>
             <td>       
-Rules are how you monitor the measurements from your device and trigger actions.  For us, this will be how we use Microsoft Flow to generate a Connected Field Service IoT Alert   
+			Rules are how you monitor the measurements from your device and trigger actions.  For us, this will be how we use Microsoft Flow to generate a Connected Field Service IoT Alert   
             </td>
         </tr>
     </tbody>
 </table>
+
 Once your template is setup, you can create simulated devices or connect a real device.  In the next unit, you will be building the custom application to manage a smart trash container and then connect it to Dynamics 365 using the Microsoft Flow IoT Central connector.
