@@ -9,39 +9,67 @@ There are two primary areas where Property Definitions can be leveraged.
 - Assisting in syncing and communicating with Device Twins
 - Streamlining population of properties in Command Definitions.  
 
-A Property Definition contains the following information:
+**A Property Definition contains the following information:**
 
-- Name: The name of the specific property.  In our above example, Message would be set as the name, since that is the Property we want to define.  
+- **Name:** The name of the specific property.  In our above example, Message would be set as the name, since that is the Property we want to define.  
 
-- Type: Defines the type of Property it is.  You have six different types to choose from.  
+- **Type:** Defines the type of Property it is.  You have six different types to choose from.  
 
-| **Type**                 | **Description**          |
-| :------------------- | :------------------- |
-| **String**  	       | Used when the value you want to pass to a property is a text-based value.  
+<table>
+	<thread>
+		<tr>
+			<th>
+				Type
+			</th>
+			<th>
+				Description
+			</th>
+		</tr>
+	</thread>
+	<tbody>
+		<tr>
+			<td>String</td>
+			<td>Used when the value you want to pass to a property is a text-based value.
+				<br>**Additional Properties Include:** max lenght and default value. As an example, A message property would use the string type since the contents of the message will be text.    </br></td>
+		</tr>
+		<tr>			
+			<td>Date and Time</td>
+			<td>Used when the value to pass to a property is date and/or time based.  
+				<br>**Additional Properties Include:** minimum and maximum values. </br>
+			</td>
+		</tr>
+		<tr>
+			<td>Boolean</td>
+			<td>Used when you want to pass one of two possible values to a property.
+				<br>**Additional Properties Include:** Display name for true, display name for false, and default value.  </br>
+			</td>
+		</tr>
+		<tr>
+			<td>Whole Number</td>
+			<td>Used when you want to pass a whole number to the property.
+				<br>**Additional Properties Include:** minimum, maximum, and default value.</br>
+			</td>
+		</tr>
+		<tr>
+			<td>Decimal Number</td>
+			<td>Used when you want to pass a decimal number to the property. 
+				<br>**Additional Properties Include:** minimum, maximum, and default value as well as decimal precision</br>
+			</td>
+		</tr>
+		<tr>
+			<td>Object</td>
+			<td>Used when the Item you want to pass is an object.
+				<br>**Example:**  A reading property might contain both a temperature and humidity property.  By setting the reading property to a Type of Object, you will be able to define specific sub-properties for it.  (More on this Later)  </br>
+			</td>
+		</tr>
+	</tbody>
+</table>
 
-**Additional Properties Include:** max length and default value.
 
-**Example:** A message property would use the string type since the contents of the message will be text. |
-| **Date and Time **       | Used when the value to pass to a property is date and/or time based.  
-
-**Additional Properties Include:** minimum and maximum values. 
-| **Boolean**              | Used when you want to pass one of two possible values to a property.  
-
-**Additional Properties Include:** Display name for true, display name for false, and default value.                   |
-| **Whole Number**         | Used when you want to pass a whole number to the property. 
-
-**Additional Properties Include:** minimum, maximum, and default value.                    |
-| **Decimal Number**       | Used when you want to pass a decimal number to the property. 
-
-**Additional Properties Include:** minimum, maximum, and default value as well as decimal precision                   |
-| **Object**               | Used when the Item you want to pass is an object.  
-
-**Example: ** A reading property might contain both a temperature and humidity property.  By setting the reading property to a Type of Object, you will be able to define specific sub-properties for it.  **(More on this Later)** |
-
-- Parent Property: Specifies that the property is a child property of another property.  
-- Editable: Specifies if the property will be editable when used in a command definition.  
-- Visible: Specifies if this is a hidden property that should not be shown in the command definition.
-- Additional Properties:   Additional items that are specific to that property type than can be defined. For example: A default text string that will be used with a Message Property.  (Note: Additional Properties will vary depending on the Type chosen.) 
+- **Parent Property:** Specifies that the property is a child property of another property.  
+- **Editable:** Specifies if the property will be editable when used in a command definition.  
+- **Visible:** Specifies if this is a hidden property that should not be shown in the command definition.
+- **Additional Properties:**   Additional items that are specific to that property type than can be defined. For example: A default text string that will be used with a Message Property.  (Note: Additional Properties will vary depending on the Type chosen.) 
 
 ### Using Property Definitions with Device Twins. 
 Let’s say that you want to use Device Tags to define the specific location of an IoT Device.  Typically, your devices are in a Building and on a Specific floor.  A Property Definition could be used to define the tag.  When that tag is added to a Device Category, it will be automatically populated on any device that belongs to that category.  
