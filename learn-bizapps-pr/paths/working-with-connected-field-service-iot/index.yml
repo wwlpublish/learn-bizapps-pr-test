@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.connected-field-service
+metadata:
+  title: Working with connected Field Service and IoT
+  description: This learning path introduces you to connected Field Service and IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-connected-field-service
+  #ms.learn-contact: dbeasley
+title: Working with connected Field Service and IoT
+summary: This learning path introduces you to connected Field Service and IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
+#TODO: Add link to how to get a trial subscription.
+prerequisites: |
+  - Have a trial subscription to Dynamics 365 for Field Service.
+iconUrl: /learn/achievements/work-with-cases-and-slas-in-dynamics-365-for-customer-service.svg
+levels:
+- intermediate
+roles:
+- consultant
+products:
+- bizapps
+- bizapps-d365
+modules:
+- learn-bizapps.get-started-with-connected-field-service
+- learn-bizapps.remotely-monitor-and-service-customer-equipment
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service
+- learn-bizapps.using-iot-central-with-connected-field-service
+- learn-bizapps.identify-exceptions-with-connected-field-service
+achievement: learn.customer-service-hub-cases-slas.trophy
