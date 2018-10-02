@@ -91,7 +91,7 @@ First, let's create the SharePoint list.
 
     ![Post and save](../media/post-tweet.png)
 
-1. Select **Create flow**.
+1. Select **Save**.
 
 Congratulations! You just created your first flow. 
 
