@@ -1,6 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.using-IoT-central-with-connected-field-service.5-knowledge-check
-title: Using IoT Central with Connected Field Service
+uid: learn-bizapps.using-iot-central-with-connected-field-service.5-knowledge-check
 metadata:
   title: Using IoT Central with Connected Field Service
   description: This quiz will test your knowledge of Using IoT Central with Connected Field Service.
@@ -15,17 +14,69 @@ durationInMinutes: 10
 quiz:
   title: Using IoT Central with Connected Field Service quiz
   questions:
-  - content: Question 1
+  - content: When using Azure IoT Central with Connected Field Service how do you specify the criteria for raising an IoT Alert ?
     choices: 
-    - content: Engagement through Facebook and Twitter is important and growing.
-      correctExplanation: More and more, customers use social media platforms to communicate with companies. Therefore, these platforms are becoming a critical component in the process of solving issues that customers have with products and services.
+    - content: Create a Device Template Rule with an Action
+      correctExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
       isCorrect: true
-    - content: Connecting products like switches and mechanical parts to the internet isn't part of customer service.
-      incorrectExplanation: To the extent that connected products become part of the Internet of Things, data collected through the connections can be an important part of the data that's used in customer service.
+    - content: Modify the Azure Stream Analytic job
+      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
       isCorrect: false
-    - content: The Internet of Things is part of self-service.
-      incorrectExplanation: Self-service doesn't typically include the Internet of Things. Self-service includes things like a knowledge base and searchable support websites.
+    - content: Create an Azure Function
+      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
       isCorrect: false
-    - content: Data collected from the Internet of Things is contained in knowledge bases.
-      incorrectExplanation: Data from connected products isn't collected in knowledge bases. Knowledge base articles are developed by a company or service organization to help them respond to issues that customers have with products or services. 
+    - content: Create a microservice to process the telemetry
+      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
       isCorrect: false
+      content: Use a Dynamics 365 workflow
+      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
+      isCorrect: false
+  - content: When an IoT Central rule is used to trigger the Microsoft Flow action what record type is created in Dynamics 365?
+    choices:
+    - content: Work Order
+      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      isCorrect: false
+    - content: Case
+      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      isCorrect: false
+    - content: A note on the customer asset
+      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      isCorrect: false
+    - content: IoT Alert
+      correctExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      isCorrect: true
+    - content: Customer asset
+      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      isCorrect: false
+  - content: In Azure IoT Central what do we create to describe our collection of devices that make up the application?
+    choices:
+    - content: Customer asset
+      incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
+      isCorrect: false
+    - content: IoT device
+      incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
+      isCorrect: false
+    - content: Work order
+      incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
+      isCorrect: false
+    - content: Device template
+      correctExplanation: A device template is created to describe the collection of devices that make up the application.
+      isCorrect: true
+    - content: Device twins
+      incorrectExplanation: A device template is created to describe the collection of devices that make up the application.
+      isCorrect: false
+  - content: To be able to tag a device with its physical location (e.g. address) what would we create in Azure IoT Central to track that on the device?
+    choices:
+    - content: Event
+      incorrectExplanation: To be able to tag a device with its physical location you need to create a property on it.
+      isCorrect: false
+    - content: Property
+      correctExplanation: To be able to tag a device with its physical location you need to create a property on it.
+      isCorrect: true
+    - content: Setting
+      incorrectExplanation: To be able to tag a device with its physical location you need to create a property on it.
+      isCorrect: false
+    - content: State
+      incorrectExplanation: To be able to tag a device with its physical location you need to create a property on it.
+      isCorrect: false
+      

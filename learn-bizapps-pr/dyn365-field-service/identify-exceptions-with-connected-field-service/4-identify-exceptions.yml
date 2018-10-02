@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.identify-exceptions-with-connected-field-service.4-identify-exceptions
+title: Identify Exceptions
+metadata:
+  title: Identify Exceptions
+  description: Identify Exceptions
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-identify-exceptions.md)]

@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.using-IoT-central-with-connected-field-service.4-creating-an-IoT-alert
+uid: learn-bizapps.using-iot-central-with-connected-field-service.4-creating-an-iot-alert
 title: Creating an IoT Alert
 metadata:
   title: Creating an IoT Alert
@@ -12,4 +12,4 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 5
 content: |
-  [!include[](includes/4-creating-an-IoT-alert.md)]
+  [!include[](includes/4-creating-an-iot-alert.md)]
