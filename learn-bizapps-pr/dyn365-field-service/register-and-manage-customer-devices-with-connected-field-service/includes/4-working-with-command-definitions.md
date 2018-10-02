@@ -1,6 +1,8 @@
 ## Working with Command Definitions
 
-Many times, you will have several IoT devices that either do the same thing or have similar properties that are reported back and potentially need to be interacted with.  While an IoT Alert that is generated will be specific to a device, there may be many common properties between devices that need to be interacted with.  Each command that you create to send to a device will specify which of those different properties are being used for that specific device.    
+Many times, you will have several IoT devices that either do the same thing or have similar properties that are reported back and potentially need to be interacted with.  While an IoT Alert that is generated will be specific to a device, there may be many common properties between devices that need to be interacted with.  Each command that you create to send to a device will specify which of those different properties are being used for that specific device.  
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBw]  
 
 For example, let’s say that we want to send a message back to a device that will display a message that lets the device (or the display on the device) know that we have dispatched a technician to resolve the issue.  Each time we wanted to communicate this to a device, we could create a command in Connected Field Service that includes the following JSON message: 
 

@@ -1,8 +1,10 @@
+## Summary
+
 In this module you have created an application with IoT Central and connected it to your Dynamics 365 for Field Service using the Connected Field Service add-in.  Azure IoT Central abstracts many of the more technical aspects of building an IoT solution.  Using the portal, you are able to build an IoT solution similar to how you would customize Dynamics 365.  Using both together you can rapidly bring device telemetry and interaction into the Dynamics 365 solution.  By using Azure IoT Central you can get your solution shipped quicker.
 
 In the near-term roadmap of the Connected Field Service add-on, expect to see more integration with Azure IoT Central. 
 
-## Cleaning Up ##
+### Cleaning Up 
 
 The trial you created of Azure IoT Central will simply expire at the end of the trial with no further action required.  If you want to re-create your trial from the beginning you can delete your existing trial at any time.  Currently you are only allowed one active trial at a time in an Azure subscription. 
 

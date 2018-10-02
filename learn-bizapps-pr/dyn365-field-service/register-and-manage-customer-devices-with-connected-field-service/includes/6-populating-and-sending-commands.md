@@ -1,8 +1,5 @@
-## Populating and Sending Commands
+## Exercise - Populating and Sending Commands
 
-Several paragraphs – or longer – describing an overview of the lab including a description of the lab and why certain topics are covered. This is also called the ‘LAB ABSTRACT’ that will be used for hand-off to conferences as part of the content hand-off process 
-
-**Abstract**
 Dynamics 365’s Connected Field Service solution provides the ability to remotely monitor IoT enabled devices to keep track of up time, device statistics, anomalies and more.  After an IoT device communicates an anomaly or exception, that information is sent to Connected Field Service as an alert.  Once the alert is captured, IoT devices can be remotely managed and interacted with using IoT device commands from within Dynamics 365.  To assist in flexibility, the data populated in these commands can be easily populated using command and property definitions.   
  
 The purpose of this hands-on-lab is to introduce you to creating and defining command and property definitions in Connected Field Service.  Additionally, we will demonstrate how you can automate the process of sending commands using Dynamics 365 functionality.   

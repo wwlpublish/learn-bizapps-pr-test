@@ -1,99 +1,96 @@
-## Exercise - Installing Connected Field Service
+## Exercise – Installing Connected Field Service
 
-In this exercise, you will configure your environment, install the Connected Field Service App, and create a deployment.
+In this exercise, you'll set up your environment, install the Connected Field Service app, and create a deployment.
 
-### Configure Environment
+### Set up the environment
 
-Create a trial or reset an existing test environment and configure it for Field Service.  This installs the Dynamics 365 Field Service application.  From this base deployment you will be adding the Connected Field Service add-on.   Make sure your lab environment has sample data enabled.
+Create a trial environment or reset an existing test environment, and set it up for Microsoft Dynamics 365 for Field Service. This installs the Field Service application. To this base deployment, you'll add the Connected Field Service add-on. Make sure that sample data is enabled in your lab environment.
 
-It is important that you do not complete these exercises in your production environment.  Always do these labs in a demo or sandbox type instance.
+It's important that you not do this exercise in your production environment. Always do exercises in a demo or sandbox instance.
 
-[!Note]
-See onboarding options for getting an environment [https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online "Getting an Environment")
+> [!NOTE]
+> To learn about the onboarding options for getting an environment, see [Onboard your organization and users](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online "Getting an Environment").
 
 ![Environment scenario options](../media/1-gs-unit3.png)
 
-### Install Connected Field Service App
+### Install the Connected Field Service app
 
-1. Go to your Dynamics 365 org and click Switch to Another App
+1. Go to your Microsoft Dynamics 365 organization, and select the drop-down arrow to switch to another app.
 
-![Switch Apps](../media/2-gs-unit3.png)
+    ![Switch apps](../media/2-gs-unit3.png)
 
-2. Click Get More Apps</li>
+2. Select **Get more apps**.
 
-![Get more apps](../media/3-gs-unit3.png)
+    ![Get more apps button](../media/3-gs-unit3.png)
 
-3. Search for Connected Field Service and select it.
+3. Search for *Connected Field Service*, and select it.
 
-![Select Connected Field Service App](../media/4-gs-unit3.png)
+    ![Select the Connected Field Service add-on](../media/4-gs-unit3.png)
 
-4. Click GET IT NOW.
+4. Select **Get it now**.
 
-![Get it now button](../media/5-gs-unit3.png)
+    ![Get it now button](../media/5-gs-unit3.png)
 
-5. Click Continue.
+5. Select **Continue**.
 
-![Continue button](../media/6-gs-unit3.png)
+    ![Continue button](../media/6-gs-unit3.png)
 
-6. Select the organization and continue.
+6. Select the organization, and then select **Agree** to continue.
 
-![Organization selection](../media/7-gs-unit3.png)
+    ![Select the organization](../media/7-gs-unit3.png)
 
-7. Click Accept.
+7. Select **Accept**.
 
-![Permission requested accept](../media/8-gs-unit3.png)
+    ![Accept button](../media/8-gs-unit3.png)
 
-8. Read the Terms of Service and click Next.
+8. Read the Terms of service, and then select **Next**.
 
-![Terms of Service](../media/9-gs-unit3.png)
+    ![Terms of service](../media/9-gs-unit3.png)
 
-9. Click Next again.
+9. Select **Next** again.
 
-![Next button](../media/10-gs-unit3.png)
+    ![Next button](../media/10-gs-unit3.png)
 
+## Create a deployment
 
-## Create Deployment
+1. Select your organization, and then select **New Deployment**.
 
-1. Select your organization and click New Deployment
+    ![New Deployment button](../media/11-gs-unit3.png)
 
-![New Deployment button](../media/11-gs-unit3.png)
+    If your Microsoft Azure subscription is in the same Azure Active Directory (Azure AD) as your Dynamics 365 environment, this step isn't required. If it's in a different environment, select **Use Different**, and then sign in by using those credentials. After sign-in, you should see the correct Azure subscription in the subscription list.
 
-If your Azure Subscription is in the same Azure AD as your Dynamics 365 environment, this step is not required, otherwise if it is in a different environment click Use Different and sign in with those credentials.  After sign-in you should see in the subscription list the correct Azure subscription.
+2.	Select the subscription, enter the name of the resource group, select your region, and then select **Deploy**.
 
-2.	Select Subscription, enter Resource Group name, select your Region, and click Deploy.
+    ![Deploy button](../media/12-gs-unit3.png)
 
-![Deploy button](../media/12-gs-unit3.png)
+3. Select **Show deployment status**.
 
-3. Click Show Deployment Status.
+    ![Deployment status button](../media/13-gs-unit3.png)
 
-![Deployment status button](../media/13-gs-unit3.png)
+4. Wait for the deployment to be finished. The **Deployment Status** section will be updated to show the progress of the deployment.
 
-4. Wait for the deployment to complete, the deployment status will update the progress as it goes.
+    ![Deployment Status section](../media/14-gs-unit3.png)
 
-![Deployment status](../media/14-gs-unit3.png)
+5. Confirm that the deployment was successful before you continue.
 
-5. Confirm the deployment succeeds before you proceed to the next steps.
+    ![Deployment success](../media/15-gs-unit3.png)
 
-![Deployment success](../media/15-gs-unit3.png)
+6. Select **Authorize**.
 
-6. Click Authorize.
+    ![Authorize button](../media/16-gs-unit3.png)
 
-![Authorize button](../media/16-gs-unit3.png)
+7. Sign in by using your Azure credentials.
+8. Select **This connection is not authenticated**.
 
-7. Sign in with your Azure credentials.
+    ![This connection is not authenticated button](../media/17-gs-unit3.png)
 
-8. Click This Connection is Not Authenticated.
+9. Select **Authorize**.
 
-![Not authenticated button](../media/17-gs-unit3.png)
+    ![Authorize button](../media/18-gs-unit3.png)
 
-9. Click Authorize.
+10. Sign in by using your Dynamics 365 credentials.
+11. Select **Save**.
 
-![Authorizebutton](../media/18-gs-unit3.png)
+    ![Save button](../media/19-gs-unit3.png)
 
-10. Sign in with your Dynamics 365 credentials.
-
-11. Click Save.
-
-![Save button](../media/19-gs-unit3.png)
-
-12.	You have now completed your Connected Field Service installation.  If you would like to have some demo data installed you can download and deploy it from here [https://www.microsoft.com/en-us/download/details.aspx?id=55320](https://www.microsoft.com/en-us/download/details.aspx?id=55320  "Demo Data")  
+12.	You've now finished installing Connected Field Service. If you want to install some demo data, you can download and deploy it from [https://www.microsoft.com/en-us/download/details.aspx?id=55320](https://www.microsoft.com/en-us/download/details.aspx?id=55320 "Demo Data").

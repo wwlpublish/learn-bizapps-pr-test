@@ -81,9 +81,6 @@ You'll now create a customer asset and then register a device with Azure IoT Hub
 
     ![Refresh](../media/17-gs-unit5.png)
 
-    You should see the device registration progress.
-
-    ![Device registration in progress](../media/19-gs-unit5.png)
 
 8. Repeat the previous step until the device is registered.
 
