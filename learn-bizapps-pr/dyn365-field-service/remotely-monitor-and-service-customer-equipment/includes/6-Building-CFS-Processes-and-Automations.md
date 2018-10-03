@@ -539,9 +539,9 @@ Now that you have created the necessary customizations, workflows, and business 
 1.	Select the **Created** stage. *(Notice the information you extracted earlier is being displayed. Because the reading is between 86 and 100 degrees, Create Case is the next stage.)*
 
 
-<!--note from editor: Please review the last sentence above for accuracy. I corrected what looked like a typo. -->
-
-
+	<!--note from editor: Please review the last sentence above for accuracy. I corrected what looked like a typo. -->
+	
+	
 	![Created Stage](../media/68-rm-unit6.png)
 
 1.	On the **Command Bar**, select **Create Command**.
