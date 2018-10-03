@@ -87,26 +87,26 @@ In this task, you will be creating a Dynamics 365 solution that you can use for 
 	- **Prefix:** *cfs*
 1. Select **Save and Close**.
 
-![Save and Close](../media/1-rm-unit6.png) 
+	![Save and Close](../media/1-rm-unit6.png) 
 
 1. Select the **Connected Field Service Course** publisher and then select **Add**.
 
-![Lookup Record](../media/2-rm-unit6.png) 
+	![Lookup Record](../media/2-rm-unit6.png) 
 
 1. In the **Version** field, enter **1.0.0.0**.
 1. Your solution should resemble the following:
 
-![Solution Screen](../media/3-rm-unit6.png)
+	![Solution Screen](../media/3-rm-unit6.png)
 
 1.	Save the solution and leave it open.  
 1.	Select **Entities** and then select **Add Existing**.
 
-![Add Existing](../media/4-rm-unit6.png)
+	![Add Existing](../media/4-rm-unit6.png)
 
 1.	Select the **Case**, **IoT Alert**, and **Work Order** entities.
 1.	For each entity, select **Add All Assets**. Do not include required components.
 
-![Add All Assets](../media/5-rm-unit6.png)
+	![Add All Assets](../media/5-rm-unit6.png)
 
 #### Task 2:  Customize the IoT alert entity
  
