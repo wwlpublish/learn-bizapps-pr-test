@@ -320,159 +320,246 @@ Now that you have extracted the correct data and placed it in the correct fields
 
 #### Task 5: Modify the CFS – IoT alert process flow
 
-Currently we are using a business process flow called CFS – IoT Alert Process Flow to guide users in resolving an alert when it is triggered. When a temperature reading is between 86 and 100 degrees, in the business process we should create a case record then a work order if the case cannot be resolved.  If the temperature reading is above 100 degrees, the business process should skip the case stage all together and go straight to work order.  In this task we will be modifying the CFS – IoT Alert Process Flow to reflect these specific needs.   
+Currently you are using a business process flow called *CFS – IoT Alert Process Flow* to guide users in resolving an alert when it is triggered. When a temperature reading is between 86 and 100 degrees, you should create a case record in the business process and then a work order if the case cannot be resolved. If the temperature reading is above 100 degrees, the business process should skip the case stage all together and go straight to a work order. In this task, you will modify the CFS – IoT Alert Process Flow to reflect these specific needs.   
  
-1.	In the **IoT Alert Process** solution, select **Processes**, Click **Add Existing**. 
-![Add Existing](../media/30-rm-unit6.png)
-1.	Select the **CFS – IoT Alert Process Flow** and click **OK**.
-![Select Solution Components](../media/31-rm-unit6.png)
-1.	Select **Yes, Include required components** and click **OK**. 
-1.	Open the **CFS – IoT Alert Process Flow**.
-1.	Click the **Deactivate** button to deactivate the process.
-![Deactivate](../media/32-rm-unit6.png)
+1.	In the **IoT Alert Process** solution, select **Processes** and then select **Add Existing**. 
+
+	![Add Existing](../media/30-rm-unit6.png)
+
+1.	Select **CFS – IoT Alert Process Flow** and then select **OK**.
+
+	![Select Solution Components](../media/31-rm-unit6.png)
+
+1.	Select **Yes, Include required components** and then select **OK**. 
+1.	Open **CFS – IoT Alert Process Flow**.
+1.	Select **Deactivate** to deactivate the process.
+
+	![Deactivate](../media/32-rm-unit6.png)
+
 1.	Expand **Details** on the **IoT Alert Created** stage.  
-![Details](../media/33-rm-unit6.png)
-1.	Under **Components**, drag the **Data Step** below the **Alert Time** step.
-![Data Step](../media/34-rm-unit6.png)
-1.	Configure the Data Step as follows:
+
+	![Details](../media/33-rm-unit6.png)
+
+1.	Under **Components**, drag **Data Step** below the **Alert Time** step.
+
+	![Data Step](../media/34-rm-unit6.png)
+
+1.	Configure Data Step as follows:
 	- **Step Name:** *Reading*
 	- **Data Field:** *Reading*
-![Configure Data Step](../media/35-rm-unit6.png)
-1.	Click **Apply** to save your changes.  
-1.	Repeat steps 7 – 9 to add the following **Data Steps** to the **IoT Alert Created** stage:
+	
+	![Configure Data Step](../media/35-rm-unit6.png)
+
+1.	Select **Apply** to save your changes.  
+1.	Repeat steps 7–9 to add the following **Data Steps** to the **IoT Alert Created** stage:
 	- **Threshold**
 	- **Reading Type**
 	- **Rule Output**
-1.	Select the **Components** tab, drag the **Condition** component to the right of the **IoT Alert Created** stage.
-![Condition Component](../media/36-rm-unit6.png)
+1.	Select the **Components** tab and then drag the **Condition** component to the right of the **IoT Alert Created** stage.
+
+	![Condition Component](../media/36-rm-unit6.png)
+
 1.	In the **Condition Display Name**, enter **Temperature Condition**. 
 1.	Configure Rule 1 as follows:
 	- **Field:** *Reading*
 	- **Operator:** *Is greater than or equal to*
 	- **Type:** *Value*
 	- **Value:** *86*
-![Rule 1](../media/37-rm-unit6.png)
-1.	Click the **+ New** button to add another rule.
-![+ New](../media/38-rm-unit6.png)
+	
+	  ![Rule 1](../media/37-rm-unit6.png)
+	  
+1.	Select **+ New** to add another rule.
+
+	![+ New](../media/38-rm-unit6.png)
+
 1.	Configure Rule 2 as follows:
 	- **Field:** *Reading*
 	- **Operator:** *Is less than or equal to*
 	- **Type:** *Value*
 	- **Value:** *100*
-![Rule 2](../media/39-rm-unit6.png)
-1.	Ensure the **Rule Logic** is set to **And**.
-![Rule Logic](../media/40-rm-unit6.png)
-1.	Click **Apply**
-1.	Select the **Components** tab, drag the **Stage** component below of the **Temperature Condition**.  
-![Stage](../media/41-rm-unit6.png)
+	
+	  ![Rule 2](../media/39-rm-unit6.png)
+
+1.	Ensure **Rule Logic** is set to **And**.
+
+	![Rule Logic](../media/40-rm-unit6.png)
+
+1.	Select **Apply**.
+1.	Select the **Components** tab and then drag the **Stage** component below **Temperature Condition**.  
+
+	![Stage](../media/41-rm-unit6.png)
+
 1.	Configure the stage as follows:
 	- **Display Name:** *Reading*
 	- **Entity:** *Work Order*
 	- **Relationship:** *IoT Alert*
-![Configure Stage](../media/42-rm-unit6.png)
-1.	Click **Apply**
-1.	Expand the **Details** of the Create Work Order stage, and select **Data Step #1**
-1.	Configure the Data Step As follows:
+	
+	  ![Configure Stage](../media/42-rm-unit6.png)
+
+1.	Select **Apply**.
+1.	Expand the **Details** of the Create Work Order stage and then select **Data Step #1**.
+1.	Configure Data Step as follows:
 	- **Step Name:** *Service Account*
 	- **Data Field:** *Service Account*
-![Configure Data Step](../media/43-rm-unit6.png)
-1.	Click **Apply**.
-1.	 Select the **Components** tab, drag **Data Step** below the **Data Step #1 Service Account** step.
-1.	Configure the Data Step As follows:
+	
+	  ![Configure Data Step](../media/43-rm-unit6.png)
+
+1.	Select **Apply**.
+1.	Select the **Components** tab and then drag **Data Step** below **Data Step #1 Service Account**.
+1.	Configure Data Step as follows:
 	- **Step Name:** *Priority*
 	- **Data Field:** *Priority*
-![Properties](../media/44-rm-unit6.png)
-1.	Click **Apply**.
-1.	Select the **Components** tab, drag **Data Step** below the **Data Step #2 Priority** step.
-1.	Configure the Data Step As follows:
+	
+	  ![Properties](../media/44-rm-unit6.png)
+
+1.	Select **Apply**.
+1.	Select the **Components** tab and then drag **Data Step** below **Data Step #2 Priority**.
+1.	Configure Data Step as follows:
 	- **Step Name:** *Work Order Type*
 	- **Data Field:** *Work Order Type*
-![Work Order Type](../media/45-rm-unit6.png)
-1.	Click **Apply**.
-1.	Select the **Reading** Stage, click the **Connector** Icon, from the menu that appears, select **Reconnect**. 
-![Reconnect](../media/46-rm-unit6.png)
+	
+	  ![Work Order Type](../media/45-rm-unit6.png)
+
+1.	Select **Apply**.
+1.	Select the **Reading** stage, select the **Connector** icon, and in the menu that appears, select **Reconnect**. 
+
+	![Reconnect](../media/46-rm-unit6.png)
+
 1.	Select the **Schedule Work Order** stage as the **2nd Point**.  
-![Schedule Work Order](../media/47-rm-unit6.png)
-1.	Your business process flow should now resemble the image below:
-![Business Process Flow](../media/48-rm-unit6.png)
-1.	Select the **Create Case Stage**.
-1.	Set the **Relationship** to **IoT Alert** and click **Apply**.
-![Relationship](../media/49-rm-unit6.png)
-1.	Click the **Validate** button to test for errors, resolve any errors it finds. 
+
+	![Schedule Work Order](../media/47-rm-unit6.png)
+
+1.	Your business process flow should now resemble the following:
+
+	![Business Process Flow](../media/48-rm-unit6.png)
+
+1.	Select **Create Case Stage**.
+1.	Set the **Relationship** to **IoT Alert** and then select **Apply**.
+
+	![Relationship](../media/49-rm-unit6.png)
+
+1.	Select **Validate** to test for errors and resolve any errors it finds. 
 1.	**Save** and **Activate** the **CFS – IoT Alert Process Flow**.
-1.	On your **IoT Alert Processes** solution, click the **Publish All Customizations** button.
+1.	On your **IoT Alert Processes** solution, select **Publish All Customizations**.
 
 #### Task 6: Test your newly created automation 
 
-Now that we can created the necessary customizations, workflows, and business process flows we are going to be using a simulator to test everything to ensure that is performing the desired functionality.  
+Now that you have created the necessary customizations, workflows, and business process flows, you will use a simulator to test that everything is performing the desired functionality.  
 
 1.	In **Dynamics 365**, select the down arrow next to the **Dynamics 365** text and choose **Connected Field Service**. 
-![Connected Field Service](../media/50-rm-unit6.png)
-1.	Select the **Site Map Icon** to expand navigation, select **Customer Assets**. 
-1.	Click the **New** Button.
-1.	Configure your Customer Asset as follows:
+
+	![Connected Field Service](../media/50-rm-unit6.png)
+
+1.	Select the **Site Map** icon to expand navigation and then select **Customer Assets**. 
+1.	Select **New**.
+1.	Configure your customer asset as follows:
 	- **Name:** *Smart Thermostat*
 	- **Account:** *Adventure Works (Sample)*
 	- **Device ID:** *smt-9876*
-![Customer Asset](../media/51-rm-unit6.png)
-1.	Save the **Customer Asset** and leave the record open
-1.	One the **Command bar**, select **Register Devices**, and click **OK**.
-1.	In your web browser select a new tab and navigate to [Https://Portal.Azure.com](Https://Portal.Azure.com") (Log into Azure if prompted. You need an Azure subscription associated with the account you are using)
+	
+	  ![Customer Asset](../media/51-rm-unit6.png)
+
+1.	Save **Customer Asset** and leave the record open.
+1.	On the **Command bar**, select **Register Devices** and then select **OK**.
+1.	In your web browser, select a new tab and navigate to [https://portal.azure.com](Https://Portal.Azure.com"). (Log in to Azure if prompted. You need an Azure subscription associated with the account you are using.)
 1.	Select **Resource Groups** and open your resource group.
-![Resource groups](../media/52-rm-unit6.png)
-1.	Open the IoT Hub that you are using with Connected Field Service, and select the **Simulator**
-![Simulator](../media/53-rm-unit6.png)
-1.	Click the **Simulator URL** to open the Thermostat Simulator. (The simulator should open in a new tab)
-![Simulator URL](../media/54-rm-unit6.png)
-1.	On the simulator click **Connection**. 
-![Connection](../media/55-rm-unit6.png)
-1.	Switch back to your **Azure** subscription, close the simulator App Service screen.
-![Close App Service](../media/56-rm-unit6.png)
-1.	Open the IoT Hub.
-![IoT Hub](../media/57-rm-unit6.png)
-1.	Highlight the **IoT Hub name** and **Copy** it.  
-![IoT Hub name](../media/58-rm-unit6.png)
-1.	Switch back to your simulator screen and paste the **IoT hub name** into the **Host** field.
-![Host Field](../media/59-rm-unit6.png)
-1.	Switch back to your Azure subscription, select **Shared Access Policies**.
-![Shared Access Policies](../media/60-rm-unit6.png)
+
+	![Resource groups](../media/52-rm-unit6.png)
+
+1.	Open the IoT hub that you are using with Connected Field Service, and select **Simulator**.
+
+	![Simulator](../media/53-rm-unit6.png)
+
+1.	Select the **Simulator URL** to open the Thermostat Simulator. (The simulator should open in a new tab.)
+
+	![Simulator URL](../media/54-rm-unit6.png)
+
+1.	On the simulator, select **Connection**. 
+
+	![Connection](../media/55-rm-unit6.png)
+
+1.	Switch back to your **Azure** subscription and close the simulator App Service screen.
+
+	![Close App Service](../media/56-rm-unit6.png)
+
+1.	Open the IoT hub.
+
+	![IoT Hub](../media/57-rm-unit6.png)
+
+1.	Highlight the **IoT Hub name** and copy it.  
+
+	![IoT Hub name](../media/58-rm-unit6.png)
+
+1.	Switch back to your simulator screen and paste the IoT hub name into the **Host** field.
+
+	![Host Field](../media/59-rm-unit6.png)
+
+1.	Switch back to your Azure subscription and select **Shared Access Policies**.
+
+	![Shared Access Policies](../media/60-rm-unit6.png)
+
 1.	Open the **iothubowner policy** and copy the **Primary key**.
-![Primary Key](../media/61-rm-unit6.png)
-1.	Switch back to your simulator screen and paste the **Primary Key** into the **Key** field. 
-![Key field](../media/62-rm-unit6.png)
-1.	Click the **Connect** button.
-1.	Click the **Refresh** button to ensure all registered devices are available.
-1.	From the **Select a device** drop down, select the **smt-9876** device. *(A green dot should appear next to the Refresh button, and after a few seconds it should start transmitting information.)*
-![smt-9876 device](../media/63-rm-unit6.png)
-1.	On the **Temperature Slider**, set it to **75 Degrees** and wait for the temperature status to register on in the **Messages Sent** window.  
-![Temperature Slider](../media/64-rm-unit6.png)
-Because the temperature was between 71 and 85 degrees, a command will be sent to the device to reboot it.  *(**Note:** it can take several minutes for the reboot command to be sent to the device)*
-![Rebooting](../media/65-rm-unit6.png)
+
+	![Primary Key](../media/61-rm-unit6.png)
+
+1.	Switch back to your simulator screen and paste the primary key into the **Key** field. 
+
+	![Key field](../media/62-rm-unit6.png)
+
+1.	Select **Connect**.
+1.	Select **Refresh** to ensure all registered devices are available.
+1.	From the **Select a device** drop-down menu, select **smt-9876**. *(A green dot should appear next to the Refresh button, and after a few seconds it should start transmitting information.)*
+
+	![smt-9876 device](../media/63-rm-unit6.png)
+
+1.	On **Temperature Slider**, set it to **75 Degrees** and wait for the temperature status to register in the **Messages Sent** window.  
+
+	![Temperature Slider](../media/64-rm-unit6.png)
+
+	Because the temperature was between 71 and 85 degrees, a command will be sent to the device to restart it. *(**Note:** It can take several minutes for the restart command to be sent to the device.)*
+
+	![Rebooting](../media/65-rm-unit6.png)
+
 1.	Switch to the browser tab that has **Dynamics 365** loaded.
-1.	Select the **Site Map Icon** to expand navigation, select **IoT Alerts**.
+1.	Select the **Site Map** icon to expand navigation and then select **IoT Alerts**.
 1.	Switch the view to **Inactive IoT Alerts**.
-1.	Open the **Temperature of 75 exceeded a threshold of 70 Alert**.
-1.	 Select the **Commands** tab. *(You should see a command that was sent to the device.)*
-![Commands tab](../media/66-rm-unit6.png)
+1.	Open **Temperature of 75 exceeded a threshold of 70 Alert**.
+1.	Select the **Commands** tab. *(You should see a command that was sent to the device.)*
+
+	![Commands tab](../media/66-rm-unit6.png)
+
 1.	Switch back to the web browser tab that contains your **Simulator**. 
-1.	Set the **Temperature** to **65 Degrees** and wait for it to register in the **Messages Sent** window.
-![Messages Sent](../media/67-rm-unit6.png)
+1.	Set **Temperature** to **65 Degrees** and wait for it to register in the **Messages Sent** window.
+
+	![Messages Sent](../media/67-rm-unit6.png)
+
 1.	Switch to the browser tab that has **Dynamics 365** loaded.
-1.	Select the **Site Map Icon** to expand navigation, select **IoT Alerts**.
+1.	Select the **Site Map** icon to expand navigation and then select **IoT Alerts**.
 1.	Open the **Temperature reading of 90 exceeded a threshold of 70** alert.
-1.	Click the **Created** Stage. *(Notice the information we extracted earlier is being displayed, and because the reading is between 86 and 100, create case it the next stage.)*
-![Created Stage](../media/68-rm-unit6.png)
-1.	One the **Command Bar**, click **Create Command**.
+1.	Select the **Created** stage. *(Notice the information you extracted earlier is being displayed. Because the reading is between 86 and 100 degrees, Create Case is the next stage.)*
+
+
+<!--note from editor: Please review the last sentence above for accuracy. I corrected what looked like a typo. -->
+
+
+	![Created Stage](../media/68-rm-unit6.png)
+
+1.	On the **Command Bar**, select **Create Command**.
 1.	Complete the command as follows:
 	- **Name:** *Reset Device*
 	- **Message:** *{"CommandName":"Reset Thermostat","Parameters":{}}*
-![Create Command](../media/69-rm-unit6.png)
-1.	Click **Send & Close**. 
-1.	Switch back to your **Simulator** and wait for the device to Reboot. 
-1.	On the **Temperature Slider**, set it to **106 Degrees** and wait for the temperature status to register on in the **Messages Sent** window.  
-![Messages Sent](../media/70-rm-unit6.png)
+	
+	![Create Command](../media/69-rm-unit6.png)
+
+1.	Select **Send & Close**. 
+1.	Switch back to your **Simulator** and wait for the device to restart. 
+1.	On **Temperature Slider**, set it to **106 Degrees** and wait for the temperature status to register in the **Messages Sent** window.  
+
+	![Messages Sent](../media/70-rm-unit6.png)
+
 1.	Switch to the browser tab that has **Dynamics 365** loaded.
-1.	Select the **Site Map Icon** to expand navigation, select **IoT Alerts**.
+1.	Select the **Site Map** icon to expand navigation and then select **IoT Alerts**.
 1.	Open the **temperature reading of 106 exceeded a threshold of 70** alert.
-1.	Notice because the alert was above 100 degrees, that it skipped the Create Case stage completely.  
-![Create Work Order](../media/71-rm-unit6.png)
+1.	Notice that because the alert was above 100 degrees, it skipped the Create Case stage completely.  
+
+	![Create Work Order](../media/71-rm-unit6.png)
