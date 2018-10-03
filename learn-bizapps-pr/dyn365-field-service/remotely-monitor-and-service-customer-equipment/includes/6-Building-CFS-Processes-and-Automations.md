@@ -119,7 +119,7 @@ To assist in automating items and actions based on IoT alerts, you will need to 
 	- **Minimum Value:** *0*
 	- **Maximum Value:** *250*
 	
-![New Fields](../media/6-rm-unit6.png)
+	![New Fields](../media/6-rm-unit6.png)
 
 1. Select **Save and New**.
 1. Repeat the process to add the fields defined below:
@@ -143,30 +143,30 @@ To assist in automating items and actions based on IoT alerts, you will need to 
 	1. **Data Type:** *Lookup*
 	1. **Target Record Type:** *Account*
 	
-![Configure New Field](../media/7-rm-unit6.png)
+	![Configure New Field](../media/7-rm-unit6.png)
 
 1.	Select **Save and Close**.
 1.	Select **1:N** Relationships and then select **New**.
 
-![New 1-to-Many Relationship](../media/8-rm-unit6.png)
+	![New 1-to-Many Relationship](../media/8-rm-unit6.png)
 
 1.	Configure the relationship as follows:
 	- **Primary Entity:** *IoT Alert*
 	- **Related Entity:** *Case*
 	- **Display Name:** *IoT Alert*
 	
-![Relationship Definition](../media/9-rm-unit6.png)
+	![Relationship Definition](../media/9-rm-unit6.png)
 
 1.	Select **Save** to save the relationship and leave the record open.
 1.	Under Common, select **Mappings** and select **New**.
 
-![New Mappings](../media/10-rm-unit6.png)
+	![New Mappings](../media/10-rm-unit6.png)
 
 1.	Configure the mapping as follows and then select **OK**.
 	1. **Source Entity Field:** *cfs_customer*
 	2. **Target Entity Field:** *customerid*
 	
-![Create Field Mapping for IoT Alert to Case](../media/11-rm-unit6.png)
+	![Create Field Mapping for IoT Alert to Case](../media/11-rm-unit6.png)
 
 1.	Click **Save and Close**.
 
@@ -176,32 +176,32 @@ Now that you have the fields available in which to store the data that you need,
 
 1.	In the **IoT Alert Process** solution, select **Processes** and then select **New**.
 
-![IoT Alert Process New](../media/12-rm-unit6.png)
+	![IoT Alert Process New](../media/12-rm-unit6.png)
 
 1.	Configure as follows:
 	- **Process Name:** *Populate Alert Fields*
 	- **Category:** *Workflow*
 	- **Entity:** *IoT Alert*
 	
-![Create Process](../media/13-rm-unit6.png)
+	![Create Process](../media/13-rm-unit6.png)
 
 1.	Select **OK**.
 1.	Set the **Workflow Scope** to **Organization**.
 1.	Select **Add Step** and choose **Perform Action**.
 
-![Perform Action](../media/14-rm-unit6.png)
+	![Perform Action](../media/14-rm-unit6.png)
 
 1.	Enter **Get the Reading Value** into **Description**.
 1.	Choose the **JSON-Based Field Value – Get Number** action and then select **Set Properties**.
 
-![Set Properties](../media/15-rm-unit6.png)
+	![Set Properties](../media/15-rm-unit6.png)
 
 1.	Set the Properties as follows:
 	- **Json:** *{Alert Data(IoT Alert)}*
 	- **PropertyPath:** *reading*
 	- **DefaultReturnValue:** *70*
 	
-![Process: Populate Alert Fields](../media/16-rm-unit6.png)
+	![Process: Populate Alert Fields](../media/16-rm-unit6.png)
 
 1.	Select **Save and Close**.
 1.	Select **Add Step** again and choose **Perform Action**. 
@@ -212,7 +212,7 @@ Now that you have the fields available in which to store the data that you need,
 	- **PropertyPath:** *threshold*
 	- **DefaultReturnValue:** *70*
 	
-![JSON Based Field](../media/17-rm-unit6.png)
+	![JSON Based Field](../media/17-rm-unit6.png)
 
 1.	Select **Save and Close**.
 1.	Select **Add Step** again and choose **Perform Action**. 
@@ -223,7 +223,7 @@ Now that you have the fields available in which to store the data that you need,
 	- **PropertyPath:** *readingtype*
 	- **DefaultReturnValue:** *false*
 	
-![Get Boolean](../media/18-rm-unit6.png)
+	![Get Boolean](../media/18-rm-unit6.png)
 
 1.	Select **Save and Close**.
 1.	Select **Add Step** again and choose **Perform Action**. 
@@ -234,7 +234,7 @@ Now that you have the fields available in which to store the data that you need,
 	- **PropertyPath:** *ruleoutput*
 	- **DefaultReturnValue:** *Alarm*
 	
-![Get String](../media/19-rm-unit6.png)
+	![Get String](../media/19-rm-unit6.png)
 
 1.	Select **Save and Close**.
 1.	Select **Add Step** again and choose **Update Record**.
@@ -247,12 +247,12 @@ Now that you have the fields available in which to store the data that you need,
 	- **Rule Output:** *{Value(Get the Rule Output Value)}*
 	- **Threshold:** *{Value(Get the Threshold Value)}*
 	
-![IoT Alert Set Properties](../media/20-rm-unit6.png)
+	![IoT Alert Set Properties](../media/20-rm-unit6.png)
 
 1.	Select **Save and Close**.
 1.	Your completed workflow should resemble the following:
 
-![Completed Workflow](../media/21-rm-unit6.png)
+	![Completed Workflow](../media/21-rm-unit6.png)
 
 1.	**Activate and Close** the **Populate Alert Fields** workflow.
 
@@ -268,17 +268,17 @@ Now that you have extracted the correct data and placed it in the correct fields
 	- **Category:** *Workflow*
 	- **Entity:** *IoT Alert*
 	
-![Create Process](../media/22-rm-unit6.png)
+	![Create Process](../media/22-rm-unit6.png)
 
 1.	Select **OK**.
 1.	Set the **Workflow Scope** to **Organization**.
 1.	Clear **Start when Record is Created**, select **Record Fields Change**, and then select **Select**.
 
-![Select](../media/23-rm-unit6.png)
+	![Select](../media/23-rm-unit6.png)
 
 1.	Select the **Reading** field and then select **OK**.
 
-![Select Fields](../media/24-rm-unit6.png)
+	![Select Fields](../media/24-rm-unit6.png)
 
 1.	Select **Add Step** and then select **Check Condition**.
 1.	Enter **Temp between 71 & 85** into the description.
@@ -286,13 +286,13 @@ Now that you have extracted the correct data and placed it in the correct fields
 	1. **IoT Alert – Reading – Is Greater Than or Equal To – 71**
 	1. **IoT Alert – Reading – Is Less Than or Equal To - 85**
 	
-![Check Condition](../media/25-rm-unit6.png)
+	![Check Condition](../media/25-rm-unit6.png)
 
 1.	Select **Save and Close**.
 1.	Select the row beneath the condition and then select **Add Step**.
 1.	Select **Create Record**, enter **Send Reset Command** in the description field, choose **IoT Device Command**, and then select **Set Properties**.
 
-![Set Properties](../media/26-rm-unit6.png)
+	![Set Properties](../media/26-rm-unit6.png)
 
 1.	Configure the command as follows:
 	1. **Name:** *{IoT Alert(IoT Alert)} Device Reset*
@@ -302,19 +302,19 @@ Now that you have extracted the correct data and placed it in the correct fields
 	1. **Parent Alert:** *{IoT Alert(IoT Alert)}*
 	1. **Message:** *{"CommandName":"Reset Thermostat","Parameters":{}}*
 	
-![Configure Commands](../media/27-rm-unit6.png)
+	![Configure Commands](../media/27-rm-unit6.png)
 
 1.	**Save and Close** the **Command** record.
 1.	Select the **Send Reset Command** row, select **Add Step**, and then select **Change Status**.
 1.	Enter **Deactivate IoT Alert** into the **Description** field and then set the **IoT Alert** record status to **Inactive**.
 
-![Send Reset Command](../media/28-rm-unit6.png)
+	![Send Reset Command](../media/28-rm-unit6.png)
 
 1.	Select the **IoT Alert Reading** condition, select **Add Step**, and then select **Default Action**.
 1.	Select the new **Row**, select **Add Step**, and then choose **Stop Workflow**.
 1.	Your completed workflow should resemble the following:
 
-![Completed Workflow](../media/29-rm-unit6.png)
+	![Completed Workflow](../media/29-rm-unit6.png)
 
 1.	**Activate and Close** the **Auto Remote Reset** workflow.
 
