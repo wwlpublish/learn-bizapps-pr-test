@@ -12,7 +12,9 @@ Once an asset (such as the above-mentioned refrigerator) that is equipped with a
 
 Sometimes when an alert is triggered it might not require on-site assistance. You might interact with the device remotely by sending commands directly to the device from within Dynamics 365. For example, if an increase in temperature is detected, it might get routed to a specific queue where a technician might remotely send a command to the device to perform a firmware update.  
 
+
 <!--note from editor: In the following image, "Up Date" should change to "Update".-->
+
 
 ![Firmware Update](../media/3-rm-unit1.png)     
  
@@ -20,7 +22,9 @@ Devices can be grouped into categories to make it easier to define specific prop
 
 As we work through the remainder of this module, we will examine each of the steps involved in more detail.  
 
+
 <!--note from editor: The URL is visible - is that what you want?--> 
+
 
 Reference Link: Use Connected Field Service to remotely monitor and service customer equipment.  
 [https://www.youtube.com/watch?v=Kb5LSac2Dy4&feature=youtu.be&spfreload=1](https://www.youtube.com/watch?v=Kb5LSac2Dy4&feature=youtu.be&spfreload=1")
