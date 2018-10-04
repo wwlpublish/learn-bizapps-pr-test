@@ -5,6 +5,7 @@ Before device and telemetry data can be consumed by Dynamics 365 Connected Field
 
 <!--note from editor: Correct spelling of "classification" in the following image.-->
 
+
 ![IoT Device record](../media/1-rm-unit2.png)   
 
 From within the device’s record you can see any relevant information for the device. This includes alerts, registration and connection status, registration history, and more. 
@@ -27,8 +28,9 @@ Not only does this make it easier to manage IoT-enabled devices, but it also mea
 
 At times, a device might not register. A registration error might occur for many reasons. The most common reason is when Dynamics 365 is not connected to Azure or if Azure is offline. When this happens, there will be an error in the Registration Status field of the asset record. For assets with multiple devices, the device status will show the error message for each device.
 
-<!--note from editor: Does the following sentence mean devices that use Connected Field Service, or using Connected Field Service to interact?-->
 
-In the next unit we will explore how to interact with devices using Connected Field Service.
+<!--note from editor: Please review the reworded sentence below for accuracy.-->
+
+In the next unit we will explore how to use Connected Field Service to interact with devices.
 
 
