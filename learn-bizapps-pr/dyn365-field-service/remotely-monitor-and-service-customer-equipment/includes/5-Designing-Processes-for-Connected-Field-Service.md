@@ -45,6 +45,7 @@ Additionally, you can execute workflows when you enter or exit a specific stage 
 
 <!--note from editor: In the last sentence of this paragraph, is BFP supposed to be business process flow?-->
 
+
 By creating workflows that call those actions, you could then associate those workflows with either the entry or exit of a specific stage in your business process flow. For example, you might have a business process flow that is associated with a custom entity that is also going to be leveraged as an IoT device. By creating a workflow that calls the IoT - Register Customer Entity action and setting it to run on exit of a specific stage, you could then evaluate specific items on the record and have the BFP register the device automatically if specific conditions are met.  
 
 Regardless of how you plan to automate and guide users through specific processes, it is important to remember that each process you design should:
