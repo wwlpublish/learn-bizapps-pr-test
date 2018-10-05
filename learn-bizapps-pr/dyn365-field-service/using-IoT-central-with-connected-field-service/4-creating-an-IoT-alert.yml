@@ -4,10 +4,9 @@ title: Creating an IoT Alert
 metadata:
   title: Creating an IoT Alert
   description: Creating an IoT Alert
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: amsilb
-  ms.author: amsilb
+  ms.date: 10/12/2018
+  author: dycak
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 durationInMinutes: 15

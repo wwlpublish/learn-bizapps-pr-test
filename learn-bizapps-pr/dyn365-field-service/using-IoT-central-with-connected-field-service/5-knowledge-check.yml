@@ -3,10 +3,9 @@ uid: learn-bizapps.using-iot-central-with-connected-field-service.5-knowledge-ch
 metadata:
   title: Using IoT Central with Connected Field Service
   description: This quiz will test your knowledge of Using IoT Central with Connected Field Service.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: amsilb
-  ms.author: amsilb
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Check your Knowledge

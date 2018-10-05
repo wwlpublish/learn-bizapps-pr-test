@@ -3,10 +3,9 @@ uid: learn-bizapps.using-iot-central-with-connected-field-service
 metadata:
   title: Using IoT Central with Connected Field Service
   description: This module will focus on using IoT Central with Connected Field Service add-on for Dynamics 365 for Field Service.  The module will walk you through building an IoT Central application and escalating the alerts into Dynamics 365.  
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: amsilb
-  ms.author: amsilb
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Using IoT Central with Connected Field Service
