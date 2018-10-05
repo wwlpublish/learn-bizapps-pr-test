@@ -4,12 +4,11 @@ title: Using IoT Central with Connected Field Service Overview
 metadata:
   title: Using IoT Central with Connected Field Service Overview
   description: Using IoT Central with Connected Field Service Overview
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: amsilb
-  ms.author: amsilb
+  ms.date: 10/12/2018
+  author: Dave Yack
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-durationInMinutes: 5
+durationInMinutes: 10
 content: |
   [!include[](includes/1-using-iot-central-with-connected-field-service-overview.md)]

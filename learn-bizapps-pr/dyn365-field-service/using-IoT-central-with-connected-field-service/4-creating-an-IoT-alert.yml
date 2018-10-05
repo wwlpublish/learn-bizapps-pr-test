@@ -10,6 +10,6 @@ metadata:
   ms.author: amsilb
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-durationInMinutes: 5
+durationInMinutes: 15
 content: |
   [!include[](includes/4-creating-an-iot-alert.md)]

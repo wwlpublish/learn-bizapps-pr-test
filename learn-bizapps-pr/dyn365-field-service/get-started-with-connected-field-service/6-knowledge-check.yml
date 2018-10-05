@@ -3,10 +3,9 @@ uid: learn-bizapps.get-started-with-connected-field-service.6-knowledge-check
 metadata:
   title: Get started wtih Connected Field Service
   description: This quiz will test your knowledge of Connected Field Service.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 10/12/2018
+  author: Dave Yack
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Check your knowledge

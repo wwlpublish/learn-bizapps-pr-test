@@ -4,12 +4,11 @@ title: Detail Telemetry Storage
 metadata:
   title: Detail Telemetry Storage
   description: Detail Telemetry Storage
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: dbeasley
+  ms.date: 10/12/2018
+  author: Dave Yack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-durationInMinutes: 5
+durationInMinutes: 10
 content: |
   [!include[](includes/3-detail-telemetry-storage.md)]

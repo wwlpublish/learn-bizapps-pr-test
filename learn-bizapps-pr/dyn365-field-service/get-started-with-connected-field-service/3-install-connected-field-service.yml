@@ -4,10 +4,9 @@ title: Install Connected Field Service
 metadata:
   title: Install Connected Field Service
   description: Install Connected Field Service.
-  ms.date: 09/24/2018
-  #TODO: Update with real author Name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 10/12/2018
+  author: Dave Yack
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 durationInMinutes: 15

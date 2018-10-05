@@ -4,12 +4,11 @@ title: Building CFS Processes and Automations
 metadata:
   title: Building CFS Processes and Automations
   description: Building CFS Processes and Automations
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: dbeasley
+  ms.date: 10/12/2018
+  author: Dave Yack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-durationInMinutes: 5
+durationInMinutes: 15
 content: |
   [!include[](includes/6-Building-CFS-Processes-and-Automations.md)]
