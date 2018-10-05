@@ -5,7 +5,7 @@ metadata:
   title: Remotely Monitor and Service Customer Equipment
   description: This module will focus on the end to end process of remotely monitoring IoT enabled devices using the Connected Field Service solution including device registration, working with alerts, and designing processes to take specific actions.
   ms.date: 10/12/2018
-  author: Dave Yack
+  author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365

@@ -4,7 +4,7 @@ metadata:
   title: identify-exceptions-with-connected
   description: This module will focus on the proactive detection of anomalies in the IoT device telemetry.  Additionally, this module will cover the customization of the Connected Field Service components to handle different telemetry from the device and options for storing detail data for future analysis.
   ms.date: 10/12/2018
-  author: Dave Yack
+  author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365

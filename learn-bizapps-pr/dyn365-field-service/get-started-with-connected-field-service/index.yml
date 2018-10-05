@@ -4,7 +4,7 @@ metadata:
   title: Get stared with Connected Field Service
   description: This module will focus on the initial deployment of the Connected Field Service add-on for Dynamics 365 for Field Service.  The module will walk you through the installation and an understanding of the components installed as part of the out of the box template application.
   ms.date: 10/12/2018
-  author: Dave Yack
+  author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
