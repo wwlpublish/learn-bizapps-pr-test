@@ -9,7 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Using IoT Central with Connected Field Service
-summary: This module will focus on using IoT Central with Connected Field Service add-on for Dynamics 365 for Field Service.  The module will walk you through building an iot Central application and escalating the alerts into Dynamics 365.  
+summary: This module focuses on using IoT Central with Connected Field Service add-on for Dynamics 365 for Field Service.  The module walks you through building an IoT Central application and escalating the alerts into Dynamics 365.  
 abstract: By the end of this course, students will be able to describe Connected Field Service and Azure IoT Central, create and define an application in IoT Central, build rules in IoT Central that escalate to Dynamics 365, and register and send commands to devices.
 prerequisites: None
 #TODO: Update with real image.
