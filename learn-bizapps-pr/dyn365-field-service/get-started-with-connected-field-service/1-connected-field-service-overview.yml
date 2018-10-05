@@ -5,7 +5,7 @@ metadata:
   title: Connected Field Service Overview
   description: Overview of the Connected Field Service add-in for Dynamics 365 for Field Service.
   ms.date: 10/12/2018
-  author: Dave Yack
+  author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
