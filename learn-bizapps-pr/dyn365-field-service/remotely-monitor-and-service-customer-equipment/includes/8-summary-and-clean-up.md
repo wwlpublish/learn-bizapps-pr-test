@@ -7,9 +7,6 @@ In this module you remotely managed IoT devices using the Dynamics 365 Connected
 - Leverage some of the out-of-the-box actions to assist in automation. 
 - Build business process flows that can be leveraged by Connected Field Service.  
 
-
-<!--note from editor: Are the next steps mentioned in the following paragraph things that students are supposed to do on their own after the course?-->
-
 The next steps are to gain a deeper understanding of interacting with devices. This includes understanding how device twins can be used to report and query information. You should also explore some of the additional features available for interacting with devices using commands. This includes items like device categories as well as command and property definitions.  
 
 ## Cleaning Up Your Environment
