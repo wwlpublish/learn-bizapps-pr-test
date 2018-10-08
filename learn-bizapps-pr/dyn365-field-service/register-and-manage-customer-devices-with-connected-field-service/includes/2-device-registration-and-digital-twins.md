@@ -51,6 +51,7 @@ We can set those desired properties for that Device on the device’s record in 
  
 **Reported Properties:** 
 Reported Properties work hand and hand with Reported Properties.  A reported property would be set by the device and Connected Field Service can read and query them.  Unlike Tags and Desired Properties, Reported Properties are not defined in Connected Field Service.  They can be retrieved when Device Data is pulled down into the application.   
+
 For example:  After the Wi-Fi network and transmitting channel properties are set on a device we can pull the device data (manually or on a schedule) and the current reported properties will be displayed in Connected Field Service.  This could be used to determine next steps in the application.   
  
 The Connected field service solution make it easy to define Device Tags and Desired properties through Property Definitions and Device Categories.  
@@ -58,7 +59,7 @@ The Connected field service solution make it easy to define Device Tags and Desi
 ![Device Status](../media/6-rg-unit2.png) 
  
 **Device Categories:**
-Device Categories make it easier to group devices together based on commonalities.  You may create a Device Category to a specific type of device (Ex. Temperature) that is being deployed.  When a Device Category is created in Connected Field Service, you can define the specific Device Properties and Device Tags that are relevant to that device category.  
+Device Categories make it easier to group devices together based on commonalities.  You may create a Device Category to a specific type of device (Ex. Temperature)that is being deployed.  When a Device Category is created in Connected Field Service, you can define the specific Device Properties and Device Tags that are relevant to that device category.  
 
 ![Device Properties](../media/7-rg-unit2.png)
  
