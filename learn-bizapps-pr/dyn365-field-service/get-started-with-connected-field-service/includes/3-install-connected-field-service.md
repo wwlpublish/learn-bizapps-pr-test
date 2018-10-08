@@ -51,7 +51,7 @@ It's important that you not do this exercise in your production environment. Alw
 
     ![Next button](../media/10-gs-unit3.png)
 
-## Create a deployment
+### Create a deployment
 
 1. Select your organization, and then select **New Deployment**.
 

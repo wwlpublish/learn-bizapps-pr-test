@@ -74,7 +74,7 @@ You'll now create a customer asset and then register a device with Azure IoT Hub
 
 5. Select **Register devices**.
 
-    ![Register devices button](../media/16-gs-unit5.png)
+    ![Register devices button](../media/18-gs-unit5.png)
 
 6. Select **OK**.
 7. In the **Connected Devices** section, select the ellipse (**...**) button, and then select **Refresh**.
