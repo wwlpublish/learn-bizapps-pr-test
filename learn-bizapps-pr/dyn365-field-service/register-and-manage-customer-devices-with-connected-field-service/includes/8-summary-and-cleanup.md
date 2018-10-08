@@ -1,4 +1,4 @@
-## Summary and Cleanup
+## Summary and cleanup
 
 ### Summary 
 In this module you registered and managed IoT devices using the Dynamics 365 Connected Field Service solution.  There are several items that can be leveraged when registering and managing IoT devices.   
@@ -29,16 +29,16 @@ When you remove an unmanaged solution from Dynamics 365 it will only remove the 
 1. Select the **IoTAlertProcess** solution. 
 1. Click the **Export** button and follow the steps to export it as an unmanaged solution.  Save the solution 
 somewhere where it will be easy to find. 
-- Make sure all your customizations are published. 
-- Ignore any dependency or missing components messages since we will just be importing it back into the same environment. 
-- The file will export with a name of IoTAlertProcesses_1_0_0_0.zip. 
+    - Make sure all your customizations are published. 
+    - Ignore any dependency or missing components messages since we will just be importing it back into the same environment. 
+    - The file will export with a name of IoTAlertProcesses_1_0_0_0.zip. 
 
 4. After the export process is complete, click the Export button again and follow the steps to export the solution as a Managed solution. 
-- The file will export with a name of IoTAlertProcesses_1_0_0_0_Managed.zip 
+    - The file will export with a name of IoTAlertProcesses_1_0_0_0_Managed.zip 
 5. With the IoTAlertProcesses (unmanaged) solution still selected, click the Delete button to remove the unmanaged solution from your environment.  
-- Remember: This will only remove the solution container; all customizations will remain. 
+    - Remember: This will only remove the solution container; all customizations will remain. 
 6. Click the Import button and follow the prompts to import the IoTAlertProcesses_1_0_0_0_managed.zip file into your environment.  
-- Ignore any warning messages that appear. 
+    - Ignore any warning messages that appear. 
 7. Ensure the IoTAlertProcesses (managed) solution is selected, click the Delete button.  
  
 *All of the fields, form changes, workflows, and other customizations that we made are now fully removed from your environment.* 

@@ -43,6 +43,7 @@ For example:  You might use Tags to define the specific location of an IoT Devic
  
 **Desired Properties:**
 Desired Properties work hand and hand with Reported Properties.  A desired property would be set by Connected Field Service and the device can read them as well as receive notifications of changes to them.  Like tags, Desired Properties can be defined directly on the IoT Device record in Connected Field Service.   
+
 For example:  Since the device is in building 34 and on floor 3, we know that the device should be on the Building 34 network and transmitting on channel 6.
 We can set those desired properties for that Device on the device’s record in Dynamics 365. 
   

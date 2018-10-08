@@ -16,7 +16,7 @@ For example, let’s say that we want to send a message back to a device that wi
   
 **CommandName:** This represents the name of the command that is being set to the device.   
  
-(For example, in the above command, the Command Name is “Notification”) 
+*(For example, in the above command, the Command Name is “Notification”)*
  
 **Parameters:** Used to declare the specific properties that are being interacted with as part of the command.  These will include all the properties the command is interacting with.   
  
@@ -36,7 +36,7 @@ Each command definition that is defined, can be associated with one or more “P
 
 **Note:** Property Definitions are out of scope for this unit and will be discussed in more detail in the next unit.  
  
-The Image below show what a message in a command would look like if we used the **“Notification”** command definition shown above to define the message.  The message is displayed in a design window that tells us the **CommandName** is **“Notification”** and the parameters we are sending is the **“Message”** property (this is defined by a property definition), and the message is **“Technician has been dispatched”**. This is the default text defined in the Message Property Definition).  The message text value can be manipulated in the design window to represent any text that we would want to pass through in the message.   
+The image below shows what a message in a command would look like if we used the **“Notification”** command definition shown above to define the message.  The message is displayed in a design window that tells us the **CommandName** is **“Notification”** and the parameters we are sending is the **“Message”** property (this is defined by a property definition), and the message is **“Technician has been dispatched”**. This is the default text defined in the Message Property Definition).  The message text value can be manipulated in the design window to represent any text that we would want to pass through in the message.   
 
 ![Message to Send Window](../media/2-rg-unit4.png)
 
