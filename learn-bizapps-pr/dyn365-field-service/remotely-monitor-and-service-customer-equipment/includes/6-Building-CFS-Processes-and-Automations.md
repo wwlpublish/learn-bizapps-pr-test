@@ -18,9 +18,7 @@ In this lab, you will work in a simulated environment with the following compute
 
 The Dynamics 365 Connected Field Service solution provides the ability to remotely monitor IoT-enabled devices to keep track of uptime, device statistics, anomalies, and more. After an IoT device communicates an anomaly or exception, that information is sent to Connected Field Service as an alert. Once the alert is captured, you can leverage the ability of Dynamics 365 to create automation and business processes to develop automated processes for acting on, routing, and fixing the issues.  
 
-<!--note from editor: Could this say "actions" instead of "items"?-->
-
-The purpose of this hands-on lab is to introduce you to building and automating Connected Field Service processes, as well as to demonstrate how these items can be leveraged as part of an overall IoT solution.  
+The purpose of this hands-on lab is to introduce you to building and automating Connected Field Service processes, as well as to demonstrate how these actions can be leveraged as part of an overall IoT solution.  
 
 ***Learning objectives***
 
@@ -538,10 +536,6 @@ Now that you have created the necessary customizations, workflows, and business 
 1.	Open the **Temperature reading of 90 exceeded a threshold of 70** alert.
 1.	Select the **Created** stage. *(Notice the information you extracted earlier is being displayed. Because the reading is between 86 and 100 degrees, Create Case is the next stage.)*
 
-
-	<!--note from editor: Please review the last sentence above for accuracy. I corrected what looked like a typo. -->
-	
-	
 	![Created Stage](../media/68-rm-unit6.png)
 
 1.	On the **Command Bar**, select **Create Command**.

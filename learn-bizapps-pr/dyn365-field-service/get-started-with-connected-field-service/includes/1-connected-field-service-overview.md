@@ -1,43 +1,38 @@
-Connected Field Service is an add-on solution to Dynamics 365 for Field Service that connects IoT (Internet of Things) telemetry to business actions. In many cases, this allows businesses to become proactive instead of reactive, and transform their business model of how they work with their customers.  
+## Connected field service overview
+
+Connected Field Service is an add-on solution to Microsoft Dynamics 365 for Field Service that connects IoT (Internet of Things) telemetry to business actions. Therefore, in many cases, businesses can become proactive instead of reactive, transforming the business model of how they work with their customers.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2DQPr]
 
-In this module, we look at how Connected Field Service works with Azure IoT capabilities to implement a complete IoT solution.
+In this module, we look at how Connected Field Service works with Microsoft Azure IoT capabilities to implement a complete IoT solution.
 
-A simple way of thinking of a complete IoT solution would be to cover the following three key areas:
+In basic terms, a complete IoT solution covers three key areas, as shown in the following diagram.
 
+![IoT key areas: things, insights, actions](../media/1-gs-unit1.png)
 
-![IoT Key Areas-things, insights, actions](../media/1-gs-unit1.png)
+Given all the hype about IoT, it's easy to focus on the low-level details of ingesting telemetry. But it's important not to forget about handling issues that are detected and getting a technician on site to fix them.
 
-With all of the hype about Internet of Things, it is easy to focus on the low-level details of ingesting telemetry and forget about how to handle a problem that was detected and get a technician on site to resolve it.  
+Connected Field Service is an important part of the "Actions Based on Insights" area. When an IoT device is connected to a customer as a customer asset, work orders can be created, and a technician can be dispatched. Therefore, issues can be detected and diagnosed before the customer is even aware of them. Fixing an issue can include proactively scheduling an on-site visit or just sending an automated reset command to the device. When technicians do on-site visits, they have a Field Service mobile application that has the customer details connected to the work order. The scheduling capabilities in Field Service are used to schedule technicians' visits and optimize their routes.
 
-Connected Field Service is an important part of the Actions Based on Insights.  By connecting an IoT device to a customer as a customer asset this will allow work orders to be created and a technician dispatched.  This creates the ability to detect and diagnose problems before customers are even aware of an issue.   This can include proactively scheduling an on-site visit, or simply an automated command to the device to reset.  When technicians do visit on site, they have a Field Service mobile application that has the customer details connected to the work order.  Their visits are scheduled, and routes optimized using the Dynamics 365 for Field Service scheduling capabilities.
+The following diagram is from the Microsoft Azure IoT Reference Architecture. It highlights Business Integration, which is where Connected Field Service fits into the reference architecture.
 
-The following diagram is from the Microsoft Azure IoT Reference Architecture with a highlight around Business Integration which is where Connected Field Service fits in with the reference architecture.
+![Core subsystem of key areas](../media/2-gs-unit1.png)
 
-![Core Subsystem of Key Areas](../media/2-gs-unit1.png)
+As part of the process of building an overall Connected Field Service solution, you might also be involved in generating insights. For example, you might change the stream processing to detect an anomaly in the telemetry. Consider a scenario where you're monitoring a temperature-controlled room. It's easy to detect that the temperature in the room is suddenly too high. But there's more business value if you can detect and generate the insight as the temperature is slowly rising over a period of eight hours. You can then have a technician dispatched before the temperature reaches the point where it becomes a crisis for the customer.
 
-As part of building an overall Connected Field Service solution, you may also be involved in the generation of Insights as well.  For example, you might modify the stream processing to detect an anomaly in the telemetry.  Take a scenario where you are monitoring a temperature-controlled room.  Detecting the room suddenly has too high of a temperature is easy.  The higher business value is if you could detect and generate the insight as the temperature was slowly rising over a period of eight hours.  This would allow you to have a technician dispatched before the temperature reaching a point where it is a crisis for the customer.
-
-When you install the Connected Field Service add-on, which you will be doing in a later unit, it installs two solutions into your environment that builds on the Dynamics 365 for Field Service application.  The following entities are included in these solutions and are a key subset of entities that support the integration with Azure IoT; you will be working with these as you perform customizations:
+When you install the Connected Field Service add-on (which you'll do in a later unit), two solutions are installed in your environment. These solutions build on the Field Service application, and they include the following entities that are a key subset of entities that support the integration with Azure IoT. These are the entities that you'll work with when you do customizations.
 
 <table>
-	<thread>
-      <tr>
-            <th>
-                Entity Name
-            </th>
-            <th>
-                Description
-            </th>
+    <thead>
+        <tr>
+            <th>Entity name</th>
+            <th>Description</th>
         </tr>
-  	</thread>
-	<tbody>  
+    </thead>
+    <tbody>
         <tr>
             <td>IoT Alert</td>
-            <td>
-                An event sent because of a notable event from the IoT Hub telemetry
-            </td>
+            <td>An event that's sent because of a notable event from the Azure IoT Hub telemetry</td>
         </tr>
         <tr>
             <td>IoT Device</td>
@@ -45,23 +40,19 @@ When you install the Connected Field Service add-on, which you will be doing in 
         </tr>
         <tr>
             <td>IoT Device Category</td>
-            <td>
-                A grouping of devices
-            </td>
+            <td>A grouping of devices</td>
         </tr>
         <tr>
             <td>IoT Device Command</td>
-            <td>An outgoing message to a device connected to IoT Hub</td>
+            <td>An outgoing message to a device that's connected to IoT Hub</td>
         </tr>
         <tr>
             <td>IoT Device Registration History</td>
-            <td>Tracks the history of device registration activities</td>
-        </tr>       
-     </tbody>  
-    
+            <td>An entity that tracks the history of device registration activities</td>
+        </tr>
+    </tbody>
 </table>
 
-The solution also installs a number of workflows and actions that can be used to automate work as you customize your Connected Field Service solution.  Additionally, it installs a template solution for how to detect anomalies and raise alerts into Dynamics 365 for Field Service.
+The solution also installs several workflows and actions that can be used to automate work as you customize your Connected Field Service solution. Additionally, it installs a template solution for detecting anomalies and raising alerts in Field Service.
 
-In the next unit, we will look at the deployment options and how to choose what is appropriate for your solution.
-
+In the next unit, we'll look at the deployment options and discuss how you can choose what's appropriate for your solution.

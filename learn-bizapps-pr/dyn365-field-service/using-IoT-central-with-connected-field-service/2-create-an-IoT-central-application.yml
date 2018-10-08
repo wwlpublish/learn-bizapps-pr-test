@@ -4,12 +4,11 @@ title: Create an IoT Central Application
 metadata:
   title: Create an IoT Central Application
   description: Create an IoT Central Application
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: amsilb
-  ms.author: amsilb
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-durationInMinutes: 5
+durationInMinutes: 15
 content: |
   [!include[](includes/2-create-an-iot-central-application.md)]

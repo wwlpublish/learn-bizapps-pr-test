@@ -4,10 +4,9 @@ title: Choose a deployment type
 metadata:
   title: Choose a deployment type
   description: Choose a deployment type.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 durationInMinutes: 10

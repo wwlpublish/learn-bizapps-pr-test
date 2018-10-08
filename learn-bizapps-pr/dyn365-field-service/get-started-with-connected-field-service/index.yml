@@ -3,15 +3,13 @@ uid: learn-bizapps.get-started-with-connected-field-service
 metadata:
   title: Get stared with Connected Field Service
   description: This module will focus on the initial deployment of the Connected Field Service add-on for Dynamics 365 for Field Service.  The module will walk you through the installation and an understanding of the components installed as part of the out of the box template application.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Get started with Connected Field Service
 summary: This module gets you started with Connected Field Service
-#TODO: Update abstract to be in the format 'In this module, you will: X, Y, Z...' right now the summary and the abstract are duplicating information and they're shown right next to each other on the module landing page.
 abstract: By the end of this course, students will be able to describe the difference between Azure IoT and Azure IoT Central and how they relate to Connected Field Service, set up an environment with Connected Field Service, identify the key components that comprise the Connected Field Service solution, and describe the flow of data from an IoT device to Dynamics 365 for Field Service.
 prerequisites: None
 #TODO: Update with real image.

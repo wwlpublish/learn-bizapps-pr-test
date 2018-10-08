@@ -54,10 +54,7 @@ The JSON-Based Field Value actions contain the following parameters:
 Depending on the **JSON-Based Field Value** action you specify, the Output Parameter might be a text string (String), numeric value (Number), or Boolean value (Boolean).  
 
 
-<!--note from editor: In sentence below, should it be "If you use the ..."?-->
-
-
-**For example:** If you used to use the **JSON-Based Field Value – Get Number** action to extract the reading value for the Alert Data JSON string below: 
+**For example:** If you use the **JSON-Based Field Value – Get Number** action to extract the reading value for the Alert Data JSON string below: 
 
 ```json
 ...
@@ -85,12 +82,8 @@ Let’s say that you have a Smart Thermostat that is registered as an IoT device
 
 You can accomplish this by creating a workflow that does the following: 
 
-
-
-<!--note from editor: in the third bullet line, should it be "then does the following"?-->
-
 - First it executes the **JSON-Based Field Value – Get Number** action to capture the value of the “reading” property.
 - Next it writes the output value returned to a custom field on the IoT alert record—for example, Device Reading.
-- Another workflow could be triggered on the update of the Device Reading field, the does the following:
+- Another workflow could be triggered on the update of the Device Reading field, then does the following:
 	- If the Device Reading field is between 70 and 85 degrees, it will create a command related to the IoT alert that sends a reset command to the device.
 	- If the Device Reading field is greater than 85 degrees, the workflow will complete with a status of "succeeded."     
