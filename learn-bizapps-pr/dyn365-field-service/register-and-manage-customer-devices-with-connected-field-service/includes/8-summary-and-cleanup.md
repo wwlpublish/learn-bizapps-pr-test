@@ -1,6 +1,3 @@
-## Summary and Clean Up
-
-### Summary 
 In this module you registered and managed IoT devices using the Dynamics 365 Connected Field Service solution.  There are several items that can be leveraged when registering and managing IoT devices.   
 
 We explored several of the key items including: 

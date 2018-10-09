@@ -1,5 +1,3 @@
-## Using IOT Central with Connected Field Service Overview 
-
 Azure IoT Central is a is a Software-as-a-Service (SaaS) solution that abstracts many of the low-level components of an IoT solution into a customizable model-based approach.  The solution is configured in IoT Central in a similar level of abstraction as it is done in Dynamics 365’s applications.  Today, Azure IoT Central can be used with Connected Field Service by implementing some of your own Microsoft Flows.  In the upcoming release Dynamics 365 will be a directly supported action from the rules you build in IoT Central. 
 
 The following illustration highlights the division of work between IoT Central, Connected Field Service and the core Field Service application features.

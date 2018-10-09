@@ -1,5 +1,3 @@
-## Register and Manage Customer Devices with Connected Field Service Overview
-
 There are two critical aspects that drive how effective a solution is when working with and administrating IoT devices.  These aspects are: 
 
 - Effectively registering IoT devices with either an Azure IoT Hub or IoT Central.  

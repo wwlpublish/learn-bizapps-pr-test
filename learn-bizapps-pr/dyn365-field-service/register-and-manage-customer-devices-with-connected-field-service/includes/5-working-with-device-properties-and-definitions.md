@@ -1,5 +1,3 @@
-## Working with Device Properties and Definitions
-
 Property Definitions make it easy to pre-define specific properties that are associated with IoT Devices.  
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBv]

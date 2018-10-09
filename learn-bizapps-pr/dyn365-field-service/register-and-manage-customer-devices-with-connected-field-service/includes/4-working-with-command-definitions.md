@@ -1,5 +1,3 @@
-## Working with Command Definitions
-
 Many times, you will have several IoT devices that either do the same thing or have similar properties that are reported back and potentially need to be interacted with.  While an IoT Alert that is generated will be specific to a device, there may be many common properties between devices that need to be interacted with.  Each command that you create to send to a device will specify which of those different properties are being used for that specific device.  
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBw]  

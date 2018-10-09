@@ -1,5 +1,3 @@
-## Processing telemetry
-
 Now that you've finished deploying the Connected Field Service add-on, the next step is to learn how to register a device and integrate the Microsoft Dynamics 365 data with Microsoft Azure IoT Hub devices.
 
 This is done by creating a customer asset record in Dynamics 365 and then triggering the registration process. The following diagram shows how the customer asset is at the center of integrating a connected device into the Microsoft Dynamics 365 for Field Service process.
