@@ -1,5 +1,3 @@
-## Automating Connected Field Service
-
 After an IoT alert is generated in Connected Field Service, you need to identify what your next course of action should be. The IoT alert record itself contains several pieces of information, including the type of alert, time, device ID, and alert data. The Alert Data field consists of JSON data that contains the specific detail about the event. The data included can vary depending on the device. The information in the Alert Data field will generally dictate what specific next step should be taken. When starting to build automations around next steps, it is important to understand what tools and information are available, and how those tools allow you to achieve your goal.  
 
 

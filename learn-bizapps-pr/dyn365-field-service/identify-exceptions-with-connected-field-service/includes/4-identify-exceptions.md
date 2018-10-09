@@ -1,4 +1,4 @@
-## Identify Exceptions
+## Exercise - Identify Exceptions
 
 ### Exercise 1: Azure Cosmos DB 
 In this exercise, you will be pre-creating an Azure Cosmos DB that will be used in the next exercise.  This database will be used to store detail telemetry from the device.  

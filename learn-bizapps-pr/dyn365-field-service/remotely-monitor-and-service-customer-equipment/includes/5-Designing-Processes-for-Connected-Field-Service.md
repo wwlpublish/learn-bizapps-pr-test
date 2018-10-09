@@ -1,5 +1,3 @@
-## Designing Processes for Connected Field Service
-
 Now that you have officially started to collect data, detect anomalies, and extract the relevant data for our IoT devices, the final step is to decide what to do with it and provide guidance for users as they work with these devices. Before you start to define processes, it is important to understand what the desired outcome is that you are trying to achieve and determine what is needed to get to that point.  
 
 The following image shows an example of a business process flow that branches based on the reading value provided on a temperature alert.  

@@ -1,10 +1,7 @@
-## Registering IOT Devices - Hands-on Lab
-
-### **Lab Environment**
+## Exercise - Registering IoT Devices
 
 During this lab, you will work in a simulated environment with the following computers or virtual machines. 
  
-Computers and Virtual Machines Used in This Lab
 
 
 | Item Name                 				   | Description               

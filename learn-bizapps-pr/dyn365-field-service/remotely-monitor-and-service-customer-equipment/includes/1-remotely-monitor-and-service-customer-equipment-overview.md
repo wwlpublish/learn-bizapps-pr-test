@@ -1,5 +1,3 @@
-## Remotely Monitor and Service Customer Equipment Overview
-
 With more and more devices being connected, a large amount of telemetry is available for organizations to capture, analyze, and act on.  Microsoft’s Connected Field Service Solution for Dynamics 365 combines monitoring and preventative maintenance with the Internet of Things (IoT) to replace your traditional break-fix service model with a more proactive never-fail model. Your organization can capture all the information that is being transmitted from your IoT-enabled devices and turn that information into actionable items that can be executed directly from a Dynamics 365 instance.  
 
 ![Azure IoT Hub](../media/1-rm-unit1.png)  
@@ -9,7 +7,6 @@ Customer assets such as appliances, equipment, sensors, or any IoT-enabled devic
 Once an asset (such as the above-mentioned refrigerator) that is equipped with a sensor is registered as an IoT device and connected to the internet, it will begin sending information such as temperature readings to either an Azure IoT Hub or to IoT Central. When a spike or drop in temperature is detected, an alert is surfaced for the device in Dynamics 365. Based on the conditions defined in the alert (type, severity, and so on), it can trigger an automated process that will assist in handling and resolving of the alert. For example, if a compressor unit on a device fails, your organization might elect to dispatch a technician as soon as possible. A work order can be automatically created, and the specific compressor needed to resolve the issue can be added to the work order as a necessary part.    
 
 ![Device Alert](../media/2-rm-unit1.png) 
-
 Sometimes when an alert is triggered it might not require on-site assistance. You might interact with the device remotely by sending commands directly to the device from within Dynamics 365. For example, if an increase in temperature is detected, it might get routed to a specific queue where a technician might remotely send a command to the device to perform a firmware update.  
 
 ![Firmware Update](../media/3-rm-unit1.png)     
@@ -22,5 +19,5 @@ As we work through the remainder of this module, we will examine each of the ste
 <!--note from editor: The URL is visible - is that what you want?--> 
 
 
-Reference Link: Use Connected Field Service to remotely monitor and service customer equipment.  
+Reference Link: Use Connected Field Service to remotely monitor and service customer equipment  
 [https://www.youtube.com/watch?v=Kb5LSac2Dy4&feature=youtu.be&spfreload=1](https://www.youtube.com/watch?v=Kb5LSac2Dy4&feature=youtu.be&spfreload=1")

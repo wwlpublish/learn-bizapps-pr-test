@@ -1,8 +1,7 @@
-## Connect to a Device
+## Exercise - Connect to a Device
 
  
 ### Exercise 1: Configuring Physical Device  
-Each exercise consists of a scenario and learning objectives, the scenario describes the purpose of the exercices, while the objectives are listed and have bullet points.  
 
 **Scenario **
 In this exercise, you will be introduced to setting up the MXChip IoT DevKit. The MXChip IoT DevKit (a.k.a DevKit) is an all-in-one IoT Device Kit, you can use it to develop and prototype IoT solutions that take advantage of Microsoft Azure services.  

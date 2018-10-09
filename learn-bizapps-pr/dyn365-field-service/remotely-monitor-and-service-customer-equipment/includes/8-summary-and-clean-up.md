@@ -1,5 +1,3 @@
-## Summary
-
 In this module you remotely managed IoT devices using the Dynamics 365 Connected Field Service solution. A number of actions are involved in monitoring and servicing remote devices. We explored some of these, including:
 
 - Examine the relationship between customer assets and IoT devices.  

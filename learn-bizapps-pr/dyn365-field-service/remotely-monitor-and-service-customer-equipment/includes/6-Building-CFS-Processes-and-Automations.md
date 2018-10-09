@@ -1,5 +1,3 @@
-## Exercise - Building Connected Field Service Processes and Automation
-
 ### Lab Environment
 In this lab, you will work in a simulated environment with the following computers or virtual machines.
 
