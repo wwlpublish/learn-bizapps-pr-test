@@ -1,36 +1,31 @@
-## Identify Exceptions with Connected Field Service Overview
-
-An important part of a connected field service application is the identification of anomalies and the escalation of those into the application where they can be acted upon.  When you install the Connected Field Service add-in for Dynamics 365 for Field Service it includes a pre-built template application that uses a temperature-based scenario with a specific format of data coming from the IoT device.  This template also uses static rules to detect anomalies. In this unit, we will be looking at how to customize the template components to handle your own scenario’s unique requirements.  This includes handing different data being sent from the device as well as altering the rules used for evaluating the data and generating IoT Alerts.
+One important function of a Connected Field Service application is to identify anomalies and escalate them into the application, where action can be taken. When you install the Connected Field Service add-on for Microsoft Dynamics 365 for Field Service, it includes a pre-built template application that uses a temperature-based scenario where a specific format of data comes from the IoT device. This template also uses static rules to detect anomalies. In this unit, you'll learn how to customize the template components to handle the unique requirements of your own scenario. For example, the customizations will let the template components handle different data that's sent from the device, change the rules that are used to evaluate the data, and generate Internet of Things (IoT) Alerts.
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBx]
 
-The following is the architecture used by the default components installed with the Connected Field Service add-in. The telemetry from the device is evaluated by an Azure Stream Analytics job for exceptions to the static rules.
+The following image shows the architecture of the default components that are installed with the Connected Field Service add-on. The telemetry from the device is evaluated by a Microsoft Azure Stream Analytics job for exceptions to the static rules.
 
-![default components](../media/1-ie-unit1.png)
+![Default components](../media/1-ie-unit1.png)
 
-When you installed the add-in, the simulator application generates the following device data that is consumed by the Azure Stream Analytics job. 
+When you install the Connected Field Service add-on, the simulator application generates the following device data that's consumed by the Stream Analytics job.
 
-![device data](../media/2-ie-unit1.png)
+![Device data](../media/2-ie-unit1.png)
 
+In the next unit, you'll connect a real device by using the Azure IoT DevKit that has the Microsoft IoT Central firmware installed. When that firmware is used, the device will generate the following data.
 
-In the next unit, you will be connecting a real device using the Azure IoT DevKit with the IoT Central firmware installed.  Using that firmware, the device will generate the following data.
+![Simulator device data](../media/3-ie-unit1.png)
 
-![simulator device data](../media/3-ie-unit1.png)
- 
+A quick comparison will reveal some noticeable differences. First, all the data attributes under **JSON** are in lowercase letters. Additionally, the `Temperature` attribute is now named `temp`, and the temperature is reported in Celsius, not Fahrenheit. The real device also has more sensors and is set up to send more data. Although the extra data won't affect the current template components, they can also be enhanced to use that data.
 
-A quick compare and you will find a few noticeable differences.  First, all the data attributes in the JSON are in lower case, Temperature is now also temp.  The temperature is reported now in Celsius, not Fahrenheit.  The real device also has more sensors and is configured to send more data.  The extra data won’t impact the current template components, but they could be enhanced to use that data also.
+The following image shows the default Stream Analytics query, so that you can see how the data is currently transformed.
 
-The following shows the default Stream Analytics query, so you can see how the data is currently transformed.
+![Default Stream Analytics query](../media/4-ie-unit1.png)
 
-![default Stream Analytics query](../media/4-ie-unit1.png)
- 
-When the data is processed by the Stream Analytics job and the IoT Alert is generated some of the raw data plus some augmented data from the rule is populated as Alert Data on the IoT Alert in the Dynamics 365 record. You can start seeing how we will need to modify this query to accommodate for the differences between the simulated device and the real device.
+When the data is processed by the Stream Analytics job, and the IoT Alert is generated, some of the raw data and also some augmented data from the rule are entered as alert data on the IoT Alert record in the Microsoft Dynamics 365. You should start to see how we'll have to change this query to accommodate the differences between the simulated device and the real device.
 
-![IOT Alert Window](../media/5-ie-unit1.png)
- 
- 
-The Alert Data properties can be evaluated as part of any automation that is executed once the IoT Alert record is created.  As you look at your unique scenario you should consider what data to promote from the device telemetry into the Alert Data.
+![IoT Alert](../media/5-ie-unit1.png)
 
-In addition to looking at alerts, you might want to store detailed telemetry, so you can drill down as part of diagnosing an alert.  The default template uses an Azure SQL database combined with Power BI to give you a real time look at the activity from your devices.  Later in this module we will look at various options for storing the detail telemetry. 
+The Alert data properties can be evaluated as part of any automation that's run after the IoT Alert record is created. As you look at your unique scenario, consider what data you must promote from the device telemetry into the alert data.
 
-In the next unit you will be setting up your device and then later we will be modifying the default template to pick up the new data format.
+In addition to looking at alerts, you might want to store detailed telemetry, so that you can drill down as part of the process of diagnosing an alert. The default template uses an Azure SQL database together with Microsoft Power BI to give you a real-time look at the activity from your devices. Later in this module, we'll look at different options for storing the detailed telemetry.
+
+In the next unit, you'll set up your device. Later, you'll change the default template so that it picks up the new data format.

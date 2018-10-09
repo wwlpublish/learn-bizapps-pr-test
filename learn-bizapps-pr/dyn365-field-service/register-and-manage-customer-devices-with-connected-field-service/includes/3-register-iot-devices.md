@@ -1,12 +1,7 @@
-## Registering IOT Devices - Hands-on Lab
-
-### **Lab Environment**
-
-Several paragraphs – or longer – describing an overview of the module including a description of why this content is important and a concise description of the main points of the module 
+## Exercise - Registering IoT Devices
 
 During this lab, you will work in a simulated environment with the following computers or virtual machines. 
  
-Computers and Virtual Machines Used in This Lab
 
 
 | Item Name                 				   | Description               
@@ -16,9 +11,6 @@ Computers and Virtual Machines Used in This Lab
 | Connected Field Service                      | You should have Connected Field Service deployed                    
 | Azure IoT Hub                                | You should have a Azure IoT Hub setup and deployed that Connected Field Service is talking to.  
 
-**Lab Overview**
-Several paragraphs – or longer – describing an overview of the lab including a description of the lab and why certain topics are covered. This is also called the ‘LAB ABSTRACT’ that will be used for hand-off to conferences as part of the content hand-off process 
-
 **Abstract**
 Dynamics 365’s Connected Field Service solution provides the ability to register both simulated and physical IoT devices with Azure IoT Hub or IoT Central and using device twin, communicate information back into the Connected Field Service solution.   
  
@@ -26,7 +18,7 @@ The purpose of this hands-on-lab is to introduce you to how simulated and physic
  
 **Learning Objectives**
 
-At the end of this guided hands-on lab, students will be able to accomplish the following: 
+At the end of this guided hands-on lab, you will be able to: 
 - Register a simulated device with an Azure IoT Hub.     
 - Identify and work with IoT devices in an Azure IoT Hub.  
 - Work with and modify device rules in an Azure IoT Hub.  
@@ -35,23 +27,17 @@ At the end of this guided hands-on lab, students will be able to accomplish the 
 Estimated time to complete this lab: 45 to 60 minutes 
  
 **Scenario**
-You work for a company that sells and services smart home devices.  Since many of the devices that you service are smart devices, information from those devices can be captured remotely to aid in the servicing of that equipment.  Your organization has several defined scenarios that and processes that they use when servicing equipment.  These processes can vary depending on several factors including: 
+You work for a company that sells and services smart home devices.  Since many of the devices that you service are smart devices, information from those devices can be captured remotely to aid in the servicing of that equipment.  Your organization has several defined scenarios and processes that they use when servicing equipment.  These processes can vary depending on several factors including: 
 - The type of device in need of service 
 - The severity of the issue detected 
 - The age of the device 
 - The location of the device 
 - The availability of resources to work on a specific device. 
+
 The above items represent only a small portion of factors that your organization uses to determine the process for servicing equipment.   
  
 The first critical component in your company moving to a connected IoT solution is to register devices with an Azure IoT hub (both simulated and physical) and relate them to a corresponding customer asset in Connected Field Service.   
 
-**Lab Completion Requirements**
-- After completing the exercises in this lab, you will be able to: 
-- Register a simulated device with an Azure IoT Hub.     
-- Identify and work with IoT devices in an Azure IoT Hub.  
-- Work with and modify device rules in an Azure IoT Hub.  
-- Register a physical device with the Connected Field Service solution and an Azure IoT Hub. (Optional) 
- 
 **Exercise 1: Register and work with a simulated device** 
  
 **Task 1: Register a simulated device**
@@ -61,25 +47,36 @@ The first critical component in your company moving to a connected IoT solution 
 2. Select the Site Map Icon to expand navigation, select Customer Assets.  
 3. Click the New button. 
 4. Configure your Customer Asset as follows: 
-- Name: Smart Thermostat 
-- Account: Adventure Works (Sample) 
-- Device ID: smt-9876 
+    - Name: Smart Thermostat 
+    - Account: Adventure Works (Sample) 
+    - Device ID: smt-9876 
+ 
 ![Customer Asset Configuration](../media/2-rg-unit3.png)
+
 5. Save the Customer Asset and leave the record open 
-6. One the Command bar, select Register Devices and click OK. 
+6. On the Command bar, select Register Devices and click OK. 
 7. In your web browser select a new tab and navigate to [https://Portal.Azure.com](Https://Portal.Azure.com") (Log into Azure if prompted. You need an Azure subscription associated with the account you are using) 
 8. Select Resource Groups
+
 ![Resource Groups](../media/3-rg-unit3.png)
+
 9. Open the IoT Hub that you are using with your Connected Field Service installation. 
 10. Click on IoT devices. All currently registered devices with the IoT hub will appear. 
 11. Select the smt-9876 device to open it.  (Notice the Device ID, Primary & Secondary Keys, and the Primary and Secondary Connection strings. These can be beneficial when you are working with physical devices.) 
-12. Click on Device Twin.  
+12. Click on Device Twin.
+
 ![Device Details, Device Twin](../media/4-rg-unit3.png)
+
 ![device twin JSON document](../media/5-rg-unit3.png)
+
 This will display the device twin JSON document for this device.
+
 13. On your IoT Hub select and open the Simulator
+
 ![IoT Hub Window](../media/6-rg-unit3.png)
+
 14. Click the Simulator URL to open the Thermostat Simulator. (The simulator should open in a new tab)
+
 ![Simulator Window with URL](../media/7-rg-unit3.png)
 15. On the simulator click Connection.
 ![Simulator Connection Window](../media/8-rg-unit3.png)
@@ -133,12 +130,11 @@ From here we could begin to interact with the device using commands.  We will ex
 >  
 **Exercise 2: Register a physical device (Optional)** 
  
-Each exercise consists of a scenario and learning objectives, the scenario describes the purpose of the exercices, while the objectives are listed and have bullet points.  
-
 **Scenario**
-For this ooptional eexercise, you will need a physical device.  There are several available.  In this exercise you are introduced to setting up an MXChip IoT DevKit. The MXChip IoT DevKit (a.k.a DevKit) is an all-in-one IoT device kit.  You can use this chip to develop and prototype IoT (Internet of Things) solutions that take advantage of Microsoft Azure services.  
+For this optional exercise, you will need a physical device.  There are several available.  In this exercise you are introduced to setting up an MXChip IoT DevKit. The MXChip IoT DevKit (a.k.a DevKit) is an all-in-one IoT device kit.  You can use this chip to develop and prototype IoT (Internet of Things) solutions that take advantage of Microsoft Azure services.  
 
 It includes an Arduino-compatible development board with rich peripherals and sensors, an open-source board package, and a growing projects catalog.  
+
 If you do not have an MXChip IoT DevKit, you can visit http://aka.ms/iot-devkit/ and click on Get a Kit.   
  
 **Task 1: Create and register a customer asset and an IoT device.** 
@@ -148,14 +144,16 @@ If you do not have an MXChip IoT DevKit, you can visit http://aka.ms/iot-devkit/
 2. Select the Site Map Icon to expand navigation, select Customer Assets.
 3. Click the New Button. 
 4. Configure your Customer Asset as follows: 
-- Name: MXChip 
-- Account: Adventure Works (Sample) 
-- Device ID: AZ3166 
+    - Name: MXChip 
+    - Account: Adventure Works (Sample) 
+    - Device ID: AZ3166 
 ![Customer Asset Configuration](../media/23-rg-unit3.png)
+
 5. Save the Customer Asset and leave the record open 
 6. One the Command bar, select Register Devices and click OK. 
 7. In your web browser select a new tab and navigate to Https://Portal.Azure.com (Log into Azure if prompted. You need an Azure subscription associated with the account you are using) 
 8. Select Resource Groups
+
 ![Resource Group](../media/24-rg-unit3.png)
 9. Open the IoT Hub that you are using with your Connected Field Service installation. 
 10. Click on IoT devices. All currently registered devices with the IoT hub will appear.   
@@ -323,6 +321,6 @@ WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.Re
 7. Close out the Query window.  This will return you to the properties of the Stream Analytics job. 
 8. Along the top click the Start button.  The job will take a minute or two to start.  Once it is started, it will show under the Notifications area.
 
-Several paragraphs – or longer – describing an overview of the lab including a description of the lab and why certain topics are covered. This is also called the ‘LAB ABSTRACT’ that will be used for hand-off to conferences as part of the content hand-off process.
+
 
 

@@ -1,5 +1,3 @@
-## Summary and cleanup
-
 In this module, you deployed the Connected Field Service add-on. You also registered a simulated device and saw firsthand how alerts are raised in Microsoft Dynamics 365 for further evaluation.
 
 The next steps are to consider how you want to handle the Internet of Things (IoT) Alerts and customize the business process for your specific scenario. Depending on your scenario, you might also need to customize some of the out-of-box components to handle the actual telemetry that your devices will generate.

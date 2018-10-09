@@ -1,5 +1,3 @@
-## Choosing a deployment type
-
 An important part of architecting your Connected Field Service solution is choosing the underlying deployment approach. There are currently three primary approaches to choose from. All three use Microsoft Azure IoT Hub for secure bidirectional communication with connected Internet of Things (IoT) devices.
 
 - **Connected Field Service Template** – This is the default setup when you install Connected Field Service. It includes a template application that's based on a generic temperature scenario. The default deployment creates an IoT hub and automation, using Azure Logic Apps to register devices and raise alerts in Microsoft Dynamics 365 for Field Service. Azure Stream Analytics is used for anomaly detection. The components can be customized and tailored to suit your scenario.

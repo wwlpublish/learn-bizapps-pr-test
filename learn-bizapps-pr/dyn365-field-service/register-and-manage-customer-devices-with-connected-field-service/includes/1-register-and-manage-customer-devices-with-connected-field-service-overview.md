@@ -1,16 +1,16 @@
-## Register and Manage Customer Devices with Connected Field Service Overview
-
-When you begin to work with the Connected Field Service solution, you will find that there are two critical aspects that drive how effective the solution is when working with and administrating IoT devices.  These aspects are: 
+There are two critical aspects that drive how effective a solution is when working with and administrating IoT devices.  These aspects are: 
 
 - Effectively registering IoT devices with either an Azure IoT Hub or IoT Central.  
 - Effectively managing IoT devices and streamlining how you interact with them.   
 
-In this module, we will examine both of these items in much more detail.  However, before we do that let’s take a quick high-level look as them.   
+In this module, we will examine both of these more detail.  Before we do that, let’s take a quick high-level look at them.   
  
 **IoT Device Registration:**  
+
 When you want to track a specific piece of customer equipment at a customer location in Field Service, you create a Customer Asset record.  Since many Customer Assets will often be IoT enabled devices, customer assets can also be registered as IoT devices.  The IoT device entity plays a critical role in the Connected Field Service solution, because the IoT device entity is what is used to connect IoT devices with either an Azure IoT Hub or IoT Central.   IoT devices could represent a physical device or a non-physical device in the application.   
  
-**Device Management and Interaction** 
+**Device Management and Interaction:** 
+
 Once your devices have been registered as IoT devices, readings from those devices will be captured and communicated back to the Azure IoT Hub or IoT Central.  When a device raises an exception, it will be sent back into Dynamics 365 as an alert.  For example, let’s say that you have a smart thermostat.  The smart thermostat will constantly send temperature readings to Azure IoT Hub or IoT Central.   As soon as a temperature reading that is outside of your specified threshold is discovered, it will generate an IoT alert record in Dynamics 365.  
 
 Many times, the first step in dealing with an IoT alert is to remotely interact with the device and send specific commands to the device.  The Connected Field Service solution contains several record types that can be leveraged to assist in remotely managing and interacting with these devices.   

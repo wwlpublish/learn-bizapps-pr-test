@@ -1,28 +1,40 @@
-## Summary
+In this module, you created an application by using Microsoft IoT Central and connected it to Microsoft Dynamics 365 for Field Service by using the Connected Field Service add-on. Microsoft IoT Central abstracts many of the more technical aspects of building an Internet of Things (IoT) solution. The process of building an IoT solution in the portal resembles the process of customizing Microsoft Dynamics 365. By using both together, you can quickly bring device telemetry and interaction into the Dynamics 365 solution. By using Microsoft IoT Central, you can release your solution more quickly.
 
-In this module you have created an application with IoT Central and connected it to your Dynamics 365 for Field Service using the Connected Field Service add-in.  Azure IoT Central abstracts many of the more technical aspects of building an IoT solution.  Using the portal, you are able to build an IoT solution similar to how you would customize Dynamics 365.  Using both together you can rapidly bring device telemetry and interaction into the Dynamics 365 solution.  By using Azure IoT Central you can get your solution shipped quicker.
+On the near-term roadmap for the Connected Field Service add-on, expect to see more integration with Microsoft IoT Central.
 
-In the near-term roadmap of the Connected Field Service add-on, expect to see more integration with Azure IoT Central. 
+### Cleaning up
 
-### Cleaning Up 
+The trial of Microsoft IoT Central that you created will just expire at the end of the trial period. No further action is required. If you want to re-create your trial from the beginning, you can delete the existing trial at any time. Currently, you can have only one active trial at a time in a Microsoft Azure subscription.
 
-The trial you created of Azure IoT Central will simply expire at the end of the trial with no further action required.  If you want to re-create your trial from the beginning you can delete your existing trial at any time.  Currently you are only allowed one active trial at a time in an Azure subscription. 
+When you deployed the Connected Field Service add-on, it created an Azure resource group in your subscription. This resource group has all the components of the template. If you're going to do other learning soon, you might want to wait to do the cleanup until after you've finished any of the other modules that require a Connected Field Service deployment.
 
-When you deployed the Connected Field Service add-on it created an Azure Resource Group in your subscription that contains all the components of the template.  If you are going to complete other learning in the near future you might want to wait to do the cleanup until you have completed any of the other modules that require a Connected Field Service deployment.
+If you've finished and are ready to clean up, you just have to delete the resource group in Azure. You can do this via either the Azure portal or Azure Cloud Shell.
 
-If you are done, and ready to cleanup all you need to do is simply delete the resource group in Azure.  You can accomplish that in two ways, either via the Azure Portal or from the Azure Cloud Shell.
+**Via the Azure portal**
 
-**Via the Azure Portal**
+1. Open the Azure portal ([https://portal.azure.com](https://portal.azure.com)).
+2. In the left pane, select **Resource groups**.
+3. Enter the name of your resource group in the filter, or find it in the list.
+4. Select the resource group to open the details page.
+5. After you've confirmed that it's the correct resource group, select all the items in the group, and then select **Delete**.
 
-* Navigate to the [Azure Portal](https://portal.azure.com)
-- On the left side select **Resource Groups**
-- Type your resource group in the filter by name or find it on the list
-- Select the **Resource Group** to open the **Detail** page
-- After confirming it is the right Resource Group, select all the items in the group and click **Delete**
+**Via Cloud Shell**
 
-**Via the Azure Shell**
+1. Go to [https://shell.azure.com](https://shell.azure.com).
+2. List your accounts by running the following command.
 
-- Navigate to <https://shell.azure.com>
-- List your accounts using command: az account list
-- Select your account using command: az account set -s “My Account Name”
-- Delete the resource group using command: az group delete -n “Your Resource Group Name”
+    ```
+    az account list
+    ```
+
+3. Select your account by running the following command.
+
+    ```
+    az account set -s "My Account Name"
+    ```
+
+4. Delete the resource group by running the following command.
+
+    ```
+    az group delete -n "Your Resource Group Name"
+    ```

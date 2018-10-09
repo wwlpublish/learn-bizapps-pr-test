@@ -1,107 +1,159 @@
-## Identify Exceptions
+## Exercise – Identify exceptions
 
-### Exercise 1: Azure Cosmos DB 
-In this exercise, you will be pre-creating an Azure Cosmos DB that will be used in the next exercise.  This database will be used to store detail telemetry from the device.  
+### Exercise 1: Azure Cosmos DB
+In this exercise, you'll create the Microsoft Azure Cosmos DB database that you'll use in the next exercise. This database will be used to store detail telemetry from the device.
 
-### Scenario 
- 
-In this unit we are going to modify the Stream Analytics job to work with the data from our physical device that comes in a different format than the simulated device.  We will also be adjusting the stream job to store the data into an Azure Cosmos DB in addition to evaluating it for anomalies 
+**Scenario**
 
-#### Task 1: Create Azure Cosmos DB 
+The data that comes in from our physical device is in a different format than the data from our simulated device. Therefore, you must change the Azure Stream Analytics job to work with the data from our physical device. You'll also adjust the Stream Analytics job so that it stores the data in an Azure Cosmos DB in addition to evaluating it for anomalies.
 
-1. Go to your Azure portal and click Create a Resource. 
-![Create a resource](../media/1-ie-unit4.png)
-2. Search for Azure Cosmos DB and select it. 
-![Field Resource Hub](../media/2-ie-unit4.png)
-3. Click Create. 
-![Create Button](../media/3-ie-unit4.png)
-4. Enter a unique ID, select SQL for API, select your Subscription, select your Resource Group, select your Location, and click Create. 
-![Unique ID](../media/4-ie-unit4.png)
+#### Task 1: Create the Azure Cosmos DB
+
+1. Go to your Azure portal, and select **Create a resource**.
+
+    ![Create a resource](../media/1-ie-unit4.png)
+
+2. Search for *Azure Cosmos DB*, and select it in the search results.
+
+    ![Azure Cosmos DB](../media/2-ie-unit4.png)
+
+3. Select **Create**.
+
+    ![Create button](../media/3-ie-unit4.png)
+
+4. Enter a unique ID, select *SQL* as the application programming interface (API), select your subscription, resource group, and location, and then select **Create**.
+
+    ![Create button](../media/4-ie-unit4.png)
+
 5. Wait for the Azure Cosmos DB to be created.
-6. Open the Azure Cosmos DB you created, select Data Explorer, and click New Database. 
-![New Database](../media/5-ie-unit4.png)
-7. Enter Telemetry for Database ID and click OK. 
-![OK Icon](../media/6-ie-unit4.png)
-8. Click on the … button of the database you created. 
-![SQL API Window](../media/7-ie-unit4.png)
-9. Select New Collection. 
-![New collection drop down](../media/8-ie-unit4.png)
-10. Enter DeviceData for Collection ID, change the Throughput to 400, click OK. We are changing the throughput to minimize cost. 
-![add collection window](../media/9-ie-unit4.png)
+6. Open the Azure Cosmos DB that you just created, select **Data Explorer**, and then select **New Database**.
+
+    ![New Database button](../media/5-ie-unit4.png)
+
+7. In the **Database id** field, enter *Telemetry*, and then select **OK**.
+
+    ![OK button](../media/6-ie-unit4.png)
+
+8. Select the ellipsis button (**…**) for the database that you created.
+
+    ![Ellipsis button](../media/7-ie-unit4.png)
+
+9. Select **New Collection**.
+
+    ![New Collection](../media/8-ie-unit4.png)
+
+10. In the **Collection Id** field, enter *DeviceData*, change the **Throughput** value to *400*, and then select **OK**. We're changing the throughput to minimize cost.
+
+    ![OK button](../media/9-ie-unit4.png)
  
-### Exercise 2: Adjust Stream Analytics Job  
-In this exercise, you will be modifying the Azure Stream Analytics job to accommodate for the different telemetry sent by your MXChip device. 
- 
-#### Task 1: Add Cosmos DB as an Output 
+### Exercise 2: Adjust the Stream Analytics job
+In this exercise, you'll change the Stream Analytics job to accommodate the different telemetry that's sent by your MXChip device.
 
-1. Select Resource Groups and open the Resource Group you created. 
-![Resource Group](../media/10-ie-unit4.png)
-2. Locate and open the Stream Analytics Job.
-![Steam Analytic](../media/11-ie-unit4.png) 
-3. Click Stop. The Stream Analytics Job must be stopped before you can change its query and input/outputs. 
-![Stop Icon](../media/12-ie-unit4.png)
-4. Click Yes. 
-5. After the Job stops, select Outputs. 
-![Outputs in Navigation](../media/13-ie-unit4.png)
-6. Click Add and select Cosmos DB. 
-![Add Cosmos DB](../media/14-ie-unit4.png)
-7. Enter CosmosDB for Output Alias, select your subscription, select the Cosmo DB you created, select the Database you created, enter DeviceData for Collection NAME Pattern, and click Save. 
-![Collection Name](../media/15-ie-unit4.png)
+#### Task 1: Add an Azure Cosmos DB as output
 
-#### Task 2: Adjust the Query for the Device 
+1. Select **Resource groups**, and open the resource group that you created.
 
+    ![Resource group](../media/10-ie-unit4.png)
 
-1. Select Query. 
-![Query](../media/16-ie-unit4.png)
-2. Place your cursor at the end of line 14 and <ENTER> 
-![Cursor placement](../media/17-ie-unit4.png)
-3. Paste the query snippet below. This will allow the query to support both the real and simulated devices. 
+2. Find and open the Stream Analytics job.
 
+    ![Steam analytics job](../media/11-ie-unit4.png)
 
-```json
-...
-UNION 
--- MX Chip 
-SELECT 
-     GetMetadataPropertyValue(Stream, '[IoTHUB].[ConnectionDeviceId]') as DeviceID, 
-     'Temperature' AS ReadingType, 
-     (((Stream.temp *9) / 5)+32) AS Reading, 
-     GetMetadataPropertyValue (Stream, 'EventId') as EventToken, 
-     Ref.Temperature AS Threshold, 
-     Ref.TemperatureRuleOutput AS RuleOutput, 
-     Stream.EventEnqueuedUtcTime AS [time] 
-FROM IoTStream Stream  
-JOIN DeviceRulesBlob Ref ON Ref.DeviceType = 'Thermostat' 
-WHERE 
-     Stream.temp IS NOT NULL AND Stream.temp > Ref.Temperature 
-...
-```
- 
-Notice that we are not only adjusting for field names but converting the temperature from Celsius to Fahrenheit. 
+3. The Stream Analytics job must be stopped before you can change its query and input/outputs. Select **Stop**.
 
-![Field name call out in code](../media/18-ie-unit4.png)
- 
+    ![Stop button](../media/12-ie-unit4.png)
 
-4. Click Save 
-![Save Icon](../media/19-ie-unit4.png)
-5. Click Yes. 
- 
-#### Task 3: Add Saved Data to Azure Cosmos DB 
+4. Select **Yes**.
+5. After the job is stopped, select **Outputs**.
 
+    ![Outputs](../media/13-ie-unit4.png)
 
-1. Scroll down to the end of the query and add the below snippet to the Query. This will save a copy of the ingested data. 
-![query window](../media/20-ie-unit4.png)
-2. Click Save again.
-3. Click Yes.
-4. Select the Overview tab and restart the job.
-![Overview Tab, Start](../media/21-ie-unit4.png) 
-5. Wait for the Stream Analytics Job to start.
-6. Click on the Resource Group. 
-![Resource Group](../media/22-ie-unit4.png)
-7. Open the Azure Cosmos DB you created. 
-![Select DB](../media/23-ie-unit4.png)
-8. Select DATA Explorer, expand Telemetry, expand DeviceData, and select Documents. 
-![Documents](../media/24-ie-unit4.png)
-9. You should get list of documents. Click on one of the documents. 
-![List of Documents](../media/25-ie-unit4.png)
-10. You should get sensor data from your device. 
+6. Select **Add**, and then select **Cosmos DB**.
+
+    ![Cosmos DB](../media/14-ie-unit4.png)
+
+7. In the **Output alias** field, enter *CosmosDB*.
+8. Select your subscription, select the Azure Cosmos DB that you created, and select the database that you created.
+9. In the **Collection name pattern** field, enter *DeviceData*.
+10. Select **Save**.
+
+    ![Save button](../media/15-ie-unit4.png)
+
+#### Task 2: Adjust the query for the device
+
+1. Select **Query**.
+
+    ![Query](../media/16-ie-unit4.png)
+
+2. Put the cursor at the end of line 14, and press Enter.
+
+    ![Cursor placement](../media/17-ie-unit4.png)
+
+3. Paste the following query snippet. This code will let the query support both the real and simulated devices.
+
+    ```json
+    ...
+    UNION 
+    -- MX Chip 
+    SELECT 
+        GetMetadataPropertyValue(Stream, '[IoTHUB].[ConnectionDeviceId]') as DeviceID, 
+        'Temperature' AS ReadingType, 
+        (((Stream.temp *9) / 5)+32) AS Reading, 
+        GetMetadataPropertyValue (Stream, 'EventId') as EventToken, 
+        Ref.Temperature AS Threshold, 
+        Ref.TemperatureRuleOutput AS RuleOutput, 
+        Stream.EventEnqueuedUtcTime AS [time] 
+    FROM IoTStream Stream
+    JOIN DeviceRulesBlob Ref ON Ref.DeviceType = 'Thermostat' 
+    WHERE 
+        Stream.temp IS NOT NULL AND Stream.temp > Ref.Temperature 
+    ...
+    ```
+
+    Notice that we're not only adjusting for field names but also converting the temperature from Celsius to Fahrenheit.
+
+    ![Conversion from Celsius to Fahrenheit called out in code](../media/18-ie-unit4.png)
+
+4. Select **Save**.
+
+    ![Save button](../media/19-ie-unit4.png)
+
+5. Select **Yes**.
+
+#### Task 3: Add saved data to the Azure Cosmos DB
+
+1. Add the following snippet to the end of the query. This code will save a copy of the ingested data.
+
+    ```json
+    SELECT
+        *
+    Into CosmosDB
+    FROM IoTStream
+    ```
+
+    ![Query](../media/20-ie-unit4.png)
+
+2. Select **Save** again.
+3. Select **Yes**.
+4. Select **Overview**, and then select **Start** to restart the job.
+
+    ![Start button](../media/21-ie-unit4.png)
+
+5. Wait for the Stream Analytics job to be started.
+6. Select the resource group.
+
+    ![Resource group](../media/22-ie-unit4.png)
+
+7. Open the Azure Cosmos DB that you created.
+
+    ![Azure Cosmos DB](../media/23-ie-unit4.png)
+
+8. Select **Data Explorer**, expand **Telemetry**, expand **DeviceData**, and select **Documents**.
+
+    ![Documents](../media/24-ie-unit4.png)
+
+9. You should see a list of documents. Select one of the documents.
+
+    ![List of documents](../media/25-ie-unit4.png)
+
+    You should now see sensor data from your device.

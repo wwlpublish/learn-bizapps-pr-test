@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Remotely Monitor and Service Customer Equipment
-summary: This module will focus on the end to end process of remotely monitoring IoT enabled devices using the Connected Field Service solution including device registration, working with alerts, and designing processes to take specific actions.
-abstract: By the end of this course, students will be able to explain the beginning and end process with Connected Field Service, explain and demonstrate the relationship between Customer Assets and IoT Devices , identify the components used to remotely interact with Devices, create automated processes for servicing equipment
-prerequisites: None
+summary: This module will focus on the end-to-end process of remotely monitoring IoT enabled devices using the Connected Field Service solution including device registration, working with alerts, and designing processes to take specific actions.
+abstract: By the end of this course, students will be able to explain the beginning and end process with Connected Field Service, explain and demonstrate the relationship between Customer Assets and IoT Devices, identify the components used to remotely interact with Devices, and create automated processes for servicing equipment.
+prerequisites: Microsoft Dynamics 365 instance with Microsoft Dynamics 365 Field Service deployed, Connected Field Service deployed, and Azure IoT Hub setup and deployed to complete the lab exercises.
 #TODO: Update with real image.
 iconUrl: http://via.placeholder.com/120x120
 levels: 

@@ -1,5 +1,3 @@
-****## Working with Device Properties and Definitions
-
 Property Definitions make it easy to pre-define specific properties that are associated with IoT Devices.  
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBv]
@@ -71,7 +69,7 @@ There are two primary areas where Property Definitions can be leveraged.
 - **Visible:** Specifies if this is a hidden property that should not be shown in the command definition.
 - **Additional Properties:**   Additional items that are specific to that property type than can be defined. For example: A default text string that will be used with a Message Property.  (Note: Additional Properties will vary depending on the Type chosen.) 
 
-### Using Property Definitions with Device Twins. 
+### Using Property Definitions with Device Twins 
 Let’s say that you want to use Device Tags to define the specific location of an IoT Device.  Typically, your devices are in a Building and on a Specific floor.  A Property Definition could be used to define the tag.  When that tag is added to a Device Category, it will be automatically populated on any device that belongs to that category.  
 
 ![Device Settings Window](../media/1-rg-unit5.png)
@@ -105,7 +103,7 @@ Let’s look at the example command below:
 
 The parameters the specific properties that we want to include in the command.  The “Message” property tells us that we want to send a message to the device, and the text is the message that we want to include in the message.  The message property above is good example of where Property Definitions could be used.  
 
-### Working with Parent Properties:
+### Working with Parent Properties
 Many times, a property will have multiple sub-properties that make up the entire Property Definition.  In this case you can use Parent Properties to relate a Property to multiple Sub-Properties.  
 
 Let’s look at the example below:    

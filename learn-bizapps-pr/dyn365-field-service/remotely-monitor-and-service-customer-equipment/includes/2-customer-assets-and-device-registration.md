@@ -1,5 +1,3 @@
-## Customer Assets and Device Registration
-
 Before device and telemetry data can be consumed by Dynamics 365 Connected Field Service, the device must first be registered with either Azure IoT Hub or IoT Central as an IoT device. When Connected Field Service is installed, a new entity is added in your Dynamics 365 organization called IoT Device. Once a device is registered with Azure IoT Hub or IoT central (either directly in Azure, from Dynamics 365, or another means), a corresponding IoT Device record is created automatically in Dynamics 365.   
 
 ![IoT Device record](../media/1-rm-unit2.png)   
