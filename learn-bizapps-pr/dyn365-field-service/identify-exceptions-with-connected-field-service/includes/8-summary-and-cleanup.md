@@ -1,5 +1,3 @@
-## Summary and cleanup
-
 In this module, you connected a real device to your deployment. You changed the template application to send alerts to the Microsoft Dynamics 365 Connected Field Service add-on. You also used the advanced anomaly detection capabilities of Microsoft Azure Stream Analytics to implement more complex, dynamic rules. And finally, you saw several of the extension points where you can not only store detail telemetry but also hook in your own custom processing of the device data stream.
 
 ### Cleaning up

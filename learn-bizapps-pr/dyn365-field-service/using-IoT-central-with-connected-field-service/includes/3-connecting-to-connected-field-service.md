@@ -1,5 +1,3 @@
-## Connecting to Connected Field Service
-
 Now that you've built a Microsoft IoT Central application, you can connect it to Connected Field Service by using the Microsoft Flow connectors to register devices and raise alerts with Microsoft Dynamics 365.
 
 Currently, when you install the Connected Field Service add-on, several Microsoft Azure components that aren't required for Microsoft IoT Central are installed, because Microsoft IoT Central includes similar components that are packaged as part of the overall service. In the future, we plan to provide an installation that doesn't include these redundant components. The key components that you'll use to finish the integration are the solutions that are installed on the Dynamics 365 side. These components include entities like IoT Alert and IoT Device. For a real project, you could turn off some of the Azure components, like Azure IoT Hub, so that you aren't billed for them.
@@ -10,7 +8,7 @@ Typically, for a Connected Field Service solution, you create the customer asset
 
 Notice that, in addition to updating the customer asset with the device ID, you'll create the IoT device record that's used if you send any commands or other actions from Dynamics 365.
 
-When you register the device, you created a connection between the device in Microsoft IoT Central and the customer asset in Microsoft Dynamics 365 for Field Service. In the previous module, for our smart trash container scenario, we set up an event to indicate that the container is ready for pickup. Now let's see how you can raise an alert in Dynamics 365 so that the container be scheduled for pickup.
+When you register the device, you created a connection between the device in Microsoft IoT Central and the customer asset in Microsoft Dynamics 365 for Field Service. In the previous unit, for our smart trash container scenario, we set up an event to indicate that the container is ready for pickup. Now let's see how you can raise an alert in Dynamics 365 so that the container be scheduled for pickup.
 
 To start the process, we'll use the rules feature of Microsoft IoT Central. Rules are built to monitor telemetry of the device and perform an action when a condition is met. In addition to looking at the real-time values, rules can look at device properties. For example, the properties might include threshold information that varies by device, based on the installation. The following image shows an example of the rule that you'll build to react to the ready for pickup event. Notice that there are several options for actions when a rule's conditions are met. In fact, out-of-box Dynamics 365 actions are coming soon. For now, we'll use the Microsoft Flow action to create an IoT Alert record.
 

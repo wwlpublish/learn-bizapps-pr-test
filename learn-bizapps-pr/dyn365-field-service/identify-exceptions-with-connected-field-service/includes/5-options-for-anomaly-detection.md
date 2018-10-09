@@ -1,5 +1,3 @@
-## Options for anomaly detection
-
 In the overview, we discussed how Connected Field Service handles anomaly detection by using the default template application. In this unit, we'll discuss options for tailoring how detection is done.
 
 The first thing to consider is the type of rules or intelligence that you must handle to generate insights for your scenario. The simplest form is stateless and static. For example, if the controlled room temperature goes above 20 degrees Celsius or below 10 degrees Celsius, raise an alert. This type of evaluation doesn't require historical data to determine how much change has occurred since the last data point. It's just a point-in-time comparison. For this type of evaluation, you don't really need the Microsoft Azure Stream Analytics job. You might even consider replacing it with a simple Azure function.

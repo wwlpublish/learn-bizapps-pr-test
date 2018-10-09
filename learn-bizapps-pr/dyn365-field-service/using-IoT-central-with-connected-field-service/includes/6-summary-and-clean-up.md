@@ -1,5 +1,3 @@
-## Summary
-
 In this module, you created an application by using Microsoft IoT Central and connected it to Microsoft Dynamics 365 for Field Service by using the Connected Field Service add-on. Microsoft IoT Central abstracts many of the more technical aspects of building an Internet of Things (IoT) solution. The process of building an IoT solution in the portal resembles the process of customizing Microsoft Dynamics 365. By using both together, you can quickly bring device telemetry and interaction into the Dynamics 365 solution. By using Microsoft IoT Central, you can release your solution more quickly.
 
 On the near-term roadmap for the Connected Field Service add-on, expect to see more integration with Microsoft IoT Central.

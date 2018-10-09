@@ -1,5 +1,3 @@
-## Connect to a device
-
 ### Exercise 1: Set up the physical device
 
 **Scenario**

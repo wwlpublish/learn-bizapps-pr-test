@@ -1,5 +1,3 @@
-## Using Microsoft IoT Central with Connected Field Service overview
-
 Microsoft IoT Central is a software as a service (SaaS) solution that abstracts many of the low-level components of an Internet of Things (IoT) solution into a customizable model-based approach. The solution is set up in Microsoft IoT Central, at a similar level of abstraction to what's done in Microsoft Dynamics 365 applications. Currently, you can use Microsoft IoT Central with Connected Field Service by implementing some of your own flows. The upcoming release of Dynamics 365 will include a directly supported action from the rules that you build in Microsoft IoT Central.
 
 The following illustration highlights the division of work between Microsoft IoT Central, Connected Field Service, and the core features of the Microsoft Dynamics 365 for Field Service application.
@@ -42,7 +40,7 @@ The following table gives more details about each key template component.
 </tr>
 <tr>
 <td>Dashboards</td>
-<td>Dashboards include tiles that have information about the device. Dashboards can include settings, properties, and even maps. For example, you can include a map that shows the location of the device. Such a map might be useful after a severe weather event that caused trash containers to be blown all over the place.</td>
+<td>Dashboards include tiles that have information about the device. Tiles can include settings, properties, and even maps. For example, you can include a map that shows the location of the device. Such a map might be useful after a severe weather event that caused trash containers to be blown all over the place.</td>
 </tr>
 <tr>
 <td>Rules</td>

@@ -1,6 +1,4 @@
-## Detail telemetry storage
-
-Internet of Things (IoT) devices generate lots of data that's ingested in the Microsoft Azure IoT hub and available for processing. This flow of data is essential to generating immediate insights. The Connected Field Service add-on application template processes this data stream by using an Azure Stream Analytics job. By default, after the data is evaluated and alerts are raised, the data isn't kept.
+Internet of Things (IoT) devices generate lots of data that's ingested by the Microsoft Azure IoT hub and available for processing. This flow of data is essential to generating immediate insights. The Connected Field Service add-on application template processes this data stream by using an Azure Stream Analytics job. By default, after the data is evaluated and alerts are raised, the data isn't kept.
 
 During the deployment of the Connected Field Service add-on, you can turn on an option for Microsoft Power BI. This option causes a second Stream Analytics job to connect to the Azure IoT hub and get its own copy of the device data. This data is summarized into one-minute time windows and persisted in an Azure SQL database. It can then be fed into Power BI and shown by using the [Power BI Report Template for Connected Field Service](https://www.microsoft.com/en-us/download/details.aspx?id=54298). Although this approach allows for unlimited storage, it's tailored to the current template scenario. To support different device data, you must construct your own table format and reports.
 
@@ -8,7 +6,7 @@ An IoT hub has multiple endpoints. The primary endpoint receives detail device d
 
 ![Azure Storage endpoint](../media/1-ie-unit3.png)
 
-When you have additional endpoints, IoT Hub routes determine what messages go where. The events built-in endpoint only gets messages that aren't routed to other endpoints, unless you add an explicit rule. The route can be filtered by using an [SQL-like language](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-query-language).
+When you have additional endpoints, IoT Hub routes determine what messages go where. The event's built-in endpoint only gets messages that aren't routed to other endpoints, unless you add an explicit rule. The route can be filtered by using an [SQL-like language](https://docs.microsoft.com/en-us/azure/iot-hub/iot-hub-devguide-query-language).
 
 For example, if you want to save a copy of every message to Azure Storage, both endpoints must get every message from the device. The following image shows what the IoT Hub routes will look like.
 
