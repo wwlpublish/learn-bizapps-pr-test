@@ -9,9 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Check your knowledge
-durationInMinutes: 10
+durationInMinutes: 5
 quiz:
-  title: Identify Exceptions with Connected Field Service quiz
+  title: Identify exceptions with Connected Field Service quiz
   questions:
   - content: Which of the following need to be modified to change the rules used to raise alerts with the Connected Field Service template application?
     choices: 

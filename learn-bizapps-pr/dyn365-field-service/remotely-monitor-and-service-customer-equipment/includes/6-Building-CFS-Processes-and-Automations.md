@@ -12,8 +12,6 @@ In this lab, you will work in a simulated environment with the following compute
 
 ### Lab Overview
 
-***Abstract***
-
 The Dynamics 365 Connected Field Service solution provides the ability to remotely monitor IoT-enabled devices to keep track of uptime, device statistics, anomalies, and more. After an IoT device communicates an anomaly or exception, that information is sent to Connected Field Service as an alert. Once the alert is captured, you can leverage the ability of Dynamics 365 to create automation and business processes to develop automated processes for acting on, routing, and fixing the issues.  
 
 The purpose of this hands-on lab is to introduce you to building and automating Connected Field Service processes, as well as to demonstrate how these actions can be leveraged as part of an overall IoT solution.  
@@ -28,7 +26,6 @@ At the end of these exercises, you will be able to accomplish the following:
 - Build workflows to automate the creation of IoT device commands for interacting with devices.
 - Create Field Service-related business process flows that offer branching options. 
 
-**Estimated time to complete this lab: 45 to 60 minutes**
 
 #### Scenario
 

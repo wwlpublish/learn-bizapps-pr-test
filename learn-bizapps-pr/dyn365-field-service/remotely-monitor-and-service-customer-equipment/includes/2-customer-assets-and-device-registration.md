@@ -6,7 +6,8 @@ From within the device’s record you can see any relevant information for the d
 
 When you want to track a specific piece of customer equipment at a customer location in Field Service, you create a Customer Asset record. Since many customer assets will often be IoT-enabled devices, customer assets can also be registered as IoT devices. When a Customer Asset is created in Dynamics 365, the asset record contains a Connected Device Attributes section. This section stores the Device ID and the Registration Status of the connected device. A customer asset can be registered as a device directly from the Customer Asset record in Dynamics 365. The exception to this is when working with the mobile application. 
  
-**IMPORTANT:** *You cannot associate an asset with a device using the Field Service mobile app.*    
+> [!IMPORTANT] 
+> You cannot associate an asset with a device using the Field Service mobile app.   
 
 ![Customer Asset record](../media/2-rm-unit2.png)   
 

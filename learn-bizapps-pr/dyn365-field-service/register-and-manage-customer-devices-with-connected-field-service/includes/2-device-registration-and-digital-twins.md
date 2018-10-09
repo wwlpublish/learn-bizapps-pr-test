@@ -31,7 +31,7 @@ The image below shows at a high level how these components are used.
 
 ![Table of Use of Components](../media/3-rg-unit2.png)
  
-Tags: 
+**Tags:** 
 A tag does not communicate with the actual device, rather they can be set and read by a back-end application (in this case Connected Field Service) as a way of grouping or organizing devices together.  Device tags can be defined directly on the IoT Device record in Connected Field Service.   
 Note:  Setting and defining Properties and Tags will be covered in more detail in the Property Definition Unit.     
 

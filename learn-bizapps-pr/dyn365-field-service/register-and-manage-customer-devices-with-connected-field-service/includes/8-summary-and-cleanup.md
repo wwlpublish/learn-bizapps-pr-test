@@ -9,7 +9,7 @@ We explored several of the key items including:
 
 The next steps from here would be gain a deeper understanding of how to identify and handle exceptions.  This would include items like telemetry, and different options for working with anomalies.   
  
-### Cleaning up you Environment 
+### Cleaning up you environment 
 If you are done, and ready to clean up your environment we will need to remove all the items that we created in this exercise.  During this exercise, we created an IoTAlertProcesses solution to store all the customizations, workflows, and business process flows that we created.  This was done to not only make it easier to keep our changes together, but to also assist in the removal of these items upon completion of this module. 
   
 When you remove an unmanaged solution from Dynamics 365 it will only remove the container that groups the customizations together.  Each customization would need to be manually removed from the system in a specific order.  Rather than having to manually removing each process, relationship, and customization is a specific order, it is much easier to remove all the items at once.  This can be done by using a managed solution.  When you remove a managed solution, it removes all the items included in the solution as well.    This is the process that we will be using.   
@@ -21,7 +21,7 @@ When you remove an unmanaged solution from Dynamics 365 it will only remove the 
 - Import the IoTAlertProcess managed solution into your environment. (This will convert all the customizations to managed components) 
 - Delete the IoTAlertProcess managed solution from your environment. (This will act as an uninstall and fully remove all of the changes we made from your environment)    
  
-**Detailed Steps:**
+**Detailed steps:**
 1. In Dynamics 365, navigate to **Settings > Solutions.**
 1. Select the **IoTAlertProcess** solution. 
 1. Click the **Export** button and follow the steps to export it as an unmanaged solution.  Save the solution 
@@ -42,7 +42,8 @@ somewhere where it will be easy to find.
  
 Optional: Remove Azure Resource Group 
 
-**IMPORTANT:** You should only follow the steps below if you are completely done with you Connected Field Service environment and do not plan on taking any other modules or doing anything else with it.   
+> [!IMPORTANT]
+> You should only follow the steps below if you are completely done with you Connected Field Service environment and do not plan on taking any other modules or doing anything else with it.   
  
 When you deployed the Connected Field Service add-on it created an Azure Resource Group in your subscription that contains all the components of the template.  If you are going to complete other learning in the near future, you might want to wait to do the cleanup until you have completed any of the other modules that require a Connected Field Service deployment. 
  

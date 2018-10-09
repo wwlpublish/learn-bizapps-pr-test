@@ -9,8 +9,6 @@ The purpose of this hands-on-lab is to introduce you to creating and defining co
 - Create and define command definitions and use them in command definitions.  
 - Build workflows extract data and automate send a command. 
   
-***Estimated time to complete this lab: 45 to 60 minutes*** 
- 
 **Scenario**
 You work for a plumbing and heating company that sells and services smart home devices.  Since many of the devices that you service are smart devices, information from those devices can be captured remotely to aid in the servicing of that equipment.  Your organization has several defined scenarios that and processes that they use when servicing equipment.  
 
@@ -102,7 +100,9 @@ The two commands they want to pre-define are:
     - Default: 40
 
 ![Humidity property definition](../media/9-rg-unit6.png)
+
 12.	Save and Close the Humidity property definition. 
+
 13.	Your completed property definitions should resemble the image below:
 
 ![Humidity property definition](../media/10-rg-unit6.png)
@@ -225,9 +225,9 @@ Note: If you already have the simulator open from the Unit 3 exercise, you can s
 23.	Switch back to your simulator, after a short while a message should appear in the Messages Received that a Technician has been dispatched.  Note: Depending on internet speeds, and other factors it can take several minutes for this to occur.
 ![Simulator, message received](../media/46-rg-unit6.png)
 
-###Exercise 3: Automate sending of commands with Workflows
+### Exercise 3: Automate sending of commands with Workflows
 
-####Task 1:  Create a new IoT Alert Process Solution
+#### Task 1:  Create a new IoT Alert Process Solution
 
 1.	In Dynamics 365 navigate to Settings > Solutions.
 2.	Click the New button to add a new solution.

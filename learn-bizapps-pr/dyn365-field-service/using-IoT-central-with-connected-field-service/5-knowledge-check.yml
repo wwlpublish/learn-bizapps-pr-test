@@ -8,8 +8,8 @@ metadata:
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-title: Check your Knowledge
-durationInMinutes: 10
+title: Check your knowledge
+durationInMinutes: 5
 quiz:
   title: Using IoT Central with Connected Field Service quiz
   questions:

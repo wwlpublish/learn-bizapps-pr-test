@@ -7,6 +7,7 @@ Customer assets such as appliances, equipment, sensors, or any IoT-enabled devic
 Once an asset (such as the above-mentioned refrigerator) that is equipped with a sensor is registered as an IoT device and connected to the internet, it will begin sending information such as temperature readings to either an Azure IoT Hub or to IoT Central. When a spike or drop in temperature is detected, an alert is surfaced for the device in Dynamics 365. Based on the conditions defined in the alert (type, severity, and so on), it can trigger an automated process that will assist in handling and resolving of the alert. For example, if a compressor unit on a device fails, your organization might elect to dispatch a technician as soon as possible. A work order can be automatically created, and the specific compressor needed to resolve the issue can be added to the work order as a necessary part.    
 
 ![Device Alert](../media/2-rm-unit1.png) 
+
 Sometimes when an alert is triggered it might not require on-site assistance. You might interact with the device remotely by sending commands directly to the device from within Dynamics 365. For example, if an increase in temperature is detected, it might get routed to a specific queue where a technician might remotely send a command to the device to perform a firmware update.  
 
 ![Firmware Update](../media/3-rm-unit1.png)     
