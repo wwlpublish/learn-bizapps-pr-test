@@ -45,4 +45,18 @@ quiz:
     - content: IoT Device Record
       correctExplanation: Desired Properties can be defined directly on the IoT Device record in Connected Field Service.
       isCorrect: true
+  - content: An IoT Device has generated an IoT Alert.  You want to simplify the process of sending a command to a device. Which of the following records should you create that will specifically populate the “Message” property in an IoT Device command?
+    choices: 
+    - content: Device Category
+      incorrectExplanation: Property definitions allow you to specify the Message property in an IoT device command.
+      isCorrect: false
+    - content: IoT Device Property Tag
+      incorrectExplanation: Property definitions allow you to specify the Message property in an IoT device command.
+      isCorrect: false
+    - content: Command Definition
+      incorrectExplanation: Property definitions allow you to specify the Message property in an IoT device command.
+      isCorrect: false
+    - content: Property Definition
+      correctExplanation: Property definitions allow you to specify the Message property in an IoT device command.
+      isCorrect: true
     
