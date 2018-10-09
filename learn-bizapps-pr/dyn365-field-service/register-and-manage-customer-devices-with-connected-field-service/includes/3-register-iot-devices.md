@@ -21,7 +21,7 @@ The purpose of this hands-on-lab is to introduce you to how simulated and physic
  
 **Learning Objectives**
 
-At the end of this guided hands-on lab, students will be able to accomplish the following: 
+At the end of this guided hands-on lab, you will be able to: 
 - Register a simulated device with an Azure IoT Hub.     
 - Identify and work with IoT devices in an Azure IoT Hub.  
 - Work with and modify device rules in an Azure IoT Hub.  
@@ -30,12 +30,13 @@ At the end of this guided hands-on lab, students will be able to accomplish the 
 Estimated time to complete this lab: 45 to 60 minutes 
  
 **Scenario**
-You work for a company that sells and services smart home devices.  Since many of the devices that you service are smart devices, information from those devices can be captured remotely to aid in the servicing of that equipment.  Your organization has several defined scenarios that and processes that they use when servicing equipment.  These processes can vary depending on several factors including: 
+You work for a company that sells and services smart home devices.  Since many of the devices that you service are smart devices, information from those devices can be captured remotely to aid in the servicing of that equipment.  Your organization has several defined scenarios and processes that they use when servicing equipment.  These processes can vary depending on several factors including: 
 - The type of device in need of service 
 - The severity of the issue detected 
 - The age of the device 
 - The location of the device 
 - The availability of resources to work on a specific device. 
+
 The above items represent only a small portion of factors that your organization uses to determine the process for servicing equipment.   
  
 The first critical component in your company moving to a connected IoT solution is to register devices with an Azure IoT hub (both simulated and physical) and relate them to a corresponding customer asset in Connected Field Service.   
@@ -49,10 +50,10 @@ The first critical component in your company moving to a connected IoT solution 
 2. Select the Site Map Icon to expand navigation, select Customer Assets.  
 3. Click the New button. 
 4. Configure your Customer Asset as follows: 
-- Name: Smart Thermostat 
-- Account: Adventure Works (Sample) 
-- Device ID: smt-9876 
-- 
+    - Name: Smart Thermostat 
+    - Account: Adventure Works (Sample) 
+    - Device ID: smt-9876 
+ 
 ![Customer Asset Configuration](../media/2-rg-unit3.png)
 
 5. Save the Customer Asset and leave the record open 
@@ -146,9 +147,9 @@ If you do not have an MXChip IoT DevKit, you can visit http://aka.ms/iot-devkit/
 2. Select the Site Map Icon to expand navigation, select Customer Assets.
 3. Click the New Button. 
 4. Configure your Customer Asset as follows: 
-- Name: MXChip 
-- Account: Adventure Works (Sample) 
-- Device ID: AZ3166 
+    - Name: MXChip 
+    - Account: Adventure Works (Sample) 
+    - Device ID: AZ3166 
 ![Customer Asset Configuration](../media/23-rg-unit3.png)
 
 5. Save the Customer Asset and leave the record open 
