@@ -31,20 +31,6 @@ quiz:
     - content: IoT Device Property
       incorrectExplanation: Device category records are used when devices share similar properties.
       isCorrect: false
-  - content: An IoT Device has generated an IoT Alert.  You want to simplify the process of sending the following command to the device: {"CommandName":"Notification","Parameters":{"Message":"Technician has been dispatched"}}.  Which of the following records should you create to that will specifically populate the “Message” property in an IoT Device command?
-    choices: 
-    - content: Device Category
-      incorrectExplanation: Property definitions allow you to specify the Message property in an IoT device command.
-      isCorrect: false
-    - content: IoT Device Property Tag
-      incorrectExplanation: Property definitions allow you to specify the Message property in an IoT device command.
-      isCorrect: false
-    - content: Command Definition
-      incorrectExplanation: Property definitions allow you to specify the Message property in an IoT device command.
-      isCorrect: false
-    - content: Property Definition
-      correctExplanation: Property definitions allow you to specify the Message property in an IoT device command.
-      isCorrect: true
   - content: Where can Desired Properites be defined?
     choices: 
     - content: IoT Device Category
