@@ -90,11 +90,11 @@ achievements:
   title: Get started with the Common Data Service
   summary: Badge for the 'Get started with the Common Data Service' module.
   iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
-- uid: learn.getting-started-with-connected-field-service.badge 
+- uid: learn.get-started-with-connected-field-service.badge 
   type: badge
-  title: Getting started with the Connected Field Service
-  summary: Badge for the 'Getting started with the Connected Field Service' module.
-  iconUrl: /learn/achievements/getting-started-with-connected-field-service.svg
+  title: Get Started with the Connected Field Service
+  summary: Badge for the 'Get Started with the Connected Field Service' module.
+  iconUrl: /learn/achievements/get-started-with-connected-field-service.svg
 - uid: learn.identify-exceptions-with-connected-field-service.badge 
   type: badge
   title: Identify Exceptions with Connected Field Service
