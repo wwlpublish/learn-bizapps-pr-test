@@ -11,7 +11,6 @@ During this lab, you will work in a simulated environment with the following com
 | Connected Field Service                      | You should have Connected Field Service deployed                    
 | Azure IoT Hub                                | You should have a Azure IoT Hub setup and deployed that Connected Field Service is talking to.  
 
-**Abstract**
 Dynamics 365’s Connected Field Service solution provides the ability to register both simulated and physical IoT devices with Azure IoT Hub or IoT Central and using device twin, communicate information back into the Connected Field Service solution.   
  
 The purpose of this hands-on-lab is to introduce you to how simulated and physical devices can be registered with and Azure IoT Hub and associated with customer assets in Connected Field Service.   
@@ -24,7 +23,6 @@ At the end of this guided hands-on lab, you will be able to:
 - Work with and modify device rules in an Azure IoT Hub.  
 - Register a physical device with the Connected Field Service solution and an Azure IoT Hub. (Optional) 
 
-Estimated time to complete this lab: 45 to 60 minutes 
  
 **Scenario**
 You work for a company that sells and services smart home devices.  Since many of the devices that you service are smart devices, information from those devices can be captured remotely to aid in the servicing of that equipment.  Your organization has several defined scenarios and processes that they use when servicing equipment.  These processes can vary depending on several factors including: 

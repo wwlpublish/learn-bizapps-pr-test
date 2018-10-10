@@ -9,6 +9,6 @@ metadata:
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-durationInMinutes: 15
+durationInMinutes: 10
 content: |
   [!include[](includes/4-process-telemetry.md)]

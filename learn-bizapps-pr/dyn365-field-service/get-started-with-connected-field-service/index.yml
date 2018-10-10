@@ -10,7 +10,12 @@ metadata:
   ms.prod: learning-d365
 title: Get started with Connected Field Service
 summary: This module gets you started with Connected Field Service
-abstract: By the end of this course, students will be able to describe the difference between Azure IoT and Azure IoT Central and how they relate to Connected Field Service, set up an environment with Connected Field Service, identify the key components that comprise the Connected Field Service solution, and describe the flow of data from an IoT device to Dynamics 365 for Field Service.
+abstract: |
+   In this moudle, you will:
+   - Describe the difference between Azure IoT and Azure IoT Central and how they relate to Connected Field Service
+   - Set up an environment with Connected Field Service
+   - Identify the key components that comprise the Connected Field Service solution
+   - Describe the flow of data from an IoT device to Dynamics 365 for Field Service
 prerequisites: None
 #TODO: Update with real image.
 iconUrl: http://via.placeholder.com/120x120

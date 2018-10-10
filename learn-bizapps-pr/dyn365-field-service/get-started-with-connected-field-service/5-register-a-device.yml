@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-connected-field-service.5-register-a-device
-title: Register a Service
+title: Register a device
 metadata:
-  title: Register a Service
-  description: Register a Service.
+  title: Register a device
+  description: Register a device
   ms.date: 10/12/2018
   author: dyack
   ms.author: dbeasley

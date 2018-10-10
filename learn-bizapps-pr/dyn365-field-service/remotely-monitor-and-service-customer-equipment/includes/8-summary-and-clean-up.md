@@ -7,7 +7,7 @@ In this module you remotely managed IoT devices using the Dynamics 365 Connected
 
 The next steps are to gain a deeper understanding of interacting with devices. This includes understanding how device twins can be used to report and query information. You should also explore some of the additional features available for interacting with devices using commands. This includes items like device categories as well as command and property definitions.  
 
-## Cleaning Up Your Environment
+## Cleaning up your environment
 
 If you are done and ready to clean up your environment, you will need to remove all the items that you created in this exercise. During this exercise, you created an **IoTAlertProcesses** solution to store all the customizations, workflows, and business process flows that you created. This was done not only to make it easier to keep your changes together, but to also assist in the removal of these items upon completion of this module.  
 
@@ -41,7 +41,8 @@ When you remove an unmanaged solution from Dynamics 365, it only removes the con
 
 ### Optional: Remove Azure Resource Group
 
-**IMPORTANT:** *Follow the steps below only if you are completely done with your Connected Field Service environment and do not plan to take any other modules or do anything else with it.*  
+> [!IMPORTANT]
+> Follow the steps below only if you are completely done with your Connected Field Service environment and do not plan to take any other modules or do anything else with it.
 
 When you deployed the Connected Field Service add-on, it created an Azure Resource Group in your subscription that contains all the components of the template. If you are going to undertake other learning in the near future, you might want to wait on the cleanup until you have completed any other modules that require a Connected Field Service deployment.
 
@@ -49,7 +50,7 @@ If you are done and ready to clean up, all you need to do is delete the resource
 
 **Via the Azure portal**
 
-1. Navigate to the [Azure portal] (https://portal.azure.com "Microsoft Azure Portal")
+1. Navigate to the Azure portal https://portal.azure.com
 1. On the left side of the portal, choose **Resource Groups**.
 1. Enter your resource group in the filter by name or find it on the list.
 1. Select the resource group to open the detail page.
@@ -57,7 +58,7 @@ If you are done and ready to clean up, all you need to do is delete the resource
 
 **Via the Cloud Shell**
 
-1. Navigate to the [Cloud Shell] (https://shell.azure.com "Microsoft Azure Cloud Shell")
+1. Navigate to the Cloud Shell https://shell.azure.com
 1. List your accounts using command: az account list
 1. Select your account using command: az account set -s “My Account Name”
 1. Delete the resource group using command: az group delete -n “Your Resource Group Name”

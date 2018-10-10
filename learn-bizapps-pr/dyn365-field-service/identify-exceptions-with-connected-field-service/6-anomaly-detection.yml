@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.identify-exceptions-with-connected-field-service.6-anomaly-detection
-title: Anomaly Detection
+title: Anomaly detection
 metadata:
-  title: Anomaly Detection
-  description: Anomaly Detection
+  title: Anomaly detection
+  description: Anomaly detection
   ms.date: 10/12/2018
   author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-durationInMinutes: 5
+durationInMinutes: 25
 content: |
   [!include[](includes/6-anomaly-detection.md)]

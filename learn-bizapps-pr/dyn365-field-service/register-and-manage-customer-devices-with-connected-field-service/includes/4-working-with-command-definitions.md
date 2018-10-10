@@ -32,7 +32,8 @@ The image below represents a Command Definition called “Notification” that w
 
 Each command definition that is defined, can be associated with one or more “Property Definitions”.  A property definition represents a specific parameter that is being used as part of a command.   Any parameters that are defined for a command definition will be auto-populated with default values that were defined for the specific property definition being used.  Those predefined values can either be used as they are or can be over written at the time the actual command is created.  To help with classification and deployment, a command definition can also be associated with multiple device categories.     
 
-**Note:** Property Definitions are out of scope for this unit and will be discussed in more detail in the next unit.  
+> [!Note]
+> Property Definitions are out of scope for this unit and will be discussed in more detail in the next unit.  
  
 The image below shows what a message in a command would look like if we used the **“Notification”** command definition shown above to define the message.  The message is displayed in a design window that tells us the **CommandName** is **“Notification”** and the parameters we are sending is the **“Message”** property (this is defined by a property definition), and the message is **“Technician has been dispatched”**. This is the default text defined in the Message Property Definition).  The message text value can be manipulated in the design window to represent any text that we would want to pass through in the message.   
 
