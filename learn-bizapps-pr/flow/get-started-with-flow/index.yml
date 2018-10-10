@@ -15,7 +15,7 @@ summary: Microsoft Flow is an online workflow service that automates events (kno
 abstract: |
     In this module, you will:
     - Create a flow that automatically saves email attachments
-    - Learn also learn how to create a button flow to send yourself a reminder
+    - Learn how to create a button flow to send yourself a reminder
 prerequisites: |
     - Signed up for Microsoft Flow
     - Have a OneDrive for Business account

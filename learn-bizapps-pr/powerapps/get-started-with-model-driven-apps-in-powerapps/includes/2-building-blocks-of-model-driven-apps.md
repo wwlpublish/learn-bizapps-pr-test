@@ -44,7 +44,7 @@ The visualization components determine what type of data and reporting the app w
 |Dashboard                    | Dashboards show one or more graphical visualizations that provide an overview of actionable business data. | Dashboard designer |
 | Embedded Microsoft Power BI | Power BI adds embedded Power BI tiles and dashboards to your app. Power BI is a cloud-based service that provides business intelligence (BI) insight. | A combination of chart designer, dashboard designer, and Power BI |
 
-![Sample dashboard](../media/dashboard-designer.png)
+![Sample dashboard](../media/dashboard-designer2.png)
 
 ## Advanced model-driven apps
 Solution Explorer is used to make advanced model-driven apps. By using the navigation pane on the left side of the tool, you can navigate a hierarchy that consists of all app components.
