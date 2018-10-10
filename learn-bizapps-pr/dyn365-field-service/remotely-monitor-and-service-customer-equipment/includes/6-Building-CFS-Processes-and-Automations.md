@@ -454,7 +454,7 @@ Now that you have created the necessary customizations, workflows, and business 
 
 1.	Save **Customer Asset** and leave the record open.
 1.	On the **Command bar**, select **Register Devices** and then select **OK**.
-1.	In your web browser, select a new tab and navigate to [https://portal.azure.com](Https://Portal.Azure.com"). (Log in to Azure if prompted. You need an Azure subscription associated with the account you are using.)
+1.	In your web browser, select a new tab and navigate to https://portal.azure.com . (Log in to Azure if prompted. You need an Azure subscription associated with the account you are using.)
 1.	Select **Resource Groups** and open your resource group.
 
 	![Resource groups](../media/52-rm-unit6.png)

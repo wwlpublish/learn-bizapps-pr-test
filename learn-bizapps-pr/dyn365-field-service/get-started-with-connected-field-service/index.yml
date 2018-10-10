@@ -11,7 +11,7 @@ metadata:
 title: Get started with Connected Field Service
 summary: This module gets you started with Connected Field Service
 abstract: |
-   In this moudle, you will:
+   In this module, you will:
    - Describe the difference between Azure IoT and Azure IoT Central and how they relate to Connected Field Service
    - Set up an environment with Connected Field Service
    - Identify the key components that comprise the Connected Field Service solution

@@ -10,8 +10,8 @@ The following table defines some of the key record types that are used.
 
 | **Record Type** | **Use** |
 | :-------------- | :--- |
-| **Device category** | Allows for grouping of IoT devices by a specific category. Device categories can be used in conjunction with Command Definitions for easier device management |
-| **Command** | Used to remotely interact with a connected IoT device by passing JSON commands the device. |
+| **Device category** | Allows for grouping of IoT devices by a specific category. Device categories can be used in conjunction with Command Definitions for easier device management. |
+| **Command** | Used to remotely interact with a connected IoT device by passing JSON commands to the device. |
 | **Command definition** | Used to predefine commands to streamline sending them to devices. When creating a Command, a Command Definition can be selected, and any defined properties will be populated. |
 | **Property definition** | Used to define specific properties that can be passed as part of a Command Definition. |
 

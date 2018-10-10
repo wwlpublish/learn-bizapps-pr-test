@@ -67,7 +67,7 @@ It's important that you not do this exercise in your production environment. Alw
 
     ![Deployment status button](../media/13-gs-unit3.png)
 
-4. Wait for the deployment to be finished. The **Deployment Status** section will be updated to show the progress of the deployment.
+4. Wait for the deployment to finish. The **Deployment Status** section will be updated to show the progress of the deployment.
 
     ![Deployment Status section](../media/14-gs-unit3.png)
 
