@@ -1,9 +1,11 @@
-Welcome to Microsoft Flow! In this module, you'll learn how to build two flows:
-
-- A flow that automatically saves email attachments to your Microsoft OneDrive for Business account.
-- A button flow that you create from the Microsoft Flow app to send you a reminder after 10 minutes.
+Welcome to Microsoft Flow! In this module, you'll learn how to build two flows.
 
 If you're a beginner with Microsoft Flow, this module will get you going. If you already have some experience, this module will tie concepts together and fill in the gaps.
+
+## Learning objectives
+In this module, you will:
+   - Create a flow that automatically saves email attachments.
+   - Learn how to create a button flow to send yourself a reminder.
 
 ## What is Microsoft Flow?
 Microsoft Flow is an online workflow service that automates events (known as *workflows*) across the most common apps and services. For example, you can create a flow that adds a lead to Microsoft Dynamics 365 and a record in MailChimp whenever someone with more than 100 followers tweets about your company.

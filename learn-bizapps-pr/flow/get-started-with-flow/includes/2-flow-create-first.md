@@ -22,7 +22,9 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
     ![Save Office 365 email](../media/save-flow-office-description.png)
 
-    Microsoft Flow creates a folder on your OneDrive for Business account and will now automatically put every attachment that's sent to your work email address in that folder.
+1. On the next page, Microsoft Flow creates the flow for you. 
+    - It'll connect  to your work email to get any attachments. 
+    - It will then create a folder on your OneDrive for Business account to automatically put every attachment that's sent to your work email address in that folder.
 
     ![Creation successful](../media/create-successful.png)
 
