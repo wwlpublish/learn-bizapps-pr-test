@@ -11,6 +11,9 @@ In the upper-right corner of the web.powerapps.com home page, you can see your c
 If you're new to Microsoft PowerApps, you might have only the default environment at this point.
 
 - Open the menu to see whether other environments are available.
+ 
+> [!NOTE]
+> People who need to work with PowerApps environments need a PowerApps Plan 2 license or the free PowerApps Plan 2 trial. Additionally, if you want to work with Dynamics 365 restricted entities, you must have PowerApps for Dynamics 365 license. Learn more about [licenses for Dynamics 365](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fadministrator%2Fpricing-billing-skus%23licenses&data=02%7C01%7Cv-tosis%40microsoft.com%7C3bb58d639d8745c27ff908d62d4c1062%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636746202048937165&sdata=8rDKLL4XBkwCLOrpZe0F2MlTmkfhAmukrV3bn4a34NU%3D&reserved=0).
 
 ## Why use environments?
 There are several reasons to create environments beyond the default one:
@@ -33,6 +36,9 @@ Only an admin can create environments. If you aren't an admin, this information 
 2. In the PowerApps admin center, select **New environment**. 
 3. In the **New environment** dialog box, enter a name for the environment, and then select a region and an environment type.
 4. Select **Create environment**.
+1. Select the currency and language for the data stored in the database. You cannot change the currency or language once the database is created. 
+1. Select **Create database**.
+    It may take several minutes to create the database on the Common Data Service. Once the database is created, the new environment appears in the list of environments on the **Environments** page.
 
 That's it. You now have a new environment to work in. If you go back to web.powerapps.com, you'll see it in the environments list.
 

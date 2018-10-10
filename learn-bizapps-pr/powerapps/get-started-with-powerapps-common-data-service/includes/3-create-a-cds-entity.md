@@ -12,9 +12,6 @@ The tutorial follows the Contoso company, which is a pet grooming business that 
 
 1. In the left navigation pane, expand **Data**, select **Entities**, and then select **New entity**.
 
-    > [!div class="mx-imgBorder"]
-    > ![New entity](../media/create-new-entity.png)
-
 2. Enter the following values:
 
     - **Display name**: *Pet*
@@ -31,7 +28,6 @@ The tutorial follows the Contoso company, which is a pet grooming business that 
     - Change the **Display name** value from *Pet* to *Pet Name*.
     - Select **Searchable**.
 
-    > [!div class="mx-imgBorder"]
     > ![Change primary field](../media/primary-field.png)
 
 3. Select **Done**.

@@ -198,7 +198,7 @@ Tasks to complete for this scenario:
 1. For **Customer**, enter *Coho Consulting*.
 1. For **Contact**, enter *Wendy Smith*.
 1. For **Origin**, enter *Phone*.
-1. For **Service Level**, enter *Gold*.
+1. In the **CONTRACT** section, for **Service Level**, enter *Gold*.
 1. Select **Save**.
 
 **Route the case to the Gold queue**

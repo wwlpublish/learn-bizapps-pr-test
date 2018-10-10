@@ -5,7 +5,7 @@ Every entity has required fields that must exist in your input file. We recommen
 ## Create a file template
 You can do a one-time data export from a standard entity or a custom entity, and you can export data from more than one entity at a time. If you export data from more than one entity, each entity is exported into its own Microsoft CSV file. In this example, you'll create templates for both the **Pet** and **Account** entities.
 
-1. On [powerapps.com](https://web.powerapps.com/), in the **Entities** list, select **Export data**.
+1. On [powerapps.com](https://web.powerapps.com/), in the **Entities** list, select the **More commands** icon (** ... **) on the right, and then select **Export data**.
 1. Select the **Account** and **Pet** entities, and then select **Export data**.
 1. After the export is finished, select **Download exported data**, and save the files.
 
@@ -22,7 +22,7 @@ When you add data to a template file, you must make sure the data is unique. You
 1. Select the file that you created.
 1. After the file is uploaded, and the **Mapping status** field indicates that mapping was successful, select **Import** in the upper-right corner.
 
-    > [!div class="mx-imgBorder"]
-    > ![Example of a Mapping status field and Import button for a successful upload](../media/success-map-imp.png)
+   
+    ![Example of a Mapping status field and Import button for a successful upload](../media/success-map-imp.png)
 
 1. After the import is successful, you'll see the total number of inserts and updates.
