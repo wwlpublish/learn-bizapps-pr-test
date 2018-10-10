@@ -14,7 +14,7 @@ durationInMinutes: 4
 quiz: 
   title: "Knowledge check: Create a flow" 
   questions: 
-  - content: Where can you create a flow? 
+  - content: Where can you start a flow? 
     choices:  
     - content: Only on the Microsoft Flow website.
       incorrectExplanation: The Microsoft Flow website is only one place where you start a flow. You can also start a flow on the mobile app.

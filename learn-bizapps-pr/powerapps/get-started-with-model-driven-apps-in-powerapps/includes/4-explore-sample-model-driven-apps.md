@@ -8,7 +8,7 @@ For more details, be sure to check out the documentation that's specific to each
 
 Before you can play around with or edit the model-driven sample apps, you must set them up in a Common Data Service database. First, create a trial environment and database, and be sure to select the **Include sample apps and data** check box.
 
-![Create a database](../media/create-database1.png)
+![Create a database](../media/create-database2.png)
 
 > [!IMPORTANT]
 > By selecting this check box, you install all available sample apps in your database. Sample apps are for educational and demonstration purposes. We don't recommend installing them in production databases.
@@ -66,5 +66,3 @@ You can also go to the list of solutions by selecting **Advanced** in the maker 
 
 1. Go to **Settings \> Data Management \> Sample Data**.
 1. If sample data is installed, the option to remove it is available. Otherwise, the option to install sample data is available.
-
-    ![Remove sample data](../media/remove-sample-data.png)
