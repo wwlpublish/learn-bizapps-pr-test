@@ -18,7 +18,7 @@ abstract: |
    -Use commands to interact with IoT devices
 prerequisites: Microsoft Dynamics 365 instance with Microsoft Dynamics 365 Field Service deployed, Connected Field Service deployed, and Azure IoT Hub setup and deployed to complete the lab exercises. 
 #TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/register-and-manage-customer-devices-with-connected-field-service.svg
 levels: 
 - intermediate
 roles: 
@@ -35,4 +35,4 @@ units:
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.6-populating-and-sending-commands
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.7-knowledge-check
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.8-summary-and-cleanup
-achievement: learn.customer-service-cases.badge
+achievement: learn.register-and-manage-customer-devices-with-connected-field-service.badge

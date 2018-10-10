@@ -18,7 +18,7 @@ abstract: |
    - Describe the flow of data from an IoT device to Dynamics 365 for Field Service
 prerequisites: None
 #TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/get-started-with-connected-field-service.svg
 levels: 
 - intermediate
 roles: 
@@ -34,4 +34,4 @@ units:
 - learn-bizapps.get-started-with-connected-field-service.5-register-a-device
 - learn-bizapps.get-started-with-connected-field-service.6-knowledge-check
 - learn-bizapps.get-started-with-connected-field-service.7-summary-clean-up
-achievement: learn.customer-service-cases.badge
+achievement: learn.get-started-with-connected-field-service.badge
