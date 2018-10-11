@@ -11,13 +11,12 @@ metadata:
 title: Identify Exceptions with Connected Field Service
 summary: This module will focus on the proactive detection of anomalies in the IoT device telemetry.  Additionally, this module will cover the customization of the Connected Field Service components to handle different telemetry from the device and options for storing detail data for future analysis.
 abstract: |
-   In this module, you will:
-   - Describe the architectural extension points for exception detection and action
-   - Connect a device to generate telemetry
-   - Implement anomaly detection on the telemetry stream
-   - Distinguish options for storing detail telemetry for later usage
+    In this module, you will:
+    - Describe the architectural extension points for exception detection and action
+    - Connect a device to generate telemetry
+    - Implement anomaly detection on the telemetry stream
+    - Distinguish options for storing detail telemetry for later usage
 prerequisites: MXChip IoT DevKit to complete the lab exercise. 
-#TODO: Update with real image.
 iconUrl: /learn/achievements/identify-exceptions-with-connected-field-service.svg
 levels: 
 - intermediate

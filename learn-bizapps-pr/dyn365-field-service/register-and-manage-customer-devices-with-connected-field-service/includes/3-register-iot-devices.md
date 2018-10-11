@@ -76,6 +76,7 @@ This will display the device twin JSON document for this device.
 14. Click the Simulator URL to open the Thermostat Simulator. (The simulator should open in a new tab)
 
 ![Simulator Window with URL](../media/7-rg-unit3.png)
+
 15. On the simulator click Connection.
 ![Simulator Connection Window](../media/8-rg-unit3.png)
 16. Switch back to your Azure subscription, close the simulator App Service screen.
@@ -92,15 +93,21 @@ This will display the device twin JSON document for this device.
 ![Shared Access Policies](../media/14-rg-unit3.png)
 22. Switch back to your simulator screen and paste the Primary Key into the Key field. 
 ![Primary Key](../media/15-rg-unit3.png)
+
 23. Click the Connect button. (Your simulator is now connected to your Azure IoT Hub) 
-24. Click the Refresh button to ensure all registered devices are available.
-25. From the Select a device dropdown, select the smt-9876 device. (A green dot should appear next to the refresh button, and after a few seconds it should start transmitting information.) 
-![device drop down](../media/17-rg-unit3.png)
-26. On the Temperature Slider, set it to 75 Degrees and wait for the temperature status to register on in the Messages Sent window. 
+
+1. Click the Refresh button to ensure all registered devices are available.
+
+1. From the Select a device dropdown, select the smt-9876 device. (A green dot should appear next to the refresh button, and after a few seconds it should start transmitting information.) 
+![device drop down](../media/16-rg-unit3.png)
+1. On the Temperature Slider, set it to 75 Degrees and wait for the temperature status to register on in the Messages Sent window. 
 ![Temperature Slider](../media/17-rg-unit3.png)
-27. Switch to the browser tab that has Dynamics 365 loaded. 
-28. Select the Site Map Icon to expand navigation, select IoT Alerts. 
-29. Verify that an alert was created.  (Example: Temperature of 75 exceeded a threshold of 70 Alert.) 
+1. Switch to the browser tab that has Dynamics 365 loaded.
+
+1. Select the Site Map Icon to expand navigation, select IoT Alerts. 
+
+1. Verify that an alert was created.  (Example: Temperature of 75 exceeded a threshold of 70 Alert.) 
+
 
 From here we could begin to interact with the device using commands.  We will examine this in greater detail in Unit 6.  
 
@@ -117,10 +124,13 @@ From here we could begin to interact with the device using commands.  We will ex
 6. Right Click on the devicerules.json file and select View/Edit blob.
 7. Locate the Temperature property and change the value from 70 to 21.11111 (This is what 70 degrees would be in Celsius)
 ![Edit Blob Window](../media/21-rg-unit3.png)
-8. Click Save.   
-9. Switch back to your Simulator and ensure the smt-9876 device is selected. 
-10. Change the value to something over 21.11111 and wait for the reading to register.   
-11. Switch back to Dynamics 365 Connected Field Service and verify that an Alert record was created.   
+8. Click Save. 
+
+1. Switch back to your Simulator and ensure the smt-9876 device is selected. 
+
+1. Change the value to something over 21.11111 and wait for the reading to register. 
+
+1. Switch back to Dynamics 365 Connected Field Service and verify that an Alert record was created.   
 
 **Task 3: Modify device rules back to Fahrenheit.** 
 
@@ -153,10 +163,15 @@ If you do not have an MXChip IoT DevKit, you can visit http://aka.ms/iot-devkit/
 8. Select Resource Groups
 
 ![Resource Group](../media/24-rg-unit3.png)
+
 9. Open the IoT Hub that you are using with your Connected Field Service installation. 
-10. Click on IoT devices. All currently registered devices with the IoT hub will appear.   
-11. Select the AZ3166 device to open it.   
-12. Locate the device’s Connection String – (Primary Key) and copy it to an application like notepad.   (We will use it again later.) 
+
+1. Click on IoT devices. All currently registered devices with the IoT hub will appear.   
+
+1. Select the AZ3166 device to open it.  
+
+1. Locate the device’s Connection String – (Primary Key) and copy it to an application like notepad.   (We will use it again later.) 
+
 ![Device Id Window](../media/25-rg-unit3.png)
 
 **Task 2: Register a Physical Device.** 
@@ -180,6 +195,7 @@ After the device reboots, you need to configure the Wi-Fi on the device.
 5. Your DevKit enters AP mode for configuring Wi-Fi. The screen displays the service set identifier(SSID) of the DevKit and the configuration portal IP address: 
   
 ![IOT DevKit Location](../media/26-rg-unit3.png)
+
 If your Wi-Fi SSID starts with AZ and not AZ3166 after applying the firmware, you need to follow the following steps to make sure the firmware gets applied correctly. 
  
 ![Bad Window](../media/27-rg-unit3.jpg)

@@ -1,7 +1,7 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.connected-field-service
 metadata:
-  title: Working with connected Field Service and IoT
+  title: Working with Connected Field Service and IoT
   description: This learning path introduces you to connected Field Service and IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
@@ -10,7 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-connected-field-service
   #ms.learn-contact: dbeasley
-title: Working with connected Field Service and IoT
+title: Working with Connected Field Service and IoT
 summary: This learning path introduces you to connected Field Service and IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
 #TODO: Add link to how to get a trial subscription.
 prerequisites: |
