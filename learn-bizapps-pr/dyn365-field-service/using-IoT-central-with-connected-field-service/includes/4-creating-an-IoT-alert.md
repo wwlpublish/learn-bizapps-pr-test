@@ -35,7 +35,7 @@ In this task, you'll create a flow that will register a device.
 
 9. In the **Organization Name** field, select *Default*.
 10. In the **Entity Name** field, select *Customer Assets*.
-11. Select **New step**.
+11. Select **+New step**.
 
     ![New step button](../media/8-ic-unit4.png)
 
@@ -63,7 +63,7 @@ In this task, you'll create a flow that will register a device.
     ![Name](../media/13-ic-unit4.png)
 
 20. In the **Device Simulated** field, select *Yes*.
-21. Select **New step**, and then select **Add an action**.
+21. Select **+New step**, and then select **Add an action**.
 
     ![Add an action](../media/14-ic-unit4.png)
 
@@ -85,7 +85,7 @@ In this task, you'll create a flow that will register a device.
 
     ![Device ID](../media/18-ic-unit4.png)
 
-28. Select **New step**, and then select **Add an action**.
+28. Select **+New step**, and then select **Add an action**.
 
     ![Add an action](../media/19-ic-unit4.png)
 
@@ -201,7 +201,7 @@ In this exercise, you'll create an IoT Alert for the trash container pickup requ
 
 14. In the **Application** field, select *Smart Trash Can*.
 15. In the **Rule** field, select *Pickup Requested*.
-16. Select **New step**.
+16. Select **+New step**.
 
     ![New step button](../media/44-ic-unit4.png)
 
@@ -213,7 +213,7 @@ In this exercise, you'll create an IoT Alert for the trash container pickup requ
 
     ![Common Data Service - List records](../media/46-ic-unit4.png)
 
-19. In the **Organization Name** field, slect *Default*.
+19. In the **Organization Name** field, select *Default*.
 20. In the **Entity Name** field, select *Customer Assets*.
 21. Select **Show advanced options**.
 
