@@ -15,7 +15,7 @@ After you finish this exercise, you'll be able to do the following:
 #### Task 1: Create and register the device
 In this task, you'll create and register a new customer asset.
 
-1. Go to the Connected Field Service hub.
+1. Go to the Connected Field Resource Service hub.
 
     ![Field Resource Hub](../media/1-ie-unit2.png)
 

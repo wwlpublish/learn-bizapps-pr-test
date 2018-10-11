@@ -157,3 +157,5 @@ In this exercise, you'll change the Stream Analytics job to accommodate the diff
     ![List of documents](../media/25-ie-unit4.png)
 
     You should now see sensor data from your device.
+
+    ![List of documents](../media/26-ie-unit4.png)
