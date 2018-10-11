@@ -6,11 +6,10 @@ Additionally, in the IoT Hub there is a corresponding Device Twin.  A Device Twi
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2DQPs]
 
-Below you can see snippet of what a Device Twin JSON document looks like. 
+Below you can see a snippet of what a Device Twin JSON document looks like. 
 ![Device Twin JSON](../media/2-rg-unit2.png)
 
-From a Dynamics 365 standpoint, the Connected Field Service solution leverages device twins to store device-related in two primary ways: 
-Synchronize Device Conditions and Properties: Report operating conditions such as a device state, heartbeat for connectivity speed, machine vibration, and so on.  Leverage this information to gain visibility into device conditions and properties on a graphical dashboard.  
+From a Dynamics 365 standpoint, the Connected Field Service solution leverages device twins to store device-related information in two primary ways - Synchronize Device Conditions and Properties.  Both provide information such as reporting operating conditions such as a device state, heartbeat for connectivity speed, machine vibration, and so on.  This information provides visibility into device conditions and properties on a graphical dashboard.  
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2DQPq]
 > 
@@ -33,7 +32,9 @@ The image below shows at a high level how these components are used.
  
 **Tags:** 
 A tag does not communicate with the actual device, rather they can be set and read by a back-end application (in this case Connected Field Service) as a way of grouping or organizing devices together.  Device tags can be defined directly on the IoT Device record in Connected Field Service.   
-Note:  Setting and defining Properties and Tags will be covered in more detail in the Property Definition Unit.     
+
+ >[!Note]
+ > Setting and defining Properties and Tags will be covered in more detail in the Property Definition Unit.     
 
 For example:  You might use Tags to define the specific location of an IoT Device.  If the device is moved from one location to another, we can update the location in Connected Field Service, and the tag will be updated accordingly.   
 
@@ -48,7 +49,7 @@ We can set those desired properties for that Device on the device’s record in 
 ![Device Settings in CFS](../media/5-rg-unit2.png)
  
 **Reported Properties:** 
-Reported Properties work hand and hand with Reported Properties.  A reported property would be set by the device and Connected Field Service can read and query them.  Unlike Tags and Desired Properties, Reported Properties are not defined in Connected Field Service.  They can be retrieved when Device Data is pulled down into the application.   
+Reported Properties work hand in hand with Desired Properties.  A reported property would be set by the device and Connected Field Service can read and query them.  Unlike Tags and Desired Properties, Reported Properties are not defined in Connected Field Service.  They can be retrieved when Device Data is pulled down into the application.   
 
 For example:  After the Wi-Fi network and transmitting channel properties are set on a device we can pull the device data (manually or on a schedule) and the current reported properties will be displayed in Connected Field Service.  This could be used to determine next steps in the application.   
  
@@ -57,7 +58,7 @@ The Connected field service solution make it easy to define Device Tags and Desi
 ![Device Status](../media/6-rg-unit2.png) 
  
 **Device Categories:**
-Device Categories make it easier to group devices together based on commonalities.  You may create a Device Category to a specific type of device (Ex. Temperature)that is being deployed.  When a Device Category is created in Connected Field Service, you can define the specific Device Properties and Device Tags that are relevant to that device category.  
+Device Categories make it easier to group devices together based on commonalities.  You may create a Device Category to a specific type of device (Ex. Temperature) that is being deployed.  When a Device Category is created in Connected Field Service, you can define the specific Device Properties and Device Tags that are relevant to that device category.  
 
 ![Device Properties](../media/7-rg-unit2.png)
  

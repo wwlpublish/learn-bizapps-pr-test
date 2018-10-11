@@ -13,7 +13,7 @@ During this lab, you will work in a simulated environment with the following com
 
 Dynamics 365’s Connected Field Service solution provides the ability to register both simulated and physical IoT devices with Azure IoT Hub or IoT Central and using device twin, communicate information back into the Connected Field Service solution.   
  
-The purpose of this hands-on-lab is to introduce you to how simulated and physical devices can be registered with and Azure IoT Hub and associated with customer assets in Connected Field Service.   
+The purpose of this hands-on-lab is to introduce you to how simulated and physical devices can be registered with an Azure IoT Hub and associated with customer assets in Connected Field Service.   
  
 **Learning Objectives**
 
@@ -30,7 +30,7 @@ You work for a company that sells and services smart home devices.  Since many o
 - The severity of the issue detected 
 - The age of the device 
 - The location of the device 
-- The availability of resources to work on a specific device. 
+- The availability of resources to work on a specific device
 
 The above items represent only a small portion of factors that your organization uses to determine the process for servicing equipment.   
  
@@ -53,14 +53,14 @@ The first critical component in your company moving to a connected IoT solution 
 
 5. Save the Customer Asset and leave the record open 
 6. On the Command bar, select Register Devices and click OK. 
-7. In your web browser select a new tab and navigate to [https://Portal.Azure.com](Https://Portal.Azure.com") (Log into Azure if prompted. You need an Azure subscription associated with the account you are using) 
+7. In your web browser select a new tab and navigate to https://portal.azure.com (Log into Azure if prompted. You need an Azure subscription associated with the account you are using) 
 8. Select Resource Groups
 
 ![Resource Groups](../media/3-rg-unit3.png)
 
 9. Open the IoT Hub that you are using with your Connected Field Service installation. 
 10. Click on IoT devices. All currently registered devices with the IoT hub will appear. 
-11. Select the smt-9876 device to open it.  (Notice the Device ID, Primary & Secondary Keys, and the Primary and Secondary Connection strings. These can be beneficial when you are working with physical devices.) 
+11. Select the smt-9876 device to open it.  (Notice the Device ID, Primary and Secondary Keys, and the Primary and Secondary Connection strings. These can be beneficial when you are working with physical devices.) 
 12. Click on Device Twin.
 
 ![Device Details, Device Twin](../media/4-rg-unit3.png)
@@ -109,7 +109,7 @@ This will display the device twin JSON document for this device.
 1. Verify that an alert was created.  (Example: Temperature of 75 exceeded a threshold of 70 Alert.) 
 
 
-From here we could begin to interact with the device using commands.  We will examine this in greater detail in Unit 6.  
+From here we could begin to interact with the device using commands.  We will examine this in greater detail in  a later unit.  
 
 **Task 2: Modify device rules to change to Celsius**  
 
@@ -119,12 +119,14 @@ From here we could begin to interact with the device using commands.  We will ex
 3. Under Blob Service, click Blobs.
 ![Blob Service Window](../media/19-rg-unit3.png)
 4. Select device rules and click on the 2016-05-30 folder. 
-![Device Rules Drop Down](../media/20-rg-unit3.png)
+
 5. Open the 22-40 folder. 
 6. Right Click on the devicerules.json file and select View/Edit blob.
-7. Locate the Temperature property and change the value from 70 to 21.11111 (This is what 70 degrees would be in Celsius)
+![Device Rules Drop Down](../media/20-rg-unit3.png)
+
+8. Locate the Temperature property and change the value from 70 to 21.11111 (This is what 70 degrees would be in Celsius)
 ![Edit Blob Window](../media/21-rg-unit3.png)
-8. Click Save. 
+1. Click Save. 
 
 1. Switch back to your Simulator and ensure the smt-9876 device is selected. 
 
@@ -134,7 +136,7 @@ From here we could begin to interact with the device using commands.  We will ex
 
 **Task 3: Modify device rules back to Fahrenheit.** 
 
-> IMPORTANT:  Unit 6 in this module will be using a simulated device to interact with Connected Field Service.  The changes to make it Celsius will not work with this exercise.  It is important that in the Blob, you modify the Temperature the back to 70 to ensure that the simulator will register Fahrenheit and work accordingly.   
+> IMPORTANT:  In another unit in this module will be using a simulated device to interact with Connected Field Service.  The changes to make it Celsius will not work with this exercise.  It is important that in the Blob, you modify the Temperature the back to 70 to ensure that the simulator will register Fahrenheit and work accordingly.   
 >  
 **Exercise 2: Register a physical device (Optional)** 
  
@@ -155,11 +157,12 @@ If you do not have an MXChip IoT DevKit, you can visit http://aka.ms/iot-devkit/
     - Name: MXChip 
     - Account: Adventure Works (Sample) 
     - Device ID: AZ3166 
+
 ![Customer Asset Configuration](../media/23-rg-unit3.png)
 
 5. Save the Customer Asset and leave the record open 
 6. One the Command bar, select Register Devices and click OK. 
-7. In your web browser select a new tab and navigate to Https://Portal.Azure.com (Log into Azure if prompted. You need an Azure subscription associated with the account you are using) 
+7. In your web browser select a new tab and navigate to https://portal.azure.com (Log into Azure if prompted. You need an Azure subscription associated with the account you are using) 
 8. Select Resource Groups
 
 ![Resource Group](../media/24-rg-unit3.png)
@@ -188,6 +191,7 @@ In Windows, a file explorer window opens on a drive mapped to the storage on the
 3. Drag the AZ3166-IoT-Central-X.X.X.bin file onto the drive window. When the copying is complete, the device will reboot with the new firmware. 
  
 **Configure Wi-Fi**
+
 After the device reboots, you need to configure the Wi-Fi on the device.  
  
 4. Hold down button B, push and release the reset button, and then release button B.  
@@ -216,26 +220,30 @@ Good – Firmware Applied Correctly
 
 If the SSID still shows AZ-XXXXXXXXXX, please refer to:  https://microsoft.github.io/azure-iot-developer-kit/docs/use-configuration-mode/ and use SSH to update the IoT Hub Connection String. 
  
-6. On another Wi-Fi enabled device (like a computer or mobile phone) connect to the DevKit SSID (ex.AZ3166_SRSCAQ).  
-- Leave the Password Empty.   
-7. Open a web browser on connected device and put navigate to:  http://192.168.0.1/start 
-8. Select the Wi-Fi network you want to join and enter the Wi-Fi credentials. 
+6. On another Wi-Fi enabled device (like a computer or mobile phone) connect to the DevKit SSID (ex.AZ3166_SRSCAQ). Leave the Password Empty.
+
+1. Open a web browser on connected device and put navigate to:  http://192.168.0.1/start 
+2. Select the Wi-Fi network you want to join and enter the Wi-Fi credentials. 
 ![Wi-Fi credentials Window](../media/29-rg-unit3.png)
-9. In the Device Connection String, paste the connection string, you copied to Notepad earlier.
+1. In the Device Connection String, paste the connection string, you copied to Notepad earlier.
 ![Device Connection](../media/30-rg-unit3.png)
-10. Select all the telemetry options. 
-11. Click Configure Device 
-12. Reset device using Reset Button 
-13. Your physical device is now configured to connect with Azure IoT Hub. 
-14. Navigate back to your Azure Management Portal, click on Resource Groups, select the Resource Group that contains all your Connected Field Service components.   
-15. From within the Components Listing, sort on the Type column.  Click on it twice so that is sorts descending and that the Stream Analytics job is at the top. 
+1. Select all the telemetry options. 
+2. Click Configure Device 
+3. Reset device using Reset Button 
+4. Your physical device is now configured to connect with Azure IoT Hub. 
+5. Navigate back to your Azure Management Portal, click on Resource Groups, select the Resource Group that contains all your Connected Field Service components.  
+
+1. From within the Components Listing, sort on the Type column.  Click on it twice so that is sorts descending and that the Stream Analytics job is at the top. 
 ![Components Listing](../media/31-rg-unit3.png)  
-16. Click the Stop Button to disable the job.  This allows us to modify the query.  It can take several minutes to stop. Once it is stopped, it will show under the Notifications area.
-![Query Selection](../media/32-rg-unit3.png)  
-17. On the query section, select Edit Query.  
+
+1. Click the Stop Button to disable the job.  This allows us to modify the query.  It can take several minutes to stop. Once it is stopped, it will show under the Notifications area.
+![Query Selection](../media/32-rg-unit3.png) 
+ 
+1. On the query section, select Edit Query.  
 ![Edit Query](../media/33-rg-unit3.png) 
-18. This query does not include necessary information for the device we are working with, so we will replace it.  Highlight all information in the query window and delete it.  
-19. Next, paste the code below into the window.
+
+1. This query does not include necessary information for the device we are working with, so we will replace it.  Highlight all information in the query window and delete it.  
+2. Next, paste the code below into the window.
 
 ```json
 ...
@@ -288,7 +296,7 @@ WITH AlertData AS
 21. Close out the query window.  This will return you to the properties of the Stream Analytics job. 
 22. Along the top click the Start button.  The job will take a minute or two to start.  Once it is started, it will show under the Notifications area. 
 
-**Task 3: Modify Device Alert settings and Stream Analytics to use the Simulator.**
+**Task 3: Modify Device Alert settings and Stream Analytics to use the Simulator**
 >  
 > IMPORTANT:  Unit 6 in this module will be using a simulated device to interact with Connected Field Service.  The changes we made to the device alert settings and the Stream Analytics will not work with this exercise.  It is important that you modify those settings back to their original values.   
  
