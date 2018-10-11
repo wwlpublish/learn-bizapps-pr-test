@@ -96,9 +96,9 @@ The two commands they want to pre-define are:
     - Editable: Yes
     - Visible: Yes
     - Additional Properties:
-    - MinValue: 1
-    - MaxValue: 100
-    - Default: 40
+       - MinValue: 1
+       - MaxValue: 100
+       - Default: 40
 
 ![Humidity property definition](../media/9-rg-unit6.png)
 
@@ -116,23 +116,41 @@ The two commands they want to pre-define are:
     - Name: Notification 
 
 ![IOT Device Command Definitions](../media/12-rg-unit6.png)
+
 4.	Save the Notification command definition and leave it open. This will also enable the Property Definition sub-grid.
+
 5.	Click the Device Categories that Support this Command tab.
+
 6.	Click Add Existing IoT Device Category.
+
 ![Add Existing IoT Device](../media/13-rg-unit6.png)
+
 7.	In the lookup records, select both the temperature and humidity categories.  
+
 ![Lookup Records](../media/14-rg-unit6.png)
+
 8.	Click Add
+
 9.	Click the General tab. 
+
 10.	In the Parameters for this Command sub-grid, select Add Existing IoT Property Definition.
+
 ![Parameters for this Command](../media/15-rg-unit6.png)
+
 11.	Select Message, click Add.
+
 ![Messages Window](../media/16-rg-unit6.png)
+
 12.	Your completed Notification command definition should resemble the image below:
+
 ![Notification, Command Definitions](../media/17-rg-unit6.png)
+
 13.	From the Navigation bar at the top, select Command Definitions.
+
 14.	Click the New button.
+
 ![Navigation, Command Definitions](../media/18-rg-unit6.png)
+
 15.	Configure your command definition as follows:
 - Name: Set Values 
 ![Name Command Definition](../media/19-rg-unit6.png)
@@ -149,6 +167,7 @@ The two commands they want to pre-define are:
 24.	Your completed Set Values command definition should resemble the image below:
 ![Set Values](../media/22-rg-unit6.png)
 
+
 ### Exercise 2: Using Definitions to Populate Commands 
 
 #### Task 1: Attach to Simulator (Optional) 
@@ -156,32 +175,55 @@ The two commands they want to pre-define are:
 Note: If you already have the simulator open from the Register IoT Devices exercise in this module, you can skip straight to Task 2.  Otherwise follow the steps below to attach to the simulator.  
 
 1.	In your web browser select a new tab and navigate to https://portal.azure.com. Log into Azure if prompted. You need an Azure subscription associated with the account you are using.
+
 2.	Select Resource Groups
+
 ![Resource Groups](../media/23-rg-unit6.png)
+
 3.	Open the IoT Hub that you are using with Connected Field Service, and select the Simulator
+
 ![Simulator](../media/24-rg-unit6.png)
+
 4. Click the Simulator URL to open the thermostat simulator. The simulator should open in a new tab.
+
 ![Simulator URL](../media/25-rg-unit6.png)
+
 5.	On the simulator click Connection.
+
 ![Simulator Connections](../media/26-rg-unit6.png)
+
 6.	Switch back to your Azure subscription, close the simulator app service screen.
+
 ![close Simulator Connections](../media/27-rg-unit6.png)
+
 7.	Open the IoT Hub.
+
 ![IOT Hub Name](../media/28-rg-unit6.png)
+
 8.	Highlight the IoT Hub name and Copy it. 
+
 ![IOT Hub Name Copy](../media/29-rg-unit6.png) 
+
 9.	Switch back to your simulator screen and paste the IoT hub name into the Host field.
+
 ![IOT Hub Name](../media/30-rg-unit6.png)
+
 10.	Switch back to your Azure subscription, select Shared Access Policies.
+
 ![Shared Access Policies](../media/31-rg-unit6.png)
+
 11.	Open the iothubowner policy and copy the Primary key.
+
 ![Shared access keys](../media/32-rg-unit6.png)
+
 12.	Switch back to your simulator screen and paste the Primary Key into the Key field. 
+
 ![Hub Connection Key](../media/33-rg-unit6.png)
+
 13.	Click the Connect button. Your Simulator is connected and ready to use.
 
 
-## Task 2: Use Simulator to Generate and Interact with Alerts  
+#### Task 2: Use Simulator to Generate and Interact with Alerts  
 
 1.	With the simulator open, click the Refresh button to ensure all registered devices are available.
 2.	From the Select a device drop down, select the smt-9876 device. A green dot should appear next to the refresh button, and after a few seconds it should start transmitting information.
