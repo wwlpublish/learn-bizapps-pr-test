@@ -8,9 +8,9 @@ The business process flow is associated with the IoT alert entity and leverages 
 
 **Based on this value, we can:**
 
-- *Send a reset command directly to the device if the temp reading is between 70 and 85 degrees.*
-- *Branch into our standard resolution process that first creates the case, then generates a work order, dispatches the work order, and finally has the technician servicing the work order when the temp reading is between 86 and 100 Degrees.*
-- *Skip the case stages completely and go directly to the Work Order creation stage if the temp reading is above 100 Degrees.* 
+- Send a reset command directly to the device if the temp reading is between 70 and 85 degrees.
+- Branch into our standard resolution process that first creates the case, then generates a work order, dispatches the work order, and finally has the technician servicing the work order when the temp reading is between 86 and 100 Degrees.
+- Skip the case stages completely and go directly to the Work Order creation stage if the temp reading is above 100 Degrees.
 
 By leveraging workflow automation in conjunction with business process flows, this concept could be taken one step further, and instead it could execute a different business process flow based on the alert.   
    

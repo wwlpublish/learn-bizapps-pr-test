@@ -25,7 +25,7 @@ The data in the Alert Data field is in the JSON format. The text below represent
 ...
 ``` 
 
-Generally, you cannot directly use the contents of the Alert Data field because you might be looking to query based on one of the properties, not all of them. You must first parse out the relevant parameters that you want to work with, so you can use those to drive query on and drive next steps.    
+Generally, you cannot directly use the contents of the Alert Data field because you might be looking to query based on one of the properties, not all of them. You must first parse out the relevant parameters that you want to work with, so you can use those to query on and drive next steps.    
 
 If we were to parse out the JSON string above, we can see that it is communicating the following:
 

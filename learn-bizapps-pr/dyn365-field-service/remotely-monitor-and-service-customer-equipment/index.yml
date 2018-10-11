@@ -18,7 +18,7 @@ abstract: |
    - Create automated processes for servicing equipment
 prerequisites: Microsoft Dynamics 365 instance with Microsoft Dynamics 365 Field Service deployed, Connected Field Service deployed, and Azure IoT Hub setup and deployed to complete the lab exercises.
 #TODO: Update with real image.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/remotely-monitor-and-service-customer-equipment.svg
 levels: 
 - intermediate
 roles: 
@@ -35,4 +35,4 @@ units:
 - learn-bizapps.remotely-monitor-and-service-customer-equipment.6-building-cfs-processes-and-automations
 - learn-bizapps.remotely-monitor-and-service-customer-equipment.7-knowledge-check
 - learn-bizapps.remotely-monitor-and-service-customer-equipment.8-summary-and-clean-up
-achievement: learn.customer-service-cases.badge
+achievement: learn.remotely-monitor-and-service-customer-equipment.badge
