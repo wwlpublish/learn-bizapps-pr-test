@@ -12,14 +12,14 @@ title: Register and Manage Customer Devices with Connected Field Service
 summary: This module will focus on IoT Device registration and monitoring using the Connected Field Service solution including device registration (physical and non-physical), working with device twins, and streamlining device management and interactions.
 abstract: |
     In this module, you will:
-    -Differentiate IoT devices (physical and non-physical)
-    -Register and categorize IoT devices in Connected Field Service
-    -Use command and property definitions to simplify device management
-    -Use commands to interact with IoT devices
+    - Differentiate IoT devices (physical and non-physical)
+    - Register and categorize IoT devices in Connected Field Service
+    - Use command and property definitions to simplify device management
+    - Use commands to interact with IoT devices
 prerequisites: |
-  -Microsoft Dynamics 365 instance with Microsoft Dynamics 365 Field Service deployed
-  -Connected Field Service deployed
-  -Azure IoT Hub setup and deployed to complete the lab exercises. 
+  - Microsoft Dynamics 365 instance with Microsoft Dynamics 365 Field Service deployed
+  - Connected Field Service deployed
+  - Azure IoT Hub setup and deployed to complete the lab exercises. 
 #TODO: Update with real image.
 iconUrl: /learn/achievements/register-and-manage-customer-devices-with-connected-field-service.svg
 levels: 
