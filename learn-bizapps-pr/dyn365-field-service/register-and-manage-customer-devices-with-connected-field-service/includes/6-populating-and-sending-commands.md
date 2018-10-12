@@ -152,7 +152,7 @@ The two commands they want to pre-define are:
 ![Navigation, Command Definitions](../media/18-rg-unit6.png)
 
 15.	Configure your command definition as follows:
-- Name: Set Values 
+	- Name: Set Values 
 ![Name Command Definition](../media/19-rg-unit6.png)
 16.	Save the Set Values command definition and leave it open.
 17.	Click the Device Categories that Support this Command tab.
@@ -367,7 +367,7 @@ Note: If you already have the simulator open from the Register IoT Devices exerc
 9.	Select the condition and configure as follows:
     - IoT Alert – Reading – Is Greater Than or Equal To – 71
     - IoT Alert – Reading – Is Less Than or Equal To - 85
-    - 
+    
 ![Alert List](../media/56-rg-unit6.png)
 
 10.	Click Save and Close

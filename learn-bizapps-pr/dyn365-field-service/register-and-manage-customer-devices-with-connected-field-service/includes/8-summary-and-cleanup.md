@@ -57,9 +57,23 @@ If you are done, and ready to cleanup all you need to do is simply delete the re
 - Select the Resource Group to open the detail page 
 - After confirming it is the right Resource Group, select all the items in the group and click Delete 
  
-**Via the Azure Shell** 
+**Via Cloud Shell**
 
-- Navigate to [https://shell.azure.com ](https://shell.azure.com )
-- List your accounts using command az account list 
-- Select your account using command: az account set -s “My Account Name” 
-- Delete the resource group using command: az group delete -n “Your Resource Group Name” 
+1. Go to [https://shell.azure.com](https://shell.azure.com "Azure Shell").
+2. List your accounts by running the following command.
+
+    ```
+    az account list
+    ```
+
+3. Select your account by running the following command.
+
+    ```
+    az account set -s "My Account Name"
+    ```
+
+4. Delete the resource group by running the following command.
+
+    ```
+    az group delete -n "Your Resource Group Name"
+    ```
