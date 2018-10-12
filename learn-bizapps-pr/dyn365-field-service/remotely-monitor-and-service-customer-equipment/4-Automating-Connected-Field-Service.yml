@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.remotely-monitor-and-service-customer-equipment.4-automating-connected-field-service
+title: Automating Connected Field Service 
+metadata:
+  title: Automating Connected Field Service
+  description: Automating Connected Field Service
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-Automating-Connected-Field-Service.md)]

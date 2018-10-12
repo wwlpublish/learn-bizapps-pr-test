@@ -1,0 +1,36 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.connected-field-service
+metadata:
+  title: Working with Connected Field Service and IoT
+  description: This learning path introduces you to connected Field Service and IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
+  ms.date: 09/24/2018
+  #TODO: Update with real author name.
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-connected-field-service
+  #ms.learn-contact: dbeasley
+title: Working with Connected Field Service and IoT
+summary: This learning path introduces you to connected Field Service and IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
+#TODO: Add link to how to get a trial subscription.
+prerequisites: |
+  - Guidance for configuring the following environments for this learning path starts in the first module.
+  - Microsoft Dynamics 365 instance with Microsoft Dynamics 365 Field Service deployed
+  - Connected Field Service deployed
+  - Azure IoT Hub setup and deployed
+  - MXChip IoT DevKit to complete the lab exercise in Identify Exceptions with Connected Field Service module
+iconUrl: /learn/achievements/working-with-connected-field-service-and-iot.svg
+levels:
+- intermediate
+roles:
+- business-user
+products:
+- bizapps
+- bizapps-d365
+modules:
+- learn-bizapps.get-started-with-connected-field-service
+- learn-bizapps.remotely-monitor-and-service-customer-equipment
+- learn-bizapps.register-and-manage-customer-devices-with-connected-field-service
+- learn-bizapps.using-iot-central-with-connected-field-service
+- learn-bizapps.identify-exceptions-with-connected-field-service
+achievement: learn.working-with-connected-field-service-and-iot.trophy
