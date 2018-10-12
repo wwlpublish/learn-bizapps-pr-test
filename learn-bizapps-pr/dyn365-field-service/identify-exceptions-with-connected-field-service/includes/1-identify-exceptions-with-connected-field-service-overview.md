@@ -1,5 +1,6 @@
 One important function of a Connected Field Service application is to identify anomalies and escalate them into the application, where action can be taken. When you install the Connected Field Service add-on for Microsoft Dynamics 365 for Field Service, it includes a pre-built template application that uses a temperature-based scenario where a specific format of data comes from the IoT device. This template also uses static rules to detect anomalies. In this unit, you'll learn how to customize the template components to handle the unique requirements of your own scenario. For example, the customizations will let the template components handle different data that's sent from the device, change the rules that are used to evaluate the data, and generate Internet of Things (IoT) Alerts.
 
+
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBx]
 
 The following image shows the architecture of the default components that are installed with the Connected Field Service add-on. The telemetry from the device is evaluated by a Microsoft Azure Stream Analytics job for exceptions to the static rules.
@@ -20,7 +21,7 @@ The following image shows the default Stream Analytics query, so that you can se
 
 ![Default Stream Analytics query](../media/4-ie-unit1.png)
 
-When the data is processed by the Stream Analytics job, and the IoT Alert is generated, some of the raw data and also some augmented data from the rule are entered as alert data on the IoT Alert record in the Microsoft Dynamics 365. You should start to see how we'll have to change this query to accommodate the differences between the simulated device and the real device.
+When the data is processed by the Stream Analytics job, and the IoT Alert is generated, some of the raw data and also some augmented data from the rule are entered as alert data on the IoT Alert record in Microsoft Dynamics 365. You should start to see how we'll have to change this query to accommodate the differences between the simulated device and the real device.
 
 ![IoT Alert](../media/5-ie-unit1.png)
 

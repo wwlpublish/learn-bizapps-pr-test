@@ -7,12 +7,12 @@ We explored several of the key items including:
 - Exploring what command definitions are and how to build them. 
 - Demonstrating the relationship between property and command definitions.   
 
-The next steps from here would be gain a deeper understanding of how to identify and handle exceptions.  This would include items like telemetry, and different options for working with anomalies.   
+The next steps from here is gaining a deeper understanding of how to identify and handle exceptions.  This would include items like telemetry, and different options for working with anomalies.   
  
 ### Cleaning up you environment 
 If you are done, and ready to clean up your environment we will need to remove all the items that we created in this exercise.  During this exercise, we created an IoTAlertProcesses solution to store all the customizations, workflows, and business process flows that we created.  This was done to not only make it easier to keep our changes together, but to also assist in the removal of these items upon completion of this module. 
   
-When you remove an unmanaged solution from Dynamics 365 it will only remove the container that groups the customizations together.  Each customization would need to be manually removed from the system in a specific order.  Rather than having to manually removing each process, relationship, and customization is a specific order, it is much easier to remove all the items at once.  This can be done by using a managed solution.  When you remove a managed solution, it removes all the items included in the solution as well.    This is the process that we will be using.   
+When you remove an unmanaged solution from Dynamics 365 it will only remove the container that groups the customizations together.  Each customization would need to be manually removed from the system in a specific order.  Rather than having to manually remove each process, relationship, and customization is a specific order, it is much easier to remove all the items at once.  This can be done by using a managed solution.  When you remove a managed solution, it removes all the items included in the solution as well.    This is the process that we will be using.   
   
 **To fully remove all the items in the system we must do the following: (High Level)**
 - Export the IoTAlertProcess solution as an unmanaged solution. (This will serve as a backup if you ever want it in the future, or if we have problems) 

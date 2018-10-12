@@ -16,36 +16,36 @@ quiz:
   - content: When using Azure IoT Central with Connected Field Service how do you specify the criteria for raising an IoT Alert ?
     choices: 
     - content: Create a Device Template Rule with an Action
-      correctExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
+      correctExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action.
       isCorrect: true
     - content: Modify the Azure Stream Analytic job
-      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
+      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action.
       isCorrect: false
     - content: Create an Azure Function
-      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
+      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action.
       isCorrect: false
     - content: Create a microservice to process the telemetry
-      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
+      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action.
       isCorrect: false
       content: Use a Dynamics 365 workflow
-      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action
+      incorrectExplanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action.
       isCorrect: false
   - content: When an IoT Central rule is used to trigger the Microsoft Flow action what record type is created in Dynamics 365?
     choices:
     - content: Work Order
-      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action. 
       isCorrect: false
     - content: Case
-      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action.
       isCorrect: false
     - content: A note on the customer asset
-      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action. 
       isCorrect: false
     - content: IoT Alert
-      correctExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      correctExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action. 
       isCorrect: true
     - content: Customer asset
-      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action 
+      incorrectExplanation: An IoT Alert is created when an IoT Central rule is used to trigger the Microsoft Flow action. 
       isCorrect: false
   - content: In Azure IoT Central what do we create to describe our collection of devices that make up the application?
     choices:

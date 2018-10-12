@@ -1,4 +1,5 @@
-Property Definitions make it easy to pre-define specific properties that are associated with IoT Devices.  
+Property Definitions make it easy to pre-define specific properties that are associated with IoT Devices. 
+ 
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBv]
 > 
@@ -28,7 +29,7 @@ There are two primary areas where Property Definitions can be leveraged.
 		<tr>
 			<td>String</td>
 			<td>Used when the value you want to pass to a property is a text-based value.
-				<br></br><br>Additional Properties Include: max lenght and default value. As an example, A message property would use the string type since the contents of the message will be text.    </br></td>
+				<br></br><br>Additional Properties Include: maximum length and default value. As an example, A message property would use the string type since the contents of the message will be text.    </br></td>
 		</tr>
 		<tr>			
 			<td>Date and Time</td>
@@ -79,7 +80,7 @@ When you add the Property definition to a Device Category, you can choose to mar
 
 ![General Tab Window, with Device Tag](../media/2-rg-unit5.png)
 
-Using Properties Definitions in Command Definitions:
+### Using Properties Definitions in Command Definitions
 When you look at the data being sent as part of an IoT Alert or are sending a remote command to a device, you will see several properties associated with the alert data or the message to be sent.  The properties represent a Name / Value pair that displays or provides relevant parameters related to the event.   
 
 For example: 
@@ -88,7 +89,7 @@ For example:
 - A temperature related IoT Device Alert might include the device ID, type of reading, the actual reading, reading, or the threshold that was exceeded.  
 - A command you are sending back to an IoT Device might include the message to be sent, or a specific value that you want to set a property to.  
 
-The image below shows how properties are displayed for both commands sent to a device (left image) and IoT Alerts (right image).
+The image below shows how properties are displayed for both commands sent to a device *(left image)* and IoT Alerts *(right image)*.
 
 ![Alert Data Window](../media/3-rg-unit5.png)
 
@@ -101,7 +102,7 @@ Let’s look at the example command below:
 ...
 ```
 
-The parameters the specific properties that we want to include in the command.  The “Message” property tells us that we want to send a message to the device, and the text is the message that we want to include in the message.  The message property above is good example of where Property Definitions could be used.  
+The parameters are specific properties that we want to include in the command.  The “Message” property tells us that we want to send a message to the device, and the text is the message that we want to include in the message.  The message property above is a good example of where Property Definitions could be used.  
 
 ### Working with Parent Properties
 Many times, a property will have multiple sub-properties that make up the entire Property Definition.  In this case you can use Parent Properties to relate a Property to multiple Sub-Properties.  
@@ -134,7 +135,7 @@ Let’s look at a potential Device Tag example below:
 ...
 ```
 
-Here, deploymentlocation would be considered the parent property for building and floor.  We would set deployment location’s Type to Object, and both “building” and “floor” would have deploymentlocation defined as the Parent.     
+Here, deploymentlocation would be considered the parent property for building and floor.  We would set deployment location’s **Type** to Object, and both “building” and “floor” would have deploymentlocation defined as the Parent.     
 
 ![Property Definition Window](../media/6-rg-unit5.png)
 

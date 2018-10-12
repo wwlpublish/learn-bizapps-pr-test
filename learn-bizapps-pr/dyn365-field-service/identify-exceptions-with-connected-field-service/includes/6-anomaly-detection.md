@@ -1,7 +1,7 @@
 ## Exercise – Anomaly detection
 
 ### Building a new query
-In this hands-on exercise, you'll build a new query to replace the existing query for the Microsoft Azure Stream Analytics job. You'll building this new query incrementally, so that you can see what the parts do. This exercise is designed to work with your physical device. If you don't have a physical device, you can change the query to use fields from the simulated device.
+In this hands-on exercise, you'll build a new query to replace the existing query for the Microsoft Azure Stream Analytics job. You'll build this new query incrementally, so that you can see what the parts do. This exercise is designed to work with your physical device. If you don't have a physical device, you can change the query to use fields from the simulated device.
 
 **Scenario**
 
@@ -10,7 +10,7 @@ In this exercise, you'll use the anomaly detection preview feature of Azure Stre
 Currently, an IoT Alert is generated when the temperature from the device reaches the hard-coded limit. By using the anomaly detection capabilities, you'll change the queries for the Azure Stream job so that they detect both upward and downward trends in the temperature. This type of detection is ideal if you want early notification of any change from an expected state, but you don't have a hard-coded value that indicates when the change becomes a problem.
 
 #### Add an anomaly data collection to Azure
-To save the detail scores that are generated from the anomaly detection, you must create another collection in the Azure Cosmos DB that we used in Unit 4. This approach will make it easy to see the values that are generated from the anomaly detection operator.
+To save the detail scores that are generated from the anomaly detection, you must create another collection in the Azure Cosmos DB that we used in Identify Exceptions unit of this module. This approach will make it easy to see the values that are generated from the anomaly detection operator.
 
 1. Go to your Azure portal, select **Resource groups**, and then open the resource group that you created when you deployed Connected Field Service.
 
@@ -62,7 +62,7 @@ In this task, you'll add a new output for the AnomalyData collection.
     ![Query](../media/10-ie-unit6.png)
 
 2. Copy the existing query, and save it in case you want to reference it later.
-3. Clear the existing query. You'll build a new one step by step.
+3. Clear the existing query. You'll build a new one step-by-step.
 
     ![Cleared query](../media/11-ie-unit6.png)
 

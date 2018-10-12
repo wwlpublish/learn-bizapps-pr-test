@@ -3,7 +3,7 @@ There are two critical aspects that drive how effective a solution is when worki
 - Effectively registering IoT devices with either an Azure IoT Hub or IoT Central.  
 - Effectively managing IoT devices and streamlining how you interact with them.   
 
-In this module, we will examine both of these more detail.  Before we do that, let’s take a quick high-level look at them.   
+In this module, we will examine both of these in more detail.  Before we do that, let’s take a quick high-level look at them.   
  
 **IoT Device Registration:**  
 
@@ -21,7 +21,7 @@ Let’s examine some of the key record types that Connected Field Service uses f
  
 - **For Example:**  You might create temperature and humidity categories to separate out temperature related IoT devices or commands from IoT devices or commands that are more humidity focused.      
  
-**Command:** A command record is the actual action or command that you want to execute against a specific IoT device.  They typically consist of different JSON properties that are passed to the device to do that does something to the device. 
+**Command:** A command record is the actual action or command that you want to execute against a specific IoT device.  They typically consist of different JSON properties that are passed to the device to do something to the device. 
  
 - **For Example:**  If you wanted to set the temperature and humidity of a device to specific values, you would pass the following JSON script to the device using a command record. 
 
@@ -39,4 +39,4 @@ Let’s examine some of the key record types that Connected Field Service uses f
  
 - **For Example:** If you created the set values command definition as defined above each parameter such as reading, temperature, and humidity would have a property definition defined for them that was associated with the set values command definition.    
  
-In future units, we will examine each of these element is much more detail.
+In future units, we will examine each of these element in much more detail.

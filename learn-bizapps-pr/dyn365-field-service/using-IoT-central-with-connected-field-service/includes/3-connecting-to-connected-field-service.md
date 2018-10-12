@@ -8,7 +8,7 @@ Typically, for a Connected Field Service solution, you create the customer asset
 
 Notice that, in addition to updating the customer asset with the device ID, you'll create the IoT device record that's used if you send any commands or other actions from Dynamics 365.
 
-When you register the device, you created a connection between the device in Microsoft IoT Central and the customer asset in Microsoft Dynamics 365 for Field Service. In the previous unit, for our smart trash container scenario, we set up an event to indicate that the container is ready for pickup. Now let's see how you can raise an alert in Dynamics 365 so that the container be scheduled for pickup.
+When you register the device, you created a connection between the device in Microsoft IoT Central and the customer asset in Microsoft Dynamics 365 for Field Service. In the previous unit, for our smart trash container scenario, we set up an event to indicate that the container is ready for pickup. Now let's see how you can raise an alert in Dynamics 365 so that the container will be scheduled for pickup.
 
 To start the process, we'll use the rules feature of Microsoft IoT Central. Rules are built to monitor telemetry of the device and perform an action when a condition is met. In addition to looking at the real-time values, rules can look at device properties. For example, the properties might include threshold information that varies by device, based on the installation. The following image shows an example of the rule that you'll build to react to the ready for pickup event. Notice that there are several options for actions when a rule's conditions are met. In fact, out-of-box Dynamics 365 actions are coming soon. For now, we'll use the Microsoft Flow action to create an IoT Alert record.
 
@@ -18,4 +18,4 @@ To create the flow, you'll once again use the Microsoft IoT Central flow connect
 
 ![Flow that's triggered by a specific rule in Microsoft IoT Central](../media/3-ic-unit3.png)
 
-After the IoT Alert is created, it can flow into the normal business process capabilities of Field Service, including the capabilities for scheduling a visit to the location. In the next unit, you'll add device registration and raising of alerts to the Microsoft IoT Central application that you built in Unit 2.
+After the IoT Alert is created, it can flow into the normal business process capabilities of Field Service, including the capabilities for scheduling a visit to the location. In the next unit, you'll add device registration and raising of alerts to the Microsoft IoT Central application that you built in a previous unit.

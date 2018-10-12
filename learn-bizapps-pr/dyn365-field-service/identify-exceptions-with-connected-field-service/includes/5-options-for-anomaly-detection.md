@@ -16,7 +16,7 @@ WHERE LAG(data.DeviceID) OVER (PARTITION BY data.DeviceId, data.Reading, data.Re
 
 The `Where` clause does this by using the `LAG` analytic operator, which enables lookup of a previous event in the event stream. `OVER (PARTITION…` will return the previous reading for that specific device if that reading occurred in the last minute, as defined by the `DURATION`. This example shows the stateful nature of Stream Analytics and how it manages state for us.
 
-Stream Analytics can also help analyze the data stream through its windowing capabilities. Stream Analytics has four types of windows to choose from: tumbling, hopping, sliding, and session. The output from the window will be a single event based on the aggregate function that's used. The following query produces averages across a 10-second tumbling window to help guarantee that that there's no overlap, and that an event can't belong to more than one window.
+Stream Analytics can also help analyze the data stream through its windowing capabilities. Stream Analytics has four types of windows to choose from: tumbling, hopping, sliding, and session. The output from the window will be a single event based on the aggregate function that's used. The following query produces averages across a 10-second tumbling window to help guarantee that there's no overlap, and that an event can't belong to more than one window.
 
 ![Query for averages across a 10-second tumbling window](../media/2-ie-unit5.png)
 
