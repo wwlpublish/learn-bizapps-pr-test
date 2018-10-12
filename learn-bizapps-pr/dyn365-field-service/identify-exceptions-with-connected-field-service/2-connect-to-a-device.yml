@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.identify-exceptions-with-connected-field-service.2-connect-to-a-device
+title: Connect to a device 
+metadata:
+  title: Connect to a device 
+  description: Connect to a device 
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+durationInMinutes: 15
+content: |
+  [!include[](includes/2-connect-to-a-device.md)]
