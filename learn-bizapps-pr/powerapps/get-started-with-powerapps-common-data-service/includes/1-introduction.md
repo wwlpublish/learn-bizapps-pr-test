@@ -9,8 +9,8 @@ Common Data Service for Apps includes a base set of standard entities that suppo
 
 Dynamics 365 applications, including Dynamics 365 for Sales, Service, and Talent, use Common Data Service for Apps to store and secure data used by the applications. This means you can build apps using PowerApps and Common Data Service for Apps directly against your core business data already used within Dynamics 365 without the need for manual integration.
 
-    > [!NOTE]
-    > Dynamics 365 for Finance and Operations and Dynamics 365 for Retail currently require the configuration of the Data Integrator to make your business data available within Common Data Service for Apps.
+ > [!NOTE]
+ > Dynamics 365 for Finance and Operations and Dynamics 365 for Retail currently require the configuration of the Data Integrator to make your business data available within Common Data Service for Apps.
 
 ![Screenshot showing a list of entities](../media/entitylist.png "Entity list")
 
