@@ -26,6 +26,8 @@ roles:
 products: 
 - bizapps
 - bizapps-d365
+- azure
+- azure-iot-central
 units:
 - learn-bizapps.using-iot-central-with-connected-field-service.1-using-iot-central-with-connected-field-service-overview
 - learn-bizapps.using-iot-central-with-connected-field-service.2-create-an-iot-central-application

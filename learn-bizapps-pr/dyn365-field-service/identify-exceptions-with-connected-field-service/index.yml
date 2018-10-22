@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-bizapps.identify-exceptions-with-connected-field-service
 metadata:
-  title: Identify Exceptions with Connected Field Service
+  title: Identify Exceptions with Connected Field Service and Azure IoT
   description: This module will focus on the proactive detection of anomalies in the IoT device telemetry.  Additionally, this module will cover the customization of the Connected Field Service components to handle different telemetry from the device and options for storing detail data for future analysis.
   ms.date: 10/12/2018
   author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-title: Identify Exceptions with Connected Field Service
+title: Identify Exceptions with Connected Field Service and Azure IoT
 summary: This module will focus on the proactive detection of anomalies in the IoT device telemetry.  Additionally, this module will cover the customization of the Connected Field Service components to handle different telemetry from the device and options for storing detail data for future analysis.
 abstract: |
     In this module, you will:
@@ -25,6 +25,8 @@ roles:
 products: 
 - bizapps
 - bizapps-d365
+- azure
+- azure-iot-central
 units:
 - learn-bizapps.identify-exceptions-with-connected-field-service.1-identify-exceptions-with-connected-field-service-overview
 - learn-bizapps.identify-exceptions-with-connected-field-service.2-connect-to-a-device

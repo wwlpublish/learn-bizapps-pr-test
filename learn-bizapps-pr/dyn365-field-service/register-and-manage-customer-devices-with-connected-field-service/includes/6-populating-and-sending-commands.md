@@ -303,7 +303,7 @@ Note: If you already have the simulator open from the Register IoT Devices exerc
     - Display Name: Customer
     - Data Type: Lookup
     - Target Record Type: Account
-![Congigure fields](../media/49-rg-unit6.png)
+![Configure fields](../media/49-rg-unit6.png)
 5.	Click Save and Close.
 6.	On the IoT Alert Processes solution, click Publish All Customizations.
 
