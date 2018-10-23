@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-bizapps.get-started-with-connected-field-service
 metadata:
-  title: Get stared with Connected Field Service and Azure IoT
+  title: Get stared with Connected Field Service for Dynamics 365 and Azure IoT
   description: This module will focus on the initial deployment of the Connected Field Service add-on for Dynamics 365 for Field Service.  The module will walk you through the installation and an understanding of the components installed as part of the out of the box template application.
   ms.date: 10/12/2018
   author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-title: Get started with Connected Field Service and Azure IoT
+title: Get started with Connected Field Service for Dynamics 365 and Azure IoT
 summary: This module gets you started with Connected Field Service and Azure IoT
 abstract: |
    In this module, you will:
