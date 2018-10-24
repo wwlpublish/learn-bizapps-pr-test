@@ -31,7 +31,7 @@ quiz:
     - content: IoT Device Property
       incorrectExplanation: Device category records are used when devices share similar properties.
       isCorrect: false
-  - content: Where can Desired Properites be defined?
+  - content: Where can Desired Properties be defined?
     choices: 
     - content: IoT Device Category
       incorrectExplanation: Desired Properties can be defined directly on the IoT Device record in Connected Field Service.

@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-bizapps.register-and-manage-customer-devices-with-connected-field-service
 metadata:
-  title: Register and Manage Customer Devices with Connected Field Service
+  title: Register and Manage Customer Devices with Connected Field Service for Dynamics 365 and Azure IoT
   description: This module will focus on Register and Manage Customer Devices with Connected Field Service add-on for Dynamics 365 for Field Service.  The module will walk you through building an IoT Central application and escalating the alerts into Dynamics 365.  
   ms.date: 10/12/2018
   author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-title: Register and Manage Customer Devices with Connected Field Service
+title: Register and Manage Customer Devices with Connected Field Service for Dynamics 365 and Azure IoT
 summary: This module will focus on IoT Device registration and monitoring using the Connected Field Service solution including device registration (physical and non-physical), working with device twins, and streamlining device management and interactions.
 abstract: |
     In this module, you will:
@@ -29,6 +29,8 @@ roles:
 products: 
 - bizapps
 - bizapps-d365
+- azure
+- azure-iot-central
 units:
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.1-register-and-manage-customer-devices-with-connected-field-service-overview
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.2-device-registration-and-digital-twins

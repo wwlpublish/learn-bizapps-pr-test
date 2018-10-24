@@ -1,8 +1,8 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.connected-field-service
 metadata:
-  title: Working with Connected Field Service and IoT
-  description: This learning path introduces you to connected Field Service and IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
+  title: Working with Connected Field Service for Dynamics 365 and Azure IoT
+  description: This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
   author: dbeasley
@@ -10,8 +10,8 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-connected-field-service
   #ms.learn-contact: dbeasley
-title: Working with Connected Field Service and IoT
-summary: This learning path introduces you to connected Field Service and IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
+title: Working with Connected Field Service and Azure IoT for Dynamics 365
+summary: This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
 #TODO: Add link to how to get a trial subscription.
 prerequisites: |
   - Guidance for configuring the following environments for this learning path starts in the first module.
@@ -27,6 +27,8 @@ roles:
 products:
 - bizapps
 - bizapps-d365
+- azure
+- azure-iot-central
 modules:
 - learn-bizapps.get-started-with-connected-field-service
 - learn-bizapps.remotely-monitor-and-service-customer-equipment

@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-bizapps.remotely-monitor-and-service-customer-equipment
 metadata:
-  title: Remotely Monitor and Service Customer Equipment
+  title: Remotely Monitor and Service Customer Equipment with Connected Field Service for Dynamics 365 and Azure IoT
   description: This module will focus on the end to end process of remotely monitoring IoT enabled devices using the Connected Field Service solution including device registration, working with alerts, and designing processes to take specific actions.
   ms.date: 10/12/2018
   author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-title: Remotely Monitor and Service Customer Equipment
+title: Remotely Monitor and Service Customer Equipment with Connected Field Service for Dynamics 365 and Azure IoT
 summary: This module will focus on the end-to-end process of remotely monitoring IoT enabled devices using the Connected Field Service solution including device registration, working with alerts, and designing processes to take specific actions.
 abstract: |
    In this module, you will:
@@ -26,6 +26,8 @@ roles:
 products: 
 - bizapps
 - bizapps-d365
+- azure
+- azure-iot-central
 units:
 - learn-bizapps.remotely-monitor-and-service-customer-equipment.1-remotely-monitor-and-service-customer-equipment-overview
 - learn-bizapps.remotely-monitor-and-service-customer-equipment.2-customer-assets-and-device-registration
