@@ -30,9 +30,12 @@ PowerApps is a collection of services, apps, and connectors that work together t
 
 To create, share, and administer apps, you'll use these sites:
 
-1. [web.powerapps.com](https://web.powerapps.com) In this site, you can open apps, specify the type of app that you want to create, and create data connections and flows.
+1. [web.powerapps.com](https://web.powerapps.com) In this site, you can open apps, specify the type of app that you want to create, and create data connections and flows. To use this site you'll need to log in using your organizational account.
 1. [PowerApps Studio](https://aka.ms/powerappswin): In this site, you build apps by configuring user interface (UI) elements and Excel-like formulas.
 1. [PowerApps admin center](https://admin.powerapps.com/): In this site, you'll define environments and data policies.
+
+> [!NOTE]
+> To use these sites you'll need to sign in using your organizational account.
 
 When you're done with all that, you can run your apps in a browser (from Microsoft Dynamics 365) or in PowerApps Mobile (available for Windows tablets, iOS devices, and Android devices).
 
