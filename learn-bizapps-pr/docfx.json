@@ -15,6 +15,13 @@
         "dest": "modules"
       },
       {
+        "src": "dyn365-field-service",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
         "src": "flow",
         "files": [
           "**.yml"
@@ -51,6 +58,7 @@
           "ThirdPartyNotices",
           "paths/sample-path/**",
           "dyn365-customer-service/**",
+          "dyn365-field-service/**",
           "flow/**",
           "power-bi/**",
           "powerapps/**"
@@ -70,8 +78,7 @@
           "**/obj/**",
           "**/includes/**",
           "_themes/**",
-          "_themes.pdf/**",
-          "paths/sample-path/**"
+          "_themes.pdf/**"
         ]
       }
     ],
