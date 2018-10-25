@@ -136,7 +136,7 @@ From here we could begin to interact with the device using commands.  We will ex
 
 **Task 3: Modify device rules back to Fahrenheit.** 
 
-> IMPORTANT:  In another unit in this module will be using a simulated device to interact with Connected Field Service.  The changes to make it Celsius will not work with this exercise.  It is important that in the Blob, you modify the Temperature the back to 70 to ensure that the simulator will register Fahrenheit and work accordingly.   
+> IMPORTANT:  In another unit in this module, we will be using a simulated device to interact with Connected Field Service.  The changes to make it Celsius will not work with this exercise.  It is important that in the Blob, you modify the Temperature the back to 70 to ensure that the simulator will register Fahrenheit and work accordingly.   
 >  
 **Exercise 2: Register a physical device (Optional)** 
  

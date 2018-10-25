@@ -14,7 +14,7 @@ In this task, you'll create a flow that will register a device.
 
 3. Select **Flow**, and then select **Create a flow**.
 
-    ![Creat a flow](../media/3-ic-unit4.png)
+    ![Create a flow](../media/3-ic-unit4.png)
 
 4. Select **Sign in**.
 
