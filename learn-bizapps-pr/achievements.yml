@@ -25,6 +25,11 @@ achievements:
   title: Create and use analytics reports with Power BI
   summary: Trophy for the 'Create and use analytics reports with Power BI' learning path.
   iconUrl: /learn/achievements/create-use-analytics-reports-power-bi.svg
+- uid: learn.working-with-connected-field-service-and-iot.trophy
+  type: trophy
+  title: Working with Connected Field Service and IoT
+  summary: Trophy for the 'Working with Connected Field Service and IoT.
+  iconUrl: /learn/achievements/working-with-connected-field-service-and-iot.svg
 - uid: learn.customer-service-cases.badge
   type: badge
   title: Customer Service Cases Badge
@@ -85,3 +90,28 @@ achievements:
   title: Get started with the Common Data Service
   summary: Badge for the 'Get started with the Common Data Service' module.
   iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
+- uid: learn.get-started-with-connected-field-service.badge 
+  type: badge
+  title: Get Started with the Connected Field Service
+  summary: Badge for the 'Get Started with the Connected Field Service' module.
+  iconUrl: /learn/achievements/get-started-with-connected-field-service.svg
+- uid: learn.identify-exceptions-with-connected-field-service.badge 
+  type: badge
+  title: Identify Exceptions with Connected Field Service
+  summary: Badge for the 'Identify Exceptions with Connected Field Service' module.
+  iconUrl: /learn/achievements/identify-exceptions-with-connected-field-service.svg
+- uid: learn.register-and-manage-customer-devices-with-connected-field-service.badge 
+  type: badge
+  title: Register and Manage Customer Devices with Connected Field Service
+  summary: Badge for the 'Register and Manage Customer Devices with Connected Field Service' module.
+  iconUrl: /learn/achievements/register-and-manage-customer-devices-with-connected-field-service.svg
+- uid: learn.remotely-monitor-and-service-customer-equipment.badge 
+  type: badge
+  title: Remotely Monitor and Service Customer Equipment
+  summary: Badge for the 'Remotely Monitor and Service Customer Equipment' module.
+  iconUrl: /learn/achievements/remotely-monitor-and-service-customer-equipment.svg
+- uid: learn.using-iot-central-with-connected-field-service.badge 
+  type: badge
+  title: Using IoT Central with Connected Field Service
+  summary: Badge for the 'Using IoT Central with Connected Field Service' module.
+  iconUrl: /learn/achievements/using-iot-central-with-connected-field-service.svg

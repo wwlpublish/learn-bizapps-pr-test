@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.3-register-iot-devices
+title: Register IoT devices
+metadata:
+  title: Register IoT devices
+  description: Register IoT devices
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+durationInMinutes: 25
+content: |
+  [!include[](includes/3-register-iot-devices.md)]
