@@ -86,7 +86,7 @@ When you look at the data being sent as part of an IoT Alert or are sending a re
 For example: 
 
 
-- A temperature related IoT Device Alert might include the device ID, type of reading, the actual reading, reading, or the threshold that was exceeded.  
+- A temperature related IoT Device Alert might include the device ID, type of reading, the actual reading, or the threshold that was exceeded.  
 - A command you are sending back to an IoT Device might include the message to be sent, or a specific value that you want to set a property to.  
 
 The image below shows how properties are displayed for both commands sent to a device *(left image)* and IoT Alerts *(right image)*.

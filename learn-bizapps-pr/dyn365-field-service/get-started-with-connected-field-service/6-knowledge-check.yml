@@ -1,7 +1,7 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-connected-field-service.6-knowledge-check
 metadata:
-  title: Get started wtih Connected Field Service
+  title: Get started with Connected Field Service
   description: This quiz will test your knowledge of Connected Field Service.
   ms.date: 10/12/2018
   author: dyack
@@ -67,17 +67,17 @@ quiz:
   - content: Which Azure component used by the Connected Field Service template has the logic to determine if an exception has occurred in the telemetry?
     choices:
     - content: Logic App
-      incorrectExplanation: Stream analytics has the logic to determine if an exception has occured in the telemetry.
+      incorrectExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: false
     - content: Azure IoT Hub
-      incorrectExplanation: Stream analytics has the logic to determine if an exception has occured in the telemetry.
+      incorrectExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: false
     - content: Stream Analytics
-      correctExplanation: Stream analytics has the logic to determine if an exception has occured in the telemetry.
+      correctExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: true
     - content: Service Bus
-      incorrectExplanation: Stream analytics has the logic to determine if an exception has occured in the telemetry.
+      incorrectExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: false
     - content: It is determined by Dynamics 365 and not in the Azure configured components
-      incorrectExplanation: Stream analytics has the logic to determine if an exception has occured in the telemetry.
+      incorrectExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: false
