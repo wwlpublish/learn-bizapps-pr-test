@@ -16,16 +16,16 @@ quiz:
   questions:
   - content: Which of the following tools let you shape data sources?
     choices: 
-    - content: The Get Data menu item.
-      incorrectExplanation: The Get Data menu item connects you to data, but doesn't let you shape data.
+    - content: The Power BI Gateway.
+      incorrectExplanation: The Power Query Editor is the tool used to shape and transform data.
       isCorrect: false
-    - content: A browser.
-      incorrectExplanation: A browser does not let you shape data.
+    - content: The Relationships view in Power BI Desktop.
+      incorrectExplanation: The Power Query Editor is the tool used to shape and transform data.
       isCorrect: false
-    - content: The Power BI service.
-      incorrectExplanation: The Power BI service lets you view and interact with reports and dashboards, but doesn't let you shape data.
+    - content: The Power BI admin portal.
+      incorrectExplanation: The Power Query Editor is the tool used to shape and transform data.
       isCorrect: false
-    - content: Power Query Editor.
+    - content: Power Query Editor in either Power BI Desktop or Power BI Service.
       correctExplanation: The Power Query Editor is the tool used to shape and transform data.
       isCorrect: true
   - content: Which of the following statements is true about shaping data with Power BI Desktop?
@@ -39,14 +39,14 @@ quiz:
     - content: When shaping or transforming data in Power BI Desktop, the source data is also shaped and transformed.
       incorrectExplanation: Whenever you connect to data in Power BI Desktop, the source data remains unchanged, and any shaping is done on the data brought into Power BI.
       isCorrect: false
-  - content: Which of the following statements about sharing your reports is true?
+  - content: What is the recommend method to share your reports?
     choices:
-    - content: You can only share reports by copying the .PBIX file to a file folder, and giving coworkers access to that folder.
-      incorrectExplanation: While you can share a Power BI Desktop file (a .PBIX file) by putting it on a share, there are other ways to share Power BI reports.
+    - content: Copy the .PBIX file to a file folder, and give coworkers access to that folder.
+      incorrectExplanation: While you can share a Power BI Desktop file (a .PBIX file) by putting it on a share, the recommended method to share reports is to publish them to the Power BI service.
       isCorrect: false
-    - content: You can only share reports by publishing them to the Power BI service.
-      incorrectExplanation: You can certainly share reports by publishing them to the Power BI service, but there are other ways to share reports as well.
-      isCorrect: false
-    - content: You can share Power BI reports by creating a PDF of the report, and sharing the PDF with others.
-      correctExplanation: You can create PDFs of Power BI reports, and share them with others. You can also publish a report to the Power BI service, and export a report to PowerPoint.
+    - content: Publish them to the Power BI service.
+      incorrectExplanation: Publishing your reports to the Power BI service is the recommended method to share your reports with others.
       isCorrect: true
+    - content: Create a PDF of the report, and share the PDF with others.
+      correctExplanation: You can create PDFs of Power BI reports, and share them with others. However, the recommended method to share reports is to publish them to the Power BI service.
+      isCorrect: false
