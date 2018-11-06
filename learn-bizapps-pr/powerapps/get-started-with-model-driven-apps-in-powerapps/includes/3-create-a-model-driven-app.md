@@ -4,7 +4,7 @@ In this unit, you'll create a model-driven app by using one of the standard enti
 
 1. Sign in to [PowerApps](https://web.powerapps.com/) by using your organizational account.
 1. Select the environment you want, or go to the [PowerApps admin center](https://admin.powerapps.com/) to create a new one.
-1. At the bottom of the left pane, select **Model-driven** as the design mode. 
+1. On the **Home** page, select the **Start from blank** option for a model-driven app.  
 
     ![Model-driven](../media/choose-design-mode.png)
 
