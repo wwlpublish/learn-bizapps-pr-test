@@ -259,12 +259,12 @@ Note: If you already have the simulator open from the Register IoT Devices exerc
 ![Command Bar](../media/44-rg-unit6.png)
 19.	Configure the command as follows:
     - Name: Dispatch Tech
-20.	Under Message to Send, click in the lookup field next to Command, select the Set Values command.
+20.	Under Message to Send, click in the lookup field next to Command, select Notification.
 21.	The message should display with the Message property pre-defined.  
-![Create Command](../media/45-rg-unit6.png)
+
 22.	On the Command bar, click the Send & Close button.  
 23.	Switch back to your simulator, after a short while a message should appear in the Messages Received that a Technician has been dispatched.  Note: Depending on internet speeds, and other factors it can take several minutes for this to occur.
-![Simulator, message received](../media/46-rg-unit6.png)
+
 
 ### Exercise 3: Automate sending of commands with Workflows
 
