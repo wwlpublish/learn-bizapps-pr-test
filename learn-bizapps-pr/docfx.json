@@ -61,7 +61,8 @@
           "dyn365-field-service/**",
           "flow/**",
           "power-bi/**",
-          "powerapps/**"
+          "powerapps/**",
+          "module_template/**"
         ]
       }
     ],
