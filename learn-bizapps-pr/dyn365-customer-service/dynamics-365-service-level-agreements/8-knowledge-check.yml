@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.dynamics-365-service-level-agreements.8-knowledge-check
+metadata:
+  title: Dynamics 365 Service Level Agreements
+  description: This knowledge check will test your knowledge of Dynamics 365 Service Level Agreements.
+  ms.date: 12/7/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+title: Dynamics 365 Service Level Agreements
+durationInMinutes: 5
+quiz:
+  title: Dynamics 365 Service Level Agreements knowledge check
+  questions:
+  - content: Which of the following are features of enhanced SLA’s? 
+    choices: 
+    - content: Unlimited in scope
+      incorrectExplanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
+      isCorrect: false
+    - content: Ability to pause SLA
+      correctExplanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
+      isCorrect: true
+    - content: Ability to track mulitple cases at once
+      incorrectExplanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
+      isCorrect: false
+    - content: KPIs stored directly on the case entity
+      incorrectExplanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
+      isCorrect: false
+  - content: Which of the following are expected levels of response defined for the case entity by default? 
+    choices: 
+    - content: First Response Time
+      correctExplanation: Out of the box, the case entity contains two KPIs associated with it.  Those KPIs are based on the First Response By times and the Resolve By times.  Additional KPIs could be defined for the case entity or other entities as needed, but only First Response and Resolve are available by default.  Source - Defining SLA details 
+      isCorrect: true
+    - content: Research Time
+      incorrectExplanation: Out of the box, the case entity contains two KPIs associated with it.  Those KPIs are based on the First Response By times and the Resolve By times.  Additional KPIs could be defined for the case entity or other entities as needed, but only First Response and Resolve are available by default.  Source - Defining SLA details 
+      isCorrect: false
+    - content: Dispatch by Time
+      incorrectExplanation: Out of the box, the case entity contains two KPIs associated with it.  Those KPIs are based on the First Response By times and the Resolve By times.  Additional KPIs could be defined for the case entity or other entities as needed, but only First Response and Resolve are available by default.  Source - Defining SLA details 
+      isCorrect: false
+    - content: Last Response Time
+      incorrectExplanation: Out of the box, the case entity contains two KPIs associated with it.  Those KPIs are based on the First Response By times and the Resolve By times.  Additional KPIs could be defined for the case entity or other entities as needed, but only First Response and Resolve are available by default.  Source - Defining SLA details  
+      isCorrect: false
+  - content: What is a valid action you can take on an SLA?
+    choices: 
+    - content: Deleted Record
+      incorrectExplanation: SLA Items provide the ability to execute Success, Failure, and Warning actions.  Not all actions that are available with workflows can be done in as SLA actions.  The actions that can be executed by an SLA are; Send Email, Create Record, Update Record, Assign Record, Change Status.  Source - Defining SLA details 
+      isCorrect: false
+    - content: Tag Record
+      incorrectExplanation: SLA Items provide the ability to execute Success, Failure, and Warning actions.  Not all actions that are available with workflows can be done in as SLA actions.  The actions that can be executed by an SLA are; Send Email, Create Record, Update Record, Assign Record, Change Status.  Source - Defining SLA details 
+      isCorrect: false
+    - content: Clone Record
+      incorrectExplanation: SLA Items provide the ability to execute Success, Failure, and Warning actions.  Not all actions that are available with workflows can be done in as SLA actions.  The actions that can be executed by an SLA are; Send Email, Create Record, Update Record, Assign Record, Change Status.  Source - Defining SLA details 
+      isCorrect: false
+    - content: Update Record
+      correctExplanation: SLA Items provide the ability to execute Success, Failure, and Warning actions.  Not all actions that are available with workflows can be done in as SLA actions.  The actions that can be executed by an SLA are; Send Email, Create Record, Update Record, Assign Record, Change Status.  Source - Defining SLA details 
+      isCorrect: true

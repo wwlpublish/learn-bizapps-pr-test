@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.3-configure-article-search-and-display-options
+title: Configure article search and display options
+metadata:
+  title: Configure article search and display options
+  description: Configure article search and display options
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-configure-article-search-and-display-options.md)]

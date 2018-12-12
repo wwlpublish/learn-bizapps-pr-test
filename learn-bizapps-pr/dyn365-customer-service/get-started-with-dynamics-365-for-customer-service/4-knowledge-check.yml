@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.customer-service-get-started.4-quiz-customer-service
+uid: learn-bizapps.customer-service-get-started.4-knowledge check-customer-service
 metadata:
   title: Customer Service knowledge check
   description: This knowledge check will test your knowledge of Dynamics 365 for Customer Service.
@@ -9,6 +9,7 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-customer-service
+  ROBOTS: NOINDEX
 title: Check your knowledge
 durationInMinutes: 5
 quiz:

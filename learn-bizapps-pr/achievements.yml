@@ -17,8 +17,8 @@ achievements:
   iconUrl: /learn/achievements/create-powerapps.svg
 - uid: learn.customer-service-hub-cases-slas.trophy
   type: trophy
-  title: Work with cases and SLAs in Dynamics 365 for Customer Service
-  summary: Trophy for the 'Work with cases and SLAs in Dynamics 365 for Customer Service' learning path.
+  title: Work with cases in Dynamics 365 for Customer Service
+  summary: Trophy for the 'Work with cases in Dynamics 365 for Customer Service' learning path.
   iconUrl: /learn/achievements/work-with-cases-and-slas-in-dynamics-365-for-customer-service.svg
 - uid: learn.create-app-models-business-processes.trophy
   type: trophy
@@ -35,6 +35,16 @@ achievements:
   title: Working with Connected Field Service and IoT
   summary: Trophy for the 'Working with Connected Field Service and IoT.
   iconUrl: /learn/achievements/working-with-connected-field-service-and-iot.svg
+- uid: learn.work-with-entitlements-and-slas-dyn365-customer-service.trophy
+  type: trophy
+  title: Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service
+  summary: Trophy for the 'Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service' learning path.
+  iconUrl: /learn/achievements/work-with-entitlements-and-slas-dyn365-customer-service.svg
+- uid: learn.work-with-knowledge-management-solutions-dyn365-customer-service.trophy
+  type: trophy
+  title: Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service
+  summary: Trophy for the 'Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service' learning path.
+  iconUrl: /learn/achievements/work-with-knowledge-management-solutions-dyn365-customer-service.svg
 - uid: learn.customer-service-cases.badge
   type: badge
   title: Customer Service Cases Badge
@@ -120,3 +130,28 @@ achievements:
   title: Using IoT Central with Connected Field Service
   summary: Badge for the 'Using IoT Central with Connected Field Service' module.
   iconUrl: /learn/achievements/using-iot-central-with-connected-field-service.svg
+- uid: learn.using-dynamics-365-queues-to-manage-case-workloads.badge 
+  type: badge
+  title: Using queues to manage case workloads in Microsoft Dynamics 365 for Customer Service
+  summary: Badge for the 'Using queues to manage case workloads in Microsoft Dynamics 365 for Customer Service' module.
+  iconUrl: /learn/achievements/managing-customer-service-workloads-using-queues.svg
+- uid: learn.creating-and-managing-entitlements-in-dynamics-365.badge
+  type: badge
+  title: Creating and Managing Entitlements in Dynamics 365
+  summary: Badge for the 'Creating and Managing Entitlements in Dynamics 365' module.
+  iconUrl: /learn/achievements/creating-and-managing-entitlements.svg
+- uid: learn.dynamics-365-service-level-agreements.badge
+  type: badge
+  title: Dynamics 365 Service Level Agreements
+  summary: Badge for the 'Dynamics 365 Service Level Agreements' module.
+  iconUrl: /learn/achievements/service-level-agreements.svg
+- uid: learn.consuming-knowledge-articles-for-case-resolutions.badge
+  type: badge
+  title: Consuming Knowledge Articles for Case Resolutions
+  summary: Badge for the 'Consuming Knowledge Articles for Case Resolutions' module.
+  iconUrl: /learn/achievements/consuming-knowledge-articles-for-case-resolutions.svg
+- uid: learn.creating-and-designing-knowledge-management-solutions.badge
+  type: badge
+  title: Creating and Designing Knowledge Management Solutions
+  summary: Badge for the 'Creating and Designing Knowledge Management Solutions' module.
+  iconUrl: /learn/achievements/create-and-design-knowledge-management-solutions.svg

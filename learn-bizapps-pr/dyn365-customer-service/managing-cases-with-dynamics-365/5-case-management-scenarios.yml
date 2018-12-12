@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-cases.5-case-management-scenarios
+title: Case management scenarios
+metadata:
+  title: Case management scenarios
+  description:  Case management scenarios
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-case-management-scenarios.md)]
