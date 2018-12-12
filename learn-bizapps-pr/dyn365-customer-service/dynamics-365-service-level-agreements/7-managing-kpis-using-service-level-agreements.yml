@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.dynamics-365-service-level-agreements.7-managing-kpis-using-service-level-agreements
+title: Exercise - Manage key performance indicators (KPIs) by using service level agreements (SLAs)
+metadata:
+  title: Exercise - Manage key performance indicators (KPIs) by using service level agreements (SLAs)
+  description: Exercise - Manage key performance indicators (KPIs) by using service level agreements (SLAs)
+  ms.date: 12/7/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/7-managing-kpis-using-service-level-agreements.md)]

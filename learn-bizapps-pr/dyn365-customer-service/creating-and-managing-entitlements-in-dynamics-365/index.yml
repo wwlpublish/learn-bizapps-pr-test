@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-bizapps.creating-and-managing-entitlements-in-dynamics-365
+metadata:
+  title: Create and manage entitlements in Microsoft Dynamics 365 for Customer Service
+  description: This module will focus on Microsoft Dynamics 365 entitlements and how they're used to define and track information about support contracts. It includes information about creating and defining entitlements, setting up entitlement terms and types, defining related records, and managing the entitlement lifecycle.
+  ms.date: 12/7/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Create and manage entitlements in Microsoft Dynamics 365 for Customer Service
+summary: This module will focus on Microsoft Dynamics 365 entitlements and how they're used to define and track information about support contracts. It includes information about creating and defining entitlements, setting up entitlement terms and types, defining related records, and managing the entitlement lifecycle.
+abstract: |
+    In this module, you will:
+    - Create and define entitlement records
+    - Control when an entitlement is applied 
+    - Define specific entitlement terms and supported channels
+    - Define entitlements that are product-specific or contact-specific
+    - Work with multiple entitlement records for a specific customer
+    - Use entitlement templates to quickly create new entitlements
+prerequisites: The target audience should have a basic understanding of how to move around the Microsoft Dynamics 365 application. Familiarity with creating and managing cases, and with Dynamics 365 service level agreements (SLAs), is also helpful.
+iconUrl: /learn/achievements/creating-and-managing-entitlements.svg
+levels: 
+- intermediate
+roles: 
+- functional-consultant
+products: 
+- bizapps
+- bizapps-d365
+units:
+- learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.1-entitlement-overview
+- learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.2-creating-entitlement-records
+- learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.3-managing-entitlement-terms
+- learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.4-additional-considerations
+- learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.5-managing-support-contracts-with-entitlements
+- learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.6-defining-entitlement-templates
+- learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.7-knowledge-check
+- learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.8-summary-and-clean-up
+achievement: learn.creating-and-managing-entitlements-in-dynamics-365.badge
