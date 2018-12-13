@@ -8,7 +8,7 @@ Imagine you’re retiring – you want to live where there’s lots of sunshine,
 
 Either way, the following web resource has interesting data about those topics, and more:
 
-<http://www.bankrate.com/finance/retirement/best-places-retire-how-state-ranks.aspx>
+[https://go.microsoft.com/fwlink/?linkid=2050811](https://go.microsoft.com/fwlink/?linkid=2050811/?azure-portal=true "best-places-retire-how-state-ranks")
 
 Select **Get Data \> Web**, and paste the address.
 
