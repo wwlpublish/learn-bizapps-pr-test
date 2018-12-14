@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.2-enabling-and-configuring-entities-for-knowledge-search
+title: Enable and configure entities for Knowledge Search
+metadata:
+  title: Enable and configure entities for Knowledge Search
+  description: Enable and configure entities for Knowledge Search
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/2-enabling-and-configuring-entities-for-knowledge-search.md)]

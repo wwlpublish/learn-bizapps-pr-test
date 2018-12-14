@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.4-additional-considerations
+title: Additional considerations 
+metadata:
+  title: Additional considerations  
+  description: Additional considerations  
+  ms.date: 12/7/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-additional-considerations.md)]

@@ -10,6 +10,7 @@ metadata:
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-customer-service
+  ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
   [!include[](includes/2-customer-service-get-started-core-components.md)]

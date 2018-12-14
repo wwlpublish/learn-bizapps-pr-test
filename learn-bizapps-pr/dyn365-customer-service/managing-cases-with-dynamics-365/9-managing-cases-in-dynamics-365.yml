@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-cases.9-managing-cases-in-dynamics-365
+title: Exercise - Manage cases in Microsoft Dynamics 365
+metadata:
+  title: Exercise - Manage cases in Microsoft Dynamics 365
+  description: Exercise - Managing cases in Microsoft Dynamics 365
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/9-managing-cases-in-dynamics-365.md)]

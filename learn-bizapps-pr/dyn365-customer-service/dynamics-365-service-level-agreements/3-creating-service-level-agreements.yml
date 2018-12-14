@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.dynamics-365-service-level-agreements.3-creating-service-level-agreements
+title: Create service level agreements (SLAs)
+metadata:
+  title: Create service level agreements (SLAs)
+  description: Create service level agreements (SLAs)
+  ms.date: 12/7/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-creating-service-level-agreements.md)]

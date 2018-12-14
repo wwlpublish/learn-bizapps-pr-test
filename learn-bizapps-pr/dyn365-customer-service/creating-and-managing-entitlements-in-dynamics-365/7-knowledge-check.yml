@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.7-knowledge-check
+metadata:
+  title: Create and manage entitlements in Microsoft Dynamics 365
+  description: This knowledge check will test your knowledge of creating and managing entitlements in Microsoft Dynamics 365.
+  ms.date: 12/7/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+title: Create and manage entitlements in Microsoft Dynamics 365
+durationInMinutes: 5
+quiz:
+  title: Create and manage entitlements in Microsoft Dynamics 365 knowledge check
+  questions:
+  - content: Which of the following is an allotment type that's available for entitlements and entitlement templates? 
+    choices: 
+    - content: Dollar amount.
+      incorrectExplanation: When entitlements are created, two allotment options are available, Number of cases and Number of hours. (Source - Creating entitlements) 
+      isCorrect: false
+    - content: Coverage dates.
+      incorrectExplanation: When entitlements are created, two allotment options are available, Number of cases and Number of hours. (Source - Creating entitlements) 
+      isCorrect: false
+    - content: Number of cases.
+      correctExplanation: When entitlements are created, two allotment options are available, Number of cases and Number of hours. (Source - Creating entitlements)
+      isCorrect: true
+    - content: Type of cases.
+      incorrectExplanation: When entitlements are created, two allotment options are available, Number of cases and Number of hours. (Source - Creating entitlements)
+      isCorrect: false
+  - content: Which of the following components can be associated with entitlements templates? 
+    choices: 
+    - content: Products.
+      correctExplanation: Entitlement templates provide a template for creating entitlement records. They can include allotment amounts, available channel types, and products. Because entitlement templates are used to create entitlement records, they aren't customer-specific. Therefore, they can't be associated with customer records like an account or contact. (Source - Entitlement templates)
+      isCorrect: true
+    - content: Knowledge base.
+      incorrectExplanation: Entitlement templates provide a template for creating entitlement records. They can include allotment amounts, available channel types, and products. Because entitlement templates are used to create entitlement records, they aren't customer-specific. Therefore, they can't be associated with customer records like an account or contact. (Source - Entitlement templates)
+      isCorrect: false
+    - content: Contacts.
+      incorrectExplanation: Entitlement templates provide a template for creating entitlement records. They can include allotment amounts, available channel types, and products. Because entitlement templates are used to create entitlement records, they aren't customer-specific. Therefore, they can't be associated with customer records like an account or contact. (Source - Entitlement templates)
+      isCorrect: false
+    - content: Accounts.
+      incorrectExplanation: Entitlement templates provide a template for creating entitlement records. They can include allotment amounts, available channel types, and products. Because entitlement templates are used to create entitlement records, they aren't customer-specific. Therefore, they can't be associated with customer records like an account or contact. (Source - Entitlement templates)
+      isCorrect: false
+  - content: Which of the following statuses can an entitlement be renewed in? 
+    choices: 
+    - content: Draft.
+      incorrectExplanation: Entitlements can be in one of five statuses, Draft, Active, Waiting, Expired, or Cancelled. Cases can be associated only with active entitlements. Entitlements can be renewed, but only when they are expired or canceled. To renew an entitlement that's active, you must first cancel the entitlement. (Source - Entitlement overview)
+      isCorrect: false
+    - content: Active.
+      incorrectExplanation: Entitlements can be in one of five statuses, Draft, Active, Waiting, Expired, or Cancelled. Cases can be associated only with active entitlements. Entitlements can be renewed, but only when they are expired or canceled. To renew an entitlement that's active, you must first cancel the entitlement. (Source - Entitlement overview)
+      isCorrect: false
+    - content: Cancelled.
+      correctExplanation: Entitlements can be in one of five statuses, Draft, Active, Waiting, Expired, or Cancelled. Cases can be associated only with active entitlements. Entitlements can be renewed, but only when they are expired or canceled. To renew an entitlement that's active, you must first cancel the entitlement. (Source - Entitlement overview)
+      isCorrect: true
+    - content: Waiting.
+      incorrectExplanation: Entitlements can be in one of five statuses, Draft, Active, Waiting, Expired, or Cancelled. Cases can be associated only with active entitlements. Entitlements can be renewed, but only when they are expired or canceled. To renew an entitlement that's active, you must first cancel the entitlement. (Source - Entitlement overview)
+      isCorrect: false

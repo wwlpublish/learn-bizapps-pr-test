@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.3-managing-entitlement-terms
+title: Manage entitlement terms
+metadata:
+  title: Manage entitlement terms
+  description: Manage entitlement terms
+  ms.date: 12/7/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-managing-entitlement-terms.md)]

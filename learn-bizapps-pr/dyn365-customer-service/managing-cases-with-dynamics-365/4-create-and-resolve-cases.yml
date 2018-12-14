@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.customer-service-cases.4-create-and-resolve-cases
+title: Exercise - Create and resolve cases
+metadata:
+  title: Exercise - Create and resolve cases
+  description: Exercise - Creating and resolving cases 
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-create-and-resolve-cases.md)]

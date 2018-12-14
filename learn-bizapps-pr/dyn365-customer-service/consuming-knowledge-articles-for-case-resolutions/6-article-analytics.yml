@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.6-article-analytics
+title: Article analytics
+metadata:
+  title: Article analytics
+  description: Article analytics
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-article-analytics.md)]

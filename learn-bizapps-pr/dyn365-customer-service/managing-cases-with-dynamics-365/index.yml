@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-bizapps.customer-service-cases
+metadata:
+  title: Managing cases with Microsoft Dynamics 365 for Customer Service
+  description: Create cases, manage the case resolution process, work with case hierarchies, and merge similar cases.       
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Managing cases with Microsoft Dynamics 365 for Customer Service
+summary: Microsoft Dynamics 365 for Customer Service lets organizations better serve their customers and manage agent caseloads by providing a wide range of case management options. Whether agents are looking for more efficient ways to create cases or better ways to manage the case lifecycle, the case management tools in Microsoft Dynamics 365 can help them throughout the management process.      
+abstract: |
+    Let's take a look at the following:
+    - Examine the case resolution process in Dynamics 365 from beginning to end
+    - Identify the different options that are available for creating and defining cases
+    - Use business process flows to guide agents through case resolution
+    - Review when and how parent/child cases are used
+    - Identify when similar cases should be merged
+    - Work with case status reason transitions, and configure custom status transitions
+prerequisites: The target audience should have a basic understanding of how to move around in the Dynamics 365 application and a working knowledge of the core records that are available.  
+iconUrl: /learn/achievements/get-started-with-cases-for-dynamics-365-customer-service.svg
+levels: 
+- intermediate
+roles: 
+- functional-consultant
+products: 
+- bizapps
+- bizapps-d365
+units:
+- learn-bizapps.customer-service-cases.1-case-management-overview
+- learn-bizapps.customer-service-cases.2-case-creation-and-lifecycle
+- learn-bizapps.customer-service-cases.3-case-creation-automation-considerations
+- learn-bizapps.customer-service-cases.4-create-and-resolve-cases
+- learn-bizapps.customer-service-cases.5-case-management-scenarios
+- learn-bizapps.customer-service-cases.6-case-management-scenarios-dashboards
+- learn-bizapps.customer-service-cases.7-case-management-scenarios-work-case
+- learn-bizapps.customer-service-cases.8-working-with-status-reason-transitions
+- learn-bizapps.customer-service-cases.9-managing-cases-in-dynamics-365
+- learn-bizapps.customer-service-cases.10-knowledge-check
+- learn-bizapps.customer-service-cases.11-summary-and-clean-up
+achievement: learn.customer-service-cases.badge
