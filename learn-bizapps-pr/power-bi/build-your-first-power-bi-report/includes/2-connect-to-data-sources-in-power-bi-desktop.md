@@ -8,7 +8,7 @@ Imagine you’re retiring – you want to live where there’s lots of sunshine,
 
 Either way, the following web resource has interesting data about those topics, and more:
 
-[https://go.microsoft.com/fwlink/?linkid=2050811](https://go.microsoft.com/fwlink/?linkid=2050811/?azure-portal=true "best-places-retire-how-state-ranks")
+[Best places to retire state ranks](https://go.microsoft.com/fwlink/?linkid=2050811/?azure-portal=true)
 
 Select **Get Data \> Web**, and paste the address.
 
