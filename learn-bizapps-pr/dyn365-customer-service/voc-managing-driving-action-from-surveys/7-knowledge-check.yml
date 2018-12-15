@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.voc-managing-driving-action-from-surveys.7-knowledge-check
+metadata:
+  title: Voice of the Customer - Manage and drive actions from survey responses knowledge check
+  description: This knowledge check will test your knowledge of the Voice of the Customer - Manage and drive actions from survey responses module.
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+title: Check your knowledge
+durationInMinutes: 5
+quiz:
+  title: Voice of the Customer - Manage and drive actions from survey responses knowledge check
+  questions:
+  - content: You've created a new customer satisfaction survey, and you plan to distribute it anonymously. Which records in Microsoft Dynamics 365 can the responses be associated with? 
+    choices:
+    - content: Account
+      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Trigger actions from survey data)
+      isCorrect: false
+    - content: Contact
+      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Trigger actions from survey data)
+      isCorrect: false
+    - content: Lead
+      correctExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Trigger actions from survey data)
+      isCorrect: true
+    - content: Regarding record
+      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Trigger actions from survey data)
+      isCorrect: false
+  - content: You want a customer satisfaction survey to be sent automatically when cases in Dynamics 365 are resolved. You want to make sure that all piped data is filled with Dynamics 365 data. Where do you need to specify the values that are used as the piped data values?
+    choices: 
+    - content: As variables in the workflow.
+      incorrectExplanation: When you include piped data in a survey, the survey must be able to determine what values to pipe into the questions. Therefore, in the survey snippet that you use to distribute the survey, you must define values for every placeholder that's included. The values can be either static values or dynamic values. (Source - Distributing surveys)
+      isCorrect: false
+    - content: In the Subject field of the email activity that's created.
+      incorrectExplanation: When you include piped data in a survey, the survey must be able to determine what values to pipe into the questions. Therefore, in the survey snippet that you use to distribute the survey, you must define values for every placeholder that's included. The values can be either static values or dynamic values. (Source - Distributing surveys)
+      isCorrect: false
+    - content: In the custom action that's referenced in the workflow.
+      incorrectExplanation: When you include piped data in a survey, the survey must be able to determine what values to pipe into the questions. Therefore, in the survey snippet that you use to distribute the survey, you must define values for every placeholder that's included. The values can be either static values or dynamic values. (Source - Distributing surveys)
+      isCorrect: false
+    - content: In the survey snippet that's included in the email activity.
+      correctExplanation: When you include piped data in a survey, the survey must be able to determine what values to pipe into the questions. Therefore, in the survey snippet that you use to distribute the survey, you must define values for every placeholder that's included. The values can be either static values or dynamic values. (Source - Distributing surveys)
+      isCorrect: true
+  - content: You have a survey that's in a testing environment, and you want to move it to a production environment. How will you move the survey to your production environment? 
+    choices: 
+    - content: Clone the survey from the test environment to the production environment.
+      incorrectExplanation: Voice of the Customer provides multiple options for reusing existing data from surveys. To make an exact copy of a survey in the current environment, you can clone it. You can also import sections from one survey into other surveys. To move a survey from one environment to another environment, you can import the survey's XML into the new environment. (Source - Importing surveys)
+      isCorrect: false
+    - content: Publish the survey from the test environment to the production environment.
+      incorrectExplanation: Voice of the Customer provides multiple options for reusing existing data from surveys. To make an exact copy of a survey in the current environment, you can clone it. You can also import sections from one survey into other surveys. To move a survey from one environment to another environment, you can import the survey's XML into the new environment. (Source - Importing surveys)
+      isCorrect: false
+    - content: Import the survey from the test environment into the production environment.
+      correctExplanation: Voice of the Customer provides multiple options for reusing existing data from surveys. To make an exact copy of a survey in the current environment, you can clone it. You can also import sections from one survey into other surveys. To move a survey from one environment to another environment, you can import the survey's XML into the new environment. (Source - Importing surveys)
+      isCorrect: true
+    - content: Import all sections from the test environment into a new server in the production environment.
+      incorrectExplanation: Voice of the Customer provides multiple options for reusing existing data from surveys. To make an exact copy of a survey in the current environment, you can clone it. You can also import sections from one survey into other surveys. To move a survey from one environment to another environment, you can import the survey's XML into the new environment. (Source - Importing surveys)
+      isCorrect: false

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.voc-response-routing-survey-scoring.2-personalizing-surveys-piped-data
+title: Personalize surveys by using piped data
+metadata:
+  title: Personalize surveys by using piped data
+  description: Personalize surveys by using piped data
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-personalizing-surveys-piped-data.md)]
