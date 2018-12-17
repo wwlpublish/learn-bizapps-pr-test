@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-bizapps.voc-response-routing-survey-scoring
+metadata:
+  title: Response routing and survey scoring options in Voice of the Customer for Dynamics 365
+  description: This module will focus on how to use advanced survey options to tailor the experience of survey respondents. It includes information about linking survey questions, using client-side and server-side routing options, creating survey scoring models, and personalizing surveys by using piped data.
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Response routing and survey scoring options in Voice of the Customer for Dynamics 365
+summary: This module will focus on how to use advanced survey options to tailor the experience of survey respondents. It include information about linking survey questions, using client-side and server-side routing options, creating survey scoring models, and personalizing surveys by using piped data.
+abstract: |
+   In this module, you will:
+   - Personalize surveys by including data from Microsoft Dynamics 365
+   - Link questions across a single survey or multiple surveys
+   - Create survey and question scoring models 
+   - Drive actions, based on survey scores
+   - Use response routing in surveys by configuring conditions, defining client routing actions, defining server routing actions, and so on
+prerequisites: The target audience should have a basic understanding of how to move around the Dynamics 365 application and a working knowledge of the core records that are available. Students should also be familiar with the basic functionality of the Voice of the Customer solution, like deployment and survey creation. Familiarity with modules like Sales, Customer Service, and Field Service is also helpful, but isn't required.
+iconUrl: /learn/achievements/response-routing-and-survey-options.svg 
+levels: 
+- intermediate
+roles: 
+- business-user
+- functional-consultant
+products: 
+- bizapps
+- bizapps-d365
+units:
+- learn-bizapps.voc-response-routing-survey-scoring.1-overview-personalization-scoring-scenarios
+- learn-bizapps.voc-response-routing-survey-scoring.2-personalizing-surveys-piped-data
+- learn-bizapps.voc-response-routing-survey-scoring.3-linking-survey-questions
+- learn-bizapps.voc-response-routing-survey-scoring.4-survey-scoring
+- learn-bizapps.voc-response-routing-survey-scoring.5-survey-response-routing
+- learn-bizapps.voc-response-routing-survey-scoring.6-configuring-client-server-response-routing-actions
+- learn-bizapps.voc-response-routing-survey-scoring.7-design-personalized-survey-experience-using-piped-data-routing-rules
+- learn-bizapps.voc-response-routing-survey-scoring.8-knowledge-check
+- learn-bizapps.voc-response-routing-survey-scoring.9-summary-and-clean-up
+achievement: learn.voc-response-routing-survey-scoring.badge

@@ -1,0 +1,72 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.designing-voc-surveys.8-knowledge-check
+metadata:
+  title: Design Voice of the Customer surveys
+  description: This quiz will test your knowledge of designing Voice of the Customer surveys.
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+title: Check your knowledge
+durationInMinutes: 3
+quiz:
+  title: Design Voice of the Customer surveys knowledge check
+  questions: 
+  - content: Which of the following statements about the use of images in surveys is correct?
+    choices: 
+    - content: Images can be used as section logos.
+      correctExplanation: Voice of the Customer lets you upload images, and then use them as either survey logos or section logos. You can't use uploaded images in reporting graphics, as question logos, or to replace the default images for rating questions. (Source - Deploy Voice of the Customer Solution)
+      isCorrect: true
+    - content: Images can be used in reporting graphics.
+      incorrectExplanation: Voice of the Customer lets you upload images, and then use them as either survey logos or section logos. You can't use uploaded images in reporting graphics, as question logos, or to replace the default images for rating questions. (Source - Deploy Voice of the Customer Solution)
+      isCorrect: false
+    - content: Images can be used as question logos.
+      incorrectExplanation: Voice of the Customer lets you upload images, and then use them as either survey logos or section logos. You can't use uploaded images in reporting graphics, as question logos, or to replace the default images for rating questions. (Source - Deploy Voice of the Customer Solution)
+      isCorrect: false
+    - content: Images can replace the default images for rating questions.
+      incorrectExplanation: Voice of the Customer lets you upload images, and then use them as either survey logos or section logos. You can't use uploaded images in reporting graphics, as question logos, or to replace the default images for rating questions. (Source - Deploy Voice of the Customer Solution)
+      isCorrect: false
+  - content: Which of the following survey pages would you use to change the image that's associated with a survey? 
+    choices: 
+    - content: Survey
+      correctExplanation: Each survey has three pages that can be used to help create and design surveys, and to view survey analytics. The pages are named Survey, Designer, and Dashboard. You use the Survey page to configure survey-specific items, like unsubscribe capabilities, themes, and images and logos. You use the Designer page to design the survey experience by doing things like defining pages and questions. The Dashboard page provides access to analytics. (Source - Creating surveys)
+      isCorrect: true
+    - content: Configuration
+      incorrectExplanation: Each survey has three pages that can be used to help create and design surveys, and to view survey analytics. The pages are named Survey, Designer, and Dashboard. You use the Survey page to configure survey-specific items, like unsubscribe capabilities, themes, and images and logos. You use the Designer page to design the survey experience by doing things like defining pages and questions. The Dashboard page provides access to analytics. (Source - Creating surveys)
+      isCorrect: false
+    - content: Designer
+      incorrectExplanation: Each survey has three pages that can be used to help create and design surveys, and to view survey analytics. The pages are named Survey, Designer, and Dashboard. You use the Survey page to configure survey-specific items, like unsubscribe capabilities, themes, and images and logos. You use the Designer page to design the survey experience by doing things like defining pages and questions. The Dashboard page provides access to analytics. (Source - Creating surveys)
+      isCorrect: false
+    - content: Dashboard
+      incorrectExplanation: Each survey has three pages that can be used to help create and design surveys, and to view survey analytics. The pages are named Survey, Designer, and Dashboard. You use the Survey page to configure survey-specific items, like unsubscribe capabilities, themes, and images and logos. You use the Designer page to design the survey experience by doing things like defining pages and questions. The Dashboard page provides access to analytics. (Source - Creating surveys)
+      isCorrect: false
+  - content: You created a customer satisfaction survey, and you plan to distribute it anonymously. Which records in Microsoft Dynamics 365 can the responses be associated with? 
+    choices: 
+    - content: Account
+      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Creating surveys)
+      isCorrect: false
+    - content: Lead
+      correctExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Creating surveys)
+      isCorrect: true
+    - content: Contact
+      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Creating surveys)
+      isCorrect: false
+    - content: Regarding
+      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Creating surveys)
+      isCorrect: false
+  - content: You created a survey that will be used for marketing purposes, and you didn't set it up for feedback. What's the maximum number of questions that the survey can have?
+    choices: 
+    - content: '40' 
+      incorrectExplanation: Surveys that are created in Voice of the Customer are published to a Microsoft Azure hosting service. Responses to those surveys are pulled from the service into Dynamics 365. To help guarantee optimal performance, surveys that aren't set up for feedback are limited to 250 questions. Surveys that are set up for feedback are limited to 40 questions. (Source - Deploying Voice of the Customer)
+      isCorrect: false
+    - content: '25' 
+      incorrectExplanation: Surveys that are created in Voice of the Customer are published to a Microsoft Azure hosting service. Responses to those surveys are pulled from the service into Dynamics 365. To help guarantee optimal performance, surveys that aren't set up for feedback are limited to 250 questions. Surveys that are set up for feedback are limited to 40 questions. (Source - Deploying Voice of the Customer)
+      isCorrect: false
+    - content: '200' 
+      incorrectExplanation: Surveys that are created in Voice of the Customer are published to a Microsoft Azure hosting service. Responses to those surveys are pulled from the service into Dynamics 365. To help guarantee optimal performance, surveys that aren't set up for feedback are limited to 250 questions. Surveys that are set up for feedback are limited to 40 questions. (Source - Deploying Voice of the Customer)
+      isCorrect: false
+    - content: '250'
+      correctExplanation: Surveys that are created in Voice of the Customer are published to a Microsoft Azure hosting service. Responses to those surveys are pulled from the service into Dynamics 365. To help guarantee optimal performance, surveys that aren't set up for feedback are limited to 250 questions. Surveys that are set up for feedback are limited to 40 questions. (Source - Deploying Voice of the Customer)
+      isCorrect: true

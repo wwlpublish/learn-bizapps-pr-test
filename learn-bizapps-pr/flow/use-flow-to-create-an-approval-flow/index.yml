@@ -1,7 +1,7 @@
 ### YamlMime:Module 
 uid: learn-bizapps.flow-create-approval 
 metadata: 
-  title: Create an approval flow 
+  title: Create an approval flow with Microsoft Flow
   description: Learn how to create an approval request for a SharePoint list.
   ms.date: 09/24/2018
   #TODO: Update with real author name.
@@ -10,7 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
   #ms.learn-contact: margoc
-title: Create an approval flow 
+title: Create an approval flow with Microsoft Flow 
 summary: Learn the basics of creating an approval flow for a SharePoint list.
 abstract: |
    In this module, you will:

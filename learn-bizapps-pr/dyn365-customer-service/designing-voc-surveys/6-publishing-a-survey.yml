@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.designing-voc-surveys.6-publishing-a-survey
+title: Publish a survey
+metadata:
+  title: Publish a survey
+  description: Publish a survey
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/6-publishing-a-survey.md)]

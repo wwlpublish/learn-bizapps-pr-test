@@ -35,6 +35,11 @@ achievements:
   title: Working with Connected Field Service and IoT
   summary: Trophy for the 'Working with Connected Field Service and IoT.
   iconUrl: /learn/achievements/working-with-connected-field-service-and-iot.svg
+- uid: learn.dyn365-voice-of-customer.trophy
+  type: trophy
+  title: Dynamics 365 Voice of the Customer
+  summary: Trophy for the 'Dynamics 365 Voice of the Customer' learning path.
+  iconUrl: /learn/achievements/creating-surveys-with-microsoft-dynamics-365-voice-of-the-customer.svg
 - uid: learn.work-with-entitlements-and-slas-dyn365-customer-service.trophy
   type: trophy
   title: Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service
@@ -130,6 +135,21 @@ achievements:
   title: Using IoT Central with Connected Field Service
   summary: Badge for the 'Using IoT Central with Connected Field Service' module.
   iconUrl: /learn/achievements/using-iot-central-with-connected-field-service.svg
+- uid: learn.designing-voc-surveys.badge
+  type: badge
+  title: Designing Voice of the Customer Surveys
+  summary: Badge for the 'Designing Voice of the Customer Surveys' module.
+  iconUrl: /learn/achievements/designing-voc-surveys.svg
+- uid: learn.voc-response-routing-survey-scoring.badge
+  type: badge
+  title: Response Routing and Survey Scoring Options
+  summary: Badge for the 'Response Routing and Survey Scoring Options' module.
+  iconUrl: /learn/achievements/response-routing-and-survey-options.svg
+- uid: learn.voc-managing-driving-action-from-surveys.badge
+  type: badge
+  title: Managing and Driving Action from Survey Responses
+  summary: Badge for the 'Managing and Driving Action from Survey Responses' module.
+  iconUrl: /learn/achievements/managing-and-driving-actions-from-surveys.svg
 - uid: learn.using-dynamics-365-queues-to-manage-case-workloads.badge 
   type: badge
   title: Using queues to manage case workloads in Microsoft Dynamics 365 for Customer Service

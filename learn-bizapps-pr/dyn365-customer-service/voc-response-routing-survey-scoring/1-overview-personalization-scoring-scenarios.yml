@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.voc-response-routing-survey-scoring.1-overview-personalization-scoring-scenarios
+title: Overview of personalization and scoring scenarios
+metadata:
+  title: Overview of personalization and scoring scenarios
+  description: Overview of personalization and scoring scenarios
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 3
+content: |
+  [!include[](includes/1-overview-personalization-scoring-scenarios.md)]

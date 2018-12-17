@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.designing-voc-surveys.5-designing-survey-questions
+title: Design survey questions
+metadata:
+  title: Design survey questions
+  description: Design survey questions
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/5-designing-survey-questions.md)]
