@@ -44,7 +44,7 @@ You work for a company that provides help desk support for its customers. They h
 5.  Select the **Voice of the Customer** application and click **Manage**.
 6.  Using the **drop-down box**, select the instance you want to deploy Voice of the Customer to.
 7.  Accept the Dynamics 365 License agreement.
-8.  Click the **Install** button. It can take 10 - 5 minutes for the solution install to complete.
+8.  Click the **Install** button. It can take 10 - 15 minutes for the solution install to complete.
 9.  Close the **Setup Voice of the Customer** Tab.
 10. In the Dynamics 365 Admin Center, click **INSTANCES**.
 11. Locate and select the instance you installed the Voice of the Customer Solution to.
