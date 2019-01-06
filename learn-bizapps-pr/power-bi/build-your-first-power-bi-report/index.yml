@@ -24,7 +24,8 @@ roles:
 - business-user
 - business-analyst
 products:
-- bizapps
+- power-platform
+- power-bi
 units:
 - learn-bizapps.build-your-first-report.1-introduction
 - learn-bizapps.build-your-first-report.2-connect-to-data-sources-in-power-bi-desktop
