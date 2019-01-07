@@ -25,8 +25,8 @@ levels:
 roles: 
 - functional-consultant
 products: 
-- bizapps
-- bizapps-d365
+- dynamics
+- dynamics-customer-service
 units:
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.1-entitlement-overview
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.2-creating-entitlement-records

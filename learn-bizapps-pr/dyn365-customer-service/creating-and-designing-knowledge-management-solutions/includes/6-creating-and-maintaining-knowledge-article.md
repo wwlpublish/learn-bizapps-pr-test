@@ -112,7 +112,7 @@ You're the knowledge base expert at your company. You've been asked to create a 
 1. In the Customer Service Hub, in the site map, select the wrench symbol to go to **Cases**.
 2. On the command bar, select **New Case**.
 3. Enter the following information for the new case:
-    - **Cast Title:** Trouble installing updates
+    - **Case Title:** Trouble installing updates
     - **Subject:** Information
     - **Customer:** Adventure Works
     - **Origin:** Phone

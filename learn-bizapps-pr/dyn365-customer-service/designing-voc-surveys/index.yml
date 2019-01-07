@@ -26,8 +26,9 @@ roles:
 - business-user
 - functional-consultant
 products: 
-- bizapps
-- bizapps-d365
+- dynamics
+- dynamics-sales
+- dynamics-customer-service
 units:
 - learn-bizapps.designing-voc-surveys.1-customer-engagement-with-voc-overview
 - learn-bizapps.designing-voc-surveys.2-deploy-voc-solution

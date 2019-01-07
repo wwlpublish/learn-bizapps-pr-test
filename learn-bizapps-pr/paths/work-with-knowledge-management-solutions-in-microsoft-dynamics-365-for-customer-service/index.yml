@@ -20,8 +20,8 @@ levels:
 roles:
 - functional-consultant
 products:
-- bizapps
-- bizapps-d365
+- dynamics
+- dynamics-customer-service
 modules:
 - learn-bizapps.creating-and-designing-knowledge-management-solutions
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions

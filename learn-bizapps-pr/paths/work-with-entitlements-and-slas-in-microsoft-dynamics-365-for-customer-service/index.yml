@@ -20,8 +20,8 @@ levels:
 roles:
 - functional-consultant
 products:
-- bizapps
-- bizapps-d365
+- dynamics
+- dynamics-customer-service
 modules:
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365
 - learn-bizapps.dynamics-365-service-level-agreements

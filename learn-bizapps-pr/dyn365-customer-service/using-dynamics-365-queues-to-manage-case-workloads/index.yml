@@ -24,8 +24,8 @@ levels:
 roles: 
 - functional-consultant
 products: 
-- bizapps
-- bizapps-d365
+- dynamics
+- dynamics-customer-service
 units:
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.1-dynamics-365-queues-overview
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.2-configuring-entities-for-queues
