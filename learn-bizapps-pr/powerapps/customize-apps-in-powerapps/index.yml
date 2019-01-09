@@ -22,16 +22,15 @@ abstract: |
   - Format a number as a price
   - Color prices based on their values
   - Explore formulas in a generated app
-prerequisites: None
+prerequisites: A Canvas App in Microsoft PowerApps
 iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
 levels:  
 - beginner 
 roles:  
 - business-user 
 products:  
-- bizapps
-- bizapps-d365
-- bizapps-power-apps
+- power-platform
+- powerapps
 units: 
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore

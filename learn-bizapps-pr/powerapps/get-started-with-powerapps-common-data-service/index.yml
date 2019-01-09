@@ -23,10 +23,9 @@ levels:
 roles:  
 - business-user 
 products:  
-- bizapps
-- bizapps-d365
-- bizapps-flow
-- bizapps-power-apps
+- flow
+- power-platform
+- powerapps
 units: 
 - learn-bizapps.powerapps-common-data-service.1-introduction
 - learn-bizapps.powerapps-common-data-service.2-learn-about-entities

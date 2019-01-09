@@ -21,7 +21,7 @@ Let's start with the currency formatting. By default, PowerApps just pulls in a 
 
 1. To add the currency symbol for US dollars, set the **Text** property to this formula:
 
-    `Text(Price, "[$-en-US]$ ##.00")`
+    `Text(Price; "[$-en-US]$ ##.00")`
 
 The **Text** function specifies how to format the number. The formula is like an Excel function, but PowerApps formulas refer to controls and other app elements instead of cells in a workbook.
 
