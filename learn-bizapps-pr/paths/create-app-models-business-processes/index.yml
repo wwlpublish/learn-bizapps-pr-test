@@ -19,8 +19,8 @@ levels:
 roles:
 - business-user
 products:
-- bizapps
-- bizapps-power-apps
+- power-platform
+- powerapps
 modules:
 - learn-bizapps.powerapps-design-model-driven-apps
 - learn-bizapps.powerapps-common-data-service

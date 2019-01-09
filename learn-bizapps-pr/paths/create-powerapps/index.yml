@@ -20,8 +20,8 @@ levels:
 roles:
 - business-user
 products:
-- bizapps
-- bizapps-power-apps
+- power-platform
+- powerapps
 modules:
 - learn-bizapps.powerapps-get-started
 - learn-bizapps.powerapps-customize

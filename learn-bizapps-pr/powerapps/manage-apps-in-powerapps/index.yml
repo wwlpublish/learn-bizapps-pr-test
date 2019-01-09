@@ -25,9 +25,8 @@ levels:
 roles: 
 - business-user
 products: 
-- bizapps
-- bizapps-d365
-- bizapps-power-apps
+- power-platform
+- powerapps
 units: 
 - learn-bizapps.powerapps-manage.1-powerapps-versions
 - learn-bizapps.powerapps-manage.2-powerapps-share
