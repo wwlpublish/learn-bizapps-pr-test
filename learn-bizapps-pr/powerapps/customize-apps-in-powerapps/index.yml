@@ -22,7 +22,7 @@ abstract: |
   - Format a number as a price
   - Color prices based on their values
   - Explore formulas in a generated app
-prerequisites: None
+prerequisites: A Canvas App in Microsoft PowerApps
 iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
 levels:  
 - beginner 

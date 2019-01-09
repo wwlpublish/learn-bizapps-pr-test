@@ -16,8 +16,12 @@ Keep in mind that you can use data from lots of other sources, including Microso
 
 1. In the left pane, select **Apps**.
 
-1. Select **Create an app**.
 
+
+1. Select **Canavas app** from balank from the dropdown menu​
+
+
+1. Select **Create an app**. 
 1. For the **OneDrive for Business** data source, select **Phone layout**.
 
     ![Phone app from SharePoint list](../media/powerapps-start-excel.png)
@@ -32,6 +36,8 @@ Keep in mind that you can use data from lots of other sources, including Microso
 1. Select **Connect**.
 
 PowerApps generates the app by inspecting your data and matching it with PowerApps capabilities so that you get a working app as a starting point.
+
+Please note that you have to choose to preview the app before you can get to the PowerApps Studio.
 
 ## Explore the generated app
 Success! Your new three-screen app opens in PowerApps Studio.
@@ -53,6 +59,9 @@ All apps generated from data have the same set of screens that you can view from
 * **Browse screen**: This screen appears by default. In it, you can browse, sort, filter, and refresh the data from the data source. In the browse screen, you add items to the data source by selecting the plus sign (**+**).
 * **Details screen**: Select an item in the browse screen to open the details screen, which shows all details about an item. In this screen, you can open an item for editing or delete it.
 * **Edit/create screen**: In this screen, you edit an existing item, or you create one.
+
+To make your app visible on the phone it needs to be saved. ​Click **File**, **Save as** with the title "flooring-estimates app". ​You will see green checkmark when all changes are successfully saved.
+Now open **PowerApps** app on your phone and select "flooring-estimates app". If you cannot find the app try search mode within the PowerApps on your mobile device.
 
 ## Install the app on your device
 You'll want to install your app on your phone to see how it looks there.
