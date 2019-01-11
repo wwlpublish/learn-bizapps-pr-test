@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-build-more.12-flow-create-business-process-flow-branching
+title: Create a business process flow that has conditions
+metadata: 
+  title: Create a business process flow that has conditions
+  description: Learn how to create a business process flow that has branches to handle a process that is more complex with conditions.
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 8
+content: | 
+  [!include[](includes/12-flow-create-business-process-flow-branching.md)] 

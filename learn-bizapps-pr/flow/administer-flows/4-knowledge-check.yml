@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-administration.4-knowledge-check
+title: Check your knowledge
+metadata: 
+  title: "Knowledge check: Administer flows" 
+  description: This quiz tests your knowledge of how to administer flows
+  ms.date: 01/09/2019
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 6
+quiz: 
+  title: "Knowledge check: Administer flows" 
+  questions: 
+  - content: After a flow has been exported, who can import the flow? 
+    choices:  
+    - content: Only System Customizers 
+      incorrectExplanation: Anyone that receives the zip file can import it.
+      isCorrect: false 
+    - content: Only System Administrators
+      incorrectExplanation: Anyone that receives the zip file can import it.
+      isCorrect: false 
+    - content: Only the user that exported the flow
+      incorrectExplanation: Anyone that receives the zip file can import it.
+      isCorrect: false 
+    - content: Anyone that receives the zip file can import it
+      correctExplanation: Anyone that recieves the zip file can import the flow.
+      isCorrect: true 
+  - content: Which of the following is a requirement to share button flows?
+    choices: 
+    - content: An account that has access to Microsoft Flow. 
+      correctExplanation: A Microsoft Flow account is a requirement to share button flows.
+      isCorrect: true 
+    - content: An account that is a System Customizer.
+      incorrectExplanation: It is not a requirement to be a System Customizer to share a flow.
+      isCorrect: false 
+    - content: An account that is a System Administrator.
+      incorrectExplanation: It is not a requirement to be a System Administrator to share a flow.
+      isCorrect: false 
+    - content: A SharePoint account and Microsoft Flow sharing rights.
+      incorrectExplanation: It is not a requirement to have a Sharepoint account or sharing rights to share a button flow.
+      isCorrect: false 

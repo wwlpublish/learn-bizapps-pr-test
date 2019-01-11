@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-build-more.3-flow-process-approval-request
+title: Build a flow that processes an approval request
+metadata: 
+  title: Build a flow that processes an approval request
+  description: Create a flow that process an approval request that uses SharePoint and Flow to approval tweets.
+  ms.date: 1/09/2019
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 8 
+content: | 
+  [!include[](includes/3-flow-process-approval-request.md)] 

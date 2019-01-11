@@ -1,10 +1,5 @@
 ### YamlMime:Achievements
 achievements:
-#- uid: learn.module-template.badge #sample achievement badge for module template.
-#  type: badge
-#  title: Module template
-#  summary: Module template badge.
-#  iconUrl: http://via.placeholder.com/120x120
 - uid: learn.automate-process-using-flow.trophy
   type: trophy
   title: Automate a business process using Flow Trophy
@@ -135,6 +130,16 @@ achievements:
   title: Using IoT Central with Connected Field Service
   summary: Badge for the 'Using IoT Central with Connected Field Service' module.
   iconUrl: /learn/achievements/using-iot-central-with-connected-field-service.svg
+- uid: learn.flow-build-more.badge 
+  type: badge
+  title: Build more complex flows
+  summary: Badge for the 'Build more complex flows' module.
+  iconUrl: /learn/achievements/build-more-flows.svg
+- uid: learn.flow-administration.badge 
+  type: badge
+  title: Learn to administer flows badge
+  summary: Badge for the 'Learn how to administer flows' module.
+  iconUrl: /learn/achievements/administer-flows.svg  
 - uid: learn.designing-voc-surveys.badge
   type: badge
   title: Designing Voice of the Customer Surveys

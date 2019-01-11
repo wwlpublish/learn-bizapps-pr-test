@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-build-more.7-flow-recurring
+title: Learn to build a flow that runs at recurring time intervals
+metadata: 
+  title: Learn to build a flow that runs at recurring time intervals
+  description: Learn to build a flow that runs at the same time on a recurring schedule.
+  ms.date: 1/09/2019
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 8 
+content: | 
+  [!include[](includes/7-flow-recurring.md)] 
