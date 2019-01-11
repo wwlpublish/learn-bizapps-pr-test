@@ -16,7 +16,7 @@ Select the **Save Office 365 email attachments to OneDrive for Business** templa
 
 On the template graphic, there's a description of what the template does and what it needs to succeed.
 
-You'll be asked to provide credentials for the Microsoft Office 365 Outlook and Microsoft SharePoint services. If you regularly use both services, you'll already be signed in.
+You'll be asked to provide credentials for the Microsoft Office 365 Outlook and Microsoft OneDrive for Business services. If you regularly use both services, you'll already be signed in.
 
 1. Select **Create Flow**.
 
@@ -36,7 +36,7 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
     ![Select the flow](../media/click-the-flow.png)
 
-4. You should see a green check mark, which indicates that the flow succeeded. 
+4. Send an email with an attachment, or have another user send an email with an attachment. You then should see a green check mark, which indicates that the flow succeeded. 
 5. Select **Edit** to see how the flow is defined.
 
     ![Actions on new email](../media/trigger-or-action.png) 

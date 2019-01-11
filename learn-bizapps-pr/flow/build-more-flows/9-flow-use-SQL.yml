@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-build-more.9-flow-use-SQL
+title: Build a flow that uses SQL
+metadata: 
+  title: Build a flow that uses SQL
+  description: Learn to build a flow that uses SQL to update information.
+  ms.date: 1/09/2019
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 8
+content: | 
+  [!include[](includes/9-flow-use-SQL.md)] 

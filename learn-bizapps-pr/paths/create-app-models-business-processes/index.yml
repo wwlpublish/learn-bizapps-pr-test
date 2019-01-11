@@ -24,5 +24,4 @@ products:
 modules:
 - learn-bizapps.powerapps-design-model-driven-apps
 - learn-bizapps.powerapps-common-data-service
-- learn-bizapps.flow-create-approval
 achievement: learn.create-app-models-business-processes.trophy

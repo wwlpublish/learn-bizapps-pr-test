@@ -3,7 +3,7 @@ uid: learn-bizapps.flow-get-started
 metadata: 
   title: Get started with Microsoft Flow 
   description: Learn how to create simple flows to make your life easier.
-  ms.date: 09/24/2018
+  ms.date: 1/09/2019
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
@@ -11,7 +11,7 @@ metadata:
   ms.prod: learning-flow
   #ms.learn-contact: margoc
 title: Get started with Microsoft Flow 
-summary: Microsoft Flow is an online workflow service that automates events (known as *workflows*) across the most common apps and services.
+summary: Microsoft Flow is an online workflow service that automates actions across the most common apps and services.
 abstract: |
     In this module, you will:
     - Create a flow that automatically saves email attachments
@@ -26,13 +26,18 @@ levels:
 roles:  
 - business-user 
 products:  
-- bizapps
-- bizapps-d365
-- bizapps-flow
+- power-platform
+- flow
 units: 
 - learn-bizapps.flow-get-started.1-flow-introduction
 - learn-bizapps.flow-get-started.2-flow-create-first
-- learn-bizapps.flow-get-started.3-flow-mobile-app
-- learn-bizapps.flow-get-started.4-quiz-flow-get-started
-- learn-bizapps.flow-get-started.5-summary-cleanup
+- learn-bizapps.flow-get-started.3-learn-to-use-flow-mobile-app
+- learn-bizapps.flow-get-started.4-flow-get-notifications
+- learn-bizapps.flow-get-started.5-flow-copy-files
+- learn-bizapps.flow-get-started.6-flow-scheduled-flows
+- learn-bizapps.flow-get-started.7-flow-post-tweets
+- learn-bizapps.flow-get-started.8-flow-team-flows
+- learn-bizapps.flow-get-started.9-troubleshoot-flows
+- learn-bizapps.flow-get-started.10-knowledge-check
+- learn-bizapps.flow-get-started.11-summary-cleanup
 achievement: learn.flow-get-started.badge

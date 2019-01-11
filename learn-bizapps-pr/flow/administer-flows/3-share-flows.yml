@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-administration.3-share-flows
+title: Learn how to distribute button flows
+metadata: 
+  title: Learn how to distribute button flows
+  description: Learn how to share button flows with others on your team.
+  ms.date: 01/09/2019
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 12 
+content: | 
+  [!include[](includes/3-share-flows.md)] 

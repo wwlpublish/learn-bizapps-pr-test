@@ -1,14 +1,20 @@
-Welcome to Microsoft Flow! In this module, you'll learn how to build two flows.
+Welcome to Microsoft Flow! In this module, you'll learn how to build flows.
 
 If you're a beginner with Microsoft Flow, this module will get you going. If you already have some experience, this module will tie concepts together and fill in the gaps.
 
 ## Learning objectives
 In this module, you will:
-   - Create a flow that automatically saves email attachments.
-   - Learn how to create a button flow to send yourself a reminder.
+   - Learn what Microsoft Flow is and how it can be used
+   - Create a flow that automatically saves email attachments
+   - Learn how to create a button flow to send yourself a reminder
+   - Create a flow that sends you notifications
+   - Create a flow that copies files
+   - Create a flow that runs on a schedule
+   - Create a flow that posts tweets
+   - Create a flow that your team can use
 
 ## What is Microsoft Flow?
-Microsoft Flow is an online workflow service that automates events (known as *workflows*) across the most common apps and services. For example, you can create a flow that adds a lead to Microsoft Dynamics 365 and a record in MailChimp whenever someone with more than 100 followers tweets about your company.
+Microsoft Flow is an online workflow service that automates actions across the most common apps and services. For example, you can create a flow that adds a lead to Microsoft Dynamics 365 and a record in MailChimp whenever someone with more than 100 followers tweets about your company.
 
 ![Flow conceptual sketch](../media/flow-conceptual.png)
 
@@ -48,11 +54,11 @@ The following example shows a flow that saves tweets with the hashtag #Microsoft
 
 ![The same tweet in Excel](../media/excel-tweets.png)
 
-Finally, you can automate approval loops for things like vacation requests on a SharePoint list.
+Also, you can automate approval loops for things like vacation requests on a SharePoint list.
 
 ![List of vacation requests in SharePoint](../media/vacation-requests.png)
 
-For more ideas, browse our list of templates. Templates help you build flows in just a few steps. For example, you can easily build flows to send yourself weather forecasts, reminders at regular intervals, or phone notifications whenever your manager sends you mail.
+For more ideas, browse our list of templates. Templates help you build flows by making a few configuration changes. For example, you can use templates to easily build flows to send yourself weather forecasts, reminders at regular intervals, or phone notifications whenever your manager sends you mail.
 
 ![List of templates](../media/templates-you-might-use.png)
 
@@ -64,7 +70,7 @@ You can create a flow and perform administrative tasks in a browser or, if you d
 
 ![Screenshot of the mobile app](../media/screen-mobile-app.png)
 
-Here are some of the tasks you can perform:
+Here are some of the tasks you can perform with the mobile app:
 
 * Turn flows on or off from wherever you are.
 * See when a flow has failed.
@@ -82,9 +88,11 @@ When you sign in to Microsoft Flow, you'll find these menus:
 * **Templates**, where you can take a look at some of the most popular templates. These should give you some great ideas for flows you want to try.
 * **Approvals**, where you can automate and streamline your approval process.
 * **Connectors**, (formerly called Services), where you can connect from one service to another.
+* **Data**, where you can access entities, connections, custom connectors and gateways.
+* **Solutions**, where you can manage your solutions. 
 * **Learn**, where you can find information that will help you quickly ramp up on Microsoft Flow.
 
-For now, let's focus on the **Learn** menu, which has these options:
+For now, let's focus on the **?** menu next to your login, which has these options:
 
 * **Documentation** is where our advanced topics reside. If you want to really understand a feature or function, you can do a deep dive here to figure things out.
 * **Learn** has learning paths to guide you through using Microsoft Flow, all the way from beginning techniques to advanced scenarios.

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-get-started.7-flow-post-tweets
+title: Post tweets with Microsoft Flow
+metadata: 
+  title: Post tweets with Microsoft Flow
+  description: Learn how to post tweets by using SharePoint with Microsoft Flow.
+  ms.date: 01/09/2019
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 5 
+content: | 
+  [!include[](includes/7-flow-post-tweets.md)] 

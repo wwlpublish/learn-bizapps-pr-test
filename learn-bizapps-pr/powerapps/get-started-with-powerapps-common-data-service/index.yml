@@ -23,7 +23,6 @@ levels:
 roles:  
 - business-user 
 products:  
-- flow
 - power-platform
 - powerapps
 units: 
