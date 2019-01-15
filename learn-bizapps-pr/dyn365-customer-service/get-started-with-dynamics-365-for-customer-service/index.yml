@@ -32,4 +32,5 @@ units:
 - learn-bizapps.customer-service-get-started.3-customer-service-get-started-modern
 - learn-bizapps.customer-service-get-started.4-knowledge check-customer-service
 - learn-bizapps.customer-service-get-started.5-summary-cleanup
-achievement: learn.customer-service-get-started.badge
+badge:
+  uid: learn.customer-service-get-started.badge

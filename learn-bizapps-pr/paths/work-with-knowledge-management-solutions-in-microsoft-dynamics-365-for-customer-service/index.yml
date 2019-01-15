@@ -25,4 +25,5 @@ products:
 modules:
 - learn-bizapps.creating-and-designing-knowledge-management-solutions
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions
-achievement: learn.work-with-knowledge-management-solutions-dyn365-customer-service.trophy
+trophy:
+  uid: learn.work-with-knowledge-management-solutions-dyn365-customer-service.trophy

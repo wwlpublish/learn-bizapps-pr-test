@@ -35,4 +35,5 @@ units:
 - learn-bizapps.creating-and-designing-knowledge-management-solutions.6-creating-and-maintaining-knowledge-article
 - learn-bizapps.creating-and-designing-knowledge-management-solutions.7-knowledge-check
 - learn-bizapps.creating-and-designing-knowledge-management-solutions.8-summary
-achievement: learn.creating-and-designing-knowledge-management-solutions.badge
+badge:
+  uid: learn.creating-and-designing-knowledge-management-solutions.badge

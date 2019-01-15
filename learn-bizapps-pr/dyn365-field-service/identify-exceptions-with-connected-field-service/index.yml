@@ -36,4 +36,5 @@ units:
 - learn-bizapps.identify-exceptions-with-connected-field-service.6-anomaly-detection
 - learn-bizapps.identify-exceptions-with-connected-field-service.7-knowledge-check
 - learn-bizapps.identify-exceptions-with-connected-field-service.8-summary-and-cleanup
-achievement: learn.identify-exceptions-with-connected-field-service.badge
+badge:
+  uid: learn.identify-exceptions-with-connected-field-service.badge

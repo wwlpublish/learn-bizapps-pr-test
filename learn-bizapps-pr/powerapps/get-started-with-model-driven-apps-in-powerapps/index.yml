@@ -33,4 +33,5 @@ units:
 - learn-bizapps.powerapps-design-model-driven-apps.5-control-security-when-sharing-model-driven-apps
 - learn-bizapps.powerapps-design-model-driven-apps.6-knowledge-check
 - learn-bizapps.powerapps-design-model-driven-apps.7-summary
-achievement: learn.powerapps-design-model-driven-apps.badge  
+badge:
+  uid: learn.powerapps-design-model-driven-apps.badge

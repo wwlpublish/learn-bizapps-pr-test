@@ -34,4 +34,5 @@ units:
 - learn-bizapps.powerapps-manage.4-review-powerapps
 - learn-bizapps.powerapps-manage.5-quiz-manage-apps
 - learn-bizapps.powerapps-manage.6-summary-cleanup
-achievement: learn.powerapps-manage.badge
+badge:
+  uid: learn.powerapps-manage.badge

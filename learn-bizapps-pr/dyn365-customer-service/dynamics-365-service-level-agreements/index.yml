@@ -38,4 +38,5 @@ units:
 - learn-bizapps.dynamics-365-service-level-agreements.7-managing-kpis-using-service-level-agreements
 - learn-bizapps.dynamics-365-service-level-agreements.8-knowledge-check
 - learn-bizapps.dynamics-365-service-level-agreements.9-summary-and-clean-up
-achievement: learn.dynamics-365-service-level-agreements.badge
+badge:
+  uid: learn.dynamics-365-service-level-agreements.badge

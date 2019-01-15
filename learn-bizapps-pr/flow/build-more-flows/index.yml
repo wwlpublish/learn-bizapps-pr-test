@@ -38,4 +38,5 @@ units:
 - learn-bizapps.flow-build-more.13-monitor-flows
 - learn-bizapps.flow-build-more.14-knowledge-check
 - learn-bizapps.flow-build-more.15-summary
-achievement: learn.flow-build-more.badge
+badge:
+  uid: learn.flow-build-more.badge

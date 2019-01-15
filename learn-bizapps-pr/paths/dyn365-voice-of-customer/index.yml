@@ -31,4 +31,5 @@ modules:
 - learn-bizapps.designing-voc-surveys
 - learn-bizapps.voc-response-routing-survey-scoring
 - learn-bizapps.voc-managing-driving-action-from-surveys
-achievement: learn.dyn365-voice-of-customer.trophy
+trophy:
+  uid: learn.dyn365-voice-of-customer.trophy

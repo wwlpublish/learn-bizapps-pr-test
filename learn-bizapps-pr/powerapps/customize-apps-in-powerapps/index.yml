@@ -37,4 +37,5 @@ units:
 - learn-bizapps.powerapps-customize.3-powerapps-functions
 - learn-bizapps.powerapps-customize.4-quiz-customize-an-app
 - learn-bizapps.powerapps-customize.5-summary-cleanup
-achievement: learn.powerapps-customize.badge  
+badge:
+  uid: learn.powerapps-customize.badge

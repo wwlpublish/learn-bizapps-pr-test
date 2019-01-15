@@ -36,4 +36,5 @@ units:
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.7-use-routing-rules-to-assign-cases-to-specific-queues
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.8-knowledge-check
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.9-summary-and-clean-up
-achievement: learn.using-dynamics-365-queues-to-manage-case-workloads.badge
+badge:
+  uid: learn.using-dynamics-365-queues-to-manage-case-workloads.badge

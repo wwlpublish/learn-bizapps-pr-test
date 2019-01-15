@@ -37,4 +37,5 @@ units:
 - learn-bizapps.voc-managing-driving-action-from-surveys.6-manage-survey-distribution-drive-next-steps
 - learn-bizapps.voc-managing-driving-action-from-surveys.7-knowledge-check
 - learn-bizapps.voc-managing-driving-action-from-surveys.8-summary-and-clean-up
-achievement: learn.voc-managing-driving-action-from-surveys.badge
+badge:
+  uid: learn.voc-managing-driving-action-from-surveys.badge

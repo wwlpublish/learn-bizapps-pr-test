@@ -40,4 +40,5 @@ units:
 - learn-bizapps.flow-get-started.9-troubleshoot-flows
 - learn-bizapps.flow-get-started.10-knowledge-check
 - learn-bizapps.flow-get-started.11-summary-cleanup
-achievement: learn.flow-get-started.badge
+badge:
+  uid: learn.flow-get-started.badge
