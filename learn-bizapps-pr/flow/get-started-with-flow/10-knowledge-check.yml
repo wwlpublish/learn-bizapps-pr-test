@@ -17,28 +17,28 @@ quiz:
   - content: How can you create a flow that reoccurs daily? 
     choices:  
     - content: Create the flow and connect the flow to a calendar.
-      incorrectExplanation: Set the Schedule – Recurrence trigger frequency to daily and interval to 1 to create a flow that reoccurs daily.
+      explanation: Set the Schedule – Recurrence trigger frequency to daily and interval to 1 to create a flow that reoccurs daily.
       isCorrect: false 
     - content: Create the flow and set the flow flag frequency to daily reoccurrence.
-      incorrectExplanation: Set the Schedule – Recurrence trigger frequency to daily and interval to 1 to create a flow that reoccurs daily.
+      explanation: Set the Schedule – Recurrence trigger frequency to daily and interval to 1 to create a flow that reoccurs daily.
       isCorrect: false 
     - content: Set the Schedule – Recurrence trigger frequency to daily and interval to 1.
-      correctExplanation: This is how you can create a flow that reoccurs on a daily basis. 
+      explanation: This is how you can create a flow that reoccurs on a daily basis. 
       isCorrect: true 
     - content: Create the flow and set the flow flag frequency to hourly and the value to 24.
-      incorrectExplanation: Set the Schedule – Recurrence trigger frequency to daily and interval to 1 to create a flow that reoccurs daily. 
+      explanation: Set the Schedule – Recurrence trigger frequency to daily and interval to 1 to create a flow that reoccurs daily. 
       isCorrect: false
   - content: Every flow has two main parts, a trigger, and one or more actions. Which of the following best describes an action? 
     choices: 
     - content: Actions are what you want to happen when a trigger is invoked. 
-      correctExplanation: Triggers invoke actions. 
+      explanation: Triggers invoke actions. 
       isCorrect: true 
     - content: Actions will trigger the frequency of the flow reoccurrence. 
-      incorrectExplanation: Actions will not trigger a flow reoccurrence. Actions occur when triggers are invoked.
+      explanation: Actions will not trigger a flow reoccurrence. Actions occur when triggers are invoked.
       isCorrect: false 
     - content: Triggers are what you want to happen when an action is invoked. 
-      incorrectExplanation: Actions are what you want to happen when a trigger is invoked. 
+      explanation: Actions are what you want to happen when a trigger is invoked. 
       isCorrect: false 
     - content: Flow actions trigger the flow to occur as long as the defined value of the trigger is met.
-      incorrectExplanation: Triggers invoke actions. 
+      explanation: Triggers invoke actions. 
       isCorrect: false

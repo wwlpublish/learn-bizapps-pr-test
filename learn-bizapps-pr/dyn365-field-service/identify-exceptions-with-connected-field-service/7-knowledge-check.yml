@@ -16,69 +16,69 @@ quiz:
   - content: Which of the following need to be modified to change the rules used to raise alerts with the Connected Field Service template application?
     choices: 
     - content: Dynamics 365
-      incorrectExplanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
+      explanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
       isCorrect: false
     - content: IoT Hub Routing Rules
-      incorrectExplanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
+      explanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
       isCorrect: false
     - content: Azure Stream Analytics Job 
-      correctExplanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
+      explanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
       isCorrect: true
     - content: Azure Cosmos DB
-      incorrectExplanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
+      explanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
       isCorrect: false
     - content: Customer Asset
-      incorrectExplanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
+      explanation: Azure Stream Analytics job is used to change the rules to raise alerts with Connected Field Service.
       isCorrect: false
   - content: To add additional fields to the Alert Data on the IoT Alert in Dynamics 365 what do you need to modify or create? 
     choices: 
     - content: The Select Into statement for the AlertQueue
-      correctExplanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
+      explanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
       isCorrect: true
     - content: The Logic App that processes the AlertQueue 
-      incorrectExplanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
+      explanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
       isCorrect: false
     - content: Create an Azure Function to add the additional data
-      incorrectExplanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
+      explanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
       isCorrect: false
     - content: Create a workflow that runs on the IoT Alert when created
-      incorrectExplanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
+      explanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
       isCorrect: false
     - content: You cannot modify the data that is stored in the Alert Data field
-      incorrectExplanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
+      explanation: Modify the Select Into statement for the AlertQueue to add additional fields to the Alert Data.
       isCorrect: false
   - content: If you had static rules and stateless processing for anomaly detection and wanted to simplify the creation of IoT Alerts what would be an alternative?
     choices: 
     - content: Replace the current process with a workflow in Dynamics 365 to ingest and evaluate the device data
-      correctExplanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
+      explanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
       isCorrect: true
     - content: The Logic App that processes the AlertQueue 
-      incorrectExplanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
+      explanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
       isCorrect: false
     - content: Create an Azure Function to add the additional data
-      incorrectExplanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
+      explanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
       isCorrect: false
     - content: Create a workflow that runs on the IoT Alert when created
-      incorrectExplanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
+      explanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
       isCorrect: false
     - content: You cannot modify the data that is stored in the Alert Data field
-      incorrectExplanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
+      explanation: Simplify the creation of IoT alerts with a Dynamics 365 workflow.
       isCorrect: false
   - content: In order to modify the Azure Stream Analytics Job to change the criteria you must?
     choices: 
     - content: Disable the crm-to-IotHub Logic App
-      incorrectExplanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
+      explanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
       isCorrect: false
     - content: Disable the iot-to-crm Logic App
-      incorrectExplanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
+      explanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
       isCorrect: false
     - content: Delete and re-create the Stream Analytics Job 
-      incorrectExplanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
+      explanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
       isCorrect: false
     - content: Stop the Stream Analytics job
-      correctExplanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
+      explanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
       isCorrect: true
     - content: Put Dynamics 365 into Admin Mode
-      incorrectExplanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
+      explanation: You need to stop the Stream Analytics job to modify the Azure Stream Analytics.
       isCorrect: false
 

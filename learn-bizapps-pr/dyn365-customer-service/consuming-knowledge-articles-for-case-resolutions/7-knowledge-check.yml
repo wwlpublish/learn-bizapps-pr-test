@@ -18,48 +18,48 @@ quiz:
   - content: Out of the box, which entity is set up to use the knowledge search functionality by default?  
     choices: 
     - content: Lead.
-      incorrectExplanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
+      explanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
       isCorrect: false
     - content: Case.
-      correctExplanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
+      explanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
       isCorrect: true
     - content: Account.
-      incorrectExplanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
+      explanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
       isCorrect: false
     - content: Contact.
-      incorrectExplanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
+      explanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
       isCorrect: false
     - content: Work Order.
-      incorrectExplanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
+      explanation: Dynamics 365 lets you use the knowledge search functionality on any entity in the application. Although the functionality can be turned on for multiple entities, it's turned on by default for the Case entity only. Any entity that must use knowledge search must have the functionality turned on in the knowledge base settings. (Source - Enabling and configuring Knowledge Search)
       isCorrect: false
   - content: By default, which field is searched to provide knowledge article suggestions? 
     choices: 
     - content: Case Title.
-      correctExplanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
+      explanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
       isCorrect: true
     - content: Description.
-      incorrectExplanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
+      explanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
       isCorrect: false
     - content: Case Number.
-      incorrectExplanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
+      explanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
       isCorrect: false
     - content: Category.
-      incorrectExplanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
+      explanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
       isCorrect: false
     - content: Origin.
-      incorrectExplanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
+      explanation: You can customize the Knowledge Base Search control on the Case entity to control things like how many results are returned and which field's value is used as default search text in the control. Only one field can be defined for the control. Out of the box, the Case Title field is used. (Source -  Configuring article search options)
       isCorrect: false
   - content: Which information isn't accessible from the Related information pane for a knowledge article?
     choices: 
     - content: Related Categories.
-      incorrectExplanation: The Related information pane for a knowledge article provides quick access to several record types that are often associated with knowledge articles. For example, you can access categories, products, articles, and cases that are related to the article. But you can't access information about specific customers that the article has been used to resolve cases for. (Source - Article analytics)
+      explanation: The Related information pane for a knowledge article provides quick access to several record types that are often associated with knowledge articles. For example, you can access categories, products, articles, and cases that are related to the article. But you can't access information about specific customers that the article has been used to resolve cases for. (Source - Article analytics)
       isCorrect: false
     - content: Related Products.
-      incorrectExplanation: The Related information pane for a knowledge article provides quick access to several record types that are often associated with knowledge articles. For example, you can access categories, products, articles, and cases that are related to the article. But you can't access information about specific customers that the article has been used to resolve cases for. (Source - Article analytics)
+      explanation: The Related information pane for a knowledge article provides quick access to several record types that are often associated with knowledge articles. For example, you can access categories, products, articles, and cases that are related to the article. But you can't access information about specific customers that the article has been used to resolve cases for. (Source - Article analytics)
       isCorrect: false
     - content: Related Articles.
-      incorrectExplanation: The Related information pane for a knowledge article provides quick access to several record types that are often associated with knowledge articles. For example, you can access categories, products, articles, and cases that are related to the article. But you can't access information about specific customers that the article has been used to resolve cases for. (Source - Article analytics)
+      explanation: The Related information pane for a knowledge article provides quick access to several record types that are often associated with knowledge articles. For example, you can access categories, products, articles, and cases that are related to the article. But you can't access information about specific customers that the article has been used to resolve cases for. (Source - Article analytics)
       isCorrect: false
     - content: Related Customer. 
-      correctExplanation: The Related information pane for a knowledge article provides quick access to several record types that are often associated with knowledge articles. For example, you can access categories, products, articles, and cases that are related to the article. But you can't access information about specific customers that the article has been used to resolve cases for. (Source - Article analytics)
+      explanation: The Related information pane for a knowledge article provides quick access to several record types that are often associated with knowledge articles. For example, you can access categories, products, articles, and cases that are related to the article. But you can't access information about specific customers that the article has been used to resolve cases for. (Source - Article analytics)
       isCorrect: true
