@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.flow-build-more 
+metadata: 
+  title: Build more complex flows with Microsoft Flow
+  description: Learn how to build more complex flows that automate events.
+  ms.date: 1/09/2019
+  #TODO: Update with real author name.
+  author: Toney001
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+  #ms.learn-contact: margoc
+title: Build more complex flows with Microsoft Flow 
+summary: Microsoft Flow is an online workflow service that automates actions across the most common apps and services. In this module, you'll build more advanced flows to streamline your business, save time, and work more efficiently.  
+abstract: Build more advanced flows to get notifications, copy files between online services, posts tweets, convert and store documents, and more. 
+prerequisites: You must have signed up for Microsoft Flow, and have a OneDrive for Business account.
+iconUrl: /learn/achievements/build-more-flows.svg
+levels:  
+- beginner 
+roles:  
+- business-user 
+products:  
+- power-platform
+- flow
+units: 
+- learn-bizapps.flow-build-more.1-introduction
+- learn-bizapps.flow-build-more.2-flow-create-approval-request
+- learn-bizapps.flow-build-more.3-flow-process-approval-request
+- learn-bizapps.flow-build-more.4-flow-store-documents
+- learn-bizapps.flow-build-more.5-flow-use-tokens
+- learn-bizapps.flow-build-more.6-flow-accepts-user-input
+- learn-bizapps.flow-build-more.7-flow-recurring
+- learn-bizapps.flow-build-more.8-flow-event-D365
+- learn-bizapps.flow-build-more.9-flow-use-SQL
+- learn-bizapps.flow-build-more.10-flow-integrate-powerapps
+- learn-bizapps.flow-build-more.11-flow-create-business-process-flow
+- learn-bizapps.flow-build-more.12-flow-create-business-process-flow-branching
+- learn-bizapps.flow-build-more.13-monitor-flows
+- learn-bizapps.flow-build-more.14-knowledge-check
+- learn-bizapps.flow-build-more.15-summary
+badge:
+  uid: learn.flow-build-more.badge

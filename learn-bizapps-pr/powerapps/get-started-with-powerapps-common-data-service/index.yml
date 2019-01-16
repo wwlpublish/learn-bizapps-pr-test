@@ -23,14 +23,13 @@ levels:
 roles:  
 - business-user 
 products:  
-- bizapps
-- bizapps-d365
-- bizapps-flow
-- bizapps-power-apps
+- power-platform
+- powerapps
 units: 
 - learn-bizapps.powerapps-common-data-service.1-introduction
 - learn-bizapps.powerapps-common-data-service.2-learn-about-entities
 - learn-bizapps.powerapps-common-data-service.3-create-a-cds-entity
 - learn-bizapps.powerapps-common-data-service.4-import-data-into-your-database
 - learn-bizapps.powerapps-common-data-service.5-summary
-achievement: learn.powerapps-common-data-service.badge 
+badge:
+  uid: learn.powerapps-common-data-service.badge

@@ -6,6 +6,8 @@ In this unit, we'll look at how to create an app from a sample app, a template, 
 ### Check out some sample apps
 On [https://web.powerapps.com](https://web.powerapps.com), you'll be greeted with several sample apps that you can use in your web browser. Explore these apps to quickly get a sense of what's possible and how PowerApps can help your business.
 
+To view sample apps, click on the **Create** function from the **Menu**, and scroll down to see al available sample apps.
+
 ![PowerApps sample apps](../media/powerapps-samples.png)
 
 Each sample app is designed for a specific purpose, such as:

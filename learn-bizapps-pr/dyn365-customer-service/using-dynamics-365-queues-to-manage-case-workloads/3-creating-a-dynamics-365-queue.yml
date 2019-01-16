@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.3-creating-a-dynamics-365-queue
+title: Create a Microsoft Dynamics 365 queue
+metadata:
+  title: Create a Microsoft Dynamics 365 queue
+  description: Create a Microsoft Dynamics 365 queue
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-creating-a-dynamics-365-queue.md)]

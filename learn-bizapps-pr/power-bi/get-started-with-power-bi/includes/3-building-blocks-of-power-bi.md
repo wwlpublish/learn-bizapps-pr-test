@@ -35,7 +35,7 @@ An important and enabling part of Power BI is the multitude of data **connectors
 After you have a dataset, you can begin creating visualizations that show different portions of it in different ways, and gain insights based on what you see. That's where reports come in.
 
 ## Reports
-In Power BI, a **report** is a collection of visualizations that appear together on one or more pages. Just like any other report you might create for a sales presentation or write for a school assignment, a report in Power BI is a collection of items that are related to each another. The following image shows a **report** in Power BI Desktop—in this case, it's the fifth page in a six-page report. You can also create reports in the Power BI service.
+In Power BI, a **report** is a collection of visualizations that appear together on one or more pages. Just like any other report you might create for a sales presentation or write for a school assignment, a report in Power BI is a collection of items that are related to each other. The following image shows a **report** in Power BI Desktop—in this case, it's the fifth page in a six-page report. You can also create reports in the Power BI service.
 
 ![Power BI reports](../media/pbi-bblocks_03.png)
 

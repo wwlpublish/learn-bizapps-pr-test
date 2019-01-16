@@ -24,7 +24,8 @@ roles:
 - business-user
 - business-analyst
 products:
-- bizapps
+- power-platform
+- power-bi
 units:
 - learn-bizapps.build-your-first-report.1-introduction
 - learn-bizapps.build-your-first-report.2-connect-to-data-sources-in-power-bi-desktop
@@ -33,4 +34,5 @@ units:
 - learn-bizapps.build-your-first-report.5-exercise-share-a-power-bi-report
 - learn-bizapps.build-your-first-report.6-summary-cleanup
 - learn-bizapps.power-bi.7-build-your-first-power-bi-report-quiz
-achievement: learn.build-your-first-report.badge
+badge:
+  uid: learn.build-your-first-report.badge

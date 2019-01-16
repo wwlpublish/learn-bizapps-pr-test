@@ -1,0 +1,43 @@
+### YamlMime:Module
+uid: learn-bizapps.designing-voc-surveys
+metadata:
+  title: Design Voice of the Customer for Dynamics 365 surveys 
+  description: This module will focus on how to drive customer engagement through surveys by using the Microsoft Dynamics 365 Voice of the Customer solution. It explains how to deploy the Voice of the Customer solution, use themes and images in surveys, design surveys, design survey questions, and control survey options like unsubscribe options.
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Design Voice of the Customer for Dynamics 365 surveys
+summary: This module will focus on how to drive customer engagement through surveys by using the Microsoft Dynamics 365 Voice of the Customer solution. It explains how to deploy the Voice of the Customer solution, use themes and images in surveys, design surveys, design survey questions, and control survey options like unsubscribe options.
+abstract: |
+   In this module, you will:
+   - Deploy and configure the Voice of the Customer solution
+   - Design survey themes and upload custom survey images
+   - Explain the different options that are available for capturing responses, and the use cases for each option
+   - Add and modify survey pages
+   - Design survey questions
+   - Edit survey settings
+prerequisites: The target audience should have a basic understanding of how to move around the Dynamics 365 application, and also a working knowledge of the core records that are available. Basic familiarity with modules like Sales, Customer Service, and Field Service is also helpful but isn't required.
+iconUrl: /learn/achievements/designing-voc-surveys.svg 
+levels: 
+- intermediate
+roles: 
+- business-user
+- functional-consultant
+products: 
+- dynamics
+- dynamics-sales
+- dynamics-customer-service
+units:
+- learn-bizapps.designing-voc-surveys.1-customer-engagement-with-voc-overview
+- learn-bizapps.designing-voc-surveys.2-deploy-voc-solution
+- learn-bizapps.designing-voc-surveys.3-creating-surveys
+- learn-bizapps.designing-voc-surveys.4-survey-design
+- learn-bizapps.designing-voc-surveys.5-designing-survey-questions
+- learn-bizapps.designing-voc-surveys.6-publishing-a-survey
+- learn-bizapps.designing-voc-surveys.7-create-voc-survey
+- learn-bizapps.designing-voc-surveys.8-knowledge-check
+- learn-bizapps.designing-voc-surveys.9-summary-and-clean-up
+badge:
+  uid: learn.designing-voc-surveys.badge

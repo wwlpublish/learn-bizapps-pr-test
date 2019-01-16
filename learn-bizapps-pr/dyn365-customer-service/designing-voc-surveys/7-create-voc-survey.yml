@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.designing-voc-surveys.7-create-voc-survey
+title: Create a Voice of the Customer survey
+metadata:
+  title: Create a Voice of the Customer survey
+  description: Create a Voice of the Customer survey
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 15
+content: |
+  [!include[](includes/7-create-voc-survey.md)]

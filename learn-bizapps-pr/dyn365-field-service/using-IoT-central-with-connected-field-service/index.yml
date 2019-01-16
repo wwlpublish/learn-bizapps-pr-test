@@ -24,8 +24,8 @@ levels:
 roles: 
 - business-user
 products: 
-- bizapps
-- bizapps-d365
+- dynamics
+- dynamics-field-service
 - azure
 - azure-iot-central
 units:
@@ -35,4 +35,5 @@ units:
 - learn-bizapps.using-iot-central-with-connected-field-service.4-creating-an-iot-alert
 - learn-bizapps.using-iot-central-with-connected-field-service.5-knowledge-check
 - learn-bizapps.using-iot-central-with-connected-field-service.6-summary-and-clean-up
-achievement: learn.using-iot-central-with-connected-field-service.badge
+badge:
+  uid: learn.using-iot-central-with-connected-field-service.badge

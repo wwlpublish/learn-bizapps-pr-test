@@ -27,8 +27,8 @@ levels:
 roles: 
 - business-user
 products: 
-- bizapps
-- bizapps-d365
+- dynamics
+- dynamics-field-service
 - azure
 - azure-iot-central
 units:
@@ -40,4 +40,5 @@ units:
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.6-populating-and-sending-commands
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.7-knowledge-check
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.8-summary-and-cleanup
-achievement: learn.register-and-manage-customer-devices-with-connected-field-service.badge
+badge:
+  uid: learn.register-and-manage-customer-devices-with-connected-field-service.badge

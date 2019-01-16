@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.voc-managing-driving-action-from-surveys.6-manage-survey-distribution-drive-next-steps
+title: Exercise - Manage survey distribution and drive next steps
+metadata:
+  title: Exercise - Manage survey distribution and drive next steps
+  description: Manage survey distribution and drive next steps
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 15
+content: |
+  [!include[](includes/6-manage-survey-distribution-drive-next-steps.md)]

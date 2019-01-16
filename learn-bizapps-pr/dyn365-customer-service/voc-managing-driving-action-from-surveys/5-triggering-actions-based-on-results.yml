@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.voc-managing-driving-action-from-surveys.5-triggering-actions-based-on-results
+title: Trigger actions based on results
+metadata:
+  title: Trigger actions based on results
+  description: Trigger actions based on results
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 7
+content: |
+  [!include[](includes/5-triggering-actions-based-on-results.md)]

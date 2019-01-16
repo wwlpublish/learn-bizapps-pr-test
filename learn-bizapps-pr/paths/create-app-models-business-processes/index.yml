@@ -19,10 +19,10 @@ levels:
 roles:
 - business-user
 products:
-- bizapps
-- bizapps-power-apps
+- power-platform
+- powerapps
 modules:
 - learn-bizapps.powerapps-design-model-driven-apps
 - learn-bizapps.powerapps-common-data-service
-- learn-bizapps.flow-create-approval
-achievement: learn.create-app-models-business-processes.trophy
+trophy:
+  uid: learn.create-app-models-business-processes.trophy

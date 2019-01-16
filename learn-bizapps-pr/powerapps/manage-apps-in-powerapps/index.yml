@@ -25,9 +25,8 @@ levels:
 roles: 
 - business-user
 products: 
-- bizapps
-- bizapps-d365
-- bizapps-power-apps
+- power-platform
+- powerapps
 units: 
 - learn-bizapps.powerapps-manage.1-powerapps-versions
 - learn-bizapps.powerapps-manage.2-powerapps-share
@@ -35,4 +34,5 @@ units:
 - learn-bizapps.powerapps-manage.4-review-powerapps
 - learn-bizapps.powerapps-manage.5-quiz-manage-apps
 - learn-bizapps.powerapps-manage.6-summary-cleanup
-achievement: learn.powerapps-manage.badge
+badge:
+  uid: learn.powerapps-manage.badge

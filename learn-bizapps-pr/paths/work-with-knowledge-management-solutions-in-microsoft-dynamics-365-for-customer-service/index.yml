@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.work-with-knowledge-management-solutions-dyn365-customer-service
+metadata:
+  title: Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service
+  description: This learning path focuses on working with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service.  
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-customer-service
+title: Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service
+summary: This learning path focuses on working with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service. 
+prerequisites: |
+  - Have a trial subscription to Dynamics 365 for Customer Engagement
+  - Basic understanding of how to navigate the Dynamics 365 application
+  - Working knowledge of the core records available  
+iconUrl: /learn/achievements/work-with-knowledge-management-solutions-dyn365-customer-service.svg
+levels:
+- beginner
+roles:
+- functional-consultant
+products:
+- dynamics
+- dynamics-customer-service
+modules:
+- learn-bizapps.creating-and-designing-knowledge-management-solutions
+- learn-bizapps.consuming-knowledge-articles-for-case-resolutions
+trophy:
+  uid: learn.work-with-knowledge-management-solutions-dyn365-customer-service.trophy

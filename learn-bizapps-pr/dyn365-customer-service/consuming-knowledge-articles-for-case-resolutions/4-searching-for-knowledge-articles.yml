@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.4-searching-for-knowledge-articles
+title: Search for knowledge articles
+metadata:
+  title: Search for knowledge articles
+  description: Search for knowledge articles
+  ms.date: 12/10/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 10
+content: |
+  [!include[](includes/4-searching-for-knowledge-articles.md)]

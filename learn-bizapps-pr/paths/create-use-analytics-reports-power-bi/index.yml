@@ -20,9 +20,10 @@ levels:
 roles:
 - business-user
 products:
-- bizapps
-- bizapps-power-bi
+- power-platform
+- power-bi
 modules:
 - learn-bizapps.get-started-with-power-bi
 - learn-bizapps.build-your-first-report
-achievement: learn.create-use-analytics-reports-power-bi.trophy
+trophy:
+  uid: learn.create-use-analytics-reports-power-bi.trophy

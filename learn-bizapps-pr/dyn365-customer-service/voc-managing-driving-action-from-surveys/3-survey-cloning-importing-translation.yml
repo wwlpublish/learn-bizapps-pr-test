@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.voc-managing-driving-action-from-surveys.3-survey-cloning-importing-translation
+title: Survey cloning, import, and translation options
+metadata:
+  title: Survey cloning, import, and translation options
+  description: Survey cloning, import, and translation options
+  ms.date: 12/21/2018
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 7
+content: |
+  [!include[](includes/3-survey-cloning-importing-translation.md)]

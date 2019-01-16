@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-administration.2-flow-export-import
+title: Export and import flows
+metadata: 
+  title: Export and import flows
+  description: Learn how to export and import flows to share them with other people on your team.
+  ms.date: 01/09/2019
+  #TODO: Update with real author name.
+  author: margoc
+  ms.author: margoc
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+durationInMinutes: 8 
+content: | 
+  [!include[](includes/2-flow-export-import.md)] 

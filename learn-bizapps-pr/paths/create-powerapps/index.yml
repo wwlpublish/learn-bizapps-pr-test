@@ -20,10 +20,11 @@ levels:
 roles:
 - business-user
 products:
-- bizapps
-- bizapps-power-apps
+- power-platform
+- powerapps
 modules:
 - learn-bizapps.powerapps-get-started
 - learn-bizapps.powerapps-customize
 - learn-bizapps.powerapps-manage
-achievement: learn.create-powerapps.trophy
+trophy:
+  uid: learn.create-powerapps.trophy

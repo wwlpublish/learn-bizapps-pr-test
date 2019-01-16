@@ -22,13 +22,15 @@ levels:
 - beginner
 roles: 
 - business-user
+- functional-consultant
 products: 
-- bizapps
-- bizapps-d365
+- dynamics
+- dynamics-customer-service
 units:
 - learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
 - learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components
 - learn-bizapps.customer-service-get-started.3-customer-service-get-started-modern
-- learn-bizapps.customer-service-get-started.4-quiz-customer-service
+- learn-bizapps.customer-service-get-started.4-knowledge check-customer-service
 - learn-bizapps.customer-service-get-started.5-summary-cleanup
-achievement: learn.customer-service-get-started.badge
+badge:
+  uid: learn.customer-service-get-started.badge

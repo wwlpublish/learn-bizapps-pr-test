@@ -26,9 +26,8 @@ levels:
 roles: 
 - business-user
 products: 
-- bizapps
-- bizapps-d365
-- bizapps-power-apps
+- power-platform
+- powerapps
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction
 - learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
@@ -37,4 +36,5 @@ units:
 - learn-bizapps.powerapps-get-started.5-powerapps-create-first
 - learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
 - learn-bizapps.powerapps-get-started.7-summary-cleanup
-achievement: learn.powerapps-get-started.badge
+badge:
+  uid: learn.powerapps-get-started.badge
