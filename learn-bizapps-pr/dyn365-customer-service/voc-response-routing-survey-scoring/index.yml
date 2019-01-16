@@ -38,4 +38,5 @@ units:
 - learn-bizapps.voc-response-routing-survey-scoring.7-design-personalized-survey-experience-using-piped-data-routing-rules
 - learn-bizapps.voc-response-routing-survey-scoring.8-knowledge-check
 - learn-bizapps.voc-response-routing-survey-scoring.9-summary-and-clean-up
-achievement: learn.voc-response-routing-survey-scoring.badge
+badge:
+  uid: learn.voc-response-routing-survey-scoring.badge

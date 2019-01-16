@@ -26,4 +26,5 @@ modules:
 - learn-bizapps.customer-service-get-started
 - learn-bizapps.customer-service-cases
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads
-achievement: learn.customer-service-hub-cases-slas.trophy
+trophy:
+  uid: learn.customer-service-hub-cases-slas.trophy

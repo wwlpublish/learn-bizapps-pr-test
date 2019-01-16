@@ -16,68 +16,68 @@ quiz:
   - content: Where do you find Connected Field Service add-in to install?
     choices: 
     - content: Azure Marketplace
-      incorrectExplanation: Microsoft AppSource is where you install Connected Field Service app.
+      explanation: Microsoft AppSource is where you install Connected Field Service app.
       isCorrect: false
     - content: Microsoft AppSource
-      correctExplanation: Microsoft AppSource is where you install Connected Field Service app.
+      explanation: Microsoft AppSource is where you install Connected Field Service app.
       isCorrect: true
     - content: It is pre-installed in all environments.
-      incorrectExplanation: Microsoft AppSource is where you install Connected Field Service app.
+      explanation: Microsoft AppSource is where you install Connected Field Service app.
       isCorrect: false
     - content: It is installed with Dynamics 365 for Field Service.
-      incorrectExplanation: Microsoft AppSource is where you install Connected Field Service app.
+      explanation: Microsoft AppSource is where you install Connected Field Service app.
       isCorrect: false
     - content: No installation is required.
-      incorrectExplanation: Microsoft AppSource is where you install Connected Field Service app.
+      explanation: Microsoft AppSource is where you install Connected Field Service app.
       isCorrect: false
   - content: When an exception is encountered in the telemetry what is created in the Connected Field Service template in Dynamics 365?
     choices:
     - content: Work Order
-      incorrectExplanation: Iot alerts are created in the Connected Field Service template.
+      explanation: Iot alerts are created in the Connected Field Service template.
       isCorrect: false
     - content: Case
-      incorrectExplanation: Iot alerts are created in the Connected Field Service template.
+      explanation: Iot alerts are created in the Connected Field Service template.
       isCorrect: false
     - content: A Note on the Customer Asset
-      incorrectExplanation: Iot alerts are created in the Connected Field Service template.
+      explanation: Iot alerts are created in the Connected Field Service template.
       isCorrect: false
     - content: IoT Alert
-      correctExplanation: Iot alerts are created in the Connected Field Service template.
+      explanation: Iot alerts are created in the Connected Field Service template.
       isCorrect: true
     - content: Customer Asset
-      incorrectExplanation: Iot alerts are created in the Connected Field Service template.
+      explanation: Iot alerts are created in the Connected Field Service template.
       isCorrect: false
   - content: What is the default scenario focused on that the Connected Field Service template installs with?
     choices:
     - content: Vibration
-      incorrectExplanation: Temperature is the default Connected Field Service scenario.
+      explanation: Temperature is the default Connected Field Service scenario.
       isCorrect: false
     - content: Smell
-      incorrectExplanation: Temperature is the default Connected Field Service scenario.
+      explanation: Temperature is the default Connected Field Service scenario.
       isCorrect: false
     - content: Motion
-      incorrectExplanation: Temperature is the default Connected Field Service scenario.
+      explanation: Temperature is the default Connected Field Service scenario.
       isCorrect: false
     - content: Humidity
-      incorrectExplanation: Temperature is the default Connected Field Service scenario.
+      explanation: Temperature is the default Connected Field Service scenario.
       isCorrect: false
     - content: Temperature
-      correctExplanation: Temperature is the default Connected Field Service scenario.
+      explanation: Temperature is the default Connected Field Service scenario.
       isCorrect: true
   - content: Which Azure component used by the Connected Field Service template has the logic to determine if an exception has occurred in the telemetry?
     choices:
     - content: Logic App
-      incorrectExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
+      explanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: false
     - content: Azure IoT Hub
-      incorrectExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
+      explanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: false
     - content: Stream Analytics
-      correctExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
+      explanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: true
     - content: Service Bus
-      incorrectExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
+      explanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: false
     - content: It is determined by Dynamics 365 and not in the Azure configured components
-      incorrectExplanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
+      explanation: Stream analytics has the logic to determine if an exception has occurred in the telemetry.
       isCorrect: false

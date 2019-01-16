@@ -36,4 +36,5 @@ units:
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.6-defining-entitlement-templates
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.7-knowledge-check
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.8-summary-and-clean-up
-achievement: learn.creating-and-managing-entitlements-in-dynamics-365.badge
+badge:
+  uid: learn.creating-and-managing-entitlements-in-dynamics-365.badge

@@ -35,4 +35,5 @@ units:
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions.6-article-analytics
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions.7-knowledge-check
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions.8-summary
-achievement: learn.consuming-knowledge-articles-for-case-resolutions.badge
+badge:
+  uid: learn.consuming-knowledge-articles-for-case-resolutions.badge

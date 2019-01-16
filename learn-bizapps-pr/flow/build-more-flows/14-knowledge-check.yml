@@ -17,28 +17,28 @@ quiz:
   - content: What are connectors used for in Microsoft Flow? 
     choices:  
     - content: Connectors are used to start a flow.
-      incorrectExplanation: Connectors let you connect to a service like Twitter. 
+      explanation: Connectors let you connect to a service like Twitter. 
       isCorrect: false 
     - content: Connectors let you share an app.
-      incorrectExplanation: Connectors let you connect to a service like Twitter.
+      explanation: Connectors let you connect to a service like Twitter.
       isCorrect: false 
     - content: Connectors let you connect to a service like Twitter.
-      correctExplanation: Connectors are used to connect to services like Twitter.
+      explanation: Connectors are used to connect to services like Twitter.
       isCorrect: true 
     - content: Connectors are used to connect actions and triggers together in a flow.
-      incorrectExplanation: Connectors are used to connect to services like Twitter. 
+      explanation: Connectors are used to connect to services like Twitter. 
       isCorrect: false 
   - content: How can you define who has privileges to create, read, update, or delete a business process flow instance?
     choices: 
     - content: Only a system administrator has access privileges to new business process flows. 
-      incorrectExplanation: You can assign privileges using Edit Security Roles to users other than a system administrator.
+      explanation: You can assign privileges using Edit Security Roles to users other than a system administrator.
       isCorrect: false 
     - content: Only a system customizer has access privileges to new business process flows.
-      incorrectExplanation: You can assign privileges using Edit Security Roles to users other than a system customizer. 
+      explanation: You can assign privileges using Edit Security Roles to users other than a system customizer. 
       isCorrect: false 
     - content: Activate the business process flow, and then define access privileges for users and administrators.
-      incorrectExplanation: You can assign privileges using Edit Security Roles to users. 
+      explanation: You can assign privileges using Edit Security Roles to users. 
       isCorrect: false 
     - content: Activate the business process flow, and select Edit Security Roles, and define who will have privileges. 
-      correctExplanation: You can use Edit Security Roles to define privileges to users. 
+      explanation: You can use Edit Security Roles to define privileges to users. 
       isCorrect: true 

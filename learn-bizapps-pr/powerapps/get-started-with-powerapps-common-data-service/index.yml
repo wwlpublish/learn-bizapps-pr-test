@@ -31,4 +31,5 @@ units:
 - learn-bizapps.powerapps-common-data-service.3-create-a-cds-entity
 - learn-bizapps.powerapps-common-data-service.4-import-data-into-your-database
 - learn-bizapps.powerapps-common-data-service.5-summary
-achievement: learn.powerapps-common-data-service.badge 
+badge:
+  uid: learn.powerapps-common-data-service.badge

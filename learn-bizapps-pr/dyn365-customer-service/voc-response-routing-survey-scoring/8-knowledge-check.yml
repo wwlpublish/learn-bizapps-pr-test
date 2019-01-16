@@ -17,56 +17,56 @@ quiz:
   - content: You want to personalize a survey so it includes details about the customer who's taking the survey and also some information about the agent who helped the customer with a specific call. How do you include personalized data in a survey? 
     choices: 
     - content: Insert Microsoft Dynamics 365 fields into specific survey components.
-      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Personalizing Surveys with Piped Data)
+      explanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Personalizing Surveys with Piped Data)
       isCorrect: false
     - content: Insert piped data into specific survey components.
-      correctExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Personalizing Surveys with Piped Data)
+      explanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Personalizing Surveys with Piped Data)
       isCorrect: true 
     - content: Associate a specific survey component with a Dynamic 365 entity.
-      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Personalizing Surveys with Piped Data)
+      explanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Personalizing Surveys with Piped Data)
       isCorrect: false
     - content: Create a response routing action that includes the specific Dynamics 365 data.
-      incorrectExplanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Personalizing Surveys with Piped Data)
+      explanation: When surveys are distributed anonymously, leads can be created automatically. Voice of the Customer has a workflow that automatically maps fields in the survey response to the Lead entity. (Source - Personalizing Surveys with Piped Data)
       isCorrect: false
   - content: You want to send a notification to a queue whenever someone gives a low score for a specific question. What feature do you have to use?
     choices: 
     - content: Response routing
-      correctExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. These rules can be used to trigger visual elements or notify Dynamics 365 users to take action. (Source - Response routing)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. These rules can be used to trigger visual elements or notify Dynamics 365 users to take action. (Source - Response routing)
       isCorrect: true
     - content: Feedback
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. These rules can be used to trigger visual elements or notify Dynamics 365 users to take action. (Source - Response routing)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. These rules can be used to trigger visual elements or notify Dynamics 365 users to take action. (Source - Response routing)
       isCorrect: false
     - content: Alert task
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. These rules can be used to trigger visual elements or notify Dynamics 365 users to take action. (Source - Response routing)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. These rules can be used to trigger visual elements or notify Dynamics 365 users to take action. (Source - Response routing)
       isCorrect: false
     - content: Piped data
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. These rules can be used to trigger visual elements or notify Dynamics 365 users to take action. (Source - Response routing)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. These rules can be used to trigger visual elements or notify Dynamics 365 users to take action. (Source - Response routing)
       isCorrect: false
   - content: You want to fill in the text for a question by using a value that was provided in a previous question response. What feature do you have to use? 
     choices: 
     - content: Response routing
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want to question text to be dynamically populated based on the answer to a previous question, you use answer tags. At survey runtime, each answer tag is replaced with the data that's provided in the response that tag is associated with. (Source - Answer tags)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want to question text to be dynamically populated based on the answer to a previous question, you use answer tags. At survey runtime, each answer tag is replaced with the data that's provided in the response that tag is associated with. (Source - Answer tags)
       isCorrect: false
     - content: Alert tasks
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want to question text to be dynamically populated based on the answer to a previous question, you use answer tags. At survey runtime, each answer tag is replaced with the data that's provided in the response that tag is associated with. (Source - Answer tags)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want to question text to be dynamically populated based on the answer to a previous question, you use answer tags. At survey runtime, each answer tag is replaced with the data that's provided in the response that tag is associated with. (Source - Answer tags)
       isCorrect: false
     - content: Answer tags
-      correctExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want to question text to be dynamically populated based on the answer to a previous question, you use answer tags. At survey runtime, each answer tag is replaced with the data that's provided in the response that tag is associated with. (Source - Answer tags)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want to question text to be dynamically populated based on the answer to a previous question, you use answer tags. At survey runtime, each answer tag is replaced with the data that's provided in the response that tag is associated with. (Source - Answer tags)
       isCorrect: true
     - content: Piped data
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want to question text to be dynamically populated based on the answer to a previous question, you use answer tags. At survey runtime, each answer tag is replaced with the data that's provided in the response that tag is associated with. (Source - Answer tags)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want to question text to be dynamically populated based on the answer to a previous question, you use answer tags. At survey runtime, each answer tag is replaced with the data that's provided in the response that tag is associated with. (Source - Answer tags)
       isCorrect: false
   - content: You want to direct respondents to another survey when they answer Yes to a specific question in a survey. What feature do you have to use?
     choices: 
     - content: Linked questions
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. Response routing can be used to trigger visual elements in a survey. For example, it can skip to a specific section, show or hide questions, or even send users to a different survey. (Source - Response routing)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. Response routing can be used to trigger visual elements in a survey. For example, it can skip to a specific section, show or hide questions, or even send users to a different survey. (Source - Response routing)
       isCorrect: false
     - content: Response routing
-      correctExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. Response routing can be used to trigger visual elements in a survey. For example, it can skip to a specific section, show or hide questions, or even send users to a different survey. (Source - Response routing)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. Response routing can be used to trigger visual elements in a survey. For example, it can skip to a specific section, show or hide questions, or even send users to a different survey. (Source - Response routing)
       isCorrect: true
     - content: Answer tags
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. Response routing can be used to trigger visual elements in a survey. For example, it can skip to a specific section, show or hide questions, or even send users to a different survey. (Source - Response routing)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. Response routing can be used to trigger visual elements in a survey. For example, it can skip to a specific section, show or hide questions, or even send users to a different survey. (Source - Response routing)
       isCorrect: false
     - content: Alert tasks
-      incorrectExplanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. Response routing can be used to trigger visual elements in a survey. For example, it can skip to a specific section, show or hide questions, or even send users to a different survey. (Source - Response routing)
+      explanation: Voice of the Customer provides multiple ways to create interactive surveys that meet your specific needs. When you want Dynamics 365 actions to be initiated based on survey data, you must create response routing rules. Response routing can be used to trigger visual elements in a survey. For example, it can skip to a specific section, show or hide questions, or even send users to a different survey. (Source - Response routing)
       isCorrect: false

@@ -26,4 +26,5 @@ modules:
 - learn-bizapps.powerapps-get-started
 - learn-bizapps.powerapps-customize
 - learn-bizapps.powerapps-manage
-achievement: learn.create-powerapps.trophy
+trophy:
+  uid: learn.create-powerapps.trophy

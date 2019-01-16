@@ -35,4 +35,5 @@ modules:
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service
 - learn-bizapps.using-iot-central-with-connected-field-service
 - learn-bizapps.identify-exceptions-with-connected-field-service
-achievement: learn.working-with-connected-field-service-and-iot.trophy
+trophy:
+  uid: learn.working-with-connected-field-service-and-iot.trophy

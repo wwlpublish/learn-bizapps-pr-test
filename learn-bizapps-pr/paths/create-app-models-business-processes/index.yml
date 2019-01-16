@@ -24,4 +24,5 @@ products:
 modules:
 - learn-bizapps.powerapps-design-model-driven-apps
 - learn-bizapps.powerapps-common-data-service
-achievement: learn.create-app-models-business-processes.trophy
+trophy:
+  uid: learn.create-app-models-business-processes.trophy

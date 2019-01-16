@@ -39,4 +39,5 @@ units:
 - learn-bizapps.customer-service-cases.9-managing-cases-in-dynamics-365
 - learn-bizapps.customer-service-cases.10-knowledge-check
 - learn-bizapps.customer-service-cases.11-summary-and-clean-up
-achievement: learn.customer-service-cases.badge
+badge:
+  uid: learn.customer-service-cases.badge

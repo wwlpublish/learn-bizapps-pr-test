@@ -35,4 +35,5 @@ units:
 - learn-bizapps.flow-administration.4-knowledge-check
 - learn-bizapps.flow-administration.5-summary
 
-achievement: learn.flow-administration.badge
+badge:
+  uid: learn.flow-administration.badge

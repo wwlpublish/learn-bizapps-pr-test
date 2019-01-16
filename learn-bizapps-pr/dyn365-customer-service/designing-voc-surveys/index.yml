@@ -39,4 +39,5 @@ units:
 - learn-bizapps.designing-voc-surveys.7-create-voc-survey
 - learn-bizapps.designing-voc-surveys.8-knowledge-check
 - learn-bizapps.designing-voc-surveys.9-summary-and-clean-up
-achievement: learn.designing-voc-surveys.badge
+badge:
+  uid: learn.designing-voc-surveys.badge

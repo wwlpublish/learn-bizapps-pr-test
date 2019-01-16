@@ -26,4 +26,5 @@ modules:
 - learn-bizapps.flow-get-started
 - learn-bizapps.flow-build-more
 - learn-bizapps.flow-administration
-achievement: learn.automate-process-using-flow.trophy
+trophy:
+  uid: learn.automate-process-using-flow.trophy
