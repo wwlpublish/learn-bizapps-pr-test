@@ -5,6 +5,15 @@ This repository contains the Microsoft Learn modules and learning paths for Micr
 To review Microsoft Learn repositories for other products, click the links below:
 
 * [Microsoft Learn - Azure Content Repo](https://github.com/MicrosoftDocs/learn-pr)
+* [Microsoft Learn - Business Applications Content Repo](https://github.com/MicrosoftDocs/learn-bizapps-pr)
+* [Microsoft Learn - Windows Content Repo](https://github.com/MicrosoftDocs/learn-windows-pr)
+* [Microsoft Learn - M365 Content Repo](https://github.com/MicrosoftDocs/learn-m365-pr)
+* [Microsoft Learn - SQL Server Content Repo](https://github.com/MicrosoftDocs/learn-sqlserver-pr)
+* [Microsoft Learn - Worldwide Learning (WWL) Content Repo](https://github.com/MicrosoftDocs/learn-wwl-pr)
+* [Microsoft Learn - Xamarin Content Repo](https://github.com/MicrosoftDocs/learn-xamarin-pr)
+* [Microsoft Learn - Dynamics Content Repo](https://github.com/MicrosoftDocs/learn-dynamics-pr)
+
+Code repos for individual modules follow the naming convention of https://github.com/MicrosoftDocs/mslearn-module-name. To find them all, search in GitHub for all repos in the MicrosoftDocs GitHub organization that start with 'mslearn-'.
 
 ## Content author and learner experience
 
@@ -17,21 +26,21 @@ The content in the Microsoft Learn repositories is developed, organized, and dis
 ### Home, landing, and browse pages
 
 * [Microsoft Learn - Home Page](https://docs.microsoft.com/learn/) (*Can also access via https://microsoft.com/learn and https://docs.com/learn*)
-* [Microsoft Learn - Azure Landing Page](https://docs.microsoft.com/learn/azure/)
-* [Microsoft Learn - Business Applications Landing Page](https://docs.microsoft.com/en-us/learn/businessapps/)
 * [Microsoft Learn - Browse Page](https://docs.microsoft.com/learn/browse/)
+
+To view all of the available landing pages, you can navigate to them from the header of the Learn home page.
 
 ## Contributions and feedback
 
-We welcome contributions and feedback. How you contribute depends on who you are and the sort of changes you'd like to contribute. For more information about how to understand the content files, view our [create a module](https://review.docs.microsoft.com/en-us/learn-docs/docs/create-a-module?branch=master#implementation) documentation.
+We welcome contributions and feedback. How you contribute depends on who you are and the sort of changes you'd like to contribute. For more information about how to understand the content files, view our [create a module](https://review.docs.microsoft.com/learn-docs/docs/create-a-module?branch=master#implementation) documentation.
 
 ### Microsoft employees
 
-* **Minor updates**: If you are contributing minor updates out of the goodness of your heart, you can fork the repository and submit updates from your fork. See the [Docs contributor guide](https://review.docs.microsoft.com/en-us/help/contribute/) for more information.
+* **Minor updates**: If you are contributing minor updates out of the goodness of your heart, you can fork the repository and submit updates from your fork. See the [Docs contributor guide](https://review.docs.microsoft.com/help/contribute/) for more information.
 
-* **New content + major changes**: If you want to create a new module or submit major changes, please submit an issue to start a conversation with the APEX Learning team. Once you've agreed to a plan, you'll need to work with an APEX Learning employee to help bring that content in. For more information about Microsoft Learn, review the [Microsoft Learn Docs](https://review.docs.microsoft.com/en-us/learn-docs/docs/?branch).
+* **New content + major changes**: If you want to create a new module or submit major changes, please submit an issue to start a conversation with the APEX Learning team. Once you've agreed to a plan, you'll need to work with an APEX Learning employee to help bring that content in. For more information about Microsoft Learn, review the [Microsoft Learn Docs](https://review.docs.microsoft.com/learn-docs/docs/?branch).
 
-* **Report an issue + provide feedback**: [Create a GitHub issue](https://github.com/MicrosoftDocs/learn-pr/issues/new?template=bug_report.md) with as much detail as possible.
+**Report an issue + provide feedback**: Email: [learn-en-us@microsoft.com](learn-en-us@microsoft.com)
 
 ### External users
 
