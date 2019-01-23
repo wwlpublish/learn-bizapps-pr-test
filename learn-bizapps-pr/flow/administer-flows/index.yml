@@ -28,6 +28,8 @@ roles:
 products:  
 - power-platform
 - flow
+- bizapps
+- bizapps-flow
 units: 
 - learn-bizapps.flow-administration.1-introduction
 - learn-bizapps.flow-administration.2-flow-export-import

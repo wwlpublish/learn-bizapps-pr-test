@@ -25,6 +25,8 @@ roles:
 products:  
 - power-platform
 - powerapps
+- bizapps
+- bizapps-power-bi
 units: 
 - learn-bizapps.powerapps-design-model-driven-apps.1-introduction
 - learn-bizapps.powerapps-design-model-driven-apps.2-building-blocks-of-model-driven-apps

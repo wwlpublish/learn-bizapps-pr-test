@@ -28,6 +28,8 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.dynamics-365-service-level-agreements.1-sla-oveview
 - learn-bizapps.dynamics-365-service-level-agreements.2-business-closures-and-working-hours
