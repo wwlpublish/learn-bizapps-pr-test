@@ -22,6 +22,8 @@ roles:
 products:
 - dynamics
 - dynamics-customer-service
+- bizapps
+- bizapps-d365
 modules:
 - learn-bizapps.creating-and-designing-knowledge-management-solutions
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions

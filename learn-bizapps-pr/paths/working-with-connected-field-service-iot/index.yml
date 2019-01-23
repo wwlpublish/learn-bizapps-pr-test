@@ -29,6 +29,8 @@ products:
 - dynamics-field-service
 - azure
 - azure-iot-central
+- bizapps
+- bizapps-d365
 modules:
 - learn-bizapps.get-started-with-connected-field-service
 - learn-bizapps.remotely-monitor-and-service-customer-equipment

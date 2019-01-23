@@ -22,6 +22,8 @@ roles:
 products:
 - power-platform
 - powerapps
+- bizapps
+- bizapps-power-apps
 modules:
 - learn-bizapps.powerapps-get-started
 - learn-bizapps.powerapps-customize

@@ -21,6 +21,8 @@ roles:
 products:
 - power-platform
 - powerapps
+- bizapps
+- bizapps-power-apps
 modules:
 - learn-bizapps.powerapps-design-model-driven-apps
 - learn-bizapps.powerapps-common-data-service

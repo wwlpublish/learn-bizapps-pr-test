@@ -22,6 +22,8 @@ roles:
 products:
 - power-platform
 - power-bi
+- bizapps
+- bizapps-power-bi
 modules:
 - learn-bizapps.get-started-with-power-bi
 - learn-bizapps.build-your-first-report
