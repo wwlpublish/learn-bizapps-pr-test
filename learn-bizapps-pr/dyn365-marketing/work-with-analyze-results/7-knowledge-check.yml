@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.work-with-analyze-results.7-knowledge-check 
+metadata: 
+ title: Analyze Results in Dynamics 365 for Marketing Knowledge Check
+ description: Analyze Results in Dynamics 365 for Marketing Knowledge Check
+ ms.date: 01/23/2019 
+ author: dbeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-d365 
+ ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 5 
+quiz: 
+  title: Analyze Results in Dynamics 365 for Marketing Knowledge Check
+  questions: 
+  - content: Which of the following filters is available in the insights?  
+    choices: 
+    - content: Date
+      correctExplanation: Date is a filter available in the insights 
+      isCorrect: true 
+    - content: Time
+      incorrectExplanation: Time is not a filter available in the insights
+      isCorrect: false 
+    - content: Lead
+      incorrectExplanation: Lead is not a filter available in the insights 
+      isCorrect: false 
+    - content: Contact
+      incorrectExplanation: Contact is not a filter available in the insights 
+      isCorrect: false 
+  - content: Which of the following is prerequisite to view the customer journey insights?
+    choices: 
+    - content: Include segments
+      incorrectExplanation: including segments is not a required step to view customer journey insights 
+      isCorrect: false
+    - content: Include marketing email
+      incorrectExplanation: Including marketing email is not a required step to view customer journey insights 
+      isCorrect: false
+    - content: Go live
+      correctExplanation: You must go live with a customer journey to view the customer journey insights
+      isCorrect: true  
+    - content: Set start date as today
+      incorrectExplanation: You do not need to set start date as today to view customer journey insights
+      isCorrect: false 
+ 

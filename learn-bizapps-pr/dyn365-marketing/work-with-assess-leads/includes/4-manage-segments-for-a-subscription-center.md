@@ -1,0 +1,3 @@
+You will use marketing lists in your subscription center to enable contacts to manually opt-in or opt-out of various types of newsletters and marketing communications. A subscription market segment is the collection of contacts you target in a marketing campaign who have opted-in to your communication. Subscription lists enable contacts to add or remove themselves from a static marketing list, which you can then use to create a segment. 
+
+After setting up a subscription segment, you can create a segment tile in a customer journey to use the list as a target segment. Lists marked as subscription lists are available for use on your subscription centers, but static segments are not.
