@@ -17,42 +17,42 @@ quiz:
   - content: Which of the following statements is false about Marketing Forms?  
     choices: 
     - content: Marketing forms do not need to be the same type as the marketing page
-      correctExplanation: Marketing forms must be the same type as the marketing page you’re attaching them to
+      explanation: Marketing forms must be the same type as the marketing page you’re attaching them to
       isCorrect: true 
     - content: There is a collection of sample form templates available by default
-      incorrectExplanation: There is a collection of sample form templates available by default
+      explanation: There is a collection of sample form templates available by default
       isCorrect: false 
     - content: Marketing forms must be the same type as the marketing page
-      incorrectExplanation: Marketing forms must be the same type as the marketing page
+      explanation: Marketing forms must be the same type as the marketing page
       isCorrect: false 
     - content: In a marketing form, you cannot update the contact mapping for a specific field
-      incorrectExplanation: In a marketing form, you cannot update the contact mapping for a specific field
+      explanation: In a marketing form, you cannot update the contact mapping for a specific field
       isCorrect: false 
   - content: Which of the following image type can be added?
     choices: 
     - content: TIFF
-      incorrectExplanation: You cannot upload TIFF in Dynamics 365 for Marketing
+      explanation: You cannot upload TIFF in Dynamics 365 for Marketing
       isCorrect: false
     - content: EPS
-      incorrectExplanation: You cannot upload EPS in Dynamics 365 for Marketing
+      explanation: You cannot upload EPS in Dynamics 365 for Marketing
       isCorrect: false 
     - content: BMP
-      correctExplanation: BMP is one of the image types you can upload in Dynamics 365 for Marketing
+      explanation: BMP is one of the image types you can upload in Dynamics 365 for Marketing
       isCorrect: true 
     - content: PDF
-      incorrectExplanation: You cannot upload PDF in Dynamics 365 for Marketing
+      explanation: You cannot upload PDF in Dynamics 365 for Marketing
       isCorrect: false 
   - content: Which of the following entity cannot be integrated with Marketing Pages by default?
     choices: 
     - content: Social Posting
-      correctExplanation: Social Posting cannot be integrated with Marketing Pages by default
+      explanation: Social Posting cannot be integrated with Marketing Pages by default
       isCorrect: true 
     - content: Email Marketing 
-      incorrectExplanation: Email Marketing can be integrated with Marketing Pages by default
+      explanation: Email Marketing can be integrated with Marketing Pages by default
       isCorrect: false 
     - content: Customer Journey 
-      incorrectExplanation: Customer Journey can be integrated with Marketing Pages by default
+      explanation: Customer Journey can be integrated with Marketing Pages by default
       isCorrect: false 
     - content: Lead Scoring 
-      incorrectExplanation: Lead Scoring can be integrated with Marketing Pages by default
+      explanation: Lead Scoring can be integrated with Marketing Pages by default
       isCorrect: false 
