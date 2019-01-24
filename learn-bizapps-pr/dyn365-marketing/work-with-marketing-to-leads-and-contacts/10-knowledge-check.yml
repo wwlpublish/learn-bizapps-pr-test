@@ -1,0 +1,59 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.work-with-marketing-to-leads-and-contacts.10-knowledge-check 
+metadata: 
+ title: Marketing to Leads and Contacts in Dynamics 365 for Marketing Knowledge Check
+ description: Marketing to Leads and Contacts in Dynamics 365 for Marketing Knowledge Check
+ ms.date: 01/23/2019 
+ author: dbeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-d365 
+ ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 5 
+quiz: 
+  title: Marketing to Leads and Contacts in Dynamics 365 for Marketing Knowledge Check
+  questions: 
+  - content: What is one of the required data should be included in commercial marketing emails?
+    choices: 
+    - content: Reply email address
+      incorrectExplanation: Reply email address is not a required information to be included in commercial marketing emails
+      isCorrect: false 
+    - content: Physical mailing address
+      correctExplanation: Physical mailing address is required, along with Subscription center, when sending commercial marketing emails
+      isCorrect: true 
+    - content: Forward to a friend
+      incorrectExplanation: Forward to a friend is not a required information to be included in commercial marketing emails
+      isCorrect: false 
+    - content: Social URLs
+      incorrectExplanation: Social URL is not a required information to be included in commercial marketing emails
+      isCorrect: false 
+  - content: Which of the following tools is used to collect related, non-conflicting sessions in an event that likely would be of interest to the same audience?
+    choices: 
+    - content: Sessions
+      incorrectExplanation: Sessions represent a subdivision of things that are happening at your event
+      isCorrect: false
+    - content: Tracks
+      correctExplanation: Tracks allow you to organize multiple related and non-conflicting sessions by audience so attendees can easily choose the best track for themselves without having to study the entire offering 
+      isCorrect: true
+    - content: Speakers
+      incorrectExplanation: Speaker is not a tool to collect related, non-conflicting sessions in an event 
+      isCorrect: false 
+    - content: Sponsors
+      incorrectExplanation: Sponsors is not a tool to collect related, non-conflicting sessions in an event 
+      isCorrect: false 
+  - content: You want to enable registrants to provide extra information when registering to an event using portal. Which entity is used for this?
+    choices: 
+    - content: Passes
+      incorrectExplanation: Passes are tickets that you can sell or give away to grant access to your event and/or its various sessions and tracks
+      isCorrect: false 
+    - content: Marketing Form
+      incorrectExplanation: Marketing form is not a tool to provide extra information when contacts are registered to an event using portal
+      isCorrect: false 
+    - content: Marketing Page
+      incorrectExplanation: Marketing page is a tool to provide extra information when contacts are registered to an event using portal
+      isCorrect: false 
+    - content: Custom Registration Fields
+      correctExplanation: Custom registration fields enable registrants to provide extra information when registering to an event using portal
+      isCorrect: true 
+
