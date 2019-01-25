@@ -42,6 +42,3 @@ quiz:
     - content: v9.0
       explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
       isCorrect: true
-
- 
-
