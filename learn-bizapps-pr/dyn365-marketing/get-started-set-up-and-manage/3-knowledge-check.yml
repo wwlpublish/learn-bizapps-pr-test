@@ -17,31 +17,28 @@ quiz:
   - content: Which of the following marketing capabilities is available as an add-on in Dynamics 365 products?
     choices: 
     - content: Portals
-      correctExplanation: Portals is a part of the capabilities of Dynamics 365 for Marketing but can be added as an add-on to other Dynamics 365 products 
+      explanation: Portals is a part of the capabilities of Dynamics 365 for Marketing but can be added as an add-on to other Dynamics 365 products 
       isCorrect: true 
     - content: Event Management
-      incorrectExplanation: Event Management is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
+      explanation: Event Management is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
       isCorrect: false 
     - content: Customer Journey
-      incorrectExplanation: Customer Journey is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
+      explanation: Customer Journey is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
       isCorrect: false 
     - content: Email Marketing
-      incorrectExplanation: Email Marketing is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
+      explanation: Email Marketing is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
       isCorrect: false 
   - content: What is the required version of Dynamics 365 for Customer Engagement to install Dynamics 365 for Marketing?
     choices: 
     - content: v6.0
-      incorrectExplanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
       isCorrect: false 
     - content: v7.0
-      incorrectExplanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
       isCorrect: false 
     - content: v7.5
-      incorrectExplanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
       isCorrect: false 
     - content: v9.0
-      correctExplanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
       isCorrect: true
-
- 
-
