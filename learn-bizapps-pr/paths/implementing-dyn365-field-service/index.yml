@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.implementing-dyn365-field-service
+metadata:
+  title:  Implementing Microsoft Dynamics 365 for Field Service
+  description: Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. 
+  ms.date: 01/25/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+title: Implementing Microsoft Dynamics 365 for Field Service
+summary: Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. 
+prerequisites: |
+  - Familiarity with Microsoft Dynamics 365 applications
+iconUrl: /learn/achievements/implementing-microsoft-dynamics-365-for-field-service.svg 
+levels:
+- intermediate
+roles:
+- functional-consultant
+products:
+- bizapps
+- bizapps-d365
+- dynamics  
+- dynamics-field-service
+modules:
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing
+- learn-bizapps.implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile
+- learn-bizapps.implement-deliver-a-customized-mobile-experience
+trophy:
+  uid: learn.implementing-dyn365-field-service.trophy

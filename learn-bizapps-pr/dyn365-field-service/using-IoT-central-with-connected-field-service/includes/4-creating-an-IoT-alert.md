@@ -1,5 +1,3 @@
-## Exercise – Create an IoT Alert
-
 ### Create a flow
 
 In this task, you'll create a flow that will register a device.

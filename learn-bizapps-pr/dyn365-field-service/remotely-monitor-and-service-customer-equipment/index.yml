@@ -23,6 +23,7 @@ levels:
 - intermediate
 roles: 
 - business-user
+- functional-consultant
 products: 
 - dynamics
 - dynamics-field-service

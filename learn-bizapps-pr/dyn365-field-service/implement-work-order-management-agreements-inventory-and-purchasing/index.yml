@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing
+metadata:
+  title: Work order management, agreements, inventory, and purchasing in Microsoft Dynamics 365 for Field Service
+  description: Leverage agreements to assist in creating Work Orders on a predefined schedule such as in preventative maintenance scenarios.  Additionally, by leveraging inventory, they can more effectively manage inventory levels at warehouses and ensure that technicians have what they need to deliver services to their customer while in the field.     Dynamics 365 has several foundational elements that can be configured to better tailor a Field Service implementation to meet the desired needs of an organization.  
+  ms.date: 01/25/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+title: Work order management, agreements, inventory, and purchasing in Microsoft Dynamics 365 for Field Service
+summary: Leverage agreements to assist in creating Work Orders on a predefined schedule such as in preventative maintenance scenarios.  Additionally, by leveraging inventory, they can more effectively manage inventory levels at warehouses and ensure that technicians have what they need to deliver services to their customer while in the field.     Dynamics 365 has several foundational elements that can be configured to better tailor a Field Service implementation to meet the desired needs of an organization.  
+abstract: |
+    In this module, you will:
+    - Identify the work order lifecycle
+    - Identify the different options available for creating work orders
+    - Use related records such as service accounts, incidents, products and services, and other items with work orders
+    - Create and manage agreements
+    - Define and manage inventory and warehouses
+prerequisites: Basic understanding of how to navigate the Dynamics 365 application.  An understanding of the Field Service application is helpful. 
+iconUrl: /learn/achievements/work-order-management-agreements-inventory-and-purchasing-in-microsoft-dynamics-365-for-field-service.svg
+levels: 
+- intermediate
+roles: 
+- functional-consultant
+products: 
+- bizapps
+- bizapps-d365
+- dynamics  
+- dynamics-field-service
+units:
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.1-dynamics-365-field-service-work-order-lifecycle-overview
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.2-creating-and-defining-work-orders
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.3-working-with-work-order-related-records
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.4-create-work-orders
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.5-working-with-agreements
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.6-working-with-inventory-and-warehouses
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.7-knowledge-check
+- learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.8-summary-and-clean-up
+badge:
+   uid: learn.work-order-management-agreements-inventory-and-purchasing.badge
