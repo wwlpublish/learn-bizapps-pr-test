@@ -97,7 +97,7 @@ A **NewColumn** is created at the end of the query and is the contents of the ta
 In this case, we just want the **State Code** column. Therefore, select only that column, and then select **OK**. You can also clear the **Use original column name as prefix** check box. If you leave it selected, the merged column will be named *NewColumn.State Code* (the original column name, or *NewColumn*, then a dot, and then the name of the column that's being brought into the query).
 
 > [!NOTE]
-> If you want, you can play around with how the **NewColumn** table is brought it. If you don't like the results, just delete the **Expand** step from the **Applied Steps** list in the **Query Settings** pane. Your query will return to the state it was in before you applied that step. It's like a free do-over that you can do as many times as you want, until the expand process looks the way you want.
+> If you want, you can play around with how the **NewColumn** table is brought in. If you don't like the results, just delete the **Expand** step from the **Applied Steps** list in the **Query Settings** pane. Your query will return to the state it was in before you applied that step. It's like a free do-over that you can do as many times as you want, until the expand process looks the way you want.
 
 We now have a single query (table) that combines two data sources, each of which has been shaped to meet our needs. This query can serve as a basis for lots of additional, interesting data connections, like housing cost statistics, demographics, or job opportunities in any state.
 
