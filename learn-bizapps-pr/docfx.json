@@ -95,10 +95,10 @@
     },
     "fileMetadata": {
       "titleSuffix": {
-        "/paths/**": " learning path "}
-    }
+        "paths/**": " learning path "},
     "template": [],
     "dest": "learn-bizapps-pr",
     "markdownEngineName": "markdig"
+  }
   }
 }
