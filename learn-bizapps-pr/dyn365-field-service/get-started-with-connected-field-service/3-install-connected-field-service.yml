@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.get-started-with-connected-field-service.3-install-connected-field-service
+title: Install Connected Field Service
+metadata:
+  title: Install Connected Field Service
+  description: Install Connected Field Service.
+  ms.date: 10/12/2018
+  author: dyack
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+durationInMinutes: 15
+content: |
+  [!include[](includes/3-install-connected-field-service.md)]
