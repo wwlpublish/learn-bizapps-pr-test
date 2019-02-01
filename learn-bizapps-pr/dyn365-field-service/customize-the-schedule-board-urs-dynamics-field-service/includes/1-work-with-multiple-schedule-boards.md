@@ -24,7 +24,7 @@ This can initially be done by using Advanced Find and changing the look for fiel
 
 ![Sharing a Schedule Board](../media/csb-unit1-3.png)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kewx]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kewx]
 
 ### Helpful hints
 
