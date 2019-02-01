@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.urs-resource-scheduling-optimization.2-setup-and-deployment-options
+title: Setup and deployment options
+metadata:
+  title: Setup and deployment options
+  description: Setup and deployment options
+  ms.date: 02/01/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/2-setup-and-deployment-options.md)]
