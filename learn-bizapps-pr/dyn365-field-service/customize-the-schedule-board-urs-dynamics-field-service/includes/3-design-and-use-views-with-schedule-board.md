@@ -43,7 +43,7 @@ provides an overview of how it is used on the schedule board:
 
 Each entity has views that are used by default for each of the scenarios mentioned above. The views used for those settings can be modified as needed. The list below explains where the views can be changed, and which view is used by default:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Ku4w]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Ku4w]
 
 
 ### Map settings
@@ -92,5 +92,5 @@ unscheduled part in the view? Now even after the item has been scheduled, it is 
 but little things like that can happen often. Make sure you are looking at things from all angles and using good Dynamics 365 view creation practices when you design those views.
 
 For additional information on creating Dynamics 365 views:
-<https://docs.microsoft.com/en-us/dynamics365/customer-engagement/customize/create-edit-views>
+<https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views>
 

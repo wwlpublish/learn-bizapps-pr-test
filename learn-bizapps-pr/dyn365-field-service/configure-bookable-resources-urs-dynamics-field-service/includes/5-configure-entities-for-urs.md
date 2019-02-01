@@ -51,7 +51,7 @@ The settings that you can modify are:
 -   **Default Requirement Completed Status**: The default requirement completed status to use when a user can't select a status
 -   **Available Duration Minimum %**: Defines the minimum duration available
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KmlA]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KmlA]
 
 ### Attribute mapping
 
@@ -127,4 +127,4 @@ The booking created will be the record that would be displayed on the schedule b
 
 Scheduling a time off request represents only one example of something that could potentially be scheduled. It helps to illustrate everything that needs to be considered for entities that will be scheduled using URS. The actual customization and automation needed may vary depending on the scenarios and conditions that would need to exist in the record that is to be scheduled.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KmlA]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KmlA]

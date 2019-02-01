@@ -17,7 +17,7 @@ multiple resources, provide schedule placeholders, or schedule buildings. The sc
 - Resource Pools
 - Multi-resource scheduling with requirement groups
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Keww]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Keww]
 
 
 ## Facility Scheduling

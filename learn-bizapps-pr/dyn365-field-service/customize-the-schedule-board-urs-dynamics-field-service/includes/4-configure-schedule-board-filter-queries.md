@@ -18,7 +18,7 @@ filters available they could do the following:
 -   Set the territory filter to the specific territory region they want.
 -   Set the resource type to only show resources that are contacts or accounts.
 
-For more about how resources are matched, see [Understanding and customizing resource matching in Universal Resource Scheduling (URS)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs).
+For more about how resources are matched, see [Understanding and customizing resource matching in Universal Resource Scheduling (URS)](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/understanding-and-customizing-resource-matching-in-urs).
 
 
 The out of the box filters provide enough filter criteria to handle a wide range of requirements. Sometimes, organizations may have specific needs that cannot be met with the out of the box filters. For example, they may support customers who speak many different languages. To ensure the beset experience for those customers, they might need to find resources based on the language(s) that they speak. This can be accomplished through Dynamics 365 entity customizations and making updates to the queries used by the schedule board to locate resources.
@@ -36,7 +36,7 @@ Modifying the filters and queries that are used to control these components is d
 Designing queries using UFX is beyond the scope of this module, however users who are looking to extend the capabilities of the schedule board may want to familiarize themselves with it.
 
 
-For more about UFX, see [Universal FetchXML](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/universal-fetchxml).
+For more about UFX, see [Universal FetchXML](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/universal-fetchxml).
 
 
 In addition to being able to use UFX to modify schedule board filters and queries, it can also be used to modify filters and queries that are used by the schedule assistant. The schedule assistant provides many of
@@ -80,4 +80,4 @@ Let's go back to the language example we mentioned earlier. To effectively deliv
 -   **Update the Schedule Assistant Retrieve Constraints Query**: Ensures that the language information from the requirement record is
 -   **Update the Resource Cell Template**: Provides the ability to indicate that the resource matched the language constraint in the resource cell.
 
-To try this example on your own, see [Extending URS: Find resources by language—a step by step guide](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/common-scheduler/developer/extending-urs-step-by-step).
+To try this example on your own, see [Extending URS: Find resources by language—a step by step guide](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extending-urs-step-by-step).

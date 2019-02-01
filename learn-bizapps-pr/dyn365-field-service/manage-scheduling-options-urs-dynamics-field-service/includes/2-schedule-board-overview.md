@@ -37,7 +37,7 @@ The schedule boards toolbar make it easier to view information based on specific
 -   **Sort:** Lets you define how items on the board are sorted. By default, they can be sorted by name or rating value.
 
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KoUK]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KoUK]
 
 ### Working with the Filter View
 

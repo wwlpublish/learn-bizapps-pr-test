@@ -17,7 +17,7 @@ There are 4 methods that are most commonly used to schedule items using the sche
 Some of the methods included in the requirements panel and the map view provide multiple options that are used to schedule items using that method.
 
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KjKy]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KjKy]
 
 Let's examine the different ways items can be scheduled using the Schedule Board.
 
@@ -116,7 +116,7 @@ create the booking and display on the schedule board.
 
 Sometimes you may want to schedule an item without even going into the schedule board. You may find that it is just as easy to schedule the item directly from the work order. The schedule assistant that we leveraged earlier, can also be initiated directly from the work order by clicking the book button.
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KrsZ]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KrsZ]
 
 When the schedule assist loads, it will show potential resources that could be scheduled. A single resource could be returned multiple times depending on their availability during the period specified in the filter. As was mentioned previously with the schedule assistant, the filter criteria used can be modified to expand or reduce the number of results returned.
 

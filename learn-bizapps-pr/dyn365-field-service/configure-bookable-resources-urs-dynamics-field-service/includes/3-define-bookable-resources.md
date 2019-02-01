@@ -67,7 +67,7 @@ on the resource to make it easier to identify the ideal resource for a job.
 
 -   **Work Templates**: Used to define the working hours that a resource is available to be scheduled within.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KoUJ]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KoUJ]
 
 ### Defining a resource's work hours
 
