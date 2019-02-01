@@ -18,45 +18,22 @@ Estimated time to complete this lab: 60 to 75 minutes
 
 The Labs and exercises in this module work best when you have some sample data to work with. Depending on if the environment you are working with, you may want to install some sample data to assist with exercises. Dynamics 365 does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow the steps below to install the sample data into your environment.
 
-> [!IMPORTANT] 
+> [!IMPORTANT]
 > The demo data that we will be leveraging for this exercise, is a smaller set of data that will help to illustrate the configuration concepts available in the application. There is more complete demo data available that can be used for both Project Service automation and Field Service.
 
 ### Install the Field Service Demo Date—Detailed Steps
-1.  Locate the **FS\_Demo\_Data.zip** file available in the class resources.
-2.  Right click the **FS\_Demo\_Data.zip** file, and choose **Unblock**. (It may not be there and that is OK.)
-3.  Right click the **FS\_Demo\_Data.zip** file, and select **Extract All**.
-4.  Click **Browse**, select a location for the extracted files, click  **Extract**.
 
-    ![Browse Icon](../media/URS-Unit6-1.png)
+1. In Dynamics 365, select the down arrow next to **Dynamics 365**, and then select **Field Service**.
+2. Using the site map, select the ellipsis (...), and select **Field Service Settings**.
+3. Under *Schedule Settings*, select **Characteristics**.
+4. Select **New**.
+5. Enter *MCSE* in the **Name** field, select **Certification** in the **Certification** **Type** field, and then select **Save**.
+6. Select **New**.
+7. Type *MCSA* in the **Name** field, select **Certification** in the **Types** field, and then select **Save and Close**.
 
-5.  Open the **FS\_PkgFolder** in the extracted FieldServiceDemoData folder.
-6.  Right click the **DemoDataConfig.xml** file, and select **Edit**.
-7.  Edit the NewName value to a user in you Dynamics 365 Deployment (Example: the user that was created initially when you deployed your trial).
+### Enable Bing Maps to use Resource Scheduling
 
-    ![Edit New Name](../media/URS-Unit6-2.png)
-
-8.  **Save and Close** the DemoDataConfig file.
-
-    > **Important:** 
-    > Before you continue make sure there is no sample data installed in your Dynamics 365 Org. Go to **Settings** \> **Data Management** and Select Demo Data. If it is installed Select Remove Sample Data before continuing.
-
-9.  Right click the **PackageDeployer** application in the FieldServiceDemotData folder and select **Run as Administrator**. 
-10. If necessary, click **Yes** on the User Access Control Message
-11. On the Welcome Screen, click **Continue**.
-12. Select **Office 365** for the **Deployment Type**.
-13. Set the Online Region to your Region, enter your username and password, and click **Login**.
-
-    ![PackageDeployer](../media/URS-Unit6-3.png)
-
-14. On the **Field Service Demo Data Setup Tool** screen, click **Next**.
-15. On the **Ready to Install** Screen, click **Next**.
-16. Once the Installer configuration is complete, click **Next**.
-17. Wait for the Installer to complete (May take up to 30 or 45 Minutes), click **Next**.
-18. Click **Finish** to complete the Field Service Sample Data installation.
-
-### Enable Bing Maps to use Resource Scheduling 
-
-To ensure that you are able to take full advantage of the full scheduling and mapping capabilities available with Universal Resource Scheduling, you need to ensure that it is configured to use a mapping provider. Bings Maps is the default map provider, but additional providers could be enabled. We will be using Bing Maps.
+To ensure that you are able to take full advantage of the full scheduling and mapping capabilities available with Universal Resource Scheduling, you need to ensure that it is configured to use a mapping provider. Bing Maps is the default map provider, but additional providers could be enabled. We will be using Bing Maps.
 
 1.  In **Dynamics 365**, click the arrow next to the **Dynamics 365** text, and select **Universal Resource Scheduling**.
 2.  Click the **Site Map** icon to expand the **Navigation**. From the menu that appears select **Administration**.
@@ -162,7 +139,7 @@ To accomplish this, we will be doing the following:
 
 ### Add the Time Off field to the Booking Status entity
 
-1.  In Dynamics 365 web interface, navigate to **Settings \> Customizations \> Customize the System**
+1.  In Dynamics 365 web interface, navigate to **Settings > Customizations > Customize the System**
 2.  Expand the **Booking Status Entity**, select **Fields**, and click the **New** button to add a new field to the Booking Status Entity.
 3.  Complete the new field as follows:
     -   **Display Name:** Time off Status

@@ -11,7 +11,7 @@ Those records are:
 -   Resource Requirement
 -   Bookable Resource Booking
 
-    ![Work Order Window](../media/URS-Unit1-1.png)
+![Work Order Window](../media/URS-Unit1-1.png)
 
 When an item that needs to be scheduled such as a work order is created in Dynamics 365, it typically includes information that will affect how it is scheduled.
 
@@ -21,7 +21,7 @@ For example, a work order typically includes items such as:
 -   Tasks to be done, products and services included, and skill needed by people completing the job.
 -   Preferences for service delivery such as time windows, preferred technician, etc.
 
-    ![Skills Window](../media/URS-Unit1-2.png)
+![Skills Window](../media/URS-Unit1-2.png)
 
 After the record is created, a record called a resource requirement record is created. The resource requirement record is used to schedule the item in the system. It defines the specifics that are required to schedule the record. The requirement record is what is used to locate qualified resources to meet the requirement.
 
@@ -30,7 +30,7 @@ A resource requirement for a work order might include:
 -   Any date and time windows, or resource preferences.
 -   Additional relevant scheduling information, such as skills and territories.
 
-    ![Resource Required Window](../media/URS-Unit1-3.png)
+![Resource Required Window](../media/URS-Unit1-3.png)
 
 After a resource requirement is scheduled, and record called a bookable resource booking is created that provides the specific details around the resource who is responsible for completing the item. It provides additional details such as estimated and actual arrival times, and status of the booking.
 

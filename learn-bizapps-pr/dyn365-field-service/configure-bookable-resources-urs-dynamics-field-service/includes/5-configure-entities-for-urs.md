@@ -6,7 +6,7 @@ Some other examples where this functionality could be leveraged include:
 
 -   **Training Centers**: Defining course offerings and using URS to schedule the class, book a room, and find a trainer to teach the course.
 -   **Sales Scenarios**: Many times, technicians also act as technical sales consultants. When assistance is needed on a sales opportunity, it could be scheduled using URS.
--   **Medical Consultations*: Medical centers, often need to book doctors, rooms, and equipment for specific type of consultations.
+-   **Medical Consultations**: Medical centers, often need to book doctors, rooms, and equipment for specific type of consultations.
 
 ### Enabling an entity for URS
 
@@ -15,10 +15,10 @@ Universal Resource scheduling provides the foundation functionality that is used
 -   **Work Orders**: Setup and enabled when you install Dynamics 365 for Field Service.
 -   **Projects**: Setup and enabled when you install Dynamics 365 Project Service Automation
 
-> [!NOTE] 
+> [!NOTE]
 > Work Orders and Projects are **only** configured, if configured Field Service and/or Project Service Automation.
 
-Additional entities can be configured for URS by navigating to **Settings** \> **Administration** \> **Enable Resource Scheduling for entities** using the Universal Resource Scheduling sitemap. For an entity to be scheduled using Universal Resource Scheduling, requirements and bookings need to be able to be created for it. The entity needs to have relationships with the following entities:
+Additional entities can be configured for URS by navigating to **Settings** > **Administration** > **Enable Resource Scheduling for entities** using the Universal Resource Scheduling sitemap. For an entity to be scheduled using Universal Resource Scheduling, requirements and bookings need to be able to be created for it. The entity needs to have relationships with the following entities:
 
 -   **Requirement Entity**: Defines the specifics that are required for the item to be scheduled.
 -   **Booking Entity**: Defines the specifics about the scheduled item.
@@ -32,7 +32,7 @@ Section.
 
 There are several URS settings that can be defined for an entity. This can range from what specific booking statuses the entity can have to how the specific requirements and booking will be created. By default, URS will use msdyn\_fieldservicestatus field to populate the booking statuses available to the entity. You can leave it blank to use the default booking status field, or you can change it to a different field. The field you select will define which booking statuses are available for the entity.
 
-> [!NOTE] 
+> [!NOTE]
 > If you intend to let Dynamics 365 create the booking for you automatically, the Booking status field will need to have a value defined.
 
 In addition, other settings used to populate items like default statuses, and durations can also be modified. These options are available under the settings area when you define the metadata for the entity.
@@ -59,11 +59,11 @@ Attribute mapping lets you specify which fields on the entity will be mapped to 
 
 For example, on the time off entity we have a start time and End time. Those fields can be mapped to the To Date and from date on the Requirement record respectively.
 
-> [!NOTE] 
+> [!NOTE]
 > Not all fields will be available for mapping. The field needs to exist on the entity before it can be mapped to the requirement record. 
 
 For example, if a territory lookup field is added to the time off request entity, the Territory field will be available to define in
-the attribute Mapping.*
+the attribute Mapping.
 
 ![Disable Requirements](../media/URS-Unit5-2.png)
 
