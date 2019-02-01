@@ -91,6 +91,5 @@ For example, remember when we created that custom view that only displayed resou
 unscheduled part in the view? Now even after the item has been scheduled, it is still going to remain in the unscheduled requirements on the schedule board. That may seem like an overly simplified example,
 but little things like that can happen often. Make sure you are looking at things from all angles and using good Dynamics 365 view creation practices when you design those views.
 
-For additional information on creating Dynamics 365 views:
-<https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views>
+For additional information, see [Creating Dynamics 365 views](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-edit-views).
 

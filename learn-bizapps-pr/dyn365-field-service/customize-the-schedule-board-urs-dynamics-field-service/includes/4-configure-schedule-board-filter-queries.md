@@ -80,4 +80,4 @@ Let's go back to the language example we mentioned earlier. To effectively deliv
 -   **Update the Schedule Assistant Retrieve Constraints Query**: Ensures that the language information from the requirement record is
 -   **Update the Resource Cell Template**: Provides the ability to indicate that the resource matched the language constraint in the resource cell.
 
-To try this example on your own, see [Extending URS: Find resources by language—a step by step guide](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extending-urs-step-by-step).
+To try this example on your own, see [Extending URS Find resources by language—a step by step guide](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/developer/extending-urs-step-by-step).
