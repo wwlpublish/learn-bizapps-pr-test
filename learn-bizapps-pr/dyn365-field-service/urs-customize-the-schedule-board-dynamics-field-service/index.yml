@@ -36,4 +36,5 @@ units:
 - learn-bizapps.urs-customize-the-schedule-board.5-customize-the-schedule-board
 - learn-bizapps.urs-customize-the-schedule-board.6-knowledge-check
 - learn-bizapps.urs-customize-the-schedule-board.7-summary
-achievement: learn.customizing-the-schedule-board.badge
+badge: 
+  uid: learn.customizing-the-schedule-board.badge
