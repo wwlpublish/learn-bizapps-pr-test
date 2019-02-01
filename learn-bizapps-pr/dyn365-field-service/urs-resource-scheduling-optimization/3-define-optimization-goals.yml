@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.urs-resource-scheduling-optimization.3-define-optimization-goals
+title: Define optimization goals
+metadata:
+  title: Define optimization goals
+  description: Define optimization goals
+  ms.date: 1/11/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/3-define-optimization-goals.md)]

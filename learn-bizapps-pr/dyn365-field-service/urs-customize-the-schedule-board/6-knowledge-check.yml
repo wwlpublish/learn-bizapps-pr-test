@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.urs-customize-the-schedule-board.6-knowledge-check
+metadata:
+  title: Customize the Schedule Board in Microsoft Dynamics 365 for Field Service
+  description: This knowledge check will test your knowledge of customizing the Schedule Board in Microsoft Dynamics 365 for Field Service.
+  ms.date: 1/11/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+title: Check your knowledge
+durationInMinutes: 5
+quiz:
+  title: Customize the Schedule Board in Microsoft Dynamics 365 for Field Service
+  questions:
+  - content: When a new schedule tab is created, who will the board be visible to by default? 
+    choices: 
+    - content: Everyone in the organization
+      incorrectExplanation: When a new schedule board is created, it can be made available to one of three options. Just Me -Visible to only the person who created it, Everyone - Visible to everyone, or Specific Users -  available to any user it is shared with.  Unless otherwise specified, it will only be available to the user that created it.   Source -  Working with Multiple Schedule Boards 
+      isCorrect: false
+    - content: The person who created it
+      correctExplanation: When a new schedule board is created, it can be made available to one of three options. Just Me -Visible to only the person who created it, Everyone - Visible to everyone, or Specific Users -  available to any user it is shared with.  Unless otherwise specified, it will only be available to the user that created it.   Source -  Working with Multiple Schedule Boards 
+      isCorrect: true
+    - content: Specific users based on their security role
+      incorrectExplanation: When a new schedule board is created, it can be made available to one of three options. Just Me -Visible to only the person who created it, Everyone - Visible to everyone, or Specific Users -  available to any user it is shared with.  Unless otherwise specified, it will only be available to the user that created it.   Source -  Working with Multiple Schedule Boards 
+      isCorrect: false
+    - content: Specific users based on teams they belong to
+      incorrectExplanation: When a new schedule board is created, it can be made available to one of three options. Just Me -Visible to only the person who created it, Everyone - Visible to everyone, or Specific Users -  available to any user it is shared with.  Unless otherwise specified, it will only be available to the user that created it.   Source -  Working with Multiple Schedule Boards 
+      isCorrect: false
+  - content: Which of the following is used to populate the filter control fields with data from the resource requirement record when the schedule assistant is launched?    
+    choices: 
+    - content: Schedule Assistant Filter Layout
+      incorrectExplanation: When you access the default settings, additional queries specific to the schedule assistant are made available.  The Schedule Assistant Filter Layout lets you configure the controls used to filter data on the schedule assistant.  The Schedule Assistant Resource Cell Template defines the data that is displayed on the resource cell tab. The Schedule Assistant Retrieve Resources Query defines what how resources are returned when the search button is pushed.  The Schedule Assistant Retrieve Constraints Query is what loads the constraints defined in the resource record and populates them to the appropriate filter controls.   Source -  Configure Schedule Board Queries
+      isCorrect: false
+    - content: Schedule Assistant Resource Cell Template
+      incorrectExplanation: When you access the default settings, additional queries specific to the schedule assistant are made available.  The Schedule Assistant Filter Layout lets you configure the controls used to filter data on the schedule assistant.  The Schedule Assistant Resource Cell Template defines the data that is displayed on the resource cell tab. The Schedule Assistant Retrieve Resources Query defines what how resources are returned when the search button is pushed.  The Schedule Assistant Retrieve Constraints Query is what loads the constraints defined in the resource record and populates them to the appropriate filter controls.   Source -  Configure Schedule Board Queries
+      isCorrect: false
+    - content: Schedule Assistant Retrieve Resources Query
+      incorrectExplanation: When you access the default settings, additional queries specific to the schedule assistant are made available.  The Schedule Assistant Filter Layout lets you configure the controls used to filter data on the schedule assistant.  The Schedule Assistant Resource Cell Template defines the data that is displayed on the resource cell tab. The Schedule Assistant Retrieve Resources Query defines what how resources are returned when the search button is pushed.  The Schedule Assistant Retrieve Constraints Query is what loads the constraints defined in the resource record and populates them to the appropriate filter controls.   Source -  Configure Schedule Board Queries
+      isCorrect: false
+    - content: Schedule Assistant Retrieve Constraints Query 
+      correctExplanation: When you access the default settings, additional queries specific to the schedule assistant are made available.  The Schedule Assistant Filter Layout lets you configure the controls used to filter data on the schedule assistant.  The Schedule Assistant Resource Cell Template defines the data that is displayed on the resource cell tab. The Schedule Assistant Retrieve Resources Query defines what how resources are returned when the search button is pushed.  The Schedule Assistant Retrieve Constraints Query is what loads the constraints defined in the resource record and populates them to the appropriate filter controls.   Source -  Configure Schedule Board Queries
+      isCorrect: true
+  - content: You want to create a new view that will be used by dispatchers to schedule items on the schedule board.  The view should only display items when the work order has a system status of Open-Unscheduled and sub-status of Ready to Dispatch.  On which entity would you create the new view? 
+    choices: 
+    - content: Work Order
+      incorrectExplanation: The Resource Requirement contain all the relevant data needed to schedule items.  The Requirements Panel at the bottom of the schedule board displays requirement records that are waiting to be dispatched.  Additional view resource requirement views can be created and added to the requirements panel    Source - Designing views to be used with the schedule board 
+      isCorrect: false
+    - content: Resource Requirement 
+      correctExplanation: The Resource Requirement contain all the relevant data needed to schedule items.  The Requirements Panel at the bottom of the schedule board displays requirement records that are waiting to be dispatched.  Additional view resource requirement views can be created and added to the requirements panel    Source - Designing views to be used with the schedule board 
+      isCorrect: true
+    - content: Bookable Resource
+      incorrectExplanation: The Resource Requirement contain all the relevant data needed to schedule items.  The Requirements Panel at the bottom of the schedule board displays requirement records that are waiting to be dispatched.  Additional view resource requirement views can be created and added to the requirements panel    Source - Designing views to be used with the schedule board 
+      isCorrect: false
+    - content: Bookable Resource Booking
+      incorrectExplanation: The Resource Requirement contain all the relevant data needed to schedule items.  The Requirements Panel at the bottom of the schedule board displays requirement records that are waiting to be dispatched.  Additional view resource requirement views can be created and added to the requirements panel    Source - Designing views to be used with the schedule board 
+      isCorrect: false

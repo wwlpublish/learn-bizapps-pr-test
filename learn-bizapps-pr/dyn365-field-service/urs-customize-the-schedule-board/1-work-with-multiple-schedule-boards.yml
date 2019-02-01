@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.urs-customize-the-schedule-board.1-work-with-multiple-schedule-boards
+title: Work with multiple schedule boards
+metadata:
+  title: Work with multiple schedule boards
+  description: Work with multiple schedule boards
+  ms.date: 1/11/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/1-work-with-multiple-schedule-boards.md)]

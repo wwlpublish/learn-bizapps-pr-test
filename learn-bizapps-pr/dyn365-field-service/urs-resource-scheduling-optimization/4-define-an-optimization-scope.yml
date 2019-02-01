@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.urs-resource-scheduling-optimization.4-define-an-optimization-scope
+title: Define an optimization scope
+metadata:
+  title: Define an optimization scope
+  description: Define an optimization scope
+  ms.date: 1/11/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+  ROBOTS: NOINDEX
+durationInMinutes: 5
+content: |
+  [!include[](includes/4-define-an-optimization-scope.md)]
