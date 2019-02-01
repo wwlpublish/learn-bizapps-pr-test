@@ -40,11 +40,11 @@ To ensure that you are able to take full advantage of the full scheduling and ma
 3.  Select **Scheduling Parameters**.
 4.  Locate the **Connect to Maps** field and set it to **Yes**.
 
-    ![Connect to Maps](../media/URS-Unit6-4.png)
+![Connect to Maps](../media/URS-Unit6-4.png)
 
 5.  **Save and Close** the settings.
 
-### Enable Bing Maps to use Resource Scheduling 
+### Create a Bookable Resource
 
 Before you can start scheduling items and assigning them to specific resources in your organization, you need to first create bookable resources in the application. A bookable resource could be an internal user, an external contact or account, or a piece of equipment. When you define a bookable resource, you can also provide details such as skills they have, where they start and end their day and so on.
 
