@@ -1,7 +1,7 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-deliver-a-customized-mobile-experience.6-knowledge-check
 metadata:
-  title: Deliver a customized mobile experience
+  title: Deliver a customized mobile experience knowledge check
   description: This knowledge check will test your knowledge of delivering a customized mobile experience.
   ms.date: 2/1/2019
   author: dbeasley
@@ -12,6 +12,7 @@ metadata:
 title: Check your knowledge
 durationInMinutes: 5
 quiz:
+    title: Deliver a customized mobile experience knowledge check
     questions:
   - content: You want to ensure that users of the mobile app can update the completion status of Work Order Service Tasks without having to open each task.  You have a two-option field that is being used in the Work Order Service Tasks view.  What do you need to set the kind property too, so the field can be interacted with?
     choices: 
