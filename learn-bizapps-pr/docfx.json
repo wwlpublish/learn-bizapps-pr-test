@@ -90,9 +90,13 @@
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "clicktale": true,
+      "titleSuffix": "- Learn",
       "uhfHeaderId":"MSDocsHeader-Learn"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "titleSuffix": {
+        "paths/**": " learning path "}
+    },
     "template": [],
     "dest": "learn-bizapps-pr",
     "markdownEngineName": "markdig"
