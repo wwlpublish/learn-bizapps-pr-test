@@ -1,6 +1,6 @@
 RSO's single resource optimization feature provides a quick and simple way to re-optimize the schedule of a selected resource from the schedule board. This can be done to ensure the resource continues to have an optimal schedule and route after schedule changes or cancellations occur during the day. For example, a resource may have overlapping bookings after getting assigned an emergency work order or arriving late due to traffic during the day.
 
-Single resource scheduling uses the default resource optimization goal for an organization. When RSO is deployed a default goal for the organization is created. The default goal can be found by navigating to **Resource Scheduling Optimization** \> **Optimization Goals**.
+Single resource scheduling uses the default resource optimization goal for an organization. When RSO is deployed a default goal for the organization is created. The default goal can be found by navigating to **Resource Scheduling Optimization** > **Optimization Goals**.
 
 ## Use single resource optimization from schedule board
 
