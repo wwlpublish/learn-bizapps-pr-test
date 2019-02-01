@@ -30,6 +30,7 @@ The Labs and exercises in this module work best when you have some sample data t
 5. Enter *MCSE* in the **Name** field, select **Certification** in the **Certification** **Type** field, and then select **Save**.
 6. Select **New**.
 7. Type *MCSA* in the **Name** field, select **Certification** in the **Types** field, and then select **Save and Close**.
+
 ### Enable Bing Maps to use Resource Scheduling
 
 To ensure that you are able to take full advantage of the full scheduling and mapping capabilities available with Universal Resource Scheduling, you need to ensure that it is configured to use a mapping provider. Bings Maps is the default map provider, but additional providers could be enabled. We will be using Bing Maps.

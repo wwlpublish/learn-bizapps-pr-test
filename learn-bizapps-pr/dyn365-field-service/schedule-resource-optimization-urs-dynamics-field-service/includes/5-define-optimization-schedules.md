@@ -37,7 +37,7 @@ The list below defines the different states that an RSO job can exist in.
 
 Once a schedule has been published, it will begin to optimize items based on the schedule.  RSO schedules can be manually run on demand at any time, by selecting the Run Now button.   If a RSO schedule needs some large-scale changes, or something is not working, you can select the reset resource scheduling optimization button.  This will cancel all pending RSO jobs and unpublish the schedule.
 
-For additional information on publishing schedules: https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-schedule-optimization#publishing-schedules
+For additional information, see [publishing schedules](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-schedule-optimization#publishing-schedules).
 
 ### Monitoring optimization requests
 Once a schedule has been published, you can open it and monitor the scheduling optimization requests (RSO jobs).  You can drill into each of these to see the bookings associated with the RSO job run.   
@@ -48,7 +48,7 @@ From the optimization schedule you can see:
 
 ![optimization requests](../media/rso-unit-5-3.png)
 
-For additional information on monitoring optimization requests: https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/rso-schedule-optimization#monitoring-optimization-requests 
+For additional information, see [Monitoring optimization requests](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-schedule-optimization#monitoring-optimization-requests).
 
 ### Leveraging the schedule board to review optimization results
 
@@ -74,6 +74,6 @@ With schedule board integration, you can:
 9.	Select a goal and click Run Now to trigger an on-demand optimization request.
 10.	The optimization request will show the status and details. If an exception occurs, select a specific optimization request to open it. You can view booking details as well as analytic charts showing how many hours of travel time versus how many work hours are scheduled for this run.
 
-For additional information on leveraging the schedule board for optimization results: https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-schedule-optimization#leveraging-the-schedule-board-to-review-optimization-results 
+For additional information, see [Leveraging the schedule board for optimization results](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-schedule-optimization#leveraging-the-schedule-board-to-review-optimization-results). 
 
-For additional information on the booking lock option: https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-schedule-optimization#understanding-the-booking-lock-option
+For additional information, see [Booking lock option](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-schedule-optimization#understanding-the-booking-lock-option).

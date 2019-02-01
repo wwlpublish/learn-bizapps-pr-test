@@ -12,7 +12,7 @@ Bookings are considered optimally scheduled when they:
 
 ![optimization goals](../media/rso-unit-3-1.png)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kmlz]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kmlz]
 
 #### Objectives
 For each goal that is created, multiple objectives and constraints can be defined.  Objectives are defined by selecting the Add New Scheduling Optimization Objective.  
@@ -67,5 +67,5 @@ When Resource Scheduling Optimization is deployed for the first time, the system
 
 ![Resource Scheduling Optimization](../media/rso-unit-3-3.png)
 
-For more detailed information on goals and additional details on how optimization is calculated and achieved: https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-configuration#define-the-optimization-goal 
+For more detailed information, see [Resource scheduling optimization configuration](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-configuration#define-the-optimization-goal).
 

@@ -29,7 +29,7 @@ your scopes to be as small as possible, you may want to limit a scope to only a 
 
 For example, maybe you want to optimize bookings for the next five days, but you want to exclude bookings within the next two hours and any bookings in the past. There is no way to define this with the out-of-the-box Dynamics 365 entity view filters. If we did not have the now or after setting, the optimization engine could optimize past bookings or bookings that are scheduled in the next two hours. By defining a now or after settings, it will add the additional setting on top of whatever filter conditions are defined for that booking view.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KrsW]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KrsW]
 
 ## Optimization Range Settings
 
@@ -74,4 +74,4 @@ If the resource view referred to by optimization scope is a system view, modifie
 
 ### Optimization Scheduling
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KoUM]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KoUM]

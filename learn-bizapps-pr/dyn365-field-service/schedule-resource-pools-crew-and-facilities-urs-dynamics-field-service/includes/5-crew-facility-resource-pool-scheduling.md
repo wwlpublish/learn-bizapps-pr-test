@@ -10,7 +10,7 @@ When you are working with resource pools and crews, it is often easier to schedu
 
 When you open a resource pool in split view, the individual resources in the pool will be displayed at the bottom. Because the resource pool is used as the placeholder for the scheduled item, it will appear as a scheduled item for the pool. Once you have identified the specific resource that you want to move the booking to, you can right-click on the booking and select substitute resource. If you can see from the schedule board that a resource in the pool is available, you can manually select the resource. If you select to find a substitute, the schedule assistant will open and only offer members of the resource pool that match the skill/characteristics defined in the resource.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KmlC]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KmlC]
 
 ## Working with Crew Scheduling
 
@@ -18,7 +18,7 @@ When you open a crew in split view, the individual resources in the pool will be
 
 ![Find Substitution](../media/sch-unit5-2.png)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kmlx]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kmlx]
 
 ## Scheduling a Requirement Group
 
