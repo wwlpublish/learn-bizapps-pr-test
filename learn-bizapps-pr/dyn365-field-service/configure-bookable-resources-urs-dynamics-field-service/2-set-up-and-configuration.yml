@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 7
 content: |
   [!include[](includes/2-set-up-and-configuration.md)]

@@ -74,4 +74,4 @@ If the resource view referred to by optimization scope is a system view, modifie
 
 ### Optimization Scheduling
 
-[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KoUM]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KoUM]

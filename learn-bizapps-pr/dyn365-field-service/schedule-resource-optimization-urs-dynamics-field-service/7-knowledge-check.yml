@@ -32,13 +32,13 @@ quiz:
     choices: 
     - content: Minimize travel time 
       explanation: Each objective that is defined can have number value defined for the order.  Objectives are evaluated based on that numeric order.  Minimizing total travel time cannot be the first objective in the list. If minimize total travel time was the first objective, RSO might not schedule anything with the travel time of 0 minutes to meet the first objective.   Source - Defining Optimization Goals
-      isCorrect: false
+      isCorrect: true
     - content: Maximize total working hours
       explanation: Each objective that is defined can have number value defined for the order.  Objectives are evaluated based on that numeric order.  Minimizing total travel time cannot be the first objective in the list. If minimize total travel time was the first objective, RSO might not schedule anything with the travel time of 0 minutes to meet the first objective.   Source - Defining Optimization Goals
       isCorrect: false
     - content: High priority requirements
       explanation: Each objective that is defined can have number value defined for the order.  Objectives are evaluated based on that numeric order.  Minimizing total travel time cannot be the first objective in the list. If minimize total travel time was the first objective, RSO might not schedule anything with the travel time of 0 minutes to meet the first objective.   Source - Defining Optimization Goals
-      isCorrect: true
+      isCorrect: false
     - content: Maximize preferred resources
       explanation: Each objective that is defined can have number value defined for the order.  Objectives are evaluated based on that numeric order.  Minimizing total travel time cannot be the first objective in the list. If minimize total travel time was the first objective, RSO might not schedule anything with the travel time of 0 minutes to meet the first objective.   Source - Defining Optimization Goals
       isCorrect: false

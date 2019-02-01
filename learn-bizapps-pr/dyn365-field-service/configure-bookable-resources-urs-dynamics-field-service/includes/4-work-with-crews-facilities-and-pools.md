@@ -67,17 +67,17 @@ For example:
 An organization has defined a new crew called Maid Crew 1. They have
 added the following child resources for the crew.
 
--   **Crew 1 Lead**: Ashley Chinn -- From: June 1^st^ to December 31st
+-   **Crew 1 Lead**: Ashley Chinn -- From: June 1st to December 31st
 -   **Crew 1 Member 1**: Bernadette Foley -- From June 1st to December 31st
 -   **Crew 1 Member 2**: Clarence Desimone -- From June 1st to October 31st
 -   **Crew 1 Substitute 1**: -- Dawn Phelps From September 1st to December 31st.
 
-If a dispatcher attempts to schedule the crew for a job on the 4^rd^ of
+If a dispatcher attempts to schedule the crew for a job on the 4rd of
 September, the entire crew will be displayed and scheduled since they
 are all defined as crew members for that date. However, if a dispatcher
 attempts to schedule the crew for a job on December 12th, only Ashley,
 Bernadette, and Dawn will be displayed and schedule because Clarence is
-not defined as a crew member after the 31^st^ of October.
+not defined as a crew member after the 31st of October.
 
 ### Resource pools
 
@@ -111,6 +111,6 @@ A resource pool type can be one of the following:
 -   **Accounts / Contacts/ Users**: Represents individual people and items that can be scheduled.
 -   **Equipment**: Pieces of equipment
 
-> [!IMPORTANT] 
-A resource can only be associated with one crew or resource pool for a specific time period. For example, if Ashley is
+> [!IMPORTANT]
+> A resource can only be associated with one crew or resource pool for a specific time period. For example, if Ashley is
 assigned to the maid service crew one 1/1/2019 - 1/31/2019 she cannot be in another crew or resource pool during that time period.

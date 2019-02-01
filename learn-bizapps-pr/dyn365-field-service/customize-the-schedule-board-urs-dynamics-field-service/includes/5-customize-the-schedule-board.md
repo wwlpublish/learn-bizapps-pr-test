@@ -23,38 +23,13 @@ The Labs and exercises in this module work best when you have some sample data t
 
 ### Install the Field Service Demo Data—Detailed Steps
 
-1.  Locate the **FS\_Demo\_Data.zip** file available in the class  resources.
-2.  Right click the **FS\_Demo\_Data.zip** file, and choose **Unblock** (It may not be there and that is OK)
-3.  Right click the **FS\_Demo\_Data.zip** file, and select **Extract All**
-4.  Click **Browse**, select a location for the extracted files, click **Extract**
-
-![Browse Icon](../media/csb-unit5-1.png)
-
-5.  Open the **FS\_PkgFolder** in the extracted FieldServiceDemoData folder
-6.  Right click the **DemoDataConfig.xml** file, and select **Edit**
-7.  Edit the NewName value to a user in you Dynamics 365 Deployment (Example: the user that was created initially when you deployed your trial)
-
-![Edit New Name](../media/csb-unit5-2.png)
-
-8.  **Save and Close** the DemoDataConfig file.
-
-> [!Important]
-> Before you continue make sure there is no sample data installed in your Dynamics 365 Org. Go to **Settings** \> **Data Management** and Select Demo Data. If it is installed Select Remove Sample Data before continuing.
-
-9.  Right click the **PackageDeployer** application in the FieldServiceDemotData folder and select **Run as Administrator**
-10. If necessary, click **Yes** on the User Access Control Message
-11. On the Welcome Screen, click **Continue**
-12. Select **Office 365** for the **Deployment Type**.
-13. Set the Online Region to your Region, enter your username and password, and click **Login**
-
-![PackageDeployer](../media/csb-unit5-3.png)
-
-14. On the **Field Service Demo Data Setup Tool** screen, click **Next**
-15. On the **Ready to Install** Screen, click **Next**
-16. Once the Installer configuration is complete, click **Next**
-17. Wait for the Installer to complete (May take up to 30 or 45 Minutes), click **Next**
-18. Click **Finish** to complete the Field Service Sample Data installation.
-
+1. In Dynamics 365, select the down arrow next to **Dynamics 365**, and then select **Field Service**.
+2. Using the site map, select the ellipsis (...), and select **Field Service Settings**.
+3. Under *Schedule Settings*, select **Characteristics**.
+4. Select **New**.
+5. Enter *MCSE* in the **Name** field, select **Certification** in the **Certification** **Type** field, and then select **Save**.
+6. Select **New**.
+7. Type *MCSA* in the **Name** field, select **Certification** in the **Types** field, and then select **Save and Close**.
 ### Enable Bing Maps to use Resource Scheduling
 
 To ensure that you are able to take full advantage of the full scheduling and mapping capabilities available with Universal Resource Scheduling, you need to ensure that it is configured to use a mapping provider. Bings Maps is the default map provider, but additional providers could be enabled. We will be using Bing Maps.
@@ -64,7 +39,7 @@ To ensure that you are able to take full advantage of the full scheduling and ma
 3.  Select **Scheduling Parameters**.
 4.  Locate the **Connect to Maps** field and set it to **Yes**.
 
-![onnect to Maps](../media/csb-unit5-4.png)
+![Connect to Maps](../media/csb-unit5-4.png)
 
 5.  **Save and Close** the settings.
 

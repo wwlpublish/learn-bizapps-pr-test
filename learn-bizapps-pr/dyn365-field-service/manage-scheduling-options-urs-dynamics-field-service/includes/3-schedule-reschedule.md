@@ -131,5 +131,3 @@ There are several reasons why items might not be displayed in the Schedule Assis
         -   **Resource Type = Contact:** Address of the contact record related to the resource.
         -   **Resource Type = User:** Address associated with the user's Office 365 account.
     -   **Organization Unit Address:** If the organizational unit is being used, ensure that it has valid latitude and longitude values.
-
-

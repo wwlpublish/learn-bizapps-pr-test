@@ -14,7 +14,7 @@ By default, a schedule board tab will only be visible to the person who created 
 -   **Everyone**: The schedule board tab will be accessible to anyone in the organization who has schedule board access.
 -   **Specific People**: The schedule board tab will only be available to specific users that have been provided read access to that specific schedule board record. (Additional configuration is required)
 
-[Add Tab View](../media/csb-unit1-2.png)
+![Add Tab View](../media/csb-unit1-2.png)
 
 ### Sharing a Schedule Board
 
@@ -22,7 +22,7 @@ Universal Resource Scheduling includes an entity called Schedule Board Settings.
 
 This can initially be done by using Advanced Find and changing the look for field to be Schedule Board Settings entity. When you click the results button, every schedule board tab that has been created will display. Once you have located the schedule board you want to provide access to, click the share button, and the standard Dynamics 365 sharing screen will display. You can provide read access to any users or teams that should have access to the board. The specified schedule board tab will now be available to anyone it was shared with.
 
-[Sharing a Schedule Board](../media/csb-unit1-3.png)
+![Sharing a Schedule Board](../media/csb-unit1-3.png)
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kewx]
 
