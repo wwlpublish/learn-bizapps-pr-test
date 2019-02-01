@@ -1,11 +1,11 @@
 An optimization schedule defines when records should be optimized.   For example, you may define a schedule that runs on weekdays at 1 AM.
 
 When creating an optimization schedule, you will need to define the following:
-- Name: Provide a logical name that will express which requirements, bookings, and resources will be optimized.  
-- Scope: Defines the scope that will be used.
-- Goal: Defines the goal that will be used.  
-- Timer: Defines how often this schedule will run.
-- Timer Mode: Defines the point when the schedule starts the timer.
+- **Name**: Provide a logical name that will express which requirements, bookings, and resources will be optimized.  
+- **Scope**: Defines the scope that will be used.
+- **Goal**: Defines the goal that will be used.  
+- **Timer**: Defines how often this schedule will run.
+- **Timer Mode**: Defines the point when the schedule starts the timer.
     - For example, if a timer is set to thirty minutes, the first run starts thirty minutes from the publish date/time. 
     - Fixed mode: The optimization runs every thirty minutes. 
     - After job completion mode: The optimization runs thirty minutes from the end of the last RSO job execution. 
