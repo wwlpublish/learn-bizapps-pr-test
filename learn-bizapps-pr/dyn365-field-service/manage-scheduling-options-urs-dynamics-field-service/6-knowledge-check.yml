@@ -1,6 +1,6 @@
 ﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-manage-scheduling-options.6-knowledge-check
-title: Manage scheduling options in Dynamics 365 for Field Service 
+title: Manage scheduling options in Dynamics 365 for Field Service knowledge check
 metadata:
   title: Manage scheduling options in Dynamics 365 for Field Service 
   description: This knowledge check will test your knowledge of how to manage scheduling options in Dynamics 365 for Field Service.
@@ -13,8 +13,8 @@ metadata:
 title: Check your knowledge
 durationInMinutes: 5
 quiz:
-  title: Manage scheduling options in Dynamics 365 for Field Service knowledge check
-  questions:
+    title: Manage scheduling options in Dynamics 365 for Field Service knowledge check
+    questions:
   - content: Which of the following schedule board components is used to display unscheduled items? 
     choices: 
     - content: Filter and Map Panel

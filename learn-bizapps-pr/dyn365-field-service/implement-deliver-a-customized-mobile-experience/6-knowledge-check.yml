@@ -12,8 +12,7 @@ metadata:
 title: Check your knowledge
 durationInMinutes: 5
 quiz:
-  title: Deliver a customized mobile experience knowledge check
-  questions:
+    questions:
   - content: You want to ensure that users of the mobile app can update the completion status of Work Order Service Tasks without having to open each task.  You have a two-option field that is being used in the Work Order Service Tasks view.  What do you need to set the Kind property too, so the field can be interacted with?
     choices: 
     - content: Text-Edit
