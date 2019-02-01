@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-deliver-a-customized-mobile-experience.6-knowledge-check
 metadata:
-  title: Deliver a customized mobile experience
+  title: Deliver a customized mobile experience knowledge check
   description: This knowledge check will test your knowledge of delivering a customized mobile experience.
-  ms.date: 01/25/2019
+  ms.date: 2/1/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -14,9 +14,9 @@ durationInMinutes: 5
 quiz:
   title: Deliver a customized mobile experience knowledge check
   questions:
-  - content: You want to ensure that users of the mobile app can update the completion status of Work Order Service Tasks without having to open each task.  You have a two-option field that is being used in the Work Order Service Tasks view.  What do you need to set the Kind property too, so the field can be interacted with?
+  - content: You want to ensure that users of the mobile app can update the completion status of Work Order Service Tasks without having to open each task.  You have a two-option field that is being used in the Work Order Service Tasks view.  What do you need to set the kind property too, so the field can be interacted with?
     choices: 
-    - content: Text-Edit
+    - content: Text Edit
       explanation: The Kind property provides the ability to determine the kind data that a field will be set too in the mobile application.  When you want to be able to interact and edit a field directly on a view, you need to define the Kind property as a text-edit field.  Users will be able to interact with the field directly without having to open it.    Source -  Views and Visual Elements
       isCorrect: true
     - content: Text

@@ -1,0 +1,41 @@
+﻿### YamlMime:Module
+uid: learn-bizapps.urs-configure-bookable-resources
+metadata:
+  title: Configure bookable resources in Microsoft Dynamics 365 for Field Service - Learn
+  description: This module will focus on how bookable resources are used in universal resource scheduling. Configuring resources, working with bookable resources, setup of supporting components such as characteristics and roles, and working with facilities, crews, and resource pools is also covered.           
+  ms.date: 02/01/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+title: Configure bookable resources in Microsoft Dynamics 365 for Field Service
+summary: This module will focus on how bookable resources are used in universal resource scheduling. Configuring resources, working with bookable resources, setup of supporting components such as characteristics and roles, and working with facilities, crews, and resource pools is also covered. 
+abstract: |
+   In this module, you will:
+   - Identify the different types of resources available
+   - Define supporting resource components such as characteristics, roles, and organizational units
+   - Setup an individual bookable resource
+   - Geocode resources, starting and ending locations, and viewing in the map 
+   - Define pools, crews, and facilities
+prerequisites: Basic understanding of how to navigate the Dynamics 365 application, as well as a working knowledge of the core records available. Familiarity with basic field service capabilities is also helpful.
+iconUrl: /learn/achievements/defining-bookable-resources-in-microsoft-dynamics-365-for-field-service.svg
+levels: 
+- intermediate
+roles: 
+- functional-consultant
+products: 
+- bizapps
+- bizapps-d365
+- dynamics
+- dynamics-field-service
+units:
+- learn-bizapps.urs-configure-bookable-resources.1-bookable-resources-overview
+- learn-bizapps.urs-configure-bookable-resources.2-set-up-and-configuration
+- learn-bizapps.urs-configure-bookable-resources.3-define-bookable-resources
+- learn-bizapps.urs-configure-bookable-resources.4-work-with-crews-facilities-and-pools
+- learn-bizapps.urs-configure-bookable-resources.5-configure-entities-for-urs
+- learn-bizapps.urs-configure-bookable-resources.6-setup-and-configure-bookable-resources
+- learn-bizapps.urs-configure-bookable-resources.7-knowledge-check
+- learn-bizapps.urs-configure-bookable-resources.8-summary
+badge:
+   uid: learn.defining-and-configure-bookable-resources.badge

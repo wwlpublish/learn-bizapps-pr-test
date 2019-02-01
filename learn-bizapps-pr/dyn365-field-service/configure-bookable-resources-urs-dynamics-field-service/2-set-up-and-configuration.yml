@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.urs-configure-bookable-resources.2-set-up-and-configuration
+title: Setup and configuration
+metadata:
+  title: Setup and configuration
+  description: Setup and configuration
+  ms.date: 02/01/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+  ROBOTS: NOINDEX
+durationInMinutes: 7
+content: |
+  [!include[](includes/2-set-up-and-configuration.md)]
