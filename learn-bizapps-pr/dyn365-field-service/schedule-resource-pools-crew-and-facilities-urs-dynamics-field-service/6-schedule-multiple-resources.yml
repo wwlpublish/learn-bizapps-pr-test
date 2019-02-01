@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.6-schedule-multiple-resources
+title: Exercise - Schedule multiple resources
+metadata:
+  title: Exercise - Schedule multiple resources
+  description: Exercise - Schedule multiple resources
+  ms.date: 02/01/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+  ROBOTS: NOINDEX
+durationInMinutes: 20
+content: |
+  [!include[](includes/6-schedule-multiple-resources.md)]
