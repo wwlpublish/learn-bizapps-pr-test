@@ -12,6 +12,7 @@ metadata:
 title: Check your knowledge
 durationInMinutes: 5
 quiz:
+    title: Schedule crews, facilities, and resource pooling in Microsoft Dynamics 365 for Field Service Knowledge Check
     questions:
   - content: Which resource type would be used to represent a team of cable installers that can all be scheduled together for a job? 
     choices: 
