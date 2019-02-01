@@ -4,12 +4,12 @@ title: Define an optimization scope
 metadata:
   title: Define an optimization scope
   description: Define an optimization scope
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 10
 content: |
   [!include[](includes/4-define-an-optimization-scope.md)]

@@ -1,13 +1,13 @@
 ﻿### YamlMime:Module
 uid: learn-bizapps.urs-customize-the-schedule-board
 metadata:
-  title: Customize the schedule board in Microsoft Dynamics 365 for Field Service
+  title: Customize the schedule board in Microsoft Dynamics 365 for Field Servicev - Learn
   description: Tailoring the schedule board for easier scheduling is made possible with multiple schedule boards, views, and schedule board options. We’ll look at how we configure the filters, queries, and entities for use with the schedule board.
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
 title: Customize the schedule board in Microsoft Dynamics 365 for Field Service
 summary: Tailoring the schedule board for easier scheduling is made possible with multiple schedule boards, views, and schedule board options. We’ll look at how we configure the filters, queries, and entities for use with the schedule board.  
 abstract: |
@@ -26,6 +26,8 @@ roles:
 products: 
 - bizapps
 - bizapps-d365
+- dynamics
+- dynamics-field-service
 units:
 - learn-bizapps.urs-customize-the-schedule-board.1-work-with-multiple-schedule-boards
 - learn-bizapps.urs-customize-the-schedule-board.2-schedule-board-options

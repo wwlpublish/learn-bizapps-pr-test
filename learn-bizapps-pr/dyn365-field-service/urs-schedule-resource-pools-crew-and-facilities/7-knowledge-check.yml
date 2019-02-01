@@ -3,11 +3,11 @@ uid: learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.7-knowledge-c
 metadata:
   title: Schedule crews, facilities, and resource pooling in Microsoft Dynamics 365 for Field Service
   description: This knowledge check will test your knowledge of scheduling crews, facilities, and resource pooling in Microsoft Dynamics 365 for Field Service.
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
 title: Schedule crews, facilities, and resource pooling in Microsoft Dynamics 365 for Field Service
 durationInMinutes: 5
@@ -17,44 +17,44 @@ quiz:
   - content: Which resource type would be used to represent a team of cable installers that can all be scheduled together for a job? 
     choices: 
     - content: Resource Pool
-      incorrectExplanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  These can include defining a resource as a facility to assist in scheduling work that occurs at specific locations, creating resource pools to act as place holders until a specific resource can be scheduled, or using crews to define a group of resources that are typically scheduled together to complete a job.  Source - Defining Bookable Resources 
+      explanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  These can include defining a resource as a facility to assist in scheduling work that occurs at specific locations, creating resource pools to act as place holders until a specific resource can be scheduled, or using crews to define a group of resources that are typically scheduled together to complete a job.  Source - Defining Bookable Resources 
       isCorrect: false
     - content: Crew
-      correctExplanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  These can include defining a resource as a facility to assist in scheduling work that occurs at specific locations, creating resource pools to act as place holders until a specific resource can be scheduled, or using crews to define a group of resources that are typically scheduled together to complete a job.  Source - Defining Bookable Resources 
+      explanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  These can include defining a resource as a facility to assist in scheduling work that occurs at specific locations, creating resource pools to act as place holders until a specific resource can be scheduled, or using crews to define a group of resources that are typically scheduled together to complete a job.  Source - Defining Bookable Resources 
       isCorrect: true
     - content: Facility
-      incorrectExplanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  These can include defining a resource as a facility to assist in scheduling work that occurs at specific locations, creating resource pools to act as place holders until a specific resource can be scheduled, or using crews to define a group of resources that are typically scheduled together to complete a job.  Source - Defining Bookable Resources 
+      explanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  These can include defining a resource as a facility to assist in scheduling work that occurs at specific locations, creating resource pools to act as place holders until a specific resource can be scheduled, or using crews to define a group of resources that are typically scheduled together to complete a job.  Source - Defining Bookable Resources 
       isCorrect: false
     - content: User
-      incorrectExplanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  These can include defining a resource as a facility to assist in scheduling work that occurs at specific locations, creating resource pools to act as place holders until a specific resource can be scheduled, or using crews to define a group of resources that are typically scheduled together to complete a job.  Source - Defining Bookable Resources 
+      explanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  These can include defining a resource as a facility to assist in scheduling work that occurs at specific locations, creating resource pools to act as place holders until a specific resource can be scheduled, or using crews to define a group of resources that are typically scheduled together to complete a job.  Source - Defining Bookable Resources 
       isCorrect: false
   - content: Which resource type would be used to represent an individual sub-contractor that could be scheduled for a job?      
     choices: 
     - content: Resource Pool
-      incorrectExplanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  Four of the them are typically used to note people.  User- which typically defines internal users, Contact- Which typically are used to individual external resources like a sub-contractor, Account- Which would represent an external organization that can be used for work, and Generic. Represents a generic place resource that is not defined as a specific person, facility, or equipment.  Source - Defining Bookable Resources 
+      explanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  Four of the them are typically used to note people.  User- which typically defines internal users, Contact- Which typically are used to individual external resources like a sub-contractor, Account- Which would represent an external organization that can be used for work, and Generic. Represents a generic place resource that is not defined as a specific person, facility, or equipment.  Source - Defining Bookable Resources 
       isCorrect: false
     - content: Crew
-      incorrectExplanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  Four of the them are typically used to note people.  User- which typically defines internal users, Contact- Which typically are used to individual external resources like a sub-contractor, Account- Which would represent an external organization that can be used for work, and Generic. Represents a generic place resource that is not defined as a specific person, facility, or equipment.  Source - Defining Bookable Resources 
+      explanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  Four of the them are typically used to note people.  User- which typically defines internal users, Contact- Which typically are used to individual external resources like a sub-contractor, Account- Which would represent an external organization that can be used for work, and Generic. Represents a generic place resource that is not defined as a specific person, facility, or equipment.  Source - Defining Bookable Resources 
       isCorrect: false
     - content: Contact
-      correctExplanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  Four of the them are typically used to note people.  User- which typically defines internal users, Contact- Which typically are used to individual external resources like a sub-contractor, Account- Which would represent an external organization that can be used for work, and Generic. Represents a generic place resource that is not defined as a specific person, facility, or equipment.  Source - Defining Bookable Resources 
+      explanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  Four of the them are typically used to note people.  User- which typically defines internal users, Contact- Which typically are used to individual external resources like a sub-contractor, Account- Which would represent an external organization that can be used for work, and Generic. Represents a generic place resource that is not defined as a specific person, facility, or equipment.  Source - Defining Bookable Resources 
       isCorrect: true
     - content: User
-      incorrectExplanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  Four of the them are typically used to note people.  User- which typically defines internal users, Contact- Which typically are used to individual external resources like a sub-contractor, Account- Which would represent an external organization that can be used for work, and Generic. Represents a generic place resource that is not defined as a specific person, facility, or equipment.  Source - Defining Bookable Resources 
+      explanation: There are multiple types of resources that can be created in Universal Resource Scheduling.  Four of the them are typically used to note people.  User- which typically defines internal users, Contact- Which typically are used to individual external resources like a sub-contractor, Account- Which would represent an external organization that can be used for work, and Generic. Represents a generic place resource that is not defined as a specific person, facility, or equipment.  Source - Defining Bookable Resources 
       isCorrect: false
   - content: For an entity to be enabled for Universal Resource scheduling which of the following entities does it need to have a relationship with?
     choices: 
     - content: Resource
-      incorrectExplanation: For a Dynamics 365 entity to be scheduled using universal resource scheduling, it must have a relationship with the Resource Requirement entity and the Bookable Resource Booking entity.  The relationship with the Resource Requirement entity ensures that requirement records can be created.  The relationship with the Bookable Resource Booking entity ensures that bookings can be scheduled for the entity.    Source - Configuring Entities for URS
+      explanation: For a Dynamics 365 entity to be scheduled using universal resource scheduling, it must have a relationship with the Resource Requirement entity and the Bookable Resource Booking entity.  The relationship with the Resource Requirement entity ensures that requirement records can be created.  The relationship with the Bookable Resource Booking entity ensures that bookings can be scheduled for the entity.    Source - Configuring Entities for URS
       isCorrect: false
     - content: Resource Requirement 
-      correctExplanation: For a Dynamics 365 entity to be scheduled using universal resource scheduling, it must have a relationship with the Resource Requirement entity and the Bookable Resource Booking entity.  The relationship with the Resource Requirement entity ensures that requirement records can be created.  The relationship with the Bookable Resource Booking entity ensures that bookings can be scheduled for the entity.    Source - Configuring Entities for URS
+      explanation: For a Dynamics 365 entity to be scheduled using universal resource scheduling, it must have a relationship with the Resource Requirement entity and the Bookable Resource Booking entity.  The relationship with the Resource Requirement entity ensures that requirement records can be created.  The relationship with the Bookable Resource Booking entity ensures that bookings can be scheduled for the entity.    Source - Configuring Entities for URS
       isCorrect: true
     - content: Work Order
-      incorrectExplanation: For a Dynamics 365 entity to be scheduled using universal resource scheduling, it must have a relationship with the Resource Requirement entity and the Bookable Resource Booking entity.  The relationship with the Resource Requirement entity ensures that requirement records can be created.  The relationship with the Bookable Resource Booking entity ensures that bookings can be scheduled for the entity.    Source - Configuring Entities for URS
+      explanation: For a Dynamics 365 entity to be scheduled using universal resource scheduling, it must have a relationship with the Resource Requirement entity and the Bookable Resource Booking entity.  The relationship with the Resource Requirement entity ensures that requirement records can be created.  The relationship with the Bookable Resource Booking entity ensures that bookings can be scheduled for the entity.    Source - Configuring Entities for URS
       isCorrect: false
     - content: Incident Type
-      incorrectExplanation: For a Dynamics 365 entity to be scheduled using universal resource scheduling, it must have a relationship with the Resource Requirement entity and the Bookable Resource Booking entity.  The relationship with the Resource Requirement entity ensures that requirement records can be created.  The relationship with the Bookable Resource Booking entity ensures that bookings can be scheduled for the entity.    Source - Configuring Entities for URS
+      explanation: For a Dynamics 365 entity to be scheduled using universal resource scheduling, it must have a relationship with the Resource Requirement entity and the Bookable Resource Booking entity.  The relationship with the Resource Requirement entity ensures that requirement records can be created.  The relationship with the Bookable Resource Booking entity ensures that bookings can be scheduled for the entity.    Source - Configuring Entities for URS
       isCorrect: false      
 
 

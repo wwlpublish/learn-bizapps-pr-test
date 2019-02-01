@@ -4,12 +4,12 @@ title: Schedule multiple resources and facilities
 metadata:
   title: Schedule multiple resources and facilities
   description: Schedule multiple resources and facilities
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 10
 content: |
   [!include[](includes/1-schedule-multiple-resources-and-facilities.md)]

@@ -4,12 +4,12 @@ title: Work with multiple schedule boards
 metadata:
   title: Work with multiple schedule boards
   description: Work with multiple schedule boards
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 10
 content: |
   [!include[](includes/1-work-with-multiple-schedule-boards.md)]

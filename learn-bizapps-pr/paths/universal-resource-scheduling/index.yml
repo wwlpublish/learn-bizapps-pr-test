@@ -1,13 +1,13 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.universal-resource-scheduling
 metadata:
-  title:  Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service  
+  title:  Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service learning path 
   description: Schedule anything to the right resource for any job or task with ease.  Universal Resource Scheduling (URS) is a Dynamics 365 for Customer Engagement solution that allows organizations from different industries with different scenarios.  
-  ms.date: 01/31/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365-universal-resource-scheduling
+  ms.prod: learning-d365-field-service
   #ms.learn-contact: dbeasley
 title: Universal Resource Scheduling in Microsoft Dynamics 365 for Field Service 
 summary: Schedule anything to the right resource for any job or task with ease.  Universal Resource Scheduling (URS) is a Dynamics 365 for Customer Engagement solution that allows organizations from different industries with different scenarios.  

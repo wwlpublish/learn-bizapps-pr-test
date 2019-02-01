@@ -4,12 +4,12 @@ title: Design and use views with the Schedule Board
 metadata:
   title: Design and use views with the Schedule Board
   description: Design and use views with the Schedule Board
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 10
 content: |
   [!include[](includes/3-design-and-use-views-with-schedule-board.md)]

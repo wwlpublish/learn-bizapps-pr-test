@@ -1,13 +1,13 @@
 ### YamlMime:Module
 uid: learn-bizapps.urs-manage-scheduling-options
 metadata:
-  title: Manage scheduling options in Dynamics 365 for Field Service 
+  title: Manage scheduling options in Dynamics 365 for Field Service - Learn
   description: Dispatchers and schedulers need to easily identify and schedule resources to work on jobs.  They should be able to identify which scheduling method will best be used based on the scenario that they are trying to schedule.  When scenarios arise that require assistance, dispatchers can leverage the schedule assistant to provide recommendations based on requirements that are defined for the job.  Many times, items that are scheduled will need to be rescheduled or assigned to a different resource.  With Dynamics 365�s schedule board dispatchers can easily identify which items need to be rescheduled and either reschedule them or rebook them to a completely different resource.    
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
 title: Manage scheduling options in Dynamics 365 for Field Service 
 summary: Dispatchers and schedulers need to easily identify and schedule resources to work on jobs.  They should be able to identify which scheduling method will best be used based on the scenario that they are trying to schedule.  When scenarios arise that require assistance, dispatchers can leverage the schedule assistant to provide recommendations based on requirements that are defined for the job.  Many times, items that are scheduled will need to be rescheduled or assigned to a different resource.  With Dynamics 365�s schedule board dispatchers can easily identify which items need to be rescheduled and either reschedule them or rebook them to a completely different resource.    
 abstract: |

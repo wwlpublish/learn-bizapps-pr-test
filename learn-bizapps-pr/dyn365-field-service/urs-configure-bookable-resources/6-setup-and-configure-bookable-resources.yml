@@ -4,12 +4,12 @@ title: Exercise - Set up and configure bookable resources
 metadata:
   title: Exercise - Set up and configure bookable resources
   description: Exercise - Set up and configure bookable resources
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
-durationInMinutes: 5
+durationInMinutes: 20
 content: |
   [!include[](includes/6-setup-and-configure-bookable-resources.md)]

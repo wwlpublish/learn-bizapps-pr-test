@@ -1,13 +1,13 @@
 ﻿### YamlMime:Module
 uid: learn-bizapps.urs-configure-bookable-resources
 metadata:
-  title: Configuring bookable resources in Microsoft Dynamics 365 for Field Service
+  title: Configuring bookable resources in Microsoft Dynamics 365 for Field Service - Learn
   description: This module will focus on how bookable resources are used in universal resource scheduling. Configuring resources, working with bookable resources, setup of supporting components such as characteristics and roles, and working with facilities, crews, and resource pools is also covered.           
-  ms.date: 1/11/2019
+  ms.date: 02/01/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365
+  ms.prod: learning-d365-field-service
 title: Configuring bookable resources in Microsoft Dynamics 365 for Field Service
 summary: This module will focus on how bookable resources are used in universal resource scheduling. Configuring resources, working with bookable resources, setup of supporting components such as characteristics and roles, and working with facilities, crews, and resource pools is also covered. 
 abstract: |
@@ -26,6 +26,8 @@ roles:
 products: 
 - bizapps
 - bizapps-d365
+- dynamics
+- dynamics-field-service
 units:
 - learn-bizapps.urs-configure-bookable-resources.1-bookable-resources-overview
 - learn-bizapps.urs-configure-bookable-resources.2-set-up-and-configuration
