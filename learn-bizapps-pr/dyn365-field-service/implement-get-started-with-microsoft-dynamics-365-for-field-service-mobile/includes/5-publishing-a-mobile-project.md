@@ -4,7 +4,7 @@ After making the necessary customizations to a project, you'll need to publish i
 
 Before publishing a project, consider making configuration changes to the application. For example, you might want to change the default Save Password setting, which does not save a user's password information. This means that anytime a user navigates away from the app, they will be prompted for their password.
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kmlu]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kmlu]
 
 Options available for configuration include:
 

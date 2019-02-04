@@ -81,7 +81,7 @@ For more about customizing Dynamics 365, see these resources:
 #### Skill Types
    - What skills do resources need to work on items?
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kmlo]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kmlo]
 
 Field Service has five types of configuration settings available:
 

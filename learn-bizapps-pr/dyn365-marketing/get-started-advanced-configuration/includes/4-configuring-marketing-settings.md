@@ -124,9 +124,9 @@ To sync an entity with the customer-insights services:
 4. Wait for up to a minute, until you see an announcement near the top of the page that **"Your changes have been accepted...".** If you don't see the announcement, select **Publish changes** again and then wait; repeat until you see the message
 5. Depending on how much data needs to be synced (and other factors), you may need to wait for several minutes (or *up to six hours*) before your data is available for use in your segments, messages, and scoring models. Here are some ways that you'll be able to determine if a new entity is synced and ready for use (you only need to verify one of these scenarios):
     - The check box for the relevant entity on the **Customer insights sync** page is selected and grayed out when you first enter the page. The check box is gray to indicate that you can't turn-off the sync process once it has started. You must reload the page manually to see this change.
-    - The relevant entity is shown in the [assist-edit menu](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/dynamic-email-content#assist-edit)for marketing email messages.
-    - The relevant entity is shown in the **Profiles** list in the [segment designer](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions). (Note that you must either create a new query group or remove all clauses from the existing query group to see the **Profiles** drop-down list here---otherwise the contact entity is already selected by default.)
-    - The relevant entity is shown in the **Entity** list when you are editing a condition for a [lead scoring rule](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/score-manage-leads).
+    - The relevant entity is shown in the [assist-edit menu](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/dynamic-email-content#assist-edit)for marketing email messages.
+    - The relevant entity is shown in the **Profiles** list in the [segment designer](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/segmentation-lists-subscriptions). (Note that you must either create a new query group or remove all clauses from the existing query group to see the **Profiles** drop-down list here---otherwise the contact entity is already selected by default.)
+    - The relevant entity is shown in the **Entity** list when you are editing a condition for a [lead scoring rule](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/score-manage-leads).
 
 ### Default marketing settings
 
@@ -257,9 +257,9 @@ that contain personal information. You should establish mechanics that
 allow you to easily discover, deliver, update, and/or delete this data
 when requested by your customer.
 
--   For more information about how Dynamics 365 for Customer Engagement helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance, see [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/en-us/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
+-   For more information about how Dynamics 365 for Customer Engagement helps you with essential data tasks like discovering, managing, protecting, and reporting for your GDPR compliance, see [Microsoft Dynamics 365 helps enable data privacy for GDPR compliance](https://www.microsoft.com/TrustCenter/CloudServices/dynamics365/GDPR) in the [Microsoft Trust Center](https://www.microsoft.com/trustcenter).
 
--   For details about how to use the Dynamics 365 API to implement custom GDPR-related functionality for your Dynamics 365 for Marketing system, see [Developer Guide (Marketing)](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/developer/marketing-developer-guide).
+-   For details about how to use the Dynamics 365 API to implement custom GDPR-related functionality for your Dynamics 365 for Marketing system, see [Developer Guide (Marketing)](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/marketing-developer-guide).
 
 There are several scenarios in Dynamics 365 for Marketing that allow you
 to demonstrate compliance. One scenario is to view a history of

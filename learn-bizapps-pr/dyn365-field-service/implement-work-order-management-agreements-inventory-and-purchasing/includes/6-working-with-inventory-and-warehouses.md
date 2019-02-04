@@ -93,4 +93,4 @@ For more about using Connected Field Service to monitor and service equipment, s
 
 For more info on working with inventory and warehouses in Field Service:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KjKu]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KjKu]

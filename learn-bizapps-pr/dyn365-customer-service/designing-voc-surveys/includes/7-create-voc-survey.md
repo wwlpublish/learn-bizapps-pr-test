@@ -30,7 +30,7 @@ You work for a company that provides help desk support to its customers. Lately,
 
 #### Deploy the Voice of the Customer solution
 
-1. Go to <https://admin.powerplatform.microsoft.com>, and sign in to the Microsoft Power platform Admin center.
+1. Go to <https://admin.powerplatform.microsoft.com>, and sign in to the Microsoft Power Platform Admin center.
 2. In the Admin center site map, expand **Admin centers**.
 3. Select **Dynamics 365**.
 4. In the Dynamics 365 Admin center, select **Applications**.

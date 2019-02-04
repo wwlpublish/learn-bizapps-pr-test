@@ -5,7 +5,7 @@ After an IoT alert is generated in Connected Field Service, you need to identify
 <!--note from editor: not sure if this is the correct way to format a video.-->
 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2EbBy]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2EbBy]
 
 Out of the box, the Connected Field Service solution contains several actions and workflows that can be leveraged to assist in automating items like creating and registering devices and populating relevant data on records.  
 

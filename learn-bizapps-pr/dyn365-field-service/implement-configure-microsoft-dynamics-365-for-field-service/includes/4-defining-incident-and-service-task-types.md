@@ -31,7 +31,7 @@ Define the following info:
 
 For more info about incident types, refer to this video:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kmlw]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kmlw]
 
 ### Creating Service Tasks
 

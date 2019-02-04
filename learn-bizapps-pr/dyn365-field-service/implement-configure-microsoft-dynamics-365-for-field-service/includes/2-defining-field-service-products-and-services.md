@@ -24,7 +24,7 @@ After defining your product type, configure the following settings:
 
 For more info on products and services setup, watch this video.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KrsV]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KrsV]
 
 ## Product and Service Pricing
 

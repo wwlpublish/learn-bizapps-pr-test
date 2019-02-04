@@ -49,7 +49,7 @@ removed.
 
 For more info about defining account preference, refer to this video:
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kewv]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kewv]
 
 ### Additional Account Info
 

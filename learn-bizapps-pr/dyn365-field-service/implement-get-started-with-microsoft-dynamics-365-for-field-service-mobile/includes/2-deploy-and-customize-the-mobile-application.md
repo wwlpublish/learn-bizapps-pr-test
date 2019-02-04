@@ -22,7 +22,7 @@ Avoid these apps:
 
 Instead, download the **Field Service Mobile** app.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KrsU]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KrsU]
 
 ### Configuring the mobile application
 

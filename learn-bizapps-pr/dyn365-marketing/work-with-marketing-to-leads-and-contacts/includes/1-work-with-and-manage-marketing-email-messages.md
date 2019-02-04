@@ -5,7 +5,7 @@ Email is a vital marketing channel for most modern organizations. It\'s also a c
 
 ### Create a marketing email
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2NNos]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2NNos]
 
 ### Add required fields to marketing emails
 

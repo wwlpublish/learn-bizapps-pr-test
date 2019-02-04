@@ -9,7 +9,7 @@ Create a trial environment or reset an existing test environment, and set it up 
 It's important that you not do this exercise in your production environment. Always do exercises in a demo or sandbox instance.
 
 > [!NOTE]
-> To learn about the onboarding options for getting an environment, see [Onboard your organization and users](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online "Getting an Environment").
+> To learn about the onboarding options for getting an environment, see [Onboard your organization and users](https://docs.microsoft.com/dynamics365/customer-engagement/admin/onboard-your-organization-and-users-to-dynamics-365-online "Getting an Environment").
 
 ![Environment scenario options](../media/1-gs-unit3.png)
 
@@ -93,4 +93,4 @@ It's important that you not do this exercise in your production environment. Alw
 
     ![Save button](../media/19-gs-unit3.png)
 
-12.	You've now finished installing Connected Field Service. If you want to install some demo data, you can download and deploy it from [https://www.microsoft.com/en-us/download/details.aspx?id=55320](https://www.microsoft.com/en-us/download/details.aspx?id=55320 "Demo Data").
+12.	You've now finished installing Connected Field Service. If you want to install some demo data, you can download and deploy it from [https://www.microsoft.com/download/details.aspx?id=55320](https://www.microsoft.com/download/details.aspx?id=55320 "Demo Data").

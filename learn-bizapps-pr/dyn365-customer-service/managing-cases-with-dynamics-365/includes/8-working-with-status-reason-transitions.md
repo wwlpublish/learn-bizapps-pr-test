@@ -55,6 +55,6 @@ When you define reason options for an active status reason, there must be at lea
 
 After the transitions are saved and published, agents will see the changes reflected in the application.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2IJmp]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2IJmp]
 
 For more about status reason transitions, see [Define status reason transitions for the Case or custom entities](https://docs.microsoft.com/dynamics365/customer-engagement/customize/define-status-reason-transitions).

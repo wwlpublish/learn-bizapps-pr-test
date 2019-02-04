@@ -6,7 +6,7 @@ Customer journeys can be simple or complex. An example of a simple journey could
 
 ## Create a customer journey
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2NPR5] 
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2NPR5] 
 
 ### Customer journey reference components
 

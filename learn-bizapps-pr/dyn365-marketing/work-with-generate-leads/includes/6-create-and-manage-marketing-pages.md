@@ -7,7 +7,7 @@ There are 3 types of marketing pages:
 - **Forward to a Friend** - Provides a page where recipients of your marketing email messages can forward to friends interested in your offer.
 
 ### Marketing pages
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2NNou]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2NNou]
 
 To access marketing forms, go to **Marketing** > **Internet Marketing** > **Marketing Pages**.
 

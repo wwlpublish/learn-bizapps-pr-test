@@ -2,7 +2,7 @@ Import your customer and sales data into your marketing app. You will need to fo
 
 ### Import leads from a marketing list
 
-Dynamics 365 processes imports in the background through data management. Before import, you must separate contacts and leads into their respective .csv or Excel file format for importation. Navigate to [Importing data](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/import-data).
+Dynamics 365 processes imports in the background through data management. Before import, you must separate contacts and leads into their respective .csv or Excel file format for importation. Navigate to [Importing data](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/import-data).
 
 After an import is completed, you can review which records were successfully imported, failed to be imported, or partially imported. To fix the records that failed to be imported, export them into a separate file, fix them, and then try to import them again (if necessary, you can start over by
 deleting all records associated with the previous import).
