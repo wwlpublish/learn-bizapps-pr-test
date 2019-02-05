@@ -4,14 +4,14 @@ When you register a Customer Asset or an IoT Device from Connected Field Service
 
 Additionally, in the IoT Hub there is a corresponding Device Twin.  A Device Twin is a JSON document associated with a specific device that is used to synchronize state information between the device and an IoT hub.  In the case of Connected Field Service, it might be a Customer Asset that was registered with the IoT Hub.  The device twin holds metadata and configuration data of the device, as well as a virtual cloud representation of physical devices.   
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2DQPs]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2DQPs]
 
 Below you can see a snippet of what a Device Twin JSON document looks like. 
 ![Device Twin JSON](../media/2-rg-unit2.png)
 
 From a Dynamics 365 standpoint, the Connected Field Service solution leverages device twins to store device-related information in two primary ways - Synchronize Device Conditions and Properties.  Both provide information such as reporting operating conditions such as a device state, heartbeat for connectivity speed, machine vibration, and so on.  This information provides visibility into device conditions and properties on a graphical dashboard.  
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2DQPq]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2DQPq]
 > 
 For example: You might have a holding tank that stores excess waste from a filtering process before it is disposed of.  The capacity of a tank could be monitored through IoT Hub and then represented on dashboard in Dynamics 365.   Once the tank’s capacity reaches a specific threshold, an alert is sent to designated users for follow-up action. 
 

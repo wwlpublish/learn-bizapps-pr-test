@@ -120,4 +120,4 @@ The image below illustrates this process:
 
 For more info on work order related records, refer to this video:
 	
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kmly]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kmly]

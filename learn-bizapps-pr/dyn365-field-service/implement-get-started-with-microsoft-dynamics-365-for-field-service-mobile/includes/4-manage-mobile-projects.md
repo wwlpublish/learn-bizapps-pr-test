@@ -31,7 +31,7 @@ Because the Field Supervisors project has a priority of 2, it will be loaded for
 
 You should be aware of scenarios where an agent might have multiple projects assigned to them, and make sure that you assign priorities as needed.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kmlv]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kmlv]
 
 ### Security Roles
 

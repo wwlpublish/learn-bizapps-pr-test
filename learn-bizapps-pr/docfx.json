@@ -150,13 +150,9 @@
       "extendBreadcrumb": true,
       "feedback_system": "None",
       "clicktale": true,
-      "titleSuffix": "- Learn",
       "uhfHeaderId":"MSDocsHeader-Learn"
     },
-    "fileMetadata": {
-      "titleSuffix": {
-        "paths/**": " learning path "}
-    },
+    "fileMetadata": {},
     "template": [],
     "dest": "learn-bizapps-pr",
     "markdownEngineName": "markdig"

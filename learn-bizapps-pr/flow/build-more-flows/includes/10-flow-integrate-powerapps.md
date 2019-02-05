@@ -31,7 +31,7 @@ Adding a flow to a PowerApps application is very straightforward.
 
     ![PowerApps trigger in a flow](../media/flow-select-powerapp.png)
 
-For more about how to create flows, see [Create a flow from a template in Microsoft Flow](https://docs.microsoft.com/en-us/flow/get-started-logic-template).
+For more about how to create flows, see [Create a flow from a template in Microsoft Flow](https://docs.microsoft.com/flow/get-started-logic-template).
 
 ## Add a PowerApps application from Microsoft Flow
 
@@ -47,7 +47,7 @@ You can also go in the other direction. You can start in Microsoft Flow and then
 
     The template is opened, and you can start building your flow.
 
-For more about how to create apps by using PowerApps, see [Create a canvas app from a template in PowerApps](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/get-started-test-drive).
+For more about how to create apps by using PowerApps, see [Create a canvas app from a template in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-started-test-drive).
 
 ## Integration of SharePoint with Microsoft Flow
 

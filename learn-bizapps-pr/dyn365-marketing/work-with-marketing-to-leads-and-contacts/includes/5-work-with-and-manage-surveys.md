@@ -45,7 +45,7 @@ There a variety of question types to help you build detailed and effective surve
 
 ### Create a survey
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2NFze]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2NFze]
 
 ### Configure responsive routing
 

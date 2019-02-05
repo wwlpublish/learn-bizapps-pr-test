@@ -1,6 +1,6 @@
 The labs and exercises in this module work best when you have sample data to work with. Microsoft Dynamics 365 provides the ability to add sample data as needed. If your working environment does not have sample data installed, follow the steps below to install a set.
 
-The labs and exercises in this module work best when you have sample data to work with. If your environment does not include sample data, see the [Sample data installation for the Field Service application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-sample-data-8-x) page.
+The labs and exercises in this module work best when you have sample data to work with. If your environment does not include sample data, see the [Sample data installation for the Field Service application](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-sample-data-8-x) page.
 
 ### Download and install the Mobile Field Service mobile solution
 

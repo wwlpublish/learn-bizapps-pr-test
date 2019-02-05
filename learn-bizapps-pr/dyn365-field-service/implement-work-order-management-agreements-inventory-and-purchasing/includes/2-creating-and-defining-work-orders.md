@@ -67,4 +67,4 @@ There are additional ways to create work orders. You might consider:
       - How will those be captured?
 
 For more about creating and defining work orders, refer to this video:
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KjKo]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KjKo]

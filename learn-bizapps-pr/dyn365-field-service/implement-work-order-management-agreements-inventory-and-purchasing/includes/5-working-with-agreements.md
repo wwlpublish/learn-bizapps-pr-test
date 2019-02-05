@@ -122,4 +122,4 @@ Once you have defined all the necessary booking setups and invoices, you'll chan
 
 For more info on working with agreements, refer to this video:
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2KjKv]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2KjKv]

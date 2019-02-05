@@ -91,6 +91,6 @@ The ability to merge up to 10 cases is available only through the user interface
 
 Watch the following video about working through a case resolution.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2IM1e]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2IM1e]
 
 For more about case merging, see [Merge similar cases](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/user-guide-customer-service#merge-similar-cases).

@@ -5,7 +5,7 @@ Now that you're familiar with all the parts of Microsoft PowerApps and the optio
 Keep in mind that you can use data from lots of other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
 > [!NOTE]
-> This flow will work only if you have a license for Office 365 and the required Dynamics 365 license or free Dynamics 365 trial. Learn more about which [Microsoft products include Microsoft PowerApps and Microsoft Flow](https://docs.microsoft.com/en-us/powerapps/administrator/pricing-billing-skus#licenses).”
+> This flow will work only if you have a license for Office 365 and the required Dynamics 365 license or free Dynamics 365 trial. Learn more about which [Microsoft products include Microsoft PowerApps and Microsoft Flow](https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus#licenses).”
 
 
 ## Connect to a data source

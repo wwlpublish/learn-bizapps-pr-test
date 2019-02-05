@@ -12,7 +12,7 @@ Estimated time to complete this lab: 30—45 minutes
 
 The labs and exercises in this module work best when you have sample data to work with. Depending on your environment, you might want to install a set to assist with exercises. Dynamics 365 provides the ability to add sample data as needed. If the environment you are working in does not have a set installed, follow the steps below.
 
-The labs and exercises in this module work best when you have sample data to work with. If your environment does not include sample data, see the [Sample data installation for the Field Service application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-sample-data-8-x) page.
+The labs and exercises in this module work best when you have sample data to work with. If your environment does not include sample data, see the [Sample data installation for the Field Service application](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-sample-data-8-x) page.
 
 ### Create a work order using an incident type
 

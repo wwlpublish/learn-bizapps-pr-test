@@ -47,7 +47,7 @@ You can share the information collected securely across your business and unders
 
 ### Create a marketing forms
 
->[!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2NNot]
+>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE2NNot]
 
 ### Enable prefilling of forms
 

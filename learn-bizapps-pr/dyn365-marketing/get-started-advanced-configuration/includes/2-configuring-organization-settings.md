@@ -53,7 +53,7 @@ A fiscal period defines the time reflected in financial reports. It is used for 
 
 With Excel templates, you can easily create custom analytics and share those with others in your organization. You can use Excel templates for things like sales forecasting, pipeline management, lead scoring, territory planning, and much more. 
 
-To learn more, see [Manage Excel templates](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/marketing/manage-excel-templates).
+To learn more, see [Manage Excel templates](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/manage-excel-templates).
 
 ### Manage Word templates
 

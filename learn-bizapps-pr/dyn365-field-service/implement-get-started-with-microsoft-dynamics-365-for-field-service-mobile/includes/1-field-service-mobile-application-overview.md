@@ -9,7 +9,7 @@ Microsoft Dynamics 365 Field Service Mobile is designed with field agents in min
 
 You can use Field Service Mobile either offline or online. Your organization can determine which mode is available to which users, and when and how they can use each mode.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2Kewt]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Kewt]
 
 ### Navigating the Application
 

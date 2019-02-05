@@ -11,7 +11,7 @@ After completing this exercise, you will be able to do the following:
 - Create resources
 - Define incident types
 
-The labs and exercises in this module work best when you have sample data to work with. If your environment does not include sample data, see the [Sample data installation for the Field Service application](https://docs.microsoft.com/en-us/dynamics365/customer-engagement/field-service/install-sample-data-8-x) page.
+The labs and exercises in this module work best when you have sample data to work with. If your environment does not include sample data, see the [Sample data installation for the Field Service application](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/install-sample-data-8-x) page.
 
 ### Enable Bing Maps to use resource scheduling
 
