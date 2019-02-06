@@ -38,7 +38,7 @@ As on the Tier 1 dashboard, the charts can be used as interactive filters to div
 
 ## Entity-specific dashboards
 
-Another feature of the Customer Service Hub is the ability to work with entity specific dashboards.  Entity specific dashboards are just want the name describes.  They are multi-stream dashboards display data streams related to a single entity such as cases.  
+Another feature of the Customer Service Hub is the ability to work with entity specific dashboards.  Entity specific dashboards are just what the name describes.  They are multi-stream dashboards display data streams related to a single entity such as cases.  
 
 When agents navigate to the case entity they will see a list of their active cases.  On the command bar there is an option to open dashboards.  This will open the case dashboard.  From within the case dashboard, agents can select the **Show Visual Filter** button to display the case visual filter to filter the case data.  This lets them perform more specific items that will assist in identifying appropriate cases to work with.  Agents can toggle back to the entity list view at any time, by selecting the **Open Views** button on the dashboard.  
 
