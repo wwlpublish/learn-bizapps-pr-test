@@ -3,7 +3,7 @@ uid: learn-bizapps.creating-and-designing-knowledge-management-solutions
 metadata:
   title: Create and design knowledge management solutions in Dynamics 365 for Customer Service
   description: This module will focus on building knowledge management solutions by using Microsoft Dynamics 365. It provides an overview of the different knowledge management options that are available, and includes information about defining knowledge articles, managing article versions, and publishing articles.
-  ms.date: 12/10/2018
+  ms.date: 02/02/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial

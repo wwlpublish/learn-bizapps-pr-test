@@ -3,7 +3,7 @@ uid: learn-bizapps.connected-field-service
 metadata:
   title: Working with Connected Field Service for Dynamics 365 and Azure IoT
   description: This learning path introduces you to connected Field Service and Azure IoT. Included in this learning path is identifying exceptions, register and manage devices, remotely monitor and service equipment, and using IoT central with connected Field Service.
-  ms.date: 09/24/2018
+  ms.date: 02/01/2019
   #TODO: Update with real author name.
   author: dbeasley
   ms.author: dbeasley

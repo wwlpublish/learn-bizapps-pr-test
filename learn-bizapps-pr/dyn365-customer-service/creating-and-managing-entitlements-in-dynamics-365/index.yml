@@ -3,7 +3,7 @@ uid: learn-bizapps.creating-and-managing-entitlements-in-dynamics-365
 metadata:
   title: Create and manage entitlements in Microsoft Dynamics 365 for Customer Service
   description: This module will focus on Microsoft Dynamics 365 entitlements and how they're used to define and track information about support contracts. It includes information about creating and defining entitlements, setting up entitlement terms and types, defining related records, and managing the entitlement lifecycle.
-  ms.date: 12/7/2018
+  ms.date: 02/02/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
