@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.work-with-analyze-results.5-marketing-page-insights 
+title: Marketing page insights
+metadata: 
+  title: Marketing page insights 
+  description: Marketing page insights 
+  ms.date: 01/23/2019  
+  author: dbeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/5-marketing-page-insights.md)] 

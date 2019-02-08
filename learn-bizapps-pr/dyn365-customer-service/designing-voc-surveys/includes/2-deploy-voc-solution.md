@@ -2,7 +2,7 @@ Before an organization can start using Voice of the Customer surveys to engage w
 
 ## Installing the solution
 
-Dynamics 365 instances can be managed through the [Microsoft Power platform Admin center](https://admin.powerplatform.microsoft.com).
+Dynamics 365 instances can be managed through the [Microsoft Power Platform Admin center](https://admin.powerplatform.microsoft.com).
 
 After you sign in to the Admin center, expand **Admin centers**, and select **Microsoft Dynamics 365 Customer Engagement**. Then select **Applications** \> **Voice of the Customer**, and select **Manage** to start the setup process. Specify the instance that you want to deploy the solution to. Then, after you accept the license terms and privacy statement, select **Install** to start installing the solution.
 

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.urs-manage-scheduling-options.5-schedule-items
+title: Exercise - Schedule items
+metadata:
+  title: Exercise - Schedule items
+  description: Schedule items
+  ms.date: 02/01/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+  ROBOTS: NOINDEX
+durationInMinutes: 20
+content: |
+  [!include[](includes/5-schedule-items.md)]

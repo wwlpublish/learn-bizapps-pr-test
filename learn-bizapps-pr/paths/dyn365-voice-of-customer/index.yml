@@ -27,6 +27,7 @@ products:
 - dynamics
 - dynamics-sales
 - dynamics-customer-service
+- bizapps
 modules:
 - learn-bizapps.designing-voc-surveys
 - learn-bizapps.voc-response-routing-survey-scoring

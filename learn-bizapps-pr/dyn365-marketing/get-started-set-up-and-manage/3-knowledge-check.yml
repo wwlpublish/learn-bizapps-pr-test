@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-set-up-and-manage.3-knowledge-check 
+metadata: 
+  title: Set Up and Manage Dynamics 365 for Marketing Quiz
+  description: Set Up and Manage Dynamics 365 for Marketing Knowledge Check
+  ms.date: 1/23/2019
+  author: dbeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 5 
+quiz: 
+  title: Set Up and Manage Dynamics 365 for Marketing knowledge check
+  questions: 
+  - content: Which of the following marketing capabilities is available as an add-on in Dynamics 365 products?
+    choices: 
+    - content: Portals
+      explanation: Portals is a part of the capabilities of Dynamics 365 for Marketing but can be added as an add-on to other Dynamics 365 products 
+      isCorrect: true 
+    - content: Event Management
+      explanation: Event Management is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
+      isCorrect: false 
+    - content: Customer Journey
+      explanation: Customer Journey is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
+      isCorrect: false 
+    - content: Email Marketing
+      explanation: Email Marketing is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
+      isCorrect: false 
+  - content: What is the required version of Dynamics 365 for Customer Engagement to install Dynamics 365 for Marketing?
+    choices: 
+    - content: v6.0
+      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      isCorrect: false 
+    - content: v7.0
+      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      isCorrect: false 
+    - content: v7.5
+      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      isCorrect: false 
+    - content: v9.0
+      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      isCorrect: true

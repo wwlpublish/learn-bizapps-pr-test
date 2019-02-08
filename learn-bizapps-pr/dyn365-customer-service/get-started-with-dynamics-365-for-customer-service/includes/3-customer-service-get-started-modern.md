@@ -1,6 +1,6 @@
 Service has changed drastically over the last five to ten years. In the past, a customer would call and be put on hold until somebody picked up the phone to help. Today, the support landscape looks very different.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2rlss]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2rlss]
 
  Today's customer can start a support journey from multiple starting points. Customers have different channel preferences and expect an effortless experience across all channels.
 

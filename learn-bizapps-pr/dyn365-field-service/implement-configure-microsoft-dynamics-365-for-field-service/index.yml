@@ -1,0 +1,44 @@
+### YamlMime:Module
+uid: learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service
+metadata:
+  title: Configure Microsoft Dynamics 365 for Field Service
+  description: One of the main advantages to Dynamics 365 for Field Service is the ability to configure it based on your organization needs.  This might include Identifying key configuration considerations, defining products and services, and other related factors and the defining the necessary Work Order Types, sub-statuses, service territories, and account configuration that will support the desired Functionality.      
+  ms.date: 01/25/2019
+  author: dbeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+title: Configure Microsoft Dynamics 365 for Field Service
+summary: One of the main advantages to Dynamics 365 for Field Service is the ability to configure it based on your organization needs.  This might include Identifying key configuration considerations, defining products and services, and other related factors and the defining the necessary Work Order Types, sub-statuses, service territories, and account configuration that will support the desired Functionality.      
+abstract: |
+    In this module, you will:
+    - Identify key service configuration considerations
+    - Users and security roles
+    - Define work order types, statuses and sub statuses
+    - Define incident and service task types
+    - Define Field Service products, services, and pricing options
+    - Define service territories
+    - Configure Field Service account preferences
+prerequisites: Target Audience should have a basic understanding of how to navigate the Dynamics 365 application.  A basic overview understanding of what the Field Service application is and used for is also helpful.   
+iconUrl: /learn/achievements/configure-microsoft-dynamics-365-field.svg
+levels: 
+- intermediate
+roles: 
+- business-user
+- functional-consultant
+products: 
+- bizapps
+- bizapps-d365
+- dynamics  
+- dynamics-field-service
+units:
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.1-key-field-service-configuration-considerations
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.2-defining-field-service-products-and-services
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.3-working-with-work-order-types-territories-and-statuses
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.4-defining-incident-and-service-task-types
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.5-defining-account-preferences
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.6-configuring-field-service-settings
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.7-knowledge-check
+- learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.8-summary-and-clean-up
+badge:
+   uid: learn.configure-microsoft-dynamics-365-for-field-service.badge

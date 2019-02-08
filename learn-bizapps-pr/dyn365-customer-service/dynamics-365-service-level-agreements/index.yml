@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-bizapps.dynamics-365-service-level-agreements
 metadata:
-  title: Dynamics 365 for Customer Service Service Level Agreements
+  title: Work with and manage Service Level Agreements with Dynamics 365 for Customer Service
   description: This module will focus on Dynamics 365s Service Level Agreements (SLAs) and how they can be leveraged to define and track KPIs including defining business closures and working hour schedules, determining SLA triggering conditions, defining SLAs, building SLA items, managing SLAs and working with SLA pause statuses.      
   ms.date: 02/02/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
-title: Dynamics 365 for Customer Service Service Level Agreements
+title: Work with and manage Service Level Agreements with Dynamics 365 for Customer Service
 summary: This module will focus on Dynamics 365s Service Level Agreements (SLAs) and how they can be leveraged to define and track KPIs including defining business closures and working hour schedules, determining SLA triggering conditions, defining SLAs, building SLA items, managing SLAs and working with SLA pause statuses.      
 abstract: |
     In this module, you will:
@@ -28,6 +28,8 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.dynamics-365-service-level-agreements.1-sla-oveview
 - learn-bizapps.dynamics-365-service-level-agreements.2-business-closures-and-working-hours

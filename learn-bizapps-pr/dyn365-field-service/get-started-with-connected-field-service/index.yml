@@ -23,11 +23,14 @@ levels:
 - intermediate
 roles: 
 - business-user
+- functional-consultant
 products: 
 - dynamics
 - dynamics-field-service
 - azure
 - azure-iot-central
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.get-started-with-connected-field-service.1-connected-field-service-overview
 - learn-bizapps.get-started-with-connected-field-service.2-choose-a-deployment-type

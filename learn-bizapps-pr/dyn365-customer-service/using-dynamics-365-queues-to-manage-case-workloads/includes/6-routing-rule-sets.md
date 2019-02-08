@@ -43,4 +43,4 @@ After a routing rule set has been defined and activated, it can be applied to a 
 
 ![Routing rules](../media/qu-unit6-4.png)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2IJmA]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2IJmA]

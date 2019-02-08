@@ -28,6 +28,8 @@ products:
 - dynamics
 - dynamics-sales
 - dynamics-customer-service
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.voc-response-routing-survey-scoring.1-overview-personalization-scoring-scenarios
 - learn-bizapps.voc-response-routing-survey-scoring.2-personalizing-surveys-piped-data

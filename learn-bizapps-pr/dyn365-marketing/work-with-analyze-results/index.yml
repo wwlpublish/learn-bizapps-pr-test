@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-bizapps.work-with-analyze-results
+metadata: 
+ title: Analyze Results in Dynamics 365 for Marketing
+ description: Make smarter decisions by monitoring multiple marketing channels, analyze detailed insights across your activities and review out-of-the box dashboards of real-time interactions. Interpret intelligence to target the right audience, utilize lead scoring models to prioritize leads, and analyze customer interaction insights from marketing pages, forms, emails, websites, and redirect URL engagements.
+ ms.date: 01/23/2019   
+ author: dbeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-d365  
+title: Analyze Results in Dynamics 365 for Marketing 
+summary: Make smarter decisions by monitoring multiple marketing channels, analyze detailed insights across your activities and review out-of-the box dashboards of real-time interactions. Interpret intelligence to target the right audience, utilize lead scoring models to prioritize leads, and analyze customer interaction insights from marketing pages, forms, emails, websites, and redirect URL engagements.
+abstract: |  
+    In this module, you will: 
+    - Perform customer insights analysis
+    - Perform marketing execution insights analysis
+    - Perform lead management insights analysis
+    - Perform internet marketing insights analysis
+    - Perform Marketing page insights analysis
+    - Perform Website insights analysis
+prerequisites: Target audience should have a basic understanding of how to navigate the Dynamics 365 application. A basic overview understanding of what the marketing application is and used for is also helpful. In addition, the target audience should have a basic understanding of how to interpret results in order to inform future marketing decisions.  
+iconUrl: /learn/achievements/analyzing-results-in-dynamics-365-for-marketing.svg  
+levels:  
+- intermediate  
+roles:  
+- functional-consultant  
+products:  
+- bizapps
+- bizapps-d365
+- dynamics  
+- dynamics-marketing
+units: 
+- learn-bizapps.work-with-analyze-results.1-customer-insights 
+- learn-bizapps.work-with-analyze-results.2-marketing-execution-insights 
+- learn-bizapps.work-with-analyze-results.3-lead-management-insights 
+- learn-bizapps.work-with-analyze-results.4-internet-marketing-insights 
+- learn-bizapps.work-with-analyze-results.5-marketing-page-insights
+- learn-bizapps.work-with-analyze-results.6-website-insights
+- learn-bizapps.work-with-analyze-results.7-knowledge-check 
+- learn-bizapps.work-with-analyze-results.8-summary 
+badge:
+  uid: learn.work-with-analyze-results.badge 

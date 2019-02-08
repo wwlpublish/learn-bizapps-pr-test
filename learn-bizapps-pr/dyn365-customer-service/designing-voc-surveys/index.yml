@@ -29,6 +29,8 @@ products:
 - dynamics
 - dynamics-sales
 - dynamics-customer-service
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.designing-voc-surveys.1-customer-engagement-with-voc-overview
 - learn-bizapps.designing-voc-surveys.2-deploy-voc-solution

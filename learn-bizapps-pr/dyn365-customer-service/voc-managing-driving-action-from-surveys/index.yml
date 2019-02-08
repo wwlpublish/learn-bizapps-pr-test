@@ -28,6 +28,8 @@ products:
 - dynamics
 - dynamics-sales
 - dynamics-customer-service
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.voc-managing-driving-action-from-surveys.1-survey-distribution-options
 - learn-bizapps.voc-managing-driving-action-from-surveys.2-automate-survey-distribution

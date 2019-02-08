@@ -27,6 +27,8 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.customer-service-cases.1-case-management-overview
 - learn-bizapps.customer-service-cases.2-case-creation-and-lifecycle

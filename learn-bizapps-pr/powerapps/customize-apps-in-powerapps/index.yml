@@ -31,6 +31,8 @@ roles:
 products:  
 - power-platform
 - powerapps
+- bizapps
+- bizapps-power-apps
 units: 
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore

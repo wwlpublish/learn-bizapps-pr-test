@@ -22,11 +22,14 @@ levels:
 - intermediate
 roles: 
 - business-user
+- functional-consultant
 products: 
 - dynamics
 - dynamics-field-service
 - azure
 - azure-iot-central
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.identify-exceptions-with-connected-field-service.1-identify-exceptions-with-connected-field-service-overview
 - learn-bizapps.identify-exceptions-with-connected-field-service.2-connect-to-a-device

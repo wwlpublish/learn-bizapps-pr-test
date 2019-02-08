@@ -16,10 +16,10 @@ Now you've learned how to take care of them when things aren't quite right. You 
 
 Want to learn more about Microsoft Dynamics 365 and how to solve problems? Check out these resources:
 
-- [PowerApps](https://docs.microsoft.com/en-us/learn/paths/create-powerapps/) learning path. You'll learn how to build apps that use flows to track or update business processes on any device. 
+- [PowerApps](https://docs.microsoft.com/learn/paths/create-powerapps/) learning path. You'll learn how to build apps that use flows to track or update business processes on any device. 
 
-- [Power BI](https://docs.microsoft.com/en-us/learn/modules/get-started-with-power-bi/) learning path.  You'll learn how to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
+- [Power BI](https://docs.microsoft.com/learn/modules/get-started-with-power-bi/) learning path.  You'll learn how to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
 
-- [Customer Service](https://docs.microsoft.com/en-us/learn/modules/get-started-with-dynamics-365-for-customer-service/index) learning path.  You'll learn how to capture, track, and follow up on sales leads and connect to your CRM platform.
+- [Customer Service](https://docs.microsoft.com/learn/modules/get-started-with-dynamics-365-for-customer-service/index) learning path.  You'll learn how to capture, track, and follow up on sales leads and connect to your CRM platform.
 
 Even more exciting, you can do all of this without writing a line of code!

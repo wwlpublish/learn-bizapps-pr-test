@@ -26,6 +26,8 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
+- bizapps
+- bizapps-d365
 units:
 - learn-bizapps.creating-and-designing-knowledge-management-solutions.1-knowledge-management-overview
 - learn-bizapps.creating-and-designing-knowledge-management-solutions.2-creating-and-defining-knowledge-articles

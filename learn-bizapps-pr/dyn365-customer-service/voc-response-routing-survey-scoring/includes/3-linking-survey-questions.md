@@ -9,7 +9,7 @@ To gather more meaningful information, though, you can ask a more specific quest
 
 For example, you can first ask the respondent, "Which is your beverage of choice: coffee or tea?" You can then use the response in the questions that follow. For example, if a respondent indicates that she prefers tea, later questions might look like this:
 
-- How many times a day to you drink tea?
+- How many times a day do you drink tea?
 - How happy are you with your current brand of tea?
 
 This approach makes the information that you capture and the overall survey experience more personal to the respondent.

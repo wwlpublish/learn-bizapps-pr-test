@@ -72,6 +72,6 @@ Rule items are checked in the order that's defined in the rule. After the rule f
 
 After a rule is activated, it starts defining cases for email activities that are sent to a specific queue.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2IOG5]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2IOG5]
 
 For more about automatic record creation and update rules, see [Set up rules to automatically create or update records](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/set-up-rules-to-automatically-create-or-update-records).
