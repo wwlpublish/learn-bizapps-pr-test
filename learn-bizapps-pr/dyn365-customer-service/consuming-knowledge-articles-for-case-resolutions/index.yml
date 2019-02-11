@@ -3,7 +3,7 @@ uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions
 metadata:
   title: Consuming Knowledge Articles for Case Resolutions in Dynamics 365 for Customer Service
   description: This module will focus on how to use the Knowledge Management capabilities of Dynamics 365 to resolve cases inside Dynamics 365 including how to customize Dynamics 365 entities to consume Knowledge Articles, searching for and linking knowledge Articles, controlling article display options, and using article analytics to drive Knowledge Manage options.      
-  ms.date: 12/10/2018
+  ms.date: 02/02/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
