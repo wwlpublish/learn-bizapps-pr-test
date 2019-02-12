@@ -16,7 +16,7 @@ Power BI Desktop centralizes, simplifies, and streamlines what can otherwise be 
 Ready to give it a try? Then let's get started.
 
 ## Install and run Power BI Desktop
-You can download Power BI Desktop from the **Power BI service** by selecting the gear icon and then selecting **Power BI Desktop**.
+You can download Power BI Desktop from the **Power BI service** by selecting the download arrow icon and then selecting **Power BI Desktop**.
 
 ![Install Power BI Desktop from the Power BI service](../media/pbid-intro_01.jpg)
 
