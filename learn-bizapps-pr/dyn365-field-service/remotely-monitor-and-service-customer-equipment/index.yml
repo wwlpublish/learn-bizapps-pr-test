@@ -3,7 +3,7 @@ uid: learn-bizapps.remotely-monitor-and-service-customer-equipment
 metadata:
   title: Remotely Monitor and Service Customer Equipment with Connected Field Service for Dynamics 365 and Azure IoT
   description: This module will focus on the end to end process of remotely monitoring IoT enabled devices using the Connected Field Service solution including device registration, working with alerts, and designing processes to take specific actions.
-  ms.date: 10/12/2018
+  ms.date: 02/01/2019
   author: dyack
   ms.author: dbeasley
   ms.topic: interactive-tutorial

@@ -3,7 +3,7 @@ uid: learn-bizapps.designing-voc-surveys
 metadata:
   title: Design Voice of the Customer for Dynamics 365 surveys 
   description: This module will focus on how to drive customer engagement through surveys by using the Microsoft Dynamics 365 Voice of the Customer solution. It explains how to deploy the Voice of the Customer solution, use themes and images in surveys, design surveys, design survey questions, and control survey options like unsubscribe options.
-  ms.date: 12/21/2018
+  ms.date: 02/02/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
