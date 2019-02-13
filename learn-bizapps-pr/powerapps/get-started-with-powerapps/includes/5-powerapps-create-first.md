@@ -18,7 +18,7 @@ Keep in mind that you can use data from lots of other sources, including Microso
 
 
 
-1. Select **Canavas app** from balank from the dropdown menu​
+1. Select **Canavas app from blank** from the dropdown menu​
 
 
 1. Select **Create an app**. 
