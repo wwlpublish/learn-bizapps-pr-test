@@ -59,7 +59,7 @@ Here are some other points to consider about how the Case Creation and Case Reso
     - If you create a new case that's associated with an entitlement, the remaining terms are decreased.
     - If you associate an existing case with an entitlement, the remaining terms are decreased.
     - If you cancel a case that's associated with an entitlement, the remaining terms are increased.
-    - If a case so that it's associated with a different entitlement, the remaining terms on the first entitlement are increased.
+    - If a case is updated so that it's associated with a different entitlement, the remaining terms on the first entitlement are increased.
 
 - **Case Resolution:**
     - If you resolve a case that's associated with an entitlement, the remaining terms are decreased.
