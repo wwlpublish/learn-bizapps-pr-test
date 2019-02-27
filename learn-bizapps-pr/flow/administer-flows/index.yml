@@ -21,6 +21,7 @@ prerequisites: |
     - Signed up for Microsoft Flow
 #TODO: Add links to these.
 iconUrl: /learn/achievements/administer-flows.svg
+ratingEnabled: true
 levels:  
 - beginner 
 roles:  
@@ -36,6 +37,5 @@ units:
 - learn-bizapps.flow-administration.3-share-flows
 - learn-bizapps.flow-administration.4-knowledge-check
 - learn-bizapps.flow-administration.5-summary
-
 badge:
   uid: learn.flow-administration.badge
