@@ -21,6 +21,7 @@ abstract: |
 prerequisites: |
  - Access to Microsoft Excel, and OneDrive for Business.
 iconUrl: /learn/achievements/get-started-with-powerapps.svg
+ratingEnabled: true
 levels: 
 - beginner
 roles: 
