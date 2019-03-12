@@ -39,7 +39,7 @@ quiz:
     - content: When shaping or transforming data in Power BI Desktop, the source data is also shaped and transformed.
       explanation: Whenever you connect to data in Power BI Desktop, the source data remains unchanged, and any shaping is done on the data brought into Power BI.
       isCorrect: false
-  - content: What is the recommend method to share your reports?
+  - content: What is the recommended method to share your reports?
     choices:
     - content: Copy the .PBIX file to a file folder, and give coworkers access to that folder.
       explanation: While you can share a Power BI Desktop file (a .PBIX file) by putting it on a share, the recommended method to share reports is to publish them to the Power BI service.
