@@ -40,7 +40,7 @@ To learn more about access and the scope of the different privileges, see [Secur
 1. On the **All Roles** page, click **New**.
 1. In the **Role Name** box, enter *Pet Grooming Technicians*.
 1. In the Security Role designer, on the **Custom Entities** tab, find the **Pet** entity.
-1. On the **Pet** row, click **Read**, **Write**, and **Append** four times, to set the scope for each to *organization* ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **.
+1. On the **Pet** row, click **Read**, **Write**, and **Append** four times, to set the scope for each to *organization* ![Global organization scope](../media/organizational-scope-privilege.png) is selected:
 
     ![New security role](../media/custom-security-role.png)
 
