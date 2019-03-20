@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.change-properties.5-conditional-formatting
+title: Conditional formatting
+metadata: 
+  title: Conditional formatting
+  description: Conditional formatting
+  ms.date: 03/19/2019 
+  author: kschimke 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/5-conditional-formatting.md)] 

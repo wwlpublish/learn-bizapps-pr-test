@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.change-behaviors.2-understanding-true-false
+title: Understanding true and false
+metadata: 
+  title: Understanding true and false 
+  description: Understanding true and false
+  ms.date: 03/19/2019 
+  author: kschimke 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 7 
+content: | 
+ [!include[](includes/2-understanding-true-false.md)] 

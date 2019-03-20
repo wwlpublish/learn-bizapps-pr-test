@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.change-properties.7-knowledge-check 
+metadata: 
+ title: Author a basic formula to change properties in a canvas app in PowerApps knowledge check 
+ description: Author a basic formula to change properties in a canvas app in PowerApps knowledge check 
+ ms.date: 03/19/2019 
+ author: kschimke 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-powerapps 
+ ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 6 
+quiz: 
+  title: Author a basic formula to change properties in a canvas app in PowerApps knowledge check 
+  questions: 
+  - content: Which of the following statements is true?
+    choices: 
+    - content: All controls have the same properties.
+      isCorrect: false 
+      explanation: Each control has a set of unique properties, but there are a few common properties every control includes. 
+    - content: Controls do not share any of the same properties.
+      isCorrect: false 
+      explanation: Each control has a set of unique properties, but there are a few common properties every control includes. 
+    - content: Each control has a set of unique properties, but there are a few common properties every control includes, such as the X and Y properties.
+      isCorrect: true
+      explanation: Each control has a set of unique properties, but there are a few common properties every control includes. 
+    - content: None of the above
+      isCorrect: false 
+      explanation: Each control has a set of unique properties, but there are a few common properties every control includes. 
+  - content: If you wanted to ensure that a user could not submit a form unless they had provided an email address, what function would you use in combination with the **If** function on the **DisplayMode** property of your Submit button?
+    choices: 
+    - content: Lookup
+      isCorrect: false 
+      explanation: You should use IsMatch to accomplish this. 
+    - content: IsMatch
+      isCorrect: true
+      explanation: You should use IsMatch to accomplish this. 
+    - content: EmailMatch
+      isCorrect: false 
+      explanation: You should use IsMatch to accomplish this.
+    - content: Equal
+      isCorrect: false 
+      explanation: You should use IsMatch to accomplish this. 
+  - content: Which of the following is not a calculation function?
+    choices: 
+    - content: Sum
+      isCorrect: false
+      explanation: Sum is a calculation function.  
+    - content: Subtract
+      isCorrect: true
+      explanation: Subtract is not a calculation function. 
+    - content: Max
+      isCorrect: false 
+      explanation: Max is a calculation function. 
+    - content: Average
+      isCorrect: false 
+      explanation: Average is a calculation function. 

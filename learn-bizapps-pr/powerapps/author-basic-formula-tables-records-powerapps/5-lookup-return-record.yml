@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.tables-and-records.5-lookup-return-record
+title: Use the lookup function to return a record
+metadata: 
+  title: Use the lookup function to return a record
+  description: Use the lookup function to return a record
+  ms.date: 03/19/2019 
+  author: kschimke 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 7 
+content: | 
+ [!include[](includes/5-lookup-return-record.md)] 
