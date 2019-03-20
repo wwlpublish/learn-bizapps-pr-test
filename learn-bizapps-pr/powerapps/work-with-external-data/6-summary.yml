@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.work-with-external-data.6-summary 
+title: Summary
+metadata: 
+  title: Summary 
+  description: Summary 
+  ms.date: 02/26/2019 
+  author: kschimke 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/6-summary.md)] 
