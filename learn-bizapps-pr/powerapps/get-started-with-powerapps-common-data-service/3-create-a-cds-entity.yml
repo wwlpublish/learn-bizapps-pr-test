@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.powerapps-common-data-service.3-create-a-cds-entity
-title: Create a CDS entity  
+title: Create a Common Data Service entity  
 metadata: 
-  title: Create a CDS entity
-  description: Create a CDS entity
+  title: Create a Common Data Service entity
+  description: Create a Common Data Service entity
 durationInMinutes: 12 
 content: | 
   [!include[](includes/3-create-a-cds-entity.md)]  
