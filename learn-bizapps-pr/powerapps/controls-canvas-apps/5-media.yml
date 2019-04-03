@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.controls-canvas-apps.5-media 
+title: Media
+metadata: 
+  title: Media 
+  description: Media 
+  ms.date: 03/29/2019 
+  author: kschimke 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 6 
+content: | 
+ [!include[](includes/5-media.md)] 
