@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.navigation-canvas-app.4-knowledge-check 
+metadata: 
+ title: Navigation in a canvas app in PowerApps knowledge check
+ description: Navigation in a canvas app in PowerApps knowledge check
+ ms.date: 03/29/2019 
+ author: kschimke 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-d365 
+ ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 6 
+quiz: 
+  title: Navigation in a canvas app in PowerApps knowledge check
+  questions: 
+  - content: In PowerApps, the Back () Function sends the user to what screen?
+    choices: 
+    - content: A hard-coded screen.
+      isCorrect: false
+      explanation: PowerApps sends the user to the previous screen. 
+    - content: A pre-defined screen.
+      isCorrect: false 
+      explanation: PowerApps sends the user to the previous screen. 
+    - content: The previous screen the user navigated from.
+      isCorrect: true
+      explanation: PowerApps sends the user to the previous screen. 
+    - content: Back() is not a valid function.
+      isCorrect: false 
+      explanation: PowerApps sends the user to the previous screen. 
+  - content: Which of the following ScreenTransitions is NOT an option to choose from when using the Navigate function?
+    choices: 
+    - content: ScreenTransition.Cover
+      isCorrect: false
+      explanation: ScreenTransition.Wipe is not an option available with the Navigate function. 
+    - content: ScreenTransition.Fade
+      isCorrect: false 
+      explanation: ScreenTransition.Wipe is not an option available with the Navigate function. 
+    - content: ScreenTransition.UnCover
+      isCorrect: false 
+      explanation: ScreenTransition.Wipe is not an option available with the Navigate function. 
+    - content: ScreenTransition.Wipe
+      isCorrect: true
+      explanation: ScreenTransition.Wipe is not an option available with the Navigate function. 
+  - content: In certain scenarios you might create screens, but not build navigation to these screens, what is the purpose of doing this?
+    choices: 
+    - content: To give other co-editors or owners insight around how the app was built in case additional changes are needed later.
+      isCorrect: false
+      explanation: All of these are reasons to hide screens. 
+    - content: To create Documentation about the app.
+      isCorrect: false 
+      explanation: All of these are reasons to hide screens.  
+    - content: To keep track of certain settings, formatting, and or colors used in your app so they are easy to find.
+      isCorrect: false 
+      explanation: All of these are reasons to hide screens.  
+    - content: All of these are reasons to have Hidden screens.
+      isCorrect: true
+      explanation: All of these are reasons to hide screens.  
