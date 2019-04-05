@@ -1,4 +1,4 @@
-RSO's single resource optimization feature provides a quick and simple way to re-optimize the schedule of a selected resource from the schedule board. This can be done to ensure the resource continues to have an optimal schedule and route after schedule changes or cancellations occur during the day. For example, a resource may have overlapping bookings after getting assigned an emergency work order or arriving late due to traffic during the day.
+RSO's single resource optimization feature provides a quick and simple way to re-optimize the schedule of a selected resource from the schedule board. Single resource optimization can be done to ensure the resource continues to have an optimal schedule and route after schedule changes or cancellations occur during the day. For example, a resource may have overlapping bookings after getting assigned an emergency work order, or arriving late because of traffic during the day.
 
 Single resource scheduling uses the default resource optimization goal for an organization. When RSO is deployed a default goal for the organization is created. The default goal can be found by navigating to **Resource Scheduling Optimization** > **Optimization Goals**.
 
@@ -16,7 +16,7 @@ right-click the resource\'s name and then select optimize schedule to
 start the optimization for a selected resource.
 
 
-![[Optimized Schedule](../media/rso-unit-6-1.png)
+![Optimized Schedule](../media/rso-unit-6-1.png)
 
 1. Yellow line indicates default optimization range, from NOW to end of today (12 AM).
 2. Gray mask indicates default optimization range, from NOW to end of today (12 AM).
@@ -49,4 +49,4 @@ To initiate single resource optimization from the schedule board, right-click th
 
 ![Hourly View](../media/rso-unit-6-4.png)
 
-The single resource optimization will only re-optimize existing bookings and will not create new bookings. Additionally, it can be applied to, and will re-optimize, bookings that were originally booked manually or via resource availability search as well as bookings from location-agnostic requirements. Single resource optimization will show on the schedule board for all resources given optimization is deployed in the environment; however, it will only work if the selected Bookable Resource has Optimize Schedules set to Yes. This feature cannot be disabled or hidden.
+The single resource optimization will only re-optimize existing bookings and will not create new bookings. It can be applied to, and will re-optimize, bookings that were originally booked manually or via resource availability search as well as bookings from location-agnostic requirements. Single resource optimization will show on the schedule board for all resources given optimization is deployed in the environment; however, it will only work if the selected Bookable Resource has Optimize Schedules set to Yes. This feature cannot be disabled or hidden.

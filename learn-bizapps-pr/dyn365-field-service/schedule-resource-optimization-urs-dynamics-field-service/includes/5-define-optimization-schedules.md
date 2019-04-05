@@ -1,41 +1,42 @@
 An optimization schedule defines when records should be optimized.   For example, you may define a schedule that runs on weekdays at 1 AM.
 
-When creating an optimization schedule, you will need to define the following:
+When creating an optimization schedule, you will need to define the following options:
 - **Name**: Provide a logical name that will express which requirements, bookings, and resources will be optimized.  
 - **Scope**: Defines the scope that will be used.
 - **Goal**: Defines the goal that will be used.  
 - **Timer**: Defines how often this schedule will run.
 - **Timer Mode**: Defines the point when the schedule starts the timer.
-    - For example, if a timer is set to thirty minutes, the first run starts thirty minutes from the publish date/time. 
-    - Fixed mode: The optimization runs every thirty minutes. 
-    - After job completion mode: The optimization runs thirty minutes from the end of the last RSO job execution. 
+    - For example, if a timer is set to 30 minutes, the first run starts 30 minutes from the publish date/time. 
+    - Fixed mode: The optimization runs every 30 minutes. 
+    - After job completion mode: The optimization runs 30 minutes from the end of the last RSO job execution. 
 - Valid from and valid to: The first/last date and time when this schedule is valid for execution.
 
 ![scheduling optimization goal](../media/rso-unit-5-1.png)
 
 ### Defining Filter Options
-Many times, different jobs may need to run at different times.  For example, the schedule will run at 1 AM and 7 PM every Monday through Friday. In these instances, you can use the filter feature to define when the job will run.   The filter section of the schedule is an advanced feature. The filter window allows for a variety of combinations to be selected:
+Many times, different jobs may need to run at different times.  For example, the schedule will run at 1 AM and 7 PM every Monday through Friday. In these instances, you can use the filter feature to define when the job will run. The filter section of the schedule is an advanced feature. The filter window allows for a variety of combinations to be selected:
 
 ![Defining Filter Options](../media/rso-unit-5-2.png)
 
 **How timers work with filters**
-If you configure your timer and filter as shown here, RSO will run every thirty minutes after the previous job is completed, from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM, except on Saturdays and Sundays.
-For additional information on defining optimization schedules: https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-configuration#create-an-optimization-schedule 
+
+If you configure your timer and filter as shown here, RSO will run every 30 minutes after the previous job is completed, from 12/3/2016 at 9 AM to 12/4/2018 at 9 AM, except on Saturdays and Sundays.
+For additional information, see [Defining optimization schedules](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-configuration#create-an-optimization-schedule).
 
 ### Publishing Schedules
-A schedule will exist in one of many statuses throughout its lifecycle.  A schedule will not begin to optimize resources, requirements, and bookings until they have been published.   Schedules are published by selecting a schedule(s) to publish and clicking the publish button in the in the upper left.  It is possible to publish all schedules by selecting the Publish All button.
+A schedule will exist in one of many statuses throughout its lifecycle.  A schedule will not begin to optimize resources, requirements, and bookings until it is published. Schedules are published by selecting a schedule(s). To publish, click the publish button in the the upper left.  It is possible to publish all schedules by selecting the **Publish All** button.
 
 The list below defines the different states that an RSO job can exist in.  
 - **Unpublished**: Default status when a schedule is created or after a reset.
 - **Publishing**: The system is trying to publish schedules.
 - **Published**: The system published a schedule and it is good to run.
-- **Out of Sync**: Changes made against the schedule require it to be published again.
+- **Out of Sync**: Changes made against the schedule requires it to be published again.
 - **Under Maintenance**: Indicates someone is upgrading the RSO to a newer version.
 - **Failed**: System failed to publish schedules for various reasons.
     - The user is able to see the error details on the form of the schedule.
     - A typical error would be that the SASKey has not been configured, meaning RSO Azure resources are not set up correctly.
 
-Once a schedule has been published, it will begin to optimize items based on the schedule.  RSO schedules can be manually run on demand at any time, by selecting the Run Now button.   If a RSO schedule needs some large-scale changes, or something is not working, you can select the reset resource scheduling optimization button.  This will cancel all pending RSO jobs and unpublish the schedule.
+Once a schedule has been published, it will begin to optimize items based on the schedule.  RSO schedules can be manually run on demand at any time, by selecting the **Run Now** button.   If an RSO schedule needs some large-scale changes, or something is not working, you can select the reset resource scheduling optimization button.  This will cancel all pending RSO jobs and unpublish the schedule.
 
 For additional information, see [publishing schedules](https://docs.microsoft.com/dynamics365/customer-engagement/field-service/rso-schedule-optimization#publishing-schedules).
 
