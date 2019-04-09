@@ -1,6 +1,6 @@
 Exercise: Design a personalized survey experience
 
-The labs and exercises in this module work best when you have some sample data to work with. Depending on if the environment you are working with, you may want to install some sample data to assist with exercises. Dynamics 365 does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow the steps below to install the sample data into your environment. Please see, [Voice of Customer Install](https://docs.microsoft.com/dynamics365/customer-engagement/voice-of-customer/install-solution) for more information on installing Voice of the Customer.
+The labs and exercises in this module work best when you have some sample data to work with. Depending on if the environment you are working with, you may want to install some sample data to assist with exercises. Dynamics 365 does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow the steps below to install the sample data into your environment. Please see, [Voice of Customer Install](https://docs.microsoft.com/dynamics365/customer-engagement/voice-of-customer/install-solution) for more information on installing Voice of the Customer. You will need administrator rights to access the Power Platform admin portal.
 
 ## Enable Sample Data Detailed Steps
 
