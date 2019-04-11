@@ -27,7 +27,6 @@ roles:
 products:  
 - power-platform
 - powerapps
-- bizapps
 - bizapps-power-apps
 units: 
 - learn-bizapps.change-properties.1-formula-overview

@@ -26,8 +26,6 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
-- bizapps
-- bizapps-d365
 units:
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions.1-knowledge-article-and-case-resolution-overview
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions.2-enabling-and-configuring-entities-for-knowledge-search

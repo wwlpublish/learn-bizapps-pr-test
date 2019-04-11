@@ -27,8 +27,6 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
-- bizapps
-- bizapps-d365
 units:
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.1-entitlement-overview
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.2-creating-entitlement-records

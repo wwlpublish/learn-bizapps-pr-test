@@ -29,7 +29,6 @@ roles:
 products: 
 - power-platform
 - powerapps
-- bizapps
 - bizapps-power-apps
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction

@@ -32,8 +32,6 @@ products:
 - dynamics-field-service
 - azure
 - azure-iot-central
-- bizapps
-- bizapps-d365
 units:
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.1-register-and-manage-customer-devices-with-connected-field-service-overview
 - learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.2-device-registration-and-digital-twins

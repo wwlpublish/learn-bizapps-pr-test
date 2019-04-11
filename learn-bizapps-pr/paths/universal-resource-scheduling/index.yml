@@ -20,8 +20,6 @@ levels:
 roles:
 - functional-consultant
 products:
-- bizapps
-- bizapps-d365
 - dynamics  
 - dynamics-field-service
 modules:
