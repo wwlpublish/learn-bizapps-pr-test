@@ -26,8 +26,6 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
-- bizapps
-- bizapps-d365
 units:
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.1-dynamics-365-queues-overview
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.2-configuring-entities-for-queues

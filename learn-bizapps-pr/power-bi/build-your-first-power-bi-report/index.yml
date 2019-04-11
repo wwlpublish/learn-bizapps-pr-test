@@ -27,7 +27,6 @@ roles:
 products:
 - power-platform
 - power-bi
-- bizapps
 - bizapps-power-bi
 units:
 - learn-bizapps.build-your-first-report.1-introduction

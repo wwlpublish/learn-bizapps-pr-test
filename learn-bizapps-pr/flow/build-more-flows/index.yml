@@ -23,7 +23,6 @@ roles:
 products:  
 - power-platform
 - flow
-- bizapps
 - bizapps-flow
 units: 
 - learn-bizapps.flow-build-more.1-introduction

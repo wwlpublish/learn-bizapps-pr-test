@@ -26,7 +26,6 @@ roles:
 products:  
 - power-platform
 - powerapps
-- bizapps
 - bizapps-power-apps
 units: 
 - learn-bizapps.change-behaviors.1-formulas-behaviors-overview

@@ -22,8 +22,6 @@ roles:
 products:
 - dynamics
 - dynamics-customer-service
-- bizapps
-- bizapps-d365
 modules:
 - learn-bizapps.customer-service-get-started
 - learn-bizapps.customer-service-cases

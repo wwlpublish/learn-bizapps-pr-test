@@ -24,7 +24,6 @@ roles:
 products:  
 - power-platform
 - powerapps
-- bizapps
 - bizapps-power-apps
 units: 
 - learn-bizapps.controls-canvas-apps.1-understand-controls 

@@ -21,7 +21,6 @@ roles:
 products: 
 - power-platform
 - powerapps
-- bizapps
 - bizapps-power-apps
 modules:
 - learn-bizapps.author-basic-formula-change-properties-powerapps
