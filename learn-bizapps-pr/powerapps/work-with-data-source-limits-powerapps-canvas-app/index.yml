@@ -1,0 +1,34 @@
+### YamlMime:Module 
+uid: learn-bizapps.data-source-limits 
+metadata: 
+ title: Work with data source limits (delegation limits) in a PowerApps canvas app
+ description: It's important to learn how to work with data source limits. You will need to understand the various limits and variables that go into those limits to best work with data in PowerApps. This will help you chose the best data source for an app to meet your requirements.
+ ms.date: 04/9/2019  
+ author: kschimke  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-platform  
+title: Work with data source limits (delegation limits) in a PowerApps canvas app
+summary: It's important to learn how to work with data source limits. You will need to understand the various limits and variables that go into those limits to best work with data in PowerApps. This will help you chose the best data source for an app to meet your requirements. 
+abstract: |  
+    In this module, you will: 
+    - Understand the different limits of different data sources
+    - Understand how functions, predicates, and operators all play roles in the limits
+    - Use this new understanding to choose the best data source for an app
+prerequisites: A basic understanding of how to create a canvas app in PowerApps.        
+iconUrl: /learn/achievements/data-source-limits.svg  
+levels:  
+- intermediate   
+roles:  
+- functional-consultant  
+products:  
+- power-platform
+- powerapps
+units: 
+- learn-bizapps.data-source-limits.1-delegation-overview 
+- learn-bizapps.data-source-limits.2-functions-predicates-data-source 
+- learn-bizapps.data-source-limits.3-delegation-warnings-limits-functions 
+- learn-bizapps.data-source-limits.4-knowledge-check 
+- learn-bizapps.data-source-limits.5-summary 
+badge: 
+  uid: learn-bizapps.data-source-limits.badge 
