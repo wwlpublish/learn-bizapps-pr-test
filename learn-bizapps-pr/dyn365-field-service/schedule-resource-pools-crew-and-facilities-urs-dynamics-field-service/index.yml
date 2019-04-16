@@ -1,7 +1,7 @@
 ### YamlMime:Module
 uid: learn-bizapps.urs-schedule-resource-pools-crew-and-facilities
 metadata:
-  title: Schedule crews, facilities, and resource pooling in Microsoft Dynamics 365 for Field Service - Learn
+  title: Schedule crews, facilities, and resource pooling in Microsoft Dynamics 365 for Field Service 
   description: Handle more advanced scheduling options that might involve multiple resources, or specific facilities. Use resource pooling to provide place holders for scheduling groups of resources. Schedule crews to work on specific items. Schedule specific facilities that might be used to help deliver a specific service.    
   ms.date: 02/01/2019
   author: dbeasley
