@@ -22,7 +22,6 @@ roles:
 products: 
 - power-platform
 - powerapps
-- bizapps-power-apps
 modules:
 - learn-bizapps.work-with-external-data
 - learn-bizapps.shape-data

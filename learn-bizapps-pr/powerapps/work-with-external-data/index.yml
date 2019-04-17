@@ -24,7 +24,6 @@ roles:
 products:  
 - power-platform
 - powerapps
-- bizapps-power-apps
 units: 
 - learn-bizapps.work-with-external-data.1-data-source-overview 
 - learn-bizapps.work-with-external-data.2-add-data-source 

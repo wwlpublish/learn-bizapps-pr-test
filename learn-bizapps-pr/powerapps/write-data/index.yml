@@ -25,7 +25,6 @@ roles:
 products:  
 - power-platform
 - powerapps
-- bizapps-power-apps
 units: 
 - learn-bizapps.write-data.1-introduction-to-forms 
 - learn-bizapps.write-data.2-form-modes 

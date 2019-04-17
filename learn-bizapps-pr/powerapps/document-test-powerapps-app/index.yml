@@ -23,7 +23,6 @@ roles:
 - functional-consultant  
 products:  
 - dynamics
-- bizapps  
 - power-platform 
 units: 
 - learn-bizapps.use-documentation.01-create-test-plans 
