@@ -19,7 +19,6 @@ roles:
 products:
 - power-platform
 - powerapps
-- bizapps-power-apps
 modules:
 - learn-bizapps.navigation-canvas-app
 - learn-bizapps.how-to-build-ui-canvas-app

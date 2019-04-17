@@ -24,7 +24,6 @@ roles:
 products:  
 - power-platform
 - powerapps
-- bizapps-power-apps
 units: 
 - learn-bizapps.navigation-canvas-app.1-understand-navigation 
 - learn-bizapps.navigation-canvas-app.2-navigate-back-function 

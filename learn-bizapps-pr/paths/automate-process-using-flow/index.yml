@@ -22,7 +22,6 @@ roles:
 products:
 - power-platform
 - flow
-- bizapps-flow
 modules:
 - learn-bizapps.flow-get-started
 - learn-bizapps.flow-build-more
