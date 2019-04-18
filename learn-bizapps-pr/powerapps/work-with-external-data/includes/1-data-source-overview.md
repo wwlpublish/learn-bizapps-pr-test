@@ -1,6 +1,6 @@
 In Microsoft PowerApps, you use data sources to connect to and store your data.
 You can access data within the Office 365 ecosystem in locations such as
-Common Data Service (CDS) for Apps, SharePoint, SQL Server, and other
+Common Data Service, SharePoint, SQL Server, and other
 on-premises sources; Azure or other cloud services; a web API; or any of
 more than 200 built-in connectors.
 
@@ -29,7 +29,7 @@ Tabular or action-based data sources
 ------------------------------------
 
 Data sources provide data as either actions or one or more tables. Some
-data sources, such as CDS for Apps, SharePoint, and SQL Server provide
+data sources, such as Common Data Service, SharePoint, and SQL Server provide
 your data in a structured table. With table data sources, you can easily
 display the data in a gallery or a form. In PowerApps, you can use
 multiple functions for working with tables of data.
