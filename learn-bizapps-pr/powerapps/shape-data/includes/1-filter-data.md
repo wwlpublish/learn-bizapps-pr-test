@@ -20,7 +20,7 @@ status, you could filter your data by using the following formula in the
 Items property of your gallery.
 
 ```
-Filter(YourCDSEntity, IsActive = "Yes")
+Filter(YourDataSourceEntity, IsActive = "Yes")
 ```
 
 Instead of displaying all of the records from the entity, the
@@ -39,7 +39,7 @@ example to show all of the records where **IsActive** is **Yes** and
 **Region** is **North** by using the following query.
 
 ```
-Filter(YourCDSEntity, IsActive = "Yes" And Region = "North")
+Filter(YourDataSourceEntity, IsActive = "Yes" And Region = "North")
 ```
 
 This formula will return all of the records where IsActive is Yes, and
@@ -58,7 +58,7 @@ see all records where the Region is North or West. To build that query
 you would use the Or operator.
 
 ```
-Filter(YourCDSEntity, Region = "North" Or Region = "West")
+Filter(YourDataSourceEntity, Region = "North" Or Region = "West")
 ```
 
 This formula will return all of the records where Region is equal to
@@ -77,7 +77,7 @@ Region is either North or West. To do that you can include parentheses
 in your formula. Your formula would be the following.
 
 ```
-Filter(YourCDSEntity, IsActive = "Yes" And (Region = "North" Or Region = "West"))
+Filter(YourDataSourceEntity, IsActive = "Yes" And (Region = "North" Or Region = "West"))
 ```
 
 The formula will evaluate the parentheses first. In this formula, it
