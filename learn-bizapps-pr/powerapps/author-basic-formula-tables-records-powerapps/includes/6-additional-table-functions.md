@@ -1,7 +1,7 @@
 Now that you have learned the core concepts of working with tables and
 records there are many additional functions you can explore.
 These functions work with tables of data so you can use them with a data
-source (like Common Data Service (CDS) or SharePoint) or a collection. There is no difference
+source (like Common Data Service or SharePoint) or a collection. There is no difference
 in their usage.
 
 Functions for modifying the data source

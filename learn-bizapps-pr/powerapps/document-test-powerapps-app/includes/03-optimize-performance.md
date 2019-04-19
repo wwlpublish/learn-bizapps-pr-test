@@ -1,8 +1,8 @@
-When analyzing performance of Common Data Service for Apps, it is important to understand areas affecting the performance of an app. 
+When analyzing performance of Common Data Service, it is important to understand areas affecting the performance of an app. 
 
 ## Environment
 
-By carefully examining various environmental factors you can improve your overall experience with CDS apps, even before your business begins to use it.
+By carefully examining various environmental factors you can improve your overall experience with Common Data Service apps, even before your business begins to use it.
 
 ### Network
 
@@ -40,7 +40,7 @@ Optimizing the quick search view only to include columns that makes sense to sea
 
 ![Screenshot showing my active contacts view and search box](../media/T1_PerformanceTuningandOptimization_image1.png)
 
-When a user searches for records within a view, CDS for Apps performs a query that searches only predefined fields. Which fields are searched is defined by the Find Columns settings in the system Quick View.
+When a user searches for records within a view, Common Data Service performs a query that searches only predefined fields. Which fields are searched is defined by the Find Columns settings in the system Quick View.
 
 ![Screenshot showing the add find columns window](../media/T1_PerformanceTuningandOptimization_image2.png) 
 
@@ -84,7 +84,7 @@ CDS for Apps analytics are available via Power platform admin center [https://ak
 
 ## Query Performance
 
-CDS for Apps is a service and, as any service, may not cater for your specific app design. Specific queries in your app may cause some performance issues. While you don’t have direct access to the components of the CDS for Apps such as database, there are tools available within CDS for Apps to help in tuning the environment to your specific needs. You can analyze and optimize query performance using the Data Performance view discussed in detail in the next topic.
+Common Data Service is a service and, as any service, may not cater for your specific app design. Specific queries in your app may cause some performance issues. While you don’t have direct access to the components of the Common Data Service such as database, there are tools available within Common Data Service to help in tuning the environment to your specific needs. You can analyze and optimize query performance using the Data Performance view discussed in detail in the next topic.
 There are a number of tools that can assist in performance tuning various aspects of PowerApps.
 
 ## Dynamics 365 Diagnostics
@@ -110,17 +110,17 @@ If one or more long running entity queries are detected, log items are displayed
 
 ## Analytics
 
-CDS for Apps analytics are available via the Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac). Various statistics can help identifying potential areas for deeper performance analysis.
+Common Data Service analytics are available via the Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac). Various statistics can help identifying potential areas for deeper performance analysis.
 
-### Common Data Service for Apps
+### Common Data Service
 
 The Content Usage tab contains information about most used out-of-the-box and custom entities. Identifying the most used entities helps concentrate the optimization efforts on the parts of the app that matter.
 
-![Screenshot showing the Common Data Service for Apps analytics for common usage](../media/T2_PerformanceTools_image3.png)
+![Screenshot showing the Common Data Service analytics for common usage](../media/T2_PerformanceTools_image3.png)
 
 The Storage tab provides a number of storage statistics across all of your tenant instances as well as breakdown of the storage within the selected instance. 
 
-![Screenshot showing the Common Data Service for Apps analytics for stroage](../media/T2_PerformanceTools_image4.png)
+![Screenshot showing the Common Data Service for analytics for stroage](../media/T2_PerformanceTools_image4.png)
 
 This can help identify entities with excessive storage use that would be a primary target for further performance investigations.
 
