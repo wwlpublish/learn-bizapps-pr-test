@@ -135,7 +135,7 @@ source. Use this with controls where you only want a single column
 returned. A common example is the **dropdown** control.
 
 With the **dropdown** control, it is common to use a data source, such
-as a CDS entity, to provide the options. When you set the items property
+as a Common Data Service entity, to provide the options. When you set the items property
 to a data source, PowerApps will choose which column, if you
 have multiple, to display. You can use the **ShowColumns** function to
 select the column that you want to display.

@@ -83,7 +83,7 @@ This formula will do the following.
 
 This is an important concept to understand about data sources. Some data sources,
 such as SQL Server, use stored credentials that are shared by all users
-of the connector. Others, such as CDS for Apps, SharePoint, and other
+of the connector. Others, such as Common Data Service, SharePoint, and other
 Office 365 connectors, use the user's credentials. For example, every
 user who uses an app based on data in a SharePoint list needs the
 appropriate permissions in SharePoint to interact with that data.
