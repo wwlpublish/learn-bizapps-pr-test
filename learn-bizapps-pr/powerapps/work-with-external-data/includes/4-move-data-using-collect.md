@@ -56,22 +56,22 @@ your collection. This strategy works well when you want to apply
 additional logic.
 
 For example, you could create a collection named collectColorData that
-contains three columns: **Name**, **FavoriteColor**, and **UpdateCDS**.
-The **UpdateCDS** column could be a Boolean (true or false) column.
+contains three columns: **Name**, **FavoriteColor**, and **UpdateSource**.
+The **UpdateSource** column could be a Boolean (true or false) column.
 Through the process of working with the app, the user would update the
-value in the column and then select a button that says **Update CDS**.
+value in the column and then select a button that says **Update Source**.
 You could set the **OnSelect** property for the button to this formula:
 
 ```
-ForAll(Filter(collectColorData, UpdateCDS = true),
-Patch(DataSourceName, Defaults(DataSourceName), {NameColumnCDS: Name,
-FavoriteColorColumnCDS: FavoriteColor})
+ForAll(Filter(collectColorData, UpdateSource = true),
+Patch(DataSourceName, Defaults(DataSourceName), {NameColumnSource: Name,
+FavoriteColorColumnSource: FavoriteColor})
 ```
 
 This formula would add records to the data source named
-**DataSourceName**, setting the **NameColumnCDS** and
-**FavoriteColorColumnCDS** columns with the values from your collection
-but only for the records where **UpdateCDS** was set to true.
+**DataSourceName**, setting the **NameColumnSource** and
+**FavoriteColorColumnSource** columns with the values from your collection
+but only for the records where **UpdateSource** was set to true.
 
 This example could be further optimized, but it should demonstrate to
 you the concept and pieces for dynamically saving your collection to a

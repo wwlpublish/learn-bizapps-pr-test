@@ -4,7 +4,7 @@ metadata:
   title: Deliver a customized mobile experience in Microsoft Dynamics 365 for Field Service
   description: The Field Service mobile application provides the flexibility to customize the application based on needs of an organization.  Customers may what things like color coded views, interactive views to simplify data intake, bar code scanning, or even the ability to automate specific functionality with scripting.  These asks can be easily delivered with some additional customizations.     
   ms.date: 01/25/2019
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
@@ -16,7 +16,6 @@ abstract: |
    - Use Row Scripts to enhance the visual elements that are being presented in the application.
    - Work with mobile form rules to provide automation scenarios.
    - Use Custom commands to provide a customized mobile experience.  
-
 prerequisites: You should have a basic understanding of how to navigate the Dynamics 365 application.  Familiarity with core Field Service functionality such as creating work orders, basic application configuration, and working with scheduling scenarios is helpful.  You should also be familiar with how to deploy the Woodford customization project and how to create and publish Field Service Mobile projects.   
 iconUrl: /learn/achievements/deliver-a-customized-mobile-experience.svg 
 levels: 
@@ -26,6 +25,7 @@ roles:
 products: 
 - dynamics  
 - dynamics-field-service
+- dynamics-customer-engagement
 units:
 - learn-bizapps.implement-deliver-a-customized-mobile-experience.1-common-asks-and-customizations
 - learn-bizapps.implement-deliver-a-customized-mobile-experience.2-views-and-visualizations

@@ -4,7 +4,7 @@ metadata:
   title: Managing cases with Microsoft Dynamics 365 for Customer Service
   description: Create cases, manage the case resolution process, work with case hierarchies, and merge similar cases.       
   ms.date: 02/02/2019
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
@@ -28,6 +28,7 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
+- dynamics-customer-engagement
 units:
 - learn-bizapps.customer-service-cases.1-case-management-overview
 - learn-bizapps.customer-service-cases.2-case-creation-and-lifecycle

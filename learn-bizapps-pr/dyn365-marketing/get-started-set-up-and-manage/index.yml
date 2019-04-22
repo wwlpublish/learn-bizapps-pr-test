@@ -4,7 +4,7 @@ metadata:
  title: Set up and manage Dynamics 365 for Marketing
  description: Turn prospects into business relationships using Microsoft Dynamics 365 for Marketing. Move beyond basic email marketing to identify and develop more sales-ready leads. Easily connect sales and marketing, automate processes, and make smarter decisions to maximize your marketing return on investment. 
  ms.date: 1/23/2019  
- author: dbeasley  
+ author: davebeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-d365  
@@ -19,10 +19,12 @@ iconUrl: /learn/achievements/set-up-and-manage-marketing.svg
 levels:  
 - intermediate  
 roles:  
-- functional-consultant   
+- functional-consultant
+- business-user   
 products:
 - dynamics  
 - dynamics-marketing
+- dynamics-customer-engagement 
 units: 
 - learn-bizapps.get-started-set-up-and-manage.1-overview 
 - learn-bizapps.get-started-set-up-and-manage.2-structure-and-management 

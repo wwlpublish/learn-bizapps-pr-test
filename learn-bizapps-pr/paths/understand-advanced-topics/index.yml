@@ -1,14 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.understand-advanced-topics
 metadata:
-  title: Understand advanced topics in PowerApps
+  title: Master advanced techniques for PowerApps canvas apps
   description: Do you want to make sure your app is the best it can be? This learning path will help you use advanced formulas and perform custom updates. It will also focus on performance checks and testing.
   ms.date: 04/12/2019
   author: kschimke
   ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Understand advanced topics in PowerApps
+title: Master advanced techniques for PowerApps canvas apps
 summary: Do you want to make sure your app is the best it can be? This learning path will help you use advanced formulas and perform custom updates. It will also focus on performance checks and testing.
 prerequisites: |
   - The learning path [Work with data in a PowerApps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/) is recommended

@@ -4,7 +4,7 @@ metadata:
  title: Lead Lifecycle in Dynamics 365 for Marketing
  description: Turn prospects into business relationships by creating and developing leads across multiple channels. You will learn how to create segments, manage account-based marketing, and utilize lead scoring models to help amplify your efficiency and effectiveness in lead prioritization and conversion. 
  ms.date: 01/23/2019   
- author: dbeasley  
+ author: davebeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-d365  
@@ -21,10 +21,12 @@ iconUrl: /learn/achievements/lead-lifecycle.svg
 levels:  
 - intermediate  
 roles:  
-- functional-consultant  
+- functional-consultant
+- business-user  
 products:  
 - dynamics  
 - dynamics-marketing
+- dynamics-customer-engagement 
 units: 
 - learn-bizapps.work-with-lead-lifecycle.1-lead-lifecycle-overview 
 - learn-bizapps.work-with-lead-lifecycle.2-define-segment-types 
