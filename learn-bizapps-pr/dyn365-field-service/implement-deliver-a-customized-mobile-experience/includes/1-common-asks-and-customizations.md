@@ -1,5 +1,5 @@
 There are many advantages that Microsoft Dynamics for Field Service Mobile provides to technicians who are using it in the field. These advantages can range from items as simple as just being able to work with a scheduled booking and work order on the same screen, to more advanced items like being able to leverage virtual or augmented reality. Obviously virtual and
-augmented reality are standard out of the box features, but with some configuration and customizations, they can be accomplished with the mobile application.
+augmented reality are not standard out of the box features, but with some configuration and customizations, they can be accomplished with the mobile application.
 
 When the application is first deployed using the Field Service mobile project template, it will contain a basic user interface that is a great starting point for organizations as they are first deploying and getting started with it. However, most organizations, will have specific needs based on what their technicians are need and are doing in the field.
 When an organization is first starting to deploy the mobile application. It is important they gather information from their technicians and identify what they need and will be doing with the application.
