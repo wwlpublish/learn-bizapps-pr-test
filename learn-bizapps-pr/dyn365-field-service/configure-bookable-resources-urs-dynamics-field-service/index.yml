@@ -4,7 +4,7 @@ metadata:
   title: Configure bookable resources in Microsoft Dynamics 365 for Field Service
   description: This module will focus on how bookable resources are used in universal resource scheduling. Configuring resources, working with bookable resources, setup of supporting components such as characteristics and roles, and working with facilities, crews, and resource pools is also covered.           
   ms.date: 02/01/2019
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
@@ -26,6 +26,7 @@ roles:
 products: 
 - dynamics
 - dynamics-field-service
+- dynamics-customer-engagement
 units:
 - learn-bizapps.urs-configure-bookable-resources.1-bookable-resources-overview
 - learn-bizapps.urs-configure-bookable-resources.2-set-up-and-configuration

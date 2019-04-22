@@ -4,7 +4,7 @@ metadata:
   title: Use Microsoft Dynamics 365 for Customer Service queues to manage case workloads
   description: Use Microsoft Dynamics 365 for Customer Service queues to manage case workloads         
   ms.date: 02/02/2019
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
@@ -26,6 +26,7 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
+- dynamics-customer-engagement
 units:
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.1-dynamics-365-queues-overview
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.2-configuring-entities-for-queues

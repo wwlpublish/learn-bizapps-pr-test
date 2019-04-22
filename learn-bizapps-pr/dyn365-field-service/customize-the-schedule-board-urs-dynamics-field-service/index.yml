@@ -4,7 +4,7 @@ metadata:
   title: Customize the schedule board in Microsoft Dynamics 365 for Field Servicev
   description: Tailoring the schedule board for easier scheduling is made possible with multiple schedule boards, views, and schedule board options. We’ll look at how we configure the filters, queries, and entities for use with the schedule board.
   ms.date: 02/01/2019
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
@@ -26,6 +26,7 @@ roles:
 products: 
 - dynamics
 - dynamics-field-service
+- dynamics-customer-engagement
 units:
 - learn-bizapps.urs-customize-the-schedule-board.1-work-with-multiple-schedule-boards
 - learn-bizapps.urs-customize-the-schedule-board.2-schedule-board-options

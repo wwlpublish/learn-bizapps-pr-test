@@ -4,7 +4,7 @@ metadata:
   title: Working with Dynamics 365 for Marketing
   description: Gain insights from visitor behavior and grow your sales fast. Automate and mange campaigns, publish content, analyze results and leverage data with insights. 
   ms.date: 01/23/2019 
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-working-with-dynamics-365-for-marketing
@@ -18,9 +18,11 @@ levels:
 - intermediate
 roles: 
 - functional-consultant
+- business-user
 products: 
 - dynamics  
 - dynamics-marketing
+- dynamics-customer-engagement
 modules:
 - learn-bizapps.work-with-lead-lifecycle
 - learn-bizapps.work-with-generate-leads

@@ -23,10 +23,12 @@ iconUrl: /learn/achievements/advanced-configuration-marketing.svg
 levels:  
 - intermediate  
 roles:  
-- functional-consultant    
+- functional-consultant
+- business-user   
 products:  
 - dynamics  
 - dynamics-marketing
+- dynamics-customer-engagement 
 units: 
 - learn-bizapps.get-started-advanced-configuration.1-accessing-advanced-settings 
 - learn-bizapps.get-started-advanced-configuration.2-configuring-organization-settings 
