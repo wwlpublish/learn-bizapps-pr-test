@@ -1,8 +1,8 @@
 ### YamlMime:Module 
 uid: learn-bizapps.powerapps-common-data-service
 metadata: 
-  title: Get started with the Common Data Service for Apps
-  description: The Common Data Service for Apps lets you securely store and manage data that's used by business applications. Standard and custom entities within Common Data Service for Apps provide a secure and cloud-based storage option for your data.
+  title: Get started with Common Data Service
+  description: Common Data Service lets you securely store and manage data that's used by business applications. Standard and custom entities within Common Data Service for Apps provide a secure and cloud-based storage option for your data.
   ms.date: 02/01/2019
   #TODO: Update with real author name.
   author: margoc
@@ -10,11 +10,11 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
   #ms.learn-contact: margoc
-title: Get started with the Common Data Service for Apps
-summary: The Common Data Service for Apps lets you securely store and manage data that's used by business applications. Standard and custom entities within Common Data Service for Apps provide a secure and cloud-based storage option for your data.
+title: Get started with Common Data Service
+summary: Common Data Service lets you securely store and manage data that's used by business applications. Standard and custom entities within Common Data Service for Apps provide a secure and cloud-based storage option for your data.
 abstract: |
     In this module, you will:
-    - Create entities with the Common Data Service for Apps. 
+    - Create entities with Common Data Service. 
 prerequisites: |
   - A Microsoft PowerApps account. If you don't already have a PowerApps account, select the **Get started free** link on [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
