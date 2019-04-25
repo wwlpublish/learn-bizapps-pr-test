@@ -23,7 +23,7 @@ products:
 - power-platform
 - powerapps
 modules:
-- learn-bizapps.powerapps-common-data-service
+- learn-bizapps.powerapps-get-started
 - learn-bizapps.powerapps-customize
 - learn-bizapps.powerapps-manage
 trophy:
