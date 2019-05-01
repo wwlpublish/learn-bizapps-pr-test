@@ -1,4 +1,4 @@
-## Learning objectives
+<!----## Learning objectives
 
 At the end of lab, you will be able to perform the following tasks: 
 - Install a power BI app
@@ -8,6 +8,7 @@ At the end of lab, you will be able to perform the following tasks:
 - Set accessibility options
 
 Estimated time to finish this lab: 20 to 30 minutes
+---->
 
 ## Scenario
 
@@ -23,7 +24,7 @@ Congratulations. You are the new sales manager at a clothing manufacturing compa
 4. Select “**Find more apps and consulting services at AppSource**” link at the bottom of the menu.
 5. Search for *Sales and Marketing sample*.   
 
-![Image of the sample app for this lab.](../media/Lab-1/power-bi-top-app-results.png) 
+![Image of the sample app for this lab.](../media/Lab-1/power-bi-top-app-results.png)
 
 6.  Select the “**Get it now**” link and wait for the app to install.
 7. From the **Get started with your new app** screen, select the **Explore App** button. The app dashboard opens.
@@ -64,7 +65,7 @@ Reports are viewed on many different devices, with varying screen sizes and aspe
 
 2. From the upper menubar, select **View.**
 
-![Image of the options under the View menu.](../media/Lab-1/power-bi-view-menu.png) 
+![Image of the options under the View menu.](../media/Lab-1/power-bi-view-menu.png)
 
 3.  The first three options control the display of your report. Select each of the three options to learn how they work.
     *   To display your report page at the largest size possible without resorting to scrollbars, select **Fit to page**.
@@ -76,4 +77,4 @@ Reports are viewed on many different devices, with varying screen sizes and aspe
 4.  There are several accessibility settings available from the View menu. These setting make reports easier to consume by people with color blindness or other sight challenges. From the **View** menu, select **High contrast colors** and choose one of the options. In the example below, we’ve chosen **High contrast #2**.
 
 
-![Image of the high contrast view of a report.](../media/Lab-1/power-bi-high-contrast.png) 
+![Image of the high contrast view of a report.](../media/Lab-1/power-bi-high-contrast.png)
