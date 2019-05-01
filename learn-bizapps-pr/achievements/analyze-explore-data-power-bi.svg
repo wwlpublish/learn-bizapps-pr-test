@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Get started with Power BI to make business decisions/learn-the-basic-concepts-of-power-bi Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="96" height="96" rx="48"></rect>
+        <filter x="-9.3%" y="-10.0%" width="118.6%" height="120.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M1.21768094,1.27157839 L28.0751461,7.26157698 L55.808713,1.26206594 C56.3485116,1.14529309 56.8807679,1.48822323 56.9975408,2.02802184 C57.01257,2.09749667 57.0201489,2.16837594 57.0201489,2.2394578 L57.0201489,35.1592611 C57.0201489,35.6329528 56.6878006,36.0416585 56.2240616,36.1382502 L28.4104597,41.931519 L0.794717405,36.1391257 C0.331628206,36.0419929 1.04144003e-14,35.6335893 6.99440506e-15,35.1604229 L7.32747196e-15,2.24759837 C7.25983659e-15,1.69531362 0.44771525,1.24759837 1,1.24759837 C1.0732194,1.24759837 1.14621734,1.25563992 1.21768094,1.27157839 Z" id="path-4"></path>
+        <filter x="-1.8%" y="-1.9%" width="103.5%" height="109.2%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Get-started-with-Power-BI-to-make-business-decisions" transform="translate(-50.000000, -260.000000)">
+            <g id="Get-started-with-Power-BI-to-make-business-decisions/learn-the-basic-concepts-of-power-bi-Copy" transform="translate(50.000000, 260.000000)">
+                <g id="Mask" transform="translate(2.000000, 2.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="BG" fill="#7D7D7D" xlink:href="#path-1"></use>
+                    <g id="Person" filter="url(#filter-3)" mask="url(#mask-2)">
+                        <g transform="translate(26.000000, 13.000000)">
+                            <path d="M22,32 C19.788,32 18,29.9415 18,27.3961667 L18,13.5961667 C18,11.0585 19.788,9 22,9 C24.208,9 26,11.0585 26,13.5961667 L26,27.3961667 C26,29.9415 24.208,32 22,32" id="Fill-304" fill="#182A37"></path>
+                            <path d="M33,11.5 C33,17.848 27.8441667,23 21.5,23 C15.1443333,23 10,17.848 10,11.5 C10,5.152 15.1443333,0 21.5,0 C27.8441667,0 33,5.152 33,11.5" id="Fill-305" fill="#30404D"></path>
+                            <path d="M27.5335734,2 C28.5807381,3.71660065 29.219622,5.7167807 29.219622,7.87576521 C29.219622,14.1371984 24.1350135,19.2189413 17.8784878,19.2189413 C15.7161116,19.2189413 13.720072,18.5837234 12,17.5325891 C13.9922592,20.7994238 17.5533753,23 21.6588659,23 C27.9153915,23 33,17.9182571 33,11.6568239 C33,7.55437523 30.7960396,3.99261793 27.5335734,2" id="Fill-306" fill="#182A37"></path>
+                            <path d="M43,40 C39.8532873,31.27375 31.4176622,25 21.5019025,25 C11.5823378,25 3.15051765,31.27375 0,40 L43,40" id="Fill-307" fill="#30404D"></path>
+                            <path d="M23.0298039,25 L14,40 L43,40 C40.0203922,31.6460957 32.2681046,25.5894207 23.0298039,25" id="Fill-321" fill="#182A37"></path>
+                        </g>
+                    </g>
+                    <g id="Book" mask="url(#mask-2)">
+                        <g transform="translate(19.000000, 40.000000)">
+                            <path d="M1,3.52719313 L1,1.24669156 C1,0.694406811 1.44771525,0.246691561 2,0.246691561 C2.07298211,0.246691561 2.14574492,0.254681073 2.21698818,0.270517329 L28.0227008,6.00672134 L54.8546563,0.259076571 C55.3946901,0.14339649 55.9262513,0.487403194 56.0419314,1.02743705 C56.0566783,1.09628061 56.0641136,1.16648906 56.0641136,1.23689436 L56.0641136,3.52719313 L28.0227008,9.89491883 L1,3.52719313 Z" id="Path-11" stroke="none" fill="#F7CB64" fill-rule="nonzero"></path>
+                            <g id="Path-6" stroke="none" fill="none" fill-rule="nonzero">
+                                <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                                <use fill="#FFDC8A" xlink:href="#path-4"></use>
+                            </g>
+                            <path d="M29.5771294,8.91681645 L56.9284291,3 L56.9284291,35.2671304 C56.9284291,35.740822 56.5960808,36.1495277 56.1323418,36.2461195 L28.3187399,42.0393883 L28.0001059,10.8920589 C27.9903953,9.9428188 28.6493013,9.11753043 29.5771294,8.91681645 Z" id="Path-6" stroke="none" fill="#F7CB64" fill-rule="nonzero"></path>
+                            <path d="M6.64090077e-16,35.1919354 L0,33.5905906 L25.5530386,39.5136518 C26.6290791,39.7630724 27.7035776,39.0929646 27.9529982,38.0169241 C27.9873238,37.8688377 28.0046545,37.7173207 28.0046545,37.5653082 L28.0046545,14 L34.0346646,25.9007084 L34.0346646,40.8244204 L28.0046545,42.0134427 L0.790055509,36.1696487 C0.329182516,36.0706854 1.73239992e-15,35.6633139 0,35.1919354 Z" id="Path-8" stroke="none" fill="#F7CB64" fill-rule="nonzero"></path>
+                            <path d="M35,29.0067213 L49.9798511,26" id="Path-9" stroke="#876D31" stroke-width="1" fill="none" stroke-linecap="round" fill-rule="nonzero"></path>
+                            <path d="M35,32.0067213 L49.9798511,29" id="Path-9" stroke="#876D31" stroke-width="1" fill="none" stroke-linecap="round" fill-rule="nonzero"></path>
+                            <path d="M35,35.0067213 L49.9798511,32" id="Path-9" stroke="#876D31" stroke-width="1" fill="none" stroke-linecap="round" fill-rule="nonzero"></path>
+                            <g id="Power-BI-Logo" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(35.000000, 10.000000)">
+                                <path d="M4.4823552,10.6108153 L4.48558041,10.6108153 C4.76046004,10.6108153 4.98379114,10.8327058 4.98556994,11.1075797 L4.99676439,12.8374246 C4.99853984,13.11178 4.77757014,13.3356283 4.50321474,13.3374038 C4.50214317,13.3374107 4.50107159,13.3374142 4.5,13.3374142 L4.49677479,13.3374142 C4.22189516,13.3374142 3.99856407,13.1155236 3.99678526,12.8406498 L3.98559081,11.1108048 C3.98381536,10.8364494 4.20478507,10.6126011 4.47914046,10.6108257 C4.48021203,10.6108188 4.48128361,10.6108153 4.4823552,10.6108153 Z" id="Rectangle" fill="#876D31" fill-rule="nonzero"></path>
+                                <path d="M6.5,7 L6.5,7 C6.77614237,7 7,7.22385763 7,7.5 L7,12.4758772 C7,12.7520195 6.77614237,12.9758772 6.5,12.9758772 L6.5,12.9758772 C6.22385763,12.9758772 6,12.7520195 6,12.4758772 L6,7.5 C6,7.22385763 6.22385763,7 6.5,7 Z" id="Rectangle" fill="#876D31" fill-rule="nonzero"></path>
+                                <path d="M8.5135155,8 L8.51542747,8 C8.79051389,8 9.0135155,8.22300161 9.0135155,8.49808803 C9.0135155,8.49872413 9.01351428,8.49936023 9.01351184,8.49999633 L8.99999633,12.0276699 C8.99894122,12.3030625 8.77539457,12.5257543 8.5,12.5257543 L8.49808803,12.5257543 C8.22300161,12.5257543 8,12.3027527 8,12.0276663 C8,12.0270301 8.00000122,12.026394 8.00000366,12.0257579 L8.01351916,8.49808437 C8.01457427,8.22269182 8.23812092,8 8.5135155,8 Z" id="Rectangle" fill="#876D31" fill-rule="nonzero"></path>
+                                <rect id="Rectangle" fill="#876D31" fill-rule="nonzero" x="10" y="5" width="1" height="7" rx="0.5"></rect>
+                                <path d="M2.70549875,12.3420972 L2.36047309,12.4053188 C1.2739928,12.6044025 0.231837199,11.8850255 0.0327534085,10.7985453 C0.0109626862,10.6796245 2.65527773e-14,10.5589729 2.66453526e-14,10.4380722 L2.66453526e-14,5.04639108 C2.61082842e-14,4.09843465 0.665482927,3.28069417 1.59366919,3.08810221 L12.0886807,0.910463033 C13.1702137,0.686052721 14.22889,1.38088801 14.4533003,2.46242108 C14.4810349,2.59608622 14.4950115,2.73223972 14.4950115,2.8687519 L14.4950115,8.07938175 C14.4950115,9.02960969 13.8264082,9.84865164 12.8954182,10.0388905 L11.8651595,10.2494139" id="Path-4" stroke="#876D31" fill-rule="nonzero"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Power-BI-Border" stroke="#F2C811" stroke-width="4">
+                    <rect id="Azure-Border" x="2" y="2" width="96" height="96" rx="48"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
