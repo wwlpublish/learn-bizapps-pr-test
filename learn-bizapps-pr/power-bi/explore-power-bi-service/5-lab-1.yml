@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-service.5-lab-1 
+title: Find and view dashboards and reports
+metadata: 
+  title: Find and view dashboards and reports
+  description: Find and view dashboards and reports
+  ms.date: 04/26/2019 
+  author: robde 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 25
+content: | 
+ [!include[](includes/5-lab-1.md)] 
