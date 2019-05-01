@@ -72,4 +72,4 @@ If you want to change or delete one of your flows, it's easy.
 
     ![Delete a flow](../media/disable-delete.png)
 
-The next unit shows how to create a button flow for a team.
+The next unit shows how to receive text and email notifications from flows.
