@@ -83,9 +83,9 @@ For more information about HTTP requests, see
  | Request name          | "DetectSentiment" |
  | Request description   | \"The API returns a numeric score between 0 and 1. Scores close to 1 indicate positive sentiment, while scores close to 0 indicate negative sentiment.\" |
 
-3.  Choose **+ Create Collection** and provide a collection name. The
+3.  Choose **+ Create Collection** and provide a collection name. The
     custom connector uses this value when you call the API. Select the
-    check mark, which creates a collection folder, then choose **Save to
+    check mark, which creates a collection folder, then choose **Save to
     SentimentDemo**.
 
 ![Save Request](../media/07-save-request.png)
@@ -106,7 +106,7 @@ way, the response appears as an example when you load the request later.
 Custom connectors support only one response per request. If you save multiple responses per request, only the first one is used.
 
 2.  At the top of the app, provide a name for your example response, and
-    select **Save Example**.
+    select **Save Example**.
 
 ![Create API HTTP Request Save Response](../media/09-create-api-http-request-save-response.png)
 
@@ -122,18 +122,18 @@ collection, remove the content type and security headers - these were
 required to make API requests, but they are handled differently in the
 custom connector.
 
-1.  Under **Headers**, hover over each header, and choose the **X** next
-    to the header to remove it. Select **Save** to save the collection
+1.  Under **Headers**, hover over each header, and choose the **X** next
+    to the header to remove it. Select **Save** to save the collection
     again.
     
 ![Remove headers](../media/10-remove-headers.png)
 
 2.  Select the ellipsis (**...**) next to the collection, and then
-    choose **Export**.
+    choose **Export**.
     
 ![Export HTTP Request](../media/11-export-http-request.png)
 
-3.  Select the **Collection v1** export format, select **Export**, then
+3.  Select the **Collection v1** export format, select **Export**, then
     browse to the location where you want to save the JSON file.
 
 ![Export Format](../media/12-export-format.png)
@@ -175,12 +175,12 @@ wizard. You need to import the Postman collection for PowerApps and Microsoft Fl
     
 ![Icon Gear](../media/13-icon-gear.png)
 
-3.  Choose **Create custom connector**, then select **Import a Postman collection**.
+3.  Choose **Create custom connector**, then select **Import a Postman collection**.
 
 ![Flow Apps Create Connector](../media/14-flow-apps-create-connector.png)
 
 4.  Enter a name for the custom connector, then navigate to the Postman
-    collection that you created, and select **Continue**.
+    collection that you created, and select **Continue**.
     
 ![Flow Apps upload collection](../media/15-flow-apps-upload-collection.png)
 
@@ -188,7 +188,7 @@ wizard. You need to import the Postman collection for PowerApps and Microsoft Fl
  | :------------------------| :-----------------|
  | Custom connector title   | "SentimentDemo" |
 
-The wizard imports the collection then converts it to an OpenAPI definition named generatedApiDefinition.swagger.json.
+The wizard imports the collection then converts it to an OpenAPI definition named generatedApiDefinition.swagger.json.
 
 Update general details
 ----------------------
@@ -197,7 +197,7 @@ This example shows the Microsoft Flow user interface, but the
 steps are similar same across all three technologies. However, any
 differences will be pointed out.
 
-1.  On the **General** page, review the imported information from the
+1.  On the **General** page, review the imported information from the
     Postman collection, including the API host and the base URL for the
     API. The connector uses the API host and the base URL to determine
     how to call the API.
@@ -219,16 +219,16 @@ There are several options available for authentication in custom
 connectors. For this tutorial, the Cognitive Services APIs use API key
 authentication.
 
-1.  On the **Security** page, under **Authentication type**,
-    choose **API Key**.
+1.  On the **Security** page, under **Authentication type**,
+    choose **API Key**.
     
 ![Authentication Type](../media/17-authentication-type.png)
 
-2.  Under **API Key**, specify a parameter label, name, and location.
+2.  Under **API Key**, specify a parameter label, name, and location.
     Specify a meaningful label, because this is displayed when someone
     first makes a connection with the custom connector. The parameter
     name and location must match what the API expects (in this case, the
-    header you specified in Postman). Select **Connect**.
+    header you specified in Postman). Select **Connect**.
 
 ![API Key Parameters](../media/18-api-key-parameters.png)
 
@@ -239,7 +239,7 @@ authentication.
 | Parameter location   | "Header" |
 
 3.  At the top of the wizard, make sure the name is set to
-    \"SentimentDemo\", then select **Create connector**.
+    \"SentimentDemo\", then select **Create connector**.
 
 Review and update the connector definition
 ------------------------------------------
@@ -250,23 +250,23 @@ Flow, and Azure Logic Apps. The next section explains the user interface (UI) an
 
 ### Review the UI and definition
 
-Before you learn about the specific steps on the **Definition** page,
+Before you learn about the specific steps on the **Definition** page,
 here's a review of the user interface.
 
 1.  This area displays any actions, triggers (for Logic Apps and
     Microsoft Flow), and references that are defined for the connector.
-    In this case, the DetectSentiment action from the Postman collection
+    In this case, the DetectSentiment action from the Postman collection
     is displayed. There are no triggers in this connector, but you can
-    learn about triggers for custom connectors in [Use webhooks with
+    learn about triggers for custom connectors in [Use webhooks with
     Azure Logic Apps and Microsoft
     Flow](https://docs.microsoft.com/connectors/custom-connectors/create-webhook-trigger).
     
 ![Definition Action Triggers](../media/19-definition-actions-triggers.png)
 
-2.  The **General** area displays information about the action or
+2.  The **General** area displays information about the action or
     trigger currently selected. This information comes from the Postman
     collection. You can edit the information here, including
-    the **Visibility** property for operations and parameters in a logic
+    the **Visibility** property for operations and parameters in a logic
     app or flow:
 
 -   **none** - Typically displayed in the logic app or flow.
@@ -276,22 +276,22 @@ here's a review of the user interface.
 
 ![Definition General](../media/20-definition-general.png)
 
-3.  The **Request** area displays information based on the HTTP request
+3.  The **Request** area displays information based on the HTTP request
     included in the Postman collection. In this case, the
-    HTTP *verb* is **POST**, and the URL is
+    HTTP *verb* is **POST**, and the URL is
     "/text/analytics/v2.0/sentiment" (the full URL to the API is
     "[https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment](https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment)").
     
 ![Definition Request](../media/21-definition-request.png)
 
-4.  The **Response** area displays information based on the HTTP
+4.  The **Response** area displays information based on the HTTP
     response included in the Postman collection. In this case, the only
     response defined is for "200" (a successful response), but you can
     define additional responses.
 
 ![Definition Response](../media/22-definition-response.png)
 
-5.  The **Validation** area displays any issues detected in the API
+5.  The **Validation** area displays any issues detected in the API
     definition. Make sure to check this area before you save a
     connector.
     
@@ -301,20 +301,20 @@ here's a review of the user interface.
 
 Next you will change a few things so the connector is more user-friendly when someone uses it in PowerApps, Microsoft Flow, or Azure Logic Apps.
 
-1.  In the **General** area, update the summary to \"Returns a numeric
+1.  In the **General** area, update the summary to \"Returns a numeric
     score representing the sentiment detected\".
 
-2.  In the **Request** area, select **body** then **Edit**.
+2.  In the **Request** area, select **body** then **Edit**.
 
 ![Request body](../media/24-request-body.png)
 
-3.  In the **Parameter** area, you now see the three parameters that the
-    API expects: ID, language, and text. Select **id** then **Edit**.
+3.  In the **Parameter** area, you now see the three parameters that the
+    API expects: ID, language, and text. Select **id** then **Edit**.
     
 ![Request body ID](../media/25-request-body-id.png)
 
-4.  In the **Schema Property** area, update values for the parameter,
-    then select **Back**.
+4.  In the **Schema Property** area, update values for the parameter,
+    then select **Back**.
 
 ![Request edit schema](../media/26-request-edit-schema.png)
 
@@ -325,7 +325,7 @@ Next you will change a few things so the connector is more user-friendly when so
 | Default value   | "1" |
 | Is required     | "Yes" |
 
-5.  In the **Parameter** area, select **language** and then select **Edit**. Repeat the process you used for ID with the following values.
+5.  In the **Parameter** area, select **language** and then select **Edit**. Repeat the process you used for ID with the following values.
 
 | **Parameter**   | **Value** |
 | :---------------| :----------------------------------------------------|
@@ -334,8 +334,8 @@ Next you will change a few things so the connector is more user-friendly when so
 | Default value   | "en" |
 | Is required     | "Yes" |
 
-6.  In the **Parameter** area, choose **text** then **Edit**, and repeat
-    the process you used for id and language, with the following values.
+6.  In the **Parameter** area, choose **text** then **Edit**, and repeat
+    the process you used for id and language, with the following values.
 
 | **Parameter**   | **Value** |
 | :---------------| :--------------------------------------|
@@ -344,7 +344,7 @@ Next you will change a few things so the connector is more user-friendly when so
 | Default value   | None |
 | Is required     | "Yes" |
 
-7.  In the **Parameter** area, choose **Back** to take you back to the
+7.  In the **Parameter** area, choose **Back** to take you back to the
     main definition page.
 
 8.  At the top right of the wizard, select **Update connector**.
@@ -354,27 +354,27 @@ Next you will change a few things so the connector is more user-friendly when so
 Now that you\'ve created the connector test it to make sure it works
 properly.
 
-1.  On the **Test** page, choose **New connection**.
+1.  On the **Test** page, choose **New connection**.
 
 ![New Connection](../media/27-new-connection.png)
 
-2.  Enter the API key from the Text Analytics API, then select **Create
+2.  Enter the API key from the Text Analytics API, then select **Create
     connection**.
     
 ![Create Connection](../media/28-create-connection.png)
 
-3.  Return to the **Test page**. 
-In Microsoft Flow, go back to the **Test** page. Choose the refresh icon to make sure that the connection information is updated.
+3.  Return to the **Test page**. 
+In Microsoft Flow, go back to the **Test** page. Choose the refresh icon to make sure that the connection information is updated.
         
 ![Refresh Connection](../media/29-refresh-connection.png)
 
-In PowerApps, go back to the list of connections available in the current environment. In the upper-right corner, select the gear icon, then select **Custom connectors**. Choose the connector that you created, then go back to the **Test** page.
+In PowerApps, go back to the list of connections available in the current environment. In the upper-right corner, select the gear icon, then select **Custom connectors**. Choose the connector that you created, then go back to the **Test** page.
 
 ![Icon Gear](../media/13-icon-gear.png)
 
-4.  On the **Test** page, enter a value for the **text** field (the
+4.  On the **Test** page, enter a value for the **text** field (the
     other fields use the defaults that you set earlier), and then
-    select **Test operation**.
+    select **Test operation**.
 
 ![Test Operation](../media/30-test-operation.png)
 
