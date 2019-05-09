@@ -48,7 +48,7 @@ You work of a company that provides help desk support for its customers. One of 
 4. Complete the Phone Call as follows:
 - Subject: Issue with Delivery
 - Call From: Your user's name
-- Call To: Rene Valdes
+- Call To: Rene Valdes (if you have a differnet data set, choose a contact that you have in your list)
 - Direction: Outgoing
 - Regarding: A. Datum Corporation
 
