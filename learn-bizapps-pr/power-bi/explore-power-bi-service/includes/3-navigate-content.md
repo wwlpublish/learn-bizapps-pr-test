@@ -1,7 +1,5 @@
 Now that you have a basic understanding of the role that dashboards, reports, and apps play in Power BI, it's time to closely examine the different ways you’ll use them to choose the content you need to make better business decisions..
 
-### Dashboards
-
 ![Image of Power BI terminology: dashboards, reports, and apps](../media/1-3/power-bi-terminology.png)
 
 Let's start with dashboards.
