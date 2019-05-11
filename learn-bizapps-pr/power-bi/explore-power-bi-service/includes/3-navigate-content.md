@@ -1,8 +1,10 @@
-Now that you have a basic understanding of the role that dashboards, reports, and apps play in Power BI, it's time to closely examine the different ways you’ll use them to choose the content you need to make better business decisions..
+Now that you have a basic understanding of the role that dashboards, reports, and apps play in Power BI, it's time to closely examine the different ways you’ll use them to choose the content you need to make better business decisions.
 
 ![Image of Power BI terminology: dashboards, reports, and apps](../media/1-3/power-bi-terminology.png)
 
 Let's start with dashboards.
+
+### Dashboards
 
 A Power BI dashboard is made up of tiles that, together, tell a story. Because it is limited to one page, a well-designed dashboard contains only the most important elements of that story. You can't edit the dashboard, but there are plenty of ways to use the data on the dashboards to monitor your business and make data-backed decisions. 
 
@@ -33,7 +35,7 @@ The report opens to a page that contains the content that you just selected.
 
 Now that a report is open, you can explore it.
 
-### Explore your reports
+### Reports
 
 #### Collapse the nav pane
 

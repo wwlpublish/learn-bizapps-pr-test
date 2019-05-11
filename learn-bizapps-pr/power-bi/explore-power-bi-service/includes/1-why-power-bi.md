@@ -22,7 +22,7 @@ Moreover, because the content isn’t static, you can explore your data further 
 
 ## How to know if you are a Power BI consumer
 
-The way you interact with Power BI depends on your job role. As a user, or *consumer*, you are the person who receives content (dashboards, reports, and apps) from colleagues who create them (Power BI *designers*). Also, you work in the online version of Power BI (called Power BI service) reviewing and interacting with this data to make business decisions.
+The way you interact with Power BI depends on your job role. As a user, or *consumer*, you are the person who receives content (dashboards, reports, and apps) from colleagues who create them (Power BI *designers*). Also, you work in the online version of Power BI (called the Power BI service) reviewing and interacting with this data to make business decisions.
 
 You don’t need to be a data scientist to perform complex types of data analysis. Power BI does the heavy lifting for you. Therefore, you don’t need to be apprehensive of exploring the features, using the straightforward and intuitive controls, discovering new content, and sharing the incredible, data-based business intelligence.
 
