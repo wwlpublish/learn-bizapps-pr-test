@@ -5,7 +5,7 @@ Data is the core of Power BI. As you explore reports, each visual draws its unde
 > Filtering only applies to reports, not to dashboards.
 
 
-![Animated image showing that changing filders does not affect the source data.](../media/2-1/power-bi-filter-intro.gif)
+![Animated image showing that changing filters does not affect the source data.](../media/2-1/power-bi-filter-intro.gif)
 
 
 > [!Note] 
@@ -21,7 +21,7 @@ If you want to select more than one field, hold the Ctrl key and click additiona
 
 ## Explore the Filters pane
 
-Another way to filter data is by opening and modifying filters in the Filters pane. The Filters pane contains filters that were added to the report by the report designer. As a consumer, you can interact with the filters and save your changes but cannot add new filters. 
+Another way to filter data is by opening and modifying filters in the Filters pane. The Filters pane contains filters that were added to the report by the report designer. As a consumer, you can interact with the filters and save your changes but can't add new filters. 
 
 The four types of filters are:
 -   **Report** – Applies to all pages in the report.
@@ -79,7 +79,7 @@ In a Power BI report, you can sort most visuals. If they can be sorted, then you
 
 Changing the sort from a category (store name) to a value (sales per square feet) is simple. In this example, you would select the ellipsis (\...) and choose **Sort by \> Sales Per Sq Ft**. Optionally, you might select the ellipsis again and choose **Sort Descending**.
 
-> ![Aniamted image showing selecting sort by and then ascending, descending](../media/2-2/image7.gif)
+> ![Animated image showing selecting sort by and then ascending, descending](../media/2-2/image7.gif)
 
 > [!Note] 
 > Not all visuals can be sorted. For example, the following visuals cannot be sorted: Treemap, Map, Filled Map, Scatter, Gauge, Card, Multi Row Card, and Waterfall.
@@ -106,7 +106,7 @@ Dates are a unique type of hierarchy. When the report designer adds a date field
 
 As previously mentioned, you can interact with filters and save the changes for yourself only. However, sometimes you might want to share certain filtered views with your team. In those cases, you can create report bookmarks.
 
-Using bookmarks in Power BI helps you capture the currently configured view of a report page, including filtering and the state of visuals, and later lets you go back to that state by simply selecting the saved bookmark.
+Using bookmarks in Power BI helps you capture the currently configured view of a report page, including filtering and the state of visuals, and later lets you go back to that state by selecting the saved bookmark.
 
 To see report bookmarks in action, go to any Power BI report to which you have view or edit access and select the **Bookmarks** drop-down menu on the action bar.
 
@@ -114,11 +114,11 @@ To see report bookmarks in action, go to any Power BI report to which you have v
 
 ### Create bookmarks
 
-When you have selected the report and view that you like, simply expand the **Bookmarks** drop-down menu and select **Add personal bookmark**. By default, Power BI will suggest a generic name for your bookmark, but you can type in your own unique name and select **Save**.
+When you have selected the report and view that you like, expand the **Bookmarks** drop-down menu and select **Add personal bookmark**. By default, Power BI will suggest a generic name for your bookmark, but you can type in your own unique name and select **Save**.
 
 ![Image of adding personal bookmark.](../media/2-1/power-bi-add-personal-bookmark.png)
 
-After you have created a bookmark, you can display it by simply selecting the bookmark name in the drop-down list. Notice that the breadcrumb for the report will now contain the bookmark that you are currently viewing.
+After you have created a bookmark, you can display it by selecting the bookmark name in the drop-down list. Notice that the breadcrumb for the report will now contain the bookmark that you are currently viewing.
 
 ![Image of bookmark on top bar.](../media/2-1/power-bi-personal-bookmark-breadcrumb.png)
 

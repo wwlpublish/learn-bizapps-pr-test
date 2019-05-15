@@ -24,6 +24,7 @@ Furthermore, because the content isn’t static, you can explore your data furth
 
 The way you interact with Power BI depends on your job role. As a user or consumer, you're the person who receives dashboards, reports, and apps from designers who create them. Also, you work in the online version of Power BI (called Power BI service) reviewing and interacting with this data to make business decisions.
 
+
 You don’t need to be a data scientist to perform complex data analysis. Power BI does the complex work for you with straightforward and intuitive controls.
 
 ![Roles of different Power BI users](../media/1-1/power-bi-roles.png)
