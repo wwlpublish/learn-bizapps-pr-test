@@ -1,4 +1,4 @@
-If you have ever worked on a project with coworkers and ended up with ten versions of the same report, you are familiar with the pains of version control. Frequently, in these situations, as you and your colleagues edit and update a report, you lose track of which, if any, is the most updated version.
+If you have ever worked on a project with coworkers and ended up with 10 versions of the same report, you are familiar with the pains of version control. Frequently, in these situations, as you and your colleagues edit and update a report, you lose track of which, if any, is the most updated version.
 
 ![Image of the problem with working with different versions of a report.](../media/1-4/power-bi-versioning-problem7.png)
 
@@ -17,7 +17,7 @@ This section explores how designers share content with consumers and how consume
 
 ### Step 1: Power BI _designers_ share content with Power BI _consumers_ 
 
-Before you can begin working on the presentation, you need content from your designer co-workers. This content can become available to you through apps, dashboards, and reports, which are created by Power BI designers and shared with consumers like you. Designers can share this content with you and the other managers in several different ways.  
+Before you can begin working on the presentation, you need content from your designer coworkers. This content can become available to you through apps, dashboards, and reports, which are created by Power BI designers and shared with consumers like you. Designers can share this content with you and the other managers in several different ways.  
 
 *   Share links to individual dashboards or individual reports.
 *   Send link to content
@@ -49,7 +49,7 @@ However, another challenge you face is that you want help from other colleagues,
 ### Step 2: Consumers share content with internal and external colleagues
 As a Power BI consumer, you can also share content, provided that the designer gave you reshare permissions.
 
-If you decide to reshare any of this content, go to the **Shared with me** tab in the nav pane. If the **Actions** column contain the "share" icon, you can click the icon to share. 
+If you decide to reshare any of this content, go to the **Shared with me** tab in the navigation pane. If the **Actions** column contains the "share" icon, you can click the icon to share. 
 
 ![Image of example "Shared with me" list.](../media/1-4/power-bi-share-reports.png)
 
