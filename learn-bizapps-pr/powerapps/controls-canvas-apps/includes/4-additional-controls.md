@@ -24,18 +24,18 @@ answers. Here's a closer look at the differences between each of these controls.
     **SearchField** property so performance is not affected by very large
     data sources.
 
--   **List box** - This control always shows all available choices
+-   **List box** - This control always shows all available choices
     (unlike
-    a [Dropdown](https://docs.microsoft.com/powerapps/maker/canvas-apps/controls/control-drop-down) control)
+    a [Dropdown](https://docs.microsoft.com/powerapps/maker/canvas-apps/controls/control-drop-down) control)
     and in which the user can choose more than one item at a time
     (unlike a
-    [Radio](https://docs.microsoft.com/powerapps/maker/canvas-apps/controls/control-radio) control).
+    [Radio](https://docs.microsoft.com/powerapps/maker/canvas-apps/controls/control-radio) control).
 
 -   **Check box** - A control that the user can select or clear to set
-    its value to **true** or **false**. The user can specify a Boolean
+    its value to **true** or **false**. The user can specify a Boolean
     value by using this familiar control.
 
--   **Radio** - A **Radio** control, a standard HTML input control, is
+-   **Radio** - A **Radio** control, a standard HTML input control, is
     best used with only a few, mutually-exclusive options.
 
 Controls for ratings
@@ -63,7 +63,7 @@ Other available controls
     control appears or navigate to another screen after a certain amount
     of time has passed.
 
--   **Button** - Configure the **OnSelect** property of a button control to
+-   **Button** - Configure the **OnSelect** property of a button control to
     run one or more formulas when the user clicks or taps the control.
     The button control is frequently used to submit data to the data
     source. 
