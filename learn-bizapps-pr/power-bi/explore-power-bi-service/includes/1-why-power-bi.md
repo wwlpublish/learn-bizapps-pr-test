@@ -1,28 +1,28 @@
-We all live in a data culture where business decisions are based on facts, not opinions, and we need data to help us make these decisions.
+We all live in a data culture where business decisions are based on facts, not opinions. We need data to help us make these decisions.
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2PMcs]
 
 
-Every day, colleagues send you all types of data, from reports to spreadsheets, emails with charts, and even printed handouts. As the data accumulates, the task of quickly finding what you need, when you need it, becomes more difficult, and increases the risk that you are not using the most recent information.
+Every day, colleagues send you all types of data, from reports to spreadsheets, emails with charts, and even printed handouts. As the data accumulates, the task of quickly finding what you need, when you need it, becomes more difficult. Too much data increases the risk that you're not using the most recent information.
 
 Power BI can help make your job easier and more effective at the same time by converting all that data into charts and graphs to help you visualize your data in meaningful ways.
 
 ![Image showing data overload](../media/1-1/power-bi-data-overload.png)
 
-Rather than viewing your data in long lists or tables of numbers and words, you can view data insights from colorful and compelling visuals that clearly illustrate your data.
+You can view data insights from colorful and compelling visuals instead of just lists and tables.
 
 ![Image of Power BI on computer, tablet, and phone.](../media/1-1/power-bi-tools.png)
 
-Because you can open Power BI in a browser or on a mobile device, you and your colleagues are able to work from the same trusted dashboards and reports that update and refresh automatically, so you’re always working with the freshest content.
+You and your colleagues can work from the same trusted dashboards and reports from a browser or mobile device. Because your data updates and refreshes automatically, you’re always working with the freshest content.
 
-![Image of data channels consolidated by Power BI](../media/1-1/power-bi-data-consolidated.png)
+![Image of data channels combined by Power BI](../media/1-1/power-bi-data-consolidated.png)
 
-Moreover, because the content isn’t static, you can explore your data further by looking for trends, insights, and other business intelligence. The intuitive features of Power BI allow you to slice the content and even ask questions by using your own words. Let Power BI monitor your data for you, and send you alerts when data changes above or below a threshold you set. All your data is available any time, whether it’s in the cloud or on-premises, from any device.
+Furthermore, because the content isn’t static, you can explore your data further by looking for trends, insights, and other business intelligence. The intuitive features of Power BI allow you to slice the content and even ask questions by using your own words. Let Power BI monitor your data for you, and send you alerts when data changes above or below a threshold you set. All your data is available anytime, whether it’s in the cloud or on-premises, from any device.
 
-## How to know if you are a Power BI consumer
+## How to know if you're a Power BI consumer
 
-The way you interact with Power BI depends on your job role. As a user, or *consumer*, you are the person who receives content (dashboards, reports, and apps) from colleagues who create them (Power BI *designers*). Also, you work in the online version of Power BI (called Power BI service) reviewing and interacting with this data to make business decisions.
+The way you interact with Power BI depends on your job role. As a user or *consumer*, you're the person who receives content (dashboards, reports, and apps) from colleagues who create them (Power BI *designers*). Also, you work in the online version of Power BI (called Power BI service) reviewing and interacting with this data to make business decisions.
 
 You don’t need to be a data scientist to perform complex types of data analysis. Power BI does the heavy lifting for you. Therefore, you don’t need to be apprehensive of exploring the features, using the straightforward and intuitive controls, discovering new content, and sharing the incredible, data-based business intelligence.
 

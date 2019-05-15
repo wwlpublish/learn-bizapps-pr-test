@@ -12,7 +12,7 @@ of rows (records) in a table. There are also more traditional math
 functions such as **Sum** or **Average**. These functions process a
 numerical operation over a table of data.
 
-Splitting up and combing data
+Splitting up and combining data
 -----------------------------
 
 When working with your data, it is often necessary to transform the data
