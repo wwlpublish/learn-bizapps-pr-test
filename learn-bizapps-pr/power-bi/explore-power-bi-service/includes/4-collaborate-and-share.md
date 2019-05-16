@@ -1,8 +1,8 @@
-If you have ever worked on a project with coworkers and ended up with 10 versions of the same report, you are familiar with the pains of version control. Frequently, in these situations, as you and your colleagues edit and update a report, you lose track of which, if any, is the most updated version.
+The pains of version control are common. For example, working on a project with coworkers and ending up with 10 versions of the same report. Frequently, in these situations, as you and your colleagues edit and update a report, you lose track of which, if any, is the most updated version.
 
 ![Image of the problem with working with different versions of a report.](../media/1-4/power-bi-versioning-problem7.png)
 
-Power BI simplifies collaboration and improves the outcome by allowing you and your colleagues to work simultaneously on the same dashboards and reports. And, while you and your colleagues explore the data and make changes to the reports and dashboards, the underlying is not impacted.
+Power BI simplifies collaboration and improves the outcome by allowing you and your colleagues to work simultaneously on the same dashboards and reports. And, while you and your colleagues explore the data and make changes to the reports and dashboards, the underlying is not affected.
 
 ![Image showing that everyone is working with the same version of a Power BI report.](../media/1-4/power-bi-versioning-solution7.png)
 
@@ -13,11 +13,11 @@ In Power BI, you can collaborate with your colleagues in many ways. This unit fo
 
 ## Sharing
 
-This section explores how designers share content with consumers and how consumers share content with others. Imagine that you’re a regional sales manager and are working with other managers to prepare a presentation for senior leadership. You and your colleagues will work in Power BI from start to finish to collect, organize, analyze, and present your data-driven findings. All of you will use the same shared content and communicate with each other within the Power BI framework.
+This section explores how designers share content with consumers and how consumers share content with others. Imagine that you’re a regional sales manager and are working with other managers to prepare a presentation for senior leadership. You and your colleagues will work in Power BI from start to finish to collect, organize, analyze, and present your data-driven findings. Your team will all use the same shared content and communicate with each other within the Power BI framework.
 
 ### Step 1: Power BI _designers_ share content with Power BI _consumers_ 
 
-Before you can begin working on the presentation, you need content from your designer coworkers. This content can become available to you through apps, dashboards, and reports, which are created by Power BI designers and shared with consumers like you. Designers can share this content with you and the other managers in several different ways.  
+Before you begin working on the presentation, you need content from your designer coworkers. You can find this content through apps, dashboards, and reports. Designers can share this content with you and the other managers in several different ways:
 
 *   Share links to individual dashboards or individual reports.
 *   Send link to content
@@ -26,7 +26,7 @@ Before you can begin working on the presentation, you need content from your des
 
 **Designer shares a link to an individual report or individual dashboard**
 
-If a designer sends you and the other managers a link in email, and you select the link and install, that dashboard or report will show up as **Shared with me** content. As explained in previous units in this module, shared content can be viewed from the nav pane > **Shared with me** and from the **Home** page.
+A designer may send you and the other managers a link in email. When you select the link and install, that dashboard or report will show up as **Shared with me** content. As explained in previous units in this module, shared content can be viewed from the nav pane > **Shared with me** and from the **Home** page.
 
 ![Image of Shared with me tab](../media/1-4/power-bi-shared.png)
 
@@ -34,7 +34,7 @@ If a designer sends you and the other managers a link in email, and you select t
 
 **Designer shares an app**
 
-Sometimes, it’s easier for a designer to package dashboards and reports into an app and then share that app with you. With an app, all the related content is simple to find because it’s all part of that single app. Designers can share apps by sending an installation link, automatically installing the app in your Power BI workspace, or posting the app on a website where you can get it.
+Sometimes, it’s easier for a designer to package dashboards and reports into an app, which they share with you. With an app, all the related content is simple to find because it’s all part of that single app. Designers can share apps by sending an installation link, automatically installing the app in your Power BI workspace, or posting the app on a website where you can get it.
 
 No matter how the app is shared, it will show up in Power BI under the **Apps** heading in the nav pane and on the **Home** page.
 
