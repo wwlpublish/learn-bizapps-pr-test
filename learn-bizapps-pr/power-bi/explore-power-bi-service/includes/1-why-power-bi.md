@@ -56,11 +56,11 @@ Use the Show Data feature if you want to view data that Power BI is using to bui
 
 ## Export data 
 
-In addition to showing the data that is used to create a visual, you can also export that data and view it in Microsoft Excel. When you export to Excel, you’re creating a separate document, a spreadsheet that is not part of Power BI. Any changes that you make in the Excel file won’t impact the data in Power BI. Whether you want to take a closer look at the data, or you want to use the data in another application or for another purpose, Power BI gives you that flexibility.
+In addition to showing the data that is used to create a visual, you can also export that data and view it in Microsoft Excel. When you export to Excel, you’re creating a separate document, a spreadsheet that isn't part of Power BI. Any changes that you make in the Excel file won’t impact the data in Power BI. Whether you want to take a closer look at the data, or you want to use the data in another application or for another purpose, Power BI gives you that flexibility.
 
 ![Image of exploring data to Excel](../media/1-1/power-bi-export-excel.png)
 
-Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF for even more ways of sharing with your colleagues.
+Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
 
 ![Image of exploring reports to PowerPoint](../media/1-1/power-bi-powerpoint.png)
 
@@ -82,7 +82,7 @@ With subscriptions and alerts, Power BI sends information to you in email, on a 
 
 ### Subscribe to reports and dashboards
 
-To stay up-to-date on your most important content, you can subscribe to report pages and dashboards that matter most to you, and Power BI will send a snapshot to your email inbox.
+To stay up-to-date on your most important content, you can subscribe to report pages and dashboards that matter most to you. Power BI will send a snapshot to your email inbox.
 
 ![Image of Subscribe functionality in Power BI](../media/1-1/power-bi-subscribe.png)
 
@@ -92,7 +92,7 @@ Your data is live, and your visuals will update automatically. If you want to be
 
 ![Image of Power BI alert](../media/1-1/power-bi-alert.png)
 
-Power BI sends you an email when the value increases or decreases past the limit that you set.
+Power BI sends you an email when the value passes any upper or lower limit that you set.
 
 Power BI can enable everyone—not just data specialists—with real insight into what is happening. It allows you, as a consumer, to make better and more informed decisions.
 

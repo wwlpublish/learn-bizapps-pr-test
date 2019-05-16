@@ -6,7 +6,7 @@ When you sign in, Power BI opens and displays your Home canvas, as shown in the 
 
 ![Home canvas](../media/1-2/power-bi-home2.png)
 
-Power BI Home offers three ways of locating and viewing your content. Though all three accesses the same pool of content, they’re merely different ways of getting to that content. Occasionally, searching will be the easiest and quickest way to find something, while other times, selecting a tile on the Home canvas will be your best option.
+Power BI Home offers three ways of locating and viewing your content. Though all three accesses the same pool of content, they’re merely different ways of getting to that content. Occasionally, searching will be the easiest and quickest way to find something. Other times, selecting a tile on the Home canvas will be your best option.
 
 1.  The Home canvas displays and organizes your favorite and most recent content, along with recommended content and learning resources. Each piece of content displays as a tile, with a title and icon. Selecting a tile opens that content.
 
@@ -40,7 +40,7 @@ As previously mentioned, on your Home canvas, you can view all the content that 
 
 #### Favorites and frequents
 
-This top section contains links to the content that you visit most often or that you’ve tagged as a *favorite*. Notice that two tiles have yellow stars; that app and that report have been tagged as favorites.
+This top section contains links to the content you visit most often or that you’ve tagged as a *favorite*. Notice that two tiles have yellow stars meaning they have been tagged as favorites.
 
 ![Favorite content on Home](../media/1-2/power-bi-home-favs.png)
 
@@ -87,7 +87,7 @@ The navigation pane is another way for you to find the content you want, quickly
 
 ### Search all of your content
 
-Sometimes, the fastest way to find your content is to search for it. Perhaps you’ve discovered that a dashboard you haven’t used in a while isn’t showing up on your Home canvas. You remember that your colleague, Aaron, shared it with you but you don’t remember what he called it or whether it was a report or a dashboard.
+Sometimes, the fastest way to find your content is to search for it. Perhaps you’ve discovered a dashboard you haven’t used in a while isn’t showing up on your Home canvas. You remember that your colleague, Aaron, shared it with you but you don’t remember what he called it or whether it was a report or a dashboard.
 
 ![Global search](../media/1-2/power-bi-search.png)
 
