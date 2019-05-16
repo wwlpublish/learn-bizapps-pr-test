@@ -21,9 +21,9 @@ Q&A is available on dashboards and reports in Power BI. To open the Q&A screen, 
 
 ![Q&A screen](../media/2-3/power-bi-questions.png)
 
-If the visuals' axis labels and values include the words *sales*, *account*, *month*, and *opportunities*, then you can confidently ask questions such as: "Which account has the highest opportunity" or "Show sales by month as a bar chart."
+If the visuals' axis labels and values include the words *sales*, *account*, *month*, and *opportunities*, then you can confidently ask questions that use those values. For example, "Which account has the highest opportunity" or "Show sales by month as a bar chart."
 
-Other helpful items are provided on the side of the screen. For each dataset, Q&A shows you keywords and occasionally shows you some sample or suggested questions. Select any of these to add them to the question box.
+Other helpful items are provided on the side of the screen. For each dataset, Q&A shows you keywords and occasionally shows you some sample or suggested questions. Select any item to add them to the question box.
 
 Another way that Q&A helps you ask questions is with prompts, autocomplete, and visual cues.
 
@@ -58,7 +58,7 @@ For more detailed information, see:
 
 **Q&A helps phrase the question**
 
-Q&A does its best to understand and answer the question by doing the following: 
+Q&A does its best to understand and answer the question by: 
 -   Autocompletes words and questions. It uses various strategies, including autocompleting recognized words and previously used questions that returned valid responses. If more than one autocomplete option is available, they're presented in a drop-down list.
 -   Corrects spelling.
 -   Provides a preview of the answer in the form of a visual. The visual updates as you type and edit the question (it doesn't wait for you to press **Enter**).
