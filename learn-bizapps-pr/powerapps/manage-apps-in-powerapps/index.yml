@@ -3,21 +3,19 @@ uid: learn-bizapps.powerapps-manage
 metadata: 
   title: Manage apps in PowerApps
   description: Manage app versions, app sharing, and environments in PowerApps.
-  ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 5/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  #ms.learn-contact: margoc
 title: Manage apps in PowerApps 
 summary: Manage app versions, app sharing, and environments in PowerApps. 
 abstract: |
   In this module, you will: 
-  - Learn how to review and restore app versions
-  - Explore how to share an app, including permissions and notifications
-  - Understand what environments are, how to create them, and how to manage security
-  - Find more information about PowerApps
+  - Learn how to view and restore app versions.
+  - Explore how to share an app, including permissions and notifications.
+  - Learn about what environments are, how to create them, and how to manage security.
+  - Find more information about PowerApps.
 prerequisites: None
 iconUrl: /learn/achievements/manage-apps-in-powerapps.svg
 levels: 

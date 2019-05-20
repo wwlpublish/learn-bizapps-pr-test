@@ -1,7 +1,11 @@
 Congratulations on creating your first app with PowerApps!
 
-In this module, you learned how to create an app from data in a Microsoft Excel workbook.
+In this module, you discovered what PowerApps can do for your business and the building blocks of creating your first app. You then created an app from data in a Microsoft Excel workbook.  
 
-You explored how PowerApps can help make your business more efficent.
+Additionally, you learned that:
 
-In the next module, you'll customize an app by adding controls. 
+- To create, share, and administer your apps, you will use web.powerapps.com, the PowerApps Studio, and the PowerApps Admin Center.
+- The power of PowerApps comes from the ability to connect to related technologies in your business. Examples of these are Common Data Service, Microsoft Flow, Microsoft SharePoint, and other data sources.
+- You can create an app by using several different methods. Some of these methods include from a template, a data source (like Microsoft SharePoint), or a blank canvas.  
+
+

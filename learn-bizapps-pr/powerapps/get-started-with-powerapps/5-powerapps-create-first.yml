@@ -1,13 +1,12 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.5-powerapps-create-first
-title: Create your first PowerApps app
+title: Create your first app in PowerApps 
 metadata:
   title: Create your first app in PowerApps
-  description: Learn to build your first app in PowerApps.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  description: Learn how to build your first app in PowerApps.
+  ms.date: 05/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 15
