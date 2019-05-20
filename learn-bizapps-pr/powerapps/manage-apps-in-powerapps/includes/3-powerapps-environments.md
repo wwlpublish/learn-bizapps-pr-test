@@ -1,64 +1,62 @@
-An environment is a container for apps and other resources, such as data connections and flows from Microsoft Flow. It's a way to group things based on business requirements.
+An environment is a container for apps and other resources, such as data connections and flows from Microsoft Flow. It's a way to group items based on business requirements.
 
 ![Environment picker](../media/powerapps-environments2.png)
 
-If you've followed along with this module so far, you've spent some time working in https://web.powerapps.com. Whether you knew it or not, you've been working in a specific environment the whole time.
-
-In the upper-right corner of the web.powerapps.com home page, you can see your current environment.
+If you've followed along with this module, you've already been working in <a href="https://web.powerapps.com" target="_blank">web.powerapps.com</a>; therefore, you've been working in a specific environment the whole time.
+In the upper-right corner of the home page, you can view your current environment.
 
 ![Environment picker](../media/powerapps-environment-picker.png)
 
-If you're new to Microsoft PowerApps, you might have only the default environment at this point.
-
-- Open the menu to see whether other environments are available.
- 
-> [!NOTE]
-> People who need to work with PowerApps environments need a PowerApps Plan 2 license or the free PowerApps Plan 2 trial. Additionally, if you want to work with Dynamics 365 restricted entities, you must have PowerApps for Dynamics 365 license. Learn more about [licenses for Dynamics 365](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fadministrator%2Fpricing-billing-skus%23licenses&data=02%7C01%7Cv-tosis%40microsoft.com%7C3bb58d639d8745c27ff908d62d4c1062%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636746202048937165&sdata=8rDKLL4XBkwCLOrpZe0F2MlTmkfhAmukrV3bn4a34NU%3D&reserved=0).
-
-## Why use environments?
-There are several reasons to create environments beyond the default one:
-
-- **Separate app development by department**: In a large organization, each department can work in a different environment. That way, department employees see only apps and company data that are appropriate to their needs.
-- **Support application lifecycle management (ALM)**: Separate environments let you separate apps that are in development stages from those that have already been shared. Or you might want to use a trial environment so that you can gain feedback from employees before rolling out the final app. For some organizations, showing apps before they're completely developed and published can present security concerns.
-- **Manage data access**: Each environment can have its own source of business data, called a  database for Common Data Service for Apps. Other data connections are specific to an environment and can't be shared across environments.
+If you're new to Microsoft PowerApps, you might have only the default environment at this point. If a drop-down menu is visible next to the environment name, this indicates that other environments are available.
 
 > [!NOTE]
-> Keep in mind that environments are relevant only to app creators and PowerApps admins. When you share an app with users, those users just run the app, provided that they have the correct permissions. They don't have to worry about what environment the app came from.
+> If you want to work with PowerApps environments, you need a PowerApps Plan 2 license or the free PowerApps Plan 2 trial. Additionally, if you want to work with Dynamics 365 restricted entities, you must have a PowerApps for Dynamics 365 license. Learn more about [licenses for Dynamics 365](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fadministrator%2Fpricing-billing-skus%23licenses&data=02%7C01%7Cv-tosis%40microsoft.com%7C3bb58d639d8745c27ff908d62d4c1062%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636746202048937165&sdata=8rDKLL4XBkwCLOrpZe0F2MlTmkfhAmukrV3bn4a34NU%3D&reserved=0).
+
+## Reasons to use environments
+Reasons to create environments beyond the default one include:
+
+- **Separate app development by department** - In a large organization, each department can work in a different environment. That way, department employees see only apps and company data that are appropriate to their needs.
+- **Support application lifecycle management (ALM)** - Separate environments let you separate apps that are in development stages from those that have already been shared. Alternatively, you might want to use a trial environment so that you can receive feedback from employees before publishing the final app. For some organizations, showing apps before they're completely developed and published can present security concerns.
+- **Manage data access** - Each environment can have its own source of business data, called a database for Common Data Service. 
+Other data connections are specific to an environment and can't be shared across environments.
+
+> [!NOTE]
+> Keep in mind that environments are relevant only to app creators and PowerApps admins. When you share an app with users, those users simply run the app, providing they have the correct permissions. In other words, they don't have to worry about what environment the app came from.
 
 ## Create an environment
 
 Only an admin can create environments. If you aren't an admin, this information can still be helpful when you talk to your admin about setting up environments.
 
-1. On the web.powerapps.com home page, select the gear icon near the upper-right corner, and then select **Admin center**.
+1. On the <a href="https://web.powerapps.com" target="_blank">web.powerapps.com</a> home page, select the gear icon near the upper-right corner and then select **Admin center**.
 
-    You can also go directly to admin.powerapps.com.
+    You can also go directly to <a href="https://admin.powerapps.com" target="_blank">admin.powerapps.com</a>.
 
 2. In the PowerApps admin center, select **New environment**. 
-3. In the **New environment** dialog box, enter a name for the environment, and then select a region and an environment type.
+3. In the **New environment** dialog box, enter a name for the environment and then select a region and an environment type.
 4. Select **Create environment**.
-1. Select the currency and language for the data stored in the database. You cannot change the currency or language once the database is created. 
-1. Select **Create database**.
-    It may take several minutes to create the database on the Common Data Service. Once the database is created, the new environment appears in the list of environments on the **Environments** page.
+5. Select **Create database**.
+6. Select the currency and language for the data that is stored in the database. You cannot change the currency or language after the database is created. 
+ 
+    It might take several minutes to create the database on Common Data Service. After the database is created, the new environment appears in the list of environments on the **Environments** page.
 
-That's it. You now have a new environment to work in. If you go back to web.powerapps.com, you'll see it in the environments list.
+You now have a new environment to work in. If you go back to <a href="https://web.powerapps.com" target="_blank">web.powerapps.com</a>, you will see it in the environments list.
 
 ## Manage access to an environment
 
 By default, you can access an environment in one of two ways:
 
-- **System admin**: A system admin has full permissions to create and manage environments.
-- **Environment maker**: An environment maker can see all apps in that environment, create apps, and work with Common Data Service for Apps (other permissions apply).
+- **System admin** - A system admin has full permissions to create and manage environments.
+- **Environment maker** - An environment maker can view all apps in that environment, create apps, and work with Common Data Service (other permissions apply).
 
-Admins can create other security roles as needed and, as this procedure describes, assign users to them.
+Environment admins can create other security roles as needed. They can also add and assign users to these roles.
 
-1. Near the left edge, select **Environments**.
-2. Select an environment, and then select **Manage security for this instance.**
-3. In the search box near the upper-right corner, type or paste the email address of the person you want to grant access to.
-4. Hover over the result that you want, select its check box, and then select **Manage roles**.
-5. In the **Manage User Roles** box, select the types of roles for the user. In this example, the user has been assigned to the Environment Maker role.
-
-    ![Select a new user role](../media/powerapps-user-roles.png)
-
+1. On the left pane, select **Environments**.
+2. Select the test environment that you just created, and then select the **Security** tab.
+3. Add the user by entering the email address of the user in your organization and then selecting **Add user**. 
+    Wait a few minutes for the user to be added.
+4. To verify if the user is now available, select **list of users**.
+4. Hover over the result that you want, select its check box, and then select **MANAGE ROLES** on the top bar.
+5. In the **Manage User Roles** box, select the role(s) for the user. In this example, assign the user to the Environment Maker role.
 6. Select **OK**.
 
-This unit explained what the benefits of environments are, how to create them, and how to grant access to them. Even if you aren't an admin, it can be helpful to know how this works.
+

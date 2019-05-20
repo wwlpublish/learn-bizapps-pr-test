@@ -4,10 +4,9 @@ title: Improve apps by making basic customizations in PowerApps
 metadata: 
   title: Improve apps by making basic customizations in PowerApps
   description: Make basic customizations to your apps, such as choosing a layout and reordering fields. 
-  ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 5/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 10 

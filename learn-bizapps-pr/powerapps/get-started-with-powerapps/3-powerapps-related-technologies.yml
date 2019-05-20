@@ -4,12 +4,11 @@ title: PowerApps related technologies
 metadata:
   title: PowerApps related technologies
   description: Learn how you can use PowerApps with other technologies to build and share apps across your organization. 
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 05/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-durationInMinutes: 10
+durationInMinutes: 8
 content: |
   [!include[](includes/3-powerapps-related-technologies.md)]

@@ -1,52 +1,54 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
 metadata:
-  title: "Knowledge check: Get started in PowerApps"
-  description: This knowledge check tests your knowledge of how to get started in PowerApps.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  title: Check your knowledge
+  description: Answer the following questions to see what you've learned.
+  ms.date: 05/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Check your knowledge
-durationInMinutes: 10
+durationInMinutes: 6
 quiz:
-  title: "Knowledge check: Get started in PowerApps"
+  title: Answer the following questions to see what you've learned.
   questions:
-  - content: Where do you share an app with others?
+  - content: Where do you configure and customize your app?
     choices: 
-    - content: In web.powerapps.com.
-      explanation: In web.powerapps.com, you can share an app with others, allowing them to just run it or to both run and edit it.
+    - content: In web.powerapps.com
+      explanation: You can configure and customize your apps in PowerApps Studio.
+      isCorrect: false
+    - content: In the PowerApps admin center
+      explanation: You can configure and customize your apps in PowerApps Studio.
+      isCorrect: false
+    - content: In Microsoft Dynamics 365
+      explanation: You can configure and customize your apps in PowerApps Studio.
+      isCorrect: false
+    - content: In PowerApps Studio
+      explanation: You can configure and customize your apps in PowerApps Studio.
       isCorrect: true
-    - content: In the PowerApps admin center.
-      explanation: You can manage environments and create databases in the PowerApps admin center, but you can't share apps from that location.
-      isCorrect: false
-    - content: In Microsoft Dynamics 365.
-      explanation: You can run apps in Dynamics 365, but you can't share them from that location.
-      isCorrect: false
-    - content: In PowerApps Studio.
-      explanation: You can design apps in PowerApps Studio, but you can't share them from that location.
-      isCorrect: false
   - content: Which of these statements about data sources is true?
     choices:
     - content: In PowerApps, app data comes primarily from your local device.
       explanation: Data can come from many sources, including Microsoft SharePoint, Google Drive, and Salesforce.
       isCorrect: false
-    - content: Twitter can be a data source.
-      explanation: You can use many data sources, including Twitter, Facebook, Microsoft SQL Server, and Salesforce.
-      isCorrect: true
-    - content: Dropbox can't be a data source.
-      explanation: Dropbox is one of many data sources that you can use when you build an app in PowerApps.
+    - content: PowerApps is not able to connect to external data.  All data must be stored in the PowerApps app.
+      explanation: You can use many external data sources, including Twitter, Facebook, Microsoft SQL Server, and Salesforce.
       isCorrect: false
-  - content: Which of these statements *doesn't* describe a way to build apps?
+    - content: PowerApps uses connectors to connect to Data Sources. If the data source supports it, PowerApps can read and write to the data source.
+      explanation: You can use many external data sources, including Twitter, Facebook, Microsoft SQL Server, and Salesforce.
+      isCorrect: true
+  - content: PowerApps automatically creates three screens for you when you build an app from a data source. Which of the following is not one of the screens created?
     choices:
-    - content: You can build an app from a template or a sample.
-      explanation: PowerApps ships with many templates and samples from which you can build apps.
+    - content: Browse Screen
+      explanation: A Browse Screen, Edit Screen, and Details Screen are all created. 
       isCorrect: false
-    - content: You can build an app from a blank screen.
-      explanation: You can build an app from the ground up by adding UI elements that determine how the app looks and creating formulas that determine how the app behaves.
-      isCorrect: false
-    - content: You can build an app in PowerApps Mobile.
-      explanation: You can run but not build apps in PowerApps Mobile.
+    - content: New Screen
+      explanation: A Browse Screen, Edit Screen, and Details Screen are all created. 
       isCorrect: true
+    - content: Edit Screen
+      explanation: A Browse Screen, Edit Screen, and Details Screen are all created. 
+      isCorrect: false
+    - content: Details Screen
+      explanation: A Browse Screen, Edit Screen, and Details Screen are all created. 
+      isCorrect: false
