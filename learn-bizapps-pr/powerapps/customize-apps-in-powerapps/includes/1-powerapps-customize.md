@@ -1,17 +1,19 @@
-In a previous unit, you generated the Flooring Estimates app and started to explore its default design. Apps that Microsoft PowerApps generates are useful out of the box, but you'll often want to customize a generated app to suit your needs.
+In the previous module, you generated the Flooring Estimates app and started to explore its default design. While the default screens make a useful app out of the box, you'll often want to customize a generated app to suit your needs.
 
-In this unit, we'll walk you through some basic changes for each screen in the app. You can do a lot more to customize an app, but the best way to start learning is to take any generated app and make common customizations.
+This unit explains basic changes for each screen in the app. You can do a lot more to customize an app, but the best way to start learning is to take a generated app and make common customizations. This will allow you to become familiar with the controls, layouts, and functions.
 
 ## Browse screen
-We'll start on the browse screen. The app already shows an image and some text for each product, but the layout could be better. Let's work on that.
+The Flooring Estimates app already shows an image and some text for each product, but the layout could be better. 
 
-1. In the **Screens** pane on the left, select **BrowseGallery1**.
+To improve the layout, use the following procedure: 
+
+1. On the Screens pane on the left, select **BrowseGallery1**.
 
     The selection box around the gallery confirms your choice.
 
     ![Select gallery](../media/select-gallery.png)
 
-1. In the right pane, open the **Data** pane by selecting the link next to **Layout**.
+1. On the right pane, open the Data pane by selecting the drop-down menu next to **Layout**.
 
     ![Show layout options](../media/powerapps-layout.png)
 
@@ -25,38 +27,38 @@ We'll start on the browse screen. The app already shows an image and some text f
 
 1. Change **ThisItem.Category** to **ThisItem.Name** in the formula bar.
 
-1. Repeat the previous two steps, but change the other **Label** control to show the price of each item.
+1. Repeat the previous two steps but change the other **Label** control to show the price of each item.
 
     ![Add price](../media/add-price.png)
 
-It's that easy to change the layout of a gallery and the types of data that it shows. And you might find that it's fun too!
+Changing the layout of a gallery and the types of data that it shows is that simple, and you might find that it's fun, too.
 
 ## Details screen
 
-On the details screen, we want to change the order of the fields. The controls on this screen differ from the controls on the browse screen, so the process for changing them is also a little different.
+On the details screen, you want to change the order of the fields. The controls on this screen differ from the controls on the
+browse screen, so the process for changing them is also slightly different.
 
-1. On the **Screens** pane on the left, select **DetailScreen1** > **DetailForm1**.
+1. On the Screens pane on the left, select **DetailScreen1 > DetailForm1**.
 
-1. In the right pane, select the text that shows the number of selected fields.
+1. On the right pane, select **Edit fields**.
 
-    ![Select the text that shows the number of selected fields](../media/powerapps-edit-fields.png)
+    ![Select Edit fields](../media/powerapps-edit-fields.jpg)
 
-1. Drag the **Name** field to the top of the list of fields, and drag the **Image** field to the bottom.
+1. Drag the **Name** field to the top of the list of fields and then drag the **Image** field to the bottom.
 
     ![Move fields on the details screen](../media/powerapps-move-fields.png)
 
 ## Edit/create screen
 
-Finally, on the screen where your user edits and creates entries, we want to make it easier to enter information in a text box.
+On the screen where your users edit and create entries, you want to make it easier for them to enter information in a text box.
 
-1. On the **Screens** pane on the left, select **EditScreen1** > **EditForm1**.
+1. On the Screens pane on the left, select **EditScreen1 > EditForm1**.
 
-1. In the right pane, select the text that shows the number of selected fields.
+1. On the right pane, select **Edit fields**.
 
-1. Select the drop-down arrow for the **Overview** list, and then select **Edit multi-line text**.
+1. Expand **Overview**.  Select the drop-down arrow for the **Control type** and then select **Edit multi-line text**.
 
-    A multi-line edit control will make it easier to add more than a few words in this field.
+    A multi-line edit control will simplify your user's ability to add more than a few words in this field.
 
-    ![Change the edit/create screen fields](../media/powerapps-change-editscreen.png)
 
-You've seen how a few basic steps can do a lot to improve the appearance and experience of using an app. In this unit, we focused on PowerApps Studio, which provides lots of options for customizing apps. In the next unit, we'll explore the controls in the app in greater detail.
+A few basic steps can greatly improve the appearance and experience of using an app, and PowerApps Studio provides many options for customizing those apps.

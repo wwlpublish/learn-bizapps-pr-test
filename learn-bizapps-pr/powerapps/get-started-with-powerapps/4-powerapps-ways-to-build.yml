@@ -4,12 +4,11 @@ title: Ways to build PowerApps
 metadata:
   title: Ways to build PowerApps
   description: Learn the different ways you can build apps in PowerApps.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 05/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-durationInMinutes: 10
+durationInMinutes: 8
 content: |
   [!include[](includes/4-powerapps-ways-to-build.md)]
