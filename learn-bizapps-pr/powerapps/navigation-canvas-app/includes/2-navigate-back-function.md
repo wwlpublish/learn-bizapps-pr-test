@@ -5,14 +5,14 @@ Navigate function
 
 Here's a breakdown of the syntax for the navigation function:
 
-**Navigate**(*Screen*, *Transition* [, *UpdateContextRecord* ] )
+**Navigate**(*Screen*, *Transition* [, *UpdateContextRecord* ] )
 
--   **Screen** - Required. The name of the screen to display.
+-   **Screen** - Required. The name of the screen to display.
 
--   **ScreenTransition** - Required. The visual transition to use
+-   **ScreenTransition** - Required. The visual transition to use
     between the current screen and the next screen. 
 
--   **UpdateContextRecord** - Optional. A record that contains the
+-   **UpdateContextRecord** - Optional. A record that contains the
     name of at least one column and a value for each column. This record
     updates the context variables of the new screen. For more information, see
     [UpdateContext
@@ -46,9 +46,9 @@ Here are some examples using ScreenTransitions.
 
 | **Formula**                     | **Description**                  | **Result**          |
 | :------------------- | :------------------- |:----------------|
-| **Navigate( Details, ScreenTransition.None )**   | Displays the **Details** screen with no transition or change in value for a context variable. | The **Details** screen appears quickly. |
-|  **Navigate( Details, ScreenTransition.Fade )**                  | Displays the **Details** screen with a **Fade** transition. No value of a context variable is changed.                   | The current screen fades away to show the **Details** screen.            |
-|  **Navigate( Details, ScreenTransition.Fade, { ID: 12 } )**                   | Displays the **Details** screen with a **Fade** transition, and updates the value of the **ID** context variable to **12**.                  | The current screen fades away to show the **Details** screen, and the context variable **ID** on the screen is set to **12**.            |
+| **Navigate( Details, ScreenTransition.None )**   | Displays the **Details** screen with no transition or change in value for a context variable. | The **Details** screen appears quickly. |
+|  **Navigate( Details, ScreenTransition.Fade )**                  | Displays the **Details** screen with a **Fade** transition. No value of a context variable is changed.                   | The current screen fades away to show the **Details** screen.            |
+|  **Navigate( Details, ScreenTransition.Fade, { ID: 12 } )**                   | Displays the **Details** screen with a **Fade** transition, and updates the value of the **ID** context variable to **12**.                  | The current screen fades away to show the **Details** screen, and the context variable **ID** on the screen is set to **12**.            |
                                                                                                                                                                
                                             
 The **Back ()** function has an optional argument
