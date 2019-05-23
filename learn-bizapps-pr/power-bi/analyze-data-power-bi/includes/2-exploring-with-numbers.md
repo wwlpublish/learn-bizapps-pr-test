@@ -1,11 +1,11 @@
-Visuals are created by report and dashboard designers and then shared with consumers. As a consumer, you can choose to show, export, and analyze the data that was used to create each visual.
+Visuals are created by report and dashboard designers and then shared with consumers. As a consumer, you can choose to show, export, and analyze the data that was used to create each visual.
 
 
 ## Show data
 
  Power BI visuals are created from data that you can view. When you turn on **Show data**, Power BI displays the data below the visual.
 
-In Power BI, you can open a report and select a visual. To display the data that was used to create the visual, select the navigation's drop-down menu and set **Show data** to **On**.
+In Power BI, you can open a report and select a visual. To display the data that was used to create the visual, select the navigation's drop-down menu and set **Show data** to **On**.
 
 ![Image of the "Show Data" button.](../media/2-2/power-bi-show-data.png)
 
@@ -20,7 +20,7 @@ By default, the data displays below the visual, but you can move it to the side.
 
 Occasionally, you might want to use Excel to view and interact with Power BI data. With the **Analyze in Excel** feature, you can do just that. This option also allows you to access PivotTable, chart, and slicer features in Excel based on the dataset that exists in Power BI.
 
-When you select Analyze in Excel from the ellipsis menu (...) that is associated with a report, Power BI creates an Office Data Connection (.ODC) file and downloads it from the browser to your computer.
+When you select Analyze in Excel from the ellipsis menu (...) that is associated with a report, Power BI creates an Office Data Connection (.ODC) file and downloads it from the browser to your computer.
 
 ![Image of the "Analyze in Excel" button.](../media/2-2/power-bi-analyze-excel7.png)
 
@@ -30,7 +30,7 @@ When you select Analyze in Excel from the ellipsis menu (...) that is associat
 
 ## Analyze data in Excel
 
-When you open the file in Excel, an empty **PivotTable** and **Fields** list appears with the tables, fields, and measures from the Power BI dataset. You can create PivotTables and charts, and analyze that dataset just as you would with a local dataset in Excel.
+When you open the file in Excel, an empty **PivotTable** and **Fields** list appears with the tables, fields, and measures from the Power BI dataset. You can create PivotTables and charts, and analyze that dataset just as you would with a local dataset in Excel.
 
 
 > [!NOTE]
