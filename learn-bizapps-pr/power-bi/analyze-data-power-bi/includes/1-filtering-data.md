@@ -5,7 +5,7 @@ Data is the core of Power BI. As you explore reports, each visual draws its unde
 > Filtering only applies to reports, not to dashboards.
 
 
-![Animated image showing that changing filters doen't affect the source data.](../media/2-1/power-bi-filter-intro.gif)
+![Animated image showing that changing filters doesn't affect the source data.](../media/2-1/power-bi-filter-intro.gif)
 
 
 > [!Note] 
