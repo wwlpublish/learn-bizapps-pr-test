@@ -48,7 +48,7 @@ Here are some examples using ScreenTransitions.
 | :------------------- | :------------------- |:----------------|
 | **Navigate( Details, ScreenTransition.None )**   | Displays the **Details** screen with no transition or change in value for a context variable. | The **Details** screen appears quickly. |
 |  **Navigate( Details, ScreenTransition.Fade )**                  | Displays the **Details** screen with a **Fade** transition. No value of a context variable is changed.                   | The current screen fades away to show the **Details** screen.            |
-|  **Navigate( Details, ScreenTransition.Fade, { ID: 12 } )**                   | Displays the **Details** screen with a **Fade** transition, and updates the value of the **ID** context variable to **12**.                  | The current screen fades away to show the **Details** screen, and the context variable **ID** on the screen is set to **12**.            |
+|  **Navigate( Details, ScreenTransition.Fade, { ID: 12 } )**                   | Displays the **Details** screen with a **Fade** transition, and updates the value of the **ID** context variable to **12**.                  | The current screen fades away to show the **Details** screen, and the context variable **ID** on the screen is set to **12**.            |
                                                                                                                                                                
                                             
 The **Back ()** function has an optional argument
