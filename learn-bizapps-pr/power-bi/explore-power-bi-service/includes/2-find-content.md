@@ -6,7 +6,7 @@ When you sign in, Power BI opens and displays your Home canvas, as shown in the 
 
 ![Home canvas](../media/1-2/power-bi-home2.png)
 
-Power BI Home offers three ways of locating and viewing your content. Though all three accesses the same pool of content, they’re merely different ways of getting to that content. Occasionally, searching will be the easiest and quickest way to find something, while other times, selecting a tile on the Home canvas will be your best option.
+Power BI Home offers three ways of locating and viewing your content. Though all three accesses the same pool of content, they’re merely different ways of getting to that content. Occasionally, searching will be the easiest and quickest way to find something. Other times, selecting a tile on the Home canvas will be your best option.
 
 1.  The Home canvas displays and organizes your favorite and most recent content, along with recommended content and learning resources. Each piece of content displays as a tile, with a title and icon. Selecting a tile opens that content.
 
@@ -14,7 +14,7 @@ Power BI Home offers three ways of locating and viewing your content. Though all
 
 3.  In the upper right corner, the global search box lets you search for content by title, name, or keyword.
 
-The following topics review each of these options for finding and viewing content.
+The following sections review each of these options for finding and viewing content.
 
 ### Home canvas
 
@@ -28,7 +28,7 @@ As you work in Power BI, you’ll receive dashboards, reports, and apps from col
 
 ![Home canvas with lots of content](../media/1-2/power-bi-home-page.png)
 
-The next few topics take a closer look at the Home anvas, from top to bottom.
+The next few sections take a closer look at the Home canvas, from top to bottom.
 
 #### Key metrics at a glance
 
@@ -40,7 +40,7 @@ As previously mentioned, on your Home canvas, you can view all the content that 
 
 #### Favorites and frequents
 
-This top section contains links to the content that you visit most often or that you’ve tagged as a *favorite*. Notice that two tiles have yellow stars; that app and that report have been tagged as favorites.
+This top section contains links to the content you visit most often or that you’ve tagged as a *favorite*. Notice that two tiles have yellow stars meaning they have been tagged as favorites.
 
 ![Favorite content on Home](../media/1-2/power-bi-home-favs.png)
 
@@ -64,7 +64,7 @@ Colleagues share apps with you, and they also share individual dashboards and re
 
 #### Learning resources
 
-At the bottom of the Home canvas is a set of learning resources. The exact resources that appear depend on your activity and settings. 
+At the bottom of the Home canvas, is a set of learning resources. The exact resources that appear depend on your activity and settings. 
 
 ![Power BI Home learning resources](../media/1-2/power-bi-home-resources.png)
 
@@ -87,8 +87,8 @@ The navigation pane is another way for you to find the content you want, quickly
 
 ### Search all of your content
 
-Sometimes, the fastest way to find your content is to search for it. For example, perhaps you’ve discovered that a dashboard you haven’t used in a while isn’t showing up on your Home canvas. Or, perhaps you remember that your colleague, Aaron, shared it with you, but you don’t remember what he called it or what type of content he shared, whether it was a dashboard or a report.
+Sometimes, the fastest way to find your content is to search for it. Perhaps you’ve discovered a dashboard you haven’t used in a while isn’t showing up on your Home canvas. You remember that your colleague, Aaron, shared it with you but you don’t remember what he called it or whether it was a report or a dashboard.
 
 ![Global search](../media/1-2/power-bi-search.png)
 
-You can enter the full or partial name of that dashboard and search for it. Additionally, you can enter your colleague’s name and search for content that he has shared with you. The search is scoped to look for matches in all the content that you own or have access to.
+You can enter the full or partial name of that dashboard and search for it. Additionally, you can enter your colleague’s name and search for content that they've shared with you. The search is scoped to look for matches in all the content that you own or have access to.
