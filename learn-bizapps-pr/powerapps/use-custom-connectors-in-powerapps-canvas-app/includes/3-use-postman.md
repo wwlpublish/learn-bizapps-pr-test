@@ -168,7 +168,7 @@ wizard. You need to import the Postman collection for PowerApps and Microsoft Fl
 1.  Go to
     [powerapps.com](https://powerapps.microsoft.com/)
     or
-    [flow.microsoft.com](https://flow.microsoft.com/) and log in.
+    [flow.microsoft.com](https://flow.microsoft.com/) and sign in.
 
 2.  In the upper-right corner, select the gear icon and then select
     **Custom connectors**.
@@ -335,7 +335,7 @@ Next you will change a few things so the connector is more user-friendly when so
 | Is required     | "Yes" |
 
 6.  In the **Parameter** area, choose **text** then **Edit**, and repeat
-    the process you used for id and language, with the following values.
+    the process you used for ID and language, with the following values.
 
 | **Parameter**   | **Value** |
 | :---------------| :--------------------------------------|
