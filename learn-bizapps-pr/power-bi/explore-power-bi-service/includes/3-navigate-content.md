@@ -99,7 +99,7 @@ The Filters pane shows the filters that are applied to the current report, repor
 
 ![closeup on Filters pane with visual selected](../media/1-3/power-bi-visual-filters.png)
 
-If the filter has the word. All next to it, that means every value in the field is included in the filter. On this page, all segments are included, and in the column chart, all months are included. The Filters on the page **Year is 2014** tells us that this report page only includes data for the year 2014.
+If the filter has the word All next to it, that means every value in the field is included in the filter. On this page, all segments are included, and in the column chart, all months are included. The Filters on the page **Year is 2014** tell us that this report page only includes data for the year 2014.
 
 ### Enlarge a dashboard tile or report visual
 Occasionally, you'll have a dashboard or report that is a little crowded. You can use **Focus mode** to zoom in on one visual. Hover over the visual to reveal the action menu and then select **Open in focus mode** or the focus icon ![Focus icon](../media/1-3/power-bi-focus-icon.png). 
