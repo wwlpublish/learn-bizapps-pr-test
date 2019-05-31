@@ -30,13 +30,13 @@ The four types of filters are:
 -   **Drillthrough** – Allows you to explore successively more detailed views within a single visual.
 
 
-![Alt text](../media/2-1/power-bi-filter-types.png)
+![Image of the different types of filters](../media/2-1/power-bi-filter-types.png)
 
 
 For example, in the following screenshot, the designer added three page-level filters: **Segment**, **Year**, and **Region**. Notice that **Year** is currently set to filter to the year 2014. 
 
 
-![Alt text](../media/2-1/power-bi-filter-pane.png)
+![Image of the Power BI filter pane](../media/2-1/power-bi-filter-pane.png)
 
 
 You can apply filters on the **Filters** pane, or you can select data directly in the report to narrow by date, category, geography, and so on. 
@@ -64,12 +64,12 @@ Selecting check boxes to apply simple filters is effective, but sometimes you ne
 
 If the values are continuous (not discrete) or represent a range, you can select the field name to open the advanced filter mode. Use the drop-down menu and text boxes to specify a range of values that you want to see.
 
-![Alt text](../media/2-1/power-bi-12-filter-range.png)
+![Image showing example of filtering on a range](../media/2-1/power-bi-12-filter-range.png)
 
 
 If the field values represent date or time, you can specify a start and end time when using the Date and Time filters.
 
-![Alt text](../media/2-1/power-bi-13-filter-date.png)
+![Image of filtering on a date](../media/2-1/power-bi-13-filter-date.png)
 
 ### Change how a chart is sorted in a report
 
@@ -110,7 +110,7 @@ Using bookmarks in Power BI helps you capture the currently configured view of a
 
 To see report bookmarks in action, go to any Power BI report to which you have view or edit access and select the **Bookmarks** drop-down menu on the action bar.
 
-![Alt text](../media/2-1/power-bi-14-bookmark-bar.png)
+![Image of the Power BI bookmark bar](../media/2-1/power-bi-14-bookmark-bar.png)
 
 ### Create bookmarks
 
