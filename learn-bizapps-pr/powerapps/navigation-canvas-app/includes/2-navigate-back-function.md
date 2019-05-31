@@ -58,7 +58,7 @@ Here's a more detailed example using these functions with multiple
 controls in a common real-world scenario. In many of the apps that you
 develop, certain screens may have multiple controls allowing users to
 navigate to different screens depending on the control they select. In
-the following example, you will create a simple three screen app to
+the following example, you will create a three screen app to
 demonstrate the **Navigate** and **Back()** functionality.
 
 1.  In PowerApps Studio, create 3 blank screens.
@@ -66,7 +66,7 @@ demonstrate the **Navigate** and **Back()** functionality.
 2.  On Screen1, add a **Button** control and change the **Text**
     property to **Next**.
 
-3.  On Screen2, add 2 **Button** controls and change the **Text** of one
+3.  On Screen2, add two **Button** controls and change the **Text** of one
     button to **Next** and the other button control to **Back**.
 
 4.  On Screen3, add a **Button** control and change the **Text**
