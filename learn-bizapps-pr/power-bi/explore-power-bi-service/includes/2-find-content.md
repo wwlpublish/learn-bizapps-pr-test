@@ -64,7 +64,7 @@ Colleagues share apps with you, and they also share individual dashboards and re
 
 #### Learning resources
 
-At the bottom of the Home canvas, is a set of learning resources. The exact resources that appear depend on your activity and settings. 
+At the bottom of the Home canvas is a set of learning resources. The exact resources that appear depend on your activity and settings. 
 
 ![Power BI Home learning resources](../media/1-2/power-bi-home-resources.png)
 
