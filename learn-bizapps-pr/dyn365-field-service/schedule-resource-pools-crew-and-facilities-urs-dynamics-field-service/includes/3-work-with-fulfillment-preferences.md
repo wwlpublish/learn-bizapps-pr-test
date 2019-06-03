@@ -85,4 +85,4 @@ A traditional brick-and-mortar business offers appointments every 90 minutes, so
 -   Reset Interval per Time Group Detail = No, the appointments would be: 8:00 AM, 9:30 AM, 11:00 AM (not 12:30 PM because this is blocked for lunch), 2:00 PM, and 3:30 PM.
 -   Reset Interval per Time Group Detail = Yes, the appointments would be: 8:00 AM, 9:30 AM, 11:00 AM, (not 12:30 PM because this is blocked for lunch), 1:00 PM (resetting for the next time group detail), 2:30 PM, and 4:00 PM.
 
-For additional information on fulfillment preferences see [Fulfillment preferences](https:/docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/fulfillment-preferences).
+For additional information on fulfillment preferences see [Fulfillment preferences](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/fulfillment-preferences).
