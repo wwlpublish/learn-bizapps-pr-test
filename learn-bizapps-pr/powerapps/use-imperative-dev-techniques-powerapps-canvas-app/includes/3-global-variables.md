@@ -58,8 +58,7 @@ With a declarative mindset, you would set the Visible property for the
 warning icon to the following.
 
 ```
-CountRows(Filter(InvoiceEntity, CustomerNumber = ThisCustomersNumber
-> And Status = "Outstanding")) > 3
+CountRows(Filter(InvoiceEntity, CustomerNumber = ThisCustomersNumber And Status = "Outstanding")) > 3
 ```
 
 If that is true, then the icon displays, and if it is false the icon does not
@@ -78,8 +77,7 @@ To do this, configure the **OnVisible** property of the screen to set
 the variable.
 
 ```
-Set(varOustandingExceeded, CountRows(Filter(InvoiceEntity,
-> CustomerNumber = ThisCustomersNumber And Status = "Outstanding")) > 3)
+Set(varOustandingExceeded, CountRows(Filter(InvoiceEntity, CustomerNumber = ThisCustomersNumber And Status = "Outstanding")) > 3)
 ```
 
 The variable **varOutstandingExceeded** is either true or false based on
