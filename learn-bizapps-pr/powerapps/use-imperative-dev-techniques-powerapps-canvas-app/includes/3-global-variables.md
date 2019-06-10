@@ -38,7 +38,7 @@ Now for your Label control, you would change the formula to the following.
 "Welcome " & varUserDisplayName
 ```
 
-This gets you the same output as the previous formula, but instead of
+This formula gets you the same output as the previous formula, but instead of
 having to go back to Azure AD on every screen, PowerApps can reference the
 value stored in the variable.
 
@@ -48,7 +48,7 @@ Tracking status in a variable
 In a declarative mindset, you might hide or show controls based on a
 query for data. For example, if you had an app for managing customer's
 orders, you might have a warning icon that displays only if the customer
-has more than 3 outstanding invoices. In addition to the warning, you
+has more than three outstanding invoices. In addition to the warning, you
 might have a requirement to get approval from a manager if the customer
 would like to submit a new order when they have more than three
 outstanding invoices. This approval workflow will start by the user
@@ -58,7 +58,8 @@ With a declarative mindset, you would set the Visible property for the
 warning icon to the following.
 
 ```
-CountRows(Filter(InvoiceEntity, CustomerNumber = ThisCustomersNumber And Status = "Outstanding")) > 3
+CountRows(Filter(InvoiceEntity, CustomerNumber = ThisCustomersNumber 
+And Status = "Outstanding")) > 3
 ```
 
 If that is true, then the icon displays, and if it is false the icon does not
@@ -77,7 +78,8 @@ To do this, configure the **OnVisible** property of the screen to set
 the variable.
 
 ```
-Set(varOustandingExceeded, CountRows(Filter(InvoiceEntity, CustomerNumber = ThisCustomersNumber And Status = "Outstanding")) > 3)
+Set(varOustandingExceeded, CountRows(Filter(InvoiceEntity, CustomerNumber = 
+ThisCustomersNumber And Status = "Outstanding")) > 3)
 ```
 
 The variable **varOutstandingExceeded** is either true or false based on
