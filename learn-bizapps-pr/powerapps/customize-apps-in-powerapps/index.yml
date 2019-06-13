@@ -22,7 +22,6 @@ abstract: |
   - Explore formulas in a generated app.
 prerequisites: Basic experience with developing canvas apps
 iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
-ratingEnabled: true
 levels:  
 - beginner 
 roles:  

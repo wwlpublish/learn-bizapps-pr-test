@@ -21,7 +21,6 @@ prerequisites: |
     - Signed up for Microsoft Flow
 #TODO: Add links to these.
 iconUrl: /learn/achievements/administer-flows.svg
-ratingEnabled: true
 levels:  
 - beginner 
 roles:  
