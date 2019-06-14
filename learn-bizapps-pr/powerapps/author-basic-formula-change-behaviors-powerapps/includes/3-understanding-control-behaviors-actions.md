@@ -38,15 +38,15 @@ in the **OnSelect** property of the **Button** control.
     functions.
 
 -   Update a [context
-    variable](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/working-with-variables#create-a-context-variable) -
-    [**UpdateContext**](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/function-updatecontext)
+    variable](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-variables#create-a-context-variable) -
+    [**UpdateContext**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext)
     function.
 
 -   Create, update, or remove items in a
-    [collection](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/working-with-data-sources#collections) -
-    [**Collect**](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect),
-    [**Clear**](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect),
-    [**ClearCollect**](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect)
+    [collection](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-data-sources#collections) -
+    [**Collect**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect),
+    [**Clear**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect),
+    [**ClearCollect**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-clear-collect-clearcollect)
     functions.
 
 A very simple but popular example of using the **Button** control is
