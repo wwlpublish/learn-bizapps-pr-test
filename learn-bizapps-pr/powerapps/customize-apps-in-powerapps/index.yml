@@ -25,7 +25,8 @@ iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - powerapps
