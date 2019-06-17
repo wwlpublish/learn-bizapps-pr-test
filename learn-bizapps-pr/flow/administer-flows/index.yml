@@ -24,7 +24,8 @@ iconUrl: /learn/achievements/administer-flows.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - flow

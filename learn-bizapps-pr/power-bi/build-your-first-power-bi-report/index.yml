@@ -23,6 +23,7 @@ levels:
 roles:
 - business-user
 - business-analyst
+- functional-consultant
 products:
 - power-platform
 - power-bi
