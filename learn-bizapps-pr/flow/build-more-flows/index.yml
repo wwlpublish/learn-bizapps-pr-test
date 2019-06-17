@@ -18,7 +18,8 @@ iconUrl: /learn/achievements/build-more-flows.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - flow
