@@ -1,13 +1,13 @@
-﻿### YamlMime:Module 
+### YamlMime:Module 
 uid: learn-bizapps.get-started-set-up-and-manage
 metadata: 
- title: Set up and manage Dynamics 365 for Marketing
- description: Turn prospects into business relationships using Microsoft Dynamics 365 for Marketing. Move beyond basic email marketing to identify and develop more sales-ready leads. Easily connect sales and marketing, automate processes, and make smarter decisions to maximize your marketing return on investment. 
- ms.date: 1/23/2019  
- author: davebeasley  
- ms.author: dbeasley  
- ms.topic: interactive-tutorial  
- ms.prod: learning-d365  
+  title: Set up and manage Dynamics 365 for Marketing
+  description: Turn prospects into business relationships using Microsoft Dynamics 365 for Marketing. Move beyond basic email marketing to identify and develop more sales-ready leads. Easily connect sales and marketing, automate processes, and make smarter decisions to maximize your marketing return on investment. 
+  ms.date: 1/23/2019  
+  author: davebeasley  
+  ms.author: dbeasley  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-d365  
 title: Set up and manage Dynamics 365 for Marketing 
 summary: Turn prospects into business relationships using Microsoft Dynamics 365 for Marketing. Move beyond basic email marketing to identify and develop more sales-ready leads. Easily connect sales and marketing, automate processes, and make smarter decisions to maximize your marketing return on investment. 
 abstract: |

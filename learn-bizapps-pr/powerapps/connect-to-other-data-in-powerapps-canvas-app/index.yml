@@ -1,13 +1,13 @@
 ### YamlMime:Module 
 uid: learn-bizapps.connect-other-data 
 metadata: 
- title: Connecting to other data in a PowerApps canvas app
- description: Do you need to connect to data that is not tabular? This module will help with that. It includes discussion of action-based connectors, Flow, and user data.
- ms.date: 04/9/2019  
- author: kschimke  
- ms.author: kschimke  
- ms.topic: interactive-tutorial  
- ms.prod: learning-power-platform  
+  title: Connecting to other data in a PowerApps canvas app
+  description: Do you need to connect to data that is not tabular? This module will help with that. It includes discussion of action-based connectors, Flow, and user data.
+  ms.date: 04/9/2019  
+  author: KevSch
+  ms.author: kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-power-platform  
 title: Connecting to other data in a PowerApps canvas app
 summary: Do you need to connect to data that is not tabular? This module will help with that. It includes discussion of action-based connectors, Flow, and user data. 
 abstract: |  
