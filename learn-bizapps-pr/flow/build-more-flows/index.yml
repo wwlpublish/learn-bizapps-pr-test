@@ -15,11 +15,11 @@ summary: Microsoft Flow is an online workflow service that automates actions acr
 abstract: Build more advanced flows to get notifications, copy files between online services, posts tweets, convert and store documents, and more. 
 prerequisites: You must have signed up for Microsoft Flow, and have a OneDrive for Business account.
 iconUrl: /learn/achievements/build-more-flows.svg
-ratingEnabled: true
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - flow

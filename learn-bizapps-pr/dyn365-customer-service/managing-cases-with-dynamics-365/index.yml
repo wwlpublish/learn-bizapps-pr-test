@@ -20,7 +20,6 @@ abstract: |
     - Work with case status reason transitions, and configure custom status transitions
 prerequisites: The target audience should have a basic understanding of how to move around in the Dynamics 365 application and a working knowledge of the core records that are available.  
 iconUrl: /learn/achievements/get-started-with-cases-for-dynamics-365-customer-service.svg
-ratingEnabled: true
 levels: 
 - intermediate
 roles: 

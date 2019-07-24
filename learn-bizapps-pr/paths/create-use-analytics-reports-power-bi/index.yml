@@ -19,6 +19,7 @@ levels:
 - beginner
 roles:
 - business-user
+- functional-consultant
 products:
 - power-platform
 - power-bi

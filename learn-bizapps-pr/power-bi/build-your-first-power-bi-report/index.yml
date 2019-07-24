@@ -18,12 +18,12 @@ abstract: |
     - Share Power BI reports
 prerequisites: None
 iconUrl: /learn/achievements/build-your-first-power-bi-report.svg
-ratingEnabled: true
 levels:
 - beginner
 roles:
 - business-user
 - business-analyst
+- functional-consultant
 products:
 - power-platform
 - power-bi
