@@ -5,7 +5,7 @@ metadata:
   title: Configure entities for queues
   description: Queues can be used to enhance and streamline sales-related activities, or to provide better and faster processing of inspections, paperwork, or applications. Out of the box, queues are preconfigured only for cases and activities. They provide tremendous value for specific business scenarios in Microsoft Dynamics 365.      
   ms.date: 02/02/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365

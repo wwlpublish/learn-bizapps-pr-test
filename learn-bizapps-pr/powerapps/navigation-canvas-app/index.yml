@@ -1,13 +1,13 @@
 ### YamlMime:Module 
 uid: learn-bizapps.navigation-canvas-app 
 metadata: 
- title: Navigation in a canvas app in PowerApps
- description: App users can only navigate through the navigation options provided by an app developer, and this module is designed to help you build a good navigation experience for your canvas app.
- ms.date: 03/29/2019  
- author: kschimke  
- ms.author: kschimke  
- ms.topic: interactive-tutorial  
- ms.prod: learning-powerapps  
+  title: Navigation in a canvas app in PowerApps
+  description: App users can only navigate through the navigation options provided by an app developer, and this module is designed to help you build a good navigation experience for your canvas app.
+  ms.date: 03/29/2019  
+  author: KevSch
+  ms.author: kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-powerapps  
 title: Navigation in a canvas app in PowerApps 
 summary: App users can only navigate through the navigation options provided by an app developer, and this module is designed to help you build a good navigation experience for your canvas app. 
 abstract: |  

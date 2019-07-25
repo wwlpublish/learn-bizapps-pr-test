@@ -1,13 +1,13 @@
 ### YamlMime:Module 
 uid: learn-bizapps.perform-custom-updates 
 metadata: 
- title: Perform custom updates in a PowerApps canvas app
- description: With some PowerApps canvas apps, a form is not the solution.  This module will focus on how to perform custom updates when your data is not in a form.
- ms.date: 04/12/2019  
- author: kschimke  
- ms.author: kschimke  
- ms.topic: interactive-tutorial  
- ms.prod: learning-powerapps  
+  title: Perform custom updates in a PowerApps canvas app
+  description: With some PowerApps canvas apps, a form is not the solution.  This module will focus on how to perform custom updates when your data is not in a form.
+  ms.date: 04/12/2019  
+  author: KevSch
+  ms.author: kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-powerapps  
 title: Perform custom updates in a PowerApps canvas app 
 summary: With some PowerApps canvas apps a form is not the solution.  This module will focus on how to perform custom updates when your data is not in a form. 
 abstract: |  

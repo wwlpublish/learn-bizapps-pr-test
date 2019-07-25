@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.use-documentation.05-knowledge-check 
 metadata: 
- title: Document and test your PowerApps application check your knowledge
- description: This quiz tests your knowledge of documentation and testing.
- ms.date: 02/14/2019 
- author: kevsch 
- ms.author: kevsch 
- ms.topic: interactive-tutorial 
- ms.prod: learning-d365 
- ROBOTS: NOINDEX 
+  title: Document and test your PowerApps application check your knowledge
+  description: This quiz tests your knowledge of documentation and testing.
+  ms.date: 02/14/2019 
+  author: kevsch 
+  ms.author: Kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 

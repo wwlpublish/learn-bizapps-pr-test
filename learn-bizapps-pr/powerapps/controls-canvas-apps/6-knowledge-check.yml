@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.controls-canvas-apps.6-knowledge-check 
 metadata: 
- title: Use and understand controls in a canvas app in PowerApps knowledge check
- description: Use and understand controls in a canvas app in PowerApps knowledge check
- ms.date: 03/29/2019 
- author: kschimke 
- ms.author: kschimke 
- ms.topic: interactive-tutorial 
- ms.prod: learning-d365 
- ROBOTS: NOINDEX 
+  title: Use and understand controls in a canvas app in PowerApps knowledge check
+  description: Use and understand controls in a canvas app in PowerApps knowledge check
+  ms.date: 03/29/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
