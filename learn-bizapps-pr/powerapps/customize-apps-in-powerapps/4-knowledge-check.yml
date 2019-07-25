@@ -2,51 +2,56 @@
 uid: learn-bizapps.powerapps-customize.4-quiz-customize-an-app
 title: Check your knowledge
 metadata:
-  title: "Knowledge check: Customize an app"
-  description: This knowledge check tests your knowledge of how to customize an app.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  title: Check your knowledge
+  description: Answer the following questions to see what you've learned.
+  ms.date: 5/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-durationInMinutes: 5
+durationInMinutes: 6
 quiz:
-  title: "Knowledge check: Customize an app"
+  title: Answer the following questions to see what you've learned.
   questions:
-  - content: In PowerApps, where do you customize an app?
+  - content: How do you specify what happens when a user selects a button or control?
     choices: 
-    - content: web.powerapps.com 
+    - content: Use the click wizard 
+      explanation: You can set the OnSelect property to the formula that you want to run.
       isCorrect: false
-      explanation: Web.powerapps.com is where you can view all your apps. It isn't where you customize them.
-    - content: PowerApps Studio
-      explanation: PowerApps Studio is where you customize your apps.
+    - content: Set the OnSelect property to the formula that you want to run.
+      explanation: You can set the OnSelect property to the formula that you want to run.
       isCorrect: true
-    - content: Microsoft SharePoint
-      explanation: SharePoint can be a data source for apps, but you don't customize apps there.
+    - content: Set the OnClick property to the formula that you want to run.
+      explanation: You can set the OnSelect property to the formula that you want to run.
       isCorrect: false
-    - content: Microsoft AppSource
-      explanation: You install apps from Microsoft AppSource, but you customize them in PowerApps Studio.
+    - content: PowerApps cannot run formulas based on user selections.
+      explanation: You can set the OnSelect property to the formula that you want to run.
       isCorrect: false
-  - content: Which of the following isn't a screen in apps that PowerApps generates?
+  - content: When you create an app from data, which of the following best describes your ability to customize?
     choices:
-    - content: Browse screen
-      explanation: The browse screen opens by default in apps that PowerApps generates.
+    - content: The app is read only.
+      explanation: All aspects of the app including screens, layouts, and formulas can be modified.
       isCorrect: false
-    - content: Edit/create screen
-      explanation: When PowerApps generates an app, it contains browse, details, and edit/create screens.
+    - content: You can modify the formulas but not the screens or layouts.
+      explanation: All aspects of the app including screens, layouts, and formulas can be modified.
       isCorrect: false
-    - content: Preview pane
-      explanation: Although the Run button does start your app so that you can preview it, the Preview pane isn't a main screen.
+    - content: You can modify all aspects of the app including screens, layouts, and formulas.
+      explanation: All aspects of the app including screens, layouts, and formulas can be modified.
       isCorrect: true
-  - content: Which screen opens by default in apps that PowerApps generates?
+    - content:	You can modify the layout of the app, but you cannot customize the functionality.
+      explanation: All aspects of the app including screens, layouts, and formulas can be modified.
+      isCorrect: false 
+  - content: What is the purpose of the Gallery control?
     choices:
-    - content: Preview pane
-      explanation: The Run button does start your app so that you can preview it, but the Preview pane isn't a main screen.
+    - content: To edit a single record
+      explanation: The purpose of the Gallery control is to display and select all records from a data source.
       isCorrect: false
-    - content: Details screen
-      explanation: The browse screen is the first screen. A details screen typically opens when a specific item is selected on the browse screen.
+    - content: To display a single record
+      explanation: The purpose of the Gallery control is to display and select all records from a data source.
       isCorrect: false
-    - content: Browse screen
-      explanation: When PowerApps apps start, the browse screen is always the first screen.
+    - content: To display and select all records from the data source
+      explanation: The purpose of the Gallery control is to display and select all records from a data source.
       isCorrect: true
+    - content: To show images that might or might not be related to your app
+      explanation: The purpose of the Gallery control is to display and select all records from a data source.
+      isCorrect: false

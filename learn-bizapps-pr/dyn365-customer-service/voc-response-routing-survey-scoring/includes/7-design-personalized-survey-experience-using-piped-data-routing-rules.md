@@ -1,7 +1,6 @@
 Exercise: Design a personalized survey experience
 
-The labs and exercises in this module work best when you have some sample data to work with. Depending on if the environment you are working with, you may want to install some sample data to assist with exercises. Dynamics 365 does provide the ability to add sample data as needed. If the environment you are working in does not have any sample
-data installed, follow the steps below to install the sample data into your environment.
+The labs and exercises in this module work best when you have some sample data to work with. Depending on if the environment you are working with, you may want to install some sample data to assist with exercises. Dynamics 365 does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow the steps below to install the sample data into your environment. Please see, [Voice of Customer Install](https://docs.microsoft.com/dynamics365/customer-engagement/voice-of-customer/install-solution) for more information on installing Voice of the Customer. You will need administrator rights to access the Power Platform admin portal.
 
 ## Enable Sample Data Detailed Steps
 
@@ -14,7 +13,6 @@ data installed, follow the steps below to install the sample data into your envi
 #### Learning Objectives
 
 At the end of these exercises, you will be able to accomplish the following:
--   Deploy the Voice of the Customer Solution
 -   Add Survey Collateral
 -   Create Surveys
 -   Add Survey Questions
@@ -27,30 +25,12 @@ Estimated time to complete this lab: 30 to 45 minutes
 You work for a company that provides help desk support for its customers. They have been concerned lately that customer satisfaction is not as high as it once was. They would like to leverage Dynamics 365's Voice of the Customer Solution to track customer satisfaction. You have been asked to deploy the solution.
 
 ## High Level Steps:
--   Deploy the Voice of the Customer Solution
 -   Add an Image to use with the Survey
 -   Create a Survey Theme
 -   Create a Customer Satisfaction Survey
 -   Configure Response Routing
 
 ### Detailed Steps
-
-#### Deploy the Voice of the Customer Solution
-
-1.  Sign into your **Power Platform Admin Center**: <https://admin.powerplatform.microsoft.com>
-2.  In the admin center site map, expand **admin centers**.
-3.  Select **Dynamics 365**.
-4.  In the Dynamics 365 Administration Center, click **APPLICATIONS**.
-5.  Select the **Voice of the Customer** application and click **Manage**.
-6.  Using the **drop-down box**, select the instance you want to deploy Voice of the Customer to.
-7.  Accept the Dynamics 365 License agreement.
-8.  Click the **Install** button. It can take 10 - 15 minutes for the solution install to complete.
-9.  Close the **Setup Voice of the Customer** Tab.
-10. In the Dynamics 365 Admin Center, click **INSTANCES**.
-11. Locate and select the instance you installed the Voice of the Customer Solution to.
-12. Click **Solutions**.
-13. Locate the Voice of the Customer Solution.
-14. Refresh your browser until the status shows installed.
 
 #### Add Images and a Custom Theme
 

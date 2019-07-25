@@ -1,9 +1,9 @@
-### YamlMime:LearningPath
+﻿### YamlMime:LearningPath
 uid: learn-bizapps.automate-process-using-flow
 metadata:
   title: Automate a business process using Microsoft Flow
   description: This learning path introduces you to Microsoft Flow, teaches you how to build workflows, and how to administer flows. 
-  ms.date: 1/09/2019
+  ms.date:  02/03/2019
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
@@ -19,6 +19,7 @@ levels:
 - beginner
 roles:
 - business-user
+- functional-consultant
 products:
 - power-platform
 - flow

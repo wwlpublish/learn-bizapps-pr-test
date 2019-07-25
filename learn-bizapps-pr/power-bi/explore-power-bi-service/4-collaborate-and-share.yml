@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-service.4-collaborate-and-share 
+title: Collaborate and share in Power BI
+metadata: 
+  title:  Collaborate and share in Power BI
+  description: Collaborate and share in Power BI 
+  ms.date: 04/26/2019 
+  author: robde 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 15 
+content: | 
+ [!include[](includes/4-collaborate-and-share.md)] 

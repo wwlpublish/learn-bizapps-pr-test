@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.work-with-relational-data.4-knowledge-check 
+metadata: 
+ title: Work with relational data in a PowerApps canvas app knowledge check
+ description: Work with relational data in a PowerApps canvas app knowledge check
+ ms.date: 04/9/2019 
+ author: kschimke 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-platform 
+ ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 6 
+quiz: 
+  title: Work with relational data in a PowerApps canvas app knowledge check
+  questions: 
+  - content: Commonly used functions in PowerApps to connect related data sources not in Common Data Service for apps are?
+    choices: 
+    - content: Parent and Child
+      isCorrect: false
+      explanation: Filter and LookUp are functions to connect related data sources. 
+    - content: Relate and LookUp
+      isCorrect: false 
+      explanation: Filter and LookUp are functions to connect related data sources.  
+    - content: Filter and Search
+      isCorrect: false 
+      explanation: Filter and LookUp are functions to connect related data sources.  
+    - content: Filter and LookUp
+      isCorrect: true
+      explanation: Filter and LookUp are functions to connect related data sources.  
+  - content: What is important to remember when using a LookUp function to query for additional information?
+    choices: 
+    - content: Each LookUp function creates a new connection to the data source, which you should evaluate to avoid performance concerns. 
+      isCorrect: true 
+      explanation: The LookUp function creates a new connection to the data source. 
+    - content: LookUp automatically caches data calls to reduce round trips.
+      isCorrect: false 
+      explanation: The LookUp function creates a new connection to the data source.  
+    - content: LookUp is not used to query additional information.
+      isCorrect: false 
+      explanation: The LookUp function creates a new connection to the data source.  
+    - content: LookUp only works after configuring the Filter settings.
+      isCorrect: false 
+      explanation: The LookUp function creates a new connection to the data source.  
+  - content: Common Data Service has built-in relationship functionality, to take advantage of it you need to do which of the following?
+    choices: 
+    - content: Nothing, Common Data Service automatically determines your data relationships.
+      isCorrect: false
+      explanation: You should create the relationship for the entity in PowerApps Studio. 
+    - content: Common Data Service isn't used for relational data.
+      isCorrect: false 
+      explanation: You should create the relationship for the entity in PowerApps Studio. 
+    - content: Create the relationship for the entity in the Data section of PowerApps Studio.
+      isCorrect: true
+      explanation: You should create the relationship for the entity in PowerApps Studio. 
+    - content: Create the relationship at the tenant level for the Power Platform.
+      isCorrect: false 
+      explanation: You should create the relationship for the entity in PowerApps Studio. 

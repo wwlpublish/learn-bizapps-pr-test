@@ -4,10 +4,9 @@ title: Manage app versions in PowerApps
 metadata:
   title: Manage app versions in PowerApps
   description: Learn how to review and restore previous versions of your apps in PowerApps.
-  ms.date: 09/24/2018
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 5/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 5

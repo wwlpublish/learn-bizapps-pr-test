@@ -62,6 +62,6 @@ Because so many avenues are available for customer interaction, organizations ar
 > Out of the box, Dynamics 365 includes the *Phone*, *Email*, *Web*, *Facebook*, and *Twitter* channels, as shown in the previous image. But because most organizations have different channel needs, more channels can be added.
 
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2IQYA]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2IQYA]
 
 For more about case creation, see [Create and manage a case](https://docs.microsoft.com/dynamics365/customer-engagement/customer-service/user-guide-customer-service#create-and-manage-a-case).

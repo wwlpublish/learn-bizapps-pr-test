@@ -3,7 +3,7 @@ uid: learn-bizapps.work-with-knowledge-management-solutions-dyn365-customer-serv
 metadata:
   title: Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service
   description: This learning path focuses on working with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service.  
-  ms.date: 12/10/2018
+  ms.date: 02/02/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -22,6 +22,7 @@ roles:
 products:
 - dynamics
 - dynamics-customer-service
+- dynamics-customer-engagement
 modules:
 - learn-bizapps.creating-and-designing-knowledge-management-solutions
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions

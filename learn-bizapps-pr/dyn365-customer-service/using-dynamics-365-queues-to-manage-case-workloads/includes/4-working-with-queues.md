@@ -71,4 +71,4 @@ Now that we've discussed the mechanics, look at the following image to see a typ
 
 ![Managing cases with queues](../media/qu-unit4-4.png)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE2IJmr]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2IJmr]

@@ -1,0 +1,39 @@
+﻿### YamlMime:Module
+uid: learn-bizapps.urs-customize-the-schedule-board
+metadata:
+  title: Customize the schedule board in Microsoft Dynamics 365 for Field Servicev
+  description: Tailoring the schedule board for easier scheduling is made possible with multiple schedule boards, views, and schedule board options. We’ll look at how we configure the filters, queries, and entities for use with the schedule board.
+  ms.date: 02/01/2019
+  author: davebeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+title: Customize the schedule board in Microsoft Dynamics 365 for Field Service
+summary: Tailoring the schedule board for easier scheduling is made possible with multiple schedule boards, views, and schedule board options. We’ll look at how we configure the filters, queries, and entities for use with the schedule board.  
+abstract: |
+    In this module, you will:
+    - Define each pane in schedule board 
+    - Edit schedule board views and tooltips 
+    - Edit map pane 
+    - Schedule board alerts 
+    - Extend schedule board with JavaScript and HTML
+prerequisites: Basic understanding of how to navigate the Dynamics 365 application, as well as a working knowledge of the core records available.  Familiarity with the basic scheduling capabilities available in universal resource scheduling is helpful.   
+iconUrl: /learn/achievements/customizing-the-schedule-board-in-microsoft-dynamics-365-for-field-service.svg
+levels: 
+- intermediate
+roles: 
+- functional-consultant
+products: 
+- dynamics
+- dynamics-field-service
+- dynamics-customer-engagement
+units:
+- learn-bizapps.urs-customize-the-schedule-board.1-work-with-multiple-schedule-boards
+- learn-bizapps.urs-customize-the-schedule-board.2-schedule-board-options
+- learn-bizapps.urs-customize-the-schedule-board.3-design-and-use-views-with-schedule-board
+- learn-bizapps.urs-customize-the-schedule-board.4-configure-schedule-board-filter-queries
+- learn-bizapps.urs-customize-the-schedule-board.5-customize-the-schedule-board
+- learn-bizapps.urs-customize-the-schedule-board.6-knowledge-check
+- learn-bizapps.urs-customize-the-schedule-board.7-summary
+badge: 
+  uid: learn.customizing-the-schedule-board.badge

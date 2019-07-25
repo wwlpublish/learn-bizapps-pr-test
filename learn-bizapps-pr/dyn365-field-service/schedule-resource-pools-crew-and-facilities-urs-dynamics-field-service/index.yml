@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-bizapps.urs-schedule-resource-pools-crew-and-facilities
+metadata:
+  title: Schedule crews, facilities, and resource pooling in Microsoft Dynamics 365 for Field Service 
+  description: Handle more advanced scheduling options that might involve multiple resources, or specific facilities. Use resource pooling to provide place holders for scheduling groups of resources. Schedule crews to work on specific items. Schedule specific facilities that might be used to help deliver a specific service.    
+  ms.date: 02/01/2019
+  author: davebeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365-field-service
+title: Schedule crews, facilities, and resource pooling in Microsoft Dynamics 365 for Field Service
+summary: Handle more advanced scheduling options that might involve multiple resources, or specific facilities. Use resource pooling to provide place holders for scheduling groups of resources. Schedule crews to work on specific items. Schedule specific facilities that might be used to help deliver a specific service.    
+abstract: |
+    In this module, you will:
+    - Define and use resource pools in scheduling scenarios
+    - Use the facility scheduling feature to book specific facilities for work 
+    - Define and schedule crews using the schedule board
+prerequisites: Basic understanding of how to navigate the Dynamics 365 application, as well as a working knowledge of the core records available.  Familiarity with defining resources and the basic scheduling capabilities available in universal resource scheduling is recommended.   
+iconUrl: /learn/achievements/scheduling-crews-facilities-and-resource-pooling-in-microsoft-dynamics-365-for-field-service.svg
+levels: 
+- intermediate
+roles: 
+- functional-consultant
+products: 
+- dynamics  
+- dynamics-field-service
+- dynamics-customer-engagement
+units:
+- learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.1-schedule-multiple-resources-and-facilities
+- learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.2-define-resources
+- learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.3-work-with-fulfillment-preferences
+- learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.4-work-with-requirement-groups
+- learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.5-crew-facility-resource-pool-scheduling
+- learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.6-schedule-multiple-resources
+- learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.7-knowledge-check
+- learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.8-summary
+badge: 
+   uid: learn.scheduling-resource-pools-crew-and-facilities.badge

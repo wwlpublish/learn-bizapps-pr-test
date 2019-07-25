@@ -4,7 +4,7 @@ In this unit, you'll create a flow that generates a push notification whenever y
 
 ## Get the mobile app
 
-It's easy to create a flow that sends push notifications to your mobile device. Keep in mind that you'll need the Microsoft Flow mobile app to receive push notifications. The mobile app is available for [Google Android](https://play.google.com/store/apps/details?id=com.microsoft.flow), [Apple iOS](https://itunes.apple.com/app/apple-store/id1094928825), and [Windows Phone](https://www.microsoft.com/en-us/p/microsoft-flow/9nkn0p5l9n84).
+It's easy to create a flow that sends push notifications to your mobile device. Keep in mind that you'll need the Microsoft Flow mobile app to receive push notifications. The mobile app is available for [Google Android](https://play.google.com/store/apps/details?id=com.microsoft.flow), [Apple iOS](https://itunes.apple.com/app/apple-store/id1094928825), and [Windows Phone](https://www.microsoft.com/p/microsoft-flow/9nkn0p5l9n84).
 
 If you're using an unsupported mobile device, consider using Short Message Service (SMS) messages (that is, text messages) instead of push notifications to receive notifications.
 

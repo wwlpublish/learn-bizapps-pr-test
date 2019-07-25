@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.shape-data 
+metadata: 
+ title: Shape data in a PowerApps canvas app
+ description: When you create a canvas app, do you need to show the user all the data? What if you want to show only the data that is relevant to them? This module will help you address this issue.
+ ms.date: 03/15/2019  
+ author: kschimke  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-powerapps  
+title: Shape data in a PowerApps canvas app  
+summary: When you create a canvas app, do you need to show the user all the data? What if you want to show only the data that is relevant to them? This module will help you address this issue. 
+abstract: |  
+    In this module, you will: 
+    - Filter the data in a gallery
+    - Use operators in a formula to shape your data
+    - Use the search function to find a record
+    - Understand the AddColumns, DropColumns, and RenameColumns functions
+prerequisites: A basic understanding of how to create a PowerApps canvas app.   
+iconUrl: /learn/achievements/shape-data.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products:  
+- power-platform
+- powerapps
+units: 
+- learn-bizapps.shape-data.1-filter-data 
+- learn-bizapps.shape-data.2-search-function 
+- learn-bizapps.shape-data.3-combine-data-shaping-functions 
+- learn-bizapps.shape-data.4-modify-columns 
+- learn-bizapps.shape-data.5-knowledge-check 
+- learn-bizapps.shape-data.6-summary 
+badge: 
+  uid: learn.shape-data.badge 

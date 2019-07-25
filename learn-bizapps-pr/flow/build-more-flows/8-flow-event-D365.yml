@@ -4,7 +4,7 @@ title: Build a flow that runs when an event in Dynamics 365 occurs
 metadata: 
   title: Build a flow that runs when an event in Dynamics 365 occurs
   description: Learn to build a flow that runs when an event in Dynamics 365 occurs, such as copying a lead to an Excel list.
-  ms.date: 1/09/2019
+  ms.date:  02/03/2019
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc

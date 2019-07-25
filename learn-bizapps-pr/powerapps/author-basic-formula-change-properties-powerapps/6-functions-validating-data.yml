@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.change-properties.6-functions-validating-data
+title: Functions for validating data
+metadata: 
+  title: Functions for validating data
+  description: Functions for validating data
+  ms.date: 03/19/2019 
+  author: kschimke 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/6-functions-validating-data.md)] 

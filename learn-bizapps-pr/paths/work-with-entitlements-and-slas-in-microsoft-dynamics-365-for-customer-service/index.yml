@@ -3,7 +3,7 @@ uid: learn-bizapps.work-with-entitlements-and-slas-dyn365-customer-service
 metadata:
   title: Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service
   description: This learning path focuses on working with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service.  
-  ms.date: 12/10/2018
+  ms.date: 02/02/2019
   author: dbeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -22,6 +22,7 @@ roles:
 products:
 - dynamics
 - dynamics-customer-service
+- dynamics-customer-engagement
 modules:
 - learn-bizapps.creating-and-managing-entitlements-in-dynamics-365
 - learn-bizapps.dynamics-365-service-level-agreements

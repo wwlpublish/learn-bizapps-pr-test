@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-service.1-why-power-bi 
+title: What can I do with Power BI service as a consumer?
+metadata: 
+  title:  What can I do with Power BI service as a consumer?
+  description: What can I do with Power BI service as a consumer? 
+  ms.date: 04/26/2019 
+  author: robde 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 15 
+content: | 
+ [!include[](includes/1-why-power-bi.md)] 

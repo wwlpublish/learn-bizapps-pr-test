@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-advanced-configuration.11-knowledge-check 
+metadata: 
+  title: Advanced Configuration for Dynamics 365 for Marketing Quiz
+  description: Advanced Configuration for Dynamics 365 for Marketing Knowledge Check
+  ms.date: 1/23/2019 
+  author: dbeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 5 
+quiz: 
+  title: Advanced Configuration for Dynamics 365 for Marketing Knowledge Check
+  questions: 
+  - content: Where do you add videos in Dynamics 365 for Marketing?
+    choices: 
+    - content: Add video to Marketing Content > Videos
+      explanation: To add a video, you must navigate to **Marketing Content > Videos**
+      isCorrect: true 
+    - content: Add to email templates to Marketing Execution > Marketing Emails
+      explanation: You cannot upload videos directly in the Marketing Emails area
+      isCorrect: false 
+    - content: Add video to files in Marketing Content > Files
+      explanation: Files is where you add image assets. To add a video, you must navigate to **Marketing Content > Videos**
+      isCorrect: false 
+  - content: What type of file can you upload in Dynamics 365 marketing app?
+    choices: 
+    - content: PDF
+      explanation: You cannot upload PDF in Dynamics 365 for Marketing
+      isCorrect: false 
+    - content: XLS
+      explanation: You cannot upload XLS in Dynamics 365 for Marketing 
+      isCorrect: false 
+    - content: GIF
+      explanation: You can upload GIF, along with BMP, JPEG, and PNG, in Dynamics 365 for Marketing
+      isCorrect: true  
+    - content: DOC
+      explanation: You cannot upload DOC in Dynamics 365 for Marketing
+      isCorrect: false 
+  - content: Select which statement is true regarding editing keywords.
+    choices: 
+    - content: When editing keywords, the changes only affect new images
+      explanation: If you edit an existing keyword, the changes affect all existing files that use the keyword
+      isCorrect: false 
+    - content: Changes to keywords affects only new images that have the keyword associated to it
+      explanation: Changes to keywords affect all existing images that use it and will instead show the new value  
+      isCorrect: false 
+    - content: The changes are not applied to images that have already been uploaded
+      explanation: The changes are applied to all existing images that have already been uploaded
+      isCorrect: false 
+    - content: Changes to keywords affects any image that has that keyword associated to it
+      explanation: Changes to keywords affects any image that has that keyword associated to it
+      isCorrect: true 

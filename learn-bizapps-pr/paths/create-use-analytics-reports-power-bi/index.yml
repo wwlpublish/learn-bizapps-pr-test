@@ -3,7 +3,7 @@ uid: learn-bizapps.create-use-analytics-reports-power-bi
 metadata:
   title: Create and use analytics reports with Power BI
   description: This learning path introduces you to Power BI, and teaches you to use and build business intelligence reports. 
-  ms.date: 09/24/2018
+  ms.date: 02/01/2019
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
@@ -19,6 +19,7 @@ levels:
 - beginner
 roles:
 - business-user
+- functional-consultant
 products:
 - power-platform
 - power-bi

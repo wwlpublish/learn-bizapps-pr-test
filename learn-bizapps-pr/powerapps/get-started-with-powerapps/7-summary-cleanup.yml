@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-get-started.7-summary-cleanup
+metadata:
+  title: Summary
+  description: Review what you learned in the Get started in PowerApps module.
+  ms.date: 05/21/2019
+  author: kevsch
+  ms.author: kevsch
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: Summary 
+durationInMinutes: 2
+content: |
+ [!include[](includes/7-summary-cleanup.md)]
