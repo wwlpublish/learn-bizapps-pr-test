@@ -1,13 +1,13 @@
 ### YamlMime:Module 
 uid: learn-bizapps.work-with-relational-data 
 metadata: 
- title: Work with relational data in a PowerApps canvas app
- description: Do you want to improve a user's experience in your canvas app? This module will show you how to work with relational data to provide a good experience for app users. 
- ms.date: 04/9/2019  
- author: kschimke  
- ms.author: kschimke  
- ms.topic: interactive-tutorial  
- ms.prod: learning-power-platform  
+  title: Work with relational data in a PowerApps canvas app
+  description: Do you want to improve a user's experience in your canvas app? This module will show you how to work with relational data to provide a good experience for app users. 
+  ms.date: 04/9/2019  
+  author: KevSch
+  ms.author: kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-power-platform  
 title: Work with relational data in a PowerApps canvas app 
 summary: Do you want to improve a user's experience in your canvas app? This module will show you how to work with relational data to provide a good experience for app users.   
 abstract: |  

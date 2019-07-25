@@ -1,13 +1,13 @@
 ### YamlMime:Module 
 uid: learn-bizapps.analyze-explore-data-power-bi 
 metadata: 
- title: Analyze data with Power BI
- description: This module goes beyond viewing and exploring your content and explains how to interact with it by working with reports and dashboards to uncover and share new business insights.
- ms.date: 04/26/2019  
- author: robde  
- ms.author: robde  
- ms.topic: interactive-tutorial  
- ms.prod: learning-power-bi  
+  title: Analyze data with Power BI
+  description: This module goes beyond viewing and exploring your content and explains how to interact with it by working with reports and dashboards to uncover and share new business insights.
+  ms.date: 04/26/2019  
+  author: HeyRob
+  ms.author: robde  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-power-bi  
 title: Analyze data with Power BI
 summary: This module goes beyond viewing and exploring your content and explains how to interact with it by working with reports and dashboards to uncover and share new business insights. 
 abstract: |  

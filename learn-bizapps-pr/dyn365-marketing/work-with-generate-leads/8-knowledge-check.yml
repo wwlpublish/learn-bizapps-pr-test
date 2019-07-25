@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-generate-leads.8-knowledge-check 
 metadata: 
- title: Generate Leads in Dynamics 365 for Marketing Knowledge Check
- description: Generate Leads in Dynamics 365 for Marketing Knowledge Check
- ms.date: 01/23/2019  
- author: dbeasley 
- ms.author: dbeasley 
- ms.topic: interactive-tutorial 
- ms.prod: learning-d365 
- ROBOTS: NOINDEX 
+  title: Generate Leads in Dynamics 365 for Marketing Knowledge Check
+  description: Generate Leads in Dynamics 365 for Marketing Knowledge Check
+  ms.date: 01/23/2019  
+  author: DaveBeasley
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
 title: Check your knowledge 
 durationInMinutes: 5 
 quiz: 

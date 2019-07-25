@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.how-to-build-ui-canvas-app.7-knowledge-check 
 metadata: 
- title: How to build the UI in a canvas app in PowerApps knowledge check
- description: How to build the UI in a canvas app in PowerApps knowledge check
- ms.date: 03/29/2019 
- author: kschimke 
- ms.author: kschimke 
- ms.topic: interactive-tutorial 
- ms.prod: learning-d365 
- ROBOTS: NOINDEX 
+  title: How to build the UI in a canvas app in PowerApps knowledge check
+  description: How to build the UI in a canvas app in PowerApps knowledge check
+  ms.date: 03/29/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
