@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-data-power-bi.6-cleaning-data 
+title: Clean data to include in a report
+metadata: 
+  title: Clean data to include in a report
+  description: Learn how to clean data so that you can include it in a report.
+  ms.date: 07/15/2019 
+  author: robde 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/6-cleaning-data.md)] 
