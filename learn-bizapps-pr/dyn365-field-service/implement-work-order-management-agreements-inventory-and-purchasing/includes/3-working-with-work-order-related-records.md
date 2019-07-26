@@ -19,8 +19,8 @@ There are two places where accounts are defined on the work order:
 
 You can provide additional information to assist in reporting and scheduling. To do so, define items like the type of work, priority of the work order, and the service territory.
 
--   **Work Order Types**: Used to categorize work orders by type. You'll typically define work order types by kind of work performed for customers. Examples of work order types are: installs, repairs, preventative maintenance, and brake fix.
--   **Priority**: Rates the importance of the work order. Organizations can define priority levels, which are used along with work order types to determine scheduling priority. For example, work orders with a type of *preventative maintenance* might have a priority of *1*, and a *brake fix* type might have a priority of *5*.
+-   **Work Order Types**: Used to categorize work orders by type. You'll typically define work order types by kind of work performed for customers. Examples of work order types are: installs, repairs, preventative maintenance, and break fix.
+-   **Priority**: Rates the importance of the work order. Organizations can define priority levels, which are used along with work order types to determine scheduling priority. For example, work orders with a type of *preventative maintenance* might have a priority of *1*, and a *break fix* type might have a priority of *5*.
 -   **Service Territory**: Used to organize work orders and resources by geographical area. Accounts can be assigned to a service territory.
 	-   When work orders are created for an account, the service territory will automatically be entered on the work order. Resources associated with a territory can then be scheduled to work on orders in that territory.
 
@@ -45,7 +45,7 @@ If 90 percent of the MRI inspections in your organization contain this informati
 
 When you select **Define a primary incident type** for a work order, the following information is populated automatically:
 
--   **Default Work Order Type:** Specifies the type of work order to be executed, like *inspection*, *brake fix*, *preventative maintenance*, etc.
+-   **Default Work Order Type:** Specifies the type of work order to be executed, like *inspection*, *break fix*, *preventative maintenance*, etc.
 -   **Skill / Characteristics:** Defines any skills or certifications required of a resource to work on this type of item.
   
 -   **Tasks to be performed:** Provides the field agent with a list of tasks to perform for the work order, and the duration of each task. The total time for all tasks added is rolled-up to the work order and will populate the *Estimated Duration* field on the work order.

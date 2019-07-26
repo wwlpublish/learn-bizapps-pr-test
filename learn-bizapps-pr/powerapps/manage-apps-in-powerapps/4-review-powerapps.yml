@@ -3,11 +3,10 @@ uid: learn-bizapps.powerapps-manage.4-review-powerapps
 title: PowerApps review
 metadata:
   title: PowerApps review
-  description: Review what you've learned so far.
-  ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  description: Review what you've learned about managing apps in PowerApps.
+  ms.date: 5/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 5

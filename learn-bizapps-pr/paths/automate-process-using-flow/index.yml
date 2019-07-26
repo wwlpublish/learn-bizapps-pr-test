@@ -1,4 +1,4 @@
-### YamlMime:LearningPath
+﻿### YamlMime:LearningPath
 uid: learn-bizapps.automate-process-using-flow
 metadata:
   title: Automate a business process using Microsoft Flow
@@ -19,11 +19,10 @@ levels:
 - beginner
 roles:
 - business-user
+- functional-consultant
 products:
 - power-platform
 - flow
-- bizapps
-- bizapps-flow
 modules:
 - learn-bizapps.flow-get-started
 - learn-bizapps.flow-build-more

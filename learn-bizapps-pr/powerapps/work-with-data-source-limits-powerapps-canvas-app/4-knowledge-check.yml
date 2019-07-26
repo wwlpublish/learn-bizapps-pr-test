@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.data-source-limits.4-knowledge-check 
+metadata: 
+  title: Work with data source limits (delegation limits) in a PowerApps canvas app knowledge check
+  description: Work with data source limits (delegation limits) in a PowerApps canvas app knowledge check
+  ms.date: 04/9/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 6 
+quiz: 
+  title: Work with data source limits (delegation limits) in a PowerApps canvas app knowledge check
+  questions: 
+  - content: What happens when you delegate a function to a data source?
+    choices: 
+    - content: Only the first 500 records return from the data source.
+      isCorrect: false
+      explanation: The data source processes the function and returns only matches. 
+    - content: The first 500 records process and then the matches are returned.
+      isCorrect: false 
+      explanation: The data source processes the function and returns only matches.
+    - content: The data source processes the function against all of the data and returns only the matches.
+      isCorrect: true
+      explanation: The data source processes the function and returns only matches. 
+    - content: A maximum of 2000 records return.
+      isCorrect: false 
+      explanation: The data source processes the function and returns only matches. 
+  - content: What should you do when you see the warning triangle and blue line that delegation is not occurring?
+    choices: 
+    - content: Adjust the row limit from 500 to 2000 records and then ignore the warning.
+      isCorrect: false
+      explanation: Determine if the limited data will cause issues for your app. 
+    - content: Determine if the limited returned data will cause issues for the functionality of your app and design your app as appropriate.
+      isCorrect: true
+      explanation: Determine if the limited data will cause issues for your app.
+    - content: Ignore it, warnings are not a big deal and the user will know how to deal with the warning.
+      isCorrect: false 
+      explanation: Determine if the limited data will cause issues for your app. 
+    - content: Try a different function because PowerApps will not run if there are warnings.
+      isCorrect: false 
+      explanation: Determine if the limited data will cause issues for your app. 
+  - content: When combining delegable and non-delegable functions in a formula what happens?
+    choices: 
+    - content: The data is only limited for the non-delegable portion, which in no way affects the delegable functions.
+      isCorrect: false
+      explanation: The delegable functions may become non-delegable reducing the data returned by a formula. 
+    - content: You cannot combine delegable and non-delegable functions in the same formula.
+      isCorrect: false 
+      explanation: The delegable functions may become non-delegable reducing the data returned by a formula. 
+    - content: PowerApps will generate errors only if the app has more than 2000 records.
+      isCorrect: false 
+      explanation: The delegable functions may become non-delegable reducing the data returned by a formula. 
+    - content: The delegable functions may become non-delegable reducing the amount of data returned by the formula.
+      isCorrect: true
+      explanation: The delegable functions may become non-delegable reducing the data returned by a formula. 

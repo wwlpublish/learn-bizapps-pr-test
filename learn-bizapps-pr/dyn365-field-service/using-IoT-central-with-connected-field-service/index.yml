@@ -29,8 +29,7 @@ products:
 - dynamics-field-service
 - azure
 - azure-iot-central
-- bizapps
-- bizapps-d365
+- dynamics-customer-engagement
 units:
 - learn-bizapps.using-iot-central-with-connected-field-service.1-using-iot-central-with-connected-field-service-overview
 - learn-bizapps.using-iot-central-with-connected-field-service.2-create-an-iot-central-application

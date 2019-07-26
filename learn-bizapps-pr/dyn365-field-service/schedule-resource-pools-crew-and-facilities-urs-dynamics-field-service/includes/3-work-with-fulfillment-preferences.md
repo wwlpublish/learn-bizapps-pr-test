@@ -33,7 +33,7 @@ This will work in conjunction with the results per interval setting. If an organ
 
 ## Defining time groups
 
-Unlike intervals, time groups do not dictate the start time of subsequent bookings. Time groups organize results but leave the start time/arrival time as-is, based on the particular resource\'s schedule. Time group details cannot be defined until a fulfillment preference record has been saved for the first time. Once saved, times groups are defined from the details tab by clicking the Add Time Group button in the time groups sub-grid.
+Unlike intervals, time groups do not dictate the start time of subsequent bookings. Time groups organize results but leave the start time/arrival time as-is, based on the particular resource\'s schedule. Time group details cannot be defined until a fulfillment preference record has been saved for the first time. Once saved, times groups are defined from the details tab by clicking the Add Time Group button in the time groups subgrid.
 
 When specifying a time group, you will need to provide:
 
@@ -85,4 +85,4 @@ A traditional brick-and-mortar business offers appointments every 90 minutes, so
 -   Reset Interval per Time Group Detail = No, the appointments would be: 8:00 AM, 9:30 AM, 11:00 AM (not 12:30 PM because this is blocked for lunch), 2:00 PM, and 3:30 PM.
 -   Reset Interval per Time Group Detail = Yes, the appointments would be: 8:00 AM, 9:30 AM, 11:00 AM, (not 12:30 PM because this is blocked for lunch), 1:00 PM (resetting for the next time group detail), 2:30 PM, and 4:00 PM.
 
-For additional information on fulfillment preferences see [Fulfillment preferences](https:/docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/fulfillment-preferences).
+For more information on fulfillment preferences, see [Fulfillment preferences](https://docs.microsoft.com/dynamics365/customer-engagement/common-scheduler/fulfillment-preferences).

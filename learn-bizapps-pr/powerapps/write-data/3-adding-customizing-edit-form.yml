@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.write-data.3-adding-customizing-edit-form 
+title: Adding and customizing an Edit form
+metadata: 
+  title: Adding and customizing an Edit form 
+  description: Adding and customizing an Edit form 
+  ms.date: 03/15/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 15 
+content: | 
+ [!include[](includes/3-adding-customizing-edit-form.md)] 

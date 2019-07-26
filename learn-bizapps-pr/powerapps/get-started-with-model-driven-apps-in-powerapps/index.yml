@@ -21,12 +21,11 @@ iconUrl: /learn/achievements/get-started-with-model-driven-apps-in-powerapps.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - powerapps
-- bizapps
-- bizapps-power-bi
 units: 
 - learn-bizapps.powerapps-design-model-driven-apps.1-introduction
 - learn-bizapps.powerapps-design-model-driven-apps.2-building-blocks-of-model-driven-apps

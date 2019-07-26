@@ -24,12 +24,11 @@ iconUrl: /learn/achievements/get-started-with-flow.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - flow
-- bizapps
-- bizapps-flow
 units: 
 - learn-bizapps.flow-get-started.1-flow-introduction
 - learn-bizapps.flow-get-started.2-flow-create-first

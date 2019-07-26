@@ -1,5 +1,6 @@
-Let’s do a quick review of what we covered in this module.
+﻿In this module, you learned about app versions, sharing apps, and managing environments. 
 
-You learned how to review and restore app versions. You got to:
-  - Explore how to share an app, including permissions and notifications.
-  - Learn how to create and manage environments, and how to manage security.
+Additionally, you learned how to:
+- View and restore app versions
+- Share an app and manage its permissions
+- Create environments and how to manage security access

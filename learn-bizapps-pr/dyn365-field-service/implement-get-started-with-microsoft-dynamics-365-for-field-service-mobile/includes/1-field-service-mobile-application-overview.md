@@ -15,7 +15,7 @@ You can use Field Service Mobile either offline or online. Your organization can
 
 When you open Field Service Mobile, you'll see your home page. The home page provides access to everything you have permission to use, based on the mobile project's configuration.
 
-![Mobile Display](../media/MO-Unit1-1.png)
+![Mobile Display](../media/mo-unit1-1.png)
 
 Items displayed on the home page by default include
 

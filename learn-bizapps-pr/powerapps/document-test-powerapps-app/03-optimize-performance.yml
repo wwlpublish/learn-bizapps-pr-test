@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.use-documentation.03-optimize-performance 
+title: Performance optimization 
+metadata: 
+  title: Performance optimization  
+  description: Performance optimization and tools 
+  ms.date: 02/14/2019 
+  author: kevsch 
+  ms.author: Kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+  ROBOTS: NOINDEX 
+durationInMinutes: 10 
+content: | 
+ [!include[](includes/03-optimize-performance.md)] 

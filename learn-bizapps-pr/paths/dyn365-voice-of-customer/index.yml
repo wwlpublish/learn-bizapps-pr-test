@@ -3,16 +3,13 @@ uid: learn-bizapps.dyn365-voice-of-customer
 metadata:
   title: Voice of the Customer for Dynamics 365
   description: This learning path introduces you to the basics of Voice of the Customer for Dynamics 365.
-  ms.date: 02/02/2019
-  #TODO: Update with real author name.
-  author: dbeasley
+  ms.date: 12/21/2018
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-customer-service
-  #ms.learn-contact: dbeasley
 title: Voice of the Customer for Dynamics 365
 summary: This learning path introduces you to the basics of Voice of the Customer for Dynamics 365.
-#TODO: Add link to how to get a trial subscription.
 prerequisites: |
   - A basic understanding of how to move around the Dynamics 365 application and a working knowledge of the core records that are available. 
   - Familiarity with the basic functionality of the Voice of the Customer solution, like deployment and survey creation. 
@@ -27,7 +24,7 @@ products:
 - dynamics
 - dynamics-sales
 - dynamics-customer-service
-- bizapps
+- dynamics-customer-engagement
 modules:
 - learn-bizapps.designing-voc-surveys
 - learn-bizapps.voc-response-routing-survey-scoring

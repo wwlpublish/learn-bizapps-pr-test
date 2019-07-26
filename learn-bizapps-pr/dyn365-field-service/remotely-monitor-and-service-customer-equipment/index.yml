@@ -29,8 +29,7 @@ products:
 - dynamics-field-service
 - azure
 - azure-iot-central
-- bizapps
-- bizapps-d365
+- dynamics-customer-engagement
 units:
 - learn-bizapps.remotely-monitor-and-service-customer-equipment.1-remotely-monitor-and-service-customer-equipment-overview
 - learn-bizapps.remotely-monitor-and-service-customer-equipment.2-customer-assets-and-device-registration

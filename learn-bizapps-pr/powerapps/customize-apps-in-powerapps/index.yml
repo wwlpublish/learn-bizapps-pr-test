@@ -1,38 +1,35 @@
 ### YamlMime:Module 
 uid: learn-bizapps.powerapps-customize 
 metadata: 
-  title: Customize an app in PowerApps
+  title: Customize a canvas app in PowerApps
   description: Learn how to customize an app by adding controls, images, and logic.
-  ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 5/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  #ms.learn-contact: margoc
-title: Customize an app in PowerApps
+title: Customize a canvas app in PowerApps
 summary: Learn how to customize an app by adding controls, images, and logic.
 abstract: |
   In this module, you will:
-  - Change the layout of a gallery
-  - Change the data that a control shows
-  - Change the order in which fields appear
-  - Change the control with which a user provides information
-  - Explore controls on each screen of an app
-  - Format a number as a price
-  - Color prices based on their values
-  - Explore formulas in a generated app
-prerequisites: A Canvas App in Microsoft PowerApps
+  - Change the layout of a gallery.
+  - Change the data that a control shows.
+  - Change the order in which fields appear.
+  - Change the control with which a user provides information.
+  - Explore controls on each screen of an app.
+  - Format a number as a price.
+  - Color prices based on their values.
+  - Explore formulas in a generated app.
+prerequisites: Basic experience with developing canvas apps
 iconUrl: /learn/achievements/customize-apps-in-powerapps.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - powerapps
-- bizapps
-- bizapps-power-apps
 units: 
 - learn-bizapps.powerapps-customize.1-powerapps-customize
 - learn-bizapps.powerapps-customize.2-powerapps-explore

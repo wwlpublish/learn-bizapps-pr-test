@@ -1,0 +1,30 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.advanced-data-options-and-connectors
+metadata:
+  title: Use advanced data options and connectors in PowerApps
+  description: Do you want to improve the user's experience in your canvas app? Do you want to use custom connectors to connect to data? This learning path will help you do both things. It will also focus on working with data source limits.
+  ms.date: 04/9/2019
+  author: KevSch
+  ms.author: kschimke
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: Use advanced data options and connectors in PowerApps
+summary: Do you want to improve the user's experience in your canvas app? Do you want to use custom connectors to connect to data? This learning path will help you do both things. It will also focus on working with data source limits.
+prerequisites: |
+  - The learning path [Work with data in a PowerApps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/) is recommended
+  - The learning path [Use the UI and controls in a canvas app in PowerApps](https://docs.microsoft.com/learn/paths/ui-controls-canvas-app-powerapps/) is recommended 
+iconUrl: /learn/achievements/advanced-data-options-and-connectors.svg
+levels:
+- advanced
+roles:
+- functional-consultant
+products:
+- power-platform
+- powerapps
+modules:
+- learn-bizapps.work-with-relational-data
+- learn-bizapps.data-source-limits
+- learn-bizapps.connect-other-data
+- learn-bizapps.custom-connectors
+trophy:
+  uid: learn-bizapps.advanced-data-options-and-connectors.trophy

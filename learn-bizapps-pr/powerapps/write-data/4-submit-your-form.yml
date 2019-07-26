@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.write-data.4-submit-your-form 
+title: Submit your form
+metadata: 
+  title: Submit your form 
+  description: Submit your form 
+  ms.date: 03/15/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 7 
+content: | 
+ [!include[](includes/4-submit-your-form.md)] 

@@ -4,7 +4,7 @@ metadata:
   title:  Implementing Microsoft Dynamics 365 for Field Service
   description: Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. 
   ms.date: 01/25/2019
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
@@ -18,10 +18,9 @@ levels:
 roles:
 - functional-consultant
 products:
-- bizapps
-- bizapps-d365
 - dynamics  
 - dynamics-field-service
+- dynamics-customer-engagement
 modules:
 - learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service
 - learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing

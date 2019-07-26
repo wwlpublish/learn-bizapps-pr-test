@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps-get-started.3-powerapps-related-technologies
+title: PowerApps related technologies
+metadata:
+  title: PowerApps related technologies
+  description: Learn how you can use PowerApps with other technologies to build and share apps across your organization. 
+  ms.date: 05/21/2019
+  author: kevsch
+  ms.author: kevsch
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+durationInMinutes: 8
+content: |
+  [!include[](includes/3-powerapps-related-technologies.md)]

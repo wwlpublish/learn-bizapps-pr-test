@@ -3,33 +3,29 @@ uid: learn-bizapps.powerapps-get-started
 metadata:
   title: Get started with PowerApps
   description: Learn the basics of PowerApps and how you can use it in your organization.
-  ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 05/21/2019
+  author: kevsch
+  ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  #ms.learn-contact: margoc
 title: Get started with PowerApps
 summary: Learn the basics of PowerApps and how you can use it in your organization.
 abstract: |
   In this module, you will:
-  - Explore how PowerApps can make your business more efficient
-  - Understand how you use different technologies to perform different tasks in PowerApps
-  - Understand the different ways to build an app in PowerApps
-  - Create your first app from data in an Excel workbook
-prerequisites: |
- - Access to Microsoft Excel, and OneDrive for Business.
+  - Explore how PowerApps can make your business more efficient.
+  - Learn how to use different technologies to perform different tasks in PowerApps.
+  - Learn about the different ways to build an app in PowerApps.
+  - Create your first app from data in an Excel workbook.
+prerequisites: Access to Microsoft Excel and OneDrive for Business.
 iconUrl: /learn/achievements/get-started-with-powerapps.svg
 levels: 
 - beginner
 roles: 
 - business-user
+- functional-consultant
 products: 
 - power-platform
 - powerapps
-- bizapps
-- bizapps-power-apps
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction
 - learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
@@ -38,5 +34,5 @@ units:
 - learn-bizapps.powerapps-get-started.5-powerapps-create-first
 - learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
 - learn-bizapps.powerapps-get-started.7-summary-cleanup
-badge:
-  uid: learn.powerapps-get-started.badge
+badge: 
+  uid: learn-bizapps.powerapps-get-started.badge
