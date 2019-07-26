@@ -4,7 +4,7 @@ metadata:
  title: Get data with Power BI Desktop
  description: In this module, you'll learn how to find and collect data from different sources, how to clean or transform the data, and you'll also learn about the tricks to make data-gathering easier with Microsoft Power BI Desktop. 
  ms.date: 07/15/2019  
- author: robde  
+ author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
