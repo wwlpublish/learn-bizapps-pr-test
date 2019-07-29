@@ -22,7 +22,7 @@ quiz:
     - content: Ability to pause SLA
       explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
       isCorrect: true
-    - content: Ability to track mulitple cases at once
+    - content: Ability to track multiple cases at once
       explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
       isCorrect: false
     - content: KPIs stored directly on the case entity
