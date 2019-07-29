@@ -4,7 +4,7 @@ In this unit, you will:
 - Launch the Power BI Desktop.
 - Explore the UI.
 
-![](../media/02-power-bi-desktop-task-overview.png)
+![This page covers "launch and explore the Power BI UI".](../media/02-power-bi-desktop-task-overview.png)
 
 &nbsp;
 
@@ -19,7 +19,7 @@ When you launch Power BI Desktop, the **Getting Started** dialog box will appear
 
 In Power BI Desktop, you'll begin to build reports in the **Report** view. You'll be working in five main areas:
 
-![](../media/02-power-bi-desktop-areas.png)
+![The five areas of Report view.](../media/02-power-bi-desktop-areas.png)
 
 1. **Ribbon** - Displays common tasks that are associated with reports and visualizations.
 2. **Report view, or canvas** - Where visualizations are created and arranged. You can switch between **Report**, **Data**, and **Model** views by selecting the icons in the left column.
@@ -30,13 +30,13 @@ In Power BI Desktop, you'll begin to build reports in the **Report** view. You'l
 > [!TIP] 
 > You can collapse the Visualizations and Fields panes to provide more space in the **Report** view by selecting the small arrow, as shown in the following screenshot. 
 
-![](../media/02-power-bi-desktop-collapse.png)
+![You can collapse or expand the Visualizations and Fields.](../media/02-power-bi-desktop-collapse.png)
 
 ## Create a visual
 
 To create a visual, drag a field from the **Fields** list onto the **Report** view.
 
-![](../media/02-power-bi-desktop-drag-field.png)
+![Drag a field onto the Report view canvas to create a visual.](../media/02-power-bi-desktop-drag-field.png)
 
 Power BI Desktop automatically created a map-based visualization because it recognized that the **State** field contained geolocation data.
 
@@ -44,7 +44,7 @@ Power BI Desktop automatically created a map-based visualization because it reco
 
 After creating a report with a few visuals, you're ready to publish to the Power BI service. On the **Home** ribbon on the Power BI Desktop, select **Publish**.
 
-![](../media/02-power-bi-desktop-publish.png)
+![Screenshot of the Publish button.](../media/02-power-bi-desktop-publish.png)
 
 You’ll be prompted to sign in to Power BI. When you've signed in and the publish process is complete, the following dialog box will appear. You can select the link below **Success!**, which will take you to the Power BI service, where you can see the report that you published. 
 
@@ -52,7 +52,7 @@ You’ll be prompted to sign in to Power BI. When you've signed in and the publi
 
 When you view a published report in the Power BI service, you can choose the **Pin** icon to pin that visual to a dashboard. 
 
-![](../media/02-power-bi-desktop-pin-visual.png)
+![The pin visual button at the top of each visual.](../media/02-power-bi-desktop-pin-visual.png)
 
 You can choose whether to pin the visual to an existing dashboard or to create a new dashboard. 
 

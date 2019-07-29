@@ -4,7 +4,7 @@ Power BI Desktop and the Power BI Service work together. You can create your rep
 
 The following are the tasks that you will complete in this module:
 
-![](../media/01-power-bi-desktop-mod-overview.gif)
+![This module includes installing, signing-in, connecting to data, and transforming data.](../media/01-power-bi-desktop-mod-overview.gif)
 
 &nbsp;
 

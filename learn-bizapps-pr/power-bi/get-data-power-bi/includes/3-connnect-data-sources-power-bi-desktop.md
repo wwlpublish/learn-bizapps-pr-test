@@ -4,7 +4,7 @@ In this unit, you will:
 - Connect to data. 
 - Import data into Power BI Desktop.
 
-![](../media/03-power-bi-desktop-task-overview.png)
+![The page covers, "Connect to data sources".](../media/03-power-bi-desktop-task-overview.png)
 
 &nbsp;
 
@@ -18,20 +18,20 @@ You can connect Power BI Desktop to many types of data sources, including on-pre
 
 When you start Power BI Desktop, you can choose **Get Data** from the ribbon on the **Home** tab.
 
-![](../media/02-power-bi-desktop-get-data.png)
+![The Get Data button on the Home tab.](../media/02-power-bi-desktop-get-data.png)
 
 In Power BI Desktop, several types of data sources are available. Select a source to establish a connection. Depending on your selection, you'll be asked to find the source on your computer or network. You might be prompted to sign in to a service to authenticate your request.
 
-![](../media/03-power-bi-desktop-get-data-choices.gif)
+![Animation of the 60 Power BI-specific data connectors.](../media/03-power-bi-desktop-get-data-choices.gif)
 
 ## Choose data to import
 
 After connecting, the first window that you'll see is the **Navigator**. The **Navigator** window displays the tables or entities of your data source, and selecting a table or entity gives you a preview of its contents. You can then import your selected tables or entities immediately, or you can select **Edit** to transform and clean your data before importing.
 
-![](../media/03-power-bi-desktop-navigator.png)
+![Screenshot of the Navigator window.](../media/03-power-bi-desktop-navigator.png)
 
 After you've selected the tables that you'd like to bring into Power BI Desktop, select the **Load** button. You might want to make changes to those tables before you load them. For example, if you only want a subset of customers or a specific country, select the **Edit** button and filter data before loading.
 
-![](../media/03-power-bi-desktop-get-data-edit.png)
+![Screenshot of table data in Edit mode.](../media/03-power-bi-desktop-get-data-edit.png)
 
 No matter what type of data you need, you're likely to find a way to import it into Power BI Desktop. 
