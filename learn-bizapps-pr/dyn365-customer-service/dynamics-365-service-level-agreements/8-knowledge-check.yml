@@ -14,19 +14,19 @@ durationInMinutes: 5
 quiz:
   title: Dynamics 365 Service Level Agreements knowledge check
   questions:
-  - content: Which of the following are features of enhanced SLA’s? 
+  - content: Which of the following are features of enhanced SLAs? 
     choices: 
     - content: Unlimited in scope
-      explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
+      explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide the option for pausing timers associated with SLA KPIs, this ensures that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
       isCorrect: false
     - content: Ability to pause SLA
-      explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
+      explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide the option for pausing timers associated with SLA KPIs, this ensures that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
       isCorrect: true
-    - content: Ability to track mulitple cases at once
-      explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
+    - content: Ability to track multiple cases at once
+      explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide the option for pausing timers associated with SLA KPIs, this ensures that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
       isCorrect: false
     - content: KPIs stored directly on the case entity
-      explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide allow the option for pausing timers associated with SLA KPIs this ensure that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
+      explanation: There are several advantages to enhanced SLAs.  Two of the primary advantages are that KPIs for the SLA in a separate KPI instance and on the case itself.  This provides extra reporting options.  Enhanced SLAs also provide the option for pausing timers associated with SLA KPIs, this ensures that when the timer is restarted, the amount of time it was paused for will not count against the KPI.   Source - Creating SLAs
       isCorrect: false
   - content: Which of the following are expected levels of response defined for the case entity by default? 
     choices: 
