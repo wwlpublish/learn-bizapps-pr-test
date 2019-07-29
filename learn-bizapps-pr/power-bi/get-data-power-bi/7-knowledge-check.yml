@@ -2,8 +2,8 @@
 uid: learn-bizapps.get-data-power-bi.7-knowledge-check 
 metadata: 
  title: Knowledge check
-description: Knowledge check
-ms.date: 07/15/2019 
+ description: Knowledge check
+ ms.date: 07/15/2019 
  author: heyrob
  ms.author: robde 
  ms.topic: interactive-tutorial 
@@ -15,8 +15,8 @@ quiz:
   title: Knowledge check
   questions: 
   - content: Which tool would you use to extract the day of the week from a set of dates?
-    choices: 
-    - content: Navigator view 
+    choices:
+    - content: Navigator view
       isCorrect: false 
       explanation: Power Query allows you to search for data sources and then shape that data. For example, remove a column, change a data type, or merge tables.
     - content: Power Query editor
@@ -32,16 +32,16 @@ quiz:
     choices: 
     - content: Drag a field from the Fields list onto the Visualizations pane
       isCorrect: false 
-      explanation: asd
+      explanation: Dragging any field from the Fields list onto the open white space of the canvas (in Report view) will automatically create a default visual for that data type.
     - content: Drag a field from the Fields list onto the Model view canvas
       isCorrect: false 
-      explanation: asd
+      explanation: Dragging any field from the Fields list onto the open white space of the canvas (in Report view) will automatically create a default visual for that data type.
     - content:  Drag a field from the Fields list onto the Report view canvas
       isCorrect: true 
-      explanation: asd
+      explanation: Dragging any field from the Fields list onto the open white space of the canvas (in Report view) will automatically create a default visual for that data type.
     - content: Drag a field from the Fields list onto the Data view canvas
       isCorrect: false 
-      explanation: asd
+      explanation: Dragging any field from the Fields list onto the open white space of the canvas (in Report view) will automatically create a default visual for that data type.
   - content: What is the beset way to import tabular data from a website into Power BI?
     choices: 
     - content: Download data from the website and then import to Power BI
