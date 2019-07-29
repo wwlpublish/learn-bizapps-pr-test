@@ -32,16 +32,16 @@ quiz:
     choices: 
     - content: Drag a field from the Fields list onto the Visualizations pane
       isCorrect: false 
-      explanation: 
+      explanation: asd
     - content: Drag a field from the Fields list onto the Model view canvas
       isCorrect: false 
-      explanation: 
+      explanation: asd
     - content:  Drag a field from the Fields list onto the Report view canvas
       isCorrect: true 
-      explanation: 
+      explanation: asd
     - content: Drag a field from the Fields list onto the Data view canvas
       isCorrect: false 
-      explanation: 
+      explanation: asd
   - content: What is the beset way to import tabular data from a website into Power BI?
     choices: 
     - content: Download data from the website and then import to Power BI
