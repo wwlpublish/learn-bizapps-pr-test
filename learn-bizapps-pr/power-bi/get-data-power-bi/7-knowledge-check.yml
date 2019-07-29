@@ -15,7 +15,7 @@ quiz:
   title: Knowledge check
   questions: 
   - content: Which tool would you use to extract the day of the week from a set of dates?
-    choices: 
+    choices:
     - content: Navigator view
       isCorrect: false 
       explanation: Power Query allows you to search for data sources and then shape that data. For example, remove a column, change a data type, or merge tables.
