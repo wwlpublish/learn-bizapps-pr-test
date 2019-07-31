@@ -1,5 +1,5 @@
-There are many advantages that Microsoft Dynamics for Field Service Mobile provides to technicians who are using it in the field. These advantages can range from items as simple as just being able to work with a scheduled booking and work order on the same screen, to more advanced items like being able to leverage virtual or augmented reality. Obviously virtual and
-augmented reality are standard out of the box features, but with some configuration and customizations, they can be accomplished with the mobile application.
+There are many advantages that Microsoft Dynamics for Field Service Mobile provides to technicians who are using it in the field. These advantages can range from items as simple as just being able to work with a scheduled booking and work order on the same screen, to more advanced items like being able to leverage virtual or augmented reality. Virtual and
+augmented reality is not standard out of the box features, but with some configuration and customizations, they can be accomplished with the mobile application.
 
 When the application is first deployed using the Field Service mobile project template, it will contain a basic user interface that is a great starting point for organizations as they are first deploying and getting started with it. However, most organizations, will have specific needs based on what their technicians are need and are doing in the field.
 When an organization is first starting to deploy the mobile application. It is important they gather information from their technicians and identify what they need and will be doing with the application.
@@ -9,7 +9,7 @@ Every organization will be different, but some simple discovery questions such a
 
 -   Does a technician need to accept a work order?
 
--   What information should the technician have when they are on site?
+-   What information should the technician have when they are on-site?
 
     -   What information do they need to capture from the customer?
 
@@ -17,17 +17,17 @@ Every organization will be different, but some simple discovery questions such a
 
 -   Should technicians in the field be able to create their own work orders?
 
-    -   Should they be able to self-schedule those items, or should that be handled by a dispatcher?
+    -   Should they be able to self-schedule those items, or should scheduling be handled by a dispatcher?
 	    -   How does a technician cancel a job and how is it rescheduled?
 
 There are countless other questions that could help to identify the needs of technicians. By understanding this data, we can more effectively tailor the mobile application to fit their needs. For example, by default to complete a service task associated with a work order, a technician must open each task and update the percentage of the task manually. Some work orders may have 10, 15, or more tasks on them. Something as simple as adding a check box to the task list that allows
-technicians to simply mark a task as completed could save technicians hours of time over the course of a year.
+technicians to mark a task as completed could save technicians hours of time over the course of a year.
 
 When looking at the technician experience consider items such as:
 
 -   How will technician be receiving and viewing their work order agendas?
 
--   How will they be Interacting with work order related data like tasks, products, services, notes, camera, etc.?
+-   How will they be Interacting with work order-related data like tasks, products, services, notes, camera, etc.?
 
 -   What data or user input will be needed for reporting both real time and retrospective reporting purposes?
 
@@ -63,7 +63,7 @@ Below is a list of common configuration and customization changes that are often
 
 ### Syncing data
 
-One of the first things that should be addressed, is determine what data is available to which technicians when they are in the field. Sync filters are used to define the data will remain in the Field Service mobile application after synchronization.
+One of the first things that should be addressed, is to determine what data is available to technicians when they are in the field. Sync filters are used to define the data will remain in the Field Service mobile application after synchronization.
 
 There are two types of synchronization: initial (full) sync, and
 incremental sync.

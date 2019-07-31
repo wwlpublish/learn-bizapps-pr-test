@@ -22,6 +22,13 @@
         "dest": "modules"
       },
       {
+        "src": "dyn365-marketing",
+        "files": [
+          "**.yml"
+        ],
+        "dest": "modules"
+      },
+      {
         "src": "flow",
         "files": [
           "**.yml"
@@ -155,6 +162,122 @@
     "fileMetadata": {},
     "template": [],
     "dest": "learn-bizapps-pr",
-    "markdownEngineName": "markdig"
+    "markdownEngineName": "markdig",
+    "localization_scopes": {
+        "dyn365-customer-service/**/*.yml": [
+          "da-dk", 
+          "de-de", 
+          "es-es", 
+          "fi-fi", 
+          "fr-fr", 
+          "it-it", 
+          "ja-jp", 
+          "nb-no", 
+          "nl-nl", 
+          "pt-br", 
+          "sv-se"
+        ],
+        "dyn365-field-service/**/*.yml": [
+          "da-dk", 
+          "de-de", 
+          "es-es", 
+          "fi-fi", 
+          "fr-fr", 
+          "it-it", 
+          "ja-jp", 
+          "nb-no", 
+          "nl-nl", 
+          "pt-br", 
+          "sv-se"
+        ],
+        "dyn365-marketing/**/*.yml": [
+          "da-dk", 
+          "de-de", 
+          "es-es", 
+          "fi-fi", 
+          "fr-fr", 
+          "it-it", 
+          "ja-jp", 
+          "nb-no", 
+          "nl-nl", 
+          "pt-br", 
+          "sv-se"
+        ],
+        "flow/**/*.yml": [
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ja-jp",
+          "pt-br",
+          "zh-cn",
+          "zh-tw",
+          "ko-kr",
+          "ru-ru",
+          "nl-nl",
+          "hu-hu",
+          "cs-cz",
+          "pl-pl",
+          "pt-pt",
+          "sv-se",
+          "tr-tr",
+          "da-dk",
+          "nb-no",
+          "fi-fi",
+          "sk-sk",
+          "el-gr",
+          "th-th"
+        ],
+        "power-bi/**/*.yml": [
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ja-jp",
+          "pt-br",
+          "zh-cn",
+          "zh-tw",
+          "ko-kr",
+          "ru-ru",
+          "nl-nl",
+          "hu-hu",
+          "cs-cz",
+          "pl-pl",
+          "pt-pt",
+          "sv-se",
+          "tr-tr",
+          "da-dk",
+          "nb-no",
+          "fi-fi",
+          "sk-sk",
+          "el-gr",
+          "th-th"
+        ],
+        "powerapps/**/*.yml": [
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "it-it",
+          "ja-jp",
+          "pt-br",
+          "zh-cn",
+          "zh-tw",
+          "ko-kr",
+          "ru-ru",
+          "nl-nl",
+          "hu-hu",
+          "cs-cz",
+          "pl-pl",
+          "pt-pt",
+          "sv-se",
+          "tr-tr",
+          "da-dk",
+          "nb-no",
+          "fi-fi",
+          "sk-sk",
+          "el-gr",
+          "th-th"
+        ]
   }
+}
 }

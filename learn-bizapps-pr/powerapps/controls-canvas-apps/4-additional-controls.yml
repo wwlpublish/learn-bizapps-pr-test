@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.controls-canvas-apps.4-additional-controls 
+title: Additional controls for enhancing your app's usability
+metadata: 
+  title: Additional controls for enhancing your app's usability 
+  description: Additional controls for enhancing your app's usability 
+  ms.date: 03/29/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 6 
+content: | 
+ [!include[](includes/4-additional-controls.md)] 

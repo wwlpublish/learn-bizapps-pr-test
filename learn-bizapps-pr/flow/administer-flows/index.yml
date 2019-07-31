@@ -24,18 +24,16 @@ iconUrl: /learn/achievements/administer-flows.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - flow
-- bizapps
-- bizapps-flow
 units: 
 - learn-bizapps.flow-administration.1-introduction
 - learn-bizapps.flow-administration.2-flow-export-import
 - learn-bizapps.flow-administration.3-share-flows
 - learn-bizapps.flow-administration.4-knowledge-check
 - learn-bizapps.flow-administration.5-summary
-
 badge:
   uid: learn.flow-administration.badge

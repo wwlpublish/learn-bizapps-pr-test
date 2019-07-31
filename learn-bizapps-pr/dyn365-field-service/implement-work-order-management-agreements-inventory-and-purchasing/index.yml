@@ -4,7 +4,7 @@ metadata:
   title: Work order management, agreements, inventory, and purchasing in Microsoft Dynamics 365 for Field Service
   description: Leverage agreements to assist in creating Work Orders on a predefined schedule such as in preventative maintenance scenarios.  Additionally, by leveraging inventory, they can more effectively manage inventory levels at warehouses and ensure that technicians have what they need to deliver services to their customer while in the field.     Dynamics 365 has several foundational elements that can be configured to better tailor a Field Service implementation to meet the desired needs of an organization.  
   ms.date: 01/25/2019
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
@@ -24,10 +24,9 @@ levels:
 roles: 
 - functional-consultant
 products: 
-- bizapps
-- bizapps-d365
 - dynamics  
 - dynamics-field-service
+- dynamics-customer-engagement
 units:
 - learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.1-dynamics-365-field-service-work-order-lifecycle-overview
 - learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.2-creating-and-defining-work-orders

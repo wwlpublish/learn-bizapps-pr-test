@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.perform-custom-updates.4-knowledge-check 
+metadata: 
+  title: Perform custom updates in a PowerApps canvas app knowledge check
+  description: Perform custom updates in a PowerApps canvas app knowledge check
+  ms.date: 04/12/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps
+  ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 6 
+quiz: 
+  title: Perform custom updates in a PowerApps canvas app knowledge check
+  questions: 
+  - content: Use the Patch function to?
+    choices: 
+    - content: To edit records only
+      isCorrect: false
+      explanation: The Patch function is used to create and edit records but not delete them. 
+    - content: To delete records only
+      isCorrect: false 
+      explanation: The Patch function is used to create and edit records but not delete them. 
+    - content: To create records only
+      isCorrect: false 
+      explanation: The Patch function is used to create and edit records but not delete them. 
+    - content: To create and edit records but not delete
+      isCorrect: true
+      explanation: The Patch function is used to create and edit records but not delete them. 
+  - content: To delete a record from a data source or collection which function would you use?
+    choices: 
+    - content: The Remove function
+      isCorrect: true 
+      explanation: The Remove function should be used to delete a record from a data source.
+    - content: The Delete function
+      isCorrect: false 
+      explanation: The Remove function should be used to delete a record from a data source.
+    - content: The Delete control
+      isCorrect: false 
+      explanation: The Remove function should be used to delete a record from a data source.
+    - content: The DeleteIf function
+      isCorrect: false 
+      explanation: The Remove function should be used to delete a record from a data source.
+  - content: How does PowerApps handle mass deletes from a data source?
+    choices: 
+    - content: PowerApps has a built-in recycle bin.
+      isCorrect: false
+      explanation: PowerApps is a flexible platform that allows you to build your own mass deletion functionality. 
+    - content: PowerApps will automatically prompt the user before deletions.
+      isCorrect: false 
+      explanation: PowerApps is a flexible platform that allows you to build your own mass deletion functionality. 
+    - content: PowerApps cannot mass delete data.
+      isCorrect: false 
+      explanation: PowerApps is a flexible platform that allows you to build your own mass deletion functionality. 
+    - content: PowerApps is a flexible platform that allows you to build your own mass deletion functionality as required by your business needs.
+      isCorrect: true
+      explanation: PowerApps is a flexible platform that allows you to build your own mass deletion functionality. 

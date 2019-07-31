@@ -4,7 +4,7 @@ metadata:
   title: Advanced Configuration for Dynamics 365 for Marketing Quiz
   description: Advanced Configuration for Dynamics 365 for Marketing Knowledge Check
   ms.date: 1/23/2019 
-  author: dbeasley 
+  author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365 
@@ -14,19 +14,16 @@ durationInMinutes: 5
 quiz: 
   title: Advanced Configuration for Dynamics 365 for Marketing Knowledge Check
   questions: 
-  - content: How do you store videos in Dynamics 365 for Marketing?
+  - content: Where do you add videos in Dynamics 365 for Marketing?
     choices: 
-    - content: Upload video to Marketing Content > Videos
-      explanation: To upload a video, you must navigate to **Marketing Content > Videos**
+    - content: Add video to Marketing Content > Videos
+      explanation: To add a video, you must navigate to **Marketing Content > Videos**
       isCorrect: true 
-    - content: Upload thumbnail URL and embed code to Marketing Content > Videos
-      explanation: Video must be stored in **Marketing Content > Videos**
-      isCorrect: false 
-    - content: Upload to email templates to Marketing Execution > Marketing Emails
+    - content: Add to email templates to Marketing Execution > Marketing Emails
       explanation: You cannot upload videos directly in the Marketing Emails area
       isCorrect: false 
-    - content: Upload video to files in Marketing Content > Files
-      explanation: Files is where you add image assets. To upload a video, you must navigate to **Marketing Content > Videos**
+    - content: Add video to files in Marketing Content > Files
+      explanation: Files is where you add image assets. To add a video, you must navigate to **Marketing Content > Videos**
       isCorrect: false 
   - content: What type of file can you upload in Dynamics 365 marketing app?
     choices: 

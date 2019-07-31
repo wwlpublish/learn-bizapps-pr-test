@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.perform-custom-updates.3-deleting-records 
+title: Deleting record(s) from data sources and collections 
+metadata: 
+  title: Deleting record(s) from data sources and collections  
+  description: Deleting record(s) from data sources and collections  
+  ms.date: 04/12/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 8 
+content: | 
+ [!include[](includes/3-deleting-records.md)] 

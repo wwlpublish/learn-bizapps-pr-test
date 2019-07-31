@@ -1,0 +1,72 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.use-documentation.05-knowledge-check 
+metadata: 
+  title: Document and test your PowerApps application check your knowledge
+  description: This quiz tests your knowledge of documentation and testing.
+  ms.date: 02/14/2019 
+  author: kevsch 
+  ms.author: Kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
+title: Check your knowledge 
+durationInMinutes: 6 
+quiz: 
+  title: Document and test your PowerApps application check your knowledge
+  questions: 
+  - content: What is the smallest component of testing? 
+    choices: 
+    - content: Unit 
+      isCorrect: true 
+      explanation: A unit is the smallest component of testing, a single unit of measure. 
+    - content: User acceptance 
+      isCorrect: false 
+      explanation: This is an opportunity to have direct feedback from the actual users of the system.
+    - content: Integration 
+      isCorrect: false 
+      explanation: Refers to systems an app integrates with.  
+    - content: Performance 
+      isCorrect: false 
+      explanation: Performance relates to how efficient an app is. 
+  - content: Microsoft provides Dynamics 365 customers the ability to facilitate automated UI testing for projects. What is the name of the tool that Microsoft provides? 
+    choices: 
+    - content: Microsoft Blend for Visual Studio 
+      isCorrect: false 
+      explanation: EasyRepro is the tool Microsoft provides. 
+    - content: Test studio 
+      isCorrect: false 
+      explanation: EasyRepro is the tool Microsoft provides. 
+    - content: DirectX End-User Runtimes 
+      isCorrect: false 
+      explanation: EasyRepro is the tool Microsoft provides.   
+    - content: EasyRepro 
+      isCorrect: True 
+      explanation: EasyRepro is the tool Microsoft provides.
+  - content: When someone independently tests a task by reviewing the expectation against the work performed, what is this referred to as? 
+    choices: 
+    - content: User acceptance 
+      isCorrect: false 
+      explanation: This is referred to as quality assurance. 
+    - content: Quality assurance
+      isCorrect: true 
+      explanation: This is referred to as quality assurance. 
+    - content: Performance 
+      isCorrect: false 
+      explanation: This is referred to as quality assurance.   
+    - content: Integration 
+      isCorrect: false
+      explanation: This is referred to as quality assurance.
+  - content: You need to optimize the quick search view. What should you do?
+    choices: 
+    - content: Exclude test fields 
+      isCorrect: false 
+      explanation: You should only include columns that need to be searched. 
+    - content: Include all columns available
+      isCorrect: false 
+      explanation: You should only include columns that need to be searched.  
+    - content: Exclude data from other environments
+      isCorrect: false 
+      explanation: You should only include columns that need to be searched.     
+    - content: Only include columns that need to be searched
+      isCorrect: True 
+      explanation: You should only include columns that need to be searched.    

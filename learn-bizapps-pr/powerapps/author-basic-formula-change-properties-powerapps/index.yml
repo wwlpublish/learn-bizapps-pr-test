@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.author-basic-formula-change-properties-powerapps
+metadata: 
+  title: Author a basic formula to change properties in a PowerApps canvas app
+  description: Want to enhance your PowerApps canvas app? You can use basic formulas to make changes to control properties.  This will include changing the format, position, simple calculations, and implementing conditional formatting.
+  ms.date: 03/19/2019  
+  author: KevSch
+  ms.author: kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-powerapps  
+title: Author a basic formula to change properties in a PowerApps canvas app  
+summary: Want to enhance your PowerApps canvas app? You can use basic formulas to make changes to control properties.  This will include changing the format, position, simple calculations, and implementing conditional formatting. 
+abstract: |  
+    In this module, you will: 
+    - Understand the basics of how to use formulas in a canvas app
+    - Change the format of a date control 
+    - Use a formula to do simple calculations
+    - Change the position of an icon using a formula
+    - Understand how to implement conditional formatting in canvas apps using a formula
+prerequisites: A basic understanding of how to create a canvas app in PowerApps.  This should include adding controls to the app.  An understanding of working with data in PowerApps is also helpful but not required.       
+iconUrl: /learn/achievements/change-properties.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products:  
+- power-platform
+- powerapps
+units: 
+- learn-bizapps.change-properties.1-formula-overview
+- learn-bizapps.change-properties.2-modify-controls-format
+- learn-bizapps.change-properties.3-formula-for-calculation
+- learn-bizapps.change-properties.4-modify-control-property 
+- learn-bizapps.change-properties.5-conditional-formatting
+- learn-bizapps.change-properties.6-functions-validating-data
+- learn-bizapps.change-properties.7-knowledge-check  
+- learn-bizapps.change-properties.8-summary
+badge: 
+  uid: learn-bizapps.author-basic-formula-change-properties-powerapps.badge 

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.controls-canvas-apps.2-core-properties 
+title: Core properties of controls
+metadata: 
+  title: Core properties of controls 
+  description: Core properties of controls 
+  ms.date: 03/29/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 10 
+content: | 
+ [!include[](includes/2-core-properties.md)] 

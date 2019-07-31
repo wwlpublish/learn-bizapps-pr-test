@@ -1,10 +1,10 @@
 ### YamlMime:Module
 uid: learn-bizapps.urs-resource-scheduling-optimization
 metadata:
-  title: Resource scheduling optimization in Microsoft Dynamics 365 for Field Service - Learn
+  title: Resource scheduling optimization in Microsoft Dynamics 365 for Field Service 
   description: Organizations that have a large amount of resources to schedule may find that it is easier automatically schedule or reschedule items based on specific objectives that the organization has.  This might include optimizing existing bookings to ensure that the most qualified and closest resource is being scheduled for jobs.  By leveraging an automated scheduling solution, dispatchers are freed up to focus on exceptions, which can provide them the ability to manage large quantities of resources.  Dynamics 365 Resource Scheduling Optimization solution can be leveraged to provide automated scheduling and optimization capabilities including, an overview of what the Optimization solution provides, setup and deployment guidance, defining optimization profiles, running simulations, and best practice considerations.           
   ms.date: 02/01/2019
-  author: dbeasley
+  author: davebeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
@@ -24,10 +24,9 @@ levels:
 roles: 
 - functional-consultant
 products: 
-- bizapps
-- bizapps-d365
 - dynamics  
 - dynamics-field-service
+- dynamics-customer-engagement
 units:
 - learn-bizapps.urs-resource-scheduling-optimization.1-resource-scheduling-optimization-overview
 - learn-bizapps.urs-resource-scheduling-optimization.2-setup-and-deployment-options

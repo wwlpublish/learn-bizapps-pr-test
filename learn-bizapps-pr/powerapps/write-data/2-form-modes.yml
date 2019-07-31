@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.write-data.2-form-modes 
+title: Form modes
+metadata: 
+  title: Form modes 
+  description: Form modes 
+  ms.date: 03/15/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 7 
+content: | 
+ [!include[](includes/2-form-modes.md)] 

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.how-to-build-ui-canvas-app.2-branding-control 
+title: Branding a control
+metadata: 
+  title: Branding a control 
+  description: Branding a control 
+  ms.date: 03/29/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/2-branding-control.md)] 

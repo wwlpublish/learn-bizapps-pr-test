@@ -26,8 +26,7 @@ roles:
 products: 
 - dynamics
 - dynamics-customer-service
-- bizapps
-- bizapps-d365
+- dynamics-customer-engagement
 units:
 - learn-bizapps.customer-service-get-started.1-customer-service-get-started-overview
 - learn-bizapps.customer-service-get-started.2-customer-service-get-started-core-components

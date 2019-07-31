@@ -1,13 +1,13 @@
 ### YamlMime:Module
 uid: learn-bizapps.work-with-marketing-to-leads-and-contacts
 metadata: 
- title: Marketing to Leads and Contacts in Dynamics 365 for Marketing
- description: Prospecting is one of the most important aspects of the sales process. Dynamics 365 for Marketing has many built-in tools to facilitate prospecting including creating email messages, managing events, creating and distributing surveys, and setting up customer journeys to execute dynamic campaigns. Provided you have done the setup steps to generate leads and effectively evaluate their interest, your prospects will most likely be converted. Additionally, a month-to-month plan of your marketing initiatives displayed on a calendar format will help ensure you have a steady stream of activities to keep you top of mind for your customers and prospects.
- ms.date: 01/23/2019  
- author: dbeasley  
- ms.author: dbeasley  
- ms.topic: interactive-tutorial  
- ms.prod: learning-d365  
+  title: Marketing to Leads and Contacts in Dynamics 365 for Marketing
+  description: Prospecting is one of the most important aspects of the sales process. Dynamics 365 for Marketing has many built-in tools to facilitate prospecting including creating email messages, managing events, creating and distributing surveys, and setting up customer journeys to execute dynamic campaigns. Provided you have done the setup steps to generate leads and effectively evaluate their interest, your prospects will most likely be converted. Additionally, a month-to-month plan of your marketing initiatives displayed on a calendar format will help ensure you have a steady stream of activities to keep you top of mind for your customers and prospects.
+  ms.date: 01/23/2019  
+  author: davebeasley  
+  ms.author: dbeasley  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-d365  
 title:  Marketing to Leads and Contacts in Dynamics 365 for Marketing
 summary: Prospecting is one of the most important aspects of the sales process. Dynamics 365 for Marketing has many built in tools to facilitate prospecting including creating email messages, managing events, creating and distributing surveys, and setting up customer journeys to execute dynamic campaigns. Provided you have done the setup steps to generate leads and effectively evaluate their interest, your prospects will most likely be converted. Additionally, a month to month plan of your marketing initiatives displayed on a calendar format will help ensure that you have a steady stream of activities to keep you top of mind for your customers and prospects.
 abstract: |  
@@ -22,12 +22,12 @@ iconUrl: /learn/achievements/marketing-to-leads-and-contacts-in-dynamics-365-for
 levels:  
 - intermediate  
 roles:  
-- functional-consultant  
+- functional-consultant
+- business-user  
 products:  
-- bizapps
-- bizapps-d365
 - dynamics  
-- dynamics-marketing 
+- dynamics-marketing
+- dynamics-customer-engagement 
 units: 
 - learn-bizapps.work-with-marketing-to-leads-and-contacts.1-work-with-and-manage-marketing-email-messages 
 - learn-bizapps.work-with-marketing-to-leads-and-contacts.2-create-marketing-email-templates 
