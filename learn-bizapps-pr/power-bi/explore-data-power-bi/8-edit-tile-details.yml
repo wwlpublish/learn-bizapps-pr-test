@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.explore-data-power-bi.8-edit-tile-details 
+title: Edit tile details and add widgets
+metadata: 
+  title: Edit tile details and add widgets
+  description: Learn how to edit tile details and add widgets in Power BI.
+  ms.date: 7/31/2019 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/8-edit-tile-details.md)] 
