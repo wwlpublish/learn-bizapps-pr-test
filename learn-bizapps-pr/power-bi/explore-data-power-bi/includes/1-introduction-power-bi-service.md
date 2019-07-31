@@ -8,9 +8,6 @@ The following are the tasks that you will complete in this module:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p3lQ]
 
-
-## Introduction to the Power BI service
-
 The Power BI service is the natural extension of Power BI Desktop, and you can use its features for uploading reports, creating dashboards, and asking questions of your data by using natural language. Additionally, you can use the service to set data refresh times, share data with your organization, and create customized service packs.
 
 ## Sign in to the Power BI service
