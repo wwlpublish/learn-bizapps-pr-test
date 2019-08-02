@@ -24,7 +24,7 @@ Power Query Editor allows you to apply filters to your data. For example, select
 
 You can also merge and append queries. In other words, Power BI pulls data that you select from multiple tables or various files into a single table. Use the Append Queries tool to add the data from a new table to an existing query. Power BI Desktop attempts to match the columns in your queries, which you can then adjust as necessary in Power Query Editor.
 
-![Screnshot of the Append Queries button and dialog.](../media/05-power-bi-desktop-append-queries.png)
+![Screenshot of the Append Queries button and dialog.](../media/05-power-bi-desktop-append-queries.png)
 
 ### Write customized queries
 
