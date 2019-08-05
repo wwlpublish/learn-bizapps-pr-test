@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.visuals-in-power-bi.2-create-simple-visuals 
+title: Create and customize simple visualizations
+metadata: 
+  title: Create and customize simple visualizations
+  description: Learn how to create and customize simple visualizations in Power BI.
+  ms.date: 07/31/2019 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/2-create-simple-visuals.md)] 
