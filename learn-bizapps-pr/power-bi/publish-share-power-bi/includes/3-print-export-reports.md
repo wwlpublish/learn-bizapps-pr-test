@@ -11,7 +11,7 @@ In the Power BI service, select **Export** in the top-left side of the service a
 ## Export data from a visual
 You can also export the data from any visual in the Power BI service. Select the ellipsis on any visual and then select **Export data**. You can save to a Microsoft Excel file or a .CSV file.
 
-![Screenbshot of the "Export data" option](../media/03-power-bi-desktop-export-data.png)
+![Screenshot of the "Export data" option](../media/03-power-bi-desktop-export-data.png)
 
 You can also print or export directly from a report. When you are viewing a report in the Power BI service, select **Export > Print** to open the print dialog box.
 
