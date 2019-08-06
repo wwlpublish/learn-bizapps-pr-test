@@ -27,7 +27,7 @@ Expand **My Workspace** and select **Create a group**.
 
 Give the group a name, for example, Finance. Power BI makes sure that the name doesn't exist on the domain.
 
-![Screenbshot of the "Name your group" filed in the "Create a Group" dialog.](../media/pbi-learn06-01creategroupdialog.png)
+![Screenshot of the "Name your group" filed in the "Create a Group" dialog.](../media/pbi-learn06-01creategroupdialog.png)
 
 Set the privacy level by deciding whether anyone in your organization or only its members can see the contents of the group.
 
