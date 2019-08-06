@@ -41,12 +41,6 @@ In the **Visualizations** pane, select the **Format** tab (looks like a paint ro
 
 ![Adjust the first visual](../media/pbid-visuals_04b.png)
 
-In the **Based on field** section, expand the *RetirementStates table* and select **Overall rank**. Save changes by clicking **OK**.
-
-![Change data colors](../media/pbid-visuals_04c.png)
-
-To adjust the colors used in the map, select the desired color in the **Minimum** and **Maximum** fields. 
-
 You can adjust the size of a visual by dragging its corners or sides. Let's move this visual to the upper left before creating the next visual.
 
 Select any blank area of the canvas, so that no visual is selected. You're now ready to drag fields and create the next visual.
