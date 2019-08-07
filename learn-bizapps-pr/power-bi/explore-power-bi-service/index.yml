@@ -32,6 +32,7 @@ roles:
 products:  
 - dynamics  
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.intro-to-power-bi-service.1-why-power-bi 
 - learn-bizapps.intro-to-power-bi-service.2-find-content 
