@@ -21,7 +21,7 @@ levels:
 roles:  
 - business-analyst  
 products:  
-- dynamics  
+- power-platform  
 - power-bi 
 units: 
 - learn-bizapps.visuals-in-power-bi.1-intro-visuals 

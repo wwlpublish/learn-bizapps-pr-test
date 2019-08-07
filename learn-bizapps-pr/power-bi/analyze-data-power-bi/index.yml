@@ -23,8 +23,8 @@ levels:
 roles:  
 - business-user   
 products:  
-- dynamics  
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.analyze-explore-data-power-bi.1-filtering-data 
 - learn-bizapps.analyze-explore-data-power-bi.2-exploring-with-numbers 
