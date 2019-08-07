@@ -21,6 +21,7 @@ roles:
 - business-user
 products:
 - power-bi
+- power-platform
 modules:
 - learn-bizapps.intro-to-power-bi-service
 - learn-bizapps.analyze-explore-data-power-bi
