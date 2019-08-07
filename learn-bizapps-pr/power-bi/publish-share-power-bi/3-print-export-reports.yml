@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.publish-share-power-bi.3-print-export-reports 
+title: Print and export dashboards and reports
+metadata: 
+  title: Print and export dashboards and reports
+  description: Learn how to print and export dashboards and reports in Power BI Desktop.
+  ms.date: 07/31/2019 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/3-print-export-reports.md)] 
