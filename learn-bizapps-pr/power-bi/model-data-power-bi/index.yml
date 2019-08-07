@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.model-data-power-bi 
+metadata: 
+ title: Model data in Power BI
+ description: This module will show you how to connect to multiple data sources to create reports by using the model data in Power BI to help you define the relationship between the sources. 
+ ms.date: 07/15/2019  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Model data in Power BI
+summary: This module will show you how to connect to multiple data sources to create reports by using the model data in Power BI to help you define the relationship between the sources. 
+abstract: |  
+    In this module, you will: 
+      - Create relationships between your data sources 
+      - Create a new field with calculated columns
+      - Optimize data by hiding fields and sorting visualization data
+      - Create a measure to perform calculations on your data
+      - Use a calculated table to create a relationship between two tables
+      - Format time-based data so that you can drill down for more details
+prerequisites: Access to Power BI Desktop 
+iconUrl: /learn/achievements/model-data-with-power-bi-desktop.svg 
+levels:  
+- intermediate   
+roles:  
+- business-analyst  
+products:  
+- dynamics  
+- power-bi 
+units: 
+- learn-bizapps.model-data-power-bi.1-overview-power-bi 
+- learn-bizapps.model-data-power-bi.2-how-to-manage-data-relationships 
+- learn-bizapps.model-data-power-bi.3-create-calculated-columns 
+- learn-bizapps.model-data-power-bi.4-optimize-data-models 
+- learn-bizapps.model-data-power-bi.4b-create-calculated-measures
+- learn-bizapps.model-data-power-bi.5-create-calculated-tables 
+- learn-bizapps.model-data-power-bi.6-explore-time-based-data 
+- learn-bizapps.model-data-power-bi.7-check 
+- learn-bizapps.model-data-power-bi.8-summary 
+badge: 
+  uid: learn-bizapps.model-data-with-power-bi-desktop.badge 

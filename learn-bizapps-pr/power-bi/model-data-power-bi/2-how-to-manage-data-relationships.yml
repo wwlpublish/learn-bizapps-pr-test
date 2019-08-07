@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.model-data-power-bi.2-how-to-manage-data-relationships 
+title: How to manage your data relationships
+metadata: 
+  title: How to manage your data relationships
+  description: Learn how to manage your data relationships in Power BI Desktop.
+  ms.date: 07/15/2019 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/2-how-to-manage-data-relationships.md)] 
