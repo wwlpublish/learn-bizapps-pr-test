@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.visuals-in-power-bi 
+metadata: 
+ title: Use visuals in Power BI
+ description: This module explains how to use visuals in Power BI.
+ ms.date: 07/31/2019  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Use visuals in Power BI
+summary: This module explains how to use visuals in Power BI.
+abstract: |  
+    In this module, you will: 
+    - Explore Power BI visuals
+    - Create visuals
+prerequisites: Access to Power BI Desktop 
+iconUrl: /learn/achievements/create-visuals-power-bi-desktop.svg
+levels:  
+- intermediate   
+roles:  
+- business-analyst  
+products:  
+- dynamics  
+- power-bi 
+units: 
+- learn-bizapps.visuals-in-power-bi.1-intro-visuals 
+- learn-bizapps.visuals-in-power-bi.2-create-simple-visuals 
+- learn-bizapps.visuals-in-power-bi.4-create-slicers 
+- learn-bizapps.visuals-in-power-bi.5-map-visualizations 
+- learn-bizapps.visuals-in-power-bi.6-create-matrixes-tables 
+- learn-bizapps.visuals-in-power-bi.7-create-scatter-charts 
+- learn-bizapps.visuals-in-power-bi.10-modify-colors 
+- learn-bizapps.visuals-in-power-bi.12-formatting  
+- learn-bizapps.visuals-in-power-bi.20-check 
+- learn-bizapps.visuals-in-power-bi.21-summary 
+badge: 
+  uid: learn-bizapps.create-visuals-power-bi-desktop.badge 

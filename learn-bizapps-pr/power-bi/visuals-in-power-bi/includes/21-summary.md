@@ -1,0 +1,1 @@
+*Visuals* allow you to better communicate information that is hidden in raw data. Visuals can highlight obscure trends in ways that tabular data might not. Power BI includes many compelling visuals that you can use to illuminate your data and tell better stories. 
