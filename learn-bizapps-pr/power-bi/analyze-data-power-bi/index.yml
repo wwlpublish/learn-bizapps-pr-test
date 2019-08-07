@@ -23,7 +23,6 @@ levels:
 roles:  
 - business-user   
 products:  
-- dynamics  
 - power-bi 
 - power-platform
 units: 
