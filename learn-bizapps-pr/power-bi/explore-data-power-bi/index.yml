@@ -22,7 +22,6 @@ levels:
 roles:  
 - business-analyst  
 products:  
-- dynamics  
 - power-bi 
 - power-platform
 units: 
