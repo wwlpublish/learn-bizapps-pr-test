@@ -18,7 +18,7 @@ abstract: |
     - Manage templates.
     - Integrate Dynamics 365 for Marketing with LinkedIn.
     - Connect Dynamics 365 for Marketing to Power BI.
-prerequisites: Target audience should have a basic understanding of how to navigate the Dynamics 365 application. A basic understanding of what the Marketing application. 
+prerequisites: Target audience should have a basic understanding of how to navigate the Dynamics 365 application and a basic understanding of the Marketing application. 
 iconUrl: /learn/achievements/advanced-configuration-marketing.svg  
 levels:  
 - intermediate  
