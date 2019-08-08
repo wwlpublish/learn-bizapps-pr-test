@@ -22,7 +22,8 @@ prerequisites: Target audience should have a basic understanding of how to navig
 iconUrl: /learn/achievements/advanced-configuration-marketing.svg  
 levels:  
 - intermediate  
-roles:  
+roles: 
+- administrator
 - functional-consultant
 - business-user   
 products:  
