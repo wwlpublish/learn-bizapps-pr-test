@@ -2,14 +2,14 @@
 uid: learn-bizapps.publish-share-power-bi 
 metadata: 
  title: Publish and share in Power BI
- description: This module explains how to publish and share your reports and dashboards with Power BI Desktop.
+ description: Publish and share your Power BI reports and dashboards to teammates in your organization or to everyone on the web. 
  ms.date: 07/31/2019  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
 title: Publish and share in Power BI
-summary: This module explains how to publish and share your reports and dashboards with Power BI Desktop.
+summary: Publish and share your Power BI reports and dashboards to teammates in your organization or to everyone on the web. 
 abstract: |  
     In this module, you will: 
     - Publish reports
