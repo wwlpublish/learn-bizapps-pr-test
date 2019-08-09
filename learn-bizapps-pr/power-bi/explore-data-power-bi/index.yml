@@ -2,14 +2,14 @@
 uid: learn-bizapps.explore-data-power-bi 
 metadata: 
  title: Explore data in Power BI
- description: This module explores data in the Power BI service and shows how you can turn your business intelligence data into data insights. 
+ description: Turn your business intelligence data into data insights by creating and configuring Power BI dashboards. 
  ms.date: 7/15/2019  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
 title: Explore data in Power BI
-summary: This module explores data in Power BI service and shows how you can turn your business intelligence data into data insights. 
+summary: Turn your business intelligence data into data insights by creating and configuring Power BI dashboards. 
 abstract: |  
     In this module, you will: 
     - Upload reports
