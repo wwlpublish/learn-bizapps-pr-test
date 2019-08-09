@@ -2,14 +2,14 @@
 uid: learn-bizapps.get-data-power-bi 
 metadata: 
  title: Get data with Power BI Desktop
- description: In this module, you'll learn how to find and collect data from different sources, how to clean or transform the data, and you'll also learn about the tricks to make data-gathering easier with Microsoft Power BI Desktop. 
+ description: How can you find, collect, and clean data from different sources? Power BI is a tool for making sense of your data. You will learn tricks to make data-gathering easier.
  ms.date: 07/15/2019  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
 title: Get data with Power BI Desktop
-summary: In this module, you'll learn how to find and collect data from different sources, how to clean or transform the data, and you'll also learn about the tricks to make data-gathering easier with Microsoft Power BI Desktop. 
+summary: How can you find, collect, and clean data from different sources? Power BI is a tool for making sense of your data. You will learn tricks to make data-gathering easier.
 abstract: |  
     In this module, you will: 
     - Explore the data-centric features and tools of Power BI.
