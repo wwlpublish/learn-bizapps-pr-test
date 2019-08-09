@@ -2,14 +2,14 @@
 uid: learn-bizapps.model-data-power-bi 
 metadata: 
  title: Model data in Power BI
- description: This module will show you how to connect to multiple data sources to create reports by using the model data in Power BI to help you define the relationship between the sources. 
+ description: Connect Power BI to multiple data sources to create reports. Define the relationship between your data sources. 
  ms.date: 07/15/2019  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
 title: Model data in Power BI
-summary: This module will show you how to connect to multiple data sources to create reports by using the model data in Power BI to help you define the relationship between the sources. 
+summary: Connect Power BI to multiple data sources to create reports. Define the relationship between your data sources. 
 abstract: |  
     In this module, you will: 
       - Create relationships between your data sources 
