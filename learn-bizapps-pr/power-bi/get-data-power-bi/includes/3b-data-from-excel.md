@@ -7,7 +7,7 @@ In this unit, you will bring Excel workbooks into Power BI.
 &nbsp;
 
 **Video**: 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3nkKG]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3nkKG]
 
 This unit explains how you can import an Excel workbook file that contains a simple table from a local drive into Power BI. You'll then learn how to begin exploring that table's data in Power BI by creating a report.
 
