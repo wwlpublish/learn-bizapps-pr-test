@@ -1,6 +1,6 @@
 Power BI Desktop connects to many types of data sources, including local databases, worksheets, and data on cloud services. Sometimes when you gather data, it's not quite as structured, or clean, as you want it to be. To structure data, you can transform it, meaning that you can split and rename columns, change data types, and create relationships between columns. 
 
-In this unit, you will:
+In this unit, you will: 
 - Connect to data. 
 - Import data into Power BI Desktop.
 
