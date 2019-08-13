@@ -1,10 +1,10 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.8-knowledge-check
 metadata:
   title: Use Microsoft Dynamics 365 queues to manage case workloads
   description: This knowledge check tests your knowledge of using Microsoft Dynamics 365 queues to manage case workloads.
   ms.date: 02/02/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365

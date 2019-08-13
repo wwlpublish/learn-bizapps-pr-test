@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.visuals-in-power-bi.10-modify-colors 
+title: Modify colors in charts and visuals
+metadata: 
+  title: Modify colors in charts and visuals
+  description: Learn how to modify colors in charts and visuals in Power BI.
+  ms.date: 07/31/2019 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+  ROBOTS: NOINDEX 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/10-modify-colors.md)] 

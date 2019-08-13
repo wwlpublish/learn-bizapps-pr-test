@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.shape-data.5-knowledge-check 
 metadata: 
- title: Shape data in a PowerApps canvas app knowledge check 
- description: Shape data in a PowerApps canvas app knowledge check 
- ms.date: 03/15/2019 
- author: kschimke 
- ms.author: kschimke 
- ms.topic: interactive-tutorial 
- ms.prod: learning-powerapps 
- ROBOTS: NOINDEX 
+  title: Shape data in a PowerApps canvas app knowledge check 
+  description: Shape data in a PowerApps canvas app knowledge check 
+  ms.date: 03/15/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 

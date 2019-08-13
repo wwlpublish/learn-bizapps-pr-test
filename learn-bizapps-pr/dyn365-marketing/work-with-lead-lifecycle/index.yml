@@ -1,13 +1,13 @@
 ### YamlMime:Module 
 uid: learn-bizapps.work-with-lead-lifecycle
 metadata: 
- title: Lead Lifecycle in Dynamics 365 for Marketing
- description: Turn prospects into business relationships by creating and developing leads across multiple channels. You will learn how to create segments, manage account-based marketing, and utilize lead scoring models to help amplify your efficiency and effectiveness in lead prioritization and conversion. 
- ms.date: 01/23/2019   
- author: davebeasley  
- ms.author: dbeasley  
- ms.topic: interactive-tutorial  
- ms.prod: learning-d365  
+  title: Lead Lifecycle in Dynamics 365 for Marketing
+  description: Turn prospects into business relationships by creating and developing leads across multiple channels. You will learn how to create segments, manage account-based marketing, and utilize lead scoring models to help amplify your efficiency and effectiveness in lead prioritization and conversion. 
+  ms.date: 01/23/2019   
+  author: davebeasley  
+  ms.author: dbeasley  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-d365  
 title: Lead Lifecycle in Dynamics 365 for Marketing 
 summary: Turn prospects into business relationships by creating and developing leads across multiple channels. You will learn how to create segments, manage account-based marketing, and utilize lead scoring models to help amplify your efficiency and effectiveness in lead prioritization and conversion. 
 abstract: |  

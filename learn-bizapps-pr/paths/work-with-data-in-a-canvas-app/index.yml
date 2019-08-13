@@ -4,7 +4,7 @@ metadata:
   title: Work with data in a PowerApps canvas app
   description: Do you need to connect an app to access data? Then this learning path is for you. It will focus on how to connect to data sources. It also will show you how to use filtering, conditions, and other functions to shape your data and write data to your data source.
   ms.date: 03/15/2019
-  author: kschimke
+  author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps

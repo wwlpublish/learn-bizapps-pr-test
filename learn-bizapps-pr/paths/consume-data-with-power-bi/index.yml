@@ -4,7 +4,7 @@ metadata:
   title: Consume data with Power BI
   description: Do you want to make business decisions backed by data? Learn how to do that in Power BI. Learn to work in Power BI to review and interact with this content to make business decisions.  
   ms.date:  04/26/2019
-  author: robde
+  author: HeyRob
   ms.author: robde
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
@@ -21,6 +21,7 @@ roles:
 - business-user
 products:
 - power-bi
+- power-platform
 modules:
 - learn-bizapps.intro-to-power-bi-service
 - learn-bizapps.analyze-explore-data-power-bi

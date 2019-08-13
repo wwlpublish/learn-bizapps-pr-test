@@ -1,0 +1,58 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.visuals-in-power-bi.20-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned.
+ ms.date: 07/31/2019 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-d365 
+ ROBOTS: NOINDEX 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned.
+  questions: 
+  - content: You want your report readers to be able to view your bar chart visual for any year that they choose. What tool could you use?
+    choices: 
+    - content: Conditional formatting
+      isCorrect: false 
+      explanation: A slicer is an on-canvas visual filter in Power BI Desktop that lets anyone who is looking at a report segment the data by a particular value, such as by year or by geographical location. 
+    - content: Slicer 
+      isCorrect: true 
+      explanation: A slicer is an on-canvas visual filter in Power BI Desktop that lets anyone who is looking at a report segment the data by a particular value, such as by year or by geographical location. 
+    - content: Treemap 
+      isCorrect: false 
+      explanation: A slicer is an on-canvas visual filter in Power BI Desktop that lets anyone who is looking at a report segment the data by a particular value, such as by year or by geographical location. 
+    - content: Z-order 
+      isCorrect: false 
+      explanation: A slicer is an on-canvas visual filter in Power BI Desktop that lets anyone who is looking at a report segment the data by a particular value, such as by year or by geographical location. 
+  - content: If you were very happy the appearance of a report and wanted the next report to look the same, what would be the best method?
+    choices: 
+    - content: Export the report to PDF and then import the PDF with a different name
+      isCorrect: false 
+      explanation: The quickest way to reuse a good report layout is to right-click the report page tab and select "Duplicate Page".
+    - content: Right-click the report page tab and select "Duplicate Page" 
+      isCorrect: true 
+      explanation: The quickest way to reuse a good report layout is to right-click the report page tab and select "Duplicate Page".
+    - content: Publish the report to a different location
+      isCorrect: false 
+      explanation: The quickest way to reuse a good report layout is to right-click the report page tab and select "Duplicate Page".
+    - content: Use the "New Quick Measure" feature
+      isCorrect: false 
+      explanation: The quickest way to reuse a good report layout is to right-click the report page tab and select "Duplicate Page".
+  - content: Which scenario would be a good case for using bubble maps?
+    choices: 
+    - content: You want to see months with the highest sales by country.
+      isCorrect: false 
+      explanation: The size and color of bubble maps clearly show one or two values on a map for each country. Total revenue is a good example. 
+    - content: You want to see the types of products sold in each country. 
+      isCorrect: false 
+      explanation: The size and color of bubble maps clearly show one or two values on a map for each country. Total revenue is a good example. 
+    - content: You want to see sales by age group.
+      isCorrect: false 
+      explanation: The size and color of bubble maps clearly show one or two values on a map for each country. Total revenue is a good example. 
+    - content: You want to see total revenue by country.
+      isCorrect: true 
+      explanation: The size and color of bubble maps clearly show one or two values on a map for each country. Total revenue is a good example. 
