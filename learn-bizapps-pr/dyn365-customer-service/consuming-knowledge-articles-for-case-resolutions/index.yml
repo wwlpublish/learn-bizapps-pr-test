@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Consuming Knowledge Articles for Case Resolutions in Dynamics 365 for Customer Service
-summary: This module will focus on how to use the Knowledge Management capabilities of Dynamics 365 to resolve cases inside Dynamics 365 including how to customize Dynamics 365 entities to consume Knowledge Articles, searching for and linking knowledge Articles, controlling article display options, and using article analytics to drive Knowledge Manage options.      
+summary: |
+    [!include[](../includes/banner.md)]
+    
+    This module will focus on how to use the Knowledge Management capabilities of Dynamics 365 to resolve cases inside Dynamics 365 including how to customize Dynamics 365 entities to consume Knowledge Articles, searching for and linking knowledge Articles, controlling article display options, and using article analytics to drive Knowledge Manage options.      
 abstract: |
     [!include[](../includes/banner.md)]
 
