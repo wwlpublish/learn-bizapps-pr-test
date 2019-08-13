@@ -12,4 +12,5 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](includes/2-enabling-and-configuring-entities-for-knowledge-search.md)]
+  [!include[](../includes/banner.md)]
+    [!include[](includes/2-enabling-and-configuring-entities-for-knowledge-search.md)]

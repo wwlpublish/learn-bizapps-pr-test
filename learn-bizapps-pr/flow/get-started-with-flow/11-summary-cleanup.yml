@@ -12,4 +12,5 @@ metadata:
 title: Summary
 durationInMinutes: 2
 content: |
+ [!include[](../includes/banner.md)]
  [!include[](includes/11-summary-cleanup.md)]
