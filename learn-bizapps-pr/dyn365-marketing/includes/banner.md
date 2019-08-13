@@ -1,2 +1,2 @@
 > [!IMPORTANT]
-> This module will be temporarily unavailable on August 21, 2019.
+> This content will be temporarily unavailable on August 21, 2019.
