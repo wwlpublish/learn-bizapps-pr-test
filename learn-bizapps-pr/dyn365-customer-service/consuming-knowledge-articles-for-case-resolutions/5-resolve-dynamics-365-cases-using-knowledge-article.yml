@@ -12,5 +12,5 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
+  [!include[](../banners/banner.md)]
   [!include[](includes/5-resolve-dynamics-365-cases-using-knowledge-article.md)]
