@@ -6,7 +6,7 @@ In this unit, you will combine data from different sources by using Query Editor
 
 &nbsp;
 
-**Video**: 
+**Video**: Modeling and transforming data
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3nkKp]
 
 ## Add more data sources

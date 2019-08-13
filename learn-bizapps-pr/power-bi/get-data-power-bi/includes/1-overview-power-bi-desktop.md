@@ -20,11 +20,11 @@ You can download Power BI Desktop from the web or as an app from the Microsoft S
 
 | Download Strategy | Link | Notes |
 |-------------------|------|-----------------------------------|
-| Windows Store App | <a href="https://aka.ms/pbidesktopstore" target="_blank">Windows Store</a>| Will automatically stay updated |
+| Windows Store App | <a href="https://go.microsoft.com/fwlink/?linkid=2101122" target="_blank">Windows Store</a>| Will automatically stay updated |
 | Download from web | [Download .msi](http://go.microsoft.com/fwlink/?LinkID=521662) | Must manually update periodically |
 
 ## Sign in to Power BI service
-Before you can sign in to Power BI, you'll need an account. To get a free trial, go to <a href="https://app.powerbi.com" target="_blank">app.powerbi.com</a> and sign up with your email address. 
+Before you can sign in to Power BI, you'll need an account. To get a free trial, go to <a href="https://go.microsoft.com/fwlink/?linkid=2101313" target="_blank">app.powerbi.com</a> and sign up with your email address. 
 
 For detailed steps on setting up an account, see [Sign in to Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-sign-in).
 
