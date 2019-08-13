@@ -12,5 +12,5 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
-  [!include[](../banners/banner.md)]
+  [!include[](../includes/banner.md)]
   [!include[](includes/8-summary.md)]
