@@ -12,4 +12,5 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/4-searching-for-knowledge-articles.md)]
