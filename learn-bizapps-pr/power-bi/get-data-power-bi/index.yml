@@ -26,7 +26,7 @@ products:
 units: 
 - learn-bizapps.get-data-power-bi.1-overview-power-bi-desktop 
 - learn-bizapps.get-data-power-bi.2-getting-started-power-bi-desktop 
-- learn-bizapps.get-data-power-bi.3-connect-data-sources-power-bi-desktop 
+- learn-bizapps.get-data-power-bi.3-connnect-data-sources-power-bi-desktop 
 - learn-bizapps.get-data-power-bi.3b-data-from-excel 
 - learn-bizapps.get-data-power-bi.4-clean-data-query-editor 
 - learn-bizapps.get-data-power-bi.5-advanced-data-sources-transformation 
