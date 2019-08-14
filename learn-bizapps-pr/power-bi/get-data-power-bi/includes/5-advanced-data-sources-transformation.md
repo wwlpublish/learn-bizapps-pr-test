@@ -6,8 +6,8 @@ In this unit, you will combine data from different sources by using Query Editor
 
 &nbsp;
 
-**Video**: 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3nkKp]
+**Video**: Modeling and transforming data
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3nkKp]
 
 ## Add more data sources
 
@@ -32,4 +32,4 @@ You can use the Add Custom Column tool to write new customized query expressions
 
 ![Screenshot of the Custom Column button and dialog.](../media/05-power-bi-desktop-custom-column.png)
 
-For more information, see [Tutorial: Shape and combine data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data).
+For more information, see [Tutorial: Shape and combine data in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-shape-and-combine-data/?azure-portal=true).

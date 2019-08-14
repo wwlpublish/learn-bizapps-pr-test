@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
-durationInMinutes: 5 
+durationInMinutes: 10
 content: | 
  [!include[](includes/2-getting-started-power-bi-desktop.md)] 
