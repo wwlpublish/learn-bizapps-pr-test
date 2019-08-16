@@ -1,5 +1,6 @@
 Occasionally, you might want to modify the colors that are used in charts or visuals. Power BI gives you control over how colors are displayed. To begin, select a visual and then select the paintbrush icon in the Visualizations pane.
 
+**Video**: Modify colors
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oQlW]
 
   ![Image of a visual button on the Visualizations pane and its formatting options.](../media/02-power-bi-desktop-visual-format.png)

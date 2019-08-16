@@ -6,7 +6,7 @@ The following are the tasks that you'll complete in this module:
 
 ![Conceptual graphic of the tasks in this module.](../media/01-power-bi-desktop-overview.png)
 
-
+**Video**: Introduction to visuals
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kWsR]
 
 This unit begins with the mainstays of visualizations, the simple visuals that everyone's familiar with, to make sure that you know the particulars of them. The rest of the module will provide more advanced, or at least less common, details to enhance your report-creating knowledge.

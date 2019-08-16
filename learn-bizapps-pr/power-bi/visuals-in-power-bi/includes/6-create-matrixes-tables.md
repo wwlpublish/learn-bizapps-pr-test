@@ -1,5 +1,6 @@
 You can use Power BI Desktop to create graphical and tabular visuals.
 
+**Video**: Create tables
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p0Lt]
 
 If you have numerical information in a table, such as revenue, a total sum will appear at the bottom. You can manually sort by each column by selecting the column header to switch ascending or descending order. If a column isn't wide enough to display all its contents, select and drag the column header to expand it.
