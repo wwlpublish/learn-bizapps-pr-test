@@ -1,5 +1,6 @@
 Dashboards in Power BI are one-page collections of visualizations that are created from within the Power BI service. You can create dashboards by pinning visuals from reports. 
 
+**Video**: Create a dashboard
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oYa2]
 
 Pinning a visual to a dashboard is a lot like pinning a picture to a corkboard on a wall, where the visual is pinned to a particular spot for others to see. To pin a visual, open its report on the Power BI service. Hover over the visual that you want to pin and select the pin icon.
