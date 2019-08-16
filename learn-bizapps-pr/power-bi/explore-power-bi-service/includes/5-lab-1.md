@@ -61,7 +61,7 @@ Congratulations. You are the new sales manager at a clothing manufacturing compa
 ### Report and accessibility display options
 Reports are viewed on many different devices, with varying screen sizes and aspects. The View menu has many options that control how your report page displays. Select the option that works best for your screen size, your audience, or your personal preference. Try the following:
 
-1.  Select the **Total Units** tile to ope the associated report. 
+1.  Select the **Total Units** tile to open the associated report. 
 
 2. From the upper menubar, select **View.**
 
