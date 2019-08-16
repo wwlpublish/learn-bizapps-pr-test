@@ -1,5 +1,6 @@
 To keep track of your data while you're on the move, you can use one of Power BI's touch-friendly mobile applications for iOS, Android, or Windows devices.
 
+**Video**: Introducing Power BI mobile apps
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oYa4]
 
 Sign in to your account by using your Power BI service account information. The first screen displays all the content to which you have access, including reports, dashboards, and groups. The workspace also includes sample dashboards that you can explore for inspiration.
