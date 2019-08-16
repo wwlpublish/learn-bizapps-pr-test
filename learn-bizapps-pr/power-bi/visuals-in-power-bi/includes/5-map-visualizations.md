@@ -1,5 +1,6 @@
 Power BI has two different types of map visualizations: a bubble map that places a bubble over a geographic point, and a shape map that shows the outline of the area that you want to visualize.
 
+**Video**: Map visuals
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p3lR]
 
 ![Image of outline and bubble map visualizations.](../media/3-5-1.png)
