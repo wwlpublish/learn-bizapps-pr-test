@@ -7,7 +7,7 @@ In this unit, you will transform data with Power Query Editor.
 &nbsp;
 
 **Video**: Transform data
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3nva7]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x9uw]
 
 
 ### Launch Power Query Editor
