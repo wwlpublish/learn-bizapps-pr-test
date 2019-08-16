@@ -5,7 +5,7 @@ Tasks in this module include:
 
 
 **Video**: Optimize data models
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wRhh]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhh]
 
 ## Hide fields
 To hide a field in the Fields pane of Power BI Desktop, right-click the column and select **Hide**. Your hidden fields aren't deleted. If you've used a hidden field in existing visuals, the data is still there; the hidden field just isn't displayed on the Fields pane.

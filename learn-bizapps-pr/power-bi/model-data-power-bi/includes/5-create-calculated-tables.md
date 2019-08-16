@@ -4,7 +4,7 @@ Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/05-power-bi-desktop-overview.png)
 
 **Video**: Create calculated tables
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x9vn]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9vn]
 
 To create a calculated table, go to **Data view** in Power BI Desktop, which you can activate from the left side of the report canvas. Select **New Table** from the **Modeling** tab to open the formula bar.
 
