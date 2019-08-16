@@ -5,7 +5,7 @@ Tasks in this unit include:
 
 &nbsp;
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kTRO]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wRhg]
 
 In the Model view, notice that a block represents each table and its columns and that lines between them represent relationships.
 
