@@ -3,9 +3,8 @@ Analyzing time-based data with Power BI is a simple process. The modeling tools 
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/06-power-bi-desktop-overview.png)
 
-&nbsp;
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kEeV]
+**Video**: Explore time based data
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x6SD]
 
 When you create a table visualization in your report by using a date field, Power BI Desktop automatically includes breakdowns by time period. For example, the single date field in the **Date** table was automatically separated into Year, Quarter, Month, and Day by Power BI.
 

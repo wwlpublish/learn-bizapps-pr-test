@@ -3,8 +3,7 @@ The **Model view** in Power BI Desktop allows you to visually set the relationsh
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/02-power-bi-desktop-overview.png)
 
-&nbsp;
-
+**Video**: Manage data relationships
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wRhg]
 
 In the Model view, notice that a block represents each table and its columns and that lines between them represent relationships.
