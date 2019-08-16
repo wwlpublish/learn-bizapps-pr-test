@@ -1,6 +1,7 @@
 Slicers are one of the most powerful types of visualizations, particularly as part of a busy report. A *slicer* is an on-canvas visual filter that allows report users to segment the data by a specific value. Examples of filters include by year or by geographical location.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oNLf]
+**Video**: Create slicers
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x1Gn]
 
 To add a slicer to your report, select **Slicer** from the Visualizations pane.
 

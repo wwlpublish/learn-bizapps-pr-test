@@ -3,6 +3,9 @@ Calculated tables is a function within DAX. Most of the time, you can import dat
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/05-power-bi-desktop-overview.png)
 
+**Video**: Create calculated tables
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9vn]
+
 To create a calculated table, go to **Data view** in Power BI Desktop, which you can activate from the left side of the report canvas. Select **New Table** from the **Modeling** tab to open the formula bar.
 
 Type the name of your new table, the equal sign, and the calculation that you want to use to form the table. Your new table will appear on the Fields pane in your model.

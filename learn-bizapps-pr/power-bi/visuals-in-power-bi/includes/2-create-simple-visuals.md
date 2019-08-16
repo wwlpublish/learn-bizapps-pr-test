@@ -1,6 +1,7 @@
 This unit explains how to create new bar charts, pie charts, and tree maps, and how to customize these elements to suit your reports.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p0Le]
+**Video**: Create simple visuals
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x1Gm]
 
 Two ways to create a new visualization in Power BI Desktop are:
 

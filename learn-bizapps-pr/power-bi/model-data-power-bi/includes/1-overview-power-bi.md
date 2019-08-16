@@ -10,7 +10,7 @@ Tasks in this module:
 
 ![Conceptual graphic of the tasks in this module.](../media/02-task-overview.gif)
 
-
+**Video**: Overview of modeling data
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kOEV]
 
 In Power BI, you can create a *relationship* to create a logical connection between different data sources. A relationship enables Power BI to connect tables to one another so that you can create visuals and reports. This module describes data-centric relationships and how to create relationships when none exists.

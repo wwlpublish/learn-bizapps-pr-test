@@ -1,5 +1,6 @@
 The Power BI service can automatically look for insights in a dashboard, report, or dataset. 
 
+**Video**: Quick insights
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oNL1]
 
 From the **Datasets** section, select the ellipsis beside the dataset that you're interested in and then select **Get quick insights**.

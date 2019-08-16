@@ -1,6 +1,7 @@
 Power BI Desktop gives you the ability to control the layout and formatting of your report pages, such as size and orientation.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oVyB]
+**Video**: Format reports
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x6SN]
 
 Use the **Page View** menu from the **View** tab to change the way that your report pages scale. The available options include **Fit To Page** (default), **Fit To Width**, and **Actual Size**.
 
@@ -19,6 +20,7 @@ Another option is to select Cortana, which sizes the report so that it can be us
 ## Add static elements
 Along with data-bound visuals, you can also add static elements such as text boxes, images, and shapes to improve the visual design of your reports. To add a visual element, select **Text Box**, **Image**, or **Shapes** from the **Home** tab.
 
+**Video**: Add a visual element
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p0Ls]
 
 ![Screenshot of the "Text box", "Image", and "Shapes" buttons on the Home tab.](../media/12-power-bi-desktop-text-image-shape.png)
@@ -32,6 +34,7 @@ You can insert five types of **Shapes**, including rectangles and arrows. Shapes
 ## Manage how elements overlap
 When you have several elements on a report, Power BI lets you manage how they overlap with each other. This ordering of layers is known as the *z-order*.
 
+**Video**: Manage the z-order of elements
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oQlS]
 
 To manage the z-order of elements in a report, select an element and use the **Bring forward** and **Send backward** buttons on the **Visual tools** tab.

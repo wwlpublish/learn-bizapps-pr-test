@@ -3,7 +3,8 @@
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/02-power-bi-desktop-overview.png)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kOET]
+**Video**: Create calculated measures
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wWvJ]
 
 
 ## Create a measure

@@ -1,5 +1,6 @@
 In this unit, you will create a group that defines a set of users who have access to specific dashboards, reports, and data.
 
+**Video**: Create workspaces
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oNLh]
 
 Workspaces are places to collaborate with colleagues to create and refine collections of dashboards, reports, and paginated reports. There are two types of groups in Power BI:

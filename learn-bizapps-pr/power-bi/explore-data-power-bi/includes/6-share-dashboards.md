@@ -1,5 +1,6 @@
 Power BI reports help you find data, collect it in a data model, and build reports and visualizations. These features are even more powerful when you share your insights with others in your organization.
 
+**Video**: Share dashboards
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p0Lp]
 
 To share a dashboard, open it in the Power BI service and select the **Share** link in the top left-hand corner.

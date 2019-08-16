@@ -1,6 +1,7 @@
 You might find that you have more content than you can fit on a canvas. You can get a full view of your dashboard content by managing how dashboard space is displayed.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oSXo]
+**Video**: Get more space on your dashboard
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wZ5j]
 
 The easiest method to display your entire dashboard in one screen is to select the **Full Screen Mode** button in the top right-hand corner of the dashboard.
 
