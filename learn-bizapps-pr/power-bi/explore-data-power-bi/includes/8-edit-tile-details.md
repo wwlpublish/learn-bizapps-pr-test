@@ -1,6 +1,7 @@
 After you've built a dashboard, you can format your tiles in the Power BI service.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p0Lf]
+**Video**: Edit tile details
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9vT]
 
 To modify a tile, hover over and select the ellipsis to see the choices that are shown in the following screenshot.
 

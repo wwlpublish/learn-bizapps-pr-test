@@ -1,5 +1,6 @@
 ﻿Sometimes, the fastest way to get answers about your data is by asking questions in the Q&A feature of Power BI. 
 
+**Video**: Ask questions in natural language
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x4jC]
 
 > [!NOTE]

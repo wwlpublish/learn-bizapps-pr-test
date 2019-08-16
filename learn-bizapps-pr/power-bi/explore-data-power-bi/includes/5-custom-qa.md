@@ -1,6 +1,7 @@
 With Power BI, you can add your own suggested questions for others who use the natural language query box. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oYa3]
+**Video**: Adding custom questions
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x4jD]
 
 Users will see your suggested questions when they ask a question.
 
