@@ -28,7 +28,7 @@ quiz:
     - content: Z-order 
       isCorrect: false 
       explanation: A slicer is an on-canvas visual filter in Power BI Desktop that lets anyone who is looking at a report segment the data by a particular value, such as by year or by geographical location. 
-  - content: If you were very happy the appearance of a report and wanted the next report to look the same, what would be the best method?
+  - content: If you were very satisfied with the appearance of a report and wanted the next report to look the same, what would be the best method?
     choices: 
     - content: Export the report to PDF and then import the PDF with a different name
       isCorrect: false 
