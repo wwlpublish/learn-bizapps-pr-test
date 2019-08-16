@@ -1,6 +1,6 @@
 ﻿Sometimes, the fastest way to get answers about your data is by asking questions in the Q&A feature of Power BI. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oQm1]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x4jC]
 
 > [!NOTE]
 > Currently, Power BI Q&A only supports answering queries that are asked in English; however, a preview is available for Spanish that can be enabled by your Power BI administrator.
