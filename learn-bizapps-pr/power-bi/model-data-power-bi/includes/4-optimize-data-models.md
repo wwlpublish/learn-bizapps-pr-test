@@ -3,11 +3,9 @@ Imported data often contains fields that you don't need for your reporting and v
 Tasks in this module include:
 ![Conceptual graphic of the tasks in this module.](../media/04-power-bi-desktop-overview.png)
 
-&nbsp;
 
-
-**Video**: 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kRgR]
+**Video**: Optimize data models
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wRhh]
 
 ## Hide fields
 To hide a field in the Fields pane of Power BI Desktop, right-click the column and select **Hide**. Your hidden fields aren't deleted. If you've used a hidden field in existing visuals, the data is still there; the hidden field just isn't displayed on the Fields pane.
