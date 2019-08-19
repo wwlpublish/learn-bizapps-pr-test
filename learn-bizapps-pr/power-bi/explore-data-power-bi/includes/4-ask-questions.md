@@ -40,4 +40,4 @@ You can also tell Q&A which visual to use by adding it to your question. Q&A wil
 
 ![Image of Q&A answer but with "by pie chart" added to the question.](../media/04-power-bi-ask-answer-by-chart-type.png)
 
-For more information, see [Create a visual with Power BI Q&A](https://docs.microsoft.com/power-bi/power-bi-visualization-introduction-to-q-and-a).
+For more information, see [Create a visual with Power BI Q&A](https://docs.microsoft.com/power-bi/power-bi-visualization-introduction-to-q-and-a/?azure-portal=true).

@@ -25,4 +25,4 @@ Select a dashboard tile to view the report from which it originated. You can als
 
 You can pin tiles from one dashboard to another, for example, if you have a collection of dashboards and want to create one summary board. The process is the same: hover over the tile and select the pin icon. Dashboards are simple to create and to change. You can customize your one-page dashboard to show exactly the information that it should.
 
-For more information, see [Intro to dashboards for Power BI designers](https://docs.microsoft.com/power-bi/service-dashboards).
+For more information, see [Introduction to dashboards for Power BI designers](https://docs.microsoft.com/power-bi/service-dashboards/?azure-portal=true).

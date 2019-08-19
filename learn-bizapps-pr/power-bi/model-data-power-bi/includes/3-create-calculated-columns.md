@@ -30,4 +30,4 @@ When you return to the **Report** view, notice that a different value for each d
 
 ![Corrected spreadsheet with correct Revenue values by district.](../media/03-power-bi-desktop-corrected-mapping.png)
 
-For more information on calculated columns, including the use of `IF` statements, see [Tutorial: Create calculated columns in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-calculated-columns).
+For more information on calculated columns, including the use of `IF` statements, see [Tutorial: Create calculated columns in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-calculated-columns/?azure-portal=true).

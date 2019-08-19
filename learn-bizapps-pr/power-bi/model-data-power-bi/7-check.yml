@@ -8,9 +8,9 @@ metadata:
  author: heyrob 
  ms.author: robde 
  ms.topic: interactive-tutorial 
- ms.prod: learning-d365 
+ ms.prod: learning-power-bi
  ROBOTS: NOINDEX 
-durationInMinutes: 5 
+durationInMinutes: 10
 quiz: 
   title: Answer the following questions to see what you've learned.
   questions: 
@@ -61,7 +61,7 @@ quiz:
     - content: Use a calculated table
       isCorrect: true 
       explanation: Calculated tables store data in the model instead of in an external source or being calculated on the fly. 
-    - content: Select the New Parameter button 
+    - content: Select the Enter Data button 
       isCorrect: false 
       explanation: Calculated tables store data in the model instead of in an external source or being calculated on the fly. 
     - content: Select the New Measure button  
