@@ -34,4 +34,4 @@ By default, you will set relationships to cross-filter in both directions. Cross
 
 Setting accurate relationships between your data allows you to create complex calculations across multiple data elements.
 
-For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships).
+For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships/?azure-portal=true).

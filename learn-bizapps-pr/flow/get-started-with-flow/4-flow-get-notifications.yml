@@ -11,5 +11,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 5 
-content: | 
+content: |
+  [!include[](../includes/banner.md)] 
   [!include[](includes/4-flow-get-notifications.md)] 
