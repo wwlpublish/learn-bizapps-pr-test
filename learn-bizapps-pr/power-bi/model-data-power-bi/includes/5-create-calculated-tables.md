@@ -14,4 +14,4 @@ Type the name of your new table, the equal sign, and the calculation that you wa
 
 After the new table has been created, you can use your calculated table as you would any other table in relationships, formulas, and reports.
 
-For more information, see: [Using calculated tables in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-calculated-tables).
+For more information, see: [Using calculated tables in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-calculated-tables/?azure-portal=true).
