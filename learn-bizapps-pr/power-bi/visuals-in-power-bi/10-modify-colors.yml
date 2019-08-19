@@ -10,6 +10,6 @@ metadata:
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
-durationInMinutes: 5 
+durationInMinutes: 6
 content: | 
  [!include[](includes/10-modify-colors.md)] 
