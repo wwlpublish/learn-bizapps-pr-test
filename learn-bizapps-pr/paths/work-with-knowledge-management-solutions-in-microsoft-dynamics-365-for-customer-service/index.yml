@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-customer-service
 title: Work with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service
-summary: This learning path focuses on working with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service. 
+summary: |
+    [!include[](../../includes/banner.md)]
+    
+    This learning path focuses on working with Knowledge Management Solutions in Microsoft Dynamics 365 for Customer Service. 
 prerequisites: |
   - Have a trial subscription to Dynamics 365 for Customer Engagement
   - Basic understanding of how to navigate the Dynamics 365 application

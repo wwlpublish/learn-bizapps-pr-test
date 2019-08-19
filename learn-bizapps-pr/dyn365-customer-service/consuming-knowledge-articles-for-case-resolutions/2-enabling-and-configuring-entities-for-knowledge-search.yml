@@ -13,4 +13,4 @@ metadata:
 durationInMinutes: 10
 content: |
   [!include[](../includes/banner.md)]
-    [!include[](includes/2-enabling-and-configuring-entities-for-knowledge-search.md)]
+  [!include[](includes/2-enabling-and-configuring-entities-for-knowledge-search.md)]
