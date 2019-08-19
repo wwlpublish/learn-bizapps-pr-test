@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.5-resolve-dynamics-365-cases-using-knowledge-article
 title: Exercise - Resolve Microsoft Dynamics 365 cases by using knowledge articles
 metadata:
@@ -14,3 +14,4 @@ durationInMinutes: 10
 content: |
   [!include[](../includes/banner.md)]
   [!include[](includes/5-resolve-dynamics-365-cases-using-knowledge-article.md)]
+

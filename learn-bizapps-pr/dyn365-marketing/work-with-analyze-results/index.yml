@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.work-with-analyze-results
 metadata: 
   title: Analyze Results in Dynamics 365 for Marketing
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial  
   ms.prod: learning-d365  
 title: Analyze Results in Dynamics 365 for Marketing 
-summary: Make smarter decisions by monitoring multiple marketing channels, analyze detailed insights across your activities and review out-of-the box dashboards of real-time interactions. Interpret intelligence to target the right audience, utilize lead scoring models to prioritize leads, and analyze customer interaction insights from marketing pages, forms, emails, websites, and redirect URL engagements.
+summary: |
+  [!include[](../includes/banner.md)]
+
+  Make smarter decisions by monitoring multiple marketing channels, analyze detailed insights across your activities and review out-of-the box dashboards of real-time interactions. Interpret intelligence to target the right audience, utilize lead scoring models to prioritize leads, and analyze customer interaction insights from marketing pages, forms, emails, websites, and redirect URL engagements.
 abstract: |  
     In this module, you will: 
     - Perform customer insights analysis
@@ -40,3 +43,4 @@ units:
 - learn-bizapps.work-with-analyze-results.8-summary 
 badge:
   uid: learn.work-with-analyze-results.badge 
+

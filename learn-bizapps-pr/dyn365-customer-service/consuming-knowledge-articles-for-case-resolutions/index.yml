@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions
 metadata:
   title: Consuming Knowledge Articles for Case Resolutions in Dynamics 365 for Customer Service
@@ -10,9 +10,7 @@ metadata:
   ms.prod: learning-d365
 title: Consuming Knowledge Articles for Case Resolutions in Dynamics 365 for Customer Service
 summary: |
-    [!include[](../includes/banner.md)]
-    
-    This module will focus on how to use the Knowledge Management capabilities of Dynamics 365 to resolve cases inside Dynamics 365 including how to customize Dynamics 365 entities to consume Knowledge Articles, searching for and linking knowledge Articles, controlling article display options, and using article analytics to drive Knowledge Manage options.      
+  This module will focus on how to use the Knowledge Management capabilities of Dynamics 365 to resolve cases inside Dynamics 365 including how to customize Dynamics 365 entities to consume Knowledge Articles, searching for and linking knowledge Articles, controlling article display options, and using article analytics to drive Knowledge Manage options.     
 abstract: |
     In this module, you will:
     - Configure Dynamics 365 Entities for use with Knowledge Management
@@ -40,3 +38,4 @@ units:
 - learn-bizapps.consuming-knowledge-articles-for-case-resolutions.8-summary
 badge:
   uid: learn.consuming-knowledge-articles-for-case-resolutions.badge
+  

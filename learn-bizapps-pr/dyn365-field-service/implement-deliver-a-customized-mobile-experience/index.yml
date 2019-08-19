@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.implement-deliver-a-customized-mobile-experience
 metadata:
   title: Deliver a customized mobile experience in Microsoft Dynamics 365 for Field Service
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
 title: Deliver a customized mobile experience in Microsoft Dynamics 365 for Field Service     
-summary: The Field Service mobile application provides the flexibility to customize the application based on needs of an organization.  Customers may what things like color coded views, interactive views to simplify data intake, bar code scanning, or even the ability to automate specific functionality with scripting.  These asks can be easily delivered with some additional customizations.   
+summary: |
+  [!include[](../includes/banner.md)]
+
+  The Field Service mobile application provides the flexibility to customize the application based on needs of an organization.  Customers may what things like color coded views, interactive views to simplify data intake, bar code scanning, or even the ability to automate specific functionality with scripting.  These asks can be easily delivered with some additional customizations.   
 abstract: |
    In this module, you will:
    - Create Sync Filters to assist in determining what data is available on and off line.  
@@ -36,3 +39,4 @@ units:
 - learn-bizapps.implement-deliver-a-customized-mobile-experience.7-summary
 badge:
   uid: learn.deliver-a-customized-mobile-experience.badge
+

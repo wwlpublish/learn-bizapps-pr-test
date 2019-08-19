@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.using-iot-central-with-connected-field-service
 metadata:
   title: Using IoT Central with Connected Field Service for Dynamics 365
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Using IoT Central with Connected Field Service for Dynamics 365
-summary: This module focuses on using IoT Central with Connected Field Service add-on for Dynamics 365 for Field Service.  The module walks you through building an IoT Central application and escalating the alerts into Dynamics 365.  
+summary: |
+  [!include[](../includes/banner.md)]
+
+  This module focuses on using IoT Central with Connected Field Service add-on for Dynamics 365 for Field Service.  The module walks you through building an IoT Central application and escalating the alerts into Dynamics 365.  
 abstract: |
    In this module, you will:
    - Describe Connected Field Service and Azure IoT Central
@@ -39,3 +42,4 @@ units:
 - learn-bizapps.using-iot-central-with-connected-field-service.6-summary-and-clean-up
 badge:
   uid: learn.using-iot-central-with-connected-field-service.badge
+

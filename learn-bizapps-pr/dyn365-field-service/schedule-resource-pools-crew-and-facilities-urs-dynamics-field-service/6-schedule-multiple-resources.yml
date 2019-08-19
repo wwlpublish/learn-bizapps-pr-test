@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.6-schedule-multiple-resources
 title: Exercise - Schedule multiple resources
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 20
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/6-schedule-multiple-resources.md)]
+
