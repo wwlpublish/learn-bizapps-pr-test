@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.flow-get-started.11-summary-cleanup
 metadata:
   title: Summary
@@ -12,4 +12,5 @@ metadata:
 title: Summary
 durationInMinutes: 2
 content: |
- [!include[](includes/11-summary-cleanup.md)]
+  [!include[](../includes/banner.md)]
+  [!include[](includes/11-summary-cleanup.md)]

@@ -27,7 +27,7 @@ quiz:
     - content: Create a microservice to process the telemetry
       explanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action.
       isCorrect: false
-      content: Use a Dynamics 365 workflow
+    - content: Use a Dynamics 365 workflow
       explanation: To specify the criteria for raising an IoT Alert, you must create a Device Template Rule with an Action.
       isCorrect: false
   - content: When an IoT Central rule is used to trigger the Microsoft Flow action what record type is created in Dynamics 365?

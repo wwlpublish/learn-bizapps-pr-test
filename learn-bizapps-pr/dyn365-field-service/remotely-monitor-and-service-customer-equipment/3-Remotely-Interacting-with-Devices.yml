@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.remotely-monitor-and-service-customer-equipment.3-remotely-interacting-with-devices
 title: Remotely interacting with devices 
 metadata:
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 5
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/3-Remotely-Interacting-with-Devices.md)]
+

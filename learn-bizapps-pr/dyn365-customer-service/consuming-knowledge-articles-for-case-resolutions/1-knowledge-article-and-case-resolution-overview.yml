@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.1-knowledge-article-and-case-resolution-overview
 title: Knowledge article and case resolution overview
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 4
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/1-knowledge-article-and-case-resolution-overview.md)]
+

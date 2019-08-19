@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.designing-voc-surveys
 metadata:
   title: Design Voice of the Customer for Dynamics 365 surveys 
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Design Voice of the Customer for Dynamics 365 surveys
-summary: This module will focus on how to drive customer engagement through surveys by using the Microsoft Dynamics 365 Voice of the Customer solution. It explains how to deploy the Voice of the Customer solution, use themes and images in surveys, design surveys, design survey questions, and control survey options like unsubscribe options.
+summary: |
+  [!include[](../includes/banner.md)]
+
+  This module will focus on how to drive customer engagement through surveys by using the Microsoft Dynamics 365 Voice of the Customer solution. It explains how to deploy the Voice of the Customer solution, use themes and images in surveys, design surveys, design survey questions, and control survey options like unsubscribe options.
 abstract: |
    In this module, you will:
    - Deploy and configure the Voice of the Customer solution
@@ -42,3 +45,4 @@ units:
 - learn-bizapps.designing-voc-surveys.9-summary-and-clean-up
 badge:
   uid: learn.designing-voc-surveys.badge
+

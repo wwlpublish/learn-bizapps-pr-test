@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.2-defining-field-service-products-and-services
 title: Define Field Service products and services
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/2-defining-field-service-products-and-services.md)]
+

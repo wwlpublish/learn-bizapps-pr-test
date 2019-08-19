@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.get-started-with-connected-field-service
 metadata:
   title: Get started with Connected Field Service for Dynamics 365 and Azure IoT
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Get started with Connected Field Service for Dynamics 365 and Azure IoT
-summary: This module gets you started with Connected Field Service and Azure IoT
+summary: |
+  [!include[](../includes/banner.md)]
+
+  This module gets you started with Connected Field Service and Azure IoT
 abstract: |
    In this module, you will:
    - Describe the difference between Azure IoT and Azure IoT Central and how they relate to Connected Field Service
@@ -40,3 +43,4 @@ units:
 - learn-bizapps.get-started-with-connected-field-service.7-summary-clean-up
 badge:
   uid: learn.get-started-with-connected-field-service.badge
+

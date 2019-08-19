@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads
 metadata:
   title: Use Microsoft Dynamics 365 for Customer Service queues to manage case workloads
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Use Microsoft Dynamics 365 for Customer Service queues to manage case workloads
-summary: Customer support centers often use queues to manage the routing of cases that come in, so that they are handled in an organized and timely manner.         
+summary: |
+  [!include[](../includes/banner.md)]
+
+  Customer support centers often use queues to manage the routing of cases that come in, so that they are handled in an organized and timely manner.         
 abstract: | 
     Let's take a look at the following:
     - Identify the different types of Microsoft Dynamics 365 queues that are available
@@ -39,3 +42,4 @@ units:
 - learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.9-summary-and-clean-up
 badge:
   uid: learn.using-dynamics-365-queues-to-manage-case-workloads.badge
+

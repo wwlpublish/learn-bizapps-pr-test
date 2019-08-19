@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.customer-service-cases.11-summary-and-clean-up
 title: Summary
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 2
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/11-summary-and-clean-up.md)]
+
