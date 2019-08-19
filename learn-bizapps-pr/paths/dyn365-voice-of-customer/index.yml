@@ -1,4 +1,4 @@
-### YamlMime:LearningPath
+﻿### YamlMime:LearningPath
 uid: learn-bizapps.dyn365-voice-of-customer
 metadata:
   title: Voice of the Customer for Dynamics 365
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-customer-service
 title: Voice of the Customer for Dynamics 365
-summary: This learning path introduces you to the basics of Voice of the Customer for Dynamics 365.
+summary: |
+  [!include[](../../includes/banner.md)]
+
+  This learning path introduces you to the basics of Voice of the Customer for Dynamics 365.
 prerequisites: |
   - A basic understanding of how to move around the Dynamics 365 application and a working knowledge of the core records that are available. 
   - Familiarity with the basic functionality of the Voice of the Customer solution, like deployment and survey creation. 
@@ -31,3 +34,4 @@ modules:
 - learn-bizapps.voc-managing-driving-action-from-surveys
 trophy:
   uid: learn.dyn365-voice-of-customer.trophy
+

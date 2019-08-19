@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
 title: Get started with Microsoft Dynamics 365 for Field Service Mobile
-summary: Deploying field service mobile consists of identifying the features needed, installing and configuring the mobile application and creating and defining mobile projects. Along with this, you’ll publish mobile projects, and customize mobile projects in this module.        
+summary: |
+  [!include[](../includes/banner.md)]
+
+  Deploying field service mobile consists of identifying the features needed, installing and configuring the mobile application and creating and defining mobile projects. Along with this, you’ll publish mobile projects, and customize mobile projects in this module.        
 abstract: |
     In this module, you will:
     - Identify the different mobility options available for field service
@@ -40,3 +43,4 @@ units:
 - learn-bizapps.implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile.8-summary-and-clean-up
 badge:
   uid: learn.get-started-with-microsoft-dynamics-365-for-field-service-mobile.badge
+

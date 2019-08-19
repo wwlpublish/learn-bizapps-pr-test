@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-power-bi.1-introduction
 metadata:
   title: Introduction
@@ -12,4 +12,6 @@ metadata:
 title: Introduction
 durationInMinutes: 6
 content: |
- [!include[](includes/1-introduction.md)]
+  [!include[](../includes/banner.md)]
+  [!include[](includes/1-introduction.md)]
+

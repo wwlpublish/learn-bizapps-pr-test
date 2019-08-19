@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.identify-exceptions-with-connected-field-service.4-identify-exceptions
 title: Identify exceptions
 metadata:
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 15
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/4-identify-exceptions.md)]
+

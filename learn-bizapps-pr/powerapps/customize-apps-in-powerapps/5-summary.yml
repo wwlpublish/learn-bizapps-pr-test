@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-customize.5-summary-cleanup
 metadata:
   title: Summary
@@ -11,4 +11,6 @@ metadata:
 title: Summary
 durationInMinutes: 2
 content: |
+  [!include[](../includes/banner.md)]
  [!include[](includes/5-summary-cleanup.md)]
+

@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-connected-field-service.5-register-a-device
 title: Register a device
 metadata:
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 15
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/5-register-a-device.md)]
+

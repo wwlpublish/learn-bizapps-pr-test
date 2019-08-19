@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-configure-microsoft-dynamics-365-for-field-service.1-key-field-service-configuration-considerations
 title: Key Field Service configuration considerations 
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/1-key-field-service-configuration-considerations.md)]
+

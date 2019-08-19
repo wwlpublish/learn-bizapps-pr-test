@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.2-creating-and-defining-work-orders
 title: Create and define work orders
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/2-creating-and-defining-work-orders.md)]
+

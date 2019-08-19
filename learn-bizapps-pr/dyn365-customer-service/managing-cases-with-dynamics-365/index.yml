@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.customer-service-cases
 metadata:
   title: Managing cases with Microsoft Dynamics 365 for Customer Service
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Managing cases with Microsoft Dynamics 365 for Customer Service
-summary: Microsoft Dynamics 365 for Customer Service lets organizations better serve their customers and manage agent caseloads by providing a wide range of case management options. Whether agents are looking for more efficient ways to create cases or better ways to manage the case lifecycle, the case management tools in Microsoft Dynamics 365 can help them throughout the management process.      
+summary: |
+  [!include[](../includes/banner.md)]
+
+  Microsoft Dynamics 365 for Customer Service lets organizations better serve their customers and manage agent caseloads by providing a wide range of case management options. Whether agents are looking for more efficient ways to create cases or better ways to manage the case lifecycle, the case management tools in Microsoft Dynamics 365 can help them throughout the management process.      
 abstract: |
     Let's take a look at the following:
     - Examine the case resolution process in Dynamics 365 from beginning to end
@@ -42,3 +45,4 @@ units:
 - learn-bizapps.customer-service-cases.11-summary-and-clean-up
 badge:
   uid: learn.customer-service-cases.badge
+

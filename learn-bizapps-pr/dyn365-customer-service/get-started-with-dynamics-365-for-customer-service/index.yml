@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.customer-service-get-started
 metadata:
   title: Get started with Dynamics 365 for Customer Service
@@ -11,7 +11,10 @@ metadata:
   ms.prod: learning-d365
   #ms.learn-support: margoc
 title: Get started with Dynamics 365 for Customer Service
-summary: Customer service is a key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers.
+summary: |
+  [!include[](../includes/banner.md)]
+
+  Customer service is a key aspect of any customer relationship management strategy. Microsoft Dynamics 365 for Customer Service has many features that organizations can use to manage the services they provide to customers.
 abstract: |
     In this module, you will:
     - Learn about the pieces of Dynamics 365 for Customer Service
@@ -35,3 +38,4 @@ units:
 - learn-bizapps.customer-service-get-started.5-summary-cleanup
 badge:
   uid: learn.customer-service-get-started.badge
+

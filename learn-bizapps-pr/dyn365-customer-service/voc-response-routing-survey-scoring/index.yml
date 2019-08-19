@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.voc-response-routing-survey-scoring
 metadata:
   title: Response routing and survey scoring options in Voice of the Customer for Dynamics 365
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Response routing and survey scoring options in Voice of the Customer for Dynamics 365
-summary: This module will focus on how to use advanced survey options to tailor the experience of survey respondents. It include information about linking survey questions, using client-side and server-side routing options, creating survey scoring models, and personalizing surveys by using piped data.
+summary: |
+  [!include[](../includes/banner.md)]
+
+  This module will focus on how to use advanced survey options to tailor the experience of survey respondents. It include information about linking survey questions, using client-side and server-side routing options, creating survey scoring models, and personalizing surveys by using piped data.
 abstract: |
    In this module, you will:
    - Personalize surveys by including data from Microsoft Dynamics 365
@@ -41,3 +44,4 @@ units:
 - learn-bizapps.voc-response-routing-survey-scoring.9-summary-and-clean-up
 badge:
   uid: learn.voc-response-routing-survey-scoring.badge
+

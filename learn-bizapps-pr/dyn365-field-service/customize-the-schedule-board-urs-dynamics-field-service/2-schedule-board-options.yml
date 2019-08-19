@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-customize-the-schedule-board.2-schedule-board-options
 title: Schedule Board options
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/2-schedule-board-options.md)]
+

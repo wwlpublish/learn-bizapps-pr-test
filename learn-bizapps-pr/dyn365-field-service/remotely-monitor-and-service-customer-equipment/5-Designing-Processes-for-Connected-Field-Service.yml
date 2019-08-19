@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.remotely-monitor-and-service-customer-equipment.5-designing-processes-for-connected-field-service
 title: Designing Processes for Connected Field Service 
 metadata:
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 10
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/5-Designing-Processes-for-Connected-Field-Service.md)]
+

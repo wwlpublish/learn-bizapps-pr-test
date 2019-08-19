@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.voc-response-routing-survey-scoring.1-overview-personalization-scoring-scenarios
 title: Overview of personalization and scoring scenarios
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/1-overview-personalization-scoring-scenarios.md)]
+
