@@ -13,4 +13,4 @@ Tap any dashboard to open it. Within a dashboard, you can tap a dashboard tile t
 
 Share your annotated tile by tapping the **Share** link in the top right-hand corner.
 
-For more information, see [What are the Power BI mobile apps?](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-apps-for-mobile-devices).
+For more information, see [What are the Power BI mobile apps?](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-apps-for-mobile-devices/?azure-portal=true).

@@ -26,4 +26,4 @@ When you republish a report in the Power BI service, you're prompted to confirm 
 
 When you select **Replace**, the datasets and reports in the Power BI service are overwritten with the new datasets and reports.
 
-For more information, see [Export data from visualizations](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data).
+For more information, see [Export data from visualizations](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-export-data/?azure-portal=true).
