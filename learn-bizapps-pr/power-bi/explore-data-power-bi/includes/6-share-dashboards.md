@@ -7,7 +7,7 @@ To share a dashboard, open it in the Power BI service and select the **Share** l
 
 ![Screenshot of the "Share" link in the Power BI service.](../media/06-power-bi-share.png)
 
-From the **Share dashboard** page, select the **Invite** section. In the **Email address** field, enter the names of people whom you'd like to grant access to your dashboard. You can also copy and paste email addresses into this field, or you can use a distribution list, security group, or Office 365 group.
+From the **Share dashboard** page, select the **Share** tab. In the **Email address** field, enter the names of people whom you'd like to grant access to your dashboard. You can also copy and paste email addresses into this field, or you can use a distribution list, security group, or Office 365 group.
 
 ![Screenshot of the "Share dashboard" dialog.](../media/06-power-bi-share-dashboard.png)
 
@@ -21,4 +21,4 @@ If you select the **Send email notification to recipients** check box, then your
 Anyone whom you share a dashboard with can see and interact with it exactly as you do. However, they have read-only access to the underlying reports, and they have *no access* to the underlying datasets.
 
 
-For more information, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards).
+For more information, see [Share Power BI dashboards and reports with coworkers and others](https://docs.microsoft.com/power-bi/service-share-dashboards/?azure-portal=true).
