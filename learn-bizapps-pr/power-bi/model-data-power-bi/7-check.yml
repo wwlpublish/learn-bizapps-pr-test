@@ -8,9 +8,9 @@ metadata:
  author: heyrob 
  ms.author: robde 
  ms.topic: interactive-tutorial 
- ms.prod: learning-d365 
+ ms.prod: learning-power-bi
  ROBOTS: NOINDEX 
-durationInMinutes: 5 
+durationInMinutes: 10
 quiz: 
   title: Answer the following questions to see what you've learned.
   questions: 
@@ -28,7 +28,6 @@ quiz:
     - content: Use the Performance Manager 
       isCorrect: false 
       explanation: You can use the Manage Relationships dialog to create or edit relationships.
-  questions: 
   - content: If your months were sorted alphabetically, how could sort them by month order?
     choices: 
     - content: Click the Edit Queries button 
@@ -43,7 +42,6 @@ quiz:
     - content: Apply the MonthNo category sort option
       isCorrect: true 
       explanation: Use the "Sort by Column" option to sort Month by MonthNo. This will ensure that months are sorted by month order. 
-  questions: 
   - content: How do you get Power BI to separate date data into year, quarter, month, and day? 
     choices: 
     - content: Open the Query Editor 
@@ -58,13 +56,12 @@ quiz:
     - content: You don't need to do anything, it is automatic. 
       isCorrect: true 
       explanation: When you create a table visualization in your report by using a date field, Power BI Desktop automatically includes breakdowns by time period. 
-  questions: 
   - content: How do you create intermediate calculations and data that you want stored as part of the model rather than as part of a query?
     choices: 
     - content: Use a calculated table
       isCorrect: true 
       explanation: Calculated tables store data in the model instead of in an external source or being calculated on the fly. 
-    - content: Select the New Parameter button 
+    - content: Select the Enter Data button 
       isCorrect: false 
       explanation: Calculated tables store data in the model instead of in an external source or being calculated on the fly. 
     - content: Select the New Measure button  
@@ -73,7 +70,6 @@ quiz:
     - content: Select the New Parameter button 
       isCorrect: false 
       explanation: Calculated tables store data in the model instead of in an external source or being calculated on the fly. 
-  questions: 
   - content: Why would a table show the same value, like "Sales", for every country?
     choices: 
     - content: Because the Revenue data is corrupted
