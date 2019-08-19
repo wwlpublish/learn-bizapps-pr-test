@@ -14,4 +14,4 @@ The Power BI service is the natural extension of Power BI Desktop, and you can u
 ## Sign in to the Power BI service
 Before you can sign in to Power BI, you'll need an account. To get a free trial, go to [app.powerbi.com](http://app.powerbi.com) and sign up with your email address. 
 
-For detailed steps on setting up an account, see [Sign in to Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-sign-in).
+For detailed steps on setting up an account, see [Sign in to Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-sign-in/?azure-portal=true).

@@ -34,4 +34,4 @@ Set the privacy level by deciding whether anyone in your organization or only it
 
 In the **Create a group** dialog box, type email addresses, security groups, and distribution lists. Select **Add** to make the set of users members of the group, and then select **Save** to save the group.
 
-For more information, see [Create classic workspaces in Power BI](https://docs.microsoft.com/power-bi/service-create-workspaces) and [Organize work in the new workspaces in Power BI](https://docs.microsoft.com/power-bi/service-new-workspaces).
+For more information, see [Create classic workspaces in Power BI](https://docs.microsoft.com/power-bi/service-create-workspaces/?azure-portal=true) and [Organize work in the new workspaces in Power BI](https://docs.microsoft.com/power-bi/service-new-workspaces/?azure-portal=true).

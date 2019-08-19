@@ -17,5 +17,5 @@ Choose whether to distribute the app to specific people or to groups, and then g
 
 On the bottom of the dialog box, you can upload an image for the app and then select the dashboard to include in the app. When you publish, the app is added to the organization's content gallery.
 
-For more information, see [Publish an app in Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps).
+For more information, see [Publish an app in Power BI](https://docs.microsoft.com/power-bi/service-create-distribute-apps/?azure-portal=true).
 
