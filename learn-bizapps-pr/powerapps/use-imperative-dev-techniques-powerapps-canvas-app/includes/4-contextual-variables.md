@@ -6,7 +6,7 @@ Sometimes you have functionality you want to use on multiple screens that is var
 UpdateContext({varShowPopUp: true})
 ```
 
-You then set the visible **Property** of the pop-up controls to **varShowPopUp**. This is similar to the example from the global variables. The major difference is reusability. If you copy the controls (using Ctrl+C) to an additional screen, then you will have two instances of **varShowPopUp**. These two instances use the same name, but can have different values. The value of **varShowPopUp** on screen1 does not affect the value of **varShowPopUp** on screen2 because each contextual variable, even when they have the same name, are scoped to the screen they are on.
+You then set the **Visible** property of the pop-up controls to **varShowPopUp**. This is similar to the example from the global variables. The major difference is reusability. If you copy the controls (using Ctrl+C) to an additional screen, then you will have two instances of **varShowPopUp**. These two instances use the same name, but can have different values. The value of **varShowPopUp** on screen1 does not affect the value of **varShowPopUp** on screen2 because each contextual variable, even when they have the same name, are scoped to the screen they are on.
 
 Typically reusing variable names like this is not recommended because it can be confusing, but it’s great if you want to reuse functionality independently on different screens.
 

@@ -6,8 +6,8 @@ In this unit, you will transform data with Power Query Editor.
 
 &nbsp;
 
-**Video**: 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3nva7]
+**Video**: Transform data
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x9uw]
 
 
 ### Launch Power Query Editor
@@ -42,4 +42,4 @@ As you apply transformations, each step appears in the **Applied Steps** list on
 
 After you select **Close & Apply**, Power Query Editor applies the query changes and applies them to Power BI Desktop.
 
-For more information, see [Quickstart: Using Power Query in Power BI Desktop](https://docs.microsoft.com/power-query/power-query-quickstart-using-power-bi).
+For more information, see [Quickstart: Using Power Query in Power BI Desktop](https://docs.microsoft.com/power-query/power-query-quickstart-using-power-bi/?azure-portal=true).

@@ -1,6 +1,7 @@
 With Power BI, you can add your own suggested questions for others who use the natural language query box. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oYa3]
+**Video**: Adding custom questions
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x4jD]
 
 Users will see your suggested questions when they ask a question.
 
@@ -16,4 +17,4 @@ To add questions, select the **Datasets** section. All datasets that are associa
 
 When anyone selects the search input box, they'll see your suggested entries at the top of the prompt list. Custom questions are a valuable way to get dashboard users to think about the type of data that is available and how to best use it.
 
-For more information, see [Create featured questions for Power BI Q&A](https://docs.microsoft.com/power-bi/service-q-and-a-create-featured-questions).
+For more information, see [Create featured questions for Power BI Q&A](https://docs.microsoft.com/power-bi/service-q-and-a-create-featured-questions/?azure-portal=true).

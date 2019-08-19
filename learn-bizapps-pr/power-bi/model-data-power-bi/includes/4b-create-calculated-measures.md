@@ -3,7 +3,8 @@
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/02-power-bi-desktop-overview.png)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kOET]
+**Video**: Create calculated measures
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wWvJ]
 
 
 ## Create a measure
@@ -26,4 +27,4 @@ After you've created a new measure, it will appear in one of the tables on the F
 
 You can use a measure like any other table column: just drag and drop it onto the report canvas or visualization fields. Measures also integrate seamlessly with slicers, segmenting your data on the fly, which means that you can define a measure once and then use it in many different visualizations.
 
-For more information, see [Tutorial: Create your own measures in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures).
+For more information, see [Tutorial: Create your own measures in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-measures/?azure-portal=true).

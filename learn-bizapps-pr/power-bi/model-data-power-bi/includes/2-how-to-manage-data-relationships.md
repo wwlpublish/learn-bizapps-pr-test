@@ -3,9 +3,8 @@ The **Model view** in Power BI Desktop allows you to visually set the relationsh
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/02-power-bi-desktop-overview.png)
 
-&nbsp;
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kTRO]
+**Video**: Manage data relationships
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhg]
 
 In the Model view, notice that a block represents each table and its columns and that lines between them represent relationships.
 
@@ -35,4 +34,4 @@ By default, you will set relationships to cross-filter in both directions. Cross
 
 Setting accurate relationships between your data allows you to create complex calculations across multiple data elements.
 
-For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships).
+For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships/?azure-portal=true).

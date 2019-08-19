@@ -3,11 +3,9 @@ Imported data often contains fields that you don't need for your reporting and v
 Tasks in this module include:
 ![Conceptual graphic of the tasks in this module.](../media/04-power-bi-desktop-overview.png)
 
-&nbsp;
 
-
-**Video**: 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kRgR]
+**Video**: Optimize data models
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhh]
 
 ## Hide fields
 To hide a field in the Fields pane of Power BI Desktop, right-click the column and select **Hide**. Your hidden fields aren't deleted. If you've used a hidden field in existing visuals, the data is still there; the hidden field just isn't displayed on the Fields pane.
@@ -31,4 +29,4 @@ In this case, selecting the field in the **Fields** list, selecting **Sort by Co
 
 Setting the data type for a field is another way to optimize your information so that it's handled correctly. To change a data type from the report canvas, select the column in the Fields pane, and then use the **Format** drop-down menu to select one of the formatting options. Any visuals you've created that display that field are updated automatically.
 
-For more information, see [Sort by column in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-sort-by-column).
+For more information, see [Sort by column in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-sort-by-column/?azure-portal=true).

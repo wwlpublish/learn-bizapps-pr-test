@@ -1,5 +1,6 @@
 Power BI has two different types of map visualizations: a bubble map that places a bubble over a geographic point, and a shape map that shows the outline of the area that you want to visualize.
 
+**Video**: Map visuals
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p3lR]
 
 ![Image of outline and bubble map visualizations.](../media/3-5-1.png)
@@ -7,7 +8,7 @@ Power BI has two different types of map visualizations: a bubble map that places
 > [!IMPORTANT]
 > When you are working with countries or regions, use the three-letter abbreviation to ensure that geocoding works properly. Do *not* use two-letter abbreviations because some countries or regions might not be properly recognized.
 
-If you only have two-letter abbreviations, go to [this external blog post](https://blog.ailon.org/how-to-display-2-letter-country-data-on-a-power-bi-map-85fc738497d6#.yudauacxp) for steps on how to associate your two-letter country and/or region abbreviations with three-letter country and/or region abbreviations.
+If you only have two-letter abbreviations, go to [this external blog post](https://go.microsoft.com/fwlink/?linkid=2101354&clcid=0x409) for steps on how to associate your two-letter country and/or region abbreviations with three-letter country and/or region abbreviations.
 
 ## Create bubble maps
 To create a bubble map, select the **Map** option in the Visualization pane. In the Visualizations options, add a value to the *Location* bucket to use a map visual.

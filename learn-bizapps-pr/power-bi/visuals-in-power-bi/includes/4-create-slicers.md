@@ -1,6 +1,7 @@
 Slicers are one of the most powerful types of visualizations, particularly as part of a busy report. A *slicer* is an on-canvas visual filter that allows report users to segment the data by a specific value. Examples of filters include by year or by geographical location.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oNLf]
+**Video**: Create slicers
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x1Gn]
 
 To add a slicer to your report, select **Slicer** from the Visualizations pane.
 
@@ -14,4 +15,4 @@ A few different options are available to help you format your slicer. You can se
 
 ![Image of of slicer formatting options.](../media/3-4-3.png)
 
-When you have multiple visualizations on the same report page, Power BI Desktop lets you control how interactions flow between visuals. For more information, see [Change how visuals interact in a Power BI report](https://docs.microsoft.com/power-bi/service-reports-visual-interactions).
+When you have multiple visualizations on the same report page, Power BI Desktop lets you control how interactions flow between visuals. For more information, see [Change how visuals interact in a Power BI report](https://docs.microsoft.com/power-bi/service-reports-visual-interactions/?azure-portal=true).

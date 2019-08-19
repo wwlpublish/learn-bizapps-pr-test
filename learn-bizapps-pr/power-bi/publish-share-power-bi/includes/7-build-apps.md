@@ -1,5 +1,6 @@
 In this lesson, you will create an app with artifacts that already exist in Power BI, and then you will share the app with colleagues. 
 
+**Video**: Build apps
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p3lN]
 
 Start in the Power BI service. In **My Workspace**, you will create an app that includes your dashboard, the report underneath, and the dataset. Then, you will share the app with people in your organization so they can reuse the artifacts. In the workspace list view, decide which dashboards and reports you want Included in app.

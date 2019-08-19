@@ -1,6 +1,7 @@
 After you've built a dashboard, you can format your tiles in the Power BI service.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3p0Lf]
+**Video**: Edit tile details
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9vT]
 
 To modify a tile, hover over and select the ellipsis to see the choices that are shown in the following screenshot.
 
@@ -21,4 +22,4 @@ When you add a text box, for example, a **Tile details** pane appears on the rig
 
 With tiles and the ability to edit details, you can customize your dashboard and make it appear how you want.
 
-For more information, see [Edit or remove a dashboard tile](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile).
+For more information, see [Edit or remove a dashboard tile](https://docs.microsoft.com/power-bi/service-dashboard-edit-tile/?azure-portal=true).

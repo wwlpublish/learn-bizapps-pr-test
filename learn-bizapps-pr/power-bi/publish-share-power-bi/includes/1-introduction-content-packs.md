@@ -8,6 +8,7 @@ Tasks in this module:
 - Publish to the web
 ![Conceptual graphic of the tasks in this module.](../media/01-power-bi-desktop-overview2.png)
 
+**Video**: Introduction to publishing reports
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oQm3]
 
 ## Share and collaborate with colleagues in Power BI
