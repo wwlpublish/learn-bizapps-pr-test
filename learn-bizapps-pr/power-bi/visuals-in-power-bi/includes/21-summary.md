@@ -8,4 +8,4 @@ Want to learn more about Power BI visuals? Check out these resources:
 - [How-To: Display 2-letter country data on a Power BI map](https://go.microsoft.com/fwlink/?linkid=2101354&clcid=0x409)
 - [Tips and tricks for color formatting in Power BI](https://docs.microsoft.com/power-bi/visuals/service-tips-and-tricks-for-color-formatting/?azure-portal=true)
 - [Tutorial: Adding formatting options to a Power BI custom visual](https://docs.microsoft.com/power-bi/developer/custom-visual-develop-tutorial-format-options/?azure-portal=true)
-- [Best design practices for reports and visuals](https://docs.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-best-practices/?azure-portal=true)
+- [Best design practices for reports and visuals](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-best-practices/?azure-portal=true)
