@@ -1,7 +1,7 @@
 This unit explains how to create new bar charts, pie charts, and tree maps, and how to customize these elements to suit your reports.
 
 **Video**: Create simple visuals
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x1Gm]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x1Gm]
 
 Two ways to create a new visualization in Power BI Desktop are:
 
@@ -27,12 +27,13 @@ Select the paintbrush icon on the Visualizations pane to make cosmetic changes t
 The available options for cosmetic changes to your visual vary depending on the type of visual that you've selected.
 
 > [!NOTE] 
-> Generally, visuals are used to compare two or more different values. However, sometimes when you are building reports, you might want to track a single metric over time. For more information, see [Radial gauge charts in Power BI](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-radial-gauge-charts). 
+> Generally, visuals are used to compare two or more different values. However, sometimes when you are building reports, you might want to track a single metric over time. For more information, see [Radial gauge charts in Power BI](https://docs.microsoft.com/power-bi/visuals/power-bi-visualization-radial-gauge-charts/?azure-portal=true). 
 
 ## Create combination charts
 *Combination charts* are an effective way to visualize multiple measures that have different scales in a single visualization.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3oQlU]
+**Video**: Combination charts
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oQlU]
 
 You might want to visualize two measures with different scales, such as revenue and units. Use a combination chart to show a line and a bar with different axis scales. Power BI supports many different types of combination charts by default, including Line and Stacked Columns charts.
 
