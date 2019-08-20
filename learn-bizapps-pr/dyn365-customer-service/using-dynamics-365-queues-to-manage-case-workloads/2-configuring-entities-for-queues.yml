@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.2-configuring-entities-for-queues
 title: Configure entities for queues
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/2-configuring-entities-for-queues.md)]
-

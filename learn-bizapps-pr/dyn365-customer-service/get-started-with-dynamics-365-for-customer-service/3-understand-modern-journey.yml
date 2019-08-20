@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.customer-service-get-started.3-customer-service-get-started-modern
 title: Understand the modern customer journey
 metadata:
@@ -13,6 +13,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 15
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/3-customer-service-get-started-modern.md)]
-

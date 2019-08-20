@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.dynamics-365-service-level-agreements.4-defining-sla-details
 title: Define service level agreement (SLA) details
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/4-defining-sla-details.md)]
-

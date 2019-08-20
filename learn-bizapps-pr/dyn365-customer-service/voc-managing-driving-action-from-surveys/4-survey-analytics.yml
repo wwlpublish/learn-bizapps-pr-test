@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.voc-managing-driving-action-from-surveys.4-survey-analytics
 title: Survey analytics
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/4-survey-analytics.md)]
-

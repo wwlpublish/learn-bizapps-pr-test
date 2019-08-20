@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-customize-the-schedule-board.5-customize-the-schedule-board
 title: Exercise - Customize the Schedule Board
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 20
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/5-customize-the-schedule-board.md)]
-

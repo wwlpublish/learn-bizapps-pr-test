@@ -1,4 +1,4 @@
-﻿### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.get-started-using-power-bi
 metadata:
   title: Consume data with Power BI
@@ -9,10 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 title: Consume data with Power BI
-summary: |
-  [!include[](../../includes/banner.md)]
-
-  Do you want to make business decisions backed by data? Learn how to do that in Power BI. Learn to work in Power BI to review and interact with this content to make business decisions. 
+summary: Do you want to make business decisions backed by data? Learn how to do that in Power BI. Learn to work in Power BI to review and interact with this content to make business decisions. 
 prerequisites: |
   - Access to the Power BI service
   - Sales and Marketing app (provided with course)
@@ -30,4 +27,3 @@ modules:
 - learn-bizapps.analyze-explore-data-power-bi
 trophy:
   uid: learn-bizapps.get-started-using-power-bi.trophy
-

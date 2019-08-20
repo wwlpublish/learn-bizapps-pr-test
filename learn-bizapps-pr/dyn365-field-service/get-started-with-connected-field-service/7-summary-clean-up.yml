@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-connected-field-service.7-summary-clean-up
 title: Summary and clean up
 metadata:
@@ -11,6 +11,4 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/7-summary-clean-up.md)]
-

@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-work-order-management-agreements-inventory-and-purchasing.6-working-with-inventory-and-warehouses
 title: Work with inventory and warehouses
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/6-working-with-inventory-and-warehouses.md)]
-

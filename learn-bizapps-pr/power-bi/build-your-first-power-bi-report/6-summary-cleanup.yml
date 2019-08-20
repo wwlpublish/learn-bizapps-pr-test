@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.build-your-first-report.6-summary-cleanup
 metadata:
   title: Summary
@@ -12,6 +12,4 @@ metadata:
 title: Summary
 durationInMinutes: 2
 content: |
-  [!include[](../includes/banner.md)]
-  [!include[](includes/6-summary-cleanup.md)]
-
+ [!include[](includes/6-summary-cleanup.md)]

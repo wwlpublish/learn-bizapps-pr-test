@@ -1,4 +1,4 @@
-﻿### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.working-with-dynamics-365-for-marketing
 metadata:
   title: Working with Dynamics 365 for Marketing
@@ -10,10 +10,7 @@ metadata:
   ms.prod: learning-d365-working-with-dynamics-365-for-marketing
   #ms.learn-contact: dbeasley
 title: Working with Dynamics 365 for Marketing
-summary: |
-  [!include[](../../includes/banner.md)]
-
-  Gain insights from visitor behavior and grow your sales fast. Automate and mange campaigns, publish content, analyze results and leverage data with insights. 
+summary: Gain insights from visitor behavior and grow your sales fast. Automate and mange campaigns, publish content, analyze results and leverage data with insights. 
 prerequisites: |
   - A basic understanding of how to navigate the Dynamics 365 application.
 iconUrl: /learn/achievements/work-with-dynamics-for-marketing.svg
@@ -34,4 +31,3 @@ modules:
 - learn-bizapps.work-with-analyze-results
 trophy:
   uid: learn.working-with-dynamics-365-for-marketing.trophy
-

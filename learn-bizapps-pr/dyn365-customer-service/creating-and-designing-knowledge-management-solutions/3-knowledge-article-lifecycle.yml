@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.creating-and-designing-knowledge-management-solutions.3-knowledge-article-lifecycle
 title: Knowledge article lifecycle
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/3-knowledge-article-lifecycle.md)]
-

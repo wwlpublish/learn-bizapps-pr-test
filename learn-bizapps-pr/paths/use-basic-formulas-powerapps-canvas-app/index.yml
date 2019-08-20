@@ -1,4 +1,4 @@
-﻿### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.use-basic-formulas-make-better-powerapps
 metadata:
   title: Use basic formulas to make better PowerApps canvas apps
@@ -9,10 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Use basic formulas to make better PowerApps canvas apps
-summary: |
-  [!include[](../../includes/banner.md)]
-
-  Do you want to use formulas to improve functionality and change a behavior in your PowerApps canvas app? This learning path can help you accomplish your goal.  
+summary: Do you want to use formulas to improve functionality and change a behavior in your PowerApps canvas app? This learning path can help you accomplish your goal.  
 prerequisites: |
   - Basic understanding of how to create canvas apps in PowerApps.
 iconUrl: /learn/achievements/use-basic-formulas.svg
@@ -30,4 +27,3 @@ modules:
 - learn-bizapps.author-basic-formula-tables-records-powerapps
 trophy:
   uid: learn-bizapps.use-basic-formulas-make-better-powerapps.trophy
-

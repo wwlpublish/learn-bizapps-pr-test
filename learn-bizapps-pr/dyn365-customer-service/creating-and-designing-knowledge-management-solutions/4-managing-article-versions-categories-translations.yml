@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.creating-and-designing-knowledge-management-solutions.4-managing-article-versions-categories-translations
 title: Manage knowledge article versions, categories, and translations
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/4-managing-article-versions-categories-translations.md)]
-

@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.customer-service-cases.3-case-creation-automation-considerations
 title: Considerations for case creation automation
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/3-case-creation-automation-considerations.md)]
-

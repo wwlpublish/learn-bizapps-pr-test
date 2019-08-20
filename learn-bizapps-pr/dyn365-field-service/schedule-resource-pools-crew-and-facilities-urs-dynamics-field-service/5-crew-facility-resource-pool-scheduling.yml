@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-schedule-resource-pools-crew-and-facilities.5-crew-facility-resource-pool-scheduling
 title: Crew facility resource pool scheduling
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/5-crew-facility-resource-pool-scheduling.md)]
-
