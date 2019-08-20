@@ -1,0 +1,9 @@
+{
+    "redirections": [
+        {
+            "source_path": "learn-bizapps-pr/paths/create-reports-power-bi/index.md",
+            "redirect_url": "https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/",
+            "redirect_document_id": true
+       }          
+    ]
+}
