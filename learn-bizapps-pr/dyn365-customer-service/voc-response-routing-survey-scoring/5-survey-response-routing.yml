@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.voc-response-routing-survey-scoring.5-survey-response-routing
 title: Survey response routing
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 7
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/5-survey-response-routing.md)]
-

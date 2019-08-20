@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.designing-voc-surveys.4-survey-design
 title: Survey design
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/4-survey-design.md)]
-

@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-customize-the-schedule-board.1-work-with-multiple-schedule-boards
 title: Work with multiple schedule boards
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/1-work-with-multiple-schedule-boards.md)]
-

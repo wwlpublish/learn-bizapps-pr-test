@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-connected-field-service.3-install-connected-field-service
 title: Install Connected Field Service
 metadata:
@@ -11,6 +11,4 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 15
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/3-install-connected-field-service.md)]
-

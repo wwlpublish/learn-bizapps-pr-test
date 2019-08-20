@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.customer-service-cases.4-create-and-resolve-cases
 title: Exercise - Create and resolve cases
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/4-create-and-resolve-cases.md)]
-

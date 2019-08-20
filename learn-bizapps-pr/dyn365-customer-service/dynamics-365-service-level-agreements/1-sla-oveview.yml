@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.dynamics-365-service-level-agreements.1-sla-oveview
 title: Overview of service level agreements (SLAs)
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/1-sla-oveview.md)]
-

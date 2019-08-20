@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile.5-publishing-a-mobile-project
 title: Publish a mobile project 
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/5-publishing-a-mobile-project.md)]
-

@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-manage.3-powerapps-environments
 title: Understand environments in PowerApps
 metadata:
@@ -11,6 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 12
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/3-powerapps-environments.md)]
-

@@ -1,4 +1,4 @@
-﻿### YamlMime:Module
+### YamlMime:Module
 uid: learn-bizapps.voc-managing-driving-action-from-surveys
 metadata:
   title: Manage and drive actions from survey responses with Voice of the Customer for Dynamics 365
@@ -9,10 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
 title: Manage and drive actions from survey responses with Voice of the Customer for Dynamics 365
-summary: |
-  [!include[](../includes/banner.md)]
-
-  This module will focus on effectively managing and automating survey distribution and next step actions for surveys that were created by using the Voice of the Customer solution. It will examine and compare different survey distribution options, and survey cloning, import, and translation options. You'll also learn how to use workflows to automate the process of sending out surveys, how to surface survey results in Microsoft Dynamics 365, and how to use analytics to drive next steps.
+summary: This module will focus on effectively managing and automating survey distribution and next step actions for surveys that were created by using the Voice of the Customer solution. It will examine and compare different survey distribution options, and survey cloning, import, and translation options. You'll also learn how to use workflows to automate the process of sending out surveys, how to surface survey results in Microsoft Dynamics 365, and how to use analytics to drive next steps.
 abstract: |
    In this module, you will:
    - Learn the different survey distribution options, and when and how to use them
@@ -43,4 +40,3 @@ units:
 - learn-bizapps.voc-managing-driving-action-from-surveys.8-summary-and-clean-up
 badge:
   uid: learn.voc-managing-driving-action-from-surveys.badge
-

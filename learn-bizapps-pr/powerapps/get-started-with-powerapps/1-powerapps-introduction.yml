@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.1-powerapps-introduction
 title: Introducing PowerApps
 metadata:
@@ -11,6 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 6
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/1-powerapps-introduction.md)]
-

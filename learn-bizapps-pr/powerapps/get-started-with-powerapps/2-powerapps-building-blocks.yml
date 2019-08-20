@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
 title: PowerApps building blocks
 metadata:
@@ -11,6 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 6
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/2-powerapps-building-blocks.md)]
-

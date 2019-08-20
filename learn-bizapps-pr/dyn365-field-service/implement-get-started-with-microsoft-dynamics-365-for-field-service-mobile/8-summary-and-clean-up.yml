@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile.8-summary-and-clean-up
 title: Summary
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 2
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/8-summary-and-clean-up.md)]
-

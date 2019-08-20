@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.dynamics-365-service-level-agreements.2-business-closures-and-working-hours
 title: Business closures and working hours
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/2-business-closures-and-working-hours.md)]
-

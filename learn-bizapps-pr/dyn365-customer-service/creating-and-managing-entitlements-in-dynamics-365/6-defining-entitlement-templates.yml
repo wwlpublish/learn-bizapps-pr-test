@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.6-defining-entitlement-templates
 title: Define entitlement templates
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 7
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/6-defining-entitlement-templates.md)]
-
