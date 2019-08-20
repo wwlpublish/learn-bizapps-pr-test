@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.5-powerapps-create-first
 title: Create your first app in PowerApps 
 metadata:
@@ -11,6 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 15
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/5-powerapps-create-first.md)]
-

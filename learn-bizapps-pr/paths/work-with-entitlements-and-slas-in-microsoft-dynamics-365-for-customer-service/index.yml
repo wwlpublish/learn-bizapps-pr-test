@@ -1,4 +1,4 @@
-﻿### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.work-with-entitlements-and-slas-dyn365-customer-service
 metadata:
   title: Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service
@@ -9,10 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-customer-service
 title: Work with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service
-summary: |
-  [!include[](../../includes/banner.md)]
-
-  This learning path focuses on working with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service.  
+summary: This learning path focuses on working with entitlements and service level agreements in Microsoft Dynamics 365 for Customer Service.  
 prerequisites: |
   - Have a trial subscription to Dynamics 365 for Customer Engagement
   - Basic understanding of how to navigate the Dynamics 365 application
@@ -31,4 +28,3 @@ modules:
 - learn-bizapps.dynamics-365-service-level-agreements
 trophy:
   uid: learn.work-with-entitlements-and-slas-dyn365-customer-service.trophy
-

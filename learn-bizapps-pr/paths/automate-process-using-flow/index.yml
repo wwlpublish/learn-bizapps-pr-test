@@ -11,10 +11,7 @@ metadata:
   ms.prod: learning-flow
 title: Automate a business process using Microsoft Flow
   #ms.learn-contact: margoc
-summary: |
-  [!include[](../../includes/banner.md)]
-
-  This learning path introduces you to Microsoft Flow, teaches you how to build workflows, and how to administer flows. 
+summary: This learning path introduces you to Microsoft Flow, teaches you how to build workflows, and how to administer flows. 
 prerequisites: |
   - Familiarity with SharePoint, OneDrive, and Excel. 
 iconUrl: /learn/achievements/automate-process-using-flow.svg
@@ -32,4 +29,3 @@ modules:
 - learn-bizapps.flow-administration
 trophy:
   uid: learn.automate-process-using-flow.trophy
-

@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-resource-scheduling-optimization.2-setup-and-deployment-options
 title: Setup and deployment options
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/2-setup-and-deployment-options.md)]
-

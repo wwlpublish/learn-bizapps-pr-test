@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.2-enabling-and-configuring-entities-for-knowledge-search
 title: Enable and configure entities for Knowledge Search
 metadata:
@@ -12,5 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/2-enabling-and-configuring-entities-for-knowledge-search.md)]

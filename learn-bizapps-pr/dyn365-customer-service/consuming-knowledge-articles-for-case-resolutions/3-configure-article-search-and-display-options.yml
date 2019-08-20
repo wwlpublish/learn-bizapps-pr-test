@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.3-configure-article-search-and-display-options
 title: Configure article search and display options
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/3-configure-article-search-and-display-options.md)]
-

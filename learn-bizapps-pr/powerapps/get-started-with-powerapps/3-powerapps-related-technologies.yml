@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.3-powerapps-related-technologies
 title: PowerApps related technologies
 metadata:
@@ -11,6 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 8
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/3-powerapps-related-technologies.md)]
-

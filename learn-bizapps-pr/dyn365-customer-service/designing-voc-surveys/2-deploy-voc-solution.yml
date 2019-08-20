@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.designing-voc-surveys.2-deploy-voc-solution
 title: Deploy the Voice of the Customer solution
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 5
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/2-deploy-voc-solution.md)]
-

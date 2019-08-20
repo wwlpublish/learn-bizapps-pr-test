@@ -1,4 +1,4 @@
-﻿### YamlMime:Module
+### YamlMime:Module
 uid: learn-bizapps.powerapps-get-started
 metadata:
   title: Get started with PowerApps
@@ -9,10 +9,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Get started with PowerApps
-summary: |
-  [!include[](../includes/banner.md)]
-
-  Learn the basics of PowerApps and how you can use it in your organization.
+summary: Learn the basics of PowerApps and how you can use it in your organization.
 abstract: |
   In this module, you will:
   - Explore how PowerApps can make your business more efficient.
@@ -39,4 +36,3 @@ units:
 - learn-bizapps.powerapps-get-started.7-summary-cleanup
 badge: 
   uid: learn-bizapps.powerapps-get-started.badge
-

@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.voc-managing-driving-action-from-surveys.5-triggering-actions-based-on-results
 title: Trigger actions based on results
 metadata:
@@ -12,6 +12,4 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 7
 content: |
-  [!include[](../includes/banner.md)]
   [!include[](includes/5-triggering-actions-based-on-results.md)]
-

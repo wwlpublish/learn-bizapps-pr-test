@@ -1,4 +1,4 @@
-﻿### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.create-use-analytics-reports-power-bi
 metadata:
   title: Create and use analytics reports with Power BI
@@ -11,10 +11,7 @@ metadata:
   ms.prod: learning-power-bi
   #ms.learn-contact: margoc
 title: Create and use analytics reports with Power BI
-summary: |
-  [!include[](../../includes/banner.md)]
-
-  This learning path introduces you to Power BI, and teaches you to use and build business intelligence reports. 
+summary: This learning path introduces you to Power BI, and teaches you to use and build business intelligence reports. 
 prerequisites: |
   - Familiarity with Excel
   - Access to the Power BI service
@@ -37,4 +34,3 @@ modules:
 - learn-bizapps.publish-share-power-bi
 trophy:
   uid: learn.create-use-analytics-reports-power-bi.trophy
-

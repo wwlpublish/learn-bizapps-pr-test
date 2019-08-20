@@ -1,4 +1,4 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-customize.2-powerapps-explore
 title: Explore screens and controls in PowerApps
 metadata:
@@ -12,4 +12,3 @@ metadata:
 durationInMinutes: 5
 content: | 
   [!include[](includes/2-powerapps-explore.md)]  
-
