@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.customer-service-cases.6-case-management-scenarios-dashboards
 title: Case management dashboard scenarios
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/6-case-management-scenarios-dashboards.md)]
+

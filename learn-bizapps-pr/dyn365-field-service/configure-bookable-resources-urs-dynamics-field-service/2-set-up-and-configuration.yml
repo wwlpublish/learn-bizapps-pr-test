@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-configure-bookable-resources.2-set-up-and-configuration
 title: Setup and configuration
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 7
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/2-set-up-and-configuration.md)]
+

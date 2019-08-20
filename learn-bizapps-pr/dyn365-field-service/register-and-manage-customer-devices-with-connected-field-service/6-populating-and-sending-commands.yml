@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.6-populating-and-sending-commands
 title: Populating and sending commands
 metadata:
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 25
 content: |
+  [!include[](../includes/banner.md)]
   [!include[](includes/6-populating-and-sending-commands.md)]
+
