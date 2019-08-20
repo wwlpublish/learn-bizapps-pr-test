@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-data-power-bi.4-clean-data-query-editor 
 title: Transform data to include in a report
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
 durationInMinutes: 10
-content: | 
- [!include[](includes/4-clean-data-query-editor.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/4-clean-data-query-editor.md)] 
+

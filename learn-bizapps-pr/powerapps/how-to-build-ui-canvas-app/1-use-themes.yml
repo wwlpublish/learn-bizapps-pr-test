@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.how-to-build-ui-canvas-app.1-use-themes 
 title: Use themes to quickly change the appearance of your app
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 3 
-content: | 
- [!include[](includes/1-use-themes.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-use-themes.md)] 
+

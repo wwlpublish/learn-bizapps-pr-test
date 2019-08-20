@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.creating-and-managing-entitlements-in-dynamics-365.5-managing-support-contracts-with-entitlements
 title: Exercise - Manage support contracts by using entitlements
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-managing-support-contracts-with-entitlements.md)]
+

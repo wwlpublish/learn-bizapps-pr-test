@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.connect-other-data.2-work-with-action-based-data-sources 
 title: Work with action-based data sources
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-platform 
   ROBOTS: NOINDEX 
 durationInMinutes: 8 
-content: | 
- [!include[](includes/2-work-with-action-based-data-sources.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-work-with-action-based-data-sources.md)] 
+

@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.perform-custom-updates.3-deleting-records 
 title: Deleting record(s) from data sources and collections 
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 8 
-content: | 
- [!include[](includes/3-deleting-records.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-deleting-records.md)] 
+

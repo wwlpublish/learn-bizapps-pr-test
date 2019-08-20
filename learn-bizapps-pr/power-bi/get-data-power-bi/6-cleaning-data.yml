@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-data-power-bi.6-cleaning-data 
 title: Clean data to include in a report
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
 durationInMinutes: 10
-content: | 
- [!include[](includes/6-cleaning-data.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/6-cleaning-data.md)] 
+

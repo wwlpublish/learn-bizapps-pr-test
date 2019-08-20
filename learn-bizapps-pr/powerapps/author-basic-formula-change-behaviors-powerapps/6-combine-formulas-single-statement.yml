@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.change-behaviors.6-combine-formulas-single-statement
 title: Use controls and functions to create a dynamic formula
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 8 
-content: | 
- [!include[](includes/6-combine-formulas-single-statement.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/6-combine-formulas-single-statement.md)] 
+

@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.register-and-manage-customer-devices-with-connected-field-service.5-working-with-device-properties-and-definitions
 title: Working with device properties and property definitions
 metadata:
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-d365
 durationInMinutes: 10
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-working-with-device-properties-and-definitions.md)]
+

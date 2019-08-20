@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.use-documentation.03-optimize-performance 
 title: Performance optimization 
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-platform 
   ROBOTS: NOINDEX 
 durationInMinutes: 10 
-content: | 
- [!include[](includes/03-optimize-performance.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/03-optimize-performance.md)] 
+

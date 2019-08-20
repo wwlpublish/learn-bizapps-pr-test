@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.designing-voc-surveys.5-designing-survey-questions
 title: Design survey questions
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-designing-survey-questions.md)]
+

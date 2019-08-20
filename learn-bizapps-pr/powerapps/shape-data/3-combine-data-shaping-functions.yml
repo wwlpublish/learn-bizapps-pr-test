@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.shape-data.3-combine-data-shaping-functions 
 title: Combining data shaping functions
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 7 
-content: | 
- [!include[](includes/3-combine-data-shaping-functions.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-combine-data-shaping-functions.md)] 
+

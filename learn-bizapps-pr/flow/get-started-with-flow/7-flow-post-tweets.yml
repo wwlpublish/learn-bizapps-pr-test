@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.7-flow-post-tweets
 title: Post tweets with Microsoft Flow
 metadata: 
@@ -11,6 +11,8 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 5 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](../includes/banner.md)]
   [!include[](includes/7-flow-post-tweets.md)] 
+

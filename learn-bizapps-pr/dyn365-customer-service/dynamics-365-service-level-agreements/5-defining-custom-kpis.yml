@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.dynamics-365-service-level-agreements.5-defining-custom-kpis
 title: Define custom key performance indicators (KPIs)
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-defining-custom-kpis.md)]
+

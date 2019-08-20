@@ -1,9 +1,11 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.powerapps-common-data-service.3-create-a-cds-entity
 title: Create a Common Data Service entity  
 metadata: 
   title: Create a Common Data Service entity
   description: Create a Common Data Service entity
 durationInMinutes: 12 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/3-create-a-cds-entity.md)]  
+

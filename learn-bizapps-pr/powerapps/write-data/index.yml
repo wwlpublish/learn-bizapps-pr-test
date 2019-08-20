@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.write-data 
 metadata: 
   title: Write data in a PowerApps canvas app
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Write data in a PowerApps canvas app 
-summary: Forms can be used to view, edit, and create records.This module demonstrates how to use forms to write data to your data source.  Topics will include form setup, the different form modes, and how to configure a submit button. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Forms can be used to view, edit, and create records.This module demonstrates how to use forms to write data to your data source.  Topics will include form setup, the different form modes, and how to configure a submit button. 
 abstract: |  
     In this module, you will: 
     - Understand how to work with Forms in canvas apps
@@ -35,3 +38,4 @@ units:
 - learn-bizapps.write-data.7-summary 
 badge: 
   uid: learn.write-data.badge 
+
