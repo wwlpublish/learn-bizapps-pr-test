@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.get-data-power-bi 
 metadata: 
  title: Get data with Power BI Desktop
@@ -9,7 +9,10 @@ metadata:
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
 title: Get data with Power BI Desktop
-summary: How can you find, collect, and clean data from different sources? Power BI is a tool for making sense of your data. You will learn tricks to make data-gathering easier.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  How can you find, collect, and clean data from different sources? Power BI is a tool for making sense of your data. You will learn tricks to make data-gathering easier.
 abstract: |  
     In this module, you will: 
     - Explore the data-centric features and tools of Power BI.
@@ -35,3 +38,4 @@ units:
 - learn-bizapps.get-data-power-bi.8-summary 
 badge: 
   uid: learn-bizapps.get-data-with-power-bi-desktop.badge 
+

@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.visuals-in-power-bi.6-create-matrixes-tables 
 title: Matrices and tables
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
 durationInMinutes: 8
-content: | 
- [!include[](includes/6-create-matrixes-tables.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/6-create-matrixes-tables.md)] 
+

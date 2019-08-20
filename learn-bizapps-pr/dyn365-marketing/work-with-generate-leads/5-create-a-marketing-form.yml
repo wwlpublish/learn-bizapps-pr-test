@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-generate-leads.5-create-a-marketing-form 
 title: Exercise - Create a marketing form 
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-d365 
   ROBOTS: NOINDEX 
 durationInMinutes: 5 
-content: | 
- [!include[](includes/5-create-a-marketing-form.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/5-create-a-marketing-form.md)] 
+

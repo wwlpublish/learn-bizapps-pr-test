@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.10-flow-integrate-powerapps
 title: Integrate PowerApps, Flow, and SharePoint
 metadata: 
@@ -10,5 +10,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 8
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/10-flow-integrate-powerapps.md)] 
+

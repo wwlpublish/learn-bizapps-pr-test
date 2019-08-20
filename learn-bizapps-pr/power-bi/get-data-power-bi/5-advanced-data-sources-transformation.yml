@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-data-power-bi.5-advanced-data-sources-transformation 
 title: Combine data from multiple sources
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
 durationInMinutes: 10
-content: | 
- [!include[](includes/5-advanced-data-sources-transformation.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/5-advanced-data-sources-transformation.md)] 
+

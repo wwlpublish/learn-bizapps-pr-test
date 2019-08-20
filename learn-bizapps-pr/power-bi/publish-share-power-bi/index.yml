@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.publish-share-power-bi 
 metadata: 
  title: Publish and share in Power BI
@@ -9,7 +9,10 @@ metadata:
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
 title: Publish and share in Power BI
-summary: Publish and share your Power BI reports and dashboards to teammates in your organization or to everyone on the web. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Publish and share your Power BI reports and dashboards to teammates in your organization or to everyone on the web. 
 abstract: |  
     In this module, you will: 
     - Publish reports
@@ -40,3 +43,4 @@ units:
 - learn-bizapps.publish-share-power-bi.13-summary 
 badge: 
   uid: learn-bizapps.publish-and-share-with-power-bi-desktop.badge 
+

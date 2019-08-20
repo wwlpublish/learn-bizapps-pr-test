@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.build-your-first-report
 metadata:
   title: Create and share your first Power BI report
@@ -11,7 +11,10 @@ metadata:
   ms.prod: learning-power-bi
   #ms.learn-contact: margoc
 title: Create and share your first Power BI report
-summary: With Power BI you can create compelling visuals and reports. In this module you learn how to use Power BI Desktop to connect to data, build visuals, and create a report that you can share with others in your organization. Then you learn how to publish the report to the Power BI service, and let others see your insights and benefit from your work.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  With Power BI you can create compelling visuals and reports. In this module you learn how to use Power BI Desktop to connect to data, build visuals, and create a report that you can share with others in your organization. Then you learn how to publish the report to the Power BI service, and let others see your insights and benefit from your work.
 abstract: |
     In this module, you will:
     - Create a report in Power BI
@@ -37,3 +40,4 @@ units:
 - learn-bizapps.power-bi.7-build-your-first-power-bi-report-quiz
 badge:
   uid: learn-bizapps.build-your-first-report.badge
+

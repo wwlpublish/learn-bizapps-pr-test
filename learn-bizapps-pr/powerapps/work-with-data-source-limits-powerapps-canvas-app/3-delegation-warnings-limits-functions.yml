@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.data-source-limits.3-delegation-warnings-limits-functions 
 title: Delegation warnings, limits, and non-delegable functions
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-platform 
   ROBOTS: NOINDEX 
 durationInMinutes: 10 
-content: | 
- [!include[](includes/3-delegation-warnings-limits-functions.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-delegation-warnings-limits-functions.md)] 
+

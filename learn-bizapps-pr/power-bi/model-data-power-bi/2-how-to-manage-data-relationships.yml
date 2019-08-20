@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.model-data-power-bi.2-how-to-manage-data-relationships 
 title: How to manage your data relationships
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
 durationInMinutes: 8 
-content: | 
- [!include[](includes/2-how-to-manage-data-relationships.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-how-to-manage-data-relationships.md)] 
+

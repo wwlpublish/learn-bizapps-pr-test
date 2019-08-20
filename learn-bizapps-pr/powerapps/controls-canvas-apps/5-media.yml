@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.controls-canvas-apps.5-media 
 title: Media
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 6 
-content: | 
- [!include[](includes/5-media.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/5-media.md)] 
+

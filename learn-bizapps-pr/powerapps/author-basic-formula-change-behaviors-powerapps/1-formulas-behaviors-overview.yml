@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.change-behaviors.1-formulas-behaviors-overview
 title: Formulas and functionality
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 2 
-content: | 
- [!include[](includes/1-formulas-behaviors-overview.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-formulas-behaviors-overview.md)] 
+

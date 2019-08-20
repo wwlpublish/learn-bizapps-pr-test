@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.urs-resource-scheduling-optimization
 metadata:
   title: Resource scheduling optimization in Microsoft Dynamics 365 for Field Service 
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
 title: Resource scheduling optimization in Microsoft Dynamics 365 for Field Service
-summary: Organizations that have a large amount of resources to schedule may find that it is easier automatically schedule or reschedule items based on specific objectives that the organization has.  This might include optimizing existing bookings to ensure that the most qualified and closest resource is being scheduled for jobs.  By leveraging an automated scheduling solution, dispatchers are freed up to focus on exceptions, which can provide them the ability to manage large quantities of resources.  Dynamics 365 Resource Scheduling Optimization solution can be leveraged to provide automated scheduling and optimization capabilities including, an overview of what the Optimization solution provides, setup and deployment guidance, defining optimization profiles, running simulations, and best practice considerations.     
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Organizations that have a large amount of resources to schedule may find that it is easier automatically schedule or reschedule items based on specific objectives that the organization has.  This might include optimizing existing bookings to ensure that the most qualified and closest resource is being scheduled for jobs.  By leveraging an automated scheduling solution, dispatchers are freed up to focus on exceptions, which can provide them the ability to manage large quantities of resources.  Dynamics 365 Resource Scheduling Optimization solution can be leveraged to provide automated scheduling and optimization capabilities including, an overview of what the Optimization solution provides, setup and deployment guidance, defining optimization profiles, running simulations, and best practice considerations.     
 abstract: |
     In this module, you will:
     - Identify the core features and capabilities of the resource scheduling optimization solution
@@ -38,3 +41,4 @@ units:
 - learn-bizapps.urs-resource-scheduling-optimization.8-summary
 badge: 
    uid: learn.resource-scheduling-optimization.badge
+

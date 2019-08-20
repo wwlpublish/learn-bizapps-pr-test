@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-relational-data.3-cds-for-apps 
 title: Common Data Service for apps makes relationships even easier
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-platform 
   ROBOTS: NOINDEX 
 durationInMinutes: 10 
-content: | 
- [!include[](includes/3-cds-for-apps.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-cds-for-apps.md)] 
+
