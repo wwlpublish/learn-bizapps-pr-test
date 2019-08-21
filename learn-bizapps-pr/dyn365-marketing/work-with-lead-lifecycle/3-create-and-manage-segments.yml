@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-lead-lifecycle.3-create-and-manage-segments 
 title: Create and manage segments
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-d365 
   ROBOTS: NOINDEX 
 durationInMinutes: 5 
-content: | 
- [!include[](includes/3-create-and-manage-segments.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-create-and-manage-segments.md)] 
+

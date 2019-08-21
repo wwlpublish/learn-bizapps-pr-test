@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.shape-data 
 metadata: 
   title: Shape data in a PowerApps canvas app
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Shape data in a PowerApps canvas app  
-summary: When you create a canvas app, do you need to show the user all the data? What if you want to show only the data that is relevant to them? This module will help you address this issue. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  When you create a canvas app, do you need to show the user all the data? What if you want to show only the data that is relevant to them? This module will help you address this issue. 
 abstract: |  
     In this module, you will: 
     - Filter the data in a gallery
@@ -35,3 +38,4 @@ units:
 - learn-bizapps.shape-data.6-summary 
 badge: 
   uid: learn.shape-data.badge 
+

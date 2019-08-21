@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.work-with-generate-leads
 metadata: 
   title: Generate Leads in Dynamics 365 for Marketing
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial  
   ms.prod: learning-d365  
 title: Generate Leads in Dynamics 365 for Marketing 
-summary: The generation of a lead begins when a prospect who is interested your products or services takes the first step in your sales cycle. Dynamics 365 for Marketing includes several opportunities to create leads manually and automatically. You can also leverage marketing tactics such as using marketing forms and pages. Marketing pages allow you to offer something valuable in exchange for the prospects contact information. Marketing forms hosted on pages are key elements to capture interests and behaviors which help marketers convert.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  The generation of a lead begins when a prospect who is interested your products or services takes the first step in your sales cycle. Dynamics 365 for Marketing includes several opportunities to create leads manually and automatically. You can also leverage marketing tactics such as using marketing forms and pages. Marketing pages allow you to offer something valuable in exchange for the prospects contact information. Marketing forms hosted on pages are key elements to capture interests and behaviors which help marketers convert.
 abstract: |
     In this module, you will: 
     - Create leads manually
@@ -40,3 +43,4 @@ units:
 - learn-bizapps.work-with-generate-leads.9-summary 
 badge:
   uid: learn.work-with-generate-leads.badge 
+

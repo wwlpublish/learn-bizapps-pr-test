@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.work-with-assess-leads
 metadata: 
   title: Assess Leads in Dynamics 365 for Marketing
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial  
   ms.prod: learning-d365  
 title: Assess Leads in Dynamics 365 for Marketing 
-summary: Identify more leads that are sales ready. Throughout the development process, the source of the lead along with the value and grading scale associated to a lead become part of the evaluation process shared between sales and marketing. Assessing leads within a single platform and having a collaborative approach to defining what is a sales-ready lead allows for connected and automated processes. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Identify more leads that are sales ready. Throughout the development process, the source of the lead along with the value and grading scale associated to a lead become part of the evaluation process shared between sales and marketing. Assessing leads within a single platform and having a collaborative approach to defining what is a sales-ready lead allows for connected and automated processes. 
 abstract: |  
     In this module, you will: 
     - Define and manage sales ready vs. non-sales ready leads
@@ -37,3 +40,4 @@ units:
 - learn-bizapps.work-with-assess-leads.7-summary 
 badge:
   uid: learn.work-with-assess-leads.badge 
+

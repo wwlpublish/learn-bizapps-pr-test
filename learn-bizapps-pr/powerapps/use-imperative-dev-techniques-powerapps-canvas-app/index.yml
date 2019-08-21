@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.use-imperative-dev-techniques 
 metadata: 
   title: Use imperative development techniques for canvas apps in PowerApps
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Use imperative development techniques for canvas apps in PowerApps 
-summary: Imperative development techniques can help you achieve the goal for your app. You will learn about different development methods and different variables in PowerApps. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Imperative development techniques can help you achieve the goal for your app. You will learn about different development methods and different variables in PowerApps. 
 abstract: |  
     In this module, you will: 
     - Understand imperative vs. declarative development
@@ -35,3 +38,4 @@ units:
 - learn-bizapps.use-imperative-dev-techniques.8-summary 
 badge: 
   uid: learn-bizapps.use-imperative-dev-techniques.badge 
+

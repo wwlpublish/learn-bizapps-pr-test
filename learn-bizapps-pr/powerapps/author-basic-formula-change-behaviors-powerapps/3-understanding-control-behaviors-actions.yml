@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.change-behaviors.3-understanding-control-behaviors-actions
 title: Understanding control behaviors and actions
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 15 
-content: | 
- [!include[](includes/3-understanding-control-behaviors-actions.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-understanding-control-behaviors-actions.md)] 
+

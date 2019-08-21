@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.explore-data-power-bi 
 metadata: 
  title: Explore data in Power BI
@@ -9,7 +9,10 @@ metadata:
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
 title: Explore data in Power BI
-summary: Turn your business intelligence data into data insights by creating and configuring Power BI dashboards. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Turn your business intelligence data into data insights by creating and configuring Power BI dashboards. 
 abstract: |  
     In this module, you will: 
     - Upload reports
@@ -38,3 +41,4 @@ units:
 - learn-bizapps.explore-data-power-bi.12-summary 
 badge: 
   uid: learn-bizapps.explore-data-with-power-bi-desktop.badge 
+

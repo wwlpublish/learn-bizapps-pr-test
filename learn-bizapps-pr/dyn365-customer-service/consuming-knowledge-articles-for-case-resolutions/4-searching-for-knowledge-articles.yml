@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.4-searching-for-knowledge-articles
 title: Search for knowledge articles
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/4-searching-for-knowledge-articles.md)]
+

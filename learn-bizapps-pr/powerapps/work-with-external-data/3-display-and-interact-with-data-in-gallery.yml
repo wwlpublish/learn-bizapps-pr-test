@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-external-data.3-display-and-interact-with-data-in-gallery 
 title: Display and interact with your data in a gallery
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 8 
-content: | 
- [!include[](includes/3-display-and-interact-with-data-in-gallery.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-display-and-interact-with-data-in-gallery.md)] 
+

@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.8-flow-event-D365
 title: Build a flow that runs when an event in Dynamics 365 occurs
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 6
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/8-flow-event-D365.md)] 
+

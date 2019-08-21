@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.testing-performance-checks.1-performance 
 title: The importance of thinking about performance
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 8 
-content: | 
- [!include[](includes/1-performance.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-performance.md)] 
+

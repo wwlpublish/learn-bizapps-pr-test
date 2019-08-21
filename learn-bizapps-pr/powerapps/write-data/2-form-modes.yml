@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.write-data.2-form-modes 
 title: Form modes
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 7 
-content: | 
- [!include[](includes/2-form-modes.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-form-modes.md)] 
+

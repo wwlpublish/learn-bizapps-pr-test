@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.explore-data-power-bi.2-quick-insights 
 title: Quick insights in Power BI
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
 durationInMinutes: 7
-content: | 
- [!include[](includes/2-quick-insights.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-quick-insights.md)] 
+

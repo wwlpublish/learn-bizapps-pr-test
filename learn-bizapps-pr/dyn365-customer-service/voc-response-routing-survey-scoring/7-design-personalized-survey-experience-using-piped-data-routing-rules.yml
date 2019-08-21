@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.voc-response-routing-survey-scoring.7-design-personalized-survey-experience-using-piped-data-routing-rules
 title: Design a personalized survey experience by using piped data and routing rules
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 15
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/7-design-personalized-survey-experience-using-piped-data-routing-rules.md)]
+

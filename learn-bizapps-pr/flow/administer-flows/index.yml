@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.flow-administration 
 metadata: 
   title: Use the Admin center to manage environments and data policies in Microsoft Flow
@@ -11,7 +11,10 @@ metadata:
   ms.prod: learning-flow
   #ms.learn-contact: margoc
 title: Use the Admin center to manage environments and data policies in Microsoft Flow 
-summary: Tenant and environment admins use the Microsoft Flow Admin center to manage data policies and environments for Microsoft Flow deployments.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Tenant and environment admins use the Microsoft Flow Admin center to manage data policies and environments for Microsoft Flow deployments.
 abstract: |
     In this module, you will:
     - Learn about the Admin center
@@ -37,3 +40,4 @@ units:
 - learn-bizapps.flow-administration.5-summary
 badge:
   uid: learn.flow-administration.badge
+

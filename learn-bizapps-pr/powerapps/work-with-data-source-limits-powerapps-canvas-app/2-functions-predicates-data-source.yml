@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.data-source-limits.2-functions-predicates-data-source 
 title: Functions, predicates, and data sources combine to determine delegation
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.prod: learning-power-platform 
   ROBOTS: NOINDEX 
 durationInMinutes: 8 
-content: | 
- [!include[](includes/2-functions-predicates-data-source.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-functions-predicates-data-source.md)] 
+

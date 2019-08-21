@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-configure-bookable-resources.6-setup-and-configure-bookable-resources
 title: Exercise - Set up and configure bookable resources
 metadata:
@@ -12,4 +12,6 @@ metadata:
   ROBOTS: NOINDEX
 durationInMinutes: 20
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/6-setup-and-configure-bookable-resources.md)]
+
