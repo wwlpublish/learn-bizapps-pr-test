@@ -37,15 +37,9 @@ You can change the type of any visual by selecting it on the canvas and then sel
 
 **First visual**
 
-In the **Visualizations** pane, select the **Format** tab (looks like a paint roller), and then expand **Data color**, and select the **Advanced controls** option.
+In the **Visualizations** pane, select the **Format** tab (looks like a paint roller), and then expand **Data color**.
 
 ![Adjust the first visual](../media/pbid-visuals_04b.png)
-
-In the **Based on field** section, expand the *RetirementStates table* and select **Overall rank**. Save changes by clicking **OK**.
-
-![Change data colors](../media/pbid-visuals_04c.png)
-
-To adjust the colors used in the map, select the desired color in the **Minimum** and **Maximum** fields. 
 
 You can adjust the size of a visual by dragging its corners or sides. Let's move this visual to the upper left before creating the next visual.
 

@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.powerapps-design-model-driven-apps.2-building-blocks-of-model-driven-apps
 title: Building blocks of model-driven apps  
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 10 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/2-building-blocks-of-model-driven-apps.md)]  
+

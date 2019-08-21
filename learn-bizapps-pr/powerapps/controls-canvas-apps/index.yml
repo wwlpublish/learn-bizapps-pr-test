@@ -1,15 +1,18 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.controls-canvas-apps 
 metadata: 
- title: Use and understand Controls in a canvas app in PowerApps
- description: Controls help create a better experience for the user and collect the appropriate data. This module will help you understand and use Controls.
- ms.date: 03/29/2019  
- author: kschimke  
- ms.author: kschimke  
- ms.topic: interactive-tutorial  
- ms.prod: learning-powerapps  
+  title: Use and understand Controls in a canvas app in PowerApps
+  description: Controls help create a better experience for the user and collect the appropriate data. This module will help you understand and use Controls.
+  ms.date: 03/29/2019  
+  author: KevSch
+  ms.author: kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-powerapps  
 title: Use and understand Controls in a canvas app in PowerApps 
-summary: Controls help create a better experience for the user and collect the appropriate data. This module will help you understand and use Controls. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Controls help create a better experience for the user and collect the appropriate data. This module will help you understand and use Controls. 
 abstract: |  
     In this module, you will: 
     - Understand how to use controls in a canvas app
@@ -34,3 +37,4 @@ units:
 - learn-bizapps.controls-canvas-apps.7-summary 
 badge: 
   uid: learn-bizapps.controls-canvas-apps.badge 
+

@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.using-dynamics-365-queues-to-manage-case-workloads.7-use-routing-rules-to-assign-cases-to-specific-queues
 title: Exercise - Use routing rules to assign cases to specific queues
 metadata:
   title: Exercise - Use routing rules to assign cases to specific queues
   description: Exercise - Use routing rules to assign cases to specific queues
   ms.date: 02/02/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/7-use-routing-rules-to-assign-cases-to-specific-queues.md)]
+

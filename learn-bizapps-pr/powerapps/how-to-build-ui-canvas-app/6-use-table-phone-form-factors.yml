@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.how-to-build-ui-canvas-app.6-use-table-phone-form-factors 
 title: Using the tablet or phone form factors
 metadata: 
   title: Using the tablet or phone form factors 
   description: Using the tablet or phone form factors 
   ms.date: 03/29/2019 
-  author: kschimke 
+  author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 6 
-content: | 
- [!include[](includes/6-use-table-phone-form-factors.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/6-use-table-phone-form-factors.md)] 
+

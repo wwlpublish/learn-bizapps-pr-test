@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.how-to-build-ui-canvas-app.5-personalization 
 title: Personalization
 metadata: 
   title: Personalization 
   description: Personalization 
   ms.date: 03/29/2019 
-  author: kschimke 
+  author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 10 
-content: | 
- [!include[](includes/5-personalization.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/5-personalization.md)] 
+

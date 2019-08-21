@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.analyze-explore-data-power-bi.4-lab-2 
 title: Apply filters to reports
 metadata: 
   title: Apply filters to reports 
   description: Apply filters to reports 
   ms.date: 04/26/2019 
-  author: robde 
+  author: HeyRob
   ms.author: robde 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-bi 
   ROBOTS: NOINDEX 
 durationInMinutes: 25 
-content: | 
- [!include[](includes/4-lab-2.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/4-lab-2.md)] 
+

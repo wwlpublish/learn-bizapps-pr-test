@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.flow-build-more 
 metadata: 
   title: Build more complex flows with Microsoft Flow
@@ -11,15 +11,18 @@ metadata:
   ms.prod: learning-flow
   #ms.learn-contact: margoc
 title: Build more complex flows with Microsoft Flow 
-summary: Microsoft Flow is an online workflow service that automates actions across the most common apps and services. In this module, you'll build more advanced flows to streamline your business, save time, and work more efficiently.  
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Microsoft Flow is an online workflow service that automates actions across the most common apps and services. In this module, you'll build more advanced flows to streamline your business, save time, and work more efficiently.  
 abstract: Build more advanced flows to get notifications, copy files between online services, posts tweets, convert and store documents, and more. 
 prerequisites: You must have signed up for Microsoft Flow, and have a OneDrive for Business account.
 iconUrl: /learn/achievements/build-more-flows.svg
-ratingEnabled: true
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - flow
@@ -41,3 +44,4 @@ units:
 - learn-bizapps.flow-build-more.15-summary
 badge:
   uid: learn.flow-build-more.badge
+

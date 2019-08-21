@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.customer-service-cases.7-case-management-scenarios-work-case
 title: Case management work with cases scenarios
 metadata:
   title: Case management work with cases scenarios
   description:  Case management work with cases scenarios
   ms.date: 02/02/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/7-case-management-scenarios-work-case.md)]
+

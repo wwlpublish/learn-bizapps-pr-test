@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.powerapps-manage 
 metadata: 
   title: Manage apps in PowerApps
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Manage apps in PowerApps 
-summary: Manage app versions, app sharing, and environments in PowerApps. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Manage app versions, app sharing, and environments in PowerApps. 
 abstract: |
   In this module, you will: 
   - Learn how to view and restore app versions.
@@ -22,6 +25,7 @@ levels:
 - beginner
 roles: 
 - business-user
+- functional-consultant
 products: 
 - power-platform
 - powerapps
@@ -34,3 +38,4 @@ units:
 - learn-bizapps.powerapps-manage.6-summary-cleanup
 badge:
   uid: learn.powerapps-manage.badge
+

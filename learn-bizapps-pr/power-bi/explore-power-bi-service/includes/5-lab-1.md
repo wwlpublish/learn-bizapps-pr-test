@@ -61,7 +61,7 @@ Congratulations. You are the new sales manager at a clothing manufacturing compa
 ### Report and accessibility display options
 Reports are viewed on many different devices, with varying screen sizes and aspects. The View menu has many options that control how your report page displays. Select the option that works best for your screen size, your audience, or your personal preference. Try the following:
 
-1.  Select the **Total Units** tile to ope the associated report. 
+1.  Select the **Total Units** tile to open the associated report. 
 
 2. From the upper menubar, select **View.**
 
@@ -71,7 +71,7 @@ Reports are viewed on many different devices, with varying screen sizes and aspe
 
 3.  The first three options control the display of your report. Select each of the three options to learn how they work.
     *   To display your report page at the largest size possible without resorting to scrollbars, select **Fit to page**.
-    *   Too fill the entire width of the available space. Select the **Fit to width**.
+    *   Too fill the entire width of the available space. Select the **Fit to width**.
     *   To view the report at the best resolution (and if you don’t mind the possibility of double scrollbars), select **Actual size**.
 
      <!-- this gif uses the old report, not the app  ![Animted image of View menu options.](../media/lab-1/power-bi-view-options.gif)-->

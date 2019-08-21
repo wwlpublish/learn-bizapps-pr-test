@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.customer-service-cases.3-case-creation-automation-considerations
 title: Considerations for case creation automation
 metadata:
   title: Considerations for case creation automation
   description: Considerations for case creation automation
   ms.date: 02/02/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
   ROBOTS: NOINDEX
 durationInMinutes: 8
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/3-case-creation-automation-considerations.md)]
+

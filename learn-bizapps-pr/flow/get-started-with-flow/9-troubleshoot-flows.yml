@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.9-troubleshoot-flows
 title: Troubleshoot flows
 metadata: 
@@ -11,5 +11,8 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 5 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](../includes/banner.md)]
   [!include[](includes/9-troubleshoot-flows.md)] 
+

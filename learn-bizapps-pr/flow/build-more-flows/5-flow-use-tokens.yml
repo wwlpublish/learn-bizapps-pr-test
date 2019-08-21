@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.5-flow-use-tokens
 title: Build a flow that uses information like locations or date
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 8 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-flow-use-tokens.md)] 
+

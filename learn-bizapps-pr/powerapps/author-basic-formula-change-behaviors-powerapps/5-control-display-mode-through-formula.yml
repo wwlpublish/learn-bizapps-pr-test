@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.change-behaviors.5-control-display-mode-through-formula
 title: Control the display mode through a formula
 metadata: 
   title: Control the display mode through a formula
   description: Control the display mode through a formula
   ms.date: 03/19/2019 
-  author: kschimke 
+  author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 8 
-content: | 
- [!include[](includes/5-control-display-mode-through-formula.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/5-control-display-mode-through-formula.md)] 
+

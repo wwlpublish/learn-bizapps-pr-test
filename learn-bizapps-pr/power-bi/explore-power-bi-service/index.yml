@@ -1,15 +1,18 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.intro-to-power-bi-service 
 metadata: 
- title: Explore what Power BI can do for you
- description: As a consumer, you’ll work in the Power BI service to review and interact with content that has been shared with you. This module provides the foundational information that you need to work effectively in Power BI service.
- ms.date: 04/26/2019  
- author: robde  
- ms.author: robde  
- ms.topic: interactive-tutorial  
- ms.prod: learning-power-bi  
+  title: Explore what Power BI can do for you
+  description: As a consumer, youâ€™ll work in the Power BI service to review and interact with content that has been shared with you. This module provides the foundational information that you need to work effectively in the Power BI service.
+  ms.date: 04/26/2019  
+  author: HeyRob
+  ms.author: robde  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-power-bi  
 title: Explore what Power BI can do for you
-summary: As a consumer, you’ll work in the Power BI service to review and interact with content that has been shared with you. This module provides the foundational information that you need to work effectively in Power BI service. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  As a consumer, youâ€™ll work in the Power BI service to review and interact with content that has been shared with you. This module provides the foundational information that you need to work effectively in the Power BI service. 
 abstract: |    
     In this module, you will learn how to: 
     - Understand Power BI service basic concepts and terminology. 
@@ -23,7 +26,7 @@ abstract: |
     - Set a data alert.
     - Collaborate by using dashboard commenting.
 
-prerequisites: Access to Power BI service 
+prerequisites: Access to the Power BI service 
 iconUrl: /learn/achievements/intro-to-power-bi-service.svg  
 levels:  
 - beginner   
@@ -32,6 +35,7 @@ roles:
 products:  
 - dynamics  
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.intro-to-power-bi-service.1-why-power-bi 
 - learn-bizapps.intro-to-power-bi-service.2-find-content 
@@ -42,3 +46,4 @@ units:
 - learn-bizapps.intro-to-power-bi-service.7-summary 
 badge: 
   uid: learn-bizapps.intro-to-power-bi-service.badge 
+

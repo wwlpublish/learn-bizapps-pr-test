@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.intro-to-power-bi-service.6-knowledge-check 
 metadata: 
- title: Knowledge check
- description: Knowledge check
- ms.date: 04/29/2019 
- author: robde 
- ms.author: robde 
- ms.topic: interactive-tutorial 
- ms.prod: learning-d365 
- ROBOTS: NOINDEX 
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 04/29/2019 
+  author: HeyRob
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
 title: Check your knowledge 
 durationInMinutes: 5 
 quiz: 

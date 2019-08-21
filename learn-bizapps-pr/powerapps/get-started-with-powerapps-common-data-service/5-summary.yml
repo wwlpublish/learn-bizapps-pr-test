@@ -1,9 +1,11 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.powerapps-common-data-service.5-summary
 title: Summary  
 metadata: 
   title: Summary 
   description: Summary
 durationInMinutes: 2
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-summary.md)]  
+

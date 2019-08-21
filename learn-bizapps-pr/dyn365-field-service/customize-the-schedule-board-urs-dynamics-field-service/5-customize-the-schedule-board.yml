@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-customize-the-schedule-board.5-customize-the-schedule-board
 title: Exercise - Customize the Schedule Board
 metadata:
   title: Exercise - Customize the Schedule Board
   description: Exercise - Customize the Schedule Board
   ms.date: 02/01/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
 durationInMinutes: 20
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-customize-the-schedule-board.md)]
+

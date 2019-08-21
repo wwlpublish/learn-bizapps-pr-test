@@ -1,15 +1,18 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.testing-performance-checks 
 metadata: 
- title: Complete testing and performance checks in a PowerApps canvas app
- description: Do you want to test your app and improve it's performance? This module will help you understand how to test an app and improve performance.
- ms.date: 04/12/2019  
- author: kschimke  
- ms.author: kschimke  
- ms.topic: interactive-tutorial  
- ms.prod: learning-powerapps  
+  title: Complete testing and performance checks in a PowerApps canvas app
+  description: Do you want to test your app and improve it's performance? This module will help you understand how to test an app and improve performance.
+  ms.date: 04/12/2019  
+  author: KevSch
+  ms.author: kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-powerapps  
 title: Complete testing and performance checks in a PowerApps canvas app 
-summary: Do you want to test your app and improve it's performance? This module will help you understand how to test an app and improve performance. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Do you want to test your app and improve it's performance? This module will help you understand how to test an app and improve performance. 
 abstract: |  
     In this module, you will: 
     - Use best practices to improve the performance of your app
@@ -32,3 +35,4 @@ units:
 - learn-bizapps.testing-performance-checks.5-summary 
 badge: 
   uid: learn-bizapps.testing-performance-checks.badge 
+

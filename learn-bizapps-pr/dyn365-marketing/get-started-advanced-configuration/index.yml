@@ -1,28 +1,32 @@
 ﻿### YamlMime:Module 
 uid: learn-bizapps.get-started-advanced-configuration
 metadata: 
- title: Advanced configuration for Dynamics 365 for Marketing 
- description: Administrators use advanced settings to fine-tune application behavior,set defaults, manage users, enable webinars, check quotas, and more. 
- ms.date: 1/23/2019  
- author: dbeasley  
- ms.author: dbeasley  
- ms.topic: interactive-tutorial  
- ms.prod: learning-d365  
+  title: Advanced configuration for Dynamics 365 for Marketing 
+  description: Administrators use advanced settings to fine-tune application behavior, set defaults, manage users, enable webinars, check quotas, and more. 
+  ms.date: 1/23/2019  
+  author: DaveBeasley
+  ms.author: dbeasley  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-d365  
 title: Advanced configuration for Dynamics 365 for Marketing 
-summary: Administrators use advanced settings to fine-tune application behavior,set defaults, manage users, enable webinars, check quotas, and more.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Administrators use advanced settings to fine-tune application behavior, set defaults, manage users, enable webinars, check quotas, and more.
 abstract: |
     In this module, you will:
-    - Configure advanced settings including organization settings,business management settings, marketing settings and event management settings.
+    - Configure advanced settings including organization settings, business management settings, marketing settings and event management settings.
     - Review quota limits.
-    - Manage marketing contenting including images, keywords, reusable content blocks and videos.
+    - Manage marketing content including images, keywords, reusable content blocks, and videos.
     - Manage templates.
     - Integrate Dynamics 365 for Marketing with LinkedIn.
     - Connect Dynamics 365 for Marketing to Power BI.
-prerequisites: Target audience should have a basic understanding of how to navigate the Dynamics 365 application. A basic understanding of what the Marketing application is and used for is also helpful. 
+prerequisites: Target audience should have a basic understanding of how to navigate the Dynamics 365 application and a basic understanding of the Marketing application. 
 iconUrl: /learn/achievements/advanced-configuration-marketing.svg  
 levels:  
 - intermediate  
-roles:  
+roles: 
+- administrator
 - functional-consultant
 - business-user   
 products:  
@@ -44,3 +48,4 @@ units:
 - learn-bizapps.get-started-advanced-configuration.12-summary
 badge:
   uid: learn.get-started-advanced-configuration.badge 
+

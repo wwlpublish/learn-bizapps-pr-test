@@ -1,11 +1,10 @@
-﻿### YamlMime:ModuleUnit
+### YamlMime:ModuleUnit
 uid: learn-bizapps.implement-get-started-with-microsoft-dynamics-365-for-field-service-mobile.7-knowledge-check
-title: Get started with Microsoft Dynamics 365 for Field Service Mobile knowledge check
 metadata:
   title: Get started with Microsoft Dynamics 365 for Field Service Mobile knowledge check
   description: This knowledge check will test your knowledge of Microsoft Dynamics 365 for Field Service Mobile.
   ms.date: 01/25/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service

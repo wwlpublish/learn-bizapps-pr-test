@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-external-data.1-data-source-overview 
 title: Data-source overview
 metadata: 
   title: Data-source overview 
   description: Data-source overview 
   ms.date: 02/26/2019 
-  author: kschimke 
+  author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 6 
-content: | 
- [!include[](includes/1-data-source-overview.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-data-source-overview.md)] 
+

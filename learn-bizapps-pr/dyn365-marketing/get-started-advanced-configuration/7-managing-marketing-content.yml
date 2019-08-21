@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-started-advanced-configuration.7-managing-marketing-content 
 title: Managing marketing content
 metadata: 
   title: Managing marketing content 
   description: Managing marketing content 
   ms.date: 1/23/2019 
-  author: dbeasley 
+  author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365 
   ROBOTS: NOINDEX 
 durationInMinutes: 5 
-content: | 
- [!include[](includes/7-managing-marketing-content.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/7-managing-marketing-content.md)] 
+

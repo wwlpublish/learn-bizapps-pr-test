@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-started-advanced-configuration.2-configuring-organization-settings 
 title: Configuring organization settings 
 metadata: 
   title: Configuring organization settings  
   description: Configuring organization settings  
   ms.date: 1/23/2019 
-  author: dbeasley 
+  author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365 
   ROBOTS: NOINDEX 
 durationInMinutes: 5 
-content: | 
- [!include[](includes/2-configuring-organization-settings.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-configuring-organization-settings.md)] 
+

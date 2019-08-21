@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.how-to-build-ui-canvas-app.3-icons 
 title: Icons
 metadata: 
   title: Icons 
   description: Icons 
   ms.date: 03/29/2019 
-  author: kschimke 
+  author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 3 
-content: | 
- [!include[](includes/3-icons.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-icons.md)] 
+

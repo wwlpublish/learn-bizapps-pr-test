@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.urs-configure-bookable-resources.5-configure-entities-for-urs
 title: Configure entities for URS
 metadata:
   title: Configure entities for URS
   description: Configure entities for URS
   ms.date: 02/01/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365-field-service
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-configure-entities-for-urs.md)]
+

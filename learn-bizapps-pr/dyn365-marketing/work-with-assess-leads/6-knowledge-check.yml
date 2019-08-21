@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-assess-leads.6-knowledge-check 
 metadata: 
- title: Assess Leads in Dynamics 365 for Marketing Knowledge Check
- description: Assess Leads in Dynamics 365 for Marketing Knowledge Check
- ms.date: 01/23/2019  
- author: dbeasley 
- ms.author: dbeasley 
- ms.topic: interactive-tutorial 
- ms.prod: learning-d365 
- ROBOTS: NOINDEX 
+  title: Assess Leads in Dynamics 365 for Marketing Knowledge Check
+  description: Assess Leads in Dynamics 365 for Marketing Knowledge Check
+  ms.date: 01/23/2019  
+  author: DaveBeasley
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365 
+  ROBOTS: NOINDEX 
 title: Check your knowledge 
 durationInMinutes: 5 
 quiz: 

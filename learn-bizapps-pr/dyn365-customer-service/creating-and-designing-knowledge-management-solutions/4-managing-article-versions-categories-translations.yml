@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.creating-and-designing-knowledge-management-solutions.4-managing-article-versions-categories-translations
 title: Manage knowledge article versions, categories, and translations
 metadata:
   title: Manage knowledge article versions, categories, and translations
   description: Manage knowledge article versions, categories, and translations
   ms.date: 02/02/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365
   ROBOTS: NOINDEX
 durationInMinutes: 10
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/4-managing-article-versions-categories-translations.md)]
+

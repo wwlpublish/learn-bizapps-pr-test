@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.use-documentation.04-engage-customer 
 title: Documentation and the customer
 metadata: 
@@ -6,10 +6,12 @@ metadata:
   description: Discuss documentation best practices  
   ms.date: 02/14/2019 
   author: kevsch 
-  ms.author: kevsch 
+  ms.author: Kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-platform 
   ROBOTS: NOINDEX 
 durationInMinutes: 4 
-content: | 
- [!include[](includes/04-engage-customer.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/04-engage-customer.md)] 
+

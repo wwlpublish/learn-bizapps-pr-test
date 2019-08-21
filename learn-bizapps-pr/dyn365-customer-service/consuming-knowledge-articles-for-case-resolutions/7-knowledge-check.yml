@@ -1,11 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.consuming-knowledge-articles-for-case-resolutions.7-knowledge-check
-title: Consume knowledge articles for case resolutions
 metadata:
   title: Consume knowledge articles for case resolutions
   description: This knowledge check will test your knowledge of consuming knowledge articles for case resolutions.
   ms.date: 02/02/2019
-  author: dbeasley
+  author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-d365

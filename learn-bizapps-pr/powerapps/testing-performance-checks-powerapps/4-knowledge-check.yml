@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.testing-performance-checks.4-knowledge-check 
 metadata: 
- title: Complete testing and performance checks in a PowerApps canvas app knowledge check
- description: Complete testing and performance checks in a PowerApps canvas app knowledge check
- ms.date: 04/12/2019 
- author: kschimke 
- ms.author: kschimke 
- ms.topic: interactive-tutorial 
- ms.prod: learning-powerapps 
- ROBOTS: NOINDEX 
+  title: Complete testing and performance checks in a PowerApps canvas app knowledge check
+  description: Complete testing and performance checks in a PowerApps canvas app knowledge check
+  ms.date: 04/12/2019 
+  author: KevSch
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-powerapps 
+  ROBOTS: NOINDEX 
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 

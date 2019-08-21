@@ -1,4 +1,4 @@
-### YamlMime:Module
+﻿### YamlMime:Module
 uid: learn-bizapps.get-started-with-power-bi
 metadata:
   title: Get started building with Power BI 
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-power-bi
 title: Get started building with Power BI
-summary: Learn what Power BI is, including its building blocks and how they work together.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Learn what Power BI is, including its building blocks and how they work together.
 abstract: |
   In this module, you will: 
   - Learn how Power BI services and applications work together.
@@ -17,12 +20,12 @@ abstract: |
   - Learn how to create compelling visuals and reports.
 prerequisites: None
 iconUrl: /learn/achievements/get-started-with-power-bi.svg
-ratingEnabled: true
 levels:
 - beginner
 roles:
 - business-user
 - business-analyst
+- functional-consultant
 products:
 - power-platform
 - power-bi
@@ -35,3 +38,4 @@ units:
 - learn-bizapps.get-started-with-power-bi.6-get-started-with-power-bi-quiz
 badge:
   uid: learn.get-started-with-power-bi.badge
+

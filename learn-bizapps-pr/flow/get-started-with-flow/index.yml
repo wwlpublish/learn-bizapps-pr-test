@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.flow-get-started 
 metadata: 
   title: Get started with Microsoft Flow 
@@ -11,7 +11,10 @@ metadata:
   ms.prod: learning-flow
   #ms.learn-contact: margoc
 title: Get started with Microsoft Flow 
-summary: Microsoft Flow is an online workflow service that automates actions across the most common apps and services.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Microsoft Flow is an online workflow service that automates actions across the most common apps and services.
 abstract: |
     In this module, you will:
     - Create a flow that automatically saves email attachments
@@ -24,7 +27,8 @@ iconUrl: /learn/achievements/get-started-with-flow.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - flow
@@ -42,3 +46,4 @@ units:
 - learn-bizapps.flow-get-started.11-summary-cleanup
 badge:
   uid: learn.flow-get-started.badge
+

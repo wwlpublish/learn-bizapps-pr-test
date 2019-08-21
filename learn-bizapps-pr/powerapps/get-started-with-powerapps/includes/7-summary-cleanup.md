@@ -8,4 +8,4 @@ Additionally, you learned that:
 - The power of PowerApps comes from the ability to connect to related technologies in your business. Examples of these are Common Data Service, Microsoft Flow, Microsoft SharePoint, and other data sources.
 - You can create an app by using several different methods. Some of these methods include from a template, a data source (like Microsoft SharePoint), or a blank canvas.  
 
-
+See [Create your first app](https://www.youtube.com/watch?v=88FlPT7XbP0) if your interested in more explanation.

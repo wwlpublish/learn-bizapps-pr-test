@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-external-data.2-add-data-source 
 title: Add a data source
 metadata: 
   title: Add a data source 
   description: Add a data source 
   ms.date: 03/15/2019 
-  author: kschimke 
+  author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 10  
-content: | 
- [!include[](includes/2-add-data-source.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-add-data-source.md)] 
+

@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.6-flow-accepts-user-input
 title:  Build a flow accepts user input when run
 metadata: 
@@ -11,5 +11,7 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 6 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/6-flow-accepts-user-input.md)] 
+

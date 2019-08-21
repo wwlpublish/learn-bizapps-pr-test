@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.how-to-build-ui-canvas-app.1-use-themes 
 title: Use themes to quickly change the appearance of your app
 metadata: 
   title: Use themes to quickly change the appearance of your app 
   description: Use themes to quickly change the appearance of your app 
   ms.date: 03/29/2019 
-  author: kschimke 
+  author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
   ROBOTS: NOINDEX 
 durationInMinutes: 3 
-content: | 
- [!include[](includes/1-use-themes.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-use-themes.md)] 
+

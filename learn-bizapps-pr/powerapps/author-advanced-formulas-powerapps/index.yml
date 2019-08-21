@@ -1,15 +1,18 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.author-advanced-formulas 
 metadata: 
- title: Author an advanced formula that uses tables, records, and collections in a canvas app in PowerApps
- description: Do you have need for a complex formula in your app? This module can help you author that formula.
- ms.date: 04/12/2019  
- author: kschimke  
- ms.author: kschimke  
- ms.topic: interactive-tutorial  
- ms.prod: learning-powerapps  
+  title: Author an advanced formula that uses tables, records, and collections in a canvas app in PowerApps
+  description: Do you have need for a complex formula in your app? This module can help you author that formula.
+  ms.date: 04/12/2019  
+  author: KevSch
+  ms.author: kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-powerapps  
 title: Author an advanced formula that uses tables, records, and collections in a canvas app in PowerApps
-summary: Do you have need for a complex formula in your app? This module can help you author that formula. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Do you have need for a complex formula in your app? This module can help you author that formula. 
 abstract: |  
     In this module, you will: 
     - Utilize formulas that process multiple records
@@ -34,3 +37,4 @@ units:
 - learn-bizapps.author-advanced-formulas.6-summary 
 badge: 
   uid: learn-bizapps.author-advanced-formulas.badge 
+

@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.powerapps-design-model-driven-apps 
 metadata: 
   title: Get started with model-driven apps in PowerApps 
@@ -11,7 +11,10 @@ metadata:
   ms.prod: learning-powerapps
   #ms.learn-contact: margoc
 title: Get started with model-driven apps in PowerApps
-summary: Model-driven app design is an approach that focuses on quickly adding components to your apps. These components include dashboards, forms, views, and charts. With no code, or very little, you can make apps that are simple or very complex.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Model-driven app design is an approach that focuses on quickly adding components to your apps. These components include dashboards, forms, views, and charts. With no code, or very little, you can make apps that are simple or very complex.
 abstract: |
     In this module, you will:
     - Learn about model-driven app design
@@ -21,7 +24,8 @@ iconUrl: /learn/achievements/get-started-with-model-driven-apps-in-powerapps.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
 products:  
 - power-platform
 - powerapps
@@ -35,3 +39,4 @@ units:
 - learn-bizapps.powerapps-design-model-driven-apps.7-summary
 badge:
   uid: learn.powerapps-design-model-driven-apps.badge
+

@@ -1,15 +1,18 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.use-documentation 
 metadata: 
- title: Document and test your PowerApps application 
- description: Learn how to document and test a PowerApps application.
- ms.date: 02/14/2019  
- author: kevsch  
- ms.author: kevsch  
- ms.topic: interactive-tutorial  
- ms.prod: learning-power-platform  
+  title: Document and test your PowerApps application 
+  description: Learn how to document and test a PowerApps application.
+  ms.date: 02/14/2019  
+  author: kevsch  
+  ms.author: Kschimke  
+  ms.topic: interactive-tutorial  
+  ms.prod: learning-power-platform  
 title: Document and test your PowerApps application  
-summary: In this module, you'll learn best practices around testing and documenting your PowerApps application.
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  In this module, you'll learn best practices around testing and documenting your PowerApps application.
 abstract: |  
     In this module, you will: 
     - Learn about the different types of test plans and components of a good test plan
@@ -33,3 +36,4 @@ units:
 - learn-bizapps.use-documentation.06-summary 
 badge: 
   uid: learn.use-documentation-power-platform.badge 
+
