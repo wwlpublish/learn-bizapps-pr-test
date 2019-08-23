@@ -43,7 +43,7 @@ In **Power Query Editor**, on the **Home** tab on the ribbon, select **New Sourc
 
 Select the **Codes and abbreviations...** table, because it includes the data we want, although it's going to take quite a bit of shaping to pare down that data. 
 
-Select **OK** to bring the data into **Power Query Editor** so that we can shape it. Then follow these steps:
+Select **Load** to bring the data into **Power Query Editor** so that we can shape it. Then follow these steps:
 
 * **Remove the top three rows** – Those rows are a result of the way the webpage's table was created, and we don't need them. To remove them, on the **Home** tab on the ribbon, select **Remove rows \> Remove Top Rows**. In the dialog box that appears, enter *3* as the number of rows to remove.
 
