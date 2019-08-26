@@ -11,6 +11,9 @@ In this unit, you will bring Excel workbooks into Power BI.
 
 This unit explains how you can import an Excel workbook file that contains a simple table from a local drive into Power BI. You'll then learn how to begin exploring that table's data in Power BI by creating a report.
 
+> [!NOTE]
+> Up until now, we've been importing data through Power BI Desktop. This unit page is done from the Power BI service. 
+
 ## Make sure that your data is formatted as a table
 For Power BI to import data from your workbook, that data needs to be  formatted as a table. In Excel, you can highlight a range of cells, and then on the **Insert** tab of the Excel ribbon, select **Table**.
 
