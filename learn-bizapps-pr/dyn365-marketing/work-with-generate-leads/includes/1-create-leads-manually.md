@@ -17,7 +17,7 @@ Here are some guidelines to help ensure that your file will be imported successf
     -   Excel templates provided by Dynamics 365.
 
 >[!Note]
->If your import file is a .csv file, make sure that it is correctly delimited. You can use double quotation marks (") or single quotation marks (') as data delimiters. For more information about how to import contacts in Dynamics 365 Customer Engagement, go to the Basics Guide for [Import Contacts](https://docs.microsoft.com/dynamics365/customer-engagement/basics/import-contacts).  If you import file is in Excel, Dynamics 365 provides Excel templates to streamline import process.
+>If your import file is a .csv file, make sure that it is correctly delimited. You can use double quotation marks (") or single quotation marks (') as data delimiters. For more information about how to import contacts in Dynamics 365 Customer Engagement apps, go to the Basics Guide for [Import Contacts](https://docs.microsoft.com/dynamics365/customer-engagement/basics/import-contacts).  If you import file is in Excel, Dynamics 365 provides Excel templates to streamline import process.
 
 3.  Make sure the first line of the file is a row of column headings. Add column headings (which is text used in the first row of a workbook or file that labels the data in each column) if they are not already present.
     -   Note: Data can be imported more quickly if it can be automatically mapped during the import process. It helps to have your column headings match the display name of fields in Dynamics 365.
