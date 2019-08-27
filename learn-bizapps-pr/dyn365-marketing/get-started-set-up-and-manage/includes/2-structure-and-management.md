@@ -1,4 +1,4 @@
-Dynamics 365 for Marketing can only be used on instances running Dynamics 365 for Customer Engagement apps version 9.0 or higher. If you have a paid Dynamics 365 instance, you can integrate Marketing by adding the Marketing app to your tenant. Dynamics 365 for Marketing is licensed per instance, with each instance priced according to the number of marketing contacts that you market to. To learn more, see 
+Dynamics 365 for Marketing can only be used on instances running Dynamics 365 Customer Engagement apps version 9.0 or higher. If you have a paid Dynamics 365 instance, you can integrate Marketing by adding the Marketing app to your tenant. Dynamics 365 for Marketing is licensed per instance, with each instance priced according to the number of marketing contacts that you market to. To learn more, see 
 
 - [How Marketing is licensed](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/purchase-marketing#how--is-licensed)
 - [Adding a Marketing app to your Office 365 tenant](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/purchase-marketing#add-a--app-to-your--tenant)
