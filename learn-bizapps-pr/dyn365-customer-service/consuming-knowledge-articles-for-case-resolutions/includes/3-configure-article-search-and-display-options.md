@@ -42,7 +42,7 @@ After you've unlocked the **Related** pane, you can set up the **Knowledge Base 
 
    ![Tab Details section](../media/RC-Unit3-1.png)
 
-   For more about using web resources, see [Web resources for Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/developer/web-resources).
+   For more about using web resources, see [Web resources](https://docs.microsoft.com/dynamics365/customer-engagement/developer/web-resources).
 
 - **Name:** This section shows the name of the control and the label that's used for it. You can specify whether the label is shown on the page.
 
