@@ -18,6 +18,6 @@ To go to the custom app, which provides access to these customization settings, 
 
 ![drop down](../media/gsm-accessadvancedsettings-3.png) 
 
-For complete details about how to customize Dynamics 365, see [Customization Guide for Dynamics 365 Customer Engagement](https://docs.microsoft.com/dynamics365/customer-engagement/customize/overview). The guide describes the interface as you see it in the Dynamics 365 - custom app. The customization features that are also provided in the **Settings** work area of Dynamics 365 for Marketing implement similar concepts, operate on the same database, and work similarly.
+For complete details about how to customize Dynamics 365, see the [Customization Guide](https://docs.microsoft.com/dynamics365/customer-engagement/customize/overview). The guide describes the interface as you see it in the Dynamics 365 - custom app. The customization features that are also provided in the **Settings** work area of Dynamics 365 for Marketing implement similar concepts, operate on the same database, and work similarly.
 
 To learn more, see [Create and customize marketing calendars](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/customize-marketing-calendars).
