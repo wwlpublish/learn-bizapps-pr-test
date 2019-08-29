@@ -28,17 +28,17 @@ quiz:
     - content: Email Marketing
       explanation: Email Marketing is a part of the capabilities of Dynamics 365 for Marketing and cannot be added as a standalone app
       isCorrect: false 
-  - content: What is the required version of Dynamics 365 for Customer Engagement to install Dynamics 365 for Marketing?
+  - content: What is the required version of Dynamics 365 Customer Engagement apps to install Dynamics 365 for Marketing?
     choices: 
     - content: v6.0
-      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      explanation: Dynamics 365 Customer Engagement apps must be version 9.0 or higher
       isCorrect: false 
     - content: v7.0
-      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      explanation: Dynamics 365 Customer Engagement apps must be version 9.0 or higher
       isCorrect: false 
     - content: v7.5
-      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      explanation: Dynamics 365 Customer Engagement apps must be version 9.0 or higher
       isCorrect: false 
     - content: v9.0
-      explanation: Dynamics 365 for Customer Engagement must be version 9.0 or higher
+      explanation: Dynamics 365 Customer Engagement apps must be version 9.0 or higher
       isCorrect: true
