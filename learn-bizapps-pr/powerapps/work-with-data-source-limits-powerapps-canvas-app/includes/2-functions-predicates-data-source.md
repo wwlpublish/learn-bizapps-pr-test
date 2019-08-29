@@ -1,4 +1,4 @@
-Determining when delegation when and will not happen is a combination of several variables. The first thing to consider is the data source. The following table shows the different functions and whether they support delegation to a given data source. In this table, “Yes” means the data source does the processing across all of the records, “No” means the data source returns the first 500 (default) records to PowerApps, and PowerApps then processes the function locally.
+Determining when delegation will and will not happen is a combination of several variables. The first thing to consider is the data source. The following table shows the different functions and whether they support delegation to a given data source. In this table, “Yes” means the data source does the processing across all of the records, “No” means the data source returns the first 500 (default) records to PowerApps, and PowerApps then processes the function locally.
 
 
 |               | Common Data Service  | SharePoint   | SQL Server   | Dynamics 365   | Salesforce |
