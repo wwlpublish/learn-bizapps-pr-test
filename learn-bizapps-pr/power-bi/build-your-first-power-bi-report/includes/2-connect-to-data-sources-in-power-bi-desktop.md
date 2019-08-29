@@ -15,17 +15,17 @@ Select **Get Data \> Web**, and paste the address:
 
 `https://www.bankrate.com/retirement/best-and-worst-states-for-retirement/`
 
-![Connect to web data](../media/pbid-getdata_01.png)
+![Connect to web data](../media/pbid-getdata-01.png)
 
 When you select **OK**, the **Query** functionality of Power BI Desktop goes to work. Query contacts the web resource, and the **Navigator** window shows what it found on that webpage. In this case, it finds a table (*Table 0*) and the overall web document. We're interested in the table, so select it in the list. The **Navigator** window shows a preview.
 
-![The Navigator window](../media/pbid-getdata_02.png)
+![The Navigator window](../media/pbid-getdata-02.png)
 
 At this point, you can edit the query before loading the table, by selecting **Transform data** at the bottom of the window. Or, you can just load the table.
 
 When you select **Transform data**, Power Query Editor starts, and a representative view of the table is shown. The **Query Settings** pane appears (if it doesn't, select the **View** tab on the ribbon, then select **Show \> Query Settings**). Here's what it looks like.
 
-![Power Query Editor window](../media/pbid-getdata_03.png)
+![Power Query Editor window](../media/pbid-getdata-03.png)
 
 In Power BI Desktop, you can connect to multiple data sources and combine them to do interesting things. 
 
