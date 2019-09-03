@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-d365-field-service
 title: Implementing Microsoft Dynamics 365 for Field Service
 summary: |
-  [!include[](../dyn365-customer-service/includes/module-banner.md)]
+  [!include[](../../dyn365-customer-service/includes/module-banner.md)]
 
   Field service companies often realize they need help as they discover that workflow inefficiencies are preventing growth and limiting revenue. Taking the right steps to configure Dynamics 365 for Field Service will save you time during your implementation. 
 prerequisites: |
