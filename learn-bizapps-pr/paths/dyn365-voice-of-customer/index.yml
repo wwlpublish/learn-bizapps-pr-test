@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-d365-customer-service
 title: Voice of the Customer for Dynamics 365
 summary: |
-  [!include[](../../includes/lp-banner.md)]
+  [!include[](../dyn365-customer-service/includes/module-banner.md)]
 
   This learning path introduces you to the basics of Voice of the Customer for Dynamics 365.
 prerequisites: |

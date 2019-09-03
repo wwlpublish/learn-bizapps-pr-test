@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-powerapps
 title: Use advanced data options and connectors in PowerApps
 summary: |
-#  [!include[](../../includes/lp-banner.md)]
+  [!include[](../../includes/lp-banner.md)]
   Do you want to improve the user's experience in your canvas app? Do you want to use custom connectors to connect to data? This learning path will help you do both things. It will also focus on working with data source limits.
 prerequisites: |
   - The learning path [Work with data in a PowerApps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/) is recommended
