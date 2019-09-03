@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-d365-customer-service
 title: Work with cases in Microsoft Dynamics 365 for Customer Service
 summary: |
-  [!include[](../../includes/lp-banner.md)]
+  [!include[](../../dyn365-customer-service/includes/module-banner.md)]
 
   This learning path focuses on Case Management capabilities of Dynamics 365 for Customer Service including options for creating cases, managing the case resolution process, working with case hierarchies and merging similar cases. Queues can be leveraged to maintain and manage Case workloads for customer service agents to include defining queues for different types of cases, managing queue items, picking and releasing queue items, and designing queue routing rules.    
 prerequisites: |
