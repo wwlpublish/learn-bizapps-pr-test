@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-powerapps
 title: Use the UI and controls in a canvas app in PowerApps
 summary: |
-  [!include[](../../includes/lp-banner.md)]
+#  [!include[](../../includes/lp-banner.md)]
 
   The app user experience often defines the success of your app. This learning path will focus on how to provide the best app navigation, and build the best UI using themes, icons, images, personalization, different form factors, and controls. 
 prerequisites: A basic understanding of how to create a PowerApps canvas app and some experience working with controls in PowerApps is helpful but not required.

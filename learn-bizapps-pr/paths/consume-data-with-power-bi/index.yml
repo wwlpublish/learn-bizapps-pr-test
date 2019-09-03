@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-flow
 title: Consume data with Power BI
 summary: |
-  [!include[](../../includes/lp-banner.md)]
+#  [!include[](../../includes/lp-banner.md)]
 
   Do you want to make business decisions backed by data? Learn how to do that in Power BI. Learn to work in Power BI to review and interact with this content to make business decisions. 
 prerequisites: |
