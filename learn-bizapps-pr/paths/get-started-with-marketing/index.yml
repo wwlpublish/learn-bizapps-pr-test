@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-d365-get-started-with-marketing
 title: Getting Started with Dynamics 365 for Marketing
 summary: |
-  [!include[](../../includes/lp-banner.md)]
+  [!include[](../../dyn365-customer-service/includes/module-banner.md)]
 
   Microsoft Dynamics 365 for Marketing is a marketing automation application that enables you to turn prospects into business relationships. You can find and nurture more sales-ready leads by moving beyond basic email marketing. Connect sales and marketing, automate processes, and make smarter decisions to maximize your marketing ROI.  Administrators use advanced settings to fine-tune application behavior, set defaults, manage users, enable webinars, check quotas, and more.
 prerequisites: |
