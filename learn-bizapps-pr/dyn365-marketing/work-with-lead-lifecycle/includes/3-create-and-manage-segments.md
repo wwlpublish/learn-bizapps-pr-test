@@ -58,7 +58,7 @@ One of the examples of an interaction segment is a segment based on form submiss
 1.  Go to **Marketing** > **Customers** > **Segments**
 2.  Select **New** on the command bar to create a new segment
 3.  Give the new segment a name on the **General** tab, set its segment type to **Dynamic**, and open its **Definition** tab.
-4.  Your new segment already has a query group set to  the **Contact** entity. Select the field box (currently showing a value of **All**) and start to type the name of the interaction that you want to look for. In this case, start typing 'form'. A drop-down list will open to show contact fields and interaction types with names matching your text. For this scenario,click **Link between FormSubmitted interaction and Contact**
+4.  Your new segment already has a query group set to the **Contact** entity. Select the field box (currently showing a value of **All**) and start to type the name of the interaction that you want to look for. In this case, start typing 'form'. A drop-down list will open to show contact fields and interaction types with names matching your text. For this scenario,click **Link between FormSubmitted interaction and Contact**
 
 ![interaction segment window](../media/wwm-viewcreateandmanagesegments-3.png)
 
@@ -66,7 +66,7 @@ One of the examples of an interaction segment is a segment based on form submiss
 
 ![create and manage segment window](../media/wwm-viewcreateandmanagesegments-4.png)
 
-6.  You will locate the field ID of the form submission you are attemp to segment based uplon. To learn more about finding record ID's refer to the next section below. 
+6.  You will locate the field ID of the form submission you are attempting to segment based upon. To learn more about finding record ID's refer to the next section below. 
 7.  When you\'re done designing your segment, select **Save** and **Go live**
 
 #### Find record IDs
