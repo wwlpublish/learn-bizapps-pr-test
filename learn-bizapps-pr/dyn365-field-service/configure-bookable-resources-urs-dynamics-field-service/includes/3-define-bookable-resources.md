@@ -22,8 +22,8 @@ The scheduling tab defines the necessary items that define how resources are pre
 
 One of the most important items that needs to be defined is the location information that will be used by the schedule board for the resource. The items that need to be defined are:
 
-- **Start location**: Defines where the resource begins there day. This is used to assist in route mapping for the resource.
-- **End location**: Defines where the resource begins there day. This is used to assist in route mapping for the resource.
+- **Start location**: Defines where the resource begins their day. This is used to assist in route mapping for the resource.
+- **End location**: Defines where the resource begins their day. This is used to assist in route mapping for the resource.
 - **Organizational unit**: Defines the specific organization unit that the resource belongs to and will be schedule out off.
 
 When you define a starting and ending location, you have three options that you can define:

@@ -8,7 +8,7 @@ To deploy the mobile application to field agents, you must:
 
 ### Finding the application
 
-The Field Service mobile application is available for download from all major app stores, such as iTunes, Google Play, and Microsoft Store. When searching for the mobile application, be sure that you are getting the correct one. There are many different Dynamics and Field Service Mobile apps available, and it can be confusing which one to use.
+The Field Service mobile application is available for download from all major app stores. When searching for the mobile application, be sure that you are getting the correct one. There are many different Dynamics and Field Service Mobile apps available, and it can be confusing which one to use.
 
 Avoid these apps:
 
