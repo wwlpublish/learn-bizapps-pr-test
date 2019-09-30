@@ -31,7 +31,8 @@ iconUrl: /learn/achievements/intro-to-power-bi-service.svg
 levels:  
 - beginner   
 roles:  
-- business-user   
+- business-user
+- data-analyst   
 products:  
 - dynamics  
 - power-bi 

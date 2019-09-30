@@ -25,7 +25,8 @@ iconUrl: /learn/achievements/tables-and-records.svg
 levels:  
 - intermediate   
 roles:  
-- business-user   
+- business-user
+- maker   
 - functional-consultant 
 products:  
 - power-platform
