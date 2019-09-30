@@ -24,7 +24,8 @@ iconUrl: /learn/achievements/analyze-explore-data-power-bi.svg
 levels:  
 - beginner   
 roles:  
-- business-user   
+- business-user
+- data-analyst   
 products:  
 - power-bi 
 - power-platform
