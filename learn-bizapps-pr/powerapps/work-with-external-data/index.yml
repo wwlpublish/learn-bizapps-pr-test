@@ -22,7 +22,8 @@ iconUrl: /learn/achievements/work-with-external-data.svg
 levels:  
 - intermediate   
 roles:  
-- business-user   
+- business-user
+- maker   
 - functional-consultant 
 products:  
 - power-platform
