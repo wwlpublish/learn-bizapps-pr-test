@@ -18,16 +18,16 @@ quiz:
     choices: 
     - content: Creating from scratch
       isCorrect: false
-      explanation: All of these are valid except using cutom code. 
+      explanation: All of these are valid except using custom code. 
     - content: Using custom code
       isCorrect: true
-      explanation: All of these are valid except using cutom code.
+      explanation: All of these are valid except using custom code.
     - content: Using an OpenAPI definition
       isCorrect: false 
-      explanation: All of these are valid except using cutom code. 
+      explanation: All of these are valid except using custom code. 
     - content: Using a Postman collection
       isCorrect: false 
-      explanation: All of these are valid except using cutom code. 
+      explanation: All of these are valid except using custom code. 
   - content: A custom connector created in PowerApps can be directly used in which additional services?
     choices: 
     - content: Microsoft Flow
