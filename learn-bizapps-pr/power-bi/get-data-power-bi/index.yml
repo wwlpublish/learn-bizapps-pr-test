@@ -22,7 +22,8 @@ iconUrl: /learn/achievements/get-data-with-power-bi-desktop.svg
 levels:  
 - intermediate   
 roles:  
-- business-analyst  
+- business-analyst 
+- data-analyst
 products:  
 - power-platform
 - power-bi 

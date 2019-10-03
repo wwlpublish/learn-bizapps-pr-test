@@ -23,6 +23,7 @@ levels:
 - intermediate   
 roles:  
 - business-analyst  
+- data-analyst
 products:  
 - power-platform  
 - power-bi 
