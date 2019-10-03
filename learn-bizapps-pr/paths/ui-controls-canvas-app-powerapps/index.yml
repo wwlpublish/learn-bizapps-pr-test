@@ -17,8 +17,9 @@ prerequisites: A basic understanding of how to create a PowerApps canvas app and
 iconUrl: /learn/achievements/ui-controls-canvas-app-powerapps.svg
 levels:
 - intermediate
-roles:
+roles:  
 - functional-consultant
+- maker
 products:
 - power-platform
 - powerapps

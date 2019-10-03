@@ -18,8 +18,9 @@ prerequisites: |
 iconUrl: /learn/achievements/advanced-data-options-and-connectors.svg
 levels:
 - advanced
-roles:
+roles:  
 - functional-consultant
+- maker
 products:
 - power-platform
 - powerapps
