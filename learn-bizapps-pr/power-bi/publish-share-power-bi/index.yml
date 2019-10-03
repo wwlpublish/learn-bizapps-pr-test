@@ -25,7 +25,8 @@ iconUrl: /learn/achievements/publish-and-share-with-power-bi-desktop.svg
 levels:  
 - intermediate   
 roles:  
-- business-analyst  
+- business-analyst
+- data-analyst  
 products:  
 - power-platform
 - power-bi 
