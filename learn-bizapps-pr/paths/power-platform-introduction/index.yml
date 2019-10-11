@@ -3,10 +3,9 @@ uid: learn.wwl.power-platform-introduction
 metadata:
   title: Learn the basics of Power BI Desktop, Microsoft Flow, and PowerApps
   description: Learn the modern data warehousing tools and techniques supported by Azure Databricks.
-  brand: ''
-  ms.date: 09/19/2019
+  ms.date: 10/18/2019
   author: wwlpublish
-  ms.author: wwlpub
+  ms.author: ceperezb
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Learn the basics of Power BI Desktop, Microsoft Flow, and PowerApps
