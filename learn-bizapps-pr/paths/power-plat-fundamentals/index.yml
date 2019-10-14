@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn-wwl.power-plat-fundamentals
+metadata:
+  title: Microsoft Power Platform Fundamentals
+  description: Learn the modern data warehousing tools and techniques supported by Azure Databricks.
+  brand: Dynamics
+  ms.date: 10/18/2019
+  author: wwlpublish
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+title: Microsoft Power Platform Fundamentals
+prerequisites: |
+  None
+summary: |
+  Are you interested in learning about the Power Platform? Start with this learning path to see how Power Platform is used. Learn about how PowerApps, Common Data Service, Power Automate, and Power BI can help you boost productivity by automating business processes, analyzing data to produce business insights, and acting more effectively with simple app experiences.
+  _1014_
+iconUrl: http://via.placeholder.com/120x120
+levels:
+- beginner
+roles:
+- business-user
+products:
+- dynamics
+- dynamics-customer-engagement
+- dynamics-finance-operations
+- power-platform
+modules:
+- learn-bizapps.powerapps-get-started
+- learn-dynamics.power-plat-app-basic-fundamentals
+- learn-bizapps.powerapps-manage
+- learn-dynamics.intro-common-data-service
+trophy:
+  uid: learn-dynamics.power-plat-fundamentals.trophy
