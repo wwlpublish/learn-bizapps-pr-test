@@ -14,8 +14,7 @@ prerequisites: |
   None
 summary: |
   Are you interested in learning about the Power Platform? Start with this learning path to see how Power Platform is used. Learn about how PowerApps, Common Data Service, Power Automate, and Power BI can help you boost productivity by automating business processes, analyzing data to produce business insights, and acting more effectively with simple app experiences.
-  _1014_
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/generic-trophy.svg
 levels:
 - beginner
 roles:
