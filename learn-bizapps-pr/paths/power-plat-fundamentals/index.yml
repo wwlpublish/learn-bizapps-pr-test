@@ -13,7 +13,7 @@ title: Microsoft Power Platform Fundamentals
 prerequisites: |
   None
 summary: |
-  Are you interested in learning about the Power Platform? Start with this learning path to see how Power Platform is used. Learn about how PowerApps, Common Data Service, Power Automate, and Power BI can help you boost productivity by automating business processes, analyzing data to produce business insights, and acting more effectively with simple app experiences.
+  Learn the business value and product capabilities of Power Platform. Create a simple PowerApp, connect data with CDS, build a Power BI Dashboard, and automate a process with Microsoft Flow.
 iconUrl: /learn/achievements/generic-trophy.svg
 levels:
 - beginner
@@ -26,8 +26,17 @@ products:
 - power-platform
 modules:
 - learn-bizapps.powerapps-get-started
-- learn-dynamics.power-plat-app-basic-fundamentals
+- learn-bizapps.powerapps-customize
 - learn-bizapps.powerapps-manage
 - learn-dynamics.intro-common-data-service
+- learn-dynamics.create-manage-environments
+- learn-dynamics.create-manage-entities
+- learn-bizapps.flow-get-started
+- learn-bizapps.flow-build-more
+- learn-bizapps.flow-administration
+- learn-bizapps.get-started-with-power-bi
+- learn-bizapps.intro-to-power-bi-service
+- learn-bizapps.get-data-power-bi
+- learn-bizapps.visuals-in-power-bi
 trophy:
   uid: learn-dynamics.power-plat-fundamentals.trophy
