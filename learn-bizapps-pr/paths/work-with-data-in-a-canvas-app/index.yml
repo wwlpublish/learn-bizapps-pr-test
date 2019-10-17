@@ -11,7 +11,6 @@ metadata:
   #ms.learn-contact: kschimke
 title: Work with data in a PowerApps canvas app
 summary: |
-  [!include[](../../includes/lp-banner.md)]
 
   Do you need to connect an app to access data? Then this learning path is for you. It will focus on how to connect to data sources. It also will show you how to use filtering, conditions, and other functions to shape your data and write data to your data source.
 prerequisites: |
