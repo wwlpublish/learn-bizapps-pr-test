@@ -12,7 +12,7 @@ metadata:
 title: Automate a business process using Microsoft Flow
   #ms.learn-contact: margoc
 summary: |
-  [!include[](../../includes/lp-banner.md)]
+<!--- [!include[](../../includes/lp-banner.md)] --->
 
   This learning path introduces you to Microsoft Flow, teaches you how to build workflows, and how to administer flows. 
 prerequisites: |

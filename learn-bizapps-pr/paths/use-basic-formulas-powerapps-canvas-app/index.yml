@@ -10,7 +10,7 @@ metadata:
   ms.prod: learning-powerapps
 title: Use basic formulas to make better PowerApps canvas apps
 summary: |
-  [!include[](../../includes/lp-banner.md)]
+<!--- [!include[](../../includes/lp-banner.md)] --->
 
   Do you want to use formulas to improve functionality and change a behavior in your PowerApps canvas app? This learning path can help you accomplish your goal.  
 prerequisites: |
