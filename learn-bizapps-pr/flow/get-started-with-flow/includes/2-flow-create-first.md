@@ -32,7 +32,7 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
     ![Open my flows](../media/click-my-flows.png)
 
-3. Select the flow you just created to see how it works.
+3. Select the flow you just created and click **Edit** to see how it works.
 
     ![Select the flow](../media/click-the-flow.png)
 
