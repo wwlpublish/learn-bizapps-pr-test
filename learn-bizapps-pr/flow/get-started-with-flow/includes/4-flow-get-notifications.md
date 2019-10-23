@@ -22,7 +22,7 @@ Microsoft Flow comes with many templates to get you started with creating flows.
 
     You can also quickly find this template by entering *notifications* in the search field.
 
-1. Select **Continue**.
+1. Select **Create Flow**.
 
     In the flow, you'll see the steps that will be used to get your email profile and your boss's before the flow is started.
 

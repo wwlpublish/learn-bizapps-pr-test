@@ -13,6 +13,9 @@ The following image shows the **Query Settings** pane for a query that has been 
 
 Let's return to the retirement data that we found by connecting to a **Web** data source, and let's shape that data to fit our needs.
 
+> [!NOTE]
+> See the previous unit page if you have not downloaded the sample data set. 
+
 For starters, most of the ratings were brought into **Power Query Editor** as whole numbers, but some weren't. Because one column had text and numbers, it wasn't automatically converted. Power BI often detects these changes and automatically changes the data type. 
 
 We need the data to be numbers. No problem: just right-click the column header, and then select **Change Type \> Whole Number** to change the data type. If you must change more than one column, select one of them, and then hold down the **Shift** key while you select additional adjacent columns. Then right-click a column header to change all the selected columns. You can also use the **Ctrl** key to select non-adjacent columns.
@@ -43,7 +46,7 @@ In **Power Query Editor**, on the **Home** tab on the ribbon, select **New Sourc
 
 Select the **Codes and abbreviations...** table, because it includes the data we want, although it's going to take quite a bit of shaping to pare down that data. 
 
-Select **OK** to bring the data into **Power Query Editor** so that we can shape it. Then follow these steps:
+Select **Load** to bring the data into **Power Query Editor** so that we can shape it. Then follow these steps:
 
 * **Remove the top three rows** – Those rows are a result of the way the webpage's table was created, and we don't need them. To remove them, on the **Home** tab on the ribbon, select **Remove rows \> Remove Top Rows**. In the dialog box that appears, enter *3* as the number of rows to remove.
 

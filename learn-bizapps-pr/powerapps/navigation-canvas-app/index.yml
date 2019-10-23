@@ -24,6 +24,7 @@ levels:
 - intermediate   
 roles:  
 - functional-consultant  
+- maker  
 products:  
 - power-platform
 - powerapps

@@ -84,9 +84,10 @@ Let's jump into Microsoft Flow, and we'll show you around. We have tons of infor
 
 When you sign in to Microsoft Flow, you'll find these menus:
 
+* **Action items**, where you can manages approvals and business process flows.
 * **My flows**, where your flows reside.
+* **Create**, where you start a new flow.
 * **Templates**, where you can take a look at some of the most popular templates. These should give you some great ideas for flows you want to try.
-* **Approvals**, where you can automate and streamline your approval process.
 * **Connectors**, (formerly called Services), where you can connect from one service to another.
 * **Data**, where you can access entities, connections, custom connectors and gateways.
 * **Solutions**, where you can manage your solutions. 
@@ -97,6 +98,7 @@ For now, let's focus on the **?** menu next to your login, which has these optio
 * **Documentation** is where our advanced topics reside. If you want to really understand a feature or function, you can do a deep dive here to figure things out.
 * **Learn** has learning paths to guide you through using Microsoft Flow, all the way from beginning techniques to advanced scenarios.
 * **Support** is a great landing place to find help.
+* **Roadmap** is where you can get a glimpse into what will be made in the next product update.
 * **Community** is a place to plug into and find out how other people use Microsoft Flow.
 * **Give Feedback** taps into a community of power users, and is where you can send comments and questions to developers and other experienced users.
 * **Blog** keeps you up to date about the most recent developments and releases in the Microsoft Flow ecosystem.

@@ -1,6 +1,6 @@
-In the previous unit, we connected two separate data sources, and then shaped and combined those data sources as we wanted. As a result, we now have a **data model** that we can use as a basis for creating reports. 
+Previously, we connected two separate data sources and then shaped and combined those data sources. As a result, we now have a **data model** that we can use as a basis for creating reports. 
 
-That doesn't mean we're stuck with that data model forever. Additional changes can be made in Power Query Editor after the model is loaded, and you can reload a model to apply any changes you make. But for now, this model will do just fine. 
+That doesn't mean we're stuck with that data model. You can make additional changes in Power Query Editor after the model is loaded. You can also reload a model to apply any changes you make. 
 
 To get started creating a report with the data model we created, open the **Report** view in Microsoft Power BI Desktop.
 
@@ -19,7 +19,7 @@ The **Visualizations** and **Fields** pane can be collapsed by selecting the sma
 ![Collapse panes](../media/pbid-visuals_02.png)
 
 ## Create visuals
-To create a visualization, just drag a field from the **Fields** list onto the **Report** view. In this case, let's drag the **State** field from **RetirementStats** and see what happens.
+To create a visualization, just drag a field from the **Fields** list onto the **Report** view. In this case, let's drag the **State** field from **Ranking of best and worst states for retirement** and see what happens.
 
 ![Drag a field onto the canvas](../media/pbid-visuals_03a.png)
 
@@ -37,7 +37,6 @@ You can change the type of any visual by selecting it on the canvas and then sel
 
 **First visual**
 
-In the **Visualizations** pane, select the **Format** tab (looks like a paint roller), and then expand **Data color**.
 
 ![Adjust the first visual](../media/pbid-visuals_04b.png)
 
@@ -47,9 +46,9 @@ Select any blank area of the canvas, so that no visual is selected. You're now r
 
 **Second visual**
 
-Drag **State** from **RetirementStats** onto a blank area of the canvas. Then drag the **Overall rank** field, then the **Health care quality** field, and then the **Well-being** field onto that visual. Now let's change the visual to a **Line and clustered column chart** visual by selecting the appropriate tile in the **Visualizations** pane.
+Drag **State** from **Ranking of best and worst states for retirement** onto a blank area of the canvas. Then drag the **Overall rank** field and then the **Crime** field onto that visual. Now let's change the visual to a **Line and clustered column chart** visual by selecting the appropriate tile in the **Visualizations** pane.
 
-We're almost done. On the **Fields** tab, move the **Well-being** field to the **Line values** well. The following image shows what your visual should now look like. Note that the order of the fields in each bucket will change how a visual appears. For example, **Health care quality** is above **Overall rank** in the **Column values** bucket, shown in the following image. 
+We're almost done. On the **Fields** tab, move the **Crime** field to the **Line values** well. The following image shows how your visual should now look. 
 
 ![Finished visual](../media/pbid-visuals_04d.png)
 
