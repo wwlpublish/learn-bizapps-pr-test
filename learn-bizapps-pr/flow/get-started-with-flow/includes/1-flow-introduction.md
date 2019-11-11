@@ -84,7 +84,7 @@ Let's jump into Microsoft Flow, and we'll show you around. We have tons of infor
 
 When you sign in to Microsoft Flow, you'll find these menus:
 
-* **Action items**, where you can manages approvals and business process flows.
+* **Action items**, where you can manage approvals and business process flows.
 * **My flows**, where your flows reside.
 * **Create**, where you start a new flow.
 * **Templates**, where you can take a look at some of the most popular templates. These should give you some great ideas for flows you want to try.
