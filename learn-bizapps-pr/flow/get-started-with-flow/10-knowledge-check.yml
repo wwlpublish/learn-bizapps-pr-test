@@ -2,8 +2,8 @@
 uid: learn-bizapps.flow-get-started.10-knowledge-check
 title: Check your knowledge
 metadata: 
-  title: "Knowledge check: Get started with Microsoft Flow" 
-  description: This knowledge check tests your knowledge of how to use Microsoft Flow. 
+  title: "Knowledge check: Get started with Power Automate" 
+  description: This knowledge check tests your knowledge of how to use Power Automate. 
   ms.date:  02/03/2019
   #TODO: Update with real author name.
   author: margoc
@@ -12,7 +12,7 @@ metadata:
   ms.prod: learning-flow
 durationInMinutes: 4 
 quiz: 
-  title: "Knowledge check: Get started with Microsoft Flow" 
+  title: "Knowledge check: Get started with Power Automate" 
   questions: 
   - content: How can you create a flow that reoccurs daily? 
     choices:  

@@ -42,7 +42,7 @@ If error code 500 or 502 appears, the failure is temporary or transient.
 
 Sometimes your flows might behave unexpectedly because you aren't using the correct plan.
 
-- To view your plan, in Microsoft Flow, select **Learn**, and then select **Pricing**.
+- To view your plan, in Power Automate, select **Learn**, and then select **Pricing**.
 
     ![Pricing](../media/learn-pricing.png)
 
@@ -59,7 +59,7 @@ You might have run out of data that you can use.
 - If you're on a paid plan, runs are pooled across all users in your organization. We're working on features that will show information about available quotas and usage across an organization.
 
 > [!IMPORTANT]
-> If you exceed your data limit, Microsoft Flow throttles your flow runs.
+> If you exceed your data limit, Power Automate throttles your flow runs.
 
 Learn more about [usage limits](https://flow.microsoft.com/pricing/).
 

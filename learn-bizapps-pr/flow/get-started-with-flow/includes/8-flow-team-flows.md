@@ -1,4 +1,4 @@
-Team flows extend the power of Microsoft Flow to groups of people. After all, why should just one person enjoy the benefits of increased automation in his or her work environment?
+Team flows extend the power of Power Automate to groups of people. After all, why should just one person enjoy the benefits of increased automation in his or her work environment?
 
 Here are some advantages of team flows:
 
@@ -6,7 +6,7 @@ Here are some advantages of team flows:
 - If the creator of a team flow leaves the organization, the other owners of the flow can continue to run it.
 - All owners of a team flow can view its history, manage its properties, edit it, add and remove owners, and delete it.
 
-If you're the creator or an owner of a team flow, you'll find it listed on the **Team flows** tab in [Microsoft Flow](https://flow.microsoft.com).
+If you're the creator or an owner of a team flow, you'll find it listed on the **Team flows** tab in [Power Automate](https://flow.microsoft.com).
 
 ![Team flows tab](../media/addowner5.png)
 
@@ -16,13 +16,13 @@ If you're the creator or an owner of a team flow, you'll find it listed on the *
 
 ## Prerequisites
 
-To create a team flow, you must have a [paid Microsoft Flow plan](https://flow.microsoft.com/pricing/). Additionally, to add other owners to a team flow or remove owners from it, you must be the creator or an owner.
+To create a team flow, you must have a [paid Power Automate plan](https://flow.microsoft.com/pricing/). Additionally, to add other owners to a team flow or remove owners from it, you must be the creator or an owner.
 
 ## Create a team flow
 
 You create a team flow by adding other owners to an existing flow. After new owners are added to a flow, the flow will appear on the **Team flows** tab.
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://flow.microsoft.com) by using your organizational account.
 1. Select **My flows**.
 1. Select the **Invite another owner** button for the flow that you want to change.
 
@@ -53,7 +53,7 @@ To view all the connections that are used by a flow, select the **Invite another
 ## Remove an owner
 
 > [!IMPORTANT]
-> If you remove an owner whose credentials are used to access Microsoft Flow services, be sure to update the credentials for those connections, so that the flow continues to work correctly.
+> If you remove an owner whose credentials are used to access Power Automate services, be sure to update the credentials for those connections, so that the flow continues to work correctly.
 
 1. On the **Team flows** tab, select the **Invite another owner** button for the flow that you want to change.
 

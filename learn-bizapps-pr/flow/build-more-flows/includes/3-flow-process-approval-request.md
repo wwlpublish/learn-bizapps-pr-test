@@ -18,7 +18,7 @@ First, we need to add an item to our SharePoint list. We can then process an app
 
 ## Step two: Change the flow
 
-1. In Microsoft Flow, select **My flows**.
+1. In Power Automate, select **My flows**.
 2. Select the **Post list items to Twitter after approval** flow that you set up in the previous unit, and then, under **Run history**, select the flow that's running.
 
     ![Run history](../media/run-history.png)
