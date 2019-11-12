@@ -1,19 +1,19 @@
 ﻿### YamlMime:LearningPath
 uid: learn-bizapps.automate-process-using-flow
 metadata:
-  title: Automate a business process using Microsoft Flow
-  description: This learning path introduces you to Microsoft Flow, teaches you how to build workflows, and how to administer flows. 
+  title: Automate a business process using Power Automate
+  description: This learning path introduces you to Power Automate, teaches you how to build workflows, and how to administer flows. 
   ms.date:  02/03/2019
   #TODO: Update with real author name.
   author: margoc
   ms.author: margoc
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-title: Automate a business process using Microsoft Flow
+title: Automate a business process using Power Automate
   #ms.learn-contact: margoc
 summary: |
 
-  This learning path introduces you to Microsoft Flow, teaches you how to build workflows, and how to administer flows. 
+  This learning path introduces you to Power Automate, teaches you how to build workflows, and how to administer flows. 
 prerequisites: |
   - Familiarity with SharePoint, OneDrive, and Excel. 
 iconUrl: /learn/achievements/automate-process-using-flow.svg
