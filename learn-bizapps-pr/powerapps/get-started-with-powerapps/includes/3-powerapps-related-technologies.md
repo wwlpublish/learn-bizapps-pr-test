@@ -2,7 +2,7 @@ Microsoft PowerApps works with other technologies to help you build powerful app
 
 - **Data sources** - Without data, you don't have a business. Data sources bring cloud and on-premises data into your apps. You access data through built-in connections, custom connectors, and gateways.
 - **Common Data Service** - A compliant and scalable data service that's integrated into PowerApps.
-- **Microsoft Flow** - Allows you to build automated workflows to receive notifications, run processes, collect data, and more.
+- **Power Automate** - Allows you to build automated workflows to receive notifications, run processes, collect data, and more.
 
 
 ## Data sources, connections, and gateways
@@ -34,7 +34,7 @@ Standard and custom entities within Common Data Service provide a cloud-based st
 - **Productivity tools** - Entities are available within the add-ins for Microsoft Excel to increase productivity and ensure data accessibility.
 
 
-## Microsoft Flow
-You can use Microsoft Flow to create logic that performs one or more tasks when an event occurs in a canvas app. For example, configure a button so that, when a user selects it, an item is created in a SharePoint list, an email or meeting request is sent, a file is added to the cloud, or all of these. You can configure any control in the app to start the flow, which continues to run even if you close PowerApps.
+## Power Automate
+You can use Power Automate to create logic that performs one or more tasks when an event occurs in a canvas app. For example, configure a button so that, when a user selects it, an item is created in a SharePoint list, an email or meeting request is sent, a file is added to the cloud, or all of these. You can configure any control in the app to start the flow, which continues to run even if you close PowerApps.
 
 

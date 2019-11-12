@@ -143,5 +143,5 @@ into your app. The concepts can be very similar to
 tabular data sources, like when displaying users in a gallery, but also
 quite different, like when writing back to a user's profile.
 
-In the next unit, you will learn more about Microsoft Flow and how to
+In the next unit, you will learn more about Power Automate and how to
 integrate it with your PowerApps apps. 

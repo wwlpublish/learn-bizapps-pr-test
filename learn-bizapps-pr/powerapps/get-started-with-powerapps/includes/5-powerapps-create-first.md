@@ -3,7 +3,7 @@
 Keep in mind that you can use data from many other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
 > [!NOTE]
-> PowerApps requires either an Office 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft PowerApps and Microsoft Flow.](https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus#licenses)
+> PowerApps requires either an Office 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft PowerApps and Power Automate.](https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus#licenses)
 
 
 ## Connect to a data source
