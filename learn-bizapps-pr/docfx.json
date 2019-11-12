@@ -13,6 +13,9 @@
           "**.yml",
           "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
@@ -21,6 +24,9 @@
           "**.yml",
           "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
@@ -29,6 +35,9 @@
           "**.yml",
           "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
@@ -37,6 +46,9 @@
           "**.yml",
           "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
@@ -45,6 +57,9 @@
           "**.yml",
           "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],
         "dest": "modules"
       },
       {
@@ -53,6 +68,9 @@
           "**.yml",
           "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],
         "dest": "modules"
       },
       {
