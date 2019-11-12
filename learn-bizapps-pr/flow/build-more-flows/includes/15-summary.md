@@ -1,6 +1,6 @@
 Congratulations! You've expanded your skills for creating flows that let you do more work while working less.
 
-In the previous modules for Microsoft Flow, you learned how to build simple flows. You've now increased your knowledge by learning about complex data sources, flow scheduling, integration, and complex business processes.
+In the previous modules for Power Automate, you learned how to build simple flows. You've now increased your knowledge by learning about complex data sources, flow scheduling, integration, and complex business processes.
 
 ![Congratulations](../media/6-heading.png)
 
@@ -8,7 +8,7 @@ In the previous modules for Microsoft Flow, you learned how to build simple flow
 
 Microsoft Learn provides several learning paths, based on your role and interests.
 
-Here are some ways that you can use Microsoft Flow to get more done with less work when you use Microsoft Dynamics 365. Because these technologies work together, it's easy to measure your business, act on the results, and automate your workflows.
+Here are some ways that you can use Power Automate to get more done with less work when you use Microsoft Dynamics 365. Because these technologies work together, it's easy to measure your business, act on the results, and automate your workflows.
 
 - In the [PowerApps](https://docs.microsoft.com/learn/paths/create-powerapps/) learning path, you'll learn how to build apps that use flows to track or update business processes on any device.
 - In the [Power BI](https://docs.microsoft.com/learn/modules/get-started-with-power-bi/) learning path, you'll learn how to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.

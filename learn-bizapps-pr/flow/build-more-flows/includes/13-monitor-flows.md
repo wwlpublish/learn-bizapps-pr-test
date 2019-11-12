@@ -2,8 +2,8 @@ You can view a summary of the number of times that each flow succeeded or failed
 
 ## Prerequisites
 
-* Install the Microsoft Flow mobile app for [Google Android](https://aka.ms/flowmobiledocsandroid), [Apple iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows) on a supported device. The screenshots in this unit were taken on the Apple iPhone version of the app, but the mobile app for Android and Windows Phone are similar.
-* If you don't already have a flow, create one on the [Microsoft Flow website](https://flow.microsoft.com/). For easier testing, use a flow that you can trigger yourself instead of waiting for an external event.
+* Install the Power Automate mobile app for [Google Android](https://aka.ms/flowmobiledocsandroid), [Apple iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows) on a supported device. The screenshots in this unit were taken on the Apple iPhone version of the app, but the mobile app for Android and Windows Phone are similar.
+* If you don't already have a flow, create one on the [Power Automate website](https://flow.microsoft.com/). For easier testing, use a flow that you can trigger yourself instead of waiting for an external event.
 
 The flow in this tutorial runs when you receive email from a specific address.
 
