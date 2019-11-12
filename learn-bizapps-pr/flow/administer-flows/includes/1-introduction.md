@@ -38,4 +38,4 @@ The way that you use environments depends on your organization and the apps that
 
 ## Data policies
 
-When you use Microsoft Flow, the data is automatically protected with whatever security roles your organization already has in place. It isn't possible to use Microsoft Flow to get access to information that the user doesn't already have access to in the organization. Some organizations may want to add an additional, optional layer of security that can proactively block flows that violate certain policies.
+When you use Power Automate, the data is automatically protected with whatever security roles your organization already has in place. It isn't possible to use Power Automate to get access to information that the user doesn't already have access to in the organization. Some organizations may want to add an additional, optional layer of security that can proactively block flows that violate certain policies.

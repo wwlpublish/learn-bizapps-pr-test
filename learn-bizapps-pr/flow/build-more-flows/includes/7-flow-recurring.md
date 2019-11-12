@@ -6,7 +6,7 @@ You can create a flow that performs one or more tasks (for example, sending a re
 
 ## Create the flow
 
-1. Launch Microsoft Flow and sign in using your organizational account.
+1. Launch Power Automate and sign in using your organizational account.
 1. In the left pane, select **My flows**.
 1. Select **New**, and then select **Create from blank**.
 

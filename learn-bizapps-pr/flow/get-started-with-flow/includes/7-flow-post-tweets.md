@@ -10,7 +10,7 @@ You can create a flow that automatically performs one or more actions after it's
 
 First, you must select the trigger (event) that starts the flow.
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://flow.microsoft.com) by using your organizational account.
 1. Select **My flows**.
 1. Select **New**, and then select **Automated--from blank**.
 
@@ -21,7 +21,7 @@ First, you must select the trigger (event) that starts the flow.
 
     ![Twitter - When a new tweet is posted trigger](../media/twitter-search.png)
 
-1. If you haven't already connected your Twitter account to Microsoft Flow, select **Sign in to Twitter**, and then enter your credentials.
+1. If you haven't already connected your Twitter account to Power Automate, select **Sign in to Twitter**, and then enter your credentials.
 1. In the **Search text** box, enter the keyword to find.
 
     ![Enter the Twitter keyword](../media/twitter-keyword.png)
