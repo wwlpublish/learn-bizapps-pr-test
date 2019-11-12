@@ -10,42 +10,48 @@
       {
         "src": "dyn365-customer-service",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
         "dest": "modules"
       },
       {
         "src": "dyn365-field-service",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
         "dest": "modules"
       },
       {
         "src": "dyn365-marketing",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
         "dest": "modules"
       },
       {
         "src": "flow",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
         "dest": "modules"
       },
       {
         "src": "power-bi",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
         "dest": "modules"
       },
       {
         "src": "powerapps",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
         "dest": "modules"
       },
