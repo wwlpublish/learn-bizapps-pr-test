@@ -2,7 +2,7 @@
 uid: learn-bizapps.flow-build-more.14-knowledge-check
 title: Check your knowledge
 metadata: 
-  title: "Knowledge check: Build more complex flows with Microsoft Flow" 
+  title: "Knowledge check: Build more complex flows with Power Automate" 
   description: This quiz tests your knowledge of how to create more complex flows.
   ms.date: 02/03/2019
   #TODO: Update with real author name.
@@ -12,9 +12,9 @@ metadata:
   ms.prod: learning-flow
 durationInMinutes: 4
 quiz: 
-  title: "Knowledge check: Build more complex flows with Microsoft Flow" 
+  title: "Knowledge check: Build more complex flows with Power Automate" 
   questions: 
-  - content: What are connectors used for in Microsoft Flow? 
+  - content: What are connectors used for in Power Automate? 
     choices:  
     - content: Connectors are used to start a flow.
       explanation: Connectors let you connect to a service like Twitter. 

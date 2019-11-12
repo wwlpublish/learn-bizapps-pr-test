@@ -2,7 +2,7 @@ This unit shows how to create a flow that monitors a source for new or changed i
 
 In this unit, you'll copy data from a [Microsoft SharePoint list](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) (the source) to a [Microsoft Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) table (the destination).
 
-Keep in mind that you can copy data over more than [150 services](https://flow.microsoft.com/connectors/) that Microsoft Flow supports.
+Keep in mind that you can copy data over more than [150 services](https://flow.microsoft.com/connectors/) that Power Automate supports.
 
 > [!IMPORTANT]
 > Changes that you make in the destination aren't copied back to the source, because two-way synchronization isn't supported. If you try to set up two-way synchronization, you'll create an infinite loop where changes are sent endlessly between the source and destination.
@@ -10,16 +10,16 @@ Keep in mind that you can copy data over more than [150 services](https://flow.m
 ## Prerequisites
 
 * Access to a data source and a destination. This unit doesn't include the steps to create the source and destination.
-* Access to [Microsoft Flow](https://flow.microsoft.com).
+* Access to [Power Automate](https://flow.microsoft.com).
 * A basic understanding of how your data is stored.
 * Familiarity with the basics of creating flows. For this unit, it's assumed that you know how to perform these actions.
 
 > [!TIP]
-> Column names in the source and destination don't need to match, but you must provide data for all required columns when you insert or update an item. Microsoft Flow identifies the required fields for you.
+> Column names in the source and destination don't need to match, but you must provide data for all required columns when you insert or update an item. Power Automate identifies the required fields for you.
 
 ## Quick overview of the steps
 
-If you're comfortable with Microsoft Flow, use these quick steps to copy data from one data source to another.
+If you're comfortable with Power Automate, use these quick steps to copy data from one data source to another.
 
 1. Identify the source that you'll monitor and the destination that you'll copy changed data to. Confirm that you have access to both the source and the destination.
 2. Identify at least one column that uniquely identifies items in the source and destination. In the example that follows, we use the **Title** column, but you can use any columns.
@@ -41,7 +41,7 @@ Here are the detailed steps to create the flow.
 
 First, we'll set up the SharePoint site to monitor changes.
 
-1. Launch Microsoft Flow and sign in using your organizational account.
+1. Launch Power Automate and sign in using your organizational account.
 1. In the left pane, select **My flows**.
 1. Select **New**, and then select **Create from blank**.
 

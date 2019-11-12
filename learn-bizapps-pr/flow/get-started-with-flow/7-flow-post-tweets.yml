@@ -1,9 +1,9 @@
 ﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.7-flow-post-tweets
-title: Post tweets with Microsoft Flow
+title: Post tweets with Power Automate
 metadata: 
-  title: Post tweets with Microsoft Flow
-  description: Learn how to post tweets by using SharePoint with Microsoft Flow.
+  title: Post tweets with Power Automate
+  description: Learn how to post tweets by using SharePoint with Power Automate.
   ms.date: 02/03/2019
   #TODO: Update with real author name.
   author: margoc

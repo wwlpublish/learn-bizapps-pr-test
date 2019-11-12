@@ -1,9 +1,9 @@
 ﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.1-flow-introduction
-title: Introducing Microsoft Flow
+title: Introducing Power Automate
 metadata: 
-  title: Introducing Microsoft Flow
-  description: Learn the basics of Microsoft Flow. 
+  title: Introducing Power Automate
+  description: Learn the basics of Power Automate. 
   ms.date:  02/03/2019
   #TODO: Update with real author name.
   author: margoc

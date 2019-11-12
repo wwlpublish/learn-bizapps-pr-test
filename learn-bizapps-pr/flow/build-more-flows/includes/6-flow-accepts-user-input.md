@@ -1,14 +1,14 @@
 You can customize button flows by letting the user provide specific details that will be used when the flow runs.
 
-You can create a button flow either on the Microsoft Flow website or in the mobile app for Microsoft Flow. For this unit, you'll use the website.
+You can create a button flow either on the Power Automate website or in the mobile app for Power Automate. For this unit, you'll use the website.
 
 ## Prerequisites
 
-You must have an account on the Microsoft Flow website.
+You must have an account on the Power Automate website.
 
 ## Open the template
 
-1. Launch Microsoft Flow and sign in using your organizational account.
+1. Launch Power Automate and sign in using your organizational account.
 2. In the template search box, enter *Visual Studio*.
 3. Select the **Open a Priority 2 Bug in Visual Studio** template.
 
@@ -77,9 +77,9 @@ Next, we'll change the push notification that you'll get on your phone.
 
 ## Run the flow
 
-You'll now use the mobile app for Microsoft Flow to run the button flow that you just created. You'll provide all the user input that's needed to create a bug that has a title, a description, repro steps, and a severity level.
+You'll now use the mobile app for Power Automate to run the button flow that you just created. You'll provide all the user input that's needed to create a bug that has a title, a description, repro steps, and a severity level.
 
-1. In the mobile app for Microsoft Flow, select the **Buttons** tab at the bottom of the window, and then select the **Create a bug report with steps** button.
+1. In the mobile app for Power Automate, select the **Buttons** tab at the bottom of the window, and then select the **Create a bug report with steps** button.
 
     ![Create a bug report with steps](../media/runmt1-input.png)
 

@@ -1,11 +1,11 @@
-Of course we have an app -- the Microsoft Flow mobile app! From this app, you can access these features:
+Of course we have an app -- the Power Automate mobile app! From this app, you can access these features:
 
 - Activity Feed
 - Browsing
 - Buttons
 - Managing Flows
 
-First, you'll need to download and install the Microsoft Flow mobile app from your app store.
+First, you'll need to download and install the Power Automate mobile app from your app store.
 
 ![Mobile app](../media/open-mobile-app.png)
 

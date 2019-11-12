@@ -4,7 +4,7 @@ In this module, you created a flow that automatically saves email attachments. Y
 
 ## Next steps
 
-**Congratulations!** You've finished the first module of the learning path for Microsoft Flow.
+**Congratulations!** You've finished the first module of the learning path for Power Automate.
 
 In the next module, you'll learn how to create an approval flow by using a Microsoft SharePoint list.
 
