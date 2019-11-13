@@ -4,12 +4,10 @@ metadata:
   title: Use the Admin center to manage environments and data policies in Power Automate
   description: Tenant and environment admins use the Power Automate Admin center to manage data policies and environments for Power Automate deployments.
   ms.date: 02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-  #ms.learn-contact: margoc
 title: Use the Admin center to manage environments and data policies in Power Automate 
 summary: |
   [!include[](../includes/module-banner.md)]
@@ -22,7 +20,6 @@ abstract: |
     - Learn how to share flows
 prerequisites: |
     - Signed up for Power Automate
-#TODO: Add links to these.
 iconUrl: /learn/achievements/administer-flows.svg
 levels:  
 - beginner 
