@@ -11,7 +11,7 @@ function to summarize the strings of a table, just as the **Sum**
 function does for numbers. This could be used to create a list of comma-separated values to display all of the customers assigned to a sales
 rep, a semicolon-separated list of email address to pass to an email
 function, or to dynamically generate an HTML table to be used in the
-creation of a PDF document with the help of Microsoft Flow.
+creation of a PDF document with the help of Power Automate.
 
 Fields of the record currently being processed are available within the
 formula. You simply reference them by name as you would any other value.

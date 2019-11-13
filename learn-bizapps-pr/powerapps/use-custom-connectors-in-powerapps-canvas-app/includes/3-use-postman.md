@@ -161,9 +161,9 @@ Import the Postman collection
 Now you're ready to work with the Postman collection you created earlier. 
 The collection contains most of the required information.
 You can review it and update it as you go through the custom connector
-wizard. You need to import the Postman collection for PowerApps and Microsoft Flow.
+wizard. You need to import the Postman collection for PowerApps and Power Automate.
 
-### Import the Postman collection for PowerApps and Microsoft Flow
+### Import the Postman collection for PowerApps and Power Automate
 
 1.  Go to
     [powerapps.com](https://powerapps.microsoft.com/)
@@ -193,7 +193,7 @@ The wizard imports the collection then converts it to an OpenAPI definition name
 Update general details
 ----------------------
 
-This example shows the Microsoft Flow user interface, but the
+This example shows the Power Automate user interface, but the
 steps are similar same across all three technologies. However, any
 differences will be pointed out.
 
@@ -254,7 +254,7 @@ Before you learn about the specific steps on the **Definition** page,
 here's a review of the user interface.
 
 1.  This area displays any actions, triggers (for Logic Apps and
-    Microsoft Flow), and references that are defined for the connector.
+    Power Automate), and references that are defined for the connector.
     In this case, the DetectSentiment action from the Postman collection
     is displayed. There are no triggers in this connector, but you can
     learn about triggers for custom connectors in [Use webhooks with
@@ -299,7 +299,7 @@ here's a review of the user interface.
 
 ### Update the definition
 
-Next you will change a few things so the connector is more user-friendly when someone uses it in PowerApps, Microsoft Flow, or Azure Logic Apps.
+Next you will change a few things so the connector is more user-friendly when someone uses it in PowerApps, Power Automate, or Azure Logic Apps.
 
 1.  In the **General** area, update the summary to \"Returns a numeric
     score representing the sentiment detected\".
@@ -364,7 +364,7 @@ properly.
 ![Create Connection](../media/28-create-connection.png)
 
 3.  Return to the **Test page**. 
-In Microsoft Flow, go back to the **Test** page. Choose the refresh icon to make sure that the connection information is updated.
+In Power Automate, go back to the **Test** page. Choose the refresh icon to make sure that the connection information is updated.
         
 ![Refresh Connection](../media/29-refresh-connection.png)
 
