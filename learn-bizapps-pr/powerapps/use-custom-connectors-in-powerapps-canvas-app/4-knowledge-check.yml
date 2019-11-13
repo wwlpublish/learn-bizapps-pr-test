@@ -30,29 +30,29 @@ quiz:
       explanation: All of these are valid except using custom code. 
   - content: A custom connector created in PowerApps can be directly used in which additional services?
     choices: 
-    - content: Microsoft Flow
+    - content: Power Automate
       isCorrect: false 
-      explanation: Custom connectors can be used in both Microsoft Flow and Azure Logic Apps. 
+      explanation: Custom connectors can be used in both Power Automate and Azure Logic Apps. 
     - content: Azure Logic Apps 
       isCorrect: false 
-      explanation: Custom connectors can be used in both Microsoft Flow and Azure Logic Apps. 
-    - content: Both Microsoft Flow and Azure Logic Apps
+      explanation: Custom connectors can be used in both Power Automate and Azure Logic Apps. 
+    - content: Both Power Automate and Azure Logic Apps
       isCorrect: true 
-      explanation: Custom connectors can be used in both Microsoft Flow and Azure Logic Apps. 
-    - content: Custom connectors cannot be used in Microsoft Flow or Azure Logic Apps
+      explanation: Custom connectors can be used in both Power Automate and Azure Logic Apps. 
+    - content: Custom connectors cannot be used in Power Automate or Azure Logic Apps
       isCorrect: false 
-      explanation: Custom connectors can be used in both Microsoft Flow and Azure Logic Apps. 
+      explanation: Custom connectors can be used in both Power Automate and Azure Logic Apps. 
   - content: What are the prerequisites needed to create a custom connector using Postman?
     choices: 
     - content: A Postman collection
       isCorrect: false
-      explanation: A Postman collection and a subscription for either PowerApps or Microsoft Flow. 
+      explanation: A Postman collection and a subscription for either PowerApps or Power Automate. 
     - content: A PowerApps subscription
       isCorrect: false 
-      explanation: A Postman collection and a subscription for either PowerApps or Microsoft Flow. 
-    - content: A Microsoft Flow subscription 
+      explanation: A Postman collection and a subscription for either PowerApps or Power Automate. 
+    - content: A Power Automate subscription 
       isCorrect: false 
-      explanation: A Postman collection and a subscription for either PowerApps or Microsoft Flow.    
-    - content: A Postman collection and either a PowerApps or Microsoft Flow subscription.
+      explanation: A Postman collection and a subscription for either PowerApps or Power Automate.    
+    - content: A Postman collection and either a PowerApps or Power Automate subscription.
       isCorrect: true
-      explanation: A Postman collection and a subscription for either PowerApps or Microsoft Flow. 
+      explanation: A Postman collection and a subscription for either PowerApps or Power Automate. 

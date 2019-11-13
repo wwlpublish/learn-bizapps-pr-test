@@ -4,12 +4,10 @@ metadata:
   title: Get started with Power Automate 
   description: Learn how to create simple flows to make your life easier.
   ms.date:  02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-  #ms.learn-contact: margoc
 title: Get started with Power Automate 
 summary: |
   [!include[](../includes/module-banner.md)]
@@ -22,7 +20,6 @@ abstract: |
 prerequisites: |
     - Signed up for Power Automate
     - Have a OneDrive for Business account
-#TODO: Add links to these.
 iconUrl: /learn/achievements/get-started-with-flow.svg
 levels:  
 - beginner 

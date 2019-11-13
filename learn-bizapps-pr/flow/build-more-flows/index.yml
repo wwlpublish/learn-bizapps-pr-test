@@ -4,12 +4,10 @@ metadata:
   title: Build more complex flows with Power Automate
   description: Learn how to build more complex flows that automate events.
   ms.date:  02/03/2019
-  #TODO: Update with real author name.
-  author: Toney001
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-  #ms.learn-contact: margoc
 title: Build more complex flows with Power Automate 
 summary: |
   [!include[](../includes/module-banner.md)]
