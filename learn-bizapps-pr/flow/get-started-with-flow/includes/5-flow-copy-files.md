@@ -1,10 +1,10 @@
-At some point, most of us have needed to copy files from one storage service to another. Microsoft Flow makes it easy to automatically move and copy files between two services, like Microsoft OneDrive and Google Drive.
+At some point, most of us have needed to copy files from one storage service to another. Power Automate makes it easy to automatically move and copy files between two services, like Microsoft OneDrive and Google Drive.
 
-In this unit, you'll use a flow template to copy files from your personal OneDrive to Microsoft OneDrive for Business. Microsoft Flow must have permissions to your OneDrive folders to do this.
+In this unit, you'll use a flow template to copy files from your personal OneDrive to Microsoft OneDrive for Business. Power Automate must have permissions to your OneDrive folders to do this.
 
 ## Create a flow that copies files
 
-1. Sign in to [Microsoft Flow](https://ms.flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com) by using your organizational account.
 1. Select **My flows**.
 1. Select **New**, and then select **Create from template**.
 

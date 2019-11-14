@@ -23,7 +23,8 @@ iconUrl: /learn/achievements/write-data.svg
 levels:  
 - intermediate   
 roles:  
-- business-user   
+- business-user
+- maker   
 - functional-consultant 
 products:  
 - power-platform

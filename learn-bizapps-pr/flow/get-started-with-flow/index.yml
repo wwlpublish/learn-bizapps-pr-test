@@ -1,33 +1,31 @@
 ﻿### YamlMime:Module 
 uid: learn-bizapps.flow-get-started 
 metadata: 
-  title: Get started with Microsoft Flow 
+  title: Get started with Power Automate 
   description: Learn how to create simple flows to make your life easier.
   ms.date:  02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
-  #ms.learn-contact: margoc
-title: Get started with Microsoft Flow 
+title: Get started with Power Automate 
 summary: |
   [!include[](../includes/module-banner.md)]
 
-  Microsoft Flow is an online workflow service that automates actions across the most common apps and services.
+  Power Automate is an online workflow service that automates actions across the most common apps and services.
 abstract: |
     In this module, you will:
     - Create a flow that automatically saves email attachments
     - Learn how to create a button flow to send yourself a reminder
 prerequisites: |
-    - Signed up for Microsoft Flow
+    - Signed up for Power Automate
     - Have a OneDrive for Business account
-#TODO: Add links to these.
 iconUrl: /learn/achievements/get-started-with-flow.svg
 levels:  
 - beginner 
 roles:  
 - business-user
+- maker
 - functional-consultant
 products:  
 - power-platform

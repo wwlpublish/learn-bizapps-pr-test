@@ -1,6 +1,6 @@
 You can create flows that start when an event occurs in Microsoft Dynamics 365 or some other service. These flows then perform an action in Dynamics 365 or some other service.
 
-In Microsoft Flow, you can set up automated workflows between your favorite apps and services to sync files, get notifications, collect data, and more.
+In Power Automate, you can set up automated workflows between your favorite apps and services to sync files, get notifications, collect data, and more.
 
 In this unit, we'll look to build two flows:
 
@@ -20,7 +20,7 @@ Here are some other examples of flows that you can create by using Dynamics 365:
 
 This example shows how to create a task in Dynamics 365 whenever a lead is created in another instance of Dynamics 365.
 
-1. Sign in to [Microsoft Flow](https://ms.flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com) by using your organizational account.
 1. In the left pane, select **My flows**.
 1. Select **New**, and then select **Create from blank**.
 
@@ -63,7 +63,7 @@ This example shows how to create a task in Dynamics 365 whenever a lead is creat
 
 This example shows how to create a task in [Wunderlist](https://www.wunderlist.com) whenever a task is created in Dynamics 365. Wunderlist is an internet-based service that you can use to create to-do lists, add reminders, and track errands.
 
-1. Sign in to [Microsoft Flow](https://ms.flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com) by using your organizational account.
 1. In the left pane, select **My flows**.
 1. Select **New**, and then select **Create from blank**.
 

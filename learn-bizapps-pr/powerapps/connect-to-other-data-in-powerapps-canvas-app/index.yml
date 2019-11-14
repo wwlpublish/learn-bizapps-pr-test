@@ -17,13 +17,14 @@ abstract: |
     In this module, you will: 
     - Understand and utilize action-based connectors
     - Integrate user information and user-profile information into a canvas app
-    - Use Microsoft Flow with PowerApps
+    - Use Power Automate with PowerApps
 prerequisites: A basic understanding of how to create a PowerApps canvas app.      
 iconUrl: /learn/achievements/connect-other-data.svg  
 levels:  
 - intermediate   
 roles:  
 - functional-consultant  
+- maker  
 products:  
 - power-platform
 - powerapps

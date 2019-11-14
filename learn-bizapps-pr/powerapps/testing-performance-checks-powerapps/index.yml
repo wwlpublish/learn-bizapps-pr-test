@@ -24,6 +24,7 @@ levels:
 - advanced   
 roles:  
 - functional-consultant  
+- maker  
 products:  
 - power-platform
 - powerapps

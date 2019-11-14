@@ -1,4 +1,4 @@
-In the Microsoft Flow mobile app, you can share button flows with other users or groups in your organization. The users or groups that you share a button with can then run it the same way they run their own buttons.
+In the Power Automate mobile app, you can share button flows with other users or groups in your organization. The users or groups that you share a button with can then run it the same way they run their own buttons.
 
 You can also share a link to buttons that another person shared with you.
 
@@ -10,16 +10,16 @@ The screenshots in this unit were taken on a Google Android device. If you're us
 
 To share buttons, you need:
 
-* An account that has access to [Microsoft Flow](https://flow.microsoft.com).
+* An account that has access to [Power Automate](https://flow.microsoft.com).
 * A flow to share.
-* A mobile device that has the Microsoft Flow mobile app for [Android](https://aka.ms/flowmobiledocsandroid), [Apple iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows).
+* A mobile device that has the Power Automate mobile app for [Android](https://aka.ms/flowmobiledocsandroid), [Apple iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows).
 * A person or group in your organization to share your button with.
 
 ## Share a button
 
-You share a button by using the **Buttons** tab of the Microsoft Flow mobile app.
+You share a button by using the **Buttons** tab of the Power Automate mobile app.
 
-1. Start the Microsoft Flow mobile app.
+1. Start the Power Automate mobile app.
 1. On the **Buttons** tab, select the person symbol next to the button that you want to share.
 
     ![Share a button](../media/share-button-flows-buttons-tab.png)
@@ -96,7 +96,7 @@ You can stop sharing a button by following these steps.
 
 You can view the whole run history, even for runs started by a person that a button is shared with.
 
-1. Start the Microsoft Flow mobile app.
+1. Start the Power Automate mobile app.
 1. Select the **Activity** tab to view the run history.
 
 ## Use shared buttons

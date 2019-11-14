@@ -24,7 +24,8 @@ iconUrl: /learn/achievements/author-advanced-formulas.svg
 levels:  
 - advanced   
 roles:  
-- functional-consultant  
+- functional-consultant 
+- maker
 products:  
 - power-platform
 - powerapps

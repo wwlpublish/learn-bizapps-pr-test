@@ -38,7 +38,7 @@ Let's look at an example of a business process flow that has two branches. In th
 
 First, we'll create a process named **Car Sales Process**.
 
-1. Launch Microsoft Flow and sign in using your organizational account.
+1. Launch Power Automate and sign in using your organizational account.
 1. In the left pane, select **Flows**.
 1. On the top bar, select **Business process flows**.
 1. On the right, select **Create from Blank**.

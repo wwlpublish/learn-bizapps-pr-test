@@ -10,29 +10,26 @@ You can create a flow that automatically performs one or more actions after it's
 
 First, you must select the trigger (event) that starts the flow.
 
-1. Sign in to [Microsoft Flow](https://flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://flow.microsoft.com) by using your organizational account.
 1. Select **My flows**.
-1. Select **New**, and then select **Create from blank**.
+1. Select **New**, and then select **Automated--from blank**.
 
-    ![Create from blank](../media/flow-create-blank.png)
+    ![Create from blank](../media/flow-auto-blank.png)
 
 1. Select **Search hundreds of connectors and triggers**.
 1. In the search field, enter *twitter*, select the **Twitter** connector, and then select the **Twitter - When a new tweet is posted** trigger.
 
     ![Twitter - When a new tweet is posted trigger](../media/twitter-search.png)
 
-1. If you haven't already connected your Twitter account to Microsoft Flow, select **Sign in to Twitter**, and then enter your credentials.
+1. If you haven't already connected your Twitter account to Power Automate, select **Sign in to Twitter**, and then enter your credentials.
 1. In the **Search text** box, enter the keyword to find.
 
     ![Enter the Twitter keyword](../media/twitter-keyword.png)
 
 ## Specify an action
 
-1. Select **New step**, and then select **Add an action**.
 
-    ![Add an action](../media/add-action-icon.png)
-
-1. In the search field, enter *send email*, and then select the **Office 365 Outlook - Send an email** action.
+1. Select **New step**, and in the search field, enter *send email*, and then select the **Office 365 Outlook - Send an email** action.
 
     ![Office 365 Outlook - Send an email action](../media/send-email.png)
 

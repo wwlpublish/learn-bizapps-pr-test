@@ -1,6 +1,6 @@
-Congratulations! You've grown skills my administering flows.
+Congratulations! You've grown skills by administering flows.
 
-In the previous modules for Microsoft Flow, you learned how to build simple and more complex flows.
+In the previous modules for Power Automate, you learned how to build simple and more complex flows.
 
 
 ![Congratulations](../media/6-heading.png)

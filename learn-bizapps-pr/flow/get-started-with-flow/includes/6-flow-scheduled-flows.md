@@ -2,7 +2,7 @@ In this unit, you'll learn how to build prescheduled flows by using a trigger ca
 
 ## Create a scheduled flow
 
-1. Sign in to [Microsoft Flow](https://ms.flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com) by using your organizational account.
 1. Select **My flows**.
 1. Select **New**, and then select **Create from blank**.
 
@@ -30,7 +30,7 @@ In this unit, you'll learn how to build prescheduled flows by using a trigger ca
     ![MailChimp - Add member to list action](../media/select-mailchimp.png)
 
     > [!NOTE] 
-    > MailChimp is a premium connector. Depending on your Microsoft Flow license, you might need to sign up for a trial to use this connector.
+    > MailChimp is a premium connector. Depending on your Power Automate license, you might need to sign up for a trial to use this connector.
 
 1. In the **List Id** field, select the desired MailChimp mailing list. In the **Status** field, select *subscribed*.
 
