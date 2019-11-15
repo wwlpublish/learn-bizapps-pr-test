@@ -9,7 +9,7 @@ remember are:
 
 -   The **Not** function returns the opposite of true or false.
 
--   **DisplayModes** can control both the visual aspects of a control and
+-   **DisplayMode** can control both the visual aspects of a control and
     their interactivity.
 
 The next module will focus on writing formulas that interact with tables
