@@ -29,7 +29,7 @@ roles:
 - functional-consultant
 products:  
 - power-platform
-- flow
+- power-automate
 units: 
 - learn-bizapps.flow-administration.1-introduction
 - learn-bizapps.flow-administration.2-flow-export-import

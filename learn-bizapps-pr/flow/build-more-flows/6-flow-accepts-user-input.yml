@@ -5,9 +5,8 @@ metadata:
   title: Build a flow that accepts user input when run
   description: Learn to build a flow that accepts information from the user when it is run.
   ms.date:  02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 6 

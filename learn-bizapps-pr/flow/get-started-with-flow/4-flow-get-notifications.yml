@@ -5,9 +5,8 @@ metadata:
   title: Receive text and email notifications from flows
   description: Learn how to get text and email notifications when you create flows.
   ms.date: 02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 5 
