@@ -7,7 +7,7 @@ metadata:
   author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
+  ms.prod: learning-power-automate
 title: Build more complex flows with Power Automate 
 summary: |
   [!include[](../includes/module-banner.md)]
@@ -24,7 +24,7 @@ roles:
 - functional-consultant
 products:  
 - power-platform
-- flow
+- power-automate
 units: 
 - learn-bizapps.flow-build-more.1-introduction
 - learn-bizapps.flow-build-more.2-flow-create-approval-request
