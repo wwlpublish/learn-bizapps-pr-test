@@ -5,9 +5,8 @@ metadata:
   title: "Knowledge check: Build more complex flows with Power Automate" 
   description: This quiz tests your knowledge of how to create more complex flows.
   ms.date: 02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 4

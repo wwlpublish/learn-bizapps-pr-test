@@ -5,9 +5,8 @@ metadata:
   title: Build a flow that uses SQL
   description: Learn to build a flow that uses SQL to update information.
   ms.date:  02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-flow
 durationInMinutes: 8
