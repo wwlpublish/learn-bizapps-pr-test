@@ -1,6 +1,6 @@
 Let's quickly review what we covered in this module.
 
-In this module, you created a flow that automatically saves email attachments. You also created a button flow in a Microsoft PowerApps app to send yourself a reminder.
+In this module, you created a flow that automatically saves email attachments. You also created a button flow in a Microsoft Power Apps app to send yourself a reminder.
 
 ## Next steps
 

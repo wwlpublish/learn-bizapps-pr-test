@@ -5,11 +5,10 @@ metadata:
   title: "Knowledge check: Administer flows" 
   description: This quiz tests your knowledge of how to administer flows
   ms.date: 02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
+  ms.prod: learning-power-automate
 durationInMinutes: 6
 quiz: 
   title: "Knowledge check: Administer flows" 
