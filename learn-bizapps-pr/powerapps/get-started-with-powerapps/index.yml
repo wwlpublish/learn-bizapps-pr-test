@@ -29,6 +29,7 @@ roles:
 products: 
 - power-platform
 - powerapps
+- maker
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction
 - learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
