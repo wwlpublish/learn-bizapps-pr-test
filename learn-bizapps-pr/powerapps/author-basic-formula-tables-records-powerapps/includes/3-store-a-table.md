@@ -1,10 +1,10 @@
 In the previous examples the tables were only for use in the
 current context of the **Data** table or the **Dropdown** control. Often in
 your app, you will need to store those tables and use them in multiple
-places within the app. To do this, PowerApps has a table variable called
+places within the app. To do this, Power Apps has a table variable called
 a **collection**.
 
-Collections are a type of variable in PowerApps
+Collections are a type of variable in Power Apps
 -----------------------------------------------
 
 Collections are table variables in which you can store data in a
@@ -14,7 +14,7 @@ columns. You can use collections with table functions as you would any
 other data source. However, you can't use a collection with the **Form**
 control. If you have a developer background, you can think of a
 collection as an array. You don't have to initialize or predefine a
-collection. When you create it and set values, PowerApps sets it up for
+collection. When you create it and set values, Power Apps sets it up for
 you.
 
 Create a collection

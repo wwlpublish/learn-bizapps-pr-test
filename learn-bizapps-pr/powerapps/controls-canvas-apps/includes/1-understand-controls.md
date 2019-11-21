@@ -1,6 +1,6 @@
-In PowerApps, you can add a variety of user interface (UI) elements to your canvas app and configure aspects of their appearance and behavior directly from the toolbar, Properties tab, or formula bar. These UI elements are called **Controls**. Many of the controls in PowerApps are just like the controls that you've used in other apps, such as labels, text-input boxes, drop-down lists, and navigation elements.
+In Power Apps, you can add a variety of user interface (UI) elements to your canvas app and configure aspects of their appearance and behavior directly from the toolbar, Properties tab, or formula bar. These UI elements are called **Controls**. Many of the controls in Power Apps are just like the controls that you've used in other apps, such as labels, text-input boxes, drop-down lists, and navigation elements.
 
-You can find all the controls available in PowerApps on the **Insert**
+You can find all the controls available in Power Apps on the **Insert**
 tab.
 
 ![Controls Ribbon](../media/ControlsRibbon.png)
@@ -14,7 +14,7 @@ common to almost every type of control, but other properties, such as
 In addition to the controls listed above, there are other types of
 controls that you can add to enhance your apps:
 
-**Galleries** - These controls are layout containers that hold a set of controls that show data from a data source. For more information about galleries, see [Work with data in a PowerApps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/).
+**Galleries** - These controls are layout containers that hold a set of controls that show data from a data source. For more information about galleries, see [Work with data in a Power Apps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/).
 
 **Data table** - The **Data table** control shows data from a data source
 in a format that includes column headers for each field that the control
@@ -26,7 +26,7 @@ controls.
 
 **Forms** - These controls show details about your data and let you
 create and edit items. for more information about forms, see
-[Write data in a PowerApps canvas app](https://docs.microsoft.com/learn/modules/write-data/).
+[Write data in a Power Apps canvas app](https://docs.microsoft.com/learn/modules/write-data/).
 
 **Media** - These controls let you add background images and sounds.
 Controls include a camera button (so that users can take pictures from
@@ -38,7 +38,7 @@ instant analysis.
 
 **Icons** - These controls include shapes, graphics, and symbols to
 enhance the user interface. They are quickly recognizable by your users
-to ease their interaction with the app. For more information about icon controls, see the **How to build the UI in a canvas app in PowerApps** module of this learning path.
+to ease their interaction with the app. For more information about icon controls, see the **How to build the UI in a canvas app in Power Apps** module of this learning path.
 
 In this module, you will learn about some of these controls and their properties to see how you can incorporate them into your app to enhance the overall functionality. Before developing your app, take a moment to determine the functionality that you want to provide and then select the control that best fits those needs. The more familiar you are with controls and how to work with them. the easier it will be to design your app.
 

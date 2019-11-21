@@ -5,11 +5,10 @@ metadata:
   title: Monitor flows
   description: Learn how to monitor flow activity to spot usage issues.
   ms.date: 02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
+  ms.prod: learning-power-automate
 durationInMinutes: 6 
 content: |
   [!include[](../includes/unit-banner.md)]

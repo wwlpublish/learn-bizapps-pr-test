@@ -4,12 +4,10 @@ metadata:
   title: Get started with Common Data Service
   description: Common Data Service lets you securely store and manage data that's used by business applications. Standard and custom entities within Common Data Service provide a secure and cloud-based storage option for your data.
   ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  #ms.learn-contact: margoc
 title: Get started with Common Data Service
 summary: |
   [!include[](../includes/module-banner.md)]
@@ -19,7 +17,7 @@ abstract: |
     In this module, you will:
     - Create entities with Common Data Service. 
 prerequisites: |
-  - A Microsoft PowerApps account. If you don't already have a PowerApps account, select the **Get started free** link on [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+  - A Microsoft Power Apps account. If you don't already have a Power Apps account, select the **Get started free** link on [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
 levels:  
 - beginner 

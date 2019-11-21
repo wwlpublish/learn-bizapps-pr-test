@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.controls-canvas-apps.6-knowledge-check 
 metadata: 
-  title: Use and understand controls in a canvas app in PowerApps knowledge check
-  description: Use and understand controls in a canvas app in PowerApps knowledge check
+  title: Use and understand controls in a canvas app in Power Apps knowledge check
+  description: Use and understand controls in a canvas app in Power Apps knowledge check
   ms.date: 03/29/2019 
   author: KevSch
   ms.author: kschimke 
@@ -12,7 +12,7 @@ metadata:
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
-  title: Use and understand controls in a canvas app in PowerApps knowledge check
+  title: Use and understand controls in a canvas app in Power Apps knowledge check
   questions: 
   - content: If you want to set the initial value of a control, which property would you edit?
     choices: 

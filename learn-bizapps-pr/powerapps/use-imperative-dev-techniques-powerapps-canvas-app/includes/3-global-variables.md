@@ -9,7 +9,7 @@ Storing information for your user
 
 A common design pattern in apps is to personalize the app. This can be
 as simple as saying Welcome and displaying the user's name on each screen of the
-app. With PowerApps, you can show a welcome message and get the user's
+app. With Power Apps, you can show a welcome message and get the user's
 name in a declarative manner by using the following formula in a Label
 control.
 
@@ -20,7 +20,7 @@ control.
 This formula displays the string Welcome and then queries Azure Active
 Directory for the user's DisplayName property and displays it as text.
 But if you include that function on every screen then each time a screen
-opens PowerApps has to query that data from Azure AD directly. This
+opens Power Apps has to query that data from Azure AD directly. This
 creates repetitive calls to the network that slow down your app.
 
 A better approach would be to store that information in a global
@@ -39,7 +39,7 @@ Now for your Label control, you would change the formula to the following.
 ```
 
 This formula gets you the same output as the previous formula, but instead of
-having to go back to Azure AD on every screen, PowerApps can reference the
+having to go back to Azure AD on every screen, Power Apps can reference the
 value stored in the variable.
 
 Tracking status in a variable
@@ -89,7 +89,7 @@ button control to **varOutstandingExceeded**.
 No additional formula or functions are necessary. This is because those
 controls accept either true or false for the **Visible** property and the
 variable will be either true or false. Based on your **Set** function in the
-**OnVisible** property of the screen, PowerApps will set the type of
+**OnVisible** property of the screen, Power Apps will set the type of
 variable to Boolean and set the value to true or false based on the
 result of the formula.
 

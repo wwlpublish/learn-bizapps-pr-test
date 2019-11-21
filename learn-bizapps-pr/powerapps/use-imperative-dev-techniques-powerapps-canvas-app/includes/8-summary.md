@@ -1,10 +1,10 @@
-In this module, you learned about variables in PowerApps and how they
+In this module, you learned about variables in Power Apps and how they
 enable you to apply both imperative and declarative programming
 techniques.
 
 Here are some key concepts to remember:
 
--   PowerApps supports both imperative and declarative logic.
+-   Power Apps supports both imperative and declarative logic.
 
 -   Global variables are for storing information to use throughout your
     app.

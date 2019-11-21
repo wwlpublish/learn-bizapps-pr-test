@@ -7,7 +7,7 @@ One option is to you use a **DropDown** control and an If statement.
 With this solution, depending on the choice selected in the drop-down menu the
 app navigates to a specific screen.
 
-1.  In PowerApps Studio, add 2 blank screens. There should be a total of
+1.  In Power Apps Studio, add 2 blank screens. There should be a total of
     3 blank screens.
 
 2.  On Screen1, add a **dropdown** control.

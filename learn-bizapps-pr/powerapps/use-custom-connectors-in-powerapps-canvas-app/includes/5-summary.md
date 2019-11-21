@@ -1,4 +1,4 @@
-Customer connectors are an excellent way of extending apps because they can access resources outside of the readily available connectors for PowerApps. This module covered what custom connectors are and how to use them across different platforms, such as PowerApps, Microsoft Flow, and Azure Logic Apps. This module also covered the custom connectors lifecycle, and how to create one using Postman. Here are some points to remember:
+Customer connectors are an excellent way of extending apps because they can access resources outside of the readily available connectors for Power Apps. This module covered what custom connectors are and how to use them across different platforms, such as Power Apps, Power Automate, and Azure Logic Apps. This module also covered the custom connectors lifecycle, and how to create one using Postman. Here are some points to remember:
 
 -   Custom connectors provide a way to extend apps by calling APIs,
     services, and systems for scenarios tailored toward your business

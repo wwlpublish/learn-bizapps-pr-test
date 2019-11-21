@@ -2,7 +2,7 @@ You can export and then import a flow so that others can use it.
 
 ## Export a flow
 
-1. Go to Microsoft Flow, and sign in by using your organizational account.
+1. Go to Power Automate, and sign in by using your organizational account.
 1. In the left pane, select **My flows**.
 1. For the flow that you want to export, select the **More commands** button (the three vertical dots), select **Export**, and then select **Package (.zip)**.
 
@@ -23,7 +23,7 @@ When you export a flow, the dependent resources for your flow are also exported 
 
 After a flow has been exported, anyone that you send the zip file to can import it.
 
-1. Go to Microsoft Flow, and sign in by using your organizational account.
+1. Go to Power Automate, and sign in by using your organizational account.
 1. In the left pane, select **My flows**.
 1. Select **Import**.
 
@@ -36,4 +36,4 @@ After a flow has been exported, anyone that you send the zip file to can import 
     - You must also select the connections that are required to set up the flow as part of the import process.
     - The **Import** button should become available after you've set all the required settings.
 
-1. After the flow is completely imported, select **Save Microsoft Flow**.
+1. After the flow is completely imported, select **Save Power Automate**.

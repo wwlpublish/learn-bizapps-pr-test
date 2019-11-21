@@ -23,7 +23,7 @@ The user interface components determine how users will interact with the app.
 ![App designer and form designer](../media/app-and-form-designers.png)
 
 ## Logic
-The logic components determine what business processes, rules, and automation the app will have. Microsoft PowerApps makers use a designer that's specific to the type of process or rule.
+The logic components determine what business processes, rules, and automation the app will have. Microsoft Power Apps makers use a designer that's specific to the type of process or rule.
 
 | Type of logic         | Description | Designer |
 |-----------------------|-------------|----------|
@@ -31,7 +31,7 @@ The logic components determine what business processes, rules, and automation th
 | Workflow              | Workflows automate business processes without a user interface. Designers use workflows to initiate automation that doesn't require any user interaction. | Workflow designer |
 | Actions               | Actions are a type of process that lets you manually invoke actions, including custom actions, directly from a workflow. | Process designer |
 | Business rule         | Business rules apply rules or recommendation logic to a form to set field requirements, hide fields, validate data, and more. App designers use a simple interface to implement and maintain fast-changing and commonly used rules. | Business rule designer |
-| Flow                  | Microsoft Flow is a cloud-based service that lets you create automated workflows between apps and services to get notifications, sync files, collect data, and more. | Microsoft Flow |
+| Flow                  | Power Automate is a cloud-based service that lets you create automated workflows between apps and services to get notifications, sync files, collect data, and more. | Power Automate |
 
 ![Workflow, action, and business process flow designers](../media/designer-mash.png)
 

@@ -1,4 +1,4 @@
-A quick and easy way to change the colors in your app is to apply a theme. In PowerApps, there are several out-of-the-box themes to choose from. The following screenshot illustrates all the themes that are available in your app.
+A quick and easy way to change the colors in your app is to apply a theme. In Power Apps, there are several out-of-the-box themes to choose from. The following screenshot illustrates all the themes that are available in your app.
 
 ![Themes](../media/Themes.png)
 

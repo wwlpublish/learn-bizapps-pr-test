@@ -1,11 +1,11 @@
-In this unit, you'll see more of Microsoft Flow as you build your first flow.
+In this unit, you'll see more of Power Automate as you build your first flow.
 
 It can be time consuming to search for attachments through email. The flow that you'll build saves time by storing all your email attachments in a folder on your Microsoft OneDrive for Business account.
 
 ## Choose a template
 Our many templates will get your flows flowing quickly. They'll help you connect the services you're already using in more meaningful ways.
 
-Sign in to [Microsoft Flow](https://ms.flow.microsoft.com), and select the **Templates** menu. You can sign up for Microsoft Flow with a Microsoft account.
+Sign in to [Power Automate](https://ms.flow.microsoft.com), and select the **Templates** menu. You can sign up for Power Automate with a Microsoft account.
 
 Select the **Save Office 365 email attachments to OneDrive for Business** template.
 
@@ -22,7 +22,7 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
     ![Save Office 365 email](../media/save-flow-office-description.png)
 
-1. On the next page, Microsoft Flow creates the flow for you. 
+1. On the next page, Power Automate creates the flow for you. 
     - It'll connect  to your work email to get any attachments. 
     - It will then create a folder on your OneDrive for Business account to automatically put every attachment that's sent to your work email address in that folder.
 
@@ -49,7 +49,7 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
     ![Run history](../media/run-history.png)
 
-## Important concepts in Microsoft Flow
+## Important concepts in Power Automate
 Keep these concepts in mind when building flows: 
 
 - Every flow has two main parts: a *trigger*, and one or more *actions*.
@@ -58,4 +58,4 @@ Keep these concepts in mind when building flows:
 
 These concepts will come into play later, when you build your own flows from scratch. 
 
-In the next unit, we'll look at the Microsoft Flow mobile app and its capabilities. 
+In the next unit, we'll look at the Power Automate mobile app and its capabilities. 

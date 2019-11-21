@@ -3,7 +3,7 @@
 Keep in mind that you can use data from many other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
 > [!NOTE]
-> PowerApps requires either an Office 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft PowerApps and Microsoft Flow.](https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus#licenses)
+> Power Apps requires either an Office 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate.](https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus#licenses)
 
 
 ## Connect to a data source
@@ -28,13 +28,13 @@ To connect to a data source, use the following procedure:
 1. Under **Choose a table**, select the **FlooringEstimates** table. 
 1. Select **Connect** on the bottom right.
 
-PowerApps generates the app by inspecting your data and matching it with PowerApps capabilities so that you get a working app as a starting point.
+Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point.
 
 
 ## Explore the generated app
-Your new three-screen app now opens in PowerApps Studio.
+Your new three-screen app now opens in Power Apps Studio.
 
-The following figure shows the main development window for PowerApps Studio, which you'll learn more about in later units.
+The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.
 
 ![The generated app](../media/powerapps-full-screen2.png)
 
@@ -49,12 +49,12 @@ All apps that are generated from data have the same set of screens that you can 
 To make your app visible on the phone, it needs to be saved. Select **File**, **Save as**. Replace the current title "App" with **flooring-estimates app**, and then select **Save**. You will see a green check mark when all changes are successfully saved. You can now open the app on your phone. 
 
 ## Install the app on your device
-To see how the app runs on mobile, install the PowerApps Mobile app on your phone. When building an app, you should test it in the same form factor as your users.
+To see how the app runs on mobile, install the Power Apps Mobile app on your phone. When building an app, you should test it in the same form factor as your users.
 
-1. Download PowerApps Mobile from the app store for the platform that you want to use.
+1. Download Power Apps Mobile from the app store for the platform that you want to use.
 
 2. Sign in by using your username and password.
 
-3. On your phone or tablet, run the flooring-estimates app in PowerApps Mobile. If you do not want to install the app, you can run it in a browser.
+3. On your phone or tablet, run the flooring-estimates app in Power Apps Mobile. If you do not want to install the app, you can run it in a browser.
 
 

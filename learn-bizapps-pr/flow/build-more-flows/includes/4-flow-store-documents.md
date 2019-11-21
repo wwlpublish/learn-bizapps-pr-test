@@ -1,4 +1,4 @@
-In this unit, you'll see how Contoso Flooring uses Microsoft Flow to automatically convert documents to a standard format and then store them in Microsoft SharePoint Online. You'll create a flow that detects when a new file has been added to a Microsoft OneDrive for Business folder. The flow then converts that file to a PDF and stores it in a SharePoint Online folder.
+In this unit, you'll see how Contoso Flooring uses Power Automate to automatically convert documents to a standard format and then store them in Microsoft SharePoint Online. You'll create a flow that detects when a new file has been added to a Microsoft OneDrive for Business folder. The flow then converts that file to a PDF and stores it in a SharePoint Online folder.
 
 ## Prerequisites
 
@@ -13,7 +13,7 @@ First, you must create the source and target folders in OneDrive for Business an
 
 ## Create the flow
 
-1. In Microsoft Flow, select **My Flows**, and then select **Create from blank**.
+1. In Power Automate, select **My Flows**, and then select **Create from blank**.
 
     ![Create from blank](../media/flow-create-blank.png)
 
@@ -30,7 +30,7 @@ First, you must create the source and target folders in OneDrive for Business an
 
     ![Muhimbi PDF – Convert document action](../media/muhimbi-action.png)
 
-6. If Microsoft Flow prompts you to sign in to Muhimbi, sign in. If you don't have a subscription to Muhimbi, you can use a [free 30-day trial](http://www.muhimbi.com/Products/PDF-Converter-for-SharePoint/Products-PDF-Converter-for-SharePoint-Free-Trial.aspx).
+6. If Power Automate prompts you to sign in to Muhimbi, sign in. If you don't have a subscription to Muhimbi, you can use a [free 30-day trial](http://www.muhimbi.com/Products/PDF-Converter-for-SharePoint/Products-PDF-Converter-for-SharePoint-Free-Trial.aspx).
 7. In the **Convert document** action, set the following values:
 
     * **Source file name**: In the dynamic content list, select **File name**.
@@ -65,5 +65,5 @@ First, you must create the source and target folders in OneDrive for Business an
 ## Test the flow
 
 1. To test the flow, add a new file to your **Finished Documents** folder in OneDrive for Business.
-2. In Microsoft Flow, select **My flows**, and then select the new flow to view the run history. By default, the flow is set up to run every five minutes.
+2. In Power Automate, select **My flows**, and then select the new flow to view the run history. By default, the flow is set up to run every five minutes.
 3. After the flow runs, make sure that the file was converted to a PDF and saved to the **PDF – Finished files** folder in SharePoint.

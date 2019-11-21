@@ -1,17 +1,17 @@
 ﻿### YamlMime:LearningPath
 uid: learn-bizapps.create-powerapps
 metadata:
-  title: Create a canvas app in PowerApps
-  description: Do you want to create apps to help make your business more efficient? Then, this path is for you. It introduces you to PowerApps, helps you create and customize an app, and then manage and distribute it.
+  title: Create a canvas app in Power Apps
+  description: Do you want to create apps to help make your business more efficient? Then, this path is for you. It introduces you to Power Apps, helps you create and customize an app, and then manage and distribute it.
   ms.date: 05/21/2019
-  author: kevsch
-  ms.author: kevsch
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Create a canvas app in PowerApps
+title: Create a canvas app in Power Apps
 summary: |
 
-  Do you want to create apps to help make your business more efficient? Then, this path is for you. It introduces you to PowerApps, helps you create and customize an app, and then manage and distribute it.
+  Do you want to create apps to help make your business more efficient? Then, this path is for you. It introduces you to Power Apps, helps you create and customize an app, and then manage and distribute it.
 prerequisites: |
   - Familiarity with OneDrive, SharePoint, and Excel. 
 iconUrl: /learn/achievements/create-powerapps.svg

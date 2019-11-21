@@ -1,6 +1,6 @@
 Congratulations! You've grown skills by administering flows.
 
-In the previous modules for Microsoft Flow, you learned how to build simple and more complex flows.
+In the previous modules for Power Automate, you learned how to build simple and more complex flows.
 
 
 ![Congratulations](../media/6-heading.png)
@@ -16,7 +16,7 @@ Now you've learned how to take care of them when things aren't quite right. You 
 
 Want to learn more about Microsoft Dynamics 365 and how to solve problems? Check out these resources:
 
-- [PowerApps](https://docs.microsoft.com/learn/paths/create-powerapps/) learning path. You'll learn how to build apps that use flows to track or update business processes on any device. 
+- [Power Apps](https://docs.microsoft.com/learn/paths/create-powerapps/) learning path. You'll learn how to build apps that use flows to track or update business processes on any device. 
 
 - [Power BI](https://docs.microsoft.com/learn/modules/get-started-with-power-bi/) learning path.  You'll learn how to turn your unrelated sources of data into coherent, visually immersive, and interactive insights.
 

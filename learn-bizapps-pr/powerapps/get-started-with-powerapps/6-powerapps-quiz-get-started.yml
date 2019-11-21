@@ -16,29 +16,29 @@ quiz:
   - content: Where do you configure and customize your app?
     choices: 
     - content: In web.powerapps.com
-      explanation: You can configure and customize your apps in PowerApps Studio.
+      explanation: You can configure and customize your apps in Power Apps Studio.
       isCorrect: false
-    - content: In the PowerApps admin center
-      explanation: You can configure and customize your apps in PowerApps Studio.
+    - content: In the Power Apps admin center
+      explanation: You can configure and customize your apps in Power Apps Studio.
       isCorrect: false
     - content: In Microsoft Dynamics 365
-      explanation: You can configure and customize your apps in PowerApps Studio.
+      explanation: You can configure and customize your apps in Power Apps Studio.
       isCorrect: false
-    - content: In PowerApps Studio
-      explanation: You can configure and customize your apps in PowerApps Studio.
+    - content: In Power Apps Studio
+      explanation: You can configure and customize your apps in Power Apps Studio.
       isCorrect: true
   - content: Which of these statements about data sources is true?
     choices:
-    - content: In PowerApps, app data comes primarily from your local device.
+    - content: In Power Apps, app data comes primarily from your local device.
       explanation: Data can come from many sources, including Microsoft SharePoint, Google Drive, and Salesforce.
       isCorrect: false
-    - content: PowerApps is not able to connect to external data.  All data must be stored in the PowerApps app.
+    - content: Power Apps is not able to connect to external data.  All data must be stored in the Power Apps app.
       explanation: You can use many external data sources, including Twitter, Facebook, Microsoft SQL Server, and Salesforce.
       isCorrect: false
-    - content: PowerApps uses connectors to connect to Data Sources. If the data source supports it, PowerApps can read and write to the data source.
+    - content: Power Apps uses connectors to connect to Data Sources. If the data source supports it, Power Apps can read and write to the data source.
       explanation: You can use many external data sources, including Twitter, Facebook, Microsoft SQL Server, and Salesforce.
       isCorrect: true
-  - content: PowerApps automatically creates three screens for you when you build an app from a data source. Which of the following is not one of the screens created?
+  - content: Power Apps automatically creates three screens for you when you build an app from a data source. Which of the following is not one of the screens created?
     choices:
     - content: Browse Screen
       explanation: A Browse Screen, Edit Screen, and Details Screen are all created. 
