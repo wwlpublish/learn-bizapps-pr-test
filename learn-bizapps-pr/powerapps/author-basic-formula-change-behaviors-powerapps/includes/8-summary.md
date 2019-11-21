@@ -1,5 +1,5 @@
 Formulas enhance functionality, performance, and user experience in your
-PowerApps canvas app. In this module, you learned how to use formulas to
+Power Apps canvas app. In this module, you learned how to use formulas to
 modify control functionality and enhance your app. Some important items to
 remember are:
 

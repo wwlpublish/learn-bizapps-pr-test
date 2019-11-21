@@ -1,6 +1,6 @@
 After completing the previous recommended learning paths, you should have a solid
-foundation with PowerApps. In this learning path, you will learn some of
-the more advanced concepts that PowerApps supports.
+foundation with Power Apps. In this learning path, you will learn some of
+the more advanced concepts that Power Apps supports.
 
 This module includes some concepts that might appear to be very developer focused but do not worry. The goal is to help you understand and apply some of these concepts to build better apps.
 
@@ -50,8 +50,8 @@ GetSandwich(Kitchen, Mouth, {Tomato: false})
 Low-code tools like Excel use this approach to development. The focus is
 on pulling data.
 
-### PowerApps supports both imperative and declarative methodologies 
+### Power Apps supports both imperative and declarative methodologies 
 
-PowerApps has capabilities for both imperative and declarative logic. Throughout this training there has been a focus on declarative formulas. In the remainder of this module, the focus will be on imperative concepts and methodologies in PowerApps. The key component of imperative logic in PowerApps is variables.
+Power Apps has capabilities for both imperative and declarative logic. Throughout this training there has been a focus on declarative formulas. In the remainder of this module, the focus will be on imperative concepts and methodologies in Power Apps. The key component of imperative logic in Power Apps is variables.
 
 The next unit will cover the different types of variables and how to use them in an imperative mode.

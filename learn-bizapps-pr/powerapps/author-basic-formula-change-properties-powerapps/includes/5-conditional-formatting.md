@@ -21,11 +21,11 @@ control. For this example, if the sum of the two **TextInput** controls
 is greater than 50, then the color will be DarkGreen, if not then the
 color will be DarkRed.
 
-When setting the Color property in PowerApps there are a few options.
+When setting the Color property in Power Apps there are a few options.
 You can provide a color object, as shown in the example, by using
-Color.Orange or any of the predefined colors in PowerApps. There is also
+Color.Orange or any of the predefined colors in Power Apps. There is also
 a ColorValue and an RGBA function available. For more information, see
-[PowerApps Color enumeration and functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-colors).
+[Power Apps Color enumeration and functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-colors).
 
 Another concept that can be applied is to reference the **Text**
 property to determine the **Color** property. If your app needs to

@@ -1,4 +1,4 @@
-In PowerApps, because most apps have multiple screens, it's essential that you understand how to implement the Navigate function in your app. The Navigate function allows users to move or navigate from screen to screen in an app. For example, if you create an app with three screens and you want to give users a way to navigate to another screen, set the
+In Power Apps, because most apps have multiple screens, it's essential that you understand how to implement the Navigate function in your app. The Navigate function allows users to move or navigate from screen to screen in an app. For example, if you create an app with three screens and you want to give users a way to navigate to another screen, set the
 **OnSelect** property of a Button control to:
 
 **Navigate(Screen2,ScreenTransition.Cover)**

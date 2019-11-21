@@ -85,11 +85,11 @@ will first determine if the Region is North or West. If either of those
 evaluations is true, then the right side will be true. Next, the formula
 will check the value of the IsActive field. If that equals "Yes", then
 the record is a match and will be returned by the Filter function.
-Microsoft PowerApps supports a wide range of operators and the nesting of them to
+Microsoft Power Apps supports a wide range of operators and the nesting of them to
 shape your data.
 
 For more information on the different operators that are available in
-PowerApps, see [Operators and data types in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/operators)
+Power Apps, see [Operators and data types in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/operators)
 in the documentation. Other examples include greater
 than, less than, not, in, exact in, and more. Also, when evaluating
 operators be sure that you understand delegation. Different operators have

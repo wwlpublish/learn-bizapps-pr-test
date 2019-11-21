@@ -50,7 +50,7 @@ with a mouse.
     the mouse pointer on it.
 
 These are just some of the properties that you could modify. For more details about the properties that you can
-customize, see [Color and Border Properties in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/controls/properties-color-border).
+customize, see [Color and Border Properties in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/controls/properties-color-border).
 
 Note that each control is independent. This means that if
 you alter the **HoverColor** property of one button control on your screen
@@ -64,7 +64,7 @@ Some color settings are only controlled by the theme
 There are certain aspects of controls that cannot be altered and are
 specific to the theme that you select. For example, here's an example of the **Date picker** control.
 
-1.  In PowerApps Studio, add the **Date picker** control.
+1.  In Power Apps Studio, add the **Date picker** control.
 
 2.  Put the app in preview mode and select the control so that it opens.
 

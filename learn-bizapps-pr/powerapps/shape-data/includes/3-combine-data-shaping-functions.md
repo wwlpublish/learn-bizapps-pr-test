@@ -1,4 +1,4 @@
-Multiple PowerApps functions can be combined in a single formula to
+Multiple Power Apps functions can be combined in a single formula to
 allow you the flexibility to meet the demands of your business. An
 example of this is combining Search and Filter into one formula that
 provides items for a gallery control.
@@ -58,6 +58,6 @@ data each step along the way.
         SearchInput.Text, \"AddressLine1\", \"AddressLine2\")
 
 By breaking the complex formula down into smaller, working parts, you
-will have a much better experience creating an app. Within PowerApps, you can
+will have a much better experience creating an app. Within Power Apps, you can
 utilize the concept of using one function to supply information to
 another function in many places. 

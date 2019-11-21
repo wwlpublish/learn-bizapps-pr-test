@@ -85,7 +85,7 @@ CDS for Apps analytics are available via Power platform admin center [https://ak
 ## Query Performance
 
 Common Data Service is a service and, as any service, may not cater for your specific app design. Specific queries in your app may cause some performance issues. While you don’t have direct access to the components of the Common Data Service such as database, there are tools available within Common Data Service to help in tuning the environment to your specific needs. You can analyze and optimize query performance using the Data Performance view discussed in detail in the next topic.
-There are a number of tools that can assist in performance tuning various aspects of PowerApps.
+There are a number of tools that can assist in performance tuning various aspects of Power Apps.
 
 ## Dynamics 365 Diagnostics
 
@@ -126,8 +126,8 @@ This can help identify entities with excessive storage use that would be a prima
 
 Other statistics are also available that may be useful. Plug-ins statistics can assist in identifying troublesome plugins, for example those with excessive average execution time.
 
-### PowerApps Analytics
+### Power Apps Analytics
 
-PowerApps Analytics help with performance analysis by providing detailed statistics on Service Performance across various connectors used in your app. 
+Power Apps Analytics help with performance analysis by providing detailed statistics on Service Performance across various connectors used in your app. 
 
 Additional information such as overall app usage, location statistics, or errors seen by end users can be extracted from other tabs. While not directly performance related, this information can be useful in pinpointing overall problematic areas that may be caused by poor app performance such as specific region, specific app, etc.

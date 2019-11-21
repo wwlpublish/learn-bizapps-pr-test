@@ -1,4 +1,4 @@
-Before you choose your data source in PowerApps it’s important to understand delegation. By using delegation, PowerApps optimizes its interaction with data sources to minimize the amount of transferred data. Put more simply, PowerApps uses delegation to offload the processing (which includes filtering, searching, and sorting) of data to the data source when available. Delegable processing is dependent on the data source and function being utilized. If you have a lot of data and need to rely on the back-end data source for operations such as filtering, then you might want to consider moving (or replicating) your data into an environment (such as Common Data Service) that works well with delegation. To replicate your data from a different source, you can use the Data Integrator to move data into Common Data Service.
+Before you choose your data source in Power Apps it’s important to understand delegation. By using delegation, Power Apps optimizes its interaction with data sources to minimize the amount of transferred data. Put more simply, Power Apps uses delegation to offload the processing (which includes filtering, searching, and sorting) of data to the data source when available. Delegable processing is dependent on the data source and function being utilized. If you have a lot of data and need to rely on the back-end data source for operations such as filtering, then you might want to consider moving (or replicating) your data into an environment (such as Common Data Service) that works well with delegation. To replicate your data from a different source, you can use the Data Integrator to move data into Common Data Service.
 
 Delegation in action
 --------------------
@@ -11,11 +11,11 @@ a gallery and filter it by using this formula.
 > Filter(SharePointList, ProjectStatus = "Active")
 
 Because the **Filter** function is delegable to a SharePoint data
-source, PowerApps would send your formula to SharePoint. SharePoint
-would process all 5,000 records and return to PowerApps the 2,500
+source, Power Apps would send your formula to SharePoint. SharePoint
+would process all 5,000 records and return to Power Apps the 2,500
 records for which **ProjectStatus** is set **Active**. Those records
-would all be available in your gallery. In this scenario, PowerApps
-didn't process any data, and only the matching records were sent from SharePoint to PowerApps, which is very efficient.
+would all be available in your gallery. In this scenario, Power Apps
+didn't process any data, and only the matching records were sent from SharePoint to Power Apps, which is very efficient.
 
 When delegation isn't available
 -------------------------------
@@ -27,20 +27,20 @@ can use **Search** to check across multiple fields and to find partial
 matches. For example, Search(SharePointList, "Rob",
 "FirstName","LastName") would return all of the records where the string
 "rob" is in either the **FirstName** or the **LastName** column. In this
-example, PowerApps would return records for Robert Smith, Rob Jones, and
+example, Power Apps would return records for Robert Smith, Rob Jones, and
 Suzy Robinson.
 
 Because the **Search** function isn't delegable to the SharePoint data
-source, PowerApps has to processes the records locally, which means
-first the records are sent from SharePoint to PowerApps. By default, the
+source, Power Apps has to processes the records locally, which means
+first the records are sent from SharePoint to Power Apps. By default, the
 data source will only return the first 500 records. It is not the first
 500 records that match your formula, but the first 500 records in the
 data source. In this example, when you add this formula to your gallery,
-SharePoint returns the first 500 records from the list to PowerApps, and
-then PowerApps performs the search operation locally. If your list
+SharePoint returns the first 500 records from the list to Power Apps, and
+then Power Apps performs the search operation locally. If your list
 contained 5,000 items, the other 4,500 records in your data source are
 not processed or displayed. You can increase the default of 500 records
-to a maximum of 2,000 records in the advanced settings of PowerApps
+to a maximum of 2,000 records in the advanced settings of Power Apps
 Studio. Under those circumstances, 3,000 records still would not be
 processed or displayed.
 

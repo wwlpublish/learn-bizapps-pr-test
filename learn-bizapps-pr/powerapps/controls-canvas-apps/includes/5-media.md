@@ -36,7 +36,7 @@ example, you will have two screens. When a user selects the button
 on the first screen they will navigate to the second screen where a
 video will start playing automatically.
 
-1.  In PowerApps studio, add a new blank screen. You should now have two
+1.  In Power Apps studio, add a new blank screen. You should now have two
     screens.
 
 2.  Make sure that you are on the first screen and add a **Button** control.
