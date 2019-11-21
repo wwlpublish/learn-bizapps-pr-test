@@ -1,12 +1,12 @@
-As you would expect, PowerApps has all of the functions and controls that you need to build and utilize relationships in your apps. In most apps, there are two primary ways that relationships are used. The first is the scenario discussed in the previous module, storing data in multiple tables and then using relationships to connect the data back together. In this unit, you will learn how to connect a customer and an invoice table.
+As you would expect, Power Apps has all of the functions and controls that you need to build and utilize relationships in your apps. In most apps, there are two primary ways that relationships are used. The first is the scenario discussed in the previous module, storing data in multiple tables and then using relationships to connect the data back together. In this unit, you will learn how to connect a customer and an invoice table.
 
 The second common use of relationships is to query the parent from the child record. For this example, you will learn how to query the customer name when you are directly looking at the invoice record.
 
-Connecting a parent and child table in PowerApps
+Connecting a parent and child table in Power Apps
 ------------------------------------------------
 
 In this example, you will walk through how to reference a parent and
-child relationship using the PowerApps filter and a LookUp function.
+child relationship using the Power Apps filter and a LookUp function.
 
 The Customer table is the parent in this relationship. That is because
 one customer can have many invoices. Notice there is no reference in the
@@ -31,7 +31,7 @@ like the following.
 | 3  | 5/6/2019    | Travel            | 132.98        | 1          |
 | 4  | 5/31/2019   | Parts             | 75.55         | 2          |
 
-In PowerApps use the Gallery control to display the contents of the
+In Power Apps use the Gallery control to display the contents of the
 Customer table. You do this by using the following steps:
 
 1.  Insert a **Gallery** control onto your canvas.
@@ -76,7 +76,7 @@ you need to go from the bottom up. For example in the InvoiceTable, if
 you are looking at the record for the invoice with an ID of 2, then you
 know that it is associated with the customer with the ID of 3. This is different
 if you want to know the customer's name or phone number. To do this in
-PowerApps, you can use the **LookUp** function.
+Power Apps, you can use the **LookUp** function.
 
 The **LookUp** function allows you to query a data source for a single
 record that meets the evaluation criteria. In this example, you will use
@@ -134,7 +134,7 @@ source calls in a Gallery.
 
 A better option to consider for this scenario is using a collection or
 other means to query and store all of the customer records and then
-perform your lookup against the collection. For additional information about data performance, see the blog post on [Performance considerations with PowerApps](https://powerapps.microsoft.com/blog/performance-considerations-with-powerapps/).
+perform your lookup against the collection. For additional information about data performance, see the blog post on [Performance considerations with Power Apps](https://powerapps.microsoft.com/blog/performance-considerations-with-powerapps/).
 
 In the next unit, you will learn how Common Data Services removes all of the
 issues associated with related data by automatically drilling down for you.

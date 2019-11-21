@@ -1,4 +1,4 @@
-As you start to build complex apps with PowerApps, one concept that you will need to become very familiar with is relating data. In short, this is when you create a connection between two different data sources. An example is a travel expense app where you want to have one record for the trip and then one or more records for the individual expenses like food and lodging.
+As you start to build complex apps with Power Apps, one concept that you will need to become very familiar with is relating data. In short, this is when you create a connection between two different data sources. An example is a travel expense app where you want to have one record for the trip and then one or more records for the individual expenses like food and lodging.
 
 The following table is an example of storing all of the expense data in
 one Common Data Service entity.
@@ -40,13 +40,13 @@ When building relationships, it is also possible to relate data from two
 different data sources. An example of this is storing customer
 information in a CRM system, such as Dynamics 365, and then using that
 information as part of a SharePoint list for sales regions. With
-PowerApps, the setup and design of referencing the ID of the customer in
+Power Apps, the setup and design of referencing the ID of the customer in
 Dynamics 365 from your SharePoint list works the same. This is one of
-the many benefits of PowerApps, connecting to multiple data sources from
+the many benefits of Power Apps, connecting to multiple data sources from
 within one app is completely seamless.
 
 > [!NOTE]
 > Common Data Service can define relationships using Lookup columns, creating the structure and connecting the tables for you. This is outside the scope of this primer on relationships but worth noting as you consider data sources.
 
 In the next section, you will learn the functions and formulas for
-utilizing relationships in PowerApps.
+utilizing relationships in Power Apps.

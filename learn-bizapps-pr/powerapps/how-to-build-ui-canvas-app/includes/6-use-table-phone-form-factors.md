@@ -2,7 +2,7 @@ It is important to design your app for the primary device that it will be used o
 
 The Phone form factor has a significantly smaller area to build your app, but if most of your users will be accessing the app from a mobile phone then this is the best form factor for you. When building for mobile, select controls that will be easy to use on a mobile device, ensure that the text is large enough to be easily seen, and design the app in a single column vertical format.
 
-The Tablet form factor has a much larger area for designing your app and is the best option if your users will be accessing the app from a tablet or PC. Because you have more screen size to work with, you will have more flexibility in designing this app. Regardless of the form factor that you choose; the functionality available in the PowerApps Studio will be the same.
+The Tablet form factor has a much larger area for designing your app and is the best option if your users will be accessing the app from a tablet or PC. Because you have more screen size to work with, you will have more flexibility in designing this app. Regardless of the form factor that you choose; the functionality available in the Power Apps Studio will be the same.
 
 Take a moment and create two blank Canvas apps. For one of the apps use the Phone form factor and for the other app use the Tablet form factor. You will immediately notice the difference in the amount of space available on the screen to design your app.
 
@@ -17,7 +17,7 @@ Take a moment and create two blank Canvas apps. For one of the apps use the Phon
 
 Depending on the form factor that you choose, you have the ability to alter the screen size. To view the current screen size and orientation, for either form factor, see following steps.
 
-1.  In PowerApps Studio, in the upper-left corner, select **File**.
+1.  In Power Apps Studio, in the upper-left corner, select **File**.
 
 2.  On the left, select **App settings**.
 

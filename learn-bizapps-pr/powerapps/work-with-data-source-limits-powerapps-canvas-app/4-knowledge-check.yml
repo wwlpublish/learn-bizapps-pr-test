@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.data-source-limits.4-knowledge-check 
 metadata: 
-  title: Work with data source limits (delegation limits) in a PowerApps canvas app knowledge check
-  description: Work with data source limits (delegation limits) in a PowerApps canvas app knowledge check
+  title: Work with data source limits (delegation limits) in a Power Apps canvas app knowledge check
+  description: Work with data source limits (delegation limits) in a Power Apps canvas app knowledge check
   ms.date: 04/9/2019 
   author: KevSch
   ms.author: kschimke 
@@ -12,7 +12,7 @@ metadata:
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
-  title: Work with data source limits (delegation limits) in a PowerApps canvas app knowledge check
+  title: Work with data source limits (delegation limits) in a Power Apps canvas app knowledge check
   questions: 
   - content: What happens when you delegate a function to a data source?
     choices: 
@@ -39,7 +39,7 @@ quiz:
     - content: Ignore it, warnings are not a big deal and the user will know how to deal with the warning.
       isCorrect: false 
       explanation: Determine if the limited data will cause issues for your app. 
-    - content: Try a different function because PowerApps will not run if there are warnings.
+    - content: Try a different function because Power Apps will not run if there are warnings.
       isCorrect: false 
       explanation: Determine if the limited data will cause issues for your app. 
   - content: When combining delegable and non-delegable functions in a formula what happens?
@@ -50,7 +50,7 @@ quiz:
     - content: You cannot combine delegable and non-delegable functions in the same formula.
       isCorrect: false 
       explanation: The delegable functions may become non-delegable reducing the data returned by a formula. 
-    - content: PowerApps will generate errors only if the app has more than 2000 records.
+    - content: Power Apps will generate errors only if the app has more than 2000 records.
       isCorrect: false 
       explanation: The delegable functions may become non-delegable reducing the data returned by a formula. 
     - content: The delegable functions may become non-delegable reducing the amount of data returned by the formula.

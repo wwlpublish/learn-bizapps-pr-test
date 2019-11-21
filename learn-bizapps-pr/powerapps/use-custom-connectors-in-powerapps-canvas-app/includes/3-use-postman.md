@@ -152,7 +152,7 @@ to create the custom connector from the Postman collection created earlier:
     for the Cognitive Services Text Analytics API
 
 -   A
-    [PowerApps](https://docs.microsoft.com/powerapps/signup-for-powerapps)
+    [Power Apps](https://docs.microsoft.com/powerapps/signup-for-powerapps)
     subscription
 
 Import the Postman collection
@@ -161,9 +161,9 @@ Import the Postman collection
 Now you're ready to work with the Postman collection you created earlier. 
 The collection contains most of the required information.
 You can review it and update it as you go through the custom connector
-wizard. You need to import the Postman collection for PowerApps and Power Automate.
+wizard. You need to import the Postman collection for Power Apps and Power Automate.
 
-### Import the Postman collection for PowerApps and Power Automate
+### Import the Postman collection for Power Apps and Power Automate
 
 1.  Go to
     [powerapps.com](https://powerapps.microsoft.com/)
@@ -245,7 +245,7 @@ Review and update the connector definition
 ------------------------------------------
 
 The custom connector wizard gives you a lot of options for defining how
-your connector functions, and how it is exposed in PowerApps, Microsoft
+your connector functions, and how it is exposed in Power Apps, Microsoft
 Flow, and Azure Logic Apps. The next section explains the user interface (UI) and covers a few options, but you are also encouraged to explore this on your own.
 
 ### Review the UI and definition
@@ -299,7 +299,7 @@ here's a review of the user interface.
 
 ### Update the definition
 
-Next you will change a few things so the connector is more user-friendly when someone uses it in PowerApps, Power Automate, or Azure Logic Apps.
+Next you will change a few things so the connector is more user-friendly when someone uses it in Power Apps, Power Automate, or Azure Logic Apps.
 
 1.  In the **General** area, update the summary to \"Returns a numeric
     score representing the sentiment detected\".
@@ -368,7 +368,7 @@ In Power Automate, go back to the **Test** page. Choose the refresh icon to make
         
 ![Refresh Connection](../media/29-refresh-connection.png)
 
-In PowerApps, go back to the list of connections available in the current environment. In the upper-right corner, select the gear icon, then select **Custom connectors**. Choose the connector that you created, then go back to the **Test** page.
+In Power Apps, go back to the list of connections available in the current environment. In the upper-right corner, select the gear icon, then select **Custom connectors**. Choose the connector that you created, then go back to the **Test** page.
 
 ![Icon Gear](../media/13-icon-gear.png)
 

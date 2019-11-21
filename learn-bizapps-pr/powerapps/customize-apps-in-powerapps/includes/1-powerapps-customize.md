@@ -61,4 +61,4 @@ On the screen where your users edit and create entries, you want to make it easi
     A multi-line edit control will simplify your user's ability to add more than a few words in this field.
 
 
-A few basic steps can greatly improve the appearance and experience of using an app, and PowerApps Studio provides many options for customizing those apps.
+A few basic steps can greatly improve the appearance and experience of using an app, and Power Apps Studio provides many options for customizing those apps.

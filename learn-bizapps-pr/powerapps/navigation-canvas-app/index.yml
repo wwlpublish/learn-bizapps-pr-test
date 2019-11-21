@@ -1,14 +1,14 @@
 ﻿### YamlMime:Module 
 uid: learn-bizapps.navigation-canvas-app 
 metadata: 
-  title: Navigation in a canvas app in PowerApps
+  title: Navigation in a canvas app in Power Apps
   description: App users can only navigate through the navigation options provided by an app developer, and this module is designed to help you build a good navigation experience for your canvas app.
   ms.date: 03/29/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Navigation in a canvas app in PowerApps 
+title: Navigation in a canvas app in Power Apps 
 summary: |
   [!include[](../includes/module-banner.md)]
 
@@ -18,7 +18,7 @@ abstract: |
     - Understand how navigation works in a canvas app
     - Use the Navigate and Back functions
     - Understand the different ways these functions can be invoked
-prerequisites: A basic understanding of how to create a PowerApps canvas app and some experience working with controls in PowerApps is helpful but not required.     
+prerequisites: A basic understanding of how to create a Power Apps canvas app and some experience working with controls in Power Apps is helpful but not required.     
 iconUrl: /learn/achievements/navigation-canvas-app.svg  
 levels:  
 - intermediate   

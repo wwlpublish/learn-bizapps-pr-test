@@ -1,6 +1,6 @@
-In your app, you can use variables. Variables allow you to store information that you need to reference in your app temporarily. Examples where you can use them include to keep a running count or list of information, to dynamically manipulate controls, to optimize performance, or other scenarios where you need to store information temporarily. Variables are a key driver for imperative logic in PowerApps because they allow you to "build the sandwich" piece by piece.
+In your app, you can use variables. Variables allow you to store information that you need to reference in your app temporarily. Examples where you can use them include to keep a running count or list of information, to dynamically manipulate controls, to optimize performance, or other scenarios where you need to store information temporarily. Variables are a key driver for imperative logic in Power Apps because they allow you to "build the sandwich" piece by piece.
 
-To support you in these needs, PowerApps has three different types of
+To support you in these needs, Power Apps has three different types of
 variables.
 
 -   **Global variables** -- The most traditional type of variable. You
@@ -28,14 +28,14 @@ global variable as it has the most flexibility.
 How all of the variable types are the same
 ------------------------------------------
 
-With PowerApps, variables are easy to use. You do not have to initialize,
+With Power Apps, variables are easy to use. You do not have to initialize,
 declare, or type a variable. You create the variable with the
-appropriate function, and PowerApps does the rest. When you assign the
-value to a variable PowerApps will automatically determine the type.
+appropriate function, and Power Apps does the rest. When you assign the
+value to a variable Power Apps will automatically determine the type.
 
 It is also important to note if you are new to variables that variables
 are temporary and only available to the current user in their current
-session. When the user closes PowerApps, all of the information stored in
+session. When the user closes Power Apps, all of the information stored in
 variables is no longer available. If you need to store information for
 use later or by other users, then you will need to write that
 information to a data source. Variables are temporary by nature.

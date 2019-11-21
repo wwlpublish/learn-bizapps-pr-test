@@ -1,4 +1,4 @@
-Now that you have an understanding of PowerApps logic concepts and variable types, there a few additional concepts to expand on that will help you integrate variables into your app.
+Now that you have an understanding of Power Apps logic concepts and variable types, there a few additional concepts to expand on that will help you integrate variables into your app.
 
 Variables can self-reference
 ----------------------------
@@ -6,7 +6,7 @@ Variables can self-reference
 This concept applies to both global and context variables. Sometimes you 
 need to make a variable that points to itself. This is
 often done when you want to either do a counter type variable where it
-increments a value or you are appending a string. With PowerApps this is
+increments a value or you are appending a string. With Power Apps this is
 easy to implement. Place the following formula on the **OnSelect** property
 of a button to set up a counter.
 

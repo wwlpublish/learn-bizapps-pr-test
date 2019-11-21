@@ -1,4 +1,4 @@
-Microsoft PowerApps uses role-based security for sharing. A security role includes privileges that define a set of actions that can be performed in the app. All app users must be assigned to one or more predefined or custom security roles.
+Microsoft Power Apps uses role-based security for sharing. A security role includes privileges that define a set of actions that can be performed in the app. All app users must be assigned to one or more predefined or custom security roles.
 
 Roles can be assigned to individual users or to teams. When a user or a team is assigned to a role, that user or all members of that team are granted the set of privileges associated with the role.
 
@@ -18,7 +18,7 @@ This unit uses the example of a company named Contoso, which has a pet grooming 
 The app must be shared so that the pet grooming staff can use it. To share the app, an admin or app maker assigns one or more security roles to users and to the app.
 
 ## Create or set up a security role
-The PowerApps environment includes predefined security roles. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that's required to use the app.
+The Power Apps environment includes predefined security roles. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that's required to use the app.
 
 Remember that the Contoso pet grooming app is based on a custom entity. Because the entity is custom, privileges must be explicitly specified before users can work in it. To do this, you can use either of the following approaches:
 
@@ -33,8 +33,8 @@ Because the environment that will maintain the pet grooming records is also used
 To learn more about access and the scope of the different privileges, see [Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges#security-roles).
 
 ## Create a custom security role
-1. Sign in to [PowerApps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
-1. On the PowerApps home page, select **Model-driven**.
+1. Sign in to [Power Apps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
+1. On the Power Apps home page, select **Model-driven**.
 1. For your new app, select the **More Commands** button (**...**), and then click **Share**.
 1. In the **Share this app** dialog box, under **Create a security role**, click the **Security Setting** link.
 1. On the **All Roles** page, click **New**.
@@ -94,11 +94,11 @@ You can also find the app URL on the **Properties** tab in the App Designer.
 ![Copy app URL](../media/app-designer-copy-web-url.png)
 
 ## About predefined security roles
-The following predefined roles are available with a PowerApps environment. Unless otherwise noted, all the privileges have global scope.
+The following predefined roles are available with a Power Apps environment. Unless otherwise noted, all the privileges have global scope.
 
 | Security role            | Privileges | Description |
 |--------------------------|------------|-------------|
-| Environment Maker        | None | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Power Automate. But these users can't access the data in an environment. To learn more about environments, see [Announcing PowerApps environments](https://powerapps.microsoft.com/blog/powerapps-environments/). |
+| Environment Maker        | None | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Power Automate. But these users can't access the data in an environment. To learn more about environments, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/). |
 | System Administrator     | Create, Read, Write, Delete, Customize | This role has full permission to customize or administer the environment, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
 | System Customizer        | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view records only for environment entities that they create. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
 | Common Data Service User | Read, Create (self), write (self), delete (self) | Users who have this role can run an app in the environment and perform common tasks for the records they own. |

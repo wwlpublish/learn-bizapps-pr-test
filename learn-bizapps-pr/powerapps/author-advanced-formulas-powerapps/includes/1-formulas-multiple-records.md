@@ -1,4 +1,4 @@
-Throughout other PowerApps learning paths, you have been focused on using formulas to manipulate single records. That is a great way to get started with PowerApps. As you build more complex apps, it is often necessary to process and work with multiple records in one formula. Throughout this module, the focus will be on learning some of the more common functions that are used to work with tables, records, and collections.
+Throughout other Power Apps learning paths, you have been focused on using formulas to manipulate single records. That is a great way to get started with Power Apps. As you build more complex apps, it is often necessary to process and work with multiple records in one formula. Throughout this module, the focus will be on learning some of the more common functions that are used to work with tables, records, and collections.
 To keep the rest of this module straight forward, the content will refer to tables and records. *Tables* are a data set that is made up of one or more columns with one or more rows of data. A *record* is the name used to refer to the individual rows in the table. Tables can be manually created using the Table function or come from a tabular data source. Collections are a special kind of variable that stores a table. Throughout this module, table and collection are synonymous. This means that any function you can use on a table of data , you can use on a collection.
 
 
@@ -53,7 +53,7 @@ table. With this information, you could confirm that the price entered
 in a Form control did not exceed that price before letting the user
 submit the form.
 
-PowerApps includes the following aggregate functions:
+Power Apps includes the following aggregate functions:
 
 -  **Average** calculates the average, or arithmetic mean,
     of its arguments.

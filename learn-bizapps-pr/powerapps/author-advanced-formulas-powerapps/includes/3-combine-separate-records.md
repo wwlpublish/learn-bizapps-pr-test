@@ -1,5 +1,5 @@
 When working with data sometimes you need to be able to modify the data. Common scenarios include taking a table of records and combining the records into one string to display, or taking a string and turning it into multiple records in a table. With
-PowerApps you use the **Concat** and **Split** functions to accomplish
+Power Apps you use the **Concat** and **Split** functions to accomplish
 this task.
 
 Turn table data into a string

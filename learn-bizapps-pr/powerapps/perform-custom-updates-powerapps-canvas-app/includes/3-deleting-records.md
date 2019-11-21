@@ -97,10 +97,10 @@ Here are two examples to illustrate this:
 It is possible to delete all of the records from a data source using
 **RemoveIf**. This is not a very common scenario. Again there will be no
 confirmation before the formula processes unless you build such
-functionality. Finally, there is no undo or recycle bin in PowerApps. If
+functionality. Finally, there is no undo or recycle bin in Power Apps. If
 you want to recover your data, you would need to go to your data source
 and use whatever recovery process is available for that data source,
-outside of PowerApps. Proceed with caution.
+outside of Power Apps. Proceed with caution.
 
 For example, you could use the following formula to delete all of the
 records from a data source.

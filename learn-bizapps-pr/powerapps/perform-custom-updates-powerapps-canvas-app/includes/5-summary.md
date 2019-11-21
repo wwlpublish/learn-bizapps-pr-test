@@ -8,6 +8,6 @@ Sometimes it is necessary to work directly with your data source. In this module
 -   The **RemoveIf** and **Clear** functions provide the capability to
     delete multiple or all the records from a given data source.
 
--   When deleting records in PowerApps there is no confirmation, undo,
+-   When deleting records in Power Apps there is no confirmation, undo,
     or recycle bin functionality. It is up to you to add that
     functionality if it is required in your app. 
