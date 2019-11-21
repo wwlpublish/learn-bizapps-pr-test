@@ -62,4 +62,4 @@ The following default activity entities are available:
 ### Custom activity entities
 You can create new custom activity entities. The metadata values of activity entities differ from the metadata values of other entities. For example, the **Primary** field is set to **Subject**. 
 
-You can't create a custom activity by using the Microsoft PowerApps portal. You must open Solution Explorer by using the **Advanced** button. 
+You can't create a custom activity by using the Microsoft Power Apps portal. You must open Solution Explorer by using the **Advanced** button. 

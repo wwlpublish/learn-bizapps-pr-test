@@ -1,4 +1,4 @@
-In PowerApps, you can use a number of different controls, variables, and
+In Power Apps, you can use a number of different controls, variables, and
 other functions to fully customize the end user's navigation
 experience.
 

@@ -24,7 +24,7 @@ quiz:
     - content: Set the OnClick property to the formula that you want to run.
       explanation: You can set the OnSelect property to the formula that you want to run.
       isCorrect: false
-    - content: PowerApps cannot run formulas based on user selections.
+    - content: Power Apps cannot run formulas based on user selections.
       explanation: You can set the OnSelect property to the formula that you want to run.
       isCorrect: false
   - content: When you create an app from data, which of the following best describes your ability to customize?

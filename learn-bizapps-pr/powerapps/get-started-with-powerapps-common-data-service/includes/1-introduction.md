@@ -3,11 +3,11 @@ Common Data Service lets you securely store and manage data used by business app
 ## Entities
 Data within Common Data Service is stored within a set of records called entities. An **entity** is a set of records used to store data, similar to how a table stores data within a database.
 
-Common Data Service includes a base set of standard entities that support common business scenarios that connect to Dynamics 365 application data. You can also create custom entities specific to your organization and populate them with data that you import from lists in SharePoint, from Excel, or from PowerQuery. App makers can then use PowerApps to build rich applications using this data.
+Common Data Service includes a base set of standard entities that support common business scenarios that connect to Dynamics 365 application data. You can also create custom entities specific to your organization and populate them with data that you import from lists in SharePoint, from Excel, or from PowerQuery. App makers can then use Power Apps to build rich applications using this data.
 
 ![Illustration showing an overview of the Business Application Platform](../media/platform.png)
 
-Dynamics 365 applications, including Dynamics 365 for Sales, Service, and Talent, use Common Data Service to store and secure data used by the applications. This means you can build apps using PowerApps and Common Data Service directly against your core business data already used within Dynamics 365 without the need for manual integration.
+Dynamics 365 applications, including Dynamics 365 for Sales, Service, and Talent, use Common Data Service to store and secure data used by the applications. This means you can build apps using Power Apps and Common Data Service directly against your core business data already used within Dynamics 365 without the need for manual integration.
 
  > [!NOTE]
  > Dynamics 365 for Finance and Operations and Dynamics 365 for Retail currently require the configuration of the Data Integrator to make your business data available within Common Data Service.

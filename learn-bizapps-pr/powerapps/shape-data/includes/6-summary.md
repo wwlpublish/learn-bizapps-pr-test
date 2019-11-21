@@ -3,7 +3,7 @@ improve the usability and performance of your app.  Many apps do not
 need users to view all the records in a data source.  In this
 module, you learned how to shape the data using filters and operators. You also
 learned about the **Search** function and functions that only modify table columns in
-PowerApps. These items are important to remember:
+Power Apps. These items are important to remember:
 
 -   Use the **Filter** function to return only the data that matches the
     criteria defined in the formula.
@@ -17,7 +17,7 @@ PowerApps. These items are important to remember:
 
 -   **AddColumns**, **DropColumns**, **RenameColumns**, **ShowColumns**
     functions allow you to modify the columns of a table only within
-    PowerApps.  The original data source columns will not be modified.
+    Power Apps.  The original data source columns will not be modified.
 
 In the next module, you'll focus on how to work with forms and write
 data by using the **Submit** function. 

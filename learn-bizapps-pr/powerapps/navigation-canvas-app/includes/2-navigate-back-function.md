@@ -1,4 +1,4 @@
-In the previous section, you learned how to implement the Navigate and Back() functions using a Control. When implementing these functions, like any other function in PowerApps, there are certain arguments that need to be defined.
+In the previous section, you learned how to implement the Navigate and Back() functions using a Control. When implementing these functions, like any other function in Power Apps, there are certain arguments that need to be defined.
 
 Navigate function
 ---------------------
@@ -16,7 +16,7 @@ Here's a breakdown of the syntax for the navigation function:
     name of at least one column and a value for each column. This record
     updates the context variables of the new screen. For more information, see
     [UpdateContext
-    function in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext).
+    function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext).
 
 In the first argument, you specify the name of the screen to display. In
 the second argument, you specify how the old screen changes to the new
@@ -61,7 +61,7 @@ navigate to different screens depending on the control they select. In
 the following example, you will create a three screen app to
 demonstrate the **Navigate** and **Back()** functionality.
 
-1.  In PowerApps Studio, create 3 blank screens.
+1.  In Power Apps Studio, create 3 blank screens.
 
 2.  On Screen1, add a **Button** control and change the **Text**
     property to **Next**.
@@ -91,7 +91,7 @@ demonstrate the **Navigate** and **Back()** functionality.
 As you select each button, notice the subtle visual transitions of each
 ScreenTransition. Remember, the Navigate function must include a
 ScreenTransition. If you tried to write your Navigate function like
-this, **Navigate(Screen2)**, PowerApps would display a red squiggly line
+this, **Navigate(Screen2)**, Power Apps would display a red squiggly line
 in the formula box indicating that there is an issue with the function as
 written.
 
@@ -112,7 +112,7 @@ property of the Next button on Screen1 from
 to **Jump to Screen 3**. Now, when the user selects the button, the app
 will navigate to Screen3. Then when they select the Back button on
 Screen3, they will navigate back to Screen1 and skip Screen2 entirely.
-This is by design in PowerApps and is important to concept understand to ensure
+This is by design in Power Apps and is important to concept understand to ensure
 the navigation in your app is configured properly.
 
 Before moving on to the next section, add one more screen to the example

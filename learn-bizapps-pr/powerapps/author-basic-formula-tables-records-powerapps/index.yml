@@ -1,26 +1,26 @@
 ﻿### YamlMime:Module 
 uid: learn-bizapps.author-basic-formula-tables-records-powerapps
 metadata: 
-  title: Author a basic formula that uses tables and records in a PowerApps canvas app 
-  description: Do you want to use tables and records and filter data in your canvas app? This module will focus on the differences between a table and a record and how to utilize both within your PowerApps canvas app.
+  title: Author a basic formula that uses tables and records in a Power Apps canvas app 
+  description: Do you want to use tables and records and filter data in your canvas app? This module will focus on the differences between a table and a record and how to utilize both within your Power Apps canvas app.
   ms.date: 03/15/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Author a basic formula that uses tables and records in a PowerApps canvas app  
+title: Author a basic formula that uses tables and records in a Power Apps canvas app  
 summary: |
   [!include[](../includes/module-banner.md)]
 
-  Do you want to use tables and records and filter data in your canvas app? This module will focus on the differences between a table and a record and how to utilize both within your PowerApps canvas app.
+  Do you want to use tables and records and filter data in your canvas app? This module will focus on the differences between a table and a record and how to utilize both within your Power Apps canvas app.
 abstract: |  
     In this module, you will: 
-    - Understand tables and records in PowerApps 
+    - Understand tables and records in Power Apps 
     - Understand how to use Collect and ClearCollect to make multi-column tables
     - Add a collection as a data source to a gallery
     - Filter your table of data
     - Use the LookUp function
-prerequisites: A basic understanding of how to create a canvas app in PowerApps.  This should include adding controls to the app and using a basic formula to edit a control and its behavior.  An understanding of working with data in PowerApps is also helpful but not required.          
+prerequisites: A basic understanding of how to create a canvas app in Power Apps.  This should include adding controls to the app and using a basic formula to edit a control and its behavior.  An understanding of working with data in Power Apps is also helpful but not required.          
 iconUrl: /learn/achievements/tables-and-records.svg  
 levels:  
 - intermediate   

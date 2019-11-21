@@ -33,7 +33,7 @@ Keep these points in mind when removing samples apps and data:
 
 To remove sample apps and data, follow these steps.
 
-1. Sign in to the [Microsoft PowerApps admin portal](https://admin.powerapps.com).
+1. Sign in to the [Microsoft Power Apps admin portal](https://admin.powerapps.com).
 2. Select an environment.
 3. Select **Dynamics 365 Administration Center**.
 
@@ -54,7 +54,7 @@ You can also go to the list of solutions by selecting **Advanced** in the maker 
 > Don't delete other system solutions unless you're aware of the effect.
 
 ## Install or uninstall sample data
-1. Sign in to the [PowerApps admin portal](https://admin.powerapps.com).
+1. Sign in to the [Power Apps admin portal](https://admin.powerapps.com).
 1. Select an environment.
 1. Select **Dynamics 365 Administration Center**.
 

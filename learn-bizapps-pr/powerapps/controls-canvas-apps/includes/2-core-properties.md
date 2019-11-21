@@ -9,7 +9,7 @@ Because controls are designed with specific use cases in mind, the properties fo
 -   **DisplayMode** - Values can be **Edit, View,** or **Disabled**.
     Configures whether the control allows user input (**Edit**), only
     displays data (**View**), or is disabled (**Disabled**). For more information about display modes, see Use basic formulas
-    to make better canvas apps in PowerApps learning path.
+    to make better canvas apps in Power Apps learning path.
 
 -   **Items** - The source of data that appears in a control such as a
     gallery, list, or chart.
@@ -21,7 +21,7 @@ Because controls are designed with specific use cases in mind, the properties fo
 -   **OnSelect** - How the app responds when the user taps or clicks a
     control.
 
--   **Reset** - Whether a control reverts to its default value. For more information, see [Reset function in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-reset).
+-   **Reset** - Whether a control reverts to its default value. For more information, see [Reset function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-reset).
 
 -   **Text** - Text that appears on a control or that the user types into
     a control.
@@ -32,4 +32,4 @@ Because controls are designed with specific use cases in mind, the properties fo
 -   **Visible** - Whether a control appears or is hidden.
 
 To view a list of all the controls and their properties, see
-[Controls and properties in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/reference-properties).
+[Controls and properties in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/reference-properties).

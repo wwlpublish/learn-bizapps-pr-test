@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.how-to-build-ui-canvas-app.7-knowledge-check 
 metadata: 
-  title: How to build the UI in a canvas app in PowerApps knowledge check
-  description: How to build the UI in a canvas app in PowerApps knowledge check
+  title: How to build the UI in a canvas app in Power Apps knowledge check
+  description: How to build the UI in a canvas app in Power Apps knowledge check
   ms.date: 03/29/2019 
   author: KevSch
   ms.author: kschimke 
@@ -12,7 +12,7 @@ metadata:
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
-  title: How to build the UI in a canvas app in PowerApps knowledge check
+  title: How to build the UI in a canvas app in Power Apps knowledge check
   questions: 
   - content: When creating an app, what two form factors can you choose from?
     choices: 
@@ -28,7 +28,7 @@ quiz:
     - content: Tablet and iPhone
       isCorrect: false 
       explanation: Tablet and Phone are the two form factors available. 
-  - content: Which formula returns the full name of the current PowerApps user?
+  - content: Which formula returns the full name of the current Power Apps user?
     choices: 
     - content: User.FullName
       isCorrect: false
