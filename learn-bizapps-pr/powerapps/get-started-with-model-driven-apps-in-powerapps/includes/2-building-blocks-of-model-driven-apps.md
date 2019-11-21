@@ -23,7 +23,7 @@ The user interface components determine how users will interact with the app.
 ![App designer and form designer](../media/app-and-form-designers.png)
 
 ## Logic
-The logic components determine what business processes, rules, and automation the app will have. Microsoft PowerApps makers use a designer that's specific to the type of process or rule.
+The logic components determine what business processes, rules, and automation the app will have. Microsoft Power Apps makers use a designer that's specific to the type of process or rule.
 
 | Type of logic         | Description | Designer |
 |-----------------------|-------------|----------|

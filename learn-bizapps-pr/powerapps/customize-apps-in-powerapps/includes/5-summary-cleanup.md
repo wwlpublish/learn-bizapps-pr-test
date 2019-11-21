@@ -1,4 +1,4 @@
-﻿This module showed you how to customize an app by adding controls, formatting, and logic in PowerApps. 
+﻿This module showed you how to customize an app by adding controls, formatting, and logic in Power Apps. 
 
 Additionally, you were able to:
 

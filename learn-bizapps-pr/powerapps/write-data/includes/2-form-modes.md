@@ -29,7 +29,7 @@ Controlling form modes
 
 A **Form** control has a default mode. You set the default mode using the
 **Edit** panel. The form mode can also be changed dynamically using a
-series of PowerApps functions. Each function is responsible for setting
+series of Power Apps functions. Each function is responsible for setting
 the mode to a specific value.
 
 -   ViewForm(YourFormName) -- Puts the form in **view** mode.

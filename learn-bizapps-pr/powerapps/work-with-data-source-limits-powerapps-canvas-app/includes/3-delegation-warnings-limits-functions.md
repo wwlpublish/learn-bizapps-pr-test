@@ -1,4 +1,4 @@
-PowerApps uses visuals to help you, the app maker, understand when
+Power Apps uses visuals to help you, the app maker, understand when
 delegation is occurring. The maker portal also has one setting you can
 adjust to increase the amount of data returned when delegation is not
 possible.
@@ -6,7 +6,7 @@ possible.
 Delegation warnings
 -------------------
 
-Anytime you use a non-delegable function, PowerApps underlines it with a
+Anytime you use a non-delegable function, Power Apps underlines it with a
 blue line and displays a yellow warning triangle as shown below.
 
 ![Delegation Warnings](../media/SNAG-0001.png)
@@ -15,7 +15,7 @@ This gives you a clear visual indicator that delegation is not
 happening, which means you may not be seeing all of your data. It is
 important to understand a couple of things about this visual indicator.
 
-- PowerApps will provide this warning regardless of the size of your
+- Power Apps will provide this warning regardless of the size of your
     data source. Even if your data source only has a few items
     and delegation isn't technically causing you a problem (remember the
     first 500 items are returned by default and processed locally) the
@@ -36,8 +36,8 @@ Changing the number of records returned when delegation isn't available
 -----------------------------------------------------------------------
 
 When a formula cannot delegate to the data source, for any
-reason, then by default PowerApps retrieves the first 500 records from
-that data source and the processes the formula locally. PowerApps does
+reason, then by default Power Apps retrieves the first 500 records from
+that data source and the processes the formula locally. Power Apps does
 support adjusting this limit from 1 to 2000. You can adjust this in the Advanced
 settings.
 

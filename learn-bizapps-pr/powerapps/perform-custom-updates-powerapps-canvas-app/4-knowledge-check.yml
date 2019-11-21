@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.perform-custom-updates.4-knowledge-check 
 metadata: 
-  title: Perform custom updates in a PowerApps canvas app knowledge check
-  description: Perform custom updates in a PowerApps canvas app knowledge check
+  title: Perform custom updates in a Power Apps canvas app knowledge check
+  description: Perform custom updates in a Power Apps canvas app knowledge check
   ms.date: 04/12/2019 
   author: KevSch
   ms.author: kschimke 
@@ -12,7 +12,7 @@ metadata:
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
-  title: Perform custom updates in a PowerApps canvas app knowledge check
+  title: Perform custom updates in a Power Apps canvas app knowledge check
   questions: 
   - content: Use the Patch function to?
     choices: 
@@ -42,17 +42,17 @@ quiz:
     - content: The DeleteIf function
       isCorrect: false 
       explanation: The Remove function should be used to delete a record from a data source.
-  - content: How does PowerApps handle mass deletes from a data source?
+  - content: How does Power Apps handle mass deletes from a data source?
     choices: 
-    - content: PowerApps has a built-in recycle bin.
+    - content: Power Apps has a built-in recycle bin.
       isCorrect: false
-      explanation: PowerApps is a flexible platform that allows you to build your own mass deletion functionality. 
-    - content: PowerApps will automatically prompt the user before deletions.
+      explanation: Power Apps is a flexible platform that allows you to build your own mass deletion functionality. 
+    - content: Power Apps will automatically prompt the user before deletions.
       isCorrect: false 
-      explanation: PowerApps is a flexible platform that allows you to build your own mass deletion functionality. 
-    - content: PowerApps cannot mass delete data.
+      explanation: Power Apps is a flexible platform that allows you to build your own mass deletion functionality. 
+    - content: Power Apps cannot mass delete data.
       isCorrect: false 
-      explanation: PowerApps is a flexible platform that allows you to build your own mass deletion functionality. 
-    - content: PowerApps is a flexible platform that allows you to build your own mass deletion functionality as required by your business needs.
+      explanation: Power Apps is a flexible platform that allows you to build your own mass deletion functionality. 
+    - content: Power Apps is a flexible platform that allows you to build your own mass deletion functionality as required by your business needs.
       isCorrect: true
-      explanation: PowerApps is a flexible platform that allows you to build your own mass deletion functionality. 
+      explanation: Power Apps is a flexible platform that allows you to build your own mass deletion functionality. 

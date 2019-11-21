@@ -139,7 +139,7 @@ confirm this by checking that the **Items** property of the **Gallery** control
 is the same as the **DataSource** property of the **Form** control. Then, in the
 **Item** property of the **Form** control you will set the value to be
 **GalleryName.Selected.** In this example, replace "GalleryName" with
-the name of your gallery. That is all that is required. PowerApps will
+the name of your gallery. That is all that is required. Power Apps will
 then display the selected record from the **Gallery** control in the **Form**
 control if the **Form** control is in **View** or **Edit** mode.
 

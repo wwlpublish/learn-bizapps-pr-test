@@ -44,7 +44,7 @@ so that the columns match your data source.
 
 -   ShowColumns
 
-For more information, see [AddColumns, DropColumns, RenameColumns, and ShowColumns functions in PowerApps.](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-table-shaping)
+For more information, see [AddColumns, DropColumns, RenameColumns, and ShowColumns functions in Power Apps.](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-table-shaping)
 
 ### Patch and ForAll
 

@@ -1,6 +1,6 @@
 You can share an app with specific users, groups, or your 
 whole organization. When you share an app with other people, they can run it in a browser, from the Microsoft Dynamics 365 home 
-page, or in Microsoft PowerApps Mobile for Microsoft Windows, Apple iOS, or Google Android.
+page, or in Microsoft Power Apps Mobile for Microsoft Windows, Apple iOS, or Google Android.
 
 Even better, you can give someone permission to update the app.
 
@@ -8,7 +8,7 @@ Even better, you can give someone permission to update the app.
 
 To complete the following steps, open the app that you want to share in **Edit** mode.
 
-1. In PowerApps Studio, select the **File** menu and then select **App settings**. Give the app a meaningful name and a description so that your team knows what your app does and can easily find it in the apps list.
+1. In Power Apps Studio, select the **File** menu and then select **App settings**. Give the app a meaningful name and a description so that your team knows what your app does and can easily find it in the apps list.
 
 2. On the **File** menu, select **Save as** and then select **The cloud**.
 
@@ -30,7 +30,7 @@ To complete the following steps, open the app that you want to share in **Edit**
 
 5. To notify users by email, leave the **Send an email invitation** check box selected.
 
-    If you elect to notify the users by email, everyone you shared the app with will receive an email message that has a link to the app. People whom you granted **Co-owner** permission for the app will also receive a link to Edit App in PowerApps Studio.
+    If you elect to notify the users by email, everyone you shared the app with will receive an email message that has a link to the app. People whom you granted **Co-owner** permission for the app will also receive a link to Edit App in Power Apps Studio.
 
 6. Select **Share**.
 
@@ -41,6 +41,6 @@ To complete the following steps, open the app that you want to share in **Edit**
 Basic information about permissions and licensing that you should be aware of are:
 
 - Users and contributors need permissions to any data connections and gateways that a shared app uses. Some permissions come implicitly with the app, but you must explicitly grant others. If you create an app based on Common Data Service, you must also ensure that the users with whom you share the app have the appropriate permissions for the entity or entities on which the app relies. Specifically, those users must belong to a security role that can perform tasks such as creating, reading, writing, and deleting relevant records. In many cases, you'll want to create one or more custom security roles with the exact permissions that users need to run the app. You can then assign a role to each user as appropriate.
-- People who have **Co-owner** permission also need a PowerApps P2 license to work directly with entities in Common Data Service.
+- People who have **Co-owner** permission also need a Power Apps P2 license to work directly with entities in Common Data Service.
 
 Sharing an app is simple, and it's a great way to make an app that you find useful available to people across your organization.

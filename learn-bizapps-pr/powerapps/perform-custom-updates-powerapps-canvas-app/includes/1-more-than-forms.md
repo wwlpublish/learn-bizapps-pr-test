@@ -1,4 +1,4 @@
-When building canvas apps in PowerApps, you go to Galleries to display records from your data source and Forms to view, create, and edit an individual record, but sometimes forms are not enough. In those scenarios, PowerApps has functions for updating your tabular data sources directly.
+When building canvas apps in Power Apps, you go to Galleries to display records from your data source and Forms to view, create, and edit an individual record, but sometimes forms are not enough. In those scenarios, Power Apps has functions for updating your tabular data sources directly.
 
 Directly create and edit a record
 ---------------------------------
@@ -52,7 +52,7 @@ there are two options:
     function to write from one table to another. Each record of the
     source table is added as a separate record to the target table.
 
-These topics are covered in other PowerApps learning paths and are not covered in this
+These topics are covered in other Power Apps learning paths and are not covered in this
 learning path.
 
 Collections are data sources 

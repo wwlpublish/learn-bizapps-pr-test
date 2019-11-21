@@ -1,23 +1,23 @@
 ﻿### YamlMime:Module
 uid: learn-bizapps.powerapps-get-started
 metadata:
-  title: Get started with PowerApps
-  description: Learn the basics of PowerApps and how you can use it in your organization.
+  title: Get started with Power Apps
+  description: Learn the basics of Power Apps and how you can use it in your organization.
   ms.date: 05/21/2019
   author: kevsch
   ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Get started with PowerApps
+title: Get started with Power Apps
 summary: |
   [!include[](../includes/module-banner.md)]
 
-  Learn the basics of PowerApps and how you can use it in your organization.
+  Learn the basics of Power Apps and how you can use it in your organization.
 abstract: |
   In this module, you will:
-  - Explore how PowerApps can make your business more efficient.
-  - Learn how to use different technologies to perform different tasks in PowerApps.
-  - Learn about the different ways to build an app in PowerApps.
+  - Explore how Power Apps can make your business more efficient.
+  - Learn how to use different technologies to perform different tasks in Power Apps.
+  - Learn about the different ways to build an app in Power Apps.
   - Create your first app from data in an Excel workbook.
 prerequisites: Access to Microsoft Excel and OneDrive for Business.
 iconUrl: /learn/achievements/get-started-with-powerapps.svg

@@ -1,4 +1,4 @@
-In PowerApps, like Excel, you can create formulas to calculate and
+In Power Apps, like Excel, you can create formulas to calculate and
 return values. The following are a few common functions that you can use when working with
 numbers and calculating values:
 
@@ -44,4 +44,4 @@ Sum(TextInput1_1 * TextInput1_2)
 Text(Sum(TextInput1_1 * TextInput1_2),"$#,###0.00")
 ```
 
-For more information, see [PowerApps Aggregate Functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-aggregates).
+For more information, see [Power Apps Aggregate Functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-aggregates).

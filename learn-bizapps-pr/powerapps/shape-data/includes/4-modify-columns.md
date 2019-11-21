@@ -4,11 +4,11 @@ while using the records. For example, if you were creating a shopping
 cart app for sending digital assets to a customer, you would need a way
 to keep track of the selected assets. Ideally, you would have a
 temporary column for tracking the selected records that only exists
-inside of PowerApps and does not modify the original data source.
-Fortunately, PowerApps offers a solution.
+inside of Power Apps and does not modify the original data source.
+Fortunately, Power Apps offers a solution.
 
-With PowerApps there a series of columns that modify the columns of your
-table only within PowerApps, which means that they don't modify or change
+With Power Apps there a series of columns that modify the columns of your
+table only within Power Apps, which means that they don't modify or change
 the actual data source. Those functions are:
 
 -   AddColumns
@@ -61,8 +61,8 @@ DropColumns
 -----------
 
 The **DropColumns** function works the opposite of AddColumns. The
-function is used to remove columns from the table within PowerApps. This
-function is used when you want to create a collection within PowerApps
+function is used to remove columns from the table within Power Apps. This
+function is used when you want to create a collection within Power Apps
 that has several columns for app functionality. Because these columns will
 be added only in the collection for app functionality and not submitted
 to the data source, the **DropColumns** function is needed to remove the
@@ -114,7 +114,7 @@ Collect(collectProjectData, ProjectDataSource)
 This formula would create a collection named **collectProjectData** that
 stores all of the rows of data from the data source,
 **ProjectDataSource**. If the data source has a column named **Date**,
-you might find it easier to work in PowerApps by renaming that column to
+you might find it easier to work in Power Apps by renaming that column to
 **ProjectDate**. You can do that by using the following formula instead
 of the previous example.
 
@@ -136,7 +136,7 @@ returned. A common example is the **dropdown** control.
 
 With the **dropdown** control, it is common to use a data source, such
 as a Common Data Service entity, to provide the options. When you set the items property
-to a data source, PowerApps will choose which column, if you
+to a data source, Power Apps will choose which column, if you
 have multiple, to display. You can use the **ShowColumns** function to
 select the column that you want to display.
 

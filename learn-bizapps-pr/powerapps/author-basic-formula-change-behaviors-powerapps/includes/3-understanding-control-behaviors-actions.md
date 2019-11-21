@@ -1,6 +1,6 @@
 Before developing your production canvas app, try creating a blank test
 app or use one of the many great App templates available for free and
-play with all the controls. PowerApps has lots of great controls
+play with all the controls. Power Apps has lots of great controls
 designed to provide the very best experience for both the maker and the
 end user. Controls have a number of different properties that you can modify
 to easily enhance the user experience without sacrificing functionality
