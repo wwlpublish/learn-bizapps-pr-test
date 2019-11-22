@@ -8,7 +8,7 @@ Even better, you can give someone permission to update the app.
 
 To complete the following steps, open the app that you want to share in **Edit** mode.
 
-1. In Power Apps Studio, select the **File** menu and then select **App settings**. Give the app a meaningful name and a description so that your team knows what your app does and can easily find it in the apps list.
+1. In Power Apps Studio, select the **File** menu and then select **Settings**. Give the app a meaningful name and a description so that your team knows what your app does and can easily find it in the apps list.
 
 2. On the **File** menu, select **Save as** and then select **The cloud**.
 
