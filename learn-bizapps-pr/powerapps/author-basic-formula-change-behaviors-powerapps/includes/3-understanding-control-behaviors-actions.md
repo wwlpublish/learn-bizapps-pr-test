@@ -38,7 +38,7 @@ in the **OnSelect** property of the **Button** control.
     functions.
 
 -   Update a [context
-    variable](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-variables#create-a-context-variable) -
+    variable](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-variables#use-a-context-variable) -
     [**UpdateContext**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext)
     function.
 
