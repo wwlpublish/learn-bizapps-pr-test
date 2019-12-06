@@ -15,7 +15,7 @@ This gives you a clear visual indicator that delegation is not
 happening, which means you may not be seeing all of your data. It is
 important to understand a couple of things about this visual indicator.
 
-- power-apps will provide this warning regardless of the size of your
+- PowerApps will provide this warning regardless of the size of your
     data source. Even if your data source only has a few items
     and delegation isn't technically causing you a problem (remember the
     first 500 items are returned by default and processed locally) the

@@ -76,7 +76,7 @@ other common issues include:
     revisiting your app to move to the latest version will provide you with the
     best possible performance.
 
--   **Build focused apps** - power-apps supports building apps with as
+-   **Build focused apps** - PowerApps supports building apps with as
     many screens as you can imagine, but too many screens is not a good
     idea. You should build your apps focused on a specific audience and
     process. This allows you to optimize the user experience for one
