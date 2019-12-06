@@ -27,7 +27,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.testing-performance-checks.1-performance 
 - learn-bizapps.testing-performance-checks.2-data-sources 

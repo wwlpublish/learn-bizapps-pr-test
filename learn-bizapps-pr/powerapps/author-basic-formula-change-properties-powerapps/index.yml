@@ -30,7 +30,7 @@ roles:
 - functional-consultant 
 products:  
 - power-platform
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.change-properties.1-formula-overview
 - learn-bizapps.change-properties.2-modify-controls-format
