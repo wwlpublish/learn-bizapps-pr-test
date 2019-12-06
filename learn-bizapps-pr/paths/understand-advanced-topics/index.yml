@@ -23,7 +23,7 @@ roles:
 - maker
 products:
 - power-platform
-- power-apps
+- powerapps
 modules:
 - learn-bizapps.use-imperative-dev-techniques
 - learn-bizapps.author-advanced-formulas

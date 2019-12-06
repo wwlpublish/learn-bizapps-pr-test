@@ -27,7 +27,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.controls-canvas-apps.1-understand-controls 
 - learn-bizapps.controls-canvas-apps.2-core-properties 

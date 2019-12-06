@@ -29,7 +29,7 @@ roles:
 - functional-consultant 
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.change-behaviors.1-formulas-behaviors-overview
 - learn-bizapps.change-behaviors.2-understanding-true-false

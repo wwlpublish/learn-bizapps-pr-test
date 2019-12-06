@@ -28,7 +28,7 @@ roles:
 - maker
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.author-advanced-formulas.1-formulas-multiple-records 
 - learn-bizapps.author-advanced-formulas.2-math-operation 

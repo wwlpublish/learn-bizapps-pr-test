@@ -28,7 +28,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.perform-custom-updates.1-more-than-forms 
 - learn-bizapps.perform-custom-updates.2-patch-function 
