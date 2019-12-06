@@ -18,7 +18,7 @@ roles:
 - functional-consultant
 products:
 - power-platform
-- powerapps
+- power-apps
 modules:
 - learn-bizapps.navigation-canvas-app
 - learn-bizapps.how-to-build-ui-canvas-app

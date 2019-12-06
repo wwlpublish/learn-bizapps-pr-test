@@ -25,7 +25,7 @@ roles:
 - functional-consultant 
 products:  
 - power-platform
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.shape-data.1-filter-data 
 - learn-bizapps.shape-data.2-search-function 

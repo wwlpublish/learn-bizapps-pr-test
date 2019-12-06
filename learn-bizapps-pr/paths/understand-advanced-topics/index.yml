@@ -20,7 +20,7 @@ roles:
 - functional-consultant
 products:
 - power-platform
-- powerapps
+- power-apps
 modules:
 - learn-bizapps.use-imperative-dev-techniques
 - learn-bizapps.author-advanced-formulas

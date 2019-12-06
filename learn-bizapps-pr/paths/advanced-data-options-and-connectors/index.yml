@@ -20,7 +20,7 @@ roles:
 - functional-consultant
 products:
 - power-platform
-- powerapps
+- power-apps
 modules:
 - learn-bizapps.work-with-relational-data
 - learn-bizapps.data-source-limits

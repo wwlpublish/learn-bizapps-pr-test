@@ -20,7 +20,7 @@ roles:
 - business-user
 products:
 - power-platform
-- powerapps
+- power-apps
 modules:
 - learn-bizapps.powerapps-design-model-driven-apps
 - learn-bizapps.powerapps-common-data-service

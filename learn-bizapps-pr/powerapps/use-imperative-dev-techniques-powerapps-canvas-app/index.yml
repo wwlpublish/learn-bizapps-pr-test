@@ -23,7 +23,7 @@ roles:
 - functional-consultant  
 products:  
 - power-platform
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.use-imperative-dev-techniques.1-imperative-vs-declarative 
 - learn-bizapps.use-imperative-dev-techniques.2-variables 

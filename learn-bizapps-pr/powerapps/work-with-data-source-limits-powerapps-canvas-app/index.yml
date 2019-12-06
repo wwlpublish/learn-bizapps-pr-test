@@ -23,7 +23,7 @@ roles:
 - functional-consultant  
 products:  
 - power-platform
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.data-source-limits.1-delegation-overview 
 - learn-bizapps.data-source-limits.2-functions-predicates-data-source 
