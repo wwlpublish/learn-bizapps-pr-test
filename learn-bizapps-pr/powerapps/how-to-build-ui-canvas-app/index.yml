@@ -27,7 +27,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.how-to-build-ui-canvas-app.1-use-themes 
 - learn-bizapps.how-to-build-ui-canvas-app.2-branding-control 

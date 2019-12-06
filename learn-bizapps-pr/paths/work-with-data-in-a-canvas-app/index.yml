@@ -23,7 +23,7 @@ roles:
 - maker
 products: 
 - power-platform
-- power-apps
+- powerapps
 modules:
 - learn-bizapps.work-with-external-data
 - learn-bizapps.shape-data

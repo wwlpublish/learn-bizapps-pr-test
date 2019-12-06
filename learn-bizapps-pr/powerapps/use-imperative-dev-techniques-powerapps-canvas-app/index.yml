@@ -27,7 +27,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.use-imperative-dev-techniques.1-imperative-vs-declarative 
 - learn-bizapps.use-imperative-dev-techniques.2-variables 

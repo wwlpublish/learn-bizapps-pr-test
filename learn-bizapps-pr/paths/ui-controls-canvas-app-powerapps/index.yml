@@ -21,7 +21,7 @@ roles:
 - maker
 products:
 - power-platform
-- power-apps
+- powerapps
 modules:
 - learn-bizapps.navigation-canvas-app
 - learn-bizapps.how-to-build-ui-canvas-app

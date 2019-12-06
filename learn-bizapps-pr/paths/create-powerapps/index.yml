@@ -23,7 +23,7 @@ roles:
 - maker
 products:
 - power-platform
-- power-apps
+- powerapps
 modules:
 - learn-bizapps.powerapps-get-started
 - learn-bizapps.powerapps-customize

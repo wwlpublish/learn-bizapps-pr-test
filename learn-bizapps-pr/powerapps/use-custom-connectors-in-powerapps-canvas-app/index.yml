@@ -27,7 +27,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.custom-connectors.1-overview-custom-connectors 
 - learn-bizapps.custom-connectors.2-overview-custom-connector-lifecycle 

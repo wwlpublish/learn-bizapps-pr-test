@@ -29,7 +29,7 @@ roles:
 - maker
 products: 
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.powerapps-manage.1-powerapps-versions
 - learn-bizapps.powerapps-manage.2-powerapps-share

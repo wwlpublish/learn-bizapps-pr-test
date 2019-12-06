@@ -27,7 +27,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.connect-other-data.1-overview-data-sources 
 - learn-bizapps.connect-other-data.2-work-with-action-based-data-sources 

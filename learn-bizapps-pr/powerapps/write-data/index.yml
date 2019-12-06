@@ -28,7 +28,7 @@ roles:
 - functional-consultant 
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.write-data.1-introduction-to-forms 
 - learn-bizapps.write-data.2-form-modes 

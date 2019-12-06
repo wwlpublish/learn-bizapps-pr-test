@@ -27,7 +27,7 @@ roles:
 - functional-consultant
 products:  
 - power-platform
-- power-apps
+- powerapps
 units: 
 - learn-bizapps.powerapps-design-model-driven-apps.1-introduction
 - learn-bizapps.powerapps-design-model-driven-apps.2-building-blocks-of-model-driven-apps
