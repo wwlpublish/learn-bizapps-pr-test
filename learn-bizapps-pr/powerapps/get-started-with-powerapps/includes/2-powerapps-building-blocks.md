@@ -1,14 +1,14 @@
 This unit explores each part of the following Power Apps components:
 
-* **web.powerapps.com** - Apps start here, whether you build them from data, a sample app, or a blank screen.
+* **Power Apps Home Page** - Apps start here, whether you build them from data, a sample app, or a blank screen.
 * **Power Apps Studio** - Develop your apps further by connecting to data, adding and arranging user interface (UI) elements (known as controls), and building formulas.
 * **Power Apps Mobile** - Run your apps on Microsoft Windows, Apple iOS, and Google Android devices.
 * **Power Apps Admin Center** - Manage Power Apps environments and other components.
 
-## web.powerapps.com
-If you are building an app, you'll start with the web.powerapps.com component. You can build apps from sample apps, templates, or a blank screen. All the apps that you've built appear here, along with any apps that others have created and shared with you.
+## Power Apps Home Page
+If you are building an app, you'll start with the [Power Apps Home Page](web.powerapps.com). You can build apps from sample apps, templates, or a blank screen. All the apps that you've built appear here, along with any apps that others have created and shared with you.
 
-![The web.powerapps.com site](../media/powerapps-homepage5.png)
+![The Power Apps home page](../media/powerapps-homepage5.png)
 
 ## Power Apps Studio
 Power Apps Studio is where you can fully develop your apps to make them more effective as a business tool and to make them more attractive. Power Apps Studio has three panes that make creating apps seem more like building a slide deck in Microsoft PowerPoint:
