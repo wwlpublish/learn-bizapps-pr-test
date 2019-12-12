@@ -6,7 +6,7 @@ This unit explores each part of the following Power Apps components:
 * **Power Apps Admin Center** - Manage Power Apps environments and other components.
 
 ## Power Apps Home Page
-If you are building an app, you'll start with the [Power Apps Home Page](web.powerapps.com). You can build apps from sample apps, templates, or a blank screen. All the apps that you've built appear here, along with any apps that others have created and shared with you.
+If you are building an app, you'll start with the [Power Apps Home Page](https://web.powerapps.com). You can build apps from sample apps, templates, or a blank screen. All the apps that you've built appear here, along with any apps that others have created and shared with you.
 
 ![The Power Apps home page](../media/powerapps-homepage5.png)
 
