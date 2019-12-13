@@ -4,7 +4,7 @@ Power Apps is a no-code/low-code platform for building apps that builds off of c
 
 ## Work with your data where it lives
 
-When modernizing a paper-based process there are likely systems in your organization with data you can leverage. With Power Apps you have choices. With over 275 connectors you can easily connect to data, using the underlying data service and app platform, Common Data Service, or a multitude of online and on-premises data sources. Some common data sources include:
+When modernizing a paper-based process, there are likely systems in your organization with data you can leverage. With Power Apps, you have choices. With over 275 connectors you can easily connect to data, using the underlying data service and app platform, Common Data Service, or a multitude of online and on-premises data sources. Some common data sources include:
 
 - Common Data Service
 
@@ -32,7 +32,7 @@ Below are a couple of examples of a mobile canvas app built by Heathrow Airport.
 
 ### Model-driven apps
 
-Model-driven apps build from data in the Common Data Service. Power Apps will build you a great looking, fully functional app to act upon and interact with this data. With model-driven apps, there is no need to worry about choosing the app size; it is responsive, meaning it works on mobile or tablet with no extra work by you. You define the relationships, forms, views, business rules, and more at the data layer, inside of the Common Data Service, giving you just enough control to get your business result without writing all of the formulas yourself. 
+Model-driven apps build from data in the Common Data Service. Power Apps will build you a great looking, fully functional app to act upon and interact with this data. With model-driven apps, there is no need to worry about choosing the app size; it is responsive, meaning it works on mobile or tablet with no extra work by you. You define the relationships, forms, views, business rules, and more at the data layer, inside of the Common Data Service, giving you enough control to get your business result without writing all of the formulas yourself. 
 
 Below is an example of a fundraiser donations tracking Model-driven app.
 
@@ -40,7 +40,7 @@ Below is an example of a fundraiser donations tracking Model-driven app.
 
 ### Portals
 
-Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface you can build an anonymous or authenticated website that allows users to interact with data held in Common Data Service. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
+Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Common Data Service. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
 
 ![](../media/portal.png)
 
@@ -50,7 +50,7 @@ Prior to Power Apps, adding functionality such as image recognition or predictio
 
 A ready to use AI component is the Business card reader. This component reviews an uploaded photo or picture taken to determine if it is a business card and subsequently extracts the relevant information. No configuration required.
 
-The business card reader is simply one ready-made example which build off of the underlying AI components which you can deploy in other ways by first building a model. From [https://make.PowerApps.com](https://make.PowerApps.com) a wizard guides you through building and training the model. Currently, there are four available AI models in Power Apps:
+The business card reader is simply one ready-made example which builds off of the underlying AI components which you can deploy in other ways by first building a model. From [https://make.PowerApps.com](https://make.PowerApps.com), a wizard guides you through building and training the model. Currently, there are four available AI models in Power Apps:
 
 - Prediction - This model predicts whether something will happen or not based on previous data history. More details in the following section.
 
@@ -62,7 +62,7 @@ The business card reader is simply one ready-made example which build off of the
 
 ### The prediction model
 
-The AI Builder prediction model allows you to create a model that can predict a yes or no outcome based on historical data. You train the model by providing historical data that includes the yes/no outcome and then artificial intelligence does the rest. 
+The AI Builder prediction model allows you to create a model that can predict yes or no outcomes based on historical data. You train the model by providing historical data that includes the yes/no outcome and then artificial intelligence does the rest. 
 
 You can build prediction models to solve business problems such as:
 
@@ -78,15 +78,15 @@ As you can see, AI can help you answer powerful business questions without writi
 
 There are many tools for those in IT or otherwise responsible for governance. Power Apps has a multitude of security, governance, and reporting capabilities to let you manage Power Apps. Also, Power Apps doesn't circumvent security in any way. Users cannot build apps to bypass current access permissions. To manage security for Power Apps you can access [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/) Here you will find options for creating and managing environments, monitoring licenses, working with Data Loss Prevention policies and managing Common Data Service Data Integration projects. This allows you to manage the Power Apps throughout your tenant from one single place. 
 
-Power Apps also has its own set of PowerShell cmdlets for app creators, administrators, and developers that allows you to automate many of your administrative duties. A common use case of the PowerShell cmdlets is to automate the discovery and permission management of all apps in your tenant, allowing you to better understand and manage apps as they are created and spread throughout your company.
+Power Apps also has its own set of PowerShell cmdlets for app creators, administrators, and developers that allow you to automate many of your administrative duties. A common use case of the PowerShell cmdlets is to automate the discovery and permission management of all apps in your tenant, allowing you to better understand and manage apps as they are created and spread throughout your company.
 
 In addition, in the Power Automate learn module, you will see that Power Automate has the ability to automate these tasks. You can download the [Center of Excellence](https://aka.ms/CoEStarterKitDownload) starter kit, a collection of components or tools that are designed to help get started with developing a strategy for adopting and supporting the Power Platform, with a focus on PowerApps and Flow.
 
 ## Driving business value
 
-By now you understand that Power Apps does not require traditional "code" like C#, making  a very low technology barrier to entry. If you know your business process, you can get started writing your first app. For many businesses this means apps are not coming from IT but instead directly from frontline business users. The same way Finance builds their own Excel workbooks today, they can build their own Power Apps. 
+By now you understand that Power Apps does not require traditional "code" like C#, making  a low technology barrier to entry. If you know your business process, you can get started writing your first app. For many businesses, this means apps are not coming from IT but instead directly from frontline business users. The same way Finance builds their own Excel workbooks today, they can build their own Power Apps. 
 
-Power Apps allows even the most entry level users to reduce paperwork, increase process efficiency, and ensure a single source of truth by combining multiple data sources into one app. Users can build apps with ease, while staying within the guardrails set by IT. This allows for an unprecedented amount of innovation and digitization, eliminating the app backlog, cumbersome paper based processes and more.
+Power Apps allows even the most entry level users to reduce paperwork, increase process efficiency, and ensure a single source of truth by combining multiple data sources into one app. Users can build apps with ease, while staying within the guardrails set by IT. This allows for an unprecedented amount of innovation and digitization, eliminating the app backlog, cumbersome paper-based processes and more.
 
-In the next unit, you learn about how Heathrow Airport has built 30 apps which have eliminated 75,000 pages of paperwork, reduced data entry by nearly 1,000 hours, and saved the airport hundreds of thousands of dollars.
+In the next unit, you learn about how Heathrow Airport has built 30 apps that have eliminated 75,000 pages of paperwork, reduced data entry by nearly 1,000 hours, and saved the airport hundreds of thousands of dollars.
 
