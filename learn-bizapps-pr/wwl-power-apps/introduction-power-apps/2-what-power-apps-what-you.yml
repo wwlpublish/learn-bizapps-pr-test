@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-apps.power-platform-you
+title: What is Power Apps and what it can do for you
+metadata:
+  title: What is Power Apps and what it can do for you
+  description: What is Power Apps and what it can do for you
+  author: wwlpublish
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-what-power-apps-what-you.md)]

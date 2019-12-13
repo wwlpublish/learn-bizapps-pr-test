@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-apps.summary-resources
+title: Summary and resources
+metadata:
+  title: Summary and resources
+  description: Summary and resources
+  author: wwlpublish
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-d365
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-summary-resources.md)]
