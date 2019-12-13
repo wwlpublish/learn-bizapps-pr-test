@@ -1,14 +1,14 @@
-In this unit, you'll generate a mobile app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook has a table of different buildings owned by Contoso Manufacturing. Today they must email the shared workbook between people as they travel to different locations to make updates. With a Power Apps mobile app they will be able to view the buildings directly from the mobile app. In addition, they will also be able to edit the information and even add new buildings. All from a user friendly app you will build in the following steps.
+In this unit, you'll generate a mobile app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook has a table of different buildings owned by Contoso Manufacturing. Today they must email the shared workbook between people as they travel to different locations to make updates. With a Power Apps mobile app, they will be able to view the buildings directly from their phones. In addition, they will also be able to edit the information and even add new buildings. 
 
-This example uses Excel but keep in mind that you can use data from many other sources, including the Common Data Service, Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server. Giving you the flexibility to build your app from your data no matter where it lives.
+This example uses Excel, but keep in mind that you can use data from many other sources, including the Common Data Service, Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server. This gives you the flexibility to build your app from your data no matter where it lives. 
 
-If you do not have a Power Apps account available, you can sign up for a free Power Apps Community Plan. This will allow you to learn and explore Power Apps in your own environment. For more information and to sign up go to [https://Power Apps.microsoft.com/en-us/communityplan/](https://powerapps.microsoft.com/en-us/communityplan/)
+If you do not have a Power Apps account available, you can sign up for a free Power Apps Community Plan. This will allow you to learn and explore Power Apps in your own environment. For more information and to sign up go to [https://Power Apps.microsoft.com/communityplan/](https://Power Apps.microsoft.com/communityplan/)
 
 ## Connect to a data source
 
 1. To connect to a data source, use the following procedure:
 
-2. Download the Contoso  file, extract all of the files and save them to your OneDrive for Business.
+2. Download the Contoso file, extract all of the files and save them to your OneDrive for Business.
 
 3. Go to [https://make.Power Apps.com](https://make.powerapps.com/) and sign in with your organizational account.
 
@@ -34,7 +34,8 @@ The following figure shows the main development window for Power Apps Studio, wh
 
 ![](../media/img2.png)
 
-Select Play  ![Start app preview arrow](../media/forwardarrow.png)  in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
+Select Play  ![Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
+
 All apps that are generated from data have the same set of screens that you can view from the Screens pane:
 
 - **Browse screen** - This screen appears by default. In it, you can browse, sort, filter, and refresh the data from the data source. In the browse screen, you can add items to the data source by selecting the plus sign (**+**).
@@ -57,27 +58,58 @@ To see how the app runs on mobile, install the Power Apps Mobile app on your pho
 
 ## Explore the app
 
-Now that you have generated the Contoso Site Tracking app you should take a few minutes to click through the app and explore its design. Take note of how you use a Gallery to browse the records (rows) from the Excel file. Then when you click on a record you are taken to a different screen where a Form control displays the additional details. The app also includes the ability to edit those records or even make a new record. A very functional app to build upon.
+Now that you have generated the Contoso Site Tracking app you should take a few minutes to click through the app and explore its design. Take note of how you use a Gallery to browse the records (rows) from the Excel file. Then when you click on a record you are taken to a different screen where a Form control displays the additional details. The app also includes the ability to edit those records or even make a new record. A very functional app to build upon. 
+
+## Explore the browse screen
+Each screen in the app has multiple controls, but one control takes up most of the screen space. The first screen in the app is the browse screen, which is named BrowseScreen1 by default.
+
+Controls in the browse screen that you'll want to become familiar with include:
+
+- **BrowseGallery1** - This control takes up most of the screen and shows data from your data source.
+
+- **NextArrow1** - When this control is selected, it opens the details screen.
+
+- **IconNewItem1** - When this control is selected, it opens the edit/create screen.
+
+![](../media/img11.png)
+
+## Explore the details screen
+The details screen is named **DetailScreen1** by default. Some of its controls are as follows:
+
+- **DetailForm1** - This control contains other controls and contains a data card for each field of the record that is being displayed.
+
+- **Title_DataCard1** - This is a card control. Each card represents a single field of the record. In this case, it shows the Title from the Site Inspector table, as shown in the previous unit.
+
+- **IconEdit1** - When this control is selected, it opens the edit/create screen so that the user can edit the current item.
+
+![](../media/img12.png)
+
+## Explore the edit/create screen
+The third screen in the app is **EditScreen1**. Some of its controls include:
+
+- **EditForm1** - This control contains other controls and contains a data card for each field of the record that is being edited.
+
+- **Address_DataCard2** - This is a card control that shows the address from the Site Inspector table, as shown in the previous unit.
+
+- **IconAccept1** - When this control is selected, it saves the user's changes.
+
+![](../media/img13.png)
 
 ## Customize the app
-
 While the default screens make a useful app out of the box, you'll often want to customize a generated app to suit your needs.
 
 The following sections cover basic changes for each screen in the app. You can do a lot more to customize an app, but the best way to start learning is to take a generated app and make common customizations. This will allow you to become familiar with the controls, layouts, and functions.
 
 ## Browse screen
-
 The Contoso Site Tracking app already shows an image and some text for each product, but the layout could be better.
-
 To improve the layout, use the following procedure:
 
-1. On the Screens pane on the left, select **BrowseGallery1**.
-
-2. The selection box around the gallery confirms your choice.
+1.	On the Screens pane on the left, select BrowseGallery1.
+    The selection box around the gallery confirms your choice.
 
 ![](../media/img3.png)
 
-3. On the right pane, open the Data pane by selecting the drop-down menu next to **Layout**.
+2. On the right pane, open the Data pane by selecting the drop-down menu next to **Layout**.
 
 ![](../media/img4.png)
 
@@ -150,42 +182,3 @@ A few controls that can add interest and impact to your apps include:
 - **Charts** - These controls let you add charts so that users can perform instant analysis while they're on the road.
 
 To see what controls are available, select the **Insert** tab, and then select each option in turn.
-
-## Explore the browse screen
-
-Each screen in the app has multiple controls, but one control takes up most of the screen space. The first screen in the app is the browse screen, which is named **BrowseScreen1** by default.
-
-Controls in the browse screen that you'll want to become familiar with include:
-
-1. **BrowseGallery1** - This control takes up most of the screen and shows data from your data source.
-
-2. **NextArrow1** - When this control is selected, it opens the details screen.
-
-3. **IconNewItem1** - When this control is selected, it opens the edit/create screen.
-
-![](../media/img11.png)
-
-## Explore the details screen
-
-The details screen is named **DetailScreen1** by default. Some of its controls are as follows:
-
-1. **DetailForm1** - This control contains other controls and contains a data card for each field of the record that is being displayed.
-
-2. **Title_DataCard1** - This is a card control. Each card represents a single field of the record. In this case, it shows the Title from the Site Inspector table, as shown in the previous unit.
-
-3. **IconEdit1** - When this control is selected, it opens the edit/create screen so that the user can edit the current item.
-
-![](../media/img12.png)
-
-## Explore the edit/create screen
-
-The third screen in the app is **EditScreen1**. Some of its controls include:
-
-1. **EditForm1** - This control contains other controls and contains a data card for each field of the record that is being edited.
-
-2. **Address_DataCard2** - This is a card control that shows the address from the Site Inspector table, as shown in the previous unit.
-
-3. **IconAccept1** - When this control is selected, it saves the user's changes.
-
-![](../media/img13.png)
-
