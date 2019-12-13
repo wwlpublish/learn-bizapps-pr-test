@@ -8,7 +8,7 @@ If you do not have a Power Apps account available, you can sign up for a free Po
 
 1. To connect to a data source, use the following procedure:
 
-2. Download the Contoso file, extract all of the files and save them to your OneDrive for Business.
+2. Download the [Contoso file](https://github.com/MicrosoftDocs/mslearn-build-app-solution/blob/master/downloads/Contoso-Site-Tracking.zip?raw=true), extract all of the files and save them to your OneDrive for Business.
 
 3. Go to [https://make.Power Apps.com](https://make.powerapps.com/) and sign in with your organizational account.
 
@@ -113,15 +113,15 @@ To improve the layout, use the following procedure:
 
 ![](../media/img4.png)
 
-4. Select the layout **Image, title, and subtitle** for a cleaner look.
+3. Select the layout **Image, title, and subtitle** for a cleaner look.
 
-5. Select the **Address** of the item at the top of the gallery.
+4. Select the **Address** of the item at the top of the gallery.
 
 ![](../media/img5.png)
 
-6. Change **ThisItem.Address** to **ThisItem.Title** in the formula bar.
+5. Change **ThisItem.Address** to **ThisItem.Title** in the formula bar.
 
-7. Repeat the previous two steps but change the other **Label** control to show the price of each item by setting it to **ThisItem.Description**.
+6. Repeat the previous two steps but change the other **Label** control to show the price of each item by setting it to **ThisItem.Description**.
 
 ![](../media/img6.png)
 
