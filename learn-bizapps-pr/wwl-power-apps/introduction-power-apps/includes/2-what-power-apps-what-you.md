@@ -28,7 +28,7 @@ Canvas apps are a great option when you want to build an app from a blank canvas
 
 Below are a couple of examples of a mobile canvas app built by Heathrow Airport.
 
-![Story image 4](../media/mobile-canvas-apps.png)
+![Power Apps mobile display for Heathrow Aiport Application](../media/mobile-canvas-apps.png)
 
 ### Model-driven apps
 
@@ -36,13 +36,13 @@ Model-driven apps build from data in the Common Data Service. Power Apps will bu
 
 Below is an example of a fundraiser donations tracking Model-driven app.
 
-![](../media/fundraiser.png)
+![Power Apps Dashboard](../media/fundraiser.png)
 
 ### Portals
 
 Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Common Data Service. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
 
-![](../media/portal.png)
+![External view of portal](../media/portal.png)
 
 ## Add artificial intelligence to your app with no code
 
