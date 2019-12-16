@@ -4,4 +4,4 @@ Now that you have an overview of Power Apps and how Heathrow Airport has leverag
 | ------------ | -------------| 
 | ![Icon indicating play video](../media/video-icon.png) | Watch this walkthrough video. |
 
-> [!VIDEO PowerApps Learn.mp4]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4mPeJ]
