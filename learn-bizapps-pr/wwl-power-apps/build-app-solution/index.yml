@@ -18,7 +18,7 @@ abstract: |
   - Configure and manage app settings
 prerequisites: |
   None
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - beginner
 roles:
