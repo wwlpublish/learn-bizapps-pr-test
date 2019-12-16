@@ -22,7 +22,7 @@ If you do not have a Power Apps account available, you can sign up for a free Po
 
 8. For Choose a table click **Siteinspector** and click **Connect**.
 
-![](../media/img1.png)
+![App published view](../media/img1.png)
 
 Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point. Generated apps are always based on a single list or table, but you can add more data to the app later.
 
@@ -32,7 +32,7 @@ Your new three-screen app now opens in Power Apps Studio.
 
 The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.
 
-![](../media/img2.png)
+![App editor view](../media/img2.png)
 
 Select Play  ![Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 
@@ -71,7 +71,7 @@ Controls in the browse screen that you'll want to become familiar with include:
 
 - **IconNewItem1** - When this control is selected, it opens the edit/create screen.
 
-![](../media/img11.png)
+![Published view highlighted controls](../media/img11.png)
 
 ## Explore the details screen
 The details screen is named **DetailScreen1** by default. Some of its controls are as follows:
@@ -82,7 +82,7 @@ The details screen is named **DetailScreen1** by default. Some of its controls a
 
 - **IconEdit1** - When this control is selected, it opens the edit/create screen so that the user can edit the current item.
 
-![](../media/img12.png)
+![Details screen with highlighted controls](../media/img12.png)
 
 ## Explore the edit/create screen
 The third screen in the app is **EditScreen1**. Some of its controls include:
@@ -93,7 +93,7 @@ The third screen in the app is **EditScreen1**. Some of its controls include:
 
 - **IconAccept1** - When this control is selected, it saves the user's changes.
 
-![](../media/img13.png)
+![Edit screen with highlighted controls](../media/img13.png)
 
 ## Customize the app
 While the default screens make a useful app out of the box, you'll often want to customize a generated app to suit your needs.
@@ -107,23 +107,23 @@ To improve the layout, use the following procedure:
 1.	On the Screens pane on the left, select BrowseGallery1.
     The selection box around the gallery confirms your choice.
 
-![](../media/img3.png)
+![Browse screen](../media/img3.png)
 
 2. On the right pane, open the Data pane by selecting the drop-down menu next to **Layout**.
 
-![](../media/img4.png)
+![Layout templates](../media/img4.png)
 
 3. Select the layout **Image, title, and subtitle** for a cleaner look.
 
 4. Select the **Address** of the item at the top of the gallery.
 
-![](../media/img5.png)
+![Text edit view](../media/img5.png)
 
 5. Change **ThisItem.Address** to **ThisItem.Title** in the formula bar.
 
 6. Repeat the previous two steps but change the other **Label** control to show the price of each item by setting it to **ThisItem.Description**.
 
-![](../media/img6.png)
+![Text edit confirmed preview](../media/img6.png)
 
 Changing the layout of a gallery and the types of data that it shows is that simple, and you might find that it's fun, too.
 
@@ -135,7 +135,7 @@ On the details screen, you want to change the order of the fields. The controls 
 
 2. On the right pane, select **Edit fields**.
 
-![](../media/img7.png)
+![Detail edit form](../media/img7.png)
 
 3. Click the **+ Add field** button at the top of the Fields section.
 
@@ -145,7 +145,7 @@ On the details screen, you want to change the order of the fields. The controls 
 
 6. You can also remove fields that you don't want to display to the users like the ID column. From the list of Fields click **ID** to expand it, click the **…**, and choose **X Remove**.
 
-![](../media/img8.png)
+![field edit form view](../media/img8.png)
 
 ## Edit/create screen
 
@@ -157,7 +157,7 @@ On the screen where your users edit and create entries, you want to make it easi
 
 3. Expand **Description**. Select the drop-down arrow for the **Control type** and then select **Edit multi-line text**.
 
-![](../media/img9.png)
+![Control text edit options](../media/img9.png)
 
 4. A multi-line edit control will simplify your user's ability to add more than a few words in this field. You could also reorder the fields to match the order from the Details screen to give the user a more consistent experience.
 
@@ -169,7 +169,7 @@ A control is a UI element that produces an action or shows information. Many con
 
 In addition to these typical controls, Power Apps has more specialized controls, which you can find on the **Insert** tab.
 
-![](../media/img10.png)
+![Control type list](../media/img10.png)
 
 A few controls that can add interest and impact to your apps include:
 
