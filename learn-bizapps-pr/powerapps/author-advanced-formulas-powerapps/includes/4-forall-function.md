@@ -53,7 +53,7 @@ also several things to know as you start to build your formula.
     use **Collect**, but the order in which records are added is
     undefined.
 
-The **ForAll** function has a lot more rules than most PowerApps
+The **ForAll** function has a lot more rules than most Power Apps
 functions. Also, because you cannot use functions like Set and
 UpdateContext sometimes you must find another way to approach your
 formula. Often the reason you wanted to use **Set** with **ForAll** was
@@ -63,4 +63,4 @@ a collection where you track that same data gets you the same result.
 
 For more information about usage and rules for the ForAll function, see
 [ForAll function in
-PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-forall). 
+Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-forall). 

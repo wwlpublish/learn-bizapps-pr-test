@@ -2,9 +2,9 @@ When you are working with tables of data, it is common to want to
 return a subset of the records instead of the entire table. For example,
 you can filter all the customer records where the status is
 active or all of the invoices where the date is older than 30 days ago.
-To accomplish this in PowerApps, you can use the **Filter** function.
+To accomplish this in Power Apps, you can use the **Filter** function.
 
-The **Filter** function in PowerApps allows you to query a table of data
+The **Filter** function in Power Apps allows you to query a table of data
 (which could come from a collection or a data source) for the records
 that match the evaluation criteria.
 
@@ -30,4 +30,4 @@ records only. You can use this method to reduce the amount of data
 displayed in your app. This makes for a better user experience 
 and better performance. For more information and to see 
 other uses of the **Filter** function, 
-see [Filter, Search, and LookUp functions in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-filter-lookup). 
+see [Filter, Search, and LookUp functions in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-filter-lookup). 

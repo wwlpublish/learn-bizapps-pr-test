@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.testing-performance-checks.4-knowledge-check 
 metadata: 
-  title: Complete testing and performance checks in a PowerApps canvas app knowledge check
-  description: Complete testing and performance checks in a PowerApps canvas app knowledge check
+  title: Complete testing and performance checks in a Power Apps canvas app knowledge check
+  description: Complete testing and performance checks in a Power Apps canvas app knowledge check
   ms.date: 04/12/2019 
   author: KevSch
   ms.author: kschimke 
@@ -12,11 +12,11 @@ metadata:
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
-  title: Complete testing and performance checks in a PowerApps canvas app knowledge check
+  title: Complete testing and performance checks in a Power Apps canvas app knowledge check
   questions: 
   - content: When working with relational data what is a common mistake that can have a drastic negative impact?
     choices: 
-    - content: PowerApps does not support relational data.
+    - content: Power Apps does not support relational data.
       isCorrect: false
       explanation: If you query the data source directly in a Gallery, a negative impact can result. 
     - content: You use a LookUp function to query the data source directly in a Gallery.

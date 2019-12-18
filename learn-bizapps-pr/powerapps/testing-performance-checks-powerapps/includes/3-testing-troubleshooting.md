@@ -7,7 +7,7 @@ Using the Timer control to get metrics
 --------------------------------------
 
 When it comes to working with data connections for retrieving or
-uploading data, hard numbers are helpful. In PowerApps, you can use
+uploading data, hard numbers are helpful. In Power Apps, you can use
 a variable and a Timer control to capture how long your formula takes to
 run. The following scenario will show you how.
 
@@ -74,13 +74,13 @@ understand why your app is or is not doing something. You can use this
 during the building and testing phase. When your app is live, you can add additional functionality for hiding and showing these
 troubleshooting tools.
 
-While you are in the PowerApps Studio you can also select
+While you are in the Power Apps Studio you can also select
 **File** and **Variables** to see all of your variables, their values, where
 they were created, and where they are used in the app.
 
 Another way to use labels during the build process is to add a label to
 the welcome screen where you manually display a version number.
-PowerApps caches your app to optimize your experience. When you are
+Power Apps caches your app to optimize your experience. When you are
 publishing repetitively, like when customizing a SharePoint form, it can
 be confusing to know which version of the form you are seeing as you may
 see a cached version. By simply adding a label with v1 or v2 in the
@@ -89,7 +89,7 @@ corner, you will always be able to check the version.
 Preview versus Published apps
 --------------------------
 
-Using the preview capability of the PowerApps Studio gives you great
+Using the preview capability of the Power Apps Studio gives you great
 insight into how your app will run when you publish it. But sometimes
 you may find some inconsistency due to cache or other things your local
 PC is doing versus what the published app will do in the player. Always
@@ -101,7 +101,7 @@ Looking at the network activity of your app
 
 Now that you have learned about testing from within the app you need to look at actual network calls and performance. To do this you can use your browsers built-in developer tools, Ctrl+Shift+I in Chrome or F12 in Edge/IE, or a third-party tool like Fiddler. This will allow you to view the individual network calls made by your app and view details, such as time that each call takes. From a performance point of view, this can be valuable.
 
-One example of a way you can use this is to determine if performance slowness, as measured by the Timer control from the previous example, is within your app, the network, or the data source. By using the Developer Tools in Microsoft Edge, you can see the breakdown of the query that took 1.55 seconds in PowerApps.
+One example of a way you can use this is to determine if performance slowness, as measured by the Timer control from the previous example, is within your app, the network, or the data source. By using the Developer Tools in Microsoft Edge, you can see the breakdown of the query that took 1.55 seconds in Power Apps.
 
 ![Full Screen](../media/fullscreen.png)
 

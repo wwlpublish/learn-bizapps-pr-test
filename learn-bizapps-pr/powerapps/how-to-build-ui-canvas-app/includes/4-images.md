@@ -13,7 +13,7 @@ There are a set of properties specific to the Image control that allow you to cu
 
 Here’s a quick example of how to change the transparency and image position of an Image control.
 
-1.  In PowerApps, create a Tablet app using the "Product Showcase" App
+1.  In Power Apps, create a Tablet app using the "Product Showcase" App
     template.
 
 2.  On the left, under **Screens**, select **Image1**.

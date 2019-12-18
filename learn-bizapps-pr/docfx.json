@@ -10,43 +10,111 @@
       {
         "src": "dyn365-customer-service",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
         "src": "dyn365-field-service",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
         "src": "dyn365-marketing",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
         "src": "flow",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
         "src": "power-bi",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],
         "dest": "modules"
       },
       {
         "src": "powerapps",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-apps",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-automate",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-bi",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
         "dest": "modules"
       },
       {
@@ -120,6 +188,50 @@
       },
       {
         "src": "powerapps",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-apps",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-automate",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-bi",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl",
         "files": [
           "**/*.gif",
           "**/*.png",

@@ -1,4 +1,4 @@
-In PowerApps, the **DisplayMode** property of a control allows you to modify how 
+In Power Apps, the **DisplayMode** property of a control allows you to modify how 
 controls and information look and function when using the app. For example, if you
 have a button on your screen but it should only be selected when needed.
 Otherwise the button is disabled, and users cannot select it. This is a pretty
@@ -58,7 +58,7 @@ gives a visual indication that it is not selectable.
 Each Control functions slightly differently, so **DisplayMode**
 for one control may not affect another control the same way. For more
 information about the various controls see 
-[Controls and Properties in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/reference-properties).
+[Controls and Properties in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/reference-properties).
 
 When you add a control to your app, by default the **DisplayMode** is
 set to **DisplayMode.Edit**. 

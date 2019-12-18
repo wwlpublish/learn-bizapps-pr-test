@@ -146,4 +146,4 @@ four sources:
 As you can see, Patch is very flexible and powerful. Patch has even more
 capabilities including the ability to update multiple records and merge
 records. For more information about these scenarios, see
-[Patch function in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-patch). 
+[Patch function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-patch). 

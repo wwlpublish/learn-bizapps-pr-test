@@ -1,4 +1,4 @@
-In Microsoft PowerApps, you can create a canvas app that accesses information in
+In Microsoft Power Apps, you can create a canvas app that accesses information in
 Excel, SharePoint, SQL Server, and several other sources that
 store data in records and tables. To work most effectively with this
 kind of data, you need to learn more about the concepts that underlie these structures.
@@ -19,7 +19,7 @@ create one or more internal tables, which are called *collections*.
 
 You can build a variety of formulas that take the name of a table as an
 argument, just as a formula in Excel takes one or more cell references
-as arguments. Some formulas in PowerApps return a table that reflects
+as arguments. Some formulas in Power Apps return a table that reflects
 the other arguments that you specify.
 
 **Elements of a table**

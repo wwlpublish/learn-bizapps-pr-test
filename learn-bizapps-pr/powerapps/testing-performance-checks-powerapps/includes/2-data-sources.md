@@ -98,7 +98,7 @@ asynchronous calls.
 Preview and experimental features
 ---------------------------------
 
-Within PowerApps there are additional, advanced features you can
+Within Power Apps there are additional, advanced features you can
 implement in your app. You can access them by selecting **File** on the menu
 bar, then choosing **App settings** and **Advanced settings**. The list of
 options you see are ever changing, but often there are one or more

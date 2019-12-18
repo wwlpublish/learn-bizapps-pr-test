@@ -25,5 +25,5 @@ Return to the settings icon and select **View app** to see the apps that you've 
 
 Power BI processes those changes and publishes the updated app to the app gallery. Anyone who has connected to your app will receive a message that the app has changed, and they will have the option to accept the changes or to keep the older version. As the app owner, you can manage the versions that your colleagues are using.
 
-For more information, see [Change your published app](https://docs.microsoft.com/power-bi/service-create-distribute-apps#change-your-published-app/?azure-portal=true).
+For more information, see [Change your published app](https://docs.microsoft.com/power-bi/service-create-distribute-apps#change-your-published-app).
 

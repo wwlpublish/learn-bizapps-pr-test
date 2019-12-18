@@ -1,25 +1,25 @@
 ﻿### YamlMime:Module 
 uid: learn-bizapps.author-basic-forumla-change-behaviors-powerapps
 metadata: 
-  title: Author a basic formula to change behaviors in a PowerApps canvas app
-  description: Learn how to enhance your PowerApps canvas app using basic formulas to make behavior changes to your app.  Behavior changes are changes to how a control works. This module will focus on the visible and display mode properties.
+  title: Author a basic formula to change behaviors in a Power Apps canvas app
+  description: Learn how to enhance your Power Apps canvas app using basic formulas to make behavior changes to your app.  Behavior changes are changes to how a control works. This module will focus on the visible and display mode properties.
   ms.date: 03/19/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Author a basic formula to change behaviors in a PowerApps canvas app 
+title: Author a basic formula to change behaviors in a Power Apps canvas app 
 summary: |
   [!include[](../includes/module-banner.md)]
 
-  Learn how to enhance your PowerApps canvas app using basic formulas to make behavior changes to your app.  Behavior changes are changes to how a control works. This module will focus on the visible and display mode properties.
+  Learn how to enhance your Power Apps canvas app using basic formulas to make behavior changes to your app.  Behavior changes are changes to how a control works. This module will focus on the visible and display mode properties.
 abstract: |  
     In this module, you will: 
     - Understand True and False
     - Control the visible property with a formula
     - Control the display mode with a formula
     - Combine formulas into a single statement
-prerequisites: A basic understanding of how to create a canvas app in PowerApps.  This should include adding controls to the app and using a basic formula to edit a control.  Some understanding of working with data in PowerApps is helpful but not required.     
+prerequisites: A basic understanding of how to create a canvas app in Power Apps.  This should include adding controls to the app and using a basic formula to edit a control.  Some understanding of working with data in Power Apps is helpful but not required.     
 iconUrl: /learn/achievements/change-behaviors.svg  
 levels:  
 - intermediate   

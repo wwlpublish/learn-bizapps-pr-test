@@ -1,9 +1,9 @@
-When working with data in PowerApps, there are many reasons to perform
+When working with data in Power Apps, there are many reasons to perform
 math operations across your data. This math can be counting functions or
 aggregate functions. Both support tables of data. Not covered in this
 module are additional math functions and operators for non-table data.
 For a complete list of all functions, see [Formula reference for
-PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference).
+Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference).
 
 Counting functions
 ------------------
@@ -18,7 +18,7 @@ No. Then based on the total, you could conditionally format the Color
 property of a label or change the Visible property of an icon. These
 types of visual indicators improve the user experience.
 
-PowerApps includes the following counting functions:
+Power Apps includes the following counting functions:
 
 -   **Count** counts the number of records that contain a
     number in a single-column table.

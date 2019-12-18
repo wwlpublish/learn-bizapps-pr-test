@@ -1,4 +1,4 @@
-This unit shows how to create a business process flow by using Microsoft PowerApps.
+This unit shows how to create a business process flow by using Microsoft Power Apps.
 
 For more about how to create a mobile task flow, see [Create a mobile task flow](https://docs.microsoft.com/dynamics365/customer-engagement/customize/create-mobile-task-flow).
 
@@ -116,7 +116,7 @@ When a user starts a business process flow, the process bar at the top of the pa
 
 You can edit the business process flow after it has been created.
 
-1. On the PowerApps main page, select **Flows** in the left pane.
+1. On the Power Apps main page, select **Flows** in the left pane.
 1. In the list of processes, select the business process flow that you created, and then select the **Edit** button.
 
 Keep the following points in mind when you edit the stages of a business process flow:

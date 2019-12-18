@@ -23,7 +23,7 @@ roles:
 - maker
 products:
 - power-platform
-- flow
+- power-automate
 modules:
 - learn-bizapps.flow-get-started
 - learn-bizapps.flow-build-more

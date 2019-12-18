@@ -14,7 +14,7 @@ This will create a collection named **collectProjects** that will have the same 
 -   The Collect function is not delegable. This means by default only
     the first 500 records from the data source will be retrieved and
     stored in the collection. For more information about working with
-    delegation, see [Work with data source limits (delegation limits) in a PowerApps canvas app](https://docs.microsoft.com/learn/modules/work-with-data-source-limits-powerapps-canvas-app/)
+    delegation, see [Work with data source limits (delegation limits) in a Power Apps canvas app](https://docs.microsoft.com/learn/modules/work-with-data-source-limits-powerapps-canvas-app/)
 
 -   Collections are not linked to the data source after you create them.
     This means changes to the data in the collection do not
@@ -54,10 +54,10 @@ used. The one exception where Collections vary from tabular data sources
 is you cannot use them with the Form control.
 
 For more information about working with collections and the table data
-they store, see [Author a basic formula that uses tables and records in a PowerApps canvas app](https://docs.microsoft.com/learn/modules/author-basic-formula-tables-records-powerapps/).
+they store, see [Author a basic formula that uses tables and records in a Power Apps canvas app](https://docs.microsoft.com/learn/modules/author-basic-formula-tables-records-powerapps/).
 
 Additionally, collections store table data no differently than tabular data sources. 
-The learning path [Work with data in a PowerApps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/) has many concepts that 
+The learning path [Work with data in a Power Apps canvas app](https://docs.microsoft.com/learn/paths/work-with-data-in-a-canvas-app/) has many concepts that 
 allow you to work with and extend the power of your collections.
 
 In the final unit of this module, you will learn about some additional variable

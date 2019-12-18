@@ -1,4 +1,4 @@
-To begin, add a data source to your app. In PowerApps, there are multiple ways
+To begin, add a data source to your app. In Power Apps, there are multiple ways
 to add a data source. For example, when you add a gallery or a
 form to the screen, you can use that interface to choose an existing
 data source or add a new one. Sometimes you must add a data source for a
@@ -50,7 +50,7 @@ Add an action data source such as Office 365 Outlook
 You can use this method to add any data source. After it is added, it
 will be available throughout your app.
 
-1.  In PowerApps Studio, select the **View** tab.
+1.  In Power Apps Studio, select the **View** tab.
 
 2.  In the ribbon, select **Data sources**.
 

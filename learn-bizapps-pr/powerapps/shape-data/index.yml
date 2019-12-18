@@ -1,14 +1,14 @@
 ﻿### YamlMime:Module 
 uid: learn-bizapps.shape-data 
 metadata: 
-  title: Shape data in a PowerApps canvas app
+  title: Shape data in a Power Apps canvas app
   description: When you create a canvas app, do you need to show the user all the data? What if you want to show only the data that is relevant to them? This module will help you address this issue.
   ms.date: 03/15/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Shape data in a PowerApps canvas app  
+title: Shape data in a Power Apps canvas app  
 summary: |
   [!include[](../includes/module-banner.md)]
 
@@ -19,7 +19,7 @@ abstract: |
     - Use operators in a formula to shape your data
     - Use the search function to find a record
     - Understand the AddColumns, DropColumns, and RenameColumns functions
-prerequisites: A basic understanding of how to create a PowerApps canvas app.   
+prerequisites: A basic understanding of how to create a Power Apps canvas app.   
 iconUrl: /learn/achievements/shape-data.svg  
 levels:  
 - intermediate   

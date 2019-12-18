@@ -4,7 +4,7 @@ source. You can configure the gallery template to display the
 information the way you want, and the Gallery will repeat that layout
 for each row in the table.
 
-You add a gallery to your canvas app by opening it in PowerApps Studio,
+You add a gallery to your canvas app by opening it in Power Apps Studio,
 selecting the **Insert** tab, selecting **Gallery**, and then selecting
 the type of gallery to add.
 
