@@ -1,0 +1,73 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-platform.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Your social media engagement officer has requested your help in boosting followers and retweets on Twitter. How could you help her get more information to better understand and susequently increase engagement?"
+    choices:
+    - content: "Configure a Power BI report to capture and analyze data from Twitter, allowing you to better understand why certain posts elicit more responses."
+      isCorrect: true
+      explanation: "Correct. Power BI allows you to create visuals and better understand your data. Once you understand trends in what followers like, you can post more of that content and increase engagement."
+    - content: "Power Apps using portals can create a new customer site for our followers."
+      isCorrect: false
+      explanation: "Incorrect. Although the statement is accurate, this will not help you understand and increase your social media engagement."
+    - content: "Power Automate can handle our content approvals for us, reducing the time it takes to produce new content and ensure our quality procedure is followed."
+      isCorrect: false
+      explanation: "Incorrect. While Power Automate can regulate your approval processes, this has little to do with increasing engagement."
+  - content: "Your team has become frustrated with number of times they have to perform basic data entry on project startup. There are many divisions who need the information and sometimes human error results in mistakes, making it more difficult to make sense of your information. Which program would be the most help in this situation?"
+    choices:
+    - content: "Power Automate"
+      isCorrect: true
+      explanation: "Correct. Power Automate can create automated information workflows so that data entry only has to occur once."
+    - content: "Power Apps"
+      isCorrect: false
+      explanation: "Incorrect. Although you could design an app to assist with data entry, you would still need Power Automate to ensure it gets to all the correct places."
+    - content: "Power BI"
+      isCorrect: false
+      explanation: "Incorrect. Power BI could help you analyze your project data, but it will not help you to reduce the number of times you enter the data."
+  - content: "Someone has added an item in SharePoint which prompts a workflow to run in Power Automate. What type of operation have you used to start your workflow?"
+    choices:
+    - content: "Trigger"
+      isCorrect: true
+      explanation: "Correct.A trigger is an operation that tells a workflow to begin or prompts some type of action."
+    - content: "Action"
+      isCorrect: false
+      explanation: "Incorrect. If the user had input the data in Power Apps which used a connector to write to SharePoint, that would be an action operation."
+    - content: "Function-based"
+      isCorrect: false
+      explanation: "Incorrect. Function-based is a type of data source, not a connector operation."
+  - content: "A client likes the idea of implementing a Power Platform solution, but is concerned about the ability to interact with a custom API. How should you respond?"
+    choices:
+    - content: "The Power Platform offers the ability to create custom connectors for this purpose which allow you to connect to Power Apps and Power Automate."
+      isCorrect: true
+      explanation: "Correct. You can build out a custom connector to bridge your app or workflow to the API."
+    - content: "The Power Platform has over 270 connectors to use in these situations."
+      isCorrect: false
+      explanation: "Incorrect. While the statement is accurate, a custom API would require a custom connector."
+    - content: "The Power Platform uses connectors that hold a series of functions available for developers."
+      isCorrect: false
+      explanation: "Incorrect. APIs hold a series of functions available for developers. Connectors allow you to push the information and functions back and forth from your data source."
+  - content: "Someone asks you to describe a connector. How would you respond?"
+    choices:
+    - content: "Connectors connect your data source to your app, workflow, or dashboard."
+      isCorrect: true
+      explanation: "Correct. Connectors allow functions and information to pass from your data source to your app or workflow."
+    - content: "Connectors hold a series of functions available for developers."
+      isCorrect: false
+      explanation: "Incorrect. APIs hold a series of functions available for developers. Connectors allow you to push the information and functions back and forth from your data source."
+    - content: "Connectors are a cloud-based service that makes it practical and simple for line-of-business users to build workflows that automate time-consuming business tasks and processes across applications and services."
+      isCorrect: false
+      explanation: "Incorrect. This definition describes Power Automate."
