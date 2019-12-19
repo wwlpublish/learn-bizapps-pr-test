@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-automate.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "To secure and administer Power Automate you can use what resources?"
+    choices:
+    - content: "Download the Power Automate administrator application."
+      isCorrect: false
+      explanation: "Incorrect. Power Automate provides https://admin.flow.microsoft.com/, PowerShell cmdlets, and flow actions for managing Power Automate. There is not a stand alone application."
+    - content: "Power Automate is only administered via the web portal."
+      isCorrect: false
+      explanation: "Incorrect. Power Automate can be administered via https://admin.flow.microsoft.com but there are also PowerShell cmdlets and flow actions to give you multiple options for administration."
+    - content: "Power Automate can be administered on the web, via PowerShell, or even by building flows."
+      isCorrect: true
+      explanation: "Correct. Power Automate provides https://admin.flow.microsoft.com/, PowerShell cmdlets, and flow actions for managing Power Automate. This give you complete flexibility for your Power Platform administration."
+  - content: "Where do you find flow templates?"
+    choices:
+    - content: "You have to build and save templates yourself; there are no pre-built templates."
+      isCorrect: false
+      explanation: "Incorrect. There are hundreds of prebuilt flow templates. You can access them by clicking on Create from flow.microsoft.com and then selecting start from a template."
+    - content: "Directly from the Power Automate builder website."
+      isCorrect: true
+      explanation: "Correct. When you create a flow, you can choose to start from a template. There you can browse for templates or use search to find just the right template to begin your project."
+    - content: "You need to download the template pack from the Microsoft Learn website."
+      isCorrect: false
+      explanation: "Incorrect. There are hundreds of prebuilt flow templates. You can access them by clicking on Create from flow.microsoft.com and then selecting start from a template."
+  - content: "How can data sources be used with Power Automate?"
+    choices:
+    - content: "Power Automate can only connect to Microsoft data sources such as Office 365 and Azure."
+      isCorrect: false
+      explanation: "Incorrect. Power Automate supports both Microsoft and 3rd party data sources with more than 260 connectors."
+    - content: "Power Automate requires you to build custom connectors to access external data."
+      isCorrect: false
+      explanation: "Incorrect. Power Automate allows you to build a custom connector to access an external data source, but it also has over 260 prebuilt data connectors."
+    - content: "Power Automate can connect to data sources using one of the 260 plus prebuilt connectors or by building your own custom connector."
+      isCorrect: true
+      explanation: "Correct. Power Automate allows you to automate business processes where your data lives."
