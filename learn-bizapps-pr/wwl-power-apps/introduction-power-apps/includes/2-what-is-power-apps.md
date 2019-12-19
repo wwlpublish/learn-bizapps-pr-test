@@ -27,22 +27,19 @@ Power Apps can create three types of apps: canvas, model-driven, and portals. Ea
 Canvas apps are a great option when you want to build an app from a blank canvas. You start by choosing the screen size: tablet of mobile, then you have a blank screen from which to build. You can interact with data in your app by adding data sources. Drag and drop various controls and add the desired functionality by writing Excel style formulas. Canvas apps provide you complete flexibility when building your apps. 
 
 Below are a couple of examples of a mobile canvas app built by Heathrow Airport.
-
-![Power Apps mobile display for Heathrow Aiport Application](../media/mobile-canvas-apps.png)
+    ![Power Apps mobile display for Heathrow Airport Application](../media/mobile-canvas-apps.png)
 
 ### Model-driven apps
 
 Model-driven apps build from data in the Common Data Service. Power Apps will build you a great looking, fully functional app to act upon and interact with this data. With model-driven apps, there is no need to worry about choosing the app size; it is responsive, meaning it works on mobile or tablet with no extra work by you. You define the relationships, forms, views, business rules, and more at the data layer, inside of the Common Data Service, giving you enough control to get your business result without writing all of the formulas yourself. 
 
 Below is an example of a fundraiser donations tracking Model-driven app.
-
-![Power Apps Dashboard](../media/fundraiser.png)
+    ![Power Apps Dashboard](../media/fundraiser.png)
 
 ### Portals
 
 Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Common Data Service. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
-
-![External view of portal](../media/portal.png)
+    ![External view of portal](../media/portal.png)
 
 ## Add artificial intelligence to your app with no code
 
