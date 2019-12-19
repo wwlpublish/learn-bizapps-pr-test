@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn-bizapps.wwl.build-simple-dashboard
+metadata:
+  title: How to build a simple dashboard
+  description: How to build a simple dashboard
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: How to build a simple dashboard
+summary: Power BI helps business users and developers alike to easily analyze, visualize, and collaborate on data. This module will teach you how to do all of that without effecting your underlying dataset.
+abstract: |
+  In this module, you will:
+  - Learn to connect to data in Power BI desktop
+  - Transform and model the data you import
+  - Build basic visualizations
+  - Create and share a dashboard
+  - Discover how to collaborate in Power BI
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-user
+products:
+- power-automate
+units:
+- learn-bizapps.wwl.build-simple-dashboard.introduction
+- learn-bizapps.wwl.build-simple-dashboard.connect-data
+- learn-bizapps.wwl.build-simple-dashboard.transform-data
+- learn-bizapps.wwl.build-simple-dashboard.visualize-data
+- learn-bizapps.wwl.build-simple-dashboard.build-dashboard
+- learn-bizapps.wwl.build-simple-dashboard.collaborate-share
+- learn-bizapps.wwl.build-simple-dashboard.knowledge-check
+- learn-bizapps.wwl.build-simple-dashboard.summary-resources
+badge:
+  uid: learn-bizapps.wwl.build-simple-dashboard.badge
