@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-automate.introduction
+title: Introduction
+metadata:
+  title: Introduction
+  description: Introduction
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/1-introduction.md)]

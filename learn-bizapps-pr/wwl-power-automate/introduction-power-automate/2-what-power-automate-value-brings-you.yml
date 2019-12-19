@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-automate.what-power-automate-value-brings-you
+title: What is Power Automate and the value it brings to you
+metadata:
+  title: What is Power Automate and the value it brings to you
+  description: What is Power Automate and the value it brings to you
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-what-power-automate-value-brings-you.md)]
