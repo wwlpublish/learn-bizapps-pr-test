@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.build-simple-dashboard.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/7-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What is a dashboard?"
+    choices:
+    - content: "One-page collection of visualizations that is created from within the Power BI service (online)."
+      isCorrect: true
+      explanation: "Correct. A dashboard is a great way to display information and visualizations."
+    - content: "Data which is ready to be used for building visuals."
+      isCorrect: false
+      explanation: "Incorrect. This is the definition of clean data."
+    - content: "An application for PCs that lets you gather, transform, and visualize your data."
+      isCorrect: false
+      explanation: "Incorrect. This describes the Power BI desktop app."
+  - content: "Which statement is true regarding adding comments to a dashboard?"
+    choices:
+    - content: "You can use the “@” symbol to mention a colleague in a comment."
+      isCorrect: true
+      explanation: "Correct. Comments can be added to an entire dashboard or to individual visualizations on a dashboard. Add a general comment or a comment targeted at specific colleagues. Also, comments can be added to a dashboard using Power BI or Power BI Mobile apps."
+    - content: "Comments can be added to an entire dashboard but not to individual visualizations on that dashboard."
+      isCorrect: false
+      explanation: "Incorrect. Comments can be added to an entire dashboard or to individual visualizations on a dashboard. Add a general comment or a comment targeted at specific colleagues. Also, comments can be added to a dashboard using Power BI or Power BI Mobile apps."
+    - content: "Before a comment is published, it must be approved by the dashboard designer."
+      isCorrect: false
+      explanation: "Incorrect. Comments can be added to an entire dashboard or to individual visualizations on a dashboard. Add a general comment or a comment targeted at specific colleagues. Also, comments can be added to a dashboard using Power BI or Power BI Mobile apps."
+  - content: "What is one method for creating a visual?"
+    choices:
+    - content: "Drag a field from the Fields list onto the Report view canvas."
+      isCorrect: true
+      explanation: "Correct. Dragging any field from the Fields list onto the open white space of the canvas (in Report view) will automatically create a default visual for that data type."
+    - content: "Drag a field from the Fields list onto the Visualizations pane."
+      isCorrect: false
+      explanation: "Incorrect. Dragging any field from the Fields list onto the open white space of the canvas (in Report view) will automatically create a default visual for that data type."
+    - content: "Drag a field from the Fields list onto the Model view canvas."
+      isCorrect: false
+      explanation: "Incorrect. Dragging any field from the Fields list onto the open white space of the canvas (in Report view) will automatically create a default visual for that data type."
