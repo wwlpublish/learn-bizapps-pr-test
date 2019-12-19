@@ -1,0 +1,38 @@
+### YamlMime:Module
+uid: learn-bizapps.wwl.build-automated-solution
+metadata:
+  title: How to build an automated solution
+  description: How to build an automated solution
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: How to build an automated solution
+summary: Learn how you can leverage Power Automate to build simple workflow to help improve productivity and simplify tasks.
+abstract: |
+  In this module you will:
+  - Explore and build from existing flow templates
+  - Create a flow triggered by a new record or record change
+  - Explain how flow can automate and customize approvals
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-user
+products:
+- dynamics
+- dynamics-customer-engagement
+- dynamics-finance-operations
+- power-platform
+units:
+- learn-bizapps.wwl.build-automated-solution.introduction
+- learn-bizapps.wwl.build-automated-solution.create-flow-template
+- learn-bizapps.wwl.build-automated-solution.build-approval-request
+- learn-bizapps.wwl.build-automated-solution.build-business-process-flow
+- learn-bizapps.wwl.build-automated-solution.knowledge-check
+- learn-bizapps.wwl.build-automated-solution.summary-resources
+badge:
+  uid: learn-bizapps.wwl.build-automated-solution.badge
