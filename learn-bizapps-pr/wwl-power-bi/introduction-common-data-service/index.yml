@@ -1,0 +1,42 @@
+### YamlMime:Module
+uid: learn-bizapps.wwl.introduction-common-data-service
+metadata:
+  title: Introduction to Common Data Service
+  description: Introduction to Common Data Service
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: Introduction to Common Data Service
+summary: Learn about the basics of common data service, and explore ways you can connect and customize data connections to Power Platform applications.
+abstract: |
+  In this module, you will:
+  - Discover the Common Data Service
+  - Learn about the Common Data Model
+  - Identify entities, fields, and relationships
+  - Learn about environments
+  - Discover business rules
+prerequisites: |
+  None
+iconUrl: /learn/achievements/introduction-common-data-services.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-user
+products:
+- common-data-service
+- power-automate
+- power-platform
+units:
+- learn-bizapps.wwl.introduction-common-data-service.introduction
+- learn-bizapps.wwl.introduction-common-data-service.overview-common-data-service
+- learn-bizapps.wwl.introduction-common-data-service.identify-entities-fields-common-data-service
+- learn-bizapps.wwl.introduction-common-data-service.understand-relationships
+- learn-bizapps.wwl.introduction-common-data-service.environments-common-data-service
+- learn-bizapps.wwl.introduction-common-data-service.business-rules
+- learn-bizapps.wwl.introduction-common-data-service.knowledge-check
+- learn-bizapps.wwl.introduction-common-data-service.summary-resources
+badge:
+  uid: learn-bizapps.wwl.introduction-common-data-service.badge
