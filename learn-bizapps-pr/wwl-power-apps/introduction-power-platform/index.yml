@@ -1,0 +1,39 @@
+### YamlMime:Module
+uid: learn-bizapps.wwl.introduction-power-platform
+metadata:
+  title: Introduction to Power Platform
+  description: Introduction to Power Platform
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: Introduction to Power Platform
+summary: Learn about the components of Power Platform, the business value for customers, and security of the technology.
+abstract: |
+  In this module, you will:
+  - Learn the components and features of the Power Platform
+  - Identify when to use each Power Platform component application to create business solutions
+  - Understand connectors
+  - Learn the value of using the Power Platform to create business solutions
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-user
+products:
+- power-automate
+- power-bi
+- powerapps
+units:
+- learn-bizapps.wwl.introduction-power-platform.introduction
+- learn-bizapps.wwl.introduction-power-platform.power-platform
+- learn-bizapps.wwl.introduction-power-platform.data-connectors
+- learn-bizapps.wwl.introduction-power-platform.pulling-together
+- learn-bizapps.wwl.introduction-power-platform.knowledge-check
+- learn-bizapps.wwl.introduction-power-platform.summary-resources
+badge:
+  uid: learn-bizapps.wwl.introduction-power-platform.badge
