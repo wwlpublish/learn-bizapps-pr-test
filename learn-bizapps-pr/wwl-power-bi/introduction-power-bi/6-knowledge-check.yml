@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-bi.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: Knowledge check
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Power BI helps with which of the following business processes?"
+    choices:
+    - content: "Notifying users when a SharePoint list item has changed."
+      isCorrect: false
+      explanation: "Incorrect. Power Automate can send an alert when a list item has changed."
+    - content: "Generating an approval."
+      isCorrect: false
+      explanation: "Incorrect. Power Automate can help generate an approval flow."
+    - content: "Analyzing and displaying data."
+      isCorrect: true
+      explanation: "Correct. By analyzing and displaying your data, Power BI empowers business users to make beneficial decisions."
+  - content: "Which of the below is a way in which Power BI can help you effectively leverage your data?"
+    choices:
+    - content: "Analyze sales data to better allocate resources and place orders, optimizing operations."
+      isCorrect: false
+      explanation: "Incorrect. Power BI can analyze sales data for this purpose, but can also analyze customer and employee data to improve business decisions."
+    - content: "Analyze customer data to better target and promote specific items to specific customers."
+      isCorrect: false
+      explanation: "Incorrect. Power BI can analyze customer data for this purpose, but can also analyze sales and employee data to improve business decisions."
+    - content: "All of the above."
+      isCorrect: true
+      explanation: "Correct. Power BI can analyze all types of data you may have to assist in your business efficiency and decision making efficacy."
+  - content: "What are the three elements of Power BI designed to let people create, share, and consume business insights in the way that serves them, or their role, most effectively?"
+    choices:
+    - content: "Desktop, service, and Mobile apps."
+      isCorrect: true
+      explanation: "Correct. Power BI consists of a Microsoft Windows desktop application called Power BI Desktop, an online SaaS (Software as a Service) service called the Power BI service, and mobile Power BI apps that are available on phones and tablets."
+    - content: "Tiles, visualizations, and dashboards."
+      isCorrect: false
+      explanation: "Incorrect. These are building blocks of Power BI, but not the elements described in the question."
+    - content: "Reports, dashboards, and tiles."
+      isCorrect: false
+      explanation: "Incorrect. These are building blocks of Power BI, but not the elements described in the question."

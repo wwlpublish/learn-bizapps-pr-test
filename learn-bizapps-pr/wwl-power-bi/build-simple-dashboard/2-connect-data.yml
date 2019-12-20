@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.build-simple-dashboard.connect-data
+title: Connect to data
+metadata:
+  title: Connect to data
+  description: Connect to data
+  ms.date: 12/20/2019
+  author: wwlpublish
+  ms.author: styang
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-connect-data.md)]
