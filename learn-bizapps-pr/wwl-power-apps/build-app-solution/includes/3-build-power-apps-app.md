@@ -2,15 +2,15 @@ In this unit, you'll generate a mobile app where the data source is a Microsoft 
 
 This example uses Excel, but keep in mind that you can use data from many other sources, including the Common Data Service, Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server. This gives you the flexibility to build your app from your data no matter where it lives. 
 
-If you do not have a Power Apps account available, you can sign up for a free Power Apps Community Plan. This will allow you to learn and explore Power Apps in your own environment. For more information and to sign up go to [https://Power Apps.microsoft.com/communityplan/](https://Power Apps.microsoft.com/communityplan/)
+If you do not have a Power Apps account available, you can sign up for a free Power Apps Community Plan. This will allow you to learn and explore Power Apps in your own environment. For more information and to sign up go to [https://powerapps.microsoft.com/communityplan/](https://powerapps.microsoft.com/communityplan/)
 
 ## Connect to a data source
 
 1. To connect to a data source, use the following procedure:
 
-2. Download the [Contoso file](https://github.com/MicrosoftDocs/mslearn-build-app-solution/blob/master/downloads/Contoso-Site-Tracking.zip?raw=true), extract all of the files and save them to your OneDrive for Business.
+2. Download the [Contoso file](https://github.com/MicrosoftDocs/mslearn-build-app-solution/raw/master/downloads/Contoso-Site-Tracking.zip), extract all of the files and save them to your OneDrive for Business.
 
-3. Go to [https://make.Power Apps.com](https://make.powerapps.com/) and sign in with your organizational account.
+3. Go to [https://make.PowerApps.com](https://make.powerapps.com/) and sign in with your organizational account.
 
 4. In the left pane, select **Create**.
 
