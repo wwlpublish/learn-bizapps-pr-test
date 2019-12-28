@@ -18,6 +18,9 @@ Congratulations. You are the new sales manager at a clothing manufacturing compa
 
 ### Add the Sales and Marketing Sample app
 
+> [!NOTE]
+> To add an app, you will need Power BI Pro. You can try Power BI Pro free for 60 days at https://powerbi.microsoft.com/get-started/
+
 1. Sign in to [http://app.powerbi.com](http://app.powerbi.com).
 2. Select the **Apps** tab on the left.
 3. Select the **Get apps** button.
