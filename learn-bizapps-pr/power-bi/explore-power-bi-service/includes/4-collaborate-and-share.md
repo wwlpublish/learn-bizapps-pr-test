@@ -30,7 +30,6 @@ A designer may send you and the other managers a link in email. When you select 
 
 ![Image of Shared with me tab](../media/1-4/power-bi-shared.png)
 
-![Image of Shared with me content on Home tab](../media/1-4/power-bi-home.png)
 
 **Designer shares an app**
 
@@ -40,7 +39,6 @@ No matter how the app is shared, it will show up in Power BI under the **Apps** 
 
 ![Image of Power BI Apps tab and page](../media/1-4/power-bi-apps.png)
 
-![Image of My apps list](../media/1-4/power-bi-my-apps.png)
 
 Now that the designers have shared content with you and the other managers, it’s time to start the project. Because the designers gave all managers access to the content, everyone can start working together to prepare for the big meeting.
 
