@@ -30,7 +30,6 @@ A designer may send you and the other managers a link in email. When you select 
 
 ![Image of Shared with me tab](../media/1-4/power-bi-shared.png)
 
-![Image of Shared with me content on Home tab](../media/1-4/power-bi-home.png)
 
 **Designer shares an app**
 
@@ -40,7 +39,6 @@ No matter how the app is shared, it will show up in Power BI under the **Apps** 
 
 ![Image of Power BI Apps tab and page](../media/1-4/power-bi-apps.png)
 
-![Image of My apps list](../media/1-4/power-bi-my-apps.png)
 
 Now that the designers have shared content with you and the other managers, it’s time to start the project. Because the designers gave all managers access to the content, everyone can start working together to prepare for the big meeting.
 
@@ -49,7 +47,7 @@ However, another challenge you face is that you want help from other colleagues,
 ### Step 2: Consumers share content with internal and external colleagues
 As a Power BI consumer, you can also share content, provided that the designer gave you reshare permissions.
 
-If you decide to reshare any of this content, go to the **Shared with me** tab in the navigation pane. If the **Actions** column contains the "share" icon, you can click the icon to share. 
+If you decide to reshare any of this content, go to the **Shared with me** tab in the navigation pane. If the **Shared** column contains the "share" icon, you can click the icon to share. 
 
 ![Image of example "Shared with me" list.](../media/1-4/power-bi-share-reports.png)
 
@@ -72,9 +70,7 @@ In this scenario, Cassandra has created and shared a dashboard with her team. In
 
 In preparation for the meeting on Monday, her entire team views the dashboard, reviews the updated version of the report, and continues the conversation on the dashboard canvas. 
 
-![Image of a report with comments.](../media/1-4/power-bi-comment6.png)
-
-Notice that there are two types of comments: those about the dashboard in general and those about a specific visual. The chart icon lets you know that this comment is tied to a specific visual. Selecting the icon highlights the related visual on the dashboard.
+There are two types of comments: those about the dashboard in general and those about a specific visual. The chart icon lets you know that this comment is tied to a specific visual. Selecting the icon highlights the related visual on the dashboard.
 
 ![Example comment using the @ symbol for a colleague.](../media/1-4/power-bi-comment-icon.png)
 
@@ -83,18 +79,13 @@ Notice that there are two types of comments: those about the dashboard in genera
 Whether you're commenting on the dashboard or on a particular visual, grab your colleagues' attention by using the at sign (@). When you type **@**, Power BI opens a drop-down list where you can search for and select individuals from your organization. Any verified name prefaced with @ appears in blue font.
 
 
-This animation shows you the process of using the dashboard, from opening the **Comments** pane, to adding a new comment, and finally, to viewing existing conversations.
-
-![Animated image of adding a comment.](../media/1-4/power-bi-commenting.gif)
-
-
 ## Print from Power BI
 
 A third way to collaborate and share is by printing. Occasionally, you might need to hand out printed copies of your Power BI dashboards and reports, such as when you’re giving a talk at a conference, submitting regulatory documentation, or presenting somewhere without a network connection. To prepare, you want to print copies of the dashboards and reports, in addition to a few specific tiles and report visualizations. 
 
 ### Print a dashboard
 
-To print a dashboard, select the ellipses (…) from the upper right corner of the action menu and select **Print dashboard**.
+To print a dashboard, select **Export** from the upper left corner of the action menu and select **Print this page**.
 
 ![Image showing how to print a dashboard.](../media/1-4/power-bi-print-dash.png)
 
@@ -106,7 +97,7 @@ Reports can be printed one page at a time, or you can print all pages at once if
 
 ### Print tiles and visuals
 
-Tiles and visuals are found on dashboards and reports. To print a single tile or a single visual, you’ll first need to open it by itself. You can use the Focus mode and Full screen mode to open a dashboard tile or a report visual by itself so that it can be printed.
+Tiles and visuals are found on dashboards and reports. To print a single tile or a single visual, you’ll first need to open it by itself. You can use the Focus mode and Full screen mode to open a dashboard tile or a report visual by itself so that so that you can print it with **Export**, **Print this page**.
 
 ![Image of how to open a tile or visual for printing.](../media/1-4/power-bi-print-tile.png)
 
@@ -118,9 +109,9 @@ Tiles and visuals are found on dashboards and reports. To print a single tile or
 
 Another way to share a report with your team is to export it to PowerPoint. Each report page will be a slide that includes links to the live report in Power BI.
 
-In Power BI, select a report to display on the canvas. You can also select a report from your **Home** page, **Apps**, or any other section on the nav pane. Select **File > Export to PowerPoint** from the menu bar in Power BI.
+In Power BI, select a report to display on the canvas. You can also select a report from your **Home** page, **Apps**, or any other section on the nav pane. Select **Export > PowerPoint** from the menu bar in Power BI.
 
-![Animation of the process of exporting a report to PowerPoint.](../media/1-4/power-bi-export-pptx.gif)
+![Animation of the process of exporting a report to PowerPoint.](../media/1-4/power-bi-export-pptx.png)
 
 A pop-up window will appear where you have the option to select the **Current values** or **Default values**. Most users select the **Current values** option, which exports the report in the current state and includes the active changes that you made to slicer and filter values. The **Default values** option exports the original report without the changes that you made.
 

@@ -1,4 +1,4 @@
-We all live in a data culture where business decisions are based on facts, not opinions. We need data to help us make these decisions.
+We all live in a data culture where business decisions should be based on facts, not opinions. We need data to help us make these decisions.
 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2PMcs]
