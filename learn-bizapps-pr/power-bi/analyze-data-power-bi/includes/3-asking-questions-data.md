@@ -59,9 +59,9 @@ For more detailed information, see:
 **Q&A helps phrase the question**
 
 Q&A does its best to understand and answer the question by: 
--   Autocompletes words and questions. It uses various strategies, including autocompleting recognized words and previously used questions that returned valid responses. If more than one autocomplete option is available, they're presented in a drop-down list.
--   Corrects spelling.
--   Provides a preview of the answer in the form of a visual. The visual updates as you type and edit the question (it doesn't wait for you to press **Enter**).
--   Suggests replacement terms from the underlying dataset(s) when you move the cursor back in the question box.
--   Restates the question based on the data in the underlying dataset(s). Q&A replaces the words you used with synonyms from the underlying dataset(s). By reading the restatement, you know whether Q&A understood your question or not.
--   Dims words it doesn't understand.
+-   Autocompleting words and questions. It uses various strategies, including autocompleting recognized words and previously used questions that returned valid responses. If more than one autocomplete option is available, they're presented in a drop-down list.
+-   Correcting spelling.
+-   Providing a preview of the answer in the form of a visual. The visual updates as you type and edit the question (it doesn't wait for you to press **Enter**).
+-   Suggesting replacement terms from the underlying dataset(s) when you move the cursor back in the question box.
+-   Restating the question based on the data in the underlying dataset(s). Q&A replaces the words you used with synonyms from the underlying dataset(s). By reading the restatement, you know whether Q&A understood your question or not.
+-   Dimming words it doesn't understand.
