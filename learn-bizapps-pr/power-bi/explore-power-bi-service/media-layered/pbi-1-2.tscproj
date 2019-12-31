@@ -14,7 +14,7 @@
   "sourceBin" : [
     {
       "id" : 1,
-      "src" : "C:\\Users\\rodeupre\\Documents\\GitHub\\learn-bizapps-pr\\learn-bizapps-pr\\power-bi\\explore-power-bi-service\\media-layered\\Rec 12-30-19.trec",
+      "src" : "C:\\Users\\rodeupre\\Documents\\GitHub\\learn-bizapps-pr\\learn-bizapps-pr\\power-bi\\explore-power-bi-service\\media-layered\\pbi-1-2.trec",
       "rect" : [0, 0, 816, 496],
       "lastMod" : "20191230T192236",
       "sourceTracks" : [
@@ -26,7 +26,7 @@
           "sampleRate" : 29,
           "bitDepth" : 0,
           "numChannels" : 0,
-          "metaData" : "Rec 12-30-19.trec;"
+          "metaData" : "pbi-1-2.trec;"
         },
         {
           "range" : [0, 1650688],
@@ -64,7 +64,7 @@
                           "src" : 1,
                           "trackNumber" : 0,
                           "attributes" : {
-                            "ident" : "Rec 12-30-19"
+                            "ident" : "pbi-1-2"
                           },
                           "parameters" : {
                             "cursorScale" : {
