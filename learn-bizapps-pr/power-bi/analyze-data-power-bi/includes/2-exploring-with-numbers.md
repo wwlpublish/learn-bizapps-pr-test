@@ -5,7 +5,7 @@ Visuals are created by report and dashboard designers and then shared with consu
 
  Power BI visuals are created from data that you can view. When you turn on **Show data**, Power BI displays the data below the visual.
 
-In Power BI, you can open a report and select a visual. To display the data that was used to create the visual, select the visual's **More options** (...) and selelct **Visual table**.
+In Power BI, you can open a report and select a visual. To display the data that was used to create the visual, select the visual's **More options** (...) and select **Visual table**.
 
 ![Image of the "Show Data" button.](../media/2-2/power-bi-show-data.png)
 
