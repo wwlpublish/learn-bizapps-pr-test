@@ -26,7 +26,7 @@ In Power BI Desktop, several types of data sources are available. Select a sourc
 
 ## Choose data to import
 
-After connecting, the first window that you'll see is the **Navigator**. The **Navigator** window displays the tables or entities of your data source, and selecting a table or entity gives you a preview of its contents. You can then import your selected tables or entities immediately, or you can select **Edit** to transform and clean your data before importing.
+After connecting, the first window that you'll see is the **Navigator**. The **Navigator** window displays the tables or entities of your data source, and selecting a table or entity gives you a preview of its contents. You can then import your selected tables or entities immediately by selecting **Load**, or you can select **Transform Data** to transform and clean your data before importing.
 
 ![Screenshot of the Navigator window.](../media/03-power-bi-desktop-navigator.png)
 
