@@ -9,6 +9,8 @@ In this unit, you will transform data with Power Query Editor.
 **Video**: Transform data
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x9uw]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
 
 ### Launch Power Query Editor
 

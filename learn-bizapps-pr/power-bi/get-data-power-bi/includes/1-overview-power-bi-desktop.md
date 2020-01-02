@@ -28,4 +28,5 @@ Before you can sign in to Power BI, you'll need an account. To get a free trial,
 
 For detailed steps on setting up an account, see [Sign in to Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-sign-in).
 
-
+## Download sample data
+To follow along with the examples in the videos and on the pages, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).

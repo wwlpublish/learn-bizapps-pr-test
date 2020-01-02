@@ -11,6 +11,9 @@ In this unit, you will:
 **Video**: Connecting to data sources
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRgY]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
+
 You can connect Power BI Desktop to many types of data sources, including on-premises databases, Microsoft Excel workbooks, and cloud services. Currently, there are about 60 Power BI-specific connectors to cloud services such as GitHub and Marketo. You can also connect to generic sources through XML, CSV, text, and ODBC. Power BI will even extract tabular data directly from a website URL. 
 
 
