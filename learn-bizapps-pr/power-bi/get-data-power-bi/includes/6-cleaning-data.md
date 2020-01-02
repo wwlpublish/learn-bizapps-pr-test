@@ -2,7 +2,6 @@ While Power BI can import your data from almost any source, its visualization an
 
 In this unit, you will clean columnar data with Power Query Editor.
 
-&nbsp;
 
 **Video**: 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wRhf]

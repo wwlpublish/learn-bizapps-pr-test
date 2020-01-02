@@ -9,6 +9,9 @@ In this unit, you will combine data from different sources by using Query Editor
 **Video**: Modeling and transforming data
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wTTj]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
+
 ## Add more data sources
 
 To add more sources to an existing report, from the Home ribbon, select **Edit Queries** and then select **New Source**. You can use many potential data sources in Power BI Desktop, including folders. By connecting to a folder, you can import data from multiple Excel or CSV files at once. 
