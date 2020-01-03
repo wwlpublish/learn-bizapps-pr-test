@@ -1,4 +1,4 @@
-Now that you know the basics of Microsoft Power BI, let's jump into some hands-on experiences and a guided tour. 
+Now that we've introduced the basics of Microsoft Power BI, let's jump into some hands-on experiences and a guided tour. 
 
 The activities and analyses that you'll learn with Power BI generally follow a common flow. The **common flow** of activity looks like this:
 

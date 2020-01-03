@@ -11,6 +11,9 @@ In this unit, you will:
 **Video**: Overview of Power BI Desktop and the Power BI service
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kOEX]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
+
 ## Launch Power BI Desktop
 
 When you launch Power BI Desktop, the **Getting Started** dialog box will appear, which provides useful links to forums, blogs, and introductory videos. Close this dialog box for now, but keep the **Show this screen on startup** option selected so that you can explore it later.
@@ -47,6 +50,8 @@ After creating a report with a few visuals, you're ready to publish to the Power
 ![Screenshot of the Publish button.](../media/02-power-bi-desktop-publish.png)
 
 You’ll be prompted to sign in to Power BI. When you've signed in and the publish process is complete, the following dialog box will appear. You can select the link below **Success!**, which will take you to the Power BI service, where you can see the report that you published. 
+
+![Screenshot of the Publish button.](../media/02-power-bi-publish-success.png)
 
 ## Pin a visual to a dashboard
 
