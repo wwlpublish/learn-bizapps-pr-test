@@ -48,6 +48,8 @@ After creating a report with a few visuals, you're ready to publish to the Power
 
 You’ll be prompted to sign in to Power BI. When you've signed in and the publish process is complete, the following dialog box will appear. You can select the link below **Success!**, which will take you to the Power BI service, where you can see the report that you published. 
 
+![Screenshot of the Publish button.](../media/02-power-bi-publish-success.png)
+
 ## Pin a visual to a dashboard
 
 When you view a published report in the Power BI service, you can choose the **Pin** icon to pin that visual to a dashboard. 
