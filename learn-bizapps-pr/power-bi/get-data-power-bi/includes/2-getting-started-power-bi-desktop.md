@@ -11,6 +11,9 @@ In this unit, you will:
 **Video**: Overview of Power BI Desktop and the Power BI service
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kOEX]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
+
 ## Launch Power BI Desktop
 
 When you launch Power BI Desktop, the **Getting Started** dialog box will appear, which provides useful links to forums, blogs, and introductory videos. Close this dialog box for now, but keep the **Show this screen on startup** option selected so that you can explore it later.
