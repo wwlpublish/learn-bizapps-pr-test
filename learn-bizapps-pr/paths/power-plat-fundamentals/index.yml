@@ -13,7 +13,7 @@ prerequisites: |
   None
 summary: |
   Learn the business value and product capabilities of Power Platform. Create a simple PowerApp, connect data with CDS, build a Power BI Dashboard, and automate a process with Microsoft Flow.
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/power-plat-fundamentals.svg
 levels:
 - beginner
 roles:
