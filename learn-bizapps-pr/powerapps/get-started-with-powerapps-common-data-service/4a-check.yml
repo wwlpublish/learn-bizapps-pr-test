@@ -29,13 +29,13 @@ quiz:
       explanation: The two types of relationships you can create are One-to-many and Many-to-many.
   - content: How many apps can use the same Entity?
     choices: 
-    - content: 1
+    - content: One
       isCorrect: false
       explanation: The same entity can be used by an unlimited number of apps.
-    - content: 20
+    - content: Twenty
       isCorrect: false 
       explanation: The same entity can be used by an unlimited number of apps.
-    - content: 100
+    - content: One hundred
       isCorrect: false 
       explanation: The same entity can be used by an unlimited number of apps.
     - content: Unlimited
