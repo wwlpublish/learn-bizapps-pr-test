@@ -29,19 +29,19 @@ quiz:
       explanation: The two types of relationships you can create are One-to-many and Many-to-many.
   - content: How many apps can use the same Entity?
     choices: 
-    - content: One
+    - content: 1
       isCorrect: false
-      explanation: The same entity can be used by an unlimited amount of apps.
-    - content: Twenty
+      explanation: The same entity can be used by an unlimited number of apps.
+    - content: 20
       isCorrect: false 
-      explanation: The same entity can be used by an unlimited amount of apps.
-    - content: One hundred
+      explanation: The same entity can be used by an unlimited number of apps.
+    - content: 100
       isCorrect: false 
-      explanation: The same entity can be used by an unlimited amount of apps.
+      explanation: The same entity can be used by an unlimited number of apps.
     - content: Unlimited
       isCorrect: true
-      explanation: The same entity can be used by an unlimited amount of apps.
-  - content: When deploying role-based security in the Common Data Service, which of the following allows you to control access to entities for different users?
+      explanation: The same entity can be used by an unlimited number of apps.
+  - content: When deploying role-based security in the Common Data Service, which of the following products allows you to control access to entities for different users?
     choices: 
     - content: SQL Server
       isCorrect: false
