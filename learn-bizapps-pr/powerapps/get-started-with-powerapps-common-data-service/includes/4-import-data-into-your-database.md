@@ -20,7 +20,7 @@ When you add data to a template file, you must make sure the data is unique. You
     - **Pet Name**
     - **Species**
 
- ![Example of adding new row of data](../media/add-new-row.png)
+    ![Example of adding new row of data](../media/add-new-row.png)
 
 3. Save the file.
 
@@ -40,17 +40,17 @@ When you add data to a template file, you must make sure the data is unique. You
     - **UTC Conversion Time Zone Code**
     - **Version Number**
  
-![Example of Pet fields Source values](../media/mapping-fields.png)
+    ![Example of Pet fields Source values](../media/mapping-fields.png)
 
 6. In the upper right, click **Save changes**.
 
     ![Example of a Mapping status field and Import button for a successful upload](../media/mapping-warning.png)
 
-You will notice under Mapping status, it states "Mapping warnings exist". The reason for this mapping status is because we set some of the fields to None or Not. This is fine because we didn't want to include those fields so this warning can be ignored. 
+    You will notice under Mapping status, it states "Mapping warnings exist". The reason for this mapping status is because we set some of the fields to None or Not. This is fine because we didn't want to include those fields so this warning can be ignored. 
 
 7. In the upper right, click **Import**.
 
-After the data has been successfully imported, you'll see the total number of inserts and updates. Now let's go take a quick look at the imported data
+    After the data has been successfully imported, you'll see the total number of inserts and updates. Now let's go take a quick look at the imported data
 
 8. On the left, select **Entities**.
 9. Select the **Pet** entity.
