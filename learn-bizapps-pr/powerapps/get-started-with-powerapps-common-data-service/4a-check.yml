@@ -46,7 +46,7 @@ quiz:
     - content: SQL Server
       isCorrect: false
       explanation: Dynamics 365 lets you control access to entities.
-    - content: Azure Portal
+    - content: Azure portal
       isCorrect: false 
       explanation: Dynamics 365 lets you control access to entities.
     - content: Dynamics 365
