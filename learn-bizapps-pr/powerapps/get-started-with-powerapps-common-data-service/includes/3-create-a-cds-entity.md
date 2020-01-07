@@ -10,6 +10,8 @@ The tutorial follows the Contoso company, which is a pet grooming business that 
 
 ## Create a custom entity
 
+Sign in to [Power Apps](https://powerapps.microsoft.com) and follow these steps to create a new custom entity.
+
 1. In the left navigation pane, expand **Data**, select **Entities**, and then select **+ New entity**.
 
 2. Under New Entity, enter the following:
