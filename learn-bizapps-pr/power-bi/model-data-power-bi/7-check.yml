@@ -14,7 +14,7 @@ durationInMinutes: 10
 quiz: 
   title: Answer the following questions to see what you've learned.
   questions: 
-  - content: How do get Power BI Desktop to find relationships in data after it has been imported? 
+  - content: How do you get Power BI Desktop to find relationships in data after it has been imported? 
     choices: 
     - content: Open the Power Query Editor 
       isCorrect: false 
