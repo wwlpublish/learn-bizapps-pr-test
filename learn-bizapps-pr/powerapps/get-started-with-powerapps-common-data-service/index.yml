@@ -20,7 +20,9 @@ iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
 levels:  
 - beginner 
 roles:  
-- business-user 
+- business-user
+- functional-consultant
+- maker 
 products:  
 - power-platform
 - powerapps
