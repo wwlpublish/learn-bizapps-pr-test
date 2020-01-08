@@ -15,15 +15,17 @@ summary: |
   Do you want to quickly build apps with little to no code? This module will focus on building blocks of the Common Data Service and model-driven apps.  These key components will help you to build quick business apps in your organization.    
 abstract: |  
     In this module, you will: 
-    - Understand the value props and key features of the Common Data Service
-    - Describe the value props and key features of model-driven apps
+    - Understand the value and key features of Common Data Service
+    - Learn about the value and key features of model-driven apps
     - Explore sample model-driven template apps
-prerequisites: Target audiences should have a basic understanding of Power Apps.  
+prerequisites: A basic understanding of Power Apps and Common Data Service.  
 iconUrl: /learn/achievements/intro-model-driven-apps-common-data-service.svg  
 levels:  
-- intermediate   
+- beginner   
 roles:  
 - functional-consultant
+- business-user
+- maker
 products:  
 - power-platform 
 - power-apps 

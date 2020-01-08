@@ -6,7 +6,7 @@ For more details, be sure to check out the documentation that's specific to each
 
 ## Get sample apps
 
-Before you can play around with or edit the model-driven sample apps, you must set them up in a Common Data Service database. First, create a trial environment and database, and be sure to select the **Include sample apps and data** check box.
+Before you can play around with or edit the model-driven sample apps, you must set them up in a Common Data Service database. First, create a trial environment and a database, and be sure to select the **Include sample apps and data** check box.
 
 > [!IMPORTANT]
 > By selecting this check box, you install all available sample apps in your database. Sample apps are for educational and demonstration purposes. We don't recommend installing them in production databases.
@@ -38,4 +38,3 @@ Before you can play around with or edit the model-driven sample apps, you must s
 1. Select **Show Visual Filter**.
 
 You successfully ran a sample model-driven app, added a new fundraiser, and added a donation to the fundraiser.
-
