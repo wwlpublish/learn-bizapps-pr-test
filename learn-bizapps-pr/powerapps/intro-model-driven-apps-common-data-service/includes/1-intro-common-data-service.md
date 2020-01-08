@@ -1,17 +1,17 @@
-Whether you are building a Canvas App or Model-driven App, the Common
+Whether you are building a canvas app or model-driven app, Common
 Data Service is going to be the ideal data source. Why? Because it is
 the foundational data source of the Power Platform. This means you will
 see the most functionality, the deepest integrations, the most features,
 and the best ease of use for any of the available data sources. From
-simple, web based data design to applying robust role based security the
-Common Data Source is an easy platform to get started designing your
-data structures and keeping them safe. Then with your data in place you
+simple web based data design to applying robust role based security, the
+Common Data Service is an easy platform to get started designing your
+data structures and keeping them safe. Then with your data in place, you
 have rich integration capabilities from Power Apps and the rest of the
-Power Platform. And by applying business rules you can trust your
+Power Platform. And by applying business rules, you can trust your
 business integrity will be maintained no matter what tool you use to
 interact with the data.
 
-Another great thing about utilizing the Common Data Service is that all
+Another great thing about utilizing Common Data Service is that all
 of your data is stored in entities. An entity is a set of records used
 to store data, similar to how a table stores data within a database.
 Common Data Service includes a base set of standard entities that cover
@@ -31,10 +31,10 @@ of using the Common Data Service and entities:
     control access to entities for different users within your
     organization.
 
--   **Access your Dynamics 365 Data** - Data from your Dynamics 365
-    application is also stored within the Common Data Service allowing
-    you to quickly build apps which leverage your Dynamics 365 data and
-    extend your apps using Power Apps.
+-   **Access your Dynamics 365 Data** - If you use Dynamics 365, data 
+    from your Dynamics 365 application is also stored within Common Data 
+    Service allowing you to quickly build apps which leverage your 
+    Dynamics 365 data and extend your apps using Power Apps.
 
 -   **Rich metadata** - Data types and relationships are leveraged
     directly within Power Apps.
@@ -47,8 +47,6 @@ of using the Common Data Service and entities:
     for Microsoft Excel to increase productivity and ensure data
     accessibility.
 
-Taken from [https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro/?azure-portal=true).
-
-With a better understanding of how the Common Data Service works and
-some of the benefits let's take a look at how these can be applied in a
-Model-driven App.
+Now that you have a better understanding of how Common Data Service works and
+are aware of some of the benefits, let's take a look at how these can be applied 
+in a model-driven app.
