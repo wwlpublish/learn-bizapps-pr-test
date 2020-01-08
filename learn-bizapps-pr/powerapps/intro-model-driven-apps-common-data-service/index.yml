@@ -34,7 +34,7 @@ units:
 - learn-bizapps.intro-model-driven-apps-common-data-service.2-intro-model-driven-apps 
 - learn-bizapps.intro-model-driven-apps-common-data-service.3-work-together 
 - learn-bizapps.intro-model-driven-apps-common-data-service.4-template-apps 
-- learn-bizapps.intro-model-driven-apps-common-data-service.5-summary
-- learn-bizapps.intro-model-driven-apps-common-data-service.6-check 
+- learn-bizapps.intro-model-driven-apps-common-data-service.5-check
+- learn-bizapps.intro-model-driven-apps-common-data-service.6-summary 
 badge: 
   uid: learn-dynamics.intro-model-driven-apps-common-data-service.badge 
