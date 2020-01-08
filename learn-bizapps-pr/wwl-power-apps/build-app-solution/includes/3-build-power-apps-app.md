@@ -21,8 +21,8 @@ If you do not have a Power Apps account available, you can sign up for a free Po
 7. For Choose an Excel file on the right select the **Contoso Site Tracking.xlsx** file.
 
 8. For Choose a table click **SiteInspector** and click **Connect**.
-    [!div class="mx-imgBorder"]
-    ![App published view](../media/site-inspector.png)
+    > [!div class="mx-imgBorder"]
+    > ![App published view](../media/site-inspector.png)
 
 Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point. Generated apps are always based on a single list or table, but you can add more data to the app later.
 
@@ -31,8 +31,8 @@ Power Apps generates the app by inspecting your data and matching it with Power 
 Your new three-screen app now opens in Power Apps Studio.
 
 The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.
-    [!div class="mx-imgBorder"]
-    ![App editor view](../media/power-apps-edit.png)
+    > [!div class="mx-imgBorder"]
+    > ![App editor view](../media/power-apps-edit.png)
 
 Select Play  ![Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 
@@ -70,8 +70,8 @@ Controls in the browse screen that you'll want to become familiar with include:
 - **NextArrow1** - When this control is selected, it opens the details screen.
 
 - **IconNewItem1** - When this control is selected, it opens the edit/create screen.
-    [!div class="mx-imgBorder"]
-    ![Published view highlighted controls](../media/controls.png)
+    > [!div class="mx-imgBorder"]
+    > ![Published view highlighted controls](../media/controls.png)
 
 ## Explore the details screen
 The details screen is named **DetailScreen1** by default. Some of its controls are as follows:
