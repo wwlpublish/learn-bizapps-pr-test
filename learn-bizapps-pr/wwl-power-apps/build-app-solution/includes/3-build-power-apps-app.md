@@ -2,7 +2,7 @@ In this unit, you'll generate a mobile app where the data source is a Microsoft 
 
 This example uses Excel, but keep in mind that you can use data from many other sources, including the Common Data Service, Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server. This gives you the flexibility to build your app from your data no matter where it lives. 
 
-If you do not have a Power Apps account available, you can sign up for a free Power Apps Community Plan. This will allow you to learn and explore Power Apps in your own environment. For more information and to sign up go to [https://Power Apps.microsoft.com/communityplan/](https://Power Apps.microsoft.com/communityplan/)
+If you do not have a Power Apps account available, you can sign up for a free Power Apps Community Plan. This will allow you to learn and explore Power Apps in your own environment. For more information and to sign up go to [https://powerapps.microsoft.com/communityplan/](https://powerapps.microsoft.com/communityplan/)
 
 ## Connect to a data source
 
@@ -10,7 +10,7 @@ If you do not have a Power Apps account available, you can sign up for a free Po
 
 2. Download the [Contoso file](https://github.com/MicrosoftDocs/mslearn-build-app-solution/blob/master/downloads/Contoso-Site-Tracking.zip?raw=true), extract all of the files and save them to your OneDrive for Business.
 
-3. Go to [https://make.Power Apps.com](https://make.powerapps.com/) and sign in with your organizational account.
+3. Go to [https://make.powerapps.com](https://make.powerapps.com/) and sign in with your organizational account.
 
 4. In the left pane, select **Create**.
 
@@ -20,9 +20,9 @@ If you do not have a Power Apps account available, you can sign up for a free Po
 
 7. For Choose an Excel file on the right select the **Contoso Site Tracking.xlsx** file.
 
-8. For Choose a table click **Siteinspector** and click **Connect**.
-
-![App published view](../media/img1.png)
+8. For Choose a table click **SiteInspector** and click **Connect**.
+    > [!div class="mx-imgBorder"]
+    > ![App published view](../media/site-inspector.png)
 
 Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point. Generated apps are always based on a single list or table, but you can add more data to the app later.
 
@@ -31,10 +31,10 @@ Power Apps generates the app by inspecting your data and matching it with Power 
 Your new three-screen app now opens in Power Apps Studio.
 
 The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.
+    > [!div class="mx-imgBorder"]
+    > ![App editor view](../media/power-apps-edit.png)
 
-![App editor view](../media/img2.png)
-
-Select Play  ![Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
+Select Play [Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 
 All apps that are generated from data have the same set of screens that you can view from the Screens pane:
 
@@ -70,8 +70,8 @@ Controls in the browse screen that you'll want to become familiar with include:
 - **NextArrow1** - When this control is selected, it opens the details screen.
 
 - **IconNewItem1** - When this control is selected, it opens the edit/create screen.
-
-![Published view highlighted controls](../media/img11.png)
+    > [!div class="mx-imgBorder"]
+    > ![Published view highlighted controls](../media/controls.png)
 
 ## Explore the details screen
 The details screen is named **DetailScreen1** by default. Some of its controls are as follows:
@@ -81,8 +81,8 @@ The details screen is named **DetailScreen1** by default. Some of its controls a
 - **Title_DataCard1** - This is a card control. Each card represents a single field of the record. In this case, it shows the Title from the Site Inspector table, as shown in the previous unit.
 
 - **IconEdit1** - When this control is selected, it opens the edit/create screen so that the user can edit the current item.
-
-![Details screen with highlighted controls](../media/img12.png)
+    > [!div class="mx-imgBorder"]
+    >![Details screen with highlighted controls](../media/details-screen.png)
 
 ## Explore the edit/create screen
 The third screen in the app is **EditScreen1**. Some of its controls include:
@@ -92,8 +92,8 @@ The third screen in the app is **EditScreen1**. Some of its controls include:
 - **Address_DataCard2** - This is a card control that shows the address from the Site Inspector table, as shown in the previous unit.
 
 - **IconAccept1** - When this control is selected, it saves the user's changes.
-
-![Edit screen with highlighted controls](../media/img13.png)
+    > [!div class="mx-imgBorder"]
+    >![Edit screen with highlighted controls](../media/power-apps-edit-screen.png)
 
 ## Customize the app
 While the default screens make a useful app out of the box, you'll often want to customize a generated app to suit your needs.
@@ -106,24 +106,25 @@ To improve the layout, use the following procedure:
 
 1.	On the Screens pane on the left, select BrowseGallery1.
     The selection box around the gallery confirms your choice.
-
-![Browse screen](../media/img3.png)
+    > [!div class="mx-imgBorder"]
+    >![Browse screen](../media/browse-screen.png)
 
 2. On the right pane, open the Data pane by selecting the drop-down menu next to **Layout**.
-
-![Layout templates](../media/img4.png)
+    > [!div class="mx-imgBorder"]
+    >![Layout templates](../media/layout-templates.png)
 
 3. Select the layout **Image, title, and subtitle** for a cleaner look.
 
 4. Select the **Address** of the item at the top of the gallery.
-
-![Text edit view](../media/img5.png)
+    > [!div class="mx-imgBorder"]
+    >![Text edit view](../media/power-apps-text-edit-view.png)
 
 5. Change **ThisItem.Address** to **ThisItem.Title** in the formula bar.
 
 6. Repeat the previous two steps but change the other **Label** control to show the price of each item by setting it to **ThisItem.Description**.
-
-![Text edit confirmed preview](../media/img6.png)
+   
+   > [!div class="mx-imgBorder"]
+   >![Text edit confirmed preview](../media/power-apps-text-preview.png)
 
 Changing the layout of a gallery and the types of data that it shows is that simple, and you might find that it's fun, too.
 
@@ -134,8 +135,8 @@ On the details screen, you want to change the order of the fields. The controls 
 1. On the Tree view on the left, select **DetailScreen1 > DetailForm1**. This will change the screen shown in the studio.
 
 2. On the right pane, select **Edit fields**.
-
-![Detail edit form](../media/img7.png)
+    > [!div class="mx-imgBorder"]
+    >![Detail edit form](../media/detail-edit-form.png)
 
 3. Click the **+ Add field** button at the top of the Fields section.
 
@@ -144,8 +145,8 @@ On the details screen, you want to change the order of the fields. The controls 
 5. Now you can rearrange the order by **clicking and holding on Title** and then **dragging** it to the **top** of the screen.
 
 6. You can also remove fields that you don't want to display to the users like the ID column. From the list of Fields click **ID** to expand it, click the **…**, and choose **X Remove**.
-
-![field edit form view](../media/img8.png)
+    > [!div class="mx-imgBorder"]
+    >![field edit form view](../media/field-edit-form-view.png)
 
 ## Edit/create screen
 
@@ -156,8 +157,8 @@ On the screen where your users edit and create entries, you want to make it easi
 2. On the right pane, select **Edit fields**.
 
 3. Expand **Description**. Select the drop-down arrow for the **Control type** and then select **Edit multi-line text**.
-
-![Control text edit options](../media/img9.png)
+    > [!div class="mx-imgBorder"]
+    >![Control text edit options](../media/control-text-edit-options.png)
 
 4. A multi-line edit control will simplify your user's ability to add more than a few words in this field. You could also reorder the fields to match the order from the Details screen to give the user a more consistent experience.
 
@@ -168,8 +169,8 @@ A few basic steps can greatly improve the appearance and experience of using an 
 A control is a UI element that produces an action or shows information. Many controls in Power Apps are similar to controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on.
 
 In addition to these typical controls, Power Apps has more specialized controls, which you can find on the **Insert** tab.
-
-![Control type list](../media/img10.png)
+    > [!div class="mx-imgBorder"]
+    >![Control type list](../media/control-type-list.png)
 
 A few controls that can add interest and impact to your apps include:
 

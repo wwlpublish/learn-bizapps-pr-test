@@ -1,14 +1,14 @@
 ### YamlMime:Module
 uid: learn-bizapps.wwl.build-app-solution
 metadata:
-  title: How to Build an App Solution
-  description: How to Build an App Solution
-  ms.date: 12/20/2019
+  title: How to build an app solution
+  description: "How to build an app solution"
+  ms.date: 01/02/2020
   author: wwlpublish
   ms.author: styang
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
-title: How to Build an App Solution
+title: How to build an app solution
 summary: Power Apps allows businesses to create custom solutions for everyday problems. In this module, you will learn how to build and customize an app from scratch.
 abstract: |
   In this module, you will:
@@ -18,7 +18,7 @@ abstract: |
   - Configure and manage app settings
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/build-app-solution.svg
 levels:
 - beginner
 roles:
