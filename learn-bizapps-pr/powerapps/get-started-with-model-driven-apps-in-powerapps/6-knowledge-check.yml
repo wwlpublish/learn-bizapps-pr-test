@@ -21,12 +21,12 @@ quiz:
     - content: View designer
       isCorrect: false
       explanation: The site map is used to define the navigation of your app.
-    - content: Site map
+    - content: Site map designer
       isCorrect: true 
       explanation: The site map is used to define the navigation of your app.
     - content: Dashboard designer
       isCorrect: false
-      explanation: The site map is used to define the navigation of your app.
+      explanation: The site map designer is used to define the navigation of your app.
   - content: If you wanted to create a standard procedure or process for handling service requests what type of logic would be best to implement?
     choices: 
     - content: Business process flow
