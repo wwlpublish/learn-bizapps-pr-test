@@ -27,60 +27,58 @@ First, let's create the SharePoint list.
 
 ## Step two: Create an approval request flow
 
-1. Sign in to [Power Automate](https://ms.flow.microsoft.com/en-us/), and then select **Approvals**.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com/), and then select **Approvals**.
 
-2. Select **Create approval flow**, and then scroll down and select the **Post list items to Twitter after approval** template.
+2. Select **Create approval flow**, and then scroll down and select the **Post list items to Twitter after approval** template.  
     ![Create Approval button](../media/create-approval.png)
 
-3. Make sure that your account credentials for **SharePoint**, **Approvals**, and **Twitter** are correct, and then select **Continue**.
+3. Make sure that your account credentials for **SharePoint**, **Approvals**, and **Twitter** are correct, and then select **Continue**.  
     ![Linked account credentials](../media/verify-credentials.png)
 
 4. Back in Microsoft Flow, in the **When a new item is created** action, enter the following values:
 
     - **Site Address**: Enter the URL of your team's SharePoint site.
 
-    - **List Name**: Select *ContosoTweets*.
-    
-    ![Create new items form list options](../media/site-address.png)
+    - **List Name**: Select *ContosoTweets*.      
+        ![Create new items form list options](../media/site-address.png)
 
-5. In the **Start an approval action**, select **Edit** to show all the fields.
+5. In the **Start an approval action**, select **Edit** to show all the fields.  
     ![Start an approval form highilghting Edit](../media/edit-all-fields.png)
 
-6. In the **Title** field, enter *New tweet for*, and then select **Title** in the dynamic content list.
+6. In the **Title** field, enter *New tweet for*, and then select **Title** in the dynamic content list.  
     ![Title form options](../media/tweet-title.png)
 
-7. In the **Assigned to** field, enter and select either your name or the name of a test user.
+7. In the **Assigned to** field, enter and select either your name or the name of a test user.  
     ![Assigned to field in creating a new approval](../media/tweet-assigned-to.png)
 
-8. In the **Details** field, remove the default items, and add **TweetContent**, **TweetDate**, and **Created by DisplayName** from the dynamic content list. Add the words *on* and *by* to make the content more readable, as shown here.
+8. In the **Details** field, remove the default items, and add **TweetContent**, **TweetDate**, and **Created by DisplayName** from the dynamic content list. Add the words *on* and *by* to make the content more readable, as shown here.  
     ![Customizing details field](../media/tweet-details.png)
 
-9. In the **Item Link** field, paste the URL of your SharePoint list, which you copied in the previous procedure. In the **Item Link Description** field, enter *Contoso Tweet List*.
-    
+9. In the **Item Link** field, paste the URL of your SharePoint list, which you copied in the previous procedure. In the **Item Link Description** field, enter *Contoso Tweet List*.      
     ![Item link field](../media/tweet-item-link.png)
 
-10. In the **Condition** action, hover over the **IF YES** box, select the plus sign (**+**), and then select **Add an action**.
+10. In the **Condition** action, hover over the **IF YES** box, select the plus sign (**+**), and then select **Add an action**.  
     ![Editing conditions](../media/add-an-action.png)
 
-11. Search for *update item*, select the **SharePoint** connector, and then select the **SharePoint – Update item** action.
+11. Search for *update item*, select the **SharePoint** connector, and then select the **SharePoint – Update item** action.  
     ![Adding SharePoint as a connector](../media/update-item.png)
 
-12. In the **Site Address**, enter the URL of the team's SharePoint site again. In the **List Name** field, select *ContosoTweets* again. In the **Id** field, add **ID** from the dynamic content list. The **Id** field is used to match the actual tweet request in the SharePoint list.
+12. In the **Site Address**, enter the URL of the team's SharePoint site again. In the **List Name** field, select *ContosoTweets* again. In the **Id** field, add **ID** from the dynamic content list. The **Id** field is used to match the actual tweet request in the SharePoint list.  
     ![Pulling in ID Field](../media/address-list-id.png)
 
-13. Select the **Title** field, and then, in the dynamic content list, search for *title*. Add **Title** from the **When a new item is created** action.
+13. Select the **Title** field, and then, in the dynamic content list, search for *title*. Add **Title** from the **When a new item is created** action.  
     ![Pulling in Title field](../media/add-title.png)
 
-14. In the **ApprovalStatus** field, select *Yes*. Then select the **ApproverComments** field, and add **Comments** from the dynamic content list.
+14. In the **ApprovalStatus** field, select *Yes*. Then select the **ApproverComments** field, and add **Comments** from the dynamic content list.  
     ![Pulling in Comments field](../media/approver-status.png)
 
-15. Near the bottom of the **IF NO, DO NOTHING** box, select **Add an action**.
+15. Near the bottom of the **IF NO, DO NOTHING** box, select **Add an action**.  
     ![Confirmation add an action button](../media/add-a-no-action.png)
 
-16. Repeat steps 11 through 14 to create a **SharePoint – Update item** action. Set the same values that you set for the **IF YES** condition. The only difference is that you set the **ApprovalStatus** field to *No* this time.
+16. Repeat steps 11 through 14 to create a **SharePoint – Update item** action. Set the same values that you set for the **IF YES** condition. The only difference is that you set the **ApprovalStatus** field to *No* this time.  
     ![Update item to not approved status](../media/status-no.png)
 
-17. Select the **Post a tweet** action, and select **Edit**. Then select the **Tweet text** field, and add **TweetContent** from the dynamic content list. This step will create the actual tweet and then post it to Twitter when it's approved.
+17. Select the **Post a tweet** action, and select **Edit**. Then select the **Tweet text** field, and add **TweetContent** from the dynamic content list. This step will create the actual tweet and then post it to Twitter when it's approved.  
     ![Tween content field](../media/post-tweet.png)
 
 18. Select **Save**.
