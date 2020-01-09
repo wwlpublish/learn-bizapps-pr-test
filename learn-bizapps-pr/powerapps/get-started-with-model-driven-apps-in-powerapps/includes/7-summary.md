@@ -5,6 +5,6 @@ Defining and enforcing consistent business processes is a key aspect of model-dr
 Let's review what you've learned:
 
 - Model-driven app design is an approach that focuses on quickly adding components to apps. These components include dashboards, forms, views, and charts. 
-- No code is required to build model-driven apps.
+- Little or no code is required to build model-driven apps.
 - Model-driven design uses metadata-driven architecture so that designers can customize their apps.
 - The best way to get started building model-driven apps is to use sample apps and data; then customize the apps.
