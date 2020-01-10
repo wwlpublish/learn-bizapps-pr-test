@@ -20,7 +20,7 @@ The user interface components determine how users will interact with the app.
 | Form      | Forms include a set of data entry fields for a given entity. This set of data entry fields matches the items that your organization tracks for the entity. One example is a set of data entry fields where users enter relevant information to track a customer's previous orders together with specific requested reorder dates. | Form designer |
 | View      | Views define how a list of records for a specific entity appears in your app. A view defines the columns shown, the width of each column, the sort behavior, and the default filters. | View designer |
 
-![App designer and form designer](../media/app-and-form-designers.png)
+![App designer and form designer](../media/updated-app-and-form-designers.png)
 
 ## Logic
 The logic components determine what business processes, rules, and automation the app will have. Microsoft Power Apps makers use a designer that's specific to the type of process or rule.
