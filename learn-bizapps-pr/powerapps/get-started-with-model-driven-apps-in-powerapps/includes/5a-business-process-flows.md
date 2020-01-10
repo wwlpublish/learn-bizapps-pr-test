@@ -18,7 +18,7 @@ defined for interactions that need to be advanced to a conclusion of some kind.
 This user experience can be tailored so that people with different security 
 roles can have an experience that best suits the work they do.
 
-You should wse business process flows to define a set of steps for people to 
+You should use business process flows to define a set of steps for people to 
 follow to take them to a desired outcome. These steps provide a visual indicator 
 that tells people where they are in the business process. 
 
