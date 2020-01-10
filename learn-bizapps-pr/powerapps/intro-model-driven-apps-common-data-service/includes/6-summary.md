@@ -1,6 +1,7 @@
-The goal of this module was to help you become familiar with the basics of Common Data Service and creating 
-model-driven apps. Common Data Service lets you store and manage 
-data that is used by business applications. Entities within Common Data Service 
+The goal of this module was to help you become familiar with the 
+basics of Common Data Service and creating model-driven apps. 
+Common Data Service lets you store and manage data that is used 
+by business applications. Entities within Common Data Service 
 are used to store data.
 
 To review, this module explained the following concepts:
