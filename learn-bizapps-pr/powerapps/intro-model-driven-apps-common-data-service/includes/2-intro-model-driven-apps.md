@@ -1,20 +1,20 @@
-Unlike canvas apps, where you build out an app screen by screen adding
+Unlike canvas apps, where you build out an app screen-by-screen by adding
 logic and code as you go, model-driven apps can be created with a few
-clicks of the mouse. How? Model-driven apps use a component-focused
-approach to develop the app. This also means though, when developing
-canvas apps you have complete control over the look and feel, whereas
-with model-driven apps, the layout is mainly based on the components you
+simple steps. Model-driven apps use a component-focused
+approach to develop the app. When developing
+canvas apps, you have complete control over the appearance and behavior, whereas
+with model-driven apps, the layout is mainly based on the components that you
 add to the app. 
 
-There are a number of different components and component properties you 
-can add and modify when designing an app.
+With model-driven apps, a number of different components and component properties are available for you 
+to add and modify when designing an app.
 
 Model-driven app design provides the following benefits:
 
--   Rich component-focused no-code design environments
+-   Rich component-focused, no-code design environments
 
--   Create complex responsive apps with a similar UI across a variety of devices from desktop to mobile
+-   An ability to create complex responsive apps with a similar UI across a variety of devices from desktop to mobile
 
--   Rich design capability
+-   Robust design capability
 
--   Your app can be distributed as a solution
+-   Apps can be distributed as a solution
