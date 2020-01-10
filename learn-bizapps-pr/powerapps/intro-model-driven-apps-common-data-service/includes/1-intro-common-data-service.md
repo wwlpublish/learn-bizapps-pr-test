@@ -18,7 +18,7 @@ Common Data Service includes a base set of standard entities that cover
 typical scenarios, but you can also create custom entities that are specific to
 your organization. Standard and custom entities within Common Data
 Service help provide a secure and cloud-based storage option for your data.
-Entities allow you create a business-focused definition of your
+Entities allow you to create a business-focused definition of your
 organization's data for use within apps. 
 
 Some benefits of using Common Data Service and its entities include:
@@ -49,5 +49,5 @@ Some benefits of using Common Data Service and its entities include:
     accessibility.
 
 Now that you have a better understanding of how Common Data Service works and
-are aware of some of the benefits, you can now explore how these can be applied 
+are aware of some of the benefits, you can now explore how these benefits can be applied 
 in a model-driven app.
