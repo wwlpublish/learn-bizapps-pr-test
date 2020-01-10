@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.intro-model-driven-apps-common-data-service.3-work-together 
-title: How do the Common Data Service and a model-driven app work together?
+title: Common Data Service and model-driven apps working together
 metadata: 
-  title: How do the Common Data Service and a model-driven app work together? 
+  title: Common Data Service and model-driven apps working together 
   description: Learn how Common Data Service and a model-driven app work together.  
   ms.date: 1/17/2020 
   author: KevSch 
