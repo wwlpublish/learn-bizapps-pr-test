@@ -31,8 +31,8 @@ For service groups, business process flows can help new staff get up to speed mo
 quickly and avoid mistakes that could result in unsatisfied customers.
 
 ### System business process flows
-The following business process flows are included. To understand how business process 
-flows work, review these system business process flows:
+The following business process flows can be found in Power Automate. To understand 
+how business process flows work, review these system business process flows:
 
 - Lead to Opportunity Sales Process
 - Opportunity Sales Process
