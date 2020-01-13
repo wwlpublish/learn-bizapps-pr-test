@@ -14,7 +14,7 @@ durationInMinutes: 3
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Your social media engagement officer has requested your help in boosting followers and retweets on Twitter. How could you help her get more information to better understand and susequently increase engagement?"
+  - content: "Your social media engagement officer has requested your help in boosting followers and retweets on Twitter. How could you help her get more information to better understand and subsequently increase engagement?"
     choices:
     - content: "Configure a Power BI report to capture and analyze data from Twitter, allowing you to better understand why certain posts elicit more responses."
       isCorrect: true
