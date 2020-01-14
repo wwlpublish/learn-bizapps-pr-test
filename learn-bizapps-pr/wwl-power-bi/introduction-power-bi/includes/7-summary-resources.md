@@ -26,7 +26,7 @@ Use these resources to discover more.
 > [!TIP]
 > To open a resource link, right-click and select "Open in a new tab or window". That way, you can check out the resource and easily return to the module tab to unlock your achievement when done.
 
-### Security and Administration
+### Security and administration
 
 - [Security Documentation](https://docs.microsoft.com/power-bi/service-admin-power-bi-security)
 
