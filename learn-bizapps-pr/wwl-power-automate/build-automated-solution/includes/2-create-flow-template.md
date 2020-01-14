@@ -1,5 +1,5 @@
 With the hundreds of triggers, actions and connectors sometimes the hardest part about Power Automate can be figuring out where to get started. To help you get started, there are countless flow templates available to help you build a solution. To see all of the available templates you can sign into [Power Automate](https://ms.flow.microsoft.com/), and select **Templates** from the left-hand menu. 
-    ![Power Automate template archive](../media/img1.png)
+    [![Power Automate template archive](../media/img1.png)](../media/img1-1.png)
 
 From here, you can search by a specific word or phrase like "Common Data Service" or you can browse based on category. 
 
@@ -56,4 +56,3 @@ When defining triggers, there are a few different types:
 - On a schedule: You can set up a flow to be triggered at a certain time of a day and with a recurrence. This allows for workflows such as checking every day at 8 AM if there are account renewals pending and if so, sending an email to the necessary people.
 
 - On a button press: This trigger takes shape in many different ways. This can be when a flow virtual button is run through the mobile app, or a physical button is clicked with 3rd party options, or even when a button is pressed inside of Power Apps. This gives you that control to "run" a flow on-demand.
-
