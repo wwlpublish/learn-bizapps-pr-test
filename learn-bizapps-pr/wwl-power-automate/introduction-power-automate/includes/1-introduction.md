@@ -8,3 +8,4 @@ In this module, you will:
 > [!NOTE]
 > You may have previously known Power Automate as Microsoft Flow. In October of 2019 Microsoft Flow was renamed to Power Automate to better convey the fact the service is able to more than just create workflows. You will see that you still use Power Automate to create flows. This note is here as you will see some confusion in legacy content around Microsoft Flow and flow. This module will use the terms appropriately.
 
+ 

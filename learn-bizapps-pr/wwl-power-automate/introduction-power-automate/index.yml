@@ -2,8 +2,8 @@
 uid: learn-bizapps.wwl.introduction-power-automate
 metadata:
   title: Introduction to Power Automate
-  description: Introduction to Power Automate
-  ms.date: 12/20/2019
+  description: "Introduction to Power Automate"
+  ms.date: 01/13/2020
   author: wwlpublish
   ms.author: styang
   ms.topic: interactive-tutorial
@@ -17,7 +17,7 @@ abstract: |
   - See a video walkthrough of Power Automate
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/introduction-power-automate.svg
 levels:
 - beginner
 roles:

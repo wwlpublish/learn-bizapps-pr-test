@@ -15,6 +15,6 @@ In addition, they had systems that didn't have APIs to be used by the connectors
 
 Now they have a fully functional virtual agent for interacting with their customers that can take action on the customers' intent in a meaningful way. This is just the first step as they continue to drive better customer experiences and more business value using these tools. 
 
-To read more about the virtual agents TruGreen has built and what they have planned next, see the full case study [here](https://customers.microsoft.com/en-us/story/759484-trugreen-partner-professional-services-power-virtual-agents).
+To read more about the virtual agents TruGreen has built and what they have planned next, see the full case study [here](https://customers.microsoft.com/story/759484-trugreen-partner-professional-services-power-virtual-agents).
 
 In the next unit, you will get an overview of some of these solutions in Power Automate and learn how you can get started with building your own flows.

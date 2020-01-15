@@ -64,4 +64,4 @@ Use these resources to discover more. To open a resource link, right-click and s
 - [Use custom connectors in a PowerApps canvas app](https://docs.microsoft.com/learn/modules/use-custom-connectors-in-powerapps-canvas-app/)
 
 ### Get started with Power Virtual Agents
-- [Power Virtual Agents](https://powervirtualagents.microsoft.com/en-us/)
+- [Power Virtual Agents](https://powervirtualagents.microsoft.com/)

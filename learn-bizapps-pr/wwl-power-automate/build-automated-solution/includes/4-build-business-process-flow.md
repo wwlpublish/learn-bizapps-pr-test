@@ -28,28 +28,26 @@ Business process flows are used to guide a user through the steps of your busine
 
   - Beneath this stage is the mini map, which lets you see the whole process or quickly go to a part of the process.
 
-  - On the right are components that you can drag to the designer. You can also set properties to create a business process flow.
+  - On the right are components that you can drag to the designer. You can also set properties to create a business process flow.  
     ![Power Apps business process flow designer](../media/img4.png)
 
 7. Add stages, so that users can proceed from one business stage to another in the process:
 
-  - Drag the **Stage** component from the **Components** tab to the plus sign (+) in the designer.
+  - Drag the **Stage** component from the **Components** tab to the plus sign (+) in the designer.  
     ![Stage tabs](../media/img5.png)
 
   - Select the stage, and then, on the **Properties** tab on the right, set the properties:
 
     - Enter a display name.
 
-    - Optional: Select a category for the stage (for example, **Qualify** or **Develop**). This category appears as a chevron on the process bar.
-      
+    - Optional: Select a category for the stage (for example, **Qualify** or **Develop**). This category appears as a chevron on the process bar.  
       ![Properties tab](../media/img6.png)
 
     - When you've finished setting the properties, select **Apply**.
 
 8. Add steps to each stage:
 
-  - Drag the **Step** component from the **Components** tab to the stage.
-    
+  - Drag the **Step** component from the **Components** tab to the stage.  
     ![Adding steps to each stage](../media/img7.png)
 
   - Select the step, and then, on the **Properties** tab, set the properties:
@@ -64,7 +62,7 @@ Business process flows are used to guide a user through the steps of your busine
 
 9. Add a branch (condition) to the process:
 
-  - Drag the **Condition** component from the **Components** tab to the plus sign (+) between two stages.
+  - Drag the **Condition** component from the **Components** tab to the plus sign (+) between two stages.  
     ![Condition branches](../media/img8.png)
 
   - Select the condition, and then, on the Properties tab, set the properties. When you've finished, select Apply.
@@ -97,7 +95,7 @@ Business process flows are used to guide a user through the steps of your busine
 
   - In the **Security Roles** pane, select the name of a role to open the details page for that role.
 
-  - On the **Business Process Flows** tab, select options to assign the role appropriate privileges for the business process flow.
+  - On the **Business Process Flows** tab, select options to assign the role appropriate privileges for the business process flow.  
     ![Business process flow tab for security roles](../media/img9.png)
 
   - Select **Save**.
