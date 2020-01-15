@@ -12,11 +12,6 @@ Suppose that you're the Marketing Manager for a clothing manufacturing company n
 
 ![Power BI dashboard](../media/1-3/power-bi-dashboard.png)
 
-You'll find dashboards on your Home page. Look for the dashboard icon ![dashboard icon](../media/1-3/power-bi-dashboard-icon.png), and select to open.
-
-![Power BI dashboard](../media/1-3/power-bi-open-dash/power-bi-open-dash.gif)
-
-
 #### Hover to view details
 Tiles on a dashboard are more than just pictures. Hover over a tile to view details about the data behind the visual on both dashboards and reports. 
 
@@ -24,11 +19,7 @@ Tiles on a dashboard are more than just pictures. Hover over a tile to view deta
 
 
 ### Open a report from a dashboard
-The tiles on your dashboard are visualizations from reports. Opening a report is as simple as selecting a tile. 
-
-![Power BI report](../media/1-3/power-bi-open-report/power-bi-open-report.gif)
-
-The report opens to a page that contains the content that you selected. 
+The tiles on your dashboard are visualizations from reports. Opening a report is as simple as selecting a tile. The report opens to a page that contains the content that you selected. 
 
 ![Power BI report opens](../media/1-3/power-bi-open-report2.png)
 
@@ -41,12 +32,10 @@ Now that a report is open, you can explore it.
 
 The first thing you might notice is that the navigation pane is still available for you to move around in Power BI. Because you’re going to concentrate on the report canvas at this time, collapse the navigation pane by selecting the "hamburger" ![hamburger](../media/1-3/power-bi-hamburger.png) icon.
 
-![Collapse left navigation](../media/1-3/power-bi-collapse-left-nav.png)
-
 
 #### Visit report pages
 
-When you receive a new report, you'll want to familiarize yourself with the data and insights it contains. A good way to start is by visiting each of the report pages. Each tab at the bottom of the report canvas represents a report page. Select a tab to display that page.
+When you receive a new report, you'll want to familiarize yourself with the data and insights it contains. A good way to start is by visiting each of the report pages. Report page names are now in a list in a vertical pane. Select a name to display that page.
 
 Each page has a different set of visualizations that tell a story. In this example, the **Sentiment** page compares how customers feel about the Van Arsdel company and industry, by month and geography. After a dip mid-year, the company’s positive sentiment is at an all-time high.
 
@@ -61,8 +50,6 @@ Reports can be viewed on many different devices, with varying screen sizes and a
 
 The **View** menu has many options that control how your report page displays. Select the option that works best for your screen size, the audience you are presenting to, and your personal preference. 
 
-![Remove scrollbars](../media/1-3/power-bi-no-scroll.png)
-
 To meet your accessibility needs, use the **High contrast colors** option. 
 
 ![report in yellow and black](../media/1-3/power-bi-contrast.png)
@@ -73,18 +60,10 @@ To meet your accessibility needs, use the **High contrast colors** option.
 
 A report designer might give you alternative views of the same data. For example, while one view shows data for the Central region, another view shows data for the Southern region, and a third for the Northern region. By selecting a bookmark, you can switch between the three different views of the same report page.  
 
-Not all reports have bookmarks. To determine if your report does, open the Bookmarks pane from the **View** menu. 
+Not all reports have bookmarks. To determine if your report does, open the **Bookmarks** menu. 
 
 ![open View menu](../media/1-3/power-bi-bookmarks.png)
 
-
-> [!TIP] 
-> You’ll learn how to create your own personal bookmarks in Module 2.
-
-
-In the following example, the **Market Share** page has two bookmarks: B1 and B2. Watch what happens when each bookmark is selected. 
-
-![video showing bookmarks](../media/1-3/power-bi-bookmarks/power-bi-bookmarks.gif)
 
 
 #### Understand the way your report is filtered

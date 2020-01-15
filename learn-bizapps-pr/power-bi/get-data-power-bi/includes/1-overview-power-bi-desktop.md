@@ -12,6 +12,9 @@ The following are the tasks that you will complete in this module:
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3kZ3T]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
+
 To perform the exercises in this module, you’ll need to have Power BI desktop installed and have a Power BI Service account set up. 
 
 ## Download Power BI Desktop
@@ -28,4 +31,5 @@ Before you can sign in to Power BI, you'll need an account. To get a free trial,
 
 For detailed steps on setting up an account, see [Sign in to Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-sign-in).
 
-
+## Download sample data
+To follow along with the examples in the videos and on the pages, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).

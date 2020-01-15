@@ -8,7 +8,7 @@ If you do not have a Power Apps account available, you can sign up for a free Po
 
 1. To connect to a data source, use the following procedure:
 
-2. Download the [Contoso file](https://github.com/MicrosoftDocs/mslearn-build-app-solution/blob/master/downloads/Contoso-Site-Tracking.zip?raw=true), extract all of the files and save them to your OneDrive for Business.
+2. Download the [Contoso file](https://github.com/MicrosoftDocs/mslearn-build-app-solution/raw/master/downloads/Contoso-Site-Tracking.zip), extract all of the files and save them to your OneDrive for Business.
 
 3. Go to [https://make.powerapps.com](https://make.powerapps.com/) and sign in with your organizational account.
 

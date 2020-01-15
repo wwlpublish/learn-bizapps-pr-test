@@ -127,8 +127,7 @@ After creating a bookmark, you can display it by selecting the bookmark name in 
 
 ### Open and view bookmarks
 
-The report designer will sometimes include bookmarks as part of the report. To view either your personal bookmark or a report bookmark, select the bookmark icon and make your selection. Bookmark icons are listed on the Bookmark pane.
+The report designer will sometimes include bookmarks as part of the report. To view either your personal bookmark or a report bookmark, select the bookmark icon and make your selection. Bookmark icons are listed on the Bookmark pane that you can open by selecting **Bookmarks > Show more bookmarks**. 
 
 ![Image of opening bookmarks.](../media/2-1/power-bi-open-bookmark.png)
-
 
