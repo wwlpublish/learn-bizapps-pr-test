@@ -84,4 +84,3 @@ Model driven apps can use all actions available on business rules, however not a
 - Show or hide fields
 - Enable or disable fields
 - Create business recommendations based on business intelligence.
-
