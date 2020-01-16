@@ -79,9 +79,9 @@ customers for your app.
 
 ### Importing Data from an Excel file
 
-Save the Excel spreadsheet (named Prospects.xlsx) that is located
-[here](Prospects.csv) locally. You can review it before proceeding
-with the following steps.
+Save the Excel spreadsheet (named Prospects) that is located on the 
+[Power Apps page](https://powerapps.microsoft.com) locally. You can review it 
+before proceeding with the following steps.
 
 1. Open the file. Notice the “Stage” column is empty, you will need to look these up and enter them manually. 
 1. On the left, click **Option sets**.
