@@ -1,13 +1,13 @@
 ### Download, install and login into the mobile app
 
--   Go to the **App Store** of your smart phone or table and search for
+1. Go to the **App Store** of your smart phone or table and search for
     **Power Automate**.
 
-    ![Power Automate app from App Store](../media/power-automate-app-from-app-store.png)
+	![Power Automate app from App Store](../media/power-automate-app-from-app-store.png)
 
--   Download the app.
+1. Download the app.
 
--   Login using your Office 365 credentials.
+1. Login using your Office 365 credentials.
 
 ### Navigate to the Buttons tab
 
