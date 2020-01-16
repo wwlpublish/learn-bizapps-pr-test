@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: |
   [!include[](../includes/unit-banner.md)]
-  [!include[](includes/5b-create-a-model-driven-application)]
+  [!include[](includes/5b-create-a-model-driven-application.md)]
