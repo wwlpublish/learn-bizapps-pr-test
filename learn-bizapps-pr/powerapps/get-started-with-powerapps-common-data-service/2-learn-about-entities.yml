@@ -4,11 +4,11 @@ title: Learn about entities
 metadata: 
   title: Learn about entities
   description: Learn about entities
-  ms.date: 01/14/2020
+  ms.date: 01/17/2020
   author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-durationInMinutes: 12 
+durationInMinutes: 10 
 content: | 
   [!include[](includes/2-learn-about-entities.md)]  
