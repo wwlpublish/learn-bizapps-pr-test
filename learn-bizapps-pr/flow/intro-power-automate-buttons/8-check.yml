@@ -1,0 +1,82 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-power-automate-buttons.8-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 02/07/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: There are how many types of flow buttons?
+    choices: 
+    - content: 2
+      isCorrect: false
+      explanation: There are three types of flow buttons.
+    - content: 4
+      isCorrect: false 
+      explanation: There are three types of flow buttons.
+    - content: 5
+      isCorrect: false 
+      explanation: There are three types of flow buttons.
+    - content: 3
+      isCorrect: true
+      explanation: There are three types of flow buttons.
+  - content: There are how many ways to share a button?
+    choices: 
+    - content: 1
+      isCorrect: false
+      explanation: There are two ways to share a button.
+    - content: 2
+      isCorrect: true
+      explanation: There are two ways to share a button.
+    - content: 3
+      isCorrect: false 
+      explanation: There are two ways to share a button.
+    - content: 4
+      isCorrect: false 
+      explanation: There are two ways to share a button.
+  - content: What are the three things to check when troubleshooting a flow?
+    choices: 
+    - content: Internet connection, device OS and Language.
+      isCorrect: false
+      explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
+    - content: Device OS, Location and screen-size.
+      isCorrect: false 
+      explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
+    - content: User authorization, Data connections and Power Automate actions or conditions.
+      isCorrect: true
+      explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
+    - content: User interface, flow condition and internet connection.
+      isCorrect: false 
+      explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
+  - content: What time and location does trigger token use?
+    choices: 
+    - content: Uses the time and the geographic location of the device.
+      isCorrect: true 
+      explanation: Trigger token uses the time and the geographic location of the device. 
+    - content: Uses the time and the geographic location of the tenants HQ office.
+      isCorrect: false 
+      explanation: Trigger token uses the time and the geographic location of the device. 
+    - content: Uses the time and the geographic location of the tenants Office 365 global admin.
+      isCorrect: false 
+      explanation: Trigger token uses the time and the geographic location of the device. 
+    - content: Uses the time and the geographic location of the users office.
+      isCorrect: false 
+      explanation: Trigger token uses the time and the geographic location of the device. 
+  - content: Can the button flow be built entirely from the mobile app?
+    choices: 
+    - content: Yes, with triggers, actions, and conditions.
+      isCorrect: true 
+      explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
+    - content: No, you will have to use a computer.
+      isCorrect: false 
+      explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
+    - content: Partially. You can add the button and trigger only. Actions and conditions are using a computer.
+      isCorrect: false 
+      explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
