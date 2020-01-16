@@ -4,13 +4,13 @@ on factors such as time and the geographic location of the device at a
 given moment.
 
 When you run a flow from a virtual button on a smart phone, the date,
-time and the current address where the phone is located are
+time, and the current address where the phone is located are
 automatically available for use. You can use these trigger tokens to
 build useful flows that will minimize repetitive tasks such as providing
 your location to someone or tracking how much time you spent on a
 particular job/service call.
 
-Here are the list of the button trigger tokens that are available for
+Here is the list of the button trigger tokens that are available for
 you to use when creating your button flows.
 
 | Parameter        | Description                                                                     |
@@ -39,30 +39,27 @@ A Microsoft Account with access to Microsoft Power Automate
 Here are the steps to create a Microsoft Power Automate mobile app for
 your Android or IOS smart phone.
 
-1.  In your Microsoft Power Automate app click on **Flows** icon which
-    is available at the bottom of the app, then click on the **+** icon
-    which is available on the top right.
+1.  In your Microsoft Power Automate app click on **Flows** icon, which
+    is available at the bottom of the app, then click on the **+** icon, which is available on the top right.
 
 1.  You should see a menu option slide up from the bottom, select the
     **Create from blank** option.
 
-1.  In the **Connectors** option click on **Flow button for mobile.** If
-    you don't see it then search for it in the **Search all connectors
+1.  In the **Connectors** option click on **Flow button for mobile.** If you don't see it, then search for it in the **Search all connectors
     and triggers** and then click on it.
 
 1.  Select **Flow button for mobile**.
 
 1.  In the **Manually trigger a flow** trigger click on **+** **Add an
     input** and select **Text** by clicking on **Input**, deleting
-    **Input** and typing in **Reason**. Click on **Done** which is
+    **Input, and typing in **Reason**. Click on **Done, which is
     available on the top-right.
 
 1.  Click on **+** **New step**.
 
 1.  Click on **Add an action**.
 
-1.  In the **Connectors** option click on **Office 365 Users**. If you
-    don't see it then search for it in the **Search all connectors and
+1.  In the **Connectors** option click on **Office 365 Users**. If you don't see it, then search for it in the **Search all connectors and
     triggers** and then click on it.
 
 1.  Click on **Office 365 Users Get Manager (V2)**.
@@ -73,8 +70,7 @@ your Android or IOS smart phone.
 
 1. Click on **Add an action**.
 
-1. In the **Connectors** option, click on **Office 365 Outlook**. If
-    you don't see it then search for it in the **Search all connectors
+1. In the **Connectors** option, click on **Office 365 Outlook**. If you don't see it, then search for it in the **Search all connectors
     and triggers** and then click on it.
 
 1. Select **Office 365 Outlook Send an email (V2)**.
@@ -105,8 +101,8 @@ your Android or IOS smart phone.
 
 1. Now when you click on the **Buttons** option available on the
     bottom, you should see a circular button called **Late at work**.
-    When you click on it you can add the **Reason** and click on
-    **Done** which is available on the top right of the screen.
+    When you click on it, you can add the **Reason** and click on
+    **Done, which is available on the top right of the screen.
 
-1. Clicking on **Done** will re-direct you back to the **Buttons**
+1. Clicking on **Done** will redirect you back to the **Buttons**
     screen.

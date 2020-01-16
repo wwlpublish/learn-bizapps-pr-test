@@ -30,7 +30,7 @@ submission, a notification is sent to the key people.
 ### Using a physical button
 
 There are several third-party companies such as [Flic](https://flic.io/?azure-portal=true)
-and [Bttn](https://bt.tn/?azure-portal=true) that provide physical buttons which integrate
+and [Bttn](https://bt.tn/?azure-portal=true) that provide physical buttons, which integrate
 with smart phones and can trigger your flows. The Power Automate mobile
 app is required in the smart phones. These flows do not require any user
 input.
