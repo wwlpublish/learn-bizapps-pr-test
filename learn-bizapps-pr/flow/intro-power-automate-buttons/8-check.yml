@@ -15,30 +15,30 @@ quiz:
   questions: 
   - content: There are how many types of flow buttons?
     choices: 
-    - content: 2
+    - content: two
       isCorrect: false
       explanation: There are three types of flow buttons.
-    - content: 4
+    - content: four
       isCorrect: false 
       explanation: There are three types of flow buttons.
-    - content: 5
+    - content: five
       isCorrect: false 
       explanation: There are three types of flow buttons.
-    - content: 3
+    - content: three
       isCorrect: true
       explanation: There are three types of flow buttons.
   - content: There are how many ways to share a button?
     choices: 
-    - content: 1
+    - content: one
       isCorrect: false
       explanation: There are two ways to share a button.
-    - content: 2
+    - content: two
       isCorrect: true
       explanation: There are two ways to share a button.
-    - content: 3
+    - content: three
       isCorrect: false 
       explanation: There are two ways to share a button.
-    - content: 4
+    - content: four
       isCorrect: false 
       explanation: There are two ways to share a button.
   - content: What are the three things to check when troubleshooting a flow?
