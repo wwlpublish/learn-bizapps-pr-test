@@ -79,9 +79,8 @@ customers for your app.
 
 ### Importing Data from an Excel file
 
-Save the Excel spreadsheet (named Prospects) that is located on the 
-[Power Apps page](https://powerapps.microsoft.com) locally. You can review it 
-before proceeding with the following steps.
+You will use the Excel spreadsheet named [Prospects](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/Prospects.zip) for this
+exercise. Open the link, and select the download button and save it locally. 
 
 1. Open the file. Notice the “Stage” column is empty, you will need to look these up and enter them manually. 
 1. On the left, Select **Option sets**.
