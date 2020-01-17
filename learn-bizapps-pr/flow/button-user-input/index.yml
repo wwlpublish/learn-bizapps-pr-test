@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.button-user-input 
+metadata: 
+ title: Create a Power Automate Button with user input 
+ description: This module will focus on Flow Buttons that have user input and run a predefined series of actions. This type of Flow Button provides the input necessary to run the predefined Actions in the Flow. It will show users how they can create a Flow Button that executes different logic based on the inputs provided.
+ ms.date: 2/07/2020  
+ author: KevSch  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Create a Power Automate Button with user input  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+
+  This module will focus on Flow Buttons that have user input and run a predefined series of actions. This type of Flow Button provides the input necessary to run the predefined Actions in the Flow. It will show users how they can create a Flow Button that executes different logic based on the inputs provided.
+abstract: |  
+    In this module, you will: 
+    - Create a Flow triggered by a Button tap.
+    - Build out the Actions to implement the Flow.
+    - Understand how to use Trigger Token.
+    - Run the Flow Button from the mobile App.
+prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate and how to create an event driven Flow. It is also beneficial if the student has already taken the module Getting started with Microsoft Power Automate Buttons. 
+iconUrl: /learn/achievements/button-user-input.svg  
+levels:  
+- intermediate   
+roles:  
+- functional-consultant  
+products:  
+- power-automate 
+units: 
+- learn-bizapps.button-user-input.1-introduction-design 
+- learn-bizapps.button-user-input.2-input-types 
+- learn-bizapps.button-user-input.3-email-photo 
+- learn-bizapps.button-user-input.4-calendar 
+- learn-bizapps.button-user-input.5-exercise 
+- learn-bizapps.button-user-input.6-check 
+- learn-bizapps.button-user-input.7-summary 
+badge: 
+  uid: learn-bizapps.button-user-input.badge 
