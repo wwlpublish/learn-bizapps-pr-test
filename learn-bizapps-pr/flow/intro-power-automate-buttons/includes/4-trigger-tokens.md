@@ -45,7 +45,7 @@ your Android or IOS smart phone.
 
 1.  Select **Flow button for mobile**.
 
-1.  In the **Manually trigger a flow** trigger click on **+** **Add an input** and select **Text** by clicking on **Input**, deleting **Input, and typing in **Reason**. Click on Done, which is available on the top-right.
+1.  In the **Manually trigger a flow** trigger click on **+** **Add an input** and select **Text** by clicking on **Input**, deleting Input, and typing in **Reason**. Click on Done, which is available on the top-right.
 
 1.  Click on **+** **New step**.
 
