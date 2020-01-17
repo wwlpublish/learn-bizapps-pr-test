@@ -48,7 +48,7 @@ messages for internal and external emails.
 
     ![Test using mobile app](../media/test-using-mobile-app.jpg)
 
-1. To confirm the flow has run successfully, go to your Outlook ![Outlook icon](../media/outlook-icon.jpg) on your local machine, click on **File**, which is on the top left of the top horizontal menu. In Info, click on **Automatic Replies** ![Automatic replies icon](../media/automatic-replies-icon.jpg).
+1. To confirm the flow has run successfully, go to your Outlook on your local machine, click on **File**, which is on the top left of the top horizontal menu. In Info, click on **Automatic Replies**.
 
 1. You will see the setting you just added using flow.
 

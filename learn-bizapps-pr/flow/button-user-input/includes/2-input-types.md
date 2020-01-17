@@ -16,27 +16,27 @@ list.
 
 1.  Click on settings, which is available on the top-right of the screen
     and looks like a gear icon. Hovering your mouse over it will show
-    **Settings**. Next, click on **List settings, which will take you
+    **Settings**. Next, click on **List settings**, which will take you
     to the reported property damage settings page. In the middle of the
-    screen, you will see **Columns, which already has **Title**.
+    screen, you will see **Columns**, which already has **Title**.
 
     ![SharePoint columns with titles](../media/sharepoint-columns-title.jpg)
 
 1.  Click on **Title** and change the column name from Title to
-    Location. Scroll down and click on **Ok, which is available on the
+    Location. Scroll down and click on **Ok**, which is available on the
     bottom right.
 
 1.  Below the columns, look for **Create column** and click on it.
 
 1.  Add the column name as Was anyone hurt? Confirm **Single line of
-    text** is the type of column. Scroll down and click on **Ok, which
+    text** is the type of column. Scroll down and click on **Ok**, which
     is available on the bottom right.
 
 1.  Follow steps 6 and 7 to add Email and **How many damaged items** columns.
 
 1.  Again, click on **Create column**. Add Date submitted as the column
     name and select Date and time as the column name. Scroll down and
-    click on **Ok, which is available on the bottom right.
+    click on **Ok**, which is available on the bottom right.
 
     ![Date submitted column](../media/date-submitted-column.jpg)
 
@@ -65,19 +65,19 @@ list.
 1. Click on **Manually trigger a flow** trigger and click on **+ Add an
     input**.
 
-1. Select ![text input](../media/text-input.jpg) **Text**. Replace the **Input text**
+1. Select **Text**. Replace the **Input text**
     with **Location**.
 
-1. Click on **+ Add an input** and select ![Yes/No option](../media/yes-no-option.jpg) **Yes/No.** Replace **Yes/No** with **Was anyone hurt?**
+1. Click on **+ Add an input** and select **Yes/No.** Replace **Yes/No** with **Was anyone hurt?**
 
-1. Click on **+ Add an input** and select ![file option](../media/file-option.jpg) **File**. Replace **File Content** with **Take a picture of the damage**.
+1. Click on **+ Add an input** and select **File**. Replace **File Content** with **Take a picture of the damage**.
 
-1. Click on **+ Add an input** and select ![email icon](../media/email-icon.jpg) **Email**. Replace **Email** with
+1. Click on **+ Add an input** and select **Email**. Replace **Email** with
     **Anyone you'd like to be CC'd?**
 
-1. Click on **+ Add an input** and select ![number option](../media/number-option.jpg) **Number**. Replace Number with **How many damaged items?**
+1. Click on **+ Add an input** and select **Number**. Replace Number with **How many damaged items?**
 
-1. Click on **+ Add an input** and select ![date option](../media/date-option.jpg) **Date**. Replace **Trigger date** with **Add today's date**.
+1. Click on **+ Add an input** and select **Date**. Replace **Trigger date** with **Add today's date**.
 
 1. Click on **+ New step** and search for SharePoint. Under **Actions** click on **Create item**.
 
