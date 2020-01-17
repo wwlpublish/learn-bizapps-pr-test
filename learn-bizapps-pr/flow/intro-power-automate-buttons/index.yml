@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.intro-power-automate-buttons 
+metadata: 
+ title: Introduction to using Power Automate buttons 
+ description: This module will focus on introducing the basics of Flow Buttons, the different types, utilizing Trigger Tokens, sharing Buttons with other users and using Buttons in the Flow Mobile app.
+ ms.date: 02/07/2020  
+ author: KevSch  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Introduction to using Power Automate buttons  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+
+  This module will focus on introducing the basics of Flow Buttons, the different types, using Trigger Tokens, sharing Buttons with other users and using Buttons in the Flow Mobile app.
+abstract: |  
+    In this module, you will: 
+    - Be familiar with the three different types of Flow Buttons.
+    - Understand Trigger Tokens and how to use them.
+    - Be introduced to sharing of Buttons.
+    - Understand how Buttons work in the Flow Mobile app.
+prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate and how to create an event driven Flow. 
+iconUrl: /learn/achievements/intro-power-automate-buttons.svg  
+levels:  
+- intermediate   
+roles:  
+- functional-consultant  
+products:   
+- power-automate 
+units: 
+- learn-bizapps.intro-power-automate-buttons.1-introduction 
+- learn-bizapps.intro-power-automate-buttons.2-types 
+- learn-bizapps.intro-power-automate-buttons.3-mobile 
+- learn-bizapps.intro-power-automate-buttons.4-trigger-tokens 
+- learn-bizapps.intro-power-automate-buttons.5-share 
+- learn-bizapps.intro-power-automate-buttons.6-troubleshoot 
+- learn-bizapps.intro-power-automate-buttons.7-exercise 
+- learn-bizapps.intro-power-automate-buttons.8-check 
+- learn-bizapps.intro-power-automate-buttons.9-summary 
+badge: 
+  uid: learn-bizapps.intro-power-automate-buttons.badge 
