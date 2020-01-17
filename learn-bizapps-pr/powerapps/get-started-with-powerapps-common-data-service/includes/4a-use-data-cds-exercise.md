@@ -18,7 +18,7 @@ customers for your app.
 1. Select **New Entity**.
 1. Enter the following information:
 	- **Display name**: *Prospects*
-1. In the Primary Field section, enter to following information:
+1. In the Primary Field section, enter the following information:
 	- **Display name**: *Prospect Name*
 1. Select **Create**.
 1. Select **Add field**.
@@ -41,7 +41,7 @@ customers for your app.
 1. Enter the following information and then Select **Done**.
 	- **Display name**: *Probability*
 	- **Data Type**: *Whole Number*
-1. Select **Save Entity**, in the bottom right corner.
+1. Select **Save Entity**, in the bottom-right corner.
 1. Select **Add field**.
 1. Enter the following information and then Select **Done**.
 	- **Display name**: *Forecasted Revenue*
@@ -71,7 +71,7 @@ customers for your app.
 1.	For the Status, choose **Business Required**.
 1.	Select **Apply**.
 1.	In the top left of the screen, Select the dropdown next to **Prospects New business rule** and set the **Business rule name** to **Make Probability Required**.
-1.	Select **Save** in top right corner of screen.
+1.	Select **Save** in top-right corner of screen.
 1.	Select **Activate** to activate the rule.
 1.	Select **Activate** to confirm activation.
 1.	Close the browser tab.
@@ -79,9 +79,8 @@ customers for your app.
 
 ### Importing Data from an Excel file
 
-Save the Excel spreadsheet (named Prospects) that is located on the 
-[Power Apps page](https://powerapps.microsoft.com) locally. You can review it 
-before proceeding with the following steps.
+You will use the Excel spreadsheet named [Prospects](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/Prospects.zip) for this
+exercise. Open the link, and select the download button and save it locally. 
 
 1. Open the file. Notice the “Stage” column is empty, you will need to look these up and enter them manually. 
 1. On the left, Select **Option sets**.
