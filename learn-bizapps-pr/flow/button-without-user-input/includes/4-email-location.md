@@ -88,10 +88,9 @@ entirely from the flow app on your smart phone.
 
     ![Add get manager display name and time](../media/add-get-manager-display-name-time.png)
 
-1. Click on **Body** again and this time
-    below type
+1. Click on **Body** again and this time below type.
 
-    'My current location is:'.
+    ```My current location is:```
 
 	![Add converted time](../media/add-converted-time.png)
 
