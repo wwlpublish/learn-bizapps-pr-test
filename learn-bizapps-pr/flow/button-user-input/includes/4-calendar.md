@@ -26,13 +26,13 @@ messages for internal and external emails.
 
 1. For Internal Reply Message:
 
-    1.  First, type **Currently out of office and will return on. If this is an emergency, then you can contact my assistant Jane Doe.
+    1.  First, type ```Currently out of office and will return on```. If this is an emergency, then you can contact my assistant Jane Doe.
 
     1.  Set your cursor after on and then select **End time** from Dynamic content.
 
 1. For External Reply Message:
 
-    1.  First, type **Currently out of office and will return on**.
+    1.  First, type ```Currently out of office and will return on```.
 
     1.  Set your cursor after on and then select **End time** from Dynamic content.
 
@@ -48,7 +48,7 @@ messages for internal and external emails.
 
     ![Test using mobile app](../media/test-using-mobile-app.jpg)
 
-1. To confirm the flow has run successfully, go to your Outlook ![Outlook icon](../media/outlook-icon.jpg) on your local machine, click on **File**, which is on the top left of the top horizontal menu. In Info, click on **Automatic Replies** ![Automatic replies icon](../media/automatic-replies-icon.jpg).
+1. To confirm the flow has run successfully, go to your Outlook on your local machine, click on **File**, which is on the top left of the top horizontal menu. In Info, click on **Automatic Replies**.
 
 1. You will see the setting you just added using flow.
 

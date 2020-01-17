@@ -31,7 +31,7 @@ Here are the steps.
 
     ![Add new Outlook task using mobile app](../media/add-new-outlook-task-using-mobile-app.jpg)
 
-11. To confirm the flow has run successfully, go to your Outlook ![Outlook icon](../media/outlook-icon.jpg) on your local machine, and select the Task ![task icon](../media/task-icon.jpg) icon available on the bottom left.
+11. To confirm the flow has run successfully, go to your Outlook on your local machine, and select the Task icon available on the bottom left.
 
 12. You will now see the new task,
 
