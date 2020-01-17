@@ -36,7 +36,7 @@ apply any of the above paraments in the body.
 ![Send email action](../media/send-email-action.png)
 
 You can also apply the trigger in a condition both on the left and right
-side
+side.
 
 ![Left side trigger condition](../media/left-side-trigger-condition.png)
 
