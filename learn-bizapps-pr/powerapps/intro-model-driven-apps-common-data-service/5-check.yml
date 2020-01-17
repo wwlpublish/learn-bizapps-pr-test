@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-model-driven-apps-common-data-service.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 1/17/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 6 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: In Common Data Service, where is your data being stored?
+    choices: 
+    - content: Entities
+      isCorrect: true 
+      explanation: In Common Data Service, data is stored in entities. 
+    - content: Forms
+      isCorrect: false 
+      explanation: In Common Data Service, data is stored in entities. 
+    - content: SharePoint
+      isCorrect: false 
+      explanation: In Common Data Service, data is stored in entities. 
+    - content: Access
+      isCorrect: false 
+      explanation: In Common Data Service, data is stored in entities. 
+  - content: What is the benefit of building a model-driven app?
+    choices: 
+    - content: Logic-focused design, no code required, and different UIs across multiple devices
+      isCorrect: false
+      explanation: The benefits of building a model-driven app are component-focused design, no code required, complex responsiveness with similar UI across multiple devices, and apps can be distributed as solutions. 
+    - content: Complex responsiveness with different UIs across multiple devices
+      isCorrect: false 
+      explanation: The benefits of building a model-driven app are component-focused design, no code required, complex responsiveness with similar UI across multiple devices, and apps can be distributed as solutions. 
+    - content: Apps can be distributed by using complex coding and different UIs across mobile devices
+      isCorrect: false 
+      explanation: The benefits of building a model-driven app are component-focused design, no code required, complex responsiveness with similar UI across multiple devices, and apps can be distributed as solutions. 
+    - content: Component-focused design, no code required, complex responsiveness with similar UI across multiple devices, and apps can be distributed as solutions
+      isCorrect: true
+      explanation: The benefits of building a model-driven app are component-focused design, no code required, complex responsiveness with similar UI across multiple devices, and apps can be distributed as solutions. 
+  - content: Which of the following sample apps is not created in your environment when you toggle “Include sample apps and data” to true?
+    choices: 
+    - content: Asset Checkout
+      isCorrect: false
+      explanation: Customer Survey is not created in your environment when you toggle "Include sample apps and data" to true. 
+    - content: Innovation Challenge
+      isCorrect: false 
+      explanation: Customer Survey is not created in your environment when you toggle "Include sample apps and data" to true. 
+    - content: Customer Survey
+      isCorrect: true
+      explanation: Customer Survey is not created in your environment when you toggle "Include sample apps and data" to true. 
+    - content: Fundraiser
+      isCorrect: false 
+      explanation: Customer Survey is not created in your environment when you toggle "Include sample apps and data" to true. 
