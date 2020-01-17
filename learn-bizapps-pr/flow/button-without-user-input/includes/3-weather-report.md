@@ -55,7 +55,7 @@ to use the **MSN Weather** connector for this.
     add a combination of you typing some text and selecting. You can
     select options such as Day Conditions, Day Rain Chance, Day Summary,
     Night Conditions, Night Rain Chance, Night Summary etc. Make sure
-    the dynamic content comes from **Get forecast for today**
+    the dynamic content comes from **Get forecast for today**.
 
 1. In the same **Text**, type 'Tomorrow's forecast is:. Then add
     a combination of you typing some text and selecting. You can select

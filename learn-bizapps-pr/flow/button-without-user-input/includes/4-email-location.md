@@ -75,11 +75,11 @@ entirely from the flow app on your smart phone.
 
 1. Click on **Body** again and this time below type in: 
 
-```
-I have arrived at the location.
-
-The time is
-```
+	```
+	I have arrived at the location.
+	
+	The time is
+	```
 
 	![Add get manager display name](../media/add-get-manager-display-name-2.png)
 
