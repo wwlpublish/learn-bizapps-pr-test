@@ -1,5 +1,5 @@
 ﻿### YamlMime:ModuleUnit 
-uid: learn-bizapps.powerapps-design-model-driven-apps.5b-create-a-model-driven-application
+uid: learn-bizapps.powerapps-design-model-driven-apps.5b-create-model-driven-application
 title: Exercise - Create a model-driven app 
 metadata: 
   title: Exercise - Create a model-driven app 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: |
   [!include[](../includes/unit-banner.md)]
-  [!include[](includes/5b-create-a-model-driven-application)]
+  [!include[](includes/5b-create-model-driven-application.md)]
