@@ -1,4 +1,4 @@
-Let's create a flow button that will allow a user to report damages
+Let's create a flow button that will allow a user to report damage
 noticed in the company property. The data will be saved on a SharePoint
 list.
 
@@ -10,33 +10,33 @@ list.
     ![SharePoint new list](../media/sharepoint-new-list.jpg)
 
 1.  On the right, you will see **Create list**. Give the list a name,
-    Reported Property Damage. Click **Create**. You will be re-directed
+    Reported Property Damage. Click **Create**. You will be redirected
     automatically to the new list. The list will automatically have
     **Title**.
 
-1.  Click on settings which is available on the top-right of the screen
+1.  Click on settings, which is available on the top-right of the screen
     and looks like a gear icon. Hovering your mouse over it will show
-    **Settings**. Next, click on **List settings** which will take you
+    **Settings**. Next, click on **List settings, which will take you
     to the reported property damage settings page. In the middle of the
-    screen, you will see **Columns** which already has **Title**.
+    screen, you will see **Columns, which already has **Title**.
 
     ![SharePoint columns with titles](../media/sharepoint-columns-title.jpg)
 
 1.  Click on **Title** and change the column name from Title to
-    Location. Scroll down and click on **Ok** which is available on the
+    Location. Scroll down and click on **Ok, which is available on the
     bottom right.
 
 1.  Below the columns, look for **Create column** and click on it.
 
 1.  Add the column name as Was anyone hurt? Confirm **Single line of
-    text** is the type of column. Scroll down and click on **Ok** which
+    text** is the type of column. Scroll down and click on **Ok, which
     is available on the bottom right.
 
 1.  Follow steps 6 and 7 to add Email and **How many damaged items** columns.
 
 1.  Again, click on **Create column**. Add Date submitted as the column
     name and select Date and time as the column name. Scroll down and
-    click on **Ok** which is available on the bottom right.
+    click on **Ok, which is available on the bottom right.
 
     ![Date submitted column](../media/date-submitted-column.jpg)
 
@@ -48,7 +48,7 @@ list.
 
 1. On the left vertical menu click on **+ Create**.
 
-1. On the top you will see **Three ways to make a flow**. The first way
+1. On the top, you will see **Three ways to make a flow**. The first way
     is **Start from blank**. In that you will see **Instant flow**.
     Click on it.
 
@@ -82,12 +82,11 @@ list.
 1. Click on **+ New step** and search for SharePoint. Under **Actions** click on **Create item**.
 
 1. In the **Create item** action, for **Site Address** click on the
-    drop-down arrow which is to the right and select the site where your
+    drop-down arrow, which is to the right and select the site where your
     list is available. If the site doesn't appear, then click on Enter
     custom value and paste the site URL.
 
-1. In List Name, select the Reported Property Damage list we just
-    created above. After the list is selected the column names will
+1. In List Name, select the Reported Property Damage list we created above. After the list is selected the column names will
     appear below it.
 
 1. Click in Location field then on the right, then in the Dynamic
@@ -107,13 +106,12 @@ list.
     doesn't appear, then click on **Enter custom value** and paste the
     site URL.
 
-1. In List Name select the Reported Property Damage list we just
-    created above. After the list is selected, the column names will
+1. In List Name, select the Reported Property Damage list we created above. After the list is selected, the column names will
     appear below it.
 
 1. Click in the **Id** field and select **ID** dynamic content.
 
-    ![Add ID dynamic conten](../media/add-id-dynamic-content.jpg)
+    ![Add ID dynamic content](../media/add-id-dynamic-content.jpg)
 
 1. Click in **File name** and type in ```DamageReportImage.jpeg```.
 
@@ -132,10 +130,9 @@ list.
 
 1. Populate all the items in the fields and then click on **Done**.
 
-    ![Sampe report using mobile app](../media/sample-report-using-mobile-app.jpg)
+    ![Sample report using mobile app](../media/sample-report-using-mobile-app.jpg)
 
-1. You can go back to your SharePoint list and confirm the new item
-    which includes the image has been added.
+1. You can go back to your SharePoint list and confirm the new item, which includes the image has been added.
 
     ![report with image added](../media/report-image.jpg)
 

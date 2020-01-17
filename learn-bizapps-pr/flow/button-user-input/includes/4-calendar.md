@@ -1,5 +1,5 @@
 Let's build a flow triggered by a button that will set up automatic
-replies to your Office 365 Outlook which will add separate reply
+replies to your Office 365 Outlook, which will add separate reply
 messages for internal and external emails.
 
 1.  [Sign in](https://flow.microsoft.com/?azure-portal=true). 
@@ -16,9 +16,9 @@ messages for internal and external emails.
 
 1.  Click on **+ Add an input** and select Date. Rename Trigger date to Start time. Click on **+ Add an input** again and select Date. Rename Trigger date to End time. This is what the trigger action should look like:
 
-    ![Set out of office trigger](media/set-trigger.jpg)
+    ![Set out-of-office trigger](media/set-trigger.jpg)
 
-1. Click on **+ New step** and search for automatic replies. Select the **Set up automatic replies (V2)**.
+1. Click on **+ New step** and search for automatic replies. Select the **Setup automatic replies (V2)**.
 
 1. Click in Start Time DateTime and from the Dynamic content select Start time.
 
@@ -26,7 +26,7 @@ messages for internal and external emails.
 
 1. For Internal Reply Message:
 
-    1.  First, type **Currently out of office and will return on** . If this is an emergency, then you can contact my assistant Jane Doe.
+    1.  First, type **Currently out of office and will return on. If this is an emergency, then you can contact my assistant Jane Doe.
 
     1.  Set your cursor after on and then select **End time** from Dynamic content.
 
@@ -36,11 +36,11 @@ messages for internal and external emails.
 
     1.  Set your cursor after on and then select **End time** from Dynamic content.
 
-1. Here is a screenshot of what the Set up automatic replies (V2) looks like.
+1. Here is a screenshot of what the Setup automatic replies (V2) looks like.
 
     ![Set automatic replies action](../media/set-automatic-replies-action.jpg)
 
-1. Click on **Flow checker** which is available on the top right. If you have 0 errors and warnings, then click on the **X**. Next click on **Save**.
+1. Click on **Flow checker, which is available on the top right. If you have 0 errors and warnings, then click on the **X**. Next click on **Save**.
 
 1. You can now test the button using your smart phone. Open the app and click on the **Buttons** option on the bottom horizontal menu. You will now see the Set Out Of Office button. Click on it.
 
