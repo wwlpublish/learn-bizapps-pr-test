@@ -16,7 +16,7 @@ messages for internal and external emails.
 
 1.  Click on **+ Add an input** and select Date. Rename Trigger date to Start time. Click on **+ Add an input** again and select Date. Rename Trigger date to End time. This is what the trigger action should look like:
 
-    ![Set out-of-office trigger](media/set-trigger.jpg)
+    ![Set out-of-office trigger](../media/set-trigger.jpg)
 
 1. Click on **+ New step** and search for automatic replies. Select the **Setup automatic replies (V2)**.
 
@@ -48,7 +48,7 @@ messages for internal and external emails.
 
     ![Test using mobile app](../media/test-using-mobile-app.jpg)
 
-1. To confirm the flow has run successfully, go to your Outlook ![Outlook icon](../media/outlook-icon.jpg) on your local machine, click on **File**, which is on the top left of the top horizontal menu. In Info, click on **Automatic Replies** ![Automatic replies icon](../media/automatic-replies-icon.pnjpgg).
+1. To confirm the flow has run successfully, go to your Outlook ![Outlook icon](../media/outlook-icon.jpg) on your local machine, click on **File**, which is on the top left of the top horizontal menu. In Info, click on **Automatic Replies** ![Automatic replies icon](../media/automatic-replies-icon.jpg).
 
 1. You will see the setting you just added using flow.
 

@@ -11,11 +11,11 @@ Here are the steps.
 
 1.  Right below the **Search templates...** you will see a several options such as **All flows**, **Featured**, **Shared with me**... find and click the **Button** option.
 
-    ![button template](media/button-templates.jpg)
+    ![button template](../media/button-templates.jpg)
 
 1.  Find the Create a new Outlook Task template and click on it.
 
-    ![Create new Outlook task template](media/create-new-outlook-task-template.jpg)
+    ![Create new Outlook task template](../media/create-new-outlook-task-template.jpg)
 
 1.  Click on **sign in**.
 
@@ -29,11 +29,11 @@ Here are the steps.
 
 1. Add a task name and task description and click on Done which is available on the top right-hand side of the app.
 
-    ![Add new Outlook task using mobile app](media/add-new-outlook-task-using-mobile-app.jpg)
+    ![Add new Outlook task using mobile app](../media/add-new-outlook-task-using-mobile-app.jpg)
 
-11. To confirm the flow has run successfully, go to your Outlook ![Outlook icon](media/outlook-icon.jpg) on your local machine, and select the Task ![task icon](media/task-icon.jpg) icon available on the bottom left.
+11. To confirm the flow has run successfully, go to your Outlook ![Outlook icon](../media/outlook-icon.jpg) on your local machine, and select the Task ![task icon](../media/task-icon.jpg) icon available on the bottom left.
 
 12. You will now see the new task,
 
-	![new task made available](media/new-task-made-available.jpg)
+	![new task made available](../media/new-task-made-available.jpg)
 
