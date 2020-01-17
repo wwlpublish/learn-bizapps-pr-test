@@ -26,13 +26,13 @@ messages for internal and external emails.
 
 1. For Internal Reply Message:
 
-    1.  First, type **Currently out of office and will return on. If this is an emergency, then you can contact my assistant Jane Doe.
+    1.  First, type ```Currently out of office and will return on```. If this is an emergency, then you can contact my assistant Jane Doe.
 
     1.  Set your cursor after on and then select **End time** from Dynamic content.
 
 1. For External Reply Message:
 
-    1.  First, type **Currently out of office and will return on**.
+    1.  First, type ```Currently out of office and will return on```.
 
     1.  Set your cursor after on and then select **End time** from Dynamic content.
 
