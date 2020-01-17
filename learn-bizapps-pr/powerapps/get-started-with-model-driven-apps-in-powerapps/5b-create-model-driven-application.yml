@@ -12,8 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: |
   [!include[](../includes/unit-banner.md)]
-<<<<<<< HEAD:learn-bizapps-pr/powerapps/get-started-with-model-driven-apps-in-powerapps/5b-create-model-driven-application.yml
   [!include[](includes/5b-create-model-driven-application.md)]
-=======
-  [!include[](includes/5b-create-a-model-driven-application.md)]
->>>>>>> 9523c3b1c2502f4b0c18a1f923256b4da9999019:learn-bizapps-pr/powerapps/get-started-with-model-driven-apps-in-powerapps/5b-create-a-model-driven-application.yml
