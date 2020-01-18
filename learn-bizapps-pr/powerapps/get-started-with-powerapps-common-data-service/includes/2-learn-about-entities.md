@@ -19,10 +19,12 @@ If standard entities don't work for your business needs, and if they can't be ed
 ## Entity relationships
 Entity relationships define the different ways entity records can be associated with records from other entities or the same entity. Entity relationships are metadata. They let queries retrieve related data very efficiently. Use entity relationships to define the formal relationships that define the entity or that most records can use. 
 
-There are two types of entity relationships:
+When you look at the solution explorer you might think that there are three types of entity relationships but actually there are only two, see below:
 
 - **One-to-many relationships**: In a one-to-many (1:N) entity relationship, many related entity records are associated with a single primary entity record in a parent/child relationship. 
 - **Many-to-many relationships**: In a many-to-many (N:N) entity relationship, many entity records are associated with many other entity records. Records that are related through N:N entity relationships are considered peers.
+
+The N:1 (many-to-one) relationship type exists in the user interface because the designer shows you a view grouped by entities. 1:N relationships actually exist between entities and refer to each entity as either a Primary/Current Entity or Related Entity. The related entity, sometimes called the child entity, has a lookup field that allows storing a reference to a record from the primary entity, sometimes called the parent entity. A N:1 relationship is just a 1:N relationship viewed from the related entity.
 
 Besides defining how records can be related to other records, 1:N entity relationships also provide data to address the following questions:
 
@@ -63,3 +65,22 @@ The following default activity entities are available:
 You can create new custom activity entities. The metadata values of activity entities differ from the metadata values of other entities. For example, the **Primary** field is set to **Subject**. 
 
 You can't create a custom activity by using the Microsoft Power Apps portal. You must open Solution Explorer by using the **Advanced** button. 
+
+## Business Rules
+
+Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. The business rules defined for an entity apply to both canvas apps and model-driven apps if the entity is used in the app.
+ 
+By combining conditions and actions, you can do any of the following with business rules:
+- Set field values
+- Clear field values
+- Set field requirement levels
+- Show or hide fields
+- Enable or disable fields
+- Validate data and show error messages
+- Create business recommendations based on business intelligence.
+
+Differences between canvas and model-driven apps
+Model driven apps can use all actions available on business rules, however not all business rule actions are available for canvas apps at this time. The following actions are not available on Canvas apps:
+- Show or hide fields
+- Enable or disable fields
+- Create business recommendations based on business intelligence.
