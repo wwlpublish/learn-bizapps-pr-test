@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-common-data-service.4a-use-data-cds-exercise
+title: Exercise - Create a custom entity and import data
+metadata: 
+  title: Exercise - Create a custom entity and import data
+  description: This exercise has you create a Common Data Service entity, then import data.
+  ms.date: 01/14/2020
+  author: KevSch
+  ms.author: kschimke
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+durationInMinutes: 15 
+content: | 
+  [!include[](includes/4a-use-data-cds-exercise.md)]  

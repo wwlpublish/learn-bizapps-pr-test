@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.powerapps-common-data-service.4b-check
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 01/17/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-powerapps
+durationInMinutes: 6 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: When creating an Entity, what are the two types of relationships you can create?
+    choices: 
+    - content: One-to-many and One-to-one
+      isCorrect: false 
+      explanation: The two types of relationships you can create are One-to-many and Many-to-many.
+    - content: One-to-many and Many-to-many
+      isCorrect: true 
+      explanation: The two types of relationships you can create are One-to-many and Many-to-many.
+    - content: Many-to-one and Many-to-many
+      isCorrect: false 
+      explanation: The two types of relationships you can create are One-to-many and Many-to-many.
+    - content: One-to-one and Many-to-many
+      isCorrect: false 
+      explanation: The two types of relationships you can create are One-to-many and Many-to-many.
+  - content: How many apps can use the same Entity?
+    choices: 
+    - content: "1"
+      isCorrect: false
+      explanation: The same entity can be used by an unlimited number of apps.
+    - content: "20"
+      isCorrect: false 
+      explanation: The same entity can be used by an unlimited number of apps.
+    - content: "100"
+      isCorrect: false 
+      explanation: The same entity can be used by an unlimited number of apps.
+    - content: Unlimited
+      isCorrect: true
+      explanation: The same entity can be used by an unlimited number of apps.
+  - content: When deploying role-based security in the Common Data Service, which of the following products allows you to control access to entities for different users?
+    choices: 
+    - content: SQL Server
+      isCorrect: false
+      explanation: Dynamics 365 lets you control access to entities.
+    - content: Azure portal
+      isCorrect: false 
+      explanation: Dynamics 365 lets you control access to entities.
+    - content: Dynamics 365
+      isCorrect: true 
+      explanation: Dynamics 365 lets you control access to entities.
+    - content: SharePoint
+      isCorrect: false
+      explanation: Dynamics 365 lets you control access to entities.
