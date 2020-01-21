@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.physical-input-button 
+metadata: 
+ title: Create a Power Automate button that uses a physical Button input 
+ description: Are you looking at building basic flows using buttons as trigger? If you are then you’ve come to the right place because this path will help you get started. This Learning Path will cover both virtual and physical buttons. It also covers flow with and without user input. Let’s look at building a flow in Power Automate that uses a physical Flic button as a trigger and then runs a predefined series of actions. This module demonstrates how to configure a Flic button with its app on your smart phone and then how to trigger a flow. 
+ ms.date: 02/07/2020  
+ author: KevSch  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Create a Power Automate button that uses a physical Button input  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+
+  Are you looking at building basic flows using buttons as trigger? If you are then you’ve come to the right place because this path will help you get started. This Learning Path will cover both virtual and physical buttons. It also covers flow with and without user input. Let’s look at building a flow in Power Automate that uses a physical Flic button as a trigger and then runs a predefined series of actions. This module demonstrates how to configure a Flic button with its app on your smart phone and then how to trigger a flow.  
+abstract: |  
+    In this module, you will: 
+    - Understand the possible uses of a physical button.
+    - Understand how to install and configure the Flic app.
+    - Use the flow trigger to connect to the Flic app.
+    - Create a flow button that tells your next appointment you are running late.
+    - Create a flow button that lets your manager know you are on site.
+prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate and how to create an event driven Flow. It is also beneficial if the student has already taken the module Getting started with Microsoft Power Automate Buttons. 
+iconUrl: /learn/achievements/physical-input-button.svg  
+levels:  
+- intermediate   
+roles:  
+- functional-consultant  
+products:  
+- power-automate 
+units: 
+- learn-bizapps.physical-input-button.1-introduction-uses 
+- learn-bizapps.physical-input-button.2-flic-app 
+- learn-bizapps.physical-input-button.3-trigger 
+- learn-bizapps.physical-input-button.4-appointment 
+- learn-bizapps.physical-input-button.5-onsite 
+- learn-bizapps.physical-input-button.6-sms-message 
+- learn-bizapps.physical-input-button.7-exercise 
+- learn-bizapps.physical-input-button.8-check 
+- learn-bizapps.physical-input-button.9-summary 
+badge: 
+  uid: learn-bizapps.physical-input-button.badge 
