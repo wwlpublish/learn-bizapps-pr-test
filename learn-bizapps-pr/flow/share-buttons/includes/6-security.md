@@ -3,7 +3,7 @@ connections can be viewed via a flow or the connector. From a flow, you
 can view all the connectors used and from a connector you can view all
 the flows using that connector.
 
-Here's a screenshot of all the connectors used for the SMS button flow
+Here's a screenshot of all the connectors used for the SMS button flow.
 
 ![connections used](../media/conections-used.jpg)
 
