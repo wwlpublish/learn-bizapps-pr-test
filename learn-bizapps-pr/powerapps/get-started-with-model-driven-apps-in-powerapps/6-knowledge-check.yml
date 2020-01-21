@@ -1,41 +1,57 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-design-model-driven-apps.6-knowledge-check
 metadata:
-  title: "Knowledge check: Get started in model-driven apps"
-  description: This quiz tests your knowledge of how to get started building model-driven apps.
-  ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  title: Check your knowledge
+  description: Answer the following questions to see what you've learned. 
+  ms.date: 01/17/2020
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Check your knowledge
-durationInMinutes: 5
+durationInMinutes: 6
 quiz:
-  title: "Knowledge check: Get started in model-driven apps"
+  title: Answer the following questions to see what you've learned. 
   questions:
-  - content: Which of the following statements about entities is true?
+  - content: When building model-driven apps, which designer is used to define the navigation of your app?
     choices: 
-    - content: Entities are properties that help define a field.
-      explanation: Entities aren't properties. But they have properties.
+    - content: App designer
       isCorrect: false
-    - content: Entities have fields.
-      explanation: Entities don't have fields. Properties have fields.
+      explanation: The site map is used to define the navigation of your app.
+    - content: View designer
       isCorrect: false
-    - content: Account names are a type of entity.
-      explanation: Accounts are a common entity that's used to describe customers.
+      explanation: The site map is used to define the navigation of your app.
+    - content: Site map designer
+      isCorrect: true 
+      explanation: The site map is used to define the navigation of your app.
+    - content: Dashboard designer
+      isCorrect: false
+      explanation: The site map designer is used to define the navigation of your app.
+  - content: If you wanted to create a standard procedure or process for handling service requests what type of logic would be best to implement?
+    choices: 
+    - content: Business process flow
       isCorrect: true
-    - content: Relationships associate a field with a property.
-      explanation: Relationships define how entities can be related to each other. They don't relate entities or fields.
+      explanation: Business process flow logic should be used.
+    - content: Business rule
       isCorrect: false
-  - content: Which of the following statements about security for model-driven apps is true?
-    choices:
-    - content: Security is based on Microsoft SharePoint permissions.
-      explanation: Security for model-driven apps is built on roles that contain a set of privileges.
+      explanation: Business process flow logic should be used.
+    - content: Workflow
       isCorrect: false
-    - content: Security roles can be assigned to teams.
-      explanation: Security roles can be assigned to teams and individuals.
+      explanation: Business process flow logic should be used.
+    - content: Flow
+      isCorrect: false
+      explanation: Business process flow logic should be used.
+  - content: When sharing a model-driven app, which of the following statements is true?
+    choices: 
+    - content: Users just need to be added to a predefined security role.
+      isCorrect: false
+      explanation: To share a model-driven app, you need to add a user to a security role that is assigned to the app.
+    - content: Users just need to be added to a custom security role.
+      isCorrect: false
+      explanation: To share a model-driven app, you need to add a user to a security role that is assigned to the app.
+    - content: Model-driven apps do not need to be shared, they are accessible to anyone with the app link.
+      isCorrect: false
+      explanation: To share a model-driven app, you need to add a user to a security role that is assigned to the app.
+    - content: Users need to be added to a predefined or custom security role and then you also need to assign one or more security roles to the app.
       isCorrect: true
-    - content: Security roles are defined by Microsoft Windows and can't be changed.
-      explanation: Security roles can be customized.
-      isCorrect: false
+      explanation: To share a model-driven app, you need to add a user to a security role that is assigned to the app.

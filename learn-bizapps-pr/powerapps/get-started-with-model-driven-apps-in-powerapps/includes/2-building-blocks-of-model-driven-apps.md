@@ -20,7 +20,7 @@ The user interface components determine how users will interact with the app.
 | Form      | Forms include a set of data entry fields for a given entity. This set of data entry fields matches the items that your organization tracks for the entity. One example is a set of data entry fields where users enter relevant information to track a customer's previous orders together with specific requested reorder dates. | Form designer |
 | View      | Views define how a list of records for a specific entity appears in your app. A view defines the columns shown, the width of each column, the sort behavior, and the default filters. | View designer |
 
-![App designer and form designer](../media/app-and-form-designers.png)
+![App designer and form designer](../media/updated-app-and-form-designers.png)
 
 ## Logic
 The logic components determine what business processes, rules, and automation the app will have. Microsoft Power Apps makers use a designer that's specific to the type of process or rule.
@@ -31,9 +31,7 @@ The logic components determine what business processes, rules, and automation th
 | Workflow              | Workflows automate business processes without a user interface. Designers use workflows to initiate automation that doesn't require any user interaction. | Workflow designer |
 | Actions               | Actions are a type of process that lets you manually invoke actions, including custom actions, directly from a workflow. | Process designer |
 | Business rule         | Business rules apply rules or recommendation logic to a form to set field requirements, hide fields, validate data, and more. App designers use a simple interface to implement and maintain fast-changing and commonly used rules. | Business rule designer |
-| Flow                  | Power Automate is a cloud-based service that lets you create automated workflows between apps and services to get notifications, sync files, collect data, and more. | Power Automate |
-
-![Workflow, action, and business process flow designers](../media/designer-mash.png)
+| Flows                  | Power Automate is a cloud-based service that lets you create automated workflows between apps and services to get notifications, sync files, collect data, and more. | Power Automate |
 
 ## Visualization
 The visualization components determine what type of data and reporting the app will show.
@@ -44,9 +42,13 @@ The visualization components determine what type of data and reporting the app w
 |Dashboard                    | Dashboards show one or more graphical visualizations that provide an overview of actionable business data. | Dashboard designer |
 | Embedded Microsoft Power BI | Power BI adds embedded Power BI tiles and dashboards to your app. Power BI is a cloud-based service that provides business intelligence (BI) insight. | A combination of chart designer, dashboard designer, and Power BI |
 
-![Sample dashboard](../media/dashboard-designer2.png)
+![Sample dashboard](../media/updated-dashboard-designer2.png)
 
 ## Advanced model-driven apps
 Solution Explorer is used to make advanced model-driven apps. By using the navigation pane on the left side of the tool, you can navigate a hierarchy that consists of all app components.
 
-![Solution Explorer](../media/solutionexplorer-entitiescollapsed.png)
+To access the classic Solution Explorer, you must first select a Solution then select **Switch to classic**.
+
+![Classic Solution Explorer](../media/switch-to-classic.png)
+
+![Solution Explorer](../media/updated-solutionexplorer-entitiescollapsed.png)
