@@ -15,7 +15,7 @@ have your smart phone and the Flic button available first.
 
 1.  Toggle the switch for I agree to the Terms of Service and then click on **Create Account**.
 
-1.  You need to add an email, name, password and click on **Create Account**.
+1.  You need to add an email, name, password, and click on **Create Account**.
 
 1.  The app by default selects HUB, click on **Phone**.
 
@@ -31,7 +31,7 @@ have your smart phone and the Flic button available first.
 
 1. If the pairing is successful, then you will see Pairing Complete! On the top and a Finish button on the button. Click on **Finish**.
 
-1. Next click on the new flic button you just created and click on the + button next to **Click**. Click on the    magnifying icon which is available on the top right of the app and start typing Flow. Then click on **Microsoft Flow**.
+1. Next click on the new flic button you created and click on the + button next to **Click**. Click on the    magnifying icon, which is available on the top right of the app and start typing Flow. Then click on **Microsoft Flow**.
 
     ![Search flow single click](../media/search-flow-single-click.jpg)
 
@@ -39,15 +39,15 @@ have your smart phone and the Flic button available first.
 
     ![Microsoft flow click](../media/microsoft-flow-click.jpg)
 
-1. Next click on the new flic button you just created and click on the + button next to Double Click. Click on the    magnifying icon which is available on the top right of the app and start typing Flow. Then click on **Microsoft Flow**.
+1. Next click on the new flic button you created and click on the + button next to Double-Click. Click on the    magnifying icon, which is available on the top right of the app and start typing Flow. Then click on **Microsoft Flow**.
 
     ![Search flow single click](../media/search-flow-single-click.jpg)
 
-1. Set turn on the **Send location data** feature by sliding the toggle switch. Then click on **Add** which is available on the top right of the app. You should now see Microsoft Flow added to Double Click.
+1. Set turn on the **Send location data** feature by sliding the toggle switch. Then click on **Add** which is available on the top right of the app. You should now see Microsoft Flow added to Double-Click.
 
-    ![Microsoft flow double click added](../media/microsoft-flow-double-click-added.jpg)
+    ![Microsoft flow double-click added](../media/microsoft-flow-double-click-added.jpg)
 
-1. Finally, click on the new flic button you just created and click on the + button next to Hold. Click on the    magnifying icon which is available on the top right of the app and start typing Flow. Then click on **Microsoft Flow**.
+1. Finally, click on the new flic button you created and click on the + button next to Hold. Click on the    magnifying icon, which is available on the top right of the app and start typing Flow. Then click on **Microsoft Flow**.
 
     ![Search flow single click](../media/search-flow-single-click.jpg)
 

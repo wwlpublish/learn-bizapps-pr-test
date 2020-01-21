@@ -11,13 +11,13 @@ know you are onsite.
 
 	![inform manager flow name](../media/inform-manager-flow-name.jpg)
 
-1.  In the Flic button trigger click on the drop-down arrow at the right and select the Flic button you added above. For Events select **double click**.
+1.  In the Flic button trigger click on the drop-down arrow at the right and select the Flic button you added above. For Events select **double-click**.
 
 1.  Click on **+ New step**.
 
 1.  In Choose an action, search for compose and select **Compose** action.
 
-1.  In Input type in your email address. Then click on the three dots or ellipses that is available on the top-right, click on **Rename** and rename the action to Email address.
+1.  In Input type in your email address. Then click on the three dots or ellipses that are available on the top-right, click on **Rename** and rename the action to Email address.
 
     ![add email compose](../media/add-email-compose.jpg)
 
@@ -41,6 +41,6 @@ know you are onsite.
 
     ![send email](../media/send-email.jpg)
 
-16. Finally, click on **Flow checker** which is available on the top-right of the screen and if there are no errors then click on Save. 
+16. Finally, click on **Flow checker, which is available on the top-right of the screen and if there are no errors then click on Save. 
 
-Congratulations! You have now successfully built a flow which will trigger using a physical button. To test, you need to have the Flic app open in your phone and then click the Flic button twice. The flow will send an email to your manager.
+Congratulations! You have now successfully built a flow, which will trigger using a physical button. To test, you need to have the Flic app open in your phone and then click the Flic button twice. The flow will send an email to your manager.
