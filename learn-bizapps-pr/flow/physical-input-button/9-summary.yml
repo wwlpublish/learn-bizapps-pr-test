@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.physical-input-button.9-summary 
-title: 
+title: Summary
 metadata: 
-  title:  
-  description:  
+  title: Summary 
+  description: Summary of creating a Power Automate button that uses a physical Button input.  
   ms.date: 02/07/2020 
   author: KevSch 
   ms.author: kschimke 

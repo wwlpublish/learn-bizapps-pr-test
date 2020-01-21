@@ -32,7 +32,7 @@ running a little late.
 
 	The action should look like this.
 
-    ![Get calendar view events](media/get-calendar-view-events.jpg)
+    ![Get calendar view events](../media/get-calendar-view-events.jpg)
 
 1. Click on **+ New step**.
 
