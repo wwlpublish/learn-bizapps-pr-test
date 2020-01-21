@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.share-buttons.3-reshare 
+title: Share a button flow that has been shared with you
+metadata: 
+  title: Share a button flow that has been shared with you  
+  description: Learn how to share a button flow that has been shared with you.  
+  ms.date: 2/7/2020 
+  author: KevSch 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 2
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-reshare.md)] 
