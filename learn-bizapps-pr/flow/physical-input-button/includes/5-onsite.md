@@ -41,6 +41,6 @@ know you are onsite.
 
     ![send email](../media/send-email.jpg)
 
-16. Finally, click on **Flow checker, which is available on the top-right of the screen and if there are no errors then click on Save. 
+16. Finally, click on Flow checker, which is available on the top-right of the screen and if there are no errors then click on Save. 
 
 Congratulations! You have now successfully built a flow, which will trigger using a physical button. To test, you need to have the Flic app open in your phone and then click the Flic button twice. The flow will send an email to your manager.

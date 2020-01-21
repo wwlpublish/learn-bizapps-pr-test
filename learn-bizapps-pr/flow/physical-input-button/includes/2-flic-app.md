@@ -55,4 +55,4 @@ have your smart phone and the Flic button available first.
 
     ![Microsoft flow hold click](../media/microsoft-flow-hold-click.jpg)
 
-1. You now have a Flic button successfully installed and configured with your smart phone!
+You now have a Flic button successfully installed and configured with your smart phone!

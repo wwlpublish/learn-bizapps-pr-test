@@ -6,7 +6,7 @@ Let's add the Flic connector to Power Automate.
 
 1.  On the top left you'll see **+ New connection**, click on it.
 
-1.  On the top right, you'll see a magnifying icon with Search. Type in Flic. You should now see Flic (preview). Add this connection by click on **+**.
+1.  On the top right, you'll see a magnifying icon with Search. Type in Flic. You should now see Flic (preview). Add this connection by clicking on **+**.
 
 	![Add Flic connection](../media/add-flic-connection.jpg)
 
@@ -16,4 +16,4 @@ Let's add the Flic connector to Power Automate.
 
     ![Flic connector email password](../media/flic-connector-email-password.jpg)
 
-1.  You should now have a Flic connection successfully created.
+You should now have a Flic connection successfully created.
