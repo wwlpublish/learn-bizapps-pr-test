@@ -9,25 +9,25 @@ metadata:
  ms.author: kschimke 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
-durationInMinutes: 5 
+durationInMinutes: 10 
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: There are how many types of flow buttons?
+  - content: How many types of flow buttons are there in Power Automate?
     choices: 
     - content: two
       isCorrect: false
+      explanation: There are three types of flow buttons.
+    - content: three
+      isCorrect: true 
       explanation: There are three types of flow buttons.
     - content: four
       isCorrect: false 
       explanation: There are three types of flow buttons.
     - content: five
-      isCorrect: false 
+      isCorrect: false
       explanation: There are three types of flow buttons.
-    - content: three
-      isCorrect: true
-      explanation: There are three types of flow buttons.
-  - content: There are how many ways to share a button?
+  - content: How many ways are available to share a button?
     choices: 
     - content: one
       isCorrect: false
@@ -41,7 +41,7 @@ quiz:
     - content: four
       isCorrect: false 
       explanation: There are two ways to share a button.
-  - content: What are the three things to check when troubleshooting a flow?
+  - content: What are the three things to check for when troubleshooting a flow?
     choices: 
     - content: Internet connection, device OS and Language.
       isCorrect: false
@@ -55,10 +55,10 @@ quiz:
     - content: User interface, flow condition and internet connection.
       isCorrect: false 
       explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
-  - content: What time and location does trigger token use?
+  - content: What time and location do trigger tokens use?
     choices: 
-    - content: Uses the time and the geographic location of the device.
-      isCorrect: true 
+    - content: Uses the time and the geographic location of the users office.
+      isCorrect: false 
       explanation: Trigger token uses the time and the geographic location of the device. 
     - content: Uses the time and the geographic location of the tenants HQ office.
       isCorrect: false 
@@ -66,10 +66,10 @@ quiz:
     - content: Uses the time and the geographic location of the tenants Office 365 global admin.
       isCorrect: false 
       explanation: Trigger token uses the time and the geographic location of the device. 
-    - content: Uses the time and the geographic location of the users office.
-      isCorrect: false 
+    - content: Uses the time and the geographic location of the device.
+      isCorrect: true 
       explanation: Trigger token uses the time and the geographic location of the device. 
-  - content: Can the button flow be built entirely from the mobile app?
+  - content: Can a button flow be built entirely from the Power Automate mobile app?
     choices: 
     - content: Yes, with triggers, actions, and conditions.
       isCorrect: true 
