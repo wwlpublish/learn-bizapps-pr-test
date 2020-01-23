@@ -1,23 +1,23 @@
 There are three types of Power Automate buttons:
 
-1.  App-based virtual button with flow with no user input
+1.  App-based virtual button with a flow with no user input
 
-1.  App-based virtual button with flow with user input or trigger tokens
+1.  App-based virtual button with a flow with user input or trigger tokens
 
 1.  Using a physical button
 
-### App-based virtual button with flow with no user input
+### App-based virtual button with a flow with no user input
 
 Sending an email to your manager by a single click of the Power Automate
 virtual button notifying him/her that you will be late for work is an
 example of an app-based button with no user input. This virtual button
 is available on the Power Automate app for your smart devices. In order
 for this flow to not require user input, you'll need to have necessary
-data connections, such as Office 365 Users, to find your manager's
+data connections, such as Office 365 users, to find your manager's
 contact information and also have the email action pre-populated with
 the Subject and the Body.
 
-### App-based button with flow with user input or trigger tokens
+### App-based button with a flow with user input or trigger tokens
 
 Power Automate with user input or trigger tokens is a quick and easy way
 to send out notifications. Consider the scenario where you have a

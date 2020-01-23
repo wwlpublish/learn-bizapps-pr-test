@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.intro-power-automate-buttons.7-exercise 
-title: Exercise - Permissions of the Power Automate button
+title: Exercise - Manage permissions of a Power Automate button
 metadata: 
-  title: Exercise - Permissions of the Power Automate button 
-  description: Learn about the permissions of the Power Automate button.  
+  title: Exercise - Manage permissions of a Power Automate button 
+  description: Learn about how to manage permissions for Power Automate buttons.  
   ms.date: 02/07/2020 
   author: KevSch 
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 5 
+durationInMinutes: 10 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/7-exercise.md)] 

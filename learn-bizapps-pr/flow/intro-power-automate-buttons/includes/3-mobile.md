@@ -1,6 +1,6 @@
-### Download, install and login into the mobile app
+### Download, install and log into the mobile app
 
-1. Go to the **App Store** of your smart phone or table and search for
+1. Go to the **App Store** of your smart phone or tablet and search for
     **Power Automate**.
 
 	![Power Automate app from App Store](../media/power-automate-app-from-app-store.png)
@@ -12,13 +12,13 @@
 ### Navigate to the Buttons tab
 
 Opening the app, you will see the top horizontal navigation and the
-bottom. The top navigation contains **Feed** and **Approvals**, by
+bottom navigation. The top navigation contains **Feed** and **Approvals**, by
 default **Feed** is selected. The bottom navigation contains
 **Activity**, **Browse**, **Buttons**, **Power Automates** and
 **Account**. By default, **Activity** is selected.
 
-In the bottom navigation, you can click on **Buttons** to see all the existing buttons you have
-created.
+In the bottom navigation, you can click on **Buttons** to see all the existing 
+buttons you have created.
 
 ![Buttons navigation icon](../media/button-navigation-icon.png) 
 
