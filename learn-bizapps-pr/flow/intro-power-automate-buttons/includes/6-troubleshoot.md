@@ -67,6 +67,6 @@ you the options to:
 
 -   Delete flow
 
-Clicking on the run history will provide you additonal clues such as how many
+Clicking on the run history will provide you additional clues such as how many
 times the flow has failed, did it fail at the same action or condition every
 single time, etc. You can then select **Edit flow** and fix the issue.
