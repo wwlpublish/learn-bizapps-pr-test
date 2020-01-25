@@ -10,9 +10,9 @@ Power BI Home offers three ways of locating and viewing your content. Though all
 
 1.  The Home canvas displays and organizes your favorite and most recent content, along with recommended content and learning resources. Each piece of content displays as a tile, with a title and icon. Selecting a tile opens that content.
 
-2.  Along the side, is a navigation pane. On this pane, your same content is organized a little differently, by Favorites, Recent, Apps, and Shared with me. From here, you can view lists of content and select the one to open.
+2.  In the upper right corner, the global search box lets you search for content by title, name, or keyword.
 
-3.  In the upper right corner, the global search box lets you search for content by title, name, or keyword.
+3.  Along the side, is a navigation pane. On this pane, your same content is organized a little differently, by Favorites, Recent, Apps, and Shared with me. From here, you can view lists of content and select the one to open.
 
 The following sections review each of these options for finding and viewing content.
 
