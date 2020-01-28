@@ -4,7 +4,7 @@ share a button, the person or group with whom you share can run your
 button. You can also share a link to buttons that another person shared
 with you. You can stop sharing your buttons at any time.
 
-The steps for sharing the button that you created in the previous unit are:
+The steps for sharing the button that you created in the previous unit include:
 
 1.  In the Microsoft Power Automate app, select the **Buttons** icon
     in the bottom menu. You should see the **Late to work** button that
@@ -23,11 +23,11 @@ The steps for sharing the button that you created in the previous unit are:
     **Office 365 Outlook** and **Office 365 Users**. Each connection has an
     **Edit** option next to it. Selecting **Edit** will let you select
     which connection that the user should use. The connection options are
-    those that are created by the maker of the button or those that are created by the user.
+    ones that have been created by the maker of the button or ones that have been created by the user.
 
 3.  The **Share Button link** provides you with the options to share by text
     message, email, or other methods that the smart phone device type and
-    service provider allows. For example, in **iPhone iOS**, you can 
+    service provider allow. For example, in **iPhone iOS**, you can 
     use **AirDrop**. 
     
     After having received the link, the user will need to
