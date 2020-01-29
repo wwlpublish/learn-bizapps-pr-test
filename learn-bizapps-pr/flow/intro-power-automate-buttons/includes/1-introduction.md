@@ -1,6 +1,6 @@
 Microsoft Power Automate buttons are the app-based virtual buttons that
-provide you the flexibility to automate repetitive tasks with just a tap
-of a button from any place, at any time via your mobile device. 
+provide you with the flexibility to automate repetitive tasks with just a tap
+of a button, from any place and at any time, through your mobile device. 
 
-Executing buttons saves you time and, since the tasks they perform are 
-automated, there will be fewer errors than if you manually did them.
+Implementing Power Automate buttons saves you time and, because the tasks that they perform are 
+automated, results in fewer errors than if you manually performed the tasks.

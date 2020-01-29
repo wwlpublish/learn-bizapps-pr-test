@@ -1,33 +1,33 @@
 A flow can fail due to one of the following three reasons:
 
-1.  **User authorization**
+- User authorization
 
-1.  **Data connections**
+- Data connections
 
-1.  **Power Automate actions or conditions**
+- Power Automate actions or conditions
 
 ### User authorization
 
-The flow works for only users of your tenant. Hence you need to confirm
+The flow works only for users of your tenant. Hence, you need to confirm that 
 the user's Office 365 account is active. If the account is active, then
-confirm the user's account has a Microsoft Power Automate license.
+confirm that the user's account has a Microsoft Power Automate license.
 
 ### Data connections
 
 Connectors need both authentication and authorization. Depending on the
-connector, you'll need a URL as well. Hence you need to confirm you have
-all this correct for the flow to run.
+connector, you'll need a URL as well. Consequently, you need to confirm that 
+all connections are correct for the flow to run.
 
-To validate your connector, you'll have to:
+To validate your connector, follow these steps:
 
--   Log into your [Power Automate](https://flow.microsoft.com/?azure-portal=true) 
+1. Sign in to your [Power Automate](https://flow.microsoft.com/?azure-portal=true) 
     tenant.
 
--   On the left vertical navigation, expand **Data** and click on
-    **Connections**. Check to view the **Status** of each connector.
+2. On the left vertical pane, expand **Data** and then select 
+    **Connections**. Verify the **Status** of each connector.
 
-It is important to know that when you share a button, you can allow
-users with whom you've shared the button to use all connections that
+When you share a button, you can allow
+people with whom you've shared the button to use all connections that
 your button uses. You can also require them to use their own
 connections. If you allow others to use your connections, they can't
 access the credentials in your connection or reuse them in any other
@@ -35,23 +35,22 @@ flow.
 
 ### Power Automate actions or conditions
 
-In the app, click on the Activity at the bottom horizontal menu and
-find your flow. Check to see if there is a red color exclamation icon on
-it. If there is, it means the flow has an error and you will see that Power
-Automate failed.
+In the app, select the activity on the bottom horizontal menu and
+find your flow. Check to see if a red exclamation icon is on your flow.
+If so, the flow has an error and you will see that Power Automate has failed.
 
 ![Late at work flow](../media/late-at-work-flow.png)
 
-Click on the flow to see where the error is. The **Summary** section
-will tell you which action has failed. You can click on **More** to get
-more information. This information should provide all the information you
-need to fix the flow. You can also click on the other steps to see how
-the action ran, you can view the schema of the inputs and outputs.
+Select the flow to determine where the error has occurred. The **Summary** section
+will tell you which action has failed. You can select **More** to get
+more information, which should provide all the details that you
+need to fix the flow. Additionally, you can select the other steps to see how
+the action ran and view the schema of the inputs and outputs.
 
 ![Late at work flow](../media/late-at-work-flow2.png)
 
-Clicking on the flow name will take you to another screen which gives
-you the options to:
+By selecting the flow name, you will be redirected to another screen that gives
+you the following options:
 
 -   Enable flow
 
@@ -67,6 +66,6 @@ you the options to:
 
 -   Delete flow
 
-Clicking on the run history will provide you additional clues such as how many
-times the flow has failed, did it fail at the same action or condition every
-single time, etc. You can then select **Edit flow** and fix the issue.
+Selecting the run history will provide you with additional clues such as how many
+times the flow has failed, whether it failed at the same action or condition every
+time, and so on. You can then select **Edit flow** and fix the issue.

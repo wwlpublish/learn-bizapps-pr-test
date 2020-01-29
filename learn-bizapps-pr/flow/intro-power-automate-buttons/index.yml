@@ -2,7 +2,7 @@
 uid: learn-bizapps.intro-power-automate-buttons 
 metadata: 
  title: Introduction to using Power Automate buttons 
- description: Do you want to learn about how to use buttons in Power Automate? This module focuses on introducing the basics of flow Buttons, the different types, utilizing Trigger Tokens, sharing Buttons with other users and using Buttons in the Power Automate mobile app.
+ description: Do you want to learn about how to use buttons in Power Automate? This module focuses on introducing the basics of flow buttons, the different types of buttons, using trigger tokens, sharing buttons with other users, and using buttons in the Power Automate mobile app.
  ms.date: 02/07/2020  
  author: KevSch  
  ms.author: kschimke  
@@ -12,14 +12,14 @@ title: Introduction to using Power Automate buttons
 summary: |  
   [!include[](../includes/module-banner.md)] 
 
-  Do you want to learn about how to use buttons in Power Automate? This module focuses on introducing the basics of flow Buttons, the different types, utilizing Trigger Tokens, sharing Buttons with other users and using Buttons in the Power Automate mobile app.
+  Do you want to learn about how to use buttons in Power Automate? This module focuses on introducing the basics of flow buttons, the different types of buttons, using trigger tokens, sharing buttons with other users, and using buttons in the Power Automate mobile app.
 abstract: |  
     In this module, you will: 
-    - Become familiar with the three different types of flow Buttons.
-    - Understand Trigger Tokens and how to use them.
-    - Learn how to share Buttons.
-    - Learn how Buttons work in the Power Automate mobile app.
-prerequisites: A basic understanding of Microsoft Power Automate. Basic understanding of how to create an event driven flow and a working mobile device with a Power Automate license.
+    - Become familiar with the three different types of flow buttons.
+    - Find out about trigger tokens and how to use them.
+    - Learn how to share buttons.
+    - Learn how buttons work in the Power Automate mobile app.
+prerequisites: A basic understanding of Microsoft Power Automate. Basic understanding of how to create an event-driven flow and a working mobile device with a Power Automate license.
 iconUrl: /learn/achievements/intro-power-automate-buttons.svg  
 levels:  
 - intermediate   
