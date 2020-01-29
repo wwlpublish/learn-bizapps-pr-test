@@ -13,70 +13,70 @@ durationInMinutes: 10
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: How many types of flow buttons are there in Power Automate?
+  - content: How many types of flow buttons exist in Power Automate?
     choices: 
-    - content: two
+    - content: Two
       isCorrect: false
-      explanation: There are three types of flow buttons.
-    - content: three
+      explanation: Power Automate has three types of flow buttons.
+    - content: Three
       isCorrect: true 
-      explanation: There are three types of flow buttons.
-    - content: four
+      explanation: Power Automate has three types of flow buttons.
+    - content: Four
       isCorrect: false 
-      explanation: There are three types of flow buttons.
-    - content: five
+      explanation: Power Automate has three types of flow buttons.
+    - content: Five
       isCorrect: false
-      explanation: There are three types of flow buttons.
-  - content: How many ways are available to share a button?
+      explanation: Power Automate has three types of flow buttons.
+  - content: How many ways can you share a button in Power Automate?
     choices: 
-    - content: one
+    - content: One
       isCorrect: false
-      explanation: There are two ways to share a button.
-    - content: two
+      explanation: Power Automate provides two ways for you to share a button.
+    - content: Two
       isCorrect: true
-      explanation: There are two ways to share a button.
-    - content: three
+      explanation: Power Automate provides two ways for you to share a button.
+    - content: Three
       isCorrect: false 
-      explanation: There are two ways to share a button.
-    - content: four
+      explanation: Power Automate provides two ways for you to share a button.
+    - content: Four
       isCorrect: false 
-      explanation: There are two ways to share a button.
-  - content: What are the three things to check for when troubleshooting a flow?
+      explanation: Power Automate provides two ways for you to share a button.
+  - content: What are the three verifications that you should make when troubleshooting a flow?
     choices: 
-    - content: Internet connection, device OS and Language.
+    - content: Internet connection, device OS, and language
       isCorrect: false
-      explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
-    - content: Device OS, Location and screen-size.
+      explanation: Three verifications that you should make when troubleshooting a flow are user authorization, data connections, and Power Automate actions or conditions.
+    - content: Device OS, location, and screen size
       isCorrect: false 
-      explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
-    - content: User authorization, Data connections and Power Automate actions or conditions.
+      explanation: Three verifications that you should make when troubleshooting a flow are user authorization, data connections, and Power Automate actions or conditions.
+    - content: User authorization, data connections, and Power Automate actions or conditions
       isCorrect: true
-      explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
-    - content: User interface, flow condition and internet connection.
+      explanation: Three verifications that you should make when troubleshooting a flow are user authorization, data connections, and Power Automate actions or conditions.
+    - content: User interface, flow condition, and internet connection
       isCorrect: false 
-      explanation: The three things to check when troubleshooting a flow are user authorization, Data connections, and Power Automate actions or conditions.
+      explanation: Three verifications that you should make when troubleshooting a flow are user authorization, data connections, and Power Automate actions or conditions.
   - content: What time and location do trigger tokens use?
     choices: 
-    - content: Uses the time and the geographic location of the users office.
+    - content: The time and geographic location of the user's office
       isCorrect: false 
-      explanation: Trigger token uses the time and the geographic location of the device. 
-    - content: Uses the time and the geographic location of the tenants HQ office.
+      explanation: Trigger tokens use the time and geographic location of the device. 
+    - content: The time and geographic location of the tenant's HQ office
       isCorrect: false 
-      explanation: Trigger token uses the time and the geographic location of the device. 
-    - content: Uses the time and the geographic location of the tenants Office 365 global admin.
+      explanation: Trigger tokens use the time and geographic location of the device. 
+    - content: The time and geographic location of the tenant's Office 365 global admin
       isCorrect: false 
-      explanation: Trigger token uses the time and the geographic location of the device. 
-    - content: Uses the time and the geographic location of the device.
+      explanation: Trigger tokens use the time and geographic location of the device. 
+    - content: The time and geographic location of the device
       isCorrect: true 
-      explanation: Trigger token uses the time and the geographic location of the device. 
+      explanation: Trigger tokens use the time and geographic location of the device. 
   - content: Can a button flow be built entirely from the Power Automate mobile app?
     choices: 
-    - content: Yes, with triggers, actions, and conditions.
+    - content: Yes, with triggers, actions, and conditions
       isCorrect: true 
       explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
-    - content: No, you will have to use a computer.
+    - content: No, you will have to use a computer
       isCorrect: false 
       explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
-    - content: Partially. You can add the button and trigger only. Actions and conditions are using a computer.
+    - content: Partially. You can add the button and trigger only. Actions and conditions use a computer.
       isCorrect: false 
       explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
