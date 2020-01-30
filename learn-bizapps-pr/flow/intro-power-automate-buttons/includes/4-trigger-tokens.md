@@ -39,7 +39,7 @@ your Android or IOS smart phone.
 
 1.  In your Microsoft Power Automate app, select the **Flows** icon, which is available at the bottom of the app. Select the plus icon (**+**) in the upper right.
 
-1.  You should see a menu option slide up from the bottom. Select the **Create from blank** option.
+1.  You should see a menu option slide up from the bottom of the page. Select the **Create from blank** option.
 
 1.  In the **Connectors** field, select the **Flow button for mobile** option. If you don't see the option, then search for it by using **Search all connectors and triggers** and then select it.
 
