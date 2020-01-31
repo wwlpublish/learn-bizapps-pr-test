@@ -19,7 +19,7 @@ People use apps for every area of their lives, and business should be no excepti
   :::column span="3":::
 **Power Automate** lets users create automated workflows between applications and services. It helps automate repetitive business processes such as communication, data collections, and decision approvals. 
 
-If you have ever been performing a repetitive task for work and think, "This is so easy a monkey could do it,"  Power Automate is your new best friend. Don't waste important productive hours on drafting the same email for a weekly update or walking approvals through. Not only for the individual user, Power Automate allows for the creation of enterprise-grade process automation. Power Automate's simple interface allows every level of user to automate work tasks from beginners to seasoned developers.
+Don't waste important productive hours on drafting the same email for a weekly update or walking approvals through. Not only for the individual user, Power Automate allows for the creation of enterprise-grade process automation. Power Automate's simple interface allows every level of user to automate work tasks from beginners to seasoned developers.
   :::column-end:::
 :::row-end:::
 
