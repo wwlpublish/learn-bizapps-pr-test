@@ -5,7 +5,7 @@ assigned to an environment. To avoid friction with makers creating
 flows, every licensed user belongs to the default environment and there
 is no way to prevent this. Additional environments can be provisioned
 where opt-in access is possible. A strategy that some organizations
-adopt includes [renaming the default environment](https://docs.microsoft.com/power-platform/admin/environments-administration.md?azure-portal=true#rename-your-environment) to be called **Personal Productivity, which implies permission to build
+adopt includes [renaming the default environment](https://docs.microsoft.com/power-platform/admin/environments-administration.md?azure-portal=true#rename-your-environment) to be called **Personal Productivity**, which implies permission to build
 flows that improve their own productivity. Organizations can
 subsequently create additional environments for development, testing, and
 production purposes. Using this strategy may also align flow creation
