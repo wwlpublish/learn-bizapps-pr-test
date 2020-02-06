@@ -26,12 +26,11 @@ To validate your connector, follow these steps:
 2. On the left vertical pane, expand **Data** and then select 
     **Connections**. Verify the **Status** of each connector.
 
-When you share a button, you can allow
-people with whom you've shared the button to use all connections that
-your button uses. You can also require them to use their own
-connections. If you allow others to use your connections, they can't
-access the credentials in your connection or reuse them in any other
-flow.
+When you share a button, you can allow people with whom you've 
+shared the button to use all connections that your button uses. 
+You can also require them to use their own connections. 
+If you allow others to use your connections, they can't access 
+the credentials in your connection or reuse them in any other flow.
 
 ### Power Automate actions or conditions
 

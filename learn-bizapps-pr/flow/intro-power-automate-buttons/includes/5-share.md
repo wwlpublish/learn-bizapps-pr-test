@@ -27,7 +27,7 @@ include:
     ones that have been created by the maker of the button or ones that have 
     been created by the user.
 
-3.  The **Share Button link** provides you with the options to share by text
+2.  The **Share Button link** provides you with the options to share by text
     message, email, or other methods that the smart phone device type and
     service provider allow. For example, in **iPhone iOS**, you can 
     use **AirDrop**. 
