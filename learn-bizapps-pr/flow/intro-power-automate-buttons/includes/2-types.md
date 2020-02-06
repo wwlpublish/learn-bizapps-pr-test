@@ -16,7 +16,7 @@ data connections, such as Office 365 users, to find your manager's
 contact information and also have the email action pre-populated with
 the subject line and email body.
 
-### App-based button with a flow with user input or trigger tokens
+### App-based virtual button with a flow with user input or trigger tokens
 
 Power Automate with user input or trigger tokens is a quick way
 to send notifications. Consider the scenario where you have a
