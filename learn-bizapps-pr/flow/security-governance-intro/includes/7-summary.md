@@ -1,4 +1,4 @@
-In this module we introduced many different Power Platform concepts
+In this module, we introduced many different Power Platform concepts
 including Environments Data Loss Prevention (DLP) policies and reviewed
 many of the tools found in the Center of Excellence (CoE) Starter Kit.
 All these features and tools are key in organizations governing their
