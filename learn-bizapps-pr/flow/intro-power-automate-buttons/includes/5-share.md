@@ -1,8 +1,9 @@
 In the Microsoft Power Automate mobile app, you can share a button
-with other users or Office 365 Groups within your tenant. When you
-share a button, the person or group with whom you share can run your
-button. You can also share a link to buttons that another person shared
-with you. You can stop sharing your buttons at any time.
+with other users, Azure Active Directory Groups, or Office 365 Groups 
+within your tenant. When you share a button, the person or group with 
+whom you share can run your button. You can also share a link to buttons 
+that another person shared with you. You can stop sharing your buttons 
+at any time.
 
 There are different ways to share the button that you created in the previous unit 
 include:

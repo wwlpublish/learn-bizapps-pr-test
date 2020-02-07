@@ -13,34 +13,34 @@ durationInMinutes: 10
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: How many types of flow buttons exist in Power Automate?
+  - content: How many button options are available to trigger a flow?
     choices: 
-    - content: Two
+    - content: Two, with user input and without user input.
       isCorrect: false
-      explanation: Power Automate has three types of flow buttons.
-    - content: Three
+      explanation: Three, with user input, without user input and a physical button.
+    - content: Three, with user input, without user input and a physical button.
       isCorrect: true 
-      explanation: Power Automate has three types of flow buttons.
-    - content: Four
+      explanation: Three, with user input, without user input and a physical button.
+    - content: Four, with user input, without user input, virtual button and physical button.
       isCorrect: false 
-      explanation: Power Automate has three types of flow buttons.
-    - content: Five
+      explanation: Three, with user input, without user input and a physical button.
+    - content: Five, with user input, without user input, virtual button, physical button and another flow.
       isCorrect: false
-      explanation: Power Automate has three types of flow buttons.
-  - content: How many ways can you share a button in Power Automate?
+      explanation: Three, with user input, without user input and a physical button.
+  - content: Which of the following ways can you share a button in Power Automate?
     choices: 
-    - content: One
+    - content: By adding individual users only.
       isCorrect: false
-      explanation: Power Automate provides two ways for you to share a button.
-    - content: Two
+      explanation: By adding individual users or Office 365 groups.
+    - content: By adding individual users or Office 365 groups.
       isCorrect: true
-      explanation: Power Automate provides two ways for you to share a button.
-    - content: Three
+      explanation: By adding individual users or Office 365 groups.
+    - content: By adding individual users, Office 365 groups or Exchange mailboxes.
       isCorrect: false 
-      explanation: Power Automate provides two ways for you to share a button.
-    - content: Four
+      explanation: By adding individual users or Office 365 groups.
+    - content: By adding individual users, Office 365 groups, Exchange mailboxes or SharePoint groups.
       isCorrect: false 
-      explanation: Power Automate provides two ways for you to share a button.
+      explanation: By adding individual users or Office 365 groups.
   - content: What are the three verifications that you should make when troubleshooting a flow?
     choices: 
     - content: Internet connection, device OS, and language
@@ -73,10 +73,10 @@ quiz:
     choices: 
     - content: Yes, with triggers, actions, and conditions
       isCorrect: true 
-      explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
-    - content: No, you will have to use a computer
+      explanation: A button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
+    - content: No, you have to use a computer
       isCorrect: false 
-      explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
-    - content: Partially. You can add the button and trigger only. Actions and conditions use a computer.
+      explanation: A button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
+    - content: Partially. You can add the button and trigger only. Actions and conditions need you to use a computer.
       isCorrect: false 
-      explanation: The button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
+      explanation: A button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
