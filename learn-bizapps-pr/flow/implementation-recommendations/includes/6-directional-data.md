@@ -1,4 +1,4 @@
-In Module 2 we discussed strategies that deal with exceptions. The
+In Module 2, we discussed strategies that deal with exceptions. The
 scenario we outlined was SharePoint and Twitter connectors being used
 within the same flow. The concern that an administrator may have is that
 sensitive data could leak from SharePoint to Twitter. This scenario may
@@ -9,8 +9,8 @@ and bringing it into the enterprise.
 
 DLP policies currently do not have a notion of directionality. But, this
 is something that we can implement by using the Power Platform
-Management connectors. In the following paragraphs we are going to
-walkthrough how we can accomplish directional data governance.
+Management connectors. In the following paragraphs, we are going to
+walk through how we can accomplish directional data governance.
 
 The first thing we need to do is to create a DLP policy, from the [Power Automate Admin center](https://admin.flow.microsoft.com/?azure-portal=true), that includes
 both the SharePoint and Twitter connectors in the Business data only
@@ -139,10 +139,9 @@ Name and Flow Name.
 ![Disable flow](../media/33-disable-flow.png)
 
 When we disable someone's flow, we want to send them an email so they
-are aware that their flow is no longer running. To get the flow owner's
-email address we will use the Office 365 Users connector and use the Get
+are aware that their flow is no longer running. To get the flow owner's email address, we will use the Office 365 Users connector and use the Get
 user profile (V2) action to return the owner's email address. To get
-their email address, we need to pass in the Creator object ID which can
+their email address, we need to pass in the Creator object ID, which can
 be retrieved from the List Flows as Admin action.
 
 ![Get flow creator email](../media/35-get-flow-creator-email.png)
@@ -166,7 +165,7 @@ To test our flow, we will log into the Power Automate maker portal using
 a different account and will create a simple flow that includes a
 SharePoint trigger and a Twitter action. As you recall, this scenario
 will not be blocked by our DLP policy, but it should get detected by the
-administrative flow that we just created.
+administrative flow that we created.
 
 ![create flow Twitter action](../media/39-create-flow-twitter-action.png)
 

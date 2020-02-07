@@ -19,7 +19,7 @@ The steps to install the Custom connector are as follows:
 
     ![Clone](../media/8-clone.png)
 
-3.  Locate the zip file that you just downloaded. Right click on it in Windows Explorer and select **Extract All...**
+3.  Locate the zip file that you downloaded. Right-click on it in Windows Explorer and select **Extract All...**
 
 4.  Navigate to the extracted folder and open the **PowerPlatformConnectors-master** folder.
 
@@ -81,7 +81,7 @@ Custom connector. These steps are also covered in the following section.
 
 3.  If you are prompted to accept the change to *InstallationPolicy* value of the repository, accept [A] Yes to all modules by typing 'A' and pressing **Enter** for each module.
 
-4.  List all of your DLP policies by executing the following command in the **Windows PowerShell** command line tool: **Get-AdminDlpPolicy**
+4.  List all of your DLP policies by executing the following command in the **Windows PowerShell** command-line tool: **Get-AdminDlpPolicy**
 
     ![Command](../media/12a-command.png)
 
@@ -92,11 +92,11 @@ Custom connector. These steps are also covered in the following section.
 
     ![get DLP](../media/13-get-dlp.png)
 
-6.  We now need to retrieve more details about our Custom connector. To do so we need to type **Get-AdminPowerAppConnector** in the **Windows PowerShell** command line tool. Once results are returned copy the **ConnectorName** and **ConnectorId** values to a text editor.
+6.  We now need to retrieve more details about our Custom connector. To do so, we need to type **Get-AdminPowerAppConnector** in the **Windows PowerShell** command-line tool. Once results are returned copy the **ConnectorName** and **ConnectorId** values to a text editor.
 
     ![get connector](../media/14-get-connector.png)
 
-7.  Now type **Add-CustomConnectorToPolicy** in the Windows PowerShell command line tool.
+7.  Now type **Add-CustomConnectorToPolicy** in the Windows PowerShell command-line tool.
 
 8.  When prompted, provide the **PolicyName** that you copied in step 5.
 

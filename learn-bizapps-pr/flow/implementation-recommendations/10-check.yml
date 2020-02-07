@@ -31,16 +31,16 @@ quiz:
     choices: 
     - content: Custom connectors are visible in Power Automate Admin Center in the **Business data only** data group.
       isCorrect: false
-      explanation: When Custom connectors are deployed to an environment, they are added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
+      explanation: When Custom connectors are deployed to an environment, they're added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
     - content: Custom connectors are visible in the Power Automate Admin center and placed in the default data group.
       isCorrect: false 
-      explanation: When Custom connectors are deployed to an environment, they are added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
+      explanation: When Custom connectors are deployed to an environment, they're added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
     - content: Custom connectors are not visible in the Power Automate Admin center, but placed in the default data group.
       isCorrect: true
-      explanation: When Custom connectors are deployed to an environment, they are added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
+      explanation: When Custom connectors are deployed to an environment, they're added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
     - content: Custom connectors are not managed.
       isCorrect: false 
-      explanation: When Custom connectors are deployed to an environment, they are added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
+      explanation: When Custom connectors are deployed to an environment, they're added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
   - content: What are the behaviors of the Power Platform Management connectors as it relates to DLP policies?
     choices: 
     - content: Since these connectors are part of the Power platform, they are not subject to DLP policies.
