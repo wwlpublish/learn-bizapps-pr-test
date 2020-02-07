@@ -57,7 +57,7 @@ and cyber security principles. For some organizations, they may allow
 for the mixing of business-related connectors with consumer-based
 services. Other organizations may choose to strictly prevent
 business-related connectors from connecting with consumer-based
-services. Organizations should begin by cataloguing the business systems
+services. Organizations should begin by cataloging the business systems
 that exist within their organization and then create DLP policies that
 align with that business mapping. We will further discuss DLP strategies
 in the **Implementation Recommendations** module.

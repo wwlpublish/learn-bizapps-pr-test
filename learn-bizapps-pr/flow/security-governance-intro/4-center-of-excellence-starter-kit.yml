@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.security-governance-intro.4-coe-starter-kit 
+uid: learn-bizapps.security-governance-intro.4-center-of-excellence-starter-kit
 title: Power Platform Center of Excellence (COE) starter kit
 metadata: 
   title: Power Platform Center of Excellence (COE) starter kit 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 5 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/4-coe-starter-kit.md)] 
+ [!include[](includes/4-center-of-excellence-starter-kit.md)] 

@@ -26,7 +26,7 @@ In this exercise, we are going to create a Power Automate Environment by complet
 
 	When deciding to include a database for future environments, evaluate how the environment will be used. For example, if you have plans to use the Common Data Service (CDS), AI Builder, UI Flows or apps that use CDS, then you need to include a database in your environment. If you have no plans to use these features, then a database is not required.
 
-	![new environment configures](../media/11-new-enviornment-configure.png)
+	![new environment configures](../media/11-new-environment-configure.png)
 
 7.  Provide the **Language** of your choice and **Currency**. For the purposes of this exercise, we will not enable **Dynamics 365 apps**
     nor **sample apps and data**. Click **Save** to create your

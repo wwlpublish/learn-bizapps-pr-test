@@ -1,11 +1,11 @@
 The Power Platform Center of Excellence (CoE) Starter Kit is a set of
-apps, flows, a Custom connector and a Power BI dashboard that allows
+apps, flows, a Custom connector, and a Power BI dashboard that allows
 organizations to govern their Power Platform environments. The tool is
 freely available for download on
 [GitHub](https://github.com/microsoft/powerapps-tools/tree/master/Administration/CoEStarterKit/?azure-portal=true).
 
 The Starter Kit is a great tool for organizations to increase the
-visibility of what their makers are doing inside of their tenant. There
+visibility of what their makers are doing in their tenant. There
 are naturally two personas that this immediately applies to: Cyber
 Security analysts and Organizational Change Management (OCM) interests.
 Makers that are building applications and services that introduce risk
@@ -40,7 +40,7 @@ and features:
     administrator then can email, through an in-app experience, the
     owner of that application and warn them of this upcoming change.
 
-    This current in-product DLP editor experience does not provide this
+    This current in-product DLP editor experience doesn't provide this
     type of 'what-if' analysis, so using the DLP Strategy app that comes
     with the COE Starter Kit is recommended when making DLP changes.
     Using the DLP Strategy app will also help you understand the impact
@@ -54,7 +54,7 @@ and features:
     While the Admin Analytics, found in the Power Platform Admin Center,
     provide some insights into the use of Power Apps and Power Automate,
     it does so within the context of an environment. This makes
-    developing a holistic picture of usage very difficult. However,
+    developing a holistic picture of usage difficult. However,
     using the tools provided in the COE Starter Kit brings all these
     insights together using the Common Data Service (CDS), a Model
     Driven Power App and a Power BI Dashboard. These assets, plus the
@@ -109,7 +109,7 @@ and features:
 -   **App Audit**
 
     Having a platform that provides democratized access to technology is
-    only useful if people don't create a lot of redundant or low-value
+    only useful if people don't create many redundant or low-value
     applications. There also may be situations where people create
     temporary applications for proof-of-concept purposes. These apps can
     clutter an environment if they are not cleaned up. Within the COE
@@ -128,7 +128,7 @@ and features:
     an application already exists instead of creating another app that
     provides similar functionality. Once an app has been approved by the
     **App Audit** process, which we previously described, these apps can
-    be featured in the app catalogue by having the app's metadata
+    be featured in the app catalog by having the app's metadata
     include **In App Catalog** and **Featured In App Catalog** as part
     of the **App Audit** process.
 
