@@ -28,7 +28,7 @@ a scheduled flow that will run every hour.
 A Recurrence trigger will automatically be added to our flow. We will
 now add an Initialize variable action to our flow. We will call this
 variable previousTimestamp and will include an expression of
-ticks(addMinutes(utcNow(),-60)). This expression will calculate the
+```ticks(addMinutes(utcNow(),-60))```. This expression will calculate the
 number of ticks as of 60 minutes ago. The reason for including this is
 that we want to see if any flows have been created or modified since the
 last time our flow ran, which would have been 60 minutes ago.
@@ -69,7 +69,7 @@ flow's last modified timestamp to that of our variable that we
 established earlier in our flow. To accomplish this, we will use an
 expression to calculate the ticks of our last modified timestamp. Our
 complete statement is
-ticks(items('Apply_to_each_2')?['properties']?['lastModifiedTime']) 
+```ticks(items('Apply_to_each_2')?['properties']?['lastModifiedTime'])``` 
 is greater than previousTimestamp.
 
 ![compare ticks](../media/23-compare-ticks.png)
