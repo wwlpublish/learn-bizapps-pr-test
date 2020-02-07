@@ -2,7 +2,7 @@
 uid: learn-bizapps.plan-manage-environment 
 metadata: 
  title: Plan and manage your Power Automate environment
- description: Every organization has unique requirements based upon their size, location, data residency requirements and appetite for democratized access to tools like Power Apps and Power Automate. In this module we will discuss considerations that impact how an organization chooses to secure and govern their Power Platform environments.
+ description: Every organization has unique requirements based upon their size, location, data residency requirements, and appetite for democratized access to tools like Power Apps and Power Automate. In this module, we will discuss considerations that impact how an organization chooses to secure and govern their Power Platform environments.
  ms.date: 2/29/2020  
  author: KevSch  
  ms.author: kschimke  
@@ -11,7 +11,7 @@ metadata:
 title: Plan and manage your Power Automate environment 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Every organization has unique requirements based upon their size, location, data residency requirements and appetite for democratized access to tools like Power Apps and Power Automate. In this module we will discuss considerations that impact how an organization chooses to secure and govern their Power Platform environments.
+  Every organization has unique requirements based upon their size, location, data residency requirements, and appetite for democratized access to tools like Power Apps and Power Automate. In this module, we will discuss considerations that impact how an organization chooses to secure and govern their Power Platform environments.
 abstract: |  
     In this module, you will: 
     - Identify cyber security risks and mitigation paths for those risks

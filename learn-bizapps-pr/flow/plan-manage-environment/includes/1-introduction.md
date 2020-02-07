@@ -1,9 +1,9 @@
-In this module we are going to discuss planning, which is essential in
+In this module, we're going to discuss planning, which is essential in
 securing and governing Power Automate environments. Since Power Automate
 is a democratized automation tool that can be used by many different
-people, teams, business units and roles in an organization, minimizing
+people, teams, business units, and roles in an organization, minimizing
 disruptions to those makers will ensure your organization remains
-productive and that there is not a disruption to business-critical
+productive and that there isn't a disruption to business-critical
 processes. Introducing governance changes after flows have been built,
 may result in flows being broken which leads to unmet expectations.
 

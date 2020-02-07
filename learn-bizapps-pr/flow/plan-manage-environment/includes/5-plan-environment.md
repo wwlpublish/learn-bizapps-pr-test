@@ -1,7 +1,6 @@
 Environment design is highly dependent upon organizational design.
-Considerations include size, locations, regulatory environment and
-appetite for adoption. While environment design is very organization
-dependent, the following recommendations will aid you in designing the
+Considerations include size, locations, regulatory environment, and
+appetite for adoption. While environment design is organization-dependent, the following recommendations will aid you in designing the
 right landscape for your organization.
 
 > [!NOTE]
@@ -30,10 +29,10 @@ based upon your organization's design and goals.
 ### Single region organization (centralized)
 
 In this organization, environments are centrally managed and include
-isolation for personal productivity, development, testing and production
+isolation for personal productivity, development, testing, and production
 purposes. The personal productivity environment can be used to support
 scenarios like email notifications, team-based approvals, adhoc data
-collection and the integration with Office 365 services. The central
+collection, and the integration with Office 365 services. The central
 team that manages environments will also provide access into non-default
 environments.
 
@@ -50,14 +49,14 @@ administrative responsibilities have been assigned to individual
 business units to manage. Once again, this organization operates within
 a single region and the default environment has been renamed to be
 called Personal Productivity. Additional environments have been created
-for respective business units like HR, Finance, Operations and IT.
+for respective business units like HR, Finance, Operations, and IT.
 
 ![single region decentralized](../media/2-single-region-decentralized.png)
 
 ### Multi-region organization (centralized)
 
-In this organization, environments are centrally managed and includes
-isolation for personal productivity, development, testing and production
+In this organization, environments are centrally managed and include
+isolation for personal productivity, development, testing, and production
 purposes. The personal productivity environment can be used to support
 scenarios like email notifications, team-based approvals, adhoc data
 collection and the integration with Office 365 services. The central
@@ -69,10 +68,10 @@ world, environments must be created within the region that the
 organization operates. To address this requirement, a default
 environment has been created within the home region where the tenant was
 created. This environment has been renamed Personal Productivity
-(default). In addition, Dev, Test and Production environments have also
+(default). In addition, Dev, Test, and Production environments have also
 been created within this region (North America). To address requirements
 in other regions, and to provide symmetry, Personal Productivity, Dev,
-Test and Production environments have also been created in the Asia and
+Test, and Production environments have also been created in the Asia and
 Europe regions.
 
 Since the behavior of the default environment is that all licensed users
@@ -96,9 +95,9 @@ business units to manage. Once again, this organization operates in
 multiple regions and the default environment has been renamed to be
 called Personal Productivity and resides within the same region as the
 tenant (North America). Within this home region, additional environments
-have been created for different business units that provides them with
+have been created for different business units that provide them with
 the autonomy that they require. To illustrate this concept, we have
-created environments for the HR, Finance, Operations and IT business
+created environments for the HR, Finance, Operations, and IT business
 units.
 
 Since the behavior of the default environment is that all licensed users
@@ -120,7 +119,7 @@ In the previous four examples, we illustrated configurations that
 organizations may choose to implement that address productivity and
 governance needs of their organization. However, since every
 organization is unique, there may be circumstances where you need to
-support exceptions. For example, you may have a tenant wide DLP policy
+support exceptions. For example, you may have a tenant-wide DLP policy
 that prevents joining SharePoint and Twitter connectors within the same
 app or flow. For many job functions, having the ability to retrieve data
 from SharePoint and then publish it to Twitter is not a valid business
