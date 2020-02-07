@@ -68,9 +68,7 @@ will add a Condition to our flow and will compare the ticks of the
 flow's last modified timestamp to that of our variable that we
 established earlier in our flow. To accomplish this, we will use an
 expression to calculate the ticks of our last modified timestamp. Our
-complete statement is
-```ticks(items('Apply_to_each_2')?['properties']?['lastModifiedTime'])``` 
-is greater than previousTimestamp.
+complete statement is ```ticks(items('Apply_to_each_2')?['properties']?['lastModifiedTime']) is greater than previousTimestamp```.
 
 ![compare ticks](../media/23-compare-ticks.png)
 
