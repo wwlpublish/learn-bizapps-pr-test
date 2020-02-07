@@ -2,6 +2,7 @@ Another popular use case that organizations face when creating DLP
 policies is supporting Dynamics 365 workloads. The following
 configuration is recommended when addressing the needs of Dynamics 365
 users.
+
 | Connector Name                            | Purpose                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Common Data Service (CDS)                 | The Common Data Service connector provides underlying platform access to Dynamics 365 data that is stored in CDS entities. This connector is the older of the two CDS connectors and should be used in the areas of personal automation.                                                                                                                           |
