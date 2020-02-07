@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.security-governance-intro 
+metadata: 
+ title: Power Automate security and governance 
+ description: This module will focus on introducing Power Platform Environments and their role in creating Data Loss Prevention (DLP) policies using examples and use cases. A brief introduction and overview of tools will also be discussed, including Power Platform and Power Automate Admin experiences and the Power Platform Center of Excellence (COE) toolkit.
+ ms.date: 2/29/2020  
+ author: KevSch  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Power Automate security and governance  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will focus on introducing Power Platform Environments and their role in creating Data Loss Prevention (DLP) policies using examples and use cases. A brief introduction and overview of tools will also be discussed, including Power Platform and Power Automate Admin experiences and the Power Platform Center of Excellence (COE) toolkit.
+abstract: |  
+    In this module, you will: 
+    - Access Power Platform and Power Automate Admin experiences.
+    - Differentiate features between Power Platform and Power Automate Admin experiences.
+    - Explain the difference between the Business data group and Non-business data group.
+    - Create simple environment and tenant-wide DLP policies.
+    - Explain the differences between out-of-box Admin experiences and Power Platform Center of Excellence toolkit.
+prerequisites: A basic understanding of Power Apps and Power Automate including their purpose and how these tools are used within an organization.  
+iconUrl: /learn/achievements/security-governance-intro.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products:  
+- dynamics  
+- power-automate 
+units: 
+- learn-bizapps.security-governance-intro.1-introduction 
+- learn-bizapps.security-governance-intro.2-environments 
+- learn-bizapps.security-governance-intro.3-data-loss-prevention 
+- learn-bizapps.security-governance-intro.4-center-of-excellence-starter-kit
+- learn-bizapps.security-governance-intro.5-exercise 
+- learn-bizapps.security-governance-intro.6-check 
+- learn-bizapps.security-governance-intro.7-summary 
+badge: 
+  uid: learn-bizapps.security-governance-intro.badge 
