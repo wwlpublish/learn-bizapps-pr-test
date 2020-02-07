@@ -24,7 +24,9 @@ iconUrl: /learn/achievements/intro-power-automate-buttons.svg
 levels:  
 - intermediate   
 roles:  
-- functional-consultant  
+- functional-consultant
+- business-user
+- maker  
 products:   
 - power-automate 
 units: 
