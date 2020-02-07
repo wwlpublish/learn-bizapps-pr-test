@@ -8,7 +8,7 @@ at any time.
 There are different ways to share the button that you created in the previous unit 
 include:
 
-1.  In the Microsoft Power Automate app, select the **Buttons** icon
+-  In the Microsoft Power Automate app, select the **Buttons** icon
     in the bottom menu. You should see the **Late to work** button that
     was created previously. On the bottom right of the button, you should see
     an ellipsis (**...**) and a pop-up
@@ -28,7 +28,7 @@ include:
     ones that have been created by the maker of the button or ones that have 
     been created by the user.
 
-2.  The **Share Button link** provides you with the options to share by text
+-  The **Share Button link** provides you with the options to share by text
     message, email, or other methods that the smart phone device type and
     service provider allow. For example, in **iPhone iOS**, you can 
     use **AirDrop**. 
