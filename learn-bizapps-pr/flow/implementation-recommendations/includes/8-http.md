@@ -32,8 +32,8 @@ information about PowerApps and Power Automate PowerShell Cmdlets can be
 found [here](https://docs.microsoft.com/power-platform/admin/powerapps-powershell/?azure-portal=true).
 
 After installing the pre-requisite PowerShell modules, we can run the
-following statement (**New-AdminDlpPolicy -DisplayName "HTTP DLP
-Policy" -SchemaVersion 2018-11-01**) which will create a new DLP policy
+following statement ```(**New-AdminDlpPolicy -DisplayName "HTTP DLP
+Policy" -SchemaVersion 2018-11-01**)``` which will create a new DLP policy
 that includes support for HTTP when we include a **-SchemaVersion**
 parameter of **2018-11-01**. Once we have executed the previous
 statement, we will be asked to log in using our admin credentials.
