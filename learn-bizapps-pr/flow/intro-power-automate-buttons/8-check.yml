@@ -1,0 +1,82 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-power-automate-buttons.8-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 02/07/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 10 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: How many button options are available to trigger a flow?
+    choices: 
+    - content: Two, with user input and without user input.
+      isCorrect: false
+      explanation: Three, with user input, without user input and a physical button.
+    - content: Three, with user input, without user input and a physical button.
+      isCorrect: true 
+      explanation: Three, with user input, without user input and a physical button.
+    - content: Four, with user input, without user input, virtual button and physical button.
+      isCorrect: false 
+      explanation: Three, with user input, without user input and a physical button.
+    - content: Five, with user input, without user input, virtual button, physical button and another flow.
+      isCorrect: false
+      explanation: Three, with user input, without user input and a physical button.
+  - content: Which of the following ways can you share a button in Power Automate?
+    choices: 
+    - content: By adding individual users only.
+      isCorrect: false
+      explanation: By adding individual users or Office 365 groups.
+    - content: By adding individual users or Office 365 groups.
+      isCorrect: true
+      explanation: By adding individual users or Office 365 groups.
+    - content: By adding individual users, Office 365 groups or Exchange mailboxes.
+      isCorrect: false 
+      explanation: By adding individual users or Office 365 groups.
+    - content: By adding individual users, Office 365 groups, Exchange mailboxes or SharePoint groups.
+      isCorrect: false 
+      explanation: By adding individual users or Office 365 groups.
+  - content: What are the three verifications that you should make when troubleshooting a flow?
+    choices: 
+    - content: Internet connection, device OS, and language
+      isCorrect: false
+      explanation: Three verifications that you should make when troubleshooting a flow are user authorization, data connections, and Power Automate actions or conditions.
+    - content: Device OS, location, and screen size
+      isCorrect: false 
+      explanation: Three verifications that you should make when troubleshooting a flow are user authorization, data connections, and Power Automate actions or conditions.
+    - content: User authorization, data connections, and Power Automate actions or conditions
+      isCorrect: true
+      explanation: Three verifications that you should make when troubleshooting a flow are user authorization, data connections, and Power Automate actions or conditions.
+    - content: User interface, flow condition, and internet connection
+      isCorrect: false 
+      explanation: Three verifications that you should make when troubleshooting a flow are user authorization, data connections, and Power Automate actions or conditions.
+  - content: What time and location do trigger tokens use?
+    choices: 
+    - content: The time and geographic location of the user's office
+      isCorrect: false 
+      explanation: Trigger tokens use the time and geographic location of the device. 
+    - content: The time and geographic location of the tenant's HQ office
+      isCorrect: false 
+      explanation: Trigger tokens use the time and geographic location of the device. 
+    - content: The time and geographic location of the tenant's Office 365 global admin
+      isCorrect: false 
+      explanation: Trigger tokens use the time and geographic location of the device. 
+    - content: The time and geographic location of the device
+      isCorrect: true 
+      explanation: Trigger tokens use the time and geographic location of the device. 
+  - content: Can a button flow be built entirely from the Power Automate mobile app?
+    choices: 
+    - content: Yes, with triggers, actions, and conditions
+      isCorrect: true 
+      explanation: A button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
+    - content: No, you have to use a computer
+      isCorrect: false 
+      explanation: A button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
+    - content: Partially. You can add the button and trigger only. Actions and conditions need you to use a computer.
+      isCorrect: false 
+      explanation: A button flow can be built entirely from the mobile app with triggers, actions, and conditions. 
