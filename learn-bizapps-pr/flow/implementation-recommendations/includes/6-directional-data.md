@@ -19,8 +19,7 @@ flows that include both of these connectors.
 
 ![Twitter SharePoint](../media/17-twitter-sharepoint.png)
 
-We will now transition to the [Power Automate Maker
-Portal](https://canada.flow.microsoft.com/) and will log in using our
+We will now transition to the [Power Automate Maker Portal](https://flow.microsoft.com/?azure-portal=true) and will log in using our
 administrator account so we can build our governance flow. We will build
 a scheduled flow that will run every hour.
 
