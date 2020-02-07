@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.implementation-recommendations.7-connectors 
+title: Configure DLP for custom connectors
+metadata: 
+  title: Configure DLP for custom connectors 
+  description: Learn about configuring DLP for custom connectors.  
+  ms.date: 2/29/2020 
+  author: KevSch 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/7-connectors.md)] 

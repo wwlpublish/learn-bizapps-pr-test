@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.implementation-recommendations.5-customer-experience 
+title: Implementing recommended DLP policy for Dynamics 365 customer experience users
+metadata: 
+  title: Implementing recommended DLP policy for Dynamics 365 customer experience users 
+  description: Learn about implementing recommended DLP policy for Dynamics 365 customer experience users.  
+  ms.date: 2/29/2020 
+  author: KevSch 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-customer-experience.md)] 

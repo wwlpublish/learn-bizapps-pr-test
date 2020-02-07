@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.implementation-recommendations.10-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 2/29/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: In order to include HTTP triggers/actions within a DLP policy, what schema version must be used when creating that DLP policy?
+    choices: 
+    - content: 2018-11-01
+      isCorrect: true 
+      explanation: Only specific versions of DLP policies support HTTP triggers/actions. Currently, only schema version 2018-11-01 is supported.
+    - content: 2016-01-01
+      isCorrect: false 
+      explanation: Only specific versions of DLP policies support HTTP triggers/actions. Currently, only schema version 2018-11-01 is supported.
+    - content: 2017-07-21
+      isCorrect: false 
+      explanation: Only specific versions of DLP policies support HTTP triggers/actions. Currently, only schema version 2018-11-01 is supported.
+    - content: 2019-01-01
+      isCorrect: false 
+      explanation: Only specific versions of DLP policies support HTTP triggers/actions. Currently, only schema version 2018-11-01 is supported.
+  - content: What is the default behavior for Custom connectors with respect to DLP policies?
+    choices: 
+    - content: Custom connectors are visible in Power Automate Admin Center in the **Business data only** data group.
+      isCorrect: false
+      explanation: When Custom connectors are deployed to an environment, they are added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
+    - content: Custom connectors are visible in the Power Automate Admin center and placed in the default data group.
+      isCorrect: false 
+      explanation: When Custom connectors are deployed to an environment, they are added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
+    - content: Custom connectors are not visible in the Power Automate Admin center, but placed in the default data group.
+      isCorrect: true
+      explanation: When Custom connectors are deployed to an environment, they are added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
+    - content: Custom connectors are not managed.
+      isCorrect: false 
+      explanation: When Custom connectors are deployed to an environment, they are added to the default data group, but are not visible in the DLP editor experience. Only after a connector has been added to DLP policy from PowerShell or the Power Platform Management connector will it be visible in the DLP editor experience.
+  - content: What are the behaviors of the Power Platform Management connectors as it relates to DLP policies?
+    choices: 
+    - content: Since these connectors are part of the Power platform, they are not subject to DLP policies.
+      isCorrect: false
+      explanation: The Power Platform Management connectors are managed like any other connector in the Power platform.
+    - content: These connectors are managed in DLP policies, much like any other connector.
+      isCorrect: true
+      explanation: The Power Platform Management connectors are managed like any other connector in the Power platform.
+    - content: These connectors need to be enabled by an administrator before they can be managed in DLP policies.
+      isCorrect: false 
+      explanation: The Power Platform Management connectors are managed like any other connector in the Power platform.
+    - content: These connectors cannot be managed in a DLP policy.
+      isCorrect: false 
+      explanation: The Power Platform Management connectors are managed like any other connector in the Power platform.
