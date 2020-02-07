@@ -38,7 +38,7 @@ In the app, select the activity on the bottom horizontal menu and
 find your flow. Check to see if a red exclamation icon is on your flow.
 If so, the flow has an error and you will see that Power Automate has failed.
 
-![Late at work flow](../media/late-at-work-flow.png)
+![Late to work flow](../media/late-at-work-flow.png)
 
 Select the flow to determine where the error has occurred. The **Summary** section
 will tell you which action has failed. You can select **More** to get
@@ -46,7 +46,7 @@ more information, which should provide all the details that you
 need to fix the flow. Additionally, you can select the other steps to see how
 the action ran and view the schema of the inputs and outputs.
 
-![Late at work flow](../media/late-at-work-flow2.png)
+![Late to work flow](../media/late-at-work-flow2.png)
 
 By selecting the flow name, you will be redirected to another screen that gives
 you the following options:
