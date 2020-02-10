@@ -34,7 +34,7 @@ can be disabled if the **Disabled** property is set to **Disabled**.
 -   DisabledColor - The color of text in a control if its **DisplayMode**
     property is set to **Disabled**.
 
--   DisabedFill - The background color of a control if its **DisplayMode**
+-   DisabledFill - The background color of a control if its **DisplayMode**
     property is set to **Disabled**.
 
 Hover properties
