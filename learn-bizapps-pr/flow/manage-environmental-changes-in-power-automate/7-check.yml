@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.manage-environmental-changes-in-power-automate.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 02/20/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: d365-power-platform-admin-center 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: 1. What is the best way to determine what custom connectors have been deployed in an organization's tenant?
+    choices: 
+    - content: a. Using the Maker Analytics feature found in the Power Automate maker portal.
+      isCorrect: false
+      explanation: The Get-AdminPowerAppConnector PowerShell Cmdlet will list all Custom connectors in a tenant.
+    - content: b.	Running the Get-AdminPowerAppConnector PowerShell Cmdlet.
+      isCorrect: true
+      explanation: The Get-AdminPowerAppConnector PowerShell Cmdlet will list all Custom connectors in a tenant.
+    - content: c. Running the Get-CustomTenantConnectors PowerShell Cmdlet.
+      isCorrect: false 
+      explanation: The Get-AdminPowerAppConnector PowerShell Cmdlet will list all Custom connectors in a tenant.
+    - content: d.  It is not possible to list the Custom connectors in a tenant.
+      isCorrect: false 
+      explanation: The Get-AdminPowerAppConnector PowerShell Cmdlet will list all Custom connectors in a tenant.
+  - content: 2.	What is the maximum data retention period for Admin Analytics found in the Power Platform Admin Center?
+    choices: 
+    - content: a.	14 days
+      isCorrect: false
+      explanation: The data retention for the Admin Analytics feature is 28 days.
+    - content: b.	90 days
+      isCorrect: false
+      explanation: The data retention for the Admin Analytics feature is 28 days.
+    - content: c.	7 days
+      isCorrect: false 
+      explanation: The data retention for the Admin Analytics feature is 28 days.
+    - content: d.	28 days
+      isCorrect: true
+      explanation: The data retention for the Admin Analytics feature is 28 days.
+  - content: 3.	Where is the best place to look for flow errors that are occurring within a Power Automate environment?
+    choices: 
+    - content: a.	Running the Get-ErrorsForEnviornment PowerShell Cmdlet.
+      isCorrect: false
+      explanation: In the Errors report found in the Power Platform Admin Center, administrators will be able to view all flow errors over the past 28 days.
+    - content: b.	Viewing the Errors report found in the Power Platform Admin Center - Admin Analytics feature.
+      isCorrect: true
+      explanation: In the Errors report found in the Power Platform Admin Center, administrators will be able to view all flow errors over the past 28 days.
+    - content: c.	Searching the Office 365 Security and Compliance logs.
+      isCorrect: false 
+      explanation: In the Errors report found in the Power Platform Admin Center, administrators will be able to view all flow errors over the past 28 days.
+    - content: d.	There is no way to find all flow errors for an environment, only a tenant.
+      isCorrect: false
+      explanation: In the Errors report found in the Power Platform Admin Center, administrators will be able to view all flow errors over the past 28 days.
