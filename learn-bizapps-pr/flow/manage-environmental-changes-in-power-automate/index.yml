@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.manage-environmental-changes-in-power-automate 
 metadata: 
- title: 
- description: 
+ title: Best Practices in Securing and Governing Power Automate Environments
+ description: In this module, we will discuss in importance of organizational change management and provide prescriptive guidance on how changes to DLP should be communicated to the organization. In addition, monitoring user activities using the Power Platform Admin Analytics dashboards, Office 365 Security and Compliance Audit Logs and Powershell Cmdlets will be discussed.
  ms.date: 02/20/2020  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
  ms.prod: d365-power-platform-admin-center  
-title:  
+title:  Best Practices in Securing and Governing Power Automate Environments
 summary: |  
   [!include[](../includes/module-banner.md)] 
 
@@ -38,6 +38,7 @@ iconUrl: /learn/achievements/manage-environmental-changes-in-power-automate.svg
 levels:  
 - intermediate   
 roles:  
+- developer
 - functional-consultant  
 products:  
 - dynamics-365
