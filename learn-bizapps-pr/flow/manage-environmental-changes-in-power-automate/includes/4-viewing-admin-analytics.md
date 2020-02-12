@@ -39,7 +39,7 @@ tenant, in this experience. A tenant administrator will be able to see
 analytics on a per-environment basis. Environment administrators will
 only see analytics for the environments that they are admins in. To
 change the environment, an administrator can click on the filter icon in
-the upper right-hand corner. From there they can select their desired
+the upper right-hand corner. From there, they can select their desired
 **Environment** and the **Time period** that they would like to see
 analytics for.
 
@@ -55,9 +55,9 @@ height="3.4583333333333335in"}
 Let's now dive into each of the reports that are available in the Power
 Automate Analytics feature, starting with Runs. Within the Runs report,
 administrators will be able to determine the number of flow runs within
-that environment per Day, Week and Month. In addition, Power BI embedded
+that environment per Day, Week, and Month. In addition, Power BI embedded
 slicers allow the administrator to filter data based upon whether the
-run was successful, failed or cancelled.
+run was successful, failed, or cancelled.
 
 For organizations who are adopting Power Automate, this report will
 provide insights that help determine the level of adoption within the
@@ -85,7 +85,7 @@ that have been recently created will also be listed in a table that
 includes the Created date and the Flow creator email address. Lastly, a
 trend of when these flows were created is also displayed.
 
-This report is particularly interesting for people responsible for
+This report is interesting for people responsible for
 change management. Perhaps the organization has recently provided Power
 Automate training and want to see if people are putting these new skills
 to use.
