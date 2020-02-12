@@ -1,4 +1,4 @@
-In Module 4 we discussed the need to maintain a digital tracking list
+In Module 4, we discussed the need to maintain a digital tracking list
 that can be used to communicate governance changes to users. One way to
 track users is to put them in an Office 365 Group. Should our DLP
 policies change, we can use this Office 365 group to send them updates.
@@ -9,7 +9,7 @@ prior to be added to this Office 365 group. This will attest they are
 aware of permitted activities and ensure they are aware of training
 materials that will accelerate their learning journey.
 
-1.  Before we build our flow, let's create our Office 365 group. We can do so by launching Outlook mail in a web browser. In the left navigation select **Groups** and then click on **New Group**.
+1.  Before we build our flow, let's create our Office 365 group. We can do so by launching Outlook mail in a web browser. In the left navigation, select **Groups** and then click on **New Group**.
 
 1.  Provide a Group name of **Flow Users** and then click on the
     **Create** button.
@@ -26,7 +26,7 @@ materials that will accelerate their learning journey.
 
 1.  Provide a Name for your flow, such as Populate Flow Group.
 
-1.  Set the Repeat every value to 1 Day so that our process will run once a day. Click the **Create** button to proceed.
+1.  Set the Repeat every value to one Day so that our process will run once a day. Click the **Create** button to proceed.
 
 	![create](../media/27-create.png)
 
@@ -38,7 +38,7 @@ materials that will accelerate their learning journey.
 
     1.  reportingPeriod -- is an Integer and has an initial value of -1. This will be our window that we will look back on to see if we have any new flows created. If we want to run this process weekly, then a value of -7 would be appropriate.
     
-    1.  reportingPeriodTicks -- which is also an Integer and represents the amount of ticks that exist for our reporting period. The value of this integer is achieved through an expression of ```ticks(addDays(utcNow(),variables('reportingPeriod')))```
+    1.  reportingPeriodTicks -- which is also an Integer and represents the number of ticks that exist for our reporting period. The value of this integer is achieved through an expression of ```ticks(addDays(utcNow(),variables('reportingPeriod')))```
 
     	![variables](../media/19-variables.png)
 
@@ -74,7 +74,7 @@ materials that will accelerate their learning journey.
 
     ![approval](../media/25-approval.png)
 
-1. Set the Approval type to Approve/Reject - Everyone must approve and set the Assigned to value to our Mail property from the Office 365 Users output. In addition, provide appropriate Title, Details and Item link that reflect the actions that you would like the user to take.
+1. Set the Approval type to Approve/Reject - Everyone must approve and set the Assigned to value to our Mail property from the Office 365 Users output. In addition, provide appropriate Title, Details, and Item link that reflect the actions that you would like the user to take.
 
     ![approval details](../media/26-approval-details.png)
 
@@ -86,7 +86,7 @@ materials that will accelerate their learning journey.
 
     ![outcome](../media/28-outcome.png)
 
-1. We are now ready to add this user to our security group by using the Office 365 Groups connector and the Add member to group action. Within this action there are a couple inputs that we need to provide including a Group Id of Flow Users and our User Principal Name (UPN) that was returned from our Office 365 Users connector.
+1. We are now ready to add this user to our security group by using the Office 365 Groups connector and the Add member to group action. Within this action, there are a couple inputs that we need to provide including a Group Id of Flow Users and our User Principal Name (UPN) that was returned from our Office 365 Users connector.
 
     ![add member](../media/29-add-member.png)
 
@@ -94,7 +94,7 @@ materials that will accelerate their learning journey.
 
     ![complete flow](../media/24-complete-flow.png)
 
-1. Let's now test our flow. This will help us validate our solution, since our logic is going to look for any flows that have been created in the past day. We can create a flow manually or use a template. To keep things simple, provision the [Send myself a reminder in 10 minutes](https://canada.flow.microsoft.com/galleries/public/templates/2ec8fd1095d711e69e6b05429ec0d0d7/send-myself-a-reminder-in-10-minutes/?azure-portal=true) template.
+1. Let's now test our flow. This will help us validate our solution, since our logic is going to look for any flows that have been created in the past day. We can create a flow manually or use a template. To keep things simple, provision the [Send myself a reminder in 10-minutes template.
 
 1. We can now test our Populate Flow Group Flow by using the Test feature found in the upper right-hand corner in the Power Automate Maker portal.
 

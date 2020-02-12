@@ -1,4 +1,4 @@
-In this section we are going to discover templates that allow
+In this section, we are going to discover templates that allow
 administrators to automate the governance of their environments.
 
 ### Template #1 - List New Microsoft Flow Connectors
@@ -15,7 +15,7 @@ or searching for it in the Template gallery.
 Once we click on this template, we will find a description of what the
 flow does and will be prompted to establish new connections for the
 connectors that are used by the flow. If you already have existing
-connections for these connectors, we can simply click on the
+connections for these connectors, we can click on the
 **Continue** button.
 
 ![continue](../media/4-continue.png)
@@ -47,10 +47,10 @@ correct data group.
 you may encounter a DLP error based upon our activities performed in
 previous modules. Modify or remove DLP policies as appropriate.
 
-### Template #2 - Get list of new PowerApps, Flows and Connectors
+### Template #2 - Get list of new PowerApps, Flows, and Connectors
 
 Another useful template that administrators can take advantage of is Get
-list of new PowerApps, Flows and Connectors which can be found by
+list of new PowerApps, Flows, and Connectors, which can be found by
 searching in the template gallery or by clicking on this
 [link](https://canada.flow.microsoft.com/galleries/public/templates/0b2ffb0174724ad6b4681728c0f53062/get-list-of-new-powerapps-flows-and-connectors/?azure-portal=true).
 
@@ -69,14 +69,13 @@ the **Continue** button to provision our flow.
 
 This flow is also configured to run daily and there is a variable called
 reportingPeriod that can be modified. This value indicates the number of
-days back that the flow should evaluate when looking for new apps, flows
-and connectors. The default value is -7 which means that this flow will
-look for new assets created in the past 7 days.
+days back that the flow should evaluate when looking for new apps, flows, and connectors. The default value is -7, which means that this flow will
+look for new assets created in the past seven days.
 
 ![configure flow](../media/9-configure-flow.png)
 
 When we run this flow, a report will be generated that identifies every
-new flow, app and connector that has been created in our tenant over the
+new flow, app, and connector that has been created in our tenant over the
 past seven days. Depending upon how many environments and apps/flows you
 have in your tenant, this flow may take several minutes to complete
 execution.
@@ -121,7 +120,7 @@ click on the **Continue** button to edit our flow.
 
 Before we configure our flow, we need to create a custom SharePoint list
 where we can store the operations that we will pass into the Office 365
-API. In our scenario we are interested in knowing when there are new
+API. In our scenario, we are interested in knowing when there are new
 flows created. As a result, we will add a record that includes a Title
 of CreateFlow**.** A complete list of supported operations may be found
 [here](https://flow.microsoft.com/blog/accessing-office-365-security-compliance-center-logs-from-microsoft-flow/?azure-portal=true).
@@ -132,7 +131,7 @@ With our SharePoint list created we can now edit our flow so that we can
 connect to our list. While we are in the flow designer, there are a few
 actions that we need to configure including our Recurrence trigger that
 indicates when our flow will run. We also need to populate a SendTo
-variable which represents an email address that we want to send our
+variable, which represents an email address that we want to send our
 output to. Should we want a different duration of events that we should
 query for, we can modify the expressions in the FromDate and ToDate
 variable.
