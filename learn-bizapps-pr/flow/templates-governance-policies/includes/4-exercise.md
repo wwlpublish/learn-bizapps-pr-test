@@ -36,9 +36,9 @@ materials that will accelerate their learning journey.
 
 	Name your variables in the following manner and include the appropriate Value as outlined below:
 
-    1.  reportingPeriod -- is an Integer and has an initial value of -1. This will be our window that we will look back on to see if we have any new flows created. If we want to run this process weekly, then a value of -7 would be appropriate.
+    1.  reportingPeriod - is an Integer and has an initial value of -1. This will be our window that we will look back on to see if we have any new flows created. If we want to run this process weekly, then a value of -7 would be appropriate.
     
-    1.  reportingPeriodTicks -- which is also an Integer and represents the number of ticks that exist for our reporting period. The value of this integer is achieved through an expression of ```ticks(addDays(utcNow(),variables('reportingPeriod')))```
+    1.  reportingPeriodTicks - which is also an Integer and represents the number of ticks that exist for our reporting period. The value of this integer is achieved through an expression of ```ticks(addDays(utcNow(),variables('reportingPeriod')))```
 
     	![variables](../media/19-variables.png)
 
@@ -94,7 +94,7 @@ materials that will accelerate their learning journey.
 
     ![complete flow](../media/24-complete-flow.png)
 
-1. Let's now test our flow. This will help us validate our solution, since our logic is going to look for any flows that have been created in the past day. We can create a flow manually or use a template. To keep things simple, provision the [Send myself a reminder in 10-minutes template.
+1. Let's now test our flow. This will help us validate our solution, since our logic is going to look for any flows that have been created in the past day. We can create a flow manually or use a template. To keep things simple, provision the Send myself a reminder in 10-minutes template.
 
 1. We can now test our Populate Flow Group Flow by using the Test feature found in the upper right-hand corner in the Power Automate Maker portal.
 
