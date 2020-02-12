@@ -122,7 +122,7 @@ Before we configure our flow, we need to create a custom SharePoint list
 where we can store the operations that we will pass into the Office 365
 API. In our scenario, we are interested in knowing when there are new
 flows created. As a result, we will add a record that includes a Title
-of CreateFlow**.** A complete list of supported operations may be found
+of CreateFlow. A complete list of supported operations may be found
 [here](https://flow.microsoft.com/blog/accessing-office-365-security-compliance-center-logs-from-microsoft-flow/?azure-portal=true).
 
 ![SharePoint](../media/14-sharepoint.png)
