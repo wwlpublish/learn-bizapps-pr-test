@@ -32,7 +32,7 @@ materials that will accelerate their learning journey.
 
 1.  We will now create the following two variables by clicking on +New step, followed by searching for variables and then selecting Initialize variable.
 
-	![initialize variable](media/28-initialize-variable.png)
+	![initialize variable](../media/28-initialize-variable.png)
 
 	Name your variables in the following manner and include the appropriate Value as outlined below:
 
