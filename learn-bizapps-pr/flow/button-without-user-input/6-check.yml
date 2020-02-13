@@ -9,77 +9,63 @@ metadata:
  ms.author: kschimke 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
-durationInMinutes: 5 
+durationInMinutes: 8 
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What is Convert time zone action used for?
+  - content: Which additional feature does the Convert time zone action have?
     choices: 
     - content: Convert from Eastern Time (US & Canada) to Pacific Time (US & Canada).
       isCorrect: false
-      explanation: Convert time zone action is used to keep time zone the same but only change the format to General date/time pattern. 
-    - content: Keep time zone the same but only change the format to General date/time pattern (short time).
+      explanation: It can change the format to General date/time pattern (short time). 
+    - content: Change the format to General date/time pattern (short time).
       isCorrect: true
-      explanation: Convert time zone action is used to keep time zone the same but only change the format to General date/time pattern. 
-    - content: Covert time zone and the format.
+      explanation: It can change the format to General date/time pattern (short time). 
+    - content: Convert time zone and the format.
       isCorrect: false 
-      explanation: Convert time zone action is used to keep time zone the same but only change the format to General date/time pattern. 
-    - content: Convert from Eastern Time (US & Canada) to Greenland.
+      explanation: It can change the format to General date/time pattern (short time). 
+    - content: Convert from Eastern Time (US & Canada) to Greenland time.
       isCorrect: false 
-      explanation: Convert time zone action is used to keep time zone the same but only change the format to General date/time pattern. 
-  - content: How many connections are used for the Weather information button flow?
+      explanation: It can change the format to General date/time pattern (short time). 
+  - content: Which of the following can you add triggers to in a button flow?
     choices: 
-    - content: Three. Office 365 Outlook, MSN Weather, and Notifications. 
+    - content: Triggers can't be added to button flows.
       isCorrect: false
-      explanation: Two connections are used for the Weather information button flow. They are MSN Weather and Notifications. 
-    - content: Four. Office 365 Outlook, Office 365 Users, MSN Weather, and Notifications.
+      explanation: Triggers can be added to actions and conditions.
+    - content: Triggers can be added only to actions.
       isCorrect: false 
-      explanation: Two connections are used for the Weather information button flow. They are MSN Weather and Notifications.
-    - content: Two. MSN Weather and Notifications.
-      isCorrect: true
-      explanation: Two connections are used for the Weather information button flow. They are MSN Weather and Notifications.
-    - content: One. Notification. 
-      isCorrect: false 
-      explanation: Two connections are used for the Weather information button flow. They are MSN Weather and Notifications.
-  - content: How many connections are used for the Send current location to manager button flow?
-    choices: 
-    - content: Three. Office 365 Outlook, Notification, and Office 365 Users.
-      isCorrect: false
-      explanation: Two connections are used for the Send current location to manager button flow. They are Office 365 Outlook and Office 365 Users.
-    - content: One. Office 365 Notification.
-      isCorrect: false 
-      explanation: Two connections are used for the Send current location to manager button flow. They are Office 365 Outlook and Office 365 Users.
-    - content: One. Office 365 Outlook.
-      isCorrect: false 
-      explanation: Two connections are used for the Send current location to manager button flow. They are Office 365 Outlook and Office 365 Users.
-    - content: Two. Office 365 Outlook and Office 365 Users.
-      isCorrect: true
-      explanation: Two connections are used for the Send current location to manager button flow. They are Office 365 Outlook and Office 365 Users.
-  - content: How many ways are available to build a button flow?
-    choices: 
-    - content: Two. Start from a connector, start from a template.
-      isCorrect: false
-      explanation: There are three ways to build a button flow. Start from a blank, start from a connector and start from a template.
-    - content: Three. Start from a blank, start from a connector and start from a template.
-      isCorrect: true
-      explanation: There are three ways to build a button flow. Start from a blank, start from a connector and start from a template.
-    - content: Two. Start from blank and start from a template.
-      isCorrect: false 
-      explanation: There are three ways to build a button flow. Start from a blank, start from a connector and start from a template.
-    - content: Three. Start from blank, start from PowerApps, and start from a template.
-      isCorrect: false 
-      explanation: There are three ways to build a button flow. Start from a blank, start from a connector and start from a template.
-  - content: How many ways are available to design a button flow?
-    choices: 
-    - content: Two. Using an existing flow template or from blank.
+      explanation: Triggers can be added to actions and conditions.
+    - content: Triggers can be added to actions and conditions.
       isCorrect: true 
-      explanation: There are two ways to design a button flow. Using an existing flow template or from blank.
-    - content: One. Using an existing flow template.
+      explanation: Triggers can be added to actions and conditions.
+    - content: Triggers can be added only to conditions.
+      isCorrect: false
+      explanation: Triggers can be added to actions and conditions.
+  - content: What is the input requirement for the Get Manager connector to work?
+    choices: 
+    - content: Your City or Full address information
+      isCorrect: false
+      explanation: User principal name or email id is needed for the Get Manager connector to work.
+    - content: User principal name or email id
+      isCorrect: true
+      explanation: User principal name or email id is needed for the Get Manager connector to work.
+    - content: Timestamp
       isCorrect: false 
-      explanation: There are two ways to design a button flow. Using an existing flow template or from blank.
-    - content: One. From blank. 
+      explanation: User principal name or email id is needed for the Get Manager connector to work.
+    - content: Full address, Date and Timestamp
       isCorrect: false 
-      explanation: There are two ways to design a button flow. Using an existing flow template or from blank.
-    - content: Three. Using an existing PowerApps template, existing flow template or from blank.
+      explanation: User principal name or email id is needed for the Get Manager connector to work.
+  - content: If a user property such as city or phone number is missing, where can you update this?
+    choices: 
+    - content: In Azure Active Directory or Office 365 User 
+      isCorrect: true 
+      explanation: You can update this in Azure Active Directory or Office 365 User.
+    - content: In Power Apps
       isCorrect: false 
-      explanation: There are two ways to design a button flow. Using an existing flow template or from blank.
+      explanation: You can update this in Azure Active Directory or Office 365 User.
+    - content: In the Power Automate Admin center
+      isCorrect: false 
+      explanation: You can update this in Azure Active Directory or Office 365 User.
+    - content: In both Power Automate and Power Apps Admin. center
+      isCorrect: false 
+      explanation: You can update this in Azure Active Directory or Office 365 User.

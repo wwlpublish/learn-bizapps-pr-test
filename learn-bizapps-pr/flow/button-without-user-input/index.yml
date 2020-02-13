@@ -2,7 +2,7 @@
 uid: learn-bizapps.button-without-user-input 
 metadata: 
  title: Create a Power Automate button that doesn’t require user input
- description: This module will focus on Power Automate buttons that don’t require user input and run a predefined series of actions. 
+ description: Do you want to create a Power Automate button flow? This module will focus on Power Automate buttons that don’t require user input and run a predefined series of actions. 
  ms.date: 2/22/2020  
  author: KevSch  
  ms.author: kschimke  
@@ -12,7 +12,7 @@ title: Create a Power Automate button that doesn’t require user input
 summary: |  
   [!include[](../includes/module-banner.md)] 
 
-  This module will focus on Power Automate buttons that don’t require user input and run a predefined series of actions. 
+  Do you want to create a Power Automate button flow? This module will focus on Power Automate buttons that don’t require user input and run a predefined series of actions. 
 abstract: |  
     In this module, you will: 
     - Create a flow triggered by a button tap.

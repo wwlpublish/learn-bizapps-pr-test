@@ -1,7 +1,7 @@
 This exercise uses an existing button template that matches your requirement.
 
-For this example, we'll use the **Get today's weather forecast for my current
-location** template created earlier in this module.
+For this example, we'll use the **Get today's weather forecast for my current location** 
+template created earlier in this module.
 
 Here are the steps.
 
