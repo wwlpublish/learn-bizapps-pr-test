@@ -28,7 +28,8 @@ roles:
 - business-user
 - maker  
 products:   
-- power-automate 
+- power-automate
+- power-platform
 units: 
 - learn-bizapps.intro-power-automate-buttons.1-introduction 
 - learn-bizapps.intro-power-automate-buttons.2-types 
