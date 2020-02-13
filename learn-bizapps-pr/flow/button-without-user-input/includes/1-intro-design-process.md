@@ -39,7 +39,7 @@ requirements.
 
 To build one from blank:
 
-1.  [Sign in](https://flow.microsoft.com/?azure-portal=true). 
+1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true). 
 
 1.  On the left vertical menu click on **+ Create**.
 
