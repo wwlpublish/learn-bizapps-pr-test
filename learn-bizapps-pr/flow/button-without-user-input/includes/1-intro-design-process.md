@@ -1,11 +1,11 @@
-Building a Button flow is the same as building any other flow. You have
+Building a button flow is the same as building any other flow. You have
 a start and an end. A flow always starts with a trigger action and in
-this module, we are focusing on Manually triggering a flow using buttons
-without any input. After the trigger you add steps. Each step can be an
+this module, we are focusing on manually triggering a flow using buttons
+without any input. After the trigger you add flow steps. Each step can be an
 action or a condition or a combination of actions and conditions. The
 flow always ends with an action.
 
-There are two ways to design the process for a Button Flow, one is to
+There are two ways to design the process for a button flow, one is to
 use an existing template with a button trigger and second is to build
 one from blank.
 
@@ -16,11 +16,11 @@ principles to design a successful flow.
 
 To build one using an existing template:
 
-1.  [Sign in](https://flow.microsoft.com/?azure-portal=true). 
+1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true). 
 
 1.  On the left vertical navigation click on **Templates**.
 
-1.  And in the search bar on the top, type in **Buttons** in **Search
+1.  In the search bar on the top, type in **Buttons** in **Search
     templates...**
 
 1.  You can then select any one of the templates that matches your

@@ -1,26 +1,26 @@
-In this section we are going to build a flow triggered by a button that
+In this unit, we are going to build a flow triggered by a button that
 will email our manager our current location. The flow will be built
-entirely from the flow app on your smart phone.
+entirely from the Power Automate app on your smart phone.
 
-1.  In your Microsoft Power Automate app click on **Flows** icon, which
+1.  In the Microsoft Power Automate app click on **Flows** icon, which
     is available at the bottom of the app, then click on the **+** icon
     which is available on the top right.
 
-1.  You should see a menu option slide up from the bottom, select the
+1.  You should see a menu option slide up from the bottom, Select the
     **Create from blank** option.
 
-1.  In the **Connectors** option click on **Flow button for mobile.** If
-    you don't see it then search for it in the **Search all connectors
-    and triggers** and then click on it.
+1.  In the **Connectors** option, click on **Flow button for mobile.** If you don't 
+    see it, then search for it in **Search all connectors and triggers** and then 
+    click on it.
 
 1.  Select **Flow button for mobile**.
 
-1.  In the **Manually trigger a flow** trigger click on **+** **Add an
-    input** and select **Text**. Then click on **Input**, delete
-    **Input** and type in **Reason**. Click on Done which is available
+1.  In the **Manually trigger a flow** trigger click on **+**, 
+    **Add an input** and select **Text**. Then click on **Input**, 
+    delete **Input** and type in **Reason**. Click on **Done** which is 
     on the top-right.
 
-1.  Click on **+** **New step**.
+1.  Click on **+**, then **New step**.
 
 1.  Click on **Add an action**.
 
@@ -99,7 +99,7 @@ entirely from the flow app on your smart phone.
 
     ![Add full address](../media/add-full-address.png)
 
-1. Give your flow a name such as **Send current location To Manager**
+1. Give your flow a name such as **Send current location to Manager**
     and click on **Create** which is available on the top-right.
 
     ![complete flow](../media/complete-flow2.png)
@@ -107,7 +107,7 @@ entirely from the flow app on your smart phone.
 1. In the next screen click on **Done** available on the top-right.
 
 1. On the bottom horizontal menu, click on **Buttons**. Then click on
-    your new **Send** current location to **Manager**.
+    your new **Send current location to Manager**.
 
 1. Your manager will get an email.
 

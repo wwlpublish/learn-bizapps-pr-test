@@ -3,8 +3,8 @@ device on which the button flow is running. These tokens are dependent
 on factors such as time and the geographic location of the device at a
 given moment.
 
-When you run a flow from a virtual button on a smart phone the date,
-time and the current address where the phone is located are
+When you run a flow from a virtual button on a smart phone, the date,
+time, and the current address where the phone is located are
 automatically available for use. You can use these trigger tokens to
 build useful flows that will minimize repetitive tasks such as providing
 your location to someone or tracking how much time you spent on a
