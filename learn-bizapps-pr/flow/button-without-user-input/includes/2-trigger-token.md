@@ -31,7 +31,7 @@ you to use when creating your button flows.
 Triggers can be added to both actions and conditions.
 
 Consider a **Send an email (V2)** action where you have the options to
-apply any of the above paraments in the body.
+apply any of the above parameters in the body.
 
 ![Send email action](../media/send-email-action.png)
 
