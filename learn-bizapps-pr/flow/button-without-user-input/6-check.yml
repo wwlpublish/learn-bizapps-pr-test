@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 2/07/2020 
+ ms.date: 2/22/2020 
  author: KevSch 
  ms.author: kschimke 
  ms.topic: interactive-tutorial 
@@ -13,9 +13,9 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What was Convert time zone action used for?
+  - content: What is Convert time zone action used for?
     choices: 
-    - content: Covert from Eastern Time (US & Canada) to Pacific Time (US & Canada).
+    - content: Convert from Eastern Time (US & Canada) to Pacific Time (US & Canada).
       isCorrect: false
       explanation: Convert time zone action is used to keep time zone the same but only change the format to General date/time pattern. 
     - content: Keep time zone the same but only change the format to General date/time pattern (short time).
@@ -55,7 +55,7 @@ quiz:
     - content: Two. Office 365 Outlook and Office 365 Users.
       isCorrect: true
       explanation: Two connections are used for the Send current location to manager button flow. They are Office 365 Outlook and Office 365 Users.
-  - content: There are how many ways to build a button flow?
+  - content: How many ways are available to build a button flow?
     choices: 
     - content: Two. Start from a connector, start from a template.
       isCorrect: false
@@ -66,20 +66,20 @@ quiz:
     - content: Two. Start from blank and start from a template.
       isCorrect: false 
       explanation: There are three ways to build a button flow. Start from a blank, start from a connector and start from a template.
-    - content: Three. Start from blank, start from PowerApps and start from a template.
+    - content: Three. Start from blank, start from PowerApps, and start from a template.
       isCorrect: false 
       explanation: There are three ways to build a button flow. Start from a blank, start from a connector and start from a template.
-  - content: There are how many ways to design a button flow?
+  - content: How many ways are available to design a button flow?
     choices: 
-    - content: Two. Using an existing Flow template or from blank.
+    - content: Two. Using an existing flow template or from blank.
       isCorrect: true 
-      explanation: There are two ways to design a button flow. Using an existing Flow template or from blank.
-    - content: One. Using an existing Flow template.
+      explanation: There are two ways to design a button flow. Using an existing flow template or from blank.
+    - content: One. Using an existing flow template.
       isCorrect: false 
-      explanation: There are two ways to design a button flow. Using an existing Flow template or from blank.
+      explanation: There are two ways to design a button flow. Using an existing flow template or from blank.
     - content: One. From blank. 
       isCorrect: false 
-      explanation: There are two ways to design a button flow. Using an existing Flow template or from blank.
-    - content: Three. Using an existing PowerApps template, existing Flow template or from blank.
+      explanation: There are two ways to design a button flow. Using an existing flow template or from blank.
+    - content: Three. Using an existing PowerApps template, existing flow template or from blank.
       isCorrect: false 
-      explanation: There are two ways to design a button flow. Using an existing Flow template or from blank.
+      explanation: There are two ways to design a button flow. Using an existing flow template or from blank.
