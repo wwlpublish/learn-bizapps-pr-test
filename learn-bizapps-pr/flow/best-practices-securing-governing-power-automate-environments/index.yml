@@ -22,7 +22,8 @@ abstract: |
     -	Observe how connections are being established within your Power Automate environments
 prerequisites: |
 -A basic understanding of Power Apps and Power Automate, including their purpose, and how these tools are used within an organization. --Students should also understand how connectors are used within apps and flows in order to exchange data across source and destination systems.
-iconUrl: /learn/achievements/best-practices-securing-governing-power-automate-environments.svg
+iconUrl: 
+/learn/achievements/best-practices-securing-governing-power-automate-environments.svg
 levels:  
 - intermediate
 roles:  
