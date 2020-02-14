@@ -1,43 +1,43 @@
 ### YamlMime:Module 
-uid: learn-bizapps.best-practices-securing-governing-power-automate-environments 
+uid: learn-bizapps.best-practices-securing-governing-power-automate-environments
 metadata: 
- title: Best practices for securing and governing power automats environments
- description: Learn best practices for securing and governing power automate environments
+ title: Best practices for securing and governing Power Automate environments
+ description: Learn best practices for securing and governing Power Automate environments
  ms.date: 02/20/2020
  author: KevSch
- ms.author: kschimke 
+ ms.author: kschimke
  ms.topic: interactive-tutorial
  ms.prod: d365-power-platform
-title: Best practices for securing and governing power automats environments
+title: Best practices for securing and governing Power Automate environments
 summary: |
-  [!include[](../includes/module-banner.md)] 
-
-  Learn best practices for communicating changes to DLP policies, unerstand how users are using Power Automate, discover who in your organization is creating and sharing flows, learn what connections are being used within your Power Automate environments, and observe how connections are estalished within your Power Automate environments.
+  [!include[](../includes/module-banner.md)]
+  
+  Learn best practices for communicating changes to DLP policies, understand how users are using Power Automate, discover who in your organization is creating and sharing flows, learn what connections are being used within your Power Automate environments, and observe how connections are estalished within your Power Automate environments.
 abstract: |
-    In this module, you will: 
+   In this module, you will: 
     - Identify best practices for communicating changes to DLP policies
     -	Understand how users are using Power Automate
     -	Discover who in your organization is creating and sharing flows
     -	Learn what connectors are being used within your Power Automate environments
-    -	Observe how connections are being established within your Power Automate environments. 
+    -	Observe how connections are being established within your Power Automate environments
 prerequisites: |
     A basic understanding of Power Apps and Power Automate, including their purpose, and how these tools are used within an organization. Students should also understand how connectors are used within apps and flows in order to exchange data across source and destination systems.
 iconUrl: /learn/achievements/best-practices-securing-governing-power-automate-environments.svg  
 levels:  
-- intermediate   
+- intermediate
 roles:  
 - functional-consultant
 - administrator
 products:  
-- dynamics  
+- dynamics
 - power-platform
 units: 
-- learn-bizapps.best-practices-securing-governing-power-automate-environments.1-intro-and-best-practices 
-- learn-bizapps.best-practices-securing-governing-power-automate-environments.2-prerequisites 
-- learn-bizapps.best-practices-securing-governing-power-automate-environments.3-implementing-best-practices 
-- learn-bizapps.best-practices-securing-governing-power-automate-environments.4-view-admin-analytics 
-- learn-bizapps.best-practices-securing-governing-power-automate-environments.5-exercise 
-- learn-bizapps.best-practices-securing-governing-power-automate-environments.6-check 
-- learn-bizapps.best-practices-securing-governing-power-automate-environments.7-summary 
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.1-intro-and-best-practices
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.2-prerequisites
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.3-implementing-best-practices
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.4-view-admin-analytics
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.5-exercise
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.6-check
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.7-summary
 badge: 
-  uid: learn-bizapps.best-practices-securing-governing-power-automate-environments.badge 
+  uid: learn-bizapps.best-practices-securing-governing-power-automate-environments.badge
