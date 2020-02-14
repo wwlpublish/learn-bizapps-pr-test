@@ -1,5 +1,5 @@
 ### YamlMime:Module 
-uid: learn-bizapps.Best-Practices-Securing-Governing-Power-Automate-Environments 
+uid: learn-bizapps.best-practices-securing-governing-power-automate-environments 
 metadata: 
  title: Best practices for securing and governing poer automat environments
  description: 
@@ -31,12 +31,12 @@ products:
 - dynamics  
 - power-platform
 units: 
-- learn-bizapps.Best-Practices-Securing-Governing-Power-Automate-Environments.1-intro-and-best-practices 
-- learn-bizapps.Best-Practices-Securing-Governing-Power-Automate-Environments.2-prerequisites 
-- learn-bizapps.Best-Practices-Securing-Governing-Power-Automate-Environments.3-implementing-best-practices 
-- learn-bizapps.Best-Practices-Securing-Governing-Power-Automate-Environments.4-view-admin-analytics 
-- learn-bizapps.Best-Practices-Securing-Governing-Power-Automate-Environments.5-exercise 
-- learn-bizapps.Best-Practices-Securing-Governing-Power-Automate-Environments.6-check 
-- learn-bizapps.Best-Practices-Securing-Governing-Power-Automate-Environments.7-summary 
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.1-intro-and-best-practices 
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.2-prerequisites 
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.3-implementing-best-practices 
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.4-view-admin-analytics 
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.5-exercise 
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.6-check 
+- learn-bizapps.best-practices-securing-governing-power-automate-environments.7-summary 
 badge: 
   uid: learn-bizapps.best-practices-securing-governing-power-automate-environments.badge 

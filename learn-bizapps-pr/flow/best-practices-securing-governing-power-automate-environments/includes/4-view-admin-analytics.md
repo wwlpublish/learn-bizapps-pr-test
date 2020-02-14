@@ -1,7 +1,7 @@
 In the previous section, we discussed steps that can be taken to support
 communicating with users once you are ready to make governance changes.
 However, it is important to understand what the impacts of upcoming
-changes are before sending out communication. In this section, we will discuss how the Power Platform Admin Analytics feature can aid administrators in understanding how Power Automate is used to
+changes are before sending out communication. In this section, we'll discuss how the Power Platform Admin Analytics feature can aid administrators in understanding how Power Automate is used to
 avoid undesirable impacts.
 
 There are six Power Automate reports that are available inside of the
@@ -19,7 +19,7 @@ Power Platform Admin Center including:
 
 -   Connectors
 
-We will walk through each of these reports and highlight how
+We'll walk through each of these reports and highlight how
 administrators can leverage them to gain insights about how their users
 utilize Power Automate.
 
@@ -39,7 +39,7 @@ tenant, in this experience. A tenant administrator will be able to see
 analytics on a per-environment basis. Environment administrators will
 only see analytics for the environments that they are admins in. To
 change the environment, an administrator can click on the filter icon in
-the upper right-hand corner. From there they can select their desired
+the upper right-hand corner. From there, they can select their desired
 **Environment** and the **Time period** that they would like to see
 analytics for.
 
@@ -55,7 +55,7 @@ height="3.4583333333333335in"}
 Let's now dive into each of the reports that are available in the Power
 Automate Analytics feature, starting with Runs. Within the Runs report,
 administrators will be able to determine the number of flow runs within
-that environment per Day, Week and Month. In addition, Power BI embedded
+that environment per Day, Week, and Month. In addition, Power BI embedded
 slicers allow the administrator to filter data based upon whether the
 run was successful, failed or cancelled.
 
