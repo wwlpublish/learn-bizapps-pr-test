@@ -32,5 +32,5 @@ users are making connections through different connectors.
     includes the name of the connector, who created the connection, the
     environment and its current status.
 
-    ![Returned data](../media/15-exercise.png){width="4.34375in"
+    ![Returned data](../media/15-excercise.png){width="4.34375in"
     height="3.1603587051618547in"}
