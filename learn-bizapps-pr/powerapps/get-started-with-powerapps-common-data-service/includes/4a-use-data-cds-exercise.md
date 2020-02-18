@@ -60,7 +60,7 @@ customers for your app.
 ### Add a Business Rule
 
 1.	On the entity designer toolbar, Select **Business rules**.
-1.	Select **Add business rule**, a new browser tab to open.
+1.	Select **Add business rule**, a new browser tab will open.
 1.	Select on the **Condition New Condition** from the design pane.
 1.	In the right-hand pane, for **Field** choose **Contract Amount**.
 1.	For the Operator, choose **contains data**.
@@ -112,4 +112,3 @@ exercise. Open the link, and select the Download button and save it locally.
 1. Select **Entities**.
 1. Select the **Prospects** entity and Select **Data**.
 1. Ensure that the data has successfully imported.
-
