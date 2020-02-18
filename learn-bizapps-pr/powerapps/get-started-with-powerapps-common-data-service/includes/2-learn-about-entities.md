@@ -79,7 +79,9 @@ By combining conditions and actions, you can do any of the following with busine
 - Validate data and show error messages
 - Create business recommendations based on business intelligence.
 
-There are differences between canvas and model-driven apps, model-driven apps can use all actions available on business rules, however not all business rule actions are available for canvas apps at this time. The following actions are not available on Canvas apps:
+## Differences between canvas and model-driven apps
+
+Model-driven apps can use all actions available on business rules, however not all business rule actions are available for canvas apps at this time. The following actions are not available on Canvas apps:
 - Show or hide fields
 - Enable or disable fields
 - Create business recommendations based on business intelligence.
