@@ -1,14 +1,14 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.best-practices-securing-governing-power-automate-environments.5-exercise 
+uid: learn-bizapps.best-practices-securing-governing-power-automate-environments.5-exercise
 title: Exercise
-metadata: 
+metadata:
   title: Exercise
   description: Exercise
-  ms.date: 02/20/2020 
-  author: KevSch 
-  ms.author: kschimke 
-  ms.topic: interactive-tutorial 
-  ms.prod: d365-power-platform 
+  ms.date: 02/20/2020
+  author: KevSch
+  ms.author: kschimke
+  ms.topic: interactive-tutorial
+  ms.prod: d365-power-platform
 durationInMinutes: 5 
 content: | 
  [!include[](../includes/unit-banner.md)] 
