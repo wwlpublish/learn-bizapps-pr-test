@@ -15,12 +15,12 @@ summary: |
   Do you want to create a Power Automate button flow? This module will focus on Power Automate buttons that don’t require user input and run a predefined series of actions. 
 abstract: |  
     In this module, you will: 
-    - Create a flow triggered by a button tap.
-    - Build out the actions to implement the flow.
-    - Understand how to use trigger tokens in a flow.
-    - Running a button from the mobile App.
-    - Testing the button from the flow UI Designer.
-prerequisites: A basic understanding of Microsoft Power Automate and how to create an event driven flow. It is also beneficial if the student has already taken the module Introduction to using Power Automate buttons. 
+    - Create a flow that is triggered by tapping a button.
+    - Build the actions to implement the flow.
+    - Learn how to use trigger tokens in a flow.
+    - Run a button from the mobile app.
+    - Test the button from the flow UI Designer.
+prerequisites: A basic understanding of Microsoft Power Automate and how to create an event-driven flow. It is also beneficial if the student has already taken the Introduction to using Power Automate buttons module. 
 iconUrl: /learn/achievements/button-without-user-input.svg  
 levels:  
 - intermediate   
