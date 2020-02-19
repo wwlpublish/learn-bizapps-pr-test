@@ -19,7 +19,7 @@ To build a flow by using an existing template, follow these steps:
 
 1.  On the left navigation pane, select **Templates**.
 
-1.  In the search bar on the top of the page, enter **Buttons**. 
+1.  In the search bar on the upper part of the page, enter **Buttons**. 
 
 1.  Select a template that matches your
     requirements, add your connectors, and then fill in the
@@ -41,7 +41,7 @@ To build a flow from blank, follow these steps:
 
 1.  On the left navigation pane, select **+ Create**.
 
-1.  The top of the page shows ways for you to make a flow. The first way
+1.  The upper part of the page shows ways for you to make a flow. The first way
     is **Start from blank**, where you will select **Instant flow**.    
 
 1.  Give your flow a name. In the **Build an instant flow** section, select 
