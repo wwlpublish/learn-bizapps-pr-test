@@ -3,7 +3,7 @@ uid: learn-bizapps.button-without-user-input.4-email-location
 title: Create a Power Automate button that sends your manager an email with your location
 metadata: 
   title: Create a Power Automate button that sends your manager an email with your location 
-  description: Learn how to create a button that sends your manager an email with your location. 
+  description: Learn how to create a Power Automate button that sends your manager an email with your location. 
   ms.date: 2/22/2020 
   author: KevSch 
   ms.author: kschimke 
