@@ -60,7 +60,7 @@ entirely from the Power Automate app on your smart phone.
 
 1. Select **Subject**, enter **Arrived Onsite**, and then select **Done**.
 
-1. Select **Body** and then enter the following:
+1. Select **Body** and then enter the following text:
 
     ```Hi.```
 
