@@ -16,7 +16,7 @@ To connect to a data source, use the following procedure:
 
 1. In the left pane, select **Apps**.
 
-1. Select **Create an app** and then **Canvas** from the drop-down menu.
+1. Select **+ New app** and then **Canvas** from the drop-down menu.
 1. For the **OneDrive for Business** data source, select **Phone layout**.
 
     ![Phone app from Excel](../media/powerapps-start-excel.png)
