@@ -17,7 +17,7 @@ The illustration below shows a simple Business Process Flow with two
 stages for adding questions to a survey. Also note the Business Process
 Flow is shown as a component of a model driven solution in PowerApps.
 
-![Model App with Business Process Flow Stage One Displayed](../media/1-embedded-business-process-flow-stage-one-displayed.png)
+![Model App with Business Process Flow Stage One Displayed](../media/1-embedded-business-process-flow-stage-displayed.png)
 
 Business Process Flows are created and managed using Microsoft Power
 Automate (formerly called Flow) and they are available for

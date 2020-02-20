@@ -65,7 +65,7 @@ an immersive Business Process Flow) as shown below.
 
 As mentioned previously, all data associated with the Business Process
 Flow is stored in one or more Common Data Service entities (custom or
-standard). Note -- you could launch an instant Power Automate flow in
+standard). You could launch an instant Power Automate flow in
 conjunction with a Business Process Flow to store data outside of Common
 Data Service if needed. Finally, you can easily create PowerBI
 Dashboards from the data collected within the Business Process Flow.
