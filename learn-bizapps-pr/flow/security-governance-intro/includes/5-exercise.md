@@ -1,6 +1,7 @@
 In this exercise, we are going to create a Power Automate Environment by completing the following steps:
 
-1.  To complete this lab, ensure that your account meets the following licensing criteria. If necessary, sign up for a trial account here.
+1.  To complete this lab, ensure that your account meets the following [licensing criteria](https://docs.microsoft.com/power-platform/admin/create-environment#who-can-create-environments/?azure-portal=true). 
+If necessary, sign up for a [trial account](https://flow.microsoft.com/#home-signup/?azure-portal=true).
 
 2.  Log into the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true).
 
