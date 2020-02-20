@@ -5,7 +5,7 @@ limits on how long a stage can be open. All data associated with the
 Business Process Flow can ONLY be stored in one or more entities in
 Common Data Service and you cannot associate a Business Process Flow
 with another data source "behind" it. Finally, Common Data Service has
-many different out-of-the-box Business Process Flows available that can
+many different out-of-the-box Business Processes Flows available that can
 be used as-is or modified to fit your needs.
 
 A Power Automate Flow (flow) does not have any visual components like a
@@ -14,7 +14,7 @@ with many different data sources and a flow can connect to many
 different data sources within the same flow. A flow can be configured to
 "time-out" if not completed in a certain time and can be triggered to
 move between steps based upon data or user interaction. Flows support
-very complex logic and looping and a Power Automate flow can call
+complex logic and looping and a Power Automate flow can call
 another Power Automate flow as needed.
 
 ### Business process flows values to organizations 
@@ -71,5 +71,5 @@ Data Service if needed. Finally, you can easily create PowerBI
 Dashboards from the data collected within the Business Process Flow.
 
 As you have now learned, business Process flows are deeply integrated
-within the Microsoft Power Platform and offer very powerful ways to
+within the Microsoft Power Platform and offer powerful ways to
 improve how you manage common business processes.
