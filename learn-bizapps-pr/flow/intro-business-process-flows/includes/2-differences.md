@@ -55,13 +55,13 @@ Automate. You can manage or create new Business Process flows by
 launching Power Automate and selecting the Business Process Flows under
 My Flows in Power Automate as shown below.
 
-![Power Automate my flows business process flows](../media/2-power-automate-my-flows-business-process-flows.png)
+![Power Automate my flows business process flows](../media/power-automate-my-flows-business-process-flows.png)
 
 They can be launched as a as a component of a Model Driven Power App
 Application or a stand-alone application within Power Automate (called
 an immersive Business Process Flow) as shown below.
 
-![Immersive business process flow](../media/3-immersive-business-process-flow.png)
+![Immersive business process flow](../media/immersive-business-process-flow.png)
 
 As mentioned previously, all data associated with the Business Process
 Flow is stored in one or more Common Data Service entities (custom or
