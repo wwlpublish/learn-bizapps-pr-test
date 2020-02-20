@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-business-process-flows.5-summary 
+title: Summary
+metadata: 
+  title: Summary 
+  description: Summary of introduction to business process flows in Power Automate.  
+  ms.date: 3/15/2020 
+  author: KevSch 
+  ms.author: kschimke 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-summary.md)] 
