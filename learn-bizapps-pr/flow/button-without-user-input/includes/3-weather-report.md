@@ -6,10 +6,11 @@ the **MSN Weather** connector.
 
 1.  On the left navigation pane, select **+ Create**.
 
-1.  The uppermost part of the page shows the ways that you can make a flow. The first way
+1.  This page shows the ways that you can make a flow. The first way
     is **Start from blank**, where you will select **Instant flow**.
     
-1.  Add **Weather Information** as the flow name and select the **Manually trigger a flow** option.
+1.  Add **Weather Information** as the flow name and select the **Manually trigger a flow** option
+    to trigger this flow.
 
 1.  Select **Create** to start building the flow.
 
@@ -23,11 +24,11 @@ the **MSN Weather** connector.
 
 	![MSN weather connector icon](../media/msn-weather-connector-icon.png)
 
-1.  Select **Get forecast for today**. Wait until it creates its connection.
+1. Select **Get forecast for today**. Wait until it creates its connection.
 
-1. In the **Location** field, select the **Full address** option from **Dynamic Content**.
+1. Click the **Location** field, and then select the **Full address** option from the **Dynamic content** dialog box.
 
-1. Leave the **Units** to **Imperial** or change it to **Metric**.
+1. Leave the **Units** field as **Imperial** or you can change it to **Metric**.
 
 1. Select the **+ New step** button again.
 
@@ -37,27 +38,25 @@ the **MSN Weather** connector.
 
 1. Select **Get the forecast for tomorrow**.
 
-1. In the **Location field**, select **Full address** from the **Dynamic content** dialog box. This time, you might need to scroll to the bottom of the dialog box to find **City**.
+1. Click the **Location field**, and then select **Full address** from the **Dynamic content** dialog box. This time, you might need to scroll to the bottom of the dialog box to find **City**.
 
-1. Leave the **Units** to **Imperial** or change it to **Metric**.
+1. Leave the **Units** field as **Imperial** or change it to **Metric**.
 
 1. Select the **+ New step** button again.
 
-1. In **Choose an action**, if you don't already see **Notifications**, then search for **Notifications** and then select it.
+1. In **Choose an action**, select the **Notifications** option. If you don't already see the **Notifications**        option, search for **Notifications** and then select it.
 
 	![Notifications connector icon](../media/notifications-connector-icon.png)
 
 1. Select **Send me a mobile notification**.
 
 1. In the **Text** field, enter **Today's forecast calls for:** and then,
-    by using a combination of manually entered text and option selection, you can create a personalized list of actions. You can
-    select options such as Day Conditions, Day Rain Chance, Day Summary,
+    by using a combination of manually entered text and option selections, you can create a personalized list of actions. You can select options such as Day Conditions, Day Rain Chance, Day Summary,
     Night Conditions, Night Rain Chance, Night Summary, and so on. Make sure that 
     the dynamic content comes from **Get forecast for today**.
 
 1. In the same **Text** field, enter **Tomorrow's forecast is:** and then, by
-    using a combination of manually entered text and option selection, you can create a personalized list of actions. You can select
-    options such as Day Conditions, Day Rain Chance, Day Summary, Night
+    using a combination of manually entered text and option selections, you can create a personalized list of actions. You can select options such as Day Conditions, Day Rain Chance, Day Summary, Night
     Conditions, Night Rain Chance, Night Summary, and so on. Make sure that the
     dynamic content comes from **Get the forecast for tomorrow**.
 
@@ -76,11 +75,9 @@ the **MSN Weather** connector.
     The following screenshot shows what the Microsoft Power Automate app
     notification looks like.
 
-    If the location service hasn’t already been allowed for 
-    the app, then you will be prompted to accept that when this button 
-    flow is run. If you don’t allow it, then the flow will fail. You 
-    will have to go into your browser settings (which varies between 
-    browsers) and grant Power Automate flow access to your location 
-    if you’ve denied it once before.
+    If the location service hasn’t already been allowed for the app, then you will be 
+    prompted to accept that when this button flow is run. If you don’t allow it, then 
+    the flow will fail. You will have to go into your browser settings (which varies between 
+    browsers) and grant Power Automate flow access to your location if you’ve denied it once before.
 
 	![Weather information notification](../media/weather-information-notification.png)

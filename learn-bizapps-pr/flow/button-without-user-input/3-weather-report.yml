@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.button-without-user-input.3-weather-report 
-title: Create a Power Automate button that sends you the weather report
+title: Create a weather report Power Automate button
 metadata: 
-  title: Create a Power Automate button that sends you the weather report 
+  title: Create a weather report Power Automate button 
   description: Learn how to create a Power Automate button that sends you the weather report.  
   ms.date: 2/22/2020 
   author: KevSch 
