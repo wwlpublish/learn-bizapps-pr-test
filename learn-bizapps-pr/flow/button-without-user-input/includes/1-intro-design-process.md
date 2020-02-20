@@ -1,12 +1,14 @@
 Building a button flow is the same as building any other flow; it has
 a start and an end. A flow always starts with a trigger action. 
 This module focuses on how to manually trigger a flow by using buttons
-without user input. After creating the trigger action, you can add flow steps. Each step can be an
-action, a condition, or a combination of actions and conditions. The
-flow always ends with an action.
+without user input. After creating the trigger action, you can add flow steps. 
+Each step can be an action, a condition, or a combination of actions and 
+conditions. The flow always ends with an action.
 
 Two ways to design the process for a button flow are by using
-an existing template with a button trigger or by building a new one from blank.
+an existing template with a button trigger or by building a new 
+one from blank. We will discuss these two options. you can also start 
+from a connector. 
 
 ### Use an existing template
 
@@ -21,9 +23,8 @@ To build a flow by using an existing template, follow these steps:
 
 1.  In the search bar on the upper part of the page, enter **Buttons**. 
 
-1.  Select a template that matches your
-    requirements, add your connectors, and then fill in the
-    required parameters.
+1.  Select a template that matches your requirements, add your connectors, 
+    and then fill in the required parameters.
 
 The following screenshot shows an example of the button templates.
 
@@ -41,10 +42,10 @@ To build a flow from blank, follow these steps:
 
 1.  On the left navigation pane, select **+ Create**.
 
-1.  The upper part of the page shows ways for you to make a flow. The first way
+1.  The page shows different ways for you to make a flow. The first way
     is **Start from blank**, where you will select **Instant flow**.    
 
-1.  Give your flow a name. In the **Build an instant flow** section, select 
-    an option from **Manually trigger a flow** and then select **Create to build your flows from blank**.
+1.  Give your flow a name. In the **Choose how to trigger this flow** section, select 
+    **Manually trigger a flow**.
 
 1.  Select **Create** to start building the flow.
