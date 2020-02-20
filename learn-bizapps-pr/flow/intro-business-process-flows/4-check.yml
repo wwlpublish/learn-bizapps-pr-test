@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-business-process-flows.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 3/15/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What license is required to create or use a Business Process Flow?
+    choices: 
+    - content: You must have a valid Office 365 License.
+      isCorrect: false
+      explanation: You must have a valid a PowerApps Dynamics 365 license or valid a PowerApps license to create or use a Business Process Flow.
+    - content: You must have a valid a PowerApps license.
+      isCorrect: false 
+      explanation: You must have a valid a PowerApps Dynamics 365 license or valid a PowerApps license to create or use a Business Process Flow.
+    - content: You must have a valid a PowerApps Dynamics 365 license.
+      isCorrect: false 
+      explanation: You must have a valid a PowerApps Dynamics 365 license or valid a PowerApps license to create or use a Business Process Flow.
+    - content: You must have a valid a PowerApps Dynamics 365 license or valid a PowerApps license.
+      isCorrect: true
+      explanation: You must have a valid a PowerApps Dynamics 365 license or valid a PowerApps license to create or use a Business Process Flow.
+  - content: What type of Business Process Flows does the Common Data Service include?
+    choices: 
+    - content: A number out-of-the-box predefined Business Process Flows.
+      isCorrect: true 
+      explanation: The Common Data Service includes a number of out-of-the-box predefined Business Process Flows. 
+    - content: No out-of-the-box predefined Business Process Flows.
+      isCorrect: false 
+      explanation: The Common Data Service includes a number of out-of-the-box predefined Business Process Flows. 
+    - content: A number out-of-the-box predefined Business Process Flows and Custom Business Process Flows.
+      isCorrect: false 
+      explanation: The Common Data Service includes a number of out-of-the-box predefined Business Process Flows. 
+    - content: A number out-of-the-box predefined Business Process Flows and regular Power Automate Flows.
+      isCorrect: false 
+      explanation: The Common Data Service includes a number of out-of-the-box predefined Business Process Flows. 
+  - content: Where can Business Process Flows be embedded? (Select One)
+    choices: 
+    - content: Can be embedded into a public website.
+      isCorrect: false
+      explanation: Business Process Flows can be embedded in model-driven PowerApps.
+    - content: Can be added as a Webpart in SharePoint.
+      isCorrect: false 
+      explanation: Business Process Flows can be embedded in model-driven PowerApps.
+    - content: Can be embedded in a custom .NET application.
+      isCorrect: false 
+      explanation: Business Process Flows can be embedded in model-driven PowerApps.
+    - content: Can be embedded in model-driven PowerApps.
+      isCorrect: true
+      explanation: Business Process Flows can be embedded in model-driven PowerApps.
+  - content: What tool is used to build Business Process Flows?
+    choices: 
+    - content: Microsoft Visio
+      isCorrect: false
+      explanation: Business Process Flow editor in Microsoft PowerAutomate is used to build Business Process Flows.
+    - content: Microsoft Visual Studio
+      isCorrect: false 
+      explanation: Business Process Flow editor in Microsoft PowerAutomate is used to build Business Process Flows.
+    - content: Microsoft PowerApps Canvas App Maker studio
+      isCorrect: false 
+      explanation: Business Process Flow editor in Microsoft PowerAutomate is used to build Business Process Flows.
+    - content: Business Process Flow editor in Microsoft PowerAutomate
+      isCorrect: true
+      explanation: Business Process Flow editor in Microsoft PowerAutomate is used to build Business Process Flows.

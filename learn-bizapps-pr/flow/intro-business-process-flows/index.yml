@@ -1,0 +1,36 @@
+### YamlMime:Module 
+uid: learn-bizapps.intro-business-process-flows 
+metadata: 
+ title: Introduction to business process flows in Power Automate 
+ description: This module will focus on understanding what Business Process Flows are and how to leverage them to solve business solutions. We will explore why automating business process are important to organizations and explain how to build Business Process Flow solutions using the Power Platform and Common Data Service.  We will also explore how Business Process Flows differ from regular Power Automate workflows and offer guidance on when to use each.  Finally, we will explain licensing requirements.
+ ms.date: 3/15/2020  
+ author: KevSch  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Introduction to business process flows in Power Automate  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will focus on understanding what Business Process Flows are and how to leverage them to solve business solutions. We will explore why automating business process are important to organizations and explain how to build Business Process Flow solutions using the Power Platform and Common Data Service.  We will also explore how Business Process Flows differ from regular Power Automate workflows and offer guidance on when to use each.  Finally, we will explain licensing requirements. 
+abstract: |  
+    In this module, you will: 
+    - Understand why standardizing Business Process Flows are important and valuable to an organization.
+    - Understand the difference between a workflow and a business process.
+    - Understand how Business Process Flows are used within the Power Platform and Common Data Service.
+prerequisites: The target Audience should have a basic understanding of how to model a business process as a set of stages, steps and branching concepts and a familiarity with the Power Platform.      
+iconUrl: /learn/achievements/intro-business-process-flows.svg  
+levels:  
+- intermediate   
+roles:  
+- functional-consultant  
+- business-user  
+products:   
+- power-automate 
+units: 
+- learn-bizapps.intro-business-process-flows.1-introduction 
+- learn-bizapps.intro-business-process-flows.2-differences 
+- learn-bizapps.intro-business-process-flows.3-uses 
+- learn-bizapps.intro-business-process-flows.4-check 
+- learn-bizapps.intro-business-process-flows.5-summary 
+badge: 
+  uid: learn-bizapps.intro-business-process-flows.badge 
