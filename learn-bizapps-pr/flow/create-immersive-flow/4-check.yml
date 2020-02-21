@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.create-immersive-flow.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 03/15/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following best describes an Immersive Business Processes Flow?
+    choices: 
+    - content: They are embedded within a Model Driven app.
+      isCorrect: false
+      explanation: Immersive Business Process Flows are stand-alone and launched in Power Automate.
+    - content: They are stand-alone and launched in Power Automate.
+      isCorrect: true
+      explanation: Immersive Business Process Flows are stand-alone and launched in Power Automate.
+    - content: They are launched and run within from Microsoft Visio.
+      isCorrect: false 
+      explanation: Immersive Business Process Flows are stand-alone and launched in Power Automate.
+    - content: They can be launched within a SharePoint team site.
+      isCorrect: false 
+      explanation: Immersive Business Process Flows are stand-alone and launched in Power Automate.
+  - content: Where do Immersive Business Process Flows store all data collected within the flow?
+    choices: 
+    - content: Any source that is accessible via a connector.
+      isCorrect: false
+      explanation: Immersive Business Process Flows store all data collected in Common Data Service entities.
+    - content: SQL Server in the cloud or on-prem
+      isCorrect: false 
+      explanation: Immersive Business Process Flows store all data collected in Common Data Service entities.
+    - content: Common Data Service entity(s)
+      isCorrect: true
+      explanation: Immersive Business Process Flows store all data collected in Common Data Service entities.
+    - content: SharePoint
+      isCorrect: false 
+      explanation: Immersive Business Process Flows store all data collected in Common Data Service entities.
+  - content: Which item is a key benefit of an Immersive Business Process Flow?
+    choices: 
+    - content: Ease of development and deployment
+      isCorrect: true 
+      explanation: A key benefit of an Immersive Business Process Flow is the ease of development and deployment. 
+    - content: Ability to store data in multiple sources
+      isCorrect: false 
+      explanation: A key benefit of an Immersive Business Process Flow is the ease of development and deployment. 
+    - content: Mobile interface
+      isCorrect: false 
+      explanation: A key benefit of an Immersive Business Process Flow is the ease of development and deployment. 
+    - content: The only kind of Business Process Flows that support running within Microsoft HoloLens mixed reality.
+      isCorrect: false 
+      explanation: A key benefit of an Immersive Business Process Flow is the ease of development and deployment. 
+  - content: How do immersive and embedded Business Process flows mainly differ? (select the best answer)
+    choices: 
+    - content: How they are launched and the context they are viewed within.
+      isCorrect: true 
+      explanation: Immersive and embedded Business Process flows mainly differ by how they are launched and the context they are viewed within. 
+    - content: How they are built.
+      isCorrect: false 
+      explanation: Immersive and embedded Business Process flows mainly differ by how they are launched and the context they are viewed within. 
+    - content: Capability
+      isCorrect: false 
+      explanation: Immersive and embedded Business Process flows mainly differ by how they are launched and the context they are viewed within. 
+    - content: Visual Process Maps
+      isCorrect: false 
+      explanation: Immersive and embedded Business Process flows mainly differ by how they are launched and the context they are viewed within. 
