@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.advanced-business-process-flows 
+metadata: 
+ title: Understand advanced business process flow concepts in Power Automate 
+ description: This module will build upon the knowledge gained in the first module - Introduction to Business Process Flows, and the second module - Create an Immersive Business Process Flow and introduce advanced Business Process Flow concepts and techniques. 
+ ms.date: 03/15/2020  
+ author: KevSch  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Understand advanced business process flow concepts in Power Automate  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will build upon the knowledge gained in the first module - Introduction to Business Process Flows, and the second module - Create an Immersive Business Process Flow and introduce advanced Business Process Flow concepts and techniques. 
+abstract: |  
+    In this module, you will: 
+    - Understand Branching Logic
+    - Create additional fields and a main form to enhance the Business Process Flow
+    - Understand how to use instant flows with Business Process Flows 
+    - Enhance immersive Business Process Flow using advanced techniques 
+prerequisites: The target Audience should have a basic understanding of how to model a business process as a set of stages, steps and branching concepts and a familiarity with the Power Platform.      
+iconUrl: /learn/achievements/advanced-business-process-flows.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- functional-consultant 
+products:  
+- power-automate 
+units: 
+- learn-bizapps.advanced-business-process-flows.1-branching 
+- learn-bizapps.advanced-business-process-flows.2-instant 
+- learn-bizapps.advanced-business-process-flows.3-enhance 
+- learn-bizapps.advanced-business-process-flows.4-exercise 
+- learn-bizapps.advanced-business-process-flows.5-exercise 
+- learn-bizapps.advanced-business-process-flows.6-exercise 
+- learn-bizapps.advanced-business-process-flows.7-check 
+- learn-bizapps.advanced-business-process-flows.8-summary 
+badge: 
+  uid: learn-bizapps.advanced-business-process-flows.badge 
