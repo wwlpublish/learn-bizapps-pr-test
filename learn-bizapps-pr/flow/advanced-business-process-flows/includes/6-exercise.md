@@ -84,7 +84,7 @@ Flow by selecting the little triangle next to the "Customer Check In"
 Business Process Flow name. It should look like the screenshot below.
 Add some data to the main form and the stages and save the record.
 
-	![Observe new fields in main form](../media/35-observe-new- fields-main-form.png)
+	![Observe new fields in main form](../media/35-observe-new-fields-main-form.png)
 
 You are doing great! Now let's add a few fields to the main form
 from the data entered within a few of the stages. We will make these
