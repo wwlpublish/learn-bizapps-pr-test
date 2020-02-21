@@ -34,6 +34,6 @@ flows and Approval flows that can run in concert with a Business Process
 Flow. Business Process flows don't exclude the possibility of adding
 additional capabilities to the envisioned solution by leveraging
 additional components of the Power Platform like PowerApps, Power
-Automate instant flows, and PowerBI Dashboards. You can read more about
+Automate instant flows, and Power BI Dashboards. You can read more about
 instant flows by following the links in the summary unit within this
 module.
