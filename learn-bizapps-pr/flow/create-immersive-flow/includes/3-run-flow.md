@@ -65,7 +65,7 @@ launching Power Apps and selecting the environment you built the
 
 	1. Select the Data Tab then select the All Data view on the righthand side of the screen as shown below.
 
-		![Select data tab and all data view](../media/32-select-data-tab-all-data view.png)
+		![Select data tab and all data view](../media/32-select-data-tab-all-data-view.png)
 		
 		![close up of all data view](../media/33-close-up-all-data-view.png)
 
