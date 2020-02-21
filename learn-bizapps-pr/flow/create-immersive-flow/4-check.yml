@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: They are embedded within a Model Driven app.
       isCorrect: false
-      explanation: Immersive Business Process Flow are stand-alone and launched in Power Automate.
+      explanation: Immersive Business Process Flows are stand-alone and launched in Power Automate.
     - content: They are stand-alone and launched in Power Automate.
       isCorrect: true
-      explanation: Immersive Business Process Flow are stand-alone and launched in Power Automate.
+      explanation: Immersive Business Process Flows are stand-alone and launched in Power Automate.
     - content: They are launched and run within from Microsoft Visio.
       isCorrect: false 
-      explanation: Immersive Business Process Flow are stand-alone and launched in Power Automate.
+      explanation: Immersive Business Process Flows are stand-alone and launched in Power Automate.
     - content: They can be launched within a SharePoint team site.
       isCorrect: false 
-      explanation: Immersive Business Process Flow are stand-alone and launched in Power Automate.
+      explanation: Immersive Business Process Flows are stand-alone and launched in Power Automate.
   - content: Where do Immersive Business Process Flows store all data collected within the flow?
     choices: 
     - content: Any source that is accessible via a connector.
