@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.advanced-business-process-flows.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 03/15/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which Microsoft product can run Business Process Flows?
+    choices: 
+    - content: SharePoint
+      isCorrect: false
+      explanation: Power Automate can run business process flows. 
+    - content: Excel
+      isCorrect: false 
+      explanation: Power Automate can run business process flows. 
+    - content: Power Automate
+      isCorrect: true 
+      explanation: Power Automate can run business process flows. 
+    - content: Microsoft PowerPoint
+      isCorrect: false 
+      explanation: Power Automate can run business process flows. 
+  - content: What is the main benefit that branching logic delivers to Business Process Flows? (select one)
+    choices: 
+    - content: Multilanguage support in the same Business Process Flow
+      isCorrect: false
+      explanation: The main benefit that branching logic delivers to Business Process Flows is a single business process can be used for many different conditions.
+    - content: Allows "Or" logic
+      isCorrect: false 
+      explanation: The main benefit that branching logic delivers to Business Process Flows is a single business process can be used for many different conditions.
+    - content: A single business process can be used for many different conditions
+      isCorrect: true 
+      explanation: The main benefit that branching logic delivers to Business Process Flows is a single business process can be used for many different conditions. 
+    - content: Allows "Not" logic
+      isCorrect: false 
+      explanation: The main benefit that branching logic delivers to Business Process Flows is a single business process can be used for many different conditions.
+  - content: Which statement is true? (select one)
+    choices: 
+    - content: Power Automate Instant Flows cannot be used with the same Common Data Service entity as a Business Process Flow.
+      isCorrect: false
+      explanation: Power Automate Instant Flows, Dynamics Workflows, and Business Process Flows can all be used with the same Common Data Service entity(s).
+    - content: Dynamics Workflows cannot be used with the same Common Data Service entity as a Business Process Flow.
+      isCorrect: false 
+      explanation: Power Automate Instant Flows, Dynamics Workflows, and Business Process Flows can all be used with the same Common Data Service entity(s).
+    - content: Power Automate Instant Flows, Dynamics Workflows, and Business Process Flows can all be used with the same Common Data Service entity(s).
+      isCorrect: true 
+      explanation: Power Automate Instant Flows, Dynamics Workflows, and Business Process Flows can all be used with the same Common Data Service entity(s).
+    - content: Power Automate Instant Flows, Dynamics Workflows, and Business Process Flows can only be used with the same Common Data Service entity(s).
+      isCorrect: false 
+      explanation: Power Automate Instant Flows, Dynamics Workflows, and Business Process Flows can all be used with the same Common Data Service entity(s).
+  - content: Which statement is true? (select one)
+    choices: 
+    - content: Business Process Flows can only be used within a Model Driven App.
+      isCorrect: false
+      explanation: Business Process Flows are available in two formats - Immersive and Embedded.
+    - content: Business Process Flows are available in two formats - Immersive and Embedded.
+      isCorrect: true 
+      explanation: Business Process Flows are available in two formats - Immersive and Embedded.
+    - content: Business Process Flows do not have a visual component.
+      isCorrect: false 
+      explanation: Business Process Flows are available in two formats - Immersive and Embedded.
+    - content: Business Process Flows do not support conditional branching.
+      isCorrect: false 
+      explanation: Business Process Flows are available in two formats - Immersive and Embedded.
