@@ -1,10 +1,10 @@
 Business Process Flows are not the exclusive workflow automation option
 available to an entity in Common Data Service. In fact, a single
-Business Process Flow can run against up to 5 entities in Common Data
+Business Process Flow can run against up to five entities in Common Data
 Service. Dynamics workflows are also supported as part of a Business
 Process Flow. This topic is beyond the scope of this learning path, but
 you can learn more about Dynamics workflows following a link in the
-summary unit of this module. A third kind of workflow automation, called
+summary unit of this module. A third workflow automation, called
 instant flows in Power Automate, offer a powerful capability that can
 supplement Business Process Flows. We will explore this option within
 this module.

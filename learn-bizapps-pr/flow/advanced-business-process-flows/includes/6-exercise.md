@@ -193,7 +193,7 @@ Let's make those changes by following the instructions below.
 
 1. If you want to view all of the data you have created and quickly start using the Business Process Flow follow the steps below.
 
-	1. Log in to the [PowerApps maker](make.powerapps.com/?azure-portal=true).
+	1. Log in to the [PowerApps maker](https://make.preview.powerapps.com/home/?azure-portal=true).
 
 	1. Make sure to select the environment where you created the "Customer Check In" Business Process Flow.
 

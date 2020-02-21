@@ -1,5 +1,5 @@
 In module two, we created a simple, two-step linear Business Process
-Flow. Some business processes are simple step by step sequential
+Flow. Some business processes are simple step-by-step sequential
 workflows, but many require branching logic requiring one set of stages
 for one condition and another set of stages for an alternative
 condition. Think of this as a simple "if then else" statement.
@@ -14,10 +14,10 @@ logical paths will meet at a rendezvous point and sometimes they will
 not. Let's spend some time exploring how you use logical branching in
 Business Process Flows.
 
-Branching Logic is very useful when you are trying to
+Branching Logic is useful when you are trying to
 model a business process to standardize data collection and improve
 process outcomes. Logical branching enables creation of Business Process
-Flow Flows that can adapt to different conditions within the same
+Flows that can adapt to different conditions within the same
 Business Process Flow instead of having to create and launch many
 different Business Process Flows to handle one condition or another.
 Let's look at an example.
@@ -26,7 +26,7 @@ In the scenario we used in module two, customers come to our fictitious
 company, SmogCheckRUS for bi-annual smog checks on their vehicles. In
 many jurisdictions, there are different requirements for emission
 controls standards and equipment based upon the year of the vehicle
-manufacture. It would be very useful to be able to model all required
+manufacture. It would be useful to be able to model all required
 tests within a single Business Process Flow. Let's take a look at how we
 can accomplish this using logical branching within a Business Process
 Flow.
@@ -57,7 +57,7 @@ branches and not all branches end up at the same rendezvous stage. This
 is not currently allowed in a Business Process Flow. An example of an
 unsupported Business Process Flow is shown below.
 
-![Unsupported branching logic showing vehicle service for a tune up
+![Unsupported branching logic showing vehicle service for a tune-up
 versus a smog and a test nested within it for simple if then else for
 cars made in 1971 or before versus cars made after
 1971](../media/2-process-flow-2-bad-branching.png)
