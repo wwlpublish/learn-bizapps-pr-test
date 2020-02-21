@@ -8,10 +8,10 @@ Designer after you see a message the Process Flow has updated
 successfully. Navigate back to My Flows> Business Processes and you
 should see the new Business Process Flow listed.
 
-> [!NOTE]
-> You can see all immersive Business Process Flows that are in
-process or that have been run by going to flow.microsoft.com and click
-My Flows in the left lane, and then on the Business Process Flow tab.
+	> [!NOTE]
+	> You can see all immersive Business Process Flows that are in
+	process or that have been run by going to flow.microsoft.com and click
+	My Flows in the left lane, and then on the Business Process Flow tab.
 
 1. Select the Run Arrow as shown in the screenshot below.
 

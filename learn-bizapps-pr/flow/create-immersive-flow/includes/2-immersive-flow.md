@@ -32,11 +32,11 @@ top right-hand side of the top ribbon.
 	![Select Environment in Power Automate](../media/3-selecting-environment-power-automate.png)
 
 1. Select My Flows in the menu on the left then select the Business
-Process Flows tab
+Process Flows tab.
 
 	![Selecting My flows and Business Process Flows in Power Automate](../media/4-selecting-my-flows-business-process-flows-power-automate.png)
 
-1. Select the "+ New" button
+1. Select the "+ New" button.
 
 	![Creating a new Business Process Flow using the + New button](../media/5-creating-new-business-process-flow-using-new-button.png)
 
@@ -63,7 +63,7 @@ in the screenshot below.
 	Now we will add some fields to the new CollectCustomerInfo entity in Common Data Service so we can capture customer information.
 
 1. Select the "Collect Customer Info" stage the hyperlink "Click to
-add fields and forms" as shown below
+add fields and forms" as shown below.
 
 	![Select Click to add fields and forms hyperlink](../media/9-select-click-add-fields-and-forms-hyperlink.png)
 
@@ -125,7 +125,7 @@ as shown below.
 
 	![Add another data step](../media/16-add-another-data-step.png)
 
-1. Select Data Step #2 and enter in the following Information
+1. Select Data Step #2 and enter in the following Information.
 
 	-   Step Name - Last Name
 	
@@ -142,7 +142,7 @@ fields until all fields we added in step 8 above have been entered under
 stage one. (Date Entered, Address, City, State, Postal Code, Comments).
 
 1. When you are done, Stage 1 should look as shown below. If all
-looks correct then select the Update button in the ribbon
+looks correct then select the Update button in the ribbon.
 
 	![All data steps in stage one](../media/18-all-data-steps-stage-one.png)
 
@@ -161,7 +161,7 @@ look like the screenshot below.
 	![Add a new stage component](../media/19-add-new-stage-component.png)
 
 1. Now repeat the steps we covered for stage 1 (steps 7 -10 above)
-and add the following fields and steps
+and add the following fields and steps.
 
 	-   Automobile Make - Text
 	
