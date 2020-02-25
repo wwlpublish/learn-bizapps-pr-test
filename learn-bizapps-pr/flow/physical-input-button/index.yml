@@ -1,18 +1,18 @@
 ### YamlMime:Module 
 uid: learn-bizapps.physical-input-button 
 metadata: 
- title: Create a Power Automate button that uses a physical Button input 
- description: Are you looking at building basic flows using buttons as trigger? If you are then you’ve come to the right place because this path will help you get started. This Learning Path will cover both virtual and physical buttons. It also covers flow with and without user input. Let’s look at building a flow in Power Automate that uses a physical Flic button as a trigger and then runs a predefined series of actions. This module demonstrates how to configure a Flic button with its app on your smart phone and then how to trigger a flow. 
- ms.date: 02/07/2020  
+ title: Create a Power Automate button that uses a physical button input 
+ description: Are you looking at building basic flows using buttons as triggers? This module demonstrates how to configure a Flic button with its app on your smart phone and then how to trigger a flow.  
+ ms.date: 03/03/2020  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Create a Power Automate button that uses a physical Button input  
+title: Create a Power Automate button that uses a physical button input  
 summary: |  
   [!include[](../includes/module-banner.md)] 
 
-  Are you looking at building basic flows using buttons as trigger? If you are then you’ve come to the right place because this path will help you get started. This Learning Path will cover both virtual and physical buttons. It also covers flow with and without user input. Let’s look at building a flow in Power Automate that uses a physical Flic button as a trigger and then runs a predefined series of actions. This module demonstrates how to configure a Flic button with its app on your smart phone and then how to trigger a flow.  
+  Are you looking at building basic flows using buttons as triggers? This module demonstrates how to configure a Flic button with its app on your smart phone and then how to trigger a flow.  
 abstract: |  
     In this module, you will: 
     - Understand the possible uses of a physical button.
@@ -20,14 +20,17 @@ abstract: |
     - Use the flow trigger to connect to the Flic app.
     - Create a flow button that tells your next appointment you are running late.
     - Create a flow button that lets your manager know you are on site.
-prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate and how to create an event driven Flow. It is also beneficial if the student has already taken the module Getting started with Microsoft Power Automate Buttons. 
+prerequisites: A basic understanding of Microsoft Power Automate and how to create an event driven flow and a smart phone with a Power Automate license. A Microsoft Power Automate app is required on your smart device. To get one go to the App Store of your smart phone or tablet and search for Power Automate. A Shortcut Labs app called Flic App is required on your smart device. To get the app, go to the App Store of your smart phone or tablet and search for Flic. It is also beneficial if the student has already taken the previous modules in this learning path. 
 iconUrl: /learn/achievements/physical-input-button.svg  
 levels:  
 - intermediate   
 roles:  
-- functional-consultant  
+- functional-consultant
+- maker
+- business-user  
 products:  
-- power-automate 
+- power-automate
+- power-platform 
 units: 
 - learn-bizapps.physical-input-button.1-introduction-uses 
 - learn-bizapps.physical-input-button.2-flic-app 

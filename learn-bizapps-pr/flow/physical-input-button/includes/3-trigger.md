@@ -1,6 +1,6 @@
 Let's add the Flic connector to Power Automate.
 
-1.  [Sign in](https://flow.microsoft.com/?azure-portal=true).
+1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true).
 
 1.  Click on the settings icon which is available on the top right of the web site. Select **Connections** from the drop-down menu.
 
