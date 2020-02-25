@@ -1,7 +1,7 @@
 Building a **Power Automate** flow is the same as building any other
 workflow. The physical button makes the process even easier because now
 you simply click the button and the flow will run. You no longer need to
-pick up your smart phone, open the Power Automate button, and then click
+pick up your smart phone, open the Power Automate button flow, and then click
 on the button. There are several scenarios where a physical button can
 be used:
 
@@ -18,6 +18,7 @@ Consider a consultant traveling to a client's location. The consultant
 can click the button once to record the start time. The flow that it
 kicks off will also record the departure location. The consultant then
 clicks on the button twice after arriving at the destination which
-records the end time and the destination location. Power automate can
+records the end time and the destination location. Power Automate can
 use both the time and the location to record the total travel time and
 mileage.
+
