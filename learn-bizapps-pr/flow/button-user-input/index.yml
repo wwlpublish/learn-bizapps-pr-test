@@ -1,32 +1,36 @@
 ### YamlMime:Module 
 uid: learn-bizapps.button-user-input 
 metadata: 
- title: Create a Power Automate Button with user input 
- description: This module will focus on Flow Buttons that have user input and run a predefined series of actions. This type of Flow Button provides the input necessary to run the predefined Actions in the Flow. It will show users how they can create a Flow Button that executes different logic based on the inputs provided.
- ms.date: 2/07/2020  
+ title: Create a Power Automate button with user input 
+ description: Some Power Automate button flows will allow for user input and run a predefined series of actions. This type of flow button provides the input necessary to run the predefined Actions in the flow. It will show users how they can create a flow button that executes different logic based on the inputs provided.
+ ms.date: 2/28/2020  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Create a Power Automate Button with user input  
+title: Create a Power Automate button with user input  
 summary: |  
   [!include[](../includes/module-banner.md)] 
 
-  This module will focus on Flow Buttons that have user input and run a predefined series of actions. This type of Flow Button provides the input necessary to run the predefined Actions in the Flow. It will show users how they can create a Flow Button that executes different logic based on the inputs provided.
+  Some Power Automate button flows will allow for user input and run a predefined series of actions. This type of flow button provides the input necessary to run the predefined Actions in the flow. It will show users how they can create a flow button that executes different logic based on the inputs provided.
 abstract: |  
     In this module, you will: 
-    - Create a Flow triggered by a Button tap.
-    - Build out the Actions to implement the Flow.
-    - Understand how to use Trigger Token.
-    - Run the Flow Button from the mobile App.
-prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate and how to create an event driven Flow. It is also beneficial if the student has already taken the module Getting started with Microsoft Power Automate Buttons. 
+    - Create a flow triggered by a button tap.
+    - Build out the actions to implement a button flow.
+    - Learn how to allow user input in your button flows.
+    - Understand how to use trigger tokens.
+    - Run a flow button from the mobile Power Automate App.
+prerequisites: A basic understanding of Microsoft Power Automate and how to create an event driven flow and a working mobile device with a Power Automate license. It is also beneficial if the learner has completed the module Introduction to using Power Automate buttons. 
 iconUrl: /learn/achievements/button-user-input.svg  
 levels:  
 - intermediate   
 roles:  
-- functional-consultant  
+- functional-consultant
+- maker
+- business-user  
 products:  
-- power-automate 
+- power-automate
+- power-platform
 units: 
 - learn-bizapps.button-user-input.1-introduction-design 
 - learn-bizapps.button-user-input.2-input-types 

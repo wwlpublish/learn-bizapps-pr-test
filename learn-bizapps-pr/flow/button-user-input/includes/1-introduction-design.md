@@ -1,17 +1,17 @@
 Building a Power Automate flow is the same as building any other
 workflow. You have a start and an end. A flow always starts with a
-trigger action and in this module we are focusing on Manually triggering
+trigger action and in this module we are focusing on manually triggering
 a flow using buttons with user input. After the trigger you add steps.
 Each step can be an action or a condition or a combination of actions
 and conditions. The flow always ends with an action.
 
-There are two ways to design the process for a Button Flow, one is to
+There are two ways to design the process for a button flow, one is to
 use an existing template with a button trigger and the second is to
 build one from blank.
 
-### The six different types of user inputs
+### Six different types of user inputs
 
-Power Automate flow currently has six different types of user inputs. They are:
+Power Automate flows currently can have six different types of user inputs. They are:
 
 - Text
 
@@ -49,8 +49,8 @@ File content can be used to upload files and images.
 
 ### Email
 
-Email input is where you enter the e-mail address. The other inputs
-complement the use of Email input.
+Email input is where you enter the email address. The other inputs
+complement the use of email input.
 
 ### Number
 

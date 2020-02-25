@@ -4,12 +4,12 @@ title: Create a Power Automate button that sets your calendar out of office stat
 metadata: 
   title: Create a Power Automate button that sets your calendar out of office status  
   description: Learn how to create a button that sets your calendar out of office status. 
-  ms.date: 2/07/2020 
+  ms.date: 2/28/2020 
   author: KevSch 
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 7 
+durationInMinutes: 8 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/4-calendar.md)] 

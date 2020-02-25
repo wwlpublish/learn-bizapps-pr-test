@@ -1,27 +1,30 @@
 Let's build a flow triggered by a button that will email your manager
 your current location along with a photo of the vehicle you are using.
 
-1.  [Sign in](https://flow.microsoft.com/?azure-portal=true). 
+1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true). 
 
 1.  On the left vertical menu click on **+ Create**.
 
-1.  On the top, you will see **Three ways to make a flow**. The first way is **Start from blank**. In that, you will see **Instant flow**. Click on it.
+1.  On the top, you will see **Three ways to make a flow**. Select **Start from blank**, 
+	and then select **Instant flow**.
 
-1.  Add **Notify Your Manager** as your flow Name and select **Manually trigger a flow** option to choose from.
+1.  Enter **Notify Your Manager** as your flow **Name** and select the 
+	**Manually trigger a flow** option.
 
-1.  You then click **Create** to start building the flow.
+1.  Click **Create** to start building the flow.
 
-1.  You will now be in the flow studio with the title and the Manually trigger a flow trigger already added.
+1.  You are now in the flow studio with the flow name and the **Manually trigger a flow** 
+	trigger already added.
 
     ![Notify manager trigger](../media/notify-manager-trigger.jpg)
 
-1.  Click on **Manually trigger a flow** trigger and click on **+ Add an input**.
+1.  Click on the **Manually trigger a flow** trigger and click on **+ Add an input**.
 
-1.  Select File and rename **File Content** to **Image**.
+1.  Select **File** and rename **File Content** to **Image**.
 
 1.  Click on **+ New step** and search for **Office 365 Users**. Under **Actions,** you should see **Get manager (V2)**, select it.
 
-1. Click in **User (UPN)** and from the **Dynamic content** select **User email**.
+1. Click in **User (UPN)** and from **Dynamic content** select **User email**.
 
     ![Get manager](../media/get-manager-v2.jpg)
 
@@ -50,6 +53,6 @@ your current location along with a photo of the vehicle you are using.
 
 1. Click on **Flow checker,** which is available on the top right. If you have 0 errors and warnings, then click on the **X**. Next, click on **Save**.
 
-1. You can now test the button using your smartphone. Open the app and click on the **Buttons** option on the bottom horizontal menu. You will now see the **Notify Your Manager** button. Click on it. For Image click on the **paper clip icon** and add an image by either taking a new picture of the camera or using an existing image from the photo library.
+1. You can now test the button using your smartphone. Open the app and click on the **Buttons** option on the bottom horizontal menu. You will now see the **Notify Your Manager** button. Click on it. To add an image, click on the **paper clip icon** and add an image by either taking a new picture with your camera or using an existing image from your photo library.
 
 1. Your manager will get an email with an image attached.

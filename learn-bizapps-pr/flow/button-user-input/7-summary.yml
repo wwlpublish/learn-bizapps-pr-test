@@ -4,12 +4,12 @@ title: Summary
 metadata: 
   title: Summary 
   description: Summary of creating a button with user input.  
-  ms.date: 2/07/2020 
+  ms.date: 2/28/2020 
   author: KevSch 
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 2 
+durationInMinutes: 3 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/7-summary.md)] 
