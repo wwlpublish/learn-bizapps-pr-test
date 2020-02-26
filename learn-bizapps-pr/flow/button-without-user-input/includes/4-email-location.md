@@ -25,7 +25,8 @@ entirely from the Power Automate app on your smart phone.
 
 	![Date time connector icon](../media/date-time-connector-icon.png)
 
-1.  Select **Base time** and then select the **Timestamp** option from **Manually trigger a flow**.
+1.  Select **Base time** and then select the **Timestamp** option from **Manually trigger a flow**
+    and then click **Done**.
    
 	![Search timestamp connector](../media/search-timestamp-connector.png)
 
