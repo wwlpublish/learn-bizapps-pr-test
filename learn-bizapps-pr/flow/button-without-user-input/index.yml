@@ -19,7 +19,7 @@ abstract: |
     - Build the actions to implement the flow.
     - Learn how to use trigger tokens in a flow.
     - Run a button from the mobile app.
-    - Test the button from the flow UI Designer.
+    - Test the button flow.
 prerequisites: A basic understanding of Microsoft Power Automate and how to create an event-driven flow. It is also beneficial if the student has already taken the Introduction to using Power Automate buttons module. 
 iconUrl: /learn/achievements/button-without-user-input.svg  
 levels:  

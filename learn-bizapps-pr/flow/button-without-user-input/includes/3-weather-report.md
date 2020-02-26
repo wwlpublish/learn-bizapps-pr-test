@@ -55,7 +55,7 @@ the **MSN Weather** connector.
     Night Conditions, Night Rain Chance, Night Summary, and so on. Make sure that 
     the dynamic content comes from **Get forecast for today**.
 
-1. In the same **Text** field, enter **Tomorrow's forecast is:** and then, by
+1. In the same **Text** field, enter **Tomorrow's forecast calls for:** and then, by
     using a combination of manually entered text and option selections, you can create a personalized list of actions. You can select options such as Day Conditions, Day Rain Chance, Day Summary, Night
     Conditions, Night Rain Chance, Night Summary, and so on. Make sure that the
     dynamic content comes from **Get the forecast for tomorrow**.
