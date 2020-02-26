@@ -1,6 +1,6 @@
 All flows including button flows use connections. The security of
-connections can be viewed via a flow or the connector. From a flow, you
-can view all the connectors used. From a connector, you can view all
+connections can be viewed via a flow or the connector. You can view all 
+the connectors used from a flow. From a connector, you can view all
 the flows using that connector.
 
 Here's a screenshot of all the connectors used for the SMS button flow.
@@ -12,7 +12,7 @@ You can see all the connectors from the mobile Power Automate app as well.
 ![mobile flow connectors](../media/mobile-flow-connectors.jpg)
 
 To view all the apps using a connector, log in to Power Automate from a
-browser. Click on settings, which is on the top right of the
+browser. Click on settings, which can be found on the top right of the
 screen, and select **Connections**. Click on any connector and then
 select **Flows using this connection**. You can see all the flows using
 that connector.
@@ -34,10 +34,10 @@ to all the connections in the flow. If you want to have someone else
 edit a flow offline without granting access to connections, you can 
 export the flow.
 
-![sharing connections co-ownership](../media/sharing-connections-coownership.jpg)
+![sharing connections coownership](../media/sharing-connections-coownership.jpg)
 
 If you are giving run only access, then the flow connections will
-provide the run only access to this flow. These users won't have
-access to the connections outside of this flow.
+provide the run only access to this flow. These users won't be able to
+access the connections outside of this flow.
 
 ![run only connections permissions](../media/run-only-connections-permissions.jpg)
