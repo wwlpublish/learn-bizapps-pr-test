@@ -9,6 +9,6 @@ help you evaluate if people are having difficulty using your button
 flow, and it can possibly help you troubleshoot any issues that 
 your flow's users are experiencing.
 
-You can re-share a button flow, stop sharing a flow, and view a list
-of users whou have access to your button flow. Finally, you can share flow 
+You can reshare a button flow, stop sharing a flow, and view a list
+of users who have access to your button flow. Finally, you can share flow 
 buttons from Power Automate on your computer, or use the mobile app.

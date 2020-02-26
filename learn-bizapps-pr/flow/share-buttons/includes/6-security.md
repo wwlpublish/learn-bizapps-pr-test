@@ -19,7 +19,7 @@ that connector.
 
 ![](../media/flows-using-connection.jpg)
 
-The **Flow details** shows other important information such as the owner of
+The **Flow details** show other important information such as the owner of
 the connection and when it was created and modified.
 
 ![flow connection details](../media/flow-connection-details.jpg)
@@ -34,10 +34,10 @@ to all the connections in the flow. If you want to have someone else
 edit a flow offline without granting access to connections, you can 
 export the flow.
 
-![sharing connections co-ownership](../media/sharing-connections-coownership.jpg)
+![sharing connections coownership](../media/sharing-connections-coownership.jpg)
 
 If you are giving run only access, then the flow connections will
-provide the run-only access to this flow and the users will not have
+provide the run only access to this flow and the users won't have
 access to these connections outside of this flow.
 
 ![run only connections permissions](../media/run-only-connections-permissions.jpg)
