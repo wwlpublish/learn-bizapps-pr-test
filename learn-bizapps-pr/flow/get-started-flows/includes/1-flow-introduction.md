@@ -16,8 +16,6 @@ In this module, you will:
 ## What is Power Automate?
 Power Automate is an online workflow service that automates actions across the most common apps and services. For example, you can create a flow that adds a lead to Microsoft Dynamics 365 and a record in MailChimp whenever someone with more than 100 followers tweets about your company.
 
-![Flow conceptual sketch](../media/flow-conceptual.png)
-
 When you sign up, you can connect to more than 220 services, and can manage data either in the cloud or in on-premises sources like SharePoint and Microsoft SQL Server. The list of applications you can use with Power Automate grows constantly.
 
 ![List of services](../media/flow-services.png)
@@ -68,8 +66,6 @@ Have an idea for a flow that you don't see in the list? Create your own from scr
 
 You can create a flow and perform administrative tasks in a browser or, if you download the Power Automate mobile app, on your phone.
 
-![Screenshot of the mobile app](../media/screen-mobile-app.png)
-
 Here are some of the tasks you can perform with the mobile app:
 
 * Turn flows on or off from wherever you are.
@@ -88,7 +84,7 @@ When you sign in to Power Automate, you'll find these menus:
 * **My flows**, where your flows reside.
 * **Create**, where you start a new flow.
 * **Templates**, where you can take a look at some of the most popular templates. These should give you some great ideas for flows you want to try.
-* **Connectors**, (formerly called Services), where you can connect from one service to another.
+* **Connectors**, where you can connect from one service to another.
 * **Data**, where you can access entities, connections, custom connectors and gateways.
 * **Solutions**, where you can manage your solutions. 
 * **Learn**, where you can find information that will help you quickly ramp up on Power Automate.
@@ -105,4 +101,5 @@ For now, let's focus on the **?** menu next to your login, which has these optio
 * **Pricing** can help you choose the right plan for you or your business.
 
 ## What's next?
-Now that you have a taste of what Power Automate is and what it can do, let's take a look at what makes a flow.
+Now that you have a taste of what Power Automate is and what it can do, 
+let's take a look at what makes a flow.
