@@ -30,13 +30,13 @@ of your current location along with a photo of the vehicle that you are using.
 
 1. Select **+ New step** and search for Outlook. Under **Actions**, select the **Send an email (V2)** option.
 
-1.In the **To** field, in the **Dynamic content** section, under **Get manager (V2)**, select **Mail**. You might have to select **See more** to find **Mail**.
+1. In the **To** field, in the **Dynamic content** section, under **Get manager (V2)**, select **Mail**. You might have to select **See more** to find **Mail**.
 
-	![mail](../media/mail.jpg)
+![mail](../media/mail.jpg)
 
-1. In the **Subject** field, enter **```My current location and vehicle I am using```**.
+12. In the **Subject** field, enter **```My current location and vehicle I am using```**.
 
-1. In the **Body** field, enter the following text:
+13. In the **Body** field, enter the following text:
 
 	```Hi
 	
@@ -45,14 +45,14 @@ of your current location along with a photo of the vehicle that you are using.
 	Address:
 	```
 
-1. In the **Body** field, after the word **Hi**, select **Display Name**, which is available in the **Dynamic content** section under **Get manager (V2)**.
+14. In the **Body** field, after the word **Hi**, select **Display Name**, which is available in the **Dynamic content** section under **Get manager (V2)**.
 
-1. In the **Body** field, below **Address:**, select **Full address**, which is available in the **Dynamic content** section under **Manually trigger a flow**. You might have to scroll down a bit to find it. The following screenshot shows what the **Send an email (V2)** action looks like.
+15. In the **Body** field, below **Address:**, select **Full address**, which is available in the **Dynamic content** section under **Manually trigger a flow**. You might have to scroll down a bit to find it. The following screenshot shows what the **Send an email (V2)** action looks like.
 
     ![Send an email body](../media/send-email-body.jpg)
 
-1. Select **Flow checker,** which is available on the upper right of the screen. If you have zero errors and warnings, select the **X** and then select **Save**.
+16. Select **Flow checker,** which is available on the upper right of the screen. If you have zero errors and warnings, select the **X** and then select **Save**.
 
-1. You can now test the button by using your smartphone. Open the app and select the **Buttons** option on the lower horizontal menu. Select the **Notify Your Manager** button. To add an image, select the **paper clip icon** and add an image by taking a new picture with your camera or by using an existing image from your photo library.
+17. You can now test the button by using your smartphone. Open the app and select the **Buttons** option on the lower horizontal menu. Select the **Notify Your Manager** button. To add an image, select the **paper clip icon** and add an image by taking a new picture with your camera or by using an existing image from your photo library.
 
 Your manager will get an email with an image attached.
