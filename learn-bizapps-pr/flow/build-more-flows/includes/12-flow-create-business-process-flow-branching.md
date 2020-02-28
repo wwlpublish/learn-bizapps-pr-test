@@ -2,14 +2,14 @@ Business process flows guide you through the different stages of sales, marketin
 
 Branches are automatically selected in real time, based on rules that are defined in the process definition.
 
-- If you have **Create** permissions on business process flows, you can use `If-Else` logic to create business process flow that have multiple branches.
+- If you have **Create** permissions on business process flows, you can use `If-Else` logic to create business process flows that have multiple branches.
 - The branching condition can be formed from multiple logical expressions that use a combination of `AND` or `OR` operators.
 
 For example, for the process of selling cars, you can set up a single business process flow that starts with a common qualification stage but then splits into separate branches, based on a rule:
 
 - One branch manages the case of a customer who prefers a new car or a pre-owned car.
 - Another branch manages the case of a customer whose budget is above or below $20,000.
-- A third branch might be for selling new cars or pre-owned cars.
+- A third branch might be for purchasing or declining a maintenance or service plan.
 
 The following diagram shows a business process flow that has branches.
 
@@ -40,8 +40,7 @@ First, we'll create a process named **Car Sales Process**.
 
 1. Launch Power Automate and sign in using your organizational account.
 1. In the left pane, select **Flows**.
-1. On the top bar, select **Business process flows**.
-1. On the right, select **Create from Blank**.
+1. On the top bar, select **New** **Business process--from blank**.
 1. In the **Create business process flow** pane, fill in the required fields:
 
     - **Display name**: Enter *Car sales process*.
@@ -50,8 +49,8 @@ First, we'll create a process named **Car Sales Process**.
 
         The entity that you select affects the fields that are available for steps that can be added to the first stage of the process flow. If you can't find the Lead entity, make sure that the **Business process flows (fields will be created)** option is set for that entity in the entity definition. You can't change the entity after you save the process.
 
-1. Select **OK**.
-1. Add the first stage to the process, name the stage *Qualify*, and add two steps to it: *Purchase Time frame* and *Car Preference*.
+1. Select **Create**.
+1. Once the new page spins up in PowerApps, add the first stage to the process, name the stage *Qualify*, and add two data steps to it: *Purchase Time frame* and *Car Preference*.
 1. After the common Qualify stage, split the process into two separate branches by adding a **Condition** component:
 
     1. Set up the condition with rules that meet your business requirements.
