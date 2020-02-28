@@ -49,7 +49,7 @@ messages for internal and external emails.
 
     ![Set automatic replies action](../media/set-automatic-replies-action.jpg)
 
-1. Select the **Flow checker**, which is available on the upper right if the screen. If you have zero errors and warnings, select the **X** and then select **Save**.
+1. Select the **Flow checker**, which is available on the upper right of the screen. If you have zero errors and warnings, select the **X** and then select **Save**.
 
 1. You can now test the button by using your smart phone. Open the app and select the **Buttons** option on the lower horizontal menu. Select the **Set Out Of Office** button.
 
