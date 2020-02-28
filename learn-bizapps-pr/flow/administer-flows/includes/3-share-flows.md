@@ -73,7 +73,7 @@ You can stop sharing a button by following these steps.
 
     ![Invite others](../media/share-button-flows-button-users.png)
 
-1. On the following page you can manage users with whom you have already shared the flow. On this page, select the user which you wish to remoce.
+1. On the following page you can manage users with whom you have already shared the flow. On this page, select the user which you wish to remove.
 
 1. On the user's page, select **Remove user**.
 

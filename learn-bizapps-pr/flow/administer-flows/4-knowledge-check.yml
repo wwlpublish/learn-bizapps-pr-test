@@ -25,7 +25,7 @@ quiz:
       explanation: Anyone that receives the zip file can import it.
       isCorrect: false 
     - content: Anyone that receives the zip file can import it
-      explanation: Anyone that recieves the zip file can import the flow.
+      explanation: Anyone that receives the zip file can import the flow.
       isCorrect: true 
   - content: Which of the following is a requirement to share button flows?
     choices: 
