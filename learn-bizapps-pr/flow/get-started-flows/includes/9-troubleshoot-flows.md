@@ -4,7 +4,7 @@ In this unit, you'll learn how to troubleshoot common issues that might occur wh
 
 Before you can fix a flow, you must identify why it failed. You will get an email with a list of failures each week.
 
-1. Select the **Notifications** button (the bell symbol) at the top of the web portal (or select the **Activity** tab in the mobile app), and then select your flow in the list that appears.
+1. Select the **Settings** button (the gear symbol) at the top of the web portal and select **Activity** (or select the **Activity** tab in the mobile app), and then select your flow in the list that appears.
 
     ![Notifications](../media/notifications-toolbar.png)
 
@@ -16,7 +16,7 @@ Before you can fix a flow, you must identify why it failed. You will get an emai
 
 In many cases, flows fail because of an authentication error. If this type of error occurs, the error message includes the word "Unauthorized," or an error code of 401 or 403 appears. You can usually fix authentication errors by updating the connection.
 
-1. At the top of the web portal, select the **Settings** button (the gear symbol), and then select **Connections** on the menu.
+1. You can view the connections by opening up the flow details by selecting the flow from **My Flows**.
 2. Scroll to the connection that you saw the "Unauthorized" error message for.
 3. Next to the connection, select the **Verify password** link in the message that states that the connection hasn't been authenticated.
 4. Verify your credentials by following the instructions that appear. Then return to your flow-run failure, and select **Resubmit**.
@@ -42,9 +42,7 @@ If error code 500 or 502 appears, the failure is temporary or transient.
 
 Sometimes your flows might behave unexpectedly because you aren't using the correct plan.
 
-- To view your plan, in Power Automate, select **Learn**, and then select **Pricing**.
-
-    ![Pricing](../media/learn-pricing.png)
+- To view your plan, in Power Automate, select **Learn**. It will redirect you to another page. Here select **Learn**, and then select **Pricing**.
 
 Learn more about [pricing and how to switch plans](https://flow.microsoft.com/pricing/).
 

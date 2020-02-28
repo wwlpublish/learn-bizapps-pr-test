@@ -1,10 +1,10 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.7-flow-post-tweets
-title: Post tweets with Power Automate
+title: Send an email when a tweet is posted
 metadata: 
-  title: Post tweets with Power Automate
-  description: Learn how to post tweets by using SharePoint with Power Automate.
-  ms.date: 02/03/2019
+  title: Send an email when a tweet is posted
+  description: Learn how to send an email or alert when relevant tweets are posted.
+  ms.date: 03/06/2020
   author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial

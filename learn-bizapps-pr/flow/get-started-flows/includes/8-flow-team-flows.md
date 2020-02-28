@@ -1,4 +1,4 @@
-Team flows extend the power of Power Automate to groups of people. After all, why should just one person enjoy the benefits of increased automation in his or her work environment?
+Team flows extend the potential of Power Automate to groups of people. After all, why should just one person enjoy the benefits of increased automation in his or her work environment?
 
 Here are some advantages of team flows:
 
@@ -11,7 +11,7 @@ If you're the creator or an owner of a team flow, you'll find it listed on the *
 ![Team flows tab](../media/addowner5.png)
 
 > [!NOTE]
-> - Shared connections can be used only in the flow that they were created in.
+> - Shared connections can be used only in the flow in which they were created.
 > - Owners can use services in a flow, but they can't change the credentials for a connection that another owner created.
 
 ## Prerequisites
@@ -23,14 +23,14 @@ To create a team flow, you must have a [paid Power Automate plan](https://flow.m
 You create a team flow by adding other owners to an existing flow. After new owners are added to a flow, the flow will appear on the **Team flows** tab.
 
 1. Sign in to [Power Automate](https://flow.microsoft.com) by using your organizational account.
+
 1. Select **My flows**.
-1. Select the **Invite another owner** button for the flow that you want to change.
+
+1. Select the **Share** button for the flow that you want to change.
 
     ![Invite another owner button](../media/addowner1.png)
 
 1. Enter the name, email address, or group name of the person or group that you want to add as an owner.
-
-    ![Enter user information](../media/addowner3.png)
 
 1. In the list that appears, select the user or group.
 
@@ -48,14 +48,14 @@ Any owner of a team flow can contribute connections to a flow. After another per
 
 For example, John creates a flow that updates items in SharePoint with his account, and he shares the flow with Mary. In this case, Mary will be able to change the use of SharePoint inside that flow, but not in any of her personal flows. Likewise, Mary can change the flow so that it uses her SharePoint connection, but John still won't able to use that new SharePoint connection in any of his flows. 
 
-To view all the connections that are used by a flow, select the **Invite another owner** button, and inspect the list of embedded connections.
+To view all the connections that are used by a flow, select the **Share** button, and inspect the list of embedded connections.
 
 ## Remove an owner
 
 > [!IMPORTANT]
 > If you remove an owner whose credentials are used to access Power Automate services, be sure to update the credentials for those connections, so that the flow continues to work correctly.
 
-1. On the **Team flows** tab, select the **Invite another owner** button for the flow that you want to change.
+1. On the **Team flows** tab, select the **Share** button for the flow that you want to change.
 
     ![Invite another owner button](../media/addowner1.png)
 
@@ -75,5 +75,3 @@ To view the list of connections, change the team flow.
 - On the **Team flows** tab, select the **Invite another owner** button for the flow that you want to change.
 
     The list of connections appears under the list of owners in the flow's properties.
-
-    ![Embedded connections](../media/embeddedconnections.png)
