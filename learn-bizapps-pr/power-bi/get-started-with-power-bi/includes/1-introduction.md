@@ -24,6 +24,20 @@ Perhaps you view inventory and manufacturing progress in a real-time dashboard i
 
 We discuss these three elements—**Desktop**, the **service**, and **Mobile** apps—in more detail later. In upcoming units and modules, we'll also create reports in Power BI Desktop, share them in the service, and eventually drill into them on our mobile device.
 
+
+
+You can download Power BI Desktop from the web or as an app from the Microsoft Store on the Windows tab.
+
+| Download Strategy | Link | Notes |
+|-------------------|------|-----------------------------------|
+| Windows Store App | <a href="https://go.microsoft.com/fwlink/?linkid=2101122" target="_blank">Windows Store</a>| Will automatically stay updated |
+| Download from web | [Download .msi](http://go.microsoft.com/fwlink/?LinkID=521662) | Must manually update periodically |
+
+## Sign in to Power BI service
+Before you can sign in to Power BI, you'll need an account. To get a free trial, go to <a href="https://go.microsoft.com/fwlink/?linkid=2101313" target="_blank">app.powerbi.com</a> and sign up with your email address. 
+
+For detailed steps on setting up an account, see [Sign in to Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-sign-in)
+
 ## The flow of work in Power BI
 A common flow of work in Power BI begins in **Power BI Desktop**, where a report is created. That report is then published to the **Power BI service** and finally shared, so that users of **Power BI Mobile** apps can consume the information.
 
