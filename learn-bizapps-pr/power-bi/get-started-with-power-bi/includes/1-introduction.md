@@ -24,7 +24,7 @@ Perhaps you view inventory and manufacturing progress in a real-time dashboard i
 
 We discuss these three elements—**Desktop**, the **service**, and **Mobile** apps—in more detail later. In upcoming units and modules, we'll also create reports in Power BI Desktop, share them in the service, and eventually drill into them on our mobile device.
 
-
+## Download Power BI Desktop
 
 You can download Power BI Desktop from the web or as an app from the Microsoft Store on the Windows tab.
 
