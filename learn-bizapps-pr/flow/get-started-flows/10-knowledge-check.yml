@@ -4,12 +4,12 @@ title: Check your knowledge
 metadata: 
   title: "Knowledge check: Get started with Power Automate" 
   description: This knowledge check tests your knowledge of how to use Power Automate. 
-  ms.date:  02/03/2019
+  ms.date:  03/06/2020
   author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-power-automate
-durationInMinutes: 4 
+durationInMinutes: 6 
 quiz: 
   title: "Knowledge check: Get started with Power Automate" 
   questions: 
@@ -40,4 +40,18 @@ quiz:
       isCorrect: false 
     - content: Flow actions trigger the flow to occur as long as the defined value of the trigger is met.
       explanation: Triggers invoke actions. 
+      isCorrect: false
+  - content: You would like to be alerted to when a change is made to a SharePoint list, what are some ways in which Power Automate can help?
+    choices: 
+    - content:  Power Automate can send up a flare near you to alert you of changes.
+      explanation: No, but that would be cool.
+      isCorrect:  false
+    - content: You can write a flow with Power Automate to send push notifications, texts or emails for a variety of triggers.
+      explanation: Correct! Power Automate is good that way.
+      isCorrect:  true
+    - content: Sorry, Power Automate can't help with that.
+      explanation: Try again! Power Automate is very good at this sort of task.
+      isCorrect: false
+    - content: Power Automate can send out a tweet whenever a list item is changed.
+      explanation: It could, but that doesn't seem like the most helpful type of alert.
       isCorrect: false
