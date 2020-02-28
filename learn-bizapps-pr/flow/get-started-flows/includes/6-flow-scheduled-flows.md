@@ -2,7 +2,7 @@ In this unit, you'll learn how to build prescheduled flows by using a trigger ca
 
 ##Prerequisites
 
-For this scenario, you will need to make an excel with a table that contains the following columns: ContactEmail, FirstName, and LastName.
+For this scenario, you will need to make an excel file with a table that contains the following columns: ContactEmail, FirstName, and LastName.
 
 ## Create a scheduled flow
 
@@ -10,9 +10,9 @@ For this scenario, you will need to make an excel with a table that contains the
 
 1. Select **My flows**.
 
-1. Select **New**, and then select **Sheduled--from blank**.
+1. Select **New**, and then select **Scheduled-from blank**.
 
-1. Name your flow and under **Run this flow** set the flow to repeat every 1 Day.
+1. Name your flow and under **Run this flow** set the flow to repeat every one Day.
 
 1. Select **Create**.
 
