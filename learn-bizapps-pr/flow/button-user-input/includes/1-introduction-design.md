@@ -1,17 +1,16 @@
 Building a Power Automate flow is the same as building any other
-workflow. You have a start and an end. A flow always starts with a
-trigger action and in this module we are focusing on manually triggering
-a flow using buttons with user input. After the trigger you add steps.
-Each step can be an action or a condition or a combination of actions
+workflow where you have a start and an end. A flow always starts with a
+trigger action, and this module focuses on manually triggering
+a flow by using buttons with user input. After you have added the trigger, you will add steps.
+Each step can be an action, a condition, or a combination of actions
 and conditions. The flow always ends with an action.
 
-There are two ways to design the process for a button flow, one is to
-use an existing template with a button trigger and the second is to
-build one from blank.
+Two ways to design the process for a button flow are by using 
+an existing template with a button trigger and by building a template from blank.
 
-### Six different types of user inputs
+### Six types of user inputs
 
-Power Automate flows currently can have six different types of user inputs. They are:
+Currently, Power Automate flows can have six different types of user inputs:
 
 - Text
 
@@ -29,9 +28,7 @@ Power Automate flows currently can have six different types of user inputs. They
 
 ### Text
 
-Text input is best used to add text. When you click on the ellipses or
-the three dots ... at the end, you will see three options and delete.
-The options are:
+**Text** input is best used for adding text. When you select the ellipsis (...) at the end of the selection, you will see the **Delete** option and three other options:
 
 - Add a drop-down list of options
 
@@ -41,24 +38,24 @@ The options are:
 
 ### Yes/No
 
-As the input name states, it is best used to select yes or no options.
+The **Yes/No** input type is best used to select yes or no options.
 
 ### File content
 
-File content can be used to upload files and images.
+The **File content** input type can be used to upload files and images.
 
 ### Email
 
-Email input is where you enter the email address. The other inputs
+The **Email** input type is where you would enter an email address. The other inputs
 complement the use of email input.
 
 ### Number
 
-As the input name states, it is best used to add a numerical value.
+The **Number** input type is best used to add a numerical value.
 
 ### Trigger date
 
-For the trigger date input, you can either enter or select a date.
+For the **Trigger date** input type, you can either enter or select a date.
 
-**Yes/No, File Content, Email, Number and Trigger date** have the same
-options, for example to **Make the field optional** and **Delete**.
+The **Yes/No**, **File Content**, **Email**, **Number**, and **Trigger date** input types have the same
+options, for example, to **Make the field optional** and **Delete**.

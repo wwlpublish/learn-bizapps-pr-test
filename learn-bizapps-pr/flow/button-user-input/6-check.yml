@@ -13,7 +13,7 @@ durationInMinutes: 8
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which user input options is used for adding images to a flow?
+  - content: Which of the following user input options is used for adding images to a flow?
     choices: 
     - content: File and Email
       isCorrect: false
@@ -43,29 +43,29 @@ quiz:
       explanation: The Office 365 Users Get Manager (V2) connector is used to get manager information.
   - content: Which connector provides the full address?
     choices: 
-    - content: The Get User Profile (V2)
+    - content: Get User Profile (V2)
       isCorrect: false
       explanation: The Manually Trigger a flow connector provides the full address.
-    - content: The Manually Trigger a flow
+    - content: Manually Trigger a flow
       isCorrect: true
       explanation: The Manually Trigger a flow connector provides the full address.
-    - content: The SharePoint
+    - content: SharePoint
       isCorrect: false 
       explanation: The Manually Trigger a flow connector provides the full address.
-    - content: The Office 365 Users
+    - content: Office 365 Users
       isCorrect: false 
       explanation: The Manually Trigger a flow connector provides the full address.
   - content: How many actions and which action(s) are needed to attach an image to a new SharePoint item?
     choices: 
-    - content: Two. Create item first, then add attachment.
+    - content: Two. Create the item first and then add the attachment.
       isCorrect: true 
-      explanation: Two actions are needed to attach an image to a new SharePoint item. Create item first, then add attachment.
-    - content: One. Create item.
+      explanation: Two actions are needed to attach an image to a new SharePoint item. Create the item first and then add the attachment.
+    - content: One. Create the item.
       isCorrect: false 
-      explanation: Two actions are needed to attach an image to a new SharePoint item. Create item first, then add attachment.
-    - content: One. Add attachment.
+      explanation: Two actions are needed to attach an image to a new SharePoint item. Create the item first and then add the attachment.
+    - content: One. Add the attachment.
       isCorrect: false 
-      explanation: Two actions are needed to attach an image to a new SharePoint item. Create item first, then add attachment.
-    - content: Two. Add attachment first then create an item.
+      explanation: Two actions are needed to attach an image to a new SharePoint item. Create the item first and then add the attachment.
+    - content: Two. Add the attachment first and then create an item.
       isCorrect: false 
-      explanation: Two actions are needed to attach an image to a new SharePoint item. Create item first, then add attachment.
+      explanation: Two actions are needed to attach an image to a new SharePoint item. Create the item first and then add the attachment.
