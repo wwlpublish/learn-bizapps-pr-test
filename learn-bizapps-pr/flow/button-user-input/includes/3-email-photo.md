@@ -32,18 +32,18 @@ of your current location along with a photo of the vehicle that you are using.
 
 1. In the **To** field, in the **Dynamic content** section, under **Get manager (V2)**, select **Mail**. You might have to select **See more** to find **Mail**.
 
-![mail](../media/mail.jpg)
+   ![mail](../media/mail.jpg)
 
 12. In the **Subject** field, enter **```My current location and vehicle I am using```**.
 
 13. In the **Body** field, enter the following text:
 
-	```Hi
+    ```Hi
 	
-	I have arrived at my current location and attached is a picture of the vehicle I am currently using.
+    I have arrived at my current location and attached is a picture of the vehicle I am currently using.
 	
-	Address:
-	```
+    Address:
+    ```
 
 14. In the **Body** field, after the word **Hi**, select **Display Name**, which is available in the **Dynamic content** section under **Get manager (V2)**.
 
