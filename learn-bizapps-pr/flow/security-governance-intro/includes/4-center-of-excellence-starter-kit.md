@@ -13,17 +13,16 @@ to the organization should be monitored, but makers who are automating
 workloads within sanctioned systems and services should be empowered and
 encouraged to expand on their efforts.
 
-The Starter Kit does have some prerequisites, including:
+The Starter Kit does have some prerequisites, including the following:
 
 -   A Global tenant admin or Dynamics 365 service admin role is required
-    to access to tenant resources.
+    to access the tenant resources.
 
--   Power Apps Premium License for accessing the Common Data Service
-    (CDS).
+-   A Power Apps Premium License for accessing the Common Data Service.
 
--   An environment with CDS, as the Starter Kit solution will need to
-    store metadata about the apps and flows that are detected within an
-    environment.
+-   An environment with Common Data Service, as the Starter Kit solution 
+    will need to store metadata about the apps and flows that are detected 
+    within an environment.
 
 -   Power BI Desktop to view the reports and visualizations that
     highlight app and flow usage within the tenant.
@@ -56,12 +55,12 @@ and features:
     it does so within the context of an environment. This makes
     developing a holistic picture of usage difficult. However,
     using the tools provided in the COE Starter Kit brings all these
-    insights together using the Common Data Service (CDS), a Model
-    Driven Power App and a Power BI Dashboard. These assets, plus the
+    insights together using the Common Data Service, a model
+    driven Power App and a Power BI Dashboard. These assets, plus the
     inclusion of flows that will sync data from Office 365 Security and
     Compliance logs and via the Power Platform management connectors
-    into CDS entities, provide the greatest level of visibility for
-    administrators.
+    into Common Data Service entities, provide the greatest level of 
+    visibility for administrators.
 
     The Power BI dashboard connects to Starter Kit CDS entities and
     contains tabs that provide the following reports:
@@ -104,7 +103,7 @@ and features:
         insights into the popularity of specific connectors within your
         tenant.
 
-        ![COE PBI](../media/5-coe-pbi-1.png)
+        ![Center Of Excellence PBI](../media/5-coe-pbi-1.png)
 
 -   **App Audit**
 
@@ -148,9 +147,11 @@ and features:
     Power Apps and Power Automate may be discovered virally within an
     organization's tenant by clicking through the Office 365 portal.
     Makers may be confused about whether they are allowed to use these
-    tools. By detecting when a maker has created their first app or flow
+    tools. 
+    
+    By detecting when a maker has created their first app or flow
     and sending them some useful information to accelerate their
-    journey, it immediately implies these are tools that they are
+    journey, it immediately implies that these are the tools that they are
     permitted to use and now they have a list of resources that can ease
     their transition into using these tools.
 
