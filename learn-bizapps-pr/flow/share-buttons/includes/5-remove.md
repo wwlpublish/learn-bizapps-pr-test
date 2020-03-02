@@ -15,4 +15,4 @@ You can get the button back if the maker
 still has it shared with you. To get the button back, select the 
 **Buttons** icon on the lower horizontal menu. 
 Select **Get more** on the upper right of the app screen. 
-You should see the button that you just deleted.
+You should see the button that you deleted.
