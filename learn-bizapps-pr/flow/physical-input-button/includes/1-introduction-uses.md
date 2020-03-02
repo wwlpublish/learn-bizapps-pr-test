@@ -1,5 +1,5 @@
 Building a Power Automate flow is the same as building any other
-workflow. A physical button makes the process easier because now
+workflow. A physical button makes the process easier because, now,
 you can simply select the button and the flow will run. You no longer need to
 pick up your smart phone, open the Power Automate button flow, and then select
 the button. Several scenarios exist where you can use a physical button.
