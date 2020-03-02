@@ -15,11 +15,11 @@ First, you must create the source and target folders in OneDrive for Business an
 
 1. In Power Automate, select **My Flows**, and then select **Automated--from blank**.
 
-1. In the **Choose your flow's trigger** search field, enter *onedrive*, and select the **OneDrive for Business - When a file is created** trigger. Name your flow and press create.
+1. In the **Choose your flow's trigger** search field, enter *OneDrive*, and select the **OneDrive for Business - When a file is created** trigger. Name your flow and press create.
 
     ![OneDrive for Business - When a file is created trigger](../media/onedrive-trigger.png)
 
-1. In the **Folder** field select the folder button, and then select the **Finished Documents** folder that you created in the previous step.
+1. In the **Folder** field, select the folder button, and then select the **Finished Documents** folder that you created in the previous step.
 
 1. Select **New step**. 
 

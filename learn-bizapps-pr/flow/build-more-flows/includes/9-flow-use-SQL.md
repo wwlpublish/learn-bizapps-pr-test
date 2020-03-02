@@ -33,7 +33,7 @@ If you're comfortable with Power Automate, use these quick steps to copy data fr
 6. Trigger your flow, and then confirm that new or changed items are being copied from the source to the destination.
 
 > [!NOTE]
-> If you haven't previously created a connection to SharePoint or SQL Database, follow the instructions when you're prompted to sign in.
+> If you haven't previously created a connection to SharePoint or a SQL Database, follow the instructions when you're prompted to sign in.
 
 Here are the detailed steps to create the flow.
 
@@ -83,7 +83,7 @@ Next, we'll check whether the new or changed item was found.
 
     The **Add dynamic content from the apps and connectors used in this flow** list opens.
 
-1. Select **Expression** and choose **length**. Your cursor should be between the parantheses in the equations.
+1. Select **Expression** and choose **length**. Your cursor should be between the parentheses in the equations.
 
     ![Choose length expression](../media/length-expression.png)
 
