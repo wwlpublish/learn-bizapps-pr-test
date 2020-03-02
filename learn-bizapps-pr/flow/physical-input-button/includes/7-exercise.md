@@ -1,4 +1,4 @@
-Occasionally, you have to deal with last minute meetings. In that situation, it would be beneficial to
+Occasionally, you have to deal with last-minute meetings. In that situation, it would be beneficial to
 have the ability to quickly show your calendar as busy. This exercise will walk through the steps of 
 using the Flic button to block your Outlook calendar for an hour.
 
