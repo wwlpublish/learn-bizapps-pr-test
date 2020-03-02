@@ -10,7 +10,7 @@ In this unit, you will combine data from different sources by using Query Editor
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wTTj]
 
 > [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Excel workbook <a href="https://go.microsoft.com/fwlink/?linkid=2114225" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**) if you haven't already.
+> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).
 
 ## Add more data sources
 
