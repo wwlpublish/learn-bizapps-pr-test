@@ -28,7 +28,9 @@ Currently, Power Automate flows can have six different types of user inputs:
 
 ### Text
 
-**Text** input is best used for adding text. When you select the ellipsis (...) at the end of the selection, you will see the **Delete** option and three other options:
+**Text** input is best used for adding text. When you select the ellipsis (...) 
+at the upper-right of the screen, you will see the **Delete** option and three 
+other options:
 
 - Add a drop-down list of options
 

@@ -8,9 +8,9 @@ list.
 
     ![SharePoint new list](../media/sharepoint-new-list.jpg)
 
-1.  On the right side of the screen is the **Create list** option. Give the list a name,
+1.  On the right most side of the screen is the **Create list** option. Give the list a name,
     such as **Reported Property Damage**. Select **Create**. You will be automatically redirected
-    to the new list. The list will automatically have the **Title** option available.
+    to the new list. The list will automatically have the **Title** field option available.
 
 1.  Select **Settings**, which is available on the upper-right of the screen
     and looks like a gear icon. Hovering your mouse over the icon will show the 
@@ -45,10 +45,10 @@ list.
 
 1. On the left vertical menu, select **+ Create**.
 
-1. On the top of the page is the **Three ways to make a flow** drop-down menu. Select the 
+1. On the top of the page is the **Three ways to make a flow** heading. Select the 
     **Start from blank** option from the menu and then select the **Instant flow** option.
 
-1. Enter **Report Property Damage** as your **Flow Name** and select the 
+1. Enter **Report Property Damage** as your **Flow name** and select the 
     **Manually trigger a flow** option.
 
 1. Select **Create** to start building the button flow.
