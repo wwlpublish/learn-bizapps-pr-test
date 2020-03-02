@@ -1,78 +1,77 @@
-Let's build a flow triggered by the Flic button that looks up your next
-appointment and sends the attendees an email letting them know you are
-running a little late.
+In this exercise, you will build a flow, which is triggered by the Flic button, that looks up your next
+appointment and sends the attendees an email letting them know that you are running slightly late.
 
 1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true).
 
-1.  Click on **+ Create** available on the left vertical navigation.
+1.  Select **+ Create**, which is available on the left navigation pane.
 
-1.  In the Start from blank section of the page, click on **Automated flow**.
+1.  In the **Start from blank** area of the page, select **Automated flow**.
 
-1.  Name the flow as **Running Late**. Under Choose your flow's triggers, search for **Flic**. Select **When a Flic is pressed** and then click **Create**.
+1.  In the **Flow name** field, enter **Running Late** as the name of the flow. Under **Choose your flow's trigger**, search for **Flic**. Select **When a Flic is pressed** and then select **Create**.
 
 	![Running late Flic trigger](../media/running-late-flic-trigger.jpg)
 
-1.  In the Flic button trigger, click on the drop-down arrow at the right and select the Flic button you added above. For Events select **click**.
+1.  In the Flic button trigger, select the drop-down arrow and then select the Flic button that you added previously. For **Events**, select **click**.
 
-1.  Click on **+ New step**.
+1.  Select **+ New step**.
 
-1.  In the **Choose an action** field, search for Get calendar events and select the **Get calendar view of events (V2)** action.
+1.  In the **Choose an action** field, search for **Get calendar events** and then select the **Get calendar view of events (V2)** action.
 
-1.  For Calendar ID, select **Calendar**.
+1.  For **Calendar ID**, select **Calendar**.
 
-1.  Click in **Start Time**. Select **Expression** and type in **'utc'**. You should see a **utcNow** option, Select it.
+1.  In the **Start Time** field, select **Expression** and then enter **utc**. Select the **utcNow** option from the drop-down list.
 
     ![Add utcNow](../media/add-utcnow.jpg)
 
-1. Click **OK**.
+1. Select **OK**.
 
-1. Click in **End time**. Select Expression and add the formula ```addHours(utcNow(),1)```.
+1. In the **End time** field, select **Expression** and then add the **```addHours(utcNow(),1)```** formula.
 
-1. Click **OK**.
+1. Select **OK**.
 
-	The action should look like this.
+	The action should look like the following image.
 
     ![Get calendar view events](../media/get-calendar-view-events.jpg)
 
-1. Click on **+ New step**.
+1. Select **+ New step**.
 
-1. In the **Choose an action** field, search for send email. Select the **Send an email (V2)** action.
+1. In the **Choose an action** field, search for **send email**. Select the **Send an email (V2)** action.
 
-1. Click in the **To** field and then click on the advanced icon and select **Required attendees** from Dynamic content.
+1. In the **To** field, select the advanced icon and then select **Required attendees** from **Dynamic content**.
 
     ![send email sent field](../media/send-email-sent-field.jpg)
 
-    The Send an email (V2) will automatically be added inside the Apply to each loop.
+    The **Send an email (V2)** action will automatically be added inside the **Apply to each** loop.
 
     ![apply each loop](../media/apply-each-loop.jpg)
 
-1. Click on **Send an email (V2)** to expand it.
+1. Select **Send an email (V2)** to expand it.
 
     ![send email sent field](../media/send-email-sent-field.jpg)
 
-1. In the subject field, type **'Running late for our'**.
+1. In the **Subject** field, enter **Running late for our**.
 
-1. Then click on **Dynamic content** and select **Subject**.
+1. Select **Dynamic content** and then select **Subject**.
 
-1. After Subject, type **meeting**.
+1. After **Subject**, enter **meeting**.
 
     ![send email subject](../media/send-email-subject.jpg)
 
-1. In the Body, enter the following:
+1. In the **Body** field, enter the following text:
     ```
 	Hi there,
 
     I'm running a little late for our meeting.
 	```
 
-	Here is what the full flow should look like.
+	The following image shows what the full flow should look like.
 
     ![full running late flow](../media/full-running-late-flow.jpg)
 
-1. Finally, click on the **Flow checker** icon which is available on the top-right of the screen, 
-    and if there are no errors, click **Save**.
+1. Select the **Flow checker** icon, which is available on the upper right of the screen. 
+   If no errors occur, select **Save**.
 
-Congratulations! You have now successfully built a flow which triggers using a physical button. 
-To test the flow, you need to have the Flic app open on your phone and then click the Flic 
-button once. The flow will check to see if there are any meetings either currently running or 
-coming up between now and the next hour and will send out a notification to all the attendees.
+Congratulations, you have now successfully built a flow that triggers by use of a physical button. 
+To test the flow, you need to have the Flic app open on your phone and then select the Flic 
+button once. The flow will check to see if any meetings are currently happening or are  
+pending between now and the next hour, and then it will send out a notification to all attendees.
