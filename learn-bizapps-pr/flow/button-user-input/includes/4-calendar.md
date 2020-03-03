@@ -1,15 +1,15 @@
-In this exercise, you will build a flow that is triggered by a button that will set up automatic
+In this unit, you will build a flow that is triggered by a button that will set up automatic
 replies to your Office 365 Outlook, which will add separate reply
 messages for internal and external emails.
 
-1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true). 
+1.  [Go to Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in. 
 
 1.  On the left vertical menu, select **+ Create**.
 
 1.  On the top of the page, from the **Three ways to make a flow** drop-down menu, select **Start from blank** 
     and then select **Instant flow**.
 
-1.  Add **Set Out Of Office** as your flow **Name** and select the **Manually trigger a flow** option.
+1.  Add **Set Out Of Office** as your **Flow name** and select the **Manually trigger a flow** option.
 
 1.  Select **Create** to start building the flow.
 
@@ -60,6 +60,6 @@ on the upper right of the screen.
 
 1. To confirm that the flow has run successfully, go to Outlook on your local machine, select **File**, which is on the upper left of the top horizontal menu. On the **Info** screen, select **Automatic Replies**.
 
-You should now see the setting that you added by using the flow.
+You should now see the settings that you added by using the flow.
 
-    ![Automatic replies setting](../media/automatic-replies-setting.jpg)
+![Automatic replies setting](../media/automatic-replies-setting.jpg)

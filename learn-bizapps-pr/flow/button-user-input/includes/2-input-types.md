@@ -1,4 +1,4 @@
-In this exercise, you will create a flow button that will allow a user to report damage
+In this unit, you will create a flow button that will allow a user to report damage
 that was noticed on the company's property. The data will be saved on a SharePoint
 list.
 
@@ -41,7 +41,7 @@ list.
 
     ![All SharePoint Columns](../media/all-sharepoint-columns.jpg)
 
-1. [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true). 
+1. [Go to Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in. 
 
 1. On the left vertical menu, select **+ Create**.
 

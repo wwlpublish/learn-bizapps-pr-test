@@ -42,9 +42,9 @@ other options:
 
 The **Yes/No** input type is best used to select yes or no options.
 
-### File content
+### File
 
-The **File content** input type can be used to upload files and images.
+The **File** content input type can be used to upload files and images.
 
 ### Email
 
@@ -55,9 +55,9 @@ complement the use of email input.
 
 The **Number** input type is best used to add a numerical value.
 
-### Trigger date
+### Date
 
-For the **Trigger date** input type, you can either enter or select a date.
+For the trigger **Date** input type, you can either enter or select a date.
 
-The **Yes/No**, **File Content**, **Email**, **Number**, and **Trigger date** input types have the same
+The **Yes/No**, **File**, **Email**, **Number**, and **Date** input types have the same
 options, for example, to **Make the field optional** and **Delete**.

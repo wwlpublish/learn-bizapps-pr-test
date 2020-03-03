@@ -1,14 +1,14 @@
-In this exercise, you will build a flow that is triggered by a button that will send an email to your manager
+In this unit, you will build a flow that is triggered by a button that will send an email to your manager
 of your current location along with a photo of the vehicle that you are using.
 
-1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true). 
+1.  [Go to Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in. 
 
 1.  On the left vertical menu, select **+ Create**.
 
 1.  On the top of the page, you will see the **Three ways to make a flow** drop-down menu. Select **Start from blank** 
 	and then select **Instant flow**.
 
-1.  Enter **Notify Your Manager** as your flow **Name** and select the 
+1.  Enter **Notify Your Manager** as your **Flow name** and select the 
 	**Manually trigger a flow** option.
 
 1.  Select **Create** to start building the flow.
@@ -34,11 +34,12 @@ of your current location along with a photo of the vehicle that you are using.
 
    ![mail](../media/mail.jpg)
 
-12. In the **Subject** field, enter **```My current location and vehicle I am using```**.
+12. In the **Subject** field, enter ```My current location and vehicle I am using```.
 
 13. In the **Body** field, enter the following text:
 
-    ```Hi
+    ```
+    Hi
 	
     I have arrived at my current location and attached is a picture of the vehicle I am currently using.
 	
