@@ -56,7 +56,7 @@ it does so within the context of an environment. This parameter makes
 developing a holistic picture of usage difficult. However,
 using the tools that are provided in the COE Starter Kit brings all these
 insights together by using Common Data Service, a model-driven
-Power App and a Power BI dashboard. These assets, plus the
+Power App, and a Power BI dashboard. These assets, plus the
 inclusion of flows that will sync data from Office 365 Security and
 Compliance logs and through the Power Platform management connectors
 into Common Data Service entities, provide the greatest level of 
@@ -151,7 +151,7 @@ tools or not.
     
 Detecting when a maker has created their first app or flow
 and sending them some useful information to accelerate their
-journey immediately implies that these are the tools that they are
+journey will immediately imply that these tools are the ones that they are
 permitted to use. Now, they will have a list of resources that can ease
 their transition into using these tools.
 
