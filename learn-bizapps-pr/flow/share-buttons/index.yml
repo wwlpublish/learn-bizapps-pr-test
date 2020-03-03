@@ -2,7 +2,7 @@
 uid: learn-bizapps.share-buttons 
 metadata: 
  title: Share Power Automate buttons 
- description: Do you want to share Power Automate button flows with others? In this module, we will learn how to share buttons and understand some security basics.
+ description: Do you want to share Power Automate button flows with others? In this module, you will learn how to share buttons and will discover some security basics.
  ms.date: 03/06/2020  
  author: KevSch  
  ms.author: kschimke  
@@ -12,12 +12,12 @@ title: Share Power Automate buttons
 summary: |  
   [!include[](../includes/module-banner.md)] 
 
-  Do you want to share Power Automate button flows with others? In this module, we will learn how to share buttons and understand some security basics.
+  Do you want to share Power Automate button flows with others? In this module, you will learn how to share buttons and will discover some security basics.
 abstract: |  
     In this module, you will: 
-    - Become familiar with the sharing process of Power Automate flow buttons
-    - Understand flow button connection security
-    - Monitor the run history of a button flow
+    - Discover the sharing process of Power Automate flow buttons.
+    - Learn about flow button connection security.
+    - Monitor the run history of a button flow.
 prerequisites: A basic understanding of Microsoft Power Automate and a working mobile device with a Power Automate license.
 iconUrl: /learn/achievements/share-buttons.svg  
 levels:  
