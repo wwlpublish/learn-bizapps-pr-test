@@ -1,6 +1,6 @@
 Data Loss Prevention (DLP) policies allow organizations to construct
 rules that permit and prevent connectors from communicating with each
-other within the same flow. Microsoft accomplishes this by establishing
+other within the same flow. Microsoft accomplishes this task by establishing
 two data groups: **Business data only** and **No business data allowed**. 
 The intent of these two data groups is to put connectors that
 have the same data profile in the same data group. Grouping
