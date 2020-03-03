@@ -2,11 +2,11 @@ This exercise shows you how to use an existing button template to
 add a new Outlook task rather than creating a button flow from blank, which
 you did earlier in this module.
 
-This exercise uses the **Create a new Outlook Task** template.
+This exercise uses the **Create new Outlook Task** template.
 
 Follow these steps:
 
-1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true). 
+1.  [Go to Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in. 
 
 1.  On the left vertical menu, select **Templates**.
 
@@ -14,7 +14,7 @@ Follow these steps:
 
     ![button template](../media/button-templates.jpg)
 
-1.  Find the **Create a new Outlook Task** template and select it.
+1.  Find the **Create new Outlook Task** template and select it.
 
     ![Create new Outlook task template](../media/create-new-outlook-task-template.jpg)
 
