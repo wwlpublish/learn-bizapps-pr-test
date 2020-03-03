@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.physical-input-button.4-appointment 
-title: Create a Power Automate button that tells your next appointment that you are running late
+title: Create a Power Automate button that notifies an appointment you'll be late
 metadata: 
-  title: Create a Power Automate button that tells your next appointment that you are running late 
+  title: Create a Power Automate button that notifies an appointment you'll be late 
   description: Learn how to create a Power Automate button that tells your next appointment that you are running late.  
   ms.date: 03/03/2020 
   author: KevSch 

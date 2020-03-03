@@ -1,7 +1,7 @@
-In this exercise, you will build a flow, which is triggered by the Flic button, that looks up your next
+In this unit, you will build a flow, which is triggered by the Flic button, that looks up your next
 appointment and sends the attendees an email letting them know that you are running slightly late.
 
-1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true).
+1.  [Go to Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
 
 1.  Select **+ Create**, which is available on the left navigation pane.
 
@@ -73,5 +73,5 @@ appointment and sends the attendees an email letting them know that you are runn
 
 Congratulations, you have now successfully built a flow that triggers by use of a physical button. 
 To test the flow, you need to have the Flic app open on your phone and then select the Flic 
-button once. The flow will check to see if any meetings are currently happening or are  
+button once. The flow will check to see if any meetings are currently happening or are 
 pending between now and the next hour, and then it will send out a notification to all attendees.

@@ -1,6 +1,5 @@
 Power Automate physical buttons can make the process of running a
-button flow efficient with a click or double-click of a button on 
-a mobile device. 
+button flow efficient with a tap or click of a button on a mobile device. 
 
 This module used the Flic app and connector to demonstrate how you can automate 
 business processes so that a flow can perform tasks that provide information like 
