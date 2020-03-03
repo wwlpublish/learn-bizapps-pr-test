@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.manage-models-in-ai-builder.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 03/15/2020 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: d365-ai-builder 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: 1.	What is the purpose of training your model?
+    choices: 
+    - content: a.	It creates the model
+      isCorrect: false
+      explanation: Your model learns from the data you give it.
+    - content: b.	It makes it available for use
+      isCorrect: false 
+      explanation: Your model learns from the data you give it.
+    - content: c.	It learns from your data
+      isCorrect: true 
+      explanation: Your model learns from the data you give it.
+    - content: d.	It makes it stronger
+      isCorrect: false 
+      explanation: Your model learns from the data you give it.
+  - content: 2.	How many trained model versions can you have at one time?
+    choices: 
+    - content: a.	One
+      isCorrect: false
+      explanation: You can have two trained model versions at any given time.
+    - content: b.	Two
+      isCorrect: true
+      explanation: You can have two trained model versions at any given time.
+    - content: c.	Three
+      isCorrect: false
+      explanation: You can have two trained model versions at any given time.
+  - content: 3.	By default, who can see and use a model you have created?
+    choices: 
+    - content: a.	Just me
+      isCorrect: true
+      explanation: By default, you are the only person who can see and use a model you have created.
+    - content: b.	People in my environment
+      isCorrect: false 
+      explanation: By default, you are the only person who can see and use a model you have created.
+    - content: c.	People in my organization
+      isCorrect: false 
+      explanation: By default, you are the only person who can see and use a model you have created.
+    - content: d.	Everyone
+      isCorrect: false 
+      explanation: By default, you are the only person who can see and use a model you have created.
