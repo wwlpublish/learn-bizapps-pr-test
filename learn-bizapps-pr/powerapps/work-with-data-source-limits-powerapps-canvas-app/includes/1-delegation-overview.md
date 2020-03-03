@@ -31,7 +31,7 @@ example, Power Apps would return records for Robert Smith, Rob Jones, and
 Suzy Robinson.
 
 Because the **Search** function isn't delegable to the SharePoint data
-source, Power Apps has to processes the records locally, which means
+source, Power Apps has to process the records locally, which means
 first the records are sent from SharePoint to Power Apps. By default, the
 data source will only return the first 500 records. It is not the first
 500 records that match your formula, but the first 500 records in the

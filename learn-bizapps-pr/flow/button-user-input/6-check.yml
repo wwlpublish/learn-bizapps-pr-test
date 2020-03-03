@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.button-user-input.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 2/28/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following user input options is used for adding images to a flow?
+    choices: 
+    - content: File and Email
+      isCorrect: false
+      explanation: File is the user input option that is used for adding images.
+    - content: File
+      isCorrect: true
+      explanation: File is the user input option that is used for adding images.
+    - content: Email
+      isCorrect: false 
+      explanation: File is the user input option that is used for adding images.
+    - content: Image
+      isCorrect: false 
+      explanation: File is the user input option that is used for adding images.
+  - content: Which connector is used to get manager information?
+    choices: 
+    - content: Office 365 Users User Profile (V2)
+      isCorrect: false
+      explanation: The Office 365 Users Get Manager (V2) connector is used to get manager information.
+    - content: Office 365 Users User Properties (V2)
+      isCorrect: false 
+      explanation: The Office 365 Users Get Manager (V2) connector is used to get manager information.
+    - content: Office 365 Users Get Manager (V2)
+      isCorrect: true
+      explanation: The Office 365 Users Get Manager (V2) connector is used to get manager information.
+    - content: Get Manager
+      isCorrect: false 
+      explanation: The Office 365 Users Get Manager (V2) connector is used to get manager information.
+  - content: Which connector provides the full address?
+    choices: 
+    - content: Get User Profile (V2)
+      isCorrect: false
+      explanation: The Manually Trigger a flow connector provides the full address.
+    - content: Manually Trigger a flow
+      isCorrect: true
+      explanation: The Manually Trigger a flow connector provides the full address.
+    - content: SharePoint
+      isCorrect: false 
+      explanation: The Manually Trigger a flow connector provides the full address.
+    - content: Office 365 Users
+      isCorrect: false 
+      explanation: The Manually Trigger a flow connector provides the full address.
+  - content: How many actions and which action(s) are needed to attach an image to a new SharePoint item?
+    choices: 
+    - content: Two. Create the item first and then add the attachment.
+      isCorrect: true 
+      explanation: Two actions are needed to attach an image to a new SharePoint item. Create the item first and then add the attachment.
+    - content: One. Create the item.
+      isCorrect: false 
+      explanation: Two actions are needed to attach an image to a new SharePoint item. Create the item first and then add the attachment.
+    - content: One. Add the attachment.
+      isCorrect: false 
+      explanation: Two actions are needed to attach an image to a new SharePoint item. Create the item first and then add the attachment.
+    - content: Two. Add the attachment first and then create an item.
+      isCorrect: false 
+      explanation: Two actions are needed to attach an image to a new SharePoint item. Create the item first and then add the attachment.

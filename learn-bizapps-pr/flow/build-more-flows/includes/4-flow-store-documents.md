@@ -2,7 +2,7 @@ In this unit, you'll see how Contoso Flooring uses Power Automate to automatical
 
 ## Prerequisites
 
-For this scenario, you need an account with Muhimbi, a PDF conversion service. If you don't already have a Muhimbi account, you can sign up for a [free 30-day trial](http://www.muhimbi.com/Products/PDF-Converter-for-SharePoint/Products-PDF-Converter-for-SharePoint-Free-Trial.aspx).
+For this scenario, you need an account with Muhimbi, a PDF conversion service. If you don't already have a Muhimbi account, you can sign up for a [free 30-day trial](https://api.muhimbi.com/Auth/Pages/Signup.aspx).
 
 ## Create the source and target folders
 
@@ -27,7 +27,7 @@ First, you must create the source and target folders in OneDrive for Business an
 
     ![Muhimbi PDF – Convert document action](../media/muhimbi-action.png)
 
-1. If Power Automate prompts you to sign in to Muhimbi, sign in. If you don't have a subscription to Muhimbi, you can use a [free 30-day trial](http://www.muhimbi.com/Products/PDF-Converter-for-SharePoint/Products-PDF-Converter-for-SharePoint-Free-Trial.aspx).
+1. If Power Automate prompts you to sign in to Muhimbi, sign in. If you don't have a subscription to Muhimbi, you can use a [free 30-day trial](https://api.muhimbi.com/Auth/Pages/Signup.aspx).
 
 1. In the **Convert document** action, set the following values:
 
