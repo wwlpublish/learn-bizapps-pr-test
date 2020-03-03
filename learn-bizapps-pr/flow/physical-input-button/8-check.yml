@@ -15,18 +15,18 @@ quiz:
   questions: 
   - content: Which of the following are the click settings that are available in Flic that you can use when building a flow?
     choices: 
-    - content: Click
+    - content: click
       isCorrect: false
-      explanation: Click, Double-Click, and Hold are the three click settings in Flic. 
-    - content: Click, Double-Click, and Hold 
+      explanation: Click, double-click, and hold are the three click settings in Flic. 
+    - content: click, double-click, and hold 
       isCorrect: true
-      explanation: Click, Double-Click, and Hold are the three click settings in Flic. 
-    - content: Click and Double-Click
+      explanation: Click, double-click, and hold are the three click settings in Flic. 
+    - content: click and double-click
       isCorrect: false 
-      explanation: Click, Double-Click, and Hold are the three click settings in Flic. 
-    - content: Click, Double-Click, Triple-Click, and Hold. 
+      explanation: Click, double-click, and hold are the three click settings in Flic. 
+    - content: click, double-click, triple-click, and hold. 
       isCorrect: false 
-      explanation: Click, Double-Click, and Hold are the three click settings in Flic. 
+      explanation: Click, double-click, and hold are the three click settings in Flic. 
   - content: Which connector is used to get manager information?
     choices: 
     - content: Office 365 Users User Profile (V2)

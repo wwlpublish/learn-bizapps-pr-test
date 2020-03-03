@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.physical-input-button.5-onsite 
-title: Create a Power Automate button that lets your manager know that you are on site
+title: Create a Power Automate button to notify your manager
 metadata: 
-  title: Create a Power Automate button that lets your manager know that you are on site 
+  title: Create a Power Automate button to notify your manager 
   description: Learn how to create a Power Automate button that lets your manager know that you are on site.  
   ms.date: 03/03/2020 
   author: KevSch 
