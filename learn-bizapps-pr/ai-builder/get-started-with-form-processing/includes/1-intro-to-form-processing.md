@@ -30,7 +30,7 @@ high-quality as possible to avoid any issues in detecting text. Only
 documents with the same layout should be used.
 
 ![Example of detected fields in an invoice
-form](../media/image1.png){width="6.3in" height="3.0166666666666666in"}
+form](../media/image1.png)
 
 ### What you can do with form processing
 
