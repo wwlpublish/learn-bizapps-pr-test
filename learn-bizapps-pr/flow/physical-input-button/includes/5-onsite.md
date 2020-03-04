@@ -1,7 +1,7 @@
 You can build a flow, which is triggered by the Flic button, that lets your manager
 know that you are on site.
 
-1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true).
+1.  Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
 
 1.  Select **+ Create** on the left navigation pane.
 

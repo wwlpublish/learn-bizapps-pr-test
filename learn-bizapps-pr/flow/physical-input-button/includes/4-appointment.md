@@ -1,7 +1,7 @@
 In this unit, you will build a flow, which is triggered by the Flic button, that looks up your next
-appointment and sends the attendees an email letting them know that you are running slightly late.
+appointment and sends the attendees an email letting them know that you are running late.
 
-1.  [Go to Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
+1.  Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
 
 1.  Select **+ Create**, which is available on the left navigation pane.
 

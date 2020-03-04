@@ -1,5 +1,5 @@
 In this unit, you will install and configure the Flic.io app. Before you begin, you need to
-have your smart phone and the Flic button available. Though the steps in this exercise 
+have your smart phone and the Flic button available. Though the steps in this unit 
 are for installing on an iPhone, the procedure should be similar for Android phones. 
 
 1.  Go to the App Store.

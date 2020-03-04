@@ -1,12 +1,12 @@
 Add the Flic connector to Power Automate.
 
-1.  [Go to Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
+1.  Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
 
-1.  Select the settings icon that is available on the upper right of the website. Select **Connections** from the drop-down menu.
+1.  Select the **Data** icon on the left menu, and then select **Connections** from the drop-down menu.
 
-1.  On the upper left of the page, select **+ New connection**.
+1.  On the upper left corner of the page, select **+ New connection**.
 
-1.  On the upper right if the page, select the magnifying icon and enter **Flic** in the search box. You should now see **Flic (preview)**. Add this connection by selecting the **+** icon.
+1.  On the upper right if the page, select the **Search** icon and enter **Flic** in the search box. You should now see **Flic (preview)**. Add this connection by selecting the **+** icon.
 
 	![Add Flic connection](../media/add-flic-connection.jpg)
 
