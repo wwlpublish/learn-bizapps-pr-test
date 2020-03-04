@@ -146,7 +146,7 @@ and features:
 
     Power Apps and Power Automate may be discovered virally within an
     organization's tenant by clicking through the Office 365 portal.
-    Makers may be confused about whether they are allowed to use these
+    App makers may be confused about whether they are allowed to use these
     tools. 
     
     By detecting when a maker has created their first app or flow
