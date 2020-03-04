@@ -1,5 +1,5 @@
 In this exercise, we will create an environment specific DLP policy that
-targets Office 365 use cases. The driver behind this scenario is an
+applies to Office 365 use cases. The driver behind this scenario is an
 organization that wants to ensure that makers can build automation
 solutions for the Office 365 platform, using Power Automate.
 
@@ -26,7 +26,7 @@ prerequisites that were outlined at the beginning of this module.
 
 7.  Update the auto-generated **Data Policy Name** that starts with Policy by clicking it at the top of the screen and enter **Office 365 Connectors** and then click **Save Policy**.
 
-    ![save](../media/17-save.png)
+    ![save data policy](../media/17-save.png)
 
 8.  With our DLP policy in place, let's go ahead and create a flow that will validate that our DLP policy is working. To create this flow, go to the [Power Automate maker portal](https://flow.microsoft.com/?azure-portal=true).
 
@@ -36,7 +36,7 @@ prerequisites that were outlined at the beginning of this module.
 
 11. Click on the **Instant flow** link.
 
-    ![create](../media/18-create.png)
+    ![create flow](../media/18-create.png)
 
 12. Provide a **Flow name** of **Test DLP**, select **Manually trigger a flow** as your trigger and then click on the **Create** button.
 
@@ -56,12 +56,12 @@ prerequisites that were outlined at the beginning of this module.
 
 19. Click on the **Send an email (V2) action**.
 
-20. Provide values for **To:**, **Subject** and **Body** fields.
+20. Provide values for the **To:**, **Subject** and **Body** fields.
 
-	![actions](../media/20-actions.png)
+	![add an action](../media/20-actions.png)
 
-21. Click on the **Save** button to save our flow and as a result, the DLP enforcement job will run.
+21. Click on the **Save** button to save the flow, and as a result, the DLP enforcement job will run.
 
-22. We will now be presented with an error as a result of violating our DLP policy that we just created. As a result, our flow will now be disabled and it cannot be enabled while it conflicts with any DLP policies. In our specific example, it is disabled since we have included an **MSN Weather** connector in a flow that also contains an **Office 365 Outlook** connector. If we want this flow to be able to run, we can either add the **MSN Weather** connector to the **Business data only** data group in our Office 365 DLP policy that we previously created, or we can remove the **Office 365 Outlook** connector from the **Business data only** data group.
+22. We should get an error as a result of violating our DLP policy that we just created. As a result, our flow will be disabled and it cannot be enabled while it conflicts with any DLP policies. In our specific example, it is disabled since we have included an **MSN Weather** connector in a flow that also contains an **Office 365 Outlook** connector. If we want this flow to be able to run, we can either add the **MSN Weather** connector to the **Business data only** data group in our Office 365 DLP policy that we previously created, or we can remove the **Office 365 Outlook** connector from the **Business data only** data group.
 
 	![DLP](../media/21-dlp.png)
