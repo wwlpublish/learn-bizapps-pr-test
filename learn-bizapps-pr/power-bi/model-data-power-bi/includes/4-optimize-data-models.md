@@ -7,6 +7,9 @@ Tasks in this module include:
 **Video**: Optimize data models
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhh]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).
+
 ## Hide fields
 To hide a field in the Fields pane of Power BI Desktop, right-click the column and select **Hide**. Your hidden fields aren't deleted. If you've used a hidden field in existing visuals, the data is still there; the hidden field just isn't displayed on the Fields pane.
 
