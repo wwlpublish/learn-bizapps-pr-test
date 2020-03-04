@@ -1,5 +1,5 @@
 ### YamlMime:Module 
-uid: learn-bizapps.manage-models-in-ai-builder 
+uid: learn-bizapps.manage-models 
 metadata: 
  title: Manage models in AI Builder
  description: Learn how to manage models in AI Builder.
@@ -18,7 +18,7 @@ abstract: |
     - Explore how to share a model, including permissions. 
     - Get a better understanding of AI Builder.
 prerequisites: None
-iconUrl: /learn/achievements/manage-models-in-ai-builder.svg  
+iconUrl: /learn/achievements/manage-models.svg  
 levels:  
 - intermediate   
 roles:  
@@ -27,10 +27,10 @@ products:
 - dynamics  
 - ai-builder 
 units: 
-- learn-bizapps.manage-models-in-ai-builder.1-model-lifecycle 
-- learn-bizapps.manage-models-in-ai-builder.2-manage-model-versions 
-- learn-bizapps.manage-models-in-ai-builder.3-share-models 
-- learn-bizapps.manage-models-in-ai-builder.4-check 
-- learn-bizapps.manage-models-in-ai-builder.5-summary 
+- learn-bizapps.manage-models.1-model-lifecycle 
+- learn-bizapps.manage-models.2-manage-model-versions 
+- learn-bizapps.manage-models.3-share-models 
+- learn-bizapps.manage-models.4-check 
+- learn-bizapps.manage-models.5-summary 
 badge: 
-  uid: learn-bizapps.manage-models-in-ai-builder.badge 
+  uid: learn-bizapps.manage-models.badge 

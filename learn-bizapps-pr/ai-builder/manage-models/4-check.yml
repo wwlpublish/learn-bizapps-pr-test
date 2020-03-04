@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.manage-models-in-ai-builder.4-check 
+uid: learn-bizapps.manage-models.4-check 
 title: Check your knowledge 
 metadata: 
  title: Check your knowledge 
@@ -13,42 +13,42 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: 1.	What is the purpose of training your model?
+  - content: What is the purpose of training your model?
     choices: 
-    - content: a.	It creates the model
+    - content: It creates the model
       isCorrect: false
       explanation: Your model learns from the data you give it.
-    - content: b.	It makes it available for use
+    - content: It makes it available for use
       isCorrect: false 
       explanation: Your model learns from the data you give it.
-    - content: c.	It learns from your data
+    - content: It learns from your data
       isCorrect: true 
       explanation: Your model learns from the data you give it.
-    - content: d.	It makes it stronger
+    - content: It makes it stronger
       isCorrect: false 
       explanation: Your model learns from the data you give it.
-  - content: 2.	How many trained model versions can you have at one time?
+  - content: How many trained model versions can you have at one time?
     choices: 
-    - content: a.	One
+    - content: One
       isCorrect: false
       explanation: You can have two trained model versions at any given time.
-    - content: b.	Two
+    - content: Two
       isCorrect: true
       explanation: You can have two trained model versions at any given time.
-    - content: c.	Three
+    - content: Three
       isCorrect: false
       explanation: You can have two trained model versions at any given time.
-  - content: 3.	By default, who can see and use a model you have created?
+  - content: By default, who can see and use a model you have created?
     choices: 
-    - content: a.	Just me
+    - content: Just me
       isCorrect: true
       explanation: By default, you are the only person who can see and use a model you have created.
-    - content: b.	People in my environment
+    - content: People in my environment
       isCorrect: false 
       explanation: By default, you are the only person who can see and use a model you have created.
-    - content: c.	People in my organization
+    - content: People in my organization
       isCorrect: false 
       explanation: By default, you are the only person who can see and use a model you have created.
-    - content: d.	Everyone
+    - content: Everyone
       isCorrect: false 
       explanation: By default, you are the only person who can see and use a model you have created.
