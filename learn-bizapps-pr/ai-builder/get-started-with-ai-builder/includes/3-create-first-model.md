@@ -2,7 +2,7 @@ In this unit, you'll learn how to create a model in AI Builder.
 
 ### Select a model type
 
-Sign into Power Apps or Power Automate and select AI Builder \> Build in
+Sign into Power Apps or Power Automate and select **AI Builder > Build** in
 the left-side menu.
 
 There are two classes of model:
@@ -28,13 +28,13 @@ Select the tile for one of the following model types:
 -   Text Classification
 
 Make sure you have everything you need to create your model, as listed
-in the Get started pivot. You can also use [sample
+in the **Get started** tab. You can also use [sample
 data](https://docs.microsoft.com/ai-builder/samples) to create any
 of these models.
 
 Enter a name for your model where it says Name this AI model.
 
-Select Create.
+Select **Create**.
 
 ### Follow the guided experience
 
@@ -47,7 +47,7 @@ through the model creation process. As you progress from step to step,
 the left column will be updated to reflect your progress.
 
 At any time during the creation process, you can save your work and come
-back later. Just click Save and close in the top right corner, next to
+back later. Just click **Save and close** in the top right corner, next to
 the name of your model. Progress is also saved automatically when you
 navigate between steps.
 

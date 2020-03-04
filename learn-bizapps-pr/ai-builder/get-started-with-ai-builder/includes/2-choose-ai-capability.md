@@ -13,10 +13,10 @@ that are available.
 AI Builder comes with a wide variety of models to enhance your apps and
 business processes.
 
-Sign into Power Apps or Power Automate and select AI Builder \> Build in
+Sign into Power Apps or Power Automate and select **AI Builder > Build** in
 the left-side menu.
 
-![AI Builder and Power Apps](../media/image2.jpg){width="6.3in" height="3.725in"}
+![AI Builder and Power Apps](../media/image2.jpg)
 
 Each tile represents a different AI capability that you can bring to
 your business.
@@ -28,7 +28,7 @@ Select any tile.
 Each AI Builder model has an introductory experience where you can learn
 more about the model.
 
-![AI Builder Intro](../media/image3.jpg){width="6.3in" height="3.7305555555555556in"}
+![AI Builder Intro](../media/image3.jpg)
 
 For those models that require customization, there's a summary of the
 steps you need to take, as well as what you need to get started. There

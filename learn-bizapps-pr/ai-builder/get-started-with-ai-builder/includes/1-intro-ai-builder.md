@@ -53,7 +53,7 @@ For example, with AI Builder you can:
 
 -   Recognize and count things in images.
 
-![AI Builder dashboard](../media/image1.jpg){width="6.3in" height="3.5395833333333333in"}
+![AI Builder dashboard](../media/image1.jpg)
 
 A common use of AI Builder is to automate processes. The following
 examples can help you think about how you can use AI in your business:
@@ -79,13 +79,13 @@ examples can help you think about how you can use AI in your business:
 
 You can access AI Builder within both Power Apps and Power Automate.
 
-![AI Builder and Power Apps](../media/image2.jpg){width="6.3in" height="3.725in"}
+![AI Builder and Power Apps](../media/image2.jpg)
 
 There are two areas available under AI Builder in the left-side menu:
 
--   Build - where you create and get started using AI models.
+-   **Build** - where you create and get started using AI models.
 
--   Models - where your created and shared models reside.
+-   **Models** - where your created and shared models reside.
 
 ### What's next?
 
