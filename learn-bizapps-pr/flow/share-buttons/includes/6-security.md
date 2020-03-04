@@ -18,7 +18,7 @@ select **Flows using this connection** to see all flows that use that connector.
 
 ![](../media/flows-using-connection.jpg)
 
-The **Flow details** screen shows other important information such as the owner of
+The flow **Details** screen shows other important information such as the owner of
 the connection and when it was created and modified.
 
 ![flow connection details](../media/flow-connection-details.jpg)

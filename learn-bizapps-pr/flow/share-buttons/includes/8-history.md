@@ -5,7 +5,7 @@ from the Power Automate mobile app.
 The flow name and the button name are the same. To view the history from the Power Automate mobile app, follow these steps:
 
 1.  Sign in to your Power Automate mobile app and then select the **Buttons** 
-    icon on the lower horizontal menu. Note the button name of the  
+    icon on the lower horizontal menu. Note the button name of the 
     flow history that you want to view.
 
 2.  Select the Flows icon on the lower horizontal 
@@ -15,7 +15,7 @@ The flow name and the button name are the same. To view the history from the Pow
 
     ![flow run history](../media/flow-run-history.jpg)
 
-You can see all the flow runs, both successful and unsuccessful.
+    You can see all the flow runs, both successful and unsuccessful.
 
     ![flow run history](../media/flow-run-history2.jpg)
 

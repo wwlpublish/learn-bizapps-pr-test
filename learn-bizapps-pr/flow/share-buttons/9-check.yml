@@ -57,18 +57,18 @@ quiz:
       explanation: Run-only users will not have access to connectors outside the flow.
   - content: With whom can a flow button be shared?
     choices: 
-    - content: Users, security groups, and Office 365 groups
+    - content: Users, security groups, or Office 365 groups
       isCorrect: true 
-      explanation: A flow button can be shared with users, security groups, and Office 365 groups. 
+      explanation: A flow button can be shared with users, security groups, or Office 365 groups. 
     - content: Other users only
       isCorrect: false 
-      explanation: A flow button can be shared with users, security groups, and Office 365 groups. 
+      explanation: A flow button can be shared with users, security groups, or Office 365 groups. 
     - content: Office 365 groups only
       isCorrect: false 
-      explanation: A flow button can be shared with users, security groups, and Office 365 groups. 
+      explanation: A flow button can be shared with users, security groups, or Office 365 groups. 
     - content: Security groups only
       isCorrect: false 
-      explanation: A flow button can be shared with users, security groups, and Office 365 groups. 
+      explanation: A flow button can be shared with users, security groups, or Office 365 groups. 
   - content: Can a user remove a shared button flow?
     choices: 
     - content: A user can remove a shared button flow.
