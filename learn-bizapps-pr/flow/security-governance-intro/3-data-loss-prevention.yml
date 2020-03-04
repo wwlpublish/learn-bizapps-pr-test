@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.security-governance-intro.3-data-loss-prevention 
-title: Understand Data Loss Prevention (DLP) policies
+title: Data Loss Prevention policies
 metadata: 
-  title: Understand Data Loss Prevention (DLP) policies 
-  description: Learn about Data Loss Prevention policies.  
+  title: Data Loss Prevention policies 
+  description: Learn about Data Loss Prevention (DLP) policies.  
   ms.date: 3/09/2020 
   author: KevSch 
   ms.author: kschimke 
