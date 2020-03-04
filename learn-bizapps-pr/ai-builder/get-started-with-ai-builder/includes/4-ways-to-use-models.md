@@ -7,7 +7,7 @@ After your model has completed training, you can view important details
 about your newly trained model on a details page for that model. The
 information may vary depending on the model type.
 
-![Model details](../media/image4.jpg){width="6.3in" height="3.727777777777778in"}
+![Model details](../media/image4.jpg)
 
 Here you can see the customizations that you made to train your model.
 In some cases, it shows additional insights on the training performance.
@@ -15,7 +15,7 @@ Some model types even give you the opportunity to quick test your model
 to see it live in action.
 
 You can access this page at any time from the left-side menu. Just
-select AI Builder \> Models, and search for your model name.
+select **AI Builder > Models**, and search for your model name.
 
 ### Publish your model
 
@@ -42,14 +42,13 @@ This redirects you to the canvas app creation experience, with the AI
 Builder component already added to your canvas, and your model
 automatically linked to the component.
 
-![Publish your model](../media/image5.jpg){width="6.3in" height="3.727777777777778in"}
+![Publish your model](../media/image5.jpg)
 
 You can add AI Builder components to your existing apps at any time.
 Just click the Insert tab, and then select the component from the AI
 Builder menu.
 
-![AI Builder menu](../media/image6.jpg){width="3.646020341207349in"
-height="2.3265080927384076in"}
+![AI Builder menu](../media/image6.jpg)
 
 ### Use in a flow
 
@@ -59,7 +58,7 @@ your model type supports it.
 This redirects you to the flow template page in Power Automate. Confirm
 the connections, and then select Continue.
 
-![Shared models](../media/image7.jpg){width="6.3in" height="3.727777777777778in"}
+![Shared models](../media/image7.jpg)
 
 In the flow creation experience, you'll find the AI Builder action
 already added to your flow and your model automatically linked to the
