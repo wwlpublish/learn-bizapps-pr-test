@@ -1,0 +1,85 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.physical-input-button.8-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 03/03/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 10 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following are the click settings that are available in Flic that you can use when building a flow?
+    choices: 
+    - content: click
+      isCorrect: false
+      explanation: Click, double-click, and hold are the three click settings in Flic. 
+    - content: click, double-click, and hold 
+      isCorrect: true
+      explanation: Click, double-click, and hold are the three click settings in Flic. 
+    - content: click and double-click
+      isCorrect: false 
+      explanation: Click, double-click, and hold are the three click settings in Flic. 
+    - content: click, double-click, triple-click, and hold. 
+      isCorrect: false 
+      explanation: Click, double-click, and hold are the three click settings in Flic. 
+  - content: Which connector is used to get manager information?
+    choices: 
+    - content: Office 365 Users User Profile (V2)
+      isCorrect: false
+      explanation: Office 365 Users Get Manager (V2) is used to get manager information. 
+    - content: Office 365 Users User Properties (V2)
+      isCorrect: false 
+      explanation: Office 365 Users Get Manager (V2) is used to get manager information. 
+    - content: Office 365 Users Get Manager (V2)
+      isCorrect: true
+      explanation: Office 365 Users Get Manager (V2) is used to get manager information. 
+    - content: Get Manager
+      isCorrect: false 
+      explanation: Office 365 Users Get Manager (V2) is used to get manager information. 
+  - content: Does the Flic trigger provide the username or user's email address?
+    choices: 
+    - content: Yes. By default, any flow that is run has the user's email address.
+      isCorrect: false
+      explanation: No, the Flic trigger does not provide username or user email address information. You would use the Compose action to manually type the email address.
+    - content: Yes. Both Flic and Power Automate use the same authentication (in other words, username and password).
+      isCorrect: false 
+      explanation: No, the Flic trigger does not provide username or user email address information. You would use the Compose action to manually type the email address.
+    - content: No. You would use the Get manager (V2) action to get the username and user's email address information.
+      isCorrect: false 
+      explanation: No, the Flic trigger does not provide username or user email address information. You would use the Compose action to manually type the email address.
+    - content: No. You would use the Compose action to manually type the email address.
+      isCorrect: true
+      explanation: No, the Flic trigger does not provide username or user email address information. You would use the Compose action to manually type the email address.
+  - content: Can the Get calendar view of events action show all your events for a day?
+    choices: 
+    - content: Yes. It does, by default, show all your events for a day and no additional steps are needed.
+      isCorrect: false
+      explanation: Yes, the Get Calendar view of events action shows all events for a day, but you must add the Start Time and the End Time correctly.
+    - content: Yes. However, you must add the Start Time and the End Time correctly.
+      isCorrect: true
+      explanation: Yes, the Get Calendar view of events action shows all events for a day, but you must add the Start Time and the End Time correctly.
+    - content: No. It can only provide one event.
+      isCorrect: false 
+      explanation: Yes, the Get Calendar view of events action shows all events for a day, but you must add the Start Time and the End Time correctly.
+    - content: No. It can only provide events on an hourly basis.
+      isCorrect: false 
+      explanation: Yes, the Get Calendar view of events action shows all events for a day, but you must add the Start Time and the End Time correctly.
+  - content: Does Flic use your Office 365 username and password?
+    choices: 
+    - content: No. You will have to register with Flic first and create a username and password.
+      isCorrect: true 
+      explanation: No, Flic does not use your Office 365 username and password. You will have to register with Flic first and create a username and password.
+    - content: No. Flic does not need a username and password.
+      isCorrect: false 
+      explanation: No, Flic does not use your Office 365 username and password. You will have to register with Flic first and create a username and password.
+    - content: Yes. You do not need to register with Flic.
+      isCorrect: false 
+      explanation: No, Flic does not use your Office 365 username and password. You will have to register with Flic first and create a username and password.
+    - content: Yes. Your Office 365 account automatically synchronizes with Flic.
+      isCorrect: false 
+      explanation: No, Flic does not use your Office 365 username and password. You will have to register with Flic first and create a username and password.

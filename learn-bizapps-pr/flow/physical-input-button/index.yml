@@ -1,0 +1,45 @@
+### YamlMime:Module 
+uid: learn-bizapps.physical-input-button 
+metadata: 
+ title: Create a Power Automate button that uses a physical button input 
+ description: Do you want to build basic flows by using buttons as triggers? This module demonstrates how to configure a Flic button with its app on your smart phone and then how to trigger a flow by using that button.  
+ ms.date: 03/03/2020  
+ author: KevSch  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Create a Power Automate button that uses a physical button input  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+
+  Do you want to build basic flows by using buttons as triggers? This module demonstrates how to configure a Flic button with its app on your smart phone and then how to trigger a flow by using that button.  
+abstract: |  
+    In this module, you will: 
+    - Discover the possible uses of a physical button.
+    - Learn how to install and configure the Flic app.
+    - Use the flow trigger to connect to the Flic app.
+    - Create a flow button that tells your next appointment that you are running late.
+    - Create a flow button that lets your manager know that you are on site.
+prerequisites: A basic understanding of Microsoft Power Automate and how to create an event-driven flow. A smart phone with a Power Automate license and a Microsoft Power Automate app is required. To get the Power Automate app, go to the app store of your smart phone or tablet and search for Power Automate. A Shortcut Labs app called Flic app is required on your smart device. To get the Flic app, go to the app store of your smart phone or tablet and search for Flic. It is also beneficial if you have already taken the previous modules in this learning path. 
+iconUrl: /learn/achievements/physical-input-button.svg  
+levels:  
+- intermediate   
+roles:  
+- functional-consultant
+- maker
+- business-user  
+products:  
+- power-automate
+- power-platform 
+units: 
+- learn-bizapps.physical-input-button.1-introduction-uses 
+- learn-bizapps.physical-input-button.2-flic-app 
+- learn-bizapps.physical-input-button.3-trigger 
+- learn-bizapps.physical-input-button.4-appointment 
+- learn-bizapps.physical-input-button.5-onsite 
+- learn-bizapps.physical-input-button.6-sms-message 
+- learn-bizapps.physical-input-button.7-exercise 
+- learn-bizapps.physical-input-button.8-check 
+- learn-bizapps.physical-input-button.9-summary 
+badge: 
+  uid: learn-bizapps.physical-input-button.badge 
