@@ -26,12 +26,11 @@ creation process. You can save your work and return later at any time.
 Progress will be saved automatically when you navigate between steps.
 
 If you want to use sample data, select **Get sample documents**.
-Download the **AIBuilder\_Lab.zip** file and extract it inside a folder
+Download the **AIBuilder\Lab.zip** file and extract it inside a folder
 on your computer. The documents that are used in this exercise are
-located in the **AIBuilder\_Lab\\Lab
-Images\\FormProcessing\_Invoices\\Train** folder.
+located in the **AIBuilder\Lab\Lab Images\FormProcessing\Invoices\Train** folder.
 
-![Sample data documents](../media/image2.png){width="6.3in" height="3.725in"}
+![Sample data documents](../media/image2.png)
 
 1.  Select **Add documents**.
 
@@ -51,7 +50,7 @@ By using the sample documents that you have uploaded, your model will
 begin to analyze the document layout to detect all the various form
 fields. This process might take a few minutes to complete.
 
-![Select form fields](../media/image3.png){width="6.3in" height="3.727777777777778in"}
+![Select form fields](../media/image3.png)
 
 When the analysis has finished, select the thumbnail to open the field
 selection experience.

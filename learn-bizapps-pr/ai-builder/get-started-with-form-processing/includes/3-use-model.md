@@ -6,13 +6,13 @@ Automate.
 After your model has completed training, you can view important details
 about your newly trained model on a details page.
 
-![Trained model details page](../media/image4.png){width="6.3in" height="3.7222222222222223in"}
+![Trained model details page](../media/image4.png)
 
 To quickly see your model in action, select **Quick test**.
 
 Drag and drop or upload an image from your device to test. If you are
-using sample data, you can go to the **AIBuilder\_Lab\\Lab
-Images\\FormProcessing\_Invoices\\Test** folder for a test image.
+using sample data, you can go to the **AIBuilder\Lab\Lab
+Images\FormProcessing\Invoices\Test** folder for a test image.
 
 You will now be able to view the detected fields that you chose and the
 associated confidence scores for retrieving the individual fields
@@ -30,7 +30,7 @@ in a canvas app. A special component is available for you to add that
 analyzes any image and extracts the text based on your trained form
 processing model.
 
-![Use your model in Power Apps](../media/image5.png){width="6.3in" height="3.725in"}
+![Use your model in Power Apps](../media/image5.png)
 
 1.  Select **Use model**.
 
@@ -40,7 +40,7 @@ processing model.
 3.  Within your canvas app, a form processor component is automatically
     added and linked to your published form processing model.\
     \
-    Going forward, you can select **Insert \> AI Builder** to view the
+    Going forward, you can select **Insert > AI Builder** to view the
     list of AI Builder components and then select **Form processor** to
     add a form processor component. You will need to ensure that you
     select the correct model. Only published models will appear in the
@@ -57,7 +57,7 @@ processing model.
     content, select one of the names from the **FormContent \> Tables**
     property.
 
-![Select Fields or Tables property](../media/image6.png){width="6.3in" height="0.27152777777777776in"}
+![Select Fields or Tables property](../media/image6.png)
 
 7.  Select **Play** on the upper right of the Power Apps studio to
     preview the app.
@@ -74,14 +74,13 @@ After your form processing model is published, you can also use it in a
 flow. You can use the **Predict** action to take advantage of the
 results of your model.
 
-![Use your model in Power Automate](../media/image7.png){width="6.3in" height="3.7222222222222223in"}
+![Use your model in Power Automate](../media/image7.png)
 
 1.  In Power Automate, on the left menu, select **Templates**.
 
 2.  In the search bar, search for "ai builder form processing."
 
-3.  Select **Click a button to read and save information from documents
-    using AI Builder**.
+3.  Select **Click a button to read and save information from documents using AI Builder**.
 
 4.  Under the **Predict** action, select your published model next to
     **Model**. The **Document type** and **Document** fields will
