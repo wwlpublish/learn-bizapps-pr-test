@@ -15,43 +15,43 @@ quiz:
   questions: 
   - content: Who has access to the Power Apps and Power Automate default environment?
     choices: 
-    - content: Only users that have been manually added by an Environment Administrator.
+    - content: Only users that have been manually added by an environment administrator
       isCorrect: false
-      explanation: Administrators cannot restrict who has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean the admins no longer will have any visibility or control of those resources.
-    - content: Only users that have been manually added by a Tenant Administrator.
+      explanation: Administrators cannot restrict who has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
+    - content: Only users that have been manually added by a tenant administrator
       isCorrect: false 
-      explanation: Administrators cannot restrict who has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean the admins no longer will have any visibility or control of those resources.
-    - content: Every user within the tenant.
+      explanation: Administrators cannot restrict who has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
+    - content: Every user within the tenant
       isCorrect: true
-      explanation: Administrators cannot restrict who has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean the admins no longer will have any visibility or control of those resources.
-    - content: Every user within the tenant who has Power Apps Per app plan.
+      explanation: Administrators cannot restrict who has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
+    - content: Every user within the tenant who has Power Apps according to the app plan
       isCorrect: false 
-      explanation: Administrators cannot restrict who has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean the admins no longer will have any visibility or control of those resources.
+      explanation: Administrators cannot restrict who has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
   - content: When modifying a Data Loss Prevention (DLP) policy, how can an administrator know if they are about to break an existing app?
     choices: 
     - content: The new Power Platform Admin portal provides an experience that will automatically detect if a pending change to a DLP policy will break existing apps.
       isCorrect: false
-      explanation: Breaking an existing app, due to a new DLP policy change will create a bad experience for app makers and users. However, using the DLP Strategy app can mitigate these issues by detecting changes before they are made. An experience also exists that allows the administrator to send an email within the app.
+      explanation: Breaking an existing app due to a new DLP policy change will create a negative experience for app makers and users. However, using the DLP Strategy app can mitigate these issues by detecting changes before they are made. An experience also exists that allows the administrator to send an email within the app.
     - content: The DLP Strategy app, found within the Center of Excellence Starter Kit, includes functionality that will detect if a pending change to a DLP policy will break existing apps.
       isCorrect: true
-      explanation: Breaking an existing app, due to a new DLP policy change will create a bad experience for app makers and users. However, using the DLP Strategy app can mitigate these issues by detecting changes before they are made. An experience also exists that allows the administrator to send an email within the app.
+      explanation: Breaking an existing app due to a new DLP policy change will create a negative experience for app makers and users. However, using the DLP Strategy app can mitigate these issues by detecting changes before they are made. An experience also exists that allows the administrator to send an email within the app.
     - content: The Power Platform management connectors will automatically detect these breaking changes and notify the administrator.
       isCorrect: false 
-      explanation: Breaking an existing app, due to a new DLP policy change will create a bad experience for app makers and users. However, using the DLP Strategy app can mitigate these issues by detecting changes before they are made. An experience also exists that allows the administrator to send an email within the app.
+      explanation: Breaking an existing app due to a new DLP policy change will create a negative experience for app makers and users. However, using the DLP Strategy app can mitigate these issues by detecting changes before they are made. An experience also exists that allows the administrator to send an email within the app.
     - content: There is no way to automatically detect whether a pending DLP policy change will impact existing apps.
       isCorrect: false 
-      explanation: Breaking an existing app, due to a new DLP policy change will create a bad experience for app makers and users. However, using the DLP Strategy app can mitigate these issues by detecting changes before they are made. An experience also exists that allows the administrator to send an email within the app.
+      explanation: Breaking an existing app due to a new DLP policy change will create a negative experience for app makers and users. However, using the DLP Strategy app can mitigate these issues by detecting changes before they are made. An experience also exists that allows the administrator to send an email within the app.
   - content: Within Data Loss Prevention (DLP) policies, what is the behavior of the default data group?
     choices: 
-    - content: All new connectors that are introduced to an environment are placed here.
+    - content: All new connectors that are introduced to an environment are placed in the default data group.
       isCorrect: true 
-      explanation: Default data groups are important to understand as all new connectors will be placed into this data group when they are added to an environment. This may mean that a connector that would ordinarily be deemed suitable for business purposes is sitting with non-business data connectors and could inadvertently leak data to a non-sanctioned application or service.
+      explanation: Default data groups are important to understand because all new connectors will be placed into this data group when they are added to an environment. This approach might mean that a connector that would ordinarily be deemed suitable for business purposes is positioned with non-business data connectors and could inadvertently leak data to a non-sanctioned application or service.
     - content: Only new custom connectors are placed within the default data group when new custom connectors are added to an environment.
       isCorrect: false 
-      explanation: Default data groups are important to understand as all new connectors will be placed into this data group when they are added to an environment. This may mean that a connector that would ordinarily be deemed suitable for business purposes is sitting with non-business data connectors and could inadvertently leak data to a non-sanctioned application or service.
+      explanation: Default data groups are important to understand because all new connectors will be placed into this data group when they are added to an environment. This approach might mean that a connector that would ordinarily be deemed suitable for business purposes is positioned with non-business data connectors and could inadvertently leak data to a non-sanctioned application or service.
     - content: Only new Microsoft connectors are placed within this data group when new Microsoft connectors are added to an environment.
       isCorrect: false 
-      explanation: Default data groups are important to understand as all new connectors will be placed into this data group when they are added to an environment. This may mean that a connector that would ordinarily be deemed suitable for business purposes is sitting with non-business data connectors and could inadvertently leak data to a non-sanctioned application or service.
+      explanation: Default data groups are important to understand because all new connectors will be placed into this data group when they are added to an environment. This approach might mean that a connector that would ordinarily be deemed suitable for business purposes is positioned with non-business data connectors and could inadvertently leak data to a non-sanctioned application or service.
     - content: The default data group is only a guideline where new connectors should be placed when they are added to an environment.
       isCorrect: false 
-      explanation: Default data groups are important to understand as all new connectors will be placed into this data group when they are added to an environment. This may mean that a connector that would ordinarily be deemed suitable for business purposes is sitting with non-business data connectors and could inadvertently leak data to a non-sanctioned application or service.
+      explanation: Default data groups are important to understand because all new connectors will be placed into this data group when they are added to an environment. This approach might mean that a connector that would ordinarily be deemed suitable for business purposes is positioned with non-business data connectors and could inadvertently leak data to a non-sanctioned application or service.
