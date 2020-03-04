@@ -7,23 +7,30 @@ Power Platform that isn't aligned to a broader cyber security risk
 assessment.
 
 Otherwise, here are some considerations that can be used to establish a
-lightweight risk assessment process that helps you track, measure and
+lightweight risk assessment process that helps you track, measure, and
 monitor the risks within your organization.
 
 ### Establish baseline through standards
 
-Clearly identify and articulate standards. If you want makers to comply with the expectations of the organization, then you need to identify what acceptable behaviors/actions/activities are. If people are not aware that these standards exist, they can't proactively comply with them. These standards should be made visible within an organization, through an intranet site or wiki. In addition, this information can be communicated through automation when a user creates their first flow, or app. We will further discuss this strategy later in this module.
+Clearly identify and articulate standards. If you want makers to comply 
+with the expectations of the organization, then you need to identify what 
+acceptable behaviors/actions/activities are. If people are not aware that 
+these standards exist, they can't proactively comply with them. These 
+standards should be made visible within an organization, through an intranet 
+site or wiki. In addition, this information can be communicated through 
+automation when a user creates their first flow, or app. We will further 
+discuss this strategy later in this module.
 
 ### Implement governance controls to prevent unwanted actions
 
 Much like speed limits, governance is only useful if it is enforced.
-An organization needs to put in base rules/constraints in order to
+An organization needs to put in base rules and constraints in order to
 avoid data leakage.
 
 ### Establish an exception process
 
 There are bound to be situations where there is a legitimate
-business need for a specific action/activity to be permitted.
+business need for a specific action or activity to be permitted.
 However, it is important that the decision to proceed is captured
 with the right level of visibility by people who have the authority
 to make that decision.
@@ -37,7 +44,8 @@ address risk and then reviewing risks regularly, an organization can
 truly manage their risks and seek continuous improvement.
 
 Some organizations have used the Power Platform to enable this
-process. As we saw in Module 1, the Center of Excellence Starter Kit
+process. As we saw in the Introduction to Power Automate security 
+and governance module, the Center of Excellence Starter Kit
 includes the Developer Compliance Center that helps organizations
 manage the deployment of new applications and seeks the makers of
 these apps to justify the need for apps to exist.

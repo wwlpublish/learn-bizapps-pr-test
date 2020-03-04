@@ -3,7 +3,7 @@ uid: learn-bizapps.plan-manage-environment
 metadata: 
  title: Plan and manage your Power Automate environment
  description: Every organization has unique requirements based upon their size, location, data residency requirements, and appetite for democratized access to tools like Power Apps and Power Automate. In this module, we will discuss considerations that impact how an organization chooses to secure and govern their Power Platform environments.
- ms.date: 2/29/2020  
+ ms.date: 3/12/2020  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
@@ -24,10 +24,13 @@ iconUrl: /learn/achievements/plan-manage-environment.svg
 levels:  
 - intermediate   
 roles:  
-- business-user   
-- functional-consultant 
+- administrator
+- functional-consultant
+- business-user
 products:  
-- power-automate 
+- power-automate
+- power-platform
+- powerapps 
 units: 
 - learn-bizapps.plan-manage-environment.1-introduction 
 - learn-bizapps.plan-manage-environment.2-prerequisites 

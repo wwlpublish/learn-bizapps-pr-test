@@ -1,27 +1,28 @@
 Environment design is highly dependent upon organizational design.
 Considerations include size, locations, regulatory environment, and
-appetite for adoption. While environment design is organization-dependent, the following recommendations will aid you in designing the
+appetite for adoption. While environment design is organization-dependent, 
+the following recommendations will aid you in designing the
 right landscape for your organization.
 
 > [!NOTE]
-> In Module 1, we discussed the default environment. If you
-recall, every user within the tenant will automatically have access to
-this environment. Since there is no way to remove access to this
-environment, it is a common pattern to rename this environment to be
-called Personal Productivity to imply this environment is a general use
-environment. Administrators should also be aware of the location of this
-environment to ensure there are no issues from a data privacy
-perspective.
+> In the Introduction to Power Automate security and governance module, 
+we discussed the default environment. If you recall, every user within 
+the tenant will automatically have access to this environment. Since there 
+is no way to remove access to this environment, it is a common pattern to 
+rename this environment to be called Personal Productivity to imply this 
+environment is a general use environment. Administrators should also be 
+aware of the location of this environment to ensure there are no issues 
+from a data privacy perspective.
 
 Another important consideration is the aspect of centralization. For
 examples, does your organization have a centralized IT function? Are
-they responsible for the administration and governance of Power Platform
+they responsible for the administration and governance of the Power Platform
 environment? Or, does your organization have a decentralized
 organization where some aspects of technology are managed outside of an
 IT department? There are also important considerations when establishing
 environment design.
 
-### Sample configurations
+## Sample configurations
 
 The following sections outline sample configurations that may be used
 based upon your organization's design and goals.
@@ -113,7 +114,7 @@ a central authority.
 
 ![multi-region decentralized](../media/4-multi-region-decentralized.png)
 
-### Managing exceptions
+## Managing exceptions
 
 In the previous four examples, we illustrated configurations that
 organizations may choose to implement that address productivity and
@@ -143,9 +144,9 @@ the Twitter connector for a certain group of people, which can be
 managed in a security group. Alternatively, an approval can be included
 in the flow logic where an administrator can approve enabling the
 maker's flow. Should the administrator choose to reject the request,
-they can use the Disable Flow as Admin action that is part of the Flow
+they can use the **Disable Flow as Admin action** that is part of the Flow
 management connector and it will prevent the flow from running. The
 administrator can include additional automation including notifying the
 flow maker, via email, indicating this action is not permitted in the
 environment. For a detailed walkthrough of a similar governance
-scenario, please refer to the [Automating Microsoft Flow Governance blog post](https://flow.microsoft.com/blog/automate-flow-governance/?azure-portal=true).
+scenario, please refer to the [Automating Microsoft Power Automate Governance blog post](https://flow.microsoft.com/blog/automate-flow-governance/?azure-portal=true).

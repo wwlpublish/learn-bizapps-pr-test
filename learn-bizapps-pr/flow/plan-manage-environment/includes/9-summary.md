@@ -1,5 +1,6 @@
 In this module we discussed many important governance tools and
 processes that organizations can leverage to secure their environment.
+
 The first area we discussed was establishing risk assessments and
 mitigation paths. It is important to establish baselines and develop a
 methodology to measure your current state against your baseline. If your

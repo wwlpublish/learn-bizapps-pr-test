@@ -4,12 +4,12 @@ title: Introduction
 metadata: 
   title: Introduction 
   description: Introduction to planning and managing your Power Automate environment.  
-  ms.date: 2/29/2020 
+  ms.date: 3/12/2020 
   author: KevSch 
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 1 
+durationInMinutes: 3 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/1-introduction.md)] 
