@@ -1,4 +1,4 @@
-In this exercise we will create an environment specific DLP policy that
+In this exercise, we will create an environment specific DLP policy that
 targets Office 365 use cases. The driver behind this scenario is an
 organization that wants to ensure that makers can build automation
 solutions for the Office 365 platform, using Power Automate.

@@ -29,7 +29,8 @@ roles:
 - business-user
 products:  
 - power-automate
-- power-platform 
+- power-platform
+- powerapps 
 units: 
 - learn-bizapps.plan-manage-environment.1-introduction 
 - learn-bizapps.plan-manage-environment.2-prerequisites 
