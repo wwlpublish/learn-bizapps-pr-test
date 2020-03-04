@@ -27,9 +27,9 @@ products:
 - dynamics  
 - ai-builder 
 units: 
-- learn-bizapps.manage-models.1-model-lifecycle 
-- learn-bizapps.manage-models.2-manage-model-versions 
-- learn-bizapps.manage-models.3-share-models 
+- learn-bizapps.manage-models.1-lifecycle 
+- learn-bizapps.manage-models.2-manage-versions 
+- learn-bizapps.manage-models.3-share 
 - learn-bizapps.manage-models.4-check 
 - learn-bizapps.manage-models.5-summary 
 badge: 

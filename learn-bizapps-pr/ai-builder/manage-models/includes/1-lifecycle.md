@@ -7,7 +7,7 @@ each of those stages.
 ### Create your model
 
 As we learned in the first module, you can find all the AI Builder model
-types and capabilities on the Build page, which you can access from the
+types and capabilities on the **Build** page, which you can access from the
 left-side menu. This is where you start to create a new custom AI model,
 or select a prebuilt model that you can use right away.
 
