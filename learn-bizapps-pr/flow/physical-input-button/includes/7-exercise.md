@@ -2,7 +2,7 @@ Occasionally, you have to deal with last-minute meetings. In that situation, it 
 have the ability to quickly show your calendar as busy. This exercise will walk through the steps of 
 using the Flic button to block your Outlook calendar for an hour.
 
-1.  [Go to Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
+1.  Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
 
 1.  Select **+ Create** from the left navigation pane.
 
