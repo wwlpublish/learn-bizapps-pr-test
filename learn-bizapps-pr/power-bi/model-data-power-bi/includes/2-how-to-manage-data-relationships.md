@@ -6,6 +6,9 @@ Tasks in this unit include:
 **Video**: Manage data relationships
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhg]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).
+
 In the Model view, notice that a block represents each table and its columns and that lines between them represent relationships.
 
 ![Screenshot of the Model view.](../media/02-power-bi-desktop-model-view.png)
@@ -25,10 +28,10 @@ For a more detailed view of your data relationships, on the **Home** tab, select
 Your options for Cardinality are explained in the following table.
 
 
-| Cardinality options 	|  Example                             	|
-|-------------------	|------	|-----------------------------------	|
-| *Many to One* 	| The most common default relationship. The column in one table can have more than one instance of a value. The related table (or lookup table) has only one instance of a value.	|
-| *One to One* 	| The column in one table has only one instance of a particular value, and the other related table has only one instance of a particular value. 	|
+| Cardinality options     |  Example                                 |
+|-------------------    |------    |-----------------------------------    |
+| *Many to One*     | The most common default relationship. The column in one table can have more than one instance of a value. The related table (or lookup table) has only one instance of a value.    |
+| *One to One*     | The column in one table has only one instance of a particular value, and the other related table has only one instance of a particular value.     |
 
 By default, you will set relationships to cross-filter in both directions. Cross-filtering in just one direction limits some of the modeling capabilities in a relationship.
 
