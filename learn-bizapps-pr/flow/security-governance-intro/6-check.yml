@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Only users that have been manually added by an environment administrator
       isCorrect: false
-      explanation: Administrators cannot restrict whom has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
+      explanation: Administrators cannot restrict access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
     - content: Only users that have been manually added by a tenant administrator
       isCorrect: false 
-      explanation: Administrators cannot restrict whom has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
+      explanation: Administrators cannot restrict access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
     - content: Every user within the tenant
       isCorrect: true
-      explanation: Administrators cannot restrict whom has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
+      explanation: Administrators cannot restrict access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
     - content: Every user within the tenant who has Power Apps according to the app plan
       isCorrect: false 
-      explanation: Administrators cannot restrict whom has access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
+      explanation: Administrators cannot restrict access to the default environment. Otherwise, users are likely to create resources outside of the visibility of administrators, which will mean that admins will no longer have any visibility or control of those resources.
   - content: When modifying a Data Loss Prevention (DLP) policy, how can an administrator know if they are about to break an existing app?
     choices: 
     - content: The new Power Platform Admin portal provides an experience that will automatically detect if a pending change to a DLP policy will break existing apps.
