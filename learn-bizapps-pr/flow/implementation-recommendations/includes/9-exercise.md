@@ -13,7 +13,7 @@ need a custom connector for the purposes of DLP policy management.
 
 The steps to install the Custom connector are as follows:
 
-1.  Go to the [Microsoft Power Platform Github repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true) in a web browser.
+1.  Go to the [Microsoft Power Platform GitHub repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true) in a web browser.
 
 2.  Click on the **Clone or download** button, followed by clicking on the **Download ZIP** link. Make a note of where you save this zip file.
 
