@@ -1,4 +1,4 @@
-In this exercise, we are going to manage a Custom connector in a DLP
+In this exercise, we will manage a Custom connector in a DLP
 policy. To manage a Custom connector, we need to ensure that we have one
 in our environment, so the first part of this exercise will be
 publishing a Custom connector from GitHub. Once we have that connector
@@ -13,7 +13,7 @@ need a custom connector for the purposes of DLP policy management.
 
 The steps to install the Custom connector are as follows:
 
-1.  Navigate to Microsoft's [Power Platform Github repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true) in a web browser.
+1.  Go to Microsoft's [Power Platform Github repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true) in a web browser.
 
 2.  Click on the **Clone or download** button, followed by clicking on the **Download ZIP** link. Make a note of where you save this zip file.
 
@@ -29,9 +29,9 @@ The steps to install the Custom connector are as follows:
 
 7.  Make a note of the location of the **apiDefinition.swagger.json** file. We will need this file when we go to create our Custom connector in subsequent steps.
 
-8.  Navigate to the [Power Automate maker portal](https://flow.microsoft.com/?azure-portal=true) in a web browser and log in.
+8.  Go to the [Power Automate maker portal](https://flow.microsoft.com/?azure-portal=true) in a web browser and log in.
 
-9.  From the environment picker, select the environment that we created in Module 1. If you recall, we created an environment called **Development**. By selecting this environment, our Custom connector will only be deployed in this environment and will not be available in your default environment.
+9.  From the environment picker, select the environment that we created in the first module of this learning path. If you recall, we created an environment called **Development**. By selecting this environment, our Custom connector will only be deployed in this environment and will not be available in your default environment.
 
 10. Within the left navigation, expand **Data** and then click on **Custom connectors**.
 
@@ -55,7 +55,7 @@ The steps to install the Custom connector are as follows:
 
     ![custom connectors](../media/11-custom-connectors.png)
 
-18. We have now completed publishing our Custom connector. In the next section, we will manage this Custom connector in a DLP policy.
+18. We have now completed publishing our Custom connector. In the next exercise, we will manage this Custom connector in a DLP policy.
 
 ### Manage custom connector in a DLP policy
 
@@ -88,11 +88,12 @@ Custom connector. These steps are also covered in the following section.
 	> [!NOTE]
 	> You will be prompted for credentials at this point. Please ensure the credentials that you are using have Environment or Tenant Administrator permissions.
 
-5.  A list of DLP policies will be displayed. Look for the DLP policy that we created in **Module 2** called **Office 365 Connectors**. When you find it, please copy the **PolicyName,** which is represented as a GUID, to a text editor like Notepad.
+5.  A list of DLP policies will be displayed. Look for the DLP policy that we created in the previous module called **Office 365 Connectors**. When you find it, copy the **PolicyName,** which is represented as a GUID, to a text editor like Notepad.
 
     ![get DLP](../media/13-get-dlp.png)
 
-6.  We now need to retrieve more details about our Custom connector. To do so, we need to type **Get-AdminPowerAppConnector** in the **Windows PowerShell** command-line tool. Once results are returned copy the **ConnectorName** and **ConnectorId** values to a text editor.
+6.  We now need to retrieve more details about our Custom connector. To do so, we need to type **Get-AdminPowerAppConnector** in the **Windows PowerShell** command-line tool. Once results are 
+returned copy the **ConnectorName** and **ConnectorId** values to a text editor.
 
     ![get connector](../media/14-get-connector.png)
 
@@ -102,7 +103,7 @@ Custom connector. These steps are also covered in the following section.
 
 9.  Provide the **ConnectorName** value that you copied in step 6.
 
-10. Provide the **GroupName** of **hbi** to put it into the **Business data only** data group. Provide **lbi** if you would rather put the Custom connector **No business data allowed** data group.
+10. Provide the **GroupName** of **hbi** to put it into the **Business data only** data group. Use **lbi** if you would rather put the Custom connector in the **No business data allowed** data group.
 
 11. Now provide the **ConnectorId** which we also copied in step 6.
 
@@ -112,7 +113,7 @@ Custom connector. These steps are also covered in the following section.
 
     ![add connector](../media/15-add-connector.png)
 
-14. Let's now validate that our custom connector can be managed through DLP policies by navigating to the [Power Automate Admin center](https://admin.flow.microsoft.com/apiPolicies/?azure-portal=true) and explore our **Office 365 Connectors** DLP policy to ensure that our Custom connector appears in our **Business data only** data group. We can now manage this Custom connector, much like any other connector.
+14. Let's validate that our custom connector can be managed through DLP policies by navigating to the [Power Automate Admin center](https://admin.flow.microsoft.com/apiPolicies/?azure-portal=true) and explore our **Office 365 Connectors** DLP policy to ensure that our Custom connector appears in our **Business data only** data group. We can now manage this Custom connector, much like any other connector.
 
 	![validate](../media/16-validate.png)
 

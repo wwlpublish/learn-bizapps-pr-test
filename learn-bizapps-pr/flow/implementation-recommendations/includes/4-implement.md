@@ -1,12 +1,12 @@
-We completed Module 2 with a hands-on exercise that focused on building
-a DLP policy that supported Office 365 use cases. In this section, we
-will further explain that DLP policy and also discuss some additional
-considerations.
+In the Plan and manage your Power Automate environment module, we 
+completed a hands-on exercise that focused on building a DLP policy 
+that supported Office 365 use cases. In this unit, we will further 
+explain that DLP policy and also discuss some additional considerations.
 
 ![Office 365](../media/3-office-365.png)
 
 In this DLP policy we included many popular Office 365 connectors
-including
+including the following:
 
 | Connector Name          | Purpose                                                                                                                                                           |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -25,10 +25,12 @@ including
 While the connectors that we just discussed represent connectors related
 to Office 365 services, there are some other connectors that
 administrators should consider including, even though they are not
-related to Office 365. In some circumstances the following connectors
-may be useful for general purposes, like Approvals and Content
-Conversion, while others are available to help protect the organization
-through the automation of cyber security processes.
+related to Office 365. 
+
+In some circumstances the following connectors may be useful for general 
+purposes, like Approvals and Content Conversion, while others are available 
+to help protect the organization through the automation of cyber security 
+processes.
 
  | Connector Name             | Purpose                                                                                                                                                                                                                                                                                                                | Audience                      |
 |----------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------|
@@ -46,9 +48,9 @@ through the automation of cyber security processes.
 | Microsoft Graph Security   | For organizations that are using Microsoft Graph Security, they can automate their security workflows by creating subscriptions, subscribing to alerts and more.                                                                                                                                                       | Cyber Security Analyst        |
 | Microsoft Defender ATP     | Microsoft Defender ATP provides endpoint protection against malware and other malicious activities. Using the Microsoft Defender ATP, Cyber Security Analysts can automate actions such as isolating machines, perform investigation actions, removing application permissions, running antivirus scans and much more. | Cyber Security Analyst        |
 
-You might be asking why Power Platform and security related connectors
+You might ask why Power Platform and security related connectors
 have been included in this list? The rationale is that automating
-workloads shouldn't be restricted to makers. Administrators and Cyber
+workloads shouldn't be restricted to app makers. Administrators and Cyber
 Security Analysts also have increasing demands on their time and they
 should be as efficient as possible.
 
@@ -56,8 +58,9 @@ When it comes to Cyber Security, you can no longer rely solely on
 analysts querying logs around the clock. By taking advantage of triggers
 for theses security services, alerts and notifications can be sent to
 these teams where they can subsequently respond to emerging threats, in
-near real time. Also, for some organizations, getting buy-in from
-security teams, to use the Power Platform, may be challenging. However,
-once Cyber Security Analysts see the benefits, by solving their own
-needs, they tend to be more open to extending its use to other areas of
-the organization.
+near or real time. 
+
+For some organizations, getting buy-in from security teams, to use the 
+Power Platform may be challenging. However, once Cyber Security Analysts 
+see the benefits, that could solve their own needs, they generally are more 
+open to extending its use to other areas of the organization.

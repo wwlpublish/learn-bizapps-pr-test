@@ -5,8 +5,8 @@ users.
 
 | Connector Name                            | Purpose                                                                                                                                                                                                                                                                                                                                                            |
 |-------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Common Data Service (CDS)                 | The Common Data Service connector provides underlying platform access to Dynamics 365 data that is stored in CDS entities. This connector is the older of the two CDS connectors and should be used in the areas of personal automation.                                                                                                                           |
-| Common Data Service (current environment) | This connector can dynamically infer the environment that it is in. It also has some CDS Solution specific capabilities like calling AI Builder predict actions. Using this connector also simplifies deployment scenarios as the CDS environment does not need to be reset every time a flow/app is deployed.                                                     |
+| Common Data Service (CDS)                 | The Common Data Service connector provides underlying platform access to Dynamics 365 data that is stored in Common Data Service entities. This connector is the older of the two CDS connectors and should be used in the areas of personal automation.                                                                                                                           |
+| Common Data Service (current environment) | This connector can dynamically infer the environment that it is in. It also has some Common Data Service Solution specific capabilities like calling AI Builder predict actions. Using this connector also simplifies deployment scenarios as the Common Data Service environment does not need to be reset every time a flow/app is deployed.                                                     |
 | Dynamics 365                              | This connector has been deprecated in favor of the Common Data Service connectors. However, by not including it in the Business data only data group, it means that other users could use this connector to send data to No Business data allowed connectors. With this in mind, it is best to include this in your DLP policy, but it is not recommended for use. |
 | Approvals                                 | This connector is used to facilitate approvals in Power Automate. It is technically a connector so it needs to be considered when implementing DLP policies.                                                                                                                                                                                                       |
 | DocuSign*                                 | This connector is used in conjunction with the DocuSign SaaS service that supports obtaining and tracking digital signatures.                                                                                                                                                                                                                                      |
@@ -45,18 +45,19 @@ through the automation of cyber security processes.
 | Microsoft Graph Security   | For organizations that are using Microsoft Graph Security, they can automate their security workflows by creating subscriptions, subscribing to alerts and more.                                                                                                                                                       | Cyber Security Analyst        |
 | Microsoft Defender ATP     | Microsoft Defender ATP provides endpoint protection against malware and other malicious activities. Using the Microsoft Defender ATP, Cyber Security Analysts can automate actions such as isolating machines, perform investigation actions, removing application permissions, running antivirus scans and much more. | Cyber Security Analyst        |
 
-Once again, you might be asking why Power Platform and security related
-connectors have been included in this list? The reason being that
-automating workloads shouldn't be restricted to makers. Administrators
-and Cyber Security Analyst also have increasing demands on their time
-and they should also try to be as efficient as possible.
+Once again, you might ask why Power Platform and security related
+connectors have been included in this list? The reason is that
+automating workloads shouldn't be restricted to app makers. Administrators
+and Cyber Security Analysts also have increasing demands on their time
+and they should try to be as efficient as possible too.
 
-When it comes to Cyber Security, you can no longer rely solely on
+When it comes to Cyber Security, you can't really rely solely on
 analyst querying logs around the clock. By taking advantage of triggers
 for theses security services, alerts and notifications can be sent to
 these teams where they can subsequently respond to emerging threats, in
-near real time. Also, for some organizations, getting buy-in from
-security teams, to use the Power Platform, may be challenging. However,
-once Cyber Security Analysts see the benefits, from solving their needs,
-they tend to be more open to extending its use to other areas of the
-organization.
+near or real time. 
+
+For some organizations, getting buy-in from security teams to use the 
+Power Platform, may be challenging. However, often once Cyber Security 
+Analysts see the benefits solve their needs, they tend to be more open 
+to extending its use to other areas of the organization.
