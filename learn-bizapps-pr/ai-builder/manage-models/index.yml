@@ -20,11 +20,11 @@ abstract: |
 prerequisites: None
 iconUrl: /learn/achievements/manage-models.svg  
 levels:  
-- intermediate   
+- beginner   
 roles:  
-- functional-consultant  
+- business-user
+- maker
 products:  
-- dynamics  
 - ai-builder 
 units: 
 - learn-bizapps.manage-models.1-lifecycle 
