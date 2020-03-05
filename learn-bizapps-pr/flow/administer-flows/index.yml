@@ -24,9 +24,9 @@ iconUrl: /learn/achievements/administer-flows.svg
 levels:  
 - beginner 
 roles:  
-- business-user
-- maker
 - functional-consultant
+- maker
+- administrator
 products:  
 - power-platform
 - power-automate
