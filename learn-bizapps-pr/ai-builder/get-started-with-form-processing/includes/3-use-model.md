@@ -11,8 +11,8 @@ about your newly trained model on a details page.
 To quickly see your model in action, select **Quick test**.
 
 Drag and drop or upload an image from your device to test. If you are
-using sample data, you can go to the **AIBuilder\Lab\Lab
-Images\FormProcessing\Invoices\Test** folder for a test image.
+using sample data, you can go to the **AIBuilder_Lab\Lab
+Images\FormProcessing_Invoices\Test** folder for a test image.
 
 You will now be able to view the detected fields that you chose and the
 associated confidence scores for retrieving the individual fields
@@ -33,37 +33,30 @@ processing model.
 ![Use your model in Power Apps](../media/image5.png)
 
 1.  Select **Use model**.
-
 2.  Select **Create new app** to begin the canvas app creation
     experience.
-
 3.  Within your canvas app, a form processor component is automatically
-    added and linked to your published form processing model.\
-    \
+    added and linked to your published form processing model.
+    
     Going forward, you can select **Insert > AI Builder** to view the
     list of AI Builder components and then select **Form processor** to
     add a form processor component. You will need to ensure that you
     select the correct model. Only published models will appear in the
     drop-down list.
-
 4.  Select **Insert** and then add a **Label** component.
-
 5.  To bind the **Label** component to one of the form fields, select
     the **FormContent** property on the formula bar. This selection
     retrieves the details of the extracted form fields and tables.
-
 6.  To choose a field to display, select one of the names from the
-    **FormContent \> Fields** property. If you want to select table
-    content, select one of the names from the **FormContent \> Tables**
+    **FormContent > Fields** property. If you want to select table
+    content, select one of the names from the **FormContent > Tables**
     property.
 
 ![Select Fields or Tables property](../media/image6.png)
 
 7.  Select **Play** on the upper right of the Power Apps studio to
     preview the app.
-
-8.  Select **Analyze**, and then select the image that you used to quick
-    test earlier.
+8.  Select **Analyze**, and then select the image that you used to quick test earlier.
 
     A preview of your document shows the detected fields and the values
     that were detected for the fields that you chose.
@@ -77,31 +70,17 @@ results of your model.
 ![Use your model in Power Automate](../media/image7.png)
 
 1.  In Power Automate, on the left menu, select **Templates**.
-
 2.  In the search bar, search for "ai builder form processing."
-
 3.  Select **Click a button to read and save information from documents using AI Builder**.
-
 4.  Under the **Predict** action, select your published model next to
     **Model**. The **Document type** and **Document** fields will
     automatically appear and be completed after you select your model.
-
 5.  Select **Save**.
-
 6.  Select **Test**.
-
-7.  Select **I'll perform the trigger action** and then select **Save &
-    Test**.
-
-8.  Under **Document**, import the image that you used to quick test
-    earlier. Under **Document Type**, select the corresponding file
-    type. If you are using the sample data, you would select
-    **image/jpeg**.
-
+7.  Select **I'll perform the trigger action** and then select **Save  Test**.
+8.  Under **Document**, import the image that you used to quick test earlier. Under **Document Type**, select the corresponding file type. If you are using the sample data, you would select **image/jpeg**.
 9.  Select **Run flow**.
-
 10. After the flow run has started, select **Done**.
-
 11. After the flow runs, expand the **Predict** action. The details of
     all various outputs that are related to the form fields that you
     selected are shown. You can use these details in your flows.

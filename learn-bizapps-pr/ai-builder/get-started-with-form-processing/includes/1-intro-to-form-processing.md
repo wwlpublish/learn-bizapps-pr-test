@@ -9,9 +9,7 @@ Power Automate.
 In this module, you will:
 
 -   Explore how automating document processing can save you time.
-
 -   Create your first form processing model.
-
 -   Learn how to use your form processing models in Power Apps and Power
     Automate.
 
