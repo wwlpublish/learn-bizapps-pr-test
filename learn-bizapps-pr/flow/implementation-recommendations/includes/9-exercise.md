@@ -2,10 +2,10 @@ In this exercise, we will manage a Custom connector in a DLP
 policy. To manage a Custom connector, we need to ensure that we have one
 in our environment, so the first part of this exercise will be
 publishing a Custom connector from GitHub. Once we have that connector
-deployed, we will then manage it using the Powershell Cmdlets provided
+deployed, we will then manage it using the PowerShell Cmdlets provided
 by Microsoft.
 
-### Publishing Custom connector
+### Publishing a Custom connector
 
 The Custom connector that we are going to deploy, comes from Microsoft's
 GitHub repository. The connector's functionality is arbitrary, we just
@@ -13,7 +13,7 @@ need a custom connector for the purposes of DLP policy management.
 
 The steps to install the Custom connector are as follows:
 
-1.  Go to Microsoft's [Power Platform Github repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true) in a web browser.
+1.  Go to the [Microsoft Power Platform Github repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true) in a web browser.
 
 2.  Click on the **Clone or download** button, followed by clicking on the **Download ZIP** link. Make a note of where you save this zip file.
 
