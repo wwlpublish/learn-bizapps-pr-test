@@ -1,0 +1,85 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.share-buttons.9-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 03/06/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 10 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Can an end user whom a flow button has been shared with share it with someone else?
+    choices: 
+    - content: An end user can't share the button flow. Only the flow owner can share a button flow.
+      isCorrect: false
+      explanation: An end user can share the button with users in the same tenant.
+    - content: An end user can share the button only if they are a co-owner.
+      isCorrect: false 
+      explanation: An end user can share the button with users in the same tenant.
+    - content: An end user can share the button only if they have administrator rights.
+      isCorrect: false 
+      explanation: The end user can share the button with users in the same tenant.
+    - content: An end user can share the button with users in the same tenant.
+      isCorrect: true
+      explanation: The end user can share the button with users in the same tenant.
+  - content: How can you share a button flow?
+    choices: 
+    - content: Only by using your computer and accessing the Power Automate site
+      isCorrect: false
+      explanation: Two ways to share a button are by using the Power Automate site and the mobile app.
+    - content: By using the Power Automate site and the mobile app
+      isCorrect: true
+      explanation: Two ways to share a button are by using the Power Automate site and the mobile app.
+    - content: Only by using the mobile app
+      isCorrect: false 
+      explanation: Two ways to share a button are by using the Power Automate site and the mobile app.
+    - content: By using the mobile app or the tablet app
+      isCorrect: false 
+      explanation: Two ways to share a button are by using the Power Automate site and the mobile app.
+  - content: True or False. Run-only users will always have access to the connectors.
+    choices: 
+    - content: False. Run-only users will never have access to connectors.
+      isCorrect: false
+      explanation: Run-only users will not have access to connectors outside the flow.
+    - content: True. Run-only users can access all connectors that the maker has.
+      isCorrect: false 
+      explanation: Run-only users will not have access to connectors outside the flow.
+    - content: False. Run-only users will not have access to connectors outside the flow.
+      isCorrect: true
+      explanation: Run-only users will not have access to connectors outside the flow.
+    - content: True. Any users can access all connectors that are available in their tenant.
+      isCorrect: false 
+      explanation: Run-only users will not have access to connectors outside the flow.
+  - content: With whom can a flow button be shared?
+    choices: 
+    - content: Users, security groups, or Office 365 groups
+      isCorrect: true 
+      explanation: A flow button can be shared with users, security groups, or Office 365 groups. 
+    - content: Other users only
+      isCorrect: false 
+      explanation: A flow button can be shared with users, security groups, or Office 365 groups. 
+    - content: Office 365 groups only
+      isCorrect: false 
+      explanation: A flow button can be shared with users, security groups, or Office 365 groups. 
+    - content: Security groups only
+      isCorrect: false 
+      explanation: A flow button can be shared with users, security groups, or Office 365 groups. 
+  - content: Can a user remove a shared button flow?
+    choices: 
+    - content: A user can remove a shared button flow.
+      isCorrect: true 
+      explanation: A user can remove a shared button flow.
+    - content: A user can't remove a shared button flow.
+      isCorrect: false 
+      explanation: A user can remove a shared button flow.
+    - content: Only a button flow owner or co-owner can remove a button flow from a user's account.
+      isCorrect: false 
+      explanation: A user can remove a shared button flow.
+    - content: After a button has been shared, it can never be removed by anyone unless the button is deleted globally.
+      isCorrect: false 
+      explanation: A user can remove a shared button flow.
