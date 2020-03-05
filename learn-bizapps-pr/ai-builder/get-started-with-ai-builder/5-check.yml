@@ -38,7 +38,7 @@ quiz:
     - content: Train it
       isCorrect: false
       explanation: A model must be published before it can be used.
-  - content: What do you need to do to before you can use a prebuilt model?
+  - content: What do you need to do before you can use a prebuilt model?
     choices: 
     - content: Gather data
       isCorrect: false
