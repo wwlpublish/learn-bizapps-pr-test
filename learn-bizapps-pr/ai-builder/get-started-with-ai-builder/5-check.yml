@@ -8,47 +8,47 @@ metadata:
  author: heyrob 
  ms.author: robde 
  ms.topic: interactive-tutorial 
- ms.prod: d365-ai-builder 
+ ms.prod: learning-ai-builder 
 durationInMinutes: 5 
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: 1.	Which of these statements is true?
+  - content: Which of these statements is true?
     choices: 
-    - content: a.	AI Builder is only available in Power Apps.
+    - content: AI Builder is only available in Power Apps.
       isCorrect: false
       explanation: AI Builder is available in both Power Apps and Power Automate.
-    - content: b.	AI Builder is only available in Power Automate.
+    - content: AI Builder is only available in Power Automate.
       isCorrect: false 
       explanation: AI Builder is available in both Power Apps and Power Automate.
-    - content: c.	AI Builder is available in both Power Apps and Power Automate.
+    - content: AI Builder is available in both Power Apps and Power Automate.
       isCorrect: true
       explanation: AI Builder is available in both Power Apps and Power Automate.
-  - content: 2.	You have customized a model using the guided experience. What is the final step you must take before you can use it?
+  - content: You have customized a model using the guided experience. What is the final step you must take before you can use it?
     choices: 
-    - content: a.	Create it
+    - content: Create it
       isCorrect: false
       explanation: A model must be published before it can be used.
-    - content: b.	Publish it
+    - content: Publish it
       isCorrect: true
       explanation: A model must be published before it can be used.
-    - content: c.	Save it
+    - content: Save it
       isCorrect: false
       explanation: A model must be published before it can be used.
-    - content: d.	Train it
+    - content: Train it
       isCorrect: false
       explanation: A model must be published before it can be used.
-  - content: 3.	What do you need to do to before you can use a prebuilt model?
+  - content: What do you need to do to before you can use a prebuilt model?
     choices: 
-    - content: a.	Gather data
+    - content: Gather data
       isCorrect: false
       explanation: A prebuilt model is ready to be used.
-    - content: b.	Train the model
+    - content: Train the model
       isCorrect: false
       explanation: A prebuilt model is ready to be used.
-    - content: c.	Publish the model
+    - content: Publish the model
       isCorrect: false
       explanation: A prebuilt model is ready to be used.
-    - content: d.	Nothing
+    - content: Nothing
       isCorrect: true
       explanation: A prebuilt model is ready to be used.
