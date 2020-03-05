@@ -1,32 +1,21 @@
-Welcome to AI Builder. This self-paced module helps you build an AI
-model from the ground up, and helps you use it in your business without
-writing a single line of code.
+Welcome to AI Builder. This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
 
-### Learning objectives
-
+## Learning objectives
 In this module, you will:
+- Explore how AI Builder can improve your business performance.
+- Learn how to use different AI technologies to enhance your processes.
+- Create your first model.
+- Learn how to use your models in Power Apps and Power Automate.
 
--   Explore how AI Builder can improve your business performance
-
--   Learn how to use different AI technologies to enhance your processes
-
--   Create your first model
-
--   Learn how to use your models in Power Apps and Power Automate
-
-### What is AI Builder?
+### AI Builder defined
 
 AI Builder is a Power Platform capability that helps you improve your
-business performance by automating processes and predicting outcomes. By
-using AI Builder, you can quickly bring AI to your apps and flows that
-connect to your business data that is stored in the underlying data
-platform (Common Data Service) or in various cloud data sources, such as
-SharePoint, OneDrive, or Azure.
+business performance by automating processes and predicting outcomes. By using AI Builder, you can quickly bring AI to your apps and flows that connect to your business data that is stored in the underlying data platform (Common Data Service) or in various cloud data sources, such as SharePoint, OneDrive, or Azure.
 
 AI models that you create in AI Builder can help provide intelligence to
 enhance your business. AI Builder simplifies the AI creation experience
 by enabling people with any level of technical skill to add AI
-capabilities to their apps and flows, without writing any code. AI
+capabilities to their apps and flows without writing any code. AI
 Builder also provides prebuilt AI models, where you don't need to gather
 data to build and train the model. You can start to use the intelligence
 right away.
@@ -58,26 +47,26 @@ For example, with AI Builder you can:
 A common use of AI Builder is to automate processes. The following
 examples can help you think about how you can use AI in your business:
 
--   Invoice processing -- Companies often receive invoices in large
+-   **Invoice processing** -- Companies often receive invoices in large
     quantities and from a variety of sources, such as mail, fax, email,
     or in person. Processing these documents and manually entering them
-    into your backend systems can take a considerable amount of time. By
-    using AI to extract the text, key-value pairs, and tables from your
+    into your database can take considerable time. By
+    using AI to extract the text, key/value pairs, and tables from your
     documents, you can create workflows to automatically pipe the
-    information into your backend systems. You can even create an app to
+    information into your database. You can even create an app to
     review the information.
 
--   Text analysis -- Businesses today are collecting more data now than
+-   **Text analysis** -- Businesses today are collecting more data than
     ever before. Whether it's from survey responses, product reviews,
     user feedback, or support emails, generating the proper insights is
-    important to understand your business and your customers. By using
+    important to understanding your business and your customers. By using
     AI to analyze text, you can identify customer feedback that contains
     negative sentiment, or certain key phrases. Use AI to identify
     problems, and then trigger the necessary workflows to take action.
 
-### Where can I use AI Builder?
+### Where you can use AI Builder
 
-You can access AI Builder within both Power Apps and Power Automate.
+You can access AI Builder within  Power Apps and Power Automate.
 
 ![AI Builder and Power Apps](../media/image2.jpg)
 
@@ -89,4 +78,4 @@ There are two areas available under AI Builder in the left-side menu:
 
 ### What's next?
 
-Now that we've learned a little about AI Builder, let's dive a bit deeper into the AI capabilities that are available.
+Now that you've learned a little about AI Builder, your next step is to gain in-depth knowledge about the available AI capabilities.
