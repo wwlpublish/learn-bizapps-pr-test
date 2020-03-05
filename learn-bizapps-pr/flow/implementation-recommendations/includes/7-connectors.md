@@ -3,8 +3,10 @@ they don't show up in the DLP policy editor inside the Power Platform
 Admin center. As we previously discussed, the default behavior for
 custom connectors is that they're managed as part of the default data
 group that you specify. However, the custom connectors won't appear
-within the user interface in the Power Automate Admin center. There are
-some additional actions that must be taken by an administrator to have Custom connectors show up in DLP policies that include either
+within the user interface in the Power Automate Admin center. 
+
+There are some additional actions that must be taken by an administrator 
+to have Custom connectors show up in DLP policies that include either
 of the following:
 
 -   Power Platform Management connector

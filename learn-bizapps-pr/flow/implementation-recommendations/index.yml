@@ -2,8 +2,8 @@
 uid: learn-bizapps.implementation-recommendations 
 metadata: 
  title: Implementation recommendations for Power Automate environments
- description: This module will provide prescriptive recommendations on how organizations should choose to implement security and governance. More specifically, the content will provide recommendations based upon popular use cases including Office 365 and Dynamics 365 configurations. In addition, edge cases such as Custom and HTTP connectors will also be covered. Tooling will be discussed, including the DLP Editor Tool, from the COE toolkit, that allows administrators to understand the impact of the DLP change that they are about to make.
- ms.date: 2/29/2020  
+ description: Do you want prescriptive recommendations of how organizations should choose to implement security and governance? This module will provide recommendations based upon popular use cases including Office 365 and Dynamics 365 configurations. In addition, edge cases such as Custom and HTTP connectors are discussed. Tooling will also be discussed, including the DLP Editor Tool, from the COE toolkit, that allows administrators to understand the impact of the DLP change that they are about to make.
+ ms.date: 3/11/2020  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
@@ -11,23 +11,25 @@ metadata:
 title: Implementation recommendations for Power Automate environments 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module will provide prescriptive recommendations on how organizations should choose to implement security and governance. More specifically, the content will provide recommendations based upon popular use cases including Office 365 and Dynamics 365 configurations. In addition, edge cases such as Custom and HTTP connectors will also be covered. Tooling will be discussed, including the DLP Editor Tool, from the COE toolkit, that allows administrators to understand the impact of the DLP change that they are about to make.
+  Do you want prescriptive recommendations of how organizations should choose to implement security and governance? This module will provide recommendations based upon popular use cases including Office 365 and Dynamics 365 configurations. In addition, edge cases such as Custom and HTTP connectors are discussed. Tooling will also be discussed, including the DLP Editor Tool, from the COE toolkit, that allows administrators to understand the impact of the DLP change that they are about to make.
 abstract: |  
     In this module, you will: 
-    - Build recommended DLP policy for Office 365 scenarios.
-    - Build recommended DLP policy for Dynamics 365 scenarios.
+    - Build a recommended DLP policy for Office 365 scenarios.
+    - Build a recommended DLP policy for Dynamics 365 scenarios.
     - Configure DLP policies that manage Custom connectors.
     - Configure DLP policies that manage HTTP connectors.
-    - Detect DLP impacts using Power Platform COE Toolkit – DLP Editor Tool.
-prerequisites: A basic understanding of Power Apps and Power Automate including their purpose and how these tools are used within an organization. Students should also understand how connectors are used within apps and flows in order to exchange data across source and destination systems. Participants should have environment or tenant-wide administrative access to the Power Platform Admin Center and Power Automate Admin Center. In addition, the Power Apps Powershell Cmdlets and Power Platform Management Connector will be used. 
+    - Detect DLP impacts using the Power Platform COE Toolkit – DLP Editor Tool.
+prerequisites: A basic understanding of Power Apps and Power Automate including their purpose and how these tools are used within an organization. Students should also understand how connectors are used within apps and flows in order to exchange data across source and destination systems. Participants should have environment or tenant-wide administrative access to the Power Platform Admin Center and Power Automate Admin Center. The Power Apps Powershell Cmdlets and Power Platform Management Connector are also used. 
 iconUrl: /learn/achievements/implementation-recommendations.svg  
 levels:  
 - intermediate   
 roles:  
-- business-user   
-- functional-consultant 
+- administrator   
+- functional-consultant
 products:   
 - power-automate 
+- power-platform
+- powerapps
 units: 
 - learn-bizapps.implementation-recommendations.1-introduction 
 - learn-bizapps.implementation-recommendations.2-prerequisites 
