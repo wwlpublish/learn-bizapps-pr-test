@@ -1,15 +1,11 @@
-In this unit, you will learn how your model can develop over time.
+Learn how your model can develop over time.
 
 An AI Builder model goes through several stages as it evolves from when
-you create it through publishing, sharing, and use. Let's walk through
-each of those stages.
+you create it through publishing, sharing, and use. The following sections describe each of those stages.
 
 ### Create your model
 
-As we learned in the first module, you can find all the AI Builder model
-types and capabilities on the **Build** page, which you can access from the
-left-side menu. This is where you start to create a new custom AI model,
-or select a prebuilt model that you can use right away.
+You can find all the AI Builder model types and capabilities on the **Build** page, which you can access from the left menu. This page is where you start to create a new custom AI model, or select a prebuilt model that you can use right away.
 
 ### Draft models
 
@@ -32,16 +28,15 @@ quick test to see your model live in action.
 
 If you are satisfied with your model, you're ready to publish it. You
 have to publish a model before it can be available to use in Power Apps
-and Power Automate, so it's important not miss this step.
+and Power Automate, so it's important not to miss this step.
 
 ### Keep track of your model
 
-Any models you create can be accessed at any time by visiting the Models
+Any models you create can be accessed at any time by visiting the **Models**
 page, which you can access from the left-side menu in AI Builder. The
-Models page shows a complete list of your models, as well as their date
+**Models** page shows a complete list of your models, as well as their date
 of latest training and the various states we've learned about here.
 
-### What's next?
+### Next steps
 
-In this next unit, we'll learn how to edit your model to improve its
-performance, and how to manage multiple model versions.
+Now that you have learned how your model can develop over time, you're next step is to learn how to edit your model to improve its performance and how to manage multiple model versions. 
