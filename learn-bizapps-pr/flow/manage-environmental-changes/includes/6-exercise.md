@@ -1,23 +1,20 @@
 In this exercise, we will walk through connecting to the Power
 Apps and Power Automate PowerShell Cmdlets to list all the connections
-that are in our tenant. We can use this information to determine which
+that are in our tenant. You can use this information to determine which
 users are making connections through different connectors.
 
 1.  Launch **Windows PowerShell** and **Run as Administrator**
 
-    ![Run as Administrator](../media/14-runadmin.png){width="4.34375in"
-    height="3.035728346456693in"}
+    ![Run as Administrator](../media/14-runadmin.png)
 
 2.  Import the required modules using the following commands:
 
-    **Install-Module -Name
-    Microsoft.PowerApps.Administration.PowerShell**
+    **Install-Module -Name Microsoft.PowerApps.Administration.PowerShell**
 
-    **Install-Module -Name Microsoft.PowerApps.PowerShell
-    -AllowClobber**
+    **Install-Module -Name Microsoft.PowerApps.PowerShell-AllowClobber**
 
-3.  If you are prompted to accept the change to *InstallationPolicy*
-    value of the repository, accept \[A\] Yes to all modules by typing
+3.  If you are prompted to accept the change to the *InstallationPolicy*
+    value of the repository, accept this for all the modules by typing
     'A' and pressing **Enter** for each module.
 
 4.  List all connections using the **Get-AdminPowerAppConnection**
@@ -32,5 +29,4 @@ users are making connections through different connectors.
     includes the name of the connector, who created the connection, the
     environment and its current status.
 
-    ![Returned data](../media/15-exercise.png){width="4.34375in"
-    height="3.1603587051618547in"}
+    ![Returned data](../media/15-exercise.png)
