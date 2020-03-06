@@ -19,7 +19,7 @@ abstract: |
     - Configure DLP policies that manage Custom connectors.
     - Configure DLP policies that manage HTTP connectors.
     - Detect DLP impacts using the Power Platform COE Toolkit – DLP Editor Tool.
-prerequisites: A basic understanding of Power Apps and Power Automate including their purpose and how these tools are used within an organization. Students should also understand how connectors are used within apps and flows in order to exchange data across source and destination systems. Participants should have environment or tenant-wide administrative access to the Power Platform Admin Center and Power Automate Admin Center. The Power Apps Powershell Cmdlets and Power Platform Management Connector are also used. 
+prerequisites: A basic understanding of Power Apps and Power Automate including their purpose and how these tools are used within an organization. Students should also understand how connectors are used within apps and flows in order to exchange data across source and destination systems. Participants should have environment or tenant-wide administrative access to the Power Platform Admin Center and Power Automate Admin Center. The Power Apps PowerShell Cmdlets and Power Platform Management Connector are also used. 
 iconUrl: /learn/achievements/implementation-recommendations.svg  
 levels:  
 - intermediate   

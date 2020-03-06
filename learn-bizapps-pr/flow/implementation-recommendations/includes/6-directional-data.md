@@ -85,7 +85,7 @@ branch.
 ![Office 365 users](../media/25-o365-users.png)
 
 Now we will add another condition that will check to see if the Creator
-object ID (from the List Flows as Admin action) is not equal to Id (from
+object ID (from the List Flows as Admin action) is not equal to ID (from
 the Get my profile (V2) action). In the If yes branch, we will now add
 the **Edit Flow Owner Role as Admin** action that belongs to the Microsoft
 Flow for Admins connector. This action will add our administrator user
@@ -94,7 +94,7 @@ definition and this requires us to be a co-owner of the flow. We will
 retrieve the flow definition in an upcoming step, but for now need to
 provide the current Environment Name, current Flow Name and details
 about our administrator user including email address, display name and
-id. These values are accessible from our **Get my provide (V2)** action.
+ID. These values are accessible from our **Get my provide (V2)** action.
 
 ![edit flow owners](../media/24-edit-flow-owners.png)
 
