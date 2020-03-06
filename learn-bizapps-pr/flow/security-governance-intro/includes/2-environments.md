@@ -5,7 +5,7 @@ assigned to an environment. To avoid friction with makers who are creating
 flows, every licensed user belongs to the default environment and no method exists to prevent this friction. 
 
 Additional environments can be provisioned where opt-in access is possible. 
-A strategy that some organizations adopt includes [renaming the default environment](https://docs.microsoft.com/en-us/power-platform/admin/environments-administration?azure-portal=true#rename-your-environment) 
+A strategy that some organizations adopt includes [renaming the default environment](https://docs.microsoft.com/power-platform/admin/environments-administration?azure-portal=true#rename-your-environment) 
 to be called **Personal Productivity**, which implies permission to build
 flows that improve their own productivity. 
 
