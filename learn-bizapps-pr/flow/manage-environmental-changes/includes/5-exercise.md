@@ -9,14 +9,12 @@ users are making connections through different connectors.
 
 2.  Import the required modules using the following commands:
 
-    **Install-Module -Name
-    Microsoft.PowerApps.Administration.PowerShell**
+    **Install-Module -Name Microsoft.PowerApps.Administration.PowerShell**
 
-    **Install-Module -Name 
-    Microsoft.PowerApps.PowerShell-AllowClobber**
+    **Install-Module -Name Microsoft.PowerApps.PowerShell-AllowClobber**
 
 3.  If you are prompted to accept the change to the *InstallationPolicy*
-    value of the repository, accept \[A\] Yes to all modules by typing
+    value of the repository, accept this for all the modules by typing
     'A' and pressing **Enter** for each module.
 
 4.  List all connections using the **Get-AdminPowerAppConnection**

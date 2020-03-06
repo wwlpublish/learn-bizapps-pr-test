@@ -2,7 +2,7 @@
 uid: learn-bizapps.manage-environmental-changes 
 metadata: 
  title: Manage environmental changes in Power Automate
- description: Learn best practices for communicating changes to DLP policies, unerstand how users are using Power Automate, discover who in your organization is creating and sharing flows, learn what connections are being used within your Power Automate environments, and observe how connections are estalished within your Power Automate environments.
+ description: Learn best practices for communicating changes to DLP policies, understand how users are using Power Automate, discover who in your organization is creating and sharing flows, and learn what connections are being used within your Power Automate environments, and observe how connections are estalished within your Power Automate environments.
  ms.date: 03/12/2020
  author: KevSch
  ms.author: kschimke 
@@ -11,7 +11,7 @@ metadata:
 title: Manage environmental changes in Power Automate
 summary: |
   [!include[](../includes/module-banner.md)] 
-  Learn best practices for communicating changes to DLP policies, unerstand how users are using Power Automate, discover who in your organization is creating and sharing flows, learn what connections are being used within your Power Automate environments, and observe how connections are estalished within your Power Automate environments.
+  Learn best practices for communicating changes to DLP policies, understand how users are using Power Automate, discover who in your organization is creating and sharing flows, and learn what connections are being used within your Power Automate environments, and observe how connections are estalished within your Power Automate environments.
 abstract: |
     In this module, you will: 
     - Identify best practices for communicating changes to DLP policies
