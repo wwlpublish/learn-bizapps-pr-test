@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.plan-manage-environment.6-policies 
-title: Layer Data Loss Prevention (DLP) policies
+title: Layer Data Loss Prevention policies
 metadata: 
-  title: Layer Data Loss Prevention (DLP) policies 
+  title: Layer Data Loss Prevention policies 
   description: Learn about layering Data Loss Prevention (DLP) policies.  
   ms.date: 3/12/2020 
   author: KevSch 
