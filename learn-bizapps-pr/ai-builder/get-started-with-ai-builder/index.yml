@@ -22,15 +22,14 @@ prerequisites: |
       [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data
       Service](https://powerapps.microsoft.com/common-data-service/)
-    - AI Builder add-on or trial 
+    - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
 iconUrl: /learn/achievements/get-started-with-ai-builder.svg  
 levels:  
-- intermediate   
+- beginner   
 roles:
-- functional-consultant
+- business-user
 - maker
-products:  
-- dynamics  
+products:    
 - ai-builder 
 units: 
 - learn-bizapps.get-started-with-ai-builder.1-intro-ai-builder 
