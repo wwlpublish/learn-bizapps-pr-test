@@ -35,7 +35,7 @@ prerequisites that were outlined at the beginning of this module.
 
     ![added connectors](../media/16-added-connectors.png)
 
-7.  Update the auto-generated **Data Policy Name** that starts with **Policy** by selecting it at the top of the screen. Enter **Office 365 Connectors** and then select **Save Policy**.
+7.  Update the auto generated **Data Policy Name** that starts with **Policy** by selecting it at the top of the screen. Enter **Office 365 Connectors** and then select **Save Policy**.
 
     ![save data policy](../media/17-save.png)
 
