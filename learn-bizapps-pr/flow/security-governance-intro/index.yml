@@ -14,9 +14,8 @@ summary: |
   Do you want to learn about how to help secure and govern Power Platform apps like Power Automate? This module focuses on introducing Power Platform environments and their role in creating Data Loss Prevention (DLP) policies by using examples and use cases. A brief introduction and overview of tools will also be discussed, including Power Platform and Power Automate Admin experiences and the Power Platform Center of Excellence (COE) toolkit.
 abstract: |  
     In this module, you will: 
-    - Access Power Platform and Power Automate Admin experiences.
-    - Differentiate between the features of Power Platform and Power Automate Admin experiences.
-    - Discover the difference between the Business data group and the Non-business data group.
+    - Access the Power Platform and Power Automate Admin experiences.
+    - Discover and identify the differences between the Business data group and the No-business data group.
     - Create simple environment and tenant-wide DLP policies.
     - Learn about the differences between out-of-the-box Power Automate Admin experiences and the Power Platform Center of Excellence toolkit.
 prerequisites: A basic understanding of Power Apps and Power Automate, including their purpose and how these tools are used within an organization.  
@@ -30,6 +29,7 @@ products:
 - dynamics  
 - power-automate
 - power-platform 
+- powerapps
 units: 
 - learn-bizapps.security-governance-intro.1-introduction 
 - learn-bizapps.security-governance-intro.2-environments 

@@ -60,7 +60,7 @@ services. Organizations should begin by cataloging the business systems
 that exist within their organization and then creating DLP policies that
 align with that business mapping. DLP strategies are discussed further 
 in the **Implementation recommendations for Power Automate environments** 
-module.
+module of this learning path.
 
 Organizations should also carefully evaluate which data group they would
 like to declare as their default data group. Regardless of which data

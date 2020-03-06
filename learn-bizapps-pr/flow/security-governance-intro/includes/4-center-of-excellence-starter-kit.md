@@ -126,9 +126,8 @@ environment.
 The App Catalog application acts as a catalog that users can explore to see if
 an application already exists before they create another app that
 provides similar functionality. After an app has been approved by the
-**App Audit** process, these apps can
-be featured in the app catalog by having the app's metadata
-include **In App Catalog** and **Featured In App Catalog** as part
+**App Audit** process, these apps can be featured in the app catalog by having 
+the app's metadata include **In App Catalog** and **Featured in App Catalog** as part
 of the **App Audit** process.
 
 ### Set Owner
