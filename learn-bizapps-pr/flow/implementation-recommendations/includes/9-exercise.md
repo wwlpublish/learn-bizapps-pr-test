@@ -71,7 +71,7 @@ Custom connector. These steps are also covered in the following section.
 
 1.  Launch **Windows PowerShell** and **Run as Administrator**.
 
-    ![Powershell](../media/12-powershell.png)
+    ![PowerShell](../media/12-powershell.png)
 
 2.  Import the required modules using the following commands:
 
