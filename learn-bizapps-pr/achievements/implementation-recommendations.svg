@@ -1,86 +1,104 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="100px" height="100px" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
-    <title>Special Badges/generic-badge</title>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Use best practices to secure and govern Power Automate environments/Implementation-recommendations-for-Power-Automate-environments</title>
     <desc>Created with Sketch.</desc>
     <defs>
-        <linearGradient x1="50%" y1="100%" x2="50%" y2="3.061617e-15%" id="linearGradient-1">
-            <stop stop-color="#FFFFFF" stop-opacity="0.738366168" offset="0%"></stop>
-            <stop stop-color="#000000" stop-opacity="0.150900136" offset="100%"></stop>
+        <rect id="path-1" x="0" y="0" width="94.3396226" height="94.3396226" rx="47.1698113"></rect>
+        <linearGradient x1="77.8299825%" y1="11.1997378%" x2="-99.6885927%" y2="253.807911%" id="linearGradient-3">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
         </linearGradient>
-        <rect id="path-2" x="0" y="0" width="96" height="96" rx="48"></rect>
-        <filter x="-8.3%" y="-5.9%" width="116.7%" height="111.8%" filterUnits="objectBoundingBox" id="filter-4">
+        <rect id="path-4" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+        <rect id="path-5" x="0" y="0" width="100" height="100" rx="50"></rect>
+        <filter x="-0.5%" y="-0.5%" width="102.0%" height="102.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M50,2.83018868 C76.0511674,2.83018868 97.1698113,23.9488326 97.1698113,50 C97.1698113,76.0511674 76.0511674,97.1698113 50,97.1698113 C23.9488326,97.1698113 2.83018868,76.0511674 2.83018868,50 C2.83018868,23.9488326 23.9488326,2.83018868 50,2.83018868 Z M50,6.60377358 C26.032926,6.60377358 6.60377358,26.032926 6.60377358,50 C6.60377358,73.967074 26.032926,93.3962264 50,93.3962264 C73.967074,93.3962264 93.3962264,73.967074 93.3962264,50 C93.3962264,26.032926 73.967074,6.60377358 50,6.60377358 Z" id="path-7"></path>
+        <filter x="-33.3%" y="-21.9%" width="166.7%" height="143.8%" filterUnits="objectBoundingBox" id="filter-9">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0963541667 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
             <feMerge>
                 <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <path d="M3.78850949,1.33234516 L3.03380751,1.33234516 C2.6431803,1.33234516 2.32595526,1.11596833 2.32595526,0.848529108 L2.32595526,0.815976841 L2.32595526,0.538963426 C2.32595526,0.272162488 2.6431803,0.0557856507 3.03380751,0.0557856507 L22.5109143,0.0557856507 L23.0298357,0.0557856507 C23.4198247,0.0557856507 23.7364114,0.272162488 23.7364114,0.538963426 L23.7364114,0.848529108 C23.7364114,1.11596833 23.4198247,1.33234516 23.0298357,1.33234516 L22.2750061,1.33234516 L22.2750061,4.3189838 L25.9413488,4.3189838 L25.9413488,9.20756846 C25.9413488,11.2321918 24.2996933,12.8732091 22.2750699,12.8732091 C22.2165895,12.8732091 22.1584286,12.87184 22.1006175,12.869132 C21.3978637,16.4377059 18.6412768,19.2691912 15.1131881,20.0812567 L15.1131881,23.4280585 L19.775694,23.4280585 C19.9110093,23.4280585 20.02207,23.5384809 20.02207,23.6750727 L20.02207,26.4094632 L22.5109143,26.4094632 L23.0298357,26.4094632 C23.4198247,26.4094632 23.7364114,26.62584 23.7364114,26.8932793 L23.7364114,27.2022067 C23.7364114,27.4696459 23.4198247,27.6860227 23.0298357,27.6860227 L3.03380751,27.6860227 C2.6431803,27.6860227 2.32595526,27.4696459 2.32595526,27.2022067 L2.32595526,27.1696544 L2.32595526,26.8932793 C2.32595526,26.62584 2.6431803,26.4094632 3.03380751,26.4094632 L6.04119024,26.4094632 L6.04119024,23.6750727 C6.04119024,23.5384809 6.15225092,23.4280585 6.28820451,23.4280585 L11.4737169,23.4280585 L11.4737169,20.1852359 C7.69644741,19.5442977 4.69984215,16.6126189 3.96284487,12.8691434 C3.9051149,12.8718438 3.8470356,12.8732091 3.78863715,12.8732091 C1.76401376,12.8732091 0.122358229,11.2321918 0.122358229,9.20756846 L0.122358229,4.3189838 L3.78850949,4.3189838 L3.78850949,1.33234516 Z" id="path-5"></path>
-        <filter x="-0.5%" y="-0.5%" width="101.0%" height="101.8%" filterUnits="objectBoundingBox" id="filter-6">
-            <feOffset dx="0" dy="0.25" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 0.249094203 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
-        </filter>
-        <filter x="-13.3%" y="-11.1%" width="126.7%" height="122.2%" filterUnits="objectBoundingBox" id="filter-7">
-            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.102723053 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+        <filter x="-6.0%" y="-3.9%" width="111.9%" height="107.8%" filterUnits="objectBoundingBox" id="filter-10">
+            <feOffset dx="0" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowOffsetOuter1" result="shadowMatrixOuter1"></feColorMatrix>
             <feMerge>
                 <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
                 <feMergeNode in="SourceGraphic"></feMergeNode>
             </feMerge>
         </filter>
-        <path d="M24.7484563,24.4461902 L16.8474563,4.69319017 C16.5444563,3.93419017 15.8074563,3.43619017 14.9904563,3.43619017 C14.1734563,3.43619017 13.4364563,3.93419017 13.1334563,4.69319017 L5.1334563,24.6931902 C4.8254563,25.4641902 5.0254563,26.3451902 5.6354563,26.9081902 C6.2484563,27.4711902 7.1414563,27.5951902 7.8844563,27.2251902 L14.9904563,23.6721902 L22.0954563,27.2251902 C22.3804563,27.3671902 22.6854563,27.4361902 22.9904563,27.4361902 C22.9974563,27.4351902 23.0044563,27.4351902 23.0094563,27.4361902 C24.1154563,27.4361902 25.0094563,26.5401902 25.0094563,25.4361902 C25.0094563,25.0761902 24.9154563,24.7381902 24.7484563,24.4461902" id="path-8"></path>
-        <filter x="-12.5%" y="-10.4%" width="125.0%" height="120.8%" filterUnits="objectBoundingBox" id="filter-9">
-            <feOffset dx="3" dy="5" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
-            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
-            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0977977808 0" type="matrix" in="shadowInnerInner1"></feColorMatrix>
-        </filter>
+        <radialGradient cx="50%" cy="41.2500528%" fx="50%" fy="41.2500528%" r="71.6189833%" gradientTransform="translate(0.500000,0.412501),scale(1.000000,0.820312),rotate(90.000000),translate(-0.500000,-0.412501)" id="radialGradient-11">
+            <stop stop-color="#FFB518" offset="0%"></stop>
+            <stop stop-color="#FFE02A" offset="100%"></stop>
+        </radialGradient>
+        <polygon id="path-12" points="0 0.02414 25.9741522 0.02414 25.9741522 16.85244 0 16.85244"></polygon>
     </defs>
     <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="Special-Badges" transform="translate(-50.000000, -860.000000)">
-            <g id="Special-Badges/generic-badge" transform="translate(50.000000, 860.000000)">
-                <g id="Mask" transform="translate(2.000000, 2.000000)">
-                    <mask id="mask-3" fill="white">
-                        <use xlink:href="#path-2"></use>
-                    </mask>
-                    <g id="BG">
-                        <use fill="#55A2FF" xlink:href="#path-2"></use>
-                        <use fill-opacity="0.75" fill="url(#linearGradient-1)" style="mix-blend-mode: overlay;" xlink:href="#path-2"></use>
-                    </g>
-                    <g id="Book-1" filter="url(#filter-4)" mask="url(#mask-3)">
-                        <g transform="translate(24.000000, 14.000000)" id="Book">
-                            <g transform="translate(0.167481, 0.387536)">
-                                <path d="M0.832518557,55.6124645 L0.832518557,61.6124645 C0.839673316,62.8067453 1.6709668,63.6146507 2.83251856,63.6124645 L46.8325186,63.6124689 L46.8325186,55.6124645 L0.832518557,55.6124645 Z" id="Shape" fill="#BE9555" fill-rule="nonzero"></path>
-                                <path d="M2.83251856,56.6124645 L2.83251856,60.6124645 C2.86672747,61.717521 3.75260508,62.6147293 4.78807411,62.6124645 L46.8325186,62.6124645 L46.8325186,56.6124645 L2.83251856,56.6124645 Z" id="Shape" fill="#FFFFFF" fill-rule="nonzero"></path>
-                                <polygon id="Shape" fill="#4F4D52" fill-rule="nonzero" opacity="0.2" points="2.83251856 56.6124645 2.83251856 57.6124645 46.8325186 57.6124645 46.8325186 56.6124645"></polygon>
-                                <polygon id="Shape" fill="#4F4D52" fill-rule="nonzero" opacity="0.2" points="20.8325186 56.6124645 26.8325186 62.6124645 20.8325186 62.6124645"></polygon>
-                                <polygon id="Shape" fill="#EF6F59" fill-rule="nonzero" points="21.8325186 66.6124645 17.8325186 64.6124645 14.8325186 66.6124645 14.8325186 56.6124645 21.8325186 56.6124645"></polygon>
-                                <polygon id="Shape" fill="#F7CB64" fill-rule="nonzero" points="46.8325186 55.6124645 0.832518557 55.6124645 0.832518557 0.612464493 46.8325186 0.612464493"></polygon>
-                                <path d="M23.8325186,51.6124645 C23.8325186,52.7164645 22.9384486,53.6124645 21.8325186,53.6124645 L0.832518557,53.6124645 L0.832518557,55.6124645 L46.8325186,55.6124645 L46.8325186,3.61246449 L25.8325186,3.61246449 C24.7265885,3.61246449 23.8325186,4.50746449 23.8325186,5.61246449 L23.8325186,51.6124645 Z" id="Fill-361" fill-opacity="0.126868207" fill="#000000"></path>
+        <g id="Use-best-practices-to-secure-and-govern-Power-Automate-environments" transform="translate(-160.000000, -320.000000)">
+            <g id="Use-best-practices-to-secure-and-govern-Power-Automate-environments/Implementation-recommendations-for-Power-Automate-environments" transform="translate(160.000000, 320.000000)">
+                <g id="Badge-Plates/Circle">
+                    <g id="BG" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g></g>
+                        <g id="Colors/Microsoft-365/BG-Solid-Badge" mask="url(#mask-2)">
+                            <g id="Rectangle">
+                                <use fill="#0078D4" xlink:href="#path-4"></use>
+                                <use fill-opacity="0.4" fill="url(#linearGradient-3)" xlink:href="#path-4"></use>
                             </g>
                         </g>
                     </g>
-                    <g id="Trophey" mask="url(#mask-3)">
-                        <g transform="translate(35.000000, 28.469686)">
-                            <g id="Combined-Shape" fill="none">
-                                <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
-                                <use fill="#4C3B12" fill-rule="evenodd" xlink:href="#path-5"></use>
-                            </g>
-                            <circle id="Oval" fill="#F7CB64" fill-rule="evenodd" cx="13.0318535" cy="10.1501516" r="4"></circle>
+                    <g id="Border">
+                        <g id="White-Border">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <rect stroke="#F2F1F0" stroke-width="4" stroke-linejoin="square" x="2" y="2" width="96" height="96" rx="48"></rect>
                         </g>
-                    </g>
-                    <g id="Group-8" filter="url(#filter-7)" mask="url(#mask-3)">
-                        <g transform="translate(49.000000, 41.000000)">
-                            <rect id="Rectangle" fill="#FFFFFF" fill-rule="evenodd" transform="translate(20.000000, 24.096444) rotate(-30.000000) translate(-20.000000, -24.096444) " x="17.5" y="12.0964442" width="5" height="24" rx="1"></rect>
-                            <g id="Fill-188" fill="none" transform="translate(15.000000, 15.436190) rotate(-30.000000) translate(-15.000000, -15.436190) ">
-                                <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-8"></use>
-                                <use fill="black" fill-opacity="1" filter="url(#filter-9)" xlink:href="#path-8"></use>
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-7"></use>
+                        <g id="Colors/Microsoft-365/Border" mask="url(#mask-8)" fill="#0076D7">
+                            <g transform="translate(2.830189, 2.830189)" id="Microsoft-365/Border">
+                                <rect x="0" y="0" width="94.3396226" height="94.3396226"></rect>
                             </g>
                         </g>
                     </g>
                 </g>
-                <rect id="Azure-Border" stroke="#E1E1E1" stroke-width="4" x="2" y="2" width="96" height="96" rx="48"></rect>
+                <g id="Group-3" transform="translate(29.000000, 18.000000)">
+                    <g id="Group-52" filter="url(#filter-9)" fill-rule="nonzero">
+                        <g id="Icon-machinelearning-161-Batch-AI" filter="url(#filter-10)">
+                            <path d="M27.7894426,60.1975852 L24.4785913,63.5481504 C24.1814617,63.8411798 23.7734881,64.0043432 23.3490067,64 L17.7400349,64 C17.3290698,63.9942544 16.9370646,63.8318782 16.6494015,63.5481504 L13.3385502,60.1975852 C13.033157,59.8964208 12.8648851,59.4898287 12.8711359,59.0681812 L12.8711359,51.2 L28.4516129,51.2 L28.4516129,59.0681812 C28.4083304,59.5189033 28.1672558,59.9300824 27.7894426,60.1975852 L27.7894426,60.1975852 Z" id="Path" fill="#A3A3A3"></path>
+                            <path d="M21,0.00102158396 C15.0463795,-0.0596871833 9.3536488,2.58787611 5.36319661,7.27335339 C1.37274441,11.9588307 -0.532813966,18.2329658 0.129005284,24.5071595 C1.08899993,33.7440884 9.40895353,38.0420879 11.7556071,49.7673324 C11.9235746,50.6034912 12.6204632,51.2009467 13.4267089,51.2 L28.5732911,51.2 C29.3795368,51.2009467 30.0764254,50.6034912 30.2443929,49.7673324 C32.5910465,38.0420879 40.9110001,33.7440884 41.8709947,24.5071595 C42.532814,18.2329658 40.6272556,11.9588307 36.6368034,7.27335339 C32.6463512,2.58787611 26.9536205,-0.0596871833 21,0.00102158396 Z" id="Path" fill="url(#radialGradient-11)"></path>
+                            <path d="M28.4516129,54.5684211 L12.8711359,58.781802 L12.8711359,59.0900981 C12.8648851,59.6655888 13.033157,60.220531 13.3385502,60.6315789 L13.3385502,60.6315789 L28.4516129,56.7778769 L28.4516129,54.5684211 Z" id="Path" fill="#E6E6E6"></path>
+                            <polygon id="Path" fill="#E6E6E6" points="12.8709677 57.2631579 28.4516129 53.2857263 28.4516129 51.2 12.8709677 55.1774316"></polygon>
+                        </g>
+                    </g>
+                    <g id="Group-4" transform="translate(5.487072, 7.407473)">
+                        <g id="Group-6">
+                            <path d="M24.6138302,24.3131867 C26.9465932,22.183517 28.3418107,19.4173211 28.6050593,16.4440659 L30.7173913,16.4614415 L27.3338541,11 L23.8450175,16.40555 L25.8380947,16.4220568 C25.5894358,18.7298264 24.4815716,20.8742654 22.664522,22.5333458 C20.582638,24.4342368 17.8125017,25.4814064 14.8679236,25.4814064 C11.9217597,25.4814064 9.15352638,24.4342368 7.07005657,22.5333458 C6.53372723,22.0424851 5.65993224,22.0424851 5.12201706,22.5333458 C4.58251605,23.0244962 4.58251605,23.8223259 5.12201706,24.3131867 C7.7256407,26.6904587 11.185298,28 14.8679236,28 C18.5486463,28 22.0102066,26.6904587 24.6138302,24.3131867 Z" id="Fill-1" fill="#FFFFFF"></path>
+                            <g id="Group-5" transform="translate(-0.282609, 0.000000)">
+                                <mask id="mask-13" fill="white">
+                                    <use xlink:href="#path-12"></use>
+                                </mask>
+                                <g id="Clip-4"></g>
+                                <path d="M4.8698824,11.5257733 C5.07950995,9.20045667 6.19034599,7.04202333 8.05609455,5.37205667 C10.1362205,3.51140667 12.900011,2.48687333 15.8414466,2.48687333 C18.7812988,2.48687333 21.5469893,3.51140667 23.6252153,5.37205667 C24.1622672,5.85259 25.0330765,5.85259 25.571395,5.37205667 C26.1084468,4.89095667 26.1084468,4.11179 25.571395,3.63069 C22.9722666,1.30537333 19.5165786,0.02414 15.8417632,0.02414 C12.1650479,0.02414 8.71094316,1.30537333 6.11149817,3.63069 C3.71851414,5.77269 2.31856941,8.55587333 2.10925851,11.5481567 L-1.10844667e-12,11.56459 L3.4832373,16.85244 L6.86007753,11.5099067 L4.8698824,11.5257733 Z" id="Fill-3" fill="#FFFFFF" mask="url(#mask-13)"></path>
+                            </g>
+                        </g>
+                        <g id="Gear" transform="translate(8.521739, 8.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                            <path d="M13.4782609,7.08847737 L13.4782609,5.59053498 L11.9472691,5.05555556 L11.5712361,4.03909465 L12.3233022,2.46090535 L12.3233022,2.30041152 L11.8398311,1.81893004 L11.2757815,1.17695473 L11.0609055,1.17695473 L9.55677327,1.97942387 L8.53611211,1.68518519 L7.86462451,0 L6.38735178,0 L5.8770212,1.52469136 L4.74892203,1.97942387 L3.00305426,1.15020576 L1.9555336,2.19341564 L1.9555336,2.38065844 L2.73445922,3.87860082 L2.27784765,5.00205761 L0.47826087,5.67078189 L0.47826087,7.16872428 L0.693136903,7.16872428 L2.27784765,7.7037037 L2.70759971,8.72016461 L1.90181459,10.4588477 L2.94933525,11.5288066 L3.16421128,11.5288066 L4.64148401,10.7798354 L5.68900467,11.2078189 L6.33363277,13 L7.837765,13 L7.837765,12.7860082 L8.34809558,11.18107 L9.36875674,10.7530864 L11.141484,11.5823045 L12.1890047,10.5390947 L12.1890047,10.3251029 L11.4369386,8.82716049 L11.7323931,7.78395062 L13.4782609,7.08847737 Z M6.99078621,8.57114542 C5.91946111,8.4561148 5.10988339,7.59534615 5.10988339,6.57131109 C5.10988339,5.54727389 5.91946111,4.68650525 6.99078621,4.57147462 C7.55027849,4.5646611 8.08932913,4.77100365 8.48749444,5.14439779 C8.88565975,5.51779192 9.10975495,6.02711739 9.10970896,6.55857222 C9.11698954,7.09442982 8.89608523,7.61036335 8.49712097,7.98930345 C8.0981567,8.36824354 7.55495991,8.57806058 6.99078621,8.57114542 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
             </g>
         </g>
     </g>
