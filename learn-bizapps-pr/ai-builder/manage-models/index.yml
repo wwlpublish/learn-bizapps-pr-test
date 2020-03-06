@@ -17,7 +17,12 @@ abstract: |
     - Learn how to manage model versions. 
     - Explore how to share a model, including permissions. 
     - Get a better understanding of AI Builder.
-prerequisites: None
+prerequisites: |
+    - A Power Apps or Power Automate
+      [license](https://go.microsoft.com/fwlink/?linkid=2085130)
+    - Access to [Common Data
+      Service](https://powerapps.microsoft.com/common-data-service/)
+    - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
 iconUrl: /learn/achievements/manage-models.svg  
 levels:  
 - beginner   
