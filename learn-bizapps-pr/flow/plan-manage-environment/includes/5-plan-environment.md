@@ -9,7 +9,7 @@ right landscape for your organization.
 discussed the default environment. If you recall, every user within 
 the tenant will automatically have access to this environment. Because 
 no method exists for removing access to this environment, it is a common pattern to 
-rename this environment to be called Personal Productivity to imply that this 
+rename this environment to **Personal Productivity** to imply that this 
 environment is general use. Administrators should also be 
 aware of the location of this environment to ensure that no issues occur 
 from a data privacy perspective.
@@ -31,7 +31,7 @@ based on your organization's design and goals.
 In single region organization (centralized), environments are centrally managed and include
 isolation for personal productivity, development, testing, and production
 purposes. The personal productivity environment can be used to support
-scenarios like email notifications, team-based approvals, ad hoc data
+scenarios like email notifications, team-based approvals, improvised data
 collection, and the integration with Office 365 services. The central
 team that manages environments will also provide access into non-default
 environments.
@@ -47,8 +47,8 @@ regions.
 In single region organization (decentralized), environments are independently managed, and the
 administrative responsibilities have been assigned to individual
 business units to manage. This organization operates within
-a single region and the default environment has been renamed to be
-called Personal Productivity. Additional environments have been created
+a single region and the default environment has been renamed to 
+**Personal Productivity**. Additional environments have been created
 for respective business units like HR, Finance, Operations, and IT.
 
 ![single region decentralized](../media/2-single-region-decentralized.png)
@@ -58,7 +58,7 @@ for respective business units like HR, Finance, Operations, and IT.
 In multi-region organization (centralized), environments are centrally managed and include
 isolation for personal productivity, development, testing, and production
 purposes. The personal productivity environment can be used to support
-scenarios like email notifications, team-based approvals, ad hoc data
+scenarios like email notifications, team-based approvals, improvised data
 collection, and the integration with Office 365 services. The central
 team that manages environments also provides access into non-default
 environments.
@@ -77,7 +77,7 @@ Europe regions.
 Because the default environment behavior is that all licensed users
 are makers in this environment, you cannot remove users from
 this default environment. However, to create a workspace for users to build
-ad hoc apps and flows, Personal Productivity environments are also
+improvised apps and flows, Personal Productivity environments are also
 created in Asia and Europe so that users can build these assets without
 being concerned about data drifting away from their home region.
 
@@ -92,8 +92,8 @@ through environments to address any compliance requirements.
 In multi-region organization (decentralized), the environments are independently managed, and
 the administrative responsibilities have been assigned to individual
 business units to manage. This organization operates in
-multiple regions, and the default environment has been renamed to be
-called Personal Productivity and resides within the same region as the
+multiple regions, and the default environment has been renamed to 
+**Personal Productivity** and resides within the same region as the
 tenant (North America). Within this home region, additional environments
 have been created for different business units that provide them with
 the autonomy that they require. To illustrate this concept, environments for the HR, Finance, Operations, and IT business
@@ -102,7 +102,7 @@ units have been created.
 Because the default environment behavior is that all licensed users
 are makers in this environment, you cannot remove users from
 this default environment. However, to create a workspace for users to build
-ad hoc apps and flows, Personal Productivity environments are created in
+improvised apps and flows, Personal Productivity environments are created in
 Asia and Europe so that users can build these assets without being
 concerned about data drifting away from their home region.
 
@@ -122,7 +122,7 @@ support exceptions. For example, you might have a tenant-wide DLP policy
 that prevents joining SharePoint and Twitter connectors within the same
 app or flow. For many job functions, having the ability to retrieve data
 from SharePoint and then publish it to Twitter is not a valid business
-scenario. However, for a business unit like Corporate Communications, this
+scenario. However, for a business unit like Corporate Communications, this scenario 
 might be a perfectly valid use case to support.
 
 If people have a need to use a connector like Twitter, but an
