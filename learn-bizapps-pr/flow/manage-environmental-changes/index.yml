@@ -2,12 +2,12 @@
 uid: learn-bizapps.manage-environmental-changes 
 metadata: 
  title: Manage environmental changes in Power Automate
- description: Learn best practices for securing and governing power automate environments
- ms.date: 02/20/2020
+ description: Learn best practices for communicating changes to DLP policies, unerstand how users are using Power Automate, discover who in your organization is creating and sharing flows, learn what connections are being used within your Power Automate environments, and observe how connections are estalished within your Power Automate environments.
+ ms.date: 03/12/2020
  author: KevSch
  ms.author: kschimke 
  ms.topic: interactive-tutorial
- ms.prod: d365-power-platform
+ ms.prod: learning-power-automate
 title: Manage environmental changes in Power Automate
 summary: |
   [!include[](../includes/module-banner.md)] 
@@ -15,22 +15,23 @@ summary: |
 abstract: |
     In this module, you will: 
     - Identify best practices for communicating changes to DLP policies
-    -	Understand how users are using Power Automate
+    -	Understand how users in your organization are using Power Automate
     -	Discover who in your organization is creating and sharing flows
     -	Learn what connectors are being used within your Power Automate environments
-    -	Observe how connections are being established within your Power Automate environments. 
-prerequisites: A basic understanding of Power Apps and Power Automate including their purpose and how these tools are used within an organization. Students should also understand how connectors are used within apps and flows in order to exchange data across source and destination systems.
+    -	Observe how connections are being established within your Power Automate environments
+prerequisites: A basic understanding of Power Apps and Power Automate including their purpose and how these tools are used within an organization. Learners should understand how connectors are used within apps and flows in order to exchange data across source and destination systems. You also need an account that has environment or tenant admin privileges for Power Platform.
 iconUrl: /learn/achievements/manage-environmental-changes.svg  
 levels:  
 - intermediate   
 roles:  
-- functional-consultant
 - administrator
+- functional-consultant
 products:  
-- dynamics  
+- power-automate  
 - power-platform
+- powerapps
 units: 
-- learn-bizapps.manage-environmental-changes.1-intro-and-best-practices 
+- learn-bizapps.manage-environmental-changes.1-intro-best-practices 
 - learn-bizapps.manage-environmental-changes.2-prerequisites 
 - learn-bizapps.manage-environmental-changes.3-implementing-best-practices 
 - learn-bizapps.manage-environmental-changes.4-view-admin-analytics 

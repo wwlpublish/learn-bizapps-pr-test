@@ -1,20 +1,20 @@
 Communicating changes to DLP can be a challenging endeavor and will
-differ depending upon organization design. In this section, we will
+differ depending upon organization design. In this unit, we will
 discuss approaches that can be used to communicate DLP change
 information to your makers.
 
 Here are some strategies to consider:
 
-1.  Create an Intranet/Wiki site that can be used for makers to
+1.  Create an Intranet/Wiki site that can be used for app makers to
     reference so they understand what DLP policies exist.
 
 2.  Track all flow users in a digital list. This can be a Yammer group,
-    SharePoint list, distribution list or Azure Active Directory group
-    or by using the Power Platform Center of Excellence Starter Kit that
-    we discussed in Module 1.
+    SharePoint list, distribution list or Azure Active Directory group.
+    You could also use the Power Platform Center of Excellence Starter 
+    Kit that we discussed in earlier modules.
 
-    **Note:** In Module 5 we will build a digital list that helps you
-    track new users.
+    **Note:** In the next module of this learning path, we will build a 
+    digital list that helps you track new users.
 
 3.  Communicate upcoming DLP changes in your IT Change Management
     meetings. An IT Change Board is a common vehicle for IT
@@ -24,7 +24,7 @@ Here are some strategies to consider:
     who may have a dependency on your service.
 
 4.  Send out advance notice to all makers of upcoming DLP changes, by
-    leveraging the digital list that was discussed in step 2. Ideally,
+    leveraging the digital list that was discussed earlier. Ideally,
     this process is also automated, using Power Automate to reduce
     manual activities.
 
@@ -34,7 +34,8 @@ Here are some strategies to consider:
     makers have an outlet that they can use to request additional
     assistance if required.
 
-6.  Be prepared for exceptions. In Module 1, we discussed the need for
+6.  Be prepared for exceptions. In the Introduction to Power Automate 
+    security and governance module, we discussed the need for
     exception environments where DLP rules are relaxed. As part of the
     communication that goes out to makers, they may have some legitimate
     needs to continue to use connectors in their current configuration.
