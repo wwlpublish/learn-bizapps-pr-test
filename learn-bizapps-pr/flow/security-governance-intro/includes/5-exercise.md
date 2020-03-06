@@ -1,7 +1,8 @@
-In this exercise, you will create a Power Automate environment by completing the following steps:
+In this exercise, you'll create a Power Automate environment by completing the following steps:
 
-1.  To complete this exercise, ensure that your account meets the [licensing criteria](https://docs.microsoft.com/power-platform/admin/create-environment#who-can-create-environments/?azure-portal=true). 
-If necessary, sign up for a [trial account](https://flow.microsoft.com/#home-signup/?azure-portal=true).
+1.  To complete this exercise, ensure that your account meets the licensing criteria discussed 
+here in the [Who can create environments](https://docs.microsoft.com/power-platform/admin/create-environment#who-can-create-environments/?azure-portal=true) section. 
+If necessary, sign up for a [trial Power Automate account](https://flow.microsoft.com/#home-signup/?azure-portal=true).
 
 2.  Sign in to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true).
 
@@ -14,8 +15,9 @@ If necessary, sign up for a [trial account](https://flow.microsoft.com/#home-sig
 5.  Provide a **Name** of **Development** and then select a **Type** of
     environment. Depending on your circumstances, create a **Trial** or
     **Production** environment. If you plan to dispose of this environment
-    after completing this learning path, select **Trial**. If you anticipate that this
-    environment will be used beyond 30 days, select **Production**.
+    after completing the modules in this learning path, select **Trial**. 
+    If you anticipate that this environment will be used beyond 30 days, 
+    select **Production**.
 
 	> [!NOTE]
 	>  When selecting the **Type** of environment, you do have three options: **Sandbox**, **Production**, and **Trial**. Sandbox environments are for building proof-of-concept applications and flows that might need to be reset without recreating the entire environment. Production environments are suited for stable workloads where you have predictable usage. Trial environments will expire after 30 days. These environments are best suited for evaluating technologies.
