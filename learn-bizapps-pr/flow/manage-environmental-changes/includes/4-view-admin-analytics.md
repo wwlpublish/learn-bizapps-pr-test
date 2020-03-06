@@ -57,7 +57,7 @@ Automate Analytics feature, starting with the Runs report. Within the Runs repor
 administrators will be able to determine the number of flow runs within
 that environment per Day, Week, and Month. In addition, Power BI embedded
 slicers allow an administrator to filter data based upon whether the
-run was successful, failed or cancelled.
+run was successful, failed, or canceled.
 
 For organizations who are adopting Power Automate, this report can
 provide insights that help determine the level of adoption within the
@@ -85,10 +85,9 @@ that have been recently created will also be listed in a table that
 includes the Created date and the Flow creator email address. Lastly, a
 trend of when these flows were created is also displayed.
 
-This report is particularly interesting for people responsible for
-change management. Perhaps the organization has recently provided Power
-Automate training and wants to see if people are putting these new skills
-to use.
+This report is interesting for people responsible for change management. 
+Perhaps the organization has recently provided Power Automate training 
+and wants to see if people are putting these new skills to use.
 
 ![Created date](../media/5-created.png)
 
@@ -109,10 +108,9 @@ be displayed that includes the Flow name that was shared, the number of
 Shares and the Flow creator's email. Lastly, a trend will display what day
 the flow was shared on within the configured time period.
 
-This report is particularly useful for identifying makers who are
-sharing their work with others within the organization. These makers are
-often referred to as champions who should be empowered so they can drive
-further business results.
+This report is useful for identifying makers who are sharing their work with 
+others within the organization. These makers are often referred to as champions 
+who should be empowered so they can drive further business results.
 
 ![Shared report](../media/7-shared.png)
 
@@ -133,14 +131,14 @@ connector and the Flow creator email address. This will help us identify
 all of the makers that we should proactively reach out to before making
 any DLP changes.
 
-This report is very useful in both governance and change management
+This report is useful in both governance and change management
 situations. It allows administrators to identify if connectors are being
 used that are not in the best interests of the organization and allows
 administrators to work with those people to better understand why they
 are using those connectors, and potentially implement actions that
 prevent further usage.
 
-On the other hand, if an administrator discovers there is a lot of
+On the other hand, if an administrator discovers there is lots of
 utilization around a particular connector, like Microsoft Forms, perhaps
 they want to evangelize its usefulness with other business units in an
 attempt to scale the organization and reap more benefits for the
