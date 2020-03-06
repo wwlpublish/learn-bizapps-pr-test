@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.manage-environmental-changes.7-summary 
+uid: learn-bizapps.manage-environmental-changes.8-summary 
 title: Summary
 metadata: 
   title: Summary
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 5 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/7-summary.md)] 
+ [!include[](includes/8-summary.md)] 

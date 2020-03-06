@@ -35,8 +35,9 @@ units:
 - learn-bizapps.manage-environmental-changes.2-prerequisites 
 - learn-bizapps.manage-environmental-changes.3-implementing-best-practices 
 - learn-bizapps.manage-environmental-changes.4-view-admin-analytics 
-- learn-bizapps.manage-environmental-changes.5-exercise 
-- learn-bizapps.manage-environmental-changes.6-check 
-- learn-bizapps.manage-environmental-changes.7-summary 
+- learn-bizapps.manage-environmental-changes.5-gain-visibility
+- learn-bizapps.manage-environmental-changes.6-exercise 
+- learn-bizapps.manage-environmental-changes.7-check 
+- learn-bizapps.manage-environmental-changes.8-summary 
 badge: 
   uid: learn-bizapps.manage-environmental-changes.badge 
