@@ -9,8 +9,8 @@ automatically inherit this tenant-wide DLP policy.
 
 The following sections discuss layering DLP policies. An
 organization might choose to implement a layered approach that enables
-specific scenarios but blocks others. When conflicting policies exist, Microsoft will still apply the most
-restrictive policy.
+specific scenarios but blocks others. When conflicting policies exist, 
+Microsoft will still apply the most restrictive policy.
 
 ### Scenario 1: Office 365 Outlook and OneDrive for Business
 

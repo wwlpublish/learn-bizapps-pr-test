@@ -14,7 +14,8 @@ Much like organizations that invest in cyber security training and exercises, li
 phishing, it is equally important that organizations invest in educating the app makers
 if they want them to use Power Platform in a responsible manner.
 
-Another opportunity to communicate policies is through automation, such as the Power Platform Center of Excellence (COE) Starter Kit. 
+Another opportunity to communicate policies is through automation, such as 
+the Power Platform Center of Excellence (COE) Starter Kit. 
 This Starter Kit includes a welcome email that can be sent when 
 a new app or flow is created. This email provides an excellent opportunity for 
 organizations to include policy messaging and a link to an intranet article 
