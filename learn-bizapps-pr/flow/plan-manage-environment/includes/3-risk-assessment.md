@@ -5,33 +5,32 @@ assessment, we recommend that you first review that assessment to see if it can 
 used. One situation that you definitely should avoid is creating something for 
 Power Platform that isn't aligned to a broader cyber security risk assessment.
 
-Otherwise, the following sections highlight some considerations that you can use to establish a
-lightweight risk assessment process that helps you track, measure, and
-monitor the risks within your organization.
+Otherwise, the following sections highlight some considerations that you can use 
+to establish a lightweight risk assessment process that helps you track, measure, 
+and monitor the risks within your organization.
 
 ### Establish baseline through standards
 
-Organizations should clearly identify and articulate standards. If you want makers to comply 
-with the expectations of the organization, then you need to identify the 
+Organizations should clearly identify and articulate standards. If you want makers 
+to comply with the expectations of the organization, then you need to identify the 
 acceptable behaviors, actions, and activities. If people are not aware that 
 these standards exist, they can't proactively comply with them. These 
 standards should be made visible within an organization through an intranet 
 site or wiki. In addition, this information can be communicated through 
-automation when a user creates their first flow or app. This strategy is further discussed later in this module.
+automation when a user creates their first flow or app. This strategy is further 
+discussed later in this module.
 
 ### Implement governance controls to prevent unwanted actions
 
-Governance is only useful if it is enforced.
-An organization needs to establish base rules and constraints to
-avoid data leakage.
+Governance is only useful if it is enforced. An organization needs to establish 
+base rules and constraints to avoid data leakage.
 
 ### Establish an exception process
 
-Situations might occur where a legitimate
-business need exists for a specific action or activity to be permitted.
-However, it is important that the decision to proceed is captured
-with the right level of visibility by people who have the authority
-to make that decision.
+Situations might occur where a legitimate business need exists for a specific 
+action or activity to be permitted. However, it is important that the decision 
+to proceed is captured with the right level of visibility by people who have 
+the authority to make that decision.
 
 ### Track exceptions
 
