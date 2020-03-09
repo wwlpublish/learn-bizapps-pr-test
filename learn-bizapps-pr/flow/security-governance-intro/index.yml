@@ -15,8 +15,8 @@ summary: |
 abstract: |  
     In this module, you will: 
     - Access the Power Platform and Power Automate Admin experiences.
-    - Discover and identify the differences between the Business data group and the No-business data group.
     - Create simple environment and tenant-wide DLP policies.
+    - Discover and identify the differences between the Business data group and the No-business data group.
     - Learn about the differences between out-of-the-box Power Automate Admin experiences and the Power Platform Center of Excellence toolkit.
 prerequisites: A basic understanding of Power Apps and Power Automate, including their purpose and how these tools are used within an organization.  
 iconUrl: /learn/achievements/security-governance-intro.svg  
@@ -26,7 +26,6 @@ roles:
 - administrator   
 - functional-consultant 
 products:  
-- dynamics  
 - power-automate
 - power-platform 
 - powerapps
