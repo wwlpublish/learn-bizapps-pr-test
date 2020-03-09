@@ -1,17 +1,15 @@
-In this module we will provide some prescriptive guidance on how
-organizations can govern their Power Platform environments. The areas we
-will focus on include default data groups for Data Loss
+This module provides prescriptive guidance on how
+organizations can govern their Power Platform environments. The areas of
+focus include default data groups for Data Loss
 Prevention (DLP) policies. 
 
-We will also provide some sample DLP configurations for targeting 
-Office 365 and Dynamics 365 users. In addition, we are going to explore 
-some more advanced scenarios that include Custom connectors and managing 
-DLP for HTTP connectors. As part of our Custom connector and HTTP 
-exploration, we will also discuss some tools available to us including 
-the Power Platform Management connectors and PowerShell Cmdlets.
+Additionally, this module provides sample DLP configurations for  
+Office 365 and Dynamics 365 users. You will also explore 
+more advanced scenarios that include custom connectors and managing 
+DLP for HTTP connectors. As part of the custom connector and HTTP 
+exploration, the module also discusses the available tools, including 
+Power Platform Management connectors and PowerShell cmdlets.
 
-It is important to remember that every organization has different
-needs when it comes to governance. Approach the following sections as
-options and select to implement the solution that best aligns with your
-requirements.
+Every organization has different needs when it comes to governance. Approach the following sections as
+options and implement the solution that best aligns with your requirements.
 
