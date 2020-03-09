@@ -3,7 +3,7 @@ uid: learn-bizapps.templates-governance-policies
 metadata: 
  title: Use templates to enforce governance policies in Power Automate
  description: Microsoft provides many templates in Power Automate that administrators can use to enforce governance policies and increase visibility of assets being created within a customer’s tenant. In this module, we will identify some existing templates that can be used to provide administrators with greater visibility.
- ms.date: 2/29/2020  
+ ms.date: 3/17/2020  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
@@ -22,10 +22,12 @@ iconUrl: /learn/achievements/templates-governance-policies.svg
 levels:  
 - intermediate   
 roles:  
-- business-user   
+- administrator   
 - functional-consultant 
 products:  
 - power-automate 
+- power-platform
+- powerapps
 units: 
 - learn-bizapps.templates-governance-policies.1-introduction 
 - learn-bizapps.templates-governance-policies.2-prerequisites 
