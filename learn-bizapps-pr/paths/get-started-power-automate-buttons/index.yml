@@ -20,9 +20,9 @@ iconUrl: /learn/achievements/get-started-power-automate-buttons.svg
 levels:
 - intermediate
 roles:
-- business-user
 - functional-consultant
 - maker
+- business-user
 products:
 - power-platform
 - power-automate
