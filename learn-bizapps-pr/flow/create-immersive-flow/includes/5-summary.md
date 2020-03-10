@@ -1,28 +1,32 @@
 In this module, we started getting our hands on the tools and building
-our first immersive Business Process Flow. We learned the following:
+our first immersive business process flow. We learned the following:
 
--   What is an immersive Business Process Flow?
+-   What an immersive business process flow is.
 
--   What is the difference between an embedded and immersive Business Process Flow?
+-   The differences between an embedded and immersive business process flow.
 
--   How to create a new immersive Business Process Flow in Power Automate
+-   How to create a new immersive business process flow in Power Automate.
 
--   How to add fields to an entity using the Business Process Flow designer
+-   How to add fields to an entity using the business process flow designer.
 
--   How to build and save a two-step business immersive Business Process Flow using Stages and Data Steps
+-   How to build and save a two-step business immersive business process flow using stages and data steps.
 
--   How to run an immersive Business Process Flow
+-   How to run an immersive business process flow.
 
--   How to view the data you created in the new immersive Business Process Flow
+-   How to view the data you created in the new immersive business process flow.
 
-Although immersive business process flows are the main focus of this module, Business Process Flows can also be created and embedded within a Model Driven Application. If you want to learn more about embedded Business Process Flows, follow the links below for a series of videos demonstrate building an embedded Business Process Flow within a
-model driven app. The videos are informative and led by Microsoft Power Automate Product Managers.
+Although immersive business process flows are the main focus of this module, 
+business process flows can also be created and embedded within a model-driven 
+application. If you want to learn more about embedded business process flows, 
+follow the links below for a series of videos that demonstrate the building 
+of an embedded business process flow within a model-driven app. The videos are 
+informative and led by Microsoft Power Automate Product Managers.
 
 [Introduction & Planning a Business Process Flow](https://www.youtube.com/watch?v=7RiXDiPNZic/?azure-portal=true) 
 
 [Building a Model Driven App](https://www.youtube.com/watch?v=ssIyrDVCaw8/?azure-portal=true) 
 
-[Build A Business Process Flow && Add to Model Driven App](https://www.youtube.com/watch?v=e4u9fE_teNo/?azure-portal=true) 
+[Build A Business Process Flow and Add to Model Driven Apps](https://www.youtube.com/watch?v=e4u9fE_teNo/?azure-portal=true) 
 
 [Add a Flow to help manage Stages in a Business Process Flow](https://www.youtube.com/watch?v=e4u9fE_teNo/?azure-portal=true) 
 

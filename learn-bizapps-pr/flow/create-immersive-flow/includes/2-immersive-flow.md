@@ -43,19 +43,19 @@ in to your local instance.
 under the entity dropdown and select the **Create** button as shown below. Wait a minute for the 
 entity to be created, and then the Business process flow Editor will launch.
 
-	![Naming the new business process flow](../media/6-naming-new-business-process-flow.png)
+   ![Naming the new business process flow](../media/6-naming-new-business-process-flow.png)
 
 1. In the Business process flow Editor, you can start adding fields to the 
 new Entity (customercheckin) that was automatically created in the previous step. 
 Select the **Customer Check In New Stage** as shown below.
 
-	![Selecting Stage One in the Business process flow Editor](../media/7-selecting-stage-one-business-process-flow-editor.png)
+   ![Selecting Stage One in the Business process flow Editor](../media/7-selecting-stage-one-business-process-flow-editor.png)
 
 1. Select the New Stage within the designer, and rename the Stage to
 **Collect Customer Information**, and then select the **Apply** button as shown
 in the screenshot below.
 
-	![Naming Stage One in the Business process flow Editor](../media/8-naming-stage-one-business-process-flow-editor.png)
+   ![Naming Stage One in the Business process flow Editor](../media/8-naming-stage-one-business-process-flow-editor.png)
 
 	Next, we will add some fields to the new **CollectCustomerInfo** entity in Common Data Service so we can capture customer information.
 
@@ -65,14 +65,14 @@ in the screenshot below.
 
 	![Detail of select Click to add fields and forms hyperlink](../media/10-select-click-add-fields-and-forms-hyperlink.png)
 
-1.  Now let's add some fields. Add fields to the collectcustomerinfo entity by selecting the **Add Field** button as shown below.
+1. Now let's add some fields. Add fields to the collectcustomerinfo entity by selecting the **Add Field** button as shown below.
 
-	![Selecting the +Add Field button](../media/11-selecting-add-field-button.png)
+   ![Selecting the +Add Field button](../media/11-selecting-add-field-button.png)
 
-1.  Add each of the following field listed below - type the name and data type and
+1. Add each of the following field listed below - type the name and data type and
 then select the **Done** button each time you add a new field, as shown in the screen below.
 
-	![Creating Entry Date Field](../media/12-creating-entry-date-field.png)
+   ![Creating Entry Date Field](../media/12-creating-entry-date-field.png)
 
 	- Entry Date - Date Only
 	- First Name - Text
@@ -85,11 +85,11 @@ then select the **Done** button each time you add a new field, as shown in the s
 	- Phone Number - Phone Number
 	- Comments - Text Area
 
-1. 	When you are finished, select the **Save Entity** button to save 
+1. When you are finished, select the **Save Entity** button to save 
 the new fields. Make sure to select the **Save Entity** button or none
 of the fields will be added.
 
-	![Select Save Entity button](../media/13-select-save-entity-button.png)
+   ![Select Save Entity button](../media/13-select-save-entity-button.png)
 
 1.	Close the current tab of the browser showing the entity fields, and 
 return to the business process flow designer screen.
@@ -118,7 +118,7 @@ the **Customer Check In** business process flow.
 1. Select the Components tab and drag a Data Step under data Step 1
 as shown below.
 
-	![Add another data step](../media/16-add-another-data-step.png)
+   ![Add another data step](../media/16-add-another-data-step.png)
 
 1. Select Data Step #2 and enter in the following information.
 
@@ -133,30 +133,26 @@ as shown below.
 	![Add Last Name Data Step](../media/17-add-last-name-data-step.png)
 
 1. Select the **Components** tab, and drag additional data steps and add
-fields until all the fields we added earlier have been entered under 
-Stage One. (Date Entered, Address, City, State, Postal Code, Comments).
+fields we added earlier under Stage One. (Entry Date, Address, City, State, etc.).
 
 1. When you are done, Stage 1 should look as shown below. If all
-looks correct then select the Update button in the ribbon.
+looks correct, then select the **Update** button in the ribbon.
 
-	![All data steps in stage one](../media/18-all-data-steps-stage-one.png)
+   ![All data steps in stage one](../media/18-all-data-steps-stage-one.png)
 
 	> [!NOTE]
-	> When the Data Process Flow is used, data will be saved into the
-	fields we created in the customercheckin entity in Common Data Service -
-	Aha!
+	> When the data process flow is used, data will be saved into the
+	fields we created in the customercheckin entity in Common Data Service.
 
-	Now we want to collect information about the automobile being serviced so let's add a new stage and add fields about the automobile to the
-	customercheckinentity.
+	Now we want to collect information about the automobile being serviced so let's add a new stage and add fields about the automobile to the customercheckinentity.
 
-1. Select the Components Tab and drag a new stage to the right of
-stage 1. Make sure to drop it into the "+" sign. The new stage should
+1. Select the **Components** tab and drag a new stage to the right of
+Stage 1. Make sure to drop it into the **+** sign. The new stage should
 look like the screenshot below.
 
-	![Add a new stage component](../media/19-add-new-stage-component.png)
+   ![Add a new stage component](../media/19-add-new-stage-component.png)
 
-1. Now repeat the steps we covered for stage 1 (steps 7 -10 above)
-and add the following fields and steps.
+1. Now, repeat the steps we covered for Stage 1, and add the following fields and steps.
 
 	-   Automobile Make - Text
 	
@@ -168,10 +164,9 @@ and add the following fields and steps.
 	
 	-   Automobile Comments - Text Area
 
-Make sure to save the entity after you add the new fields.
+1. Make sure to save the entity after you add the new fields.
 
-When you are done adding the data steps, make sure to select the update
-button in the ribbon as we did in step 14. Your completed stage 2 should
-look like the screenshot below.
+1. When you are done adding the data steps, make sure to select the **Update**
+button in the ribbon. Your completed Stage 2 should look like the screenshot below.
 
 ![Second stage added](../media/20-second-stage-added.png)
