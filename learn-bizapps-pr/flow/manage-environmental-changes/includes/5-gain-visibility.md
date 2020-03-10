@@ -45,6 +45,6 @@ command, which will write this information to a file.
 ```Get-AdminFlow | Export-Csv -Path '.\FlowExport.csv'```
 
 Because the output of PowerShell cmdlet is a CSV file, you can load the results into a 
-business intelligence tool, like Power Bi or Microsoft Excel, where you can further 
+business intelligence tool, like Power BI or Microsoft Excel, where you can further 
 analyze the results.
 
