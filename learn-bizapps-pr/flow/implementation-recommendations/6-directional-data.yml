@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.implementation-recommendations.6-directional-data 
-title: Layering directional data governance on top of DLP policies
+title: Layer directional data governance on top of DLP policies
 metadata: 
-  title: Layering directional data governance on top of DLP policies 
+  title: Layer directional data governance on top of DLP policies 
   description: Learn about layering directional data governance on top of DLP policies.  
   ms.date: 3/11/2020 
   author: KevSch 
