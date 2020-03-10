@@ -26,7 +26,7 @@ each stage. Business process flows support logical branching so they can
 be used to standardize many common business processes within an
 organization.
 
-business process flows offer the following benefits:
+Business process flows offer the following benefits:
 
 -   Improved outcomes
 
@@ -51,7 +51,7 @@ be used in Power BI dashboards and reporting for simplified administration.
 
 ### Business process flows and the larger Power Platform
 
-business process flows are deeply integrated with the Microsoft Power
+Business process flows are deeply integrated with the Microsoft Power
 Platform. They are created, customized, and managed using Power
 Automate. You can manage or create new business process flows by
 launching Power Automate and selecting the business process flows under
