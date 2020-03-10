@@ -46,15 +46,15 @@ quiz:
     - content: Can be embedded into a public website.
       isCorrect: false
       explanation: business process flows can be embedded in model-driven Power Apps.
-    - content: Can be added as a Webpart in SharePoint.
+    - content: Can be added as a Web part in SharePoint.
       isCorrect: false 
-      explanation: business process flows can be embedded in model-driven Power Apps.
+      explanation: Business process flows can be embedded in model-driven Power Apps.
     - content: Can be embedded in a custom .NET application.
       isCorrect: false 
-      explanation: business process flows can be embedded in model-driven Power Apps.
+      explanation: Business process flows can be embedded in model-driven Power Apps.
     - content: Can be embedded in model-driven Power Apps.
       isCorrect: true
-      explanation: business process flows can be embedded in model-driven Power Apps.
+      explanation: Business process flows can be embedded in model-driven Power Apps.
   - content: What tool is used to build business process flows?
     choices: 
     - content: Microsoft Visio
