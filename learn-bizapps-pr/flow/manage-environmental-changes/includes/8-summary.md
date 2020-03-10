@@ -9,7 +9,7 @@ valuable tool for administrators to get insights into their users. This feature
 doesn’t require any intervention by an administrator. It's refreshed automatically 
 and keeps data for 28 days.
 
-For situations where administrators want more control, you have access to many 
+For situations where administrators want more control, you will have access to many 
 PowerShell cmdlets that can help you provide administrators with more 
 visibility into their user’s actions. 
 
