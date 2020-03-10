@@ -19,8 +19,10 @@ retention, and increase sales.
 Management believes improved data collection and standardized processes
 will improve customer satisfaction, improve customer loyalty, and
 increase recurring business and overall sales revenue. You have decided
-to create an immersive Business Flow using Power Automate to meet
+to create an immersive business flow using Power Automate to meet
 management goals. Let's get started.
+
+### Create an immersive business process flow
 
 1. Go to [Power Automate](https://preview.flow.microsoft.com/?azure-portal=true) and sign
 in to your local instance. 
@@ -68,7 +70,7 @@ in the screenshot below.
 	![Selecting the +Add Field button](../media/11-selecting-add-field-button.png)
 
 1.  Add each of the following field listed below - type the name and data type and
-select the **Done** button each time you add a new field as shown in the screen below.
+then select the **Done** button each time you add a new field, as shown in the screen below.
 
 	![Creating Entry Date Field](../media/12-creating-entry-date-field.png)
 
@@ -83,55 +85,56 @@ select the **Done** button each time you add a new field as shown in the screen 
 	- Phone Number - Phone Number
 	- Comments - Text Area
 
-1. When you are done, select the "Save Entity" button as shown to
-save the new fields. Make sure to select the Save Entity button or none
+1. 	When you are finished, select the **Save Entity** button to save 
+the new fields. Make sure to select the **Save Entity** button or none
 of the fields will be added.
 
 	![Select Save Entity button](../media/13-select-save-entity-button.png)
 
-1. Now we are ready to add the fields as Steps in the first Stage in
-the "Customer Check In" Business Process Flow. Close the current tab of
-the browser showing the entity fields and return to the Business Process
-Flow designer screen as shown below.
+1.	Close the current tab of the browser showing the entity fields, and 
+return to the business process flow designer screen.
 
-	1. Refresh your browser.
+### Add fields as steps and finish the flow
 
-	1. Select the "Customer Check In" Stage.
+Now we are ready to add the fields as Steps in the first Stage in
+the **Customer Check In** business process flow. 
 
-		![Add a data step](../media/14-add-data-step.png)
+1. Refresh your browser, and then select the **Customer Check In** Stage.
 
-	1. Select the Data Step # 1 and then enter the Following as shown below:
+	![Add a data step](../media/14-add-data-step.png)
 
-		-   Step Name - Type "First Name"
+1. Select Data Step # 1, and then enter the following as shown below:
+
+	-   Step Name - Enter First Name.
 		
-		-   Data Field - Select "First Name" from the dropdown in Data Field
+	-   Data Field - Select **First Name** from the drop-down menu.
 		
-		-   Select Required checkbox
+	-   Select the Required checkbox.
 		
-		-   Then select the "Apply" Button
+	-   Select the **Apply** button.
 		
-		![Adding First Name Data Step](../media/15-adding-first-name-data-step.png)
+	![Adding First Name Data Step](../media/15-adding-first-name-data-step.png)
 
-1. Select the Components tab and drag a "Data Step" under data Step 1
+1. Select the Components tab and drag a Data Step under data Step 1
 as shown below.
 
 	![Add another data step](../media/16-add-another-data-step.png)
 
-1. Select Data Step #2 and enter in the following Information.
+1. Select Data Step #2 and enter in the following information.
 
 	-   Step Name - Last Name
 	
-	-   Data Field - Last Name
+	-   Data Field - Select **Last Name** from the drop-down menu.
 	
-	-   Select the Required Checkbox
+	-   Select the Required checkbox.
 	
-	-   Select the "Apply" Button
+	-   Select the **Apply** button.
 
 	![Add Last Name Data Step](../media/17-add-last-name-data-step.png)
 
-1. Select the Components tab and drag additional data steps and add
-fields until all fields we added in step 8 above have been entered under
-stage one. (Date Entered, Address, City, State, Postal Code, Comments).
+1. Select the **Components** tab, and drag additional data steps and add
+fields until all the fields we added earlier have been entered under 
+Stage One. (Date Entered, Address, City, State, Postal Code, Comments).
 
 1. When you are done, Stage 1 should look as shown below. If all
 looks correct then select the Update button in the ribbon.
