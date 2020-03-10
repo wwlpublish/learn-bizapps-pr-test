@@ -31,7 +31,7 @@ can now run this flow. If new connectors have been deployed in the
 past day, you will receive an email similar to the following. In this case, you 
 have a custom connector that has been recently deployed in your environment.
 
-This is an important email for an administrator because they can now adjust their DLP policies to ensure that this connector has been placed in the correct data group.
+This email is important for an administrator because they can now adjust their DLP policies to ensure that this connector has been placed in the correct data group.
 
 ![sample email](../media/6-email.png)
 
