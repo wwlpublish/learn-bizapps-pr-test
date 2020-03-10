@@ -1,15 +1,15 @@
-We are finally ready to start building an immersive Business process
-Flow with Power Automate and Common data service. Recall that all data
-associated with any Business Process Flow is always stored in one or
-more entities within Common Data Service and Business Process Flows.
+We are ready to start building an immersive business process flow 
+with Power Automate and Common Data Service. Remember, all data
+associated with any business process flow is always stored in one or
+more entities within Common Data Service and business process flows.
 
 > [!NOTE]
-> You will need access to an account that has permission to create entities and fields in Common Data Service to complete this exercise and PowerApps or Dynamics 365 License. Ask your Power Platform administrator for proper permissions or log in and create a personal Power Apps and Power Automate development environment using the Community License plan (it is free) by accessing [PowerApps](https://powerapps.microsoft.com/communityplan/?azure-portal=true).
+> You will need access to an account that has permission to create entities and fields in Common Data Service to complete this exercise, and a PowerApps or Dynamics 365 License. Ask your Power Platform administrator for proper permissions or log in and create a personal Power Apps and Power Automate development environment using the Community License plan (it's free!) by accessing the [Power Apps Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true) page.
 
 ### Scenario
 
-You work for SmogChecksRUs, a rapidly growing auto repair
-company that specializes in performing automotive smog checks and other
+You work for SmogChecksRUs, a rapidly growing auto repair company 
+that specializes in performing automotive smog checks and other
 auto services. SmogChecksRUs has been using an Excel spreadsheet to
 collect customer and vehicle information, but now marketing has asked
 for a better way to collect information so they can follow-up with
@@ -22,61 +22,53 @@ increase recurring business and overall sales revenue. You have decided
 to create an immersive Business Flow using Power Automate to meet
 management goals. Let's get started.
 
-1. Log into [Power Automate](https://us.flow.microsoft.com/?azure-portal=true) and sign
-in. If you are outside the United States, log into your local instance
-of Power Automate.
+1. Go to [Power Automate](https://preview.flow.microsoft.com/?azure-portal=true) and sign
+in to your local instance. 
 
-1. Make sure to select the proper environment using the "gear" in the
-top right-hand side of the top ribbon.
+1. Make sure to select the proper environment in the top right-hand side of the screen.
 
 	![Select Environment in Power Automate](../media/3-selecting-environment-power-automate.png)
 
-1. Select My Flows in the menu on the left then select the Business
-Process Flows tab.
+1. Select My Flows in the menu on the left side of the screen, and then select the **Business process flows** tab.
 
-	![Selecting My flows and Business Process Flows in Power Automate](../media/4-selecting-my-flows-business-process-flows-power-automate.png)
+	![Selecting My Flows and Business process flows in Power Automate](../media/4-selecting-my-flows-business-process-flows-power-automate.png)
 
-1. Select the "+ New" button.
+1. Select the **+ New** button on the top left-hand side of the screen.
 
-	![Creating a new Business Process Flow using the + New button](../media/5-creating-new-business-process-flow-using-new-button.png)
+	![Creating a new business process flow using the + New button](../media/5-creating-new-business-process-flow-using-new-button.png)
 
-1. Name the Business Process Flow "Customer Check In" and select "None
-(Immersive Business Process)" under the entity dropdown and select the
-"Create" button as shown below. Wait a moment for the entity to be
-created and the Business Process Flow editor will launch.
+1. Enter a **Flow name** of "Customer Check In" and select **None (Immersive Business Process)** 
+under the entity dropdown and select the **Create** button as shown below. Wait a minute for the 
+entity to be created, and then the Business process flow Editor will launch.
 
-	![Naming the new Business Process Flow](../media/6-naming-new-business-process-flow.png)
+	![Naming the new business process flow](../media/6-naming-new-business-process-flow.png)
 
-1. After a moment, the Business Process Flow Editor will open and you
-can start adding fields to the new Entity (customercheckin) that was
-automagically create in step 5. Select the "Customer Check In New Stage"
-as shown below.
+1. In the Business process flow Editor, you can start adding fields to the 
+new Entity (customercheckin) that was automatically created in the previous step. 
+Select the **Customer Check In New Stage** as shown below.
 
-	![Selecting Stage One in the Business Process Flow Editor](../media/7-selecting-stage-one-business-process-flow-editor.png)
+	![Selecting Stage One in the Business process flow Editor](../media/7-selecting-stage-one-business-process-flow-editor.png)
 
-1. Select the New Stage within the designer and rename the Stage to
-"Collect Customer Information" then select the "Apply" button as shown
+1. Select the New Stage within the designer, and rename the Stage to
+**Collect Customer Information**, and then select the **Apply** button as shown
 in the screenshot below.
 
-	![Naming Stage One in the Business Process Flow Editor](../media/8-naming-stage-one-business-process-flow-editor.png)
+	![Naming Stage One in the Business process flow Editor](../media/8-naming-stage-one-business-process-flow-editor.png)
 
-	Now we will add some fields to the new CollectCustomerInfo entity in Common Data Service so we can capture customer information.
+	Next, we will add some fields to the new **CollectCustomerInfo** entity in Common Data Service so we can capture customer information.
 
-1. Select the "Collect Customer Info" stage the hyperlink "Click to
-add fields and forms" as shown below.
+1. Select the **Collect Customer Info** stage, and then the **Click to add fields and forms** hyperlink as shown below.
 
 	![Select Click to add fields and forms hyperlink](../media/9-select-click-add-fields-and-forms-hyperlink.png)
 
 	![Detail of select Click to add fields and forms hyperlink](../media/10-select-click-add-fields-and-forms-hyperlink.png)
 
-	Now let's add some fields. Add fields to the collectcustomerinfo entity
-	by selecting the "Add Field" button as shown below.
+1.  Now let's add some fields. Add fields to the collectcustomerinfo entity by selecting the **Add Field** button as shown below.
 
-	![Selecting +Add Field button](../media/11-selecting-add-field-button.png)
+	![Selecting the +Add Field button](../media/11-selecting-add-field-button.png)
 
-1. Add each field listed below - type the name and data type and
-select the "Done" button each time you add a new field as shown in the
-screen below.
+1.  Add each of the following field listed below - type the name and data type and
+select the **Done** button each time you add a new field as shown in the screen below.
 
 	![Creating Entry Date Field](../media/12-creating-entry-date-field.png)
 
