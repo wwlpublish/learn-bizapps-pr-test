@@ -1,6 +1,6 @@
 A business process flow is a visual guide that is meant to help users
 complete a business process using a set of predefined stages. There is
-no time limit on how long a business process can run and there are no
+no time limit on how long a business process can run. There are no
 limits on how long a stage can be open. All data associated with the
 business process flow can ONLY be stored in one or more entities in
 Common Data Service and you cannot associate a business process flow
@@ -26,7 +26,7 @@ each stage. Business process flows support logical branching so they can
 be used to standardize many common business processes within an
 organization.
 
-business process flows offers the following benefits:
+business process flows offer the following benefits:
 
 -   Improved outcomes
 
