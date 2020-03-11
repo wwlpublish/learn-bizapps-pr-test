@@ -47,11 +47,11 @@ materials that will accelerate their learning journey.
 
 1.  The environment listing call will return a list of environments and will subsequently add an **Apply to each** loop to your flow when you try to use data that is returned from your list.
 
-	Next, add the **List Flows as Admin** action from the Flow Management connector and pass in the **Name** value of the current environment that you are iterating through in your environments loop.
+	Next, add the **List Flows as Admin** action from the Flow Management connector and pass in the **Name** value of the current environment that you are iterating through, in your environments loop.
 
 	![list environments](../media/20-list-environments.png)
 
-1. Listing all flows within an environment will naturally return an array of flows. To address iterating through this array of flows, you will add an **Apply to each** loop. Within this loop, you want to check if you have any new flows in this environment. To complete this task, use the **Condition** action to verify if the ticks of the current flow of Create Date are greater than the ticks value of your reporting period variable that you established earlier. As a result, verify by using an expression of **```ticks(item()?\['properties'\]?\['createdTime'\]) is greater than our reportingPeriodTicks variable```**.
+1. Listing all flows within an environment will naturally return an array of flows. To address iterating through this array of flows, you will add an **Apply to each** loop. Within this loop, you want to check if you have any new flows in this environment. To complete this task, use the **Condition** action to verify if the ticks of the current flow create date are greater than the ticks value of your reporting period variable that you established earlier. As a result, verify by using an expression of **```ticks(item()?\['properties'\]?\['createdTime'\]) is greater than our reportingPeriodTicks variable```**.
 
     ![list flows](../media/21-list-flows.png)
 
