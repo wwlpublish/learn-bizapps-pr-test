@@ -54,7 +54,7 @@ branches, and not all branches end up at the same rendezvous stage. This
 is not currently allowed in a business process flow. An example of an
 unsupported flow is shown below.
 
-![Unsupported branching logic showing vehicle service for a tune-up
+![Example of unsupported branching logic showing vehicle service for a tune-up
 versus a smog and a test nested within it for a simple if then else for
 cars made in 1971 or before versus cars made after
 1971.](../media/2-process-flow-2-bad-branching.png)
