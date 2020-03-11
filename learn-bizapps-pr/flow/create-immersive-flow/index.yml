@@ -2,8 +2,8 @@
 uid: learn-bizapps.create-immersive-flow 
 metadata: 
  title: Create an immersive business process flow in Power Automate 
- description: This module will focus on how to build an immersive Business Process Flow using Power Automate and Common Data Service. Immersive Business Process Flows are easy to build with Power Automate and Common Data Service.  
- ms.date: 03/15/2020  
+ description: What is an immersive business process flow? This module will answer this question and focuses on how to build an immersive business process flow using Power Automate and Common Data Service.  
+ ms.date: 03/18/2020  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
@@ -11,21 +11,23 @@ metadata:
 title: Create an immersive business process flow in Power Automate  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module will focus on how to build an immersive Business Process Flow using Power Automate and Common Data Service. Immersive Business Process Flows are easy to build with Power Automate and Common Data Service.   
+  What is an immersive business process flow? This module will answer this question and focuses on how to build an immersive business process flow using Power Automate and Common Data Service.   
 abstract: |  
     In this module, you will: 
-    - Understand what an immersive Business Process is.
+    - Understand what an immersive business process flow is.
     - Understand the difference between a custom business process and a standard business process.
-    - Create an immersive Business Process using Power Automate and Common Data Service.
-prerequisites: The target Audience should have a basic understanding of how to model a business process as a set of stages, steps and branching concepts and a familiarity with the Power Platform.      
+    - Create an immersive business process flow using Power Automate and Common Data Service.
+prerequisites: A basic understanding of how to model a business process as a set of stages, steps and branching concepts using the Power Platform. An account that has permission to create entities and fields in Common Data Service to complete the exercises, and a Power Apps or Dynamics 365 License.     
 iconUrl: /learn/achievements/create-immersive-flow.svg  
 levels:  
 - intermediate   
 roles:  
-- business-user   
-- functional-consultant 
+- maker   
+- functional-consultant
+- business-user 
 products:    
-- power-automate 
+- power-automate
+- power-platform
 units: 
 - learn-bizapps.create-immersive-flow.1-introduction 
 - learn-bizapps.create-immersive-flow.2-immersive-flow 
