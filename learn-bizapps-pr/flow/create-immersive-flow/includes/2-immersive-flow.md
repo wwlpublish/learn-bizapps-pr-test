@@ -12,7 +12,7 @@ You work for SmogChecksRUs, a rapidly growing auto repair company
 that specializes in performing automotive smog checks and other
 auto services. SmogChecksRUs has been using an Excel spreadsheet to
 collect customer and vehicle information, but now marketing has asked
-for a better way to collect information so they can follow-up with
+for a better way to collect information so they can follow up with
 customers and schedule checkups every two years, improve customer
 retention, and increase sales.
 

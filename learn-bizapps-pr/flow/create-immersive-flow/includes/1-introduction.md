@@ -20,12 +20,12 @@ advantage of simplified creation and streamlined management.
 
 We will discuss how to build an immersive business process flow in the
 exercise at the end of this module. The screenshot below shows a simple
-two step immersive business process flow.
+two-step immersive business process flow.
 
-![Immersive business process flow two step example](../media/2-immersive-business-process-flow-stage-displayed.png)
+![Immersive business process flow two-step example](../media/2-immersive-business-process-flow-stage-displayed.png)
 
 Taking a closer look, you'll see that immersive and embedded business
-process flows look very similar. The map of the business process flow
+process flows look similar. The map of the business process flow
 is shown along the top of the screen and a main form is shown under it.
 
 The name of the business process flow is shown on the left-hand side of the 
@@ -48,7 +48,7 @@ rather than a component of a larger model-driven app.
 It is important to understand that many of the concepts and techniques
 discussed and demonstrated within this learning path apply to both
 embedded and immersive business process flows. Immersive and embedded
-flows are very similar. The main difference between them is how they are
+flows are similar. The main difference between them is how they are
 launched, and the context they are viewed in.
 
 The remainder of this module is focused on exploring and building an 
