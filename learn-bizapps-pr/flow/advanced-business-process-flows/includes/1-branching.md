@@ -32,7 +32,7 @@ flow.
 The diagram below models the branching business logic that we need to
 build into our flow. Study the diagram and then we will discuss this further.
 
-![Process flow diagram showing simple if then](../media/1-process-flow-1.png)
+![Process flow diagram showing a simple if then](../media/1-process-flow-1.png)
 
 In the business process flow logical diagram, you see that the smog
 equipment and the checks needed are different for vehicles built before
