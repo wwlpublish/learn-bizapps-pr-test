@@ -34,8 +34,7 @@ The *read default environment* (Get-FlowEnvironment -Default) cmdlet is one that
 
 ### List all flows in tenant 
 
-The *list all flows in tenant* (Get-AdminFlow) cmdlet will list all flows that exist within the tenant. The returned information 
-includes when the flow was created, who created it, and the environment that it was created in.
+The *list all flows in tenant* (Get-AdminFlow) cmdlet will list all flows that exist within the tenant. The returned information includes when the flow was created, who created it, and the environment that it was created in.
 
 ![default environment](../media/13-listflows.png)
 
