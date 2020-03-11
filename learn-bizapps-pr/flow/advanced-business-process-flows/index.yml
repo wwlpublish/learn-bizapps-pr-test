@@ -2,8 +2,8 @@
 uid: learn-bizapps.advanced-business-process-flows 
 metadata: 
  title: Understand advanced business process flow concepts in Power Automate 
- description: This module will build upon the knowledge gained in the first module - Introduction to Business Process Flows, and the second module - Create an Immersive Business Process Flow and introduce advanced Business Process Flow concepts and techniques. 
- ms.date: 03/15/2020  
+ description: Do you want to improve your business process flow? In this module, we will introduce some more advanced business process flow concepts and techniques you can use to help improve your flow. 
+ ms.date: 03/18/2020  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
@@ -11,22 +11,24 @@ metadata:
 title: Understand advanced business process flow concepts in Power Automate  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module will build upon the knowledge gained in the first module - Introduction to Business Process Flows, and the second module - Create an Immersive Business Process Flow and introduce advanced Business Process Flow concepts and techniques. 
+  Do you want to improve your business process flow? In this module, we will introduce some more advanced business process flow concepts and techniques you can use to help improve your flow.  
 abstract: |  
     In this module, you will: 
-    - Understand Branching Logic
-    - Create additional fields and a main form to enhance the Business Process Flow
-    - Understand how to use instant flows with Business Process Flows 
-    - Enhance immersive Business Process Flow using advanced techniques 
-prerequisites: The target Audience should have a basic understanding of how to model a business process as a set of stages, steps and branching concepts and a familiarity with the Power Platform.      
+    - Understand branching logic
+    - Create additional fields and a main form to enhance a business process flow
+    - Understand how to use instant flows with business process flows 
+    - Enhance immersive business process flows using advanced techniques 
+prerequisites: A basic understanding of how to model a business process as a set of stages, steps and branching concepts and a familiarity with the Power Platform.      
 iconUrl: /learn/achievements/advanced-business-process-flows.svg  
 levels:  
 - intermediate   
 roles:  
-- business-user   
-- functional-consultant 
+- maker   
+- functional-consultant
+- business-user 
 products:  
-- power-automate 
+- power-automate
+- power-platform
 units: 
 - learn-bizapps.advanced-business-process-flows.1-branching 
 - learn-bizapps.advanced-business-process-flows.2-instant 
