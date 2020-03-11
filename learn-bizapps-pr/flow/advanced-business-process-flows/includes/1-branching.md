@@ -55,9 +55,9 @@ is not currently allowed in a business process flow. An example of an
 unsupported flow is shown below.
 
 ![Unsupported branching logic showing vehicle service for a tune-up
-versus a smog and a test nested within it for simple if then else for
+versus a smog and a test nested within it for a simple if then else for
 cars made in 1971 or before versus cars made after
-1971](../media/2-process-flow-2-bad-branching.png)
+1971.](../media/2-process-flow-2-bad-branching.png)
 
 Notice the decision point around the Vehicle Service decision point.
 You can see that two of the branches end up at the Issue or Deny Smog
