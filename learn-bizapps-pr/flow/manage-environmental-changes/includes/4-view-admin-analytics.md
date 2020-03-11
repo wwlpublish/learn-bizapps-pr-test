@@ -30,7 +30,8 @@ pane and select **Power Automate**.
 
 ![Power Automate analytics](../media/1-ppac.png)
 
-In regard to environment and tenant scopes, when it comes to Admin Analytics, everything is in the context of an environment.
+In regard to environment and tenant scopes, when it comes to Admin Analytics, 
+everything is in the context of an environment.
 Currently, no method exists for you to see aggregated analytics, across a
 tenant, in this experience. A tenant administrator will be able to see
 analytics on an environment-by-environment basis. Environment administrators will
