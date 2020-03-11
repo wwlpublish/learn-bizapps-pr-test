@@ -10,6 +10,7 @@ DLP for HTTP connectors. As part of the custom connector and HTTP
 exploration, the module also discusses the available tools, including 
 Power Platform Management connectors and PowerShell cmdlets.
 
-Every organization has different needs when it comes to governance. Approach the following sections as
-options and implement the solution that best aligns with your requirements.
+Every organization has different needs when it comes to governance. 
+Approach the following sections as options and implement the solution 
+that best aligns with your requirements.
 

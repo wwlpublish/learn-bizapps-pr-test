@@ -1,14 +1,18 @@
 The Plan and manage your Power Automate environment module of this 
 learning path discussed strategies that deal with exceptions. The
-scenario that was outlined in that module involved SharePoint and Twitter connectors that were being used
-within the same flow. The concern that an administrator might have is that
-sensitive data could leak from SharePoint to Twitter. This type of scenario might
-pose concerns for administrators, as would an alternative scenario where data flowed the opposite
-way, from Twitter to SharePoint. The likelihood of that scenario occurring is low because it involves bringing a public dataset
-into the enterprise.
+scenario that was outlined in that module involved SharePoint and 
+Twitter connectors that were being used within the same flow. 
 
-Currently, DLP policies do not have a notion of directionality; however, you can implement directionality by using Power Platform
-Management connectors. The following sections explain how you can accomplish directional data governance.
+The concern that an administrator might have is that sensitive data 
+could leak from SharePoint to Twitter. This type of scenario might
+pose concerns for administrators, as would an alternative scenario 
+where data flowed the opposite way, from Twitter to SharePoint. 
+The likelihood of that scenario occurring is low because it involves 
+bringing a public dataset into the enterprise.
+
+Currently, DLP policies do not have a notion of directionality; however, 
+you can implement directionality by using Power Platform Management connectors. 
+The following sections explain how you can accomplish directional data governance.
 
 The first step in accomplishing directional data governance is to create a DLP policy, from the 
 [Power Automate Admin center](https://admin.flow.microsoft.com/?azure-portal=true), 
@@ -136,7 +140,7 @@ When disabling someone's flow, you will want to send an email to them so they
 are aware that their flow is no longer running. To get the flow owner's 
 email address, use the Office 365 Users connector and use the **Get
 user profile (V2)** action to return the owner's email address. To get
-their email address, you will need to add in the **Creator object** ID, which can
+their email address, you will need to add the **Creator object** ID, which can
 be retrieved from the **List Flows as Admin** action.
 
 ![Get flow creator email](../media/35-get-flow-creator-email.png)
