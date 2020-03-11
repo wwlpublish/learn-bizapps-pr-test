@@ -86,7 +86,7 @@ custom connector. These steps are also covered in the following section.
 	> [!NOTE]
 	> You will be prompted for credentials at this point. Ensure that the credentials you are using have Environment or Tenant Administrator permissions.
 
-5.  A list of DLP policies will be displayed. Look for the DLP policy that you created in the **Office 365 connectors** module. When you find the policy, copy the **PolicyName**, which is represented as a GUID, to a text editor like Notepad.
+5.  A list of DLP policies will be displayed. Look for the DLP policy that you created in the previous module. When you find the policy, copy the **PolicyName**, which is represented as a GUID, to a text editor like Notepad.
 
     ![get DLP](../media/13-get-dlp.png)
 
