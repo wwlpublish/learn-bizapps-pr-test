@@ -66,4 +66,4 @@ After the training has been completed, your model is ready to be tested.
 
 ### Next steps
 
-You have now learned how to create your first model. Next, you'll learn how to use your model in Power Apps and Power Automate
+You have now learned how to create your first model. Next, you'll learn how to use your model in Power Apps and Power Automate.

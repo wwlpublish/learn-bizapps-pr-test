@@ -6,11 +6,11 @@ To help facilitate this process, AI Builder allows you to have multiple versions
 
 ### Edit your model
 
-Editing your model creates a new version that is based on your existing customizations.
+Editing your model creates a new version that is based on your existing customizations. To edit your model, follow these steps:
 
-1.  Select **AI Builder > Models** in the left-side menu.
+1.  Select **AI Builder > Models** on the left menu.
 2.  Find your model and select it to go to its details page.
-3.  In the top left corner of the screen, click **New version**.
+3.  In the upper-left corner of the screen, select **Edit model**.
     
 While you edit your model, you can save your work at any time and return later. The new version will be saved as a draft, which you can access again from your model's details page and by selecting **Resume draft**.
 

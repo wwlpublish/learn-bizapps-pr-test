@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-with-ai-builder 
 metadata: 
- title: Get Started with AI Builder
+ title: Get started with AI Builder
  description: This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
  ms.date: 03/15/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-ai-builder  
-title: Get Started with AI Builder
+title: Get started with AI Builder
 summary: |  
   This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
 abstract: |  
@@ -22,7 +22,7 @@ prerequisites: |
       [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data
       Service](https://powerapps.microsoft.com/common-data-service/)
-    - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
+    - An [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
 iconUrl: /learn/achievements/get-started-with-ai-builder.svg  
 levels:  
 - beginner   
