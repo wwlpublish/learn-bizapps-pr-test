@@ -10,7 +10,7 @@ the triggers/actions that are shown in the following image.
 
 ![http](../media/4-http.png)
 
-These triggers/actions can only be managed in DLP policies that have a [schema version](https://flow.microsoft.com/blog/introducing-http-and-custom-connector-support-for-data-loss-prevention-policies//?azure-portal=true) of 2018-11-01. By using a new schema version, it allows organizations to
+These triggers/actions can only be managed in DLP policies that have a [schema version](https://flow.microsoft.com/blog/introducing-http-and-custom-connector-support-for-data-loss-prevention-policies//?azure-portal=true) of 2018-11-01, which is discussed in the linked blog. By using a new schema version, it allows organizations to
 make the decision to implement these changes. Otherwise, it's highly possible that some flows will be broken, depending on how an organization wants to classify the connectors as business or non-business. 
 
 For example, if the HTTP action was previously not managed and is being used 

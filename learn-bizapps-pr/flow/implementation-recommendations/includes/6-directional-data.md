@@ -140,7 +140,7 @@ When disabling someone's flow, you will want to send an email to them so they
 are aware that their flow is no longer running. To get the flow owner's 
 email address, use the Office 365 Users connector and use the **Get
 user profile (V2)** action to return the owner's email address. To get
-their email address, you will need to add the **Creator object** ID, which can
+their email address, you will need to add the **Creator object ID**, which can
 be retrieved from the **List Flows as Admin** action.
 
 ![Get flow creator email](../media/35-get-flow-creator-email.png)

@@ -53,7 +53,7 @@ Follow these steps to install the custom connector:
 
     ![custom connectors](../media/11-custom-connectors.png)
 
-You have now published your custom connector. In the next exercise, you will manage this custom connector in a DLP policy.
+You have now published your custom connector. In the next topic, you will manage this custom connector in a DLP policy.
 
 ### Manage a custom connector in a DLP policy
 
