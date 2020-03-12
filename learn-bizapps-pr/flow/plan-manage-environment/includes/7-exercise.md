@@ -25,7 +25,7 @@ prerequisites that were outlined at the beginning of this module.
     - Excel Online (Business)
     - Microsoft Forms
     - Office 365 Groups
-    - OneNote Business
+    - OneNote (Business)
     - Word Online (Business)
     - Yammer 
 
@@ -65,7 +65,7 @@ prerequisites that were outlined at the beginning of this module.
 
 18. Search for **Office 365 Outlook** in the **Search connectors and actions** text box.
 
-19. Select the **Send an email (V2) action**.
+19. Select the **Send an email (V2)** action.
 
 20. Provide values for the **To:**, **Subject**, and **Body** fields.
 

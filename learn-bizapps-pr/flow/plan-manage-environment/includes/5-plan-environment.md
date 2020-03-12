@@ -76,7 +76,7 @@ Test, and Production environments have also been created in the Asia and
 Europe regions.
 
 Because the default environment behavior is that all licensed users
-are makers in this environment, you cannot remove users from
+are app makers in this environment, you cannot remove users from
 this default environment. However, to create a workspace for users to build
 improvised apps and flows, Personal Productivity environments are also
 created in Asia and Europe so that users can build these assets without
@@ -101,7 +101,7 @@ the autonomy that they require. To illustrate this concept, environments for the
 units have been created.
 
 Because the default environment behavior is that all licensed users
-are makers in this environment, you cannot remove users from
+are app makers in this environment, you cannot remove users from
 this default environment. However, to create a workspace for users to build
 improvised apps and flows, Personal Productivity environments are created in
 Asia and Europe so that users can build these assets without being

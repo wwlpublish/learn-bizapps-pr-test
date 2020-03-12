@@ -1,5 +1,5 @@
 The  Introduction to Power Automate security and governance module 
-introduced Data Loss Prevention (DLP) policies, which restrict the  
+introduced Data Loss Prevention (DLP) policies, which restrict the 
 connectors that can be used together within the same flow or
 app. The module also introduced the scope that a DLP policy will apply to. For
 example, you can create a DLP policy that only applies to an environment.
@@ -20,7 +20,7 @@ Business account. As a result, an environment administrator will create
 a DLP policy that includes the **Office 365 Outlook** and **OneDrive for
 Business** connectors in the **Business data only** data group and
 leaves all remaining connectors in the **No business data allowed** data
-bucket.
+group.
 
 ![DLP policy](../media/6-dlp.png)
 
@@ -73,14 +73,13 @@ spread across two different DLP policies. If you recall, in the first
 scenario, you included your **Office 365 Outlook** and **OneDrive for
 Business** connectors. In the second scenario, you included
 **SharePoint** and **Microsoft Teams** connectors within the same
-policy. Currently, no policy exists that allows both **the Office 365
-Outlook** and **SharePoint** connectors to be included in the same
-flow or app.
+policy. Currently, no policy exists that allows both the **Office 365 Outlook** 
+and **SharePoint** connectors to be included in the same flow or app.
 
 You can create a third DLP policy that does include **Office 365
 Outlook** and **SharePoint** connectors in the **Business data only**
 data group. All of the connectors are placed in the **No business data
-allowed** environment.
+allowed** data group environment.
 
 ![DLP](../media/12-dlp.png)
 
