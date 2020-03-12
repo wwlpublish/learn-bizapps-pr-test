@@ -30,5 +30,5 @@ to fit many organizational needs.
 
 > [!TIP]
 > Business process flows are meant to guide users through steps that are required to 
-complete a business process. You must have a valid Dynamics 365 
+complete a business process. You must have a valid Power Apps Dynamics 365 
 license or a valid Power Apps license to create or use a business process flow.
