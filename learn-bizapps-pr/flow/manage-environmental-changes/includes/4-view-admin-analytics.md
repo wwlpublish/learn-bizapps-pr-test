@@ -2,7 +2,7 @@ Previously, you learned about the steps that you can take to support
 communicating with users when you are ready to make governance changes.
 However, it is important to understand the impacts of an upcoming
 change before sending out communications. 
-The Power Platform Admin Analytics feature can help administrators  
+The Power Platform Admin Analytics feature can help administrators 
 understand how Power Automate is being used in your organization to help
 you avoid undesirable impacts.
 
@@ -23,7 +23,7 @@ Six Power Automate reports are available in the Power Platform Admin center:
 Administrators can use these reports to gain insight about how people are using Power Automate.
 
 To access the Admin Analytics feature, go to the [Power Platform
-Admin Center](https://admin.powerplatform.microsoft.com/) by using an
+Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true) by using an
 account that has environment or tenant admin privileges. After you have
 signed in, expand the **Analytics** drop-down menu from the left navigation
 pane and select **Power Automate**.
@@ -115,7 +115,7 @@ with a Power BI embedded experience, an administrator can filter out
 connectors as required. 
 
 For example, consider a situation where an administrator wants to make a 
-DLP connector change that involves the SharePoint connector. The administrator can select  
+DLP connector change that involves the SharePoint connector. The administrator can select 
 the SharePointOnline connector from the **Connectors by flow runs** visualization. 
 As a result, the **Connectors by connector calls** visualization will be updated. In
 addition, you will see an updated table called **Flows using connectors**. In
