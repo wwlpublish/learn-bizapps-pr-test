@@ -11,4 +11,5 @@ When creating a tenant-wide DLP policy, the person who is creating the DLP
 policy must be a tenant admin.
 
 For additional prerequisite information on managing DLP policies, refer to Microsoft's in-product
-[documentation](https://docs.microsoft.com/power-automate/prevent-data-loss.md?azure-portal=true#managing-dlp-policies) for Power Automate.
+[documentation](https://docs.microsoft.com/power-automate/prevent-data-loss#managing-dlp-policies) 
+for Power Automate.
