@@ -3,7 +3,7 @@ organizations can govern their Power Platform environments. The areas of
 focus include default data groups for Data Loss
 Prevention (DLP) policies. 
 
-Additionally, this module provides sample DLP configurations for  
+Additionally, this module provides sample DLP configurations for 
 Office 365 and Dynamics 365 users. You will also explore 
 more advanced scenarios that include custom connectors and managing 
 DLP for HTTP connectors. As part of the custom connector and HTTP 

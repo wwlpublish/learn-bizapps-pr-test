@@ -60,7 +60,7 @@ for these security services, alerts and notifications can be sent to
 these teams where they can subsequently respond to emerging threats in
 near or real time. 
 
-For some organizations, getting buy-in from security teams so they can use  
+For some organizations, getting buy-in from security teams so they can use 
 Power Platform might be challenging. However, when Cyber Security Analysts 
 have seen the benefits and that it could solve their own needs, they generally are more 
 open to extending its use to other areas of the organization.
