@@ -1,5 +1,5 @@
 Communicating changes to DLP can be a challenging endeavor and will
-differ depending on organization design. You can use certain  
+differ depending on organization design. You can use certain 
 approaches to communicate DLP change information to your makers.
 
 Consider the following strategies:
