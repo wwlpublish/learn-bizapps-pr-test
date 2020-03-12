@@ -1,5 +1,3 @@
-## Choose an AI capability
-
 AI Builder offers several AI capabilities.
 
 AI capabilities are brought to your apps and flows by models. A model can be built and customized by you, or it can be a prebuilt model that is ready to be used right away. Before learning about the model creation process, you should be familiar with the various model types that are available.
@@ -30,4 +28,4 @@ For prebuilt models, AI Builder includes best practices on how to use them and b
 
 ### Next steps
 
-Now that you have learned about AI capabilities, your next step is to learn how models are created and managed
+Now that you have learned about AI capabilities, your next step is to learn how models are created and managed.
