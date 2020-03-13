@@ -2,7 +2,7 @@
 uid: learn-bizapps.intro-business-process-flows 
 metadata: 
  title: Introduction to business process flows in Power Automate 
- description: Do you want to create business process flows? This module will discuss what business process flows are and how to leverage them to solve business solutions. We will explore why automating business process is important to organizations and explain how to build business process flow solutions using the Power Platform and Common Data Service.  We will also explore how business process flows differ from regular Power Automate workflows and offer guidance on when to use each.
+ description: Do you want to create business process flows? This module will discuss what business process flows are and how to use them to solve business solutions. You will discover why automating the business process is important to organizations and how to build business process flow solutions by using Power Platform and Common Data Service. Additionally, you will learn how business process flows differ from regular Power Automate workflows and when to use each.
  ms.date: 3/17/2020  
  author: KevSch  
  ms.author: kschimke  
@@ -11,13 +11,13 @@ metadata:
 title: Introduction to business process flows in Power Automate  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Do you want to create business process flows? This module will discuss what business process flows are and how to leverage them to solve business solutions. We will explore why automating business process is important to organizations and explain how to build business process flow solutions using the Power Platform and Common Data Service.  We will also explore how business process flows differ from regular Power Automate workflows and offer guidance on when to use each.
+  Do you want to create business process flows? This module will discuss what business process flows are and how to use them to solve business solutions. You will discover why automating the business process is important to organizations and how to build business process flow solutions by using Power Platform and Common Data Service. Additionally, you will learn how business process flows differ from regular Power Automate workflows and when to use each.
 abstract: |  
     In this module, you will: 
-    - Understand why standardizing business process flows are important and valuable to an organization.
-    - Understand the difference between a workflow and a business process.
-    - Understand how business process flows are used within the Power Platform and Common Data Service.
-prerequisites: A basic understanding of how to model a business process as a set of stages, steps and branching concepts and a familiarity with the Power Platform.      
+    - Discover why standardizing business process flows is important and valuable to an organization.
+    - Learn about the difference between a workflow and a business process.
+    - Find out about how business process flows are used within Power Platform and Common Data Service.
+prerequisites: A basic understanding of how to model a business process as a set of stages, steps, and branching concepts and a familiarity with Power Platform.      
 iconUrl: /learn/achievements/intro-business-process-flows.svg  
 levels:  
 - intermediate   
