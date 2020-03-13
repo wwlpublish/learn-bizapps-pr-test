@@ -4,7 +4,7 @@ representation of the process flow and a form under the Business Process
 Flow called "General" with only two fields - Name and Owner - see the
 screenshot below.
 
-![Immersive Business Process Flow with only two fields on main form](../media/5-immersive-process-flow-2-fields.png)
+![Immersive Business Process Flow with only two fields on main form](../media/5-immersive-process-flow-2 fields)
 
 Wouldn't it be great if you could add additional fields to form called
 "General"? For example, you might want to record the amount of the
