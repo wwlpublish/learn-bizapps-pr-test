@@ -5,3 +5,4 @@ either tenant or environment administrative privileges to perform those
 functions, even when using the Power Platform Management connectors. In
 addition, the person who is using these connectors needs to have a 
 [Power Automate P2 license](https://docs.microsoft.com/power-automate/billing-questions/?azure-portal=true).
+Use the links on the page for more licensing information.
