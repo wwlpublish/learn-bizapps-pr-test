@@ -44,7 +44,7 @@ previous modules. Modify or remove DLP policies as appropriate.
 
 Another useful template that administrators can take advantage of is 
 **Get list of new PowerApps, Flows, and Connectors**, which can be found by
-searching in the template gallery or by selecting the
+searching in the Templates gallery or by selecting the
 [template](https://preview.flow.microsoft.com/galleries/public/templates/0b2ffb0174724ad6b4681728c0f53062/get-list-of-new-powerapps-flows-and-connectors/?azure-portal=true).
 
 This template is similar to the template that was previously discussed, except
@@ -78,7 +78,7 @@ have in your tenant, this flow can take several minutes to complete.
 ### Template 3 - Monitor Office 365 audit logs for specific details and send alerts
 
 The **Monitor Office 365 audit logs for specific details and send alerts** template can be found by
-searching for it in the template gallery or by directly selecting the 
+searching for it in the Templates gallery or by directly selecting the 
 [template](https://preview.flow.microsoft.com/galleries/public/templates/4a7ea95259f1404e95855f6b053360b1/monitor-office-365-audit-logs-for-specific-details-and-send-alerts/?azure-portal=true).
 
 ![monitor](../media/11-monitor.png)

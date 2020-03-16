@@ -19,13 +19,13 @@ materials that will accelerate their learning journey.
 
 	![create](../media/25-create.png)
 
-1.  Select the **Schedule flow** icon to create a flow that will run on a regular interval.
+1.  Select the **Scheduled flow** icon to create a flow that will run on a regular interval.
 
 	![schedule](../media/26-schedule.png)
 
 1.  Provide a name for your flow, such as **Populate Flow Group**.
 
-1.  Set the **Repeat every** value to one **Day** so that your process will run once a day. Select the **Create** button to proceed.
+1.  Set the **Repeat every** value to **1 Day** so that your process will run once a day. Select the **Create** button to proceed.
 
 	![create](../media/27-create.png)
 
@@ -73,7 +73,7 @@ materials that will accelerate their learning journey.
 
     ![approval](../media/25-approval.png)
 
-1. Set the **Approval** type to **Approve/Reject - Everyone must approve** and set the **Assigned to** value to your **Mail** property from the Office 365 Users output. In addition, provide appropriate **Title**, **Details**, and **Item link** information that reflect the actions that you want the user to take.
+1. Set the **Approval type** to **Approve/Reject - Everyone must approve** and set the **Assigned to** value to your **Mail** property from the Office 365 Users output. In addition, provide appropriate **Title**, **Details**, and **Item link** information that reflect the actions that you want the user to take.
 
     ![approval details](../media/26-approval-details.png)
 
