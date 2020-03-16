@@ -1,24 +1,23 @@
-In this module, we started getting our hands on the tools and building
-our first immersive business process flow. We learned the following:
+This module explained the tools that you can use for building your first immersive business process flow. In addition, you learned about the following concepts:
 
--   What an immersive business process flow is.
+-   The definition of an immersive business process flow.
 
 -   The differences between an embedded and immersive business process flow.
 
 -   How to create a new immersive business process flow in Power Automate.
 
--   How to add fields to an entity using the business process flow designer.
+-   How to add fields to an entity by using the business process flow designer.
 
--   How to build and save a two-step business immersive business process flow using stages and data steps.
+-   How to build and save a two-step business immersive business process flow by using stages and data steps.
 
 -   How to run an immersive business process flow.
 
--   How to view the data you created in the new immersive business process flow.
+-   How to view the data that you created in the new immersive business process flow.
 
-Although immersive business process flows are the main focus of this module, 
+Though immersive business process flows are the main focus of this module, 
 business process flows can also be created and embedded within a model-driven 
 application. If you want to learn more about embedded business process flows, 
-follow the links below for a series of videos that demonstrate the building 
+select the following links for a series of videos that demonstrate the building 
 of an embedded business process flow within a model-driven app. The videos are 
 informative and led by Microsoft Power Automate Product Managers.
 
