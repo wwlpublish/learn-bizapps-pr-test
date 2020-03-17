@@ -20,11 +20,10 @@ another Power Automate flow as needed.
 
 ### Business process flows value to organizations 
 
-Business process flows allow organizations to quickly
-standardize how processes are completed and what data is collected at
-each stage. Business process flows support logical branching so they can
-be used to standardize many common business processes within an
-organization.
+Business process flows allow organizations to quickly standardize how 
+processes are completed and what data is collected at each stage. Business 
+process flows support logical branching so they can be used to standardize 
+many common business processes within an organization.
 
 Business process flows offer the following benefits:
 
@@ -51,13 +50,13 @@ be used in Power BI dashboards and reporting for simplified administration.
 
 ### Business process flows and the larger Power Platform
 
-Business process flows are deeply integrated with Microsoft Power
+Business process flows are deeply integrated with the Microsoft Power
 Platform. They are created, customized, and managed by using Power
 Automate. You can manage or create new business process flows by
 launching Power Automate and selecting **Business process flows** under
 **My Flows** in Power Automate, as shown in the following image.
 
-![Power Automate my flows business process flows](../media/power-automate-my-flows-business-process-flows.png)
+![Power Automate business process flows option](../media/power-automate-my-flows-business-process-flows.png)
 
 You can launch the new business process flows as a component of a model-driven Power App or a stand-alone 
 application within Power Automate (called an immersive business process flow), as shown in the following image.
