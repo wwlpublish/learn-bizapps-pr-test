@@ -4,7 +4,7 @@ that is associated with any business process flow is always stored in one or
 more entities within Common Data Service and business process flows.
 
 > [!NOTE]
-> To complete this exercise, you will need access to an account that has permission to create entities and fields in Common Data Service and you should have a Power Apps or Dynamics 365 license. Ask your Power Platform administrator for proper permissions or sign in and create a personal Power Apps and Power Automate development environment by using the Community License plan (which is free) by accessing the [Power Apps Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true) page.
+> To complete this exercise, you will need access to an account that has permission to create entities and fields in Common Data Service and you should have a Power Apps or Dynamics 365 license. Ask your Power Platform administrator for proper permissions or sign in and create a personal Power Apps and Power Automate development environment by using the Power Apps Community Plan (which is free). Sign up by accessing the [Power Apps Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true) page.
 
 ### Scenario
 
