@@ -59,18 +59,18 @@ versus a smog and a test nested within it for a simple if then else for
 cars made in 1971 or before versus cars made after
 1971.](../media/2-process-flow-2-bad-branching.png)
 
-Notice the decision point around the Vehicle Service decision point.
+Notice the choices that exist around the Vehicle Service decision point.
 You can see that two of the branches end up at the Issue or Deny Smog
-Certificate stage, [and then the]{.underline} "Collect Payment" while
-the top branch skips the "Issue or Deny Smog Certificate Stage" and ends
-at the" Collect Payment" stage. This logical model is NOT supported. All
+Certificate stage, and then the Collect Payment stage while
+the top branch skips the Issue or Deny Smog Certificate Stage and ends
+at the Collect Payment stage. This logical model is NOT supported. All
 the stages at a decision point must resolve to the same stage without
 intermediate stages for some but not other branches.
 
 The root of the problem above is the logic is not modeled properly. The
 decision stage is really modeling two If Then Else conditions and not
 one. A better way to model this is to add a second decision point as
-shown below. The approach shown below [IS]{.underline} supported because
+shown below. The approach that is shown below is supported because
 the decision stages are each testing one condition and all resolve to a
 single stage.
 
@@ -80,4 +80,4 @@ another testing the service performed on the
 vehicle](../media/3-process-flow-3-repaired-branching.png)
 
 Study this example so you understand how you can add an additional
-logical branch and model Business Process Flows correctly.
+logical branch and model business process flows correctly.
