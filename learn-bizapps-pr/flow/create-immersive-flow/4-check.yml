@@ -27,20 +27,20 @@ quiz:
     - content: They can be launched within a SharePoint team site.
       isCorrect: false 
       explanation: Immersive business process flows are stand-alone and launched in Power Automate.
-  - content: Where do immersive business process flows store all data collected from the flow?
+  - content: Where do immersive business process flows store all data that is collected from the flow?
     choices: 
-    - content: Any source that is accessible via a connector.
+    - content: Any source that is accessible through a connector
       isCorrect: false
-      explanation: Immersive business process flows store all the data collected in Common Data Service entities.
-    - content: In SQL Server in the cloud or on-prem.
+      explanation: Immersive business process flows store all data that is collected in Common Data Service entities.
+    - content: In SQL Server in the cloud or on-prem
       isCorrect: false 
-      explanation: Immersive business process flows store all the data collected in Common Data Service entities.
-    - content: Common Data Service entity(s)
+      explanation: Immersive business process flows store all data that is collected in Common Data Service entities.
+    - content: Common Data Service entities
       isCorrect: true
-      explanation: Immersive business process flows store all the data collected in Common Data Service entities.
+      explanation: Immersive business process flows store all data that is collected in Common Data Service entities.
     - content: SharePoint
       isCorrect: false 
-      explanation: Immersive business process flows store all the data collected in Common Data Service entities.
+      explanation: Immersive business process flows store all data that is collected in Common Data Service entities.
   - content: Which item is a key benefit of an immersive business process flow?
     choices: 
     - content: Ease of development and deployment
@@ -52,20 +52,20 @@ quiz:
     - content: Mobile interface
       isCorrect: false 
       explanation: A key benefit of an immersive business process flow is the ease of development and deployment. 
-    - content: The only kind of business process flows that support running within Microsoft Visio.
+    - content: The only kind of business process flows that support running within Microsoft Visio
       isCorrect: false 
       explanation: A key benefit of an immersive business process flow is the ease of development and deployment. 
   - content: How do immersive and embedded business process flows mainly differ?
     choices: 
-    - content: How they are launched and the context they are viewed within.
+    - content: How they are launched and the context that they are viewed within
       isCorrect: true 
-      explanation: Immersive and embedded business process flows mainly differ by how they are launched and the context they are viewed within. 
-    - content: How they are built.
+      explanation: Immersive and embedded business process flows mainly differ by how they are launched and the context that they are viewed within. 
+    - content: How they are built
       isCorrect: false 
-      explanation: Immersive and embedded business process flows mainly differ by how they are launched and the context they are viewed within. 
+      explanation: Immersive and embedded business process flows mainly differ by how they are launched and the context that they are viewed within. 
     - content: Capability
       isCorrect: false 
-      explanation: Immersive and embedded business process flows mainly differ by how they are launched and the context they are viewed within. 
+      explanation: Immersive and embedded business process flows mainly differ by how they are launched and the context that they are viewed within. 
     - content: Visual Process Maps
       isCorrect: false 
-      explanation: Immersive and embedded business process flows mainly differ by how they are launched and the context they are viewed within. 
+      explanation: Immersive and embedded business process flows mainly differ by how they are launched and the context that they are viewed within. 
