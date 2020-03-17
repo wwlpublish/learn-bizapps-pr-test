@@ -2,7 +2,7 @@
 uid: learn-bizapps.best-practices-environments
 metadata:
   title: Use best practices to secure and govern Power Automate environments
-  description: Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? In this learning path, we will identify best practices for securing and governing Power Automate environments. In addition, we will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
+  description: Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? Take this learning path, to identify best practices for securing and governing Power Automate environments. We will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
   ms.date:  03/16/2020
   author: KevSch
   ms.author: kschimke
@@ -11,7 +11,7 @@ metadata:
 title: Use best practices to secure and govern Power Automate environments
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? In this learning path, we will identify best practices for securing and governing Power Automate environments. In addition, we will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
+  Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? Take this learning path, to identify best practices for securing and governing Power Automate environments. We will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
 prerequisites: |
   - A basic understanding of Microsoft Power Automate and Power Apps including their purpose and how these tools are used within an organization. 
   - A Power Platform license with administrative rights.
