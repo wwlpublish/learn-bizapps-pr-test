@@ -97,7 +97,7 @@ Reports can be printed one page at a time, or you can print all pages at once if
 
 ### Print tiles and visuals
 
-Tiles and visuals are found on dashboards and reports. To print a single tile or a single visual, you’ll first need to open it by itself. You can use the Focus mode and Full screen mode to open a dashboard tile or a report visual by itself so that so that you can print it with **Export**, **Print this page**.
+Tiles and visuals are found on dashboards and reports. To print a single tile or a single visual, you’ll first need to open it by itself. You can use the Focus mode and Full screen mode to open a dashboard tile or a report visual by itself so that you can print it with **Export**, **Print this page**.
 
 ![Image of how to open a tile or visual for printing.](../media/1-4/power-bi-print-tile.png)
 
