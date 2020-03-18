@@ -5,7 +5,9 @@ In this unit, you'll use a flow template to copy files from your personal OneDri
 ## Create a flow that copies files
 
 1. Sign in to [Power Automate](https://ms.flow.microsoft.com) by using your organizational account.
+
 1. Select **My flows**.
+
 1. Select **New**, and then select **Create from template**.
 
     ![Create from template](../media/Flow-notification-boss.png)
@@ -15,16 +17,17 @@ In this unit, you'll use a flow template to copy files from your personal OneDri
     You can also quickly find this template by entering *OneDrive for Business* in the search field.
 
 1. Select **Continue**.
+
 1. In the **OneDrive Folder** field, select the folder button.
 
     ![Folder button](../media/flow-onedrive.png)
 
 1. Select the OneDrive folder that files should be copied from.
 
-    ![Select the OneDrive folder](../media/flow-onedrive-folder.png)
-
 1. In the **OneDrive for Business Folder Path** field, select the folder button, and then select the folder that files should be copied to.
+
 1. Select **Create Flow**.
+
 1. To change the flow, select **Edit flow**.
 
 Now, whenever a file is put in the selected folder on OneDrive, it will be copied to the selected folder on OneDrive for Business.

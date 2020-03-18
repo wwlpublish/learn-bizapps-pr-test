@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-builder.4-ways-to-use-models 
+title: Ways to use your models
+metadata: 
+  title: Ways to use your models
+  description: Learn how to use AI Builder models in Power Apps and Power Automate.
+  ms.date: 03/15/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: d365-ai-builder 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/4-ways-to-use-models.md)] 

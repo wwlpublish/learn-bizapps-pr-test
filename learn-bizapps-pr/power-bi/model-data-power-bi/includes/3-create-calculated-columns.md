@@ -1,10 +1,13 @@
-﻿Sometimes, the data that you’re analyzing doesn’t contain a field that you need. The answer might be *calculated columns*. You can create a new calculated column by transforming two or more elements of existing data. For example, you can create a new column by combining two columns into one.
+﻿Sometimes, the data that you're analyzing doesn't contain a field that you need. The answer might be *calculated columns*. You can create a new calculated column by transforming two or more elements of existing data. For example, you can create a new column by combining two columns into one.
 
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/03-power-bi-desktop-overview.png)
 
 **Video**: Create calculated columns
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9v5]
+
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).
 
 One reason for creating a calculated column is to establish a relationship between tables when no unique fields exist. The lack of a relationship becomes obvious when you create a simple table visual in Power BI Desktop and get the same value for all entries.
 

@@ -18,30 +18,25 @@ On the template graphic, there's a description of what the template does and wha
 
 You'll be asked to provide credentials for the Microsoft Office 365 Outlook and Microsoft OneDrive for Business services. If you regularly use both services, you'll already be signed in.
 
-1. Select **Create Flow**.
+1. Click on the template and select **Create Flow**.
 
-    ![Save Office 365 email](../media/save-flow-office-description.png)
-
-1. On the next page, Power Automate creates the flow for you. 
-    - It'll connect  to your work email to get any attachments. 
+2. On the next page, Power Automate creates the flow for you. 
+    - It will connect to your work email to get any attachments. 
     - It will then create a folder on your OneDrive for Business account to automatically put every attachment that's sent to your work email address in that folder.
 
     ![Creation successful](../media/create-successful.png)
 
-2. Select the **My flows** menu.
+3. Select the **My flows** menu.
 
-    ![Open my flows](../media/click-my-flows.png)
-
-3. Select the flow you just created and click **Edit** to see how it works.
+4. Select the flow you just created and click **Edit** to see how it works.
 
     ![Select the flow](../media/click-the-flow.png)
 
-4. Send an email with an attachment, or have another user send an email with an attachment. You then should see a green check mark, which indicates that the flow succeeded. 
-5. Select **Edit** to see how the flow is defined.
+5. Send an email with an attachment, or have another user send an email with an attachment. You then should see a green check mark, which indicates that the flow succeeded. 
 
-    ![Actions on new email](../media/trigger-or-action.png) 
+6. Select **Edit** to see how the flow is defined.
  
-6. Select **Succeeded** to see the run history and the results.
+7. Select **Succeeded** to see the run history and the results.
 
     ![Flow successful](../media/flow-successful.png)
 
@@ -54,8 +49,6 @@ Keep these concepts in mind when building flows:
 
 - Every flow has two main parts: a *trigger*, and one or more *actions*.
 - You can think of the trigger as the starting action for the flow. The trigger can be something like a new email arriving in your inbox or a new item being added to a SharePoint list.
-- Actions are what you want to happen when a trigger is invoked. For example, the new email trigger will start the action of creating a new file on OneDrive for Business. Other examples of actions include sending an email, posting a tweet, and starting an approval.
+- Actions are what you want to happen when a trigger is invoked. For example, the new email trigger will start the action of creating a new file on OneDrive for Business. Other examples of actions include sending an email, posting a tweet, and starting an approval. 
 
-These concepts will come into play later, when you build your own flows from scratch. 
-
-In the next unit, we'll look at the Power Automate mobile app and its capabilities. 
+These concepts will come into play later, when you build your own flows from scratch. In the next unit, we'll look at the Power Automate mobile app and its capabilities. 

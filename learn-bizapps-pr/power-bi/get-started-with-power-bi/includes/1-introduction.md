@@ -7,7 +7,7 @@
 If you're a **beginner** with Power BI, this module will get you going. If you're a Power BI **veteran**, this module will tie concepts together and fill in the gaps.
 
 ## The parts of Power BI
-Power BI consists of a Microsoft Windows desktop application called **Power BI Desktop**, an online SaaS (*Software as a Service*) service called the **Power BI service**, and mobile Power BI **apps** that are available on Windows phones and tablets, and also on Apple iOS and Google Android devices.
+Power BI consists of a Microsoft Windows desktop application called **Power BI Desktop**, an online SaaS (*Software as a Service*) service called the **Power BI service**, and mobile Power BI **apps** that are available on any device, with native mobile BI apps for Windows, iOS, and Android.
 
 ![The parts of Power BI](../media/pbi-intro_02.png)
 
@@ -23,6 +23,20 @@ You also might use each element of **Power BI** at different times, depending on
 Perhaps you view inventory and manufacturing progress in a real-time dashboard in the service, and also use **Power BI Desktop** to create reports for your own team about customer engagement statistics. How you use Power BI can depend on which feature or service of Power BI is the best tool for your situation. But each part of Power BI is available to you, which is why it's so flexible and compelling.
 
 We discuss these three elements—**Desktop**, the **service**, and **Mobile** apps—in more detail later. In upcoming units and modules, we'll also create reports in Power BI Desktop, share them in the service, and eventually drill into them on our mobile device.
+
+## Download Power BI Desktop
+
+You can download Power BI Desktop from the web or as an app from the Microsoft Store on the Windows tab.
+
+| Download Strategy | Link | Notes |
+|-------------------|------|-----------------------------------|
+| Windows Store App | <a href="https://go.microsoft.com/fwlink/?linkid=2101122" target="_blank">Windows Store</a>| Will automatically stay updated |
+| Download from web | [Download .msi](https://go.microsoft.com/fwlink/?LinkID=521662) | Must manually update periodically |
+
+## Sign in to Power BI service
+Before you can sign in to Power BI, you'll need an account. To get a free trial, go to <a href="https://go.microsoft.com/fwlink/?linkid=2101313" target="_blank">app.powerbi.com</a> and sign up with your email address. 
+
+For detailed steps on setting up an account, see [Sign in to Power BI service](https://docs.microsoft.com/power-bi/consumer/end-user-sign-in)
 
 ## The flow of work in Power BI
 A common flow of work in Power BI begins in **Power BI Desktop**, where a report is created. That report is then published to the **Power BI service** and finally shared, so that users of **Power BI Mobile** apps can consume the information.

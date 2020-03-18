@@ -1,4 +1,4 @@
-﻿In Power BI, *measures* are defined calculations on your data that are performed at the time of your query. Measures are calculated as you interact with your reports and aren’t stored in your database.
+﻿In Power BI, *measures* are defined calculations on your data that are performed at the time of your query. Measures are calculated as you interact with your reports and aren't stored in your database.
 
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/02-power-bi-desktop-overview.png)
@@ -6,6 +6,8 @@ Tasks in this unit include:
 **Video**: Create calculated measures
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wWvJ]
 
+> [!NOTE]
+> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).
 
 ## Create a measure
 To create a measure, in **Report** view, select **New Measure** from the **Modeling** tab.

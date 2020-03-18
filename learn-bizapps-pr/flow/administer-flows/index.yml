@@ -3,7 +3,7 @@ uid: learn-bizapps.flow-administration
 metadata: 
   title: Use the Admin center to manage environments and data policies in Power Automate
   description: Tenant and environment admins use the Power Automate Admin center to manage data policies and environments for Power Automate deployments.
-  ms.date: 02/03/2019
+  ms.date: 03/04/2020
   author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial
@@ -19,14 +19,14 @@ abstract: |
     - Learn how to import and export flows
     - Learn how to share flows
 prerequisites: |
-    - Signed up for Power Automate
+    - Signed up for Power Automate and a working mobile device with the Power Automate mobile app loaded.
 iconUrl: /learn/achievements/administer-flows.svg
 levels:  
 - beginner 
 roles:  
-- business-user
-- maker
 - functional-consultant
+- maker
+- administrator
 products:  
 - power-platform
 - power-automate

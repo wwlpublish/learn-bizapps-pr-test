@@ -1,0 +1,36 @@
+﻿### YamlMime:LearningPath
+uid: learn-bizapps.best-practices-environments
+metadata:
+  title: Use best practices to secure and govern Power Automate environments
+  description: Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? Take this learning path, to identify best practices for securing and governing Power Automate environments. We will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
+  ms.date:  03/16/2020
+  author: KevSch
+  ms.author: kschimke
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Use best practices to secure and govern Power Automate environments
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? Take this learning path, to identify best practices for securing and governing Power Automate environments. We will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
+prerequisites: |
+  - A basic understanding of Microsoft Power Automate and Power Apps including their purpose and how these tools are used within an organization. 
+  - A Power Platform license with administrative rights.
+iconUrl: /learn/achievements/best-practices-environments.svg
+levels:
+- intermediate
+roles:
+- administrator
+- functional-consultant
+products:
+- power-automate
+- power-platform
+- powerapps
+modules:
+- learn-bizapps.security-governance-intro
+- learn-bizapps.plan-manage-environment
+- learn-bizapps.implementation-recommendations
+- learn-bizapps.manage-environmental-changes
+- learn-bizapps.templates-governance-policies
+trophy:
+  uid: learn.best-practices-environments.trophy
+
