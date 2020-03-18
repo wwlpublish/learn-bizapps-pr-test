@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-business-process-flows.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 3/17/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What license is required to create or use a business process flow?
+    choices: 
+    - content: You must have a valid SharePoint license.
+      isCorrect: false
+      explanation: You must have a valid Power Apps Dynamics 365 license or a valid Power Apps license to create or use a business process flow.
+    - content: You must have a valid Office 365 license.
+      isCorrect: false 
+      explanation: You must have a valid Power Apps Dynamics 365 license or a valid Power Apps license to create or use a business process flow.
+    - content: You must have a valid Dynamics 365 license.
+      isCorrect: false 
+      explanation: You must have a valid Power Apps Dynamics 365 license or valid Power Apps license to create or use a business process flow.
+    - content: You must have a valid Power Apps Dynamics 365 license or a valid Power Apps license.
+      isCorrect: true
+      explanation: You must have a valid a Power Apps Dynamics 365 license or valid a Power Apps license to create or use a business process flow.
+  - content: What type of business process flows does Common Data Service include?
+    choices: 
+    - content: A number of out-of-the-box predefined business process flows.
+      isCorrect: true 
+      explanation: Common Data Service includes a number of out-of-the-box predefined business process flows. 
+    - content: No existing business process flows. Only custom business process flows are available with Common Data Service.
+      isCorrect: false 
+      explanation: Common Data Service includes a number of out-of-the-box predefined business process flows. 
+    - content: A number of custom business process flows.
+      isCorrect: false 
+      explanation: Common Data Service includes a number of out-of-the-box predefined business process flows. 
+    - content: A number of regular Power Automate flows only.
+      isCorrect: false 
+      explanation: Common Data Service includes a number of out-of-the-box predefined business process flows. 
+  - content: Where can business process flows be embedded? 
+    choices: 
+    - content: They can be embedded into a public website.
+      isCorrect: false
+      explanation: Business process flows can be embedded in model-driven Power Apps.
+    - content: They can be added as a Web Part in SharePoint.
+      isCorrect: false 
+      explanation: Business process flows can be embedded in model-driven Power Apps.
+    - content: They can be embedded in a custom .NET application.
+      isCorrect: false 
+      explanation: Business process flows can be embedded in model-driven Power Apps.
+    - content: They can be embedded in model-driven Power Apps.
+      isCorrect: true
+      explanation: Business process flows can be embedded in model-driven Power Apps.
+  - content: What tool is used to build business process flows?
+    choices: 
+    - content: Microsoft Visio
+      isCorrect: false
+      explanation: Business process flow editor in Power Automate is used to build business process flows.
+    - content: Microsoft Visual Studio
+      isCorrect: false 
+      explanation: Business process flow editor in Microsoft Power Automate is used to build business process flows.
+    - content: Microsoft Power Apps Canvas App Maker studio
+      isCorrect: false 
+      explanation: Business process flow editor in Microsoft Power Automate is used to build business process flows.
+    - content: Business process flow editor in Microsoft Power Automate
+      isCorrect: true
+      explanation: Business process flow editor in Microsoft Power Automate is used to build business process flows.
