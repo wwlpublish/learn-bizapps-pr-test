@@ -31,16 +31,16 @@ quiz:
     choices: 
     - content: Any source that is accessible through a connector
       isCorrect: false
-      explanation: Immersive business process flows store all data that is collected in Common Data Service entities.
+      explanation: Immersive business process flows store all data that is collected from the flow in Common Data Service entities.
     - content: In SQL Server in the cloud or on-prem
       isCorrect: false 
-      explanation: Immersive business process flows store all data that is collected in Common Data Service entities.
+      explanation: Immersive business process flows store all data that is collected from the flow in Common Data Service entities.
     - content: Common Data Service entities
       isCorrect: true
-      explanation: Immersive business process flows store all data that is collected in Common Data Service entities.
+      explanation: Immersive business process flows store all data that is collected from the flow in Common Data Service entities.
     - content: SharePoint
       isCorrect: false 
-      explanation: Immersive business process flows store all data that is collected in Common Data Service entities.
+      explanation: Immersive business process flows store all data that is collected from the flow in Common Data Service entities.
   - content: Which item is a key benefit of an immersive business process flow?
     choices: 
     - content: Ease of development and deployment

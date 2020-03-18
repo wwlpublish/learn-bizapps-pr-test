@@ -15,7 +15,7 @@ summary: |
 abstract: |  
     In this module, you will: 
     - Learn about immersive business process flow.
-    - Discover the difference between a custom business process and a standard business process.
+    - Discover the difference between an embedded business process and an immersive business process.
     - Create an immersive business process flow by using Power Automate and Common Data Service.
 prerequisites: A basic understanding of how to model a business process as a set of stages, steps, and branching concepts by using Power Platform. You should also have an account that has permission to create entities and fields in Common Data Service to complete the exercises and have a Power Apps or Dynamics 365 license.     
 iconUrl: /learn/achievements/create-immersive-flow.svg  

@@ -52,7 +52,7 @@ Select **Customer Check In New Stage**, as shown in the following figure.
    ![Selecting Stage One in the Business process flow Editor](../media/7-selecting-stage-one-business-process-flow-editor.png)
 
 1. Select **New Stage** within the designer, rename the Stage to
-**Collect Customer Information**, and then select the **Apply** button, as shown
+**Collect Customer Info**, and then select the **Apply** button, as shown
 in the following screenshot.
 
    ![Naming Stage One in the Business process flow Editor](../media/8-naming-stage-one-business-process-flow-editor.png)

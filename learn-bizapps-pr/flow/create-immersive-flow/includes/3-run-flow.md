@@ -11,7 +11,7 @@ flow has updated successfully.
 	> You can see all immersive business process flows that are in
 	process or that have been run by going to the main Power Automate
 	page, selecting the **My flows** icon on the left menu, and then 
-	selecting the **Business process flow** tab.
+	selecting the **Business process flows** tab.
 
 1. Select the **Run** arrow, as shown in the following screenshot.
 
@@ -27,7 +27,7 @@ flow has updated successfully.
 	
 	![Filling Out Stage 1](../media/23-filling-out-stage-1.png)
 	
-1. Select the second stage, fill out the vehicle information, and then select the **Finished** button.
+1. Select the second stage, fill out the vehicle information, and then select the **Finish** button.
 	
 	![Filling Out Stage 2](../media/24-filling-out-stage-2.png)
 	
@@ -64,7 +64,7 @@ You can view the data that you created for running the flow by following these s
 
 	![Select Customer Check In entity](../media/31-select-check-entity.png)
 
-1. Select the **Data** tab then select the **All Data** view on the right side of the screen.
+1. Select the **Data** tab then click **Select view** on the right side of the screen, and then select the **All Data** view option.
 
 	![Select data tab and all data view](../media/32-select-data-tab-all-data-view.png)
 		
