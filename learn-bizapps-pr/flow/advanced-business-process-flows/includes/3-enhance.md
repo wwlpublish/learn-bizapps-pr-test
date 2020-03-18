@@ -4,7 +4,7 @@ Automate. Review the screenshot below, and you'll notice there is a visual
 representation of the process flow and a form under the business process
 flow called General with only two fields, Name and Owner.
 
-![Immersive flow with two fields on form](../media/5-immersive-process-flow-2-fields)
+![Immersive flow with two fields on form](../media/5-immersive-process-flow-2-fields.png)
 
 Wouldn't it be great if you could add additional fields to this form called? 
 For example, let's say you want to record the amount of the invoice, record an 
