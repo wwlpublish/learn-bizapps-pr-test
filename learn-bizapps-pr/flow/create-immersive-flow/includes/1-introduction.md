@@ -19,7 +19,7 @@ same advantages of an embedded business process flow, but with the added
 advantage of simplified creation and streamlined management.
 
 You will learn how to build an immersive business process flow in the
-exercise at the end of this module. The following screenshot shows a simple
+next units of this module. The following screenshot shows a simple
 two-step immersive business process flow.
 
 ![Immersive business process flow two-step example](../media/2-immersive-business-process-flow-stage-displayed.png)
