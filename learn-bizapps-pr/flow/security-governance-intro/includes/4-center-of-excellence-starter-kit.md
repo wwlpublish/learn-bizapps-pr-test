@@ -126,12 +126,13 @@ application removed from the environment.
 
 ### App Catalog
 
-The App Catalog application acts as a catalog that users can explore to see if
-an application already exists before they create another app that
-provides similar functionality. After an app has been approved by the
-**App Audit** process, these apps can be featured in the app catalog by having 
-the app's metadata include **In App Catalog** and **Featured in App Catalog** as part
-of the **App Audit** process.
+The App Catalog application acts as a catalog that helps with discoverability of apps. 
+Users can explore featured apps and browse apps by category. The app catalog can be a 
+great entry point to launch apps for end users and makers can explore to see if an 
+application already exists before they create another app that provides similar functionality. 
+An Admin decides which apps are featured in the App Catalog by completing the **App Audit** process. 
+After an app has been approved by the **App Audit** process, these apps can be featured in 
+the app catalog.
 
 ### Set Owner
 
