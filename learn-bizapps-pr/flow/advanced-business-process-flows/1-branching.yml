@@ -4,12 +4,12 @@ title: Introduction to logical branching in business process flows
 metadata: 
   title: Introduction to logical branching in business process flows 
   description: Learn about logical branching in business process flows.  
-  ms.date: 03/15/2020 
+  ms.date: 03/25/2020 
   author: KevSch 
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 4 
+durationInMinutes: 8 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/1-branching.md)] 
