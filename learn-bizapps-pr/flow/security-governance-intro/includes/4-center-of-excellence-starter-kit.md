@@ -15,7 +15,7 @@ encouraged to expand on their efforts.
 
 The Starter Kit does have some prerequisites, including:
 
--   A global tenant admin or Dynamics 365 service admin role is required
+-   A global tenant admin, Power Platform Service admin, or Dynamics 365 service admin role is required
     to access the tenant resources.
 
 -   A Power Apps premium license for accessing Common Data Service.
@@ -32,10 +32,10 @@ and features that are discussed in the following sections.
 
 ### DLP Strategy
 
-By using the DLP Strategy app, an administrator can explore existing DLP policies
+By using the DLP Editor app, an administrator can explore existing DLP policies
 and evaluate the impact of moving a connector from one data group to
 another. If a change to a data group has an impact on an existing
-app, that will be highlighted in the **Affected PowerApps** list. Then, an
+app, that will be highlighted in the **Affected Power Apps** list. Then, an
 administrator can send an email, through an in-app experience, to the
 owner of that application and warn them of the upcoming change.
 
@@ -62,7 +62,7 @@ Compliance logs and through the Power Platform management connectors
 into Common Data Service entities, provide the greatest level of 
 visibility for administrators.
 
-The Power BI dashboard connects to Starter Kit CDS entities and
+The Power BI dashboard connects to Starter Kit Common Data Service entities and
 contains tabs that provide the following reports:
 
 -   **Overview** - Includes the total number of apps and
