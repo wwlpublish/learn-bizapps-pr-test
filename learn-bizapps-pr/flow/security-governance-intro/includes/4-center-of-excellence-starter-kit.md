@@ -107,6 +107,9 @@ contains tabs that provide the following reports:
 
 ### App Audit
 
+The main purpose of the Sample App Audit process is to demonstrate how an admin 
+could identify overshared or often used resources and gather further information, 
+like business justification and business impact of an outage, for those apps. 
 Having a platform that provides democratized access to technology is
 only useful if people don't create many redundant or low-value
 applications. Situations might also occur where people create
@@ -114,8 +117,8 @@ temporary applications for proof-of-concept purposes. These apps can
 clutter an environment if they are not cleaned up. Within the COE
 Starter Kit, app makers can be prompted to attest their application
 to ensure that it addresses business justification requirements. If
-the application doesn't address these requirements, makers can have their application removed from the
-environment.
+the application doesn't address these requirements, makers can have their 
+application removed from the environment.
 
 ![COE development compliance center](../media/6-coe-dev-compliance-center.png)
 
