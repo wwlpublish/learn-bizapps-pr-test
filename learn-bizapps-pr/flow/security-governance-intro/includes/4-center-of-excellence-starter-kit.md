@@ -15,7 +15,7 @@ encouraged to expand on their efforts.
 
 The Starter Kit does have some prerequisites, including:
 
--   A global tenant admin or Dynamics 365 service admin role is required
+-   A global tenant admin, Power Platform Service admin, or Dynamics 365 service admin role is required
     to access the tenant resources.
 
 -   A Power Apps premium license for accessing Common Data Service.
@@ -32,10 +32,10 @@ and features that are discussed in the following sections.
 
 ### DLP Strategy
 
-By using the DLP Strategy app, an administrator can explore existing DLP policies
+By using the DLP Editor app, an administrator can explore existing DLP policies
 and evaluate the impact of moving a connector from one data group to
 another. If a change to a data group has an impact on an existing
-app, that will be highlighted in the **Affected PowerApps** list. Then, an
+app, that will be highlighted in the **Affected Power Apps** list. Then, an
 administrator can send an email, through an in-app experience, to the
 owner of that application and warn them of the upcoming change.
 
@@ -62,7 +62,7 @@ Compliance logs and through the Power Platform management connectors
 into Common Data Service entities, provide the greatest level of 
 visibility for administrators.
 
-The Power BI dashboard connects to Starter Kit CDS entities and
+The Power BI dashboard connects to Starter Kit Common Data Service entities and
 contains tabs that provide the following reports:
 
 -   **Overview** - Includes the total number of apps and
@@ -107,6 +107,9 @@ contains tabs that provide the following reports:
 
 ### App Audit
 
+The main purpose of the Sample App Audit process is to demonstrate how an admin 
+could identify overshared or often used resources and gather further information, 
+like business justification and business impact of an outage, for those apps. 
 Having a platform that provides democratized access to technology is
 only useful if people don't create many redundant or low-value
 applications. Situations might also occur where people create
@@ -114,8 +117,8 @@ temporary applications for proof-of-concept purposes. These apps can
 clutter an environment if they are not cleaned up. Within the COE
 Starter Kit, app makers can be prompted to attest their application
 to ensure that it addresses business justification requirements. If
-the application doesn't address these requirements, makers can have their application removed from the
-environment.
+the application doesn't address these requirements, makers can have their 
+application removed from the environment.
 
 ![COE development compliance center](../media/6-coe-dev-compliance-center.png)
 
@@ -123,12 +126,13 @@ environment.
 
 ### App Catalog
 
-The App Catalog application acts as a catalog that users can explore to see if
-an application already exists before they create another app that
-provides similar functionality. After an app has been approved by the
-**App Audit** process, these apps can be featured in the app catalog by having 
-the app's metadata include **In App Catalog** and **Featured in App Catalog** as part
-of the **App Audit** process.
+The App Catalog application acts as a catalog that helps with discoverability of apps. 
+Users can explore featured apps and browse apps by category. The app catalog can be a 
+great entry point to launch apps for end users and makers can explore to see if an 
+application already exists before they create another app that provides similar functionality. 
+An Admin decides which apps are featured in the App Catalog by completing the **App Audit** process. 
+After an app has been approved by the **App Audit** process, these apps can be featured in 
+the app catalog.
 
 ### Set Owner
 
