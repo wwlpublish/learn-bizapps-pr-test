@@ -19,7 +19,7 @@ the previous module.
 1. Select the **Edit** button (pencil icon) and open the Customer Check
 In business process flow in the business process flow editor.
 
-	![Edit Check in Business Process Flow](../media/6-edit-customer-check-bpf.png)
+	![Edit Check in Business Process Flow](../media/6-edit-customer-check.png)
 
 1. Select the Condition Flow control under the components tab and drag
 it to the right of the Customer Check in Stage as shown below.
@@ -170,7 +170,7 @@ should have a data step under each of the stages shown below.
 When you're done, select the **Update** button in the top ribbon.
 Your business process flow should look like the screenshot below.
 	
-![Completed Business Process Flow with branching logic](../media/17-completed-business-process-flow-branching-logic.png)
+![Completed flow with branching logic](../media/17-completed-flow-branching-logic.png)
 
 Now we'll test the enhanced business process flow. 
 

@@ -13,7 +13,7 @@ little more useful.
 
 Follow these steps to add fields to the main form. 
 
-![Immersive flow with only two fields on main form](../media/25-immersive-flow-2-fields-on-main-form.png)
+![Immersive flow with only two fields on main form](../media/25-immersive-flow-2-fields-main-form.png)
 
 1. Log in to Power Automate and make sure you are in the proper environment 
 we have been working in, then select **My flows** and then **Business process flows**.
