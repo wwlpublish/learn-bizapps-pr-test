@@ -166,12 +166,12 @@ Your business process flow should look like the following screenshot.
 
 Now, you'll test the enhanced business process flow. 
 
-1. Select **My Flows** and then **Business process flows**.
+1. Select **My flows** and then **Business process flows**.
 
 1. Run the Customer Check In flow by selecting the **run**
 button (the little triangle button next to the name of the flow).
 
 You can enter a vehicle with a manufactured date of 1971 or before 
 and another after 1971. Notice that the smog check information in Stage 3
-changes based on the year of vehicle manufacture. Additionally, notice that both flows 
-reconnect again at the last stage called **Collect Payment**.
+changes based on the year of vehicle manufacture. Additionally, notice that both 
+potential flows reconnect again at the last stage called **Collect Payment**.
