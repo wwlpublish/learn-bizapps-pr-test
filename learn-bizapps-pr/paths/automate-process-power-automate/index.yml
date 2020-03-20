@@ -21,6 +21,7 @@ roles:
 - business-user
 - functional-consultant
 - maker
+- administrator
 products:
 - power-platform
 - power-automate
