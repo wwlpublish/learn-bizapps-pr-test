@@ -28,20 +28,20 @@ quiz:
     - content: Z-order 
       isCorrect: false 
       explanation: A slicer is an on-canvas visual filter in Power BI Desktop that lets anyone who is looking at a report segment the data by a particular value, such as by year or by geographical location. 
-  - content: If you were very satisfied with the appearance of a report and wanted the next report to look the same, what would be the best method?
+  - content: If you were very satisfied with the appearance of a page and wanted the next page to look the same, what would be the best method?
     choices: 
     - content: Export the report to PDF and then import the PDF with a different name
       isCorrect: false 
-      explanation: The quickest way to reuse a good report layout is to right-click the report page tab and select "Duplicate Page".
+      explanation: The quickest way to reuse a good page layout is to right-click the report page tab and select "Duplicate Page".
     - content: Right-click the report page tab and select "Duplicate Page" 
       isCorrect: true 
-      explanation: The quickest way to reuse a good report layout is to right-click the report page tab and select "Duplicate Page".
+      explanation: The quickest way to reuse a good page layout is to right-click the report page tab and select "Duplicate Page".
     - content: Publish the report to a different location
       isCorrect: false 
-      explanation: The quickest way to reuse a good report layout is to right-click the report page tab and select "Duplicate Page".
+      explanation: The quickest way to reuse a good page layout is to right-click the report page tab and select "Duplicate Page".
     - content: Use the "New Quick Measure" feature
       isCorrect: false 
-      explanation: The quickest way to reuse a good report layout is to right-click the report page tab and select "Duplicate Page".
+      explanation: The quickest way to reuse a good page layout is to right-click the report page tab and select "Duplicate Page".
   - content: Which scenario would be a good case for using bubble maps?
     choices: 
     - content: You want to see months with the highest sales by country.
