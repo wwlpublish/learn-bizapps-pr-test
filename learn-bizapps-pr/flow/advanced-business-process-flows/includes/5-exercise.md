@@ -22,7 +22,7 @@ the store manager (you) when a new customer check-in record is created.
 	![Search for Common Data Service](../media/20-search-common-data-service.png)
 
 1. Select the Common Data Service connector and the **When a Record is created** 
-trigger. Select the **Environment** name that you used in the previous exercises,  
+trigger. Select the **Environment** name that you used in the previous exercises, 
 select **Customer Check In** from the **Entity Name** field, select the **User** 
 in the **Scope** field, and then select **+ New step**, as shown in the following figure.
 
@@ -32,7 +32,7 @@ in the **Scope** field, and then select **+ New step**, as shown in the followin
 
 	![Search for Send Email action by typing send email in search dialog](../media/22-send-email-action.png)
 
-1. Enter the following information into the **Send Email** action:
+1. Enter the following information into the **Send an email notification (V3)** action:
 
 	-   **To** - Enter your email address so you receive an email and can see how the instant flow works.
 
@@ -58,6 +58,6 @@ the Business process flow diagram) so that values are in the record before you s
 
 1. Save the record. An email will appear in your inbox similar to the one in the following figure.
 
-![Received email notification message in Outlook email message](../media/24-received-email-notification.png)
+   ![Received email notification message in Outlook email message](../media/24-received-email-notification.png)
 
 Congratulations, you have now created an instant flow that works with your business process flow.

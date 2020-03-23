@@ -56,7 +56,7 @@ your new fields will not be saved with the entity.
 
 1. Select the top main form name, which is a hyperlink to the form
 designer (the name of your form might be different). This action will
-open the WYSIWIG forms designer. The WYSIWIG designer is not
+open the WYSIWYG forms designer. The WYSIWYG designer is not
 available for immersive business forms at this time.
 
    ![Select the main form](../media/31-select-main-form.png)
@@ -66,7 +66,7 @@ available for immersive business forms at this time.
    ![Select the Switch to classic button in the ribbon](../media/32-select-switch-classic.png)
 
 1. Scroll down to the **General** section at the bottom of the form.
-Double-click the **Name** field, rename the title to **Invoice Description**, and then select the **OK** button.
+Double-click the **Name** field, rename the invoice title label to **Invoice Description**, and then select the **OK** button.
 
    ![Rename the Name field to Invoice Title and select the OK button](../media/33-rename-title-field.png)
 

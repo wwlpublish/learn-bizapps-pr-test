@@ -27,7 +27,7 @@ quiz:
     - content: Microsoft PowerPoint
       isCorrect: false 
       explanation: Power Automate can run business process flows. 
-  - content: What is the main benefit that branching logic delivers to business process flows? (Select one)
+  - content: What is the main benefit that branching logic delivers to business process flows?
     choices: 
     - content: Multilanguage support in the same business process flow
       isCorrect: false
@@ -41,7 +41,7 @@ quiz:
     - content: Allows "not" logic
       isCorrect: false 
       explanation: The main benefit that branching logic delivers to business process flows is that a single business process can be used for many different conditions.
-  - content: Which of the following statements is true? (Select one)
+  - content: Which one of the following statements is true? 
     choices: 
     - content: Power Automate instant flows cannot be used with the same Common Data Service entity as a business process flow.
       isCorrect: false
@@ -55,7 +55,7 @@ quiz:
     - content: Power Automate instant flows, Dynamics 365 workflows, and business process flows can only be used with the same Common Data Service entity(s).
       isCorrect: false 
       explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Common Data Service entity(s).
-  - content: Which of the following statements is true? (Select one)
+  - content: Which of the following statements about business process flows is true?
     choices: 
     - content: Business process flows can only be used within a model-driven app.
       isCorrect: false

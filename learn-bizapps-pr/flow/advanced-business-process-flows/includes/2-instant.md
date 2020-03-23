@@ -3,7 +3,7 @@ that is available to an entity in Common Data Service. In fact, a single
 business process flow can run against up to five entities in Common Data
 Service. Dynamics 365 workflows are also supported as part of a business
 process flow. This topic is beyond the scope of this learning path, but
-if you are interested in this topic, you can learn more about Dynamics 365  
+if you are interested in this topic, you can learn more about Dynamics 365 
 workflows by selecting the related link in the summary unit of this module. 
 
 A third workflow automation, called instant flows, in Power Automate offers 
