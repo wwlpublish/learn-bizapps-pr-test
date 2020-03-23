@@ -13,7 +13,7 @@ If you want to learn more about this topic, select the following links:
 
 - Read more about [Business process flow logical branching](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826751(v=crm.8)?redirectedfrom=MSDN/?azure-portal=true). 
 
-- Learn more about [Instant flows](https://docs.microsoft.com/previous-versions/dynamicscrm-2016/admins-customizers-dynamics-365/mt826751(v=crm.8)?redirectedfrom=MSDN/?azure-portal=true).
+- Learn more about using [Instant flows](https://docs.microsoft.com/en-us/business-applications-release-notes/april19/microsoft-flow/instant-steps-business-process-flows/?azure-portal=true).
 
 - Additional information about [Business process flows](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview/?azure-portal=true).
 
