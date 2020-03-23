@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.advanced-business-process-flows 
+metadata: 
+ title: Understand advanced business process flow concepts in Power Automate 
+ description: Do you want to improve your business process flow? This module introduces more advanced business process flow concepts and techniques that you can use to help improve your flow. 
+ ms.date: 03/25/2020  
+ author: KevSch  
+ ms.author: kschimke  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Understand advanced business process flow concepts in Power Automate  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Do you want to improve your business process flow? This module introduces more advanced business process flow concepts and techniques that you can use to help improve your flow.  
+abstract: |  
+    In this module, you will: 
+    - Learn about branching logic.
+    - Create additional fields and a main form to enhance a business process flow.
+    - Discover how to use instant flows with business process flows. 
+    - Enhance immersive business process flows by using advanced techniques. 
+prerequisites: A basic understanding of how to model a business process as a set of stages, steps, and branching concepts and a familiarity with Power Platform.      
+iconUrl: /learn/achievements/advanced-business-process-flows.svg  
+levels:  
+- intermediate   
+roles:  
+- maker   
+- functional-consultant
+- business-user 
+products:  
+- power-automate
+- power-platform
+units: 
+- learn-bizapps.advanced-business-process-flows.1-branching 
+- learn-bizapps.advanced-business-process-flows.2-instant 
+- learn-bizapps.advanced-business-process-flows.3-enhance 
+- learn-bizapps.advanced-business-process-flows.4-exercise 
+- learn-bizapps.advanced-business-process-flows.5-exercise 
+- learn-bizapps.advanced-business-process-flows.6-exercise 
+- learn-bizapps.advanced-business-process-flows.7-check 
+- learn-bizapps.advanced-business-process-flows.8-summary 
+badge: 
+  uid: learn-bizapps.advanced-business-process-flows.badge 
