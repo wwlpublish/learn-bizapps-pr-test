@@ -55,7 +55,7 @@ the value from the variable. Here's an example:
 1.  Add a **Button** control to your app.
 
 2.  Set the following formula for OnSelect for the **Button** control:
-    Set(varRecord, LookUp(collectCustomerInvoices, ID =3)).
+    Set(varRecord, LookUp(collectCustomerInvoices, ID =3))
 
 3.  Add a **Label** control to your app.
 
