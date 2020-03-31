@@ -20,7 +20,7 @@ You can download Power BI Desktop from the web or as an app from the Microsoft S
 
 | Download Strategy | Link | Notes |
 |-------------------|------|-----------------------------------|
-| Windows Store App | <a href="https://go.microsoft.com/fwlink/?linkid=2101122" target="_blank">Windows Store</a>| Will automatically stay updated |
+| Windows Store App | <a href="https://aka.ms/pbidesktopstore" target="_blank">Windows Store</a>| Will automatically stay updated |
 | Download from web | [Download .msi](https://go.microsoft.com/fwlink/?LinkID=521662) | Must manually update periodically |
 
 ## Sign in to Power BI service
