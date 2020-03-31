@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-builder-sentiment-analysis.4-summary 
+title: Summary
+metadata: 
+  title: Summary
+  description: Summary of this module
+  ms.date: 03/15/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-ai-builder 
+durationInMinutes: 5 
+content: | 
+ [!include[](includes/4-summary.md)] 

@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-builder-sentiment-analysis.3-build-flow 
+title: Build a Power Automate flow by using AI Builder Sentiment Analysis
+metadata: 
+  title: Build a Power Automate flow by using AI Builder Sentiment Analysis 
+  description: Learn how to build a Power Automate flow by using AI Builder Sentiment Analysis
+  ms.date: 03/30/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-ai-builder 
+durationInMinutes: 30 
+content: | 
+ [!include[](includes/3-build-flow.md)] 
