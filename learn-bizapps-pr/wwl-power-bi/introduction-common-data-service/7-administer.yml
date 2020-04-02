@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.wwl.introduction-common-data-service.introduction
-title: Introduction
+uid: learn-bizapps.wwl.introduction-common-data-service.administer
+title: Administer
 metadata:
-  title: Introduction
-  description: "Introduction"
+  title: Administer
+  description: "Administer"
   ms.date: 04/03/2020
   author: wwlpublish
   ms.author: skulthm
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 3
 content: |
-  [!include[](includes/1-introduction.md)]
+  [!include[](includes/7-administer.md)]
