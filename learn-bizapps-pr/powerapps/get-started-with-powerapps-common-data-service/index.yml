@@ -15,7 +15,7 @@ abstract: |
     - Create entities with Common Data Service
     - Import data into a Common Data Service database 
 prerequisites: |
-  - A Microsoft Power Apps account. If you don't already have a Power Apps account, select the **Get started free** link on [powerapps.com](https://web.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
+  - A Microsoft Power Apps account. If you don't already have a Power Apps account, select the **Get started free** link on [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).
 iconUrl: /learn/achievements/get-started-with-powerapps-common-data-service.svg
 levels:  
 - beginner 
