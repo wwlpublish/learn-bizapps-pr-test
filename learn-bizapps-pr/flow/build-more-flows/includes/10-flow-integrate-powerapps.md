@@ -17,7 +17,7 @@ This unit gives an overview of:
 
 Adding a flow to a Power Apps application is very straightforward.
 
-1. Go to [https://web.powerapps.com](https://web.powerapps.com), and sign in by using your organizational account.
+1. Go to [https://make.powerapps.com](https://make.powerapps.com), and sign in by using your organizational account.
 
 1. Open your app for editing.
 
