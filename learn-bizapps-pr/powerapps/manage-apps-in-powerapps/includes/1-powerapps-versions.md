@@ -2,7 +2,7 @@ Microsoft Power Apps can help if you saved changes to an app that you shouldn't 
 
 ## View versions of your app
 
-1. On <a href="https://web.powerapps.com" target="_blank">web.powerapps.com</a>, select **Apps** on the left pane.
+1. On <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a>, select **Apps** on the left pane.
 
 2. In the list of apps, select the ellipsis (**...**) next to the app name and then select **Details**.
 

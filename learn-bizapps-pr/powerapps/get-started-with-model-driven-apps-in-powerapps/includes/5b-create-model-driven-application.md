@@ -8,7 +8,7 @@ keep the managers up to date on the current leads and forecasted revenue.
 
 ### Create the model-driven app for the prospects entity
 
-1. Sign in to [Power Apps](https://web.powerapps.com/?azure-portal=true) by using your organizational account.
+1. Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true) by using your organizational account.
 1. Select the environment you want, or go to the [Power Apps admin center](https://admin.powerapps.com/?azure-portal=true) to create a new one.
 1. On the **Home** page, select the **Model-driven app from blank**.  
 1. Select **Create**.

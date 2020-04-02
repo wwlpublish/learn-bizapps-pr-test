@@ -12,7 +12,7 @@ To connect to a data source, use the following procedure:
 
 1. Download the [Flooring Estimates workbook](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringEstimates.xlsx) and save it to OneDrive for Business.
 
-1. Go to [https://web.powerapps.com](https://web.powerapps.com) and sign in with your organizational account.
+1. Go to [https://make.powerapps.com](https://make.powerapps.com) and sign in with your organizational account.
 
 1. In the left pane, select **Apps**.
 
