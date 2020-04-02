@@ -5,7 +5,7 @@ Every entity has required fields that must exist in your input file. We recommen
 ## Create a file template
 You can do a one-time data export from a standard entity or a custom entity, and you can export data from more than one entity at a time. If you export data from more than one entity, each entity is exported into its own Microsoft CSV file. In this example, you'll see how to export the **Pet** entity but remember you could select several entities to export if you would like.
 
-1. On [powerapps.com](https://web.powerapps.com/), in the left navigation pane, expand **Data**, select **Entities**, and then select **Export data**.
+1. On [powerapps.com](https://make.powerapps.com/), in the left navigation pane, expand **Data**, select **Entities**, and then select **Export data**.
 2. Select the **Pet** entity, and then select **Export data**.
 3. After the export is finished, select **Download exported data**, and save the file.
 
