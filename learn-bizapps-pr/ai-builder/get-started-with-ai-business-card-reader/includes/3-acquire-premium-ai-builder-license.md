@@ -2,7 +2,7 @@ In this unit, you will:
 -   Identify the product that you need to buy to receive AI Builder capacity.
 -   Examine how you can purchase the product.
 
-To get AI Builder capacity, you need to purchase a specific Product SKU named **AI Builder Capacity add-on**. You will need to go through your usual channel to purchase this product, whether it's through a reseller,an enterprise agreement, or by using direct purchase.
+To get AI Builder capacity, you need to purchase a specific Product SKU named **AI Builder Capacity add-on**. You will need to go through your usual channel to purchase this product, whether it's through a reseller, an enterprise agreement, or by using direct purchase.
 
 If you typically use Direct Channel, you can find this product in the Microsoft 365 admin center by going to <https://admin.microsoft.com>.
 
