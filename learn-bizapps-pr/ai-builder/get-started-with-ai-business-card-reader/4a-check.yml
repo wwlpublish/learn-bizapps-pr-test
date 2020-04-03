@@ -46,7 +46,7 @@ quiz:
     - content: c.	CityAddress
       isCorrect: false
       explanation: AddressStreet is a valid field extracted from business cards.
-  - content: 4.	How can Business card reader component get the image to be analysed in Power Apps Canvas? 
+  - content: 4.	How can Business card reader component get the image to be analyzed in Power Apps Canvas? 
     choices: 
     - content: a.	From OneDrive  
       isCorrect: false
