@@ -95,7 +95,7 @@ Country:"Italy", Population:1344000})
 7.  Select the last or third Label, change the **Text** property to
     **ThisItem.Population**.
 
-![Gallery Image](../media/GalleryImage.png)
+![Gallery Image](../media/gallery-image.png)
 
 These were just two simple examples demonstrating some basic
 functionality of a label control. There are many other ways to utilize
