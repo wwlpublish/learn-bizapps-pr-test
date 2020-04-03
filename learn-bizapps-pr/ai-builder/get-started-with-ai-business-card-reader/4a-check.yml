@@ -1,0 +1,72 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-business-card-reader.4a-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/02/2020 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: d365-ai-builder 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: 1.	Which languages are officially supported by business card reader today? 
+    choices: 
+    - content: a.	English and simple Chinese 
+      isCorrect: false
+      explanation: Only English is officially supported by business card reader at this time.
+    - content: b.	Only English
+      isCorrect: true
+      explanation: Only English is officially supported by business card reader at this time.
+    - content: c.	English and Spanish 
+      isCorrect: false
+      explanation: Only English is officially supported by business card reader at this time.
+  - content: 2.	Where in the Power Platform you can use the AI Builder business card reader technology? 
+    choices: 
+    - content: a.	Model-driven apps, canvas apps, and flows.
+      isCorrect: true
+      explanation: You can use AI Builder business card reader in model-driven apps, canvas apps, and flows.
+    - content: b.	Model-driven apps and flows.
+      isCorrect: false
+      explanation: You can use AI Builder business card reader in model-driven apps, canvas apps, and flows.
+    - content: c.	Model-driven apps and canvas apps.
+      isCorrect: false
+      explanation: You can use AI Builder business card reader in model-driven apps, canvas apps, and flows.
+  - content: 3.	Which of the following fields is a valid field extracted from business cards? 
+    choices: 
+    - content: a.	MiddleName
+      isCorrect: false
+      explanation: AddressStreet is a valid field extracted from business cards.
+    - content: b.	AddressStreet
+      isCorrect: true
+      explanation: AddressStreet is a valid field extracted from business cards.
+    - content: c.	CityAddress
+      isCorrect: false
+      explanation: AddressStreet is a valid field extracted from business cards.
+  - content: 4.	How can Business card reader component get the image to be analysed in Power Apps Canvas? 
+    choices: 
+    - content: a.	From OneDrive  
+      isCorrect: false
+      explanation: Business card reader component can get the image when you take a picture or upload a picture from your local drive.
+    - content: b.	Taking a picture or uploading from local disk 
+      isCorrect: true
+      explanation: Business card reader component can get the image when you take a picture or upload a picture from your local drive.
+    - content: c.	CityAddress
+      isCorrect: false
+      explanation: Business card reader component can get the image when you take a picture or upload a picture from your local drive.
+  - content: 5.	Business card reader is available out-of-the-box in which of these Dynamics 365 products? 
+    choices: 
+    - content: a.	Dynamics 365 Sales Enterprise  
+      isCorrect: true
+      explanation: Business card reader is available out-of-the-box in Dynamics 365 Sales Enterprise.
+    - content: b.	Dynamics 365 Fields and Operation 
+      isCorrect: false
+      explanation: Business card reader is available out-of-the-box in Dynamics 365 Sales Enterprise.
+    - content: c.	Dynamics 365 for Marketing 
+      isCorrect: false
+      explanation: Business card reader is available out-of-the-box in Dynamics 365 Sales Enterprise.
+
+Congratulations, you have successfully achieved this assessment and got advanced knowledge in AI Builder Business card reader. 

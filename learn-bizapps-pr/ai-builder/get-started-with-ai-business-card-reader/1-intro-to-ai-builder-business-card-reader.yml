@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-business-card-reader.1-intro-to-ai-builder-business-card-reader 
+title: Introduction to AI Builder Business Card Reader 
+metadata: 
+  title: Introduction to AI Builder Business Card Reader 
+  description: Learn about Ai Builder Business Card Reader and how to use it in Microsoft Power Apps and Power Automate.
+  ms.date: 03/15/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-ai-builder 
+durationInMinutes: 45 
+content: | 
+ [!include[](includes/1-intro-to-ai-builder-business-card-reader.md)] 
