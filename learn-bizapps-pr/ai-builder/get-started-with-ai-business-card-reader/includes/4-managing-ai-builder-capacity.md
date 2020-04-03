@@ -7,7 +7,7 @@ In this unit, you will
 
 Premium experiences like performing a Predict action on a prebuilt model, or launching a Training action on some custom model like Object Detection requires capacity to be available in the current environment.
 
-What is an environment? Environment is a Power Platform concept, which defines a storage and working area with usually a Common Data Service database -- required for AI Builder to work correctly -- and Apps, AI Models, and Flows created on it. Tenants may use Environments to distinguish Prod environments from Dev environments for instance, and sometimes to separate area between Enterprise divisions. It's also called Organization in Dynamics namespace.
+What is an environment? Environment is a Power Platform concept, which defines a storage and working area with usually a Common Data Service database--required for AI Builder to work correctly--and Apps, AI Models, and Flows created on it. Tenants may use Environments to distinguish Prod environments from Dev environments for instance, and sometimes to separate area between Enterprise divisions. It's also called Organization in Dynamics namespace.
 
 As we saw in previous lesson, when you purchase AI Builder Capacity Add-on, corresponding capacity is made available at tenant level. In order to make it available at Environment level, you need to assign it.
 
@@ -26,7 +26,7 @@ Clicking "Assign to an environment" button at the top of the page will open a si
 
 The total of assigned AI Builder credits across environment cannot exceed the number of available AI Builder credits at tenant level.
 
-So if you want to reassign some amount from one environment to the other, please set the new lower number of first environment before setting the new higher number of second environment.
+So if you want to reassign some amount from one environment to the other, set the new lower number of first environment before setting the new higher number of second environment.
 
 ![A screenshot of a cell phone description automatically generated](../media/image6.png)
 
@@ -46,7 +46,7 @@ When a given environment has no AI Builder credit assigned, by default, all prem
 
 The Trial banner is displayed at the top of AI Builder pages, in Environments where there is no AI Builder credit assigned.
 
-Starting a trial allows a user to perform premium actions in environments without AI Builder capacity. AI Builder trial is limited in time -- 30 days -- and is limited in capacity.
+Starting a trial allows a user to perform premium actions in environments without AI Builder capacity. AI Builder trial is limited to 30 days and is limited in capacity.
 
 When a user with a trial is performing a premium action within an environment with AI Builder capacity, then the consumption is counted against the environment capacity.
 
