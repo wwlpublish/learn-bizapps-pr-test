@@ -13,7 +13,7 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: 1.	Which languages are officially supported by business card reader today? 
+  - content: Which languages are officially supported by business card reader today? 
     choices: 
     - content: a.	English and simple Chinese 
       isCorrect: false
@@ -24,7 +24,7 @@ quiz:
     - content: c.	English and Spanish 
       isCorrect: false
       explanation: Only English is officially supported by business card reader at this time.
-  - content: 2.	Where in the Power Platform you can use the AI Builder business card reader technology? 
+  - content: Where in the Power Platform you can use the AI Builder business card reader technology? 
     choices: 
     - content: a.	Model-driven apps, canvas apps, and flows.
       isCorrect: true
@@ -35,7 +35,7 @@ quiz:
     - content: c.	Model-driven apps and canvas apps.
       isCorrect: false
       explanation: You can use AI Builder business card reader in model-driven apps, canvas apps, and flows.
-  - content: 3.	Which of the following fields is a valid field extracted from business cards? 
+  - content: Which of the following fields is a valid field extracted from business cards? 
     choices: 
     - content: a.	MiddleName
       isCorrect: false
@@ -46,7 +46,7 @@ quiz:
     - content: c.	CityAddress
       isCorrect: false
       explanation: AddressStreet is a valid field extracted from business cards.
-  - content: 4.	How can Business card reader component get the image to be analyzed in Power Apps Canvas? 
+  - content: How can Business card reader component get the image to be analyzed in Power Apps Canvas? 
     choices: 
     - content: a.	From OneDrive  
       isCorrect: false
@@ -57,7 +57,7 @@ quiz:
     - content: c.	CityAddress
       isCorrect: false
       explanation: Business card reader component can get the image when you take a picture or upload a picture from your local drive.
-  - content: 5.	Business card reader is available out-of-the-box in which of these Dynamics 365 products? 
+  - content: Business card reader is available out-of-the-box in which of these Dynamics 365 products? 
     choices: 
     - content: a.	Dynamics 365 Sales Enterprise  
       isCorrect: true
