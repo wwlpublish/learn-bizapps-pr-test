@@ -6,7 +6,7 @@ After your model has completed training, you can view important details about yo
 
 To quickly see your model in action, select **Quick test**.
 
-Drag and drop or upload an image from your device to test. If you are
+Drag and drop or upload an image from your device to test. If you're
 using sample data, you can go to the **AIBuilder\_Lab\\Lab
 Images\\ObjectDetection\_Green Tea\\Test** folder for a test image.
 
@@ -14,7 +14,7 @@ You will now be able to view the detected objects that you chose and the associa
 
 ### Publish your model
 
-Your model can't be used until you publish it. If you are satisfied with your model, select **Publish** to make it available for use.
+Your model can't be used until you publish it. If you're satisfied with your model, select **Publish** to make it available for use.
 
 ### Use your model in Power Apps
 
@@ -31,11 +31,11 @@ Going forward, you can select **Insert \> AI Builder** to view the list of AI Bu
 
 4.  Select **Insert** and then add a **Data table** component.
 
-5.  To bind the **Object detector** component to one of the **Data table**, select the **Data table component** and replace the Formula bar value by *ObjectDetector1.GroupedResults*.
+5.  To bind the **Object detector** component to one of the Data tables, select the **Data table component** and replace the Formula bar value by *ObjectDetector1.GroupedResults*.
 
     ![The Data Table component](../media/image8.png)
     
-    This will auto-populate the data table with the list of objects that the model can recognized as well as their count in the image.
+    This will auto-populate the data table with the list of objects that the model can recognize as well as their count in the image.
 
 6.  Select **Play** on the upper right of the Power Apps studio to preview the app.
 
