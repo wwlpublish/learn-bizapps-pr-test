@@ -14,7 +14,8 @@ We are going to build a Power Automate flow checking when an image is added to a
 4. Enter the trigger "When a file is created \-- OneDrive for Business". 
 5. Select "Create".
 
-[NOTE:] You can use any kind of trigger like "When an email arrives in Outlook", "When a record is created in Common Data Service", "When an item is created in SharePoint" and more.
+[!NOTE:] 
+You can use any kind of trigger like "When an email arrives in Outlook", "When a record is created in Common Data Service", "When an item is created in SharePoint" and more.
 
 **You need to set the folder that Power Automate monitors for new incoming images.**
 
@@ -38,7 +39,8 @@ In this example, we set the "Folder" property of the "When a file is created" st
 
 You can map the Contacts entity fields to the extracted fields from the Business Card model. Fields such as first name, last name, address information, email, etc. are available. There are 18 fields currently available today.
 
-[NOTE:] You can also send the results by email, create a file in SharePoint and more.
+[!NOTE:] 
+You can also send the results by email, create a file in SharePoint and more.
 
 You should end with following flow. Save and it is now ready to process images.
 
