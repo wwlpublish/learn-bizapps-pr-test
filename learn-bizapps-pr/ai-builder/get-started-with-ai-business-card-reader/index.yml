@@ -3,7 +3,7 @@ uid: learn-bizapps.get-started-with-ai-business-card-reader
 metadata: 
  title: Get Started with AI Builder Business Card Reader
  description: Learn about Ai Builder Business Card Reader and how to use it in Microsoft Power Apps and Power Automate
- ms.date: 04/12/2020  
+ ms.date: 04/06/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
@@ -35,11 +35,11 @@ products:
 - dynamics  
 - ai-builder 
 units: 
-- learn-bizapps.get-started-with-ai-business-card-reader.1-intro-to-ai-builder-business-card-reader 
-- learn-bizapps.get-started-with-ai-business-card-reader.2-add-business-card-reader-to-canvas-app 
-- learn-bizapps.get-started-with-ai-business-card-reader.3-acquire-premium-ai-builder-license 
-- learn-bizapps.get-started-with-ai-business-card-reader.4-managing-ai-builder-capacity 
-- learn-bizapps.get-started-with-ai-business-card-reader.4a-check
-- learn-bizapps.get-started-with-ai-business-card-reader.5-summary 
+- learn-bizapps.get-started-with-ai-business-card-reader.1-introduction
+- learn-bizapps.get-started-with-ai-business-card-reader.2-canvas-app 
+- learn-bizapps.get-started-with-ai-business-card-reader.3-build-flow 
+- learn-bizapps.get-started-with-ai-business-card-reader.4-model-driven-app 
+- learn-bizapps.get-started-with-ai-business-card-reader.5-check
+- learn-bizapps.get-started-with-ai-business-card-reader.6-summary 
 badge: 
   uid: learn-bizapps.get-started-with-ai-business-card-reader.badge 
