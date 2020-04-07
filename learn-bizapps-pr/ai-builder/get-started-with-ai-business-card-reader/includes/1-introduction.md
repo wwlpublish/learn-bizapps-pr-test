@@ -15,6 +15,6 @@ Currently, only English business cards are supported, and JPG, PNG, BMP and TIFF
 You can use the business card reader in your model-driven apps, canvas Apps and Power Automate flows. The business card reader is also present in the Dynamics 365 Sales Enterprise "Quick Create Contact" and "Quick Create Lead" forms to allow users to automatically fill out the creation
 of contacts and leads form using business card information.
 
-![Business card scan](media/image1.png)
+![Business card scan](../media/image1.png)
 
 **You have successfully been introduced to AI Builder Business card reader and are ready to learn more on how to use it.**
