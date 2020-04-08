@@ -48,6 +48,6 @@ After you have explored this DLP policy, you'll find that your HTTP
 triggers and actions are included in your default data group, which in
 this case is **No business data allowed**. These connectors can be
 managed just like any other connectors and can be added to the
-**Business data allowed** data group.
+**Business data only** data group.
 
 ![http DLP](../media/7-http-dlp.png)
