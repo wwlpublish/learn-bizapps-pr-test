@@ -10,6 +10,7 @@ metadata:
  ms.prod: learning-d365-ai-builder  
 title: Get started with AI Builder object detection
 summary: |  
+  [!include[](../includes/module-banner.md)] 
   Learn the basics of object detection in AI Builder and how it can benefit your organization.
 abstract: |  
     In this module, you will: 
