@@ -10,6 +10,7 @@ metadata:
  ms.prod: learning-d365-ai-builder  
 title: Get Started with AI Builder Business Card Reader
 summary: |  
+  [!include[](../includes/module-banner.md)] 
   Learn about Ai Builder Business Card Reader and how to use it in Microsoft Power Apps and Power Automate
 abstract: |  
     In this module, you will: 
