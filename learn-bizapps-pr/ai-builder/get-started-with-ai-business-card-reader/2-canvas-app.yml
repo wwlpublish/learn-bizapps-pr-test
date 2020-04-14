@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-business-card-reader.2-canvas-app 
+title: Add business card reader to your canvas app 
+metadata: 
+  title: Add business card reader to your canvas app 
+  description: Learn how to add business card reader to your Canvas app
+  ms.date: 04/06/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-ai-builder 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-canvas-app.md)] 
