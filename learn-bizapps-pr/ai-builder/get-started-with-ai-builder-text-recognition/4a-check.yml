@@ -1,0 +1,56 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-builder-text-recognition.4a-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/10/2020
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: d365-ai-builder 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What are the capabilities of AI Builder text recognition? 
+    choices: 
+    - content: a.	Recognize printed characters on a picture?  
+      isCorrect: false
+      explanation: AI Builder text recognition can recognize printed and handwritten characters on a picture.
+    - content: b.	Recognize printed and handwritten characters on a picture?
+      isCorrect: true
+      explanation: AI Builder text recognition can recognize printed and handwritten characters on a picture.
+    - content: c.	Recognize symbols, printed and handwritten characters on a picture? 
+      isCorrect: false
+      explanation: AI Builder text recognition can recognize printed and handwritten characters on a picture.
+  - content: Which Azure service is powering this technology?  
+    choices: 
+    - content: a.	Azure Entity Recognition 
+      isCorrect: false
+      explanation: This technology is powered by Azure OCR.
+    - content: b.	Azure Image Analysis 
+      isCorrect: false
+      explanation: This technology is powered by Azure OCR.
+    - content: c.	Azure OCR
+      isCorrect: true
+      explanation: This technology is powered by Azure OCR.
+  - content: How can you retrieve the text recognized in Power Apps Canvas? 
+    choices: 
+    - content: a.	From OneDrive
+      isCorrect: false
+      explanation: You can retrieve the text recognized in Power Apps Canvas by taking a picture or uploading from a local disk.
+    - content: b.	Taking a picture or uploading from local disk
+      isCorrect: true
+      explanation: You can retrieve the text recognized in Power Apps Canvas by taking a picture or uploading from a local disk.
+    - content: c.	From Common Data Service 
+      isCorrect: false
+      explanation: You can retrieve the text recognized in Power Apps Canvas by taking a picture or uploading from a local disk.
+  - content: Is the AI Builder Text Recognizer component available from a model driven Power App? 
+    choices: 
+    - content: a.	Yes 
+      isCorrect: false
+      explanation: The AI Builder Text Recognizer component is not available from a model driven Power App.
+    - content: b.	No
+      isCorrect: true
+      explanation: The AI Builder Text Recognizer component is not available from a model driven Power App.
