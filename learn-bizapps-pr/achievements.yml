@@ -10,3 +10,7 @@ achievements:
   title: Get started with business process flows
   summary: Badge for the 'Get started with business process flows' module.
   iconUrl: /learn/achievements/get-started-with-flow.svg
+- uid: learn-bizapps.create-reports-wiht-power-bi-destop.trophy
+  type: trophy
+  title: Create and share your first Power BI report
+  iconUrl: /learn/achievements/create-reports-with-power-bi-desktop.svg
