@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-common-data-service.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/03/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "How can business rules be used in a canvas or model-driven app?"
+    choices:
+    - content: "To validate data and show error messages."
+      isCorrect: true
+      explanation: "Correct. Common Data Service allows business rules to be set to apply and maintain business logic at the data layer."
+    - content: "Show or hide fields."
+      isCorrect: false
+      explanation: "Incorrect. Only model-driven apps can use this functionality."
+    - content: "Manage solution development and data storage."
+      isCorrect: false
+      explanation: "Incorrect. Environments are the way you manage solution development and data storage in Common Data Service."
+  - content: "Your manager has built a solution using the Common Data Service using a few of the standard Entities included out of the box. He wants to capture the date that new records are added to the Entity, but he isn't sure how. He notices that a \"Date\" field is already inside his Entity, but he wants the field to have a custom name of \"Date Confirmed\". What would you recommend he do?"
+    choices:
+    - content: "Create a new Entity with the name \"Date Confirmed\"."
+      isCorrect: false
+      explanation: "Incorrect. Entities are similar to tables and records within them can have many fields. You wouldn't want to create a new Entity just to store a date when a field inside the existing entity already does that."
+    - content: "Use the built-in Date field within the Entity to store the date values, but rename the field to \"Date Confirmed\"."
+      isCorrect: true
+      explanation: "Correct. When building a solution in the Common Data Service, it is best practice to use the out-of-the-box entities and fields where possible. In this case, the Entity already has a \"Date\" field. Best practices also state that you simply rename the existing fields if needed, so that would be the recommended solution here."
+    - content: "Create a new Environment with the name \"Date Confirmed\"."
+      isCorrect: false
+      explanation: "Incorrect. Environments are spaces in which Common Data Service instances live, but creating a new Environment will do anything to help in this situation because creating a new Environment will leave him with the same out-of-the-box entities that he started with in his old Environment."
+  - content: "One of your co-workers has set up a Model-driven application using the Common Data Service. The app captures information about computer hardware assets, including their price. Your co-worker is concerned that users of the application are going to put incorrect values into fields - for instance, they might put in the wrong cost center when submitting a new record. How could this be prevented?"
+    choices:
+    - content: "Use Business Rules to automatically validate the cost center for the currently-logged in user."
+      isCorrect: true
+      explanation: "Correct. A business rule could be set up to validate that the cost center the user has entered into the Model-driven app matches the cost center that is assigned to their department."
+    - content: "Use Power Automate to validate that the field value matches what the table is expecting."
+      isCorrect: false
+      explanation: "Incorrect. You don't need a Flow to solve this issue, because the Common Data Service has built-in capabilities to handle this sort of data validation without introducing any additional workflow solutions."
+    - content: "Use a Canvas App instead of a Model-driven app."
+      isCorrect: false
+      explanation: "Incorrect. It doesn't matter whether your co-worker uses a Canvas or a Model-driven app in this instance, because either way he still has to have a mechanism to validate the information in the field."

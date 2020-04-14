@@ -1,14 +1,16 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.2-flow-create-approval-request
 title: Build an approval request
 metadata: 
   title: Build an approval request
   description: Create an approval request that uses SharePoint and Flow to approval tweets.
-  ms.date:  02/03/2019
-  author: margoc
-  ms.author: margoc
+  ms.date:  03/04/2020
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
+  ms.prod: learning-power-automate
 durationInMinutes: 8 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/2-flow-create-approval-request.md)] 
+

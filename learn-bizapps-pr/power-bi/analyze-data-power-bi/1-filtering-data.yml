@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.analyze-explore-data-power-bi.1-filtering-data 
 title: Filter data with Power BI
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: robde 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-bi 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 15 
-content: | 
- [!include[](includes/1-filtering-data.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-filtering-data.md)] 
+

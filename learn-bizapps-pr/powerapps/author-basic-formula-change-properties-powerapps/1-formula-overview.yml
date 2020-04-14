@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.change-properties.1-formula-overview
 title: Formulas overview
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 8 
-content: | 
- [!include[](includes/1-formula-overview.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-formula-overview.md)] 
+

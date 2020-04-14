@@ -1,34 +1,35 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.flow-administration 
 metadata: 
-  title: Use the Admin center to manage environments and data policies in Microsoft Flow
-  description: Tenant and environment admins use the Microsoft Flow Admin center to manage data policies and environments for Microsoft Flow deployments.
-  ms.date: 02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  title: Use the Admin center to manage environments and data policies in Power Automate
+  description: Tenant and environment admins use the Power Automate Admin center to manage data policies and environments for Power Automate deployments.
+  ms.date: 03/04/2020
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
-  #ms.learn-contact: margoc
-title: Use the Admin center to manage environments and data policies in Microsoft Flow 
-summary: Tenant and environment admins use the Microsoft Flow Admin center to manage data policies and environments for Microsoft Flow deployments.
+  ms.prod: learning-power-automate
+title: Use the Admin center to manage environments and data policies in Power Automate 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Tenant and environment admins use the Power Automate Admin center to manage data policies and environments for Power Automate deployments.
 abstract: |
     In this module, you will:
     - Learn about the Admin center
     - Learn how to import and export flows
     - Learn how to share flows
 prerequisites: |
-    - Signed up for Microsoft Flow
-#TODO: Add links to these.
+    - Signed up for Power Automate and a working mobile device with the Power Automate mobile app loaded.
 iconUrl: /learn/achievements/administer-flows.svg
 levels:  
 - beginner 
 roles:  
-- business-user
 - functional-consultant
+- maker
+- administrator
 products:  
 - power-platform
-- flow
+- power-automate
 units: 
 - learn-bizapps.flow-administration.1-introduction
 - learn-bizapps.flow-administration.2-flow-export-import
@@ -37,3 +38,4 @@ units:
 - learn-bizapps.flow-administration.5-summary
 badge:
   uid: learn.flow-administration.badge
+

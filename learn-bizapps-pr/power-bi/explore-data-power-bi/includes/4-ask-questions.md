@@ -1,6 +1,7 @@
 ﻿Sometimes, the fastest way to get answers about your data is by asking questions in the Q&A feature of Power BI. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oQm1]
+**Video**: Ask questions in natural language
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x4jC]
 
 > [!NOTE]
 > Currently, Power BI Q&A only supports answering queries that are asked in English; however, a preview is available for Spanish that can be enabled by your Power BI administrator.
@@ -39,4 +40,4 @@ You can also tell Q&A which visual to use by adding it to your question. Q&A wil
 
 ![Image of Q&A answer but with "by pie chart" added to the question.](../media/04-power-bi-ask-answer-by-chart-type.png)
 
-For more information, see [Create a visual with Power BI Q&A](https://docs.microsoft.com/power-bi/power-bi-visualization-introduction-to-q-and-a).
+For more information, see [Create a visual with Power BI Q&A](https://docs.microsoft.com/power-bi/power-bi-visualization-introduction-to-q-and-a/?azure-portal=true).

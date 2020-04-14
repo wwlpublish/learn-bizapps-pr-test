@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.use-documentation.02-user-interface-testing 
 title: User interface testing 
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: Kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-platform 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 5 
-content: | 
- [!include[](includes/02-user-interface-testing.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/02-user-interface-testing.md)] 
+

@@ -1,14 +1,16 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.powerapps-customize.3-powerapps-functions
-title: Get started with functions in PowerApps
+title: Get started with functions in Power Apps
 metadata: 
-  title: Get started with functions in PowerApps
-  description: Get started with default functions in apps that PowerApps generates.
+  title: Get started with functions in Power Apps
+  description: Get started with default functions in apps that Power Apps generates.
   ms.date: 5/21/2019
   author: kevsch
   ms.author: kevsch
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 15 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/3-powerapps-functions.md)]  
+

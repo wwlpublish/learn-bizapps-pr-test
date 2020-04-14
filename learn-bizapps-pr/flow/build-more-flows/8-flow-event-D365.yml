@@ -1,15 +1,16 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.8-flow-event-D365
 title: Build a flow that runs when an event in Dynamics 365 occurs
 metadata: 
   title: Build a flow that runs when an event in Dynamics 365 occurs
   description: Learn to build a flow that runs when an event in Dynamics 365 occurs, such as copying a lead to an Excel list.
-  ms.date:  02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date:  03/04/2020
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
+  ms.prod: learning-power-automate
 durationInMinutes: 6
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/8-flow-event-D365.md)] 
+

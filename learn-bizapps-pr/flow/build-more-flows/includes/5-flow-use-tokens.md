@@ -27,23 +27,24 @@ Here's the list of button trigger tokens that are available to you when you crea
 
 When you create a button, you can use trigger tokens to add rich functionality to it.
 
-Let's create a button flow on a Google Android device. The button flow will use trigger tokens to send the date and your full address in a "Working from home" email to your boss.
+Let's create a button flow on a mobile device. The button flow will use trigger tokens to send the date and your full address in a "Working from home" email to your boss.
 
-Although the procedures in this unit show screenshots from an Android device, the experience is similar on Apple iOS and Windows Phone devices.
+Although the procedures in this unit show screenshots from an Apple iOS device, the experience is similar on Android and Windows Phone devices.
 
 ### Prerequisites
 
-* A work or school email address, or a [Microsoft account](https://account.microsoft.com/about?refd=www.microsoft.com) that has access to Microsoft Flow
-* The Microsoft Flow mobile app for [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows)
+* A work or school email address, or a [Microsoft account](https://account.microsoft.com/about?refd=www.microsoft.com) that has access to Power Automate
+* The Power Automate mobile app for [Android](https://aka.ms/flowmobiledocsandroid), [iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows)
 
 ### Create the button flow
 
-1. Launch the Microsoft Flow mobile app and sign in using your organizational account.
+1. Launch the Power Automate mobile app and sign in using your organizational account.
+
 1. Select **Browse**.
 
     ![Browse](../media/1.png)
 
-1. Under the **Button** category, select the **Send a 'Working from home today' email to your manager** service.
+1. Search for and select the **Send a 'Working from home today' email to your manager** service.
 
     ![Send a 'Working from home today' email to your manager](../media/2.png)
 
@@ -51,29 +52,25 @@ Although the procedures in this unit show screenshots from an Android device, th
 
     ![Use this template](../media/3.png)
 
-1. On the **Send an email** card, select **Edit**.
+1. Press the title of the **Send an email** card to expand your options. Note that this is a part of simultaneous actions. We've turned the screen so you can see more of the flow here.
 
     ![Edit](../media/3-5.png)
 
-1. Select the **Subject** field, and enter *WFH today*. Notice that when you selected the **Subject** field, a list of tokens appeared. In the next step, you'll use one of these tokens to add the date to the subject of the email.
-
-    ![Subject field](../media/4.png)
-
-1. While the cursor is still in the **Subject** field, scroll through the list of tokens, and select **Date**. Notice that the date token now appears in the **Subject** field.
+1. Select the **Subject** field, and enter *WFH today*. Notice that when you selected the **Subject** field, a list of tokens appeared. While the cursor is still in the **Subject** field, scroll through the list of tokens, and select **Date**. Notice that the date token now appears in the **Subject** field.
 
     ![Date token added to the Subject field](../media/6.png)
 
 1. Scroll to the **Body** field, and select the default message so that you can add tokens there.
 
-    ![Body field](../media/7.png)
-
-1. Select the **Full address** token, and then select **Create**.
+1. Select the **Full address** token.
 
     ![Full address token added to the Body field](../media/8.png)
 
-1. Select **Done**. Your button flow is now created.
+1. Select **Create**.
 
-    ![Done](../media/9.png)
+    ![Create](../media/9.png)
+
+1. Select **Done**. Your button flow is now created.
 
 ## Run the button flow
 
@@ -84,9 +81,7 @@ Although the procedures in this unit show screenshots from an Android device, th
 
     ![Button for the button flow](../media/10.png)
 
-1. Select **Allow** to let the button flow access your device's location information.
-
-    ![Allow](../media/11.png)
+1. Your device may prompt you to let the button flow access your device's location information. If necessary, press **Allow**
 
     In a few moments, you'll notice that the email was sent to your boss.
 

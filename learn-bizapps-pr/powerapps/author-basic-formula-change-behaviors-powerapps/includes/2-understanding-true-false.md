@@ -1,19 +1,19 @@
 The concept of true and false is important to become familiar with when
-using Microsoft PowerApps. When designing your app, the ability to effectively use
+using Microsoft Power Apps. When designing your app, the ability to effectively use
 and apply true and false concepts will allow you to build a better
 overall app. When you want to evaluate conditions in your app with the
 **If** function, the results are either **true** or **false**. If you
 want to filter the amount of data and or information returned based
 on whether a condition is **true** or **false**, this is also
 possible. Another place true and false is used is for setting some of
-the control\'s properties within PowerApps. Every control, except a
+the control\'s properties within Power Apps. Every control, except a
 screen, has a **Visible** property, the **Visible** property by default
 is set to **true**. If you wanted to hide a control on the screen
 you could simply set the **Visible** property to **false**. The
 control will still be on the screen, but because the **Visible** property is
 **false** no one will see it.
 
-Note that when referencing **true** or **false** in PowerApps it is
+Note that when referencing **true** or **false** in Power Apps it is
 always lower case. True and False are incorrect and will not work.
 
 A common use of **true** and **false** is setting the **Visible**

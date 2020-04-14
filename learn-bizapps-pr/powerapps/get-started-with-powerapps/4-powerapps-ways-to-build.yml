@@ -1,9 +1,9 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.4-powerapps-ways-to-build
-title: Ways to build PowerApps
+title: Ways to build Power Apps
 metadata:
-  title: Ways to build PowerApps
-  description: Learn the different ways you can build apps in PowerApps.
+  title: Ways to build Power Apps
+  description: Learn the different ways you can build apps in Power Apps.
   ms.date: 05/21/2019
   author: kevsch
   ms.author: kevsch
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 8
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/4-powerapps-ways-to-build.md)]
+

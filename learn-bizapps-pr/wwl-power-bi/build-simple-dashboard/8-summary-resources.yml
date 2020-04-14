@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.build-simple-dashboard.summary-resources
+title: Summary and resources
+metadata:
+  title: Summary and resources
+  description: "Summary and resources"
+  ms.date: 01/17/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-summary-resources.md)]

@@ -1,4 +1,4 @@
-Determining when delegation when and will not happen is a combination of several variables. The first thing to consider is the data source. The following table shows the different functions and whether they support delegation to a given data source. In this table, “Yes” means the data source does the processing across all of the records, “No” means the data source returns the first 500 (default) records to PowerApps, and PowerApps then processes the function locally.
+Determining when delegation will and will not happen is a combination of several variables. The first thing to consider is the data source. The following table shows the different functions and whether they support delegation to a given data source. In this table, “Yes” means the data source does the processing across all of the records, “No” means the data source returns the first 500 (default) records to Power Apps, and Power Apps then processes the function locally.
 
 
 |               | Common Data Service  | SharePoint   | SQL Server   | Dynamics 365   | Salesforce |
@@ -51,4 +51,4 @@ delegate Date columns.
 The Column type can also factor in
 ----------------------------------
 
-One other thing to consider is that the column type can also affect whether delegation is possible. Complex columns, like a SharePoint lookup column, are not delegable. These columns have deeper logic and are only processable locally by PowerApps. The good news is that if you use a complex column PowerApps will provide the visual warning indicators so you can build your app as appropriate.
+One other thing to consider is that the column type can also affect whether delegation is possible. Complex columns, like a SharePoint lookup column, are not delegable. These columns have deeper logic and are only processable locally by Power Apps. The good news is that if you use a complex column Power Apps will provide the visual warning indicators so you can build your app as appropriate.

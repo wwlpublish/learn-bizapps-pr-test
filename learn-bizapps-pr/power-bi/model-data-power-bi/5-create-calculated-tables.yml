@@ -1,0 +1,17 @@
+﻿### YamlMime:ModuleUnit 
+uid: learn-bizapps.model-data-power-bi.5-create-calculated-tables 
+title: Create calculated tables
+metadata: 
+  title: Create calculated tables
+  description: Learn how to create calculated tables in Power BI Desktop.
+  ms.date: 07/15/2019 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+   
+durationInMinutes: 4
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/5-create-calculated-tables.md)] 
+

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.build-simple-dashboard.transform-data
+title: Transform data
+metadata:
+  title: Transform data
+  description: "Transform data"
+  ms.date: 01/17/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-transform-data.md)]

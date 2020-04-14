@@ -1,26 +1,30 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.custom-connectors 
 metadata: 
-  title: Use custom connectors in a PowerApps canvas app
+  title: Use custom connectors in a Power Apps canvas app
   description: Custom connectors can be used with your canvas app when a built-in connector is not available. This module focuses on using custom connectors.
   ms.date: 04/9/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-power-platform  
-title: Use custom connectors in a PowerApps canvas app
-summary: Custom connectors can be used with your canvas app when a built-in connector is not available. This module focuses on using custom connectors. 
+title: Use custom connectors in a Power Apps canvas app
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Custom connectors can be used with your canvas app when a built-in connector is not available. This module focuses on using custom connectors. 
 abstract: |  
     In this module, you will: 
     - Understand custom connectors and the basics of how to build one
     - Understand the custom connector lifecycle
     - Use postman with a custom connector
-prerequisites: A basic understanding of how to create a PowerApps canvas app.      
+prerequisites: A basic understanding of how to create a Power Apps canvas app.      
 iconUrl: /learn/achievements/custom-connectors.svg  
 levels:  
 - intermediate   
 roles:  
 - functional-consultant  
+- maker  
 products:  
 - power-platform
 - powerapps
@@ -32,3 +36,4 @@ units:
 - learn-bizapps.custom-connectors.5-summary 
 badge: 
   uid: learn-bizapps.custom-connectors.badge 
+

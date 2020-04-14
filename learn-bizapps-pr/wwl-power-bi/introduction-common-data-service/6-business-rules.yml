@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-common-data-service.business-rules
+title: Business rules
+metadata:
+  title: Business rules
+  description: "Business rules"
+  ms.date: 04/03/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-business-rules.md)]

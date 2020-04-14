@@ -1,4 +1,4 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.analyze-explore-data-power-bi 
 metadata: 
   title: Analyze data with Power BI
@@ -9,7 +9,10 @@ metadata:
   ms.topic: interactive-tutorial  
   ms.prod: learning-power-bi  
 title: Analyze data with Power BI
-summary: This module goes beyond viewing and exploring your content and explains how to interact with it by working with reports and dashboards to uncover and share new business insights. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  This module goes beyond viewing and exploring your content and explains how to interact with it by working with reports and dashboards to uncover and share new business insights. 
 abstract: |  
     In this module, you will: 
     - Explore how filters are applied to your data  
@@ -21,10 +24,11 @@ iconUrl: /learn/achievements/analyze-explore-data-power-bi.svg
 levels:  
 - beginner   
 roles:  
-- business-user   
+- business-user
+- data-analyst   
 products:  
-- dynamics  
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.analyze-explore-data-power-bi.1-filtering-data 
 - learn-bizapps.analyze-explore-data-power-bi.2-exploring-with-numbers 
@@ -34,3 +38,4 @@ units:
 - learn-bizapps.analyze-explore-data-power-bi.6-summary 
 badge: 
   uid: learn-bizapps.analyze-explore-data-power-bi.badge 
+

@@ -2,8 +2,8 @@ You can view a summary of the number of times that each flow succeeded or failed
 
 ## Prerequisites
 
-* Install the Microsoft Flow mobile app for [Google Android](https://aka.ms/flowmobiledocsandroid), [Apple iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows) on a supported device. The screenshots in this unit were taken on the Apple iPhone version of the app, but the mobile app for Android and Windows Phone are similar.
-* If you don't already have a flow, create one on the [Microsoft Flow website](https://flow.microsoft.com/). For easier testing, use a flow that you can trigger yourself instead of waiting for an external event.
+* Install the Power Automate mobile app for [Google Android](https://aka.ms/flowmobiledocsandroid), [Apple iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows) on a supported device. The screenshots in this unit were taken on the Apple iPhone version of the app, but the mobile app for Android and Windows Phone are similar.
+* If you don't already have a flow, create one on the [Power Automate website](https://flow.microsoft.com/). For easier testing, use a flow that you can trigger yourself instead of waiting for an external event.
 
 The flow in this tutorial runs when you receive email from a specific address.
 
@@ -20,7 +20,7 @@ When the flow runs, it sends a custom push notification to your phone.
 
 1. Start the mobile app.
 
-    By default, the **Activity** tab is shown. This tab organizes data by day, and today's data appears at the top.
+    Select the **Activity** tab. This tab organizes data by day, and today's data appears at the top.
 
     ![Activity organized by day](../media/activity-day2.png)
 
@@ -36,17 +36,6 @@ When the flow runs, it sends a custom push notification to your phone.
 
     ![Example of a push notification](../media/activity-notification.png)
 
-1. If multiple push notifications were sent in a day, swipe left on the notification to view notifications from up to three previous runs. If more than four notifications were sent in a day, swipe left until **See more** appears, and then select it to view a list of all notifications.
-
-    ![Example of multiple push notifications](../media/activity-notification-list.png)
-
-1. select **Back** to return to the activity summary.
-1. To filter the activity summary, select the **Filter** button (the funnel symbol) in the upper-right corner.
-
-    You can show all entries, only the failure entries, or only the entries that include push notifications.
-
-    ![Show all runs, only failures, or only notifications](../media/activity-filter.png)
-
 ## Show details of a run
 
 1. In the activity summary, select an entry to show details for the most recent run.
@@ -56,5 +45,7 @@ When the flow runs, it sends a custom push notification to your phone.
     ![Details of a run](../media/activity-icons.png)
 
 1. Tap **Run history** to list all runs of the flow. Then select a specific run to view its details.
+    
+    ![More Options](../media/more-options.png)
 
     ![Success/failure history](../media/history-mixed.png)

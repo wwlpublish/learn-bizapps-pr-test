@@ -1,26 +1,30 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.use-imperative-dev-techniques 
 metadata: 
-  title: Use imperative development techniques for canvas apps in PowerApps
-  description: Imperative development techniques can help you achieve the goal for your app. You will learn about different development methods and different variables in PowerApps.
+  title: Use imperative development techniques for canvas apps in Power Apps
+  description: Imperative development techniques can help you achieve the goal for your app. You will learn about different development methods and different variables in Power Apps.
   ms.date: 04/12/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Use imperative development techniques for canvas apps in PowerApps 
-summary: Imperative development techniques can help you achieve the goal for your app. You will learn about different development methods and different variables in PowerApps. 
+title: Use imperative development techniques for canvas apps in Power Apps 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Imperative development techniques can help you achieve the goal for your app. You will learn about different development methods and different variables in Power Apps. 
 abstract: |  
     In this module, you will: 
     - Understand imperative vs. declarative development
-    - Understand the variables in PowerApps
+    - Understand the variables in Power Apps
     - Understand when to utilize each of the three different types of variables
-prerequisites: A basic understanding of how to create a canvas app in PowerApps.     
+prerequisites: A basic understanding of how to create a canvas app in Power Apps.     
 iconUrl: /learn/achievements/use-imperative-dev-techniques.svg  
 levels:  
 - advanced   
 roles:  
 - functional-consultant  
+- maker  
 products:  
 - power-platform
 - powerapps
@@ -35,3 +39,4 @@ units:
 - learn-bizapps.use-imperative-dev-techniques.8-summary 
 badge: 
   uid: learn-bizapps.use-imperative-dev-techniques.badge 
+

@@ -1,5 +1,5 @@
 When working with data sometimes you need to be able to modify the data. Common scenarios include taking a table of records and combining the records into one string to display, or taking a string and turning it into multiple records in a table. With
-PowerApps you use the **Concat** and **Split** functions to accomplish
+Power Apps you use the **Concat** and **Split** functions to accomplish
 this task.
 
 Turn table data into a string
@@ -11,7 +11,7 @@ function to summarize the strings of a table, just as the **Sum**
 function does for numbers. This could be used to create a list of comma-separated values to display all of the customers assigned to a sales
 rep, a semicolon-separated list of email address to pass to an email
 function, or to dynamically generate an HTML table to be used in the
-creation of a PDF document with the help of Microsoft Flow.
+creation of a PDF document with the help of Power Automate.
 
 Fields of the record currently being processed are available within the
 formula. You simply reference them by name as you would any other value.

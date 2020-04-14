@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.how-to-build-ui-canvas-app.4-images 
 title: Images
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 5 
-content: | 
- [!include[](includes/4-images.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/4-images.md)] 
+

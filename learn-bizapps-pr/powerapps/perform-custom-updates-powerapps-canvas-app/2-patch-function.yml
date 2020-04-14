@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.perform-custom-updates.2-patch-function 
 title: Using the Patch function to create and edit records
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 10 
-content: | 
- [!include[](includes/2-patch-function.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-patch-function.md)] 
+

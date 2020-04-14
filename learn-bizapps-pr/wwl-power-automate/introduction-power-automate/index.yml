@@ -1,0 +1,37 @@
+### YamlMime:Module
+uid: learn-bizapps.wwl.introduction-power-automate
+metadata:
+  title: Introduction to Power Automate
+  description: "Introduction to Power Automate"
+  ms.date: 01/17/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: Introduction to Power Automate
+summary: Microsoft Power Automate is all about process automation. Power Automate allows anyone with knowledge of the business process to create repeatable flows that when triggered leap into action and perform the process for them.
+abstract: |
+  In this module, you will learn:
+  - What is Power Automate and the business value it creates
+  - How two business are using Power Automate to provide better customer experiences
+  - See a video walkthrough of Power Automate
+prerequisites: |
+  None
+iconUrl: /learn/achievements/introduction-power-automate.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- business-user
+- functional-consultant
+products:
+- power-automate
+units:
+- learn-bizapps.wwl.introduction-power-automate.introduction
+- learn-bizapps.wwl.introduction-power-automate.what-power-automate-value-brings-you
+- learn-bizapps.wwl.introduction-power-automate.customer-case-study-trugreen
+- learn-bizapps.wwl.introduction-power-automate.power-automate-action
+- learn-bizapps.wwl.introduction-power-automate.knowledge-check
+- learn-bizapps.wwl.introduction-power-automate.summary-resources
+badge:
+  uid: learn-bizapps.wwl.introduction-power-automate.badge

@@ -10,9 +10,9 @@ Power BI Home offers three ways of locating and viewing your content. Though all
 
 1.  The Home canvas displays and organizes your favorite and most recent content, along with recommended content and learning resources. Each piece of content displays as a tile, with a title and icon. Selecting a tile opens that content.
 
-2.  Along the side, is a navigation pane. On this pane, your same content is organized a little differently, by Favorites, Recent, Apps, and Shared with me. From here, you can view lists of content and select the one to open.
+2.  In the upper right corner, the global search box lets you search for content by title, name, or keyword.
 
-3.  In the upper right corner, the global search box lets you search for content by title, name, or keyword.
+3.  Along the side, is a navigation pane. On this pane, your same content is organized a little differently, by Favorites, Recent, Apps, and Shared with me. From here, you can view lists of content and select the one to open.
 
 The following sections review each of these options for finding and viewing content.
 
@@ -20,9 +20,7 @@ The following sections review each of these options for finding and viewing cont
 
 On the Home canvas, you can view all the content that you have permission to use. At first, you might not have much content, but that will change as you start to use Power BI with your colleagues.
 
-Your Home canvas also updates with recommended content and learning resources. You can find this learning path in the **Learn how to use Power BI** section.
-
-![Learning resources](../media/1-2/power-bi-home-new.png)
+Your Home canvas also updates with recommended content and learning resources. 
 
 As you work in Power BI, you’ll receive dashboards, reports, and apps from colleagues, and your Home canvas will eventually fill in. Over time, it might resemble the following Home canvas.
 
@@ -40,7 +38,7 @@ As previously mentioned, on your Home canvas, you can view all the content that 
 
 #### Favorites and frequents
 
-This top section contains links to the content you visit most often or that you’ve tagged as a *favorite*. Notice that two tiles have yellow stars meaning they have been tagged as favorites.
+This top section contains links to the content you visit most often or that you’ve tagged as a *favorite*. Notice that three tiles have yellow stars meaning they have been tagged as favorites.
 
 ![Favorite content on Home](../media/1-2/power-bi-home-favs.png)
 
@@ -50,17 +48,14 @@ The next section displays the content you’ve visited most recently. Notice the
 
 ![Recent content on Home](../media/1-2/power-bi-home-recent-apps.png)
 
-#### Recommended apps
-
-Based on your activity and account settings, Power BI displays a set of recommended apps. Selecting an app tile opens the app.
-
-![Recommended apps on Home](../media/1-2/power-bi-home-recommended.png)
-
 #### Shared with me
 
 Colleagues share apps with you, and they also share individual dashboards and reports. In the **Shared with me** section, notice that there are five dashboards and one report that your colleagues have shared with you.
 
-![Shared with me on Home](../media/1-2/power-bi-home-shared.png)
+#### Recommended apps
+
+Based on your activity and account settings, Power BI displays a set of recommended apps. Selecting an app tile opens the app.
+
 
 #### Learning resources
 
@@ -76,8 +71,6 @@ Use the navigation pane to locate and move between dashboards, reports, and apps
 The nav pane is there when you open Home, and remains static as you open other areas of Power BI.
 
 The nav pane organizes your content into categories that are similar to what you’ve already seen on the Home canvas: **Favorites**, **Recent**, **Apps**, and **Shared with me**. However, to view the most-recent content in each of these sections, select the arrow to the right of the heading.
-
-![Flyout menus](../media/1-2/power-bi-left-nav-arrows.png)
 
 To open one of these content sections and display a list of all items, select the heading.
 

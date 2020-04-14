@@ -9,7 +9,7 @@ In this example, you will add the Office 365 Users data source, an
 action-based data source, to an app. The process is the same as adding a
 tabular data source.
 
-1.  In the PowerApps Studio, select **View** from the top menu bar.
+1.  In the Power Apps Studio, select **View** from the top menu bar.
 
 2.  On the menu bar, select **Data sources**.
 
@@ -143,5 +143,5 @@ into your app. The concepts can be very similar to
 tabular data sources, like when displaying users in a gallery, but also
 quite different, like when writing back to a user's profile.
 
-In the next unit, you will learn more about Microsoft Flow and how to
-integrate it with your PowerApps apps. 
+In the next unit, you will learn more about Power Automate and how to
+integrate it with your Power Apps apps. 

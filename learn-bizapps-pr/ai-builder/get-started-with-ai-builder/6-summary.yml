@@ -1,0 +1,18 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-builder.6-summary
+title: Summary
+metadata: 
+  title: Summary
+  description: |
+    In this module, you discovered how to bring AI to your business using AI Builder. Specifically, you learned that:
+    - There are a wide variety of AI capabilities at your disposal.
+    - Some model types can be customized to tailor to your needs, whereas other model types can be used  right away.
+    - You can use your model in several different ways: in your apps, in your flows, and in your database.
+  ms.date: 03/15/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: d365-ai-builder 
+durationInMinutes: 5 
+content: | 
+  [!include[](includes/6-summary.md)] 

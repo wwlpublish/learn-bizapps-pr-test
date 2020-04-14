@@ -1,25 +1,29 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.work-with-external-data 
 metadata: 
-  title: Work with external data in a PowerApps canvas app
+  title: Work with external data in a Power Apps canvas app
   description: Do you need to connect an app to access data? Then this module is for you. It focuses on connecting your app to a data source.
   ms.date: 03/15/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Work with external data in a PowerApps canvas app
-summary: Do you need to connect an app to access data? Then this module is for you. It focuses on connecting your app to a data source.   
+title: Work with external data in a Power Apps canvas app
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Do you need to connect an app to access data? Then this module is for you. It focuses on connecting your app to a data source.   
 abstract: |  
     In this module, you will: 
-    - Understand data sources for canvas apps in PowerApps
+    - Understand data sources for canvas apps in Power Apps
     - Use the Collect function
-prerequisites: A basic understanding of how to create a canvas app in PowerApps.   
+prerequisites: A basic understanding of how to create a canvas app in Power Apps.   
 iconUrl: /learn/achievements/work-with-external-data.svg  
 levels:  
 - intermediate   
 roles:  
-- business-user   
+- business-user
+- maker   
 - functional-consultant 
 products:  
 - power-platform
@@ -33,3 +37,4 @@ units:
 - learn-bizapps.work-with-external-data.6-summary 
 badge: 
   uid: learn.work-with-external-data.badge 
+

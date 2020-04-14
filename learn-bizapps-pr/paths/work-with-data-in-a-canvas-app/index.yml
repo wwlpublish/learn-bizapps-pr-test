@@ -1,24 +1,26 @@
-### YamlMime:LearningPath
+﻿### YamlMime:LearningPath
 uid: learn-bizapps.work-with-data-in-a-canvas-app
 metadata:
-  title: Work with data in a PowerApps canvas app
+  title: Work with data in a Power Apps canvas app
   description: Do you need to connect an app to access data? Then this learning path is for you. It will focus on how to connect to data sources. It also will show you how to use filtering, conditions, and other functions to shape your data and write data to your data source.
   ms.date: 03/15/2019
   author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-  #ms.learn-contact: kschimke
-title: Work with data in a PowerApps canvas app
-summary:  Do you need to connect an app to access data? Then this learning path is for you. It will focus on how to connect to data sources. It also will show you how to use filtering, conditions, and other functions to shape your data and write data to your data source.
+title: Work with data in a Power Apps canvas app
+summary: |
+
+  Do you need to connect an app to access data? Then this learning path is for you. It will focus on how to connect to data sources. It also will show you how to use filtering, conditions, and other functions to shape your data and write data to your data source.
 prerequisites: |
-  - Basic understanding on how to build a PowerApps canvas app. 
+  - Basic understanding on how to build a Power Apps canvas app. 
 iconUrl: /learn/achievements/work-with-data-in-a-canvas-app.svg
 levels: 
 - intermediate
 roles: 
 - business-user
 - functional-consultant
+- maker
 products: 
 - power-platform
 - powerapps
@@ -28,3 +30,4 @@ modules:
 - learn-bizapps.write-data
 trophy:
   uid: learn.work-with-data-in-a-canvas-app.trophy
+

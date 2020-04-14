@@ -1,0 +1,36 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.wwl.power-plat-fundamentals
+metadata:
+  title: Microsoft Power Platform Fundamentals
+  description: Are you interested in learning about business applications? Start with this learning path to see how Dynamics 365 apps are used. Learn about cloud concepts, Power Platform, and how to get started with Dynamics 365 apps.
+  ms.date: 04/03/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: Microsoft Power Platform Fundamentals
+prerequisites: |
+  None
+summary: |
+  Learn the business value and product capabilities of Power Platform. Create a simple Power App, connect data with Common Data Service, build a Power BI Dashboard, and automate a process with Microsoft Automate.
+iconUrl: /learn/achievements/power-plat-fundamentals.svg
+levels:
+- beginner
+roles:
+- business-user
+products:
+- dynamics
+- dynamics-customer-engagement
+- dynamics-finance-operations
+- power-platform
+modules:
+- learn-bizapps.wwl.introduction-power-platform
+- learn-bizapps.wwl.introduction-power-apps
+- learn-bizapps.wwl.build-app-solution
+- learn-bizapps.wwl.introduction-common-data-service
+- learn-bizapps.wwl.introduction-power-automate
+- learn-bizapps.wwl.build-automated-solution
+- learn-bizapps.wwl.introduction-power-bi
+- learn-bizapps.wwl.build-simple-dashboard
+trophy:
+  uid: learn-dynamics.power-plat-fundamentals.trophy

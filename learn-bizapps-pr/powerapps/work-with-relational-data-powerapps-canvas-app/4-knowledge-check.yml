@@ -1,20 +1,20 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.work-with-relational-data.4-knowledge-check 
 metadata: 
-  title: Work with relational data in a PowerApps canvas app knowledge check
-  description: Work with relational data in a PowerApps canvas app knowledge check
+  title: Work with relational data in a Power Apps canvas app knowledge check
+  description: Work with relational data in a Power Apps canvas app knowledge check
   ms.date: 04/9/2019 
   author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-platform 
-  ROBOTS: NOINDEX 
+   
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
-  title: Work with relational data in a PowerApps canvas app knowledge check
+  title: Work with relational data in a Power Apps canvas app knowledge check
   questions: 
-  - content: Commonly used functions in PowerApps to connect related data sources not in Common Data Service for apps are?
+  - content: Commonly used functions in Power Apps to connect related data sources not in Common Data Service for apps are?
     choices: 
     - content: Parent and Child
       isCorrect: false
@@ -46,13 +46,13 @@ quiz:
     choices: 
     - content: Nothing, Common Data Service automatically determines your data relationships.
       isCorrect: false
-      explanation: You should create the relationship for the entity in PowerApps Studio. 
+      explanation: You should create the relationship for the entity in Power Apps Studio. 
     - content: Common Data Service isn't used for relational data.
       isCorrect: false 
-      explanation: You should create the relationship for the entity in PowerApps Studio. 
-    - content: Create the relationship for the entity in the Data section of PowerApps Studio.
+      explanation: You should create the relationship for the entity in Power Apps Studio. 
+    - content: Create the relationship for the entity in the Data section of Power Apps Studio.
       isCorrect: true
-      explanation: You should create the relationship for the entity in PowerApps Studio. 
+      explanation: You should create the relationship for the entity in Power Apps Studio. 
     - content: Create the relationship at the tenant level for the Power Platform.
       isCorrect: false 
-      explanation: You should create the relationship for the entity in PowerApps Studio. 
+      explanation: You should create the relationship for the entity in Power Apps Studio. 

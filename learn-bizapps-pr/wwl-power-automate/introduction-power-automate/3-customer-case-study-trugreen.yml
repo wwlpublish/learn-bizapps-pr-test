@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-automate.customer-case-study-trugreen
+title: Customer case study - TruGreen
+metadata:
+  title: Customer case study - TruGreen
+  description: "Customer case study - TruGreen"
+  ms.date: 01/17/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-customer-case-study-trugreen.md)]

@@ -1,15 +1,18 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.intro-to-power-bi-service 
 metadata: 
   title: Explore what Power BI can do for you
-  description: As a consumer, you’ll work in the Power BI service to review and interact with content that has been shared with you. This module provides the foundational information that you need to work effectively in the Power BI service.
+  description: As a consumer, you'll work in the Power BI service to review and interact with content that has been shared with you. This module provides the foundational information that you need to work effectively in the Power BI service.
   ms.date: 04/26/2019  
   author: HeyRob
   ms.author: robde  
   ms.topic: interactive-tutorial  
   ms.prod: learning-power-bi  
 title: Explore what Power BI can do for you
-summary: As a consumer, you’ll work in the Power BI service to review and interact with content that has been shared with you. This module provides the foundational information that you need to work effectively in the Power BI service. 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  As a consumer, you'll work in the Power BI service to review and interact with content that has been shared with you. This module provides the foundational information that you need to work effectively in the Power BI service. 
 abstract: |    
     In this module, you will learn how to: 
     - Understand Power BI service basic concepts and terminology. 
@@ -28,10 +31,12 @@ iconUrl: /learn/achievements/intro-to-power-bi-service.svg
 levels:  
 - beginner   
 roles:  
-- business-user   
+- business-user
+- data-analyst   
 products:  
 - dynamics  
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.intro-to-power-bi-service.1-why-power-bi 
 - learn-bizapps.intro-to-power-bi-service.2-find-content 
@@ -42,3 +47,4 @@ units:
 - learn-bizapps.intro-to-power-bi-service.7-summary 
 badge: 
   uid: learn-bizapps.intro-to-power-bi-service.badge 
+

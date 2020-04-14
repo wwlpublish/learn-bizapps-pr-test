@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit 
+uid: learn-dynamics.get-started-with-form-processing.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 03/15/2020 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: d365-ai-builder 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: How many different document layouts can be available for each model?
+    choices: 
+    - content: One
+      isCorrect: true 
+      explanation: One document layout is available for each model.
+    - content: Two
+      isCorrect: false 
+      explanation: One document layout is available for each model.
+    - content: Three
+      isCorrect: false 
+      explanation: One document layout is available for each model.
+  - content: How many sample documents do you need to train your model?
+    choices: 
+    - content: At least one
+      isCorrect: false
+      explanation: You must use at least five sample documents to train your model.
+    - content: At least five
+      isCorrect: true
+      explanation: You must use at least five sample documents to train your model.
+    - content: At least ten
+      isCorrect: false 
+      explanation: You must use at least five sample documents to train your model.
+  - content: Which of the following places can you not use your form processing model?
+    choices: 
+    - content: Flows
+      isCorrect: false
+      explanation: Your form processing model cannot be used with model-driven apps.
+    - content: Canvas apps
+      isCorrect: false
+      explanation: Your form processing model cannot be used with model-driven apps.
+    - content: Model-driven apps
+      isCorrect: true
+      explanation: Your form processing model cannot be used with model-driven apps.

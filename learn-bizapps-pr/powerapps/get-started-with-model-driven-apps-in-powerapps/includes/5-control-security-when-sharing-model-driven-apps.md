@@ -1,4 +1,4 @@
-Microsoft PowerApps uses role-based security for sharing. A security role includes privileges that define a set of actions that can be performed in the app. All app users must be assigned to one or more predefined or custom security roles.
+Microsoft Power Apps uses role-based security for sharing. A security role includes privileges that define a set of actions that can be performed in the app. All app users must be assigned to one or more predefined or custom security roles.
 
 Roles can be assigned to individual users or to teams. When a user or a team is assigned to a role, that user or all members of that team are granted the set of privileges associated with the role.
 
@@ -18,7 +18,7 @@ This unit uses the example of a company named Contoso, which has a pet grooming 
 The app must be shared so that the pet grooming staff can use it. To share the app, an admin or app maker assigns one or more security roles to users and to the app.
 
 ## Create or set up a security role
-The PowerApps environment includes predefined security roles. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that's required to use the app.
+The Power Apps environment includes predefined security roles. These roles reflect common user tasks, and the access levels that are defined follow the security best practice of providing access to the minimum amount of business data that's required to use the app.
 
 Remember that the Contoso pet grooming app is based on a custom entity. Because the entity is custom, privileges must be explicitly specified before users can work in it. To do this, you can use either of the following approaches:
 
@@ -33,20 +33,19 @@ Because the environment that will maintain the pet grooming records is also used
 To learn more about access and the scope of the different privileges, see [Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges#security-roles).
 
 ## Create a custom security role
-1. Sign in to [PowerApps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
-1. On the PowerApps home page, select **Model-driven**.
-1. For your new app, select the **More Commands** button (**...**), and then click **Share**.
-1. In the **Share this app** dialog box, under **Create a security role**, click the **Security Setting** link.
-1. On the **All Roles** page, click **New**.
-1. In the **Role Name** box, enter *Pet Grooming Technicians*.
-1. In the Security Role designer, on the **Custom Entities** tab, find the **Pet** entity.
-1. On the **Pet** row, click **Read**, **Write**, and **Append** four times, to set the scope for each to *organization* ![Global organization scope](../media/organizational-scope-privilege.png) is selected:
+1. Sign in to [Power Apps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
+2. For your new app, select the **...** to the right of the name, and then click **Share**.
+3. In the **Share this app** dialog box, under **Create a security role**, click the **Security Setting** link.
+4. On the **All Roles** page, click **New**.
+5. In the **Role Name** box, enter *Pet Grooming Technicians*.
+6. In the Security Role designer, on the **Custom Entities** tab, find the **Pet** entity.
+7. On the **Pet** row, click **Read**, **Write**, and **Append** four times, to set the scope for each to *organization* ![Global organization scope](../media/organizational-scope-privilege.png) is selected:
 
-    ![New security role](../media/custom-security-role.png)
+    ![New security role](../media/updated-custom-security-role.png)
 
 1. The pet grooming app also has a relationship with the account entity. On the **Core Records** tab, on the **Account** row select the **Read** privilege four times until it is set to *organization* scope ![Global organization scope](../media/organizational-scope-privilege.png). 
 1. Click **Save and Close**. 
-1. In the Security Role designer, in the **Role Name** box, enter *Pet Grooming Schedulers*. 
+1. In the Security Role designer, select **New** and then in the **Role Name** box, enter *Pet Grooming Schedulers*. 
 1. On the **Custom Entities** tab, find the **Pet** entity. 
 1. On the **Pet** row, click each of the following privileges four times, until the *organization* scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
 1. The pet grooming app also has a relationship with the account entity, and schedulers must be able to create and change account records. Therefore, on the **Core Records** tab, on the **Account** row, select each of the following privileges four times, until the *organization* scope ![Global organization scope](../media/organizational-scope-privilege.png) is selected: **Create**, **Read**, **Write**, **Delete**, **Append**, **Append To**, **Assign**, and **Share**.
@@ -57,7 +56,7 @@ Security roles control a user's access to data through a set of access levels an
 
 ### Assign a security role to the pet grooming technicians
 1. In the **Share this app** dialog box, under **Assign users to the security role**, select **Security Users**.
-2. In the list that appears, select the pet groomers.
+2. In the list that appears, select a few of your users to be pet groomers.
 3. Select **Manage Roles**.
 
     ![Manage roles](../media/select-users-for-security-roles.png)
@@ -66,7 +65,7 @@ Security roles control a user's access to data through a set of access levels an
 
 ### Assign a security role to the pet grooming schedulers
 1. In the **Share this app** dialog box, under **Assign users to a security role**, select **Security Users**.
-2. In the list that appears, select the pet grooming schedulers.
+2. In the list that appears, select a few users to be pet grooming schedulers.
 3. Select **Manage Roles**.
 4. In the **Manage User Roles** dialog box, select the **Pet Grooming Schedulers** security role you created earlier, and then select **OK**.
 
@@ -98,7 +97,7 @@ The following predefined roles are available with a PowerApps environment. Unles
 
 | Security role            | Privileges | Description |
 |--------------------------|------------|-------------|
-| Environment Maker        | None | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Microsoft Flow. But these users can't access the data in an environment. To learn more about environments, see [Announcing PowerApps environments](https://powerapps.microsoft.com/blog/powerapps-environments/). |
+| Environment Maker        | None | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Microsoft Flow. But these users can't access the data in an environment. To learn more about environments, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/). |
 | System Administrator     | Create, Read, Write, Delete, Customize | This role has full permission to customize or administer the environment, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
 | System Customizer        | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view records only for environment entities that they create. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
 | Common Data Service User | Read, Create (self), write (self), delete (self) | Users who have this role can run an app in the environment and perform common tasks for the records they own. |

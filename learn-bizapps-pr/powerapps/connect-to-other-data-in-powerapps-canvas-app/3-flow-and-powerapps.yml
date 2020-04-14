@@ -1,15 +1,17 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.connect-other-data.3-flow-and-powerapps 
-title: Microsoft Flow is a companion to PowerApps
+title: Power Automate is a companion to Power Apps
 metadata: 
-  title: Microsoft Flow is a companion to PowerApps 
-  description: Microsoft Flow is a companion to PowerApps 
+  title: Power Automate is a companion to Power Apps 
+  description: Power Automate is a companion to Power Apps 
   ms.date: 04/9/2019 
   author: KevSch
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-platform 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 10 
-content: | 
- [!include[](includes/3-flow-and-powerapps.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/3-flow-and-powerapps.md)] 
+

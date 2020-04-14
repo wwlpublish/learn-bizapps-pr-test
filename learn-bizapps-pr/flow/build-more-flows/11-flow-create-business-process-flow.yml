@@ -1,14 +1,16 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.11-flow-create-business-process-flow
 title: Create a business process flow
 metadata: 
   title: Create a business process flow
   description: Learn how to create a business process flow that ensures everyone in your organization is following the same process.
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date:  03/04/2020
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
-durationInMinutes: 8
-content: | 
+  ms.prod: learning-power-automate
+durationInMinutes: 10
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/11-flow-create-business-process-flow.md)] 
+

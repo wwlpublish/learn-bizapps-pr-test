@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.custom-connectors.2-overview-custom-connector-lifecycle 
 title: Overview of the custom connector lifecycle
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-platform 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 12 
-content: | 
- [!include[](includes/2-overview-custom-connector-lifecycle.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-overview-custom-connector-lifecycle.md)] 
+

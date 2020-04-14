@@ -1,6 +1,6 @@
 Before developing your production canvas app, try creating a blank test
 app or use one of the many great App templates available for free and
-play with all the controls. PowerApps has lots of great controls
+play with all the controls. Power Apps has lots of great controls
 designed to provide the very best experience for both the maker and the
 end user. Controls have a number of different properties that you can modify
 to easily enhance the user experience without sacrificing functionality
@@ -38,7 +38,7 @@ in the **OnSelect** property of the **Button** control.
     functions.
 
 -   Update a [context
-    variable](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-variables#create-a-context-variable) -
+    variable](https://docs.microsoft.com/powerapps/maker/canvas-apps/working-with-variables#use-a-context-variable) -
     [**UpdateContext**](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext)
     function.
 

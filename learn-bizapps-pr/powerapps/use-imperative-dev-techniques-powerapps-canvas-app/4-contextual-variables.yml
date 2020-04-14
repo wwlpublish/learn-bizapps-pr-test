@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.use-imperative-dev-techniques.4-contextual-variables 
 title: Contextual variables
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 4 
-content: | 
- [!include[](includes/4-contextual-variables.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/4-contextual-variables.md)] 
+

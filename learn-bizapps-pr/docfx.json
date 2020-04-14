@@ -10,43 +10,122 @@
       {
         "src": "dyn365-customer-service",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
+        "dest": "modules"
+      },
+            {
+        "src": "ai-builder",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
         "src": "dyn365-field-service",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
         "src": "dyn365-marketing",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
         "src": "flow",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],        
         "dest": "modules"
       },
       {
         "src": "power-bi",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],
         "dest": "modules"
       },
       {
         "src": "powerapps",
         "files": [
-          "**.yml"
+          "**.yml",
+          "**/*.md"
         ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-apps",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-automate",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-bi",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
         "dest": "modules"
       },
       {
@@ -74,6 +153,17 @@
       }
     ],
     "resource": [
+      {
+        "src": "ai-builder",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
       {
         "src": "dyn365-customer-service",
         "files": [
@@ -130,6 +220,50 @@
         "dest": "modules"
       },
       {
+        "src": "wwl-power-apps",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-automate",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl-power-bi",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "wwl",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
         "files": [
           "**/*.gif",
           "**/*.png",
@@ -164,6 +298,19 @@
     "dest": "learn-bizapps-pr",
     "markdownEngineName": "markdig",
     "localization_scopes": {
+        "ai-builder/**/*.yml": [
+          "da-dk", 
+          "de-de", 
+          "es-es", 
+          "fi-fi", 
+          "fr-fr", 
+          "it-it", 
+          "ja-jp", 
+          "nb-no", 
+          "nl-nl", 
+          "pt-br", 
+          "sv-se"
+        ],
         "dyn365-customer-service/**/*.yml": [
           "da-dk", 
           "de-de", 

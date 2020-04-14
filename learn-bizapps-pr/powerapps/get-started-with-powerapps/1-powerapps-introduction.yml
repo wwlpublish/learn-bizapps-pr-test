@@ -1,9 +1,9 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-get-started.1-powerapps-introduction
-title: Introducing PowerApps
+title: Introducing Power Apps
 metadata:
-  title: Introducing PowerApps
-  description: Learn about the basics of Microsoft PowerApps.
+  title: Introducing Power Apps
+  description: Learn about the basics of Microsoft Power Apps.
   ms.date: 05/21/2019
   author: kevsch
   ms.author: kevsch
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 6
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/1-powerapps-introduction.md)]
+

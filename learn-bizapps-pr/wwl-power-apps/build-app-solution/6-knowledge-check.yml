@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.build-app-solution.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 01/17/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+azureSandbox: false
+durationInMinutes: 3
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "Your sales team is in desperate need of a mobile application that can display records living in a SharePoint list. When displaying the records, multiple pieces of information about each record need to be visible to the user. Which of the following Power Apps tools would you use when designing your app to achieve this functionality?"
+    choices:
+    - content: "Create a gallery to display the sales records."
+      isCorrect: true
+      explanation: "Correct. Galleries are used to display tables of data from your data source. They are highly customizable, so you can show whatever information about a particular record that is necessary. You could then use a Form to edit individual records, if desired."
+    - content: "Create a form to display the sales records."
+      isCorrect: false
+      explanation: "Incorrect. Forms are used to display and edit specific items, not display multiple rows of data."
+    - content: "Create an input control to display the sales records."
+      isCorrect: false
+      explanation: "Incorrect. Input controls allow the user to type text, press a button, or perform other functions; they are not used to display table data, which is what you would need to show these SharePoint records."
+  - content: "You have been tasked with creating a Power App that can scan barcodes that will display the scanned item's information on the screen. Out of the following control options, which one would the barcode scanner fall under?"
+    choices:
+    - content: "Galleries"
+      isCorrect: false
+      explanation: "Incorrect. Galleries are controls, but barcode scanning doesn't fall under that category. Galleries are used to display table data information from your data source(s)."
+    - content: "Media"
+      isCorrect: true
+      explanation: "Correct. The barcode scanner control is a part of the Media category of controls. This control can be used to scan barcodes of various types and pass information about the barcode to the Power App. Then, additional Functions can use that barcode information to perform additional tasks."
+    - content: "Forms"
+      isCorrect: false
+      explanation: "Incorrect. Forms are controls, but barcode scanning doesn't fall under that category. Forms are used to edit individual records from your data source, and they don't have any built-in ability to scan barcodes or perform any other image-related task."
+  - content: "You have a gallery control in your app for displaying all customer orders. Your manager says she would like to see orders from the last 90 days in addition. How would you reduce the amount of data she sees?"
+    choices:
+    - content: "You would modify the data source to purge out all orders older than 90 days."
+      isCorrect: false
+      explanation: "Incorrect. You need to keep the older records also. Instead you would use a Filter formula in your gallery, applying a logic formula that checks to see if the Order Date is less than 90 days ago."
+    - content: "Use the data filtering wizard."
+      isCorrect: false
+      explanation: "Incorrect. Power Apps does not include any data filtering wizards. Instead, you would use the Filter formula in your gallery, applying a logic formula that checks to see if the Order Date is less than 90 days ago."
+    - content: "Create a formula for your gallery that uses the Filter function."
+      isCorrect: true
+      explanation: "Correct. The Filter function allows you to apply logic tests to one or more columns in your data source. For this scenario you could filter out data where the Order Date is less than 90 days ago."

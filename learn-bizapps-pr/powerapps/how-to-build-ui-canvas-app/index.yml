@@ -1,26 +1,30 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.how-to-build-ui-canvas-app 
 metadata: 
-  title: How to build the UI in a canvas app in PowerApps
+  title: How to build the UI in a canvas app in Power Apps
   description: Do you want to build a better UI for app users? This module helps you do that using themes, icons, images, personalization, different form factors, and controls.
   ms.date: 03/29/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: How to build the UI in a canvas app in PowerApps 
-summary: Do you want to build a better UI for app users? This module helps you do that using themes, icons, images, personalization, different form factors, and controls. 
+title: How to build the UI in a canvas app in Power Apps 
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Do you want to build a better UI for app users? This module helps you do that using themes, icons, images, personalization, different form factors, and controls. 
 abstract: |  
     In this module, you will: 
     - Understand the basics of building the UI through themes, icons, control customization, and images.
     - Use personalization in a canvas app
     - Understand the differences between the Tablet and Mobile form factors
-prerequisites: A basic understanding of how to create a PowerApps canvas app.  General knowledge of Controls is also helpful but not required.      
+prerequisites: A basic understanding of how to create a Power Apps canvas app.  General knowledge of Controls is also helpful but not required.      
 iconUrl: /learn/achievements/how-to-build-ui-canvas-app.svg  
 levels:  
 - intermediate   
 roles:  
 - functional-consultant  
+- maker  
 products:  
 - power-platform
 - powerapps
@@ -35,3 +39,4 @@ units:
 - learn-bizapps.how-to-build-ui-canvas-app.8-summary 
 badge: 
   uid: learn-bizapps.how-to-build-ui-canvas-app.badge 
+

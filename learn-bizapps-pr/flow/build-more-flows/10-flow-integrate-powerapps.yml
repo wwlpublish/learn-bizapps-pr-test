@@ -1,14 +1,16 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.10-flow-integrate-powerapps
-title: Integrate PowerApps, Flow, and SharePoint
+title: Integrate Power Apps, Power Automate, and SharePoint
 metadata: 
-  title: Integrate PowerApps, Flow, and SharePoint
-  description: Learn how to integrate PowerApps, Flow, and SharePoint for a solution to efficiently manage business processes and information
-  ms.date:  02/03/2019
-  author: margoc
-  ms.author: margoc
+  title: Integrate Power Apps, Power Automate, and SharePoint
+  description: Learn how to integrate Power Apps, Power Automate, and SharePoint for a solution to efficiently manage business processes and information
+  ms.date:  03/04/2020
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
+  ms.prod: learning-power-automate
 durationInMinutes: 8
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/10-flow-integrate-powerapps.md)] 
+

@@ -1,13 +1,13 @@
 Formulas are designed to enhance functionality, performance, and user
-experience in your PowerApps canvas app. Like Excel, in Microsoft PowerApps you can create
+experience in your Power Apps canvas app. Like Excel, in Microsoft Power Apps you can create
 single function formulas or combine multiple functions and elements in
-the same formula. In PowerApps, you also can modify the way controls
+the same formula. In Power Apps, you also can modify the way controls
 behave and display by defining the control's properties with a formula.
-To view all the PowerApps functions, see more information in the
-[formula reference for PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference).
-The following screenshot shows the controls that are available in PowerApps. To view
+To view all the Power Apps functions, see more information in the
+[formula reference for Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference).
+The following screenshot shows the controls that are available in Power Apps. To view
 the full list of controls, see more information in the 
-[controls and properties in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/reference-properties).
+[controls and properties in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/reference-properties).
 This documentation also describes the list of properties available
 for each control.
 
@@ -68,12 +68,12 @@ then the **Label** control would have displayed **FAIL**.
 Localization
 ------------
 
-PowerApps is used to build apps that are used around the globe. Apps can
+Power Apps is used to build apps that are used around the globe. Apps can
 be written so the user experience is completely in their native language
 and regional settings. The portal and other web interfaces
 will also reflect your local language.
 
-To help you in your building experience, **PowerApps formulas adapt to
+To help you in your building experience, **Power Apps formulas adapt to
 your local language**. For example, you might see the following formula:
 
 ```

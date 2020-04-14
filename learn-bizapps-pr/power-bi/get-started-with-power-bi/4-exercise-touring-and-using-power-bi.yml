@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.get-started-with-power-bi.4-exercise-touring-and-using-power-bi
 metadata:
   title: Tour and use the Power BI service
@@ -12,4 +12,6 @@ metadata:
 title: Tour and use the Power BI service
 durationInMinutes: 12
 content: |
- [!include[](includes/4-exercise-touring-and-using-power-bi.md)]
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/4-exercise-touring-and-using-power-bi.md)]
+

@@ -1,9 +1,9 @@
-### YamlMime:ModuleUnit
+﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-manage.3-powerapps-environments
-title: Understand environments in PowerApps
+title: Understand environments in Power Apps
 metadata:
-  title: Understand environments in PowerApps
-  description: Learn how to work with environments in PowerApps.
+  title: Understand environments in Power Apps
+  description: Learn how to work with environments in Power Apps.
   ms.date: 5/21/2019
   author: kevsch
   ms.author: kevsch
@@ -11,4 +11,6 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 12
 content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/3-powerapps-environments.md)]
+

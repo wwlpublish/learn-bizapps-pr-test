@@ -4,6 +4,11 @@ title: Summary
 metadata: 
   title: Summary 
   description: Summary
-durationInMinutes: 2
+  ms.date: 01/17/2020
+  author: KevSch
+  ms.author: kschimke
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+durationInMinutes: 3
 content: | 
   [!include[](includes/5-summary.md)]  

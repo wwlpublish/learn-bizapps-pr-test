@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.intro-to-power-bi-service.2-find-content 
 title: View content in Power BI service
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: robde 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-bi 
-  ROBOTS: NOINDEX 
-durationInMinutes: 15 
-content: | 
- [!include[](includes/2-find-content.md)] 
+   
+durationInMinutes: 10
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-find-content.md)] 
+

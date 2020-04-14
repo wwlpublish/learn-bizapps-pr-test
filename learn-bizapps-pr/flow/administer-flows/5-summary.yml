@@ -1,15 +1,16 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-administration.5-summary
 title: Summary
 metadata: 
   title: Summary
   description: Summary of administering flows.
-  ms.date: 02/03/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 03/04/2020
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
-  ms.prod: learning-flow
+  ms.prod: learning-power-automate
 durationInMinutes: 2 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/5-summary.md)] 
+

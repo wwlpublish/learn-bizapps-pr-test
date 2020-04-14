@@ -1,4 +1,4 @@
-In PowerApps, text controls are used for all kinds of purposes, such as
+In Power Apps, text controls are used for all kinds of purposes, such as
 displaying text, numbers, dates, and calculating currency.
 For example, you could calculate the value of two Text input controls
 and display the results in a Label control.
@@ -33,7 +33,7 @@ available.
 -   **Rich text editor** - The rich text editor control provides the app
     user a WYSIWYG editing area for formatting text. This control should
     be used if you want to allow the user to provide numbered lists or
-    bullet lists. A good example is a PowerApps app that used to collect
+    bullet lists. A good example is a Power Apps app that used to collect
     content for an article or newsletter, where you allow the user to add
     formatted text that would be helpful for the person compiling the
     article.
@@ -48,7 +48,7 @@ examples so you can get a better idea as to how it works.
 
 First, add a label control to show text.
 
-1.  In PowerApps Studio, add a **Label** control.
+1.  In Power Apps Studio, add a **Label** control.
 
 2.  Set **Text** property for the Label to **\"Hello, world\"** (including
     the double quotation marks).
@@ -87,7 +87,7 @@ Country:"Italy", Population:1344000})
 5.  Select the top or first Label, in the **Text** property the default for example shows **ThisItem.City**, you could
     change this to something else if you would like. For more
     information about the ThisItem operator, see
-    [Operators and data types in PowerApps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/operators).
+    [Operators and data types in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/operators).
 
 6.  Select the middle or second Label, which shows as
     **ThisItem.Country**.
@@ -95,7 +95,7 @@ Country:"Italy", Population:1344000})
 7.  Select the last or third Label, change the **Text** property to
     **ThisItem.Population**.
 
-![Gallery Image](../media/GalleryImage.png)
+![Gallery Image](../media/gallery-image.png)
 
 These were just two simple examples demonstrating some basic
 functionality of a label control. There are many other ways to utilize

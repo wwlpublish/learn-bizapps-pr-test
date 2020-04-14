@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.build-app-solution.build-power-apps-app
+title: Build a Power Apps app
+metadata:
+  title: Build a Power Apps app
+  description: "Build a Power Apps app"
+  ms.date: 01/17/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-build-power-apps-app.md)]

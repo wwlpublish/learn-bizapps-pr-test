@@ -1,5 +1,6 @@
 The Power BI service can automatically look for insights in a dashboard, report, or dataset. 
 
+**Video**: Quick insights
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oNL1]
 
 From the **Datasets** section, select the ellipsis beside the dataset that you're interested in and then select **Get quick insights**.
@@ -18,4 +19,4 @@ As with any other visual, you can interact with the visuals on the **Quick Insig
 
 With **Quick Insights**, you can let Power BI do the work to spot outliers and trends in your data. Use those findings in your dashboards or continue to refine and filter to get to the insights that you need.
 
-For more information, see [Generate data insights automatically with Power BI](https://docs.microsoft.com/power-bi/service-insights).
+For more information, see [Generate data insights automatically with Power BI](https://docs.microsoft.com/power-bi/service-insights/?azure-portal=true).

@@ -1,15 +1,18 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.author-basic-formula-change-properties-powerapps
 metadata: 
-  title: Author a basic formula to change properties in a PowerApps canvas app
-  description: Want to enhance your PowerApps canvas app? You can use basic formulas to make changes to control properties.  This will include changing the format, position, simple calculations, and implementing conditional formatting.
+  title: Author a basic formula to change properties in a Power Apps canvas app
+  description: Want to enhance your Power Apps canvas app? You can use basic formulas to make changes to control properties.  This will include changing the format, position, simple calculations, and implementing conditional formatting.
   ms.date: 03/19/2019  
   author: KevSch
   ms.author: kschimke  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Author a basic formula to change properties in a PowerApps canvas app  
-summary: Want to enhance your PowerApps canvas app? You can use basic formulas to make changes to control properties.  This will include changing the format, position, simple calculations, and implementing conditional formatting. 
+title: Author a basic formula to change properties in a Power Apps canvas app  
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Want to enhance your Power Apps canvas app? You can use basic formulas to make changes to control properties.  This will include changing the format, position, simple calculations, and implementing conditional formatting. 
 abstract: |  
     In this module, you will: 
     - Understand the basics of how to use formulas in a canvas app
@@ -17,12 +20,13 @@ abstract: |
     - Use a formula to do simple calculations
     - Change the position of an icon using a formula
     - Understand how to implement conditional formatting in canvas apps using a formula
-prerequisites: A basic understanding of how to create a canvas app in PowerApps.  This should include adding controls to the app.  An understanding of working with data in PowerApps is also helpful but not required.       
+prerequisites: A basic understanding of how to create a canvas app in Power Apps.  This should include adding controls to the app.  An understanding of working with data in Power Apps is also helpful but not required.       
 iconUrl: /learn/achievements/change-properties.svg  
 levels:  
 - intermediate   
 roles:  
-- business-user   
+- business-user
+- maker   
 - functional-consultant 
 products:  
 - power-platform
@@ -38,3 +42,4 @@ units:
 - learn-bizapps.change-properties.8-summary
 badge: 
   uid: learn-bizapps.author-basic-formula-change-properties-powerapps.badge 
+

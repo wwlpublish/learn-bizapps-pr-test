@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.button-without-user-input.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 2/22/2020 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 8 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which additional feature does the Convert time zone action have?
+    choices: 
+    - content: Convert from Eastern Time (US & Canada) to Pacific Time (US & Canada)
+      isCorrect: false
+      explanation: It can change the format to General date/time pattern (short time). 
+    - content: Change the format to General date/time pattern (short time)
+      isCorrect: true
+      explanation: It can change the format to General date/time pattern (short time). 
+    - content: Convert time zone and the format
+      isCorrect: false 
+      explanation: It can change the format to General date/time pattern (short time). 
+    - content: Convert from Eastern Time (US & Canada) to Greenland time
+      isCorrect: false 
+      explanation: It can change the format to General date/time pattern (short time). 
+  - content: Which of the following options can you add triggers to in a button flow?
+    choices: 
+    - content: Triggers can't be added to button flows.
+      isCorrect: false
+      explanation: Triggers can be added to actions and conditions.
+    - content: Triggers can be added only to actions.
+      isCorrect: false 
+      explanation: Triggers can be added to actions and conditions.
+    - content: Triggers can be added to actions and conditions.
+      isCorrect: true 
+      explanation: Triggers can be added to actions and conditions.
+    - content: Triggers can be added only to conditions.
+      isCorrect: false
+      explanation: Triggers can be added to actions and conditions.
+  - content: What is the input requirement for the Get Manager connector to work?
+    choices: 
+    - content: Your City or Full address information
+      isCorrect: false
+      explanation: User principal name or email ID is needed for the Get Manager connector to work.
+    - content: User principal name or email ID
+      isCorrect: true
+      explanation: User principal name or email ID is needed for the Get Manager connector to work.
+    - content: Timestamp
+      isCorrect: false 
+      explanation: User principal name or email ID is needed for the Get Manager connector to work.
+    - content: Full address, Date, and Timestamp
+      isCorrect: false 
+      explanation: User principal name or email ID is needed for the Get Manager connector to work.
+  - content: If a user property such as city or phone number is missing, where can you update this information?
+    choices: 
+    - content: In Azure Active Directory or Office 365 User 
+      isCorrect: true 
+      explanation: You can update this information in Azure Active Directory or Office 365 User.
+    - content: In Power Apps
+      isCorrect: false 
+      explanation: You can update this information in Azure Active Directory or Office 365 User.
+    - content: In the Power Automate Admin center
+      isCorrect: false 
+      explanation: You can update this information in Azure Active Directory or Office 365 User.
+    - content: In both Power Automate and Power Apps Admin. center
+      isCorrect: false 
+      explanation: You can update this information in Azure Active Directory or Office 365 User.

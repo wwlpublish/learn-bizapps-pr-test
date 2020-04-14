@@ -1,15 +1,18 @@
-### YamlMime:Module 
+﻿### YamlMime:Module 
 uid: learn-bizapps.powerapps-customize 
 metadata: 
-  title: Customize a canvas app in PowerApps
+  title: Customize a canvas app in Power Apps
   description: Learn how to customize an app by adding controls, images, and logic.
   ms.date: 5/21/2019
-  author: kevsch
-  ms.author: kevsch
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Customize a canvas app in PowerApps
-summary: Learn how to customize an app by adding controls, images, and logic.
+title: Customize a canvas app in Power Apps
+summary: |
+  [!include[](../includes/module-banner.md)]
+
+  Learn how to customize an app by adding controls, images, and logic.
 abstract: |
   In this module, you will:
   - Change the layout of a gallery.
@@ -26,6 +29,7 @@ levels:
 - beginner 
 roles:  
 - business-user
+- maker
 - functional-consultant
 products:  
 - power-platform
@@ -38,3 +42,4 @@ units:
 - learn-bizapps.powerapps-customize.5-summary-cleanup
 badge:
   uid: learn.powerapps-customize.badge
+

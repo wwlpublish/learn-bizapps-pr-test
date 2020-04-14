@@ -4,10 +4,9 @@ title: Introducing Common Data Service
 metadata: 
   title: Introducing Common Data Service 
   description: Introducing Common Data Service
-  ms.date: 02/01/2019
-  #TODO: Update with real author name.
-  author: margoc
-  ms.author: margoc
+  ms.date: 01/17/2020
+  author: KevSch
+  ms.author: kschimke
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 5 

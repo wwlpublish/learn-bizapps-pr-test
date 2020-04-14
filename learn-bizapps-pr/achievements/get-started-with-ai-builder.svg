@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="101px" height="101px" viewBox="0 0 101 101" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>Bring AI to your business with AI Builder/Get-started-with-AI-Builder</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="94.3396226" height="94.3396226" rx="47.1698113"></rect>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-3">
+            <stop stop-color="#4E4E57" offset="0%"></stop>
+            <stop stop-color="#2E2E34" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-4" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+        <rect id="path-5" x="0" y="0" width="100" height="100" rx="50"></rect>
+        <filter x="-0.5%" y="-0.5%" width="102.0%" height="102.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="1" dy="1" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feMorphology radius="4" operator="erode" in="SourceAlpha" result="shadowInner"></feMorphology>
+            <feOffset dx="1" dy="1" in="shadowInner" result="shadowInner"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.15 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+        <path d="M50,2.83018868 C76.0511674,2.83018868 97.1698113,23.9488326 97.1698113,50 C97.1698113,76.0511674 76.0511674,97.1698113 50,97.1698113 C23.9488326,97.1698113 2.83018868,76.0511674 2.83018868,50 C2.83018868,23.9488326 23.9488326,2.83018868 50,2.83018868 Z M50,6.60377358 C26.032926,6.60377358 6.60377358,26.032926 6.60377358,50 C6.60377358,73.967074 26.032926,93.3962264 50,93.3962264 C73.967074,93.3962264 93.3962264,73.967074 93.3962264,50 C93.3962264,26.032926 73.967074,6.60377358 50,6.60377358 Z" id="path-7"></path>
+        <filter x="-18.5%" y="-20.6%" width="136.9%" height="142.6%" filterUnits="objectBoundingBox" id="filter-9">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.1 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="49.9774416%" y1="17.9912184%" x2="49.9774416%" y2="124.588364%" id="linearGradient-10">
+            <stop stop-color="#32D4F5" offset="0%"></stop>
+            <stop stop-color="#31D1F3" offset="47%"></stop>
+            <stop stop-color="#2EC9EB" offset="63%"></stop>
+            <stop stop-color="#29BADE" offset="77%"></stop>
+            <stop stop-color="#22A5CB" offset="89%"></stop>
+            <stop stop-color="#198AB3" offset="100%"></stop>
+            <stop stop-color="#198AB3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-11">
+            <stop stop-color="#D2EBFF" offset="0%"></stop>
+            <stop stop-color="#F0FFFD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="100%" x2="50%" y2="0%" id="linearGradient-12">
+            <stop stop-color="#D2EBFF" offset="0%"></stop>
+            <stop stop-color="#F0FFFD" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9774416%" y1="17.9912184%" x2="49.9774416%" y2="124.588364%" id="linearGradient-13">
+            <stop stop-color="#32D4F5" offset="0%"></stop>
+            <stop stop-color="#31D1F3" offset="47%"></stop>
+            <stop stop-color="#2EC9EB" offset="63%"></stop>
+            <stop stop-color="#29BADE" offset="77%"></stop>
+            <stop stop-color="#22A5CB" offset="89%"></stop>
+            <stop stop-color="#198AB3" offset="100%"></stop>
+            <stop stop-color="#198AB3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="49.9774416%" y1="17.9912184%" x2="49.9774416%" y2="124.588364%" id="linearGradient-14">
+            <stop stop-color="#32D4F5" offset="0%"></stop>
+            <stop stop-color="#31D1F3" offset="47%"></stop>
+            <stop stop-color="#2EC9EB" offset="63%"></stop>
+            <stop stop-color="#29BADE" offset="77%"></stop>
+            <stop stop-color="#22A5CB" offset="89%"></stop>
+            <stop stop-color="#198AB3" offset="100%"></stop>
+            <stop stop-color="#198AB3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-15">
+            <stop stop-color="#DA67CB" offset="0%"></stop>
+            <stop stop-color="#752375" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Badges" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Bring-AI-to-your-business-with-AI-Builder" transform="translate(-160.000000, -320.000000)">
+            <g id="Bring-AI-to-your-business-with-AI-Builder/Get-started-with-AI-Builder" transform="translate(160.000000, 320.000000)">
+                <g id="Badge-Plates/Circle">
+                    <g id="BG" transform="translate(2.830189, 2.830189)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g></g>
+                        <g id="Colors/PowerApps/BG-Solid-1" mask="url(#mask-2)">
+                            <rect id="Rectangle" fill="url(#linearGradient-3)" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                            <g id="Rectangle">
+                                <use fill="#742774" xlink:href="#path-4"></use>
+                                <use fill-opacity="0.501092657" fill="#FFFFFF" xlink:href="#path-4"></use>
+                            </g>
+                        </g>
+                    </g>
+                    <g id="Border">
+                        <g id="White-Border">
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <rect stroke="#F2F1F0" stroke-width="4" stroke-linejoin="square" x="2" y="2" width="96" height="96" rx="48"></rect>
+                        </g>
+                        <mask id="mask-8" fill="white">
+                            <use xlink:href="#path-7"></use>
+                        </mask>
+                        <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-7"></use>
+                        <g id="Colors/PowerApps/Border" mask="url(#mask-8)" fill="#752375">
+                            <g transform="translate(2.830189, 2.830189)" id="Rectangle">
+                                <rect x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g id="Presentation-" filter="url(#filter-9)" transform="translate(18.000000, 17.000000)">
+                    <g id="Group-15">
+                        <ellipse id="Oval" stroke="url(#linearGradient-10)" stroke-width="4" cx="32.1467391" cy="4.3856383" rx="4.38043478" ry="4.3856383"></ellipse>
+                        <path d="M14.1304348,67.8342199 L23.6213768,50.2916667 M50.634058,67.8342199 L41.1431159,50.2916667 M19.240942,60.5248227 L46.2536232,60.5248227" id="Combined-Shape" stroke="url(#linearGradient-11)" stroke-width="5" stroke-linecap="round"></path>
+                        <rect id="Rectangle" fill="url(#linearGradient-12)" x="2.94384058" y="10.233156" width="59.1358696" height="39.4707447"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-13)" x="0" y="4.3856383" width="65" height="6.57845745" rx="2"></rect>
+                        <rect id="Rectangle" fill="url(#linearGradient-14)" x="0" y="48.875" width="65" height="3.65469858" rx="1.82734929"></rect>
+                    </g>
+                </g>
+                <g id="AI-builder" transform="translate(33.000000, 33.000000)" stroke="url(#linearGradient-15)">
+                    <circle id="Oval" stroke-width="1.5" cx="4.85714286" cy="12.1428571" r="4.85714286"></circle>
+                    <circle id="Oval" stroke-width="1.5" cx="21.25" cy="11.5357143" r="9.10714286"></circle>
+                    <circle id="Oval" stroke-width="1.5" fill="#DEF3FE" cx="27.9285714" cy="20.6428571" r="6.07142857"></circle>
+                    <circle id="Oval" stroke-width="1.2" cx="29.75" cy="3.03571429" r="3.03571429"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

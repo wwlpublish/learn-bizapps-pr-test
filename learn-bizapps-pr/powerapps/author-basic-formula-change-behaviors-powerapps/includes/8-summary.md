@@ -1,5 +1,5 @@
 Formulas enhance functionality, performance, and user experience in your
-PowerApps canvas app. In this module, you learned how to use formulas to
+Power Apps canvas app. In this module, you learned how to use formulas to
 modify control functionality and enhance your app. Some important items to
 remember are:
 
@@ -9,7 +9,7 @@ remember are:
 
 -   The **Not** function returns the opposite of true or false.
 
--   **DisplayModes** can control both the visual aspects of a control and
+-   **DisplayMode** can control both the visual aspects of a control and
     their interactivity.
 
 The next module will focus on writing formulas that interact with tables

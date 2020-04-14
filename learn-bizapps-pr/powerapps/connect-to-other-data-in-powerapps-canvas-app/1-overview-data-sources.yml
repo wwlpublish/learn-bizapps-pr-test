@@ -1,4 +1,4 @@
-### YamlMime:ModuleUnit 
+﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.connect-other-data.1-overview-data-sources 
 title: Overview of the different data sources
 metadata: 
@@ -9,7 +9,9 @@ metadata:
   ms.author: kschimke 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-platform 
-  ROBOTS: NOINDEX 
+   
 durationInMinutes: 5 
-content: | 
- [!include[](includes/1-overview-data-sources.md)] 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-overview-data-sources.md)] 
+
