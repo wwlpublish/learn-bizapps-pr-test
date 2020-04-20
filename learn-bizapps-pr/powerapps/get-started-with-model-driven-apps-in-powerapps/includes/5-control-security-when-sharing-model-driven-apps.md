@@ -34,6 +34,7 @@ To learn more about access and the scope of the different privileges, see [Secur
 
 ## Create a custom security role
 1. Sign in to [Power Apps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
+1. To complete this exercise, you will first need to create the Pet entity as described in the Get started with Common Data Service module.
 2. For your new app, select the **...** to the right of the name, and then click **Share**.
 3. In the **Share this app** dialog box, under **Create a security role**, click the **Security Setting** link.
 4. On the **All Roles** page, click **New**.
