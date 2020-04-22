@@ -8,47 +8,47 @@ metadata:
  author: heyrob 
  ms.author: robde 
  ms.topic: interactive-tutorial 
- ms.prod: d365-ai-builder 
+ ms.prod: learning-d365-ai-builder 
 durationInMinutes: 5 
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: 1.	What are the possible outputs of key phrase extraction models? 
+  - content: What are the possible outputs of key phrase extraction models? 
     choices: 
-    - content: a.	Always one phrase 
+    - content: Always one phrase 
       isCorrect: false
       explanation: The possible outputs of key phrase extraction models are one or multiple phrases.
-    - content: b.	One or multiple phrases 
+    - content: One or multiple phrases 
       isCorrect: true
       explanation: The possible outputs of key phrase extraction models are one or multiple phrases.
-    - content: c.	Key words only 
+    - content: Key words only 
       isCorrect: false
       explanation: The possible outputs of key phrase extraction models are one or multiple phrases.
-  - content: 2.	What are some of the business scenarios can be supported by key phrase extraction? 
+  - content: What are some of the business scenarios can be supported by key phrase extraction? 
     choices: 
-    - content: a.	Analyzing customer feedback and surveys 
+    - content: Analyzing customer feedback and surveys 
       isCorrect: false
       explanation: Analyzing employee sentiments can be supported by key phrase extraction.
-    - content: b.	Analyzing social media  
+    - content: Analyzing social media  
       isCorrect: false
       explanation: Analyzing employee sentiments can be supported by key phrase extraction.
-    - content: c.	Analyzing emails and other unstructured text 
+    - content: Analyzing emails and other unstructured text 
       isCorrect: false
       explanation: Analyzing employee sentiments can be supported by key phrase extraction.
-    - content: d.	Analyzing employee sentiments 
+    - content: Analyzing employee sentiments 
       isCorrect: true
       explanation: Analyzing employee sentiments can be supported by key phrase extraction.
-    - content: d.	All of the above 
+    - content: All of the above 
       isCorrect: false
       explanation: Analyzing employee sentiments can be supported by key phrase extraction.
-  - content: 3.	Where can you use key phrase extraction analysis? 
+  - content: Where can you use key phrase extraction analysis? 
     choices: 
-    - content: a.	Power Automate only 
+    - content: Power Automate only 
       isCorrect: false
       explanation: Key phrase extraction analysis can be used with both Power Automate and Power Apps.
-    - content: b.	Power Apps only 
+    - content: Power Apps only 
       isCorrect: false
       explanation: Key phrase extraction analysis can be used with both Power Automate and Power Apps.
-    - content: c.	Both Power Automate and Power Apps 
+    - content: Both Power Automate and Power Apps 
       isCorrect: true
       explanation: Key phrase extraction analysis can be used with both Power Automate and Power Apps.
