@@ -29,11 +29,11 @@ prerequisites: |
     - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
 iconUrl: /learn/achievements/get-started-with-business-card-reader.svg  
 levels:  
-- intermediate   
-roles:  
-- functional-consultant  
-products:  
-- dynamics  
+- beginner   
+roles:
+- business-user
+- maker
+products:    
 - ai-builder 
 units: 
 - learn-bizapps.get-started-with-ai-business-card-reader.1-introduction
