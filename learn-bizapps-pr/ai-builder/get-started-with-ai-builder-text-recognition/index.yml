@@ -27,12 +27,12 @@ prerequisites: |
     - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
 iconUrl: /learn/achievements/get-started-with-ai-builder-text-recognition.svg  
 levels:  
-- intermediate   
-roles:  
-- functional-consultant  
-products:  
-- dynamics  
-- ai-builder 
+- beginner   
+roles:
+- business-user
+- maker
+products:    
+- ai-builder
 units: 
 - learn-bizapps.get-started-with-ai-builder-text-recognition.1-introduction
 - learn-bizapps.get-started-with-ai-builder-text-recognition.2-solve-problems 
