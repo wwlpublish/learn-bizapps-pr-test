@@ -26,7 +26,7 @@ You can now create a flow in Power Automate that manages the triggering of AI Bu
 5. Enter **When a file is created-- OneDrive for Business** as the trigger. 
 6. When you are finished, select **Create**.
 
-**NOTE:** You can use any kind of trigger, such as: **When an email arrives in Outlook**, **When a record is created in Common Data Service**, **When an item is created in SharePoint**, and more.
+[!NOTE:] You can use any kind of trigger, such as: **When an email arrives in Outlook**, **When a record is created in Common Data Service**, **When an item is created in SharePoint**, and more.
 
 **Set the folder that Power Automate will monitor for new incoming images**
 
@@ -48,7 +48,7 @@ Builder Text Recognition.**
 2. Select **Apply to each**. 
 3. In the **Select an output from previous steps** field, select **Response results**, which will iterate over the various texts that are detected in the image.
 
-![Select Response Results(../media/image4.png)
+![Select Response Results](../media/image4.png)
 
 **Save the results to the entity**
 
@@ -60,7 +60,7 @@ Builder Text Recognition.**
 
 ![Select Response result line detected text](../media/image5.png)
 
-**NOTE:** You can also send the results by email, create a file in SharePoint, and more.
+[!NOTE:] You can also send the results by email, create a file in SharePoint, and more.
 
 The following image shows what your resulting flow should look like.
 
