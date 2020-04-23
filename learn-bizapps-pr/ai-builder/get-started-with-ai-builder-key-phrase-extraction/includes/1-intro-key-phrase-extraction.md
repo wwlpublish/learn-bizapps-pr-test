@@ -13,3 +13,7 @@ AI Builder key phrase extraction identifies the key phrases in text using [Azure
 There are many possible business applications for key phrase extraction for your business. These are covered in the second unit.
 
 After the text is analyzed, a maker can retrieve the key phrases to use in their Power Apps and Power Automate business processes. 
+
+Prerequisites:
+- A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
+- Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
