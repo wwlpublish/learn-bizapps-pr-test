@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-builder-key-phrase-extraction.2-business-problems-solved 
+title: Business Problems solved with AI Builder Key Phrase Extraction 
+metadata: 
+  title: Business Problems solved with AI Builder Key Phrase Extraction 
+  description: Learn how to solve business problems using AI Builder Key Phrase Extraction.
+  ms.date: 03/15/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-ai-builder 
+durationInMinutes: 7 
+content: | 
+ [!include[](includes/2-business-problems-solved.md)] 
