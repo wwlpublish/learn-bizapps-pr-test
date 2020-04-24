@@ -15,8 +15,7 @@ Here's a breakdown of the syntax for the navigation function:
 -   **UpdateContextRecord** - Optional. A record that contains the
     name of at least one column and a value for each column. This record
     updates the context variables of the new screen. For more information, see
-    [UpdateContext
-    function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext).
+    [UpdateContext function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext).
 
 In the first argument, you specify the name of the screen to display. In
 the second argument, you specify how the old screen changes to the new
@@ -46,9 +45,9 @@ Here are some examples using ScreenTransitions.
 
 | **Formula**                     | **Description**                  | **Result**          |
 | :------------------- | :------------------- |:----------------|
-| **Navigate( Details, ScreenTransition.None )**   | Displays the **Details** screen with no transition or change in value for a context variable. | The **Details** screen appears quickly. |
-|  **Navigate( Details, ScreenTransition.Fade )**                  | Displays the **Details** screen with a **Fade** transition. No value of a context variable is changed.                   | The current screen fades away to show the **Details** screen.            |
-|  **Navigate( Details, ScreenTransition.Fade, { ID: 12 } )**                   | Displays the **Details** screen with a **Fade** transition, and updates the value of the **ID** context variable to **12**.                  | The current screen fades away to show the **Details** screen, and the context variable **ID** on the screen is set to **12**.            |
+| **Navigate(Details, ScreenTransition.None)**   | Displays the **Details** screen with no transition or change in value for a context variable. | The **Details** screen appears quickly. |
+|  **Navigate(Details, ScreenTransition.Fade)**                  | Displays the **Details** screen with a **Fade** transition. No value of a context variable is changed.                   | The current screen fades away to show the **Details** screen.            |
+|  **Navigate(Details, ScreenTransition.Fade, {ID: 12})**                   | Displays the **Details** screen with a **Fade** transition, and updates the value of the **ID** context variable to **12**.                  | The current screen fades away to show the **Details** screen, and the context variable **ID** on the screen is set to **12**.            |
                                                                                                                                                                
                                             
 The **Back ()** function has an optional argument
@@ -72,18 +71,13 @@ demonstrate the **Navigate** and **Back()** functionality.
 4.  On Screen3, add a **Button** control and change the **Text**
     property to **Back**.
 
-5.  On Screen1, set the **OnSelect** property to
+5.  On Screen1, set the Next button **OnSelect** property to **Navigate(Screen2,ScreenTransition.Fade)**.
 
-> **Navigate(Screen2,ScreenTransition.Fade)**.
-
-6.  On Screen2, set the **OnSelect** property for the Next button to
-
-> **Navigate(Screen3,ScreenTransition.Cover)**.
+6.  On Screen2, set the **OnSelect** property for the Next button to **Navigate(Screen3,ScreenTransition.Cover)**.
 
 7.  Set the **OnSelect** property for the Back button to **Back().**
 
-8.  On Screen3, set the **OnSelect** property for the Back button to
-    **Back()**.
+8.  On Screen3, set the **OnSelect** property for the Back button to **Back()**.
 
 9.  To test this, put the app in Preview or Play mode and navigate
     through the app as a user would.
