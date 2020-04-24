@@ -17,7 +17,9 @@ Power Automate comes with many templates to help get you started with creating f
 5.  Select **Continue**. In the flow, you'll see the steps that will be used to get your email profile and your boss\'s profile before the flow is started.
 6.  Scroll to the bottom of the flow steps to find the **Check if it is my manager** section. Your email address and your manager's email address are automatically filled in from the profile information that you entered.
 7.  In the **Send a push notification** section, select **Text** to change the text of the notification that you'll get when an email is received from your boss. Alternatively, you can leave the text as-is.
-![Send a push notification](../media/image2.png)
+
+  ![Send a push notification](../media/image2.png)
+
 8.  Select **Save** to save and test the flow.
 9.  To change the flow, select **Edit flow**.
 
