@@ -147,7 +147,7 @@ To recap, here are the steps to incorporate the forms processing model, in to th
 
 1. Teams will send a notification **Flow sent a card**.
 
-    ![Screen capture of a flow card received in Teams](../media/flow-card-2.png)
+    ![Screen capture of a flow card received in Teams](../media/flow-card-3.png)
 
     *A flow card received in Teams*
 
