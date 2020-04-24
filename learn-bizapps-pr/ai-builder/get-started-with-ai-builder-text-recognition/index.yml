@@ -25,7 +25,7 @@ prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
     - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
-iconUrl: /learn/achievements/get-started-with-ai-builder-text-recognition.svg  
+iconUrl: /learn/achievements/get-started-with-text-recognition.svg  
 levels:  
 - beginner   
 roles:
@@ -41,4 +41,4 @@ units:
 - learn-bizapps.get-started-with-ai-builder-text-recognition.4a-check 
 - learn-bizapps.get-started-with-ai-builder-text-recognition.5-summary 
 badge: 
-  uid: learn-bizapps.get-started-with-ai-builder-text-recognition.badge 
+  uid: learn-bizapps.get-started-with-text-recognition.badge 
