@@ -15,8 +15,7 @@ Here's a breakdown of the syntax for the navigation function:
 -   **UpdateContextRecord** - Optional. A record that contains the
     name of at least one column and a value for each column. This record
     updates the context variables of the new screen. For more information, see
-    [UpdateContext
-    function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext).
+    [UpdateContext function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-updatecontext).
 
 In the first argument, you specify the name of the screen to display. In
 the second argument, you specify how the old screen changes to the new
@@ -72,18 +71,13 @@ demonstrate the **Navigate** and **Back()** functionality.
 4.  On Screen3, add a **Button** control and change the **Text**
     property to **Back**.
 
-5.  On Screen1, set the Next button **OnSelect** property to
+5.  On Screen1, set the Next button **OnSelect** property to **Navigate(Screen2,ScreenTransition.Fade)**.
 
-> **Navigate(Screen2,ScreenTransition.Fade)**.
-
-6.  On Screen2, set the **OnSelect** property for the Next button to
-
-> **Navigate(Screen3,ScreenTransition.Cover)**.
+6.  On Screen2, set the **OnSelect** property for the Next button to **Navigate(Screen3,ScreenTransition.Cover)**.
 
 7.  Set the **OnSelect** property for the Back button to **Back().**
 
-8.  On Screen3, set the **OnSelect** property for the Back button to
-    **Back()**.
+8.  On Screen3, set the **OnSelect** property for the Back button to **Back()**.
 
 9.  To test this, put the app in Preview or Play mode and navigate
     through the app as a user would.
