@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.create-basic-flow-route-invoice-teams-channel
+title: Build a Power Automate flow to route an invoice to a Teams channel
+metadata:
+  title: Build a Power Automate flow to route an invoice to a Teams channel
+  description: "Build a Power Automate flow to route an invoice to a Teams channel"
+  ms.date: 04/30/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-create-basic-flow-route-invoice-teams-channel.md)]

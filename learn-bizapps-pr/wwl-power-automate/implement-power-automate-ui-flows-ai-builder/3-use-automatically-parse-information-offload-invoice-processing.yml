@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.use-automatically-parse-information-offload-invoice-processing
+title: Use AI Builder to build a forms processing model
+metadata:
+  title: Use AI Builder to build a forms processing model
+  description: "Use AI Builder to build a forms processing model"
+  ms.date: 04/30/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/3-use-automatically-parse-information-offload-invoice-processing.md)]
