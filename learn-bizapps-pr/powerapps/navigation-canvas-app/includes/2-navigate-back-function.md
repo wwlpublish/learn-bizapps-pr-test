@@ -72,7 +72,7 @@ demonstrate the **Navigate** and **Back()** functionality.
 4.  On Screen3, add a **Button** control and change the **Text**
     property to **Back**.
 
-5.  On Screen1, set the **OnSelect** property to
+5.  On Screen1, set the Next button **OnSelect** property to
 
 > **Navigate(Screen2,ScreenTransition.Fade)**.
 
