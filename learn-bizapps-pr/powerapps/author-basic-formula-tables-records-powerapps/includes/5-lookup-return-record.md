@@ -8,7 +8,9 @@ Label, by using the . (dot) notation.
 For this example, reference the following table of data stored in a
 collection named collectCustomerInvoices.
 
+```powerappsfl
 ClearCollect(collectCustomerInvoices, {ID:1, Date:"4/10/2020", CustomerName:"Fabrikam", Amount:212.00}, {ID:2, Date:"3/1/2020", CustomerName:"Contoso", Amount:47.89}, {ID:3, Date:"3/14/2020", CustomerName:"Contoso", Amount:32.99},{ID:4, Date:"4/2/2020", CustomerName:"Fabrikam", Amount:105.32}) 
+```
 
 | ID                  | Date                 | CustomerName    | Amount          |
 | :-------------------| :------------------- | :---------------| :---------------|
