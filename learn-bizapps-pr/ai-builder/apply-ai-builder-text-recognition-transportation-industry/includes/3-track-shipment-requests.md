@@ -38,7 +38,7 @@ Click on "Column Attributes" for "Related Entity" and add the "Account Name".
 
 Name your view as Container List, save and publish.
 
-![Continer list view](../media/image8.png)
+![Container list view](../media/image8.png)
 
 On the component view, uncheck "All" and check Container List.
 
