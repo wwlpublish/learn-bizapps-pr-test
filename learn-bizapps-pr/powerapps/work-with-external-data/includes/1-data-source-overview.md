@@ -8,10 +8,12 @@ This graphic shows the most common data sources.
 
 ![Data sources](../media/datasources.png)
 
-The Power Apps Plan 1 and Power Apps Plan 2 licenses provide access to
+The Power Apps Per app plan or Power Apps Per user plan provides access to
 premium connectors, such as these examples:
 
 -   Common Data Service (database)
+
+-   SQL Server
 
 -   Salesforce
 
@@ -35,7 +37,7 @@ display the data in a gallery or a form. In Power Apps, you can use
 multiple functions for working with tables of data.
 
 Other data sources, such as the Office 365 Users connector or Project
-Online, are action based. When you connect to these data sources,
+Online, are action-based. When you connect to these data sources,
 you can run different actions by using various functions. Generally, you
 must explicitly connect these functions to controls to interact with
 them. They do not work automatically like tabular data sources. For
