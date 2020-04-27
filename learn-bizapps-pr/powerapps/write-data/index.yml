@@ -2,7 +2,7 @@
 uid: learn-bizapps.write-data 
 metadata: 
   title: Write data in a Power Apps canvas app
-  description: Forms can be used to view, edit, and create records.This module demonstrates how to use forms to write data to your data source.  Topics will include form setup, the different form modes, and how to configure a submit button.
+  description: Learn how to write data in a Power Apps canvas app.
   ms.date: 04/27/2020  
   author: DaveBeasley
   ms.author: dbeasley  
@@ -12,7 +12,7 @@ title: Write data in a Power Apps canvas app
 summary: |
   [!include[](../includes/module-banner.md)]
 
-  Forms can be used to view, edit, and create records.This module demonstrates how to use forms to write data to your data source.  Topics will include form setup, the different form modes, and how to configure a submit button. 
+  Forms can be used to view, edit, and create records. This module demonstrates how to use forms to write data to your data source.  Topics will include form setup, the different form modes, and how to configure a submit button. 
 abstract: |  
     In this module, you will: 
     - Understand how to work with Forms in canvas apps

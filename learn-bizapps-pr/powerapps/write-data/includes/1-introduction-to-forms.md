@@ -8,7 +8,7 @@ the **Display Form** only has the View form mode.
 There is an added benefit of the **Form** control for the app maker.
 When you add a **Form** control to your canvas, a panel helps you
 add your data source, modify the view, choose the columns to be
-displayed, and more. Forms are a very powerful addition to your
+displayed, and more. Forms are a powerful addition to your
 Power Apps skillset. Note, forms work with all data sources except collections.
 
 Properties of a control

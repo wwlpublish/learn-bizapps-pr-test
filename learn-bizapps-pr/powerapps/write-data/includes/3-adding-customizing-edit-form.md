@@ -33,7 +33,7 @@ an example of a form.
 ![Example Form](../media/example-form.png)
 
 The **Form** control will automatically select the input control based on your field
-type. For many fields there are multiple options available. You can
+type. For many fields, there are multiple options available. You can
 change the **Control type** by clicking the drop-down menu for the field's
 card and selecting one of the other options.
 
@@ -50,7 +50,7 @@ Customizing a card
 
 To unlock a card, select the card in the form and then from the **Card**
 pane select **Advanced**. Click the **lock** icon. The card is now a
-custom card which allows you to modify all of the settings.
+custom card, which allows you to modify all of the settings.
 
 ![Customize card](../media/customize-card.png)
 
