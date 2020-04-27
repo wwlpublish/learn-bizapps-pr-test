@@ -1,7 +1,7 @@
 In this unit, you will
--   Integrate AI Builder Text Recognition
+-   Integrate AI Builder text recognition
 -   Identify how Power Apps allows you to track your business activity
--   Assess how AI Builder Text Recognition can automate front line workers tasks
+-   Assess how AI Builder text recognition can automate front line workers tasks
 
 Before following this course, we recommend reading "Get Started with AI Builder" and the documentation [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview).
 
