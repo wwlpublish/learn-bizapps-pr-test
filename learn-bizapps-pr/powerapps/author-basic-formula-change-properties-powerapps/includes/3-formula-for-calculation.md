@@ -33,7 +33,7 @@ the following example shows how to calculate the sum of goods and services.
     Sum(TextInput1_1 * TextInput1_2)
     ```
 
->(In this example, TextInput1_1 is the Quantity purchased and TextInput1_2 is the Cost per item.)
+    (In this example, TextInput1_1 is the Quantity purchased and TextInput1_2 is the Cost per item.)
 
 4.  Now preview the app by selecting the **Play** button in the
     upper-right corner. Test the formula.
