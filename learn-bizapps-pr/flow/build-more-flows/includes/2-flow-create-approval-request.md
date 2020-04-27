@@ -24,7 +24,7 @@ First, let's create the SharePoint list.
 ## Step two: Create an approval request flow
 
 1. Sign in to [Power Automate](https://ms.flow.microsoft.com), and then select **Templates**.
-1. Search **CPost list items to Twitter** under **Approvals** and select the appropriate template.
+1. Search **Post list items to Twitter** under **Approvals** and select the appropriate template.
 
     ![Create approval flow button](../media/create-approval.png)
 
