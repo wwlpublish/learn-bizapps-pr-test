@@ -29,9 +29,9 @@ the following example shows how to calculate the sum of goods and services.
 
 3.  Change the **Text** property to the following.
 
-   ```powerappsfl
-   Sum(TextInput1_1 * TextInput1_2)
-   ```
+    ```powerappsfl
+    Sum(TextInput1_1 * TextInput1_2)
+    ```
 
 >(In this example, TextInput1_1 is the Quantity purchased and TextInput1_2 is the Cost per item.)
 
@@ -40,8 +40,8 @@ the following example shows how to calculate the sum of goods and services.
 
 5.  Next, format the formula to display the value as a Currency. Update
     the formula as follows.
-   ```powerappsfl
-   Text(Sum(TextInput1_1 * TextInput1_2),"$#,###0.00")
-   ```
+    ```powerappsfl
+    Text(Sum(TextInput1_1 * TextInput1_2),"$#,###0.00")
+    ```
 
 For more information, see [Power Apps Aggregate Functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-aggregates).
