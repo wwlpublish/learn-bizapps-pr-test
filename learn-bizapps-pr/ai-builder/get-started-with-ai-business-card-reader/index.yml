@@ -18,17 +18,22 @@ abstract: |
     - Discover how you can integrate AI Builder Business Card Reader to Power Apps and Power Automate
     - Create an app in Power Apps and add a Business Card Reader to it
     - Consume the extracted contact information from business cards
+    - Identify the product that you need to buy to receive AI Builder capacity
+    - Examine how you can purchase the product
+    - Identify how to manage the AI Builder capacity : assign, unassign
+    - Examine how you can check the AI Builder capacity assignment
+    - Distinguish the different ways to perform AI Builder action: Environment with AI Builder capacity assigned, or AI Builder Trial license at user level.
 prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
     - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
-iconUrl: /learn/achievements/get-started-with-business-card-reader.svg  
+iconUrl: /learn/achievements/get-started-with-ai-business-card-reader.svg  
 levels:  
-- beginner   
-roles:
-- business-user
-- maker
-products:    
+- intermediate   
+roles:  
+- functional-consultant  
+products:  
+- dynamics  
 - ai-builder 
 units: 
 - learn-bizapps.get-started-with-ai-business-card-reader.1-introduction
@@ -38,4 +43,4 @@ units:
 - learn-bizapps.get-started-with-ai-business-card-reader.5-check
 - learn-bizapps.get-started-with-ai-business-card-reader.6-summary 
 badge: 
-  uid: learn-bizapps.get-started-with-business-card-reader.badge 
+  uid: learn-bizapps.get-started-with-ai-business-card-reader.badge 

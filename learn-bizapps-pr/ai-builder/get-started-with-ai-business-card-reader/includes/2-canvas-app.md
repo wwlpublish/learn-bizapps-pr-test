@@ -37,16 +37,13 @@ The goal here is to take a picture or upload an existing one from the file syste
 
 2. You can now change the default value of each Data Card to map the Business card reader extracted properties. You should set the following default values:
 
--   Full Name\_DataCard1 "Default" property:
-    "BusinessCardReader1.FullName"
+   - Full Name\_DataCard1 "Default" property: "BusinessCardReader1.FullName"
 
--   Email\_DataCard1 "Default" property: "BusinessCardReader1.Email"
+   - Email\_DataCard1 "Default" property: "BusinessCardReader1.Email"
 
--   Business Phone\_ DataCard1 "Default" property:
-    "BusinessCardReader1.BusinessPhone"
+   - Business Phone\_ DataCard1 "Default" property: "BusinessCardReader1.BusinessPhone"
 
--   Website\_ DataCard1 "Default" property:
-    "BusinessCardReader1.Website"
+   - Website\_ DataCard1 "Default" property: "BusinessCardReader1.Website"
 
 **You can always add more fields to be mapped. In this example, you can extract the following list of fields from your business cards**
 
@@ -86,7 +83,7 @@ You should see this:
 
     ![A screenshot of a cell phone Description automatically generated](../media/image5.png)
 
-2. To analyze a business card, select "Scan business card", and select an image you have saved. On a mobile device, you can also directly take a picture with the camera.
+2. To analyse a business card, select "Scan business card", and select an image you have saved. On a mobile device, you can also directly take a picture with the camera.
 
 **Next, AI Builder business card reader processes the business card and displays extracted contact information.**
 
