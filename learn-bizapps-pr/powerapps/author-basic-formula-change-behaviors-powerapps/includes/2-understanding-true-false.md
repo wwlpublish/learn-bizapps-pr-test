@@ -44,11 +44,10 @@ false.
 As you use true and false another handy function to incorporate can be
 the **Not** function. The **Not** function returns the opposite of the
 true or false. Use the following example to better understand the
-concept.
+concept:
 
- >2 + 2 = 4 evaluates to true
-
- >Not(2+2 = 4) evaluates to false
+- 2 + 2 = 4 evaluates to true
+- Not(2+2 = 4) evaluates to false
 
 2 + 2 = 4 evaluates to **true**. The same way that 2 + 2 = 5 evaluates
 to **false**. The **Not** function takes the outcome of the provided
