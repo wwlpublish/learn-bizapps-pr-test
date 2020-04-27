@@ -15,53 +15,53 @@ quiz:
   questions: 
   - content: What are the capabilities of AI Builder Text Recognition?
     choices: 
-    - content: o	Recognize printed characters on a picture
+    - content: Recognize printed characters on a picture
       isCorrect: false
       explanation: AI Builder can recognize printed and handwritten characters on a picture.
-    - content: o	Recognize printed and handwritten characters on a picture
+    - content: Recognize printed and handwritten characters on a picture
       isCorrect: true
       explanation: AI Builder can recognize printed and handwritten characters on a picture.
-    - content: o	Recognize symbols, printed and handwritten characters on a picture
+    - content: Recognize symbols, printed and handwritten characters on a picture
       isCorrect: false 
       explanation: AI Builder can recognize printed and handwritten characters on a picture.
   - content: Which Azure service is powering this technology?
     choices: 
-    - content: o	Azure Entity Recognition
+    - content: Azure Entity Recognition
       isCorrect: false
       explanation: This technology is powered by Azure OCR.
-    - content: o	Azure Image Analysis
+    - content: Azure Image Analysis
       isCorrect: false 
       explanation: This technology is powered by Azure OCR.
-    - content: o	Azure OCR
+    - content: Azure OCR
       isCorrect: true
       explanation: This technology is powered by Azure OCR.
   - content: How can you retrieve the text recognized in Power Apps Canvas?
     choices: 
-    - content: o	TextRecognizerX.SelectedText
+    - content: extRecognizerX.SelectedText
       isCorrect: false
       explanation: You can retrieve the text recognized in Power Apps Canvas using both TextRecognizerX.SelectedText and TextRecognizerX.OcrObjects.
-    - content: o	TextRecognizerX.OcrObjects
+    - content: TextRecognizerX.OcrObjects
       isCorrect: false 
       explanation: You can retrieve the text recognized in Power Apps Canvas using both TextRecognizerX.SelectedText and TextRecognizerX.OcrObjects.
-    - content: o	Both of the above
+    - content: Both of the above
       isCorrect: true
       explanation: You can retrieve the text recognized in Power Apps Canvas using both TextRecognizerX.SelectedText and TextRecognizerX.OcrObjects.
-  - content: How can Text Recognizer component get the image to be analysed in Power Apps Canvas?
+  - content: How can Text Recognizer component get the image to be analyzed in Power Apps Canvas?
     choices: 
-    - content: o	From OneDrive 
+    - content: From OneDrive 
       isCorrect: false
-      explanation: Text Recognizer component can get the image to be analysed by taking a picture or uploading from a local disk.
-    - content: o	Taking a picture or uploading from a local disk
+      explanation: Text Recognizer component can get the image to be analyzed by taking a picture or uploading from a local disk.
+    - content: Taking a picture or uploading from a local disk
       isCorrect: true
-      explanation: Text Recognizer component can get the image to be analysed by taking a picture or uploading from a local disk.
-    - content: o	From Common Data Service
+      explanation: Text Recognizer component can get the image to be analyzed by taking a picture or uploading from a local disk.
+    - content: From Common Data Service
       isCorrect: false 
-      explanation: Text Recognizer component can get the image to be analysed by taking a picture or uploading from a local disk.
+      explanation: Text Recognizer component can get the image to be analyzed by taking a picture or uploading from a local disk.
   - content: Is AI Builder Text Recognizer component available from a model driven Power App?
     choices: 
-    - content: o	Yes
+    - content: Yes
       isCorrect: false
       explanation: The AI Builder Text Recognizer component is not available from a model driven Power App.
-    - content: o	No
+    - content: No
       isCorrect: true
       explanation: The AI Builder Text Recognizer component is not available from a model driven Power App.
