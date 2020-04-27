@@ -19,4 +19,4 @@ reminder. At the top of the screen in the Power Apps Studio is the
 **Properties** drop-down menu and the **Formula** bar. Both will be referenced
 throughout the remainder of this module.
 
-![Properties Down](../media/PropertiesDown.png)
+![Properties Down](../media/properties-down.png)
