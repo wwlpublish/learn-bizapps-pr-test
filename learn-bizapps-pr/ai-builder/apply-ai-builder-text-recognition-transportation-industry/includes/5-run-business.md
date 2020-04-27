@@ -18,7 +18,7 @@ She can now see this new container, which is waiting to be shipped.
 
 John, the docker worker from San Francisco, has managed to carry the container on a boat and uses the "Contoso Container Check-in" application to update the status. He takes a picture of the container, selects the text with the container identifier, and updates the shipment date.
 
-[!NOTE:] AI Builder Text Recognizer also supports uploading a picture from local device.
+[!NOTE:] AI Builder text recognizer also supports uploading a picture from local device.
 
 ![Container check-in and Update Shipping screens](../media/image16.PNG)
 
