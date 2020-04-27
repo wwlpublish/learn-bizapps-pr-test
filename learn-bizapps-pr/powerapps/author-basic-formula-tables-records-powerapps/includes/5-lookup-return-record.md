@@ -11,6 +11,7 @@ collection named collectCustomerInvoices.
 ```powerappsfl
 ClearCollect(collectCustomerInvoices, {ID:1, Date:"4/10/2020", CustomerName:"Fabrikam", Amount:212.00}, {ID:2, Date:"3/1/2020", CustomerName:"Contoso", Amount:47.89}, {ID:3, Date:"3/14/2020", CustomerName:"Contoso", Amount:32.99},{ID:4, Date:"4/2/2020", CustomerName:"Fabrikam", Amount:105.32}) 
 ```
+<br />
 
 | ID                  | Date                 | CustomerName    | Amount          |
 | :-------------------| :------------------- | :---------------| :---------------|
@@ -59,6 +60,7 @@ the value from the variable. Here's an example:
 1.  Add a **Button** control to your app.
 
 2.  Set the following formula for OnSelect for the **Button** control:
+
    ```powerappsfl
     Set(varRecord, LookUp(collectCustomerInvoices, ID =3))
    ```
