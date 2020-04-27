@@ -31,7 +31,7 @@ the **Last** function.
 -   **First** -- This function returns the first (top) record in
     the table.
 
--   **Last** -- Thisfunction returns the last (bottom) record in
+-   **Last** -- This function returns the last (bottom) record in
     the table.
 
 -   **Shuffle** -- This function reorders the records in your
@@ -45,7 +45,7 @@ picking a record from a table. You combine **Shuffle** and **First** to
 have a virtual "pick a winner out of a hat". The following example uses
 the **collectCustomerInvoices** collection.
 
-```
+```powerappsfl
 First(Shuffle(collectCustomerInvoices)).ID
 ```
 
@@ -64,10 +64,10 @@ collection named collectCustomerInvoices.
 
 | ID                  | Date                 | CustomerName    | Amount          |
 | :-------------------| :------------------- | :---------------| :---------------|
-| 1                   | 4/10/2019            | Fabrikam        | 212.00          |
-| 2                   | 3/1/2019             | Contoso         | 47.89           |
-| 3                   | 3/14/2019            | Contoso         | 32.99           |
-| 4                   | 4/2/2019             | Fabrikam        | 105.32          |
+| 1                   | 4/10/2020            | Fabrikam        | 212.00          |
+| 2                   | 3/1/2020             | Contoso         | 47.89           |
+| 3                   | 3/14/2020            | Contoso         | 32.99           |
+| 4                   | 4/2/2020             | Fabrikam        | 105.32          |
 
 1.  Place a **Label** control on the screen
 
