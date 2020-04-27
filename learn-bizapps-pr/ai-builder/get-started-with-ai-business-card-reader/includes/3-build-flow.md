@@ -1,8 +1,7 @@
-In this unit, you will
+In this unit, you will:
 
--   Develop a simple flow with Power Automate that leverages AI Builder business card reader
-
--   Experiment with how to automatically process business cards from a OneDrive folder and save recognized text to Common Data Service
+- Develop a simple flow with Power Automate that leverages AI Builder business card reader
+- Experiment with how to automatically process business cards from a OneDrive folder and save recognized text to Common Data Service
 
 We are going to build a Power Automate flow checking when an image is added to a folder and triggering AI Builder business card reader. If the contact information is extracted it is saved in Common Data Service. (See [Use the business card reader prebuilt model in Power Automate](https://docs.microsoft.com/ai-builder/flow-business-card-reader)).
 
@@ -39,7 +38,7 @@ In this example, we set the "Folder" property of the "When a file is created" st
 
 You can map the Contacts entity fields to the extracted fields from the Business Card model. Fields such as first name, last name, address information, email, etc. are available. There are 18 fields currently available today.
 
-> [!NOTE] 
+> [!NOTE]
 > You can also send the results by email, create a file in SharePoint and more.
 
 You should end with following flow. Save and it is now ready to process images.
