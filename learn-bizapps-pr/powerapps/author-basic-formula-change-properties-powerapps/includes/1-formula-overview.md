@@ -11,7 +11,7 @@ the full list of controls, see more information in the
 This documentation also describes the list of properties available
 for each control.
 
-![Controls](../media/Controls.png)
+![Controls](../media/controls.png)
 
 Control properties
 ------------------
@@ -46,7 +46,7 @@ it is more efficient to create
 multi-function formulas. The following example combines
 multiple functions into a single formula.
 
-![CombineFunctions](../media/CombineFunctions.png)
+![CombineFunctions](../media/combine-functions.png)
 
 The two **Text Input** controls (Textinput1 and Textinput2) have no
 formulas or modifications. The **Text** property of the selected
@@ -76,7 +76,7 @@ will also reflect your local language.
 To help you in your building experience, **Power Apps formulas adapt to
 your local language**. For example, you might see the following formula:
 
-```
+```powerappsfl
 Filter(DataSource, Price > 12.50)
 ```
 
@@ -84,7 +84,7 @@ This is the default for languages where the decimal (.) is used to as the decima
 separator. If your language uses the comma (,) as the decimal separator then the
 syntax of the formula adapts. The previous formula becomes this.
 
-```
+```powerappsfl
 Filter(DataSource; Price > 12,50)
 ```
 

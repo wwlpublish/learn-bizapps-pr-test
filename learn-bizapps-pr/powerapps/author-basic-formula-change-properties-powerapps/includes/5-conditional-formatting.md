@@ -12,7 +12,7 @@ indicators and modified functionality based on the condition.
 Continuing with the previous example, the following formula shows how to apply
 conditional formatting to the **Label1 Color** property.
 
-```
+```powerappsfl
 If(Sum(Value(TextInput1.Text),Value(TextInput2.Text)) >50,Color.DarkGreen,Color.DarkRed)
 ```
 

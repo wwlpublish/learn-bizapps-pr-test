@@ -25,7 +25,7 @@ information is displayed and consumed by users.
 
 1.  Add a **Dropdown** control to your canvas app.
 
-	> Select **Dropdown** and change the **Items** property from **DropDownSample** to Table({Position:\"Top\"},{Position:\"Bottom\"},{Position:\"Middle\"})
+	> Select **Dropdown** and change the **Items** property from **DropDownSample** to Table({Position:"Top"},{Position:"Bottom"},{Position:"Middle"})
 
 2.  On the **Insert** tab, click **Icons** and select the **Check**
     icon.

@@ -23,13 +23,13 @@ the following example shows how to calculate the sum of goods and services.
 1.  Add 6 **Labels** and 3 **Text Inputs** to your canvas app,
     as shown in the following screenshot.
 
-	![Calculation](../media/Calculation.png)
+	![Calculation](../media/calculation.png)
 
 2.  Select the **Label** to the right of "Total".
 
 3.  Change the **Text** property to the following.
 
-```
+```powerappsfl
 Sum(TextInput1_1 * TextInput1_2)
 ```
 
@@ -40,7 +40,7 @@ Sum(TextInput1_1 * TextInput1_2)
 
 5.  Next, format the formula to display the value as a Currency. Update
     the formula as follows.
-```
+```powerappsfl
 Text(Sum(TextInput1_1 * TextInput1_2),"$#,###0.00")
 ```
 
