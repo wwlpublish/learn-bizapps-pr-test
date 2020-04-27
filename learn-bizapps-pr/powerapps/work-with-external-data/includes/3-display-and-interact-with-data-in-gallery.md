@@ -8,7 +8,7 @@ You add a gallery to your canvas app by opening it in Power Apps Studio,
 selecting the **Insert** tab, selecting **Gallery**, and then selecting
 the type of gallery to add.
 
-![Gallery](../media/Gallery.png)
+![Gallery](../media/gallery.png)
 
 The top row includes **Vertical**, **Horizontal**, and **Flexible
 height** options that contain preconfigured controls to help you get
@@ -18,7 +18,7 @@ controls. The remainder of this example uses a **Vertical** gallery.
 When you select a gallery, it's added to your canvas, and the **Data**
 pane appears near the right side of the screen.
 
-![Add data source to a gallery](../media/Add-data-source-to-a-gallery.png)
+![Add data source to a gallery](../media/add-data-source-to-a-gallery.png)
 
 1.  Select an existing data source or add one. The data source that you
     select is reflected in the **Items** property of the gallery
@@ -49,9 +49,9 @@ other part of your app.
 The sample canvas apps show how much you can customize a gallery. For
 example, the Asset Management sample contains this vertical list.
 
-![Vertical List](../media/VerticalList.png)
+![Vertical List](../media/vertical-list.png)
 
 The Leave Request app contains this horizontal gallery with four
 columns.
 
-![Vertical Four Column](../media/VerticalFourColumn.png)
+![Vertical Four Column](../media/vertical-four-column.png)
