@@ -17,4 +17,5 @@ She'll use a Power Apps to create a new container transport request and monitor 
 
 John and Chanda are dockers working for Contoso Shipment. Their task is to ensure containers are loaded and unloaded updating the CRM at each stage. They'll use an AI Builder text recognition control to automatically detect a container identifier and update the shipment date and status, streamlining these repetitive tasks and minimizing human errors.
 
-![Flow chart](../media/image1a.png)[!div class="mx-imgBorder"]
+![Flow chart](../media/image1a.png)
+[!div class="mx-imgBorder"]
