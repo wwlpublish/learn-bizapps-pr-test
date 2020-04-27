@@ -24,6 +24,6 @@ products:
 - ai-builder
 modules:
 - learn-bizapps.get-started-with-ai-builder
-- learn-bizapps.manage-models-in-ai-builder
+- learn-bizapps.manage-models
 trophy: 
   uid: learn-bizapps.bring-ai.trophy
