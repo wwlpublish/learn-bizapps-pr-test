@@ -12,13 +12,13 @@ Go to <https://make.powerapps.com> and open the "Data" menu and "Entities" subme
 
 ![Many-to-one relationship](../media/image2.png)
 
--   The container's identifier is a textual data, we will use the built-in Name field. (See [Types of fields](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-fields))
+The container's identifier is a textual data, we will use the built-in Name field. (See [Types of fields](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-fields))
 
 ![Entity structure](../media/image3.png)
 
--   The Weight is a numerical data, modelled as Whole Number type in Common Data Service.
+-   The Weight is a numerical data, modeled as Whole Number type in Common Data Service.
 
--   The Price is a currency data, modelled as Currency type in Common Data Service.
+-   The Price is a currency data, modeled as Currency type in Common Data Service.
 
 -   The Origin and Destination are location data, to make it simple we will use an Option Set with following values New York, Shanghai, San Francisco, Cape Town, Delhi, each corresponding to a port where the company is operating. An advanced design would be to create a separate Dock entity to enter more information data like country, zip code... and create a relationship with Container Shipment. (See [Create an Option set](https://docs.microsoft.com/powerapps/maker/common-data-service/custom-picklists))
 
