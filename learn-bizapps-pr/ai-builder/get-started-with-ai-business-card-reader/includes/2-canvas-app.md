@@ -83,7 +83,7 @@ You should see this:
 
     ![A screenshot of a cell phone Description automatically generated](../media/image5.png)
 
-2. To analyse a business card, select "Scan business card", and select an image you have saved. On a mobile device, you can also directly take a picture with the camera.
+2. To analyze a business card, select "Scan business card", and select an image you have saved. On a mobile device, you can also directly take a picture with the camera.
 
 **Next, AI Builder business card reader processes the business card and displays extracted contact information.**
 
