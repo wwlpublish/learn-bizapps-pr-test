@@ -2,10 +2,10 @@
 uid: learn-bizapps.author-basic-formula-tables-records-powerapps
 metadata: 
   title: Author a basic formula that uses tables and records in a Power Apps canvas app 
-  description: Do you want to use tables and records and filter data in your canvas app? This module will focus on the differences between a table and a record and how to utilize both within your Power Apps canvas app.
+  description: Learn how to author a basic formula that uses tables and records in a Power Apps canvas app.
   ms.date: 03/15/2019  
-  author: KevSch
-  ms.author: kschimke  
+  author: DaveBeasley
+  ms.author: dbeasley  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Author a basic formula that uses tables and records in a Power Apps canvas app  

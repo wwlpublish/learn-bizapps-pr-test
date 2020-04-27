@@ -4,12 +4,6 @@ In this unit, you will:
 
 -   Discover how you can integrate AI Builder Business card reader to Power Apps and Power Automate.
 
-Prerequisites:
--   A Power Apps or Power Automate
-    [license](https://go.microsoft.com/fwlink/?linkid=2085130)
--   Access to [Common Data
-    Service](https://powerapps.microsoft.com/common-data-service/)
-    
 Before you begin this course, we recommend that you first see the "Get Started with AI Builder" module and read the [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview) content.
 
 The business card prebuilt AI model allows you to extract information from business card images. If it detects a business card in the image, the AI model extracts the information such as name, job title, address, email, company, and phone numbers.

@@ -11,10 +11,10 @@ solution. When in doubt, choose an **Edit** form.
 After adding an **Edit Form** control to the canvas, the panel on the
 right side of the screen will guide you through the configuration
 process. The first step is to choose a data source. In the drop-down menu
-labeled **Select a data source,** you can choose from an existing data
+labeled **None**, you can choose from an existing data
 source or add a data source.
 
-![Choose Fields](../media/ChooseFields.png)
+![Choose Fields](../media/choose-fields.png)
 
 Adding fields
 -------------
@@ -30,14 +30,14 @@ display the field name, an input control for working with the data, and
 other controls for handling error messages and required fields. The following is
 an example of a form.
 
-![Example Form](../media/ExampleForm.png)
+![Example Form](../media/example-form.png)
 
 The **Form** control will automatically select the input control based on your field
-type. For many fields there are multiple options available. You can
+type. For many fields, there are multiple options available. You can
 change the **Control type** by clicking the drop-down menu for the field's
 card and selecting one of the other options.
 
-![Control type](../media/Controltype.png)
+![Control type](../media/control-type.png)
 
 Note that when changing control types, additional configuration
 may be required. For example, if you change a **Text** field from the
@@ -50,9 +50,9 @@ Customizing a card
 
 To unlock a card, select the card in the form and then from the **Card**
 pane select **Advanced**. Click the **lock** icon. The card is now a
-custom card which allows you to modify all of the settings.
+custom card, which allows you to modify all of the settings.
 
-![Customize card](../media/Customizecard.png)
+![Customize card](../media/customize-card.png)
 
 If after working with the custom card you decide that you want to return to
 the original settings, you can delete the custom card and add the field
@@ -60,7 +60,7 @@ back to your form again. To do this, select the entire form,
 click **Properties** on the **Edit** pane, click **Edit fields**, and
 finding your custom card.
 
-![custom card](../media/customcard.png)
+![custom card](../media/custom-card.png)
 
 Select the ellipses **(...)** to the right and select **Remove**. Now you can
 click **Add field** at the top and select the field again.
@@ -73,7 +73,7 @@ When designing a form, the first decision should be your form layout.
 From the **Edit** pane you have three primary design controls: 
 **Snap to Columns**, **Columns**, and **Layout**.
 
-![Snap to Columns](../media/snaptocolumns.png)
+![Snap to Columns](../media/snap-to-columns.png)
 
 **Snap to columns** allows you to control if the cards on the form have
 the width locked to the columns available in your form. For example,
@@ -85,7 +85,7 @@ Alternatively, you can turn off Snap to columns, and then set the
 width of each card to any size you would like. The following is an example of a
 drag-and-drop design of a form with a 4-column layout.
 
-![Column Layout](../media/columnlayout.png)
+![Column Layout](../media/column-layout.png)
 
 In this screenshot, **First Name** and **Last Name** are two columns,
 **Street 1** is set to span all four columns, **City** uses three
@@ -119,7 +119,7 @@ Don't be afraid to try out different visual customizations to meet your
 business needs. The following is an example of the previous form with some of
 the design concepts applied.
 
-![New Customer Info](../media/NewCustomerInfo.png)
+![New Customer Info](../media/new-customer-info.png)
 
 Displaying a specific record in the form
 ----------------------------------------
