@@ -1,9 +1,9 @@
 The **LookUp** function is used to return an individual record of data.
-This is different from the **Filter** function, which returns one or more
+**Lookup** is different from the **Filter** function, which returns one or more
 records in a table. Use the **LookUp** function for controls, like the
 **Form** control, that need to have a single record specified. Additionally,
 you can display a single field from the record, in a control such as a
-Label, by using the . (dot) notation.
+Label, by using dot "." notation.
 
 For this example, reference the following table of data stored in a
 collection named collectCustomerInvoices.
