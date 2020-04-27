@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-with-ai-builder-key-phrase-extraction 
 metadata: 
- title: Introduction to AI Builder Key Phrase Extraction 
+ title: Introduction to AI Builder key phrase extraction 
  description: Explore the AI Builder key phrase extraction model, and how to use it with other Power Platform products.
  ms.date: 03/15/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-d365-ai-builder  
-title: Introduction to AI Builder Key Phrase Extraction 
+title: Introduction to AI Builder key phrase extraction 
 summary: |  
   Explore the AI Builder key phrase extraction model, and how to use it with other Power Platform products.
 abstract: |  
