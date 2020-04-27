@@ -3,7 +3,7 @@ In this unit, you will
 -   Identify how Power Apps allows you to track your business activity
 -   Assess how AI Builder Text Recognition can automate front line workers tasks
 
-Before following this course, we recommend reading [Get Started with AI Builder]{.underline} and the documentation [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview).
+Before following this course, we recommend reading "Get Started with AI Builder" and the documentation [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview).
 
 This module explains how [AI Builder Text recognition model](https://docs.microsoft.com/ai-builder/prebuilt-text-recognition) can help to automate your business. AI Builder Text Recognition is a built-in model, which means you can use it without having to customize and train. It leverages [Azure Computer Vision OCR service](https://docs.microsoft.com/azure/search/cognitive-search-skill-ocr), which can process an image to extract printed or handwritten text.
 
