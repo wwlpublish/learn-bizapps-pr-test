@@ -46,8 +46,8 @@ the displayed format.
     property is set to **DateTimeFormat.ShortDate**.
 
 6.  Update the Format property to be **DateTimeFormat.LongDate**. This
-    will change the display from the format of 6/30/2019 to Sunday, June
-    30, 2019.
+    will change the display from the format of 6/30/2020 to Sunday, June
+    30, 2020.
 
 Another common request is to change the date format property from the
 format of month/day/year to day/month/year. This can be accomplished by
