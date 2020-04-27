@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.summary-resources
+title: Summary and resources
+metadata:
+  title: Summary and resources
+  description: "Summary and resources"
+  ms.date: 04/30/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 2
+content: |
+  [!include[](includes/7-summary-resources.md)]
