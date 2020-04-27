@@ -1,13 +1,13 @@
 ### YamlMime:LearningPath
-uid: learn-dynamics.bring-ai
+uid: learn-bizapps.bring-ai
 metadata:
   title: Bring AI to your business with AI Builder
   description: Learn how to bring AI Builder to your business.
-  ms.date: 4/21/2020
-  author: KevSch
-  ms.author: kschimke
+  ms.date: 4/27/2020
+  author: heyrob
+  ms.author: robde
   ms.topic: interactive-tutorial
-  ms.prod: learning-d365-business-central
+  ms.prod: learning-d365-ai-builder
 title: Bring AI to your business with AI Builder
 summary: |
   [!include[](../../includes/lp-banner.md)]
@@ -23,7 +23,7 @@ roles:
 products:
 - ai-builder
 modules:
-- learn-dynamics.get-started-with-ai-builder
-- learn-dynamics.manage-models-in-ai-builder
+- learn-bizapps.get-started-with-ai-builder
+- learn-bizapps.manage-models-in-ai-builder
 trophy: 
-  uid: learn-dynamics.bring-ai.trophy
+  uid: learn-bizapps.bring-ai.trophy
