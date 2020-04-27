@@ -52,5 +52,5 @@ the displayed format.
 Another common request is to change the date format property from the
 format of month/day/year to day/month/year. This can be accomplished by
 manually setting the **Format** property of the control to "dd/mm/yyyy". 
-For additional information about how to format the **Text** function, see 
+For more information about how to format the Text function, see 
 [Power Apps Text function](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-text).

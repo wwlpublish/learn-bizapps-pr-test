@@ -21,15 +21,14 @@ control. For this example, if the sum of the two **TextInput** controls
 is greater than 50, then the color will be DarkGreen, if not then the
 color will be DarkRed.
 
-When setting the Color property in Power Apps there are a few options.
+When setting the Color property in Power Apps, there are a few options.
 You can provide a color object, as shown in the example, by using
 Color.Orange or any of the predefined colors in Power Apps. There is also
 a ColorValue and an RGBA function available. For more information, see
 [Power Apps Color enumeration and functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-colors).
 
 Another concept that can be applied is to reference the **Text**
-property to determine the **Color** property. If your app needs to
-always show PASS in DarkGreen and FAIL in DarkRed then you can use the
+property to determine the **Color** property. If your app needs to always show PASS in DarkGreen and FAIL in DarkRed, then you can use the
 following logic. Instead of repeating the same **If** logic in both
 properties you can reference one property in another. Try replacing the
 formula in the **Color** property.
