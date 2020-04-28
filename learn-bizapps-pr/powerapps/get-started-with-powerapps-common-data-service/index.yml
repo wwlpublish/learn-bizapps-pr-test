@@ -9,7 +9,9 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Get started with Common Data Service
-summary: Common Data Service lets you securely store and manage data that's used by business applications. Standard and custom entities within Common Data Service provide a secure and cloud-based storage option for your data.
+summary: |
+    [!include[](../includes/module-banner.md)]
+    Common Data Service lets you securely store and manage data that's used by business applications. Standard and custom entities within Common Data Service provide a secure and cloud-based storage option for your data.
 abstract: |
     In this module, you will:
     - Create entities with Common Data Service
