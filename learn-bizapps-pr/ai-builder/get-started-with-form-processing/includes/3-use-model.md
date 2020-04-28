@@ -11,8 +11,7 @@ about your newly trained model on a details page.
 To quickly see your model in action, select **Quick test**.
 
 Drag and drop or upload an image from your device to test. If you are
-using sample data, you can go to the **AIBuilder_Lab\Lab
-Images\FormProcessing_Invoices\Test** folder for a test image.
+using sample data, you can go to the **AI Builder Form Processing Sample Data\Invoices Version 2\Train** folder for a test image.
 
 You will now be able to view the detected fields that you chose and the
 associated confidence scores for retrieving the individual fields
@@ -71,7 +70,7 @@ results of your model.
 
 1.  Select **Use model**.
 2.  Select **Create new flow** to begin the flow creation experience.
-3.  Make sure you are logged in in flow and click **Continue** to confirm the creation of the flow. 
+3.  Make sure you are logged in flow and click **Continue** to confirm the creation of the flow. 
 
 ![screenshot](../media/image8.png)
 
