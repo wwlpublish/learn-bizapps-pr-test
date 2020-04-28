@@ -24,11 +24,11 @@ prerequisites: |
     - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial
 iconUrl: /learn/achievements/get-started-with-ai-builder-sentiment-analysis.svg  
 levels:  
-- intermediate   
+- beginner   
 roles:  
-- functional-consultant  
-products:  
-- dynamics  
+- maker
+- business-user
+products:    
 - ai-builder 
 units: 
 - learn-bizapps.get-started-with-ai-builder-sentiment-analysis.1-introduction
