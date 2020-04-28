@@ -48,7 +48,7 @@ instead of evaluating a **Context Variable** you decided to use the
 **Label** (Label2). The **DisplayMode** property for your **Clear**
 button would now look like the following.
 
-```
+```powerappsfl
 If(Value(Label2.Text) > 0, DisplayMode.Edit, DisplayMode.Disabled) 
 ```
 

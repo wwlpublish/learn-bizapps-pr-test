@@ -10,5 +10,6 @@ metadata:
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 10 
-content: | 
+content: |
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/2-learn-about-entities.md)]  
