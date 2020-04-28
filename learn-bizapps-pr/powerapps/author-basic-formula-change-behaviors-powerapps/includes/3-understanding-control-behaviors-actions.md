@@ -53,12 +53,12 @@ A very simple but popular example of using the **Button** control is
 to change screens when the button is selected. This can be accomplished
 using the following formula.
 
-```
+```powerappsfl
 Navigate(Screen2,ScreenTransition.Cover)
 ```
 
 
-![Navigate_Button](../media/Navigate_Button.png)
+![Navigate_Button](../media/navigate_button.png)
 
 In the example above, the **OnSelect** property for the **Button1**
 control triggers the **Navigate** function. Now, when a user selects the
