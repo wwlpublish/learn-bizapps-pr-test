@@ -7,7 +7,7 @@ metadata:
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
- ms.prod: learning-d365-ai-builder  
+ ms.prod: learning-ai-builder  
 title: Get started with AI Builder Sentiment Analysis 
 summary: |  
   [!include[](../includes/module-banner.md)] 
@@ -22,7 +22,7 @@ prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
     - [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial
-iconUrl: /learn/achievements/get-started-with-ai-builder-sentiment-analysis.svg  
+iconUrl: /learn/achievements/get-started-with-sentiment-analysis.svg  
 levels:  
 - beginner   
 roles:  
@@ -30,6 +30,7 @@ roles:
 - business-user
 products:    
 - ai-builder 
+- power-platform
 units: 
 - learn-bizapps.get-started-with-ai-builder-sentiment-analysis.1-introduction
 - learn-bizapps.get-started-with-ai-builder-sentiment-analysis.2-solve-problems
@@ -37,4 +38,4 @@ units:
 - learn-bizapps.get-started-with-ai-builder-sentiment-analysis.4-check
 - learn-bizapps.get-started-with-ai-builder-sentiment-analysis.5-summary 
 badge: 
-  uid: learn-bizapps.get-started-with-ai-builder-sentiment-analysis.badge 
+  uid: learn-bizapps.get-started-with-sentiment-analysis.badge 
