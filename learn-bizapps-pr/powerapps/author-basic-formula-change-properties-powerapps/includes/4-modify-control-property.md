@@ -25,16 +25,16 @@ information is displayed and consumed by users.
 
 1.  Add a **Dropdown** control to your canvas app.
 
-	> Select **Dropdown** and change the **Items** property from **DropDownSample** to Table({Position:\"Top\"},{Position:\"Bottom\"},{Position:\"Middle\"})
+	> Select **Dropdown** and change the **Items** property from **DropDownSample** to Table({Position:"Top"},{Position:"Bottom"},{Position:"Middle"})
 
 2.  On the **Insert** tab, click **Icons** and select the **Check**
     icon.
 
 3.  Set the **Y** property for the **Check** icon.
 
-```
-If(Dropdown1.Selected.Position ="Top",150,Dropdown1.Selected.Position = "Bottom",650,400)
-```
+    ```
+    If(Dropdown1.Selected.Position ="Top",150,Dropdown1.Selected.Position = "Bottom",650,400)
+    ```
 
 4.  Test the formula. Select each position from the drop-down menu.
     Notice that the **Check** icon changes its Y position.

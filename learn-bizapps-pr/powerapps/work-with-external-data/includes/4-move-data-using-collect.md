@@ -33,16 +33,12 @@ data source for each record in the collection:
 -   Your data source must not have required columns that your collection
     doesn't have.
 
-**Tip**: If necessary, you can use these functions to transform your collection 
-so that the columns match your data source.
-
--   AddColumns
-
--   DropColumns
-
--   RenameColumns
-
--   ShowColumns
+> [!Tip] 
+> If necessary, you can use these functions to transform your collection so that the columns match your data source.
+> -   AddColumns
+> -   DropColumns
+> -   RenameColumns
+> -   ShowColumns
 
 For more information, see [AddColumns, DropColumns, RenameColumns, and ShowColumns functions in Power Apps.](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-table-shaping)
 

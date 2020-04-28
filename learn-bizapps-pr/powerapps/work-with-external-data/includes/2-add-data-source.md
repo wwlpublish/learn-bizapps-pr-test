@@ -16,19 +16,16 @@ control.
 1.  On the **Insert** tab, select **Gallery**, and then select the
     option for a vertical gallery.
 
-2.  In the properties pane, select the drop-down menu for the **Items**
+2.  In the properties pane, select the drop-down menu for the **Data source**
     property.
-
-3.  In the list that appears, select **Add a data source**.
 
     ![Add-Tabular-Data-Source](../media/add-tabular-data-source.png)
 
-4.  In the **Data** pane, select **New connection**.
+4.  In Search box type **SharePoint** and select **SharePoint** from the list. You could have also expanded **Connectors** and scrolled through all the available connectors until you found the **SharePoint** connector.
 
-5.  Scroll through the list until SharePoint appears, and then select
-    it.
+5.  Select **+ Add a connection**.
 
-6.  At the bottom of the **Data** pane, click **Create**.
+6.  At the bottom of **Connect to data**, click **Connect**.
 
 	> In order to connect to an on-premises SharePoint server, you need to have selected the on-premises data gateway.
 
@@ -39,7 +36,9 @@ control.
     -   Type or paste the site's URL, select **Go**, and then select the
         list that you want to use.
 
-8.  Select **Connect**.
+8.  Under **Choose a list**, select the list or lists you want to connect to. 
+
+9.  Select **Connect**.
 
 You have connected to your SharePoint list, and you can display the data
 in the gallery control.
@@ -54,24 +53,21 @@ will be available throughout your app.
 
 2.  In the ribbon, select **Data sources**.
 
-3.  In the **Data** pane, select **Add data source**.
+3.  In the **Data** pane, type **Office** in Search and select **Office 365 Outlook** from the list. You could have also expanded **Connectors** and scrolled through all the available connectors until you found the **Office 365 Outlook** connector.
 
 	> ![Add Data Source](../media/add-data-source.png)
 
-4.  In the **Data** pane, select **New connection**.
+4.  Select **+ Add a connection** and then select **Connect**.
 
-5.  Scroll through the list until Office 365 Outlook appears, select it,
-    and then select **Create**.
-
-6.  After your data source is added, close the **Data** pane by
-    selecting the close icon (X) above **Add data source**.
+5.  After your data source is added, close the **Data sources** pane by
+    selecting the close icon (X) to the right of **Data sources**.
 
 Now the Office 365 Outlook data source is available for use in your app.
 
 To send an email, add a button control to your app, and set its
 **OnSelect** property to the highlighted formula:
 
-![Office 365 Outlook formula](../media/Office365Outlookformula.png)
+![Office 365 Outlook formula](../media/office365-outlook-formula.png)
 
 This formula will do the following.
 

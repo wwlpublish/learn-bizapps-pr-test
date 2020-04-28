@@ -13,15 +13,15 @@ collection named collectCustomerInvoices.
 
 | ID                  | Date                 | CustomerName    | Amount          |
 | :-------------------| :------------------- | :---------------| :---------------|
-| 1                   | 4/10/2019            | Fabrikam        | 212.00          |
-| 2                   | 3/1/2019             | Contoso         | 47.89           |
-| 3                   | 3/14/2019            | Contoso         | 32.99           |
-| 4                   | 4/2/2019             | Fabrikam        | 105.32          |
+| 1                   | 4/10/2020            | Fabrikam        | 212.00          |
+| 2                   | 3/1/2020             | Contoso         | 47.89           |
+| 3                   | 3/14/2020            | Contoso         | 32.99           |
+| 4                   | 4/2/2020             | Fabrikam        | 105.32          |
 
 Use the following filter formula to return all of the records where the
 **CustomerName** field is Contoso.
 
-```
+```powerappsfl
 Filter(collectCustomerInvoices, CustomerName = "Contoso")
 ```
 
