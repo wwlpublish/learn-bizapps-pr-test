@@ -16,37 +16,37 @@ To create a flow that detects language of an email and then routes it to a speci
 
 3.  Pick a name for your flow and then select **When a new email arrives** as your flow's trigger.
 
-![Select When a new email arrives](../media/image1.png)
+    ![Select When a new email arrives](../media/image1.png)
 
 4.  Select **Create** and then **New Step**.
 
 5.  Search for the **Predict** action and then select it.
 
-![Search for the Predict action](../media/image2.png)
+    ![Search for the Predict action](../media/image2.png)
 
 6.  Select **LanguageDetection model** from the **Model** drop-down menu, and then select **Body** (or **Body** and **Subject**) from the dynamic content from previous steps.
 
-![Select Body](../media/image3.png)
+    ![Select Body](../media/image3.png)
 
 7.  Select **New Step** and search for **Condition** **Control**.
 
-![Search for Condition Control](../media/image4.png)
+    ![Search for Condition Control](../media/image4.png)
 
 8.  Select **Response Results Language** in the **Select output from previous steps** field.
 
-![Select Response Results Language](../media/image5.png)
+    ![Select Response Results Language](../media/image5.png)
 
 9.  Select **Condition** and then enter **FR** (for French), **EN** (for English), **DE** (for German), and so on, to select what language you want to route to a particular email. For a full list of supported languages, refer to the "Name of Resource" documentation.
 
-![Select Condition](../media/image6.png)
+    ![Select Condition](../media/image6.png)
 
 10. Scroll down the page and, under the **If Yes** condition, add the **Send an Email** action. Select a trigger according to your preferred email provider.
 
-![Add the Send an email option](../media/image7.png)
+    ![Add the Send an email option](../media/image7.png)
 
 11. Customize the **To**, **Subject**, and **Body** fields by using dynamic content, such as the content shown in the following image.
 
-![Customize the To, Subject, and Body fields](../media/image8.png)
+    ![Customize the To, Subject, and Body fields](../media/image8.png)
 
 12. Select **Save** and test the flow with a sample email.
 
