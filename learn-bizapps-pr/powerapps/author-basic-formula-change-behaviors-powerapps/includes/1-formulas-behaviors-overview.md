@@ -15,9 +15,9 @@ Let's take a look at how you can apply this formula to show and hide a button in
 1.	In your canvas app, add a Button control to the screen.
 
 2.	Set the OnSelect property for the button to be
-```powerappsfl
-ClearCollect(TestScoresCollection,{Name:"Student 1", TestScore:"B"},{Name:"Student 2", TestScore:"C"},{Name:"Student 3", TestScore:"A"},{Name:"Student 4", TestScore:"C"},{Name:"Student 5", TestScore:"A"})
-```
+    ```powerappsfl
+    ClearCollect(TestScoresCollection,{Name:"Student 1", TestScore:"B"},{Name:"Student 2", TestScore:"C"},{Name:"Student 3",TestScore:"A"},{Name:"Student 4", TestScore:"C"},{Name:"Student 5", TestScore:"A"})
+    ```
 3.	Hold the alt key on your keyboard and click the Button. (This will generate the TestScoresCollection)
 
 4.	Select **Gallery** from the ribbon **Insert tab**.
@@ -35,9 +35,9 @@ ClearCollect(TestScoresCollection,{Name:"Student 1", TestScore:"B"},{Name:"Stude
 10.	With the button still selected, click the properties drop down and select Visible.
 
 11.	In the formula box, enter the following code so that this button will only be visible for student grades lower than a B.
-```powerappsfl
-If(ThisItem.TestScore = "A" Or ThisItem.TestScore = "B",false,true)
-```
+    ```powerappsfl
+    If(ThisItem.TestScore = "A" Or ThisItem.TestScore = "B",false,true)
+    ```
 
 To quickly break this down, if the student gets a test score of an A or a B, they will not be able to see the button or retake the quiz. But if the student gets anything other than those two tests scores, they will be able to see the button and retake the quiz. We may be getting ahead of ourselves by using ThisItem as well as Or but doing so is common when building apps and is useful when building your own production apps. 
 
