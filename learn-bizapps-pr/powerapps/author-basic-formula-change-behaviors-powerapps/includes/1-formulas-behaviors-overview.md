@@ -30,7 +30,7 @@ Let's take a look at how you can apply this formula to show and hide a button in
 
 8.	Select the first row of the gallery and from the ribbon select Button.
 
-9.	Change the Button text property from Button to Retake Quiz.
+9.	Change the Button text property from Button to Retake Test.
 
 10.	With the button still selected, click the properties drop down and select Visible.
 
@@ -39,5 +39,5 @@ Let's take a look at how you can apply this formula to show and hide a button in
     If(ThisItem.TestScore = "A" Or ThisItem.TestScore = "B",false,true)
     ```
 
-To quickly break this down, if the student gets a test score of an A or a B, they will not be able to see the button or retake the quiz. But if the student gets anything other than those two tests scores, they will be able to see the button and retake the quiz. We may be getting ahead of ourselves by using ThisItem as well as Or but doing so is common when building apps and is useful when building your own production apps. 
+To quickly break this down, if the student gets a test score of an A or a B, they will not be able to see the button or retake the test. But if the student gets anything other than those two tests scores, they will be able to see the button and retake the test. We may be getting ahead of ourselves by using ThisItem as well as Or but doing so is common when building apps and is useful when building your own production apps. 
 
