@@ -10,6 +10,7 @@ metadata:
  ms.prod: learning-ai-builder  
 title: Get started with AI Builder
 summary: |  
+  [!include[](../includes/module-banner.md)]
   This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
 abstract: |  
     In this module, you will: 
