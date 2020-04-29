@@ -11,7 +11,7 @@ use the semicolon (;).
 Continuing with the previous example, add an **UpdateContext** function to
 the formula.
 
-```
+```powerappsfl
 UpdateContext( { x: 1 } ); Navigate(Screen2,ScreenTransition.Cover)
 ```
 
