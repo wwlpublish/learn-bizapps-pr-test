@@ -1,22 +1,22 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-with-ai-business-card-reader 
 metadata: 
- title: Get Started with AI Builder business card reader
- description: Learn about Ai Builder business card reader and how to use it in Microsoft Power Apps and Power Automate
+ title: Get Started with AI Builder Business card reader
+ description: Learn about Ai Builder Business card reader and how to use it in Microsoft Power Apps and Power Automate
  ms.date: 04/06/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-ai-builder  
-title: Get Started with AI Builder business card reader
+title: Get Started with AI Builder Business card reader
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn about Ai Builder business card reader and how to use it in Microsoft Power Apps and Power Automate
+  Learn about Ai Builder Business card reader and how to use it in Microsoft Power Apps and Power Automate
 abstract: |  
     In this module, you will: 
-    - Learn about AI Builder business card reader
-    - Discover how you can integrate AI Builder business card reader to Power Apps and Power Automate
-    - Create an app in Power Apps and add a business card reader to it
+    - Learn about AI Builder Business card reader
+    - Discover how you can integrate AI Builder Business card reader to Power Apps and Power Automate
+    - Create an app in Power Apps and add a Business card reader to it
     - Consume the extracted contact information from business cards
 prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
