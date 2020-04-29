@@ -10,6 +10,7 @@ metadata:
  ms.prod: learning-ai-builder 
 title: Introduction to AI Builder key phrase extraction 
 summary: |  
+  [!include[](../includes/module-banner.md)]
   Explore the AI Builder key phrase extraction model, and how to use it with other Power Platform products.
 abstract: |  
     In this module, you will: 
