@@ -10,6 +10,7 @@ metadata:
  ms.prod: learning-ai-builder  
 title: Manage models in AI Builder
 summary: |  
+  [!include[](../includes/module-banner.md)]
   Understand your model, model versions, and model sharing in AI Builder.
 abstract: |  
     In this module, you will: 
