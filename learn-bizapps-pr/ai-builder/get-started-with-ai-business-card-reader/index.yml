@@ -18,11 +18,6 @@ abstract: |
     - Discover how you can integrate AI Builder business card reader to Power Apps and Power Automate
     - Create an app in Power Apps and add a business card reader to it
     - Consume the extracted contact information from business cards
-    - Identify the product that you need to buy to receive AI Builder capacity
-    - Examine how you can purchase the product
-    - Identify how to manage the AI Builder capacity : assign, unassign
-    - Examine how you can check the AI Builder capacity assignment
-    - Distinguish the different ways to perform AI Builder action: Environment with AI Builder capacity assigned, or AI Builder Trial license at user level.
 prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)

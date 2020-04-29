@@ -7,7 +7,7 @@ metadata:
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
- ms.prod: learning-d365-ai-builder  
+ ms.prod: learning-ai-builder  
 title: Get started with AI Builder language detection 
 summary: | 
   [!include[](../includes/module-banner.md)] 
@@ -21,15 +21,15 @@ abstract: |
 prerequisites: |
   - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
   - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
-iconUrl: /learn/achievements/get-started-with-ai-builder.svg 
-iconUrl: /learn/achievements/get-sterted-with-ai-builder-language-detection.svg  
+iconUrl: /learn/achievements/get-sterted-with-language-detection.svg  
 levels:  
-- intermediate   
+- beginner   
 roles:  
-- functional-consultant  
+- maker
+- business-user
 products:  
-- dynamics  
 - ai-builder 
+- power-platform
 units: 
 - learn-bizapps.get-started-with-ai-builder-language-detection.1-intro-to-language-detection 
 - learn-bizapps.get-started-with-ai-builder-language-detection.2-business-problems-solved 
@@ -37,4 +37,4 @@ units:
 - learn-bizapps.get-started-with-ai-builder-language-detection.3a-check
 - learn-bizapps.get-started-with-ai-builder-language-detection.4-summary 
 badge: 
-  uid: learn-bizapps.get-started-with-ai-builder-language-detection.badge 
+  uid: learn-bizapps.get-started-with-language-detection.badge 
