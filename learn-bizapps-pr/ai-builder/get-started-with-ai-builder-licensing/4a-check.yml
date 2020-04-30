@@ -1,0 +1,67 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-with-ai-builder-licensing.4a-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/30/2020 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: d365-ai-builder 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: To use premium AIB feature, I only need to get AI Builder capacity.
+    choices: 
+    - content: This statement is true
+      isCorrect: false
+      explanation: You need to get access to a base Product, like Power Apps or Power Automate to access AI Builder.
+    - content: This statement is false
+      isCorrect: true
+      explanation: You need to get access to a base Product, like Power Apps or Power Automate to access AI Builder.
+  - content: With an AI Builder trial, I can access...
+    choices: 
+    - content: Only included scenarios (such as a preview)
+      isCorrect: false
+      explanation: With an AI Builder trial, you can access all included and premium features, but with limited capacity.
+    - content: Included scenarios and some premium features
+      isCorrect: false
+      explanation: With an AI Builder trial, you can access all included and premium features, but with limited capacity.
+    - content: All included and premium features, but with limited capacity
+      isCorrect: true
+      explanation: With an AI Builder trial, you can access all included and premium features, but with limited capacity.
+  - content: The name of the product to purchase to acquire additional AI Builder credits is...
+    choices: 
+    - content: AI Builder Credits Add On
+      isCorrect: false
+      explanation: The name of the product to purchase to acquire additional AI Builder credits is AI Builder Capacity Add On.
+    - content: AI Builder Capacity
+      isCorrect: false
+      explanation: The name of the product to purchase to acquire additional AI Builder credits is AI Builder Capacity Add On.
+    - content: AI Builder Capacity Add On
+      isCorrect: true
+      explanation: The name of the product to purchase to acquire additional AI Builder credits is AI Builder Capacity Add On.
+  - content: To estimate the number of add ons to purchase, I can use...
+    choices: 
+    - content: AI Builder Calculator
+      isCorrect: true
+      explanation: To estimate the number of add ons to purchase, you can use AI Builder Calculator.
+    - content: Excel, and try to guess the burning rate of each scenario
+      isCorrect: false
+      explanation: To estimate the number of add ons to purchase, you can use AI Builder Calculator.
+    - content: Azure Pricing Calculator
+      isCorrect: false
+      explanation: To estimate the number of add ons to purchase, you can use AI Builder Calculator.
+  - content: Allocation of AI Builder credits to an environment...
+    choices: 
+    - content: ...is not necessary, as credits can be consumed directly at tenant level.
+      isCorrect: false
+      explanation: Allocation of AI Builder credits to an environment happens in Power Platform Admin Center, and is mandatory to use purchased capacity.
+    - content: ...happens in Power Platform Admin Center and is mandatory to use purchased capacity.
+      isCorrect: true
+      explanation: Allocation of AI Builder credits to an environment happens in Power Platform Admin Center, and is mandatory to use purchased capacity.
+    - content: ...has to be redone at the beginning of each month.
+      isCorrect: false
+      explanation: Allocation of AI Builder credits to an environment happens in Power Platform Admin Center, and is mandatory to use purchased capacity.
