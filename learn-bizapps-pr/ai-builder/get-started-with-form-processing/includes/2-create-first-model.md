@@ -23,7 +23,7 @@ Progress will be saved automatically when you navigate between steps.
 If you want to use sample data, select **Get sample documents**.
 Download the **AI Builder Form Processing Sample Data.zip** file and extract it inside a folder
 on your computer. The documents that are used in this exercise are
-located in the **AI Builder Form Processing Sample Data\Invoices Version 2\Train ** folder.
+located in the **AI Builder Form Processing Sample Data\Invoices Version 2\Train** folder.
 
 ![Sample data documents](../media/image2.png)
 
