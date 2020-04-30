@@ -18,7 +18,8 @@ Resize the control to fit in the screen and insert on the top a label editing th
 
 Aside insert a text Input and change the "Default" property to TextRecognizer1.SelectedText.\
 
-[!NOTE:] You can retrieve all the texts recognized with TextRecognizer1.OcrObjects and binding it to a table.
+>[!NOTE:] 
+>You can retrieve all the texts recognized with TextRecognizer1.OcrObjects and binding it to a table.
 
 This will display the text manually selected by the user from the list of texts recognized by AI Builder.
 
