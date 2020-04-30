@@ -17,10 +17,10 @@ quiz:
     choices: 
     - content: This statement is true
       isCorrect: false
-      explanation: You need to get access to a base Product, like Power Apps or Power Automate to access AI Buidler.
+      explanation: You need to get access to a base Product, like Power Apps or Power Automate to access AI Builder.
     - content: This statement is false
       isCorrect: true
-      explanation: You need to get access to a base Product, like Power Apps or Power Automate to access AI Buidler.
+      explanation: You need to get access to a base Product, like Power Apps or Power Automate to access AI Builder.
   - content: With an AI Builder trial, I can access...
     choices: 
     - content: Only included scenarios (such as a preview)
