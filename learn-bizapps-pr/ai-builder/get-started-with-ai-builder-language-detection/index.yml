@@ -21,7 +21,7 @@ abstract: |
 prerequisites: |
   - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
   - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
-iconUrl: /learn/achievements/get-sterted-with-language-detection.svg  
+iconUrl: /learn/achievements/get-started-with-language-detection.svg  
 levels:  
 - beginner   
 roles:  
