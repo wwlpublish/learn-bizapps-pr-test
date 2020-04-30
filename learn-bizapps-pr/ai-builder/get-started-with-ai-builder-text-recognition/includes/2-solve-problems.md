@@ -10,7 +10,7 @@ Front line workers will take a picture of a product or an object that contains a
 
 **Example:**
 
-A car rental company's employee takes pictures of cars during checkout to report damages.vThe agent takes the picture, which is then be processed by AI Builder to extract the car license plate number. This number is used to get information about the car into CRM and display it to the agent. The agent records damages on the car, records the returned date,
+A car rental company's employee takes pictures of cars during checkout to report damages. The agent takes the picture, which is then be processed by AI Builder to extract the car license plate number. This number is used to get information about the car into CRM and display it to the agent. The agent records damages on the car, records the returned date,
 and then updates CRM.
 
 **Second scenario category: Person or product presence check**

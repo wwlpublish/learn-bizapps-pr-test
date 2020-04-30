@@ -10,6 +10,7 @@ metadata:
  ms.prod: learning-ai-builder  
 title: Get started with AI Builder
 summary: |  
+  [!include[](../includes/module-banner.md)]
   This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
 abstract: |  
     In this module, you will: 
@@ -31,6 +32,8 @@ roles:
 - maker
 products:    
 - ai-builder 
+- power-apps
+- power-automate
 units: 
 - learn-bizapps.get-started-with-ai-builder.1-intro-ai-builder 
 - learn-bizapps.get-started-with-ai-builder.2-choose-ai-capability 
