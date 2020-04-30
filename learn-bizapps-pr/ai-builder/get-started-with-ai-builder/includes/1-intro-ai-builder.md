@@ -1,12 +1,5 @@
 Welcome to AI Builder. This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
 
-## Learning objectives
-In this module, you will:
-- Explore how AI Builder can improve your business performance.
-- Learn how to use different AI technologies to enhance your processes.
-- Create your first model.
-- Learn how to use your models in Power Apps and Power Automate.
-
 ## AI Builder defined
 
 AI Builder is a Power Platform capability that helps you improve your
