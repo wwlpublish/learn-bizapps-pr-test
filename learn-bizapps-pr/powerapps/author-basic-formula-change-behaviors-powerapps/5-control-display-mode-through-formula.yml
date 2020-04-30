@@ -4,12 +4,11 @@ title: Control the display mode through a formula
 metadata: 
   title: Control the display mode through a formula
   description: Control the display mode through a formula
-  ms.date: 03/19/2019 
-  author: KevSch
-  ms.author: kschimke 
+  ms.date: 04/27/2020 
+  author: DaveBeasley
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
-   
 durationInMinutes: 8 
 content: |
   [!include[](../includes/unit-banner.md)]

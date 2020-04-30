@@ -42,7 +42,7 @@ Use these functions to have a single form used for displaying, editing,
 and creating records. The way the user would toggle the modes is through
 a group of button controls placed on the screen.
 
-![New Form](../media/NewForm.png)
+![New Form](../media/new-form.png)
 
 Now you have allowed the user to stay on the same screen but interact
 with the data differently based on their needs. The SharePoint

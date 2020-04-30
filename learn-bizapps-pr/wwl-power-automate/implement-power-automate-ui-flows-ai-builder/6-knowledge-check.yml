@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 04/30/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 2
+quiz:
+  questions:
+  - content: "Which of the following statements is correct, regarding AI models?"
+    choices:
+    - content: "You can use your published AI models, as well as some AI Builder prebuilt models in Power Automate."
+      isCorrect: true
+      explanation: "Correct. You can use your published AI models, as well as some AI Builder prebuilt models in Power Automate."
+    - content: "Only prebuilt AI models can be used with Power Automate, there is no mechanism to use your own AI models."
+      isCorrect: false
+      explanation: "Incorrect. You can use your published AI models, as well as some AI Builder prebuilt models in Power Automate."
+    - content: "You must create your own AI models to use with Power Automate, there are no prebuilt models."
+      isCorrect: false
+      explanation: "Incorrect. You can use your published AI models, as well as some AI Builder prebuilt models in Power Automate."
+  - content: "Which of the following statements is correct, regarding UI flows?"
+    choices:
+    - content: "UI flows can be used to automate only Windows based applications."
+      isCorrect: false
+      explanation: "Incorrect. UI flows can automate repetitive tasks in Windows and Web applications."
+    - content: "UI flows can automate repetitive tasks in Windows and Web applications."
+      isCorrect: true
+      explanation: "Correct. UI flows can automate repetitive tasks in Windows and Web applications."
+    - content: "UI flows can be used to automate only Web based applications."
+      isCorrect: false
+      explanation: "Incorrect. UI flows can automate repetitive tasks in Windows and Web applications."

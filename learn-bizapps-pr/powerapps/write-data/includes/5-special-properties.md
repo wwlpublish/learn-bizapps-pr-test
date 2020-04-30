@@ -28,8 +28,7 @@ formula in the **OnSelect** property of a **Button** control to achieve
 this.
 
 ```
-If(YourFormName.Unsaved = false, Navigate(WelcomeScreen,
-ScreenTransition.Cover))
+If(YourFormName.Unsaved = false, Navigate(WelcomeScreen, ScreenTransition.Cover))
 ```
 
 This function would check to see if the **Form** control named

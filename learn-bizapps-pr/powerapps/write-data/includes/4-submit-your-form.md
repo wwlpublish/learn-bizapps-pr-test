@@ -8,7 +8,7 @@ This function will take all of the data that is entered into the
 controls on your data cards and save it to the data source for the
 **Form** control. Each data card on your **Form** control has an **Update** property
 where the value or formula that will be used to update that field is
-specified. If you have unlocked your card you can modify that formula.
+specified. If you have unlocked your card, you can modify that formula.
 This is often unnecessary and only done in special circumstances.
 
 After you submit your form
@@ -38,8 +38,8 @@ Notify("Your data was not saved. Please try again or contact an administrator.",
 ```
 
 This function would display a red warning at the top of the screen with
-the message \"Your data was not saved. Please try again or contact an
-administrator.\" This message makes it easier for the user to resolve the issue.
+the message "Your data was not saved. Please try again or contact an
+administrator." This message makes it easier for the user to resolve the issue.
 
 ### OnReset property
 
@@ -58,6 +58,6 @@ the record by using the formula **FormName.LastSubmit** assuming your
 individual value by inserting a **Label** control into your app, and
 then using the formula **FormName.LastSubmit.ID** to return the
 **ID** property of the last record submitted using the **Form** control
-named **FormName**. This function is a very powerful concept as you
+named **FormName**. This function is a powerful concept as you
 start to build relational data where you need to know the value from a
 previous form submission. 

@@ -1,10 +1,10 @@
 In this unit, you will:
 
--   Create a model-driven app in Power Apps and add a Business card reader to it.
+- Create a model-driven app in Power Apps and add a Business card reader to it.
 
--   Extract contact information from business cards.
+- Extract contact information from business cards.
 
--   Create a new appointment record in CDS using the extracted contact information
+- Create a new appointment record in CDS using the extracted contact information
 
 The goal here is to speed up the process of creating an appointment using information from business cards. Users will extract contact information present in a business card and pre-fill the quick create appointment form with the contact information. You will build a model-driven Power App (See [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview)) and will use the Business card reader component (See [Use the business card reader in model-driven apps](https://docs.microsoft.com/ai-builder/business-card-reader-component-model-driven)).
 
@@ -13,7 +13,7 @@ The goal here is to speed up the process of creating an appointment using inform
 1. Use "Create" in Power Apps left menu. 
 2. Select "Canvas model-driven from blank".
 3. Name the canvas app "Contoso Business card reader".
-4. In the App designer, click to edit the "Site map", then edit the sub group. 
+4. In the App designer, click to edit the "Site map", then edit the sub-group. 
 5. Select a CDS entity related to the form we will create that will leverage the business card reader component. For this lesson, we will use the "Appointment" entity. 
 6. Click on "Save and close".
 
@@ -31,11 +31,11 @@ You have entered the edition of the form. You can now create a new field that wi
 3. Add the AI Builder business card by clicking on "+ Add component" 
 4. Choose the "AI Builder business card control". Set the following properties:
 
--   Business Card Reader Field: Business Card (Text)
+   - Business Card Reader Field: Business Card (Text)
 
--   Full Name Field: Subject (Text)
+   - Full Name Field: Subject (Text)
 
--   Address Street Field: Location (Text)
+   - Address Street Field: Location (Text)
 
 Once the component added, you should see a page similar to the following:
 

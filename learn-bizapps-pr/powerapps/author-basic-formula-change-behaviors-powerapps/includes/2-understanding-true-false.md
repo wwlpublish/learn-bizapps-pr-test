@@ -28,7 +28,7 @@ shows how to hide an **Icon** control based on the value of a
 2.  Insert an **Emoji-Smile Icon** control.
 
 3.  Set the **Visible** property of the **Icon** control to:
-    **Slider1.Value \>= 50**
+    **Slider1.Value >= 50**
 
 4.  Preview the app and move the slider value up and down. When
     the value is greater than or equal to 50, the Emoji-Smile Icon will
@@ -44,11 +44,10 @@ false.
 As you use true and false another handy function to incorporate can be
 the **Not** function. The **Not** function returns the opposite of the
 true or false. Use the following example to better understand the
-concept.
+concept:
 
- >2 + 2 = 4 evaluates to true
-
- >Not(2+2 = 4) evaluates to false
+- 2 + 2 = 4 evaluates to true
+- Not(2+2 = 4) evaluates to false
 
 2 + 2 = 4 evaluates to **true**. The same way that 2 + 2 = 5 evaluates
 to **false**. The **Not** function takes the outcome of the provided
@@ -62,7 +61,7 @@ false.
 
 1.  On the same canvas insert an **Emoji-Frown Icon** control.
 
-2.  Set the **Visible** property to: **Not(icon1.Visible)**
+2.  Set the **Visible** property to: **Not(Icon1.Visible)**
 
 3.  Preview the app and move the slider value up and down. When
     the value is greater than or equal to 50, the Emoji-Smile Icon will

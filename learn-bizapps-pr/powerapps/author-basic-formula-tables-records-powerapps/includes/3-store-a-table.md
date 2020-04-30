@@ -1,4 +1,4 @@
-In the previous examples the tables were only for use in the
+In the previous examples, the tables were only for use in the
 current context of the **Data** table or the **Dropdown** control. Often in
 your app, you will need to store those tables and use them in multiple
 places within the app. To do this, Power Apps has a table variable called
@@ -23,25 +23,25 @@ Create a collection
 You can create a collection named **collectMyFirstCollection** by using
 this formula.
 
-```
+```powerappsfl
 Collect(collectMyFirstCollection, {Name: "Shane", FavoriteColor:"Orange"})
 ```
 
 The collection would have a column named **Name** and another column
 named **FavoriteColor**. The collection would have one record (row) of
 data with Shane as the value of **Name** and Orange as the value for
-**FavoriteColor**. Notice the syntax is very similar to the **Table**
+**FavoriteColor**. Notice the syntax is similar to the **Table**
 function from earlier in this module.
 
 You could add another record to the collection by using this formula.
 
-```
+```powerappsfl
 Collect(collectMyFirstCollection, {Name: "Nicola", FavoriteColor:"Purple"})
 ```
 
 You can also add more than one record at a time by using this formula.
 
-```
+```powerappsfl
 Collect(collectMyFirstCollection, {Name: "Jeff", FavoriteColor:"Blue"}, {Name: "Chewy", FavoriteColor: "Red"})
 ```
 
@@ -66,7 +66,7 @@ To clear out the existing data from your collection before you add data,
 you can use the **ClearCollect** function. If you take the existing
 collection from the previous example, you can use this formula:
 
-```
+```powerappsfl
 ClearCollect(collectMyFirstCollection, {Name: "Fausto", FavoriteColor:"Green"})
 ```
 
@@ -80,6 +80,6 @@ You can also remove all the records from a collection by using the
 **Clear** function. This formula removes all the records from your
 collection but leaves your columns intact:
 
-```
+```powerappsfl
 Clear(collectMyFirstCollection)
 ``` 

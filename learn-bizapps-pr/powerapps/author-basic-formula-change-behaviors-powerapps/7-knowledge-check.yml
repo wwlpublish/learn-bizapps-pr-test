@@ -3,12 +3,11 @@ uid: learn-bizapps.change-behaviors.7-knowledge-check
 metadata: 
   title: Author a basic formula to change behaviors in a Power Apps canvas app knowledge check 
   description: Author a basic formula to change behaviors in a Power Apps canvas app knowledge check 
-  ms.date: 03/19/2019 
-  author: KevSch
-  ms.author: kschimke 
+  ms.date: 04/27/2020 
+  author: DaveBeasley
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
-   
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 

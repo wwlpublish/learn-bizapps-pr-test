@@ -24,9 +24,9 @@ the other arguments that you specify.
 
 **Elements of a table**
 
-![Column](../media/Column.png)
+![Column](../media/column.png)
 
-For the following examples this table will be assumed to be from a data
+For the following examples, this table will be assumed to be from a data
 source named YourInventory.
 
 **Records**
@@ -41,7 +41,7 @@ The most common way to retrieve a record from a table is to use the
 **LookUp** function. For example, to return the Bread record you would use
 the following formula.
 
-```
+```powerappsfl
 LookUp(YourInventory, Name = "Bread")
 ```
 
@@ -53,7 +53,7 @@ function is covered in detail later in this module.
 A *field* is an individual piece of information in a record. You can
 visualize this as a value in a column for a record.
 
-Just as with a control, you refer to a field of a record by using
+As with a control, you refer to a field of a record by using
 the decimal (.) operator on the record. For example, **LookUp(YourInventory,Name = "Bread").Price** 
 returns the value $ 4.95. You could display
 this output in a Label control or use it with other controls or
@@ -74,14 +74,14 @@ shown horizontally across the top:
 
 -   **Quantity on Order**
 
-The column\'s name reflects the fields in that column.
+The column's name reflects the fields in that column.
 
 All values within a column are of the same data type. In the above
-example, the \"Quantity on Hand\" column always contains a number and
-can't contain a string, such as \"12 units,\" for one record. The value
+example, the "Quantity on Hand" column always contains a number and
+can't contain a string, such as "12 units," for one record. The value
 of any field can also be *blank*.
 
-You might have referred to columns as \"fields\" in other tools. Sometimes
+You might have referred to columns as "fields" in other tools. Sometimes
 you need to reference an entire column for a function or control. An
 example of this is if you wanted to use the Name column to populate the
 choices in a drop-down control. You could reference the Name column by

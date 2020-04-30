@@ -1,5 +1,5 @@
 Another way to make your App more dynamic and intuitive to the user is
-to use the **IsBlank**, **IsEmpty**, **IsNumeric**, **IsToday**, and
+to use the **IsBlank**, **IsBlankOrError**, **IsEmpty**, **IsNumeric**, **IsToday**, and
 **IsMatch** functions. These functions allow for validation of the
 condition of a field, control, variable, or table. All these functions
 return true or false based on the results of their evaluation. This can
@@ -8,11 +8,13 @@ submit a form if a field is blank or if the field's data doesn't match
 the evaluation. The following is an overview of each function.
 
 -   **IsBlank** -- This function checks a field, property, or variable
-    to see if the result is blank. If the object is blank then the
+    to see if the result is blank. If the object is blank, then the
     function returns true.
 
+-   **IsBlankOrError** -- This function checks whether an expression is blank or results in an error, and returns true or false.
+
 -   **IsEmpty** -- This function checks a table of data to see if it
-    contains records. If the table is empty then the function returns
+    contains records. If the table is empty, then the function returns
     true.
 
 -   **IsMatch** -- This function checks a field, property, or variable
@@ -37,9 +39,9 @@ control is not a valid email address.
 
 3.  Modify the **DisplayMode** property of the **Button** control to the
     following formula.
-```
-If(IsMatch(TextInput1.Text, Email), DisplayMode.Edit,DisplayMode.Disabled)
-```
+    ```powerappsfl
+    If(IsMatch(TextInput1.Text, Email), DisplayMode.Edit,DisplayMode.Disabled)
+    ```
 
 4.  Preview the app by selecting the **Play** button in the upper-right corner.
 

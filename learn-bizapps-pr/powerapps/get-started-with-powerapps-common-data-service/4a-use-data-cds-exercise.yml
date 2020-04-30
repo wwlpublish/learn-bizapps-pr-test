@@ -11,4 +11,5 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 15 
 content: | 
+  [!include[](../includes/unit-banner.md)]
   [!include[](includes/4a-use-data-cds-exercise.md)]  

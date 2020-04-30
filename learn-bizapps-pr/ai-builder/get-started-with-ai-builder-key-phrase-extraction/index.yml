@@ -1,26 +1,27 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-with-ai-builder-key-phrase-extraction 
 metadata: 
- title: Introduction to AI Builder Key Phrase Extraction 
- description: Explore the AI Builder key phrase extraction model, and how to use it with other Power Platform products.
+ title: Introduction to AI Builder Key phrase extraction 
+ description: Explore the AI Builder Key phrase extraction model, and how to use it with other Power Platform products.
  ms.date: 03/15/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
- ms.prod: learning-d365-ai-builder  
-title: Introduction to AI Builder Key Phrase Extraction 
+ ms.prod: learning-ai-builder 
+title: Introduction to AI Builder Key phrase extraction 
 summary: |  
-  Explore the AI Builder key phrase extraction model, and how to use it with other Power Platform products.
+  [!include[](../includes/module-banner.md)]
+  Explore the AI Builder Key phrase extraction model, and how to use it with other Power Platform products.
 abstract: |  
     In this module, you will: 
-    - Get introduced to the AI Builder key phrase extraction prebuilt AI model
-    - See how to use AI Builder key phrase extraction within Power Platform
-    - Explore business problems that can be solved with AI Builder key phrase extraction
-    - Develop a simple flow with Power Automate that leverages AI Builder key phrase extraction
+    - Get introduced to the AI Builder Key phrase extraction prebuilt AI model
+    - See how to use AI Builder Key phrase extraction within Power Platform
+    - Explore business problems that can be solved with AI Builder Key phrase extraction
+    - Develop a simple flow with Power Automate that leverages AI Builder Key phrase extraction
 prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
-iconUrl: /learn/achievements/get-started-with-ai-builder-key-phrase-extraction.svg  
+iconUrl: /learn/achievements/get-started-with-key-phrase-extraction.svg  
 levels:  
 - beginner   
 roles:
@@ -35,4 +36,4 @@ units:
 - learn-bizapps.get-started-with-ai-builder-key-phrase-extraction.3a-check
 - learn-bizapps.get-started-with-ai-builder-key-phrase-extraction.4-summary 
 badge: 
-  uid: learn-bizapps.get-started-with-ai-builder-key-phrase-extraction.badge 
+  uid: learn-bizapps.get-started-with-key-phrase-extraction.badge 

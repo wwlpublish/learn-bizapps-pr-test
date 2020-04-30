@@ -1,13 +1,6 @@
 Welcome to AI Builder. This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
 
-## Learning objectives
-In this module, you will:
-- Explore how AI Builder can improve your business performance.
-- Learn how to use different AI technologies to enhance your processes.
-- Create your first model.
-- Learn how to use your models in Power Apps and Power Automate.
-
-### AI Builder defined
+## AI Builder defined
 
 AI Builder is a Power Platform capability that helps you improve your
 business performance by automating processes and predicting outcomes. By using AI Builder, you can quickly bring AI to your apps and flows that connect to your business data that is stored in the underlying data platform (Common Data Service) or in various cloud data sources, such as SharePoint, OneDrive, or Azure.
@@ -20,7 +13,7 @@ Builder also provides prebuilt AI models, where you don't need to gather
 data to build and train the model. You can start to use the intelligence
 right away.
 
-### What can you do with AI Builder?
+## What can you do with AI Builder?
 
 You can use AI Builder to create custom AI models that suit the needs of
 your business, or you can choose from a selection of prebuilt models.
@@ -64,7 +57,7 @@ examples can help you think about how you can use AI in your business:
     negative sentiment, or certain key phrases. Use AI to identify
     problems, and then trigger the necessary workflows to take action.
 
-### Where you can use AI Builder
+## Where you can use AI Builder
 
 You can access AI Builder within  Power Apps and Power Automate.
 
@@ -76,6 +69,6 @@ There are two areas available under AI Builder in the left-side menu:
 
 -   **Models** - where your created and shared models reside.
 
-### What's next?
+## What's next?
 
 Now that you've learned a little about AI Builder, your next step is to gain in-depth knowledge about the available AI capabilities.

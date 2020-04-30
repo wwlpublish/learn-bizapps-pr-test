@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-started-with-ai-business-card-reader.3-build-flow 
-title: Acquire a premium AI Builder license 
+title: Build a Power Automate flow to leverage AI Builder business card reader
 metadata: 
-  title: Acquire a premium AI Builder license 
+  title: Build a Power Automate flow to leverage AI Builder business card reader
   description: Learn how to acquire a premium AI Builder license
   ms.date: 04/06/2020 
   author: heyrob 
   ms.author: robde 
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365-ai-builder 
-durationInMinutes: 20 
+durationInMinutes: 10 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/3-build-flow.md)] 

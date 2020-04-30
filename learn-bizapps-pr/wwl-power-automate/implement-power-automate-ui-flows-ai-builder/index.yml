@@ -1,0 +1,40 @@
+### YamlMime:Module
+uid: learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder
+metadata:
+  title: Implement robotic process automation with Microsoft Power Automate, Teams, UI flows, and AI Builder
+  description: "Implement robotic process automation with Microsoft Power Automate, Teams, UI flows, and AI Builder"
+  ms.date: 04/30/2020
+  author: wwlpublish
+  ms.author: ceperezb
+  ms.topic: interactive-tutorial
+  ms.prod: learning-flow
+title: Implement robotic process automation with Microsoft Power Automate, Teams, UI flows, and AI Builder
+summary: Automate your approval processes, infuse intelligence, and integrate legacy apps with Power Automate, UI flows, and AI Builder, which are all part of Microsoft Power Platform.
+abstract: |
+  In this module, you will:
+  - Create a Power Automate flow to automate routing and approval of an invoice.
+  - Use AI builder to create a prediction model to automatically parse information from sample invoice documents.
+  - Implement robotic process automation with UI flows to automate entry of information into a legacy application.
+prerequisites: |
+  - Familiarity with the basic concepts of Power Automate
+  - Be able to sign-in to Power Automate
+iconUrl: /learn/achievements/implement-rpa-power-automate-ui-flows-ai-builder.svg
+levels:
+- intermediate
+roles:
+- maker
+products:
+- office-teams
+- power-automate
+- power-platform
+- ai-builder
+units:
+- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.introduction
+- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.create-basic-flow-route-invoice-teams-channel
+- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.use-automatically-parse-information-offload-invoice-processing
+- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.use-power-automate-automate-routing-approval-process
+- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.use-ui-automation-enter-information-legacy-application
+- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.knowledge-check
+- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.summary-resources
+badge:
+  uid: learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.badge
