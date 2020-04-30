@@ -43,7 +43,7 @@ quiz:
     - content: AI Builder Capacity Add On
       isCorrect: true
       explanation: The name of the product to purchase to acquire additional AI Builder credits is AI Builder Capacity Add On.
-   - content: To estimate the number of add ons to purchase, I can use...
+  - content: To estimate the number of add ons to purchase, I can use...
     choices: 
     - content: AI Builder Calculator
       isCorrect: true
