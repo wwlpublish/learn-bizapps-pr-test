@@ -1,10 +1,6 @@
-In this unit, you will
--   Assess that the applications created previously are properly working
--   Demonstrate that Linda, the administrative representant, can log new container shipment requests
--   Demonstrate that John and Chanda, the docker workers, can update container's state after shipping and when receiving it
--   Demonstrate that Linda can track progress along the container's journey
+## Check work
 
-**To check that what you have created so far is working and can be released, we must fake a real world scenario and ensure that the entire flow can be achieved.**
+To check that what you have created so far is working and can be released, we must fake a real world scenario and ensure that the entire flow can be achieved.
 
 Linda receives a transport request from Fabrikam, Inc for container to be shipped from San Francisco to Delhi. She opens the "Contoso Container Tracking" application and uses the "New button".
 
@@ -35,4 +31,6 @@ Linda can now see that the container has been delivered to Delhi and can inform 
 
 ![Containers list](../media/image19.png)
 
-**You've now successfully tested that your business scenario is working end to end. You're now ready to release these applications to your users improving the way your company will run his business thanks to the magic of AI and the Power Platform!**
+## Summary
+
+You've now successfully tested that your business scenario is working end to end. You're now ready to release these applications to your users improving the way your company will run his business thanks to the magic of AI and the Power Platform!
