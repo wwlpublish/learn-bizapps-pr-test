@@ -24,11 +24,11 @@ products:
 - ai-builder
 modules:
 - learn-bizapps.get-started-with-form-processing
-- learn-bizapps.get-started-with-text-recognition
-- learn-bizapps.get-started-with-sentiment-analysis
-- learn-bizapps.get-started-with-business-card-reader
-- learn-bizapps.get-started-with-object-detection
-- learn-bizapps.get-started-with-language-detection
-- learn-bizapps.get-started-with-key-phrase-extraction
+- learn-bizapps.get-started-with-ai-builder-text-recognition
+- learn-bizapps.get-started-with-ai-builder-sentiment-analysis
+- learn-bizapps.get-started-with-ai-builder-business-card-reader
+- learn-bizapps.get-started-with-ai-builder-object-detection
+- learn-bizapps.get-started-with-ai-builder-language-detection
+- learn-bizapps.get-started-with-ai-builder-key-phrase-extraction
 trophy: 
   uid: learn-bizapps.improve-business-performance-ai-builder.trophy
