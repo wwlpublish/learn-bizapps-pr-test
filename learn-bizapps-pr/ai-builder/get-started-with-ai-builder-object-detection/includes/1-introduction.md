@@ -27,7 +27,7 @@ A company wants to monitor the use of its logo and its brand on social media.
 
 A company process images flagged with a specific hashtag and can detect the presence of their logo and see how it's being used. That process is run automatically through a flow.
 
-### Object recognition in a learning scenario.
+### Object recognition in a learning scenario
 
 A field agent takes a picture of a product. The product is recognized, and the manual and additional information is automatically retrieved.
 
