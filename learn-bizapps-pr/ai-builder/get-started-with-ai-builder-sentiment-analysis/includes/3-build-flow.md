@@ -1,11 +1,8 @@
-In this unit, you will:
--   Develop a simple flow with Power Automate that will use AI Builder Sentiment Analysis.
-
 In this exercise, you will be building a Power Automate flow that will check for sentiment in an email that you receive from your boss. Sentiment will be sent as a push notification to your mobile flow app. For more information, see [Create a flow in Power Automate](https://docs.microsoft.com/power-automate/get-started-logic-flow).
 
 The prerequisite for this exercise is to have Common Data Service and a Power Automate mobile app to receive push notifications. The mobile app is available for [Google Android](https://play.google.com/store/apps/details?id=com.microsoft.flow), [Apple iOS](https://itunes.apple.com/app/apple-store/id1094928825), and[Windows Phone](https://www.microsoft.com/p/microsoft-flow/9nkn0p5l9n84).
 
-**Create a flow that analyzes sentiment**
+### Create a flow that analyzes sentiment
 
 Power Automate comes with many templates to help get you started with creating flows. To create a flow by using a template, follow these steps:
 
@@ -27,4 +24,4 @@ Power Automate comes with many templates to help get you started with creating f
 
 Now, when emails arrive from your boss, you'll get a push notification with sentiment of the email on your phone.
 
-**You have now learned how to use AI Builder Sentiment Analysis by using Power Automate Template.**
+You have now learned how to use AI Builder Sentiment Analysis by using Power Automate Template.
