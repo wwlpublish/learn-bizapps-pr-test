@@ -23,7 +23,7 @@ roles:
 products:
 - ai-builder
 modules:
-- learn-bizapps.get-started-with-form-processing
+- learn-dynamics.get-started-with-form-processing
 - learn-bizapps.get-started-with-ai-builder-text-recognition
 - learn-bizapps.get-started-with-ai-builder-sentiment-analysis
 - learn-bizapps.get-started-with-ai-business-card-reader
