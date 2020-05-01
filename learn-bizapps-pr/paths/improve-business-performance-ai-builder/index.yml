@@ -1,0 +1,34 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.improve-business-performance-ai-builder
+metadata:
+  title: Improve business performance with AI Builder
+  description: Learn how to improve business performance with AI Builder.
+  ms.date: 5/01/2020
+  author: heyrob
+  ms.author: robde
+  ms.topic: interactive-tutorial
+  ms.prod: learning-ai-builder
+title: Improve business performance with AI Builder
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Do you want to bring AI to your business to improve your business performance? This learning path introduces you to AI Builder, teaches you how to build models, and explains how you can use them in Power Apps and Power Automate.
+prerequisites: |
+  - None
+iconUrl: /learn/achievements/improve-business-performance-ai-builder.svg
+levels:
+- beginner
+roles: 
+- maker
+- business-user
+products:
+- ai-builder
+modules:
+- learn-dynamics.get-started-with-form-processing
+- learn-bizapps.get-started-with-ai-builder-text-recognition
+- learn-bizapps.get-started-with-ai-builder-sentiment-analysis
+- learn-bizapps.get-started-with-ai-business-card-reader
+- learn-bizapps.get-started-with-ai-builder-object-detection
+- learn-bizapps.get-started-with-ai-builder-language-detection
+- learn-bizapps.get-started-with-ai-builder-key-phrase-extraction
+trophy: 
+  uid: learn-bizapps.improve-business-performance-ai-builder.trophy
