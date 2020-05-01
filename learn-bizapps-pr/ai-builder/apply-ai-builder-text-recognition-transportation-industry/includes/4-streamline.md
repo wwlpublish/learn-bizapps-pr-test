@@ -12,7 +12,7 @@ Let's enable John and Chandra to take a picture of a container and automatically
 
 Resize the control to fit in the screen and insert on the top a label editing the "Text" property to "Container Check-in" with blue background and white text centered.
 
-## Prove feeback
+## Prove feedback
 
 We need to provide feedback to the user on what has been recognized. Selected Insert on the bottom a new label changing the "Text" property to "Selected Container:".
 
