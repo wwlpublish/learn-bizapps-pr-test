@@ -1,14 +1,12 @@
-In this unit, you will
+## Create an entity
 
--   Determine how Common Data Service can store the data relevant to your business through Contoso example.
-
--   Experiment how to define the structure of this storage
-
-**As Linda, the first step is to create an entity that will store the data about the containers.** (See [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity))
+As Linda, the first step is to create an entity that will store the data about the containers. (See [Create a custom entity](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-create-entity))
 
 Go to <https://make.powerapps.com> and open the "Data" menu and "Entities" submenu. Now click the "+New Entity" button which will open a side panel to enter the information about the entity. We will use Container Shipment as display name and click on "Create".
 
-**The second step is to add fields that will store the data about each container.** As said in the introduction unit, we need to store several information about the container. We will create the following fields in this entity:
+## Add fields
+
+The second step is to add fields that will store the data about each container. As said in the introduction unit, we need to store several information about the container. We will create the following fields in this entity:
 
 ![Many-to-one relationship](../media/image2.png)
 
@@ -34,4 +32,6 @@ We end with following entity structure. (Some fields are automatically added by 
 
 You can add some customers in the Account table using the "Edit from Excel" button. (See [Open entity data in Excel](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-excel-addin) or [Import or export data from Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-import-export))
 
-**Now we have successfully created an entity that will store the information about the container. We are now ready to create the container tracking application.**
+## Summary
+
+We have successfully created an entity that will store the information about the container. We are now ready to create the container tracking application.
