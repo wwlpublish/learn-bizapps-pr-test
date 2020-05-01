@@ -1,26 +1,26 @@
 The goal here is to take a picture or upload an existing one from the file system and extract contact information present in the image. You will build a canvas Power App (See [What are canvas apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)) and will use the Business card reader component (See [Use the business card reader component in a canvas app](https://docs.microsoft.com/ai-builder/business-card-reader-component-in-powerapps)).
 
-## Create an application in Power Apps.
+## Create an application in Power Apps
 
 1. Use "Create" in the Power Apps left menu and then "Canvas app from blank". 
 2. Name the canvas app "Contoso Business card reader".
 3. Select "Phone". 
 4. Select "Create".
 
-### Enable users to automatically retrieve contact information from business cards.
+### Enable users to automatically retrieve contact information from business cards
 
 1. From the "Insert" menu and "AI Builder" bar choose "Business card reader". This is the control that will allow you to take or upload a picture and automatically recognize the container identifier. 
 2. Resize the control to fit in the screen.
 
     ![A screenshot of an automatically generated cell phone description](../media/image2.png)
 
-### Bind the contact information to an existing entity from CDS.
+### Bind the contact information to an existing entity from CDS
 
 1. Select "Insert a new Form in edition mode". 
 2. Change the "Default mode" property to "New" and the "Data source" property to the "Contacts" entity. 
 3. Once the "Data Source" property is set, three fields are automatically added to the form. Click on the "Fields" property and add other contact fields to the form. Business card reader can extract 18 different fields from business cards. In this example we will add the field "Website".
 
-### Bind the extracted contact information to the Form.
+### Bind the extracted contact information to the Form
 
 1. Go to each of the Data Cards of the form and, in the Advanced tab, click on "Unlock to change properties".
 
