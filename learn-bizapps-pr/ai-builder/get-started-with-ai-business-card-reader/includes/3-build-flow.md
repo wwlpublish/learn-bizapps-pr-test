@@ -17,7 +17,7 @@ Set the folder that Power Automate monitors for new incoming images.
 
 In this example, we set the "Folder" property of the "When a file is created" step to images folder.
 
-### Call AI Builder text recognition.
+### Call AI Builder text recognition
 
 1. Click on "New step". 
 2. Select "Predict -- Common Data Service (current environment)".
@@ -27,7 +27,7 @@ In this example, we set the "Folder" property of the "When a file is created" st
 
     ![Select Image and Image Type properties](../media/image7.png)
 
-### Save the result in the Contacts entity.
+### Save the result in the Contacts entity
 
 1. Select "New step", select "Create a new record--Common Data Service". 
 2. Select the environment where the contact should be created in the property "Environment". 
