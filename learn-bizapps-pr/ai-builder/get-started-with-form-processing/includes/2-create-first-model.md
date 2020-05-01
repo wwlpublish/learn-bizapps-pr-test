@@ -1,29 +1,29 @@
-Learn how to create a form processing model in AI Builder.
+Learn how to create a Form processing model in AI Builder.
 
-### Sign into AI Builder
+## Sign into AI Builder
 
 Follow these steps to sign into AI Builder:
 
 1.  Go to Power Apps or Power Automate and sign in with your
     organizational account.
 2.  In the left pane, select **AI Builder \> Build**.
-3.  Select **Form Processing**.
+3.  Select **Form processing**.
 4.  Enter a name for your model.
 5.  If you want to create your model by using your own documents, make
     sure that you have at least five examples that use the same layout.
     Otherwise, you can use sample data to create the model.
 6.  Select **Create**.
 
-### Add documents
+## Add documents
 
 This guided experience will walk you through each step of the model
 creation process. You can save your work and return later at any time.
 Progress will be saved automatically when you navigate between steps.
 
 If you want to use sample data, select **Get sample documents**.
-Download the **AI Builder Form Processing Sample Data.zip** file and extract it inside a folder
+Download the **AI Builder Form processing Sample Data.zip** file and extract it inside a folder
 on your computer. The documents that are used in this exercise are
-located in the **AI Builder Form Processing Sample Data\Invoices Version 2\Train** folder.
+located in the **AI Builder Form processing Sample Data\Invoices Version 2\Train** folder.
 
 ![Sample data documents](../media/image2.png)
 
@@ -34,7 +34,7 @@ located in the **AI Builder Form Processing Sample Data\Invoices Version 2\Train
 4.  After the upload has completed, select **Close**.
 5.  Select **Analyze**.
 
-### Select form fields
+## Select form fields
 
 By using the sample documents that you have uploaded, your model will
 begin to analyze the document layout to detect all the various form
@@ -68,10 +68,11 @@ If a field is not present on one of the documents, click on the option **Field n
 
 Once you are done selecting your fields:
 
-1.  Select Next.
-2.  Review the summary of your model's details. If everything looks acceptable, select Train.
-### Next steps
+1.  Select **Next**.
+2.  Review the summary of your model's details. If everything looks acceptable, select **Train**.
 
-Now that you've created a form processing model in AI Builder, you'll
+## Next steps
+
+Now that you've created a Form processing model in AI Builder, you'll
 learn how to test your model and use it in Power Apps and Power
 Automate.
