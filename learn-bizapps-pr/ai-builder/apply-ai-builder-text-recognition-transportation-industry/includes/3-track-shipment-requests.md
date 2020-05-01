@@ -26,7 +26,7 @@ We now need to the define the fields that will be provided by the user. On the o
 
 Save and close the window.
 
-## Track shipmenbt progress
+## Track shipment progress
 
 To track shipment progress, we need a view of all containers with their information and shipping state (See [Customize entity views](https://docs.microsoft.com/powerapps/developer/model-driven-apps/customize-entity-views)).
 
