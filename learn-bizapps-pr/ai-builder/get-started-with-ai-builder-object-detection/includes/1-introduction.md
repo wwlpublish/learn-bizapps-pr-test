@@ -11,7 +11,7 @@ When predicting, AI Builder Object detection will recognized the objects you sub
 
 AI Builder Object detection provides object recognition capabilities to makers. Fully integrated with the rest of business platform, you can accelerate manual workflow and automate a wide range of scenarios only achieved with human intervention today.
 
-### The first category of scenario is object counting.
+### The first category of scenario is object counting
 
 Front-line audit workers take a picture of a set of products on shelves. Object detection provides the count for each product on the picture. This information can be used to update the inventory management software.
 
