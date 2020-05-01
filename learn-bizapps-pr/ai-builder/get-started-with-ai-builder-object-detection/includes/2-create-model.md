@@ -1,9 +1,3 @@
-In this unit, you will:
-
--   Train a simple Object Detection model to recognize tea boxes
-
--   Test the model you created with additional images
-
 ### Sign into AI Builder
 
 Follow these steps to sign into AI Builder:
@@ -24,19 +18,19 @@ This guided experience will walk you through each step of the model creation pro
 
 If you want to use sample data, download the [**AIBuilder\_Lab.zip**](https://github.com/microsoft/PowerApps-Samples/blob/master/ai-builder/labs/AIBuilder_Lab.zip) file and extract it inside a folder on your computer. The documents that are used in this exercise are located in the **AIBuilder\_Lab\\Lab Images\\ObjectDetection\_Green Tea\\Train** folder.
 
-### Select domain
+## Select domain
 
 First you need to select the domain that applies to your model. A domain helps specialize the model algorithm for better accuracy. For the purpose of this exercise, select the default value ***Common objects*** and click ***Next**.*
 
 ![Select your model's domain](../media/image1.png)
 
-### Choose objects
+## Choose objects
 
 You need to define the objects you want to recognize. If you use our sample dataset, type the following object names: *Green Tea Cinnamon*, *Green Tea Mint*, *Green Tea Rose*. Otherwise, type the object names you want to recognize. Then click ***Next**.*
 
 ![Choose objects for your model to detect](../media/image2.png)
 
-### Add images
+## Add images
 
 1.  Select ***Add images***
 
@@ -58,7 +52,7 @@ In that step, you will have to tag your images. You can see which images have al
 
 1.  Click on an image to start tagging. You'll be presented with a fullscreen experience to do the tagging. The algorithm will suggest bounding boxes the objects in the picture that you can resize to adjust to your object.
 
-![Object tagging screen](../media/image5.png)
+    ![Object tagging screen](../media/image5.png)
 
 You can also click and drag to draw your own boxes.
 
@@ -72,6 +66,6 @@ You can follow the tagging progress on the right panel. You will need to tag at 
 
 4.  Review the summary of your model's details. If everything looks acceptable, select **Train**.
 
-### Next steps
+## Summary
 
 Now that you've created an object detection model in AI Builder, you'll learn how to test your model and use it in Power Apps and Power Automate.
