@@ -1,8 +1,7 @@
 Environments are an important consideration when you are trying to help secure and
 govern Power Apps and Power Automate usage. Environments act as a security
 container for apps and flows to run within. Every flow must be
-assigned to an environment. To avoid friction with makers who are creating
-flows, every licensed user belongs to the default environment and no method exists to prevent this friction. 
+assigned to an environment. Every licensed user belongs to the default environment. 
 
 Additional environments can be provisioned where opt-in access is possible. 
 A strategy that some organizations adopt includes [renaming the default environment](https://docs.microsoft.com/power-platform/admin/environments-administration?azure-portal=true#rename-your-environment) 
