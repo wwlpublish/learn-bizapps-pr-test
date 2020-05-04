@@ -65,10 +65,10 @@ in the following screenshot.
 
 	![Detail of select Click to add fields and forms hyperlink](../media/10-select-click-add-fields-and-forms-hyperlink.png)
 	
-	> [!NOTE]
-        > If you select **Click to add field and forms** link from Power Automate, you may see the classic UI.
-	> To see the modern UI, Open Power Apps in a new window and sign-in. On the left, select **Data** then **Entities**.
-	> Find and select the **Customer Check In entity**. Add the fields as listed in the next step.
+   > [!NOTE]
+   > If you select **Click to add field and forms** link from Power Automate, you may see the classic UI.
+   > To see the modern UI, Open Power Apps in a new window and sign-in. On the left, select **Data** then **Entities**.
+   > Find and select the **Customer Check In entity**. Add the fields as listed in the next step.
 
 1. Add fields to the collectcustomerinfo entity by selecting the **Add Field** button, as shown in the following screenshot.
   
