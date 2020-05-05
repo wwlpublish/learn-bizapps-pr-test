@@ -24,7 +24,7 @@ quiz:
     - content: Key words only 
       isCorrect: false
       explanation: The possible outputs of key phrase extraction models are one or multiple phrases.
-  - content: What are some of the business scenarios can be supported by key phrase extraction? 
+  - content: What are some of the business scenarios that can be supported by key phrase extraction? 
     choices: 
     - content: Analyzing customer feedback and surveys 
       isCorrect: false
