@@ -1,7 +1,3 @@
-In this unit, you will:
-
--   Develop a simple flow with Power Automate that uses AI Builder language detection.
-
 In this exercise, you will build a Power Automate flow that checks for the language of an email and then routes it to a specific email inbox. For more information, see the Create a flow in Power Automate documentation.
 
 The prerequisite for this exercise is to have Common Data Service in the environment where you are building your flow.
@@ -28,7 +24,7 @@ To create a flow that detects language of an email and then routes it to a speci
 
     ![Select Body](../media/image3.png)
 
-7.  Select **New Step** and search for **Condition** **Control**.
+7.  Select **New Step** and search for **Condition Control**.
 
     ![Search for Condition Control](../media/image4.png)
 
@@ -36,11 +32,11 @@ To create a flow that detects language of an email and then routes it to a speci
 
     ![Select Response Results Language](../media/image5.png)
 
-9.  Select **Condition** and then enter **FR** (for French), **EN** (for English), **DE** (for German), and so on, to select what language you want to route to a particular email. For a full list of supported languages, refer to the "Name of Resource" documentation.
+9.  Select **Condition** and then enter **FR** (for French), **EN** (for English), **DE** (for German), and so on, to select what language you want to route to a particular email.
 
     ![Select Condition](../media/image6.png)
 
-10. Scroll down the page and, under the **If Yes** condition, add the **Send an Email** action. Select a trigger according to your preferred email provider.
+10. Scroll down the page and, under the **If yes** condition, add the **Send an email** action. Select a trigger according to your preferred email provider.
 
     ![Add the Send an email option](../media/image7.png)
 
@@ -50,8 +46,8 @@ To create a flow that detects language of an email and then routes it to a speci
 
 12. Select **Save** and test the flow with a sample email.
 
-13. To change the flow, select **Edit** flow.
+13. To change the flow, select **Edit flow**.
 
 Now, when emails arrive in a specified language, they will be sent to the email that is specified in your flow.
 
-You have successfully completed this lesson on how to use AI Builder language detection in Power Automate.
+You have successfully completed this lesson on how to use AI Builder Language detection in Power Automate.
