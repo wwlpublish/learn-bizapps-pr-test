@@ -29,7 +29,7 @@ roles:
 products:  
 - power-automate  
 - power-platform
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.manage-environmental-changes.1-intro-best-practices 
 - learn-bizapps.manage-environmental-changes.2-prerequisites 
