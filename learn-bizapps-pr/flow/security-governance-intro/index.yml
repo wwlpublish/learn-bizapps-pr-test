@@ -28,7 +28,7 @@ roles:
 products:  
 - power-automate
 - power-platform 
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.security-governance-intro.1-introduction 
 - learn-bizapps.security-governance-intro.2-environments 

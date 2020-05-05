@@ -23,7 +23,7 @@ roles:
 - maker
 products:
 - power-platform
-- powerapps
+- power-apps
 modules:
 - learn-bizapps.intro-model-driven-apps-common-data-service
 - learn-bizapps.powerapps-common-data-service
