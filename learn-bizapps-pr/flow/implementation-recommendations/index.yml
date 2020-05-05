@@ -28,7 +28,7 @@ roles:
 products:   
 - power-automate 
 - power-platform
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.implementation-recommendations.1-introduction 
 - learn-bizapps.implementation-recommendations.2-prerequisites 

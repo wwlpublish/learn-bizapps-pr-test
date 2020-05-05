@@ -27,7 +27,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- powerapps
+- power-apps
 units: 
 - learn-bizapps.work-with-relational-data.1-relational-data 
 - learn-bizapps.work-with-relational-data.2-work-with-relationships 
