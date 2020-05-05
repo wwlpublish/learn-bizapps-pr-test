@@ -13,36 +13,36 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Do I need to provide training data to train language detection prebuilt model? 
+  - content: Do you need to provide training data to train the Language detection prebuilt model? 
     choices: 
-    - content: Yes.
+    - content: Yes
       isCorrect: false
-      explanation: Prebuilt models are ready to use out of the box.
+      explanation: Prebuilt models are ready to use out of the box
     - content: Prebuilt models do not need training data, they are ready to use out of the box.
       isCorrect: true
       explanation: Prebuilt models are ready to use out of the box.
-    - content: No, but you can improve it by adding more data. 
+    - content: No, but you can improve it by adding more data 
       isCorrect: false
       explanation: Prebuilt models are ready to use out of the box.
-  - content: What technology is used for the prebuilt language detection model?
+  - content: What technology is used for the prebuilt Language detection model?
     choices: 
-    - content: Power Automate only.
+    - content: Power Automate only
       isCorrect: false
-      explanation: Both Power Automate and Power Apps are used for the prebuilt language detection model.
-    - content: Power Apps only.
+      explanation: Both Power Automate and Power Apps are used for the prebuilt Language detection model.
+    - content: Power Apps only
       isCorrect: true
-      explanation: Both Power Automate and Power Apps are used for the prebuilt language detection model.
-    - content: Both Power Automate and Power Apps.
+      explanation: Both Power Automate and Power Apps are used for the prebuilt Language detection model.
+    - content: Both Power Automate and Power Apps
       isCorrect: false
-      explanation: Both Power Automate and Power Apps are used for the prebuilt language detection model.
-  - content: Language detection could be used in which of the following?
+      explanation: Both Power Automate and Power Apps are used for the prebuilt Language detection model.
+  - content: Language detection could be used in which of the following technologies?
     choices: 
-    - content: Power Automate only.
+    - content: Power Automate only
       isCorrect: false
       explanation: Language detection can be used in both Power Automate and Power Apps.
-    - content: Power Apps only.
+    - content: Power Apps only
       isCorrect: false
       explanation: Language detection can be used in both Power Automate and Power Apps.
-    - content: Both Power Automate and Power Apps.
+    - content: Both Power Automate and Power Apps
       isCorrect: true
       explanation: Language detection can be used in both Power Automate and Power Apps.
