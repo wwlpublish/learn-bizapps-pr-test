@@ -2,8 +2,9 @@ In the previous module, you generated the Flooring Estimates app and started to 
 
 This unit explains basic changes for each screen in the app. You can do a lot more to customize an app, but the best way to start learning is to take a generated app and make common customizations. This will allow you to become familiar with the controls, layouts, and functions.
 
-Before you begin, make sure to watch the video below for a brief overview of what to expect when customizing your app.
-**INSERT VIDEO HERE**
+Before you begin, watch the following video for a brief overview of what to expect when customizing your app.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vtmh]
 
 ## Browse screen
 The Flooring Estimates app already shows an image and some text for each product, but the layout could be better. 
