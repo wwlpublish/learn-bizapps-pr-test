@@ -22,5 +22,3 @@ The following app was created from a SharePoint list and lets you browse items i
 
 ## Build from a blank canvas
 You can also build an app from the ground up and add all the pieces as you go. You can then branch out and use your imagination. 
-
-

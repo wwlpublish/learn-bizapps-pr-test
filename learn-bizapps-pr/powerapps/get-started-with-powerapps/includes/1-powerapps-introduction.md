@@ -25,7 +25,7 @@ With Power Apps, you can:
 When it comes to using Power Apps to get things done and keep people informed, your options are nearly limitless. The following examples can help you think about how to use an app, instead of traditional paper notes, to run your business:
 
 - **Equipment in the field** - Often, company representatives who visit customers in the field carry clipboards to help guarantee a paper trail of parts with scheduled replacement dates. By running an app on a tablet, reps can look up the customer's equipment, see a picture of a part, test and analyze the part, and then order new parts. Reps can perform these tasks on-site instead of leaving the customer's warehouse.
-- **Restaurant employee management** - Employees of a large restaurant might fill out work schedules and vacation requests on a piece of paper that's affixed to a wall. With Power Apps running on everyone's smartphone, employees can simply open the app to record the same information, anywhere, any time. The app can even send reminders for the start of the next day's shift.
+- **Restaurant employee management** - Employees of a large restaurant might fill out work schedules and vacation requests on a piece of paper that's affixed to a wall. With Power Apps running on everyone's smartphone, employees can open the app to record the same information, anywhere, anytime. The app can even send reminders for the start of the next day's shift.
 
 If you're a beginner with Power Apps, this module gets you going quickly; if you're familiar with Power Apps, it ties concepts together and fills in the gaps.
 

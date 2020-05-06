@@ -5,6 +5,9 @@ Keep in mind that you can use data from many other sources, including Microsoft 
 > [!NOTE]
 > Power Apps requires either an Office 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate.](https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus)
 
+Before you begin, watch this video for a brief overview of what to expect when creating your fist Power App.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vls4] 
 
 ## Connect to a data source
 
