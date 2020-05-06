@@ -16,6 +16,6 @@ If the feature is included, you don't need additional licensing; the base produc
 
 This standard is true for all preview features that are available in Power Apps or Power Automate. If a feature is in *preview* release status, it is treated as an included feature. In other words, you don't need a trial license or premium license to access them; you only need a Power Apps or Power Automate license.
 
-For premium features, you need an AI Builder license. This license allows you to access all AI Builder features, regardless of the base product in which this feature is embedded. Later, this module will describe the two types of AI Builder license: Trial and AI Builder add-on. It will also describe how each of the licenses are linked to a defined capacity.
+For premium features, you need an AI Builder license. This license allows you to access all AI Builder features, regardless of the base product in which this feature is embedded. Later, this module will describe the two types of AI Builder license: Trial and AI Builder add-on. It will also describe how each of the licenses is linked to a defined capacity.
 
 Now that you have been introduced to AI Builder licensing, you are aware of the differences between the base product and AI Builder features. Additionally, you are able to differentiate between the base product licenses and how to access AI Builder features, which can be included or required in a specific AI Builder license.
