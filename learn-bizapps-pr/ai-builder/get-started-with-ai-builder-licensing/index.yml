@@ -1,30 +1,30 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-with-ai-builder-licensing
 metadata: 
- title: Get Started with AI Builder licensing
+ title: Get started with AI Builder licensing
  description: Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.
  ms.date: 04/30/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-ai-builder  
-title: Get Started with AI Builder licensing
+title: Get started with AI Builder licensing
 summary: |   
   [!include[](../includes/module-banner.md)] 
   Learn about AI Builder licensing and how to buy and manage your AI Builder licenses.
 abstract: |  
     In this module, you will: 
-    - Learn about AI Builder as an add-on to your Power Platform license agreement
-    - Discover the two levels of licensing: Included and Premium
-    - Learn how included AI Builder features can be used
-    - Discover the different types of included AI Builder features
-    - Learn how premium AI Builder features can be used
-    - Review the different types of premium AI Builder features
-    - Identify the product that you need to buy to receive AI Builder capacity
-    - Learn how you can purchase the specific product add-on
-    - Identify how to manage the AI Builder capacity through assign and unassign
-    - Examine how you can check the AI Builder capacity assignment
-    - Distinguish the different ways to perform AI Builder action: Environment with AI Builder capacity assigned or AI Builder Trial license at user level.
+    - Learn about AI Builder as an add-on to your Power Platform license agreement.
+    - Discover the two levels of licensing: Included and Premium.
+    - Learn how included AI Builder features can be used.
+    - Discover the different types of included AI Builder features.
+    - Learn how premium AI Builder features can be used.
+    - Review the different types of premium AI Builder features.
+    - Identify the product that you need to buy to receive AI Builder capacity.
+    - Learn how you can purchase the specific product add-on.
+    - Identify how to manage the AI Builder capacity through assign and unassign.
+    - Examine how you can check the AI Builder capacity assignment.
+    - Distinguish the different ways to perform AI Builder actions.
 prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
