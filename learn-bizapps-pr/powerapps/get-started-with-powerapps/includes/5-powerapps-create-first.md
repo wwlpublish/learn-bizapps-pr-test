@@ -1,10 +1,13 @@
-﻿In this unit, you'll generate a mobile app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook lists a company's inventory of flooring samples with pictures and prices.
+In this unit, you'll generate a mobile app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook lists a company's inventory of flooring samples with pictures and prices.
 
 Keep in mind that you can use data from many other sources, including Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server.
 
 > [!NOTE]
 > Power Apps requires either an Office 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate.](https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus)
 
+Before you begin, watch this video for a brief overview of what to expect when creating your fist Power App.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4vls4] 
 
 ## Connect to a data source
 
@@ -23,8 +26,10 @@ To connect to a data source, use the following procedure:
 
     Generated apps are always based on a single list or table, but you can add more data to the app later. The next three steps explain how to connect to the Excel workbook.
 
+1. Under **OneDrive for Business**, select **Create**.  
 1. Under **Connections**, select **OneDrive for Business** and browse to the file location.
     You might need to select **New Connection** to see the **OneDrive for Business** connection. 
+1. Under **Choose an Excel file**, select the **FlooringEstimates.xlsx** file.
 1. Under **Choose a table**, select the **FlooringEstimates** table. 
 1. Select **Connect** on the bottom right.
 
