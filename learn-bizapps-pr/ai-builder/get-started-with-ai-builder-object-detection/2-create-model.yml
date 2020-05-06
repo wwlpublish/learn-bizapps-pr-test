@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-started-with-ai-builder-object-detection.2-create-model 
-title: Create your first object detection model
+title: Create your first Object detection model
 metadata: 
-  title: Create your first object detection model
-  description: Learn how to create your first object detection model.
+  title: Create your first Object detection model
+  description: Learn how to create your first Object detection model.
   ms.date: 04/10/2020 
   author: heyrob 
   ms.author: robde 
