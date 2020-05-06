@@ -1,9 +1,3 @@
-In this unit, you will:
-
--   Learn about AI Builder as an add-on to your Power Platform license agreement.
-
--   Discover the two levels of licensing: Included and Premium.
-
 Before you begin this course, we recommend that you first see the **Get Started with AI Builder** module and read the "What is AI Builder?" content.
 
 AI Builder features are available through several Microsoft products, including Power Apps, Power Automate, and SharePoint, which are referred to as base products. Users of these base products can access specific AI features that are part of AI Builder.
@@ -22,8 +16,6 @@ If the feature is included, you don't need additional licensing; the base produc
 
 This standard is true for all preview features that are available in Power Apps or Power Automate. If a feature is in *preview* release status, it is treated as an included feature. In other words, you don't need a trial license or premium license to access them; you only need a Power Apps or Power Automate license.
 
-For premium features, you need an AI Builder license. This license allows you to access all AI Builder features, regardless of the base product in which this feature is embedded. Later, this module will describe the two types of AI Builder license: Trial and AI Builder add-on. It will also look at how each of the licenses are linked to a defined capacity.
+For premium features, you need an AI Builder license. This license allows you to access all AI Builder features, regardless of the base product in which this feature is embedded. Later, this module will describe the two types of AI Builder license: Trial and AI Builder add-on. It will also describe how each of the licenses is linked to a defined capacity.
 
-For now, pause and think about what you've learned so far.
-
-**Now that you have been introduced to AI Builder licensing, you are aware of the differences between the base product and AI Builder features. Additionally, you are able to differentiate between the base product licenses and how to access AI Builder features, which can be included or required in a specific AI Builder license.**
+Now that you have been introduced to AI Builder licensing, you are aware of the differences between the base product and AI Builder features. Additionally, you are able to differentiate between the base product licenses and how to access AI Builder features, which can be included or required in a specific AI Builder license.
