@@ -2,7 +2,7 @@
 uid: learn-bizapps.get-started-with-ai-builder-object-detection 
 metadata: 
  title: Get started with AI Builder Object detection
- description: Learn the basics of Object detection in AI Builder and how it can benefit your organization.
+ description: Learn the basics of AI Builder Object detection and how it can benefit your organization.
  ms.date: 04/10/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,10 +11,10 @@ metadata:
 title: Get started with AI Builder Object detection
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn the basics of Object detection in AI Builder and how it can benefit your organization.
+  Learn the basics of AI Builder Object detection and how it can benefit your organization.
 abstract: |  
     In this module, you will: 
-    - Explore how Object detection can save you time.
+    - Explore how object detection can help save time.
     - Create your first Object detection model.
     - Learn how to use your Object detection models in Power Apps and Power Automate.
 prerequisites: |
