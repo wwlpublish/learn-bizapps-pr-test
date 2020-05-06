@@ -16,7 +16,7 @@ Front-line audit workers take pictures of products on shelves. Object detection 
 
 **Example:**
 
-A consumer packaged goods company sends auditors to take pictures of their products on shelves for compliance detection. The auditor takes a picture, which will then be processed by AI Builder to extract the numbers of each product. Those numbers can be transmitted to the company in real-time to assess supermarket compliance.
+A consumer packaged goods company sends auditors to take pictures of their products on shelves for compliance detection. The auditor takes a picture, which will then be processed by AI Builder to extract the numbers of each product. Those numbers can be transmitted to the company in real time to assess supermarket compliance.
 
 ### Scenario 2 - Brand logo recognition
 
@@ -28,7 +28,7 @@ A company processes images that are flagged with a specific hashtag. Additionall
 
 ### Scenario 3 - Object recognition in a learning scenario
 
-A field agent takes a picture of a product. The product is recognized, and all manually-entered, additional information is automatically retrieved.
+A field agent takes a picture of a product. The product is recognized, and all manually entered, additional information is automatically retrieved.
 
 **Example:**
 
