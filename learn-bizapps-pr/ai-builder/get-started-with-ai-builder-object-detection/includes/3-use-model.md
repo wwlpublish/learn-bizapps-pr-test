@@ -35,7 +35,7 @@ Going forward, you can select **Insert > AI Builder** to view the list of AI Bui
 
     ![The Data Table component](../media/image8.png)
     
-    This action will auto-populate the data table with the list of objects that the model can recognize and their count in the image.
+    This action will auto populate the data table with the list of objects that the model can recognize and their count in the image.
 
 6.  Select **Play** in the upper right of the Power Apps studio to preview the app.
 
