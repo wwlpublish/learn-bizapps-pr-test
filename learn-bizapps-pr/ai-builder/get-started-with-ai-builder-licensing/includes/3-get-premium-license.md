@@ -28,7 +28,7 @@ AI Builder capacity is also included with some other first-party licenses such a
 
 You might want to check how many AI Builder credits that your tenant is entitled to, which is a simple process.
 
-Go to the Power Platform Admin Center and select **Analytics > Capacity**, or go to <https://admin.powerplatform.microsoft.com/analytics/capacity>.
+Go to the Power Platform admin center and select **Analytics > Capacity**, or go to <https://admin.powerplatform.microsoft.com/analytics/capacity>.
 
 The **Summary** tab contains a list of add-ons, including the AI Builder credits. The graph shows you the total number of credits that you own and, among them, the number of credits that have been assigned.
 
@@ -36,4 +36,4 @@ The **Summary** tab contains a list of add-ons, including the AI Builder credits
 
 In this case, the tenant owns one million credits (in other words, one AI Builder capacity add-on) and has assigned 300000 of them. A later lesson will explain how to assign credits.
 
-You now know that you need to buy the AI Builder Capacity add-on to get or add AI Builder credits to your tenant. Additionally, you have learned how to purchase the add-on: by asking your reseller, purchasing through your Enterprise Agreement, or using a direct channel on Dynamics 365 admin center. Finally, you are aware that a way to check the number of AI Builder credits that your tenant is entitled to is by going to the Power Platform Admin Center.
+You now know that you need to buy the AI Builder Capacity add-on to get or add AI Builder credits to your tenant. Additionally, you have learned how to purchase the add-on: by asking your reseller, purchasing through your Enterprise Agreement, or using a direct channel on Dynamics 365 admin center. Finally, you are aware that a way to check the number of AI Builder credits that your tenant is entitled to is by going to the Power Platform admin center.
