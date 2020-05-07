@@ -14,7 +14,7 @@ To complete the following steps, open the app that you want to share in **Edit**
 
     You must save an app to the cloud before you can share it.
 
-3. Select **Save** and then select **Share this app**.
+3. Select **Save** and then select **Share**.
 
 4. On the **Share** tab, specify the users or groups with whom you want to share the app. To add everyone in your organization, type **Everyone** and select **Everyone in Company Name**. If you need to share with a large group of users, a best practice is to share through an Azure Active Directory Security Group.
 
@@ -41,6 +41,6 @@ To complete the following steps, open the app that you want to share in **Edit**
 Basic information about permissions and licensing that you should be aware of are:
 
 - Users and contributors need permissions to any data connections and gateways that a shared app uses. Some permissions come implicitly with the app, but you must explicitly grant others. If you create an app based on Common Data Service, you must also ensure that the users with whom you share the app have the appropriate permissions for the entity or entities on which the app relies. Specifically, those users must belong to a security role that can perform tasks such as creating, reading, writing, and deleting relevant records. In many cases, you'll want to create one or more custom security roles with the exact permissions that users need to run the app. You can then assign a role to each user as appropriate.
-- People who have **Co-owner** permission also need a Power Apps P2 license to work directly with entities in Common Data Service.
+- People who have **Co-owner** permission also need a Power Apps Per app plan or Power Apps Per user plan to work directly with entities in Common Data Service.
 
 Sharing an app is simple, and it's a great way to make an app that you find useful available to people across your organization.
