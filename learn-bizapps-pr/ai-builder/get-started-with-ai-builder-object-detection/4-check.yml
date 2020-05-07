@@ -13,36 +13,36 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: 1.	How many object detection domains are available?
+  - content: How many Object detection domains are available?
     choices: 
-    - content: a.	One
+    - content: One
       isCorrect: false
-      explanation: Three object detection domains are available.
-    - content: b.	Two
+      explanation: Three Object detection domains are available.
+    - content: Two
       isCorrect: false 
-      explanation: Three object detection domains are available.
-    - content: c.	Three
+      explanation: Three Object detection domains are available.
+    - content: Three
       isCorrect: true
-      explanation: Three object detection domains are available.
-  - content: 2.	How many sample images per object do you need to train your model? 
+      explanation: Three Object detection domains are available.
+  - content: How many sample images for each object do you need to train your model? 
     choices: 
-    - content: a.	At least five 
+    - content: At least five 
       isCorrect: false
-      explanation: You need at least fifteen sample images per object do you need to train your model.
-    - content: b.	At least fifteen 
+      explanation: You need at least fifteen sample images for each object to train your model.
+    - content: At least fifteen 
       isCorrect: true
-      explanation: You need at least fifteen sample images per object do you need to train your model.
-    - content: c.	At least fifty  
+      explanation: You need at least fifteen sample images for each object to train your model.
+    - content: At least fifty  
       isCorrect: false
-      explanation: You need at least fifteen sample images per object do you need to train your model.
-  - content: 3.	What action is required to use your model in a canvas app?
+      explanation: You need at least fifteen sample images for each object to train your model.
+  - content: What action is required to use your model in a canvas app?
     choices: 
-    - content: a.	Quick test the model
+    - content: Quick test the model
       isCorrect: false
       explanation: You must first publish your model to use it in a canvas app.
-    - content: b.	Publish the model
+    - content: Publish the model
       isCorrect: true
       explanation: You must first publish your model to use it in a canvas app.
-    - content: c.	Tag the model
+    - content: Tag the model
       isCorrect: false
       explanation: You must first publish your model to use it in a canvas app.
