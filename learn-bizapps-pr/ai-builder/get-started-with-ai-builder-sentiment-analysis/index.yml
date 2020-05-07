@@ -15,7 +15,6 @@ summary: |
 abstract: |  
     In this module, you will: 
     - Learn about AI Builder Sentiment analysis.
-    - Learn how to use AI Builder Language detection within Power Platform.
     - Evaluate which business problems can be solved by AI Builder Sentiment analysis.
     - Develop a simple flow with Power Automate that will use AI Builder Sentiment analysis.
 prerequisites: |
