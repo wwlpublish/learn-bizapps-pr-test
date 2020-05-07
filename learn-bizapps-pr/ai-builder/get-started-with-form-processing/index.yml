@@ -14,12 +14,11 @@ summary: |
   Learn the basics of Form processing in AI Builder and how it can benefit your organization.
 abstract: |  
     In this module, you will: 
-    - Explore how automating document processing can save you time.
+    - Explore how automating document processing can help save time.
     - Create your first Form processing model.
     - Learn how to use your Form processing models in Power Apps and Power Automate.
 prerequisites: |
-    - A Power Apps or Power Automate
-      [license](https://go.microsoft.com/fwlink/?linkid=2085130)
+    - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
     - An [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
 iconUrl: /learn/achievements/get-started-with-form-processing.svg  
