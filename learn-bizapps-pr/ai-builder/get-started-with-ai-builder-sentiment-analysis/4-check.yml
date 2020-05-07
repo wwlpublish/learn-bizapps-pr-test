@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-started-with-ai-builder-sentiment-analysis.4-check
-title: Test your knowledge
+title: Check your knowledge
 metadata: 
-  title: Test your knowledge
-  description: Test your knowledge
+  title: Check your knowledge
+  description: Answer the following questions to see what you've learned.
   ms.date: 04/10/2020 
   author: heyrob 
   ms.author: robde 
@@ -13,34 +13,34 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What are the possible outputs of sentiment analysis models? 
+  - content: What are the possible outputs of Sentiment analysis models? 
     choices: 
     - content: Positive/negative 
       isCorrect: false
-      explanation: The possible outputs of sentiment analysis models are positive, negative, neutral, and mixed.
+      explanation: The possible outputs of Sentiment analysis models are positive, negative, neutral, and mixed.
     - content: Positive/negative/neutral 
       isCorrect: false
-      explanation: The possible outputs of sentiment analysis models are positive, negative, neutral, and mixed.
+      explanation: The possible outputs of Sentiment analysis models are positive, negative, neutral, and mixed.
     - content: Positive/negative/neutral/mixed 
       isCorrect: true
-      explanation: The possible outputs of sentiment analysis models are positive, negative, neutral, and mixed.
+      explanation: The possible outputs of Sentiment analysis models are positive, negative, neutral, and mixed.
     - content: Positive/negative/mixed 
       isCorrect: false
-      explanation: The possible outputs of sentiment analysis models are positive, negative, neutral, and mixed.
-  - content: What are some of the business scenarios can be supported by sentiment analysis?
+      explanation: The possible outputs of Sentiment analysis models are positive, negative, neutral, and mixed.
+  - content: Which of the following business scenarios can be supported by Sentiment analysis?
     choices: 
     - content: Analyzing customer feedback and surveys 
       isCorrect: false
-      explanation: Analyzing employee sentiments can be supported by sentiment analysis.
+      explanation: Analyzing employee sentiments can be supported by Sentiment analysis.
     - content: Analyzing social media  
       isCorrect: false
-      explanation: Analyzing employee sentiments can be supported by sentiment analysis.
+      explanation: Analyzing employee sentiments can be supported by Sentiment analysis.
     - content: Analyzing emails and other unstructured text 
       isCorrect: false
-      explanation: Analyzing employee sentiments can be supported by sentiment analysis.
+      explanation: Analyzing employee sentiments can be supported by Sentiment analysis.
     - content: Analyzing employee sentiments 
       isCorrect: true
-      explanation: Analyzing employee sentiments can be supported by sentiment analysis.
+      explanation: Analyzing employee sentiments can be supported by Sentiment analysis.
     - content: All of the above 
       isCorrect: false
       explanation: Analyzing employee sentiments can be supported by sentiment analysis.
