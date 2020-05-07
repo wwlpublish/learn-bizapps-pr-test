@@ -24,4 +24,13 @@ Microsoft Power Apps can help if you saved changes to an app that you shouldn't 
 
 When you restore a version of an app, the newly restored version gets a new, incremented version number and appears at the top of the list. A new version never overwrites a previous version.
 
+Note about Restoring and Publishing new version of Power App:
+After restoring a previous version, the restored version needs to be published before users will see the new version. 
+
+If for some reason you are not able to restore a previous version, you can try the following:
+
+- Make sure the App is not open in Power Apps Studio. If the app is open, you will not be able to restore the version.
+- Verify the version you would like to restore is not older than six months. At the current time, only app versions less than six months old can be restored. 
+
+
 
