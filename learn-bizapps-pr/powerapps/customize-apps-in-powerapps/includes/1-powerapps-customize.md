@@ -46,7 +46,7 @@ browse screen, so the process for changing them is also slightly different.
 
 1. On the right pane, select **Edit fields**.
 
-    ![Select Edit fields](../media/powerapps-edit-fields.jpg)
+    ![Select Edit fields](../media/powerapps-edit-fields.png)
 
 1. Drag the **Name** field to the top of the list of fields and then drag the **Image** field to the bottom.
 
