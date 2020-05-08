@@ -35,7 +35,7 @@ To save the result in the **Contacts** entity, follow these steps:
 2. Select the environment where the contact should be created in the **Environment** property. 
 3. Select the **Contacts** entity in the **Entity Name** property.
 
-You can map the **Contacts** entity fields to the extracted fields from the Business card reader model. Fields for first name, last name, address information, email, and so on are available. Currently, 18 fields are available.
+You can map the **Contacts** entity fields to the extracted fields from the Business card reader model. Fields for first name, last name, address information, email, and so on, are available. Currently, 18 fields are available.
 
 > [!NOTE]
 > You can also send the results by email, create a file in SharePoint, and more.
