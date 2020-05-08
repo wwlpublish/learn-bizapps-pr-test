@@ -1,5 +1,5 @@
 Form processing lets you read and save information from standard
-documents, such as invoices or tax documents. When you automate this
+documents such as invoices or tax documents. When you automate this
 process, you can save valuable time by reviewing, extracting,
 organizing, and saving the data automatically by using Power Apps and
 Power Automate.
