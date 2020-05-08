@@ -51,7 +51,7 @@ processing model.
     content, select one of the names from the **FormContent > Tables**
     property.
 
-![Select Fields or Tables property](../media/image6.png)
+    ![Select Fields or Tables property](../media/image6.png)
 
 7.  Select **Play** on the upper right of the Power Apps studio to
     preview the app.
