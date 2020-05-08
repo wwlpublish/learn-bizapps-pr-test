@@ -19,7 +19,7 @@ To run a sample app, follow these steps:
 
 	![Fundraiser sample app](../media/updated-fundraiser-app2.png)
 
-1. At the top of the page, select **Show Visual Filter** to show graphs and charts. This lets you see how donations to fundraisers are performing. In the next steps, you'll create a new fundraiser and sumbit a donation to that fundraiser.
+1. At the top of the page, select **Show Visual Filter** to show graphs and charts where you can see how donations to fundraisers are performing. In the next steps, you'll create a new fundraiser and submit a donation to that fundraiser.
 1. On the left pane, under **Fundraiser**, select **Fundraisers**.
 1. Select **+ New** to add a new fundraiser.
 1. Under the **General** tab, enter the following information:
