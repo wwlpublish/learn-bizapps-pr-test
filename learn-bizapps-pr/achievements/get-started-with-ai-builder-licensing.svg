@@ -11,9 +11,9 @@
             <feComposite in="shadowOffsetOuter1" in2="shadowInner" operator="out" result="shadowOffsetOuter1"></feComposite>
             <feColorMatrix values="0 0 0 0 0.821822822   0 0 0 0 0.831640661   0 0 0 0 0.835737288  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
         </filter>
-        <linearGradient x1="77.8299825%" y1="11.1997378%" x2="-99.6885927%" y2="253.807911%" id="linearGradient-4">
-            <stop stop-color="#FFFFFF" offset="0%"></stop>
-            <stop stop-color="#000000" stop-opacity="0.5" offset="100%"></stop>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-4">
+            <stop stop-color="#4E4E57" offset="0%"></stop>
+            <stop stop-color="#2E2E34" offset="100%"></stop>
         </linearGradient>
         <rect id="path-5" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
         <path d="M47.1698113,0 C73.2209788,0 94.3396226,21.1186439 94.3396226,47.1698113 C94.3396226,73.2209788 73.2209788,94.3396226 47.1698113,94.3396226 C21.1186439,94.3396226 0,73.2209788 0,47.1698113 C0,21.1186439 21.1186439,0 47.1698113,0 Z M47.1698113,3.77358491 C23.2027373,3.77358491 3.77358491,23.2027373 3.77358491,47.1698113 C3.77358491,71.1368854 23.2027373,90.5660377 47.1698113,90.5660377 C71.1368854,90.5660377 90.5660377,71.1368854 90.5660377,47.1698113 C90.5660377,23.2027373 71.1368854,3.77358491 47.1698113,3.77358491 Z" id="path-6"></path>
@@ -158,10 +158,11 @@
                             <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
                             <rect stroke="#F2F1F0" stroke-width="2.5" x="-1.25" y="-1.25" width="96.8396226" height="96.8396226" rx="48.4198113"></rect>
                         </g>
-                        <g id="Colors/Microsoft-365/BG-Solid-Badge" mask="url(#mask-2)">
+                        <g id="Colors/PowerApps/BG-Solid-1" mask="url(#mask-2)">
+                            <rect id="Rectangle" fill="url(#linearGradient-4)" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
                             <g id="Rectangle">
-                                <use fill="#0078D4" xlink:href="#path-5"></use>
-                                <use fill-opacity="0.4" fill="url(#linearGradient-4)" xlink:href="#path-5"></use>
+                                <use fill="#742774" xlink:href="#path-5"></use>
+                                <use fill-opacity="0.501092657" fill="#FFFFFF" xlink:href="#path-5"></use>
                             </g>
                         </g>
                     </g>
@@ -170,8 +171,8 @@
                             <use xlink:href="#path-6"></use>
                         </mask>
                         <use id="Boarder" fill="#0078D4" fill-rule="nonzero" xlink:href="#path-6"></use>
-                        <g id="Colors/Microsoft-365/Border" mask="url(#mask-7)" fill="#0076D7">
-                            <rect id="Microsoft-365/Border" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
+                        <g id="Colors/PowerApps/Border" mask="url(#mask-7)" fill="#752375">
+                            <rect id="Rectangle" x="0" y="0" width="94.3396226" height="94.3396226"></rect>
                         </g>
                     </g>
                 </g>
