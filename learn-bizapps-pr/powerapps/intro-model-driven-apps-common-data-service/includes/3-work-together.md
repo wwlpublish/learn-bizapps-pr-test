@@ -18,4 +18,4 @@ When creating model-driven apps, it's important to focus on three areas:
 - Defining business processes
 - Composing the app.
 
-More information on this is included in the Create relationships, business rules, calculations, and rollups in Common Data Service Learning Path and in [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview).
+More information on creating model-driven apps is included in the Create relationships, business rules, calculations, and rollups in Common Data Service Learning Path and in [Overview of building model-driven apps](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview).
