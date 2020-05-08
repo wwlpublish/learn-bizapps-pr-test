@@ -1,42 +1,48 @@
-The goal here is to take a picture or upload an existing one from the file system and extract contact information present in the image. You will build a canvas Power App (See [What are canvas apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started)) and will use the Business card reader component (See [Use the business card reader component in a canvas app](https://docs.microsoft.com/ai-builder/business-card-reader-component-in-powerapps)).
+Your goal for this exercise is to take a picture or upload an existing photo from the file system and extract contact information that is present in the image. You will then build a canvas app in Power Apps and use the Business card reader component. 
 
-## Create an application in Power Apps
+For more information, see the [What are canvas apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/canvas-apps/getting-started) and the [Use the Business card reader component in a canvas app](https://docs.microsoft.com/ai-builder/business-card-reader-component-in-powerapps) documentation.
 
-1. Use "Create" in the Power Apps left menu and then "Canvas app from blank". 
-2. Name the canvas app "Contoso Business card reader".
-3. Select "Phone". 
-4. Select "Create".
+### Create an application in Power Apps
+To create an application in Power Apps, follow these steps:
 
-### Enable users to automatically retrieve contact information from business cards
+1. Select **Create** in the Power Apps left menu and then select **Canvas app from blank**. 
+2. Name the canvas app **Contoso Business card reader**.
+3. Select **Phone**. 
+4. Select **Create**.
 
-1. From the "Insert" menu and "AI Builder" bar choose "Business card reader". This is the control that will allow you to take or upload a picture and automatically recognize the container identifier. 
-2. Resize the control to fit in the screen.
+### Enable automatic retrieval of contact information from business cards
+Follow these steps to give users the ability to automatically retrieve contact information from business cards:
+
+1. From the **Insert** menu and **AI Builder** bar, select **Business card reader**. This control will allow you to take or upload a picture and automatically recognize the container identifier. 
+2. Resize the control to fit the screen.
 
     ![A screenshot of an automatically generated cell phone description](../media/image2.png)
 
-### Bind the contact information to an existing entity from CDS
+### Bind the contact information to an existing entity from Common Data Service
+To bind the contact information to an existing entity from Common Data Service, follow these steps:
 
-1. Select "Insert a new Form in edition mode". 
-2. Change the "Default mode" property to "New" and the "Data source" property to the "Contacts" entity. 
-3. Once the "Data Source" property is set, three fields are automatically added to the form. Click on the "Fields" property and add other contact fields to the form. Business card reader can extract 18 different fields from business cards. In this example we will add the field "Website".
+1. Select **Insert a new Form in edition mode**. 
+2. Change the **Default mode** property to **New** and the **Data source** property to the **Contacts** entity. 
+3. After the **Data Source** property has been set, three fields are automatically added to the form. Select the **Fields** property and add other contact fields to the form. Business card reader can extract 18 different fields from business cards. For this example, you will add the **Website** field.
 
-### Bind the extracted contact information to the Form
+### Bind the extracted contact information to the form
+To bind the extracted contact information to the form, follow these steps:
 
-1. Go to each of the Data Cards of the form and, in the Advanced tab, click on "Unlock to change properties".
+1. Go to each of the form's data cards and, in the **Advanced** tab, select **Unlock to change properties**.
 
-    ![In the Advanced tab, click on Unlock to change properties.](../media/image3.png)
+    ![In the Advanced tab, select Unlock to change properties.](../media/image3.png)
 
-2. You can now change the default value of each Data Card to map the Business card reader extracted properties. You should set the following default values:
+2. You can now change the default value of each data card to map the Business card reader extracted properties. Set the following default values:
 
-   - Full Name\_DataCard1 "Default" property: "BusinessCardReader1.FullName"
+   - **Full Name\_DataCard1** - BusinessCardReader1.FullName
 
-   - Email\_DataCard1 "Default" property: "BusinessCardReader1.Email"
+   - **Email\_DataCard1** - BusinessCardReader1.Email
 
-   - Business Phone\_ DataCard1 "Default" property: "BusinessCardReader1.BusinessPhone"
+   - **Business Phone\_ DataCard1** - BusinessCardReader1.BusinessPhone
 
-   - Website\_ DataCard1 "Default" property: "BusinessCardReader1.Website"
+   - **Website\_ DataCard1** - BusinessCardReader1.Website
 
-**You can always add more fields to be mapped. In this example, you can extract the following list of fields from your business cards**
+You can always add more fields to be mapped. For this example, you can extract the following list of fields from your business cards.
 
 | Property          | Definition                                                                                              |
 |-------------------|---------------------------------------------------------------------------------------------------------|
@@ -60,30 +66,29 @@ The goal here is to take a picture or upload an existing one from the file syste
 | Website           | The website                                                                                             |
 
 ### Add a button to trigger the creation of a new contact
+To add a button to trigger the creation of a new contact, follow these steps:
 
-1. Select "Insert a new Button" and place the button below the form. 
-2. Change the property "OnSelect" to "SubmitForm(Form1)" and the property "Text" to "Create contact".
+1. Select **Insert a new Button** and place the button below the form. 
+2. Change the **OnSelect** property to **SubmitForm(Form1)** and the **Text** property to **Create contact**.
 
-You should see this:
+The following image shows an example of the screen that should appear.
 
 ![A screenshot of a cell phone Description automatically generated](../media/image4.png)
 
-**Now, test that the application is working properly.**
+Test that the application is working properly before moving on to the next step.
 
-1. Use the "run" button on to right of the screen.
+3. Select the **run** button on right side of the screen.
 
     ![A screenshot of a cell phone Description automatically generated](../media/image5.png)
 
-2. To analyze a business card, select "Scan business card", and select an image you have saved. On a mobile device, you can also directly take a picture with the camera.
+4. To analyze a business card, select **Scan business card** and then select an image that you have saved. You can also use your mobile device to take a picture.
 
-AI Builder business card reader processes the business card and displays extracted contact information.
+AI Builder Business card reader will process the business card and display extracted contact information.
 
-The extracted contact information is now displayed in the form's data cards. You can review it and create a new contact by clicking on "Create contact".
+The extracted contact information is now displayed in the form's data cards. You can review it and create a new contact by selecting **Create contact**.
 
 ![A screenshot of a social media post Description automatically generated](../media/image6.png)
 
-Feel free to add new fields to the form, AI Builder Business card reader can recognize various contact information from business cards. You can also use the extracted information not only to create records in other entities from CDS but also to use it in external data sources.
+You can add new fields to the form; AI Builder Business card reader will recognize various contact information from business cards. You can also use the extracted information to create records in other entities from Common Data Service and to use it in external data sources.
 
-## Summary
-
-You have learned how to build a Power App with AI Builder Business card reader component, and how to use the extracted contact information to create a new record in the Contact entity from CDS.**
+You have now learned how to build a Power Apps canvas app with the AI Builder Business card reader component, and have discovered how to use the extracted contact information to create a new record in the **Contact** entity from Common Data Service.
