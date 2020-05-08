@@ -27,7 +27,6 @@ roles:
 - business-user
 products:
 - common-data-service
-- power-automate
 - power-platform
 units:
 - learn-bizapps.wwl.introduction-common-data-service.introduction
