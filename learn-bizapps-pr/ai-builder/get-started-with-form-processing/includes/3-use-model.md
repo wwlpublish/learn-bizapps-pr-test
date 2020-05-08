@@ -8,10 +8,10 @@ about your newly trained model on a details page.
 
 ![Trained model details page](../media/image4.png)
 
-To quickly see your model in action, select **Quick test**.
+To see your model in action, select **Quick test**.
 
 Drag and drop or upload an image from your device to test. If you are
-using sample data, you can go to the **AI Builder Form processing Sample Data\Invoices Version 2\Train** folder for a test image.
+using sample data, go to the **AI Builder Form processing Sample Data\Invoices Version 2\Train** folder for a test image.
 
 You will now be able to view the detected fields that you chose and the
 associated confidence scores for retrieving the individual fields
@@ -26,7 +26,7 @@ your model, select **Publish** to make it available for use.
 
 Now that your model is published, you can use your Form processing model
 in a canvas app. A special component is available for you to add that
-analyzes any image and extracts the text based on your trained form
+analyzes any image and extracts the text based on your trained Form
 processing model.
 
 ![Use your model in Power Apps](../media/image5.png)
@@ -39,7 +39,7 @@ processing model.
     
     Going forward, you can select **Insert > AI Builder** to view the
     list of AI Builder components and then select **Form processor** to
-    add a Form processor component. You will need to ensure that you
+    add a Form processor component. Make sure that you
     select the correct model. Only published models will appear in the
     drop-down list.
 4.  Select **Insert** and then add a **Label** component.
@@ -51,11 +51,11 @@ processing model.
     content, select one of the names from the **FormContent > Tables**
     property.
 
-![Select Fields or Tables property](../media/image6.png)
+    ![Select Fields or Tables property](../media/image6.png)
 
 7.  Select **Play** on the upper right of the Power Apps studio to
     preview the app.
-8.  Select **Analyze**, and then select the image that you used to quick test earlier.
+8.  Select **Analyze** and then select the image that you used to quick test previously.
 
     A preview of your document shows the detected fields and the values
     that were detected for the fields that you chose.
@@ -70,23 +70,25 @@ results of your model.
 
 1.  Select **Use model**.
 2.  Select **Create new flow** to begin the flow creation experience.
-3.  Make sure you are logged in flow and click **Continue** to confirm the creation of the flow. 
+3.  Make sure that you are signed in to the flow and then select **Continue** to confirm the creation of the flow. 
 
     ![screenshot](../media/image8.png)
 
-4.  You will see that the flow has been already configured with a manual trigger that will prompt for a document and to specify the document type once you run the flow, as well as the predict action with the model.
-5.  Let’s now add an action to send an email with what is extracted by your model. To do so, click on **+ New step**. A choose action card will appear, search for email, and select the **Send an email notification**  
+The flow has already been configured with a manual trigger that will prompt for a document and to specify the document type after you have run the flow and the predict action with the model.
+
+4.  Add an action to send an email with what is extracted by your model. To complete this step, select **+ New step**. A choose action card will appear, when you can search for the email and then select the **Send an email notification**.  
 
     ![screenshot](../media/image9.png)
 
-6.  Set in the **To** field the email address you wish to send the email to, set the **Subject** field as well. In the email body include one of the fields detected by the model. You will see those in the flyout panel on the right. To retrieve a field, look for its name followed by value. If you used the sample data, you can for example select the total amount field by searching: **Total value**  
+5.  In the **To** field, enter the email address that you want to send the email to, and then set the **Subject** field as well. In the email body, include one of the fields that was detected by the model. Those fields are visible in the flyout panel on the right. To retrieve a field, look for its name followed by value. If you used the sample data, you can select the total amount field by searching for **Total value** (for example).  
 
     ![screenshot](../media/image10.png)
 
-7.  Let’s now test the flow. Select **Save**.
-8.  Select **Test**.
-9.  Select **I'll perform the trigger action** and then select **Save Test**.
-10.  Under **Document**, import the image that you used to quick test earlier. Under **Document Type**, select the corresponding file type. If you are using the sample data, you would select **image/jpeg**.
-11.  Select **Run flow**.
-12.  After the flow run has started, select **Done**.
-13.  After the flow runs successfully, an email will be sent to the email you set with the content you defined.
+6.  Test the flow, and then select **Save**.
+7.  Select **Test**.
+8.  Select **I'll perform the trigger action** and then select **Save Test**.
+9.  Under **Document**, import the image that you used to quick test previously. Under **Document Type**, select the corresponding file type. If you are using the sample data, select **image/jpeg**.
+10.  Select **Run flow**.
+11.  After the flow run has started, select **Done**.
+
+After the flow runs successfully, an email will be sent to the email that you set with the content that you defined.

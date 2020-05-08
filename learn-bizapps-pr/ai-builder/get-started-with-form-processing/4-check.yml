@@ -35,14 +35,14 @@ quiz:
     - content: At least ten
       isCorrect: false 
       explanation: You must use at least five sample documents to train your model.
-  - content: Which of the following places can you not use your form processing model?
+  - content: Which one of the following places can you not use your Form processing model?
     choices: 
     - content: Flows
       isCorrect: false
-      explanation: Your form processing model cannot be used with model-driven apps.
+      explanation: Your Form processing model cannot be used with model-driven apps.
     - content: Canvas apps
       isCorrect: false
-      explanation: Your form processing model cannot be used with model-driven apps.
+      explanation: Your Form processing model cannot be used with model-driven apps.
     - content: Model-driven apps
       isCorrect: true
-      explanation: Your form processing model cannot be used with model-driven apps.
+      explanation: Your Form processing model cannot be used with model-driven apps.

@@ -9,4 +9,4 @@ To review, this module explained the following concepts:
 - You can use as many default entities as possible to quickly build apps.
 - You can create new entities.
 - Data is stored in a way that users can see it only if you grant them access. 
-- Sample apps and templates are available to help you create your own apps.
+- Sample apps and templates are available to help you learn and create your own apps.
