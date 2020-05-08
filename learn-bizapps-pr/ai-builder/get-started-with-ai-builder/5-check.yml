@@ -13,7 +13,7 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of these statements is true?
+  - content: Which of the following statements is true?
     choices: 
     - content: AI Builder is only available in Power Apps.
       isCorrect: false
@@ -24,7 +24,7 @@ quiz:
     - content: AI Builder is available in both Power Apps and Power Automate.
       isCorrect: true
       explanation: AI Builder is available in both Power Apps and Power Automate.
-  - content: You have customized a model using the guided experience. What is the final step you must take before you can use it?
+  - content: You have customized a model by using the guided experience. What is the final step that you must take before you can use it?
     choices: 
     - content: Create it
       isCorrect: false

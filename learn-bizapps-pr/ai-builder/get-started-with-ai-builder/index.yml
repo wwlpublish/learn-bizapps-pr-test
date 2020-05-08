@@ -2,7 +2,7 @@
 uid: learn-bizapps.get-started-with-ai-builder 
 metadata: 
  title: Get started with AI Builder
- description: This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
+ description: This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.
  ms.date: 03/15/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,7 +11,7 @@ metadata:
 title: Get started with AI Builder
 summary: |  
   [!include[](../includes/module-banner.md)]
-  This self-paced module helps you build an AI model from the ground up, and helps you use it in your business without writing a single line of code.
+  This self-paced module helps you build an AI model from the beginning and shows how you can use it in your business without writing a single line of code.
 abstract: |  
     In this module, you will: 
     - Explore how AI Builder can help improve your business performance.
@@ -19,10 +19,8 @@ abstract: |
     - Create your first model. 
     - Learn how to use your models in Power Apps and Power Automate.
 prerequisites: |
-    - A Power Apps or Power Automate
-      [license](https://go.microsoft.com/fwlink/?linkid=2085130)
-    - Access to [Common Data
-      Service](https://powerapps.microsoft.com/common-data-service/)
+    - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
+    - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
     - An [AI Builder](https://powerapps.microsoft.com/ai-builder/) add-on or trial 
 iconUrl: /learn/achievements/get-started-with-ai-builder.svg  
 levels:  
