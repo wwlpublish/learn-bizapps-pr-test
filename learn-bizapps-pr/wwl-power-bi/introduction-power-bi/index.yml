@@ -3,7 +3,7 @@ uid: learn-bizapps.wwl.introduction-power-bi
 metadata:
   title: Introduction to Power BI
   description: "Introduction to Power BI"
-  ms.date: 01/17/2020
+  ms.date: 05/07/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
@@ -24,7 +24,7 @@ roles:
 - business-user
 - functional-consultant
 products:
-- power-automate
+- power-bi
 units:
 - learn-bizapps.wwl.introduction-power-bi.introduction
 - learn-bizapps.wwl.introduction-power-bi.what-power-bi
