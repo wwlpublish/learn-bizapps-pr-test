@@ -1,4 +1,4 @@
-Welcome to AI Builder. This self-paced module will help you build an AI model from the beginning and will show you how use it in your business without writing a single line of code.
+Welcome to AI Builder. This self-paced module will help you build an AI model from the beginning and will show you how to use it in your business without writing a single line of code.
 
 ## AI Builder defined
 
