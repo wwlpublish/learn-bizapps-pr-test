@@ -46,11 +46,11 @@ When the analysis has finished, select the thumbnail to open the field selection
 1.  Review the document and select all fields that you want to save. Alternatively, select the **Select all** button if you want to save all fields. You can also rename the field names.
 2.  If one of the fields that you want to save has not been automatically detected, you can draw a rectangle around the field that you are interested in, give it a name, and validate the selection. If you used the sample invoices, notice that the address on the top left has not been detected.  
 
-![Select form fields](../media/form-processing-undetected-fields.gif)
+    ![Select form fields](../media/form-processing-undetected-fields.gif)
 
 3.  If a field that you want to save has been automatically selected but does not contain all values for that field, you can adjust the selection by selecting the field, resizing the selection, and then validating the selection. In the sample invoices, notice that this situation has occurred for the **Bill to** field.  
 
-![Select form fields](../media/form-processing-resize-selection.gif)
+    ![Select form fields](../media/form-processing-resize-selection.gif)
 
 4.  When you are finished, select **Confirm Fields**. If you have only selected an automatically detected field, you will see the **Done** button instead of **Confirm Fields**. In that case, you can go to the Summary and train section of this unit.
 
