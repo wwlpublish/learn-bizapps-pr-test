@@ -1,4 +1,3 @@
-## Data Modeling and Visualizations
 
 Power BI offers tools all along your data journey, beginning with data transformation and modeling. With the ability to add and manipulate columns, create new measures and tables, and filter or group your data without affecting the underlying data set, Power BI helps you to transform your data to leverage it to the fullest potential.
 
