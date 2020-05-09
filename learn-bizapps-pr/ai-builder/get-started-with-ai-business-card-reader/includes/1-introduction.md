@@ -1,15 +1,14 @@
-Before you begin this course, we recommend that you first see the "Get Started with AI Builder" module and read the [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview) content.
+Before you begin this course, we recommend that you first see the Get started with AI Builder module and read the [What is AI Builder?](https://docs.microsoft.com/ai-builder/overview) content.
 
-### Introducing the Business card model
+### Introduction to the Business card model
 
-The Business card prebuilt AI model allows you to extract information from business card images. If it detects a business card in the image, the AI model extracts the information such as name, job title, address, email, company, and phone numbers.
+The prebuilt Business card AI model allows you to extract information from business card images. If it detects a business card in the image, the AI model extracts the information such as name, job title, address, email, company, and phone numbers.
 
-There is a wild range of different business cards designs and formats. AI builder is constantly improving the accuracy of the business card AI model to better identify the different fields in your business cards.
+In AI Builder, you have access to a wide range of different business card designs and formats. AI builder is constantly improving the accuracy of the Business card AI model to better identify the different fields in your business cards.
 
-Currently, only English business cards are supported, and JPG, PNG, BMP and TIFF files are supported. More languages and file formats will be added in the future.
+Currently, business cards are supported in the English language only, and JPG, PNG, BMP, and TIFF files are supported. More languages and file formats will be added in the future.
 
-You can use the business card reader in your model-driven apps, canvas Apps and Power Automate flows. The business card reader is also present in the Dynamics 365 Sales Enterprise "Quick Create Contact" and "Quick Create Lead" forms to allow users to automatically fill out the creation
-of contacts and leads form using business card information.
+You can use the Business card reader in your model-driven apps, canvas apps, and Power Automate flows. The Dynamics 365 Sales Enterprise **Quick Create: Contact** and **Quick Create: Lead** forms also include the Business card reader, which you can use to automatically fill out the contact and lead information from the business card.
 
 ![Business card scan](../media/image1.png)
 
