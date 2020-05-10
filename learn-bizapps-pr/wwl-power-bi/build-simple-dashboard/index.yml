@@ -3,7 +3,7 @@ uid: learn-bizapps.wwl.build-simple-dashboard
 metadata:
   title: How to build a simple dashboard
   description: "How to build a simple dashboard"
-  ms.date: 01/17/2020
+  ms.date: 05/07/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
@@ -26,7 +26,7 @@ roles:
 - business-analyst
 - business-user
 products:
-- power-automate
+- power-bi
 units:
 - learn-bizapps.wwl.build-simple-dashboard.introduction
 - learn-bizapps.wwl.build-simple-dashboard.connect-data
