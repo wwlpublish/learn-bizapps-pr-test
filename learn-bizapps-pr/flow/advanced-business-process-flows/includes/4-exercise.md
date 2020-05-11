@@ -20,53 +20,12 @@ the previous module.
 
 	![Edit Check in Business Process Flow](../media/6-edit-customer-check.png)
 
-1. Select the **Condition** flow control under the **Components** tab and then drag
-it to the right of the **Customer Check In** stage, as shown in the following image.
+Before you create the conditions, you need to set up the data that you want to collect in each stage that you add. Select the **Customer Check In** stage and add the following fields by using the **Click to add field and forms** hyperlink on the right side of the page.
 
-	![add condition in Business Process Flow editor](../media/7-add-condition.png)
-
-	![Screen showing how to add values to a condition](../media/8-adding-arguments-condition.png)
-
-1. Select the **Condition** component within the editor and enter the following information:
-
-	-   **Display Name** - Manufacture Year Pre or Post 1971
-	
-	-   **Field** - Automobile Year
-	
-	-   **Operator** - Is greater than
-	
-	-   **Type** - Value
-	
-	-   **Value** - 1971
-
-	The entries should resemble the following screenshot. When finished, select
-	the **Apply** button.
-	
-	![Detail of the entries into a condition](../media/9-detail-condition-entries.png)
-
-1. Select the **Components** tab and then drag a new stage to the plus 
-(**+**) sign on the right of the page and another to the plus (**+**) sign under the **Condition** stage, as shown in the following figure.
-Name each of the new stages by selecting each new stage and entering the new name.
-
-	![Two additional stages added in business process flow designer added](../media/10-two-additional-stages-added.png)
-
-1. Drag another stage to the right of the **Customer Check In Post 1971 Smog Check** stage, as shown in the following screenshot. Rename this last stage as **Collect Payment**.
-
-	![Final stage added](../media/11-add-final-stage.png)
-
-1. Connect the **Customer Check In 1971 or Older Smog Check** stage to the **Collect Payment Stage** by following these steps:
-
-	1. Select the **Customer Check In 1971 or Older Smog Check** stage.
-	
-	1. Select **Connector** in the ribbon and then select the **Connect** option.
-	
-	1. Select the **Customer Check In Collect Payment** stage to connect the two stages, as shown in the following screenshot.
-
-	![Connect stages using the connector tool](../media/12-connect-stages.png)
-
-1.  Set up the data that you want to collect in each stage that you added. Select the **Customer Check In Post 1971** stage and add all the following fields by using the **Click to add field and forms** hyperlink on the right side of the page.
-	
-	![Select Click to add fields and forms hyperlink](../media/13-add-fields-forms-hyperlink.png)
+> [!NOTE] 
+> The entity window may open in the an older UI. Alternatively, you can open
+> Power Apps, select your environment, expand **Data** and select **Entities**
+> to see the modern UI. 
 	
 1.	Select the **Add field** button in the ribbon above the fields that are shown for
 	the **Customer Check In** entity, as shown in the following figure, and then add the following
@@ -118,8 +77,51 @@ Name each of the new stages by selecting each new stage and entering the new nam
 	close the screen and return to the **Business process flow** designer.
 	
 	![Select the Save Entity button](../media/16-save-entity.png)
+1. Select the **Condition** flow control under the **Components** tab and then drag
+it to the right of the **Customer Check In** stage, as shown in the following image.
+
+	![add condition in Business Process Flow editor](../media/7-add-condition.png)
+
+	![Screen showing how to add values to a condition](../media/8-adding-arguments-condition.png)
+
+1. Select the **Condition** component within the editor and enter the following information:
+
+	-   **Display Name** - Manufacture Year Pre or Post 1971
 	
-Now, you will add the fields that you created to each stage. Refresh your 
+	-   **Field** - Automobile Year
+	
+	-   **Operator** - Is greater than
+	
+	-   **Type** - Value
+	
+	-   **Value** - 1971
+
+	The entries should resemble the following screenshot. When finished, select
+	the **Apply** button.
+	
+	![Detail of the entries into a condition](../media/9-detail-condition-entries.png)
+
+1. Select the **Components** tab and then drag a new stage to the plus 
+(**+**) sign on the right of the page and another to the plus (**+**) sign under the **Condition** stage, as shown in the following figure.
+Name each of the new stages by selecting each new stage and entering the new name.
+
+	![Two additional stages added in business process flow designer added](../media/10-two-additional-stages-added.png)
+
+1. Drag another stage to the right of the **Customer Check In Post 1971 Smog Check** stage, as shown in the following screenshot. Rename this last stage as **Collect Payment**.
+
+	![Final stage added](../media/11-add-final-stage.png)
+
+1. Connect the **Customer Check In 1971 or Older Smog Check** stage to the **Collect Payment Stage** by following these steps:
+
+	1. Select the **Customer Check In 1971 or Older Smog Check** stage.
+	
+	1. Select **Connector** in the ribbon and then select the **Connect** option.
+	
+	1. Select the **Customer Check In Collect Payment** stage to connect the two stages, as shown in the following screenshot.
+
+	![Connect stages using the connector tool](../media/12-connect-stages.png)
+
+Now, you will add the fields that you created to each stage. Refresh your
 browser and then select the following stages. Add the fields that are noted for each 
 stage as a step under the stage by selecting the details link drop-down menu
 and then adding data steps. 
@@ -127,9 +129,9 @@ and then adding data steps.
 Add a data step for each field within each stage. When you are done, you 
 should have a data step under each of the following stages.
 
-	Stage - Customer Check In Post 1971 - add the following fields by using the Add field option:	
+Stage - Customer Check In Post 1971 - add the following fields by using the Add field option:	
 
-	- Smog Pump Intact
+- Smog Pump Intact
 			
 	- PVC Valve Intact
 			
@@ -137,7 +139,7 @@ should have a data step under each of the following stages.
 			
 	- Comments Pre 1972
 
-	Stage - Customer Check In 1971 or Older - add the following fields:
+- Stage - Customer Check In 1971 or Older - add the following fields:
 
 	- Exhaust Test Performed with Passing Score
 
@@ -151,7 +153,7 @@ should have a data step under each of the following stages.
 
 	- Comments Post 1972
 
-	Stage - Customer Check In Collect Payment - add the following fields:
+- Stage - Customer Check In Collect Payment - add the following fields:
 
 	- Amount
 

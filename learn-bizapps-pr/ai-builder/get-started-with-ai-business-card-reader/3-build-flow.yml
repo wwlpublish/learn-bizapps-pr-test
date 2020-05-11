@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-started-with-ai-business-card-reader.3-build-flow 
-title: Build a Power Automate flow to leverage AI Builder business card reader
+title: Build a Power Automate flow to use the AI Builder Business card reader
 metadata: 
-  title: Build a Power Automate flow to leverage AI Builder business card reader
-  description: Learn how to acquire a premium AI Builder license
+  title: Build a Power Automate flow to use the AI Builder Business card reader
+  description: Learn how to build a Power Automate flow to use the AI Builder Business card reader.
   ms.date: 04/06/2020 
   author: heyrob 
   ms.author: robde 

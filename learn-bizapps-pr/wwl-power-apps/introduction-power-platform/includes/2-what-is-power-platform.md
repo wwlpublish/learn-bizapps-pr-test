@@ -1,4 +1,4 @@
-Power Platform is comprised of four key products: Power Apps, Power Automate, and Power BI and Power Virtual Agents.
+Power Platform is comprised of four key products: Power Apps, Power Automate, Power BI and Power Virtual Agents.
 
 :::row:::
   :::column:::
