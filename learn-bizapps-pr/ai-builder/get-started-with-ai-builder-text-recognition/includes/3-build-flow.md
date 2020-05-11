@@ -47,6 +47,7 @@ Follow these steps to save the result in the entity that you previously created 
 ![Select Response Results](../media/image4.png)
 
 ### Save the results to the entity
+To save the results to the entity, follow these steps:
 
 1. Select **Add an action**.
 2. Select **Create a new record - Common Data Service**. 
