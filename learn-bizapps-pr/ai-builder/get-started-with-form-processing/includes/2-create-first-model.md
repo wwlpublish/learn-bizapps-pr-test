@@ -58,7 +58,7 @@ When the analysis has finished, select the thumbnail to open the field selection
 
 When drawing new fields or resizing automatically detected fields, you are presented with all documents that you have uploaded. In this step, you will need to draw the fields that are indicated as pending on the right panel. By completing this step, you are teaching your AI Builder model to recognize these fields in documents of this type.
 
-To draw a field on a document, start drawing a selection on the document and you will be asked which field it corresponds to. You can also select the **Draw in document** option on the fields list on the right to star the selection process for that field.
+To draw a field on a document, start drawing a selection on the document and you will be asked which field it corresponds to. You can also select the **Draw in document** option on the fields list on the right to start the selection process for that field.
 
 If a field is not present on one of the documents, select the **Field not in document** option.
 
