@@ -84,7 +84,7 @@ The flow has already been configured with a manual trigger that will prompt for 
 
     ![screenshot](../media/image10.png)
 
-6.  Test the flow, and then select **Save**.
+6.  Select **Save** to test the flow. 
 7.  Select **Test**.
 8.  Select **I'll perform the trigger action** and then select **Save Test**.
 9.  Under **Document**, import the image that you used to quick test previously. Under **Document Type**, select the corresponding file type. If you are using the sample data, select **image/jpeg**.
