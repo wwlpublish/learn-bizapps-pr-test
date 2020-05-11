@@ -14,13 +14,13 @@ summary: |
    Learn about AI Builder Text recognition and how to use it with other Power Platform products.
 abstract: |  
     In this module, you will: 
-    - Integrate AI Builder Text recognition
-    - Identify how to use AI Builder Text recognition within Power Platform
-    - Evaluate which business problems can be solved by AI Builder Text recognition
-    - Develop a simple flow with Power Automate that uses AI Builder Text recognition
-    - Practice automatically processing files from a OneDrive folder, and saving recognized text to Common Data Service
-    - Develop a simple Power Apps application that will use AI Builder Text recognition
-    - Practice retrieving recognized text
+    - Integrate AI Builder Text recognition.
+    - Identify how to use AI Builder Text recognition within Power Platform.
+    - Evaluate which business problems can be solved by AI Builder Text recognition.
+    - Develop a simple flow with Power Automate that uses AI Builder Text recognition.
+    - Practice processing files from a OneDrive folder and saving recognized text to Common Data Service.
+    - Develop a Power Apps application that will use AI Builder Text recognition.
+    - Practice retrieving recognized text.
 prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
     - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
