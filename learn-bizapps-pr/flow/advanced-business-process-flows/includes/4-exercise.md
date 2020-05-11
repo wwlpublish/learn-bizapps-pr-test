@@ -22,7 +22,10 @@ the previous module.
 
 Before you create the conditions, you need to set up the data that you want to collect in each stage that you add. Select the **Customer Check In** stage and add the following fields by using the **Click to add field and forms** hyperlink on the right side of the page.
 
-> [!NOTE] The entity window may open in the an older UI. Alternatively, you can open Power Apps, select your environment, expand **Data** and select **Entities** to see the modern UI. 
+> [!NOTE] 
+> The entity window may open in the an older UI. Alternatively, you can open
+> Power Apps, select your environment, expand **Data** and select **Entities**
+> to see the modern UI. 
 	
 1.	Select the **Add field** button in the ribbon above the fields that are shown for
 	the **Customer Check In** entity, as shown in the following figure, and then add the following
