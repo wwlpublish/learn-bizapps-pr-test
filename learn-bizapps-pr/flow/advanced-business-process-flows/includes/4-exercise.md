@@ -129,9 +129,9 @@ and then adding data steps.
 Add a data step for each field within each stage. When you are done, you 
 should have a data step under each of the following stages.
 
-	Stage - Customer Check In Post 1971 - add the following fields by using the Add field option:	
+Stage - Customer Check In Post 1971 - add the following fields by using the Add field option:	
 
-	- Smog Pump Intact
+- Smog Pump Intact
 			
 	- PVC Valve Intact
 			
@@ -139,7 +139,7 @@ should have a data step under each of the following stages.
 			
 	- Comments Pre 1972
 
-	Stage - Customer Check In 1971 or Older - add the following fields:
+- Stage - Customer Check In 1971 or Older - add the following fields:
 
 	- Exhaust Test Performed with Passing Score
 
@@ -153,7 +153,7 @@ should have a data step under each of the following stages.
 
 	- Comments Post 1972
 
-	Stage - Customer Check In Collect Payment - add the following fields:
+- Stage - Customer Check In Collect Payment - add the following fields:
 
 	- Amount
 
