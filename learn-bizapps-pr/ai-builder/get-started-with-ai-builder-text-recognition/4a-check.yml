@@ -13,44 +13,44 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What are the capabilities of AI Builder text recognition? 
+  - content: What are the capabilities of AI Builder Text recognition? 
     choices: 
-    - content: a.	Recognize printed characters on a picture?  
+    - content: Recognize printed characters on a picture.  
       isCorrect: false
-      explanation: AI Builder text recognition can recognize printed and handwritten characters on a picture.
-    - content: b.	Recognize printed and handwritten characters on a picture?
+      explanation: AI Builder Text recognition can recognize printed and handwritten characters on a picture.
+    - content: Recognize printed and handwritten characters on a picture.
       isCorrect: true
-      explanation: AI Builder text recognition can recognize printed and handwritten characters on a picture.
-    - content: c.	Recognize symbols, printed and handwritten characters on a picture? 
+      explanation: AI Builder Text recognition can recognize printed and handwritten characters on a picture.
+    - content: Recognize symbols and printed and handwritten characters on a picture. 
       isCorrect: false
-      explanation: AI Builder text recognition can recognize printed and handwritten characters on a picture.
-  - content: Which Azure service is powering this technology?  
+      explanation: AI Builder Text recognition can recognize printed and handwritten characters on a picture.
+  - content: Which Azure service is powering AI Builder Text recognition technology?  
     choices: 
-    - content: a.	Azure Entity Recognition 
+    - content: Azure Entity Recognition 
       isCorrect: false
-      explanation: This technology is powered by Azure OCR.
-    - content: b.	Azure Image Analysis 
+      explanation: AI Builder Text recognition technology is powered by Azure OCR.
+    - content: Azure Image Analysis 
       isCorrect: false
-      explanation: This technology is powered by Azure OCR.
-    - content: c.	Azure OCR
+      explanation: AI Builder Text recognition technology is powered by Azure OCR.
+    - content: Azure OCR
       isCorrect: true
-      explanation: This technology is powered by Azure OCR.
-  - content: How can you retrieve the text recognized in Power Apps Canvas? 
+      explanation: AI Builder Text recognition technology is powered by Azure OCR.
+  - content: How can you retrieve the text that is recognized in a Power Apps canvas app? 
     choices: 
-    - content: a.	From OneDrive
+    - content: From OneDrive
       isCorrect: false
-      explanation: You can retrieve the text recognized in Power Apps Canvas by taking a picture or uploading from a local disk.
-    - content: b.	Taking a picture or uploading from local disk
+      explanation: You can retrieve the text that is recognized in a Power Apps canvas app by taking a picture or uploading one from a local disk.
+    - content: By taking a picture or uploading one from a local disk
       isCorrect: true
-      explanation: You can retrieve the text recognized in Power Apps Canvas by taking a picture or uploading from a local disk.
-    - content: c.	From Common Data Service 
+      explanation: You can retrieve the text that is recognized in a Power Apps canvas app by taking a picture or uploading one from a local disk.
+    - content: From Common Data Service 
       isCorrect: false
-      explanation: You can retrieve the text recognized in Power Apps Canvas by taking a picture or uploading from a local disk.
-  - content: Is the AI Builder Text Recognizer component available from a model driven Power App? 
+      explanation: You can retrieve the text that is recognized in a Power Apps canvas app by taking a picture or uploading one from a local disk.
+  - content: Is the AI Builder Text Recognizer component available from a model-driven Power App? 
     choices: 
-    - content: a.	Yes 
+    - content: Yes 
       isCorrect: false
-      explanation: The AI Builder Text Recognizer component is not available from a model driven Power App.
-    - content: b.	No
+      explanation: The AI Builder Text Recognizer component is not available from a model-driven Power App.
+    - content: No
       isCorrect: true
-      explanation: The AI Builder Text Recognizer component is not available from a model driven Power App.
+      explanation: The AI Builder Text Recognizer component is not available from a model-driven Power App.
