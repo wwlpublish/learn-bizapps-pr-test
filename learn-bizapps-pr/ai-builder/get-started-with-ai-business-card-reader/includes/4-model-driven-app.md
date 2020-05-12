@@ -19,7 +19,7 @@ Update the appointment's **Quick Create** form so it can use the Business card r
 2. Edit the **Quick Create: Appointment** form.
 
 ## Update an existing form 
-You have entered the edition of the form. You can now create a new field that will host the Business card component.
+You have entered the edition mode of the form. You can now create a new field that will host the Business card component.
 
 1. Select **+ Add field**. 
 2. Name the field **Business Card** and drag it to your form to add it.

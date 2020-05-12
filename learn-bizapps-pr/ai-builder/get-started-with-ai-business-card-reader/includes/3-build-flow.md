@@ -17,8 +17,8 @@ Set the folder that Power Automate will monitor for new incoming images.
 
 For this example, set the **Folder** property to **Images**.
 
-### Call AI Builder Text recognition
-To call AI Builder Text recognition, follow these steps:
+### Call AI Builder Business card reader
+To call AI Builder Business card reader, follow these steps:
 
 1. Select **New step**. 
 2. Select **Predict - Common Data Service (current environment)**.
