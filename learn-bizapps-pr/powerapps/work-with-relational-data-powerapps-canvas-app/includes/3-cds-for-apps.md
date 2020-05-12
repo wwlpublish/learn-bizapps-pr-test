@@ -6,4 +6,4 @@ The following video shows how to configure a relationship in Common Data Service
 
 Now that we have a relationship configured in Common Data Service, let's take a look at how to use a relationship in a Power Apps app. 
 
-> [!VIDEO https://www.microsoft.com/ideoplayer/embed/RE4wnzn]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wnzn]
