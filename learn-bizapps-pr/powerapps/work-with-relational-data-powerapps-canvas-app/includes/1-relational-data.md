@@ -1,22 +1,22 @@
-As you start to build complex apps with Power Apps, one concept that you will need to become very familiar with is relating data. In short, this is when you create a connection between two different data sources. An example is a travel expense app where you want to have one record for the trip and then one or more records for the individual expenses like food and lodging.
+As you start to build complex apps with Power Apps, one concept that you will need to become familiar with is relating data. Relating data is when you create a connection between two different data sources. An example is a travel expense app where you want to have one record for the trip and then one or more records for the individual expenses like food and lodging.
 
 The following table is an example of storing all of the expense data in
 one Common Data Service entity.
 
 | ID | Destination | Date      | Trip reason    | Expense type | Expense amount  |
-| :- | :-----------|:----------|:---------------|:-------------|:----------------|
+| - | -----------|----------|---------------|-------------|----------------|
 | 1  | Seattle     | 4/10/2020 | Customer Visit | Hotel        | 205.75          |
 | 2  | Seattle     | 4/10/2020 | Customer Visit | Dinner       | 31.33           |
 | 3  | Seattle     | 4/10/2020 | Customer Visit | Flight       | 450.54          |
 | 4  | Cincinnati  | 5/2/2020  | Training       | Cab          | 23.99           |
 | 5  | Cincinnati  | 5/2/2020  | Training       | Lunch        | 12.44           |
 
-The example above shows that there is a lot of redundant data because each row has all of the information for the entire trip. A better way to store this data would be with parent and child tables, and then create a relationship between the two entities. The following is an example of what the two entities would look like.
+The example above shows that there is numerous redundant data because each row has all of the information for the entire trip. A better way to store this data would be with parent and child tables, and then create a relationship between the two entities. The next example shows what the two entities would look like.
 
 First, the parent table with only one entry per trip.
 
 | ID | Destination | Date      | Trip reason    |
-| :- | :-----------|:----------|:---------------|
+| - | -----------|----------|---------------|
 | 1  | Seattle     | 4/10/2020 | Customer Visit |
 | 2  | Cincinnati  | 5/2/2020  | Training       |
 
@@ -24,7 +24,7 @@ Then, the child table that has one entry per expense item with a
 reference to the parent record.
 
 | ID | Trip reason    | Expense type | Expense amount | TripID       |
-| :- | :--------------|:-------------|:---------------|:-------------|
+| - | --------------|-------------|---------------|-------------|
 | 1  | Customer Visit | Hotel        | 205.75         | 1            |
 | 2  | Customer Visit | Dinner       | 31.33          | 1            |
 | 3  | Customer Visit | Flight       | 450.54         | 1            |
@@ -43,7 +43,7 @@ information as part of a SharePoint list for sales regions. With
 Power Apps, the setup and design of referencing the ID of the customer in
 Dynamics 365 from your SharePoint list works the same. This is one of
 the many benefits of Power Apps, connecting to multiple data sources from
-within one app is completely seamless.
+within one app is seamless.
 
 > [!NOTE]
 > Common Data Service can define relationships using Lookup columns, creating the structure and connecting the tables for you. This is outside the scope of this primer on relationships but worth noting as you consider data sources.
