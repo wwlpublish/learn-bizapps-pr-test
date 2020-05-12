@@ -26,10 +26,10 @@ like the following.
 
 | ID | InvoiceDate | InvoiceDescription| InvoiceAmount | CustomerID |
 | :--| :-----------| :-----------------| :-------------| :----------|
-| 1  | 5/16/2019   | Parts             | 412.33        | 1          |
-| 2  | 5/1/2019    | Service           | 205.44        | 3          |
-| 3  | 5/6/2019    | Travel            | 132.98        | 1          |
-| 4  | 5/31/2019   | Parts             | 75.55         | 2          |
+| 1  | 5/16/2020   | Parts             | 412.33        | 1          |
+| 2  | 5/1/2020    | Service           | 205.44        | 3          |
+| 3  | 5/6/2020    | Travel            | 132.98        | 1          |
+| 4  | 5/31/2020   | Parts             | 75.55         | 2          |
 
 In Power Apps use the Gallery control to display the contents of the
 Customer table. You do this by using the following steps:

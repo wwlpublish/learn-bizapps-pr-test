@@ -5,11 +5,11 @@ one Common Data Service entity.
 
 | ID | Destination | Date      | Trip reason    | Expense type | Expense amount  |
 | :- | :-----------|:----------|:---------------|:-------------|:----------------|
-| 1  | Seattle     | 4/10/2019 | Customer Visit | Hotel        | 205.75          |
-| 2  | Seattle     | 4/10/2019 | Customer Visit | Dinner       | 31.33           |
-| 3  | Seattle     | 4/10/2019 | Customer Visit | Flight       | 450.54          |
-| 4  | Cincinnati  | 5/2/2019  | Training       | Cab          | 23.99           |
-| 5  | Cincinnati  | 5/2/2019  | Training       | Lunch        | 12.44           |
+| 1  | Seattle     | 4/10/2020 | Customer Visit | Hotel        | 205.75          |
+| 2  | Seattle     | 4/10/2020 | Customer Visit | Dinner       | 31.33           |
+| 3  | Seattle     | 4/10/2020 | Customer Visit | Flight       | 450.54          |
+| 4  | Cincinnati  | 5/2/2020  | Training       | Cab          | 23.99           |
+| 5  | Cincinnati  | 5/2/2020  | Training       | Lunch        | 12.44           |
 
 The example above shows that there is a lot of redundant data because each row has all of the information for the entire trip. A better way to store this data would be with parent and child tables, and then create a relationship between the two entities. The following is an example of what the two entities would look like.
 
@@ -17,8 +17,8 @@ First, the parent table with only one entry per trip.
 
 | ID | Destination | Date      | Trip reason    |
 | :- | :-----------|:----------|:---------------|
-| 1  | Seattle     | 4/10/2019 | Customer Visit |
-| 2  | Cincinnati  | 5/2/2019  | Training       |
+| 1  | Seattle     | 4/10/2020 | Customer Visit |
+| 2  | Cincinnati  | 5/2/2020  | Training       |
 
 Then, the child table that has one entry per expense item with a
 reference to the parent record.
