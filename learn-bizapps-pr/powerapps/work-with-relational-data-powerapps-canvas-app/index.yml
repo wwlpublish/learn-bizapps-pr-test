@@ -2,10 +2,10 @@
 uid: learn-bizapps.work-with-relational-data 
 metadata: 
   title: Work with relational data in a Power Apps canvas app
-  description: Do you want to improve a user's experience in your canvas app? This module will show you how to work with relational data to provide a good experience for app users. 
-  ms.date: 04/9/2019  
-  author: KevSch
-  ms.author: kschimke  
+  description: Learn how to work with relational data in Power Apps canvas apps. 
+  ms.date: 005/12/2020  
+  author: DaveBeasley
+  ms.author: dbeasley  
   ms.topic: interactive-tutorial  
   ms.prod: learning-power-platform  
 title: Work with relational data in a Power Apps canvas app 
