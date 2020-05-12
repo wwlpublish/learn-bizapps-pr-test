@@ -13,7 +13,7 @@ To create an application in Power Apps, follow these steps:
 ### Enable automatic retrieval of contact information from business cards
 Follow these steps to give users the ability to automatically retrieve contact information from business cards:
 
-1. From the **Insert** menu and **AI Builder** bar, select **Business card reader**. This control will allow you to take or upload a picture and automatically recognize the container identifier. 
+1. From the **Insert** menu and **AI Builder** bar, select **Business card reader**. This control will allow you to take or upload a picture and automatically recognize contact information from business cards.
 2. Resize the control to fit the screen.
 
     ![A screenshot of an automatically generated cell phone description](../media/image2.png)

@@ -8,8 +8,7 @@ Connecting a parent and child table in Power Apps
 In this example, you will walk through how to reference a parent and
 child relationship using the Power Apps filter and a LookUp function.
 
-The Customer table is the parent in this relationship. That is because
-one customer can have many invoices. Notice there is no reference in the
+The Customer table is the parent in this relationship, meaning one customer can have many invoices. Notice there is no reference in the
 Customer table to the Invoice table. For this example, the data source
 name for this table is CustomerTable. The table looks like the
 following.
@@ -26,13 +25,13 @@ like the following.
 
 | ID | InvoiceDate | InvoiceDescription| InvoiceAmount | CustomerID |
 | :--| :-----------| :-----------------| :-------------| :----------|
-| 1  | 5/16/2019   | Parts             | 412.33        | 1          |
-| 2  | 5/1/2019    | Service           | 205.44        | 3          |
-| 3  | 5/6/2019    | Travel            | 132.98        | 1          |
-| 4  | 5/31/2019   | Parts             | 75.55         | 2          |
+| 1  | 5/16/2020   | Parts             | 412.33        | 1          |
+| 2  | 5/1/2020    | Service           | 205.44        | 3          |
+| 3  | 5/6/2020    | Travel            | 132.98        | 1          |
+| 4  | 5/31/2020   | Parts             | 75.55         | 2          |
 
-In Power Apps use the Gallery control to display the contents of the
-Customer table. You do this by using the following steps:
+In Power Apps, use the Gallery control to display the contents of the
+Customer table. Use the Gallery control with the following steps:
 
 1.  Insert a **Gallery** control onto your canvas.
 
@@ -56,7 +55,9 @@ modify the items property of Gallery2.
 
 1.  Set the **Items** property of **Gallery2** to:
 
-> Filter(InvoiceTable, CustomerID = Gallery1.Selected.ID)
+    ```powerappsfl
+    Filter(InvoiceTable, CustomerID = Gallery1.Selected.ID)
+    ```
 
 The formula will do the following.
 
@@ -72,7 +73,7 @@ Looking up information stored in the parent from the child
 ----------------------------------------------------------
 
 The previous example looked showed how to go from the top down. Sometimes
-you need to go from the bottom up. For example in the InvoiceTable, if
+you need to go from the bottom up. For example, in the InvoiceTable, if
 you are looking at the record for the invoice with an ID of 2, then you
 know that it is associated with the customer with the ID of 3. This is different
 if you want to know the customer's name or phone number. To do this in
@@ -106,8 +107,9 @@ user. To display the customer name, instead of the ID, do the following.
 1.  In **Gallery3**, click the label for **Body** and set the **Text** property
     to:
 
-> LookUp(CustomerTable, ID = ThisItem.CustomerID, CustomerName)
-
+    ```powerappsfl
+    LookUp(CustomerTable, ID = ThisItem.CustomerID, CustomerName)
+    ```
 The formula will do the following:
 
 | **Formula Argument**  | **Formula Input**        | **Notes** |
@@ -118,7 +120,7 @@ The formula will do the following:
 
 After making that change, Gallery3 is much more user-friendly.
 
-![user friendly list of invoice records](../media/image2.png)
+![user-friendly list of invoice records](../media/image2.png)
 
 Performance Notes
 ------------------------------------------------
@@ -126,15 +128,15 @@ Performance Notes
 The previous example is used to demonstrate the
 concept of looking up from the child to the parent. There can be
 performance ramifications of doing lookups from within a Gallery. In
-this example, the data source would be queried 4 times by the LookUp
+this example, the data source would be queried four times by the LookUp
 function, one for each record in the InvoiceTable. If the Invoice table
-had 100s of records, then the LookUp would execute 100s of times. Be
+has hundreds of records, then the LookUp would execute hundreds of times. Be
 sure to consider the performance ramifications before implementing data
 source calls in a Gallery.
 
 A better option to consider for this scenario is using a collection or
 other means to query and store all of the customer records and then
-perform your lookup against the collection. For additional information about data performance, see the blog post on [Performance considerations with Power Apps](https://powerapps.microsoft.com/blog/performance-considerations-with-powerapps/).
+perform your lookup against the collection. For more information about data performance, see the blog post on [Performance considerations with Power Apps](https://powerapps.microsoft.com/blog/performance-considerations-with-powerapps/).
 
 In the next unit, you will learn how Common Data Services removes all of the
 issues associated with related data by automatically drilling down for you.
