@@ -55,7 +55,9 @@ modify the items property of Gallery2.
 
 1.  Set the **Items** property of **Gallery2** to:
 
-> Filter(InvoiceTable, CustomerID = Gallery1.Selected.ID)
+    ```powerappsfl
+    Filter(InvoiceTable, CustomerID = Gallery1.Selected.ID)
+    ```
 
 The formula will do the following.
 
@@ -105,8 +107,9 @@ user. To display the customer name, instead of the ID, do the following.
 1.  In **Gallery3**, click the label for **Body** and set the **Text** property
     to:
 
-> LookUp(CustomerTable, ID = ThisItem.CustomerID, CustomerName)
-
+    ```powerappsfl
+    LookUp(CustomerTable, ID = ThisItem.CustomerID, CustomerName)
+    ```
 The formula will do the following:
 
 | **Formula Argument**  | **Formula Input**        | **Notes** |
