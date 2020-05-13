@@ -1,4 +1,4 @@
-Power Automate is a standalone component in the Microsoft 365 ecosystem but also a great Power Apps companion. This is because Power Autoamte has actions and triggers for interfacing directly with Power Apps. This connection allows you to easily leverage Power Automates functionality in your app.
+Power Automate is a standalone component in the Microsoft 365 ecosystem but also a great Power Apps companion. This is because Power Automate has actions and triggers for interfacing directly with Power Apps. This connection allows you to easily leverage Power Automates functionality in your app.
 
 ## Business logic
 
