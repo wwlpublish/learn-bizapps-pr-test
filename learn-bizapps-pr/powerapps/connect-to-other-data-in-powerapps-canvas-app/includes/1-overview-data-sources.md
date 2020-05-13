@@ -7,7 +7,7 @@ the data source supports it, Power Apps can create, edit, and delete data
 from these data sources. Examples include Common Data Service, SharePoint, and
 SQL Server.
 
-**Action based data** - An action-based data source is one that uses
+**Action-based data** - An action-based data source is one that uses
 functions to interact with the data source. These functions could be used to return a table of data or to make updates to the data, such as send an email, update permissions, or create a calendar event. Examples include Office 365 Users, Project Online, and Azure Blob
 Storage.
 
