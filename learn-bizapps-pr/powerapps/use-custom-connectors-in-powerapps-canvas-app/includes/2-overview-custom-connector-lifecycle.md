@@ -20,8 +20,7 @@ available as a REST API or SOAP API. Here are a few examples:
 
 A custom line-of-business API that's deployed to your network. You can
 connect to the API if it's available over the public internet, or you
-can connect to it through a gateway (currently available in Microsoft
-Flow and Power Apps)
+can connect to it through a gateway (currently available in Power Automate and Power Apps)
 
 For Microsoft technologies, we recommend one of these platforms:
 
@@ -100,8 +99,7 @@ directly in other services. However, a connector can be easily recreated
 using the same OpenAPI definition or Postman collection used to create
 the Azure Logic Apps connector.
 
-Refer to the following links for additional information about using custom
-connectors from Power Apps, Power Automate, and Azure Logic Apps:
+For more information about using custom connectors from Power Apps, Power Automate, and Azure Logic Apps:
 
 -   [Use a custom connector from a Power Apps
     app](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-powerapps)
@@ -127,4 +125,4 @@ If you want to share the connector with all users in Power Apps,
 Power Automate, and Azure Logic Apps, you can submit the connector for
 Microsoft certification. During this process, Microsoft reviews the
 connector, checks for technical and content compliance, and validates
-functionality for Power Apps, Power Automate, and Azure Logic Apps. For additional information, see [Submit your connector for Microsoft certification](https://docs.microsoft.com/connectors/custom-connectors/submit-certification). 
+functionality for Power Apps, Power Automate, and Azure Logic Apps. For more information, see [Submit your connector for Microsoft certification](https://docs.microsoft.com/connectors/custom-connectors/submit-certification). 

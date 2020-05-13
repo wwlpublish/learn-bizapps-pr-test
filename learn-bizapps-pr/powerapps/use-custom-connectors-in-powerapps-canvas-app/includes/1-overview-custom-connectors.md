@@ -8,14 +8,13 @@ return the corresponding data.
 
 An advantage of building custom connectors is that they can be used in
 different platforms, such as
-[Power Apps](https://powerapps.microsoft.com/), [Microsoft
-Flow](https://flow.microsoft.com/), and [Azure Logic
+[Power Apps](https://powerapps.microsoft.com/), [Power Automate](https://flow.microsoft.com/), and [Azure Logic
 Apps](https://azure.microsoft.com/services/logic-apps).
 
 Creating custom connectors
 ----------------------------------------
 
-You can create custom connectors using 3 different approaches:
+You can create custom connectors using three different approaches:
 
 -   [Using a blank custom connector](https://docs.microsoft.com/connectors/custom-connectors/define-blank)
 
@@ -23,7 +22,6 @@ You can create custom connectors using 3 different approaches:
 
 -   [From a Postman collection](https://docs.microsoft.com/connectors/custom-connectors/define-postman-collection)
 
-While the requirements for each approach will vary, they all require a
-Power Apps P1 license or greater for all users using the app. Each link
+While the requirements for each approach will vary, they all require either a per user/app/month or a per user/month for all users using the app. Each link
 above points to the instructions for each approach. You'll learn how to
 create a custom connector from a Postman collection in a later unit. 

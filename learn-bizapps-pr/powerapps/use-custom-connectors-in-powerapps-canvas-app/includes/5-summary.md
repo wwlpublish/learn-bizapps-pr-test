@@ -4,7 +4,7 @@ Custom connectors are an excellent way of extending apps because they can access
     services, and systems for scenarios tailored toward your business
     needs.
 
--   After you create a custom connector it can be shared with other users
+-   After you create a custom connector, it can be shared with other users
     inside the organization. To share it outside of the organization,
     submit it to Microsoft for certification.
 

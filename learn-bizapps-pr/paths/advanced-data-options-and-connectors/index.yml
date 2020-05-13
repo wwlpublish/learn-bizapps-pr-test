@@ -3,9 +3,9 @@ uid: learn-bizapps.advanced-data-options-and-connectors
 metadata:
   title: Use advanced data options and connectors in Power Apps
   description: Do you want to improve the user's experience in your canvas app? Do you want to use custom connectors to connect to data? This learning path will help you do both things. It will also focus on working with data source limits.
-  ms.date: 04/9/2019
-  author: KevSch
-  ms.author: kschimke
+  ms.date: 05/13/2020
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Use advanced data options and connectors in Power Apps
