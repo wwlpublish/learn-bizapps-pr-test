@@ -27,7 +27,7 @@ roles:
 - maker  
 products:  
 - power-platform
-- power-pps
+- power-apps
 units: 
 - learn-bizapps.data-source-limits.1-delegation-overview 
 - learn-bizapps.data-source-limits.2-functions-predicates-data-source 
