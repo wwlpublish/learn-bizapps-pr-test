@@ -25,6 +25,6 @@ and then return to Power Apps only the data that you need. Watch this video to g
 The following video shows how to use Power Automate as a data source to your Power Apps app.
 
 
-> [!VIDEO 2]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4wsDJ]
 
 Connecting Power Apps and Power Automate can bring greater functionality into your apps. 
