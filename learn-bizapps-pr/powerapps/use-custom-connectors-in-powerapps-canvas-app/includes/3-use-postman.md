@@ -244,9 +244,9 @@ authentication.
 Review and update the connector definition
 ------------------------------------------
 
-The custom connector wizard gives you a lot of options for defining how
-your connector functions, and how it is exposed in Power Apps, Microsoft
-Flow, and Azure Logic Apps. The next section explains the user interface (UI) and covers a few options, but you are also encouraged to explore this on your own.
+The custom connector wizard gives you many options for defining how
+your connector functions, and how it is exposed in Power Apps, Power Automate,
+ and Azure Logic Apps. The next section explains the user interface (UI) and covers a few options, but you are also encouraged to explore this on your own.
 
 ### Review the UI and definition
 
@@ -258,8 +258,7 @@ here's a review of the user interface.
     In this case, the DetectSentiment action from the Postman collection
     is displayed. There are no triggers in this connector, but you can
     learn about triggers for custom connectors in [Use webhooks with
-    Azure Logic Apps and Microsoft
-    Flow](https://docs.microsoft.com/connectors/custom-connectors/create-webhook-trigger).
+    Azure Logic Apps and Power Automate](https://docs.microsoft.com/connectors/custom-connectors/create-webhook-trigger).
     
 ![Definition Action Triggers](../media/19-definition-actions-triggers.png)
 
