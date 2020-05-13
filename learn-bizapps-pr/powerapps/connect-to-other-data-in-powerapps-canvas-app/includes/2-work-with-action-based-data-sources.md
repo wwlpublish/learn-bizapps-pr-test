@@ -22,7 +22,7 @@ tabular data source.
 6.  The list of options will filter, select **Office 365 Users**.
 
 7.  In the pop-out list, you will see an overview of the data source,
-    select **Create**.
+    select **Connect**.
 
 You have now added the Office 365 Users data source to your
 app. Next time that you want to use the data source in this app or any app,
@@ -41,7 +41,7 @@ Now that you have the data source added to your app, you can display a list of t
 
 3.  From the flyout menu, select **Vertical**.
 
-4.  In Gallery panel, select **Items** and then **Select a data source**.
+4.  In Gallery panel, to the right of Data source, select **None**.
 
 Notice that your Office 365 users data source does not show up. That is
 because the gallery only shows tabular data sources. You
