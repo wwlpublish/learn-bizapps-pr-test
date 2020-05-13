@@ -1,7 +1,6 @@
 Flow is a standalone component in the Microsoft 365 ecosystem but also a great Power Apps companion. This is because Flow has actions and triggers for interfacing directly with Power Apps. This connection allows you to easily leverage Flow's functionality in your app.
 
-Business logic
---------------
+## Business logic
 
 Power Apps is great in scenarios where you have a direct action you want
 to be taken after a user performs an activity. An example might be
@@ -13,8 +12,7 @@ But what if instead of just notifying someone, you also want to start an approva
 
 Approvals are just one example of how you can use Power Automate's native abilities to augment your app's capabilities.
 
-Data connections
-----------------
+## Data connections
 
 Power Apps offers many of options for connecting to data through the built-in connectors, premium connectors, and custom connecters, however sometimes you need more than that. Some data sources, like custom APIs, can provide data back in a difficult to use format. For example, complex JSON structures are not user-friendly in your app. This is where Power Automate can help. Power Automate has additional actions and expressions natively built in that are better at handling these complex data structures. And more importantly, these actions and expressions can parse through the data and restructure it into a much easier to use object. After the data is parsed, Power Automate can respond to Power Apps with just the friendly data.
 

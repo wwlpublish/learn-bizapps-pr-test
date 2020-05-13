@@ -51,7 +51,7 @@ a different process.
 1.  In the formula bar, there's an **Items** property. Delete
     **CustomGallerySample** from the formula bar.
 
-![Flow Items](../media/FlowItems.PNG)
+![Flow Items](../media/flow-items.PNG)
 
 2.  Type in the following for the **Items** property:
 
@@ -63,7 +63,7 @@ a different process.
 
 5.  Set the **Subtitle** label to **Mail**.
 
-![Flow settings](../media/Flowsettings.PNG)
+![Flow settings](../media/flow-settings.PNG)
 
 Now your gallery is shows all of your Office 365 users' DisplayNames and Mail properties just like you were using a tabular data source. This is because that function of the Office365Users data connection returns tabular data. You could use the output of this data with any function, like SortByColumns or Sum, that accepts a table of data as an input.
 
@@ -72,7 +72,7 @@ Find the email address of the logged in user's manager
 
 Another common use of the Office 365 data source is to query the user's
 manager. With tabular data sources, you would use the LookUp function to
-find this type of information. With this action based data source, you
+find this type of information. With this action-based data source, you
 use a function to directly query the information as shown in the example
 below.
 
@@ -134,14 +134,14 @@ Office365Users.UpdateMyProfile({aboutMe: TextInput1.Text})
 ```
 
 The Office 365 Users action-based data source is a rich data source and
-commonly used in a lot of apps. You should take some time to get more
+commonly used in many apps. You should take some time to get more
 familiar with this data source. To learn more about this and all of the
 available data sources, see [Connectors](https://docs.microsoft.com/connectors/).
 
 These examples demonstrate how to integrate an action-based data source
-into your app. The concepts can be very similar to
+into your app. The concepts can be similar to
 tabular data sources, like when displaying users in a gallery, but also
-quite different, like when writing back to a user's profile.
+different, like when writing back to a user's profile.
 
 In the next unit, you will learn more about Power Automate and how to
 integrate it with your Power Apps apps. 
