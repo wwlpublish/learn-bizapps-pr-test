@@ -51,7 +51,7 @@ a different process.
 1.  In the formula bar, there's an **Items** property. Delete
     **CustomGallerySample** from the formula bar.
 
-![Flow Items](../media/flow-items.PNG)
+    ![Flow Items](../media/flow-items.PNG)
 
 2.  Type in the following for the **Items** property:
 
@@ -65,7 +65,7 @@ a different process.
 
 5.  Set the **Subtitle** label to **Mail**.
 
-![Flow settings](../media/flow-settings.PNG)
+    ![Flow settings](../media/flow-settings.PNG)
 
 Now your gallery shows all of your Microsoft 365 users' DisplayNames and Mail properties just like you were using a tabular data source. This is because that function of the Office365Users data connection returns tabular data. You could use the output of this data with any function, like SortByColumns or Sum, that accepts a table of data as an input.
 
