@@ -55,7 +55,9 @@ a different process.
 
 2.  Type in the following for the **Items** property:
 
-    Office365Users.SearchUser()
+     ```powerappsfl
+     Office365Users.SearchUser()
+     ```
 
 3.  In the gallery panel, change the **Layout** to **Title** and **Subtitle**.
 
@@ -65,7 +67,7 @@ a different process.
 
 ![Flow settings](../media/flow-settings.PNG)
 
-Now your gallery is shows all of your Office 365 users' DisplayNames and Mail properties just like you were using a tabular data source. This is because that function of the Office365Users data connection returns tabular data. You could use the output of this data with any function, like SortByColumns or Sum, that accepts a table of data as an input.
+Now your gallery shows all of your Microsoft 365 users' DisplayNames and Mail properties just like you were using a tabular data source. This is because that function of the Office365Users data connection returns tabular data. You could use the output of this data with any function, like SortByColumns or Sum, that accepts a table of data as an input.
 
 Find the email address of the logged in user's manager
 ------------------------------------------------------
@@ -86,8 +88,9 @@ below.
 
 5.  In the formula bar, type the following formula:
 
+    ```powerappsfl
     Office365Users.ManagerV2(User().Email).mail
-
+    ```
 In the label, you will now see the current user's manager email address.
 The following is a breakdown of the formula.
 
@@ -105,7 +108,7 @@ With a tabular data source, you could update directly using a Form or a
 Patch function. Those capabilities do not work with action-based data
 sources. Instead, for each action-based data source, you are dependent
 on the functions provided by that connector for your options. The
-following example shows how to update your Office User Profile
+following example shows how to update your Microsoft User Profile
 by using the provided function.
 
 1.  On the canvas, select the **Insert** menu option.
@@ -114,12 +117,10 @@ by using the provided function.
 
 3.  For the **OnSelect** property of the button, set the formula to
 
-```
-Office365Users.UpdateMyProfile({aboutMe: "Project manager with 5 years
-of technical project management experience."})
-```
-
-That will update your Office 365 Profile. The following is a breakdown of the formula.
+    ```powerappsfl
+    Office365Users.UpdateMyProfile({aboutMe: "Project manager with 5 years of technical project management experience."})
+    ```
+That will update your Microsoft 365 Profile. The following is a breakdown of the formula.
 
 | **Formula argument** | **Formula input**    | **Notes**       |
 | :------------------- | :------------------- |:----------------|
@@ -129,18 +130,16 @@ Another example would be to update the profile by referencing a **text input**
 control on the screen.  If you had a text input control on the
 screen named textinput1, the formula would update to:
 
-```
+```powerappsfl
 Office365Users.UpdateMyProfile({aboutMe: TextInput1.Text})
 ```
-
 The Office 365 Users action-based data source is a rich data source and
 commonly used in many apps. You should take some time to get more
 familiar with this data source. To learn more about this and all of the
 available data sources, see [Connectors](https://docs.microsoft.com/connectors/).
 
 These examples demonstrate how to integrate an action-based data source
-into your app. The concepts can be similar to
-tabular data sources, like when displaying users in a gallery, but also
+into your app. The concepts can be similar to tabular data sources, like when displaying users in a gallery, but also
 different, like when writing back to a user's profile.
 
 In the next unit, you will learn more about Power Automate and how to
