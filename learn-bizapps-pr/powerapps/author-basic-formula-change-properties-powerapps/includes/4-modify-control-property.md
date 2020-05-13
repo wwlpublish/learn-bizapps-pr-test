@@ -33,7 +33,7 @@ information is displayed and consumed by users.
 3.  Set the **Y** property for the **Check** icon.
 
     ```
-    If(Dropdown1.Selected.Position ="Top",150,Dropdown1.Selected.Position = "Bottom",650,400)
+    If(Dropdown1.Selected.Position ="Top",150,if(Dropdown1.Selected.Position = "Bottom",650,400))
     ```
 
 4.  Test the formula. Select each position from the drop-down menu.
