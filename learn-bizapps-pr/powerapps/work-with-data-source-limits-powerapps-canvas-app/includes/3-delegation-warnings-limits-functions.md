@@ -9,7 +9,7 @@ Delegation warnings
 Anytime you use a non-delegable function, Power Apps underlines it with a
 blue line and displays a yellow warning triangle as shown below.
 
-![Delegation Warnings](../media/SNAG-0001.png)
+![Delegation Warnings](../media/delegate-warning.png)
 
 This gives you a clear visual indicator that delegation is not
 happening, which means you may not be seeing all of your data. It is
@@ -22,9 +22,9 @@ important to understand a couple of things about this visual indicator.
     warning will still show. The warning appears anytime that your formula is
     not delegated.
 
-- The warning indicator only processes through the first thing that causes delegation. Notice in the above screenshot that only the underlined field "FirstName" is in blue. That is because it was the first item that caused delegation. "LastName" would also cause delegation in this scenario. This can be confusing because people try to troubleshoot what is the difference between FirstName and LastName instead of the real issue, which is the Search function. If you encounter this confusion simply rearrange your formula. This will validate and whichever field is first will show the issue.
+- The warning indicator only processes through the first thing that causes delegation. Notice in the above screenshot that only the underlined field "FirstName" is in blue. That is because it was the first item that caused delegation. "LastName" would also cause delegation in this scenario. This can be confusing because people try to troubleshoot what is the difference between FirstName and LastName instead of the real issue, which is the Search function. If you encounter this confusion, rearrange your formula. This will validate and whichever field is first will show the issue.
 
-![Warning Indicator](../media/SNAG-0002.png)
+![Warning Indicator](../media/warning-indicator.png)
 
 - This visual indicator is only present when you are in the maker
     portal, building the app. When a user is running the app, they will
@@ -41,19 +41,19 @@ that data source and the processes the formula locally. Power Apps does
 support adjusting this limit from 1 to 2000. You can adjust this in the Advanced
 settings.
 
-1.  From the Maker, portal select **File** in the upper-left corner.
+1.  From the Maker portal, select **File** in the upper-left corner.
 
-2.  In the left-most menu, select **App settings**.
+2.  In the left-most menu, select **Settings**.
 
 3.  Under **App settings**, select **Advanced settings**
 
 4.  Set the Data row limit for non-delegable queries for any value
     between 1 to 2000.
 
-5.  Ater you have set the limit, select the **arrow** in the upper left to
+5.  After you have set the limit, select the **arrow** in the upper left to
     save your change and return to the Maker portal.
 
-![App Settings](../media/SNAG-0003.png)
+![App Settings](../media/app-settings.png)
 
 There are two primary reasons that you might want to adjust this limit.
 
@@ -73,10 +73,7 @@ There are two primary reasons that you might want to adjust this limit.
 Non-delegable functions
 -----------------------
 
-In the previous unit, you learned about the functions that are delegable and how they relate to the various data sources. All other functions, not covered in that unit, are not delegable. The following are notable functions that do not support delegation.
-
--   Table shaping functions such as AddColumns, DropColumns,
-    ShowColumns, RenameColumns
+In the previous unit, you learned about the functions that are delegable and how they relate to the various data sources. These other functions, not covered in that unit, are not delegable. The following are notable functions that do not support delegation.
 
 -   First, FirstN, Last, LastN
 
@@ -90,9 +87,20 @@ In the previous unit, you learned about the functions that are delegable and how
 
 -   GroupBy, Ungroup
 
-All of these functions are not delegable, so by
-adding them to a formula you might take a previously delegable function
-and make it not delegable, as seen in the previous example.
+All of these functions are not delegable, so by adding them to a formula you might take a previously delegable function and make it not delegable, as seen in the previous example.
+
+Partially supported delegable functions
+-----------------------
+
+The Table shaping functions below are considered to be partially delegable. This means, formulas in their arguments can be delegated. However, the output of these functions is subject to the non-delegation record limit.
+
+-   AddColumns
+
+-   DropColumns
+
+-   ShowColumns
+
+-   RenameColumns
 
 A common pattern is to use AddColumns and LookUp to merge information
 from one table into another, commonly referred to as a Join in database
@@ -104,15 +112,14 @@ Suppliers.ID = Product.SupplierID ).Name )
 ```
 
 Even though Products and Suppliers may be delegable data sources and
-LookUp is a delegable function, the AddColumns function isn't
+LookUp is a delegable function, the AddColumns function is partially
 delegable. The result of the entire formula will be limited to the first
 portion of the Products data source.
 
 Because the LookUp function and its data source are delegable, a match
 for Suppliers can be found anywhere in the data source, even if it\'s
 large. A potential downside is that LookUp will make separate calls to
-the data source for each of those first records in Products, causing a
-lot of chatter on the network. If Suppliers is small enough and doesn't
+the data source for each of those first records in Products, causing much chatter on the network. If Suppliers is small enough and doesn't
 change often, you could cache the data source in your app with a Collect
 call when the app starts (using OnVisible on the opening screen) and do
 the LookUp to it instead. 

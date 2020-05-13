@@ -1,4 +1,4 @@
-Before you choose your data source in Power Apps it’s important to understand delegation. By using delegation, Power Apps optimizes its interaction with data sources to minimize the amount of transferred data. Put more simply, Power Apps uses delegation to offload the processing (which includes filtering, searching, and sorting) of data to the data source when available. Delegable processing is dependent on the data source and function being utilized. If you have a lot of data and need to rely on the back-end data source for operations such as filtering, then you might want to consider moving (or replicating) your data into an environment (such as Common Data Service) that works well with delegation. To replicate your data from a different source, you can use the Data Integrator to move data into Common Data Service.
+Before you choose your data source in Power Apps, it’s important to understand delegation. By using delegation, Power Apps optimizes its interaction with data sources to minimize the amount of transferred data. Put more simply, Power Apps uses delegation to offload the processing (which includes filtering, searching, and sorting) of data to the data source when available. Delegable processing is dependent on the data source and function being utilized. If you have a lot of data and need to rely on the back-end data source for operations such as filtering, then you might want to consider moving (or replicating) your data into an environment (such as Common Data Service) that works well with delegation. To replicate your data from a different source, you can use the Data Integrator to move data into Common Data Service.
 
 Delegation in action
 --------------------
@@ -15,7 +15,7 @@ source, Power Apps would send your formula to SharePoint. SharePoint
 would process all 5,000 records and return to Power Apps the 2,500
 records for which **ProjectStatus** is set **Active**. Those records
 would all be available in your gallery. In this scenario, Power Apps
-didn't process any data, and only the matching records were sent from SharePoint to Power Apps, which is very efficient.
+didn't process any data, and only the matching records were sent from SharePoint to Power Apps, which is efficient.
 
 When delegation isn't available
 -------------------------------
