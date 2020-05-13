@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.connect-other-data.4-knowledge-check 
 metadata: 
-  title: Connecting to other data in a Power Apps canvas app knowledge check
-  description: Connecting to other data in a Power Apps canvas app knowledge check
+  title: Check your knowledge
+  description: Answer the following questions to see what you've learned.
   ms.date: 05/13/2020 
   author: DaveBeasley
   ms.author: dbeasley 
@@ -12,7 +12,7 @@ metadata:
 title: Check your knowledge 
 durationInMinutes: 6 
 quiz: 
-  title: Connecting to other data in a Power Apps canvas app knowledge check
+  title: Answer the following questions to see what you've learned.
   questions: 
   - content: Which one of the following is true about action-based data sources?
     choices: 
