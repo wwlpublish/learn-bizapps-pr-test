@@ -146,7 +146,7 @@ There are four sources to pass values in your formula to Patch your data source:
 
 Let’s take a look at another example, in this example you’re trying to build a simple solution for signing users into class as they arrive. This type of Power Apps solution is common and by using the Patch function it can be achieved with only a few steps. 
 
-![Power Apps canvas app](..media/another-patch-example.png)
+![Power Apps canvas app](../media/another-patch-example.png)
 
 ### Solution breakdown 
 
