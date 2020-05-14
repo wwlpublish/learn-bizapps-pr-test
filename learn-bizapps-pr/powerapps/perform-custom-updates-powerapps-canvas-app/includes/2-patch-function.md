@@ -42,7 +42,7 @@ single record, there are three parts to the formula.
 
 1.  Include the name of the data source you want to edit. This could be
     a tabular data source (such as Common Data Service or SharePoint) or a
-    collection. For the example you will use **CustomerOrders** as the name
+    collection. For the example, you will use **CustomerOrders** as the name
     of the data source.
 
 2.  The record that you want to edit in the data source. The most common
@@ -72,7 +72,7 @@ Updating columns with Patch
 ---------------------------
 
 The primary logic of most Patch functions is updating the proper columns
-with the correct information. This will be the source of a lot of your
+with the correct information. This will be the source of most of your
 troubleshooting of the Patch function. Use the following points to help
 you work through Patch.
 
@@ -83,13 +83,12 @@ you work through Patch.
     would like.
 
 -   Make sure your column names are spelled and capitalized correctly.
-    Column names are case sensitive.
+    Column names are case-sensitive.
 
 -   Make sure you are writing the correct data type. For example, if
     your column in the data source is a number type, then you cannot write a string value to it, even if that string contains a number.
 
-When passing values in your formula to Patch your data source there are
-four sources:
+There are four sources to pass values in your formula to Patch your data source:
 
 -  You can hardcode a value. An example is if you want to patch the
     status of the record with "Pending", your Patch formula would look
@@ -143,7 +142,22 @@ four sources:
    This formula creates a new record and sets the ModifiedBy column to
     the current user's FullName from Azure Active Directory.
 
-As you can see, Patch is very flexible and powerful. Patch has even more
+## Patch example
+
+Let’s take a look at another example, in this example you’re trying to build a simple solution for signing users into class as they arrive. This type of Power Apps solution is common and by using the Patch function it can be achieved with only a few steps. 
+
+![Power Apps canvas app](../media/another-patch-example.png)
+
+### Solution breakdown 
+
+Here we have a simple Canvas app connected to our data source (TrainingClassSignIn). The data source has the following columns, **Training Class**, **FirstName**, **LastName**, **EmailAddress**, **SignInStatus**. This is the information we want to capture when a user selects the **Sign-in** button. In the formula bar, you see the following code: 
+
+```powerappsfl
+Patch(TrainingClassSignIn,Defaults(TrainingClassSignIn),{TrainingClass:TrainingClassDD.Selected.Value, FirstName:FirstNameInput.Text, LastName:LastNameInput.Text, EmailAddress:EmailAddressInput.Text, SignInStatus:"Attended"})
+```
+To elaborate, whenever someone selects the **Sign-in** button, a new record will be written to the TrainingClassSignIn data source. As to what data will be written back for the user signing in, you can see it’s getting this information from the Controls we added. You will also notice; it is setting the SignInStatus to “Attended” for each new record.  
+
+As you can see, Patch is flexible and powerful. Patch has even more
 capabilities including the ability to update multiple records and merge
 records. For more information about these scenarios, see
 [Patch function in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-patch). 

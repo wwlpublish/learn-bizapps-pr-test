@@ -3,9 +3,9 @@ uid: learn-bizapps.perform-custom-updates
 metadata: 
   title: Perform custom updates in a Power Apps canvas app
   description: With some Power Apps canvas apps, a form is not the solution.  This module will focus on how to perform custom updates when your data is not in a form.
-  ms.date: 04/12/2019  
-  author: KevSch
-  ms.author: kschimke  
+  ms.date: 05/14/2020  
+  author: DaveBeasley
+  ms.author: dbeasley  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Perform custom updates in a Power Apps canvas app 
