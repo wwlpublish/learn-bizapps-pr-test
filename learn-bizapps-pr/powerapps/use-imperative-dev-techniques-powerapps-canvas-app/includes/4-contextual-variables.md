@@ -21,7 +21,7 @@ UpdateContext({varCount: 1, varActive: true, varName: User().FullName})
 To do the same thing with Global variables, you would use the following.
 
 ```
-Set(varCount:1);Set(varActive: true);Set(varName: User().FullName)
+Set(varCount, 1);Set(varActive, true);Set(varName, User().FullName)
 ```
 
 This is not a reason to sway your choice of variable types but a useful concept to remember. In the next unit, you will learn about storing tables of data in a collection variable.
