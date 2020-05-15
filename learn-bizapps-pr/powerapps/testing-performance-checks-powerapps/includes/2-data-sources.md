@@ -68,7 +68,7 @@ might look like the following.
 
 ```
 Collect(collectDepartmentList, Filter(DepartmentList, Status =
-"Active")); Collect(collectDepartmentList,
+"Active")); Collect(collectCompanyList,
 CompanyList);Collect(collectRegions, RegionList)
 ```
 
@@ -84,7 +84,7 @@ Concurrent(
 
 Collect(collectDepartmentList, Filter(DepartmentList, Status = "Active")),
 
-Collect(collectDepartmentList, CompanyList),
+Collect(collectCompanyList, CompanyList),
 
 Collect(collectRegions, RegionList)
 
