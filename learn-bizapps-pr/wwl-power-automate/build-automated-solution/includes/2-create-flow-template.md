@@ -47,7 +47,7 @@ These concepts will come into play later, when you build your own flows from scr
 
 ## Trigger or run the flow
 
-With Power Automate, you don't think of running a flow the same way as you do with Power Apps. Instead, you perform the activity that triggers the flow to run. In the case of the previous flow, instead of periodically running the flow manually it would automatically run every time use receive a new email with an attachment. This is because that is what the trigger is set to respond to. 
+With Power Automate, you don't think of running a flow the same way as you do with Power Apps. Instead, you perform the activity that triggers the flow to run. In the case of the previous flow, instead of periodically running the flow manually, the flow would run automatically every time you receive a new email with an attachment.
 
 When defining triggers, there are a few different types:
 
