@@ -33,7 +33,7 @@ ClearCollect(collectDepartmentList, Filter(DepartmentList, Status =
 2.  To capture exactly how long that formula takes, you will need to
     first add a **Timer** control to your app and make sure that it
     is named Timer1. The Timer control is on the **Insert** menu under
-    **Controls**.
+    **Input**.
 
 3.  For the **Timer** control, set the **Start** property to the following: varTimerStart.
 

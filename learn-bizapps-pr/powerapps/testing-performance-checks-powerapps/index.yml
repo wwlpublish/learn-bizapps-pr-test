@@ -3,9 +3,9 @@ uid: learn-bizapps.testing-performance-checks
 metadata: 
   title: Complete testing and performance checks in a Power Apps canvas app
   description: Do you want to test your app and improve it's performance? This module will help you understand how to test an app and improve performance.
-  ms.date: 04/12/2019  
-  author: KevSch
-  ms.author: kschimke  
+  ms.date: 05/15/2020  
+  author: DaveBeasley
+  ms.author: dbeasley  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Complete testing and performance checks in a Power Apps canvas app 
