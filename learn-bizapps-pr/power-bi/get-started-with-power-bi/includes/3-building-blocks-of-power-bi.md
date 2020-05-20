@@ -39,7 +39,7 @@ In Power BI, a **report** is a collection of visualizations that appear together
 
 ![Power BI reports](../media/pbi-bblocks_03.png)
 
-Reports let you create many visualizations, on multiple pages if necessary, and let you arrange those visualization in whatever way best tells your story.
+Reports let you create many visualizations, on multiple pages if necessary, and let you arrange those visualizations in whatever way best tells your story.
 
 You might have a report about quarterly sales, product growth in a particular segment, or migration patterns of polar bears. Whatever your subject, reports let you gather and organize your visualizations onto one page (or more).
 
