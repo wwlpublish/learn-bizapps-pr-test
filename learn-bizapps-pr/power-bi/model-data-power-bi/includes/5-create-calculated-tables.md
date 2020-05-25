@@ -7,7 +7,7 @@ Tasks in this unit include:
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9vn]
 
 > [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).
+> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this <a href="https://go.microsoft.com/fwlink/?linkid=2131277" target="_blank">**article**</a>.
 
 To create a calculated table, go to **Data view** in Power BI Desktop, which you can activate from the left side of the report canvas. Select **New Table** from the **Modeling** tab to open the formula bar.
 

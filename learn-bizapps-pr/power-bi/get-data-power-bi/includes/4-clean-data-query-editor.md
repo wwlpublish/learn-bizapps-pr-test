@@ -10,7 +10,7 @@ In this unit, you will transform data with Power Query Editor.
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x9uw]
 
 > [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Database > Access database**).
+> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this <a href="https://go.microsoft.com/fwlink/?linkid=2131277" target="_blank">**article**</a>.
 
 ### Launch Power Query Editor
 
