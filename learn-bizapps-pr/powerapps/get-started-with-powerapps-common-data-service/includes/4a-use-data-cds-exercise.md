@@ -83,7 +83,8 @@ You will use the Excel spreadsheet named [Prospects](https://github.com/Microsof
 exercise. Open the link, and select the Download button and save it locally. 
 
 1. Open the file. Notice the “Stage” column is empty, you will need to look these up and enter them manually. 
-1. On the left, Select **Option sets**.
+1. Go to the [Power Apps home page](https://powerapps.microsoft.com/?azure-portal=true) and sign in to Power Apps.
+1. On the menu, expand **Data** and Select **Entities**, and then select **Option sets**.
 1. Select **Prospect Stage**.
 1. Under Items (4), Select the 3 dots **…** next to Lead.
 1. Select **View more**.
