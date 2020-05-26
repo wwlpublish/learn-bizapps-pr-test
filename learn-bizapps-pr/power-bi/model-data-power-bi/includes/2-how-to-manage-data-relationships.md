@@ -1,4 +1,4 @@
-The **Model view** in Power BI Desktop allows you to visually set the relationship between tables or elements. Use the Model view to see a diagrammatic view of your data.
+The **Model view** in Power BI Desktop allows you to visually set the relationship between tables or elements. A relationship is where two or more tables are linked together because they contain related data. This enables users to run queries for related data across multiple tables.Use the Model view to see a diagrammatic view of your data.
 
 Tasks in this unit include:
 ![Conceptual graphic of the tasks in this module.](../media/02-power-bi-desktop-overview.png)
@@ -7,7 +7,7 @@ Tasks in this unit include:
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhg]
 
 > [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Excel**).
+> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this <a href="https://go.microsoft.com/fwlink/?linkid=2131277" target="_blank">**article**</a>.
 
 In the Model view, notice that a block represents each table and its columns and that lines between them represent relationships.
 

@@ -1,5 +1,6 @@
 Use a scatter chart to compare two different measures, such as unit sales versus revenue.
 
+**Video**: Create scatter charts
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wTTN]
 
 ![Image of a bubble chart.](../media/3-7-1.png)
@@ -24,7 +25,7 @@ You can create an animation of your bubble chart's changes over time by adding a
 ## Create waterfall and funnel charts
 Waterfall and funnel charts are two of the more noteworthy (and uncommon) standard visualizations that are included in Power BI. To create a blank chart of either type, select its icon from the Visualizations pane.
 
-**Video**: Create scatter charts
+**Video**: Create funnel charts and waterfall charts
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wZ54]
 
 ![Screenshots of the Waterfall chart and Funnel buttons on the Visualizations pane.](../media/07-power-bi-desktop-waterfall-funnel.png)
