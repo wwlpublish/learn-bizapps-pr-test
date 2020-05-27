@@ -13,6 +13,9 @@ By default, the price appears as a plain number without a currency symbol. Suppo
 
 By default, Power Apps pulls in a price value for each item. This value is set as the **Text** property of the label that shows the price.
 
+> [!NOTE]
+> Be sure to complete the steps in unit 1 of this module as the description field is changed to price as reflected in the next steps.
+
 1. In **BrowseScreen1**, select the price of the first item.
 
     ![Select price](../media/select-price.png)
