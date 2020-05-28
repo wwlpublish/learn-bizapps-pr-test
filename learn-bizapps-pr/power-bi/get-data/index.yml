@@ -1,0 +1,46 @@
+### YamlMime:Module 
+uid: learn-bizapps.get-data 
+metadata: 
+ title: Get data in Power BI. 
+ description: This module will focus on getting the data from the different data sources and importing it into Power BI by using Power Query. 
+ ms.date: 06/20/2020  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Get data in Power BI.  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will focus on getting the data from the different data sources and importing it into Power BI by using Power Query. 
+abstract: |  
+    In this module, you will: 
+    - Identify and connect to a data source 
+    - Get data from a relational database, like Microsoft SQL Server 
+    - Get data from a file, like Microsoft Excel 
+    - Get data from applications 
+    - Get data from Azure Analysis Services 
+    - Select a storage mode 
+    - Fix performance issues 
+    - Resolve data import errors 
+prerequisites: None 
+iconUrl: /learn/achievements/get-data.svg  
+levels:  
+- intermediate   
+roles:  
+- data-analyst  
+products:   
+- power-bi 
+units: 
+- learn-bizapps.get-data.1-introduction 
+- learn-bizapps.get-data.2-data-files 
+- learn-bizapps.get-data.3-relational-data 
+- learn-bizapps.get-data.4-nosql-database 
+- learn-bizapps.get-data.5-online-services 
+- learn-bizapps.get-data.6-storage-mode 
+- learn-bizapps.get-data.7-azure-analysis-services 
+- learn-bizapps.get-data.8-performance-issues 
+- learn-bizapps.get-data.9-import-errors 
+- learn-bizapps.get-data.10-check 
+- learn-bizapps.get-data.11-summary 
+badge: 
+  uid: learn-bizapps.get-data.badge 

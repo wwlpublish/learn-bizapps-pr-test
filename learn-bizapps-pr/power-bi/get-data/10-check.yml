@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-data.10-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 06/20/2020 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which query language to you use to extract data from Microsoft SQL Server? 
+    choices: 
+    - content: DAX
+      isCorrect: false
+      explanation: You use this language with Power BI and Azure Analysis Services. 
+    - content: T-SQL
+      isCorrect: true
+      explanation: This is the query language for SQL Server. 
+    - content: MDX
+      isCorrect: false 
+      explanation: You use this language with Azure Analysis Services. 
+  - content: You are creating a Power BI report with data from an Azure Analysis Server Cube.  When the data refreshes in the cube, you would like to see it immediately in the Power BI report.  How should you connect? 
+    choices: 
+    - content: Import
+      isCorrect: false
+      explanation: This will require the data to be imported into Power BI on a scheduled interval. 
+    - content: Live Connect
+      isCorrect: true
+      explanation: This will reflect cube changes immediately. 
+    - content: Direct Query
+      isCorrect: false 
+      explanation: This option does not exist when connecting to AAS cubes. 
+  - content: What can you do to improve performance when getting data in Power BI? 
+    choices: 
+    - content: Perform some calculations in the original data source 
+      isCorrect: true 
+      explanation: Power Query and Power Query Editor are built to allow you to process the data, however, the processing power required to do this may lower performance in other areas of your reports. It is generally good practice to process as much as possible in the native data source.   
+    - content: Only pull data into the Power BI Service, not Power BI Desktop 
+      isCorrect: false 
+      explanation: i.	There is no performance difference here. 
+    - content: Use SELECT * in your SQL queries when pulling data from a relational database. 
+      isCorrect: false 
+      explanation: This might decrease performance, since you will be getting more columns and rows then you likely need. 
+    - content: Combine date and time columns into a single column 
+      isCorrect: false 
+      explanation: Separating date and time will improve compression and thus performance. 
