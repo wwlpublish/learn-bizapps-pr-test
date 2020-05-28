@@ -24,7 +24,8 @@ minutes or more.   
 For instance, if we're pulling data from our organization's SQL Server,
 we might see the following error: 
 
-[![data import errors for query timeout](../media/9-data-import-query-timeout-ss.png)](../media/9-data-import-query-timeout-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![data import errors for query timeout](../media/9-data-import-query-timeout-ss.png)](../media/9-data-import-query-timeout-ss.png#lightbox)
 
 ### Power BI Query Error: timeout expired
 
@@ -60,13 +61,15 @@ error event tells you the resolution. Perform the following steps:
 
 1.  Verify that is how you'd like to name your columns.  Then try to import data from Excel again.  This time, it works!  
 
-	[![Power BI Excel error: We couldn't find any data formatted as a table](../media/9-format-as-table-excel-ss.png)](../media/9-format-as-table-excel-ss.png#lightbox)
+	> [!div class="mx-imgBorder"]
+	> [![Power BI Excel error: We couldn't find any data formatted as a table](../media/9-format-as-table-excel-ss.png)](../media/9-format-as-table-excel-ss.png#lightbox)
 
 ### Could not find file 
 
 While importing data from a file, you may get the error "Could not find file."   
 
-[![The Could not find file error screen](../media/9-file-location-ss.png)](../media/9-file-location-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![The Could not find file error screen](../media/9-file-location-ss.png)](../media/9-file-location-ss.png#lightbox)
 
 This is usually caused by either the file moving locations or the
 permissions to the file changing.  If it's the former, you'll have to
@@ -75,11 +78,13 @@ selecting the Transform Data button in Power BI.  Highlight the query
 that is creating the error.   On the left, under Query Settings, choose
 the gear icon next to source. 
 
-[![The query settings pane](../media/9-query-changes-ss.png)](../media/9-query-changes-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![The query settings pane](../media/9-query-changes-ss.png)](../media/9-query-changes-ss.png#lightbox)
 
 ### Change the file location to the new location.  
 
-[![The file location settings pane](../media/9-file-location-new-location-ss.png)](../media/9-file-location-new-location-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![The file location settings pane](../media/9-file-location-new-location-ss.png)](../media/9-file-location-new-location-ss.png#lightbox)
 
 ### Data type errors 
 

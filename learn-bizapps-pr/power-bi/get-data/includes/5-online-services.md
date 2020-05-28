@@ -38,13 +38,15 @@ list that you want to load. Depending on the URL that you copied, you
 might need to delete the last part of your URL, as illustrated in the
 following image. 
 
-[![Where to get SharePoint Online List URL](../media/5-sharepoint-url-orig-location-ssm.png)](../media/5-sharepoint-url-orig-location-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Where to get SharePoint Online List URL](../media/5-sharepoint-url-orig-location-ssm.png)](../media/5-sharepoint-url-orig-location-ssm.png#lightbox)
 
 After you have entered your URL, select **OK**. Power BI needs to
 authorize the connection to SharePoint, so sign in with your Microsoft
 account and then select **Connect**. 
 
-[![Authorization step to get access to SharePoint](../media/5-authorization-step-sharepoint-access-ssm.png)](../media/5-authorization-step-sharepoint-access-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Authorization step to get access to SharePoint](../media/5-authorization-step-sharepoint-access-ssm.png)](../media/5-authorization-step-sharepoint-access-ssm.png#lightbox)
 
 ### Choose the application data to import 
 
@@ -58,9 +60,11 @@ the Power Query Editor to transform your data before loading it.   
 
 For this example, you select the **Load** option.   
 
-[![Navigator window view with available tables](../media/5-navigator-window-view-tables-ss.png)](../media/5-navigator-window-view-tables-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Navigator window view with available tables](../media/5-navigator-window-view-tables-ss.png)](../media/5-navigator-window-view-tables-ss.png#lightbox)
 
-[![Close and Apply step to apply changes](../media/5-close-apply-step-changes-ssm.png)](../media/5-close-apply-step-changes-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Close and Apply step to apply changes](../media/5-close-apply-step-changes-ssm.png)](../media/5-close-apply-step-changes-ssm.png#lightbox)
 
 Once you are happy with your data, Select the **Close & Apply** button
 to apply your changes and load your data into Power BI Desktop. 

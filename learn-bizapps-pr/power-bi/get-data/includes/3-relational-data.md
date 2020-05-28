@@ -15,7 +15,8 @@ The Sales team at Tailwind Traders have requested that you connect to
 the organization's on-premises SQL Server database and get the sales
 data into Power BI Desktop so you can build sales reports.   
 
-[![Data flow from SQL database into Power BI](../media/3-get-data-sql-server-ssm.png)](../media/3-get-data-sql-server-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Data flow from SQL database into Power BI](../media/3-get-data-sql-server-ssm.png)](../media/3-get-data-sql-server-ssm.png#lightbox)
 
 ### Connect to data in a relational database 
 
@@ -28,7 +29,8 @@ as shown in the following screenshot.  
 > Next to the **Get Data** button are quick access data source
 options, such as **SQL Server.**
 
-[![Get Data from SQL Server](../media/3-get-data-sql-server-dropdown-ssm..png)](../media/3-get-data-sql-server-dropdown-ssm..png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Get Data from SQL Server](../media/3-get-data-sql-server-dropdown-ssm..png)](../media/3-get-data-sql-server-dropdown-ssm..png#lightbox)
 
 Your next step is to enter your database server name and a database name
 in the **SQL Server database** window. The two data connectivity mode
@@ -37,7 +39,8 @@ options are: **Import** (selected by default, recommended) and
 advanced options are also available in the **SQL Server database**
 window, but you can ignore them for now. 
 
-[![Provide SQL Server database details](../media/3-get-data-sql-server-db-ss.png)](../media/3-get-data-sql-server-db-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Provide SQL Server database details](../media/3-get-data-sql-server-db-ss.png)](../media/3-get-data-sql-server-db-ss.png#lightbox)
 
 After you have added your server and database
 names, select **OK**. Then, you will be prompted to sign in with a
@@ -52,7 +55,8 @@ username and password. You will have three sign-in options: 
 Select a sign-in option, enter your username and password, and
 then select **Connect**.  
 
-[![Provide authorization details](../media/3-sql-creds-ssm.png)](../media/3-sql-creds-ssm.png#lightbox) 
+> [!div class="mx-imgBorder"]
+> [![Provide authorization details](../media/3-sql-creds-ssm.png)](../media/3-sql-creds-ssm.png#lightbox) 
 
 ### Select data to import 
 
@@ -70,7 +74,8 @@ Data** option.  
 
 -   **Transform Data** - Open your data in Microsoft Power Query, where you can perform actions such as deleting unnecessary rows or columns, grouping your data, removing errors, and many other data quality activities. 
 
-	[![Navigator window with available tables](../media/3-table-selection-ssm.png)](../media/3-table-selection-ssm.png#lightbox)
+	> [!div class="mx-imgBorder"]
+	> [![Navigator window with available tables](../media/3-table-selection-ssm.png)](../media/3-table-selection-ssm.png#lightbox)
 
 ### Import data by writing an SQL query  
 
@@ -87,7 +92,8 @@ then select **OK**. In this example, you will use the **Select** SQL
 statement to load the ID, NAME and SALESAMOUNT columns **from** the
 SALES table. 
 
-[![Import data using SQL query](../media/3-sql-statement-ss.png)](../media/3-sql-statement-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Import data using SQL query](../media/3-sql-statement-ss.png)](../media/3-sql-statement-ss.png#lightbox)
 
 ### Change data source settings  
 
@@ -101,7 +107,8 @@ permissions. 
 On the **Home** tab, select **Transform data,** and then
 select the **Data source settings** option. 
 
-[![Edit Data source settings](../media/3-change-sql-settings-ssm.png)](../media/3-change-sql-settings-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Edit Data source settings](../media/3-change-sql-settings-ssm.png)](../media/3-change-sql-settings-ssm.png#lightbox)
 
 From the list of data sources that displays, select the data source that
 you want to update. Then, you can right-click that data source to view
@@ -109,11 +116,13 @@ the available update options or you can use the update option buttons on
 the lower left of the window. Select the update option that you
 need, change the settings as required, and then apply your changes. 
 
-[![Edit data source setting options](../media/3-sql-data-source-edit-ssm.png)](../media/3-sql-data-source-edit-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Edit data source setting options](../media/3-sql-data-source-edit-ssm.png)](../media/3-sql-data-source-edit-ssm.png#lightbox)
 
 You can also change your data source settings from within Power Query. Select the table, and then select the **Data source setting** option on the **Home** ribbon. Alternatively, you can go to the **Query Settings** panel on the right side of the screen and select the settings icon next to Source (or double Select Source). In the window that displays, update the server and database details, and then select **OK**. 
 
-[![Change data source settings](../media/3-edit-creds-ssm.png)](../media/3-edit-creds-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Change data source settings](../media/3-edit-creds-ssm.png)](../media/3-edit-creds-ssm.png#lightbox)
 
 After you have made the changes, select **Close and Apply** to
 apply those changes to your data source settings. 

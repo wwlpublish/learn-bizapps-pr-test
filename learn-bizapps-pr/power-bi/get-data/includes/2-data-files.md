@@ -7,7 +7,8 @@ delimited text (.txt) files, and fixed width files. Another type of file
 would be the output files from different applications, like
 Microsoft Excel workbooks (.xlsx). 
 
-[![get data from flat files icons](../media/2-file-types-c.png)](../media/2-file-types-c.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![get data from flat files icons](../media/2-file-types-c.png)](../media/2-file-types-c.png#lightbox)
 
 Power BI Desktop allows you to get data from many types of files. You
 can find a list of the available options when you use the **Get
@@ -56,7 +57,8 @@ Your Excel files might exist in one of the following locations: 
     Business. The main difference is how you connect to the file from
     Power BI. You can specify a URL or connect to the root folder. 
 
-	[![get data from files stored locally or from the cloud OneDrive or SharePoint](../media/2-local-vs-cloud-c.png)](../media/2-local-vs-cloud-c.png#lightbox)
+	> [!div class="mx-imgBorder"]
+	> [![get data from files stored locally or from the cloud OneDrive or SharePoint](../media/2-local-vs-cloud-c.png)](../media/2-local-vs-cloud-c.png#lightbox)
 
 Using a cloud option such as OneDrive or SharePoint Team Sites is the
 most effective way to keep your file and your dataset, reports, and
@@ -73,14 +75,16 @@ select **Excel**.    
 > [!TIP]
 > The **Home** tab contains quick access data source options, such as **Excel**, next to the **Get data** button.  
 
-[![Home Ribbon get data dropdown menu select excel](../media/2-get-data-excel-ssm.png)](../media/2-get-data-excel-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Home Ribbon get data dropdown menu select excel](../media/2-get-data-excel-ssm.png)](../media/2-get-data-excel-ssm.png#lightbox)
 
 Depending on your selection, you need to find and open your data source.
 You might be prompted to sign into a service, such as OneDrive, to
 authenticate your request. In this example, you will open the **Employee
 Data** Excel workbook that is stored on the Desktop. 
 
-[![Select file called employee data stored on the desktop](../media/2-excel-save-data-ssm.png)](../media/2-excel-save-data-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Select file called employee data stored on the desktop](../media/2-excel-save-data-ssm.png)](../media/2-excel-save-data-ssm.png#lightbox)
 
 ### Select the file data to import 
 
@@ -94,7 +98,8 @@ Select the check box(es) of the table(s) that you want to bring in to
 Power BI. This selection activates the **Load** and **Transform
 Data** buttons as shown in the following image. 
 
-[![Navigator window in Power BI Desktop](../media/2-excel-worksheet-ssm.png)](../media/2-excel-worksheet-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Navigator window in Power BI Desktop](../media/2-excel-worksheet-ssm.png)](../media/2-excel-worksheet-ssm.png#lightbox)
 
 You now have the option to select the **Load** button to automatically
 load your data into the Power BI model or select the **Transform
@@ -133,4 +138,5 @@ source settings** window, select your file and then select **Change
 Source**. Update the **File path** or use the **Browse** option to
 locate your file, select **OK**, and then select **Close**. 
 
-[![Data Source settings window in Power BI Desktop](../media/2-excel-data-source-settings-ssm.png)](../media/2-excel-data-source-settings-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Data Source settings window in Power BI Desktop](../media/2-excel-data-source-settings-ssm.png)](../media/2-excel-data-source-settings-ssm.png#lightbox)

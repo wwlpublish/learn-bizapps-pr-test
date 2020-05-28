@@ -23,7 +23,8 @@ BI Desktop and select **Analysis Services**.   
 You are prompted for the server address and the database name.  You will
 also see two new options, Import and **Connect live**. 
 
-[![Azure Analysis Services server and database](../media/7-analysis-services-connection-ss.png)](../media/7-analysis-services-connection-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Azure Analysis Services server and database](../media/7-analysis-services-connection-ss.png)](../media/7-analysis-services-connection-ss.png#lightbox)
 
 You already learned about the options for query import.    Just like
 Power BI, AAS uses a tabular model, and DAX to build calculations, AAS

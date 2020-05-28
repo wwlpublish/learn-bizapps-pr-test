@@ -46,7 +46,8 @@ computed, and outputted as a calculation.  
 How long it takes to render the visual components for that report
 element.  
 
-[![performance analyzer in Power BI](../media/8-performance-analyzer-ssm.png)](../media/8-performance-analyzer-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![performance analyzer in Power BI](../media/8-performance-analyzer-ssm.png)](../media/8-performance-analyzer-ssm.png#lightbox)
 
 If you are interested in learning more, please refer to [Use Performance Analyzer](https://docs.microsoft.com/power-bi/create-reports/desktop-performance-analyzer /?azure-portal=true).
 
@@ -104,7 +105,8 @@ Query, and being directed to the Power Query Editor navigate to the
 Query Settings pane, and right-click the last applied step, as seen in
 the following.  
 
-[![view native query](../media/8-view-native-query-ss.png)](../media/8-view-native-query-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![view native query](../media/8-view-native-query-ss.png)](../media/8-view-native-query-ss.png#lightbox)
 
 If "View Native Query" is not bold, this means that query folding is not
 possible for this step  and that you can work backwards in the Applied
@@ -142,14 +144,16 @@ making any other edits on Power Query Editor, select "Start Diagnostics"
 on Selecting Diagnostics of this tab. Then, when you are finished, make
 sure to select "Stop Diagnostics".  
 
-[![navigating to query diagnostics in Power query Editor](../media/8-navigating-query-diagnostics-ss.png)](../media/8-navigating-query-diagnostics-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![navigating to query diagnostics in Power query Editor](../media/8-navigating-query-diagnostics-ss.png)](../media/8-navigating-query-diagnostics-ss.png#lightbox)
 
 Selecting **Diagnose Step** will show you the duration it took to run
 that step, as shown in the following image. This can tell you if there
 was a step that took longer to complete, which then serves as a starting
 point to investigate further.  
 
-[![applying query diagnostics](../media/8-applying-query-diagnostics-ss.png)](../media/8-applying-query-diagnostics-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![applying query diagnostics](../media/8-applying-query-diagnostics-ss.png)](../media/8-applying-query-diagnostics-ss.png#lightbox)
 
 This tool is useful when you want to analyze performance on
 the Power Query side for tasks such as loading datasets, running data

@@ -44,7 +44,8 @@ a data table, and in the resulting Properties pane, scrolling down to
 Advanced and then to Storage Mode where you can choose which mode, as
 seen in the following visual.  
 
-[![showing storage mode](../media/6-storage-mode-ssm.png)](../media/6-storage-mode-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![showing storage mode](../media/6-storage-mode-ssm.png)](../media/6-storage-mode-ssm.png#lightbox)
 
 Let's take a closer look at the different types of Storage Modes.  
 

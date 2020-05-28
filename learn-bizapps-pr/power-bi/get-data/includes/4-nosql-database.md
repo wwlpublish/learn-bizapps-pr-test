@@ -21,7 +21,8 @@ locate and connect to the type of database that you use. In this
 example, you will select the **Azure** category, select **Azure
 Cosmos DB,** and then select **Connect**. 
 
-[![Get Data from Azure Cosmos DB option](../media/4-get-data-cosmos-ssm.png)](../media/4-get-data-cosmos-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Get Data from Azure Cosmos DB option](../media/4-get-data-cosmos-ssm.png)](../media/4-get-data-cosmos-ssm.png#lightbox)
 
 On the **Preview Connector** window, select **Continue** and then enter
 your database credentials. In this example, on the **Azure Cosmos
@@ -50,7 +51,8 @@ will select the Product table. The preview pane only shows **Record**
 items because all records in the document are represented as a Record
 type in Power BI. 
 
-[![Navigator window with list of available records](../media/4-cosmos-navigator-ss.png)](../media/4-cosmos-navigator-ss.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Navigator window with list of available records](../media/4-cosmos-navigator-ss.png)](../media/4-cosmos-navigator-ss.png#lightbox)
 
 Select the **Edit** button to open the records in Power Query.  
 
@@ -60,12 +62,14 @@ of fields. Select the fields that you want to load into Power BI
 Desktop, clear the **Use original column name as prefix** checkbox, and
 then select **OK**. 
 
-[![Expand records function](../media/4-expand-record-ssm.png)](../media/4-expand-record-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Expand records function](../media/4-expand-record-ssm.png)](../media/4-expand-record-ssm.png#lightbox)
 
 Review the selected data to ensure that you are satisfied with it,
 then select **Close & Apply** to load the data into Power BI Desktop. 
 
-[![Close and Apply step in Power Query](../media/4-cosmos-results-ssm.png)](../media/4-cosmos-results-ssm.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Close and Apply step in Power Query](../media/4-cosmos-results-ssm.png)](../media/4-cosmos-results-ssm.png#lightbox)
 
 The data now resembles a table with rows and columns. Data from Cosmos
 DB can now be related to data from other data sources and can eventually
