@@ -27,7 +27,7 @@ asked to combine data from.
 
 [![TradeWind Traders data locations](../media/1-data-source-scenario-c.png)](../media/1-data-source-scenario-c.png#lightbox) 
 
-:::image type="content" source="../media/1-data-source-scenario-c.png alt-text="TradeWind Traders data locations." lightbox="media/1-data-source-scenario-c.png":::
+:::image type="content" source="media/1-data-source-scenario-c.png" alt-text="TradeWind Traders data locations" lightbox="media/1-data-source-scenario-c.png":::
 
 Before you can create reports, you must first extract the data from the
 various data sources. Interacting with SQL Server is very different from
