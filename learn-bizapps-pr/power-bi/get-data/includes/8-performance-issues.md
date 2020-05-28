@@ -142,7 +142,7 @@ making any other edits on Power Query Editor, select "Start Diagnostics"
 on Selecting Diagnostics of this tab. Then, when you are finished, make
 sure to select "Stop Diagnostics".  
 
-[![navigating to query diagnostics in Power query Editor](../8-navigating-query-diagnostics-ss.png)](../media/8-navigating-query-diagnostics-ss.png#lightbox)
+[![navigating to query diagnostics in Power query Editor](../media/8-navigating-query-diagnostics-ss.png)](../media/8-navigating-query-diagnostics-ss.png#lightbox)
 
 Selecting **Diagnose Step** will show you the duration it took to run
 that step, as shown in the following image. This can tell you if there
