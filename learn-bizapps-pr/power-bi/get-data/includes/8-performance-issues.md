@@ -8,7 +8,7 @@ performance issues, you need to identify the most and least efficient
 report elements so that you can ensure your reports are performing at
 the highest level. How can you do that? 
 
-You can do this by utilizing the Performance Analyzer, which are
+You can do this by utilizing the Performance Analyzer, which is
 logs that measure how your report elements are performing as
 you and your users are interacting with them by measuring the duration
 of how long it takes to load report elements. By doing this, Performance
@@ -29,7 +29,7 @@ collected.
 Performance Analyzer process and are OK with losing any previous
 results.
 
-Each interaction creates a grouping which includes the details of the
+Each interaction creates a grouping, which includes the details of the
 action conducted and the duration to complete the action, as you can see
 in "Changed a Slicer" at location 1 in the above image. Expanding on a
 report element within a grouping will show that each grouping has DAX
@@ -53,7 +53,7 @@ If you are interested in learning more, please refer to [Use Performance Analyze
 ## Optimize Performance in Power BI 
 
 Now that we've discussed how to pinpoint potential bottlenecks, how can
-we optimize our processes to reduce this potential sources of reduced
+we optimize our processes to reduce this potential source of reduced
 performance? To answer this question, let's look at a few different
 optimization methods:
 
@@ -64,8 +64,7 @@ optimization methods:
 ### Query Folding 
 
 Query Folding is the process by which the transformations and edits you
-make in Power Query Editor are simultaneously tracked as native queries
--- or simple SELECT statements - while you are actively making
+make in Power Query Editor are simultaneously tracked as native queries - or simple SELECT statements - while you are actively making
 transformations, so that these transformations can take place in the
 original data source server and do not overwhelm Power BI computing
 resources.  
@@ -74,7 +73,7 @@ When you load data in Power BI, you utilize Power Query to do so. When
 you make further transformations to your data such as renaming or
 deleting columns, appending, parsing, filtering, or grouping your
 data, you do this in Power Query Editor. Within Power Query Editor is a
-feature called Query Folding which can improve the performance of your
+feature called Query Folding, which can improve the performance of your
 Power BI reports.  
 
 Let's say you've renamed a few columns in the Sales data and merged a
@@ -143,8 +142,7 @@ making any other edits on Power Query Editor, select "Start Diagnostics"
 on Selecting Diagnostics of this tab. Then, when you are finished, make
 sure to select "Stop Diagnostics".  
 
-[![navigating to query diagnostics in Power query
-Editor](../8-navigating-query-diagnostics-ss.png)](../media/8-navigating-query-diagnostics-ss.png#lightbox)
+[![navigating to query diagnostics in Power query Editor](../8-navigating-query-diagnostics-ss.png)](../media/8-navigating-query-diagnostics-ss.png#lightbox)
 
 Selecting **Diagnose Step** will show you the duration it took to run
 that step, as shown in the following image. This can tell you if there
@@ -153,7 +151,7 @@ point to investigate further.  
 
 [![applying query diagnostics](../media/8-applying-query-diagnostics-ss.png)](../media/8-applying-query-diagnostics-ss.png#lightbox)
 
-This tool is particularly useful when you want to analyze performance on
+This tool is useful when you want to analyze performance on
 the Power Query side for tasks such as loading datasets, running data
 refreshes, or running other transformative tasks. 
 
@@ -166,7 +164,7 @@ the ways are outlined below:  
     source.** Power Query and Power Query Editor are built to allow
     you to process the data, however, the processing power required to
     do this may lower performance in other areas of your reports. It
-    is generally good practice to process as much as possible in the
+    is good practice to process as much as possible in the
     native data source.  
 
 -   **Use native SQL queries.** When using DirectQuery for SQL

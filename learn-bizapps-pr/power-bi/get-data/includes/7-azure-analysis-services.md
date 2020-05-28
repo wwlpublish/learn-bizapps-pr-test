@@ -1,7 +1,7 @@
 TradeWind Traders uses Azure Analysis Services to store financial
 projection data.  You've been asked to compare this with actual sales
 data in a different database.   Getting data from Analysis Services
-cubes is very similar to getting data from a SQL Server.  For instance: 
+cubes is similar to getting data from a SQL Server.  For instance: 
 
 1.  You authenticate to the server. 
 
@@ -46,8 +46,8 @@ can use DAX or MDX.   
 For our example, because we need to tie goal data to other data in our
 organization, we will import the data directly into Power BI.  An
 acceptable alternative would be to import all the other data we are
-interested in (from Excel, SQL Server, etc) into the AAS model and use
-Connect live. That way the modeling and DAX measures can all performed
+interested in (from Excel, SQL Server, etc.) into the AAS model and use
+Connect live. That way the modeling and DAX measures can all be performed
 in one place.  This can be a much simpler and easier to maintain
 solution. 
 
