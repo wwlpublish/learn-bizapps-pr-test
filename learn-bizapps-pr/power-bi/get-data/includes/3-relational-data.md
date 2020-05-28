@@ -70,7 +70,7 @@ Data** option.  
 
 -   **Transform Data** - Open your data in Microsoft Power Query, where you can perform actions such as deleting unnecessary rows or columns, grouping your data, removing errors, and many other data quality activities. 
 
-[![Navigator window with available tables](../media/3-table-selection-ssm.png)](../media/3-table-selection-ssm.png#lightbox)
+	[![Navigator window with available tables](../media/3-table-selection-ssm.png)](../media/3-table-selection-ssm.png#lightbox)
 
 ### Import data by writing an SQL query  
 

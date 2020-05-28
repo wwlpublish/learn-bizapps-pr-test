@@ -60,7 +60,7 @@ error event tells you the resolution. Perform the following steps:
 
 1.  Verify that is how you'd like to name your columns.  Then try to import data from Excel again.  This time, it works!  
 
-[![Power BI Excel error: We couldn't find any data formatted as a table](../media/9-format-as-table-excel-ss.png)](../media/9-format-as-table-excel-ss.png#lightbox)
+	[![Power BI Excel error: We couldn't find any data formatted as a table](../media/9-format-as-table-excel-ss.png)](../media/9-format-as-table-excel-ss.png#lightbox)
 
 ### Could not find file 
 

@@ -56,7 +56,7 @@ Your Excel files might exist in one of the following locations: 
     Business. The main difference is how you connect to the file from
     Power BI. You can specify a URL or connect to the root folder. 
 
-[![get data from files stored locally or from the cloud OneDrive or SharePoint](../media/2-local-vs-cloud-c.png)](../media/2-local-vs-cloud-c.png#lightbox)
+	[![get data from files stored locally or from the cloud OneDrive or SharePoint](../media/2-local-vs-cloud-c.png)](../media/2-local-vs-cloud-c.png#lightbox)
 
 Using a cloud option such as OneDrive or SharePoint Team Sites is the
 most effective way to keep your file and your dataset, reports, and
