@@ -11,8 +11,8 @@ Server.  That database contains which customer bought which items and
 when. It also tracks which Employee made the sale, along with the
 employee name and employee id. It doesn't contain the employee hire
 date, the employee title, or who their manager is. For that, you need to
-pull in some files that HR keeps in MS Excel. You\'ve been begging them
-for years to use a SQL database, but they haven\'t gotten around to it
+pull in some files that HR keeps in MS Excel. You've been begging them
+for years to use a SQL database, but they haven't gotten around to it
 yet.   
 
 When an item ships, it gets recorded in the warehousing application. 
@@ -25,7 +25,7 @@ months and years, based on past trends.  Those projections are stored in
 Azure Analysis Services.  Here's a view of the many datasources you are
 asked to combine data from.
 
-:::image type="content" source="media/1-data-source-scenario-c.png" alt-text="TradeWind Traders data locations" lightbox="media/1-data-source-scenario-c.png":::
+:::image type="content" source="../media/1-data-source-scenario-c.png" alt-text="TradeWind Traders data locations" lightbox="../media/1-data-source-scenario-c.png":::
 
 Before you can create reports, you must first extract the data from the
 various data sources. Interacting with SQL Server is very different from
