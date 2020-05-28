@@ -19,7 +19,7 @@ data into Power BI Desktop so you can build sales reports.   
 
 ### Connect to data in a relational database 
 
-You can use the **Get data **feature in Power BI
+You can use the **Get data** feature in Power BI
 Desktop and select the applicable option for your relational
 database. For this example, you would select the **SQL Server** option,
 as shown in the following screenshot.  
@@ -81,10 +81,10 @@ load on SQL Server.   
 
 To write your SQL query, on the **SQL Server database** window, enter
 your server and database names, and then select the arrow next
-to **Advanced options **to expand this section and view your options. In
+to **Advanced options** to expand this section and view your options. In
 the **SQL statement** box, write your query statement, and
-then select** OK**. In this example, you will use the **Select** SQL
-statement to load the ID, NAME and SALESAMOUNT columns **from **the
+then select **OK**. In this example, you will use the **Select** SQL
+statement to load the ID, NAME and SALESAMOUNT columns **from** the
 SALES table. 
 
 [![Import data using SQL query](../media/3-sql-statement-ss.png)](../media/3-sql-statement-ss.png#lightbox)
@@ -111,13 +111,7 @@ need, change the settings as required, and then apply your changes. 
 
 [![Edit data source setting options](../media/3-sql-data-source-edit-ssm.png)](../media/3-sql-data-source-edit-ssm.png#lightbox)
 
-You can also change your data source settings from within Power
-Query. Select the table, and then select the **Data source
-setting** option on the **Home** ribbon. Alternatively, you can go to
-the **Query Settings** panel on the right side of the
-screen and select the settings icon next to Source (or
-double Select Source). In the window that displays, update the server
-and database details, and then select **OK**. 
+You can also change your data source settings from within Power Query. Select the table, and then select the **Data source setting** option on the **Home** ribbon. Alternatively, you can go to the **Query Settings** panel on the right side of the screen and select the settings icon next to Source (or double Select Source). In the window that displays, update the server and database details, and then select **OK**. 
 
 [![Change data source settings](../media/3-edit-creds-ssm.png)](../media/3-edit-creds-ssm.png#lightbox)
 

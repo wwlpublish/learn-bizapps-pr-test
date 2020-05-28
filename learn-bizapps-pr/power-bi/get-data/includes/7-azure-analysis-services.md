@@ -11,10 +11,7 @@ cubes is similar to getting data from a SQL Server.  For instance: 
 
 There are some notable differences, however: 
 
-1.  Analysis Services cubes have calculations already in the cube.   If
-    > you don't need an entire table, you can query the data directly. 
-    > Instead of using T-SQL to query the data, like you do in SQL
-    > Server, you use  DAX or MDX. 
+1.  Analysis Services cubes have calculations already in the cube. If you don't need an entire table, you can query the data directly. Instead of using T-SQL to query the data, like you do in SQL Server, you use  DAX or MDX. 
 
 1.  You don't need to use the Get Data button in Power BI Desktop. 
 

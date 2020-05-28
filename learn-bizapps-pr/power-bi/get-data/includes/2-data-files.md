@@ -67,7 +67,7 @@ regularly, saving files on a local computer is a suitable option.  
 
 In Power BI, on the **Home** tab, select **Get data**. In the list that
 displays, select the option that you require, such
-as **Text/CSV **or **XML**. For this example, you will
+as **Text/CSV** or **XML**. For this example, you will
 select **Excel**.    
 
 > [!TIP]

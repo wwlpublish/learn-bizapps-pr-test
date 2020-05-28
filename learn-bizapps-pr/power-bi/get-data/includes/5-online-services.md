@@ -24,7 +24,7 @@ list.  
 
 When connecting to data in an application, you would begin in the same
 way as you would when connecting to the other data sources:
-by selecting the **Get data **feature in Power BI Desktop. Then, select
+by selecting the **Get data** feature in Power BI Desktop. Then, select
 the option that you need from the **Online Services** category. In this
 example, you select SharePoint Online.  
 
@@ -59,9 +59,6 @@ the Power Query Editor to transform your data before loading it.   
 For this example, you select the **Load** option.   
 
 [![Navigator window view with available tables](../media/5-navigator-window-view-tables-ss.png)](../media/5-navigator-window-view-tables-ss.png#lightbox)
-
-Alt: :
-5-*get-data-from-applications-SSM.png * 
 
 [![Close and Apply step to apply changes](../media/5-close-apply-step-changes-ssm.png)](../media/5-close-apply-step-changes-ssm.png#lightbox)
 
