@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-data 
 metadata: 
- title: Get data in Power BI. 
+ title: Get data in Power BI
  description: This module will focus on getting the data from the different data sources and importing it into Power BI by using Power Query. 
  ms.date: 06/20/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
-title: Get data in Power BI.  
+title: Get data in Power BI  
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module will focus on getting the data from the different data sources and importing it into Power BI by using Power Query. 
