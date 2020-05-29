@@ -45,7 +45,7 @@ This module will focus on the first step, getting the data from the
 different data sources and importing it into Power BI by using Power
 Query. 
 
-In this module, you will: 
+By the end of this module, you’ll be able to:
 
 -   Identify and connect to a data source 
 

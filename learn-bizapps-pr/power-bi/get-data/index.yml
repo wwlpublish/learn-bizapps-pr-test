@@ -13,7 +13,7 @@ summary: |
   [!include[](../includes/module-banner.md)] 
   This module will focus on getting the data from the different data sources and importing it into Power BI by using Power Query. 
 abstract: |  
-    In this module, you will: 
+    By the end of this module, you’ll be able to: 
     - Identify and connect to a data source 
     - Get data from a relational database, like Microsoft SQL Server 
     - Get data from a file, like Microsoft Excel 
