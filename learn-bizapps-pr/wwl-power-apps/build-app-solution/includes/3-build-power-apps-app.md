@@ -31,8 +31,8 @@ Power Apps generates the app by inspecting your data and matching it with Power 
 Your new three-screen app now opens in Power Apps Studio.
 
 The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.
-    > [!div class="mx-imgBorder"]
-    > ![App editor view](../media/power-apps-edit.png)
+> [!div class="mx-imgBorder"]
+> ![App editor view](../media/power-apps-edit.png)
 
 Select Play [Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 
