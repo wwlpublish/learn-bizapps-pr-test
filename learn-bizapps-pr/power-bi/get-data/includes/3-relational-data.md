@@ -127,7 +127,7 @@ apply those changes to your data source settings. 
 As previously mentioned, you can import data into your Power BI model by
 using an SQL query. SQL stands for Structured Query Language and is a
 standardized programming language that is used to manage relational
-databases and perform various data management operations 
+databases and perform various data management operations.
 
 Consider the scenario where your database has a large table that is
 comprised of sales data over several years.  Sales data from 2009 is not
