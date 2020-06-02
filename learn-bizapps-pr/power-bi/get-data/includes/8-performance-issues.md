@@ -1,10 +1,10 @@
-Occasionally, organizations need to address performance issues when running reports. Power BI provides the Performance Analyzer tool to help fix problems and streamline the process.
+Occasionally, organizations will need to address performance issues when running reports. Power BI provides the Performance Analyzer tool to help fix problems and streamline the process.
  
-Consider the scenario where you are building reports for the Sales team in your organization. You’ve imported your data, which is in several tables within the Sales team’s SQL database, by creating a data connection to the database through DirectQuery. When you create preliminary visuals and filters, you notice that some tables are queried faster than others, and some filters are taking longer to process compared to others.  
+Consider the scenario where you are building reports for the Sales team in your organization. You’ve imported your data, which is in several tables within the Sales team’s SQL database, by creating a data connection to the database through DirectQuery. When you create preliminary visuals and filters, you notice that some tables are queried faster than others, and some filters are taking longer to process compared to others. 
 
 ## Optimize performance in Power Query
 
-Great performance in Power Query begins with great performance at the data source.  The variety of data sources that Power Query offers is very wide, and the performance tuning techniques for each source are equally wide.   For instance, if you extract data from a Microsoft SQL Server, you should follow the performance tuning guidelines for that product.  Good SQL Server performance tuning techniques includes index creation, hardware upgrades, execution plan tuning, and data compression.  These topics are beyond the scope here, and are covered as an example that building familiarity with your data source to reap benefits when using Power BI and Power Query.
+The performance in Power Query depends on the performance at the data source level. The variety of data sources that Power Query offers is very wide, and the performance tuning techniques for each source are equally wide. For instance, if you extract data from a Microsoft SQL Server, you should follow the performance tuning guidelines for the product. Good SQL Server performance tuning techniques includes index creation, hardware upgrades, execution plan tuning, and data compression. These topics are beyond the scope here, and are covered only as an example to build familiarity with your data source and reap the benefits when using Power BI and Power Query.
 
 Power Query takes advantage of good performance at the data source through a technique called Query Folding.
 
@@ -38,8 +38,6 @@ Native queries are not possible for the following transformations:
 
 A good guideline to remember is that if you can translate a transformation into a **Select** SQL statement, which includes operators and clauses such as GROUP BY, SORT BY, WHERE, UNION ALL, and JOIN, you can use query folding. 
 
-For more information, refer to [Query Folding Guidance](https://docs.microsoft.com/power-bi/guidance/power-query-folding/?azure-portal=true) and [Query Folding](https://docs.microsoft.com/power-query/power-query-folding/?azure-portal=true). 
-
 While query folding is one option to optimize performance when retrieving, importing, and preparing data, another option is query diagnostics. 
 
 ### Query diagnostics  
@@ -70,3 +68,4 @@ Other ways to optimize query performance in Power BI include:
 
 - **Separate date and time, if bound together.** If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. This approach will increase compression abilities. 
 
+For more information, refer to [Query Folding Guidance](https://docs.microsoft.com/power-bi/guidance/power-query-folding/?azure-portal=true) and [Query Folding](https://docs.microsoft.com/power-query/power-query-folding/?azure-portal=true). 
