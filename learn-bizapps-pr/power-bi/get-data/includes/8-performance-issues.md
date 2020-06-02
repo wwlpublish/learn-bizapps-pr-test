@@ -2,13 +2,13 @@ Occasionally, organizations need to address performance issues when running repo
  
 Consider the scenario where you are building reports for the Sales team in your organization. You’ve imported your data, which is in several tables within the Sales team’s SQL database, by creating a data connection to the database through DirectQuery. When you create preliminary visuals and filters, you notice that some tables are queried faster than others, and some filters are taking longer to process compared to others.  
 
-## Optimize Performance in Power Query
+## Optimize performance in Power Query
 
 Great performance in Power Query begins with great performance at the data source.  The variety of data sources that Power Query offers is very wide, and the performance tuning techniques for each source are equally wide.   For instance, if you extract data from a Microsoft SQL Server, you should follow the performance tuning guidelines for that product.  Good SQL Server performance tuning techniques includes index creation, hardware upgrades, execution plan tuning, and data compression.  These topics are beyond the scope here, and are covered as an example that building familiarity with your data source to reap benefits when using Power BI and Power Query.
 
 Power Query takes advantage of good performance at the data source through a technique called Query Folding.
 
-### Query Folding 
+### Query folding 
 
 The query folding within Power Query Editor helps you increase the performance of your Power BI reports. *Query folding* is the process by which the transformations and edits that you make in Power Query Editor are simultaneously tracked as native queries, or simple **Select** SQL statements, while you are actively making transformations. The reason for implementing this process is to ensure that these transformations can take place in the original data source server and do not overwhelm Power BI computing resources. 
 
