@@ -8,17 +8,12 @@ meaningful insights and reports. 
 
 Tailwind Traders uses SharePoint to collaborate and store sales
 data. It's the start of the new financial year and the sales
-managers want to enter new goals for the sales team. The form that the
-leaders use exists in SharePoint. You are required to establish a
+managers want to enter new goals for the sales team. The form that the leadership uses exists in SharePoint. You are required to establish a
 connection to this data within Power BI Desktop, so that the sales goals
 can be used alongside other sales data to determine the health of the
 sales pipeline. 
 
-The following sections examine how to use the Power BI Desktop Get
-Data feature to connect to data sources that are produced by external
-applications. To illustrate this process, an example is provided that
-shows how to connect to a SharePoint site and import data from an online
-list.  
+The following sections examine how to use the Power BI Desktop **Get Data** feature to connect to data sources that are produced by external applications. To illustrate this process, an example is provided that shows how to connect to a SharePoint site and import data from an online list.  
 
 ### Connect to data in an application 
 
@@ -26,14 +21,14 @@ When connecting to data in an application, you would begin in the same
 way as you would when connecting to the other data sources:
 by selecting the **Get data** feature in Power BI Desktop. Then, select
 the option that you need from the **Online Services** category. In this
-example, you select SharePoint Online.  
+example, you select **SharePoint Online List**.  
 
 After you have selected **Connect**, you'll be asked for your
 SharePoint URL. This URL is the one that you use to sign into your
 SharePoint site through a web browser. You can copy the URL from your
 SharePoint site and paste it into the connection window in Power BI. You
 do not need to enter your full URL file path; you only need to load your
-site URL because when you are connected, you can select the specific
+site URL because, when you are connected, you can select the specific
 list that you want to load. Depending on the URL that you copied, you
 might need to delete the last part of your URL, as illustrated in the
 following image. 
@@ -66,5 +61,5 @@ For this example, you select the **Load** option.   
 > [!div class="mx-imgBorder"]
 > [![Close and Apply step to apply changes](../media/5-close-apply-step-changes-ssm.png)](../media/5-close-apply-step-changes-ssm.png#lightbox)
 
-Once you are happy with your data, Select the **Close & Apply** button
+When you are satisfied with your data, select the **Close & Apply** button
 to apply your changes and load your data into Power BI Desktop. 
