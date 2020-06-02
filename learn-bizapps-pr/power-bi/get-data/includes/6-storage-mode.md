@@ -4,21 +4,7 @@ To continue with the scenario, you are building Power BI reports for the Sales d
 
 However, sometimes there may be security requirements around your data that make it impossible to directly import a copy. Or your datasets may simply be too large and would take too long to load into Power BI, and you want to avoid creating a performance bottleneck. Power BI solves these problems by using the DirectQuery storage mode, which allows you to query the data in the data source directly and not import a copy into Power BI. DirectQuery is useful because it ensures you are always viewing the most recent version of the data.
 
-The three different types of storage modes you can choose from are:
 
--   Import 
-
--   DirectQuery 
-
--   Dual (Composite)
-
-You can access storage modes by switching to the **Model** view, selecting a data table, and in the resulting Properties pane, selecting the mode you want to use from the **Storage mode** drop-down list, as shown in the following visual. 
-=======
-The most popular way to use data in Power BI is to import it into a Power BI dataset. Importing the data means that the data is stored in the Power BI file and gets published along with the Power BI reports. This process helps make it easier for you to interact directly with your data. 
-
-To continue with the module scenario, you are building Power BI reports for the Sales department at TradeWind Traders, where importing the data is not an ideal method. The first task you need to accomplish is to create your datasets in Power BI so you can build visuals and other report elements. The Sales department has many different datasets of varying sizes. For security reasons, you are not allowed to import local copies of the data into your reports so directly importing data is no longer an option. Therefore, you need to be able to create a direct connection to the Sales department’s data source. The following section describes how you can ensure these business requirements are satisfied when you are importing data into Power BI.
-
-However, sometimes there may be security requirements around your data that make it impossible to directly import a copy. Or your datasets may simply be too large and would take too long to load into Power BI, and you want to avoid creating a performance bottleneck. Power BI solves these problems by using the DirectQuery mode, which allows you to query the data in the data source directly and not import a copy into Power BI. DirectQuery is useful because it ensures you are always viewing the most recent version of the data.
 
 The three different types of storage modes you can choose from:
 

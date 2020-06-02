@@ -21,7 +21,7 @@ As previously mentioned, you use the **Get data** feature in Power BI Desktop. W
 > [!div class="mx-imgBorder"]
 > [![Azure Analysis Services server and database](../media/7-analysis-services-connection-ss.png)](../media/7-analysis-services-connection-ss.png#lightbox)
 
-**Connect live is a new option in** Azure Analysis Services. . Azure Analysis Services uses the tabular model and DAX to build calculations, similar to Power BI. These models are compatible with one another. Using the Connect live option helps you keep the data and DAX calculations in their original location, without having to import them all into Power BI. Azure Analysis Services can have a fast refresh schedule , which means that when data is refreshed in the service, Power BI reports will immediately be updated, without the need to initiate a Power BI refresh schedule. This process can improve the timeliness of the data in your report. 
+**Connect live** is a new option in Azure Analysis Services. Azure Analysis Services uses the tabular model and DAX to build calculations, similar to Power BI. These models are compatible with one another. Using the Connect live option helps you keep the data and DAX calculations in their original location, without having to import them all into Power BI. Azure Analysis Services can have a fast refresh schedule , which means that when data is refreshed in the service, Power BI reports will immediately be updated, without the need to initiate a Power BI refresh schedule. This process can improve the timeliness of the data in your report. 
  
 Similar to a relational database, you can choose the tables that you want to use. If you want to directly query the Azure Analysis Services model, you can use DAX or MDX. 
  
