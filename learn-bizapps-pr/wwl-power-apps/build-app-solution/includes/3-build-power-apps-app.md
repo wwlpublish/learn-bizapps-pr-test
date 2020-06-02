@@ -30,7 +30,7 @@ Power Apps generates the app by inspecting your data and matching it with Power 
 
 Your new three-screen app now opens in Power Apps Studio.
 
-The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.
+The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.  
 > [!div class="mx-imgBorder"]
 > ![App editor view](../media/power-apps-edit.png)
 
@@ -169,8 +169,8 @@ A few basic steps can greatly improve the appearance and experience of using an 
 A control is a UI element that produces an action or shows information. Many controls in Power Apps are similar to controls that you've used in other apps: labels, text-input boxes, drop-down lists, navigation elements, and so on.
 
 In addition to these typical controls, Power Apps has more specialized controls, which you can find on the **Insert** tab.
-    > [!div class="mx-imgBorder"]
-    >![Control type list](../media/control-type-list.png)
+> [!div class="mx-imgBorder"]
+> ![Control type list](../media/control-type-list.png)
 
 A few controls that can add interest and impact to your apps include:
 
