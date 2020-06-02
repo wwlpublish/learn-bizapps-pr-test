@@ -26,8 +26,7 @@ located in several other data sources.   
 
 ### Flat file location 
 
-The first step in getting data from a flat file is to determine which
-file location you want to consume from and save to.  
+The first step is to determine which file location that you want to use to export and store your data.
 
 Your Excel files might exist in one of the following locations: 
 
@@ -38,7 +37,7 @@ Your Excel files might exist in one of the following locations: 
     original Excel file are not reflected in your Power BI dataset.
     You can use local data import for data that doesn't change. 
 
--   **OneDrive - Business** - You can pull data from OneDrive for
+-   **OneDrive for Business** - You can pull data from OneDrive for
     Business into Power BI. This method is effective in keeping an
     Excel file and your dataset, reports, and dashboards in Power BI
     synchronized. Power BI connects regularly to your file on
@@ -52,10 +51,7 @@ Your Excel files might exist in one of the following locations: 
     option. Check with your system administrator to determine whether
     this type of connection is allowed in your organization. 
 
--   **SharePoint - Team Sites** - Saving your Power BI Desktop files to
-    SharePoint Team Sites is similar to saving to OneDrive for
-    Business. The main difference is how you connect to the file from
-    Power BI. You can specify a URL or connect to the root folder. 
+-   **SharePoint - Team Sites** - Saving your Power BI Desktop files to SharePoint Team Sites is similar to saving to OneDrive for Business. The main difference is how you connect to the file from Power BI. You can specify a URL or connect to the root folder. 
 
 	> [!div class="mx-imgBorder"]
 	> [![get data from files stored locally or from the cloud OneDrive or SharePoint](../media/2-local-vs-cloud-c.png)](../media/2-local-vs-cloud-c.png#lightbox)
@@ -88,11 +84,7 @@ Data** Excel workbook that is stored on the Desktop. 
 
 ### Select the file data to import 
 
-After the file has connected to Power BI Desktop,
-the **Navigator** window opens. This window shows you the data that is
-available in your data source (the Excel file in this example). You can
-select a table or entity to preview its contents, so you can make sure
-that the correct data will be loaded into the Power BI model.   
+After the file has connected to Power BI Desktop, the Navigator window opens. This window shows you the data that is available in your data source (the Excel file in this example). You can select a table or entity to preview its contents, to ensure that the correct data is loaded into the Power BI model.
 
 Select the check box(es) of the table(s) that you want to bring in to
 Power BI. This selection activates the **Load** and **Transform
@@ -121,9 +113,7 @@ Power Query provides a number of ways for you to accomplish this
 task, so that you can make this type of change when needed. 
 
 1.  Data source settings  
-
 1.  Query settings  
-
 1.  Advanced Editor 
 
 > [!WARNING]
