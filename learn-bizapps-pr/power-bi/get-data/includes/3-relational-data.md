@@ -33,8 +33,7 @@ options, such as **SQL Server.**
 > [![Get Data from SQL Server](../media/3-get-data-sql-server-dropdown-ssm..png)](../media/3-get-data-sql-server-dropdown-ssm..png#lightbox)
 
 Your next step is to enter your database server name and a database name
-in the **SQL Server database** window. The two data connectivity mode
-options are: **Import** (selected by default, recommended) and
+in the **SQL Server database** window. The two options in data connectivity mode are: **Import** (selected by default, recommended) and
 **DirectQuery**. Mostly, you select **Import.** Other
 advanced options are also available in the **SQL Server database**
 window, but you can ignore them for now. 
@@ -42,9 +41,7 @@ window, but you can ignore them for now. 
 > [!div class="mx-imgBorder"]
 > [![Provide SQL Server database details](../media/3-get-data-sql-server-db-ss.png)](../media/3-get-data-sql-server-db-ss.png#lightbox)
 
-After you have added your server and database
-names, select **OK**. Then, you will be prompted to sign in with a
-username and password. You will have three sign-in options: 
+After you have added your server and database names, you will be prompted to sign in with a username and password. You will have three sign-in options: 
 
 -   **Windows** - Use your Windows account (Azure Active Directory credentials).
 
@@ -72,17 +69,15 @@ Data** option.  
 
 -   **Load** - Automatically load your data into a Power BI model in its current state. 
 
--   **Transform Data** - Open your data in Microsoft Power Query, where you can perform actions such as deleting unnecessary rows or columns, grouping your data, removing errors, and many other data quality activities. 
+-   **Transform Data** - Open your data in Microsoft Power Query, where you can perform actions such as deleting unnecessary rows or columns, grouping your data, removing errors, and many other data quality tasks. 
 
 	> [!div class="mx-imgBorder"]
 	> [![Navigator window with available tables](../media/3-table-selection-ssm.png)](../media/3-table-selection-ssm.png#lightbox)
 
 ### Import data by writing an SQL query  
 
-Another way you can import data is to write a SQL
-query to specify only the tables and columns that you need. This
-approach makes the import process faster and will lower the performance
-load on SQL Server.   
+Another way you can import data is to write an SQL
+query to specify only the tables and columns that you need. This approach makes the import process faster and will lower the performance load on SQL Server.   
 
 To write your SQL query, on the **SQL Server database** window, enter
 your server and database names, and then select the arrow next
@@ -100,7 +95,7 @@ SALES table. 
 After you create a data source connection and load data into Power BI
 Desktop, you can return and change your connection settings at any
 time. This action is often required due to a security policy within the
-organization, for example when the password needs to be updated every 90
+organization, for example, when the password needs to be updated every 90
 days. You can change the data source, edit permissions or clear
 permissions. 
 
@@ -132,7 +127,7 @@ apply those changes to your data source settings. 
 As previously mentioned, you can import data into your Power BI model by
 using an SQL query. SQL stands for Structured Query Language and is a
 standardized programming language that is used to manage relational
-databases and perform various operations on the data in them.  
+databases and perform various data management operations 
 
 Consider the scenario where your database has a large table that is
 comprised of sales data over several years.  Sales data from 2009 is not
@@ -146,9 +141,9 @@ data in your SQL query.  
 The following example shows a simple query where the ID, NAME
 and SALESAMOUNT are selected from the SALES table. 
 
-The SQL query starts with a SELECT statement, which allows you to
+The SQL query starts with a **Select** statement, which allows you to
 choose the specific fields that you want to pull from your database. In
-this example, you want to load the ID, NAME and SALESAMOUNT columns. 
+this example, you want to load the ID, NAME, and SALESAMOUNT columns. 
 
 	```
 	SELECT  
@@ -172,9 +167,7 @@ full SQL query: 
 	```
 
 When using an SQL query to import data, try to avoid using the wildcard
-character (\*) in your query. If you use the wildcard character (\*) in
-your SELECT statement, you import all contents from the specified
-table. 
+character (\*) in your query. If you use the wildcard character (\*) in your SELECT statement, you import all columns that you don't need from the specified table. 
 
 The following example shows the query using the wildcard character.  
 
@@ -184,15 +177,11 @@ The following example shows the query using the wildcard character.  
 	SALES 
 	```
 
-The wildcard character (\*) will import all columns within the SALES
-table. This method is not recommended because it will lead to redundant
+The wildcard character (\*) will import all columns within the **Sales** table. This method is not recommended because it will lead to redundant
 data in your data model, which will cause performance issues and require
 additional steps to normalize your data for reporting.  
 
-All queries should also have a **WHERE** clause. This clause will filter
-the rows to the exact records that you want. In this example, if you
-want to get recent sales data only, add a **WHERE** clause. The final
-query would look like the following example.
+All queries should also have a **WHERE** clause. This clause will filter the rows to pick only filtered records that you want. In this example, if you want to get recent sales data after Jan 1, 2020, add a **WHERE** clause. The evolved query would look like the following example.
 
 	``` 
 	SELECT  

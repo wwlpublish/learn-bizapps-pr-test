@@ -47,7 +47,7 @@ Your Excel files might exist in one of the following locations: 
 -   **OneDrive - Personal** - You can use data from files on a personal
     OneDrive account, and get many of the same benefits that you would
     with OneDrive for Business. However, you'll need to sign in with
-    your personal OneDrive account, and select the Keep me signed in
+    your personal OneDrive account, and select the **Keep me signed in**
     option. Check with your system administrator to determine whether
     this type of connection is allowed in your organization. 
 
@@ -84,7 +84,7 @@ Data** Excel workbook that is stored on the Desktop. 
 
 ### Select the file data to import 
 
-After the file has connected to Power BI Desktop, the Navigator window opens. This window shows you the data that is available in your data source (the Excel file in this example). You can select a table or entity to preview its contents, to ensure that the correct data is loaded into the Power BI model.
+After the file has connected to Power BI Desktop, the **Navigator** window opens. This window shows you the data that is available in your data source (the Excel file in this example). You can select a table or entity to preview its contents, to ensure that the correct data is loaded into the Power BI model.
 
 Select the check box(es) of the table(s) that you want to bring in to
 Power BI. This selection activates the **Load** and **Transform
