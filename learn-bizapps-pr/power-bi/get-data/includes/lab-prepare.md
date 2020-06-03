@@ -111,9 +111,7 @@ All content you develop in this course will be added to this workspace.
 	> [!div class="mx-imgBorder"]
 	> [![try free](../media/lab-7.png)](../media/lab-7.png#lightbox)
 
-A Power BI Pro license is required to create and work with workspaces.
-It's also required when sharing content. The trial will allow you to
-work with Pro features for up to 60 days.
+	A Power BI Pro license is required to create and work with workspaces. It's also required when sharing content. The trial will allow you to work with Pro features for up to 60 days.
 
 1. When prompted to start the 60-day free Pro trial, click
     **Start Trial**.
@@ -128,9 +126,9 @@ work with Pro features for up to 60 days.
 1. In the **Create a Workspace** pane (located at the right), in the
     **Workspace Name** box, enter a name for your workspace.
 
-The name you enter must be unique within the tenant. We suggest you name
-the workspace **Sales Analysis**, and that you also append your
-initials. For example, the name could be **Sales Analysis AB**.
+	The name you enter must be unique within the tenant. We suggest you name
+	the workspace **Sales Analysis**, and that you also append your
+	initials. For example, the name could be **Sales Analysis AB**.
 
 1. To create the workspace, at the bottom of the pane, click **Save**.
 
