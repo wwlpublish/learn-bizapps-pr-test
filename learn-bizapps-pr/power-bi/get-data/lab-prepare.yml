@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.module-test.lab-prepare
+title: Lab - Doing All The Things
+metadata: 
+  title: Lab
+  description: Lab example
+  ms.date: 07/10/2019 
+  author: robde
+  ms.author: robde
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+ROBOTS: NOINDEX 
+labId: 72670
+durationInMinutes: 20
+content: | 
+ [!include[](../includes/lab-prepare.md)]
+ [!include[](includes/lab-prepare.md)] 
