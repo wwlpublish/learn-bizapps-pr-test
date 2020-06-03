@@ -1,6 +1,6 @@
 While importing data into Power BI, you may encounter errors resulting from factors such as:
 
-- Power BI imports from a numerous data source.
+- Power BI imports from a numerous data sources.
 - Each data source might have dozens (and sometimes hundreds) of different error messages.
 - Other components can cause errors, such as hard drives, networks, software services, and operating systems.
 - Data can often not comply with any specific schema.
@@ -16,7 +16,7 @@ For instance, if you’re pulling data from your organization’s SQL Server, yo
 > [!div class="mx-imgBorder"]
 > [![data import errors for query timeout](../media/9-data-import-query-timeout-ss.png)](../media/9-data-import-query-timeout-ss.png#lightbox)
 
-### Power BI Query Error: timeout expired
+### Power BI Query Error: Timeout expired
 
 This error indicates that you’ve pulled too much data according to your organization’s policies. Administrators incorporate this policy to avoid slowing down a different application or suite of applications that might also be using that database. 
 

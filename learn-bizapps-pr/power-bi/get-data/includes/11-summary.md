@@ -1,21 +1,5 @@
-In this module, you learned about pulling data from a number of
-different data sources and into Power BI. You can pull data from files,
-relational databases, cubes, cloud-based applications, websites, and
-more. Retrieving data from different data sources requires treating each
-data source a little differently. For instance, Microsoft Excel data
-should be pulled in from an Excel table. Relational databases often have
-query timeouts. You can connect to cubes with live connect which allows
-you to see data changes in real-time.
+In this module, you learned about pulling data from a number of different data sources and into Power BI.  You can pull data from files, relational databases, cubes, cloud-based applications, websites, and more.  Retrieving data from different data sources requires treating each data source differently.  For instance, Microsoft Excel data should be pulled in from an Excel table.  Relational databases often have query timeouts.  You can connect to cubes with live connect which allows you to see data changes in real-time.
 
-When importing data, it is critical to select the correct storage mode.
-Do you want to import the data into Power BI? Then select Import. This
-will make the visual interaction faster, but might require refreshing
-the data when the underlying data sources change. If you want to see
-data changes immediately, but at the cost of interactivity performance,
-then use Direct Query.
+When importing data, it is critical to select the correct storage mode.  Do you want to import the data into Power BI?  Then select Import.  This will make the visual interaction faster, but might require refreshing the data when the underlying data sources change.  If you want to see data changes immediately, but at the cost of interactivity performance, then use Direct Query.
 
-In addition, you learned how to solve performance problems and data
-import errors. You learned that Power BI gives you tooling to identify
-where performance problems may exist. Data import errors can be alarming
-at first, but you can see that the resolution is easily implemented.
-
+In addition, you learned how to solve performance problems and data import errors.  You learned that Power BI gives you tooling to identify where performance problems may exist.  Data import errors can be alarming at first, but you can see that the resolution is easily implemented.
