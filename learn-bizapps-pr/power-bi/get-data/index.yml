@@ -40,6 +40,7 @@ units:
 - learn-bizapps.get-data.7-azure-analysis-services 
 - learn-bizapps.get-data.8-performance-issues 
 - learn-bizapps.get-data.9-import-errors 
+- learn-bizapps.get-data.lab-prepare
 - learn-bizapps.get-data.10-check 
 - learn-bizapps.get-data.11-summary 
 badge: 
