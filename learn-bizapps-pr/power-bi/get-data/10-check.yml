@@ -17,7 +17,7 @@ quiz:
     choices: 
     - content: DAX
       isCorrect: false
-      explanation: You use DAX language with Power BI and Azure Analysis Services. 
+      explanation: You would use DAX language with Power BI and Azure Analysis Services. 
     - content: T-SQL
       isCorrect: true
       explanation: True. T-SQL is the query language that you would use for SQL Server.
