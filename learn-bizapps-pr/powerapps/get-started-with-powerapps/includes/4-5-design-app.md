@@ -81,13 +81,13 @@ To fully visualize the User Interface or UI, you may want to consider creating a
 
 The example below shows a simple Visio wireframe of a Purchase Items screen in an inventory app.
 
-![Example of Visio wireframe.](../media/visio-wireframe-example.png)
+![Example of Visio wireframe.](../media/visio-wireframe.png)
 
 - Use Power Apps to create a mockup of your application. You can add most of the controls, graphics, forms, and other items to your app screens and play with the layout and size for each element as if you were building the app for real. When designing the UI you don't need to add the logic behind the various elements you placed on the screen.  The goal here is to focus on what the app could look like and how it could function. This similar to what you can do with a Visio wireframe but one of the biggest pros of going this route is that you will gain more experience working with Power Apps and also learn more about the various UI elements available in the process. All of the experience and knowledge you will gain by creating your app mockup in Power Apps will only payoff later when it's time to start on the production app. Another big upside to using Power Apps for your mockup is that if you show this to your team and they like what you did, you can continue building off this app or create a new app and copy the elements you would like to keep to your other application. By not having to redo the UI or only having to redo parts of it, you could potentially save yourself hours of work. 
 
 The example below shows a simple mockup of a New Purchase Order Screen.
 
-![Mock up of a new purchase order app.](../media/visio-wireframe.png)
+![Mock up of a new purchase order app.](../media/purchase-order-example.png)
 
 It really comes down to your preference and comfort with the software you are using to create the mockup. You should also consider licensing and costs when making this decision. Visio requires additional licensing to get the full functionality required for creating a wireframe diagram. Whereas with Power Apps, it doesn't matter which license you have.  As long as you have Power Apps (and sufficient permissions in your environment), you can create apps and mockup apps.
 
