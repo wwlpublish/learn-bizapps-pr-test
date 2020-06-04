@@ -43,9 +43,9 @@ In addition, Power Apps also has the capability to use Power Apps portals to bui
 
 Review the following links about licensing.
 
-[Microsoft Power Apps Pricing](https://powerapps.microsoft.com/pricing/?azureportal=true)
+[Microsoft Power Apps Ppicing](https://powerapps.microsoft.com/pricing/?azureportal=true)
 
-[Microsoft Power Automate Pricing](https://us.flow.microsoft.com/pricing/?azureportal=true)
+[Microsoft Power Automate pricing](https://us.flow.microsoft.com/pricing/?azureportal=true)
 
-[Microsoft Power portals Pricing](https://powerapps.microsoft.com/portals/?azureportal=true).
+[Microsoft Power Apps portals pricing](https://powerapps.microsoft.com/portals/?azureportal=true).
 
