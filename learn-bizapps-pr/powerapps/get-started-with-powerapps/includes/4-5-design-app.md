@@ -101,7 +101,7 @@ When using the common data service, you can create business rules and recommenda
  
 Often when building apps all of the business logic is built into the app. This works great if the data is only accessed via the app. The challenge is often business data is used in many ways and from different tools. This is where Business Rules shine. You can apply logic on the data in the Common Data Service, allowing your rules to be enforced no matter which tool interacts with the data. 
 
-For example, you have built a capital project expense tracking application using Common Data Service as the data source. In your business process, the duration field is an optional field if your request is less than $10,000, but the duration field is required if it is more than $10,000. After you set up your entity in Common Data Service, you would then apply a business rule that says if Project Amount is greater than $10,000 then make project duration a required field. Now regardless of how the user interacts with the data the Business Rule will be enforced, keeping your data integrity.
+For example, you have built a capital project expense tracking application using Common Data Service as the data source. In your business process, the duration field is an optional field if your request is less than $10,000 but the duration field is required if the request is more than $10,000. After you set up your entity in Common Data Service, you would then apply a business rule that says if Project Amount is greater than $10,000 then make Project Duration a required field. Now, regardless of how the user interacts with the data, the Business Rule will be enforced, keeping your data integrity.
 
 ### Output
 
