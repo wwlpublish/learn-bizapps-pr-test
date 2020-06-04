@@ -53,6 +53,7 @@ In the "Power Apps related technologies" module, you learned about some of the c
 By designing your Power Apps solution in a Canvas app, you have complete control of the end-user experience. This allows you to fully customize nearly every aspect of your app. However, just because you can doesn't necessarily mean you should. When designing your Power Apps solution your goal should be to keep it simple. When your end users open the application and begin using it, they should have no confusion about what to click on or where to go. If your app requires an extensive training program for users to understand how to use it, you may want to rethink your app.
 
 Some of the basic designs elements you will want to consider are things like: 
+
 - Custom Branding (your logo and colors)
 - Pop-ups
 - Hide/show buttons based on users' access/permissions
@@ -100,7 +101,7 @@ When using the common data service, you can create business rules and recommenda
  
 Often when building apps all of the business logic is built into the app. This works great if the data is only accessed via the app. The challenge is often business data is used in many ways and from different tools. This is where Business Rules shine. You can apply logic on the data in the Common Data Service, allowing your rules to be enforced no matter which tool interacts with the data. 
 
-For example, you have built a capital project expense tracking application using the Common Data Service as the data source. In your business process. the duration field is an optional field if your request is less than $10,000, but duration field is required if it is more than $10,000. After you set up your entity in the Common Data Service, you would then apply a business rule that says if Project Amount is greater than $10,000 then make project duration a required field. Now regardless of how the user interacts with the data the Business Rule will be enforced, keeping your data integrity.
+For example, you have built a capital project expense tracking application using Common Data Service as the data source. In your business process. the duration field is an optional field if your request is less than $10,000, but duration field is required if it is more than $10,000. After you set up your entity in Common Data Service, you would then apply a business rule that says if Project Amount is greater than $10,000 then make project duration a required field. Now regardless of how the user interacts with the data the Business Rule will be enforced, keeping your data integrity.
 
 ### Output
 
