@@ -4,6 +4,7 @@ When designing your Power Apps solution, there are several different factors to 
 -	Data Model
 -	Business Logic
 -	Output
+
 By going through a simple design process, you can flush out any minor issues before they become a larger problem once the app is in production. 
 
 Here is a quick look at the App Designer for an example Model-driven app called “Fundraiser.”
@@ -24,11 +25,11 @@ Model-driven apps are created using the App Designer.  You will choose the entit
 
 The first step in the process is to understand your business requirements. Work with the app stakeholders to consider your security, accessibility, data, and design needs. 
 
-For security, the Common Data Service has a robust security model. You will want to consider how securing your app’s data affects your app and what security model best supports your business needs. There are lots of options available, including hierarchy security, row-level security, to name a few. You will need to confirm your data is secured to meet your needs, and then your app will honor that security. For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security/?azureportal=true).
+For security, the Common Data Service has a robust security model. You will want to consider how securing your app’s data affects your app and what security model best supports your business needs. There are lots of options available, including hierarchy security, row-level security, to name a few. You will need to confirm your data is secured to meet your needs, and then your app will honor that security. For more information, see [Security in Common Data Service](https://docs.microsoft.com/power-platform/admin/wp-security?azureportal=true).
 
 During this process, you will also want to identify any government regulations or authentication/authorization requirements (if applicable). You may want to implement multi-factor authentication but will need to think about how this will affect users connecting to your application. You don’t necessarily have to have all the answers to your questions here; you just want to flush out all of the requirements. 
 
-Finally, does your app need to be available when the user is disconnected from the internet? This is called Offline Mode and is supported by the Common Data Service and Model-driven apps when using iOS or Android clients. It does require additional design considerations. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin).
+Finally, does your app need to be available when the user is disconnected from the internet? This is called Offline Mode and is supported by the Common Data Service and Model-driven apps when using iOS or Android clients. It does require additional design considerations. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin?azureportal=true).
 	
 ### Data Model
 
@@ -79,7 +80,7 @@ Here is an example of what the New Fundraiser form looks like when editing from 
 
 When incorporating business logic in your app, there are two primary options available. You can set **Business Rules** on your Common Data Service entities or you can build **Business Process Flows**.
 
-With Business Rules,** you will define behaviors at the data layer. This is great for changing when a field is required, setting a default value, or even showing or hiding a field based on a criteria. An example could be an entity for tracking expenses. You could have a field for type of travel and then build a business rule that says if they choose automobile then the mileage field is required, else it is optional. This gives you great power to make sure you maintain data consistency in all scenarios. 
+With **Business Rules,** you will define behaviors at the data layer. This is great for changing when a field is required, setting a default value, or even showing or hiding a field based on a criteria. An example could be an entity for tracking expenses. You could have a field for type of travel and then build a business rule that says if they choose automobile then the mileage field is required, else it is optional. This gives you great power to make sure you maintain data consistency in all scenarios. 
 
 **Business Process Flows** are used to guide users through using your app. These workflows can provide visuals on next steps based on the status of the data and facilitate other actions that you want to occur as the user uses the app. Business Process Flows let you bring automation to your app and make it more of a guided experience than just a place to enter data.
 
@@ -91,5 +92,5 @@ A common output need for apps is to visualize the data.  For this requirement, y
 
 ### Additional third-party solutions and app accelerators
 
-It is also important to know about the different App accelerators and third-party solutions available to you. Depending on the industry you are in, Health, Financial, Banking, Education, Non- Profit, Automotive, or Media, Microsoft has released a number of accelerators or foundational components to assist you with quickly standing up your solution. For more information, see [Industry accelerators overview](https://docs.microsoft.com/common-data-model/industry-accelerators/?azureportal=true).
+It is also important to know about the different App accelerators and third-party solutions available to you. Depending on the industry you are in, Health, Financial, Banking, Education, Non- Profit, Automotive, or Media, Microsoft has released a number of accelerators or foundational components to assist you with quickly standing up your solution. For more information, see [Industry accelerators overview](https://docs.microsoft.com/common-data-model/industry-accelerators?azureportal=true).
 
