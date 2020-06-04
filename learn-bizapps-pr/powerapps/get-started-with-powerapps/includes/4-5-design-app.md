@@ -11,7 +11,7 @@ By going through a simple design process, you can flush out any minor issues bef
 
 So how do you go from a simple blank Canvas app, as seen below?
 
-![Blank Canvas app Power Apps studio.](../media/starting-from-blank-app.png)
+![Blank Canvas app Power Apps studio.](../media/start-from-blank-app.png)
 
 To a fully customized Canvas app solution?
 
@@ -87,7 +87,7 @@ The example below shows a simple Visio wireframe of a Purchase Items screen in a
 
 The example below shows a simple mockup of a New Purchase Order Screen.
 
-![Mock up of a new purchase order app.](../media/visio-wireframe-example.png)
+![Mock up of a new purchase order app.](../media/visio-wireframe.png)
 
 It really comes down to your preference and comfort with the software you are using to create the mockup. You should also consider licensing and costs when making this decision. Visio requires additional licensing to get the full functionality required for creating a wireframe diagram. Whereas with Power Apps, it doesn't matter which license you have.  As long as you have Power Apps (and sufficient permissions in your environment), you can create apps and mockup apps.
 
