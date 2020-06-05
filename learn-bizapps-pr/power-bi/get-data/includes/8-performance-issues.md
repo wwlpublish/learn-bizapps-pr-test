@@ -27,7 +27,7 @@ The following scenario shows query folding in action. In this scenario, you appl
 > [!div class="mx-imgBorder"]
 > [![view native query](../media/8-view-native-query-ss.png)](../media/8-view-native-query-ss.png#lightbox)
 
-If the **View Native Query** option is not available (not displayed in bold type), that query folding is not possible for this step, and you will have to work backward in the **Applied Steps** area until you reach the step in which View **Native Query** is available (displays in bold type). This process will reveal the native query that is used to transform the dataset. 
+If the **View Native Query** option is not available (not displayed in bold type), that query folding is not possible for this step, and you will have to work backward in the **Applied Steps** area until you reach the step in which **View Native Query** is available (displays in bold type). This process will reveal the native query that is used to transform the dataset. 
 
 Native queries are not possible for the following transformations: 
 
@@ -44,7 +44,7 @@ While query folding is one option to optimize performance when retrieving, impor
 
 Another tool that you can use to study query performance is *query diagnostics*. This feature allows you to determine what bottlenecks (if any) exist while loading and transforming your data, refreshing your data in Power Query, running SQL statements in Query Editor, and so on. 
 
-To access query diagnostics in Power Query Editor, go to **Tools** in the Home ribbon. When you are ready to begin transforming your data or making other edits in Power Query Editor, select **Start Diagnostics** on the **Selecting Diagnostics** tab. When you are finished, make sure that you select **Stop Diagnostics**. 
+To access query diagnostics in Power Query Editor, go to **Tools** in the Home ribbon. When you are ready to begin transforming your data or making other edits in Power Query Editor, select **Start Diagnostics** on the **Session Diagnostics** tab. When you are finished, make sure that you select **Stop Diagnostics**. 
 
 > [!div class="mx-imgBorder"]
 > [![navigating to query diagnostics in Power query Editor](../media/8-navigating-query-diagnostics-ss.png)](../media/8-navigating-query-diagnostics-ss.png#lightbox)

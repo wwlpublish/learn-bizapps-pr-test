@@ -15,11 +15,7 @@ reporting.
 
 ### Connect to a NoSQL database (Azure Cosmos DB) 
 
-In this scenario, you will use the **Get data** feature in Power BI
-Desktop. However, this time you will select the **More...** option to
-locate and connect to the type of database that you use. In this
-example, you will select the **Azure** category, select **Azure
-Cosmos DB,** and then select **Connect**. 
+In this scenario, you will use the **Get data** feature in Power BI Desktop. However, this time you will select the **More...** option to locate and connect to the type of database that you use. In this example, you will select the **Azure** category, select **Azure Cosmos DB,** and then select **Connect**. 
 
 > [!div class="mx-imgBorder"]
 > [![Get Data from Azure Cosmos DB option](../media/4-get-data-cosmos-ssm.png)](../media/4-get-data-cosmos-ssm.png#lightbox)

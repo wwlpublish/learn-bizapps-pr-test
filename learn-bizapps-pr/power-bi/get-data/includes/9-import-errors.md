@@ -1,6 +1,6 @@
 While importing data into Power BI, you may encounter errors resulting from factors such as:
 
-- Power BI imports from a numerous data sources.
+- Power BI imports from numerous data sources.
 - Each data source might have dozens (and sometimes hundreds) of different error messages.
 - Other components can cause errors, such as hard drives, networks, software services, and operating systems.
 - Data can often not comply with any specific schema.
@@ -29,7 +29,7 @@ If you need the rows, columns, and complexity, consider taking small chunks of d
 Occasionally, you may encounter the “We couldn’t find any data formatted as a table” error while importing data from Microsoft Excel. Fortunately, this error is self-explanatory. Power BI expects to find data formatted as a table from Excel. The error event tells you the resolution. Perform the following steps to resolve the issue:
 
 1. Open your Excel workbook, and highlight the data that you want to import. 
-1. Press the **CTRL-T** keyboard shortcut. The first row will likely be your column headers. 
+1. Press the **Ctrl-T** keyboard shortcut. The first row will likely be your column headers. 
 1. Verify that the column headers reflect how you want to name your columns. Then, try to import data from Excel again. This time, it should work.
 
 	> [!div class="mx-imgBorder"]

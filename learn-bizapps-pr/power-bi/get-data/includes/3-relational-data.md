@@ -11,9 +11,7 @@ the cloud or on-premises. 
 
 **Scenario**
 
-The Sales team at Tailwind Traders have requested that you connect to
-the organization's on-premises SQL Server database and get the sales
-data into Power BI Desktop so you can build sales reports.   
+The Sales team at Tailwind Traders have requested that you connect to the organization's on-premises SQL Server database and get the sales data into Power BI Desktop so you can build sales reports.
 
 > [!div class="mx-imgBorder"]
 > [![Data flow from SQL database into Power BI](../media/3-get-data-sql-server-ssm.png)](../media/3-get-data-sql-server-ssm.png#lightbox)
@@ -32,11 +30,7 @@ options, such as **SQL Server.**
 > [!div class="mx-imgBorder"]
 > [![Get Data from SQL Server](../media/3-get-data-sql-server-dropdown-ssm..png)](../media/3-get-data-sql-server-dropdown-ssm..png#lightbox)
 
-Your next step is to enter your database server name and a database name
-in the **SQL Server database** window. The two options in data connectivity mode are: **Import** (selected by default, recommended) and
-**DirectQuery**. Mostly, you select **Import.** Other
-advanced options are also available in the **SQL Server database**
-window, but you can ignore them for now. 
+Your next step is to enter your database server name and a database name in the **SQL Server database** window. The two options in data connectivity mode are: **Import** (selected by default, recommended) and **DirectQuery**. Mostly, you select **Import.** Other advanced options are also available in the **SQL Server database** window, but you can ignore them for now.
 
 > [!div class="mx-imgBorder"]
 > [![Provide SQL Server database details](../media/3-get-data-sql-server-db-ss.png)](../media/3-get-data-sql-server-db-ss.png#lightbox)
@@ -63,9 +57,7 @@ data source (the SQL database in this example). You can select a table
 or entity to preview its contents and make sure that the correct data
 will be loaded into the Power BI model.  
 
-Select the check box(es) of the table(s) that you want to bring in to
-Power BI Desktop, and then select either the **Load** or **Transform
-Data** option.  
+Select the check box(es) of the table(s) that you want to bring in to Power BI Desktop, and then select either the **Load** or **Transform Data** option.
 
 -   **Load** - Automatically load your data into a Power BI model in its current state. 
 
@@ -76,16 +68,9 @@ Data** option.  
 
 ### Import data by writing an SQL query  
 
-Another way you can import data is to write an SQL
-query to specify only the tables and columns that you need. This approach makes the import process faster and will lower the performance load on SQL Server.   
+Another way you can import data is to write an SQL query to specify only the tables and columns that you need. This approach makes the import process faster and will lower the performance load on SQL Server.
 
-To write your SQL query, on the **SQL Server database** window, enter
-your server and database names, and then select the arrow next
-to **Advanced options** to expand this section and view your options. In
-the **SQL statement** box, write your query statement, and
-then select **OK**. In this example, you will use the **Select** SQL
-statement to load the ID, NAME and SALESAMOUNT columns **from** the
-SALES table. 
+To write your SQL query, on the **SQL Server database** window, enter your server and database names, and then select the arrow next to **Advanced options** to expand this section and view your options. In the **SQL statement** box, write your query statement, and then select **OK**. In this example, you will use the **Select** SQL statement to load the ID, NAME and SALESAMOUNT columns **from** the SALES table.
 
 > [!div class="mx-imgBorder"]
 > [![Import data using SQL query](../media/3-sql-statement-ss.png)](../media/3-sql-statement-ss.png#lightbox)
@@ -105,16 +90,12 @@ select the **Data source settings** option. 
 > [!div class="mx-imgBorder"]
 > [![Edit Data source settings](../media/3-change-sql-settings-ssm.png)](../media/3-change-sql-settings-ssm.png#lightbox)
 
-From the list of data sources that displays, select the data source that
-you want to update. Then, you can right-click that data source to view
-the available update options or you can use the update option buttons on
-the lower left of the window. Select the update option that you
-need, change the settings as required, and then apply your changes. 
+From the list of data sources that displays, select the data source that you want to update. Then, you can right-click that data source to view the available update options or you can use the update option buttons on the lower left of the window. Select the update option that you need, change the settings as required, and then apply your changes.
 
 > [!div class="mx-imgBorder"]
 > [![Edit data source setting options](../media/3-sql-data-source-edit-ssm.png)](../media/3-sql-data-source-edit-ssm.png#lightbox)
 
-You can also change your data source settings from within Power Query. Select the table, and then select the **Data source setting** option on the **Home** ribbon. Alternatively, you can go to the **Query Settings** panel on the right side of the screen and select the settings icon next to Source (or double Select Source). In the window that displays, update the server and database details, and then select **OK**. 
+You can also change your data source settings from within Power Query. Select the table, and then select the **Data source settings** option on the **Home** ribbon. Alternatively, you can go to the **Query Settings** panel on the right side of the screen and select the settings icon next to Source (or double Select Source). In the window that displays, update the server and database details, and then select **OK**.
 
 > [!div class="mx-imgBorder"]
 > [![Change data source settings](../media/3-edit-creds-ssm.png)](../media/3-edit-creds-ssm.png#lightbox)
@@ -129,17 +110,9 @@ using an SQL query. SQL stands for Structured Query Language and is a
 standardized programming language that is used to manage relational
 databases and perform various data management operations.
 
-Consider the scenario where your database has a large table that is
-comprised of sales data over several years.  Sales data from 2009 is not
-relevant to the report that you are creating. This situation is where
-SQL is beneficial because it allows you to load only the required set of
-data by specifying exact columns and rows in your SQL statement and
-then importing them into your data model. You can also join different
-tables, run specific calculations, create logical statements, and filter
-data in your SQL query.  
+Consider the scenario where your database has a large table that is comprised of sales data over several years.  Sales data from 2009 is not relevant to the report that you are creating. This situation is where SQL is beneficial because it allows you to load only the required set of data by specifying exact columns and rows in your SQL statement and then importing them into your data model. You can also join different tables, run specific calculations, create logical statements, and filter data in your SQL query.
 
-The following example shows a simple query where the ID, NAME
-and SALESAMOUNT are selected from the SALES table. 
+The following example shows a simple query where the ID, NAME and SALESAMOUNT are selected from the SALES table. 
 
 The SQL query starts with a **Select** statement, which allows you to
 choose the specific fields that you want to pull from your database. In
@@ -166,8 +139,7 @@ full SQL query: 
 	SALES 
 	```
 
-When using an SQL query to import data, try to avoid using the wildcard
-character (\*) in your query. If you use the wildcard character (\*) in your SELECT statement, you import all columns that you don't need from the specified table. 
+When using an SQL query to import data, try to avoid using the wildcard character (\*) in your query. If you use the wildcard character (\*) in your SELECT statement, you import all columns that you don't need from the specified table. 
 
 The following example shows the query using the wildcard character.  
 

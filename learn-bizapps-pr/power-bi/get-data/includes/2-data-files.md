@@ -18,11 +18,7 @@ computer. 
 
 **Scenario**
 
-The Human Resources (HR) team at Tailwind Traders has prepared a flat
-file that contains some of your organization's employee data, such
-as employee name, hire date, position, and manager. They've requested
-that you build Power BI reports by using this data, and data that is
-located in several other data sources.   
+The Human Resources (HR) team at Tailwind Traders has prepared a flat file that contains some of your organization's employee data, such as employee name, hire date, position, and manager. They've requested that you build Power BI reports by using this data, and data that is located in several other data sources.
 
 ### Flat file location 
 
@@ -63,10 +59,7 @@ regularly, saving files on a local computer is a suitable option.  
 
 ### Connect to data in a file 
 
-In Power BI, on the **Home** tab, select **Get data**. In the list that
-displays, select the option that you require, such
-as **Text/CSV** or **XML**. For this example, you will
-select **Excel**.    
+In Power BI, on the **Home** tab, select **Get data**. In the list that displays, select the option that you require, such as **Text/CSV** or **XML**. For this example, you will select **Excel**.
 
 > [!TIP]
 > The **Home** tab contains quick access data source options, such as **Excel**, next to the **Get data** button.  
@@ -74,10 +67,7 @@ select **Excel**.    
 > [!div class="mx-imgBorder"]
 > [![Home Ribbon get data dropdown menu select excel](../media/2-get-data-excel-ssm.png)](../media/2-get-data-excel-ssm.png#lightbox)
 
-Depending on your selection, you need to find and open your data source.
-You might be prompted to sign into a service, such as OneDrive, to
-authenticate your request. In this example, you will open the **Employee
-Data** Excel workbook that is stored on the Desktop. 
+Depending on your selection, you need to find and open your data source. You might be prompted to sign into a service, such as OneDrive, to authenticate your request. In this example, you will open the **Employee Data** Excel workbook that is stored on the Desktop. 
 
 > [!div class="mx-imgBorder"]
 > [![Select file called employee data stored on the desktop](../media/2-excel-save-data-ssm.png)](../media/2-excel-save-data-ssm.png#lightbox)
@@ -86,21 +76,14 @@ Data** Excel workbook that is stored on the Desktop. 
 
 After the file has connected to Power BI Desktop, the **Navigator** window opens. This window shows you the data that is available in your data source (the Excel file in this example). You can select a table or entity to preview its contents, to ensure that the correct data is loaded into the Power BI model.
 
-Select the check box(es) of the table(s) that you want to bring in to
-Power BI. This selection activates the **Load** and **Transform
-Data** buttons as shown in the following image. 
+Select the check box(es) of the table(s) that you want to bring in to Power BI. This selection activates the **Load** and **Transform Data** buttons as shown in the following image.
 
 > [!div class="mx-imgBorder"]
 > [![Navigator window in Power BI Desktop](../media/2-excel-worksheet-ssm.png)](../media/2-excel-worksheet-ssm.png#lightbox)
 
-You now have the option to select the **Load** button to automatically
-load your data into the Power BI model or select the **Transform
-Data** button to launch the Power Query Editor, where you can review and
-clean your data before loading it into the Power BI model.   
+You now have the option to select the **Load** button to automatically load your data into the Power BI model or select the **Transform Data** button to launch the Power Query Editor, where you can review and clean your data before loading it into the Power BI model.
 
-We often recommend that you transform data, but that process will be
-discussed later in this module. For this example, you
-can select **Load**.   
+We often recommend that you transform data, but that process will be discussed later in this module. For this example, you can select **Load**.   
 
 ### Change the source file 
 

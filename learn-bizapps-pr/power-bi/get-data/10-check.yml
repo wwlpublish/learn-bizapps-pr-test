@@ -29,7 +29,7 @@ quiz:
     - content: Import
       isCorrect: false
       explanation: False. This will import the data into Power BI on a scheduled interval.
-    - content: Live Connect
+    - content: Connect live
       isCorrect: true
       explanation: This will reflect cube changes immediately. 
     - content: Direct Query
