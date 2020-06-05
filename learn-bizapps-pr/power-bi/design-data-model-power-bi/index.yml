@@ -13,7 +13,7 @@ summary: |
   [!include[](../includes/module-banner.md)] 
   Learn how to clean, transform, and load data in Power BI. 
 abstract: |  
-    In this module, you will: 
+    By the end of this module, you’ll be able to: 
     - Resolve inconsistencies, unexpected or null values, and data quality issues. 
     - Apply user-friendly value replacements. 
     - Profile data so you can learn more about a specific column before using it. 
