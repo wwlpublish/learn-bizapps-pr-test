@@ -164,7 +164,7 @@ define concise, yet friendly, names.
 	UPN is an acronym for User Principal Name. The values in this column will be used when you configure row-level security in **Lab 05A**.
 
 1. At the bottom-left, in the status bar, verify that the query has
-    five columns and 18 rows.
+    5 columns and 18 rows.
 
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-16-ss.png)](../media/lab-16-ss.png#lightbox)
@@ -195,7 +195,7 @@ In this task, you will configure the **SalespersonRegion** query.
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-18-ssm.png)](../media/lab-18-ssm.png#lightbox)
 
-1. In the status bar, verify that the query has two columns and 39 rows.
+1. In the status bar, verify that the query has 2 columns and 39 rows.
 
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-19-ss.png)](../media/lab-19-ss.png#lightbox)
@@ -216,7 +216,7 @@ detailed instructions, you can refer back to other tasks.
 1. Rename the query to **Product**.
 
 1. Locate the **FinishedGoodsFlag** column, and then filter the column
-    to retrieve products that are finished goods (i.e. TRUE).
+    to retrieve products that are finished goods (that is, TRUE).
 
 1. Remove all columns, except the following:
 
@@ -355,7 +355,7 @@ In this task, you will configure the **Reseller** query.
 	
 	-   **EnglishCountryRegionName** to **Country-Region**
 
-1. In the status bar, verify that the query has six columns and 701
+1. In the status bar, verify that the query has 6 columns and 701
     rows.
 
 	> [!div class="mx-imgBorder"]
@@ -396,7 +396,7 @@ In this task, you will configure the **Region** query.
 	
 	-   **SalesTerritoryGroup** to **Group**
 
-1. In the status bar, verify that the query has four columns and 10
+1. In the status bar, verify that the query has 4 columns and 10
     rows.
 
 	> [!div class="mx-imgBorder"]
@@ -468,7 +468,7 @@ In this task, you will configure the **Sales** query.
 	```if [TotalProductCost] = null then [OrderQuantity] * [StandardCost] else [TotalProductCost]```
 
 	This expression tests if the **TotalProductCost** value is missing. If
-	it is, produces a value by multiplying the **OrderQuantity** value by
+	it is, produce a value by multiplying the **OrderQuantity** value by
 	the **StandardCost** value; otherwise, it uses the existing
 	**TotalProductCost** value.
 
@@ -502,7 +502,7 @@ In this task, you will configure the **Sales** query.
 	numeric value, it's also important to choose the correct type if you
 	expect to perform mathematic calculations.
 
-1. Modify the following three column data types to
+1. Modify the following three-column data types to
     **Fixed Decimal Number**.
 
 	-   Unit Price
@@ -538,7 +538,7 @@ In this task, you will configure the **Targets** query.
 
 1. Rename the query to **Targets**.
 
-1. To unpivot the 12 month columns (**M01**-**M12**), first
+1. To unpivot the 12-month columns (**M01**-**M12**), first
     multi-select the **Year** and **EmployeeID** column headers.
 
 	> [!div class="mx-imgBorder"]
@@ -651,7 +651,7 @@ In this task, you will configure the **Targets** query.
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-55-ssm.png)](../media/lab-55-ssm.png#lightbox)
 
-1. In the status bar, verify that the query has three columns and 809
+1. In the status bar, verify that the query has 3 columns and 809
     rows.
 
 	> [!div class="mx-imgBorder"]
@@ -674,7 +674,7 @@ In this task, you will configure the **ColorFormats** query.
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-58-ssm.png)](../media/lab-58-ssm.png#lightbox)
 
-1. In the status bar, verify that the query has three columns and 10
+1. In the status bar, verify that the query has 3 columns and 10
     rows.
 
 	> [!div class="mx-imgBorder"]
@@ -720,8 +720,7 @@ In this task, you will update the **Product** query by merging the
 
 	Privacy levels can be configured for data source to determine whether
 	data can be shared between sources. Setting each data source as
-	**Organizational** allows them to share data, if necessary. Note that
-	Private data sources can never be shared with other data sources. It
+	**Organizational** allows them to share data, if necessary. Private data sources can never be shared with other data sources. It
 	doesn't mean that Private data cannot be shared; it means that the Power
 	Query engine cannot share data between the sources.
 
