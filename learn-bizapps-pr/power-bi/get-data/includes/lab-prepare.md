@@ -24,8 +24,7 @@ queries will source data from SQL Server, and two from CSV files.
 
 In this task, you will first save the Power BI Desktop file.
 
-1.  In Power BI Desktop, click the **File** ribbon tab to open the
-    backstage view.
+1.  Open Power BI Desktop. Click the **File** ribbon tab to open the backstage view.
 
 2.  Select **Save**.
 
@@ -42,7 +41,8 @@ In this task, you will first save the Power BI Desktop file.
 
     ![](../media/lab-003.png)
 
-Tip: You can also save the file by click the **Save** icon located at
+> [!TIP]
+> You can also save the file by click the **Save** icon located at
 the top-right.
 
 ![](../media/lab-004.png)
@@ -126,11 +126,12 @@ The **AdventureWorksDW2020** database is based on the
 **AdventureWorksDW2017** sample database. It has been modified to
 support the learning objectives of the course labs.
 
-    ![](../media/lab-015.png)
 
-19. Select—but don’t check—the **DimEmployee** table.
+     ![](../media/lab-015.png)
 
-    ![](../media/lab-016.png)
+19. Select but don’t check the **DimEmployee** table.
+
+     ![](../media/lab-016.png)
 
 20. In the right pane, notice a preview of the table.
 
@@ -156,7 +157,7 @@ You won’t be transforming the data in this lab. The objectives of this
 lab are to explore and profile the data in the **Power Query Editor**
 window.
 
-    ![](../media/lab-017.png)
+     ![](../media/lab-017.png)
 
 ### Preview SQL Server queries
 
@@ -172,7 +173,7 @@ understand the data, and assess data quality.
 
 The **Queries** pane contains one query for each selected table.
 
-24. Select the first query—**DimEmployee**.
+24. Select the first query **DimEmployee**.
 
     ![](../media/lab-019.png)
 
@@ -181,7 +182,7 @@ the rows represent the salespeople, which will be relevant to the model
 you’ll develop.
 
 25. At the bottom left, in the status bar, notice the table
-    statistics—the table has 33 columns, and 296 rows.
+    statistics - the table has 33 columns, and 296 rows.
 
     ![](../media/lab-020.png)
 
@@ -223,7 +224,7 @@ error, or empty values.
 When the distinct and unique counts are the same, it means the column
 contains unique values. When modeling, it’s important that some tables
 contain unique columns. They will be used to create one-to-many
-relationships, which you will do in **Lab 04A**.
+relationships.
 
 33. In the **Queries** pane, select the **DimEmployeeSalesTerritory**
     query.
@@ -234,7 +235,7 @@ The **DimEmployeeSalesTerritory** table stores one row for each employee
 and the sales territory regions they manage. The table supports relating
 many regions to a single employee. Some employees manage one, two, or
 possibly more regions. When you model this data, you will need to define
-a many-to-many relationship, which you will do in **Lab 05A**.
+a many-to-many relationship.
 
 34. In the **Queries** pane, select the **DimProduct** query.
 
@@ -247,7 +248,7 @@ company.
 
 36. Notice the **DimProductSubcategory** column.
 
-When you add transformations to this query in the next lab, you’ll use
+If you were to add transformations to this query, you would use
 the **DimProductSubcategory** column to join tables.
 
 37. In the **Queries** pane, select the **DimReseller** query.
@@ -276,8 +277,6 @@ distribute, or value add Adventure Works’ products.
 43. Hover the cursor over the **Ware House** bar, and notice that there
     are five rows with this value.
 
-In the next lab, you will apply a transformation to relabel these five
-rows.
 
 44. In the **Queries** pane, select the **DimSalesTerritory** query.
 
@@ -285,15 +284,13 @@ rows.
 
 The **DimSalesTerritory** table contains one row per sales region,
 including **Corporate HQ** (headquarters). Regions are assigned to a
-country, and countries are assigned to groups. In **Lab 04A**, will
-create a hierarchy to support analysis at region, country, or group
-level.
+country, and countries are assigned to groups.
 
 45. In the **Queries** pane, select the **FactResellerSales** query.
 
     ![](../media/lab-031.png)
 
-The **FactResellerSales** table contains one row per sales order line—a
+The **FactResellerSales** table contains one row per sales order line - a
 sales order contains one or more line items.
 
 46. Review the column quality for the **TotalProductCost** column, and
@@ -302,7 +299,7 @@ sales order contains one or more line items.
     ![](../media/lab-032.png)
 
 Missing **TotalProductCost** column values is a data quality issue. To
-address the issue, in the next lab you will apply transformations to
+address the issue, you would apply transformations to
 fill in missing values by using the product standard cost, which is
 stored in the **DimProduct** table.
 
@@ -350,9 +347,6 @@ instead.
 The icons represent the column data type. **123** is whole number, and
 **ABC** is text.
 
-In the next lab, you’ll apply many transformations to achieve a
-different shaped result consisting of only three columns: **Date**,
-**EmployeeKey**, and **TargetAmount**.
 
 ### Get additional data from a CSV file
 
@@ -365,9 +359,7 @@ CSV file.
     ![](../media/lab-037.png)
 
 The **ColorFormats** CSV file contains one row per product color. Each
-row records the HEX codes to format background and font colors. In the
-next lab, you will integrate this data with the **DimProduct** query
-data.
+row records the HEX codes to format background and font colors. 
 
 ### Finish up
 
@@ -399,5 +391,3 @@ first.
 
 59. Leave Power BI Desktop open.
 
-In the next lab, you will apply various transformations to the queries,
-and then apply the queries to load them to the data model.
