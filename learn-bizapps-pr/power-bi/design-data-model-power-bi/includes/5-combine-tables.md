@@ -77,7 +77,7 @@ You will be routed to a new query that contains all rows from all three
 of your tables, as shown in the following image.
 
 > [!div class="mx-imgBorder"]
-> [!append as new final](../media/05-appending-new-final-ss.png)](../media/05-appending-new-final-ss.png#lightbox)
+> [![append as new final](../media/05-appending-new-final-ss.png)](../media/05-appending-new-final-ss.png#lightbox)
 
 You have now succeeded in creating a master table that contains the
 information for the employees, suppliers, and customers. You can exit
