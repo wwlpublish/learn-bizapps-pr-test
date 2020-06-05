@@ -66,7 +66,7 @@ the rows from an existing table into another.
 Your next task is to create a new master table, so you need to
 select **Append Queries as New**. This selection will bring you to a
 window where you can add the tables that you want to append
-from **Available Tables **to **Tables to Append**, as shown in the
+from **Available Tables** to **Tables to Append**, as shown in the
 following image.
 
 > [!div class="mx-imgBorder"]
