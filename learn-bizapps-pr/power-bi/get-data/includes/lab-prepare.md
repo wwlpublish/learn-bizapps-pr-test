@@ -1,209 +1,403 @@
 ## Overview
 
-The estimated time to complete the lab is 15 minutes.
+The estimated time to complete the lab is 45 minutes
 
-In this lab, you connect to the classroom virtual machine and setup the
-environment. Before commencing this lab, you must have received an
-account and password. It's important that you complete the labs by using
-the provided account.
+In this lab, you commence the development of a Power BI Desktop solution
+for the Adventure Works company. It involves connecting to source data,
+previewing the data, and using data preview techniques to understand the
+characteristics and quality of the source data.
 
 In this lab, you learn how to:
 
--   Sign in to the Power BI service
+  - Open Power BI Desktop
+  - Set Power BI Desktop options
+  - Connect to source data
+  - Preview source data
+  - Use data preview techniques to better understand the data
 
--   Create a workspace
+## Prepare Data
 
--   Open Power BI Desktop
+In this exercise, you will create eight Power BI Desktop queries. Six
+queries will source data from SQL Server, and two from CSV files.
 
-## Getting Started
+### Save the Power BI Desktop file
 
-In this exercise, you connect to the classroom virtual machine and setup
-the environment.
+In this task, you will first save the Power BI Desktop file.
 
-[!INCLUDE [](../../../includes/power-bi-lab-login.md)]
+1.  In Power BI Desktop, click the **File** ribbon tab to open the
+    backstage view.
 
-### Record your account details
+2.  Select **Save**.
 
-In this task, you will open the **MySettings.txt** file, and record your
-account details.
+    ![](../media/lab-001.png)
 
-An account has been given to you, and it's important that you use this
-account to complete all of the labs.
+3.  In the **Save As** window, navigate to the **D:\\DA100\\MySolution**
+    folder.
 
-1.  To open File Explorer, on the taskbar, click the File Explorer
-    program shortcut.
+4.  In the **File Name** box, enter **Sales Analysis**.
 
-	> [!div class="mx-imgBorder"]
-	> [![File Explorer program shortcut](../media/lab-1.png)](../media/lab-1.png#lightbox)
+    ![](../media/lab-002.png)
 
-1.  In File Explorer, navigate to the **D:\\DA100\\Setup** folder.
+5.  Click **Save**.
 
-1.  To open the **MySettings.txt** file, double-click the file.
+    ![](../media/lab-003.png)
 
-1.  In the **MySettings.txt** file, enter your account name and password
-    next to the labels.
+Tip: You can also save the file by click the **Save** icon located at
+the top-right.
 
-	> [!div class="mx-imgBorder"]
-	> [![account name and password](../media/lab-2.png)](../media/lab-2.png#lightbox)
+![](../media/lab-004.png)
 
-1.  To save the **MySettings.txt** file, on the **File** menu, select
-    **Save** (or press **Ctrl+S**).
+### Set Power BI Desktop options
 
-1.  Leave the **MySettings.txt** file open.
+In this task, you will set Power BI Desktop options.
 
-1.  Leave File Explorer open.
+6.  In Power BI Desktop, click the **File** ribbon tab to open the
+    backstage view.
 
-### Sign in to the Power BI service
+7.  At the left, select **Options and Settings**, and then select
+    **Options**.
 
-In this task, you will sign in to the Power BI service.
+    ![](../media/lab-005.png)
 
-1.  To open Edge, on the taskbar, click the Microsoft Edge program
-    shortcut.
+8.  In the **Options** window, at the left, in the **Current File**
+    group, select **Data Load**.
 
-	> [!div class="mx-imgBorder"]
-	> [![Microsoft Edge program shortcut](../media/lab-3.png)](../media/lab-3.png#lightbox)
+![](../media/lab-006.png)
 
-1.  In Edge, navigate to **http://powerbi.com**.
+The **Data Load** settings for the current file allow setting options
+that determine default behaviors when modeling.
 
-	> [!TIP]
-	> You can also use the Power BI Service favorite on the Edge
-	favorites bar.
+9.  In the **Relationships** group, uncheck the two options that are
+    checked.
 
-1. Click **Sign In** (located at the top-right corner).
+![](../media/lab-007.png)
 
-	> [!div class="mx-imgBorder"]
-	> [![sign in](../media/lab-4.png)](../media/lab-4.png#lightbox)
+While these two options can be helpful when developing a data model,
+they have been disabled to support the lab experience. When you create
+relationships in **Lab 03A**, you will learn why you are adding each
+one.
 
-1. Enter your account details from the **MySettings.txt** file.
+10. Click **OK**.
 
-1. When prompted to update the password, reenter the provided password,
-    and then enter and confirm a new password. Be sure to update the
-    **MySettings.txt** file with your new password.
+    ![](../media/lab-008.png)
 
-1. Complete the sign in process.
+11. Save the Power BI Desktop file.
 
-1. If prompted by Edge to stay signed in, click **Yes**.
+### Get data from SQL Server
 
-1. In the Power BI service, at the top-right corner, if the "New Look"
-    is not enabled, click the slider control to turn it on.
+In this task, you will create queries based on SQL Server tables.
 
-	> [!div class="mx-imgBorder"]
-	> [![slider control](../media/lab-5.png)](../media/lab-5.png#lightbox)
+12. On the **Home** ribbon tab, from inside the **Data** group, click
+    **SQL Server**.
 
-1. Leave the Edge window open.
+    ![](../media/lab-009.png)
 
-### Create a workspace
+13. In the **SQL Server Database** window, in the **Server** box, enter
+    **localhost**.
 
-In this task, you will create a workspace. You will also upgrade your
-account to Power BI Pro.
+    ![](../media/lab-010.png)
 
-All content you develop in this course will be added to this workspace.
+In the labs, you will connect to the SQL Server database by using
+**localhost**. This isn’t a recommended practice, however, when creating
+your own solutions. It’s because gateway data sources cannot resolve
+**localhost**.
 
-1. To create a workspace, in the **Navigation** pane (located at the
-    left), click **Workspaces**, and then click **Create a Workspace**.
+14. Click **OK**.
 
-	> [!div class="mx-imgBorder"]
-	> [![Workspaces then click Create a Workspace](../media/lab-6.png)](../media/lab-6.png#lightbox)
+    ![](../media/lab-011.png)
 
-1. When prompted to upgrade your account to Power BI Pro, click
-    **Try Free**.
+15. Notice that the default authentication is to
+    **Use My Current Credentials**.
 
-	> [!div class="mx-imgBorder"]
-	> [![try free](../media/lab-7.png)](../media/lab-7.png#lightbox)
+    ![](../media/lab-012.png)
 
-	A Power BI Pro license is required to create and work with workspaces. It's also required when sharing content. The trial will allow you to work with Pro features for up to 60 days.
+16. Click **Connect**.
 
-1. When prompted to start the 60-day free Pro trial, click
-    **Start Trial**.
+    ![](../media/lab-013.png)
 
-	> [!div class="mx-imgBorder"]
-	> [![start trial](../media/lab-8.png)](../media/lab-8.png#lightbox)
+17. When prompted about encryption support, click **OK**.
 
-1. When the trial has been extended, click **Close**.
+    ![](../media/lab-014.png)
 
-1. Repeat the first step in this task to create the workspace.
+18. In the **Navigator** window, at the left, expand the
+    **AdventureWorksDW2020** database.
 
-1. In the **Create a Workspace** pane (located at the right), in the
-    **Workspace Name** box, enter a name for your workspace.
+The **AdventureWorksDW2020** database is based on the
+**AdventureWorksDW2017** sample database. It has been modified to
+support the learning objectives of the course labs.
 
-	The name you enter must be unique within the tenant. We suggest you name
-	the workspace **Sales Analysis**, and that you also append your
-	initials. For example, the name could be **Sales Analysis AB**.
+    ![](../media/lab-015.png)
 
-1. To create the workspace, at the bottom of the pane, click **Save**.
+19. Select—but don’t check—the **DimEmployee** table.
 
-	> [!div class="mx-imgBorder"]
-	> [![save](../media/lab-9.png)](../media/lab-9.png#lightbox)
+    ![](../media/lab-016.png)
 
-1. In the **Navigation** pane, notice that your workspace is open.
+20. In the right pane, notice a preview of the table.
 
-	> [!div class="mx-imgBorder"]
-	> [![sales analysis](../media/lab-10.png)](../media/lab-10.png#lightbox)
+The preview allows you to determine the columns and a sample of rows.
 
-1. You will publish content to the workspace in **Lab 03D**.
+21. To create queries, check the following six tables:
 
-### Open Power BI Desktop
+<!-- end list -->
 
-In this task, you will open Power BI Desktop, and then sign in using
-your account.
+  - DimEmployee
+  - DimEmployeeSalesTerritory
+  - DimProduct
+  - DimReseller
+  - DimSalesTerritory
+  - FactResellerSales
 
-1. To open the Power BI Desktop, on the taskbar, click the
-    Microsoft Power BI Desktop shortcut.
+<!-- end list -->
 
-	> [!div class="mx-imgBorder"]
-	> [![Microsoft Power BI Desktop shortcut](../media/lab-11.png)](../media/lab-11.png#lightbox)
+22. To apply transformations to the data of the selected tables, click
+    **Transform Data**.
 
-1. When prompted, click **Sign In**.
+You won’t be transforming the data in this lab. The objectives of this
+lab are to explore and profile the data in the **Power Query Editor**
+window.
 
-	> [!div class="mx-imgBorder"]
-	> [![sign in](../media/lab-12.png)](../media/lab-12.png#lightbox)
+    ![](../media/lab-017.png)
 
-1. Complete the sign in process by using the **MySettings.txt** account
-    details.
+### Preview SQL Server queries
 
-1. In Power BI Desktop, at the top-right corner, verify that you see
-    your account.
+In this task, you will preview the data of the SQL Server queries.
+First, you will learn relevant information about the data. You will also
+use column quality, column distribution, and column profile tools to
+understand the data, and assess data quality.
 
-	> [!div class="mx-imgBorder"]
-	> [![verify your account](../media/lab-13.png)](../media/lab-13.png#lightbox)
+23. In the **Power Query Editor** window, at the left, notice the
+    **Queries** pane.
 
-1. Leave Power BI Desktop open.
+    ![](../media/lab-018.png)
 
-You will commence the development of a data model in **Lab 02A**.
+The **Queries** pane contains one query for each selected table.
 
-### Update the lab database
+24. Select the first query—**DimEmployee**.
 
-In this task, you will run a PowerShell script to update data in the
-**AdventureWorksDW2020** database.
+    ![](../media/lab-019.png)
 
-1. In File Explorer, inside the **D:\\DA100\\Setup** folder,
-    right-click the **UpdateDatabase-1-UpdateAccount.ps1** file, and
-    then select **Run with PowerShell**.
+The **DimEmployee** table stores one row for each employee. A subset of
+the rows represent the salespeople, which will be relevant to the model
+you’ll develop.
 
-	> [!div class="mx-imgBorder"]
-	> [![Run with PowerShell](../media/lab-14.png)](../media/lab-14.png#lightbox)
+25. At the bottom left, in the status bar, notice the table
+    statistics—the table has 33 columns, and 296 rows.
 
-1. In the **Windows PowerShell** window, when prompted to enter your
-    account, paste in your account name from the **MySettings.txt**
-    file.
+    ![](../media/lab-020.png)
 
-	> [!TIP]
-	> To paste into the **Windows PowerShell** window, right-click at the
-	**Account** prompt.
+26. In the data preview pane, scroll horizontally to review all columns.
 
-	> [!div class="mx-imgBorder"]
-	> [![account name](../media/lab-15.png)](../media/lab-15.png#lightbox)
+27. Notice that the last five columns contain **Table** or **Value**
+    links.
 
-1. To update the database, press **Enter**.
+These five columns represent relationships to other tables in the
+database. They can be used to join tables together. You will join tables
+in **Lab 03A**.
 
-1. When prompted to press any key to continue, press **Enter** again.
+28. To assess column quality, on the **View** ribbon tab, from inside
+    the **Data Preview** group, check **Column Quality**.
 
-The **AdventureWorksDW2020** database has been updated to use your
-account details. You are now the salesperson Michael Blythe, whose sales
-performance is measured by the sales of three sales territory regions:
-US Northeast, US Central, and US Southeast.
+    ![](../media/lab-021.png)
 
-These facts will become relevant when implementing row-level security in
-**Lab 03B**.
+Column quality allows you to easily determine the percentage of valid,
+error, or empty values.
 
-[!INCLUDE [](../../../includes/power-bi-lab-end.md)]
+29. For the **Position** column (sixth last column), notice that 94% of
+    rows are empty (null).
+
+    ![](../media/lab-022.png)
+
+30. To assess column distribution, on the **View** ribbon tab, from
+    inside the **Data Preview** group, check **Column Distribution**.
+
+    ![](../media/lab-023.png)
+
+31. Review the **Position** column again, and notice that there are four
+    distinct values, and one unique value.
+
+32. Review the column distribution for the **EmployeeKey** (first)
+    column—there are 296 distinct values, and 296 unique values.
+
+    ![](../media/lab-024.png)
+
+When the distinct and unique counts are the same, it means the column
+contains unique values. When modeling, it’s important that some tables
+contain unique columns. They will be used to create one-to-many
+relationships, which you will do in **Lab 04A**.
+
+33. In the **Queries** pane, select the **DimEmployeeSalesTerritory**
+    query.
+
+    ![](../media/lab-025.png)
+
+The **DimEmployeeSalesTerritory** table stores one row for each employee
+and the sales territory regions they manage. The table supports relating
+many regions to a single employee. Some employees manage one, two, or
+possibly more regions. When you model this data, you will need to define
+a many-to-many relationship, which you will do in **Lab 05A**.
+
+34. In the **Queries** pane, select the **DimProduct** query.
+
+    ![](../media/lab-026.png)
+
+The **DimProduct** table contains one row per product sold by the
+company.
+
+35. Horizontally scroll to reveal the last columns.
+
+36. Notice the **DimProductSubcategory** column.
+
+When you add transformations to this query in the next lab, you’ll use
+the **DimProductSubcategory** column to join tables.
+
+37. In the **Queries** pane, select the **DimReseller** query.
+
+    ![](../media/lab-027.png)
+
+The **DimReseller** table contains one row per reseller. Resellers sell,
+distribute, or value add Adventure Works’ products.
+
+38. To view column values, on the **View** ribbon tab, from inside the
+    **Data Preview** group, check **Column Profile**.
+
+    ![](../media/lab-028.png)
+
+39. Select the **BusinessType** column header.
+
+40. Notice that a new pane opens beneath the data preview pane.
+
+41. Review the column statistics and value distribution.
+
+42. Notice the data quality issue: there are two labels for warehouse
+    (**Warehouse**, and the misspelled **Ware House**).
+
+    ![](../media/lab-029.png)
+
+43. Hover the cursor over the **Ware House** bar, and notice that there
+    are five rows with this value.
+
+In the next lab, you will apply a transformation to relabel these five
+rows.
+
+44. In the **Queries** pane, select the **DimSalesTerritory** query.
+
+    ![](../media/lab-030.png)
+
+The **DimSalesTerritory** table contains one row per sales region,
+including **Corporate HQ** (headquarters). Regions are assigned to a
+country, and countries are assigned to groups. In **Lab 04A**, will
+create a hierarchy to support analysis at region, country, or group
+level.
+
+45. In the **Queries** pane, select the **FactResellerSales** query.
+
+    ![](../media/lab-031.png)
+
+The **FactResellerSales** table contains one row per sales order line—a
+sales order contains one or more line items.
+
+46. Review the column quality for the **TotalProductCost** column, and
+    notice that 8% of the rows are empty.
+
+    ![](../media/lab-032.png)
+
+Missing **TotalProductCost** column values is a data quality issue. To
+address the issue, in the next lab you will apply transformations to
+fill in missing values by using the product standard cost, which is
+stored in the **DimProduct** table.
+
+### Get data from a CSV file
+
+In this task, you will create a query based on a CSV file.
+
+47. To add a new query, in the **Power Query Editor** window, on the
+    **Home** ribbon tab, from inside the **New Query** group, click the
+    **New Source** down-arrow, and then select **Text/CSV**.
+
+    ![](../media/lab-033.png)
+
+48. In the **Open** window, navigate to the **D:\\DA100\\Data** folder,
+    and select the **ResellerSalesTargets.csv** file.
+
+49. Click **Open**.
+
+50. In the **ResellerSalesTargets.csv** window, notice the data preview.
+
+51. Click **OK**.
+
+    ![](../media/lab-034.png)
+
+52. In the **Queries** pane, notice the addition of the
+    **ResellerSalesTargets** query.
+
+    ![](../media/lab-035.png)
+
+The **ResellerSalesTargets** CSV file contains one row per salesperson,
+per year. Each row records 12 monthly sales targets (expressed in
+thousands). The business year for the Adventure Works company commences
+on July 1.
+
+53. Notice that no columns contain empty values.
+
+When there isn’t a monthly sales target, a hyphen character is stored
+instead.
+
+54. Review the icons in each column header, to the left of the column
+    name.
+
+    ![](../media/lab-036.png)
+
+The icons represent the column data type. **123** is whole number, and
+**ABC** is text.
+
+In the next lab, you’ll apply many transformations to achieve a
+different shaped result consisting of only three columns: **Date**,
+**EmployeeKey**, and **TargetAmount**.
+
+### Get additional data from a CSV file
+
+In this task, you will create an additional query based on a different
+CSV file.
+
+55. Use the steps in the previous task to create a query based on the
+    **D:\\DA100\\Data**\\**ColorFormats.csv** file.
+
+    ![](../media/lab-037.png)
+
+The **ColorFormats** CSV file contains one row per product color. Each
+row records the HEX codes to format background and font colors. In the
+next lab, you will integrate this data with the **DimProduct** query
+data.
+
+### Finish up
+
+In this task, you will complete the lab.
+
+56. On the **View** ribbon tab, from inside the **Data Preview** group,
+    uncheck the three data preview options:
+
+<!-- end list -->
+
+  - Column quality
+  - Column distribution
+  - Column profile
+
+    ![](../media/lab-038.png)
+
+57. To save the Power BI Desktop file, on the **File** backstage view,
+    select **Save**.
+
+    ![](../media/lab-039.png)
+
+58. When prompted to apply the queries, click **Apply Later**.
+
+    ![](../media/lab-040.png)
+
+Applying the queries will load their data to the data model. You’re not
+ready to do that, as there are many transformations that must be applied
+first.
+
+59. Leave Power BI Desktop open.
+
+In the next lab, you will apply various transformations to the queries,
+and then apply the queries to load them to the data model.
