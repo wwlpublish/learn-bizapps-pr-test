@@ -529,7 +529,7 @@ In this task, you will configure the **Sales** query.
 
 ### Configure the Targets query
 
-In this task, you will configure the **Targets** query.
+In this task, you'll configure the **Targets** query.
 
 1. Select the **ResellerSalesTargets** query.
 
@@ -561,8 +561,8 @@ In this task, you will configure the **Targets** query.
 	
 	-   **Value** to **Target**
 	
-	You will now apply transformations to produce a date column. The date
-	will be derived from the **Year** and **MonthNumber** columns. You will
+	You'll now apply transformations to produce a date column. The date
+	will be derived from the **Year** and **MonthNumber** columns. You'll
 	create the column by using the **Columns From Examples** feature.
 
 1. To prepare the **MonthNumber** column values, right-click the
@@ -593,7 +593,7 @@ In this task, you will configure the **Targets** query.
 1. Notice that the first row is for year **2017** and month number
     **7**.
 
-1. In the **Column1** column, in the first grid cell, commence enter
+1. In the **Column1** column, in the first grid cell, enter
     **7/1/2017**, and then press **Enter**.
 
 	The virtual machine uses US regional settings, so this date is in fact
@@ -601,7 +601,7 @@ In this task, you will configure the **Targets** query.
 
 1. Notice that the grid cells update with predicted values.
 
-	The feature has accurately predicted that you are combining values from
+	The feature has accurately predicted that you're combining values from
 	two columns.
 
 1. Notice also the formula presented above the query grid.
@@ -659,7 +659,7 @@ In this task, you will configure the **Targets** query.
 
 ### Configure the ColorFormats query
 
-In this task, you will configure the **ColorFormats** query.
+In this task, you'll configure the **ColorFormats** query.
 
 1. Select the **ColorFormats** query.
 
@@ -682,7 +682,7 @@ In this task, you will configure the **ColorFormats** query.
 
 ### Update the Product query
 
-In this task, you will update the **Product** query by merging the
+In this task, you'll update the **Product** query by merging the
 **ColorFormats** query.
 
 1. Select the **Product** query.
@@ -744,7 +744,7 @@ In this task, you will update the **Product** query by merging the
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-66-ss.png)](../media/lab-66-ss.png#lightbox)
 
-1. In the status bar, verify that the query now has eight columns and
+1. In the status bar, verify that the query now has 8 columns and
     397 rows.
 
 	> [!div class="mx-imgBorder"]
@@ -752,7 +752,7 @@ In this task, you will update the **Product** query by merging the
 
 ### Update the ColorFormats query
 
-In this task, you will update the **ColorFormats** to disable its load.
+In this task, you'll update the **ColorFormats** to disable its load.
 
 1. Select the **ColorFormats** query.
 
@@ -770,7 +770,7 @@ In this task, you will update the **ColorFormats** to disable its load.
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-70-ssm.png)](../media/lab-70-ssm.png#lightbox)
 
-	Disabling the load means it will not load as a table to the data model.
+	Disabling the load means it won't load as a table to the data model.
 	This is done because the query was merged with the Product query, which
 	is enabled to lad to the data model.
 
@@ -781,7 +781,7 @@ In this task, you will update the **ColorFormats** to disable its load.
 
 ### Finish up
 
-In this task, you will complete the lab.
+In this task, you'll complete the lab.
 
 1. Verify that you have eight queries, correctly named as follows:
 
@@ -799,7 +799,7 @@ In this task, you will complete the lab.
 	
 	-   Target
 	
-	-   ColorFormats (which will not load to the data model)
+	-   ColorFormats (which won't load to the data model)
 
 1. To load the data model, on the **File** backstage view, select
     **Close & Apply**.
@@ -819,6 +819,6 @@ In this task, you will complete the lab.
 
 1. Leave Power BI Desktop open.
 
-In the next lab, you will configure data model tables and relationships.
+In the next lab, you'll configure data model tables and relationships.
 
 [!INCLUDE [](../../../includes/power-bi-lab-end.md)]
