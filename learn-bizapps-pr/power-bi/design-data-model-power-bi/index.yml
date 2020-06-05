@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.design-data-model-power-bi
+metadata: 
+ title: 
+ description: 
+ ms.date: 06/30/2020  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title:  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Summary text goes here. 
+abstract: |  
+    In this module, you will: 
+    - 
+    - 
+prerequisites:  
+iconUrl: /learn/achievements/design-data-model-power-bi.svg  
+levels:  
+- intermediate   
+roles:  
+- data-analyst  
+products:   
+- power-bi 
+units: 
+- learn-bizapps.design-data-model-power-bi.1-introduction 
+- learn-bizapps.design-data-model-power-bi.2-shape-data 
+- learn-bizapps.design-data-model-power-bi.3-data-structure 
+- learn-bizapps.design-data-model-power-bi.4-column-data-types 
+- learn-bizapps.design-data-model-power-bi.5-combine-tables 
+- learn-bizapps.design-data-model-power-bi.6-profile-data 
+- learn-bizapps.design-data-model-power-bi.7-advanced-editor 
+- learn-bizapps.design-data-model-power-bi.8-lab 
+- learn-bizapps.design-data-model-power-bi.9-check 
+- learn-bizapps.design-data-model-power-bi.10-summary 
+badge: 
+  uid: - learn-bizapps.design-data-model-power-bi.badge 
