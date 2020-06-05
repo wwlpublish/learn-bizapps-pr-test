@@ -2,8 +2,8 @@
 
 The estimated time to complete the lab is 45 minutes.
 
-In this lab, you will commence apply transformations to each of the
-queries created in the previous lab. You will then apply the queries to
+In this lab, you'll begin to apply transformations to each of the
+queries created in the previous lab. You'll then apply the queries to
 load each as a table to the data model.
 
 In this lab, you learn how to:
@@ -16,7 +16,7 @@ In this lab, you learn how to:
 
 ## Load Data
 
-In this exercise, you will apply transformations to each of the queries
+In this exercise, you'll apply transformations to each of the queries
 created in the previous lab.
 
 If you're not confident you completed the previous lab successfully, you
@@ -25,7 +25,7 @@ can open the previous lab's solution file, which is found in the
 
 ### Configure the Salesperson query
 
-In this task, you will configure the **Salesperson** query.
+In this task, you'll configure the **Salesperson** query.
 
 1.  In the **Power Query Editor** window, in the **Queries** pane,
     select the **DimEmployee** query.
@@ -45,7 +45,7 @@ define concise, yet friendly, names.
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
 
-	You will now filter the query rows to retrieve only employees who are salespeople.
+	You'll now filter the query rows to retrieve only employees who are salespeople.
 
 1.  To locate a specific column, on the **Home** ribbon tab, from inside
     the **Manage Columns** group, click the **Choose Columns**
@@ -173,7 +173,7 @@ define concise, yet friendly, names.
 
 ### Configure the SalespersonRegion query
 
-In this task, you will configure the **SalespersonRegion** query.
+In this task, you'll configure the **SalespersonRegion** query.
 
 1. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
 
@@ -202,7 +202,7 @@ In this task, you will configure the **SalespersonRegion** query.
 
 ### Configure the Product query
 
-In this task, you will configure the **Product** query.
+In this task, you'll configure the **Product** query.
 
 When detailed instructions have already been provided in the labs, the
 lab steps will now provide more concise instructions. If you need the
@@ -400,7 +400,7 @@ In this task, you will configure the **Region** query.
     rows.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-35-ssm.png)](../media/lab-35-ssm.png#lightbox)
+	> [![alt text](../media/lab-35-ss.png)](../media/lab-35-ss.png#lightbox)
 
 ### Configure the Sales query
 
