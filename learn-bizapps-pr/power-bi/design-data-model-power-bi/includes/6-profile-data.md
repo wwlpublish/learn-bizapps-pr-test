@@ -56,12 +56,12 @@ want 100 percent of the data to be valid. 
 > [!div class="mx-imgBorder"]
 > [![anomalies and data statistics for a column of data](../media/06-column-statistics-ssm.png)](../media/06-column-statistics-ssm.png#lightbox)
 
-**Column distribution **shows you the distribution of the data within
+**Column distribution** shows you the distribution of the data within
 the column and the counts of distinct and unique values, both of which
 can tell you details about the data counts. Distinct
 values are all values in a column, including duplicates and null values,
 while unique values do not include duplicates or
-nulls. Therefore, **distinct **in this table tells you the total count
+nulls. Therefore, **distinct** in this table tells you the total count
 of how many values are present, while **unique** tells you how many of
 those values are not duplicates or nulls.
 
@@ -83,7 +83,7 @@ the text column, as seen in the previous image, the minimum value is the
 first value and the maximum value is the last value when in alphabetical
 order.
 
-Additionally, the **Value distribution **graph tells you the counts for
+Additionally, the **Value distribution** graph tells you the counts for
 each unique value in that specific column. When looking at the graph in
 the previous image, notice that the value distribution indicates that
 "Anthony Grossman" appears the greatest number of times within
@@ -93,7 +93,7 @@ identifies outliers. If a value appears far more than other values in a
 column, the **Value distribution** feature allows you to pinpoint a
 place to begin your investigation into why this is so.
 
-On a numeric column, **Column Statistics **will also include how many
+On a numeric column, **Column Statistics** will also include how many
 zeroes and null values exist, along with the average value in the
 column, the standard deviation of the values in the column, and how many
 even and odd values are in the column. These statistics give you an idea
@@ -102,17 +102,17 @@ they summarize the data in the column and serve as a starting point to
 determine what the outliers are.
 
 For example, while looking through invoice data, you notice that
-the **Value distribution **graph shows that a few salespeople in
-the **SalesPerson **column appear the same amount of times within the
+the **Value distribution** graph shows that a few salespeople in
+the **SalesPerson** column appear the same amount of times within the
 data. Additionally, you notice the same situation has occurred in
-the **Profits **column and in a few other tables as well. During your
+the **Profits** column and in a few other tables as well. During your
 investigation, you discover that the data you were using was bad data
 and needed to be refreshed, so you immediately complete the refresh.
 Without viewing this graph, you might not have seen this error so
 quickly and, for this reason, value distribution is essential. 
 
 After you have completed your edits in Power Query Editor and are ready
-to begin building visuals, return to **Home **on the Power Query Editor
+to begin building visuals, return to **Home** on the Power Query Editor
 ribbon. Select **Close & Apply**, which will return you to Power BI
 Desktop and any column edits/transformations will also be applied.
 

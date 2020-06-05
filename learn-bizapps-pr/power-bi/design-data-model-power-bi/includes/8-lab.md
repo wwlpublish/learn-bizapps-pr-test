@@ -37,8 +37,8 @@ In this task, you'll configure the **Salesperson** query.
     right), in the **Name** box, replace the text with **Salesperson**,
     and then press **Enter**.
 
-The query name will determine the model table name. It's recommended to
-define concise, yet friendly, names.
+	The query name will determine the model table name. It's recommended to
+	define concise, yet friendly, names.
 
 1.  In the **Queries** pane, verify that the query name has updated.
 
@@ -461,7 +461,7 @@ In this task, you will configure the **Sales** query.
     (after the equals symbol):
 
 1. For your convenience, you can copy the expression from the
-    **D:\DA100\Lab03A\Assets\Snippets.txt ** file.
+    **D:\DA100\Lab03A\Assets\Snippets.txt** file.
 
 	Power Query
 	
