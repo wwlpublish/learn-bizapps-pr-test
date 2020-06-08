@@ -118,36 +118,36 @@ The SQL query starts with a **Select** statement, which allows you to
 choose the specific fields that you want to pull from your database. In
 this example, you want to load the ID, NAME, and SALESAMOUNT columns. 
 
-	```
-	SELECT  
-	 ID 
-	, NAME 
-	, SALESAMOUNT 
-	FROM 
-	```
+   ```
+   SELECT  
+   ID 
+   , NAME 
+   , SALESAMOUNT 
+   FROM 
+   ```
 
 FROM specifies the name of the table that you want to pull the data
 from. In this case, it's the SALES table. The following example is the
 full SQL query: 
 
-	```
-	SELECT  
-	 ID 
-	, NAME 
-	, SALESAMOUNT 
-	FROM  
-	SALES 
-	```
+   ```
+   SELECT  
+   ID 
+   , NAME 
+   , SALESAMOUNT 
+   FROM  
+   SALES 
+   ```
 
 When using an SQL query to import data, try to avoid using the wildcard character (\*) in your query. If you use the wildcard character (\*) in your SELECT statement, you import all columns that you don't need from the specified table. 
 
 The following example shows the query using the wildcard character.  
 
-	```
-	SELECT *  
-	FROM  
-	SALES 
-	```
+   ```
+   SELECT *  
+   FROM  
+   SALES 
+   ```
 
 The wildcard character (\*) will import all columns within the **Sales** table. This method is not recommended because it will lead to redundant
 data in your data model, which will cause performance issues and require
@@ -155,15 +155,15 @@ additional steps to normalize your data for reporting.  
 
 All queries should also have a **WHERE** clause. This clause will filter the rows to pick only filtered records that you want. In this example, if you want to get recent sales data after Jan 1, 2020, add a **WHERE** clause. The evolved query would look like the following example.
 
-	``` 
-	SELECT  
-	 ID 
-	, NAME 
-	, SALESAMOUNT 
-	FROM  
-	SALES 
-	WHERE  
-	OrderDate >= ‘1/1/2020’ 
-	```
+   ``` 
+   SELECT  
+   ID 
+   , NAME 
+   , SALESAMOUNT 
+   FROM  
+   SALES 
+   WHERE  
+   OrderDate >= ‘1/1/2020’ 
+   ```
 
 It is a best practice to avoid doing this directly in Power BI.  Instead, consider writing a query like this in a view. A view is an object in a relational database, similar to a table. Views have rows and columns, and can contain almost every operator in the SQL language. If Power BI uses a view, when it retrieves data, it participates in query folding, a feature of Power Query. Query folding will be explained later, but in short, Power Query will optimize data retrieval according to how the data is being used later.
