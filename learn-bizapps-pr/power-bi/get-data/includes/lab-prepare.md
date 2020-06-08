@@ -100,8 +100,8 @@ In this task, you will create queries based on SQL Server tables.
 
 19. Select but don’t check the **DimEmployee** table.
 
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of the DimEmployee option](../media/lab-016.png)](../media/2-file-types-c.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the DimEmployee option](../media/lab-016.png)](../media/2-file-types-c.png#lightbox)
 
 20. In the right pane, notice a preview of the table.
 
@@ -111,12 +111,12 @@ In this task, you will create queries based on SQL Server tables.
 
 <!-- end list -->
 
-   - DimEmployee
-   - DimEmployeeSalesTerritory
-   - DimProduct
-   - DimReseller
-   - DimSalesTerritory
-   - FactResellerSales
+    - DimEmployee
+    - DimEmployeeSalesTerritory
+    - DimProduct
+    - DimReseller
+    - DimSalesTerritory
+    - FactResellerSales
 
 <!-- end list -->
 
@@ -173,7 +173,7 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the column distribution](../media/lab-024.png)](../media/2-file-types-c.png#lightbox)
 
-   When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some tables contain unique columns. They will be used to create one-to-many relationships.
+    When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some tables contain unique columns. They will be used to create one-to-many relationships.
 
 33. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
 
@@ -207,14 +207,14 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
 42. Notice the data quality issue: there are two labels for warehouse
     (**Warehouse**, and the misspelled **Ware House**).
 
-     > [!div class="mx-imgBorder"]
-     > [![Screenshot of value distribution with two labels: Warehouse and Ware House](../media/lab-029.png)](../media/2-file-types-c.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of value distribution with two labels: Warehouse and Ware House](../media/lab-029.png)](../media/2-file-types-c.png#lightbox)
 
 43. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
 
 44. In the **Queries** pane, select the **DimSalesTerritory** query.
 
-    The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups.
+     The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups.
 
 45. In the **Queries** pane, select the **FactResellerSales** query.
 
@@ -226,7 +226,7 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the column quality](../media/lab-032.png)](../media/2-file-types-c.png#lightbox)
 
-   Missing **TotalProductCost** column values is a data quality issue. To address the issue, you would apply transformations to fill in missing values by using the product standard cost, which is stored in the **DimProduct** table.
+    Missing **TotalProductCost** column values is a data quality issue. To address the issue, you would apply transformations to fill in missing values by using the product standard cost, which is stored in the **DimProduct** table.
 
 ### Get data from a CSV file
 
@@ -251,7 +251,7 @@ In this task, you will create a query based on a CSV file.
 52. In the **Queries** pane, notice the addition of the
     **ResellerSalesTargets** query.
 
-   The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). The business year for the Adventure Works company commences on July 1.
+    The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). The business year for the Adventure Works company commences on July 1.
 
 53. Notice that no columns contain empty values. When there isn’t a monthly sales target, a hyphen character is stored instead.
 
@@ -261,7 +261,7 @@ In this task, you will create a query based on a CSV file.
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the icon in the column headers](../media/lab-036.png)](../media/2-file-types-c.png#lightbox)
 
-   The icons represent the column data type. **123** is whole number, and **ABC** is text.
+    The icons represent the column data type. **123** is whole number, and **ABC** is text.
 
 
 ### Get additional data from a CSV file
@@ -272,7 +272,7 @@ CSV file.
 55. Use the steps in the previous task to create a query based on the
     **D:\\DA100\\Data**\\**ColorFormats.csv** file.
 
-   The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors. 
+    The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors. 
 
 ### Finish up
 
@@ -294,7 +294,7 @@ In this task, you will complete the lab.
 
 58. When prompted to apply the queries, click **Apply Later**.
 
-   Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
+    Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
 
 59. Leave Power BI Desktop open.
 
