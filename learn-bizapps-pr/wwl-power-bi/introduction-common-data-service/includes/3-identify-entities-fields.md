@@ -32,4 +32,4 @@ Another step in your data model design is to reflect on the entity structures yo
 
 Once you have thought through your data design and validated it by building it out in Excel, you are ready to go to the Common Data Service and create the data structure that you have built. By planning and designing your data structure in a visual way, you will get a better result in less time. 
 
-![Example of a data design model.](../media/data-model-design-example.png)
+[ ![Example of a data design model.](../media/data-model-design-example.png)](../media/data-model-design-example.png#lightbox)
