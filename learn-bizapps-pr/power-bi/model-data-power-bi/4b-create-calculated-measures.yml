@@ -1,9 +1,9 @@
 ﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.model-data-power-bi.4b-create-calculated-measures 
-title: Create calculated measures
+title: Create measures
 metadata: 
-  title: Create calculated measures
-  description: Learn how to create calculated measures in Power BI Desktop.
+  title: Create measures
+  description: Learn how to create measures in Power BI Desktop.
   ms.date: 07/15/2019 
   author: heyrob 
   ms.author: robde 
