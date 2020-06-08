@@ -68,7 +68,7 @@ Select the check box(es) of the table(s) that you want to bring in to Power BI
 
 ### Import data by writing an SQL query  
 
-Another way you can import data is to write an SQL query to specify only the tables and columns that you need. This approach makes the import process faster and will lower the performance load on SQL Server.
+Another way you can import data is to write an SQL query to specify only the tables and columns that you need. 
 
 To write your SQL query, on the **SQL Server database** window, enter your server and database names, and then select the arrow next to **Advanced options** to expand this section and view your options. In the **SQL statement** box, write your query statement, and then select **OK**. In this example, you will use the **Select** SQL statement to load the ID, NAME and SALESAMOUNT columns **from** the SALES table.
 
@@ -165,3 +165,5 @@ All queries should also have a **WHERE** clause. This clause will filter the row
 	WHERE  
 	OrderDate >= ‘1/1/2020’ 
 	```
+
+It is a best practice to avoid doing this directly in Power BI.  Instead, consider writing a query like this in a view. A view is an object in a relational database, similar to a table. Views have rows and columns, and can contain almost every operator in the SQL language. If Power BI uses a view, when it retrieves data, it participates in query folding, a feature of Power Query. Query folding will be explained later, but in short, Power Query will optimize data retrieval according to how the data is being used later.
