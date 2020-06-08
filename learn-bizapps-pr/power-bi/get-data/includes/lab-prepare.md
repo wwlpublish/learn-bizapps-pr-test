@@ -33,8 +33,8 @@ In this task, you will first save the Power BI Desktop file.
 
 4.  In the **File Name** box, enter **Sales Analysis**.
 
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of the file name box](../media/lab-002.png)](../media/2-file-types-c.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the file name box](../media/lab-002.png)](../media/2-file-types-c.png#lightbox)
 
 5.  Click **Save**.
 
@@ -52,20 +52,20 @@ In this task, you will set Power BI Desktop options.
 7.  At the left, select **Options and Settings**, and then select
     **Options**.
 
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of Options and Settings](../media/lab-005.png)](../media/2-file-types-c.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Options and Settings](../media/lab-005.png)](../media/2-file-types-c.png#lightbox)
 
 8.  In the **Options** window, at the left, in the **Current File**
     group, select **Data Load**.
 
-   The **Data Load** settings for the current file allow setting options that determine default behaviors when modeling.
+    The **Data Load** settings for the current file allow setting options that determine default behaviors when modeling.
 
 9.  In the **Relationships** group, uncheck the two options that are checked.
 
-   > [!div class="mx-imgBorder"]
-   > [![Screenshot of the Relationships options](../media/lab-007.png)](../media/2-file-types-c.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Relationships options](../media/lab-007.png)](../media/2-file-types-c.png#lightbox)
 
-   While these two options can be helpful when developing a data model, they have been disabled to support the lab experience. When you create relationships in **Lab 03A**, you will learn why you are adding each one.
+    While these two options can be helpful when developing a data model, they have been disabled to support the lab experience. When you create relationships in **Lab 03A**, you will learn why you are adding each one.
 
 10. Click **OK**.
 
@@ -81,12 +81,11 @@ In this task, you will create queries based on SQL Server tables.
 13. In the **SQL Server Database** window, in the **Server** box, enter
     **localhost**.
 
-   In the labs, you will connect to the SQL Server database by using **localhost**. This isn’t a recommended practice, however, when creating your own solutions. It’s because gateway data sources cannot resolve **localhost**.
+    In the labs, you will connect to the SQL Server database by using **localhost**. This isn’t a recommended practice, however, when creating your own solutions. It’s because gateway data sources cannot resolve **localhost**.
 
 14. Click **OK**.
 
-15. Notice that the default authentication is to
-    **Use My Current Credentials**.
+15. Notice that the default authentication is to **Use My Current Credentials**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the authentication window](../media/lab-012.png)](../media/2-file-types-c.png#lightbox)
@@ -97,34 +96,34 @@ In this task, you will create queries based on SQL Server tables.
 
 18. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
 
-   The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.
+    The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.
 
 19. Select but don’t check the **DimEmployee** table.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the DimEmployee option](../media/lab-016.png)](../media/2-file-types-c.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the DimEmployee option](../media/lab-016.png)](../media/2-file-types-c.png#lightbox)
 
 20. In the right pane, notice a preview of the table.
 
-   The preview allows you to determine the columns and a sample of rows.
+    The preview allows you to determine the columns and a sample of rows.
 
 21. To create queries, check the following six tables:
 
 <!-- end list -->
 
-  - DimEmployee
-  - DimEmployeeSalesTerritory
-  - DimProduct
-  - DimReseller
-  - DimSalesTerritory
-  - FactResellerSales
+   - DimEmployee
+   - DimEmployeeSalesTerritory
+   - DimProduct
+   - DimReseller
+   - DimSalesTerritory
+   - FactResellerSales
 
 <!-- end list -->
 
 22. To apply transformations to the data of the selected tables, click
     **Transform Data**.
 
-   You won’t be transforming the data in this lab. The objectives of this lab are to explore and profile the data in the **Power Query Editor** window.
+    You won’t be transforming the data in this lab. The objectives of this lab are to explore and profile the data in the **Power Query Editor** window.
 
 ### Preview SQL Server queries
 
@@ -132,11 +131,11 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
 
 23. In the **Power Query Editor** window, at the left, notice the **Queries** pane.
 
-   The **Queries** pane contains one query for each selected table.
+    The **Queries** pane contains one query for each selected table.
 
 24. Select the first query **DimEmployee**.
 
-   The **DimEmployee** table stores one row for each employee. A subset of the rows represent the salespeople, which will be relevant to the model you’ll develop.
+    The **DimEmployee** table stores one row for each employee. A subset of the rows represent the salespeople, which will be relevant to the model you’ll develop.
 
 25. At the bottom left, in the status bar, notice the table statistics - the table has 33 columns, and 296 rows.
 
@@ -148,7 +147,7 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
 27. Notice that the last five columns contain **Table** or **Value**
     links.
 
-   These five columns represent relationships to other tables in the database. They can be used to join tables together. You will join tables in **Lab 03A**.
+    These five columns represent relationships to other tables in the database. They can be used to join tables together. You will join tables in **Lab 03A**.
 
 28. To assess column quality, on the **View** ribbon tab, from inside
     the **Data Preview** group, check **Column Quality**.
@@ -164,8 +163,7 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the position column](../media/lab-022.png)](../media/2-file-types-c.png#lightbox)
 
-30. To assess column distribution, on the **View** ribbon tab, from
-    inside the **Data Preview** group, check **Column Distribution**.
+30. To assess column distribution, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Distribution**.
 
 31. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
 
@@ -179,21 +177,21 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
 
 33. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
 
-   The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you will need to define a many-to-many relationship.
+    The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you will need to define a many-to-many relationship.
 
 34. In the **Queries** pane, select the **DimProduct** query.
 
-   The **DimProduct** table contains one row per product sold by the company.
+    The **DimProduct** table contains one row per product sold by the company.
 
 35. Horizontally scroll to reveal the last columns.
 
 36. Notice the **DimProductSubcategory** column.
 
-   If you were to add transformations to this query, you would use the **DimProductSubcategory** column to join tables.
+    If you were to add transformations to this query, you would use the **DimProductSubcategory** column to join tables.
 
 37. In the **Queries** pane, select the **DimReseller** query.
 
-   The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add Adventure Works’ products.
+    The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add Adventure Works’ products.
 
 38. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
 
@@ -209,18 +207,18 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
 42. Notice the data quality issue: there are two labels for warehouse
     (**Warehouse**, and the misspelled **Ware House**).
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of value distribution with two labels: Warehouse and Ware House](../media/lab-029.png)](../media/2-file-types-c.png#lightbox)
+     > [!div class="mx-imgBorder"]
+     > [![Screenshot of value distribution with two labels: Warehouse and Ware House](../media/lab-029.png)](../media/2-file-types-c.png#lightbox)
 
 43. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
 
 44. In the **Queries** pane, select the **DimSalesTerritory** query.
 
-   The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups.
+    The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups.
 
 45. In the **Queries** pane, select the **FactResellerSales** query.
 
-   The **FactResellerSales** table contains one row per sales order line - a sales order contains one or more line items.
+    The **FactResellerSales** table contains one row per sales order line - a sales order contains one or more line items.
 
 46. Review the column quality for the **TotalProductCost** column, and
     notice that 8% of the rows are empty.
@@ -255,9 +253,7 @@ In this task, you will create a query based on a CSV file.
 
    The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). The business year for the Adventure Works company commences on July 1.
 
-53. Notice that no columns contain empty values.
-
-   When there isn’t a monthly sales target, a hyphen character is stored instead.
+53. Notice that no columns contain empty values. When there isn’t a monthly sales target, a hyphen character is stored instead.
 
 54. Review the icons in each column header, to the left of the column
     name.
