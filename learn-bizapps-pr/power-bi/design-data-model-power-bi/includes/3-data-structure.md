@@ -1,9 +1,5 @@
 When you import data from multiple sources into Power BI
-Desktop, the data retains its predefined table and column names. You
-might want to change some of these names so that they are in a
-consistent format, easier to work with, and more meaningful to a
-user. You can use Power Query Editor in Power BI Desktop to make these
-name changes and simplify your data structure. 
+Desktop, the data retains its predefined table and column names. You might want to change some of these names so that they are in a consistent format, easier to work with, and more meaningful to a user. You can use Power Query Editor in Power BI Desktop to make these name changes and simplify your data structure. 
 
 To continue with the previous scenario where you shaped the
 initial data in your model, you need to take further action to simplify
@@ -68,13 +64,7 @@ data.
 
 ## Replace null values
 
-Occasionally, you might find that your data sources contain null values.
-For example, a freight amount on a sales order might have a null
-value if it's synonymous with zero. If the value stays null, the
-averages will not calculate correctly. One solution would be to change
-the nulls to zero, which will produce the more accurate freight average.
-In this instance, using the same steps that you followed previously will
-help you replace the null values with zero. 
+Occasionally, you might find that your data sources contain null values. For example, a freight amount on a sales order might have a null value if it's synonymous with zero. If the value stays null, theaverages will not calculate correctly. One solution would be to change the nulls to zero, which will produce the more accurate freight average. In this instance, using the same steps that you followed previously will help you replace the null values with zero. 
 
 > [!div class="mx-imgBorder"]
 > [![Replace null value with zero](../media/03-replace-null-zero-ss.png)](../media/03-replace-null-zero-ss.png#lightbox)

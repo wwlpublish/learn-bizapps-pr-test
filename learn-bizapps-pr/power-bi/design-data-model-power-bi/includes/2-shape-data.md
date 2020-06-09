@@ -40,10 +40,9 @@ changes that are being made to your original data source. You can see a
 list of your steps on the right side of the screen, in the **Query
 Settings** pane, along with the query's properties. 
 
-The Power Query Editor ribbon contains many buttons you can use to
-select, view, and shape your data.
+The Power Query Editor ribbon contains many buttons you can use to select, view, and shape your data.
 
-To learn more about the available features and functions, see [The query ribbon](https://docs.microsoft.com/power-query/power-query-quickstart-using-power-bi.md?azure-portal=true#the-query-ribbon). 
+To learn more about the available features and functions, see [The query ribbon](https://docs.microsoft.com/power-query/power-query-quickstart-using-power-bi#the-query-ribbon). 
 
 > [!NOTE]
 > In Power Query Editor, the right-click context menus and **Transform** tab in the ribbon provide many of the same options.
@@ -66,26 +65,15 @@ However, you notice that the data did not import as expected.
 > [!div class="mx-imgBorder"]
 > [![Original excel data](../media/02-identify-columns.ss.png)](../media/02-identify-columns.ss.png#lightbox)
 
-Consequently, the data is difficult to read. A problem has occurred with
-the data in its current state because column headers are in different
-rows (marked in red), and several columns have undescriptive names, such
-as **Column1**, **Column2**, and so on.
+Consequently, the data is difficult to read. A problem has occurred with the data in its current state because column headers are in different rows (marked in red), and several columns have undescriptive names, such as **Column1**, **Column2**, and so on.
 
-When you have identified where the column headers and names are located,
-you can make changes to reorganize the data. 
+When you have identified where the column headers and names are located, you can make changes to reorganize the data. 
 
 ### Promote headers
 
-When a table is created in Power BI Desktop, Power Query Editor assumes
-that all data belongs in table rows. However, a data source might have a
-first row that contains column names, which is what happened in
-the previous SalesTarget example. To correct this inaccuracy, you need
-to promote the first table row into column headers.
+When a table is created in Power BI Desktop, Power Query Editor assumes that all data belongs in table rows. However, a data source might have a first row that contains column names, which is what happened in the previous SalesTarget example. To correct this inaccuracy, you need to promote the first table row into column headers.
 
-You can promote headers in two ways: by selecting the **Use First Row as
-Headers** option on the **Home** tab or by selecting the drop-down
-button next to **Column1** and then selecting **Use First Row as
-Headers**. 
+You can promote headers in two ways: by selecting the **Use First Row as Headers** option on the **Home** tab or by selecting the drop-down button next to **Column1** and then selecting **Use First Row as Headers**. 
 
 > [!div class="mx-imgBorder"]
 > [![Different options to use first row as headers](../media/02-use-first-row-headers-ssm.png)](../media/02-use-first-row-headers-ssm.png#lightbox)
@@ -107,11 +95,7 @@ First Row as Headers** feature. Notice that the column that contains the
 subcategory **Name** data now has **Month** as its column header.
 This column header is incorrect, so it needs to be renamed. 
 
-You can rename column headers in two ways. One approach is to
-right-click the header, select **Rename**,
-edit the name, and then press **Enter**. Alternatively, you
-can double-click the column header and overwrite the name with
-the correct name. 
+You can rename column headers in two ways. One approach is to right-click the header, select **Rename**, edit the name, and then press **Enter**. Alternatively, you can double-click the column header and overwrite the name withthe correct name. 
 
 You can also work around this issue by removing (skipping) the first two
 rows and then renaming the columns to the correct name. 
@@ -156,9 +140,7 @@ adds no value to your data model. Therefore, the column should be
 removed. You can always add the column later, if your requirements
 change over time. 
 
-You can remove columns in two ways. The first method is to select the
-columns that you want to* *remove and then,
-on the **Home** tab, select **Remove Columns**. 
+You can remove columns in two ways. The first method is to select the columns that you want to remove and then, on the **Home** tab, select **Remove Columns**. 
 
 > [!div class="mx-imgBorder"]
 > [![Remove columns feature](../media/02-remove-columns-ssm.png)](../media/02-remove-columns-ssm.png#lightbox)
@@ -218,18 +200,14 @@ column. For example, you might want to use this feature to summarize
 data by using different math functions such as **Count**, **Minimum**,
 **Maximum**, **Median**, **Average**, or **Sum**. 
 
-In the SalesTarget example, you can pivot the columns to get the
-quantity of product subcategories in each product category.
+In the SalesTarget example, you can pivot the columns to get the quantity of product subcategories in each product category.
 
 On the **Transform** tab, select **Transform > Pivot Columns**.
 
 > [!div class="mx-imgBorder"]
 > [![Pivot Column](../media/02-pivot-column-ssm.png)](../media/02-pivot-column-ssm.png#lightbox)
 
-On the **Pivot Column** window that displays, select a column from
-the **Values Column** list, such as **Subcategory name**. Expand the
-advanced options and select an option from the **Aggregate Value
-Function **list, such as **Count (All)**, and then select **OK**. 
+On the **Pivot Column** window that displays, select a column from the **Values Column** list, such as **Subcategory name**. Expand the advanced options and select an option from the **Aggregate Value Function** list, such as **Count (All)**, and then select **OK**. 
 
 > [!div class="mx-imgBorder"]
 > [![Aggregate value function](../media/02-aggregate-value-function-ssm.png)](../media/02-aggregate-value-function-ssm.png#lightbox)

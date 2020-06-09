@@ -47,16 +47,7 @@ time-based calculations.
 > [!div class="mx-imgBorder"]
 > [![Error for time based calculated measure](../media/04-error-calculated-measure-ss.png)](../media/04-error-calculated-measure-ss.png#lightbox)
 
-Another issue with having an incorrect data type applied on a date field
-is the inability to create a date hierarchy, which would allow you to
-analyze your data on yearly, monthly, or weekly basis. The following
-screenshot shows that the SalesDate field is not recognized as type Date
-and will only be presented as a list of dates in the Table visual.
-However, it is a best practice to use a date table and turn off the auto
-date/time to get rid of the auto generated hierarchy. For more
-information about this process, see [Auto generated data
-type](https://docs.microsoft.com/power-bi/guidance/auto-date-time/?azure-portal=true)
-documentation.
+Another issue with having an incorrect data type applied on a date field is the inability to create a date hierarchy, which would allow you to analyze your data on yearly, monthly, or weekly basis. The following screenshot shows that the SalesDate field is not recognized as type Date and will only be presented as a list of dates in the Table visual. However, it is a best practice to use a date table and turn off the auto date/time to get rid of the auto generated hierarchy. For more information about this process, see [Auto generated data type](https://docs.microsoft.com/power-bi/guidance/auto-date-time/?azure-portal=true) documentation.
 
 > [!div class="mx-imgBorder"]
 > [![Additions SalesDate options](../media/04-additions-sales-date-options-ssm.png)](../media/04-additions-sales-date-options-ssm.png#lightbox)
@@ -94,4 +85,4 @@ select **Close & Apply** to close Power Query Editor and apply your
 changes to your data model. At this stage, your data should be in great
 shape for analysis and reporting.
 
-For more information, see [Data types in Power BI](https://docs.microsoft.com/power-bi/connect-data/desktop-data-types/?azure-portal=true) Desktop.
+For more information, see [Data types in Power BI Desktop](https://docs.microsoft.com/power-bi/connect-data/desktop-data-types/?azure-portal=true).

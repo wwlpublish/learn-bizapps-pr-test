@@ -83,15 +83,7 @@ the text column, as seen in the previous image, the minimum value is the
 first value and the maximum value is the last value when in alphabetical
 order.
 
-Additionally, the **Value distribution** graph tells you the counts for
-each unique value in that specific column. When looking at the graph in
-the previous image, notice that the value distribution indicates that
-"Anthony Grossman" appears the greatest number of times within
-the **SalesPerson** column and that "Lily Code" appears the least amount
-of times. This information is particularly important because it
-identifies outliers. If a value appears far more than other values in a
-column, the **Value distribution** feature allows you to pinpoint a
-place to begin your investigation into why this is so.
+Additionally, the **Value distribution** graph tells you the counts for each unique value in that specific column. When looking at the graph in the previous image, notice that the value distribution indicates that "Anthony Grosse" appears the greatest number of times within the **SalesPerson** column and that "Lily Code" appears the least amount of times. This information is particularly important because it identifies outliers. If a value appears far more than other values in a column, the **Value distribution** feature allows you to pinpoint a place to begin your investigation into why this is so.
 
 On a numeric column, **Column Statistics** will also include how many
 zeroes and null values exist, along with the average value in the
@@ -105,7 +97,7 @@ For example, while looking through invoice data, you notice that
 the **Value distribution** graph shows that a few salespeople in
 the **SalesPerson** column appear the same amount of times within the
 data. Additionally, you notice the same situation has occurred in
-the **Profits** column and in a few other tables as well. During your
+the **Profit** column and in a few other tables as well. During your
 investigation, you discover that the data you were using was bad data
 and needed to be refreshed, so you immediately complete the refresh.
 Without viewing this graph, you might not have seen this error so

@@ -30,12 +30,7 @@ single table.
 
 ## Append queries
 
-When you append queries, you will be adding rows of data to another
-table or query. For example, you could have two tables, one with 300
-rows and another with 100 rows, and when you append queries, you will
-end up with 400 rows. When you merge queries, you will be adding columns
-from one table (or query) into another. To merge two tables,
-you must have a column that is the key between the two tables.
+When you append queries, you will be adding rows of data to another table or query. For example, you could have two tables, one with 300 rows and another with 100 rows, and when you append queries, you will end up with 400 rows. When you merge queries, you will be adding columns from one table (or query) into another. To merge two tables, you must have a column that is the key between the two tables.
 
 For the previously mentioned scenario, you will append the HR.Employees table with the
 Production.Suppliers and Sales.Customers tables so that you have one
@@ -89,14 +84,7 @@ from one table to another, the process would be different.
 
 ## Merge queries
 
-When you merge queries, you are combining the data from multiple tables
-into one based on a column that is common between the tables. This
-process is similar to the JOIN clause in SQL. Consider a scenario where
-the Sales team now wants you to consolidate orders and their
-corresponding details (which are currently in two tables) into a single
-table. You can accomplish this task by merging the two tables, Orders
-and OrderDetails, as shown in the following image. The column that is
-shared between these two tables is **OrderID**.
+When you merge queries, you are combining the data from multiple tables into one based on a column that is common between the tables. This process is similar to the JOIN clause in SQL. Consider a scenario where the Sales team now wants you to consolidate orders and their corresponding details (which are currently in two tables) into a single table. You can accomplish this task by merging the two tables, Orders and OrderDetails, as shown in the following image. The column that is shared between these two tables is **OrderID**.
 
 > [!div class="mx-imgBorder"]
 > [![Order and Order Details tables to be merged ](../media/05-merging-tables-example-ss.png)](../media/05-merging-tables-example-ss.png#lightbox) 
