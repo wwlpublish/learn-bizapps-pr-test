@@ -293,6 +293,9 @@
       "clicktale": true,
       "uhfHeaderId":"MSDocsHeader-Learn"
     },
+    "searchScope": [
+        "PowerApps"
+      ],
     "fileMetadata": {},
     "template": [],
     "dest": "learn-bizapps-pr",
