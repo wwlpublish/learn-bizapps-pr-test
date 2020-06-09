@@ -2,8 +2,8 @@
 
 The estimated time to complete the lab is 45 minutes.
 
-In this lab, you'll begin to apply transformations to each of the
-queries created in the previous lab. You'll then apply the queries to
+In this lab, you'll begin to apply transformations to
+queries. You'll then apply the queries to
 load each as a table to the data model.
 
 In this lab, you learn how to:
@@ -19,8 +19,7 @@ In this lab, you learn how to:
 In this exercise, you'll apply transformations to each of the queries
 created in the previous lab.
 
-If you're not confident you completed the previous lab successfully, you
-can open the previous lab's solution file, which is found in the
+Begin by opening the solution file, which is found in the
 **D:\DA100\Lab02A\Solution** folder.
 
 ### Configure the Salesperson query
