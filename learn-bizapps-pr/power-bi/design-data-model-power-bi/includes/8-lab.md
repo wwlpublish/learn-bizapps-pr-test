@@ -26,7 +26,9 @@ Begin by opening the solution file, which is found in the
 
 In this task, you'll configure the **Salesperson** query.
 
-1.  In the **Power Query Editor** window, in the **Queries** pane,
+1.  To open the **Power Query Editor** window, in Power BI Desktop, on the Home ribbon tab, click **Transform Data**. 
+
+1. In the **Power Query Editor** window, in the **Queries** pane,
     select the **DimEmployee** query.
 
 	> [!div class="mx-imgBorder"]
