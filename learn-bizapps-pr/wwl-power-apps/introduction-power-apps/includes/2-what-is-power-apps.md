@@ -1,6 +1,6 @@
 Do you have inefficient or legacy business processes that you would like to modernize? Are you still moving information around using paper or even a shared Excel workbook? Do you want to be able to perform these business processes from different devices like PCs or mobile phones? Then you need Power Apps.
 
-Power Apps is a no-code/low-code platform for building apps that builds off of concepts similar to formulas in an excel workbook such as SUM and TEXT. You can use Power Apps to build simple solutions like vehicle inspection forms and status reports or complex business solutions for purchasing processes and inventory management. If you can envision an app to solve a business problem, then you can use your existing skills to build it. Although this module is geared towards business users with little background in computer science and coding, Power Apps offers advanced functionality and the ability for seasoned developers to design complex applications with ease.
+Power Apps is a no-code/low-code platform for building apps that builds off of concepts similar to formulas in an Excel workbook such as SUM and TEXT. You can use Power Apps to build simple solutions like vehicle inspection forms and status reports or complex business solutions for purchasing processes and inventory management. If you can envision an app to solve a business problem, then you can use your existing skills to build it. Although this module is geared towards business users with little background in computer science and coding, Power Apps offers advanced functionality and the ability for seasoned developers to design complex applications with ease.
 
 ## Work with your data where it lives
 
@@ -20,7 +20,7 @@ You don't have to choose just one data source. Power Apps easily supports multip
 
 ## Different types of Power Apps for different scenarios
 
-Power Apps can create three types of apps: canvas, model-driven, and portals. Each suited to different scenarios and end users.
+Power Apps can create three types of apps: canvas, model-driven, and portals. Each is suited to different scenarios and end users.
 
 ### Canvas apps
 
@@ -53,7 +53,7 @@ The business card reader is simply one ready-made example which builds off of th
 
 - Form processor - This model extracts text from an image like the business card reader. 
 
-- Object detector - This model identifies objects from an uploaded image or taken photo and then provides a count of the number objects present.
+- Object detector - This model identifies objects from an uploaded image or taken photo and then provides a count of the number of objects present.
 
 - Text classification - This model categorizes text by its meaning, making it is easier to analyze. 
 
@@ -73,11 +73,11 @@ As you can see, AI can help you answer powerful business questions without writi
 
 ## Security and Administration
 
-There are many tools for those in IT or otherwise responsible for governance. Power Apps has a multitude of security, governance, and reporting capabilities to let you manage Power Apps. Also, Power Apps doesn't circumvent security in any way. Users cannot build apps to bypass current access permissions. To manage security for Power Apps you can access [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/) Here you will find options for creating and managing environments, monitoring licenses, working with Data Loss Prevention policies and managing Common Data Service Data Integration projects. This allows you to manage the Power Apps throughout your tenant from one single place. 
+There are many tools for those in IT or otherwise responsible for governance. Power Apps has a multitude of security, governance, and reporting capabilities to let you manage Power Apps. Also, Power Apps doesn't circumvent security in any way. Users cannot build apps to bypass current access permissions. To manage security for Power Apps, you can access [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/). Here you will find options for creating and managing environments, monitoring licenses, working with Data Loss Prevention policies and managing Common Data Service Data Integration projects. This allows you to manage the Power Apps throughout your tenant from one single place. 
 
 Power Apps also has its own set of PowerShell cmdlets for app creators, administrators, and developers that allow you to automate many of your administrative duties. A common use case of the PowerShell cmdlets is to automate the discovery and permission management of all apps in your tenant, allowing you to better understand and manage apps as they are created and spread throughout your company.
 
-In addition, in the Power Automate learn module, you will see that Power Automate has the ability to automate these tasks. You can download the [Center of Excellence](https://aka.ms/CoEStarterKitDownload) starter kit, a collection of components or tools that are designed to help get started with developing a strategy for adopting and supporting the Power Platform, with a focus on PowerApps and Flow.
+In addition, in the Power Automate learn module, you will see that Power Automate has the ability to automate these tasks. You can download the [Center of Excellence](https://aka.ms/CoEStarterKitDownload) starter kit, a collection of components or tools that are designed to help get started with developing a strategy for adopting and supporting the Power Platform, with a focus on Power Apps and Power Automate.
 
 ## Driving business value
 
