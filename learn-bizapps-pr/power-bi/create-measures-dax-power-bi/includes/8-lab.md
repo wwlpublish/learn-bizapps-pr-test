@@ -361,7 +361,7 @@ In this task, you will publish the Power BI Desktop file to Power BI.
 	> [!div class="mx-imgBorder"]
 	> [![Sales Analysis workspace contents](../media/lab-8-20-ssm.png)](../media/lab-8-20-ssm.png#lightbox)
 
-	The pubilication has added a report and a dataset. If you don’t see them, press **F5** to reload the browser, and then expand the workspace again.
+	The publication has added a report and a dataset. If you don’t see them, press **F5** to reload the browser, and then expand the workspace again.
 
 	The data model has been published to become a dataset. The report—used to test your model calculations—has been added as a report. This report is not required, so you will now delete it.
 
@@ -381,4 +381,4 @@ In this task, you will publish the Power BI Desktop file to Power BI.
 
 In this task, you will complete the lab.
 
-1. Leave the Edge browser window open.
+Leave the Edge browser window open.

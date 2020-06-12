@@ -57,7 +57,7 @@ In this task, you will create the **Salesperson** table (direct relationship to 
 1. Right-click the inactive relationship between the **Salesperson (Performance)** and **Sales** tables, and then select **Delete**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Delete inactive relationsip](../media/lab-6-4-ssm.png)](../media/lab-6-4-ssm.png#lightbox)
+	> [![Delete inactive relationship](../media/lab-6-4-ssm.png)](../media/lab-6-4-ssm.png#lightbox)
 
 1. When prompted to confirm the deletion, click **Delete**.
 
