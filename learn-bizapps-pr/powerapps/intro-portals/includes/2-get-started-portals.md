@@ -71,10 +71,8 @@ The high-level steps to provision a starter portal are:
 * Once portal provisioning completes, the portal will appear in the list as the app of type Portal 
 * Click on the ellipsis next to the portal app name then click Browse to open the portal website
 
-> [!VIDEO "../media/provision-portal.mp4"]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yoJw"]
 >
-> <video src="../media/provision-portal.mp4"></video>
 >
 > 
-
 Step-by-step instructions to provision a portal are available in [Provision a portal](https://docs.microsoft.com/dynamics365/customer-engagement/portals/provision-portal).

@@ -26,9 +26,7 @@ Pages can be added and edited using the Portal studio, the portal front-side edi
 | 5. Page will be automatically saved.        | 5. Select **Save**                                           |
 | **Security:** user must be a **licensed Power Apps user** with the appropriate Common Data Service security privileges.                                            |  |
 
-> [!VIDEO "../media/create-web-page.mp4"]
-
-<video src="../media/create-web-page.mp4"></video>
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yrkV]
 
 Each web page is composed of at least two portal metadata records.  A *root* web page record, which contains the main attributes of the web page record and a *content* web page record that holds the language-specific content of the web page.  There is one *content* web page for each provision portal language.
 
