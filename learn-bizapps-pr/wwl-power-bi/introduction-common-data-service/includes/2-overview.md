@@ -3,7 +3,7 @@ The Common Data Service is a cloud-based solution that easily structures a varie
 The Common Data Service is designed to be your central data repository for business data and you might even be using it already. Behind the scenes it powers many Microsoft Dynamics 365 solutions such as Field Service, Marketing, Customer Service, and Sales. It is also available as part of Power Apps and Power Automate with native connectivity built right in. The AI Builder and Portals features of the Power Platform also utilize the Common Data Service.
 
 Below is visualization to bring together the many offerings of Common Data Service.  
-    ![Common Data Service API options](../media/cds-diagram.png)
+    ![Common Data Service API options](../media/common-data-service-diagram.png)
 
 As you can see, Common Data Service offers a great deal of functionality. Below is a brief explanation of each category of features.
 
