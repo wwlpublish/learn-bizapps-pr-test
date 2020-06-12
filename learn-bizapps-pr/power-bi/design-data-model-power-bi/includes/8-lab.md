@@ -19,7 +19,19 @@ In this lab, you learn how to:
 In this exercise, you'll apply transformations to each of the queries
 created in the previous lab.
 
-Begin by opening the solution file, which is found in the
+### Open the solution file
+
+1.  Double-click the Power BI Desktop icon. (This may take a minute or two to open.)
+
+1.  Dismiss the splash screen by selecting **X** to close.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the opening Power BI splash screen.](../media/lab-0-ssm.png)](../media/lab-1-ssm.png#lightbox)
+
+
+1.  From the **File** tab, select **Open report**.
+ 
+1. Open the solution file, which is found in the
 **D:\DA100\Lab02A\Solution** folder.
 
 ### Configure the Salesperson query
@@ -28,9 +40,6 @@ In this task, you'll configure the **Salesperson** query.
 
 1.  In the **Power Query Editor** window, in the **Queries** pane,
     select the **DimEmployee** query.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-1-ssm.png)](../media/lab-1-ssm.png#lightbox)
 
 1.  To rename the query, in the **Query Settings** pane (located at the
     right), in the **Name** box, replace the text with **Salesperson**,
@@ -42,7 +51,7 @@ In this task, you'll configure the **Salesperson** query.
 1.  In the **Queries** pane, verify that the query name has updated.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
+	> [![Screenshot of the Queries pane.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
 
 	You'll now filter the query rows to retrieve only employees who are salespeople.
 
@@ -51,7 +60,7 @@ In this task, you'll configure the **Salesperson** query.
     down-arrow, and then select **Go to Column**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
+	> [![Screenshot of the Go to Column option](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
 
 	> [!TIP]
 	> This technique is useful when a query contains many columns.
@@ -79,9 +88,6 @@ In this task, you'll configure the **Salesperson** query.
 1.  In the **Query Settings** pane, in the **Applied Steps** list,
     notice the addition of the **Filtered Rows** step.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-7-ssm.png)](../media/lab-7-ssm.png#lightbox)
-
 	Each transformation you create results in additional step logic. It's possible to edit or delete steps. It's also possible to select a step to preview the query results at that stage of transformation.
 
 1. To remove columns, on the **Home** ribbon tab, from inside the
@@ -92,9 +98,6 @@ In this task, you'll configure the **Salesperson** query.
 
 1. In the **Choose Columns** window, to uncheck all columns, uncheck
     the **(Select All Columns)** item.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox)
 
 1. To include columns, check the following six columns:
 
@@ -111,9 +114,6 @@ In this task, you'll configure the **Salesperson** query.
 	-   EmailAddress
 
 1. Click **OK**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-10-ssm.png)](../media/lab-10-ssm.png#lightbox)
 
 1. In the **Applied Steps** list, notice the addition of another query
     step.
@@ -146,9 +146,6 @@ In this task, you'll configure the **Salesperson** query.
 	> [![alt text](../media/lab-14-ssm.png)](../media/lab-14-ssm.png#lightbox)
 
 1. Click **OK**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-15-ssm.png)](../media/lab-15-ssm.png#lightbox)
 
 1. To rename the **EmployeeNationalIDAlternateKey** column,
     double-click the **EmployeeNationalIDAlternateKey** column header.
@@ -261,9 +258,6 @@ detailed instructions, you can refer back to other tasks.
 
 1. Click **OK**.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-24-ssm.png)](../media/lab-24-ssm.png#lightbox)
-
 1. Notice that the transformation resulted in two columns, and that the
     **DimProductCategory** column has been removed.
 
@@ -340,9 +334,6 @@ In this task, you will configure the **Reseller** query.
 	> [![alt text](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
 
 1. Click **OK**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-31-ssm.png)](../media/lab-31-ssm.png#lightbox)
 
 1. Rename the following four columns:
 
@@ -472,9 +463,6 @@ In this task, you will configure the **Sales** query.
 	**TotalProductCost** value.
 
 1. Click **OK**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-39-ssm.png)](../media/lab-39-ssm.png#lightbox)
 
 1. Remove the following two columns:
 
@@ -617,9 +605,6 @@ In this task, you'll configure the **Targets** query.
 
 1. Click **OK**.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-52-ssm.png)](../media/lab-52-ssm.png#lightbox)
-
 1. Remove the following columns:
 
 	-   Year
@@ -646,9 +631,6 @@ In this task, you'll configure the **Targets** query.
 	> [![alt text](../media/lab-54-ssm.png)](../media/lab-54-ssm.png#lightbox)
 
 1. Click **OK**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-55-ssm.png)](../media/lab-55-ssm.png#lightbox)
 
 1. In the status bar, verify that the query has 3 columns and 809
     rows.
@@ -730,9 +712,6 @@ In this task, you'll update the **Product** query by merging the
 
 1. In the **Merge** window, click **OK**.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-65-ssm.png)](../media/lab-65-ssm.png#lightbox)
-
 1. Expand the **ColorFormats** column to include the following two
     columns:
 
@@ -774,9 +753,6 @@ In this task, you'll update the **ColorFormats** to disable its load.
 	is enabled to lad to the data model.
 
 1. Click **OK**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-71-ssm.png)](../media/lab-71-ssm.png#lightbox)
 
 ### Finish up
 
