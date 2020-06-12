@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-portals.9-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 6/30/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps-portals 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Insert instructional text here
+    choices: 
+    - content: Insert instructional text here
+      isCorrect: true 
+      explanation: Insert instructional text here
+    - content: Insert instructional text here
+      isCorrect: false 
+      explanation: Insert instructional text here
+    - content: Insert instructional text here
+      isCorrect: false 
+      explanation: Insert instructional text here
+    - content: Insert instructional text here
+      isCorrect: false 
+      explanation: Insert instructional text here
