@@ -12,7 +12,7 @@ In this lab, you learn how to:
 
 -   Apply queries to load them to the data model
 
-[!INCLUDE [](../../../includes/power-bi-lab-login.md)]
+Before you start this lab, you will need to open the lab environment link above, and log in to the lab environment. There is no need to provide your own environment, as an environment has been prepared for this lab.
 
 ## Load Data
 
@@ -31,7 +31,7 @@ In this exercise, you'll apply transformations to each of the queries.
 1.  From the **File** tab, select **Open report**.
  
 1. Open the solution file, which is found in the
-**D:\DA100\Lab02A\Solution** folder.
+**D:\DA100\Lab02A\Starter** folder.
 
 ### Configure the Salesperson query
 
