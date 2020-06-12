@@ -1,20 +1,18 @@
-# Portal templates
-
 There are a number of portal templates available when provisioning a Power Apps portal in a Common Data Service environment with Dynamics 365 apps installed.  The Portal from blank is the only option available to Common Data Service environments with no first-party Dynamics 365 apps installed.
 
 ## Custom template
 
-The Custom Portal provides organizations with a basic portal to allow creation of unique line of business workload features that are not addressed by Dynamics 365 based templates.
+The Custom Portal provides organizations with a basic portal to allow creation of unique line-of-business workload features that are not addressed by Dynamics 365 based templates.
 
-This portal is an ideal starting point for unique line of business applications with portal requirements. Examples of custom portals could be event and registration management, grant management and certification management. Any custom business application built on the Power Platform can be extended to an external facing audience.
+This portal is an ideal starting point for unique line-of-business applications with portal requirements. Examples of custom portals could be event and registration management, grant management, and certification management. Any custom business application built on the Power Platform can be extended to an external facing audience.
 
 The custom portal contains core features such as content management, security, ability to transact with Common Data Service and extensibility.
 
 NOTE: The default home page of the custom blank portal will appear different if provisioned from a Dynamics 365-enabled Common Data Service environment versus one without Dynamics 365 enabled.
 
-![Dynamics 365 Apps - Custom Home Page](../media/customportal.png "Custom Home Dynamics 365 apps")
+![Dynamics 365 Apps - Custom Home Page](../media/custom-portal.png)
 
-![CDS only](../media/CDSblankPortal.png "CDS Blank Portal")
+![Common Data Service only](../media/cds-blank-portal.png)
 
 ### Community  
 
@@ -29,7 +27,7 @@ The Community template is meant to be used as a starting point for building an o
 **Assisted Service**. Community Portal allows organization to tap into Dynamics 365 support channels: 
 
 * Submit cases/tickets via configurable web forms
-* Review, update and comment on existing cases
+* Review, update, and comment on existing cases
 * Participate in discussion / community forums
 
 ### Customer self-service
@@ -40,7 +38,7 @@ Similar to the Community Portal, the features for both self-service and assisted
 
 ### Employee self-service
 
-The Employee self-service template provides organizations with a portal configured to assist employees with finding specific human resources and company information or resolving employee specific issues.
+The Employee self-service template provides organizations with a portal configured to assist employees with finding specific human resources and company information or resolving employee-specific issues.
 
 By default the Employee self-service portal is configured to authenticate using Azure Active Directory, providing the employees with a single sign-on experience.
 
@@ -54,7 +52,7 @@ The Partner template provides organizations with a partner channel mechanism to 
 
 Additional features can be added if the Dynamics 365 organization has Field Service or Project Service solutions installed. Selecting these options will extend portal features to these first-party applications.
 
-![Portal Templates](../media/1-4.portaltemplates.png)
+![Portal Templates](../media/1-4-portal-templates.png)
 
 ### Dynamics 365 Supply Chain Management Customer Portal
 

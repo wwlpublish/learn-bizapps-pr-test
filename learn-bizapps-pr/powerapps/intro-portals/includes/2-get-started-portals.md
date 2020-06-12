@@ -1,8 +1,6 @@
-# Getting started with Power Apps portals
-
 Business with either Dynamics 365 or a custom Common Data Service solution already in place can quickly build a secure portal, and their entire website, with no developers required. 
 
-A Power Apps portal is not automatically provisioned when a new Common Data Service environment is created. You will need to provision a Power Apps portal and determine the name, default URL (Universal Resource Locator), language and template.
+A Power Apps portal is not automatically provisioned when a new Common Data Service environment is created. You will need to provision a Power Apps portal and determine the name, default URL (Universal Resource Locator), language, and template.
 
 Power Apps portals evolved from Dynamics 365 Portals.  Going forward, Dynamics 365 Portals are referred to as Power Apps portals.  The key difference is that there are a number of additional portal templates available for Dynamics 365-enabled environments.  
 
@@ -10,7 +8,7 @@ Power Apps portals evolved from Dynamics 365 Portals.  Going forward, Dynamics 3
 >
 > To provision a portal, you must be assigned to the System Administrator role of the Common Data Service environment selected for the portal.
 
-## Starter Templates
+## Starter templates
 
 Starter templates are pre-configured portal solutions available to accelerate deployment.  Unlike model-driven and canvas apps, makers will start with a starter template to build and customize their portal apps. 
 
@@ -28,7 +26,7 @@ Partner Portal also includes optional Field Service and Project Service addons t
 
 Each of the starter portals include particular set of features designed to *accelerate* solution development targeting the selected audience. 
 
-## Portal Features 
+## Portal features 
 
 Power Apps portals is a *platform* and includes a long list of components and features out of the box. Let's see how these features map into the key capability areas of Power Apps portals:
 
@@ -41,10 +39,10 @@ Power Apps portals is a *platform* and includes a long list of components and fe
 | Responsive Design                | Entity Actions         | Entity Permissions         | Ideas, Blogs                               |
 | Web Pages                        | Automation    | Identity                   | Customer, Account & Opportunity Management |
 | Faceted Search and SEO           | Charts & Graphs        | Authentication             | Delegated Administration                   |
-| Multi Lingual Portals            | Azure Integration      | Auth Providers integration | Multi-Partner Collaboration                |
-| Ads, Polls, Ratings and Comments | SharePoint Integration |                            | Entitlements & SLAs                        |
+| Multilingual Portals            | Azure Integration      | Auth Providers integration | Multi-Partner Collaboration                |
+| Ads, Polls, Ratings, and Comments | SharePoint Integration |                            | Entitlements & SLAs                        |
 | Theming  | Power BI Integration   |                            | Localization into 43 Languages             |
-| Web Files | Client side JavaScript |||
+| Web Files | Client-side JavaScript |||
 || Liquid Templates |||
 || Web API |||
 
@@ -56,7 +54,7 @@ All components and features listed under **Content**, **Extensibility**, and **S
 >
 > Do not feel threatened that the starter portal selection will potentially lock you into a specific set of features. Portal features are deployed into the target Dynamics 365 environment as managed solutions. Portal features can be added or removed later. 
 
-## Provision a Portal
+## Provision a portal
 
 Only one Power Apps portal can be provisioned per Common Data Service environment.
 

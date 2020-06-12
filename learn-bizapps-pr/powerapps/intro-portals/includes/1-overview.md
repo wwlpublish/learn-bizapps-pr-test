@@ -1,4 +1,4 @@
-Model-Driven and Canvas Power Apps deliver business functionality to the *users*.  Power Apps portals extend the Common Data Service to internal and external *audience*s such as communities, customers, partners, and employees.
+Model-Driven and canvas Power Apps, deliver business functionality to the *users*.  Power Apps portals extend the Common Data Service to internal and external *audience*s such as communities, customers, partners, and employees.
 
 ![Power Apps portals & Audiences](../media/1-portals-audiences.png)
 
@@ -16,15 +16,15 @@ Consumers are a major driver of this trend:
 
 * The majority of global consumers now expect brands and organizations to offer a self-service portal. 
 * Nearly one-third of consumers keep in touch with brands they've done business with to make sure they are getting the most out of their purchase. 
-* Half of the end users are using multiple channels to stay connected including web, mobile, telephone, social and self-service; often using many channels for a single support experience.
+* Half of the end users are using multiple channels to stay connected including web, mobile, telephone, social, and self-service; often using many channels for a single support experience.
 
-Providing a web portal interface takes these user trends and brings any engagement, including partner, groups and employee scenarios directly accessing Common Data Services to create a modern connected experience for both external users and internal business operations.
+Providing a web portal interface takes these user trends and brings any engagement, including partner, groups, and employee scenarios directly accessing Common Data Services to create a modern connected experience for both external users and internal business operations.
 
 ## Modern Business
 
 Let's take a look the same trend but from a business perspective. Your business is already using Power Apps. Consider what additional capabilities can Power Apps portals deliver. 
 
-**Provide self-service support.** When your business is growing, would you rather employ extra staff in call centers OR add self-service capabilities to your web site where your customers can search knowledge articles, engage with other customers, find answers and create support cases when needed (that then go directly into Dynamics 365 Customer Service), all without a single interaction from your resources?
+**Provide self-service support.** When your business is growing, would you rather employ extra staff in call centers OR add self-service capabilities to your web site where your customers can search knowledge articles, engage with other customers, find answers, and create support cases when needed (that then go directly into Dynamics 365 Customer Service), all without a single interaction from your resources?
 
 **Build sales pipeline.** When a lead fills in a contact us form on your company site would you rather receive this information as an email OR get it recorded in Dynamics 365 Sales where the record can become part of your sales pipeline *automatically*?
 
@@ -42,9 +42,9 @@ Power Apps portals deliver complete content management system out of the box, wi
 
 These are the key capabilities of Power Apps portals:
 
-|                          Capability                          |                   | Description                                                  |
+|                          Capability icon                         |   Capability                | Description                                                  |
 | :----------------------------------------------------------: | ----------------- | :----------------------------------------------------------- |
 |         ![Content icon](../media/1-icon-content.png)         | **Content**       | Seamless, responsive, and customizable web design for any user on any device. Full tracking and context available as the Common Data Service is the backend system for all interactions. |
 |            ![Form icon](../media/1-icon-form.png)            | **Functionality** | Quickly build secure, functional websites to interact with the Common Data Service with no coding required. Track customer interactions across all channels and capture them in a custom Power Apps or Dynamics 365 instance. |
-|           ![Icon tools](../media/1-icon-tools.png)           | **Extensibility** | Leverage powerful Power Platform business processes natively extended through the web front-end. Integrate portals with other systems like SharePoint or Power BI. Extend portals with custom development to cater for complex scenarios |
+|           ![Icon tools](../media/1-icon-tools.png)           | **Extensibility** | Leverage powerful Power Platform business processes natively extended through the web front end. Integrate portals with other systems like SharePoint or Power BI. Extend portals with custom development to cater for complex scenarios |
 | ![Secure document icon](../media/1-icon-secure-document.png) | **Security**      | All data used to build portal content is protected through the Common Data Service security model. Power Apps portals extend this model to secure and tailor the content for the target audiences who are not Common Data Service users. |
