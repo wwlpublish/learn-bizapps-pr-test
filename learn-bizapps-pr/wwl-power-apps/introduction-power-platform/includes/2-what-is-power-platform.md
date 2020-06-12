@@ -2,7 +2,7 @@ Power Platform is comprised of four key products: Power Apps, Power Automate, Po
 
 :::row:::
   :::column:::
-![Power Apps logo](../media/m01-logo-powerapps.png)
+![Power Apps logo](../media/m01-logo-power-apps.png)
   :::column-end:::
   :::column span="3":::
 **Power Apps** provides a rapid low code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (Common Data Service) to allow simple integration and interaction with existing data. Power Apps enables the creation of web and mobile applications that run on all devices.
@@ -14,7 +14,7 @@ People use apps for every area of their lives, and business should be no excepti
 
 :::row:::
   :::column:::
-![Power Automate logo](../media/m01-logo-powerautomate.png)
+![Power Automate logo](../media/m01-logo-power-automate.png)
   :::column-end:::
   :::column span="3":::
 **Power Automate** lets users create automated workflows between applications and services. It helps automate repetitive business processes such as communication, data collections, and decision approvals. 
@@ -26,7 +26,7 @@ Don't waste important productive hours on drafting the same email for a weekly u
 
 :::row:::
   :::column:::
-![Power BI logo](../media/m01-logo-powerbi.png)
+![Power BI logo](../media/m01-logo-power-bi.png)
   :::column-end:::
   :::column span="3":::
 **Power BI** (Business Intelligence) is a business analytics service that delivers insights for analyzing data. It can share those insights through data visualizations which make up reports and dashboards to enable fast, informed decisions. Power BI scales across an organization, and it has built-in governance and security allowing businesses to focus on using data more than managing it.
@@ -37,7 +37,7 @@ You can consider Power BI as the analysis and insights leg of the Power Platform
 
 :::row:::
   :::column:::
-![Power Virtual Agents logo](../media/m01-logo-powervirtualagents.png)
+![Power Virtual Agents logo](../media/m01-logo-power-virtual-agents.png)
   :::column-end:::
   :::column span="3":::
 **Power Virtual Agents** enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers.
