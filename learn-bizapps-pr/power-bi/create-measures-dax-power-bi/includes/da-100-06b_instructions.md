@@ -68,10 +68,7 @@ In this task, you will create several measures with DAX expressions that use the
 
 	For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Lab06B\Assets\Snippets.txt** file.
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales All Region =
 	CALCULATE(SUM(Sales[Sales]), REMOVEFILTERS(Region))
 	```
@@ -96,10 +93,7 @@ In this task, you will create several measures with DAX expressions that use the
 	> [!TIP]
 	> To replace the existing formula, first copy the snippet. Then, click inside the formula bar and press **Ctrl+A** to select all text. Then, press **Ctrl+V** to paste the snippet to overwrite the selected text. Then press **Enter**.
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales % All Region =
 	DIVIDE(
        SUM(Sales[Sales]),
@@ -122,10 +116,7 @@ In this task, you will create several measures with DAX expressions that use the
 
 1. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales % Country =
 	DIVIDE(
        SUM(Sales[Sales]),
@@ -151,10 +142,7 @@ In this task, you will create several measures with DAX expressions that use the
 
 1. To improve the readability of this measure in visual, overwrite the **Sales % Country** measure with this improved formula.
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales % Country =
 	IF(
         ISINSCOPE(Region[Region]),
@@ -177,10 +165,7 @@ In this task, you will create several measures with DAX expressions that use the
 
 1. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales % Group =
 	DIVIDE(
         SUM(Sales[Sales]),
@@ -200,10 +185,7 @@ In this task, you will create several measures with DAX expressions that use the
 
 1. To improve the readability of this measure in visual, overwrite the **Sales % Group** measure with this improved formula.
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales % Group =
 	IF(
         ISINSCOPE(Region[Region])
@@ -244,10 +226,7 @@ In this task, you will create a sales YTD measure.
 
 1. Add a measure to the **Sales** table, based on the following expression, and formatted to zero decimal places:
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales YTD =  
 	TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
 	```
@@ -272,10 +251,7 @@ In this task, you will create a sales YoY growth measure.
 
 1. Add an additional measure to the **Sales** table, based on the following expression:
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales YoY Growth =
 	VAR SalesPriorYear =
     	CALCULATE(
@@ -306,10 +282,7 @@ In this task, you will create a sales YoY growth measure.
 
 1. To complete the measure, overwrite the **Sales YoY Growth** measure with this formula, formatting it as a percentage with two decimal places:
 
-
-	**DAX**
-
-	```
+	```DAX
 	Sales YoY Growth =
 	VAR SalesPriorYear =
     	CALCULATE(
