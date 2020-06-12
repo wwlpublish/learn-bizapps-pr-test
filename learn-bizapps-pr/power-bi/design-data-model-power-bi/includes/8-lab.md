@@ -16,8 +16,7 @@ In this lab, you learn how to:
 
 ## Load Data
 
-In this exercise, you'll apply transformations to each of the queries
-created in the previous lab.
+In this exercise, you'll apply transformations to each of the queries.
 
 ### Open the solution file
 
