@@ -27,11 +27,11 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
 - The flow will then create a folder on your OneDrive for Business account to automatically put every attachment that's sent to your work email address in that folder.
 
-Now that the flow is created you can click Edit to see the details of what was created for you.
+Now that the flow is created, you can click Edit to see the details of what was created for you.
 
 From the flow builder, you can now click through the trigger and the actions to see how this flow was built for you. As you can see, there is no code and everything is accessible to customize or extend to better meet your business needs. For example, maybe try configuring the flow to only process for emails from your boss. Here is a hint: Click on Show advanced options for the On new email trigger. 
 
-Now that you have seen how easy it is to start from a template lets talk about a couple of key concepts.
+Now that you have seen how easy it is to start from a template, let's talk about a couple of key concepts.
 
 ## Important concepts in Microsoft Flow
 
@@ -47,7 +47,7 @@ These concepts will come into play later, when you build your own flows from scr
 
 ## Trigger or run the flow
 
-With Power Automate, you don't think of running a flow the same way as you do with Power Apps. Instead, you perform the activity that triggers the flow to run. In the case of the previous flow, instead of periodically running the flow manually, the flow would run automatically every time you receive a new email with an attachment.
+With Power Automate, you don't think of running a flow the same way as you do with Power Apps. Instead, you perform the activity that triggers the flow to run. In the case of the previous flow, instead of periodically running the flow manually it would automatically run every time use receive a new email with an attachment. This is because that is what the trigger is set to respond to. 
 
 When defining triggers, there are a few different types:
 
