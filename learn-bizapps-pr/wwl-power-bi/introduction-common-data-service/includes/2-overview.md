@@ -3,7 +3,7 @@ The Common Data Service is a cloud-based solution that easily structures a varie
 The Common Data Service is designed to be your central data repository for business data and you might even be using it already. Behind the scenes it powers many Microsoft Dynamics 365 solutions such as Field Service, Marketing, Customer Service, and Sales. It is also available as part of Power Apps and Power Automate with native connectivity built right in. The AI Builder and Portals features of the Power Platform also utilize the Common Data Service.
 
 Below is visualization to bring together the many offerings of Common Data Service.  
-    ![Common Data Service API options](../media/cds-apis.png)
+    ![Common Data Service API options](../media/common-data-service-diagram.png)
 
 As you can see, Common Data Service offers a great deal of functionality. Below is a brief explanation of each category of features.
 
@@ -17,10 +17,10 @@ As you can see, Common Data Service offers a great deal of functionality. Below 
 
 **Integration**: Common Data Service connects in different ways to support your business needs. APIs, webhooks, eventing, and data exports give you flexibility to get data in and out.
 
-As you can see Common Data Service is a very powerful cloud-based solution for storing and working with your business data. In the following sections you will look at Common Data Service from the lens of data storage for the Power Platform, where you will start your journey. Keep in mind the additional rich capabilities discussed above which you can explore further as your usage increases. 
+As you can see, Common Data Service is a very powerful cloud-based solution for storing and working with your business data. In the following sections you will look at Common Data Service from the lens of data storage for the Power Platform, where you will start your journey. Keep in mind the additional rich capabilities discussed above which you can explore further as your usage increases. 
 
 To get started, Common Data Service lets you create one or many cloud-based instances of a standardized database. The database includes predefined tables and fields which store data commonly found across nearly all organizations and businesses. You can customize and extend what is stored by adding new fields or tables (called entities in Common Data Service). The ease of setting up a Common Data Service database and standardized data model under it simplifies your ability to concentrate your efforts on building solutions without worrying about infrastructure, storage, and data integration.
-With your data stored in Common Data Service there are many different ways to access it. You can work with the data natively with tools such as Power Apps or Power Automate. Or through connectors and APIs you can connect to the Common Data Service from any business solution. With the power of features such as role-based security and business rules you can trust your data is safe no matter how it is accessed. 
+With your data stored in Common Data Service, there are many different ways to access it. You can work with the data natively with tools such as Power Apps or Power Automate. Or through connectors and APIs you can connect to the Common Data Service from any business solution. With the power of features such as role-based security and business rules you can trust your data is safe no matter how it is accessed. 
 
 ## Common Data Service defined
 

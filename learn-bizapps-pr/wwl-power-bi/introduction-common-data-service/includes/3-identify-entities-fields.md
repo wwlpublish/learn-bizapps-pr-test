@@ -21,15 +21,3 @@ Every database in Common Data Service starts with a standard set of entities and
 
 > [!TIP]
 > Always use standard entities and fields when possible. You can rename an entity if that makes the entity more understandable in the context of your solution. Always review the list of standard entities and make sure a standard entity will not meet your needs before you create a new entity.
-
-## Data Design
-
-With a better understanding of entities and how they are similar to a table or database, you can start to think about how to model your data in the Common Data Service. For many people, a great way to start is to use an Excel workbook.  
- 
-In Excel, you can quickly build tables with the column names you need for your app. By building in Excel, you can easily visualize what your data structure will look like. Adding, removing, and renaming cells is quick. Also, if you have multiple entities then create multiple tables in Excel and think about how those tables might need to be related.  
-
-Another step in your data model design is to reflect on the entity structures you have laid out and consider the Standard entities in the Common Data Service. Ask yourself if you can reuse, rename, or add to the Standard entities instead of creating new entities. Leveraging Standard entities reduces the amount of work you need to do creating new entities and may lead to you capturing data in better ways due to the robust nature of those entities. 
-
-Once you have thought through your data design and validated it by building it out in Excel, you are ready to go to the Common Data Service and create the data structure that you have built. By planning and designing your data structure in a visual way, you will get a better result in less time. 
-
-[ ![Example of a data design model.](../media/data-model-design-example.png)](../media/data-model-design-example.png#lightbox)
