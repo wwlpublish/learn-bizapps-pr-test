@@ -38,7 +38,9 @@ created in the previous lab.
 
 In this task, you'll configure the **Salesperson** query.
 
-1.  In the **Power Query Editor** window, in the **Queries** pane,
+1.  To open the **Power Query Editor** window, in Power BI Desktop, on the Home ribbon tab, click **Transform Data**. 
+
+1. In the **Power Query Editor** window, in the **Queries** pane,
     select the **DimEmployee** query.
 
 1.  To rename the query, in the **Query Settings** pane (located at the
