@@ -135,7 +135,7 @@ The new measure will now appear in the **Fields** list.
 When you drag Total Sales over to the report design surface, you will see the total sales for the entire organization in a column chart.
 
 > [!div class="mx-imgBorder"]
-> [![Total sales measure in a column chart](../media/02-total-sales.png)](../media/02-total-sales.png#lightbox)
+> [![Total sales measure in a column chart](../media/02-total-sales-ss.png)](../media/02-total-sales-ss.png#lightbox)
 
 ## Differences between a calculated column and a measure
 
