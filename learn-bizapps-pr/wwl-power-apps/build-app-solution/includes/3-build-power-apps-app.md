@@ -14,7 +14,7 @@ If you do not have a Power Apps account available, you can sign up for a free Po
 
 4. In the left pane, select **Create**.
 
-5. Select **Other data** sources from the Start from data section.
+5. Select **Other data sources** from the Start from data section.
 
 6. Under Connections choose **OneDrive for Business**. If you don't have the connection available click New connection to create one.
 
@@ -34,17 +34,17 @@ The following figure shows the main development window for Power Apps Studio, wh
 > [!div class="mx-imgBorder"]
 > ![App editor view](../media/power-apps-edit.png)
 
-Select Play [Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
+Select Play ![Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 
 All apps that are generated from data have the same set of screens that you can view from the Screens pane:
 
-- **Browse screen** - This screen appears by default. In it, you can browse, sort, filter, and refresh the data from the data source. In the browse screen, you can add items to the data source by selecting the plus sign (**+**).
+- **Browse screen** - This screen appears by default. In it, you can browse, sort, search, and refresh the data from the data source. In the browse screen, you can add items to the data source by selecting the plus sign (**+**).
 
 - **Details screen** - The details screen shows all information about a single item. In this screen, you can open an item to edit or delete it.
 
 - **Edit/create screen** - In this screen, you can edit an existing item or create a new one.
 
-To make your app visible on the phone, it needs to be saved. Select **File**, **Save as**. Replace the current title "App" with **Contoso Site Tracking app**, and then select **Save**. You will see a green check mark when all changes are successfully saved. You can now open the app on your phone.
+Close out of preview mode by selecting the "X" in the upper-right corner. To make your app visible on the phone, it needs to be saved. Select **File**, **Save as**. Replace the current title "App" with **Contoso Site Tracking app**, and then select **Save**. You will see a green check mark when all changes are successfully saved. You can now open the app on your phone.
 
 ## Install the app on your device
 
@@ -121,7 +121,7 @@ To improve the layout, use the following procedure:
 
 5. Change **ThisItem.Address** to **ThisItem.Title** in the formula bar.
 
-6. Repeat the previous two steps but change the other **Label** control to show the price of each item by setting it to **ThisItem.Description**.
+6. Repeat the previous two steps, but change the other **Label** control to show the description of each item by setting it to **ThisItem.Description**.
    
    > [!div class="mx-imgBorder"]
    >![Text edit confirmed preview](../media/power-apps-text-preview.png)

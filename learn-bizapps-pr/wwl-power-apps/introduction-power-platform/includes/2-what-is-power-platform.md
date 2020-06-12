@@ -2,7 +2,7 @@ Power Platform is comprised of four key products: Power Apps, Power Automate, Po
 
 :::row:::
   :::column:::
-![Power Apps logo](../media/power-apps-logo.png)
+![Power Apps logo](../media/m01-logo-power-apps.png)
   :::column-end:::
   :::column span="3":::
 **Power Apps** provides a rapid low code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (Common Data Service) to allow simple integration and interaction with existing data. Power Apps enables the creation of web and mobile applications that run on all devices.
@@ -14,7 +14,7 @@ People use apps for every area of their lives, and business should be no excepti
 
 :::row:::
   :::column:::
-![Power Automate logo](../media/power-automate-icon.png)
+![Power Automate logo](../media/m01-logo-power-automate.png)
   :::column-end:::
   :::column span="3":::
 **Power Automate** lets users create automated workflows between applications and services. It helps automate repetitive business processes such as communication, data collections, and decision approvals. 
@@ -26,7 +26,7 @@ Don't waste important productive hours on drafting the same email for a weekly u
 
 :::row:::
   :::column:::
-![Power BI logo](../media/power-bi-icon.png)
+![Power BI logo](../media/m01-logo-power-bi.png)
   :::column-end:::
   :::column span="3":::
 **Power BI** (Business Intelligence) is a business analytics service that delivers insights for analyzing data. It can share those insights through data visualizations which make up reports and dashboards to enable fast, informed decisions. Power BI scales across an organization, and it has built-in governance and security allowing businesses to focus on using data more than managing it.
@@ -37,7 +37,7 @@ You can consider Power BI as the analysis and insights leg of the Power Platform
 
 :::row:::
   :::column:::
-![Power BI logo](../media/power-bi-icon.png)
+![Power Virtual Agents logo](../media/m01-logo-power-virtual-agents.png)
   :::column-end:::
   :::column span="3":::
 **Power Virtual Agents** enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers.
@@ -52,42 +52,17 @@ Power virtual agents addresses many of the major issues with chatbot building.  
 
 Among the programs listed above, there are cross cutting features which enable the Power Platform to be leveraged to its full potential. Some of these are:
 
-:::row:::
-  :::column:::
-![Power BI logo](../media/power-bi-icon.png)
-  :::column-end:::
-  :::column span="3":::
+
 **AI Builder** lets users and developers add AI capabilities to the workflows and PowerApps they create and use. AI Builder is a turnkey solution that allows you to easily add intelligence to your workflows and apps and predict outcomes to help improve business performance without writing code.
-  :::column-end:::
-:::row-end:::
 
-:::row:::
-  :::column:::
-![Power Automate logo](../media/power-automate-icon.png)
-  :::column-end:::
-  :::column span="3":::
+
 **Common Data Service** is a scalable data service and app platform which lets users securely store and manage data from multiple sources and integrate that data in business applications using a common data model to ensure ease and consistency to users. Common Data Service is the common currency that enables the components of Power Platform to work together. It’s the foundation that enables the consolidation, display, and manipulation of data.
-  :::column-end:::
-:::row-end:::
 
 
-:::row:::
-  :::column:::
-![Power Automate logo](../media/power-automate-icon.png)
-  :::column-end:::
-  :::column span="3":::
 **Connectors** enable you to connect apps, data, and devices in the cloud. Consider connectors the bridge across which information and commands travel. There are more than 275 connectors for the Power Platform, enabling all of your data and actions to connect cohesively.  Examples of popular connectors include Salesforce, Office 365, Twitter, Dropbox, Google services, and more.
-  :::column-end:::
-:::row-end:::
 
-:::row:::
-  :::column:::
-Power Virtual Agents
-  :::column-end:::
-  :::column span="3":::
-**Power Virtual Agents** is part of Power Platform, therefore integration into existing systems is streamlined with out-of-the-box integration with Power Automate  and its ecosystems of hundreds of connectors. Users can enable bots to perform an action by simply calling a Power Automate flow.  Flows help users automate activities or call back end systems. Users can utilize existing flows that have been created in their Power Apps environment or they can create a flow within Power Virtual Agents authoring canvas.
-  :::column-end:::
-:::row-end:::
+
+**Power Virtual Agents** is part of Power Platform, therefore integration into existing systems is streamlined with out-of-the-box integration with Power Automate  and its ecosystems of hundreds of connectors. Users can enable chatbots to perform an action by simply calling a Power Automate flow.  Flows help users automate activities or call back end systems. Users can utilize existing flows that have been created in their Power Apps environment or they can create a flow within Power Virtual Agents authoring canvas.
 
 
 Although every feature is essential to building powerful solutions, let's dive in deeper to one of the features of Power Platform, connectors.
