@@ -71,7 +71,7 @@ The high-level steps to provision a starter portal are:
 * Once portal provisioning completes, the portal will appear in the list as the app of type Portal 
 * Click on the ellipsis next to the portal app name then click Browse to open the portal website
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yoJw"]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yoJw]
 >
 >
 > 
