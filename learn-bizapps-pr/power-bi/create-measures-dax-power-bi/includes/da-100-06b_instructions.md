@@ -264,7 +264,7 @@ In this task, you will create a sales YTD measure.
 	The TOTALYTD() function performs filter manipulation, specifically time filter manipulation. For example, to compute YTD sales for September 2017 (the third month of the fiscal year), all filters on the **Date** table are removed and replaced with a new filter of dates commencing at the beginning of the year (July 1, 2017) and extending through to the last date of the in-context date period (September 30, 2017).
 
 	> [!NOTE]
-	> that many Time Intelligence functions are available in DAX to support common time filter manipulations*.
+	> that many Time Intelligence functions are available in DAX to support common time filter manipulations.
 
 ### Task 2: Create a YoY growth measure
 

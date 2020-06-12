@@ -101,7 +101,7 @@ In this task, you will create the **Date** table.
 
 	**DAX**
 
-	```
+	```DAX
 	Date =  
 	‎CALENDARAUTO(6)
 	```
@@ -290,7 +290,7 @@ In this task, you will mark the **Date** table as a date table.
 	Power BI Desktop now understands that this table defines date (time). This is important when relying on time intelligence calculations. You will work with time intelligence calculations in **Lab 06B**.
 
 	> [!NOTE]
-	> This design approach for a date table is suitable when you don’t have a date table in your data source. If you have access to a data warehouse, it would be appropriate to load date data from its date dimension table rather than “redefining” date logic in your data model*.
+	> This design approach for a date table is suitable when you don’t have a date table in your data source. If you have access to a data warehouse, it would be appropriate to load date data from its date dimension table rather than “redefining” date logic in your data model.
 
 ## Exercise 2: Create Measures
 
@@ -444,7 +444,7 @@ In this task, you will create additional measures that use more complex expressi
 1. Format the **Target** measure for zero decimal places.
 
 	> [!TIP]
-	> You can use the **Measure Tools** contextual ribbon*.
+	> You can use the **Measure Tools** contextual ribbon.
 
 1. Hide the **TargetAmount** column.
 
