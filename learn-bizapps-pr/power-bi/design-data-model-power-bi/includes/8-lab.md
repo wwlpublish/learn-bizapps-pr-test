@@ -71,7 +71,7 @@ In this task, you'll configure the **Salesperson** query.
     click the **AZ** sort button, and then select **Name**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-4-ssm.png)](../media/lab-4-ssm.png#lightbox)
+	> [![Screenshot of the Go to Column window](../media/lab-4-ssm.png)](../media/lab-4-ssm.png#lightbox)
 
 1.  Select the **SalesPersonFlag** column, and then click **OK**.
 
@@ -79,12 +79,10 @@ In this task, you'll configure the **Salesperson** query.
     the down-arrow, and then uncheck **FALSE**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
+	> [![Screenshot of the column header dropdown menu](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
 
 1.  Click **OK**.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-6-ssm.png)](../media/lab-6-ssm.png#lightbox)
 
 1.  In the **Query Settings** pane, in the **Applied Steps** list,
     notice the addition of the **Filtered Rows** step.
@@ -93,9 +91,6 @@ In this task, you'll configure the **Salesperson** query.
 
 1. To remove columns, on the **Home** ribbon tab, from inside the
     **Manage Columns** group, click the **Choose Columns** icon.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-8-ssm.png)](../media/lab-8-ssm.png#lightbox)
 
 1. In the **Choose Columns** window, to uncheck all columns, uncheck
     the **(Select All Columns)** item.
@@ -120,20 +115,14 @@ In this task, you'll configure the **Salesperson** query.
     step.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
+	> [![Screenshot of the Applied Steps list.](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
 
 1. To create a single name column, first select the **FirstName** column header.
 
 1. While pressing the **Ctrl** key, select the **LastName** column.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-12-ssm.png)](../media/lab-12-ssm.png#lightbox)
-
 1. Right-click either of the select column headers, and then in the
     context menu, select **Merge Columns**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
 
 	Many common transformations can be applied by right-clicking the column header, and then choosing them from the context menu. However, that all transformations and more are available in the ribbon.
 
@@ -144,7 +133,7 @@ In this task, you'll configure the **Salesperson** query.
     **Salesperson**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-14-ssm.png)](../media/lab-14-ssm.png#lightbox)
+	> [![Screenshot of the New Column Name box.](../media/lab-14-ssm.png)](../media/lab-14-ssm.png#lightbox)
 
 1. Click **OK**.
 
@@ -164,7 +153,7 @@ In this task, you'll configure the **Salesperson** query.
     5 columns and 18 rows.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-16-ss.png)](../media/lab-16-ss.png#lightbox)
+	> [![Screenshot of the status bar.](../media/lab-16-ss.png)](../media/lab-16-ss.png#lightbox)
 
 	It's important that you do not proceed if your query does not produce the correct result, it won't be possible to complete later labs. If it doesn't, refer back to the steps in this task to fix any problems.
 
@@ -173,9 +162,6 @@ In this task, you'll configure the **Salesperson** query.
 In this task, you'll configure the **SalespersonRegion** query.
 
 1. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-17-ssm.png)](../media/lab-17-ssm.png#lightbox)
 
 1. In the **Query Settings** pane, rename the query to
     **SalespersonRegion**.
@@ -189,13 +175,7 @@ In this task, you'll configure the **SalespersonRegion** query.
 1. Right-click either of the select column headers, and then in the
     context menu, select **Remove Columns**.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-18-ssm.png)](../media/lab-18-ssm.png#lightbox)
-
 1. In the status bar, verify that the query has 2 columns and 39 rows.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-19-ss.png)](../media/lab-19-ss.png#lightbox)
 
 ### Configure the Product query
 
@@ -208,7 +188,7 @@ detailed instructions, you can refer back to other tasks.
 1. Select the **DimProduct** query.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
+	> [![Screenshot of the DimProduct query](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
 
 1. Rename the query to **Product**.
 
@@ -234,7 +214,7 @@ detailed instructions, you can refer back to other tasks.
     column name, click the expand button.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-21-ssm.png)](../media/lab-21-ssm.png#lightbox)
+	> [![Screenshot of the expand button](../media/lab-21-ssm.png)](../media/lab-21-ssm.png#lightbox)
 
 1. To uncheck all columns, uncheck the **(Select All Columns)** item.
 
@@ -242,14 +222,11 @@ detailed instructions, you can refer back to other tasks.
     **DimProductCategory** columns.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-22-ssm.png)](../media/lab-22-ssm.png#lightbox)
+	> [![Screenshot of the two selected columns.](../media/lab-22-ssm.png)](../media/lab-22-ssm.png#lightbox)
 
 	By selecting these two columns, a transformation will be applied to join to the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table.
 
 1. Uncheck the **Use Original Column Name as Prefix** checkbox.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-23-ssm.png)](../media/lab-23-ssm.png#lightbox)
 
 	Query column names must always be unique. When checked, this checkbox
 	would prefix each column with the expanded column name (in this case
@@ -278,17 +255,11 @@ detailed instructions, you can refer back to other tasks.
 1. In the status bar, verify that the query has six columns and 397
     rows.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-25-ss.png)](../media/lab-25-ss.png#lightbox)
-
 ### Configure the Reseller query
 
 In this task, you will configure the **Reseller** query.
 
 1. Select the **DimReseller** query.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-26-ssm.png)](../media/lab-26-ssm.png#lightbox)
 
 1. Rename the query to **Reseller**.
 
@@ -310,20 +281,14 @@ In this task, you will configure the **Reseller** query.
 	
 	-   EnglishCountryRegionName
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-27-ssm.png)](../media/lab-27-ssm.png#lightbox)
-
 1. In the **Business Type** column header, click the down-arrow, and
     then review the items, and the incorrect spelling of warehouse.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-28-ssm.png)](../media/lab-28-ssm.png#lightbox)
+	> [![Screenshot of "Ware House" spelled incorrectly.](../media/lab-28-ssm.png)](../media/lab-28-ssm.png#lightbox)
 
 1. Right-click the **Business Type** column header, and then select
     **Replace Values**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-29-ssm.png)](../media/lab-29-ssm.png#lightbox)
 
 1. In the **Replace Values** window, configure the following values:
 
@@ -332,7 +297,7 @@ In this task, you will configure the **Reseller** query.
 	-   In the **Replace With** box, enter **Warehouse**
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
+	> [![Screenshot of the Replace Values window](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
 
 1. Click **OK**.
 
@@ -349,17 +314,11 @@ In this task, you will configure the **Reseller** query.
 1. In the status bar, verify that the query has 6 columns and 701
     rows.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-32-ss.png)](../media/lab-32-ss.png#lightbox)
-
 ### Configure the Region query
 
 In this task, you will configure the **Region** query.
 
 1. Select the **DimSalesTerritory** query.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-33-ssm.png)](../media/lab-33-ssm.png#lightbox)
 
 1. Rename the query to **Region**.
 
@@ -367,7 +326,7 @@ In this task, you will configure the **Region** query.
     remove the value 0 (zero).
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-34-ssm.png)](../media/lab-34-ssm.png#lightbox)
+	> [![Screenshot of the Region query](../media/lab-34-ssm.png)](../media/lab-34-ssm.png#lightbox)
 
 1. Remove all columns, except the following:
 
@@ -390,17 +349,11 @@ In this task, you will configure the **Region** query.
 1. In the status bar, verify that the query has 4 columns and 10
     rows.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-35-ss.png)](../media/lab-35-ss.png#lightbox)
-
 ### Configure the Sales query
 
 In this task, you will configure the **Sales** query.
 
 1. Select the **FactResellerSales** query.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-36-ssm.png)](../media/lab-36-ssm.png#lightbox)
 
 1. Rename the query to **Sales**.
 
@@ -440,13 +393,10 @@ In this task, you will configure the **Sales** query.
     inside the **General** group, click **Custom Column**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-37-ssm.png)](../media/lab-37-ssm.png#lightbox)
+	> [![Screenshot of the Custom Column button](../media/lab-37-ssm.png)](../media/lab-37-ssm.png#lightbox)
 
 1. In the **Custom Column** window, in the **New Column Name** box,
     replace the text with **Cost**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-38-ssm.png)](../media/lab-38-ssm.png#lightbox)
 
 1. In the **Custom Column Formula** box, enter the following expression
     (after the equals symbol):
@@ -484,7 +434,7 @@ In this task, you will configure the **Sales** query.
     select **Whole Number**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-40-ssm.png)](../media/lab-40-ssm.png#lightbox)
+	> [![Screenshot of the Quantity column header](../media/lab-40-ssm.png)](../media/lab-40-ssm.png#lightbox)
 
 	Configuring the correct data type is important. When the column contains
 	numeric value, it's also important to choose the correct type if you
@@ -499,9 +449,6 @@ In this task, you will configure the **Sales** query.
 	
 	-   Cost
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-41-ssm.png)](../media/lab-41-ssm.png#lightbox)
-
 	The fixed decimal number data type stores values with full precision,
 	and so requires more storage space that decimal number. It's important
 	to use the fixed decimal number type for financial values, or rates
@@ -509,9 +456,6 @@ In this task, you will configure the **Sales** query.
 
 1. In the status bar, verify that the query has 10 columns and 999+
     rows.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-42-ss.png)](../media/lab-42-ss.png#lightbox)
 
 	A maximum of 1000 rows will be loaded as preview data for each query.
 
@@ -521,22 +465,16 @@ In this task, you'll configure the **Targets** query.
 
 1. Select the **ResellerSalesTargets** query.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-43-ssm.png)](../media/lab-43-ssm.png#lightbox)
-
 1. Rename the query to **Targets**.
 
 1. To unpivot the 12-month columns (**M01**-**M12**), first
     multi-select the **Year** and **EmployeeID** column headers.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-44-ssm.png)](../media/lab-44-ssm.png#lightbox)
+	> [![Screenshot of the Targets query.](../media/lab-44-ssm.png)](../media/lab-44-ssm.png#lightbox)
 
 1. Right-click either of the select column headers, and then in the
     context menu, select **Unpivot Other Columns**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-45-ssm.png)](../media/lab-45-ssm.png#lightbox)
 
 1. Notice that the column names now appear in the **Attribute** column,
     and the values appear in the **Value** column.
@@ -556,27 +494,21 @@ In this task, you'll configure the **Targets** query.
 1. To prepare the **MonthNumber** column values, right-click the
     **MonthNumber** column header, and then select **Replace Values**.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-46-ssm.png)](../media/lab-46-ssm.png#lightbox)
-
 1. In the **Replace Values** window, in the **Value To Find** box,
     enter **M**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-47-ssm.png)](../media/lab-47-ssm.png#lightbox)
 
 1. Click **OK**.
 
 1. Modify the **MonthNumber** column data type to **Whole Number**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-48-ssm.png)](../media/lab-48-ssm.png#lightbox)
+	> [![Screenshot of the column data type and icon.](../media/lab-48-ssm.png)](../media/lab-48-ssm.png#lightbox)
 
 1. On the **Add Column** ribbon tab, from inside the **General** group,
     click The **Column From Examples** icon.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-49-ssm.png)](../media/lab-49-ssm.png#lightbox)
+	> [![Screenshot of the Column From Examples button.](../media/lab-49-ssm.png)](../media/lab-49-ssm.png#lightbox)
 
 1. Notice that the first row is for year **2017** and month number
     **7**.
@@ -595,14 +527,11 @@ In this task, you'll configure the **Targets** query.
 1. Notice also the formula presented above the query grid.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-50-ssm.png)](../media/lab-50-ssm.png#lightbox)
+	> [![Screenshot of the formula.](../media/lab-50-ssm.png)](../media/lab-50-ssm.png#lightbox)
 
 1. To rename the new column, double-click the **Merged** column header.
 
 1. Rename the column as **TargetMonth**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-51-ssm.png)](../media/lab-51-ssm.png#lightbox)
 
 1. Click **OK**.
 
@@ -624,20 +553,14 @@ In this task, you'll configure the **Targets** query.
     **Multiply**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-53-ssm.png)](../media/lab-53-ssm.png#lightbox)
+	> [![Screenshot of the Standard button.](../media/lab-53-ssm.png)](../media/lab-53-ssm.png#lightbox)
 
 1. In the **Multiply** window, in the **Value** box, enter **1000**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-54-ssm.png)](../media/lab-54-ssm.png#lightbox)
 
 1. Click **OK**.
 
 1. In the status bar, verify that the query has 3 columns and 809
     rows.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-56-ss.png)](../media/lab-56-ss.png#lightbox)
 
 ### Configure the ColorFormats query
 
@@ -645,22 +568,16 @@ In this task, you'll configure the **ColorFormats** query.
 
 1. Select the **ColorFormats** query.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-57-ssm.png)](../media/lab-57-ssm.png#lightbox)
-
 1. Notice that the first row contains the column names.
 
 1. On the **Home** ribbon tab, from inside the **Transform** group,
     click **Use First Row as Headers**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-58-ssm.png)](../media/lab-58-ssm.png#lightbox)
+	> [![Screenshot of the Use First Row as Headers button.](../media/lab-58-ssm.png)](../media/lab-58-ssm.png#lightbox)
 
 1. In the status bar, verify that the query has 3 columns and 10
     rows.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-59-ss.png)](../media/lab-59-ss.png#lightbox)
 
 ### Update the Product query
 
@@ -669,14 +586,11 @@ In this task, you'll update the **Product** query by merging the
 
 1. Select the **Product** query.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-60-ssm.png)](../media/lab-60-ssm.png#lightbox)
-
 1. To merge the **ColorFormats** query, on the **Home** ribbon tab,
     from inside the **Combine** group, click **Merge Queries**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-61-ssm.png)](../media/lab-61-ssm.png#lightbox)
+	> [![Screenshot of the Merge Queries button.](../media/lab-61-ssm.png)](../media/lab-61-ssm.png#lightbox)
 
 	Merging queries allows integrating data, in this case from different
 	data sources (SQL Server and a CSV file).
@@ -685,7 +599,7 @@ In this task, you'll update the **Product** query by merging the
     **Color** column header.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-62-ssm.png)](../media/lab-62-ssm.png#lightbox)
+	> [![Screenshot of the Merge window with the Color column highlighted.](../media/lab-62-ssm.png)](../media/lab-62-ssm.png#lightbox)
 
 1. Beneath the **Product** query grid, in the dropdown list, select
     the **ColorFormats** query.
@@ -698,7 +612,7 @@ In this task, you'll update the **Product** query by merging the
     **Organizational**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-63-ssm.png)](../media/lab-63-ssm.png#lightbox)
+	> [![Screenshot of the Privacy Levels window.](../media/lab-63-ssm.png)](../media/lab-63-ssm.png#lightbox)
 
 	Privacy levels can be configured for data source to determine whether
 	data can be shared between sources. Setting each data source as
@@ -707,9 +621,6 @@ In this task, you'll update the **Product** query by merging the
 	Query engine cannot share data between the sources.
 
 1. Click **Save**.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-64-ssm.png)](../media/lab-64-ssm.png#lightbox)
 
 1. In the **Merge** window, click **OK**.
 
@@ -720,14 +631,8 @@ In this task, you'll update the **Product** query by merging the
 	
 	-   Font Color Format
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-66-ss.png)](../media/lab-66-ss.png#lightbox)
-
 1. In the status bar, verify that the query now has 8 columns and
     397 rows.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-67-ss.png)](../media/lab-67-ss.png#lightbox)
 
 ### Update the ColorFormats query
 
@@ -735,19 +640,13 @@ In this task, you'll update the **ColorFormats** to disable its load.
 
 1. Select the **ColorFormats** query.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-68-ssm.png)](../media/lab-68-ssm.png#lightbox)
-
 1. In the **Query Settings** pane, click the **All Properties** link.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-69-ssm.png)](../media/lab-69-ssm.png#lightbox)
+	> [![Screenshot of the All Properties link.](../media/lab-69-ssm.png)](../media/lab-69-ssm.png#lightbox)
 
 1. In the **Query Properties** window, uncheck the
     **Enable Load To Report** checkbox.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-70-ssm.png)](../media/lab-70-ssm.png#lightbox)
 
 	Disabling the load means it won't load as a table to the data model.
 	This is done because the query was merged with the Product query, which
@@ -780,16 +679,13 @@ In this task, you'll complete the lab.
 1. To load the data model, on the **File** backstage view, select
     **Close & Apply**.
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-72-ssm.png)](../media/lab-72-ssm.png#lightbox)
-
 	All load-enabled queries are now loaded to the data model.
 
 1. In the **Fields** pane (located at the right), notice the seven
     tables loaded to the data model.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-73-ss.png)](../media/lab-73-ss.png#lightbox)
+	> [![Screenshot of the Fields pane and the 7 tables.](../media/lab-73-ss.png)](../media/lab-73-ss.png#lightbox)
 
 1. Save the Power BI Desktop file.
 
