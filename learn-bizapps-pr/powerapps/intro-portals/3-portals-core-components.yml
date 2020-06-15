@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.intro-portals.4-portals-core-components 
+uid: learn-bizapps.intro-portals.3-portals-core-components 
 title: Core components of portals
 metadata: 
   title: Core components of portals 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/4-portals-core-components.md)] 
+ [!include[](includes/3-portals-core-components.md)] 
