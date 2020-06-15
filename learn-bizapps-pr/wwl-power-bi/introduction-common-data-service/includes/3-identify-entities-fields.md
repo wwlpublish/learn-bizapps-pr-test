@@ -1,7 +1,7 @@
 An entity is similar to a table in a database or in an Excel workbook in the way it stores data. It is a logical structure containing records that are made up of fields or put more simply, rows and columns.  
 
 Below you can see a screenshot of the standard Customer entity and various types of fields it includes.
-    ![PowerApps customer entity edit form](../media/customer-entity.png)
+    ![Power Apps customer entity edit form](../media/customer-entity.png)
 
 ## Types of entities
 

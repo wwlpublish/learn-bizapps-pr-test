@@ -293,7 +293,18 @@
       "clicktale": true,
       "uhfHeaderId":"MSDocsHeader-Learn"
     },
-    "fileMetadata": {},
+    "fileMetadata": {
+      "searchScope": {
+          "powerapps/**/*.yml": ["Power Platform", "Power Apps"],
+          "wwl-power-apps/**/*.yml": ["Power Platform", "Power Apps"],
+          "power-bi/**/*.yml": ["Power Platform ", "Power BI"],
+          "wwl-power-bi/**/*.yml": ["Power Platform ", "Power BI"],
+          "flow/**/*.yml": ["Power Platform ", "Power Automate"],                               
+          "wwl-power-automate/**/*.yml": ["Power Platform ", "Power Automate"],                               
+          "ai-builder/**/*.yml": ["Power Platform ", "AI Builder"]                               
+      }
+    },
+
     "template": [],
     "dest": "learn-bizapps-pr",
     "markdownEngineName": "markdig",

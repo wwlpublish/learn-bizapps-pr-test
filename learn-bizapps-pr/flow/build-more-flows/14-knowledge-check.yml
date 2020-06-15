@@ -24,9 +24,6 @@ quiz:
     - content: Connectors let you connect to a service like Twitter.
       explanation: Connectors are used to connect to services like Twitter.
       isCorrect: true 
-    - content: Connectors are used to connect actions and triggers together in a flow.
-      explanation: Connectors are used to connect to services like Twitter. 
-      isCorrect: false 
   - content: How can you define who has privileges to create, read, update, or delete a business process flow instance?
     choices: 
     - content: Only a system administrator has access privileges to new business process flows. 
