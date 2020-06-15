@@ -65,6 +65,8 @@ Content snippets can include plain text, HTML layout, or even template processin
 
 ![Content snippets on a page](../media/1-6-content-snippet.png)
 
+Snippets can be edited using Portal Studio as well as the Common Data Service records using Portal Management app.
+
 ![Content snippets metadata in portal management app](../media/1-6-content-snippet-metadata.png)
 
 ## Entity lists and entity forms
