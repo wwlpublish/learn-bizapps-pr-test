@@ -29,7 +29,7 @@ quiz:
       explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365.  Customer Service and Community Portals require Dynamics 365 apps.  The Not for Profit portal is not an available portal template.
   - content: What Starter Portals are NOT available for the Customer Audience?
     choices: 
-    - content: Customer Self Service
+    - content: Customer Self-Service
       isCorrect: false
       explanation: When Customer is selected as Portal Audience during the portal provisioning process, the following starter portals are available - Customer Self-Service Portal, Custom Portal, Community Portal. eCommerce Portal is not a valid starter portal type.
     - content: eCommerce Portal
