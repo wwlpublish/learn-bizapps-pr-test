@@ -39,7 +39,8 @@ Below is an example of a fundraiser donations tracking Model-driven app.
 ### Portals
 
 Portals bring the power of no-code solutions to building externally facing websites. Through the Power Apps interface, you can build an anonymous or authenticated website that allows users to interact with data held in Common Data Service. The same drag and drop experience you enjoy when building apps is available to build these rich, interactive websites.
-    ![External view of portal](../media/portal.png)
+
+![External view of portal](../media/portal.png)
 
 ## Add artificial intelligence to your app with no code
 
