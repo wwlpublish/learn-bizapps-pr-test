@@ -3,7 +3,7 @@ The Custom Portal provides organizations with a basic portal that does not fit t
 > [!NOTE]
 > The Custom Portal and the Portal from blank are essentially the same portal type.  The Custom Portal is provisioned if Dynamics 365 apps are enabled and the Portal from blank is provisioned on Common Data Service environments without Dynamics 365 apps.  Each portal will have a unique home page but all functions and features are identical.
 
-This portal is an ideal starting point for unique line of business applications with portal requirements.  Examples of custom portals could be event and registration management, grant management and certification management.  Any custom business application built on the Power Platform can be extended to an external facing audience using custom Power Apps portals.
+This portal is an ideal starting point for unique line-of-business applications with portal requirements.  Examples of custom portals could be event and registration management, grant management and certification management.  Any custom business application built on the Power Platform can be extended to an external facing audience using custom Power Apps portals.
 
 The custom portal contains core features such as content management, security, and extensibility.
 

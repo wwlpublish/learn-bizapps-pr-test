@@ -14,12 +14,12 @@ summary: |
   Dynamics 365 Starter portals are pre-configured portal solutions available to accelerate deployment. Typical portal projects will have unique requirements but a starter portal provides an environment immediately suitable for specific scenarios and audiences.
 abstract: |  
     In this module, you will: 
-    - Identify the features of the following portal templates:
-   	- Community 
+    - Identify the features of the following portal templates
+   	  - Community 
     	- Customer self-service 
-	- Employee self-service
-	- Partner
-	- Portal from blank
+	    - Employee self-service
+	    - Partner
+	    - Portal from blank
     - Understand licensing requirements when portals are used by employees.
     - Describe process to incorporate specific features from different starter portals to another portal type or the custom portal. 
 prerequisites: Target Audience should have a basic understanding of how to navigate and customize model-driven apps. 

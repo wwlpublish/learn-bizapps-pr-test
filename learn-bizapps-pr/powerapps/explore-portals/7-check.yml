@@ -13,7 +13,7 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
- - content: You have provisioned a new Power Platform environment without enabling any of the Dynamics 365 apps. What starter portal templates are available for to provision?
+  - content: You have provisioned a new Power Platform environment without enabling any of the Dynamics 365 apps. What starter portal templates are available for to provision?
     choices: 
     - content: Customer Service Portal
       isCorrect: false

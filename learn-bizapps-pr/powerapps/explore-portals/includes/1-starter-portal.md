@@ -5,7 +5,7 @@ There are a number of starter portals available that can be provisioned. These w
 If you are using Dynamics 365 first-party apps (For example; Dynamics 365 Sales or Dynamics 365 Service) you have a choice of five different starter templates;
 
 - Community Portal
-- Customer Self Service
+- Customer Self-Service
 - Employee Self-Service
 - Partner Portal
 - Custom Portal
@@ -19,12 +19,12 @@ If you are building a custom business application using the Common Data Service 
 
 | Starter Portal        | Audience          | Workload                                                     |
 | --------------------- | ----------------- | ------------------------------------------------------------ |
-| Community Portal      | Partner, Customer | Choose this option to provision a portal focused on an online community.  This portal will contain features such as forums, ideas, blogs and case management. |
-| Customer Self Service | Partner, Customer | This option provides the ability for portal users to search knowledge articles, submit cases and participate in discussion forums to resolve issues. |
-| Employee Self-Service | Employee          | This portal allows employees to be able to access a centralized knowledge articles and also submit cases. |
+| Community Portal      | Partner, Customer | Choose this option to provision a portal focused on an online community.  This portal will contain features such as forums, ideas, blogs, and case management. |
+| Customer Self-Service | Partner, Customer | This option provides the ability for portal users to search knowledge articles, submit cases and participate in discussion forums to resolve issues. |
+| Employee Self-Service | Employee          | This portal allows employees to be able to access a centralized knowledge article and also submit cases. |
 | Partner Portal        | Partner           | Choose this option to build a portal where external partners can manage and collaborate on Accounts and Opportunities. Addons are available for Dynamics 365 for Field Service or Dynamics 365 for Project Service. |
-| Custom Portal         | Partner, Customer | The custom portal is meant for unique line of business scenarios where the other starter portals are not a good fit. The custom portal can be configured to address a variety of requirements.  Specific features from the other starter portals can be incorporated into the starter portal. |
-| Portal from blank     | Partner, Customer, other external stakeholder | The portal from blank is similiar to the custom portal.  This template is meant for unique line of business scenarios where Dynamics 365 apps are not enabled. The Portal from blank can be configured to address a variety of requirements. |
+| Custom Portal         | Partner, Customer | The custom portal is meant for unique line-of-business scenarios where the other starter portals are not a good fit. The custom portal can be configured to address a variety of requirements.  Specific features from the other starter portals can be incorporated into the starter portal. |
+| Portal from blank     | Partner, Customer, other external stakeholder | The portal from blank is similar to the custom portal.  This template is meant for unique line-of-business scenarios where Dynamics 365 apps are not enabled. The Portal from blank can be configured to address a variety of requirements. |
 
 > [!IMPORTANT]
 > Review current licensing guides to determine the licenses, subscriptions and capacity required for internal and external authenticated users as well as anonymous page views. Please refer to the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544/?azure-portal=true) or the 
@@ -41,9 +41,9 @@ All starter portals are built on a common foundation (portal base)  and include 
 - Content management including content publishing, design, theming, search, multi-lingual support, templating.
 - Extensibility built on Web Pages, Templates, Entity Forms, Entity Lists, and more. 
 - Security based on identity management, integration with authentication providers, web roles, content permissions, entity permissions.
-- Common features like Ads, Polls, Ratings, and Comments. These features are not standalone and can be used throughout other parts of the implementation. For example, ratings and comments can be enabled for a page, ads can be included as part of a template.  Some features will require Dynamics 365 apps to be enabled (e.g. Knowledge Articles require Dynamics 365 Service)
+- Common features like Ads, Polls, Ratings, and Comments. These features are not standalone and can be used throughout other parts of the implementation. For example, ratings and comments can be enabled for a page, ads can be included as part of a template.  Some features will require Dynamics 365 apps to be enabled (for example, Knowledge Articles require Dynamics 365 Service)
 
-Where the starter portals are different is around the functional areas targeting *specific business processes* such as Case Management. These features are deployed as additional managed solutions making it easier to add missing ones if required.
+Where the starter portals are different is around the functional areas targeting *specific business processes* such as Case Management. These features are deployed as additional managed solutions making it easier to add missing ones if necessary.
 
 | Feature                                | Custom Portal or Portal from blank | Customer Self-Service | Partner Portal | Employee Self-Service Portal | Community Portal |
 | -------------------------------------- | ------------- | --------------------- | -------------- | ---------------------------- | ---------------- |
@@ -84,5 +84,5 @@ Some third-party solutions add features to the portal that can greatly enhance u
 - Click to Call
 - Customer Journey tracking
 
-On the other hand, Power Platform and Dynamics 365 ISVs and System Integrators offering Power Platform and Dynamics 365 vertical solutions quite often may include portal extensions specifically designed for their solution needs. When working with a vendor who offers portals as part of their overall solution, it would be sensible to discuss portal requirements and the starter portal selection beforehand.
+On the other hand, Power Platform and Dynamics 365 ISVs and System Integrators offering Power Platform and Dynamics 365 vertical solutions often may include portal extensions designed for their solution needs. When working with a vendor who offers portals as part of their overall solution, it would be sensible to discuss portal requirements and the starter portal selection beforehand.
 
