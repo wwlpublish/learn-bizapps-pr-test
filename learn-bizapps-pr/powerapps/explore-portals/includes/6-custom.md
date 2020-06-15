@@ -18,5 +18,5 @@ A functional consultant can configure the custom portal to address business requ
 
 Features from other portals can be applied to a custom portal in an environment with Dynamics 365 apps enabled.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ynsK]
 
