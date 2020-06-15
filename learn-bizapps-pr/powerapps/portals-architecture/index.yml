@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.portals-architecture 
+metadata: 
+ title: Power Apps portals architecture
+ description: In this module we focus on the Power Apps portals architecture such as how the various components work together to build a portal.  We also discuss how the components are installed and come to together in a working portal.  Finally, we outline the maker and configuration tools to build and customize Power Apps portals.
+ ms.date: 06/30/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps-portals  
+title: Power Apps portals architecture 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  In this module we focus on the Power Apps portals architecture such as how the various components work together to build a portal.  We also discuss how the components are installed and come to together in a working portal.  Finally, we outline the maker and configuration tools to build and customize Power Apps portals. 
+abstract: |  
+    In this module, you will: 
+    - Identify the key components of the Power Apps Portal architecture
+    - Understand the Portal provision process
+    - Differentiate the various maker tools, the purpose and when to use each particular tool 
+prerequisites: Target audience should have basic understanding and usage and navigation of Dynamics 365 first-party applications as well as basic understanding of how to navigate and customize Power Apps. 
+iconUrl: /learn/achievements/portals-architecture.svg  
+levels:  
+- intermediate   
+roles:  
+- maker
+- functional-consultant  
+products:  
+- power-apps 
+units: 
+- learn-bizapps.portals-architecture.1-introduction 
+- learn-bizapps.portals-architecture.2-provision 
+- learn-bizapps.portals-architecture.3-tools 
+- learn-bizapps.portals-architecture.4-exercise 
+- learn-bizapps.portals-architecture.5-check 
+- learn-bizapps.portals-architecture.6-summary 
+badge: 
+  uid: learn-bizapps.portals-architecture.badge 
