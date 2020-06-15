@@ -29,8 +29,7 @@ Only an admin can create environments. If you aren't an admin, this information 
 
 1. On the <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a> home page, select the gear icon near the upper-right corner and then select **Admin center**.
 
-    You can also go directly to <a href="https://admin.powerapps.com" target="_blank">admin.powerapps.com</a>.
-
+    You can also go directly to https://admin.powerplatform.microsoft.com/
 2. In the Power Apps admin center, select **+ New**. 
 3. In the **New environment** dialog box, enter a name for the environment and then select a region and an environment type.
 4. To the left of **Create a database for this environment**, select the toggle to Yes.
