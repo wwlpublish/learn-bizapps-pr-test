@@ -26,5 +26,5 @@ One of the distinctive features of Power Apps portals is using Common Data Servi
 
 ![Portal Solutions](../media/1-3-portal-server.png)
 
-An Azure web application is provisioned in the same tenant as the Common Data Service environment with the portal solutions and metadata.  The web application reads the various portal metadata records and surfaces the various pages on an externally facing website.  Authenticated and unauthenticated external users can interact with the externally facing portal and create, read, update, and delete information from the Common Data Service.
+An Azure web app is configured to run the portal site using the portal solutions and metadata.  The web app reads the various portal metadata records and surfaces the various pages on an externally facing website.  Authenticated and unauthenticated external users can interact with the externally facing portal and create, read, update, and delete information from the Common Data Service.
 
