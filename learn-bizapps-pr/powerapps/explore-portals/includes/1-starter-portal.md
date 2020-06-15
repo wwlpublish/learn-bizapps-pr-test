@@ -2,7 +2,7 @@ When provisioning a Power Apps portal, one of the most important choices is to c
 
 There are a number of starter portals available that can be provisioned. These will accelerate the configuration of a portal based on the intended audience and workload.  
 
-If you are using Dynamics 365 first-party apps (For example; Dynamics 365 Sales or Dynamics 365 Service) you have a choice of five different starter templates;
+If you are using Dynamics 365 first-party apps (For example; Dynamics 365 Sales or Dynamics 365 Service) you have a choice of five different starter templates:
 
 - Community Portal
 - Customer Self-Service
@@ -51,7 +51,7 @@ Where the starter portals are different is around the functional areas targeting
 | Knowledge Management                   |               | •                     | •              | •                            | •                |
 | Support/Case Management                |               | •                     | •              | •                            | •                |
 | Forums                                 |               | •                     | •              | •                            | •                |
-| Azure AD Authentication <sup>^</sup>   |               |                       |                | •                            |                  |
+| Azure AD Authentication   |               |                       |                | •                            |                  |
 | Ideas                                  |               |                       |                |                              | •                |
 | Blogs                                  |               |                       |                |                              | •                |
 | Partner Pipeline                       |               |                       | •              |                              |                  |
