@@ -1,4 +1,4 @@
-There are a number of portal templates available when provisioning a Power Apps portal in a Common Data Service environment with Dynamics 365 apps installed.  The Portal from blank is the only option available to Common Data Service environments with no first-party Dynamics 365 apps installed.
+There are a number of portal templates available when provisioning a Power Apps portal in a Common Data Service environment with Dynamics 365 apps installed.  The Portal from blank is the only option available to Common Data Service environments without any first-party Dynamics 365 apps installed.
 
 ## Custom template
 
@@ -6,9 +6,14 @@ The Custom Portal provides organizations with a basic portal to allow creation o
 
 This portal is an ideal starting point for unique line-of-business applications with portal requirements. Examples of custom portals could be event and registration management, grant management, and certification management. Any custom business application built on the Power Platform can be extended to an external facing audience.
 
-The custom portal contains core features such as content management, security, ability to transact with Common Data Service and extensibility.
+The Portal from blank provides organizations with a basic portal to allow creation of unique line of business workload features that are not addressed by Dynamics 365 based templates.
 
-NOTE: The default home page of the custom blank portal will appear different if provisioned from a Dynamics 365-enabled Common Data Service environment versus one without Dynamics 365 enabled.
+>[!NOTE]
+> The blank portal will appear different if provisioned from a Dynamics 365-enabled Common Data Service environment versus one without Dynamics 365 enabled.
+| Dynamics 365 enabled environment                             | Common Data Service environment                             |
+| ------------------------------------------------------------ | ----------------------------------------------------------- |
+| ![Dynamics 365 Apps - Custom Home Page](../media/customportal.png "Custom Home Dynamics 365 apps") | ![CDS only](../media/CDSblankPortal.png "CDS Blank Portal") |
+
 
 ![Dynamics 365 Apps - Custom Home Page](../media/custom-portal.png)
 
@@ -46,13 +51,19 @@ By default the Employee self-service portal is configured to authenticate using 
 >
 > Use of Power Apps portals by internal staff requires additional licensing considerations. Please refer to latest [licensing guide](https://go.microsoft.com/fwlink/?linkid=2085130) for the specific requirements. 
 
-### Partner 
+### Employee self-service 
 
+The Employee self-service template provides organizations with a portal configured to assist employees with finding specific human resources and company information or resolving employee specific issues.
+
+By default the Employee self-service portal is configured to authenticate using Azure Active Directory, providing the employees with a single sign-on experience.
+
+> [!NOTE] Use of Power Apps portals by internal staff requires additional licensing
+> considerations. Please refer to latest licensing guide for the specific requirements.
+
+### Partner
 The Partner template provides organizations with a partner channel mechanism to allow partners to manage and collaborate on Opportunities and Customers.
 
 Additional features can be added if the Dynamics 365 organization has Field Service or Project Service solutions installed. Selecting these options will extend portal features to these first-party applications.
-
-![Portal Templates](../media/1-4-portal-templates.png)
 
 ### Dynamics 365 Supply Chain Management Customer Portal
 
