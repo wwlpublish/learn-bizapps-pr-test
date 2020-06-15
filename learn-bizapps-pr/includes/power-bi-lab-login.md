@@ -2,7 +2,8 @@
 
 Before you start this lab, you will need to open the lab environment link above, and log in to the lab environment. There is no need to provide your own environment, as an environment and an account have been prepared for this lab. 
 
-> [!NOTE] If you are currently logged into Power BI, you may be signed out of your account before this lab begins. 
+> [!NOTE]
+> If you are currently logged into Power BI, you may be signed out of your account before this lab begins. 
 
 To log in to your lab environment:
 

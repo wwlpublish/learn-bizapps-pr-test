@@ -32,7 +32,7 @@ custom connector:
 | **Parameter**   | **Value** |
 | :---------------| :------------------------------------------------------------------------------|
 | HTTP method     | "POST" |
-| Request URL     | "<https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment>" |
+| Request URL     | <span>https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment</span> |
 | Authorization   | "No Auth" (you specify an API key in the next step) |
 
 2.  Enter key-value pairs for the request header. For common HTTP
