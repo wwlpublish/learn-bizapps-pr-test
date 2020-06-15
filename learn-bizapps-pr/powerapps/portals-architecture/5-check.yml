@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-architecture.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 06/30/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps-portals 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: How many different starter portals can be installed on an environment without Dynamics 365 apps?
+    choices: 
+    - content: One Portal
+      isCorrect: true 
+      explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365. There are five different portal types but four require Dynamics 365 apps. CDS capacity comes into consideration when provisioning environments.
+    - content: Five Portals
+      isCorrect: false 
+      explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365. There are five different portal types but four require Dynamics 365 apps. CDS capacity comes into consideration when provisioning environments.
+    - content: One of each unique portal type
+      isCorrect: false 
+      explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365. There are five different portal types but four require Dynamics 365 apps. CDS capacity comes into consideration when provisioning environments.
+    - content: Limited by available CDS capacity
+      isCorrect: false 
+      explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365. There are five different portal types but four require Dynamics 365 apps. CDS capacity comes into consideration when provisioning environments.
+  - content: Where is the portal metadata stored?
+    choices: 
+    - content: Azure web application
+      isCorrect: false
+      explanation: Portal metadata is stored in the Common Data Service. The azure web application only displays portal pages based on metadata but doesn't store any data. The portals solutions do not store data but define the metadata structure. The portal management app allows makers to create, update and delete portal metadata but does not store it.
+    - content: Common Data Service
+      isCorrect: true 
+      explanation: Portal metadata is stored in the Common Data Service. The azure web application only displays portal pages based on metadata but doesn't store any data. The portals solutions do not store data but define the metadata structure. The portal management app allows makers to create, update and delete portal metadata but does not store it.
+    - content: Portals Solutions
+      isCorrect: false 
+      explanation: Portal metadata is stored in the Common Data Service. The azure web application only displays portal pages based on metadata but doesn't store any data. The portals solutions do not store data but define the metadata structure. The portal management app allows makers to create, update and delete portal metadata but does not store it.
+    - content: Portals Management App
+      isCorrect: false 
+      explanation: Portal metadata is stored in the Common Data Service. The azure web application only displays portal pages based on metadata but doesn't store any data. The portals solutions do not store data but define the metadata structure. The portal management app allows makers to create, update and delete portal metadata but does not store it.
+  - content: In which tool can you NOT create a web page?
+    choices: 
+    - content: Portal Studio
+      isCorrect: false
+      explanation: The portal admin center is used to manage administration aspects of the portal, but cannot create portal metadata such as web pages. All the other tools it is possible to create a web page record (portal metadata).
+    - content: Front Side Editor
+      isCorrect: false 
+      explanation: The portal admin center is used to manage administration aspects of the portal, but cannot create portal metadata such as web pages. All the other tools it is possible to create a web page record (portal metadata).
+    - content: Portal Admin Center
+      isCorrect: true 
+      explanation: The portal admin center is used to manage administration aspects of the portal, but cannot create portal metadata such as web pages. All the other tools it is possible to create a web page record (portal metadata).
+    - content: Portal Management App
+      isCorrect: false 
+      explanation: The portal admin center is used to manage administration aspects of the portal, but cannot create portal metadata such as web pages. All the other tools it is possible to create a web page record (portal metadata).
+  - content: What is required to fully delete a provisioned Power Apps portal?
+    choices: 
+    - content: Reset the portal from Portals Admin Center
+      isCorrect: false
+      explanation: Resetting the portal only re-installs the portal web application. Deleting the portal from the power apps maker portal only removes the portal web application and the portal app, it doesn't remove the portal metadata. You cannot provision a new portal if one exists or if it has been deleted, provisioning a new portal will use existing portal metadata.
+    - content: Delete portal from power apps maker portal
+      isCorrect: false 
+      explanation: Resetting the portal only re-installs the portal web application. Deleting the portal from the power apps maker portal only removes the portal web application and the portal app, it doesn't remove the portal metadata. You cannot provision a new portal if one exists or if it has been deleted, provisioning a new portal will use existing portal metadata.
+    - content: Delete portal from power apps maker portal and delete portal metadata
+      isCorrect: true 
+      explanation: Resetting the portal only re-installs the portal web application. Deleting the portal from the power apps maker portal only removes the portal web application and the portal app, it doesn't remove the portal metadata. You cannot provision a new portal if one exists or if it has been deleted, provisioning a new portal will use existing portal metadata.
+    - content: Provision a new portal that will overwrite your existing portal
+      isCorrect: false 
+      explanation: Resetting the portal only re-installs the portal web application. Deleting the portal from the power apps maker portal only removes the portal web application and the portal app, it doesn't remove the portal metadata. You cannot provision a new portal if one exists or if it has been deleted, provisioning a new portal will use existing portal metadata.
