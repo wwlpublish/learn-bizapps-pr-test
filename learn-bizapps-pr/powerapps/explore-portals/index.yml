@@ -31,7 +31,7 @@ roles:
 products:    
 - power-apps 
 units: 
-- learn-bizapps.explore-portals.1-starter-portal 
+- learn-bizapps.explore-portals.1-introduction
 - learn-bizapps.explore-portals.2-community 
 - learn-bizapps.explore-portals.3-customer 
 - learn-bizapps.explore-portals.4-employee 

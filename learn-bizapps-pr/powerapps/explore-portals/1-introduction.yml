@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.explore-portals.1-starter-portal 
+uid: learn-bizapps.explore-portals.1-introduction
 title: Starter portal
 metadata: 
   title: Starter portal 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 6 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/1-starter-portal.md)] 
+ [!include[](includes/1-introduction.md)] 
