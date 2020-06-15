@@ -25,7 +25,7 @@ In this exercise, you'll apply transformations to each of the queries.
 1.  Dismiss the splash screen by selecting **X** to close.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the opening Power BI splash screen.](../media/lab-0-ssm.png)](../media/lab-1-ssm.png#lightbox)
+	> [![Screenshot of the opening Power BI splash screen.](../media/lab-0-ssm.png)](../media/lab-0-ssm.png#lightbox)
 
 
 1.  From the **File** tab, select **Open report**, and then **Browse reports**.
