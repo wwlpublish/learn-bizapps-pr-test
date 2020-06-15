@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portal-features.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 06/30/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps-portals 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: You have provisioned a new Power Platform environment without enabling any of the Dynamics 365 apps and created a portal app. What portal feature is not available to enable on your portal?
+    choices: 
+    - content: Static content
+      isCorrect: false 
+      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
+    - content: Embedded Power BI
+      isCorrect: false 
+      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
+    - content: Knowledge articles
+      isCorrect: true 
+      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
+    - content: External authentication
+      isCorrect: false 
+      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
+  - content: What portals feature is NOT available and must be created using the extensibility features?
+    choices: 
+    - content: Profile management
+      isCorrect: false 
+      explanation: Power Apps portals provide the ability to securely surface and interact with common data service data using web roles and entity permissions, including the contact entity (profile management).  A Payment gateway would need to be developed separately.
+    - content: Common Data Service security
+      isCorrect: false 
+      explanation: Power Apps portals provide the ability to securely surface and interact with common data service data using web roles and entity permissions, including the contact entity (profile management).  A Payment gateway would need to be developed separately.
+    - content: Payment Gateway
+      isCorrect: true 
+      explanation: Power Apps portals provide the ability to securely surface and interact with common data service data using web roles and entity permissions, including the contact entity (profile management).  A Payment gateway would need to be developed separately.
+    - content: Create and Update Common Data Service records
+      isCorrect: false 
+      explanation: Power Apps portals provide the ability to securely surface and interact with common data service data using web roles and entity permissions, including the contact entity (profile management).  A Payment gateway would need to be developed separately.
+  - content: Where do you author new Knowledge Articles for the Portal?
+    choices: 
+    - content: Portal Studio
+      isCorrect: false 
+      explanation: Knowledge articles cannot be authored within the portal at all, only viewed.  While knowledge articles are listed in the Portal App, they can only be authored in the Customer Service Hub App.
+    - content: Custom Portal
+      isCorrect: false 
+      explanation: Knowledge articles cannot be authored within the portal at all, only viewed.  While knowledge articles are listed in the Portal App, they can only be authored in the Customer Service Hub App.
+    - content: Dynamics 365 Customer Service Hub
+      isCorrect: true 
+      explanation: Knowledge articles cannot be authored within the portal at all, only viewed.  While knowledge articles are listed in the Portal App, they can only be authored in the Customer Service Hub App.
+    - content: Portal Management app
+      isCorrect: false 
+      explanation: Knowledge articles cannot be authored within the portal at all, only viewed.  While knowledge articles are listed in the Portal App, they can only be authored in the Customer Service Hub App.
+  - content: Which feature is only available in Community Starter Portal?
+    choices: 
+    - content: Forums
+      isCorrect: false 
+      explanation: Forums and Knowledge Articles features are available in all starter portals except Custom Portal. Blogs feature is available only in Community Starter Portal. Event Management is not a valid starter portal feature. 
+    - content: Event Management
+      isCorrect: false 
+      explanation: Forums and Knowledge Articles features are available in all starter portals except Custom Portal. Blogs feature is available only in Community Starter Portal. Event Management is not a valid starter portal feature. 
+    - content: Knowledge Articles
+      isCorrect: false 
+      explanation: Forums and Knowledge Articles features are available in all starter portals except Custom Portal. Blogs feature is available only in Community Starter Portal. Event Management is not a valid starter portal feature. 
+    - content: Blogs
+      isCorrect: true 
+      explanation: Forums and Knowledge Articles features are available in all starter portals except Custom Portal. Blogs feature is available only in Community Starter Portal. Event Management is not a valid starter portal feature. 
