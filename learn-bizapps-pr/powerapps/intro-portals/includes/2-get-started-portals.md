@@ -8,11 +8,9 @@ Power Apps portals evolved from Dynamics 365 Portals.  Going forward, Dynamics 3
 >
 > To provision a portal, you must be assigned to the System Administrator role of the Common Data Service environment selected for the portal.
 
-## Starter templates
+## Portal templates
 
-Starter templates are pre-configured portal solutions available to accelerate deployment.  Unlike model-driven and canvas apps, makers will start with a starter template to build and customize their portal apps. 
-
-Power Apps portals are all customizable but a starter portal will provide a pre-configured environment immediately suitable for specific scenarios. Available templates are: 
+Portal templates are pre-configured portal solutions available to accelerate deployment. Power Apps portals are all customizable but a portal template will provide a pre-configured environment immediately suitable for specific scenarios. Available templates are:
 
 * Portal from blank 
 * Custom Portal (Dynamics 365 Apps)
@@ -48,7 +46,7 @@ Power Apps portals is a *platform* and includes a long list of components and fe
 
  
 
-All components and features listed under **Content**, **Extensibility**, and **Security** form the portal *foundation*. The are part of the base solution and included in all starter portals. Features from the **Functionality** area focus on the specific needs of the target audience. Starter portal selection defines what subset of the functional features is are included.  
+All components and features listed under **Content**, **Extensibility**, and **Security** form the portal *foundation*. They are part of the base solution and included in all portals. Features from the **Functionality** area focus on the specific needs of the target audience. Starter portal selection defines what subset of the functional features is are included.  
 
 > [!NOTE]
 >
