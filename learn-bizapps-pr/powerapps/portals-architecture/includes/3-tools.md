@@ -40,7 +40,7 @@ To access Portal Management app:
 The portal front-side editing tools are legacy tools in which visitors to a portal with specialized web roles (such as administrator) can add and modify portal content and functionality directly when browsing portal pages. Along with being able to directly edit content, a pop-up tools window will appear allowing content creators to add web pages, web links and web files.  Moving forward, the recommended way to modify content is using the Portals Studio.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Management App](../media/3-front-side-editing-portals-ss.png)](../media/3-front-side-editing-portals-ss.png#lightbox)
+> [![Portal Management App](../media/3-front-side-edit-portals-ss.png)](../media/3-front-side-edit-portals-ss.png#lightbox)
 
 ## Portal admin center
 
