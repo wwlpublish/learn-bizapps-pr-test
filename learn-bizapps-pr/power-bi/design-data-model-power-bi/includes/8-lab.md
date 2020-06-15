@@ -28,7 +28,7 @@ In this exercise, you'll apply transformations to each of the queries.
 	> [![Screenshot of the opening Power BI splash screen.](../media/lab-0-ssm.png)](../media/lab-1-ssm.png#lightbox)
 
 
-1.  From the **File** tab, select **Open report**.
+1.  From the **File** tab, select **Open report**, and then **Browse reports**.
  
 1. Open the solution file, which is found in the
 **D:\DA100\Lab02A\Starter** folder.
@@ -236,9 +236,6 @@ detailed instructions, you can refer back to other tasks.
 
 1. Click **OK**.
 
-1. Notice that the transformation resulted in two columns, and that the
-    **DimProductCategory** column has been removed.
-
 1. Expand the **DimProductCategory**, and then introduce only the
     **EnglishProductCategoryName** column.
 
@@ -269,7 +266,7 @@ In this task, you will configure the **Reseller** query.
 	
 	-   BusinessType
 	
-	-   RellerName
+	-   ResellerName
 	
 	-   DimGeography
 
@@ -672,7 +669,7 @@ In this task, you'll complete the lab.
 	
 	-   Sales
 	
-	-   Target
+	-   Targetw
 	
 	-   ColorFormats (which won't load to the data model)
 
