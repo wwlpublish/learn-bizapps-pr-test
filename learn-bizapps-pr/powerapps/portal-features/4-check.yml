@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Static content
       isCorrect: false 
-      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
+      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee, and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
     - content: Embedded Power BI
       isCorrect: false 
-      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
+      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee, and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
     - content: Knowledge articles
       isCorrect: true 
-      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
+      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee, and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
     - content: External authentication
       isCorrect: false 
-      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
+      explanation: Knowledge Articles require the Knowledge article features of Dynamics 365 Customer Service and are only available in the customer self-service, partner, employee, and community portal starter templates.  Static content, embedded Power BI and external authentication are core portal features.
   - content: What portals feature is NOT available and must be created using the extensibility features?
     choices: 
     - content: Profile management
