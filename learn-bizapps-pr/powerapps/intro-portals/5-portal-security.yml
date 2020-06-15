@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.intro-portals.4-overview-portal-templates 
-title: Overview of portal templates
+uid: learn-bizapps.intro-portals.5-portal-security 
+title: Overview of portal security 
 metadata: 
-  title: Overview of portal templates 
-  description: Get an overview of portal templates 
+  title: Overview of portal security  
+  description: Overview of portal security  
   ms.date: 6/30/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 5 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/4-overview-portal-templates.md)] 
+ [!include[](includes/5-portal-security.md)] 
