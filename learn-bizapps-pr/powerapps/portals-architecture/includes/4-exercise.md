@@ -37,20 +37,20 @@ Creating and editing a portal web page is an easy process and allows you to quic
 
 ### Add static content
 1. On the canvas, select the text area that contains "This website uses sample data..." .
-1. On the toolbelt, choose **Components** (grid icon).
-1. In the **Section layout** area, select **Two columns section**.  This will add a two column section on the web page canvas.
+1. On the tool belt, choose **Components** (grid icon).
+1. In the **Section layout** area, select **Two columns section**.  This will add a two-column section on the web page canvas.
 1. On the canvas, select the left column section.
-1. On the toolbelt, select **Components** and then select **Text** from the **Portal components** section.
+1. On the tool belt, select **Components** and then select **Text** from the **Portal components** section.
 1. On the canvas, add some text to the component.
 1. On the canvas, select the right column section.
-1. On the toolbelt, select **Components** and then select **Image** from the **Portal components** section.
-1. On the properties pane, from the drop down, select **AboutUs.png**.
+1. On the tool belt, select **Components** and then select **Image** from the **Portal components** section.
+1. On the properties pane, from the drop-down, select **AboutUs.png**.
 
 ### View web page
 
 1. From the command bar, choose **Browse website**.
 1. You should now see your new web page on the portal.
-1. Note that there is also a link on the main menu to your web page.
+1. There is also a link on the main menu to your web page.
 
 > [!div class="mx-imgBorder"]
 > [![first web page](../media/4-first-web-page-ss.png)](../media/4-first-web-page-ss.png#lightbox)
