@@ -90,7 +90,7 @@ The key features of the Project Service Automation Extension are:
 - View Invoices
 - Review contract and order forms
 
-For more information, see [Project Service Portal Extension](https://docs.microsoft.com/en-us/dynamics365/portals/integrate-project-service-automation/?azure-portal=true) documentation.
+For more information, see [Project Service Portal Extension](https://docs.microsoft.com/dynamics365/portals/integrate-project-service-automation/?azure-portal=true) documentation.
 
 ## Field Service Integration 
 
@@ -104,6 +104,6 @@ The main features of the Field Service extension are:
 * Allow customers to view and request work orders from the portal
 * Customers can view invoices on the portal
 
-For more information, see [Field Service Portal Extension](https://docs.microsoft.com/en-us/dynamics365/portals/integrate-field-service/?azure-portal=true) documentation.
+For more information, see [Field Service Portal Extension](https://docs.microsoft.com/dynamics365/portals/integrate-field-service/?azure-portal=true) documentation.
 
 
