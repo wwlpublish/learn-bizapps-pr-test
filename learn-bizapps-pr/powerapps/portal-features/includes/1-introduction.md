@@ -15,7 +15,7 @@ Portals content and navigation can be viewed in up to 43 different languages.  P
 > Content will still need to be translated and updated on the web pages and in the content snippets for the specified enabled languages.  Any Common Data Service assets surfaced to the portal such as entities, forms, views or fields will also need to have corresponding label translations using the Dynamics 365/Common Data Service multilingual functionality.
 
 > [!div class="mx-imgBorder"]
-> [![switch language in Portals](../media/1-.multi-language-portals.png)](../media/1-.multi-language-portals.png#lightbox)
+> [![switch language in Portals](../media/1-multi-language-portals.png)](../media/1-multi-language-portals.png#lightbox)
 
 ## Access to Common Data Service data
 
