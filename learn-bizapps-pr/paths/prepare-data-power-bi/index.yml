@@ -2,7 +2,7 @@
 uid: learn-bizapps.data-preparation-in-power-bi
 metadata:
   title: Prepare data for analysis 
-  description: Students will explore Power Query as they learn to extract data from different data sources and choose a storage mode and connectivity type. They will learn to profile, clean, and load data into Power BI in preparation for modeling their data.   
+  description: You will explore Power Query as you learn to extract data from different data sources and choose a storage mode and connectivity type. You will learn to profile, clean, and load data into Power BI in preparation for modeling your data. 
   ms.date: 06/30/2020
   author: heyrob
   ms.author: robde
