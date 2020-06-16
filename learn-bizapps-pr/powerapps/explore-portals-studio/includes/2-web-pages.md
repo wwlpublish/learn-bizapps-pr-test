@@ -12,7 +12,7 @@ The maker can then begin to add and edit components to the web page.
 Once the webpage has been saved, a maker has the following options available to organize where and how the page is organized in the portal site map. Selecting pages from the toolbelt, the maker can select the particular page and can perform the following actions:
 
 > [!div class="mx-imgBorder"]
-> [![Manage Portal Pages](../media/2-manage-portal-pages-ss..png)](../media/2-manage-portal-pages-ss..png#lightbox)
+> [![Manage Portal Pages](../media/2-manage-portal-pages-ss.png)](../media/2-manage-portal-pages-ss.png#lightbox)
 
 | Item | Details |
 | -------------------- | ---- |
