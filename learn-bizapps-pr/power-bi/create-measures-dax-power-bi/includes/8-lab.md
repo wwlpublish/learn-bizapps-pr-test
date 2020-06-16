@@ -84,7 +84,7 @@ In this task, you will create several measures with DAX expressions that use the
 
 1. In the formula bar copy the expression from Snippets.txt file, and press **Enter**. This create the measure in **Sales** table. Review the field list in the **Fields** pane under **Sales** table, and you will see the **Sales All Region** measure.  
 
-1.	Check the **Sales All Region** measure in the **Fields** pane and add it to the matrix visual.  You can also drag and drop the expression to Sales. 
+1.	Check the **Sales All Region** measure in the **Fields** pane and add it to the matrix visual. 
 
 
 	> [!div class="mx-imgBorder"]
