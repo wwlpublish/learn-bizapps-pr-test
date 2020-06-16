@@ -1,0 +1,43 @@
+### YamlMime:Module 
+uid: learn-bizapps.explore-portals-studio 
+metadata: 
+ title: Explore Power Apps portals studio
+ description: Portal makers spend the majority of their time configuring the portals using the Power Apps portals Studio. It is important that the makers have a full understanding of the capabilities and also the limitations. This module will focus on understanding and using the Power Apps portals Studio to create and customize portal websites.  The Power Apps portals Studio allows makers to easily add and configure webpages, layout components, static content, custom CSS files, entity lists and entity forms.
+ ms.date: 06/30/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps-portals  
+title: Explore Power Apps portals studio 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Portal makers spend the majority of their time configuring the portals using the Power Apps portals Studio. It is important that the makers have a full understanding of the capabilities and also the limitations. This module will focus on understanding and using the Power Apps portals Studio to create and customize portal websites.  The Power Apps portals Studio allows makers to easily add and configure webpages, layout components, static content, custom CSS files, entity lists and entity forms.
+abstract: |  
+    In this module, you will: 
+    - Know how to launch and run the Power Apps portals Studio from the maker portal
+    - Identify the various menus, command bars, tools, canvas, and property sections.
+    - Understand how to add new web pages, how to place them in the site structure and how to apply various page templates.
+    - Understand the process to configure specific layouts and add and modify different types of content to a page.
+    - Know where to be able to add or modify custom HTML, CSS, or Liquid code to the web pages using the studio.
+    - Understand the process of uploading CSS files and how it will apply to the portal.
+prerequisites: Target audience should have basic understanding of how to navigate a model driven app and use WYSIWYG (what you see is what you get) tools.  Knowledge on web technologies such as HTML, CSS, and Bootstrap will also be beneficial. 
+iconUrl: /learn/achievements/explore-portals-studio.svg  
+levels:  
+- intermediate   
+roles:  
+- maker
+- functional-consultant  
+products:  
+- power-apps 
+units: 
+- learn-bizapps.explore-portals-studio.1-portals-studio 
+- learn-bizapps.explore-portals-studio.2-web-pages 
+- learn-bizapps.explore-portals-studio.3-components 
+- learn-bizapps.explore-portals-studio.4-source-code 
+- learn-bizapps.explore-portals-studio.5-themes 
+- learn-bizapps.explore-portals-studio.6-templates 
+- learn-bizapps.explore-portals-studio.7-exercise 
+- learn-bizapps.explore-portals-studio.8-check 
+- learn-bizapps.explore-portals-studio.9-summary 
+badge: 
+  uid: learn-bizapps.explore-portals-studio.badge 

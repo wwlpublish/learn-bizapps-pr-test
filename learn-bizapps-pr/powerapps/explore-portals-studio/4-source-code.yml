@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.explore-portals-studio.4-source-code 
+title: Web page source code
+metadata: 
+  title: Web page source code 
+  description: Learn about web page source code.  
+  ms.date: 06/30/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps-portals 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-source-code.md)] 
