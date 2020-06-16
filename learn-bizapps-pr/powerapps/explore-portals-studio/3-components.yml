@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.explore-portals-studio.3-components 
+title: Web page components
+metadata: 
+  title: Web page components 
+  description: Learn about web page components.  
+  ms.date: 06/30/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps-portals 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-components.md)] 

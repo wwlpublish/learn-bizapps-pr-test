@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.explore-portals-studio.1-portals-studio 
+title: Power Apps portals studio
+metadata: 
+  title: Power Apps portals studio 
+  description: Learn about Power Apps portals studio.  
+  ms.date: 06/30/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps-portals 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-portals-studio.md)] 
