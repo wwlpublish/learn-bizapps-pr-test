@@ -16,8 +16,6 @@ By the end of this module, you'll be able to: 
 
 -   Implement time intelligence by using DAX.
 
--   Create key performance indicators (KPIs).
-
 ## Use calculated columns
 
 DAX allows you to augment the data that you bring in from different data sources by creating a calculated column that didn't originally exist in the data source. This feature should be used sparingly, which will be explained later in this module.
@@ -76,7 +74,7 @@ FROM sales.salesorders
 
 Using SQL language is an efficient way of creating a column because it would make the data source do the calculations for you. In Power BI, the calculated column would appear like any other column.
 
-You can also use Power Query to create a calculated column.
+You can also use Power Query to create a custom column.
 
 > [!div class="mx-imgBorder"]
 > [![Power Query custom column](../media/02-custom-column-ss.png)](../media/02-custom-column-ss.png#lightbox)

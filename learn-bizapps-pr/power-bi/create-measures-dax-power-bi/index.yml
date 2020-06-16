@@ -20,7 +20,6 @@ abstract: |
     - Discover how context affects DAX measures. 
     - Use the CALCULATE function to manipulate filters. 
     - Implement time intelligence by using DAX. 
-    - Create key performance indicators (KPIs). 
 prerequisites: None 
 iconUrl: /learn/achievements/create-measures-dax-power-bi.svg  
 levels:  
