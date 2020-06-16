@@ -64,7 +64,10 @@ In this task, you will create a matrix visual to support testing your new measur
 
 In this task, you will create several measures with DAX expressions that use the CALCULATE() function to manipulate filter context.
 
-1. Add a measure to the **Sales** table, based on the following expression:
+1. In Report view, on the **Modeling** ribbon, from inside the **Calculations** group, click **New measure** to add a measure “Sales All Region” to the **Sales** table. 
+
+1.	Use the following expression to create the measure:
+
 
 	For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Lab06B\Assets\Snippets.txt** file.
 
@@ -79,7 +82,10 @@ In this task, you will create several measures with DAX expressions that use the
 
 	In this formula, the measure evaluates the sum of the **Sales** column in a modified filter context, which removes any filters applied to the **Region** table.
 
-1. Add the **Sales All Region** measure to the matrix visual.
+1. In the formula bar copy the expression from Snippets.txt file, and press **Enter**. This create the measure in **Sales** table. Review the field list in the **Fields** pane under **Sales** table, and you will see the **Sales All Region** measure.  
+
+1.	Check the **Sales All Region** measure in the **Fields** pane and add it to the matrix visual.  You can also drag and drop the expression to Sales. 
+
 
 	> [!div class="mx-imgBorder"]
 	> [![Add sales all region measure](../media/lab-8-7-ssm.png)](../media/lab-8-7-ssm.png#lightbox)
