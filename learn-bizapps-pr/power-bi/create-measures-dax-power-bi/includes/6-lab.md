@@ -12,7 +12,7 @@ In this lab, you learn how to:
 
 In this exercise, you will create two calculated tables. The first will be the **Salesperson** table, to allow a direct relationship between it and the **Sales** table. The second will be the **Date** table.
 
-If you’re not confident you completed the previous lab successfully, you can open the previous lab’s solution file, which is found in the **D:\DA100\Lab05A\Solution** folder.
+Open the starter file, which is found in the **D:\DA100\Lab06A\Starter** folder.
 
 ### Task 1: Create the Salesperson table
 
