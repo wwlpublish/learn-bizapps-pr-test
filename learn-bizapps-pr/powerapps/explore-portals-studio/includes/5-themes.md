@@ -1,4 +1,4 @@
-A portal theme describes the colours, fonts, outlines and other design elements of a Power Apps portal.
+A portal theme describes the colors, fonts, outlines and other design elements of a Power Apps portal.
 
 The portal is provisioned with a default theme. However, you may want to align your portal with your specific corporate branding.
 
