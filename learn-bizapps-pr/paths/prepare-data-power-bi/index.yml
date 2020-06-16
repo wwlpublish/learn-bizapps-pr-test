@@ -1,0 +1,27 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.data-preparation-in-power-bi
+metadata:
+  title: Prepare data for analysis 
+  description: Students will explore Power Query as they learn to extract data from different data sources and choose a storage mode and connectivity type. They will learn to profile, clean, and load data into Power BI in preparation for modeling their data.   
+  ms.date: 06/30/2020
+  author: heyrob
+  ms.author: robde
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+title: Prepare data for analysis 
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Students will explore Power Query as they learn to extract data from different data sources and choose a storage mode and connectivity type. They will learn to profile, clean, and load data into Power BI in preparation for modeling their data.  
+prerequisites: None
+iconUrl: /learn/achievements/data-preparation-in-power-bi.svg
+levels:
+- intermediate
+roles: 
+- data-analyst
+products:
+- power-bi 
+modules:
+- learn-bizapps.get-data
+- learn-bizapps.design-data-model-power-bi
+trophy: 
+  uid: learn-bizapps.data-preparation-in-power-bi.trophy
