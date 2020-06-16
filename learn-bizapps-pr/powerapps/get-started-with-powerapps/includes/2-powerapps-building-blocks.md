@@ -31,7 +31,7 @@ The Power Apps admin center is the centralized place for managing Power Apps for
 
 ## Licensing 
 
-Most users get their initial start with Power Apps by utilizing one of the licenses that comes with their Microsoft 365 Plan or Microsoft Dynamics 365 Plan. These licenses allow you to extend the functionality of the app that is licensed. This means if you purchased a Microsoft 365 plan that included a Power Apps license then you can build apps that extend and use SharePoint as a data source. But Power Apps doesn’t have to stop at just extending that platform. 
+Most users get their initial start with Power Apps by utilizing one of the licenses that comes with their Microsoft 365 Plan or Microsoft Dynamics 365 license. These licenses allow you to extend the functionality of the app that is licensed. This means if you purchased a Microsoft 365 plan that included a Power Apps license then you can build apps that extend and use SharePoint as a data source. But Power Apps doesn’t have to stop at just extending that platform. 
 
 Power Apps has over 300 available data source connectors available including Common Data Service. To incorporate Common Data Service or any of those additional connectors all users of the app will need a premium license. There are two different ways to acquire a Premium license: 
 - Per App model 
