@@ -17,7 +17,7 @@ To ensure consistent website look and define the *accessible* content that can b
 
 - Open your portal in Power Apps portal Studio.
 - Open a Services web page.
-- Add HTML code containing various elements such as headings, paragraphs, etc..
+- Add HTML code containing various elements such as headings, paragraphs, etc.
 - Save the page and browse the website to view the results.
 
 ### Launch portal Studio

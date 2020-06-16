@@ -32,7 +32,7 @@ quiz:
     - content: Entity Lists
       isCorrect: false 
       explanation: Web Forms component is not available to add to a page in the portals studio.
-    - content: "3" Column Section
+    - content: 3 Column Section
       isCorrect: false 
       explanation: Web Forms component is not available to add to a page in the portals studio.
     - content: Iframe

@@ -5,7 +5,7 @@ From the portal studio command bar, click New page. You will be presented with a
 > [!div class="mx-imgBorder"]
 > [![Add Web Page](../media/2-create-portal-page-ss.png)](../media/2-create-portal-page-ss.png#lightbox)
 
-Once you have selected a layout, the page will appear on the canvas as well as the web page properties will be available to edit in the properties pane. The maker can define the web page name, partial URL and template.
+Once you have selected a layout, the page will appear on the canvas as well as the web page properties will be available to edit in the properties pane. The maker can define the web page name, partial URL, and template.
 
 The maker can then begin to add and edit components to the web page.
 
@@ -18,8 +18,8 @@ Once the webpage has been saved, a maker has the following options available to 
 | -------------------- | ---- |
 | Hide in default menu | A weblink record (menu option) will not be displayed on the main navigation.    |
 | Add a child page     | A new web page can be added that is parented by the currently selected page     |
-| Move up                     | Moves the webpage up in the sitemap      |
+| Move up                     | Moves up the webpage in the sitemap      |
 | Make subpage | Makes the currently selected page a child page of the page directly above it in the site map |
-| promote subpage | Moves the webpage up in the hierarchy and make sibling of its former parent page |
+| promote subpage | Moves up the webpage in the hierarchy and make sibling of its former parent page |
 | Delete | Deletes the webpage |
 
