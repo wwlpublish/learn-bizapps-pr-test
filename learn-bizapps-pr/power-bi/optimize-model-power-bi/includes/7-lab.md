@@ -231,7 +231,7 @@ In this task, you will configure the **Sales** table.
 1. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **On**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Properties and and the Thousands separator toggle](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
+	> [![Screenshot of the Properties pane and the Thousands separator toggle](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
 
 1. Select the **Unit Price** column.
 
