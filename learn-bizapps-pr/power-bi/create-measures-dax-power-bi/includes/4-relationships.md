@@ -5,7 +5,7 @@ Consider the following data model example.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of relationships](../media/02-manage-relationships-ss.png)](../media/02-manage-relationships-ss.png#lightbox)
 
-The preceding screenshot shows an established relationship between the **Date **and** OrderDate** columns, as shown by the highlighted line connecting the two. The solid line between the two tables indicates that it is the active relationship, meaning that by default, any slicing on the date table where measures in the Sales data are being displayed will be along the **OrderDate** column. A dashed relationship exists between the **Date** and **ShipdDate** columns, indicating that it is the inactive relationship. This relationship will never be used unless explicitly declared in a measure.
+The preceding screenshot shows an established relationship between the **Date **and** OrderDate** columns, as shown by the highlighted line connecting the two. The solid line between the two tables indicates that it is the active relationship, meaning that by default, any slicing on the date table where measures in the Sales data are being displayed will be along the **OrderDate** column. A dashed relationship exists between the **Date** and **ShipDate** columns, indicating that it is the inactive relationship. This relationship will never be used unless explicitly declared in a measure.
 
 The goal is to build the following report, where you have two visuals: **Sales by Ship Date** and **Sales by Order Date**.
 
