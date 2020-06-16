@@ -96,7 +96,7 @@ In this task, you will create model relationships.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the visual connection between two tables](../media/lab-8-ss.png)](../media/lab-8-ss.png#lightbox)
 
-1. In the diagram, notice that you can interpret the cardinality which is represented by the **1** and **\*** indicators.
+1. In the diagram, notice that you can interpret the cardinality, which is represented by the **1** and **\*** indicators.
 
 	Filter direction is represented by the arrow head. And, a solid line represents an active relationship; a dashed line represents an inactive relationship.
 
@@ -127,7 +127,7 @@ In this task, you will create model relationships.
 
 1. Save the Power BI Desktop file.
 
-## Configure Tables
+## Configure tables
 
 In this exercise, you will configure each table by creating hierarchies, and hiding, formatting, and categorizing columns.
 
@@ -231,7 +231,7 @@ In this task, you will configure the **Sales** table.
 1. In the **Properties** pane, from inside the **Formatting** section, slide the **Thousands Separator** property to **On**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Properfies pand and the Thousands separator toggle](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
+	> [![Screenshot of the Properties and and the Thousands separator toggle](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
 
 1. Select the **Unit Price** column.
 
@@ -297,7 +297,7 @@ In this task, you will switch to Report view, and review the model interface.
 
 1. In the **Fields** pane, notice the following:
 
-	-   Columns, hierarchies and their levels are fields, which can be used to configure report visuals
+	-   Columns, hierarchies, and their levels are fields, which can be used to configure report visuals
 	
 	-   Only fields relevant to report authoring are visible
 	
@@ -313,7 +313,7 @@ In this task, you will switch to Report view, and review the model interface.
 
 	The **Targets | TargetMonth** presents the same hierarchy. These hierarchies were not created by you. They are created automatically. There is a problem, however. The Adventure Works financial year commences on July 1 of each year. But, the date hierarchy year commences on January 1 of each year.
 
-	You will now turn this automatic behavior off. In **Lab 06A**, you will use DAX to create a date table, and configure it define the Adventure Works' calendar.
+	You will now turn off this automatic behavior. In **Lab 06A**, you will use DAX to create a date table, and configure it define the Adventure Works' calendar.
 
 1. To turn off auto/date time, click the **File** ribbon tab to open the backstage view.
 
@@ -389,7 +389,7 @@ In this task, you will create two quick measures to calculate profit and profit 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the table visual and how to expand its width](../media/lab-18-ssm.png)](../media/lab-18-ssm.png#lightbox)
 
-1. Verify that the measures produce reasonable result that are correctly formatted.
+1. Verify that the measures produce reasonable result that is correctly formatted.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the properly formatted table](../media/lab-19-ss.png)](../media/lab-19-ss.png#lightbox)
