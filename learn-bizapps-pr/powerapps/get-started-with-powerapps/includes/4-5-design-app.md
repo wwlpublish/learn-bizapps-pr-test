@@ -117,3 +117,5 @@ Let’s look at an example.  Perhaps your organization has a legacy ERP solution
 ![CSV file example](../media/export-csv-file-data-output.png)
 
 The great thing about generating this CSV file export is that it's not linked to your data, so the changes you make to the file will not alter the app data.
+
+For more information. see [Planning a Power Apps project](https://docs.microsoft.com/powerapps/guidance/planning/introduction).
