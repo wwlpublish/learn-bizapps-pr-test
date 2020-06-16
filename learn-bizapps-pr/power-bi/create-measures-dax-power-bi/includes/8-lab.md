@@ -10,7 +10,7 @@ In this lab, you learn how to:
 
 In this exercise, you will create measures with DAX expressions involving filter context manipulation.
 
-If you’re not confident you completed the previous lab successfully, you can open the previous lab’s solution file, which is found in the **D:\DA100\Lab06A\Solution** folder.
+Open the lab’s starter file, which is found in the **D:\DA100\Lab06B\starter** folder.
 
 ### Task 1: Create a matrix visual
 
