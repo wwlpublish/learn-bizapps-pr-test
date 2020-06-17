@@ -12,7 +12,7 @@ In this lab, you learn how to:
 
 In this exercise, you will create two calculated tables. The first will be the **Salesperson** table, to allow a direct relationship between it and the **Sales** table. The second will be the **Date** table.
 
-Open the starter file, which is found in the **D:\DA100\Lab06A\Starter** folder.
+Open the **Sales Analysis.pbix**starter file, which is found in the **D:\DA100\Lab06A\Starter** folder.
 
 ### Task 1: Create the Salesperson table
 
@@ -96,7 +96,7 @@ In this task, you will create the **Date** table.
 	> [!div class="mx-imgBorder"]
 	> [![New table](../media/lab-6-7-ssm.png)](../media/lab-6-7-ssm.png#lightbox)
 
-1. In the formula bar, enter the following:
+1. In the formula bar, enter the following, and then press Enter:
 
 	```DAX
 	Date =  
@@ -168,7 +168,7 @@ In this task, you will add additional columns to enable filtering and grouping b
 1. To add a matrix visual to the new report page, in the **Visualizations** pane, select the matrix visual type.
 
 	> [!TIP]
-	> You can hover the cursor over each icon to reveal a tooltip describing the visual type*.
+	> You can hover the cursor over each icon to reveal a tooltip describing the visual type.
 
 	> [!div class="mx-imgBorder"]
 	> [![tooltip description](../media/lab-6-15-ssm.png)](../media/lab-6-15-ssm.png#lightbox)
@@ -183,7 +183,7 @@ In this task, you will add additional columns to enable filtering and grouping b
 	> [!div class="mx-imgBorder"]
 	> [![drag month to rows](../media/lab-6-17-ssm.png)](../media/lab-6-17-ssm.png#lightbox)
 
-1. At the top-right of the matrix visual, click the forked-double arrow icon (which will expand all years down one level).
+1. Next to the matrix visual, click the forked-double arrow icon (which will expand all years down one level).
 
 	> [!div class="mx-imgBorder"]
 	> [![click forked double arrow](../media/lab-6-18-ssm.png)](../media/lab-6-18-ssm.png#lightbox)
@@ -211,8 +211,6 @@ In this task, you will add additional columns to enable filtering and grouping b
 
 	> [!div class="mx-imgBorder"]
 	> [![column contains numeric values](../media/lab-6-20-ssm.png)](../media/lab-6-20-ssm.png#lightbox)
-
-1. Switch back to Report view.
 
 1. In the **Fields** pane, ensure that the **Month** field is selected (when selected, it will have a dark gray background).
 
@@ -291,7 +289,7 @@ In this exercise, you will create and format several measures.
 
 In this task, you will create simple measures. Simple measures aggregate a single column or table.
 
-1. In Report view, on **Page 2**, in the **Fields** pane, drag the **Sales | Unit Price** field into the matrix visual.
+1. In Report view, on **Page 2**, in the **Fields** pane, drag the **Sales | Unit Price** field into the **Values** section in matrix visual.
 
 	> [!div class="mx-imgBorder"]
 	> [![drag Sales | Unit Price to matrix visual](../media/lab-6-27-ss.png)](../media/lab-6-27-ss.png#lightbox)
@@ -321,7 +319,7 @@ In this task, you will create simple measures. Simple measures aggregate a singl
 	Avg Price = AVERAGE(Sales[Unit Price])
 	```
 
-1. Add the **Avg Price** measure to the matrix visual.
+1. Add the **Avg Price** measure to the **Values** section in the matrix visual.
 
 1. Notice that it produces the same result as the **Unit Price** column (but with different formatting).
 
@@ -406,7 +404,7 @@ In this task, you will create additional measures that use more complex expressi
 1. Rename the **Targets | Target** column as **Targets | TargetAmount**.
 
 	> [!TIP]
-	> There are several ways to rename the column in Report view: In the **Fields** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2***.
+	> There are several ways to rename the column in Report view: In the **Fields** pane, you can right-click the column, and then select **Rename**—or, double-click the column, or press **F2**.
 
 	You’re about to create a measure named **Target**. It’s not possible to have a column and measure in the same table, with the same name.
 
