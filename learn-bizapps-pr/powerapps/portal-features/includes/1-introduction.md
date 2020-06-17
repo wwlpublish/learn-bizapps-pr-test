@@ -21,7 +21,7 @@ Portals content and navigation can be viewed in up to 43 different languages.  P
 
 The main feature of Power Apps portals is the ability to surface and interact with records in the Common Data Service.  List of CDS records can be surfaced on a portal page using Entity Lists or through custom web templates.  Individual records can be created and edited individually using Entity Forms or as part of a step-by-step process using Web Forms.  The data is protected using a combination of web roles and entity permissions to ensure that portal visitors only have the appropriate access to the Common Data Service records.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yWn4]
 
 ## Theming
 
