@@ -34,4 +34,4 @@ All additions, configurations and updates done through the portals studio will u
 > [!IMPORTANT]
 > The portal studio will automatically save configuration updates to Common Data Service as the maker tabs off a specific control. To ensure that all your updates are committed, check the auto-save status in the footer before browsing to preview the website.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yYtf]
