@@ -115,6 +115,9 @@ In this task, you will create several measures with DAX expressions that use the
 
 1. Format the **Sales % All Region** measure as a percentage with two decimal places.
 
+	> [!div class="mx-imgBorder"]
+	> [![review Sales % All Region values](../media/lab-8-7b-ssm.png)](../media/lab-8-7b-ssm.png#lightbox)
+
 1. In the matrix visual, review the **Sales % All Region** measure values.
 
 	> [!div class="mx-imgBorder"]
