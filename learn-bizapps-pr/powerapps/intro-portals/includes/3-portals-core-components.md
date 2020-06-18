@@ -44,7 +44,7 @@ The two types of templates that can be used in Power Apps portals are:
 
 Web templates use the liquid templating language to define how the content is processed and rendered. Templates are flexible. A template can reuse other templates for parts of the content. A template can also be based on another template, extending the base functionality. 
 
-Web templates can be used to define an entire webpage, a part of a page, or common elements such as the site header and footer. This approach creates a consistent appearance throughout the portal and helps makes it easy to modify the appearance.
+Web templates can be used to define an entire webpage, a part of a page, or common elements such as the site header and footer. This approach creates a consistent appearance throughout the portal and helps make it easy to modify the appearance.
 
 Existing web templates can be edited in the Portals Studio.
 
