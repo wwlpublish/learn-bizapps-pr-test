@@ -318,7 +318,7 @@ In this task, you will create a sales YoY growth measure.
 
 	This means that July 2018 sales ($2,411,559) represents a nearly 400% (almost 4x) improvement over the sales achieved for the prior year ($489,328).
 
-1. In Model view, place the two new measures into a display folder named **Time Intelligence**.
+1. In Model view, place the two new measures into a display folder named **Time Intelligence**. 
 
 	> [!div class="mx-imgBorder"]
 	> [![Time Intelligence folder](../media/lab-8-15-ss.png)](../media/lab-8-15-ss.png#lightbox)
