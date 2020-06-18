@@ -34,9 +34,12 @@ To learn more about access and the scope of the different privileges, see [Secur
 
 ## Create a custom security role
 1. Sign in to [Power Apps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
-1. To complete this exercise, you will first need to create the Pet entity as described in the Get started with Common Data Service module.
+> [!NOTE] 
+> To complete this exercise, you will first need to create an app as described in the previous unit of this module and create the Pet
+> entity as described in unit [Create a Common Data Service entity](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-entity) of [Get started with Common Data Service module](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/).
+
 2. For your new app, select the **...** to the right of the name, and then click **Share**.
-3. In the **Share this app** dialog box, under **Create a security role**, click the **Security Setting** link.
+3. In the **Share** dialog box, select your app at the top and then select the drop-down next to the environment on the right. Select **Manage security role**.
 4. On the **All Roles** page, click **New**.
 5. In the **Role Name** box, enter *Pet Grooming Technicians*.
 6. In the Security Role designer, on the **Custom Entities** tab, find the **Pet** entity.
@@ -56,8 +59,9 @@ To learn more about access and the scope of the different privileges, see [Secur
 Security roles control a user's access to data through a set of access levels and permissions. The combination of access levels and permissions that's included in a specific security role sets limits on the user's view of data and interactions with that data.
 
 ### Assign a security role to the pet grooming technicians
-1. In the **Share this app** dialog box, under **Assign users to the security role**, select **Security Users**.
-2. In the list that appears, select a few of your users to be pet groomers.
+1. Select the model-driven app you created in the previous unit and click **Share**.
+1. Select the app at the top and then choose the **Pet Grooming Technicians** role.
+2. In the list below the app, select a few of your users to be pet groomers.
 3. Select **Manage Roles**.
 
     ![Manage roles](../media/select-users-for-security-roles.png)
