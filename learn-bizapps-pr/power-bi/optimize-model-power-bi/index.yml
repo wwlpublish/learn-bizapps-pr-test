@@ -34,8 +34,7 @@ units:
 - learn-bizapps.optimize-model-power-bi.4-reduce-cardinality 
 - learn-bizapps.optimize-model-power-bi.5-directquery-models 
 - learn-bizapps.optimize-model-power-bi.6-aggregations 
-- learn-bizapps.optimize-model-power-bi.7-lab 
-- learn-bizapps.optimize-model-power-bi.8-check 
-- learn-bizapps.optimize-model-power-bi.9-summary 
+- learn-bizapps.optimize-model-power-bi.7-check 
+- learn-bizapps.optimize-model-power-bi.8-summary 
 badge: 
   uid: learn-bizapps.optimize-model-power-bi.badge 
