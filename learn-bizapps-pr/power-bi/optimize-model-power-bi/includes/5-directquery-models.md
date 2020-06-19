@@ -101,11 +101,11 @@ The following query reduction options are available:
 
 -   **Reduce number of queries sent by** - By default, every visual interacts with every other visual. Selecting this check box disables that default interaction. You can then optionally choose which visuals interact with each other by using the **Edit interactions** feature.
 
--   **Slicers** - By default, the **Instantly apply slicer changes** option is selected. To force the report users to manually apply slicer changes, select the **Add an apply button to each slicer to apply changes when you are ready** option.
+-   **Slicers** - By default, the **Instantly apply slicer changes** option is selected. To force the report users to manually apply slicer changes, select the **Add an apply button to each slicer to apply changes when you're ready** option.
 
--   **Filters** - By default, the **Instantly apply basic filters** option is selected. To force the report users to manually apply filter changes, select one of the alternative options:
+-   **Filters** - By default, the **Instantly apply basic filter changes** option is selected. To force the report users to manually apply filter changes, select one of the alternative options:
 
-    -   **Add an apply button to all basic filters to apply changes when you are ready**
+    -   **Add an apply button to all basic filters to apply changes when you're ready**
 
     -   **Add a single apply button to the filter pane to apply changes at once (preview)**
 

@@ -37,7 +37,7 @@ By the end of this module, you will be able to:
 
 -   Use variables to improve performance and troubleshooting.
 
--   Improve cardinality levels.
+-   Improve performance by reducing cardinality levels.
 
 -   Optimize DirectQuery models with table level storage.
 

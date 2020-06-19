@@ -21,7 +21,7 @@ quiz:
     - content: The benefit of analyzing the metadata is to get familiar with your data.
       isCorrect: false 
       explanation: The benefit of analyzing the metadata is that you can clearly identify data inconsistences with your dataset.
-    - content: The benefit of analyzing the metadata is to know the number rows, columns and tables being loaded into your model.
+    - content: The benefit of analyzing the metadata is to know the number of rows, columns and tables being loaded into your model.
       isCorrect: false 
       explanation: The benefit of analyzing the metadata is that you can clearly identify data inconsistences with your dataset.
   - content: What can be achieved by removing unnecessary rows and columns?
@@ -43,6 +43,6 @@ quiz:
     - content: No, both columns in a relationship must be sharing the same DATA TYPE.
       isCorrect: true 
       explanation: No, it is not possible to create a relationship between two columns if they are different DATA TYPE columns. Both columns in a relationship must be sharing the same DATA TYPE.
-    - content: Yes, the following is fully supported in latest version of Power BI desktop.
+    - content: Yes, the above is fully supported in latest version of Power BI desktop.
       isCorrect: false 
       explanation: No, it is not possible to create a relationship between two columns if they are different DATA TYPE columns. Both columns in a relationship must be sharing the same DATA TYPE.

@@ -14,10 +14,6 @@ Now that you have optimized the report, users can access the data that they need
 
 [Data reduction techniques for Import modeling](https://docs.microsoft.com/power-bi/guidance/import-modeling-data-reduction#group-by-and-summarize/?azure-portal=true)
 
-Implications of using DirectQuery
-
-Guidance for using DirectQuery successfully
-
 [DirectQuery model guidance in Power BI Desktop](https://docs.microsoft.com/power-bi/guidance/directquery-model-guidance/?azure-portal=true)
 
 [Use aggregations in Power BI Desktop](https://docs.microsoft.com/power-bi/transform-model/desktop-aggregations/?azure-portal=true)
