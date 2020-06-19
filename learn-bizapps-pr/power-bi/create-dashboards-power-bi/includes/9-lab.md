@@ -156,7 +156,7 @@ In this task, you will configure a data alert.
 
 In the next exercise, you'll refresh the dataset. Typically, this should be done by using scheduled refresh, and Power BI could use a gateway to connect to the SQL Server database. However, due to constraints in the classroom setup, there is no gateway. So, you'll opening Power BI Desktop, perform a manual data refresh, and the upload the file.
 
-## Refresh the Dataset
+## Refresh the dataset
 
 In this exercise, you will first load sales order data for June 2020 into the **AdventureWorksDW2020** database, and then add your classroom partner's account to the database.. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
@@ -207,7 +207,7 @@ In this task, you will open the Sales Analysis Power BI Desktop file, perform
 
 1. Remove the **Sales Analysis** report (not dataset).
 
-## Review the Dashboard
+## Review the dashboard for updated sales
 
 In this exercise, you will review the dashboard to notice updated sales, and that the alert was triggered.
 

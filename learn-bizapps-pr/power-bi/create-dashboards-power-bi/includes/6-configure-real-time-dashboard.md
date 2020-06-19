@@ -17,7 +17,7 @@ Data that comes from a streaming dataset is not stored in a Power BI data model;
 
 To visualize streaming data, you need to create a new tile directly on an existing or new dashboard.
 
-To complete this task, go to and open a dashboard and then select **Add Tile**. The following window will appear, where you can select **Custom Streaming Datasets** under **Real-Time Data. **
+To complete this task, go to and open a dashboard and then select **Add Tile**. The following window will appear, where you can select **Custom Streaming Datasets** under **Real-Time Data**.
 
 > [!div class="mx-imgBorder"]
 > [![Add custom streaming dataset tile](../media/06-new-tile-added-ss.png)](../media/06-new-tile-added-ss.png#lightbox)
