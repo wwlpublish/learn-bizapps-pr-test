@@ -2,7 +2,7 @@
 uid: learn-bizapps.get-data 
 metadata: 
  title: Get data in Power BI
- description: This module will focus on getting the data from the different data sources and importing it into Power BI by using Power Query. 
+ description: You will learn how to retrieve data from a wide variety of data sources, including Microsoft Excel, relational databases, and NoSQL data stores. You will also learn how to improve performance while retrieving data.
  ms.date: 06/20/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,7 +11,7 @@ metadata:
 title: Get data in Power BI  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module will focus on getting the data from the different data sources and importing it into Power BI by using Power Query. 
+  You will learn how to retrieve data from a wide variety of data sources, including Microsoft Excel, relational databases, and NoSQL data stores. You will also learn how to improve performance while retrieving data.
 abstract: |  
     By the end of this module, you’ll be able to: 
     - Identify and connect to a data source 
