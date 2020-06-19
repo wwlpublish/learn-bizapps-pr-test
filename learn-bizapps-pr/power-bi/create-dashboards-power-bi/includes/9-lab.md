@@ -109,7 +109,7 @@ In this task, you will edit the details of two tiles.
 1. In the **Tile Details** pane (located at the right), in the **Subtitle** box, enter **FY2020**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Tile details wndow with the Subtitle field highlighted and containing FY2020.](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
+	> [![Screenshot of the Tile details window with the Subtitle field highlighted and containing FY2020.](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
 
 1. At the bottom of the pane, click **Apply**.
 
