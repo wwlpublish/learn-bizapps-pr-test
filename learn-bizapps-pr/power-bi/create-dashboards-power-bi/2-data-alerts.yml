@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.create-dashboards-power-bi.2-data-alerts 
+title: Configure data alerts
+metadata: 
+  title: Configure data alerts 
+  description: Learn how to configure data alerts.  
+  ms.date: 06/30/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-data-alerts.md)] 
