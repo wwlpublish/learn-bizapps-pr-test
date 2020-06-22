@@ -1,8 +1,8 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.10-flow-integrate-powerapps
-title: Integrate Power Apps, Power Automate, and SharePoint
+title: Exercise - Integrate Power Apps, Power Automate, and SharePoint
 metadata: 
-  title: Integrate Power Apps, Power Automate, and SharePoint
+  title: Exercise - Integrate Power Apps, Power Automate, and SharePoint
   description: Learn how to integrate Power Apps, Power Automate, and SharePoint for a solution to efficiently manage business processes and information
   ms.date:  03/04/2020
   author: KevSch

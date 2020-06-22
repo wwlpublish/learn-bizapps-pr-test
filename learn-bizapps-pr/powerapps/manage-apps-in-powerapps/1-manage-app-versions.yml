@@ -1,8 +1,8 @@
 ﻿### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps-manage.1-powerapps-versions
-title: Manage app versions in Power Apps
+title: Exercise - Manage app versions in Power Apps
 metadata:
-  title: Manage app versions in Power Apps
+  title: Exercise - Manage app versions in Power Apps
   description: Learn how to review and restore previous versions of your apps in Power Apps.
   ms.date: 05/08/2020
   author: DaveBeasley

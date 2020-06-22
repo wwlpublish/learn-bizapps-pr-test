@@ -1,8 +1,8 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.6-flow-accepts-user-input
-title:  Build a flow accepts user input when run
+title: Exercise - Build a flow accepts user input when run
 metadata: 
-  title: Build a flow that accepts user input when run
+  title: Exercise - Build a flow that accepts user input when run
   description: Learn to build a flow that accepts information from the user when it is run.
   ms.date:  03/04/2020
   author: KevSch

@@ -1,8 +1,8 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.5-flow-use-tokens
-title: Build a flow that uses information like locations or date
+title: Exercise - Build a flow that uses information like locations or date
 metadata: 
-  title: Build a flow that uses information like location or date
+  title: Exercise - Build a flow that uses information like location or date
   description: Learn to build a flow that uses information already available to the flow, like location or date.
   ms.date:  03/04/2020
   author: KevSch
