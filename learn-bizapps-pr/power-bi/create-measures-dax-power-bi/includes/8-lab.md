@@ -325,7 +325,4 @@ In this task, you will create a sales YoY growth measure.
 
 1. Save the Power BI Desktop file.
 
-	DAX includes many Time Intelligence functions to make it easy to implement time filter manipulations for common business scenarios.
-
-	This exercise completes the data model development. In the next exercise, you will publish the Power BI Desktop file to your workspace, ready for creating a report in the next lab.
-
+	DAX includes many Time Intelligence functions to make it easy to implement time filter manipulations for common business scenarios. This exercise completes the data model development.
