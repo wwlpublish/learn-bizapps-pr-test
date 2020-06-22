@@ -329,10 +329,10 @@ In this task, you will create a sales YoY growth measure.
 
 ## Exercise 3: Publish the Power BI Desktop File
 
+In this exercise, you will publish the Power BI Desktop file to Power BI.
+
     > [!NOTE]
     > The following exercise will require you to login to Power BI service, you can use your existing account or create a trial account before starting this part of the lab.
-
-In this exercise, you will publish the Power BI Desktop file to Power BI.
 
 ### Task 1: Publish the file
 
