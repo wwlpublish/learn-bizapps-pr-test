@@ -240,7 +240,7 @@ In this task, you will create a sales YTD measure.
 	TOTALYTD(SUM(Sales[Sales]), 'Date'[Date], "6-30")
 	```
 
-	The TOTALYTD() function evaluates an expression—in this case the sum of the **Sales** column—over a given date column. The date column must belong to a date table marked as a date table, as you did in **Lab 06A**. The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June in the last month of their year, and so “6-30” is used.
+	The TOTALYTD() function evaluates an expression—in this case the sum of the **Sales** column—over a given date column. The date column must belong to a date table marked as a date table. The function can also take a third optional argument representing the last date of a year. The absence of this date means that December 31 is the last date of the year. For Adventure Works, June in the last month of their year, and so “6-30” is used.
 
 1. Add the **Sales** field and the **Sales YTD** measure to the matrix visual.
 
@@ -329,65 +329,3 @@ In this task, you will create a sales YoY growth measure.
 
 	This exercise completes the data model development. In the next exercise, you will publish the Power BI Desktop file to your workspace, ready for creating a report in the next lab.
 
-## Exercise 3: Publish the Power BI Desktop File
-
-In this exercise, you will publish the Power BI Desktop file to Power BI.
-
-### Task 1: Publish the file
-
-In this task, you will publish the Power BI Desktop file to Power BI.
-
-1. Save the Power BI Desktop file.
-
-	If you’re not confident you completed this lab successfully, you should publish the Power BI Desktop file found in the **D:\DA100\Lab06B\Solution** folder. In this case, close your current Power BI Desktop file, and then open the solution file. First, perform a data refresh (using the **Refresh** command on the ribbon), and then continue with the instructions in this task.
-
-1. To publish the file, on the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
-
-	> [!div class="mx-imgBorder"]
-	> [![click Publish](../media/lab-8-16-ssm.png)](../media/lab-8-16-ssm.png#lightbox)
-
-1. In the **Publish to Power BI** window, select your **Sales Analysis** workspace.
-
-	It’s important that you publish it to the workspace you created in **Lab 01A**, and not “My workspace”.
-
-	> [!div class="mx-imgBorder"]
-	> [![select Sales Analysis workspace](../media/lab-8-17-ssm.png)](../media/lab-8-17-ssm.png#lightbox)
-
-1. Click **Select**.
-
-	> [!div class="mx-imgBorder"]
-	> [![click Select](../media/lab-8-18-ssm.png)](../media/lab-8-18-ssm.png#lightbox)
-
-1. When the file has been successfully published, click **Got It**.
-
-	> [!div class="mx-imgBorder"]
-	> [![click Got It](../media/lab-8-19-ss.png)](../media/lab-8-19-ss.png#lightbox)
-
-1. Close Power BI Desktop.
-
-1. In the Edge, in the Power BI service, in the **Navigation** pane (located at the left), review the contents of your **Sales Analysis** workspace.
-
-	> [!div class="mx-imgBorder"]
-	> [![Sales Analysis workspace contents](../media/lab-8-20-ssm.png)](../media/lab-8-20-ssm.png#lightbox)
-
-	The publication has added a report and a dataset. If you don’t see them, press **F5** to reload the browser, and then expand the workspace again.
-
-	The data model has been published to become a dataset. The report—used to test your model calculations—has been added as a report. This report is not required, so you will now delete it.
-
-1. Hover the cursor over the **Sales Analysis** report, click the vertical ellipsis (…), and then select **Remove**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Remove Sales Analysis report](../media/lab-8-21-ssm.png)](../media/lab-8-21-ssm.png#lightbox)
-
-1. When prompted to confirm the deletion, click **Delete**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Click Delete](../media/lab-8-22-ssm.png)](../media/lab-8-22-ssm.png#lightbox)
-
-	In the next lab, you will create a report based on the published dataset.
-
-### Finish up
-
-In this task, you will complete the lab.
-
-Leave the Edge browser window open.
