@@ -34,8 +34,6 @@ Your business is already using Power Apps. Consider the additional capabilities 
 
 - **Engage mobile workforce** - Empower agents on any device, wherever they work. Field technicians can process and complete work orders in the field, instantly updating Dynamics 365 Field Service.
 
-> [!VIDEO https://youtu.be/5JRHxh48tTc]
-
 ## Power Apps portals capabilities
 
 Power Apps portals are built on top of Common Data Service. This architecture comes with a major benefit. All the differentiating features of model-driven Power Apps are the features of Power Apps portals as well, including:
