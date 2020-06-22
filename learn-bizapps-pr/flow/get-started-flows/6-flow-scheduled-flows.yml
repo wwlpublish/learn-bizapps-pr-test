@@ -1,8 +1,8 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.6-flow-scheduled-flows
-title: Create recurring flows
+title: Exercise - Create recurring flows
 metadata: 
-  title: Create recurring flows
+  title: Exercise - Create recurring flows
   description: Learn how to create flows that are scheduled to run periodically.
   ms.date: 03/06/2020
   author: KevSch

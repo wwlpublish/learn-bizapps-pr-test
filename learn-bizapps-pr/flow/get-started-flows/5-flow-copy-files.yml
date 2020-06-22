@@ -1,8 +1,8 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.5-flow-copy-files
-title: Copy files with flows
+title: Exercise - Copy files with flows
 metadata: 
-  title: Copy files with flows
+  title: Exercise - Copy files with flows
   description: Learn how to copy files from one service to another.
   ms.date: 03/06/2020
   author: KevSch
