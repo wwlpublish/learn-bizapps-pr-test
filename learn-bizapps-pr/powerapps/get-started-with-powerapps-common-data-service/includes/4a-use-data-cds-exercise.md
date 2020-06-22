@@ -84,21 +84,13 @@ exercise. Open the link, and select the Download button and save it locally.
 
 1. Open the file. Notice the “Stage” column is empty, you will need to look these up and enter them manually. 
 1. Go to the [Power Apps home page](https://powerapps.microsoft.com/?azure-portal=true) and sign in to Power Apps.
-1. On the menu, expand **Data** and Select **Entities**, and then select **Option sets**.
-1. Select **Prospect Stage**.
-1. Under Items (4), Select the 3 dots **…** next to Lead.
-1. Select **View more**.
-1. Make a note or write down the number (will be something like 954,130,000) under Value.
-1. Select the 3 dots **…** next to Opportunity.
-1. Make a note or write down the number under Value.
-1. Repeat these steps for the last two stages, **Won** and **Lost**.
 1. Go back to your Excel file and in the Stage column enter the values as below:
-	- **Contoso Flooring**: Enter the value (number) for Won.
-	- **Fabrikam Inc**: Enter the value (number) for Won.
-	- **Adventure Works**: Enter the value (number) for Lead.
-	- **Adatum**: Enter the value (number) for Lead.
-	- **VanArsdel**: Enter the value for Lost.
-	- **Relecloud**: Enter the value for Opportunity.
+	- **Contoso Flooring**: Won.
+	- **Fabrikam Inc**:  Won.
+	- **Adventure Works**: Lead.
+	- **Adatum**: Lead.
+	- **VanArsdel**: Lost.
+	- **Relecloud**: Opportunity.
 1. Save and close the Excel file.
 1. Continue with the **Prospects** entity.
 1. Select the drop-down arrow to the right of **Get data** and select **Get data from Excel**.
