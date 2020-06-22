@@ -3,7 +3,7 @@ uid: learn-bizapps.wwl.power-plat-fundamentals
 metadata:
   title: Microsoft Power Platform Fundamentals
   description: Are you interested in learning about business applications? Start with this learning path to see how Dynamics 365 apps are used. Learn about cloud concepts, Power Platform, and how to get started with Dynamics 365 apps.
-  ms.date: 04/03/2020
+  ms.date: 06/24/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
@@ -25,9 +25,9 @@ products:
 - power-platform
 modules:
 - learn-bizapps.wwl.introduction-power-platform
+- learn-bizapps.wwl.introduction-common-data-service
 - learn-bizapps.wwl.introduction-power-apps
 - learn-bizapps.wwl.build-app-solution
-- learn-bizapps.wwl.introduction-common-data-service
 - learn-bizapps.wwl.introduction-power-automate
 - learn-bizapps.wwl.build-automated-solution
 - learn-bizapps.wwl.introduction-power-bi
