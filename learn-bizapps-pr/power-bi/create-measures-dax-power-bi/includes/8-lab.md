@@ -329,6 +329,9 @@ In this task, you will create a sales YoY growth measure.
 
 ## Exercise 3: Publish the Power BI Desktop File
 
+	> [!NOTE]
+	> The following exercise will require you to login to Power BI service, you can use your existing account or create a trial account before starting this part of the lab."
+
 In this exercise, you will publish the Power BI Desktop file to Power BI.
 
 ### Task 1: Publish the file
@@ -337,16 +340,9 @@ In this task, you will publish the Power BI Desktop file to Power BI.
 
 1. Save the Power BI Desktop file.
 
-	If you’re not confident you completed this lab successfully, you should publish the Power BI Desktop file found in the **D:\DA100\Lab06B\Solution** folder. In this case, close your current Power BI Desktop file, and then open the solution file. First, perform a data refresh (using the **Refresh** command on the ribbon), and then continue with the instructions in this task.
-
 1. To publish the file, on the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
 
-	> [!div class="mx-imgBorder"]
-	> [![click Publish](../media/lab-8-16-ssm.png)](../media/lab-8-16-ssm.png#lightbox)
-
 1. In the **Publish to Power BI** window, select your **Sales Analysis** workspace.
-
-	It’s important that you publish it to the workspace you created in **Lab 01A**, and not “My workspace”.
 
 	> [!div class="mx-imgBorder"]
 	> [![select Sales Analysis workspace](../media/lab-8-17-ssm.png)](../media/lab-8-17-ssm.png#lightbox)
