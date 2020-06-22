@@ -1,8 +1,8 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-get-started.4-flow-get-notifications
-title: Receive text and email notifications from flows
+title: Exercise - Receive text and email notifications from flows
 metadata: 
-  title: Receive text and email notifications from flows
+  title: Exercise - Receive text and email notifications from flows
   description: Learn how to get text and email notifications when you create flows.
   ms.date: 03/06/2020
   author: KevSch
