@@ -669,7 +669,7 @@ In this task, you'll complete the lab.
 	
 	-   Sales
 	
-	-   Targetw
+	-   Targets
 	
 	-   ColorFormats (which won't load to the data model)
 
