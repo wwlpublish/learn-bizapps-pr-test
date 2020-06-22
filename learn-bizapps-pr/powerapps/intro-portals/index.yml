@@ -2,7 +2,7 @@
 uid: learn-bizapps.intro-portals 
 metadata: 
  title: Introduction to Power Apps portals
- description: Extend Common Data Service interaction to external and internal audiences such as customers, partners, and employees. Use portals to set up an interactive, web-based sales, services, support, and social engagement application platform to connect with the customers, engage with communities, manage site content, and empower your channel partners. Empower anyone either inside or outside your organization to securely interact with Common Data Service data using portals.
+ description: Extend Common Data Service interaction to external and internal audiences such as customers, partners, and employees. Use portals to set up an interactive, web-based sales, services, support, and social engagement application platform to connect with customers, engage with communities, manage site content, and empower your channel partners. Empower anyone inside or outside your organization to interact with Common Data Service data by using portals.
  ms.date: 6/30/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,13 +11,13 @@ metadata:
 title: Introduction to Power Apps portals 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Extend Common Data Service interaction to external and internal audiences such as customers, partners, and employees. Use portals to set up an interactive, web-based sales, services, support, and social engagement application platform to connect with the customers, engage with communities, manage site content, and empower your channel partners. Empower anyone either inside or outside your organization to securely interact with Common Data Service data using portals.
+  Extend Common Data Service interaction to external and internal audiences such as customers, partners, and employees. Use portals to set up an interactive, web-based sales, services, support, and social engagement application platform to connect with customers, engage with communities, manage site content, and empower your channel partners. Empower anyone inside or outside your organization to interact with Common Data Service data by using portals.
 abstract: |  
     In this module, you will: 
-    - Identify the capabilities of portal solutions
-    - Describe portal provisioning process
-    - Understand the Power Apps portals core components and tools 
-    - Explain how to control user access to portal content and Common Data Service data
+    - Identify the capabilities of portal solutions.
+    - Review the portal provisioning process.
+    - Learn about Power Apps portals core components and tools.
+    - Discover how to control user access to portal content and Common Data Service data.
 prerequisites: A basic understanding of how to navigate and customize model-driven apps. 
 iconUrl: /learn/achievements/intro-portals.svg  
 levels:  

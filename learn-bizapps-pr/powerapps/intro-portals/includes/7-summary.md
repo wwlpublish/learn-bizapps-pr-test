@@ -1,11 +1,11 @@
-Power Apps portals extends Common Data Service access to external parties like customers, employees, or partners. This allows for businesses to extend and scale their operations as they reduce call center costs, manual processing, resolution times while at the same time improving end user satisfaction, transparency and scale of operations.
+Power Apps portals extends Common Data Service access to external audiences such as customers, employees, or partners. This access allows businesses to extend and scale their operations as they reduce call center costs, manual processing, and resolution times while simultaneously improving user satisfaction, transparency, and scale of operations.
 
-Let's have a quick look at what we have covered in this module:
+This module covered the following concepts:
 
-- We reviewed business scenarios where Power Apps portals can add value to both customer Power Platform and Dynamics 365 solutions.
-- We looked at some core records for the content and data access: web pages, templates, entity forms and entity lists.
-- We discussed the fundamentals of portals security and what methods are used to control access to the content and data.
+- Business scenarios where Power Apps portals can add value to customer Power Platform and Dynamics 365 solutions.
+- Core records for the content and data access: webpages, templates, entity forms, and entity lists.
+- Fundamentals of portals security and which methods are used to control access to the content and data.
 
 ## Next steps
 
-In the next module you will discover how to get started using portal templates and learn about individual features included in each of the available portal templates.
+In the next module, you will discover how to get started using portal templates, and you will learn about individual features that are included in each of the available portal templates.
