@@ -10,7 +10,8 @@ To apply the AI insights to your data, open Power Query Editor and select the **
 > [!div class="mx-imgBorder"]
 > [![AI Insights options in Power Query Editor](../media/10-ai-insights-options-ssm.png)](../media/10-ai-insights-options-ssm.png#lightbox)
 
-NOTE: If you do not see these options, you need to enable the **AI Insights** feature in the Power BI Desktop settings. Go to **File** > **Options and Settings** > **Options**. In the **Global** options list, select **Preview Features**, then select the check box for the **AI Insights function browser** option, and then select **OK**.
+> [!NOTE]
+> If you do not see these options, you need to enable the **AI Insights** feature in the Power BI Desktop settings. Go to **File** > **Options and Settings** > **Options**. In the **Global** options list, select **Preview Features**, then select the check box for the **AI Insights function browser** option, and then select **OK**.
 
 > [!div class="mx-imgBorder"]
 > [![Enable AI Insights feature](../media/10-enable-ai-insights-feature-ssm.png)](../media/10-enable-ai-insights-feature-ssm.png#lightbox)
