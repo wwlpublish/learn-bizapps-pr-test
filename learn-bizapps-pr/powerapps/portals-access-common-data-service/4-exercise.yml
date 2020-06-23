@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-access-common-data-service.4-exercise 
+title: Exercise - Use entity list and entity form
+metadata: 
+  title: Exercise - Use entity list and entity form 
+  description: Learn how to use entity list and entity form.  
+  ms.date: 07/06/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-exercise.md)] 
