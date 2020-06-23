@@ -53,6 +53,8 @@ Timer control.
 
 2.  Set the **Duration** property to 10000 (milliseconds).
 
+1. Set the **Auto start** to **On**.
+
 3.  Set the **OnTimerEnd** property to
 
 ```
