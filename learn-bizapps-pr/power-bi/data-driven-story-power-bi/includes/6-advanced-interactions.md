@@ -1,0 +1,103 @@
+To ensure you have full control over the behavior of your report and can determine the expected user experience, you can edit the default interactions and use the drill-through features.
+
+## Edit interactions
+
+You can use visual interaction controls to customize how the visualizations on your report page impact each other, in order words, filter and highlight each other.
+
+For example, when you select an item in a visual, the other visuals update to display data for that item. They might be highlighting or filtering the selected data. You can stop this from happening, or change a highlight action to a filter action and vice versa. Therefore, you have the power to determine what data is displayed for a specific selection that you've made.
+
+To enable the visual interaction controls, select a visualization then go to the **Format** tab in the ribbon and select **Edit interactions**.
+
+> [!div class="mx-imgBorder"]
+> [![Edit interactions option](../media/6-edit-interactions-button-option-ssm.png)](../media/6-edit-interactions-button-option-ssm.png#lightbox)
+
+The **Edit interactions** button turns grey to show that is enabled, and **Filter**, **Highlight** and/or **None** icons are added to the other visualizations on the report page. When you hover over an icon, a grey box displays over the related visual. The bolded icon is the one that is being applied. In the following image, you can see that the tree map is cross-filtering the card visuals, and it is cross-highlighting the column chart. You can now change how the selected visualization interacts with the other visualizations on the report page.
+
+> [!div class="mx-imgBorder"]
+> [![View interactions](../media/6-view-interactions-ssm.png)](../media/6-view-interactions-ssm.png#lightbox)
+
+You can now select each visualization on your report page, one at a time, to see how it interacts with the other visualizations. If you do not like the behavior that you see, you can change the interactions. These changes are saved with the report, so your report users will have the same visual interaction experience as you do.
+
+In the following example, you can see that all elements get updated once the Components category is selected. You can compare this image to the first image in this unit, when no category was selected.
+
+> [!div class="mx-imgBorder"]
+> [![Visual interactions when one element is selected](../media/6-visual-interactions-one-element-ss.png)](../media/6-visual-interactions-one-element-ss.png#lightbox)
+
+To change an interaction of a selected visual, select the required interaction icon. Remember, the applied interaction is bold. In the following image:
+
+-   The selected interaction is cross-highlight because the **Highlight** icon is bolded.
+
+-   You can change the interaction to cross-filter by selecting the **Filter** icon.
+
+-   You can remove the interaction altogether by selecting the **None** icon.
+
+> [!div class="mx-imgBorder"]
+> [![Change interactions](../media/6-change-interactions-ssm.png)](../media/6-change-interactions-ssm.png#lightbox)
+
+Keep in mind that the number of interactions between your visuals will impact on the performance of your report. To optimize the performance of your report, you should consider the query reduction options that are available within Power BI Desktop. You have the option to send fewer queries (which will reduce query chattiness) by disabling cross highlighting/filtering by default. You can also disable certain interactions that would result in a poor experience, if the resulting queries take a long time to run.
+
+You access the query reduction settings by selecting **File** > **Options and settings** > **Options**, then scrolling down and selecting the **Query reduction** option.
+
+> [!div class="mx-imgBorder"]
+> [![Access query reduction settings](../media/6-query-reduction-settings-ssm.png)](../media/6-query-reduction-settings-ssm.png#lightbox)
+
+## Drill through
+
+You can use the drill through feature to create a page in your report that focuses on a specific entity, such as a product, category, or region. You can then access this page when you drill through from the related visuals that are on other pages in your report. The information that displays on the drill through page will be specific to the item you select on the visual, as illustrated in the following image:
+
+> [!div class="mx-imgBorder"]
+> [![Drill through example](../media/6-drill-through-example-ssm.png)](../media/6-drill-through-example-ssm.png#lightbox)
+
+In this example, you create a drill through for the product category entity. You start by creating a page in your report and rename it to *Detail Page*. On that page, you add a visual for the entity that you want to provide the drill through for (a table that displays data for the **Category**, **SubCategory**, **Country** and **Gross Sales and Net Sales** fields).
+
+> [!div class="mx-imgBorder"]
+> [![Drill through detail page](../media/6-drill-through-detail-page-ss.png)](../media/6-drill-through-detail-page-ss.png#lightbox)
+
+Then, from **Values** section of the **Visualizations** pane, drag the field (**Category Name**) for which you want to enable drill through into the **Drill-through filters** well.
+
+> [!div class="mx-imgBorder"]
+> [![Drag Category name from values section to drill-through filters](../media/6-drag-category-name-drill-through-filters-ss.png)](../media/6-drag-category-name-drill-through-filters-ss.png#lightbox)
+
+Ensure the **Keep all filters** option is set to **ON**, so when you drill through from a visual, the same filters will be applied on **Details** page.
+
+Power BI Desktop automatically creates a **Back** button visual on the page for you. This button is for navigation purposes, so your report users can get back to the report page from which they came. You can reposition and resize this button on the report page or replace it with your own type of button.
+
+> [!div class="mx-imgBorder"]
+> [![Back button](../media/6-back-button-ssm.png)](../media/6-back-button-ssm.png#lightbox)
+
+To use drill through, you right-click a data point on a visual in another report page, select **drill through**, then select the focused page (**Details page**) to get details that are filtered to that context.
+
+> [!div class="mx-imgBorder"]
+> [![alt text](../media/6-select-drill-through-context-menu-ssm.png)](../media/6-select-drill-through-context-menu-ssm.png#lightbox)
+
+## Cross-report drill through
+
+The **Cross-report drillthrough** feature allows you to contextually jump from one report to another report in the same Power BI service workspace or app, so you can connect two or more reports that have related content. You can also pass filter context along with that cross-report connection.
+
+For example, you can select a data point on a visual in one report, then drillthrough to related, detailed information that is in another report.
+
+> [!div class="mx-imgBorder"]
+> [![Cross-report drillthrough example](../media/6-cross-report-drill-through-example-ssm.png)](../media/6-cross-report-drill-through-example-ssm.png#lightbox)
+
+To enable cross-report drillthrough, you first need to validate the data models for the source and target reports. Although the schemas in each report don't have to be the same, both data models must contain the fields you want to pass. Also, the names of those fields, and the names of the tables they belong to, must be identical. The strings must match, and are case-sensitive. If that is not the case, you must update the field name or table name in the underlying model.
+
+When you have validated your data models, you need to enable the **Cross-report drillthrough** feature in Power BI Desktop. Go to **File** > **Options and settings** > **Options**, then scroll down the **Current File** settings and select **Report settings**. In the **Cross-report drillthrough** section, select the check box for **Allow visuals in this report to use drillthrough targets from other reports** and select **OK**.
+
+> [!div class="mx-imgBorder"]
+> [![Enable cross-report drillthrough](../media/6-enable-cross-report-drill-through-ssm.png)](../media/6-enable-cross-report-drill-through-ssm.png#lightbox)
+
+> [!NOTE]
+> The **Cross-report drillthrough** feature can also be enabled/disabled in the report settings in the Power BI Service.
+
+Next, you set up a target page for the cross-report drillthrough, in the same way you set up a page for a drillthrough within a report in the previous section. The other visuals will target that page for drillthrough.
+
+When you have set up the target page, go to the **Drillthrough** section of the **Visualizations** pane and set the **Cross-report** option to the **On** position. Then drag the fields you want to use as drillthrough targets into the **Drill-through filters** well. For each field, select whether you want to allow drillthrough when the field is used as a category, or when it's summarized like a measure.
+
+> [!div class="mx-imgBorder"]
+> [![Select fields for cross-report drillthrough](../media/6-select-fields-cross-report-drill-through-ssm.png)](../media/6-select-fields-cross-report-drill-through-ssm.png#lightbox)
+
+Select whether you want the **Keep all filters** option **On** or **Off** for the visual. If you don't want to pass filters applied to the source visual to your target visual, select **Off**.
+
+Just like when you create a drillthrough for a single report, Power BI Desktop automatically adds a **Back** button to the target drillthrough page. In this case though, you should delete the **Back** button because it only works for navigation within a report.
+
+When you save and publish your changes, you can use cross-report drillthrough. Select the source report in the Power BI service, and then select a visual that uses the drillthrough field in the way you specified when you set up the target page. Right-click a data point on the visual, select **Drillthrough**, and then select the drillthrough target. You'll see that cross-report drillthrough targets are formatted as Page name [Report name].
