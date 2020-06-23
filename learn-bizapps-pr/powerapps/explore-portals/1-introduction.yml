@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.explore-portals.1-introduction
-title: Introduction to Starter portal
+title: Introduction to portal templates
 metadata: 
-  title: Introduction to Starter portal 
-  description: Select a starter portal in the Admin Center. 
+  title: Introduction to portal templates
+  description: Select a portal template in the Admin Center. 
   ms.date: 06/30/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
