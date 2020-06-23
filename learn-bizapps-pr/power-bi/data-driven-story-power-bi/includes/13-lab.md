@@ -287,9 +287,6 @@ When detailed instructions have already been provided in the labs, the lab steps
 
 1. In the **Filters** pane (located at the left of the **Visualizations** pane), notice the **Filter On This Page** well (you may need to scroll down).
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Filters on the page well.](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
-
 1. From the **Fields** pane, drag the **Product | Category** field into the **Filter On This Page** well.
 
 1. Inside the filter card, at the top-right, click the arrow to collapse the card.
@@ -327,9 +324,6 @@ In this task, you will design the third and final report page. When you've compl
 1. To simulate the row-level security filters during report design and testing, add the **Salesperson (Performance) | Salesperson** field to the **Filters** pane, inside the **Filters On This Page** well.
 
 1. In the filter card, scroll down the list of salespeople, and then check **Michael Blythe**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Saleperson filter card.](../media/lab-33-ssm.png)](../media/lab-33-ssm.png#lightbox)
 
 1. Add a dropdown slicer based on the **Date | Year** field, and then resize and reposition it so it sits at the top-left corner of the page.
 
