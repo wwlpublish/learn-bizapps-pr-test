@@ -1,0 +1,85 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-metadata.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/06/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which record defines the header and the footer for the entire site?
+    choices: 
+    - content: Website
+      isCorrect: true 
+      explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
+    - content: Website Binding
+      isCorrect: false 
+      explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
+    - content: Page Template
+      isCorrect: false 
+      explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
+    - content: Site Setting
+      isCorrect: false 
+      explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
+  - content: In a single language portal, how many Webpage records exist for each portal page?
+    choices: 
+    - content: 0
+      isCorrect: false 
+      explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
+    - content: 1
+      isCorrect: false 
+      explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
+    - content: 2
+      isCorrect: true 
+      explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
+    - content: Between 0 and 2, depending if the page is published or not
+      isCorrect: false 
+      explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
+  - content: Which template type supports inheritance?
+    choices: 
+    - content: Rewrite Template
+      isCorrect: false 
+      explanation: Web Template can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. 
+    - content: Nested Template
+      isCorrect: false 
+      explanation: Web Template can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. 
+    - content: Web Template
+      isCorrect: true 
+      explanation: Web Template can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. 
+    - content: All template types support inheritance
+      isCorrect: false 
+      explanation: Web Template can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. 
+  - content: What template language is integrated into Power Apps portals?
+    choices: 
+    - content: Solid
+      isCorrect: false 
+      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+    - content: Liquid
+      isCorrect: true 
+      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+    - content: HTML
+      isCorrect: false 
+      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+    - content: JavaScript
+      isCorrect: false 
+      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+  - content: Which component cannot be added from the Portal Studio but can from the Portal Management app?
+    choices: 
+    - content: Entity Lists
+      isCorrect: false 
+      explanation: Entity Lists, Images (web files), and Power BI reports can be added as components from the Portal studio.  Web Forms need to be added via the Portal Management App.
+    - content: Web Forms
+      isCorrect: true 
+      explanation: Entity Lists, Images (web files), and Power BI reports can be added as components from the Portal studio.  Web Forms need to be added via the Portal Management App.
+    - content: Images
+      isCorrect: false 
+      explanation: Entity Lists, Images (web files), and Power BI reports can be added as components from the Portal studio.  Web Forms need to be added via the Portal Management App.
+    - content: Embedded Power BI Reports
+      isCorrect: false 
+      explanation: Entity Lists, Images (web files), and Power BI reports can be added as components from the Portal studio.  Web Forms need to be added via the Portal Management App.
