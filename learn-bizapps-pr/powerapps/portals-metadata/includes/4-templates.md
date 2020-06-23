@@ -19,7 +19,7 @@ To create custom page templates, Web Template can be used. Web template, in gene
 
 Web Templates are very flexible. They can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. Web template can be used to render a standalone fragment of HTML such as page breadcrumbs, the entire custom page, or create custom headers and footers for your portal website.
 
-Since the web template defines the content that gets delivered to the client, oftentimes a functional consultant would engage a designer or developer to add CSS or JavaScript to extend a web template and add client-side functionality to the generated page.
+Since the web template defines the content that gets delivered to the client, often a functional consultant would engage a designer or developer to add CSS or JavaScript to extend a web template and add client-side functionality to the generated page.
 
 > [!div class="mx-imgBorder"]
 > [![Web Templates](../media/4-web-templates-ss.png)](../media/4-web-templates-ss.png#lightbox)
