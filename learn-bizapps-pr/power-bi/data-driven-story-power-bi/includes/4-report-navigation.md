@@ -19,13 +19,13 @@ Now when you select a button, you are brought directly to the assigned page dest
 
 -   Select **Back** button from the main **Buttons** menu, then reposition the button to where you want it to sit on the page.
 
-> [!div class="mx-imgBorder"]
-> [![Add default back button](../media/4-add-default-back-button-ssm.png)](../media/4-add-default-back-button-ssm.png#lightbox)
+	> [!div class="mx-imgBorder"]
+	> [![Add default back button](../media/4-add-default-back-button-ssm.png)](../media/4-add-default-back-button-ssm.png#lightbox)
 
 -   Select **Blank** button from the main **Buttons** menu, reposition and customize the button as required, then select **Back** as the action type.
 
-> [!div class="mx-imgBorder"]
-> [![Add customized back button](../media/4-add-customized-back-button-ssm.png)](../media/4-add-customized-back-button-ssm.png#lightbox)
+	> [!div class="mx-imgBorder"]
+	> [![Add customized back button](../media/4-add-customized-back-button-ssm.png)](../media/4-add-customized-back-button-ssm.png#lightbox)
 
 ## Conditionally set the navigation destination
 

@@ -61,7 +61,7 @@ It is best practice to place the most important visual in the top-left corner of
 
 To move a visualization, select any area of the visualization and then drag it to the new location.
 
-To evenly distribute distance between visuals located on the canvas, you can also use the **Align** function. Use **CTRL**+click to select all of the visuals that you want to align, then select the **Format** tab and select **Distribute horizontally. **
+To evenly distribute distance between visuals located on the canvas, you can also use the **Align** function. Use **CTRL**+click to select all of the visuals that you want to align, then select the **Format** tab and select **Distribute horizontally**.
 
 > [!div class="mx-imgBorder"]
 > [![Page alignment options on Format tab](../media/2-page-alignment-options-ssm.png)](../media/2-page-alignment-options-ssm.png#lightbox)
@@ -100,7 +100,7 @@ To improve the process of creating reports with screen readers, a context menu i
 
 ### Accessibility standards
 
-Power BI is committed to accessibility standards under the Web Content Accessibility Guidelines. (WCAG) The standards help ensure that your Power BI experiences are accessible to as many people as possible. When you build accessible reports or dashboards, that content is accessible for anyone who views them using Power BI Mobile
+Power BI is committed to accessibility standards under the Web Content Accessibility Guidelines. (WCAG) The standards help ensure that your Power BI experiences are accessible to as many people as possible. When you build accessible reports or dashboards, that content is accessible for anyone who views them using Power BI Mobile.
 
 Web Content Accessibility Guidelines (WCAG) help make web content accessible to people with disabilities. The following are key principles of the guidelines:
 

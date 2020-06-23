@@ -311,7 +311,7 @@ When detailed instructions have already been provided in the labs, the lab steps
 
 1. Save the Power BI Desktop file.
 
-	The design of the second page is now complete.
+The design of the second page is now complete.
 
 ### Design page 3
 
@@ -445,7 +445,7 @@ In this task, you will explore the **Sales Report** in the Power BI service.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the filter icon.](../media/lab-45-ssm.png)](../media/lab-45-ssm.png#lightbox)
 
-The filter icon allows you to understand all filters that are applied to the visual, including slicers and cross filters from other visual.
+	The filter icon allows you to understand all filters that are applied to the visual, including slicers and cross filters from other visual.
 
 1. Hover the cursor over a bar, and then notice the tooltip information.
 
@@ -456,7 +456,7 @@ The filter icon allows you to understand all filters that are applied to the vis
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the In Focus icon.](../media/lab-46-ssm.png)](../media/lab-46-ssm.png#lightbox)
 
-In focus mode zooms the visual to full page size.
+	In focus mode zooms the visual to full page size.
 
 1. Hover the cursor over different segments of the pie charts to reveal tooltips.
 

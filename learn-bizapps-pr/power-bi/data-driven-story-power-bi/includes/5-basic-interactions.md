@@ -9,12 +9,12 @@ When you have multiple visuals on the same report page, they all interact with e
 Compare the following two images. In the first image, the data displays at a high level. 
 
 > [!div class="mx-imgBorder"]
-> [![Compare interactions high level](../media/5-compare interactions-high-level-ssm.png)](../media/5-compare interactions-high-level-ssm.png#lightbox)
+> [![Compare interactions high level](../media/5-compare-interactions-high-level-ssm.png)](../media/5-compare-interactions-high-level-ssm.png#lightbox)
 
 When you select an element in a visual, such as **Components** in the **Product Category** visual, the other visuals update to reflect your selection, as illustrated in the second image.
 
 > [!div class="mx-imgBorder"]
-> [![Compare interactions after selecting an element in visual](../media/5-compare interactions-after-ssm.png)](../media/5-compare interactions-after-ssm.png#lightbox)
+> [![Compare interactions after selecting an element in visual](../media/5-compare-interactions-after-ssm.png)](../media/5-compare-interactions-after-ssm.png#lightbox)
 
 When you have become familiar with the interactions, you might want to make changes in order to control how those interactions flow between the visuals. You'll learn how to do this in the next unit.
 

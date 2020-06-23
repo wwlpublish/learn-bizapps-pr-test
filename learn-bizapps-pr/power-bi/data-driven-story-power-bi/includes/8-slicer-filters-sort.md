@@ -1,6 +1,6 @@
 Power BI Desktop provides three tools that you can use to edit and configure interactions between the visualizations you add to your report: slicers, filters and sorting.
 
-The process of filtering allows you to remove all of the data you do not need, so you can focus on the data that you do need. You can apply filtering directly using the **Filters** pane, or by adding and using a slicer. Slicers and filters are similar -- they both let you filter out the unnecessary data. You should try out both options to see which one is the best mechanism for your report situation. You might decide to use one option over the other, or use a combination of both.
+The process of filtering allows you to remove all of the data you do not need, so you can focus on the data that you do need. You can apply filtering directly using the **Filters** pane, or by adding and using a slicer. Slicers and filters are similar, they both let you filter out the unnecessary data. You should try out both options to see which one is the best mechanism for your report situation. You might decide to use one option over the other, or use a combination of both.
 
 Contrary to filtering, the process of sorting allows you to highlight the important information without removing any of the data.
 
