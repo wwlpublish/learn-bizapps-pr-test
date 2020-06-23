@@ -9,10 +9,12 @@ Select the component from the toolbelt to add it to the web page canvas. Dependi
 
 | Component | Description |
 | --------- | ----------- |
-| Section layout | These components will allow the maker to place one, two, or three column section on a page.  Additional components can be embedded within the sections. |
+| Section layout | These components will allow the maker to place one, two or three column section on a page.  Additional components can be embedded within the sections. |
 | Text | Places a static text box on the web page. |
 | Image | Places and image control on the page.  A maker can choose an existing image or upload a new image.  The image file will be stored as an attachment of the web file record in the portal metadata. |
-| Iframe | The Iframe will embed a particular URL from another web site or application.  One example could be to embed a Power Virtual Agent bot onto the portal page |
-| Form | The component will display a form based on a model-driven form a specific Common Data Service record |
+| IFrame | The IFrame will embed a particular URL from another web site or application.  One example could be to embed a Power Virtual Agent bot onto the portal page |
+| Form | The component will display a from based on a model-driven form form a specific Common Data Service record |
 | List | The list component will display a view based on model-driven view from specific Common Data Service records |
 | Breadcrumb | The Breadcrumb will display a navigational path based on the web page hierarchy in the portal |
+| Power BI | The Power BI component will allow you to add Power BI dashboards and reports for your customers or your internal employees, or surface a public facing Power BI web report. |
+Other components such as headings, buttons, web forms, hyperlinks, etc can be added to a page directly using the code editor.
