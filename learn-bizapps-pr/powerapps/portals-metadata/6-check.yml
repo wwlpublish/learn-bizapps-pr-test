@@ -29,13 +29,13 @@ quiz:
       explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
   - content: In a single language portal, how many Webpage records exist for each portal page?
     choices: 
-    - content: 0
+    - content: '0'
       isCorrect: false 
       explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
-    - content: 1
+    - content: '1'
       isCorrect: false 
       explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
-    - content: 2
+    - content: '2'
       isCorrect: true 
       explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
     - content: Between 0 and 2, depending if the page is published or not

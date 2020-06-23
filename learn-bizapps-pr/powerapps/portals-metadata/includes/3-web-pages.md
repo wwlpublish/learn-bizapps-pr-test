@@ -42,8 +42,6 @@ Every Webpage, even in a single language portal, will have a root Webpage and a 
 
 When a Webpage is first created, all properties like name, partial URL, template, and so on, are saved in the root record. Content entries are created per language, and the page properties are copied across. After that, page properties and the page content are managed on the Content web page record. Pages in different languages can have not only different content, but also a different template, expiration date, navigation, author, they can be published on different dates, etc.
 
-![](../media/6-3.child-pages.png)
-
 > [!div class="mx-imgBorder"]
 > [![Content pages](../media/3-child-pages-ss.png)](../media/3-child-pages-ss.png#lightbox)
 
