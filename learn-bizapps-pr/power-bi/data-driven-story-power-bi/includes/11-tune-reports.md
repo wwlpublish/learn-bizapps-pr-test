@@ -29,10 +29,10 @@ A common reason for poor performance is too many visuals on the same page. In th
 
 If you identify visuals as the bottleneck leading to poor performance, you can take the following steps to tune the report:
 
--   Reduce the number of visuals on the report page; less visuals means better performance. If a visual is not really necessary and does not add value to the end-user, should remove it. Rather than using multiple visuals on the page, consider other ways to provide additional details, such as drillthrough pages and report page tooltips.
+-   Reduce the number of visuals on the report page; fewer visuals means better performance. If a visual is not necessary and does not add value to the end user, should remove it. Rather than using multiple visuals on the page, consider other ways to provide additional details, such as drillthrough pages and report page tooltips.
 
 -   Reduce the number of fields in each visual. The upper limit for visuals is 100 fields, so a visual with more than 100 fields will be slow to load (and look cluttered and confusing). Identify fields that are not valuable to the visual and remove them.
 
 If you find that visuals are not causing the performance issues, you should take a close look at the DAX Query results that are displayed in the **Performance analyzer** pane, and investigate further into those. For example, you might need to look elsewhere in your data model, such as the relationships and columns.
 
-When you have made all your changes to performance tune the report, and you believe the report is performing well from your perspective but some users are experiencing poor performance, there might be other factors impacting on the performance. These factors include the bandwidth, server, firewall and other external, uncontrollable factors. You might need to speak to the Information Technology (IT) Team in your organization, to see if they can shed any light on why users are experiencing poor performance when using your reports.
+When you have made all your changes to performance tune the report, and you believe the report is performing well from your perspective but some users are experiencing poor performance, there might be other factors impacting on the performance. These factors include the bandwidth, server, firewall, and other external, uncontrollable factors. You might need to speak to the Information Technology (IT) Team in your organization, to see if they can shed any light on why users are experiencing poor performance when using your reports.

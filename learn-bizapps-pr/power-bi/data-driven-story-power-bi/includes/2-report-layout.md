@@ -8,19 +8,19 @@ For example, if your report users have a technical background and are looking fo
 
 Even if you have been given some layout requirements, you still need to carefully consider the audience of your report. Your goal is to provide the audience with the information they need, in the most optimal way. While you may have strong feelings towards what to data to display and how to display it, ultimately the report is not for you, it is for a dedicated audience that needs to make business decisions based on your report.
 
-It is also important to consider the different needs that the end-users within that audience may have. End-users of your report might have hearing, motor, cognitive, or visual impairment. To cater for those needs, you'll have to create a report that offers an accessible experience, which means it is easy to navigate and understand by keyboard or screen reader users. You'll learn more about design and configuring your report for accessibility that later in this unit.
+It is also important to consider the different needs that the end users within that audience may have. End users of your report might have hearing, motor, cognitive, or visual impairment. To cater for those needs, you'll have to create a report that offers an accessible experience, which means it is easy to navigate and understand by keyboard or screen reader users. You'll learn more about design and configuring your report for accessibility that later in this unit.
 
 You also need to carefully consider each visual and element that you plan on using in the report. Everything should have a purpose, and you should consider how each element will look to your report users. While you might want to use lots of different types visuals for the sake of variety or to show off your skillset, sometimes a simple visual is all that you need. It's likely that your organization will have style guidelines for reports, in which case you'll have to adhere to particular color scheme and font. Do keep in mind also that the more visuals you use in your report, the more they impact on the performance of your report. You'll take a close look at visuals later in this unit.
 
 Here are some other key guidelines for creating a well-designed report layout:
 
--   Draw a sketch of your report layout, so you can get a quick picture of what'll look like, before you spend lots of time physically designing it. You could even draw multiple sketches where you try out different ideas, then discuss these ideas with your team to help you choose the best layout design.
+-   Draw a sketch of your report layout, so you can get a quick picture of what will look like, before you spend lots of time physically designing it. You could even draw multiple sketches where you try out different ideas, then discuss these ideas with your team to help you choose the best layout design.
 
 -   Focus on the most important information. Highlight key parts of your report with a bright color or summary icon, so that it stands out, and users drawn to the most critical metrics.
 
--   Select the right background for the context of your report. It is said that a white background makes your report look clean and business-like, a black background draws the eye to colorful highlights on the report, and an image used as a background adds a lot of feeling.
+-   Select the right background for the context of your report. It is said that a white background makes your report look clean and business-like, a black background draws the eye to colorful highlights on the report, and an image used as a background adds numerous feeling.
 
-The following image depicts an example of a badly designed layout; something you should avoid. At the end of this unit you will see the same report but with an improved design.
+The following image depicts an example of a badly designed layout; something you should avoid. At the end of this unit, you will see the same report but with an improved design.
 
 > [!div class="mx-imgBorder"]
 > [![Example of bad report designt](../media/2-example-bad-report-design-ss.png)](../media/2-example-bad-report-design-ss.png#lightbox)
@@ -43,13 +43,13 @@ To access the page settings, select the white space on your report canvas to ope
 
 ### Visuals 
 
-You might want to use a combination of visuals in your report, such as cards, charts, tables, slicers and so on. It is important to use the right number of visuals on a page, and then size and position those visuals in the best way.
+You might want to use a combination of visuals in your report, such as cards, charts, tables, slicers, and so on. It is important to use the right number of visuals on a page, and then size and position those visuals in the best way.
 
 #### Number of visuals
 
-Consider the number of visuals (including slicers) that you want to use on each report page. More visuals might have the opposite effect to what you are trying to achieve -- your report might look too busy, and users might feel overwhelmed and not know where to look. Also, visuals are a key factor in the performance of your report -- they contribute to performance issues. The less visuals you use, the better performance you'll get.
+Consider the number of visuals (including slicers) that you want to use on each report page. More visuals might have the opposite effect to what you are trying to achieve, your report might look too busy, and users might feel overwhelmed and not know where to look. Also, visuals are a key factor in the performance of your report, they contribute to performance issues. The fewer visuals you use, the better performance you'll get.
 
-It's best to limit the number of visuals you use on a page. Examine each visual and ask yourself if it is really necessary. If a visual does not add any value to the end-user, you should not use it in your report.
+It's best to limit the number of visuals you use on a page. Examine each visual and ask yourself if it is necessary. If a visual does not add any value to the end user, you should not use it in your report.
 
 Rather than using multiple visuals, you can provide information in other ways, such as drill through pages and report page tooltips. You'll learn more about these in subsequent units in this module.
 
@@ -57,7 +57,7 @@ Rather than using multiple visuals, you can provide information in other ways, s
 
 When you add visualizations to a report, you can move those visuals to specific locations on the page, and make them bigger or smaller for a more effective display.
 
-It is best practice to place the most important visual in the top left corner of your report, as your report users will most likely from read left to right, and top to bottom. You might also want to place your organization's logo in or near this area. You can then arrange the other visuals accordingly.
+It is best practice to place the most important visual in the top-left corner of your report, as your report users will most likely from read left to right, and top to bottom. You might also want to place your organization's logo in or near this area. You can then arrange the other visuals accordingly.
 
 To move a visualization, select any area of the visualization and then drag it to the new location.
 
@@ -73,13 +73,13 @@ The visuals will be evenly distributed against each other.
 
 #### Size of visuals
 
-When you add a visual to a report, Power BI determines the size of that visual by default. You can resize that visual to present the information it displays in the most optimal way. For example, if it is a small car visual, you might want to make it even smaller. Similarly, if it is a scatter chart visual with a lot of data, you might want to make that visual a larger size, so users can see the data more clearly.
+When you add a visual to a report, Power BI determines the size of that visual by default. You can resize that visual to present the information it displays in the most optimal way. For example, if it is a small car visual, you might want to make it even smaller. Similarly, if it is a scatter chart visual with much data, you might want to make that visual a larger size, so users can see the data more clearly.
 
 To resize a visual, select the visual to display its border, then and click and drag the dark frame handles to the size you want it to be.
 
 #### Interaction of visuals
 
-The visuals that you add to your report will interact with each other. For example, when you select an element in one visual, such as a product category, the other visuals will update in relation to that element -- they might highlight or filter the specific data they display. Therefore, when you are designing the report, it is important to understand these interactions and consider how they might affect the overall user experience of the report. You have control over how interactions flow between the visuals -- you might want to change a filter action to a highlight, and vice versa, or even prevent an interaction from happening. You'll learn how to do this later in this module.
+The visuals that you add to your report will interact with each other. For example, when you select an element in one visual, such as a product category, the other visuals will update in relation to that element, they might highlight or filter the specific data they display. Therefore, when you are designing the report, it is important to understand these interactions and consider how they might affect the overall user experience of the report. You have control over how interactions flow between the visuals, you might want to change a filter action to a highlight, and vice versa, or even prevent an interaction from happening. You'll learn how to do this later in this module.
 
 #### Hierarchies in visuals
 
@@ -184,7 +184,7 @@ To turn Markers on, in the **Format** pane, expand the **Shapes** section, then 
 
 To make your reports even more accessible, you should ensure that there is enough contrast between the text and any background colors; the contrast ratio should be at least 4.5:1. There are several tools that you can use to check your report colors, such as Color Contrast Analyzer, WebAIM, and Accessible Colors.
 
-You should also consider that some report viewers might have color vision deficiencies. Using fewer colors or a monochrome palette in your report can help mitigate creating reports that are inaccessible. The following color combinations are particularly difficult for users with color vision deficiencies to distinguish, so you should avoid using them together in a chart, or on the same report page.
+You should also consider that some report viewers might have color vision deficiencies. Using fewer colors or a monochrome palette in your report can help mitigate creating reports that are inaccessible. The following color combinations are difficult for users with color vision deficiencies to distinguish, so you should avoid using them together in a chart, or on the same report page.
 
 -   green and red
 
