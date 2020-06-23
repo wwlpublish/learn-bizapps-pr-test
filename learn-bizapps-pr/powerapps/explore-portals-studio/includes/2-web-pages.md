@@ -16,10 +16,10 @@ Once the webpage has been saved, a maker has the following options available to 
 
 | Item | Details |
 | -------------------- | ---- |
-| Hide in default menu | A weblink record (menu option) will not be displayed on the main navigation.    |
+| Hide in default menu | A weblink record (menu option) will not be displayed on the Default navigation menu.    |
 | Add a child page     | A new web page can be added that is parented by the currently selected page     |
 | Move up                     | Moves up the webpage in the sitemap      |
 | Make subpage | Makes the currently selected page a child page of the page directly above it in the site map |
-| promote subpage | Moves up the webpage in the hierarchy and make sibling of its former parent page |
+| Promote subpage | Moves up the webpage in the hierarchy and make sibling of its former parent page |
 | Delete | Deletes the webpage |
 
