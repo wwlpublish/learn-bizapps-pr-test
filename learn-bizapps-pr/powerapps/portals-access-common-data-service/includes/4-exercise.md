@@ -1,4 +1,4 @@
-The purpose of this exercise is to provide you with hands on experience to add a list and a form to a Power Apps portal.
+The purpose of this exercise is to provide you with hands-on experience to add a list and a form to a Power Apps portal.
 
 ## Learning objectives
 
@@ -21,7 +21,7 @@ At the end of these exercises, you will be able to accomplish the following:
 
 Your organization has provisioned Power Apps portal and wants to surface a list of ideas the research team is considering on a public web page.  The requirement is also to allow visitors to drill down and view additional details.
 
-## High level steps
+## High-level steps
 
 To finish the exercise you need to complete the following tasks.
 
@@ -47,7 +47,7 @@ We will need to create a web page to contain the Entity List component.
 
 ### Add and configure a list component 
 1. On the canvas, select the *page copy* component and then from the toolbelt, choose components.
-1. In the **Portal components** section select the **List** component.
+1. In the Portal components section, select the **List** component.
 1. On the properties pane, enter the following values for the list component:
 
 	- **Name**: Ideas List
@@ -72,7 +72,7 @@ We will need to create a web page to contain the Entity Form component to view r
 ### Add and configure a form component
 
 1. On the canvas, choose the *page copy* component and then from the toolbelt, choose components.
-1. In the **Portal components** section select the **Form** component.
+1. In the Portal components section, select the **Form** component.
 1. On the properties pane, enter the following values for the form component:
 
 	- **Name**: Ideas Detail

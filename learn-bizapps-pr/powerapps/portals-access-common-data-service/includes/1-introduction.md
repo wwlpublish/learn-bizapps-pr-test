@@ -11,11 +11,11 @@ Consider the following scenarios:
 > [!NOTE]
 > A Power Apps portal can only access CDS data in the same instance where the portal is provisioned. Connecting to multiple instances and accessing data across the instances or across the tenants is not supported.
 
-Model-driven Power Apps are one of the low-code/no-code methods to build unique line of business applications. (see [What are model-driven apps in PowerApps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview/?azure-portal=true)). Part of the app creation process is to define the model and UI elements such as views and forms (see [Understand model-driven app components](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-components/?azure-portal=true)). Power Apps portals extend these UI elements to the web by using Entity Lists, Entity Forms, and Web Forms:
+Model-driven Power Apps are one of the low-code/no-code methods to build unique line-of-business applications. (see [What are model-driven apps in PowerApps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview/?azure-portal=true)). Part of the app creation process is to define the model and UI elements such as views and forms (see [Understand model-driven app components](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-components/?azure-portal=true)). Power Apps portals extend these UI elements to the web by using Entity Lists, Entity Forms, and Web Forms:
 
 - **Entity Lists** define how the list of Common Data Service records is displayed on the portal pages. They are defined by one or more model-driven app **entity views** and include functionality like filtering and sorting.
 - **Entity Forms** add ability for the portal pages to interact with the records in a specific entity using model-driven app **form definition** as a layout template.
-- **Web Forms** render one or more **model-driven app forms** on a portal website with support for singleor multi-step navigation and conditional branching logic.
+- **Web Forms** render one or more **model-driven app forms** on a portal website with support for single or multi-step navigation and conditional branching logic.
 
 > [!div class="mx-imgBorder"]
 > [![Lists and forms in Model-Driven Apps and Portal](../media/1-list-form-model-portal-c.png)](../media/1-list-form-model-portal-c.png#lightbox)
