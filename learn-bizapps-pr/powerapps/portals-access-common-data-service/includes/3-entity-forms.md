@@ -44,7 +44,7 @@ If the mode is Insert, no additional information is required. For Read Only and 
 - **Current Portal User**. This option is configured within the Portal Management app.  When this option is selected, the form will load the information from the current portal user record without using any additional information from the page URL. Commonly it is used to render a user profile form. **Entity Name** field in this case must be set to Contact since portal users are represented by the contact entity.
 - **Record Associated to Current Portal User**. This option is configured within the Portal Management app.  Selecting this option allows editing associated records, for example current user's parent account details. **Relationship Name** must be specified to identify the record to edit. The entity type selected must match the selection in the Entity Name field. This option is useful in the partner scenarios where partner organization would have multiple portal users. Some of these users could be authorized to edit the parent account record.
 
-**Entity,  Form and Mode are all the information that is required to render the form.
+Entity, Form and Mode are all the information that is required to render the form.
 
 ## Configure entity form
 
@@ -69,7 +69,7 @@ The advanced settings determine if a captcha is displayed for anonymous or authe
 
 A number of additional configuration settings are available for entity forms in the Portal Management app. To access entity form in the Portal Management app:
 
-1. Navigate to Power Apps maker portal at https://make.powerapps.com.
+1. Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
 1. Select the target environment using the environment selector in the top right-hand corner.
 1. From the list of Apps, locate and open the Portal Management app (app Type will be Model-driven).
 1. Select Entity Forms in the left navigation.

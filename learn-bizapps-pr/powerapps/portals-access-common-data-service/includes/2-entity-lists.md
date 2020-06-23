@@ -24,7 +24,7 @@ When the web page is requested, the list rendering process is as following:
 
 Portal Studio provides basic interface for creating and configuring entity list. Makers can customize all entity list features and properties using Portal Management app. To access entity lists in the Portal Management app:
 
-1. Navigate to Power Apps maker portal at https://make.powerapps.com.
+1. Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
 1. Select the target environment using the environment selector in the top right-hand corner.
 1. From the list of Apps, locate and open the Portal Management app (app Type will be Model-driven).
 1. Select Entity Lists in the left navigation.
@@ -87,8 +87,8 @@ Views can be rendered as traditional grid lists, calendar, or map. Delivering li
 
 Alternative views may require some additional configuration such as start and end date fields for a calendar, or latitude and longitude fields for a map.
 
->  [!IMPORTANT]
->  Map and calendar require page templates that can render the view. When a starter portal is provisioned, **Rewrite** page templates like Page or Full Page support this functionality.  Pages using **web templates** will render the default entity list view.
+> [!IMPORTANT]
+> Map and calendar require page templates that can render the view. When a starter portal is provisioned, **Rewrite** page templates like Page or Full Page support this functionality.  Pages using **web templates** will render the default entity list view.
 
 ### Actions
 
