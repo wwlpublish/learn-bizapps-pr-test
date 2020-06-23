@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.perform-analytics-power-bi.8-advanced-analytics-custom-visuals 
+title: Use advanced analytics custom visuals
+metadata: 
+  title: Use advanced analytics custom visuals 
+  description: Learn how to use advanced analytics custom visuals. 
+  ms.date: 06/30/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/8-advanced-analytics-custom-visuals.md)] 

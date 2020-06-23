@@ -1,0 +1,48 @@
+### YamlMime:Module 
+uid: learn-bizapps.perform-analytics-power-bi 
+metadata: 
+ title: Perform analytics in Power BI 
+ description: Learn to perform analytics in Power BI. 
+ ms.date: 06/30/2020  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Perform analytics in Power BI  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Learn to perform analytics in Power BI. 
+abstract: |  
+    In this module, you will: 
+    - Explore statistical summary.
+    - Identify outliers with Power BI visuals. 
+    - Group and binning data for analysis.
+    - Apply clustering techniques.
+    - Conduct time series analysis.
+    - Use the Analyze feature.
+    - Use advanced analytics custom visuals.
+    - Review Quick Insights.
+    - Apply AI Insights.
+prerequisites: None 
+iconUrl: /learn/achievements/perform-analytics-power-bi.svg  
+levels:  
+- intermediate   
+roles:  
+- data-analyst  
+products:  
+- power-bi 
+units: 
+- learn-bizapps.perform-analytics-power-bi.1-introduction 
+- learn-bizapps.perform-analytics-power-bi.2-statistical-summary 
+- learn-bizapps.perform-analytics-power-bi.3-visuals 
+- learn-bizapps.perform-analytics-power-bi.4-group-data 
+- learn-bizapps.perform-analytics-power-bi.5-clustering-techniques 
+- learn-bizapps.perform-analytics-power-bi.6-time-series-analysis 
+- learn-bizapps.perform-analytics-power-bi.7-analyze-feature 
+- learn-bizapps.perform-analytics-power-bi.8-advanced-analytics-custom-visuals 
+- learn-bizapps.perform-analytics-power-bi.9-quick-insights 
+- learn-bizapps.perform-analytics-power-bi.10-ai-insights 
+- learn-bizapps.perform-analytics-power-bi.11-check 
+- learn-bizapps.perform-analytics-power-bi.12-summary 
+badge: 
+  uid: learn-bizapps.perform-analytics-power-bi.badge 
