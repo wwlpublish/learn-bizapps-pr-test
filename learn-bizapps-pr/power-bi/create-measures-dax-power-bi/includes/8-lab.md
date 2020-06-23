@@ -331,8 +331,8 @@ In this task, you will create a sales YoY growth measure.
 
 In this exercise, you will publish the Power BI Desktop file to Power BI.
 
-    > [!NOTE]
-    > The following exercise will require you to login to Power BI service, you can use your existing account or create a trial account before starting this part of the lab.
+> [!NOTE]
+> The following exercise will require you to login to Power BI service, you can use your existing account or create a trial account before starting this part of the lab.
 
 ### Task 1: Publish the file
 
