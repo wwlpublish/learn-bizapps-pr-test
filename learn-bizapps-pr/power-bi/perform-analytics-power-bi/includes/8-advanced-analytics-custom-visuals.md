@@ -22,5 +22,5 @@ You can then add fields to the new visual and customize the visual, in the same 
 You then see that you have a variance visual that contains multiple charts, which is something you couldn't do without importing the Advanced Analytics custom visual from the AppSource.
 
 > [!div class="mx-imgBorder"]
-> [![Set up advanced analytics custom visual](../media/8-set-up-advanced-analytics-custom-visual-ssm.png)](../media/8-set-up-advanced-analytics-custom-visual -ssm.png#lightbox)
+> [![Set up advanced analytics custom visual](../media/8-set-up-advanced-analytics-custom-visual-ssm.png)](../media/8-set-up-advanced-analytics-custom-visual-ssm.png#lightbox)
 
