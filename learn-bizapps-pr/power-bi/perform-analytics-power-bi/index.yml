@@ -2,7 +2,7 @@
 uid: learn-bizapps.perform-analytics-power-bi 
 metadata: 
  title: Perform analytics in Power BI 
- description: Learn to perform analytics in Power BI. 
+ description: You will learn how to use Power BI to perform data analytical functions, how to identify outliers in your data, how to group data together, and how to bin data for analysis. You will also learn how to perform time series analysis. Finally, you will work with advanced analytic features of Power BI, such as Quick Insights, AI Insights, and the Analyze feature.
  ms.date: 06/30/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,7 +11,7 @@ metadata:
 title: Perform analytics in Power BI  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn to perform analytics in Power BI. 
+  You will learn how to use Power BI to perform data analytical functions, how to identify outliers in your data, how to group data together, and how to bin data for analysis. You will also learn how to perform time series analysis. Finally, you will work with advanced analytic features of Power BI, such as Quick Insights, AI Insights, and the Analyze feature.
 abstract: |  
     In this module, you will: 
     - Explore statistical summary.

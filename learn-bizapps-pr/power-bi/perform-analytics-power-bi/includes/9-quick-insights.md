@@ -7,7 +7,7 @@ Suppose one of the datasets you've been given contains a massive amount of data 
 
 ## Get quick insights on your dataset
 
-To get quick insights on your dataset, open your Power BI Web Service, then select the **Content** tab. Locate your report for which you want to get quick insights, in this case it is the **TailwindTraiders**. Then select **More options** (...) > **Get quick insights**.
+To get quick insights on your dataset, open your Power BI Web Service, then select the **Content** tab. Locate your report for which you want to get quick insights, in this case it is the **TailwindTraders**. Then select **More options** (...) > **Quick insights**.
 
 > [!div class="mx-imgBorder"]
 > [![Get quick insights](../media/9-get-quick-insights-ssm.png)](../media/9-get-quick-insights-ssm.png#lightbox)
