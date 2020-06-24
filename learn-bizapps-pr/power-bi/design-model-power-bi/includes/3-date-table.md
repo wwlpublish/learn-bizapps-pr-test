@@ -55,11 +55,17 @@ Year = YEAR(Dates[Date])
 
 You can perform the same process to retrieve the month number, week number, and day of the week:
 
-```MonthNum = MONTH(Dates[Date])```
+```dax
+MonthNum = MONTH(Dates[Date])
+```
 
-```WeekNum = WEEKNUM(Dates[Date])```
+```dax
+WeekNum = WEEKNUM(Dates[Date])
+```
 
-```DayoftheWeek = FORMAT(Dates[Date].[Day], "DDDD")```
+```dax
+DayoftheWeek = FORMAT(Dates[Date].[Day], "DDDD")
+```
 
 When you have finished, your table will contain the columns that are shown in the following figure.
 
