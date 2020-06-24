@@ -51,7 +51,9 @@ The process of viewing multiple child levels based on a top-level parent is know
 
 While on the table, go to the **Modeling** tab and select **New Column**. In the resulting formula bar, enter the following function, which creates the text path between the employee and manager. This action creates a calculated column in DAX.
 
-```dax Path = PATH(Employee[Employee ID], Employee[Manager ID])``` 
+```dax 
+Path = PATH(Employee[Employee ID], Employee[Manager ID])
+``` 
 
 > [!div class="mx-imgBorder"]
 > [![DAX measure for flattening parent child hierarchy](../media/04-dax-measure-hierarchy-2-ss.png)](../media/04-dax-measure-hierarchy-2-ss.png#lightbox)

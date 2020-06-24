@@ -37,7 +37,9 @@ Select **Transform Data** on the ribbon. On **Applied Steps**, on the right pane
 
 Under **Add Column** on the Home ribbon, select **Custom Column**. Enter the following equation, which will concatenate the **Year** and **Month** columns, and then add a dash in between the column names.
 
-```dax Column = Table.AddColumn(#"Renamed Columns", "Custom", each [Year] & "-" &[Month])```
+```dax 
+Column = Table.AddColumn(#"Renamed Columns", "Custom", each [Year] & "-" &[Month])
+```
 
 Change the data type to **Date** and then rename the column. Your Budget table should resemble the following figure.
 
@@ -55,9 +57,13 @@ Power BI automatically detects relationships, but you can also go to **Manage Re
 
 By completing this task, you have ensured that the granularity is the same between your different tables. Now, you need to create DAX measures to calculate **Total Sales** and **BudgetAmount**. Go to the **Data** pane on Power BI Desktop, select **New Measure**, and then create two measures with the following equations:
 
-```dax TotalSales = SUM(Sales[Total Sales])/100```
+```dax T
+otalSales = SUM(Sales[Total Sales])/100
+```
 
-```dax BudgetAmount = SUM (Budget[BudgetAmount])```
+```dax 
+BudgetAmount = SUM (Budget[BudgetAmount])
+```
 
 Select the matrix visual on the **Visualization** pane, and then enter these measures and the **Date** into the **Values** field**.** You have now accomplished the goal of building a matrix of the total sales and budgets over time.
 
