@@ -24,7 +24,6 @@ roles:
 - business-user
 products:
 - dynamics
-- dynamics-customer-engagement
 - dynamics-finance-operations
 - power-platform
 units:
