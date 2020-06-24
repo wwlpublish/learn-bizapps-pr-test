@@ -59,7 +59,7 @@ While on the table, go to the **Modeling** tab and select **New Column**. In the
 The completed path between the employee and the manager appears in the new column, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> [![PATH function in Power BI](../media/04-path-function-example-10-s.png)](../media/04-path-function-example-10-s.png#lightbox)
+> [![PATH function in Power BI](../media/04-path-function-example-10-ss.png)](../media/04-path-function-example-10-ss.png#lightbox)
 
 If you look at Roger M, the path of IDs is **1010 | 1011 | 1013**, which means that one level above Roger M (ID 1013) is his manager, Pam H (ID 1011), and one level above Pam H is her manager Roy F (ID 1010). In this row, Roger M is on the bottom of the hierarchy, at the child level, and Roy F is at the top of the hierarchy and is at the parent level. This path is created for every employee. To flatten the hierarchy, you can separate each level by using the PATHITEM function.
 
