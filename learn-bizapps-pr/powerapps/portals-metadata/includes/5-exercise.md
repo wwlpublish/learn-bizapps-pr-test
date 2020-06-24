@@ -19,13 +19,13 @@ For this exercise you will need to have the following in your environment:
 
 Your organization has provisioned and configured a Power Apps portal. You would like to start modifying the portal navigation to provide quick access to frequently used information.
 
-### High level steps
+### High-level steps
 
 To be able to modify portal navigation to suit organizational requirements, you need to complete the following tasks.
 
 - Use the Portal Management app to modify the existing *Secondary Navigation* web link set to include existing web pages and an external link.
 - Create new page using the Portal Studio.
-- Add a two column component to the new page.
+- Add a two-column component to the new page.
 - Modify the page source code to reference the secondary navigation.
 
 ### Detailed steps
@@ -98,7 +98,7 @@ To be able to modify portal navigation to suit organizational requirements, you 
 
 1. On the canvas, select the page copy component and from the toolbelt, click on the **Components** icon and add the *Two columns section* component.
 1. On the canvas, select the left column component.
-1. In the bottom right hand corner, choose the source code editor **</>**.
+1. In the bottom-right hand corner, choose the source code editor **</>**.
 1. In the Code Editor, locate the following line:
 
 	```html

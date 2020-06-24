@@ -8,7 +8,7 @@ Each **Webpage** record within a portal has the following attributes:
 
 That hierarchical structure provides enough information for each Webpage to calculate the path that is unique within the website.
 
-| Webpage      | Parent Page  | Partial URL | Calculated Path            |
+| Webpage      | Parent page  | Partial URL | Calculated path            |
 | ------------ | ------------ | ----------- | -------------------------- |
 | Home         | -            | /           | /                          |
 | News         | Home         | news        | /news/                     |
@@ -33,7 +33,7 @@ Static content that is determined by properties of the **Webpage** record, in pa
 
 ### Content pages
 
-When we discussed the **Webpage**, we referred to it as if it were a single record. We did it for convenience but, in fact, there are multiple Webpage entries to every page. There is one root Webpage record that is part the site page hierarchy, the one you edit when you create a new page. There are also multiple child records, or Content pages, pointing to the root entry. This is to support multi-lingual implementations where each child record is responsible for the content in one of the configured languages. 
+When we discussed the **Webpage**, we referred to it as if it is a single record. We did it for convenience but, in fact, there are multiple Webpage entries to every page. There is one root Webpage record that is part the site page hierarchy, the one you edit when you create a new page. There are also multiple child records, or Content pages, pointing to the root entry. This is to support multi-lingual implementations where each child record is responsible for the content in one of the configured languages. 
 
 Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language. That way, content for additional languages can be added later on.
 
@@ -45,11 +45,11 @@ When a Webpage is first created, all properties like name, partial URL, template
 > [!div class="mx-imgBorder"]
 > [![Content pages](../media/3-child-pages-ss.png)](../media/3-child-pages-ss.png#lightbox)
 
-As we mentioned above, the path of the request is used to locate the Webpage record, or the root Webpage record, to be exact. The request language is defined either by the request URL, e.g. `https://www.contoso.com/es-ES/news` or by a browser cookie, and the corresponding Content page is located. The Content page defines both the content and the template, but contains no information on how the content is displayed. This is determined by the page template.
+As we mentioned above, the path of the request is used to locate the Webpage record, or the root Webpage record, to be exact. The request language is defined either by the request URL, for example, `https://www.contoso.com/es-ES/news` or by a browser cookie, and the corresponding Content page is located. The Content page defines both the content and the template, but contains no information on how the content is displayed. This is determined by the page template.
 
 ### Templates
 
-Besides the content as defined by Copy field of the page, Template can also use other properties such as Title, Summary, Display Date, and others. Templates often include **Content Snippets** as re-usable fragments, for example to render some common information such as a copyright message. 
+Besides the content as defined by Copy field of the page, Template can also use other properties such as Title, Summary, Display Date, and others. Templates often include **Content Snippets** as reusable fragments, for example to render some common information such as a copyright message. 
 
 Template may use references to elements of the sitemap such as **Web Files**, **Shortcuts**, and **Web Links**. Because sitemap elements can be secured, they are validated against the Web Page Access Control Rules. For example, if a visitor does not have permissions to access a target page of a shortcut, by default the shortcut will not be rendered.
 
@@ -71,7 +71,7 @@ In the end, the process of building a web page is fully secured. Any access to p
 > [!div class="mx-imgBorder"]
 > [![How portal pages are built](../media/3-pages-built-c.png)](../media/3-pages-built-c.png#lightbox)
 
-Power Apps Portals include very robust and flexible mechanism for building not only static pages, or the pages that include data from other Common Data Service entities. By using a combination of Entity Lists, Entity and Web Forms, and Liquid you can build complete web applications extending your Common Data Service or Dynamics 365 solutions to external and internal audiences.
+Power Apps Portals include robust and flexible mechanism for building not only static pages, or the pages that include data from other Common Data Service entities. By using a combination of Entity Lists, Entity and Web Forms, and Liquid you can build complete web applications extending your Common Data Service or Dynamics 365 solutions to external and internal audiences.
 
 For more information about web page properties and the process: [Manage web pages](https://docs.microsoft.com/powerapps/maker/portals/configure/web-page/?azure-portal=true).
 

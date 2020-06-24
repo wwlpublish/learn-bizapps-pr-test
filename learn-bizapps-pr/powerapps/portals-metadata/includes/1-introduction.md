@@ -1,4 +1,4 @@
-The Portal studio provides a maker with a tool to update static content and also add pages, components and themes to a Power Apps portal. However, there are many aspects of a portal project that cannot be added or edited using the Portal Studio alone. 
+The Portal studio provides a maker with a tool to update static content and also add pages, components, and themes to a Power Apps portal. However, there are many aspects of a portal project that cannot be added or edited using the Portal Studio alone. 
 
 When a Power Apps portal is provisioned, one of the assets created on the Common Data Services (CDS) environment is the Portal Management model-driven app. The app may also appear as the Dynamics 365 Portal app for environments with Dynamics 365 app provisioned.
 
@@ -21,9 +21,9 @@ This will launch the Portal Management app and allow makers to access all metada
 
 ## App overview
 
-The Portal Management app allows makers to perform advanced configuration actions on the portal by providing direct access to the portal metadata records that define the appearance, language, security and functionality of a portal.  
+The Portal Management app allows makers to perform advanced configuration actions on the portal by providing direct access to the portal metadata records that define the appearance, language, security, and functionality of a portal.  
 
-The Portal Management app mainly composed of standard model-driven views and forms in which to add and update metadata. Some of the record forms will have specialized controls such as HTML editors to allow deeper customization of portal content.
+The Portal Management app composed of standard model-driven views and forms in which to add and update metadata. Some of the record forms will have specialized controls such as HTML editors to allow deeper customization of portal content.
 
 > [!div class="mx-imgBorder"]
 > [![HTML Editing inside content snippet](../media/1-html-editor-content-snippet-ss.png)](../media/1-html-editor-content-snippet-ss.png#lightbox)

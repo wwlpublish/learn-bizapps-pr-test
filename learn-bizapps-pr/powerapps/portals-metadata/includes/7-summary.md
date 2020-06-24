@@ -7,4 +7,4 @@ Let's have a quick look at what we have covered in this module:
 
 ## Next steps
 
-In the next module you will learn about accessing Common Data Service data in your portal to convert a static website to a fully functional portal app.
+In the next module, you will learn about accessing Common Data Service data in your portal to convert a static website to a fully functional portal app.
