@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.portals-metadata 
 metadata: 
- title: Understand Power App portals metadata
+ title: Work with Power App portals metadata
  description: Understanding the various Power App portal metadata components is required for a maker to be able to configure the portal app for a variety of unique requirements. In this module, we will use Portal Management app to configure various portals features by editing the portal metadata.
  ms.date: 07/06/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Understand Power App portals metadata
+title: Work with Power App portals metadata
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Understanding the various Power App portal metadata components is required for a maker to be able to configure the portal app for a variety of unique requirements. In this module, we will use Portal Management app to configure various portals features by editing the portal metadata.
