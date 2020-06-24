@@ -2,7 +2,7 @@
 uid: learn-bizapps.data-driven-story-power-bi 
 metadata: 
  title: Create a data-driven story with Power BI reports
- description: Power BI helps you create vibrant, highly-useful reports that form a cohesive, data-driven story. You’ll learn how to use buttons, bookmarks, and other navigation techniques. Additionally, you’ll learn how to integrate Power BI reports with other applications. Power BI visuals can interact with each other, letting the user see exactly which data is appealing to them. You’ll also explore Power BI report themes to create a unified reporting experience across all reports.
+ description: Power BI helps you create vibrant, highly useful reports that form a cohesive, data-driven story. You’ll learn how to use buttons, bookmarks, and other navigation techniques. Additionally, you’ll learn how to integrate Power BI reports with other applications. Power BI visuals can interact with each other, letting the user see exactly which data is appealing to them. You’ll also explore Power BI report themes to create a unified reporting experience across all reports.
  ms.date: 06/30/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,7 +11,7 @@ metadata:
 title: Create a data-driven story with Power BI reports 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Power BI helps you create vibrant, highly-useful reports that form a cohesive, data-driven story. You’ll learn how to use buttons, bookmarks, and other navigation techniques. Additionally, you’ll learn how to integrate Power BI reports with other applications. Power BI visuals can interact with each other, letting the user see exactly which data is appealing to them. You’ll also explore Power BI report themes to create a unified reporting experience across all reports. 
+  Power BI helps you create vibrant, highly useful reports that form a cohesive, data-driven story. You’ll learn how to use buttons, bookmarks, and other navigation techniques. Additionally, you’ll learn how to integrate Power BI reports with other applications. Power BI visuals can interact with each other, letting the user see exactly which data is appealing to them. You’ll also explore Power BI report themes to create a unified reporting experience across all reports. 
 abstract: |  
     In this module, you will: 
     - Design a report layout.
