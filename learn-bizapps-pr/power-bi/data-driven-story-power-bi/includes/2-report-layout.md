@@ -87,7 +87,7 @@ Likely, you'll have a number of hierarchies in your data, so you should consider
 
 ## Report accessibility
 
-Considering the possibility that your users might have hearing, motor, cognitive, or visual impairments is essential. Therefore, make sure that you design a report that adheres to accessibility standards and that uses the available accessibility features within Power BI Desktop.
+It is essential that you consider the possibility that your users might have hearing, motor, cognitive, or visual impairments. Therefore, make sure that you design a report that adheres to accessibility standards and that uses the available accessibility features within Power BI Desktop.
 
 Designing a report that offers an accessible experience will benefit all report users because it ensures that your report has an effective design and uses consistent formatting and color scheme or theme.
 
@@ -169,7 +169,7 @@ Compare the following images, where the image on the left shows a visual with an
 > [!div class="mx-imgBorder"]
 > [![Comparison of visual titles](../media/2-comparison-visual-titles-ss.png)](../media/2-comparison-visual-titles-ss.png#lightbox)
 
-You should also make sure that all labels within a visual are easy to read and understand. You can turn on or off the labels for each series in your visual or position them above or below a series to make them clearer. Don't turn labels on for every visual because it might have the opposite effect by distracting users and making your report less accessible.
+Make sure that all labels within a visual are easy to read and understand. You can turn on or off the labels for each series in your visual or position them above or below a series to make them clearer. Don't turn on labels for every visual because it might have the opposite effect by distracting users and making your report less accessible.
 
 Compare the following images, where the first image has fewer numbers or descriptions of the data, whereas the second has several. 
 
@@ -178,11 +178,11 @@ Compare the following images, where the first image has fewer numbers or descrip
 
 #### Markers
 
-It's best practice to avoid using color (including the feature's conditional formatting) as the only way of conveying information. Instead, you can use markers to convey different series. For line, area, and combo visuals, including scatter and bubble visuals, you can turn markers on and use a different shape for each line.
+It's best practice to avoid using color (including the feature's conditional formatting) as the only way of conveying information. Instead, you can use markers to convey different series. For line, area, and combo visuals, including scatter and bubble visuals, you can turn on markers and use a different shape for each line.
 
-Keep in mind that, if you turn markers on for every visual, it might be distracting and make your report less accessible for users.
+Keep in mind that, if you turn on markers for every visual, it might be distracting and make your report less accessible for users.
 
-To turn markers on, in the **Format** pane, expand the **Shapes** section and then scroll down and move the **Show marker** slider to the **On** position.
+To turn on markers, in the **Format** pane, expand the **Shapes** section, and then scroll down and move the **Show marker** slider to the **On** position.
 
 > [!div class="mx-imgBorder"]
 > [![Turn on markers](../media/2-turn-markers-ssm.png)](../media/2-turn-markers-ssm.png#lightbox)
@@ -192,9 +192,9 @@ To turn markers on, in the **Format** pane, expand the **Shapes** section and th
 
 #### Themes
 
-To make your reports even more accessible, you should ensure that enough contrast exists between the text and background colors; the contrast ratio should be at least 4.5:1. Several tools are available for you to use to check your report colors, such as Color Contrast Analyzer, WebAIM, and Accessible Colors.
+To make your reports even more accessible, ensure that enough contrast exists between the text and background colors; the contrast ratio should be at least 4.5:1. Several tools are available for you to use to check your report colors, such as Color Contrast Analyzer, WebAIM, and Accessible Colors.
 
-You should also consider that some report viewers might have color vision deficiencies. Using fewer colors or a monochrome palette in your report can help mitigate the creation of inaccessible reports. The following color combinations are difficult for users with color vision deficiencies to distinguish, so you should avoid using them together in a chart or on the same report page.
+Some of your report viewers might have color vision deficiencies. Using fewer colors or a monochrome palette in your report can help mitigate the creation of inaccessible reports. The following color combinations are difficult for users with color vision deficiencies to distinguish, so you should avoid using them together in a chart or on the same report page.
 
 -   Green and red
 
