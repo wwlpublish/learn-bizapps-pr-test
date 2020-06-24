@@ -27,6 +27,7 @@ roles:
 - maker 
 products:  
 - power-apps 
+- power-platform
 units: 
 - learn-bizapps.portals-metadata.1-introduction 
 - learn-bizapps.portals-metadata.2-metadata 
