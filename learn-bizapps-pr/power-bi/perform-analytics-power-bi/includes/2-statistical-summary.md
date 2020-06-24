@@ -1,6 +1,6 @@
 Data is often intertwined with statistics, for statistics are one way in which you can explore your data. Statistics show you the distribution of your data, and help you to identify key takeaways and trends, and see if there are any outliers.
 
-The statistical summary is the information that provides a quick and simple description of your data. Power BI has many functions that help you to carry out a statistical analysis, such as Data Analysis Expressions (DAX) functions, visuals such as histograms and bell curves, advanced analytics visuals, and statistical programing languages such as Python and R.
+The statistical summary is the information that provides a quick and simple description of your data. Power BI has many functions that help you to carry out a statistical analysis, such as Data Analysis Expressions (DAX) functions, visuals such as histograms and bell curves, advanced analytics visuals, and statistical programming languages such as Python and R.
 
 Exploring the statistical summary gives the end-user a high-level view of the available data, where they can see clusters, patterns on behavioral data, data averages and more. They can gain insights about their data that will drive business decisions.
 
@@ -35,7 +35,7 @@ You start by selecting the **Clustered Column Chart** icon on the **Visualizatio
 
 To create the group, in the **Fields** pane, right-click on the data field that you want to analyze, then select **New Group**. In this case, you use the **OrderQty** field. In the **Groups** window that displays, set up the bin group as follows:
 
--   Rename the group as *Order Bins (Buckets)*.
+-   Rename the group as **Order Bins (Buckets)**.
 
 -   Set the **Group type** option to **Bin**, and the **Bin Type** option to **Number of Bins**.
 

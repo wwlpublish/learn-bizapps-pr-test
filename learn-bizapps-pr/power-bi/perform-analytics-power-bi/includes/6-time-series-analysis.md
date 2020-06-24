@@ -8,7 +8,8 @@ To conduct a time series analysis in Power BI, you need to use a visualization t
 
 In addition to the range of time series custom visuals, the Microsoft AppSource has an animation custom visual called **Play Axis** that works like a dynamic slicer, and is an interesting way to display time trends and patterns in your data, without any user interaction. This visual is very similar to the visual that Hans Rosling used in his original presentation, and is used alongside the scatter chart in the following example.
 
-Note: Some organizations prefer not to use custom visuals, for security or other reasons. Before you import any custom visuals, check with your organization to see if they are allowed or not. If they are not allowed, you can instead use the Play Axis that is available for **Scatter chart** visualizations within Power BI Desktop, as it has similar functionality.
+> [!NOTE]
+> Some organizations prefer not to use custom visuals, for security or other reasons. Before you import any custom visuals, check with your organization to see if they are allowed or not. If they are not allowed, you can instead use the Play Axis that is available for **Scatter chart** visualizations within Power BI Desktop, as it has similar functionality.
 
 > [!div class="mx-imgBorder"]
 > [![Play Axis option on Scatter chart](../media/6-play-axis-option-scatter-chart-ssm.png)](../media/6-play-axis-option-scatter-chart-ssm.png#lightbox)
@@ -38,7 +39,7 @@ You can now resize and reposition the new visual, and customize its formatting, 
 
 -   In the **Colors** section, you can change the appearance of the **Play Axis** visual by adjusting its overall color or selecting the **Show all** option, then changing the color of each control button.
 
--   The Enable Caption On section allows you to turn on/off the text displayed next to the visual or adjust the formatting of it.
+-   The **Enable Caption On** section allows you to turn on/off the text displayed next to the visual or adjust the formatting of it.
 
 > [!div class="mx-imgBorder"]
 > [![Play Axis visual format options](../media/6-play-axis-visual-format-options-ss.png)](../media/6-play-axis-visual-format-options-ss.png#lightbox)

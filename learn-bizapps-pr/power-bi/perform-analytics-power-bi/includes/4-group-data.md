@@ -10,7 +10,7 @@ In this example, the Customer Service team has come back to you, greatly impress
 
 In the following image, you can see a bar chart in which Power BI has automatically segmented the data in the way that it found most useful - Total Sales by City. However, you want to group some of the bars (cities) together, so you can view them as one category, which will help the Sales team to identify the cities with the highest sales.
 
-To create the group, you start by using **Ctrl**+click to select the data points on the visual that you want to group, in this case it is cities with sales greater than 500 thousand dollars. You then right-click one of those selected data points and select the **Group data** option.
+To create the group, you start by using **Ctrl+click** to select the data points on the visual that you want to group, in this case it is cities with sales greater than 500 thousand dollars. You then right-click one of those selected data points and select the **Group data** option.
 
 > [!div class="mx-imgBorder"]
 > [![Group data on visual](../media/4-group-data-visual-ssm.png)](../media/4-group-data-visual-ssm.png#lightbox)
