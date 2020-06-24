@@ -27,6 +27,7 @@ roles:
 - functional-consultant  
 products:  
 - power-apps 
+- power-platform
 units: 
 - learn-bizapps.portal-features.1-introduction 
 - learn-bizapps.portal-features.2-dynamics-365-features 
