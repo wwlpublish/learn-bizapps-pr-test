@@ -1,6 +1,6 @@
 A typical use case of Power Apps portals is to extend functionality from the Dynamics 365 first-party applications to internal and external audiences. The portal templates based on Dynamics 365 apps offer built-in functionality to these audiences by adding features like case lifecycle, knowledge article access, partner opportunity management, and so on.
 
-Power App portals also can extend applications built on the Common Data Service (CDS) and surface the data and business logic and make them available on your portal to an external audience, based on user permissions. 
+Power App portals also can extend applications built on the Common Data Service and surface the data and business logic and make them available on your portal to an external audience, based on user permissions. 
 
 Consider the following scenarios:
 
@@ -9,7 +9,7 @@ Consider the following scenarios:
 - You use the Common Data Service to track the progress of your certification programs from the application process to the evaluation of various skill assessments to awarding a certification level to a candidate.  A Power App portal can be configured to allow online applications, provide access to accessors to update evaluations and allow candidates to view their progress.
 
 > [!NOTE]
-> A Power Apps portal can only access CDS data in the same instance where the portal is provisioned. Connecting to multiple instances and accessing data across the instances or across the tenants is not supported.
+> A Power Apps portal can only access Common Data Service data in the same instance where the portal is provisioned. Connecting to multiple instances and accessing data across the instances or across the tenants is not supported.
 
 Model-driven Power Apps are one of the low-code/no-code methods to build unique line-of-business applications. (see [What are model-driven apps in Power Apps?](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-overview/?azure-portal=true)). Part of the app creation process is to define the model and UI elements such as views and forms (see [Understand model-driven app components](https://docs.microsoft.com/powerapps/maker/model-driven-apps/model-driven-app-components/?azure-portal=true)). Power Apps portals extend these UI elements to the web by using Entity Lists, Entity Forms, and Web Forms:
 
