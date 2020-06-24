@@ -47,7 +47,7 @@ Let's take a quick look at some of the most common features and settings.
 
 ### Views
 
-Selected view(s) define the CDS entity fields, list layout, and the default sort order. 
+Selected view(s) define the Common Data Service entity fields, list layout, and the default sort order. 
 
 **Multiple views** - If more than one view has been specified, a drop-down list will be rendered to allow the user to switch between the views. 
 
@@ -99,7 +99,7 @@ Entity Lists can have actions associated with them to enable per list commands l
 
 For more detailed information about entity list attributes and relationships, and how to use them to configure the list behavior, see [About entity lists](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).
 
-Watch the following video to learn how to take an existing CDS entity, configure and display the view on a portal page, and add interactive filtering capabilities.
+Watch the following video to learn how to take an existing Common Data Service entity, configure and display the view on a portal page, and add interactive filtering capabilities.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/]
 
