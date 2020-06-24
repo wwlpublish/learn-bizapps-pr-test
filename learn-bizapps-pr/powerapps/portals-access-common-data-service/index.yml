@@ -28,6 +28,7 @@ roles:
 - maker
 products:  
 - power-apps 
+- power-platform
 units: 
 - learn-bizapps.portals-access-common-data-service.1-introduction 
 - learn-bizapps.portals-access-common-data-service.2-entity-lists 
