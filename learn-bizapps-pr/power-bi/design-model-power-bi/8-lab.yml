@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.design-model-power-bi.8-lab 
+title: Lab - Data modeling in Power BI Desktop
+metadata: 
+  title: Lab - Data modeling in Power BI Desktop 
+  description: In this lab, you will commence developing the data model. It will involve creating relationships between tables, and then configuring table and column properties to improve the friendliness and usability of the data model. You will also create hierarchies and create quick measures.  
+  ms.date: 06/30/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 45
+labId: 72673
+labModal: true 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/8-lab.md)] 
