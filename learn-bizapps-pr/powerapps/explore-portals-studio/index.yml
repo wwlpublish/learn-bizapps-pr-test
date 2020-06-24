@@ -29,6 +29,7 @@ roles:
 - functional-consultant  
 products:  
 - power-apps 
+- power-platform
 units: 
 - learn-bizapps.explore-portals-studio.1-portals-studio 
 - learn-bizapps.explore-portals-studio.2-web-pages 
