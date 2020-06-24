@@ -41,7 +41,7 @@ quiz:
     - content: Configure On Success Settings to redirect to Thank You page
       isCorrect: true 
       explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
-  - content: Where in the Portal Studio would you add an list and form component to a particular web page?
+  - content: Where in the Portal Studio would you add a list and form component to a particular web page?
     choices: 
     - content: From the properties pane of a web page
       isCorrect: false 

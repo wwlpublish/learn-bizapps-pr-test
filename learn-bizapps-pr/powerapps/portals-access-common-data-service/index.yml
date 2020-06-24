@@ -2,7 +2,7 @@
 uid: learn-bizapps.portals-access-common-data-service 
 metadata: 
  title: Access Common Data Service in Power Apps portals
- description: The ability to easily surface and interact with Common Data Service (CDS) data on a website is one of the core benefit for implementing a Power Apps portal.  There are several methods to surface and display CDS data and having an understanding of the different options will result in successful portal implementations. This module will focus on the techniques and methods to display and interact with CDS data on the Power Apps portal. 
+ description: The ability to easily surface and interact with Common Data Service (CDS) data on a website is one of the core benefits for implementing a Power Apps portal.  There are several methods to surface and display CDS data and having an understanding of the different options will result in successful portal implementations. This module will focus on the techniques and methods to display and interact with CDS data on the Power Apps portal. 
  ms.date: 07/06/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,12 +11,12 @@ metadata:
 title: Access Common Data Service in Power Apps portals 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The ability to easily surface and interact with Common Data Service (CDS) data on a website is one of the core benefit for implementing a Power Apps portal.  There are several methods to surface and display CDS data and having an understanding of the different options will result in successful portal implementations. This module will focus on the techniques and methods to display and interact with CDS data on the Power Apps portal. 
+  The ability to easily surface and interact with Common Data Service (CDS) data on a website is one of the core benefits for implementing a Power Apps portal.  There are several methods to surface and display CDS data and having an understanding of the different options will result in successful portal implementations. This module will focus on the techniques and methods to display and interact with CDS data on the Power Apps portal. 
 abstract: |  
     In this module, you will: 
     - Understand the portal components available to surface and interact with CDS data on the portal.
     - Identify the various features of the portal components.
-    - Display a list of data and an associated drill down for details.
+    - Display a list of data and an associated drill-down for details.
     - Configure entity form to access individual records.
     - Trigger classic CDS workflows from the portal. 
 prerequisites: Target audience should have basic understanding how to navigate and configure Power Apps portals as well as knowledge of how to customize and configure model-driven apps.  

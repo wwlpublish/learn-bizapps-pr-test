@@ -1,4 +1,4 @@
-Entity Lists components allow a maker to surface a list of of Common Data Service records on a portal web page using configuration only. Entity lists are defined using model-driven app views and can be further configured to filter data based on entity permissions and have additional features enabled such as running workflows and navigating to show detail records. 
+Entity Lists components allow a maker to surface a list of Common Data Service records on a portal web page using configuration only. Entity lists are defined using model-driven app views and can be further configured to filter data based on entity permissions and have additional features enabled such as running workflows and navigating to show detail records. 
 
 ## Creating an entity list 
 
@@ -35,7 +35,7 @@ Portal Studio provides basic interface for creating and configuring entity list.
 
 An entity list can be as simple or as complicated as your business requirements specify. To begin with, the only required properties for the entity list, besides the name and the website, are the target **Entity Name** and one or more **Views**. 
 
-Entity Lists are highly configurable and have a lot of settings defining the list behavior. Lists can also include actions for the user to interact with the items on the list.
+Entity Lists are highly configurable and have many settings defining the list behavior. Lists can also include actions for the user to interact with the items on the list.
 
 > [!div class="mx-imgBorder"]
 > [![Entity List structure](../media/2-entity-list-overview-c.png)](../media/2-entity-list-overview-c.png#lightbox)
@@ -73,7 +73,7 @@ Selected view(s) define the CDS entity fields, list layout, and the default sort
 
 If both current portal user and current portal user's parent account filters are enabled, portal will render a dropdown to allow the user to view their own data (My) or their parent account's data (account name will be displayed).
 
-**Metadata filters** - Records in the list can be filtered on any of the list columns, including ranges, lookups, optionsets, and even custom FetchXml expression. Portal user have access to interactive filtering panel when the entity list is rendered.
+**Metadata filters** - Records in the list can be filtered on any of the list columns, including ranges, lookups, option sets, and even custom FetchXml expression. Portal users have access to interactive filtering panel when the entity list is rendered.
 
 > [!div class="mx-imgBorder"]
 > [![Entity list search and filtering](../media/2-entity-list-features-filtering-ssm.png)](../media/2-entity-list-features-filtering-ssm.png#lightbox)
