@@ -10,7 +10,7 @@ A simple table structure will:
 
 The following sections further explain how you might work with your tables to ensure a simple and readable table structure.
 
-Configure data model and build relationships between tables
+## Configure data model and build relationships between tables
 
 Assuming that you've already retrieved your data and cleaned it in Power Query, you can then go to the **Model** tab, where the data model is located. The following image shows how the relationship between the **Order** and **Sales** tables can be seen through the **OrderDate** column. 
 
@@ -26,7 +26,7 @@ In this view, you can create, edit, and delete relationships between tables and 
 
 While the **Manage Relationships** feature allows you to configure relationships between tables, you can also configure table and column properties to ensure organization in your table structure.
 
-Configure table and column properties
+## Configure table and column properties
 
 The **Model** view in Power BI desktop provides many options within the column properties that you can view or update. A simple method to get to this menu to update the tables and fields is by Ctrl+clicking or Shift+clicking items on this page.
 

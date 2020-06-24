@@ -1,6 +1,6 @@
 During report creation in Power BI, a common business requirement is to make calculations based on date and time. Organizations want to know how their business is doing over months, quarters, fiscal years, and so on. For this reason, it is crucial that these time-oriented values are formatted correctly. Power BI autodetects for date columns and tables; however, situations can occur where you will need to take extra steps to get the dates in the format that your organization requires.
 
-For example, suppose that you are developing reports for the Sales team at your organization. The database contains tables for sales, orders, products, and more. You notice that many of these tables, including Sales and Orders, contain their own date columns, as shown by the **ShipDate** and **OrderDate** columns in the Sales and Orders tables**.** You are tasked with developing a table of the total sales and orders by year and month. How can you build a visual with multiple tables, each referencing their own date columns?
+For example, suppose that you are developing reports for the Sales team at your organization. The database contains tables for sales, orders, products, and more. You notice that many of these tables, including Sales and Orders, contain their own date columns, as shown by the **ShipDate** and **OrderDate** columns in the Sales and Orders tables. You are tasked with developing a table of the total sales and orders by year and month. How can you build a visual with multiple tables, each referencing their own date columns?
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of data model excerpt](../media/03-data-model-excerpt-ssm.png)](../media/03-data-model-excerpt-ssm.png#lightbox)
@@ -37,25 +37,29 @@ You can use the Data Analysis Expression (DAX) functions CALENDARAUTO() or CALEN
 
 In Power BI Desktop, go to the **Modeling** tab on the ribbon. Select **New Table**, and then enter in the following DAX formula:
 
-```dax Dates  = CALENDAR(DATE(2011, 5, 31), DATE(2021, 5, 31))```
+```dax 
+Dates  = CALENDAR(DATE(2011, 5, 31), DATE(2021, 5, 31))
+```
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of CALENDAR() on Power BI](../media/03-dax-function-calendar-auto-01-ss.png)](../media/03-dax-function-calendar-auto-01-ss.png#lightbox)
 
 Now, you have a column of dates that you can use. However, this column is slightly sparse. You also want to see columns for just the year, the month number, the week of the year, and the day of the week. You can accomplish this task by selecting **New Column** on the ribbon and entering the following DAX equation, which will retrieve the year from your Date table.
 
-```dax Year = YEAR(Dates[Date])```
+```dax 
+Year = YEAR(Dates[Date])
+```
 
 > [!div class="mx-imgBorder"]
 > [![Adding columns using DAX](../media/03-adding-columns-dax.png)](../media/03-adding-columns-dax.png#lightbox)
 
 You can perform the same process to retrieve the month number, week number, and day of the week:
 
-```dax MonthNum = MONTH(Dates[Date])```
+```MonthNum = MONTH(Dates[Date])```
 
-```dax WeekNum = WEEKNUM(Dates[Date])```
+```WeekNum = WEEKNUM(Dates[Date])```
 
-```dax DayoftheWeek = FORMAT(Dates[Date].[Day], "DDDD")```
+```DayoftheWeek = FORMAT(Dates[Date].[Day], "DDDD")```
 
 When you have finished, your table will contain the columns that are shown in the following figure.
 
@@ -75,7 +79,9 @@ Select **Transform Data** in Power BI Desktop, which will direct you to Power Qu
 
 In the resulting **New Query** view, enter the following M-formula to build a calendar table:
 
-```dax = List.Dates(#date(2011,05,31), 365*10, #duration(1,0,0,0)``` 
+```dax 
+= List.Dates(#date(2011,05,31), 365*10, #duration(1,0,0,0)
+``` 
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot for using an M-formula to develop a calendar table](../media/03-m-query-common-data-table-04-ss.png)](../media/03-m-query-common-data-table-04-ss.png#lightbox)
@@ -139,7 +145,9 @@ After you have built the relationships, you can build your **Total Sales and Ord
 
 To determine the total sales, you need to add all sales because the **Amount** column in the Sales table only looks at the revenue for each sale, not the total sales revenue. You can complete this task by using the following measure calculation, which will be explained in later discussions. The calculation that you will use when building this measure is as follows:
 
-```dax #Total Sales = SUM(Sales[‘Amount’])```
+```dax 
+#Total Sales = SUM(Sales[‘Amount’])
+```
 
 After you have finished, you can create a table by returning to the **Visualizations** tab and selecting the **Table** visual. You want to see the total orders and sales by year and month, so you only want to include the Year and Month columns from your date table, the **OrderQty** column, and the **#TotalSales** measure. When you learn about hierarchies, you can also build a hierarchy that will allow you drill down from years to months. For this example, you can view them side-by-side. You have now successfully created a visual with a common date table.
 
