@@ -1,6 +1,6 @@
 Entity Forms add the ability for the portal pages to interact with the records in a specific entity using model-driven form definition as a layout template. Similar to entity lists, they are a data-driven configuration to allow end users to add a form to collect or display data in the portal without the need for a developer to create a custom form. Entity forms are defined using model-driven forms and can be placed into web pages in the portal.
 
-Entity forms can display most fields types and subgrids but currently cannot display Power Apps Component Framework (PCF) controls.
+Entity forms can display most fields types and subgrids but currently cannot display Power Apps Component Framework controls.
 
 > [!div class="mx-imgBorder"]
 > [![Entity Form](../media/3-entity-form-ss.png)](../media/3-entity-form-ss.png#lightbox)
@@ -11,7 +11,7 @@ There are few common scenarios where entity forms can be used.
 
 | Scenario | Description                                                  |
 | -------- | ------------------------------------------------------------ |
-| **Layout** | Entity Forms can be configured and used in read-only mode as layout mechanism. Think of the informational pages about employees, products, or any other CDS entity. For example, you might have a custom entity in your CDS instance describing open positions available within your organization. Instead of crafting a special template to render the page, you can create a separate model-driven form for the entity, create a new **web page** using the Portal Studio and add an **Entity Form** component to the page.  Any published changes in form layout in model-driven app will automatically apply to the web page. |
+| **Layout** | Entity Forms can be configured and used in read-only mode as layout mechanism. Think of the informational pages about employees, products, or any other Common Data Service entity. For example, you might have a custom entity in your Common Data Service instance describing open positions available within your organization. Instead of crafting a special template to render the page, you can create a separate model-driven form for the entity, create a new **web page** using the Portal Studio and add an **Entity Form** component to the page.  Any published changes in form layout in model-driven app will automatically apply to the web page. |
 | **Information capture** | Forms can be used on the portal for data capture from either anonymous or authenticated users. For example, a simple lead entity form may be used rendered on Contact Us page to record anonymous requests as leads in Dynamics 365 Sales. For authenticated users, a portal might use a survey page to collect product feedback from the customers into a custom Product Feedback entity. |
 | **Record management** | Typically used in authenticated scenarios, entity forms allow various combinations of Create, Retrieve, Update, Delete (CRUD) operations on an entity to be defined within a set of related web pages. For example, customers can retrieve and read their own cases, and create new ones. Partners can edit their company profile. Employees can view the list of assets allocated to them by the company. |
 | **Web apps** | Entity forms, when used in conjunction with entity lists and subgrids, and with the functionality extended by JavaScript, allow developers to build out complete web applications. |
@@ -33,7 +33,7 @@ While reuse of forms that are part of a model-driven app is possible, common pra
 
 ### Mode
 
-Form mode can be **Read Only**, **Insert**, or **Edit**. This defines if the form is used to generate a layout, capture the data, or provide full editing capabilities for CDS records. 
+Form mode can be **Read Only**, **Insert**, or **Edit**. This defines if the form is used to generate a layout, capture the data, or provide full editing capabilities for Common Data Service records. 
 
 > [!NOTE]
 > A form in Edit mode will be rendered a Read Only if user does not have write privileges for the record.
@@ -145,7 +145,7 @@ An entity form defines the required behavior but does not contain any informatio
 
 Because forms can submit information back to the server for processing, there is much less control over the entity forms rendering as compared to the entity lists.
 
-In the following video, we show how to extend entity list functionality with entity forms and display a CDS record either in a popup window or on a separate web page.
+In the following video, we show how to extend entity list functionality with entity forms and display a Common Data Service record either in a popup window or on a separate web page.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/]
 
