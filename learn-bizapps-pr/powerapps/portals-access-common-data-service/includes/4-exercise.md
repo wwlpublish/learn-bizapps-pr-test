@@ -11,11 +11,11 @@ At the end of these exercises, you will be able to accomplish the following:
 ### Prerequisites
 
 1. You will need access to the Power Apps maker portal.
-1. Ideally you will have the default sample CDS apps and data, but you can use other Common Data Service entities.
+1. Ideally you will have the default sample Common Data Service apps and data, but you can use other Common Data Service entities.
 1. You will need to have provisioned a Power Apps portal to complete the exercise [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true).
 
 > [!TIP]
-> The exercises work best when you have some sample data to work with. When you provision a CDS environment, you have the opportunity to add sample apps and data.  Please review [Create Environment](https://docs.microsoft.com/power-platform/admin/create-environment.md?azure-portal=true#create-an-environment-with-a-database) steps to provision a CDS environment with sample apps and data.
+> The exercises work best when you have some sample data to work with. When you provision a Common Data Service environment, you have the opportunity to add sample apps and data.  Please review [Create Environment](https://docs.microsoft.com/power-platform/admin/create-environment.md?azure-portal=true#create-an-environment-with-a-database) steps to provision a Common Data Service environment with sample apps and data.
 
 ## Scenario
 
@@ -54,7 +54,7 @@ We will need to create a web page to contain the Entity List component.
 	- **Entity**: Idea (sample idea) *or choose another entity from your own app*
 	- **Views**: Active Ideas
 
-1. Choose **Browse** from the Command bar and ensure that you can see a list of Idea data records from CDS.
+1. Choose **Browse** from the Command bar and ensure that you can see a list of Idea data records from Common Data Service.
 
 ### Create a web page for the entity form
 
@@ -93,7 +93,7 @@ We will need to create a web page to contain the Entity Form component to view r
 	- **Form**: Ideas Detail
 
 1. Click in the canvas area to save the web page.
-1. Choose **Browse** from the Command bar and ensure that you can see a list of Idea data records from CDS and click on an idea to view details.
+1. Choose **Browse** from the Command bar and ensure that you can see a list of Idea data records from Common Data Service and click on an idea to view details.
 
 > [!div class="mx-imgBorder"]
 > [![entity list](../media/4-entity-list-exercise-ss.png)](../media/4-entity-list-exercise-ss.png#lightbox)
