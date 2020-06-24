@@ -4,7 +4,7 @@ You can use a range of buttons and bookmarks when designing your report navigati
 
 ## Add navigation buttons
 
-To design the navigation within your report, you can create a new **Navigation** page in your report and add navigation buttons on that page. You can also use a combination of both options. When users select one of these buttons, they are brought directly to a different page within the report, which you can hide so that it can be only be accessed through the **Navigation** page buttons.
+To design the navigation within your report, you can create a new **Navigation** page in your report and add navigation buttons on that page. You can also use a combination of both options. When users select one of these buttons, they are brought directly to a different page within the report, which you can hide so that it can only be accessed through the **Navigation** page buttons.
 
 In the following example, you will create a **Navigation** page on which you add two navigation buttons to your other pages.
 
