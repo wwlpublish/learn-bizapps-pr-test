@@ -316,9 +316,7 @@ In this task, you will switch to Report view, and review the model interface.
 
 1. Expand the **Sales | OrderDate** field, and then notice that it reveals a date hierarchy.
 
-	The **Targets | TargetMonth** presents the same hierarchy. These hierarchies were not created by you. They are created automatically. There is a problem, however. The Adventure Works financial year commences on July 1 of each year. But, the date hierarchy year commences on January 1 of each year.
-
-	You will now turn off this automatic behavior.
+	The **Targets | TargetMonth** presents the same hierarchy. These hierarchies were not created by you. They are created automatically. There is a problem, however. The Adventure Works financial year commences on July 1 of each year. But, the date hierarchy year commences on January 1 of each year. You will now turn off this automatic behavior.
 
 1. To turn off auto/date time, click the **File** ribbon tab to open the backstage view.
 
