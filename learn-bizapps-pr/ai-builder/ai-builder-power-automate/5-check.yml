@@ -27,7 +27,6 @@ quiz:
     - content: Schedule training of my AI models 
       isCorrect: false 
       explanation: Using Power Automate flows for AI Builder automate to scale.
-  questions: 
   - content: What is the place where you can find pre-configured AI Builder flows you can use to build your own flow? 
     choices: 
     - content: My Flows 
@@ -42,7 +41,6 @@ quiz:
     - content: Power Apps
       isCorrect: false 
       explanation: Pre-configured AI Builder flows are in templates.
-  questions: 
   - content: How can you incorporate AI Builder logic in a Power Automate flow? 
     choices: 
     - content: By adding a new step in your flow and searching for AI Builder action name  
