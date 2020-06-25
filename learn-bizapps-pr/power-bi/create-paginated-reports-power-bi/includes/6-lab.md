@@ -446,7 +446,7 @@ In this task, you will add a table data region to the report body.
 	|     Position | Location | Top     |     0        |
                                  
 
-The table will display five columns. By default, the table template includes only three columns.
+	The table will display five columns. By default, the table template includes only three columns.
 
 1. To add a column to the table, right-click inside any cell of the last column, and then select **Insert Column | Right**.
 
@@ -535,9 +535,9 @@ In this task, you will format the table data region.
 
 	|     Property                      |     Value                                                                     |
 	|-----------------------------------|-------------------------------------------------------------------------------|
-	|     Fill | BackgroundColor       |     DarkGreen (tip: hover the   cursor over each color to reveal its name)    |
-	|     Font | Color                 |     White                                                                     |
-	|     Font | Font | FontWeight    |     Bold                                                                      |
+	|     Fill \| BackgroundColor       |     DarkGreen (tip: hover the cursor over each color to reveal its name)    |
+	|     Font \| Color                 |     White                                                                     |
+	|     Font \| Font | FontWeight    |     Bold                                                                      |
                                
 1. Select the first column guide.
 
@@ -557,7 +557,7 @@ In this task, you will format the table data region.
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-53-ssm.png)](../media/lab-53-ssm.png#lightbox)
 
-1. On the **Home** ribbon tab, from inside the **Number** group, set the last two [detail]{.underline} (not header) textboxes (**UnitPrice** and **Amount**) to format with a currency symbol.
+1. On the **Home** ribbon tab, from inside the **Number** group, set the last two detail (not header) textboxes (**UnitPrice** and **Amount**) to format with a currency symbol.
 
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-54-ssm.png)](../media/lab-54-ssm.png#lightbox)
