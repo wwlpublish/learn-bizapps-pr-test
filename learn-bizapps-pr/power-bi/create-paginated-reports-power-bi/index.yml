@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.create-paginated-reports-power-bi 
+metadata: 
+ title: 
+ description: 
+ ms.date: 06/30/2020  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title:  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Summary text goes here. 
+abstract: |  
+    In this module, you will: 
+    - 
+    - 
+prerequisites:  
+iconUrl: /learn/achievements/create-paginated-reports-power-bi.svg  
+levels:  
+- intermediate   
+roles:  
+- business-analyst  
+products:  
+- dynamics  
+- power-bi 
+units: 
+- learn-bizapps.create-paginated-reports-power-bi.1-introduction 
+- learn-bizapps.create-paginated-reports-power-bi.2-get-data 
+- learn-bizapps.create-paginated-reports-power-bi.3-paginated-report 
+- learn-bizapps.create-paginated-reports-power-bi.4-charts 
+- learn-bizapps.create-paginated-reports-power-bi.5-publish 
+- learn-bizapps.create-paginated-reports-power-bi.6-lab 
+- learn-bizapps.create-paginated-reports-power-bi.7-check 
+- learn-bizapps.create-paginated-reports-power-bi.8-summary 
+badge: 
+  uid: learn-bizapps.create-paginated-reports-power-bi.badge 
