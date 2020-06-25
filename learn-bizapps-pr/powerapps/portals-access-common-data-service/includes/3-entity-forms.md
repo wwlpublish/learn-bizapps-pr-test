@@ -147,5 +147,5 @@ Because forms can submit information back to the server for processing, there is
 
 In the following video, we show how to extend entity list functionality with entity forms and display a Common Data Service record either in a popup window or on a separate web page.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AjtN]
 
