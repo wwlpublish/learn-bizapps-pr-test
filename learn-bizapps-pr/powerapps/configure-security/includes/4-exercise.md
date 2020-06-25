@@ -128,6 +128,6 @@ To finish the exercise you need to complete the following tasks.
 1. Select **Sign in** and enter the username and password for the portal user you created earlier.
 1. Navigate to the **Partner Directory** page, you should be able to view the list of account records.
     > [!div class="mx-imgBorder"]
-    > [![Partner List](../media/exercise-entity-permissions.png)](../media/image.png#lightbox)
+    > [![Partner List](../media/exercise-entity-permissions.png)](../media/exercise-entity-permissions.png#lightbox)
 
 1. Click the *username* and then select **Sign-out**, the page should display a message about not having permissions to view records.
