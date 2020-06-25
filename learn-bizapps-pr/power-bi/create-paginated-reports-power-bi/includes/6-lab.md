@@ -216,7 +216,7 @@ In this task, you will create a data source and dataset to retrieve a query resu
 
 	It is not important that you understand the details of the query statement. It has been designed to retrieve sales order line details. The WHERE clause includes a predicate to restrict the query result to a single sales order. The ORDER BY clause ensures the rows are returned by line number order.
 
-1. Notice the use of **@SalesOrderNumber** in the WHERE clause, which represents a query parameter.
+1. Notice the use of **\@SalesOrderNumber** in the WHERE clause, which represents a query parameter.
 
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
@@ -243,7 +243,7 @@ In this task, you will configure the report parameter with a default value.
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-22-ssm.png)](../media/lab-22-ssm.png#lightbox)
 
-	The **SalesOrderNumber** report parameter was added automatically when the dataset was created. This is because the dataset query included the **@SalesOrderNumber** query parameter.
+	The **SalesOrderNumber** report parameter was added automatically when the dataset was created. This is because the dataset query included the **\@SalesOrderNumber** query parameter.
 
 1. To edit the report parameter, right-click the **SalesOrderNumber** report parameter, and then select **Parameter Properties**.
 
