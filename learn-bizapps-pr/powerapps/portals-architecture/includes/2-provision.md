@@ -42,5 +42,5 @@ By default a portal will be provisioned in Trial mode. A maker will have 30 days
 
 If a portal app is deleted, it will remove the portal app from the list of apps and delete the portal web application. It will not delete the portal solutions or portal metadata from the Common Data Service.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yWm3]
 
