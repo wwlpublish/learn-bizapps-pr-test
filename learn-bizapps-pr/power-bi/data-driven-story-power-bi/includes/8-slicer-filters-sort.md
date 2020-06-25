@@ -88,7 +88,7 @@ To apply a filter, drag and drop a field from the **Fields** pane into the relev
 
 You can sort the data that is displayed in your visuals so it's displayed to your specifications.
 
-Sorting helps you display the most important data in the most logical way, such as in alphabetical or numeric order. This basic feature can help when you are making big business decisions. For example, if you display products with the highest sales first, you are helping users see which product is the most popular among the customer base. Similarly, the products with low sales can be discontinued or replaced with new products to help increase revenue.
+Sorting helps you display the most important data in the most logical way, such as in alphabetical or numeric order. This basic feature can help when you are making significant business decisions. For example, if you display products with the highest sales first, you are helping users see which product is the most popular among the customer base. Similarly, the products with low sales can be discontinued or replaced with new products to help increase revenue.
 
 To sort a visual, start by selecting the **More options...** button in the upper-right corner of the visual, where you will have three sorting options:
 
