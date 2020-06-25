@@ -37,7 +37,7 @@ Under the **General** tab, you can:
 
 -   Edit the name and description of the column.
 
--   Add synonyms that can be used to identify the column when you are using the Q&A feature, which is discussed later in this learning path.
+-   Add synonyms that can be used to identify the column when you are using the Q&A feature.
 
 -   Add a column into a folder to further organize the table structure.
 
