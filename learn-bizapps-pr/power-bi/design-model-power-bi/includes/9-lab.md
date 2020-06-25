@@ -1,10 +1,6 @@
 In this lab, you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
-In this lab, you learn how to:
-
--   Configure many-to-many relationships
-
--   Enforce row-level security
+In this lab, you learn how to configure many-to-many relationships
 
 ## Create a many-to-many relationship
 
@@ -21,7 +17,7 @@ Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab05A\Starter** f
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the resulting table visual.](../media/lab-2-1-ss.png)](../media/lab-2-1-ss.png#lightbox)
 
-	The table displays sales made by each salesperson. However, there is another relationship between salespeople and sales. Some salespeople belong to one, two, or possibly more sales regions. In addition, sales regions can have multiple salespeople assigned to them.
+	> *The table displays sales made by each salesperson. However, there is another relationship between salespeople and sales. Some salespeople belong to one, two, or possibly more sales regions. In addition, sales regions can have multiple salespeople assigned to them.*
 
 	> *From a performance management perspective, a salesperson's sales (based on their assigned territories) need to be analyzed and compared with sales targets. In this exercise, you will create relationships to support this analysis.*
 
