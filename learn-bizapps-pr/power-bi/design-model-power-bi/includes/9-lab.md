@@ -23,7 +23,7 @@ Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab05A\Starter** f
 
 	The table displays sales made by each salesperson. However, there is another relationship between salespeople and sales. Some salespeople belong to one, two, or possibly more sales regions. In addition, sales regions can have multiple salespeople assigned to them.
 
-	From a performance management perspective, a salesperson's sales (based on their assigned territories) need to be analyzed and compared with sales targets. In this exercise, you will create relationships to support this analysis.
+	> *From a performance management perspective, a salesperson's sales (based on their assigned territories) need to be analyzed and compared with sales targets. In this exercise, you will create relationships to support this analysis.*
 
 1.  Notice that Michael Blythe has sold almost $9 million.
 
@@ -66,7 +66,7 @@ Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab05A\Starter** f
 
 1. Switch to Report view, and then notice that the sales values have not changed.
 
-	The issue now relates to the fact that there are two possible filter propagation paths between the **Salesperson** and **Sales** tables. This ambiguity is internally resolved, based on a "least number of tables" assessment. To be clear, you should not design models with this type of ambiguity---it will be addressed in part in this lab, and by the next lab.
+	> *The issue now relates to the fact that there are two possible filter propagation paths between the **Salesperson** and **Sales** tables. This ambiguity is internally resolved, based on a "least number of tables" assessment. To be clear, you should not design models with this type of ambiguity---it will be addressed in part in this lab, and by the next lab.*
 
 1. Switch to Model view.
 
@@ -76,7 +76,7 @@ Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab05A\Starter** f
 
 1. Click **OK**.
 
-	The filter propagation is now forced to take the only active path.
+	> *The filter propagation is now forced to take the only active path.*
 
 1. In the diagram, notice that the inactive relationship is represented by a dashed line.
 
@@ -90,15 +90,15 @@ Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab05A\Starter** f
 
 1. Notice also, that the sales for each salesperson---if added---would exceed the total.
 
-	This observation is a many-to-many relationships, due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It's the correct result simply due to the fact the he's the Director of Sales; his sales are measured by the sales of all regions.
+	> *This observation is a many-to-many relationships, due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It's the correct result simply due to the fact the he's the Director of Sales; his sales are measured by the sales of all regions.*
 
-	While the many-to-many relationship is now working, it's now not possible to analyze sales made by a salesperson (the relationship is inactive).
+	> *While the many-to-many relationship is now working, it's now not possible to analyze sales made by a salesperson (the relationship is inactive).*
 
 1. Switch to Modeling view, and then in the diagram, select the **Salesperson** table.
 
 1. In the **Properties** pane, in the **Name** box, replace the text with **Salesperson (Performance)**.
 
-	The renamed table now reflects its purpose: it is used to report and analyze the performance of salespeople based on the sales of their assigned sales regions.
+	> *The renamed table now reflects its purpose: it is used to report and analyze the performance of salespeople based on the sales of their assigned sales regions.*
 
 ### Relate the Targets table
 
