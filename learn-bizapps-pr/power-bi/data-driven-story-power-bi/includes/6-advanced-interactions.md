@@ -2,7 +2,7 @@ To ensure that you have full control over the behavior of your report and can de
 
 ## Edit interactions
 
-You can use visual interaction controls to customize how the visualizations on your report page impact each other, in order words, filter and highlight each other.
+You can use visual interaction controls to customize how the visualizations on your report page impact each other, in other words, filter and highlight each other.
 
 For example, when you select an item in a visual, the other visuals update to display data for that item; they might be highlighting or filtering the selected data. You can stop this occurrence from happening, or change a highlight action to a filter action and vice versa. Therefore, you have the power to determine what data is displayed for a specific selection that you've made.
 
