@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.create-paginated-reports-power-bi.8-summary 
-title: 
+title: Summary
 metadata: 
-  title:  
-  description:  
+  title: Summary 
+  description: Summary of creating paginated reports.  
   ms.date: 06/30/2020 
   author: heyrob 
   ms.author: robde 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-bi 
-durationInMinutes: 5 
+durationInMinutes: 1 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/8-summary.md)] 
