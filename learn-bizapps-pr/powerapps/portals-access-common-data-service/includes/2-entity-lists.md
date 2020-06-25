@@ -101,7 +101,7 @@ For more detailed information about entity list attributes and relationships, an
 
 Watch the following video to learn how to take an existing Common Data Service entity, configure and display the view on a portal page, and add interactive filtering capabilities.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ArhG]
 
 Now that we've seen how the entity lists are built and rendered, let's take a look how portals can display and interact with the individual records.
 
