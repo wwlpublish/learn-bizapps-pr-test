@@ -134,10 +134,10 @@ In this task, you will configure the report header.
 
 	|     Property                        |     Value    |
 	|-------------------------------------|--------------|
-	|     Position | Location | Left    |     5        |
-	|     Position | Location | Top     |     0        |
-	|     Position | Size | Width       |     1        |
-	|     Position | Size | Height      |     1        |
+	|     Position \| Location \| Left    |     5        |
+	|     Position \| Location \| Top     |     0        |
+	|     Position \| Size \| Width       |     1        |
+	|     Position \| Size \| Height      |     1        |
                                  
 
 1. To resize the report header region, first select the region by clicking a blank area of the region.
@@ -322,10 +322,10 @@ In this task, you will finalize the report header region design by adding textbo
 
 	|     Property                        |     Value    |
 	|-------------------------------------|--------------|
-	|     Position | Location | Left    |     0        |
-	|     Position | Location | Top     |     0.5      |
-	|     Position | Size | Width       |     4        |
-	|     Position | Size | Height      |     0.25     |
+	|     Position \| Location \| Left    |     0        |
+	|     Position \| Location \| Top     |     0.5      |
+	|     Position \| Size \| Width       |     4        |
+	|     Position \| Size \| Height      |     0.25     |
                                  
 
 1. To format part of the textbox text, inside the new textbox, select only the **Sales Order:** text.
@@ -356,10 +356,10 @@ In this task, you will finalize the report header region design by adding textbo
 
 	|     Property                        |     Value    |
 	|-------------------------------------|--------------|
-	|     Position | Location | Left    |     0        |
-	|     Position | Location | Top     |     0.75     |
-	|     Position | Size | Width       |     4        |
-	|     Position | Size | Height      |     0.25     |
+	|     Position /| Location /| Left    |     0        |
+	|     Position /| Location /| Top     |     0.75     |
+	|     Position /| Size /| Width       |     4        |
+	|     Position /| Size /| Height      |     0.25     |
 	                                 
 
 1. Format the **Reseller:** text in bold.
@@ -389,10 +389,10 @@ In this task, you will finalize the report header region design by adding textbo
 
 	|     Property                        |     Value    |
 	|-------------------------------------|--------------|
-	|     Position | Location | Left    |     0        |
-	|     Position | Location | Top     |     1        |
-	|     Position | Size | Width       |     4        |
-	|     Position | Size | Height      |     0.25     |
+	|     Position \| Location \| Left    |     0        |
+	|     Position \| Location \| Top     |     1        |
+	|     Position \| Size \| Width       |     4        |
+	|     Position \| Size \| Height      |     0.25     |
 	                                 
 
 1. Format the **Order Date:** text in bold.
@@ -442,8 +442,8 @@ In this task, you will add a table data region to the report body.
 
 	|     Property                        |     Value    |
 	|-------------------------------------|--------------|
-	|     Position | Location | Left    |     0        |
-	|     Position | Location | Top     |     0        |
+	|     Position \| Location \| Left    |     0        |
+	|     Position \| Location \| Top     |     0        |
                                  
 
 	The table will display five columns. By default, the table template includes only three columns.
@@ -537,7 +537,7 @@ In this task, you will format the table data region.
 	|-----------------------------------|-------------------------------------------------------------------------------|
 	|     Fill \| BackgroundColor       |     DarkGreen (tip: hover the cursor over each color to reveal its name)    |
 	|     Font \| Color                 |     White                                                                     |
-	|     Font \| Font | FontWeight    |     Bold                                                                      |
+	|     Font \| Font \| FontWeight    |     Bold                                                                      |
                                
 1. Select the first column guide.
 
