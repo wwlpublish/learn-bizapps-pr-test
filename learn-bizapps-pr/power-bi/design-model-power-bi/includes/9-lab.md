@@ -1,6 +1,6 @@
 In this lab, you will create a many-to-many relationship between the **Salesperson** table and the **Sales** table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s).
 
-In this lab, you learn how to configure many-to-many relationships
+In this lab, you learn how to configure many-to-many relationships.
 
 ## Create a many-to-many relationship
 
@@ -48,7 +48,7 @@ Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab05A\Starter** f
 
 1.  Check the **Apply Security Filter in Both Directions** checkbox.
 
-	This setting will ensure that bi-directional filtering is applied when row-level security is being enforced. You will configure a security role in the next exercise.
+	> *This setting will ensure that bi-directional filtering is applied when row-level security is being enforced. You will configure a security role in the next exercise.*
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of Cross filter direction dropdown list.](../media/lab-2-3-ssm.png)](../media/lab-2-3-ssm.png#lightbox)
@@ -84,7 +84,7 @@ Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab05A\Starter** f
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the updated table visual with Michael Blythe's updated sales.](../media/lab-2-6-ss.png)](../media/lab-2-6-ss.png#lightbox)
 
-1. Notice also, that the sales for each salesperson---if added---would exceed the total.
+1. Notice also, that the sales for each salesperson — if added — would exceed the total.
 
 	> *This observation is a many-to-many relationships, due to the double, triple, etc. counting of regional sales results. Consider Brian Welcker, the second salesperson listed. His sales amount equals the total sales amount. It's the correct result simply due to the fact the he's the Director of Sales; his sales are measured by the sales of all regions.*
 
