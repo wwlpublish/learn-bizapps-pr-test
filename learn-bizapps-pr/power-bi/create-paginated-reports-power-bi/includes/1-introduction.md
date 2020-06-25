@@ -20,7 +20,7 @@ Power BI paginated reports can also display all of your data in a single report 
 Power BI paginated reports are not created in Power BI Desktop; they are built by using Power BI Report Builder. Power BI paginated reports are a feature of Power BI Premium.
 
 > [!div class="mx-imgBorder"]
-> [![Power BI premium](../media/image.04-power-bi-premium-ss)](../media/04-power-bi-premium-ss.png#lightbox)
+> [![Power BI premium](../media/04-power-bi-premium-ss)](../media/04-power-bi-premium-ss.png#lightbox)
 
 In this module, you will:
 
