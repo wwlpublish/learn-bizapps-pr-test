@@ -319,6 +319,7 @@ In this task, you will finalize the report header region design by adding textbo
 1. Click a blank area of the report header region, and then select the new textbox.
 
 1. In the **Properties** pane, configure the following position properties:
+                              
 
 	|     Property                        |     Value    |
 	|-------------------------------------|--------------|
@@ -326,7 +327,6 @@ In this task, you will finalize the report header region design by adding textbo
 	|     Position \| Location \| Top     |     0.5      |
 	|     Position \| Size \| Width       |     4        |
 	|     Position \| Size \| Height      |     0.25     |
-                                 
 
 1. To format part of the textbox text, inside the new textbox, select only the **Sales Order:** text.
 
@@ -356,10 +356,10 @@ In this task, you will finalize the report header region design by adding textbo
 
 	|     Property                        |     Value    |
 	|-------------------------------------|--------------|
-	|     Position /| Location /| Left    |     0        |
-	|     Position /| Location /| Top     |     0.75     |
-	|     Position /| Size /| Width       |     4        |
-	|     Position /| Size /| Height      |     0.25     |
+	|     Position \| Location \| Left    |     0        |
+	|     Position \| Location \| Top     |     0.75     |
+	|     Position \| Size \| Width       |     4        |
+	|     Position \| Size \| Height      |     0.25     |
 	                                 
 
 1. Format the **Reseller:** text in bold.
