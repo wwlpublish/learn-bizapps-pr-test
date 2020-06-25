@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.configure-security.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/06/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What entity defines the data access privileges a **web role** has in Power Apps portals?
+    choices: 
+    - content: Contacts
+      isCorrect: false 
+      explanation: Web Page Access Rules define what pages are visible to a Web Role and what actions can be taken. Entity Permissions define what access a Web Role has to individual CDS entities.
+    - content: Data Access Permissions
+      isCorrect: false 
+      explanation: Web Page Access Rules define what pages are visible to a Web Role and what actions can be taken. Entity Permissions define what access a Web Role has to individual CDS entities.
+    - content: Entity Permissions
+      isCorrect: true 
+      explanation: Web Page Access Rules define what pages are visible to a Web Role and what actions can be taken. Entity Permissions define what access a Web Role has to individual CDS entities.
+    - content: Web Page Access Rules
+      isCorrect: false 
+      explanation: Web Page Access Rules define what pages are visible to a Web Role and what actions can be taken. Entity Permissions define what access a Web Role has to individual CDS entities.
+  - content: You created a new role called *Partner Manager* and would like to grant users in this role permission to edit all contacts within the user's parent account. What scope would you select for the entity permission?
+    choices: 
+    - content: Contact scope
+      isCorrect: false 
+      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
+    - content: Account scope
+      isCorrect: true 
+      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
+    - content: Self scope
+      isCorrect: false 
+      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
+    - content: This access is granted implicitly, no need to add any permissions
+      isCorrect: false 
+      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
+  - content: You added a Dynamic Lookup Filter to your entity list to be able to filter the list by currency. At runtime, however, the list of available currencies in the filter is empty. You double-checked your Common Data Service instance and there are active currency records. What do you need to do to display currencies in the filter?
+    choices: 
+    - content: Remove and add filter back
+      isCorrect: false 
+      explanation: Whenever CDS data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+    - content: Update currency exchange rate in a Common Data Service model-driven app
+      isCorrect: false 
+      explanation: Whenever CDS data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+    - content: Login as administrator
+      isCorrect: false 
+      explanation: Whenever CDS data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+    - content: Add entity permission record for the currency entity
+      isCorrect: true 
+      explanation: Whenever CDS data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+  - content: You have a product list page that uses an entity list to display the data. You have configured Read  permission for product list entity and set the scope to Global. Users complained that they can browse a product listing page anonymously but are denied access the page after they sign in. How would you modify resolve the issue?
+    choices: 
+    - content: Change the scope to Contact scope
+      isCorrect: false 
+      explanation: One of the web roles in the portal can be marked as Anonymous and another one as Authenticated. These roles allow to apply permissions and access rules to all portal users based on whether they access the site anonymously or if they are signed in. Since the users can access the data anonymously but not when authenticated, it indicates that the entity permission is associated with the Anonymous role but not with the Authenticated one.
+    - content: Ask developer to create a web template that can bypass the security check
+      isCorrect: false 
+      explanation: One of the web roles in the portal can be marked as Anonymous and another one as Authenticated. These roles allow to apply permissions and access rules to all portal users based on whether they access the site anonymously or if they are signed in. Since the users can access the data anonymously but not when authenticated, it indicates that the entity permission is associated with the Anonymous role but not with the Authenticated one.
+    - content: Associate entity permission with All Users role
+      isCorrect: false 
+      explanation: One of the web roles in the portal can be marked as Anonymous and another one as Authenticated. These roles allow to apply permissions and access rules to all portal users based on whether they access the site anonymously or if they are signed in. Since the users can access the data anonymously but not when authenticated, it indicates that the entity permission is associated with the Anonymous role but not with the Authenticated one.
+    - content: Associate entity permission with Authenticated users role
+      isCorrect: true 
+      explanation: One of the web roles in the portal can be marked as Anonymous and another one as Authenticated. These roles allow to apply permissions and access rules to all portal users based on whether they access the site anonymously or if they are signed in. Since the users can access the data anonymously but not when authenticated, it indicates that the entity permission is associated with the Anonymous role but not with the Authenticated one.
