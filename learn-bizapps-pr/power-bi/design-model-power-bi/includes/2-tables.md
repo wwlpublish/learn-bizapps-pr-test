@@ -47,7 +47,7 @@ Under the **Formatting** tab, you can:
 
 -   Change the data type.
 
--   Format the data.
+-   Format the date.
 
 For instance, suppose that the dates in your column are formatted, as seen in the previous screenshot, in the form of "Wednesday, March 14, 2001". If you want to change the format so that the date was in the "mm/dd/yyyy" format, you would select the drop-down menu under **All date time formats** and then choose the appropriate date format, as shown in the following figure.
 
