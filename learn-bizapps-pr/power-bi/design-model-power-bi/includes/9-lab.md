@@ -37,7 +37,7 @@ Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab05A\Starter** f
 
 1.  Switch back to Model view, and then follow the relationship filter directions (arrowhead) from the **Salesperson** table.
 
-	Consider this: the **Salesperson** table filters the **Sales** table. It also filters the **SalespersonRegion** table, but it does not continue to propagate to the **Region** table (the arrowhead is pointing the wrong way).
+	> *Consider this: the **Salesperson** table filters the **Sales** table. It also filters the **SalespersonRegion** table, but it does not continue to propagate to the **Region** table (the arrowhead is pointing the wrong way).*
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the relationship between the Region, SalespersonRegion, and Salesperson tables.](../media/lab-2-2-ssm.png)](../media/lab-2-2-ssm.png#lightbox)
