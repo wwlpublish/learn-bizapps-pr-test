@@ -23,8 +23,6 @@ In this task, you will create model relationships.
 
 1.  If you do not see all seven tables, scroll horizontally to the right, and then drag and arrange the tables more closely together so they can all be seen at the same time.
 
-	In Model view, it's possible to view each table and relationships (connectors between tables).
-
 1.  To return to Report view, at the left, click the **Report** view icon.
 
 	> [!div class="mx-imgBorder"]
@@ -46,7 +44,8 @@ In this task, you will create model relationships.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the problem where every category lists the same sales amount](../media/lab-4-ss.png)](../media/lab-4-ss.png#lightbox)
 
-	The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn't a model relationship between these tables, the **Sales** table is not filtered. You will now add a relationship to propagate filters between the tables.
+	> [!NOTE]
+	> The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn't a model relationship between these tables, the **Sales** table is not filtered. You will now add a relationship to propagate filters between the tables.
 
 1.  On the **Modeling** ribbon tab, from inside the **Relationships** group, click **Manage Relationships**.
 
