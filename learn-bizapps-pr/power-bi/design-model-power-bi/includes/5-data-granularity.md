@@ -57,8 +57,8 @@ Power BI automatically detects relationships, but you can also go to **Manage Re
 
 By completing this task, you have ensured that the granularity is the same between your different tables. Now, you need to create DAX measures to calculate **Total Sales** and **BudgetAmount**. Go to the **Data** pane on Power BI Desktop, select **New Measure**, and then create two measures with the following equations:
 
-```dax T
-otalSales = SUM(Sales[Total Sales])/100
+```dax
+TotalSales = SUM(Sales[Total Sales])/100
 ```
 
 ```dax 
