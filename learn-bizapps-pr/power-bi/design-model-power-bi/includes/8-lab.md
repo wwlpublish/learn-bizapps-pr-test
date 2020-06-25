@@ -10,7 +10,7 @@ In this lab, you learn how to:
 
 -   Create quick measures
 
-If you're not confident you completed the previous lab successfully, you can open the previous lab's solution file, which is found in the **D:\DA100\Lab03A\Solution** folder.
+Open the **Sales Analysis.pbix** file found in the **D:\DA100\Lab04A\Starter** folder.
 
 ## Create model relationships
 
@@ -23,7 +23,7 @@ In this task, you will create model relationships.
 
 1.  If you do not see all seven tables, scroll horizontally to the right, and then drag and arrange the tables more closely together so they can all be seen at the same time.
 
-	In Model view, it's possible to view each table and relationships (connectors between tables). Presently, there are no relationships because in **Lab 02A**, you disabled the data load relationship options.
+	In Model view, it's possible to view each table and relationships (connectors between tables).
 
 1.  To return to Report view, at the left, click the **Report** view icon.
 
@@ -70,15 +70,15 @@ In this task, you will create model relationships.
 
 1. In the **Cardinality** dropdown list, notice that **One To Many** is selected.
 
-	The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type. You will work with a Many-to-many cardinality in **Lab 05A**.
+	The cardinality was automatically detected, because Power BI understands that the **ProductKey** column from the **Product** table contains unique values. One-to-many relationships are the most common cardinality, and all relationship you create in this lab will be this type.
 
 1. In the **Cross Filter Direction** dropdown list, notice that **Single** is selected.
 
-	Single filter direction means that filters propagate from the "one side" to the "many side". In this case, it means filters applied to the **Product** table will propagate to the **Sales** table, but not in the other direction. You will work with a bi-directional relationship in **Lab 05A**.
+	Single filter direction means that filters propagate from the "one side" to the "many side". In this case, it means filters applied to the **Product** table will propagate to the **Sales** table, but not in the other direction.
 
-1. Notice that the **Mark This Relationship Active** is checked.
+1. Notice that the **Make This Relationship Active** is checked.
 
-	Active relationships will propagate filters. It's possible to mark a relationship as inactive so filters don't propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In which case, model calculations can use special functions to activate them. You'll work with an inactive relationship in **Lab 05A**.
+	Active relationships will propagate filters. It's possible to mark a relationship as inactive so filters don't propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In which case, model calculations can use special functions to activate them.
 
 1. Click **OK**.
 
@@ -118,7 +118,7 @@ In this task, you will create model relationships.
 	
 	-   **Salesperson | EmployeeKey** to **Sales | EmployeeKey**
 
-	In this lab, the **SalespersonRegion** and **Targets** tables will remain disconnected. There's a many-to-many relationship between salespeople and regions, you will work this advanced scenario in the next lab.
+	In this lab, the **SalespersonRegion** and **Targets** tables will remain disconnected. There's a many-to-many relationship between salesperson and region, you will work this advanced scenario in the next lab.
 
 1. In the diagram, placing the tables with the **Sales** table in the center, and arranging the related tables about it.
 
@@ -275,9 +275,7 @@ In this task, you will update multiple columns in a single bulk update. You will
 
 1. In the **Properties** pane, slide the **Is Hidden** property to **On**.
 
-	The columns were hidden because they are either used by relationships or will be used in row-level security configuration or calculation logic.
-	
-	You will define row-level security in the next lab using the **UPN** column. You will use the **SalesOrderNumber** in a calculation in **Lab 06A**.
+	The columns were hidden because they are either used by relationships or calculation logic.
 
 1. Multi-select the following columns:
 
@@ -313,7 +311,7 @@ In this task, you will switch to Report view, and review the model interface.
 
 	The **Targets | TargetMonth** presents the same hierarchy. These hierarchies were not created by you. They are created automatically. There is a problem, however. The Adventure Works financial year commences on July 1 of each year. But, the date hierarchy year commences on January 1 of each year.
 
-	You will now turn off this automatic behavior. In **Lab 06A**, you will use DAX to create a date table, and configure it define the Adventure Works' calendar.
+	You will now turn off this automatic behavior.
 
 1. To turn off auto/date time, click the **File** ribbon tab to open the backstage view.
 
@@ -349,7 +347,7 @@ In this task, you will create two quick measures to calculate profit and profit 
 
 1. Click **OK**.
 
-	A quick measure creates the calculation for you. They're easy and fast to create for simple and common calculations. You'll create measures without this tool using the formula language in **Lab 06A**.
+	A quick measure creates the calculation for you. They're easy and fast to create for simple and common calculations. 
 
 1. In the **Fields** pane, inside the **Sales** table, notice the new measure.
 
@@ -401,6 +399,4 @@ In this task, you will complete the lab.
 1. To remove the table, select the table (by clicking it), and then press the **Delete** key.
 
 1. Save the Power BI Desktop file.
-
-In the next lab, you will enhance the data model by configuring a many-to-many relationship, and row-level security.
 
