@@ -6,7 +6,7 @@ Key performance indicators (KPIs) are excellent in helping you track progress to
 
 -   A time series, for instance daily, monthly, or yearly.
 
-Start by adding the KPI visual to the design service. The following screen shot shows the KPI icon in the **Visualizations** pane.
+Start by adding the KPI visual to the design service. The following screenshot shows the KPI icon in the **Visualizations** pane.
 
 > [!div class="mx-imgBorder"]
 > [![The KPI icon in the visualizations pane](../media/7-kpi-ss.png)](../media/7-kpi-ss.png#lightbox)
