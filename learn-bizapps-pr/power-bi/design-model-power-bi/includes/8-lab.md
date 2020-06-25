@@ -346,11 +346,11 @@ In this task, you will create two quick measures to calculate profit and profit 
 
 1. Click **OK**.
 
-	A quick measure creates the calculation for you. They're easy and fast to create for simple and common calculations. 
+	> *A quick measure creates the calculation for you. They're easy and fast to create for simple and common calculations.*
 
 1. In the **Fields** pane, inside the **Sales** table, notice the new measure.
 
-	Measures are adorned with the calculator icon.
+	> *Measures are adorned with the calculator icon.*
 
 1. To rename the measure, right-click it, and then select **Rename**.
 
