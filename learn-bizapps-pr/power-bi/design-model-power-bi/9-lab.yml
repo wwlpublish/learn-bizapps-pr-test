@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.design-model-power-bi.9-lab 
-title: Lab - Data Modeling in Power BI Desktop
+title: Lab - Developing a data model
 metadata: 
-  title: Lab - Data Modeling in Power BI Desktop 
+  title: Lab - Developing a data model 
   description: In this lab, you will create a many-to-many relationship between the Salesperson table and the Sales table. You will also enforce row-level security to ensure that a salesperson can only analyze sales data for their assigned region(s). 
   ms.date: 06/30/2020 
   author: heyrob 
