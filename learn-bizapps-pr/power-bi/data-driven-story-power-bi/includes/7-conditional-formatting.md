@@ -2,7 +2,7 @@ Conditional formatting in Power BI Desktop allows you to specify customized cell
 
 You might want to use conditional formatting to highlight or differentiate the data that is displayed in your visual. This approach will help you and other users see key data insights easily.
 
-For example, you could set up conditional formatting for your sales figures. If the sales amount falls below zero, you could display this in red, a color that is associated with danger, so that users will see this clearly and know that they need to take immediate action. Conversely, you could set a value for your sales target, displaying amounts over that target amount in a green color to signify that the target is met and all is going well.
+For example, you could set up conditional formatting for your sales figures. If the sales amount falls below zero, you could display this value in red, a color that is associated with danger, so that users will see it clearly and know that they need to take immediate action. Conversely, you could set a value for your sales target, displaying amounts over that target amount in a green color to signify that the target is met and all is going well.
 
 The following example shows conditional formatting being used in two visuals, **Table** and **Matrix**, where it is possible to set different conditions on a column. You can apply conditional formatting to any text or data field, but the formatting needs to be based on a field that has numeric, color name or hex code, or web URL values.
 
