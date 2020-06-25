@@ -42,7 +42,7 @@ quiz:
       explanation: SQL Server Reporting Services was the original tool.
     - content: SQL Server Reporting Services
       isCorrect: true 
-      explanation: Power Bi paginated reports was built from SQL Server Reporting Services. 
+      explanation: Power BI paginated reports was built from SQL Server Reporting Services. 
     - content: Microsoft SharePoint
       isCorrect: false 
       explanation: SQL Server Reporting Services was the original tool.
