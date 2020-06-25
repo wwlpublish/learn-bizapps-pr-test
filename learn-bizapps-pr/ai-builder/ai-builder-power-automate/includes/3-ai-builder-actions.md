@@ -16,7 +16,7 @@ To be able to add AI Builder actions in a flow, you need to create the flow from
 
 4.  Pick-up **Manually trigger a flow**, click on **+ Add an input**, and select **Text**. Name your Input **My Text**:
 
-    ![Add an action to flow.](..../media/03-pick-up-flow-trigger.png)
+    ![Add an action to flow.](../media/03-pick-up-flow-trigger.png)
 
 5.  Click on **+ New step**. We'll now add an AI Builder action.
 
