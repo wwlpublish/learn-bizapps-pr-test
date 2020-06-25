@@ -8,7 +8,7 @@ Power Automate offers AI builder actions that enable usage of all model types in
 
 -   Process model inference results in downstream actions (send by email, store in Common Data Service records, message in Teams, ...)
 
-The following illustration shows a simple flow with 3 main stages:
+The following illustration shows a simple flow with three main stages:
 
 -   Reception of an email in Outlook
 

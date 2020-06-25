@@ -34,7 +34,7 @@ Let's create a flow from an AI Builder template:
 
 ### Create a flow from AI Builder studio
 
-From AI Builder studio it's also possible to launch the creation of a flow using your favorite model.
+From AI Builder studio, it's also possible to launch the creation of a flow using your favorite model.
 
 Let's take the example of a custom form processing model. In the detail page of the model, there is a **Use Model** button (the model must be published). Clicking on it opens a right panel that offers multiple options:
 
