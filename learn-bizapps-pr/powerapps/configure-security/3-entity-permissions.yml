@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.configure-security.3-entity-permissions 
-title: Entity Permissions
+title: Entity permissions
 metadata: 
-  title: Entity Permissions
+  title: Entity permissions
   description: Learn to define user access and scope with entity permissions.
   ms.date: 07/06/2020 
   author: DaveBeasley 

@@ -30,7 +30,7 @@ products:
 - power-apps 
 units: 
 - learn-bizapps.configure-security.1-introduction 
-- learn-bizapps.configure-security.2-securing-static-content 
+- learn-bizapps.configure-security.2-secure-static-content 
 - learn-bizapps.configure-security.3-entity-permissions 
 - learn-bizapps.configure-security.4-exercise 
 - learn-bizapps.configure-security.5-check 

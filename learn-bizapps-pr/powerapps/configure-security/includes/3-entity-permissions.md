@@ -4,11 +4,9 @@ Entity permissions define the access and scope a portal user has to a particular
 > [![Entity Permission](../media/entity-permission.png)](../media/entity-permission.png#lightbox)
 
 An **entity permission** is created in the Portal Management app and associated to a specific **web role** to allow portal user access.
-
 > [!div class="mx-imgBorder"]
 > [![Entity Permission Web Role](../media/web-role-entity-lists.png)](../media/web-role-entity-lists.png#lightbox)
-
-## Create Entity Permission
+## Create entity permission
 
 The following are the steps when creating a new Entity Permission record:
 
@@ -32,7 +30,7 @@ Entity Permission record includes the following common attributes:
 
 Let's take a close look at how these attributes are used to define scope and identify the records the portal user has access to.
 
-## Global Scope
+## Global scope
 
 If an Entity Permission record that has global scope is associated with a web role, any contact in that role will have specified access to all records of the defined entity in Common Data Service.
 
@@ -43,7 +41,7 @@ For example, if lead entity is granted Read privilege with Global scope, all use
 
 Global scope is most frequently used with Read privilege to provide access to the reference data, for example list of countries or currencies, and so on.
 
-## Contact Scope
+## Contact scope
 
 With Contact scope, a signed-in user in the role for which the entity permission record is defined will have the rights granted by that permission only for records that are related to that user's contact record via  selected CDS relationship.
 
@@ -54,7 +52,7 @@ On an entity list, this means that a filter will be added to whatever model-driv
 
 For example, a set of privileges can be granted to a web role allowing Contact scope access to the orders using customer relationship. That means that any portal user with that role will have access to a subset that can be thought of as *My Orders*.
 
-## Account Scope
+## Account scope
 
 With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
 
@@ -63,7 +61,7 @@ With Account Scope, a signed-in user in the role for which the permission record
 
 For example, if set of privileges is granted to a web role allowing Account scope access to the cases using customer relationship between an account and case entities. That means that any portal user with that role will have access to a subset that can be thought of as *My Account's Cases*. 
 
-## Parental Scope
+## Parental scope
 
 Parent scope is designed to cover most complex scenarios where a portal user requires full access to the records but this access must be limited to a specific scope. For example, for the users who have access to Cases (e.g. *My Cases*) we would like to grant permissions to access Notes related to the cases but restrict access to the notes only to the cases the user already has access to.
 

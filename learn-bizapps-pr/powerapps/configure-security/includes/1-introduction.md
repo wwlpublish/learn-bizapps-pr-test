@@ -1,4 +1,4 @@
-## CDS Customer Entities
+## CDS customer entities
 
 Power Apps portals security is configured primarily around  the Common Data Service (or Dynamics 365) **contact** record.  The **contact** record represents a person in which an organization has a relationship with.  In the Dynamics 365 first party apps, a contact record can represent a stakeholder such as customer, partner, supplier, supporter or as the employee of organizational stakeholders (organizations are typically represented using the **account** entity).
 
@@ -37,7 +37,7 @@ A common relationship in Dynamics 365 and Common Data Service Power Apps is the 
 > [!div class="mx-imgBorder"]
 > [![Contact Registration](../media/contact-registration.png)](../media/contact-registration.png#lightbox)
 
-## Web Role
+## Web role
 
 Once a portal user has an associated contact you will still need to assign **web roles** that will be linked to **web page access control rules** and **entity permissions** that will determine information the portal user can access.
 

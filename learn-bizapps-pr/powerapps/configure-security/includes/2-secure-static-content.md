@@ -1,4 +1,4 @@
-## Web Page Content
+## Web page content
 
 A web site is common way for an organization to provide content to a public facing audience.  You can create web pages to display overall organization information, offerings of products and services or educational content.
 
@@ -11,7 +11,7 @@ By default, when a maker creates a new web page using the Portals Studio or in t
 > [!div class="mx-imgBorder"]
 > [![Hide in default menu](../media/hide-page.png)](../media/hide-page.png#lightbox)
 
-## Web Page Access Control Rule
+## Web page access control rule
 
 The **web page access control rule** entity is a portal metadata record that can be linked to a specific **web page** that can determine the visibility to that page.
 
@@ -36,6 +36,5 @@ Once an access control is defined for a web page, the page will not be accessibl
 > The menu link (**WebLink**) to a page with an access rule can be made visible to all portal visitors by selecting the *Disable Page Validation* on the WebLink record in the Portal Management app.
 
 The **web page access control rule** record can then be linked to a **web role** that will provide access to any related contact records to be able to access the particular web page.
-
 > [!div class="mx-imgBorder"]
 > [![Web page access control rule](../media/web-page-access-rule.png)](../media/web-page-access-rule.png#lightbox)

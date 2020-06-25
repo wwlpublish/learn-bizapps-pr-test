@@ -19,8 +19,8 @@ At the end of these exercises, you will be able to accomplish the following:
 
 For this exercise you will need to have the following in your environment:
 
-1. A Power Apps portal provisioned. If you do not have a Power Apps portal available, follow [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
-1. Access to the Power Apps maker portal.
+- A Power Apps portal provisioned. If you do not have a Power Apps portal available, follow [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
+- Access to the Power Apps maker portal.
 
 ## Scenario
 
