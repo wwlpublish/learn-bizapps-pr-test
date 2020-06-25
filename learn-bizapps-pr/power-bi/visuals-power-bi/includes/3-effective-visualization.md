@@ -9,12 +9,12 @@ It is important that you choose an effective visualization to ensure that you di
 In the previous example, the **Table** visualization was selected by default. The table is a grid that contains related data in a logical series of rows and columns. The table supports two dimensions and the data is flat, which means that duplicate values are displayed and not aggregated. It can also contain headers and a row for totals.
 
 > [!div class="mx-imgBorder"]
-> [![Table visualization type](../media/3-table-visualization-ss.png)](../media/3-table-visualization-ss.png#lightbox)
+> [![Table visualization type](../media/3-table-visualization-ssm.png)](../media/3-table-visualization-ssm.png#lightbox)
 
 The **Matrix** visualization looks similar to the table visualization; however, it allows you to select one or more elements (rows, columns, values) in the matrix to cross-highlight other visuals on the report page. In the following image, notice that a new field called **Product** **Color** was added to the columns, and the available colors are now spanning across the table, with the categories listed in rows.
 
 > [!div class="mx-imgBorder"]
-> [![Matrix visualization type](../media/3-table-visualization-ssm.png)](../media/3-table-visualization-ssm.png#lightbox)
+> [![Matrix visualization type](../media/3-matrix-visualization-ssm.png)](../media/3-matrix-visualization-ssm.png#lightbox)
 
 ## Bar and column charts
 
