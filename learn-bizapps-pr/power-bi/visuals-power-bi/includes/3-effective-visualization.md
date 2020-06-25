@@ -30,7 +30,7 @@ For example, the following clustered column chart shows a single column with tot
 The **line chart** and **area chart** visualizations are beneficial in helping you present trends over time. The basic area chart is based on the line chart, with the area between axis and line filled in. The main difference between these two chart types is that the area chart highlights the magnitude of change over time.
 
 > [!div class="mx-imgBorder"]
-> [!Line and area chart visualization type](../media/3-area-chart-visualization-ss.png)](../media/3-area-chart-visualization-ss.png#lightbox)
+> [![Line and area chart visualization type](../media/3-area-chart-visualization-ss.png)](../media/3-area-chart-visualization-ss.png#lightbox)
 
 ## Pie chart, donut chart, and Treemaps
 
