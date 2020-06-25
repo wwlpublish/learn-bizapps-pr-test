@@ -77,7 +77,8 @@ In this task, you will create model relationships.
 
 1. Notice that the **Make This Relationship Active** is checked.
 
-	Active relationships will propagate filters. It's possible to mark a relationship as inactive so filters don't propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In which case, model calculations can use special functions to activate them.
+	> [!NOTE]
+	> Active relationships will propagate filters. It's possible to mark a relationship as inactive so filters don't propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In which case, model calculations can use special functions to activate them.
 
 1. Click **OK**.
 
@@ -97,11 +98,13 @@ In this task, you will create model relationships.
 
 1. In the diagram, notice that you can interpret the cardinality, which is represented by the **1** and **\*** indicators.
 
-	Filter direction is represented by the arrow head. And, a solid line represents an active relationship; a dashed line represents an inactive relationship.
+	> [!NOTE]
+	> Filter direction is represented by the arrow head. And, a solid line represents an active relationship; a dashed line represents an inactive relationship.
 
 1. Hover the cursor over the relationship to reveal the related columns.
 
-	There's an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
+	> [!NOTE]
+	> There's an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
 
 1. To create a new relationship, from the **Reseller** table, drag the **ResellerKey** column on to the **ResellerKey** column of the **Sales** table.
 
@@ -117,7 +120,8 @@ In this task, you will create model relationships.
 	
 	-   **Salesperson | EmployeeKey** to **Sales | EmployeeKey**
 
-	In this lab, the **SalespersonRegion** and **Targets** tables will remain disconnected. There's a many-to-many relationship between salesperson and region, you will work this advanced scenario in the next lab.
+	> [!NOTE]
+	> In this lab, the **SalespersonRegion** and **Targets** tables will remain disconnected. There's a many-to-many relationship between salesperson and region, you will work this advanced scenario in the next lab.
 
 1. In the diagram, placing the tables with the **Sales** table in the center, and arranging the related tables about it.
 
@@ -164,7 +168,8 @@ In this task, you will configure the **Product** table.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Fields pane with the Formatting folder expanded to show Background Color Format and Font Color Format](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
 
-Display folders are a great way to declutter tables especially those that contain lots of fields.
+	> [!NOTE]
+	> Display folders are a great way to declutter tables especially those that contain lots of fields.
 
 ### Configure the Region table
 
@@ -185,7 +190,8 @@ In this task, you will configure the **Region** table.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Properties pane and the Data category field](../media/lab-12-ssm.png)](../media/lab-12-ssm.png#lightbox)
 
-Data categorization can provide hints to the report designer. In this case, categorizing the column as country or region, provides more accurate information when rendering a map visualization.
+	> [!NOTE]
+	> Data categorization can provide hints to the report designer. In this case, categorizing the column as country or region, provides more accurate information when rendering a map visualization.
 
 ### Configure the Reseller table
 
@@ -223,7 +229,8 @@ In this task, you will configure the **Sales** table.
 
 1. In the **Properties** pane, in the **Description** box, enter: **Based on standard cost**
 
-	Descriptions can be applied to table, columns, hierarchies, or measures. In the **Fields** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.
+	> [!NOTE]
+	> Descriptions can be applied to table, columns, hierarchies, or measures. In the **Fields** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.
 
 1. Select the **Quantity** column.
 
@@ -238,7 +245,8 @@ In this task, you will configure the **Sales** table.
 
 1. In the **Advanced** group (you may need to scroll down to locate it), in the **Summarize By** dropdown list, select **Average**.
 
-By default, numeric columns will summarize by summing values together. This default behavior is not suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a useful and accurate result.
+	> [!NOTE]
+	> By default, numeric columns will summarize by summing values together. This default behavior is not suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a useful and accurate result.
 
 ### Bulk update properties
 
