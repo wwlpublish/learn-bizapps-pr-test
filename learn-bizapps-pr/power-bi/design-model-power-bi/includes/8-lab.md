@@ -44,8 +44,7 @@ In this task, you will create model relationships.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the problem where every category lists the same sales amount](../media/lab-4-ss.png)](../media/lab-4-ss.png#lightbox)
 
-	> [!NOTE]
-	> The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn't a model relationship between these tables, the **Sales** table is not filtered. You will now add a relationship to propagate filters between the tables.
+	> *The issue is that the table is based on fields from different tables. The expectation is that each product category displays the sales for that category. However, because there isn't a model relationship between these tables, the **Sales** table is not filtered. You will now add a relationship to propagate filters between the tables.*
 
 1.  On the **Modeling** ribbon tab, from inside the **Relationships** group, click **Manage Relationships**.
 
@@ -77,8 +76,7 @@ In this task, you will create model relationships.
 
 1. Notice that the **Make This Relationship Active** is checked.
 
-	> [!NOTE]
-	> Active relationships will propagate filters. It's possible to mark a relationship as inactive so filters don't propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In which case, model calculations can use special functions to activate them.
+	> *Active relationships will propagate filters. It's possible to mark a relationship as inactive so filters don't propagate. Inactive relationships can exist when there are multiple relationship paths between tables. In which case, model calculations can use special functions to activate them.*
 
 1. Click **OK**.
 
@@ -103,8 +101,7 @@ In this task, you will create model relationships.
 
 1. Hover the cursor over the relationship to reveal the related columns.
 
-	> [!NOTE]
-	> There's an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.
+	> *There's an easier way to create a relationship. In the model diagram, you can drag and drop columns to create a new relationship.*
 
 1. To create a new relationship, from the **Reseller** table, drag the **ResellerKey** column on to the **ResellerKey** column of the **Sales** table.
 
@@ -120,8 +117,7 @@ In this task, you will create model relationships.
 	
 	-   **Salesperson | EmployeeKey** to **Sales | EmployeeKey**
 
-	> [!NOTE]
-	> In this lab, the **SalespersonRegion** and **Targets** tables will remain disconnected. There's a many-to-many relationship between salesperson and region, you will work this advanced scenario in the next lab.
+	> *In this lab, the **SalespersonRegion** and **Targets** tables will remain disconnected. There's a many-to-many relationship between salesperson and region, you will work this advanced scenario in the next lab.*
 
 1. In the diagram, placing the tables with the **Sales** table in the center, and arranging the related tables about it.
 
@@ -229,8 +225,7 @@ In this task, you will configure the **Sales** table.
 
 1. In the **Properties** pane, in the **Description** box, enter: **Based on standard cost**
 
-	> [!NOTE]
-	> Descriptions can be applied to table, columns, hierarchies, or measures. In the **Fields** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.
+	> *Descriptions can be applied to table, columns, hierarchies, or measures. In the **Fields** pane, description text is revealed in a tooltip when a report author hovers their cursor over the field.*
 
 1. Select the **Quantity** column.
 
@@ -245,8 +240,7 @@ In this task, you will configure the **Sales** table.
 
 1. In the **Advanced** group (you may need to scroll down to locate it), in the **Summarize By** dropdown list, select **Average**.
 
-	> [!NOTE]
-	> By default, numeric columns will summarize by summing values together. This default behavior is not suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a useful and accurate result.
+	> *By default, numeric columns will summarize by summing values together. This default behavior is not suitable for a column like **Unit Price**, which represents a rate. Setting the default summarization to average will produce a useful and accurate result.*
 
 ### Bulk update properties
 
@@ -282,7 +276,7 @@ In this task, you will update multiple columns in a single bulk update. You will
 
 1. In the **Properties** pane, slide the **Is Hidden** property to **On**.
 
-	The columns were hidden because they are either used by relationships or calculation logic.
+	> *The columns were hidden because they are either used by relationships or calculation logic.*
 
 1. Multi-select the following columns:
 
