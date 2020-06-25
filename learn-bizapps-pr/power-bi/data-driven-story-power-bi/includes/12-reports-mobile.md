@@ -31,7 +31,7 @@ To add a visual to the mobile layout canvas, drag the visual from the **Visualiz
 
 By default, many visuals in Power BI are responsive, which means that they change dynamically to display the maximum amount of data and insight, regardless of the screen size. As a visual changes size, Power BI gives priority to the data and makes small changes, such as removing padding or repositioning the legend, so that the data remains visible. When it comes to configuring visuals for mobile reports, Power BI does all the hard work for you. However, if you want to turn off this default responsiveness, you can do so in the **General** section of the visual's format settings.
 
-Regarding slicers, which offer on-canvas filtering of report data, you might want to modify some settings to optimize them for mobile use. You need to return to the regular report authoring mode to edit the slicer settings, and then consider the following points:
+Regarding slicers, which offer on-canvas filtering of report data, you might want to modify some settings to optimize them for mobile use. Return to the regular report authoring mode to edit the slicer settings, and then consider the following points:
 
 -   Determine whether you want to allow report readers to select only one item or multiple items.
 
