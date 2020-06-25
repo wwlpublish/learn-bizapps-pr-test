@@ -387,13 +387,12 @@ In this task, you will finalize the report header region design by adding textbo
 
 1. In the **Properties** pane, configure the following position properties:
 
-	| Property                        | Value   |
-	|---------------------------------|---------|
-	| Position /| Location /| Left    | 0       |
-	| Position /| Location /| Top     | 1       |
-	| Position /| Size /| Width       | 4       |
-	| Position /| Size /| Height      | 0.25    |
-	                                 
+    	|     Property                        |     Value    |
+    	|-------------------------------------|--------------|
+    	|     Position \| Location \| Left    |     0        |
+    	|     Position \| Location \| Top     |     1        |
+    	|     Position \| Size \| Width       |     4        |
+    	|     Position \| Size \| Height      |     0.25     |
 
 1. Format the **Order Date:** text in bold.
 
