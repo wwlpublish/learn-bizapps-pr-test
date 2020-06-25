@@ -11,7 +11,7 @@ When you are building visuals, Power BI automatically enters values of the date 
 
 In the preceding **Date** column, the date is shown in increasingly finer detail through year, quarters, months, and days. You can also manually create hierarchies.
 
-For example, consider a situation where you want to create a stacked bar chart of **Total Sales by Category and Subcategory**. You can accomplish this task by creating a hierarchy in the **Products** table for categories and subcategories. To create a hierarchy, go to the **Fields** pane on Power BI and then right-click the column that you want the hierarchy for. Select **Create New Hierarchy**, as shown in the following figure.
+For example, consider a situation where you want to create a stacked bar chart of **Total Sales by Category and Subcategory**. You can accomplish this task by creating a hierarchy in the **Product** table for categories and subcategories. To create a hierarchy, go to the **Fields** pane on Power BI and then right-click the column that you want the hierarchy for. Select **New hierarchy**, as shown in the following figure.
 
 > [!div class="mx-imgBorder"]
 > [![New Hierarchy](../media/04-new-hierarchy-8-ss.png)](../media/04-new-hierarchy-8-ss.png#lightbox)
@@ -21,7 +21,7 @@ Next, drag and drop the subcategory column into this new hierarchy that you've c
 > [!div class="mx-imgBorder"]
 > [![alt text](../media/04-new-hierarchy-9-ss.png)](../media/04-new-hierarchy-9-ss.png#lightbox)
 
-Now, you can build the visual by selecting a stacked bar chart in the **Visualizations** pane. Add your **Category** hierarchy in the **Axis** field and the **Total Sales** hierarchy in the **Values** field.
+Now, you can build the visual by selecting a stacked bar chart in the **Visualizations** pane. Add your **Category Name Hierarchy** in the **Axis** field and the **Total Sales** hierarchy in the **Values** field.
 
 > [!div class="mx-imgBorder"]
 > [![Hierarchy example](../media/04-hierarchy-visual-7-ss.png)](../media/04-hierarchy-visual-7-ss.png#lightbox)
