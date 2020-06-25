@@ -52,7 +52,7 @@ In this task, you will create a live connection to the **Sales Analysis** datas
 
    In the lower-right corner, in the status bar, notice that the live connection has been established.
 
-   In the **Fields** pane, notice that the data model table are listed.
+   In the **Fields** pane, notice that the data model table is listed.
 
 > [!NOTE] 
 > Power BI Desktop can no longer be used to develop the data model; in live connection mode, it's only a report authoring tool. However, it is possible to create measures, but they are measures that are only available within the report. You won't add any report-scoped measures in this lab.
@@ -61,7 +61,7 @@ In this task, you will create a live connection to the **Sales Analysis** datas
 
 You're the owner of the Power BI dataset, and you can see all data.
 
-When you share reports and dashboards to non-owners of the dataset, their accounts (or a security group of which they're a member) must be mapped to the **Salespeople** role. You will configure this before sharing content.
+When you share reports and dashboards to non-owners of the dataset, their accounts (or a security group of which they're a member) must be mapped to the **Salespeople** role. You will configure this role setting before sharing content.
 
 ### Design page one
 
@@ -389,7 +389,7 @@ In this task, you will design the third and final report page. When you've compl
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the "Clustered Column Chart" visual on the Visualizations pane.](../media/lab-42-ssm.png)](../media/lab-42-ssm.png#lightbox)
 
-It's now possible to see the same data expressed by two different visualization types. This isn't a good use of the page layout, but you will improve it in subsequent labs.
+It's now possible to see the same data expressed by two different visualization types. This use of the page layout isn't optimal, but you will improve it in subsequent labs.
 
 ### Publish the report
 
@@ -451,7 +451,7 @@ In this task, you will explore the **Sales Report** in Power BI service.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the In Focus icon.](../media/lab-46-ssm.png)](../media/lab-46-ssm.png#lightbox)
 
-	In focus mode will zoom the visual to full page size.
+	The **In Focus** mode will zoom the visual to full page size.
 
 1. Hover the cursor over different segments of the pie charts to reveal tooltips.
 
