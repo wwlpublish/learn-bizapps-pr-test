@@ -30,6 +30,7 @@ modules:
 - learn-bizapps.flow-build-more
 - learn-bizapps.flow-administration
 - learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder
+- learn-bizapps.ai-builder-power-automate 
 trophy:
   uid: learn.automate-process-using-flow.trophy
 

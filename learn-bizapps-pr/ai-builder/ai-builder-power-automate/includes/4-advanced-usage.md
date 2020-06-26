@@ -1,6 +1,6 @@
 In this section, you will discover how you can easily bootstrap your AI Builder flows to fulfill your business scenarios.
 
-### AI Builder flow templates
+## AI Builder flow templates
 
 [Power Automate templates](https://us.flow.microsoft.com/templates/?azure-portal=true) contain pre-configured logic that eases creation of flows for specific business purposes.
 
@@ -12,7 +12,7 @@ Let's create a flow from an AI Builder template:
 
     ![A screenshot of flow templates.](../media/04-templates.png)
 
-3.  Select the template **Send a notification with the sentiment of manager\'s email using AI Builder**. You will see a summary of the template with a list of the connections that will be used:
+3.  Select the template **Send a notification with the sentiment of manager's email using AI Builder**. You will see a summary of the template with a list of the connections that will be used:
 
     ![Send sentiment notification.](../media/04-notification.png)
 
@@ -30,7 +30,7 @@ Let's create a flow from an AI Builder template:
 
 5.  Save the flow and test it
 
-### Create a flow from AI Builder studio
+## Create a flow from AI Builder studio
 
 From AI Builder studio, it's also possible to launch the creation of a flow using your favorite model.
 
