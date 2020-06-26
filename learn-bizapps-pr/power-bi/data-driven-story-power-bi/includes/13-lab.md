@@ -245,8 +245,6 @@ In this task, you will design the second report page. When you've completed the 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the final second report page.](../media/lab-25-ss.png)](../media/lab-25-ss.png#lightbox)
 
-When detailed instructions have already been provided in the labs, the lab steps will now provide more concise instructions. If you need the detailed instructions, you can refer back to other tasks.
-
 1. To create a new page, at the bottom-left, click the plus icon.
 
 1. Rename the page to **Profit**.
@@ -412,6 +410,9 @@ In the next exercise, you will explore the report in the Power BI service.
 ## Explore the report
 
 In this exercise, you will explore the **Sales Report** in the Power BI service.
+
+> [!IMPORTANT]
+> This exercise will require you to login to Power BI service,  you can use your existing account or create a trial account before starting this lab.
 
 ### Explore the sales report
 
