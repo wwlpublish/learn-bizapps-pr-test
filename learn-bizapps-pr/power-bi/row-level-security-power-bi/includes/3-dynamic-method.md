@@ -3,5 +3,5 @@ There's a way to set up row-level security only once, without the need to contin
 > [!div class="mx-imgBorder"]
 > [![Dynamic role-level security](../media/03-dynamic-ss.png)](../media/03-dynamic-ss.png#lightbox)
 
-Notice that instead of the fixed string we used before like "Game" or "Clothing", we're using a DAX function in the row-level security filter. This function, userprincipalname(), will compare the email address from the Employees table with the email that the user uses to log into the Power BI service. If he uses the email address <russel@tailwindtraders.com> to sign in to the Power BI service, it will compare that value to the email address in the Employees table. Assuming there's a relationship created between Employees and Sales, Russel will only see his four sales.
+Notice that instead of the fixed string we used before like "Game" or "Clothing", we're using a DAX function in the row-level security filter. This function, userprincipalname(), will compare the email address from the Employees table with the email that the user uses to log into the Power BI service. If he uses the email address `russel@tailwindtraders.com` to sign in to the Power BI service, it will compare that value to the email address in the Employees table. Assuming there's a relationship created between Employees and Sales, Russel will only see his four sales.
 
