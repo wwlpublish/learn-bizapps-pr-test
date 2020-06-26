@@ -1,0 +1,46 @@
+### YamlMime:Module 
+uid: learn-bizapps.manage-datasets-power-bi 
+metadata: 
+ title: Manage datasets in Power BI 
+ description: In Power BI, you can build multiple reports from a single dataset. This means that if you change the dataset, all the reports will be updated with that change. It also means that you can do the work of cleaning and prepping data a single time, instead of repeatedly for each report. Once a dataset has been deployed, you will want to automatically refresh it, so the users see the most current data in their reports. By using the Power BI gateway, it is possible to retrieve data from on-premise data sources, for instance a SQL Server that might be in your organization’s data center.
+ ms.date: 06/30/2020  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Manage datasets in Power BI  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  In Power BI, you can build multiple reports from a single dataset. This means that if you change the dataset, all the reports will be updated with that change. It also means that you can do the work of cleaning and prepping data a single time, instead of repeatedly for each report. Once a dataset has been deployed, you will want to automatically refresh it, so the users see the most current data in their reports. By using the Power BI gateway, it is possible to retrieve data from on-premise data sources, for instance a SQL Server that might be in your organization’s data center. 
+abstract: |  
+    In this module, you will: 
+    - Create dynamic reports with parameters. 
+    - Create what-if parameters. 
+    - Use a Power BI gateway to connect to on-premise data sources.
+    - Configure a dataset scheduled refresh. 
+    - Configure incremental refresh settings. 
+    - Manage and promote datasets.
+    - Troubleshoot service connectivity.
+    - Boost performance with query caching (Premium).
+prerequisites: None 
+iconUrl: /learn/achievements/manage-datasets-in-power-bi.svg
+levels:  
+- intermediate   
+roles:  
+- data-analyst  
+products:   
+- power-bi 
+units: 
+- learn-bizapps.manage-datasets-power-bi.1-introduction 
+- learn-bizapps.manage-datasets-power-bi.2-report-parameters 
+- learn-bizapps.manage-datasets-power-bi.3-what-if-parameters 
+- learn-bizapps.manage-datasets-power-bi.4-power-bi-gateway 
+- learn-bizapps.manage-datasets-power-bi.5-dataset-refresh 
+- learn-bizapps.manage-datasets-power-bi.6-incremental-refresh 
+- learn-bizapps.manage-datasets-power-bi.7-manage-datasets 
+- learn-bizapps.manage-datasets-power-bi.8-troubleshoot-connectivity 
+- learn-bizapps.manage-datasets-power-bi.9-query-caching 
+- learn-bizapps.manage-datasets-power-bi.10-check 
+- learn-bizapps.manage-datasets-power-bi.11-summary 
+badge: 
+  uid: learn-bizapps.manage-datasets-power-bi.badge 
