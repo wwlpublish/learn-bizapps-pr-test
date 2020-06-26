@@ -15,11 +15,14 @@ In this exercise, you will create the **Sales Monitoring** dashboard. The compl
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Sales Monitoring dashboard.](../media/lab-1-ss.png)](../media/lab-1-ss.png#lightbox)
 
+> [!NOTE]
+> The following exercise will require you to login to Power BI service, you can use your existing account or create a trial account before starting this part of the lab.
+
 ### Create a dashboard
 
 In this task, you will create the **Sales Monitoring** dashboard.
 
-1.  In Edge, in the Power BI service, open the **Sales Report** report.
+1.  In Edge, in the Power BI service, open the **Sales Report** report found in the **D:\DA100\Lab010A\Starter** folder. 
 
 1.  To create a dashboard and pin the logo image, hover the cursor over the Adventure Works logo.
 
@@ -36,7 +39,7 @@ In this task, you will create the **Sales Monitoring** dashboard.
 
 1.  Set the **Region** slicer to **Select All**.
 
-	When pinning visuals to a dashboard, they will use the current filter context. Once pinned, the filter context cannot be changed. For time-based filters, it's a better idea to use a relative date slicer (or, Q&A using a relative time-based question).
+	> *When pinning visuals to a dashboard, they will use the current filter context. Once pinned, the filter context cannot be changed. For time-based filters, it's a better idea to use a relative date slicer (or, Q&A using a relative time-based question).*
 
 1.  Pin the **Sales and Profit Margin by Month** (column/line) visual to the **Sales Monitoring** dashboard.
 
@@ -71,7 +74,7 @@ In this task, you will create the **Sales Monitoring** dashboard.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Sales YTD showing the word Blank.](../media/lab-5-ss.png)](../media/lab-5-ss.png#lightbox)
 
-	Recall you added the **Sales YTD** measure in **Lab 06B**. This measure is Time Intelligence expression and it requires a filter on the **Date** table to produce a result.
+	This measure is Time Intelligence expression and it requires a filter on the **Date** table to produce a result.
 
 1. Extend the question with: **in year FY2020**.
 
@@ -129,7 +132,7 @@ In this task, you will edit the details of two tiles.
 
 1. Notice that the tile describes the last refresh time (which you did when refreshing the data model in Power BI Desktop).
 
-	Later in this lab, you'll simulate a data refresh, and notice that the refresh time updates.
+	> *Later in this lab, you'll simulate a data refresh, and notice that the refresh time updates.*
 
 ### Configure an alert
 
@@ -150,7 +153,7 @@ In this task, you will configure a data alert.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Threshold box with the Threshold field containing 35000000.](../media/lab-16-ssm.png)](../media/lab-16-ssm.png#lightbox)
 
-	This configuration will ensure you're notified whenever the tile updates to a value above 35 million.
+	> *This configuration will ensure you're notified whenever the tile updates to a value above 35 million.*
 
 1. At the bottom of the pane, click **Save and Close**.
 
@@ -158,7 +161,7 @@ In the next exercise, you'll refresh the dataset. Typically, this should be done
 
 ## Refresh the dataset
 
-In this exercise, you will first load sales order data for June 2020 into the **AdventureWorksDW2020** database, and then add your classroom partner's account to the database.. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
+In this exercise, you will first load sales order data for June 2020 into the **AdventureWorksDW2020** database. You will then open your Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
 ### Update the lab database
 
@@ -173,21 +176,11 @@ In this task, you will run a PowerShell script to update data in the **Adventure
 
 	The **AdventureWorksDW2020** database now includes sales orders June 2020.
 
-1. Inside the **D:\DA100\Setup** folder, right-click the **UpdateDatabase-3-AddPartnerAccount.ps1** file, and then select **Run with PowerShell**.
-
-1. When prompted, enter the account name of your classroom partner, and then press **Enter**.
-
-	You only need to enter their account name (all characters before the @ symbol). Choose somebody sitting near you, you will work together in pairs to complete **Lab 12A**, which covers sharing Power BI content.
-
-	Their account name is added so you can test the row-level security. You partner is now Pamela Ansam-Wolfe, whose sales performance is measured by the sales of two sales territory regions: US Northwest and US Southwest.
-
 ### Refresh the Power BI Desktop file
 
 In this task, you will open the Sales Analysis Power BI Desktop file, perform a data refresh, and then upload the file to your **Sales Analysis** workspace.
 
-1. Open your **Sales Analysis** Power BI Desktop file, stored in the **D:\DA100\MySolution** folder.
-
-	When the file was published in **Lab 06B**, if you weren't confident you completed the lab successfully you were advised to upload the solution file instead. If you uploaded the solution file, be sure now to open the solution file again now. It's located in the **D:\DA100\Lab06B\Solution** folder.
+1. Open your **Sales Analysis** Power BI Desktop file, stored in the **D:\DA100\Lab10A\Starter** folder.
 
 1. On the **Home** ribbon, from inside the **Queries** group, click **Refresh**.
 
@@ -197,13 +190,11 @@ In this task, you will open the Sales Analysis Power BI Desktop file, perform
 
 1. When prompted to replace the dataset, click **Replace**.
 
-	The dataset in the Power BI service now has June 2020 sales data.
+	> *The dataset in the Power BI service now has June 2020 sales data.*
 
 1. Close Power BI Desktop.
 
 1. In Edge, in the Power BI service, in your **Sales Analysis** workspace, notice that the **Sales Analysis** report was also published.
-
-	This report was used to test the model a you developed it in **Lab 05A** and **Lab 06A**.
 
 1. Remove the **Sales Analysis** report (not dataset).
 
