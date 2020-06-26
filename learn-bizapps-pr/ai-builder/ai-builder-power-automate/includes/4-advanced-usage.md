@@ -2,7 +2,7 @@ In this section, you will discover how you can easily bootstrap your AI Builder 
 
 ### AI Builder flow templates
 
-[Power Automate templates](https://us.flow.microsoft.com/templates/) contain pre-configured logic that eases creation of flows for specific business purposes.
+[Power Automate templates](https://us.flow.microsoft.com/templates/?azure-portal=true) contain pre-configured logic that eases creation of flows for specific business purposes.
 
 Let's create a flow from an AI Builder template:
 

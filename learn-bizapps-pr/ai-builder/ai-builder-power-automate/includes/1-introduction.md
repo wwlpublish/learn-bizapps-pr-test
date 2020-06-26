@@ -4,9 +4,9 @@ Power Automate is a great way to automate AI builder usage and exploit AI model 
 
 Power Automate offers AI builder actions that enable usage of all model types in flows. Adding AI builder actions in your flow allows you to:
 
--   Perform model inference using outputs of upstream actions (email attachments received, SharePoint files dropped, records created in a Common Data Service entity, ...)
+-   Perform model inference using outputs of upstream actions (email attachments received, SharePoint files dropped, records created in a Common Data Service entity, etc.)
 
--   Process model inference results in downstream actions (send by email, store in Common Data Service records, message in Teams, ...)
+-   Process model inference results in downstream actions (send by email, store in Common Data Service records, message in Teams, etc.)
 
 The following illustration shows a simple flow with three main stages:
 
