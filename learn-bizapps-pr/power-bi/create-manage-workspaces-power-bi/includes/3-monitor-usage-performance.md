@@ -1,4 +1,4 @@
-You've successfully added reports to your workspace, published an app, and begun the process of collaborating with the Products team. News of how useful workspaces are begins to spread around Tailwind and more and more users get added to the workspace. The Sales team knows that performance may reduce as more users get added so would like you to monitor usage and performance of the workspace.
+You've successfully added reports to your workspace, published an app, and begun the process of collaborating with the Products team. News of how useful workspaces are begins to spread around Tailwind and more users get added to the workspace. The Sales team knows that performance may reduce as more users get added so would like you to monitor usage and performance of the workspace.
 
 Knowing how your workspace is being used and is performing is crucial for several reasons:
 
@@ -29,7 +29,7 @@ Then you will receive a prompt when the usage metrics report is ready for viewin
 
 -   **Views by Users**: detail about each specific user that viewed the dashboard.
 
-You can also filter by the distribution method of the report (e.g. through sharing or from the workspace directly) and platform type (e.g. mobile or web).
+You can also filter by the distribution method of the report (for example, through sharing or from the workspace directly) and platform type (for example, mobile or web).
 
 > [!div class="mx-imgBorder"]
 > [![Usage metrics report](../media/03-usage-metrics-1-ssm.png)](../media/03-usage-metrics-1-ssm.png#lightbox)
@@ -45,7 +45,7 @@ Here, you can see metrics such as:
 
 -   **Opening time trend**: how the typical opening time changes over time. This can tell you how the report is performing as the number of users starts to grow.
 
--   **Daily/7-Day Performance** charts: highlights the performance for 10, 50, and 90% of the open-report actions every day and over a seven-day period.
+-   **Daily/7-Day Performance** charts: highlights the performance for 10%, 50, and 90% of the open-report actions every day and over a seven-day period.
 
 -   Filters for date, so you can see how the performance changes according to the day.
 

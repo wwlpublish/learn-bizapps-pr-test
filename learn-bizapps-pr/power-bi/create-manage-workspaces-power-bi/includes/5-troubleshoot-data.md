@@ -34,7 +34,7 @@ This view shows us all the artifacts in our workspace. Artifacts include data so
 > [!div class="mx-imgBorder"]
 > [![Data sources on data lineage](../media/05-datasets-dataflows-lineage-view-3-ss.png)](../media/05-datasets-dataflows-lineage-view-3-ss.png#lightbox)
 
-Each of the above cards is a data source used in our workspace. This card tells you the type of data source (e.g. **Text/CSV**) and the gateway. **Gateway** tells us the source of our data. If we are connected to the data via an on-premises data gateway, this will tell you more information about the gateway. Additionally, double-clicking the card itself will you tell more details about the data source, such as the file path and the connection status. Selecting the bottom right icon on the card will highlight specifically the path from the data source to the destination, as seen in the following, which makes it more clear as to the exact path the data takes.
+Each of the above cards is a data source used in our workspace. This card tells you the type of data source (for example, **Text/CSV**) and the gateway. **Gateway** tells us the source of our data. If we are connected to the data via an on-premises data gateway, this will tell you more information about the gateway. Additionally, double-clicking the card itself will you tell more details about the data source, such as the file path and the connection status. Selecting the bottom-right icon on the card will highlight specifically the path from the data source to the destination, as seen in the following, which makes it clearer as to the exact path the data takes.
 
 > [!div class="mx-imgBorder"]
 > [![Highlighting a specific data source](../media/05-card-icon-detail-ssm.png)](../media/05-card-icon-detail-ssm.png#lightbox)
@@ -43,7 +43,7 @@ Next, we have datasets/dataflows, marked in blue.
 
 ## Datasets/dataflows
 
-Oftentimes datasets and dataflows can connect to external data sources, such as SQL Server or to external datasets in other workspaces. The following are examples of dataset and dataflow cards on the lineage view.
+Often datasets and dataflows can connect to external data sources, such as SQL Server or to external datasets in other workspaces. The following are examples of dataset and dataflow cards on the lineage view.
 
 > [!div class="mx-imgBorder"]
 > [![Properties of a dataset](../media/05-dataset-from-different-workspace-4-ssm.png)](../media/05-dataset-from-different-workspace-4-ssm.png#lightbox)
@@ -75,7 +75,7 @@ On the **Impact analysis** window, you can see how many workspaces, reports, and
 > [!div class="mx-imgBorder"]
 > [![Impact Analysis window](../media/05-excerpt-lineage-2-ssm.png)](../media/05-excerpt-lineage-2-ssm.png#lightbox)
 
-At the bottom of this window you can also see more detail about which specific reports and dashboards this dataset is a part of. Additionally, you can **notify contacts**, which allows you to notify dataset owners (or any other user) of changes in the dataset. Impact analysis is useful for it allows you to pinpoint if you have any datasets that aren't being used or looked at.
+At the bottom of this window, you can also see more detail about which specific reports and dashboards this dataset is a part of. Additionally, you can **notify contacts**, which allows you to notify dataset owners (or any other user) of changes in the dataset. Impact analysis is useful for it allows you to pinpoint if you have any datasets that aren't being used or looked at.
 
 ## Reports/Dashboards 
 
@@ -89,7 +89,7 @@ Selecting a card will bring up a window in which you can view the metadata about
 > [!div class="mx-imgBorder"]
 > [![Report metadata window](../media/05-refresh-feature-card-8-ssm.png)](../media/05-refresh-feature-card-8-ssm.png#lightbox)
 
-This card also contains very useful options under the ellipsis, as seen in the following. Here, you can analyze the report in Excel, delete a report, create Quick Insights, save a copy directly onto your local drive, and more.
+This card also contains useful options under the ellipsis, as seen in the following. Here, you can analyze the report in Excel, delete a report, create Quick Insights, save a copy directly onto your local drive, and more.
 
 > [!div class="mx-imgBorder"]
 > [![Ellipsis options on the report card](../media/05-ellipsis-on-report-card-ss.png)](../media/05-ellipsis-on-report-card-ss.png#lightbox)

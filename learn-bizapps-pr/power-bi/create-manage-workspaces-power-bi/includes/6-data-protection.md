@@ -6,11 +6,11 @@ As enterprises grow, so do their data. There are often strict requirements and r
 
 -   Use Microsoft Cloud App Security to monitor and investigate activities in Power BI.
 
-As more and more reports and dashboards are being added to the Tailwind workspace, concern grows as the Sales team realizes the urgency of securing its data. There is a worry about the possibility of new users exporting data without permission. Sales does not want to roll back any reports or dashboards, and have come to you to implement comprehensive security measures that protect data access within and outside of Power BI. This can be done by configuring data protection labels in Power BI. Before we begin, ensure that you have the appropriate licensing, as seen [here](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview/?azure-portal=true).
+As more and more reports and dashboards are being added to the Tailwind workspace, concern grows as the Sales team realizes the urgency of securing its data. There's a worry about the possibility of new users exporting data without permission. Sales doesn't want to roll back any reports or dashboards, and have come to you to implement comprehensive security measures that protect data access within and outside of Power BI. This can be done by configuring data protection labels in Power BI. Before we begin, ensure that you have the appropriate licensing, as seen [here](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview/?azure-portal=true).
 
 ## Sensitivity Labels
 
-Sensitivity labels specify which data can be exported. These labels are configured externally to Power BI, and Power BI allows you to quickly and easily utilize them in your reports and dashboards. These labels allow you to define and protect content, even outside of Power BI. Datasets, dataflows, reports, and dashboards can all leverage this mechanism. This feature is available to all users in your corporation can utilize this feature unless exceptions are defined.
+Sensitivity labels specify which data can be exported. These labels are configured externally to Power BI, and Power BI allows you to quickly and easily use them in your reports and dashboards. These labels allow you to define and protect content, even outside of Power BI. Datasets, dataflows, reports, and dashboards can all leverage this mechanism. This feature is available to all users in your corporation can use this feature unless exceptions are defined.
 
 Once you have verified your ability to add labels, navigate to any workspace, and choose an object to secure. In this case, I want to add a sensitivity label to **Sales Data.** To do this, navigate to the workspace, and under the ellipsis, select **Settings**.
 
@@ -32,7 +32,7 @@ This is crucial when exporting data. Data exported to Excel, PowerPoint, and PDF
 > [!div class="mx-imgBorder"]
 > [![Exporting to Excel](../media/06-dashboard-with-label-4-ssm.png)](../media/06-dashboard-with-label-4-ssm.png#lightbox)
 
-However, if you did not have permission you would be denied access to see the data, which ensures that only the appropriate users have access to view the data -- making sure your data is secured.
+However, if you did not have permission you would be denied access to see the data, which ensures that only the appropriate users have access to view the data, making sure your data is secured.
 
-If you are interested in learning more, please refer to [Apply Data Sensitivity Labels in Power BI](https://docs.microsoft.com/en-us/power-bi/collaborate-share/service-security-apply-data-sensitivity-labels).
+If you are interested in learning more, please refer to [Apply Data Sensitivity Labels in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-security-apply-data-sensitivity-labels).
 

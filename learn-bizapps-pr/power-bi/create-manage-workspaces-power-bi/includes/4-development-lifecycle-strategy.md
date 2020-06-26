@@ -6,7 +6,7 @@ Tailwind's Sales team is impressed with the reports you have delivered, and as t
 
 Power BI's deployment pipeline is a feature that manages content in dashboards, reports, and datasets between different environments in the development lifecycle. Here, you can develop and test Power BI content in one centralized location and streamline the process before deploying the final content to your end users. This is a Power BI Premium feature and requires you to be a Capacity admin. There are several advantages to using the deployment pipeline:
 
--   Increased productivity: Through this feature you can reuse previous deployment pipelines ensuring that efforts aren't duplicated.
+-   Increased productivity: Through this feature, you can reuse previous deployment pipelines ensuring that efforts aren't duplicated.
 
 -   Faster delivery of content: report development becomes more streamlined, meaning that it takes less time to get to production.
 
@@ -66,7 +66,7 @@ In the resulting **Settings** window, choose the correct dataset. In our case, w
 > [!div class="mx-imgBorder"]
 > [![Data source rules](../media/04-change-source-8-ss.png)](../media/04-change-source-8-ss.png#lightbox)
 
-Here, you can change the data source, which was used in development, to a new source, which is specifically used for testing the reports (**orders.csv** in our example below). Press **Save** at the bottom of the card once you are ready.
+Here, you can change the data source, which was used in development, to a new source, which is used for testing the reports (**orders.csv** in our example below). Press **Save** at the bottom of the card once you are ready.
 
 > [!div class="mx-imgBorder"]
 > [![Change data source](../media/04-add-workspace-3-ssm.png)](../media/04-add-workspace-3-ssm.png#lightbox)
