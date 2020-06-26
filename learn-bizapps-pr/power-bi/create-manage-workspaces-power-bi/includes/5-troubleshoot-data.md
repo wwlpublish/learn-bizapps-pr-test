@@ -22,7 +22,7 @@ Lineage view is only accessible to admin, contributor, and member roles. Additio
 > [!div class="mx-imgBorder"]
 > [![Opening the lineage view](../media/05-opening-lineage-view-ssm.png)](../media/05-opening-lineage-view-ssm.png#lightbox)
 
-Once the view canvas opens, we can begin to explore this view. The following is an excerpt of the data lineage for our workspace, **Tailwind Sales. **
+Once the view canvas opens, we can begin to explore this view. The following is an excerpt of the data lineage for our workspace, **Tailwind Sales**.
 
 > [!div class="mx-imgBorder"]
 > [![Except of Tailwind data lineage](../media/05-excerpt-lineage-ssm.png)](../media/05-excerpt-lineage-ssm.png#lightbox)

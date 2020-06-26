@@ -36,7 +36,7 @@ Let's say you want to create a deployment pipeline at Tailwind. To configure a d
 On the resulting page, select **Create a pipeline.** We want to create a deployment pipeline called **SalesPipeline.** Here, add in the **Pipeline name** of **SalesPipeline** and a description, if needed. Once you are ready select **Create.** This will take you to the following screen:
 
 > [!div class="mx-imgBorder"]
-> [![Deployment pipeline page](../media/ 04-deployment-pipeline-page-2-ss.png)](../media/ 04-deployment-pipeline-page-2-ss.png#lightbox)
+> [![Deployment pipeline page](../media/04-deployment-pipeline-page-2-ss.png)](../media/04-deployment-pipeline-page-2-ss.png#lightbox)
 
 This view shows you the steps of the development life cycle: **Development, Test,** and **Production.** To create our pipeline, we need to assign workspaces to each of these stages to facilitate where our reports and dashboards will be housed during each stage. Select **Assign a workspace** to begin.
 

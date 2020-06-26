@@ -14,7 +14,7 @@ Let's take a closer look!
 
 Usage metric reports are available for Power BI pro users and can only be accessed by users with role types admin, member, or contributor.
 
-Navigate to the pertinent workspace. Then, find the report or dashboard you would like to see usage metrics for. Let's say we want to see the usage metrics report for **Sales Data.** Under the ellipsis, select **View usage metrics report. **
+Navigate to the pertinent workspace. Then, find the report or dashboard you would like to see usage metrics for. Let's say we want to see the usage metrics report for **Sales Data.** Under the ellipsis, select **View usage metrics report**.
 
 > [!div class="mx-imgBorder"]
 > [![Navigate to the usage metrics report](../media/03-report-label-ssm.png)](../media/03-report-label-ssm.png#lightbox)

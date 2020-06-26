@@ -50,7 +50,7 @@ In this exercise, you will share your **Sales Monitoring** dashboard with your 
 
 In this task, you will each share a dashboard, and then open the shared dashboard shared with you.
 
-With your classroom partner, work through all task steps together, [on each of your computers]{.underline}.
+With your classroom partner, work through all task steps together, on each of your computers.
 
 1.  Open the **Sales Monitoring** dashboard.
 
@@ -59,9 +59,9 @@ With your classroom partner, work through all task steps together, [on each of y
 	> [!div class="mx-imgBorder"]
 	> [![alt text](../media/lab-4-ssm.png)](../media/lab-4-ssm.png#lightbox)
 
-1.  In the **Share Dashboard** pane (located at the right), in the **Grant Access To** box, commence typing the account name of your classroom partner---when it is listed, select it.
+1.  In the **Share Dashboard** pane (located at the right), in the **Grant Access To** box, commence typing the account name of your classroom partner, when it is listed, select it.
 
-1.  Review the available options---but do not change them.
+1.  Review the available options, but do not change them.
 
 1. At the bottom of the pane, click **Share**.
 
@@ -143,7 +143,7 @@ In this task, you will publish the contents of your **Sales Analysis** workspac
 
 1. In the **Navigation** section, notice the workspace content that will be published.
 
-It is possible to set the order of the workspace content, and also add sections and links. Sections are a single-level grouping of content (similar to a folder). Links are a link to any valid web page. You won't modify the navigation setup in this lab.
+	It is possible to set the order of the workspace content, and also add sections and links. Sections are a single-level grouping of content (similar to a folder). Links are a link to any valid web page. You won't modify the navigation setup in this lab.
 
 1. Select the **Permissions** tab.
 
@@ -152,7 +152,7 @@ It is possible to set the order of the workspace content, and also add sections 
 
 1. In the **Specific Individuals or Groups** box, commence typing the account name of your classroom partner---when it is listed, select it.
 
-The **Entire Organization** option may be disabled if the tenant admin has restricted it. In this case, the **Install this App Automatically** option will also be disabled. If enabled, the app could be pushed to all users. You will learn how to "get" the app in the next task.
+	The **Entire Organization** option may be disabled if the tenant admin has restricted it. In this case, the **Install this App Automatically** option will also be disabled. If enabled, the app could be pushed to all users. You will learn how to "get" the app in the next task.
 
 1. At the bottom-right corner, click **Publish App**.
 

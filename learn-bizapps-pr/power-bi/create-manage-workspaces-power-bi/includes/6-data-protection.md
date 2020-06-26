@@ -22,7 +22,7 @@ This will take you to a window, where you can assign a sensitivity label to your
 > [!div class="mx-imgBorder"]
 > [![sensitivity settings](../media/06-sensitivity-settings-1-ssm.png)](../media/06-sensitivity-settings-1-ssm.png#lightbox)
 
-Let's say I want to assign a **Confidential** label to our **Sales Data** report**.** When I change this label on the **Settings** pane, it now appears as a label on the report, as seen below.
+Let's say I want to assign a **Confidential** label to our **Sales Data** report. When I change this label on the **Settings** pane, it now appears as a label on the report, as seen below.
 
 > [!div class="mx-imgBorder"]
 > [![Dashboard with a sensitivity label](../media/06-reports-dashboards-cards-6-ss.png)](../media/06-reports-dashboards-cards-6-ss.png#lightbox)
