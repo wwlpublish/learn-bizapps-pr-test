@@ -34,7 +34,7 @@ In this task, you will create the **Sales Exploration** report.
 	> Use the **Get Data** command on the **Home** ribbon tab, and then select **Power BI Datasets**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-3-ssm.png)](../media/v.png#lightbox)
+	> [![alt text](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
 
 You now create four report pages, and on each page you'll work with a different visual to analyze and explore data.
 

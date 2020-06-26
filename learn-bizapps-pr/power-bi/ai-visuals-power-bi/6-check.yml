@@ -21,7 +21,7 @@ quiz:
     - content: The AI Splits work by considering all of the available fields and determining which one to drill into to get the highest/lowest value of the measure being analyzed.
       isCorrect: true
       explanation: he AI Splits work by considering all of the available fields and determining which one to drill into to get the highest/lowest value of the measure being analyzed.
-    - content: The AI Splits only displays the difference between highest and lowest value of the measure being analyzed.
+    - content: The AI Splits only display the difference between highest and lowest value of the measure being analyzed.
       isCorrect: false 
       explanation: he AI Splits work by considering all of the available fields and determining which one to drill into to get the highest/lowest value of the measure being analyzed.
   - content: Can you access Q&A feature using buttons?
@@ -50,10 +50,10 @@ quiz:
     choices: 
     - content: Conduct root cause analysis to understand a measure better.
       isCorrect: false
-      explanation: The decomposition tree does not conduct what-if analysis with built in parameters. 
-    - content: Conduct what-if analysis with built in parameters.
+      explanation: The decomposition tree does not conduct what-if analysis with built-in parameters. 
+    - content: Conduct what-if analysis with built-in parameters.
       isCorrect: true
-      explanation: The decomposition tree does not conduct what-if analysis with built in parameters. 
+      explanation: The decomposition tree does not conduct what-if analysis with built-in parameters. 
     - content: Automatically analyze selected dimensions to find where a measure is highest or lowest.
       isCorrect: false 
-      explanation: The decomposition tree does not conduct what-if analysis with built in parameters. 
+      explanation: The decomposition tree does not conduct what-if analysis with built-in parameters. 
