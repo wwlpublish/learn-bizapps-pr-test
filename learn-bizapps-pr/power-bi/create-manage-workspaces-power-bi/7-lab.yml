@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.create-manage-workspaces-power-bi.7-lab 
+title: Lab - Publish and share Power BI content
+metadata: 
+  title: Lab - Publish and share Power BI content 
+  description: In this exercise, you will assign your classroom partner's account to the Salespeople role of your dataset.
+  ms.date: 06/30/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 45 
+labId: 72684
+labModal: true
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/7-lab.md)] 
