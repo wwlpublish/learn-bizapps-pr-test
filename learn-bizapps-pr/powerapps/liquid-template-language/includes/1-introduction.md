@@ -14,7 +14,7 @@ Liquid code can be used anywhere in the portals where HTML or text content can b
 
 1. Open Power Apps portal Studio. You can follow these steps:
 
-   1. Navigate to Power Apps maker portal at [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
+   1. Navigate to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
    1. Select the target environment using the environment selector in the top right-hand corner.
    1. From the list of Apps select the application of type **Portal**.
    1. Click **Edit** menu.

@@ -37,21 +37,21 @@ In this exercise, we will display selected Common Data Service records by adding
 
 #### Launch portal Studio
 
-1. Navigate to the Power Apps maker portal at [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true).
+1. Navigate to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
 1. Make sure correct environment is selected in the environment selector in the top right-hand corner.
 1. From the list of Apps, locate your portal app (Type = Portal).
-1. Click on the ellipse (...) and choose **Edit**.  This will launch the Portal Studio.
+1. Click the ellipsis (...) and choose **Edit**.  This will launch the Portal Studio.
 
 #### Select web page
 
-1. From the toolbelt, click on the **Pages** icon.
+1. From the toolbelt, click the **Pages** icon.
 1. Locate the **Services** web page and click to edit.
 
 #### Edit source code
 
 1. Select the page copy section on the canvas.
 
-1. Click on the **Source code editor** (</>) icon.
+1. Click the **Source code editor** (</>) icon.
 
 1. Replace the existing paragraph with the following HTML and Liquid code.
 
@@ -77,7 +77,7 @@ In this exercise, we will display selected Common Data Service records by adding
    > [!div class="mx-imgBorder"]
    > [![List of accounts appears in Portal Studio](../media/liquid-exercise.png)](../media/liquid-exercise.png#lightbox)
 
-1. Click Browse website button. The displayed web page should only contain the text "We have 0 accounts."
+1. Click the Browse website button. The displayed web page should only contain the text "We have 0 accounts."
 
     > [!NOTE]
     > This is expected as at runtime the portal will deny access to entity records unless there is an entity permission record that allows access to the data.

@@ -22,7 +22,7 @@ In this example, the code does the following:
 1. Displays data only if the user is signed in.
 1. Retrieves the parent account record.
 1. Checks that the account exists and the user has permissions to read that record. The **Permissions** property of the **entity** object returns the [Entity Permissions](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-objects#entity-permissions/?azure-portal=true) object that can be used to verify specific privileges.
-1. Displays name of the account otherwise displays Unknown company message.
+1. Displays name of the account if available, otherwise displays the "Unknown company" message.
 
 You can test the code inside the Portal Studio and then by browsing to the site. Check the different values rendered by the code because of the maker privileges within the Studio.
 
