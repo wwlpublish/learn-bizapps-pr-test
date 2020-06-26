@@ -18,7 +18,8 @@ To set up a refresh schedule for your dataset, go to the **Datasets + dataflows*
 
 On the **Settings** page, turn on the scheduled refresh feature. Next, select the refresh frequency, and ensure the correct time zone is selected. You then add the time(s) that you want the refresh to occur. You can configure up to eight daily time slots, if your dataset is on shared capacity, or 48 time slots on Power BI Premium. When you have finished configuring the scheduled refresh, select **Apply**.
 
-Note: Whilst you can set a time for the refresh, be aware that the refresh might not take place at that exact time. Power BI starts scheduled refreshes on a best effort basis. The target is to initiate the refresh within 15 minutes of the scheduled time slot, but a delay of up to one hour can occur if the service can't allocate the required resources sooner.
+> [!NOTE]
+> Whilst you can set a time for the refresh, be aware that the refresh might not take place at that exact time. Power BI starts scheduled refreshes on a best effort basis. The target is to initiate the refresh within 15 minutes of the scheduled time slot, but a delay of up to one hour can occur if the service can't allocate the required resources sooner.
 
 In this example, you want the system to refresh the Sales data on a daily basis 6:00 AM, 10:00 AM, and 3:00 PM, as illustrated in the following image.
 
