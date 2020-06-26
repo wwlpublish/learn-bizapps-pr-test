@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.liquid-template-language.5-exercise 
+title: Exercise - Display a list of accounts
+metadata: 
+  title: Exercise - Display a list of accounts
+  description: Practice using Liquid to display Common Data Service data.
+  ms.date: 07/08/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-exercise.md)] 

@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.liquid-template-language 
+metadata: 
+ title: Work with the Liquid template language in Power Apps portals 
+ description: Liquid is an [open-source template language](http://dotliquidmarkup.org/?azure-portal=true) integrated natively into Power Apps portals. It basically acts as a bridge between the Common Data Service and the HTML or text output sent to the browser. It can be used to add dynamic content to pages, and to create a wide variety of custom templates. It is proven and it is secure as it only provides access to the data and operations explicitly allowed by the portals.
+ ms.date: 07/08/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Work with the Liquid template language in Power Apps portals 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Liquid is an [open-source template language](http://dotliquidmarkup.org/?azure-portal=true) integrated natively into Power Apps portals. It basically acts as a bridge between the Common Data Service and the HTML or text output sent to the browser. It can be used to add dynamic content to pages, and to create a wide variety of custom templates. It is proven and it is secure as it only provides access to the data and operations explicitly allowed by the portals. 
+abstract: |  
+    In this module, you will: 
+    - Describe what Liquid is and how it is used in portals
+    - Interpret the syntax of Liquid and how to write Liquid code
+    - Differentiate Liquid tags, objects, and filters
+    - Understand how to use FetchXML to surface CDS data
+prerequisites: Target audience should have basic understanding of Power Apps portals web pages and page templates. Knowledge of Common Data Service entities and relationships as well as familiarity with JavaScript, HTML, CSS, and web application development would also be beneficial.
+iconUrl: /learn/achievements/liquid-template-language.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+products:  
+- power-platform
+- power-apps 
+units: 
+- learn-bizapps.liquid-template-language.1-introduction 
+- learn-bizapps.liquid-template-language.2-liquid-basics 
+- learn-bizapps.liquid-template-language.3-common-data-service-data 
+- learn-bizapps.liquid-template-language.4-data-security-liquid 
+- learn-bizapps.liquid-template-language.5-exercise 
+- learn-bizapps.liquid-template-language.6-check 
+- learn-bizapps.liquid-template-language.7-summary 
+badge: 
+  uid: learn-bizapps.liquid-template-language.badge 
