@@ -6,7 +6,7 @@ In this section, you will discover how you can easily bootstrap your AI Builder 
 
 Let's create a flow from an AI Builder template:
 
-1.  Click on **My templates** tab in the left menu, the list of available templates will appear
+1.  Select **My templates** tab in the left menu, the list of available templates will appear
 
 2.  Type **AI Builder** in the search bar and press enter key. All the AI Builder templates will be displayed:
 
@@ -16,19 +16,17 @@ Let's create a flow from an AI Builder template:
 
     ![Send sentiment notification.](../media/04-notification.png)
 
-    Click on **Continue**
+    Select **Continue**
 
 4.  A preconfigured flow appears (at this stage, the flow is not saved yet):
 
-![Preconfigured flow template](../media/04-preconfigured-flow.png)
+    ![Preconfigured flow template](../media/04-preconfigured-flow.png)
 
-> You can save the flow as-is or update it at your convenience:
+    You can save the flow as-is or update it at your convenience:
 
--   Modify existing actions: input parameters, action name or advanced parameters
-
--   Add new actions
-
--   Remove existing actions (this will likely break the actions downstream)
+    - Modify existing actions: input parameters, action name or advanced parameters
+     - Add new actions
+     - Remove existing actions (this will likely break the actions downstream)
 
 5.  Save the flow and test it
 
@@ -36,7 +34,7 @@ Let's create a flow from an AI Builder template:
 
 From AI Builder studio, it's also possible to launch the creation of a flow using your favorite model.
 
-Let's take the example of a custom form processing model. In the detail page of the model, there is a **Use Model** button (the model must be published). Clicking on it opens a right panel that offers multiple options:
+Let's take the example of a custom form processing model. In the detail page of the model, there is a **Use Model** button (the model must be published). Selecting this button opens a right panel that offers multiple options:
 
 ![Custom form processing model.](../media/04-custom-form.png)
 

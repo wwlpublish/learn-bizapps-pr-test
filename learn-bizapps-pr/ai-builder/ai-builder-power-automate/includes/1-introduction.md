@@ -10,10 +10,8 @@ Power Automate offers AI builder actions that enable usage of all model types in
 
 The following illustration shows a simple flow with three main stages:
 
--   Reception of an email in Outlook
-
--   Detect sentiment of the email body using AI Builder sentiment analysis model
-
--   Send an email notification with the sentiment detected in the email using the output "Overall text sentiment" from the AI Builder model
+1. Reception of an email in Outlook. 
+2. Detect sentiment of the email body using AI Builder sentiment analysis model.
+3. Send an email notification with the sentiment detected in the email using the output "Overall text sentiment" from the AI Builder model
 
 ![A screenshot of a social media post Description automatically generated](../media/01-social-post-flow.png)
