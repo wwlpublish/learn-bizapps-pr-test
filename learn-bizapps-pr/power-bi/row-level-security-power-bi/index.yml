@@ -1,0 +1,34 @@
+### YamlMime:Module 
+uid: learn-bizapps.row-level-security-power-bi 
+metadata: 
+ title: Implement row-level security
+ description: Row-level security allows you to create a single or set of reports that targets data for a specific user. For instance, you can create a single report where a salesperson can only see their individual sales transactions and not the transactions of someone else. RLS can be implemented using either a static or dynamic method and you will learn both here. You will also see how Power BI simplifies testing RLS in both Power BI Desktop and the Power BI service.
+ ms.date: 06/30/2020  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Implement row-level security 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Row-level security allows you to create a single or set of reports that targets data for a specific user. For instance, you can create a single report where a salesperson can only see their individual sales transactions and not the transactions of someone else. RLS can be implemented using either a static or dynamic method and you will learn both here. You will also see how Power BI simplifies testing RLS in both Power BI Desktop and the Power BI service. 
+abstract: |  
+    In this module, you will: 
+    - Configure row-level security using a static method.
+    - Configure row-level security using a dynamic method.
+prerequisites: None 
+iconUrl: /learn/achievements/row-level-security-power-bi.svg  
+levels:  
+- intermediate   
+roles:  
+- data-analyst  
+products:   
+- power-bi 
+units: 
+- learn-bizapps.row-level-security-power-bi.1-introduction 
+- learn-bizapps.row-level-security-power-bi.2-static-method 
+- learn-bizapps.row-level-security-power-bi.3-dynamic-method 
+- learn-bizapps.row-level-security-power-bi.4-check 
+- learn-bizapps.row-level-security-power-bi.5-summary 
+badge: 
+  uid: learn-bizapps.row-level-security-power-bi.badge 
