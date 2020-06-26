@@ -1,0 +1,17 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.data-driven-story-power-bi.13-lab 
+title: Lab - Designing a report in Power BI Desktop, part 1
+metadata: 
+  title: Lab - Designing a report in Power BI Desktop, part 1 
+  description: In this lab, you will create a three-page report named Sales Report. You will then publish it to Power BI, whereupon you will open and interact with the report. 
+  ms.date: 06/30/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 45 
+labId: 72677
+labModal: true
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/13-lab.md)] 
