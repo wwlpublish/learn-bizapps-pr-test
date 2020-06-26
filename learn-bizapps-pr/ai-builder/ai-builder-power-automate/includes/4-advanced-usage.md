@@ -10,7 +10,7 @@ Let's create a flow from an AI Builder template:
 
 2.  Type **AI Builder** in the search bar and press enter key. All the AI Builder templates will be displayed:
 
-![A screenshot of flow templates.](../media/04-templates.png)
+    ![A screenshot of flow templates.](../media/04-templates.png)
 
 3.  Select the template **Send a notification with the sentiment of manager\'s email using AI Builder**. You will see a summary of the template with a list of the connections that will be used:
 
