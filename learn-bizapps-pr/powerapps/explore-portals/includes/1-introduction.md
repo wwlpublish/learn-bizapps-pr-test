@@ -77,7 +77,7 @@ When an employee accesses the portal functionality, an appropriate Dynamics 365 
 
 For example, if an employee has a Dynamics 365 Customer Service license assigned, they cannot manage opportunities by using the Partner portal because access to opportunities requires a Dynamics 365 Sales license.
 
-The license that is required depends on the entities and functionality that are accessed. See [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) or [Power Apps Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409) for more details.
+The license that is required depends on the entities and functionalities that are accessed. For more information, see [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=866544&clcid=0x409) or [Power Apps Licensing Guide](https://go.microsoft.com/fwlink/?LinkId=2085130&clcid=0x409).
 
 ### Other solutions
 
