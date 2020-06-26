@@ -99,7 +99,7 @@ When entering a support case, the portal user might be redirected to browse pote
 
 The Dynamics 365 Customer Service Case functionality is surfaced on Power Apps portals by using the **Support Case** portal feature.
 
-This use-case is common for Power Apps portals and is available on the Community, Customer self-service, Employee self-service, and Partner portals.
+This use case is common for Power Apps portals and is available on the Community, Customer self-service, Employee self-service, and Partner portals.
 
 To set up and configure the Power Apps portals Case Management features, see [Manage cases in portals](https://docs.microsoft.com/dynamics365/customer-engagement/portals/case-management).
 
