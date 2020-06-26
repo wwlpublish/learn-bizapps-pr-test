@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.row-level-security-power-bi.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 06/30/2020 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 2 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which function will tell you the logged on username in the Power BI Service?
+    choices: 
+    - content: USERPRINCIPALNAME()
+      isCorrect: true 
+      explanation: This function will tell you which user is logged in to view a report.
+    - content: LOOKUPVALUE()
+      isCorrect: false 
+      explanation: This function is used to search for a specific row in a table.
+    - content: USEROBJECTID()
+      isCorrect: false 
+      explanation: This function will tell you the SID of the logged on user, but not their name.
+  - content: Where can you test RLS by using different security roles?
+    choices: 
+    - content: Power BI Desktop Only
+      isCorrect: false
+      explanation: You can use both to test RLS.
+    - content: Power BI Service Only
+      isCorrect: false 
+      explanation: You can use both to test RLS.
+    - content: Both Power BI Desktop and Power BI Service
+      isCorrect: true 
+      explanation: You can use both to test RLS.
