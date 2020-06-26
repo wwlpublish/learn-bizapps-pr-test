@@ -2,7 +2,7 @@
 uid: learn-bizapps.manage-datasets-power-bi 
 metadata: 
  title: Manage datasets in Power BI 
- description: In Power BI, you can build multiple reports from a single dataset. This means that if you change the dataset, all the reports will be updated with that change. It also means that you can do the work of cleaning and prepping data a single time, instead of repeatedly for each report. Once a dataset has been deployed, you will want to automatically refresh it, so the users see the most current data in their reports. By using the Power BI gateway, it is possible to retrieve data from on-premise data sources, for instance a SQL Server that might be in your organization’s data center.
+ description: In Power BI, you can build multiple reports from a single dataset. This means that if you change the dataset, all the reports will be updated with that change. It also means that you can do the work of cleaning and prepping data a single time, instead of repeatedly for each report. Once a dataset has been deployed, you'll want to automatically refresh it, so the users see the most current data in their reports. By using the Power BI gateway, it's possible to retrieve data from on-premise data sources, for instance a SQL Server that might be in your organization’s data center.
  ms.date: 06/30/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,7 +11,7 @@ metadata:
 title: Manage datasets in Power BI  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  In Power BI, you can build multiple reports from a single dataset. This means that if you change the dataset, all the reports will be updated with that change. It also means that you can do the work of cleaning and prepping data a single time, instead of repeatedly for each report. Once a dataset has been deployed, you will want to automatically refresh it, so the users see the most current data in their reports. By using the Power BI gateway, it is possible to retrieve data from on-premise data sources, for instance a SQL Server that might be in your organization’s data center. 
+  In Power BI, you can build multiple reports from a single dataset. This means that if you change the dataset, all the reports will be updated with that change. It also means that you can do the work of cleaning and prepping data a single time, instead of repeatedly for each report. Once a dataset has been deployed, you'll want to automatically refresh it, so the users see the most current data in their reports. By using the Power BI gateway, it's possible to retrieve data from on-premise data sources, for instance a SQL Server that might be in your organization’s data center. 
 abstract: |  
     In this module, you will: 
     - Create dynamic reports with parameters. 

@@ -1,6 +1,6 @@
-The **Scheduled refresh** feature in Power BI Service allows you to define the frequency and time slots to refresh a particular dataset. Scheduling the refresh of your data will save you time, as you don't have to manually refresh the data. It also ensures that the end-users can access the most up-to-date data.
+The **Scheduled refresh** feature in Power BI Service allows you to define the frequency and time slots to refresh a particular dataset. Scheduling the refresh of your data will save you time, as you don't have to manually refresh the data. It also ensures that the end users can access the most up-to-date data.
 
-In this example, you are creating a report but you realize that the version of the Sales data you are using isn't the most up-to-date. You check the refresh status and see that it was last refreshed ten days ago! And there is no refresh scheduled to take place.
+In this example, you are creating a report but you realize that the version of the Sales data you are using isn't the most up to date. You check the refresh status and see that it was last refreshed 10 days ago! And there is no refresh scheduled to take place.
 
 > [!div class="mx-imgBorder"]
 > [![View dataset last refresh time](../media/5-view-dataset-last-refresh-time-ss.png)](../media/5-view-dataset-last-refresh-time-ss.png#lightbox)
@@ -20,7 +20,7 @@ On the **Settings** page, turn on the scheduled refresh feature. Next, select th
 
 Note: Whilst you can set a time for the refresh, be aware that the refresh might not take place at that exact time. Power BI starts scheduled refreshes on a best effort basis. The target is to initiate the refresh within 15 minutes of the scheduled time slot, but a delay of up to one hour can occur if the service can't allocate the required resources sooner.
 
-In this example, you want the system to refresh the Sales data on a daily basis 6:00 AM, 10:00 AM and 3:00 PM, as illustrated in the following image.
+In this example, you want the system to refresh the Sales data on a daily basis 6:00 AM, 10:00 AM, and 3:00 PM, as illustrated in the following image.
 
 > [!div class="mx-imgBorder"]
 > 
@@ -44,9 +44,10 @@ To perform an on-demand refresh, on the **Datasets + dataflows** page, hover ove
 
 ## Check the refresh status and history
 
-You can check the refresh status and history at any time. This is useful if you want to find out when the last refresh occurred and when the next one is scheduled. It is also good practice to check to check the status of your datasets from time to time, to see if there have been any refresh errors.
+You can check the refresh status and history at any time. This is useful if you want to find out when the last refresh occurred and when the next one is scheduled. It is also good practice to check the status of your datasets from time to time, to see if there have been any refresh errors.
 
-Note: Power BI deactivates your refresh schedule after four consecutive failures or when the service detects an unrecoverable error that requires a configuration update, such as invalid or expired credentials. It is not possible to change the consecutive failures threshold.
+> [!NOTE]
+> Power BI deactivates your refresh schedule after four consecutive failures or when the service detects an unrecoverable error that requires a configuration update, such as invalid or expired credentials. It is not possible to change the consecutive failures threshold.
 
 A quick way to check the refresh status is to view the list of datasets in a workspace.
 
