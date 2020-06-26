@@ -21,9 +21,9 @@ When using query caching, the query results are only specific to a user, and you
 To access and configure query caching, go to a dataset in your workspace and open its **Settings** page. In this example, you enable query caching for **SalesDataset**.  
 
 > [!div class="mx-imgBorder"]
-> [!Query Caching in Settings](../media/9-query-caching-settings-ssm.png)](../media/9-query-caching-settings-ssm.png#lightbox)
+> [![Query Caching in Settings](../media/9-query-caching-settings-ssm.png)](../media/9-query-caching-settings-ssm.png#lightbox)
 
-Select the **Datasets **tab, and expand the **Query Caching** options, as seen in the following image.  
+Select the **Datasets** tab, and expand the **Query Caching** options, as seen in the following image.  
 
 > [!div class="mx-imgBorder"]
 > [![Query caching options](../media/9-query-caching-options-ss.png)](../media/9-query-caching-options-ss.png#lightbox)
