@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.data-driven-story-power-bi.11-tune-reports 
+title: Performance tune reports
+metadata: 
+  title: Performance tune reports 
+  description: Learn how to performance tune reports.  
+  ms.date: 06/30/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/11-tune-reports.md)] 
