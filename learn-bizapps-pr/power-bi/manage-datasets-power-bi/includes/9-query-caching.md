@@ -38,5 +38,5 @@ In this case, you select **On** for your dataset, as you want to apply query ca
 > [!WARNING]
 > If many datasets have query caching enabled, and a refresh occurs, there may be a reduction in performance, as there are a large number of queries being processed at once.  
 
-For more information, see [[Query Caching in Power BI]{.underline}](https://docs.microsoft.com/power-bi/connect-data/power-bi-query-caching/?azure-portal=true).
+For more information, see [[Query Caching in Power BI](https://docs.microsoft.com/power-bi/connect-data/power-bi-query-caching/?azure-portal=true).
 
