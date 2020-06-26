@@ -30,7 +30,7 @@ Select the **Datasets** tab, and expand the **Query Caching** options, as seen 
 
 Here, you can choose from several options. The default enables query caching off, but you can also choose **Off**, which turns off query caching for the specific dataset in question, and **On**, which turns on query caching for this specific dataset only.  
 
-In this case, you select **On**f or your dataset, as you want to apply query caching to your specific dataset.  
+In this case, you select **On** for your dataset, as you want to apply query caching to your specific dataset.  
 
 > [!NOTE]
 > Going from **On** to **Off** will clear all previous saved query results. When turning off query caching (either through the default or **Off** option), there will be a small delay in query loading, as the report queries are running against the dataset and it does not have saved queries to fall back on.
