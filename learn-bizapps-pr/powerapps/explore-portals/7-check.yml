@@ -13,59 +13,59 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: You have provisioned a new Power Platform environment without enabling any of the Dynamics 365 apps. What starter portal templates are available for to provision?
+  - content: You have provisioned a new Power Platform environment without enabling any of the Dynamics 365 apps. What starter portal templates are available for you to provision?
     choices: 
-    - content: Customer Service Portal
+    - content: Customer service portal
       isCorrect: false
-      explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365.  Customer Service and Community Portals require Dynamics 365 apps.  The Not for Profit portal is not an available portal template.
-    - content: Community Portal
+      explanation: The Portal from blank template is the only option to provision on a Common Data Service Environment without Dynamics 365. Customer service and Community portals require Dynamics 365 apps. The Not for Profit portal is not an available portal template.
+    - content: Community portal
       isCorrect: false
-      explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365.  Customer Service and Community Portals require Dynamics 365 apps.  The Not for Profit portal is not an available portal template.
+      explanation: The Portal from blank template is the only option to provision on a Common Data Service Environment without Dynamics 365. Customer service and Community portals require Dynamics 365 apps. The Not for Profit portal is not an available portal template.
     - content: Portal from blank
       isCorrect: true
-      explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365.  Customer Service and Community Portals require Dynamics 365 apps.  The Not for Profit portal is not an available portal template.
-    - content: Not for Profit Portal
+      explanation: The Portal from blank template is the only option to provision on a Common Data Service Environment without Dynamics 365. Customer service and Community portals require Dynamics 365 apps. The Not for Profit portal is not an available portal template.
+    - content: Not for Profit portal
       isCorrect: false
-      explanation: The Portal from blank is the only option to provision on a Common Data Service Environment without Dynamics 365.  Customer Service and Community Portals require Dynamics 365 apps.  The Not for Profit portal is not an available portal template.
-  - content: What Starter Portals are NOT available for the Customer Audience?
+      explanation: The Portal from blank template is the only option to provision on a Common Data Service Environment without Dynamics 365. Customer service and Community portals require Dynamics 365 apps. The Not for Profit portal is not an available portal template.
+  - content: What starter portals are not available for the customer audience?
     choices: 
-    - content: Customer Self-Service
+    - content: Customer self-service
       isCorrect: false
-      explanation: When Customer is selected as Portal Audience during the portal provisioning process, the following starter portals are available - Customer Self-Service Portal, Custom Portal, Community Portal. eCommerce Portal is not a valid starter portal type.
-    - content: eCommerce Portal
+      explanation: When Customer is selected as the portal audience during the portal provisioning process, the Customer self-service, Custom, and Community portals are available. eCommerce portal is not a valid starter portal type.
+    - content: eCommerce portal
       isCorrect: true
-      explanation: When Customer is selected as Portal Audience during the portal provisioning process, the following starter portals are available - Customer Self-Service Portal, Custom Portal, Community Portal. eCommerce Portal is not a valid starter portal type.
-    - content: Community Portal
+      explanation: When Customer is selected as the portal audience during the portal provisioning process, the Customer self-service, Custom, and Community portals are available. eCommerce portal is not a valid starter portal type.
+    - content: Community portal
       isCorrect: false
-      explanation: When Customer is selected as Portal Audience during the portal provisioning process, the following starter portals are available - Customer Self-Service Portal, Custom Portal, Community Portal. eCommerce Portal is not a valid starter portal type.
-    - content: Custom Portal
+      explanation: When Customer is selected as the portal audience during the portal provisioning process, the Customer self-service, Custom, and Community portals are available. eCommerce portal is not a valid starter portal type.
+    - content: Custom portal
       isCorrect: false
-      explanation: When Customer is selected as Portal Audience during the portal provisioning process, the following starter portals are available - Customer Self-Service Portal, Custom Portal, Community Portal. eCommerce Portal is not a valid starter portal type.
-  - content: Where do you author new Knowledge Articles for the Portal?
+      explanation: When Customer is selected as the portal audience during the portal provisioning process, the Customer self-service, Custom, and Community portals are available. eCommerce portal is not a valid starter portal type.
+  - content: Where do you write new knowledge articles for the portal?
     choices: 
     - content: Portal Studio
       isCorrect: false
-      explanation: Knowledge articles cannot be authored within the portal at all, only viewed.  While knowledge articles are listed in the Portal App, they can only be authored in the Customer Service Hub App.
-    - content: Custom Portal
+      explanation: Knowledge articles cannot be written within the portal at all, only viewed. While knowledge articles are listed in the Portal Management app, they can only be written in the Customer Service Hub app.
+    - content: Custom portal
       isCorrect: false
-      explanation: Knowledge articles cannot be authored within the portal at all, only viewed.  While knowledge articles are listed in the Portal App, they can only be authored in the Customer Service Hub App.
+      explanation: Knowledge articles cannot be written within the portal at all, only viewed. While knowledge articles are listed in the Portal Management app, they can only be written in the Customer Service Hub app.
     - content: Dynamics 365 Customer Service Hub
       isCorrect: true    
-      explanation: Knowledge articles cannot be authored within the portal at all, only viewed.  While knowledge articles are listed in the Portal App, they can only be authored in the Customer Service Hub App.
-    - content: Portal Management App
+      explanation: Knowledge articles cannot be written within the portal at all, only viewed. While knowledge articles are listed in the Portal Management app, they can only be written in the Customer Service Hub app.
+    - content: Portal Management app
       isCorrect: false
-      explanation: Knowledge articles cannot be authored within the portal at all, only viewed.  While knowledge articles are listed in the Portal App, they can only be authored in the Customer Service Hub App.
-  - content: Which feature is only available in Community Starter Portal?
+      explanation: Knowledge articles cannot be written within the portal at all, only viewed. While knowledge articles are listed in the Portal Management app, they can only be written in the Customer Service Hub app.
+  - content: Which feature is only available in the Community starter portal?
     choices: 
     - content: Forums
       isCorrect: false
-      explanation: Forums and Knowledge Articles features are available in all starter portals except Custom Portal. Blogs feature is available only in Community Starter Portal. Event Management is not a valid starter portal feature.
+      explanation: Forums and Knowledge Articles features are available in all starter portals except the Custom portal. The Blogs feature is available only in the Community starter portal. Event Management is not a valid starter portal feature.
     - content: Blogs
       isCorrect: true 
-      explanation: Forums and Knowledge Articles features are available in all starter portals except Custom Portal. Blogs feature is available only in Community Starter Portal. Event Management is not a valid starter portal feature.
+      explanation: Forums and Knowledge Articles features are available in all starter portals except the Custom portal. The Blogs feature is available only in the Community starter portal. Event Management is not a valid starter portal feature.
     - content: Event Management
       isCorrect: false
-      explanation: Forums and Knowledge Articles features are available in all starter portals except Custom Portal. Blogs feature is available only in Community Starter Portal. Event Management is not a valid starter portal feature.
+      explanation: Forums and Knowledge Articles features are available in all starter portals except the Custom portal. The Blogs feature is available only in the Community starter portal. Event Management is not a valid starter portal feature.
     - content: Knowledge Articles
       isCorrect: false
-      explanation: Forums and Knowledge Articles features are available in all starter portals except Custom Portal. Blogs feature is available only in Community Starter Portal. Event Management is not a valid starter portal feature.
+      explanation: Forums and Knowledge Articles features are available in all starter portals except the Custom portal. The Blogs feature is available only in the Community starter portal. Event Management is not a valid starter portal feature.
