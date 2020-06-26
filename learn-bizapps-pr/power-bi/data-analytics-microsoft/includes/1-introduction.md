@@ -3,15 +3,15 @@ As a data analyst, you are on a journey. Think about all the data that is being 
 > [!div class="mx-imgBorder"]
 > [![abundance of data](../media/abundance-data-ss.png)](../media/abundance-data-ss.png#lightbox)
 
-For example, retail businesses of today collect and store massive amounts of data which track the items you browsed and purchased, the pages you've visited on their site, the aisles you purchase products from, your spending habits, and much more.
+For example, retail businesses of today collect and store massive amounts of data, which track the items you browsed and purchased, the pages you've visited on their site, the aisles you purchase products from, your spending habits, and much more.
 
-With data and information as the most strategic asset of a business, the underlying challenge that organizations have today is understanding and using their data to positively affect change within the business. Yet, business continue to struggle to use their data in a meaningful and productive way which impacts their ability to act.
+With data and information as the most strategic asset of a business, the underlying challenge that organizations have today is understanding and using their data to positively affect change within the business. Yet, businesses continue to struggle to use their data in a meaningful and productive way, which impacts their ability to act.
 
 A retail business should be able to use their vast amounts of data and information in such a way that impacts the business, including tracking inventory, identify purchase habits, detect end-user trends and patterns, recommend purchases, determine price optimizations, and identify and stop fraud. You may also be looking for daily/monthly sale patterns. Day over day, week over week and month over month are also common segments to look at. How have sales compared to where we were in the same week last year?
 
 They key to unlocking all this data is being able to tell a story with it. In today's highly competitive and fast-paced business world, crafting reports that tell that story is what helps business leaders to really take action on the data. Business decision makers depend on an accurate story to drive better business decisions. The faster a business can make precise decisions, the more competitive they will be and the better advantage they will have. Without the story, it is hard to understand what the data is trying to tell you.
 
-Having data alone is not enough. You need to be able to act on the data to effect change within the business. Whether that is re-allocating resources within the business to accommodate a need or being able to identify a failing campaign and knowing when to change course. This is where telling a story with your data is important.
+Having data alone is not enough. You need to be able to act on the data to effect change within the business. Whether that is reallocating resources within the business to accommodate a need or being able to identify a failing campaign and knowing when to change course. This is where telling a story with your data is important.
 
 The underlying challenge that businesses face today is understanding and using their data in such a way that impacts their business and ultimately their bottom line. You need to be able to look at the data and facilitate trusted business decisions. The act of being able to look at metrics and clearly understand the meaning behind those metrics.
 
