@@ -48,7 +48,7 @@ Power BI Row-level security (RLS) uses DAX to control who can see which data. Th
 > [!div class="mx-imgBorder"]
 > [![The Manage roles screen](../media/02-manage-roles-dax-ss.png)](../media/02-manage-roles-dax-ss.png#lightbox)
 
-Notice how we apply the dax filter on the dimension table. Row-level security performs better when the data is organized in a star schema. Apply the DAX filter to a dimension table, like we have done with the Products table here.
+Notice how we apply the DAX filter on the dimension table. Row-level security performs better when the data is organized in a star schema. Apply the DAX filter to a dimension table, like we have done with the Products table here.
 
 Remember that the DAX filter is applied to every interaction, slicer, and filter that the user uses. If we have a poor performing DAX filter, it will negatively impact the user experience. Keep the DAX filter as simple as possible.
 
