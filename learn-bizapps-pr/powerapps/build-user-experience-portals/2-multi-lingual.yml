@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.build-user-experience-portals.2-multi-lingual 
+title: Multi-lingual support
+metadata: 
+  title: Multi-lingual support
+  description: Learn about language-aware content and language considerations.
+  ms.date: 07/08/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-multi-lingual.md)] 

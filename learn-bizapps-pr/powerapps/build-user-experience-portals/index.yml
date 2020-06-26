@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.build-user-experience-portals 
+metadata: 
+ title: Build user experience in portals
+ description: This module focuses on what a portal maker should consider when designing and building portals. Getting started with the implementation of a portal solution requires a good understanding of the specific business requirements and the needs not only of the customer but of the customer's customers. A successful portal will be well designed and easy to navigate. It's also critical to provide portal functionality to those with accessibility needs and to provide portal features to different geographies and languages. Like any good development project, portal metadata needs to be backed up to source control and also deployed to test and production environments in a consistent managed way.
+ ms.date: 07/08/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Build user experience in portals
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module focuses on what a portal maker should consider when designing and building portals. Getting started with the implementation of a portal solution requires a good understanding of the specific business requirements and the needs not only of the customer but of the customer's customers. A successful portal will be well designed and easy to navigate. It is also critical to provide portal functionality to those with accessibility needs and to provide portal features to different geographies and languages. Like any good development project, portal metadata needs to be backed up to source control and also deployed to test and production environments in a consistent managed way.
+abstract: |  
+    In this module, you will: 
+    - Recognize business requirements that you can meet with portal functionality and those that require deeper development or consideration of other technology, for example, Forms Pro, Canvas Apps, etc.
+    - Understand how to design a portal, including page placement, site map best practices, and content planning
+    - Identify how to ensure that portals are accessible
+    - Understand how to configure and manage a multi-lingual portal
+prerequisites: Target audience should have basic understanding and usage and navigation of a Power Apps portal. A background in design and user experience and familiarity with accessibility standards such as WCAG will also be beneficial.  Familiarity with ALM and DevOps practices would be beneficial.
+iconUrl: /learn/achievements/build-user-experience-portals.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+products:  
+- power-platform  
+- power-apps 
+units: 
+- learn-bizapps.build-user-experience-portals.1-introduction 
+- learn-bizapps.build-user-experience-portals.2-multi-lingual 
+- learn-bizapps.build-user-experience-portals.3-reusable-content 
+- learn-bizapps.build-user-experience-portals.4-site-navigation 
+- learn-bizapps.build-user-experience-portals.5-portal-themes 
+- learn-bizapps.build-user-experience-portals.6-content-search 
+- learn-bizapps.build-user-experience-portals.7-compliance 
+- learn-bizapps.build-user-experience-portals.8-check 
+- learn-bizapps.build-user-experience-portals.9-summary 
+badge: 
+  uid: learn-bizapps.build-user-experience-portals.badge 
