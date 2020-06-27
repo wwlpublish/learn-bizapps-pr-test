@@ -8,8 +8,34 @@ In this lab, you learn how to:
 
 -   Configure visual fields and format properties
 
-> [!NOTE]
+> [!IMPORTANT]
 > This exercise will require you to login to Power BI service,  you can use your existing account or create a trial account before starting this lab. 
+
+**Lab Preparation: Publishing Sales Analysis report to Power BI.** 
+In this task, you will publish Power BI file Sales Analysis.pbix to Power BI. 
+ 
+1.	To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+
+1.	At the top-right corner of the welcome screen, click X.
+ 
+1.	Click the **File** ribbon tab to open the backstage view, and then select **Open Report**. 
+
+1.	In the **Open Report** window, click **Browse reports**, navigate to the **D:\DA100\Lab08A\Starter** folder, select **Sales Analysis.pbix file**. 
+
+1.	Click **Open** and save the Power BI Desktop file.
+
+1.	To publish the file, on the **Home** ribbon tab, from inside the Share group, and then click **Publish**.
+ 
+1.	You will be prompted to login to your Power BI account. Enter your Power BI credentials and password. 
+
+1.	In the **Publish to Power BI** window, select your workspace. 
+
+1.	Click **Select**.
+ 
+1.	When the file has been successfully published, click **Got it**.
+ 
+1.	Click **X** to close the Power BI Desktop and select **Save to the file**. 
+
 
 ## Create a report
 
@@ -26,8 +52,8 @@ In this task, you will create a live connection to the **Sales Analysis** datas
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the X close button on the welcome screen.](../media/lab-1-ssm.png)](../media/lab-1-ssm.png#lightbox)
 
-1.  Click the **File** ribbon tab to open the backstage view, and then select **Save**.
-
+1.  Click the **File** ribbon tab to open the backstage view, and then select **Save As**.
+ 
 1.  In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
 
 1.  In the **File Name** box, enter **Sales Report**.
@@ -52,7 +78,7 @@ In this task, you will create a live connection to the **Sales Analysis** datas
 
 1. At the bottom-right corner, in the status bar, notice that the live connection has been established.
 
-1. In the **Fields** pane, notice that the data model table are listed.
+1. In the **Fields** pane, notice that the data model tables are listed.
 
 	Power BI Desktop can no longer be used to develop the data model; in live connection mode, it's only a report authoring tool. It is possible, however, to create measures, but they are measures that are only available within the report. You won't add any report-scoped measures in this lab.
 
@@ -104,7 +130,9 @@ In this task, you will design the first report page. When you've completed the d
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Slicer visual on the Visualizations pane.](../media/lab-8-ssm.png)](../media/lab-8-ssm.png#lightbox)
 
-1. To convert the slicer from a list to a dropdown, at the top-right of the slicer, click the down-arrow, and then select **Dropdown**.
+1. To see the table in expanded form, click Focus mode.
+
+1. 1. To convert the slicer from a list to a dropdown, at the top-right of the slicer, click the down-arrow, and then select **Dropdown**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the slicer down arrow.](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox)
@@ -317,12 +345,6 @@ In this task, you will design the third and final report page. When you've compl
 
 1. Create a new page, and then rename it as **My Performance**.
 
-	Recall that row-level security was configured to ensure users only ever see data for their sales regions and targets. When this report is distributed to salespeople, they will only ever see their sales performance results.
-
-1. To simulate the row-level security filters during report design and testing, add the **Salesperson (Performance) | Salesperson** field to the **Filters** pane, inside the **Filters On This Page** well.
-
-1. In the filter card, scroll down the list of salespeople, and then check **Michael Blythe**.
-
 1. Add a dropdown slicer based on the **Date | Year** field, and then resize and reposition it so it sits at the top-left corner of the page.
 
 	> [!div class="mx-imgBorder"]
@@ -418,7 +440,7 @@ In this exercise, you will explore the **Sales Report** in the Power BI service
 
 In this task, you will explore the **Sales Report** in the Power BI service.
 
-1. In the Edge, in the Power BI service, in the **Navigation** pane, review the contents of your **Sales Analysis** workspace, and then click the **Sales Report** report.
+1. In the Edge, in the Power BI service, in the **Navigation** pane, review the contents of your workspace, and then click the **Sales Report** report.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Sales Report on the Navigation pane.](../media/lab-44-ssm.png)](../media/lab-44-ssm.png#lightbox)
@@ -496,6 +518,3 @@ In this task, you will explore the **Sales Report** in the Power BI service.
 	> [![Screenshot of the Exit full screen mode icon.](../media/lab-50-ssm.png)](../media/lab-50-ssm.png#lightbox)
 
 1. To return to the workspace, in the breadcrumb trail, click your workspace name.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the breadcrumb trail showing the workspace name.](../media/lab-51-ssm.png)](../media/lab-51-ssm.png#lightbox)
