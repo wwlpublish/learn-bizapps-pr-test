@@ -1,4 +1,4 @@
-The **Quick insights** feature in Power BI uses machine learning algorithms to go over your entire dataset and produce insights (results) for you quickly. This feature is a great way to build dashboards when you don't know where to start. It also helps you find insights you might've missed when building your reports. From the insights that Power BI discovers, you can generate appealing, interactive visualizations.
+The **Quick insights** feature in Power BI uses machine learning algorithms to go over your entire dataset and produce insights (results) for you quickly. This feature is a great way to build dashboards when you don't know where to start. It also helps you find insights you might have missed when building your reports. From the insights that Power BI discovers, you can generate appealing, interactive visualizations.
 
 > [!NOTE]
 > This feature is available in the Power BI web service only. Also, this feature doesn't work with DirectQuery; it only works with data that is imported to Power BI.
@@ -7,7 +7,7 @@ Consider the scenario where one of the datasets that you've been given contains 
 
 ## Get quick insights on your dataset
 
-To get quick insights on your dataset, open your Power BI web service and then select the **Content** tab. Locate your report for which you want to get quick insights which, in this case, is **TailwindTraders**. Then, select **More options (...) > Quick insights**.
+To get quick insights on your dataset, open your Power BI web service and then select the **Content** tab. Locate your report for which you want to get quick insights, which in this case is **TailwindTraders**. Then, select **More options (...) > Quick insights**.
 
 > [!div class="mx-imgBorder"]
 > [![Get quick insights](../media/9-get-quick-insights-ssm.png)](../media/9-get-quick-insights-ssm.png#lightbox)
