@@ -21,7 +21,7 @@ roles:
 products:
 - power-bi 
 modules:
-- learn-bizapps.design-data-model-power-bi 
+- learn-bizapps.design-model-power-bi 
 - learn-bizapps.create-measures-dax-power-bi 
 - learn-bizapps.optimize-model-power-bi 
 trophy: 
