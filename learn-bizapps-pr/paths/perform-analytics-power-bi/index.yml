@@ -1,0 +1,27 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.data-analysis-power-bi
+metadata:
+  title: Data analysis in Power BI                        
+  description: Report authors can use additional features to enhance their reports for analytical insights in their data with features like Q&A and exporting. In this module, you will closely examine your data and Power BI reports and then extract value with deeper analysis. Additionally, you will learn how to sort data and how to present the report in a cohesive manner. You will learn how to get a statistical summary for your data and export data from Power BI. You will also apply and perform advanced analytics on the report for deeper and more meaningful data insights.   
+  ms.date: 06/30/2020
+  author: heyrob
+  ms.author: robde
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+title: Data analysis in Power BI                        
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Report authors can use additional features to enhance their reports for analytical insights in their data with features like Q&A and exporting. In this module, you will closely examine your data and Power BI reports and then extract value with deeper analysis. Additionally, you will learn how to sort data and how to present the report in a cohesive manner. You will learn how to get a statistical summary for your data and export data from Power BI. You will also apply and perform advanced analytics on the report for deeper and more meaningful data insights.   
+prerequisites: None
+iconUrl: /learn/achievements/data-analysis-power-bi.svg
+levels:
+- intermediate
+roles: 
+- data-analyst
+products:
+- power-bi 
+modules:
+- learn-bizapps.perform-analytics-power-bi 
+- learn-bizapps.ai-visuals-power-bi 
+trophy: 
+  uid: learn-bizapps.data-analysis-power-bi.trophy
