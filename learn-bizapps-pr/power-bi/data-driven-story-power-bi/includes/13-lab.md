@@ -15,7 +15,7 @@ In this lab, you learn how to:
 In this exercise, you will sync the report page slicers.
 
 > [!IMPORTANT]
-> This exercise will require you to login to Power BI service,  you will use your existing account you created before starting this lab.
+> This exercise will require you to login to Power BI,  you will use your existing account you created before starting this lab.
 
 ### Sync slicers
 
@@ -25,7 +25,7 @@ In this task, you will sync the **Year** and **Region** slicers.
 
 1. You will be prompted to login to Power BI, login using Power BI account credentials.
 
-1.	You may get an error “Unable to connect,” the account is utilized many learners. Click on **Edit** and select the listed Sales Analysis report that you created in an earlier lab.    
+1.	You may get an error “Unable to connect,” the account is utilized by many learners. Click on **Edit** and select the Sales Analysis report you created in an earlier lab.    
 
 1. On the **Sales Report** file, on the **Overview** page, set the **Year** slicer to **FY2018**.
 
@@ -320,7 +320,7 @@ In the next exercise, you will explore the report in the Power BI service.
 In this exercise, you will explore the **Sales Report** in the Power BI service.
 
 > [!NOTE]
-> The following exercise will require you to login to Power BI service, you can use your existing account or create a trial account before starting this part of the lab.
+> The exercise will require you to login to Power BI, you will use your existing account to login before starting the lab.
 
 ### Explore the report
 
