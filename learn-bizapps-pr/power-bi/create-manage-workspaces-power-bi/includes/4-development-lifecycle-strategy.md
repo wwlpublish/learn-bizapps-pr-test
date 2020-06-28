@@ -33,10 +33,7 @@ Let's say you want to create a deployment pipeline at Tailwind. To configure a d
 > [!div class="mx-imgBorder"]
 > [![Deployment Pipeline selection](../media/04-deployment-full-8-ss.png)](../media/04-deployment-full-8-ss.png#lightbox)
 
-On the resulting page, select **Create a pipeline.** We want to create a deployment pipeline called **SalesPipeline.** Here, add in the **Pipeline name** of **SalesPipeline** and a description, if needed. Once you are ready select **Create.** This will take you to the following screen:
-
-> [!div class="mx-imgBorder"]
-> [![Deployment pipeline page](../media/04-deployment-pipeline-page-2-ss.png)](../media/04-deployment-pipeline-page-2-ss.png#lightbox)
+On the resulting page, select **Create a pipeline.** We want to create a deployment pipeline called **SalesPipeline.** Here, add in the **Pipeline name** of **SalesPipeline** and a description, if needed. Once you are ready select **Create.**
 
 This view shows you the steps of the development life cycle: **Development, Test,** and **Production.** To create our pipeline, we need to assign workspaces to each of these stages to facilitate where our reports and dashboards will be housed during each stage. Select **Assign a workspace** to begin.
 
@@ -78,10 +75,7 @@ We are close to completing the pipeline, transitioning from development to testi
 > [!div class="mx-imgBorder"]
 > [![Change source on Production](../media/04-change-source-7-ss.png)](../media/04-change-source-7-ss.png#lightbox)
 
-After performing a dataset refresh, our production workspace is ready. We can package the workspace as an app, which is available for our end users. Currently, our deployment pipeline is as follows:
-
-> [!div class="mx-imgBorder"]
-> [![Deployment pipeline completed](../media/04-deployment-compare-9-ssm.png)](../media/04-deployment-compare-9-ssm.png#lightbox)
+After performing a dataset refresh, our production workspace is ready. We can package the workspace as an app, which is available for our end users. 
 
 With that, we have successfully created a deployment pipeline from the development to the testing phase. Congrats! Let's take a quick look at some additional operations you can conduct in the development pipeline.
 
