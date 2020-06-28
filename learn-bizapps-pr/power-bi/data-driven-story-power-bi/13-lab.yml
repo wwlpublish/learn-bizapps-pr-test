@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.data-driven-story-power-bi.13-lab 
-title: Lab - Designing a report in Power BI Desktop, part 1
+title: Lab - Enhance Power BI reports with slicers, interaction and formatting
 metadata: 
-  title: Lab - Designing a report in Power BI Desktop, part 1 
+  title: Lab - Enhance Power BI reports with slicers, interaction and formatting
   description: In this lab, you will create a three-page report named Sales Report. You will then publish it to Power BI, whereupon you will open and interact with the report. 
   ms.date: 06/30/2020 
   author: heyrob 
