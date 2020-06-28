@@ -14,11 +14,20 @@ In this lab, you learn how to:
 
 In this exercise, you will sync the report page slicers.
 
+> [!IMPORTANT]
+> This exercise will require you to login to Power BI service,  you will use your existing account you created before starting this lab.
+
 ### Sync slicers
 
 In this task, you will sync the **Year** and **Region** slicers.
 
-1.  In Power BI Desktop, in the **Sales Report** file, on the **Overview** page, set the **Year** slicer to **FY2018**.
+1.  In Power BI Desktop, navigate to **D:\DA100\Lab09A\Starter** folder, and open **Sales Report.pbix** file.
+
+1. You will be prompted to login to Power BI, login using Power BI account credentials.
+
+1.	You may get an error “Unable to connect,” the account is utilized many learners. Click on **Edit** and select the listed Sales Analysis report that you created in an earlier lab.    
+
+1. On the **Sales Report** file, on the **Overview** page, set the **Year** slicer to **FY2018**.
 
 1.  Go to the **My Performance** page, and then notice that the **Year** slicer is a different value.
 
@@ -338,9 +347,6 @@ In this task, you will complete the lab.
 
 1. To return to the workspace, in the breadcrumb trail, click your workspace name.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the breadcrumb trail with your workspace name.](../media/lab-29-ssm.png)](../media/lab-29-ssm.png#lightbox) 
-
 1. Leave the Edge browser window open.
 
 1. In Power BI Desktop, go to the **My Performance** page, and in the **Fields** pane, remove the **Salesperson** filter card.
@@ -350,7 +356,7 @@ In this task, you will complete the lab.
 
 1. Select the **Overview** page.
 
-1. Save the Power BI Desktop file, and then republish to the **Sales Analysis** workspace.
+1. Save the Power BI Desktop file, and then republish to the workspace.
 
 1. Close Power BI Desktop.
 
