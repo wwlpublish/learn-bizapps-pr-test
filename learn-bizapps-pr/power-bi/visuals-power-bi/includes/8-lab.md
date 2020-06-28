@@ -12,7 +12,7 @@ In this lab, you learn how to:
 > This exercise will require you to login to Power BI service,  you can use your existing account or create a trial account before starting this lab. 
 
 **Lab Preparation: Publishing Sales Analysis report to Power BI.** 
-In this task, you will publish Power BI file Sales Analysis.pbix to Power BI. 
+In this task, you will publish **Power BI file Sales Analysis.pbix** to Power BI. 
  
 1.	To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
 
@@ -24,7 +24,7 @@ In this task, you will publish Power BI file Sales Analysis.pbix to Power BI.
 
 1.	Click **Open** and save the Power BI Desktop file.
 
-1.	To publish the file, on the **Home** ribbon tab, from inside the Share group, and then click **Publish**.
+1.	To publish the file, on the **Home** ribbon tab, from inside the Share group, click **Publish**.
  
 1.	You will be prompted to login to your Power BI account. Enter your Power BI credentials and password. 
 
@@ -80,7 +80,7 @@ In this task, you will create a live connection to the **Sales Analysis** datas
 
 1. In the **Fields** pane, notice that the data model tables are listed.
 
-	Power BI Desktop can no longer be used to develop the data model; in live connection mode, it's only a report authoring tool. It is possible, however, to create measures, but they are measures that are only available within the report. You won't add any report-scoped measures in this lab.
+	*Power BI Desktop can no longer be used to develop the data model; in live connection mode, it's only a report authoring tool. It is possible, however, to create measures, but they are measures that are only available within the report. You won't add any report-scoped measures in this lab.*
 
 1. Save the Power BI Desktop file.
 
