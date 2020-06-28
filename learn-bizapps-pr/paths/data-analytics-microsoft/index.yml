@@ -2,7 +2,7 @@
 uid: learn-bizapps.get-started-data-analytics
 metadata:
   title: Get started with Microsoft data analytics                     
-  description: 
+  description: With data and information as the most strategic asset of a business, the underlying challenge that organizations have today is understanding and using their data to positively affect change within the business. That is the job of a data analyst. 
   ms.date: 06/30/2020
   author: heyrob
   ms.author: robde
@@ -11,7 +11,7 @@ metadata:
 title: Get started with Microsoft data analytics                     
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  Summary goes here.   
+  With data and information as the most strategic asset of a business, the underlying challenge that organizations have today is understanding and using their data to positively affect change within the business. That is the job of a data analyst.
 prerequisites: None
 iconUrl: /learn/achievements/overview-data-analysis-power-bi.svg
 levels:
