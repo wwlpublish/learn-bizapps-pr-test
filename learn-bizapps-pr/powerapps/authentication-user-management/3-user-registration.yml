@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.authentication-user-management.3-user-registration 
+title: User registration in Power Apps portals
+metadata: 
+  title: User registration in Power Apps portals
+  description: Learn to register users through invitation-based and open registration.
+  ms.date: 07/08/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-user-registration.md)] 
