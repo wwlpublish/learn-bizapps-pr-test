@@ -1,5 +1,3 @@
-# Summary 
-
 Power Apps portals provide a great way for an external audience to view and interact with data from Dynamics 365 and custom Common Data Service applications. Portals should be a consideration as a pillar in an organization's overall web strategy. Power Apps portals can be quickly provisioned to serve a variety of different audiences and workloads.
 
 In this module, you looked at various ways to get started using Power Apps portals and features, including:
