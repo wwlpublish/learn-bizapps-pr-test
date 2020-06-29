@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.authentication-user-management.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/08/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which authentication method allows portal users to sign in using a username and password stored in Common Data Service?
+    choices: 
+    - content: Windows Authentication
+      isCorrect: false 
+      explanation: Portal users can authenticate using the following methods - local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes stored in the Common Data Service contact record.
+    - content: Local Authentication
+      isCorrect: true 
+      explanation: Portal users can authenticate using the following methods - local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes stored in the Common Data Service contact record.
+    - content: Form Authentication
+      isCorrect: false 
+      explanation: Portal users can authenticate using the following methods - local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes stored in the Common Data Service contact record.
+    - content: External Authentication
+      isCorrect: false 
+      explanation: Portal users can authenticate using the following methods - local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes stored in the Common Data Service contact record.
+  - content: Portal user has not confirmed their email. What will they NOT be able to do?
+    choices: 
+    - content: Sign into the portal
+      isCorrect: false 
+      explanation: Unless user's email is confirmed, it cannot be used for password resets or two-factor authentication. None of the other tasks require the email to be confirmed.
+    - content: Use two-factor authentication
+      isCorrect: true 
+      explanation: Unless user's email is confirmed, it cannot be used for password resets or two-factor authentication. None of the other tasks require the email to be confirmed.
+    - content: Change their email
+      isCorrect: false 
+      explanation: Unless user's email is confirmed, it cannot be used for password resets or two-factor authentication. None of the other tasks require the email to be confirmed.
+    - content: Register for Forums notifications
+      isCorrect: false 
+      explanation: Unless user's email is confirmed, it cannot be used for password resets or two-factor authentication. None of the other tasks require the email to be confirmed.
+  - content: You need to invite a group of 50 contacts from the same company to register on your portal. Which registration method would you use?
+    choices: 
+    - content: Closed Registration
+      isCorrect: false 
+      explanation: Power Apps portals support two types of registrations - Open Registrations and Invitation-Based Registrations. Only Invitation-based Registration supports invitations that can be sent to a group of contacts.
+    - content: Open Registration
+      isCorrect: false 
+      explanation: Power Apps portals support two types of registrations - Open Registrations and Invitation-Based Registrations. Only Invitation-based Registration supports invitations that can be sent to a group of contacts.
+    - content: Invitation-Based Registration
+      isCorrect: true 
+      explanation: Power Apps portals support two types of registrations - Open Registrations and Invitation-Based Registrations. Only Invitation-based Registration supports invitations that can be sent to a group of contacts.
+    - content: Email Registration
+      isCorrect: false 
+      explanation: Power Apps portals support two types of registrations - Open Registrations and Invitation-Based Registrations. Only Invitation-based Registration supports invitations that can be sent to a group of contacts.
+  - content: Which authentication provider is recommended?
+    choices: 
+    - content: Local portal authentication
+      isCorrect: false 
+      explanation: Azure AD B2C identity provider is the recommended provider for authentication. If third-party provider support like Facebook is required, then it can be configured in Azure AD B2C instead of the portal.
+    - content: Microsoft account
+      isCorrect: false 
+      explanation: Azure AD B2C identity provider is the recommended provider for authentication. If third-party provider support like Facebook is required, then it can be configured in Azure AD B2C instead of the portal.
+    - content: Facebook
+      isCorrect: false 
+      explanation: Azure AD B2C identity provider is the recommended provider for authentication. If third-party provider support like Facebook is required, then it can be configured in Azure AD B2C instead of the portal.
+    - content: Azure AD B2C
+      isCorrect: true 
+      explanation: Azure AD B2C identity provider is the recommended provider for authentication. If third-party provider support like Facebook is required, then it can be configured in Azure AD B2C instead of the portal.
