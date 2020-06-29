@@ -1,0 +1,65 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-integration.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/08/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 4
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: How would you add a SharePoint document library to a Power Apps portal page?
+    choices: 
+    - content: Add an IFrame pointing to the SharePoint URL
+      isCorrect: false 
+      explanation: Adding a document location sub-grid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
+    - content: Using the `{% sharepoint %}` Liquid tag
+      isCorrect: false 
+      explanation: Adding a document location sub-grid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
+    - content: Add a Document Location sub-grid on a model-driven form
+      isCorrect: true 
+      explanation: Adding a document location sub-grid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
+    - content: Add the SharePoint component to the page in the Portal Studio
+      isCorrect: false 
+      explanation: Adding a document location sub-grid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
+  - content: You add a Power BI component to your portal page using the *Publish to web* access type, and in the source code editor add filtering to the Liquid tag. However, the portal users still see the entire dataset. What could be the issue?
+    choices: 
+    - content: The portal users need to be logged in
+      isCorrect: false 
+      explanation: By default, the Power BI Liquid tag uses anonymous authentication which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no affect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
+    - content: You will need to refresh the cache
+      isCorrect: false 
+      explanation: By default, the Power BI Liquid tag uses anonymous authentication which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no affect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
+    - content: The Power BI Liquid tag is not set to `authentication_type:"AAD"`
+      isCorrect: true
+      explanation: By default, the Power BI Liquid tag uses anonymous authentication which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no affect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
+    - content: You need to configure row-level security in the Power BI dashboard
+      isCorrect: false 
+      explanation: By default, the Power BI Liquid tag uses anonymous authentication which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no affect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
+  - content: Is it possible to add a Power Virtual Agent to the portal?
+    choices: 
+    - content: 'True'
+      isCorrect: true 
+      explanation: A Power Virtual Agent can be added using the IFrame component.
+    - content: 'False'
+      isCorrect: false 
+      explanation: A Power Virtual Agent can be added using the IFrame component.
+  - content: Document management in Power Apps portals works with what version of SharePoint?
+    choices: 
+    - content: SharePoint 2013 or above
+      isCorrect: false 
+      explanation: Document management works only with SharePoint Online.
+    - content: SharePoint Online
+      isCorrect: true 
+      explanation: Document management works only with SharePoint Online.
+    - content: SharePoint 2015 or above
+      isCorrect: false 
+      explanation: Document management works only with SharePoint Online.
+    - content: SharePoint 2019 or above
+      isCorrect: false 
+      explanation: Document management works only with SharePoint Online.
