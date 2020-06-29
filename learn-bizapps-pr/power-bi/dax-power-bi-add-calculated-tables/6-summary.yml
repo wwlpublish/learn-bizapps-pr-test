@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.dax-power-bi-add-calculated-tables.6-summary 
+title: Summary
+metadata: 
+  title: Summary 
+  description: Summary of adding calculated tables and columns to Power BI Desktop models. 
+  ms.date: 07/07/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-summary.md)] 
