@@ -4,12 +4,12 @@ Model data types aren't the same as DAX data types, although there's a direct re
 
 |     Model data type    |     DAX data type     |     Description                                                                                                                                  |
 |------------------------|-----------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
-|     Whole number       |     64-bit integer    |     -2^63^ through 2^63^-1                                                                                                                           |
-|     Decimal number     |     64-bit   real     |     Negative: -1.79 x 10^308^ through -2.23 x 10^-308^     Zero     Positive: 2.23 x 10^-308^ through 1.79 x 10^308^      Limited to 17 decimal digits    |
+|     Whole number       |     64-bit integer    |     -2<sup>63</sup> through 2<sup>63</sup>-1                                                                                                                           |
+|     Decimal number     |     64-bit   real     |     Negative: -1.79 x 10<sup>308</sup> through -2.23 x 10<sup>-308</sup>     Zero     Positive: 2.23 x 10<sup>-308</sup> through 1.79 x 10<sup>308</sup>      Limited to 17 decimal digits    |
 |     Boolean            |     Boolean           |     TRUE or FALSE                                                                                                                                |
 |     Text               |     String            |     Unicode character string                                                                                                                     |
 |     Date               |     Date/time         |     Valid dates are all   dates after March 1, 1900                                                                                              |
-|     Currency           |     Currency          |     -9.22 x 10^14^ through 9.22 x 10^14^    Limited to four decimal digits of fixed precision                                                      |
+|     Currency           |     Currency          |     -9.22 x 10<sup>14</sup> through 9.22 x 10<sup>14</sup>    Limited to four decimal digits of fixed precision                                                      |
 |     N/A                |     BLANK             |     In some cases, it’s the equivalent of a database (SQL) NULL                                                                                  |
 
 ## BLANK data type
