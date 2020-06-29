@@ -2,7 +2,7 @@
 uid: learn-bizapps.dax-power-bi-write-formulas 
 metadata: 
  title: Write DAX formulas for Power BI Desktop models
- description: By the end of this module, you'll be able to write DAX formulas to create different types of model calculations: calculated tables, calculated columns, and measures. You'll learn how to write and format DAX formulas, which comprise expressions that use functions, operators, references to model objects, constants, and variables.
+ description: By the end of this module, you'll be able to write DAX formulas to create different types of model calculations calculated tables, calculated columns, and measures. You'll learn how to write and format DAX formulas, which comprise expressions that use functions, operators, references to model objects, constants, and variables.
  ms.date: 07/07/2020  
  author: heyrob  
  ms.author: robde  
