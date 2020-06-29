@@ -15,34 +15,34 @@ quiz:
   questions: 
   - content: Which data role enables advanced analytics capabilities through reports and visualizations?
     choices: 
-    - content: Data Scientist
+    - content: Data scientist
       isCorrect: false
       explanation: A data scientist determines the questions that need answers and will turn to the data analyst to assist with the data visualization and reporting.
-    - content: Data Engineer
+    - content: Data engineer
       isCorrect: false 
       explanation: Data engineers provision data platform technologies that include relational databases, nonrelational databases, data streams, and file stores that are on-premises and in the cloud.
-    - content: Data Analyst
+    - content: Data analyst
       isCorrect: true
       explanation: A data analyst uses appropriate visuals to help business decision makers gain deep and meaningful insights from data.
   - content: Which data analyst task has a critical performance impact on reporting and data analysis?
     choices: 
     - content: Model
       isCorrect: true 
-      explanation: An optimized and tuned data model performs better and provide a better data analysis experience.
+      explanation: An optimized and tuned data model performs better and provides a better data analysis experience.
     - content: Analyze
       isCorrect: false 
       explanation: The analyze phase provides data insights but does not have a direct correlation to performance.
     - content: Visualize
       isCorrect: false 
       explanation: The visualize task provides data insights but does not have a direct correlation to performance.
-  - content: A key benefit of data analysis is?
+  - content: Which one of the following options is a key benefit of data analysis?
     choices: 
     - content: Decisive analytics
       isCorrect: false
-      explanation: Data analysis allows businesses to look at the story their data tells and put an action into place to help make data-driven decisions.
+      explanation: Data analysis allows businesses to look at the story that their data tells and put an action into place to help make data-driven decisions.
     - content: Informed business decisions
       isCorrect: true 
       explanation: A key benefit of data analysis is the ability to gain valuable insights from a business's data assets to make timely and optimal business decisions.
     - content: Complex reports
       isCorrect: false 
-      explanation: An important task of a data analyst is to build easy-to-comprehend reports with visuals that allow business decision makers to gain insights from the data they are looking at.
+      explanation: An important task of a data analyst is to build easy-to-comprehend reports with visuals that allow business decision makers to gain insights from the data that they are looking at.
