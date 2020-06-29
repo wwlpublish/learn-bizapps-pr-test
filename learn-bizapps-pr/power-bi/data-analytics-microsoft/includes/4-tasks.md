@@ -47,7 +47,7 @@ Many components of your report will help with storytelling. From a color scheme 
 
 ## Analyze
 
-The analyze task is the important step of understanding and interpreting the information that is displayed on the report. In your role as a data analyst, you should understand the analytical capabilities of Power BI and use those to find insights, identify patterns and trends, predict outcomes, and then communicate those insights in a way that everyone can understand.
+The analyze task is the important step of understanding and interpreting the information that is displayed on the report. In your role as a data analyst, you should understand the analytical capabilities of Power BI and use those capabilities to find insights, identify patterns and trends, predict outcomes, and then communicate those insights in a way that everyone can understand.
 
 Advanced analytics enables businesses and organizations to ultimately drive better decisions throughout the business and create actionable insights and meaningful results. With advanced analytics, organizations can drill into the data to predict future patterns and trends, identify activities and behaviors, and enable businesses to ask the appropriate questions about their data.
 
@@ -59,7 +59,7 @@ This feature is another area where AI integrations within Power BI can take your
 
 Power BI consists of many components, including reports, dashboards, workspaces, datasets, and more. As a data analyst, you are responsible for the management of these Power BI assets, overseeing the sharing and distribution of items, such as reports and dashboards, and ensuring the security of Power BI assets.
 
-Apps can be a valuable distribution method for your content and allow easier management for large audiences. This feature also allows you have custom navigation experiences and link to other assets within your organization to complement your reports.
+Apps can be a valuable distribution method for your content and allow easier management for large audiences. This feature also allows you to have custom navigation experiences and link to other assets within your organization to complement your reports.
 
 The management of your content helps to foster collaboration between teams and individuals. Sharing and discovery of your content is important for the right people to get the answers that they need. It is also important to help ensure that items are secure. You want to make sure that the right people have access and that you are not leaking data past the correct stakeholders.
 
