@@ -23,7 +23,7 @@ Let's consider an example that requires your formula to modify the filter contex
 
 The **Revenue % Total Region** result is achieved by defining a measure expression that's the ratio of revenue divided by revenue *for all regions*. So, for Australia, the ratio is $10,655,335.96 divided by $109,809,274.20, which is 9.7%.
 
-The numerator expression doesn't need to modify filter context---it should use the current filter context (remember, a visual that groups by region is applying a filter for that region). The denominator expression, however, needs to remove any region filters to achieve the result for all regions.
+The numerator expression doesn't need to modify filter context it should use the current filter context (remember, a visual that groups by region is applying a filter for that region). The denominator expression, however, needs to remove any region filters to achieve the result for all regions.
 
 > [!TIP]
 > Key to authoring complex measures is mastering several concepts:
