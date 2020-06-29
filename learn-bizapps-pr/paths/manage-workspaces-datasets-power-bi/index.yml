@@ -23,6 +23,6 @@ products:
 modules:
 - learn-bizapps.create-manage-workspaces-power-bi  
 - learn-bizapps.manage-datasets-power-bi
-- learn-bizapps.row-level-security-power-bi 
+- learn-bizapps.row-level-security-power-bi
 trophy: 
   uid: learn-bizapps.manage-workspaces-datasets-power-bi.trophy
