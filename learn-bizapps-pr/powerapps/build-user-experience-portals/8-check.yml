@@ -41,20 +41,6 @@ quiz:
     - content: Edit the web link and select **Disable Page Validation** option.
       isCorrect: true 
       explanation: When a web link is to a web page, the security and publishing state of the web page will apply to the web link as well. This can be disabled with the **Disable Page Validation** option of the web link.
-  - content: You are planning a portal implementation for an organization in Canada where there is a requirement to support local variants of both English and French languages. Common Data Service supports English - US and French - France. Your Common Data Service instance has English - US installed as a base language but no other languages are enabled. How many additional languages do you need to enable in your Common Data Service instance to support the requirements?
-    choices: 
-    - content: '1'
-      isCorrect: true 
-      explanation: To support local versions of English and French languages, you need to define language variants. Since English is already installed as a base language, you can create a language variant for English - Canada based on that. Additionally, you need to enable the French - France language in your instance, and create a French - Canada variant based on that.
-    - content: '2'
-      isCorrect: false 
-      explanation: To support local versions of English and French languages, you need to define language variants. Since English is already installed as a base language, you can create a language variant for English - Canada based on that. Additionally, you need to enable the French - France language in your instance, and create a French - Canada variant based on that.
-    - content: '3'
-      isCorrect: false 
-      explanation: To support local versions of English and French languages, you need to define language variants. Since English is already installed as a base language, you can create a language variant for English - Canada based on that. Additionally, you need to enable the French - France language in your instance, and create a French - Canada variant based on that.
-    - content: None
-      isCorrect: false 
-      explanation: To support local versions of English and French languages, you need to define language variants. Since English is already installed as a base language, you can create a language variant for English - Canada based on that. Additionally, you need to enable the French - France language in your instance, and create a French - Canada variant based on that.
   - content: Business users complained that portal search results do not include matching content of the Web Files attachments. You have set the site setting `Search/IndexNotesAttachments` to `true` but the results are still not returned. What is your next step?
     choices: 
     - content: Check that Relevance search is enabled in your Dynamics 365 for Customer Engagement instance.
