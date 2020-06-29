@@ -21,7 +21,7 @@ levels:
 roles: 
 - maker
 - functional-consultant
-- administratros
+- administrator
 products:
 - power-platform
 - power-apps
