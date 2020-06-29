@@ -1,392 +1,299 @@
-In this lab, you will create a three-page report named **Sales Report**. You will then publish it to Power BI, whereupon you will open and interact with the report.
+In this lab, you will enhance the **Sales Report** with advanced design features.
 
 In this lab, you learn how to:
 
--   Use Power BI Desktop to create a live connection
+-   Sync slicers
 
--   Design a report
+-   Create a drillthrough page
 
--   Configure visual fields and format properties
+-   Apply conditional formatting
 
-> [!NOTE]
-> This exercise will require you to login to Power BI service,  you can use your existing account or create a trial account before starting this lab. 
+-   Create and use bookmarks
 
-## Create a report
+## Configure sync slicers
 
-In this exercise, you will create a three-page report named **Sales Report**.
+In this exercise, you will sync the report page slicers.
 
-### Create a new file
+> [!IMPORTANT]
+> This exercise will require you to login to Power BI,  you will use your existing account you created before starting this lab.
 
-In this task, you will create a live connection to the **Sales Analysis** dataset.
+### Sync slicers
 
-1.  To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+In this task, you will sync the **Year** and **Region** slicers.
 
-1.  At the top-right corner of the welcome screen, click **X**.
+1.  In Power BI Desktop, navigate to **D:\DA100\Lab09A\Starter** folder, and open **Sales Report.pbix** file.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the X close button on the welcome screen.](../media/lab-1-ssm.png)](../media/lab-1-ssm.png#lightbox)
+1. You will be prompted to login to Power BI, login using Power BI account credentials.
 
-1.  Click the **File** ribbon tab to open the backstage view, and then select **Save**.
+1.	You may get an error “Unable to connect,” the account is utilized by many learners. Click on **Edit** and select the Sales Analysis report you created in an earlier lab.    
 
-1.  In the **Save As** window, navigate to the **D:\DA100\MySolution** folder.
+1. On the **Sales Report** file, on the **Overview** page, set the **Year** slicer to **FY2018**.
 
-1.  In the **File Name** box, enter **Sales Report**.
+1.  Go to the **My Performance** page, and then notice that the **Year** slicer is a different value.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the File Name box.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
+	When slicers aren't synced, it can contribute to misrepresentation of data and frustration for report users. You'll now sync the report slicers.
 
-1.  Click **Save**.
+1.  Go to the **Overview** page, and then select the **Year** slicer.
 
-### Create a live connection
-
-In this task, you will create a live connection to the **Sales Analysis** dataset.
-
-1.  To create a live connection, on the **Home** ribbon tab, from inside the **Data** group, click **Get Data**, down-arrow, and then select **Power BI Datasets**.
-
-1.  In the **Select a Dataset to Create a Report** window, select the **Sales Analysis** dataset.
+1.  On the **View** ribbon tab, from inside the **Show Panes** group, click **Sync Slicers**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the "Select a dataset to create a report" window.](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
+	> [![Screenshot of the Sync slicers button](../media/lab-1-ssm.png)](../media/lab-1-ssm.png#lightbox)
 
-1.  Click **Create**.
+1.  In the **Sync Slicers** pane (at the left of the **Visualizations** pane), in the second column (which represents syncing), check the checkboxes for the **Overview** and **My Performance** pages.
 
-1. At the bottom-right corner, in the status bar, notice that the live connection has been established.
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Sync slicers pane.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
 
-1. In the **Fields** pane, notice that the data model table are listed.
+1.  On the **Overview** page, select the **Region** slicer.
 
-	Power BI Desktop can no longer be used to develop the data model; in live connection mode, it's only a report authoring tool. It is possible, however, to create measures, but they are measures that are only available within the report. You won't add any report-scoped measures in this lab.
+1.  Sync the slicer with the **Overview** and **Profit** pages.
 
-1. Save the Power BI Desktop file.
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Sync slicers pane with Overview and Profit pages selected.](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
 
-You're the owner of the Power BI dataset, and you can see all data.
+1.  Test the sync slicers by selecting different filter options, and then verifying that the synced slicers filter by the same options.
 
-When you share reports and dashboards to non-owners of the dataset, their account (or a security group of which they're a member) must be mapped to the **Salespeople** role. You will configure this before sharing content.
+1.  To close the **Sync Slicer** page, click the **X** located at the top-right of the pane.
 
-### Design page 1
+## Configure drill through
 
-In this task, you will design the first report page. When you've completed the design, the page will look like the following:
+In this exercise, you will create a new page and configure it as a drill through page. When you've completed the design, the page will look like the following:
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the completed report page.](../media/lab-4-ss.png)](../media/lab-4-ss.png#lightbox)
+> [![Screenshot of the final design of the drill through page that you will build.](../media/lab-4-ss.png)](../media/lab-4-ss.png#lightbox)
 
-1. To rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
+### Create a drill through page
+
+In this task, you will create a new page and configure it as a drill through page.
+
+1. Add a new report page named **Product Details**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Rename Page option.](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
+	> [![Screenshot of the new report page at the bottom of the screen.](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
+
+1. Right-click the **Product Details** page tab, and then select **Hide Page**.
+
+	Report users won't be able to go to the drill through page directly. They'll need to access it from visuals on other pages. You'll learn how to drill through to the page in the final exercise of this lab.
+
+1. Beneath the **Visualizations** pane, in the **Drill Through** section, add the **Product | Category** field to the **Add Drill-Through Fields Here** box.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Drill through section with the Category field highlighted.](../media/lab-6-ssm.png)](../media/lab-6-ssm.png#lightbox)
+
+1. To test the drill through page, in the drill through filter card, select **Bikes**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the drill through filter card with Bikes selected.](../media/lab-7-ssm.png)](../media/lab-7-ssm.png#lightbox)
+
+1. At the top-left of the report page, notice the arrow button.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the top-lef arrow button.](../media/lab-8-ss.png)](../media/lab-8-ss.png#lightbox)
+
+	The button was added automatically. It allows report users to navigate back to the page from which they drilled through.
+
+1. Add a **Card** visual to the page, and then resize and reposition it so it sits to the right of the button and fills the remaining width of the page.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Visualizations pane with the Card visual highlighted.](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox) 
+
+	> [!div class="mx-imgBorder"]
+	> [![Image of the size and position of the Card visual.](../media/lab-10-ss.png)](../media/lab-10-ss.png#lightbox)
+
+1. Drag the **Product | Category** field into the card visual.
+
+1. Configure the format options for the visual, and then turn the **Category Label** property to **Off**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Category label turned off. ](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
+
+1. Set the **Background Color** property to a light shade of gray.
+
+1. Add a **Table** visual to the page, and then resize and reposition it so it sits beneath the card visual and fills the remaining space on the page.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Visualizations pane with the table visual highlighted.](../media/lab-12-ssm.png)](../media/lab-12-ssm.png#lightbox)
+
+	> [!div class="mx-imgBorder"]
+	> [![Image of the size and position of the table visual on the pane.](../media/lab-13-ss.png)](../media/lab-13-ss.png#lightbox) 
+
+1. Add the following fields to the visual:
+
+	-   Product | Subcategory
+	
+	-   Product | Color
+	
+	-   Sales | Quantity
+	
+	-   Sales | Sales
+	
+	-   Sales | Profit Margin
+
+1. Configure the format options for the visual, and in the **Grid** section, set the **Text Size** property to **20pt**.
+
+	The design of the drill through page is almost complete. In the next exercise, you'll define conditional formatting.
+
+## Add conditional formatting
+
+In this exercise, you will enhance the drill through page with conditional formatting. When you've completed the design, the page will look like the following:
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the final drill through page that you will build.](../media/lab-14-ss.png)](../media/lab-14-ss.png#lightbox)
+
+### Add conditional formatting
+
+In this task, you will enhance the drill through page with conditional formatting.
+
+1. Select the table visual.
+
+1. In the visual fields pane, for the **Profit Margin** field, click the down-arrow, and then select **Conditional Formatting | Icons**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshots of the Profit margin field down-arrow, Conditional formatting down-arrow and Icons selected.](../media/lab-15-ssm.png)](../media/lab-15-ssm.png#lightbox)
+
+1. In the **Icons -- Profit Margin** window, in the **Icon Layout** dropdown list, select **Right of Data**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Icons, Profit Margin window with Icon layout highlighted.](../media/lab-16-ssm.png)](../media/lab-16-ssm.png#lightbox)
+
+1. To delete the middle rule, at the left of the yellow triangle, click **X**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the X to delete the middle rule.](../media/lab-17-ssm.png)](../media/lab-17-ssm.png#lightbox)
+
+1. Configure the first rule (red diamond) as follows:
+
+	-   In the second control, remove the value
+	
+	-   In the third control, select **Number**
+	
+	-   In the fifth control, enter **0**
+	
+	-   In the sixth control, select **Number**
+
+1. Configure the second rule (green circle) as follows:
+
+	-   In the second control, enter **0**
+	
+	-   In the third control, select **Number**
+	
+	-   In the fifth control, remove the value
+	
+	-   In the sixth control, select **Number**
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the second and third rules.](../media/lab-18-ssm.png)](../media/lab-18-ssm.png#lightbox)
+
+	The rules are as follows: display a red diamond if the profit margin value is less than 0; otherwise if the value is great or equal to zero, display the green circle.
+
+1. Click **OK**.
+
+1. In the table visual, verify that the that the correct icons are displayed.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the table visual with the green circles and red diamonds.](../media/lab-19-ss.png)](../media/lab-19-ss.png#lightbox)
+
+1. Configure background color conditional formatting for the **Color** field.
+
+1. In the **Background Color -- Color** window, in the **Format By** dropdown list, select **Field Value**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Background color window.](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
+
+1. In the **Based on Field** dropdown list, select **Product | Formatting | Background Color Format**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Based on field window.](../media/lab-21-ssm.png)](../media/lab-21-ssm.png#lightbox)
+
+1. Click **OK**.
+
+1. Repeat the previous steps to configure font color conditional formatting for the **Color** field, using the **Product | Formatting | Font Color Format** field.
+
+The background and font colors are sourced from the **ColorFormats.csv** file in Data folder.
+
+## Add bookmarks and buttons
+
+In this exercise, you will enhance the **My Performance** page with buttons, allowing the report user to select the visual type to display. When you've completed the design, the page will look like the following:
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the enhanced My Performance page that you will build.](../media/lab-22-ss.png)](../media/lab-22-ss.png#lightbox)
+
+### Add bookmarks
+
+In this task, you will add two bookmarks, one to display each of the monthly sales/targets visuals.
+
+1. Go to the **My Performance** page.
+
+1. On the **View** ribbon tab, from inside the **Show Panes** group, click **Bookmarks**.
+
+1. On the **View** ribbon tab, from inside the **Show Panes** group, click **Selection**.
+
+1. In the **Selection** pane, beside one of the **Sales and Target by Month** items, to hide the visual, click the eye icon.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Selection pane with the eye icon.](../media/lab-23-ssm.png)](../media/lab-23-ssm.png#lightbox)
+
+1. In the **Bookmarks** pane, click **Add**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Bookmarks pane.](../media/lab-24-ssm.png)](../media/lab-24-ssm.png#lightbox)
+
+1. To rename the bookmark, double-click the bookmark.
+
+1. If the visible chart is the bar chart, rename the bookmark as **Bar Chart ON**, otherwise rename the bookmark as **Column Chart ON**.
+
+1. In the **Selection** pane, toggle the visibility of the two **Sales and Target by Month** items.
+
+	In other words, make the visible visual hidden, and make the hidden visual visible.
+
+1. Create a second bookmark, and name it appropriately (either **Column Chart ON** or **Bar Chart ON).**
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Bookmarks pane with Bar Chart ON and Column Chart ON.](../media/lab-25-ssm.png)](../media/lab-25-ssm.png#lightbox)
+
+1. In the **Selection** pane, to make both visuals visible, simple show the hidden visual.
+
+1. Resize and reposition both visuals so they fill the page beneath the multi-card visual, and completely overlap one another.
 
 	> [!TIP]
-	> You can also double-click the page name.
-
-1. Rename the page as **Overview**, and then press **Enter**.
+	> To select the visual that is covered up, select it in the **Selection** pane.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the page name at the bottom of the page.](../media/lab-6-ss.png)](../media/lab-6-ss.png#lightbox)
+	> [![Image of the size and position of thesecond visual on the pane.](../media/lab-26-ss.png)](../media/lab-26-ss.png#lightbox)
 
-1. To add an image, on the **Insert** ribbon tab, from inside the **Elements** group, click **Image**.
+1. In the **Bookmarks** pane, select each of the bookmarks, and notice that only one of the visuals is visible.
 
-1. In the **Open** window, navigate to the **D:\DA100\Data** folder.
+The next stage of design is to add two buttons to the page, which will allow the report user to select the bookmarks.
 
-1. Select the **AdventureWorksLogo.jpg** file, and then click **Open**.
+### Add buttons
 
-1. Drag the image to reposition it at the top-left corner, and also drag the guide markers to resize it.
+In this task, you will add two buttons, and assign bookmark actions to each.
 
-	> [!div class="mx-imgBorder"]
-	> [![Image of the location and size of the image on the report.](../media/lab-7-ss.png)](../media/lab-7-ss.png#lightbox)
-
-1. To add a slicer, first de-select the image by clicking an empty area of the report page.
-
-1. In the **Fields** pane, select the **Date | Year** field (not the **Year** level of the hierarchy).
-
-1. Notice that a table of year values has been added to the report page.
-
-1. To convert the visual from a table to a slicer, in the **Visualizations** pane, select the **Slicer**.
+1. On the **Insert** ribbon, from inside the **Elements** group, click **Button**, and then select **Blank**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Slicer visual on the Visualizations pane.](../media/lab-8-ssm.png)](../media/lab-8-ssm.png#lightbox)
+	> [![Screenshot of the Insert, Buttons, Blank choices from the ribbon.](../media/lab-27-ssm.png)](../media/lab-27-ssm.png#lightbox)
 
-1. To convert the slicer from a list to a dropdown, at the top-right of the slicer, click the down-arrow, and then select **Dropdown**.
+1. Reposition the button directly beneath the **Year** slicer.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the slicer down arrow.](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox)
+1. Select the button, and the in the **Visualizations** pane, turn the **Button Text** property to **On**.
 
-1. Resize and reposition the slicer so it sits beneath the image, and so it is the same width as the image.
+1. Expand the **Button Text** section, and then in the **Button Text** box, enter **Bar Chart**.
 
-	> [!div class="mx-imgBorder"]
-	> [![Image of the location and size of the second image.](../media/lab-10-ss.png)](../media/lab-10-ss.png#lightbox)
+1. Format the background color, using a suitable color.
 
-1. In the **Year** slicer, select **FY2020**, and then collapse the dropdown list.
+1. Turn the **Action** property to **On** (located near the bottom of the list).
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Year slicer name.](../media/lab-11-ss.png)](../media/lab-11-ss.png#lightbox)
+1. Expand the **Action** section, and then set the **Type** dropdown list to **Bookmark**.
 
-	The report page is now filtered by year **FY2020**.
+1. In the **Bookmark** dropdown list, select **Bar Chart ON**.
 
-1. De-select the slicer by clicking an empty area of the report page.
+1. Create a copy of the button by using copy and paste, and then configure the new button as follows:
 
-1. Create a second slicer, based on the **Region | Region** field (not the **Region** level of the hierarch).
-
-1. Leave the slicer as a list, and then resize and reposition the slicer beneath the **Year** slicer.
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the location and size of the slicer on the report page. ](../media/lab-12-ss.png)](../media/lab-12-ss.png#lightbox)
-
-1. To format the slicer, beneath the **Visualizations** pane, open the **Format** pane.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Format pane button.](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
-
-1. Expand then **Selection Controls** group.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Selection Controls group.](../media/lab-14-ssm.png)](../media/lab-14-ssm.png#lightbox)
-
-1. Set the **Show "Select All" Option** to **On**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Selects all toggle option.](../media/lab-15-ssm.png)](../media/lab-15-ssm.png#lightbox)
-
-1. In the **Region** slicer, notice that the first item is now **Select All**.
-
-	When selected, this item either selects all, or de-selects all items. It makes it easier for report users to set the right filters.
-
-1. De-select the slicer by clicking an empty area of the report page.
-
-1. To add a chart to the page, in the **Visualizations** pane, click the **Line and Stacked Column Chart** visual type.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Line and Stacked Column Chart button on the Visualizations pane.](../media/lab-16-ssm.png)](../media/lab-16-ssm.png#lightbox)
-
-1. Resize and reposition the visual so it sits to the right of the logo, and so it fills the width of the report page.
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the location and size of the fourth visual on the report page.](../media/lab-17-ss.png)](../media/lab-17-ss.png#lightbox)
-
-1. Drag the following fields into the visual:
-
-	-   Date | Month
+	-   Set the **Button Text** property to **Column Chart**
 	
-	-   Sales | Sales
-
-1. In the visual fields pane (not the **Fields** pane, the visual fields pane is located beneath the **Visualizations** pane), notice that the fields are assigned to the **Shared Axis** and **Column Values** wells.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the visuals pane.](../media/lab-18-ssm.png)](../media/lab-18-ssm.png#lightbox)
-
-	By dragging visuals into a visual, they will be added to default wells. For precision, you can drag fields directly into the wells, as you will do now.
-
-1. From the **Fields** pane, drag the **Sales | Profit Margin** field into the **Line Values** well.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the the Profit Margin field and where to drag it.](../media/lab-19-ssm.png)](../media/lab-19-ssm.png#lightbox)
-
-1. Notice that the visual has 11 months only.
-
-	The last month of the year, 2020 June, does not have any sales (yet). By default, the visual has eliminated months with BLANK sales. You will now configure the visual to show all months.
-
-1. In the visual fields pane, in the **Shared Axis** well, for the **Month** field, click the down-arrow, and then select **Show Items With No Data**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the down-arrow on the Month field.](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
-
-1. Notice that the month **2020 June** now appears.
-
-1. De-select the chart by clicking an empty area of the report page.
-
-1. To add a chart to the page, in the **Visualizations** pane, click the **Map** visual type.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the map visual button on the Visualizations pane.](../media/lab-21-ssm.png)](../media/lab-21-ssm.png#lightbox)
-
-1. Resize and reposition the visual so it sits beneath the column/line chart, and so it fills half the width of the report page.
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the location and size of the fifth visual on the report page.](../media/lab-22-ss.png)](../media/lab-22-ss.png#lightbox)
-
-1. Add the following fields to the visual wells:
-
-	-   Location: **Region | Country**
-	
-	-   Legend: **Product | Category**
-	
-	-   Size: **Sales | Sales**
-
-1. De-select the chart by clicking an empty area of the report page.
-
-1. To add a chart to the page, in the **Visualizations** pane, click the **Stacked Bar Chart** visual type.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Stacked Bar Chart button on the Visualizaitons pane.](../media/lab-23-ssm.png)](../media/lab-23-ssm.png#lightbox)
-
-1. Resize and reposition the visual so it fills the remaining report page space.
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the location and size of the sixth and final visual on the report pane.](../media/lab-24-ss.png)](../media/lab-24-ss.png#lightbox)
-
-1. Add the following fields to the visual wells:
-
-	-   Axis: **Product | Category**
-	
-	-   Value: **Sales | Quantity**
-
-1. To format the visual, open the **Format** pane.
-
-1. Expand the **Data Colors** group, and then set the **Default Color** property to a suitable color (in contrast to the column/line chart).
-
-1. Set the **Data Labels** property to **On**.
-
-1. Save the Power BI Desktop file.
-
-The design of the first page is now complete.
-
-### Design page 2
-
-In this task, you will design the second report page. When you've completed the design, the page will look like the following:
-
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the final second report page.](../media/lab-25-ss.png)](../media/lab-25-ss.png#lightbox)
-
-1. To create a new page, at the bottom-left, click the plus icon.
-
-1. Rename the page to **Profit**.
-
-1. Add a slicer based on the **Region | Region** field.
-
-1. Use the **Format** pane to enable the "Select All" option (in the **Selection Controls** group).
-
-1. Resize and reposition the slicer so it sits at the left side of the report page, and so it is about half the page height.
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the size and position of the slicer on the report pane.](../media/lab-26-ss.png)](../media/lab-26-ss.png#lightbox)
-
-1. Add a matrix visual, and resize and reposition it so it fills the remaining space of the report page
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the size and location of the matrix visual on the report pane.](../media/lab-27-ss.png)](../media/lab-27-ss.png#lightbox)
-
-1. Add the **Date | Fiscal** hierarchy to the matrix **Rows** well.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Rows well.](../media/lab-28-ssm.png)](../media/lab-28-ssm.png#lightbox)
-
-1. Add the following five **Sales** table fields to the **Values** well:
-
-	-   Orders (from the **Counts** folder)
-	
-	-   Sales
-	
-	-   Cost
-	
-	-   Profit
-	
-	-   Profit Margin
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Values well.](../media/lab-29-ss.png)](../media/lab-29-ss.png#lightbox)
-
-1. In the **Filters** pane (located at the left of the **Visualizations** pane), notice the **Filter On This Page** well (you may need to scroll down).
-
-1. From the **Fields** pane, drag the **Product | Category** field into the **Filter On This Page** well.
-
-1. Inside the filter card, at the top-right, click the arrow to collapse the card.
-
-	Fields added to the **Filters** pane can achieve the same result as a slicer. One difference is they don't take up space on the report page. Another difference is that they can be configured for more advanced filtering requirements.
-
-1. Add each of the following **Product** table fields to the **Filter On This Page** well, collapsing each, directly beneath the **Category** card:
-
-	-   Subcategory
-	
-	-   Product
-	
-	-   Color
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Filters on this page well.](../media/lab-31-ss.png)](../media/lab-31-ss.png#lightbox)
-
-1. To collapse the **Filters** pane, at the top-right of the pane, click the arrow.
-
-1. Save the Power BI Desktop file.
-
-The design of the second page is now complete.
-
-### Design page 3
-
-In this task, you will design the third and final report page. When you've completed the design, the page will look like the following:
-
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the final report that you will build.](../media/lab-32-ss.png)](../media/lab-32-ss.png#lightbox)
-
-1. Create a new page, and then rename it as **My Performance**.
-
-	Recall that row-level security was configured to ensure users only ever see data for their sales regions and targets. When this report is distributed to salespeople, they will only ever see their sales performance results.
-
-1. To simulate the row-level security filters during report design and testing, add the **Salesperson (Performance) | Salesperson** field to the **Filters** pane, inside the **Filters On This Page** well.
-
-1. In the filter card, scroll down the list of salespeople, and then check **Michael Blythe**.
-
-1. Add a dropdown slicer based on the **Date | Year** field, and then resize and reposition it so it sits at the top-left corner of the page.
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the size and location of the first slicer on the report pane.](../media/lab-34-ss.png)](../media/lab-34-ss.png#lightbox)
-
-1. In the slicer, select **FY2019**.
-
-1. Add a **Multi-row Card** visual, and then resize and reposition it so it sits to the right of the slicer and fills the remaining width of the page.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Multi-row card visual on the Visualizations pane.](../media/lab-35-ssm.png)](../media/lab-35-ssm.png#lightbox)
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the size and position of the second visual on the report pane.](../media/lab-36-ss.png)](../media/lab-36-ss.png#lightbox)
-
-1. Add the following four fields to the visual:
-
-	-   Sales | Sales
-	
-	-   Targets | Target
-	
-	-   Targets | Variance
-	
-	-   Targets | Variance Margin
-
-1. Format the visual:
-
-	-   In the **Data Labels** group, increase the **Text Size** property to **28pt**
-	
-	-   In the **Background** group, set the **Color** to a light gray color
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the text size and color of the visual.](../media/lab-37-ss.png)](../media/lab-37-ss.png#lightbox)
-
-1. Add a **Clustered Bar Chart** visual, and then resize and reposition it so it sits beneath the multi-row card visual and fills the remaining height of the page, and half the width of the multi-row card visual.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Clustered Bar Chart on the Visualizations pane. ](../media/lab-38-ssm.png)](../media/lab-38-ssm.png#lightbox)
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the size and position of the third chart on the report pane.](../media/lab-39-ss.png)](../media/lab-39-ss.png#lightbox)
-
-1. Add the following fields to the visual wells:
-	
-	-   Axis: **Date | Month**
-	
-	-   Value: **Sales | Sales** and **Targets | Target**
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the bar chart visual.](../media/lab-40-ss.png)](../media/lab-40-ss.png#lightbox)
-
-1. To create a copy of the visual, press **Ctrl+C**, and then press **Ctrl+V**.
-
-1. Position the copied visual to the right of the original visual.
-
-	> [!div class="mx-imgBorder"]
-	> [![Image of the size and position of the fourth and final visual on the report page.](../media/lab-41-ss.png)](../media/lab-41-ss.png#lightbox)
-
-1. To modify the visualization type, in the **Visualizations** pane, select **Clustered Column Chart**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the "Clustered Column Chart" visual on the Visualizations pane.](../media/lab-42-ssm.png)](../media/lab-42-ssm.png#lightbox)
-
-It's now possible to see the same data expressed by two different visualization types. This isn't a good use of the page layout, but you will improve it subsequent labs.
+	-   In the **Action** section, set the **Bookmark** dropdown list to **Column Chart ON**
 
 ### Publish the report
 
@@ -394,14 +301,15 @@ In this task, you will publish the report.
 
 1. Select the **Overview** page.
 
+1. In the **Year** slicer, select **FY2020**.
+
+1. In the **Region** slicer, select **Select All**.
+
 1. Save the Power BI Desktop file.
 
-1. On the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Publish button.](../media/lab-43-ssm.png)](../media/lab-43-ssm.png#lightbox)
-
 1. Publish the report to your **Sales Analysis** workspace.
+
+1. When prompted to replace the report, click **Replace**.
 
 1. Leave Power BI Desktop open.
 
@@ -411,91 +319,44 @@ In the next exercise, you will explore the report in the Power BI service.
 
 In this exercise, you will explore the **Sales Report** in the Power BI service.
 
-> [!IMPORTANT]
-> This exercise will require you to login to Power BI service,  you can use your existing account or create a trial account before starting this lab.
+> [!NOTE]
+> The exercise will require you to login to Power BI, you will use your existing account to login before starting the lab.
 
-### Explore the sales report
+### Explore the report
 
 In this task, you will explore the **Sales Report** in the Power BI service.
 
-1. In the Edge, in the Power BI service, in the **Navigation** pane, review the contents of your **Sales Analysis** workspace, and then click the **Sales Report** report.
+1. In the Edge, in the Power BI service, open the **Sales Report** report.
+
+1. To test the drill through report, in the **Quantity by Category** visual, right-click the **Clothing** bar, and then select **Drill Through | Product Details**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Sales Report on the Navigation pane.](../media/lab-44-ssm.png)](../media/lab-44-ssm.png#lightbox)
+	> [![Screenshot of the Drill through, Product Details choices.](../media/lab-28-ssm.png)](../media/lab-28-ssm.png#lightbox)
 
-	The report publication has added a report to your workspace. If you don't see it, press **F5** to reload the browser, and then expand the workspace again.
+1. Notice that the **Product Details** page is for **Clothing**.
 
-1. In the **Regions** slicer, while pressing the **Ctrl** key, select multiple regions.
-
-1. In the column/line chart, select any month column to cross filter the page.
-
-1. While pressing the **Ctrl** key, select an additional month.
-
-	By default, cross filtering filters the other visuals on the page.
-
-1. Notice that the bar chart is filtered and highlighted, with the bold portion of the bars representing the filtered months.
-
-1. Hover the cursor over the visual, and then at the top-right, click the filter icon.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the filter icon.](../media/lab-45-ssm.png)](../media/lab-45-ssm.png#lightbox)
-
-	The filter icon allows you to understand all filters that are applied to the visual, including slicers and cross filters from other visual.
-
-1. Hover the cursor over a bar, and then notice the tooltip information.
-
-1. To undo the cross filter, in the column/line chart, click an empty area of the visual.
-
-1. Hover the cursor over the map visual, and then at the top-right, click the **In Focus** icon.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the In Focus icon.](../media/lab-46-ssm.png)](../media/lab-46-ssm.png#lightbox)
-
-	In focus mode zooms the visual to full page size.
-
-1. Hover the cursor over different segments of the pie charts to reveal tooltips.
-
-1. To return to the report page, at the top-left, click **Back to Report**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Back to Report icon.](../media/lab-47-ssm.png)](../media/lab-47-ssm.png#lightbox)
-
-1. Hover the cursor over the map visual again, and then click the ellipsis (...), and notice the menu options.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the map visual menu options.](../media/lab-48-ss.png)](../media/lab-48-ss.png#lightbox)
-
-1. Try out each of the options.
-
-1. At the left, in the **Pages** pane, select the **Profit** page.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Profit page on the Pages pane.](../media/lab-49-ssm.png)](../media/lab-49-ssm.png#lightbox)
-
-1. Notice that the **Region** slicer has a different selection to the **Region** slicer on the Overview page.
-
-	The slicers are not synchronized. In the next lab, you will modify the report design to ensure they sync between pages.
-
-1. In the **Filters** pane (located at the right), expand a filter card, and apply some filters.
-
-	The **Filters** pane allows you to define more filters than could possibly fit on a page as slicers.
-
-1. In the matrix visual, use the plus (+) button to expand into the **Fiscal** hierarchy.
+1. To return to the source page, at the top-left corner, click the arrow button.
 
 1. Select the **My Performance** page.
 
-1. At the top-right on the menu bar, click **View**, and then select **Full Screen**.
+1. Click each of the buttons, and then notice that a different visual is displayed.
 
-1. Interact with the page by modifying the slicer, and cross filtering the page.
+### Finish up
 
-1. At the bottom-left, notice the commands to change page, navigate backwards or forwards between pages, or to exit full screen mode.
-
-1. Exit full screen mode.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Exit full screen mode icon.](../media/lab-50-ssm.png)](../media/lab-50-ssm.png#lightbox)
+In this task, you will complete the lab.
 
 1. To return to the workspace, in the breadcrumb trail, click your workspace name.
 
+1. Leave the Edge browser window open.
+
+1. In Power BI Desktop, go to the **My Performance** page, and in the **Fields** pane, remove the **Salesperson** filter card.
+
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the breadcrumb trail showing the workspace name.](../media/lab-51-ssm.png)](../media/lab-51-ssm.png#lightbox)
+	> [![Screenshot of the removing the Salesperson filter card.](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
+
+1. Select the **Overview** page.
+
+1. Save the Power BI Desktop file, and then republish to the workspace.
+
+1. Close Power BI Desktop.
+
