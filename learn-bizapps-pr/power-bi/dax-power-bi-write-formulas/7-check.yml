@@ -57,10 +57,10 @@ quiz:
       explanation: A measure would not allow multiple active relationships between the Geography and Sales tables.
   - content: You write a DAX formula that adds BLANK to the number 20. What will be the result?
     choices: 
-    - content: The result will be '0'.
+    - content: The result will be 0.
       isCorrect: false
       explanation: BLANK is converted to zero when added to a number.
-    - content: The result will be '20'.
+    - content: The result will be 20.
       isCorrect: true 
       explanation: BLANK is converted to zero when added to a number.
     - content: The result will be BLANK.
