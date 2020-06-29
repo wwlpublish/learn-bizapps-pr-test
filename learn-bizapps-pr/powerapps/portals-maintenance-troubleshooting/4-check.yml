@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-maintenance-troubleshooting.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/08/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: A portal user reports that a page has an error message. A developer would like to see more details on the actual portal page itself. What option should you consider in the Power Apps Portals admin center?
+    choices: 
+    - content: Reset the portal
+      isCorrect: false 
+      explanation: Disabling Custom errors will show detailed information directly on the portal page where the error occurs. Resetting the portal will not resolve the issue or provide any information. The diagnostics logs must be downloaded from Azure blog storage and the plug-in trace log is only viewable with the settings of the model driven app.
+    - content: Enable Portal Diagnostics logging
+      isCorrect: false 
+      explanation: Disabling Custom errors will show detailed information directly on the portal page where the error occurs. Resetting the portal will not resolve the issue or provide any information. The diagnostics logs must be downloaded from Azure blog storage and the plug-in trace log is only viewable with the settings of the model driven app.
+    - content: Disable Custom Errors
+      isCorrect: true 
+      explanation: Disabling Custom errors will show detailed information directly on the portal page where the error occurs. Resetting the portal will not resolve the issue or provide any information. The diagnostics logs must be downloaded from Azure blog storage and the plug-in trace log is only viewable with the settings of the model driven app.
+    - content: Review the Common Data Service plug-in trace log
+      isCorrect: false 
+      explanation: Disabling Custom errors will show detailed information directly on the portal page where the error occurs. Resetting the portal will not resolve the issue or provide any information. The diagnostics logs must be downloaded from Azure blog storage and the plug-in trace log is only viewable with the settings of the model driven app.
+  - content: You want to deploy some updates to your Common Data Service application that will affect portal functionality.  You decide that you want to put the portal in maintenance mode but your manager wants portal visitors to know how long the site will be unavailable. What can you do?
+    choices: 
+    - content: Use IP address restrictions
+      isCorrect: false 
+      explanation: Portal maintenance mode allows redirection to a custom page.  Using IP address restrictions will make it appear the portal is not accessible. The default portal maintenance page doesn't provide detailed information.  Portal visitors will use the portal after business hours.
+    - content: Enable the default portal maintenance mode 
+      isCorrect: false 
+      explanation: Portal maintenance mode allows redirection to a custom page.  Using IP address restrictions will make it appear the portal is not accessible. The default portal maintenance page doesn't provide detailed information.  Portal visitors will use the portal after business hours.
+    - content: Enable portal maintenance mode and redirect to a custom page on another site that indicates the downtime
+      isCorrect: true 
+      explanation: Portal maintenance mode allows redirection to a custom page.  Using IP address restrictions will make it appear the portal is not accessible. The default portal maintenance page doesn't provide detailed information.  Portal visitors will use the portal after business hours.
+    - content: Deploy the updates after business hours
+      isCorrect: false 
+      explanation: Portal maintenance mode allows redirection to a custom page.  Using IP address restrictions will make it appear the portal is not accessible. The default portal maintenance page doesn't provide detailed information.  Portal visitors will use the portal after business hours.
+  - content: Portal visitors are reporting an issue when creating support cases on a Customer self-service portal.  Where should you investigate first?
+    choices: 
+    - content: Enable Diagnostic logging
+      isCorrect: false 
+      explanation: If the issue is happening in the Dynamics 365 Customer Service app, it is likely not directly a portal issue.  Enabling the various other options could help, but should not be the first step.
+    - content: Disable Custom Errors
+      isCorrect: false 
+      explanation: If the issue is happening in the Dynamics 365 Customer Service app, it is likely not directly a portal issue.  Enabling the various other options could help, but should not be the first step.
+    - content: Set the **site setting** *Site/EnableCustomPluginError* and setting the value to **True**
+      isCorrect: false 
+      explanation: If the issue is happening in the Dynamics 365 Customer Service app, it is likely not directly a portal issue.  Enabling the various other options could help, but should not be the first step.
+    - content: See if the issue occurs when creating a case in the Dynamics 365 Customer Service app
+      isCorrect: true 
+      explanation: If the issue is happening in the Dynamics 365 Customer Service app, it is likely not directly a portal issue.  Enabling the various other options could help, but should not be the first step.
+  - content: What part of the portal system is not automatically updated?
+    choices: 
+    - content: The portal admin and maker tools
+      isCorrect: false 
+      explanation: Most of the portal assets are updated automatically except for the portal solutions that need to updated in the Dynamics 365 admin center.
+    - content: The Azure portal host app
+      isCorrect: false 
+      explanation: Most of the portal assets are updated automatically except for the portal solutions that need to updated in the Dynamics 365 admin center.
+    - content: The Common Data Service
+      isCorrect: false 
+      explanation: Most of the portal assets are updated automatically except for the portal solutions that need to updated in the Dynamics 365 admin center.
+    - content: The portal Common Data Service solutions
+      isCorrect: true 
+      explanation: Most of the portal assets are updated automatically except for the portal solutions that need to updated in the Dynamics 365 admin center.
