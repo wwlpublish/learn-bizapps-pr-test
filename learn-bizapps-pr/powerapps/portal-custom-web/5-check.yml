@@ -15,16 +15,16 @@ quiz:
   questions: 
   - content: Which Liquid tag is NOT used to build templates?
     choices: 
-    - content: {% include %}
+    - content: "{% include %}"
       isCorrect: false
       explanation: Include, block, and extend are essential Liquid tags for building flexible reusable web templates. template is not a valid Liquid tag.
-    - content: {% block %}
+    - content: "{% block %}"
       isCorrect: false 
       explanation: Include, block, and extend are essential Liquid tags for building flexible reusable web templates. template is not a valid Liquid tag.
-    - content: {% template %}
+    - content: "{% template %}"
       isCorrect: true
       explanation: Include, block, and extend are essential Liquid tags for building flexible reusable web templates. template is not a valid Liquid tag.
-    - content: {% extend %}
+    - content: "{% extend %}"
       isCorrect: false 
       explanation: Include, block, and extend are essential Liquid tags for building flexible reusable web templates. template is not a valid Liquid tag.
   - content: What do you need to do to apply Entity Permissions when accessing Common Data Service data in Liquid templates?
@@ -46,16 +46,16 @@ quiz:
     - content: Use HTML <code> block
       isCorrect: false
       explanation: raw Liquid tag allows output of Liquid code on a page without having it parsed and executed.
-    - content: Place your sample code inside {% comment %} tag
+    - content: Place your sample code inside "{% comment %}" tag
       isCorrect: false 
       explanation: raw Liquid tag allows output of Liquid code on a page without having it parsed and executed.
-    - content: Place your sample code inside {% raw %} tag
+    - content: Place your sample code inside "{% raw %}" tag
       isCorrect: true
       explanation: raw Liquid tag allows output of Liquid code on a page without having it parsed and executed.
     - content: "Start your code with <!-- SAMPLE --> instruction"
       isCorrect: false 
       explanation: raw Liquid tag allows output of Liquid code on a page without having it parsed and executed.
-- content: How do you stop the default footer from rendering in the portal?
+  - content: How do you stop the default footer from rendering in the portal?
     choices: 
     - content: Create blank Web Template and select it as a Footer Template on Website record.
       isCorrect: true 
