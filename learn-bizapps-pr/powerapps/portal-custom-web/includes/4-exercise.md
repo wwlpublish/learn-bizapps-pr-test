@@ -1,5 +1,3 @@
-# Exercise - create extendable web template
-
 The purpose of this hands-on-lab is to introduce the concept of building and extending Liquid templates.
 
 The exercises work best when you have some sample data to work with. Depending on if the environment you are working with, you may want to install some sample data to assist with exercises. Common Data Service does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow steps in [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data) to install the sample data into your environment.

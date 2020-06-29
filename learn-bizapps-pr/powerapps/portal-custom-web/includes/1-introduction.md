@@ -1,5 +1,3 @@
-# Liquid and web templates 
-
 Liquid is an [open-source template language](http://dotliquidmarkup.org/?azure-portal=true) that can be used to add dynamic content to pages. Liquid code can be used anywhere in the portals where HTML or text content can be entered. That includes web pages content, content snippets, and web templates. 
 
 Liquid has various language constructs that help you to build content, apply transformations, and control the execution flow. Ability to access Common Data Service data using fetchxml query language or directly retrieving entities by identifiers makes Liquid the primary choice for building data-driven web pages. It also includes a number of special tags (or processing instructions) that specifically target building reusable web templates. Let's have a look how templates are used in Power Apps portals.
@@ -22,7 +20,7 @@ Web Templates, on the other hand, are entirely template-based and use Liquid to 
 
 Web templates can be used to define an entire web page, a part of a page, or common elements such as the site header and footer. This approach creates consistent look and feel throughout the portal and makes it easy to modify the appearance and data rendered. This is what a typical simple template might look like:
 
-```csharp
+```twig
 <div class="container">
   <div class="page-heading">
     {% include 'Breadcrumbs' %}

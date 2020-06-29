@@ -46,13 +46,13 @@ quiz:
     - content: Use HTML <code> block
       isCorrect: false
       explanation: raw Liquid tag allows output of Liquid code on a page without having it parsed and executed.
-    - content: Place your sample code inside "{% comment %}" tag
+    - content: Place your sample code inside {% comment %} tag
       isCorrect: false 
       explanation: raw Liquid tag allows output of Liquid code on a page without having it parsed and executed.
-    - content: Place your sample code inside "{% raw %}" tag
+    - content: Place your sample code inside {% raw %} tag
       isCorrect: true
       explanation: raw Liquid tag allows output of Liquid code on a page without having it parsed and executed.
-    - content: "Start your code with <!-- SAMPLE --> instruction"
+    - content: Start your code with <!-- SAMPLE --> instruction
       isCorrect: false 
       explanation: raw Liquid tag allows output of Liquid code on a page without having it parsed and executed.
   - content: How do you stop the default footer from rendering in the portal?
