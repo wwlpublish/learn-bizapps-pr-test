@@ -1,5 +1,3 @@
-# Employee self-service portal
-
 The Employee self-service template provides organizations with a portal that is configured to assist employees with finding specific human resources and company information or for resolving employee-specific issues.
 
 > [!NOTE]
