@@ -3,17 +3,15 @@ Organizations often need to serve audiences of different languages or are requir
 > [!div class="mx-imgBorder"]
 > [![Select portal language](../media/home-page-select-language.png)](../media/home-page-select-language.png#lightbox)
 
-To implement an additional language, it must first be enabled in your Common Data Service instance. Navigate to [Power platform admin center](https://aka.ms/ppac/?azure-portal=true), select the environment, select **Settings** , then **Languages**. Select and enable required languages.
-
-> [!NOTE]
->If a portal will be in multiple languages, it is best to create the portal after all the languages you want have been activated in the organization. If you activate new languages after the portal has been provisioned, you can [import the metadata translations](https://docs.microsoft.com/dynamics365/portals/manage-portal#import-metadata-translation/?azure-portal=true) to get the metadata translated for the newly activated languages.
-
 ## Configure additional languages
 
-**Website** record has a **Supported Languages** section where you have the option to **Add New Website Language**. When you add a new website language to a website, you need to select Portal Language and  Publishing State.
+Additional languages can be configured using Portal Management app. **Website** record has a **Supported Languages** section where you have the option to **Add New Website Language**. When you add a new website language to a website, you need to select Portal Language and Publishing State.
 
 > [!div class="mx-imgBorder"]
 > [![New website language](../media/new-website-language.png)](../media/new-website-language.png#lightbox)
+
+> [!IMPORTANT]
+> Website language will only allow you to select languages already enabled in your Power Platform environment. If language is not visible in the view, system administrator would need to enable the language in the environment.
 
 ## Create language-aware content
 
@@ -60,6 +58,6 @@ Besides translating the site content and navigation, there are number of additio
 * You would need to be disciplined in identifying and localizing every string and phrase that could appear to the site visitor. If you are working with the developers and JavaScript is used, that means translation of error messages, status bar messages, alert boxes, dialog boxes, etc. Make extensive use of Content Snippets as they allow translation of pieces of information like error message without changing the rest of the site.
 * If you use images for buttons that contain text, those too would need to be localized. You might create an image map or directory file that lets you find images for the appropriate culture by some key.
 * Any communications with the portal users need to take into account their preferred language (that they can set on their user profile).
-* If your Common Data Service is customized, ensure that all custom entities, fields, option sets, messages, and descriptions are translated.
+* If your Common Data Service is customized, ensure that all custom entities, fields, optionsets, messages, and descriptions are translated.
 * If your deployment uses 3rd-party solutions, work with the vendors to ensure that their solutions are localized into required languages.
 * For deployments that use Knowledge Articles, ensure that the relevant articles are translated or, at least, create placeholders directing visitors to the base language versions where they can use browser-based translation tools such as [Bing Translate](https://www.bing.com/translator/?azure-portal=true).
