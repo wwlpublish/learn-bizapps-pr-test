@@ -40,7 +40,7 @@ Let's review some other example. The following measure filters the **Revenue** m
 Revenue Red or Green = CALCULATE([Revenue], 'Product'[Color] IN {"Red", "Green"})
 ```
 
-Here's one last example to review. The following measure filters the **Revenue** measure by expensive products. Expensive products are those with a list price greater than \$1000.
+Here's one last example to review. The following measure filters the **Revenue** measure by expensive products. Expensive products are those with a list price greater than $1000.
 
 ```dax
 Revenue Expensive Products = CALCULATE([Revenue], 'Product'[List Price] > 1000)
@@ -100,7 +100,7 @@ As you did in the previous activity, the **Revenue Red** measure was added to a
 > [!div class="mx-imgBorder"]
 > [![An image shows a table with three columns: Region, Revenue, and Revenue Red. The table displays 10 rows and a total.](../media/dax-table-region-revenue-red-ss.png)](../media/dax-table-region-revenue-red-ss.png#lightbox)
 
-Because there's no filter on the **Product** table **Color** column, the evaluation of the measure adds a new filter to filter context. In the first row, the value of \$2,681,324.79 is for red products sold in the Australian region.
+Because there's no filter on the **Product** table **Color** column, the evaluation of the measure adds a new filter to filter context. In the first row, the value of $2,681,324.79 is for red products sold in the Australian region.
 
 Now, let's switch the first column of the table visual from **Region** to **Color**. We now see a different result. It's because the **Product** table **Color** column is now in filter context.
 
