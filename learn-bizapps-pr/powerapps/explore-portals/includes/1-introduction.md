@@ -84,7 +84,7 @@ The license that is required depends on the entities and functionalities that ar
 Other solutions add features to the portal that can greatly enhance user experience. Some of these capabilities might be agnostic to the choice of template, for example: 
 
 - Live chat and Cobrowse
-* Click to call
-* Customer journey tracking
+- Click to call
+- Customer journey tracking
 
 Alternatively, Power Platform and Dynamics 365 independent software vendors and partners that offer Power Platform and Dynamics 365 vertical solutions might often include portal extensions that are designed for their solution needs. When you are working with a vendor who offers portals as part of their overall solution, it would be sensible to discuss portal requirements and the portal template selection beforehand.
