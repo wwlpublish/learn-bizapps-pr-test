@@ -20,7 +20,7 @@ Now, add the **Revenue Total Region** measure to the matrix visual found on **
 
 Notice that each **Revenue Total Region** value is the same. It's the value of total revenue.
 
-While this result by itself isn't useful, when used as a denominator in a ratio it calculates a percent of grand total. So, let's now overwrite the **Revenue Total Region** measure definition with the following definition. (Note that this new definition changes the measure name. Be sure to format the measure as a percentage with two decimal places.)
+While this result by itself isn't useful, when used as a denominator in a ratio it calculates a percent of grand total. So, let's now overwrite the **Revenue Total Region** measure definition with the following definition. (This new definition changes the measure name. Be sure to format the measure as a percentage with two decimal places.)
 
 ```dax
 Revenue % Total Region =
