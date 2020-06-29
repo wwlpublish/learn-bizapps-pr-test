@@ -64,7 +64,8 @@ FORMAT('Due Date'[Due Date], "yyyy mmm")
 
 The calculated column definition adds the **Due Month** column to the **Due Date** table. The [FORMAT](https://docs.microsoft.com/dax/format-function-dax/?azure-portal=true) DAX function converts the **Due Date** column value to text using a format string. In this case, the format string produces a label describing the year and abbreviated month name.
 
-**Note:** There are many user-defined date/time formats. For more information ,see [Custom date and time formats for the FORMAT function](https://docs.microsoft.com/dax/custom-date-and-time-formats-for-the-format-function/?azure-portal=true).
+> [!NOTE]
+> There are many user-defined date/time formats. For more information ,see [Custom date and time formats for the FORMAT function](https://docs.microsoft.com/dax/custom-date-and-time-formats-for-the-format-function/?azure-portal=true).
 
 Add a fourth calculated column, using the following definition:
 
