@@ -345,6 +345,10 @@ In this task, you will design the third and final report page. When you've compl
 
 1. Create a new page, and then rename it as **My Performance**.
 
+1. To simulate the row-level security filters during report design and testing, add the **Salesperson (Performance) | Salesperson** field to the **Filters** pane, inside the **Filters On This Page** well.
+
+1. In the filter card, scroll down the list of salespeople, and then check **Michael Blythe**.
+
 1. Add a dropdown slicer based on the **Date | Year** field, and then resize and reposition it so it sits at the top-left corner of the page.
 
 	> [!div class="mx-imgBorder"]
