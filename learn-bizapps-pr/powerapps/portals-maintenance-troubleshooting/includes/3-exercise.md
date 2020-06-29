@@ -1,6 +1,4 @@
-# Exercise - run the Portal Checker
-
-The purpose of this hands-on-lab is to see how the Portal checker can identify potential portal issues
+The purpose of this hands-on-lab is to see how the Portal checker can identify potential portal issues.
 
 ## Learning objectives
 
