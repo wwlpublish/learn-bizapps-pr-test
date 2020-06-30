@@ -74,7 +74,7 @@
                              "source_path":  "learn-bizapps-pr/paths/automate-process-using-flow/index.md",
                              "redirect_url":  "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
                              "redirect_document_id":  true
-                         }
+                         },
                          {
                              "source_path":  "learn-bizapps-pr/blob/master/learn-bizapps-pr/power-bi/create-manage-workspaces-power-bi/includes/7-lab.md",
                              "redirect_url":  "https://docs.microsoft.com/learn/modules/create-manage-workspaces-power-bi/",
