@@ -17,7 +17,7 @@ abstract: |
     - Define time intelligence
     - Use common DAX time intelligence functions
     - Create useful intelligence calculations
-prerequisites: You should have experience creating Power BI Desktop models and designing Power BI report layouts. You should also understand how to create Data Analysis Expressions (DAX) measures, and how to work with iterator functions and filter context. 
+prerequisites: You should have experience creating Power BI Desktop models and designing Power BI report layouts. You should also have an understanding of how to create Data Analysis Expressions (DAX) measures, and how to work with iterator functions and filter context. 
 iconUrl: /learn/achievements/use-dax-time-intelligence-functions-power-bi-desktop.svg  
 levels:  
 - intermediate   
