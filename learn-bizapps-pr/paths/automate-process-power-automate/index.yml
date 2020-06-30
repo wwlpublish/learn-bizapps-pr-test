@@ -12,6 +12,9 @@ title: Automate a business process using Power Automate
 summary: |
 
   This learning path introduces you to Power Automate, teaches you how to build workflows, and how to administer flows. 
+
+  This learning path can help you prepare for the [Microsoft Power Platform App Maker certification](https://docs.microsoft.com/learn/certifications/power-platform-app-maker).
+
 prerequisites: |
   - Familiarity with SharePoint, OneDrive, and Excel. 
 iconUrl: /learn/achievements/automate-process-using-flow.svg
