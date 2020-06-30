@@ -17,7 +17,7 @@ Surfacing a model-driven chart in Power Apps portals doesn't require any additio
 * To obtain the `chart id`, export the chart definition from a model-driven app and look for `visualizationid` in the exported chart file.
 * To obtain the `viewid`, start customizing the view and copy the view ID from the URL.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Avkv]
 
 Read privilege is asserted for the target entity being queried in the chart. To allow users to view the chart, you must ensure the appropriate Entity Permission records are created and assigned to applicable web roles. If permission is not granted, the user will see an access denied message.
 
