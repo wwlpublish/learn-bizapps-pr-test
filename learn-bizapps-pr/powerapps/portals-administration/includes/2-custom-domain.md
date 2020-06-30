@@ -34,6 +34,6 @@ The final step is to bind the custom domain and the SSL certificate.  Visitors s
 > [!NOTE]
 > If you want to change your existing custom domain name, you must upload a new SSL certificate and follow the steps as mentioned above.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AwWW]
 
 For more information about SSL certificates and custom domains see [Add a custom domain](https://docs.microsoft.com/powerapps/maker/portals/admin/add-custom-domain/?azure-portal=true).
