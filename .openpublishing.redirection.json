@@ -76,7 +76,7 @@
                              "redirect_document_id":  true
                          },
                          {
-                             "source_path":  "learn-bizapps-pr/blob/master/learn-bizapps-pr/power-bi/create-manage-workspaces-power-bi/includes/7-lab.md",
+                             "source_path":  "learn-bizapps-pr/power-bi/create-manage-workspaces-power-bi/includes/7-lab.md",
                              "redirect_url":  "https://docs.microsoft.com/learn/modules/create-manage-workspaces-power-bi/",
                              "redirect_document_id":  true
                          }
