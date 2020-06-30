@@ -15,7 +15,7 @@ summary: |
   [!include[](../../includes/lp-banner.md)]
   Learn the business value and product capabilities of Power Platform. Create a simple Power App, connect data with Common Data Service, build a Power BI Dashboard, and automate a process with Microsoft Automate.
 
-This learning path can help you prepare for the ["Microsoft Certified: Power Platform Fundamentals"](https://docs.microsoft.com/learn/certifications/power-platform-fundamentals).
+This learning path can help you prepare for the ["Microsoft Certified Power Platform Fundamentals certification"](https://docs.microsoft.com/learn/certifications/power-platform-fundamentals).
 iconUrl: /learn/achievements/power-plat-fundamentals.svg
 levels:
 - beginner
