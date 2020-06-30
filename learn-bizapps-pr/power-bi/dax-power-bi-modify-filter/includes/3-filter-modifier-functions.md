@@ -127,7 +127,7 @@ CALCULATE(
 ```
 
 > [!div class="mx-imgBorder"]
-> [![An images shows a table visual with three columns: Color, Revenue, and Revenue Red. Nine rows and a total are displayed. For Revenue Red, only the Red row and the total aren't BLANK.](../media/dax-table-colorrevenue-red-keep-filters-ss.png)](../media/dax-table-colorrevenue-red-keep-filters-ss.png#lightbox)
+> [![An images shows a table visual with three columns: Color, Revenue, and Revenue Red. Nine rows and a total are displayed. For Revenue Red, only the Red row and the total aren't BLANK.](../media/dax-table-color-revenue-red-keep-filters-ss.png)](../media/dax-table-color-revenue-red-keep-filters-ss.png#lightbox)
 
 In the table visual, notice that there's now only one **Revenue Red** value. It's because the Boolean filter expression preserves any existing filters on the **Product** table **Color** column. The reason why colors other than red are BLANK is because the two filters filter context and the filter expression are combined. The color black and color red are intersected, and because both cannot be TRUE at the same time, the expression is filtered by no product rows. It's only possible that both red filters can be TRUE at the same time, and it explains why we see just the one **Revenue Red** value.
 
