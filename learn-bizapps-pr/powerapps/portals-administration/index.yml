@@ -1,0 +1,36 @@
+### YamlMime:Module 
+uid: learn-bizapps.portals-administration 
+metadata: 
+ title: Power Apps portals administration
+ description: This module will focus on the Power Apps Portals administration and using the Power Apps portals admin center. There are a number of other actions and features than can be enabled to enhance portal functionality.
+ ms.date: 07/08/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Power Apps portals administration
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will focus on the Power Apps Portals administration and using the Power Apps portals admin center. There are a number of other actions and features than can be enabled to enhance portal functionality.
+abstract: |  
+    In this module, you will: 
+    - Identify the various admin center actions and capabilities for configuring a Power Apps portal.
+    - Understand how to configure key portal features such as custom domain names.
+    - Manage SSL certificates and custom domain name.
+    - Differentiate key features such as maintenance mode and IP address restriction.
+prerequisites: Target audience should have basic understanding and usage of the Power Platform administration, solutions and how data is stored in Common Data Service. Knowledge of web technologies such as SSL, custom URLs, IP addresses, etc. will also be beneficial.
+iconUrl: /learn/achievements/portals-administration.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+products:  
+- power-platform  
+- power-apps 
+units: 
+- learn-bizapps.portals-administration.1-introduction 
+- learn-bizapps.portals-administration.2-custom-domain 
+- learn-bizapps.portals-administration.3-check 
+- learn-bizapps.portals-administration.4-summary 
+badge: 
+  uid: learn-bizapps.portals-administration.badge 
