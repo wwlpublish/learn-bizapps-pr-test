@@ -2,8 +2,8 @@ As an App Maker, before you begin building your Power Apps solution, it's recomm
 When designing your Power Apps solution, there are several different factors to consider, such as:
 -	Business requirements
 -	Data Model
--	UX
--	UI
+-	User Experience (UX)
+-	User Interface (UI)
 -	Business Logic
 -	Output
 
