@@ -1,6 +1,6 @@
 First, watch this video to learn about filter context.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4AvVc]
 
 **Filter context** describes the filters that are applied during the evaluation of a measure or measure expression. Filters can be applied directly to columns, like a filter on the **Date** table **Fiscal Year** column for the value **FY2020**. They can be applied indirectly, too, which happens when model relationships propagate filters to other tables. For example, the **Sales** table receives a filter via its relationship with the **Date** table, filtering the **Sales** table rows to those with an **OrderDateKey** column value in **FY2020**.
 
