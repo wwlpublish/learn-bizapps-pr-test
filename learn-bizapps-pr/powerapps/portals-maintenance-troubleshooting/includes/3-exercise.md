@@ -25,21 +25,21 @@ For this exercise you will need to have the following in your environment:
 
 In this exercise we will make a few settings changes to our portal metadata and then run the portal checker tool from the Power Apps portal admin center and evaluate the results. Once the issue has been addressed, we will re-run the portal checker to ensure that the issue is taken care of.
 
-* Locate the **Site Setting** named `Header/OutputCache/Enabled` and update the value to **False**
+1. Locate the **Site Setting** named `Header/OutputCache/Enabled` and update the value to **False**
 
-* Refresh the Cache
+1. Refresh the Cache
 
-* Run the Portal Checker
+1. Run the Portal Checker
 
-* Note warning message for Header Output cache
+1. Note warning message for Header Output cache
 
-* Locate the **Site Setting** named `Header/OutputCache/Enabled` and update the value to **True**
+1. Locate the **Site Setting** named `Header/OutputCache/Enabled` and update the value to **True**
 
-* Refresh the Cache
+1. Refresh the Cache
 
-* Run the Portal Checker
+1. Run the Portal Checker
 
-* Note message for Header Output cache
+1. Note message for Header Output cache
 
 ### Detailed steps
 

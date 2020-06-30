@@ -1,4 +1,4 @@
-A Power Apps portal is an external facing application oftentimes open to an external audience.  It's critical that the portal is accessible and operational as it reflects the image of an organization.
+A Power Apps portal is an external facing application often open to an external audience. It's critical that the portal is accessible and operational as it reflects the image of an organization.
 
 ## Portal site issues
 
@@ -31,7 +31,7 @@ In the Power Apps Portal admin center, the **Disable custom errors** action will
 > [!div class="mx-imgBorder"]
 > [![Disable custom errors](../media/disable-custom-errors.png)](../media/disable-custom-errors.png#lightbox)
 
->  [!NOTE]
+> [!NOTE]
 > Disabling custom errors should be a temporary setting as the detailed error message may convey an increased negative experience for portal visitors. It is advisable to only disable custom errors when you are in the development phase and enable custom errors once you go live.
 
 Another option is to personalize the error message by adding a content snippet **Portal Generic Error** with an appropriate message for portal users. For more details about how to configure the error message, see [Display a custom error message](https://docs.microsoft.com/powerapps/maker/portals/admin/view-portal-error-log#display-a-custom-error-message/?azure-portal=true).
