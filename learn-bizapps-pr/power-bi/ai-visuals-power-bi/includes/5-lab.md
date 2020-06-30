@@ -14,6 +14,9 @@ In this lab, you learn how to:
 
 In this exercise, you will create the **Sales Exploration** report.
 
+> [!NOTE]
+> The exercise will require you to login to Power BI service, you will use your existing account to login before starting the lab.
+
 ### Create the report
 
 In this task, you will create the **Sales Exploration** report.
