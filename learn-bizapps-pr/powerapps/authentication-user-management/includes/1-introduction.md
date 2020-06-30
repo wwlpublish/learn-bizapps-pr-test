@@ -55,4 +55,4 @@ There are no portal users defined when Power Apps portal is provisioned. You, th
 
 These steps will ensure that this Azure AD user has full administrative permissions when accessing the portal as an *external* user.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Amwt]
