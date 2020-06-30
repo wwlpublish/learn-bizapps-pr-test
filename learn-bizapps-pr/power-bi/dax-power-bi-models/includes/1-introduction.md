@@ -14,4 +14,4 @@ Understanding the structure of data models can help you design the right model t
 
 Watch this video to learn what makes up a data model developed in Power BI Desktop.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4AxcV]
