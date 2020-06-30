@@ -13,6 +13,6 @@ To work with the document management capabilities of SharePoint from within mode
 
 Watch this video to learn how to enable SharePoint integration for your Dynamics 365 portal and give portal users access to the related documents.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AprO]
 
 For more step-by-step instructions and a walkthrough, see [Manage SharePoint documents](https://docs.microsoft.com/powerapps/maker/portals/manage-sharepoint-documents/?azure-portal=true).
