@@ -16,17 +16,24 @@ In this exercise, you will create the **Sales Monitoring** dashboard. The compl
 > [![Screenshot of the Sales Monitoring dashboard.](../media/lab-1-ss.png)](../media/lab-1-ss.png#lightbox)
 
 > [!NOTE]
-> The following exercise will require you to login to Power BI service, you can use your existing account or create a trial account before starting this part of the lab.
+> The exercise will require you to login to Power BI service, you will use your existing account or create a trial account before starting this part of the lab.
 
 ### Create a dashboard
 
 In this task, you will create the **Sales Monitoring** dashboard.
 
-1.  In Edge, in the Power BI service, open the **Sales Report** report found in the **D:\DA100\Lab010A\Starter** folder. 
+1.	In Edge, in the Power BI service, open the Sales Report file you created in earlier lab, you will find the file in My Workspace. 
 
-1.  To create a dashboard and pin the logo image, hover the cursor over the Adventure Works logo.
+1.	If you are prompted to login to Power BI, please use your Power BI account credentials to login. 
 
-1.  At the top-right corner, click the pushpin.
+1.	If you get “Unable to connect” error when opening the report, click Edit to select Sale Analysis dataset and click Create to re-create Sales Report.  You will save the file, and then republish the report. 
+
+1.	After logging in, select Overview page from the report. 
+
+1.	To create a dashboard and pin the logo image, hover the cursor over the Adventure Works logo.
+
+1.	At the top-right corner, click the pushpin.
+
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the pushpin.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
@@ -174,7 +181,7 @@ In this task, you will run a PowerShell script to update data in the **Adventure
 
 1. When prompted to press any key to continue, press **Enter** again.
 
-	The **AdventureWorksDW2020** database now includes sales orders June 2020.
+	*The **AdventureWorksDW2020** database now includes sales orders June 2020.*
 
 ### Refresh the Power BI Desktop file
 
@@ -186,7 +193,7 @@ In this task, you will open the Sales Analysis Power BI Desktop file, perform
 
 1. When the refresh completes, save the Power BI Desktop file.
 
-1. Publish the file to your **Sales Analysis** workspace.
+1. Publish the file to your workspace.
 
 1. When prompted to replace the dataset, click **Replace**.
 
@@ -195,8 +202,6 @@ In this task, you will open the Sales Analysis Power BI Desktop file, perform
 1. Close Power BI Desktop.
 
 1. In Edge, in the Power BI service, in your **Sales Analysis** workspace, notice that the **Sales Analysis** report was also published.
-
-1. Remove the **Sales Analysis** report (not dataset).
 
 ## Review the dashboard for updated sales
 
