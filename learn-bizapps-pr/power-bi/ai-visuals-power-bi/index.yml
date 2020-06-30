@@ -2,7 +2,7 @@
 uid: learn-bizapps.ai-visuals-power-bi 
 metadata: 
  title: Work with AI visuals
- description: This module outlines the AI capabilities of Power BI.
+ description: This module describes the AI capabilities of Power BI.
  ms.date: 06/30/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,12 +11,12 @@ metadata:
 title: Work with AI visuals 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module outlines the AI capabilities of Power BI.
+  This module describes the AI capabilities of Power BI.
 abstract: |  
     In this module, you will: 
-    - Use the Q&A visual  
-    - Find important factors with the Key lnfluencers visual 
-    - Use the Decomposition Tree visual to break down a measure 
+    - Use the Q&A visual.  
+    - Find important factors with the Key influencers visual. 
+    - Use the Decomposition Tree visual to break down a measure. 
 prerequisites: None 
 iconUrl: /learn/achievements/ai-visuals-power-bi.svg  
 levels:  
