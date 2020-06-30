@@ -36,7 +36,7 @@ To create, share, and administer apps, you'll use the following sites:
 
 1. [Make a Power App](https://make.powerapps.com) - On this site, you can open apps, specify the type of app that you want to create, share your app, and create data connections and flows. To use this site, you'll need to log in by using your organizational account.
 1. [Power Apps Studio](https://create.powerapps.com/studio/) - On this site, you build apps by configuring user interface (UI) elements and Excel-like formulas.
-1. [Power Apps admin center](https://admin.powerapps.com/) - On this site, you'll define environments and data policies.
+1. [Power Apps admin center](https://admin.powerplatform.microsoft.com/) - On this site, you'll define environments and data policies.
 
 > [!NOTE]
 > To use these sites, you'll need to sign in by using your organizational account.
