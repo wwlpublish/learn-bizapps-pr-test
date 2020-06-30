@@ -62,4 +62,4 @@ The portal solutions can be updated using the Dynamics 365 Admin center (even fo
 > [!div class="mx-imgBorder"]
 > [![Update Portal Solutions](../media/update-portal-solutions.png)](../media/update-portal-solutions.png#lightbox)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AprS]
