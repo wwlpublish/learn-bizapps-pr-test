@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.integrate-common-data-service.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/08/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 4
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following is NOT a valid entity list view?
+    choices: 
+    - content: Map view
+      isCorrect: false 
+      explanation: Views can be rendered as traditional grid lists, calendar, or map. Delivering list content as an OData feed is also supported.
+    - content: Excel view
+      isCorrect: true 
+      explanation: Views can be rendered as traditional grid lists, calendar, or map. Delivering list content as an OData feed is also supported.
+    - content: Calendar view
+      isCorrect: false 
+      explanation: Views can be rendered as traditional grid lists, calendar, or map. Delivering list content as an OData feed is also supported.
+    - content: Grid list view
+      isCorrect: false 
+      explanation: Views can be rendered as traditional grid lists, calendar, or map. Delivering list content as an OData feed is also supported.
+  - content: You have created a Contact Us **entity form** and you ask if anyone would like to redirect users to a Thank You page after successful submission. How can you achieve that?
+    choices: 
+    - content: Change the entity form title to "Contact Us -- Thank You"
+      isCorrect: false 
+      explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
+    - content: Set the Entity Form field on Thank You Page to the Contact Us entity form
+      isCorrect: false 
+      explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
+    - content: Add a redirect step to the entity form
+      isCorrect: false 
+      explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
+    - content: Configure On Success Settings to redirect to Thank You page
+      isCorrect: true 
+      explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
+  - content: What do you need to do to display a web form in the portal?
+    choices: 
+    - content: Add the web form component using the Portal Studio
+      isCorrect: false 
+      explanation: A web form defines the required behavior but does not contain any information how and where on the website the form should be rendered. A web form must be associated with a web page to be rendered within the site.
+    - content: Enable web form
+      isCorrect: false 
+      explanation: A web form defines the required behavior but does not contain any information how and where on the website the form should be rendered. A web form must be associated with a web page to be rendered within the site.
+    - content: Add the Liquid tag using the Portal Studio source code editor
+      isCorrect: true 
+      explanation: A web form defines the required behavior but does not contain any information how and where on the website the form should be rendered. A web form must be associated with a web page to be rendered within the site.
+    - content: Select Display on Portal checkbox
+      isCorrect: false 
+      explanation: A web form defines the required behavior but does not contain any information how and where on the website the form should be rendered. A web form must be associated with a web page to be rendered within the site.
+  - content: Business rules do not allow deleting cases from your Dynamics 365 Customer Service deployment. A new background Escalate Case workflow has been added to your instance. Business would like to make this available for the portal users on the Case View form. How would you achieve that?
+    choices: 
+    - content: Add a real-time workflow on Delete and invoke Escalate Case workflow as the first step. Rename Delete button to Escalate.
+      isCorrect: false 
+      explanation: Entity lists, entity forms, and web forms include Action Button Configuration that adds per-record actions. Workflow action runs a classic Common Data Service workflow of your choice against the record. Both background and real-time workflows are supported.
+    - content: Ask developer to write a JavaScript that invokes the Escalate Case workflow
+      isCorrect: false 
+      explanation: Entity lists, entity forms, and web forms include Action Button Configuration that adds per-record actions. Workflow action runs a classic Common Data Service workflow of your choice against the record. Both background and real-time workflows are supported.
+    - content: Add Workflow action under Action Button Configuration
+      isCorrect: true 
+      explanation: Entity lists, entity forms, and web forms include Action Button Configuration that adds per-record actions. Workflow action runs a classic Common Data Service workflow of your choice against the record. Both background and real-time workflows are supported.
+    - content: Background workflows are not available in Power Apps Portals
+      isCorrect: false 
+      explanation: Entity lists, entity forms, and web forms include Action Button Configuration that adds per-record actions. Workflow action runs a classic Common Data Service workflow of your choice against the record. Both background and real-time workflows are supported.
