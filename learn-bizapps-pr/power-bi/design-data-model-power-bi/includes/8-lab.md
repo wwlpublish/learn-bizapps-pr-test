@@ -30,8 +30,7 @@ In this exercise, you'll apply transformations to each of the queries.
 
 1.  From the **File** tab, select **Open report**, and then **Browse reports**.
  
-1. Open the solution file, which is found in the
-**D:\DA100\Lab02A\Starter** folder.
+1. You will open **Sales Analysis.pbix** file, which is found in the **D:\DA100\Lab03A\Starter** folder.
 
 ### Configure the Salesperson query
 
