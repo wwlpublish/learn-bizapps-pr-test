@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.extend-power-app-portals.6-exercise 
+title: Exercise - Adding advanced client-side functionality
+metadata: 
+  title: Exercise - Adding advanced client-side functionality
+  description: Practice building a web page that acts as a REST endpoint for CDS data with inline code and an external JavaScript library.
+  ms.date: 07/08/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 6
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-exercise.md)] 
