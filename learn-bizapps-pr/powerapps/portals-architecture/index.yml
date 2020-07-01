@@ -2,7 +2,7 @@
 uid: learn-bizapps.portals-architecture 
 metadata: 
  title: Power Apps portals architecture
- description: In this module we focus on the Power Apps portals architecture such as how the various components work together to build a portal.  We also discuss how the components are installed and come to together in a working portal.  Finally, we outline the maker and configuration tools to build and customize Power Apps portals.
+ description: This module focuses on the Power Apps portals architecture, such as how the various components work together to build a portal. Additionally, it explains how the components are installed and come to together in a working portal. The module also describes the maker and configuration tools that you can use to build and customize Power Apps portals.
  ms.date: 06/30/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,13 +11,13 @@ metadata:
 title: Power Apps portals architecture 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  In this module we focus on the Power Apps portals architecture such as how the various components work together to build a portal.  We also discuss how the components are installed and come to together in a working portal.  Finally, we outline the maker and configuration tools to build and customize Power Apps portals. 
+  This module focuses on the Power Apps portals architecture, such as how the various components work together to build a portal. Additionally, it explains how the components are installed and come to together in a working portal. The module also describes the maker and configuration tools that you can use to build and customize Power Apps portals. 
 abstract: |  
     In this module, you will: 
-    - Identify the key components of the Power Apps Portal architecture
-    - Understand the Portal provision process
-    - Differentiate the various maker tools, the purpose and when to use each particular tool 
-prerequisites: Target audience should have basic understanding and usage and navigation of Dynamics 365 first-party applications as well as basic understanding of how to navigate and customize Power Apps. 
+    - Identify the key components of the Power Apps portals architecture.
+    - Learn about the portal provisioning process.
+    - Differentiate the various maker tools, their purposes, and when to use each particular tool. 
+prerequisites: Basic understanding, use, and navigation of Microsoft Dynamics 365 applications and a basic understanding of how to navigate and customize Power Apps. 
 iconUrl: /learn/achievements/portals-architecture.svg  
 levels:  
 - intermediate   
