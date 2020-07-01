@@ -10,8 +10,11 @@ metadata:
   ms.prod: learning-powerapps
 title: Create a model-driven application in Power Apps
 summary: |
-
+  [!include[](../../includes/lp-banner.md)]
   This learning path introduces you to creating a model-driven app in Power Apps that uses Common Data Service. 
+
+  This learning path can help you prepare for the [Microsoft Certified: Power Platform App Maker Associate certification](https://docs.microsoft.com/learn/certifications/power-platform-app-maker).
+
 prerequisites: |
   - Familiarity with Power Apps, Excel, and Power Automate. 
 iconUrl: /learn/achievements/create-app-models-business-processes.svg
