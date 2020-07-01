@@ -48,7 +48,7 @@ quiz:
       explanation: The Power Apps Portals admin center is used to manage administration aspects of the portal, but it cannot be used to create portal metadata such as webpages. With all the other tools, it is possible to create a webpage record (portal metadata).
     - content: Front-side editor
       isCorrect: false 
-      explanation: The portal admin center is used to manage administration aspects of the portal, but it cannot create portal metadata such as web pages. All the other tools it is possible to create a web page record (portal metadata).
+      explanation: The Power Apps Portals admin center is used to manage administration aspects of the portal, but it cannot be used to create portal metadata such as webpages. With all the other tools, it is possible to create a webpage record (portal metadata).
     - content: Portals admin center
       isCorrect: true 
       explanation: The Power Apps Portals admin center is used to manage administration aspects of the portal, but it cannot be used to create portal metadata such as webpages. With all the other tools, it is possible to create a webpage record (portal metadata).
