@@ -2,7 +2,7 @@ Regardless of the portal template that you choose, a Microsoft Power Apps portal
 
 ## Content management
 
-Webpages, static text, images, and other content can be quickly surfaced in a portal web application by using the Power Apps portals Studio and other tools.  
+Webpages, static text, images, and other content can be quickly created in a portal web application by using the Power Apps portals Studio and other tools.  
 
 > [!div class="mx-imgBorder"]
 > [![portal web application](../media/1-content-management.png)](../media/1-content-management.png#lightbox)
@@ -12,14 +12,14 @@ Webpages, static text, images, and other content can be quickly surfaced in a po
 Portals content and navigation can be viewed in up to 43 different languages. Portal visitors will be able to switch to different languages and not lose their current page or navigation. Additional languages will need to be provisioned within Common Data Service and Dynamics 365 to use the multi-language capabilities in a portal.
 
 > [!NOTE] 
-> Content will still need to be translated and updated on the webpages and in the content snippets for the specified enabled languages. Any Common Data Service assets that are surfaced to the portal, such as entities, forms, views, or fields, will also need to have corresponding label translations by using the Dynamics 365/Common Data Service multilingual functionality.
+> Content will still need to be translated and updated on the webpages and in the content snippets for the specified enabled languages. Any Common Data Service assets that are added to the portal, such as entities, forms, views, or fields, will also need to have corresponding label translations by using the Dynamics 365/Common Data Service multilingual functionality.
 
 > [!div class="mx-imgBorder"]
 > [![switch language in Portals](../media/1-multi-language-portals.png)](../media/1-multi-language-portals.png#lightbox)
 
 ## Access to Common Data Service data
 
-The main feature of Power Apps portals is the ability to surface and interact with records in Common Data Service. A list of Common Data Service records can be surfaced on a portal page by using Entity lists or through custom web templates. Records can be created and edited individually by using Entity Forms or as part of a step-by-step process by using Web Forms. The data is protected by using a combination of web roles and entity permissions to ensure that portal visitors only have the appropriate access to Common Data Service records.
+The main feature of Power Apps portals is the ability to show and interact with records in Common Data Service. A list of Common Data Service records can be shown on a portal page by using Entity lists or through custom web templates. Records can be created and edited individually by using Entity Forms or as part of a step-by-step process by using Web Forms. The data is protected by using a combination of web roles and entity permissions to ensure that portal visitors only have the appropriate access to Common Data Service records.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yWn4]
 
@@ -55,7 +55,7 @@ An authenticated portal user will be able to manage their own profile informatio
 
 ## Customization and extensibility
 
-Power Apps portals provide many tools to create content, surface Common Data Service data, and configure the appearance of a portal application. Portal capabilities can also be further extended by using custom web templates, Liquid markup, JavaScript, and Cascading Style Sheets (CSS). Portals can also use other Power Platform development technologies such as plug-ins, Power Automate, and workflows.
+Power Apps portals provide many tools to create content, add Common Data Service data, and configure the appearance of a portal application. Portal capabilities can also be further extended by using custom web templates, Liquid markup, JavaScript, and Cascading Style Sheets (CSS). Portals can also use other Power Platform development technologies such as plug-ins, Power Automate, and workflows.
 
 > [!div class="mx-imgBorder"]
 > [![web template](../media/1-web-template.png)](../media/1-web-template.png#lightbox)
