@@ -56,6 +56,3 @@ To access the Power Apps Portals admin center:
 
 > [!div class="mx-imgBorder"]
 > [![Portal admin center](../media/3-portals-admin-center-ss.png)](../media/3-portals-admin-center-ss.png#lightbox)
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
-
