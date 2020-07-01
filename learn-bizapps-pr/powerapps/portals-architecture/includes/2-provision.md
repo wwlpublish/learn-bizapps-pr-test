@@ -7,7 +7,7 @@ A maker will first choose a particular portal template. Currently, only one opti
 
 ### Portal solutions installation
 
-The provisioning process firsts begins with the installation of a series of solutions in the environment. All portal implementations will contain base portal solutions with additional functionality added in separate solutions, depending on the portal template chosen. The solutions contain entities, forms, views, processes, and a model-driven Portal Management app that you can use to manage the portal metadata.
+The provisioning process first begins with the installation of a series of solutions in the environment. All portal implementations will contain base portal solutions with additional functionality added in separate solutions, depending on the portal template chosen. The solutions contain entities, forms, views, processes, and a model-driven Portal Management app that you can use to manage the portal metadata.
 
 ### Portal metadata 
 
