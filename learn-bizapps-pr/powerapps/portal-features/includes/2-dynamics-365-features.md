@@ -97,7 +97,7 @@ For more information, see the [Project Service Portal Extension](https://docs.mi
 The Partner Field Service portal integration extends the Dynamics 365 Field Service module to the Partner portal template. To add the Field Service portal extension, the Dynamics 365 Field Service app will need to be provisioned. The Field Service portal features can be selected during the Partner portal installation or they can be installed later by using the Portal admin center.
 
 > [!div class="mx-imgBorder"]
-> [![Power Apps Portals admin center, install Field Service extension(../media/2-field-service-admin.png)](../media/2-field-service-admin.png#lightbox)
+> [![Power Apps Portals admin center, install Field Service extension](../media/2-field-service-admin.png)](../media/2-field-service-admin.png#lightbox)
 
 The main features of the Field Service extension are:
 - Ability for external stakeholders to view customer assets
