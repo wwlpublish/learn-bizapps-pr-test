@@ -1,0 +1,31 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.visual-data-power-bi
+metadata:
+  title: Visualize data in Power BI                          
+  description: Power BI has extraordinary visuals that can be used on Power BI reports and dashboards. In this module, you will learn when to use which visual to solve which problem. You will also learn report design and report formatting. Additionally, you will learn how to use report navigation to tell a compelling, data-driven story in Power BI. Dashboards will help your users target report visuals to meet their specific needs. Paginated reports help you create pixel-perfect report artifacts like sales invoices, purchase orders, medical records, transaction statements, and much more. 
+  ms.date: 06/30/2020
+  author: heyrob
+  ms.author: robde
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+title: Visualize data in Power BI                         
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Power BI has extraordinary visuals that can be used on Power BI reports and dashboards. In this module, you will learn when to use which visual to solve which problem. You will also learn report design and report formatting. Additionally, you will learn how to use report navigation to tell a compelling, data-driven story in Power BI. Dashboards will help your users target report visuals to meet their specific needs. Paginated reports help you create pixel-perfect report artifacts like sales invoices, purchase orders, medical records, transaction statements, and much more.  
+  
+  This learning path can help you prepare for the [Microsoft Certified: Data Analyst Associate certification](https://docs.microsoft.com/learn/certifications/data-analyst-associate).
+prerequisites: None
+iconUrl: /learn/achievements/data-visualization-power-bi.svg
+levels:
+- intermediate
+roles: 
+- data-analyst
+products:
+- power-bi 
+modules:
+- learn-bizapps.visuals-power-bi 
+- learn-bizapps.data-driven-story-power-bi 
+- learn-bizapps.create-dashboards-power-bi 
+- learn-bizapps.create-paginated-reports-power-bi 
+trophy: 
+  uid: learn-bizapps.visual-data-power-bi.trophy

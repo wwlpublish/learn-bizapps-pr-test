@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.ai-builder-power-automate.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/08/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-ai-builder 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is the purpose of using Power Automate flows for AI Builder?
+    choices: 
+    - content: Easily create AI models 
+      isCorrect: false 
+      explanation: Using Power Automate flows for AI Builder automate to scale.
+    - content: Automatically create applications that use AI models
+      isCorrect: false 
+      explanation: Using Power Automate flows for AI Builder automate to scale.
+    - content: Automate and use AI models at scale
+      isCorrect: true 
+      explanation: Using Power Automate flows for AI Builder automate to scale.
+    - content: Schedule training of my AI models 
+      isCorrect: false 
+      explanation: Using Power Automate flows for AI Builder automate to scale.
+  - content: What is the place where you can find pre-configured AI Builder flows you can use to build your own flow? 
+    choices: 
+    - content: My Flows 
+      isCorrect: false 
+      explanation: Pre-configured AI Builder flows are in templates.
+    - content: Templates
+      isCorrect: true 
+      explanation: Pre-configured AI Builder flows are in templates.
+    - content: Solutions
+      isCorrect: false 
+      explanation: Pre-configured AI Builder flows are in templates.
+    - content: Power Apps
+      isCorrect: false 
+      explanation: Pre-configured AI Builder flows are in templates.
+  - content: How can you incorporate AI Builder logic in a Power Automate flow? 
+    choices: 
+    - content: By adding a new step in your flow and searching for AI Builder action name  
+      isCorrect: true 
+      explanation: AI Builder logic is incorporated by adding a new step to your flow.
+    - content: By developing your own AI Builder connector 
+      isCorrect: false 
+      explanation: AI Builder logic is incorporated by adding a new step to your flow.
+    - content: By selecting AI Builder in the trigger action of your flow 
+      isCorrect: false 
+      explanation: AI Builder logic is incorporated by adding a new step to your flow.
+    - content: By creating a Power Automate version of the AI model 
+      isCorrect: false 
+      explanation: AI Builder logic is incorporated by adding a new step to your flow.    

@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.ai-visuals-power-bi 
+metadata: 
+ title: Work with AI visuals
+ description: This module outlines the AI capabilities of Power BI.
+ ms.date: 06/30/2020  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Work with AI visuals 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module outlines the AI capabilities of Power BI.
+abstract: |  
+    In this module, you will: 
+    - Use the Q&A visual  
+    - Find important factors with the Key lnfluencers visual 
+    - Use the Decomposition Tree visual to break down a measure 
+prerequisites: None 
+iconUrl: /learn/achievements/ai-visuals-power-bi.svg  
+levels:  
+- intermediate   
+roles:  
+- data-analyst  
+products:   
+- power-bi 
+units: 
+- learn-bizapps.ai-visuals-power-bi.1-introduction 
+- learn-bizapps.ai-visuals-power-bi.2-visual 
+- learn-bizapps.ai-visuals-power-bi.3-key-influencers 
+- learn-bizapps.ai-visuals-power-bi.4-decomposition-tree 
+- learn-bizapps.ai-visuals-power-bi.5-lab 
+- learn-bizapps.ai-visuals-power-bi.6-check 
+- learn-bizapps.ai-visuals-power-bi.7-summary 
+badge: 
+  uid: learn-bizapps.ai-visuals-power-bi.badge 
