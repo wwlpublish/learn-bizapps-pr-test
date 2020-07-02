@@ -1,6 +1,5 @@
-In this lab, you will enhance the **Sales Report** with advanced design features.
+In this lab, you will enhance the **Sales Report** with advanced design features. You will:
 
-In this lab, you learn how to:
 
 -   Sync slicers
 
@@ -99,6 +98,7 @@ In this task, you will create a new page and configure it as a drill through pag
 	> [![Screenshot of the Visualizations pane with the Card visual highlighted.](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox) 
 
 	> [!div class="mx-imgBorder"]
+
 	> [![Image of the size and position of the Card visual.](../media/lab-10-ss.png)](../media/lab-10-ss.png#lightbox)
 
 1. Drag the **Product | Category** field into the card visual.
@@ -313,18 +313,18 @@ In this task, you will publish the report.
 
 1. Leave Power BI Desktop open.
 
-In the next exercise, you will explore the report in the Power BI service.
+In the next exercise, you will explore the report in Power BI service.
 
 ## Explore the report
 
-In this exercise, you will explore the **Sales Report** in the Power BI service.
+In this exercise, you will explore the **Sales Report** in Power BI service.
 
 > [!NOTE]
 > The exercise will require you to login to Power BI, you will use your existing account to login before starting the lab.
 
 ### Explore the report
 
-In this task, you will explore the **Sales Report** in the Power BI service.
+In this task, you will explore the **Sales Report** in Power BI service.
 
 1. In the Edge, in the Power BI service, open the **Sales Report** report.
 
@@ -359,4 +359,5 @@ In this task, you will complete the lab.
 1. Save the Power BI Desktop file, and then republish to the workspace.
 
 1. Close Power BI Desktop.
+
 

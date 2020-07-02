@@ -13,29 +13,29 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What does AI Splits do?
+  - content: What does the AI splits feature do?
     choices: 
-    - content: The AI Splits work by considering all of the available fields and determining which one to drill into and only returns the highest or lowest value within your dataset.
+    - content: AI splits work by considering all available fields and determining which one to drill into and will only return the highest or lowest value within your dataset.
       isCorrect: false
-      explanation: he AI Splits work by considering all of the available fields and determining which one to drill into to get the highest/lowest value of the measure being analyzed.
-    - content: The AI Splits work by considering all of the available fields and determining which one to drill into to get the highest/lowest value of the measure being analyzed.
+      explanation: AI splits work by considering all available fields and determining which one to drill into to get the highest/lowest value of the measure that is being analyzed.
+    - content: AI splits work by considering all available fields and determining which one to drill into to get the highest/lowest value of the measure that is being analyzed.
       isCorrect: true
-      explanation: he AI Splits work by considering all of the available fields and determining which one to drill into to get the highest/lowest value of the measure being analyzed.
-    - content: The AI Splits only display the difference between highest and lowest value of the measure being analyzed.
+      explanation: AI splits work by considering all available fields and determining which one to drill into to get the highest/lowest value of the measure that is being analyzed.
+    - content: AI splits only display the difference between highest and lowest value of the measure that is being analyzed.
       isCorrect: false 
-      explanation: he AI Splits work by considering all of the available fields and determining which one to drill into to get the highest/lowest value of the measure being analyzed.
-  - content: Can you access Q&A feature using buttons?
+      explanation: AI splits work by considering all available fields and determining which one to drill into to get the highest/lowest value of the measure that is being analyzed.
+  - content: Can you access the Q&A feature by using buttons?
     choices: 
-    - content: No, to use Q&A feature you will need to add Q&A visual to your reporting canvas.
+    - content: No, to use the Q&A feature, you will need to add the Q&A visual to your reporting canvas.
       isCorrect: false
-      explanation: Yes, you can access the Q&A feature by selecting Q&A button type.
-    - content: Yes, you can by selecting Q&A button type.
+      explanation: Yes, you can access the Q&A feature by selecting the Q&A button type.
+    - content: Yes, you can access the Q&A feature by selecting Q&A button type.
       isCorrect: true 
-      explanation: Yes, you can access the Q&A feature by selecting Q&A button type.
-    - content: Yes, you can but you will need to add Q&A visual to your reporting canvas and link your button with the visual that you have added.
+      explanation: Yes, you can access the Q&A feature by selecting the Q&A button type.
+    - content: Yes, you can, but you will need to add the Q&A visual to your reporting canvas and then link your button with the visual that you have added.
       isCorrect: false 
-      explanation: Yes, you can access the Q&A feature by selecting Q&A button type.
-  - content: Which of these are NOT features of the Q&A visual?
+      explanation: Yes, you can access the Q&A feature by selecting the Q&A button type.
+  - content: Which of the following selections are not features of the Q&A visual?
     choices: 
     - content: Adding new synonyms to fields through Q&A tooling.
       isCorrect: false
@@ -46,7 +46,7 @@ quiz:
     - content: Searching for help topics about Power BI.
       isCorrect: true
       explanation: Searching for help topics about Power BI is not a feature of the Q&A visual. 
-  - content: What does the decomposition tree NOT enable you to do?
+  - content: What does the decomposition tree not enable you to do?
     choices: 
     - content: Conduct root cause analysis to understand a measure better.
       isCorrect: false
