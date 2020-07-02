@@ -24,7 +24,7 @@ Power Apps can create three types of apps: canvas, model-driven, and portals. Ea
 
 ### Canvas apps
 
-Canvas apps are a great option when you want to build an app from a blank canvas. You start by choosing the screen size: tablet of mobile, then you have a blank screen from which to build. You can interact with data in your app by adding data sources. Drag and drop various controls and add the desired functionality by writing Excel style formulas. Canvas apps provide you complete flexibility when building your apps. 
+Canvas apps are a great option when you want to build an app from a blank canvas. You start by choosing the screen size: tablet or mobile, then you have a blank screen from which to build. You can interact with data in your app by adding data sources. Drag and drop various controls and add the desired functionality by writing Excel style formulas. Canvas apps provide you complete flexibility when building your apps. 
 
 Below are a couple of examples of a mobile canvas app built by Heathrow Airport.  
     ![Power Apps mobile display for Heathrow Airport Application](../media/mobile-canvas-apps.png)
