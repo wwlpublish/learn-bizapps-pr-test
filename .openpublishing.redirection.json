@@ -26,16 +26,6 @@
                              "redirect_document_id⁯": true
                         },
                         {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/index.md"
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/index",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/1-introduction.md"
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/1-introduction/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
                              "source_path":  "learn-bizapps-pr/powerbi/design-data-model-power-bi/5-combine-tables.md"
                              "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/5-combine-tables/",
                              "redirect_document_id⁯": true
@@ -58,11 +48,6 @@
                         {
                              "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/9-check.md"
                              "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/9-check/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/index.md"
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi//",
                              "redirect_document_id⁯": true
                         },
                         {
