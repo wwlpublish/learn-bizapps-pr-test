@@ -24,6 +24,6 @@ products:
 - power-bi 
 modules:
 - learn-bizapps.get-data
-- learn-bizapps.design-data-model-power-bi
+- learn-bizapps.clean-data-power-bi
 trophy: 
   uid: learn-bizapps.data-preparation-in-power-bi.trophy
