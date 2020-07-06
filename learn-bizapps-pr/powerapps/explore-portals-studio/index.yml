@@ -1,26 +1,26 @@
 ### YamlMime:Module 
 uid: learn-bizapps.explore-portals-studio 
 metadata: 
- title: Explore Power Apps portals studio
- description: Portal makers spend the majority of their time configuring the portals using the Power Apps portals Studio. It is important that the makers have a full understanding of the capabilities and also the limitations. This module will focus on understanding and using the Power Apps portals Studio to create and customize portal websites.  The Power Apps portals Studio allows makers to easily add and configure webpages, layout components, static content, custom CSS files, entity lists and entity forms.
+ title: Explore Power Apps portals Studio
+ description: Portal makers spend the majority of their time configuring portals by using Microsoft Power Apps portals Studio. It is important that portal makers have a full understanding of the capabilities and also the limitations of using portals Studio. This module will focus on understanding and using Power Apps portals Studio to create and customize portal websites. Power Apps portals Studio allows makers to add and configure webpages, layout components, static content, custom CSS files, entity lists, and entity forms.
  ms.date: 06/30/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps-portals  
-title: Explore Power Apps portals studio 
+title: Explore Power Apps portals Studio 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Portal makers spend the majority of their time configuring the portals using the Power Apps portals Studio. It is important that the makers have a full understanding of the capabilities and also the limitations. This module will focus on understanding and using the Power Apps portals Studio to create and customize portal websites.  The Power Apps portals Studio allows makers to easily add and configure webpages, layout components, static content, custom CSS files, entity lists and entity forms.
+  Portal makers spend the majority of their time configuring portals by using Microsoft Power Apps portals Studio. It is important that portal makers have a full understanding of the capabilities and also the limitations of using portals Studio. This module will focus on understanding and using Power Apps portals Studio to create and customize portal websites. Power Apps portals Studio allows makers to add and configure webpages, layout components, static content, custom CSS files, entity lists, and entity forms.
 abstract: |  
     In this module, you will: 
-    - Know how to launch and run the Power Apps portals Studio from the maker portal
+    - Learn how to launch and run Power Apps portals Studio from the maker portal.
     - Identify the various menus, command bars, tools, canvas, and property sections.
-    - Understand how to add new web pages, how to place them in the site structure and how to apply various page templates.
-    - Understand the process to configure specific layouts and add and modify different types of content to a page.
-    - Know where to be able to add or modify custom HTML, CSS, or Liquid code to the web pages using the studio.
-    - Understand the process of uploading CSS files and how it will apply to the portal.
-prerequisites: Target audience should have basic understanding of how to navigate a model driven app and use WYSIWYG (what you see is what you get) tools.  Knowledge on web technologies such as HTML, CSS, and Bootstrap will also be beneficial. 
+    - Discover how to add new webpages, how to place them in the site structure, and how to apply various page templates.
+    - Learn about the process of configuring specific layouts and adding and modifying different types of content to a page.
+    - Identify where to add or modify custom HTML, CSS, or Liquid code to the webpages by using portals Studio.
+    - Discover the process of uploading CSS files and how it will apply to the portal.
+prerequisites: A basic understanding of how to navigate a model-driven app and use WYSIWYG tools. Knowledge of web technologies such as HTML, CSS, and Bootstrap will also be beneficial. 
 iconUrl: /learn/achievements/explore-portals-studio.svg  
 levels:  
 - intermediate   
