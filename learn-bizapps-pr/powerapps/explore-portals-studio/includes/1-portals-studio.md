@@ -26,12 +26,12 @@ The portals Studio provides the tools that makers can use to modify and add cont
 | 1 | Command bar | Create a new webpage from an existing template<br />Delete webpage components<br />Sync configuration with updates from Common Data Service<br />Clear cache and browse to website to view current page |
 | 2 | Toolbelt | Navigate the site hierarchy and organize webpages<br />Add components to webpages such as section layouts and content components<br />Enable custom CSS themes<br />View and select portal templates to edit |
 | 3 | Canvas | Workspace to arrange, add, and edit static and dynamic content to a portal webpage |
-| 4 | Footer | Displays auto-save status and provides hyperlink to open up source code to allow editing of the current webpage |
+| 4 | Footer | Displays autosave status and provides hyperlink to open up source code to allow editing of the current webpage |
 | 5 | Properties pane | Displays properties of the currently selected webpage or component and allows the setting of specific component properties |
 
 All additions, configurations, and updates that are done through the portals Studio will update portal metadata in Common Data Service.
 
 > [!IMPORTANT]
-> Portals Studio will automatically save configuration updates to Common Data Service as the maker tabs off a specific control. To ensure that all your updates are committed, check the auto-save status in the footer before browsing to preview the website.
+> Portals Studio will automatically save configuration updates to Common Data Service as the maker tabs off a specific control. To ensure that all your updates are committed, check the autosave status in the footer before browsing to preview the website.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yYtf]
