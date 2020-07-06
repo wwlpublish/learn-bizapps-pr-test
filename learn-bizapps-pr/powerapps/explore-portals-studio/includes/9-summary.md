@@ -1,10 +1,10 @@
-The Power App portal Studio is an easy to use, no-code, low-code tool to allow portal makers to build and configure a powerful portal quickly.
+Power Apps portals Studio is a straightforward, no-code, low-code tool that allows portal makers to build and configure a powerful portal quickly.
 
-Let's have a quick look at what we have covered in this module:
+To review, this module covered the following topics:
 
-- We reviewed the structure and features of the portal studio.
-- We learned how to add web pages and organize them in the hierarchy of the portal.
-- We learned how to add various components to portal web pages.
-- We reviewed how to view and edit web page source code.
-- We learned different methods to modify the portal theme in the portal studio.
-- We discussed how we can edit and update web templates in the portal studio.
+- The structure and features of portals Studio.
+- How to add webpages and organize them in the hierarchy of the portal.
+- How to add various components to portal webpages.
+- How to view and edit webpage source code.
+- Different methods to modify the portal theme in portals Studio.
+- Editing and updating web templates in portals Studio.
