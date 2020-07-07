@@ -65,7 +65,7 @@ However, single quotation marks can be omitted when both of the following condit
 
 1.  The table name does not include embedded spaces.
 
-2.  The table name is not a reserved word that is used by DAX. All DAX function names and operators are reserved words. Note that *Date* is a DAX function name, which explains why, when you are referencing a table named Date, that it must be enclosed within single quotation marks.
+2.  The table name is not a reserved word that is used by DAX. All DAX function names and operators are reserved words. *Date* is a DAX function name, which explains why, when you are referencing a table named Date, that it must be enclosed within single quotation marks.
 
 In the following calculated table definition, it's possible to omit the square brackets when referencing the Airport table:
 
@@ -81,7 +81,7 @@ When you are referencing a column in a formula, the column name must be enclosed
 Revenue = SUM([Sales Amount])
 ```
 
-Because column names are unique within a table but not necessarily unique within the model, you can disambiguate the column reference by preceding it with its table name. This disambiguated column is known as a *fully qualified column*. Note that some DAX functions require passing in fully qualified columns.
+Because column names are unique within a table but not necessarily unique within the model, you can disambiguate the column reference by preceding it with its table name. This disambiguated column is known as a *fully qualified column*. Some DAX functions require passing in fully qualified columns.
 
 > [!TIP]
 > To improve the readability of your formulas, we recommend that you always precede a column reference with its table name.
@@ -100,7 +100,7 @@ When you are referencing a measure in a formula, like column name references, th
 Profit = [Revenue] - [Cost]
 ```
 
-If you are a DAX beginner, the fact that column and measure references are always enclosed within square brackets can cause confusion when you are trying to read a formula. However, when you're proficient with DAX fundamentals, you'll be able to determine which type of object it is because, in DAX formulas, columns and measures are used in different ways.
+If you are a DAX beginner, the fact that column and measure references are always enclosed within square brackets can cause confusion when you are trying to read a formula. However, when you're proficient with DAX fundamentals, you'll be able to determine which type of object it is because, in DAX formulas, columns, and measures are used in different ways.
 
 > [!TIP]
 > It's possible to precede a measure reference with its table name. However, measures are a model-level object. While they're assigned to a home table, it's only a cosmetic relationship to logically organize measures in the **Fields** pane.
