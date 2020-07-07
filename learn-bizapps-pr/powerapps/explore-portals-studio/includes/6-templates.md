@@ -1,9 +1,9 @@
-A web template can be composed of HTML, CSS, and JavaScript code. Template can also include Liquid template language expressions that can be used to add dynamic content to pages. The Portal studio provides a built-in code editor to allow a maker to directly modify an existing web template.
+A web template can be composed of HTML, CSS, and JavaScript code. A template can also include Liquid template language expressions that can be used to add dynamic content to pages. Power Apps portals Studio provides a built-in code editor to allow makers to directly modify an existing web template.
 
-On the toolbelt, select Templates and choose the web template you want to edit.  
+On the toolbelt, select **Templates** and then choose the web template that you want to edit.  
 
 > [!NOTE]
-> Some of the default web templates or web templates without a corresponding page template, may not be editable.  
+> Some of the default web templates, or web templates without a corresponding page template, might not be editable.  
 
 > [!div class="mx-imgBorder"]
 > [![Web templates](../media/6-web-templates-ss.png)](../media/6-web-templates-ss.png#lightbox)

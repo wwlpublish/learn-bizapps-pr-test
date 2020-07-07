@@ -13,59 +13,59 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which component is NOT part of the Power Apps portal Studio?
+  - content: Which component is not part of the Power Apps portals Studio?
     choices: 
     - content: Canvas
       isCorrect: false 
-      explanation: The canvas, properties pane, and toolbelt are features of the portal studio while the portal checker is in the admin section.
+      explanation: The canvas, Properties pane, and toolbelt are features of the portals Studio while the portal checker is in the admin section.
     - content: Properties pane
       isCorrect: false 
-      explanation: The canvas, properties pane, and toolbelt are features of the portal studio while the portal checker is in the admin section.
+      explanation: The canvas, Properties pane, and toolbelt are features of the portals Studio while the portal checker is in the admin section.
     - content: Toolbelt
       isCorrect: false 
-      explanation: The canvas, properties pane, and toolbelt are features of the portal studio while the portal checker is in the admin section.
-    - content: Portal Checker
+      explanation: The canvas, Properties pane, and toolbelt are features of the portals Studio while the portal checker is in the admin section.
+    - content: Portal checker
       isCorrect: true 
-      explanation: The canvas, properties pane, and toolbelt are features of the portal studio while the portal checker is in the admin section.
-  - content: What is a specific component that can't be added to a web page using the portal studio?
+      explanation: The canvas, Properties pane, and toolbelt are features of the portals Studio while the portal checker is in the admin section.
+  - content: What is a specific component that can't be added to a webpage by using portals Studio?
     choices: 
-    - content: Entity Lists
+    - content: Entity lists
       isCorrect: false 
-      explanation: Web Forms component isn't available to add to a page in the portals studio.
-    - content: 3 Column Section
+      explanation: The Web Forms component isn't available to add to a webpage in portals Studio.
+    - content: Three-column section
       isCorrect: false 
-      explanation: Web Forms component isn't available to add to a page in the portals studio.
-    - content: Iframe
+      explanation: The Web Forms component isn't available to add to a webpage in portals Studio.
+    - content: IFrame
       isCorrect: false 
-      explanation: Web Forms component isn't available to add to a page in the portals studio.
+      explanation: The Web Forms component isn't available to add to a webpage in portals Studio.
     - content: Web Forms
       isCorrect: true 
-      explanation: Web Forms component isn't available to add to a page in the portals studio.
-  - content: What theme components can be configured using basic themes?
+      explanation: The Web Forms component isn't available to add to a webpage in portals Studio.
+  - content: What theme components can be configured by using basic themes?
     choices: 
-    - content: Font Style
+    - content: Font style
       isCorrect: false 
-      explanation: Currently, only color components can be configured using basic themes. Other aspects can be edited using the CSS editor.
+      explanation: Currently, only color components can be configured by using basic themes. Other aspects can be edited by using the CSS editor.
     - content: Color
       isCorrect: true 
-      explanation: Currently, only color components can be configured using basic themes. Other aspects can be edited using the CSS editor.
-    - content: Header Image
+      explanation: Currently, only color components can be configured by using basic themes. Other aspects can be edited by using the CSS editor.
+    - content: Header image
       isCorrect: false 
-      explanation: Currently, only color components can be configured using basic themes. Other aspects can be edited using the CSS editor.
+      explanation: Currently, only color components can be configured by using basic themes. Other aspects can be edited by using the CSS editor.
     - content: Font size
       isCorrect: false 
-      explanation: Currently, only color components can be configured using basic themes. Other aspects can be edited using the CSS editor.
-  - content: How would you add a Power Virtual agent bot to a portal page in the portal studio?
+      explanation: Currently, only color components can be configured by using basic themes. Other aspects can be edited by using the CSS editor.
+  - content: How would you add a Microsoft Power Virtual Agents bot to a portal page in portals Studio?
     choices: 
-    - content: Add a static hyperlink to the default navigation
+    - content: Add a static hyperlink to the default navigation.
       isCorrect: false 
-      explanation: You cannot modify the default navigation items directly in the portal studio. You cannot add a custom web template, but you can edit an existing web template. There is no such thing as Power Virtual Agent component. You can a Power virtual agent to an Iframe.
-    - content: Add an Iframe component to a portal page
+      explanation: You can't modify the default navigation items directly in portals Studio. You can't add a custom web template, but you can edit an existing web template. A Power Virtual Agents component does not exist, but you can embed a Power Virtual Agents bot to an IFrame.
+    - content: Add an IFrame component to a portal page.
       isCorrect: true 
-      explanation: You cannot modify the default navigation items directly in the portal studio. You cannot add a custom web template, but you can edit an existing web template. There is no such thing as Power Virtual Agent component. You can a Power virtual agent to an Iframe.
-    - content: Add a custom Web Template
+      explanation: You can't modify the default navigation items directly in portals Studio. You can't add a custom web template, but you can edit an existing web template. A Power Virtual Agents component does not exist, but you can embed a Power Virtual Agents bot to an IFrame.
+    - content: Add a custom web template.
       isCorrect: false 
-      explanation: You cannot modify the default navigation items directly in the portal studio. You cannot add a custom web template, but you can edit an existing web template. There is no such thing as Power Virtual Agent component. You can a Power virtual agent to an Iframe.
-    - content: Add a Power Virtual Agent component to a portal page
+      explanation: You can't modify the default navigation items directly in portals Studio. You can't add a custom web template, but you can edit an existing web template. A Power Virtual Agents component does not exist, but you can embed a Power Virtual Agents bot to an IFrame.
+    - content: Add a Power Virtual Agents component to a portal page.
       isCorrect: false 
-      explanation: You cannot modify the default navigation items directly in the portal studio. You cannot add a custom web template, but you can edit an existing web template. There is no such thing as Power Virtual Agent component. You can a Power virtual agent to an Iframe.
+      explanation: You can't modify the default navigation items directly in portals Studio. You can't add a custom web template, but you can edit an existing web template. A Power Virtual Agents component does not exist, but you can embed a Power Virtual Agents bot to an IFrame.
