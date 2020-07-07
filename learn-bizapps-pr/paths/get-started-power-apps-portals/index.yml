@@ -30,5 +30,6 @@ modules:
 - learn-bizapps.explore-portals
 - learn-bizapps.portal-features
 - learn-bizapps.portals-architecture
+- learn-bizapps.explore-portals-studio 
 trophy: 
   uid: learn-bizapps.get-started-power-apps-portals.trophy
