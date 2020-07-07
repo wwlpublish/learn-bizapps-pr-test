@@ -2,7 +2,7 @@
 uid: learn-bizapps.dax-power-bi-write-formulas 
 metadata: 
  title: Write DAX formulas for Power BI Desktop models
- description: By the end of this module, you'll be able to write DAX formulas to create different types of model calculations calculated tables, calculated columns, and measures. You'll learn how to write and format DAX formulas, which comprise expressions that use functions, operators, references to model objects, constants, and variables.
+ description: In this module, you'll learn how to write DAX formulas to create different types of model calculations: calculated tables, calculated columns, and measures. Additionally, you'll learn how to write and format DAX formulas, which are comprised of expressions that use functions, operators, references to model objects, constants, and variables.
  ms.date: 07/07/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,16 +11,16 @@ metadata:
 title: Write DAX formulas for Power BI Desktop models 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  By the end of this module, you'll be able to write DAX formulas to create different types of model calculations: calculated tables, calculated columns, and measures. You'll learn how to write and format DAX formulas, which comprise expressions that use functions, operators, references to model objects, constants, and variables.
+  In this module, you'll learn how to write DAX formulas to create different types of model calculations: calculated tables, calculated columns, and measures. Additionally, you'll learn how to write and format DAX formulas, which are comprised of expressions that use functions, operators, references to model objects, constants, and variables.
 abstract: |  
     By the end of this module, you'll be able to:
-    - Describe the different DAX calculation types
-    - Write DAX formulas
-    - Describe DAX data types
-    - Work with DAX functions
-    - Use DAX operators
-    - Use DAX variables
-prerequisites: You should have experience creating Power BI Desktop models and designing Power BI report layouts. 
+    - Describe the different DAX calculation types.
+    - Write DAX formulas.
+    - Describe DAX data types.
+    - Work with DAX functions.
+    - Use DAX operators.
+    - Use DAX variables.
+prerequisites: Experience creating Microsoft Power BI Desktop models and designing Power BI report layouts 
 iconUrl: /learn/achievements/dax-power-bi-write-formulas.svg  
 levels:  
 - intermediate   
