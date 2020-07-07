@@ -5,7 +5,7 @@ When aggregating data, you summarize that data and present it in at a higher gra
 
 Your organization might decide to use aggregations in their data models for the following reasons:
 
--   If you are dealing with a large amount of data (big data), aggregations will provide better query performance and help you analyze and reveal the insights of this large data. Aggregated data is cashed and, therefore, uses a fraction of the resources that are required for detailed data.
+-   If you are dealing with a large amount of data (big data), aggregations will provide better query performance and help you analyze and reveal the insights of this large data. Aggregated data is cached and, therefore, uses a fraction of the resources that are required for detailed data.
 
 -   If you are experiencing a slow refresh, aggregations will help you speed up the refresh process. The smaller cache size reduces the refresh time, so data gets to users faster. Instead of refreshing what could be millions of rows, you would refresh a smaller amount of data instead.
 
