@@ -32,7 +32,7 @@ For each environment, you will need to provide the following:
 -   **Region:** Defines the [support data region](https://docs.microsoft.com/power-virtual-agents/data-location/?azure-portal=true) where the environment will be created.
 
 > [!div class="mx-imgBorder"]
-> [![name, environment and region for environment](../media/pva-2-1-ssm.png)](../media/pva-2-1-ssm.png#lightbox)
+> [![name, environment and region for environment](../media/power-virtual-agents-2-1-ssm.png)](../media/power-virtual-agents-2-1-ssm.png#lightbox)
 
 If you want to have a Common Data Service (CDS) database created for the environment to leverage entities like Accounts, Contacts, and other business-related data, you can set the Create a database for this environment field to Yes. **You should also select yes, if you are using Power Virtual Agents in conjunction with other Dynamics 365 applications.** Data from CDS can be used in bots to provide tailored customer experience. Once created, new bots can be deployed to the environment from the Power Virtual Agents Portal.
 

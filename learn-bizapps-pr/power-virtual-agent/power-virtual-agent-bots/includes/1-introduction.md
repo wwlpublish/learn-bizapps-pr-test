@@ -23,7 +23,7 @@ Through leveraging Power Virtual Agents, your organization can:
 -   **Improve customer satisfaction:** Customers have access to a 24/7 self-help solution to help resolve their issues through rich personalized bot conversations.
 
 > [!div class="mx-imgBorder"]
-> [![key advantages of Power Virtual Agents](../media/pva-1-1-ss.png)](../media/pva-1-1-ss.png#lightbox)
+> [![key advantages of Power Virtual Agents](../media/power-virtual-agents-1-1-ss.png)](../media/power-virtual-agents-1-1-ss.png#lightbox)
 
 One of the key advantages of Power Virtual Agents its ease of deployment. With just a few clicks, you can sign up, create a bot, and embed it into your organization's website. Microsoft's conversational artificial intelligence capabilities allow customers to have rich multi-turn conversations where they are guided to the right solution. Simply provide a few examples of the topic you want the bot to handle, build the conversation and your bot is ready to handle customer requests. For example, let's say your organization has analyzed its incoming support topics, and has identified that a large portion of customer issues relates to store hours and shipping issues. A Power Virtual Agent bot could be built around those topics and the customer can gain answers quickly from the bot without initiating a request to a human agent. Since Power Virtual Agents works hand-in-hand with applications like [Dynamics 365 Customer Service Insights](https://dynamics.microsoft.com/ai/customer-service-insights/?azure-portal=true), you can use Customer Service Insights to determine which support topics are trending and can be automated with Power Virtual Agents and you update your Virtual Agents with those topics.
 
