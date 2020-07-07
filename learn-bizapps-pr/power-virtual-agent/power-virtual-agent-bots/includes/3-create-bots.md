@@ -17,7 +17,7 @@ Bots that are no longer needed can be removed from your environment. This may ha
 > [!div class="mx-imgBorder"]
 > [![general settings](../media/pva-3-3-ssm.png)](../media/pva-3-3-ssm.png#lightbox)
 
-**Working with the Power Virtual Agents user interface**
+## Working with the Power Virtual Agents user interface
 
 The Power Virtual Agent interface provides you with all the tools necessary to author, test, publish, and monitor the performance of your bot. When the application is loaded after the bot is created, you will see multiple areas that can be used to assist throughout process of working with your bot.
 
