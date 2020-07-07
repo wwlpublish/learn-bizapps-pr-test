@@ -9,9 +9,9 @@ Once you are ready to publish your bot, select the Publish tab on the side nav
 > [!div class="mx-imgBorder"]
 > [![publish a bot](../media/pva-6-1-ssm.png)](../media/pva-6-1-ssm.png#lightbox)
 
-Before the bot is deployed to the different channels that consum it, you might want to gain feedback from other team members. Once a bot is published the first time, it can be made available to the demo website. The demo websites URL can be provided to team members or stakeholders to try it out. The advantage to using the demo website is that the experience is different than testing the bot during the authoring process. Since the test bot experience is only intended to allow bot authors to test it, the demo website link increases the pool of users that can test and provide feedback related to the overall experience of the bot.
+Before the bot is deployed to the different channels that consume it, you might want to gain feedback from other team members. Once a bot is published the first time, it can be made available to the demo website. The demo websites URL can be provided to team members or stakeholders to try it out. The advantage to using the demo website is that the experience is different than testing the bot during the authoring process. Since the test bot experience is only intended to allow bot authors to test it, the demo website link increases the pool of users that can test and provide feedback related to the overall experience of the bot.
 
-To add a bot to the demo website, click the demo website link under Share your bot. This is a webpage that demonstrates what your bot looks like to an end-user who comes to your webpage. The bot canvas is at the bottom. You can interact with it by typing into the window or by selecting a starter phrase from the provided options.
+To add a bot to the demo website, click the demo website link under Share your bot. This is a webpage that demonstrates what your bot looks like to an end user who comes to your webpage. The bot canvas is at the bottom. You can interact with it by typing into the window or by selecting a starter phrase from the provided options.
 
 > [!div class="mx-imgBorder"]
 > [![demo your bot](../media/pva-6-2-ssm.png)](../media/pva-6-2-ssm.png#lightbox)

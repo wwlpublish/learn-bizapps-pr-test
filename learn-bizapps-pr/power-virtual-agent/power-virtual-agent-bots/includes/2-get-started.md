@@ -15,7 +15,7 @@ Depending on business needs, organizations can leverage environments in many way
 
 -   **Locational:** Since the data displayed may be different based on geographic regions, you might define separate environments for different global branches of your company.
 
-You only need multiple environments if your company is global and you are supporting regions with specific data privacy and storage requirements like China, Germany, the EU, Singapore, etc... In that case, you will need to establish environments for each region as you would for any other service that uses and stores data for customers in that region.
+You only need multiple environments if your company is global and you are supporting regions with specific data privacy and storage requirements like China, Germany, the EU, Singapore, etc. In that case, you will need to establish environments for each region as you would for any other service that uses and stores data for customers in that region.
 
 ## Creating environments
 

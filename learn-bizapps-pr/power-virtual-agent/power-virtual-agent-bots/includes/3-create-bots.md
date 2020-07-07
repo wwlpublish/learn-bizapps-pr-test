@@ -12,7 +12,7 @@ In the **Create a new bot** dialog box, enter a name for your bot. Select **C
 
 ## Deleting a bot
 
-Bots that are no longer needed can be removed from your environment. This may happen in scenarios where it is being replaced with a different bot, or if the bot simply just does not fit the needs of your organization anymore. Use the bot icon on the top menu bar, and then select the bot you want to delete. The Delete Bot option is available from the Settings icon on the top menu bar and selecting general settings.
+Bots that are no longer needed can be removed from your environment. This may happen in scenarios where it is being replaced with a different bot, or if the bot just does not fit the needs of your organization anymore. Use the bot icon on the top menu bar, and then select the bot you want to delete. The Delete Bot option is available from the Settings icon on the top menu bar and selecting general settings.
 
 > [!div class="mx-imgBorder"]
 > [![general settings](../media/pva-3-3-ssm.png)](../media/pva-3-3-ssm.png#lightbox)
@@ -42,6 +42,6 @@ The image below, provides an example of what the user interface looks like:
 
 1.  **Manage:** Toolset that assists in management items such as which channels your bot is deployed to, bot authentication, and skills management.
 
-1.  **Test/Hide bot:** Opens the test bot dialog where you can engage bot topics in real-time.
+1.  **Test/Hide bot:** Opens the test bot dialog where you can engage bot topics in real time.
 
 1. **Test Bot panel:** Lets you test your bot topics to ensure that they are performing as expected.
