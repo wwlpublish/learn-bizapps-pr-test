@@ -13,7 +13,7 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: You're using Power BI Desktop to develop a model. It has a table named Sales, which includes a column named CustomerKey. In reports, you need a calculation to show the number of different customers who've placed orders. What type of DAX calculation will you add to the Sales table?
+  - content: You're using Power BI Desktop to develop a model. It has a table named Sales, which includes a column named CustomerKey. In reports, you need a calculation to show the number of different customers who have placed orders. What type of DAX calculation will you add to the Sales table?
     choices: 
     - content: Calculated table
       isCorrect: false
