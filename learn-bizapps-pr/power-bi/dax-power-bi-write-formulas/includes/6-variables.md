@@ -8,7 +8,7 @@ We recommend that you use variables because they offer several benefits:
 
 -   Allowing (at design time) straightforward testing of a complex formula by returning the variable of interest.
 
-The following is an example of a formula that declares a variable. The **Revenue YoY %** measure definition is rewritten to declare a variable that's assigned the value of the prior year's revenue.
+The following example shows a formula that declares a variable. The **Revenue YoY %** measure definition is rewritten to declare a variable that's assigned the value of the prior year's revenue.
 
 ```dax
 Revenue YoY % =
