@@ -24,7 +24,7 @@ quiz:
     - content: MDX
       isCorrect: false 
       explanation: False. You would use MDX language with Azure Analysis Services.
-  - content: You're creating a Power BI report with data from an Azure Analysis Server Cube. When the data refreshes in the cube, you would like to see it immediately in the Power BI report. How should you connect? 
+  - content: You're creating a Power BI report with data from an Azure Analysis Services Cube. When the data refreshes in the cube, you would like to see it immediately in the Power BI report. How should you connect? 
     choices: 
     - content: Import
       isCorrect: false
