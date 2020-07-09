@@ -1,6 +1,6 @@
 Learn how to use your Form processing model in Power Apps and Power Automate.
 
-**Quick test**
+## Quick test
 
 After your model has completed training, you can view important details about your newly trained model on a details page.
 
@@ -12,11 +12,11 @@ Drag and drop or upload an image from your device to test. If you are using samp
 
 You will now be able to view the detected fields that you chose and the associated confidence scores for retrieving the individual fields compared to the trained model.
 
-**Publish your model**
+## Publish your model
 
 Your model can\'t be used until you publish it. If you are satisfied with your model, select **Publish** to make it available for use.
 
-**Use your model in Power Automate**
+## Use your model in Power Automate
 
 After your Form processing model is published, you can also use it in a flow. You can use the **AI Builder** action in Power Automate to take advantage of the results of your model.\
 \
@@ -54,7 +54,7 @@ The flow has already been configured with a manual trigger that will prompt for 
 
 After the flow runs successfully, an email will be sent to the email that you set with the content that you defined.
 
-**Use your model in Power Apps**
+## Use your model in Power Apps
 
 Now that your model is published, you can use your Form processing model in a canvas app. A special component is available for you to add that analyzes any image and extracts the text based on your trained Form processing model.
 
