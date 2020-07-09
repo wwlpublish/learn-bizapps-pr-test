@@ -14,12 +14,12 @@ summary: |
   By the end of this module, you'll be able to add calculated tables and calculated columns to your data model. You'll also be able to describe row context, which is used to evaluated calculated column formulas. Because it's possible to add columns to a table using Power Query, you'll also learn when it's best to create calculated columns instead of Power Query computed columns.
 abstract: |  
     By the end of this module, you'll be able to:
-    - Create calculated tables
-    - Create calculated columns
-    - Describe row context
-    - Determine when to use a calculated column in place of a Power Query custom column
-    - Add a date table to your model by using DAX calculations
-prerequisites: You should have experience creating Power BI Desktop models and designing Power BI report layouts. You should also understand how to write Data Analysis Expressions (DAX) formulas. 
+    - Create calculated tables.
+    - Create calculated columns.
+    - Identify row context.
+    - Determine when to use a calculated column in place of a Power Query custom column.
+    - Add a date table to your model by using DAX calculations.
+prerequisites: Experience creating Microsoft Power BI Desktop models and designing Power BI report layouts, and an understanding of how to write Data Analysis Expressions (DAX) formulas 
 iconUrl: /learn/achievements/dax-power-bi-add-calculated-tables.svg  
 levels:  
 - intermediate   
