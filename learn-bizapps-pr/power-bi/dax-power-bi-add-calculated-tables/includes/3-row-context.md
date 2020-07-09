@@ -20,7 +20,7 @@ However, row context does not extend beyond the table. If your formula needs to 
 
 - When the tables aren't related, you can use the [LOOKUPVALUE](https://docs.microsoft.com/dax/lookupvalue-function-dax/?azure-portal=true) DAX function.
 
-Generally, try to use the RELATED function whenever possible. It'll usually perform better than the LOOKUPVALUE function due to the ways that relationship and column data is stored and indexed.
+Generally, try to use the RELATED function whenever possible. It will usually perform better than the LOOKUPVALUE function due to the ways that relationship and column data is stored and indexed.
 
 Now, add the following calculated column definition to the Sales table:
 
