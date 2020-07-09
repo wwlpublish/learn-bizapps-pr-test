@@ -2,7 +2,7 @@
 uid: learn-bizapps.dax-power-bi-add-measures 
 metadata: 
  title: Add measures to Power BI Desktop models
- description: By the end of this module, you'll be able to work with implicit and explicit measures. You'll start by creating simple measures, which summarize a single column or table. Then you'll create more interesting measures based on other measures in the model. Lastly, you'll be able to describe similarities of, and differences between, a calculated column and a measure.
+ description: In this module, you'll learn how to work with implicit and explicit measures. You'll start by creating simple measures, which summarize a single column or table. Then, you'll create more detailed measures based on other measures in the model. Additionally, you'll learn about the similarities of, and differences between, a calculated column and a measure.
  ms.date: 07/07/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,15 +11,15 @@ metadata:
 title: Add measures to Power BI Desktop models 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  By the end of this module, you'll be able to work with implicit and explicit measures. You'll start by creating simple measures, which summarize a single column or table. Then you'll create more interesting measures based on other measures in the model. Lastly, you'll be able to describe similarities of, and differences between, a calculated column and a measure.
+  In this module, you'll learn how to work with implicit and explicit measures. You'll start by creating simple measures, which summarize a single column or table. Then, you'll create more detailed measures based on other measures in the model. Additionally, you'll learn about the similarities of, and differences between, a calculated column and a measure.
 abstract: |  
     By the end of this module, you'll be able to: 
-    - When to use implicit and explicit measures
-    - Create simple measures, which summarize a single column or table
-    - Create compound measures, which reference other measures
-    - Create quick measures
-    - Describe similarities of, and differences between, a calculated column and a measure
-prerequisites: You should have experience creating Power BI Desktop models and designing Power BI report layouts. You should also understand how to write Data Analysis Expressions (DAX) formulas. 
+    - Determine when to use implicit and explicit measures.
+    - Create simple measures.
+    - Create compound measures.
+    - Create quick measures.
+    - Describe similarities of, and differences between, a calculated column and a measure.
+prerequisites: Experience creating Power BI Desktop models and designing Power BI report layouts, in addition to an understanding of how to write Data Analysis Expressions (DAX) formulas 
 iconUrl: /learn/achievements/add-measures-power-bi-desktop.svg  
 levels:  
 - intermediate   
