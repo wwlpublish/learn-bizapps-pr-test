@@ -92,7 +92,7 @@ DISTINCTCOUNT('Sales Order'[Sales Order])
 
 The [COUNT](https://docs.microsoft.com/dax/count-function-dax/?azure-portal=true) DAX function counts the number of non-BLANK values in a column, while the [DISTINCTCOUNT](https://docs.microsoft.com/dax/distinctcount-function-dax/?azure-portal=true) DAX function counts the number of distinct values in a column. Because an order can have one or more order lines, the **Sales Order** column will have duplicate values. A distinct count of values in this column will correctly count the number of orders.
 
-Alternatively, you can choose the better way to write the **Order Line Count** measure. Instead of counting values in a column, it's semantically clearer to use the [COUNTROWS](https://docs.microsoft.com/dax/countrows-function-dax/?azure-portal=true) DAX function. Unlike the previously-introduced aggregation functions, which aggregate column values, the COUNTROWS function counts the number of rows *for a table*.
+Alternatively, you can choose the better way to write the **Order Line Count** measure. Instead of counting values in a column, it's semantically clearer to use the [COUNTROWS](https://docs.microsoft.com/dax/countrows-function-dax/?azure-portal=true) DAX function. Unlike the previously introduced aggregation functions, which aggregate column values, the COUNTROWS function counts the number of rows *for a table*.
 
 Modify the **Order Line Count** measure formula to the following parameters:
 
