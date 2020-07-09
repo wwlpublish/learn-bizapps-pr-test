@@ -20,10 +20,10 @@ quiz:
       explanation: Unlike calculated tables and calculated columns, measures never store values in the data model.
     - content: Measures must be added to the data model to achieve summarization.
       isCorrect: false 
-      explanation: Measure's don't need to be added to the data model. The concept of an implicit measure allows visuals to summarize column values.
+      explanation: Measures don't need to be added to the data model. The concept of an implicit measure allows visuals to summarize column values.
     - content: Measures can reference columns directly.
       isCorrect: false 
-      explanation: Measures cannot reference columns directly. They can only reference columns which have been passed into functions to summarize column values, like SUM.
+      explanation: Measures cannot reference columns directly. They can only reference columns that have been passed into functions to summarize column values, like SUM.
     - content: Measures can reference other measures directly.
       isCorrect: true 
       explanation: Measures can reference other measures. It's known as a compound measure.
@@ -37,11 +37,11 @@ quiz:
       explanation: The AVERAGE function can only summarize a column.
     - content: COUNTROWS
       isCorrect: true 
-      explanation: The COUNTROWS function summarize a table by returning the number of rows.
+      explanation: The COUNTROWS function summarizes a table by returning the number of rows.
     - content: DISTINCTCOUNT
       isCorrect: false 
       explanation: The DISTINCTCOUNT function can only summarize a column.
-  - content: Which statement describing similarity of measures and calculated columns in an Import model is true?
+  - content: Which of the following statements describing similarity of measures and calculated columns in an Import model is true?
     choices: 
     - content: They can achieve summarization of model data.
       isCorrect: true 
@@ -52,6 +52,6 @@ quiz:
     - content: They're evaluated during data refresh.
       isCorrect: false 
       explanation: While calculated columns are evaluated during data refresh time, measures are only evaluated during query time.
-    - content: They can be created a quick calculations.
+    - content: They can be created by using quick calculations.
       isCorrect: false 
-      explanation: While measures can be quickly created by using the Quick Measures feature, there's no equivalent feature to create calculated columns.
+      explanation: While measures can be quickly created by using the Quick measures feature, no equivalent feature exists to create calculated columns.
