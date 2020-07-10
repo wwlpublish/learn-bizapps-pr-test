@@ -6,12 +6,12 @@ If you create a model-driven Power App, a Power Automate flow or any other objec
 
 ## Portal metadata
 
-Power Apps portal configuration is stored directly within the Common Data Service as records known as the *portal metadata*.  When you provision a Power Apps portal, the portal template you choose will populate a number of portal specific Common Data Service entities with data that describe the website structure, the web pages, content, entity list configuration, entity form configuration, etc.  As you configure the portal using the Portal Studio or other tools, you are changing or adding to the portal metadata.
+Power Apps portal configuration is stored directly within the Common Data Service as records known as the *portal metadata*.  When you provision a Power Apps portal, the portal template you choose will populate a number of portal-specific Common Data Service entities with data that describe the website structure, the web pages, content, entity list configuration, entity form configuration, etc.  As you configure the portal using the Portal Studio or other tools, you are changing or adding to the portal metadata.
 
 > [!div class="mx-imgBorder"]
 > [![Portal Metadata](../media/portal-meta-data.png)](../media/portal-meta-data.png#lightbox)
 
-The portal metadata cannot be added to a Common Data Service solution file.  The challenge is how to move the portal metadata records from one environment to another.  While Model-driven Power Apps have built in features to export and import data, these work for a single entity, and must be sequenced based on data relationships.  
+The portal metadata cannot be added to a Common Data Service solution file.  The challenge is how to move the portal metadata records from one environment to another.  While Model-driven Power Apps have built in features to export and import data, these features work for a single entity, and must be sequenced based on data relationships.  
 
 Portal metadata is stored in over 50 interconnected unique entities.  In addition, there is functionality built into the portal solutions that will be triggered as records are created.  For example, as a web page record is added to the portal, a corresponding web page record will be created for each provisioned language.  Using an import tool may inadvertently duplicate the web page records.
 

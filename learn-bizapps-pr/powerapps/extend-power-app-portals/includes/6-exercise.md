@@ -1,6 +1,6 @@
 The purpose of this hands-on-lab is to demonstrate adding JavaScript code to a page to render data from Common Data Service as a chart using an 3rd-party charting library. The data is retrieved from Common Data Service using a web template acting as a REST API endpoint.
 
-The exercises work best when you have some sample data to work with. Depending on the environment you are working with, you may want to install some sample data to assist with exercises. Power Platform does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow steps in [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) to install the sample data into your environment.
+The exercises work best when you have some sample data to work with. Depending on the environment, you are working with, you may want to install some sample data to assist with exercises. Power Platform does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow steps in [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) to install the sample data into your environment.
 
 ## Learning objectives
 
@@ -138,7 +138,7 @@ This Liquid code retrieves the list of accounts and then generates a data struct
     > The names and hierarchy of pages on your portal may differ.
 1. Select **Page Copy** area on the page.
 1. Select **Components** on the toolbelt.
-1. Select **One column section**.
+1. Select **One-column section**.
 1. Select added section and press **Source code editor** icon.
 1. Insert the following code as the content of the innermost **div** element:
 

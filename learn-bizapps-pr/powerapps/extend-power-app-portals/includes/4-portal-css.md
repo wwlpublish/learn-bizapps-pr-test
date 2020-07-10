@@ -1,4 +1,4 @@
-Cascading Style Sheets (CSS) is a language that determines the style of a web page by describing how its HTML elements are to be displayed. That includes text, fonts, colors, backgrounds borders and margins.
+Cascading Style Sheets (CSS) is a language that determines the style of a web page by describing how its HTML elements are to be displayed. That includes text, fonts, colors, backgrounds borders, and margins.
 
 Making changes to the style of your portal pages can be as easy as applying CSS statements directly to a page in Custom CSS field. For example, if you need to increase the height of the navigation bar at the top of a Home page to fit a logo, you can simply edit the page properties and add a custom CSS statement.
 
@@ -9,7 +9,7 @@ Making changes to the style of your portal pages can be as easy as applying CSS 
 > [!NOTE]
 > CSS statements added directly to a web page will only apply to that web page only.
 
-This works for quick small adjustments on a single page but better approach, of course, is to record customizations in one or more CSS files and apply them to the entire portal or parts of it.
+This works for quick small adjustments on a single page but better approach is to record customizations in one or more CSS files and apply them to the entire portal or parts of it.
 
 ## Portal themes
 
@@ -72,4 +72,4 @@ Instead of resorting to JavaScript, this task can be accomplished using configur
 
 * CSS applies on load, it's faster because there no waiting for the document to finish loading.
 * CSS is always on and continues to apply to the relevant elements even if JavaScript changes the document structure and adds or removes the elements.
-* For certain tasks related to elements visibility and responsive layout CSS can be significantly simpler than JavaScript meaning less maintenance and less room for error.
+* For certain tasks related to elements visibility and responsive layout CSS can be simpler than JavaScript meaning less maintenance and less room for error.

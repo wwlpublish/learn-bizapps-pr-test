@@ -1,4 +1,4 @@
-In this module we discussed extending portal functionality using software development. We also examined Application Lifecycle Management (ALM) techniques in portal deployments.
+In this module, we discussed extending portal functionality using software development. We also examined Application Lifecycle Management (ALM) techniques in portal deployments.
 
 By now you should be able to:
 

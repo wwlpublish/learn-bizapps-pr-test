@@ -5,7 +5,7 @@ Power Apps portals do not support client-side Business Rules or custom JavaScrip
 
 In addition, the **Entity Lists**, **Entity Forms**, and **Web Forms** include a custom JavaScript field that allows developers to add scripts implementing the required functionality.
 
-The functionality can range from simply hiding controls, replacing input controls with a better user-friendlier equivalents, to invoking external web services and implementing fairly sophisticated integration scenarios.
+The functionality can range from simply hiding controls, replacing input controls with better user-friendlier equivalents, to invoking external web services and implementing fairly sophisticated integration scenarios.
 
 Out of the box, Power Apps portals include the [JQuery](https://jquery.com/?azure-portal=true) library that makes manipulation of the page content and appearance a reasonably easy task.
 
@@ -39,4 +39,4 @@ These options provide reasonable alternative to client-side business rules and s
 
 > [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4AmL6]
 
-For additional details about scripting on portal, see [Add custom JavaScript](https://docs.microsoft.com/powerapps/maker/portals/configure/add-custom-javascript/?azure-portal=true).
+For more information about scripting on portal, see [Add custom JavaScript](https://docs.microsoft.com/powerapps/maker/portals/configure/add-custom-javascript/?azure-portal=true).
