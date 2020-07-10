@@ -37,6 +37,6 @@ JavaScript is a simple way to add additional behavior or functionality to your P
 
 These options provide reasonable alternative to client-side business rules and scripting in model-driven forms.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4AmL6]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AmL6]
 
 For more information about scripting on portal, see [Add custom JavaScript](https://docs.microsoft.com/powerapps/maker/portals/configure/add-custom-javascript/?azure-portal=true).
