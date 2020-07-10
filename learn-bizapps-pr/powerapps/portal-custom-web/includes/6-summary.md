@@ -1,5 +1,3 @@
-# Summary
-
 This module covered what are the custom web templates and how they can be built and configured to extend and enhance a Power Apps portal.  
 
 By now you should be able to: 

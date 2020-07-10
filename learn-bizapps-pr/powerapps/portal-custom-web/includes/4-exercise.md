@@ -44,25 +44,25 @@ Our first task is to create a partial template that will not be used to render a
    * **Website**: Select your current website
    * **Source**: enter the following content
 
-```twig
-{% fetchxml accounts %}
-<fetch>
-  <entity name="account">
-    <attribute name="name" />
-  </entity>
-</fetch>
-{% endfetchxml %}
-
-{% if accounts.global_permission_granted %}
-  <ul>
-    {% for account in accounts.results.entities %} 
-    <li>{{ account.name }}</li>
-    {%- endfor -%}
-  </ul>
-{% else %}
-  <div class="alert alert-warning">You do not have permissions to access the directory.</div>
-{% endif %}
-```
+    ```twig
+    {% fetchxml accounts %}
+    <fetch>
+      <entity name="account">
+        <attribute name="name" />
+      </entity>
+    </fetch>
+    {% endfetchxml %}
+    
+    {% if accounts.global_permission_granted %}
+      <ul>
+        {% for account in accounts.results.entities %} 
+        <li>{{ account.name }}</li>
+        {%- endfor -%}
+      </ul>
+    {% else %}
+      <div class="alert alert-warning">You do not have permissions to access the directory.</div>
+    {% endif %}
+    ```
 
 6. Press **Save & Close**
 
@@ -77,14 +77,14 @@ Now let's create a new template that extends an existing Liquid template and ins
    * **Website**: Select your current website
    * **Source**: enter the following content
 
-```twig
-{% extends "Layout 2 Column Wide Left" %}
-
-{% block aside %}
-  <h2>Directory</h2>
-  {% include 'Directory' %}
-{% endblock %}
-```
+    ```twig
+    {% extends "Layout 2 Column Wide Left" %}
+    
+    {% block aside %}
+      <h2>Directory</h2>
+      {% include 'Directory' %}
+    {% endblock %}
+    ```
 
 6. Press **Save & Close**
 
@@ -140,4 +140,4 @@ Now we need to create a page template that will use our new web template and inc
 2. Press **Browse website**. Note: this command rebuilds the site cache. Simple browser page refresh will not be sufficient to update the data.
 3. The page should now be displayed and include the list of accounts
 
-![Build directory template block](../media/build-template.png)
+    ![Build directory template block](../media/build-template.png)
