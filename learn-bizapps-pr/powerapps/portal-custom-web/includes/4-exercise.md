@@ -10,10 +10,6 @@ At the end of these exercises, you will be able to accomplish the following:
 * Reuse Liquid templates via `include` tag
 * Apply entity permissions to the results of 
 
-**Estimated time to complete this exercise: 10 to 15 minutes**
-
-## Before We Begin
-
 ### Prerequisites
 
 For this exercise you will need to have the following in your environment:
