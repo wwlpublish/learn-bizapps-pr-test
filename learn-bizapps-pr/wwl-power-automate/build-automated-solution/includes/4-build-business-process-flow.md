@@ -40,8 +40,8 @@ Business process flows are used to guide a user through the steps of your busine
 
     - Enter a display name.
 
-    - Optional: Select a category for the stage (for example, **Qualify** or **Develop**). This category appears as a chevron on the process bar.  
-      ![Properties tab](../media/img6.png)
+    - Optional: Select a category for the stage (for example, **Identify** or **Research**). This category appears as a chevron on the process bar.  
+      ![Properties tab](../media/business-process-flow.png)
 
     - When you've finished setting the properties, select **Apply**.
 
