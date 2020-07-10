@@ -95,7 +95,7 @@ We will need to create a web page to contain the Entity Form component to view r
 1. Click in the canvas area to save the web page.
 1. Choose **Browse** from the Command bar and ensure that you can see a list of Idea data records from Common Data Service and click on an idea to view details.
 
-> [!div class="mx-imgBorder"]
-> [![entity list](../media/4-entity-list-exercise-ss.png)](../media/4-entity-list-exercise-ss.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![entity list](../media/4-entity-list-exercise-ss.png)](../media/4-entity-list-exercise-ss.png#lightbox)
 
 You can see how easy it is to add components to a web page that will allow you to quickly view Common Data Service records.

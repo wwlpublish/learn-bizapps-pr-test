@@ -16,9 +16,9 @@ When the web page is requested, the list rendering process is as following:
 1. Web page is retrieved.
 1. Web page will render the entity list based on the Liquid tag that was added when the list component was added to a web page.
 
-```twig
-{% include 'entity_list' key: '<<Entity List Name>>' %}
-```
+    ```twig
+    {% include 'entity_list' key: '<<Entity List Name>>' %}
+    ```
 
 ## Configure entity list
 
@@ -30,8 +30,8 @@ Portal Studio provides basic interface for creating and configuring entity list.
 1. Select Entity Lists in the left navigation.
 1. Open the list created earlier in the Portal Studio.
 
-> [!div class="mx-imgBorder"]
-> [![List Portal app](../media/2-list-portal-app-ssm.png)](../media/2-list-portal-app-ssm.png#lightbox)
+    > [!div class="mx-imgBorder"]
+    > [![List Portal app](../media/2-list-portal-app-ssm.png)](../media/2-list-portal-app-ssm.png#lightbox)
 
 An entity list can be as simple or as complicated as your business requirements specify. To begin with, the only required properties for the entity list, besides the name and the website, are the target **Entity Name** and one or more **Views**. 
 

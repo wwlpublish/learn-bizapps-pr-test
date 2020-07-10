@@ -3,7 +3,7 @@ uid: learn-bizapps.portals-access-common-data-service
 metadata: 
  title: Access Common Data Service in Power Apps portals
  description: The ability to easily surface and interact with Common Data Service data on a website is one of the core benefits for implementing a Power Apps portal.  There are several methods to surface and display Common Data Service data and having an understanding of the different options will result in successful portal implementations. This module will focus on the techniques and methods to display and interact with Common Data Service data on the Power Apps portal. 
- ms.date: 07/06/2020  
+ ms.date: 07/10/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
