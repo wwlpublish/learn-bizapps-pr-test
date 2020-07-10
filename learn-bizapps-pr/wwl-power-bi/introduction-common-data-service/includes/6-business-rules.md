@@ -11,9 +11,9 @@ Business rules can be used by canvas apps or model-driven apps to do the followi
 
 - Set field values
 
-- 	Clear field values
+- Clear field values
 
-- 	Validate data and show error messages
+- Validate data and show error messages
 
 Model-driven apps can also use business rules to:
 
