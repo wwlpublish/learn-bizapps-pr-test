@@ -2,7 +2,7 @@ Power Virtual Agents allows you to store information important information enter
 
 Variables can be used to dynamically route customers down different conversation paths. They can also be fed into [Power Automate](https://docs.microsoft.com/power-virtual-agents/advanced-flow/?azure-portal=true) Flows or [Bot Framework Skills](https://docs.microsoft.com/azure/bot-service/bot-builder-skills-overview?view=azure-bot-service-4.0/?azure-portal=true) as input parameters. For example, the city the customer lives in could be stored in a variable. When a Power Automate Flow is executed, the variable could be passed through as an input parameter to ensure the weather service is getting the correct forecast.
 
-A complete list of variable types can be found here: <https://docs.microsoft.com/en-us/power-virtual-agents/authoring-variables#entity-and-variable-type>
+A complete list of variable types can be found here: [Entity and variable type](https://docs.microsoft.com/power-virtual-agents/authoring-variables#entity-and-variable-type/?azure-portal=true).
 
 ### Creating variables
 
