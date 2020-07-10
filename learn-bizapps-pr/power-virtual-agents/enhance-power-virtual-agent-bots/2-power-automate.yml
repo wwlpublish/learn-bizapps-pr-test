@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.enhance-power-virtual-agent-bots.2-power-automate 
+title: Add actions using Power Automate
+metadata: 
+  title: Add actions using Power Automate
+  description: Learn to add actions using Power Automate.
+  ms.date: 07/31/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-virtual-agents 
+durationInMinutes: 6
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-power-automate.md)] 

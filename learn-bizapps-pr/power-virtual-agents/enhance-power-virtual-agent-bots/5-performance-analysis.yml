@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.enhance-power-virtual-agent-bots.5-performance-analysis 
+title: Analyze bot performance
+metadata: 
+  title: Analyze bot performance
+  description: Learn to analyze bot performance.
+  ms.date: 07/31/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-virtual-agents 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-performance-analysis.md)] 
