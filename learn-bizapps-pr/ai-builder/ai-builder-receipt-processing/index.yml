@@ -28,7 +28,7 @@ roles:
 - administrator  
 products:  
 - dynamics  
-- artificial-intelligence-builder 
+- ai-builder 
 units: 
 - learn-bizapps.ai-builder-receipt-processing.1-introduction 
 - learn-bizapps.ai-builder-receipt-processing.2-business-problems 
