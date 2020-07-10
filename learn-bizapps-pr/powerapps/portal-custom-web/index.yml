@@ -1,21 +1,21 @@
 ### YamlMime:Module 
 uid: learn-bizapps.portal-custom-web 
 metadata: 
- title: Build custom portal web templates
+ title: Build custom Power Apps portal web templates
  description: Create custom Power Apps portal web templates.
  ms.date: 07/08/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Build custom portal web templates
+title: Build custom Power Apps portal web templates
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module covers what are custom web templates and how they can be built and configured to extend and enhance a Power Apps portal. A portal is provisioned with a series of prebuilt web templates. As makers encounter more complex scenarios, they need to understand how to use Liquid template language to create their own web templates that address project requirements.
 abstract: |  
     In this module, you will: 
     - Describe the relationship between web templates, page templates and web pages.
-    - Explain how custom Web Templates can be built using HTML, CSS, Liquid and JavaScript.
+    - Explain how custom Web Templates can be built using HTML, CSS, Liquid, and JavaScript.
     - Use Liquid to build and structure web templates.
     - Describe how to embed custom CSS and JavaScript into web templates.
     - Understand how to reference other web templates in a web template.

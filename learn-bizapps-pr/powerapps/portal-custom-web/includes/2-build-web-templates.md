@@ -1,4 +1,4 @@
-**Web template** is a very simple entity with only the following attributes available.
+**Web template** is a simple entity with only the following attributes available.
 
 * **Name**. When template is included in other content, or extended by other templates, it is referred to by this name.
 * **Source**. The source content of the template. It can be a static text, HTML fragment, or, most often, a layout using Liquid.
@@ -6,7 +6,7 @@
 
 ## Web template management
 
-Liquid implementation within Power Apps portals contain a number of [Template tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/template-tags/?azure-portal=true) that help managing templates and promote reusability.
+Liquid implementations within Power Apps portals contain a number of [Template tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/template-tags/?azure-portal=true) that help managing templates and promote reusability.
 
 ### fetchxml
 
@@ -48,7 +48,7 @@ Will generate
 
 ### raw
 
-Allows output of Liquid code on a page without having it parsed and executed. This is useful for generating content which uses conflicting client-side syntax, e.g. Handlebars.
+Allows output of Liquid code on a page without having it parsed and executed. This is useful for generating content, which uses conflicting client-side syntax, for example, Handlebars.
 
 ```xml
 Hello, {% raw %}{{ user.fullname }}.{% endraw %} Nice to meet you.
@@ -113,9 +113,9 @@ There are certain steps you can take to improve template structure and make the 
 
 * Choose descriptive names for your templates. They will be referenced or as part of other templates.
 
-* Breakdown the page layout and separate layout from content. These will be candidates for extendable templates.
+* Break down the page layout and separate layout from content. These will be candidates for extendable templates.
 
-* Look out for repeatable and reusable fragments - these can be defined as sub-templates and utilize `include` tag.
+* Look out for repeatable and reusable fragments - these can be defined as subtemplates and utilize `include` tag.
 
 * `include` tag can help reuse not only layout but commonly used JavaScript fragments as well. Make your JavaScript templates "smart" by using parameters available in `include` tag. These fragments will be inserted inline.
 
@@ -125,7 +125,7 @@ There are certain steps you can take to improve template structure and make the 
 
 * Identify editable fragments - which parts of the web page would you like users responsible for content management, to maintain.
 
-* When writing template be generous with the layout but avoid excessive blank lines by using hyphens in your tags, e.g. 
+* When writing template be generous with the layout but avoid excessive blank lines by using hyphens in your tags, for example, 
 
   ```xml
   {%- if username -%}

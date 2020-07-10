@@ -13,7 +13,7 @@ There are two types of the templates that can be used in Power Apps portals.
 
 Rewrite templates offer limited customizations. Liquid template language can be used as part of the content or inside content snippets but the page layout and behavior are predefined.
 
-Web Templates, on the other hand, are entirely template-based and use Liquid to define how the content is rendered. Templates are very flexible. A template can include other templates for parts of the content. A template can also be based on another template, extending the base functionality. The real power of web templates comes from the ability to contain Liquid code that adds processing capabilities to the static content, including access to Common Data Service data.
+Web Templates, on the other hand, are entirely template-based and use Liquid to define how the content is rendered. Templates are flexible. A template can include other templates for parts of the content. A template can also be based on another template, extending the base functionality. The real power of web templates comes from the ability to contain Liquid code that adds processing capabilities to the static content, including access to Common Data Service data.
 
 > [!TIP]
 > Web Templates can also contain HTML, CSS and JavaScript
@@ -53,7 +53,7 @@ Web templates can be used to override the global header and footer used by a Pow
 
 ![Web site header and footer](../media/3-website-header-footer.png)
 
-If you override **Header Template**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on for your site interface elements that are normally handled by the default header template.
+If you override **Header Template**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on, for your site interface elements that are normally handled by the default header template.
 
 > [!TIP]
 > If you don't specify a header or a footer template in the Website record, the default content is rendered. To remove, specify a blank template.

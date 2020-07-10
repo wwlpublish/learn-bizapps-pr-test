@@ -1,6 +1,6 @@
 The purpose of this hands-on-lab is to introduce the concept of building and extending Liquid templates.
 
-The exercises work best when you have some sample data to work with. Depending on if the environment you are working with, you may want to install some sample data to assist with exercises. Common Data Service does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow steps in [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data) to install the sample data into your environment.
+The exercises work best when you have some sample data to work with. Depending on if the environment, you are working with, you may want to install some sample data to assist with exercises. Common Data Service does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow steps in [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data) to install the sample data into your environment.
 
 ## Learning Objectives
 
@@ -21,12 +21,12 @@ For this exercise you will need to have the following in your environment:
 1. A Power Apps portal provisioned. If you do not have a Power Apps portal available, follow [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal) instructions to create one.
 2. Access to the Power Apps maker portal.
 
-## High Level Steps
+## High-Level Steps
 
 To finish the exercise you need to complete the following tasks:
 
 * Create partial template accessing Common Data Service data to be used as a layout block
-* Create new template that extends a two column layout web template.
+* Create new template that extends a two-column layout web template.
 * Overwrite the side panel to include the partial template
 * Change template of an existing web page
 * Configure entity permissions to display data for anonymous users

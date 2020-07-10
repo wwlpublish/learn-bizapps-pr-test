@@ -55,4 +55,4 @@ This template would be used without a header and footer with MIME type set to `a
 
 The page using this web template wouldn't be used by users in a browser but, instead, it will be called from JavaScript code, effectively defining an API endpoint for your solution. JavaScript on another page would be able to load and render this data as required.
 
-Of course, authorization will be in place and accessing CDS data using this "headless" template is no different if the output was rendered as HTML. The calling page would typically require user authentication prior to calling the endpoint.
+Authorization will be in place and accessing CDS data using this "headless" template is no different if the output was rendered as HTML. The calling page would typically require user authentication prior to calling the endpoint.
