@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.extend-power-app-portals.2-portal-application-lifecycle 
+title: Portal application lifecycle management
+metadata: 
+  title: Portal application lifecycle management
+  description: Learn about the development lifecycle and how to migrate solutions.
+  ms.date: 07/08/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 3
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-portal-application-lifecycle.md)] 
