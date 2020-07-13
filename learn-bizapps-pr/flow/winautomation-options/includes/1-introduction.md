@@ -10,7 +10,7 @@ The Options Tab consists of three subtabs:
 
 Each Tab configures different features of the platform, such as Concurrency policy, Database operations, Error Handling, and Account management.
 
-![WinAutomation console screenshot](../media/01-winautomation-console.png)
+![WinAutomation console options screenshot](../media/01-winautomation-console.png)
 
 By the end of this module, you will be able to understand and execute some of the most important operations that WinAutomation Options provide.  
 
