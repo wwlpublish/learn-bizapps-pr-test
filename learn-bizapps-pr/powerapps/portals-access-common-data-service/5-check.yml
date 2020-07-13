@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-access-common-data-service.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/10/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following is NOT a valid entity list view?
+    choices: 
+    - content: Map view
+      isCorrect: false 
+      explanation: Views can be rendered as traditional grid lists, calendar, or map. Delivering list content as an OData feed is also supported.
+    - content: Excel view
+      isCorrect: true 
+      explanation: Views can be rendered as traditional grid lists, calendar, or map. Delivering list content as an OData feed is also supported.
+    - content: Calendar view
+      isCorrect: false 
+      explanation: Views can be rendered as traditional grid lists, calendar, or map. Delivering list content as an OData feed is also supported.
+    - content: Grid list view
+      isCorrect: false 
+      explanation: Views can be rendered as traditional grid lists, calendar, or map. Delivering list content as an OData feed is also supported.
+  - content: You have created a Contact Us entity form and would like to redirect users to a Thank You page after successful submission. How can you achieve that?
+    choices: 
+    - content: Change the entity form title to "Contact Us - Thank You"
+      isCorrect: false 
+      explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
+    - content: Set the Entity Form field on Thank You Page to the Contact Us entity form
+      isCorrect: false 
+      explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
+    - content: Add a redirect step to the entity form
+      isCorrect: false 
+      explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
+    - content: Configure On Success Settings to redirect to Thank You page
+      isCorrect: true 
+      explanation: On Success Settings defines behavior on the form successful submission. Options are to display a message or redirect to another page or URL.
+  - content: Where in the Portal Studio would you add a list and form component to a particular web page?
+    choices: 
+    - content: From the properties pane of a web page
+      isCorrect: false 
+      explanation: The properties pane will configure the properties of a component but not add them.  You could add the liquid tags to a page template, but that would be for all pages using that template.  You can add forms and lists via the add components from the toolbelt in portal studio.  Forms and Lists can be added in Portal Management app but that is not the only way.
+    - content: Edit the page template source code
+      isCorrect: false 
+      explanation: The properties pane will configure the properties of a component but not add them.  You could add the liquid tags to a page template, but that would be for all pages using that template.  You can add forms and lists via the add components from the toolbelt in portal studio.  Forms and Lists can be added in Portal Management app but that is not the only way.
+    - content: From the toolbelt components section
+      isCorrect: true 
+      explanation: The properties pane will configure the properties of a component but not add them.  You could add the liquid tags to a page template, but that would be for all pages using that template.  You can add forms and lists via the add components from the toolbelt in portal studio.  Forms and Lists can be added in Portal Management app but that is not the only way.
+    - content: You can only add forms and lists using the Portal Management app
+      isCorrect: false 
+      explanation: The properties pane will configure the properties of a component but not add them.  You could add the liquid tags to a page template, but that would be for all pages using that template.  You can add forms and lists via the add components from the toolbelt in portal studio.  Forms and Lists can be added in Portal Management app but that is not the only way.
+  - content: You want portal visitors to be able to locate specific records in a list view based on an option value in the Common Data Service record. What is the best way to do this?
+    choices: 
+    - content: Enable the search property on the list component in the Portal Studio.
+      isCorrect: false 
+      explanation: Enabling the search property will only provide the quick find search box. Adding the option set field to the view is not the best way to find the data. The metadata searching is the best option to allow users to filter on specific option set values. Increasing number of records per page will not help users locate data.
+    - content: Add the option set field to the model-driven view to allow portal visitors to sort by the value.
+      isCorrect: false 
+      explanation: Enabling the search property will only provide the quick find search box. Adding the option set field to the view is not the best way to find the data. The metadata searching is the best option to allow users to filter on specific option set values. Increasing number of records per page will not help users locate data.
+    - content: In the Portal Management app, enable Metadata searching and configure a filter for the option set field.
+      isCorrect: true 
+      explanation: Enabling the search property will only provide the quick find search box. Adding the option set field to the view is not the best way to find the data. The metadata searching is the best option to allow users to filter on specific option set values. Increasing number of records per page will not help users locate data.
+    - content: In the Portal Studio, increase number of records per page.
+      isCorrect: false 
+      explanation: Enabling the search property will only provide the quick find search box. Adding the option set field to the view is not the best way to find the data. The metadata searching is the best option to allow users to filter on specific option set values. Increasing number of records per page will not help users locate data.
