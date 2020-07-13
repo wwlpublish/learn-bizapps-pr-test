@@ -57,15 +57,15 @@ Additional configuration options to control form appearance and behavior are ava
 
 The form success settings determine the actions taken when a form is successfully submitted to a portal.
 
-- **Show Success Message** Show a message when a form is submitted.
-- **Redirect to Web Page** Automatically navigate to a web page on success of the form submission.
+- **Show success message** Show a message when a form is submitted.
+- **Redirect to web page** Automatically navigate to a web page on success of the form submission.
 - **Redirect to URL** Redirect to a URL (either portal or external).
 
-### Advanced Settings
+### Advanced settings
 
 The advanced settings determine if a captcha is displayed for anonymous or authenticated users.  Also the setting to determine if entity permissions are enabled for the particular entity.
 
-## Additional Entity Form Settings
+## Additional entity form settings
 
 A number of additional configuration settings are available for entity forms in the Portal Management app. To access entity form in the Portal Management app:
 
@@ -91,16 +91,16 @@ Most of the form options support customization of the CSS elements to change vis
 
 Other options include: Control validation behavior, for example whether to mark all fields as required regardless of the form setting.
 
-#### Additional Settings
+#### Additional settings
 
 Additional settings define additional aspects of the form behavior including styling, translation of the UI elements, etc. 
 
 > [!TIP]
 > Some of the settings and configuration options are hidden. Use **Advanced settings** checkbox to display all available options.
 
-**Associate Current Portal User on Insert** - These options can be used to keep track of which portal contacts created or updated the record. This creates a portal equivalent of Created By and Modified By fields in Common Data Service. You can also set parental relationship where applicable. For example, if a new account record is created you might want to set the current contact as a primary contact automatically.
+**Associate current portal user on insert** - These options can be used to keep track of which portal contacts created or updated the record. This creates a portal equivalent of Created By and Modified By fields in Common Data Service. You can also set parental relationship where applicable. For example, if a new account record is created you might want to set the current contact as a primary contact automatically.
 
-**Add Attach File** - A number of options available to add a file upload control to your form. Configuration is flexible and supports multiple files, storage options, mime type and size restrictions (for example, you can restrict uploads to images up to 2 MB in size). 
+**Add attach file** - A number of options available to add a file upload control to your form. Configuration is flexible and supports multiple files, storage options, mime type and size restrictions (for example, you can restrict uploads to images up to 2 MB in size). 
 
 **Geolocation** - An entity form can be configured to display a map control to either display an existing location as a pin on a map or to provide the ability for the user to specify a location. See [Add Geolocation](https://docs.microsoft.com/powerapps/maker/portals/configure/add-geolocation/?azure-portal=true).
 
@@ -109,7 +109,7 @@ The form's map control requires additional configuration to tell it what the var
 > [!div class="mx-imgBorder"]
 > [![Entity form with geolocation enabled](../media/3-entity-form-geolocation-ss.png)](../media/3-entity-form-geolocation-ss.png#lightbox)
 
-#### Entity Reference
+#### Entity reference
 
 This provides a way to associate the current record being created or updated with another target record. This is useful if you have multiple steps with multiple entity types and would like to relate the resulting records or if the page is passed a query string of a record ID that you would like to associate. 
 
@@ -123,7 +123,7 @@ All commands include options to rename the buttons and change their placement on
 
 ### Entity form metadata
 
-**Entity Form Metadata** records allow you to control appearance and behavior of individual form elements. That includes:
+**Entity form metadata** records allow you to control appearance and behavior of individual form elements. That includes:
 
 - Appearance of the fields, sections, and tabs. For individual fields default values, validation behavior, and other aspects can be defined.
 - Subgrids configuration allows to define actions for related records, similar to entity list actions.
