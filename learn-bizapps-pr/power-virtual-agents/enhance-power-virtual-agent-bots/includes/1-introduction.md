@@ -1,15 +1,5 @@
 Power Virtual Agents (PVA) empowers your teams to easily create powerful bots through a guided, no code graphical interface. This allows you to leverage the benefits of bots, without having to rely on data scientists or developers. It helps to address many of the challenges in building bots that exist today. You can eliminate the gap between the subject matter experts and development teams building the bots, as well as latency between teams recognizing an issue and updating the bot to address it. PVA also removes the complexity of exposing teams to the nuances of conversational Artificial Intelligence (AI) and the need to write complex code.
 
-Through leveraging Power Virtual Agents, your organization can:
-
-- **Better empower your teams:** Allows them to build bots themselves without needing intermediaries, coding, or AI expertise.
-
-- **Reduce costs:** Automate common inquiries, which will free agents up to focus on more complex issues.
-
-- **Improve customer satisfaction:** Customers have access to a 24/7 self-help solution to help resolve their issues through rich personalized bot conversations.
-
-One of the key advantages of Power Virtual Agents is the ease of deployment. With just a few clicks you can sign up, create a bot, and embed it into your organization's website. Microsoft's conversational AI capabilities allow customers to have rich multi-turn conversations where they are guided to the right solution. Provide a few examples of the topic you want the bot to handle, build the conversation and your bot is ready to handle customer requests.
-
 Not only does Power Virtual Agents make it quick and easy to create bots, but it also makes it easy to enhance your bot's functionality to make it even more powerful.
 
 This includes:
