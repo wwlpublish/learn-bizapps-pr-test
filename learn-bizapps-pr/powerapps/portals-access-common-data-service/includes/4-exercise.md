@@ -10,9 +10,9 @@ At the end of these exercises, you will be able to accomplish the following:
 
 ### Prerequisites
 
-1. You will need access to the Power Apps maker portal.
-1. Ideally you will have the default sample Common Data Service apps and data, but you can use other Common Data Service entities.
-1. You will need to have provisioned a Power Apps portal to complete the exercise [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true).
+- You will need access to the Power Apps maker portal.
+- Ideally you will have the default sample Common Data Service apps and data, but you can use other Common Data Service entities.
+- You will need to have provisioned a Power Apps portal to complete the exercise [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true).
 
 > [!TIP]
 > The exercises work best when you have some sample data to work with. When you provision a Common Data Service environment, you have the opportunity to add sample apps and data.  Please review [Create Environment](https://docs.microsoft.com/power-platform/admin/create-environment.md?azure-portal=true#create-an-environment-with-a-database) steps to provision a Common Data Service environment with sample apps and data.
