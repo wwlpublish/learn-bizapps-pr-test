@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.winautomation-options 
+metadata: 
+ title: 
+ description: 
+ ms.date: 08/01/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Summary text goes here. 
+abstract: |  
+    In this module, you will: 
+    - 
+    - 
+prerequisites: 
+iconUrl: /learn/achievements/winautomation-options.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+products:  
+- dynamics  
+- power-automate 
+units: 
+- learn-bizapps.winautomation-options.1-introduction 
+- learn-bizapps.winautomation-options.2-configure-notification-settings 
+- learn-bizapps.winautomation-options.3-backup-restore 
+- learn-bizapps.winautomation-options.4-concurrency-policy 
+- learn-bizapps.winautomation-options.5-ascii-ftp 
+- learn-bizapps.winautomation-options.6-error-handling 
+- learn-bizapps.winautomation-options.7-power-automate-account 
+- learn-bizapps.winautomation-options.8-check 
+- learn-bizapps.winautomation-options.9-summary 
+badge: 
+  uid: learn-bizapps.winautomation-options.badge 
