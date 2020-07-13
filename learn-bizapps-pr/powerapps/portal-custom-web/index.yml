@@ -27,6 +27,7 @@ roles:
 - administrator   
 - functional-consultant 
 - maker
+- developer
 products:  
 - dynamics  
 - power-apps 
