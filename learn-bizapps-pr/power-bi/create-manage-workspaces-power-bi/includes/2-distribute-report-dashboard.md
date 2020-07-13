@@ -73,7 +73,10 @@ In the resulting window, you can add email addresses of individual users, mail-e
 
 Now that you have created an app workspace and assigned your collaborators-specific roles, you want to be able to add content to your app workspace. Content can be in the form of reports, dashboards, datasets, dataflows, etc. An app is a published read-only window into your data for mass distribution and viewing. When you are ready to share apps with your users, you can **publish the app**. This process requires a Power BI Pro license. Consuming and viewing an app requires a pro license or backed premium capacity.
 
-After you have added your content to the App workspace, then you need to create the app. Navigate to your workspace, and on the ribbon, select **+ New**. Here, you can choose to create a new report, dataset, streaming dataset, or dataflow to name a few. Selecting any one of these options will bring up a window where you can add in the name of the app and select the source of the report (for example, the dataset used to create a report).
+After you have added your content to the App workspace, then you need to create the app. Navigate to your workspace, and on the ribbon, select **+ New** as seen in the following screenshot. Here, you can choose to create a new report, dataset, streaming dataset, or dataflow to name a few. Selecting any one of these options will bring up a window where you can add in the name of the app and select the source of the report (for example, the dataset used to create a report).
+
+> [!div class="mx-imgBorder"]
+> [![Create new content](../media/02-create-new-app-ss.png)](../media/02-create-new-app-ss.png#lightbox)
 
 You can also select the **Get Data** button on the bottom-left of the navigation bar and import already-existing reports from Power BI Desktop and add them to your workspace app.
 
