@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.administer-power-apps-portals
+metadata:
+  title: Administer Power Apps portals
+  description: Learn how to administer Power Apps portals.
+  ms.date: 07/1342020
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: Administer Power Apps portals
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Administrators need to understand how to configure various features and add-ons to ensure the portal runs securely and efficiently.  Power Apps portals also provide a series of additional features and functionalities including integration with other Microsoft technologies such as SharePoint document libraries and Power BI reports. This learning path describes tools and techniques available for administrators to configure and maintain the performing Power Apps portals, as well as efficiently troubleshoot the issues. 
+prerequisites: |
+  - Power Apps trial subscription.
+  - Provisioned Power Apps portal from blank.
+  - Understanding of how to navigate and customize the model-driven Power Apps.
+  - Basic knowledge of other Microsoft technologies like SharePoint, Power BI, Azure Active Directory, is beneficial.
+iconUrl: /learn/achievements/administer-power-apps-portals.svg
+levels:
+- advanced
+roles: 
+- maker
+- functional-consultant
+- administrator
+- developer
+- solution-architect
+products:
+- power-platform
+- power-apps
+modules:
+- learn-bizapps.portals-administration
+- learn-bizapps.portals-integration
+- learn-bizapps.authentication-user-management
+- learn-bizapps.portals-maintenance-troubleshooting  
+trophy: 
+  uid: learn-bizapps.administer-power-apps-portals.trophy
