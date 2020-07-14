@@ -3,7 +3,7 @@ uid: learn-bizapps.authentication-user-management
 metadata: 
  title: Authentication and user management in Power Apps portals
  description: As an individual, the external user may have a number of identities from which to choose when registering and accessing a portal. It is important to understand the different ways to onboard portal users and the options that can be made available to portal users for validating their identity and maintaining their profiles. Power Apps portals support a variety of authentication options and provide powerful user-management capabilities. Administrators have a choice between using local authentication or delegate authentication to a trusted authentication provider. Multiple authentication providers and various industry standards are supported.
- ms.date: 07/08/2020  
+ ms.date: 07/14/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
