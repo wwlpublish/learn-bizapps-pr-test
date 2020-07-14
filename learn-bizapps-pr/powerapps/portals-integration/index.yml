@@ -3,7 +3,7 @@ uid: learn-bizapps.portals-integration
 metadata: 
  title: Integrate Power Apps portals with web based technologies
  description: There are instances where you may need to integrate your portal to web-based technologies to extend the scope of your application. This module will focus on understanding the process and options to integrate a Power Apps portal with a number of related technologies such as SharePoint, Power BI, model-driven charts, and others.
- ms.date: 07/08/2020  
+ ms.date: 07/14/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
