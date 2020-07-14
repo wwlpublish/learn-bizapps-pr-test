@@ -17,30 +17,30 @@ quiz:
     choices: 
     - content: Add an IFrame pointing to the SharePoint URL
       isCorrect: false 
-      explanation: Adding a document location sub-grid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
+      explanation: Adding a document location subgrid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
     - content: Using the `{% sharepoint %}` Liquid tag
       isCorrect: false 
-      explanation: Adding a document location sub-grid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
-    - content: Add a Document Location sub-grid on a model-driven form
+      explanation: Adding a document location subgrid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
+    - content: Add a Document Location subgrid on a model-driven form
       isCorrect: true 
-      explanation: Adding a document location sub-grid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
+      explanation: Adding a document location subgrid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
     - content: Add the SharePoint component to the page in the Portal Studio
       isCorrect: false 
-      explanation: Adding a document location sub-grid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
+      explanation: Adding a document location subgrid on a model-driven form used for an entity form displays a SharePoint document library on the portal page. There's no SharePoint Liquid tag or component. Adding an IFrame pointing to the SharePoint URL won't show the documents related to that entity, provide security, or an ideal layout.
   - content: You add a Power BI component to your portal page using the *Publish to web* access type, and in the source code editor add filtering to the Liquid tag. However, the portal users still see the entire dataset. What could be the issue?
     choices: 
-    - content: The portal users need to be logged in
+    - content: The portal users need to be signed-in
       isCorrect: false 
-      explanation: By default, the Power BI Liquid tag uses anonymous authentication which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no affect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
+      explanation: By default, the Power BI Liquid tag uses anonymous authentication, which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no effect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
     - content: You will need to refresh the cache
       isCorrect: false 
-      explanation: By default, the Power BI Liquid tag uses anonymous authentication which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no affect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
+      explanation: By default, the Power BI Liquid tag uses anonymous authentication, which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no effect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
     - content: The Power BI Liquid tag is not set to `authentication_type:"AAD"`
       isCorrect: true
-      explanation: By default, the Power BI Liquid tag uses anonymous authentication which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no affect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
+      explanation: By default, the Power BI Liquid tag uses anonymous authentication, which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no effect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
     - content: You need to configure row-level security in the Power BI dashboard
       isCorrect: false 
-      explanation: By default, the Power BI Liquid tag uses anonymous authentication which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no affect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
+      explanation: By default, the Power BI Liquid tag uses anonymous authentication, which means Power BI will ignore the filter.  Portal users do not need to be logged in.  Refreshing the cache has no effect on Power BI data.  Row-level security won't affect Publish to web Power BI reports.
   - content: Is it possible to add a Power Virtual Agent to the portal?
     choices: 
     - content: 'True'
