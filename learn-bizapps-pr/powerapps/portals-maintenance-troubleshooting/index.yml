@@ -3,7 +3,7 @@ uid: learn-bizapps.portals-maintenance-troubleshooting
 metadata: 
  title: Power App portal maintenance and troubleshooting
  description: When building a Power Apps portal, there are various techniques, best practices and features that portal administrators should consider.  This module will cover the various troubleshooting tools available as well as why to use the portal checker.
- ms.date: 07/08/2020  
+ ms.date: 07/14/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
