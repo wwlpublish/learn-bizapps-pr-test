@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-administration.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction
+  description: Introduction to portal administration center.
+  ms.date: 07/14/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 6
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 
