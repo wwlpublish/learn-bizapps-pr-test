@@ -16,7 +16,7 @@ Dynamics 365 Customer Service Insights uses artificial intelligence to automatic
 
 For more information, see[automating topics from Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/automate-topics).
 
-### Extract content from webpages
+## Extract content from webpages
 
 There are three main steps involved with auto-creating topics:
 
