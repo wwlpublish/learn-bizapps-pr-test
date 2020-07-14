@@ -3,7 +3,7 @@ uid: learn-bizapps.portals-administration
 metadata: 
  title: Power Apps portals administration
  description: This module will focus on the Power Apps Portals administration and using the Power Apps portals admin center. There are a number of other actions and features than can be enabled to enhance portal functionality.
- ms.date: 07/08/2020  
+ ms.date: 07/14/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -23,7 +23,8 @@ iconUrl: /learn/achievements/portals-administration.svg
 levels:  
 - intermediate   
 roles:  
-- maker  
+- maker
+- administrator
 products:  
 - power-platform  
 - power-apps 
