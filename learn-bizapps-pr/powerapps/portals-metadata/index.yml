@@ -1,24 +1,24 @@
 ### YamlMime:Module 
 uid: learn-bizapps.portals-metadata 
 metadata: 
- title: Work with Power App portals metadata
- description: Understanding the various Power App portal metadata components is required for a maker to be able to configure the portal app for a variety of unique requirements. In this module, we will use Portal Management app to configure various portals features by editing the portal metadata.
+ title: Work with Power Apps portals metadata
+ description: Makers are required to understand the various Power Apps portals metadata components so they can configure the portals app for a variety of unique requirements. This module uses the Portal Management app to configure various portals features by editing the portals metadata.
  ms.date: 07/06/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Work with Power App portals metadata
+title: Work with Power Apps portals metadata
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Understanding the various Power App portal metadata components is required for a maker to be able to configure the portal app for a variety of unique requirements. In this module, we will use Portal Management app to configure various portals features by editing the portal metadata.
+  Makers are required to understand the various Power Apps portals metadata components so they can configure the portals app for a variety of unique requirements. This module uses the Portal Management app to configure various portals features by editing the portals metadata.
 abstract: |  
     In this module, you will: 
-    - Review the various Portal metadata records and how they are used to configure specific aspects of a portal.
-    - Learn about the Portal management model-driven app and how it is used to configure specific aspects of a Power Apps portal.
-    - Walk through the structure of a web page record and the various components are used to render a web page and show content from multiple languages.
-    - Examine the page template and web template structure and how they apply consistent layouts and functionality of a web page.
-prerequisites: Target audience should have basic understanding of how to navigate a model driven app. Knowledge on web technologies such as HTML, CSS, and Bootstrap will also be beneficial. 
+    - Review the various Power Apps portals metadata records and how they are used to configure specific aspects of a portal.
+    - Learn about the Portal Management model-driven app and how it is used to configure specific aspects of a Power Apps portal.
+    - Discover the structure of a webpage record and the various components that are used to render a webpage and show content from multiple languages.
+    - Examine the page template and web template structure and how they apply consistent layouts and functionality of a webpage.
+prerequisites: A basic understanding of how to navigate a model-driven app, and knowledge of web technologies such as HTML, CSS, and Bootstrap will also be beneficial
 iconUrl: /learn/achievements/portals-metadata.svg  
 levels:  
 - intermediate   
