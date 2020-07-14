@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-maintenance-troubleshooting.5-summary 
+title: Summary
+metadata: 
+  title: Summary
+  description: Summary of Power Apps portal maintenance and troubleshooting.
+  ms.date: 07/14/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps 
+durationInMinutes: 1
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-summary.md)] 
