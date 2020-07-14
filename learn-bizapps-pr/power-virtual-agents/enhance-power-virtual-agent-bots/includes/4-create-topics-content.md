@@ -1,8 +1,22 @@
-Many organizations want to create bot topics that leverage existing content. This can provide them with several advantages from the time saved in authoring the topic, to ensuring that topics are aligned with the types of issues that are being reported. One good example of this is for organizations that are using [Dynamics 365 Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/overview/?azure-portal=true). Customer Service Insights uses artificial intelligence to automatically group your organizations cases into topics. Since topics are already defined based on your organization's caseload, it would make sense to align the topics in a customer support bot with those topics.
+Many organizations want to create bot topics that leverage existing content. This can provide them with several advantages from the time saved in authoring the topic, to ensuring that topics are aligned with the types of issues that are being reported. 
 
-Power Virtual Agents leverages Artificial Intelligence (AI)-assisted authoring to help organizations automatically extract and insert relevant content from existing web content topics into your bot. This eliminates the need to copy and paste or manually recreate content into topics.
+There are two ways organizations can automatically generate topics for a bot:
+- From Customer Service Insights topics.
+- For existing web content such as FAQ pages. 
+
+Power Virtual Agents uses Artificial Intelligence (AI)-assisted authoring to help organizations automatically extract and insert relevant content from existing web content topics into your bot. This eliminates the need to copy and paste or manually recreate content into topics.
 
 The Artificial Intelligence evaluates the page and determines both the structure and content. It isolates content blocks that relate to a support issue or question and classifies them into topics. Each topic identified will follow the same structure as other topics. They will contain [trigger phrases identified during the process, as well as an initial Message node](https://docs.microsoft.com/power-virtual-agents/authoring-create-edit-topics/?azure-portal=true). These topics appear as suggested topics that can be modified and deleted like other topics.
+
+## Extracting content from Customer Service Insights 
+
+Dynamics 365 Customer Service Insights uses artificial intelligence to automatically group your organizations cases into topics.  Since topics are already defined based on your organization’s caseload, it would make sense to align the topics in a customer support bot with those topics. When considering which topics to automate from Customer Service Insights, typically the topics are: 
+- Items that are straightforward to resolve.  This makes it more likely a bot can handle or resolve the issue.  For example, a topic that has lower average resolution time, higher resolution rate, and/or fewer escalations is one that could be considered straightforward to resolve.
+- Topics that have a high volume.  This allows the automation to potentially bring you more business benefit and impact. 
+
+For more information, see[automating topics from Customer Service Insights](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/automate-topics).
+
+### Extract content from webpages
 
 There are three main steps involved with auto-creating topics:
 
@@ -11,8 +25,6 @@ There are three main steps involved with auto-creating topics:
 1. Add the suggested topics to your bot
 
 1. Enable the topics in your bot
-
-### Extract content from webpages
 
 The first step in creating topics from existing content, is to extract topic suggestions from existing pages you want to use that contain support content. This is done by using the suggested topics command in Power Virtual Agents. The suggested topics command is built to run on webpages that are in the form of FAQ pages or support sites. After the extraction is complete, the suggested topics are displayed for you to review further.
 
