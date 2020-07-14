@@ -13,7 +13,7 @@ durationInMinutes: 2
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: When a customer initiates a bot conversation, they are automatically asked to provide the nature of their injury. They can select from support, billing, or emergency. You have been asked to configure the bot to automatically escalate the conversation to a live agent automatically when someone indicates the nature of the injury is an emergency. What conversation node is used to facilitate this?
+  - content: When a customer initiates a bot conversation, they are automatically asked to provide the nature of their inquire. They can select from support, billing, or question. You have been asked to configure the bot to automatically escalate the conversation to a live agent automatically when someone indicates the nature of the inquiry is billing. What conversation node is used to facilitate this?
     choices: 
     - content: Call an action
       isCorrect: false 
