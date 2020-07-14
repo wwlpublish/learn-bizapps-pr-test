@@ -22,7 +22,9 @@ iconUrl: /learn/achievements/portals-maintenance-troubleshooting.svg
 levels:  
 - intermediate   
 roles:  
-- maker  
+- maker
+- functional-consultant
+- administrator
 products:  
 - power-platform  
 - power-apps 
