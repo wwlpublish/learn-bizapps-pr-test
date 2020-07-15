@@ -86,6 +86,6 @@ In order to apply **entity permissions** to **entity list** or **entity form** c
 **Entity permissions** are automatically applied to data that is retrieved using *Liquid* tags.
 
 <!--VIDEO EntityPermissions.mp4-->
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4AjtN]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AjtN]
 
 To learn more about Entity Permissions see [Add record-based security by using entity permissions for portals](https://docs.microsoft.com/powerapps/maker/portals/configure/assign-entity-permissions/?azure-portal=true).
