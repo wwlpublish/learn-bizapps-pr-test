@@ -100,7 +100,7 @@ To create the webpage, follow these steps:
 
 To add a column component and add navigation, follow these steps:
 
-1. On the canvas, select the **Copy page** component and, from the toolbelt, select the **Components** icon and add the **Two columns section** component.
+1. On the canvas, select the **Copy page** component and, from the toolbar, select the **Components** icon and add the **Two columns section** component.
 1. On the canvas, select the left column component.
 1. In the lower-right corner, select the source code editor **</>**.
 1. In the Code Editor, locate the following line:
