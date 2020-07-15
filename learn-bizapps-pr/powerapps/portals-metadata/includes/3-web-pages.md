@@ -15,7 +15,7 @@ That hierarchical structure provides enough information for each webpage to calc
 | Partner News | News         | partners    | /news/partners/            |
 | Price List   | Partner News | price-list  | /news/partners/price-list/ |
 
-When a request is received by the Power Apps portals web app, the target Common Data Service instance and website record is determined based on the domain name. The path part of the request is then used to locate the webpage record with the matching calculated path.
+When a request is received by the Power Apps portals web app, the target Common Data Service instance and website record are determined based on the domain name. The path part of the request is then used to locate the webpage record with the matching calculated path.
 
 After the webpage has been determined, the page generation process starts with the following high-level steps:
 
