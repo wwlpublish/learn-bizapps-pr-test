@@ -4,7 +4,7 @@ More and more organizations uses Power Apps portals to reach out to external aud
 
 The out-of-the-box portals (Community, Partner, Customer self-service, Employee self-service) are accessible. However, customizers must ensure that the portal remains accessible after any customization or changes.
 
-You can retrieve specific Power Apps portals conformance reports by searching for "Dynamics 365 Customer Engagement" at [Microsoft Accessibility Conformance Reports](https://cloudblogs.microsoft.com/industry-blog/industry/government/accessibility-conformance-reports/?azure-portal=true). These reports cover the following standards:
+You can retrieve specific Power Apps portals conformance reports by searching for "Dynamics 365 Customer Engagement" at [Microsoft Accessibility Conformance Reports](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/?azure-portal=true). These reports cover the following standards:
 
 * **EN 301 549** - the European standard that sets out accessibility requirements for information and communication technology procured by the public sector.
 * **Section 508**. Under Section 508 of the Rehabilitation Act, US Government agencies must give employees with disabilities and members of the public access to information that is comparable to the access available to others.
