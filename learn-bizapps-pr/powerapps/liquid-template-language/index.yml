@@ -3,7 +3,7 @@ uid: learn-bizapps.liquid-template-language
 metadata: 
  title: Work with the Liquid template language in Power Apps portals 
  description: Liquid is an [open-source template language](http://dotliquidmarkup.org/?azure-portal=true) integrated natively into Power Apps portals. It basically acts as a bridge between the Common Data Service and the HTML or text output sent to the browser. It can be used to add dynamic content to pages, and to create a wide variety of custom templates. It is proven and it is secure as it only provides access to the data and operations explicitly allowed by the portals.
- ms.date: 07/08/2020  
+ ms.date: 07/15/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -23,7 +23,8 @@ iconUrl: /learn/achievements/liquid-template-language.svg
 levels:  
 - intermediate   
 roles:  
-- maker  
+- maker 
+- functional-consultant
 products:  
 - power-platform
 - power-apps 
