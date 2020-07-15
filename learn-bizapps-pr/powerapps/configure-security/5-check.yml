@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 07/06/2020 
+ ms.date: 07/15/2020 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -31,30 +31,30 @@ quiz:
     choices: 
     - content: Contact scope
       isCorrect: false 
-      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
+      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected Common Data Service relationship.
     - content: Account scope
       isCorrect: true 
-      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
+      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected Common Data Service relationship.
     - content: Self scope
       isCorrect: false 
-      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
+      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected Common Data Service relationship.
     - content: This access is granted implicitly, no need to add any permissions
       isCorrect: false 
-      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected CDS relationship.
+      explanation: Use Account Scope and specify parent account relationship. With Account Scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record via selected Common Data Service relationship.
   - content: You added a Dynamic Lookup Filter to your entity list to be able to filter the list by currency. At runtime, however, the list of available currencies in the filter is empty. You double-checked your Common Data Service instance and there are active currency records. What do you need to do to display currencies in the filter?
     choices: 
     - content: Remove and add filter back
       isCorrect: false 
-      explanation: Whenever CDS data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+      explanation: Whenever Common Data Service data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
     - content: Update currency exchange rate in a Common Data Service model-driven app
       isCorrect: false 
-      explanation: Whenever CDS data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+      explanation: Whenever Common Data Service data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
     - content: Login as administrator
       isCorrect: false 
-      explanation: Whenever CDS data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+      explanation: Whenever Common Data Service data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
     - content: Add entity permission record for the currency entity
       isCorrect: true 
-      explanation: Whenever CDS data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+      explanation: Whenever Common Data Service data is accessed using any methods other than Entity List or Entity Form, entity permissions are applied automatically. That includes, among other things, Metadata filters where Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
   - content: You have a product list page that uses an entity list to display the data. You have configured Read  permission for product list entity and set the scope to Global. Users complained that they can browse a product listing page anonymously but are denied access the page after they sign in. How would you modify resolve the issue?
     choices: 
     - content: Change the scope to Contact scope
