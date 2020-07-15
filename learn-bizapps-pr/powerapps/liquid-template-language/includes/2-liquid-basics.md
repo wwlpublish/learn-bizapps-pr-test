@@ -51,6 +51,6 @@ In this fragment `assign` creates a new variable, and the `if... else` construct
 
 Let's take a quick look at the Liquid and some of its common concepts in this video introduction.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4As9N/]
+> [!Video https://www.microsoft.com/videoplayer/embed/RE4As9N]
 
 Liquid includes a lot of built-in objects and tags that make it very versatile and flexible. Of course, the real benefits come from the Liquid extensions implemented by Power Apps portals.

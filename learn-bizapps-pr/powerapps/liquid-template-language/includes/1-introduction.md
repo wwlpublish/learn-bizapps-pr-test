@@ -1,6 +1,4 @@
-Power Apps portals generate the output based on the Common Data Service (CDS) data. The fundamental question in this architecture is:
-
-> How can I take *this* data and insert it into *that* output?
+Power Apps portals generate the output based on the Common Data Service (CDS) data. The fundamental question in this architecture is: How can I take *this* data and insert it into *that* output?
 
 The data in this question would commonly refer to CDS data, and the output is usually HTML or plain text.
 
