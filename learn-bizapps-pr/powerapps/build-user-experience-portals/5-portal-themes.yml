@@ -4,12 +4,12 @@ title: Portal themes
 metadata: 
   title: Portal themes
   description: Learn about themes and customizations for your portal.
-  ms.date: 07/08/2020 
+  ms.date: 07/15/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-apps 
-durationInMinutes: 4 
+durationInMinutes: 6
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/5-portal-themes.md)] 

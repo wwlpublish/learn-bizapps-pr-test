@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.build-user-experience-portals 
 metadata: 
- title: Build user experience in portals
+ title: Build user experience in Power Apps portals
  description: This module focuses on what a portal maker should consider when designing and building portals. Getting started with the implementation of a portal solution requires a good understanding of the specific business requirements and the needs not only of the customer but of the customer's customers. A successful portal will be well designed and easy to navigate. It's also critical to provide portal functionality to those with accessibility needs and to provide portal features to different geographies and languages. Like any good development project, portal metadata needs to be backed up to source control and also deployed to test and production environments in a consistent managed way.
  ms.date: 07/08/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Build user experience in portals
+title: Build user experience in Power Apps portals
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module focuses on what a portal maker should consider when designing and building portals. Getting started with the implementation of a portal solution requires a good understanding of the specific business requirements and the needs not only of the customer but of the customer's customers. A successful portal will be well designed and easy to navigate. It is also critical to provide portal functionality to those with accessibility needs and to provide portal features to different geographies and languages. Like any good development project, portal metadata needs to be backed up to source control and also deployed to test and production environments in a consistent managed way.
@@ -23,7 +23,9 @@ iconUrl: /learn/achievements/build-user-experience-portals.svg
 levels:  
 - intermediate   
 roles:  
-- maker  
+- maker 
+- functional-consultant
+- administrator 
 products:  
 - power-platform  
 - power-apps 

@@ -1,4 +1,4 @@
-It is important to understand that Power Apps portals are built on top of the Common Data Service (CDS). They extend functionality to both internal and external audiences but this functionality must already be present in either a custom Power App using the Common Data Service or a Dynamics 365 first-party application. For example, if you do not have Dynamics 365 Field Service installed, you will not be able to install the Field Service portal solution.
+It is important to understand that Power Apps portals are built on top of the Common Data Service. They extend functionality to both internal and external audiences but this functionality must already be present in either a custom Power App using the Common Data Service or a Dynamics 365 first-party application. For example, if you do not have Dynamics 365 Field Service installed, you will not be able to install the Field Service portal solution.
 
 On the other hand, if you have Dynamics 365 Sales installed, you will be able to configure case management functionality in your portal without any code. In other words, Power Apps portals are **web enablers** of Power Apps for the internal and external audiences.
 
@@ -25,9 +25,9 @@ Let's take a look at various scenarios when portals can be a good fit and others
 
 * Majority of data to surface on the web resides in an external (non-Common Data Service) system.
 * Heavy requirements around document management, indexing and searching.
-* eCommerce requirements including processing high volume of payments and maintaining an online store.
+* Commerce requirements including processing high volume of payments and maintaining an online store.
 * Use cases that are more appropriate for direct model-driven or canvas apps.
 
 ## Performance considerations
 
-Power Apps portals do autoscale as they get more traffic. How much a portal scales depends on how much CDS capacity is purchased and assigned to the environment the portal is placed in. When planning and building a portal it is important to ensure that the implementation is done in a scalable manner using best practices and tools like solution checker, app checker, and portal checker, etc. It is also important to recognize portal scalability limitations, for example allowing visitors to upload files without restricting file size or type may have a detrimental effect on the overall portal performance.
+Power Apps portals do autoscale as they get more traffic. How much a portal scales depends on how much Common Data Service capacity is purchased and assigned to the environment the portal is placed in. When planning and building a portal it is important to ensure that the implementation is done in a scalable manner using best practices and tools like solution checker, app checker, and portal checker, etc. It is also important to recognize portal scalability limitations, for example allowing visitors to upload files without restricting file size or type may have a detrimental effect on the overall portal performance.

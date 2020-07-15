@@ -10,11 +10,9 @@ You can retrieve specific Power Apps portals conformance reports by searching fo
 * **Section 508**. Under Section 508 of the Rehabilitation Act, US Government agencies must give employees with disabilities and members of the public access to information that is comparable to the access available to others.
 * **WCAG**. Web Content Accessibility Guidelines published and maintained by W3C.
 
-## General Data Protection Regulations
+## Data Protection 
 
-The General Data Protection Regulation (GDPR) is a legal act of the European Union (EU), which protects data for all individuals within the EU. With GDPR, people can control the use of their personal data in Dynamics 365 for Customer Engagement.
-
-You can configure your portal to meet GDPR standards. There are two important parts of GDPR standards covered by portals:
+You can configure your portal to meet data protection standards. There are two important parts of data protection standards covered by portals:
 
 * Identifying minor portal users and obtaining parental consent
 * Agreeing to terms and conditions

@@ -20,7 +20,7 @@ Making changes to the style of your portal pages can be as easy as applying CSS 
 > [!NOTE]
 >CSS statements added directly to a web page will only apply to that web page only.
 
-This works for quick small adjustments on a single page but better approach, of course, is to record customizations in one or more CSS files and apply them to the entire portal or parts of it.
+This works for quick small adjustments on a single page but better approach is to record customizations in one or more CSS files and apply them to the entire portal or parts of it.
 
 ## Apply customizations
 

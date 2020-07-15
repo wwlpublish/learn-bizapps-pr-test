@@ -4,12 +4,12 @@ Blocks of content that can be copied and reused help to maintain the design and 
 
 Content snippets are small chunks of editable content that can be placed by a template maker on a page template, allowing for customizable content to populate any portion of a page, including header and footer.
 
-New content snippets can only to be created in Portal Management app. If a template maker inserts a snippet as editable then the Portal Studio will display **Edit** command when user hovers over the snippet. Snippet content then can be edited using Source code editor.
+New content snippets can only to be created in Portal Management app. If a template maker inserts a snippet as editable, then the Portal Studio will display **Edit** command when user hovers over the snippet. Snippet content then can be edited using Source code editor.
 
 > [!div class="mx-imgBorder"]
 > [![Editing footer snippet](../media/snippet-editing.png)](../media/snippet-editing.png#lightbox)
 
-Content managers editing a snippet should be aware whether the snippet is used in one place only, for example Home/Title defining the title on the portal home page, or if the snippet is used in multiple templates throughout the site, for example, an official business trading name (that can change). In the that scenario changing the content in one place will update it wherever the snippet is used.
+Content managers editing a snippet should be aware whether the snippet is used in one place only, for example Home/Title defining the title on the portal home page, or if the snippet is used in multiple templates throughout the site, for example, an official business trading name (that can change). In that scenario changing the content in one place will update it wherever the snippet is used.
 
 Do not restrict your thinking that a snippet may contain only text content. Snippets can contain HTML, layout elements, styles, or even Liquid code template processing instructions. Anywhere where is the need to make a part of a portal (not necessarily even visible) customizable and reusable, a snippet could be used.
 

@@ -30,13 +30,13 @@ Each supported language of a website should have corresponding Web Link Sets in 
 
 ### Content snippets
 
-Content Snippets can be language specific or language agnostic. When a content snippet exists with no supported language value, then it will be available in the context of all languages. Language-agnostic snippets are used to deliver content that does not require translation. It could be, for example, a company logo, or some like JavaScript processing instructions.
+Content Snippets can be language-specific or language agnostic. When a content snippet exists with no supported language value, then it will be available in the context of all languages. Language-agnostic snippets are used to deliver content that does not require translation. It could be, for example, a company logo, or some like JavaScript processing instructions.
 
 On the other hand, if a content snippet has a language value, then the value of the content snippet will only be available when the portal context is in that specific language.
 
 ## Browse multi-lingual portal
 
-Site setting `MultiLanguage/DisplayLanguageCodeInURL` (true or false) controls if language is determined by URL or by per session cookie. When URL-based approach is selected, Code property of the Portal Language will be used as part of the URL `https://portal_url/<code>/page/`, e.g.`https://www.contoso.com/en-US/contact-us/`.
+Site setting `MultiLanguage/DisplayLanguageCodeInURL` (true or false) controls if language is determined by URL or by per session cookie. When URL-based approach is selected, Code property of the Portal Language will be used as part of the URL `https://portal_url/<code>/page/`, for example,`https://www.contoso.com/en-US/contact-us/`.
 
 ## Language considerations
 
@@ -53,11 +53,11 @@ Work with the template designers and use different templates to render the conte
 
 ### Localization
 
-Besides translating the site content and navigation, there are number of additional considerations that needs to be given to the multi-lingual deployment:
+Besides translating the site content and navigation, there are a number of additional considerations that needs to be given to the multi-lingual deployment:
 
 * You would need to be disciplined in identifying and localizing every string and phrase that could appear to the site visitor. If you are working with the developers and JavaScript is used, that means translation of error messages, status bar messages, alert boxes, dialog boxes, etc. Make extensive use of Content Snippets as they allow translation of pieces of information like error message without changing the rest of the site.
 * If you use images for buttons that contain text, those too would need to be localized. You might create an image map or directory file that lets you find images for the appropriate culture by some key.
 * Any communications with the portal users need to take into account their preferred language (that they can set on their user profile).
-* If your Common Data Service is customized, ensure that all custom entities, fields, optionsets, messages, and descriptions are translated.
+* If your Common Data Service is customized, ensure that all custom entities, fields, option sets, messages, and descriptions are translated.
 * If your deployment uses 3rd-party solutions, work with the vendors to ensure that their solutions are localized into required languages.
 * For deployments that use Knowledge Articles, ensure that the relevant articles are translated or, at least, create placeholders directing visitors to the base language versions where they can use browser-based translation tools such as [Bing Translate](https://www.bing.com/translator/?azure-portal=true).

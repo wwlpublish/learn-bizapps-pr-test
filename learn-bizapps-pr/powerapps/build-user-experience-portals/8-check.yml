@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 07/08/2020 
+ ms.date: 07/15/2020 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -43,7 +43,7 @@ quiz:
       explanation: When a web link is to a web page, the security and publishing state of the web page will apply to the web link as well. This can be disabled with the **Disable Page Validation** option of the web link.
   - content: Business users complained that portal search results do not include matching content of the Web Files attachments. You have set the site setting `Search/IndexNotesAttachments` to `true` but the results are still not returned. What is your next step?
     choices: 
-    - content: Check that Relevance search is enabled in your Dynamics 365 for Customer Engagement instance.
+    - content: Check that Relevance search is enabled in your model-driven apps in Dynamic 365 instance.
       isCorrect: true 
       explanation: To search within the web files attachments,  you must set `Search/IndexNotesAttachments` to `true` and enable relevance search in Dynamics 365 for the Customer Engagement instance.
     - content: Set `KnowledgeManagement/DisplayNotes` site setting to `true`.
