@@ -30,7 +30,7 @@ The **web page access control rule** record has the following properties;
 
 Once an access control is defined for a web page, the page will not be accessible on the portal and by default it will not appear on any menu navigation.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4AjtR]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AjtR]
 
 > [!NOTE]
 > The menu link (**WebLink**) to a page with an access rule can be made visible to all portal visitors by selecting the *Disable Page Validation* on the WebLink record in the Portal Management app.
