@@ -8,8 +8,6 @@ At the end of these exercises, you'll be able to accomplish the following:
 * Access Common Data Service using Liquid.
 * Add conditional statements to display only available data.
 
-## Before we begin
-
 ### Prerequisites
 
 For this exercise you need to have the following in your environment:
