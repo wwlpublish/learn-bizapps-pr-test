@@ -12,12 +12,12 @@ Power Apps portals implement a number of extensions specific to the portals and 
 [Power Apps Common Data Service entity tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/portals-entity-tags/?azure-portal=true) include:
 
 - chart
-- powerbi
+- Power BI
 - entitylist
 - entityview
 - fetchxml.
 
-In the following example we load Active Currencies view and display all returned records. In Portal Studio this code produces output because of the implicit design-time privileges of the maker. On the portal, however, the user would need to have read privilege on the **currency** entity for the fragment to return any data.
+In the following example, we load Active Currencies view and display all returned records. In Portal Studio this code produces output because of the implicit design-time privileges of the maker. On the portal, however, the user would need to have read privilege on the **currency** entity for the fragment to return any data.
 
 ```twig
 {% entityview logical_name:'transactioncurrency', name:'Active Currencies' %}
