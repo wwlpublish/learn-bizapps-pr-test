@@ -3,7 +3,7 @@ uid: learn-bizapps.configure-security
 metadata: 
  title: Configure Power App portals security
  description: The concept of exposing Common Data Service on a public web page is appealing to address a number of business requirements.  However, careful consideration must be given to exposing private or sensitive data. This module will focus on understanding and configuring portal security to protect both static and dynamic content and limit visibility to specific audiences.
- ms.date: 07/06/2020  
+ ms.date: 07/15/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -25,6 +25,7 @@ levels:
 roles:  
 - maker  
 - functional-consultant 
+- administrator
 products:  
 - power-platform  
 - power-apps 
