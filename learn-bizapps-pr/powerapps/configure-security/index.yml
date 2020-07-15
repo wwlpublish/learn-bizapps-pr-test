@@ -18,7 +18,10 @@ abstract: |
     - Identify the various portal security metadata entities such as contacts, web roles, web page access control rules and entity permissions
     - How to limit access to portal web pages using web page access control rules
     - Understand how to configure entity permissions to secure Common Data Service and Dynamics 365 records
-prerequisites: Target audience should have basic understanding of Power Apps portals and how to create web pages and surface Common Data Service data using entity lists and entity forms.  Target audience should have a basic understanding of how relationships work between CDS entities.
+prerequisites: |
+  - Basic understanding of Power Apps portals
+  - Ability to create web pages and surface Common Data Service data using entity lists and entity forms
+  - Basic understanding of how relationships work between Common Data Service entities.
 iconUrl: /learn/achievements/configure-security.svg  
 levels:  
 - intermediate   
