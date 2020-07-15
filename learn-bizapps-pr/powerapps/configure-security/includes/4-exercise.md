@@ -11,10 +11,6 @@ At the end of these exercises, you will be able to accomplish the following:
 * Create an entity permission record
 * Link the entity permission to the web role and associate the web role to a CDS contact
 
-**Estimated time to complete this exercise: 10 to 15 minutes**
-
-## Before we begin
-
 ### Prerequisites
 
 For this exercise you will need to have the following in your environment:
