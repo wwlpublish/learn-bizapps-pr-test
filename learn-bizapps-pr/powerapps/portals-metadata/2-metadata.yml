@@ -4,12 +4,12 @@ title: Portal metadata
 metadata: 
   title: Portal metadata 
   description: Learn about portal metadata.  
-  ms.date: 07/06/2020 
+  ms.date: 07/15/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-apps 
-durationInMinutes: 7 
+durationInMinutes: 10
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/2-metadata.md)] 
