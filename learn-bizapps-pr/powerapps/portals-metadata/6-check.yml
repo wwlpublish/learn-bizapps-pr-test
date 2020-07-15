@@ -27,59 +27,59 @@ quiz:
     - content: Site Setting
       isCorrect: false 
       explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
-  - content: In a single language portal, how many Webpage records exist for each portal page?
+  - content: In a single language portal, how many webpage records exist for each portal page?
     choices: 
-    - content: '0'
+    - content: Zero
       isCorrect: false 
-      explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
-    - content: '1'
+      explanation: Every webpage, even in a single language portal, will have a root webpage and a content page for the base language.
+    - content: One
       isCorrect: false 
-      explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
-    - content: '2'
+      explanation: Every webpage, even in a single language portal, will have a root webpage and a content page for the base language.
+    - content: Two
       isCorrect: true 
-      explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
-    - content: Between 0 and 2, depending if the page is published or not
+      explanation: Every webpage, even in a single language portal, will have a root webpage and a content page for the base language.
+    - content: Between zero and two, depending on whether the page is published or not
       isCorrect: false 
-      explanation: Every Webpage, even in a single language portal, will have a root Webpage and a Content page for the base language.
+      explanation: Every webpage, even in a single language portal, will have a root webpage and a content page for the base language.
   - content: Which template type supports inheritance?
     choices: 
-    - content: Rewrite Template
+    - content: Rewrite 
       isCorrect: false 
-      explanation: Web Template can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. 
-    - content: Nested Template
+      explanation: The Web template can be rendered on its own or can be included as part of another template. Web templates support inheritance, where one template is based on and extends functionality of another. 
+    - content: Nested 
       isCorrect: false 
-      explanation: Web Template can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. 
-    - content: Web Template
+      explanation: The Web template can be rendered on its own or can be included as part of another template. Web templates support inheritance, where one template is based on and extends functionality of another. 
+    - content: Web 
       isCorrect: true 
-      explanation: Web Template can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. 
+      explanation: The Web template can be rendered on its own or can be included as part of another template. Web templates support inheritance, where one template is based on and extends functionality of another. 
     - content: All template types support inheritance
       isCorrect: false 
-      explanation: Web Template can be rendered on their own or can be included as part of another template. They support inheritance where one template is based on and extends functionality of another. 
+      explanation: The Web template can be rendered on its own or can be included as part of another template. Web templates support inheritance, where one template is based on and extends functionality of another. 
   - content: What template language is integrated into Power Apps portals?
     choices: 
     - content: Solid
       isCorrect: false 
-      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+      explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
     - content: Liquid
       isCorrect: true 
-      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+      explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
     - content: HTML
       isCorrect: false 
-      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+      explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
     - content: JavaScript
       isCorrect: false 
-      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
-  - content: Which component cannot be added from the Portal Studio but can from the Portal Management app?
+      explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
+  - content: Which component cannot be added from portals Studio but can be added from the Portal Management app?
     choices: 
     - content: Entity Lists
       isCorrect: false 
-      explanation: Entity Lists, Images (web files), and Power BI reports can be added as components from the Portal studio.  Web Forms need to be added via the Portal Management App.
+      explanation: Entity Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
     - content: Web Forms
       isCorrect: true 
-      explanation: Entity Lists, Images (web files), and Power BI reports can be added as components from the Portal studio.  Web Forms need to be added via the Portal Management App.
+      explanation: Entity Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
     - content: Images
       isCorrect: false 
-      explanation: Entity Lists, Images (web files), and Power BI reports can be added as components from the Portal studio.  Web Forms need to be added via the Portal Management App.
-    - content: Embedded Power BI Reports
+      explanation: Entity Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
+    - content: Embedded Power BI reports
       isCorrect: false 
-      explanation: Entity Lists, Images (web files), and Power BI reports can be added as components from the Portal studio.  Web Forms need to be added via the Portal Management App.
+      explanation: Entity Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
