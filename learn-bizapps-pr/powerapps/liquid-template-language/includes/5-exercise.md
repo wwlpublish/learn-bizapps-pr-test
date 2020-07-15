@@ -8,8 +8,6 @@ At the end of these exercises, you'll be able to accomplish the following:
 * Access Common Data Service using Liquid.
 * Add conditional statements to display only available data.
 
-**Estimated time to complete this exercise**: 10 to 15 minutes
-
 ## Before we begin
 
 ### Prerequisites

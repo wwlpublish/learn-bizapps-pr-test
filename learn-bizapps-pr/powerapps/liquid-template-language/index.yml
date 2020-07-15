@@ -25,6 +25,7 @@ levels:
 roles:  
 - maker 
 - functional-consultant
+- developer
 products:  
 - power-platform
 - power-apps 

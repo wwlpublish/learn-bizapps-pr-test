@@ -30,7 +30,7 @@ Liquid code can be used anywhere in the portals where HTML or text content can b
 
 1. Append the following text to the existing content:
 
-   ```twig
+   ```html
    <p>Hello, visitor. The time is {{ 'now' | date: 'g' }}</p>
    ```
 

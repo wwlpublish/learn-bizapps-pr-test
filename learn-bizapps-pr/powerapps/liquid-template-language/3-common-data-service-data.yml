@@ -4,12 +4,12 @@ title: Access Common Data Services (CDS) data
 metadata: 
   title: Access Common Data Services (CDS) data
   description: Learn to add dynamic content using Liquid and CDS.
-  ms.date: 07/08/2020 
+  ms.date: 07/15/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-apps 
-durationInMinutes: 2
+durationInMinutes: 5
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/3-common-data-service-data.md)] 
