@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.liquid-template-language.3-common-data-service-data 
-title: Access Common Data Services (CDS) data
+title: Access Common Data Services data
 metadata: 
-  title: Access Common Data Services (CDS) data
-  description: Learn to add dynamic content using Liquid and CDS.
+  title: Access Common Data Services data
+  description: Learn to add dynamic content using Liquid and Common Data Service
   ms.date: 07/15/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
