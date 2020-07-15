@@ -1,25 +1,25 @@
 ### YamlMime:Module 
 uid: learn-bizapps.integrate-common-data-service 
 metadata: 
- title: Integrate with the Common Data Service
- description: The ability to easily surface and interact with Common Data Service data on a website is one of the core benefits of implementing a Power Apps portal. There are several methods to surface and display Common Data Service data, and having an understanding of the different options will result in successful portal implementations. This module will focus on the techniques to configure entity lists, entity forms and web forms to build powerful web applications.
+ title: Integrate with Common Data Service
+ description: The ability to find and interact with Common Data Service data on a website is one of the core benefits of implementing a Power Apps portal. Several methods are available for you to display Common Data Service data. Learning and knowing about these different options will help you have successful portal implementations. This module will focus on the techniques that you can use to configure entity lists, entity forms, and web forms to build powerful web applications.
  ms.date: 07/08/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Integrate with the Common Data Service
+title: Integrate with Common Data Service
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The ability to easily surface and interact with Common Data Service data on a website is one of the core benefits of implementing a Power Apps portal. There are several methods to surface and display Common Data Service data, and having an understanding of the different options will result in successful portal implementations. This module will focus on the techniques to configure entity lists, entity forms and web forms to build powerful web applications.
+  The ability to find and interact with Common Data Service data on a website is one of the core benefits of implementing a Power Apps portal. Several methods are available for you to display Common Data Service data. Learning and knowing about these different options will help you have successful portal implementations. This module will focus on the techniques that you can use to configure entity lists, entity forms, and web forms to build powerful web applications.
 abstract: |  
     In this module, you will: 
-    - Configure entity lists to display Common Data Service data in different ways and allow portal users to interact with the data using various techniques.
-    - Implement entity forms to allow creating, reading and updating of Common Data Service records.
-    - Build a web form process to allow for complex and decision based data entry processes.
+    - Configure entity lists to display Common Data Service data in different ways and allow portal users to interact with the data by using various techniques.
+    - Implement entity forms to allow creating, reading, and updating of Common Data Service records.
+    - Build a web form process to allow for complex and decision-based data entry processes.
     - Trigger classic Common Data Service workflows from the portal.
     - Combine the various portal Common Data Service components to build powerful web applications.
-prerequisites: The target audience should have basic understanding of how to navigate and configure Power Apps portals as well as knowledge of how to customize and configure model-driven apps. Knowledge of the portal entities and concepts, and familiarity with Power Apps Portal Studio would be beneficial.
+prerequisites: A basic understanding of how to navigate and configure Power Apps portals and knowledge of how to customize and configure model-driven apps. Knowledge of the portal entities and concepts and familiarity with Power Apps portals Studio would be beneficial.
 iconUrl: /learn/achievements/integrate-common-data-service.svg  
 levels:  
 - intermediate   
