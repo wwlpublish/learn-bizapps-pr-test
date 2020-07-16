@@ -34,7 +34,7 @@ For details on site settings required to handle minor portal users, see [Identif
 
 ### Terms and conditions
 
-Your organization will have policies regarding rules for using your portal. These rules are typically described in Terms and Conditions and include what portal users can do, what is prohibited and include a disclaimer to limit your liability when they access your portal. In addition, according to the GDPR, portal users must agree to the terms and conditions to allow marketing, profiling, or access to private information.
+Your organization will have policies regarding rules for using your portal. These rules are typically described in Terms and Conditions and include what portal users can do, what is prohibited and include a disclaimer to limit your liability when they access your portal. In addition, portal users must agree to the terms and conditions to allow marketing, profiling, or access to private information.
 
 You can publish terms and conditions to get consent of the portal user before they are authenticated to the site.
 
