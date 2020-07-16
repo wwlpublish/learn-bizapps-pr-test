@@ -57,7 +57,7 @@ You can write a DAX formula to add a calculated column to any table in your mode
 In the **Fields** pane, calculated columns are enhanced with a special icon. The following example shows a single calculated column in the Customer table called **Age**.
 
 > [!div class="mx-imgBorder"]
-> [![The image shows a section of the Fields pane. Inside the Customer table, there are multiple fields. One is adorned with the special icon, which indicates that it's a calculated column.(../media/dax-fields-pane-calculated-column-ss.png)](../media/dax-fields-pane-calculated-column-ss.png#lightbox)
+> [![The image shows a section of the Fields pane. Inside the Customer table, there are multiple fields. One is adorned with the special icon, which indicates that it's a calculated column.](../media/dax-fields-pane-calculated-column-ss.png)](../media/dax-fields-pane-calculated-column-ss.png#lightbox)
 
 > [!NOTE]
 > The calculated column special icon is only visible in Power BI Desktop when you are developing the model. Report users that create a live connection to the model won't see this icon. In fact, a way now exists for them to determine that a column is a calculated column.

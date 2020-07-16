@@ -15,7 +15,7 @@ The following table lists the arithmetic operators.
 |     /           |     Division          |
 |     ^           |     Exponentiation    |
 
-Remember, when you are dividing two expressions, and when the denominator could return zero or BLANK, it's more efficient and safer to use the [DIVIDE](https://docs.microsoft.com/dax/divide-function-dax) DAX function.
+Remember, when you are dividing two expressions, and when the denominator could return zero or BLANK, it's more efficient and safer to use the [DIVIDE](https://docs.microsoft.com/dax/divide-function-dax/?azure-portal=true) DAX function.
 
 ### Comparison operators
 
@@ -52,7 +52,7 @@ Use logical operators to combine expressions that produce a single result. The f
 |     IN                    |     Creates a logical OR condition between each row that is being compared to a table. Note: The table constructor syntax uses braces.                                                                                       |
 |     NOT                   |     Inverts the state of a Boolean expression (FALSE to TRUE, and vice versa).                                                                                                                                               |
 
-An example that uses the IN logical operator is the **ANZ Revenue** measure definition, which uses the [CALCULATE](https://docs.microsoft.com/dax/calculate-function-dax) DAX function to enforce a specific filter of two countries: Australia and New Zealand.
+An example that uses the IN logical operator is the **ANZ Revenue** measure definition, which uses the [CALCULATE](https://docs.microsoft.com/dax/calculate-function-dax/?azure-portal=true) DAX function to enforce a specific filter of two countries: Australia and New Zealand.
 
 > [!NOTE]
 > You'll be introduced to the powerful CALCULATE function when you learn how to modify the filter context.
@@ -102,7 +102,7 @@ Extended Amount = Sales[Order Quantity] * Sales[Unit Price] * (1 - [Unit Price D
 > [!TIP]
 > Remembering operator precedence rules can be challenging, especially for DAX beginners. Consequently, we recommend that you test your formulas thoroughly. When the formulas don't produce the correct result due to an incorrect evaluation order, you can experiment by adding parentheses to adjust the evaluation order. You can also add parentheses to improve the readability of your formulas.
 
-For more information about DAX operators and precedence order, see [DAX operators](https://docs.microsoft.com/dax/dax-operator-reference).
+For more information about DAX operators and precedence order, see [DAX operators](https://docs.microsoft.com/dax/dax-operator-reference/?azure-portal=true).
 
 ### Implicit conversion
 
