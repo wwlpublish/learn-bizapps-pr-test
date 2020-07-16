@@ -112,7 +112,7 @@ Effectively, the CALENDARAUTO function guarantees that the following requirement
 Next, switch to data view, and then in the **Fields** pane, select the Due Date table. Now, review the column of dates. You might want to order them to see the earliest date in the first row by selecting the arrow inside the **Date** column header and then sorting in ascending order.
 
 > [!NOTE]
-> Ordering or filtering columns does doesn't change how the values are stored. These functions help you explore and understand the data.
+> Ordering or filtering columns doesn't change how the values are stored. These functions help you explore and understand the data.
 
 > [!div class="mx-imgBorder"]
 > [![An image shows the Due Date table in data view. There's one column named Date, and when the values are sorted earliest to latest, the first date is July 1, 2017.](../media/dax-due-date-table-data-view-1-ss.png)](../media/dax-due-date-table-data-view-1-ss.png#lightbox)

@@ -14,4 +14,4 @@ When you need to add a column to a calculated table, make sure that you create a
 
 -   Depends on summarized model data.
 
--   Needs to use specialized modeling functions that are only available in DAX, such as the RELATED or RELATEDTABLE functions. Specialized functions can also include the [DAX parent and child functions](https://docs.microsoft.com/dax/understanding-functions-for-parent-child-hierarchies-in-dax/?azure-portal=true), which are designed to naturalize a recursive relationship into columns, for example, in an employee table where each row stores a reference to the row of the manager (who is also an employee).
+-   Needs to use specialized modeling functions that are only available in DAX, such as the RELATED or RELATEDTABLE functions. Specialized functions can also include the [DAX parent and child hierarchies](https://docs.microsoft.com/dax/understanding-functions-for-parent-child-hierarchies-in-dax/?azure-portal=true), which are designed to naturalize a recursive relationship into columns, for example, in an employee table where each row stores a reference to the row of the manager (who is also an employee).
