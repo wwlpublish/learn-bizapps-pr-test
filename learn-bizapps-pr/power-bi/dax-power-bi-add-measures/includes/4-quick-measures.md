@@ -9,7 +9,7 @@ In the **Fields** pane, select the Sales table. On the **Table tools** contextu
 > [!div class="mx-imgBorder"]
 > [![An image shows the Table Tools contextual ribbon for the Sales table. The Quick Measure command is highlighted.](../media/dax-sales-create-quick-measure-ssm.png)](../media/dax-sales-create-quick-measure-ssm.png#lightbox)
 
-In the **Quick measures** window, in the **Calculated** drop-down list, locate the **Mathematical operations** group (you might need to scroll down the list) and then select **Division**.
+In the **Quick measures** window, in the **Calculation** drop-down list, locate the **Mathematical operations** group (you might need to scroll down the list) and then select **Division**.
 
 > [!div class="mx-imgBorder"]
 > [![An image shows the Quick Measures window, and the selection of the Division calculation.](../media/dax-configure-quick-measure-calculation-ssm.png)](../media/dax-configure-quick-measure-calculation-ssm.png#lightbox)
