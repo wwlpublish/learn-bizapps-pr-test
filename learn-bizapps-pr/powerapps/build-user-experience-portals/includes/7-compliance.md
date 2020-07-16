@@ -10,7 +10,7 @@ You can retrieve specific Power Apps portals conformance reports by searching fo
 * **Section 508**. Under Section 508 of the Rehabilitation Act, US Government agencies must give employees with disabilities and members of the public access to information that is comparable to the access available to others.
 * **WCAG**. Web Content Accessibility Guidelines published and maintained by W3C.
 
-## Data Protection 
+## Data protection 
 
 You can configure your portal to meet data protection standards. There are two important parts of data protection standards covered by portals:
 
