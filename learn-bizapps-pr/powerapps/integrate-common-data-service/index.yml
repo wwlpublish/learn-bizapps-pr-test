@@ -18,7 +18,7 @@ abstract: |
     - Implement entity forms to allow creating, reading, and updating of Common Data Service records.
     - Build a web form process to allow for complex and decision-based data entry processes.
     - Trigger classic Common Data Service workflows from the portal.
-    - Combine the various portal Common Data Service components to build powerful web applications.
+    - Combine the various Common Data Service portal components to build powerful web applications.
 prerequisites: A basic understanding of how to navigate and configure Power Apps portals and knowledge of how to customize and configure model-driven apps. Knowledge of the portal entities and concepts and familiarity with Power Apps portals Studio would be beneficial.
 iconUrl: /learn/achievements/integrate-common-data-service.svg  
 levels:  
