@@ -48,9 +48,9 @@ Because each entity form deals with an individual entity record, several actions
 
 Other actions that you can configure include:
 
-- **Associate Current Portal User on Insert** - Use these options to keep track of which portal contact created or updated the record. This feature creates a portal equivalent of `Created By` and `Modified By` fields in Common Data Service. You can also set parental relationships where applicable. For example, if a new account record is created, you might want to automatically set the current contact as a primary contact.
+- **Associate Current Portal User on Insert** - Use these options to keep track of which of the portal contacts created or updated the record. This feature creates a portal equivalent of `Created By` and `Modified By` fields in Common Data Service. You can also set parental relationships where applicable. For example, if a new account record is created, you might want to automatically set the current contact as a primary contact.
 
-- **Add Attach File** - Several options are available for you to add a file upload control to your form. Configuration is flexible and supports multiple files, storage options, MIME type, and size restrictions (for example, you can restrict uploads to images up to 2MB in size).
+- **Add Attach File** - Several options are available for you to add a file upload control to your form. Configuration is flexible and supports multiple files, storage options, MIME type, and size restrictions (for example, you can restrict uploads to images up to 2 MB in size).
 
 - **Geolocation** - You can configure an entity form to display a map control that either displays an existing location as a pin on a map or that allows the user to specify a location. For more information, see [Add Geolocation](https://docs.microsoft.com/powerapps/maker/portals/configure/add-geolocation/?azure-portal=true).
 
