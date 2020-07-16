@@ -3,7 +3,7 @@ uid: learn-bizapps.integrate-common-data-service
 metadata: 
  title: Integrate with the Common Data Service
  description: The ability to easily surface and interact with Common Data Service data on a website is one of the core benefits of implementing a Power Apps portal. There are several methods to surface and display Common Data Service data, and having an understanding of the different options will result in successful portal implementations. This module will focus on the techniques to configure entity lists, entity forms and web forms to build powerful web applications.
- ms.date: 07/08/2020  
+ ms.date: 07/16/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -24,7 +24,8 @@ iconUrl: /learn/achievements/integrate-common-data-service.svg
 levels:  
 - intermediate   
 roles:  
-- maker  
+- maker
+- functional-consultant
 - developer 
 products:  
 - power-platform
