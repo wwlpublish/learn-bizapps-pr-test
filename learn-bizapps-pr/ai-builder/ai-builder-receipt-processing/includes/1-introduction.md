@@ -11,7 +11,7 @@ The AI model also provides all recognized text on the receipt, particularly usef
 
 No training or prior configuration is required to use Receipt processing. You simply need to provide an image or a PDF file, and the model will instantly return the results.
 
-Only English receipt.s from the United States are currently supported Full page receipts, such as hotel receipts or invoices, are not supported. To see the best results, limit your photos to just one receipt per image, keeping the crumpling to a minimum and taking the photo in adequate lighting conditions.
+Only English receipts from the United States are currently supported Full page receipts, such as hotel receipts or invoices, are not supported. To see the best results, limit your photos to just one receipt per image, keeping the crumpling to a minimum and taking the photo in adequate lighting conditions.
 
 ### Next steps
 
