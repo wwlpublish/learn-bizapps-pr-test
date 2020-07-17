@@ -23,7 +23,7 @@ levels:
 roles:
 - business-user
 products:
-- dynamics
+- dynamics-365
 - dynamics-finance-operations
 - power-platform
 units:
