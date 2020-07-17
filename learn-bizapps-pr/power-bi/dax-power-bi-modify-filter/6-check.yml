@@ -23,7 +23,7 @@ quiz:
       explanation: Calculated tables aren't evaluated in any context.
     - content: Measure
       isCorrect: true 
-      explanation: Measures (and measure expressions) are always evaluated in filter context.
+      explanation: Measures (or Measure expressions) are always evaluated in filter context.
     - content: Security role rule
       isCorrect: false 
       explanation: Security role rules, which filter rows, aren't evaluated in any context.

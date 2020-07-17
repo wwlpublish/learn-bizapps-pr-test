@@ -131,7 +131,7 @@ CALCULATE(
 
 In the table visual, notice that there's now only one **Revenue Red** value. It's because the Boolean filter expression preserves any existing filters on the **Product** table **Color** column. The reason why colors other than red are BLANK is because the two filters filter context and the filter expression are combined. The color black and color red are intersected, and because both cannot be TRUE at the same time, the expression is filtered by no product rows. It's only possible that both red filters can be TRUE at the same time, and it explains why we see just the one **Revenue Red** value.
 
-### Use inactive relationships
+## Use inactive relationships
 
 An inactive model relationship can only propagate filters when the [USERELATIONSHIP](https://docs.microsoft.com/dax/userelationship-function-dax/?azure-portal=true) DAX function is passed as a filter expression to the CALCULATE function. When you use this function to engage an inactive relationship, the active relationship will automatically become inactive.
 
