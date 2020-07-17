@@ -29,7 +29,7 @@ roles:
 - maker
 - developer
 products:  
-- dynamics  
+- dynamics-365  
 - power-apps 
 units: 
 - learn-bizapps.portal-custom-web.1-introduction 
