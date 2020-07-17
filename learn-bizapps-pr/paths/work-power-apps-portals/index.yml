@@ -28,6 +28,7 @@ products:
 modules:
 - learn-bizapps.explore-portals-studio
 - learn-bizapps.portals-metadata
+- learn-bizapps.integrate-common-data-service
 - learn-bizapps.liquid-template-language
 - learn-bizapps.configure-security 
 - learn-bizapps.build-user-experience-portals
