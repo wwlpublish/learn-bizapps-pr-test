@@ -56,6 +56,8 @@ want 100 percent of the data to be valid. 
 > [!div class="mx-imgBorder"]
 > [![anomalies and data statistics for a column of data](../media/06-column-statistics-ssm.png)](../media/06-column-statistics-ssm.png#lightbox)
 
+> [!NOTE By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select **Column profiling based on entire data set**. ]
+
 **Column distribution** shows you the distribution of the data within
 the column and the counts of distinct and unique values, both of which
 can tell you details about the data counts. Distinct
