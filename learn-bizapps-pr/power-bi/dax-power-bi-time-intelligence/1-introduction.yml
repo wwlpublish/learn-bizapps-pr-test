@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.dax-power-bi-time-intelligence.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction 
+  description: Introduction to defining time intelligence.  
+  ms.date: 07/07/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 
