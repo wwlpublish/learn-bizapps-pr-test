@@ -1,6 +1,6 @@
 The DAX function library consists of hundreds of functions, each designed to accomplish a specific goal.
 
-Because DAX originated with the PowerPivot add-in for Microsoft Excel 2010, over 80 functions are available that can also be found in Excel. It was a deliberate design strategy by Microsoft to ensure that Excel users can quickly become productive with DAX.
+Because DAX originated with the Power Pivot add-in for Microsoft Excel 2010, over 80 functions are available that can also be found in Excel. It was a deliberate design strategy by Microsoft to ensure that Excel users can quickly become productive with DAX.
 
 However, many functions exist that you won't find in Excel because they're specific to data modeling:
 
