@@ -26,6 +26,6 @@ RETURN
 
 Notice that the RETURN clause refers to the variable twice. This improved measure definition formula will run in at least half the time because it doesn't need to evaluate the prior year's revenue twice.
 
-In the **Adventure Works DW 2020 M02.pbix** Power BI Desktop file, refactor the **Revenue YoY %** measure to produce the same result as the previous example.
+In the [**Adventure Works DW 2020 M02.pbix**]](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities) Power BI Desktop file, refactor the **Revenue YoY %** measure to produce the same result as the previous example.
 
 For more information on using DAX variables, see [Use variables to improve your formulas](https://docs.microsoft.com/power-bi/guidance/dax-variables/?azure-portal=true).

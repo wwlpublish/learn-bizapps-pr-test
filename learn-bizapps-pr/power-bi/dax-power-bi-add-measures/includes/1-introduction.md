@@ -13,7 +13,7 @@ In the following image, notice that the Sales table includes only fields that ca
 
 As a data modeler, you can control if and how the column summarizes by setting the **Summarization** property to **Don't summarize** or to a specific aggregation function. When you set the **Summarization** property to **Don't summarize**, the sigma symbol will no longer show next to the column in the **Fields** pane.
 
-To observe how report authors can use implicit measures, you can first download and open the **Adventure Works DW 2020 M04.pbix** file.
+To observe how report authors can use implicit measures, you can first download and open the [**Adventure Works DW 2020 M04.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities) file.
 
 In the report, from the Sales table, add the **Sales Amount** field to the matrix visual that groups fiscal year and month on its rows.
 
