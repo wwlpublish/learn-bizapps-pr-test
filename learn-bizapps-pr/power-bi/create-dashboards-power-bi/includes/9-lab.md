@@ -66,7 +66,7 @@ In this task, you will create the **Sales Monitoring** dashboard.
 
 1. To add a tile based on a question, at the top-left of the dashboard, click **Ask a Question About Your Data**.
 
-1. You can use the Q&A feature to ask a question, and Power BI will respond will a visual.
+1. You can use the Q&A feature to ask a question, and Power BI will respond with a visual.
 
 1. Click any one of the suggested questions beneath the Q&A box, in gray boxes.
 
