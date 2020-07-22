@@ -1,6 +1,6 @@
 First, watch this video to learn about iterator functions.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AkNG]
 
 DAX includes a set of functions known as *iterator functions*. Iterator functions enumerate all rows of a given table and evaluate a given expression for each row. They provide you with flexibility and control over how your model calculations summarize data.
 
