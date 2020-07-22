@@ -26,8 +26,8 @@ modules:
 - learn-bizapps.dax-power-bi-write-formulas 
 - learn-bizapps.dax-power-bi-add-calculated-tables
 - learn-bizapps.dax-power-bi-add-measures 
+- learn-bizapps.dax-power-bi-iterator-functions
 - learn-bizapps.dax-power-bi-modify-filter
 - learn-bizapps.dax-power-bi-time-intelligence 
-- learn-bizapps.dax-power-bi-iterator-functions
 trophy: 
   uid: learn-bizapps.use-dax-power-bi-desktop.trophy
