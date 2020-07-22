@@ -1,4 +1,4 @@
-Often times you can find yourself with a large quantity of receipts to process. An automated workflow can save you a considerable amount of time by scanning each receipt for you automatically in the background.
+Often you can find yourself with a large quantity of receipts to process. An automated workflow can save you a considerable amount of time by scanning each receipt for you automatically in the background.
 
 ### Create a new flow
 
