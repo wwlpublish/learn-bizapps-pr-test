@@ -30,7 +30,7 @@ The numerator expression doesn't need to modify filter context it should use the
 > -   Understanding how filter context works
 > -   Understanding when and how to modify filter context to achieve a required result
 > -   Composing a formula to accurately and efficiently modify filter context
-
-Mastering these concepts takes practice and time. Rarely do we see students understand the concepts from the very beginning of their training. So, be patient and persevere with the theory and activities. We recommend you repeat this module at a later time to help reinforce the key lessons.
+>
+>    Mastering these concepts takes practice and time. Rarely do we see students understand the concepts from the very beginning of their training. So, be patient and persevere with the theory and activities. We recommend you repeat this module at a later time to help reinforce the key lessons.
 
 In the next unit, we'll introduce the [CALCULATE](https://docs.microsoft.com/dax/calculate-function-dax/?azure-portal=true) DAX function. It's one of the most powerful DAX functions, allowing you to modify filter context when your formulas are evaluated.
