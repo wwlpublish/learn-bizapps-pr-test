@@ -11,7 +11,7 @@ metadata:
 title: Use DAX time intelligence functions in Power BI Desktop models 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  By the end of this module, you’ll learn what “time intelligence” means, and how to add time intelligence DAX calculations to your model. These will include year-to-date (YTD), year-over-year (YoY) growth, and others. 
+  Time intelligence relates to calculations over dates, months, quarters, or years.
 abstract: |  
     By the end of this module, you'll be able to: 
     - Define time intelligence
