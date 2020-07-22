@@ -32,5 +32,6 @@ modules:
 - learn-bizapps.get-started-with-ai-builder-language-detection
 - learn-bizapps.get-started-with-ai-builder-key-phrase-extraction
 - learn-bizapps.ai-builder-power-automate
+- learn-bizapps.ai-builder-receipt-processing
 trophy: 
   uid: learn-bizapps.improve-business-performance-ai-builder.trophy
