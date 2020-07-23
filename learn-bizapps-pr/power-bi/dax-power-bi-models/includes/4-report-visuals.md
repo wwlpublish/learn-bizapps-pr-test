@@ -10,7 +10,7 @@ At design time, adding and configuring a report visual involves the following me
 
 1.  Apply format options, like axis properties, data labels, and many others.
 
-The following example shows how to configure the analytic query for a report visual. To begin, add a stacked column chart visual to a report page of the **Adventure Works DW 2020 M01.pbix** Power BI Desktop file, and then follow these steps:
+The following example shows how to configure the analytic query for a report visual. To begin, add a stacked column chart visual to a report page of the [**Adventure Works DW 2020 M01.pbix**]](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities) Power BI Desktop file, and then follow these steps:
 
 1.  **Filter** the page by using **Fiscal Year** from the Date table and then selecting **FY2020**.
 
