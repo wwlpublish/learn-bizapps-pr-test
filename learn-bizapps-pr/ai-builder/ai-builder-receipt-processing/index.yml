@@ -27,7 +27,7 @@ roles:
 - maker  
 - administrator  
 products:  
-- dynamics  
+- dynamics-365  
 - ai-builder 
 units: 
 - learn-bizapps.ai-builder-receipt-processing.1-introduction 
