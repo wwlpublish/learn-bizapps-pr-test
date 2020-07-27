@@ -1,4 +1,4 @@
-Receipt processing uses a prebuilt AI model, which means no prior training or configuration is required. You can use this model right away in your canvas app uses the Receipt processor component.
+Receipt processing uses a prebuilt AI model, which means no prior training or configuration is required. You can use this model right away in your canvas app using the Receipt processor component.
 
 > [!div class="mx-imgBorder"]
 > [![Receipt processor](../media/3-1.png)](../media/3-1.png#lightbox)
