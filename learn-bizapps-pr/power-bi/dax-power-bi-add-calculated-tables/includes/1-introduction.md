@@ -9,7 +9,7 @@ Calculated tables have a cost: They increase the model storage size and they can
 
 ## Duplicate a table
 
-The following section describes a common design challenge that can be solved by creating a calculated table. First, you should download and open the [**Adventure Works DW 2020 M03.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities) file and then switch to the model diagram.
+The following section describes a common design challenge that can be solved by creating a calculated table. First, you should download and open the [**Adventure Works DW 2020 M03.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M03.pbix) file and then switch to the model diagram.
 
 In the model diagram, notice that the Sales table has three relationships to the Date table.
 

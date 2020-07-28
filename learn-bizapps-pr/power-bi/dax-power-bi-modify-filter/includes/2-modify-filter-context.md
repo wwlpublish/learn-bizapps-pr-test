@@ -23,7 +23,7 @@ A Boolean expression filter is an expression that evaluates to TRUE or FALSE. Th
 
 -   They cannot use functions that scan or return a table, which includes aggregation functions like SUM, etc.
 
-Let's now create a measure. First, download and open the [**Adventure Works DW 2020 M06.pbix*](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities)* file. Go ahead and add the following measure definition that filters the **Revenue** measure by using a Boolean expression filter for red products.
+Let's now create a measure. First, download and open the [**Adventure Works DW 2020 M06.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M06.pbix) file. Go ahead and add the following measure definition that filters the **Revenue** measure by using a Boolean expression filter for red products.
 
 ```dax
 Revenue Red = CALCULATE([Revenue], 'Product'[Color] = "Red")
