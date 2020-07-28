@@ -44,7 +44,7 @@ TOTALYTD(<expression>, <dates>, [, <filter>][, <year_end_date>])
 
 The function requires an expression and as is common to all time intelligence functions a reference to the date column of a marked date table. Optionally, a single filter expression or the year end date can be passed in (required only when the year doesn't finish on December 31).
 
-First, download and open the [**Adventure Works DW 2020 M07.pbix**]](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities) file. Then, go ahead and add the following measure definition that calculates YTD revenue. Format the measure as currency with two decimal places.
+First, download and open the [**Adventure Works DW 2020 M07.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M07.pbix) file. Then, go ahead and add the following measure definition that calculates YTD revenue. Format the measure as currency with two decimal places.
 
 ```dax
 Revenue YTD =

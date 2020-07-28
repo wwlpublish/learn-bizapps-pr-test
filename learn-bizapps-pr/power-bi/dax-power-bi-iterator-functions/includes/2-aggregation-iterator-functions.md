@@ -2,7 +2,7 @@ Each single-column summarization function has its equivalent iterator function. 
 
 ## Complex summarization
 
-Let's now create our first measure that uses an iterator function. First, download and open the [**Adventure Works DW 2020 M05.pbix**]](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities) file. Go ahead and add the following measure definition:
+Let's now create our first measure that uses an iterator function. First, download and open the [**Adventure Works DW 2020 M05.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M05.pbix) file. Go ahead and add the following measure definition:
 
 ```dax
 Revenue =

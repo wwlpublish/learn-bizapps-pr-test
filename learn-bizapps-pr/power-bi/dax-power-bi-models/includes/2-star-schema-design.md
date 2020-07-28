@@ -29,7 +29,7 @@ In the model, dimension tables are related to fact tables by using one-to-many r
 
 Dimension tables can be used to filter multiple fact tables, and fact tables can be filtered by multiple dimension tables. However, it's not a good practice to relate a fact table directly to another fact table.
 
-To practice this concept, download the [**Adventure Works DW 2020 M01.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities) file, open the file, and then switch to the model diagram.
+To practice this concept, download the [**Adventure Works DW 2020 M01.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M01.pbix) file, open the file, and then switch to the model diagram.
 
 > [!div class="mx-imgBorder"]
 > [![An image shows seven model tables. The Sales table is located at the center of the diagram. The other six tables are placed about the Sales table.](../media/dax-star-schema-1-ss.png)](../media/dax-star-schema-1-ss.png#lightbox)
