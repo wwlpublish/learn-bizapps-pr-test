@@ -18,7 +18,7 @@ abstract: |
     - Create a simple process.
     - Use the debugger to run a process step by step.
     - Create a simple log message.
-prerequisites: 
+prerequisites: |
     - Installed WinAutomation
 iconUrl: /learn/achievements/first-steps-winautomation.svg  
 levels:  
@@ -35,10 +35,10 @@ units:
 - learn-bizapps.first-steps-winautomation.1-introduction
 - learn-bizapps.first-steps-winautomation.2-console-overview
 - learn-bizapps.first-steps-winautomation.3-process-designer-overview
-- learn-bizapps.first-steps-winautomation.4-create-simple-process 6
-- learn-bizapps.first-steps-winautomation.5-monitor-processes  5
-- learn-bizapps.first-steps-winautomation.6-exercise-create-simple-process 10
-- learn-bizapps.first-steps-winautomation.7-quiz 4
-- learn-bizapps.first-steps-winautomation.8-summary 1
+- learn-bizapps.first-steps-winautomation.4-create-simple-process
+- learn-bizapps.first-steps-winautomation.5-monitor-processes
+- learn-bizapps.first-steps-winautomation.6-exercise-create-simple-process
+- learn-bizapps.first-steps-winautomation.7-check
+- learn-bizapps.first-steps-winautomation.8-summary
 badge: 
   uid: learn-bizapps.first-steps-winautomation.badge 
