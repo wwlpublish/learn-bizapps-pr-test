@@ -21,7 +21,7 @@ quiz:
     - content: "False"
       isCorrect: true 
       explanation: "Well done! Processes can be executed through the Console and the Process Designer, as well as by triggers and schedules."
- - content: "Which of the following panes does not exist in the Process Designer?"
+  - content: "Which of the following panes does not exist in the Process Designer?"
     choices: 
     - content: "Image Repository"
       isCorrect: false 
