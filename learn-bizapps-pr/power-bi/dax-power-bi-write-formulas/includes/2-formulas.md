@@ -161,7 +161,7 @@ DIVIDE(
 )
 ```
 
-Try formatting the measure on your own. Open the [**Adventure Works DW 2020 M02.pbix**]](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/tree/main/activities) Power BI Desktop file and then, in the **Fields** pane, expand the Sales table and select the **Revenue YoY %** measure. Use tab and carriage return characters to produce the same result as the previous example. When you add a carriage return, remember to press the **Shift+Enter** shortcut keys.
+Try formatting the measure on your own. Open the [**Adventure Works DW 2020 M02.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M02.pbix) Power BI Desktop file and then, in the **Fields** pane, expand the Sales table and select the **Revenue YoY %** measure. Use tab and carriage return characters to produce the same result as the previous example. When you add a carriage return, remember to press the **Shift+Enter** shortcut keys.
 
 This measure definition can still be improved for readability and performance, which will be explained later in this module.
 
