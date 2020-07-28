@@ -1,6 +1,6 @@
 In this unit, you'll learn how to build prescheduled flows by using a trigger called *recurrence*. You'll build a flow for the Contoso marketing team that automatically pulls customer email addresses from a Microsoft Excel workbook on Microsoft OneDrive. You'll then set up the flow so that, once a day, any new email addresses that were added to the workbook are added to a MailChimp customer list.
 
-##Prerequisites
+## Prerequisites
 
 For this scenario, you will need to make an excel file with a table that contains the following columns: ContactEmail, FirstName, and LastName.
 
