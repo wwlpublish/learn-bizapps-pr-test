@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.first-steps-winautomation.2-console-overview 
+title: Console overview
+metadata: 
+  title: Console overview
+  description: Console overview
+  ms.date: 07/28/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-console-overview.md)] 
