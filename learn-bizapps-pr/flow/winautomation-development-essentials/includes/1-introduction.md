@@ -1,7 +1,6 @@
-# Introduction
 WinAutomation is an RPA software solution capable of automating rules-based tasks, enabling users to direct their attention to more productive and value-adding tasks.
 
-To provide automation that is sturdy, reliable, flexible, and user friendly, WinAutomation incorporates a multitude of features and capabilities, with the goal of empowering its users and covering a wide array of business tasks and tools.
+To provide automation that is sturdy, reliable, flexible, and user-friendly, WinAutomation incorporates a multitude of features and capabilities, with the goal of empowering its users and covering a wide array of business tasks and tools.
 
 In this module, you will get a first glance at the Process development capabilities that WinAutomation offers. You will create a Process using many of the features available in the Process Designer, familiarizing yourself with important principles and concepts along the way. You will also examine example Processes to further cement your understanding of the development capabilities available to you during Process development.
 

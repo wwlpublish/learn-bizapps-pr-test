@@ -1,4 +1,3 @@
-# Creating a Process – The Process Designer
 The first step in Process development is to create a new Process. The creation of a Process takes place in the **Processes** tab of the WinAutomation Console. On the top-left, press the **New Process** button to create a new Process:
  
 ![new process](..\media\new-process.png)
@@ -9,13 +8,12 @@ A window prompts the user to select the development method; for the scope of thi
 
 This will open the Process Designer window:
 
-![process designer default](..\media\process-designer-default
-.png)
+![process designer default](..\media\process-designer-default.png)
 
 The Process Designer is where all Processes are built, edited, and tested.
 
 ## Actions
-The Actions Pane is located by default on the left-hand side of the Process Designer; this is where all the available Actions can be found, sorted into groups. Actions are the basic building blocks of a Process; Processes are essentially series of Actions which are executed sequentially.
+The Actions Pane is located by default on the left-hand side of the Process Designer; this is where all the available Actions can be found, sorted into groups. Actions are the basic building blocks of a Process; Processes are essentially series of Actions, which are executed sequentially.
 
 To add an Action to the Process, simply drag & drop it to the main Workspace Pane, or double-click on it:
 
