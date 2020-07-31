@@ -1,0 +1,45 @@
+### YamlMime:Module 
+uid: learn-bizapps.winautomation-development-essentials 
+metadata: 
+ title: WinAutomation development essentials
+ description: This module covers the basic development features available in WinAutomation.
+ ms.date: 08/07/2020  
+ author: rokontol  
+ ms.author: rokontol  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: WinAutomation development essentials
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Basic development concepts such as actions, variables, conditionals and loops, as well as more advanced topics such as exception handling and debugging, are covered in this module.
+abstract: |  
+    In this module, you will:
+    - Create a Process from scratch using the Process Designer
+    - Learn how to use Actions and Variables
+    - Understand the testing and debugging features of the Process Designer
+    - Configure the Error Handling properties of individual Actions and blocks of actions
+    - Comprehend the use of controls and image controls, and their repositories
+    - Use functions to compartmentalize and reuse parts of a process
+prerequisites: |
+    - Basic familiarity with the WinAutomation Console
+iconUrl: /learn/achievements/winautomation-development-essentials.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-platform
+- power-automate
+units: 
+- learn-bizapps.winautomation-development-essentials.1-introduction 
+- learn-bizapps.winautomation-development-essentials.2-creating-a-process-the-process-designer 
+- learn-bizapps.winautomation-development-essentials.3-conditionals-and-loops 
+- learn-bizapps.winautomation-development-essentials.4-functions 
+- learn-bizapps.winautomation-development-essentials.5-testing-and-debugging 
+- learn-bizapps.winautomation-development-essentials.6-controls-and-images-repositories 
+- learn-bizapps.winautomation-development-essentials.7-exception-handling 
+- learn-bizapps.winautomation-development-essentials.8-summary 
+badge: 
+  uid: learn-bizapps.winautomation-development-essentials.badge 
