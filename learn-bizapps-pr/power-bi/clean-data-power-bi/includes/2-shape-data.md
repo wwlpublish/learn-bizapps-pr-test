@@ -53,8 +53,7 @@ The first step in shaping your initial data is to identify the column
 headers and names within the data and then evaluate where they are
 located to ensure that they are in the right place.
 
-In the following screenshot, the source data in the SalesTarget.csv
-file had a target categorized by products and a subcategory split by
+In the following screenshot, the source data in the csv file for SalesTarget (sample not provided) had a target categorized by products and a subcategory split by
 months, both of which are organized into columns. 
 
 > [!div class="mx-imgBorder"]
