@@ -73,7 +73,7 @@ VAR TotalCountryRevenue =
 RETURN
 	DIVIDE(
 		CurrentRegionRevenue,
-		TotalRegionRevenue
+		TotalCountryRevenue
 	)
 ```
 
@@ -116,7 +116,7 @@ By removing filters from the **Sales Territory** table **Region** and **Country
 
 You can use the [KEEPFILTERS](https://docs.microsoft.com/dax/keepfilters-function-dax/?azure-portal=true) DAX function as a filter expression in the CALCULATE function to preserve filters. It's more easily explained by an activity.
 
-Switch to **Page 2** of the report. Then, modify the **Revenue Red** measure definition to use the KEEPFILTERS function.
+Switch to **Page 1** of the report. Then, modify the **Revenue Red** measure definition to use the KEEPFILTERS function.
 
 ```dax
 Revenue Red =
