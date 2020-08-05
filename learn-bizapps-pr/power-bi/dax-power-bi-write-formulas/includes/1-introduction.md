@@ -59,9 +59,6 @@ In the **Fields** pane, calculated columns are enhanced with a special icon. The
 > [!div class="mx-imgBorder"]
 > [![The image shows a section of the Fields pane. Inside the Customer table, there are multiple fields. One is adorned with the special icon, which indicates that it's a calculated column.](../media/dax-fields-pane-calculated-column-ss.png)](../media/dax-fields-pane-calculated-column-ss.png#lightbox)
 
-> [!NOTE]
-> The calculated column special icon is only visible in Power BI Desktop when you are developing the model. Report users that create a live connection to the model won't see this icon. In fact, a way now exists for them to determine that a column is a calculated column.
-
 ## Measures
 
 You can write a DAX formula to add a measure to any table in your model. The formula is concerned with achieving summarization over model data. Similar to a calculated column, the formula must return a single value. Unlike calculated columns, which are evaluated at data refresh time, measures are evaluated at query time and their results are never stored in the model.

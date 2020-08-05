@@ -4,9 +4,6 @@ Each model calculation type, calculated table, calculated column, or measure is 
 <Calculation name> = <DAX formula>
 ```
 
-> [!NOTE]
-> A calculation name cannot include leading or trailing spaces, control characters, or the following special characters: .,;':/\*|?&%$!+=()[]{}<>
-
 For example, the definition of the Ship Date calculated table that duplicates the Date table data is:
 
 ```dax
