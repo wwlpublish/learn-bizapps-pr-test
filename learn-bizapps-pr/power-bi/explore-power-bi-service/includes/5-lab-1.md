@@ -74,7 +74,7 @@ Reports are viewed on many different devices, with varying screen sizes and aspe
 
 3.  The first three options control the display of your report. Select each of the three options to learn how they work.
     *   To display your report page at the largest size possible without resorting to scrollbars, select **Fit to page**.
-    *   Too fill the entire width of the available space. Select the **Fit to width**.
+    *   To fill the entire width of the available space. Select the **Fit to width**.
     *   To view the report at the best resolution (and if you don’t mind the possibility of double scrollbars), select **Actual size**.
 
      <!-- this gif uses the old report, not the app  ![Animted image of View menu options.](../media/lab-1/power-bi-view-options.gif)-->
