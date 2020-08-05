@@ -1,5 +1,5 @@
 ### YamlMime:Module 
-uid: learn-bizapps.power-virtual-agent-bots 
+uid: learn-bizapps.power-virtual-s-bots 
 metadata: 
  title: Get started with Power Virtual Agents bots
  description: Learn about Power Virtual Agents bots. 
@@ -11,14 +11,14 @@ metadata:
 title: Get started with Power Virtual Agents bots 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-   Create a Power Virtual Agent bot in this module. 
+   Create a Power Virtual Agents bot in this module. 
 abstract: |  
     In this module, you will: 
     - Create bots
     - Test bots
     - Analyze performance
 prerequisites: None 
-iconUrl: /learn/achievements/power-virtual-agent-bots.svg  
+iconUrl: /learn/achievements/power-virtual-agents-bots.svg  
 levels:  
 - beginner   
 roles:  
@@ -27,13 +27,13 @@ products:
 - power-platform 
 - power-virtual-agents 
 units: 
-- learn-bizapps.power-virtual-agent-bots.1-introduction 
-- learn-bizapps.power-virtual-agent-bots.2-get-started 
-- learn-bizapps.power-virtual-agent-bots.3-create-bots 
-- learn-bizapps.power-virtual-agent-bots.4-topics 
-- learn-bizapps.power-virtual-agent-bots.5-test-bots 
-- learn-bizapps.power-virtual-agent-bots.6-performance-analysis 
-- learn-bizapps.power-virtual-agent-bots.7-check 
-- learn-bizapps.power-virtual-agent-bots.8-summary 
+- learn-bizapps.power-virtual-agents-bots.1-introduction 
+- learn-bizapps.power-virtual-agents-bots.2-get-started 
+- learn-bizapps.power-virtual-agents-bots.3-create-bots 
+- learn-bizapps.power-virtual-agents-bots.4-topics 
+- learn-bizapps.power-virtual-agents-bots.5-test-bots 
+- learn-bizapps.power-virtual-agents-bots.6-performance-analysis 
+- learn-bizapps.power-virtual-agents-bots.7-check 
+- learn-bizapps.power-virtual-agents-bots.8-summary 
 badge: 
-  uid: learn-bizapps.power-virtual-agent-bots.badge 
+  uid: learn-bizapps.power-virtual-agents-bots.badge 
