@@ -3,12 +3,12 @@ Before you start creating bots, it is important to consider what the bot is goin
 Bots are created by selecting the bot icon in the PVA interface. As mentioned previously, bots are created per environment. By default all bots will be created in the [default Power Apps environment for your organization or tenant](https://docs.microsoft.com/power-virtual-agents/environments-first-run-experience/?azure-portal=true) unless otherwise specified. You can select which environment to use by selecting more options to see a list of available environments.
 
 > [!div class="mx-imgBorder"]
-> [![New bot button and environment and bot association](../media/power-virtual-agents-3-1-ssm.png)](../media/power-virtual-agents-3-1-ssm.png#lightbox)
+> [![New bot button and environment and bot association](../media/power-virtual-agents-3-1-ssm.png)](../media/power-virtual-agents-3-2-ssm.png#lightbox)
 
 In the **Create a new bot** dialog box, enter a name for your bot. Select **Create** to begin the bot-building process, which can take up to 15 minutes for the first bot you create in an environment. Subsequent bots take less than a few minutes to create.
 
 > [!div class="mx-imgBorder"]
-> [![change environment](../media/power-virtual-agents-3-2-ssm.png)](../media/power-virtual-agents-3-2-ssm.png#lightbox)
+> [![change environment](../media/power-virtual-agents-3-2-ssm.png)](../media/power-virtual-agents-3-1-ssm.png#lightbox)
 
 ## Deleting a bot
 
