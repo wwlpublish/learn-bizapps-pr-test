@@ -8,14 +8,14 @@ Bots are created by selecting the bot icon in the PVA interface. As mentioned pr
 In the **Create a new bot** dialog box, enter a name for your bot. Select **Create** to begin the bot-building process, which can take up to 15 minutes for the first bot you create in an environment. Subsequent bots take less than a few minutes to create.
 
 > [!div class="mx-imgBorder"]
-> [![change environment](../media/power-virtual-agents-3-2-ssm.png)](../media/power-virtual-agents-3-3-ssm.png#lightbox)
+> [![change environment](../media/power-virtual-agents-3-2-ssm.png)](../media/power-virtual-agents-3-2-ssm.png#lightbox)
 
 ## Deleting a bot
 
 Bots that are no longer needed can be removed from your environment. This may happen in scenarios where it is being replaced with a different bot, or if the bot just does not fit the needs of your organization anymore. Use the bot icon on the top menu bar, and then select the bot you want to delete. The Delete Bot option is available from the Settings icon on the top menu bar and selecting general settings.
 
 > [!div class="mx-imgBorder"]
-> [![general settings](../media/power-virtual-agents-3-3-ssm.png)](../media/power-virtual-agents-3-1-ssm.png#lightbox)
+> [![general settings](../media/power-virtual-agents-3-3-ssm.png)](../media/power-virtual-agents-3-3-ssm.png#lightbox)
 
 ## Working with the Power Virtual Agents user interface
 
