@@ -16,7 +16,7 @@ Due Fiscal Year =
 "FY"
 	& YEAR('Due Date'[Due Date])
 		+ IF(
-			MONTH('Due Date'[Due Date]) <= 6,
+			MONTH('Due Date'[Due Date]) > 6,
 			1
 		)
 ```
@@ -27,7 +27,7 @@ The calculated column definition adds the **Due Fiscal Year** column to the Du
 
 1.  The [YEAR](https://docs.microsoft.com/dax/year-function-dax/?azure-portal=true) DAX function returns the whole number value of the due date year.
 
-1.  The [IF](https://docs.microsoft.com/dax/if-function-dax/?azure-portal=true) DAX function returns the value when the due date month number is 1-6 (June to December); otherwise, it returns BLANK. (For example, because the Adventure Works financial year is July-June, the first six months of the calendar year will use the next calendar year as their financial year.)
+1.  The [IF](https://docs.microsoft.com/dax/if-function-dax/?azure-portal=true) DAX function returns the value when the due date month number is 7-12 (July to December); otherwise, it returns BLANK. (For example, because the Adventure Works financial year is July-June, the last six months of the calendar year will use the next calendar year as their financial year.)
 
 1.  The year value is added to the value that is returned by the IF function, which is the value one or BLANK. If the value is BLANK, it's implicitly converted to zero (0) to allow the addition to produce the fiscal year value.
 
