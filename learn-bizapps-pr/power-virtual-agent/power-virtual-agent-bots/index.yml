@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-virtual-agent-bots 
 metadata: 
- title: Get started Power Virtual Agent bots
- description: Learn about Power Virtual Agent bots. 
- ms.date: 07/17/2020  
+ title: Get started with Power Virtual Agents bots
+ description: Learn about Power Virtual Agents bots. 
+ ms.date: 08/10/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-virtual-agents  
-title: Get started Power Virtual Agent bots 
+title: Get started with Power Virtual Agents bots 
 summary: |  
   [!include[](../includes/module-banner.md)] 
    Create a Power Virtual Agent bot in this module. 
@@ -24,6 +24,7 @@ levels:
 roles:  
 - maker  
 products:  
+- power-platform 
 - power-virtual-agents 
 units: 
 - learn-bizapps.power-virtual-agent-bots.1-introduction 
