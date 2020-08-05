@@ -1,6 +1,6 @@
-After your bot content has been authored, it needs to be published to allow customers to engage with it. Published bots can be made available across multiple platforms and channels. Before a bot can be added to channels, interacted with, or shared with team members, it will need to be published at least once. For example, a bot can be deployed to organizational websites, mobile applications, and messaging platforms such as Microsoft Teams or Facebook.
+After your bot content has been authored, it needs to be published to allow customers to engage with it. Published bots can be made available across multiple platforms and channels. Before a bot can be added to channels, interacted with, or used by team members, it will need to be published at least once. For example, a bot can be deployed to organizational websites, mobile applications, and messaging platforms such as Microsoft Teams or Facebook.
 
-Publishing bots as you make changes also ensures customers are engaging with the latest bot content. For example, let's say that your organizations store hours change. After you edit the Store Hours topic to reflect the changes, you will need to publish it again from within the Power Virtual Agents application itself. Once published again, the updated content will be used by all channels the bot is inserted in or connected to.
+Publishing bots as you make changes also ensures customers are engaging with the latest bot content. For example, let's say that your organizations store hours change. After you edit the Store Hours topic to reflect the changes, you will need to publish it again from within the Power Virtual Agents portal itself. Once published again, the updated content will be used by all channels the bot is configured on.
 
 ## Publishing a bot
 
