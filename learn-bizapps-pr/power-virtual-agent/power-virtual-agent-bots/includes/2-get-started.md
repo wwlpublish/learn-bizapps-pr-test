@@ -1,9 +1,9 @@
-Obtain a [trial environment](https://powervirtualagents.microsoft.com/?azure-portal=true) to assist you in completing training, evaluating the product, and other areas. Select Try free to begin to deploy a Power Virtual Agent trial.
+You can obtain a trial license to assist you in completing training and evaluating the product by going to [trial environment](https://powervirtualagents.microsoft.com/?azure-portal=true). Select Start free to begin  a Power Virtual Agents trial.  
 
 > [!NOTE]
 > You will need to sign in with a work email address as personal Microsoft accounts are not currently supported.
 
-## Understanding how environments impact PVA bots
+## Define how to work with environments 
 
 Many organizations today have a global presence and service customers in multiple regions, countries, or continents. This can result in needing different types of interactions based on factors such as different data being available and resolutions based on departments or locations. Your organization may need to deploy similar bots in different regions that interact with systems and data for those areas. Power Virtual Agents accommodates this by letting you create bots in different environments and easily switch between them.
 
@@ -34,6 +34,6 @@ For each environment, you will need to provide the following:
 > [!div class="mx-imgBorder"]
 > [![name, environment and region for environment](../media/power-virtual-agents-2-1-ssm.png)](../media/power-virtual-agents-2-1-ssm.png#lightbox)
 
-If you want to have a Common Data Service (CDS) database created for the environment to leverage entities like Accounts, Contacts, and other business-related data, you can set the Create a database for this environment field to Yes. **You should also select yes, if you are using Power Virtual Agents in conjunction with other Dynamics 365 applications.** Data from CDS can be used in bots to provide tailored customer experience. Once created, new bots can be deployed to the environment from the Power Virtual Agents Portal.
+If you want to have a Dataflex database created for the environment to leverage entities like Accounts, Contacts, and other business-related data, you can set the Create a database for this environment field to Yes. **You should also select yes, if you are using Power Virtual Agents in conjunction with other Dynamics 365 applications.** Data from CDS can be used in bots to provide tailored customer experiences. Once created, new bots can be deployed to the environment from the Power Virtual Agents Portal.
 
 More information on [creating environments](https://docs.microsoft.com/power-virtual-agents/environments-first-run-experience#create-a-new-environment-for-your-bots/?azure-portal=true). 
