@@ -4,12 +4,12 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 07/17/2020 
+ ms.date: 08/10/2020 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-virtual-agents 
-durationInMinutes: 3 
+durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
