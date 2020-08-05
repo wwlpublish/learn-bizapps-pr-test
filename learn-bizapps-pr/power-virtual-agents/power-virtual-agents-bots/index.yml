@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.power-virtual-agent-bots 
+metadata: 
+ title: Get started with Power Virtual Agents bots
+ description: Learn about Power Virtual Agents bots. 
+ ms.date: 08/10/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-virtual-agents  
+title: Get started with Power Virtual Agents bots 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+   Create a Power Virtual Agent bot in this module. 
+abstract: |  
+    In this module, you will: 
+    - Create bots
+    - Test bots
+    - Analyze performance
+prerequisites: None 
+iconUrl: /learn/achievements/power-virtual-agent-bots.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+products:  
+- power-platform 
+- power-virtual-agents 
+units: 
+- learn-bizapps.power-virtual-agent-bots.1-introduction 
+- learn-bizapps.power-virtual-agent-bots.2-get-started 
+- learn-bizapps.power-virtual-agent-bots.3-create-bots 
+- learn-bizapps.power-virtual-agent-bots.4-topics 
+- learn-bizapps.power-virtual-agent-bots.5-test-bots 
+- learn-bizapps.power-virtual-agent-bots.6-performance-analysis 
+- learn-bizapps.power-virtual-agent-bots.7-check 
+- learn-bizapps.power-virtual-agent-bots.8-summary 
+badge: 
+  uid: learn-bizapps.power-virtual-agent-bots.badge 
