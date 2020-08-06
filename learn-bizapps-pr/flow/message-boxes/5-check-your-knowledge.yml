@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.message-boxes.5-check-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07/2020 
+ author: rokontol 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Message boxes are only used to provide input to the Process."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; message boxes can be used to provide input to the Process, and output to the user."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct! Message boxes can be used to provide input to the Process, and output to the user."
+  - content: "The Display Message Box Action displays a message to the user; the buttons on the message box are OK and Cancel and cannot be changed."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; the buttons in the Display Message Box Action can be changed. Multiple preset button combinations are available."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct! The buttons in the Display Message Box Action can be changed. Multiple preset button combinations are available."
+  - content: "Users can create custom dialog windows; which of the following may a custom dialog window contain?"
+    choices: 
+    - content: "Buttons"
+      isCorrect: false
+      explanation: "That is false; custom dialog windows may contain Buttons, Checkboxes, Text, and many more types of elements."
+    - content: "Checkboxes"
+      isCorrect: false 
+      explanation: "That is false; custom dialog windows may contain Buttons, Checkboxes, Text, and many more types of elements."
+    - content: "Text"
+      isCorrect: false 
+      explanation: "That is false; custom dialog windows may contain Buttons, Checkboxes, Text, and many more types of elements."
+    - content: "All the above"
+      isCorrect: false 
+      explanation: "That is false; custom dialog windows may contain Buttons, Checkboxes, Text, and many more types of elements."
+    - content: "None of the above"
+      isCorrect: true
+      explanation: "That is correct! Custom dialog windows may contain Buttons, Checkboxes, Text, and many more types of elements."

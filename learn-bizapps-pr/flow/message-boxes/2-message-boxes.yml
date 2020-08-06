@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.message-boxes.2-message-boxes 
+title: Message boxes
+metadata: 
+  title: Message boxes
+  description: Message boxes
+  ms.date: 08/07/2020 
+  author: rokontol 
+  ms.author: rokontol 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-message-boxes.md)] 

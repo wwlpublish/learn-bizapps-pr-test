@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.message-boxes.3-excercise-message-boxes 
+title: Exercise - message boxes
+metadata: 
+  title: Exercise - message boxes
+  description: Exercise - message boxes
+  ms.date: 08/07/2020 
+  author: rokontol 
+  ms.author: rokontol 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-excercise-message-boxes.md)] 
