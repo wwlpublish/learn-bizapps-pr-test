@@ -11,11 +11,11 @@ metadata:
 title: Get started with Power Virtual Agents bots 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-   Create a Microsoft Power Virtual Agent bot in this module. 
+   Create a Microsoft Power Virtual Agents bot in this module. 
 abstract: |  
     In this module, you will: 
-    - Create Power Virtual Agent bots.
-    - Test Power Virtual Agent bots.
+    - Create Power Virtual Agents bots.
+    - Test Power Virtual Agents bots.
     - Analyze performance.
 prerequisites: None 
 iconUrl: /learn/achievements/power-virtual-agent-bots.svg  
