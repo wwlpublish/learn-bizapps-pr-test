@@ -1,0 +1,43 @@
+### YamlMime:Module 
+uid: learn-bizapps.introduction-to-winautomation 
+metadata: 
+ title: Introduction to WinAutomation
+ description: An overview of the basic features and structure of WinAutomation.
+ ms.date: 08/07//2020  
+ author: mariosleon  
+ ms.author: marleon  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Introduction to WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  An overview of the basic features and structure of WinAutomation.
+abstract: |  
+    In this module, you will: 
+    - Learn about the various components that make up WinAutomation
+    - Examine the difference between RDA and RPA
+    - Get an overview of the various features of WinAutomation
+prerequisites: |
+iconUrl: /learn/achievements/introduction-to-winautomation.svg  
+levels:  
+- beginner   
+roles:  
+- administrator
+- maker  
+- business-user  
+- developer 
+- functional-consultant
+products:  
+- power-platform
+- power-automate
+units: 
+- learn-bizapps.introduction-to-winautomation.1-introduction 
+- learn-bizapps.introduction-to-winautomation.2-the-process-designer 
+- learn-bizapps.introduction-to-winautomation.3-the-console 
+- learn-bizapps.introduction-to-winautomation.4-rda-vs-rpa 
+- learn-bizapps.introduction-to-winautomation.5-architecture 
+- learn-bizapps.introduction-to-winautomation.6-winautomation-features 
+- learn-bizapps.introduction-to-winautomation.7-check-your-knowledge 
+- learn-bizapps.introduction-to-winautomation.8-summary 
+badge: 
+  uid: learn-bizapps.introduction-to-winautomation.badge 

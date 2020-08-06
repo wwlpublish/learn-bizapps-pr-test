@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.introduction-to-winautomation.5-architecture 
+title: Architecture
+metadata: 
+  title: Architecture
+  description: Architecture
+  ms.date: 08/07//2020 
+  author: mariosleon 
+  ms.author: marleon 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-architecture.md)] 

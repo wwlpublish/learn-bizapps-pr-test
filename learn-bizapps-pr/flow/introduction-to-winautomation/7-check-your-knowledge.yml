@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.introduction-to-winautomation.7-check-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07//2020 
+ author: mariosleon 
+ ms.author: marleon 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Processes are built in the Process Designer, and tested in the Process Tester."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; processes are built and tested in the Process Designer."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct! Processes are built and tested in the Process Designer."
+  - content: "The execution of processes through schedules and triggers is configured in the Console."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct! The automatic execution of processes is configured in the Console."
+    - content: "False"
+      isCorrect: false
+      explanation: "That is false; the automatic execution of processes is configured in the Console."
+  - content: "Which of these features is not included in WinAutomation?"
+    choices: 
+    - content: "User Monitoring System"
+      isCorrect: true 
+      explanation: "That is correct! WinAutomation does not monitor users' behavior."
+    - content: "Parallel process execution"
+      isCorrect: false
+      explanation: "That is false; multiple processes may be executed in parallel."
+    - content: "Multi-layer exception handling"
+      isCorrect: false
+      explanation: "That is false; there are 4 levels of exception and error handling in WinAutomation."
+    - content: "Detailed logs"
+      isCorrect: false 
+      explanation: "That is false; the Logs tab in the Console contains detailed information about WinAutomation."
