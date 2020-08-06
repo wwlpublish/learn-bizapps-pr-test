@@ -1,0 +1,44 @@
+### YamlMime:Module 
+uid: learn-bizapps.loops 
+metadata: 
+ title: Automating repetitive tasks using loops in WinAutomation
+ description: In this module, we will examine different ways of repeating blocks of actions in a process. 
+ ms.date: 08/07//2020  
+ author: rokontol  
+ ms.author: rokontol  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Automating repetitive tasks using loops in WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Loops are used to automate repetitive tasks by executing a block of actions multiple times.
+abstract: |  
+    In this module, you will: 
+    - Use simple Loops to perform a given number of repetitions and iterate through data
+    - Deploy Loop Conditions in order to repeat Actions until a condition is met
+    - Iterate through the items of a list using For Each loops
+    - Explicitly end loops when required
+prerequisites: |
+    - Basic familiarity with the WinAutomation Process Designer
+    - Basic familiarity with Lists, Tables, and the square brackets notation
+iconUrl: /learn/achievements/loops.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer
+- functional-consultant 
+products:  
+- power-platform
+- power-automate 
+units: 
+- learn-bizapps.loops.1-introduction 
+- learn-bizapps.loops.2-loop-actions 
+- learn-bizapps.loops.3-simple-loop 
+- learn-bizapps.loops.4-for-each-loop 
+- learn-bizapps.loops.5-loop-condition 
+- learn-bizapps.loops.6-exercise-loops 
+- learn-bizapps.loops.7-check-your-knowledge 
+- learn-bizapps.loops.8-summary 
+badge: 
+  uid: learn-bizapps.loops.badge 

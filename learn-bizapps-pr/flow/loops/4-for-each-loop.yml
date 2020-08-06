@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.loops.4-for-each-loop 
+title: For Each loop
+metadata: 
+  title: For Each loop
+  description: For Each loop
+  ms.date: 08/07//2020 
+  author: rokontol 
+  ms.author: rokontol 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-for-each-loop.md)] 

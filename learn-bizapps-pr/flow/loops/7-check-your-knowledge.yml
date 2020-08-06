@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.loops.7-check-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07//2020 
+ author: rokontol 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "If the number of repetitions is known in advance which type of Loop should be used?"
+    choices: 
+    - content: "Loop Condition"
+      isCorrect: false
+      explanation: "That is false; the Loop action is ideal for a known number of repetitions."
+    - content: "Loop"
+      isCorrect: true 
+      explanation: "That is correct! The Loop action is ideal for a known number of repetitions."
+    - content: "For Each"
+      isCorrect: false 
+      explanation: "That is false; the Loop action is ideal for a known number of repetitions."
+    - content: "Any of the above"
+      isCorrect: false 
+      explanation: "That is false; the Loop action is ideal for a known number of repetitions."
+  - content: "The actions contained within a For Each loop repeat for each item in a list or data table."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct! For Each repeats once for each iten in a list or data table."
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; For Each repeats once for each iten in a list or data table."
