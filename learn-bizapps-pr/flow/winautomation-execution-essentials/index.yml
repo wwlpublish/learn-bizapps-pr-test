@@ -1,0 +1,45 @@
+### YamlMime:Module 
+uid: learn-bizapps.winautomation-execution-essentials 
+metadata: 
+ title: WinAutomation execution essentials
+ description: This module covers the basic execution options available in WinAutomation.
+ ms.date: 29/07/2020  
+ author: rokontol  
+ ms.author: rokontol  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: WinAutomation execution essentials
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  All the available process execution options, including manual and automatic execution, will be covered in this topic.
+abstract: |  
+    In this module, you will: 
+    - Start a Process manually through the Console
+    - Configure the automatic execution of Processes
+    - Start Processes through command line, through other Processes, and through PowerAutomate
+    - Review audit logs regarding Process execution
+prerequisites: 
+    - Basic familiarity with the WinAutomation Console
+    - PowerAutomate account
+iconUrl: /learn/achievements/winautomation-execution-essentials.svg  
+levels:  
+- beginner   
+roles:  
+- administrator
+- maker  
+- business-user  
+- developer 
+- functional-consultant
+products:  
+- power-platform
+- power-automate
+units: 
+- learn-bizapps.winautomation-execution-essentials.1-introduction 
+- learn-bizapps.winautomation-execution-essentials.2-executing-a-process-through-the-console 
+- learn-bizapps.winautomation-execution-essentials.3-automatic-execution 
+- learn-bizapps.winautomation-execution-essentials.4-other-methods-of-execution 
+- learn-bizapps.winautomation-execution-essentials.5-logging-and-auditing 
+- learn-bizapps.winautomation-execution-essentials.6-check-your-knowledge 
+- learn-bizapps.winautomation-execution-essentials.7-summary 
+badge: 
+  uid: learn-bizapps.winautomation-execution-essentials.badge 
