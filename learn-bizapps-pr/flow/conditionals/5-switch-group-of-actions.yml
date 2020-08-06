@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.conditionals.5-switch-group-of-actions 
+title: Switch group of actions
+metadata: 
+  title: Switch group of actions
+  description: Switch group of actions
+  ms.date: 08/07/2020 
+  author: rokontol 
+  ms.author: rokontol 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-switch-group-of-actions.md)] 

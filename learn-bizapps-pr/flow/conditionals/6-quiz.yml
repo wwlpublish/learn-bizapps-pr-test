@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.conditionals.7-quiz 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07/2020 
+ author: rokontol 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "An If block may have unlimited alternative conditions."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct! There is no limit to the number of Else If actions that can be added to an If block."
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; There is no limit to the number of Else If actions that can be added to an If block."
+  - content: "One of the differences between If and Switch is that there is no unconditional case in a Switch block."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; both If and Switch blocks support unconditional cases."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct! Both If and Switch blocks support unconditional cases."
+  - content: "Switch is useful for checking the values of multiple variables against multiple values."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; Switch only checks the value of one variable against multiple values."
+    - content: "False"
+      isCorrect: true
+      explanation: "That is correct! Switch only checks the value of one variable against multiple values."

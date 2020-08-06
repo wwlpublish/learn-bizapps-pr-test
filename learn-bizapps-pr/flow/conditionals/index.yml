@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.conditionals 
+metadata: 
+ title: Conditional actions in WinAutomation
+ description: In this module, we will discuss the use of conditional actions in WinAutomation processes.
+ ms.date: 08/07/2020
+ author: rokontol
+ ms.author: rokontol
+ ms.topic: interactive-tutorial
+ ms.prod: learning-power-automate
+title: Conditional actions in WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Conditional actions allow processes to modify their behavior during runtime, based on the information available to it at the time.
+abstract: |  
+    In this module, you will: 
+    - Use the “If” group of conditionals to evaluate any type of condition
+    - Deploy the “Switch” group of conditionals in order to compare a single variable with multiple possible values
+    - Explore additional options when evaluating conditions
+    - Provide default and alternative behaviors to Processes based on the available data
+prerequisites: |
+    - Basic familiarity with the WinAutomation Process Designer
+iconUrl: /learn/achievements/conditionals.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-platform
+- power-automate
+units: 
+- learn-bizapps.conditionals.1-introduction 
+- learn-bizapps.conditionals.2-conditional-actions 
+- learn-bizapps.conditionals.3-if-group-of-actions 
+- learn-bizapps.conditionals.4-exercise-if-group-of-actions 
+- learn-bizapps.conditionals.5-switch-group-of-actions 
+- learn-bizapps.conditionals.6-quiz 
+- learn-bizapps.conditionals.7-summary 
+badge: 
+  uid: learn-bizapps.conditionals.badge 

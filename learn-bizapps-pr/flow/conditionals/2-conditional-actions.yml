@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.conditionals.2-conditional-actions 
+title: Conditional actions
+metadata: 
+  title: Conditional actions
+  description: Conditional actions
+  ms.date: 08/07/2020 
+  author: rokontol 
+  ms.author: rokontol 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-conditional-actions.md)] 
