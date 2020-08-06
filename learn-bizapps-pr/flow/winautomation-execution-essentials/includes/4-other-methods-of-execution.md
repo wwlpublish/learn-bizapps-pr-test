@@ -18,14 +18,14 @@ A process can be started by another, separate flow, through the use of the Start
 
 ![start process action properties](..\media\start-process-action-properties.png)
 
-Simply select any flow from the drop-down list, and when this action is executed, the selected flow will begin its execution.
+Select any flow from the drop-down list, and when this action is executed, the selected flow will begin its execution.
 ## Through Power Automate
 WinAutomation process may also be invoked through a UI flow in Power Automate. Simple add an action in a UI flow, and select the Run WInAutomation option:
  
 
 ![run winautomation ui flows action](..\media\run-winautomation-ui-flows-action.png)
 
-At this point, you will have to enter the flow’s path within WinAutomation, as well as any arguments required:
+At this point, you'll have to enter the flow’s path within WinAutomation, as well as any arguments required:
  
 
 ![run winautomation ui flows properties](..\media\run-winautomation-ui-flows-properties.png)

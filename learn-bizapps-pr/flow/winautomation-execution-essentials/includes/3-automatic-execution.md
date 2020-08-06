@@ -1,7 +1,7 @@
 # Automatic Execution
-Manually starting processes, while, useful, is not always optimal. Ideally, an automated task should be completed autonomously. In WinAutomation, processes can be executed automatically, using Schedules and Triggers.
+Manually starting processes, while, useful, isn't always optimal. Ideally, an automated task should be completed autonomously. In WinAutomation, processes can be executed automatically, using Schedules and Triggers.
 ## Schedules
-Schedules allow users to configure the execution of processes based on date- and time-based information – information like the date, day of week/month, time of day, time intervals, etc.
+Schedules allow users to configure the execution of processes based on date- and time-based information – information like the date, day of week/month, time of day, time intervals, and so on.
 
 To  access the schedules, navigate to the **Scheduler** tab of the Console. Upon pressing the **New** button, two options become available: **Schedule** and **Recurring Schedule**:
  
@@ -15,18 +15,18 @@ Schedules are based on absolute date & time values; a Schedule is activated dail
 
 Additional configuration options for each Schedule type appear when the type is selected.
 
-For instance, a process which must be executed on the 1st, 15th, and last work day of each month, at noon, would be configured as below:
+For instance, a process that must be executed on the 1st, 15th, and last work day of each month, at noon, would be configured as below:
  
 
 ![schedule properties continued](..\media\schedule-properties-continued.png)
 
-Contrary to simple Schedules, Recurring Schedules are based on time intervals. After the designated interval has passed, the process is executed:
+Contrary to simple Schedules, Recurring Schedules are based on time intervals. After the chosen interval has passed, the process is executed:
  
 
 ![recurring schedule properties](..\media\recurring-schedule-properties.png)
 
 ## Triggers
-As opposed to Schedules, Triggers are used to execute processes in response to certain events, rather than date or time. Therefore, they are used to automate a task that does not adhere to a strict schedule, but is dependent on another factor, e.g. a specific kind of email message, a file or database change, etc.
+As opposed to Schedules, Triggers are used to execute processes in response to certain events, rather than date or time. That's why they are used to automate a task that does not adhere to a strict schedule, but depends another factor, for example a specific kind of email message, a file or database change, etc.
 
 Triggers can be accessed through the **Triggers** tab of the Console. Press the **New** button to choose between the different available Triggers:
  
