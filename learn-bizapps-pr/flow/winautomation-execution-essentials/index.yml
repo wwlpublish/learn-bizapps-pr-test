@@ -18,7 +18,7 @@ abstract: |
     - Configure the automatic execution of Processes
     - Start Processes through command line, through other Processes, and through PowerAutomate
     - Review audit logs regarding Process execution
-prerequisites: 
+prerequisites: |
     - Basic familiarity with the WinAutomation Console
     - PowerAutomate account
 iconUrl: /learn/achievements/winautomation-execution-essentials.svg  
