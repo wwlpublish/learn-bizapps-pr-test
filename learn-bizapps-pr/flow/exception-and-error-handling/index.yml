@@ -1,0 +1,44 @@
+### YamlMime:Module 
+uid: learn-bizapps.exceptions-handling 
+metadata: 
+ title: Exception and error handling in WinAutomation
+ description: In this module, we'll discuss how to configure exception and error handling behaviour. 
+ ms.date: 08/07/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Exception and error handling in WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Exception and error handling is a mechanism which allows WinAutomation to handle and recover from unexpected circumstances and issues that might occur during the execution of a process. 
+abstract: |  
+    In this module, you will: 
+    - Configure the exception handling properties of individual actions.
+    - Set up exception blocks which will handle possible exceptions from groups of actions.
+    - Configure the error handling properties of individual processes.
+    - Apply global error handling properties which will come into effect when any process fails.
+prerequisites: |
+    - Basic familiarity with the WinAutomation Console and Process Designer.
+iconUrl: /learn/achievements/exceptions-handling.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+- administrator
+- functional-consultant
+products:  
+- power-platform 
+- power-automate
+units: 
+- learn-bizapps.exceptions-handling.1-introduction 
+- learn-bizapps.exceptions-handling.2-error-handling-levels 
+- learn-bizapps.exceptions-handling.3-error-handling-level-one-level-two 
+- learn-bizapps.exceptions-handling.4-exercise-exception-handling 
+- learn-bizapps.exceptions-handling.5-error-handling-level-three-level-four 
+- learn-bizapps.exceptions-handling.6-exercise-exception-handling 
+- learn-bizapps.exceptions-handling.7-check-knowledge
+- learn-bizapps.exceptions-handling.8-summary 
+badge: 
+  uid: learn-bizapps.exceptions-handling.badge 

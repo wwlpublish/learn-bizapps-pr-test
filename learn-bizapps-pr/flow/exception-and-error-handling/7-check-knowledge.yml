@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.exceptions-handling.7-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "If a process has its own error handling settings configured, and the global error handling settings in the Console settings are also configured, what happens when the process crashes?"
+    choices: 
+    - content: "The process' error handling settings take effect."
+      isCorrect: true 
+      explanation: "Correct! A process' individual error handling overrides the global error handling."
+    - content: "The global (Console's) error handling settings take effect."
+      isCorrect: false 
+      explanation: "That is false; a process' individual error handling overrides the global error handling."
+    - content: "The process' settings, and then the global settings, take effect."
+      isCorrect: false 
+      explanation: "That is false; a process' individual error handling overrides the global error handling."
+    - content: "The global settings, and then the process' settings, take effect."
+      isCorrect: false 
+      explanation: "That is false; a process' individual error handling overrides the global error handling."
+  - content: "Global error handling takes effect if any process fails; this can be overridden by individual processes"
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct! Global error handling affects all processes which do not have individual error handling settings configured."
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; global error handling affects all processes which do not have individual error handling settings configured."
+  - content: "Which level(s) can be configured only in the Console?
+a.	Actions level
+b.	Block of actions level
+c.	Process level
+d.	Global level"
+    choices: 
+    - content: "A and B"
+      isCorrect: false 
+      explanation: "That is false; both the actions level and the block of actions level are configured in the Process Designer."
+    - content: "B and C"
+      isCorrect: false 
+      explanation: "That is false; the block of actions level is configured in the Process Designer."
+    - content: "C and D"
+      isCorrect: true 
+      explanation: "That is true; both the process level and the global level are configured in the Console."
+    - content: "D"
+      isCorrect: false 
+      explanation: "That is false; the process level is also configured in the Console."
