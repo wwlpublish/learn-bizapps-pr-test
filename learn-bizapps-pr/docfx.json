@@ -74,6 +74,17 @@
         "dest": "modules"
       },
       {
+        "src": "power-virtual-agents",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
         "src": "powerapps",
         "files": [
           "**.yml",
@@ -199,6 +210,17 @@
       },
       {
         "src": "power-bi",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
+        "src": "power-virtual-agents",
         "files": [
           "**/*.gif",
           "**/*.png",
