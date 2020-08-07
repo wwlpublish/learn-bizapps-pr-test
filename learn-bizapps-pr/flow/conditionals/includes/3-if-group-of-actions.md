@@ -5,6 +5,7 @@ Consider the following Process: an Excel file contains incoming support ticket i
 First, we open the Excel report and determine the range of the data. Then, we will loop through each row, reading the urgency and subscription plan:
 
 ![Read from excel loop](..\media\read-from-excel-loop.png)
+
 Now, for each of these rows, the maximum response time must be calculated. The company’s SLAs are as follows:
 * Free users get a response within 30 days of their ticket submission
 * Basic users get a response within 7 days
@@ -15,6 +16,7 @@ Also, any ticket marked as Urgent must receive a response within 12 hours, regar
 Since the information needed to figure out the maximum response time comes from more than 1 source, we will use an **If** conditional to decide on it. We begin by assessing the ticket’s urgency, since it overrides the subscription plan in this case:
 
 ![If cell contains urgent](..\media\if-cell-contains-urgent.png)
+
 ![If cell contains urgent write 12 hours](..\media\if-cell-contains-urgent-write-12-hours.png)
 
 Afterwards, we will proceed to add each individual case as an alternative condition:
