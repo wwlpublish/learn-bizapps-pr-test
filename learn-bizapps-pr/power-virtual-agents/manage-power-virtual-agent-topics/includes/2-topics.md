@@ -63,7 +63,7 @@ Five node types are available:
 
 - **End the conversation** - Ends the conversation and provides the ability to display surveys or send the customer to a live agent.
 
-Depending the type of node that you select, it might have different options that you can define.
+Depending on the type of node that you select, it might have different options that you can define.
 
 ## Work with the question node
 
@@ -77,7 +77,7 @@ Each question node contains three base fields:
 
 - **Save response as** - Defines how you want to save the data that is captured from the questions so it can be used as a variable later.
 
-Depending the type of data that you select in the **Identify** field, additional field options might be presented to help you provide additional details for the item. For example, setting the **Identify** field to **Multiple choice options** displays the **Options for user** section, where you can define the options that you want to have presented to the user. Each option would be presented in the conversation window as a multiple-choice button.
+Depending on the type of data that you select in the **Identify** field, additional field options might be presented to help you provide additional details for the item. For example, setting the **Identify** field to **Multiple choice options** displays the **Options for user** section, where you can define the options that you want to have presented to the user. Each option would be presented in the conversation window as a multiple-choice button.
 
 > [!div class="mx-imgBorder"]
 > [![Different types of data such as cities, states, dates, or custom data are available as options.](../media/2-3.png)](../media/2-3.png#lightbox)
