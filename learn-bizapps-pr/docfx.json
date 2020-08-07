@@ -74,6 +74,17 @@
         "dest": "modules"
       },
       {
+        "src": "power-virtual-agents",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
         "src": "powerapps",
         "files": [
           "**.yml",
