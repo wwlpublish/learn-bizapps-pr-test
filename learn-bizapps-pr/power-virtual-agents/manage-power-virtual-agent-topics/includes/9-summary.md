@@ -12,6 +12,6 @@ This module examined how organizations can create and manage Power Virtual Agent
 
 - Explaining when and how you might use a system fallback topic to customize how your bot handles scenarios where it doesn't recognize content.
 
-- Reviewing the different availble options for managing the different topics in your application.
+- Reviewing the different available options for managing the different topics in your application.
 
 Your next step is to gain a deeper understanding of what tools are available to further enhance Power Virtual Agents bot capabilities. This further learning includes how to use Power Automate flows, trigger handoffs to live agents, and deploy to different channels.
