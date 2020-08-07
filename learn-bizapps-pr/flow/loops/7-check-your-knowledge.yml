@@ -35,3 +35,11 @@ quiz:
     - content: "False"
       isCorrect: false 
       explanation: "That is false; For Each repeats once for each iten in a list or data table."
+  - content: "A Loop Condition block will keep repeating until the specified condition is met."
+    choices: 
+    - content: "True"
+      isCorrect: false
+      explanation: "That is false; Loop Condition repeats as long as the specified condition is true."
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is correct! Loop Condition repeats as long as the specified condition is true."

@@ -14,7 +14,7 @@ Since all the email messages of a specific employee have been retrieved at this 
 
 ![for each loop action properties continued](..\media\for-each-loop-action-properties-continued.png)
 
-Configured this way, %CurrentItem% will contain a different email message in each repetition of the **For Each** loop.
+Configured this way, **%CurrentItem%** will contain a different email message in each repetition of the **For Each** loop.
 
 Within the loop, we will add Actions to convert the email text into a number, and add it to the employee’s total:
  
