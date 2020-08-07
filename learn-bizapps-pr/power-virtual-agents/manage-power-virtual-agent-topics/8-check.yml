@@ -13,45 +13,45 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: You want to create a container to store custom product types that can be used as responses to customer questions, as well as variables that can be used throughout your bot. What Power Virtual Agent feature should you use?
+  - content: You want to create a container to store custom product types that can be used as responses to customer questions and as variables that can be used throughout your bot. Which Power Virtual Agents feature should you use?
     choices: 
     - content: Topics
       isCorrect: false 
-      explanation: Entities in Power Virtual Agents are informational units that represent certain types of real-world subjects such as a phone number, postal code, city, or a person's name. Organizations create their own entities to represent organization-specific items such as product categories. Source is Working with entities.
+      explanation: Entities in Power Virtual Agents are informational units that represent certain types of real-world subjects such as a phone number, postal code, city, or a person's name. Organizations create their own entities to represent organization-specific items such as product categories.
     - content: Entities
       isCorrect: true 
-      explanation: Entities in Power Virtual Agents are informational units that represent certain types of real-world subjects such as a phone number, postal code, city, or a person's name. Organizations create their own entities to represent organization-specific items such as product categories. Source is Working with entities.
+      explanation: Entities in Power Virtual Agents are informational units that represent certain types of real-world subjects such as a phone number, postal code, city, or a person's name. Organizations create their own entities to represent organization-specific items such as product categories.
     - content: Channels
       isCorrect: false 
-      explanation: Entities in Power Virtual Agents are informational units that represent certain types of real-world subjects such as a phone number, postal code, city, or a person's name. Organizations create their own entities to represent organization-specific items such as product categories. Source is Working with entities.
+      explanation: Entities in Power Virtual Agents are informational units that represent certain types of real-world subjects such as a phone number, postal code, city, or a person's name. Organizations create their own entities to represent organization-specific items such as product categories.
     - content: Environments
       isCorrect: false 
-      explanation: Entities in Power Virtual Agents are informational units that represent certain types of real-world subjects such as a phone number, postal code, city, or a person's name. Organizations create their own entities to represent organization-specific items such as product categories. Source is Working with entities.
+      explanation: Entities in Power Virtual Agents are informational units that represent certain types of real-world subjects such as a phone number, postal code, city, or a person's name. Organizations create their own entities to represent organization-specific items such as product categories.
   - content: You are creating a topic that will provide the local weather forecast to a customer. Which conversation node would you use to launch a Power Automate flow to get forecast details from a weather service?
     choices: 
     - content: Ask a question
       isCorrect: false 
-      explanation: Conversation nodes are used by topics to help control the flow of a conversation. They are used to display messages, capture data, or in the case of the call an action node, they can be used to launch a Power Automate flow that interacts with an external service. Source is Working with bot topics.
+      explanation: Conversation nodes are used by topics to help control the flow of a conversation. They are used to display messages, capture data, or in the case of the Call an action node, they can be used to launch a Power Automate flow that interacts with an external service.
     - content: Go to another topic
       isCorrect: false 
-      explanation: Conversation nodes are used by topics to help control the flow of a conversation. They are used to display messages, capture data, or in the case of the call an action node, they can be used to launch a Power Automate flow that interacts with an external service. Source is Working with bot topics.
+      explanation: Conversation nodes are used by topics to help control the flow of a conversation. They are used to display messages, capture data, or in the case of the Call an action node, they can be used to launch a Power Automate flow that interacts with an external service.
     - content: Call an action
       isCorrect: true 
-      explanation: Conversation nodes are used by topics to help control the flow of a conversation. They are used to display messages, capture data, or in the case of the call an action node, they can be used to launch a Power Automate flow that interacts with an external service. Source is Working with bot topics.
+      explanation: Conversation nodes are used by topics to help control the flow of a conversation. They are used to display messages, capture data, or in the case of the Call an action node, they can be used to launch a Power Automate flow that interacts with an external service.
     - content: End the conversation
       isCorrect: false 
-      explanation: Conversation nodes are used by topics to help control the flow of a conversation. They are used to display messages, capture data, or in the case of the call an action node, they can be used to launch a Power Automate flow that interacts with an external service. Source is Working with bot topics.
-  - content: Currently, when your bot is unable to identify which topic to present to a customer, it will automatically escalate the conversation to a live agent. You have been asked to configure the bot to first ask the customer a few questions to determine if a topic can help before escalating the conversation. How is this done?
+      explanation: Conversation nodes are used by topics to help control the flow of a conversation. They are used to display messages, capture data, or in the case of the Call an action node, they can be used to launch a Power Automate flow that interacts with an external service.
+  - content: Currently, when your bot is unable to identify which topic to present to a customer, it will automatically escalate the conversation to a live agent. You have been asked to configure the bot to first ask the customer a few questions to determine if a topic can help before escalating the conversation. How can you accomplish this task?
     choices: 
     - content: Enable and configure the fallback topic
       isCorrect: true 
-      explanation: Fallback topics can be enabled to defer a customer topic rather than triggering an escalation. Once you have enabled the fallback topic for your bot, you can configure the topic as you would any other topic in the system. Source is Working with fallback topics.
-    - content: Enable and configure the escalate topic
+      explanation: Fallback topics can be enabled to defer a customer topic rather than trigger an escalation. After you have enabled the fallback topic for your bot, you can configure the topic as you would any other topic in the system.
+    - content: Enable and configure the Escalate topic
       isCorrect: false 
-      explanation: Fallback topics can be enabled to defer a customer topic rather than triggering an escalation. Once you have enabled the fallback topic for your bot, you can configure the topic as you would any other topic in the system. Source is Working with fallback topics.
-    - content: Enable and configure the routing topic
+      explanation: Fallback topics can be enabled to defer a customer topic rather than trigger an escalation. After you have enabled the fallback topic for your bot, you can configure the topic as you would any other topic in the system.
+    - content: Enable and configure the Routing topic
       isCorrect: false 
-      explanation: Fallback topics can be enabled to defer a customer topic rather than triggering an escalation. Once you have enabled the fallback topic for your bot, you can configure the topic as you would any other topic in the system. Source is Working with fallback topics.
+      explanation: Fallback topics can be enabled to defer a customer topic rather than trigger an escalation. After you have enabled the fallback topic for your bot, you can configure the topic as you would any other topic in the system.
     - content: Enable and configure entities
       isCorrect: false 
-      explanation: Fallback topics can be enabled to defer a customer topic rather than triggering an escalation. Once you have enabled the fallback topic for your bot, you can configure the topic as you would any other topic in the system. Source is Working with fallback topics.
+      explanation: Fallback topics can be enabled to defer a customer topic rather than trigger an escalation. After you have enabled the fallback topic for your bot, you can configure the topic as you would any other topic in the system.
