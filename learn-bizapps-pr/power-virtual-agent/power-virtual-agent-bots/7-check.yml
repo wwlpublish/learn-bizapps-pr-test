@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Entities
       isCorrect: false 
-      explanation: In Power Virtual Agents, topics represent potential conversation paths. Each topic contains triggers and a conversation path. Conversation nodes in the topic help dictate how the customer will progress down the patch.  
+      explanation: In Power Virtual Agents, topics represent potential conversation paths. Each topic contains triggers and a conversation path. Conversation nodes in the topic help dictate how the customer will progress down the path.  
     - content: Topics
       isCorrect: true 
-      explanation: In Power Virtual Agents, topics represent potential conversation paths. Each topic contains triggers and a conversation path. Conversation nodes in the topic help dictate how the customer will progress down the patch.  
+      explanation: In Power Virtual Agents, topics represent potential conversation paths. Each topic contains triggers and a conversation path. Conversation nodes in the topic help dictate how the customer will progress down the path.  
     - content: Variables
       isCorrect: false 
-      explanation: In Power Virtual Agents, topics represent potential conversation paths. Each topic contains triggers and a conversation path. Conversation nodes in the topic help dictate how the customer will progress down the patch.  
+      explanation: In Power Virtual Agents, topics represent potential conversation paths. Each topic contains triggers and a conversation path. Conversation nodes in the topic help dictate how the customer will progress down the path.  
     - content: Channels
       isCorrect: false 
-      explanation: In Power Virtual Agents, topics represent potential conversation paths. Each topic contains triggers and a conversation path. Conversation nodes in the topic help dictate how the customer will progress down the patch.  
+      explanation: In Power Virtual Agents, topics represent potential conversation paths. Each topic contains triggers and a conversation path. Conversation nodes in the topic help dictate how the customer will progress down the path.  
   - content: Which setting on the Test bot panel lets you monitor a test conversation that spans across multiple topics? 
     choices: 
     - content: Switch between topics
