@@ -14,7 +14,7 @@ Open the **WinAutomation Console**, navigate to **Options**, and click on the **
 
 Choose the **Write Event to Text File** option, assigning a .txt file in your Documents folder, and **Add Screenshot to Logs**:
 
-![The Write Event to Text File option in the behaviour tab.](..\media\write-event-to-text-file-error-handling.png)
+![The Write Event to Text File option in the behaviour tab.](..\media\write-event-to-text-file-error-handling..png)
 
 With this configuration in place, these operations will be performed whenever any process fails.
 
@@ -24,8 +24,8 @@ Let’s assume that a process has been rolled out by IT, and the error handling 
 
 Locate the process in the **Processes** tab of the **Console**, select it, and press the **Properties** button:
 
-[!NOTE] 
-For the purposes of this exercise, any example process will do.
+> [!NOTE]
+> For the purposes of this exercise, any example process will do.
 
 ![The Properties button in the Processes tab.](..\media\process-properties-button-console.png)
 
