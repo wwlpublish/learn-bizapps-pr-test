@@ -2,7 +2,7 @@
 uid: learn-bizapps.power-virtual-agent-bots 
 metadata: 
  title: Get started with Power Virtual Agents bots
- description: Learn about Power Virtual Agents bots. 
+ description: Learn about Microsoft Power Virtual Agents bots. 
  ms.date: 08/10/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,12 +11,12 @@ metadata:
 title: Get started with Power Virtual Agents bots 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-   Create a Power Virtual Agent bot in this module. 
+   Create a Microsoft Power Virtual Agents bot in this module. 
 abstract: |  
     In this module, you will: 
-    - Create bots
-    - Test bots
-    - Analyze performance
+    - Create Power Virtual Agents bots.
+    - Test Power Virtual Agents bots.
+    - Analyze performance.
 prerequisites: None 
 iconUrl: /learn/achievements/power-virtual-agent-bots.svg  
 levels:  
