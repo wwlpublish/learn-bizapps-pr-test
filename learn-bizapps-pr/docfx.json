@@ -220,6 +220,17 @@
         "dest": "modules"
       },
       {
+        "src": "power-virtual-agents",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
         "src": "powerapps",
         "files": [
           "**/*.gif",
