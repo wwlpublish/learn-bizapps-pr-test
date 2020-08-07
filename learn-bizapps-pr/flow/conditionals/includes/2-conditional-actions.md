@@ -11,7 +11,9 @@ The **If** group of Actions allow Users to evaluate whether a certain condition 
 * End of conditional block
 
 Thus, the simplest **If** structure is as below:
+
     ![Simplest if structure](..\media\simplest-if.png)
+    
     ![If cell contains urgent](..\media\if-cell-contains-urgent.png)
 
 Configured this way, Action #2 will only be executed if the %UrgentCell% variable contains the value **Urgent**.
