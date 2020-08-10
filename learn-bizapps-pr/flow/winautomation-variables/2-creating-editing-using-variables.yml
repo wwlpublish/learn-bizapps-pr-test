@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-variables.2-creating-editing-using-variables 
+title: Creating, editing and using variables
+metadata: 
+  title: Creating, editing and using variables
+  description: Creating, editing and using variables
+  ms.date: 08/07/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate    
+durationInMinutes: 6 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-creating-editing-using-variables.md)] 

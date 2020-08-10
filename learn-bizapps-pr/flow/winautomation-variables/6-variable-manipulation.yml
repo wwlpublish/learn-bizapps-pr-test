@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-variables.6-variable-manipulation 
+title: Variable manipulation
+metadata: 
+  title: Variable manipulation
+  description: Variable manipulation
+  ms.date: 08/07/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate   
+durationInMinutes: 6 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-variable-manipulation.md)] 

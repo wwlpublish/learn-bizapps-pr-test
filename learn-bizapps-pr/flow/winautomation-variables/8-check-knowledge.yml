@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-variables.8-check-knowledge
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate    
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Actions create output variables automatically."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "Well done! Every action creates output variables automatically when it is deployed."
+    - content: "False"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. Every action creates output variables automatically when it is deployed."
+  - content: "Which type of variables does NOT exist in WinAutomation?"
+    choices: 
+    - content: "Text"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. WinAutomation supports text variables."
+    - content: "Data Table"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. WinAutomation supports data table variables.]"
+    - content: "Excel Instance"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. WinAutomation supports Excel instance variables.]"
+    - content: "Word Instance"
+      isCorrect: true 
+      explanation: "Well done! WinAutomation does not support Word Instance Variables.]"
+  - content: "A variable is converted to another data type when:"
+    choices: 
+    - content: "Data of another data type is stored into it."
+      isCorrect: true 
+      explanation: "Well done! Variables change their data type according to their current content."
+    - content: "The process developer manually changes it through the Variable Pane."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. There is no option to change the data type of a variable through the Variable Pane.]"
+    - content: "The data type of a variable cannot be converted."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. Every Variable can be converted to other data type by changing its content.]"

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-variables.7-exercise-create-access-manipulate-variables 
+title: Exercise - Create, access and manipulate variables
+metadata: 
+  title: Exercise - Create, access and manipulate variables
+  description: Exercise - Create, access and manipulate variables
+  ms.date: 08/07/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate    
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/7-exercise-create-access-manipulate-variables.md)] 

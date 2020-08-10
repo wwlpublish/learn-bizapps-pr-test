@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-variables.5-persistent-external-variables 
+title: Persistent and external variables
+metadata: 
+  title: Persistent and external variables
+  description: Persistent and external variables
+  ms.date: 08/07/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate   
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-persistent-external-variables.md)] 

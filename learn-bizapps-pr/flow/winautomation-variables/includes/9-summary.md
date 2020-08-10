@@ -1,0 +1,1 @@
+Variables are essential in process development to store and reuse any information. WinAutomation supports 17 distinct data types and their respective properties, that can be handled through the **Variable Pane** and the **Variables Manager Window**. Variables can be set as persistent to keep their value for future executions.
