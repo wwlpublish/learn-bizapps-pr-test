@@ -10,7 +10,7 @@ Two primary components that are involved when a bot transfers to an agent are:
 
 ### Tell the bot when to transfer the conversation to an agent
 
-The way that Power Virtual Agents tells the bot that it is time to transfer a conversation to an agent is always the same. Power Virtual Agents includes a conversation node called **End the conversation**. The **End the conversation** node signifies the end of the entire conversation and provides two actions that can be initiated:
+The way that Power Virtual Agents tells the bot that it is time to transfer a conversation to an agent is always the same. Power Virtual Agents includes the **End the conversation** node, which signifies the end of the entire conversation and provides two actions that can be initiated:
 
 - **End with survey** - A survey appears that asks the user if their question or issue was answered or resolved correctly.
 
@@ -25,7 +25,7 @@ Bot authors can end a conversation and transfer to an agent from within a specif
 
 To facilitate the transfer of a conversation to an agent, you will need to configure the bot to send the conversation to a specific Omnichannel for Customer Service instance. Only published bots can be used to ensure that the end-to-end capabilities work as expected. Make sure that you have [published your bot](https://docs.microsoft.com/power-virtual-agents/getting-started-deploy/?azure-portal=true) prior to validating the integrated experience.
 
-When you create the connection between Power Virtual Agents and Omichannel for Customer Service, a Microsoft Azure Active Directory (Azure AD) application registration is used to call the bot. Creating the application registration is done on the [Azure Portal](https://portal.azure.com/?azure-portal=true). You can register your apps by going to Azure Active Directory and creating a new registration under **App registrations**.
+When you create the connection between Power Virtual Agents and Omnichannel for Customer Service, a Microsoft Azure Active Directory (Azure AD) application registration is used to call the bot. Creating the application registration is done on the [Azure portal](https://portal.azure.com/?azure-portal=true). You can register your apps by going to Azure Active Directory and creating a new registration under **App registrations**.
 
 Three primary areas that can be defined when you create the application registration are:
 
@@ -40,7 +40,7 @@ Three primary areas that can be defined when you create the application registra
 
 After you have defined the parameters, select the **Register** button.
 
-For additional information, see [Microsoft Docs](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application/?azure-portal=true).
+For more information, see [Microsoft Docs](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application/?azure-portal=true).
 
 ### Configure transfer to agent
 
