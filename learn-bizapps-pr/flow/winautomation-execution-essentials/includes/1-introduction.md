@@ -1,4 +1,3 @@
-# Introduction
 WinAutomation is an RPA software solution capable of automating rules-based tasks, enabling users to direct their attention to more productive and value-adding tasks.
 
 Automated Processes, once developed, need to be deployed in a way that is flexible, dynamic, and meets the needs of both the employees and the enterprise. Making sure that Processes are executed in a timely and orderly fashion is critical to maximizing efficiency.

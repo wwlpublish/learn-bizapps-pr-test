@@ -1,4 +1,3 @@
-# Executing a Process through the Console
 The simplest way to execute a process in WinAutomation is to manually start it through the WinAutomation Console. In the Processes tab of the Console, select the Process you wish to execute from the list, then press the **Start** button on the ribbon:
  
 

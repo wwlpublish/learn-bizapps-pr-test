@@ -1,4 +1,3 @@
-# Automatic Execution
 Manually starting processes, while, useful, isn't always optimal. Ideally, an automated task should be completed autonomously. In WinAutomation, processes can be executed automatically, using Schedules and Triggers.
 ## Schedules
 Schedules allow users to configure the execution of processes based on date- and time-based information – information like the date, day of week/month, time of day, time intervals, and so on.

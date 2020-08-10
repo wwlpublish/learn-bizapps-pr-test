@@ -1,4 +1,3 @@
-# Logging and Auditing
 Logs of each process execution are in the Console, allowing users to keep track of every execution, regardless of how it was started.
 
  The logs can be accessed through the **Logs** tab in the WinAutomation Console:

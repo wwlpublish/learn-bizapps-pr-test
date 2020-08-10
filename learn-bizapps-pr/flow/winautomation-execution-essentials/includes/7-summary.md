@@ -1,4 +1,3 @@
-# Summary
 Processes can be executed manually through the Console, by using the Start button.
 
 They can also be assigned to schedules and triggers. This allows processes to run automatically, based on the date and time (schedules), or in response to certain events (triggers).

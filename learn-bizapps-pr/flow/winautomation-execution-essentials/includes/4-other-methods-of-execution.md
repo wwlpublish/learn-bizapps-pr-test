@@ -1,9 +1,8 @@
-# Other methods of execution
 Apart from manual execution and automatic execution through schedules and triggers, there are also a few more ways to run processes in WinAutomation.
 ## Through the command line
 WinAutomation can perform certain basic functions, including executing a process, through a Command Line Interface (CLI), like the Windows CMD.
 
-To give a command to WinAutomation through CLI, you will have to first locate the **WinAutomationController.exe** file in the WinAutomation installation folder (by default, the path to the file is **C:\Program Files\WinAutomation\WinAutomationController.exe**). After typing this into the CLI, you may start a process using the /start switch. The /start switch requires the following format:
+To give a command to WinAutomation through CLI, you will have to locate the **WinAutomationController.exe** file in the WinAutomation installation folder (by default, the path to the file is **C:\Program Files\WinAutomation\WinAutomationController.exe**). After typing the filepath into the CLI, you may start a process using the /start switch. The /start switch requires the following format:
 
 **WinAutomationControllerPath /start processPath processCLA1 processCLA2**
 
