@@ -1,8 +1,8 @@
-Each single-column summarization function has its equivalent iterator function. We'll now consider two aggregation scenarios when iterator functions are useful: complex summarization and higher grain summarization.
+Each single-column summarization function has its equivalent iterator function. The following sections will consider two aggregation scenarios when iterator functions are useful: complex summarization and higher grain summarization.
 
 ## Complex summarization
 
-Let's now create our first measure that uses an iterator function. First, download and open the [**Adventure Works DW 2020 M05.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M05.pbix) file. Go ahead and add the following measure definition:
+In this section, you will create your first measure that uses an iterator function. First, download and open the [**Adventure Works DW 2020 M05.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M05.pbix) file. Next, add the following measure definition:
 
 ```dax
 Revenue =
@@ -12,14 +12,14 @@ SUMX(
 )
 ```
 
-Format the **Revenue** measure as currency with two decimal places, and then add it to the table visual found on **Page 1** of the report.
+Format the **Revenue** measure as currency with two decimal places, and then add it to the table visual that is found on **Page 1** of the report.
 
 > [!div class="mx-imgBorder"]
 > [![An image show a table visual with two columns: Month and Revenue. A year's worth of data is displayed.](../media/dax-table-month-revenue-1-ss.png)](../media/dax-table-month-revenue-1-ss.png#lightbox)
 
-Using an iterator function, the **Revenue** measure formula aggregates more than the values of just a single column. For each row, it uses the row context values of three columns to produce the revenue amount.
+By using an iterator function, the **Revenue** measure formula aggregates more than the values of a single column. For each row, it uses the row context values of three columns to produce the revenue amount.
 
-Let's now add another measure:
+Now, add another measure:
 
 ```dax
 Discount =
@@ -37,11 +37,11 @@ Format the **Discount** measure as currency with two decimal places, and then ad
 > [!div class="mx-imgBorder"]
 > [![An image show a table visual with three columns: Month, Revenue, and Discount. A year's worth of data is displayed.](../media/dax-table-month-revenue-2-ssm.png)](../media/dax-table-month-revenue-2-ssm.png#lightbox)
 
-Notice that the formula uses the RELATED function. Remember, row context does not extend beyond the table. If your formula needs to reference columns in other tables, and there are model relationships between the tables, use the RELATED function for the one-side, or the RELATEDTABLE function for the many-side.
+Notice that the formula uses the RELATED function. Remember, row context does not extend beyond the table. If your formula needs to reference columns in other tables, and model relationships exist between the tables, use the RELATED function for the one-side relationship or the RELATEDTABLE function for the many-side relationship.
 
 ## Higher grain summarization
 
-Let's now consider a requirement to report on average revenue. Add the following measure:
+The following example considers a requirement to report on average revenue. Add the following measure:
 
 ```dax
 Revenue Avg =
@@ -54,13 +54,13 @@ AVERAGEX(
 Format the **Revenue Avg** measure as currency with two decimal places, and then add it to the table visual.
 
 > [!div class="mx-imgBorder"]
-> [![An image show a table visual with four columns: Month, Revenue, Discount, and Revenue Avg. A year's worth of data is displayed.](../media/dax-table-month-revenue-3-ssm.png)](../media/dax-table-month-revenue-3-ssm.png#lightbox)
+> [![An image showing a table visual with four columns: Month, Revenue, Discount, and Revenue Avg. A year's worth of data is displayed.](../media/dax-table-month-revenue-3-ssm.png)](../media/dax-table-month-revenue-3-ssm.png#lightbox)
 
-Consider that *average* means the sum of values divided by the count of values. But that raises an interesting question: What does the count of values represent? In this case, the count of values is the number expressions that didn't evaluate to BLANK. And, because the iterator function enumerates rows of the **Sales** table, we can describe that average means *revenue per row*. Taking this logic one step further, because each row in the **Sales** table records a sales order line, it can be more precisely described as *revenue per order line*.
+Consider that *average* means the sum of values divided by the count of values. However, that theory raises a question: What does the count of values represent? In this case, the count of values is the number of expressions that didn't evaluate to BLANK. Also, because the iterator function enumerates rows of the Sales table, average would mean *revenue per row*. Taking this logic one step further, because each row in the Sales table records a sales order line, it can be more precisely described as *revenue per order line*.
 
-So, let's now rename the **Revenue Avg** measure as **Revenue Avg Order Line**. This way, it's clear to report users what's used as the average base.
+Accordingly, you should rename the **Revenue Avg** measure as **Revenue Avg Order Line** so that it's clear to report users about what's being used as the average base.
 
-Let's now use an iterator function to create a new measure that raises the granularity to the sales order level. (A sales order comprises one or more order lines). Add the following measure:
+The following example uses an iterator function to create a new measure that raises the granularity to the sales order level (a sales order consists of one or more order lines). Add the following measure:
 
 ```dax
 Revenue Avg Order =
