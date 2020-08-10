@@ -1,0 +1,50 @@
+### YamlMime:Module 
+uid: learn-bizapps.process-properties 
+metadata: 
+ title: WinAutomation process properties
+ description: In this module, we'll discuss how to configure WinAutomation Process Properties.
+ ms.date: 08/07/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate
+title: WinAutomation Process Properties
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+   WinAutomation provides a wide selection of Process Properties that enable you to configure how the platform handles each Process. Through the Process Properties Dialog, you can implement different behavior for each Process and override the platform's global settings. 
+abstract: |  
+    In this module, you will: 
+    - Understand the various configurations and options of WinAutomation processes.
+    - Configure the security settings of a process.
+    - Set a process run policy.
+    - Set a process concurrency policy.
+    - Configure the third level of error handling.
+    - Enable the logging properties.
+
+prerequisites: |
+    - Basic familiarity with the WinAutomation Console.
+    - Basic familiarity with WinAutomation architecture.
+    - Basic familiarity with exception handling functionality.
+
+iconUrl: /learn/achievements/process-properties.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- administrator
+- functional-consultant
+products:  
+- power-automate 
+- power-platform
+units: 
+- learn-bizapps.process-properties.1-introducing-process-properties
+- learn-bizapps.process-properties.2-configure-process-security-settings
+- learn-bizapps.process-properties.3-set-process-run-policy
+- learn-bizapps.process-properties.4-set-process-concurrency-policy
+- learn-bizapps.process-properties.5-configure-level-three-error-handling
+- learn-bizapps.process-properties.6-logging-properties
+- learn-bizapps.process-properties.7-check-knowledge
+- learn-bizapps.process-properties.8-summary
+badge: 
+  uid: learn-bizapps.process-properties.badge 

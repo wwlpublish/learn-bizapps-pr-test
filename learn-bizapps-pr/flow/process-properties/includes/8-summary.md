@@ -1,0 +1,1 @@
+WinAutomation **Process Properties** dialog provides a wide variety of configurations that enable you to adjust how the platform handles every process. By applying the third level of error handling and setting individual concurrency policies for each process, you can make the WinAutomation platform more flexible and productive.

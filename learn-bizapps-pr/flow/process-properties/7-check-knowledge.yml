@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.process-properties.7-check-knowledge
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "The Secure Screen feature is located in the Security tab of the Process Properties dialog."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. There is no Security tab in the Process Properties dialog."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Well done! The Secure Screen feature is located in the General tab of the Process Properties dialog."
+  - content: "Which of the following cases cannot be handled through the Run Policy tab?"
+    choices: 
+    - content: "You are logged in and your workstation is locked."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Run Policy tab offers an option to handle this case."
+    - content: "A physical screen is not available."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Run Policy tab offers an option to handle this case."
+    - content: "You are not logged in and your workstation is on battery saver mode."
+      isCorrect: true 
+      explanation: "Well done! WinAutomation does not provide an option to handle this case."
+  - content: "Through the Concurrency Policy tab of the Process Properties dialog, you can:"
+    choices: 
+    - content: "Limit the number of process instances that can run simultaneously."
+      isCorrect: true 
+      explanation: "Well done! This tab influences exclusively the instances of the selected process."
+    - content: "Limit the number of processes that can run simultaneously."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The global concurrency policy is configured through the Options tab."
+    - content: "Both"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The global concurrency policy is configured through the Options tab."
+  - content: "Through the Process Properties dialog, you can configure the global error handling behaviour."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The global error handling behaviour is configured through the Options tab."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Well done! Through the Process Properties dialog, you can configure the third level of error handling."
