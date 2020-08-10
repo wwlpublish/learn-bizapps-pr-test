@@ -35,4 +35,17 @@ quiz:
     - content: "Manually through the command line."
       isCorrect: false
       explanation: "That is false; an email monitor trigger is the best option in this scenario."
-
+  - content: "When a process runs, information about the run can be found in:"
+    choices: 
+    - content: "The console's Processes tab."
+      isCorrect: false
+      explanation: "That is false; this information is stored in the console's Logs tab."
+    - content: "The process designer."
+      isCorrect: false 
+      explanation: "That is false; this information is stored in the console's Logs tab."
+    - content: "The console's Logs tab."
+      isCorrect: true
+      explanation: "That is correct! This information is stored in the console's Logs tab."
+    - content: "None of the above."
+      isCorrect: false
+      explanation: "That is false; this information is stored in the console's Logs tab."
