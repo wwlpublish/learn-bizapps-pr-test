@@ -1,39 +1,49 @@
 ### YamlMime:Module 
 uid: learn-bizapps.winautomation-options 
 metadata: 
- title: 
- description: 
- ms.date: 08/01/2020  
- author: DaveBeasley  
- ms.author: dbeasley  
+ title: WinAutomation οptions
+ description: In this module, we'll discuss how to configure WinAutomation οptions.
+ ms.date: 08/07/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
  ms.topic: interactive-tutorial  
- ms.prod: learning-power-automate  
-title: 
+ ms.prod: learning-power-automate   
+title: WinAutomation οptions
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Summary text goes here. 
+  WinAutomation provides an extensive selection of options that enables you to configure the way the platform operates. All the platform's essential settings are located in the Options tab.
 abstract: |  
     In this module, you will: 
-    - 
-    - 
-prerequisites: 
+    - Understand the various configurations and options of WinAutomation.
+    -	Configure notification settings
+    -	Take backup of the database file and restore it. 
+    -	Create a concurrency policy. 
+    -	Become familiar with the fourth level of exception handling.
+    -	Sign out and connect with a new Microsoft Power Automate account. 
+prerequisites: |
+    -	Basic familiarity with the WinAutomation Console.
+    -	Basic familiarity with WinAutomation architecture.
+    -	Basic familiarity with exception handling functionality.
 iconUrl: /learn/achievements/winautomation-options.svg  
 levels:  
 - beginner   
 roles:  
 - maker  
+- developer 
+- administrator
+- functional-consultant
 products:  
-- dynamics  
 - power-automate 
+- power-platform
 units: 
-- learn-bizapps.winautomation-options.1-introduction 
-- learn-bizapps.winautomation-options.2-configure-notification-settings 
-- learn-bizapps.winautomation-options.3-backup-restore 
-- learn-bizapps.winautomation-options.4-concurrency-policy 
-- learn-bizapps.winautomation-options.5-ascii-ftp 
-- learn-bizapps.winautomation-options.6-error-handling 
-- learn-bizapps.winautomation-options.7-power-automate-account 
-- learn-bizapps.winautomation-options.8-check 
-- learn-bizapps.winautomation-options.9-summary 
+- learn-bizapps.winautomation-options.1-introduction
+- learn-bizapps.winautomation-options.2-configure-notification-settings
+- learn-bizapps.winautomation-options.3-backup-database
+- learn-bizapps.winautomation-options.4-create-global-concurrency-policy
+- learn-bizapps.winautomation-options.5-ascii-ftp-actions
+- learn-bizapps.winautomation-options.6-configure-level-four-error-handling
+- learn-bizapps.winautomation-options.7-power-automate-account
+- learn-bizapps.winautomation-options.8-check-knowledge
+- learn-bizapps.winautomation-options.9-summary
 badge: 
   uid: learn-bizapps.winautomation-options.badge 

@@ -1,1 +1,1 @@
-Insert instructional text here
+WinAutomation **Options** tab provides a wide variety of configurations and enables you to adjust the platform to your needs. By applying a custom error handling behavior and creating a concurrency policy, you can make process execution more productive and robust to errors.

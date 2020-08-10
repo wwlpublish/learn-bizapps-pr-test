@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-options.8-check-knowledge
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate  
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions:
+    - content: "Which of the following tabs does NOT exist in the Options tab?"
+      choices:
+      - content: "Logs"
+        isCorrect: true
+        explanation: "Well done! The Logs tab is located in the Console main window and not in the Options tab."
+      - content: "Error Handling"
+        isCorrect: false
+        explanation: "Your answer is incorrect. The Error Handling tab is the second option inside the Options τab."
+      - content: "Account"
+        isCorrect: false
+        explanation: "Your answer is incorrect. The Account tab is the third option inside the Options tab."
+    - content: "The Handling tab in Options tab is the only error handling level in WinAutomation."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Your answer is incorrect. WinAutomation provides four error handling levels."
+      - content: "False"
+        isCorrect: true
+        explanation: "Well done! WinAutomation provides four error handling levels."
+    - content: "Through the Error Handling tab, you can:"
+      choices:
+      - content: "Add a screenshot to the logs."
+        isCorrect: true
+        explanation: "Well done! The Add Screenshot to Logs option is located in the Error Handling tab."
+      - content: "Add a video to the logs"
+        isCorrect: false
+        explanation: "Your answer is incorrect. There is no option to record video when an error occurs in WinAutomation."
+      - content: "Both"
+        isCorrect: false
+        explanation: "Your answer is incorrect. WinAutomation provides only the option to take a screenshot when an error occurs."
+    - content: "In order to change the connected Microsoft Power Automate account, you have to reinstall WinAutomation."
+      choices:
+      - content: "True"
+        isCorrect: false
+        explanation: "Your answer is incorrect. You can sign out of your current account and sign in a new one through the Account tab."
+      - content: "False"
+        isCorrect: true
+        explanation: "Well done! You can sign out of your current account and sign in a new one through the Account tab."

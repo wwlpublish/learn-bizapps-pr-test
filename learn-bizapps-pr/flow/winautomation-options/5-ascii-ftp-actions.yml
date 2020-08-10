@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-options.5-ascii-ftp-actions 
+title: Treat files as ASCII in FTP actions
+metadata: 
+  title: Treat files as ASCII in FTP actions
+  description: Treat files as ASCII in FTP actions
+  ms.date: 08/07/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate   
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-ascii-ftp-actions.md)] 
