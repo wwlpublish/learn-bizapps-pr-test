@@ -1,139 +1,139 @@
 {
-    "redirections":  [
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/index.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/1-introduction.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/1-introduction/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/2-shape-data.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/2-shape-data/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/3-data-structure.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/3-data-structure/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/4-column-data-types.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/4-column-data-types/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/powerbi/design-data-model-power-bi/5-combine-tables.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/5-combine-tables/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/6-profile-data.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/6-profile-data/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/7-advanced-editor.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/7-advanced-editor/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/8-lab.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/8-lab/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/9-check.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/9-check/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/power-bi/design-data-model-power-bi/10-summary.md",
-                             "redirect_url":  "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/10-summary/",
-                             "redirect_document_id⁯": true
-                        },
-                        {
-                             "source_path":  "learn-bizapps-pr/powerapps/get-started-with-model-driven-apps-in-powerapps/4-explore-sample-model-driven-apps.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/intro-model-driven-apps-common-data-service/4-template-apps/",
-                             "redirect_document_id⁯": true
-                        }, 
-                        {
-                             "source_path":  "learn-bizapps-pr/paths/create-reports-power-bi/index.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/index.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/1-introduction.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/1-introduction",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/10-knowledge-check.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/10-knowledge-check",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/11-summary-cleanup.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/11-summary-cleanup",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/2-create-first-flow.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/2-create-first-flow",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/3-learn-to-use-flow-mobile-app.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/3-learn-to-use-flow-mobile-app",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/4-flow-get-notifications.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/4-flow-get-notifications",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/5-flow-copy-files.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/5-flow-copy-files",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/6-flow-scheduled-flows.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/6-flow-scheduled-flows",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/7-flow-post-tweets.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/7-flow-post-tweets",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/8-flow-team-flows.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/8-flow-team-flows",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/flow/get-started-with-flow/9-troubleshoot-flows.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/get-started-flows/9-troubleshoot-flows",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/paths/automate-process-using-flow/index.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
-                             "redirect_document_id":  true
-                         },
-                         {
-                             "source_path":  "learn-bizapps-pr/power-bi/create-manage-workspaces-power-bi/7-lab.md",
-                             "redirect_url":  "https://docs.microsoft.com/learn/modules/create-manage-workspaces-power-bi/",
-                             "redirect_document_id":  true
-                         }
-                     ]
+  "redirections": [
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/index.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/1-introduction/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/2-shape-data.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/2-shape-data/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/3-data-structure.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/3-data-structure/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/4-column-data-types.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/4-column-data-types/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/powerbi/design-data-model-power-bi/5-combine-tables.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/5-combine-tables/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/6-profile-data.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/6-profile-data/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/7-advanced-editor.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/7-advanced-editor/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/8-lab.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/8-lab/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/9-check.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/9-check/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/design-data-model-power-bi/10-summary.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/modules/clean-data-power-bi/10-summary/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/powerapps/get-started-with-model-driven-apps-in-powerapps/4-explore-sample-model-driven-apps.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/intro-model-driven-apps-common-data-service/4-template-apps/",
+      "redirect_document_id⁯": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/paths/create-reports-power-bi/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/create-use-analytics-reports-power-bi/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/1-introduction",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/10-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/10-knowledge-check",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/11-summary-cleanup.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/11-summary-cleanup",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/2-create-first-flow.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/2-create-first-flow",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/3-learn-to-use-flow-mobile-app.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/3-learn-to-use-flow-mobile-app",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/4-flow-get-notifications.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/4-flow-get-notifications",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/5-flow-copy-files.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/5-flow-copy-files",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/6-flow-scheduled-flows.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/6-flow-scheduled-flows",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/7-flow-post-tweets.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/7-flow-post-tweets",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/8-flow-team-flows.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/8-flow-team-flows",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/get-started-with-flow/9-troubleshoot-flows.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/get-started-flows/9-troubleshoot-flows",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/paths/automate-process-using-flow/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/automate-process-power-automate/",
+      "redirect_document_id": true
+    },
+    {
+      "source_path": "learn-bizapps-pr/power-bi/create-manage-workspaces-power-bi/7-lab.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/create-manage-workspaces-power-bi/",
+      "redirect_document_id": true
+    }
+  ]
 }
