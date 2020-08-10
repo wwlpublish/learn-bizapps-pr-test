@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-recording-features.3-web-recorder 
+title: Web Recorder
+metadata: 
+  title: Web Recorder
+  description: Web Recorder
+  ms.date: 08/07/2020 
+  author: rokontol 
+  ms.author: rokontol 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-web-recorder.md)] 
