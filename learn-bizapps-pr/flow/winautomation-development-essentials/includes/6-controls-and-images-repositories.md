@@ -1,5 +1,4 @@
-# Controls and Images Repositories
-Automating tasks usually requires interaction with third party software, application windows, web pages, or other on-screen elements. In order to identify such elements, information about them is stored in repositories within a Process – the Controls Repository contains Controls, which are used to interact with UI elements and web pages, and the Images Repository contains user-captured images which can be used in image recognition related Actions.
+Automating tasks usually requires interaction with third-party software, application windows, web pages, or other on-screen elements. In order to identify such elements, information about them is stored in repositories within a Process – the Controls Repository contains Controls, which are used to interact with UI elements and web pages, and the Images Repository contains user-captured images that can be used in image recognition-related Actions.
 
 Both repositories are located in the bottom of the Designer window; selecting one of the appropriate tabs opens the respective Repository:
 
@@ -10,7 +9,7 @@ Controls are used to identify windows and any elements they contain.
 
 For example, to interact with the UI of Excel in order to change a cell’s color, we will have to extract that button’s control.
 
-In the Controls Repository, selecting **Add Control** opens the UISpy, the tool WinAutomation uses to extract controls. Navigating to the Excel interface, elements are automatically highlighted when the cursor hover over them:
+In the Controls Repository, selecting **Add Control** opens the UISpy, the tool WinAutomation uses to extract controls. Navigating to the Excel interface, elements are automatically highlighted when the cursor hovers over them:
 
 ![controls uispy](..\media\controls-uispy.png)
  
@@ -18,7 +17,7 @@ Clicking while pressing down the Ctrl button will capture the highlighted contro
 
 ![controls repository pane](..\media\controls-repository-pane.png)
  
-Adding a Press Button in Window Action, we are prompted to select a control which identifies the button to press:
+Adding a Press Button in Window Action, we are prompted to select a control that identifies the button to press:
 
 ![press button in window action properties](..\media\press-button-in-window-action-properties.png)
 

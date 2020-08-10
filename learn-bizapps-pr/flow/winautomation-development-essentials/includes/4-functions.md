@@ -1,5 +1,4 @@
-# Functions
-When a Process contains a large number of Actions, it may be split up into Functions, making it more manageable and easier to maintain. Functions can be used to simply organize a Process’ Actions, but they also allow the reuse of parts of the Process, which helps to avoid cluttering by copy-pasted Actions.
+When a Process contains a large number of Actions, it may be split up into Functions, making it more manageable and easier to maintain. Functions can be used to organize a Process’ Actions, but they also allow the reuse of parts of the Process, which helps to avoid cluttering by copy-pasted Actions.
 
 Finished Processes usually contain tens, hundreds, or even thousands of Actions:
 

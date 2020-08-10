@@ -1,4 +1,3 @@
-# Exception Handling
 Runtime errors may occur as a result of unforeseen circumstances during Process execution, resulting in it stopping due to an error. To avoid errors, users may configure Exception Handling rules, so that the Process may recover and continue its execution.
 
 In the Process Designer, Exception Handling may be applied to both individual Actions, and blocks of Actions.
@@ -8,7 +7,7 @@ Exceptions may occur from virtually any Action. For this reason, most Actions’
 
 In our example Process, for example, the Excel file to be processed may not exist in the path specified because it may not have been moved from its initial path to the working one we have entered in the Process. If we know the initial path, we could configure the Launch Excel Action so that, if it fails to open the file, it will attempt to open it from its initial path.
 
-To achieve this, we will double click on the Action to edit it:
+To achieve this, we will double-click on the Action to edit it:
 
 ![launch excel action properties 2](..\media\launch-excel-action-properties-2.png)
 
@@ -16,7 +15,7 @@ And open the Exception Handling tab:
 
 ![launch excel action properties exception handling](..\media\launch-excel-action-properties-exception-handling.png)
 
-The selected options will take effect when this Action encounters an Exception. To open a file in a different path, we will have to create a new Function which does exactly that:
+The selected options will take effect when this Action encounters an Exception. To open a file in a different path, we will have to create a new Function that does exactly that:
 
 ![alternative path function](..\media\alternative-path-function.png)
  

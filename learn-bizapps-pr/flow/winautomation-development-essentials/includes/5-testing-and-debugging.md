@@ -1,4 +1,3 @@
-# Testing and Debugging
 During Process development, it is important to test the behavior of the Process and ensure that everything is working as expected – and if not, to locate and diagnose the underlying issues.
 
 ## Testing
@@ -14,7 +13,7 @@ Breakpoints can be added to automatically pause the execution when a specific Ac
  
 By right-clicking on any Action, users may start executing the Process directly from that point onward; this enables them to test specific parts of a Process without having to execute it in its entirety.
 
-On the bottom-right corner of the Designer, the Variables pane contains all the variables used in the Process, their type, and their current value. This information changes in real time during execution, providing users a clear picture of the Process’ state at any given time. Values can even be changed manually during execution, enabling very detailed and efficient testing.
+On the bottom-right corner of the Designer, the Variables pane contains all the variables used in the Process, their type, and their current value. This information changes in real time during execution, providing users a clear picture of the Process’ state at any given time. Values can even be changed manually during execution, enabling detailed and efficient testing.
 
 ## Debugging
 In addition to the above, certain features are designed specifically for locating and correcting errors.

@@ -1,5 +1,4 @@
-# Conditionals and Loops
-As mentioned before, Actions within a Process are executed sequentially. However, there are certain Actions which may alter this sequence, to achieve greater flexibility and adaptability in the execution of a Process.
+As mentioned before, Actions within a Process are executed sequentially. However, there are certain Actions that may alter this sequence, to achieve greater flexibility and adaptability in the execution of a Process.
 
 In this unit, we will examine two main categories of such Actions: Conditionals and Loops.
 
