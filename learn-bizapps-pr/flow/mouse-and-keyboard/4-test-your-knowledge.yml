@@ -1,0 +1,53 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.mouse-and-keyboard.4-test-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 10 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "The Set Key State Action refers to which keys?"
+    choices: 
+    - content: "Alt, Control, Shift, Windows Key"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Set Key State Action refers to the Caps Lock, Num Lock and Scroll Lock keys."
+    - content: Caps Lock, Num Lock, Scroll Lock
+      isCorrect: true 
+      explanation: "That is correct!"
+    - content: "The Mouse Buttons"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Set Key State Action refers to the Caps Lock, Num Lock and Scroll Lock keys."
+    - content: "All of the above"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Set Key State Action refers to the Caps Lock, Num Lock and Scroll Lock keys."
+  - content: "In the "Move Mouse to Text on Screen (OCR)" Action, the "Tolerance" field determines the degree to which an image found on the screen can differ from the one for which the Action is searching, located in the Images Repository."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct!"
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is incorrect, the statement is true."
+  - content: "The "Move Mouse to Text on Screen" Action always moves the mouse to the first occurrence of the specified text on the screen."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is incorrect. The occurrence of the text which the mouse moves to can be configured in the Action properties."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct!"
+  - content: "The "Move Mouse" Action supports using images from the Images Repository as a way to designate the point to which the mouse should move."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is incorrect. The statement is true for the "Move Mouse to Image" Action."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct!"

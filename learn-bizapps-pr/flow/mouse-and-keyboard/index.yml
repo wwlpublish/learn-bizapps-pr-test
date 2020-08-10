@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.mouse-and-keyboard 
+metadata: 
+ title: Mouse and Keyboard
+ description: This module shows how to use the WinAutomation mouse and keyboard Actions.
+ ms.date: 08/07/2020
+ author: olegmelnykov  
+ ms.author: olmelnyk  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Mouse and Keyboard
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module shows how to create processes which simulate the use of mouse movement, clicks, typing and key presses. Additionally, the module demonstrates how to select and locate a specific image or area on the screen with the mouse. 
+abstract: |  
+    In this module, you will: 
+    - Learn how to create a process which simulates human interaction with a PC
+    - Learn how to automate mouse movement and clicks
+    - Learn how to select and locate a specific image or area on the screen with the mouse
+    - Learn how to emulate typing or key presses in a process
+    - Combine the above in a process which mimics the use of a mouse and keyboard by the user
+prerequisites: |
+    - Basic familiarity with WinAutomation
+    - Basic familiarity with the WinAutomation Process Designer Image Repository
+iconUrl: /learn/achievements/mouse-and-keyboard.svg  
+levels:  
+- beginner   
+roles:  
+- maker
+- developer 
+- functional-consultant 
+products:  
+- dynamics  
+- learning-power-automate 
+units: 
+- learn-bizapps.mouse-and-keyboard.1-introduction 
+- learn-bizapps.mouse-and-keyboard.2-mouse-keyboard-actions 
+- learn-bizapps.mouse-and-keyboard.3-mouse-keyboard-exercise 
+- learn-bizapps.mouse-and-keyboard.4-test-your-knowledge 
+- learn-bizapps.mouse-and-keyboard.5-summary 
+badge: 
+  uid: learn-bizapps.mouse-and-keyboard.badge 
