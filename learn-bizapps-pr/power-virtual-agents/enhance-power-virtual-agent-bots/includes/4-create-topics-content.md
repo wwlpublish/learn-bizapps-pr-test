@@ -18,7 +18,7 @@ For more information, see [Automate topics for a Power Virtual Agents bot](https
 
 ## Extract content from webpages
 
-The three main steps for auto-creating topics are:
+The three main steps for autocreating topics are:
 
 1. Extract content from existing FAQ or support pages.
 
