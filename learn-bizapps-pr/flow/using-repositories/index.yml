@@ -1,0 +1,45 @@
+### YamlMime:Module 
+uid: learn-bizapps.using-repositories 
+metadata: 
+ title: Using repositories in WinAutomation
+ description: In this module, we'll discuss how to use controls and images through the WinAutomation repositories. 
+ ms.date: 08/07/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Using repositories in WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  WinAutomation enables you to interact with any desktop or web application through controls and images. The created controls and images are stored in the repositories. 
+abstract: |
+    In this module, you will: 
+    - Create controls through the Controls Repository.
+    - Capture images through the Images Repository.
+    - Create multiple selectors for a control. 
+    - Edit selectors. 
+
+prerequisites: |
+  - Installed WinAutomation.
+  - Basic understanding of the Console.
+  - Basic understanding of the Process Designer.
+
+iconUrl: /learn/achievements/using-repositories.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-automate 
+- power-platform
+units: 
+- learn-bizapps.using-repositories.1-introducing-repositories 
+- learn-bizapps.using-repositories.2-control-repository 
+- learn-bizapps.using-repositories.3-images-repository 
+- learn-bizapps.using-repositories.4-editing-selectors 
+- learn-bizapps.using-repositories.5-check-knowledge
+- learn-bizapps.using-repositories.6-summary 
+badge: 
+  uid: learn-bizapps.using-repositories.badge 

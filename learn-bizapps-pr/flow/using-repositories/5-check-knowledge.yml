@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.using-repositories.5-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Through the Controls Repository, you can create only web controls."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. Through the Controls Repository, you can create web and UI controls."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Well done! Through the Controls Repository, you can create web and UI controls."
+  - content: "Through the Images Repository, you can NOT:"
+    choices: 
+    - content: "Upload images from your desktop."
+      isCorrect: true 
+      explanation: "Well done! The Images Repository does not allow you to upload images from your desktop."
+    - content: "Capture images."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Images Repository allows you to capture images."
+    - content: "Capture image with delay."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Images Repository allows you to capture images with delay."
+  - content: "A control can contain multiple selectors in case one of them fails"
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "Well done! WinAutomation enables you to create multiple selectors for a control."
+    - content: "False"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. WinAutomation enables you to create multiple selectors for a control."

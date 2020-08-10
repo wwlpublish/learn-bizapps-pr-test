@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.using-repositories.2-control-repository 
+title: "The Controls Repository: How to create controls"
+metadata: 
+  title: "The Controls Repository: How to create controls"
+  description: "The Controls Repository: How to create controls"
+  ms.date: 08/07/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-control-repository.md)] 
