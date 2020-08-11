@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.loops 
 metadata: 
- title: Automating repetitive tasks using loops in WinAutomation
+ title: Automate repetitive tasks using loops in WinAutomation
  description: In this module, we will examine different ways of repeating blocks of actions in a process. 
  ms.date: 08/07//2020  
  author: rokontol  
  ms.author: rokontol  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Automating repetitive tasks using loops in WinAutomation
+title: Automate repetitive tasks using loops in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Loops are used to automate repetitive tasks by executing a block of actions multiple times.
