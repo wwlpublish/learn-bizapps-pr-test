@@ -1,4 +1,4 @@
-There are certain scenarios where interacting with a user requires a more customized approach; providing multiple inputs of different types simultaneously, displaying a form window with customized UI, and allowing users to explicitly influence the flow of a Process’ execution are all possible needs during attended automation.
+There are certain scenarios where interacting with a user requires a more customized approach; providing multiple inputs of different types simultaneously, displaying a form window with customized UI, and allowing users to explicitly influence the flow of a Process are all possible needs during attended automation.
 
 The **Display Custom Dialog** Action allows the creation of a fully customizable input form to accommodate such needs. To demonstrate, we will build a Process, which handles the onboarding of a new employee from an IT perspective.
 
@@ -54,7 +54,7 @@ We will now configure the **Add Employee** button to run the function we created
  
 ![custom dialog designer button group properties](..\media\custom-dialog-designer-button-group-properties.png)
 
-Now the Process is ready to execute. When running, the form we designed pops up:
+Now the Process is ready to run. When running, the form we designed pops up:
  
 ![custom dialog final](..\media\custom-dialog-final.png)
 

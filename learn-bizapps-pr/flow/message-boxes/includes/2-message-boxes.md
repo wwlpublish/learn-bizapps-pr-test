@@ -7,14 +7,14 @@ To demonstrate Actions that provide output to the user, we'll examine a Process 
  
 ![output function workspace](..\media\output-function-workspace.png)
 
-Based on the data size and the time it takes to process each entry, this Process may take a lot of time to complete - therefore, the user might prefer a high-level overview of how far the Process has progressed, for example, which claim it's currently working on. This can be achieved by using the **Display Notification** Action, which displays a message on the notification window during execution:
+Based on the data size and the time it takes to process each entry, this Process may take a lot of time to complete - therefore, the user might prefer a high-level overview of how far the Process has progressed, for example, which claim it's currently working on. This can be achieved by using the **Display Notification** Action, which displays a message on the notification window while running:
  
 ![display notification action properties](..\media\display-notification-action-properties.png)
 
  
 ![output function workspace continued](..\media\output-function-workspace-continued.png)
 
-Also, when the Process is finished, we could add a message informing the user that the Process has been executed, and mention the number of claims processed:
+Also, when the Process is finished, we could add a message informing the user that the Process has run, and mention the number of claims processed:
  
 ![display message action properties](..\media\display-message-action-properties.png)
 
@@ -46,5 +46,5 @@ The **Display Input Dialog** Action is configured to receive multi-line text as 
  
 ![display input dialog action properties](..\media\display-input-dialog-action-properties.png)
 
-Executing this Process will prompt the user to select a text file; they will then be prompted to enter the input; and finally, the input will be appended to the selected file.
+Running this Process will prompt the user to select a text file; they will then be prompted to enter the input; and finally, the input will be appended to the selected file.
  
