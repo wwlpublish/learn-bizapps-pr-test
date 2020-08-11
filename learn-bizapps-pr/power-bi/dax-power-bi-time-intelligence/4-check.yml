@@ -15,43 +15,43 @@ quiz:
   questions: 
   - content: In the context of data model calculations, which statement best describes time intelligence?
     choices: 
-    - content: Snapshot balance reporting.
+    - content: Snapshot balance reporting
       isCorrect: false
       explanation: Snapshot balance reporting is an example of time intelligence logic.
-    - content: Filter context modifications involving a date table.
+    - content: Filter context modifications involving a date table
       isCorrect: true 
       explanation: Time intelligence calculations modify date filter contexts.
-    - content: Complex calculations involving time.
+    - content: Complex calculations involving time
       isCorrect: false 
       explanation: Time intelligence calculations aren't necessarily complex.
-    - content: Calculations involving hours, minutes, or seconds.
+    - content: Calculations involving hours, minutes, or seconds
       isCorrect: false 
-      explanation: Time intelligence calculations aren't exclusively concerned with time elements, like hours, minutes, or seconds. Commonly, in business data models, they're concerned with years, quarters, months, or days.
-  - content: You're developing a data model in Power BI Desktop. You've just added a date table by using the CALENDARAUTO function. You've extended it with calculated columns, and you've related it to other model tables. What else must you do to ensure DAX time intelligence calculations work correctly?
+      explanation: Time intelligence calculations aren't exclusively concerned with time elements such as hours, minutes, or seconds. Commonly, in business data models, they're concerned with years, quarters, months, or days.
+  - content: You're developing a data model in Power BI Desktop. You've just added a date table by using the CALENDARAUTO function. You've extended it with calculated columns, and you've related it to other model tables. What else should you do to ensure that DAX time intelligence calculations work correctly?
     choices: 
     - content: Add time intelligence measures to the date table.
       isCorrect: false
-      explanation: There's no requirement to add time intelligence measures to the date table. Anyway, it's not common to add measures to a dimension table.
+      explanation: You are not required to add time intelligence measures to the date table. It's not common to add measures to a dimension table.
     - content: Mark the date table.
       isCorrect: true 
-      explanation: You must mark the date table so Power BI can correctly filter its dates.
+      explanation: You must mark the date table so that Power BI can correctly filter its dates.
     - content: Add a fiscal hierarchy.
       isCorrect: false 
-      explanation: There's no requirement to create a hierarchy, although it's usually helpful to do so.
+      explanation: You are not required to create a hierarchy, though it's usually helpful to do so.
     - content: Add a date column.
       isCorrect: false 
-      explanation: There's no requirement to add a date column. Because the table was created by using the CALENDARAUTO function, there'll already be a date column.
-  - content: You have a table that stores account balance snapshots for each date, excluding weekends. You need to ensure that your measure formula only filters by a single date. Also, if there's no record on the last date of a time period, it should use the latest account balance. Which DAX time intelligence function should you use?
+      explanation: You are not required to add a date column. Because the table was created by using the CALENDARAUTO function, a date column will already exist.
+  - content: You have a table that stores account balance snapshots for each date, excluding weekends. You need to ensure that your measure formula only filters by a single date. Also, if no record is on the last date of a time period, it should use the latest account balance. Which DAX time intelligence function should you use?
     choices: 
     - content: FIRST
       isCorrect: false
-      explanation: The FIRST function will return the first date in the filter context. This will not achieve the objective. The requirement is to filter by the last date where there's a snapshot record.
+      explanation: The FIRST function will return the first date in the filter context. This option will not help you achieve the objective. The requirement is to filter by the last date where a snapshot record exists.
     - content: FIRSTNONBLANK
       isCorrect: false 
-      explanation: The FIRSTNONBLANK function will return the first date in the filter context where there's a snapshot record. This will not achieve the objective. The requirement is to filter by the last date where there's a record.
+      explanation: The FIRSTNONBLANK function will return the first date in the filter context where a snapshot record exists. This option will not help you achieve the objective. The requirement is to filter by the last date where a snapshot record exists.
     - content: LAST
       isCorrect: false 
-      explanation: The LAST function will return the first date in the filter context. This will not achieve the objective. The requirement is to filter by the last date where there's a snapshot record.
+      explanation: The LAST function will return the first date in the filter context. This option will not help you achieve the objective. The requirement is to filter by the last date where a snapshot record exists.
     - content: LASTNONBLANK
       isCorrect: true 
-      explanation: The LASTNONBLANK function will return the last date in the filter context where there's a snapshot record. This will achieve the objective.
+      explanation: The LASTNONBLANK function will return the last date in the filter context where a snapshot record exists. This option will help you achieve the objective.
