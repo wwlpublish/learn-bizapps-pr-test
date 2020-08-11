@@ -20,7 +20,7 @@ The **Exception Handling** tab should look like this:
 
 ![The Exception Handling tab in the Download from Web action's properties.](..\media\download-from-web-action-properties.png)
  
-In case this action fails, it will first retry two times, 3 seconds apart; if all retries fail, the **Check Web Access** function will be executed. This function has been designed to ping [www.microsoft.com](www.microsoft.com), to check whether there are issues with web connectivity - if the ping action produces a **Failed** result, a log entry is created in a text file on the user’s Desktop, and the process is aborted:
+In case this action fails, it will first retry two times, 3 seconds apart; if all retries fail, the **Check Web Access** function will run. This function has been designed to ping [www.microsoft.com](www.microsoft.com), to check whether there are issues with web connectivity - if the ping action produces a **Failed** result, a log entry is created in a text file on the user’s Desktop, and the process is aborted:
 
 ![The created process in the Workspace.](..\media\workspace.png)
 
@@ -34,7 +34,7 @@ After the file is opened, a series of actions are performed on its contents. Due
 
 ### Step 2
 
-To achieve this, add a **Begin Exception Block** action after the file is opened, and configure it so that it runs the **Restart Excel** function. Then, it continues execution by repeating the failed action:
+To achieve this, add a **Begin Exception Block** action after the file is opened, and configure it so that it runs the **Restart Excel** function. Then, it continues running by repeating the failed action:
 
 ![The Begin Exception Block action's properties.](..\media\begin-exception-block-action-properties-b.png)
  
@@ -44,4 +44,4 @@ Press **OK**, and move the **End Exception Block** action after the file is clos
 
 ![The created process in the Workspace.](..\media\workspace-b.png)
   
-The **Restart Excel** function simply saves the file in its current state, closes it, then reopens it. Therefore, if any of the Excel-related actions fails, the process will save and close the file, reopen it, and attempt to resume execution.
+The **Restart Excel** function simply saves the file in its current state, closes it, then reopens it. Therefore, if any of the Excel-related actions fails, the process will save and close the file, reopen it, and attempt to resume running.

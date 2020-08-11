@@ -1,16 +1,16 @@
-Exception and error handling is a mechanism, which allows WinAutomation to handle and recover from unexpected circumstances and issues that might occur during the execution of a process.
+Exception and error handling is a mechanism, which allows WinAutomation to handle and recover from unexpected circumstances and issues that might occur while a process is running.
 
-In the example we explored in the introduction of this module, consider the scenario where the client database cannot be accessed because of a network issue. Attempting to connect to the database would then cause an exception, and the process execution would then stop, producing an error.
+In the example we explored in the introduction of this module, consider the scenario where the client database cannot be accessed because of a network issue. Attempting to connect to the database would then cause an exception, and the process would then stop running, producing an error.
 
 In this unit, you'll learn about exceptions and errors, and about the four levels of exception and error handling in WinAutomation.
 
 ## About exceptions
 
-Exceptions are events which occur during the execution of a process; these events disrupt the expected flow of a process, and will cause it to fail if they are not handled properly. Exceptions occur when an action cannot be executed as intended, and may be caused by various factors: incorrect inputs, unexpected values, software/hardware failures, unavailable resources, etc.
+Exceptions are events which occur while a process is running; these events disrupt the expected flow of a process, and will cause it to fail if they are not handled properly. Exceptions occur when an action cannot run as intended, and may be caused by various factors: incorrect inputs, unexpected values, software/hardware failures, unavailable resources, etc.
 
 ## About errors
 
-Errors are the result of unhandled exceptions. When an exception occurs during the execution of a process, the process will fail by default, since its execution can no longer continue. Any exception that is left unhandled, or is handled in a way that does not allow the continuation of the process’ flow, causes an error in the process.
+Errors are the result of unhandled exceptions. When an exception occurs while a process is running, the process will fail by default, since it can no longer continue running. Any exception that is left unhandled, or is handled in a way that does not allow the continuation of the process’ flow, causes an error in the process.
 
 ## Exception and error handling levels
 

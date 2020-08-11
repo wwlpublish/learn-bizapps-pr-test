@@ -1,7 +1,7 @@
 ### YamlMime:Module 
 uid: learn-bizapps.exceptions-handling 
 metadata: 
- title: Exception and error handling in WinAutomation
+ title: Configure exception and error handling in WinAutomation
  description: In this module, we'll discuss how to configure exception and error handling behaviour. 
  ms.date: 08/07/2020  
  author: georgiostrantzas  

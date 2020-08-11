@@ -1,4 +1,4 @@
-The first two levels concern exception handling; namely, the failure of individual actions in a process, and the attempt to handle such failures so that the execution of the process may resume.
+The first two levels concern exception handling; namely, the failure of individual actions in a process, and the attempt to handle such failures so that the process may resume running.
 
 In this unit, you will learn how to utilize the exception handling capabilities of WinAutomation.
 
@@ -16,9 +16,9 @@ In this tab, you will be able to configure this action’s exception handling be
 
 ![The populated Exception Handling tab in the Open SQL Connection action's properties.](..\media\open-sql-connection-action-properties-all-exceptions.png)
 
-In the above case, for example, when this action fails, it will retry two more times, 3 seconds apart, and then execute a function which will send an email to notify the administrator about the database status.
+In the above case, for example, when this action fails, it will retry two more times, 3 seconds apart, and then run a function which will send an email to notify the administrator about the database status.
 
-By default, exception handling will take effect when any exception occurs during the execution of this action - however, you can configure it so that exception handling occurs only on a specific type of exception. Each action has specific exception types that it may produce:
+By default, exception handling will take effect when any exception occurs while this action is running - however, you can configure it so that exception handling occurs only on a specific type of exception. Each action has specific exception types that it may produce:
 
 ![The populated Exception Handling tab in the Open SQL Connection action's properties.](..\media\open-sql-connection-action-properties-selected-exception.png)
 
@@ -38,7 +38,7 @@ Actions in between the **Begin Exception Block** and **End Exception Block** act
 
 ![The Workspace with an example using the The Begin Exception Block action.](..\media\exception-block-workspace.png)
 
-In the above scenario, if any of the actions within the exception block fails, the exception block’s rules will take effect; a function that closes the web browser will be executed, and the entire Block will be repeated, thus preventing the process from crashing due to a non-responsive web page or browser.
+In the above scenario, if any of the actions within the exception block fails, the exception block’s rules will take effect; a function that closes the web browser will run, and the entire Block will be repeated, thus preventing the process from crashing due to a non-responsive web page or browser.
 
 ## Exception handling priorities
 
@@ -49,7 +49,7 @@ As mentioned earlier, the order in which the exception handling levels are appli
 - Level 3: Individual processes
 - Level 4: All processes
 
-Therefore, any level 1 exception handling rules will be executed before the respective Level 2 rules:
+Therefore, any level 1 exception handling rules will run before the respective Level 2 rules:
 
 ![The Exception Handling tab in the Launch New Edge action's properties.](..\media\launch-new-edge-action-properties.png)
 

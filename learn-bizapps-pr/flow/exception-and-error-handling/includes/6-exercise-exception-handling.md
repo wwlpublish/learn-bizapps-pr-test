@@ -1,4 +1,4 @@
-Error handling is configured as the platform’s response to a process execution that has failed.
+Error handling is configured as the platform’s response to a process that has failed.
 
 In this exercise, you will apply error handling rules to all processes through the **Console Settings**, and then configure a different set of rules for a specific process, whose errors should be handled in a different way.
 
