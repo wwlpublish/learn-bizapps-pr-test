@@ -34,9 +34,9 @@ Let's create a process that iterates ten times, and every time displays a messag
 
 ![The Run button in the Console.](..\media\image-44.png)
 
-10.	Wait for the **Notification Popup Window** to show that the process was executed successfully. 
+10.	Wait for the **Notification Popup Window** to show that the process ran successfully. 
 
 ![The Notification Popup Window.](..\media\image-45.png)
 
-11.	In case you want to execute the process automatically, you can add a schedule or a trigger as we showed in the previous units. 
+11.	In case you want to run the process automatically, you can add a schedule or a trigger as we showed in the previous units. 
 

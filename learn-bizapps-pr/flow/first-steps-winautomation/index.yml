@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.first-steps-winautomation 
 metadata: 
- title: First steps with WinAutomation
+ title: Take your first steps with WinAutomation
  description: In this module, we'll discuss how to create and monitor simple processes in WinAutomation.
  ms.date: 07/28/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate
-title: First steps with WinAutomation
+title: Take your first steps with WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   The WinAutomation platform consists of two main components: The Console and the Process Designer. The Console is the main control panel, while the The Process Designer is the developing environment of the platform.

@@ -8,7 +8,7 @@ The **Process Designer** is the developing environment of WinAutomation, where y
 
 ![The Process Designer window.](..\media\image-2.png)
 
-By the end of this module, you will be able to use both components to create, debug and execute simple processes.  
+By the end of this module, you will be able to use both components to create, debug and run simple processes.  
 
 ## Learning objectives
 

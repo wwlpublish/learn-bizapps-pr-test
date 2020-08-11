@@ -10,11 +10,11 @@ All your processes can be organized into folders through the **Folders Pane** on
 
 ![The Folders Pane in the Processes tab.](..\media\image-4.png)
 
-Through the **Processes Pane**, you can select processes and perform various operations on them, such as executing, copying, deleting or disabling them. All the available actions can be found on the **Toolbar**. 
+Through the **Processes Pane**, you can select processes and perform various operations on them, such as running, copying, deleting or disabling them. All the available actions can be found on the **Toolbar**. 
 
 ![The Toolbar in the Processes tab.](..\media\image-5.png)
 
-Next to the **Processes** tab, there is the **Triggers** tab that provides all the necessary functionality to create, manage and deploy triggers. Triggers allow you to execute processes automatically without your interference.
+Next to the **Processes** tab, there is the **Triggers** tab that provides all the necessary functionality to create, manage and deploy triggers. Triggers allow you to run processes automatically without your interference.
 
 WinAutomation offers 11 different kinds of triggers that cover the most common automation scenarios. More information can be found on th [respective documentation page](https://docs.winautomation.com/en/triggers.html).
 

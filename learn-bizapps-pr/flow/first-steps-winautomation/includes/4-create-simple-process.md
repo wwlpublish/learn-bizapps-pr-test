@@ -28,7 +28,7 @@ To create the respective process:
 
 ![The Run button in the Process Designer.](..\media\image-22.png)
 
-8.	In case you want to check how every single action is executed, you can run the process step by step through the respective button. 
+8.	In case you want to check how every single action is run, you can run the process step by step through the respective button. 
 
 ![The Execute Next Action button in the Process Designer.](..\media\image-23.png)
 
@@ -40,7 +40,7 @@ To create the respective process:
 
 ![The Run button in the Console.](..\media\image-25.png)
 
-11.	While the process is executing, a **Notification Popup Window** will be displayed to inform you about the running process.  
+11.	While the process is running, a **Notification Popup Window** will be displayed to inform you about the running process.  
 
 ![The Notification Popup Window.](..\media\image-26.png)
 
@@ -48,7 +48,7 @@ To create the respective process:
 
 ![The Stop button in the Console.](..\media\image-27.png)
 
-13.	In case you want to execute the process at specific days automatically, navigate to the **Scheduler** tab.
+13.	In case you want to run the process at specific days automatically, navigate to the **Scheduler** tab.
 
 ![The Scheduler tab in the Console.](..\media\image-28.png)
 
@@ -68,6 +68,6 @@ To create the respective process:
 
 ![The New option in the Triggers tab](..\media\image-32.png)
 
-18.	In this example, we created a **HotKey Trigger** that executes the process every time the **CTRL + F10** key combination is pressed.
+18.	In this example, we created a **HotKey Trigger** that runs the process every time the **CTRL + F10** key combination is pressed.
 
 ![The HotKey Trigger Properties window.](..\media\image-33.png)
