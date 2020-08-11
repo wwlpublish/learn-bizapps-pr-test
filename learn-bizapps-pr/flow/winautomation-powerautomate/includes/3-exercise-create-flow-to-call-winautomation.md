@@ -57,8 +57,8 @@ Set the Process Path to **/My Processes/Desktop/Power Automate Exercise**. Use *
 
 ![configure WinAutomation action PowerApps](..\media\configure-WinAutomation-action-PowerApps.png)
 
-[!NOTE]
-Each argument and dynamic expression should be separated from the previous one by a space, and surrounded by double quotes (for example “alpha” “bravo” “charlie”).
+> [!NOTE]
+> Each argument and dynamic expression should be separated from the previous one by a space, and surrounded by double quotes (for example “alpha” “bravo” “charlie”).
 
 Skip the Review Outputs section and go to **Test**. For now, use the previously entered values, and click **Test Now**.
 

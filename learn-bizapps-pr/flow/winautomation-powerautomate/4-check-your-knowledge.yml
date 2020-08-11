@@ -1,0 +1,37 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-powerautomate.4-check-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 10/08/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: "Command line arguments must be separated by a comma."
+    choices:
+    - content: "True"
+      isCorrect: false
+      explanation: "Your answer is incorrect. When entering command line arguments, they should be in double quotes (""), and separated by a space."
+    - content: "False"
+      isCorrect: true
+      explanation: "That is correct!"
+  - content: "What type of variable does the WinAutomation Action 'Get Command Line Arguments' return?"
+    choices:
+    - content: "Data Table"
+      isCorrect: false
+      explanation: "That is incorrect, the Action returns a list of text values."
+    - content: "Data Row"
+      isCorrect: false
+      explanation: "That is incorrect, the Action returns a list of text values."
+    - content: "List of Text Values"
+      isCorrect: true
+      explanation: "That is correct!"
+    - content: "Excel Instance"
+      isCorrect: true
+      explanation: "That is incorrect, the Action returns a list of text values."

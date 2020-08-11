@@ -1,0 +1,44 @@
+### YamlMime:Module 
+uid: learn-bizapps.winautomation-powerautomate 
+metadata: 
+ title: WinAutomation-PowerApps Combination
+ description: This module shows how to use the WinAutomation connector to run WinAutomation from a PowerApps flow.
+ ms.date: 10/08/2020  
+ author: olegmelnykov  
+ ms.author: olmelnyk  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: WinAutomation-PowerApps Combination
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module shows how to use the WinAutomation connector to run WinAutomation from a PowerApps flow. It shows how to create a flow in PowerApps which passes arguments through the command line to WinAutomation, and how to retrieve those arguments from the command line in WinAutomation. 
+abstract: |  
+    In this module, you will: 
+    - Create a flow in PowerApps which passes arguments through the command line to WinAutomation
+    - Create a process in WinAutomation which retrieves arguments from the command line
+    - Use the retrieved arguments as variables in a WinAutomation Process
+prerequisites: |
+    - Either a paid or trial Power Automate plan.
+    - A work or school account to sign into your Windows device with administrator privileges and Power Automate.
+    - A device that runs Windows 10 Pro, Windows Server 2016, or Windows Server 2019.
+    - The Microsoft Edge (version 80 or later) or Google Chrome browser.
+    - An environment with a Common Data Service database. 
+iconUrl: /learn/achievements/winautomation-powerautomate.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- dynamics  
+- power-automate
+- power-platform
+units: 
+- learn-bizapps.winautomation-powerautomate.1-introduction 
+- learn-bizapps.winautomation-powerautomate.2-run-winautomation-processes-from-powerautomate 
+- learn-bizapps.winautomation-powerautomate.3-exercise-create-flow-to-call-winautomation 
+- learn-bizapps.winautomation-powerautomate.4-check-your-knowledge 
+- learn-bizapps.winautomation-powerautomate.5-summary 
+badge: 
+  uid: learn-bizapps.winautomation-powerautomate.badge 

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-powerautomate.3-exercise-create-flow-to-call-winautomation 
+title: Create a Flow to Call WinAutomation
+metadata: 
+  title: Create a Flow to Call WinAutomation
+  description: An exercise to demonstrate how a WinAutomation can be called from a flow.
+  ms.date: 10/08/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 20 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-exercise-create-flow-to-call-winautomation.md)] 
