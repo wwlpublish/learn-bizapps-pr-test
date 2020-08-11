@@ -27,7 +27,7 @@ In the **Advanced** tab, determine whether the Action should wait for an image t
 
 ![Move Mouse to Text on Screen properties Advanced tab](..\media\Move-Mouse-to-Text-on-Screen-properties-Advanced-tab.png)
 
-With the **Send Mouse Click** Action simulate using the physical mouse to send clicks or button presses. Choose whether the Action should wait a number of milliseconds before sending the click. Unless otherwise configured, the Action will send the mouse click at whatever position on screen the cursor happens to be when the process executes this Action. Check Move mouse before sending mouse event to show the options of the Move Mouse Action. A variable can be used for entering the coordinates. The coordinates can be set relative to the entire screen, the active window or the current mouse position. To enter the cursor's current position into the coordinates, press CTRL+SHIFT. As with all mouse Actions, determine the speed and animation type.
+With the **Send Mouse Click** Action simulate using the physical mouse to send clicks or button presses. Choose whether the Action should wait a number of milliseconds before sending the click. Unless otherwise configured, the Action will send the mouse click at whatever position on screen the cursor happens to be when the process runs this Action. Check Move mouse before sending mouse event to show the options of the Move Mouse Action. A variable can be used for entering the coordinates. The coordinates can be set relative to the entire screen, the active window or the current mouse position. To enter the cursor's current position into the coordinates, press CTRL+SHIFT. As with all mouse Actions, determine the speed and animation type.
  
 ![Send Mouse Click action properties](..\media\Send-Mouse-Click-action-properties.png)
 
@@ -44,13 +44,13 @@ The **Press/Release Key** Action allows us to combine mouse and keyboard actions
 ![Press Release Key action properties](..\media\Press-Release-Key-action-properties.png)
 
 [!WARNING]
-The pressed key state will persist beyond the execution of the process. That is, the computer will behave as if the key is still pressed. Another Press/Release Key Action must be used to revert the key to its default state.
+The pressed key state will persist after the process has finished. That is, the computer will behave as if the key is still pressed. Another Press/Release Key Action must be used to revert the key to its default state.
 
 The **Set Key State** Action is used to enable or disable Caps Lock, Num Lock and Scroll Lock.
 
 ![Set Key State action properties](..\media\Set-Key-State-action-properties.png)
 
-The **Block Input** Action is used to ignore mouse or keyboard input from the user during Process execution.
+The **Block Input** Action is used to ignore mouse or keyboard input from the user while the process is running.
 
 ![Block Input action properties](..\media\Block-Input-action-properties.png)
  

@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.mouse-and-keyboard 
 metadata: 
- title: Mouse and Keyboard
+ title: Manipulate the mouse and keyboard in a process
  description: This module shows how to use the WinAutomation mouse and keyboard Actions.
  ms.date: 08/07/2020
  author: olegmelnykov  
  ms.author: olmelnyk  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Mouse and Keyboard
+title: Manipulate the mouse and keyboard in a process
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module shows how to create processes which simulate the use of mouse movement, clicks, typing and key presses. Additionally, the module demonstrates how to select and locate a specific image or area on the screen with the mouse. 
