@@ -16,7 +16,7 @@ Thus, the simplest **If** structure is as below:
 
 ![If cell contains urgent](..\media\if-cell-contains-urgent.png)
 
-Configured this way, Action #2 will only be executed if the %UrgentCell% variable contains the value **Urgent**.
+Configured this way, Action #2 will only run if the %UrgentCell% variable contains the value **Urgent**.
 
 Some initial conditions in the **If** group are **If**, **If File Exists**, **If Window Contains**, **If Text on Screen** Actions. All conditional blocks in the **If** group end with the **End If** Action.
 
@@ -26,7 +26,7 @@ Alternative conditions may be added using the **Else If** Action; these conditio
 
 Multiple alternative conditions can be added, and these conditions do not necessarily have to be related, as seen in the example above.
 
-An unconditional alternative may also be added, using the **Else** Action; this will be executed if all the conditions before it have failed:
+An unconditional alternative may also be added, using the **Else** Action; this will run if all the conditions before it have failed:
 
 ![Else action](..\media\else-action.png) 
 
@@ -50,12 +50,12 @@ Thus, the simplest **Switch** structure is as below:
 
 ![Case action](..\media\case-action.png)
     
-As with the **If** group of Actions, the **Write to Excel Worksheet** Action will only be executed if the %UrgentCell% variable contains the value **Urgent**.
+As with the **If** group of Actions, the **Write to Excel Worksheet** Action will only run if the %UrgentCell% variable contains the value **Urgent**.
 
 Each Switch block begins with the **Switch** Action and ends with an **End Switch** Action. Alternative cases are added within the Switch block, using the **Case** and **End Case** Actions.
 
 Multiple alternative conditions can be added; these conditions will all refer to the variable specified in the **Switch** Action.
 
-An unconditional alternative may also be added, using the **Default Case** Action; as was the case in the **If** group of Actions, this will be executed if no other **Case** Action before it has been executed:
+An unconditional alternative may also be added, using the **Default Case** Action; as was the case in the **If** group of Actions, this will run if no other **Case** Action before it runs:
 
 ![Default case](..\media\default-case.png)
