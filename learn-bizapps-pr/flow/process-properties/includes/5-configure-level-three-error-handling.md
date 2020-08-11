@@ -10,7 +10,7 @@ To override the global behavior for the selected process:
 
     ![Radio buttons that enable or disable the default options overriding.](..\media\override-default-options-error-handling.png)
 
-1.	Enable the respective action(s) you want to be executed when an error occurs. WinAutomation provides five different options:
+1.	Enable the respective action(s) you want to be run when an error occurs. WinAutomation provides five different options:
 
     1.	Send an Email to one or multiple recipients. You can set the STMP server credentials in the **Email/SMTP** tab of the WinAutomation **Options**. More information can be found on the [respective documentation page](https://docs.winautomation.com/en/email-smtp-tab.html).
 

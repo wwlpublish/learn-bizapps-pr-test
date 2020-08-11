@@ -6,7 +6,7 @@ To enable these features:
 
     ![The General Tab in the Process Properties dialog.](..\media\process-properties-general.png)
 
-1.	Check the **Use Secure Screen** option. By enabling this feature, you can hide the content displayed on the screen when the selected process is executed. 
+1.	Check the **Use Secure Screen** option. By enabling this feature, you can hide the content displayed on the screen when the selected process is run. 
 
     The screen will be turned into blue, and no one will be able to see what the process does. The only visible window will be the **Notification Window**. This feature is helpful when a process handles files that contain sensitive information such as transaction records. 
 

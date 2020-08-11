@@ -1,13 +1,13 @@
-When you execute processes through the **Console** or because to a **Trigger** or **Schedule**, the related events are logged into a central log file. 
+When you run processes through the **Console** or because to a **Trigger** or **Schedule**, the related events are logged into a central log file. 
 
 > [!NOTE]
-> Keep in mind that when a process is executed through the **Process Designer**, the event is not recorded into the log database.
+> Keep in mind that when a process is run through the **Process Designer**, the event is not recorded into the log database.
 
 Process properties allow you to define what information will be logged and enable you to create more informative logs. 
 
-The first logging feature in WinAutomation that will present is called **Automatic Logging** and defines if the logs will contain information for every single action executed in the process.
+The first logging feature in WinAutomation that will present is called **Automatic Logging** and defines if the logs will contain information for every single action run in the process.
 
-This option can be valuable when executing complicated processes where a single log message may not be sufficient. 
+This option can be valuable when running complicated processes where a single log message may not be sufficient. 
 
 To enable the respective feature:
 

@@ -12,7 +12,7 @@ To set the desired behavior for these cases:
 
 1.	Select the desired action to be performed when the process is triggered, while you are logged in and your workstation is locked. You can choose to unlock the workstation using the password specified in the **Authentication** tab of WinAutomation **Options**.
 
-    In case the selected process is not interactive, you can choose to execute the process without unlocking the workstation. Lastly, you can choose to cancel the execution of the process. 
+    In case the selected process is not interactive, you can choose to run the process without unlocking the workstation. Lastly, you can choose to cancel the process. 
 
     ![Radio buttons to select what action will be performed when you are logged in and your workstation is locked.](..\media\loggedin-workstation-locked-run-policy.png)
 
@@ -23,7 +23,7 @@ To set the desired behavior for these cases:
 
     ![Radio buttons to select what action will be performed when you are not logged in.](..\media\loggedin-run-policy.png)
 
-1.	Select the desired action to be performed when the process is triggered and there is no available screen. You can choose between starting the process in non-interactive mode or canceling the execution. 
+1.	Select the desired action to be performed when the process is triggered and there is no available screen. You can choose between starting the process in non-interactive mode or canceling the process. 
 
     ![Radio buttons to select what action will be performed when there is no available screen.](..\media\no-screen-available-run-policy.png)
 

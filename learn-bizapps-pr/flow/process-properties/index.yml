@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.process-properties 
 metadata: 
- title: WinAutomation process properties
+ title: Configuring process properties in WinAutomation
  description: In this module, we'll discuss how to configure WinAutomation Process Properties.
  ms.date: 08/07/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate
-title: WinAutomation Process Properties
+title: Configuring process properties in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
    WinAutomation provides a wide selection of Process Properties that enable you to configure how the platform handles each Process. Through the Process Properties Dialog, you can implement different behavior for each Process and override the platform's global settings. 
