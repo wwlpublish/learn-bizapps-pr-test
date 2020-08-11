@@ -8,7 +8,7 @@ metadata:
  ms.author: rokontol
  ms.topic: interactive-tutorial
  ms.prod: learning-power-automate
-title: Conditional actions in WinAutomation
+title: Adjust process behavior using onditional actions
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Conditional actions allow processes to modify their behavior during runtime, based on the information available to it at the time.
