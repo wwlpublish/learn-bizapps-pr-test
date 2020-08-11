@@ -3,7 +3,7 @@ uid: learn-bizapps.dax-power-bi-time-intelligence.1-introduction
 title: Introduction
 metadata: 
   title: Introduction 
-  description: Introduction to defining time intelligence.  
+  description: Introduction to using DAX time intelligence functions in Power BI Desktop models   
   ms.date: 07/07/2020 
   author: heyrob 
   ms.author: robde 
