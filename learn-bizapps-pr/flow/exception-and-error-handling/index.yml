@@ -8,7 +8,7 @@ metadata:
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Exception and error handling in WinAutomation
+title: Configure exception and error handling in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Exception and error handling is a mechanism which allows WinAutomation to handle and recover from unexpected circumstances and issues that might occur during the execution of a process. 
