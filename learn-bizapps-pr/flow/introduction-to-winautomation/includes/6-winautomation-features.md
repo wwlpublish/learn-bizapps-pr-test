@@ -9,7 +9,7 @@ Drag and drop Actions in Process Designer to simplify automation steps.
 Select the actions needed for the process, drag and drop them in the workspace in a sequential and logical manner. No actual scripting is needed. 
 Test your automation and debug or troubleshoot it by pausing whenever needed.
 
-Execute the process step by step, review or even change variables while the process is running or go to different reusable functions. 
+Run the process step by step, review or even change variables while the process is running or go to different reusable functions. 
 
 2. The Central Controls and Images Repository
 
@@ -21,7 +21,7 @@ Processes will access Controls through dedicated actions.
 
 A control can be a button, a link, a text that needs filling in and so on, which are associated with the relevant WinAutomation step. 
 
-Controls that are chosen to interact with different applications that the Automation is accessing while executing, can be saved. 
+Controls that are chosen to interact with different applications that the Automation is accessing while running, can be saved. 
 
 This is based on the automation flow.  
 
@@ -81,7 +81,7 @@ More specifically the User can set exception mechanisms for four different types
 
 Multitasking and Smart Concurrency policy is a feature that allows the application to govern and limit parallel Process Execution.
 
-Processes can be configured and executed simultaneously. WinAutomation concurrency policy will ensure optimum performance in terms of time and efficiency.
+Processes can be configured and run simultaneously. WinAutomation concurrency policy will ensure optimum performance in terms of time and efficiency.
 
 WinAutomation allows for as many Processes to be run as the hardware can support. 
 
@@ -93,7 +93,7 @@ One workstation can operate in Unattended mode running multiple Processes at the
 
 WinAutomation technology holds back Process Automations in order to avoid clutter.
 
-In the Concurrency policy for each Process, if the limit of the Process instances that can run at the same time has been reached, the behavior to be followed can be set - to either drop the Processes if they are in wait mode, or queue the Processes and make them wait for a specific period of time in the queue to be executed, before rejecting them.
+In the Concurrency policy for each Process, if the limit of the Process instances that can run at the same time has been reached, the behavior to be followed can be set - to either drop the Processes if they are in wait mode, or queue the Processes and make them wait for a specific period of time in the queue to be run, before rejecting them.
 
 6. Advanced Synchronization
 
