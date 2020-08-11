@@ -69,7 +69,7 @@ CALCULATE(
 
 In this example, the FILTER function filters all rows of the Product table that are in filter context. Each row for a product where its list price exceeds double its standard cost is displayed as a row of the filtered table. Therefore, the **Revenue** measure is evaluated for all products that are returned by the FILTER function.
 
-All filter expressions that are passed in to the CALCULATE function are table filter expressions. A Boolean filter expression is a shorthand notation to improve the writing and reading experience. Internally, Power BI translates Boolean filter expressions to table filter expressions, which is how it translates your **Revenue Red** measure definition.
+All filter expressions that are passed in to the CALCULATE function are table filter expressions. A Boolean filter expression is a shorthand notation to improve the writing and reading experience. Internally, Microsoft Power BI translates Boolean filter expressions to table filter expressions, which is how it translates your **Revenue Red** measure definition.
 
 ```dax
 Revenue Red =
