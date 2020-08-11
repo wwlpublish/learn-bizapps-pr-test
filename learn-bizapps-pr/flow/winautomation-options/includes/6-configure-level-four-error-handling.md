@@ -1,12 +1,12 @@
-Through the **Options** tab, you can configure the fourth level of the WinAuotmation error handling functionality. This level is global across processes, and the defined behavior will be executed if you have not overridden the behavior of a process at a lower level.
+Through the **Options** tab, you can configure the fourth level of the WinAuotmation error handling functionality. This level is global across processes, and the defined behavior will be followed if you have not overridden the behavior of a process at a lower level.
 
-To determine which actions will be performed if a process fails to execute successfully:
+To determine which actions will be performed if a process fails to run successfully:
 
 1.	Navigate to the **Behavior** tab inside the **Error Handling** tab.
 
     ![The Behaviour tab.](..\media\behaviour-tab-error-handling-options.png)
 
-1.	Enable the respective action(s) you want to be executed when an error occurs. WinAutomation provides five different options:
+1.	Enable the respective action(s) you want to be run when an error occurs. WinAutomation provides five different options:
     
     1.  Send an email to one or multiple recipients. You can set the details about the SMTP server in the **Email/SMTP** tab.
 

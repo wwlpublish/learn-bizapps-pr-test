@@ -1,6 +1,6 @@
-WinAutomation supports parallel execution of numerous processes or even parallel execution of many instances of the same process. Concurrency policies allow you to restrict the number of processes that can be executed simultaneously. 
+WinAutomation supports parallel execution of numerous processes, or even of many instances of the same process. Concurrency policies allow you to restrict the number of processes that can be run simultaneously. 
 
-By implementing a concurrency policy, you can ensure that low-performance machines will not execute a high number of processes at the same time and you may prevent crashes.
+By implementing a concurrency policy, you can ensure that low-performance machines will not run a high number of processes at the same time and you may prevent crashes.
 
 To create a global concurrency policy:
 
@@ -12,11 +12,11 @@ To create a global concurrency policy:
 
     ![A check box that limits the number of processes running concurrently.](..\media\limit-processes-concurrency-policy-tab.png)
 
-1.	Set the max number of simultaneously executed processes in the **Max processes limit** field. 
+1.	Set the max number of simultaneously running processes in the **Max processes limit** field. 
 
     ![A field that sets the max number of processes that can run concurrently.](..\media\max-processes-concurrency-policy-tab.png)
 
-1.	In the **If this limit is reached** dropdown menu, select the desired action to be performed when the limit is reached. You can choose between adding processes in a waiting queue or cancel the execution of them.
+1.	In the **If this limit is reached** dropdown menu, select the desired action to be performed when the limit is reached. You can choose between adding processes in a waiting queue or cancelling them.
 
     ![A dropdown menu that sets what happens when the limit is reached.](..\media\if-limit-is-reached-concurrency-policy-tab.png)
 

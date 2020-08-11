@@ -1,11 +1,11 @@
-To enhance user experience, WinAutomation displays a notification every time a process is executed. 
+To enhance user experience, WinAutomation displays a notification every time a process is run. 
 
 This notification pane is called **Notification Popup Window**, and it is be displayed exclusively when a process is fired from the **Console**, a **Schedule**, or a **Trigger**. 
 
 ![The Notification Popup Window.](..\media\notification-popup-window.png)
 
 > [!NOTE]
-> A notification is not displayed when a process is executed from within the **Process Designer**.
+> A notification is not displayed when a process is run from within the **Process Designer**.
 
 The **Notification Popup Window** is enabled by default, but you can disable it by performing the following steps:
 

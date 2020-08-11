@@ -9,7 +9,7 @@ Each tab configures different features of the platform, such as concurrency poli
 
 ![The Options tab.](..\media\options-tab-console.png)
 
-By the end of this module, you will be able to understand and execute some of the most important operations that WinAutomation **Options** tab provides.
+By the end of this module, you will be able to understand and perform some of the most important operations that WinAutomation **Options** tab provides.
 
 ## Learning objectives
 

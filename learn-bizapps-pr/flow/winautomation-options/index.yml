@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.winautomation-options 
 metadata: 
- title: WinAutomation οptions
+ title: Configure WinAutomation οptions
  description: In this module, we'll discuss how to configure WinAutomation οptions.
  ms.date: 08/07/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate   
-title: WinAutomation οptions
+title: Configure WinAutomation οptions
 summary: |  
   [!include[](../includes/module-banner.md)] 
   WinAutomation provides an extensive selection of options that enables you to configure the way the platform operates. All the platform's essential settings are located in the Options tab.
