@@ -15,43 +15,43 @@ quiz:
   questions: 
   - content: An iterator function always includes at least two arguments. What are they?
     choices: 
-    - content: Column and expression.
+    - content: Column and expression
       isCorrect: false
       explanation: An iterator function iterates over a table and evaluates an expression for each row of the table. It's not possible to pass in a column reference.
-    - content: Table and expression.
+    - content: Table and expression
       isCorrect: true
       explanation: An iterator function iterates over a table and evaluates an expression for each row of the table.
-    - content: Measure and expression.
+    - content: Measure and expression
       isCorrect: false 
       explanation: An iterator function iterates over a table and evaluates an expression for each row of the table. A measure is an expression.
-    - content: Table and ranking.
+    - content: Table and ranking
       isCorrect: false 
       explanation: An iterator function iterates over a table and evaluates an expression for each row of the table. It's not possible to pass in a ranking.
   - content: Which statement about DAX iterator functions is true?
     choices: 
     - content: When used to add values of the same column, the SUM function performs better than the SUMX function.
       isCorrect: false
-      explanation: They perform the same. Internally, Power BI translates the SUM function as if it were written with the SUMX function.
+      explanation: The SUM function and SUMX function perform the same. Internally, Power BI translates the SUM function as if it were written with the SUMX function.
     - content: When used to add values of the same column, the SUMX function performs better than the SUM function.
       isCorrect: false 
-      explanation: They perform the same. Internally, Power BI translates the SUM function as if it were written with the SUMX function.
+      explanation: The SUM function and SUMX function perform the same. Internally, Power BI translates the SUM function as if it were written with the SUMX function.
     - content: Iterator functions iterate over tables and evaluate an expression for each table row.
       isCorrect: true 
       explanation: Iterator functions iterate over tables and evaluate an expression for each table row.
     - content: Iterator functions iterate over expressions and evaluate tables for each row.
       isCorrect: false 
       explanation: It's not possible to iterate over expressions. Iterator functions iterate over tables and evaluate an expression for each table row.
-  - content: You're developing a Power BI Desktop model. You need to create a measure formula using the RANKX DAX function to rank students by their test result. The lowest rank should be assigned to the highest test result. Also, if multiple students achieve the same rank, the following student rank should follow on from the tied rank number. Which order and ties arguments should you pass to the RANKX function?
+  - content: You're developing a Power BI Desktop model. You need to create a measure formula by using the RANKX DAX function to rank students by their test results. The lowest rank should be assigned to the highest test result. Also, if multiple students achieve the same rank, the next student rank should follow on from the tied rank number. Which order and ties arguments should you pass to the RANKX function?
     choices: 
     - content: Order Ascending | Ties Skip
       isCorrect: false
-      explanation: The highest test result should be assigned the lowest rank. Therefore, the order argument must be **Descending**. Because there should be no missing rank numbers, the ties argument must be **Dense**.
+      explanation: The highest test result should be assigned the lowest rank. Therefore, the order argument must be Descending. Because no missing rank numbers should exist, the ties argument must be Dense.
     - content: Order Ascending | Ties Dense
       isCorrect: false 
-      explanation: The highest test result should be assigned the lowest rank. Therefore, the order argument must be **Descending**. Because there should be no missing rank numbers, the ties argument must be **Dense**.
+      explanation: The highest test result should be assigned the lowest rank. Therefore, the order argument must be Descending. Because no missing rank numbers should exist, the ties argument must be Dense.
     - content: Order Descending | Ties Skip
       isCorrect: false 
-      explanation: The highest test result should be assigned the lowest rank. Therefore, the order argument must be **Descending**. Because there should be no missing rank numbers, the ties argument must be **Dense**.
+      explanation: The highest test result should be assigned the lowest rank. Therefore, the order argument must be Descending. Because no missing rank numbers should exist, the ties argument must be Dense.
     - content: Order Descending | Ties Dense
       isCorrect: true 
-      explanation: The highest test result should be assigned the lowest rank. Therefore, the order argument must be **Descending**. Because there should be no missing rank numbers, the ties argument must be **Dense**.
+      explanation: The highest test result should be assigned the lowest rank. Therefore, the order argument must be Descending. Because no missing rank numbers should exist, the ties argument must be Dense.
