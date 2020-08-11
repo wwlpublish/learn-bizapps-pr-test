@@ -22,7 +22,7 @@ Now, we can proceed to move Actions from the Main Function into these new ones:
 
 ![generate grade sheet function workspace](..\media\generate-grade-sheet-function-workspace.png)
  
-Finally, to execute the Functions, we must make use of the Run Function Action:
+Finally, to run the Functions, we must make use of the Run Function Action:
 
 ![main function workspace](..\media\main-function-workspace.png)
  

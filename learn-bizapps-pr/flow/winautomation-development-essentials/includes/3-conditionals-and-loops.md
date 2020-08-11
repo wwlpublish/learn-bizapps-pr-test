@@ -1,4 +1,4 @@
-As mentioned before, Actions within a Process are executed sequentially. However, there are certain Actions that may alter this sequence, to achieve greater flexibility and adaptability in the execution of a Process.
+As mentioned before, Actions within a Process are run sequentially. However, there are certain Actions that may alter this sequence, to achieve greater flexibility and adaptability while running a Process.
 
 In this unit, we will examine two main categories of such Actions: Conditionals and Loops.
 
@@ -15,7 +15,7 @@ The value we want to make sure is empty is the variable that contains the data w
 
 ![NOTE]
 Pressing the gear icon next to the input field will produce a list of available variables to add to the field; this makes variables easier to handle.
-Press OK to add the Action to the workspace. An End If Action is also automatically added, to signify the end of the conditional block of Actions; any Actions added between the If and End If Actions will only be executed if the condition in the If Action is met.
+Press OK to add the Action to the workspace. An End If Action is also automatically added, to signify the end of the conditional block of Actions; any Actions added between the If and End If Actions will only run if the condition in the If Action is met.
 We will add a Write to Excel Worksheet Action to test this. If there is no header, we would like to add one:
 
 ![write to excel worksheet action properties](..\media\write-to-excel-worksheet-action-properties.png)
@@ -41,4 +41,4 @@ Between the Loop and End Loop Actions, we will add a Write to Excel Worksheet Ac
 
 ![actions workspace continued](..\media\actions-workspace-continued.png)
 
-In this case, the loop index is used both to determine the row in which the Process will write, and the contents to be written. When this loop is executed, all rows from 2 to 10 will contain the numbers 1-9 in column A.
+In this case, the loop index is used both to determine the row in which the Process will write, and the contents to be written. When this loop runs, all rows from 2 to 10 will contain the numbers 1-9 in column A.

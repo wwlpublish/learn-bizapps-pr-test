@@ -1,4 +1,4 @@
-Runtime errors may occur as a result of unforeseen circumstances during Process execution, resulting in it stopping due to an error. To avoid errors, users may configure Exception Handling rules, so that the Process may recover and continue its execution.
+Runtime errors may occur as a result of unforeseen circumstances during Process execution, resulting in it stopping due to an error. To avoid errors, users may configure Exception Handling rules, so that the Process may recover and continue running.
 
 In the Process Designer, Exception Handling may be applied to both individual Actions, and blocks of Actions.
 
@@ -23,7 +23,7 @@ Then configure the previous Action’s Exception Handling accordingly:
 
 ![launch excel action properties exception handling continued](..\media\launch-excel-action-properties-exception-handling-continued.png)
  
-Configured as above, if the Excel file cannot be opened in its usual path, the Alternative Path Function will be executed, opening the file in its alternative path; then, the Process will resume its execution.
+Configured as above, if the Excel file cannot be opened in its usual path, the Alternative Path Function will run, opening the file in its alternative path; then, the Process will resume running.
 ## Blocks of Actions
 In some cases, multiple Actions should exhibit the same behavior when encountered with an exception; the Exception Block is designed to deal with such occurrences.
 
@@ -38,7 +38,7 @@ Again, we will create a Function to perform the necessary tasks:
 
 ![excel restart function](..\media\excel-restart-function.png)
  
-Then, we will configure the Exception Block so that it executes the function, thus saving the file and restarting Excel, and then resuming execution from the Action where the exception occurred:
+Then, we will configure the Exception Block so that it run the function, thus saving the file and restarting Excel, and then resuming from the Action where the exception occurred:
 
 ![begin exception block action properties continued](..\media\begin-exception-block-action-properties-continued.png)
  
