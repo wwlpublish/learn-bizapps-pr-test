@@ -2,7 +2,7 @@
 uid: learn-bizapps.configure-security 
 metadata: 
  title: Configure Power Apps portals security
- description: The concept of exposing Common Data Service on a public web page is appealing to address a number of business requirements.  However, careful consideration must be given to exposing private or sensitive data. This module will focus on understanding and configuring portal security to protect both static and dynamic content and limit visibility to specific audiences.
+ description: The concept of exposing Common Data Service on a public webpage is appealing for addressing numerous business requirements. However, careful consideration is necessary to avoid exposing private or sensitive data. This module will focus on helping you understand and configure portal security to protect static and dynamic content and limit visibility to specific audiences.
  ms.date: 07/15/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,17 +11,17 @@ metadata:
 title: Configure Power Apps portals security
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The concept of exposing Common Data Service on a public web page is appealing to address a number of business requirements.  However, careful consideration must be given to exposing private or sensitive data. This module will focus on understanding and configuring portal security to protect both static and dynamic content and limit visibility to specific audiences.
+  The concept of exposing Common Data Service on a public webpage is appealing for addressing numerous business requirements. However, careful consideration is necessary to avoid exposing private or sensitive data. This module will focus on helping you understand and configure portal security to protect static and dynamic content and limit visibility to specific audiences.
 abstract: |  
     In this module, you will: 
-    - Understand the relationship between Common Data Service Contacts and portal users
-    - Identify the various portal security metadata entities such as contacts, web roles, web page access control rules and entity permissions
-    - How to limit access to portal web pages using web page access control rules
-    - Understand how to configure entity permissions to secure Common Data Service and Dynamics 365 records
+    - Learn about the relationship between Common Data Service contacts and portal users.
+    - Identify the various portal security metadata entities such as contacts, web roles, webpage access control rules, and entity permissions.
+    - Discover how you can limit access to portal webpages by using webpage access control rules.
+    - Learn how to configure entity permissions to secure Common Data Service and Dynamics 365 records.
 prerequisites: |
   - Basic understanding of Power Apps portals
-  - Ability to create web pages and surface Common Data Service data using entity lists and entity forms
-  - Basic understanding of how relationships work between Common Data Service entities.
+  - Ability to create webpages and show Common Data Service data by using entity lists and entity forms
+  - Basic understanding of how relationships work between Common Data Service entities
 iconUrl: /learn/achievements/configure-security.svg  
 levels:  
 - intermediate   
