@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.winautomation-recording-features 
 metadata: 
- title: Recording features in WinAutomation
+ title: Use recording features in WinAutomation
  description: In this module, we will examine the ways in which users can automate tasks by performing them manually and recording the process.
  ms.date: 08/07/2020  
  author: rokontol  
  ms.author: rokontol  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Recording features in WinAutomation
+title: Use recording features in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   The Macro and Web Recorders can be used to automatically generate blocks of actions, based on the user's interaction with the workstation.
