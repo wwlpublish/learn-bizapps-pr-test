@@ -3,7 +3,7 @@ uid: learn-bizapps.configure-security.2-secure-static-content
 title: Secure static content
 metadata: 
   title: Secure static content
-  description: Learn to secure static content using the web page access control rule.
+  description: Learn how to secure static content by using the Web Page Access Control Rule entity.
   ms.date: 07/15/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
