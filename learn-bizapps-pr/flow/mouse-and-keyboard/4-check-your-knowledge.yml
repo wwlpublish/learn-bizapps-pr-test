@@ -43,11 +43,11 @@ quiz:
     - content: "False"
       isCorrect: true 
       explanation: "That is correct!"
-  - content: "The "Move Mouse" Action supports using images from the Images Repository as a way to designate the point to which the mouse should move."
+  - content: 'The "Move Mouse" Action supports using images from the Images Repository as a way to designate the point to which the mouse should move.'
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is incorrect. The statement is true for the "Move Mouse to Image" Action."
+      explanation: 'That is incorrect. The statement is true for the "Move Mouse to Image" Action.'
     - content: "False"
       isCorrect: true 
       explanation: "That is correct!"
