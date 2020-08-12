@@ -25,7 +25,7 @@ Your organization has provisioned a Power Apps portal and wants to create a dire
 
 The company wants to restrict access to the data to authenticated users only.
 
-### High level steps
+### High-level steps
 
 To finish the exercise, complete the following tasks:
 
