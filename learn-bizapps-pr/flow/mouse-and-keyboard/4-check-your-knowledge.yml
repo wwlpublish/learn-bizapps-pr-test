@@ -35,7 +35,7 @@ quiz:
     - content: "False"
       isCorrect: false 
       explanation: "That is incorrect, the statement is true."
-  - content: "The "Move Mouse to Text on Screen" Action always moves the mouse to the first occurrence of the specified text on the screen."
+  - content: 'The "Move Mouse to Text on Screen" Action always moves the mouse to the first occurrence of the specified text on the screen.'
     choices: 
     - content: "True"
       isCorrect: false 
