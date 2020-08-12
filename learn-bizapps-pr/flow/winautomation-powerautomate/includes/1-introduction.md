@@ -10,7 +10,7 @@ The connector essentially combines the functionality of PowerAutomate and WinAut
 
 ## Learning Objectives
 You will learn:
-* How to create a flow in PowerApps that passes arguments through the command line to WinAutomation
+* How to create a flow in PowerAutomate that passes arguments through the command line to WinAutomation
 * How to create a process in WinAutomation that retrieves arguments from the command line
 * How to use the retrieved arguments as variables in a WinAutomation Process
 
