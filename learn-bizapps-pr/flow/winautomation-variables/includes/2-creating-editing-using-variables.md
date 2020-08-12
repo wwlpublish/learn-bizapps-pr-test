@@ -46,7 +46,7 @@ Although the **Gear** icon is placed only next to the input fields, an existing 
 ![The output variable in the Change Text Case action's properties dialog.](..\media\change-text-case-action-properties-output.png)
 
 [!NOTE]
-It is strongly suggested to use new variables to store different actions' outputs. This practice will help you keep your processes clear and provide a full understanding of what data each variable contains at any given time of the process execution.
+It is strongly suggested to use new variables to store different actions' outputs. This practice will help you keep your processes clear and provide a full understanding of what data each variable contains at any given time while the process is running.
 
 ## The Variables Manager Window
 

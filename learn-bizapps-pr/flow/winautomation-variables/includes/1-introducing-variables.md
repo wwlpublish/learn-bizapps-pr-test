@@ -1,6 +1,6 @@
 When developing processes, you may need to reuse information in various actions. WinAutomation allows you to store all types of data for later use through variables.
 
-Variables act like storage bins that save valuable information during the process's execution. There are numerous examples of what can be stored, including dates, files and folders, text, email messages or clipboard's contents.
+Variables act like storage bins that save valuable information while a process is running. There are numerous examples of what can be stored, including dates, files and folders, text, email messages or clipboard's contents.
 
 Variables are defined through the specific notation associated with them: The variable's name should be enclosed in percentage characters. 
 

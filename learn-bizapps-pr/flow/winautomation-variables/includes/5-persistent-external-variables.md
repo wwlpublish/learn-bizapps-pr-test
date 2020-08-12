@@ -1,6 +1,6 @@
-When you are creating a process with WinAutomation, you may sometimes want to keep the value of a specific variable available for the future executions of the process. Persistent variables allow you to do exactly that: keep a variable’s value available for the next time that the process executes.
+When you are creating a process with WinAutomation, you may sometimes want to keep the value of a specific variable available for future process runs. Persistent variables allow you to do exactly that: keep a variable’s value available for the next time that the process runs.
 
-By marking a variable as persistent, you can be sure that its value will be kept between the executions of the process. You can set a variable as persistent through the **Tools** menu option > **Variables Manager** window while in the **Process Designer**.
+By marking a variable as persistent, you can be sure that its value will be kept between process runs. You can set a variable as persistent through the **Tools** menu option > **Variables Manager** window while in the **Process Designer**.
 
 If the variable that you want to make persistent already exists, you can select it in the **User Defined Variables** tab and then click on the **Edit Variable** button. If you want to create a brand new variable and make it persistent, click on the **Add New Variable** button.
 

@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.winautomation-variables 
 metadata: 
- title: Variables in WinAutomation
+ title: Handle variables in WinAutomation
  description: In this module, we'll discuss how to create, access, edit and manipulate variables in WinAutomation.
  ms.date: 08/07/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate    
-title: Variables in WinAutomation
+title: Handle variables in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   When developing processes, you may need to re-use information in various actions. Variables act like storage bins that save valuable information during the process's execution.
