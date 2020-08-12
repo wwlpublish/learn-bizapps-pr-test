@@ -33,5 +33,5 @@ quiz:
       isCorrect: true
       explanation: "That is correct!"
     - content: "Excel Instance"
-      isCorrect: true
+      isCorrect: false
       explanation: "That is incorrect, the Action returns a list of text values."
