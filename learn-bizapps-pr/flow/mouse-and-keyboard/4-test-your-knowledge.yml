@@ -27,7 +27,7 @@ quiz:
     - content: "All of the above"
       isCorrect: false 
       explanation: "Your answer is incorrect. The Set Key State Action refers to the Caps Lock, Num Lock and Scroll Lock keys."
-  - content: "In the "Move Mouse to Text on Screen (OCR)" Action, the "Tolerance" field determines the degree to which an image found on the screen can differ from the one for which the Action is searching, located in the Images Repository."
+  - content: 'In the "Move Mouse to Text on Screen (OCR)" Action, the "Tolerance" field determines the degree to which an image found on the screen can differ from the one for which the Action is searching, located in the Images Repository.'
     choices: 
     - content: "True"
       isCorrect: true 

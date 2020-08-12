@@ -3,9 +3,9 @@ uid: learn-bizapps.mouse-and-keyboard
 metadata: 
  title: Manipulate the mouse and keyboard in a process
  description: This module shows how to use the WinAutomation mouse and keyboard Actions.
- ms.date: 08/07/2020
+ ms.date: 12/08/2020
  author: olegmelnykov  
- ms.author: olmelnyk  
+ ms.author: olmelnyk
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
 title: Manipulate the mouse and keyboard in a process
@@ -31,12 +31,12 @@ roles:
 - functional-consultant 
 products:  
 - dynamics  
-- learning-power-automate 
+- power-automate 
 units: 
-- learn-bizapps.mouse-and-keyboard.1-introduction 
-- learn-bizapps.mouse-and-keyboard.2-mouse-keyboard-actions 
-- learn-bizapps.mouse-and-keyboard.3-mouse-keyboard-exercise 
-- learn-bizapps.mouse-and-keyboard.4-test-your-knowledge 
-- learn-bizapps.mouse-and-keyboard.5-summary 
+- learn-bizapps.mouse-and-keyboard.1-introduction
+- learn-bizapps.mouse-and-keyboard.2-mouse-keyboard-actions
+- learn-bizapps.mouse-and-keyboard.3-mouse-keyboard-exercise
+- learn-bizapps.mouse-and-keyboard.4-test-your-knowledge
+- learn-bizapps.mouse-and-keyboard.5-summary
 badge: 
   uid: learn-bizapps.mouse-and-keyboard.badge 
