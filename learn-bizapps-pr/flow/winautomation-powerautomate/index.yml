@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.winautomation-powerautomate 
 metadata: 
- title: WinAutomation-PowerApps Combination
+ title: Combine WinAutomation and PowerApps
  description: This module shows how to use the WinAutomation connector to run WinAutomation from a PowerApps flow.
  ms.date: 10/08/2020  
  author: olegmelnykov  
  ms.author: olmelnyk  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: WinAutomation-PowerApps Combination
+title: Combine WinAutomation and PowerApps
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module shows how to use the WinAutomation connector to run WinAutomation from a PowerApps flow. It shows how to create a flow in PowerApps which passes arguments through the command line to WinAutomation, and how to retrieve those arguments from the command line in WinAutomation. 

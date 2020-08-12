@@ -64,7 +64,7 @@ Skip the Review Outputs section and go to **Test**. For now, use the previously 
 
 ![Test Now PowerApps](..\media\Test-Now-PowerApps.png)
  
-The flow will run, and WinAutomation will display a notification at the bottom right of the screen during the execution.
+The flow will run, and WinAutomation will display a notification at the bottom right of the screen while the process is running.
 
 ![WinAutomation process running Notification](..\media\WinAutomation-process-running-Notification.png)
 
