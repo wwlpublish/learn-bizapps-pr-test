@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.winautomation-execution-essentials.5-logging-and-auditing 
+uid: learn-bizapps.winautomation-execution-essentials.5-logging-auditing 
 title: Logging and auditing
 metadata: 
   title: Logging and auditing
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 5 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/5-logging-and-auditing.md)] 
+ [!include[](includes/5-logging-auditing.md)] 

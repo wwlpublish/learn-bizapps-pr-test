@@ -35,10 +35,10 @@ products:
 - power-automate
 units: 
 - learn-bizapps.winautomation-execution-essentials.1-introduction 
-- learn-bizapps.winautomation-execution-essentials.2-executing-a-process-through-the-console 
+- learn-bizapps.winautomation-execution-essentials.2-executing-process-console 
 - learn-bizapps.winautomation-execution-essentials.3-automatic-execution 
-- learn-bizapps.winautomation-execution-essentials.4-other-methods-of-execution 
-- learn-bizapps.winautomation-execution-essentials.5-logging-and-auditing 
+- learn-bizapps.winautomation-execution-essentials.4-other-methods-execution 
+- learn-bizapps.winautomation-execution-essentials.5-logging-auditing 
 - learn-bizapps.winautomation-execution-essentials.6-check-your-knowledge 
 - learn-bizapps.winautomation-execution-essentials.7-summary 
 badge: 

@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.winautomation-execution-essentials.4-other-methods-of-execution 
+uid: learn-bizapps.winautomation-execution-essentials.4-other-methods-execution 
 title: Other methods of execution
 metadata: 
   title: Other methods of execution
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 5 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/4-other-methods-of-execution.md)] 
+ [!include[](includes/4-other-methods-execution.md)] 
