@@ -1,5 +1,5 @@
 ### YamlMime:Module 
-uid: learn-bizapps.exceptions-handling 
+uid: learn-bizapps.exception-handling 
 metadata: 
  title: Configure exception and error handling in WinAutomation
  description: In this module, we'll discuss how to configure exception and error handling behaviour. 
@@ -32,13 +32,13 @@ products:
 - power-platform 
 - power-automate
 units: 
-- learn-bizapps.exceptions-handling.1-introduction 
-- learn-bizapps.exceptions-handling.2-error-handling-levels 
-- learn-bizapps.exceptions-handling.3-error-handling-level-one-level-two 
-- learn-bizapps.exceptions-handling.4-exercise-exception-handling 
-- learn-bizapps.exceptions-handling.5-error-handling-level-three-level-four 
-- learn-bizapps.exceptions-handling.6-exercise-exception-handling 
-- learn-bizapps.exceptions-handling.7-check-knowledge
-- learn-bizapps.exceptions-handling.8-summary 
+- learn-bizapps.exception-handling.1-introduction 
+- learn-bizapps.exception-handling.2-error-handling-levels 
+- learn-bizapps.exception-handling.3-error-handling-level-one-level-two 
+- learn-bizapps.exception-handling.4-exercise-exception-handling 
+- learn-bizapps.exception-handling.5-error-handling-level-three-level-four 
+- learn-bizapps.exception-handling.6-exercise-exception-handling 
+- learn-bizapps.exception-handling.7-check-knowledge
+- learn-bizapps.exception-handling.8-summary 
 badge: 
   uid: learn-bizapps.exceptions-handling.badge 

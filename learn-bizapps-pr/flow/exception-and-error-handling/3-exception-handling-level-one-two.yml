@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.exceptions-handling.3-error-handling-level-one-level-two 
+uid: learn-bizapps.exception-handling.3-exception-handling-level-one-level-two 
 title: Levels 1 and 2 – Exception handling
 metadata: 
   title: Levels 1 and 2 – Exception handling
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/3-error-handling-level-one-level-two.md)] 
+ [!include[](includes/3-exception-handling-level-one-two.md)] 
