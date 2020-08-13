@@ -3,7 +3,7 @@ As previously mentioned, one of the most common ways to move from screen to scre
 Navigating screens by setting the OnChange property of a drop-down control
 -------------------------------------------------------------------------
 
-One option is to you use a **DropDown** control and an If statement.
+One option is to use a **DropDown** control and an If statement.
 With this solution, depending on the choice selected in the drop-down menu the
 app navigates to a specific screen.
 
