@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.introduction-to-winautomation.8-summary 
-title: Summary
+uid: learn-bizapps.introduction-winautomation.2-the-process-designer 
+title: The Process Designer
 metadata: 
-  title: Summary
-  description: Summary
+  title: The Process Designer
+  description: The Process Designer
   ms.date: 08/07//2020 
   author: mariosleon 
   ms.author: marleon 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 3
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/8-summary.md)] 
+ [!include[](includes/2-the-process-designer.md)] 
