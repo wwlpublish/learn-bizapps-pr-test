@@ -9,7 +9,7 @@ metadata:
   ms.author: marleon 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 20
+durationInMinutes: 15
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/6-winautomation-features.md)] 
