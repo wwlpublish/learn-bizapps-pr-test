@@ -40,8 +40,8 @@ The second method to create a control is through an action.
 
     ![The created control in the Controls Repository.](..\media\created-control-controls-repository.png)
 
-[!Note]
-If you want to create a web control on Microsoft Edge, Google Chrome, or Mozilla Firefox, you need to install the respective extension.
+> [!NOTE]
+> If you want to create a web control on Microsoft Edge, Google Chrome, or Mozilla Firefox, you need to install the respective extension.
 
 In some cases, you may need to create more than one selector to capture an element. WinAutomation allows you to create multiple selectors for one control and prioritize them. If one selector fails, the next one will be used. 
 
