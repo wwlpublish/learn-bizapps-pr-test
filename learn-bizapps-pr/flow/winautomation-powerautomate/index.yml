@@ -36,8 +36,8 @@ products:
 - power-platform
 units: 
 - learn-bizapps.winautomation-powerautomate.1-introduction 
-- learn-bizapps.winautomation-powerautomate.2-run-winautomation-processes-from-powerautomate 
-- learn-bizapps.winautomation-powerautomate.3-exercise-create-flow-to-call-winautomation 
+- learn-bizapps.winautomation-powerautomate.2-run-winautomation-processes-powerautomate 
+- learn-bizapps.winautomation-powerautomate.3-exercise-create-flow-call-winautomation 
 - learn-bizapps.winautomation-powerautomate.4-check-your-knowledge 
 - learn-bizapps.winautomation-powerautomate.5-summary 
 badge: 
