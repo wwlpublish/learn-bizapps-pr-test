@@ -1,6 +1,6 @@
 WinAutomation contains a number of features designed to increase productivity while the User develops processes. 
 
-1. Process Designer
+## 1. Process Designer
 
 Process Designer is user-friendly with a drag&drop interface. It's equipped with features for advanced process development and troubleshooting.
 
@@ -11,7 +11,9 @@ Test your automation and debug or troubleshoot it by pausing whenever needed.
 
 Run the process step by step, review or even change variables while the process is running or go to different reusable functions. 
 
-2. The Central Controls and Images Repository
+ ![processes designer](..\media\process-designer-2.png)
+
+## 2. The Central Controls and Images Repository
 
 Users may store all the elements with which the Automation will interact in a central reusable repository.
 
@@ -46,7 +48,7 @@ Apart from keeping the Process neat and easy to modify, the advantage of the Cen
 The Automation will be up and running again in a short time.
 
 
-3. Creating Custom Dialogs using the UI Designer.
+## 3. Creating Custom Dialogs using the UI Designer.
 
 When a User is present at a workstation, more often than not, there's a need to interact with the automation. This takes place through dialog boxes, where the Automation asks the User various questions. These questions may have to do with critical human decision making or data input such as files/dates indication, yes/no answers and so on.
  
@@ -60,8 +62,9 @@ Dialogs may be stylized and beautified by selecting any form element, creating p
 
 Select the form controls needed, and by using CSS, customize these to make the required Dialog Window.
 
+ ![custom dialog designer](..\media\custom-dialog-designer.png)
 
-4.	Exception Handling
+## 4. Exception Handling
 
 WinAutomation offers different levels of Exception Handling to cater for the most expected and unexpected cases.
 
@@ -77,7 +80,7 @@ More specifically the User can set exception mechanisms for four different types
 
 * The fourth and final method is the Global Exception Handling which concerns ALL Processes in the WinAutomation Platform. If any Process may fail, Users can determine how a Process should behave.
 
-5. Parallel execution, Concurrency, and Process Queuing
+## 5. Parallel execution, Concurrency, and Process Queuing
 
 Multitasking and Smart Concurrency policy is a feature that allows the application to govern and limit parallel Process Execution.
 
@@ -95,7 +98,7 @@ WinAutomation technology holds back Process Automations in order to avoid clutte
 
 In the Concurrency policy for each Process, if the limit of the Process instances that can run at the same time has been reached, the behavior to be followed can be set - to either drop the Processes if they are in wait mode, or queue the Processes and make them wait for a specific period of time in the queue to be run, before rejecting them.
 
-6. Advanced Synchronization
+## 6. Advanced Synchronization
 
 WinAutomation supports parallel execution of numerous Processes, or even parallel execution of many instances of the same Process. 
 
@@ -105,7 +108,7 @@ With Synchronization actions, each process reserves a resource for as long as it
 
 If other Processes attempt to use the same resource, it will have to wait until the resource is free and no other Automation has currently locked its use.
 
-7.	Control WinAutomation from the Command Line
+## 7.	Control WinAutomation from the Command Line
 
 Control WinAutomation from the Command Line without using the Console.
 
