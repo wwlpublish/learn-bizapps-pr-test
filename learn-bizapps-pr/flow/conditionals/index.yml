@@ -33,9 +33,9 @@ products:
 units: 
 - learn-bizapps.conditionals.1-introduction 
 - learn-bizapps.conditionals.2-conditional-actions 
-- learn-bizapps.conditionals.3-if-group-of-actions 
-- learn-bizapps.conditionals.4-exercise-if-group-of-actions 
-- learn-bizapps.conditionals.5-switch-group-of-actions 
+- learn-bizapps.conditionals.3-if-group-actions 
+- learn-bizapps.conditionals.4-exercise-if-group-actions 
+- learn-bizapps.conditionals.5-switch-group-actions 
 - learn-bizapps.conditionals.6-quiz 
 - learn-bizapps.conditionals.7-summary 
 badge: 
