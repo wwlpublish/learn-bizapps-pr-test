@@ -34,9 +34,9 @@ products:
 units: 
 - learn-bizapps.exception-handling.1-introduction 
 - learn-bizapps.exception-handling.2-error-handling-levels 
-- learn-bizapps.exception-handling.3-error-handling-level-one-level-two 
+- learn-bizapps.exception-handling.3-error-handling-level-one-two 
 - learn-bizapps.exception-handling.4-exercise-exception-handling 
-- learn-bizapps.exception-handling.5-error-handling-level-three-level-four 
+- learn-bizapps.exception-handling.5-error-handling-level-three-four 
 - learn-bizapps.exception-handling.6-exercise-exception-handling 
 - learn-bizapps.exception-handling.7-check-knowledge
 - learn-bizapps.exception-handling.8-summary 
