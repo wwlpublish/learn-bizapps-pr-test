@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 5 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/2-creating-a-process-the-process-designer.md)] 
+ [!include[](includes/2-creating-process-designer.md)] 

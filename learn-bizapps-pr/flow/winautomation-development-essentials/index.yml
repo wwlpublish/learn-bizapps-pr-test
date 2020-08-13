@@ -34,11 +34,11 @@ products:
 - power-automate
 units: 
 - learn-bizapps.winautomation-development-essentials.1-introduction 
-- learn-bizapps.winautomation-development-essentials.2-creating-a-process-the-process-designer 
-- learn-bizapps.winautomation-development-essentials.3-conditionals-and-loops 
+- learn-bizapps.winautomation-development-essentials.2-creating-process-designer 
+- learn-bizapps.winautomation-development-essentials.3-conditionals-loops 
 - learn-bizapps.winautomation-development-essentials.4-functions 
-- learn-bizapps.winautomation-development-essentials.5-testing-and-debugging 
-- learn-bizapps.winautomation-development-essentials.6-controls-and-images-repositories 
+- learn-bizapps.winautomation-development-essentials.5-testing-debugging 
+- learn-bizapps.winautomation-development-essentials.6-controls-images-repositories 
 - learn-bizapps.winautomation-development-essentials.7-exception-handling 
 - learn-bizapps.winautomation-development-essentials.8-summary 
 badge: 
