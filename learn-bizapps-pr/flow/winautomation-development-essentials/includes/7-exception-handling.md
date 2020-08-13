@@ -46,6 +46,6 @@ Finally, we will set up the Exception Block’s starting and ending points accor
 
 ![main function exception block](..\media\main-function-exception-block.png)
 
-[!NOTE] 
-Individual Exception Handling takes precedence over Block level Exception Handling; this means that an Action’s individual Exception Handling rules will apply first, and the Exception Block will only apply if the issue is still not contained.
+> [!NOTE] 
+> Individual Exception Handling takes precedence over Block level Exception Handling; this means that an Action’s individual Exception Handling rules will apply first, and the Exception Block will only apply if the issue is still not contained.
  

@@ -13,8 +13,9 @@ We will add an **If** Action to the workspace, configuring it as below:
 
 The value we want to make sure is empty is the variable that contains the data we read from the worksheet in the previous Action.
 
-![NOTE]
-Pressing the gear icon next to the input field will produce a list of available variables to add to the field; this makes variables easier to handle.
+> ![NOTE]
+> Pressing the gear icon next to the input field will produce a list of available variables to add to the field; this makes variables easier to handle.
+
 Press OK to add the Action to the workspace. An End If Action is also automatically added, to signify the end of the conditional block of Actions; any Actions added between the If and End If Actions will only run if the condition in the If Action is met.
 We will add a Write to Excel Worksheet Action to test this. If there is no header, we would like to add one:
 
