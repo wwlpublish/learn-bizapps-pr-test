@@ -1,4 +1,4 @@
-The **Controls Repository** stores all the controls used in UI and web automation actions, such as buttons and checkboxes. Upon creating a new process, the **C0ntrols Repository** will be empty. To create a new  control, you can use one of the following methods.
+The **Controls Repository** stores all the controls used in UI and web automation actions, such as buttons and checkboxes. Upon creating a new process, the **Controls Repository** will be empty. To create a new  control, you can use one of the following methods.
 
 ![The Controls Repository in the Process Designer.](..\media\process-designer-controls-repository.png)
 
