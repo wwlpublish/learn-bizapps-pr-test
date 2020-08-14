@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.portals-maintenance-troubleshooting 
 metadata: 
- title: Power App portal maintenance and troubleshooting
- description: When building a Power Apps portal, there are various techniques, best practices and features that portal administrators should consider.  This module will cover the various troubleshooting tools available as well as why to use the portal checker.
+ title: Power Apps portals maintenance and troubleshooting
+ description: When building a Microsoft Power Apps portal, administrators should consider various techniques, best practices, and features. This module will cover the various troubleshooting tools that are available and explain the importance of using the portal checker.
  ms.date: 07/14/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
-title: Power App portal maintenance and troubleshooting
+title: Power Apps portals maintenance and troubleshooting
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  When building a Power Apps portal, there are various techniques, best practices and features that portal administrators should consider.  This module will cover the various troubleshooting tools available as well as why to use the portal checker.
+  When building a Microsoft Power Apps portal, administrators should consider various techniques, best practices, and features. This module will cover the various troubleshooting tools that are available and explain the importance of using the portal checker.
 abstract: |  
     In this module, you will: 
     - Apply strategies and techniques to troubleshoot portal issues.
-    - Understand how the portal checker works and resolving potential portal issues.
-    - Perform the portal update process
-prerequisites: Target audience should have basic understanding of Power Apps portals structure and how the various portal components work together.  The audience should also have a good understand of the Common Data Service and model-driven apps.
+    - Learn about how the portal checker works and how to resolve potential portal issues.
+    - Perform the portal update process.
+prerequisites: Basic understanding of Power Apps portals structure, knowledge of how the various portal components work together, and a good understand of Common Data Service and model-driven apps.
 iconUrl: /learn/achievements/portals-maintenance-troubleshooting.svg  
 levels:  
 - intermediate   
