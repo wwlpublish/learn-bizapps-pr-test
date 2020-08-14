@@ -6,7 +6,7 @@ At the end of these exercises, you will be able to:
 
 - Run the Portal Checker.
 - Respond to the mitigation advice.
-- Re-run the Portal Checker to confirm that the issue has been addressed.
+- Rerun the Portal Checker to confirm that the issue has been addressed.
 
 **Estimated time to complete this exercise**: 10 to 15 minutes
 
@@ -19,7 +19,7 @@ For this exercise, you need to have the following parameters set up in your envi
 
 ### High-level steps
 
-In this exercise, you will make a few changes to the settings in your portal metadata. Next, you will run the Portal Checker tool from the Power Apps portals admin center and then evaluate the results. After you have addressed the issue, you will re-run the Portal Checker to ensure that the issue has been resolved.
+In this exercise, you will make a few changes to the settings in your portal metadata. Next, you will run the Portal Checker tool from the Power Apps portals admin center and then evaluate the results. After you have addressed the issue, you will rerun the Portal Checker to ensure that the issue has been resolved.
 
 The high-level steps are as follows:
 
