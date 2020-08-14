@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.process-properties.6-logging-properties 
-title: Logging properties
+title: Logging Options in Process Properties
 metadata: 
-  title: Logging properties
-  description: Logging properties
+  title: Logging Options in Process Properties
+  description: Options related to logging in process properties 
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

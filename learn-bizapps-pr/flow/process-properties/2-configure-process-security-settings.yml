@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.process-properties.2-configure-process-security-settings 
-title: Configure process security settings
+title: Configure process security
 metadata: 
-  title: Configure process security settings
-  description: Configure process security settings
+  title: Configure process security
+  description: Configure security in process properties
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

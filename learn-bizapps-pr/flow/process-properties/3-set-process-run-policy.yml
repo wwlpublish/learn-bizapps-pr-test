@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.process-properties.3-set-process-run-policy 
-title: Set a process run policy
+title: Set process run policy
 metadata: 
-  title: Set a process run policy
-  description: Set a process run policy
+  title: Set process run policy
+  description: Set the run policy for processes in process properties.
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

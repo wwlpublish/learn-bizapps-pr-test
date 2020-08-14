@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.process-properties.5-configure-level-three-error-handling 
-title: Configure the third level of error handling
+title: Configure process error handling
 metadata: 
-  title: Configure the third level of error handling
+  title: Configure process error handling
   description: Configure the third level of error handling
   ms.date: 08/07/2020 
   author: georgiostrantzas 
