@@ -19,7 +19,7 @@ For this exercise, you need to have the following parameters set up in your envi
 
 ### High-level steps
 
-In this exercise, you will make a few changes to the settings in your portal metadata. Next, you will run the Portal Checker tool from the Power Apps portals admin center and then evaluate the results. After you have addressed the issue, you will re-run the portal checker to ensure that the issue has been resolved.
+In this exercise, you will make a few changes to the settings in your portal metadata. Next, you will run the Portal Checker tool from the Power Apps portals admin center and then evaluate the results. After you have addressed the issue, you will re-run the Portal Checker to ensure that the issue has been resolved.
 
 The high-level steps are as follows:
 
@@ -55,7 +55,7 @@ The high-level steps are as follows:
 1. Go to the [maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.  
 1. Locate your portal app, select the ellipsis (...), and then select **Settings**.
 1. On the fly-out window to the right, select **Administration**.
-1. The Power Apps portals admin center will appear. Select **Run Portal checker**.
+1. The Power Apps portals admin center will appear. Select **Run Portal Checker**.
 1. On the screen, select the **Run Portal Checker** button.
 1. Note that the header output cache has a warning; expand the message to get more details.
 1. Leave the Portal Checker open.
