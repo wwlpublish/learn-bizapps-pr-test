@@ -1,76 +1,73 @@
-The purpose of this hands-on-lab is to see how the Portal checker can identify potential portal issues.
+The purpose of this hands-on lab is to see how the Portal Checker can identify potential portal issues.
 
 ## Learning objectives
 
-At the end of these exercises, you will be able to accomplish the following:
+At the end of these exercises, you will be able to:
 
-* Run the portal checker
-* Respond to the mitigation advice
-* Re-run the portal checker to confirm the issue has been addressed
+- Run the Portal Checker.
+- Respond to the mitigation advice.
+- Re-run the Portal Checker to confirm that the issue has been addressed.
 
 **Estimated time to complete this exercise**: 10 to 15 minutes
 
-## Before we begin
-
 ### Prerequisites
 
-For this exercise you will need to have the following in your environment:
+For this exercise, you need to have the following parameters set up in your environment:
 
-* A Power Apps portal provisioned. If you do not have a Power Apps portal available, follow [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
-* Access to the Power Apps maker portal.
-
-## Scenario
+- A Power Apps portal that is provisioned. If you do not have a Power Apps portal available, follow the [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
+- Access to the Power Apps maker portal.
 
 ### High-level steps
 
-In this exercise we will make a few settings changes to our portal metadata and then run the portal checker tool from the Power Apps portal admin center and evaluate the results. Once the issue has been addressed, we will re-run the portal checker to ensure that the issue is taken care of.
+In this exercise, you will make a few changes to the settings in your portal metadata. Next, you will run the Portal Checker tool from the Power Apps portals admin center and then evaluate the results. After you have addressed the issue, you will re-run the portal checker to ensure that the issue has been resolved.
 
-1. Locate the **Site Setting** named `Header/OutputCache/Enabled` and update the value to **False**
+The high-level steps are as follows:
 
-1. Refresh the Cache
+1. Locate the `Header/OutputCache/Enabled` site setting and update the value to **False**.
 
-1. Run the Portal Checker
+1. Refresh the cache.
 
-1. Note warning message for Header Output cache
+1. Run the Portal Checker.
 
-1. Locate the **Site Setting** named `Header/OutputCache/Enabled` and update the value to **True**
+1. Note the warning message for the header output cache.
 
-1. Refresh the Cache
+1. Locate the `Header/OutputCache/Enabled` site setting and update the value to **True**.
 
-1. Run the Portal Checker
+1. Refresh the cache.
 
-1. Note message for Header Output cache
+1. Run the Portal Checker.
 
-### Detailed steps
+1. Note the message for Header Output cache.
 
-#### Launch Portal Management app
 
-1. Navigate to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
-1. Make sure correct environment is selected in the environment selector in the top right-hand corner.
-1. From the list of Apps, locate and open the Portal Management app (Type = Model-driven).
+#### Launch the Portal Management app
+
+1. Go to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
+1. Make sure that the correct environment is selected in the environment selector in the upper-right corner.
+1. From the **Apps** list, locate and open the Portal Management app (Type = Model-driven).
 1. Select **Site Settings**.
-1. Locate the **Site Setting** named `Header/OutputCache/Enabled`, update the `Header/OutputCache/Enabled` value to **False**, and press **Save**.
+1. Locate the `Header/OutputCache/Enabled` site setting, update the value to **False**, and then select **Save**.
 1. Leave the Portal Management app open.
-1. From another browser tab or session, navigate to the [maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.  
-1. Locate your portal app and click on the ellipses (...) and select **Edit** to open the Portal Studio.
-1. Press **Browse website** to clear the cache.
+1. From another browser tab or session, go to the [maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.  
+1. Locate your portal app, select the ellipsis (...), and then select **Edit** to open portals Studio.
+1. Select **Browse website** to clear the cache.
 1. Close the website.
-1. Navigate to the [maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.  
-1. Locate your portal app and click on the ellipses (...) and select **Settings**.
-1. On the fly-out window to the right, choose **Administration**.
-1. The Power Apps portals admin center will appear, choose **Run Portals checker**.
-1. In the screen, press the **Run Portals Checker** button.
-1. Note that the Header output cache has a warning, expand the message to get more details.
+1. Go to the [maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.  
+1. Locate your portal app, select the ellipsis (...), and then select **Settings**.
+1. On the fly-out window to the right, select **Administration**.
+1. The Power Apps portals admin center will appear. Select **Run Portal checker**.
+1. On the screen, select the **Run Portal Checker** button.
+1. Note that the header output cache has a warning; expand the message to get more details.
 1. Leave the Portal Checker open.
 1. Return to the Portal Management app.
 1. Select **Site Settings**.
-1. Locate the **Site Setting** named `Header/OutputCache/Enabled`, update the `Header/OutputCache/Enabled` value to **True**, and press **Save**.
-1. From another browser tab or session, navigate to the [maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.  
-1. Locate your portal app and click on the ellipses (...) and select **Edit** to open Portal Studio.
-1. Press **Browse website** (this will clear the cache).
-1. Return to the Power Apps portals admin center, select **Run Portals checker**.
-1. In the screen, press the **Run Portals Checker** button.
-1. Note that the Header output cache issue has been resolved.
+1. Locate the `Header/OutputCache/Enabled` site setting, update the value to **True**, and then select **Save**.
+1. From another browser tab or session, go to the [maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.  
+1. Locate your portal app, select the ellipsis (...), and then select **Edit** to open portals Studio.
+1. Select **Browse website**, which will clear the cache.
+1. Return to the Power Apps portals admin center and select **Run Portal Checker**.
+1. On the screen, select the **Run Portal Checker** button.
+1. Note that the header output cache issue has been resolved.
 
 > [!div class="mx-imgBorder"]
 > [![Portal Checker](../media/portal-checker-exercise.png)](../media/portal-checker-exercise.png#lightbox)
