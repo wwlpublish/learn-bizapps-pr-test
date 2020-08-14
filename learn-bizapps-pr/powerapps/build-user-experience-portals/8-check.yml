@@ -15,18 +15,18 @@ quiz:
   questions: 
   - content: You created a new Partner Price list page, but you accidentally saved it under public company announcements instead of a partner channel page. How can you fix the mistake?
     choices: 
-    - content: Create a shortcut under Correct Parent Page and then point it to the price list page. Hide the price list page from the sitemap.
+    - content: Create a shortcut under Correct Parent Page and then point it to the price list page. Hide the price list page from the site map.
       isCorrect: false 
-      explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the sitemap tree. Other suggestions will not achieve the desired result.
+      explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the site map tree. Other suggestions will not achieve the desired result.
     - content: Change the page's partial URL to point to the correct parent.
       isCorrect: false 
-      explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the sitemap tree. Other suggestions will not achieve the desired result.
+      explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the site map tree. Other suggestions will not achieve the desired result.
     - content: Edit the page and then select the correct value in the Parent Page field.
       isCorrect: true 
-      explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the sitemap tree. Other suggestions will not achieve the desired result.
-    - content: Drag and drop the page in the sitemap tree.
+      explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the site map tree. Other suggestions will not achieve the desired result.
+    - content: Drag and drop the page in the site map tree.
       isCorrect: false 
-      explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the sitemap tree. Other suggestions will not achieve the desired result.
+      explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the site map tree. Other suggestions will not achieve the desired result.
   - content: You created a Customers Only page on the portal that does not allow anonymous access, and you added this page to the main menu. Business users complained that the page is not visible in the main menu until visitors have signed in, and they want the link to be visible at all times. How can you implement this requirement?
     choices: 
     - content: Edit the web link and point it to the Sign In page but keep Customers Only as a title.
