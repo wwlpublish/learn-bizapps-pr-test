@@ -1,10 +1,10 @@
-For this module, we will create a WinAutomation Process and a PowerAutomate Flow. The flow will request three inputs from the user and run a process in WinAutomation. The Process will then retrieve the values of the three inputs from the Command Line and store them in an Excel file.
+For this module, we will create a WinAutomation Process and a Power Automate Flow. The flow will request three inputs from the user and run a process in WinAutomation. The Process will then retrieve the values of the three inputs from the Command Line and store them in an Excel file.
 
 Start WinAutomation. Inside **My Processes**, create a folder called **Desktop**. Select the folder and create a new process and name it **Power Automate Exercise**.
 
 ![exercise create folder and process WinAutomation](..\media\exercise-create-folder-and-process-WinAutomation.png)
 
-Add the **Get Command-Line Arguments** Action from the **WinAutomation Actions** folder. This will retrieve the variables from the PowerAutomate flow from the Command Line.
+Add the **Get Command-Line Arguments** Action from the **WinAutomation Actions** folder. This will retrieve the variables from the Power Automate flow from the Command Line.
 
 ![exercise get command line arguments WinAutomation](..\media\exercise-get-command-line-arguments-WinAutomation.png)
 
@@ -24,15 +24,15 @@ Go to **https://flow.microsoft.com/**, and then navigate to **My Flows**, **UI F
 
 Select **Desktop App** and click **Next**.
 
-![select desktop app PowerAutomate](..\media\select-desktop-app-PowerAutomate.png)
+![select desktop app Power Automate](..\media\select-desktop-app-PowerAutomate.png)
  
 Add a name for your flow and click **Next**.
 
-![name flow PowerAutomate](..\media\name-flow-PowerAutomate.png)
+![name flow Power Automate](..\media\name-flow-PowerAutomate.png)
 
 The first step is to Set up inputs. Add **2** more inputs of the type **Text**.
 
-![set up inputs PowerAutomate](..\media\set-up-inputs-PowerAutomate.png)
+![set up inputs Power Automate](..\media\set-up-inputs-PowerAutomate.png)
 
 Fill in the fields as in the following table and screenshot and click **Next**:
 
@@ -43,26 +43,26 @@ Fill in the fields as in the following table and screenshot and click **Next**:
 | Primary Contact | Norbert Varga | Account Primary Contact |
 | Contact Email | n.varga@aileronroll.com | Primary Contact Email |
 
-![data entry inputs PowerAutomate](..\media\data-entry-inputs-PowerAutomate.png)
+![data entry inputs Power Automate](..\media\data-entry-inputs-PowerAutomate.png)
  
 Click **+ New Step**.
 
-![add new step PowerAutomate](..\media\add-new-step-PowerAutomate.png)
+![add new step Power Automate](..\media\add-new-step-PowerAutomate.png)
  
 Select **Run WinAutomation**.
 
-![select run WinAutomation PowerAutomate](..\media\select-run-WinAutomation-PowerAutomate.png)
+![select run WinAutomation Power Automate](..\media\select-run-WinAutomation-PowerAutomate.png)
 
 Set the Process Path to **/My Processes/Desktop/Power Automate Exercise**. Use **Add Dynamic Content** to add all three inputs into **Command-Line Arguments**.
 
-![configure WinAutomation action PowerAutomate](..\media\configure-WinAutomation-action-PowerAutomate.png)
+![configure WinAutomation action Power Automate](..\media\configure-WinAutomation-action-PowerAutomate.png)
 
 > [!NOTE]
 > Each argument and dynamic expression should be separated from the previous one by a space, and surrounded by double quotes (for example “alpha” “bravo” “charlie”).
 
 Skip the Review Outputs section and go to **Test**. For now, use the previously entered values, and click **Test Now**.
 
-![Test Now PowerAutomate](..\media\Test-Now-PowerAutomate.png)
+![Test Now Power Automate](..\media\Test-Now-PowerAutomate.png)
  
 The flow will run, and WinAutomation will display a notification at the bottom right of the screen while the process is running.
 

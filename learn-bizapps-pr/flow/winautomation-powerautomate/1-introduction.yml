@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.winautomation-powerautomate.1-introduction 
-title: WinAutomation-Power Automate Combination Introduction
+title: Introduction to running WinAutomation from Power Automate
 metadata: 
-  title: WinAutomation-Power Automate Combination Introduction
-  description: Introduction to using WinAutomation with Power Automate. 
+  title: Introduction to running WinAutomation from Power Automate
+  description: Introduction to passing arguments to WinAutomation via the command line from Power Automate
   ms.date: 10/08/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
