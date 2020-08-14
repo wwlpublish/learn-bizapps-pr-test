@@ -17,14 +17,14 @@ Using snippets creates a consistent appearance and behavior for the site, which 
 
 ## Shortcuts
 
-The front-side content editor can be used to create the hierarchical structure of your portal by adding child pages, child files, and child shortcuts to a webpage. A shortcut can be a link to an external URL, another webpage or web file, or a forum on your portal. Shortcuts allow you to modify the sitemap without actually moving content.
+The front-side content editor can be used to create the hierarchical structure of your portal by adding child pages, child files, and child shortcuts to a webpage. A shortcut can be a link to an external URL, another webpage or web file, or a forum on your portal. Shortcuts allow you to modify the site map without actually moving content.
 
 For example, consider scenarios when you have a **News** page that contains news categories. You might decide to list the latest company announcement as part of the news navigation. To accomplish that task, you would define a **Latest** shortcut (with the **News** page as a parent) that points to the latest announcement (which could be "buried" in the hierarchy and have a URL such as `https://www.contoso.com/news/2019/Q1/profit-up-20-percent`). As a result, your navigation would place a shortcut on a page from the hierarchy directly below the top level news categories.
 
 > [!div class="mx-imgBorder"]
 > [![Shortcut sample](../media/shortcut-sample.png)](../media/shortcut-sample.png#lightbox)
 
-Normally, the shortcut security is defined by the security target. Select **Disable target validation** to define shortcut visibility by the security that is assigned to the parent page. This action will determine whether the shortcut will be visible in the sitemap.
+Normally, the shortcut security is defined by the security target. Select **Disable target validation** to define shortcut visibility by the security that is assigned to the parent page. This action will determine whether the shortcut will be visible in the site map.
 
 ## Redirects
 
