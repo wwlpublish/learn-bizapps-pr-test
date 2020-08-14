@@ -11,7 +11,7 @@ metadata:
 title: Take your first steps with WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The WinAutomation platform consists of two main components: The Console and the Process Designer. The Console is the main control panel, while the The Process Designer is the developing environment of the platform.
+  Learn how to get started with WinAutomation console and Process Designer. The WinAutomation console helps you organize the processes and aspects related to them while the Process Designer is the developing environment of the platform.
 abstract: |  
     In this module, you will: 
     - Explore the various panes in the Console and the Process Designer.
