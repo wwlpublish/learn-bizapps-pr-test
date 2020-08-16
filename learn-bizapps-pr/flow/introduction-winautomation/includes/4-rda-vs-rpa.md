@@ -1,11 +1,11 @@
-In RDA, which stands for Robotic Desktop Automation, there is an agent installed on a machine that acts as –what is referred to as - a robot. This robot can assist the User with their tasks. It can interact with the User and ask for inputs or advice on how to proceed with running a Process. 
+Robotic Desktop Automation and Robotic Process Automation are similar concepts. WinAutomation supports Robotic Process Auomation.
 
-The User is also able to start processes that will run on the workstation.  
+In Robotic Desktop Automation (RDA), there is an agent installed on a machine that acts as a *robot*. This robot can assist a user with their tasks. It can interact with the user and ask for inputs or advice on how to proceed with running a process. In RDA, a user is also able to start processes that run on the workstation.  
 
-In RDA, the robot can function in Attended mode, meaning that it can work alongside and with the User or in Unattended mode meaning that it can run Processes in the User’s absence but still on the user’s behalf.
+In RDA, a robot can function in *attended mode*, meaning that it can work alongside and with the user, or in *unattended mode* meaning that it can run processes in the user’s absence but still on the user’s behalf.
 
-RPA, which stands for Robotic Process Automation, refers to a distributed Automation software that works as a human, and creates a virtual workforce of employees. In RPA, the Attended and Unattended mode in a human assisting and autonomous-self-reliant mode also exists.
+Robotic Process Automation (RPA), is distributed automation software that works as a user, and creates a virtual workforce of employees. RPA also supports attended and unattended mode.
 
-In relation to RDA, WinAutomation is a server less, self-contained desktop automation platform, able to automate any task on a windows machine. WinAutomation is able to function in both Attended and Unattended mode. 
+WinAutomation is a serverless, self-contained desktop automation platform, able to automate any task on a Windows computer. WinAutomation is able to function in both attended and unattended mode. 
 
-The range that it covers business wise is wide. It is suitable down from an individual user, small or larger teams, to Medium size growth businesses all the way up to an implementation for a Large Enterprise. 
+WinAutomation is suitable for use by individuals, small or large teams, departments, and enterprises. 

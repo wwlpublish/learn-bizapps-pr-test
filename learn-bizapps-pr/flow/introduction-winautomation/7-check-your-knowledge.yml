@@ -13,22 +13,22 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "Processes are built in the Process Designer, and tested in the Process Tester."
+  - content: "Processes are built in the process designer, and tested in the process tester."
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is false; processes are built and tested in the Process Designer."
+      explanation: "That is false; processes are built and tested in the process designer."
     - content: "False"
       isCorrect: true 
-      explanation: "That is correct! Processes are built and tested in the Process Designer."
-  - content: "The execution of processes through schedules and triggers is configured in the Console."
+      explanation: "That is correct! Processes are built and tested in the process designer."
+  - content: "The execution of processes through schedules and triggers is configured in the console."
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: "That is correct! The automatic execution of processes is configured in the Console."
+      explanation: "That is correct! The automatic execution of processes is configured in the console."
     - content: "False"
       isCorrect: false
-      explanation: "That is false; the automatic execution of processes is configured in the Console."
+      explanation: "That is false; the automatic execution of processes is configured in the console."
   - content: "Which of these features is not included in WinAutomation?"
     choices: 
     - content: "User Monitoring System"
@@ -42,4 +42,4 @@ quiz:
       explanation: "That is false; there are 4 levels of exception and error handling in WinAutomation."
     - content: "Detailed logs"
       isCorrect: false 
-      explanation: "That is false; the Logs tab in the Console contains detailed information about WinAutomation."
+      explanation: "That is false; the Logs tab in the console contains detailed information about WinAutomation."
