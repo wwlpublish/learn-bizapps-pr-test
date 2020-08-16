@@ -12,10 +12,10 @@ title: Take your first steps with WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   
-  Learn how to get started with WinAutomation console and Process Designer. The WinAutomation console helps you organize the processes and aspects related to them while the Process Designer is the developing environment of the platform.
+  Learn how to get started with WinAutomation console and process designer. The WinAutomation console helps you organize the processes and aspects related to them while the process designer is the development environment of the platform.
 abstract: |  
     In this module, you will: 
-    - Explore the various panes in the Console and the Process Designer.
+    - Explore the various panes in the console and the process designer.
     - Create a simple process.
     - Use the debugger to run a process step by step.
     - Create a simple log message.
