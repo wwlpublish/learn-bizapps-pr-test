@@ -7,24 +7,24 @@ You can also view detailed session history and transcripts by selecting **Sessi
 
 ### Analyze bot performance and usage
 
-The **Summary** page gives you a broad overview of your bot's performance. It uses AI technology to show you which topics have the greatest impact on escalation rate, abandon rate, and resolution rate. For more information, see the table under [Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-summary#summary-charts/?azure-portal=true).
+The **Summary** page gives you a broad overview of your bot's performance. It uses AI technology to show you which topics have the greatest impact on escalation rate, abandon rate, and resolution rate. For more information, see the table under [Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-summary#summary-charts/).
 
 > [!div class="mx-imgBorder"]
 > [![Analytics summary page](../media/5-2.png)](../media/5-2.png#lightbox)
 
 The **Summary** page includes a variety of charts with graphical views of your bot's KPIs:
 
-- **[Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-summary#summary-charts/?azure-portal=true)** - Summarize KPIs for a specified period and the percent change over the period.
+- **[Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-summary#summary-charts/)** - Summarize KPIs for a specified period and the percent change over the period.
 
-- **[Engagement over time chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#engagement-over-time-chart/?azure-portal=true)** - Graphical view of the number of engaged and unengaged sessions over time.
+- **[Engagement over time chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#engagement-over-time-chart/)** - Graphical view of the number of engaged and unengaged sessions over time.
 
-- **[Session outcomes over time chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart/?azure-portal=true)** - Graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.
+- **[Session outcomes over time chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#session-outcomes-over-time-chart/)** - Graphical view of the daily resolution rate, escalation rate, and abandon rate over the specified time period.
 
-- **[Resolution rate drivers chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#resolution-rate-drivers-chart/?azure-portal=true)** - Displays topics in order of their impact on the resolution rate over the specified time period.
+- **[Resolution rate drivers chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#resolution-rate-drivers-chart/)** - Displays topics in order of their impact on the resolution rate over the specified time period.
 
-- **[Escalation rate drivers chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#escalation-rate-drivers-chart/?azure-portal=true)** - Displays topics in order of their impact on the escalation rate over the specified time period.
+- **[Escalation rate drivers chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#escalation-rate-drivers-chart/)** - Displays topics in order of their impact on the escalation rate over the specified time period.
 
-- **[Abandon rate drivers chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#abandon-rate-drivers-chart/?azure-portal=true)** - Displays topics in order of their impact on the abandon rate over the specified time period.
+- **[Abandon rate drivers chart](https://docs.microsoft.com/power-virtual-agents/analytics-summary#abandon-rate-drivers-chart/)** - Displays topics in order of their impact on the abandon rate over the specified time period.
 
 For more information, see [Analyze bot performance and usage](https://docs.microsoft.com/power-virtual-agents/analytics-summary/?azure-portal=true).
 
@@ -34,13 +34,13 @@ The **Engagement rate drivers**, **Abandon rate drivers**, and **Resolution rate
 
 The **Customer Satisfaction** page provides a detailed view of customer satisfaction (CSAT) survey data, including the average CSAT score over time and the topics that have the most impact on the CSAT score. The **Customer Satisfaction** page includes a variety of charts with graphical views of your bot's customer satisfaction indicators:
 
-- **[Customer satisfaction drivers chart](https://docs.microsoft.com/power-virtual-agents/analytics-csat#customer-satisfaction-drivers-chart/?azure-portal=true)** - Uses AI to group related support cases as topics and then displays topics in order of their impact on customer satisfaction over the specified time period.
+- **[Customer satisfaction drivers chart](https://docs.microsoft.com/power-virtual-agents/analytics-csat#customer-satisfaction-drivers-chart/)** - Uses AI to group related support cases as topics and then displays topics in order of their impact on customer satisfaction over the specified time period.
 
-- **[Scores over time chart](https://docs.microsoft.com/power-virtual-agents/analytics-csat#scores-over-time-chart/?azure-portal=true)** - Provides a graphical view of the average CSAT score over the specified time period.
+- **[Scores over time chart](https://docs.microsoft.com/power-virtual-agents/analytics-csat#scores-over-time-chart/)** - Provides a graphical view of the average CSAT score over the specified time period.
 
-- **[Average CSAT score](https://docs.microsoft.com/power-virtual-agents/analytics-csat#average-csat-score-chart/?azure-portal=true)** - Provides a graphical view of the average of CSAT scores for sessions in which customers respond to an end-of-session request to take the survey.
+- **[Average CSAT score](https://docs.microsoft.com/power-virtual-agents/analytics-csat#average-csat-score-chart/)** - Provides a graphical view of the average of CSAT scores for sessions in which customers respond to an end-of-session request to take the survey.
 
-- **[CSAT survey response rate](https://docs.microsoft.com/power-virtual-agents/analytics-csat#csat-survey-response-rate-chart/?azure-portal=true)** - Shows the number of CSAT surveys that were presented and the percentage of surveys that were completed.
+- **[CSAT survey response rate](https://docs.microsoft.com/power-virtual-agents/analytics-csat#csat-survey-response-rate-chart/)** - Shows the number of CSAT surveys that were presented and the percentage of surveys that were completed.
 
 For more information, see [Analyze customer satisfaction](https://docs.microsoft.com/power-virtual-agents/analytics-csat/?azure-portal=true).
 
@@ -50,15 +50,15 @@ The topic details page provides a view into the performance of individual topics
 
 - **Summary page**
 
-  - [Escalation rate drivers](https://docs.microsoft.com/power-virtual-agents/analytics-summary#escalation-rate-drivers-chart/?azure-portal=true)
+  - [Escalation rate drivers](https://docs.microsoft.com/power-virtual-agents/analytics-summary#escalation-rate-drivers-chart/)
 
-  - [Abandon rate drivers](https://docs.microsoft.com/power-virtual-agents/analytics-summary#abandon-rate-drivers-chart/?azure-portal=true)
+  - [Abandon rate drivers](https://docs.microsoft.com/power-virtual-agents/analytics-summary#abandon-rate-drivers-chart/)
 
-  - [Resolution rate drivers](https://docs.microsoft.com/power-virtual-agents/analytics-summary#resolution-rate-drivers-chart/?azure-portal=true)
+  - [Resolution rate drivers](https://docs.microsoft.com/power-virtual-agents/analytics-summary#resolution-rate-drivers-chart/)
 
 - **Customer Satisfaction page**
 
-  - [Customer satisfaction drivers](https://docs.microsoft.com/power-virtual-agents/analytics-csat#customer-satisfaction-drivers-chart/?azure-portal=true)
+  - [Customer satisfaction drivers](https://docs.microsoft.com/power-virtual-agents/analytics-csat#customer-satisfaction-drivers-chart/)
 
 > [!div class="mx-imgBorder"]
 > [![Escalation rate drivers](../media/5-3.png)](../media/5-3.png#lightbox)
@@ -70,11 +70,11 @@ The topic details page can also be displayed by opening an individual topic from
 
 The topic details page includes a variety of charts with graphical views of a topic's KPIs:
 
-- **[Topic Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-topic-details#topic-summary-charts/?azure-portal=true)** - Summarize topic performance indicators for the specified time period and the percent change over the period.
+- **[Topic Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-topic-details#topic-summary-charts/)** - Summarize topic performance indicators for the specified time period and the percent change over the period.
 
-- **[Impact Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-topic-details#impact-summary-charts/?azure-portal=true)** - Summarize the impact of the topic on KPIs for the specified time period.
+- **[Impact Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-topic-details#impact-summary-charts/)** - Summarize the impact of the topic on KPIs for the specified time period.
 
-- **[Topic Volume by Day chart](https://docs.microsoft.com/power-virtual-agents/analytics-topic-details#topic-volume-by-day-chart/?azure-portal=true)** - Provides a graphical view of the number of sessions for the topic over the specified time period.
+- **[Topic Volume by Day chart](https://docs.microsoft.com/power-virtual-agents/analytics-topic-details#topic-volume-by-day-chart/)** - Provides a graphical view of the number of sessions for the topic over the specified time period.
 
 For more information, see [Analyze topics usage](https://docs.microsoft.com/power-virtual-agents/analytics-topic-details/?azure-portal=true).
 

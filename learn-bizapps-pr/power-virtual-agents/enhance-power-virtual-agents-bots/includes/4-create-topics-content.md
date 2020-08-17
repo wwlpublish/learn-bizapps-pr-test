@@ -14,7 +14,7 @@ Dynamics 365 Customer Service Insights uses AI to automatically group your organ
 
 - Topics that have a high volume. These types of topics allow the automation to potentially bring you more business benefit and impact. 
 
-For more information, see [Automate topics for a Power Virtual Agents bot](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/automate-topics).
+For more information, see [Automate topics for a Power Virtual Agents bot](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/automate-topics/?azure-portal=true).
 
 ## Extract content from webpages
 

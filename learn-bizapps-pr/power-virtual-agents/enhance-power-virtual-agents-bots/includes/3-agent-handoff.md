@@ -40,7 +40,7 @@ Three primary areas that can be defined when you create the application registra
 
 After you have defined the parameters, select the **Register** button.
 
-For more information, see [Microsoft Docs](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application/?azure-portal=true).
+For more information, see [Microsoft Docs](https://docs.microsoft.com/azure/active-directory/develop/howto-create-service-principal-portal#create-an-azure-active-directory-application).
 
 ### Configure transfer to agent
 
