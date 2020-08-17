@@ -103,7 +103,7 @@ The downloaded file contains the following information:
 
   - Conversation turns are separated by semicolons
 
-  - **Bot says*** doesn't include the options that are presented to the user
+  - **Bot says** doesn't include the options that are presented to the user
 
 - **SessionOutcome** - Outcome of the session (Resolved, Escalated, Abandoned, Unengaged).
 
