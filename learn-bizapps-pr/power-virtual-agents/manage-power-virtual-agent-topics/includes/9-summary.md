@@ -1,17 +1,17 @@
-The primary advantage of a bot is that they provide a personalized natural language conversation with customer just as a human agent would. This allows bots to handle common issues and will free up agents to focus on more complex issues. As they identify the intent of what the customer is saying, they pivot and load subject matter that is most relevant to them. Power Virtual Agents uses topics to provide this content. By modifying a topic's conversation path, organizations ensure that each customer is provided with a personalized and relevant experience. Information supplied by the customer throughout the conversation can be stored for later use. Existing support content can be added as available topics.
+The primary advantage of bots is that they provide a personalized natural language conversation with a customer just as a human agent would. This feature allows bots to handle common issues and helps agents focus on more complex issues. As bots identify the intent of what the customer is saying, they pivot and load subject matter that is most relevant to the customer. Power Virtual Agents uses topics to provide this content. By modifying a topic's conversation path, organizations ensure that each customer is provided with a personalized and relevant experience. Information that is supplied by the customer throughout the conversation can be stored for later use. Existing support content can be added as available topics.
 
-We examined how organizations can create and manage Power Virtual Agent topics to provide tailored conversations to customers including:
+This module examined how organizations can create and manage Power Virtual Agents topics to provide tailored conversations to customers, including:
 
-- Examine how topics are used in Power Virtual Agents to define how conversations between the bot and customer flow.
+- Explaining how topics are used in Power Virtual Agents to define how conversations between the bot and customer flow.
 
-- Review the topic creation process and how to use conversation nodes to control and define directions the customer can go.
+- Reviewing the topic creation process and how to use conversation nodes to control and define directions for where the customer can go on the conversation path.
 
-- Explain how entities are used to store different types of data such as names, phone numbers, and dates, so they can be used in various areas of a bot.
+- Explaining how entities are used to store different types of data such as names, phone numbers, and dates, so that they can be used in various areas of a bot.
 
-- Examine how to use the information captured in entities and store them in variables that can be used throughout your bot.
+- Examining how to use the information that is captured in entities and how to store it in variables that can be used throughout your bot.
 
-- Explain when and how you might use a system fall back topic to customize how your bot handles scenarios where it does not recognize content.
+- Explaining when and how you might use a system fallback topic to customize how your bot handles scenarios where it doesn't recognize content.
 
-- Review the different options available for managing the different topics in your application.
+- Reviewing the different available options for managing the different topics in your application.
 
-From here, your next step is to gain a deeper understanding of what tools are available to further enhance Power Virtual Agent bot capabilities. This includes how to leverage Power Automate flows, trigger hand offs to live agents, and deploy to different channels.
+Your next step is to gain a deeper understanding of what tools are available to further enhance Power Virtual Agents bot capabilities. This further learning includes how to use Power Automate flows, trigger handoffs to live agents, and deploy to different channels.
