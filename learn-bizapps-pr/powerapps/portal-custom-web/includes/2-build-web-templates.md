@@ -1,16 +1,16 @@
-**Web template** is a simple entity with only the following attributes available.
+**Web Template** is a simple entity that contains the following attributes:
 
-* **Name**. When template is included in other content, or extended by other templates, it is referred to by this name.
-* **Source**. The source content of the template. It can be a static text, HTML fragment, or, most often, a layout using Liquid.
-* **MIME Type**. Defines what MIME type the server will send to the client when the template is rendered. If value is not provided, the value will be `text/html` is assumed, which is a standard type for HTML pages. It's possible to create a web template that will render specialized content. For example, you can create a web template that will return some Common Data Service data in `json` format. In this case MIME type would be set to `application/json`. 
+- **Name** - When a template is included in other content, or extended by other templates, it is referred to by this name.
+- **Source** - The source content of the template. It can be static text, an HTML fragment, or most often, a layout by using Liquid.
+- **MIME type** - Defines what MIME type that the server will send to the client when the template is rendered. If value is not provided, the value is assumed to be `text/html`, which is a standard type for HTML pages. It's possible to create a web template that will render specialized content. For example, you can create a web template that will return some Common Data Service data in `json` format. In this case, the MIME type would be set to `application/json`. 
 
 ## Web template management
 
-Liquid implementations within Power Apps portals contain a number of [Template tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/template-tags/?azure-portal=true) that help managing templates and promote reusability.
+Liquid implementations within Power Apps portals contain a number of [Template tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/template-tags/?azure-portal=true) that help manage templates and promote reusability.
 
-### fetchxml
+### FetchXML tag
 
-Allows user to query data from Common Data Service and renders the results in a page.
+The `fetchxml` tag allows users to query data from Common Data Service and renders the results in a page.
 
 ```xml
 {% fetchxml varResults %}
@@ -23,7 +23,7 @@ Allows user to query data from Common Data Service and renders the results in a 
 {% endfetchxml %}
 ```
 
-`varResults` variable will contain the results of the query.
+The `varResults` variable will contain the results of the query.
 
 ```xml
 {% for account in varResults.results.entities %} 
@@ -34,51 +34,53 @@ Allows user to query data from Common Data Service and renders the results in a 
 > [!IMPORTANT]
 > Entity permissions are always applied to the `fetchxml` tag.
 
-### comment
+### Comment tag
 
-Any content within the block will not be rendered, and any Liquid code within will not be executed. This is useful for including extended comments in complex templates as well as temporarily comment out blocks of code when troubleshooting.
+With the `comment` tag, any content within the block will not be rendered, and any Liquid code within will not be run. This tag is useful for including extended comments in complex templates and to temporarily comment out blocks of code when you are troubleshooting.
 
 ```xml
 This is a {% comment %}very useful {% endcomment %}comment.
 ```
 
-Will generate 
+The preceding logic will generate the following result: 
 
 > This is a comment.
 
-### raw
+### Raw tag
 
-Allows output of Liquid code on a page without having it parsed and executed. This is useful for generating content, which uses conflicting client-side syntax, for example, Handlebars.
+The `raw` tag allows the output of Liquid code on a page without having it parsed and run. This tag is useful for generating content that uses conflicting client-side syntax, such as Handlebars.
 
 ```xml
 Hello, {% raw %}{{ user.fullname }}.{% endraw %} Nice to meet you.
 ```
 
-Will generate 
+The preceding logic will generate the following result: 
 
 > Hello, {{ user.fullname }}. Nice to meet you.
 
-Note how `user.fullname` is rendered explicitly instead of being processed as a Liquid instruction and converted into the actual name of the user.
+Notice how `user.fullname` is rendered explicitly instead of being processed as a Liquid instruction and converted into the actual name of the user.
 
-### include
+### Include tag
 
-Includes the contents of one template in another, by name. This allows for the reuse of common template fragments in multiple places, for example, rendering of the social links. The included template will have access to any variables defined in the parent template and it's possible to pass parameters.
+The `include` tag includes the contents of one template in another, by name. This tag allows for the reuse of common template fragments in multiple places, for example, rendering of social links. The included template will have access to any variables that are defined in the parent template, and it is possible to pass parameters.
 
 ```xml
 {% include 'Breadcrumbs', separator: '>' %}
 ```
 
-This will include the output generated by the template **Breadcrumbs** that will have a variable `separator` set to `>` symbol.
+This logic will include the output that is generated by the **Breadcrumbs** template that will have a `separator` variable set to the `>` symbol.
 
-### block
+### Block tag
 
-Defining a block within a template defines a region that can be optionally overwritten by the templates that extend the current template.
+By using the `block` tag, you can define a block within a template, which defines a region that can be optionally overwritten by the templates that extend the current template.
 
-### extend
+### Extend tag
 
-When used in conjunction with the block tag, provides template inheritance. This allows multiple templates to use a shared layout, while overriding specific areas of the parent layout. When `extends` is used, it must be the first content in the template, and can only be followed by one or more block tags.
+When used in conjunction with the `block` tag, the `extend` tag provides template inheritance. This tag allows multiple templates to use a shared layout while overriding specific areas of the parent layout. When `extends` is used, it must be the first content in the template and can only be followed by one or more block tags.
 
-#### **Base template**
+#### Base template
+
+The base template logic is as follows:
 
 ```xml
 <div>
@@ -87,14 +89,16 @@ Hello
 </div>
 ```
 
-**Child Template**
+#### Child template
+
+The child template logic is as follows:
 
 ```xml
 {% extends 'Base Template' %}
 {% block content %}Power Apps portals{% endblock%}
 ```
 
-The Child Template will generate the following output
+The child template will generate the following output:
 
 ```html
 <div>
@@ -103,29 +107,29 @@ The Child Template will generate the following output
 </div>
 ```
 
-The typical use of the `extend` and `block` tags is to separate layout and content templates. Parent or base templates usually define broad page layout, for example, if it's a single column, or a two columns page. Child templates that extend the base, can only define the content of the blocks as specified by the parent.
+The typical use of the `extend` and `block` tags is to separate layout and content templates. Parent or base templates usually define broad page layout, for example, if it's a single column or a two-column page. Child templates that extend the base can only define the content of the blocks as specified by the parent.
 
 For a comprehensive Liquid code sample that demonstrates template inheritance with `block/extend` and `include` tags, see [Create a custom page template](https://docs.microsoft.com/powerapps/maker/portals/liquid/create-custom-template).
 
 ## Web templates best practices
 
-There are certain steps you can take to improve template structure and make the web templates more manageable. 
+The following steps will help you improve template structure and make the web templates more manageable: 
 
-* Choose descriptive names for your templates. They will be referenced or as part of other templates.
+- Choose descriptive names for your templates because they will be referenced or included as part of other templates.
 
-* Break down the page layout and separate layout from content. These will be candidates for extendable templates.
+- Break down the page layout and separate layout from content. These layouts will be candidates for extendable templates.
 
-* Look out for repeatable and reusable fragments - these can be defined as subtemplates and utilize `include` tag.
+- Look out for repeatable and reusable fragments; these fragments can be defined as sub templates and will use the `include` tag.
 
-* `include` tag can help reuse not only layout but commonly used JavaScript fragments as well. Make your JavaScript templates "smart" by using parameters available in `include` tag. These fragments will be inserted inline.
+- Use the `include` tag to help reuse layout and commonly used JavaScript fragments. Make your JavaScript templates "smart" by using parameters that are available in the `include` tag. These fragments will be inserted inline.
 
-* Move larger reusable blocks of JavaScript to separate files and insert them as a reference instead. Client's browser will load them separately and they can be cached. In addition, externally loaded scripts can be minified. This will result in a better performance. 
+- Move larger, reusable blocks of JavaScript to separate files and insert them as a reference instead. The client's browser will load them separately and they can be cached. In addition, externally loaded scripts can be minified, which will result in better performance. 
 
-* Find the parts of the page that need to be translated for multi-lingual implementation. These will have to be defined as either page content or content snippets.
+- Find parts of the page that need to be translated for multilingual implementation. These pages need to be defined as either page content or content snippets.
 
-* Identify editable fragments - which parts of the web page would you like users responsible for content management, to maintain.
+- Identify editable fragments. Determine which parts of the webpage where you want users to be responsible for content management and maintenance.
 
-* When writing template be generous with the layout but avoid excessive blank lines by using hyphens in your tags, for example, 
+- Be generous with the layout when you are writing a template, but avoid excessive blank lines by using hyphens in your tags, for example: 
 
   ```xml
   {%- if username -%}
@@ -133,12 +137,12 @@ There are certain steps you can take to improve template structure and make the 
   {%- endif -%}
   ```
 
-* Use `comments` tag to describe complex parts of the template
+- Use the `comments` tag to describe complex parts of the template.
 
-* Study templates that are already deployed with the starter portal and look for Liquid techniques in [Create advanced templates for portals](https://docs.microsoft.com/powerapps/maker/portals/liquid/create-custom-template/?azure-portal-true).
+- Study templates that are already deployed with the starter portal and look for Liquid techniques in [Create advanced templates for portals](https://docs.microsoft.com/powerapps/maker/portals/liquid/create-custom-template/?azure-portal-true).
 
-There is a number of ready-to-use Liquid templates installed when you provision a starter portal: [Built-in web templates](https://docs.microsoft.com/powerapps/maker/portals/liquid/store-content-web-templates#built-in-web-templates/?azure-portal-true). Their names are fixed and the templates are not available for editing.
+Numerous ready-to-use Liquid templates are installed when you provision a starter portal: [Built-in web templates](https://docs.microsoft.com/powerapps/maker/portals/liquid/store-content-web-templates#built-in-web-templates/?azure-portal-true). Their names are fixed, and the templates are not available for editing.
 
-For the comprehensive Liquid reference and template samples see [Work with Liquid templates](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview/?azure-portal-true).
+For more information, see [Work with Liquid templates](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview/?azure-portal-true).
 
 
