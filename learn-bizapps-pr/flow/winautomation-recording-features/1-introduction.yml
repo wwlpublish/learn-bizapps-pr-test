@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.winautomation-recording-features.1-introduction 
-title: Introduction
+title: Introduction to Macro and Web Recorders
 metadata: 
-  title: Introduction
-  description: Introduction
+  title: Introduction to Macro and Web Recorders
+  description: An introduction to recording desktop and web actions using the WinAutomation recording tools.
   ms.date: 08/07/2020 
   author: rokontol 
   ms.author: rokontol 
