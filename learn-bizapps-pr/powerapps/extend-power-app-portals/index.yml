@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.extend-power-app-portals 
+metadata: 
+ title: Extend Power Apps portals
+ description: The world of business software applications has embraced a movement toward building apps using low-code/no-code methods. This is one of the pillars of the Power Platform including Power Apps portals. However, in many projects there is often a set of functionality or features that can only be addressed with advanced software development techniques. This module will focus on understanding and extending portal functionality using software development as well as the use of Application Lifecycle Management (ALM) techniques to deploy portals.
+ ms.date: 07/08/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Extend Power Apps portals
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The world of business software applications has embraced a movement toward building apps using low-code/no-code methods. This is one of the pillars of the Power Platform including Power Apps portals. However, in many projects there is often a set of functionality or features that can only be addressed with advanced software development techniques. This module will focus on understanding and extending portal functionality using software development as well as the use of Application Lifecycle Management (ALM) techniques to deploy portals.
+abstract: |  
+    In this module, you will: 
+    - Discover where software development can resolve particular portal feature requirements.
+    - Employ portal Application Lifecycle management for Power Apps portals.
+    - Apply JavaScript code to portal assets.
+    - Use CSS to address specific portal development requirements.
+prerequisites: Target audience should have basic understanding of Power Apps portals, Power Platform Application Lifecycle Management, and fundamental web technologies like HTML, JavaScript, and CSS. Familiarity with other related technologies like Azure Functions, Web API, Single Page Applications would be beneficial.
+iconUrl: /learn/achievements/extend-power-app-portals.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+products:  
+- dynamics-365  
+- power-apps 
+units: 
+- learn-bizapps.extend-power-app-portals.1-introduction 
+- learn-bizapps.extend-power-app-portals.2-portal-application-lifecycle 
+- learn-bizapps.extend-power-app-portals.3-portal-javascript 
+- learn-bizapps.extend-power-app-portals.4-portal-css 
+- learn-bizapps.extend-power-app-portals.5-advanced-portal-development 
+- learn-bizapps.extend-power-app-portals.6-exercise 
+- learn-bizapps.extend-power-app-portals.7-check 
+- learn-bizapps.extend-power-app-portals.8-summary 
+badge: 
+  uid: learn-bizapps.extend-power-app-portals.badge 

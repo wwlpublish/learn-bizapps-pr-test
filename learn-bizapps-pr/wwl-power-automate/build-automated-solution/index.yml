@@ -3,7 +3,7 @@ uid: learn-bizapps.wwl.build-automated-solution
 metadata:
   title: How to build an automated solution
   description: "How to build an automated solution"
-  ms.date: 06/15/2020
+  ms.date: 07/12/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
@@ -23,7 +23,7 @@ levels:
 roles:
 - business-user
 products:
-- dynamics
+- dynamics-365
 - dynamics-finance-operations
 - power-platform
 units:

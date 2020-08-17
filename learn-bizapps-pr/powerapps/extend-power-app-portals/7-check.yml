@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.extend-power-app-portals.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/08/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 4
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What JavaScript library is included with Power Apps portals?
+    choices: 
+    - content: React
+      isCorrect: false 
+      explanation: Out of the box, Dynamics 365 Portals include the JQuery library that makes manipulation of the page content and appearance a reasonably easy task.
+    - content: Vue
+      isCorrect: false 
+      explanation: Out of the box, Dynamics 365 Portals include the JQuery library that makes manipulation of the page content and appearance a reasonably easy task.
+    - content: Angular
+      isCorrect: false 
+      explanation: Out of the box, Dynamics 365 Portals include the JQuery library that makes manipulation of the page content and appearance a reasonably easy task.
+    - content: JQuery
+      isCorrect: true 
+      explanation: Out of the box, Dynamics 365 Portals include the JQuery library that makes manipulation of the page content and appearance a reasonably easy task.
+  - content: You have a requirement to set a default value on an Entity Form and also to hide the field.  What is the most efficient method to complete the task?
+    choices: 
+    - content: Use Business Rules on the model-driven form
+      isCorrect: false 
+      explanation: Business rules on the model-driven form will not apply to the portal.  A JavaScript function would work but is not the most efficient method.  Simply hiding the field on the form designer will not set the default value.  An Entity Form Metadata record has the ability to both set a default value and hide the field using the CSS class value of "hide."
+    - content: Create a JavaScript function
+      isCorrect: false 
+      explanation: Business rules on the model-driven form will not apply to the portal.  A JavaScript function would work but is not the most efficient method.  Simply hiding the field on the form designer will not set the default value.  An Entity Form Metadata record has the ability to both set a default value and hide the field using the CSS class value of "hide."
+    - content: Hide the field on the model-driven form designer
+      isCorrect: false 
+      explanation: Business rules on the model-driven form will not apply to the portal.  A JavaScript function would work but is not the most efficient method.  Simply hiding the field on the form designer will not set the default value.  An Entity Form Metadata record has the ability to both set a default value and hide the field using the CSS class value of "hide."
+    - content: Create an Entity Form Metadata record to set the default value and CSS class values
+      isCorrect: true 
+      explanation: Business rules on the model-driven form will not apply to the portal.  A JavaScript function would work but is not the most efficient method.  Simply hiding the field on the form designer will not set the default value.  An Entity Form Metadata record has the ability to both set a default value and hide the field using the CSS class value of "hide."
+  - content: You have configured a Power Apps portal on a development environment and you need to move the configuration to your test environment.  What tool would you use to accomplish this?
+    choices: 
+    - content: Power Apps portals admin center
+      isCorrect: false 
+      explanation: The Power Apps portals admin center does not have any tools to migrate portal metadata.  Exporting and Importing Excel files would lead to problems with data relationships as well as potential duplicates of web pages.  The Configuration Data Migration Tool can use the Portal Schema files and Export and Import portal metadata.  The Common Data Service solution does not contain portal metadata.
+    - content: Export and Import Excel Files
+      isCorrect: false 
+      explanation: The Power Apps portals admin center does not have any tools to migrate portal metadata.  Exporting and Importing Excel files would lead to problems with data relationships as well as potential duplicates of web pages.  The Configuration Data Migration Tool can use the Portal Schema files and Export and Import portal metadata.  The Common Data Service solution does not contain portal metadata.
+    - content: Configuration Data Migration Tool
+      isCorrect: true 
+      explanation: The Power Apps portals admin center does not have any tools to migrate portal metadata.  Exporting and Importing Excel files would lead to problems with data relationships as well as potential duplicates of web pages.  The Configuration Data Migration Tool can use the Portal Schema files and Export and Import portal metadata.  The Common Data Service solution does not contain portal metadata.
+    - content: Export and Import the Common Data Service solution
+      isCorrect: false 
+      explanation: The Power Apps portals admin center does not have any tools to migrate portal metadata.  Exporting and Importing Excel files would lead to problems with data relationships as well as potential duplicates of web pages.  The Configuration Data Migration Tool can use the Portal Schema files and Export and Import portal metadata.  The Common Data Service solution does not contain portal metadata.
+  - content: How would you calculate taxes based on rates stored in the Common Data Service on work orders entered on Web Forms on the portal?
+    choices: 
+    - content: Add JavaScript to the Web Form Steps
+      isCorrect: false 
+      explanation: You would not be able to query the rate information using JavaScript on the Web Form steps.  Creating an external web service would not be the most efficient way to calculate the taxes.  A plug-in would fire when the data is saved to CDS and can update a tax value based on rates in another entity.  Common Data Service calculated fields cannot pull information (rates) from other records.
+    - content: Create an external web application
+      isCorrect: false 
+      explanation: You would not be able to query the rate information using JavaScript on the Web Form steps.  Creating an external web service would not be the most efficient way to calculate the taxes.  A plug-in would fire when the data is saved to CDS and can update a tax value based on rates in another entity.  Common Data Service calculated fields cannot pull information (rates) from other records.
+    - content: Write a Common Data Service plug-in
+      isCorrect: true 
+      explanation: You would not be able to query the rate information using JavaScript on the Web Form steps.  Creating an external web service would not be the most efficient way to calculate the taxes.  A plug-in would fire when the data is saved to CDS and can update a tax value based on rates in another entity.  Common Data Service calculated fields cannot pull information (rates) from other records.
+    - content: Add calculated fields to work order entity
+      isCorrect: false 
+      explanation: You would not be able to query the rate information using JavaScript on the Web Form steps.  Creating an external web service would not be the most efficient way to calculate the taxes.  A plug-in would fire when the data is saved to CDS and can update a tax value based on rates in another entity.  Common Data Service calculated fields cannot pull information (rates) from other records.

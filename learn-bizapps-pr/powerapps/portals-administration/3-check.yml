@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-administration.3-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/14/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 4
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Where you can view all the portals that have been provisioned in a specific tenant?
+    choices: 
+    - content: Power Apps portal Admin center
+      isCorrect: false 
+      explanation: The Power Platform admin center has the ability to list all of the portals in the various environments of a specific tenant. The Portal admin center is to configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all of the portals in a tenant.
+    - content: Power Platform admin center
+      isCorrect: true 
+      explanation: The Power Platform admin center has the ability to list all of the portals in the various environments of a specific tenant. The Portal admin center is to configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all of the portals in a tenant.
+    - content: Power Apps admin portal
+      isCorrect: false 
+      explanation: The Power Platform admin center has the ability to list all of the portals in the various environments of a specific tenant. The Portal admin center is to configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all of the portals in a tenant.
+    - content: Navigate to each environment and view the list of apps
+      isCorrect: false 
+      explanation: The Power Platform admin center has the ability to list all of the portals in the various environments of a specific tenant. The Portal admin center is to configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all of the portals in a tenant.
+  - content: What kind of SSL certificate file format is required for Power Apps portals?
+    choices: 
+    - content: PFX
+      isCorrect: true 
+      explanation: PFX is the only certificate type that can be uploaded in the Power Apps portal admin center.
+    - content: CER
+      isCorrect: false 
+      explanation: PFX is the only certificate type that can be uploaded in the Power Apps portal admin center.
+    - content: P7B
+      isCorrect: false 
+      explanation: PFX is the only certificate type that can be uploaded in the Power Apps portal admin center.
+    - content: SHA2
+      isCorrect: false 
+      explanation: PFX is the only certificate type that can be uploaded in the Power Apps portal admin center.
+  - content: You need to update a large amount of Common Data Service data which will affect some of the functionality of the portal. You want to block users from navigating to the portal. What is the best option?
+    choices: 
+    - content: Turn the portal off in the Portal Actions section
+      isCorrect: false 
+      explanation: Turning the portal off and using IP address restrictions will prevent users from navigating to the portal. Maintenance mode is the best option as users will see a maintenance page. The reset action will only temporarily bring down the portal.
+    - content: Run the portal reset action
+      isCorrect: false 
+      explanation: Turning the portal off and using IP address restrictions will prevent users from navigating to the portal. Maintenance mode is the best option as users will see a maintenance page. The reset action will only temporarily bring down the portal.
+    - content: Use the portal maintenance mode
+      isCorrect: true 
+      explanation: Turning the portal off and using IP address restrictions will prevent users from navigating to the portal. Maintenance mode is the best option as users will see a maintenance page. The reset action will only temporarily bring down the portal.
+    - content: Use IP address restrictions
+      isCorrect: false 
+      explanation: Turning the portal off and using IP address restrictions will prevent users from navigating to the portal. Maintenance mode is the best option as users will see a maintenance page. The reset action will only temporarily bring down the portal.
+  - content: What is step is NOT required to configure a custom URL?
+    choices: 
+    - content: The portal must not be a trial
+      isCorrect: false 
+      explanation: The portal does not need to be in maintenance mode to install a custom URL.
+    - content: You need to own a custom domain
+      isCorrect: false 
+      explanation: The portal does not need to be in maintenance mode to install a custom URL.
+    - content: You need an SSL certificate for the custom domain
+      isCorrect: false 
+      explanation: The portal does not need to be in maintenance mode to install a custom URL.
+    - content: The portal must be in maintenance mode
+      isCorrect: true 
+      explanation: The portal does not need to be in maintenance mode to install a custom URL.

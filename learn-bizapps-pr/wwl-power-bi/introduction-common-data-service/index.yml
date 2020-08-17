@@ -3,13 +3,13 @@ uid: learn-bizapps.wwl.introduction-common-data-service
 metadata:
   title: Introduction to Common Data Service
   description: "Introduction to Common Data Service"
-  ms.date: 06/15/2020
+  ms.date: 07/12/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 title: Introduction to Common Data Service
-summary: Learn about the basics of Common Data Service, and explore ways you can connect and customize data connections to Power Platform applications.
+summary: Learn about the basics of Common Data Service and explore ways you can connect and customize data connections to Power Platform applications.
 abstract: |
   In this module, you will:
   - Discover the Common Data Service

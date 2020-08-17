@@ -74,6 +74,17 @@
         "dest": "modules"
       },
       {
+        "src": "power-virtual-agents",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],
+        "dest": "modules"
+      },
+      {
         "src": "powerapps",
         "files": [
           "**.yml",
@@ -209,6 +220,17 @@
         "dest": "modules"
       },
       {
+        "src": "power-virtual-agents",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
         "src": "powerapps",
         "files": [
           "**/*.gif",
@@ -310,81 +332,34 @@
     "markdownEngineName": "markdig",
     "localization_scopes": {
         "ai-builder/**/*.yml": [
-          "da-dk", 
-          "de-de", 
-          "es-es", 
-          "fi-fi", 
-          "fr-fr", 
-          "it-it", 
-          "ja-jp", 
-          "nb-no", 
-          "nl-nl", 
-          "pt-br", 
-          "sv-se"
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "ja-jp"
         ],
         "dyn365-customer-service/**/*.yml": [
-          "da-dk", 
-          "de-de", 
-          "es-es", 
-          "fi-fi", 
-          "fr-fr", 
-          "it-it", 
-          "ja-jp", 
-          "nb-no", 
-          "nl-nl", 
-          "pt-br", 
-          "sv-se"
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "ja-jp"
         ],
         "dyn365-field-service/**/*.yml": [
-          "da-dk", 
-          "de-de", 
-          "es-es", 
-          "fi-fi", 
-          "fr-fr", 
-          "it-it", 
-          "ja-jp", 
-          "nb-no", 
-          "nl-nl", 
-          "pt-br", 
-          "sv-se"
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "ja-jp"
         ],
         "dyn365-marketing/**/*.yml": [
-          "da-dk", 
-          "de-de", 
-          "es-es", 
-          "fi-fi", 
-          "fr-fr", 
-          "it-it", 
-          "ja-jp", 
-          "nb-no", 
-          "nl-nl", 
-          "pt-br", 
-          "sv-se"
+          "de-de",
+          "es-es",
+          "fr-fr",
+          "ja-jp"
         ],
         "flow/**/*.yml": [
           "de-de",
           "es-es",
           "fr-fr",
-          "it-it",
-          "ja-jp",
-          "pt-br",
-          "zh-cn",
-          "zh-tw",
-          "ko-kr",
-          "ru-ru",
-          "nl-nl",
-          "hu-hu",
-          "cs-cz",
-          "pl-pl",
-          "pt-pt",
-          "sv-se",
-          "tr-tr",
-          "da-dk",
-          "nb-no",
-          "fi-fi",
-          "sk-sk",
-          "el-gr",
-          "th-th"
+          "ja-jp"
         ],
         "power-bi/**/*.yml": [
           "de-de",
@@ -415,26 +390,7 @@
           "de-de",
           "es-es",
           "fr-fr",
-          "it-it",
-          "ja-jp",
-          "pt-br",
-          "zh-cn",
-          "zh-tw",
-          "ko-kr",
-          "ru-ru",
-          "nl-nl",
-          "hu-hu",
-          "cs-cz",
-          "pl-pl",
-          "pt-pt",
-          "sv-se",
-          "tr-tr",
-          "da-dk",
-          "nb-no",
-          "fi-fi",
-          "sk-sk",
-          "el-gr",
-          "th-th"
+          "ja-jp"
         ]
   }
 }

@@ -23,7 +23,7 @@ quiz:
       explanation: Dashboards can only be built in Power BI service. 
     - content: Dashboards can be built by using visuals that are developed with an underlying data source. 
       isCorrect: false 
-      explanation: Insert instructional text here
+      explanation: Dashboards can only be built in Power BI service. 
     - content: The canvas in which you can view the data model of a report 
       isCorrect: false 
       explanation: The data model can be viewed in Power BI Desktop. 

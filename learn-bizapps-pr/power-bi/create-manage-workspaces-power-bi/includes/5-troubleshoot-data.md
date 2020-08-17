@@ -34,7 +34,10 @@ This view shows us all the artifacts in our workspace. Artifacts include data so
 > [!div class="mx-imgBorder"]
 > [![Data sources on data lineage](../media/05-datasets-dataflows-lineage-view-3-ss.png)](../media/05-datasets-dataflows-lineage-view-3-ss.png#lightbox)
 
-Each of the above cards is a data source used in our workspace. This card tells you the type of data source (for example, **Text/CSV**) and the gateway. **Gateway** tells us the source of our data. If we are connected to the data via an on-premises data gateway, this will tell you more information about the gateway. Additionally, double-clicking the card itself will you tell more details about the data source, such as the file path and the connection status. Selecting the bottom-right icon on the card will highlight specifically the path from the data source to the destination, which makes it clearer as to the exact path the data takes.
+Each of the above cards is a data source used in our workspace. This card tells you the type of data source (for example, **Text/CSV**) and the gateway. **Gateway** tells us the source of our data. If we are connected to the data via an on-premises data gateway, this will tell you more information about the gateway. Additionally, double-clicking the card itself will tell you more details about the data source, such as the file path and the connection status. Selecting the bottom-right icon on the card will highlight specifically the path from the data source to the destination, as seen in the following, which makes it clearer as to the exact path the data takes.
+
+> [!div class="mx-imgBorder"]
+> [![Highlighting a specific data source](../media/05-card-icon-detail-ssm.png)](../media/05-card-icon-detail-ssm.png#lightbox)
 
 Next, we have datasets/dataflows, marked in blue.
 
@@ -57,7 +60,7 @@ Additionally, if a dataset or dataflow belongs to a different workspace (in this
 > [!div class="mx-imgBorder"]
 > [![Dataset from a different workspace](../media/05-card-metadata-4-ssm.png)](../media/05-card-metadata-4-ssm.png#lightbox)
 
-There are a few other features that are important to mention. First, by double-clicking on any card, you can view the metadata. You can see the sensitivity, whom it was configured by, the last refresh date, and the names and count of tables within this dataset.
+There are a few other features that are important to mention. First, by double-clicking on any card, you can view the metadata. You can see the sensitivity, whom it was configured by, the last refresh date, and the names and count of tables within this dataset, as seen in the following.
 
 > [!div class="mx-imgBorder"]
 > [![Dataset metadata](../media/05-card-icon-detail-2-ssm.png)](../media/05-card-icon-detail-2-ssm.png#lightbox)

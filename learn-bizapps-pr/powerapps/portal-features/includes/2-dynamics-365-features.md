@@ -24,7 +24,7 @@ Knowledge management is available by default on the Customer self-service, Partn
 
 Forums allow members of a particular community who share common interests to post questions, start discussions, or ask for help.  
 
-Forums are set up and configured by using the Portal Management app. For information on how to configure forums, see [Set up and manage forums](https://docs.microsoft.com/dynamics365/customer-engagement/portals/setup-manage-forums/?azure-portal=true). The **Forums** feature is also available on the Community, Customer self-service, Employee self-service, and Partner portals.
+Forums are set up and configured by using the Portal Management app. For information on how to configure forums, see [Set up and manage forums](https://docs.microsoft.com/dynamics365/portals/setup-manage-forums/?azure-portal=true). The **Forums** feature is also available on the Community, Customer self-service, Employee self-service, and Partner portals.
 
 An organization will choose forums as a way for their community to interact with each other by asking questions, starting discussions, or by looking for help.
 

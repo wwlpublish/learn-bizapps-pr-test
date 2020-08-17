@@ -1,0 +1,36 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.work-power-apps-portals
+metadata:
+  title: Work with Power Apps portals
+  description: Work with Power Apps portals.
+  ms.date: 07/16/2020
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: Work with Power Apps portals
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Power Apps portals are designed for interaction with the internal and external audiences. There are additional requirements for content management and design, as well as the need to secure the content. This learning path describes how portal components work within context of Dynamics 365 to deliver the content and Common Data Service data to external and internal audiences. We will cover the topics of user authentication and how to secure access to different parts of the portal content based on the target audience and relationship to the content. 
+prerequisites: |
+  - Power Apps trial subscription.
+  - Basic understanding how to navigate a model-driven app. 
+iconUrl: /learn/achievements/work-power-apps-portals.svg
+levels:
+- intermediate
+roles: 
+- maker
+- functional-consultant
+- administrator
+products:
+- power-platform
+- power-apps
+modules:
+- learn-bizapps.explore-portals-studio
+- learn-bizapps.portals-metadata
+- learn-bizapps.integrate-common-data-service
+- learn-bizapps.liquid-template-language
+- learn-bizapps.configure-security 
+- learn-bizapps.build-user-experience-portals
+trophy: 
+  uid: learn-bizapps.work-power-apps-portals.trophy

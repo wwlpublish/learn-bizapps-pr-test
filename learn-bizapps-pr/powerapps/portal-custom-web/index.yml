@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.portal-custom-web 
+metadata: 
+ title: Build custom Power Apps portal web templates
+ description: Create custom Power Apps portal web templates.
+ ms.date: 07/08/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Build custom Power Apps portal web templates
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module covers what are custom web templates and how they can be built and configured to extend and enhance a Power Apps portal. A portal is provisioned with a series of prebuilt web templates. As makers encounter more complex scenarios, they need to understand how to use Liquid template language to create their own web templates that address project requirements.
+abstract: |  
+    In this module, you will: 
+    - Describe the relationship between web templates, page templates and web pages.
+    - Explain how custom Web Templates can be built using HTML, CSS, Liquid, and JavaScript.
+    - Use Liquid to build and structure web templates.
+    - Describe how to embed custom CSS and JavaScript into web templates.
+    - Understand how to reference other web templates in a web template.
+prerequisites: Should have a basic understanding of how to navigate and configure Power Apps portals and customize model-driven apps. A basic knowledge of the Liquid template language and familiarity with JavaScript, HTML, CSS, and web application development would be beneficial.
+iconUrl: /learn/achievements/portal-custom-web.svg  
+levels:  
+- advanced  
+roles:  
+- administrator   
+- functional-consultant 
+- maker
+- developer
+products:  
+- dynamics-365  
+- power-apps 
+units: 
+- learn-bizapps.portal-custom-web.1-introduction 
+- learn-bizapps.portal-custom-web.2-build-web-templates 
+- learn-bizapps.portal-custom-web.3-build-api 
+- learn-bizapps.portal-custom-web.4-exercise 
+- learn-bizapps.portal-custom-web.5-check 
+- learn-bizapps.portal-custom-web.6-summary 
+badge: 
+  uid: learn-bizapps.portal-custom-web.badge 

@@ -1,6 +1,4 @@
-Power Platform is made powerful by its ability to leverage data across many platforms. To do this, components of the Power Platform use connectors. You can think of connectors as a bridge from your data source to your app or workflow which allows information to be conveyed back and forth. Connectors allow you to extend your business solutions across platforms and add functionality for your users, and Power Platform has more than 275 connectors with the ability to build custom connectors as well.
-
-It is important to note that premium connectors require a paid plan for use. The connector reference in the summary and resources unit lists all connectors and whether they are considered standard or premium. Custom connectors are also considered a premium feature.
+Power Platform is made powerful by its ability to leverage data across many platforms. To do this, components of the Power Platform use connectors. You can think of connectors as a bridge from your data source to your app or workflow which allows information to be conveyed back and forth. Connectors allow you to extend your business solutions across platforms and add functionality for your users. 
 
 ## Data Sources
 
@@ -16,11 +14,11 @@ As you can see, connecting to data sources allows you to integrate disparate par
 
 ## Connectors
 
-Now that you understand more about data sources and delegation, you are ready to learn about connectors. 
+Now that you understand more about data sources, you are ready to learn about connectors. 
 
-**Connectors** are the bridges from your data source to your app, workflow, or dashboard. The Power Platform has more than 275 connectors available to common data sources. Connectors are divided into standard and premium. Some popular standard connectors are SharePoint, Outlook, and YouTube. Premium connectors require additional licensing for your app and/or users. A few premium connectors are SQL Server, Survey Monkey, and Mail Chimp.
+**Connectors** are the bridges from your data source to your app, workflow, or dashboard. The Power Platform has more than 275 connectors available to common data sources. Connectors are divided into standard and premium. Some popular standard connectors are SharePoint, Outlook, and YouTube. Premium connectors require additional licensing for your app and/or users. A few premium connectors are SQL Server, Survey Monkey, and Mail Chimp. The connector reference in the summary and resources unit lists all connectors and whether they are considered standard or premium.
 
-### Triggers and Actions
+## Triggers and Actions
 
 Once you have established a data source and configured your connector, there are two types of operations you can use, triggers or actions.
 
@@ -36,7 +34,7 @@ While the Power Platform offers more than 200 connectors, you also have the opti
 
 An advantage of building custom connectors is that they can be used in different platforms, such as PowerApps, Power Automate, and Azure Logic Apps.
 
-## Creating Custom Connectors
+### Creating Custom Connectors
 
 You can create custom connectors using 3 different approaches:
 
@@ -50,3 +48,5 @@ While the requirements for each approach will vary, they all require a Power App
 
 > [!NOTE]
 > The purpose of this module is to help you better understand data sources and connectors as a whole, but if you would like to learn more about custom connectors and even walk through an exercise to build one, check out the module Use custom connectors in a Power Apps canvas app.
+
+
