@@ -1,14 +1,14 @@
-**Page Template** has a setting that specifies whether the page should use the common Website header and footer templates when Web Template is used. 
+The **Page Template** entity has a setting that specifies whether the page should use the common website header and footer templates when the web template is used. 
 
 ![Page template setting to use site header and footer](../media/3-page-template.png)
 
-When Website header and footer are not used, the template assumes responsibility for generating the entire page output. In the case that you're rendering HTML, this means everything from the doctype to the root `<html>` tags, and everything in between. There are couple scenarios where this could be useful:
+When the website header and footer are not used, the template assumes responsibility for generating the entire page output. In the case when you're rendering HTML, this output includes everything from the doctype to the root `<html>` tags, and everything in between. This approach could be useful in a couple different scenarios:
 
-* Special purpose pages that need to look differently from the rest of the portal, for example, marketing campaign landing pages.
+- Special purpose pages need to appear different from the rest of the portal, for example, marketing campaign landing pages.
 
-* Web template generates non-HTML content, returning data in XML, json, or other formats.
+- The web template generates non-HTML content, returning data in XML, json, or other formats.
 
-For example, you can create a web template that returns a list of accounts or any other data the current user has access to, in `json` format. 
+For example, you can create a web template that returns a list of accounts, or any other data that the current user has access to, in `json` format. 
 
 ```twig
 {% entityview logical_name:'account', name:'Active Accounts' %}
@@ -24,9 +24,9 @@ For example, you can create a web template that returns a list of accounts or an
 ```
 
 > [!NOTE]
-> In this example, instead of the `entityview` tag,  you can use FetchXml query inside the `fetchxml` tag. Using inline FetchXml adds some flexibility to the query. The query can be built dynamically by using template parameters or even `request` object containing query string parameters of a current HTTP page request.
+> In this example, instead of the `entityview` tag,  you can use a FetchXML query inside the `fetchxml` tag. Using inline FetchXML adds some flexibility to the query. The query can be built dynamically by using template parameters or even a `request` object that contains query string parameters of a current HTTP page request.
 
-This template would be used without a header and footer with MIME type set to `application/json`. The output would be something like
+This template would be used without a header and footer, with the MIME type set to `application/json`. The output would be similar to the following example:
 
 ```json
 [
@@ -53,6 +53,6 @@ This template would be used without a header and footer with MIME type set to `a
 ]
 ```
 
-The page using this web template wouldn't be used by users in a browser but, instead, it will be called from JavaScript code, effectively defining an API endpoint for your solution. JavaScript on another page would be able to load and render this data as required.
+The page that uses this web template wouldn't be used by people who are in a browser; instead, it will be called from JavaScript code, effectively defining an API endpoint for your solution. JavaScript on another page would be able to load and render this data as required.
 
-Authorization will be in place and accessing CDS data using this "headless" template is no different if the output was rendered as HTML. The calling page would typically require user authentication prior to calling the endpoint.
+Authorization will be in place, and accessing Common Data Service data by using this "headless" template is no different than if the output was rendered as HTML. The calling page would typically require user authentication prior to calling the endpoint.

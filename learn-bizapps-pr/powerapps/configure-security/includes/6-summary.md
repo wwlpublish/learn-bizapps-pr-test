@@ -1,9 +1,9 @@
-Power App portals provide web page access security by creating a **web page access control rule** record for a specific web page.  To provide security to Common Data Service entities, an **entity permission** record is created for a specific CDS entity.  Both the **web page access control rule** and the **entity permission** records can be associated to a **web role** record which can be associated to a CDS contact record.  When a CDS contact is an authenticated portal user, the permissions and access will determine what pages and data they can view and interact with. 
+Power Apps portals provides webpage access security by creating a **Web Page Access Control Rule** record for a specific webpage. To provide security to Common Data Service entities, an **Entity Permission** record is created for a specific Common Data Service entity. Both the **Web Page Access Control Rule** record and the **Entity Permission** record can be associated to a **Web Role** record, which can be associated to a Common Data Service contact record. When a Common Data Service contact is an authenticated portal user, the permissions and access will determine which pages and data they can view and interact with. 
 
-Let's have a quick look at what we have covered in this module:
+This module explained the following concepts:
 
-* We reviewed the relationship between the Common Data Service **contact** entity and a portal user
-* We learned about the **web role** record and how it is used in portal security
-* We learned how to restrict access to web pages using **web page access control rules**
-* We learned how to restrict or provide access to the Common Data Service on portal web pages using **entity permissions**
-* We reviewed how to configure a security model in a Power Apps portal
+- The relationship between a Common Data Service contact entity and a portal user.
+- The **Web Role** record and how it is used in portal security.
+- Restricting access to webpages by using webpage access control rules.
+- Restricting or providing access to Common Data Service on portal webpages by using entity permissions.
+- Configuring a security model in a Power Apps portal.

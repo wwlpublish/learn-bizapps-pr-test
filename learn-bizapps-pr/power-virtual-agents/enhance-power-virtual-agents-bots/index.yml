@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.enhance-power-virtual-agent-bots 
+metadata: 
+ title: Enhance Power Virtual Agents bots
+ description: Microsoft Power Virtual Agents helps you quickly enhance your bot’s functionality to make it even more powerful. This module examines methods that you can use to enhance your Power Virtual Agents bots. 
+ ms.date: 08/17/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-virtual-agents  
+title: Enhance Power Virtual Agents bots
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Microsoft Power Virtual Agents helps you quickly enhance your bot’s functionality to make it even more powerful. This module examines methods that you can use to enhance your Power Virtual Agents bots. 
+abstract: |  
+    In this module, you will: 
+    - Initiate Power Automate flows directly from topics in your bot.
+    - Configure bots to pass conversations to applications such as Omnichannel for Customer Service.
+    - Extract content from support pages and configure it into bot topics that you can use in conversations.
+prerequisites: Access to Power Virtual Agents
+iconUrl: /learn/achievements/enhance-power-virtual-agent-bots.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+products:  
+- dynamics  
+- power-virtual-agents 
+units: 
+- learn-bizapps.enhance-power-virtual-agent-bots.1-introduction 
+- learn-bizapps.enhance-power-virtual-agent-bots.2-power-automate 
+- learn-bizapps.enhance-power-virtual-agent-bots.3-agent-handoff 
+- learn-bizapps.enhance-power-virtual-agent-bots.4-create-topics-content 
+- learn-bizapps.enhance-power-virtual-agent-bots.5-performance-analysis 
+- learn-bizapps.enhance-power-virtual-agent-bots.6-check 
+- learn-bizapps.enhance-power-virtual-agent-bots.7-summary 
+badge: 
+  uid: learn-bizapps.enhance-power-virtual-agent-bots.badge 
