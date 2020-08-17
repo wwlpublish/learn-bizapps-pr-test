@@ -11,7 +11,7 @@ metadata:
 title: WinAutomation development essentials
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Basic development concepts such as actions, variables, conditionals and loops, as well as more advanced topics such as exception handling and debugging, are covered in this module.
+  Learn how WinAutomation handles common development concepts and tasks, such as actions, variables, condititionals, and loops.
 abstract: |  
     In this module, you will:
     - Create a Process from scratch using the Process Designer
