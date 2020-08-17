@@ -1,7 +1,7 @@
-Power Apps portals are external facing applications that potentially represent a corporation's brand and reputation. It is important for an administrator to maintain and troubleshoot the Power Apps portal as efficiently as possible.
+Power Apps portals are external-facing applications that potentially represent a corporation's brand and reputation. Therefore, it's important for an administrator to maintain and troubleshoot the Power Apps portals as efficiently as possible.
 
-Let's have a quick look at what we have covered in this module:
+This module explained the following concepts:
 
-* We learned various troubleshooting tools and methods in the event there is an issue with a portal.
-* We reviewed the steps to put a portal in maintenance mode and update portal solutions.
-* We examined the portal checker and how it can identify potential issues.
+- Various troubleshooting tools and methods in the event that an issue occurs with a portal.
+- The steps to put a portal in maintenance mode and update portal solutions.
+- The Portal Checker tool and how it can identify potential issues.
