@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.winautomation-execution-essentials.5-logging-auditing 
-title: Logging and auditing
+uid: learn-bizapps.run-winautomation-processes.7-summary 
+title: Summary
 metadata: 
-  title: Logging and auditing
-  description: Logging and auditing
+  title: Summary
+  description: Summary
   ms.date: 29/07/2020 
   author: rokontol 
   ms.author: rokontol 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 5 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/5-logging-auditing.md)] 
+ [!include[](includes/7-summary.md)] 

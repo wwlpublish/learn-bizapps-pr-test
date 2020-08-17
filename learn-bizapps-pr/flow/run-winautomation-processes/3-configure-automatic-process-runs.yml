@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.run-winautomation-processes.3-configure-automatic-process-runs 
+title: Configure automatic process runs
+metadata: 
+  title: Configure automatic process runs
+  description: Configure automatic process runs
+  ms.date: 29/07/2020 
+  author: rokontol 
+  ms.author: rokontol 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-configure-automatic-process-runs.md)] 

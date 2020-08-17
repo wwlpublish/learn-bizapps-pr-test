@@ -1,17 +1,17 @@
 ### YamlMime:Module 
-uid: learn-bizapps.winautomation-execution-essentials 
+uid: learn-bizapps.run-winautomation-processes 
 metadata: 
- title: WinAutomation execution essentials
- description: This module covers the basic execution options available in WinAutomation.
+ title: Run WinAutomation processes
+ description: This module covers the basic options available in WinAutomation for running processes.
  ms.date: 29/07/2020  
  author: rokontol  
  ms.author: rokontol  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: WinAutomation execution essentials
+title: Run WinAutomation processes
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  All the available process execution options, including manual and automatic execution, will be covered in this topic.
+  Learn about the different options for running a WinAutomation process.
 abstract: |  
     In this module, you will: 
     - Start a Process manually through the Console
@@ -34,12 +34,12 @@ products:
 - power-platform
 - power-automate
 units: 
-- learn-bizapps.winautomation-execution-essentials.1-introduction 
-- learn-bizapps.winautomation-execution-essentials.2-executing-process-console 
-- learn-bizapps.winautomation-execution-essentials.3-automatic-execution 
-- learn-bizapps.winautomation-execution-essentials.4-other-methods-execution 
-- learn-bizapps.winautomation-execution-essentials.5-logging-auditing 
-- learn-bizapps.winautomation-execution-essentials.6-check-your-knowledge 
-- learn-bizapps.winautomation-execution-essentials.7-summary 
+- learn-bizapps.run-winautomation-processes.1-introduction 
+- learn-bizapps.run-winautomation-processes.2-run-process-console 
+- learn-bizapps.run-winautomation-processes.3-configure-automatic-process-runs
+- learn-bizapps.run-winautomation-processes.4-other-ways-start-processes
+- learn-bizapps.run-winautomation-processes.5-review-process-logs-audits 
+- learn-bizapps.run-winautomation-processes.6-check-your-knowledge 
+- learn-bizapps.run-winautomation-processes.7-summary 
 badge: 
   uid: learn-bizapps.winautomation-execution-essentials.badge 
