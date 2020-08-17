@@ -13,31 +13,31 @@ durationInMinutes: 2
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: When a customer initiates a bot conversation, they are automatically asked to provide the nature of their inquire. They can select from support, billing, or question. You have been asked to configure the bot to automatically escalate the conversation to a live agent automatically when someone indicates the nature of the inquiry is billing. What conversation node is used to facilitate this?
+  - content: When a customer initiates a bot conversation, they are automatically asked to provide the nature of their inquiry. They can select from Support, Billing, or Question. You have been asked to configure the bot to automatically escalate the conversation to a live agent when someone indicates that the nature of the inquiry is Billing. What conversation node can you use to facilitate this request?
     choices: 
     - content: Call an action
       isCorrect: false 
-      explanation: The end the conversation node is used to end the customer's communication with the bot. It contains two options, End with survey, or Transfer to agent. In the example above, you would select End the conversation and then Transfer to agent. Source is Transferring conversations to agents
+      explanation: The End the conversation node is used to end the customer's communication with the bot. It contains two options, End with survey or Transfer to agent. For this scenario, you would select End the conversation and then Transfer to agent.
     - content: End the conversation
       isCorrect: true 
-      explanation: The end the conversation node is used to end the customer's communication with the bot. It contains two options, End with survey, or Transfer to agent. In the example above, you would select End the conversation and then Transfer to agent. Source is Transferring conversations to agents
+      explanation: The End the conversation node is used to end the customer's communication with the bot. It contains two options, End with survey or Transfer to agent. For this scenario, you would select End the conversation and then Transfer to agent.
     - content: Show a message
       isCorrect: false 
-      explanation: The end the conversation node is used to end the customer's communication with the bot. It contains two options, End with survey, or Transfer to agent. In the example above, you would select End the conversation and then Transfer to agent. Source is Transferring conversations to agents
+      explanation: The End the conversation node is used to end the customer's communication with the bot. It contains two options, End with survey or Transfer to agent. For this scenario, you would select End the conversation and then Transfer to agent.
     - content: Go to another topic
       isCorrect: false 
-      explanation: The end the conversation node is used to end the customer's communication the bot. It contains two options, End with survey, or Transfer to agent. In the example above, you would select End the conversation and then Transfer to agent. Source is Transferring conversations to agents
-  - content: You are using the call an action conversation node to initiate a Power Automate Flow. What do you call the values that provided by back to Power Virtual Agents from the Power Automate flow?
+      explanation: The End the conversation node is used to end the customer's communication with the bot. It contains two options, End with survey or Transfer to agent. For this scenario, you would select End the conversation and then Transfer to agent.
+  - content: You are using the Call an action conversation node to initiate a Power Automate flow. What do you call the values that are provided back to Power Virtual Agents from Power Automate flow?
     choices: 
     - content: Inputs
       isCorrect: false 
-      explanation: When executing Power Automate flows from a Power Virtual Agent bot input and output parameters are used to pass information back and forth. Input parameters are used to define what information the Power Automate flow will capture from the bot. Output parameters contain the values that Power Automate sends back to the bot. Source is Adding actions using Power Automate
+      explanation: When you are running Power Automate flows from a Power Virtual Agents bot, input and output parameters are used to pass information back and forth. Input parameters are used to define what information that the Power Automate flow will capture from the bot. Output parameters contain the values that Power Automate sends back to the bot.
     - content: Entities
       isCorrect: false 
-      explanation: When executing Power Automate flows from a Power Virtual Agent bot input and output parameters are used to pass information back and forth. Input parameters are used to define what information the Power Automate flow will capture from the bot. Output parameters contain the values that Power Automate sends back to the bot. Source is Adding actions using Power Automate
+      explanation: When you are running Power Automate flows from a Power Virtual Agents bot, input and output parameters are used to pass information back and forth. Input parameters are used to define what information that the Power Automate flow will capture from the bot. Output parameters contain the values that Power Automate sends back to the bot.
     - content: Outputs
       isCorrect: true 
-      explanation: When executing Power Automate flows from a Power Virtual Agent bot input and output parameters are used to pass information back and forth. Input parameters are used to define what information the Power Automate flow will capture from the bot. Output parameters contain the values that Power Automate sends back to the bot. Source is Adding actions using Power Automate
+      explanation: When you are running Power Automate flows from a Power Virtual Agents bot, input and output parameters are used to pass information back and forth. Input parameters are used to define what information that the Power Automate flow will capture from the bot. Output parameters contain the values that Power Automate sends back to the bot.
     - content: Topics
       isCorrect: false 
-      explanation: When executing Power Automate flows from a Power Virtual Agent bot input and output parameters are used to pass information back and forth. Input parameters are used to define what information the Power Automate flow will capture from the bot. Output parameters contain the values that Power Automate sends back to the bot. Source is Adding actions using Power Automate
+      explanation: When you are running Power Automate flows from a Power Virtual Agents bot, input and output parameters are used to pass information back and forth. Input parameters are used to define what information that the Power Automate flow will capture from the bot. Output parameters contain the values that Power Automate sends back to the bot.
