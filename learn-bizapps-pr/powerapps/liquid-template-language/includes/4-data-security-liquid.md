@@ -1,8 +1,8 @@
-Liquid extensions in Power Apps portals give portal makers access to the Common Data Service. Entity permissions govern all data accessed by Liquid objects and tags and it's not possible to switch it off. It also makes the output truly dynamic as it may vary with the current portal user, their Web Roles, and associated Entity Permissions records.
+Liquid extensions in Power Apps portals give portal makers access to Common Data Service. Entity permissions govern all data that is accessed by Liquid objects and tags, and it's not possible to switch off this feature. It also makes the output dynamic because it varies with the current portal user, their web roles, and associated entity permission records.
 
-To improve rendering performance and alter the template in response to the current user's privileges, developers can assert particular access rights before executing the data retrieval. For example, instead of trying to access contact records, check whether the user has read privileges for the contact entity and handle the response appropriately without retrieving the data.
+To improve rendering performance and alter the template in response to the current user's privileges, developers can assert particular access rights before implementing data retrieval. For example, instead of trying to access contact records, developers would check whether the user has Read privileges for the contact entity and would then handle the response appropriately without retrieving the data.
 
-Consider this Liquid fragment:
+Consider the following Liquid fragment:
 
 ```twig
 {% if user %}
@@ -17,13 +17,13 @@ Consider this Liquid fragment:
 {% endif %}
 ```
 
-In this example, the code does the following:
+In this example, the code:
 
-1. Displays data only if the user is signed in.
-1. Retrieves the parent account record.
-1. Checks that the account exists and the user has permissions to read that record. The **Permissions** property of the **entity** object returns the [Entity Permissions](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-objects#entity-permissions/?azure-portal=true) object that can be used to verify specific privileges.
-1. Displays name of the account if available, otherwise displays the "Unknown company" message.
+- Displays data only if the user is signed in.
+- Retrieves the parent account record.
+- Checks that the account exists and that the user has permissions to read that record. The **Permissions** property of the **entity** object returns the [Entity Permissions](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-objects#entity-permissions/?azure-portal=true) object that can be used to verify specific privileges.
+- Displays the name of the account, if available; otherwise, it displays the "Unknown company" message.
 
-You can test the code inside the Portal Studio and then by browsing to the site. Check the different values rendered by the code because of the maker privileges within the Studio.
+You can test the code inside portals Studio and then browse to the site. Check the different values that are rendered by the code because of the maker privileges within portals Studio.
 
-You can find additional information on working with Liquid in Power Apps portals, code samples, a full list of available objects, tags, supported data types, and conditional operators here: [Work with Liquid templates](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview/?azure-portal=true).
+For more information, see [Work with Liquid templates](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview/?azure-portal=true).
