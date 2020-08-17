@@ -3,7 +3,7 @@ uid: learn-bizapps.manage-power-virtual-agent-topics
 metadata: 
  title: Manage topics in Power Virtual Agents
  description: Microsoft Power Virtual Agents uses trigger phrases in bots to identify when to present a topic to a customer. This module will examine how you can use topics to create and manage conversation paths in a bot.
- ms.date: 07/31/2020  
+ ms.date: 08/17/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  

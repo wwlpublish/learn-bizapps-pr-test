@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.manage-power-virtual-agent-topics.5-variables 
-title: Variables
+uid: learn-bizapps.manage-power-virtual-agent-topics.7-manage-topics 
+title: Manage topics
 metadata: 
-  title: Variables
-  description: Learn about variables.
-  ms.date: 07/31/2020 
+  title: Manage topics
+  description: Learn how to manage topics.
+  ms.date: 08/17/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 4
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/5-variables.md)] 
+ [!include[](includes/7-manage-topics.md)] 
