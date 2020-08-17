@@ -2,7 +2,7 @@
 uid: learn-bizapps.build-user-experience-portals 
 metadata: 
  title: Build user experience in Power Apps portals
- description: This module focuses on what a portal maker should consider when designing and building portals. Getting started with the implementation of a portal solution requires a good understanding of the specific business requirements and the needs not only of the customer but of the customer's customers. A successful portal will be well designed and easy to navigate. It's also critical to provide portal functionality to those with accessibility needs and to provide portal features to different geographies and languages. Like any good development project, portal metadata needs to be backed up to source control and also deployed to test and production environments in a consistent managed way.
+ description: A portal maker should consider specific details when designing and building portals. Implementing a portal solution requires knowledge of the specific business requirements and needs of the customer. Along with being simplistic and well-designed, a successful portal should provide functionality in consideration of geographical location, language, and accessibility needs. Additionally, portal makers should ensure that portal metadata is backed up to source control and deployed to test and production environments in a consistent and structured way.
  ms.date: 07/08/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,14 +11,17 @@ metadata:
 title: Build user experience in Power Apps portals
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module focuses on what a portal maker should consider when designing and building portals. Getting started with the implementation of a portal solution requires a good understanding of the specific business requirements and the needs not only of the customer but of the customer's customers. A successful portal will be well designed and easy to navigate. It is also critical to provide portal functionality to those with accessibility needs and to provide portal features to different geographies and languages. Like any good development project, portal metadata needs to be backed up to source control and also deployed to test and production environments in a consistent managed way.
+  A portal maker should consider specific details when designing and building portals. Implementing a portal solution requires knowledge of the specific business requirements and needs of the customer. Along with being simplistic and well-designed, a successful portal should provide functionality in consideration of geographical location, language, and accessibility needs. Additionally, portal makers should ensure that portal metadata is backed up to source control and deployed to test and production environments in a consistent and structured way.
 abstract: |  
     In this module, you will: 
-    - Recognize business requirements that you can meet with portal functionality and those that require deeper development or consideration of other technology, for example, Forms Pro, Canvas Apps, etc.
-    - Understand how to design a portal, including page placement, site map best practices, and content planning
-    - Identify how to ensure that portals are accessible
-    - Understand how to configure and manage a multi-lingual portal
-prerequisites: Target audience should have basic understanding and usage and navigation of a Power Apps portal. A background in design and user experience and familiarity with accessibility standards such as WCAG will also be beneficial.  Familiarity with ALM and DevOps practices would be beneficial.
+    - Recognize business requirements that you can meet with portal functionality and those that require deeper development or consideration of other technology.
+    - Learn how to design a portal, including page placement, site map best practices, and content planning.
+    - Identify how to ensure that portals are accessible.
+    - Learn how to configure and manage a multilingual portal.
+prerequisites: |
+    - Basic understanding, usage, and navigation of a Microsoft Power Apps portal. 
+    - Background in design and user experience and familiarity with accessibility standards such as Web Content Accessibility Guidelines (WCAG) will also be beneficial. 
+    - Familiarity with application lifecycle management (ALM) and Azure DevOps practices would be beneficial.
 iconUrl: /learn/achievements/build-user-experience-portals.svg  
 levels:  
 - intermediate   
