@@ -43,10 +43,10 @@ In this exercise, you will develop an attended Process, which receives real-time
 
 10. Finally, write the discount amount into Excel:
  
-   ![write to excel worksheet properties exercise](..\media\write-to-excel-worksheet-properties-exercise.png)
+    ![write to excel worksheet properties exercise](..\media\write-to-excel-worksheet-properties-exercise.png)
 
 11. Run the Process:
  
-   ![final exercise workspace](..\media\final-exercise-workspace.png)
+    ![final exercise workspace](..\media\final-exercise-workspace.png)
 
 The Notification Window provides information on the current row being processed while the loop is running, and the user interacts with the Process seamlessly throughout the entire task. 
