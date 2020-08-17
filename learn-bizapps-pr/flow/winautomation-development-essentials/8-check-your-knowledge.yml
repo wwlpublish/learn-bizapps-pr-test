@@ -1,0 +1,28 @@
+uid: learn-bizapps.test.wet 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 17/08/2020 
+ author: test 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: rokontol
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "In process development, Variables are:"
+    choices: 
+    - content: "Containers used to store and retrieve data"
+      isCorrect: true 
+      explanation: "That is correct! Variables are used by Actions to store or retrieve data."
+    - content: "Different possible situations that the process might have to face"
+      isCorrect: false 
+      explanation: "That is false; Variables are used by Actions to store or retrieve data."
+    - content: "Actions that may or may not run, depending on the data the process encounters"
+      isCorrect: false 
+      explanation: "That is false; Variables are used by Actions to store or retrieve data."
+    - content: "None of the above"
+      isCorrect: false 
+      explanation: "That is false; Variables are used by Actions to store or retrieve data."
