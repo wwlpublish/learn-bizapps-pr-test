@@ -48,7 +48,7 @@ The preceding logic will generate the following result:
 
 ### Raw tag
 
-The `raw` tag allows the output of Liquid code on a page without having it parsed and run. This tag is useful for generating content that uses conflicting client-side syntax, such as Handlebars.
+The `raw` tag allows the output of Liquid code on a page without having it parsed and implemented. This tag is useful for generating content that uses conflicting client-side syntax, such as Handlebars.
 
 ```xml
 Hello, {% raw %}{{ user.fullname }}.{% endraw %} Nice to meet you.
@@ -125,7 +125,7 @@ The following steps will help you improve template structure and make the web te
 
 - Move larger, reusable blocks of JavaScript to separate files and insert them as a reference instead. The client's browser will load them separately and they can be cached. In addition, externally loaded scripts can be minified, which will result in better performance. 
 
-- Find parts of the page that need to be translated for multilingual implementation. These pages need to be defined as either page content or content snippets.
+- Find parts of the page that need to be translated for multilingual implementation. Define these pages as either page content or content snippets.
 
 - Identify editable fragments. Determine which parts of the webpage where you want users to be responsible for content management and maintenance.
 
