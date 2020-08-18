@@ -1,5 +1,5 @@
-In this module, you learned: 
+In this module, you learned how to: 
 
-- How using AI Builder in Power Automate can save you time.
-- How to create a Power Automate flow using an AI Builder action. 
-- How to start with advanced AI Builder flows in Power Automate. 
+- Use AI Builder in Power Automate to help you save time.
+- Create a Power Automate flow by using an AI Builder action. 
+- Start with advanced AI Builder flows in Power Automate. 
