@@ -79,7 +79,7 @@ The **Set up SharePoint integration** section provides you with the ability to a
 
 The **Set up Power BI integration** section allows administrators to enable the Power BI visualization and Power BI Embedded service on portal pages.
 
-## Portal checker
+## Portal Checker
 
 Portal Checker is a self-service diagnostic tool that can be used by portal administrators to identify common issues in their portals. Portal Checker helps to identify issues with a portal by looking at various configuration parameters and providing suggestions on how to fix them.
 
