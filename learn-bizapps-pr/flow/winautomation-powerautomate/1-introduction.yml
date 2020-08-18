@@ -3,8 +3,8 @@ uid: learn-bizapps.winautomation-powerautomate.1-introduction
 title: Introduction to running WinAutomation from Power Automate
 metadata: 
   title: Introduction to running WinAutomation from Power Automate
-  description: Introduction to passing arguments to WinAutomation suing the command line from Power Automate.
-  ms.date: 10/08/2020 
+  description: Introduction to passing arguments to WinAutomation using the command line from Power Automate.
+  ms.date: 08/20/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
   ms.topic: interactive-tutorial 
