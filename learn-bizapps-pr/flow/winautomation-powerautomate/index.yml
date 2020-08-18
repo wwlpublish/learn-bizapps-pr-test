@@ -21,7 +21,7 @@ prerequisites: |
     - Either a paid or trial Power Automate plan.
     - A work or school account to sign into your Windows device with administrator privileges and Power Automate.
     - A device that runs Windows 10 Pro, Windows Server 2016, or Windows Server 2019.
-    - Microsoft Edge (version 80 or later) or other support browser.
+    - Microsoft Edge (version 80 or later) or other supported browser.
     - An environment with a Common Data Service database. 
 iconUrl: /learn/achievements/winautomation-powerautomate.svg  
 levels:  
