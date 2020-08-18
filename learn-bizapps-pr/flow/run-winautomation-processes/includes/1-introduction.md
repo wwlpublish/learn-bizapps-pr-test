@@ -1,4 +1,4 @@
-WinAutomation is an Robotic Process Automation solution that is capable of automating rules-based tasks, allowing users to work on more productive and value-adding tasks.
+WinAutomation is a Robotic Process Automation solution that is capable of automating rules-based tasks, allowing users to work on more productive and value-adding tasks.
 
 Automated processes, once developed, need to be made available for use in a way that is flexible and meets the needs of both the employees and the enterprise. Making sure that processes are run in a timely and orderly fashion is critical to maximizing efficiency.
 
