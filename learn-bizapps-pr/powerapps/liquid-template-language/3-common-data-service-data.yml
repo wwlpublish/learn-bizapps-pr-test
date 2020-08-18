@@ -3,7 +3,7 @@ uid: learn-bizapps.liquid-template-language.3-common-data-service-data
 title: Access Common Data Service data
 metadata: 
   title: Access Common Data Service data
-  description: Learn to add dynamic content using Liquid and Common Data Service
+  description: Learn how to add dynamic content by using Liquid and Common Data Service data.
   ms.date: 07/15/2020 
   author: DaveBeasley 
   ms.author: dbeasley 

@@ -17,55 +17,55 @@ quiz:
     choices: 
     - content: Solid
       isCorrect: false 
-      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+      explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
     - content: Liquid
       isCorrect: true 
-      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+      explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
     - content: HTML
       isCorrect: false 
-      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
+      explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
     - content: JavaScript
       isCorrect: false 
-      explanation: Liquid is an open-source template language integrated into portals. It can be used by template developers to add dynamic content to pages, and to create a wide variety of custom templates.
-  - content: What do you need to do to apply Entity Permissions when accessing Common Data Service data in Liquid templates?
+      explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
+  - content: What do you need to do to apply entity permissions when accessing Common Data Service data in Liquid templates?
     choices: 
-    - content: Use `secure` Liquid filter
+    - content: Use the `secure` Liquid filter.
       isCorrect: false
-      explanation: All data access performed by Liquid objects and tags is governed by entity permissions and it's not possible to switch it off.
-    - content: Nothing, entity permissions are applied automatically
+      explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off that feature.
+    - content: Nothing, entity permissions are applied automatically.
       isCorrect: true 
-      explanation: All data access performed by Liquid objects and tags is governed by entity permissions and it's not possible to switch it off.
-    - content: Select Enable Entity Permissions on Web Template containing Liquid code
+      explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off that feature.
+    - content: Select the Enable Entity Permissions option on the Web Template entity that contains Liquid code.
       isCorrect: false 
-      explanation: All data access performed by Liquid objects and tags is governed by entity permissions and it's not possible to switch it off.
-    - content: Place Liquid code on a secured Web Page
+      explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off that feature.
+    - content: Place Liquid code on a secured webpage.
       isCorrect: false 
-      explanation: All data access performed by Liquid objects and tags is governed by entity permissions and it's not possible to switch it off.
-  - content: Where is Liquid code NOT processed?
+      explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off that feature.
+  - content: Where is Liquid code not processed?
     choices: 
     - content: Page content
       isCorrect: false 
-      explanation: Liquid code can be used anywhere in the portals where HTML or text content can be entered. That includes web templates, web pages, and content snippets. Web roles do not contain any content that is rendered by the portals.
+      explanation: Liquid code can be used anywhere in the portals where HTML or text content can be entered, including web templates, webpages, and content snippets. Web roles do not contain content that is rendered by the portals.
     - content: Content snippets
       isCorrect: false 
-      explanation: Liquid code can be used anywhere in the portals where HTML or text content can be entered. That includes web templates, web pages, and content snippets. Web roles do not contain any content that is rendered by the portals.
+      explanation: Liquid code can be used anywhere in the portals where HTML or text content can be entered, including web templates, webpages, and content snippets. Web roles do not contain content that is rendered by the portals.
     - content: Web templates
       isCorrect: false 
-      explanation: Liquid code can be used anywhere in the portals where HTML or text content can be entered. That includes web templates, web pages, and content snippets. Web roles do not contain any content that is rendered by the portals.
+      explanation: Liquid code can be used anywhere in the portals where HTML or text content can be entered, including web templates, webpages, and content snippets. Web roles do not contain content that is rendered by the portals.
     - content: Web roles
       isCorrect: true 
-      explanation: Liquid code can be used anywhere in the portals where HTML or text content can be entered. That includes web templates, web pages, and content snippets. Web roles do not contain any content that is rendered by the portals.
+      explanation: Liquid code can be used anywhere in the portals where HTML or text content can be entered, including web templates, webpages, and content snippets. Web roles do not contain content that is rendered by the portals.
   - content: What would be the output of the following Liquid fragment if the user is signed in? `{{ user.fullname }}`
     choices: 
     - content: Full name of the signed in portal user
       isCorrect: true 
-      explanation: An output statement is a set of double curly braces containing an expression. When the output is rendered, it gets replaced with the value of that expression. Object `user` contains information about the currently signed in contact.
+      explanation: An output statement is a set of double curly braces that contains an expression. When the output is rendered, it is replaced with the value of that expression. Object `user` contains information about the contact that is currently signed in.
     - content: Empty string
       isCorrect: false 
-      explanation: An output statement is a set of double curly braces containing an expression. When the output is rendered, it gets replaced with the value of that expression. Object `user` contains information about the currently signed in contact.
+      explanation: An output statement is a set of double curly braces that contains an expression. When the output is rendered, it is replaced with the value of that expression. Object `user` contains information about the contact that is currently signed in.
     - content: System Administrator
       isCorrect: false 
-      explanation: An output statement is a set of double curly braces containing an expression. When the output is rendered, it gets replaced with the value of that expression. Object `user` contains information about the currently signed in contact.
+      explanation: An output statement is a set of double curly braces that contains an expression. When the output is rendered, it is replaced with the value of that expression. Object `user` contains information about the contact that is currently signed in.
     - content: This code will generate an error
       isCorrect: false 
-      explanation: An output statement is a set of double curly braces containing an expression. When the output is rendered, it gets replaced with the value of that expression. Object `user` contains information about the currently signed in contact.
+      explanation: An output statement is a set of double curly braces that contains an expression. When the output is rendered, it is replaced with the value of that expression. Object `user` contains information about the contact that is currently signed in.
