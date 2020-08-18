@@ -1,12 +1,12 @@
-Through the **Options** tab, you can configure the fourth level of the WinAuotmation error handling functionality. This level is global across processes, and the defined behavior will be followed if you have not overridden the behavior of a process at a lower level.
+In the Options tab, you can configure global WinAuotmation error handling settings. Global error handling works for any process that you have not defined error handling for at a lower level. 
 
 To determine which actions will be performed if a process fails to run successfully:
 
-1.	Navigate to the **Behavior** tab inside the **Error Handling** tab.
+1.	Navigate to the **Error Handling** tab, and then **Behavior**.
 
     ![The Behaviour tab.](..\media\behaviour-tab-error-handling-options.png)
 
-1.	Enable the respective action(s) you want to be run when an error occurs. WinAutomation provides five different options:
+1.	Enable the respective actions you want to be run when an error occurs in any process that fails. WinAutomation provides five different options:
     
     1.  Send an email to one or multiple recipients. You can set the details about the SMTP server in the **Email/SMTP** tab.
 
@@ -24,27 +24,27 @@ To determine which actions will be performed if a process fails to run successfu
 
         ![A checkbox to enable recording to the Windows Event Log.](..\media\windows-event-log-error-handling.png)
 
-    1.  Add a screenshot of the monitor(s) when an exception occurs in the WinAutomation logs. More information about logging in WinAutomation can be found in the respective [documentation page](https://docs.winautomation.com/en/logs.html). 
+    1.  Add a screenshot of the monitors when an exception occurs in the WinAutomation logs. More information about logging in WinAutomation can be found in the [WinAutomation log documentation](https://docs.winautomation.com/logs.html). 
 
         ![A checkbox to enable screenshots in the WinAutomation logs.](..\media\screenshots-error-handling.png)
 
 ## SMTP server configuration
 
-If you enable the **Send Email** option in the **Behavior** tab, you have to configure the SMTP server information. To do that:
+If you enable the Send Email option, you must configure the SMTP server.
 
-1.	Navigate to the **Email/SMTP** tab inside the **Error Handling** tab.
+1.	Navigate to the **Error Handling** tab, and then **Email/SMTP**.
 
     ![The Email/SMTP tab.](..\media\email-smtp-tab-error-handling-options.png)
 
-1.	Populate the **Address** and the **Port** of the SMTP server. If the server uses SSL, enable the respective option.
+1.	Populate the **Address** and the **Port** of the SMTP server. If the server uses SSL, enable the that option.
 
     ![Two fields to populate the Address and Port of the server.](..\media\address-port-email-smtp-tab.png)
 
-1.	In case the server needs authentication, enable the **SMTP Server needs Authentication** checkbox, and populate the **Username** and **Password** fields. 
+1.	IF the server requires authentication, enable the **SMTP Server needs Authentication** checkbox, and populate the **Username** and **Password** fields. 
 
     ![A chechbox that specified if The SMTP server needs authentication, and the Username and Passwords fields.](..\media\authentication-email-smtp-tab.png)
 
-1.	Lastly, select if you want WinAutomation to accept untrusted certificates.
+1.	Lastly, select whether you want WinAutomation to accept untrusted certificates.
 
-[!ΝΟΤΕ]
-In case you have enabled 2FA (Two-Factor Authentication) in your email account, you have to populate the **Password** field with an application password. More information can be found in the respective [WinAutomation documentation page](https://docs.winautomation.com/en/email-interaction-with-two-step-verification.html#email-interaction-with-two-step-verification). 
+> [!ΝΟΤΕ]
+> In case you have enabled multifactor authentication in your email account, you must populate the Password field with an application password. More information can be found in the  [WinAutomation multifactor authentication documentation](https://docs.winautomation.com/email-interaction-with-two-step-verification.html#email-interaction-with-two-step-verification). 

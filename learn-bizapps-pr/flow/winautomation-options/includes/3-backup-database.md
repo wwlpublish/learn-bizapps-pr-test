@@ -1,12 +1,12 @@
-All WinAutomation processes are stored collectively in one database file named **Processes.dat**. The platform uses this file to save new processes or restore existing ones. 
+All WinAutomation processes are stored collectively in one database file called *processes.dat*. The platform uses this file to save new processes or restore existing ones. 
 
-To create a backup file of this database:
+To back up this database:
 
-1.	Navigate to the **Processes File** tab inside the **Settings** tab.
+1.	Navigate to **Settings** and then select **Processes File**.
 
     ![The Processes File tab.](..\media\processes-file-tab-settings-options.png)
 
-1.	Click on the **Backup Database** button.
+1.	Select **Backup Database**.
 
     ![A button to backup the database file.](..\media\backup-button-processes-file-tab.png)
 
@@ -18,17 +18,17 @@ Alternatively, you can create a backup of the database by manually copying the f
 
 ![The database file selected in the Windows File Explorer.](..\media\backup-file-explorer.png)
 
-The first field of the **Processes File** tab determines the location of the database file. The default location is: **C:\Users\\\<username\>\Documents\WinAutomation\Processes.dat**
+The first field of the Processes File tab determines the location of the database file. The default location is: **C:\Users\\\<username\>\Documents\WinAutomation\Processes.dat**
 
 ![The location of database file.](..\media\processes-file-location-processes-file-tab.png)
 
 To restore a database file:
 
-1.	Navigate to the **Processes File** tab inside the **Settings** tab.
+1.	Navigate to **Settings** and then **Processes File**.
 
     ![The Processes File tab.](..\media\processes-file-tab-settings-options.png)
 
-1.	Click on the **Restore Database** button.
+1.	Select **Restore Database**.
 
     ![A button to restore a database file.](..\media\restore-button-processes-file-tab.png)
 
@@ -36,7 +36,7 @@ To restore a database file:
 
     ![A popup window to select a database file to be restored.](..\media\restore-select-database-file.png)
 
-Besides the **Restore Database** option, you can restore a database by replacing the current file in the respective folder.
+You can also restore a database by replacing the current file in the appropriate folder.
 
-> [!ΝΟΤΕ]
-> Please keep in mind that restoring a database file will delete all the processes in your current database and replace them with the ones from the backup copy. 
+> [!WARNING]
+> Restoring a database file will delete all of the existing processes in your current database and replace them with the ones from the backup copy. 

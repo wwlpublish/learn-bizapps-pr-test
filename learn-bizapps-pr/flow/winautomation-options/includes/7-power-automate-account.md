@@ -1,14 +1,14 @@
-In case you want to sign out from your current Microsoft Power Automate account and connect with a new one, you can do it through the **Account** tab
+In case you need to sign out from your current Microsoft Power Automate account and connect with a new one, you can do it through the **Account** tab
 
 1.	Navigate to the **Account** tab.
 
     ![The Account tab.](..\media\account-tab-options.png)
 
-1.	Click on the **Sing out** button.
+1.	Select **Sign out**.
 
     ![A button to sing out of the current account.](..\media\sign-out-account-tab-options.png)
 
-1.	Select the **Use another account** option in the pop-up window. 
+1.	Select **Use another account**. 
 
     ![A pop-up window with an option to use another account.](..\media\use-another-account-account-tab-options.png)
 

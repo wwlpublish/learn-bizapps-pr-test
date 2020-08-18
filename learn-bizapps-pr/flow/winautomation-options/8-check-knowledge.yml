@@ -13,17 +13,6 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions:
-    - content: "Which of the following tabs does NOT exist in the Options tab?"
-      choices:
-      - content: "Logs"
-        isCorrect: true
-        explanation: "Well done! The Logs tab is located in the Console main window and not in the Options tab."
-      - content: "Error Handling"
-        isCorrect: false
-        explanation: "Your answer is incorrect. The Error Handling tab is the second option inside the Options τab."
-      - content: "Account"
-        isCorrect: false
-        explanation: "Your answer is incorrect. The Account tab is the third option inside the Options tab."
     - content: "The Handling tab in Options tab is the only error handling level in WinAutomation."
       choices:
       - content: "True"

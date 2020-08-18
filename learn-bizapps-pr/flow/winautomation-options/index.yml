@@ -2,7 +2,7 @@
 uid: learn-bizapps.winautomation-options
 metadata: 
  title: Configure WinAutomation οptions
- description: In this module, we'll discuss how to configure WinAutomation οptions.
+ description: Learn about the global options that will help you keep your WinAutomation system running the way you want.
  ms.date: 08/07/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
@@ -11,15 +11,15 @@ metadata:
 title: Configure WinAutomation οptions
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  WinAutomation provides an extensive selection of options that enables you to configure the way the platform operates. All the platform's essential settings are located in the Options tab.
+  Learn about the global options that will help you keep your WinAutomation system running the way you want.
 abstract: |  
     In this module, you will: 
     - Understand the various configurations and options of WinAutomation.
-    -	Configure notification settings
+    -	Configure notification settings.
     -	Take backup of the database file and restore it. 
     -	Create a concurrency policy. 
-    -	Become familiar with the fourth level of exception handling.
-    -	Sign out and connect with a new Microsoft Power Automate account. 
+    -	Become familiar with global exception handling.
+    -	Sign out and connect with a Microsoft Power Automate account. 
 prerequisites: |
     -	Basic familiarity with the WinAutomation Console.
     -	Basic familiarity with WinAutomation architecture.

@@ -4,7 +4,7 @@ By implementing a concurrency policy, you can ensure that low-performance machin
 
 To create a global concurrency policy:
 
-1.	Navigate to the **Concurrency Policy** tab inside the **Settings** tab.
+1.	Navigate to **Settings** and then select **Concurrency Policy**.
 
     ![The Concurrency Policy tab.](..\media\concurrency-policy-tab-settings-options.png)
 
@@ -12,11 +12,11 @@ To create a global concurrency policy:
 
     ![A check box that limits the number of processes running concurrently.](..\media\limit-processes-concurrency-policy-tab.png)
 
-1.	Set the max number of simultaneously running processes in the **Max processes limit** field. 
+1.	Set the maximum number of simultaneously running processes in the **Max processes limit** field. 
 
     ![A field that sets the max number of processes that can run concurrently.](..\media\max-processes-concurrency-policy-tab.png)
 
-1.	In the **If this limit is reached** dropdown menu, select the desired action to be performed when the limit is reached. You can choose between adding processes in a waiting queue or cancelling them.
+1.	In the **If this limit is reached** menu, select the desired action to be performed when the limit is reached. You can choose between adding processes in a waiting queue or cancelling them.
 
     ![A dropdown menu that sets what happens when the limit is reached.](..\media\if-limit-is-reached-concurrency-policy-tab.png)
 

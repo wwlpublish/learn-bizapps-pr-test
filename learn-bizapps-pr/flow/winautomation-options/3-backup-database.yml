@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.winautomation-options.3-backup-database 
-title: Backup and restore the database file
+title: Back up and restore the database file
 metadata: 
-  title: Backup and restore the database file
-  description: Backup and restore the database file
+  title: Back up and restore the database file
+  description: Larn how to back up and restore the database file.
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
