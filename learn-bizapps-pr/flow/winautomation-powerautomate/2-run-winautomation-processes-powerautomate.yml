@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.winautomation-powerautomate.2-run-winautomation-processes-powerautomate 
-title: Running WinAutomation Processes from Power Automate
+title: Run a WinAutomation process from Power Automate
 metadata: 
-  title: Running WinAutomation Processes from Power Automate
-  description: A guide to running WinAutomation Processes from Power Automate.
-  ms.date: 10/08/2020 
+  title: Run a WinAutomation process from Power Automate
+  description: Learn how to run a WinAutomation process from Power Automate.
+  ms.date: 08/17/2020
   author: olegmelnykov 
   ms.author: olmelnyk 
   ms.topic: interactive-tutorial 
