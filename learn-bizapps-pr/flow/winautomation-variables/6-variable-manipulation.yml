@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.winautomation-variables.6-variable-manipulation 
-title: Variable manipulation
+title: Manipulate variables in WinAutomation
 metadata: 
-  title: Variable manipulation
-  description: Variable manipulation
+  title: Manipulate variables in WinAutomation
+  description: Manipulate variables in WinAutomation.
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

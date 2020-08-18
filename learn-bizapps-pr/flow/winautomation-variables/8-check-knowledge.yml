@@ -21,26 +21,26 @@ quiz:
     - content: "False"
       isCorrect: false 
       explanation: "Your answer is incorrect. Every action creates output variables automatically when it is deployed."
-  - content: "Which type of variables does NOT exist in WinAutomation?"
+  - content: "Which type of variables exist in WinAutomation?"
     choices: 
-    - content: "Text"
+    - content: "Text, data table, and all Microsoft Office products"
       isCorrect: false 
-      explanation: "Your answer is incorrect. WinAutomation supports text variables."
-    - content: "Data Table"
+      explanation: "Your answer is incorrect. WinAutomation supports text, data table, and Excel variables."
+    - content: "Text and data tables only"
       isCorrect: false 
       explanation: "Your answer is incorrect. WinAutomation supports data table variables.]"
-    - content: "Excel Instance"
+    - content: "Excel variables only"
       isCorrect: false 
-      explanation: "Your answer is incorrect. WinAutomation supports Excel instance variables.]"
-    - content: "Word Instance"
+      explanation: "Your answer is incorrect. WinAutomation supports text, data table, and Excel variables."
+    - content: "Text, data table, and Excel variables."
       isCorrect: true 
-      explanation: "Well done! WinAutomation does not support Word Instance Variables.]"
+      explanation: "Well done! WinAutomation supports text, data table, and Excel variables.]"
   - content: "A variable is converted to another data type when:"
     choices: 
     - content: "Data of another data type is stored into it."
       isCorrect: true 
       explanation: "Well done! Variables change their data type according to their current content."
-    - content: "The process developer manually changes it through the Variable Pane."
+    - content: "The process developer manually changes it through the variable pane."
       isCorrect: false 
       explanation: "Your answer is incorrect. There is no option to change the data type of a variable through the Variable Pane.]"
     - content: "The data type of a variable cannot be converted."

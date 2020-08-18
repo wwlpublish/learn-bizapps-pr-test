@@ -1,8 +1,8 @@
 Every variable belongs to a specific type, according to its content. WinAutomation recognizes 17 distinct data types. 
 
-Some of them can be used only with explicit actions or group of actions (for example, **FTP connection**), while others are widely used throughout the application (e.g **numbers**). 
+Some of them can be used only with explicit actions or group of actions (for example, FTP connection), while others are widely used throughout the application (e.g., numbers). 
 
-In the following list, there is a brief description of each data type. You can find more information about data types in the [WinAutomation documentation](https://docs.winautomation.com/en/data-types.html). 
+In the following list, there is a brief description of each data type. You can find more information about data types in the [WinAutomation documentation](https://docs.winautomation.com/data-types.html). 
 
 **Simple data types**
 
