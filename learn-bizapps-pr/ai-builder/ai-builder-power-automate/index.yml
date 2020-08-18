@@ -2,7 +2,7 @@
 uid: learn-bizapps.ai-builder-power-automate 
 metadata: 
  title: Use AI Builder in Power Automate 
- description: Learn the basics of AI Builder usage in Power Automate and how it can benefit your organization.  
+ description: Learn the basics of AI Builder usage in Microsoft Power Automate and how it can benefit your organization.  
  ms.date: 07/08/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -16,11 +16,11 @@ abstract: |
     In this module, you will: 
     - Explore how using AI Builder in Power Automate can save you time. 
     - Learn how to use AI Builder actions in Power Automate. 
-    - Discover advanced AI Builder usage in Power Automate 
+    - Discover advanced AI Builder usage in Power Automate. 
 prerequisites: | 
     Before you begin this course, we recommend that you read the Get started with AI Builder module and the "What is AI Builder?" documentation. 
     - Access to Common Data Service
-    - An AI Builder add-on or trial.
+    - An AI Builder add-on or trial
 iconUrl: /learn/achievements/ai-builder-power-automate.svg  
 levels:  
 - intermediate   
