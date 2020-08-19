@@ -53,7 +53,7 @@ For this module, we will create a WinAutomation Process and a Power Automate Flo
  
 14. Select **Run WinAutomation**.
 
-   ![select run WinAutomation Power Automate](..\media\select-run-WinAutomation-PowerAutomate.png)
+    ![select run WinAutomation Power Automate](..\media\select-run-WinAutomation-PowerAutomate.png)
 
 15. Set the process path to **/My Processes/Desktop/Power Automate Exercise**. Use **Add Dynamic Content** to add all three inputs into **Command-Line Arguments**.
 
