@@ -11,7 +11,8 @@ After you have created your automation process in WinAutomation, you can run it 
 
 2.	In the **Run WinAutomation (preview)** card, fill in the **process path** and any optional **command-line arguments** for the WinAutomation process that you want to run.
 
-   ![configure WinAutomation action](..\media\configure-WinAutomation-action.png)
+    ![configure WinAutomation action](..\media\configure-WinAutomation-action.png)
+   
 
 > [!NOTE]  
 > You must create and store WinAutomation processes locally. The process path is a case-sensitive path in the WinAutomation console for the process, from a base directory of My processes in the Folders Pane. If you have put the process in a subfolder, you will need to include that information in the process path. Don’t put quotes around the process path.
@@ -23,7 +24,7 @@ You can use UI flows inputs and Dynamic content in the target WinAutomation proc
  
 In your WinAutomation process, you can use the Get Command-Line Arguments action to retrieve the command-line arguments. The variable %CommandLineArguments% is a List of Text Values. Any value in the list can be referenced with its index. For example If we have a list of three text values [“Alpha”,”Bravo”,”Charlie”], to retrieve the first item in a list, we will reference it like so: %CommandLineArguments[0]%. The second and third items are referenced with the indices [1] and [2], respectively.
 
-   ![Get Command Line Arguments action properties](..\media\Get-Command-Line-Arguments-action-properties.png)
+![Get Command Line Arguments action properties](..\media\Get-Command-Line-Arguments-action-properties.png)
 
 > [!IMPORTANT]  
 > Do not pass sensitive text such as passwords through the command-line arguments.
