@@ -7,6 +7,4 @@ By now, you should be able to:
 - Manage SSL certificates and custom domain names.
 - Differentiate key features such as maintenance mode and IP address restrictions.
 
-## Next steps
 
-In the next module, you will discover various integration options that are available in Power Apps portals and learn how to configure integration with services like SharePoint or Power BI.
