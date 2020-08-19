@@ -13,14 +13,14 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "The Secure Screen feature is located in the Security tab of the Process Properties dialog."
+  - content: "The Secure Screen feature is located in the Security tab of the Process properties dialog."
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "Your answer is incorrect. There is no Security tab in the Process Properties dialog."
+      explanation: "Your answer is incorrect. There is no Security tab in the process properties dialog."
     - content: "False"
       isCorrect: true 
-      explanation: "Well done! The Secure Screen feature is located in the General tab of the Process Properties dialog."
+      explanation: "Well done! The Secure Screen feature is located in the General tab of the Process properties dialog."
   - content: "Which of the following cases cannot be handled through the Run Policy tab?"
     choices: 
     - content: "You are logged in and your workstation is locked."
@@ -32,7 +32,7 @@ quiz:
     - content: "You are not logged in and your workstation is on battery saver mode."
       isCorrect: true 
       explanation: "Well done! WinAutomation does not provide an option to handle this case."
-  - content: "Through the Concurrency Policy tab of the Process Properties dialog, you can:"
+  - content: "In the Concurrency Policy tab of the process properties dialog, you can:"
     choices: 
     - content: "Limit the number of process instances that can run simultaneously."
       isCorrect: true 
@@ -43,11 +43,11 @@ quiz:
     - content: "Both"
       isCorrect: false 
       explanation: "Your answer is incorrect. The global concurrency policy is configured through the Options tab."
-  - content: "Through the Process Properties dialog, you can configure the global error handling behaviour."
+  - content: "In the Process properties dialog, you can configure global error handling behaviour."
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "Your answer is incorrect. The global error handling behaviour is configured through the Options tab."
+      explanation: "Your answer is incorrect. The global error handling behaviour is configured in the Options tab."
     - content: "False"
       isCorrect: true 
-      explanation: "Well done! Through the Process Properties dialog, you can configure the third level of error handling."
+      explanation: "Well done! In the Process properties dialog, you can configure error handing for a specific process."
