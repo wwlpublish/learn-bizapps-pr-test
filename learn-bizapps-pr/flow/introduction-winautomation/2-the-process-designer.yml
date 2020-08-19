@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.introduction-winautomation.2-the-process-designer 
-title: The Process Designer
+title: The WinAutomation process designer
 metadata: 
-  title: The Process Designer
-  description: The Process Designer
-  ms.date: 08/07//2020 
+  title: The WinAutomation process designer
+  description: The WinAutomation  process designer
+  ms.date: 08/20/2020 
   author: mariosleon 
   ms.author: marleon 
   ms.topic: interactive-tutorial 

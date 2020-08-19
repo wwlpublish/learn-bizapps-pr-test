@@ -1,39 +1,32 @@
-WinAutomation is a Serverless Desktop Automation software for professionals and small teams. 
+WinAutomation provides serverless desktop automation software for professionals and small teams. 
 
-It can be installed on any Client Workstation with Windows Vista Operating system or later and on any server with Windows Server 2008 R2 or later. WinAutomation is compatible with both 32-bit and 64-bit workstations.
+It can be installed on any client Workstation with Windows Vista  or later and on any server with Windows Server 2008 R2 or later. WinAutomation is compatible with both 32-bit and 64-bit workstations.
 
-Processes can be transferred by importing and exporting between two or more WinAutomation installations. Other than that, there is  no ability to communicate with other distributed WinAutomation installations, even on machines that are on the same domain/network. Therefore, there is neither a relation between separate WinAutomation Consoles, nor is there any way to centrally manage multiple WinAutomation Consoles from a single point. 
+Processes can be transferred by importing and exporting between two or more WinAutomation installations. WinAutomation does not have the ability to communicate with other  WinAutomation installations, even on machines that are on the same domain or network. There is no relationship between separate WinAutomation consoles, nor is there any way to centrally manage multiple WinAutomation consoles from a single point. 
 
-Upon WinAutomation installation, the following two Services will be installed: 
+Upon WinAutomation installation, the following services are installed: 
 
-1.	the WinAutomation Server, and 
-1.	the WinAutomation Machine Agent Service. 
+-	WinAutomation server service. This service performs all steps necessary to assure that WinAutomation runs well.
+-	WinAutomation machine agent service (WinAutomationMachineagent). This service is responsible for triggers and non-interactive processes. Triggers are used to invoke processes when a specific event occurs. Non-interactive processes are those that don't require any human interaction and can work in the background without being affected.
 
-WinAutomation is split in two main parts to perform all the operations. These are: 
 
-* the WinAutomation Console, the main Component through which the WinAutomation installation can be managed.
-* the WinAutomation Process Designer, where processes are developed and tested before running
+WinAutomation has the following components: 
 
-WinAutomation uses the processes database to store all the processes developed, by default “Processes.dat” file that is stored under the users documents WinAutomation file. This reassures, that if multiple users log into the same workstation, then each User will be able to view and manage only their own processes. Keep in mind, that only one user is permitted to use WinAutomation at a time as the license is per machine/per user. All the WinAutomation .dat files, are SQLlite databases. SQLlite is an embedded database, which doesn't require a server tool for communication.  
+* WinAutomation console, the main component through which a WinAutomation installation can be managed
+* WinAutomation process designer, where processes are developed and tested before running
 
-Upon installation, two WinAutomation Services are created and are constantly running in the background:
+WinAutomation uses a database to store processes, by default called “processes.dat”, under each user's Documents folder. This ensures that if multiple users log into the same workstation, each user is able to view and manage only their own processes. Note that only one user is permitted to use WinAutomation at a time as the license is per machine/per user. All WinAutomation .dat files are SQLlite databases. SQLlite is an embedded database, and doesn't require a server tool for communication.  
 
-* WinAutomation Server Service, which is responsible for the smooth operation of WinAutomation. It's the main service performing all the necessary steps assuring WinAutomation is in a healthy condition.
+## WinAutomation processes 
 
-* WinAutomationMachineAgent is the second Service that starts and is responsible for multiple Triggers and the running of any Non-interactive processes.
+In situations where the user is already logged on, simply starting the console, is enough to trigger the user agent. Each time the user agent connects, it sends a series of data of the user for identification to the server.
 
-Triggers are used to invoke processes when a specific event occurs. Non-interactive processes are those that don't require any human interaction and can work in the background without being affected.
+The user agent then retrieves the hotkey and the idle monitor triggers,  which the machine agent is not responsible. 
 
-## WinAutomation Processes 
+The user agent always runs the process.exe process so that it is on standby and is available after a process has been invoked. There is always one more instance of process.exe running than there are processes.  
 
-In situations where the User is already logged on, simply starting the Console, is enough to trigger the User Agent. Each time the User Agent connects, it sends a series of data of the User for identification to the Server.
+Processes can also be invoked through the process designer. In this case, the process is invoked by the debugger.  
 
- Next, the User Agent will retrieve the two triggers for which the Machine Agent is not responsible. These are the Hotkey and the Idle Monitor Triggers.
-
-The User Agent would always run a Process.exe process so that it would be on standby and would be available once a process has been invoked. There's always one Process.exe additional to the number of processes running. 
-
-Apart from the WinAutomation User Agent, a process can also be invoked through the Process Designer. In this case, the process starts with the debugger.  
-
- In cases where a User triggers a process from the Console, the User Agent is the one triggering the Process.exe, which runs the process.
+In cases where a user triggers a process from the console, the user agent triggers process.exe, which runs the process.
  
  ![processes diagram](..\media\processes-diagram.png)

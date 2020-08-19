@@ -2,8 +2,8 @@
 uid: learn-bizapps.introduction-winautomation 
 metadata: 
  title: Introduction to WinAutomation
- description: An overview of the basic features and structure of WinAutomation.
- ms.date: 08/07//2020  
+ description: Learn about the features and structure of WinAutomation.
+ ms.date: 08/20/2020  
  author: mariosleon  
  ms.author: marleon  
  ms.topic: interactive-tutorial  
@@ -11,7 +11,7 @@ metadata:
 title: Introduction to WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  An overview of the basic features and structure of WinAutomation.
+  Learn about the features and structure of WinAutomation.
 abstract: |  
     In this module, you will: 
     - Learn about the various components that make up WinAutomation
