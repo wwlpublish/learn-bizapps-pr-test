@@ -27,7 +27,7 @@ quiz:
       isCorrect: false 
       explanation: "There is not a Tools repository pane in the process designer."
     - content: "Controls repository"
-      isCorrect: false 
+      isCorrect: true 
       explanation: "There is a controls repository pane in the process designer."
     - content: "Video repository"
       isCorrect: false 
