@@ -12,7 +12,7 @@ Upon WinAutomation installation, the following services are installed:
 
 WinAutomation has the following components: 
 
-* WinAutomation console, the main xomponent through which a WinAutomation installation can be managed
+* WinAutomation console, the main component through which a WinAutomation installation can be managed
 * WinAutomation process designer, where processes are developed and tested before running
 
 WinAutomation uses a database to store processes, by default called “processes.dat”, under each user's Documents folder. This ensures that if multiple users log into the same workstation, each user is able to view and manage only their own processes. Note that only one user is permitted to use WinAutomation at a time as the license is per machine/per user. All WinAutomation .dat files are SQLlite databases. SQLlite is an embedded database, and doesn't require a server tool for communication.  
