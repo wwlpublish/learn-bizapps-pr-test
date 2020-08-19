@@ -1,4 +1,4 @@
-This unit examines the functionality of some advanced data types, such as Lists, Data Tables, and Custom Objects.
+This unit describes the advanced data types: lists, data tables, and JSON custom objects.
 
 ## Lists
 
@@ -22,9 +22,7 @@ A common practice is to use a **For Each** action to iterate through the items o
 
 ## Data tables
 
-A data table contains data in a tabular form. It is the equivalent of a two-dimensional array in programming terms. 
-
-A data table contains rows and columns, and each item stored in the data table can be retrieved through its unique row and column number. You can think of data tables as lists: each item of the list is also a list.
+A data table contains rows and columns, and each item stored in the data table can be retrieved through its unique row and column number. You can think of data tables as lists: each item of the list is also a list. It is the equivalent of a two-dimensional array in programming terms. 
 
 ![The Edit Variable window.](..\media\edit-variable-window-data-tables..png)
 
@@ -42,7 +40,7 @@ If you loop through a data table with a **For Each** action, the variable that w
 
 Custom objects are a type of variable in WinAutomation that allows users to generate and translate data in JSON format.
 
-JSON stands for JavaScript Object Notation, and it is based on a subset of the JavaScript programming language. The main benefits of JSON are:
+JSON (JavaScript Object Notation) is based on a subset of the JavaScript programming language. The main benefits of JSON are:
 
 - It is easy for humans to read and write
 - It is easy for machines to parse and generate, and
@@ -50,13 +48,13 @@ JSON stands for JavaScript Object Notation, and it is based on a subset of the J
 
 These properties make JSON an ideal data-interchange language that is popular among web developers.
 
-The JSON format is inspired after two structures:
+JSON supports the following structures:
 
-1.	an object, which can be seen as an unordered set of name/value pairs, like **{ "firstName": "John", "lastName": "Michael" }** inside curly braces and separated by commas. All names have to be text values, while values can be almost anything. A colon (**:**) used to separate the name from its corresponding value.
+- An object which can be seen as an unordered set of name/value pairs, like **{ "firstName": "John", "lastName": "Michael" }** inside curly braces and separated by commas. All names must be text values, while values can be almost anything. A colon (**:**) is used to separate the name from its corresponding value.
 
-1.	an array, which is an ordered collection of values, like \[1,2,3,4\] inside brackets and separated by commas. Same as before, values can be almost anything.
+- An array which is an ordered collection of values, like \[1,2,3,4\] inside brackets and separated by commas. 
 
-The combination of these two structures is allowing the creation of ordered lists of name/value pairs. 
+The combination of these two structures allows the creation of ordered lists of name/value pairs. 
 
 ![The Edit Variable window.](..\media\edit-variable-window-json.png)
 
@@ -64,8 +62,6 @@ You can access individual object values by using either the dot (**.**) notation
 
 ![The populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-json.png)
 
-Custom object follows the same functionality, using pairs of properties and values.
+Custom objects follow the same functionality, using pairs of properties and values.
 
-You can convert variables between both types using the **Convert Custom Object to Json** action and the **Convert Json to Custom Object** action.
-
-
+You can convert variables between both types using the Convert Custom Object to Json action and the Convert Json to Custom Object action.

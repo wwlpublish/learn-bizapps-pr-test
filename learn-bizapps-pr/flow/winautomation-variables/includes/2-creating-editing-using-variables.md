@@ -1,15 +1,15 @@
 This unit explores each part of the following variable functionality:
 
 - Creating variables
-- The **Variable Pane**
+- The variable pane
 - Using variables
-- Creating and editing variables using the **Variables Manager Window**
+- Creating and editing variables using the variables manager window
 
 ## Creating variables
 
 There are two main ways to create a new variable:
 
-- Through the **Variables Manager Window**. More information about the **Variables Manager Window** can be found in the following sections. 
+- Through the variables manager window.  
 
     ![The Variables Manager Window.](..\media\variables-manager-window.png)
 
@@ -17,51 +17,49 @@ There are two main ways to create a new variable:
 
     ![The Change Text Case action's properties dialog.](..\media\change-text-case-action-properties-output.png)
 
-## The Variables Pane
+## Variables Pane
 
-The **Variables Pane** is located by default next to the **Workspace** under the **Functions Pane** and enables you to review and handle variables. 
+The variables pane is located by default next to the Workspace under the functions pane and enables you to review and handle variables. 
 
-The pane contains four columns that present essential information about each variable, such as the name, the type, and the value of it. 
+The pane contains four columns that present essential information about each variable, including name, type, and value. 
 
 ![The Variables Pane.](..\media\variables-pane.png)
 
-By clicking on the first column of the **Variable Pane**, you can pin any variable on the top for quick access. Additionally, you can reorder variables by dragging and dropping them into the desired position. 
+By clicking on the first column of the variables pane, you can pin any variable on the top for quick access. Additionally, you can reorder variables by dragging and dropping them into the desired position. 
 
 Besides providing information about the variables, the pane allows you to perform more complicated tasks, such as searching, renaming, and finding where each variable is used.
 
-To rename a variable, double-click on it and populate the **New Name** field with the new name. To find its usages, make a right-click on it and select the respective option. 
+To rename a variable, double-click on it and populate the **New Name** field. To find how a variable is used, right-click it. 
 
 ![The Rename a Variable dialog.](..\media\rename-variable-dialog.png)
 
 ## Using variables
 
-WinAutomation provides you with a simple and straightforward way to use variables that have been previously created in your processes.
-
-There is a **Gear** icon next to every input field that accepts variables in each **Action's Properties** dialog. By clicking on this icon, you can directly select any variable or variable property and use it as an input.
+To reuse previously created variables, click the Gear icon next to each input field that accepts variables in an action's properties dialog. You can directly select any variable or variable property and use it as an input.
 
 ![The Change Display Message action's properties dialog with the Gear icon selected.](..\media\change-display-message-action-properties.png)
 
-Although the **Gear** icon is placed only next to the input fields, an existing variable can also be used as an output. By storing new data in an existing variable, you will overwrite its contents and, possibly, change the type of data the variable contains. 
+An existing variable can also be used as an output. 
 
 ![The output variable in the Change Text Case action's properties dialog.](..\media\change-text-case-action-properties-output.png)
 
-[!NOTE]
-It is strongly suggested to use new variables to store different actions' outputs. This practice will help you keep your processes clear and provide a full understanding of what data each variable contains at any given time while the process is running.
+> [!NOTE]
+> By storing new data in an existing variable, you will overwrite its contents and, possibly, change the type of data the variable contains. It is strongly suggested to use new variables to store different actions' outputs. This practice will help you keep your processes clear and provide a full understanding of what data each variable contains at any given time while the process is running.
 
 ## The Variables Manager Window
 
-The **Variables Manager Window** is an essential part of the **Process Designer** and enables you to manage variables in your processes. 
+The variables manager window is an essential part of the process designer and enables you to manage variables in your processes. 
 
-To access the **Variables Manager Window**, navigate to **Tools** -> **Variables Manager** located on the **Process Designer's** main menu bar. 
+To access the variables manager window, navigate to **Tools** > **Variables Manager** located on the process designer's main menu bar. 
 
-In the **User Defined Variables** tab, a list of all the variables used in the process is displayed. Through the respective buttons, you can edit or delete any variable, as well as create a new one.
+In the user defined variables tab, a list of all the variables used in the process is displayed. Through the respective buttons, you can edit or delete any variable, as well as create a new one.
 
 ![The User Defined Variables tab in the Variables Manager Window.](..\media\variables-manager-window-user-defined-variables-tab.png)
 
-Keep in mind that an alternative way to declare new variables is to enter a variable name into an output field of any action of the process. If this name does not refer to an existing variable, a new variable will be created automatically. A variable created this way cannot be edited or deleted through the **Variables Manager Window**.
+You can also declare new variables by entering a variable name in the output field of any action of the process. If this name does not refer to an existing variable, a new variable will be created automatically. A variable created this way cannot be edited or deleted through the variables manager window.
 
 ![The output variable in the Get Default Printer action's properties dialog.](..\media\get-default-printer-action-properties-output.png)
 
-In the **Trigger Variables** tab, a list of all the trigger-related variables is displayed. Variables in this tab cannot be deleted, edited, or created.
+In the trigger variables tab, a list of all the trigger-related variables is displayed. Variables in this tab cannot be deleted, edited, or created.
 
 ![The Trigger Variables tab in the Variables Manager Window.](..\media\variables-manager-window-trigger-variables-tab.png)

@@ -11,16 +11,16 @@ metadata:
 title: Handle variables in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  When developing processes, you may need to re-use information in various actions. Variables act like storage bins that save valuable information during the process's execution.
+  When developing processes, you may need to re-use information in various actions. Variables act like storage bins that save valuable information when a process is running.
 abstract: |  
     In this module, you will: 
     - Create, edit and manipulate variables.
-    - Examine the Variable Pane and the Variables Manager Window.
+    - Examine the variable pane and the variables manager.
     - Become familiar with all the variable data types and their properties.
     - Configure persistent and external variables. 
 
 prerequisites: |
-    - Basic familiarity with the WinAutomation Console and Process Designer.
+    - Basic familiarity with the WinAutomation console and process designer.
 iconUrl: /learn/achievements/winautomation-variables.svg  
 levels:
 - beginner   
