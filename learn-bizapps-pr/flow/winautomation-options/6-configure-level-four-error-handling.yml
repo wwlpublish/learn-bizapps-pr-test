@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.winautomation-options.6-configure-level-four-error-handling 
-title: Configure the fourth level of error handling 
+title: Configure global error handling 
 metadata: 
-  title: Configure the fourth level of error handling 
-  description: Configure the fourth level of error handling 
+  title: Configure global error handling 
+  description: Configure global error handling options.
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

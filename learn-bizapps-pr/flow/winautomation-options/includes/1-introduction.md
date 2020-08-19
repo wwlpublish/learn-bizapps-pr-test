@@ -1,15 +1,15 @@
-WinAutomation provides an extensive selection of options that enables you to configure the way the platform operates. All the platform's essential settings are located in the **Options** tab, the last tab of the **Console** menu.
+WinAutomation provides an extensive selection of options that enables you to configure the way the platform operates. All the platform's essential settings are located in the Options tab, the last tab of the Console menu.
 
-The **Options** tab consists of three subtabs:
-1.	Settings
-1.	Error Handling
-1.	Account
+The Options tab includes subtabs:
+-	Settings
+-	Error Handling
+-	Account
 
 Each tab configures different features of the platform, such as concurrency policy, database operations, error handling and account management.
 
 ![The Options tab.](..\media\options-tab-console.png)
 
-By the end of this module, you will be able to understand and perform some of the most important operations that WinAutomation **Options** tab provides.
+By the end of this module, you will be able to understand and perform some of the most important operations that WinAutomation Options tab provides.
 
 ## Learning objectives
 

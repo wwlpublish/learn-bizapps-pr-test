@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.winautomation-options.7-power-automate-account 
-title: Sign in with a new Power Automate account
+title: Sign in with a Power Automate account
 metadata: 
-  title: Sign in with a new Power Automate account
-  description: Sign in with a new Power Automate account
+  title: Sign in with a Power Automate account
+  description: Learn how to sign in with a Power Automate account.
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
