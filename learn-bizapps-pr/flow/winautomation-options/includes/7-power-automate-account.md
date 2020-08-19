@@ -16,5 +16,5 @@ In case you need to sign out from your current Microsoft Power Automate account 
 
     ![A pop-up window to populate the credentials of the new account.](..\media\credentials-account-tab-options.png)
 
-    > [!ΝΟΤΕ]
-    > If you sign out without connecting to a new account, WinAutomation functionality will be disabled.  
+> [!ΝΟΤΕ]
+> If you sign out without connecting to a new account, WinAutomation functionality will be disabled.  
