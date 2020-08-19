@@ -17,7 +17,7 @@ The Notification Popup Window is enabled by default, but you can disable it by p
 
     ![A checkbox to enable or disable the Notification Popup Window.](..\media\disable-notification-popup-window-option.png)
 
-After the clear the option, you can run a process to confirm that no notification is displayed. 
+After you clear the option, you can run a process to confirm that no notification is displayed. 
 
 You can also enable or disable the WinAutomation icon in the Windows system tray.
 
