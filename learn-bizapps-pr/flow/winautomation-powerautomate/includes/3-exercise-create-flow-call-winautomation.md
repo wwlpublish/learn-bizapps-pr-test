@@ -49,27 +49,27 @@ For this module, we will create a WinAutomation Process and a Power Automate Flo
  
  1. Select **+ New Step**.
 
-   ![add new step Power Automate](..\media\add-new-step-PowerAutomate.png)
+    ![add new step Power Automate](..\media\add-new-step-PowerAutomate.png)
  
-1. Select **Run WinAutomation**.
+14. Select **Run WinAutomation**.
 
    ![select run WinAutomation Power Automate](..\media\select-run-WinAutomation-PowerAutomate.png)
 
-1. Set the process path to **/My Processes/Desktop/Power Automate Exercise**. Use **Add Dynamic Content** to add all three inputs into **Command-Line Arguments**.
+15. Set the process path to **/My Processes/Desktop/Power Automate Exercise**. Use **Add Dynamic Content** to add all three inputs into **Command-Line Arguments**.
 
     ![configure WinAutomation action Power Automate](..\media\configure-WinAutomation-action-PowerAutomate.png)
 
    > [!NOTE]
    > Each argument and dynamic expression should be separated from the previous one by a space, and surrounded by double quotes (for example “alpha” “bravo” “charlie”).
 
-1. Skip the Review Outputs section and go to **Test**. For now, use the previously entered values, and click **Test Now**.
+16. Skip the Review Outputs section and go to **Test**. For now, use the previously entered values, and click **Test Now**.
 
    ![Test Now Power Automate](..\media\Test-Now-PowerAutomate.png)
  
-1. The flow will run, and WinAutomation will display a notification at the bottom right of the screen while the process is running.
+17. The flow will run, and WinAutomation will display a notification at the bottom right of the screen while the process is running.
 
    ![WinAutomation process running Notification](..\media\WinAutomation-process-running-Notification.png)
 
-1. When the process completes, click **Save and exit**. There should now be an open Excel document, with the values of the three inputs entered in separate cells.
+18. When the process completes, click **Save and exit**. There should now be an open Excel document, with the values of the three inputs entered in separate cells.
 
    ![Excel output from command line arguments](..\media\Excel-output-from-command-line-arguments.png)
