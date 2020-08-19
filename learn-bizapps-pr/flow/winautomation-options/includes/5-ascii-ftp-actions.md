@@ -16,7 +16,7 @@ To configure WinAutomation to treat a file type as ASCII:
 
     ![A text-field to enter the file types to be treated as ASCII.](..\media\add-filtype-ftp-tab.png)
 
-1.	Selct **Add Filetype**.
+1.	Select **Add Filetype**.
 
     ![A button to add file types in the ASCII list.](..\media\add-button-ftp-tab.png)
 
