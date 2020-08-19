@@ -11,7 +11,7 @@ metadata:
 title: WinAutomation development essentials
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn how WinAutomation handles common development concepts and tasks, such as actions, variables, condititions, and loops.
+  Learn how WinAutomation handles common development concepts and tasks, such as actions, variables, conditionals, and loops.
 abstract: |  
     In this module, you will:
     - Create a Process from scratch using the Process Designer
