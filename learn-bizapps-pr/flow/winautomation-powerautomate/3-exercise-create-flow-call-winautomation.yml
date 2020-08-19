@@ -3,7 +3,7 @@ uid: learn-bizapps.winautomation-powerautomate.3-exercise-create-flow-call-winau
 title: Create a flow that calls a WinAutomation process
 metadata: 
   title: Create a flow that calls a WinAutomation process
-  description: An exercise to demonstrate how a WinAutomation process can be run from a flow.
+  description: Follow this exercise to practice running a WinAutomation process can be run from a flow.
   ms.date: 10/08/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
