@@ -13,14 +13,14 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "WinAutomation processes can only be run through the Console."
+  - content: "WinAutomation processes can only be run through the console."
     choices: 
     - content: "True"
       isCorrect: false
-      explanation: "That is false; processes may be run, among other means, automatically, through other processes, or through the command line."
+      explanation: "That is false; processes may be run automatically, from other processes, or from the command line."
     - content: "False"
       isCorrect: true 
-      explanation: "That is correct! Processes may be run, among other means, automatically, through other processes, or through the command line."
+      explanation: "That is correct! Processes may be run automatically, from other processes, or from the command line."
   - content: "A process running in response to a weekly email should be run:"
     choices: 
     - content: "Manually through the console."
@@ -37,7 +37,7 @@ quiz:
       explanation: "That is false; an email monitor trigger is the best option in this scenario."
   - content: "When a process runs, information about the run can be found in:"
     choices: 
-    - content: "The console's Processes tab."
+    - content: "The console's processes tab."
       isCorrect: false
       explanation: "That is false; this information is stored in the console's Logs tab."
     - content: "The process designer."
