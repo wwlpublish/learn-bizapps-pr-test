@@ -16,7 +16,7 @@ To create a global concurrency policy:
 
     ![A field that sets the max number of processes that can run concurrently.](..\media\max-processes-concurrency-policy-tab.png)
 
-1.	In the **If this limit is reached** menu, select the desired action to be performed when the limit is reached. You can choose between adding processes in a waiting queue or cancelling them.
+1.	In the **If this limit is reached** menu, select the desired action to be performed when the limit is reached. You can choose between adding processes in a waiting queue or canceling them.
 
     ![A dropdown menu that sets what happens when the limit is reached.](..\media\if-limit-is-reached-concurrency-policy-tab.png)
 
