@@ -57,10 +57,10 @@ For this module, we will create a WinAutomation Process and a Power Automate Flo
 
 1. Set the process path to **/My Processes/Desktop/Power Automate Exercise**. Use **Add Dynamic Content** to add all three inputs into **Command-Line Arguments**.
 
-   ![configure WinAutomation action Power Automate](..\media\configure-WinAutomation-action-PowerAutomate.png)
+    ![configure WinAutomation action Power Automate](..\media\configure-WinAutomation-action-PowerAutomate.png)
 
-> [!NOTE]
-> Each argument and dynamic expression should be separated from the previous one by a space, and surrounded by double quotes (for example “alpha” “bravo” “charlie”).
+   > [!NOTE]
+   > Each argument and dynamic expression should be separated from the previous one by a space, and surrounded by double quotes (for example “alpha” “bravo” “charlie”).
 
 1. Skip the Review Outputs section and go to **Test**. For now, use the previously entered values, and click **Test Now**.
 
