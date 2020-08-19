@@ -46,5 +46,6 @@ If you enable the Send Email option, you must configure the SMTP server.
 
 1.	Lastly, select whether you want WinAutomation to accept untrusted certificates.
 
-> [!ΝΟΤΕ]
-> In case you have enabled multifactor authentication in your email account, you must populate the Password field with an application password. More information can be found in the  [WinAutomation multifactor authentication documentation](https://docs.winautomation.com/email-interaction-with-two-step-verification.html#email-interaction-with-two-step-verification). 
+    > [!ΝΟΤΕ]
+    > In case you have enabled multifactor authentication in your email account, you must populate the Password field with an application password. More information can be found
+    > in the  [WinAutomation multifactor authentication documentation](https://docs.winautomation.com/email-interaction-with-two-step-verification.html#email-interaction-with-two-step-verification). 
