@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.first-steps-winautomation.5-monitor-processes 
-title: Monitor processes through logs 
+title: Monitor processes using logs 
 metadata: 
-  title: Monitor processes through logs 
-  description: Monitor processes through logs 
+  title: Monitor processes using logs 
+  description: Monitor processes using logs 
   ms.date: 07/28/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

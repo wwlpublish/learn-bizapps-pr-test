@@ -13,30 +13,30 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "WinAutomation processes can be executed only through the Console"
+  - content: "WinAutomation processes can be executed only through the console"
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "Your answer is incorrect. Processes can be executed through the Console and the Process Designer, as well as by triggers and schedules."
+      explanation: "Your answer is incorrect. Processes can be executed through the console and the process designer, as well as by triggers and schedules."
     - content: "False"
       isCorrect: true 
-      explanation: "Well done! Processes can be executed through the Console and the Process Designer, as well as by triggers and schedules."
-  - content: "Which of the following panes does not exist in the Process Designer?"
+      explanation: "Well done! Processes can be executed through the console and the process designer, as well as by triggers and schedules."
+  - content: "Which of the following panes does not exist in the process designer?"
     choices: 
-    - content: "Image Repository"
+    - content: "Image repository"
       isCorrect: false 
-      explanation: "Your answer is incorrect. There is an Image Repository pane in the Process Designer."
-    - content: "Controls Repository"
+      explanation: "Your answer is incorrect. There is an Image repository pane in the process designer."
+    - content: "Controls repository"
       isCorrect: false 
-      explanation: "Your answer is incorrect. There is a Controls Repository pane in the Process Designer."
-    - content: "Video Repository"
+      explanation: "Your answer is incorrect. There is a controls repository pane in the process designer."
+    - content: "Video repository"
       isCorrect: true 
-      explanation: "Well done! There is not a Video Repository pane in the Process Designer."
-  - content: "Triggers and schedules can be set through the Process Designer."
+      explanation: "Well done! There is not a video repository pane in the process designer."
+  - content: "Triggers and schedules can be set through the process designer."
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "Your answer is incorrect. Triggers and schedules can be set through the Console."
+      explanation: "Your answer is incorrect. Triggers and schedules can be set through the console."
     - content: "False"
       isCorrect: true 
-      explanation: "Well done! Triggers and schedules can be set through the Console."
+      explanation: "Well done! Triggers and schedules can be set through the console."
