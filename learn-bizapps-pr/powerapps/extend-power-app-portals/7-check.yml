@@ -45,16 +45,16 @@ quiz:
     choices: 
     - content: Power Apps portals admin center
       isCorrect: false 
-      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata . Common Data Service does not contain portal metadata.
+      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Common Data Service does not contain portal metadata.
     - content: Export and Import Excel files
       isCorrect: false 
-      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata . Common Data Service does not contain portal metadata.
+      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Common Data Service does not contain portal metadata.
     - content: Configuration Data Migration tool
       isCorrect: true 
-      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata . Common Data Service does not contain portal metadata.
+      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Common Data Service does not contain portal metadata.
     - content: Export and Import the Common Data Service solution
       isCorrect: false 
-      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata . Common Data Service does not contain portal metadata.
+      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Common Data Service does not contain portal metadata.
   - content: How would you calculate taxes based on rates that are stored in Common Data Service on work orders that were entered on web forms on the portal?
     choices: 
     - content: Add JavaScript to the Web Form steps.
