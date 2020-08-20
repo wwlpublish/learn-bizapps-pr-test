@@ -139,12 +139,12 @@ To add code to retrieve the data, follow these steps:
     1. Select the target environment by using the environment selector in the upper-right corner.
     1. From the **Apps** list, select the application of type **Portal**.
     1. Select the **Edit** menu.
-1. Select the **Pages** icon on the toolbelt on the left side.
+1. Select the **Pages** icon on the tool belt on the left side.
 1. Select an existing page from the hierarchy, for example **Product B** located under the **Services** page.
     > [!NOTE]
     > The names and hierarchy of pages on your portal might differ.
 1. Select the **Page Copy** area on the page.
-1. Select **Components** on the toolbelt.
+1. Select **Components** on the tool belt.
 1. Select **One-column section**.
 1. Select **Added section** and then select the **source code editor** icon.
 1. Insert the following code as the content of the innermost **div** element:
