@@ -14,7 +14,7 @@ summary: |
   Learn about the global options that will help you keep your WinAutomation system running the way you want.
 abstract: |  
     In this module, you will: 
-    - Understand the various configurations and options of WinAutomation.
+    - Examine configurations and options of WinAutomation.
     -	Configure notification settings.
     -	Take backup of the database file and restore it. 
     -	Create a concurrency policy. 

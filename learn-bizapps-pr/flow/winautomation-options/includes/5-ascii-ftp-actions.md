@@ -24,4 +24,4 @@ To remove a file type from the list, select it and click on the **Remove Selecte
 
 ![A button to remove file types from the list.](..\media\remove-filtype-ftp-tab.png)
 
-More information about FTP action can be found in the [WinAutomation documentation](https://docs.winautomation.com/ftp.html). 
+More information about FTP action can be found in the [WinAutomation documentation](https://docs.winautomation.com/en/ftp.html). 

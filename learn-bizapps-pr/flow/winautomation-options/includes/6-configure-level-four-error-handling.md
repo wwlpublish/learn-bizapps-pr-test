@@ -24,7 +24,7 @@ To determine which actions will be performed if a process fails to run successfu
 
         ![A checkbox to enable recording to the Windows Event Log.](..\media\windows-event-log-error-handling.png)
 
-    1.  Add a screenshot of the monitors when an exception occurs in the WinAutomation logs. More information about logging in WinAutomation can be found in the [WinAutomation log documentation](https://docs.winautomation.com/logs.html). 
+    1.  Add a screenshot of the monitors when an exception occurs in the WinAutomation logs. More information about logging in WinAutomation can be found in the [WinAutomation log documentation](https://docs.winautomation.com/en/logs.html). 
 
         ![A checkbox to enable screenshots in the WinAutomation logs.](..\media\screenshots-error-handling.png)
 
@@ -48,4 +48,4 @@ If you enable the Send Email option, you must configure the SMTP server.
 
 > [!NOTE]
 > In case you have enabled multifactor authentication in your email account, you must populate the Password field with an application password. 
-> See[WinAutomation multifactor documentation](https://docs.winautomation.com/en/email-interaction-with-two-step-verification.html#email-interaction-with-two-step-verification). 
+> See [WinAutomation multifactor documentation](https://docs.winautomation.com/en/email-interaction-with-two-step-verification.html#email-interaction-with-two-step-verification). 

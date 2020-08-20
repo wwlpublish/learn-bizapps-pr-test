@@ -15,7 +15,7 @@ By the end of this module, you will be able to understand and perform some of th
 
 In this module, you will: 
 
-- Understand the various configurations and options of WinAutomation.
+- Examine configurations and options of WinAutomation.
 - Configure notification settings
 - Take backup of the database file and restore it. 
 - Create a concurrency policy. 
