@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.introduction-winautomation.7-check-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/20/2020 
+ author: mariosleon 
+ ms.author: marleon 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Processes are built in the process designer, and tested in the process tester."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; processes are built and tested in the process designer."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct! Processes are built and tested in the process designer."
+  - content: "The execution of processes through schedules and triggers is configured in the console."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct! The automatic execution of processes is configured in the console."
+    - content: "False"
+      isCorrect: false
+      explanation: "That is false; the automatic execution of processes is configured in the console."
+  - content: "WinAutomation supports both attended and unattended automation. In attended automation the user is present at the workstation and may interact with the process. In unattended automation, processes need to start due to a trigger or a schedule, when the workstation is locked or the user is not logged-on. WinAutomation can login or unlock the workstation and start executing the processes. Which feature is described here?"
+    choices: 
+    - content: "Autologin"
+      isCorrect: true 
+      explanation: "That is correct! WinAutomation uses the autologin feature for unattended automation."
+    - content: "Parallel execution, Concurrency and Process Queuing"
+      isCorrect: false
+      explanation: "That is false; the autologin feature allows the unattended automation."
+    - content: "Exception handling"
+      isCorrect: false
+      explanation: "That is false; the autologin feature allows the unattended automation."
+    - content: "Mouse and keyboard automation"
+      isCorrect: false 
+      explanation: "That is false; the autologin feature allows the unattended automation."
