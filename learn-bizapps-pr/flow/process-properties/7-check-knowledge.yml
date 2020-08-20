@@ -43,11 +43,11 @@ quiz:
     - content: "Both"
       isCorrect: false 
       explanation: "Your answer is incorrect. The global concurrency policy is configured through the Options tab."
-  - content: "In the Process properties dialog, you can configure global error handling behaviour."
+  - content: "In the Process properties dialog, you can configure global error handling behavior."
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "Your answer is incorrect. The global error handling behaviour is configured in the Options tab."
+      explanation: "Your answer is incorrect. The global error handling behavior is configured in the Options tab."
     - content: "False"
       isCorrect: true 
       explanation: "Well done! In the Process properties dialog, you can configure error handing for a specific process."
