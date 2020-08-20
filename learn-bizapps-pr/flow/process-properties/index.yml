@@ -3,7 +3,7 @@ uid: learn-bizapps.process-properties
 metadata: 
  title: Configuring process properties in WinAutomation
  description: Learn how to configure WinAutomation process properties.
- ms.date: 08/07/2020  
+ ms.date: 08/21/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
@@ -14,18 +14,16 @@ summary: |
    WinAutomation provides a wide selection of properties that enable you to configure how the platform handles each process. Using properties you can implement different behavior for each process and override the platform's global settings. 
 abstract: |  
     In this module, you will: 
-    - Understand the various configurations and options of WinAutomation processes.
+    - Set the various configurations and options of WinAutomation processes.
     - Configure the security settings of a process.
     - Set what happens when a process is run interactively or automatically.
     - Set a concurrency policy for a process.
     - Configure error handling for a process.
     - Enable logging for a process.
-
 prerequisites: |
     - Basic familiarity with the WinAutomation console.
     - Basic familiarity with WinAutomation architecture.
     - Basic familiarity with exception handling functionality.
-
 iconUrl: /learn/achievements/process-properties.svg  
 levels:  
 - beginner   
