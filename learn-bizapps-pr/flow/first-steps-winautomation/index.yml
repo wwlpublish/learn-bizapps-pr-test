@@ -1,0 +1,45 @@
+### YamlMime:Module 
+uid: learn-bizapps.first-steps-winautomation 
+metadata: 
+ title: Take your first steps with WinAutomation
+ description: In this module, we'll discuss how to create and monitor simple processes in WinAutomation.
+ ms.date: 08/20/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate
+title: Take your first steps with WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  
+  Learn how to get started with WinAutomation console and process designer. The WinAutomation console helps you organize the processes and aspects related to them while the process designer is the development environment of the platform.
+abstract: |  
+    In this module, you will: 
+    - Explore the various panes in the console and the process designer.
+    - Create a simple process.
+    - Use the debugger to run a process step by step.
+    - Create a simple log message.
+prerequisites: |
+    - Installed WinAutomation
+iconUrl: /learn/achievements/first-steps-winautomation.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- business-user  
+- developer 
+- functional-consultant
+products:  
+- power-platform
+- power-automate
+units: 
+- learn-bizapps.first-steps-winautomation.1-introduction
+- learn-bizapps.first-steps-winautomation.2-console-overview
+- learn-bizapps.first-steps-winautomation.3-process-designer-overview
+- learn-bizapps.first-steps-winautomation.4-create-simple-process
+- learn-bizapps.first-steps-winautomation.5-monitor-processes
+- learn-bizapps.first-steps-winautomation.6-exercise-create-simple-process
+- learn-bizapps.first-steps-winautomation.7-check
+- learn-bizapps.first-steps-winautomation.8-summary
+badge: 
+  uid: learn-bizapps.first-steps-winautomation.badge 
