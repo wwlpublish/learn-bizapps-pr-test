@@ -21,7 +21,7 @@ The web templates that are included in a starter portal are implemented by using
 
 ## Upload custom CSS
 
-Any starter portal has two files already included as child web files of the home page: `bootstrap.min.css` and `theme.css`. These files define the default styles and theme for your entire portal. You can upload and edit additional stylesheets in portals Studio by using the **Themes** section on the toolbelt.
+Any starter portal has two files already included as child web files of the home page: `bootstrap.min.css` and `theme.css`. These files define the default styles and theme for your entire portal. You can upload and edit additional stylesheets in portals Studio by using the **Themes** section on the tool belt.
 
 > [!div class="mx-imgBorder"]
 > [![CSS Editing](../media/css-edit.png)](../media/css-edit.png#lightbox)
