@@ -15,31 +15,31 @@ quiz:
   questions: 
   - content: "In process development, Variables are:"
     choices: 
-    - content: "Containers used to store and retrieve data"
+    - content: "Containers used to store and retrieve data."
       isCorrect: true 
       explanation: "That is correct! Variables are used by Actions to store or retrieve data."
-    - content: "Different possible situations that the process might have to face"
+    - content: "Different possible situations that the process might have to face."
       isCorrect: false 
       explanation: "That is false; Variables are used by Actions to store or retrieve data."
-    - content: "Actions that may or may not run, depending on the data the process encounters"
+    - content: "Actions that may or may not run, depending on the data the process encounters."
       isCorrect: false 
       explanation: "That is false; Variables are used by Actions to store or retrieve data."
-    - content: "None of the above"
+    - content: "None of the above."
       isCorrect: false 
       explanation: "That is false; Variables are used by Actions to store or retrieve data."
-  - content: "The two types of conditional statements are if-else and switch-case"
+  - content: "The two types of conditional statements are if-else and switch-case."
     choices: 
-    - content: "True"
+    - content: "True."
       isCorrect: true 
-      explanation: "That is correct! The two types of conditional statements are if-else and switch-case"
-    - content: "False"
+      explanation: "That is correct! The two types of conditional statements are if-else and switch-case."
+    - content: "False."
       isCorrect: false 
-      explanation: "That is false; The two types of conditional statements are if-else and switch-case"
-  - content: "The controls repository stores images and controls used in a process"
+      explanation: "That is false; The two types of conditional statements are if-else and switch-case."
+  - content: "The controls repository stores images and controls used in a process."
     choices: 
-    - content: "True"
+    - content: "True."
       isCorrect: false 
       explanation: "That is false; the controls repository stores only the controls used in a process. Images are stored into the images repository."
-    - content: "False"
+    - content: "False."
       isCorrect: true 
-      explanation: "That is false; the controls repository stores only the controls used in a process"
+      explanation: "That is false; the controls repository stores only the controls used in a process."
