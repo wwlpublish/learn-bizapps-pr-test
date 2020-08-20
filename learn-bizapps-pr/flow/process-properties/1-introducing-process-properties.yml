@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.process-properties.1-introducing-process-properties
-title: Configure Properties of a WinAutomation Process
+title: Configure properties for a WinAutomation process
 metadata: 
-  title: Configure Properties of a WinAutomation Process
-  description: Configure the properties of a WinAutomation Process
+  title: Configure properties for a WinAutomation process
+  description: Learn how to configure the properties of a WinAutomation process.
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
