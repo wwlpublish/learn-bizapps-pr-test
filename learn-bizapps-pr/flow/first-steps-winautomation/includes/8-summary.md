@@ -1,0 +1,1 @@
+The WinAutomation platform consists of a console and process designer. Using these two components, you can create and manage processes, create triggers, and schedule processes to create more productive and reliable automations.
