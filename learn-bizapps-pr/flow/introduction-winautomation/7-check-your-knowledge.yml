@@ -29,17 +29,17 @@ quiz:
     - content: "False"
       isCorrect: false
       explanation: "That is false; the automatic execution of processes is configured in the console."
-  - content: "Which of these features is not included in WinAutomation?"
+  - content: "WinAutomation supports both attended and unattended automation. In attended automation the user is present at the workstation and may interact with the process. In unattended automation, processes need to start due to a trigger or a schedule, when the workstation is locked or the user is not logged-on. WinAutomation can login or unlock the workstation and start executing the processes. Which feature is described here?"
     choices: 
-    - content: "User Monitoring System"
+    - content: "Autologin"
       isCorrect: true 
-      explanation: "That is correct! WinAutomation does not monitor users' behavior."
-    - content: "Parallel process execution"
+      explanation: "That is correct! WinAutomation uses the autologin feature for unattended automation."
+    - content: "Parallel execution, Concurrency and Process Queuing"
       isCorrect: false
-      explanation: "That is false; multiple processes may be executed in parallel."
-    - content: "Multi-layer exception handling"
+      explanation: "That is false; the autologin feature allows the unattended automation."
+    - content: "Exception handling"
       isCorrect: false
-      explanation: "That is false; there are 4 levels of exception and error handling in WinAutomation."
-    - content: "Detailed logs"
+      explanation: "That is false; the autologin feature allows the unattended automation."
+    - content: "Mouse and keyboard automation"
       isCorrect: false 
-      explanation: "That is false; the Logs tab in the console contains detailed information about WinAutomation."
+      explanation: "That is false; the autologin feature allows the unattended automation."
