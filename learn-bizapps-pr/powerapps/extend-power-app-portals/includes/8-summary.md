@@ -1,11 +1,11 @@
-In this module, we discussed extending portal functionality using software development. We also examined Application Lifecycle Management (ALM) techniques in portal deployments.
+This module discussed extending portal functionality by using software development, and it examined application lifecycle management (ALM) techniques in portal deployments.
 
-By now you should be able to:
+By now, you should be able to:
 
-* Explain where software development can resolve particular portal feature requirements.
-* Employ portal Application Lifecycle management for Power Apps portals.
-* Apply JavaScript code to portal assets.
-* Use CSS to address specific portal development requirements.
+- Explain where software development can resolve particular portal feature requirements.
+- Employ portal ALM for Power Apps portals.
+- Apply JavaScript code to portal assets.
+- Use CSS to address specific portal development requirements.
 
 ## References
 
@@ -15,4 +15,4 @@ By now you should be able to:
 
 [XrmToolBox Portal Records Mover](https://www.xrmtoolbox.com/plugins/MscrmTools.PortalRecordsMover/?azure-portal=true) - Configuration Migration tool alternative
 
-[XrmToolBox Portal Code Editor](https://www.xrmtoolbox.com/plugins/MscrmTools.PortalCodeEditor/?azure-portal=true) - edit portal components from the desktop without Power Apps Management app
+[XrmToolBox Portal Code Editor](https://www.xrmtoolbox.com/plugins/MscrmTools.PortalCodeEditor/?azure-portal=true) - Edit portal components from the desktop without the Power Apps Management app
