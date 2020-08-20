@@ -16,8 +16,8 @@ To set the desired behavior for these cases:
 
     ![Radio buttons to select what action will be performed when you are logged in and your workstation is locked.](..\media\loggedin-workstation-locked-run-policy.png)
 
-    [!NOTE]
-    A process is called interactive when it requires input or output operations, such as keystrokes, mouse movements, and messages.
+    > [!NOTE]
+    > A process is called interactive when it requires input or output operations, such as keystrokes, mouse movements, and messages.
 
 1.	Select the desired action to be performed when the process is triggered when you are not logged in. You can choose between the same options as in the previous step. 
 
