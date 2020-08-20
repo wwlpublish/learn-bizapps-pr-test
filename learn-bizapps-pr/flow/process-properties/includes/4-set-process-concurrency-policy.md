@@ -16,7 +16,7 @@ To create a process concurrency policy:
 
     ![A field that specifies the max instances of the process that can run concurrently.](..\media\max-instances-concurrency-policy.png)
 
-1.	In the **If this limit is reached** dropdown menu, select the desired action to be performed when the limit is reached. You can choose between adding processes to a queue or cancelling.
+1.	In the **If this limit is reached** dropdown menu, select the desired action to be performed when the limit is reached. You can choose between adding processes to a queue or canceling.
 
     ![A dropdown menu that determines what action will be performed when the limit is reached.](..\media\if-limit-is-reached-concurrency-policy.png)
 
