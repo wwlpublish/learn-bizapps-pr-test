@@ -49,7 +49,7 @@ Logical operators can also be used to check multiple conditions simultaneously, 
 
 | Expression                     | Result                                                                                      |
 |--------------------------------|---------------------------------------------------------------------------------------------|
-| %Index == 1 || Index == 2%     | True if the value of the **Index** variable is 1 OR 2, otherwise False                          |
+| %Index == 1 \|\| Index == 2%     | True if the value of the **Index** variable is 1 OR 2, otherwise False                          |
 | %Index == 4 && Text == "Four"% | True if the value of the **Index** variable is 4 AND the value of the **Text** variable is Four, otherwise False |
 | %!ConditionIsTrue%             | True if the value of the **ConditionIsTrue** variable is False, otherwise False                 |
 
