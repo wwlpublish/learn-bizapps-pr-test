@@ -36,7 +36,7 @@ If you enable the Send Email option, you must configure the SMTP server.
 
     ![The Email/SMTP tab.](..\media\email-smtp-tab-error-handling-options.png)
 
-1.	Populate the **Address** and the **Port** of the SMTP server. If the server uses SSL, enable the that option.
+1.	Populate the **Address** and the **Port** of the SMTP server. If the server uses SSL, enable that option.
 
     ![Two fields to populate the Address and Port of the server.](..\media\address-port-email-smtp-tab.png)
 

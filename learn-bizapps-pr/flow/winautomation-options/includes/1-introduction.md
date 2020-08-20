@@ -5,7 +5,7 @@ The Options tab includes subtabs:
 -	Error Handling
 -	Account
 
-Each tab configures different features of the platform, such as concurrency policy, database operations, error handling and account management.
+Each tab configures different features of the platform, such as concurrency policy, database operations, error handling, and account management.
 
 ![The Options tab.](..\media\options-tab-console.png)
 
