@@ -27,3 +27,19 @@ quiz:
     - content: "None of the above"
       isCorrect: false 
       explanation: "That is false; Variables are used by Actions to store or retrieve data."
+  - content: "The two types of conditional statements are if-else and switch-case"
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct! The two types of conditional statements are if-else and switch-case"
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; The two types of conditional statements are if-else and switch-case"
+  - content: "The controls repository stores images and controls used in a process"
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; the controls repository stores only the controls used in a process. Images are stored into the images repository."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is false; the controls repository stores only the controls used in a process"
