@@ -14,7 +14,7 @@ An example run of the **Launch Calculator** example process would be:
 
 **C:\Program Files\WinAutomation\WinAutomationController.exe /start /Examples/01 - Beginner/01 - Run Calculator**
 
-## Start a process actions
+## Start a process action
 
 A process can be started by another, separate flow, through the use of the Start Process action.
 

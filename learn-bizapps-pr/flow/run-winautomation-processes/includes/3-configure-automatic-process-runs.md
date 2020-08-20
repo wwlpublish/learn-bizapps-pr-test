@@ -27,7 +27,7 @@ Recurring schedules are based on time intervals. After the chosen interval has p
 
 ## Triggers
 
-Triggers are used to run processes in response to certain events, rather than at a specified date or time. That's why they are used to automate a task that does not adhere to a strict schedule, but depends another factor, for example a specific kind of email message, a file or database change.
+Triggers are used to run processes in response to certain events, rather than at a specified date or time. That's why they are used to automate a task that does not adhere to a strict schedule, but depends another factor, for example a specific type of email message, a file or database change.
 
 Triggers can be accessed through the Triggers tab of the console. Select New to choose between the different available triggers.
  
