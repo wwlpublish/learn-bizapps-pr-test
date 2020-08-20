@@ -4,11 +4,11 @@ To open the Properties dialog for a process, perform one of the following action
 
 - Select the desired process and select the Process tab, Properties button. 
 
-![The Properties button in the console.](..\media\process-properties-button-console.png)
+  ![The Properties button in the console.](..\media\process-properties-button-console.png)
 
 - Right-click the process and select Edit process's properties.
 
-![The Edit process properties option in the right-click process menu.](..\media\process-properties-option-console.png)
+  ![The Edit process properties option in the right-click process menu.](..\media\process-properties-option-console.png)
 
 By the end of this module, you will be able to understand the various properties of processes and configure each process according to your needs. 
 
