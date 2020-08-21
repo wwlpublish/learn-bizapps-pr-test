@@ -79,8 +79,6 @@ Reports are viewed on many different devices, with varying screen sizes and aspe
 
      <!-- this gif uses the old report, not the app  ![Animted image of View menu options.](../media/lab-1/power-bi-view-options.gif)-->
 
-4.  There are several accessibility settings available from the View menu. These setting make reports easier to consume by people with color blindness or other sight challenges. From the **View** menu, select **High contrast colors** and choose one of the options. In the example below, we’ve chosen **High contrast #2**.
+4.  There are several accessibility settings available from the View menu. These setting make reports easier to consume by people with color blindness or other sight challenges. From the **View** menu, select **High contrast colors** and choose one of the options.
 
-<!--
-![Image of the high contrast view of a report.](../media/Lab-1/power-bi-high-contrast.png)
---->
+
