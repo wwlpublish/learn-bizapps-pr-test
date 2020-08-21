@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-options.3-backup-database 
+title: Back up and restore the database file
+metadata: 
+  title: Back up and restore the database file
+  description: Learn how to back up and restore the database file.
+  ms.date: 08/20/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate   
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-backup-database.md)] 

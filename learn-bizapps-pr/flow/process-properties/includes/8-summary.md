@@ -1,0 +1,1 @@
+WinAutomation process properties enable you to adjust how the platform handles each process. By applying process-level error handling, and setting individual concurrency policies for each process, you can make the WinAutomation platform flexible and productive.

@@ -88,7 +88,7 @@ Once you have a trained model, then you can interact with the model in your flow
 
 ## Security and Administration
 
-To manage security for Power Automate log into [https://admin.flow.microsoft.com/](https://admin.flow.microsoft.com/) From the Power Platform admin center you have full access to Power Automate tenant wide. You have the ability to create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas. The admin center gives you management capabilities across Power Automate.
+To manage security for Power Automate log into [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) From the Power Platform admin center you have full access to Power Automate tenant wide. You have the ability to create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas. The admin center gives you management capabilities across Power Automate.
 
 Power Automate also offers a full set of PowerShell cmdlets. These cmdlets allow you deeper controls and to work better in large-scale scenarios. Using the cmdlets for auditing gives you more control and insight on Power Automate's usage throughout your tenant.
 

@@ -43,7 +43,7 @@ and opening each section on the left-hand side of the portal:
 2.  Select **Admin center** under the gear, as shown.
 
     > [!TIP]
-    > You can go directly to the Power Apps Admin center at <https://admin.powerapps.com> and then sign in.
+    > You can go directly to the Power Apps Admin center at <https://admin.powerplatform.microsoft.com> and then sign in.
 
     ![Gear Menu Admin center Selection](../media/admin-center.png)   
 

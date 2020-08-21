@@ -50,7 +50,7 @@ By default, you can access an environment in one of two ways:
 
 Environment admins can create other security roles as needed. They can also add and assign users to these roles.
 
-1. Start by going to <a href="https://admin.powerapps.com" target="_blank">admin.powerapps.com</a>
+1. Start by going to <a href="https://admin.powerplatform.microsoft.com" target="_blank">https://admin.powerplatform.microsoft.com</a>
 2. On the left pane, **Environments** should be selected by default, if it is not, select **Environments**.
 3. Select the test environment that you just created, and then select the **Security** tab.
 4. Add the user by entering the email address of the user in your organization and then selecting **Add user**. 
