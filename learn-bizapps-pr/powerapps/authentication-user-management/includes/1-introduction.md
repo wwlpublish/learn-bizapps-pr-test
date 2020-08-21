@@ -45,7 +45,7 @@ Portal users are not defined when Power Apps portals is provisioned. You, the pe
    > [!div class="mx-imgBorder"]
    > [![Sign in using Azure AD](../media/sign-azure-ad.png)](../media/sign-azure-ad.png#lightbox)
 
-- If it's the first time that Azure AD authentication is being used, you might be prompted to provide a consent for the portals web app to access user information. You can consent on behalf of the organization so that individual users won't be prompted.
+- If it's the first time that Azure AD authentication is being used, you might be prompted to provide consent for the portals web app to access user information. You can consent on behalf of the organization so that individual users won't be prompted.
 
 - Locate and open the contact record that you created. The contact record will have the same email address as the signed in Azure AD user.
 - Go to **Related > Web Roles**. Associate the **Administrators** web role with the contact.
