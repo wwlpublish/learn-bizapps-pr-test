@@ -7,7 +7,7 @@ Local authentication is the common forms-based authentication that uses contact 
 When external authentication is used, credentials and password management are handled by external identity providers. Supported authentication protocols include:
 
 - WS-Federation and SAML 2.0
-- OAuth2 (Microsoft, Twitter, Facebook, Google, LinkedIn, Yahoo )
+- OAuth2 (Microsoft, Twitter, Facebook, Google, LinkedIn, Yahoo)
 - OpenID Connect (Azure AD, Azure AD B2C)
 
 ## Authentication and provider configuration
