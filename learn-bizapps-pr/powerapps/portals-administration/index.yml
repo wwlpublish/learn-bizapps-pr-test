@@ -2,7 +2,7 @@
 uid: learn-bizapps.portals-administration 
 metadata: 
  title: Power Apps portals administration
- description: This module will focus on the Power Apps Portals administration and using the Power Apps portals admin center. There are a number of other actions and features than can be enabled to enhance portal functionality.
+ description: This module will focus on the Microsoft Power Apps Portals administration and using the Power Apps admin center. Additional actions and features are available that you can use to enhance portal functionality.
  ms.date: 07/14/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,14 +11,14 @@ metadata:
 title: Power Apps portals administration
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module will focus on the Power Apps Portals administration and using the Power Apps portals admin center. There are a number of other actions and features than can be enabled to enhance portal functionality.
+  This module will focus on the Microsoft Power Apps Portals administration and using the Power Apps admin center. Additional actions and features are available that you can use to enhance portal functionality.
 abstract: |  
     In this module, you will: 
-    - Identify the various admin center actions and capabilities for configuring a Power Apps portal.
-    - Understand how to configure key portal features such as custom domain names.
-    - Manage SSL certificates and custom domain name.
+    - Identify the various Power Apps admin center actions and capabilities for configuring a Power Apps portal.
+    - Learn how to configure key portal features such as custom domain names.
+    - Manage SSL certificates and custom domain names.
     - Differentiate key features such as maintenance mode and IP address restriction.
-prerequisites: Target audience should have basic understanding and usage of the Power Platform administration, solutions and how data is stored in Common Data Service. Knowledge of web technologies such as SSL, custom URLs, IP addresses, etc. will also be beneficial.
+prerequisites: Basic understanding and usage of Microsoft Power Platform administration and solutions and how data is stored in Common Data Service. Knowledge of web technologies such as SSL, custom URLs, IP addresses, and so on, will also be beneficial.
 iconUrl: /learn/achievements/portals-administration.svg  
 levels:  
 - intermediate   

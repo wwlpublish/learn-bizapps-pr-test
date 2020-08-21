@@ -1,0 +1,45 @@
+### YamlMime:Module 
+uid: learn-bizapps.run-winautomation-processes 
+metadata: 
+ title: Run WinAutomation processes
+ description: This module covers the basic options available in WinAutomation for running processes.
+ ms.date: 08/21/2020  
+ author: rokontol  
+ ms.author: rokontol  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Run WinAutomation processes
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Learn about the different options for running a WinAutomation process.
+abstract: |  
+    In this module, you will: 
+    - Start a process manually through the console
+    - Configure the automatic execution of processes
+    - Start processes through command line, through other processes, and through Power Automate
+    - Review audit logs regarding process execution
+prerequisites: |
+    - Basic familiarity with the WinAutomation console
+    - Power Automate account
+iconUrl: /learn/achievements/winautomation-execution-essentials.svg  
+levels:  
+- beginner   
+roles:  
+- administrator
+- maker  
+- business-user  
+- developer 
+- functional-consultant
+products:  
+- power-platform
+- power-automate
+units: 
+- learn-bizapps.run-winautomation-processes.1-introduction 
+- learn-bizapps.run-winautomation-processes.2-run-process-console 
+- learn-bizapps.run-winautomation-processes.3-configure-automatic-process-runs
+- learn-bizapps.run-winautomation-processes.4-other-ways-start-processes
+- learn-bizapps.run-winautomation-processes.5-review-process-logs-audits 
+- learn-bizapps.run-winautomation-processes.6-check-your-knowledge 
+- learn-bizapps.run-winautomation-processes.7-summary 
+badge: 
+  uid: learn-bizapps.winautomation-execution-essentials.badge 

@@ -1,48 +1,48 @@
-The purpose of this hands-on-lab is to demonstrate adding JavaScript code to a page to render data from Common Data Service as a chart using an 3rd-party charting library. The data is retrieved from Common Data Service using a web template acting as a REST API endpoint.
+The purpose of this hands-on lab is to demonstrate how to add JavaScript code to a page to render data from Common Data Service as a chart by using another charting library. The data has been retrieved from Common Data Service by using a web template that acts as a REST API endpoint.
 
-The exercises work best when you have some sample data to work with. Depending on the environment, you are working with, you may want to install some sample data to assist with exercises. Power Platform does provide the ability to add sample data as needed. If the environment you are working in does not have any sample data installed, follow steps in [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) to install the sample data into your environment.
+The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Power Platform does provide the ability to add sample data as needed. If the environment that you are working in doesn't have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install the sample data into your environment.
 
 ## Learning objectives
 
-At the end of these exercises, you will be able to accomplish the following:
+At the end of these exercises, you will be able to:
 
-* Build a web page that acts as a REST endpoint returning data from Common Data Service
-* Add inline code to a content web page to retrieve the data using the endpoint
-* Use an external JavaScript library to consume the data retrieved
+- Build a webpage that acts as a REST endpoint that returns data from Common Data Service.
+- Add inline code to a content webpage to retrieve the data by using the endpoint.
+- Use an external JavaScript library to consume the retrieved data.
 
 **Estimated time to complete this exercise**: 15 to 20 minutes
 
-## Before we begin
 
 ### Prerequisites
 
-For this exercise you will need to have the following in your environment:
+For this exercise, make sure that the following parameters are set up in your environment:
 
-* A Power Apps portal provisioned. If you do not have a Power Apps portal available, follow [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal) instructions to create one.
-* Access to the Power Apps maker portal.
+- A Power Apps portal that is provisioned. If you do not have a Power Apps portal available, follow the [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal) instructions to create one.
+- Access to the Power Apps maker portal.
 
 ### High-level steps
 
-To finish the exercise you need to complete the following tasks:
+To finish the exercise, complete the following tasks:
 
-1. Create a Web Template with Liquid code to retrieve data about accounts in the Common Data Service and return the data in JSON format.
-1. Add Page Template and Web Page records that use the Web Template above.
-1. Open a content page and add JavaScript code retrieving the data above.
-1. Add a charting library to the page and JavaScript code using the library to build a graph using the data retrieved.
+1. Create a web template with Liquid code to retrieve data about accounts in Common Data Service and then return the data in JSON format.
+1. Add **Page Template** and **Web Page** records that use the web template that you created.
+1. Open a content page and add JavaScript code that retrieves the data.
+1. Add a charting library to the page and JavaScript code by using the library to build a graph with the retrieved data.
 
-### Detailed steps
 
-#### Create web template
+#### Create a web template
+
+To create a web template, follow these steps:
 
 1. Open [Dynamics 365 Home](https://home.dynamics.com/?azure-portal=true).
 1. Select the Portals Management app.
 1. Select **Web Templates**.
-1. Press **+ New**.
+1. Select **+ New**.
 1. Enter the following values:
-   * **Name**: getAccounts
-   * **Website**: Select your current website
-   * **Source**: enter the following content
-   * **MIME Type**: application/json
+   - **Name** - getAccounts
+   - **Website** - Select your current website
+   - **Source** - Enter the following content
+   - **MIME Type** - application/json
 
     ```twig
     {% fetchxml accounts %}
@@ -70,76 +70,83 @@ To finish the exercise you need to complete the following tasks:
 
 This Liquid code retrieves the list of accounts and then generates a data structure in JSON format. The data structure is already prepared for plotting by assigning appropriate labels to data points:
 
-* **name**: company name
-* **x**: number of employees
-* **y**: company revenue in $1,000s
-* **z**: revenue per employee (calculated)
+- **name** - Company name
+- **x** - Number of employees
+- **y** - Company revenue in thousands
+- **z** - Revenue for each employee (calculated)
 
-#### Create page template and web page
+#### Create a page template and a webpage
+
+To create a page template and a webpage, follow these steps:
 
 1. Select **Page Templates**.
-1. Press **+ New**.
+1. Select **+ New**.
 1. Enter the following values:
-    * **Name**: getAccounts
-    * **Website**: Select your current website
-    * **Type**: Select **Web Template**
-    * **Web Template**: Select **getAccounts**
-    * **Use Website Header and Footer**: Clear the checkbox
-1. Press **Save & Close**.
+    - **Name** - getAccounts
+    - **Website** - Select your current website
+    - **Type** - Select **Web Template**
+    - **Web Template** - Select **getAccounts**
+    - **Use Website Header and Footer** - Clear the check box
+1. Select **Save & Close**.
 1. Select **Web Pages**.
-1. Press **+ New**.
+1. Select **+ New**.
 1. Enter the following values:
-    * **Name**: getAccounts
-    * **Website**: Select your current website
-    * **Parent Page**: Select **Home**
-    * **Partial URL**: getAccounts
-    * **Page Template**: getAccounts
-    * **Publishing State**: Published
-1. Press **Save & Close**.
+    - **Name** - getAccounts
+    - **Website** - Select your current website
+    - **Parent Page** - Select **Home**
+    - **Partial URL** - getAccounts
+    - **Page Template** - getAccounts
+    - **Publishing State** - Published
+1. Select **Save & Close**.
 
 > [!IMPORTANT]
-> If you have not configured entity permissions for account entity previously, your API page will return an empty array. Complete the next task to set up the permissions if you have not done so previously.
+> If you have not previously configured entity permissions for the account entity, your API page will return an empty array. Complete the next task to set up the permissions if you have not done so previously.
 
 #### Add entity permissions
 
-1. Switch to Portal Management app.
+To add entity permissions, follow these steps:
+
+1. Switch to the Portal Management app.
 1. Select **Entity Permissions**.
-1. Press **+ New**.
+1. Select **+ New**.
 1. Enter the following values:
-    * **Name**: Account Directory
-    * **Entity Name**: Select account entity
-    * **Website**: Select your current website
-    * **Scope**: Select Global
-    * **Privileges**: Select Read
-1. Press **Save**.
-1. Scroll to **Web Roles** subgrid.
-1. Press **Add Existing Web Role**.
+    - **Name** - Account Directory
+    - **Entity Name** - Select account entity
+    - **Website** - Select your current website
+    - **Scope** - Select **Global**
+    - **Privileges** - Select **Read**
+1. Select **Save**.
+1. Scroll to the **Web Roles** subgrid.
+1. Select **Add Existing Web Role**.
 1. Locate and select **Anonymous users** and **Authenticated users**.
-1. Press **Add**.
+1. Select **Add**.
 
-#### Test the REST web page
+#### Test the REST webpage
 
-1. Navigate to `https://yourportal.powerappsportals.com/getAccounts`.
-2. Your output should look like the following:
+Go to `https://yourportal.powerappsportals.com/getAccounts`.
 
-    > [!div class="mx-imgBorder"]
-    > [![REST API data sent by a portal page](../media/rest-data.png)](../media/rest-data.png#lightbox)
+Your output should look like the following example:
+
+   > [!div class="mx-imgBorder"]
+   > [![REST API data sent by a portal page](../media/rest-data.png)](../media/rest-data.png#lightbox)
 
 #### Add code to retrieve the data
 
-1. Open Power Apps portal Studio in a new browser tab. You can follow these steps:
-    1. Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
-    1. Select the target environment using the environment selector in the top right-hand corner.
-    1. From the list of Apps select the application of type **Portal**.
-    1. Click the **Edit** menu.
-1. Select the **Pages** icon on the toolbelt on the left-hand side.
-1. Select an existing page from the hierarchy, for example **Product B** located under **Services** page.
+To add code to retrieve the data, follow these steps:
+
+1. Open Power Apps portals Studio in a new browser tab and then follow these steps:
+    1. Go to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
+    1. Select the target environment by using the environment selector in the upper-right corner.
+    1. From the **Apps** list, select the application of type **Portal**.
+    1. Select the **Edit** menu.
+1. Select the **Pages** icon on the tool belt on the left side.
+1. Select an existing page from the hierarchy, for example **Product B** located under the **Services** page.
     > [!NOTE]
-    > The names and hierarchy of pages on your portal may differ.
-1. Select **Page Copy** area on the page.
-1. Select **Components** on the toolbelt.
+    > The names and hierarchy of pages on your portal might differ.
+1. Select the **Page Copy** area on the page.
+1. Select **Components** on the tool belt.
 1. Select **One-column section**.
-1. Select added section and press **Source code editor** icon.
+1. Select **Added section** and then select the **source code editor** icon.
 1. Insert the following code as the content of the innermost **div** element:
 
     ```html
@@ -154,24 +161,24 @@ This Liquid code retrieves the list of accounts and then generates a data struct
     </script>
     ```
 
-1. Press **Save**.
-1. Press **Browse website**.
-1. When the page is displayed, press F12 to display browser developer tools.
-1. Verify that console output contains the same data as previously retrieved by the REST API page.
+1. Select **Save**.
+1. Select **Browse website**.
+1. When the page is displayed, press the **F12** key to display browser developer tools.
+1. Verify that the console output contains the same data as previously retrieved by the REST API page.
 
     > [!div class="mx-imgBorder"]
     > [![REST API data retrieved by a content page](../media/console-output.png)](../media/console-output.png#lightbox)
 
 > [!IMPORTANT]
-> If you have not configured entity permissions for account entity previously, your API call will return an empty array. Make sure you have completed **Add entity permissions** task.
+> If you have not previously configured entity permissions for the account entity, your API call will return an empty array. Make sure that you have completed the **Add entity permissions** task.
 
-#### Add 3rd party library functionality
+#### Add external library functionality
 
-We will use Highcharts.js library (free for personal or non-profit use) to create a bubble chart based on the data.
+This exercise uses Highcharts.js library (free for personal or non-profit use) to create a bubble chart based on the data.
 
-1. Switch to Portal Studio.
-1. Locate and open the content page you modified earlier.
-1. Select the section you modified earlier.
+1. Switch to portals Studio.
+1. Locate and open the content page that you previously modified.
+1. Select the section that you previously modified.
 1. Insert the following code either above or below the previous code:
 
     ```html
@@ -182,7 +189,7 @@ We will use Highcharts.js library (free for personal or non-profit use) to creat
       </figure>
     ```
 
-1. Modify **makeChart** function as following:
+1. Modify the **makeChart** function as follows:
 
     ```javascript
     function makeChart(rData) {
@@ -216,9 +223,9 @@ We will use Highcharts.js library (free for personal or non-profit use) to creat
     }
     ```
 
-1. Press **Save**.
-1. Press **Browse website**.
-1. The output should now include the bubble chart. Hover over the bubbles to verify the data:
+1. Select **Save**.
+1. Select **Browse website**.
+1. The output should now include the bubble chart. Hover over the bubbles to verify the data.
 
 > [!div class="mx-imgBorder"]
 > [![Bubble chart using Common Data Service data](../media/chart.png)](../media/chart.png#lightbox)
