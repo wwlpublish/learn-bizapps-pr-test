@@ -41,7 +41,7 @@ quiz:
     - content: Register for Forums notifications
       isCorrect: false 
       explanation: Unless the user's email is confirmed, it cannot be used for password resets or two-factor authentication. None of the other tasks require the email to be confirmed.
-  - content: You need to invite a group of 50 contacts from the same company to register on your portal. Which registration method would you use?
+  - content: You want to invite a group of 50 contacts from the same company to register on your portal. Which registration method would you use?
     choices: 
     - content: Closed Registration
       isCorrect: false 
