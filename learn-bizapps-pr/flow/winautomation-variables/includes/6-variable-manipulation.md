@@ -57,4 +57,4 @@ Logical operators can also be used to check multiple conditions simultaneously, 
 
 If you want to change the operators' priority, you can use parentheses. parentheses are handled the same way as in algebra and programming languages.
 
-![The populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-parenthesses.png)
+![The populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-parentheses.png)
