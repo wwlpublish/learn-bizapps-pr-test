@@ -7,7 +7,7 @@ Below is visualization to bring together the many offerings of Common Data Servi
 
 As you can see, Common Data Service offers a great deal of functionality. Below is a brief explanation of each category of features.
 
-**Security**: Common Data Service handles authentication with Azure Active Directory (AAD) to allow for conditional access and multi-factor authentication. It supports authorization down to the row and field level and provides rich auditing capabilities. 
+**Security**: Common Data Service handles authentication with Azure Active Directory (Azure AD) to allow for conditional access and multi-factor authentication. It supports authorization down to the row and field level and provides rich auditing capabilities. 
 
 **Logic**: Common Data Service allows you to easily apply business logic at the data level. Regardless of how a user is interacting with the data, the same rules apply. These rules could be related to duplicate detection, business rules, workflows, or more.
 
