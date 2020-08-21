@@ -1,0 +1,1 @@
+The WinAutomation Options tab provides a wide variety of configurations and enables you to adjust the platform to your needs. By applying custom error handling behavior and creating a concurrency policy, you can make running processes more productive and robust to errors.
