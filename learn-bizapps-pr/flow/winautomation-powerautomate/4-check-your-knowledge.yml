@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 10/08/2020 
+ ms.date: 08/24/2020 
  author: olegmelnykov 
  ms.author: olmelnyk 
  ms.topic: interactive-tutorial 
@@ -13,15 +13,15 @@ durationInMinutes: 5
 quiz:
   title: Answer the following questions to see what you've learned.
   questions:
-  - content: "Command line arguments must be separated by a comma."
+  - content: "Command-line arguments must be separated by a comma."
     choices:
     - content: "True"
       isCorrect: false
-      explanation: 'Your answer is incorrect. When entering command line arguments, they should be in double quotes (""), and separated by a space.'
+      explanation: 'Your answer is incorrect. When entering command-line arguments, they should be in double quotes (""), and separated by a space.'
     - content: "False"
       isCorrect: true
       explanation: "That is correct!"
-  - content: "What type of variable does the WinAutomation Action 'Get Command Line Arguments' return?"
+  - content: "What type of variable does the WinAutomation Action 'Get Command-Line Arguments' return?"
     choices:
     - content: "Data Table"
       isCorrect: false
