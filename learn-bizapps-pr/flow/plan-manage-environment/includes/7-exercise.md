@@ -8,7 +8,7 @@ Introduction to Power Automate security and governance module, which is the
 first module of this learning path. In addition, you should review the DLP 
 prerequisites that were outlined at the beginning of this module.
 
-1.  Sign in to the [Power Automate Admin Center](https://admin.flow.microsoft.com/?azure-portal=true) as an environment or tenant administrator.
+1.  Sign in to the [Power Automate Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true) as an environment or tenant administrator.
 
 2.  Select **Data policies** from the left navigation pane.
 
