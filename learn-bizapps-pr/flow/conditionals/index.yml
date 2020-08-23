@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.conditionals
 metadata: 
- title: Adjust process behavior using Conditional actions
- description: Learn how to use conditional actions to allow you to configure a process to vary behavior at runtime, based on the information available in the environment.
+ title: Adjust process behavior using conditional actions
+ description: Learn how to use conditional actions to configure a process to vary behavior at runtime based information in the environment.
  ms.date: 08/07/2020
  author: rokontol
  ms.author: rokontol
  ms.topic: interactive-tutorial
  ms.prod: learning-power-automate
-title: Adjust process behavior using Conditional actions
+title: Adjust process behavior using conditional actions
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Conditional actions allow processes to modify their behavior during runtime, based on the information available to it at the time.
+  Conditional actions allow you to modify process actions at runtime, based on information available in the environment.
 abstract: |  
     In this module, you will: 
-    - Use the “If” group of conditionals to evaluate any type of condition
-    - Deploy the “Switch” group of conditionals in order to compare a single variable with multiple possible values
+    - Use "If" conditionals
+    - Deploy “Switch” conditionals in order to compare a single variable with multiple possible values
     - Explore additional options when evaluating conditions
-    - Provide default and alternative behaviors to Processes based on the available data
+    - Provide default and alternative behaviors for processes based on the environment data
 prerequisites: |
     - Basic familiarity with the WinAutomation Process Designer
 iconUrl: /learn/achievements/conditionals.svg  

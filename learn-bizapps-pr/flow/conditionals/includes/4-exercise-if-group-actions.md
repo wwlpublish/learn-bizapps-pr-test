@@ -1,34 +1,25 @@
-As stated above, the **If** group of Actions contains multiple Actions, which enable the user to set a variety of initial conditions, such as checking the existence of files and folders, text on the screen, running Windows processes and services, and so on.
+In this exercise, you will apply some of the If actions available, in order to identify the capabilities they offer.
 
-In this exercise, you will apply some of the **If** Actions available, in order to identify the capabilities they offer.
+1. Use a **Get Special Folder** action to retrieve the path to the desktop.
 
-### Step 1
-Use a **Get Special Folder** Action to retrieve the path to the Desktop.
+2. Check whether a folder named **Records** exists in the desktop. To do this, use the **If Folder Exists** action, and configure its input as follows:
 
-### Step 2
-Check whether a folder named **Records** exists in the Desktop. To do this, use the **If Folder Exists** Action, and configure its input as follows:
+    ![If records folder exists](..\media\if-records-folder-exists.png)
 
-![If records folder exists](..\media\if-records-folder-exists.png)
+3. Inside the **If** block, add an **If File Exists** action to check if the **Expenses** Excel file exists inside the **Records** folder. Configure it as follows:
 
-### Step 3
-Inside the **If** block, add an **If File Exists** Action to check if the **Expenses** Excel file exists inside the **Records** folder. Configure it as follows:
+    ![If expenses file exists](..\media\if-expenses-file-exists.png)
 
-![If expenses file exists](..\media\if-expenses-file-exists.png)
+4. This, of course, will only run if the Folder exists. By this stage, your process should look like this:
 
-This, of course, will only run if the Folder exists.
+    ![Initial process structure](..\media\initial-process-structure.png)
 
-By this stage, your Process should look like this:
+5. If the file exists, move it to the desktop folder using the **Move Files** action. Otherwise, the user should be notified; add an **Else** action inside the second if block, and a **Display Message** action to inform the user that the file has already been moved:
 
-![Initial process structure](..\media\initial-process-structure.png)
+    ![Initial process structure](..\media\initial-process-structure.png)
 
-### Step 4
-If the file exists, move it to the Desktop folder using the **Move File(s)** Action. Otherwise, the user should be notified; add an **Else** action inside the second if block, and a **Display Message** action to inform the user that the file has already been moved:
+6. Finally, in case the folder itself does not exist, add an **Else** action inside the first **If** block, and a second **Display Message** action to inform the user that the **Records** folder does not exist:
 
-![Initial process structure](..\media\initial-process-structure.png)
-
-### Step 5
-Finally, in case the folder itself does not exist, add an **Else** Action inside the first **If** block, and a second **Display Message** Action to inform the user that the **Records** folder does not exist:
-
-![Outside else display message](..\media\outside-else-display-message.png)
+    ![Outside else display message](..\media\outside-else-display-message.png)
     
-Run the Process, trying different scenarios, to examine the Process’ behavior each time. 
+7. We suggest that you run the process, trying different scenarios. 

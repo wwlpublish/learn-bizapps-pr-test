@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.conditionals.1-introduction 
-title: Introduction to Conditionals
+title: Introduction to conditional actions
 metadata: 
-  title: Introduction to Conditionals
-  description: Introduction to conditionals and the 'If' group of Actions.
+  title: Introduction to conditional actions
+  description: Introduction to conditionals and the 'If' group of actions.
   ms.date: 08/07/2020 
   author: rokontol 
   ms.author: rokontol 

@@ -1,7 +1,7 @@
-Conditional Actions allow Processes to modify their behavior during runtime, based on the available data. they are divided into two major categories in WinAutomation:
-* The **If** group of Actions
-* The **Switch** group of Actions
+Conditional actions allow you to modify process actions at runtime, based on information available in the environment. They are divided into two major categories in WinAutomation:
+* The If group of actions
+* The Switch group of actions
 
-**Switch** may be used to compare a single variable to multiple values, while **If** allows more diverse comparisons.
+Switch may be used to compare a single variable to multiple values, while If allows more diverse comparisons.
 
-All conditionals allow the definition of one or more alternative comparisons, as well as a final, unconditional alternative, to run when none of the alternative conditions have been met.
+All conditionals allow the definition of one or more alternative comparisons, as well as a final, unconditional alternative, to run when none of the conditions have been met.
