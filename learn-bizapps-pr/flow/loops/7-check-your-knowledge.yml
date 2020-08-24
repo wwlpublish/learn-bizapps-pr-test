@@ -31,10 +31,10 @@ quiz:
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: "That is correct! For Each repeats once for each iten in a list or data table."
+      explanation: "That is correct! For Each repeats once for each item in a list or data table."
     - content: "False"
       isCorrect: false 
-      explanation: "That is false; For Each repeats once for each iten in a list or data table."
+      explanation: "That is false; For Each repeats once for each item in a list or data table."
   - content: "A loop condition block will keep repeating until the specified condition is met."
     choices: 
     - content: "True"
