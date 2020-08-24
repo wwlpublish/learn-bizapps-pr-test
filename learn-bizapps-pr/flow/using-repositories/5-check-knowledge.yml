@@ -21,17 +21,17 @@ quiz:
     - content: "False"
       isCorrect: true 
       explanation: "Well done! Through the Controls Repository, you can create web and UI controls."
-  - content: "Through the Images Repository, you can NOT:"
+  - content: "Through the Images Repository, you can:"
     choices: 
     - content: "Upload images from your desktop."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Images Repository does not allow you to upload images from your desktop."
+    - content: "Capture images immediately or with a delay."
       isCorrect: true 
-      explanation: "Well done! The Images Repository does not allow you to upload images from your desktop."
-    - content: "Capture images."
+      explanation: "Well done! . The Images Repository allows you to capture images immediately or with a delay."
+    - content: "Capture images immediately only."
       isCorrect: false 
-      explanation: "Your answer is incorrect. The Images Repository allows you to capture images."
-    - content: "Capture image with delay."
-      isCorrect: false 
-      explanation: "Your answer is incorrect. The Images Repository allows you to capture images with delay."
+      explanation: "Your answer is incorrect. The Images Repository also allows you to capture images with delay."
   - content: "A control can contain multiple selectors in case one of them fails"
     choices: 
     - content: "True"

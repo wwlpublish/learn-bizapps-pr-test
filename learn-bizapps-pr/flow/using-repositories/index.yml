@@ -14,14 +14,14 @@ summary: |
   WinAutomation enables you to interact with any desktop or web application through controls and images. The created controls and images are stored in the repositories. 
 abstract: |
     In this module, you will: 
-    - Create controls through the Controls Repository.
-    - Capture images through the Images Repository.
+    - Create controls by using the Controls repository.
+    - Capture images in the Images repository.
     - Create multiple selectors for a control. 
     - Edit selectors. 
 
 prerequisites: |
   - Installed WinAutomation.
-  - Basic understanding of the Console.
+  - Basic understanding of the console.
   - Basic understanding of the Process Designer.
 
 iconUrl: /learn/achievements/using-repositories.svg  
