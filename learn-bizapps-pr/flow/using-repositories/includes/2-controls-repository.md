@@ -1,4 +1,4 @@
-The Controls Repository stores all the controls used in UI and web automation actions, such as buttons and checkboxes. When a new process is created, the Controls Repository is empty. To create a new control, you can use one of the following methods.
+The Controls repository stores all the controls used in UI and web automation actions, such as buttons and checkboxes. When a new process is created, the Controls repository is empty. To create a new control, you can use one of the following methods.
 
 ![The Controls Repository in the Process Designer.](..\media\process-designer-controls-repository.png)
 
@@ -8,7 +8,7 @@ Use the **Add Control** button in the **Controls Repository**.
 
 1.	Click the **Add Control** button.
 
-    ![The Add Control button in the Controls Repository.](..\media\controls-repository-add-control-button.png)
+    ![The Add Control button in the Controls repository.](..\media\controls-repository-add-control-button.png)
 
 1.	Use the **Live Helpers** (orange boxes) and select the desired element.
 
@@ -16,7 +16,7 @@ Use the **Add Control** button in the **Controls Repository**.
 
 1.	Press **Ctrl + Left Click** while the desired element is selected to create the control. 
 
-    ![The created control in the Controls Repository.](..\media\created-control-controls-repository.png)
+    ![The created control in the Controls repository.](..\media\created-control-controls-repository.png)
 
     Although the procedure is the same for web and UI/Windows controls, the created selectors are different. Web controls consist of CSS selectors, while the UI/Windows controls consist of UI selectors. 
 
@@ -56,7 +56,7 @@ To create multiple selectors for a control, double-click the desired control and
 
 Lastly, WinAutomation allows you to develop CSS selectors manually. This feature can be useful in web applications in which particular actions cannot be captured using the **Web Helpers**.
 
-1.	Select on the arrow next to the **Add Control** button in the **Controls Repository** and select **Add Empty Root Control**.
+1.	Select on the arrow next to the **Add Control** button in the **Controls repository** and select **Add Empty Root Control**.
 
     ![The Add Empty Root Control in the Controls Repository.](..\media\add-empty-root-control-controls-repository.png)
 
