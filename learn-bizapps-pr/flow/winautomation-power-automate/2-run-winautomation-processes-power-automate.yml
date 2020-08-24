@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.winautomation-powerautomate.2-run-winautomation-processes-powerautomate 
+uid: learn-bizapps.winautomation-power-automate.2-run-winautomation-processes-power-automate 
 title: Run a WinAutomation process from Power Automate
 metadata: 
   title: Run a WinAutomation process from Power Automate
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 15 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/2-run-winautomation-processes-powerautomate.md)] 
+ [!include[](includes/2-run-winautomation-processes-power-automate.md)] 
