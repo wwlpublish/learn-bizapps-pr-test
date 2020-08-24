@@ -47,9 +47,9 @@ Filtering can be based on dynamic values, making it a great option to display pe
 
 - **tileid** - Displays the specified tile of the dashboard. You must provide the ID of the tile.
 
-```twig
-{% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001" tileid:"00000000-0000-0000-0000-000000000002" %}
-```
+   ```twig
+   {% powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/dashboards/00000000-0000-0000-0000-000000000001"     tileid:"00000000-0000-0000-0000-000000000002" %}
+   ```
 
 Before adding the Power BI report or dashboard to a webpage in a portal, you must share it with the required users.
 
