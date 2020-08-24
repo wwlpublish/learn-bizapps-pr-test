@@ -13,33 +13,33 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "If the number of repetitions is known in advance which type of Loop should be used?"
+  - content: "If the number of repetitions is known in advance which type of loop should be used?"
     choices: 
-    - content: "Loop Condition"
+    - content: "Loop condition"
       isCorrect: false
-      explanation: "That is false; the Loop action is ideal for a known number of repetitions."
+      explanation: "That is false; the loop action is ideal for a known number of repetitions."
     - content: "Loop"
       isCorrect: true 
-      explanation: "That is correct! The Loop action is ideal for a known number of repetitions."
+      explanation: "That is correct! The loop action is ideal for a known number of repetitions."
     - content: "For Each"
       isCorrect: false 
-      explanation: "That is false; the Loop action is ideal for a known number of repetitions."
+      explanation: "That is false; the loop action is ideal for a known number of repetitions."
     - content: "Any of the above"
       isCorrect: false 
-      explanation: "That is false; the Loop action is ideal for a known number of repetitions."
+      explanation: "That is false; the loop action is ideal for a known number of repetitions."
   - content: "The actions contained within a For Each loop repeat for each item in a list or data table."
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: "That is correct! For Each repeats once for each iten in a list or data table."
+      explanation: "That is correct! For Each repeats once for each item in a list or data table."
     - content: "False"
       isCorrect: false 
-      explanation: "That is false; For Each repeats once for each iten in a list or data table."
-  - content: "A Loop Condition block will keep repeating until the specified condition is met."
+      explanation: "That is false; For Each repeats once for each item in a list or data table."
+  - content: "A loop condition block will keep repeating until the specified condition is met."
     choices: 
     - content: "True"
       isCorrect: false
-      explanation: "That is false; Loop Condition repeats as long as the specified condition is true."
+      explanation: "That is false; loop condition repeats as long as the specified condition is true."
     - content: "False"
-      isCorrect: false 
-      explanation: "That is correct! Loop Condition repeats as long as the specified condition is true."
+      isCorrect: true 
+      explanation: "That is correct! loop condition repeats as long as the specified condition is true."
