@@ -6,7 +6,7 @@ Power BI reports and dashboards can be added and configured in Power Apps portal
 
 Adding components such as entity lists, entity forms, and Microsoft Power BI will add the corresponding Liquid tags to a portal page. Liquid markup language also has several Common Data Service-specific tags that allow you to add items that don't appear as components such as model-driven charts and web forms.
 
-The IFrame component allows for integration of other Microsoft technologies such as Power Virtual Agents and even canvas Power Apps to add to a Power Apps portal page.  
+The Iframe component allows for integration of other Microsoft technologies such as Power Virtual Agents and even canvas Power Apps to add to a Power Apps portal page.  
 
 > [!div class="mx-imgBorder"]
 > [![Embedded Canvas App](../media/embedded-canvas-app.png)](../media/embedded-canvas-app.png#lightbox)
