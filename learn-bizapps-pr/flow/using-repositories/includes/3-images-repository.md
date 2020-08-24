@@ -1,20 +1,20 @@
-This Images Repository is used to store images used in deployed actions, such as **Wait for Image** or **Move Mouse to Image** actions. The **Images Repository** is located in the **Process Designer**. 
+This Images repository is used to store images used in deployed actions, such as **Wait for Image** or **Move Mouse to Image** actions. The **Images repository** is located in the **Process Designer**. 
 
 ![The Images Repository.](..\media\process-designer-images-repository.png)
 
-To capture a new image, you can use the **Images Repository** or do it directly through a related action.
+To capture a new image, you can use the **Images repository** or do it directly through a related action.
 
 ## Capture an image in the Images repository
 
-To capture an image through the **Images Repository**:
+To capture an image through the **Images repository**:
 
 1.	Select **Capture Image**. 
 
-    ![The Capture Image button in the Images Repository.](..\media\images-repository-capture-image-button.png)
+    ![The Capture Image button in the Images repository.](..\media\images-repository-capture-image-button.png)
 
 1.	Optional: If you want to take a screenshot with delay, click on the arrow next to the button and select **Capture Image With Delay**. 
 
-    ![The Capture Image With Delay button in the Images Repository.](..\media\images-repository-capture-image-with-delay-button.png)
+    ![The Capture Image With Delay button in the Images repository.](..\media\images-repository-capture-image-with-delay-button.png)
 
 1.	Use your mouse to take a screenshot of the desired area.
 
@@ -31,7 +31,7 @@ To capture an image through an action:
 
     ![The Wait for Image action in the workspace.](..\media\wait-for-image-action-workspace.png)
 
-1.	Open the action’s properties and select **Add Image From Images Repository**. 
+1.	Open the action’s properties and select **Add Image From Images repository**. 
 
     ![The Add Image From Images Repository button in the action's properties.](..\media\wait-for-image-action-properties-add-image.png)
 
