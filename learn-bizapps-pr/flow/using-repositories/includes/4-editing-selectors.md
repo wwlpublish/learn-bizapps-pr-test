@@ -10,7 +10,7 @@ Sometimes, you may need to perform small adjustments to the selectors in order t
 
 1.	In the **Selector Builder** window, you can choose the attributes that you want to be included in the selector. In the **Operation** column, you can select how the value will be related to the attribute. 
 
-    ![The Edit button in the control's management window.](..\media\selector-builder-window-attributes.png.png)
+    ![The Edit button in the control's management window.](..\media\selector-builder-window-attributes.png)
 
     In case the given attributes do not cover your needs, you can select to edit the selector with the **Custom Builder**. You can find the respective option in the dropdown menu on the top part of the window. 
 
