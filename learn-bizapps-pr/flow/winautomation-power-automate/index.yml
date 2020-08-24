@@ -1,5 +1,5 @@
 ### YamlMime:Module 
-uid: learn-bizapps.winautomation-powerautomate
+uid: learn-bizapps.winautomation-power-automate
 metadata: 
  title: Combine WinAutomation and Power Automate
  description: This module describes how to use the WinAutomation connector to run WinAutomation from a Power Automate flow.
@@ -23,7 +23,7 @@ prerequisites: |
     - A device that runs Windows 10 Pro, Windows Server 2016, or Windows Server 2019.
     - Microsoft Edge (version 80 or later) or other supported browser.
     - An environment with a Common Data Service database. 
-iconUrl: /learn/achievements/winautomation-powerautomate.svg  
+iconUrl: /learn/achievements/winautomation-power-automate.svg  
 levels:  
 - beginner   
 roles:  
@@ -35,10 +35,10 @@ products:
 - power-automate
 - power-platform
 units: 
-- learn-bizapps.winautomation-powerautomate.1-introduction 
-- learn-bizapps.winautomation-powerautomate.2-run-winautomation-processes-powerautomate 
-- learn-bizapps.winautomation-powerautomate.3-exercise-create-flow-call-winautomation 
-- learn-bizapps.winautomation-powerautomate.4-check-your-knowledge 
-- learn-bizapps.winautomation-powerautomate.5-summary 
+- learn-bizapps.winautomation-power-automate.1-introduction 
+- learn-bizapps.winautomation-power-automate.2-run-winautomation-processes-power-automate 
+- learn-bizapps.winautomation-power-automate.3-exercise-create-flow-call-winautomation 
+- learn-bizapps.winautomation-power-automate.4-check-your-knowledge 
+- learn-bizapps.winautomation-power-automate.5-summary 
 badge: 
-  uid: learn-bizapps.winautomation-powerautomate.badge 
+  uid: learn-bizapps.winautomation-power-automate.badge 
