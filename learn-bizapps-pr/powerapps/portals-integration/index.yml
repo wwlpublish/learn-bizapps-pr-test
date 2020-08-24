@@ -2,7 +2,7 @@
 uid: learn-bizapps.portals-integration 
 metadata: 
  title: Integrate Power Apps portals with web-based technologies
- description: Instances might occur where you need to integrate your portal to web-based technologies to extend the scope of your application. This module will focus on explaining the process and options to integrate a Power Apps portal with related technologies such as SharePoint, Microsoft Power BI, model-driven charts, and others.
+ description: Learn how to integrate Power Apps portals with web-based technologies.
  ms.date: 07/14/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -14,7 +14,7 @@ summary: |
   Instances might occur where you need to integrate your portal to web-based technologies to extend the scope of your application. This module will focus on explaining the process and options to integrate a Power Apps portal with related technologies such as SharePoint, Microsoft Power BI, model-driven charts, and others.
 abstract: |  
     In this module, you will: 
-    - Discover how to use the IFrame component to link to other cloud-based technologies.
+    - Discover how to use the Iframe component to link to other cloud-based technologies.
     - Learn how to configure portal integration to SharePoint document libraries.
     - Learn how to embed Power BI reports on a Power Apps portals page.
     - Learn how to enhance a portal page with model-driven charts.
