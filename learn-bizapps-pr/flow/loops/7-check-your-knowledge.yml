@@ -41,5 +41,5 @@ quiz:
       isCorrect: false
       explanation: "That is false; loop condition repeats as long as the specified condition is true."
     - content: "False"
-      isCorrect: false 
+      isCorrect: true 
       explanation: "That is correct! loop condition repeats as long as the specified condition is true."
