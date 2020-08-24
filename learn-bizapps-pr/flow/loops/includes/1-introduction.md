@@ -6,7 +6,7 @@ In this module, you will learn about the use of loops, and how the different typ
 
 By the end of this module, you will be able to understand the differences between the different loop types, and use them to automate repetitive tasks with ease.
 
-## Learning Objectives
+## Learning objectives
 
 In this module, you will:
 * Use simple loops to perform a given number of repetitions and iterate through data
