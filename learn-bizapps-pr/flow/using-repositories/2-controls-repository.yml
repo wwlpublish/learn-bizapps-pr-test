@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.using-repositories.2-controls-repository 
-title: "The Controls Repository: How to create controls"
+title: Create controls using the Controls repository
 metadata: 
-  title: "The Controls Repository: How to create controls"
-  description: "The Controls Repository: How to create controls"
+  title: Create controls using the Controls repository
+  description: Learn to create controls in the Controls repository.
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
