@@ -45,10 +45,10 @@ quiz:
     choices: 
     - content: 'True'
       isCorrect: true 
-      explanation: Power Virtual Agents can be added by using the IFrame component.
+      explanation: Power Virtual Agents can be added by using the Iframe component.
     - content: 'False'
       isCorrect: false 
-      explanation: Power Virtual Agents can be added by using the IFrame component.
+      explanation: Power Virtual Agents can be added by using the Iframe component.
   - content: Document management in Power Apps portals works with what version of SharePoint?
     choices: 
     - content: SharePoint 2013 or above
