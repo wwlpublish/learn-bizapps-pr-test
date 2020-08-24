@@ -1,0 +1,1 @@
+The WinAutomation repositories enable you to create web and desktop automations, as well as use images in your processes. This functionality allows you to create more advanced processes and automate successfully various business procedures.

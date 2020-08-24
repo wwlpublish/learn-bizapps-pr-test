@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.using-repositories.3-images-repository 
+title: Capture images in the Images repository
+metadata: 
+  title: Capture images in the Images repository
+  description: Learn how to capture images in the Images repository. 
+  ms.date: 08/24/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-images-repository.md)] 
