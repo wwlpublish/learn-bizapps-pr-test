@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.portals-access-common-data-service.3-entity-forms 
-title: Interact with Common Data Service data using entity forms
+title: Use entity forms to interact with Common Data Service data
 metadata: 
-  title: Interact with Common Data Service data using entity forms 
-  description: Learn how to interact with Common Data Service data using entity forms.  
+  title: Use entity forms to interact with Common Data Service data 
+  description: Learn how to interact with Common Data Service data by using entity forms.  
   ms.date: 07/10/2020 
   author: DaveBeasley 
   ms.author: dbeasley 
