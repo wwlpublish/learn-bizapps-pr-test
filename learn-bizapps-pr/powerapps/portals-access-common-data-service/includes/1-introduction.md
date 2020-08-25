@@ -6,7 +6,7 @@ Consider the following scenarios:
 
 - You have extended case management features of Dynamics 365 Customer Service. Your app now handles product warranties, return management authorization (RMA), refunds, and product replacements. You can extend the Customer self-service portal to bring this functionality to your customers, allowing them to register the warranty, make a claim, fill in an RMA form directly on the site, and so on.
 - You have built an application in Common Data Service to track charitable donations, from both individual and corporate donors, and fundraising campaigns. You can build a portal to allow individuals to donate online and for employers to view and match their employees' donations.
-- You use Common Data Service to track the progress of your certification programs from the application process, to the evaluation of various skill assessments, to awarding a certification level to a candidate. A Power Apps portal can be configured to allow online applications, provide access to accessors to update evaluations, and allow candidates to view their progress.
+- You use Common Data Service to track the progress of your certification programs from the application process, to the evaluation of various skill assessments, to awarding a certification level to a candidate. A Power Apps portal can be configured to allow online applications, provide access to update evaluations, and allow candidates to view their progress.
 
 > [!NOTE]
 > A Power Apps portal can only access Common Data Service data in the same instance where the portal is provisioned. Connecting to multiple instances and accessing data across the instances or across the tenants is not supported.
