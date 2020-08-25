@@ -77,7 +77,7 @@ Your next task is to create a webpage to contain the **Entity Forms** component 
 
 To add and configure a form component, follow these steps:
 
-1. On the canvas, select the **page copy** component, and then from the toolbelt, select **Components**.
+1. On the canvas, select the **page copy** component, and then from the tool belt, select **Components**.
 1. In the **Portal components** section, select the **Form** component.
 1. In the Properties pane, enter the following values for the **Form component**:
 
