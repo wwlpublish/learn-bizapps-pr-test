@@ -24,7 +24,7 @@ levels:
 roles:  
 - maker  
 products:  
-- dynamics  
+- power-platform
 - power-virtual-agents 
 units: 
 - learn-bizapps.enhance-power-virtual-agent-bots.1-introduction 
