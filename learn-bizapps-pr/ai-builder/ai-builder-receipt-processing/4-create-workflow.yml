@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.ai-builder-receipt-processing.4-create-workflow 
-title: Create an automated workflow using Receipt processing
+title: Create an automated workflow by using Receipt processing
 metadata: 
-  title: Create an automated workflow using Receipt processing
-  description: Learn to create an automated workflow using Receipt processing.
+  title: Create an automated workflow by using Receipt processing
+  description: Learn how to create an automated workflow by using Receipt processing.
   ms.date: 07/20/2020 
   author: heyrob 
   ms.author: robde 
