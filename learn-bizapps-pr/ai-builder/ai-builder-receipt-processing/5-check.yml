@@ -13,7 +13,7 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which is an example of a type of receipt not supported by Receipt processing?
+  - content: Which one of the following selections is an example of a type of receipt that is not supported by Receipt processing?
     choices: 
     - content: Restaurant receipts
       isCorrect: false 
@@ -27,7 +27,7 @@ quiz:
     - content: Retail receipts
       isCorrect: false 
       explanation: Full page receipts, such as hotel receipts or invoices, are not supported.
-  - content: You need to make some prior configurations before you can use Receipt processing in your apps or flows.
+  - content: You need to make configurations prior to using Receipt processing in your apps or flows. (True or False)
     choices: 
     - content: 'True'
       isCorrect: false 
@@ -35,7 +35,7 @@ quiz:
     - content: 'False'
       isCorrect: true 
       explanation: No training or prior configuration is required to use Receipt processing.
-  - content: What kind of information can you extract from a receipt when using Receipt processing?
+  - content: What type of information can you extract from a receipt when using Receipt processing?
     choices: 
     - content: Commonly used receipt fields
       isCorrect: false 
