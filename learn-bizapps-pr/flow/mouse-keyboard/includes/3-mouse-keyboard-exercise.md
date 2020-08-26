@@ -27,7 +27,7 @@ The process will:
     * {Apps} will open the context menu in the PC window
     * {R} will select and open properties
 
-    ![take screenshot exercise part five](..\media\take-screenshot-exercise-part-five.png)
+     ![take screenshot exercise part five](..\media\take-screenshot-exercise-part-five.png)
 
 1. Add the **Take Screenshot** action. Set **Capture** to **Foreground Window**, **Save Screenshot to** to **File**, **Image File** to **%SpecialFolder%\screen.jpg** and **Image Format** to **Jpg**.
  
