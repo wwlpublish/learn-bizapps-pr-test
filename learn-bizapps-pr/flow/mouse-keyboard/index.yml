@@ -1,24 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.mouse-keyboard
 metadata: 
- title: Manipulate the mouse and keyboard in a process
- description: This module shows how to use the WinAutomation mouse and keyboard Actions.
+ title: Simulate mouse and keyboard actions by using WinAutomation
+ description: Learn how to use WinAutomation to simulate mouse and keyboard actions.
  ms.date: 12/08/2020
  author: olegmelnykov  
  ms.author: olmelnyk
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Manipulate the mouse and keyboard in a process
+title: Simulate mouse and keyboard actions by using WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module shows how to create processes which simulate the use of mouse movement, clicks, typing and key presses. Additionally, the module demonstrates how to select and locate a specific image or area on the screen with the mouse. 
+  Learn how to create processes that simulate mouse movement and clicks, as well as typing and key presses. This module also describes how to select and locate a specific image or area on the screen with the mouse. 
 abstract: |  
     In this module, you will: 
-    - Learn how to create a process which simulates human interaction with a PC
-    - Learn how to automate mouse movement and clicks
+    - Learn how to create a process that simulates human interaction with a PC
+    - Learn how to automate simulated mouse movement and clicks
     - Learn how to select and locate a specific image or area on the screen with the mouse
-    - Learn how to emulate typing or key presses in a process
-    - Combine the above in a process which mimics the use of a mouse and keyboard by the user
+    - Learn how to emulate typing or key presses
 prerequisites: |
     - Basic familiarity with WinAutomation
     - Basic familiarity with the WinAutomation Process Designer Image Repository

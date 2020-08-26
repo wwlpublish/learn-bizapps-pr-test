@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.mouse-keyboard.3-mouse-keyboard-exercise 
-title: Mouse and keyboard exercise
+title: Exercise - Simulate mouse and keyboard actions
 metadata: 
-  title: Mouse and keyboard exercise
-  description: An exercise on mouse and keyboard actions
+  title: Exercise - Simulate mouse and keyboard actions
+  description: Try simulating mouse and keyboard actions
   ms.date: 12/08/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
