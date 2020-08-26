@@ -4,9 +4,9 @@ In this unit, you'll learn how to use the error handling capabilities of WinAuto
 
 ## Individual processes error handling (Level 3)
 
-When an exception persists after exception handling at the action and block level, the process encounters an error, and is interrupted. At that point, you can create error handling for each individual process .
+When an exception persists after exception handling at the action and block level, the process encounters an error, and is interrupted. At that point, you can create error handling for each individual process.
 
-To set up error handlig, find the process in the console, open its properties, and then navigate to the **Error Handling** tab.
+To set up error handling, find the process in the console, open its properties, and then navigate to the **Error Handling** tab.
 
 ![The Error Handling tab in the Process Properties.](..\media\error-handling-process-properties.png)
 

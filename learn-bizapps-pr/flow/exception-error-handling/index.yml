@@ -2,8 +2,8 @@
 uid: learn-bizapps.exception-error-handling
 metadata: 
  title: Configure exception and error handling in WinAutomation
- description: In this module, we'll discuss how to configure exception and error handling behaviour. 
- ms.date: 08/07/2020  
+ description: In this module, we'll discuss how to configure exception and error handling behavior. 
+ ms.date: 08/27/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
@@ -11,13 +11,13 @@ metadata:
 title: Configure exception and error handling in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Exception and error handling is a mechanism which allows WinAutomation to handle and recover from unexpected circumstances and issues that might occur during the execution of a process. 
+  Exception and error handling is a mechanism that allows WinAutomation to handle and recover from unexpected circumstances and issues that might occur during the execution of a process. 
 abstract: |  
     In this module, you will: 
     - Configure the exception handling properties of individual actions.
-    - Set up exception blocks which will handle possible exceptions from groups of actions.
+    - Set up exception blocks that will handle possible exceptions from groups of actions.
     - Configure the error handling properties of individual processes.
-    - Apply global error handling properties which will come into effect when any process fails.
+    - Apply global error handling properties that will come into effect when any process fails.
 prerequisites: |
     - Basic familiarity with the WinAutomation Console and Process Designer.
 iconUrl: /learn/achievements/exceptions-handling.svg  

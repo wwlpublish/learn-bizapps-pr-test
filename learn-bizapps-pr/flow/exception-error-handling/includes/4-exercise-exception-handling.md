@@ -29,7 +29,7 @@ If this computer's internet connectivity is at fault, the process will end. If n
 
 Having ensured that the **Download from Web** action will run as intended, let’s proceed to the part of the process that utilizes Excel to modify the file’s data.
 
-After the file is opened, a series of actions are performed on its contents. Due to hardware limitations and the size of the data, the performance of the computer where this task is run is sometimes reduced, which causes Excel to become unresponsive. For this reason, you will have to add exception handling to all the Excel-related actions, because there is no single action which poses the risk.
+After the file is opened, a series of actions are performed on its contents. Due to hardware limitations and the size of the data, the performance of the computer where this task is run is sometimes reduced, which causes Excel to become unresponsive. For this reason, you will have to add exception handling to all the Excel-related actions, because there is no single action that poses the risk.
 
 To achieve this, add a **Begin Exception Block** action after the file is opened, and configure it so that it runs the **Restart Excel** function, and then repeats the failed action:
 

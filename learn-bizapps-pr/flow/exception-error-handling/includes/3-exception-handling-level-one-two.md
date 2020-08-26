@@ -16,7 +16,7 @@ In this tab, you will be able to configure each action’s exception handling be
 
 ![The populated Exception Handling tab in the Open SQL Connection action's properties.](..\media\open-sql-connection-action-properties-all-exceptions.png)
 
-In the above case, for example, when this action fails, it will retry two more times, three seconds apart, and then run a function which will send an email to notify the administrator about the database status.
+In the above case, for example, when this action fails, it will retry two more times, three seconds apart, and then run a function that will send an email to notify the administrator about the database status.
 
 By default, exception handling takes effect when any exception occurs while this action is running - however, you can configure it so that exception handling occurs only on a specific type of exception. Each action has specific exception types that it may produce:
 
