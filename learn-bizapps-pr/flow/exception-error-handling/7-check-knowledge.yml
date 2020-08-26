@@ -35,7 +35,7 @@ quiz:
     - content: "False"
       isCorrect: false 
       explanation: "That is false; global error handling affects all processes that do not have individual error handling settings configured."
-   - content: "Which level(s) can be configured only in the Console?"
+    - content: "Which level(s) can be configured only in the Console?"
     choices: 
     - content: Process and global level
       isCorrect: false 
