@@ -6,7 +6,7 @@ In this module, you will learn about the use of message boxes, and how they can 
 
 By the end of this module, you will be able to deploy the appropriate message boxes in automated Processes, to facilitate communication between users and Processes.
 
-## Learning Objectives
+## Learning objectives
 
 In this module, you will:
 * Familiarize yourself with the various preset message boxes actions
