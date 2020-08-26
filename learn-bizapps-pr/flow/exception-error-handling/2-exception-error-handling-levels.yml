@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.exception-error-handling.2-exception-error-handling-levels 
-title: The 4 levels of exception and error handling
+title: Levels of exception and error handling in WinAutomation
 metadata: 
-  title: The 4 levels of exception and error handling
-  description: The 4 levels of exception and error handling
+  title: Levels of exception and error handling in WinAutomation
+  description: Levels of exception and error handling in WinAutomation
   ms.date: 08/07/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

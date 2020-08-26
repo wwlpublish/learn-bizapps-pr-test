@@ -13,12 +13,12 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "If a process has its own error handling settings configured, and the global error handling settings in the Console settings are also configured, what happens when the process crashes?"
+  - content: "If a process has its own error handling settings configured, and the global error handling settings in the console settings are also configured, what happens when the process crashes?"
     choices: 
     - content: "The process' error handling settings take effect."
       isCorrect: true 
       explanation: "Correct! A process' individual error handling overrides the global error handling."
-    - content: "The global (Console's) error handling settings take effect."
+    - content: "The global error handling settings take effect."
       isCorrect: false 
       explanation: "That is false; a process' individual error handling overrides the global error handling."
     - content: "The process' settings, and then the global settings, take effect."
