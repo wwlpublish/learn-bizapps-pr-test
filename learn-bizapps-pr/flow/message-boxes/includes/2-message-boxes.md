@@ -1,4 +1,4 @@
-Message boxes enable real-time interaction between users and processes. **message boxes** actions can be used both to provide input to processes, as well as provide output to the users.
+Message boxes enable real-time interaction between users and processes. Message boxes actions can be used both to provide input to processes, as well as provide output to the users.
 
 We will examine both cases in the following paragraphs.
 
@@ -32,7 +32,7 @@ When the process is complete, the user is notified:
 
 ## Input actions
 
-Another important function of **message boxes** actions is allowing users to provide input to the process.
+Another important function of message boxes actions is allowing users to provide input to the process.
 
 User input may come in many forms – text, date and time, files and folders, forms, etc. Each of these input types corresponds to a different message box action in WinAutomation.
 
