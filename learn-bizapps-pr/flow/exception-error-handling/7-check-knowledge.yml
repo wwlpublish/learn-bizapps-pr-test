@@ -35,21 +35,17 @@ quiz:
     - content: "False"
       isCorrect: false 
       explanation: "That is false; global error handling affects all processes that do not have individual error handling settings configured."
-   - content: "Which level(s) can be configured only in the Console?" |
-          "a.	Actions level
-           b.	Block of actions level
-           c.	Process level
-           d.	Global level"
+   - content: Which level(s) can be configured only in the Console?
     choices: 
-    - content: "A and B"
+    - content: Process and global level
       isCorrect: false 
       explanation: "That is false; both the actions level and the block of actions level are configured in the Process Designer."
-    - content: "B and C"
+    - content: Global and action level
       isCorrect: false 
       explanation: "That is false; the block of actions level is configured in the Process Designer."
-    - content: "C and D"
+    - content: Process and global level
       isCorrect: true 
       explanation: "That is true; both the process level and the global level are configured in the Console."
-    - content: "D"
+    - content: Process level
       isCorrect: false 
       explanation: "That is false; the process level is also configured in the Console."
