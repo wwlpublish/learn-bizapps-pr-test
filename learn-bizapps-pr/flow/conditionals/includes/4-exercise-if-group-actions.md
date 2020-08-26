@@ -10,7 +10,7 @@ In this exercise, you will apply some of the If actions available, in order to i
 
     ![If expenses file exists](..\media\if-expenses-file-exists.png)
 
-4. This, of course, will only run if the Folder exists. By this stage, your process should look like this:
+4. This will only run if the Folder exists. By this stage, your process should look like this:
 
     ![Initial process structure](..\media\initial-process-structure.png)
 

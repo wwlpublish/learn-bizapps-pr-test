@@ -8,8 +8,8 @@ First, we open the Excel report and determine the range of the data. Then, we wi
 
 Now, for each of these rows, the maximum response time must be calculated. The company’s service level agreements (SLAs) are as follows:
 * Free users get a response within 30 days of submitting a ticket
-* Basic users get a response within 7 days
-* Premium users get a response within 1 day
+* Basic users get a response within seven days
+* Premium users get a response within one day
 
 Also, any ticket marked as urgent must receive a response within 12 hours, regardless of the user’s subscription plan.
 

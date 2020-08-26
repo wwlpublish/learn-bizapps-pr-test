@@ -20,7 +20,7 @@ Thus, the simplest If structure is as below:
 
 Configured this way, Action #2 will only run if the %UrgentCell% variable contains the value **Urgent**.
 
-Some initial conditions in the If group are **If**, **If File Exists**, **If Window Contains**, **If Text on Screen** actions. All conditional blocks in the **If** group end with the **End If** Action.
+Some initial conditions in the If group are **If**, **If File Exists**, **If Window Contains**, **If Text on-Screen** actions. All conditional blocks in the **If** group end with the **End If** Action.
 
 Alternative conditions may be added using the **Else If** Action; these conditions will only be considered if all the previous conditions were false. For example, in the process below, the Subscription cell will only be selected if the initial condition is not met; in this case, if the %UrgentCell% variable does not contain the value **Urgent**:
 
