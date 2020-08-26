@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 08/07/2020 
+ ms.date: 08/27/2020 
  author: georgiostrantzas 
  ms.author: getrantz 
  ms.topic: interactive-tutorial 
@@ -13,12 +13,12 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "If a process has its own error handling settings configured, and the global error handling settings in the Console settings are also configured, what happens when the process crashes?"
+  - content: "If a process has its own error handling settings configured, and the global error handling settings in the console settings are also configured, what happens when the process crashes?"
     choices: 
     - content: "The process' error handling settings take effect."
       isCorrect: true 
       explanation: "Correct! A process' individual error handling overrides the global error handling."
-    - content: "The global (Console's) error handling settings take effect."
+    - content: "The global error handling settings take effect."
       isCorrect: false 
       explanation: "That is false; a process' individual error handling overrides the global error handling."
     - content: "The process' settings, and then the global settings, take effect."
@@ -31,10 +31,10 @@ quiz:
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: "That is correct! Global error handling affects all processes which do not have individual error handling settings configured."
+      explanation: "That is correct! Global error handling affects all processes that do not have individual error handling settings configured."
     - content: "False"
       isCorrect: false 
-      explanation: "That is false; global error handling affects all processes which do not have individual error handling settings configured."
+      explanation: "That is false; global error handling affects all processes that do not have individual error handling settings configured."
   - content: "Which level(s) can be configured only in the Console?
 a.	Actions level
 b.	Block of actions level
