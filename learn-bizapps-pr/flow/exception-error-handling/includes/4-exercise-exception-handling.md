@@ -19,7 +19,7 @@ The **Exception Handling** tab should look like this:
 ![The Exception Handling tab in the Download from Web action's properties.](..\media\download-from-web-action-properties.png)
  
 If this action fails, it will first retry two times, 3 seconds apart. 
-If all retries fail, the **Check Web Access** function will run. This function has been designed to ping [www.microsoft.com](www.microsoft.com), to check whether there are issues with web connectivity - if the ping action produces a **Failed** result, a log entry is created in a text file on the user’s desktop, and the process is stopped.
+If all retries fail, the **Check Web Access** function will run. This function has been designed to ping [https://www.microsoft.com](https://www.microsoft.com), to check whether there are issues with web connectivity - if the ping action produces a **Failed** result, a log entry is created in a text file on the user’s desktop, and the process is stopped.
 
 ![The created process in the Workspace.](..\media\workspace.png)
 
