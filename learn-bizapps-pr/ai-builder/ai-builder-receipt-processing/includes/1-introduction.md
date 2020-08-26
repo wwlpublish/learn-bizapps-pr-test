@@ -9,10 +9,10 @@ The prebuilt AI model uses state-of-the-art optical character recognition (OCR) 
 
 The AI model also provides all recognized text on the receipt, which is useful if you are looking for fields that might be customized to a subset of your receipts.
 
-No training or prior configuration is required to use Receipt processing; you only need to provide an image or a PDF file, and the model will instantly return the results.
+No training or prior configuration is required to use receipt processing; you only need to provide an image or a PDF file, and the model will instantly return the results.
 
 Only English receipts from the United States are currently supported. Full page receipts, such as hotel receipts or invoices, are not supported. For best results, limit your photos to only one receipt for each image and take the photo in adequate lighting conditions.
 
 ### Next steps
 
-Now that you have learned about the basics of Receipt processing, you can learn more about the different business problems that you can solve with it.
+Now that you have learned about the basics of receipt processing, you can learn more about the different business problems that you can solve with it.
