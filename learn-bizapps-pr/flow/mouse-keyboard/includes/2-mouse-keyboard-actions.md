@@ -23,7 +23,7 @@ You can use this action to add multiple images. When an action includes multiple
 1. Occurrence determines which occurrence of the image the action should move the mouse to. 
 1. Optionally, the coordinates of the image found can be stored in two separate variables
 
-![Move Mouse to Image action properties](..\media\move-mouse-image-action-properties.png)
+   ![Move Mouse to Image action properties](..\media\move-mouse-image-action-properties.png)
 
 In the **Advanced** tab, an action can be set to wait for an image to appear onscreen as well as a duration for the wait. Also, a left mouse click can be sent after moving the cursor to the image. The click can occur immediately after the cursor has been moved to the image or it can be delayed by the specified number of seconds.
  
@@ -43,7 +43,7 @@ In the **Advanced** tab, an action can be set to wait for an image to appear ons
 1. The action creates four output variables; two that store the coordinates of the text found on screen 
 1. The other two hold the dimensions of the area occupied by the text
 
-![Move Mouse to Text on Screen action properties](..\media\move-mouse-text-screen-action-properties.png)
+   ![Move Mouse to Text on Screen action properties](..\media\move-mouse-text-screen-action-properties.png)
 
 In the **Advanced** tab, determine whether the action should wait for an image to appear onscreen and for how long to wait before it fails. Also, select whether to send a left mouse click after moving the cursor to the image. The click can occur immediately upon the cursor moving to the image or it can be delayed by a number of seconds. Use the graphical tool and the x and y offset fields to determine whether the cursor should move to the center or another area of the text. 
  
