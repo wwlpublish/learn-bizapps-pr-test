@@ -24,11 +24,11 @@ The process will:
 
     * This PC will type the text “This PC” into the Start Menu search
     * {Enter} will simulate pressing the enter key to open this PC
-    * {Apps} will open the context menu in the this PC window
+    * {Apps} will open the context menu in the PC window
     * {R} will select and open properties
 
-![take screenshot exercise part five](..\media\take-screenshot-exercise-part-five.png)
+    ![take screenshot exercise part five](..\media\take-screenshot-exercise-part-five.png)
 
 1. Add the **Take Screenshot** action. Set **Capture** to **Foreground Window**, **Save Screenshot to** to **File**, **Image File** to **%SpecialFolder%\screen.jpg** and **Image Format** to **Jpg**.
  
-1. Runing the process will result in the screen.jpg file being placed on the current user’s desktop.
+1. Running the process will result in the screen.jpg file being placed on the current user’s desktop.

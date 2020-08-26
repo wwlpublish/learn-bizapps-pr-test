@@ -1,6 +1,6 @@
 In some cases, web pages and applications require physical clicks or keystrokes to perform certain operations. You can simulate the use of a mouse and keyboard to automate these tasks.
 
-Simulating mouse and keyboard actions provides an alternative when automating tasks in software that doesn't support UI and Web actions. This options allows businesses to automate any application.
+Simulating mouse and keyboard actions provides an alternative when automating tasks in software that doesn't support UI and Web actions. This option allows businesses to automate any application.
 
 WinAutomation offers a variety of actions that enable you to simulate mouse and keyboard operations such as cursor movements, mouse clicks, and typing.
 
