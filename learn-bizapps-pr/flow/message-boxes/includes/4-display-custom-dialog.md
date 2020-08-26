@@ -42,8 +42,8 @@ The Display Custom Dialog action allows the creation of a fully customizable inp
  
     ![custom dialog designer date selector](..\media\custom-dialog-designer-date-selector.png)
     
-
-    > ![populate text field in window properties exercise](..\media\populate-text-field-in-window-properties-exercise.png)
+>   
+    ![populate text field in window properties exercise](..\media\populate-text-field-in-window-properties-exercise.png)
 
 1. Configure the buttons in the Custom Dialog so that they provide the functionality we designed.
 
