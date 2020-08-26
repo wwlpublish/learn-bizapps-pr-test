@@ -60,9 +60,8 @@ In the **Advanced** tab, determine whether the action should wait for an image t
 
 ![Send Keys action properties](..\media\Send-Keys-action-properties.png)
 
-[!NOTE]
-To send a key, rather than text, use curly brackets, and capitalize it.
-for example: Entering {Control}({A}) in Text to Send will perform the Select All function.
+> [!NOTE]
+> To send a key, rather than text, use curly brackets, and capitalize it. For example: Entering {Control}({A}) in Text to Send will perform the Select All function.
 
 **Press/Release Key** enables you to combine mouse and keyboard actions to perform more advanced gestures, such as Control+click or Shift+click. Configure the action to simulate pressing and holding one or any combination of the keys Control, Alt, Shift and/or the Windows key.
 
