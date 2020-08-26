@@ -1,66 +1,61 @@
-There are certain scenarios where interacting with a user requires a more customized approach; providing multiple inputs of different types simultaneously, displaying a form window with customized UI, and allowing users to explicitly influence the flow of a Process are all possible needs during attended automation.
+There are certain scenarios where interacting with a user requires a more customized approach; providing multiple inputs of different types simultaneously, displaying a form window with customized UI, and allowing users to explicitly influence the flow of a process are all possible needs during attended automation.
 
-The **Display Custom Dialog** Action allows the creation of a fully customizable input form to accommodate such needs. To demonstrate, we will build a Process, which handles the onboarding of a new employee from an IT perspective.
+The Display Custom Dialog action allows the creation of a fully customizable input form to accommodate such needs. To demonstrate, we will build a process, which handles the onboarding of a new employee from an IT perspective.
 
-First, we add the **Display Custom Dialog** Action; the Custom Dialog Designer window opens automatically:
+1. Add the **Display Custom Dialog** action; the Custom Dialog Designer window opens automatically.
  
-![custom dialog designer](..\media\custom-dialog-designer.png)
+    ![custom dialog designer](..\media\custom-dialog-designer.png)
 
-On the left, we have a preview of the custom window; on the right, we can find all the available elements that can be added to the form, split in categories.
+1. On the left, we have a preview of the custom window; on the right, we can find all the available elements that can be added to the form, split in categories.
 
-We begin by adding a Title from the **Misc** category; simply click on the Title on the right, or drag and drop it into the form on the left:
+1. Add a Title from the **Misc** category; simply click on the Title on the right, or drag and drop it into the form on the left:
  
-![custom dialog designer misc](..\media\custom-dialog-designer-misc.png)
+    ![custom dialog designer misc](..\media\custom-dialog-designer-misc.png)
 
-Click on the Title that was added to the form to edit it:
+1. Select the title that was added to the form to edit it.
+
+    ![custom dialog designer header popout](..\media\custom-dialog-designer-header-popout.png)
  
-![custom dialog designer header popout](..\media\custom-dialog-designer-header-popout.png)
+    ![custom dialog designer employee details](..\media\custom-dialog-designer-employee-details.png)
 
+1. From the **Input** category, add an **Input** element, a **Password** element, and edit them as shown in the illustration.
  
-![custom dialog designer employee details](..\media\custom-dialog-designer-employee-details.png)
+    ![custom dialog designer input](..\media\custom-dialog-designer-input.png)
 
-From the **Input** category, we add an **Input** element, and a **Password** element, and edit them accordingly:
+1. Add a drop-down list to enter the employee’s department.
+
+    ![custom dialog designer combobox popout](..\media\custom-dialog-designer-combobox-popout.png)
+
+1. Add a date picker to enter the hire date, as well as a checkbox to designate whether the employee requires a company-issued phone; we use the **Date** and **Checkbox** elements respectively. 
  
-![custom dialog designer input](..\media\custom-dialog-designer-input.png)
+    ![custom dialog designer radios checkboxes](..\media\custom-dialog-designer-radios-checkboxes.png)
 
-Next, we will add a drop-down list to enter the employee’s department:
+1. Add two buttons; one to add the employee in question to the system, and one to end the process. For now, we will simply name the buttons accordingly, and customize their behavior in a later step. 
  
-![custom dialog designer combobox popout](..\media\custom-dialog-designer-combobox-popout.png)
+    ![custom dialog designer buttons](..\media\custom-dialog-designer-buttons.png)
 
-We will also add a date picker to enter the hire date, as well as a checkbox to designate whether the employee requires a company-issued phone; we use the **Date** and **Checkbox** elements respectively:
+1. Add the employee information to our software tool, we create a function named **Add Employee**. 
  
-![custom dialog designer radios checkboxes](..\media\custom-dialog-designer-radios-checkboxes.png)
+    ![add employee function workspace](..\media\add-employee-function-workspace.png)
 
-To complete the form, we will add two buttons; one to add the employee in question to the system, and one to end the Process. For now, we will simply name the buttons accordingly, and customize their behavior in a later step:
+1. Add Actions that make use of the Custom Dialog window’s input, using the ID of each element we added to the dialog.
  
-![custom dialog designer buttons](..\media\custom-dialog-designer-buttons.png)
+    ![custom dialog designer date selector](..\media\custom-dialog-designer-date-selector.png)
 
-To actually add the employee information to our software tool, we create a function named **Add Employee**:
+    ![populate text field in window properties exercise](..\media\populate-text-field-in-window-properties-exercise.png)
+
+1. Configure the buttons in the Custom Dialog so that they provide the functionality we designed.
+
+1. Edit the **Display Custom Dialog** action, select **Open Designer** to view the form, and click on the buttons to edit them.
+
+1. Configure the **Add Employee** button to run the function we created for that purpose, and the **Close** button to close the dialog when pressed.
  
-![add employee function workspace](..\media\add-employee-function-workspace.png)
+    ![custom dialog designer button group properties](..\media\custom-dialog-designer-button-group-properties.png)
 
-These Actions make use of the Custom Dialog window’s input, using the ID of each element we added to the dialog:
+1. Now the process is ready to run. When running, the form we designed pops up:
  
-![custom dialog designer date selector](..\media\custom-dialog-designer-date-selector.png)
+    ![custom dialog final](..\media\custom-dialog-final.png)
 
- 
-![populate text field in window properties exercise](..\media\populate-text-field-in-window-properties-exercise.png)
+1. Every time we enter an employee’s details and press the **Add Employee** button, the function we created launches the application and enters the employee’s details into the system.
 
-Now, all that is left is to configure the buttons in the Custom Dialog so that they provide the functionality we designed.
-
-Edit the **Display Custom Dialog** Action, select **Open Designer** to view the form, and click on the buttons to edit them.
-
-We will now configure the **Add Employee** button to run the function we created for that purpose, and the **Close** button to close the dialog when pressed:
- 
-![custom dialog designer button group properties](..\media\custom-dialog-designer-button-group-properties.png)
-
-Now the Process is ready to run. When running, the form we designed pops up:
- 
-![custom dialog final](..\media\custom-dialog-final.png)
-
-Every time we enter an employee’s details and press the **Add Employee** button, the function we created launches the application and enters the employee’s details into the system.
-
-Finally, when all employees have been added, we press **Close** to close the dialog.
- 
- 
- 
+1. When all employees have been added, we press **Close** to close the dialog.

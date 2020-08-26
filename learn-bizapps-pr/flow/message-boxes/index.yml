@@ -1,20 +1,20 @@
 ### YamlMime:Module 
 uid: learn-bizapps.message-boxes 
 metadata: 
- title: Communicate using message boxes in WinAutomation
+ title: Communicate using message boxes in WinAutomation processes
  description: In this module, we will discuss the use of message boxes in automated processes.
  ms.date: 08/07/2020  
  author: rokontol  
  ms.author: rokontol  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Communicate using message boxes in WinAutomation
+title: Communicate using message boxes in WinAutomation processes
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Message boxes can be used to interact with a user to either request input, or provide output.
+  Message boxes can be used to interact with a user to either request input, or to provide output.
 abstract: |  
     In this module, you will:
-    - Familiarize yourself with the various preset Message Boxes Actions
+    - Familiarize yourself with the various preset message box actions
     - Create your own customized message box
 prerequisites: |
 iconUrl: /learn/achievements/message-boxes.svg  
