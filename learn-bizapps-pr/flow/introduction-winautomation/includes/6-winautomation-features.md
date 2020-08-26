@@ -38,7 +38,7 @@ When a user is present at a workstation, more often than not, there's a need to 
  
 Apart from simple dialog boxes or message display, WinAutomation is equipped with a built-in UI designer.
 
-The US designer allows the process creator to customize dialog boxes. This is only limited by the user's CSS expertise. 
+The UI designer allows the process creator to customize dialog boxes. This is only limited by the user's CSS expertise. 
 
 The user can form elements such as text fields, checkboxes, radio buttons, dropdown lists or buttons.
 
