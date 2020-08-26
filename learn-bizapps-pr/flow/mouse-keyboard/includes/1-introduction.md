@@ -4,7 +4,7 @@ Simulating mouse and keyboard actions provides an alternative when automating ta
 
 WinAutomation offers a variety of actions that enable you to simulate mouse and keyboard operations such as cursor movements, mouse clicks, and typing.
 
-## Learning Objectives
+## Learning objectives
 You will learn:
 * How to create a process that simulates human interaction with a PC
 * How to automate mouse movement and clicks
