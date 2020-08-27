@@ -64,7 +64,7 @@ To assign these roles to users, navigate to the workspace you've created and, on
 > [!div class="mx-imgBorder"]
 > [![Workspace Access](../media/02-workspace-access-3-ss.png)](../media/02-workspace-access-3-ss.png#lightbox)
 
-In the resulting window, you can add email addresses of individual users, mail-enabled security groups, distribution lists, O365 Modern Groups, and regular security groups and assign them their specific roles. You can also change the user's assigned role at the bottom, as well as delete the user from the workspace here by selecting the ellipsis by their name.
+In the resulting window, you can add email addresses of individual users, mail-enabled security groups, distribution lists, Microsoft 365 Groups, and regular security groups and assign them their specific roles. You can also change the user's assigned role at the bottom, as well as delete the user from the workspace here by selecting the ellipsis by their name.
 
 > [!div class="mx-imgBorder"]
 > [![Workspace roles window](../media/02-workspace-app-7-ss.png)](../media/02-workspace-app-7-ss.png#lightbox)

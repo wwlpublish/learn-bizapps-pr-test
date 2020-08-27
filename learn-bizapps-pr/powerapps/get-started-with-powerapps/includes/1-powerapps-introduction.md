@@ -8,7 +8,7 @@ Welcome to Microsoft Power Apps. This self-paced, online module helps you build 
 
 In this introductory module, you'll learn how to create an app from data in an Excel workbook. As a prerequisite, you'll download a workbook that contains sample data. Next, you'll upload the workbook to Microsoft OneDrive for Business, where you can share the data with others. Then, you'll build the app without using code.
 
-Power Apps is a suite of apps, services, connectors, and a data platform that provides you with an opportunity to build custom apps for your business needs. By using Power Apps, you can quickly build custom business apps that connect to your business data that is stored either in the underlying data platform (Common Data Service) or in various online and on-premises data sources (SharePoint, Excel, Office 365, Dynamics 365, SQL Server, and so on).
+Power Apps is a suite of apps, services, connectors, and a data platform that provides you with an opportunity to build custom apps for your business needs. By using Power Apps, you can quickly build custom business apps that connect to your business data that is stored either in the underlying data platform (Common Data Service) or in various online and on-premises data sources (SharePoint, Excel, Microsoft 365, Dynamics 365, SQL Server, and so on).
 
 Apps that are built by using Power Apps provide rich business logic and workflow capabilities to transform your manual business processes to digital, automated processes. Power Apps simplifies the custom business app building experience by enabling users to build feature-rich apps without writing code.
 
