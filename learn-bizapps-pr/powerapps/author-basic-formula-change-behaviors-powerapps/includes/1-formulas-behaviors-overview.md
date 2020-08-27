@@ -28,9 +28,13 @@ Let's take a look at how you can apply this formula to show and hide a button in
 
 7.	The gallery will update and should now be showing all the information from the TestScoresCollection.
 
-8.	Select the first row of the gallery and from the ribbon select Button.
+   ![Screenshot of gallery test scores](../media/gallery-visible.png)
+
+8.	Select the first row of the gallery. Add a new button from the ribbon Input drop-down.
 
 9.	Change the Button text property from Button to Retake Test.
+
+   ![Screenshot of retake test button](../media/retake-visible.png)
 
 10.	With the button still selected, click the properties drop down and select Visible.
 
