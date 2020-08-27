@@ -41,9 +41,9 @@ For this module, we will create a WinAutomation Process and a Power Automate Flo
 
    | Input Label   | Sample Data   | Input Description|
    |-|-|-|
-   | Account Name | Aileron Roll | Account Name |
-   | Primary Contact | Norbert Varga | Account Primary Contact |
-   | Contact Email | n.varga@aileronroll.com | Primary Contact Email |
+   | Account Name | Tailwind Traders | Account Name |
+   | Primary Contact | Robin Kline | Account Primary Contact |
+   | Contact Email | r.kline@tailwindtraders.com | Primary Contact Email |
 
    ![data entry inputs Power Automate](..\media\data-entry-inputs-power-automate.png)
  

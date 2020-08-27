@@ -92,4 +92,4 @@ Now, whenever you add a new receipt file to that folder, a new entry will be add
 > [!div class="mx-imgBorder"]
 > [![New line of data in Excel spreadsheet](../media/4-4.png)](../media/4-4.png#lightbox)
 
-Congratulations, you have created an automated workflow by using Receipt processing.
+Congratulations, you have created an automated workflow by using receipt processing.
