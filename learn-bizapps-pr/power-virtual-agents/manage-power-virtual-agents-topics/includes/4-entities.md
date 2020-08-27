@@ -44,7 +44,7 @@ You can also display category items as buttons. For example, if you want some of
 
 ### Work with slot filling
 
-Slot filling is a natural language understanding concept that saves an extracted entity to an object. In simple terms, slot filling matches what is entered by a customer and then stores it appropriately in a variable. For example, when asked for a category type, the customer might select the **Hiking** category button, or they might enter "trekking," as shown in the following image. Because "trekking" was defined as a synonym, it should still be considered as an entry for "hiking." Slow filling ensures that even though another word was entered, it is associated with the correct category. The extracted entity "hiking" will be used as the values for the Product Category variable.
+Slot filling is a natural language understanding concept that saves an extracted entity to an object. In simple terms, slot filling matches what is entered by a customer and then stores it appropriately in a variable. For example, when asked for a category type, the customer might select the **Hiking** category button, or they might enter "trekking," as shown in the following image. Because "trekking" was defined as a synonym, it should still be considered as an entry for "hiking." Slot filling ensures that even though another word was entered, it is associated with the correct category. The extracted entity "hiking" will be used as the values for the Product Category variable.
 
 > [!div class="mx-imgBorder"]
 > [![Because trekking was defined as a synonym, slot filling replaced it with Hiking in the variable.](../media/4-5.png)](../media/4-5.png#lightbox)
