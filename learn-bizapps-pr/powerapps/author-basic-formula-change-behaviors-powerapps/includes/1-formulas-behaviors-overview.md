@@ -28,7 +28,7 @@ Let's take a look at how you can apply this formula to show and hide a button in
 
 7.	The gallery will update and should now be showing all the information from the TestScoresCollection.
 
-   ![Screenshot of gallery test scores](../media/gallery-visible.png)
+   ![Screenshot of gallery test scores](../media/gallery-collection.png)
 
 8.	Select the first row of the gallery. Add a new button from the ribbon Input drop-down.
 
