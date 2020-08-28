@@ -5,10 +5,10 @@ In this unit, you will create a group that defines a set of users who have acces
 
 Workspaces are places to collaborate with colleagues to create and refine collections of dashboards, reports, and paginated reports. There are two types of groups in Power BI:
 
-- **Classic workspaces** - groups are based on the groups in Office 365. If you've been using Office 365 groups to manage your group's email, calendar, and documents, then you'll find that Power BI offers the same features. When you create a group in Power BI, you're actually creating an Office 365 group.
+- **Classic workspaces** - groups are based on the groups in Microsoft 365. If you've been using Microsoft 365 groups to manage your group's email, calendar, and documents, then you'll find that Power BI offers the same features. When you create a group in Power BI, you're actually creating an Microsoft 365 group.
 - **New workspaces** - are now the default workspace in Power BI. 
-    -Assign workspace roles to user groups: security groups, distribution lists, Office 365 groups, and individuals.
-    - Create a workspace in Power BI without creating an Office 365 group.
+    -Assign workspace roles to user groups: security groups, distribution lists, Microsoft 365 groups, and individuals.
+    - Create a workspace in Power BI without creating an Microsoft 365 group.
     - Use more granular workspaces roles for more flexible permissions management in a workspace.
     - The Power BI admin can control who can create workspaces in Power BI.
 
