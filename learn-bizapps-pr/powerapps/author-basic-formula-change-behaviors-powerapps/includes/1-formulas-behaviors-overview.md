@@ -28,7 +28,9 @@ Let's take a look at how you can apply this formula to show and hide a button in
 
 7.	The gallery will update and should now be showing all the information from the TestScoresCollection.
 
-8.	Select the first row of the gallery and from the ribbon select Button.
+    ![Screenshot of gallery test scores](../media/gallery-collection.png)
+
+8.	Select the first row of the gallery. Add a new button from the ribbon Input drop-down.
 
 9.	Change the Button text property from Button to Retake Test.
 
@@ -38,6 +40,7 @@ Let's take a look at how you can apply this formula to show and hide a button in
     ```powerappsfl
     If(ThisItem.TestScore = "A" Or ThisItem.TestScore = "B",false,true)
     ```
+    ![Screenshot of retake test button](../media/retake-visible.png)
 
 To quickly break this down, if the student gets a test score of an A or a B, they will not be able to see the button or retake the test. But if the student gets anything other than those two tests scores, they will be able to see the button and retake the test. We may be getting ahead of ourselves by using ThisItem as well as Or but doing so is common when building apps and is useful when building your own production apps. 
 

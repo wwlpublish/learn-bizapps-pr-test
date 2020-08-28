@@ -28,7 +28,7 @@ quiz:
     - content: Use the Performance Manager 
       isCorrect: false 
       explanation: You can use the Manage Relationships dialog to create or edit relationships.
-  - content: If your months were sorted alphabetically, how could sort them by month order?
+  - content: If your months were sorted alphabetically, how could you sort them by month order?
     choices: 
     - content: Click the Edit Queries button 
       isCorrect: false 

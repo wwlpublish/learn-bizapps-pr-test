@@ -64,8 +64,8 @@ The AI model will look for the most commonly used fields in receipts. The values
 
 After you have all values that you want to retrieve, save this information locally to your device as a collection or to the cloud, such as in Common Data Service or a SharePoint list.
 
-Congratulations, you have created an app by using Receipt processing.
+Congratulations, you have created an app by using receipt processing.
 
 ### Next steps
 
-Now that you have learned how to use Receipt processing in your apps, you can learn how to use it in your automated flows.
+Now that you have learned how to use receipt processing in your apps, you can learn how to use it in your automated flows.

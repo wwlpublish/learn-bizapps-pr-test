@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.ai-builder-receipt-processing 
 metadata: 
- title: Get started with Receipt processing in AI Builder
- description: Learn the basics of Receipt processing in AI Builder and how it can benefit your organization.
+ title: Get started with receipt processing in AI Builder
+ description: Learn the basics of receipt processing in AI Builder and how it can benefit your organization.
  ms.date: 07/20/2020  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-ai-builder  
-title: Get started with Receipt processing in AI Builder
+title: Get started with receipt processing in AI Builder
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn the basics of Receipt processing in AI Builder and how it can benefit your organization.
+  Learn the basics of receipt processing in AI Builder and how it can benefit your organization.
 abstract: |  
     In this module, you will: 
-    - Learn about AI Builder Receipt processing.
-    - Explore how using Receipt processing can save time.
-    - Build a simple app by using Receipt processing with Microsoft Power Apps.
-    - Build a simple flow by using Receipt processing with Microsoft Power Automate.
+    - Learn about AI Builder receipt processing.
+    - Explore how using receipt processing can save time.
+    - Build a simple app by using receipt processing with Microsoft Power Apps.
+    - Build a simple flow by using receipt processing with Microsoft Power Automate.
 prerequisites: A Power Apps or Power Automate license, access to Common Data Service, and an AI Builder add-on or trial
 
 iconUrl: /learn/achievements/ai-builder-receipt-processing.svg  
