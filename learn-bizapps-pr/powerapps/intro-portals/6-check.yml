@@ -32,7 +32,7 @@ quiz:
     - content: System Administrator
       isCorrect: true 
       explanation: To provision a portal, the user must be assigned to the System Administrator role in the Common Data Service environment that is selected for the portal.
-    - content: Microsoft 365 Global administrator
+    - content: Office 365 Global administrator
       isCorrect: false 
       explanation: To provision a portal, the user must be assigned to the System Administrator role in the Common Data Service environment that is selected for the portal.
     - content: System Customizer
