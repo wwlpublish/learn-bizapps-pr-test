@@ -7,7 +7,7 @@ To share a dashboard, open it in the Power BI service and select the **Share** l
 
 ![Screenshot of the "Share" link in the Power BI service.](../media/06-power-bi-share.png)
 
-From the **Share dashboard** page, select the **Share** tab. In the **Email address** field, enter the names of people whom you'd like to grant access to your dashboard. You can also copy and paste email addresses into this field, or you can use a distribution list, security group, or Office 365 group.
+From the **Share dashboard** page, select the **Share** tab. In the **Email address** field, enter the names of people whom you'd like to grant access to your dashboard. You can also copy and paste email addresses into this field, or you can use a distribution list, security group, or Microsoft 365 group.
 
 ![Screenshot of the "Share dashboard" dialog.](../media/06-power-bi-share-dashboard.png)
 

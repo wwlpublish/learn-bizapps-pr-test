@@ -1,6 +1,6 @@
 As enterprises grow, so do their data. There are often strict requirements and regulations that must be applied to ensure that this sensitive data is secure. There are a few ways you can do this in Power BI:
 
--   Use Microsoft sensitivity labels to label dashboards, reports, datasets, and dataflows using the same taxonomy used to classify and protect files in Office 365.
+-   Use Microsoft sensitivity labels to label dashboards, reports, datasets, and dataflows using the same taxonomy used to classify and protect files in Microsoft 365.
 
 -   Add additional protection measures such as encryption and watermarks when exporting the data.
 
