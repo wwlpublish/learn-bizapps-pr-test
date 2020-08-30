@@ -64,12 +64,12 @@ There are six **pages** in this report, each visualizing specific elements of ou
 
 1. The first page, shown in the preceding image, shows all states, based on *overall rank*.
 2. The second page shows on the top 10 states, based on *overall rank*.
-3. The third page shows the top 10 states for cost of living (and associated data).
+3. The third page shows the top 10 states for affordability (and associated data).
 4. The fourth page focuses on weather and is filtered to show the 15 sunniest states.
 5. The fifth page shows the top 15 states for community well-being.
 6. The sixth page focuses on crime statistics, showing the 10 best and 10 worst states.
 
-Here's what the page that focuses on cost of living looks like.
+Here's what the page that focuses on affordability looks like.
 
 ![A finished report](../media/pbid-visuals_06.png)
 
