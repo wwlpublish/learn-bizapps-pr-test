@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.loops.7-check-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/07//2020 
+ author: rokontol 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "If the number of repetitions is known in advance which type of loop should be used?"
+    choices: 
+    - content: "Loop condition"
+      isCorrect: false
+      explanation: "That is false; the loop action is ideal for a known number of repetitions."
+    - content: "Loop"
+      isCorrect: true 
+      explanation: "That is correct! The loop action is ideal for a known number of repetitions."
+    - content: "For Each"
+      isCorrect: false 
+      explanation: "That is false; the loop action is ideal for a known number of repetitions."
+    - content: "Any of the above"
+      isCorrect: false 
+      explanation: "That is false; the loop action is ideal for a known number of repetitions."
+  - content: "The actions contained within a For Each loop repeat for each item in a list or data table."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct! For Each repeats once for each item in a list or data table."
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; For Each repeats once for each item in a list or data table."
+  - content: "A loop condition block will keep repeating until the specified condition is met."
+    choices: 
+    - content: "True"
+      isCorrect: false
+      explanation: "That is false; loop condition repeats as long as the specified condition is true."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct! loop condition repeats as long as the specified condition is true."
