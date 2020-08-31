@@ -1,0 +1,44 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.sync-actions.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/31/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "The synchronization actions prevent simultaneous access to resources from instances of different actions."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; The synchronization actions prevent simultaneous access to resources from instances of the same action."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! The synchronization actions prevent simultaneous access to resources from instances of the same action."
+  questions: 
+  - content: "Which one of the options below isn't a recommended case to use synchronization actions?"
+    choices: 
+    - content: "The process accesses restricted files."
+      isCorrect: false 
+      explanation: "That is false; Synchronization actions have to be used when the process accesses restricted files."
+    - content: "The process handles the mouse and the keyboard."
+      isCorrect: false 
+      explanation: "That is false; Synchronization actions have to be used when the process handles the mouse and the keyboard."
+    - content: "The process sends an email."
+      isCorrect: true 
+      explanation: "Correct! Parallel execution doesn't affect the functionality of the email actions."
+  questions: 
+  - content: "The Lock Handle action has to be accompanied by a Release Handle action."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "Correct! It is strongly recommended to use these two actions together to mark the start and the end of the locked region."
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; It is strongly recommended to use these two actions together to mark the start and the end of the locked region."

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.sync-actions.3-exercise 
+title: Exercise - Prevent simultaneous access to a file
+metadata: 
+  title: Exercise - Prevent simultaneous access to a Excel file
+  description: Exercise - Prevent simultaneous access to a file
+  ms.date: 08/31/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-exercise.md)] 

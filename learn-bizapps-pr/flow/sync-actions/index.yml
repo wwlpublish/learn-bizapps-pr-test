@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.sync-actions 
+metadata: 
+ title: Synchronization actions
+ description: This module covers the synchronization actions in WinAutomation.
+ ms.date: 08/31/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Synchronization actions
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  WinAutomation supports parallel execution of many instances of the same process. In cases where parallel execution is unwanted, the synchronization actions can prevent actions from being executed simultaneously in multiple process instances.
+abstract: |  
+    In this module, you will: 
+    - Understand in which cases parallel execution must be prevented.
+    - Configure the synchronization actions.
+    - Create a process with synchronization actions to prevent simultaneous access to a file. 
+prerequisites: |
+    - Basic familiarity with the WinAutomation console and process designer.
+    - Basic familiarity with Process development and variables. 
+iconUrl: /learn/achievements/sync-actions.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+- functional-consultant 
+products:  
+- power-platform 
+- power-automate 
+units: 
+- learn-bizapps.sync-actions.1-introduction 
+- learn-bizapps.sync-actions.2-sync-actions 
+- learn-bizapps.sync-actions.3-exercise 
+- learn-bizapps.sync-actions.4-check-knowledge 
+- learn-bizapps.sync-actions.5-conclusion 
+badge: 
+  uid: learn-bizapps.sync-actions.badge 
