@@ -10,7 +10,7 @@ In this exercise, you will apply error handling rules to all processes through t
 
 1. Choose the **Write Event to Text File** option, assigning a .txt file in your documents folder, and **Add Screenshot to Logs**:
 
-    ![The Write Event to Text File option in the behaviour tab.](..\media\write-event-to-text-file-error-handling..png)
+    ![The Write Event to Text File option in the behaviour tab.](..\media\write-event-to-text-file-error-handling.png)
 
     With this configuration in place, these operations will be performed whenever any process fails.
 
