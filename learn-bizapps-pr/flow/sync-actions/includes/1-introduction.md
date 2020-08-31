@@ -4,7 +4,7 @@ Allowing multiple processes to access resources like mouse and keyboard or restr
 
 **Synchronization** actions enable you to prevent actions from being executed simultaneously in multiple process instances. When a process instance runs the specified actions, the rest of the instances have to wait.
 
-## Learning οbjectives
+## Learning objectives
 
  In this module, you will: 
 
