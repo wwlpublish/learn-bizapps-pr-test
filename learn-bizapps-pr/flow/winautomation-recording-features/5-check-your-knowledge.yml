@@ -43,7 +43,7 @@ quiz:
     - content: "False"
       isCorrect: false 
       explanation: "That is false; both mouse clicks and keystrokes are captured by the macro recorder."
-  - content: "Web recording can take place only on internet explorer."
+  - content: "Web recording can take place only on Internet Explorer."
     choices: 
     - content: "True"
       isCorrect: false 
