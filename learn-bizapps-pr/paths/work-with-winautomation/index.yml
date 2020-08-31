@@ -29,7 +29,7 @@ modules:
 - learn-bizapps.winautomation-options
 - learn-bizapps.process-properties 
 - learn-bizapps.winautomation-recording-features
-- learn-bizapps.run-conditionals
+- learn-bizapps.conditionals
 - learn-bizapps.loops
 - learn-bizapps.winautomation-variables
 - learn-bizapps.using-repositories 
