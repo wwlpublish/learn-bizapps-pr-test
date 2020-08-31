@@ -14,7 +14,7 @@ The Display Custom Dialog action allows the creation of a fully customizable inp
 
 1. Select the title that was added to the form to edit it.
 
-    ![custom dialog designer header popout](..\media\custom-dialog-designer-header-popout.png)
+    ![custom dialog designer header popout](..\media\custom-dialog-designer-header-pop-out.png)
  
     ![custom dialog designer employee details](..\media\custom-dialog-designer-employee-details.png)
 
@@ -24,11 +24,11 @@ The Display Custom Dialog action allows the creation of a fully customizable inp
 
 1. Add a drop-down list to enter the employee’s department.
 
-    ![custom dialog designer combobox popout](..\media\custom-dialog-designer-combobox-popout.png)
+    ![custom dialog designer combobox popout](..\media\custom-dialog-designer-combo-box-pop-out.png)
 
 1. Add a date picker to enter the hire date, as well as a checkbox to designate whether the employee requires a company-issued phone; we use the **Date** and **Checkbox** elements respectively. 
  
-    ![custom dialog designer radios checkboxes](..\media\custom-dialog-designer-radios-checkboxes.png)
+    ![custom dialog designer radios checkboxes](..\media\custom-dialog-designer-radios-check-boxes.png)
 
 1. Add two buttons; one to add the employee in question to the system, and one to end the process. For now, we will simply name the buttons accordingly, and customize their behavior in a later step. 
  
