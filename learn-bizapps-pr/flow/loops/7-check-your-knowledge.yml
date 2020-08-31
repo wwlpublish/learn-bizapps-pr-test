@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 08/07//2020 
+ ms.date: 08/31/2020 
  author: rokontol 
  ms.author: rokontol 
  ms.topic: interactive-tutorial 
@@ -39,7 +39,7 @@ quiz:
     choices: 
     - content: "True"
       isCorrect: false
-      explanation: "That is false; loop condition repeats as long as the specified condition is true."
+      explanation: "That is false. Loop condition repeats as long as the specified condition is true."
     - content: "False"
       isCorrect: true 
-      explanation: "That is correct! loop condition repeats as long as the specified condition is true."
+      explanation: "That is correct! Loop condition repeats as long as the specified condition is true."
