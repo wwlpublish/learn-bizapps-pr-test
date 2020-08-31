@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.mouse-keyboard.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction
+  description: Introduction to mouse and keyboard actions
+  ms.date: 08/27/2020
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 
