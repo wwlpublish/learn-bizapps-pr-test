@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.exception-error-handling.2-exception-error-handling-levels 
+title: Levels of exception and error handling in WinAutomation
+metadata: 
+  title: Levels of exception and error handling in WinAutomation
+  description: Levels of exception and error handling in WinAutomation
+  ms.date: 08/27/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-exception-error-handling-levels.md)] 
