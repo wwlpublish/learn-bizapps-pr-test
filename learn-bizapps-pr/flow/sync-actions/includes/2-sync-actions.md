@@ -8,5 +8,5 @@ The specified handle is used again as an input in the **Release Handle** action 
 
 ![The Release Handle action.](..\media\release-handle-action.png)
 
-[!NOTE]
-To ensure that processes run as fast as possible, avoid enclosing whole processes in locked regions, if not necessary. Enclose only actions that access the proper resources.
+> [!NOTE]
+> To ensure that processes run as fast as possible, avoid enclosing whole processes in locked regions, if not necessary. Enclose only actions that access the proper resources.
