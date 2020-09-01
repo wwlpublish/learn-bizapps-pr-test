@@ -21,7 +21,6 @@ quiz:
     - content: "False"
       isCorrect: true 
       explanation: "Correct! The synchronization actions prevent simultaneous access to resources from instances of the same action."
-  questions: 
   - content: "Which one of the options below isn't a recommended case to use synchronization actions?"
     choices: 
     - content: "The process accesses restricted files."
@@ -33,7 +32,6 @@ quiz:
     - content: "The process sends an email."
       isCorrect: true 
       explanation: "Correct! Parallel execution doesn't affect the functionality of the email actions."
-  questions: 
   - content: "The Lock Handle action has to be accompanied by a Release Handle action."
     choices: 
     - content: "True"
