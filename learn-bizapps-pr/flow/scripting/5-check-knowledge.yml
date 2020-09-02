@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.scripting.7-check-knowledge
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 07/27/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "The Execute JavaScript Function on Web Page action stores the returned value and the potentials errors in two different variables."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; The action has only one output variables named Result."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! The action has only one output variables named Result."
+  - content: "WinAutomation supports scripting in Java."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; WinAutomation supports scripting in VBScript, JavaScript, PowerShell and Python."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! WinAutomation supports scripting in VBScript, JavaScript, PowerShell and Python."
+  - content: "Which one of the following actions doesn't exist in WinAutomation?"
+    choices:
+    - content: "Run Python Script"
+      isCorrect: false 
+      explanation: "That is false; The Run Python Script action exists in WinAutomation."
+    - content: "Execute Python Function on Web Page"
+      isCorrect: true 
+      explanation: "Correct! The Execute Python Function on Web Page action doesn't exist in WinAutomation."
+    - content: "Run PowerShell Script"
+      isCorrect: false 
+      explanation: "That is false; The Run PowerShell Script action exists in WinAutomation."

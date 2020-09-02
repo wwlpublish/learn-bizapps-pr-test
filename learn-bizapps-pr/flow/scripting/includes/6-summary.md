@@ -1,0 +1,1 @@
+WinAutomation provides the ability to automate complex scenarios using VBScript, JavaScript, PowerShell, and Python scripts. Using the scripting actions, you can simplify complex processes and automate business procedures more effectively.

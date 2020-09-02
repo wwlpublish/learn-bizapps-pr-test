@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.scripting.2-scripting-actions 
+title: Scripting actions
+metadata: 
+  title: Scripting actions
+  description: Scripting actions
+  ms.date: 09/02/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-scripting-actions.md)] 

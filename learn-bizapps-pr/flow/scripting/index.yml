@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.scripting 
+metadata: 
+ title: Scripting in WinAutomation
+ description: This module covers the scripting actions in WinAutomation. 
+ ms.date: 09/02/2020  
+ author: georgiostrantzas
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Scripting in WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  WinAutomation provides the ability to automate complex scenarios using scripts in VBScript, JavaScript, PowerShell, and Python. 
+abstract: |  
+    In this module, you will: 
+    - Understand how to use scripting actions.
+    - Create two processes using VBScript and JavaScript.
+prerequisites: |
+    - Familiarity with the WinAutomation console and process designer.
+    - Αdvanced experience with process development and variables. 
+iconUrl: /learn/achievements/scripting.svg  
+levels:  
+- advanced  
+roles:  
+- functional-consultant  
+- developer 
+products:  
+- dynamics  
+- power-platform 
+units: 
+- learn-bizapps.scripting.1-introduction 
+- learn-bizapps.scripting.2-scripting-actions 
+- learn-bizapps.scripting.3-exercise-vbscript 
+- learn-bizapps.scripting.4-exercise-javascript 
+- learn-bizapps.scripting.7-check-knowledge 
+- learn-bizapps.scripting.8-summary 
+badge: 
+  uid: learn-bizapps.scripting.badge 
