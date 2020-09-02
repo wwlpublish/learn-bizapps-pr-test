@@ -15,4 +15,4 @@ Allowing multiple processes to access resources like mouse and keyboard or restr
 ## Prerequisites
 
 - Basic familiarity with the WinAutomation console and process designer.
-- Basic familiarity with Process development and variables. 
+- Basic familiarity with process development and variables. 

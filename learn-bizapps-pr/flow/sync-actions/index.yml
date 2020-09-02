@@ -19,7 +19,7 @@ abstract: |
     - Create a process with synchronization actions to prevent simultaneous access to a file. 
 prerequisites: |
     - Basic familiarity with the WinAutomation console and process designer.
-    - Basic familiarity with Process development and variables. 
+    - Basic familiarity with process development and variables. 
 iconUrl: /learn/achievements/sync-actions.svg  
 levels:  
 - intermediate   
