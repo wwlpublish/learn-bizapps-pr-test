@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.automating-email-handling.6-check-knowledge
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/21/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "WinAutomation supports email handling only through webmail services and Outlook."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; WinAutomation supports email handling through webmail services, Outlook and Exchange servers."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! WinAutomation supports email handling through webmail services, Outlook and Exchange servers."
+  - content: "The Retrieve Emails action CANNOT:"
+    choices: 
+    - content: "Retrieve all emails from an inbox."
+      isCorrect: false 
+      explanation: "That is false; The Retrieve Emails action can retrieve all emails from an inbox."
+    - content: "Retrieve all emails from a specified sender."
+      isCorrect: false 
+      explanation: "That is false; The Retrieve Emails action can retrieve all emails from a specified sender."
+    - content: "Retrieve all emails from multiple inboxes simultaneously."
+      isCorrect: true 
+      explanation: "Correct! The Retrieve Emails action cannot retrieve all emails from multiple inboxes simultaneously."
+  - content: "Outlook can be launched without a visible instance."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; Outlook can be launched only with a visible instance."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! Outlook can be launched only with a visible instance."

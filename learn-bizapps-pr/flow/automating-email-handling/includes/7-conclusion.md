@@ -1,0 +1,1 @@
+WinAutomation provides three groups of actions that enable the retrieving, sending, and processing of emails. Emails can be accessed through webmail services, Outlook, and Exchange servers. These actions automate every email-related business procedure easily and efficiently.

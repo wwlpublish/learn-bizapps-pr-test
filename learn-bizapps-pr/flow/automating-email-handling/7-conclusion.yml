@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.automating-email-handling.7-conclusion 
+title: Conclusion
+metadata: 
+  title: Conclusion
+  description: Conclusion
+  ms.date: 08/21/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 1
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/7-conclusion.md)] 

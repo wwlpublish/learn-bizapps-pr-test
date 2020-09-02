@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.automating-email-handling 
+metadata: 
+ title: Automating email handling in WinAutomation
+ description: This module covers the email handling actions in WinAutomation.
+ ms.date: 08/21/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Automating email handling in WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Using email services is common in business procedures and critical for most organizations. WinAutomation offers various actions that enable email handling for webmail services, Outlook, and Exchange servers.
+abstract: |  
+    In this module, you will: 
+    - Become familiar with the Email, Outlook and Exchange actions.
+    - Create a simple process that retrieves, processes and sends emails.
+prerequisites: |
+    - Basic familiarity with the WinAutomation console and process designer.
+    - Basic familiarity with process development and variables. 
+iconUrl: /learn/achievements/automating-email-handling.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-platform 
+- power-automate 
+units: 
+- learn-bizapps.automating-email-handling.1-introducing-email-automation 
+- learn-bizapps.automating-email-handling.2-email-actions 
+- learn-bizapps.automating-email-handling.3-outlook-actions  
+- learn-bizapps.automating-email-handling.4-exchange-actions 
+- learn-bizapps.automating-email-handling.5-exercise 
+- learn-bizapps.automating-email-handling.6-check-knowledge
+- learn-bizapps.automating-email-handling.7-conclusion 
+badge: 
+  uid: learn-bizapps.automating-email-handling.badge 
