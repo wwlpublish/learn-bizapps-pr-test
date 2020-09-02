@@ -33,7 +33,7 @@ units:
 - learn-bizapps.scripting.2-scripting-actions 
 - learn-bizapps.scripting.3-exercise-vbscript 
 - learn-bizapps.scripting.4-exercise-javascript 
-- learn-bizapps.scripting.7-check-knowledge 
-- learn-bizapps.scripting.8-summary 
+- learn-bizapps.scripting.5-check-knowledge 
+- learn-bizapps.scripting.6-summary 
 badge: 
   uid: learn-bizapps.scripting.badge 
