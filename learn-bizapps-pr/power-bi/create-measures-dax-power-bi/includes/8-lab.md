@@ -159,7 +159,7 @@ In this task, you will create several measures with DAX expressions that use the
         	SUM(Sales[Sales]),
         	CALCULATE(
                 SUM(Sales[Sales]),
-                REMOVEFILTERS(Region[Region)
+                REMOVEFILTERS(Region[Region]
             )
         ) 
 	)
