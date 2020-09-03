@@ -9,7 +9,7 @@ metadata:
   ms.author: getrantz 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 5 
+durationInMinutes: 6 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/4-reviewing-logs.md)] 
