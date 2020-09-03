@@ -43,7 +43,7 @@ quiz:
     - content: "Server logs only"
       isCorrect: false 
       explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
-    - content: "Logs for a folder or a process only"
+    - content: "Logs for all processes in a folder only"
       isCorrect: false 
       explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
     - content: "Logs for a particular action only"
