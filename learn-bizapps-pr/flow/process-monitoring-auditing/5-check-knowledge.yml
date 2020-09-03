@@ -38,7 +38,7 @@ quiz:
     - content: "This month"
       isCorrect: false 
       explanation: "That is false; There is a This month option in the date range filter."
-  - content: "Which logs is it possible to see in the left pane of the Logs tab?"
+  - content: "Which logs can you see in the left pane of the Logs tab?"
     choices: 
     - content: "Server logs only"
       isCorrect: false 
