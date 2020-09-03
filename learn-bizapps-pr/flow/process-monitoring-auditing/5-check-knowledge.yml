@@ -2,13 +2,13 @@
 uid: learn-bizapps.process-monitoring-auditing.5-check-knowledge
 title: Check your knowledge 
 metadata: 
-title: Check your knowledge 
-description: Answer the following questions to see what you've learned. 
-ms.date: 08/28/2020 
-author: georgiostrantzas 
-ms.author: getrantz 
-ms.topic: interactive-tutorial 
-ms.prod: learning-power-automate 
+  title: Check your knowledge 
+  description: Answer the following questions to see what you've learned. 
+  ms.date: 08/28/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
 durationInMinutes: 5 
 quiz: 
   title: Answer the following questions to see what you've learned. 
