@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.process-monitoring-auditing.4-reviewing-logs 
+title: Reviewing the logs
+metadata: 
+  title: Reviewing the logs
+  description: Reviewing the logs
+  ms.date: 08/28/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-reviewing-logs.md)] 

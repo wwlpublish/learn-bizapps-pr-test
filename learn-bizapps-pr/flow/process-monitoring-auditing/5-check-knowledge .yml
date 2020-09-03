@@ -1,0 +1,55 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.process-monitoring-auditing.5-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/28/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "How many event types are displayed in the Logs tab?"
+    choices: 
+    - content: "Two"
+      isCorrect: false 
+      explanation: "That is false; There are three event types in the Logs tab: info, warning and error."
+    - content: "Three"
+      isCorrect: true 
+      explanation: "Correct! There are three event types in the Logs tab: info, warning and error."
+    - content: "Four"
+      isCorrect: false 
+      explanation: "That is false; There are three event types in the Logs tab: info, warning and error."
+  - content: "The date range filter in the Logs tab doesn't contain which of the following options?"
+    choices: 
+    - content: "This week"
+      isCorrect: true 
+      explanation: "Correct; There isn't a This week option in the date range filter."
+    - content: "Today"
+      isCorrect: false 
+      explanation: "That is false; There is a Today option in the date range filter."
+    - content: "Custom"
+      isCorrect: false 
+      explanation: "That is false; There is a Custom option in the date range filter."
+    - content: "This month"
+      isCorrect: false 
+      explanation: "That is false; There is a This month option in the date range filter."
+  - content: "From the left pane in the Logs tab, it is possible to see which logs?"
+    choices: 
+    - content: "Server logs only"
+      isCorrect: false 
+      explanation: "That is false; The left pane in the Logs tab displays all the above options."
+    - content: "Logs for a folder or a process"
+      isCorrect: false 
+      explanation: "That is false; The left pane in the Logs tab displays all the above options."
+    - content: "Logs for a particular action only"
+      isCorrect: false 
+      explanation: "That is false; The left pane in the Logs tab displays all the above options."
+    - content: "All of the above"
+      isCorrect: true 
+      explanation: "Correct! The left pane in the Logs tab displays all the above options."
+  
