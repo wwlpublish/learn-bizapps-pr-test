@@ -30,8 +30,8 @@ roles:
 - developer 
 - functional-consultant
 products:  
-- dynamics  
-- power-platform 
+- power-platform
+- power-automate
 units: 
 - learn-bizapps.excel-automation.1-introduction 
 - learn-bizapps.excel-automation.2-excel-actions 

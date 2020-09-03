@@ -1,2 +1,1 @@
-WinAutomation provides a wide variety of Excel Actions to read and manipulate Excel worksheets. The Excel Actions enable the automation of every Excel-related procedure and reduce the need for human interference. 
-
+This module demonstrates how to create processes which contain Excel Actions. By the end of the module, the user should have a good understanding of how to use processes to open documents, read from and write to an Excel file, manage worksheets, and how to save documents.
