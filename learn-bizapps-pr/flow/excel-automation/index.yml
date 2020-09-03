@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.excel-automation 
+metadata: 
+ title: Excel automation
+ description: This module covers the Excel actions in WinAutomation.
+ ms.date: Thu 09/03/2020  
+ author: olegmelnykov  
+ ms.author: olmelnyk  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Excel automation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  WinAutomation provides a wide variety of Excel Actions to read and manipulate Excel worksheets.
+abstract: |  
+    In this module, you will: 
+    - Open documents, and attach a process to an already running document
+    - Use the Excel group of Actions to read data from and write data to an Excel file
+    - Create and Edit Worksheets
+    - Save and close documents
+prerequisites: |
+    - Basic familiarity with the WinAutomation Console and Process Designer.
+    - Basic familiarity with Microsoft Excel.
+iconUrl: /learn/achievements/excel-automation.svg  
+levels:  
+- beginner   
+- intermediate  
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- dynamics  
+- power-platform 
+units: 
+- learn-bizapps.excel-automation.1-introduction 
+- learn-bizapps.excel-automation.2-excel-actions 
+- learn-bizapps.excel-automation.3-exercise 
+- learn-bizapps.excel-automation.4-check-knowledge 
+- learn-bizapps.excel-automation.5-summary 
+badge: 
+  uid: learn-bizapps.excel-automation.badge 

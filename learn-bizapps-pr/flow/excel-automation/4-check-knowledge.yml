@@ -1,0 +1,59 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.excel-automation.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/03/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Which Excel Action uses an open Excel file instead of launching Excel?"
+    choices: 
+    - content: "Attach to Running Excel"
+      isCorrect: true 
+      explanation: "Correct! The Attach to Running Excel action attaches to an Excel file that's already open."
+    - content: "Launch Excel"
+      isCorrect: false 
+      explanation: "That's false; The Launch Excel action launches a new Excel file."
+    - content: "Set Active Excel Worksheet"
+      isCorrect: false 
+      explanation: "That's false; The Set Active Excel Worksheet action uses an already defined Excel instance."
+    - content: "Activate Cell in Excel Worksheet"
+      isCorrect: false 
+      explanation: "That's false; The Activate Cell in Excel Worksheet action uses an already defined Excel instance."
+  - content: "To read data from an Excel worksheet, the cells must be selected first."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That's false; Cell selection isn't required to read data from an Excel file."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! Cell selection isn't required to read data from an Excel file."
+  - content: "To select a specific range of data in an Excel worksheet, it needs to be specified by setting the cells in the top left and bottom right corners."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "Correct! The range of cells is specified by the top left and bottom right corners"
+    - content: "False"
+      isCorrect: false 
+      explanation: "That's false; The range of cells is specified by the top left and bottom right corners"
+  - content: "Which Excel Action is necessary for subsequent Actions to be carried out on a specific worksheet of an Excel file?"
+    choices: 
+    - content: "Get Active Excel Worksheet"
+      isCorrect: false 
+      explanation: "That's false; The Get Active Excel Worksheet action retrieves the Excel file's active worksheet. "
+    - content: "Activate Cell in Excel Worksheet"
+      isCorrect: false 
+      explanation: "That's false; The Activate Cell in Excel Worksheet action activates specific cells in the Excel file."
+    - content: "Set Active Excel Worksheet"
+      isCorrect: true 
+      explanation: "Correct! The Set Active Excel Worksheet action activates a specific worksheet in the Excel file."
+    - content: "Get Selected Cell Range from Excel Worksheet"
+      isCorrect: false 
+      explanation: "That's false; The Get Selected Cell Range from Excel Worksheet action selects a specified range of cells."
