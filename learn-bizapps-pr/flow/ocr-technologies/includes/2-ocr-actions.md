@@ -8,7 +8,7 @@ Both **Create MODI OCR Engine** and **Create Tesseract OCR Engine** actions have
 
 ![The Create MODI OCR Engine action.](..\media\create-modi.png)
 
-To initialize the engine, specify its language, and set the image's width and height multiplier. 
+To initialize the engine, specify its language, and set the image's width and height multipliers. 
 
 Image multipliers increase the size of the image to make the text extraction or searching more effective. Avoid using values greater than two, because high values may lead to failed results. 
 
@@ -37,7 +37,7 @@ The file can be provided through a hardcoded file path or a variable containing 
 
 Except for text extraction, OCR actions enable you to check if a given text exists or not on the screen or the foreground window. 
 
-To implement this kind of condition, deploy the **If Text on Screen** action. In the action's properties, specify the text to search and the source of it. 
+To implement this kind of condition, deploy the **If Text on Screen** action. In the action's properties, specify the text to search for and the source of it. 
 
 You can also specify whether the text will be extracted from the whole selected source, a specific subregion, or a subregion relative to an image.
 
@@ -70,9 +70,7 @@ You can specify if the text will be extracted from the whole selected source, a 
 ![The Move Mouse to Text on Screen action.](..\media\move-mouse.png)
 
 
-If there are many occurrences of the same text in the defined source, specify which one to select in the **Occurrences** field.
-
-Lastly, select if you want the mouse to be moved instantly or with animation (slow, natural, or fast). 
+If there are many occurrences of the same text in the defined source, specify which one to select in the **Occurrences** field Lastly, select if you want the mouse to be moved instantly or with animation (slow, natural, or fast). 
 
 As an output, the action produces four variables describing the found text's exact position and size. 
 

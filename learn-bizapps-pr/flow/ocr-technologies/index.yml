@@ -18,7 +18,7 @@ abstract: |
     - Create a process that extracts text from PDF files using OCR technologies. 
 prerequisites: |
     - Basic familiarity with the WinAutomation console and process designer.
-    - Basic familiarity with Process development and variables. 
+    - Basic familiarity with process development and variables. 
 iconUrl: /learn/achievements/ocr-technologies.svg  
 levels:  
 - intermediate   
