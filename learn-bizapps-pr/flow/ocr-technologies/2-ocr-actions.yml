@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.ocr-technologies.2-ocr-actions 
+title: OCR actions
+metadata: 
+  title: OCR actions
+  description: OCR actions
+  ms.date: 09/03/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-ocr-actions.md)] 

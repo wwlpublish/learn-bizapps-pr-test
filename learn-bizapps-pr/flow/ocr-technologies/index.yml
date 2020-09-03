@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.ocr-technologies 
+metadata: 
+ title: OCR technologies
+ description: This module covers the OCR actions in WinAutomation.
+ ms.date: 09/03/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: OCR technologies
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  WinAutomation enables users to read, extract, and manage the data contained within all sorts of files through the OCR actions. 
+abstract: |  
+    In this module, you will: 
+    - Understand how to configure OCR actions.
+    - Create a process that extracts text from PDF files using OCR technologies. 
+prerequisites: |
+    - Basic familiarity with the WinAutomation console and process designer.
+    - Basic familiarity with Process development and variables. 
+iconUrl: /learn/achievements/ocr-technologies.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+- functional-consultant 
+products:  
+- dynamics  
+- power-platform 
+units: 
+- learn-bizapps.ocr-technologies.1-introduction 
+- learn-bizapps.ocr-technologies.2-ocr-actions 
+- learn-bizapps.ocr-technologies.3-exercise 
+- learn-bizapps.ocr-technologies.4-check-knowledge 
+- learn-bizapps.ocr-technologies.5-summary 
+badge: 
+  uid: learn-bizapps.ocr-technologies.badge 
