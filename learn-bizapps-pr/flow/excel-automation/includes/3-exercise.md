@@ -33,24 +33,28 @@ The rest of the Write to Excel Actions should be configured as follows:
 ## Get First Free Row on State Column
 Next, to switch the positions of the last two columns, so that **State** appears after **City**, use the **Get First Free Row on Column from Excel Worksheet** Action. This will retrieve the index of the first available row in the column of your choice. Since you will be moving the **State** column, select column **D**.
   
+  
 ![get first free row on column excel exercise](..\media\get-first-free-row-on-column-excel-exercise.png)
 
 
 ## Copy Cells
 To copy the cells, use the **Copy Cells From Excel Worksheet** Action. In the **Copy Mode** options, select **Values from a Range of Cells**, starting the range at column **D**, row **1**, and ending the range at column **D**, row **%FirstFreeRowOnColumn-1%**. This way, the entire column is dynamically selected without having to calculate its length.
   
+
 ![copy cells from excel exercise](..\media\copy-cells-from-excel-exercise.png)
 
 
 ## Paste Cells
 Paste the cells using **Paste Cells to Excel Worksheet** and select column **F**, row **1**. This will paste the cells in the clipboard into the specified cell.
   
+
 ![paste cells to excel exercise](..\media\paste-cells-to-excel-exercise.png)
 
 
 ## Delete Blank Column
 To delete the blank column, we use **Delete Column from Excel Worksheet** and select column **D**.
   
+
 ![delete column from excel exercise](..\media\delete-column-from-excel-exercise.png)
 
  
@@ -62,6 +66,7 @@ To save and quit, add the **Close Excel** Action and choose to save the document
 
 The completed process should look like this:
   
+
 ![excel exercise workspace](..\media\excel-exercise-workspace.png)
 
 
