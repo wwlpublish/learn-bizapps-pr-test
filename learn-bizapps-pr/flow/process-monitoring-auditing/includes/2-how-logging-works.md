@@ -12,5 +12,4 @@ Except for automatic logging, WinAutomation supports the creation of custom entr
 
 ![An example process with a Log Message action.](..\media\log-message-action.png)
 
-All logs are stored in a central log file. The default location of the file is: 
-**C:\ProgramData\Softomotive\WinAutomation\Logs.dat**
+All logs are stored in a central log file. The default location of the file is: **C:\ProgramData\Softomotive\WinAutomation\Logs.dat**

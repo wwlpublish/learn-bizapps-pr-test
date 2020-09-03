@@ -20,10 +20,10 @@ In case the screenshot feature is enabled,  select the icon in the **Screenshot*
 
 ![The Screenshot option in the Logs tab.](..\media\screenshot-option.png)
 
-When a group of logs has been reviewed and no longer needed, use the **Archive** button to save them into a separate .dat file. This option removes the selected records from the database.
+When a group of logs has been reviewed and no longer needed, use the **Archive** button to save them into a separate **.dat** file. This option removes the selected records from the database.
 
 ![The Archive option in the Logs tab.](..\media\archive-button.png)
 
-The last option in the **Logs** tab is the **Export** feature.  Use this option to export the logs to an xlsx, xls, or csv file.
+The last option in the **Logs** tab is the **Export** feature.  Use this option to export the logs to an **xlsx**, **xls**, or **csv** file.
 
 ![The Export option in the Logs tab.](..\media\export-button.png)
