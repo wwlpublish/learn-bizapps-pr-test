@@ -11,7 +11,7 @@ metadata:
 title: Process monitoring and auditing
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Summary text goes here. 
+  WinAutomation records all the vital information about processes and the platform into a central log file. Logs enable users to check the current condition of the platform and discover the source of thrown errors. 
 abstract: |  
     In this module, you will: 
     - Understand how logs work and why they are critical for WinAutomation.
