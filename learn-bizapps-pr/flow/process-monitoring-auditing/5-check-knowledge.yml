@@ -24,7 +24,7 @@ quiz:
     - content: "Four"
       isCorrect: false 
       explanation: "That is false; There are three event types in the Logs tab: info, warning and error."
-  - content: "The date range filter in the Logs tab doesn't contain which of the following options?"
+  - content: "The date range filter in the Logs tab doesn't contain which one of the following options?"
     choices: 
     - content: "This week"
       isCorrect: true 
@@ -38,18 +38,18 @@ quiz:
     - content: "This month"
       isCorrect: false 
       explanation: "That is false; There is a This month option in the date range filter."
-  - content: "From the left pane in the Logs tab, it is possible to see which logs?"
+  - content: "Which logs is it possible to see in the left pane of the Logs tab?"
     choices: 
     - content: "Server logs only"
       isCorrect: false 
-      explanation: "That is false; The left pane in the Logs tab displays all the above options."
+      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
     - content: "Logs for a folder or a process"
       isCorrect: false 
-      explanation: "That is false; The left pane in the Logs tab displays all the above options."
+      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
     - content: "Logs for a particular action only"
       isCorrect: false 
-      explanation: "That is false; The left pane in the Logs tab displays all the above options."
+      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
     - content: "All of the above"
       isCorrect: true 
-      explanation: "Correct! The left pane in the Logs tab displays all the above options."
+      explanation: "Correct! The left pane of the Logs tab displays all the mentioned options."
   
