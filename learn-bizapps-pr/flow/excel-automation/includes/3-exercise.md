@@ -1,4 +1,4 @@
-This Process will demonstrate some Actions used to organize data in a spreadsheet. We will create a process which will:
+This Process will demonstrate some Actions used to organize data in a spreadsheet. We will create a process, which will:
 * Attach to an open excel file
 * Switch the positions of two columns
 * Add a header to each column
@@ -9,7 +9,7 @@ To begin, download and open the Customers.xlsx file. Create a new Process, and a
 ![attach to running excel exercise](..\media\attach-to-running-excel-exercise.png)
 
 
-The Excel document contains a list of customers. Each customer has a first name, a last name, an address, a state and a city. 
+The Excel document contains a list of customers. Each customer has a first name, a last name, an address, a state, and a city. 
  
 ## Insert Header Row
 First, to insert a row with headers, use the **Insert Row to Excel Worksheet** Action, specifying the Row Index. To add a row at the top, set **Row Index** to **1**. 
@@ -59,7 +59,7 @@ To delete the blank column, we use **Delete Column from Excel Worksheet** and se
 
  
 Save and Quit
-To save and quit, add the **Close Excel** Action and choose to save the document before closing.
+To save and quit, add the **Close Excel** Action, and choose to save the document before closing.
   
 ![close excel exercise](..\media\close-excel-exercise.png)
 

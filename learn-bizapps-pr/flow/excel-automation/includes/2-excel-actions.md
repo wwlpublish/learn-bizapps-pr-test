@@ -1,6 +1,6 @@
 ## Opening an Excel File and Creating an Instance
 
-The first thing that is required to Automate any Excel related task is to create an Excel instance. 
+The first thing that is required to Automate any Excel-related task is to create an Excel instance. 
 
 An instance determines which session of an application WinAutomation interacts with. Instances can be created either by opening a locally stored or new Excel file, or attaching the Process to an already open file. These operations are achieved by the **Launch Excel** Action or **Attach to Running Excel** respectively.
 
@@ -63,16 +63,16 @@ After specifying an instance of Excel, specify the range of data you would like 
 ![read from excel action properties](..\media\read-from-excel-action-properties.png)
 
 
-Alternatively, set the option **Values from a Range of Cells** to extract an entire table of data, defined by the coordinates its first top left and bottom right cells. The output of this will be a DataTable type variable.
+Alternatively, set the option **Values from a Range of Cells** to extract an entire table of data, defined by the coordinates its first top left and bottom-right cells. The output of this will be a DataTable type variable.
   
 
 ![read from excel action properties continued](..\media\read-from-excel-action-properties-continued.png)
 
 
-Please note that the Column can be specified either by its letter, or its corresponding number. e.g. for cell E8 you can enter column E, row 8 or column 5, row 8.
+The Column can be specified either by its letter, or its corresponding number. For example, for cell E8 you can enter column E, row 8 or column 5, row 8.
 The last option, **Values from selection**, retrieves the values of the currently selected cells.
 
-Cell contents are stored in variables based on their type. e.g., A date will be stored as a datetime variable. To store all data as text, set **Get Cell Contents as Text** in the **Advanced** tab.
+Cell contents are stored in variables based on their type. For example, A date will be stored as a datetime variable. To store all data as text, set **Get Cell Contents as Text** in the **Advanced** tab.
   
 
 ![read from excel properties advanced tab](..\media\read-from-excel-properties-advanced-tab.png)
@@ -116,7 +116,7 @@ The Read and Write Actions can use the currently selected cell as a point of ref
 ![get selected cell range excel action properties](..\media\get-selected-cell-range-excel-action-properties.png)
 
 
-To change the selected cells, use the **Select Cells in Excel Worksheet** Action. Set **Select** to **Range of Cells** to select cells by specifying the top left and bottom right corner cells of the selection.
+To change the selected cells, use the **Select Cells in Excel Worksheet** Action. Set **Select** to **Range of Cells** to select cells by specifying the top left and bottom-right corner cells of the selection.
 
 
 ![select cells in excel action properties](..\media\select-cells-in-excel-action-properties.png)
@@ -160,4 +160,4 @@ The **Get Active Excel Worksheet** Action retrieves both the name and index of t
 ![get active excel worksheet action properties](..\media\get-active-excel-worksheet-action-properties.png)
 
 
-Worksheets can also be added, renamed and deleted, using the appropriate Actions. You will need to provide the name of the Worksheet, and the Excel instance.
+Worksheets can also be added, renamed, and deleted, using the appropriate Actions. You will need to provide the name of the Worksheet, and the Excel instance.
