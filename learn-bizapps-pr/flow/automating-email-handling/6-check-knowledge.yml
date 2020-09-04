@@ -21,17 +21,14 @@ quiz:
     - content: "False"
       isCorrect: true 
       explanation: "Correct! WinAutomation supports email handling through webmail services, Outlook and Exchange servers."
-  - content: "The Retrieve Emails action CANNOT:"
+  - content: "To send an email with the Send Email action, you have to configure the:"
     choices: 
-    - content: "Retrieve all emails from an inbox."
-      isCorrect: false 
-      explanation: "That is false; The Retrieve Emails action can retrieve all emails from an inbox."
-    - content: "Retrieve all emails from a specified sender."
-      isCorrect: false 
-      explanation: "That is false; The Retrieve Emails action can retrieve all emails from a specified sender."
-    - content: "Retrieve all emails from multiple inboxes simultaneously."
+    - content: "SMTP server settings"
       isCorrect: true 
-      explanation: "Correct! The Retrieve Emails action cannot retrieve all emails from multiple inboxes simultaneously."
+      explanation: "Correct! To use the Send Email action, you have to configure the SMTP Server tab."
+    - content: "IMAP server settings"
+      isCorrect: false 
+      explanation: "That is false; To use the Send Email action, you have to configure the SMTP Server tab."
   - content: "Outlook can be launched without a visible instance."
     choices: 
     - content: "True"
