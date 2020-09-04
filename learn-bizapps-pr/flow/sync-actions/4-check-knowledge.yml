@@ -28,7 +28,7 @@ quiz:
       explanation: "That is false; This process doesn't require synchronization actions."
     - content: "The process handles the mouse and the keyboard."
       isCorrect: true 
-      explanation: "Correct! This process requires synchronization actions.."
+      explanation: "Correct! This process requires synchronization actions."
     - content: "The process sends an email."
       isCorrect: false 
       explanation: "That is false; This process doesn't require synchronization actions."
