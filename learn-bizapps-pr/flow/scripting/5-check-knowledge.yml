@@ -29,14 +29,11 @@ quiz:
     - content: "False"
       isCorrect: true 
       explanation: "Correct! WinAutomation supports scripting in VBScript, JavaScript, PowerShell and Python."
-  - content: "Which one of the following actions doesn't exist in WinAutomation?"
+  - content: "All scripting Actions can execute code on web pages."
     choices:
-    - content: "Run Python Script"
+    - content: "True"
       isCorrect: false 
-      explanation: "That is false; The Run Python Script action exists in WinAutomation."
-    - content: "Execute Python Function on Web Page"
+      explanation: "That is false; Only Execute JavaScript Function on Web Page action can execute code on web pages."
+    - content: "False"
       isCorrect: true 
-      explanation: "Correct! The Execute Python Function on Web Page action doesn't exist in WinAutomation."
-    - content: "Run PowerShell Script"
-      isCorrect: false 
-      explanation: "That is false; The Run PowerShell Script action exists in WinAutomation."
+      explanation: "Correct! Only Execute JavaScript Function on Web Page action can execute code on web pages."
