@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.ocr-technologies 
 metadata: 
- title: OCR technologies
+ title: OCR technologies in WinAutomation
  description: This module covers the OCR actions in WinAutomation.
  ms.date: 09/03/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: OCR technologies
+title: OCR technologies in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   WinAutomation enables users to read, extract, and manage the data contained within all sorts of files through the OCR actions. 
