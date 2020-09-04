@@ -32,3 +32,17 @@ quiz:
     - content: "False"
       isCorrect: false
       explanation: "That is false; The date range filter provides a custom range option."
+  - content: "Which logs can you see in the left pane of the Logs tab?"
+    choices: 
+    - content: "Server logs only"
+      isCorrect: false 
+      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
+    - content: "Logs for all processes in a folder only"
+      isCorrect: false 
+      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
+    - content: "Logs for a particular action only"
+      isCorrect: false 
+      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
+    - content: "All of the above"
+      isCorrect: true 
+      explanation: "Correct! The left pane of the Logs tab displays all the mentioned options."
