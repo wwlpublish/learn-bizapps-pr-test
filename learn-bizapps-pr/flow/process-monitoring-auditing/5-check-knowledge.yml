@@ -13,17 +13,6 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "How many event types are displayed in the Logs tab?"
-    choices: 
-    - content: "Two"
-      isCorrect: false
-      explanation: "That is false; There are three event types in the Logs tab - info, warning, and error."
-    - content: "Three"
-      isCorrect: true 
-      explanation: "Correct! There are three event types in the Logs tab - info, warning, and error."
-    - content: "Four"
-      isCorrect: false 
-      explanation: "That is false; There are three event types in the Logs tab - info, warning, and error." 
   - content: "The date range filter in the Logs tab provides an option to set a custom range."
     choices:
     - content: "True"
