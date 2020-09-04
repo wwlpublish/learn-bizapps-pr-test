@@ -646,7 +646,7 @@ In this task, you'll update the **ColorFormats** to disable its load.
 
 	Disabling the load means it won't load as a table to the data model.
 	This is done because the query was merged with the Product query, which
-	is enabled to lad to the data model.
+	is enabled to load to the data model.
 
 1. Click **OK**.
 
