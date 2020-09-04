@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.text-manipulation.1-introduction 
+title: Introducing text manipulation
+metadata: 
+  title: Introducing text manipulation
+  description: Introducing text manipulation
+  ms.date: 09/03/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 3 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 

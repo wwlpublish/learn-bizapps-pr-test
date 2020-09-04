@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.text-manipulation 
+metadata: 
+ title: Text manipulation
+ description: In this module, we'll discuss how to manipulate text and datetime values in WinAutomation.
+ ms.date: 09/03/2020  
+ author: olegmelnykov  
+ ms.author: olmelnyk  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Text manipulation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  WinAutomation provides Actions to manipulate text and datetime values. These Text and Datetime Actions enable users to adopt a standardized data format in their Processes. 
+abstract: |  
+    In this module, you will: 
+    - Learn how to use the Text group of actions
+    - Create processes which process and edit text
+    - Manipulate text type variables for input and output in actions and processes
+prerequisites: |
+    - Basic familiarity with WinAutomation
+    - Familiarity with editing and manipulating text
+iconUrl: /learn/achievements/text-manipulation.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-platform 
+- power-automate
+units: 
+- learn-bizapps.text-manipulation.1-introduction 
+- learn-bizapps.text-manipulation.2-text-actions 
+- learn-bizapps.text-manipulation.3-datetime-actions 
+- learn-bizapps.text-manipulation.4-exercise 
+- learn-bizapps.text-manipulation.5-check-knowledge 
+- learn-bizapps.text-manipulation.6-summary 
+badge: 
+  uid: learn-bizapps.text-manipulation.badge 

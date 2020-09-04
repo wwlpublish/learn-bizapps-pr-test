@@ -1,0 +1,49 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.text-manipulation.5-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/03/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "What's the way to retrieve the length of a variable that holds a single text value?"
+    choices: 
+    - content: "Using the Get Text Length Action"
+      lisCorrect: false
+      explanation: "That's false; Both methods can be used to get the lenght of a text variable."
+    - content: "Using the %Variable%.length syntax"
+      isCorrect: false 
+      explanation: "That's false; Both methods can be used to get the lenght of a text variable."
+    - content: "All of the above"
+      isCorrect: true 
+      explanation: "Correct! Both methods can be used to get the lenght of a text variable."
+    - content: "None of the above"
+      isCorrect: false 
+      explanation: "That's false; Both methods can be used to get the lenght of a text variable."
+  - content: "Which Action is used to remove whitespace characters from the beginning and end of a Text or List of Text values?"
+    choices:
+    - content: "Pad"
+      isCorrect: true 
+      explanation: "Tha's false; The Pad Action adds padding around a text."
+    - content: "Trim"
+      isCorrect: false 
+      explanation: "Correct! The Trim Action removes white space  from the beginning and end of a Text."
+    - content: "Parse"
+      isCorrect: false 
+      explanation: "That's false; The Parse Action parses a text to find the first or all occurrences of a specified subtext"
+  - content: "The Get Subtext Action retrieves a part of a text value or variable."
+    choices:
+    - content: "True"
+      isCorrect: true 
+      explanation: "Correcti! The Get Subtext Action retrieves a subtext from a text value or variable."
+    - content: "False"
+      isCorrect: false
+      explanation: "That's false; The Get Subtext Action retrieves a subtext from a text value or variable."

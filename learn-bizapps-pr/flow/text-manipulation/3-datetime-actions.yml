@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.text-manipulation.3-datetime-actions 
+title:  Text handling Actions
+metadata: 
+  title: Text handling Actions
+  description: Text handling Actions
+  ms.date: 09/03/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-datetime-actions.md)] 

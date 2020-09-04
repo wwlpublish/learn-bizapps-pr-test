@@ -1,0 +1,1 @@
+This module shows how to use the Text and Datetime groups of actions. The module showcases the text and datetime action groups, to show how to automate processing text, and manipulate dates and date formats. By the end of this module, the user should have a good understanding of how to handle text and datetime, as well as their respective variable types.
