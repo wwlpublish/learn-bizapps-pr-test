@@ -39,8 +39,10 @@ To ensure that numbers are stored as numerical values use the **Convert Text to 
 ![convert text to number action properties](..\media\convert-text-to-number-action-properties.png)
 
 Use the **Convert Number to Text** Action to achieve the reverse conversion. Type in a number or enter a numeric variable to convert to a Text Variable. Set the number of decimal places to include, and configure the digit grouping options.
- 
-Use the **Convert DateTime to Text** Action to convert a datetime value to text. The Action properties contain several options regarding the format of the datetime input. The most straightforward way to use the Action is to enter a datetime variable created through the platform created with the get current date and time action. By doing this, the datetime value is guaranteed to be in a recognizable format. Alternatively, a custom value can be used s input. In this case, the user must ensure that it is entered in a compatible datetime format. The Action can be configured to save datetime as text using one of the available formats, or a custom format.
+
+Use the **Convert DateTime to Text** Action to convert a datetime value to text. The Action properties contain several options regarding the format of the datetime input. The most straightforward way to use the Action is to enter a datetime variable created through the platform created with the get current date and time action. 
+
+By doing this, the datetime value is guaranteed to be in a recognizable format. Alternatively, a custom value can be used s input. In this case, the user must ensure that it is entered in a compatible datetime format. The Action can be configured to save datetime as text using one of the available formats, or a custom format.
  
 ![convert datetime to text action properties](..\media\convert-datetime-to-text-action-properties.png)
 
