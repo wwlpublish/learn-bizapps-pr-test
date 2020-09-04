@@ -59,7 +59,7 @@ The use of DirectQuery can have negative implications. The limitations vary, dep
 
 -   **Reporting** -- Almost all the reporting capabilities that you have with imported data are also supported for DirectQuery models, provided that the underlying source offers a suitable level of performance. However, when the report is published in Power BI service, the Quick Insights and Q&A features are not supported. Also, the use of the Explore feature in Excel will likely result in poorer performance.
 
-For more detailed information on the limitations of using DirectQuery, see Implications of using DirectQuery.
+For more detailed information on the limitations of using DirectQuery, see [Implications of using DirectQuery](https://docs.microsoft.com/power-bi/connect-data/desktop-directquery-about#implications-of-using-directquery).
 
 Now that you have a brief understanding of how DirectQuery works and the limitations that it poses, you can take action to improve the performance.
 
