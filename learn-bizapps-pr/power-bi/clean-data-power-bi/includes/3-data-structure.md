@@ -64,7 +64,7 @@ data.
 
 ## Replace null values
 
-Occasionally, you might find that your data sources contain null values. For example, a freight amount on a sales order might have a null value if it's synonymous with zero. If the value stays null, theaverages will not calculate correctly. One solution would be to change the nulls to zero, which will produce the more accurate freight average. In this instance, using the same steps that you followed previously will help you replace the null values with zero. 
+Occasionally, you might find that your data sources contain null values. For example, a freight amount on a sales order might have a null value if it's synonymous with zero. If the value stays null, the averages will not calculate correctly. One solution would be to change the nulls to zero, which will produce the more accurate freight average. In this instance, using the same steps that you followed previously will help you replace the null values with zero. 
 
 > [!div class="mx-imgBorder"]
 > [![Replace null value with zero](../media/03-replace-null-zero-ss.png)](../media/03-replace-null-zero-ss.png#lightbox)
