@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.process-monitoring-auditing 
 metadata: 
- title: Process monitoring and auditing
+ title: Process monitoring and auditing with WinAutomation
  description: In this module, we'll discuss how to create and review logs to monitor our processes.
  ms.date: 08/28/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Process monitoring and auditing
+title: Process monitoring and auditing with WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   WinAutomation records all the vital information about processes and the platform itself into a central log file. Logs enable users to check the current condition of the platform and discover the source of thrown errors. 
