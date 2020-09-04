@@ -39,7 +39,7 @@ You can use DAX to create a measure that will identify the outliers in your data
 ```dax
 Outliers =
 CALCULATE (
-    [Order Qty] ),
+    [Order Qty],
     FILTER (
         VALUES ( Product[Product Name] ),
         COUNTROWS ( FILTER ( Sales, [Order Qty] >= [Min Qty] ) ) > 0
