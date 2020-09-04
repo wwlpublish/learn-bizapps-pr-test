@@ -38,7 +38,7 @@ quiz:
       explanation: "Correct! The Trim Action removes white space  from the beginning and end of a Text."
     - content: "Parse"
       isCorrect: false 
-      explanation: "That's false; The Parse Action parses a text to find the first or all occurrences of a specified subtext"
+      explanation: "That's false; The Parse Action parses a text to find the first or all occurrences of a specified subtext."
   - content: "The Get Subtext Action retrieves a part of a text value or variable."
     choices:
     - content: "True"
