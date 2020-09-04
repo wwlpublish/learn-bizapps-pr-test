@@ -2,17 +2,36 @@
 uid: learn-bizapps.process-monitoring-auditing.5-check-knowledge
 title: Check your knowledge 
 metadata: 
-  title: Check your knowledge 
-  description: Answer the following questions to see what you've learned. 
-  ms.date: 09/04/2020 
-  author: georgiostrantzas 
-  ms.author: getrantz 
-  ms.topic: interactive-tutorial 
-  ms.prod: learning-power-automate 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/04/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
 durationInMinutes: 5 
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
+  - content: "How many event types are displayed in the Logs tab?"
+    choices: 
+    - content: "Two"
+      isCorrect: false
+      explanation: "That is false; There are three event types in the Logs tab - info, warning, and error."
+    - content: "Three"
+      isCorrect: true 
+      explanation: "Correct! There are three event types in the Logs tab - info, warning, and error."
+    - content: "Four"
+      isCorrect: false 
+      explanation: "That is false; There are three event types in the Logs tab - info, warning, and error." 
+  - content: "The date range filter in the Logs tab provides an option to set a custom range."
+    choices:
+    - content: "True"
+      isCorrect: true 
+      explanation: "Correct! The date range filter provides a custom range option."
+    - content: "False"
+      isCorrect: false
+      explanation: "That is false; The date range filter provides a custom range option."
   - content: "Which logs can you see in the left pane of the Logs tab?"
     choices: 
     - content: "Server logs only"
