@@ -21,17 +21,17 @@ quiz:
     - content: "False"
       isCorrect: true 
       explanation: "Correct! The synchronization actions prevent simultaneous access to resources from instances of the same action."
-  - content: "Which one of the options below isn't a recommended case to use synchronization actions?"
+  - content: "Which one of the options below is a recommended case to use synchronization actions?"
     choices: 
-    - content: "The process accesses restricted files."
+    - content: "The process launching a browser instance."
       isCorrect: false 
-      explanation: "That is false; Synchronization actions have to be used when the process accesses restricted files."
+      explanation: "That is false; This process doesn't require synchronization actions."
     - content: "The process handles the mouse and the keyboard."
-      isCorrect: false 
-      explanation: "That is false; Synchronization actions have to be used when the process handles the mouse and the keyboard."
+      isCorrect: true 
+      explanation: "Correct! This process requires synchronization actions.."
     - content: "The process sends an email."
       isCorrect: true 
-      explanation: "Correct! Parallel execution doesn't affect the functionality of the email actions."
+      explanation: "That is false; This process doesn't require synchronization actions."
   - content: "The Lock Handle action has to be accompanied by a Release Handle action."
     choices: 
     - content: "True"
