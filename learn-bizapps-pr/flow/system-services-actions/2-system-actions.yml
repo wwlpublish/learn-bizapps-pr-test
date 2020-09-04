@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.system-services-actions.2-system-actions 
+title: System Actions
+metadata: 
+  title: System Actions
+  description: System Actions
+  ms.date: 09/04/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 25 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-system-actions.md)] 

@@ -1,0 +1,1 @@
+This module shows how to automate system-related tasks with the System group of Actions, and how to automate the management of Windows services. By the end of this module, the user should have a good understanding of how to incorporate System and Service actions into process development.
