@@ -35,7 +35,7 @@ quiz:
       explanation: "That's false; The Pad Action adds padding around a text."
     - content: "Trim"
       isCorrect: true 
-      explanation: "Correct! The Trim Action removes white space  from the beginning and end of a Text."
+      explanation: "Correct! The Trim Action removes white space from the beginning and end of a Text."
     - content: "Parse"
       isCorrect: false 
       explanation: "That's false; The Parse Action parses a text to find the first or all occurrences of a specified subtext."
@@ -43,7 +43,7 @@ quiz:
     choices:
     - content: "True"
       isCorrect: true 
-      explanation: "Correcti! The Get Subtext Action retrieves a subtext from a text value or variable."
+      explanation: "Correct! The Get Subtext Action retrieves a subtext from a text value or variable."
     - content: "False"
       isCorrect: false
       explanation: "That's false; The Get Subtext Action retrieves a subtext from a text value or variable."
