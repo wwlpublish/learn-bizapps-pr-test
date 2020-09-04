@@ -23,7 +23,7 @@ quiz:
       explanation: "Correct! The synchronization actions prevent simultaneous access to resources from instances of the same action."
   - content: "Which one of the options below is a recommended case to use synchronization actions?"
     choices: 
-    - content: "The process launching a browser instance."
+    - content: "The process launches a browser instance."
       isCorrect: false 
       explanation: "That is false; This process doesn't require synchronization actions."
     - content: "The process handles the mouse and the keyboard."
