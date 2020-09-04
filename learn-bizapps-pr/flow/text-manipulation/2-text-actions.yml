@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.text-manipulation.2-text-actions 
-title: Text handling and datetime Actions
+title: Text handling Actions
 metadata: 
-  title: Text handling and datetime Actions
-  description: Text handling and datetime Actions
+  title: Text handling Actions
+  description: Text handling Actions
   ms.date: 09/03/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
