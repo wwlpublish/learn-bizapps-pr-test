@@ -21,7 +21,7 @@ Next, drag and drop the subcategory column into this new hierarchy that you've c
 > [!div class="mx-imgBorder"]
 > [![alt text](../media/04-new-hierarchy-9-ss.png)](../media/04-new-hierarchy-9-ss.png#lightbox)
 
-Now, you can build the visual by selecting a stacked bar chart in the **Visualizations** pane. Add your **Category Name Hierarchy** in the **Axis** field and the **Total Sales** hierarchy in the **Values** field.
+Now, you can build the visual by selecting a stacked bar chart in the **Visualizations** pane. Add your **Category Name Hierarchy** in the **Axis** field and **Total Sales** in the **Values** field.
 
 > [!div class="mx-imgBorder"]
 > [![Hierarchy example](../media/04-hierarchy-visual-7-ss.png)](../media/04-hierarchy-visual-7-ss.png#lightbox)

@@ -161,9 +161,9 @@ resemble the following screenshot.
 	
 	-   Automobile Model - Text
 	
-	-   Automobile Year - Number
+	-   Automobile Year - Whole Number
 	
-	-   Automobile Mileage - Number
+	-   Automobile Mileage - Whole Number
 	
 	-   Automobile Comments - Text Area
 
