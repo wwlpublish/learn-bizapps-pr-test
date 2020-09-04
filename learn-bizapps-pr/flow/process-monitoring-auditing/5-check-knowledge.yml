@@ -38,3 +38,11 @@ quiz:
     - content: "All of the above"
       isCorrect: true 
       explanation: "Correct! The left pane of the Logs tab displays all the mentioned options."
+  - content: "The date range filter in the Logs tab provides an option to set a custom range."
+    choices:
+    - content: "True"
+      isCorrect: true 
+      explanation: "Correct! The date range filter provides a custom range option."
+    - content: "False"
+      isCorrect: false  
+      explanation: "That is false; The date range filter provides a custom range option."
