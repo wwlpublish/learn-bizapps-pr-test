@@ -18,16 +18,16 @@ quiz:
     choices: 
     - content: "Using the Get Text Length Action"
       isCorrect: false
-      explanation: "That's false; Both methods can be used to get the lenght of a text variable."
+      explanation: "That's false; Both methods can be used to get the length of a text variable."
     - content: "Using the %Variable%.length syntax"
       isCorrect: false 
-      explanation: "That's false; Both methods can be used to get the lenght of a text variable."
+      explanation: "That's false; Both methods can be used to get the length of a text variable."
     - content: "All of the above"
       isCorrect: true 
-      explanation: "Correct! Both methods can be used to get the lenght of a text variable."
+      explanation: "Correct! Both methods can be used to get the length of a text variable."
     - content: "None of the above"
       isCorrect: false 
-      explanation: "That's false; Both methods can be used to get the lenght of a text variable."
+      explanation: "That's false; Both methods can be used to get the length of a text variable."
   - content: "Which Action is used to remove whitespace characters from the beginning and end of a Text or List of Text values?"
     choices:
     - content: "Pad"
