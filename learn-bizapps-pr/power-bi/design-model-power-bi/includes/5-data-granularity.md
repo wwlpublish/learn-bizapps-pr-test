@@ -48,7 +48,7 @@ Change the data type to **Date** and then rename the column. Your Budget table s
 
 Now, you can create a relationship between the Budget and the Calendar tables.
 
-## Create a relationship between Calendar and Budget tables 
+## Create a relationship between tables 
 
 Power BI automatically detects relationships, but you can also go to **Manage Relationships > New** and create the relationship on the **Date** column. The relationship should resemble the following figure.
 
