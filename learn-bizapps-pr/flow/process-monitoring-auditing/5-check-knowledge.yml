@@ -24,20 +24,14 @@ quiz:
     - content: "Four"
       isCorrect: false 
       explanation: "That is false; There are three event types in the Logs tab: info, warning and error."
-  - content: "The date range filter in the Logs tab doesn't contain which one of the following options?"
+  - content: "The date range filter in the Logs tab provides an option to set a custom range."
     choices: 
-    - content: "This week"
+    - content: "True"
       isCorrect: true 
-      explanation: "Correct; There isn't a This week option in the date range filter."
-    - content: "Today"
+      explanation: "Correct; The date range filter provides a custom range option."
+    - content: "False"
       isCorrect: false 
-      explanation: "That is false; There is a Today option in the date range filter."
-    - content: "Custom"
-      isCorrect: false 
-      explanation: "That is false; There is a Custom option in the date range filter."
-    - content: "This month"
-      isCorrect: false 
-      explanation: "That is false; There is a This month option in the date range filter."
+      explanation: "That is false; The date range filter provides a custom range option."
   - content: "Which logs can you see in the left pane of the Logs tab?"
     choices: 
     - content: "Server logs only"
