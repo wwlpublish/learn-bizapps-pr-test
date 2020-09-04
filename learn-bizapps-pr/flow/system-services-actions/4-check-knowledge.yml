@@ -13,17 +13,33 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: YourQuestion
+  - content: "The Get Screen Resolution Action retrieves the resolution of:"
     choices: 
-    - content: YourAnswer
+    - content: "The monitor set as #1."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Get Screen Resolution Action requires you to specify a monitor."
+    - content: "The biggest monitor."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Get Screen Resolution Action requires you to specify a monitor."
+    - content: "The total width and height of all currently connected monitors."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Get Screen Resolution Action requires you to specify a monitor."
+    - content: "None of the above."
       isCorrect: true 
-      explanation: YourExplanation
-    - content: YourAnswer
+      explanation: "That is correct! The Get Screen Resolution Action requires you to specify a monitor."
+  - content: "The Shutdown Computer Action can be forced." 
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct!"
+    - content: "False"
       isCorrect: false 
-      explanation: YourExplanation
-    - content: YourAnswer
+      explanation: "That is incorrect, the statement is true."
+  - content: "The Ping Action sound can be configured to a specified .wav file."
+    choices: 
+    - content: "True"
       isCorrect: false 
-      explanation: YourExplanation
-    - content: YourAnswer
-      isCorrect: false 
-      explanation: YourExplanation
+      explanation: "That is incorrect. The Ping Action is used to send packets to a remote computer and does play sounds."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct!"
