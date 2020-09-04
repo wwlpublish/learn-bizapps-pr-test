@@ -31,10 +31,10 @@ quiz:
   - content: "Which Action is used to remove whitespace characters from the beginning and end of a Text or List of Text values?"
     choices:
     - content: "Pad"
-      isCorrect: true 
-      explanation: "Tha's false; The Pad Action adds padding around a text."
-    - content: "Trim"
       isCorrect: false 
+      explanation: "That's false; The Pad Action adds padding around a text."
+    - content: "Trim"
+      isCorrect: true 
       explanation: "Correct! The Trim Action removes white space  from the beginning and end of a Text."
     - content: "Parse"
       isCorrect: false 
