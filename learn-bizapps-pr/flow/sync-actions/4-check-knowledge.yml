@@ -30,7 +30,7 @@ quiz:
       isCorrect: true 
       explanation: "Correct! This process requires synchronization actions.."
     - content: "The process sends an email."
-      isCorrect: true 
+      isCorrect: false 
       explanation: "That is false; This process doesn't require synchronization actions."
   - content: "The Lock Handle action has to be accompanied by a Release Handle action."
     choices: 
