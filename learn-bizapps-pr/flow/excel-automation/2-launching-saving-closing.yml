@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.excel-automation.2-launching-saving-closing
+title: Launching, Saving and Closing 
+metadata: 
+  title: Launching, Saving and Closing 
+  description: Launching, Saving and Closing 
+  ms.date: 09/03/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-launching-saving-closing.md)] 

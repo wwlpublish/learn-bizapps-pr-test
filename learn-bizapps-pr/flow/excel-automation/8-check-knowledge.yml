@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.excel-automation.4-check-knowledge 
+uid: learn-bizapps.excel-automation.8-check-knowledge 
 title: Check your knowledge 
 metadata: 
  title: Check your knowledge 
@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: "Attach to Running Excel"
       isCorrect: true 
-      explanation: "Correct! The Attach to Running Excel action attaches to an Excel file that's already open."
+      explanation: "Correct! The Attach to Running Excel Action attaches to an Excel file that's already open."
     - content: "Launch Excel"
       isCorrect: false 
-      explanation: "That's false; The Launch Excel action launches a new Excel file."
+      explanation: "That's false; The Launch Excel Action launches a new Excel file."
     - content: "Set Active Excel Worksheet"
       isCorrect: false 
-      explanation: "That's false; The Set Active Excel Worksheet action uses an already defined Excel instance."
+      explanation: "That's false; The Set Active Excel Worksheet Action uses an already defined Excel instance."
     - content: "Activate Cell in Excel Worksheet"
       isCorrect: false 
-      explanation: "That's false; The Activate Cell in Excel Worksheet action uses an already defined Excel instance."
+      explanation: "That's false; The Activate Cell in Excel Worksheet Action uses an already defined Excel instance."
   - content: "To read data from an Excel worksheet, the cells must be selected first."
     choices: 
     - content: "True"
@@ -47,13 +47,13 @@ quiz:
     choices: 
     - content: "Get Active Excel Worksheet"
       isCorrect: false 
-      explanation: "That's false; The Get Active Excel Worksheet action retrieves the Excel file's active worksheet. "
+      explanation: "That's false; The Get Active Excel Worksheet Action retrieves an Excel file's active worksheet. "
     - content: "Activate Cell in Excel Worksheet"
       isCorrect: false 
-      explanation: "That's false; The Activate Cell in Excel Worksheet action activates specific cells in the Excel file."
+      explanation: "That's false; The Activate Cell in Excel Worksheet Action activates specific cells in an Excel file."
     - content: "Set Active Excel Worksheet"
       isCorrect: true 
-      explanation: "Correct! The Set Active Excel Worksheet action activates a specific worksheet in the Excel file."
+      explanation: "Correct! The Set Active Excel Worksheet Action activates a specific worksheet in an Excel file."
     - content: "Get Selected Cell Range from Excel Worksheet"
       isCorrect: false 
-      explanation: "That's false; The Get Selected Cell Range from Excel Worksheet action selects a specified range of cells."
+      explanation: "That's false; The Get Selected Cell Range from Excel Worksheet Action selects a specified range of cells."

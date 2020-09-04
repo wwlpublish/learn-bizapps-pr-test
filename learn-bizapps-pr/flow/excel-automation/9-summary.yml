@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.excel-automation.3-exercise 
-title: Exercise
+uid: learn-bizapps.excel-automation.9-summary 
+title: Summary
 metadata: 
-  title: Exercise
-  description: Exercise
+  title: Summary
+  description: Summary
   ms.date: 09/03/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 15 
+durationInMinutes: 1
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/3-exercise.md)] 
+ [!include[](includes/9-summary.md)] 

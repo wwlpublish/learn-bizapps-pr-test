@@ -2,7 +2,7 @@
 uid: learn-bizapps.excel-automation 
 metadata: 
  title: Excel automation
- description: This module covers the Excel actions in WinAutomation.
+ description: This module covers the Excel Actions in WinAutomation.
  ms.date: Thu 09/03/2020  
  author: olegmelnykov  
  ms.author: olmelnyk  
@@ -33,10 +33,14 @@ products:
 - power-platform
 - power-automate
 units: 
-- learn-bizapps.excel-automation.1-introduction 
-- learn-bizapps.excel-automation.2-excel-actions 
-- learn-bizapps.excel-automation.3-exercise 
-- learn-bizapps.excel-automation.4-check-knowledge 
-- learn-bizapps.excel-automation.5-summary 
+- learn-bizapps.excel-automation.1-introduction
+- learn-bizapps.excel-automation.2-launching-saving-closing
+- learn-bizapps.excel-automation.3-reading-excel-document
+- learn-bizapps.excel-automation.4-writing-excel-worksheet
+- learn-bizapps.excel-automation.5-additional-actions
+- learn-bizapps.excel-automation.6-managing-worksheets
+- learn-bizapps.excel-automation.7-exercise
+- learn-bizapps.excel-automation.8-check-knowledge 
+- learn-bizapps.excel-automation.9-summary 
 badge: 
   uid: learn-bizapps.excel-automation.badge 

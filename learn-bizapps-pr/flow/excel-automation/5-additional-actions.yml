@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.excel-automation.5-additional-actions
+title: Additional Actions and features
+metadata: 
+  title: Additional Actions and features
+  description: Additional Actions and features
+  ms.date: 09/03/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-additional-actions.md)] 
