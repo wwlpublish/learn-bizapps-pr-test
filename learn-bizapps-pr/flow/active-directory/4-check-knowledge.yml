@@ -35,7 +35,6 @@ quiz:
     - content: "None of the above"
       isCorrect: true
       explanation: "Correct! Updating and modifying Users, Groups or Computers require an established Active Directory connection."
-    - content: "None of the above"
   - content: "Creating an Active Directory Organizational Unit is done by the Create Active Directory Object Action."
     choices: 
     - content: "True"
