@@ -39,8 +39,8 @@ In this task, you will first save the Power BI Desktop file.
 5.  Click **Save**.
 
 > [!TIP]
-> You can also save the file by click the **Save** icon located at
-the top-right.
+> You can also save the file by clicking the **Save** icon located at
+the top-left.
 
 ### Set Power BI Desktop options
 
