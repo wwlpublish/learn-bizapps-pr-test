@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.database-actions 
+metadata: 
+ title: Database Actions
+ description: This module covers the Database Actions in WinAutomation.
+ ms.date: 09/07/2020  
+ author: olegmelnykov  
+ ms.author: olmelnyk  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Database Actions
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Databases are a vital part of every organization, and efficient data handling is necessary for their effective operation. WinAutomation enables the automation of databases through the Database Actions. 
+abstract: |  
+    In this module, you will: 
+    - Compose a connection string to connect to a database
+    - Use the appropriate action to run queries on a database
+prerequisites: |
+    - Basic familiarity with WinAutomation
+    - An SQL database with at least one table containing data
+iconUrl: /learn/achievements/database-actions.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+- functional-consultant 
+products:  
+- power-platform 
+- power-automate 
+units: 
+- learn-bizapps.database-actions.1-introduction 
+- learn-bizapps.database-actions.2-database-actions 
+- learn-bizapps.database-actions.3-check-knowledge 
+- learn-bizapps.database-actions.4-summary 
+badge: 
+  uid: learn-bizapps.database-actions.badge 

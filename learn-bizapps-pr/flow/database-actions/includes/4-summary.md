@@ -1,0 +1,1 @@
+This module shows how to create processes which will interact with databases. The module shows how to connect to databases, as well run queries. By the end of the module, the user should have a firm grasp of how to create processes which contain database-related Actions.
