@@ -135,7 +135,7 @@ The Power Query options include:
 
 -   **Unnecessary rows** - Checks the first few rows in the dataset to see if they are empty or if they contain data that you do not need in your reports; if so, it removes those rows by using the **Remove Top Rows** option on the **Home** tab.
 
--   **Data type** - Evaluates the column data types to ensure that each one is incorrect. If you identify a data type that is incorrect, change it by selecting the column, selecting **Data Type** on the **Transform** tab, and then selecting the correct data type from the list.
+-   **Data type** - Evaluates the column data types to ensure that each one is correct. If you identify a data type that is incorrect, change it by selecting the column, selecting **Data Type** on the **Transform** tab, and then selecting the correct data type from the list.
 
 -   **Query names** - Examines the query (table) names in the **Queries** pane. Just like you did for column header names, you should change uncommon or unhelpful query names to names that are more obvious or names that the user is more familiar with. You can rename a query by right-clicking that query, selecting **Rename**, editing the name as required, and then pressing **Enter**.
 
