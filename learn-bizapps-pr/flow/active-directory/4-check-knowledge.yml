@@ -39,8 +39,8 @@ quiz:
   - content: "Creating an Active Directory Organizational Unit is done by the Create Active Directory Object Action."
     choices: 
     - content: "True"
-      isCorrect: "Correct! The Create Active Directory Object Action creates an Active Directory Organizational Unit." 
-      explanation: 
+      isCorrect: true
+      explanation: "Correct! The Create Active Directory Object Action creates an Active Directory Organizational Unit." 
     - content: "False"
       isCorrect: false 
       explanation: "That is false; The Create Active Directory Object Action creates an Active Directory Organizational Unit."
