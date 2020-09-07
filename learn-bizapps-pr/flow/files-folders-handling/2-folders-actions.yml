@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.files-folders-handling.2-folders-actions 
+title: Folders Actions
+metadata: 
+  title: Folders Actions
+  description: Folders Actions
+  ms.date: 09/07/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-folders-actions.md)] 

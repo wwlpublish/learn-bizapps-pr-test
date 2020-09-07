@@ -1,0 +1,59 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.files-folders-handling.5-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/07/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "With which Action is it possible to extract the root path, directory, file name or extension of a file?"
+    choices: 
+    - content: "Get Special Folder Action"
+      isCorrect: false 
+      explanation: "That is false; The Get Special Folder Action retrieves the path of a Windows' special folder."
+    - content: "Get Files in Folder Action"
+      isCorrect: false 
+      explanation: "That is false; The Get Files in Folder Action retrieves the list of files in a folder."
+    - content: "Get FilePath Part Action"	
+      isCorrect: true 
+      explanation: "Correct! The Get FilePath Part Action retrieves one or more parts from a file path."
+    - content: "If File Exists Action"
+      isCorrect: false 
+      explanation: "That is false; The If File Exists Action marks the beginning of a conditional block of actions depending on whether a file exists or not."
+  - content: "The Get Files in Folder Action will also retrieve subfolders."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "Correct! The Get Files in Folder Action retrieves subfolders, if the respective option is enabled."
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; The Get Files in Folder Action retrieves subfolders, if the respective option is enabled."
+  - content: "To get the Desktop Directory of the current user, the following action can be used:"
+    choices: 
+    - content: "Create Folder"
+      isCorrect: false 
+      explanation: "That is false; The Create Folder Action creates a new folder."
+    - content: "Get Subfolders in Folder"
+      isCorrect: false 
+      explanation: "That is false; The Get Subfolders in Folder Action retrieves the list of subfolders in a folder."
+    - content: "Get Files in Folder"	
+      isCorrect: false 
+      explanation: "That is false; The Get Files in Folder Action retrieves the list of files in a folder."
+    - content: "Get Special Folder	"
+      isCorrect: true 
+      explanation: "Correct! The Get Special Folder Action can return the path of the current user's Desktop folder."
+  - content: "The Copy File(s) Action removes the files from their original location."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; The The Copy File(s) Action keeps the files in their original location."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! The The Copy File(s) Action keeps the files in their original location."

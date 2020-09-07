@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.files-folders-handling.4-exercise 
+title: Exercise
+metadata: 
+  title: Exercise
+  description: Exercise
+  ms.date: 09/07/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-exercise.md)] 
