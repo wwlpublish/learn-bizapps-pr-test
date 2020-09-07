@@ -85,7 +85,7 @@ The Modify Active Directory Group Action requires the distinguished name of the 
 Both **Get Active Directory Group Info** and **Get Active Directory Group Members** will require the distinguished name of the group and store the retrieved information in a variable.
 
 >[!NOTE]To list the distinguished names of all Active Directory groups, open the command prompt and execute the following command:
-dsquery group
+>dsquery group
 
 ## Object management
 
@@ -96,7 +96,7 @@ Active Directory objects can be created, moved, renamed and deleted. To create a
 To move, delete or rename an object, use the appropriate actions, specifying the object by its distinguished name. When moving or renaming, specify the new location and new name respectively.
 
 >[!NOTE]To list the distinguished names of all Active Directory computers, open the command prompt and execute the following command:
-dsquery computer
+>dsquery computer
 
 To list the distinguished names of all Active Directory organizational units:
 dsquery ou
