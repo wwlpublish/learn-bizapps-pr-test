@@ -349,7 +349,7 @@ In this task, you will complete the lab.
 
 1. Leave the Edge browser window open.
 
-1. In Power BI Desktop, go to the **My Performance** page, and in the **Fields** pane, remove the **Salesperson** filter card.
+1. In Power BI Desktop, go to the **My Performance** page, and in the **Filters** pane, remove the **Salesperson** filter card.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the removing the Salesperson filter card.](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
