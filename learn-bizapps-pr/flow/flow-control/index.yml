@@ -31,8 +31,7 @@ products:
 units: 
 - learn-bizapps.flow-control.1-introduction 
 - learn-bizapps.flow-control.2-flow-control-actions 
-- learn-bizapps.flow-control.3-exercise 
-- learn-bizapps.flow-control.4-check-knowledge 
-- learn-bizapps.flow-control.5-summary 
+- learn-bizapps.flow-control.3-check-knowledge 
+- learn-bizapps.flow-control.4-summary 
 badge: 
   uid: learn-bizapps.flow-control.badge 
