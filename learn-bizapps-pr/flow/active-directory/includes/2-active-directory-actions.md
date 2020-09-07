@@ -1,3 +1,5 @@
+WinAutomation provides 15 Active Directory Actions that enable you to add, remove, or update users, user roles and objects in the Active Directory server.
+
 ## Connecting to an Active Directory server
 
 First, for any Active Directory related Process to work, a connection to an Active Directory Server has to be established. The **Connect to an Active Directory Server** Action, used for this purpose, will require the LDAP path, specifying the Domain Controllers.
