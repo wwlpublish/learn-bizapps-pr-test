@@ -11,7 +11,7 @@ metadata:
 title: Flow Control
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The ability to alter the order in which actions and functions are executed is called flow control. WinAutomation enables flow control through the Flow Control Actions.  
+  The ability to alter the order in which Actions and Functions are executed is called flow control. WinAutomation enables flow control through the Flow Control Actions.  
 abstract: |  
     In this module, you will: 
     - Learn how the process flow works
