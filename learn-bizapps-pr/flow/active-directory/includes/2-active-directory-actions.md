@@ -11,7 +11,7 @@ Enabling Use Authentication adds additional fields. In case authentication is re
   
 ![connect to ad server action properties continued](..\media\connect-to-ad-server-action-properties-continued.png)
 
-The output, **Parent Entry**, is stored into a variable which stores the Active Directory connection and thus can be referenced by other Active Directory Actions.
+The output, **Parent Entry**, is stored into a variable that stores the Active Directory connection and thus can be referenced by other Active Directory Actions.
 
 >[!NOTE]
 >The LDAP Path should have the following format:
@@ -27,7 +27,7 @@ The connection can be closed by using the **Close Active Directory Connection** 
  
 ## User management
 
-Active Directory user management Actions are used to create, modify, update and unlock Users, as well as retrieve information about them. 
+Active Directory user management Actions are used to create, modify, update, and unlock Users, as well as retrieve information about them. 
 
 Creating a user is done with the **Create Active Directory User** Action. Initially, the **Active Directory Parent Entry** has to be specified. 
 
@@ -89,7 +89,7 @@ Both **Get Active Directory Group Info** and **Get Active Directory Group Member
 
 ## Object management
 
-Active Directory objects can be created, moved, renamed and deleted. To create an object, use **Create Active Directory Object** Action. The object’s name, location and type must be specified in the action properties.
+Active Directory objects can be created, moved, renamed, and deleted. To create an object, use **Create Active Directory Object** Action. The object’s name, location, and type must be specified in the action properties.
   
 ![create ad object action properties](..\media\create-ad-object-action-properties.png)
 
