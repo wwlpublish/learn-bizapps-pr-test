@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.active-directory.5-conclusion 
-title: Conclusion
+uid: learn-bizapps.active-directory.5-summary 
+title: Summary
 metadata: 
-  title: Conclusion
-  description: Conclusion
+  title: Summary
+  description: Summary
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 1
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/5-conclusion.md)] 
+ [!include[](includes/5-summary.md)] 
