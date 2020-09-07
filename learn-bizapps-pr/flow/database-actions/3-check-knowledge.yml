@@ -25,7 +25,6 @@ quiz:
       isCorrect: false 
       explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
     - content: "Run Query"
-      explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
       isCorrect: false 
       explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
   - content: "In order to run queries on a database, a connection must be established first. To this end, use the Open SQL Connection Action."
