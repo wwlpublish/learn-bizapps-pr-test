@@ -14,7 +14,7 @@ Open the new folder, right-click in the folder, go to **New** and create a new *
 Create a new Process and add the **Get Special Folder** Action to the workspace. Set the Action to retrieve Special Folder Name: DesktopDirectory and store it in a Variable.
 
 ![Get Special Folder exercise](..\media\get-special-folder-exercise.png)
- 
+
 Using the **Get Files in Folder** Action, set Folder to **%SpecialFolder%\Important**. This will select the folder you created on the Desktop in the previous step.
 
 ![Get FIles in Folder exercise](..\media\get-files-in-folder-exercise.png)

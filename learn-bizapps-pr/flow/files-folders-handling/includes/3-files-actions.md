@@ -38,7 +38,6 @@ A text file can also be written to with the **Write Text to File** Action. This 
 >[!NOTE]
 >If you provide a path to a non-existent file under File Path, a file will be created with the contents specified in Text to Write.
 
- 
 The **Read from CSV File** Action is used to read data from a Comma-Separated Value (.csv) spreadsheet file. It requires the path to the .csv file, as well as the encoding of the file. The output is a DataTable type variable with the contents of the .csv file. 
 
 In the **Advanced** tab, there are multiple options for handling the data in the .csv file. It is possible to trim (remove whitespaces from the beginning and end) of the value in each cell. If the first line is set to contain column names, it will not be stored in the output variable. Additionally, you change the columns separator in case a different symbol is used in the file. 

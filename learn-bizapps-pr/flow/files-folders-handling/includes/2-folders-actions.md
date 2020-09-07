@@ -10,7 +10,7 @@ The output of the Get Special Folder Action can then be referenced in the **Crea
 
 In the screenshot below, the previously retrieved special folder is used as the directory for the new folder, which is going to be named Files.
 
-![Create Folder action properties](..\media\create folder action properties.png)
+![Create Folder action properties](..\media\create-folder-action-properties.png)
  
 The output of this Action is of type Folder, and contains the following attributes:
 
