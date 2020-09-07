@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-control.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/07/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "What is the name of the Action used to run Queries on a database after a connection has been established?"
+    choices: 
+    - content: "Open SQL Connection"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
+    - content: "Execute SQL Statement"
+      isCorrect: true 
+      explanation: "That is correct."
+    - content: "Select from Database"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
+    - content: "Run Query"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
+  - content: "In order to run queries on a database, a connection must be established first. To this end, use the Open SQL Connection Action."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct!"
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is incorrect, the statement is true."
+  - content: "The Close SQL Connection Action requires the connection string."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is incorrect. The Close SQL Connection requires the SQL connection variable."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct!"
+
