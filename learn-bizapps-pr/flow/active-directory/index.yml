@@ -11,7 +11,7 @@ metadata:
 title: Active Directory
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Active Directory is a directory service and enables administrators to manage permissions and access to network resources. WinAutomation provides the Active Directory Actions to automate all the related tasks. 
+  Active Directory is a directory service that enables administrators to manage permissions and access to network resources. WinAutomation provides the Active Directory Actions to automate all the related tasks. 
 abstract: |  
     In this module, you will: 
     - Connect to an Active Directory Server

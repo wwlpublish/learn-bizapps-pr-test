@@ -17,7 +17,6 @@ The output, **Parent Entry**, is stored into a variable which stores the Active 
 >The LDAP Path should have the following format:
 >LDAP://DC=contoso,DC=demo
 
- 
 ## Closing the Active Directory connection
 The connection can be closed by using the **Close Active Directory Connection** Action. The only input the Action requires is the variable that stores the Active Directory Parent Entry.
   
@@ -53,7 +52,7 @@ The Modify Active Directory User Action allows for following operations to be pe
 
 >[!NOTE]
 >All Active Directory user management Actions will require the user’s Distinguished Name. The distinguished name should have the following format:
->CN=nvarga,CN=Users,DC=contoso,DC=demo
+>CN=nvarga,CN=Users,DC=contoso,DC=demo 
 >Where nvarga is the username.
 
 The **Update Active Directory User** Action is used to either add additional details to, or modify any existing details of, an Active Directory User.
@@ -99,6 +98,5 @@ To move, delete or rename an object, use the appropriate actions, specifying the
 >[!NOTE]
 >To list the distinguished names of all Active Directory computers, open the command prompt and execute the following command:
 >dsquery computer
-
-To list the distinguished names of all Active Directory organizational units:
-dsquery ou
+>To list the distinguished names of all Active Directory organizational units:
+>dsquery ou
