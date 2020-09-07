@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.active-directory.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/07/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Before performing any Active Directory Action, first a connection must be established."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "Correct! All Active Directory Actions require an established connection."
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; All Active Directory Actions require an established connection."
+  - content: "Updating and modifying which of the following does not require a Connect to Active Directory Action?"
+    choices: 
+    - content: "Users"
+      isCorrect: false
+      explanation: "That is false; Updating and modifying Users require an established Active Directory connection."
+    - content: "Groups"
+      isCorrect: false  
+      explanation: "That is false; Updating and modifying Groups require an established Active Directory connection."
+    - content: "Computers"
+      isCorrect: false
+      explanation: "That is false; Updating and modifying Computers require an established Active Directory connection."
+    - content: "None of the above"
+      isCorrect: true
+      explanation: "Correct! Updating and modifying Users, Groups or Computers require an established Active Directory connection."
+    - content: "None of the above"
+  - content: "Creating an Active Directory Organizational Unit is done by the Create Active Directory Object Action."
+    choices: 
+    - content: "True"
+      isCorrect: "Correct! The Create Active Directory Object Action creates an Active Directory Organizational Unit." 
+      explanation: 
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is false; The Create Active Directory Object Action creates an Active Directory Organizational Unit."
