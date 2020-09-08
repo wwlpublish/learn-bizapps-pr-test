@@ -8,7 +8,7 @@ Using scripts, you can avoid the development of complicated processes and enhanc
 
  In this module, you will: 
 
-- Understand how to use scripting actions.
+- Learn how to use scripting actions.
 - Create two processes using VBScript and JavaScript.
 
 ## Prerequisites

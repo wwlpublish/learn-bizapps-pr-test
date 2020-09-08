@@ -14,7 +14,7 @@ summary: |
   WinAutomation provides the ability to automate complex scenarios using scripts in VBScript, JavaScript, PowerShell, and Python. 
 abstract: |  
     In this module, you will: 
-    - Understand how to use scripting actions.
+    - Learn how to use scripting actions.
     - Create two processes using VBScript and JavaScript.
 prerequisites: |
     - Familiarity with the WinAutomation console and process designer.
