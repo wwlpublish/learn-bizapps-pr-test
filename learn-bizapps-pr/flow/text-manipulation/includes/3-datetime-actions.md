@@ -10,13 +10,16 @@ The **Subtract Dates** Action subtracts **Date 1** from **Date 2** and stores th
 
 ![subtract dates action properties](..\media\subtract-dates-action-properties.png)
 
-[!NOTE]
 A variable of the data type DateTime has the following properties:
-* Year: The year part of the DateTime value.
-* Month: The month part of the DateTime value.
-* Day: The day part of the DateTime value.
-* DayOfWeek: The name of the day (for example, Sunday, Monday etc.)
-* DayOfYear: The day of the year part of the DateTime value (1-365/6)
-* Hour: The hour part of the DateTime value.
-* Minute: The minute part of the DateTime value.
-* Second: The seconds part of the DateTime value.
+
+
+|Property  |Description                                               |
+|----------|----------------------------------------------------------|
+|Year      |The year part of the DateTime value.                      |
+|Month     |The month part of the DateTime value.                     |
+|Day       |The day part of the DateTime value.                       |
+|DayOfWeek |The name of the day (for example, Sunday, Monday etc.)    |
+|DayOfYear |The day of the year part of the DateTime value (1-365/6)  |
+|Hour      |The hour part of the DateTime value.                      |
+|Minute    |The minute part of the DateTime value.                    |
+|Second    |The seconds part of the DateTime value.                   |

@@ -5,8 +5,7 @@ Use the **Get Text Length** Action to determine the length of a text value or a 
 
 > [!NOTE]
 > An alternative way to retrieve the length of a text variable, is to use the syntax:
-
-%Text%.length
+>%Text%.length
 
 With the **Append Line to Text** Action add a line of text to a single text value or list of text values. The result is stored in a new text variable
  
@@ -32,7 +31,9 @@ With the **Change Text Case** Action change the text case found in a single text
 
 # Text, Dates, and Numbers
 
-There are four text actions dedicated to converting text values to and from the number and date time datatypes. There are cases where data that includes numbers has been extracted from a source such as a spreadsheet or webpage and has been stored as a datatable, datarow, or even a text value, but must be entered as a numerical value elsewhere. For example data is extracted from multiple columns of an Excel sheet into a Datatable type variable. some of the columns contain text values while others contain numbers. the numbers must be entered into multiple dropdown fields in a desktop application. if the numbers must be stored as numerical values, otherwise the data will not be processed correctly and cannot be entered.
+There are four text actions dedicated to converting text values to and from the number and date time datatypes. There are cases where data that includes numbers has been extracted from a source such as a spreadsheet or webpage and has been stored as a datatable, datarow, or even a text value, but must be entered as a numerical value elsewhere. 
+
+For example data is extracted from multiple columns of an Excel sheet into a Datatable type variable. some of the columns contain text values while others contain numbers. the numbers must be entered into multiple dropdown fields in a desktop application. If the numbers must be stored as numerical values, otherwise the data will not be processed correctly and cannot be entered.
 
 To ensure that numbers are stored as numerical values use the **Convert Text to Number** Action. The Action requires as input single text items, text list items, datarow, or datatable items. In the case of list, datarow, or datatable items, the item’s index must be specified.
  
@@ -52,45 +53,51 @@ Use the **Convert Text to DateTime** Action to achieve the reverse conversion. T
 
 ### Date Formatting
 When displayed on their own these characters produce the following formats:
-* d: The Short Date (04/02/2010) 
-* D: The Long Date (Friday, April 02, 2010) 
-* f: The Full Date Time - short Time (Friday, April 02, 2010 10:00 AM)  
-* F: The Full Date Time (Friday, April 02, 2010 10:00:46 AM)  
-* g: General Date Time - short Time (04/02/2010 10:00 AM) 
-* G: The General Date Time - long Time: (04/02/2010 10:00:46 AM) 
-* M: The Month and day of the month: ( April 02) 
-* m: The Month and day of the month: ( April 02) 
-* r: A Shorter Full date (Fri, 02 Apr 2010 10:00:46 GMT) 
-* R: A Shorter Full date (Fri, 02 Apr 2010 10:00:46 GMT) 
-* s: The Sortable Date Time (2010-04-02T10:00:46) 
-* t: The short time (10:00 AM) 
-* T: The Long Time (10:00:46 AM) 
-* y: The Month and Year: (April, 2010) 
- 
+
+|Format |Description                                                       |  
+|-------|------------------------------------------------------------------|
+|d      |The Short Date (04/02/2010)                                       |  
+|D      |The Long Date (Friday, April 02, 2010)                            |   
+|f      |The Full Date Time - short Time (Friday, April 02, 2010 10:00 AM) |  
+|F      |The Full Date Time (Friday, April 02, 2010 10:00:46 AM)           | 
+|g      |General Date Time - short Time (04/02/2010 10:00 AM)              | 
+|G      |The General Date Time - long Time: (04/02/2010 10:00:46 AM)       | 
+|M      |The Month and day of the month: ( April 02                        | 
+|m      |The Month and day of the month: ( April 02)                       | 
+|r      |A Shorter Full date (Fri, 02 Apr 2010 10:00:46 GMT)               | 
+|R      |A Shorter Full date (Fri, 02 Apr 2010 10:00:46 GMT)               | 
+|s      |The Sortable Date Time (2010-04-02T10:00:46)                      | 
+|t      |The short time (10:00 AM)                                         | 
+|T      |The Long Time (10:00:46 AM)                                       | 
+|y      |The Month and Year: (April, 2010)                                 | 
  
 When used as a combination the characters have the following representation:
-* d: The day of the month as a number from 1 to 31 (2) 
-* dd: The day of the month as a number from 01 to 31 (02) 
-* ddd: The abbreviated day of the week (Fri) 
-* dddd: The full day of the week (Friday) 
-* gg: The period era (A.D.) 
-* h: The hour as a number from 1 to 12 (10) 
-* hh: The hour as a number from 01 to 12 (10) 
-* HH: The hour as a number from 00 to 23 (10) 
-* m: The minutes as a number from 0 to 59 (0) 
-* mm: The minutes as a number from 00 to 59 (00) 
-* M: The month as a number from 1 to 12: (4) 
-* MM: The month as a number from 01 to 12 (04) 
-* MMM: The abbreviated month (Apr) 
-* MMMM: The month (April) 
-* s: The seconds as a number from 0 to 59 (46) 
-* ss: The seconds as a number from 00 to 59 (46) 
-* tt: The AM/PM designator (AM) 
-* y: The last digit of the year (0) 
-* yy: The last two digits of the year (10) 
-* yyyy: The year (2010) 
-* zz: The time zone (+02) 
-* zzz: The time zone in full format (+02:00) 
+
+|Representation |Description                                             |  
+|---------------|--------------------------------------------------------|
+|d              |The day of the month as a number from 1 to 31 (2)       |  
+|dd             |dd: The day of the month as a number from 01 to 31 (02) |   
+|ddd            |The abbreviated day of the week (Fri)                   |  
+|dddd           |The full day of the week (Friday)                       | 
+|gg             |The period era (A.D.)                                   | 
+|h              |The hour as a number from 1 to 12 (10)                  | 
+|hh             |The hour as a number from 01 to 12 (10)                 | 
+|HH             |The hour as a number from 00 to 23 (10)                 | 
+|m              |The minutes as a number from 0 to 59 (0)                | 
+|mm             |The minutes as a number from 00 to 59 (00)              | 
+|M              |The month as a number from 1 to 12: (4)                 | 
+|MM             |The month as a number from 01 to 12 (04)                | 
+|MMM            |The abbreviated month (Apr)                             | 
+|MMMM           |The month (April)                                       | 
+|s              |The seconds as a number from 0 to 59 (46)               | 
+|ss             |The seconds as a number from 00 to 59 (46)              | 
+|tt             |The AM/PM designator (AM)                               | 
+|y              |The last digit of the year (0)                          | 
+|yy             |The last two digits of the year (10)                    | 
+|yyyy           |yyyy: The year (2010)                                   | 
+|zz             |The time zone (+02)                                     | 
+|zzz            |The time zone in full format (+02:00)                   | 
+
 
 ## Additional Text Actions
 The **Create Random Text** Action is ideal for generating passwords as it can be configured to generate text of a certain length and include upper-case and lower-case letters, digits, and symbols.
