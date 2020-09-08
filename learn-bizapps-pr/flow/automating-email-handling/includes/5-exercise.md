@@ -1,14 +1,19 @@
 In this exercise, you'll develop a process that retrieves emails related to new support tickets and sends confirmations. 
 
-1. Firstly, launch WinAutomation and create a new process named **Ticket confirmation**.
+>[!NOTE]
+>To run the process of the exercise successfully, you have to use the credentials of a valid webmail account. If the account's or server's information is false, the process will fail.
+
+1. Launch WinAutomation and create a new process named **Ticket confirmation**.
 
     ![New Process window.](..\media\create-process.png)
 
 1. Deploy a **Retrieve Emails** action and configure it to retrieve all the unread emails that contain the word **Ticket** in their subject. 
 
+    The **Mail Folder** field is populated automatically with the main inbox folder of your account. 
+
     ![A Retrieve Emails action with populated fields.](..\media\exercise-retrieve.png)
 
-1. Move to the **IMAP Server** tab of the action and populate the wished IMAP server's information.
+1. Move to the **IMAP Server** tab of the action and populate the IMAP server's information.
 
     ![The IMAP Server tab of the Retrieve Emails action.](..\media\exercise-retrieve-imap.png)
 

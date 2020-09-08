@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.automating-email-handling.2-email-actions 
-title: Email actions – Automate webmail services
+uid: learn-bizapps.automating-email-handling.2-automate-webmail-services
+title: Automate webmail services
 metadata: 
-  title: Email actions – Automate webmail services
+  title: Automate webmail services
   description: Email actions – Automate webmail services
   ms.date: 08/21/2020 
   author: georgiostrantzas 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 4
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/2-email-actions.md)] 
+ [!include[](includes/2-automate-webmail-services.md)] 

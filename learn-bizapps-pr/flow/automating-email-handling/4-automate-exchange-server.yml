@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.automating-email-handling.4-exchange-actions 
+uid: learn-bizapps.automating-email-handling.4-automate-exchange-server
 title: Exchange actions – Automate Exchange server operations
 metadata: 
-  title: Exchange actions – Automate Exchange server operations
-  description: Exchange actions – Automate Exchange server operations
+  title: Automate Exchange server
+  description: Automate Exchange server
   ms.date: 08/21/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 4
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/4-exchange-actions.md)] 
+ [!include[](includes/4-automate-exchange-server.md)] 
