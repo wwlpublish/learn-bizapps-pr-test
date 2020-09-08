@@ -7,9 +7,7 @@ In this exercise, you'll develop a process that retrieves emails related to new 
 
     ![New Process window.](..\media\create-process.png)
 
-1. Deploy a **Retrieve Emails** action and configure it to retrieve all the unread emails that contain the word **Ticket** in their subject. 
-
-    The **Mail Folder** field is populated automatically with the main inbox folder of your account. 
+1. Deploy a **Retrieve Emails** action and configure it to retrieve all the unread emails that contain the word **Ticket** in their subject. The **Mail Folder** field is populated automatically with the main inbox folder of your account. 
 
     ![A Retrieve Emails action with populated fields.](..\media\exercise-retrieve.png)
 
