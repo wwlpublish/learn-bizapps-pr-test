@@ -2,13 +2,13 @@ WinAutomation supports parallel execution of many instances of the same process.
 
 Allowing multiple processes to access resources like mouse and keyboard or restricted files at the same time can alter each process's result. 
 
-**Synchronization** actions enable you to prevent actions from being executed simultaneously in multiple process instances. When a process instance runs the specified actions, the rest of the instances have to wait.
+Synchronization actions enable you to prevent actions from being executed simultaneously in multiple process instances. When a process instance runs the specified actions, the rest of the instances have to wait.
 
 ## Learning objectives
 
  In this module, you will: 
 
-- Understand in which cases parallel execution must be prevented.
+- Learn in which cases parallel execution must be prevented.
 - Configure the synchronization actions.
 - Create a process with synchronization actions to prevent simultaneous access to a file. 
 
