@@ -21,7 +21,6 @@ Use the **Change Text Case** Action. In Text to Convert enter %TextList[0]%. Wit
  
 ![change text case exercise](..\media\change-text-case-exercise.png)
 
- 
 Add another **Change Text Case** Action. This time, set **Text to Convert** to **%TextList[1]%**, thus referencing the last name. **Convert to** should be set to **lowercase** again. 
 
 The output is stored in a different variable than the previous Change Text Case Action.
@@ -34,23 +33,16 @@ For **Start Index** set **Character Position** to **0**, and for **Length**, **N
  
 ![get subtext exercise](..\media\get-subtext-exercise.png)
 
- 
 To generate a random password, use the **Create Random Text** Action. The Action’s properties can be left at their default values.
  
 ![create random text exercise](..\media\create-random-text-exercise.png)
 
- 
 Lastly, use the **Display Message** Action. This will display a message box with the user’s username and password. For **Message Box Title** enter **Username & Password**, and for **Message to Display** enter:
-Hello, %UserInput%, your username is:
-%SubText%%TextWithNewCase2%
-Your temporary password is:
-%RandomText%
+Hello, %UserInput%, your username is: %SubText%%TextWithNewCase2% Your temporary password is: %RandomText%
 
 This will display the user’s username (first letter of first name combined with last name) and the result of the Generate Random Text Action as the user’s password.
  
 ![display message exercise](..\media\display-message-exercise.png)
-
- 
 
 The completed process should look like this:
  

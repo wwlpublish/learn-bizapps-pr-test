@@ -1,1 +1,1 @@
-WinAutomation allows the automation of text processing and data manipulation through the Text and DateTime Action. These Actions can handle any procedure relevant to text and dates, like type conversion or text joining, splitting, and trimming. 
+WinAutomation enables the automation of text processing and data manipulation through the Text and DateTime Actions. These Actions can handle any procedure relevant to text and dates, like type conversion or text joining, splitting, and trimming. 
