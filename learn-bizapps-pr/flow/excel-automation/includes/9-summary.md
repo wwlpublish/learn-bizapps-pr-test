@@ -1,1 +1,1 @@
-This module demonstrates how to create processes which contain Excel Actions. By the end of the module, the user should have a good understanding of how to use processes to open documents, read from and write to an Excel file, manage worksheets, and how to save documents.
+WinAutomation provides an extensive group of Excel Actions that can virtually automate any Excel-related business task. Through these Actions, a Process can launch and close Excel files, manage worksheets and enter, retrieve or select data. 

@@ -11,13 +11,13 @@ metadata:
 title: Excel automation in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  WinAutomation provides a wide variety of Excel Actions to read and manipulate Excel worksheets.
+  WinAutomation provides a wide variety of Excel Actions to read and manipulate Excel files.
 abstract: |  
     In this module, you will: 
-    - Open documents, and attach a process to an already running document
-    - Use the Excel group of Actions to read data from and write data to an Excel file
-    - Create and Edit Worksheets
-    - Save and close documents
+    - Open Excel files, and attach a process to an already open file.
+    - Use the Excel group of Actions to read data from and write data to an Excel file.
+    - Create and Edit worksheets.
+    - Save and close Excel files.
 prerequisites: |
     - Basic familiarity with the WinAutomation Console and Process Designer.
     - Basic familiarity with Microsoft Excel.

@@ -1,4 +1,4 @@
-Automating tasks related to storing and manipulating data in Excel is of critical importance for virtually any kind of business. 
+Automating tasks related to storing and manipulating data in Excel is essential for virtually any kind of business. 
 
 Working with a large amount of data in Excel is common, especially in large organizations where Excel is used across multiple departments such as sales, accounting, and human resources. Excel documents contain data in rows and columns, which is spread across multiple worksheets. 
 
@@ -14,10 +14,10 @@ This module will demonstrate some of the most common uses of Excel Actions by de
 
 This module will demonstrate how to create processes, which will:
 
-* Open documents, and attach a process to an already running document
-* Use the Excel group of Actions to read data from and write data to an Excel file
-* Create and Edit Worksheets
-* Save and close documents
+* Open Excel files, and attach a process to an already open file.
+* Use the Excel group of Actions to read data from and write data to an Excel file.
+* Create and Edit worksheets.
+* Save and close Excel files.
 
 ## Prerequisites
 

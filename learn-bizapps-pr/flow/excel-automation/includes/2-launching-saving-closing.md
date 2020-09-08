@@ -1,4 +1,4 @@
-## Opening an Excel File and Creating an Instance
+## Opening an Excel File and creating an instance
 
 The first thing that is required to Automate any Excel-related task is to create an Excel instance. 
 
