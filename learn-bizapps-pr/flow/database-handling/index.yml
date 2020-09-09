@@ -1,14 +1,14 @@
 ### YamlMime:Module 
-uid: learn-bizapps.database-actions 
+uid: learn-bizapps.database-handling 
 metadata: 
- title: Database Actions
+ title: Database handling in WinAutomation
  description: This module covers the Database Actions in WinAutomation.
  ms.date: 09/07/2020  
  author: olegmelnykov  
  ms.author: olmelnyk  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Database Actions
+title: Database handling in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Databases are a vital part of every organization, and efficient data handling is necessary for their effective operation. WinAutomation enables the automation of databases through the Database Actions. 
@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
     - Basic familiarity with WinAutomation
     - An SQL database with at least one table containing data
-iconUrl: /learn/achievements/database-actions.svg  
+iconUrl: /learn/achievements/database-handling .svg  
 levels:  
 - intermediate   
 roles:  
@@ -30,9 +30,9 @@ products:
 - power-platform 
 - power-automate 
 units: 
-- learn-bizapps.database-actions.1-introduction 
-- learn-bizapps.database-actions.2-database-actions 
-- learn-bizapps.database-actions.3-check-knowledge 
-- learn-bizapps.database-actions.4-summary 
+- learn-bizapps.database-handling .1-introduction 
+- learn-bizapps.database-handling .2-database-actions 
+- learn-bizapps.database-handling .3-check-knowledge 
+- learn-bizapps.database-handling .4-summary 
 badge: 
-  uid: learn-bizapps.database-actions.badge 
+  uid: learn-bizapps.database-handling .badge 

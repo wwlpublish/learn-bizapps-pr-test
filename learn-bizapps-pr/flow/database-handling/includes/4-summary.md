@@ -1,0 +1,1 @@
+WinAutomation enables users to insert, retrieve, and modify data in any database through the **Database** actions. By automating database-related procedures, users can replicate scheduled operations and disengage themselves from repetitive tasks.
