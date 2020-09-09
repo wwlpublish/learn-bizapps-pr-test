@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.active-directory 
 metadata: 
- title: Active Directory
+ title: Active Directory handling in WinAutomation
  description: This module covers the Active Directory Actions in WinAutomation.
  ms.date: 09/07/2020  
  author: olegmelnykov  
  ms.author: olmelnyk  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Active Directory
+title: Active Directory handling in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Active Directory is a directory service that enables administrators to manage permissions and access to network resources. WinAutomation provides the Active Directory Actions to automate all the related tasks. 
@@ -20,8 +20,8 @@ abstract: |
     - Manage Objects
 prerequisites: |
     - Windows Server 2016 or later
-    - Administrator Rights
-    - Access to Active Directory Users and Computers
+    - Administrator rights
+    - Access to Active Directory users and computers
     - Basic familiarity with process development
     - Familiarity with Active Directory
     - Access to the command prompt

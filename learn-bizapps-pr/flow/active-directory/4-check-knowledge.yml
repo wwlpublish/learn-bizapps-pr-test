@@ -21,20 +21,14 @@ quiz:
     - content: "False"
       isCorrect: false 
       explanation: "That is false; All Active Directory Actions require an established connection."
-  - content: "Updating and modifying which of the following does not require a Connect to Active Directory Action?"
+  - content: "Is the Connect to Active Directory Server the only Action to establish an connection?"
     choices: 
-    - content: "Users"
-      isCorrect: false
-      explanation: "That is false; Updating and modifying Users require an established Active Directory connection."
-    - content: "Groups"
-      isCorrect: false  
-      explanation: "That is false; Updating and modifying Groups require an established Active Directory connection."
-    - content: "Computers"
-      isCorrect: false
-      explanation: "That is false; Updating and modifying Computers require an established Active Directory connection."
-    - content: "None of the above"
+    - content: "Yes"
       isCorrect: true
-      explanation: "Correct! Updating and modifying Users, Groups or Computers require an established Active Directory connection."
+      explanation: "Correct! All the other Active Directory Actions require a previously established connection."
+    - content: "No"
+      isCorrect: false  
+      explanation: "That is false; All the other Active Directory Actions require a previously established connection."
   - content: "Creating an Active Directory Organizational Unit is done by the Create Active Directory Object Action."
     choices: 
     - content: "True"
