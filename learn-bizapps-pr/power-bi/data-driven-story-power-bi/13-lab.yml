@@ -14,4 +14,5 @@ labId: 72677
 labModal: true
 content: | 
  [!include[](../includes/unit-banner.md)] 
+ [!include[](../includes/access-lab.md)]
  [!include[](includes/13-lab.md)] 
