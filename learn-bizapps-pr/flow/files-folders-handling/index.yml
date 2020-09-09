@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.files-folders-handling 
 metadata: 
- title: Files and folders handling in WinAutomation
+ title: Control File and folder handling in WinAutomation
  description: his module covers the Files and Folders Actions in WinAutomation.
  ms.date: 09/07/2020  
  author: olegmelnykov  
  ms.author: olmelnyk  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Files and folders handling in WinAutomation
+title: Control File and folder handling in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Manipulating files and folders is a fundamental part of most business processes. WinAutomation enables the files and folders handling through the Files and Folders Actions.
