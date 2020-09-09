@@ -33,7 +33,7 @@ All you need to get started is simply a browser or mobile device and an internet
 
 ## Safely interact with content
 
-You can explore and interact with your content, filter, slice, subscribe, and export, without affecting the underlying dataset or the original dashboards, reports, or apps).
+You can explore and interact with your content, filter, slice, subscribe, and export, without affecting the underlying dataset or the original dashboards, reports, or apps.
 
 > [!NOTE]
 > Remember, you cannot hurt your data. Power BI is a great place for you to explore and experiment without worrying that you’ll “break” anything.
