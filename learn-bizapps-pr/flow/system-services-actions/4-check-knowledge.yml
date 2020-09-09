@@ -13,33 +13,27 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "The Get Screen Resolution Action retrieves the resolution of:"
-    choices: 
-    - content: "The monitor set as #1."
-      isCorrect: false 
-      explanation: "Your answer is incorrect. The Get Screen Resolution Action requires you to specify a monitor."
-    - content: "The biggest monitor."
-      isCorrect: false 
-      explanation: "Your answer is incorrect. The Get Screen Resolution Action requires you to specify a monitor."
-    - content: "The total width and height of all currently connected monitors."
-      isCorrect: false 
-      explanation: "Your answer is incorrect. The Get Screen Resolution Action requires you to specify a monitor."
-    - content: "None of the above."
-      isCorrect: true 
-      explanation: "That is correct! The Get Screen Resolution Action requires you to specify a monitor."
-  - content: "The Shutdown Computer Action can be forced." 
-    choices: 
-    - content: "True"
-      isCorrect: true 
-      explanation: "That is correct!"
-    - content: "False"
-      isCorrect: false 
-      explanation: "That is incorrect, the statement is true."
-  - content: "The Ping Action sound can be configured to a specified .wav file."
+  - content: "The Take Screenshot Action saves the taken screenshots only to the clipboard."
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is incorrect. The Ping Action is used to send packets to a remote computer and does play sounds."
+      explanation: "Your answer is incorrect. The Take Screenshot Action saves the taken screenshots to the clipboard or to a file."
     - content: "False"
       isCorrect: true 
-      explanation: "That is correct!"
+      explanation: "Your answer is correct. The Take Screenshot Action saves the taken screenshots to the clipboard or to a file."
+  - content: "The Pause Service Action can pause only services of third party software." 
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Pause Service Action can pause services of Windows and third-party software."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct. The Pause Service Action can pause services of Windows and third-party software."
+  - content: "The Run JavaScript Action can execute code on a web page."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is incorrect. WinAutomation provides the Execute JavaScript Function On Web Page Action to execute code on a web page."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct! WinAutomation provides the Execute JavaScript Function On Web Page Action to execute code on a web page."
