@@ -105,9 +105,6 @@ In this task, you will create model relationships.
 
 1. To create a new relationship, from the **Reseller** table, drag the **ResellerKey** column on to the **ResellerKey** column of the **Sales** table.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the ResellerKey column and where to drag it from the Reseller to the Sales table](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox)
-
 	> [!TIP]
 	> Sometime a column doesn't want to be dragged. If this situation arises, select a different column, and then select the column you intend to drag again, and try again.
 
