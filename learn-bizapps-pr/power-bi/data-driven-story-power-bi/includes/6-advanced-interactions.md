@@ -25,9 +25,9 @@ The following example shows how all elements are updated after the Components ca
 
 To change an interaction of a selected visual, select the required interaction icon. Remember, the applied interaction is displayed in bold. The following image shows that:
 
--   The selected interaction is cross-highlighted because the **Highlight** icon is displayed in bold.
+-   The selected interaction is cross-filtered because the **Filter** icon is displayed in bold.
 
--   You can change the interaction to cross-filter by selecting the **Filter** icon.
+-   You can change the interaction to cross-highlight by selecting the **Highlight** icon.
 
 -   You can remove the interaction altogether by selecting the **None** icon.
 
