@@ -1,1 +1,1 @@
-This module shows how to create processes that manage files and folders. By the end of this module, the user should have a good understanding of how to develop processes that manage the properties of files, or even multiple files and folders simultaneously.
+WinAutomation enables users to handle files and folders through the **Files** and **Folders** Actions. These Actions allow users to develop sophisticated flows that create, retrieve, and modify files and folders.
