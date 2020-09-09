@@ -32,18 +32,14 @@ The **Stop Process** Action stops running the process. The process can be set to
 
 Configure the properties to do any combination of the below:
 
-* Set variable—Specify a variable, and a value to set to it. Use the variable elsewhere in the process to determine if the actions within the exception block have failed.
-
-* Run function—Specify a function to run if the exception block produces an error.
-
-* Continue execution contains four options: 
-
-	* Continue with next action—Continue running the flow from the action that immediately follows the exception block
-
-	* Repeat failed action—Retries the action that produced an error
-
-	* Go to beginning of block—Directs the flow to retry the actions inside the exception block from the start
-	
-	* Go to end of block—Directs the flow to the end of the block
+|Property            |Option                   |Description     |
+|--------------------|---------------------------|--------------|
+|Set Variable        |                           |Specify a variable, and a value to set to it. Use the variable elsewhere in the Process to determine if the Actions within the exception block have failed. |
+|Run Function        |                           |Specify a function to run if the exception block produces an error.   |
+|Continue Execution  |Continue with next action  |Continues running the flow from the action that immediately follows the exception block. |
+|Continue Execution  |Repeat failed action       |Retries the Action that produced an error. |
+|Continue Execution  |Go to beginning of block   |Directs the flow to retry the actions inside the exception block from the start. |
+|Continue Execution  |Go to end of block         |Directs the flow to the end of the block. |
+. | 
 
 ![begin exception block action properties](..\media\begin-exception-block-action-properties.png)

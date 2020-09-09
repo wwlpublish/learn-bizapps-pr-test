@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.flow-control 
 metadata: 
- title: Flow Control
+ title: Flow control in WinAutomation
  description: This module covers the Flow Control Actions in WinAutomation.
  ms.date: 09/07/2020  
  author: olegmelnykov  
  ms.author: olmelnyk  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Flow Control
+title: Flow control in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
   The ability to alter the order in which Actions and Functions are executed is called flow control. WinAutomation enables flow control through the Flow Control Actions.  
