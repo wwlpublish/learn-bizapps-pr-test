@@ -8,7 +8,7 @@ To log in to your lab environment:
 2. On the **Resources** tab on the lab side bar, select the **T** icon next to **Password** in the **MININT** box, to have the machine's password typed automatically for you. 
 3. Press **Enter**. 
 
-![Image of the lab password on the Resources tab.](../includes/vm-login.png)
+   ![Image of the lab password on the Resources tab.](../includes/vm-login.png)
 
 4. You'll see a PowerShell window and a Windows Command window appear. After about two to three minutes, they will close and Internet Explorer will open automatically. Wait for it to navigate to the login page for Finance and Operations. 
 5. On the Microsoft **Sign-in** page in Finance and Operations, insert your mouse cursor into the **Username** field. 
