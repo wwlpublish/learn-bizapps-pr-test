@@ -31,8 +31,8 @@ products:
 - power-automate 
 units: 
 - learn-bizapps.database-handling .1-introduction 
-- learn-bizapps.database-handling .2-database-actions 
-- learn-bizapps.database-handling .3-check-knowledge 
-- learn-bizapps.database-handling .4-summary 
+- learn-bizapps.database-handling.2-database-actions 
+- learn-bizapps.database-handling.3-check-knowledge 
+- learn-bizapps.database-handling.4-summary 
 badge: 
   uid: learn-bizapps.database-handling .badge 
