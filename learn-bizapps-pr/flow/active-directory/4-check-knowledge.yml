@@ -21,7 +21,7 @@ quiz:
     - content: "False"
       isCorrect: false 
       explanation: "That is false; All Active Directory Actions require an established connection."
-  - content: "Is the Connect to Active Directory Server the only Action to establish an connection?"
+  - content: "Is the Connect to Active Directory Server the only Action to establish a connection?"
     choices: 
     - content: "Yes"
       isCorrect: true
