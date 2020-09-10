@@ -43,16 +43,16 @@ quiz:
       explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off this feature.
   - content: "You are building webpages that document the use of Liquid language. What would you do to avoid having your samples being interpreted as instructions and having them displayed as-is?"
     choices: 
-    - content: "Use HTML <code> block."
+    - content: 'Use HTML <code> block.'
       isCorrect: false
-      explanation: The raw Liquid tag allows output of Liquid code on a page without having it parsed and implemented.
-    - content: "Place your sample code inside the {% comment %} tag."
+      explanation: 'The raw Liquid tag allows output of Liquid code on a page without having it parsed and implemented.'
+    - content: 'Place your sample code inside the {% comment %} tag.'
       isCorrect: false 
       explanation: The raw Liquid tag allows output of Liquid code on a page without having it parsed and implemented.
-    - content: "Place your sample code inside the {% raw %} tag."
+    - content: 'Place your sample code inside the {% raw %} tag.'
       isCorrect: true
       explanation: The raw Liquid tag allows output of Liquid code on a page without having it parsed and implemented.
-    - content: "Start your code with <!-- SAMPLE --> instruction."
+    - content: 'Start your code with <!-- SAMPLE --> instruction.'
       isCorrect: false 
       explanation: The raw Liquid tag allows output of Liquid code on a page without having it parsed and implemented.
   - content: How do you stop the default footer from rendering in the portal?
