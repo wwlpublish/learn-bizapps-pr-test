@@ -41,7 +41,7 @@ quiz:
     - content: Select the Enable Entity Permissions option on the web template that contains Liquid code.
       isCorrect: false 
       explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off this feature.
-  - content: You are building webpages that document the use of Liquid language. What would you do to avoid having your samples being interpreted as instructions and having them displayed "as-is"?
+  - content: "You are building webpages that document the use of Liquid language. What would you do to avoid having your samples being interpreted as instructions and having them displayed "as-is"?"
     choices: 
     - content: "Use HTML <code> block."
       isCorrect: false
