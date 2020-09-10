@@ -1,6 +1,6 @@
 ## Access your environment
 
-Before you start this lab, select **Start lab** above. 
+Before you start this lab, select **Launch lab** above. 
 
 To log in to your lab environment:
 
