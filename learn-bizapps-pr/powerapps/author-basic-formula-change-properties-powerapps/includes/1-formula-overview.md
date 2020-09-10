@@ -48,7 +48,7 @@ multiple functions into a single formula.
 
 ![CombineFunctions](../media/combine-functions.png)
 
-The two **Text Input** controls (Textinput1 and Textinput2) have no
+The two **Text Input** controls (TextInput1_1 and TextInput1_2) have no
 formulas or modifications. The **Text** property of the selected
 **Label** control (Label1) is a multi-function formula.
 
