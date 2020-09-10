@@ -29,7 +29,7 @@ roles:
 - developer 
 - functional-consultant 
 products:  
-- dynamics  
+- power-platform
 - power-automate 
 units: 
 - learn-bizapps.mouse-keyboard.1-introduction
