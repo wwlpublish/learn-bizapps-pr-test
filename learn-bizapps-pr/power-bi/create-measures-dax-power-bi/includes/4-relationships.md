@@ -12,10 +12,10 @@ The goal is to build the following report, where you have two visuals: **Sales 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of building visuals with role-playing dimensions](../media/02-two-visuals-with-use-relationship-ssm.png)](../media/02-two-visuals-with-use-relationship-ssm.png#lightbox)
 
-These visuals show the sales over time, but the top visual is by order date and the bottom is by ship date so, though they are both dates, a different data point is associated with them to get both sets of data on the same visual.
+These visuals show the sales over time, but the first visual is by order date and the second is by ship date so, though they are both dates, a different data point is associated with them to get both sets of data on the same visual.
 
 To create this calculated measure for Sales by Ship Date, you can use the DAX function USERELATIONSHIP(). This function is used to specify a relationship to be used in a specific calculation and is done without overriding any existing relationships. It is a beneficial feature in that it allows developers to make additional calculations on inactive relationships by overriding the default active relationship between two tables in a DAX expression, as shown in the following example:
 
 ```Sales by Ship Date = CALCULATE(Sales[TotalPrice], USERELATIONSHIP('Calendar'[Date], Sales[ShipDate]))``` 
 
-Now, you will be able to create the bottom visual.
+Now, you will be able to create the second visual.

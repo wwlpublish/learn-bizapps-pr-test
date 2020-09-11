@@ -10,6 +10,31 @@ In this lab, you will learn how to:
 
 -   Work with the **Key influencers** visual.
 
+**Lab Preparation: Publishing Sales Analysis report to Power BI.** 
+In this task, you will publish **Power BI file Sales Analysis.pbix** to Power BI. 
+ 
+1.	To open the Power BI Desktop, on the taskbar, click the Microsoft Power BI Desktop shortcut.
+
+1.	At the top-right corner of the welcome screen, click X.
+ 
+1.	Click the **File** ribbon tab to open the backstage view, and then select **Open Report**. 
+
+1.	In the **Open Report** window, click **Browse reports**, navigate to the **D:\DA100\Lab08A\Starter** folder, select **Sales Analysis.pbix file**. 
+
+1.	Click **Open** and save the Power BI Desktop file.
+
+1.	To publish the file, on the **Home** ribbon tab, from inside the Share group, click **Publish**.
+ 
+1.	You will be prompted to login to your Power BI account. Enter your Power BI credentials and password. 
+
+1.	In the **Publish to Power BI** window, select your workspace. 
+
+1.	Click **Select**.
+ 
+1.	When the file has been successfully published, click **Got it**.
+ 
+1.	Click **X** to close the Power BI Desktop and select **Save to the file**. 
+
 ## Create the report
 
 In this exercise, you will create the **Sales Exploration** report.
