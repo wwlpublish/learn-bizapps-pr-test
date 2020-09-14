@@ -22,7 +22,11 @@ Model-driven apps can also use business rules to:
 - Enable or disable fields (model-driven apps only)
 
 - Create business recommendations based on business intelligence (model-driven apps only)
-Below is an example of a simple, yet powerful use of business rules. The business rule is configured to change the field Credit Limit VP Approver to be a required field if the Credit limit is set to greater than $1,000,000. If the credit limit is less than $1,000,000 then the field is optional. 
-    ![Business Rule edit form](../media/business-rule.png)
+
+Below is an example of a simple, yet powerful use of business rules. The business rule is configured to change the field Credit Limit VP Approver to be a required field if the Credit limit is set to greater than $1,000,000. 
+
+If the credit limit is less than $1,000,000 then the field is optional. 
+
+![Business Rule edit form](../media/business-rule.png)
 
 By applying this business rule at the data level instead of the app level, you have better control of your data and it can confirm it follows your business logic whether it is being accessed directly from Power Apps or Power Automate or even via an API. The rules are tied to the data, not the app.
