@@ -6,7 +6,7 @@ JavaScript can use other JavaScript libraries that deliver functionality such as
 
 Power Apps portals create a clean, responsive layout with predictable element names, which helps make manipulating the data and UI easier.
 
-For an example of a sophisticated implementation that can be hosted in Power Apps portals and that uses Angular framework for communications, go to the [Set up the event website](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-event-portal/?azure-portal=true) documentation for Dynamics 365 Marketing.
+For an example of a sophisticated implementation that can be hosted in Power Apps portals and that uses Angular framework for communications, go to the [Set up the event website](https://docs.microsoft.com/dynamics365/marketing/set-up-event-portal/?azure-portal=true) documentation for Dynamics 365 Marketing.
 
 ### API calls
 
