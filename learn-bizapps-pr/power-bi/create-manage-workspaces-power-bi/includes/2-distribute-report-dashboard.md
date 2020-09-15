@@ -1,4 +1,4 @@
-Suppose you have created a few reports for the Sales team at Tailwind Traders. How can you make these reports easily viewable and shareable? By creating a workspace in Power BI Service, you can house your reports in one location, make them shareable, collaborate with other teams, and easily make updates to reports. Let's see how we can do this!
+Suppose you have created a few reports for the Sales team at Tailwind Traders. How can you make these reports easily viewable and shareable? By creating a workspace in Power BI Service, you can: house your reports in one location, make them shareable, collaborate with other teams, and easily make updates to reports. Let's see how we can do this.
 
 ## Create a workspace 
 
@@ -12,7 +12,7 @@ Upon selecting **Create a Workspace,** you are brought to the following window, 
 > [!div class="mx-imgBorder"]
 > [![Create a workspace window](../media/02-create-workspace-1-ssm.png)](../media/02-create-workspace-1-ssm.png#lightbox)
 
-Under **Advanced,** you can create a **Contact list**, who is the users who will receive notifications if there are any issues with the workspace. By default, these are the workspace admins, but you can also add specific users. You can also add this workspace to a specific OneDrive and toggle to choose whether this workspace will be a part of a **dedicated capacity**. Dedicated capacities are a Power BI Premium feature that ensures that your workspaces will have its own computational resources as opposed to sharing resources with other users. Upon filling out the pertinent fields on this window, select **Save** and you've created a workspace! The previous discussion is done using the new workspace experience. As a recommendation, use the modern workspace experience over the classic workspace experience unless the classic workspace is expressly needed.
+Under **Advanced,** you can create a **Contact list** of users who will receive notifications if there are any issues with the workspace. By default, these are the workspace admins, but you can also add specific users. You can also add this workspace to a specific OneDrive and toggle to choose whether this workspace will be a part of a **dedicated capacity**. Dedicated capacities are a Power BI Premium feature that ensures that your workspaces will have its own computational resources as opposed to sharing resources with other users. Upon filling out the pertinent fields on this window, select **Save** and you've created a workspace! The previous discussion is done using the new workspace experience. As a recommendation, use the modern workspace experience over the classic workspace experience unless the classic workspace is expressly needed.
 
 ## Assign workspace roles 
 
