@@ -93,7 +93,7 @@ You have now configured and interacted with the data in your gallery.
 
 1.  On the **Insert** tab, select **Input** and then select **Text Input.** Position the Text Input above the gallery.
 
-2.  On the left panel, Under Tree View \> Screens \> Screen1 \> Right select on TextInput1 \> The select **Rename** and rename the text input to **SearchInput.** We are renaming this component so we can refer to it later.
+2.  On the left panel, Under Tree View > Screens > Screen1 >  select the three dots to the right select **Rename** to rename the text input to **SearchInput.** We are renaming this component so we can refer to it later.
 
     ![screenshot of the gallery view in your app.](../media/gallery-view.png)
 
