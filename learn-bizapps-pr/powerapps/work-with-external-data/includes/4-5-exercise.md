@@ -137,7 +137,7 @@ You have now configured and interacted with the data in your gallery.
     ClearCollect(AddCollection, AddColumns(ItemCollection, "Revenue", UnitPrice * UnitSold))
     ```
 
-    Here, we have created a new collection called *AddCollection, which
+    Here, we have created a new collection called *AddCollection*, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *AddColumns* function to add a new column called *Revenue, which is calculated as UnitPrice * UnitsSold.
 
 12. Select the **Drop Column** button.
@@ -147,7 +147,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
     ```powerappsfl
     ClearCollect(DropCollection, AddColumns(ItemCollection, "Revenue", UnitPrice * UnitSold))
     ```
-    Here, we have created a new collection called *DropCollection, which
+    Here, we have created a new collection called *DropCollection*, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *DropColumns* function to remove the UnitPrice Column.
 
 14. Select the **Rename Column** button.
@@ -157,7 +157,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
     ```powerappsfl
     ClearCollect(RenameCollection, RenameColumns(ItemCollection, "Name", UnitPrice * UnitSold))
     ```
-    Here, we have created a new collection called *RenameCollection, which
+    Here, we have created a new collection called *RenameCollection*, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *RenameColumns* function to rename the *Name* column to
 *Product.*
 
