@@ -187,7 +187,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 
    > You screen should now look like this:
    >
-   > ![screenshot of final output.](media/screen-output.png)
+   > ![screenshot of final output.](../media/screen-output.png)
 
 5.  On the **Insert** tab, select **Button** and position your button
     underneath your Labels. Change text on Button to *Update.*
