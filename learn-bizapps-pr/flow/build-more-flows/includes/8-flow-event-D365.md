@@ -76,7 +76,7 @@ This example shows how to create a task in Microsoft Planner whenever a task is 
 
 1. Select **New step**.
 1. In the search field, enter *Planner*, and then select **Planner – Create a task**.
-1. See [create a task parameters](https://docs.microsoft.com/connectors/planner/#create-a-task) for informaiton about the fields.
+1. See [create a task parameters](https://docs.microsoft.com/connectors/planner/#create-a-task) for information about the fields.
 1. In the **Title** field, add **Subject** from the dynamic content pane.
 1. Select **Save**.
 
