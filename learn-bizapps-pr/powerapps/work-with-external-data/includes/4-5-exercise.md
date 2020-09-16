@@ -126,7 +126,7 @@ You have now configured and interacted with the data in your gallery.
 8.  On the **Insert** tab, select **Button** and position your button
     underneath your table. Repeat this process four times.
 
-9.  Change the text on all four buttons to**: Add Column, Drop Column, Show
+9.  Change the text on all four buttons to **Add Column, Drop Column, Show
     Column, Rename Column** respectively.
 
 10. Select the **Add Column** button.
