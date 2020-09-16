@@ -113,7 +113,7 @@ You have now configured and interacted with the data in your gallery.
 
     This will return all the records where the *Name* column contained the value entered in the Text Input control *SearchInput*.
 
-4.  If you wanted to search more than one field, you can append the field names at the end of the expression like so:
+4.  If you wanted to search more than one field, you can append the field names at the end of the expression.
 
     ```powerappsfl
     Search(Items, SearchInput.Text, "Name", "Description")
