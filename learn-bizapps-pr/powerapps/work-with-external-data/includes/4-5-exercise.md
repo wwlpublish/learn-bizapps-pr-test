@@ -145,7 +145,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 13. Update the formula bar to this expression:
 
     ```powerappsfl
-    ClearCollect(DropCollection, AddColumns(ItemCollection, "Revenue", UnitPrice * UnitSold))
+    ClearCollect(DropCollection, DropColumns(ItemCollection, "UnitPrice"))
     ```
     Here, we have created a new collection called *DropCollection*, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *DropColumns* function to remove the UnitPrice Column.
@@ -155,7 +155,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 15. Update the formula bar to this expression:
 
     ```powerappsfl
-    ClearCollect(RenameCollection, RenameColumns(ItemCollection, "Name", UnitPrice * UnitSold))
+    ClearCollect(RenameCollection, RenameColumns(ItemCollection, "Name", "Product))
     ```
     Here, we have created a new collection called *RenameCollection*, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *RenameColumns* function to rename the *Name* column to
