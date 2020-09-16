@@ -1,6 +1,6 @@
 In this exercise, you will shape data in your canvas app.
 
-You will need to download the spreadsheet to complete this exercise. Select download once the link opens. Extract the Excel spreadsheet and upload the spreadsheet to your own OneDrive.
+You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/shape-data/shape-data-learn.zip) to complete this exercise. Select download once the link opens. Extract the Excel spreadsheet and upload the spreadsheet to your own OneDrive.
 
 **Add a Data Source**
 
