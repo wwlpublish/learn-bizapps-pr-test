@@ -4,7 +4,7 @@ You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/msl
 
 **Add a Data Source**
 
-1. Sign into Power Apps.
+1. Sign into [Power Apps](https://powerapps.microsoft.com/).
 
 2.  Create a new Power Apps Canvas app from blank and call it
     *ExternalData.* Select the **Tablet** format.
