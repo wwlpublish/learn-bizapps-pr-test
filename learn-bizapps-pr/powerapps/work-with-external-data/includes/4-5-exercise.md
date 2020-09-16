@@ -1,6 +1,6 @@
 In this exercise, you will work with external data in your canvas app.
 
-You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-apps/shape-data) to complete this exercise.
+You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/shape-data/shape-data-learn.zip) to complete this exercise. Upload the spreadsheet to your own OneDrive.
 
 **Add a Data Source**
 
@@ -9,7 +9,7 @@ You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/msl
 2.  Create a new Power Apps Canvas app from blank and call it
     *ExternalData.* Select the **Tablet** format.
 
-3.  Make sure you have added this Excel sheet (link to download) to your
+3.  Make sure you have added the Excel sheet (link above) to your
     OneDrive.
 
 4.  On the **Insert** tab, select **Gallery**, and then select the
@@ -62,7 +62,7 @@ and you can display the data in the gallery control.
 7.  In the formula bar, make sure Text is Selected and type the
     following.
 
-   > ![screenshot of input formula details.](../media/formula.png)
+    ![screenshot of input formula details.](../media/formula.png)
 
 8.  On the gallery, click on the image in the first row
 
@@ -83,13 +83,13 @@ You have now configured and interacted with the data in your gallery.
 
 3.  Click on the button, and in the formula bar, replace false with this expression:
 
-   > ![screenshot of collect expression format.](../media/collect-expression.png)
-   >
-   > **ItemsCollection**: Refers to the Collection name
-   >
-   > **Items**: Refers to the Data Source name
-   >
-   > **Collect**: Will copy all records from the **Items** into the **ItemaCollection** collection
+    > ![screenshot of collect expression format.](../media/collect-expression.png)
+    
+    **ItemsCollection**: Refers to the Collection name
+
+    **Items**: Refers to the Data Source name
+
+    **Collect**: Will copy all records from the **Items** into the **ItemsCollection** collection
 
 4.  Run the app. Click the button. Stop running the app.
 
@@ -106,10 +106,10 @@ You have now configured and interacted with the data in your gallery.
 3.  In the formula bar, make sure Items is selected and then enter the
     following expression:
 
-   > ![screenshot of item collection formula](../media/item-collection.png)
+     ![screenshot of item collection formula](../media/item-collection.png)
 
-   > This means that the Data Source for the table is the
-   > **ItemsCollection** collection and not the **Items** table in the Excel sheet.
+    This means that the Data Source for the table is the
+   **ItemsCollection** collection and not the **Items** table in the Excel sheet.
 
 4.  In the properties pane on the right, select the **Edit fields**
     button for the **Fields** property.
@@ -132,7 +132,7 @@ You have now configured and interacted with the data in your gallery.
 
     ![screenshot of clear collect expression.](../media/clear-collect-expression.png)
 
-Here, we have created a new collection called *AddCollection, which
+    Here, we have created a new collection called *AddCollection, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *AddColumns* function to add a new column called *Revenue, which is calculated as UnitPrice * UnitsSold.
 
 12. Select the **Drop Column** button.
@@ -160,7 +160,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 
     ![screenshot of show column expression](../media/show-collection.png)
 
-Here, we have created a new collection called *ShowCollection, which
+    Here, we have created a new collection called *ShowCollection*, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *ShowColumns* function to only show the *Name* column.
 
 18. Run the app. Click all four buttons. Stop running the app.
@@ -169,7 +169,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
     the additional collections you have created to see what effect the
     functions had.
 
-> **Now we will be working with the Patch function**
+**Work with the Patch function**
 
 1.  On the **Tree View** panel on the left, go back to the first screen
     by clicking on **Screen 1**.
@@ -183,11 +183,9 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 
 4.  On the **Insert** tab, select **Input** and then select **Text
     Input.** Repeat this step and position both Text Inputs next to the
-    labels made above**.**
-
-   > You screen should now look like this:
-   >
-   > ![screenshot of final output.](../media/screen-output.png)
+    labels made above **.** Your screen should now look like this:
+   
+    ![screenshot of final output.](../media/screen-output.png)
 
 5.  On the **Insert** tab, select **Button** and position your button
     underneath your Labels. Change text on Button to *Update.*
@@ -197,9 +195,9 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 7.  In the formula bar, make sure you have the **Default** property 
     selected and then change the expression to the following:
 
-   ![screenshot of default property expression.](../media/default-property.png)
+    ![screenshot of default property expression.](../media/default-property.png)
 
-This will display the **Name** property of the Date Source record
+    This will display the **Name** property of the Date Source record
 whenever you select it in the gallery. You can test this by running the
 application, clicking on each item in the gallery and seeing that the
 text in the input changes upon each click.
@@ -207,7 +205,7 @@ text in the input changes upon each click.
 8.  Repeat steps 6 and 7 for the Text Input next to the New Description
     label. The formula bar expression will look like this:
 
-   ![screenshot of default gallary expression.](../media/default-gallary.png)
+    ![screenshot of default gallary expression.](../media/default-gallary.png)
 
 9.  Select the **Update** button.
 
@@ -215,11 +213,11 @@ text in the input changes upon each click.
 
     ![screenshot of patch expression.](../media/patch-items.png)
 
-Let's recap what we've done?
+Let's recap what we've done.
 
-**Patch**: Allows us to *modify* or create a record in your data source.
+**Patch** - Allows us to *modify* or create a record in your data source.
 
-**First(Filter**...: We use this to filter the data source by Name.  The name is from the Text Input named TextInput1. If you have  renamed your Text Input, then you would need to update the expression  accordingly.
+**First(Filter**...) - We use this to filter the data source by Name.  The name is from the Text Input named TextInput1. If you have  renamed your Text Input, then you would need to update the expression  accordingly.
 
 Once the matching record is found, it updates the description based on  what you have written in the *New Description* text input.
 
