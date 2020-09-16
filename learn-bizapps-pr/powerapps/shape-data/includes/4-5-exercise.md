@@ -163,13 +163,9 @@ Within Power Apps, you can utilize the concept of using one function to supply i
 
 2.  On the **Insert** Tab, select **Data Table** and position it next to the gallery.
 
-3.  In the formula bar, make sure Items is selected and then enter the following expression:
+3.  In the formula bar, make sure Items is selected and then enter **ItemsCollection**.
 
-   ```powerappsfl
-   ItemsCollection
-   ```
-
-This means that the Data Source for the table is the **ItemsCollection** collection and not the **Items** table in the Excel sheet.
+    This means that the Data Source for the table is the **ItemsCollection** collection and not the **Items** table in the Excel sheet.
 
 4.  In the properties pane on the right, select the **Edit fields** button for the **Fields** property.
 
