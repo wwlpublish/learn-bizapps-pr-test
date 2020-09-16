@@ -1,6 +1,6 @@
 In this exercise, you will work with external data in your canvas app.
 
-You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/shape-data/shape-data-learn.zip) to complete this exercise. Upload the spreadsheet to your own OneDrive.
+You will need to download the [spreadsheet](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/shape-data/shape-data-learn.zip) to complete this exercise. Select download once the link opens. Extract the Excel spreadsheet and upload the spreadsheet to your own OneDrive.
 
 **Add a Data Source**
 
@@ -60,10 +60,11 @@ and you can display the data in the gallery control.
 6.  On the gallery, click on the price in the first row.
 
 7.  In the formula bar, make sure Text is Selected and type the
-    following.
+    following:
 
-    ![screenshot of input formula details.](../media/formula.png)
-
+    ```powerappsfl
+    "$" & ThisItem.UnitPrice
+    ```
 8.  On the gallery, click on the image in the first row
 
 9.  In the properties pane on the right, select the drop-down menu for
@@ -83,7 +84,9 @@ You have now configured and interacted with the data in your gallery.
 
 3.  Click on the button, and in the formula bar, replace false with this expression:
 
-    > ![screenshot of collect expression format.](../media/collect-expression.png)
+    ```powerappsfl
+    Collect(ItemsCollection, Items)
+    ```
     
     **ItemsCollection**: Refers to the Collection name
 
@@ -130,7 +133,9 @@ You have now configured and interacted with the data in your gallery.
 
 11. Update the formula bar to this expression:
 
-    ![screenshot of clear collect expression.](../media/clear-collect-expression.png)
+    ```powerappsfl
+    ClearCollect(AddCollection, AddColumns(ItemCollection, "Revenue", UnitPrice * UnitSold))
+    ```
 
     Here, we have created a new collection called *AddCollection, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *AddColumns* function to add a new column called *Revenue, which is calculated as UnitPrice * UnitsSold.
@@ -139,18 +144,20 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 
 13. Update the formula bar to this expression:
 
-    ![screenshot of drop collection expression](../media/drop-collection.png)
-
-Here, we have created a new collection called *DropCollection, which
+    ```powerappsfl
+    ClearCollect(DropCollection, AddColumns(ItemCollection, "Revenue", UnitPrice * UnitSold))
+    ```
+    Here, we have created a new collection called *DropCollection, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *DropColumns* function to remove the UnitPrice Column.
 
 14. Select the **Rename Column** button.
 
 15. Update the formula bar to this expression:
 
-    ![screenshot of rename collection expression.](../media/rename-collection.png)
-
-Here, we have created a new collection called *RenameCollection, which
+    ```powerappsfl
+    ClearCollect(RenameCollection, RenameColumns(ItemCollection, "Name", UnitPrice * UnitSold))
+    ```
+    Here, we have created a new collection called *RenameCollection, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *RenameColumns* function to rename the *Name* column to
 *Product.*
 
@@ -158,8 +165,9 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 
 17. Update the formula bar to this expression:
 
-    ![screenshot of show column expression](../media/show-collection.png)
-
+    ```powerappsfl
+    ClearCollect(ShowCollection, ShowColumns(ItemCollection, "Name"))
+    ```
     Here, we have created a new collection called *ShowCollection*, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *ShowColumns* function to only show the *Name* column.
 
@@ -211,8 +219,10 @@ text in the input changes upon each click.
 
 10. Update the formula bar to this expression:
 
-    ![screenshot of patch expression.](../media/patch-items.png)
-
+    ```powerappsfl
+    Patch(Items,First(Filter(Items, Name = TextInput1.Text)), { Description: TextInput2,Text })
+    ```
+    
 Let's recap what we've done.
 
 **Patch** - Allows us to *modify* or create a record in your data source.
