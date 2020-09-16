@@ -134,7 +134,7 @@ You have now configured and interacted with the data in your gallery.
 11. Update the formula bar to this expression:
 
     ```powerappsfl
-    ClearCollect(AddCollection, AddColumns(ItemsCollection, "Revenue", UnitPrice * UnitSold))
+    ClearCollect(AddCollection, AddColumns(ItemsCollection, "Revenue", UnitPrice * UnitsSold))
     ```
 
     Here, we have created a new collection called *AddCollection*, which
