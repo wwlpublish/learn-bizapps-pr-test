@@ -220,7 +220,7 @@ text in the input changes upon each click.
 10. Update the formula bar to this expression:
 
     ```powerappsfl
-    Patch(Items,First(Filter(Items, Name = TextInput1.Text)), { Description: TextInput2,Text })
+    Patch(Items,First(Filter(Items, Name = TextInput1.Text)), { Description: TextInput2.Text })
     ```
     
 Let's recap what we've done.
