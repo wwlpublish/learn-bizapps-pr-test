@@ -191,7 +191,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 
 4.  On the **Insert** tab, select **Input** and then select **Text
     Input.** Repeat this step and position both Text Inputs next to the
-    labels made above **.** Your screen should now look like this:
+    labels made above. Your screen should now look like this:
    
     ![screenshot of final output.](../media/screen-output.png)
 
