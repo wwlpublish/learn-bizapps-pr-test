@@ -181,7 +181,7 @@ This means that the Data Source for the table is the **ItemsCollection** collect
 
 8.  On the **Insert** tab, select **Button** and position your button underneath your table. Repeat this process four times.
 
-9.  Change the text on all four buttons to**: Add Column, Drop Column, Show Column, Rename Column** respectively.
+9.  Change the text on all four buttons to: **Add Column, Drop Column, Show Column, Rename Column** respectively.
 
 10. Select the **Add Column** button.
 
@@ -191,7 +191,7 @@ This means that the Data Source for the table is the **ItemsCollection** collect
     ClearCollect(AddCollection, AddColumns(ItemsCollection, "Revenue", UnitPrice * UnitsSold))
     ```
 
-    Here, we have created a new collection called *AddCollection, which copies all data from the *ItemsCollection* collection but in addition, we use the *AddColumns* function to add a new column called *Revenue, which is calculated as UnitPrice * UnitsSold.
+    Here, we have created a new collection called *AddCollection*, which copies all data from the *ItemsCollection* collection but in addition, we use the *AddColumns* function to add a new column called *Revenue*, which is calculated as UnitPrice * UnitsSold.
 
 6.  Select the **Drop Column** button.
 
