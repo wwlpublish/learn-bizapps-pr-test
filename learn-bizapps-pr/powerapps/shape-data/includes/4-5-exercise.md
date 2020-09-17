@@ -184,7 +184,7 @@ Within Power Apps, you can utilize the concept of using one function to supply i
 11. Update the formula bar to this expression:
 
     ```powerappsfl
-    ClearCollect(AddCollection, AddColumns(ItemsCollection, "Revenue", UnitPrice * UnitsSold))
+    Collect(AddCollection, AddColumns(ItemsCollection, "Revenue", UnitPrice * UnitsSold))
     ```
 
     Here, we have created a new collection called *AddCollection*, which copies all data from the *ItemsCollection* collection but in addition, we use the *AddColumns* function to add a new column called *Revenue*, which is calculated as UnitPrice * UnitsSold.
@@ -194,7 +194,7 @@ Within Power Apps, you can utilize the concept of using one function to supply i
 7.  Update the formula bar to this expression:
 
     ```powerappsfl
-    ClearCollect(DropCollection, DropColumns(ItemsCollection, "UnitPrice"))
+    Collect(DropCollection, DropColumns(ItemsCollection, "UnitPrice"))
     ```
 
     Here, we have created a new collection called *DropCollection, which copies all data from the *ItemsCollection* collection but in addition, we use the *DropColumns* function to remove the UnitPrice Column.
@@ -204,7 +204,7 @@ Within Power Apps, you can utilize the concept of using one function to supply i
 9.  Update the formula bar to this expression:
 
     ```powerappsfl
-    ClearCollect(RenameCollection, RenameColumns(ItemsCollection, "Name", "Product"))
+    Collect(RenameCollection, RenameColumns(ItemsCollection, "Name", "Product"))
     ```
 
     Here, we have created a new collection called *RenameCollection, which copies all data from the *ItemsCollection* collection but in addition, we use the *RenameColumns* function to rename the *Name* column to *Product.*
@@ -214,7 +214,7 @@ Within Power Apps, you can utilize the concept of using one function to supply i
 11. Update the formula bar to this expression:
 
     ```powerappsfl
-    ClearCollect(ShowCollection, ShowColumns(ItemsCollection, "Name"))
+    Collect(ShowCollection, ShowColumns(ItemsCollection, "Name"))
     ```
 
     Here, we have created a new collection called *ShowCollection, which copies all data from the *ItemsCollection* collection but in addition, we use the *ShowColumns* function to only show the *Name* column.
