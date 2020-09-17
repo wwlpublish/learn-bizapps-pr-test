@@ -1,0 +1,44 @@
+### YamlMime:Module 
+uid: learn-bizapps.web-automation 
+metadata: 
+ title: Web automation in WinAutomation
+ description: This module covers the Web Automation actions in WinAutomation.
+ ms.date: 09/17/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Web automation in WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Web applications are a critical part of most organizations. WinAutomation supports the automation of all major browsers through the Web Automation actions.
+abstract: |  
+    In this module, you will: 
+    - Learn how to configure web automation actions.
+    - Learn how to extract data from web pages. 
+    - Create a process that extracts the gainer stocks from the MSN website.
+prerequisites: |
+    - Basic familiarity with the WinAutomation Console and Process Designer.
+    - Basic familiarity with process development and variables. 
+    - Basic familiarity with Controls Repository. 
+iconUrl: /learn/achievements/web-automation.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant 
+products:  
+- power-platform 
+- power-automate 
+units: 
+- learn-bizapps.web-automation.1-introduction 
+- learn-bizapps.web-automation.2-launching-closing-handling-browsers 
+- learn-bizapps.web-automation.3-handling-web-pages 
+- learn-bizapps.web-automation.4-extracting-data 
+- learn-bizapps.web-automation.5-direct-web-access 
+- learn-bizapps.web-automation.6-exercise 
+- learn-bizapps.web-automation.7-check-knowledge 
+- learn-bizapps.web-automation.8-summary 
+badge: 
+  uid: learn-bizapps.web-automation.badge 

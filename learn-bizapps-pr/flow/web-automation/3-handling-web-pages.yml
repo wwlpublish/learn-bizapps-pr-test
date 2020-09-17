@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.web-automation.3-handling-web-pages 
+title: Handling web pages and forms
+metadata: 
+  title: Handling web pages and forms
+  description: Handling web pages and forms
+  ms.date: 09/17/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-handling-web-pages.md)] 

@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.web-automation.7-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/17/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "The Extract Data from Web Page action can extract only single values and lists of handpicked values."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; The Extract Data from Web Page action can extract single values, handpicked values, lists and data tables."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! The Extract Data from Web Page action can extract single values, handpicked values, lists and data tables."
+  - content: "Which one of the following parameters do the web form handling actions require as inputs?"
+    choices: 
+    - content: "A Browser instance"
+      isCorrect: false 
+      explanation: "That is false; The web form handling actions require both mentioned input parameters."
+    - content: "A control specifying the element to handle."
+      isCorrect: false 
+      explanation: "That is false; The web form handling actions require both mentioned input parameters."
+    - content: "Both"
+      isCorrect: true 
+      explanation: "Correct! The web form handling actions require both mentioned input parameters."
+  - content: "The Click Link on Web Page action is the most suitable action to click download links."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is false; The Click Download Link on Web Page is the most suitable action to click download links."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Correct! The Click Download Link on Web Page is the most suitable action to click download links."

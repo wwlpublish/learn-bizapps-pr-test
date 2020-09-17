@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.web-automation.4-extracting-data 
+title: Extracting data from web pages
+metadata: 
+  title: Extracting data from web pages
+  description: Extracting data from web pages
+  ms.date: 09/17/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-extracting-data.md)] 
