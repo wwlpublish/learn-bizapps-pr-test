@@ -62,7 +62,7 @@ The **Focus Text Field on Web Page** action sets the input focus on a defined te
 
 ## Populate Text Field on Web Page
 
-To populate a web text field, you can use the **Populate Text Field on Web Page**. In the action's properties, set the text to write, the browser instance, and the control describing the text field. 
+To populate a web text field, you can use the **Populate Text Field on Web Page** action. In the action's properties, set the text to write, the browser instance, and the control describing the text field. 
 
 Additionally, you can determine whether the action will emulate typing.
 
@@ -70,17 +70,13 @@ Additionally, you can determine whether the action will emulate typing.
 
 ## Set Checkbox State on Web Page
 
-To enable or disable a checkbox on a web form, you can use the **Set Checkbox State on Web Page** action. 
-
-The action requires the checkbox's desired state, a browser instance, and a control describing the checkbox.
+To enable or disable a checkbox on a web form, you can use the **Set Checkbox State on Web Page** action. The action requires the checkbox's desired state, a browser instance, and a control describing the checkbox.
 
 ![The Set Checkbox State on Web Page action.](..\media\set-checkbox-state-on-web-page.png)
 
 ## Select Radio Button on Web Page
 
-To select a radio button on a web page, use the **Select Radio Button on Web Page** action.
-
-Like the other web form handling actions, you have to define a browser instance and a control describing the radio button.
+To select a radio button on a web page, use the **Select Radio Button on Web Page** action. Like the other web form handling actions, you have to define a browser instance and a control describing the radio button.
 
 ![The Select Radio Button on Web Page action.](..\media\select-radio-button-on-web-page.png)
 
@@ -94,8 +90,6 @@ The desired option can be selected through its name or its index. The action als
 
 ## Press Button on Web page
 
-The last action to handle web forms is the **Press Button on Web page** actions. Through this action, you can press buttons on web pages.
-
-The button to press is specified by a control, while the action also requires a browser instance. 
+The last action to handle web forms is the **Press Button on Web page** action. Through this action, you can press buttons on web pages.The button to press is specified by a control, while the action also requires a browser instance. 
 
 ![The Press Button on Web page action.](..\media\press-button-on-web-page.png)

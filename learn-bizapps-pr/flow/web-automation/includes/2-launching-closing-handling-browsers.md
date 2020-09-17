@@ -9,7 +9,7 @@ All these actions accept similar input parameters and function in the same way. 
 
 ![The Launch New Edge action.](..\media\launch-new-edge-action.png)
 
-You can also set whether the action will launch a new browser or attach to an already running one. The **Launch New Internet Explorer** provides one additional option in this parameter that launches the WinAutomation build-in browser. 
+You can also set whether the action will launch a new browser or attach to an already running one. The **Launch New Internet Explorer** provides one additional option in this parameter that launches the WinAutomation built-in browser. 
 
 ![The Launch New Internet Explorer action.](..\media\launch-new-internet-explorer-action.png)
 

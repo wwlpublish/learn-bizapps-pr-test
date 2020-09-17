@@ -1,7 +1,7 @@
 Web applications are a critical part of most organizations, and they are commonly used to access data from servers. 
 
 WinAutomation supports the automation of all major browsers through the **Web Automation** actions. More precisely, it supports the handling of the following browsers:
-- WinAutomation Automation browser (WinAutomation's build-in browser)
+- WinAutomation Automation browser (WinAutomation's built-in browser)
 - Microsoft Edge
 - Microsoft Internet Explorer
 - Google Chrome
