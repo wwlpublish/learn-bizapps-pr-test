@@ -45,7 +45,33 @@ To add a parameter, right-click **Parameters** and select **Add Parameter**.
 On the **General** tab, name the parameter, select the data type, and then choose the prompt that the user will see.
 
 > [!div class="mx-imgBorder"]
-> [![Report parameter properties](../media/04-report-parameter-properties-ssm.png)](../media/04-report-parameter-properties-ssm.png#lightbox)
+> [![Report parameter properties shwoing the Name, Prompt, Data type, and Select parameter visibility fields](../media/04-report-parameter-properties-ssm.png)](../media/04-report-parameter-properties-ssm.png#lightbox)
+
+1.  Open your paginated report in Power BI Report Builder.
+
+1.  In the **Report Data** pane, right-click the **Parameters** node > **Add Parameter**. The **Report Parameter Properties** dialog box opens.  
+  
+1.  In **Name**, type a name for the parameter or accept the default name.  
+  
+1.  In **Prompt**, type text to appear next to the parameter text box when the user runs the report.  
+  
+1.  In **Data type**, select the data type for the parameter value.  
+  
+1.  If the parameter can contain a blank value, select **Allow blank value**.  
+  
+1.  If the parameter can contain a null value, select **Allow null value**.  
+  
+1.  To allow a user to select more than one value for the parameter, select **Allow multiple values**.  
+  
+1.  Set the visibility option.  
+  
+    -   To show the parameter on the toolbar at the top of the report, select **Visible**.  
+  
+    -   To hide the parameter so that it does not display on the toolbar, select **Hidden**.  
+  
+    -   To hide the parameter and protect it from being modified on the report server after the report is published, select **Internal**. The report parameter can then only be viewed in the report definition. For this option, you must set a default value or allow the parameter to accept a null value.
+
+1.  Select **OK**. 
 
 On the **Available Values** tab, enter options that the user can choose from. The **Default Values** tab has the initial value of the parameter when the report loads, but it can be changed by the user.
 
