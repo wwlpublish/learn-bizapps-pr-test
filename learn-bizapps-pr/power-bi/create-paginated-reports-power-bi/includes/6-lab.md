@@ -27,10 +27,7 @@ In this exercise, you will open Power BI Report Builder to create and then sa
 
 In this task, you will open Power BI Report Builder to create and then save a report.
 
-1.  To open Power BI Report Builder, on the taskbar, click the **Power BI Report Builder** shortcut.
-
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
+1.  To open Power BI Report Builder, type “Power BI Report Builder” in the Search box next to **Start** button and press **Enter**.  
 
 1.  In the Power BI Report Builder window, to create a new report, in the **Getting Started** window, click **Blank Report**.
 
