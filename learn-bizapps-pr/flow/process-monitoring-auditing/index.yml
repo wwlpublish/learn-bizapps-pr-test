@@ -2,7 +2,7 @@
 uid: learn-bizapps.process-monitoring-auditing 
 metadata: 
  title: Process monitoring and auditing with WinAutomation
- description: In this module, we'll discuss how to create and review logs to monitor our processes.
+ description: Learn how to create and review logs to monitor your processes.
  ms.date: 08/28/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
@@ -11,15 +11,15 @@ metadata:
 title: Process monitoring and auditing with WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  WinAutomation records all the vital information about processes and the platform itself into a central log file. Logs enable users to check the current condition of the platform and discover the source of thrown errors. 
+  WinAutomation records all vital information about processes and the platform into a central log file. Logs help users check the current condition of the platform and discover the source of thrown errors. 
 abstract: |  
     In this module, you will: 
-    - Understand how logs work and why they are critical for WinAutomation.
+    - Learn how logs work and why they are critical for WinAutomation.
     - Filter logs based on their type and date.
     - Use the Log Message action to create a custom log.
     - Review logs.
 prerequisites: |
-    - Basic familiarity with the WinAutomation console and process designer.
+    - Basic familiarity with the WinAutomation console and process designer
 iconUrl: /learn/achievements/process-monitoring-auditing.svg  
 levels:  
 - beginner   
