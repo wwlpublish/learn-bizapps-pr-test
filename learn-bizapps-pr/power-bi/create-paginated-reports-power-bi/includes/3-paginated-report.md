@@ -37,7 +37,7 @@ Consider the scenario where you are creating a report that retrieves data from a
 
 ### Add parameters
 
-To add a parameter, right-click **Parameters** and select **Add Parameter**.
+To add a parameter, right-click **Parameters** and select **Add Parameter**. The **Report Parameter Properties** dialog box opens. 
 
 > [!div class="mx-imgBorder"]
 > [![Add a parameter](../media/04-add-parameter-ssm.png)](../media/04-add-parameter-ssm.png#lightbox)
@@ -47,10 +47,7 @@ On the **General** tab, name the parameter, select the data type, and then choos
 > [!div class="mx-imgBorder"]
 > [![Report parameter properties shwoing the Name, Prompt, Data type, and Select parameter visibility fields](../media/04-report-parameter-properties-ssm.png)](../media/04-report-parameter-properties-ssm.png#lightbox)
 
-1.  Open your paginated report in Power BI Report Builder.
 
-1.  In the **Report Data** pane, right-click the **Parameters** node > **Add Parameter**. The **Report Parameter Properties** dialog box opens.  
-  
 1.  In **Name**, type a name for the parameter or accept the default name.  
   
 1.  In **Prompt**, type text to appear next to the parameter text box when the user runs the report.  
