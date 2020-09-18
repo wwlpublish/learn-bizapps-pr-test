@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.ui-automation.check-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 17/09/2020 
+ author: rokontol 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "UI controls may be added in:"
+    choices: 
+    - content: "The Console"
+      isCorrect: false
+      explanation: "That is false; controls are added in the Designer."
+    - content: "The Designer"
+      isCorrect: true 
+      explanation: "That is correct! Controls are added in the Designer."
+    - content: "All of the above"
+      isCorrect: false 
+      explanation: "That is false; controls are added in the Designer."
+    - content: "None of the above"
+      isCorrect: false 
+      explanation: "That is false; controls are added in the Designer."
+  - content: "The optimal way for WinAutomation to interact with application UIs is through:"
+    choices: 
+    - content: "UI Controls"
+      isCorrect: true
+      explanation: "That is correct! The best way to interact with UIs is by using UI controls."
+    - content: "On-screen coordinates"
+      isCorrect: false 
+      explanation: "That is false; The best way to interact with UIs is by using UI controls."
+    - content: "Image recognition"
+      isCorrect: false 
+      explanation: "That is false; The best way to interact with UIs is by using UI controls."
+    - content: "Keystrokes"
+      isCorrect: false 
+      explanation: "That is false; The best way to interact with UIs is by using UI controls."
+  - content: "There are two types of UI controls: Window, and UI element."
+    choices: 
+    - content: "True"
+      isCorrect: true
+      explanation: "That is correct!"
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is not correct; Window controls are different from UI element controls."

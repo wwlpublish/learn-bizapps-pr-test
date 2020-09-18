@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.ui-automation 
+metadata: 
+ title: Use WinAutomation to interact with windows and applications
+ description: Learn how WinAutomation identifies and interacts with UI elements and windows.
+ ms.date: 17/09/2020  
+ author: rokontol  
+ ms.author: rokontol  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Use WinAutomation to interact with windows and applications
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  UI elements are identified through controls, which can be captured and used in UI/Windows related actions.
+abstract: |  
+    In this module, you will:
+    - Familiarize yourself with the concept of UI elements and controls
+    - Understand the window- and element-handling capabilities of WinAutomation
+prerequisites: 
+iconUrl: /learn/achievements/ui-automation.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- dynamics  
+- learning-power-automate 
+units: 
+- learn-bizapps.ui-automation.1-introduction 
+- learn-bizapps.ui-automation.2-controls 
+- learn-bizapps.ui-automation.3-window-handling-element-interaction 
+- learn-bizapps.ui-automation.4-check-your-knowledge 
+- learn-bizapps.ui-automation.5-summary 
+badge: 
+  uid: learn-bizapps.ui-automation.badge 
