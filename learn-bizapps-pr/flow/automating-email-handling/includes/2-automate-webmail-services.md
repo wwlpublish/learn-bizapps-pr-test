@@ -23,7 +23,7 @@ Populate the address, port of the server, and your account credentials. Options 
 
 ![The SMTP Server tab populated.](..\media\send-email-smtp-tab-populated.png)
 
-## Retrieve Emails
+## Retrieve emails
 
 The **Retrieve Emails** action retrieves emails that meet specific criteria from the server and optionally saves the included attachments on the desktop.
 
@@ -31,9 +31,9 @@ To limit the retrieved emails, filter them according to their parent folder, sta
 
 ![The Retrieve Emails action.](..\media\retrieve-emails.png)
 
-## Process Emails
+## Process emails
 
-The **Process Emails** action runs a series of essential operations in the previously retrieved emails. More precisely, options to **Delete**, **Mark As Unread**, and move messages to other folders are included. 
+The **Process Emails** action runs a series of essential operations in the previously retrieved emails. More precisely, options to delete, mark as unread, and move messages to other folders are included. 
 
 ![The Process Emails action.](..\media\process-emails.png)
 
@@ -41,7 +41,7 @@ This action accepts as input a list of emails that are specified in the **Retrie
 
 ![The output variable of the Retrieve Emails action.](..\media\retrieve-emails-output.png)
 
-## Send Email
+## Send email
 
 The **Send Email** action creates and sends a new email message. In the action's properties, you can specify the following elements:
 
