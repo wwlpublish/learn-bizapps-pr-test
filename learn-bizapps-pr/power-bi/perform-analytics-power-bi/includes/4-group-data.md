@@ -8,14 +8,14 @@ In this example, the Customer Service team has returned to you, greatly impresse
 
 ## Create a group
 
-The following image shows a bar chart in which Power BI has automatically segmented the data in the way that it found most useful: Total Sales by City. However, you want to group some of the bars (cities) together so that you can view them as one category, which will help the Sales team identify the cities with the highest sales.
+The following image shows a bar chart in which Power BI has automatically segmented the data in the way that it found most useful: Total Sales by State. However, you want to group some of the bars (states) together so that you can view them as one category, which will help the Sales team identify the cities with the highest sales.
 
-To create the group, use **Ctrl + click** to select the data points on the visual that you want to group. In this case, it's cities with sales greater than 500,000 dollars. Right-click one of those selected data points and then select the **Group data** option.
+To create the group, use **Ctrl + click** to select the data points on the visual that you want to group. In this case, it's states with sales greater than 500,000 dollars. Right-click one of those selected data points and then select the **Group data** option.
 
 > [!div class="mx-imgBorder"]
 > [![Group data on visual](../media/4-group-data-visual-ssm.png)](../media/4-group-data-visual-ssm.png#lightbox)
 
-When the group is created, notice that the visual updates to take into account the new group. The following image shows that the other cities, which are the cities with lower sales (less than 500,000 dollars) have been grouped together and are highlighted in a different shade.
+When the group is created, notice that the visual updates to take into account the new group. The following image shows that the other states, which are the states with lower sales (less than 500,000 dollars) have been grouped together and are highlighted in a different shade.
 
 > [!div class="mx-imgBorder"]
 > [![Updated visual with group](../media/4-updated-visual-group-ssm.png)](../media/4-updated-visual-group-ssm.png#lightbox)
@@ -28,7 +28,7 @@ When you create a group, you can change the way that the data is displayed in th
 
 Continuing with the previous example, you now want to edit the categories that make up your group. Right-click the group field in either the **Legend** bucket or the **Fields** pane, and then select **Edit Groups**.
 
-In the **Groups** window that displays is a list of the groups and the different items within those groups. The following image shows the **Cities with Sales > 500k** group and its members, along with the **Other** group (**Cities with Sales < 500k**) that contains all other values that have not been put into the first group. If you refresh your data, and new items appear in the ungrouped values list, they'll all go into the **Other** group.
+In the **Groups** window that displays is a list of the groups and the different items within those groups. The following image shows the **States with Sales > 500k** group and its members, along with the **Other** group (**States with Sales < 500k**) that contains all other values that have not been put into the first group. If you refresh your data, and new items appear in the ungrouped values list, they'll all go into the **Other** group.
 
 > [!div class="mx-imgBorder"]
 > [![Edit group](../media/4-edit-group-ssm.png)](../media/4-edit-group-ssm.png#lightbox)
