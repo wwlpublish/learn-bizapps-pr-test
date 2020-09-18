@@ -13,36 +13,36 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "How many event types are displayed in the Logs tab?"
+  - content: How many event types are displayed in the Logs tab?
     choices: 
-    - content: "Two"
+    - content: Two
       isCorrect: false
-      explanation: "That is false; There are three event types in the Logs tab - info, warning, and error."
-    - content: "Three"
+      explanation: Info, Warning, and Error are the three event types that are in the Logs tab.
+    - content: Three
       isCorrect: true 
-      explanation: "Correct! There are three event types in the Logs tab - info, warning, and error."
-    - content: "Four"
+      explanation: Info, Warning, and Error are the three event types that are in the Logs tab.
+    - content: Four
       isCorrect: false 
-      explanation: "That is false; There are three event types in the Logs tab - info, warning, and error." 
-  - content: "The date range filter in the Logs tab provides an option to set a custom range."
+      explanation: Info, Warning, and Error are the three event types that are in the Logs tab. 
+  - content: The date range filter in the Logs tab provides an option to set a custom range. (True or False)
     choices:
     - content: "True"
       isCorrect: true 
-      explanation: "Correct! The date range filter provides a custom range option."
+      explanation: The date range filter provides a custom range option.
     - content: "False"
       isCorrect: false
-      explanation: "That is false; The date range filter provides a custom range option."
-  - content: "Which logs can you see in the left pane of the Logs tab?"
+      explanation: The date range filter provides a custom range option.
+  - content: Which logs can you see in the left pane of the Logs tab?
     choices: 
-    - content: "Server logs only"
+    - content: Server logs
       isCorrect: false 
-      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
-    - content: "Logs for all processes in a folder only"
+      explanation: The left pane of the Logs tab displays server logs, logs for all processes in a folder, and logs for a particular action.
+    - content: Logs for all processes in a folder
       isCorrect: false 
-      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
-    - content: "Logs for a particular action only"
+      explanation: The left pane of the Logs tab displays server logs, logs for all processes in a folder, and logs for a particular action.
+    - content: Logs for a particular action
       isCorrect: false 
-      explanation: "That is false; The left pane of the Logs tab displays all the mentioned options."
-    - content: "All of the above"
+      explanation: The left pane of the Logs tab displays server logs, logs for all processes in a folder, and logs for a particular action.
+    - content: All of the above
       isCorrect: true 
-      explanation: "Correct! The left pane of the Logs tab displays all the mentioned options."
+      explanation: The left pane of the Logs tab displays server logs, logs for all processes in a folder, and logs for a particular action.
