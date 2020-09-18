@@ -8,11 +8,11 @@ In this unit, you'll create a process that extracts the gainer stocks from the M
 
     ![The populated Launch New Edge action.](..\media\launch-new-edge-action-url.png)
 
-1. Add a **Click Link on Web Page** action and set it two click the **Markets** link on the **MSN Money** main page.
+1. Add a **Click Link on Web Page** action and set it to click the **Markets** link on the **MSN Money** main page.
 
     ![The Markets link in the MSN page.](..\media\markets-link.png)
 
-1. Add a second **Click Link on Web Page** action and set it two click the **GAINERS** link on the **MSN Markets** page.
+1. Add a second **Click Link on Web Page** action and set it to click the **GAINERS** link on the **MSN Markets** page.
 
     ![The Gainers link in the MSN page.](..\media\gainers-link.png)
 
