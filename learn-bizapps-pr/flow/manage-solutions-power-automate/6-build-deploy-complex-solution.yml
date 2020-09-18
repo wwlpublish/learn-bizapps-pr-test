@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.manage-solutions-power-automate.6-build-deploy-complex-solution 
+title: Build and deploy a complex solution with flows, apps, and entities
+metadata: 
+  title: Build and deploy a complex solution with flows, apps, and entities
+  description: Demonstrate how a complex solution, containing Common Data Service entities, Power Apps app, and Power Automate flows, can be built, exported, and imported.  
+  ms.date: 9/30/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-build-deploy-complex-solution.md)] 

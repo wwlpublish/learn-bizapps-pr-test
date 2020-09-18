@@ -1,0 +1,85 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.manage-solutions-power-automate.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 9/30/2020 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Name the types of solutions.
+    choices: 
+    - content: 2 - Zipped & Un-zipped
+      isCorrect: false
+      explanation: Managed solutions are used to deploy to any environment that isn't a development environment for that solution. Unmanaged solutions are used in development environments while you make changes to your application.
+    - content: 2 - Managed & Un-managed
+      isCorrect: true 
+      explanation: Managed solutions are used to deploy to any environment that isn't a development environment for that solution. Unmanaged solutions are used in development environments while you make changes to your application.
+    - content: 1 - Managed
+      isCorrect: false 
+      explanation: Managed solutions are used to deploy to any environment that isn't a development environment for that solution. Unmanaged solutions are used in development environments while you make changes to your application.
+    - content: 3 - Managed, Un-managed & Published
+      isCorrect: false 
+      explanation: Managed solutions are used to deploy to any environment that isn't a development environment for that solution. Unmanaged solutions are used in development environments while you make changes to your application.
+  - content: When can you add an item (such as flow, app, environment variable) to a solution?
+    choices: 
+    - content: You can only add new items to a new solution.
+      isCorrect: false
+      explanation: You have the flexibility to add existing items such as flow and app to either an existing solution or a new solution.
+    - content: New solutions will not accept existing items.
+      isCorrect: false 
+      explanation: You have the flexibility to add existing items such as flow and app to either an existing solution or a new solution.
+    - content: You can add an existing item and a new item to an existing or new solution
+      isCorrect: true
+      explanation: You have the flexibility to add existing items such as flow and app to either an existing solution or a new solution.
+    - content: Items removed cannot be added back.
+      isCorrect: false 
+      explanation: You have the flexibility to add existing items such as flow and app to either an existing solution or a new solution.
+  - content: Which of the following statements regarding solution exporting and importing is true?
+    choices: 
+    - content: Exporting and importing can only be in a single environment.
+      isCorrect: false
+      explanation: You can export the solutions as a zipped file and import then into another environment in the same tenant or an environment in a new tenant.
+    - content: Exporting and importing can be across environments but must be in a single-tenant.
+      isCorrect: false 
+      explanation: You can export the solutions as a zipped file and import then into another environment in the same tenant or an environment in a new tenant.
+    - content: Exporting and importing can be across tenants but with the same licenses.
+      isCorrect: false 
+      explanation: You can export the solutions as a zipped file and import then into another environment in the same tenant or an environment in a new tenant.
+    - content: Exporting and importing can be cross environments and tenants.
+      isCorrect: true 
+      explanation: You can export the solutions as a zipped file and import then into another environment in the same tenant or an environment in a new tenant.
+  - content: Do solutions automatically package dependent components?
+    choices: 
+    - content: No, they do not. For example, Option Set fields of an entity need to be added separately.
+      isCorrect: true 
+      explanation: Not all dependent components get automatically packaged. For example, Option Set fields of an entity need to be added separately.
+    - content: Yes. Solutions can automatically recognize interdependent components.
+      isCorrect: false 
+      explanation: Not all dependent components get automatically packaged. For example, Option Set fields of an entity need to be added separately.
+    - content: Yes, but only for the Power Apps app.
+      isCorrect: false 
+      explanation: Not all dependent components get automatically packaged. For example, Option Set fields of an entity need to be added separately.
+    - content: Yes, but only for Power Automate flows.
+      isCorrect: false 
+      explanation: Not all dependent components get automatically packaged. For example, Option Set fields of an entity need to be added separately.
+  - content: How do Power Apps canvas apps and Power Automate flows handle connection references?
+    choices: 
+    - content: Both Power Apps canvas apps and Power Automate flows handle connection references the same.
+      isCorrect: false 
+      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, where as Power Apps only uses it for implicitly shared connections.
+    - content: Power Apps canvas apps references all connectors. Power Automate references implicitly shared connections such as SQL server.
+      isCorrect: false 
+      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, where as Power Apps only uses it for implicitly shared connections.
+    - content: Power Automate flows use connection references for all connectors. Power Apps app only use them from implicitly shared connections such as SQL server.
+      isCorrect: true 
+      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, where as Power Apps only uses it for implicitly shared connections.
+    - content: Both Power Apps canvas apps and Power Automate flows handle connection references the same but for cloud connections.
+      isCorrect: false 
+      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, where as Power Apps only uses it for implicitly shared connections.
