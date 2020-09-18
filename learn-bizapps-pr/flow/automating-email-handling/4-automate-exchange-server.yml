@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.automating-email-handling.4-automate-exchange-server
-title: Automate Exchange server
+title: Automate an Exchange server
 metadata: 
-  title: Automate Exchange server
-  description: Automate Exchange server
+  title: Automate an Exchange server
+  description: Learn how to automate an Exchange server with WinAutomate.
   ms.date: 08/21/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
