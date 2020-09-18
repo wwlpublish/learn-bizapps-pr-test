@@ -11,7 +11,7 @@ metadata:
 title: Manage Solutions in Power Automate 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Summary text goes here. 
+  Package features such as Power Apps apps, site maps, flows, entities, customer connectors and more. In this module, you'll learn how to manage solutions with Power Automate. 
 abstract: |  
     In this module, you will: 
     - Package existing items into a solution.
@@ -35,7 +35,7 @@ units:
 - learn-bizapps.manage-solutions-power-automate.2-add-remove-flow 
 - learn-bizapps.manage-solutions-power-automate.3-edit-solution-aware-flow 
 - learn-bizapps.manage-solutions-power-automate.4-import-export-solutions 
-- learn-bizapps.manage-solutions-power-automate.5-improve-solution-lifecycle 
+- learn-bizapps.manage-solutions-power-automate.5-improve-solution-life-cycle 
 - learn-bizapps.manage-solutions-power-automate.6-build-deploy-complex-solution 
 - learn-bizapps.manage-solutions-power-automate.7-check 
 - learn-bizapps.manage-solutions-power-automate.8-summary 
