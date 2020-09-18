@@ -55,9 +55,9 @@ This example shows how to create a task in Dynamics 365 whenever a lead is creat
 
 1. Select **Save**.
 
-## Example two: Create a Wunderlist task from a Dynamics 365 task
+## Example two: Create a Planner task from a Dynamics 365 task
 
-This example shows how to create a task in [Wunderlist](https://www.wunderlist.com) whenever a task is created in Dynamics 365. Wunderlist is an internet-based service that you can use to create to-do lists, add reminders, and track errands.
+This example shows how to create a task in Microsoft Planner whenever a task is created in Dynamics 365. Planner is a service that you can use to create to-do lists, add reminders, and track errands.
 
 1. Sign in to [Power Automate](https://ms.flow.microsoft.com) by using your organizational account.
 1. In the left pane, select **My flows**.
@@ -75,8 +75,8 @@ This example shows how to create a task in [Wunderlist](https://www.wunderlist.c
 1. In the **Scope** field, choose **Organization**.
 
 1. Select **New step**.
-1. In the search field, enter *Wunderlist*, and then select **Wunderlist – Create a task**.
-1. In the **List ID** field, select *inbox*.
+1. In the search field, enter *Planner*, and then select **Planner – Create a task**.
+1. See [create a task parameters](https://docs.microsoft.com/connectors/planner/#create-a-task) for information about the fields.
 1. In the **Title** field, add **Subject** from the dynamic content pane.
 1. Select **Save**.
 

@@ -29,9 +29,6 @@ In this task, you will open Power BI Report Builder to create and then save a
 
 1.  To open Power BI Report Builder, type “Power BI Report Builder” in the Search box next to **Start** button and press **Enter**.  
 
-	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
-
 1.  In the Power BI Report Builder window, to create a new report, in the **Getting Started** window, click **Blank Report**.
 
 	> [!div class="mx-imgBorder"]
