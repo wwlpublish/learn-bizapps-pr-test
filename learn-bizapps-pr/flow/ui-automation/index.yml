@@ -16,7 +16,8 @@ abstract: |
     In this module, you will:
     - Familiarize yourself with the concept of UI elements and controls
     - Understand the window- and element-handling capabilities of WinAutomation
-prerequisites: 
+prerequisites: |
+  - Basic familiarity with the WinAutomation process designer
 iconUrl: /learn/achievements/ui-automation.svg  
 levels:  
 - beginner   
