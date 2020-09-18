@@ -1,4 +1,6 @@
-1. To create a simple flow and add it to a solution, click on the new **Volunteer Request** solution you just created and then click on the **+ New** option on the top. 
+The following steps walk you through the process of creating a flow and adding it to a solution.
+
+1. To create a simple flow and add it to a solution, click on the new **Volunteer Request** solution you created and then click on the **+ New** option on the top. 
 
 	> [!div class="mx-imgBorder"]
 	> [![new Volunteer Request](../media/plus-new-volunteer-solution-ssm.png)](../media/plus-new-volunteer-solution-ssm.png#lightbox)
@@ -18,14 +20,14 @@
 	> [!div class="mx-imgBorder"]
 	> [![remaining design of the flow](../media/simple-flow-request-ss.png)](../media/simple-flow-request-ss.png#lightbox)
 
-1. Click on **Save** which is available on the top-right.
+1. Click on **Save** that is available on the top-right.
 
 1. Check and confirm the flow has been saved and then click on the left arrow icon.
 
 	> [!div class="mx-imgBorder"]
 	> [![confirm the flow saved](../media/flow-saved-ss.png)](../media/flow-saved-ss.png#lightbox)
 
-1. Next, let's go back and validate the flow has been created and is part of the solution. Click on **Solutions,** which is available on the vertical navigation on the left, then click on **Volunteer Solution**.
+1. Next, let's go back and validate the flow has been created and is part of the solution. Click on **Solutions,** on the vertical navigation on the left, then click on **Volunteer Solution**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Go back and validate the flow has been created](../media/back-solution-ssm.png)](../media/back-solution-ssm.png#lightbox)
@@ -37,7 +39,7 @@ Congratulations! You have successfully created a Power Automate flow and is now 
 
 ## How to remove a flow from a solution 
 
-Power Automate flows that are part of a solution DO NOT show up in the Flows. For example, the new flow we just created above does not show up in the flows list. The only way you can find it is by clicking on solutions and then click on your solution name.
+Power Automate flows that are part of a solution DO NOT show up in the Flows. For example, the new flow we created above does not show up in the flows list. The only way you can find it is by clicking on solutions and then click on your solution name.
 
 > [!div class="mx-imgBorder"]
 > [![alt text](../media/solution-flow-missing-ssm.png)](../media/solution-flow-missing-ssm.png#lightbox)

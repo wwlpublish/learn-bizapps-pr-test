@@ -1,4 +1,4 @@
-Consider a scenario where you have a solution that includes a Common Data Service entity and its flow. You now want to export this solution from one tenant, which is the source, and import it to another tenant which is the destination.
+Consider a scenario where you have a solution that includes a Common Data Service entity and its flow. You now want to export this solution from one tenant, which is the source, and import it to another tenant that is the destination.
 
 1. In the source tenant, go to [Power Automate](https://flow.microsoft.com/?azure-portal=true), on the left vertical navigation, click on **Solutions**, select your solution, and then click on **export**.
 
@@ -15,7 +15,7 @@ Consider a scenario where you have a solution that includes a Common Data Servic
 	> [!div class="mx-imgBorder"]
 	> [![Click Run to check for issues](../media/check-issues-run-ssm.png)](../media/check-issues-run-ssm.png#lightbox)
 
-	While it is running you should see the **Running...** right below your solution name.
+	While it is running, you should see the **Running...** right below your solution name.
 
 	> [!div class="mx-imgBorder"]
 	> [![Volunteer Request Running](../media/check-issues-running-ssm.png)](../media/check-issues-running-ssm.png#lightbox)

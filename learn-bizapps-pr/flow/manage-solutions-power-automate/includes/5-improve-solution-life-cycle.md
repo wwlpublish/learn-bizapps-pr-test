@@ -48,7 +48,7 @@ You can now create environment level variables with the benefit of being able to
 	> [!div class="mx-imgBorder"]
 	> [![Enter volunteer funds value](../media/volunteer-funds-value-ss.png)](../media/volunteer-funds-value-ss.png#lightbox)
 
-1. To edit the environment variable select it and then click on **Edit**.
+1. To edit the environment variable, select it and then click on **Edit**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Edit the enviroment variable](../media/edit-environment-variable-ssm.png)](../media/edit-environment-variable-ssm.png#lightbox)

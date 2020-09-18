@@ -15,16 +15,16 @@ quiz:
   questions: 
   - content: Name the types of solutions.
     choices: 
-    - content: 2 - Zipped & Un-zipped
+    - content: 2 - Zipped & Unzipped
       isCorrect: false
       explanation: Managed solutions are used to deploy to any environment that isn't a development environment for that solution. Unmanaged solutions are used in development environments while you make changes to your application.
-    - content: 2 - Managed & Un-managed
+    - content: 2 - Managed & Unmanaged
       isCorrect: true 
       explanation: Managed solutions are used to deploy to any environment that isn't a development environment for that solution. Unmanaged solutions are used in development environments while you make changes to your application.
     - content: 1 - Managed
       isCorrect: false 
       explanation: Managed solutions are used to deploy to any environment that isn't a development environment for that solution. Unmanaged solutions are used in development environments while you make changes to your application.
-    - content: 3 - Managed, Un-managed & Published
+    - content: 3 - Managed, Unmanaged & Published
       isCorrect: false 
       explanation: Managed solutions are used to deploy to any environment that isn't a development environment for that solution. Unmanaged solutions are used in development environments while you make changes to your application.
   - content: When can you add an item (such as flow, app, environment variable) to a solution?
@@ -73,13 +73,13 @@ quiz:
     choices: 
     - content: Both Power Apps canvas apps and Power Automate flows handle connection references the same.
       isCorrect: false 
-      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, where as Power Apps only uses it for implicitly shared connections.
+      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, whereas Power Apps only uses it for implicitly shared connections.
     - content: Power Apps canvas apps references all connectors. Power Automate references implicitly shared connections such as SQL server.
       isCorrect: false 
-      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, where as Power Apps only uses it for implicitly shared connections.
+      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, whereas Power Apps only uses it for implicitly shared connections.
     - content: Power Automate flows use connection references for all connectors. Power Apps app only use them from implicitly shared connections such as SQL server.
       isCorrect: true 
-      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, where as Power Apps only uses it for implicitly shared connections.
+      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, whereas Power Apps only uses it for implicitly shared connections.
     - content: Both Power Apps canvas apps and Power Automate flows handle connection references the same but for cloud connections.
       isCorrect: false 
-      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, where as Power Apps only uses it for implicitly shared connections.
+      explanation: Power Automate flows and Power Apps apps handle connection references differently. Power Automate flows use connection references for all connectors, whereas Power Apps only uses it for implicitly shared connections.

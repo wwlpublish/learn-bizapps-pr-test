@@ -2,15 +2,13 @@ Solutions allow us to package features such as Power Apps apps (both canvas and 
 
 Solutions are part of the overall Application Lifecycle Management (ALM) practice of the Power Platform. Solutions are an important mechanism for implementing ALM. For more information, visit [Overview of application lifecycle management with Microsoft Power Platform](https://docs.microsoft.com/power-platform/alm/overview-alm/?azure-portal=true)
 
-## Learn the basics
-
 ### Power Automate flows
 
-Microsoft Power Automate (previously known as Flow) is a service that allows us to create workflows that are either automated or manually triggered by a user. There are several templates already available that either fully match your requirement or require minor changes. Other options include creation from a Visio template, UI and business process flows.
+Microsoft Power Automate (previously known as Flow) is a service that allows us to create workflows that are either automated or manually triggered by a user. There are several templates already available that either fully match your requirement or require minor changes. Other options include creation from a Visio template, UI, and business process flows.
 
-The designer feature that comes along with Power Automate is very user-friendly. However, sometimes drawing your flow logic on a Visio diagram can help design a better workflow, and hence the integration of Power Automate with Visio was created. In Visio, you use the BPMN Basic Shapes to design the flow and export it. You then import that file into Power Automate, after which you have the flexibility to make further enhancements.
+The designer feature that comes along with Power Automate is user-friendly. However, sometimes drawing your flow logic on a Visio diagram can help design a better workflow, and hence the integration of Power Automate with Visio was created. In Visio, you use the BPMN Basic Shapes to design the flow and export it. You then import that file into Power Automate, after which you have the flexibility to make further enhancements.
 
-UI flows bring Robotic Process Automation (RPA) directly into Power Automate. This functionality comes with either a Desktop or a Web app that you use to record the user interface, including clicks and keyboard input. This comes in very handy to work with legacy applications that do not have APIs available.
+UI flows bring Robotic Process Automation (RPA) directly into Power Automate. This functionality comes with either a Desktop or a Web app that you use to record the user interface, including clicks and keyboard input. This comes in handy to work with legacy applications that do not have APIs available.
 
 Business process flows are built using Power Platform and Common Data Service. You can also leverage Power Automate workflows. The business process is a series of steps that the user needs to complete in a specific stage. The business process flow visually guides the user through various stages. These flows are created and managed by using Power Automated, and several templates are readily available. These templates can use the entities that are already available, or you can use custom entities that you have created.
 
@@ -46,7 +44,7 @@ You can't export a managed solution. Also, when a managed solution is deleted (u
 
 ## Create a new solution(s)
 
-Consider a Common Data Service (CDS) entity called Volunteer Requests, which saves all the requests that are submitted. A Power Automate flow is created to send an email notification to team members of the respective departments.
+Consider a Common Data Service (CDS) entity called Volunteer Requests, that saves all the requests that are submitted. A Power Automate flow is created to send an email notification to team members of the respective departments.
 
 1. In Power Automate, click on **Solutions** and then **+ New solution**.
 

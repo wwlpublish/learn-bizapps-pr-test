@@ -12,7 +12,7 @@ In this example, we are going to edit the flow we created above. The change is t
 	> [!div class="mx-imgBorder"]
 	> [![change the text in the body](../media/solution-flow-email-body-change-ssm.png)](../media/solution-flow-email-body-change-ssm.png#lightbox)
 
-1. Next, click on the **Save** which is available on the top right of the screen and confirm the flow has been saved.
+1. Next, click on the **Save** on the top right of the screen and confirm the flow has been saved.
 
 	> [!div class="mx-imgBorder"]
 	> [![flow saved](../media/flow-saved-ss.png)](../media/flow-saved-ss.png#lightbox)
