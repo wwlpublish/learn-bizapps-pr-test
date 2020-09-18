@@ -31,7 +31,7 @@ units:
 - learn-bizapps.ui-automation.1-introduction 
 - learn-bizapps.ui-automation.2-controls 
 - learn-bizapps.ui-automation.3-window-handling-element-interaction 
-- learn-bizapps.ui-automation.4-check-your-knowledge 
+- learn-bizapps.ui-automation.4-check
 - learn-bizapps.ui-automation.5-summary 
 badge: 
   uid: learn-bizapps.ui-automation.badge 
