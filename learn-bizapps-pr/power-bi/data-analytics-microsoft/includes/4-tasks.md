@@ -43,7 +43,7 @@ With the built-in AI capabilities in Power BI, data analysts can build powerful 
 
 An important aspect of visualizing data is designing and creating reports for accessibility. As you build reports, it is important to think about people who will be accessing and reading the reports. Reports should be designed with accessibility in mind from the outset so that no special modifications are needed in the future.
 
-Many components of your report will help with storytelling. From a color scheme that is complimentary and accessible, to fonts and sizing, to picking the right visuals for what is being displayed, they all come together to tell that story.
+Many components of your report will help with storytelling. From a color scheme that is complementary and accessible, to fonts and sizing, to picking the right visuals for what is being displayed, they all come together to tell that story.
 
 ## Analyze
 
