@@ -1,53 +1,52 @@
-## Opening an Excel File and creating an instance
+## Open an Excel file and create an instance
 
-The first thing that is required to Automate any Excel-related task is to create an Excel instance. 
+The first task in automating any Excel-related task is to create an Excel instance. 
 
-An instance determines which session of an application WinAutomation interacts with. Instances can be created either by opening a locally stored or new Excel file, or attaching the Process to an already open file. These operations are achieved by the **Launch Excel** Action or **Attach to Running Excel** respectively.
+An instance determines which application session that WinAutomation will interact with. Instances can be created by opening a locally stored or new Excel file or by attaching the process to an already opened file. These operations are achieved by the **Launch Excel** action or the **Attach To Running Excel** action.
 
-Opening a new Excel file is done by the **Launch Excel** Action, by selecting to Launch Excel **with a blank document**.
+To open a new Excel file, go to the **Launch Excel > General** tab, and under the **Action Input** section, in the **Launch Excel** drop-down menu, select to open **with a blank document**.
  
 
 ![launch excel action properties](..\media\launch-excel-action-properties.png)
  
 
-Alternatively, Launching Excel with an existing file is done by changing the **Launch Excel** setting to **open the following document** and entering a **Document Path**.
+Alternatively, you can launch Excel with an existing file by changing the **Launch Excel** setting to **and open the following document** and then entering a **Document Path**.
 
 
 ![launch excel action properties continued](..\media\launch-excel-action-properties-continued.png)
 
 
-If **Make Instance Visible** is checked, the Excel window will be opened during process execution. If the instance isn’t visible, it runs in the background.
-In the **Advanced** tab, there is an option to **Load Add-Ins and Macros**, as the Excel file is launched.
+If the **Make Instance Visible** check box is selected, then the Excel window will be opened during process implementation. If the instance isn’t visible, it will run in the background. The **Advanced** tab includes an option to **Load Add-Ins and Macros** as the Excel file launches.
  
 
 ![launch excel properties advanced tab](..\media\launch-excel-properties-advanced-tab.png)
 
 
-An already opened Excel file can be used as an instance with the **Attach to Running Excel** Action. The **Document Name** will have to be specified.
+An already opened Excel file can be used as an instance with the **Attach To Running Excel** action. With this action, you will need to specify the **Document Name**.
  
 
 ![attach to running excel action properties](..\media\attach-to-running-excel-action-properties.png)
 
 
-## Saving and Closing
+## Save and close an Excel file
 
-An Excel file can be saved and closed only if the instance has already been determined. To save an Excel file, the **Save Excel** Action can be used. 
+You can save and close an Excel file only if the instance has already been determined. To save an Excel file, you can use the **Save Excel** action. 
 
-Set Save Mode to **Save document** to save the document in its current path with its current filename, or to **Save document as** to save the document in a different path and/or under a different filename.
+Set the **Save Mode** option to **Save document** to save the document in its current path with its current filename, or set the option to **Save document as** to save the document in a different path and/or under a different file name.
  
 
 ![save excel action properties](..\media\save-excel-action-properties.png)
 
 
-When choosing **Save document as**, there will be additional options to change the Document Format, and provide the new **Document Path**.
+When you select **Save document as**, additional options will be available for you to change the **Document Format** and to provide the new **Document Path**.
   
 
 ![save excel action properties continued](..\media\save-excel-action-properties-continued.png)
 
 
-The **Close Excel** Action is used to close a specific instance of Excel. Additional options are available in case the file must also be saved.
+You can use the **Close Excel** action to close a specific instance of Excel. Additional options are available if the file must also be saved.
 
- If any option to save the document is chosen, the Action functions similarly to the Save Excel Action, in addition to closing the document.
+If you select any of the options to save the document, the action will function similarly to the **Save Excel** action, in addition to closing the document.
   
 
 ![close excel action properties](..\media\close-excel-action-properties.png)
