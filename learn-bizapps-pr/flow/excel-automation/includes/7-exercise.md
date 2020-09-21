@@ -31,7 +31,7 @@ The Excel document contains a list of customers. Each customer has a first name,
 ![insert row to excel exercise](..\media\insert-row-to-excel-exercise.png)
 
  
-5. Add five **Write to Excel Worksheet** actions, one for each column (or header). In the properties of the first of these actions, set **Value to Write** to **First Name**, and then set the **Column** property to **A**. 
+4. Add five **Write to Excel Worksheet** actions, one for each column (or header). In the properties of the first of these actions, set **Value to Write** to **First Name**, and then set the **Column** property to **A**. 
   
 ![write to excel exercise](..\media\write-to-excel-exercise.png)
 
