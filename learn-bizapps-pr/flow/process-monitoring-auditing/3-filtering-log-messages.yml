@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.process-monitoring-auditing.3-filtering-log-messages 
-title: Filtering log messages
+title: Filter log messages
 metadata: 
-  title: Filtering log messages
-  description: Filtering log messages
+  title: Filter log messages
+  description: Learn how to filter log messages with WinAutomation.
   ms.date: 08/28/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
