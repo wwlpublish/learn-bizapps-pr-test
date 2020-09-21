@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.manage-solutions-power-automate.4-import-export-solutions 
-title: Import and export solutions
+title: Exercise - Import and export solutions
 metadata: 
-  title: Import and export solutions 
+  title: Exercise - Import and export solutions 
   description: Learn how to export a solution and import it in another environment or tenant.  
   ms.date: 9/30/2020 
   author: DaveBeasley 
