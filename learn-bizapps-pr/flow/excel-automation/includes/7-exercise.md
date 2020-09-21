@@ -19,8 +19,7 @@ To begin, download and open the **Customers.xlsx** file. Then, follow these step
 
 2. Specify the name of the file in the **Action** properties (**Customers.xlsx**).
 
-
-![attach to running excel exercise](..\media\attach-to-running-excel-exercise.png)
+   ![attach to running excel exercise](..\media\attach-to-running-excel-exercise.png)
 
 
 The Excel document contains a list of customers. Each customer has a first name, a last name, an address, a state, and a city. 
@@ -28,11 +27,11 @@ The Excel document contains a list of customers. Each customer has a first name,
 3. Insert a row with headers by using the **Insert Row to Excel Worksheet** action, specifying the **Row Index**. To add a row at the top of the worksheet, set the **Row Index** property to **1**. 
 
   
-![insert row to excel exercise](..\media\insert-row-to-excel-exercise.png)
+   ![insert row to excel exercise](..\media\insert-row-to-excel-exercise.png)
 
  
-4. Add five **Write to Excel Worksheet** actions, one for each column (or header). In the properties of the first of these actions, set **Value to Write** to **First Name**, and then set the **Column** property to **A**. 
-  
+4. Add five **Write to Excel Worksheet** actions, one for each column (or header). In the properties of the first of these actions, set **Value to Write** to **First Name**, and then set the **Column** property to **A**.
+
 ![write to excel exercise](..\media\write-to-excel-exercise.png)
 
 
@@ -53,7 +52,7 @@ Next, to switch the positions of the last two columns so that **State** appears 
 2. Because you will be moving the **State** column, select column **D**.
   
   
-![get first free row on column excel exercise](..\media\get-first-free-row-on-column-excel-exercise.png)
+    ![get first free row on column excel exercise](..\media\get-first-free-row-on-column-excel-exercise.png)
 
 
 ### Copy and paste cells
@@ -69,7 +68,7 @@ To copy the cells, follow these steps:
 4. In the **Range Starts At** property, set **Column** to **D** and then set **Row** to **%FirstFreeRowOnColumn-1%** so that the entire column is dynamically selected without you having to calculate its length.
   
 
-![copy cells from excel exercise](..\media\copy-cells-from-excel-exercise.png)
+    ![copy cells from excel exercise](..\media\copy-cells-from-excel-exercise.png)
 
 
 To paste cells, follow these steps:
@@ -79,13 +78,12 @@ To paste cells, follow these steps:
 2. Set the **Column** property to **F** and the **Row** property to **1**. This setting will paste the cells in the clipboard into the specified cell.
   
 
-![paste cells to excel exercise](..\media\paste-cells-to-excel-exercise.png)
+    ![paste cells to excel exercise](..\media\paste-cells-to-excel-exercise.png)
 
 
 ### Delete a blank column
 To delete the blank column, select the **Delete Column from Excel Worksheet** action and then set the **Column** property to **D**.
   
-
 ![delete column from excel exercise](..\media\delete-column-from-excel-exercise.png)
 
  
