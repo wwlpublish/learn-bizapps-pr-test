@@ -1,21 +1,21 @@
-In this exercise, you'll develop a process that retrieves emails related to new support tickets and sends confirmations. 
+In this exercise, you'll develop a process that will retrieve emails that are related to new support tickets and then send confirmations. 
 
 >[!NOTE]
->To run the process of the exercise successfully, you have to use the credentials of a valid webmail account. If the account's or server's information is false, the process will fail.
+> To run the exercise successfully, use the credentials of a valid webmail account. If the account or server's information is false, the process will fail.
 
 1. Launch WinAutomation and create a new process named **Ticket confirmation**.
 
     ![New Process window.](..\media\create-process.png)
 
-1. Deploy a **Retrieve Emails** action and configure it to retrieve all the unread emails that contain the word **Ticket** in their subject. The **Mail Folder** field is populated automatically with the main inbox folder of your account. 
+1. Deploy a **Retrieve Emails** action and configure it to retrieve all unread emails that contain the word **Ticket** in their subject line. The **Mail Folder** field will be populated automatically with the main inbox folder of your account. 
 
     ![A Retrieve Emails action with populated fields.](..\media\exercise-retrieve.png)
 
-1. Move to the **IMAP Server** tab of the action and populate the IMAP server's information.
+1. Go to the **IMAP Server** tab of the action and populate the IMAP server's information.
 
     ![The IMAP Server tab of the Retrieve Emails action.](..\media\exercise-retrieve-imap.png)
 
-1. Add a **For Each** loop to the workspace and set it to iterate through the list containing the retrieved emails.
+1. Add a **For Each** loop to the workspace and then set it to iterate through the list that contains the retrieved emails.
 
     ![A For Each loop with the retrieved email as input.](..\media\exercise-loop.png)
 
@@ -23,18 +23,18 @@ In this exercise, you'll develop a process that retrieves emails related to new 
 
      ![A Send Email action with populated fields.](..\media\exercise-send.png)
 
-1. Move to the **STMP Server** tab of the action and populate the wished SMTP server's information.
+1. Go to the **SMTP Server** tab of the action and populate the chosen SMTP server's information.
 
     ![The SMTP Server tab of the Send Email action.](..\media\exercise-send-smtp.png)
 
-1. Below the **Send Email** action, add a **Process Emails** action.  Set the action to move each retrieved email to a folder named **Confirmed Tickets**.
+1. Beneath the **Send Email** action, add a **Process Emails** action. Set the action to move each retrieved email to a folder named **Confirmed Tickets**.
 
     ![A Process Emails action with populated fields.](..\media\exercise-process.png)
 
-1. Move to the **IMAP Settings** tab of the action and populate the wished IMAP server's information.
+1. Go to the **IMAP Settings** tab of the action and populate the chosen IMAP server's information.
 
     ![The IMAP Settings tab of the Process Emails action.](..\media\exercise-process-imap.png)
 
-1. Lastly, save the process and run it to test that every action runs as expected. 
+1. Save the process and then run it to test that every action runs as expected. 
 
      ![The final process.](..\media\exercise-save.png)
