@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.automating-email-handling.2-automate-webmail-services
+title: Automate webmail services
+metadata: 
+  title: Automate webmail services
+  description: Learn how to automate webmail services with WinAutomation.
+  ms.date: 09/21/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-automate-webmail-services.md)] 
