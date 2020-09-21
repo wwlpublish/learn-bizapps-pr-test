@@ -1,1 +1,1 @@
-WinAutomation provides an extensive group of Excel Actions that can virtually automate any Excel-related business task. Through these Actions, a Process can launch and close Excel files, manage worksheets and enter, retrieve or select data. 
+WinAutomation provides an extensive group of Microsoft Excel actions that can automate most Excel-related business tasks. Through these actions, you can launch and close Excel files, manage worksheets, and enter, retrieve, or select data. 
