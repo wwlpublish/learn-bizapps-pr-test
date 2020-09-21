@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.excel-automation.4-writing-excel-worksheet
-title: Writing to an Excel worksheet
+title: Write to an Excel worksheet
 metadata: 
-  title: Writing to an Excel worksheet
-  description: Writing to an Excel worksheet
+  title: Write to an Excel worksheet
+  description: Learn how to write to an Excel worksheet.
   ms.date: 09/03/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 

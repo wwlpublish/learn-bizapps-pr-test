@@ -1,25 +1,24 @@
-Automating tasks related to storing and manipulating data in Excel is essential for virtually any kind of business. 
+Automating tasks that are related to storing and manipulating data in Microsoft Excel is essential for most businesses. 
 
-Working with a large amount of data in Excel is common, especially in large organizations where Excel is used across multiple departments such as sales, accounting, and human resources. Excel documents contain data in rows and columns, which is spread across multiple worksheets. 
+Working with a considerable amount of data in Excel is common, especially in large organizations where Excel is used across multiple departments such as sales, accounting, and human resources. Excel documents contain data in rows and columns, which is spread across multiple worksheets. 
 
-Entering, processing, and selecting data from an Excel document are algorithmic tasks, and are often performed manually. This means that there are many potential scenarios and use cases for automating these tasks.
+Entering, processing, and selecting data from an Excel document are algorithmic tasks that are often performed manually, which means the potential for numerous scenarios and use cases for automating these tasks.
 
-For example, let’s say a company receives a list of customers in an Excel document. The document may be structured differently to the way the company keeps its records. Before the new list can be added to any kind of main file, the data must be restructured to match the structure of the main file. 
+For example, consider a scenario where a company receives a list of customers in an Excel document. The document structure might differ from the way that the company keeps its records. Before the new list can be added to any main file, the data must be restructured to match the structure of the main file. 
 
-Thus, the Excel document must be read, the rows or columns must be shifted to match the format of the main file, and then the data must be copied to the main file ensuring no errors or loss of information. Such a task can easily be automated, to ensure that all updates to the main file occur without human intervention, and in an error-free way.
+Thus, the Excel document must be read, the rows or columns must be shifted to match the format of the main file, and then the data must be copied to the main file to ensure no errors or loss of information. This task can be automated to ensure that all updates to the main file occur without human intervention and in an error-free way.
 
-This module will demonstrate some of the most common uses of Excel Actions by developing Processes automating Excel-related business tasks. 
+This module demonstrates some of the most common uses of Excel actions by developing processes automating, Excel-related business tasks. 
 
-## Learning Objectives
+## Learning objectives
 
-This module will demonstrate how to create processes, which will:
+In this module, you will learn how to:
 
-* Open Excel files, and attach a process to an already open file.
-* Use the Excel group of Actions to read data from and write data to an Excel file.
-* Create and Edit worksheets.
+* Open Excel files and attach a process to an already opened file.
+* Use the Excel group of actions to read data from and write data to an Excel file.
+* Create and edit worksheets.
 * Save and close Excel files.
 
 ## Prerequisites
 
-* Basic familiarity with the WinAutomation Console and Process Designer.
-* Basic familiarity with Microsoft Excel.
+To complete this module, you will need to have basic familiarity with the WinAutomation Console and Process Designer, in addition to basic familiarity with Microsoft Excel.
