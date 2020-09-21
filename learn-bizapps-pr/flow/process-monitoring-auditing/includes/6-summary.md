@@ -1,0 +1,1 @@
+Through the **Logs** tab of the **WinAutomation Console**, you can review logs and check if the implemented processes worked as expected. Logs are critical for WinAutomation and help users with constant monitoring of the processes and the server. Except for automatic logging, the platform allows you to create custom logs by using the **Log Message** action. 

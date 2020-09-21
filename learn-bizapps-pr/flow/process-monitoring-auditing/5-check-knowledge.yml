@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.process-monitoring-auditing.5-check-knowledge
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/21/2020   
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: How many event types are displayed in the Logs tab?
+    choices: 
+    - content: Two
+      isCorrect: false
+      explanation: Info, Warning, and Error are the three event types that are in the Logs tab.
+    - content: Three
+      isCorrect: true 
+      explanation: Info, Warning, and Error are the three event types that are in the Logs tab.
+    - content: Four
+      isCorrect: false 
+      explanation: Info, Warning, and Error are the three event types that are in the Logs tab. 
+  - content: The date range filter in the Logs tab provides an option to set a custom range. (True or False)
+    choices:
+    - content: "True"
+      isCorrect: true 
+      explanation: The date range filter provides a custom range option.
+    - content: "False"
+      isCorrect: false
+      explanation: The date range filter provides a custom range option.
+  - content: Which logs can you see in the left pane of the Logs tab?
+    choices: 
+    - content: Server logs
+      isCorrect: false 
+      explanation: The left pane of the Logs tab displays server logs, logs for all processes in a folder, and logs for a particular action.
+    - content: Logs for all processes in a folder
+      isCorrect: false 
+      explanation: The left pane of the Logs tab displays server logs, logs for all processes in a folder, and logs for a particular action.
+    - content: Logs for a particular action
+      isCorrect: false 
+      explanation: The left pane of the Logs tab displays server logs, logs for all processes in a folder, and logs for a particular action.
+    - content: All of the above
+      isCorrect: true 
+      explanation: The left pane of the Logs tab displays server logs, logs for all processes in a folder, and logs for a particular action.
