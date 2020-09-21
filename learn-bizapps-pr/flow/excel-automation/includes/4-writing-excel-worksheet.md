@@ -1,10 +1,10 @@
-The **Write to Excel Worksheet** Action can write any static data or variable to a specified cell in an Excel worksheet. The Action supports two writing modes:
+The **Write to Excel Worksheet** action can write any static data or variable to a specified cell in an Excel worksheet. The action supports two writing modes:
 
 - Write on a specified cell.
-- Write on the currently active cell. To activate a particular cell, use the **Activate Cell in Excel Worksheet** Action. 
+- Write on the currently active cell. To activate a particular cell, use the **Activate Cell in Excel Worksheet** action. 
 
-If you set a data table as **Value to Write**, the specified or active cell determines the cell for the table's top-left element.
+If you set a data table as **Value to Write**, the specified or active cell will determine the cell for the table's upper-left element.
 
-The **Write to Excel Worksheet** Action accepts as input a previously defined Excel instance and doesn't return any outputs. 
+The **Write to Excel Worksheet** action accepts as input a previously defined Excel instance and doesn't return any outputs. 
 
 ![write to excel action properties](..\media\write-to-excel-action-properties.png)
