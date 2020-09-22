@@ -1,0 +1,129 @@
+Here is a quick look at the App Designer for an example Model-driven app called
+“Fundraiser.” As you can see, there are two entities: Donation and Fundraiser. Each entity also contains four assets:
+* **Forms** – Defining how users will see and interact with the data
+
+* **Views** – A list view of the records for each entity
+
+* **Charts** - Showing the data in a meaningful, visual representation
+
+* **Dashboards** – Providing an insightful, graphical overview of the data
+
+
+![Model driven app layout in studio.](../media/fundraiser-app-designer.png)
+
+By selecting the Play button in the top right, the app is put into **Play mode**. 
+You can see it then looks completely different and shows the data based
+on the choices made in the design process.
+
+![Model driven app in play mode.](../media/app-play-mode.png)
+
+## Understand the needs of the user
+
+With model-driven apps, the name says it all. Your primary design goal is to get
+your Common Data Service data model in order. With that in place, you can
+connect Power Apps, and a model-driven app will be created for you from that
+model.
+
+Model-driven apps are created using the App Designer. You will choose the
+entities, dashboards, business process flows, forms, and other components that
+you want to make available in your app, and then the app will be created for
+you. This means you will need to spend more time understanding what your user
+needs than how it is going to look.
+
+### Data Model
+
+As you begin the data modeling process, there are a couple of important
+questions to ask yourself:
+
+-   What type of data will your solution be storing and or collecting?
+
+-   How will this data relate or coincide with the other data you are working with?
+
+These questions are important when designing a model-driven application because
+of how model-driven applications function. Remember, model-driven applications
+use a metadata-driven architecture. This means a large portion of the
+model-driven app is based on how your data is modeled, and there is no need to
+write custom code to alter the app design.
+
+You can view the app metadata by reviewing the Entity in the Common Data
+Service.
+
+![Example of metadata.](../media/entity-metadata.png)
+
+You can also view the app **Play mode** to see a preview of what the app will
+look like.
+
+![Example of app in play mode.](../media/entity-play-mode.png)
+
+In the example above, for the Fundraiser Entity, there are several pieces of
+data being collected, such as:
+
+* Name
+
+* Fundraiser Goal
+
+* Owner
+
+* Total Donations
+
+* Created On
+
+As you think about your data model, also think about field types. When adding
+fields to your entity in the Common Data Service, the field type you choose will
+determine how users enter and view that in your model-driven app. Option sets
+show as dropdowns, currency shows with currency symbols, while decimal numbers
+don’t. These little changes in the entity can have a profound effect on how your
+user experiences your app.
+
+The screenshot below shows examples of Fields and the different data types they
+could have using the Fundraiser example again.
+
+![Fundraiser entity default fields](../media/fundraiser-entity-default-fields.png)
+
+> [!IMPORTANT]
+> If a field type needs to be changed to a different field type, (i.e. text field
+to an option set), then you will need to delete that field and recreate with the
+correct field type. This will cause you to lose any data associated with that
+field.
+
+### Business Logic
+
+When incorporating business logic in your app, there are two primary options
+available. You can set **Business Rules** on your Common Data Service entities
+or you can build **Business Process Flows**.
+
+With **Business Rules,** you will define behaviors at the data layer. This is
+great for setting conditions for when a field is required, setting a default
+value, or even showing or hiding a field based on criteria. An example could be
+an entity for tracking expenses. You could have a field for type of travel and
+then build a business rule that dictates that if a user chooses automobile then
+the mileage field is required, else it is optional. This gives you the power to
+make sure you maintain data consistency in all scenarios.
+
+**Business process flows** are used to guide users through using your app. These
+workflows can provide visuals on next steps based on the status of the data and
+facilitate other actions that you want to occur as the user uses the app.
+Business Process Flows let you bring automation to your app and make it more of
+a guided experience than just a place to enter data. If you would like to go more in-depth 
+with Business Process Flows check out this additional Microsoft Learn module: 
+https://docs.microsoft.com/learn/modules/work-with-business-process-flows-dynamics-365/ 
+
+### Dashboards
+
+A common output need for apps is to visualize the data. For this requirement,
+you can implement Dashboards with custom filters and visual graphics to tie all
+this data together right in your app. When creating your Dashboards, make sure
+it’s simple for your users to consume without overwhelming them with all the
+data. Provide high-level snapshots of your data and allow them to use filters to
+dive deeper into the data if needed.
+
+![Dashboards in play mode.](../media/dashboards-play-mode.png)
+
+### Additional third-party solutions and app accelerators
+
+It is also important to know about the different App accelerators and
+third-party solutions available to you. Depending on the industry you are in,
+Health, Financial, Banking, Education, Non- Profit, Automotive, or Media,
+Microsoft has released a number of accelerators or foundational components to
+assist you with quickly standing up your solution. For more information,
+see [Industry accelerators overview](https://docs.microsoft.com/common-data-model/industry-accelerators?azureportal=true).

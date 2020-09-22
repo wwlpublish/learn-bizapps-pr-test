@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.how-to-build-model-driven-app
+title: Model-driven apps
+metadata:
+  title: Model-driven apps
+  description: "Model-driven apps"
+  ms.date: 09/24/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/02-model-driven-apps.md)]
