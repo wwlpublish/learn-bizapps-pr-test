@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.scripting.4-exercise-javascript 
-title: Exercise - Find the last day of the current month with JavaScript
+title: Exercise - Use JavaScript to find the last day of the current month
 metadata: 
-  title: Exercise - Find the last day of the current month with JavaScript
-  description: Exercise - Find the last day of the current month with JavaScript
+  title: Exercise - Use JavaScript to find the last day of the current month
+  description: Practice using JavaScript to find the last day of the current month.
   ms.date: 09/02/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

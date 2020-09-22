@@ -1,17 +1,16 @@
-While developing processes, users may face some scenarios that need the implementation of custom behavior. For example, it's common to execute JavaScript code on loaded web pages.
+While developing processes, you might encounter scenarios that need the implementation of custom behavior. For example, it's common to run JavaScript code on loaded webpages.
 
-WinAutomation provides the ability to automate complex scenarios using scripting. The respective actions enable you to develop scripts in VBScript, JavaScript, PowerShell, and Python.
+WinAutomation provides you with the ability to automate complex scenarios by using scripting actions that can help you develop scripts in VBScript, JavaScript, PowerShell, and Python.
 
-Using scripts, you can avoid the development of complicated processes and enhance your workflow flexibility.
+By using scripts, you can avoid the development of complicated processes and enhance your workflow flexibility.
 
-## Learning οbjectives
+## Learning objectives
 
  In this module, you will: 
 
 - Learn how to use scripting actions.
-- Create two processes using VBScript and JavaScript.
+- Create two processes by using VBScript and JavaScript.
 
 ## Prerequisites
 
-- Familiarity with the WinAutomation console and process designer.
-- Αdvanced experience with process development and variables. 
+To successfully complete this module, you should have familiarity with the WinAutomation Console and Process Designer, and you should have advanced experience with process development and variables. 

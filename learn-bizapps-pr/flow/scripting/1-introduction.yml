@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.scripting.1-introduction 
-title: Introducing scripting actions
+title: Introduction
 metadata: 
-  title: Introducing scripting actions
-  description: Introducing scripting actions
+  title: Introduction
+  description: Introduction to scripting actions in WinAutomation.
   ms.date: 09/02/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
