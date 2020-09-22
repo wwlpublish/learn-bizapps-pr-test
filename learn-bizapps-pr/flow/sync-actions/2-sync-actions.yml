@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.sync-actions.2-sync-actions 
+title: Synchronization actions
+metadata: 
+  title: Synchronization actions
+  description: Learn about the various synchronization actions in WinAutomation.
+  ms.date: 09/22/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-sync-actions.md)] 
