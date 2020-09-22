@@ -29,13 +29,13 @@ products:
 - power-apps
 - power-platform
 units:
-- learn.wwl.how-to-build-model-driven-app
-- learn.wwl.how-to-build-model-driven-app
-- learn.wwl.how-to-build-model-driven-app
-- learn.wwl.how-to-build-model-driven-app
-- learn.wwl.how-to-build-model-driven-app
-- learn.wwl.how-to-build-model-driven-app
-- learn.wwl.how-to-build-model-driven-app
-- learn.wwl.how-to-build-model-driven-app
+- learn.wwl.how-to-build-model-driven-app.introduction-model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.build-blocks-of-model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.design-of-model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.create-model-driven-app
+- learn.wwl.how-to-build-model-driven-app.control-security-share-model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.knowledge-check
+- learn.wwl.how-to-build-model-driven-app.summary
 badge:
   uid: learn.wwl.how-to-build-model-driven-app.badge
