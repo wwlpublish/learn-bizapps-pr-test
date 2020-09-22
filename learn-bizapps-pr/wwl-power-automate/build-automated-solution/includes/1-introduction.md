@@ -3,8 +3,9 @@ Gone are the days of walking a form from office to office for approvals and spen
 In this module, you will:    
 
 - Create a flow from a template 
+- Create a recurring flow on a schedule
+- Create a flow triggered by a button
 - Create a flow triggered by the Common Data Service
-- Automate an approval request
-- Discover the approval center
+- Automate an approval request and discover the approval center
 
  
