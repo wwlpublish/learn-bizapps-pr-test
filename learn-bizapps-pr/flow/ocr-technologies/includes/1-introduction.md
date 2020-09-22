@@ -13,4 +13,4 @@ By using OCR actions, you can deal with the most challenging workflows that woul
 
 ## Prerequisites
 
-To successfully complete this module, you should have basic familiarity with the WinAutomation Console and Process Designer, in addition to basic familiarity with process development and variables. 
+To complete this module successfully, you should have basic familiarity with the WinAutomation Console and Process Designer. Additionally, you should be familiar with process development and variables. 
