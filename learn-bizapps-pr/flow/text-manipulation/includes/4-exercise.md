@@ -1,49 +1,67 @@
-We are going to develop a Process that prompts the user for their first and last names. The Process then generates a username with the first letter of the user’s first name appended to their last name in lower-case, and randomly generates a temporary password. The output is then displayed to the user.
-Our process will:
+In this exercise, you will develop a process that prompts the user for their first and last name. The process will then generate a username by using the first letter of the user’s first name, appended to their last name in lowercase. Then, the system will randomly generate a temporary password and display the output to the user.
 
-* Prompt a user to input their first and last name
-* Split the two names into separate strings of text
-* Shift the two strings to lower case
-* Get the first letter of the first name
-* Randomly generate a password
-* Display a message with the user’s username and password
+## Tasks
 
-First, use the **Display Input Dialog** Action. Set the **Title** to **Name Input** and **Input Dialog Message** to **Please enter your first and last name (for example, Norbert Varga):**. This Action will display a message, prompting the user for input.
+For this exercise, you'll create a process that will:
+
+- Prompt a user to enter their first and last name.
+- Split the two names into separate strings of text.
+- Shift the two strings to lowercase.
+- Get the first letter of the first name.
+- Generate a password randomly.
+- Display a message with the username and password.
+
+## Steps
+
+Select the **Display Input Dialog** action, and then follow these steps: 
+
+1. Set the **Title** property to **Name Input** and the **Input Dialog Message** property to **Please enter your first and last name (for example, Norbert Varga)**. This action will display a message that prompts the user for input.
  
 ![display input dialog exercise](..\media\display-input-dialog-exercise.png)
 
 
-Use the **Split Text** Action to split the first and last name into two separate strings of text. In **Text to Split** enter **%UserInput%**.
+2. Use the **Split Text** action to split the first and last name into two separate strings of text. In the **Text to Split** field, enter **%UserInput%**.
  
 ![split text exercise](..\media\split-text-exercise.png)
 
-Use the **Change Text Case** Action. In Text to Convert enter %TextList[0]%. With the index of a list type variable, you provide the first item of the list, which will be the first name. Set **Convert to** to **lowercase**.
+3. Select the **Change Text Case** action. 
+
+4. In the **Text to Convert** field, enter **%TextList[0]%**. 
+
+5. With the index of a list type variable, provide the first item of the list, which will be the first name. Set the **Convert to** property to **lowercase**.
  
 ![change text case exercise](..\media\change-text-case-exercise.png)
 
-Add another **Change Text Case** Action. This time, set **Text to Convert** to **%TextList[1]%**, thus referencing the last name. **Convert to** should be set to **lowercase** again. 
+6. Add another **Change Text Case** action. This time, set the **Text to Convert** property to **%TextList[1]%**, thus referencing the last name. 
 
-The output is stored in a different variable than the previous Change Text Case Action.
+7. Set the **Convert to** property to **lowercase** again. 
+
+The output is stored in a different variable than the previous **Change Text Case** action.
  
 ![change text case exercise continued](..\media\change-text-case-exercise-continued.png)
 
-Use the **Get Subtext** Action to get the first character of the first name. Enter **%TextWithNewCase%** (the variable where the first name in lower-case is stored) as **Original Text**. 
+8. Select the **Get Subtext** action to get the first character of the first name. 
 
-For **Start Index** set **Character Position** to **0**, and for **Length**, **Number of Chars** to **1**. This will get the first character of the text string.
+9. In the **Original Text** field, enter **%TextWithNewCase%** (the variable where the first name in lowercase is stored). 
+
+10. In the **Start Index** section, set **Character Position** to **0**.
+
+11. In the **Length** section, set **Number of Chars** to **1**. This setting will get the first character of the text string.
  
 ![get subtext exercise](..\media\get-subtext-exercise.png)
 
-To generate a random password, use the **Create Random Text** Action. The Action’s properties can be left at their default values.
+12. To generate a random password, use the **Create Random Text** action. The action’s properties can be left at their default values.
  
 ![create random text exercise](..\media\create-random-text-exercise.png)
 
-Lastly, use the **Display Message** Action. This will display a message box with the user’s username and password. For **Message Box Title** enter **Username & Password**, and for **Message to Display** enter:
-Hello, %UserInput%, your username is: %SubText%%TextWithNewCase2% Your temporary password is: %RandomText%
+13. Select the **Display Message** action, which will display a message box with the new username and password. In the **Message Box Title** field, enter **Username & Password**, and in the **Message to Display** field, enter the following content:
 
-This will display the user’s username (first letter of first name combined with last name) and the result of the Generate Random Text Action as the user’s password.
+**Hello, %UserInput%, your username is: %SubText%%TextWithNewCase2% Your temporary password is: %RandomText%**
+
+The username (first letter of first name, combined with last name) will be displayed and the result of the **Generate Random Text** action will show as the user’s password.
  
 ![display message exercise](..\media\display-message-exercise.png)
 
-The completed process should look like this:
+The completed process should look like the following figure.
  
 ![completed process workspace exercise](..\media\completed-process-workspace-exercise.png)
