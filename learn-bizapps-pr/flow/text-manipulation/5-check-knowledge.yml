@@ -3,7 +3,6 @@ uid: learn-bizapps.text-manipulation.5-check-knowledge
 title: Check your knowledge 
 metadata: 
  title: Check your knowledge 
- 
  description: Answer the following questions to see what you've learned. 
  ms.date: 09/03/2020 
  author: olegmelnykov 
@@ -14,36 +13,36 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "What's the way to retrieve the length of a variable that holds a single text value?"
+  - content: What method can you use to retrieve the length of a variable that holds a single text value?
     choices: 
-    - content: "Using the Get Text Length Action"
+    - content: The Get Text Length action
       isCorrect: false
-      explanation: "That's false; Both methods can be used to get the length of a text variable."
-    - content: "Using the %Variable%.length syntax"
+      explanation: Both methods can be used to get the length of a text variable.
+    - content: The %Variable%.length syntax
       isCorrect: false 
-      explanation: "That's false; Both methods can be used to get the length of a text variable."
-    - content: "All of the above"
+      explanation: Both methods can be used to get the length of a text variable.
+    - content: All of the above
       isCorrect: true 
-      explanation: "Correct! Both methods can be used to get the length of a text variable."
-    - content: "None of the above"
+      explanation: Both methods can be used to get the length of a text variable.
+    - content: None of the above
       isCorrect: false 
-      explanation: "That's false; Both methods can be used to get the length of a text variable."
-  - content: "Which Action is used to remove whitespace characters from the beginning and end of a Text or List of Text values?"
+      explanation: Both methods can be used to get the length of a text variable.
+  - content: Which one of the following actions is used to remove whitespace characters from the beginning and end of a text or list of text values?"
     choices:
-    - content: "Pad"
+    - content: Pad
       isCorrect: false 
-      explanation: "That's false; The Pad Action adds padding around a text."
-    - content: "Trim"
+      explanation: The Pad action adds padding around a text value.
+    - content: Trim
       isCorrect: true 
-      explanation: "Correct! The Trim Action removes white space from the beginning and end of a Text."
-    - content: "Parse"
+      explanation: The Trim action removes white space from the beginning and end of a text value.
+    - content: Parse
       isCorrect: false 
-      explanation: "That's false; The Parse Action parses a text to find the first or all occurrences of a specified subtext."
-  - content: "The Get Subtext Action retrieves a part of a text value or variable."
+      explanation: The Parse action parses a text value to find the first occurrence, or all occurrences, of a specified subtext.
+  - content: The Get Subtext action retrieves a part of a text value or variable. (True or False)
     choices:
     - content: "True"
       isCorrect: true 
-      explanation: "Correct! The Get Subtext Action retrieves a subtext from a text value or variable."
+      explanation: The Get Subtext action retrieves a subtext from a text value or variable.
     - content: "False"
       isCorrect: false
-      explanation: "That's false; The Get Subtext Action retrieves a subtext from a text value or variable."
+      explanation: The Get Subtext action retrieves a subtext from a text value or variable.
