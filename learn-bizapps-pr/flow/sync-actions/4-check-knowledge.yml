@@ -13,30 +13,30 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "The synchronization actions prevent simultaneous access to resources from instances of different actions."
+  - content: Synchronization actions prevent simultaneous access to resources from instances of different actions. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is false; The synchronization actions prevent simultaneous access to resources from instances of the same action."
+      explanation: Synchronization actions prevent simultaneous access to resources from instances of the same action.
     - content: "False"
       isCorrect: true 
-      explanation: "Correct! The synchronization actions prevent simultaneous access to resources from instances of the same action."
-  - content: "Which one of the options below is a recommended case to use synchronization actions?"
+      explanation: Synchronization actions prevent simultaneous access to resources from instances of the same action.
+  - content: Which one of the following options is a recommended case for using synchronization actions?
     choices: 
-    - content: "The process launches a browser instance."
+    - content: When the process launches a browser instance.
       isCorrect: false 
-      explanation: "That is false; This process doesn't require synchronization actions."
-    - content: "The process handles the mouse and the keyboard."
+      explanation: This process doesn't require synchronization actions.
+    - content: When the process handles the mouse and the keyboard.
       isCorrect: true 
-      explanation: "Correct! This process requires synchronization actions."
-    - content: "The process sends an email."
+      explanation: This process requires synchronization actions.
+    - content: When the process sends an email.
       isCorrect: false 
-      explanation: "That is false; This process doesn't require synchronization actions."
-  - content: "The Lock Handle action has to be accompanied by a Release Handle action."
+      explanation: This process doesn't require synchronization actions.
+  - content: The Lock Handle action must be accompanied by a Release Handle action. (True or False)
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: "Correct! It is strongly recommended to use these two actions together to mark the start and the end of the locked region."
+      explanation: We strongly recommend that you use the Lock Handle and Release Handle actions together to mark the start and the end of the locked region.
     - content: "False"
       isCorrect: false 
-      explanation: "That is false; It is strongly recommended to use these two actions together to mark the start and the end of the locked region."
+      explanation: We strongly recommend that you use the Lock Handle and Release Handle actions together to mark the start and the end of the locked region.
