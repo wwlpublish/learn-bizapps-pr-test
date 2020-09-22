@@ -167,7 +167,7 @@ BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-creat
 
 1.  In the nav pane in the Power BI service, select **Apps** \> **Get apps**.
 
-![Get Apps button](../media/get-apps-button.png)
+    ![Get Apps button](../media/get-apps-button.png)
 
 
 2.  In the Power BI apps marketplace that appears, select **Template apps**. All
@@ -175,17 +175,17 @@ BI](https://docs.microsoft.com/power-bi/connect-data/service-template-apps-creat
     template app you're looking for, or get a filtered selection by using the
     search box.
 
-![Search in AppSource](../media/search-appsource.png)
+    ![Search in AppSource](../media/search-appsource.png)
 
 
 3.  When you find the template app you're looking for, click it. The template app offer will display. Click **GET IT NOW**.
 
-![Template app offer](../media/template-app-offer.pngg)
+    ![Template app offer](../media/template-app-offer.png)
 
 
 4.  In the dialog box that appears, select **Install**.
 
-![Install app](../media/install-app.png)
+    ![Install app](../media/install-app.png)
 
 
 The app is installed, along with a workspace of the same name that has all
