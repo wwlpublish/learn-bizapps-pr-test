@@ -13,27 +13,27 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "The Execute JavaScript Function on Web Page action stores the returned value and the potentials errors in two different variables."
+  - content: The Execute JavaScript Function on Web Page action stores the returned value and the potential errors in two different variables. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is false; The action has only one output variables named Result."
+      explanation: The Execute JavaScript Function on Web Page action has only one output variable named Result.
     - content: "False"
       isCorrect: true 
-      explanation: "Correct! The action has only one output variables named Result."
-  - content: "WinAutomation supports scripting in Java."
+      explanation: The Execute JavaScript Function on Web Page action has only one output variable named Result.
+  - content: WinAutomation supports scripting in Java. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is false; WinAutomation supports scripting in VBScript, JavaScript, PowerShell and Python."
+      explanation: WinAutomation supports scripting in VBScript, JavaScript, PowerShell, and Python.
     - content: "False"
       isCorrect: true 
-      explanation: "Correct! WinAutomation supports scripting in VBScript, JavaScript, PowerShell and Python."
-  - content: "All scripting Actions can execute code on web pages."
+      explanation: WinAutomation supports scripting in VBScript, JavaScript, PowerShell, and Python.
+  - content: All scripting actions can run code on webpages. (True or False)
     choices:
     - content: "True"
       isCorrect: false 
-      explanation: "That is false; Only Execute JavaScript Function on Web Page action can execute code on web pages."
+      explanation: Only the Execute JavaScript Function on Web Page action can run code on webpages.
     - content: "False"
       isCorrect: true 
-      explanation: "Correct! Only Execute JavaScript Function on Web Page action can execute code on web pages."
+      explanation: Only the Execute JavaScript Function on Web Page action can run code on webpages.
