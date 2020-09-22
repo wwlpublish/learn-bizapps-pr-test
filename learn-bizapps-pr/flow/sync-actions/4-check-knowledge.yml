@@ -23,13 +23,13 @@ quiz:
       explanation: Synchronization actions prevent simultaneous access to resources from instances of the same action.
   - content: Which one of the following options is a recommended case for using synchronization actions?
     choices: 
-    - content: When the process launches a browser instance.
+    - content: When the process launches a browser instance
       isCorrect: false 
       explanation: This process doesn't require synchronization actions.
-    - content: When the process handles the mouse and the keyboard.
+    - content: When the process handles the mouse and the keyboard
       isCorrect: true 
       explanation: This process requires synchronization actions.
-    - content: When the process sends an email.
+    - content: When the process sends an email
       isCorrect: false 
       explanation: This process doesn't require synchronization actions.
   - content: The Lock Handle action must be accompanied by a Release Handle action. (True or False)
