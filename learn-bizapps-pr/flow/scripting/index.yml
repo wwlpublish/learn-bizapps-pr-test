@@ -2,7 +2,7 @@
 uid: learn-bizapps.scripting 
 metadata: 
  title: Scripting in WinAutomation
- description: This module covers the scripting actions in WinAutomation. 
+ description: Learn about the scripting actions in WinAutomation. 
  ms.date: 09/02/2020  
  author: georgiostrantzas
  ms.author: getrantz  
@@ -11,14 +11,14 @@ metadata:
 title: Scripting in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  WinAutomation provides the ability to automate complex scenarios using scripts in VBScript, JavaScript, PowerShell, and Python. 
+  WinAutomation provides you with the ability to automate complex scenarios by using scripts in VBScript, JavaScript, PowerShell, and Python. 
 abstract: |  
     In this module, you will: 
     - Learn how to use scripting actions.
-    - Create two processes using VBScript and JavaScript.
+    - Create two processes by using VBScript and JavaScript.
 prerequisites: |
-    - Familiarity with the WinAutomation console and process designer.
-    - Αdvanced experience with process development and variables. 
+    - Familiarity with the WinAutomation Console and Process Designer
+    - Advanced experience with process development and variables 
 iconUrl: /learn/achievements/scripting.svg  
 levels:  
 - advanced  
