@@ -14,4 +14,4 @@ Synchronization actions enable you to prevent actions from being run simultaneou
 
 ## Prerequisites
 
-To successfully complete this module, you should have basic familiarity with the WinAutomation console and process designer, in addition to familiarity with process development and variables. 
+To successfully complete this module, you should have basic familiarity with the WinAutomation Console and Process Designer, in addition to familiarity with process development and variables. 
