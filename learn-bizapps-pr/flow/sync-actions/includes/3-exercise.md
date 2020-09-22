@@ -1,8 +1,8 @@
-In this exercise, you will develop a process that registers new customers in an Excel file. You will use **Synchronization** actions to ensure that multiple instances of the process cannot modify the file simultaneously. 
+In this exercise, you will develop a process that registers new customers in a Microsoft Excel file. You will use synchronization actions to ensure that multiple instances of the process can't modify the file simultaneously. 
 
 1. Launch WinAutomation and create a new process named **Register new customer**.
 
-    ![The create new process dialog.](..\media\register-new-customer.png)
+    ![The create new process dialog box.](..\media\register-new-customer.png)
 
 1. Create an Excel file named **Customers.xlsx** and deploy a **Launch Excel** action to open it.
 
@@ -12,7 +12,7 @@ In this exercise, you will develop a process that registers new customers in an 
 
     ![The three Display Input Dialog actions in the workspace.](..\media\display-input-dialog.png)
 
-1. Use a **Get First Free Column/Row from Excel Worksheet** to find the Excel file's first free row. 
+1. Use a **Get First Free Column/Row from Excel Worksheet** action to find the Excel file's first free row. 
 
     ![The Get First Free Column/Row from Excel Worksheet in the workspace.](..\media\get-first-free-row.png)
 
@@ -20,7 +20,7 @@ In this exercise, you will develop a process that registers new customers in an 
 
     ![The Write to Excel Worksheet action with populated fields.](..\media\write-name-excel.png)
 
-1. Repeat the above step to write the customer's last name and the ID number in the second and third columns, respectively.
+1. Repeat the previous step to write the customer's last name and the ID number in the second and third columns, respectively.
 
     ![The two Excel Worksheet actions in the workspace.](..\media\write-lastname-id-excel.png)
 
@@ -28,7 +28,7 @@ In this exercise, you will develop a process that registers new customers in an 
 
     ![The Close Excel actions with populated fields.](..\media\close-excel.png)
 
-1. Now, deploy a **Lock Handle** action and set it as the first action in the process. Open its properties and enter a name for the handle, like **Excel Handle**.
+1. Deploy a **Lock Handle** action and set it as the first action in the process. Open its properties and enter a name for the handle, such as **Excel Handle**.
 
     ![The Lock Handle action with populated fields.](..\media\lock-handle.png)
 
@@ -36,6 +36,6 @@ In this exercise, you will develop a process that registers new customers in an 
 
     ![The Release Handle action with populated fields.](..\media\release-handle.png)
 
-1. Lastly, save the process and execute it two times simultaneously. If the locked region is configured correctly, the second instance will wait for the first one to be completed.
+1. Save the process and run it twice simultaneously. If the locked region is configured correctly, the second instance will wait for the first one to be completed.
 
-    ![The notification when one instance of the process is waiting the other one.](..\media\notification.png)
+    ![The notification when one instance of the process is waiting for the other one.](..\media\notification.png)
