@@ -1,17 +1,16 @@
-Scanning documents is a common practice in most organizations and businesses. Although an image of a document can be enough for some tasks, manual data extraction is needed in most cases. 
+Scanning documents is a common practice in most organizations and businesses. Though an image of a document can be sufficient for some tasks, manual data extraction is needed in most cases. 
 
-WinAutomation enables users to read, extract, and manage the data contained within all sorts of files through OCR technologies. The platform supports the **Microsoft MODI** and the **Google Tesseract** OCR engines, while it provides various related actions.
+WinAutomation gives users the ability to read, extract, and manage data that is contained within an assortment of files through optical character recognition (OCR) technologies. The platform supports the **Microsoft MODI** and the **Google Tesseract** OCR engines while providing various related actions.
 
-Using OCR actions, you can deal with the most challenging workflows that would typically require human intervention.
+By using OCR actions, you can deal with the most challenging workflows that would typically require human intervention.
 
 ## Learning objectives
 
  In this module, you will: 
 
-- Understand how to configure OCR actions.
-- Create a process that extracts text from PDF files using OCR technologies. 
+- Learn how to configure OCR actions.
+- Create a process that extracts text from PDF files by using OCR technologies. 
 
 ## Prerequisites
 
-- Basic familiarity with the WinAutomation console and process designer.
-- Basic familiarity with process development and variables. 
+To successfully complete this module, you should have basic familiarity with the WinAutomation Console and Process Designer, in addition to basic familiarity with process development and variables. 
