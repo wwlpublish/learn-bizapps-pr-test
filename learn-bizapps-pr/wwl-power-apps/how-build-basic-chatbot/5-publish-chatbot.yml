@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.how-to-build-basic-chatbot.publish-chatbot
+title: Publish a chatbot
+metadata:
+  title: Publish a chatbot
+  description: "Publish a chatbot"
+  ms.date: 09/24/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/5-publish-chatbot.md)]
