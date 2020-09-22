@@ -1,4 +1,4 @@
-# Data loss prevention policies
+## Data loss prevention policies
 
 Your organization's data is likely one of the most important assets you are
 responsible for safeguarding as an administrator. The ability to build apps and
@@ -32,7 +32,7 @@ center](https://admin.powerplatform.microsoft.com/). These affect Power Platform
 canvas apps and Power Automate flows. To create a DLP policy, you need to be
 a tenant admin or have the Environment Admin role.
 
-# Compliance and data privacy
+## Compliance and data privacy
 
 Microsoft is committed to the highest levels of trust, transparency, standards
 conformance, and regulatory compliance. Microsoft’s broad suite of cloud
@@ -47,7 +47,7 @@ tools for administrators to support your organization’s efforts. In this part 
 the document we will cover in more detail the resources available to help you
 determine and achieve your own organization requirements.
 
-## Data Protection
+### Data Protection
 
 Data as it is in transit between user devices and the Microsoft datacenters are
 secured. Connections established between customers and Microsoft datacenters are
@@ -57,7 +57,7 @@ ensure data confidentiality and integrity between desktops and datacenters. API
 access from the customer endpoint to the server is also similarly protected.
 Currently, TLS 1.2 (or higher) is required for accessing the server endpoints.
 
-## Resources to manage GDPR Compliance
+### Resources to manage GDPR Compliance
 
 The European Union General Data Protection Regulation (GDPR) is one of the
 newest privacy regulations enacted that gives rights to people to manage their
@@ -66,7 +66,7 @@ content, however the Power Platform does fully support the GDPR. For more GDPR
 resources and information, visit the Trust Center
 at <https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx>.
 
-# Accessibility in the Power Platform
+## Accessibility in the Power Platform
 
 One of the things that Microsoft values the most is making sure that the Power
 Platform is accessible and inclusive to all kinds of users all over the world.
