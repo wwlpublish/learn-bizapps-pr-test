@@ -1,0 +1,36 @@
+### YamlMime:Module
+uid: learn.wwl.introduction-to-power-virtual-agents
+metadata:
+  title: Introduction to Power Virtual Agents
+  description: "Introduction to Power Virtual Agents"
+  ms.date: 09/25/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: Introduction to Power Virtual Agents
+summary: Learn about the value and capabilities of Power Virtual Agents and ways organizations can leverage this technology to build chatbot solutions for their business.
+abstract: |
+  In this module, you will:
+  -   Learn how to describe the business value and features of Power Virtual Agents
+  -   Learn essential components that make up Power Virtual Agents and chatbots
+prerequisites: |
+  None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- developer
+- maker
+products:
+- power-apps
+- power-virtual-agents
+units:
+- learn.wwl.introduction-to-power-virtual-agents.introduction
+- learn.wwl.introduction-to-power-virtual-agents.what-power-virtual-agents
+- learn.wwl.introduction-to-power-virtual-agents.power-virtual-agents-components
+- learn.wwl.introduction-to-power-virtual-agents.knowledge-check
+- learn.wwl.introduction-to-power-virtual-agents.summary
+badge:
+  uid: learn.wwl.introduction-to-power-virtual-agents.badge
