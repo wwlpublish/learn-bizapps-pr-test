@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.text-manipulation.2-text-actions 
+title: Text handling actions
+metadata: 
+  title: Text handling actions
+  description: Learn about text handling actions in WinAutomation.
+  ms.date: 09/22/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-text-actions.md)] 
