@@ -4,7 +4,7 @@ In this unit, you'll create a process that extracts the gainer stocks from the M
 
     ![The Create New Process dialog.](..\media\create-new-process.png)  
 
-1. Deploy a browser launching action and set its initial URL to the [MSN Money main page](https://www.msn.com/en-us/money). We used the **Launch New Edge** action for this example, but all browser launching action can be used. 
+1. Deploy a browser launching action and set its initial URL to the [MSN Money main page](https://www.msn.com/money). We used the **Launch New Edge** action for this example, but all browser launching action can be used. 
 
     ![The populated Launch New Edge action.](..\media\launch-new-edge-action-url.png)
 
@@ -22,7 +22,7 @@ In this unit, you'll create a process that extracts the gainer stocks from the M
 
         ![The populated Extract Data from Web Page action.](..\media\extract-data-from-web-page-configuration.png)
 
-    1. Press the **Specify Data to Extract** button and navigate to the [MSN page for gainer stocks](https://www.msn.com/en-us/money/markets/marketmovers/fi-gainers) that we used in the previous steps.
+    1. Press the **Specify Data to Extract** button and navigate to the [MSN page for gainer stocks](https://www.msn.com/money/markets/marketmovers/fi-gainers) that we used in the previous steps.
 
         ![The Web Helper dialog.](..\media\web-helper-url.png)
 
