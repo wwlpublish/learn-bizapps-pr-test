@@ -56,7 +56,7 @@ In this unit, you'll create a process that extracts the gainer stocks from the M
 
 1. Add a **Close Excel** action to save and close the Excel worksheet. Because the file is new and you'll save it for the first time, select **Save document as** in the **Before Closing Excel** dropdown list. 
 
-    ![The populated Close Excel action.](..\media\write-to-excel-worksheet-price.png)
+    ![The populated Close Excel action.](..\media\close-excel.png)
 
 1. Lastly, save the process and execute it to ensure that every action runs as expected. 
 
