@@ -9,7 +9,7 @@ Below you can see an infographic of their digital transformation strategy:
 
 To provide better services, they built a new artificial intelligence enabled virtual agent bot. The virtual agent was built without writing any code and instead used Power Virtual Agents to facilitate handling routine customer requests and to take action based on customer intent. To expose and interact with the back-end data required they used Power Automate.
 
-Tru Green used some of the hundreds of connectors available for the Power Platform to connect to traditional data sources. Using these capabilities they had their first protype running in two days, once again without a single line of code. 
+TruGreen used some of the hundreds of connectors available for the Power Platform to connect to traditional data sources. Using these capabilities they had their first protype running in two days, once again without a single line of code. 
 
 In addition, they had systems that didn't have APIs to be used by the connectors. For these systems, they leveraged UI flows. With UI flows they were able to mimic onscreen actions that customer service associates used to perform manually via robotic process automation (RPA). 
 
