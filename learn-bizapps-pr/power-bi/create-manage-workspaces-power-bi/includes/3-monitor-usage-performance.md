@@ -1,4 +1,4 @@
-Knowing how your workspace is being used and is performing is crucial because it:
+Knowing about the usage and performance of your workspace is crucial because it:
 
 - Focuses your efforts for improvement. If you know the areas that experience the least performance, you can concentrate your efforts for improvement in those areas.
 
