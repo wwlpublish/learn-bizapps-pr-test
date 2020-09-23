@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/24/2020
+  ms.date: 09/25/2020
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -20,7 +20,7 @@ quiz:
     choices:
     - content: "Improve customer satisfaction"
       isCorrect: true
-      explanation: "Correct. Power Virtaul Agents can improve customer satisfaction by allowing customers to self-help and resolve issues quickly, 24/7 using rich personalized chatbot conversations."
+      explanation: "Correct. Power Virtual Agents can improve customer satisfaction by allowing customers to self-help and resolve issues quickly, 24/7 using rich personalized chatbot conversations."
     - content: "Requires more time than regular customer chat"
       isCorrect: false
       explanation: "Incorrect. This is not a benefit to using Power Virtual Agents."
@@ -31,16 +31,13 @@ quiz:
     choices:
     - content: "Publishing"
       isCorrect: false
-      explanation: "Incorrect. Publishing doe snot define how a conversation plays out."
+      explanation: "Incorrect. Publishing does not define how a conversation plays out."
     - content: "Topics"
       isCorrect: true
       explanation: "Correct. In Power Virtual Agents, topics have trigger phrases and conversation nodes to define how a chatbot should respond and what it should do."
     - content: "Entities"
       isCorrect: false
       explanation: "Incorrect. Entities do not define how a chatbot conversation plays out."
-    - content: "Common Data Service"
-      isCorrect: false
-      explanation: "Incorrect. Common Data Service does not define how a chatbot conversation plays out."
   - content: "Where can you NOT publish a chatbot?"
     choices:
     - content: "Microsoft Teams"
@@ -49,9 +46,6 @@ quiz:
     - content: "Facebook"
       isCorrect: false
       explanation: "Incorrect. You can publish a chatbot to Facebook."
-    - content: "Mobile Apps"
-      isCorrect: false
-      explanation: "Incorrect. You can publish a chatbot to mobile apps."
     - content: "YouTube"
       isCorrect: true
       explanation: "Correct. You can publish chatbots to engage with your customers on Microsoft Teams, Facebook, and Mobile Apps."

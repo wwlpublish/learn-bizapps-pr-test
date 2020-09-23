@@ -17,14 +17,14 @@ You can author topics by customizing provided templates, create new topics from
 scratch, or get suggestions from existing help sites.
 
 A topic has trigger phrases—these are phrases, keywords, or questions that a
-user is likely to type that is related to a specific issue —and conversation
+user is likely to type that is related to a specific issue—and conversation
 nodes—these are what you use to define how a chatbot should respond and what it
 should do.
 
 The AI uses natural language understanding to parse what a customer actually
 types and find the most appropriate trigger phrase or node.
 
-For example, a user might type "Open hours" into your chatbot —the AI will be
+For example, a user might type "Open hours" into your chatbot—the AI will be
 able to match that to the **Store hours** topic and begin a conversation that
 asks which store the customer is interested in, and then display the hours the
 store is open.
@@ -96,11 +96,8 @@ You can utilize flows that have already been created in your Power Apps
 environment, or you can create a flow from within the Power Virtual
 Agents authoring canvas.
 
->   [!IMPORTANT]
->   A flow can only be called from a topic located in the same **Common Data
->   Service environment** as your chatbot. Flows must also be in a solution in
->   Power Automate. You can **move flows into solutions,** so they are listed in
->   the authoring canvas.
+>[!IMPORTANT]
+>A flow can only be called from a topic located in the same **Common Data Service environment** as your chatbot. Flows must also be in a solution in Power Automate. You can **move flows into solutions,** so they are listed in the authoring canvas.
 
 Flows typically use variables to input and output information. The variables can
 then be used in other nodes within the topic.

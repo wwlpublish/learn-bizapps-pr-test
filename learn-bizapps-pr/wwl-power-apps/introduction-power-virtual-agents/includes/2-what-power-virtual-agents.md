@@ -34,7 +34,7 @@ Using Power Virtual Agents, you can:
     a **novel, intuitive, code-free graphical interface**, eliminating the need
     for AI expertise or teams of developers.
 
-    ![No-code interface](../media/power-virtual-agents-no-code-interface.png)
+    [![No-code interface](../media/power-virtual-agents-no-code-interface.png)](../media/power-virtual-agents-no-code-interface.png#lightbox)
 
 3.  **Enable rich, natural conversations.** Microsoft’s powerful conversational
     AI capabilities enable your end users to have rich multi-turn conversations
@@ -45,7 +45,7 @@ Using Power Virtual Agents, you can:
     customer requests. You can even try out your changes in real-time in the
     test pane!
 
-    ![Natural conversation with a bot](../media/power-virtual-agents-natural-conversations.png)
+    [![Natural conversation with a bot](../media/power-virtual-agents-natural-conversations.png)](../media/power-virtual-agents-natural-conversations.png#lightbox)
 
 4.  **Enable chatbots to take action.** Chatbots that can chat with your users
     are great, but chatbots that can act on their behalf are even better. With
@@ -54,14 +54,14 @@ Using Power Virtual Agents, you can:
     using Power Automate. This makes it simple to create a chatbot that not only
     responds to the user, but also acts on their behalf.
 
-    ![Bot actions](../media/chatbots-take-action.png)
+    [![Bot actions](../media/chatbots-take-action.png)](../media/chatbots-take-action.png#lightbox)
 
 5.  **Monitor and improve chatbot performance.** Power Virtual Agents lets you
     keep an eye on how your chatbots are performing using powerful metrics and
     AI-driven dashboards. Easily see which topics are doing well and where the
     chatbot can improve, and quickly make adjustments to improve performance.
 
-    ![Analytics page](../media/monitor-analytics-page.png)
+    [![Analytics page](../media/monitor-analytics-page.png)](../media/monitor-analytics-page.png#lightbox)
 
 6.  **Better together.** Power Virtual Agents works hand-in-hand with Dynamics 365
 Customer Service Insights to provide a holistic view of your customer service
