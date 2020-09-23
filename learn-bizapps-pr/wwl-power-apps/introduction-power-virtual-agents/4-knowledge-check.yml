@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-power-virtual-agents.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 09/25/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "What is a benefit to using Power Virtual Agents?"
+    choices:
+    - content: "Improve customer satisfaction"
+      isCorrect: true
+      explanation: "Correct. Power Virtual Agents can improve customer satisfaction by allowing customers to self-help and resolve issues quickly, 24/7 using rich personalized chatbot conversations."
+    - content: "Requires more time than regular customer chat"
+      isCorrect: false
+      explanation: "Incorrect. This is not a benefit to using Power Virtual Agents."
+    - content: "Doesn't use AI to understand user's intent"
+      isCorrect: false
+      explanation: "Incorrect. This is not a benefit to using Power Virtual Agents."
+  - content: "What defines how a chatbot conversation plays out?"
+    choices:
+    - content: "Publishing"
+      isCorrect: false
+      explanation: "Incorrect. Publishing does not define how a conversation plays out."
+    - content: "Topics"
+      isCorrect: true
+      explanation: "Correct. In Power Virtual Agents, topics have trigger phrases and conversation nodes to define how a chatbot should respond and what it should do."
+    - content: "Entities"
+      isCorrect: false
+      explanation: "Incorrect. Entities do not define how a chatbot conversation plays out."
+  - content: "Where can you NOT publish a chatbot?"
+    choices:
+    - content: "Microsoft Teams"
+      isCorrect: false
+      explanation: "Incorrect. You can publish a chatbot to Microsoft Teams."
+    - content: "Facebook"
+      isCorrect: false
+      explanation: "Incorrect. You can publish a chatbot to Facebook."
+    - content: "YouTube"
+      isCorrect: true
+      explanation: "Correct. You can publish chatbots to engage with your customers on Microsoft Teams, Facebook, and Mobile Apps."
