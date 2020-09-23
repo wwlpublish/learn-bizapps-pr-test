@@ -13,34 +13,34 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "The OCR actions can extract text only from PDF files."
+  - content: OCR actions can extract text only from PDF files. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That's false; The OCR actions can extract text from any file or window."
+      explanation: OCR actions can extract text from any file or window.
     - content: "False"
       isCorrect: true 
-      explanation: "Correct! The OCR actions can extract text from any file or window."
-  - content: "Which one of the following OCR engines does WinAutomation support?"
+      explanation: OCR actions can extract text from any file or window.
+  - content: Which one of the following OCR engines does WinAutomation support?
     choices: 
-    - content: "Microsoft MODI"
+    - content: Microsoft MODI
       isCorrect: false 
-      explanation: "That's false; WinAutomation supports both Microsoft MODI and Google Tesseract OCR engines."
-    - content: "Google Tesseract"
+      explanation: WinAutomation supports both Microsoft MODI and Google Tesseract OCR engines.
+    - content: Google Tesseract
       isCorrect: false 
-      explanation: "That's false; WinAutomation supports both Microsoft MODI and Google Tesseract OCR engines."
-    - content: "Both"
+      explanation: WinAutomation supports both Microsoft MODI and Google Tesseract OCR engines.
+    - content: Both
       isCorrect: true 
-      explanation: "Correct! WinAutomation supports both Microsoft MODI and Google Tesseract OCR engines."
-  - content: "Which of the following search modes doesn't exist in the If Text on Screen action?"
+      explanation: WinAutomation supports both Microsoft MODI and Google Tesseract OCR engines.
+  - content: Which one of the following search modes doesn't exist in the If Text on Screen action?
     choices: 
-    - content: "Search whole screen or foreground window"
+    - content: Search whole screen or foreground window
       isCorrect: false 
-      explanation: "That's false; This mode exists in the If Text on Screen action."
-    - content: "Subregion relative to image"
+      explanation: This mode exists in the If Text on Screen action.
+    - content: Subregion relative to image
       isCorrect: false 
-      explanation: "That's false; This mode exists in the If Text on Screen action."
-    - content: "Search multiple windows"
+      explanation: This mode exists in the If Text on Screen action.
+    - content: Search multiple windows
       isCorrect: true 
-      explanation: "Correct! This mode doesn't exist in the If Text on Screen action."
+      explanation: This mode doesn't exist in the If Text on Screen action.
 

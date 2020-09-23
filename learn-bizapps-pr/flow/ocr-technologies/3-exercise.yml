@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.ocr-technologies.3-exercise 
-title: Exercise - Extract data from PDF file
+title: Exercise - Extract data from a PDF file
 metadata: 
   title: Exercise - Extract data from PDF file
-  description: Exercise - Extract data from PDF file
+  description: Practice extracting data from a PDF file.
   ms.date: 09/03/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
