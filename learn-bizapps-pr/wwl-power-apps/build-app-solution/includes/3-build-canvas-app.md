@@ -1,8 +1,33 @@
-In this unit, you'll generate a mobile app where the data source is a Microsoft Excel workbook that's stored in Microsoft OneDrive for Business. This Excel workbook has a table of different buildings owned by Contoso Manufacturing. Today they must email the shared workbook between people as they travel to different locations to make updates. With a Power Apps mobile app, they will be able to view the buildings directly from their phones. In addition, they will also be able to edit the information and even add new buildings. 
+In this unit, you will generate a canvas app where the data source is a
+Microsoft Excel workbook that is stored in Microsoft OneDrive for Business. This
+Excel workbook has a table of different buildings owned by Contoso
+Manufacturing. Today, they must email the shared workbook between people as they
+travel to different locations to make updates. With a Power Apps canvas app,
+they will be able to view the buildings directly from their phones. In addition,
+they will also be able to edit the information and even add new buildings.
 
-This example uses Excel, but keep in mind that you can use data from many other sources, including the Common Data Service, Microsoft SharePoint, cloud services like Salesforce, and on-premises sources like Microsoft SQL Server. This gives you the flexibility to build your app from your data no matter where it lives. 
+This example uses Excel, but keep in mind that you can use data from many other
+sources, including the Common Data Service, Microsoft SharePoint, cloud services
+like Salesforce, and on-premises sources like Microsoft SQL Server. This gives
+you the flexibility to build your app from your data no matter where it lives.
+You can also combine data sources within Power Apps to easily create
+associations between different data sources.
 
-If you do not have a Power Apps account available, you can sign up for a free Power Apps Community Plan. This will allow you to learn and explore Power Apps in your own environment. For more information and to sign up go to [https://powerapps.microsoft.com/communityplan/](https://powerapps.microsoft.com/communityplan/)
+If you do not have a Power Apps account available, you can sign up for a free
+Power Apps Community Plan. This will allow you to learn and explore Power Apps
+in your own environment. For more information and to sign up, go to <https://powerapps.microsoft.com/communityplan/>
+
+The basic Power Apps creator journey will look something like this:
+
+-   Identify a business need that could be filled by Power Apps
+
+-   Connect to any necessary data in your Power Apps
+
+-   Design the app using controls, buttons, and an easy to use interface for your end user to interact with the data to accomplish the business need
+
+-   Save and publish the app and test functionality
+
+-   Once satisfied, share the app with end users to give them a better business process
 
 ## Connect to a data source
 
@@ -55,6 +80,10 @@ To see how the app runs on mobile, install the Power Apps Mobile app on your pho
 2. Sign in by using your username and password.
 
 3. On your phone or tablet, run the **Contoso Site Tracking app** in Power Apps Mobile. If you do not want to install the app, you can run it in a browser.
+
+If the app you are creating will be used on a mobile device, then it is a good
+idea to check how the Power App looks and runs on mobile so you can give your
+users the best experience.
 
 ## Explore the app
 
@@ -127,6 +156,28 @@ To improve the layout, use the following procedure:
    >![Text edit confirmed preview](../media/power-apps-text-preview.png)
 
 Changing the layout of a gallery and the types of data that it shows is that simple, and you might find that it's fun, too.
+
+## Add an additional data source
+
+Sometimes when creating a canvas app, you need to combine data from multiple
+data sources. This will all be determined by your needs and what you hope
+to accomplish with your canvas app.
+
+Follow these steps to add Office 365 Outlook as an additional data source. This
+is just one of the many sources you can use to expand your canvas app’s data.
+
+1.  Select **View** \> **Data sources** to open the **Data** pane.
+
+2.  In the search bar, type or paste the first few letters of **Office 365 Outlook:**
+
+    ![Office 365 Outlook in data sources list](../media/canvas-app-outlook.png)
+
+3.  Select **Connect**, and if prompted to sign in, enter your work account.
+
+The Office 365 Outlook connection has been created and added to your app. Now,
+it is ready to be used.
+
+See this documentation for the types of commands you can do with the **Office 365 Outlook** connector: <https://docs.microsoft.com/connectors/office365/>
 
 ## Details screen
 
