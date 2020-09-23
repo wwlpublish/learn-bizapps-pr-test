@@ -89,7 +89,7 @@ used in this flow** list by following these steps:
     flow**, select the **Outputs** token that’s under the **Compose** category
     of the **Dynamic content** tab.
 
-![Use output from compose action](.../media/use-output-from-compose-action.png)
+![Use output from compose action](../media/use-output-from-compose-action.png)
 
 6.  Next Save the Flow in the top right corner
 
