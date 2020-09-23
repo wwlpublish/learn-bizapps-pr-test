@@ -22,7 +22,7 @@ In this unit, you'll create a process that extracts the gainer stocks from the M
 
         ![The populated Extract Data from Web Page action.](..\media\extract-data-from-web-page-configuration.png)
 
-    1. Press the **Specify Data to Extract** button and navigate to the [MSN page for gainer stocks](https://www.msn.com/money/markets/marketmovers/fi-gainers) that we used in the previous steps.
+    1. Press the **Specify Data to Extract** button and navigate to the MSN page for gainer stocks that we used in the previous steps.
 
         ![The Web Helper dialog.](..\media\web-helper-url.png)
 
