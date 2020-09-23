@@ -6,16 +6,16 @@ You can also create copies of the preset themes for additional customization.
 
 2.  Select **Apps** from the left navigation pane, and then select your portal.
 
-![Select Apps and a portal](../media/select-portal.png)
+    ![Select Apps and a portal](../media/select-portal.png)
 
 3.  Select **More Commands (...)**, and then select **Edit**.
 
-![Edit a portal](../media/edit-portal.png)
+    ![Edit a portal](../media/edit-portal.png)
 
 4.  Select Themes from the left navigation pane, and then turn on the Enable
     basic theme toggle.
 
-![Enable basic themes](../media/enable-basic-theme.png)
+    ![Enable basic themes](../media/enable-basic-theme.png)
 
 ## Change theme for your portal
 
@@ -29,12 +29,12 @@ You can set any existing theme in your portal to the default theme.
 
 4.  Select **Theme** from the components pane.
 
-![Select theme icon](../media/edit-theme.png)
+    ![Select theme icon](../media/edit-theme.png)
 
 5.  Select any default theme from the available presets (in this example, we
     selected Green).
 
-![Select a default theme](../media/choose-theme.png)
+    ![Select a default theme](../media/choose-theme.png)
 
 The selected theme is applied to your portal.
 
@@ -50,7 +50,7 @@ The selected theme is applied to your portal.
 
 5.  Select **New Theme**.
 
-![Create a new theme](../media/create-new-theme.png)
+    ![Create a new theme](../media/create-new-theme.png)
 
 ## Edit theme details
 

@@ -30,7 +30,7 @@ Portal users can authenticate by using the following methods:
 Portal administrators can choose to enable or disable any combination of
 authentication options through portal **Authentication Settings**.
 
-![Portals Authentication Settings](../media/identity-providers-authentication.png)
+[![Portals Authentication Settings](../media/identity-providers-authentication.png)](../media/identity-providers-authentication.png#lightbox)
 
 >[!IMPORTANT]
 >   Azure Active Directory B2C is the recommended identity provider for
@@ -44,7 +44,7 @@ portals use numerous entities to define authorization, that is, what a user is
 allowed to do. Selecting **Share** from the portal app options will provide
 information on how to share the portal app with internal and external users.
 
-![Portals security constructs](../media/share-portal.png)
+[![Portals security constructs](../media/share-portal.png)](../media/share-portal.png#lighbox)
 
 **Web roles** allow an administrator to control user access to portal content
 and Common Data Service records.

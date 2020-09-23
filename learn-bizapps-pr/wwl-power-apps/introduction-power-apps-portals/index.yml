@@ -3,14 +3,14 @@ uid: learn.wwl.introduction-to-power-apps-portals
 metadata:
   title: Introduction to Power Apps portals
   description: "Introduction to Power Apps portals"
-  ms.date: 09/24/2020
+  ms.date: 09/25/2020
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Introduction to Power Apps portals
 summary: |
-  Learn about the value and capabilities of Power Apps portals and how you can leverage it to provide a great way to allow internal and external audiences
+  Learn about the value of Power Apps portals and how you can leverage it to allow internal and external audiences
   to view and interact with data from Common Data Service or Dynamics 365.
 abstract: |
   In this module, you will:

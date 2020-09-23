@@ -5,7 +5,7 @@ and Okta. Portals also allow you to set authentication requirements, customize
 data for each user, and allow users to submit their information privately with
 straightforward admin controls.
 
-**Modern audience**
+## Modern audience
 
 Portal capabilities empower online consumers who prefer to find answers on their
 own through self-service and community options. By using Power Apps portals, you
@@ -34,7 +34,7 @@ any type of engagement, including partner, group, and employee scenarios, that
 directly accesses Common Data Service to create a modern connected experience
 for external users and internal business operations.
 
-**Modern business**
+## Modern business
 
 Consider a scenario where your business is already using Power Apps. The
 following are additional capabilities that Power Apps portals can deliver:
@@ -60,7 +60,7 @@ following are additional capabilities that Power Apps portals can deliver:
     work. Field technicians can process and complete work orders in the field,
     instantly updating Dynamics 365 Field Service.
 
-**Power Apps portals capabilities**
+## Power Apps portals capabilities
 
 Power Apps portals are built on top of Common Data Service. This architecture
 comes with a major benefit. All the differentiating features of model-driven

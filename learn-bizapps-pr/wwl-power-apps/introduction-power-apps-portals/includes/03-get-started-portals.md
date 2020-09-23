@@ -19,7 +19,7 @@ Several portal templates are available that can be provisioned. These templates
 will accelerate the configuration of portals based on the intended audience and
 workload.
 
-![Portal Templates](../media/ways-to-make-app.png)
+[![Portal Templates](../media/ways-to-make-app.png)](../media/ways-to-make-app.png#lightbox)
 
 If you are building a custom business application by using Common Data Service
 without Dynamics 365 apps enabled, your only choice is the **Portal from
@@ -45,8 +45,8 @@ Make sure that you define the type of audience who will visit the new portal.
 The audience will determine which options of portal you will be given.
 
 
-| **PORTAL TEMPLATES**  |                   |                                                                                                                                                                                                                                                                                                                                                                                                       |
-|-----------------------|-------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **PORTAL TEMPLATES**  |||
+|--|--|--|
 | **Portal template**   | **Audience**      | **Workload**                                                                                                                                                                                                                                                                                                                                                                                          |
 | Community             | Partner, Customer | Choose this option to provision a portal that is focused on an online community. This portal will contain features such as forums, ideas, blogs, and case management.                                                                                                                                                                                                                                 |
 | Customer self-service | Partner, Customer | This option provides the ability for portal users to search knowledge articles, submit cases, and participate in discussion forums to resolve issues.                                                                                                                                                                                                                                                 |
