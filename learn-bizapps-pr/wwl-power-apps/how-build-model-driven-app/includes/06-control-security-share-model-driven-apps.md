@@ -36,8 +36,8 @@ use depend on the security roles they are assigned to.
 The following predefined roles are available with a Power Apps environment.
 Unless otherwise noted, all the privileges have global scope.
 
-| **ABOUT PREDEFINED SECURITY ROLES** |                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                           |
-|-------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|**ABOUT PREDEFINED SECURITY ROLES**|||
+|--|--|--|
 | **Security role**                   | **Privileges**                                                          | **Description**                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Environment Maker                   | None                                                                    | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Microsoft Flow. But these users can't access the data in an environment. To learn more about environments, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/). |
 | System Administrator                | Create, Read, Write, Delete, Customize                                  | This role has full permission to customize or administer the environment, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization).                                             |
@@ -56,17 +56,18 @@ more security role(s) with the app then assign the security role(s) to users.
 
 3.  Select the app then choose a security role from the list.
 
-    ![Select the app and the security role](../media/share-model-driven-app.png)
+    [![Select the app and the security role](../media/share-model-driven-app.png)](../media/share-model-driven-app.png#lightbox)
 
 4.  Search for a user
 
 5.  Select the user, then select a role from the list.
 
-    ![Select a role from the list](../media/share-role-user.png)
+    [![Select a role from the list](../media/share-role-user.png)](../media/share-role-user.png#lightbox)
 
 6.  Click **Share**.
 
 7.  Share the link to your app by following the steps below.
+
 >[!NOTE]
 >Unlike sharing canvas apps, sharing model-driven apps does not currently send an
 email with a link to the app.
@@ -80,4 +81,4 @@ email with a link to the app.
 3.  Paste the app URL in a location so that your users can access it, such as by
     posting it on a SharePoint site or sending via email.
 
-![Copy app URL](../media/copy-app-url.png)
+    ![Copy app URL](../media/copy-app-url.png)

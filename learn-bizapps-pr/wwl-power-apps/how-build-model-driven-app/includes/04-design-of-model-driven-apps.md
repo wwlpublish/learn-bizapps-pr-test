@@ -8,14 +8,13 @@ Here is a quick look at the App Designer for an example Model-driven app called
 
 * **Dashboards** – Providing an insightful, graphical overview of the data
 
-
-![Model driven app layout in studio.](../media/fundraiser-app-designer.png)
+[![Model driven app layout in studio.](../media/fundraiser-app-designer.png)](../media/fundraiser-app-designer.png#lightbox)
 
 By selecting the Play button in the top right, the app is put into **Play mode**. 
 You can see it then looks completely different and shows the data based
 on the choices made in the design process.
 
-![Model driven app in play mode.](../media/app-play-mode.png)
+[![Model driven app in play mode.](../media/app-play-mode.png)](../media/app-play-mode.png#lightbox)
 
 ## Understand the needs of the user
 
@@ -30,7 +29,7 @@ you want to make available in your app, and then the app will be created for
 you. This means you will need to spend more time understanding what your user
 needs than how it is going to look.
 
-### Data Model
+### Data model
 
 As you begin the data modeling process, there are a couple of important
 questions to ask yourself:
@@ -48,12 +47,12 @@ write custom code to alter the app design.
 You can view the app metadata by reviewing the Entity in the Common Data
 Service.
 
-![Example of metadata.](../media/entity-metadata.png)
+[![Example of metadata.](../media/entity-metadata.png)](../media/entity-metadata.png#lightbox)
 
 You can also view the app **Play mode** to see a preview of what the app will
 look like.
 
-![Example of app in play mode.](../media/entity-play-mode.png)
+[![Example of app in play mode.](../media/entity-play-mode.png)](../media/entity-play-mode.png#lightbox)
 
 In the example above, for the Fundraiser Entity, there are several pieces of
 data being collected, such as:
@@ -78,7 +77,7 @@ user experiences your app.
 The screenshot below shows examples of Fields and the different data types they
 could have using the Fundraiser example again.
 
-![Fundraiser entity default fields](../media/fundraiser-entity-default-fields.png)
+[![Fundraiser entity default fields](../media/fundraiser-entity-default-fields.png)](../media/fundraiser-entity-default-fields.png#lightbox)
 
 > [!IMPORTANT]
 > If a field type needs to be changed to a different field type, (i.e. text field
@@ -86,7 +85,7 @@ to an option set), then you will need to delete that field and recreate with the
 correct field type. This will cause you to lose any data associated with that
 field.
 
-### Business Logic
+### Business logic
 
 When incorporating business logic in your app, there are two primary options
 available. You can set **Business Rules** on your Common Data Service entities
@@ -117,7 +116,7 @@ it’s simple for your users to consume without overwhelming them with all the
 data. Provide high-level snapshots of your data and allow them to use filters to
 dive deeper into the data if needed.
 
-![Dashboards in play mode.](../media/dashboards-play-mode.png)
+[![Dashboards in play mode.](../media/dashboards-play-mode.png)](../media/dashboards-play-mode.png#lightbox)
 
 ### Additional third-party solutions and app accelerators
 

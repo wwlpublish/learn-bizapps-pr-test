@@ -27,7 +27,7 @@ You add components to your app by using the App Designer.
 1.  Select the **Open the Site Map Designer** pencil icon to open the site map
     designer.
 
-    ![Create a new site map](../media/app-designer-configuration.png)
+    [![Create a new site map](../media/app-designer-configuration.png)](../media/app-designer-configuration.png#lightbox)
 
 2.  In the site map designer, select **New Subarea**, and then, in the right
     pane on the **Properties** tab, select the following properties:
@@ -36,7 +36,7 @@ You add components to your app by using the App Designer.
 
     -   **Entity**: *Account*
 
-        ![Add components to the site map](../media/sitemap-designer.png)
+        [![Add components to the site map](../media/sitemap-designer.png)](../media/sitemap-designer.png#lightbox)
 
 3.  Select **Save And Close**.
 
@@ -88,7 +88,7 @@ The following steps explain how to open and add a view in the app designer.
 1.	In the app designer **Entity View** section, select **Views**.
     *   In this example, we have selected **Views** from the **Account** entity.
 
-    ![Account views](../media/app-designer-add-view.png)
+    [![Account views](../media/app-designer-add-view.png)](../media/app-designer-add-view.png#lightbox)
 
 2.	To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
 
@@ -126,4 +126,4 @@ If the sample data for your accounts does not have an Industry populated, go
 into a few accounts and add an Industry. Once you have updated a few accounts
 with an industry, the chart will update as well.
 
-![Simple account entity app](../media/account-charts.png)
+[![Simple account entity app](../media/account-charts.png)](../media/account-charts.png#lightbox)

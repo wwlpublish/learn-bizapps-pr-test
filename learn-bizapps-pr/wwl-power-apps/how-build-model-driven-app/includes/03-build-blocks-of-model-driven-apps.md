@@ -26,7 +26,7 @@ The table below shows the user interface components which determine how users wi
 | Form               | Forms include a set of data entry fields for a given entity. This set of data entry fields matches the items that your organization tracks for the entity. One example is a set of data entry fields where users enter relevant information to track a customer's previous orders together with specific requested reorder dates. | Form designer     |
 | View               | Views define how a list of records for a specific entity appears in your app. A view defines the columns shown, the width of each column, the sorting behavior, and the default filters.                                                                                                                                          | View designer     |
 
-![App designer and form designer](../media/user-interface-form.png)
+[![App designer and form designer](../media/user-interface-form.png)](../media/user-interface-form.png#lightbox)
 
 ## Logic
 
@@ -55,6 +55,6 @@ The visualization components determine what type of data and reporting the app w
 | Embedded Microsoft Power BI | Power BI adds embedded Power BI tiles and dashboards to your app. Power BI is a cloud-based service that provides business intelligence (BI) insight. | A combination of chart designer, dashboard designer, and Power BI |
 
 Some examples of visualizations in a model-driven app:
-![Sample dashboard](../media/model-driven-visualizations.png)
+[![Sample dashboard](../media/model-driven-visualizations.png)](../media/model-driven-visualizations.png#lighbox)
 
 

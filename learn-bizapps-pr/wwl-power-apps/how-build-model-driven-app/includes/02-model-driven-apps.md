@@ -4,7 +4,7 @@ simple or very complex. Unlike canvas app development, where the designer has
 complete control over app layout, much of the layout is determined for you with
 model-driven apps and largely designated by the components you add to the app.
 
-![Sample model-driven app](../media/basic-model-driven-app.png)
+[![Sample model-driven app](../media/basic-model-driven-app.png)](../media/basic-model-driven-app.png#lightbox)
 
 ## The approach to making model-driven apps
 
