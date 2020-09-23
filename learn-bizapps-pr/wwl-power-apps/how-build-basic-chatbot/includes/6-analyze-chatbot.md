@@ -10,9 +10,8 @@ performance.
 The analytics section is divided into a number of pages to give you multiple
 ways to understand bot performance.
 
->   [!NOTE]
->   Although transcripts are available immediately, the analytics dashboards are
->   updated every hour, so there will be some delay before you see all data.
+>[!NOTE]
+>Although transcripts are available immediately, the analytics dashboards are updated every hour, so there will be some delay before you see all data.
 
 ### View analytics
 

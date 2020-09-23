@@ -108,12 +108,8 @@ between existing nodes:
 
 You can call Power Automate flows by selecting **Call an action**.
 
->   [!NOTE]
->   Power Virtual Agents also enables you to extend your chatbot using Azure Bot
->   Framework Skills. If you have already built and deployed bots in your
->   organization (using Bot Framework pro-code tools) for specific scenarios,
->   you can convert bots to a Skill and embed the Skill within a Power Virtual
->   Agents bot.
+>[!NOTE]
+>Power Virtual Agents also enables you to extend your chatbot using Azure Bot Framework Skills. If you have already built and deployed bots in your organization (using Bot Framework pro-code tools) for specific scenarios, you can convert bots to a Skill and embed the Skill within a Power Virtual Agents bot.
 
 ### Show a message
 

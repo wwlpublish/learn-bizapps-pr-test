@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/24/2020
+  ms.date: 09/25/2020
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -19,9 +19,6 @@ quiz:
   - content: "You can have up to how many topics in a chatbot?"
     choices:
     - content: "100"
-      isCorrect: false
-      explanation: "Incorrect."
-    - content: "500"
       isCorrect: false
       explanation: "Incorrect."
     - content: "1000"
@@ -41,20 +38,14 @@ quiz:
     - content: "Creating new topics"
       isCorrect: false
       explanation: "Incorrect. Creating new topics would not best help you find and fix unexpected behavior."
-    - content: "Resetting the bot"
-      isCorrect: false
-      explanation: "Incorrect. Resetting the bot would not best help you find and fix unexpected behavior."
-  - content: "Which of the following is not a valid reason for a chatbot session to end?"
+  - content: "Which of the following is a valid reason for a chatbot session to end?"
     choices:
-    - content: "The session is longer than 60 minutes"
-      isCorrect: false
-      explanation: "Incorrect. Chatbot sessions can end if a session is longer than 60 minutes."
     - content: "The session has more than 100 turns"
-      isCorrect: false
+      isCorrect: true
       explanation: "Incorrect. Chatbot sessions can end if a session has more than 100 turns."
     - content: "The session is longer than 90 minutes"
-      isCorrect: true
+      isCorrect: false
       explanation: "Correct. The first message that occurs after 60 minutes - not 90 minutes - starts a new session."
-    - content: "The user ends the chat session"
+    - content: "The session has more than 50 turns"
       isCorrect: false
       explanation: "Incorrect. A user can end the chat session."
