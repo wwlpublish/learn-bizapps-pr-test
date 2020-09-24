@@ -1,21 +1,21 @@
 ### YamlMime:Module 
 uid: learn-bizapps.system-services-actions 
 metadata: 
- title: Automate System and Services Actions in WinAutomation
- description: This module covers the System and Services Actions in WinAutomation.
+ title: Automate system and services actions in WinAutomation
+ description: Learn about the system and services actions in WinAutomation.
  ms.date: 09/04/2020  
  author: olegmelnykov  
  ms.author: olmelnyk  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Automate System and Services Actions in WinAutomation
+title: Automate system and services actions in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  WinAutomation supports the automation of miscellaneous tasks, which are nevertheless fundamental to the Windows operating system, through the System and Services Actions.
+  WinAutomation supports the automation of miscellaneous tasks, which are fundamental to the Microsoft Windows operating system, through the system and services actions.
 abstract: |  
     In this module, you will: 
-    - Automate system-related tasks with the System group of Actions
-    - Automate the management of Windows services with the Service group of Actions
+    - Automate system-related tasks with the system group of actions.
+    - Automate the management of Windows services with the service group of actions.
 prerequisites: |
     - Basic familiarity with WinAutomation
     - An account with Administrator privileges
