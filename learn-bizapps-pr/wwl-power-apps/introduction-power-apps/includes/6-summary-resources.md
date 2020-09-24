@@ -35,7 +35,7 @@ Use these resources to discover more.
 
 ### Learn more about AI Builder
 
-- [AI Builder](https://powerapps.microsoft.com/en-us/ai-builder/)
+- [AI Builder](https://powerapps.microsoft.com/ai-builder/)
 
 - [AI Builder Documentation](https://docs.microsoft.com/ai-builder/overview)
 
