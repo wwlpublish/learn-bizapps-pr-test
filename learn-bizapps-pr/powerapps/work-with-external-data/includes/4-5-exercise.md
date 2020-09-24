@@ -155,7 +155,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 15. Update the formula bar to this expression:
 
     ```powerappsfl
-    Collect(RenameCollection, RenameColumns(ItemsCollection, "Name", "Product))
+    Collect(RenameCollection, RenameColumns(ItemsCollection, "Name", "Product"))
     ```
     Here, we have created a new collection called *RenameCollection*, which
 copies all data from the *ItemsCollection* collection but in addition--we use the *RenameColumns* function to rename the *Name* column to
