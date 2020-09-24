@@ -2,7 +2,7 @@
 uid: learn-bizapps.manage-datasets-power-bi 
 metadata: 
  title: Manage datasets in Power BI 
- description: In Power BI, you can build multiple reports from a single dataset. This means that if you change the dataset, all the reports will be updated with that change. It also means that you can do the work of cleaning and prepping data a single time, instead of repeatedly for each report. Once a dataset has been deployed, you'll want to automatically refresh it, so the users see the most current data in their reports. By using the Power BI gateway, it's possible to retrieve data from on-premise data sources, for instance a SQL Server that might be in your organization’s data center.
+ description: With Microsoft Power BI, you can build multiple reports from a single dataset, meaning that if you change the dataset, all reports will be updated with that change. Additionally, you can clean and prep data once rather than repeatedly for each report. 
  ms.date: 06/30/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,13 +11,13 @@ metadata:
 title: Manage datasets in Power BI  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  In Power BI, you can build multiple reports from a single dataset. This means that if you change the dataset, all the reports will be updated with that change. It also means that you can do the work of cleaning and prepping data a single time, instead of repeatedly for each report. Once a dataset has been deployed, you'll want to automatically refresh it, so the users see the most current data in their reports. By using the Power BI gateway, it's possible to retrieve data from on-premise data sources, for instance a SQL Server that might be in your organization’s data center. 
+  With Microsoft Power BI, you can build multiple reports from a single dataset, meaning that if you change the dataset, all reports will be updated with that change. Additionally, you can clean and prep data once rather than repeatedly for each report.
 abstract: |  
     In this module, you will: 
     - Create dynamic reports with parameters. 
     - Create what-if parameters. 
-    - Use a Power BI gateway to connect to on-premise data sources.
-    - Configure a dataset scheduled refresh. 
+    - Use a Power BI gateway to connect to on-premises data sources.
+    - Configure a scheduled refresh for a dataset. 
     - Configure incremental refresh settings. 
     - Manage and promote datasets.
     - Troubleshoot service connectivity.
