@@ -2,7 +2,7 @@
 uid: learn-bizapps.create-manage-workspaces-power-bi 
 metadata: 
  title: Create and manage workspaces in Power BI 
- description: You will learn how to share reports and datasets to your users. Although this can be a simple process, when you think about testing reports before deployment, it can get more complex. For instance, what if you are changing a report that is currently in use? Do you need to let the users test the report before you overwrite it? This module will guide you to creating a deployment strategy that makes sense for you and your organization. Further, if you have ever wondered about where data on a report originated from, then you will want to learn about data lineage in Power BI.
+ description: This module explains how you can share reports and datasets with your users and how to create a deployment strategy that makes sense for you and your organization. Furthermore, you will learn about data lineage in Microsoft Power BI.
  ms.date: 06/30/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,12 +11,12 @@ metadata:
 title: Create and manage workspaces in Power BI  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  You will learn how to share reports and datasets to your users. Although this can be a simple process, when you think about testing reports before deployment, it can get more complex. For instance, what if you are changing a report that is currently in use? Do you need to let the users test the report before you overwrite it? This module will guide you to creating a deployment strategy that makes sense for you and your organization. Further, if you have ever wondered about where data on a report originated from, then you will want to learn about data lineage in Power BI.
+  This module explains how you can share reports and datasets with your users and how to create a deployment strategy that makes sense for you and your organization. Furthermore, you will learn about data lineage in Microsoft Power BI.
 abstract: |  
     In this module, you will: 
     - Distribute a report or dashboard.
     - Monitor usage and performance.
-    - Recommend a development lifecycle strategy.
+    - Recommend a development life cycle strategy.
     - Troubleshoot data by viewing its lineage. 
     - Configure data protection. 
 prerequisites: None 
