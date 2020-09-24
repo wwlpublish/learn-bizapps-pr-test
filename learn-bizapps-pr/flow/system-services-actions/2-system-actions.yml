@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.system-services-actions.2-system-actions 
-title: System Actions
+title: System actions
 metadata: 
-  title: System Actions
-  description: System Actions
+  title: System actions
+  description: Learn about the system group of actions.
   ms.date: 09/04/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
