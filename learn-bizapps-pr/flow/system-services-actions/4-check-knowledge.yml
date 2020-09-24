@@ -13,27 +13,27 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "The Take Screenshot Action saves the taken screenshots only to the clipboard."
+  - content: The Take Screenshot action saves the taken screenshots only to the clipboard. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "Your answer is incorrect. The Take Screenshot Action saves the taken screenshots to the clipboard or to a file."
+      explanation: The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
     - content: "False"
       isCorrect: true 
-      explanation: "Your answer is correct. The Take Screenshot Action saves the taken screenshots to the clipboard or to a file."
-  - content: "The Pause Service Action can pause only services of third party software." 
+      explanation: The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
+  - content: The Pause Service action can pause only software from other services. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "Your answer is incorrect. The Pause Service Action can pause services of Windows and third-party software."
+      explanation: The Pause Service action can pause Windows services and software from other services.
     - content: "False"
       isCorrect: true 
-      explanation: "That is correct. The Pause Service Action can pause services of Windows and third-party software."
-  - content: "The Run JavaScript Action can execute code on a web page."
+      explanation: The Pause Service action can pause Windows services and software from other services.
+  - content: The Run JavaScript action can run code on a webpage. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is incorrect. WinAutomation provides the Execute JavaScript Function On Web Page Action to execute code on a web page."
+      explanation: WinAutomation provides the Execute JavaScript Function On Web Page action to run code on a webpage.
     - content: "False"
       isCorrect: true 
-      explanation: "That is correct! WinAutomation provides the Execute JavaScript Function On Web Page Action to execute code on a web page."
+      explanation: WinAutomation provides the Execute JavaScript Function On Web Page action to run code on a webpage.
