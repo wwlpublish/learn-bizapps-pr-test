@@ -134,6 +134,11 @@
       "source_path": "learn-bizapps-pr/power-bi/create-manage-workspaces-power-bi/7-lab.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/create-manage-workspaces-power-bi/",
       "redirect_document_id": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/wwl-power-apps/build-app-solution/3-build-power-apps-app.md",
+      "redirect_url": "https://docs.microsoft.com/learn/modules/build-app-solution/3-build-canvas-app",
+      "redirect_document_id": false
     }
   ]
 }

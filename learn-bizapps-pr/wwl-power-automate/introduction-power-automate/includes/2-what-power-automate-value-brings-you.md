@@ -23,12 +23,12 @@ The flow can be built to evaluate the request and then route the request based o
 Here is the starting point of the flow.
     ![Flow edit form](../media/starting-point.png)
 
-After the manager receives the approval and approves, the flow can then provide conditional logic. Typically this might be something like if the purchase order request is greater than $10,000 send it to VP if not then automatically approve the purchase order.
+After the manager receives the approval and approves, the flow can then provide conditional logic. Typically, this might be something like: if the purchase order request is greater than $10,000, send it to VP; if not, then automatically approve the purchase order.
 
 Here is an example of what this flow may look like.
     ![flowchart logic for support emails](../media/flow-example.png)
 
-As you can see even the business process has many decision points. Your flow easily handles the decisions without you writing any code.
+As you can see, even the business process has many decision points. Your flow easily handles the decisions without you writing any code.
 
 ## Work with your data where it lives
 
