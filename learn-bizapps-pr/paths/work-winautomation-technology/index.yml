@@ -26,7 +26,8 @@ products:
 - power-platform
 - power-automate
 modules:
-- learn-bizapps.learn-bizapps.automating-email-handling 
+- learn-bizapps.learn-bizapps.automating-email-handling
+- learn-bizapps.system-services-actions  
 - 
 trophy: 
   uid: learn-bizapps.work-winautomation-technology.trophy
