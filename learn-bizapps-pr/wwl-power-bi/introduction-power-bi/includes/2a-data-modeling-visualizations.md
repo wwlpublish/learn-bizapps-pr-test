@@ -109,7 +109,7 @@ Pie charts show the relationship of parts to a whole.
 
 The Q&A visual lets you ask questions about your data using natural language.
 
-![Q&A visuals](../media/q-a-visual.png)
+![Q&A visuals](../media/visual.png)
 
 ### Tables
 
