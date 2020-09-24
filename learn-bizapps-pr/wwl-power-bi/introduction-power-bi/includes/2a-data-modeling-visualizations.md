@@ -32,24 +32,24 @@ will be working in five main areas:
 
 ## Types of visualizations available in Power BI
 
-All these visualizations can be added to Power BI reports, specified in Q&A, and
-pinned to dashboards.
+Below are just some of the many different types of visualizations that can be added to Power BI reports, specified in Q&A, and
+pinned to dashboards. 
 
 ### Area charts: Basic (Layered) and Stacked
 
 The Basic Area chart is based on the line chart with the area between the axis
 and line filled in.
 
-![area charts](../media/area-chart.png)
+![area charts](../media/area-chart-visual.png)
 
 ### Bar and column charts
 
 Bar charts are the standard for looking at a specific value across different
 categories.
 
-![bar chart](../media/bar-chart.png)
+![bar chart](../media/bar-chart-visual.png)
 
-![column chart](../media/column-chart.png)
+![column chart](../media/column-chart-visual.png)
 
 ### Cards: Multi row
 
@@ -59,28 +59,12 @@ categories.
 
 ![number card](../media/single-number-card.png)
 
-### Combo charts
+### Donut charts
 
-A Combo chart combines a column chart and a line chart. Choose from *Line and
-Stacked Column* and *Line and Clustered Column*.
-
-![combo chart](../media/combo-chart.png)
-
-### Doughnut charts
-
-Doughnut charts are similar to Pie charts. They show the relationship of parts
+Donut charts are similar to pie charts. They show the relationship of parts
 to a whole.
 
-![doughnut chart](../media/doughnut-chart.png)
-
-### Funnel charts
-
-Funnels help visualize a process that has stages and items flow sequentially
-from one stage to the next. Use a funnel when there is a sequential flow between
-stages, such as a sales process that starts with leads and ends with purchase
-fulfillment.
-
-![funnel chart](../media/funnel-chart.png)
+![doughnut chart](../media/donut-chart-visual.png)
 
 ### Gauge charts
 
@@ -98,7 +82,7 @@ Displays progress toward a measurable goal.
 
 Emphasize the overall shape of an entire series of values, usually over time.
 
-![line chart](../media/line-chart.png)
+![line chart](../media/line-chart-visual.png)
 
 ### Maps: Basic maps
 
@@ -126,21 +110,6 @@ Pie charts show the relationship of parts to a whole.
 The Q&A visual lets you ask questions about your data using natural language.
 
 ![Q&A visuals](../media/q-a-visual.png)
-
-### Ribbon chart
-
-Ribbon charts show which data category has the highest rank (largest value).
-Ribbon charts are effective at showing rank change, with the highest range
-(value) always displayed on top for each time period.
-
-![ribbon chart](../media/ribbon-chart.png)
-
-### Scatter and Bubble charts
-
-Display relationships between 2 (scatter) or 3 (bubble) quantitative measures --
-whether or not, in which order, etc.
-
-![bubble chart](../media/bubble-chart.png)
 
 ### Tables
 
