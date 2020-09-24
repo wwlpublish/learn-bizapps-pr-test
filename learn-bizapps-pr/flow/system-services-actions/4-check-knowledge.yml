@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.system-services-actions.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/24/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: The Take Screenshot action saves the taken screenshots only to the clipboard. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
+    - content: "False"
+      isCorrect: true 
+      explanation: The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
+  - content: The Pause Service action can pause only software from other services. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: The Pause Service action can pause Windows services and software from other services.
+    - content: "False"
+      isCorrect: true 
+      explanation: The Pause Service action can pause Windows services and software from other services.
+  - content: The Run JavaScript action can run code on a webpage. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: WinAutomation provides the Execute JavaScript Function On Web Page action to run code on a webpage.
+    - content: "False"
+      isCorrect: true 
+      explanation: WinAutomation provides the Execute JavaScript Function On Web Page action to run code on a webpage.
