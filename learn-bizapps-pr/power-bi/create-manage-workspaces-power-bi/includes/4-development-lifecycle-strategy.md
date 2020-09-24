@@ -1,114 +1,131 @@
-The development process is an iterative one; it typically requires building out an initial solution, testing the solution in a different environment, going back and making revisions as needed, and eventually releasing a final product. This process is known as a development life cycle. There are many ways this process can take place and in different environments.
+The development process is iterative; it typically requires building an initial solution, testing the solution in a different environment, returning to make necessary revisions, and eventually releasing a final product. This process is known as a development life cycle. This process can take place in several different ways and in different environments.
 
-Tailwind's Sales team is impressed with the reports you have delivered, and as they continue to leverage the abilities of Power BI, they also want to maintain data and report integrity without slowing development timelines. They want you to create a development pipeline that will be utilized by all teams to develop reports and dashboards. How can you do this in Power BI? Power BI's deployment pipelines will help you accelerate development and minimize errors.
+To continue with the module scenario, the Sales team at Tailwind Traders is impressed with the reports that you have delivered, and as they continue to use the abilities of Power BI, they also want to maintain data and report integrity without slowing development timelines. As a result, they have asked you to create a development pipeline that will be used by all teams to develop reports and dashboards. Power BI provides deployment pipelines that you can use to help accelerate development and minimize errors.
 
 ## Deployment pipeline (Premium)
 
-Power BI's deployment pipeline is a feature that manages content in dashboards, reports, and datasets between different environments in the development lifecycle. Here, you can develop and test Power BI content in one centralized location and streamline the process before deploying the final content to your end users. This is a Power BI Premium feature and requires you to be a Capacity admin. There are several advantages to using the deployment pipeline:
+The deployment pipeline feature in Power BI manages content in dashboards, reports, and datasets between different environments in the development life cycle. With this feature, you can develop and test Power BI content in one centralized location and streamline the process before deploying the final content to your users. This Power BI Premium feature requires you to be a Capacity admin. 
 
--   Increased productivity: Through this feature, you can reuse previous deployment pipelines ensuring that efforts aren't duplicated.
+The advantages of using the deployment pipeline are:
 
--   Faster delivery of content: report development becomes more streamlined, meaning that it takes less time to get to production.
+- **Increased productivity** - Through this feature, you can reuse previous deployment pipelines, ensuring that efforts aren't duplicated.
 
--   Lower human intervention required and less chance of error: By having the ability to reuse deployment pipelines, there is a lower chance of error associated with moving content from one environment to another.
+- **Faster delivery of content** - Report development becomes more streamlined, meaning that it takes less time to get to production.
+
+- **Lower human intervention required** - Having the ability to reuse deployment pipelines means a decreased chance of error associated with moving content from one environment to another.
 
 ## Development environments 
 
-Before we begin discussing development pipelines, let's first discuss the different stages in which development and collaboration typically takes place in. Reports and dashboards are built in and iterated upon in a series of controlled stages, or **environments**, where several tasks take place.
+Typically, development and collaboration occur in different stages. Reports and dashboards are built in and iterated on a series of controlled stages, or environments, where several tasks occur:
 
--   **Development**: The location in which dashboard developers or data modelers can build out new content with other developers. This is the first stage of the deployment pipeline.
+-   **Development** - The location in which dashboard developers or data modelers can build new content with other developers. This stage is first in the deployment pipeline.
 
--   **Test**: Where a small group of users and user acceptance testers can see and review new reports, provide feedback, and test the reports with larger datasets for bugs and data inconsistencies before it goes into production.
+-   **Test** - Where a small group of users and user acceptance testers can see and review new reports, provide feedback, and test the reports with larger datasets for bugs and data inconsistencies before it goes into production.
 
--   **Production**: Where a wider user audience can use tested reports that are reliable and accurate. This is the final stage of the deployment pipeline.
+-   **Production** - Where an expansive user audience can use tested reports that are reliable and accurate. This stage is the final one of the deployment pipeline.
 
-As a side note, you can choose which one of these development environments you would like to include in your deployment pipeline, according to your business needs. For example, you can choose to only include the Test and Production environments if need be.
+You can choose which one of these development environments that you want to include in your deployment pipeline, according to your business needs. For example, you can choose to only include the Test and Production environments, if necessary.
 
-With that, let's take a closer look at configuring deployment pipelines in Power BI!
 
 ## Configuration of deployment pipelines
 
-Let's say you want to create a deployment pipeline at Tailwind. To configure a deployment pipeline, navigate to Power BI service. Then, on the ribbon at the left-hand side of the page, select **Deployment pipelines,** as seen below.
+In the scenario with Tailwind Traders, you want to create a deployment pipeline. To configure a deployment pipeline, go to Power BI service, and then follow these steps: 
+
+1. On the ribbon on the left side of the page, select **Deployment pipelines**, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > [![Deployment Pipeline selection](../media/04-deployment-full-8-ss.png)](../media/04-deployment-full-8-ss.png#lightbox)
 
-On the resulting page, select **Create a pipeline.** We want to create a deployment pipeline called **SalesPipeline.** Here, add in the **Pipeline name** of **SalesPipeline** and a description, if needed. Once you are ready select **Create.** This will take you to the following screen:
+2. On the resulting page, select **Create a pipeline**. 
+
+3. Create a deployment pipeline called **SalesPipeline**. Enter the **Pipeline name** as **SalesPipeline** and enter a description, if necessary. 
+
+4. Select **Create**, which will take you to the following screen.
 
 > [!div class="mx-imgBorder"]
 > [![Deployment pipeline page](../media/04-deployment-pipeline-page-2-ss.png)](../media/04-deployment-pipeline-page-2-ss.png#lightbox)
 
-This view shows you the steps of the development life cycle: **Development, Test,** and **Production.** To create our pipeline, we need to assign workspaces to each of these stages to facilitate where our reports and dashboards will be housed during each stage. Select **Assign a workspace** to begin.
+This view shows you the steps of the development life cycle: **Development**, **Test**, and **Production**. 
 
-When we do this, we are taken to the following window, where we can add a workspace, **Tailwind Traders**, to a specific environment, **Development**.
+5. To create your pipeline, assign workspaces to each of these stages to facilitate where your reports and dashboards will be housed during each stage. 
+
+6. Select **Assign a workspace** to begin.
+
+7. You will be directed to the **Assign the workspace to a deployment stage** window, where you can add the **Tailwind Traders** workspace to the **Development** environment.
 
 > [!div class="mx-imgBorder"]
 > [![Add workspace](../media/04-report-performance-metrics-4-ss.png)](../media/04-report-performance-metrics-4-ss.png#lightbox)
 
-It is important to note that only workspaces assigned to a Premium capacity will appear. Additionally, you can only assign a single workspace to each pipeline. Power BI will auto generate the other two workspaces used in the pipeline. If you already have a Dev/Test/Prod workspace, you will have to pick one to work with. Then, select **Assign.** If this step is successful, you should see the resulting view:
+Only workspaces that are assigned to a Premium capacity will appear. Additionally, you can only assign a single workspace to each pipeline. Power BI will auto generate the two other workspaces that are used in the pipeline. 
+
+8. If you already have **Development**, **Test**, and **Production** workspaces, choose one that you want to work with and then select **Assign**. 
+
+If this step is successful, you should see the resulting view.
 
 > [!div class="mx-imgBorder"]
 > [![Development step card](../media/04-deployment-settings-5-ssm.png)](../media/04-deployment-settings-5-ssm.png#lightbox)
 
-Here, I can see how many datasets, reports, and dashboards I have in the current environment, **Development.** At every stage, you have the option to publish the associated workspace as an app by selecting **Publish app.** To view all objects that constitute the workspace press **Show more,** as seen in the following.
+The preceding image shows how many datasets, reports, and dashboards that you have in the current **Development** environment. At every stage, you have the option to publish the associated workspace as an app by selecting **Publish app**. 
+
+9. To view all objects that constitute the workspace, select **Show more**.
 
 ## Testing stage
 
-Upon collaborating with my teams and building out a testing-ready report, we are ready to move on to the testing phase and can select **Deploy to test.** A new workspace is created, which by default has the same name as the initial workspace but suffixed with **\[Test\].** You can change this by entering the workspace's settings within the deployment pipeline interface.
+After you have collaborated with the teams and built a testing-ready report, you are ready to proceed to the testing phase. Select **Deploy to test**, which will create a new workspace. This workspace, by default, has the same name as the initial workspace but includes the **\[Test\]** suffix. You can change the name by entering the workspace's settings within the deployment pipeline interface.
 
-Testing should emulate conditions that objects will experience once they are deployed for end users. Therefore, Power BI allows you to change the source of data used during testing. To do this, you will first need to enter the environment's **deployment settings** by selecting the lightning icon as seen below.
+Testing should emulate conditions that objects will experience after they've been deployed for users. Therefore, Power BI allows you to change the source of data that is used during testing. To accomplish this task, you will first need to enter the environment's deployment settings by selecting the lightning icon, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > [![Deployment settings](../media/04-deployment-pipeline-1-ssm.png)](../media/04-deployment-pipeline-1-ssm.png#lightbox)
 
-In the resulting **Settings** window, choose the correct dataset. In our case, we want our **OrdersFigures** dataset to be used for testing, as seen below, but with a different data source. We can do this by creating parameters in Power Query Parameters, which will be discussed in a later module, or by adding a new rule, as we will do here. Under **Data source rules**, select **+ Add rule.**
+In the resulting **Settings** window, select the correct dataset. In this example, you want the **OrdersFigures** dataset to be used for testing but with a different data source. To accomplish this task, create parameters in Power Query Parameters (which will be discussed in a later module) or add a new rule, which is the process that is used for this example. Under the **Data source rules** drop-down menu, select **+ Add rule**.
 
 > [!div class="mx-imgBorder"]
 > [![Data source rules](../media/04-change-source-8-ss.png)](../media/04-change-source-8-ss.png#lightbox)
 
-Here, you can change the data source, which was used in development, to a new source, which is used for testing the reports (**orders.csv** in our example below). Press **Save** at the bottom of the card once you are ready.
+On the **Data source rules** section, you can change the data source (which was used in development) to a new source, which is used for testing the reports (**orders.csv** in the following example). When you are finished, select **Save** at the bottom of the card.
 
 > [!div class="mx-imgBorder"]
 > [![Change data source](../media/04-add-workspace-3-ssm.png)](../media/04-add-workspace-3-ssm.png#lightbox)
 
 ## Production stage
 
-We are close to completing the pipeline, transitioning from development to testing, and finally to production. We need to create a data source rule for the **OrdersFigures** dataset in the workspace to ensure that we are using production data. In this instance, we are changing our source from the test to the prod folder version of the orders.csv file, as shown below.
+Now, you are close to completing the pipeline, transitioning from development to testing, and finally to production. At this stage, you need to create a data source rule for the **OrdersFigures** dataset in the workspace to ensure that you are using production data. In this instance, you will be changing your source from the test to the production folder version of the orders.csv file, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > [![Change source on Production](../media/04-change-source-7-ss.png)](../media/04-change-source-7-ss.png#lightbox)
 
-After performing a dataset refresh, our production workspace is ready. We can package the workspace as an app, which is available for our end users. Currently, our deployment pipeline is as follows:
+After performing a dataset refresh, your production workspace will be ready. You can package the workspace as an app, which is available for users. Currently, your deployment pipeline will appear as shown in the following figure.
 
 > [!div class="mx-imgBorder"]
 > [![Deployment pipeline completed](../media/04-deployment-compare-9-ssm.png)](../media/04-deployment-compare-9-ssm.png#lightbox)
 
-With that, we have successfully created a deployment pipeline from the development to the testing phase. Congrats! Let's take a quick look at some additional operations you can conduct in the development pipeline.
+You have successfully created a deployment pipeline from the development to the testing phase. The following section describes additional operations that you can conduct in the development pipeline.
 
 ## Additional operations in the development pipeline
 
-You have created a deployment pipeline and have begun collaborating with other report developers. You get a notification that one of the other developers has modified a report. You want to be able to see the changes that were done to this report. You can do this by utilizing the **Compare** button, as seen below.
+You have created a deployment pipeline and have begun collaborating with other report developers. You receive notification that one of the other developers has modified a report. To see the changes to this report, select the **Compare** button, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
 > [![Compare tool on deployment pipleline](../media/04-deployment-compare-11-ssm.png)](../media/04-deployment-compare-11-ssm.png#lightbox)
 
-If you select **Compare,** this reveals that the **OrdersFigures** report differs between the Development and Test environments.
+Selecting **Compare** reveals that the **OrdersFigures** report differs between the Development and Test environments.
 
 > [!div class="mx-imgBorder"]
 > [![Compare on deployment pipeline](../media/04-data-source-rules-6-ssm.png)](../media/04-data-source-rules-6-ssm.png#lightbox)
 
-The difference is typically registered as added or removed objects. If you decide that the changes shouldn't be deployed to the next phase, you can choose to "ignore" changes. For instance, the other developer has added a report called **AdditionalOrderInfo** in the Development environment, but I do not want to deploy these changes. By selecting a specific report and selecting **Deploy to test**, I can effectively choose which reports I want to move from environment to environment, as seen below.
+The difference is typically registered as added or removed objects. If you decide that the changes shouldn't be deployed to the next phase, you can choose to ignore the changes. For instance, the other developer has added a report called **AdditionalOrderInfo** in the Development environment, but you don't want to deploy these changes. By selecting a specific report and then selecting **Deploy to test**, you can effectively choose which reports that you want to move from environment to environment, as shown in the following figure.
 
 > [!div class="mx-imgBorder"]
 > [![Choosing which iteration to deploy](../media/04-deployment-compare-10-ssm.png)](../media/04-deployment-compare-10-ssm.png#lightbox)
 
-As the message below indicates, only one change will be carried over.
+As the following message indicates, only one change will be carried over.
 
 > [!div class="mx-imgBorder"]
 > [![Replacing content window](../media/04-dev-life-cycle-3-ssm.png)](../media/04-dev-life-cycle-3-ssm.png#lightbox)
 
-Exercise caution with this tool. Reports are dependent on their datasets, and if a dataset has changed but you do not deploy it with an associated report, the report will not behave correctly.
+Exercise caution with this tool. Reports are dependent on their datasets. If a dataset has changed, but you don't deploy it with an associated report, the report will not behave correctly.
 
-With that, we recommend using deployment pipelines in Power BI Service. Not only does this tool ensure that the development life cycle is streamlined, but it also ensures that you can create one centralized location to collaborate, keep track of, and deploy your reports.
+We recommend that you use deployment pipelines in Power BI service. This tool ensures that the development life cycle is streamlined and that you can create one centralized location to collaborate, keep track of, and deploy your reports.
 
-If you would like to learn more about implementing pipelines, please refer to [Deployment Pipelines Best Practices](https://docs.microsoft.com/power-bi/create-reports/deployment-pipelines-best-practices/?azure-portal=true).
+For more information, see [Deployment Pipelines Best Practices](https://docs.microsoft.com/power-bi/create-reports/deployment-pipelines-best-practices/?azure-portal=true).
