@@ -3,7 +3,7 @@ You can use Power Apps portals Studio to create and customize your website. It
 contains various options to add and configure webpages, components, forms, and
 lists. The anatomy of Power Apps portals Studio is as follows:
 
-![Power Apps portals stuido](../media/power-apps-portals-studio.png)
+![Power Apps portals studio](../media/power-apps-portals-studio.png)
 Power Apps portals Studio components:
 1.  **Command bar** - Allows you to:
     -   Create a webpage.

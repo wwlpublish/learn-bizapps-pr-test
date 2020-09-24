@@ -44,7 +44,7 @@ portals use numerous entities to define authorization, that is, what a user is
 allowed to do. Selecting **Share** from the portal app options will provide
 information on how to share the portal app with internal and external users.
 
-[![Portals security constructs](../media/share-portal.png)](../media/share-portal.png#lighbox)
+[![Portals security constructs](../media/share-portal.png)](../media/share-portal.png#lightbox)
 
 **Web roles** allow an administrator to control user access to portal content
 and Common Data Service records.
