@@ -4,7 +4,7 @@ You can use parameters by determining the values that you want to see data for i
 
 Creating dynamic reports allows you to give users more power over the data that is displayed in your reports; they can change the data source and filter the data by themselves.
 
-In the following example, you've created a report for the Sales team at Tailwind Traders that displays the sales data in the SQL Server database. The report gives a holistic view of how the Sales team is performing. While the report is extremely useful, the Sales team members want to be able to filter the report so that they can view their own data only and track their performance against their sales targets.
+In the following example, you've created a report for the Sales team at Tailwind Traders that displays the sales data in the SQL Server database. The report gives a holistic view of how the Sales team is performing. While the report is useful, the Sales team members want to be able to filter the report so that they can view their own data only and track their performance against their sales targets.
 
 ## Create dynamic reports for individual values 
 
@@ -107,7 +107,7 @@ Next, use the **Get data** feature in Power BI Desktop to connect to the data in
 4. In the query **Properties** section, change the name of the data source to something more descriptive. For this example, enter **SalesPersonID**.
 
 
-Next, you need to create a function that'll pass the new **SalesPersonID** query into **Query1**: 
+Next, you need to create a function that will pass the new **SalesPersonID** query into **Query1**: 
 
 1. Right-click **Query1** and then select **Create function**.
 
@@ -166,7 +166,7 @@ If necessary, you can add more values (sales people IDs) to the **SalesPersonID*
 
 10. Save your changes and then return to Power Query Editor. 
 
-11. On the **Home** tab, select **Refresh Preview**, and then run the native query again (if required). You should see the sales from the new sales people IDs that you added into the worksheet.
+11. On the **Home** tab, select **Refresh Preview**, and then run the native query again (if necessary). You should see the sales from the new sales people IDs that you added into the worksheet.
 
 12. Select **Close and Apply** to return to the report editor, where you'll see the new column names in the Fields pane. 
 
