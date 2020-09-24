@@ -30,10 +30,10 @@ quiz:
       isCorrect: false
       explanation: Both Power Automate and Power Apps are used for the prebuilt Language detection model.
     - content: Power Apps only
-      isCorrect: true
+      isCorrect: false
       explanation: Both Power Automate and Power Apps are used for the prebuilt Language detection model.
     - content: Both Power Automate and Power Apps
-      isCorrect: false
+      isCorrect: true
       explanation: Both Power Automate and Power Apps are used for the prebuilt Language detection model.
   - content: Language detection could be used in which of the following technologies?
     choices: 
