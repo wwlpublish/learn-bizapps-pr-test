@@ -171,7 +171,7 @@ In this task, you will publish the contents of your **Sales Analysis** workspac
 
 ### Get the app
 
-In this task, you will "get" the app and explore the its contents.
+In this task, you will "get" the app and explore its contents.
 
 1. In the Navigation pane, select **Apps**.
 
