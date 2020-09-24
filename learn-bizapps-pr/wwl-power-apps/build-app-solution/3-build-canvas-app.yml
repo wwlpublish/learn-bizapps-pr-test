@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.build-app-solution.build-power-apps-app
+title: Build a canvas app
+metadata:
+  title: Build a canvas app
+  description: "Build a canvas app"
+  ms.date: 09/24/2020
+  author: wwlpublish
+  ms.author: skulthm
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/3-build-canvas-app.md)]

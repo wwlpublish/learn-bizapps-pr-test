@@ -1,0 +1,1 @@
+WinAutomation provides you with the ability to read and extract the data that is contained within files through OCR technologies. It supports the Microsoft MODI and the Google Tesseract OCR engines and provides various OCR actions. The OCR actions can automate virtually every data-extracting business procedure.

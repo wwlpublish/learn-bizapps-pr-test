@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.how-to-build-model-driven-app.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 09/25/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/07-knowledge-check.md)]
+quiz:
+  title: "Check your knowledge"
+  questions:
+  - content: "When building model-driven apps, which designer is used to define the navigation of your app?"
+    choices:
+    - content: "App designer"
+      isCorrect: false
+      explanation: "Incorrect. The app designer is not used to define the navigation of your app."
+    - content: "View designer"
+      isCorrect: false
+      explanation: "Incorrect. The view designer is not used to define the navigation of your app."
+    - content: "Site map designer"
+      isCorrect: true
+      explanation: "Correct. The site map designer is used to define the navigation of your app by dragging components onto the design canvas, previewing your work, and instantly publishing the site map. Administrators and any user with the required privileges can quickly create site maps for apps."
+    - content: "Dashboard designer"
+      isCorrect: false
+      explanation: "Incorrect. The dashboard designer is not used to define the navigation of your app."
+  - content: "If you wanted to create a standard procedure or process for handling service requests, what type of logic would be best to implement?"
+    choices:
+    - content: "Business process flow"
+      isCorrect: true
+      explanation: "Correct. Business process flows can be used to define a set of steps for people to follow to take them to a desired outcome."
+    - content: "Business rule"
+      isCorrect: false
+      explanation: "Incorrect. Business rules would not be used to create a standard procedure or process for handling service requests."
+    - content: "Workflow"
+      isCorrect: false
+      explanation: "Incorrect. Workflows would not be used to create a standard procedure or process for handling service requests."
+    - content: "Flow"
+      isCorrect: false
+      explanation: "Incorrect. A flow would not be used to create a standard procedure or process for handling service requests."
+  - content: "When sharing a model-driven app, which of the following statements is true?"
+    choices:
+    - content: "Users just need to be added to a predefined security role"
+      isCorrect: false
+      explanation: "Incorrect. Giving a user a predefined security role will not share the model-driven app with the user."
+    - content: "Users just need to be added to a custom security role."
+      isCorrect: false
+      explanation: "Incorrect. Giving a user a custom security role will not share the model-ddriven app with the user."
+    - content: "Model-driven apps do not need to be shared, they are accessible to anyone with the app link."
+      isCorrect: false
+      explanation: "Incorrect. Model-driven apps are not accessible to everyone via app link."
+    - content: "Users need to be added to a predefined or custom security role and one or more security roles need to be associated with the app."
+      isCorrect: true
+      explanation: "Correct. Users must have a security role that grants them the right to access the app for you to successfully share the app."

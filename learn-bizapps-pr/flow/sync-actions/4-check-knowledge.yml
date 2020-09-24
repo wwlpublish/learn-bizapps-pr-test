@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.sync-actions.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/22/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Synchronization actions prevent simultaneous access to resources from instances of different actions. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: Synchronization actions prevent simultaneous access to resources from instances of the same action.
+    - content: "False"
+      isCorrect: true 
+      explanation: Synchronization actions prevent simultaneous access to resources from instances of the same action.
+  - content: Which one of the following options is a recommended case for using synchronization actions?
+    choices: 
+    - content: When the process launches a browser instance
+      isCorrect: false 
+      explanation: This process doesn't require synchronization actions.
+    - content: When the process handles the mouse and the keyboard
+      isCorrect: true 
+      explanation: This process requires synchronization actions.
+    - content: When the process sends an email
+      isCorrect: false 
+      explanation: This process doesn't require synchronization actions.
+  - content: The Lock Handle action must be accompanied by a Release Handle action. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: We strongly recommend that you use the Lock Handle and Release Handle actions together to mark the start and the end of the locked region.
+    - content: "False"
+      isCorrect: false 
+      explanation: We strongly recommend that you use the Lock Handle and Release Handle actions together to mark the start and the end of the locked region.

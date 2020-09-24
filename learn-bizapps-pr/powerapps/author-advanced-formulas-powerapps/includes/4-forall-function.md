@@ -12,10 +12,8 @@ formula. You can reference them by name as you would any other value.
 You can also reference control properties and other values throughout your app.
 
 For example, you could use ForAll(CustomerOrders,
-Office365.SendEmail(Email, "Thank you", " You are a great customer " &
-FirstName) to send a separate email to all of the email addresses in the
-CustomerOrders table. The email subject would be "Thank You" and the body
-would be "You are a great customer" followed by the value stored in the
+Office365.SendEmail(Email, "Thank you", " You are a great customer " & FirstName)) to send a separate email to all of the email addresses in the
+CustomerOrders table. The email subject would be "Thank You" and the body would be "You are a great customer" followed by the value stored in the
 FirstName field.
 
 This example varies from the **Concat** example in two important ways.
