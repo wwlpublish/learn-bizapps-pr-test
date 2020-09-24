@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.system-services-actions.1-introduction 
-title: Introducing system and Windows services 
+title: Introduction 
 metadata: 
-  title: Introducing system and Windows services 
-  description: Introducing system and Windows services 
+  title: Introduction 
+  description: Introduction to automating system and services actions in WinAutomation 
   ms.date: 09/04/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
