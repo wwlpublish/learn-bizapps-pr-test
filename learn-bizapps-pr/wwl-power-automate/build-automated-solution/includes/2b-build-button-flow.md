@@ -43,22 +43,21 @@ To show you how you can use buttons, we'll use the **Send myself a reminder in
 
 2.  Select the **Send myself a reminder in 10 minutes button** flow.
 
-![Reminder Button](../media/browse-templates.png)
+    ![Reminder Button](../media/browse-templates.png)
 
 3.  Select **Use this template**.
 
-![Use this template](../media/choose-a-template.png)
+    ![Use this template](../media/use-template.png)
 
 4.  Select **Create**, and then select **Done**.
 
-![Creation completed](../media/create-flow-from-template.png)
+    ![Creation completed](../media/create-flow-from-template.png)
 
-The flow is saved.
-
-![Completed reminder that the flow is saved](../media/saved-flow.png)
-
+    ![Reminder that the flow is saved](../media/saved-flow.png)
+    
+    The flow is saved.
 5.  Select **Buttons** to see the new flow.
 
-![New button flow in your buttons](../media/button-flow.png)  
+    ![New button flow in your buttons](../media/button-flow.png)  
 
 6.  Select the flow. In 10 minutes, you will get a reminder.

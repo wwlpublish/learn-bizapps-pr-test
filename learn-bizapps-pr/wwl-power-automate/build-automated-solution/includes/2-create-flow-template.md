@@ -35,7 +35,7 @@ For example, maybe try configuring the flow to only process for emails from your
 
 Now that you have seen how easy it is to start from a template, let's talk about a couple of key concepts.
 
-## Important concepts in Microsoft Flow
+## Important concepts in Microsoft Power Automate
 
 Keep these concepts in mind when building flows:
 
