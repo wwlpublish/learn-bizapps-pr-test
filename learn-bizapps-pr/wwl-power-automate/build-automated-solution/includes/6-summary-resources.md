@@ -1,14 +1,11 @@
 In a world of increasing distraction, it is more important than ever to alleviate repetitive or menial tasks to better focus on the important work at hand. Power Automate allows businesses to do just that by leveraging hundreds of connectors, templates, triggers and actions to allow beginners and advanced developers alike to craft powerful workflows and increase business efficiency.
 
 Now that you have reviewed this module, you should be able to:
-
 - Create a flow from a template
-
-- Create a flow triggered by the Common Data Service
-
-- Automate an approval request
-
-- Utilize the approval center
+- Create a recurring flow on a schedule
+- Create a flow triggered by a button
+- Create an approval request flow and utilize the approval center
+- Create a business process flow
 
 ## Key takeaways
 
