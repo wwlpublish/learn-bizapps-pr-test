@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.introduction-power-bi.data-model-visualizations
+title: Data modeling and visualizations
+metadata:
+  title: Data modeling and visualizations
+  description: "Data modeling and visualizations"
+  ms.date: 09/27/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/2a-data-modeling-visualizations.md)]

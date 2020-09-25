@@ -13,45 +13,45 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: How is the admin workspace role different from other types of workspace roles?
+  - content: How is the Admin workspace role different from other types of workspace roles?
     choices: 
-    - content: Admins are the only role that can add and remove users.
+    - content: Admin is the only role that can add and remove users.
       isCorrect: true 
       explanation: Only Admins can add and remove users from a workspace.
-    - content: Admins are the only role that can publish or update apps.
+    - content: Admin is the only role that can publish or update apps.
       isCorrect: false 
-      explanation: Both admins and members can publish and update apps.
-    - content: Admins are the only role that can create, edit, or delete content in a workspace.
+      explanation: Both Admins and Members can publish and update apps.
+    - content: Admin is the only role that can create, edit, or delete content in a workspace.
       isCorrect: false 
-      explanation: Admins, members, and contributors can all create, edit, or delete content in a workspace.
-    - content: Admins are the only role that can publish content to a workspace.
+      explanation: Admins, Members, and Contributors can create, edit, or delete content in a workspace.
+    - content: Admin is the only role that can publish content to a workspace.
       isCorrect: false 
-      explanation: Admins, members, and contributors can all publish content to a workspace.
-  - content: What is the best description of a workspace?
+      explanation: Admins, Members, and Contributors can publish content to a workspace.
+  - content: Which one of the following options is the best description of a workspace?
     choices: 
-    - content: A workspace is a feature in Power BI Service that allows you to view reports only.
+    - content: A workspace is a feature in Power BI service that allows you to view reports only.
       isCorrect: false
-      explanation: A workspace is a centralized location or repository that allows you to collaborate with colleagues and teams to create collections of reports, dashboards, etc.
+      explanation: A workspace is a centralized location or repository that allows you to collaborate with colleagues and teams to create collections of reports, dashboards, and so on.
     - content: A workspace is a feature of Power BI Desktop that allows you to build reports only.
       isCorrect: false 
-      explanation: Workspaces are a feature of Power BI Service.
-    - content: A workspace is a centralized location or repository that allows you to collaborate with colleagues and teams to create collections of reports, dashboards, etc.
+      explanation: A workspace is a centralized location or repository that allows you to collaborate with colleagues and teams to create collections of reports, dashboards, and so on.
+    - content: A workspace is a centralized location or repository that allows you to collaborate with colleagues and teams to create collections of reports, dashboards, and so on.
       isCorrect: true
-      explanation: Workspaces are a centralized repository where you can collaborate with colleagues and teams to create collections of reports, dashboards, etc.
+      explanation: A workspace is a centralized location or repository that allows you to collaborate with colleagues and teams to create collections of reports, dashboards, and so on.
     - content: A workspace is a feature that allows you to view and edit the data model, build visualizations, and transform the data.
       isCorrect: false 
-      explanation: Workspaces are a centralized repository where you can collaborate with colleagues and teams to create collections of reports, dashboards, etc.
-  - content: What feature in Power BI Service can you use to troubleshoot the flow of data from its source to its destination?
+      explanation: A workspace is a centralized location or repository that allows you to collaborate with colleagues and teams to create collections of reports, dashboards, and so on.
+  - content: What feature in Power BI service can you use to troubleshoot the flow of data from its source to its destination?
     choices: 
-    - content: Usage Metrics Report
+    - content: Usage Metrics report
       isCorrect: false
-      explanation: View Lineage allows you to view and troubleshoot the data flow from source to destination.
+      explanation: Lineage view allows you to view and troubleshoot the data flow from source to destination.
     - content: Query Caching
       isCorrect: false 
-      explanation: View Lineage allows you to view and troubleshoot the data flow from source to destination.
+      explanation: Lineage view allows you to view and troubleshoot the data flow from source to destination.
     - content: Quick Insights
       isCorrect: false 
-      explanation: View Lineage allows you to view and troubleshoot the data flow from source to destination.
-    - content: View Lineage
+      explanation: Lineage view allows you to view and troubleshoot the data flow from source to destination.
+    - content: Lineage view
       isCorrect: true 
-      explanation: View Lineage allows you to view and troubleshoot the data flow from source to destination.
+      explanation: Lineage view allows you to view and troubleshoot the data flow from source to destination.
