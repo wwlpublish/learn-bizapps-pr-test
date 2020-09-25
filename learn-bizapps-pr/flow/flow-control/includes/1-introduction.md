@@ -2,7 +2,7 @@ In process development, the order in which actions and functions are implemented
 
 By using flow control actions in WinAutomation, users can direct the process flow as necessary, allowing for more efficient development. 
 
-The ability to adjust the flow is critical and enables developers to create robust and more efficient processes. Accordingly, developers can implement functionality in case of exceptions and then skip the unnecessary steps.  
+The ability to adjust the flow is critical and enables developers to create robust and more efficient processes. Accordingly, developers can implement functionality when working with exceptions and then skip the unnecessary steps.  
 
 ## Learning objectives
 
