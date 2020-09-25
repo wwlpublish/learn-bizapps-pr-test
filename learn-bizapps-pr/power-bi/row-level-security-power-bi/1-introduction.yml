@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.row-level-security-power-bi.1-introduction 
-title: Introduction to row-level security
+title: Introduction
 metadata: 
-  title: Introduction to row-level security
-  description: Learn about row-level security. 
+  title: Introduction
+  description: Learn about row-level security in Microsoft Power BI. 
   ms.date: 06/30/2020 
   author: heyrob 
   ms.author: robde 
