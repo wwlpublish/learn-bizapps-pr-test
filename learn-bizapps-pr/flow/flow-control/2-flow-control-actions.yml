@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-control.2-flow-control-actions 
-title: Flow Control Actions
+title: Flow control actions
 metadata: 
-  title: Flow Control Actions
-  description: Flow Control Actions
+  title: Flow control actions
+  description: Learn about the flow control actions in WinAutomation.
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
