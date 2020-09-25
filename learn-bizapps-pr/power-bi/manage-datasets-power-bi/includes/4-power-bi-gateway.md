@@ -13,7 +13,7 @@ Two types of on-premises gateways are:
 
 ## Use an on-premises gateway
 
-Before you can connect to your on-premises data source, you need to [install the on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-install/?azure-portal=true), and then configure it to suit your organizational needs. This task is usually done by an admin in your organization.
+Before you can connect to your on-premises data source, you need to [install the on-premises data gateway](https://docs.microsoft.com/data-integration/gateway/service-gateway-install/?azure-portal=true), and then configure it to suit your organizational needs. Usually, this task is completed by an admin in your organization.
 
 When the on-premises gateway is installed and configured, you can start the gateway and then sign in by using your Microsoft 365 organization account.
 
