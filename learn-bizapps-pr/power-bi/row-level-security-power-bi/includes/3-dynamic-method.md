@@ -1,6 +1,6 @@
 You can set up row-level security only once, without the need to continue maintaining it dynamically. 
 
-To continue the scenario with Tailwind Traders, you want Power BI row-level security to only show sales to the user who made them. In this example, Russel King has made four sales. When he views your report, he should only see the sales that he's responsible for and no other sales. You can configure row-level security exactly the way you configured it previously, with only a single change. Instead of creating four roles, you only need to create one role. The DAX filter for that role would look similar to the following image.
+To continue the scenario with Tailwind Traders, you want Power BI row-level security to only show sales to the user who made them. In this example, Russel King has made four sales. When viewing your report, Russel should only see the sales that he's responsible for and no other sales. You can configure row-level security exactly the way you configured it previously, with only a single change. Instead of creating four roles, you only need to create one role. The DAX filter for that role would look similar to the following image.
 
 > [!div class="mx-imgBorder"]
 > [![Dynamic role-level security](../media/03-dynamic-ss.png)](../media/03-dynamic-ss.png#lightbox)
