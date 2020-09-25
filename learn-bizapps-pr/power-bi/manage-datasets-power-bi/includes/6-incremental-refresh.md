@@ -67,12 +67,12 @@ Right-click the applicable table and then select **Incremental refresh**.
 > [!div class="mx-imgBorder"]
 > [![Select incremental refresh option](../media/6-select-incremental-refresh-option-ssm.png)](../media/6-select-incremental-refresh-option-ssm.png#lightbox)
 
-On the **Incremental refresh** window that displays, turn on the **Incremental refresh** option. Then, configure the refresh as required. In this example, you will define a refresh policy to store data for five full calendar years, plus data for the current year up to the current date, and incrementally refresh ten days of data. 
+On the **Incremental refresh** window that displays, turn on the **Incremental refresh** option. Then, configure the refresh as required. In this example, you will define a refresh policy to store data for five full calendar years, plus data for the current year up to the current date, and incrementally refresh 10 days of data. 
 
 > [!div class="mx-imgBorder"]
 > [![Select incremental refresh settings](../media/6-select-incremental-refresh-settings-ssm.png)](../media/6-select-incremental-refresh-settings-ssm.png#lightbox)
 
-The first refresh operation in Power BI service will load the historical data for the last five years. The subsequent refresh operations are incremental, and they will refresh the data that was changed in the last ten days up to the current date. The incremental refreshes will also remove calendar years that are older than five years prior to the current date.
+The first refresh operation in Power BI service will load the historical data for the last five years. The subsequent refresh operations are incremental, and they will refresh the data that was changed in the last 10 days up to the current date. The incremental refreshes will also remove calendar years that are older than five years prior to the current date.
 
 ## Publish to Power BI service
 
