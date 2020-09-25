@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.wwl.build-automated-solution.build-recurring-flows
+title: Build recurring flows
+metadata:
+  title: Build recurring flows
+  description: "Build recurring flows"
+  ms.date: 09/28/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 8
+content: |
+  [!include[](includes/2a-build-recurring-flows.md)]

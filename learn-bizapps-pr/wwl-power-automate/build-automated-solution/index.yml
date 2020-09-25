@@ -3,7 +3,7 @@ uid: learn-bizapps.wwl.build-automated-solution
 metadata:
   title: How to build an automated solution
   description: "How to build an automated solution"
-  ms.date: 07/12/2020
+  ms.date: 09/28/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
@@ -29,6 +29,8 @@ products:
 units:
 - learn-bizapps.wwl.build-automated-solution.introduction
 - learn-bizapps.wwl.build-automated-solution.create-flow-template
+- learn-bizapps.wwl.build-automated-solution.build-recurring-flows
+- learn-bizapps.wwl.build-automated-solution.build-button-flow
 - learn-bizapps.wwl.build-automated-solution.build-approval-request
 - learn-bizapps.wwl.build-automated-solution.build-business-process-flow
 - learn-bizapps.wwl.build-automated-solution.knowledge-check

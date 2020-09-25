@@ -49,7 +49,7 @@ First, let's create the SharePoint list.
     ![Title form options](../media/tweet-title.png)
 
 7. In the **Assigned to** field, enter and select either your name or the name of a test user.  
-    ![Assigned to field in creating a new approval](../media/tweet-assigned-to.png)
+    ![Assigned to field in creating a new approval](../media/tweet-assigned.png)
 
 8. In the **Details** field, remove the default items, and add **TweetContent**, **TweetDate**, and **Created by DisplayName** from the dynamic content list. Add the words *on* and *by* to make the content more readable, as shown here.  
     ![Customizing details field](../media/tweet-details.png)
@@ -58,7 +58,7 @@ First, let's create the SharePoint list.
     ![Item link field](../media/tweet-item-link.png)
 
 10. In the **Condition** action, hover over the **IF YES** box, select the plus sign (**+**), and then select **Add an action**.  
-    ![Editing conditions](../media/add-an-action.png)
+    ![Editing conditions](../media/add-action.png)
 
 11. Search for *update item*, select the **SharePoint** connector, and then select the **SharePoint – Update item** action.  
     ![Adding SharePoint as a connector](../media/update-item.png)
@@ -73,7 +73,7 @@ First, let's create the SharePoint list.
     ![Pulling in Comments field](../media/approver-status.png)
 
 15. Near the bottom of the **IF NO, DO NOTHING** box, select **Add an action**.  
-    ![Confirmation add an action button](../media/add-a-no-action.png)
+    ![Confirmation add an action button](../media/add-no-action.png)
 
 16. Repeat steps 11 through 14 to create a **SharePoint – Update item** action. Set the same values that you set for the **IF YES** condition. The only difference is that you set the **ApprovalStatus** field to *No* this time.  
     ![Update item to not approved status](../media/status-no.png)
@@ -85,7 +85,7 @@ First, let's create the SharePoint list.
 
 Congratulations! You just created your first approval flow.
 
-This unit showed just one way that Power Automate can empower your team to be more productive. Your team can contribute ideas, relevant news, or product guidance, but you maintain control over what's tweeted out to customers.
+This unit showed another way that Power Automate can empower your team to be more productive. Your team can contribute ideas, relevant news, or product guidance, but you maintain control over what's tweeted out to customers.
 
 ## Use the approval center
 
@@ -93,8 +93,12 @@ Power Automate helps users to manage their approvals through the approval center
 
 ## Export the flow
 
-Now that you have built a flow you can also export the flow. When exporting a flow, you can either export to a package or a Logic Apps template. Both options are available from the flow details page.
+Now that you have built a flow, you can also export the flow. When exporting a flow, you can either export to a package or a Logic Apps template. Both options are available from the flow details page.
 
 When you export to a package you can then send the resulting zip file to a co-worker in the same tenant to import or to someone in another tenant. The wizard will then walk them through importing the package and connecting it to their specific data sources.
 
-When you export to a Logic Apps template then you can go to Azure Logic Apps and import the template. Logic Apps can then be used to run the logic you created in flow or can be used to extend the logic using Azure Logic Apps specific functionality. Azure Logic Apps is the engine that Power Automate flows are built upon and is outside the scope of this topic.
+When you export to a Logic Apps template, you can go to Azure Logic Apps and import the template. 
+Logic Apps can then be used to run the logic you created in the flow or can be used to extend the 
+logic using Azure Logic Apps specific functionality. Azure Logic Apps is the engine that Power Automate 
+flows are built upon. You can read more about exporting your flows to Logic Apps here: 
+<https://docs.microsoft.com/azure/logic-apps/export-from-microsoft-flow-logic-app-template>
