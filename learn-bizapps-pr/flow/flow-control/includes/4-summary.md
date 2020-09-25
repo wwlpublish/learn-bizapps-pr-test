@@ -1,1 +1,1 @@
-This module shows how the process flow works. The module covers the order of actions, and how it can be changed for large, complex processes. By the end of this module, the user should have a good understanding of how to use the Flow Control actions to direct and manipulate the process flow.
+This module explained how the process flow works, the order of actions, and how the order can be changed for large, complex processes. By now, you should have a good understanding of how to use the flow control actions to direct and manipulate the process flow.

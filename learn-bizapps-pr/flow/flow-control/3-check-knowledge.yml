@@ -13,34 +13,34 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "What is the name of the Action used to run Queries on a database after a connection has been established?"
+  - content: What is the name of the action that is used to run queries on a database after a connection has been established?
     choices: 
-    - content: "Open SQL Connection"
+    - content: Open SQL Connection
       isCorrect: false 
-      explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
-    - content: "Execute SQL Statement"
+      explanation: The Execute SQL Statement action is used to run queries.
+    - content: Execute SQL Statement
       isCorrect: true 
-      explanation: "That is correct."
-    - content: "Select from Database"
+      explanation: The Execute SQL Statement action is used to run queries.
+    - content: Select from Database
       isCorrect: false 
-      explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
-    - content: "Run Query"
+      explanation: The Execute SQL Statement action is used to run queries.
+    - content: Run Query
       isCorrect: false 
-      explanation: "Your answer is incorrect. The Execute SQL Statement Action is used to run queries."
-  - content: "In order to run queries on a database, a connection must be established first. To this end, use the Open SQL Connection Action."
-    choices: 
-    - content: "True"
-      isCorrect: true 
-      explanation: "That is correct!"
-    - content: "False"
-      isCorrect: false 
-      explanation: "That is incorrect, the statement is true."
-  - content: "The Close SQL Connection Action requires the connection string."
+      explanation: The Execute SQL Statement action is used to run queries.
+  - content: To run queries on a database, a connection must be established first by using the Open SQL Connection action. (True or False)
     choices: 
     - content: "True"
+      isCorrect: true 
+      explanation: To be able to run queries on a database, you need to first establish a connection by using the Open SQL Connection action.
+    - content: "False"
       isCorrect: false 
-      explanation: "That is incorrect. The Close SQL Connection requires the SQL connection variable."
+      explanation: To be able to run queries on a database, you need to first establish a connection by using the Open SQL Connection action.
+  - content: The Close SQL Connection action requires the connection string. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: The Close SQL Connection action requires the SQL connection variable.
     - content: "False"
       isCorrect: true 
-      explanation: "That is correct!"
+      explanation: The Close SQL Connection action requires the SQL connection variable.
 
