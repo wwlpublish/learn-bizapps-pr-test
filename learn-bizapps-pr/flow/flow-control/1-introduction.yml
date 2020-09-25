@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-control.1-introduction 
-title: Introducing flow control
+title: Introduction
 metadata: 
-  title: Introducing flow control
-  description: Introducing flow control
+  title: Introduction
+  description: Introduction to flow control actions in WinAutomation
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
