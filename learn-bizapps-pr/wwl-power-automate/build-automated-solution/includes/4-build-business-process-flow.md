@@ -36,39 +36,39 @@ Business process flows are used to guide a user through the steps of your busine
 
     1. Drag the **Stage** component from the **Components** tab to the plus sign (+) in the designer.
 
-      ![Stage tabs](../media/new-stage-component.png)
+       ![Stage tabs](../media/new-stage-component.png)
 
     2. Select the stage, and then, on the **Properties** tab on the right, set the properties:
 
-      1. Enter a display name.
+       1. Enter a display name.
 
-      2. Optional: Select a category for the stage (for example, **Identify** or **Research**). This category appears as a chevron on the process bar.
+       2. Optional: Select a category for the stage (for example, **Identify** or **Research**). This category appears as a chevron on the process bar.
 
           ![Business Process Flow stages](../media/business-process-flow.png)
 
-      3. When you've finished setting the properties, select **Apply**.
+       3. When you've finished setting the properties, select **Apply**.
 
 8. Add steps to each stage:
 
     1. Drag the **Step** component from the **Components** tab to the stage.
 
-      ![Adding steps to each stage](../media/add-step-to-stage.png)
+       ![Adding steps to each stage](../media/add-step-to-stage.png)
 
     2. Select the step, and then, on the **Properties** tab, set the properties:
 
-      1. Enter a **display name** for the step.
+       1. Enter a **display name** for the step.
 
-      2. If users should be able to enter data to finish a step, select the **appropriate field** in the drop-down list.
+       2. If users should be able to enter data to finish a step, select the **appropriate field** in the drop-down list.
 
-      3. If users must fill in the selected field to finish the step before they can proceed to the next stage of the process, select **Required**.
+       3. If users must fill in the selected field to finish the step before they can proceed to the next stage of the process, select **Required**.
 
-      4. When you've finished, select **Apply**.
+       4. When you've finished, select **Apply**.
 
 9. Add a branch (condition) to the process:
 
     1. Drag the **Condition** component from the **Components** tab to the plus sign (+) between two stages.
 
-      ![Condition branches](../media/add-condition-to-business-process-flow.png)
+       ![Condition branches](../media/add-condition-to-business-process-flow.png)
 
     2. Select the condition, and then, on the Properties tab, set the properties. When you've finished, select Apply.
 
@@ -76,19 +76,19 @@ Business process flows are used to guide a user through the steps of your busine
 
     1. Drag the **Workflow** component from the **Components** tab to either a specific stage or the **Global Workflow** item:
 
-      - Drag the **Workflow** component to a specific stage if the workflow should be triggered when the process enters or exits that stage. The **Workflow** component must be based on the same primary entity as the stage.
+       - Drag the **Workflow** component to a specific stage if the workflow should be triggered when the process enters or exits that stage. The **Workflow** component must be based on the same primary entity as the stage.
 
-      - Drag the **Workflow** component to the **Global Workflow** item if the workflow should be triggered when the process is activated or archived (that is, when the status changes to **Completed** or **Abandoned**). The **Workflow** component must be based on the same primary entity as the process.
+       - Drag the **Workflow** component to the **Global Workflow** item if the workflow should be triggered when the process is activated or archived (that is, when the status changes to **Completed** or **Abandoned**). The **Workflow** component must be based on the same primary entity as the process.
 
     2. Select the condition, and then, on the **Properties** tab, set the properties:
 
-      1. Enter a **display name**.
+       1. Enter a **display name**.
 
-      2. Select when the **workflow** should be triggered.
+       2. Select when the **workflow** should be triggered.
 
-      3. Search for an existing on-demand active workflow that matches the stage entity, or create a workflow by selecting **New**.
+       3. Search for an existing on-demand active workflow that matches the stage entity, or create a workflow by selecting **New**.
 
-      4. When you've finished, select **Apply**.
+       4. When you've finished, select **Apply**.
 
 11. To validate the business process flow, select **Validate** on the action bar.
 
@@ -102,7 +102,7 @@ Business process flows are used to guide a user through the steps of your busine
 
     2. On the **Business Process Flows** tab, select options to assign the role appropriate privileges for the business process flow.
 
-      ![Business process flow tab for security roles](../media/business-process-flow-security-role.png)
+       ![Business process flow tab for security roles](../media/business-process-flow-security-role.png)
 
     3. Select **Save**.
 
