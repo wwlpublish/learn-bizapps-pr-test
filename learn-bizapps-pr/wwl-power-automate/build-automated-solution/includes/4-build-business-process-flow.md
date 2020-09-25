@@ -34,11 +34,11 @@ Business process flows are used to guide a user through the steps of your busine
 
 7. Add stages, so that users can proceed from one business stage to another in the process:
 
-    a. Drag the **Stage** component from the **Components** tab to the plus sign (+) in the designer.
+    1. Drag the **Stage** component from the **Components** tab to the plus sign (+) in the designer.
 
       ![Stage tabs](../media/new-stage-component.png)
 
-    b. Select the stage, and then, on the **Properties** tab on the right, set the properties:
+    2. Select the stage, and then, on the **Properties** tab on the right, set the properties:
 
       1. Enter a display name.
 
@@ -50,11 +50,11 @@ Business process flows are used to guide a user through the steps of your busine
 
 8. Add steps to each stage:
 
-    a. Drag the **Step** component from the **Components** tab to the stage.
+    1. Drag the **Step** component from the **Components** tab to the stage.
 
       ![Adding steps to each stage](../media/add-step-to-stage.png)
 
-    b. Select the step, and then, on the **Properties** tab, set the properties:
+    2. Select the step, and then, on the **Properties** tab, set the properties:
 
       1. Enter a **display name** for the step.
 
@@ -66,21 +66,21 @@ Business process flows are used to guide a user through the steps of your busine
 
 9. Add a branch (condition) to the process:
 
-    a. Drag the **Condition** component from the **Components** tab to the plus sign (+) between two stages.
+    1. Drag the **Condition** component from the **Components** tab to the plus sign (+) between two stages.
 
       ![Condition branches](../media/add-condition-to-business-process-flow.png)
 
-    b. Select the condition, and then, on the Properties tab, set the properties. When you've finished, select Apply.
+    2. Select the condition, and then, on the Properties tab, set the properties. When you've finished, select Apply.
 
 10. Add a workflow to the process:
 
-    a. Drag the **Workflow** component from the **Components** tab to either a specific stage or the **Global Workflow** item:
+    1. Drag the **Workflow** component from the **Components** tab to either a specific stage or the **Global Workflow** item:
 
       - Drag the **Workflow** component to a specific stage if the workflow should be triggered when the process enters or exits that stage. The **Workflow** component must be based on the same primary entity as the stage.
 
       - Drag the **Workflow** component to the **Global Workflow** item if the workflow should be triggered when the process is activated or archived (that is, when the status changes to **Completed** or **Abandoned**). The **Workflow** component must be based on the same primary entity as the process.
 
-    b. Select the condition, and then, on the **Properties** tab, set the properties:
+    2. Select the condition, and then, on the **Properties** tab, set the properties:
 
       1. Enter a **display name**.
 
@@ -98,13 +98,13 @@ Business process flows are used to guide a user through the steps of your busine
 
 14. To define who has privileges to create, read, update, or delete the business process flow instance, select **Edit Security Roles** on the action bar. For example, for service-related processes, you might give customer service reps full access to change the business process flow instance. But you might give sales reps just read-only access to the instance, so that they can monitor post-sales activities for their customers.
 
-    a. In the **Security Roles** pane, select the name of a role to open the details page for that role.
+    1. In the **Security Roles** pane, select the name of a role to open the details page for that role.
 
-    b. On the **Business Process Flows** tab, select options to assign the role appropriate privileges for the business process flow.
+    2. On the **Business Process Flows** tab, select options to assign the role appropriate privileges for the business process flow.
 
       ![Business process flow tab for security roles](../media/business-process-flow-security-role.png)
 
-    c. Select **Save**.
+    3. Select **Save**.
 
 ## Edit a business process flow
 
