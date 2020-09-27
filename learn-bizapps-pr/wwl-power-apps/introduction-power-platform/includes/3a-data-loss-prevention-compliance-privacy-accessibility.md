@@ -19,7 +19,7 @@ protection and productivity. For tenant-level policies, you can define the scope
 to be all environments, selected environments, or all environments except ones
 you specifically exclude.
 
-Connectors can be classified as either **Business** or **Non-Business **in the
+Connectors can be classified as either **Business** or **Non-Business** in the
 context of your organization. Connectors that host business-use data should be
 classified as **Business** and connectors that host personal-use data should be
 classified as **Non-Business**. Any connectors that you want to restrict usage
