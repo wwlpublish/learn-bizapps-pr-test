@@ -57,7 +57,7 @@ ensure data confidentiality and integrity between desktops and datacenters. API
 access from the customer endpoint to the server is also similarly protected.
 Currently, TLS 1.2 (or higher) is required for accessing the server endpoints.
 
-### Resources to manage GDPR Compliance
+### Resources to manage GDPR compliance
 
 The European Union General Data Protection Regulation (GDPR) is one of the
 newest privacy regulations enacted that gives rights to people to manage their
