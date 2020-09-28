@@ -1,1 +1,1 @@
-WinAutomation enables users to perform all the essential operations on Active Directory servers through the **Active Directory** Actions. Using these Actions, users can create, modify and manage Active Directory users, groups and objects.
+WinAutomation provides users with the ability to perform all essential operations in Active Directory servers through the Active Directory actions. With these actions, users can create, modify, and manage Active Directory users, groups, and objects.
