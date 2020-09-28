@@ -13,34 +13,34 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What is the name of the action that is used to run queries on a database after a connection has been established?
+  - content: "The Go To Action directs the process flow to:"
     choices: 
-    - content: Open SQL Connection
+    - content: "Another process."
       isCorrect: false 
-      explanation: The Execute SQL Statement action is used to run queries.
-    - content: Execute SQL Statement
+      explanation: "Your answer is incorrect. The Go To Action directs the process flow to a label."
+    - content: "A Label."
       isCorrect: true 
-      explanation: The Execute SQL Statement action is used to run queries.
-    - content: Select from Database
+      explanation: "That is correct!"
+    - content: "Another function."
       isCorrect: false 
-      explanation: The Execute SQL Statement action is used to run queries.
-    - content: Run Query
+      explanation: "Your answer is incorrect. The Go To Action directs the process flow to a label."
+    - content: "All of the above"
       isCorrect: false 
-      explanation: The Execute SQL Statement action is used to run queries.
-  - content: To run queries on a database, a connection must be established first by using the Open SQL Connection action. (True or False)
-    choices: 
-    - content: "True"
-      isCorrect: true 
-      explanation: To be able to run queries on a database, you need to first establish a connection by using the Open SQL Connection action.
-    - content: "False"
-      isCorrect: false 
-      explanation: To be able to run queries on a database, you need to first establish a connection by using the Open SQL Connection action.
-  - content: The Close SQL Connection action requires the connection string. (True or False)
+      explanation: "Your answer is incorrect. The Go To Action directs the process flow to a label."
+  - content: "The Exit Function Action is not necessary at the end of a function."
     choices: 
     - content: "True"
+      isCorrect: true 
+      explanation: "That is correct!"
+    - content: "False"
       isCorrect: false 
-      explanation: The Close SQL Connection action requires the SQL connection variable.
+      explanation: "That is incorrect, the statement is true."
+  - content: "The End Exception Block Action is necessary at the end of every function."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is incorrect. The End Exception Block Action is only necessary at the end of an exception block."
     - content: "False"
       isCorrect: true 
-      explanation: The Close SQL Connection action requires the SQL connection variable.
+      explanation: "That is correct!"
 
