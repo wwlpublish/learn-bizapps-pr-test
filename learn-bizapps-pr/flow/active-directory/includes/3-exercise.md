@@ -51,7 +51,7 @@ The last step in the process, **Close Active Directory Connection**, will discon
 
 ## Run the process
 
-Run the process, and an Active Directory connection will be established. A user will created based on your input, the user will added to a group, a computer will be created, and then the connection will close.
+Run the process, and an Active Directory connection will be established. To determine if the process was successful, you should notice that a user was created based on your input, the user was added to a group, a computer was created, and then the connection was closed.
 
 ## Active Directory check
 
