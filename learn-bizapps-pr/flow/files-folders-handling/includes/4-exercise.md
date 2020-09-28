@@ -23,11 +23,11 @@ Follow these steps to organize and manage files and folders:
 
 5. Set the **Special Folder Name:** field to **DesktopDirectory** and then store it in a variable.
 
-![Get Special Folder exercise](..\media\get-special-folder-exercise.png)
+   ![Get Special Folder exercise.](..\media\get-special-folder-exercise.png)
 
 6. Using the **Get Files in Folder** action, set the **Folder** field to **%SpecialFolder%\Important**. This setting will select the folder that you previously created on the desktop.
 
-![Get FIles in Folder exercise](..\media\get-files-in-folder-exercise.png)
+   ![Get FIles in Folder exercise.](..\media\get-files-in-folder-exercise.png)
  
 7. Add the **Create Folder** action to the workspace. 
 
@@ -35,19 +35,19 @@ Follow these steps to organize and manage files and folders:
 
 9. In the **New Folder Name** field, enter **Backup Files**.
 
-![Create Folder exercise](..\media\create-folder-exercise.png)
+   ![Create Folder exercise.](..\media\create-folder-exercise.png)
  
 10. Add the **Copy File(s)** action. 
 
 11. Set the **File(s) to Copy** field to **%Files%**, the **Destination Folder** field to **%New Folder%**, and the **If File(s) Exists** drop-down option to **Overwrite**.
 
-![Copy Files exercise](..\media\copy-files-exercise.png)
+    ![Copy Files exercise.](..\media\copy-files-exercise.png)
  
 12. To create the log file, add the **Write Text to File** action and then set the **File Path** field to **%NewFolder%\Backup Log.txt**. 
 
 13. In the **Text to Write** field, add a message that will show that the process has run successfully.
 
-![Write Text to File Exercise](..\media\write-text-to-file-exercise.png)
+    ![Write Text to File Exercise.](..\media\write-text-to-file-exercise.png)
  
 14. Add the **Rename File(s)** action and then set the **File(s) to Rename** field to **%NewFolder%\Backup Log.txt**. 
 
@@ -55,11 +55,11 @@ Follow these steps to organize and manage files and folders:
 
 16. Set the **Separator** drop-down option to **no separator** and the **DateTime Format** option to **dd.MM.yy_HH.mm**.
 
-![Rename Files exercise](..\media\rename-files-exercise.png)
+    ![Rename Files exercise.](..\media\rename-files-exercise.png)
  
-The completed process should resemble the following screenshot.
+    The completed process should resemble the following screenshot.
 
-![process finished exercise](..\media\completed-process-workspace-exercise.png)
+    ![process finished exercise.](..\media\completed-process-workspace-exercise.png)
  
 17. Run the process. 
 
