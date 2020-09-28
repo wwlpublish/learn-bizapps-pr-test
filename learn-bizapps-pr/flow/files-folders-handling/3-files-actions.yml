@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.files-folders-handling.3-files-actions 
-title: Files Actions
+title: File actions
 metadata: 
-  title: Files Actions
-  description: Files Actions
+  title: File actions
+  description: Learn about file actions in WinAutomation.
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
