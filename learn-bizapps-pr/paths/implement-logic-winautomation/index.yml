@@ -1,0 +1,35 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.implement-logic-winautomation
+metadata:
+  title: Implement advanced logic in WinAutomation
+  description: Learn how to implement advanced logic WinAutomation.
+  ms.date: 09/25/2020
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Implement advanced logic in WinAutomation
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Logic in WinAutomation helps with automating processes. In this Learning Path, learn how to work with system processes, flow control, mimic mouse actions, and manipulate text, date, and time operations. 
+prerequisites: Basic familiarity with WinAutomation and algorithmic logic.
+iconUrl: /learn/achievements/implement-logic-winautomation.svg
+levels:
+- intermediate
+roles: 
+- administrator
+- maker  
+- business-user  
+- developer 
+- functional-consultant
+products:
+- power-platform
+- power-automate
+modules:
+- learn-bizapps.system-services-actions
+- learn-bizapps.flow-control
+- learn-bizapps.mouse-keyboard
+- learn-bizapps.text-manipulation
+- learn-bizapps.sync-actions
+trophy: 
+  uid: learn-bizapps.implement-logic-winautomation.trophy

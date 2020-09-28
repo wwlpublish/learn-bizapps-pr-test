@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.row-level-security-power-bi.2-static-method 
-title:  Configure row-level security using a static method
+title: Configure row-level security with the static method
 metadata: 
-  title:  Configure row-level security using a static method 
-  description: Learn how to configure row-level security using a static method.  
+  title: Configure row-level security with the static method 
+  description: Learn how to configure row-level security by using the static method.  
   ms.date: 06/30/2020 
   author: heyrob 
   ms.author: robde 
