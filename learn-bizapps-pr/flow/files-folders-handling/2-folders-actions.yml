@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.files-folders-handling.2-folders-actions 
-title: Folders Actions
+title: Folder actions
 metadata: 
-  title: Folders Actions
-  description: Folders Actions
+  title: Folder actions
+  description: Learn about folder actions in WinAutomation.
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
