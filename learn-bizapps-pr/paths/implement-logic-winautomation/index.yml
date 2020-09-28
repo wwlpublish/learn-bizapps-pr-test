@@ -27,6 +27,7 @@ products:
 - power-automate
 modules:
 - learn-bizapps.system-services-actions
+- learn-bizapps.flow-control
 - learn-bizapps.mouse-keyboard
 - learn-bizapps.text-manipulation
 - learn-bizapps.sync-actions
