@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.database-handling.2-database-actions 
-title: Database Actions
+title: Database actions
 metadata: 
-  title: Database Actions
-  description: Database Actions
+  title: Database actions
+  description: Learn about database actions in WinAutomation.
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
