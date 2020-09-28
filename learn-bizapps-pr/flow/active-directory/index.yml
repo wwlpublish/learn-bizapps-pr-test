@@ -2,7 +2,7 @@
 uid: learn-bizapps.active-directory 
 metadata: 
  title: Active Directory handling in WinAutomation
- description: This module covers the Active Directory Actions in WinAutomation.
+ description: Learn about the Active Directory actions in WinAutomation.
  ms.date: 09/07/2020  
  author: olegmelnykov  
  ms.author: olmelnyk  
@@ -11,13 +11,11 @@ metadata:
 title: Active Directory handling in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Active Directory is a directory service that enables administrators to manage permissions and access to network resources. WinAutomation provides the Active Directory Actions to automate all the related tasks. 
+  Microsoft Azure Active Directory (Azure AD) is a directory service that enables administrators to manage permissions and access to network resources. WinAutomation provides Active Directory actions to automate all related tasks. 
 abstract: |  
     In this module, you will: 
-    - Connect to an Active Directory Server
-    - Manage Users
-    - Manage Groups
-    - Manage Objects
+    - Connect to an Active Directory server.
+    - Manage users, groups, and objects with Active Directory actions.    
 prerequisites: |
     - Windows Server 2016 or later
     - Administrator rights
