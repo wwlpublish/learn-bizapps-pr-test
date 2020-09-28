@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.active-directory.2-active-directory-actions 
-title: Active Directory Actions
+title: Active Directory actions
 metadata: 
-  title: Active Directory Actions
-  description: Active Directory Actions
+  title: Active Directory actions
+  description: Learn about the various Active Directory actions in WinAutomation.
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
