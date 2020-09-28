@@ -28,6 +28,8 @@ products:
 modules:
 - learn-bizapps.automating-email-handling 
 - learn-bizapps.excel-automation
-- learn-bizapps.system-services-actions 
+- learn-bizapps.system-services-actions
+- learn-bizapps.flow-control 
+
 trophy: 
   uid: learn-bizapps.work-winautomation-technology.trophy
