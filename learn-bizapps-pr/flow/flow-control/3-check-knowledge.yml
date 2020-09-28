@@ -27,7 +27,7 @@ quiz:
     - content: "All of the above"
       isCorrect: false 
       explanation: "Your answer is incorrect. The Go To Action directs the process flow to a label."
-  - content: "The Exit Function Action is not necessary at the end of a function."
+  - content: "The Exit Function Action isn't necessary at the end of a function."
     choices: 
     - content: "True"
       isCorrect: true 
