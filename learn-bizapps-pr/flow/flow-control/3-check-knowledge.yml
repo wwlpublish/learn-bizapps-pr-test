@@ -1,0 +1,46 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.flow-control.3-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/28/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "The Go To Action directs the process flow to:"
+    choices: 
+    - content: "Another process."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Go To Action directs the process flow to a label."
+    - content: "A Label."
+      isCorrect: true 
+      explanation: "That is correct!"
+    - content: "Another function."
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Go To Action directs the process flow to a label."
+    - content: "All of the above"
+      isCorrect: false 
+      explanation: "Your answer is incorrect. The Go To Action directs the process flow to a label."
+  - content: "The Exit Function Action isn't necessary at the end of a function."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "That is correct!"
+    - content: "False"
+      isCorrect: false 
+      explanation: "That is incorrect, the statement is true."
+  - content: "The End Exception Block Action is necessary at the end of every function."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "That is incorrect. The End Exception Block Action is only necessary at the end of an exception block."
+    - content: "False"
+      isCorrect: true 
+      explanation: "That is correct!"
+
