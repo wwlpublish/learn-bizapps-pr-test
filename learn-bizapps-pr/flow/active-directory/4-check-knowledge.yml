@@ -13,27 +13,27 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "Before performing any Active Directory Action, first a connection must be established."
+  - content: Before performing Active Directory actions, you must first establish a connection. (True or False)
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: "Correct! All Active Directory Actions require an established connection."
+      explanation: All Active Directory actions require an established connection.
     - content: "False"
       isCorrect: false 
-      explanation: "That is false; All Active Directory Actions require an established connection."
-  - content: "Is the Connect to Active Directory Server the only Action to establish a connection?"
-    choices: 
-    - content: "Yes"
-      isCorrect: true
-      explanation: "Correct! All the other Active Directory Actions require a previously established connection."
-    - content: "No"
-      isCorrect: false  
-      explanation: "That is false; All the other Active Directory Actions require a previously established connection."
-  - content: "Creating an Active Directory Organizational Unit is done by the Create Active Directory Object Action."
+      explanation: All Active Directory actions require an established connection.
+  - content: Connect to Active Directory Server is the only action to establish a connection. (True or False)
     choices: 
     - content: "True"
       isCorrect: true
-      explanation: "Correct! The Create Active Directory Object Action creates an Active Directory Organizational Unit." 
+      explanation: All other Active Directory actions require a previously established connection.
+    - content: "False"
+      isCorrect: false  
+      explanation: All other Active Directory actions require a previously established connection.
+  - content: You would use the Create Active Directory Object action to create an Active Directory organizational unit. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: true
+      explanation: The Create Active Directory Object action creates an Active Directory organizational unit. 
     - content: "False"
       isCorrect: false 
-      explanation: "That is false; The Create Active Directory Object Action creates an Active Directory Organizational Unit."
+      explanation: The Create Active Directory Object action creates an Active Directory organizational unit.
