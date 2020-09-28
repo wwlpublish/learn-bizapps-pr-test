@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.active-directory.1-introduction 
-title: Introducing Active Directory
+title: Introduction
 metadata: 
-  title: Introducing Active Directory
-  description: Introducing Active Directory
+  title: Introduction
+  description: Introduction to Active Directory handling in WinAutomation
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
