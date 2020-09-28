@@ -1,1 +1,1 @@
-WinAutomation enables users to handle files and folders through the **Files** and **Folders** Actions. These Actions allow users to develop sophisticated Processes that create, retrieve, and modify files and folders.
+WinAutomation provides users with the ability to handle files and folders through the files and folders actions. These actions allow users to develop sophisticated processes that create, retrieve, and modify files and folders.
