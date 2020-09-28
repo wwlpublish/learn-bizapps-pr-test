@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.database-handling.1-introduction 
-title: Introducing Database Actions
+title: Introduction
 metadata: 
-  title: Introducing Database Actions
-  description: Introducing Database Actions
+  title: Introduction
+  description: Introduction to database actions in WinAutomation
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
