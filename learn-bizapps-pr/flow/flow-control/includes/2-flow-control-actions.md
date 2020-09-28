@@ -40,6 +40,5 @@ Configure the properties to do any combination of the described actions in the f
 |Continue Execution  |Repeat failed action       |Retry the action that produced an error. |
 |Continue Execution  |Go to beginning of block   |Direct the flow to retry the actions inside the exception block from the start. |
 |Continue Execution  |Go to end of block         |Direct the flow to the end of the block. |
-. | 
 
 ![begin exception block action properties](..\media\begin-exception-block-action-properties.png)
