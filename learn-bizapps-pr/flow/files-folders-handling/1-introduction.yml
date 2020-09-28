@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.files-folders-handling.1-introduction 
-title: Introducing files and folders handling
+title: Introduction
 metadata: 
-  title: Introducing files and folders handling
-  description: Introducing files and folders handling
+  title: Introduction
+  description: Introduction to file and folder handling in WinAutomation
   ms.date: 09/07/2020 
   author: olegmelnykov 
   ms.author: olmelnyk 
