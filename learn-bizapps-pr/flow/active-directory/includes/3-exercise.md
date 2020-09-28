@@ -1,58 +1,58 @@
-Develop a process that connects to an Active Directory server, creates a new user and object, and adds the user to a group.
+In this exercise, you will develop a process that connects to an Active Directory server, creates a new user and object, and then adds the user to a group.
 
-Specifically, the process will:
+You will complete the following tasks:
 
-* Open an Active Directory connection
-* Create a user with details based on the details provided
-* Add the user to an existing group
-* Add a computer based on the details provided
+- Open an Active Directory connection.
+- Create a user with information based on the provided details.
+- Add the user to an existing group.
+- Add a computer based on the provided details.
 
-## Connect to AD Server
+## Connect to an Active Directory server
 
-Create a new Process and add the **Connect to Active Directory Server** Action. Enter the **LDAP Path**, specifying the Domain Controllers.
+Create a new process and then add the **Connect to Active Directory Server** action. Enter information in the **LDAP Path** field, specifying the domain controllers.
 
-If authentication is required, check **Use Authentication**, and provide your **Authentication Type** as well as your credentials.
+If authentication is required, select the **Use Authentication** check box, and then provide your **Authentication Type** and credentials.
   
 ![connect to ad server properties exercise](..\media\connect-to-ad-server-properties-exercise.png)
  
-## Create an Active Directory User
+## Create an Active Directory user
 
-The **Create Active Directory User** Action requires the location where the user is to be created. Enter the location of the **Users** container. 
+The **Create Active Directory User** action requires the location where the user will be created. Enter the location of the user's container. 
 
-Provide the user’s personal details and credentials as below. Check the **Disable account** and **Password never expires** boxes.
+Provide the user’s personal details and credentials, as follows, and then select the **Disable account** and **Password never expires** check boxes.
 
-* First Name—Norbert
-* Last Name—Varga
-* Initials—NV
-* Username—nvarga
-* Password—Password123
+- **First Name** — Norbert
+- **Last Name** — Varga
+- **Initials** — NV
+- **Username** — nvarga
+- **Password** — Password123
 	
 ![create ad user properties exercise](..\media\create-ad-user-properties-exercise.png)
 
-## Add User to Group
+## Add the user to a group
 
-At this point in the process, an Active Directory user has been created, and the next step is to add this user to a group. 
+Now that an Active Directory user has been created, the next step is to add this user to a group with the **Modify Active Directory Group** action. 
 
-Use the **Modify Active Directory Group** Action. Specify the group by using its distinguished name and set the Operation to **Add User**, again specifying the user’s distinguished name.
+Specify the group by filling in the **Distinguished Name** field and then set the **Operation** option to **Add User**, again specifying the user’s distinguished name.
   
 ![modify ad group properties exercise](..\media\modify-ad-group-properties-exercise.png)
 
-## Create Computer Object
+## Create a computer object
 
-Next add the **Create Active Directory Object** action. Set the Object Name to **JSBOT** (in uppercase). The object’s location should be the **Computers** container, and the Object Type should be to **Computer** as well.
+Next, you will add the **Create Active Directory Object** action. Set the **Object Name** field to **JSBOT** (in uppercase). The object’s location should be the computer's container, and the **Object Type** option should be set to **Computer**.
   
 ![create ad object properties exercise](..\media\create-ad-object-properties-exercise.png)
 
-## Close Connection
+## Close connection
 
-The last action in the process, **Close Active Directory Connection** will disconnect from the Active Directory server.
+The last step in the process, **Close Active Directory Connection**, will disconnect from the Active Directory server.
   
 ![close ad connection properties exercise](..\media\close-ad-connection-properties-exercise.png)
 
-## Running the Process
+## Run the process
 
-Execute the process. An Active Directory connection will be established. A user is created based on your input, the user is added to a group, a computer is created, and the connection is closed.
+Run the process, and an Active Directory connection will be established. A user will created based on your input, the user will added to a group, a computer will be created, and then the connection will close.
 
-## Active Directory Check
+## Active Directory check
 
-You can check that the objects have been created by going to “Active Directory Users and Computers” on the server machine. Under users, check for the user and group, also confirming that the user is a member of the specified group. Under computers, the new computer object can also be confirmed to have been created.
+You can check that the objects have been created by going to **Active Directory Users and Computers** on the server machine. Under **Users**, check for the user and group and also confirm that the user is a member of the specified group. Under **Computers**, you can also confirm that the new computer object was created.
