@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.web-automation.2-launching-closing-handling-browsers 
-title: Launching, closing and handling browsers
+title: Launch, close, and handle browsers
 metadata: 
-  title: Launching, closing and handling browsers
-  description: Launching, closing and handling browsers
+  title: Launch, close, and handle browsers
+  description: Learn how to launch, close, and handle browsers in WinAutomation.
   ms.date: 09/17/2020 
   author: georgiostrantzas 
   ms.author: getrantz 
