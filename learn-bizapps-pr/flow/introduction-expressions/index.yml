@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.introduction-expressions 
+metadata: 
+ title: Introduction to expressions in Power Automate
+ description: Get the most out of your data using functions to create expressions. 
+ ms.date: 10/15/2020  
+ author: davebeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Introduction to expressions in Power Automate 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Get the most out of your data using functions to create expressions. 
+abstract: |  
+    In this module, you will: 
+    - Learn how to use one or more functions to create expressions. 
+    - Learn how to use functions to retrieve data, change data, evaluate data, and more. 
+prerequisites: None 
+iconUrl: /learn/achievements/introduction-expressions.svg  
+levels:  
+- intermediate   
+roles:  
+- functional-consultant  
+- maker 
+-developer
+products:  
+- power-automate 
+units: 
+- learn-bizapps.introduction-expressions.1-introduction 
+- learn-bizapps.introduction-expressions.2-get-started 
+- learn-bizapps.introduction-expressions.3-comments 
+- learn-bizapps.introduction-expressions.4-functions 
+- learn-bizapps.introduction-expressions.5-expressions 
+- learn-bizapps.introduction-expressions.6-exercise 
+- learn-bizapps.introduction-expressions.7-check 
+- learn-bizapps.introduction-expressions.8-summary 
+badge: 
+  uid: learn-bizapps.introduction-expressions.badge 
