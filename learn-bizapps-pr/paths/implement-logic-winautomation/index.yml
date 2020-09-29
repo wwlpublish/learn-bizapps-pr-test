@@ -29,6 +29,7 @@ modules:
 - learn-bizapps.system-services-actions
 - learn-bizapps.flow-control
 - learn-bizapps.mouse-keyboard
+- learn-bizapps.message-boxes
 - learn-bizapps.text-manipulation
 - learn-bizapps.sync-actions
 trophy: 
