@@ -48,7 +48,7 @@ Similar to the **Click Link on Web Page** action, the **Click Download Link on W
 
 ## Hover Mouse over element on Web Page action
 
-The **Hover Mouse over element on Web Page** action allows you to relocate the mouse pointer over a specified webpage element. This feature can be helpful on webpages that provide hoverable menus. 
+The **Hover Mouse over element on Web Page** action allows you to relocate the mouse pointer over a specified webpage element. This feature can be helpful on webpages that provide menus that you can hover over. 
 
 Inside the action, you need to specify the browser instance and a control that describes the element to hover over. 
 
