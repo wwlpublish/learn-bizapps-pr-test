@@ -99,6 +99,6 @@ To move, delete, or rename an object, use the appropriate actions and then speci
 > [!NOTE]
 > To list the distinguished names of all Active Directory computers, open the command prompt and run the following command:
 > dsquery computer
-
+> 
 > To list the distinguished names of all Active Directory organizational units, open the command prompt and run the following command:
 > dsquery ou
