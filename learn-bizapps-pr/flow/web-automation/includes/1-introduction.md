@@ -10,7 +10,7 @@ WinAutomation supports the automation of all major browsers through its web auto
 
 With such comprehensive support, users can handle any element in webpages and perform data extraction operations. 
 
-## Learning οbjectives
+## Learning objectives
 
  In this module, you will: 
 
