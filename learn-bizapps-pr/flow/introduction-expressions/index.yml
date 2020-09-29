@@ -2,7 +2,7 @@
 uid: learn-bizapps.introduction-expressions 
 metadata: 
  title: Introduction to expressions in Power Automate
- description: Get the most out of your data using functions to create expressions. 
+ description: Learn how to write expressions in Power Automate
  ms.date: 10/15/2020  
  author: davebeasley  
  ms.author: dbeasley  
@@ -25,6 +25,7 @@ roles:
 - maker 
 - developer
 products:  
+- power-platform
 - power-automate 
 units: 
 - learn-bizapps.introduction-expressions.1-introduction 

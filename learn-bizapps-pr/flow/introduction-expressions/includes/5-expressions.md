@@ -1,6 +1,8 @@
 Complex expressions are when you combine more than one function to get your desired result. In the Math functions and Date Time functions sections, you have already seen examples of this. You saw how in order to add three numbers, you need to combine two add functions like:
 
-`add(add(12,13),15)`
+```powerappsfl
+add(add(12,13),15)
+```
 
 Which resulted in the output of 40.
 
@@ -24,7 +26,9 @@ Now click on "Add an input" under "Manually trigger a flow" and add a Number. Th
 
 Now, in the Compose step you will add an expression to add the number of days from the trigger to the date.
 
-`addDays(triggerBody()['date'], triggerBody()['number'])`
+```powerappsfl
+addDays(triggerBody()['date'], triggerBody()['number'])
+```
 
 This is leveraging the Date Time function *addDays* and the Referencing function *triggerBody*.
 
@@ -38,7 +42,9 @@ If you test your flow and enter the date 2020-09-01 and the number 2, your outpu
 
 Now you can find out what day of the week that is by using another Compose action with the following expression:
 
-`dayOfWeek(outputs('Compose'))`
+```powerappsfl
+dayOfWeek(outputs('Compose'))
+```
 
 This returns the value of 4, which represents Thursday as it counts up from Sunday as 0. Here is a screenshot of the current flow to validate what you have built. Note the expressions have been placed in a comment to make them easier to read.
 
@@ -47,12 +53,16 @@ This returns the value of 4, which represents Thursday as it counts up from Sund
 
 Now add another Compose step to check to see if the date they selected is a Thursday. Do this with the following expression in Compose 3.
 
-`if(equals(outputs('Compose_2'),4), 'You chose a Thursday', 'You did not choose a Thursday')`
+```powerappsfl
+if(equals(outputs('Compose_2'),4), 'You chose a Thursday', 'You did not choose a Thursday')
+```
 
 For September 3, 2020 this will return the string "You chose a Thursday".
 
 This example is a typical build pattern for a complex expression, building piece by piece in separate steps. Now that you have all of the functions necessary worked out, add another Compose step. In Compose 4, write one large expression that does everything in one step. The expression will look like:
 
-`if(equals(dayOfWeek(addDays(triggerBody()['date'], triggerBody()['number'])),4), 'You chose a Thursday', 'You did not choose a Thursday' )`
+```powerappsfl
+if(equals(dayOfWeek(addDays(triggerBody()['date'], triggerBody()['number'])),4), 'You chose a Thursday', 'You did not choose a Thursday' )
+```
 
 The output for September 3, 2020 will be the string "You chose a Thursday". Congratulations. You have written a complex expression by doing small steps and then putting it all together in the end.

@@ -14,7 +14,9 @@ Then you can enter any text you want. This could either be text or just a copy a
 
 When you use text in a flow expression, you will use the ' (single quote) at the beginning and end of each string. For example, if you wanted to combine the string "Have a" and "good day!" in an expression, you would use the Concat function and your syntax would be:
 
-`Concat('Have a', ' good day!')` 
+```powerappsfl
+Concat('Have a', ' good day!')
+```
 
 > [!div class="mx-imgBorder"]
 > [![concat function syntax](../media/concat-function-ss.png)](../media/concat-function-ss.png#lightbox)
