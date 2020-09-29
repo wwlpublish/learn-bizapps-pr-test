@@ -29,7 +29,7 @@ modules:
 - learn-bizapps.automating-email-handling 
 - learn-bizapps.excel-automation
 - learn-bizapps.system-services-actions
-- learn-bizapps.flow-control 
+- learn-bizapps.files-folders-handling 
 
 trophy: 
   uid: learn-bizapps.work-winautomation-technology.trophy
