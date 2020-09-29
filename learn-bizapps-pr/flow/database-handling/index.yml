@@ -11,7 +11,7 @@ metadata:
 title: Database handling in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
- Databases are vital components of every organization, and efficient data handling is necessary for their effective operation. WinAutomation provides organizations with the ability to automate databases through the database actions. 
+  Databases are vital components of every organization, and efficient data handling is necessary for their effective operation. WinAutomation provides organizations with the ability to automate databases through the database actions. 
 abstract: |  
     In this module, you will: 
     - Compose a connection string to connect to a database.
