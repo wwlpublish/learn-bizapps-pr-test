@@ -2,7 +2,7 @@
 uid: learn-bizapps.web-automation 
 metadata: 
  title: Web automation in WinAutomation
- description: This module covers the Web Automation actions in WinAutomation.
+ description: Learn about the web automation actions in WinAutomation.
  ms.date: 09/17/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
@@ -11,16 +11,16 @@ metadata:
 title: Web automation in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Web applications are a critical part of most organizations. WinAutomation supports the automation of all major browsers through the Web Automation actions.
+  Web applications are critical components of most organizations. WinAutomation supports the automation of all major browsers through its web automation actions.
 abstract: |  
     In this module, you will: 
     - Learn how to configure web automation actions.
-    - Learn how to extract data from web pages. 
-    - Create a process that extracts the gainer stocks from the MSN website.
+    - Learn how to extract data from webpages. 
+    - Create a process that extracts gainer stocks from the MSN website.
 prerequisites: |
-    - Basic familiarity with the WinAutomation Console and Process Designer.
-    - Basic familiarity with process development and variables. 
-    - Basic familiarity with Controls Repository. 
+    - Basic familiarity with the WinAutomation Console and Process Designer
+    - Basic familiarity with process development and variables 
+    - Basic familiarity with the Controls Repository 
 iconUrl: /learn/achievements/web-automation.svg  
 levels:  
 - beginner   
