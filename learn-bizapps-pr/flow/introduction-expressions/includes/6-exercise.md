@@ -31,7 +31,7 @@ Let's say you need to find out how much it would cost to carpet a room based on 
 1. Next add a **,** and choose **Cost** in the dynamic content below.
 
 1. The complete expression should be:
-    **mul(triggerBody()['number'],triggerBody()['number_1'])**
+    `mul(triggerBody()['number'],triggerBody()['number_1'])`
 
 1. Select OK to add the expression into the Compose step.
 

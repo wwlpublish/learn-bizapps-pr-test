@@ -7,7 +7,7 @@ In the screenshot below, you will notice to the right of each category header (l
 > [!div class="mx-imgBorder"]
 > [![See more for complete list of functions](../media/see-more-ss.png)](../media/see-more-ss.png#lightbox)
 
-Select **See more**" beside String functions.
+Select **See more** beside String functions.
 
 > [!div class="mx-imgBorder"]
 > [![String functions see more](../media/string-function-see-more-ss.png)](../media/string-function-see-more-ss.png#lightbox)
@@ -48,7 +48,8 @@ The result of this expression would be the string "Yes". To understand the expre
 
 Now that you know the answer is true, you can see that the *If* function returns the data after the first comma. In this case that is the string "Yes". Had it been false then the string "No" would have been returned.
 
-Reminder. While you can write logical expressions as shown above, there is also an action called *Condition* that lets you write *If* statements without an expression.
+> [!IMPORTANT]
+> While you can write logical expressions as shown above, there is also an action called *Condition* that lets you write *If* statements without an expression.
 
 > [!div class="mx-imgBorder"]
 > [![condition to write if statements without an expression](../media/condition-ss.png)](../media/condition-ss.png#lightbox)
