@@ -19,7 +19,7 @@ abstract: |
 prerequisites: |
     - Basic familiarity with WinAutomation
     - An SQL database with at least one table that contains data
-iconUrl: /learn/achievements/database-handling .svg  
+iconUrl: /learn/achievements/database-handling.svg  
 levels:  
 - intermediate   
 roles:  
@@ -35,4 +35,4 @@ units:
 - learn-bizapps.database-handling.3-check-knowledge 
 - learn-bizapps.database-handling.4-summary 
 badge: 
-  uid: learn-bizapps.database-handling .badge 
+  uid: learn-bizapps.database-handling.badge 
