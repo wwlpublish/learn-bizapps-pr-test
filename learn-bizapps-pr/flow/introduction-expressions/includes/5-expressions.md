@@ -1,4 +1,4 @@
-Complex expressions are when you combine more than one function to get your desired result. In the Math functions and Date Time functions sections, you have already seen examples of this. You saw how in order to add 3 numbers, you need to combine two add functions like:
+Complex expressions are when you combine more than one function to get your desired result. In the Math functions and Date Time functions sections, you have already seen examples of this. You saw how in order to add three numbers, you need to combine two add functions like:
 
 `add(add(12,13),15)`
 
@@ -34,13 +34,13 @@ This is leveraging the Date Time function *addDays* and the Referencing function
 > [!div class="mx-imgBorder"]
 > [![add an expression](../media/add-expression-ss.gif)](../media/add-expression-ss.gif#lightbox)
 
-If you test your flow and enter the date 2020-09-01 and the number 2, your output will be 2020-09-03T00:00:00.0000000 which is UTC format for September 3rd, 2020.
+If you test your flow and enter the date 2020-09-01 and the number 2, your output will be 2020-09-03T00:00:00.0000000, which is UTC format for September 3rd, 2020.
 
 Now you can find out what day of the week that is by using another Compose action with the following expression:
 
 `dayOfWeek(outputs('Compose'))`
 
-This returns the value of 4 which represents Thursday as it counts up from Sunday as 0. Here is a screen shot of the current flow to validate what you have built. Note the expressions have been placed in a comment to make them easier to read.
+This returns the value of 4, which represents Thursday as it counts up from Sunday as 0. Here is a screenshot of the current flow to validate what you have built. Note the expressions have been placed in a comment to make them easier to read.
 
 > [!div class="mx-imgBorder"]
 > [![validate flow built](../media/flow-built-ss.png)](../media/flow-built-ss.png#lightbox)
@@ -51,8 +51,8 @@ Now add another Compose step to check to see if the date they selected is a Thur
 
 For September 3, 2020 this will return the string "You chose a Thursday".
 
-This example is a typical build pattern for a complex expression, building piece by piece in separate steps. Now that you have all of the functions necessary worked out, add another Compose step. In Compose 4, write one big expression that does everything in one step. The expression will look like:
+This example is a typical build pattern for a complex expression, building piece by piece in separate steps. Now that you have all of the functions necessary worked out, add another Compose step. In Compose 4, write one large expression that does everything in one step. The expression will look like:
 
 `if(equals(dayOfWeek(addDays(triggerBody()['date'], triggerBody()['number'])),4), 'You chose a Thursday', 'You did not choose a Thursday' )`
 
-The output for September 3, 2020 will be the string "You chose a Thursday". Congratulations. You have written a very complex expression by doing small steps and then putting it all together in the end.
+The output for September 3, 2020 will be the string "You chose a Thursday". Congratulations. You have written a complex expression by doing small steps and then putting it all together in the end.

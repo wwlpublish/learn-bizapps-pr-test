@@ -3,9 +3,9 @@ To write an expression in flow, you click in a field to open the Dynamic content
 > [!div class="mx-imgBorder"]
 > [![open the Dynamic content menu and  click Expression](../media/write-expression-ss.png)](../media/write-expression-ss.png#lightbox)
 
-In the formula box you will then write your expression by combining one or more functions. Before you learn about the different types of functions and their usage, there are some commonalities you should learn first. Function names are not case sensitive.
+In the formula box, you will then write your expression by combining one or more functions. Before you learn about the different types of functions and their usage, there are some commonalities you should learn first. Function names are not case-sensitive.
 
-Pro tip: Notice in the screenshot that we used a *Manually trigger a flow* trigger and a *Compose* action. This allows you to have a simple setup for writing and testing your expressions without worrying about other inputs or actions. Use this setup to follow along in this app or anytime you want to try something new out.
+Pro tip: Notice in the screenshot that we used a Manually triggers a flow* trigger and a *Compose* action. This allows you to have a simple setup for writing and testing your expressions without worrying about other inputs or actions. Use this setup to follow along in this app or anytime you want to try out something new.
 
 ## Auto suggest, hints, and links in the formula bar
 
@@ -21,11 +21,11 @@ After entering a Timestamp as a string typing a comma, then prompts for the dest
 > [!div class="mx-imgBorder"]
 > [![prompt for the destinationTimeZone](../media/prompt-ss.png)](../media/prompt-ss.png#lightbox)
 
-This can be daunting. What does it want for the time zone? If you look in the pop up, you'll see that it provides a link to the [list of time zone values](https://msdn.microsoft.com/library/gg154758.aspx/?azure-portal=true). This page provides you the string for the *destinationTimeZone*. With that information we can now complete the expression.
+This can be daunting. What does it want for the time zone? If you look in the pop-up, you'll see that it provides a link to the [list of time zone values](https://msdn.microsoft.com/library/gg154758.aspx/?azure-portal=true). This page provides you the string for the *destinationTimeZone*. With that information, we can now complete the expression.
 
 `convertFromUtc('2020-09-01T12:00:00Z','Eastern Standard Time')`
 
-With the complete formula, you can click OK to save your changes. Always be sure to click OK or UPDATE when editing an expression. If you click out of the inputs you will lose your changes. Flow does not have autosave.
+With the complete formula, you can click OK to save your changes. Always be sure to click OK or UPDATE when editing an expression. If you click out of the inputs, you will lose your changes. Flow does not have autosave.
 
 With your first expression complete, you can now click Test in the top right-hand corner. Then click Save & Test. Click the Run flow button and then Done.
 

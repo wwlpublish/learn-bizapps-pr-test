@@ -72,7 +72,7 @@ Let's say you need to find out how much it would cost to carpet a room based on 
 	> [!div class="mx-imgBorder"]
 	> [![Complete flow](../media/complete-flow-ss.png)](../media/complete-flow-ss.png#lightbox)
 
-1. In the top right corner, select the Save button, then select Test.
+1. In the top-right corner, select the Save button, then select Test.
 
 	> [!div class="mx-imgBorder"]
 	> [![Save and then Test](../media/save-test-ss.png)](../media/save-test-ss.png#lightbox)
@@ -94,5 +94,5 @@ Let's recap what we've done.
 
 **Manually trigger a flow** - Allows us to press a button to trigger a Flow and provide inputs. In this case our two inputs are *Square Footage* and *Cost*, which we are using to find out the total price to carpet a room.
 
-**Compose** - We use this to write expressions using the data from elsewhere in the flow. In this case we first multiplied the two inputs from the trigger. This gave us the correct number, but we still needed to convert it to currency. We then used another compose action to format the multiplied result into currency. Finally giving us the easiest answer of how much it would cost to carpet a room.
+**Compose** - We use this to write expressions using the data from elsewhere in the flow. In this case, we first multiplied the two inputs from the trigger. This gave us the correct number, but we still needed to convert it to currency. We then used another compose action to format the multiplied result into currency. Finally giving us the easiest answer of how much it would cost to carpet a room.
 

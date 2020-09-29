@@ -23,7 +23,7 @@ levels:
 roles:  
 - functional-consultant  
 - maker 
--developer
+- developer
 products:  
 - power-automate 
 units: 

@@ -1,8 +1,8 @@
-Functions are grouped into ten different categories like math and logic. The categories are just a logical organization to making finding the function you need easier. Below you will get an overview of each category and some examples.
+Functions are grouped into 10 different categories like math and logic. The categories are just a logical organization to making finding the function you need easier. Below you will get an overview of each category and some examples.
 
 Keep in mind as you go through the various examples the we use static text and values. This is to allow you to test and recreate the examples as easily as possible. In your flows, you may substitute dynamic content in place of this static data. Just ensure that your dynamic data is the correct format for the function.
 
-In the screen shot below, you will notice to the right of each category header (like String functions or Collection) the words "See more." By clicking "See more," the complete list of functions for that category will be shown.
+In the screenshot below, you will notice to the right of each category header (like String functions or Collection) the words "See more." By clicking "See more," the complete list of functions for that category will be shown.
 
 > [!div class="mx-imgBorder"]
 > [![See more for complete list of functions](../media/see-more-ss.png)](../media/see-more-ss.png#lightbox)
@@ -28,7 +28,7 @@ This formula will return ¥13.
 
 ## Collection functions
 
-These functions are used for arrays and strings. They may be used to check if an array is empty, to grab the first or last item, or even for join, union, and intersection operations.
+These functions are used for arrays and strings. They may be used to check if an array is empty, to grab the first, or last item, or even for join, union, and intersection operations.
 
 An example of a helpful Collection function is *length*. You can use *length* to return the number of items in a string or array. The following example would be used to count the number of characters in the string "I love Power Automate."
 
@@ -38,7 +38,7 @@ The output would be 22. You can use this type of function for validation or in c
 
 ## Logical functions
 
-These functions are used to work with conditions, to compare values, and to do other logic based evaluations. These are often thought of as If statements where you want to compare if a number is greater than another number. Flow supports all of the logical comparisons you would expect.
+These functions are used to work with conditions, to compare values, and to do other logic-based evaluations. These are often thought of as If statements where you want to compare if a number is greater than another number. Flow supports all of the logical comparisons you would expect.
 
 In the example below, an expression will compare if 12 is greater than 10 and then output the appropriate string. This will also be your first expression that uses more than one function. We will combine the *if* and *greater* logical functions.
 
@@ -65,7 +65,7 @@ You will find over time that you use a combination of both methods depending on 
 
 These functions are used to change the type of your data. This can be simple things like converting a text number into an integer, or more complex functions like changing the encoding of a file from base64 to binary. Knowing that these functions are available will help you overcome problems you encounter when getting your data shaped correctly.
 
-A common scenario is the need to use *int* or *float* to change a text number into an actual number. This is very common when importing data into your flow from a data source. The number 12 or 12.4 may be stored as text. In order to use that number in a logical function or write it to a location that expects a number, you will need to covert it. The following example changes the string "12" into the integer 12.
+A common scenario is the need to use *int* or *float* to change a text number into an actual number. This is common when importing data into your flow from a data source. The number 12 or 12.4 may be stored as text. In order to use that number in a logical function or write it to a location that expects a number, you will need to covert it. The following example changes the string "12" into the integer 12.
 
 `Int('12')`
 
@@ -77,7 +77,7 @@ Now you could use text number to do the previous example.
 
 `If(greater(Int('12'), Float('12.4')),'Yes','No')`
 
-This would output the string "No" because 12 is not greater than 12.4. Combining functions like this is very common and is a useful pattern to learn.
+This would output the string "No" because 12 is not greater than 12.4. Combining functions like this is common and is a useful pattern to learn.
 
 ## Math functions
 
@@ -112,13 +112,13 @@ In the screenshot below, by adding the *User name* dynamic content from my trigg
 > [!div class="mx-imgBorder"]
 > [![add user name dynamic content from trigger](../media/user-name-ss.png)](../media/user-name-ss.png#lightbox)
 
-By hovering over *User name* with the mouse pointer you can see
+By hovering over User name with the mouse pointer, you can see
 
 `triggerOutputs()['headers']['x-ms-user-name-encoded']`
 
 Flow created the expression using the triggerOutputs for you. It is the pulling from the Headers property the x-ms-user-name-encoded property. Most of the time in flow you will reference these properties via dynamic content. But it is possible to write your own expressions to recreate this if necessary. Each trigger and action will have different formats for how you retrieve their data.
 
-Explore these functions by adding different triggers, actions, data sources, and apply-to-each loops in your flow. Then, use their properties as dynamic data to see more examples. The good news is writing these types of expressions is not very common.
+Explore these functions by adding different triggers, actions, data sources, and apply-to-each loops in your flow. Then, use their properties as dynamic data to see more examples. The good news is writing these types of expressions is not common.
 
 ## Workflow functions
 
@@ -126,7 +126,7 @@ The workflow functions are used to retrieve information about your flow and are 
 
 `Workflow().run.id`
 
-This will return the id of the current flow run. You could use this for error reporting or logging if needed. These functions are not commonly used.
+This will return the ID of the current flow run. You could use this for error reporting or logging if needed. These functions are not commonly used.
 
 ## URI parsing functions
 
