@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.active-directory.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/29/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Before performing Active Directory actions, you must first establish a connection. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: All Active Directory actions require an established connection.
+    - content: "False"
+      isCorrect: false 
+      explanation: All Active Directory actions require an established connection.
+  - content: Connect to Active Directory Server is the only action to establish a connection. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: true
+      explanation: All other Active Directory actions require a previously established connection.
+    - content: "False"
+      isCorrect: false  
+      explanation: All other Active Directory actions require a previously established connection.
+  - content: You would use the Create Active Directory Object action to create an Active Directory organizational unit. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: true
+      explanation: The Create Active Directory Object action creates an Active Directory organizational unit. 
+    - content: "False"
+      isCorrect: false 
+      explanation: The Create Active Directory Object action creates an Active Directory organizational unit.
