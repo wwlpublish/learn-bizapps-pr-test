@@ -6,7 +6,7 @@ To write an expression in flow, you click in a field to open the Dynamic content
 In the formula box, you will then write your expression by combining one or more functions. Before you learn about the different types of functions and their usage, there are some commonalities you should learn first. Function names are not case-sensitive.
 
 > [!TIP]
-> Notice in the screenshot that we used a Manually triggers a flow* trigger and a *Compose* action. This allows you to have a simple setup for writing and testing your expressions without worrying about other inputs or actions. Use this setup to follow along in this app or anytime you want to try out something new.
+> Notice in the screenshot that we used a Manually triggers a flow trigger and a *Compose* action. This allows you to have a simple setup for writing and testing your expressions without worrying about other inputs or actions. Use this setup to follow along in this app or anytime you want to try out something new.
 
 ## Auto suggest, hints, and links in the formula bar
 
