@@ -28,7 +28,7 @@ Download the **AI Builder Form processing Sample Data.zip** file and extract it 
 on your computer. The documents that are used in this exercise are
 located in the **AI Builder Form processing Sample Data\Invoices Version 2\Train** folder.
 
-![Sample data documents](../media/image2.png)
+![Sample data documents](../media/image-2.png)
 
 1.  Select **Add documents**.
 2.  Select five to ten examples of your document. Only JPG, PNG, and PDF files are accepted.
@@ -52,7 +52,7 @@ At anytime you can resize to adjust your selection.
 
 When you hover over different words in your documents, light blue boxes appear. These indicate that you can draw a rectangle around those words to select a field.
 
-![Screenshot of address with number selected](../media/image11.png)
+![Screenshot of address with number selected](../media/image-11.png)
 
 ### Tag tables
 
@@ -67,7 +67,7 @@ AI Builder can detect tables in your documents. These are highlighted on a dotte
 
 If a field or table is not present in one of the documents you have uploaded for training, just use the Field not in document (or Table not in document) option. 
 
-![Field not in document](../media/image12.png)
+![Field not in document](../media/image-12.png)
 
 ### Tag all documents 
 
