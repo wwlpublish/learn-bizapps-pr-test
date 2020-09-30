@@ -13,39 +13,39 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "UI controls may be added in:"
+  - content: UI controls can be added in which of the following WinAutomation entities?
     choices: 
-    - content: "The Console"
+    - content: WinAutomation Console
       isCorrect: false
-      explanation: "That is false; controls are added in the Designer."
-    - content: "The Designer"
+      explanation: Controls are added in the Process Designer.
+    - content: Process Designer
       isCorrect: true 
-      explanation: "That is correct! Controls are added in the Designer."
-    - content: "All of the above"
+      explanation: Controls are added in the Process Designer.
+    - content: All of the above
       isCorrect: false 
-      explanation: "That is false; controls are added in the Designer."
-    - content: "None of the above"
+      explanation: Controls are added in the Process Designer.
+    - content: None of the above
       isCorrect: false 
-      explanation: "That is false; controls are added in the Designer."
-  - content: "The optimal way for WinAutomation to interact with application UIs is through:"
+      explanation: Controls are added in the Process Designer.
+  - content: The optimal way for WinAutomation to interact with application UIs is through which of the following elements?
     choices: 
-    - content: "UI Controls"
+    - content: UI Controls
       isCorrect: true
-      explanation: "That is correct! The best way to interact with UIs is by using UI controls."
-    - content: "On-screen coordinates"
+      explanation: The best way to interact with application UIs is by using UI controls.
+    - content: On-screen coordinates
       isCorrect: false 
-      explanation: "That is false; The best way to interact with UIs is by using UI controls."
-    - content: "Image recognition"
+      explanation: The best way to interact with application UIs is by using UI controls.
+    - content: Image recognition
       isCorrect: false 
-      explanation: "That is false; The best way to interact with UIs is by using UI controls."
-    - content: "Keystrokes"
+      explanation: The best way to interact with application UIs is by using UI controls.
+    - content: Keystrokes
       isCorrect: false 
-      explanation: "That is false; The best way to interact with UIs is by using UI controls."
-  - content: "There are two types of UI controls: Window, and UI element."
+      explanation: The best way to interact with application UIs is by using UI controls.
+  - content: The two types of UI controls are Window and UI element. (True or False)
     choices: 
     - content: "True"
       isCorrect: true
-      explanation: "That is correct!"
+      explanation: Window controls are different from UI element controls.
     - content: "False"
       isCorrect: false 
-      explanation: "That is not correct; Window controls are different from UI element controls."
+      explanation: Window controls are different from UI element controls.

@@ -11,13 +11,13 @@ metadata:
 title: Use WinAutomation to interact with windows and applications
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  UI elements are identified through controls, which can be captured and used in UI/Windows related actions.
+  UI elements are identified through controls, which can be captured and used in UI/Windows-related actions.
 abstract: |  
     In this module, you will:
-    - Familiarize yourself with the concept of UI elements and controls
-    - Understand the window- and element-handling capabilities of WinAutomation
+    - Learn about the concept of UI elements and controls.
+    - Discover the window and element-handling capabilities of WinAutomation.
 prerequisites: |
-  - Basic familiarity with the WinAutomation process designer
+  - Basic familiarity with the WinAutomation Process Designer
 iconUrl: /learn/achievements/ui-automation.svg  
 levels:  
 - beginner   
