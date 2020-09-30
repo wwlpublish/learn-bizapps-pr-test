@@ -1,0 +1,1 @@
+WinAutomation supports the automation of virtually any web-related procedure through its web automation actions. These actions support all major browsers, such as Microsoft Edge, Microsoft Internet Explorer, Google Chrome, and Mozilla Firefox, while the platform also offers its own built-in browser. 

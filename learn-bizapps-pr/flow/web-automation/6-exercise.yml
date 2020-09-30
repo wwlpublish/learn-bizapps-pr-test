@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.web-automation.6-exercise 
+title: Exercise - Extract stocks from MSN
+metadata: 
+  title: Exercise - Extract stocks from MSN
+  description: Practice extracting stocks from MSN in WinAutomation.
+  ms.date: 09/30/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-exercise.md)] 
