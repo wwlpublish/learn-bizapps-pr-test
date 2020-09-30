@@ -3,7 +3,7 @@ uid: learn-bizapps.web-automation
 metadata: 
  title: Web automation in WinAutomation
  description: Learn about the web automation actions in WinAutomation.
- ms.date: 09/17/2020  
+ ms.date: 09/30/2020  
  author: georgiostrantzas  
  ms.author: getrantz  
  ms.topic: interactive-tutorial  
@@ -33,9 +33,9 @@ products:
 - power-automate 
 units: 
 - learn-bizapps.web-automation.1-introduction 
-- learn-bizapps.web-automation.2-launching-closing-handling-browsers 
-- learn-bizapps.web-automation.3-handling-web-pages 
-- learn-bizapps.web-automation.4-extracting-data 
+- learn-bizapps.web-automation.2-launch-close-handle-browsers 
+- learn-bizapps.web-automation.3-handle-webpages 
+- learn-bizapps.web-automation.4-extract-data 
 - learn-bizapps.web-automation.5-direct-web-access 
 - learn-bizapps.web-automation.6-exercise 
 - learn-bizapps.web-automation.7-check-knowledge 
