@@ -1,24 +1,27 @@
-Web applications are a critical part of most organizations, and they are commonly used to access data from servers. 
+Web applications are critical components of most organizations, and they are commonly used to access data from servers. 
 
-WinAutomation supports the automation of all major browsers through the **Web Automation** actions. More precisely, it supports the handling of the following browsers:
-- WinAutomation Automation browser (WinAutomation's built-in browser)
+WinAutomation supports the automation of all major browsers through its web automation actions. More precisely, it supports the handling of the following browsers:
+
+- WinAutomation Automation browser (built-in)
 - Microsoft Edge
 - Microsoft Internet Explorer
 - Google Chrome
 - Mozilla Firefox
 
-These actions enable users to handle any element in web pages and perform data extraction operations. 
+With such comprehensive support, users can handle any element in webpages and perform data extraction operations. 
 
-## Learning οbjectives
+## Learning objectives
 
  In this module, you will: 
 
 - Learn how to configure web automation actions.
-- Learn how to extract data from web pages. 
-- Create a process that extracts the gainer stocks from the MSN website.
+- Learn how to extract data from webpages. 
+- Create a process that extracts gainer stocks from the MSN website.
 
 ## Prerequisites
 
-- Basic familiarity with the WinAutomation Console and Process Designer.
-- Basic familiarity with process development and variables. 
-- Basic familiarity with Controls Repository. 
+To complete this module successfully, you should have basic familiarity with the following elements:
+
+- WinAutomation Console and Process Designer
+- Process development and variables 
+- Controls Repository 

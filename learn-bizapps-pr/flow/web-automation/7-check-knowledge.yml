@@ -13,30 +13,30 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "The Extract Data from Web Page action can extract only single values and lists of handpicked values."
+  - content: The Extract Data from Web Page action can extract only single values and lists of handpicked values. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is false; The Extract Data from Web Page action can extract single values, handpicked values, lists and data tables."
+      explanation: The Extract Data from Web Page action can extract single values, handpicked values, lists, and data tables.
     - content: "False"
       isCorrect: true 
-      explanation: "Correct! The Extract Data from Web Page action can extract single values, handpicked values, lists and data tables."
-  - content: "Which one of the following parameters do the web form handling actions require as inputs?"
+      explanation: The Extract Data from Web Page action can extract single values, handpicked values, lists, and data tables.
+  - content: Which of the following parameters is required as input by the web form handling actions?
     choices: 
-    - content: "A Browser instance"
+    - content: A browser instance
       isCorrect: false 
-      explanation: "That is false; The web form handling actions require both mentioned input parameters."
-    - content: "A control specifying the element to handle."
+      explanation: The web form handling actions require as input parameters both a browser instance and a control that specifies the element to handle.
+    - content: A control that specifies the element to handle
       isCorrect: false 
-      explanation: "That is false; The web form handling actions require both mentioned input parameters."
-    - content: "Both"
+      explanation: The web form handling actions require as input parameters both a browser instance and a control that specifies the element to handle.
+    - content: Both
       isCorrect: true 
-      explanation: "Correct! The web form handling actions require both mentioned input parameters."
-  - content: "The Click Link on Web Page action is the most suitable action to click download links."
+      explanation: The web form handling actions require as input parameters both a browser instance and a control that specifies the element to handle.
+  - content: The Click Link on Web Page action is the most suitable action for selecting download links. (True or False)
     choices: 
     - content: "True"
       isCorrect: false 
-      explanation: "That is false; The Click Download Link on Web Page is the most suitable action to click download links."
+      explanation: The Click Download Link on Web Page action is the most suitable action for selecting download links.
     - content: "False"
       isCorrect: true 
-      explanation: "Correct! The Click Download Link on Web Page is the most suitable action to click download links."
+      explanation: The Click Download Link on Web Page action is the most suitable action for selecting download links.
