@@ -19,7 +19,7 @@ high-quality as possible to avoid any issues in detecting text. Only
 documents with the same layout should be used.
 
 ![Example of detected fields in an invoice
-form](../media/image1.png)
+form](../media/image-1.png)
 
 ## What you can do with Form processing
 

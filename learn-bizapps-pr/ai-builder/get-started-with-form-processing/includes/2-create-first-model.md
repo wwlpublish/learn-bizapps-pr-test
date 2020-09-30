@@ -1,11 +1,10 @@
-The following procedures will show you how to create a Form processing model in AI Builder.
+The following procedures will show you how to create a Form processing model in AI Builder. This guided experience will walk through each step of the model creation process. You can save your work and return at any time. Progress will be saved automatically when you go between steps. 
 
 ## Sign in to AI Builder
 
 Follow these steps to sign in to AI Builder:
 
-1.  Go to Power Apps or Power Automate and sign in with your
-    organizational account.
+1.  Go to Power Apps or Power Automate and sign in with your organizational account.
 2.  In the left pane, select **AI Builder > Build**.
 3.  Select **Form processing**.
 4.  Enter a name for your model.
@@ -14,18 +13,22 @@ Follow these steps to sign in to AI Builder:
     Otherwise, you can use sample data to create the model.
 6.  Select **Create**.
 
-## Add documents
+## Choose information to extract 
 
-This guided experience will walk through each step of the model
-creation process. You can save your work and return at any time.
-Progress will be saved automatically when you go between steps.
+In this step you define the fields and tables you want to teach your model how to extract. 
+ 
+If you don’t have your own documents, in the next steps you will have the possibility to download sample invoices. If you want to use the sample data as you follow this guided experience, define fields like: Invoice number, Invoice date, total and a table called items. 
+
+![Choose information to extract](../media/forms-choose-information.gif)
+
+## Add documents
 
 If you want to use sample data, select **Get sample documents**.
 Download the **AI Builder Form processing Sample Data.zip** file and extract it inside a folder
 on your computer. The documents that are used in this exercise are
 located in the **AI Builder Form processing Sample Data\Invoices Version 2\Train** folder.
 
-![Sample data documents](../media/image2.png)
+![Sample data documents](../media/image-2.png)
 
 1.  Select **Add documents**.
 2.  Select five to ten examples of your document. Only JPG, PNG, and PDF files are accepted.
@@ -33,36 +36,42 @@ located in the **AI Builder Form processing Sample Data\Invoices Version 2\Train
 4.  After the upload has completed, select **Close**.
 5.  Select **Analyze**.
 
-## Select form fields
+## Tag documents
 
-By using the sample documents that you have uploaded, your model will
-begin to analyze the document layout to detect all the various form
-fields. This process might take a few minutes to complete.
+By using the sample documents that you have uploaded, your model will begin to analyze the document layout to detect all the various form fields. This process might take a few minutes to complete. 
 
-![Select form fields](../media/image3.png)
+When the analysis has finished, you will be shown the documents that you have uploaded. Now you need to tag the fields and tables you want your model to learn how to extract.   
 
-When the analysis has finished, select the thumbnail to open the field selection experience.
+### Tag fields
 
-1.  Review the document and select all fields that you want to save. Alternatively, select the **Select all** button if you want to save all fields. You can also rename the field names.
-2.  If one of the fields that you want to save has not been automatically detected, you can draw a rectangle around the field that you are interested in, give it a name, and validate the selection. If you used the sample invoices, notice that the address on the top left has not been detected.  
+To tag a field, simply draw a rectangle around the field you're interested in and select to which field name it corresponds to. 
 
-    ![Select form fields](../media/form-processing-undetected-fields.gif)
+![Forms tag fields](../media/forms-tag-fields.gif)
 
-3.  If a field that you want to save has been automatically selected but does not contain all values for that field, you can adjust the selection by selecting the field, resizing the selection, and then validating the selection. In the sample invoices, notice that this situation has occurred for the **Bill to** field.  
+At anytime you can resize to adjust your selection.
 
-    ![Select form fields](../media/form-processing-resize-selection.gif)
+When you hover over different words in your documents, light blue boxes appear. These indicate that you can draw a rectangle around those words to select a field.
 
-4.  When you are finished, select **Confirm Fields**. If you have only selected an automatically detected field, you will see the **Done** button instead of **Confirm Fields**. In that case, you can go to the Summary and train section of this unit.
+![Screenshot of address with number selected](../media/image-11.png)
 
-### Confirm fields
+### Tag tables
 
-When drawing new fields or resizing automatically detected fields, you are presented with all documents that you have uploaded. In this step, you will need to draw the fields that are indicated as pending on the right panel. By completing this step, you are teaching your AI Builder model to recognize these fields in documents of this type.
+AI Builder can detect tables in your documents. These are highlighted on a dotted rectangle. Select the detected table you want and assign it to the table you have defined on the previous step.
 
-To draw a field on a document, start drawing a selection on the document and you will be asked which field it corresponds to. You can also select the **Draw in document** option on the fields list on the right to start the selection process for that field.
+![Forms tag tables](../media/forms-tag-tables.gif)
 
-If a field is not present on one of the documents, select the **Field not in document** option.
+> [!NOTE]
+> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, go back to the Choose information to extract step and remove that table.
 
-![Select form fields](../media/form-processing-confirm-fields.gif)
+### Field or table not in document
+
+If a field or table is not present in one of the documents you have uploaded for training, just use the Field not in document (or Table not in document) option. 
+
+![Field not in document](../media/image-12.png)
+
+### Tag all documents 
+
+All the documents that you have uploaded are presented for you to tag. Some of the fields might be automatically detected in successive documents, in that case confirm that the selection is correct.
 
 ## Summary and train
 
