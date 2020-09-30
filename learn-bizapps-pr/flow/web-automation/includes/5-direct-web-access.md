@@ -13,7 +13,7 @@ The **Download from Web** action downloads text and files from webpages. To use 
 
 The returned text is stored into a variable, while the downloaded files are saved as files locally.
 
-![The Download from Web action](..\media\download-from-web-action.png)
+![The Download from Web action](..\media\download-from-web-actions.png)
 
 ## Invoke Web Service action
 
@@ -23,7 +23,7 @@ Every web service comes with API documentation that specifies the appropriate in
 
 The text responses are stored into a variable, while the retrieved files are saved as files locally.
 
-![The Invoke Web Service action](..\media\invoke-web-services-action.png)
+![The Invoke Web Service action](..\media\invoke-web-services-actions.png)
 
 ## Execute Javascript Function on Web Page action
 
@@ -33,4 +33,4 @@ This action accepts a browser instance and a JavaScript function as inputs and t
 
 You can select the **Use Template** button to automatically create the JavaScript function's main structure.
 
-![The Execute Javascript Function on Web Page action](..\media\execute-javascript-function-on-web-page-action.png)
+![The Execute Javascript Function on Web Page action](..\media\execute-javascript-function-on-web-page-actions.png)
