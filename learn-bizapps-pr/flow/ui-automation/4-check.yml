@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.ui-automation.4-check
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/30/2020 
+ author: rokontol 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: UI controls can be added in which of the following WinAutomation entities?
+    choices: 
+    - content: WinAutomation Console
+      isCorrect: false
+      explanation: Controls are added in the Process Designer.
+    - content: Process Designer
+      isCorrect: true 
+      explanation: Controls are added in the Process Designer.
+    - content: All of the above
+      isCorrect: false 
+      explanation: Controls are added in the Process Designer.
+    - content: None of the above
+      isCorrect: false 
+      explanation: Controls are added in the Process Designer.
+  - content: The optimal way for WinAutomation to interact with application UIs is through which of the following elements?
+    choices: 
+    - content: UI Controls
+      isCorrect: true
+      explanation: The best way to interact with application UIs is by using UI controls.
+    - content: On-screen coordinates
+      isCorrect: false 
+      explanation: The best way to interact with application UIs is by using UI controls.
+    - content: Image recognition
+      isCorrect: false 
+      explanation: The best way to interact with application UIs is by using UI controls.
+    - content: Keystrokes
+      isCorrect: false 
+      explanation: The best way to interact with application UIs is by using UI controls.
+  - content: The two types of UI controls are Window and UI element. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: true
+      explanation: Window controls are different from UI element controls.
+    - content: "False"
+      isCorrect: false 
+      explanation: Window controls are different from UI element controls.
