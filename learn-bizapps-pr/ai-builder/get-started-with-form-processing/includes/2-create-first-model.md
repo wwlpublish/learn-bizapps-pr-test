@@ -60,7 +60,7 @@ AI Builder can detect tables in your documents. These are highlighted on a dotte
 
 ![Forms tag tables](../media/forms-tag-tables.gif)
 
-> [!NOTE]
+> [!NOTE]
 > Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, go back to the Choose information to extract step and remove that table.
 
 ### Field or table not in document
