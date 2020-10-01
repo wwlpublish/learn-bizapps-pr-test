@@ -10,15 +10,15 @@ app navigates to a specific screen.
 1.  In Power Apps Studio, add 2 blank screens. There should be a total of
     3 blank screens.
 
-2.  On Screen1, add a **dropdown** control.
+1.  On Screen1, add a **dropdown** control.
 
-3.  Set the **Items** property for the **dropdown** control to
+1.  Set the **Items** property for the **dropdown** control to
 
 ```
 [" ", "Active","Inactive"]
 ```
 
-4.  Set the **OnChange** property for the **dropdown** control to the following
+1.  Set the **OnChange** property for the **dropdown** control to the following
 
 ```
 If(Dropdown1.Selected.Value ="Active",Navigate(Screen2,ScreenTransition.Cover),
@@ -51,17 +51,17 @@ Timer control.
 
 1.  On Screen1, add a **Timer** control.
 
-2.  Set the **Duration** property to 10000 (milliseconds).
+1.  Set the **Duration** property to 10000 (milliseconds).
 
 1. Set the **Auto start** to **On**.
 
-3.  Set the **OnTimerEnd** property to
+1.  Set the **OnTimerEnd** property to
 
 ```
 If(Dropdown1.Selected.Value = " ",Navigate(Screen2,ScreenTransition.None))
 ```
 
-4.  Select the drop-down control and change the **OnChange** property to
+1.  Select the drop-down control and change the **OnChange** property to
 
 ```
 If(Dropdown1.Selected.Value =
@@ -69,10 +69,10 @@ If(Dropdown1.Selected.Value =
 "Inactive",Set(varStatus,2),Set(varStatus,0)))
 ```
 
-5.  Add a **Button** control under the drop-down menu, and set the **Text**
+1.  Add a **Button** control under the drop-down menu, and set the **Text**
     property to **Next**.
 
-6.  Set the **OnSelect** property for the button to
+1.  Set the **OnSelect** property for the button to
 
 ```
 If(varStatus = 1,Navigate(Screen2,ScreenTransition.Cover),
