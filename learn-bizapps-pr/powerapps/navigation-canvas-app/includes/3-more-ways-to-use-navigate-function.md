@@ -10,20 +10,20 @@ app navigates to a specific screen.
 1.  In Power Apps Studio, add 2 blank screens. There should be a total of
     3 blank screens.
 
-2.  On Screen1, add a **dropdown** control.
+1.  On Screen1, add a **dropdown** control.
 
-3.  Set the **Items** property for the **dropdown** control to
+1.  Set the **Items** property for the **dropdown** control to
 
-```
-[" ", "Active","Inactive"]
-```
+    ```
+    [" ", "Active","Inactive"]
+    ```
 
-4.  Set the **OnChange** property for the **dropdown** control to the following
+1.  Set the **OnChange** property for the **dropdown** control to the following
 
-```
-If(Dropdown1.Selected.Value ="Active",Navigate(Screen2,ScreenTransition.Cover),
-If(Dropdown1.Selected.Value = "Inactive",Navigate(Screen3,ScreenTransition.Fade)))
-```
+    ```
+    If(Dropdown1.Selected.Value ="Active",Navigate(Screen2,ScreenTransition.Cover),
+    If(Dropdown1.Selected.Value = "Inactive",Navigate(Screen3,ScreenTransition.Fade)))
+    ```
 
 On your keyboard, hold the Alt key to test the new functionality.
 When the user selects **Active** from the drop-down menu, the user will be sent
@@ -51,33 +51,33 @@ Timer control.
 
 1.  On Screen1, add a **Timer** control.
 
-2.  Set the **Duration** property to 10000 (milliseconds).
+1.  Set the **Duration** property to 10000 (milliseconds).
 
 1. Set the **Auto start** to **On**.
 
-3.  Set the **OnTimerEnd** property to
+1.  Set the **OnTimerEnd** property to
 
-```
-If(Dropdown1.Selected.Value = " ",Navigate(Screen2,ScreenTransition.None))
-```
+    ```
+    If(Dropdown1.Selected.Value = " ",Navigate(Screen2,ScreenTransition.None))
+    ```
 
-4.  Select the drop-down control and change the **OnChange** property to
+1.  Select the drop-down control and change the **OnChange** property to
 
-```
-If(Dropdown1.Selected.Value =
-"Active",Set(varStatus,1),If(Dropdown1.Selected.Value =
-"Inactive",Set(varStatus,2),Set(varStatus,0)))
-```
+    ```
+    If(Dropdown1.Selected.Value =
+    "Active",Set(varStatus,1),If(Dropdown1.Selected.Value =
+    "Inactive",Set(varStatus,2),Set(varStatus,0)))
+    ```
 
-5.  Add a **Button** control under the drop-down menu, and set the **Text**
+1.  Add a **Button** control under the drop-down menu, and set the **Text**
     property to **Next**.
 
-6.  Set the **OnSelect** property for the button to
+1.  Set the **OnSelect** property for the button to
 
-```
-If(varStatus = 1,Navigate(Screen2,ScreenTransition.Cover),
-If(varStatus = 2,Navigate(Screen3,ScreenTransition.Fade)))
-```
+    ```
+    If(varStatus = 1,Navigate(Screen2,ScreenTransition.Cover),
+    If(varStatus = 2,Navigate(Screen3,ScreenTransition.Fade)))
+    ```
 
 Now, if the Timer Ends, the user is automatically sent to Screen two. If the user selects **Active** from the drop-down menu, a Variable named varStatus is set to 1. When the user selects the **Next** button, they will be sent to Screen2. If the user selects **Inactive** from the drop-down menu, a Variable named varStatus is set to 2. When the user selects the **Next** button, they will be sent to Screen3.
 Test this by putting the app in Preview or Play mode, select the Timer control and wait for 10 seconds. Now test the variables by selecting **Active** or **Inactive** from the drop-down menu and selecting the **Next** button.
