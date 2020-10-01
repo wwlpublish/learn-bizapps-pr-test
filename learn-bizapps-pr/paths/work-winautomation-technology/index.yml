@@ -31,6 +31,7 @@ modules:
 - learn-bizapps.system-services-actions
 - learn-bizapps.files-folders-handling 
 - learn-bizapps.ui-automation
+- learn-bizapps.web-automation
 
 trophy: 
   uid: learn-bizapps.work-winautomation-technology.trophy
