@@ -30,6 +30,7 @@ modules:
 - learn-bizapps.excel-automation
 - learn-bizapps.system-services-actions
 - learn-bizapps.files-folders-handling 
+- learn-bizapps.ui-automation
 
 trophy: 
   uid: learn-bizapps.work-winautomation-technology.trophy
