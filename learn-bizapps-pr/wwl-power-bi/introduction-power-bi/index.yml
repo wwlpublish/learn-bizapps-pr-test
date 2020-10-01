@@ -23,6 +23,7 @@ roles:
 - business-analyst
 - business-user
 - functional-consultant
+- student
 products:
 - power-bi
 units:
