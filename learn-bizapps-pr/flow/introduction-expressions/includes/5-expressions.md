@@ -19,7 +19,7 @@ For a final example of a complex expression, take the scenario of having a coupl
 > [!div class="mx-imgBorder"]
 > [![build a new flow](../media/new-flow-ss.png)](../media/new-flow-ss.png#lightbox)
 
-Now click on "Add an input" under "Manually trigger a flow" and add a Number. Then click "Add an input" again and add a Date. Your trigger should now look like this:
+Now select on "Add an input" under "Manually trigger a flow" and add a Number. Then select "Add an input" again and add a Date. Your trigger should now look like this:
 
 > [!div class="mx-imgBorder"]
 > [![Manually trigger a flow](../media/manual-trigger-ss.png)](../media/manual-trigger-ss.png#lightbox)
@@ -33,7 +33,7 @@ addDays(triggerBody()['date'], triggerBody()['number'])
 This is leveraging the Date Time function *addDays* and the Referencing function *triggerBody*.
 
 > [!NOTE]
-> If you find yourself asking "How do I know what goes in for trigger body?" then you are thinking correctly. The secret is you can combine dynamic content into your expressions. To do so, start your expression by typing addDays() and then with your cursor between the (), click Dynamic content. Then you can choose your fields as shown below. This is a great way to reference that content while letting flow do the hard work of writing the formula.
+> If you find yourself asking "How do I know what goes in for trigger body?" then you are thinking correctly. The secret is you can combine dynamic content into your expressions. To do so, start your expression by typing addDays() and then with your cursor between the (), select Dynamic content. Then you can choose your fields as shown below. This is a great way to reference that content while letting flow do the hard work of writing the formula.
 
 > [!div class="mx-imgBorder"]
 > [![add an expression](../media/add-expression-ss.gif)](../media/add-expression-ss.gif#lightbox)

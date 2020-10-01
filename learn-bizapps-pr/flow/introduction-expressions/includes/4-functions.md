@@ -1,8 +1,8 @@
 Functions are grouped into 10 different categories like math and logic. The categories are just a logical organization to making finding the function you need easier. Below you will get an overview of each category and some examples.
 
-Keep in mind as you go through the various examples the we use static text and values. This is to allow you to test and recreate the examples as easily as possible. In your flows, you may substitute dynamic content in place of this static data. Just ensure that your dynamic data is the correct format for the function.
+Keep in mind as you go through the various examples, we use static text and values. This is to allow you to test and recreate the examples as easily as possible. In your flows, you may substitute dynamic content in place of this static data. Just ensure that your dynamic data is the correct format for the function.
 
-In the screenshot below, you will notice to the right of each category header (like String functions or Collection) the words "See more." By clicking "See more," the complete list of functions for that category will be shown.
+In the screenshot below, you will notice to the right of each category header (like String functions or Collection) the words "See more." By selecting "See more," the complete list of functions for that category will be shown.
 
 > [!div class="mx-imgBorder"]
 > [![See more for complete list of functions](../media/see-more-ss.png)](../media/see-more-ss.png#lightbox)
@@ -16,7 +16,7 @@ Select **See more** beside String functions.
 
 String (text) functions are used to modify strings, find characters in a string, format strings, and more. Text manipulation is a core skill often used when trying to better format or modify data you received from somewhere else.
 
-An example of a string function would be using the *formatNumber* function. This function can convert a number into a string in a given format. A common request is to make a string look like currency. To change the number 12.5 into $12.50, use the following formula:
+An example of a string function is the *formatNumber* function. This function can convert a number into a string in a given format. A common request is to make a string look like currency. To change the number 12.5 into $12.50, use the following formula:
 
 ```powerappsfl
 formatNumber(12.5,'C')
@@ -46,7 +46,7 @@ The output would be 22. You can use this type of function for validation or in c
 
 These functions are used to work with conditions, to compare values, and to do other logic-based evaluations. These are often thought of as If statements where you want to compare if a number is greater than another number. Flow supports all of the logical comparisons you would expect.
 
-In the example below, an expression will compare if 12 is greater than 10 and then output the appropriate string. This will also be your first expression that uses more than one function. We will combine the *if* and *greater* logical functions.
+In the example below, an expression will compare if 12 is greater than 10 and then output the appropriate string. This will also be your first expression that uses more than one function. We will combine *if* and *greater* logical functions.
 
 ```powerappsfl
 If(greater(12,10),'Yes','No')
