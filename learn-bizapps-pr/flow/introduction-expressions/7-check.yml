@@ -31,16 +31,16 @@ quiz:
     choices: 
     - content: div(add(3,5),2)
       isCorrect: true 
-      explanation: Flow requires the use of an expression phrase like "div" and "add" before being provided numbers to make calculations. Start from the inside (the calculation you want to make first---in this case adding 3 and 5) and then work your way out in the formula as you add additional calculations (in this case, dividing the sum of 3 and 5 by 2).
+      explanation: Flow requires the use of an expression phrase like "div" and "add" before being provided numbers to make calculations. Start from the inside (the calculation you want to make first, in this case adding 3 and 5) and then work your way out in the formula as you add additional calculations (in this case, dividing the sum of 3 and 5 by 2).
     - content: (3+5)/2
       isCorrect: false 
-      explanation: Flow requires the use of an expression phrase like "div" and "add" before being provided numbers to make calculations. Start from the inside (the calculation you want to make first---in this case adding 3 and 5) and then work your way out in the formula as you add additional calculations (in this case, dividing the sum of 3 and 5 by 2).
+      explanation: Flow requires the use of an expression phrase like "div" and "add" before being provided numbers to make calculations. Start from the inside (the calculation you want to make first. in this case adding 3 and 5) and then work your way out in the formula as you add additional calculations (in this case, dividing the sum of 3 and 5 by 2).
     - content: div(3+5,2)
       isCorrect: false 
-      explanation: Flow requires the use of an expression phrase like "div" and "add" before being provided numbers to make calculations. Start from the inside (the calculation you want to make first---in this case adding 3 and 5) and then work your way out in the formula as you add additional calculations (in this case, dividing the sum of 3 and 5 by 2).
+      explanation: Flow requires the use of an expression phrase like "div" and "add" before being provided numbers to make calculations. Start from the inside (the calculation you want to make first, in this case adding 3 and 5) and then work your way out in the formula as you add additional calculations (in this case, dividing the sum of 3 and 5 by 2).
     - content: Flow expressions cannot be used for math
       isCorrect: false 
-      explanation: Flow requires the use of an expression phrase like "div" and "add" before being provided numbers to make calculations. Start from the inside (the calculation you want to make first---in this case adding 3 and 5) and then work your way out in the formula as you add additional calculations (in this case, dividing the sum of 3 and 5 by 2).
+      explanation: Flow requires the use of an expression phrase like "div" and "add" before being provided numbers to make calculations. Start from the inside (the calculation you want to make first, in this case adding 3 and 5) and then work your way out in the formula as you add additional calculations (in this case, dividing the sum of 3 and 5 by 2).
   - content: What statement best describes the relationship between flow and Azure Logic Apps functions?
     choices: 
     - content: Each product has its own functions with no overlap.
