@@ -1,4 +1,4 @@
-The only way to edit a solution-aware flow is by going to **Solutions**, selecting your solution, and then selecting the flow to edit. Solution-aware flows don’t show up in your **My flows** list.
+The only way to edit a solution-aware flow is by going to **Solutions**, selecting your solution, and then selecting the flow to edit. Solution-aware flows don't show up in your **My flows** list.
 
 In this example, you will edit the flow that you previously created by changing the text in the body of the **Send an email** step.
 

@@ -20,7 +20,7 @@ You can edit a connection reference in your solution from **Solutions**.
 
 Editable fields include **Display name**, **Description**, and **Connection**.
 
-You can change the display name of your connection reference to give it a more friendly name that’s relevant to you or how you plan to use it. This unique name can also help you differentiate it from your other connection references.
+You can change the display name of your connection reference to give it a more friendly name that's relevant to you or how you plan to use it. This unique name can also help you differentiate it from your other connection references.
 
 When you update a connection reference, consider possible dependencies because it will be updated in other apps/flows that it is used in.
 
@@ -40,7 +40,7 @@ You can now create environment-level variables with the benefit of being able to
 	> [!div class="mx-imgBorder"]
 	> [![Add the Display name, Description, and Data Type](../media/add-name-description-type-ss.png)](../media/add-name-description-type-ss.png#lightbox)
 
-1. If you don’t add a default value, then after saving the variable, you will see a message appear at the top of the screen. Select the **See environment variable** option and then add the default value.
+1. If you donï¿½t add a default value, then after saving the variable, you will see a message appear at the top of the screen. Select the **See environment variable** option and then add the default value.
 
 	> [!div class="mx-imgBorder"]
 	> [![Warning message to add environment variable](../media/add-environment-variable-message-ssm.png)](../media/add-environment-variable-message-ssm.png#lightbox)

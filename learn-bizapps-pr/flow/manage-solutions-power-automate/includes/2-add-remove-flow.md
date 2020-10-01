@@ -35,14 +35,14 @@ The following steps go through the process of creating a flow and adding it to a
 Congratulations, you have successfully created a Power Automate flow, which is now part of the solution.
 
 > [!div class="mx-imgBorder"]
-> [![alt text](../media/confirm-flow-solution-ssm.png)](../media/confirm-flow-solution-ssm.png#lightbox)
+> [![Screenshot of solution action.](../media/confirm-flow-solution-ssm.png)](../media/confirm-flow-solution-ssm.png#lightbox)
 
 ## Remove a flow from a solution 
 
-Power Automate flows that are part of a solution don’t show up in the flows. For example, the new flow that you previously created doesn’t show up in the flows list. The only way that you can find it is by selecting **Solutions** and then selecting your solution name.
+Power Automate flows that are part of a solution don't show up in the flows. For example, the new flow that you previously created doesn't show up in the flows list. The only way that you can find it is by selecting **Solutions** and then selecting your solution name.
 
 > [!div class="mx-imgBorder"]
-> [![alt text](../media/solution-flow-missing-ssm.png)](../media/solution-flow-missing-ssm.png#lightbox)
+> [![Screenshot of removing a solution.](../media/solution-flow-missing-ssm.png)](../media/solution-flow-missing-ssm.png#lightbox)
 
 > [!NOTE]
 > Do not complete the ensuing steps if you are following along. The **Volunteer Request Notification** flow will be referenced in later sections.
