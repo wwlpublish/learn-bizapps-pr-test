@@ -1,22 +1,22 @@
 ### YamlMime:Module 
 uid: learn-bizapps.manage-solutions-power-automate 
 metadata: 
- title: Manage Solutions in Power Automate
- description: Learn how to manage solutions in Power Automate. 
+ title: Manage solutions in Power Automate
+ description: Learn how to manage solutions in Microsoft Power Automate. 
  ms.date: 9/30/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Manage Solutions in Power Automate 
+title: Manage solutions in Power Automate 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Package features such as Power Apps apps, site maps, flows, entities, customer connectors and more. In this module, you'll learn how to manage solutions with Power Automate. 
+  Power Automate includes such package features as apps from Microsoft Power Apps, site maps, flows, entities, customer connectors, and more. In this module, you'll learn how to manage solutions with Power Automate. 
 abstract: |  
     In this module, you will: 
     - Package existing items into a solution.
     - Create solutions with a flow.
-    - Edit existing solution aware flows.
+    - Edit existing solution-aware flows.
     - Import and export solutions with flows.
     - Deploy complex solutions with many components. 
     - Learn about component dependency on other components.
