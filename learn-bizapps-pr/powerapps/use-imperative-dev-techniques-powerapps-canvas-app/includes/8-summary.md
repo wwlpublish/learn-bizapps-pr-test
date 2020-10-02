@@ -15,3 +15,5 @@ Here are some key concepts to remember:
 -   Collections are a type of variable that stores table data. Most
     table functions and controls work with collections like all tabular
     data sources. 
+
+See [Performance and optimization tips when building Power Apps](https://youtu.be/zrNnQ-PPE2Y?azure-portal=true) 
