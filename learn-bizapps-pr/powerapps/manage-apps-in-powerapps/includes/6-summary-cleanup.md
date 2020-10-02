@@ -4,3 +4,5 @@ Additionally, you learned how to:
 - View and restore app versions
 - Share an app and manage its permissions
 - Create environments and how to manage security access
+
+For more information, see [Application Lifecycle Management](https://youtu.be/xwCUJmrRI9E?azure-portal=true).
