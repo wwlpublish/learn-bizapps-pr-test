@@ -8,3 +8,5 @@ Let's review what you've learned:
 - Little or no code is required to build model-driven apps.
 - Model-driven design uses metadata-driven architecture so that designers can customize their apps.
 - The best way to get started building model-driven apps is to use sample apps and data; then customize the apps.
+
+For more information, see [Application Lifecycle Management](https://youtu.be/xwCUJmrRI9E?azure-portal=true).
