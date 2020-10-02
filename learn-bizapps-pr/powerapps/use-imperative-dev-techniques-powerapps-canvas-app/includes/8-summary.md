@@ -16,4 +16,4 @@ Here are some key concepts to remember:
     table functions and controls work with collections like all tabular
     data sources. 
 
-See [Performance and optimization tips when building Power Apps](https://youtu.be/zrNnQ-PPE2Y?azure-portal=true) 
+See [Performance and optimization tips when building Power Apps](https://youtu.be/zrNnQ-PPE2Y?azure-portal=true) for more information.
