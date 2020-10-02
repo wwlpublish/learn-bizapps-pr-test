@@ -17,3 +17,5 @@ Here are some key concepts to remember:
     data sources. 
 
 See [Performance and optimization tips when building Power Apps](https://youtu.be/zrNnQ-PPE2Y?azure-portal=true) for more information.
+
+See [Tips and tricks to manage your app complexity](https://youtu.be/lB06UQ_is5k?azure-portal=true) for more information.
