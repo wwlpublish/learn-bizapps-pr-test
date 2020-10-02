@@ -1,0 +1,37 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.advanced-winautomation
+metadata:
+  title: Build expertise with WinAutomation
+  description: Learn how to use features of WinAutomation.
+  ms.date: 10/02/2020
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Build expertise with WinAutomation
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  This Learning Path expands on WinAutomation with advanced subjects of working with Power Automate, OCR technologies, and scripting, with WinAutomation. 
+prerequisites: Basic familiarity with WinAutomation.
+iconUrl: /learn/achievements/advanced-winautomation.svg
+levels:
+- advanced
+roles: 
+- administrator
+- maker  
+- business-user  
+- developer 
+- functional-consultant
+products:
+- power-platform
+- power-automate
+modules:
+- learn-bizapps.winautomation-power-automate
+- learn-bizapps.database-handling
+- learn-bizapps.sync-actions
+- learn-bizapps.scripting
+- learn-bizapps.process-monitoring-auditing 
+- learn-bizapps.active-directory
+- learn-bizapps.ocr-technologies
+trophy: 
+  uid: learn-bizapps.advanced-winautomation.trophy
