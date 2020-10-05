@@ -27,7 +27,7 @@ roles:
 - functional-consultant  
 - developer 
 products:  
-- dynamics  
+- power-automate  
 - power-platform 
 units: 
 - learn-bizapps.scripting.1-introduction 

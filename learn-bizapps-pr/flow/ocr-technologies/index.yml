@@ -27,7 +27,7 @@ roles:
 - developer 
 - functional-consultant 
 products:  
-- dynamics  
+- power-automate  
 - power-platform 
 units: 
 - learn-bizapps.ocr-technologies.1-introduction 
