@@ -31,6 +31,7 @@ roles:
 - data-analyst  
 products:  
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.perform-analytics-power-bi.1-introduction 
 - learn-bizapps.perform-analytics-power-bi.2-statistical-summary 

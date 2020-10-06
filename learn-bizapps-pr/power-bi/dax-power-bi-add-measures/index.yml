@@ -28,6 +28,7 @@ roles:
 - data-analyst  
 products:  
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.dax-power-bi-add-measures.1-introduction 
 - learn-bizapps.dax-power-bi-add-measures.2-simple-measures 

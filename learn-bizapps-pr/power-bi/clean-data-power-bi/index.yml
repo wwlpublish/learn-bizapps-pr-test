@@ -30,6 +30,7 @@ roles:
 - data-analyst  
 products:   
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.clean-data-power-bi.1-introduction 
 - learn-bizapps.clean-data-power-bi.2-shape-data 

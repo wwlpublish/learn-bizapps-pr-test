@@ -24,6 +24,7 @@ roles:
 - data-analyst  
 products:   
 - power-bi 
+- power-platform
 units: 
 - learn-bizapps.row-level-security-power-bi.1-introduction 
 - learn-bizapps.row-level-security-power-bi.2-static-method 

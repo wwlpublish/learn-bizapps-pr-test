@@ -27,7 +27,8 @@ roles:
 - maker
 - data-analyst  
 products:    
-- power-bi 
+- power-bi
+- power-platform 
 units: 
 - learn-bizapps.dax-power-bi-add-calculated-tables.1-introduction 
 - learn-bizapps.dax-power-bi-add-calculated-tables.2-calculated-columns 
