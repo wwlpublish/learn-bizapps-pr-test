@@ -58,7 +58,7 @@ One of biggest benefits of a dashboard is being able to pin a visual that is sou
 
 ## Pin a tile from a different report
 
-What if you want to pin a visual from a different report (and different dataset) to an existing dashboard? To continue with the scenario, you want to add an **Orders over Time** visual, which is housed in a different report to **Tailwind Dashboard**. You can perform the same procedure in which you hover over the visual in the original report and then select the **Pin** icon. The following window will appear, but this time, you want to pin this visual onto an existing dashboard.
+What if you want to pin a visual from a different report (and different dataset) to an existing dashboard? To continue with the scenario, you want to add an **Orders over Time** visual, which is housed in a different report to **Tailwind Dashboard**. You can perform the same procedure in which you hover over the visual in the original report and then select the **Pin** icon. The following window will appear, but this time, you want to pin this visual onto an existing dashboard called **Category**.
 
 > [!div class="mx-imgBorder"]
 > [![Pin to dashboard](../media/01-pin-dash-ss.png)](../media/01-pin-dash-ss.png#lightbox)

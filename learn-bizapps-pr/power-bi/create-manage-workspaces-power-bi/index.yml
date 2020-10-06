@@ -26,7 +26,8 @@ levels:
 roles:  
 - data-analyst  
 products:  
-- power-bi 
+- power-bi
+- power-platform 
 units: 
 - learn-bizapps.create-manage-workspaces-power-bi.1-introduction 
 - learn-bizapps.create-manage-workspaces-power-bi.2-distribute-report-dashboard 

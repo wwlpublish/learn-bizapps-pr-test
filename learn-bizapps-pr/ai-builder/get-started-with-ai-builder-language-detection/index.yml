@@ -30,6 +30,7 @@ roles:
 products:  
 - ai-builder 
 - power-platform
+- power-automate
 units: 
 - learn-bizapps.get-started-with-ai-builder-language-detection.1-intro-to-language-detection 
 - learn-bizapps.get-started-with-ai-builder-language-detection.2-business-problems-solved 
