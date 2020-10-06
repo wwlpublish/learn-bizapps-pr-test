@@ -77,7 +77,7 @@ In the example below, we are analyzing the Sale Price and Profit by Country and 
 
 In this next screenshot, still working with the same data as the previous example, you can utilize the native Power Apps features like Search with Power BI data.
 
-![Power BI with Power Apps filtered.](../media/power-apps-search-pbi-data.png)
+![Power Apps search with Power BI.](../media/power-apps-search-pbi-data.png)
 
 In this last screenshot, for this example, you will see the embedded Power App is filtered by the Power BI selection.
 
@@ -93,12 +93,12 @@ Below are examples of the formulas to execute sending an email via Power Apps ve
 
 **Send an Email via Power Apps**
 
-![Send and email with Power Apps.](../media/send-email-power-apps.png)
+![Send an email with Power Apps.](../media/send-email-power-apps.png)
 
 
 **Send an Email via Power Automate**
 
-![Send and email with Power Apps.](../media/send-email-power-automate.png)
+![Send an email with Power Automate.](../media/send-email-power-automate.png)
 
 Also, the number of steps in your solution/process will aid you in determining which technology best suits your needs. Power Apps is great for performing simple solutions with minimal steps but as your solutions become more complex and requires multiple steps, Power Automate would be the better solution.
 
