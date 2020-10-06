@@ -29,6 +29,8 @@ roles:
 - maker
 products:   
 - ai-builder 
+- power-platform
+- power-automate
 units: 
 - learn-dynamics.get-started-with-form-processing.1-intro-to-form-processing 
 - learn-dynamics.get-started-with-form-processing.2-create-first-model 

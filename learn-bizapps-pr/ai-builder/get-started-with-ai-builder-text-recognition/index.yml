@@ -33,6 +33,8 @@ roles:
 - maker
 products:    
 - ai-builder
+- power-platform
+- power-automate
 units: 
 - learn-bizapps.get-started-with-ai-builder-text-recognition.1-introduction
 - learn-bizapps.get-started-with-ai-builder-text-recognition.2-solve-problems 
