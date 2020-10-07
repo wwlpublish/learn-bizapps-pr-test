@@ -65,7 +65,7 @@ In this section, you will explore two questions:
 
 1. Hover over our competitors to see segments in which they compete. Do you see any patterns?
 
-   ![Image of hover mouse-over image of Total Units by segment.](../media/lab-2/power-bi-hover-2.png)
+   ![Image of hover over competitors to see segments in which they compete.](../media/lab-2/power-bi-hover-2.png)
 
 1. Explore the same question just for the month of June. To cross-filter this report page for June, in the **Total Units by Month and Manufacturer** visual, click on the label **June-14**. Notice that all of the visuals in this report page update for June. 
 
