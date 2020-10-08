@@ -2,7 +2,7 @@ Premium experiences, such as performing a prediction in a prebuilt model or laun
 
 An environment is a Power Platform concept that defines a storage and working area. Usually, an environment includes a Common Data Service database (which is required for AI Builder to work correctly) and apps, AI models, and flows that are created in it. For example, tenants might use environments to distinguish production (Prod) environments from development (Dev) environments, and might occasionally use them to separate areas between Enterprise divisions. An environment is also known as an organization in a dynamic namespace.
 
-When you purchase the AI Builder Capacity add-on, corresponding capacity is made available at the tenant level. To make it available at the environment level, you need to assign it by going to the Power Platform admin center and, in the **Analytics > Capacity** section, selecting <https://admin.powerplatform.microsoft.com/analytics/capacity>.
+When you purchase the AI Builder Capacity add-on, corresponding capacity is made available at the tenant level. To make it available at the environment level, you need to assign it by going to the Power Platform admin center and, in the **Resources > Capacity** section, selecting <https://admin.powerplatform.microsoft.com/resources/capacity>.
 
 If your tenant is entitled to any Power Platform Capacity add-ons, including the AI Builder Capacity add-on, the **Add-ons** tab appears.
 
@@ -24,7 +24,7 @@ After you have saved the environment, the amount is directly assigned, and users
 
 The goal of this assignment step is to allow an admin to correctly manage your capacity across your environments. You might want to limit the number of AI Builder credits that are used in the Dev environment so more can be used in the Prod environment. At any time, you can purchase an additional AI Builder Capacity add-on and distribute the additional AI Builder credits among your environments.
 
-As shown in the following image, the total number of assigned AI Builder credits can be seen in the first tab of **Analytics > Capacity**, in the **Add-On** part of the screen, at the bottom of the page.
+As shown in the following image, the total number of assigned AI Builder credits can be seen in the first tab of **Resources > Capacity**, in the **Add-On** part of the screen, at the bottom of the page.
 
 ![A screenshot of a cell phone Description automatically generated](../media/image7.png)
 
