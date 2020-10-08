@@ -28,7 +28,7 @@ AI Builder capacity is also included with some other first-party licenses such a
 
 You might want to check how many AI Builder credits that your tenant is entitled to, which is a simple process.
 
-Go to the Power Platform admin center and select **Analytics > Capacity**, or go to <https://admin.powerplatform.microsoft.com/analytics/capacity>.
+Go to the Power Platform admin center and select **Resources > Capacity**, or go to <https://admin.powerplatform.microsoft.com/resources/capacity>.
 
 The **Summary** tab contains a list of add-ons, including the AI Builder credits. The graph shows you the total number of credits that you own and, among them, the number of credits that have been assigned.
 
