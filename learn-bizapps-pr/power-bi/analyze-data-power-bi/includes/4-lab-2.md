@@ -18,7 +18,8 @@ Congratulations. You are the new sales manager at a clothing manufacturing compa
 
 ### Add the Sales and Marketing Sample app
 
-[!NOTE] If you already have the **Sales and Marketing sample** app installed, please skip to the next section.
+> [!NOTE]
+> If you already have the **Sales and Marketing sample** app installed, please skip to the next section.
 
 1. Sign in to [http://app.powerbi.com](http://app.powerbi.com).
 1. Select the **Apps** tab on the left.
