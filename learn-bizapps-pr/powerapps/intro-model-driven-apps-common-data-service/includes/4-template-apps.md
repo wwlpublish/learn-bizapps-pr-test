@@ -2,7 +2,7 @@ On [Power Apps](https://make.powerapps.com/?azure-portal=true), you can use a sa
 
 For more details, be sure to check out the documentation that's specific to each sample app.
 
-![Fundraiser sample app](../media/updated-fundraiser-app1.png)
+![Screenshot of Fundraiser sample app in Power Apps.](../media/updated-fundraiser-app1.png)
 
 ## Get sample apps
 
@@ -19,7 +19,7 @@ To run a sample app, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true) to see a list of available sample apps. For this example, select **Fundraiser**.
 
-	![Fundraiser sample app](../media/updated-fundraiser-app2.png)
+	![Select to edit Fundraiser sample app](../media/updated-fundraiser-app2.png)
 
 1. At the top of the page, select **Show Visual Filter** to show graphs and charts where you can see how donations to fundraisers are performing. In the next steps, you'll create a new fundraiser and submit a donation to that fundraiser.
 1. On the left pane, under **Fundraiser**, select **Fundraisers**.
