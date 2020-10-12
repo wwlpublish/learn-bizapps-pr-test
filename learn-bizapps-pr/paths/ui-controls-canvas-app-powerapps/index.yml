@@ -29,6 +29,7 @@ modules:
 - learn-bizapps.navigation-canvas-app
 - learn-bizapps.how-to-build-ui-canvas-app
 - learn-bizapps.controls-canvas-apps
+- learn-bizapps.use-documentation 
 trophy:
   uid: learn-bizapps.ui-controls-canvas-app-powerapps.trophy
 
