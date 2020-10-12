@@ -43,7 +43,7 @@ quiz:
       explanation: The maximum data retention period for the Admin Analytics feature is 28 days.
   - content: What is the best way to look for flow errors that are occurring within a Power Automate environment?
     choices: 
-    - content: Run the Get-ErrorsForEnvirornment PowerShell cmdlet.
+    - content: Run the Get-ErrorsForEnvironment PowerShell cmdlet.
       isCorrect: false
       explanation: In the Errors report that is found in the Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.
     - content: View the Errors report that is found in the Power Platform Admin center - Admin Analytics feature.
