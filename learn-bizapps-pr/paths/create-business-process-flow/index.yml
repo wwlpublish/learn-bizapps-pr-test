@@ -31,6 +31,7 @@ modules:
 - learn-bizapps.intro-business-process-flows 
 - learn-bizapps.create-immersive-flow 
 - learn-bizapps.advanced-business-process-flows 
+- learn-bizapps.introduction-expressions
 trophy:
   uid: learn.create-business-process-flow.trophy
 
