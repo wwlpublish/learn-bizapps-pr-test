@@ -317,6 +317,7 @@
     },
     "fileMetadata": {
       "searchScope": {
+          "power-virtual-agents/**/*.yml": ["Power Platform", "Power Virtual Agents"],
           "powerapps/**/*.yml": ["Power Platform", "Power Apps"],
           "wwl-power-apps/**/*.yml": ["Power Platform", "Power Apps"],
           "power-bi/**/*.yml": ["Power Platform ", "Power BI"],
