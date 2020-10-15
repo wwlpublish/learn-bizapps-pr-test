@@ -34,15 +34,15 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
 5. Send an email with an attachment, or have another user send an email with an attachment. You then should see a green check mark, which indicates that the flow succeeded. 
 
-6. Select **Edit** to see how the flow is defined.
+6. Select the arrow towards the top to go back to the flow definition page.
  
-7. Select **Succeeded** to see the run history and the results.
+7. The run history and the results are listed below.
 
-    ![Flow successful](../media/flow-successful.png)
+     ![Run history](../media/run-history.png)
 
     In this case, all parts of the flow were successful. 
 
-    ![Run history](../media/run-history.png)
+    ![Flow successful](../media/flow-successful.png)
 
 ## Important concepts in Power Automate
 Keep these concepts in mind when building flows: 
