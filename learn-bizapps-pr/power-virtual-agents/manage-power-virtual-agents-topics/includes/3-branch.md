@@ -1,6 +1,6 @@
 Adding branching into a topic is what truly turns it from a one-way path into a multi-layer conversation. Different forks and paths ensure that the customer is provided data and resolutions based on the current situation.
 
-Branching allows you to evaluate conditions to initiate conversation nodes to launch another topic, display a message node, or trigger a Power Automate flow. You can manually add branching conditions between nodes, such as inserting a branch after you ask a question like "What country do you live in?" The customer's response to the question is stored as a variable, and branch conditions can be built based on that variable. You can add branching by selecting the plus (**+**) icon to add a node, selecting **Add a condition**, and then selecting the **Branch based on a condition** option.
+Branching allows you to evaluate conditions to initiate conversation nodes to launch another topic, display a message node, or trigger a Power Automate flow. You can manually add branching conditions between nodes, such as inserting a branch after you ask a question like "What country do you live in?" The customer's response to the question is stored as a variable, and branch conditions can be built based on that variable. You can add branching by selecting the plus (**+**) icon to add a node and then selecting **Add a condition**.
 
 > [!div class="mx-imgBorder"]
 > [![Add a condition, either for a branch based on a condition or for all other conditions.](../media/3-1.png)](../media/3-1.png#lightbox)
