@@ -64,7 +64,7 @@ To create a test contact, follow these steps:
 
 The workflow process of sending the invitation email is generic and needs to be customized prior to use.
 
-1. Open the [Power Apps portal](https://web.powerapps.com/?azure-portal=true).
+1. Open the [Power Apps portal](https://make.powerapps.com/?azure-portal=true).
 
 1. Select **Solutions**, and then locate and select **Default Solution**.
 
