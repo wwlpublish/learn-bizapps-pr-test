@@ -27,7 +27,7 @@ The following steps go through the process of creating a flow and adding it to a
 	> [!div class="mx-imgBorder"]
 	> [![confirm the flow saved](../media/flow-saved-ss.png)](../media/flow-saved-ss.png#lightbox)
 
-1. Return to validate that the flow has been created and is part of the solution. Select **Solutions** on the left vertical navigation pane, and then select **Volunteer Solution**.
+1. Return to validate that the flow has been created and is part of the solution. Select **Solutions** on the left vertical navigation pane, and then select **Volunteer Request** solution.
 
 	> [!div class="mx-imgBorder"]
 	> [![Go back and validate the flow has been created](../media/back-solution-ssm.png)](../media/back-solution-ssm.png#lightbox)
