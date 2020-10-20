@@ -116,7 +116,7 @@ In this task, you will create model relationships.
 
 	> *In this lab, the **SalespersonRegion** and **Targets** tables will remain disconnected. There's a many-to-many relationship between salesperson and region, you will work this advanced scenario in the next lab.*
 
-1. In the diagram, placing the tables with the **Sales** table in the center, and arranging the related tables about it.
+1. In the diagram, place the tables with the **Sales** table in the center, and arrange the related tables around it.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the relationships between different tables](../media/lab-10-ss.png)](../media/lab-10-ss.png#lightbox)
