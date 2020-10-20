@@ -67,8 +67,8 @@ more security role(s) with the app then assign the security role(s) to users.
 
 7.  Share the link to your app by following the steps below.
 
-    **Note:** Unlike sharing canvas apps, sharing model-driven apps does not currently send an
-    email with a link to the app.
+> [!NOTE] 
+> Unlike sharing canvas apps, sharing model-driven apps does not currently send an email with a link to the app.
 
 ## Get the direct link to an app:
 
