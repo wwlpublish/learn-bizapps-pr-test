@@ -16,9 +16,8 @@ reflect common user tasks, and the access levels that are defined follow the
 security best practice of providing access to the minimum amount of business
 data that is required to use the app.
 
-Remember that the Contoso pet grooming app is based on a custom entity. Because
-the entity is custom, privileges must be explicitly specified before users can
-work in it. To do this, you can use either of the following approaches:
+Apps can be based on a custom entity. Because the entity is custom, privileges 
+must be explicitly specified before users can work in it. To do this, you can use either of the following approaches:
 
 -   Expand an existing predefined security role so that it includes privileges
     on records that are based on the custom entity.
@@ -68,9 +67,8 @@ more security role(s) with the app then assign the security role(s) to users.
 
 7.  Share the link to your app by following the steps below.
 
->[!NOTE]
->Unlike sharing canvas apps, sharing model-driven apps does not currently send an
-email with a link to the app.
+> [!NOTE] 
+> Unlike sharing canvas apps, sharing model-driven apps does not currently send an email with a link to the app.
 
 ## Get the direct link to an app:
 
