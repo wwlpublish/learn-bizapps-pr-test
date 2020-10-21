@@ -106,7 +106,7 @@ In this task, you will create a relationship to the **Targets** table
 
 	Widen the table visual to reveal all data.
 
-1. It's now possible to visualize sales and targets---but take care, for two reasons. First, there is no filter on a time period, and so targets also including future target values. Second, targets are not additive, and so the total should not be displayed. They can either disabled by using a visual formatting property or removed by using calculation logic. You'll write a target measure in **Lab 06B** that will return BLANK when more than one salesperson is filtered.
+1. It's now possible to visualize sales and targets---but take care, for two reasons. First, there is no filter on a time period, and so targets also include future target values. Second, targets are not additive, and so the total should not be displayed. They can either disabled by using a visual formatting property or removed by using calculation logic. You'll write a target measure in **Lab 06B** that will return BLANK when more than one salesperson is filtered.
 
 
 
