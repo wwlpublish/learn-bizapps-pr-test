@@ -37,8 +37,8 @@ To define the parameters for the incremental refresh, follow these steps:
 
 4. Regarding the **Current Value**, for the **RangeStart** parameter, enter the date on which you want to begin the import, and for the **RangeEnd** parameter, enter the date on which you want the import to end.
 
-> [!div class="mx-imgBorder"]
-> [![Add filter parameters](../media/6-add-filter-parameters-ssm.png)](../media/6-add-filter-parameters-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Add filter parameters](../media/6-add-filter-parameters-ssm.png)](../media/6-add-filter-parameters-ssm.png#lightbox)
 
 ## Apply the filter
 
@@ -46,13 +46,13 @@ When you have defined the new parameters, you can apply the filter by following 
 
 1. Go to the applicable **Date** column and then right-click that column and select **Custom Filter**.
 
-> [!div class="mx-imgBorder"]
-> [![Select custom filter option](../media/6-select-custom-filter-option-ssm.png)](../media/6-select-custom-filter-option-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Select custom filter option](../media/6-select-custom-filter-option-ssm.png)](../media/6-select-custom-filter-option-ssm.png#lightbox)
 
 2. In the **Filter Rows** window that displays, to avoid the double counting of rows, make sure that you keep rows where **OrderDate** is after or equal to the **RangeStart** parameter and before the **RangeEnd** parameter.
 
-> [!div class="mx-imgBorder"]
-> [![Select filter rows settings](../media/6-select-filter-rows-settings-ss.png)](../media/6-select-filter-rows-settings-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Select filter rows settings](../media/6-select-filter-rows-settings-ss.png)](../media/6-select-filter-rows-settings-ss.png#lightbox)
 
 3. Select **Close and Apply** from the Power Query Editor.
 

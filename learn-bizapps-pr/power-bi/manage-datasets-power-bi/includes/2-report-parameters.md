@@ -16,11 +16,11 @@ In this example, you will connect to your database on SQL Server by following th
 
 2. Paste the SQL query into the **SQL statement** box and then select **OK**.
 
-> [!div class="mx-imgBorder"]
-> [![SQL Query Details](../media/2-sql-query-ss.png)](../media/2-sql-query-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![SQL Query Details](../media/2-sql-query-ss.png)](../media/2-sql-query-ss.png#lightbox)
 
-> [!div class="mx-imgBorder"]
-> [![Add query to execution statement](../media/2-add-query-execution-statement-ssm.png)](../media/2-add-query-execution-statement-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Add query to execution statement](../media/2-add-query-execution-statement-ssm.png)](../media/2-add-query-execution-statement-ssm.png#lightbox)
 
 When the connection is made, the data will be shown in the preview window. 
 
@@ -37,13 +37,13 @@ Next, you will create the parameter by following these steps:
 
 4. Select **OK**.
 
-> [!div class="mx-imgBorder"]
-> [![Add parameter](../media/2-add-parameter-ss.png)](../media/2-add-parameter-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Add parameter](../media/2-add-parameter-ss.png)](../media/2-add-parameter-ss.png#lightbox)
 
-A new query will now be shown for the parameter that you created.
+   A new query will now be shown for the parameter that you created.
 
-> [!div class="mx-imgBorder"]
-> [![New query for parameter](../media/2-parameter-query-ss.png)](../media/2-parameter-query-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![New query for parameter](../media/2-parameter-query-ss.png)](../media/2-parameter-query-ss.png#lightbox)
 
 
 Now, you need to adjust the code in SQL query to assess your new parameter: 
@@ -52,8 +52,8 @@ Now, you need to adjust the code in SQL query to assess your new parameter:
 
 2. Replace the existing value in the execute statement with an ampersand (**&**) followed by your parameter name (**SalesPerson**), as illustrated in the following image. 
 
-> [!div class="mx-imgBorder"]
-> [![Adjust sql query statement](../media/2-adjust-sql-query-statement-ssm.png)](../media/2-adjust-sql-query-statement-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Adjust sql query statement](../media/2-adjust-sql-query-statement-ssm.png)](../media/2-adjust-sql-query-statement-ssm.png#lightbox)
 
 3. Make sure that no errors are shown at bottom of the window and then select **Done**.
 
@@ -61,15 +61,15 @@ Though you won't notice a difference on the screen, Power BI will have run the q
 
 4. To confirm that the query was run, you can run a test by selecting the parameter query and entering a new value in the **Current Value** box.
 
-> [!div class="mx-imgBorder"]
-> [![Enter value into parameter](../media/2-enter-parameter-value-ss.png)](../media/2-enter-parameter-value-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Enter value into parameter](../media/2-enter-parameter-value-ss.png)](../media/2-enter-parameter-value-ss.png#lightbox)
 
 5. A warning icon might display next to the query. If so, select that query to view the warning message, which states that permission is required to run this native database query. Select **Edit Permission** and then select **Run**.
 
-When the query runs successfully, the parameter will update and display the new value.
+   When the query runs successfully, the parameter will update and display the new value.
 
-> [!div class="mx-imgBorder"]
-> [![Parameter with updated values](../media/2-paramenter-updated-values-ss.png)](../media/2-paramenter-updated-values-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Parameter with updated values](../media/2-paramenter-updated-values-ss.png)](../media/2-paramenter-updated-values-ss.png#lightbox)
 
 6. Select **Close and Apply** to return to the report editor. 
 
@@ -82,10 +82,10 @@ Now, you can apply the parameter to the report:
 
 3. Select **Apply changes** and then run the native query again. 
 
-Now, when you view the data, you'll see the data for the new value that was passed through the parameter.
+   Now, when you view the data, you'll see the data for the new value that was passed through the parameter.
 
-> [!div class="mx-imgBorder"]
-> [![Result of applying parameter to report](../media/2-apply-parameter-report-ss.png)](../media/2-apply-parameter-report-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Result of applying parameter to report](../media/2-apply-parameter-report-ss.png)](../media/2-apply-parameter-report-ss.png#lightbox)
 
 You can now create a report that displays data for one particular value at a time. If you want to display data for multiple values at the same time, you need to complete additional steps, as outlined in the next section.
 
@@ -97,8 +97,8 @@ Next, use the **Get data** feature in Power BI Desktop to connect to the data in
 
 1. On the **Navigator** window, select **Edit** to open the data in Power Query Editor, where you'll see a new query for the data table.
 
-> [!div class="mx-imgBorder"]
-> [![Table in Query pane](../media/2-table-query-pane-ss.png)](../media/2-table-query-pane-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Table in Query pane](../media/2-table-query-pane-ss.png)](../media/2-table-query-pane-ss.png#lightbox)
 
 2. Rename the column in the table to something more descriptive. 
 
@@ -111,28 +111,28 @@ Next, you need to create a function that will pass the new **SalesPersonID** que
 
 1. Right-click **Query1** and then select **Create function**.
 
-> [!div class="mx-imgBorder"]
-> [![Select create function option for query](../media/2-create-function-option-ssm.png)](../media/2-create-function-option-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Select create function option for query](../media/2-create-function-option-ssm.png)](../media/2-create-function-option-ssm.png#lightbox)
 
 2. Enter a name for the function and then select **OK**.
 
-> [!div class="mx-imgBorder"]
-> [![Select create function window](../media/2-create-function-window-ss.png)](../media/2-create-function-window-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Select create function window](../media/2-create-function-window-ss.png)](../media/2-create-function-window-ss.png#lightbox)
 
 Your new function will appear in the **Queries** pane.
 
-> [!div class="mx-imgBorder"]
-> [![Function in Query pane](../media/2-function-query-pane-ssm.png)](../media/2-function-query-pane-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Function in Query pane](../media/2-function-query-pane-ssm.png)](../media/2-function-query-pane-ssm.png#lightbox)
 
 3. To ensure that **Query1** doesn't show up in the field list for the report, which could potentially confuse users, you can disable it from loading in the report by right-clicking **Query1** again and then selecting **Enable load** (selected by default) to disable the feature.
 
-> [!div class="mx-imgBorder"]
-> [![Enable load option: ](../media/2-enable-load-option-ssm.png)](../media/2-enable-load-option-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Enable load option: ](../media/2-enable-load-option-ssm.png)](../media/2-enable-load-option-ssm.png#lightbox)
 
 4. Select the **SalesPerson** query that you loaded from the Excel worksheet and then, on the **Add Column** tab, select **Invoke custom function** to run the custom function that you created.
 
-> [!div class="mx-imgBorder"]
-> [![Invoke custom function option](../media/2-invoke-custom-function-option-ssm.png)](../media/2-invoke-custom-function-option-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Invoke custom function option](../media/2-invoke-custom-function-option-ssm.png)](../media/2-invoke-custom-function-option-ssm.png#lightbox)
 
 5. On the **Invoke Custom Function** window, select your function from the **Function query** list. 
 
@@ -140,13 +140,13 @@ The **New column name** will update automatically and the table that contains th
 
 6. Select **OK** and, if necessary, run the native query.
 
-> [!div class="mx-imgBorder"]
-> [![Invoke custom function window](../media/2-invoke-custom-function-window-ss.png)](../media/2-invoke-custom-function-window-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Invoke custom function window](../media/2-invoke-custom-function-window-ss.png)](../media/2-invoke-custom-function-window-ss.png#lightbox)
 
-A new column for your **GetSalesFromSalesPerson** function will appear next to the **SalesPersonID** column.
+   A new column for your **GetSalesFromSalesPerson** function will appear next to the **SalesPersonID** column.
 
-> [!div class="mx-imgBorder"]
-> [![New column for function](../media/2-function-column-ss.png)](../media/2-function-column-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![New column for function](../media/2-function-column-ss.png)](../media/2-function-column-ss.png#lightbox)
 
 7. Select the two arrows icon in the new column header and then select the check boxes of the columns that you want to load. This section is where you will determine the details that will be available in the report for each value (sales person ID). 
 
@@ -154,15 +154,15 @@ A new column for your **GetSalesFromSalesPerson** function will appear next to t
 
 9. Select **OK**.
 
-> [!div class="mx-imgBorder"]
-> [![Select columns for function](../media/2-select-columns-function-ss.png)](../media/2-select-columns-function-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Select columns for function](../media/2-select-columns-function-ss.png)](../media/2-select-columns-function-ss.png#lightbox)
 
-You should be able to view the data for the columns that you selected, for each value (sales person ID).
+   You should be able to view the data for the columns that you selected, for each value (sales person ID).
 
-> [!div class="mx-imgBorder"]
-> [![View columns for function](../media/2-view-columns-function-ss.png)](../media/2-view-columns-function-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![View columns for function](../media/2-view-columns-function-ss.png)](../media/2-view-columns-function-ss.png#lightbox)
 
-If necessary, you can add more values (sales people IDs) to the **SalesPersonID** column in the Excel worksheet, or you can change the existing values. 
+   If necessary, you can add more values (sales people IDs) to the **SalesPersonID** column in the Excel worksheet, or you can change the existing values. 
 
 10. Save your changes and then return to Power Query Editor. 
 

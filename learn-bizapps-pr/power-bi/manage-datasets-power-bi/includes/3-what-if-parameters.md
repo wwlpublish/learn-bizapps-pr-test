@@ -10,8 +10,8 @@ To create a what-if parameter, follow these steps:
 
 1. Go to the **Modeling** tab and select **New Parameter**.
 
-> [!div class="mx-imgBorder"]
-> [![Add what-if parameter](../media/3-add-what-if-parameter-ssm.png)](../media/3-add-what-if-parameter-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Add what-if parameter](../media/3-add-what-if-parameter-ssm.png)](../media/3-add-what-if-parameter-ssm.png#lightbox)
 
 2. On the **What-if parameter** window, configure the new parameter. 
 
@@ -27,8 +27,8 @@ To create a what-if parameter, follow these steps:
 
 8. Select **OK**.
 
-> [!div class="mx-imgBorder"]
-> [![Configure what-if parameter](../media/3-configure-what-if-parameter-ssm.png)](../media/3-configure-what-if-parameter-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Configure what-if parameter](../media/3-configure-what-if-parameter-ssm.png)](../media/3-configure-what-if-parameter-ssm.png#lightbox)
 
 > [!NOTE]
 > For decimal numbers, make sure that you precede the value with a zero (as in **0.50** versus **.50**). Otherwise, the number won't validate and the **OK** button won't be selectable.
@@ -56,8 +56,8 @@ Next, you will create a clustered column chart with the **MonthName** field on t
 
 Initially, the bars are similar; however, as you move the slider, notice that the **Gross Sales Forecast** column reflects the sales forecast percentage amount.
 
-> [!div class="mx-imgBorder"]
-> [![Use what-if slicer](../media/3-use-what-if-slicer-ssm.png)](../media/3-use-what-if-slicer-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Use what-if slicer](../media/3-use-what-if-slicer-ssm.png)](../media/3-use-what-if-slicer-ssm.png#lightbox)
 
 To enhance the visual, you can add a constant line so that you can clearly see how the organization is performing against a particular threshold or target. In this example, you will add a constant line with USD 2 million as the threshold value. Then, you will use the slider to find out what percentage of gross sales needs to increase by, each month, to reach that threshold. In the following image, the gross sales need to increase by 1.40 percent to reach the USD 2 million threshold.
 

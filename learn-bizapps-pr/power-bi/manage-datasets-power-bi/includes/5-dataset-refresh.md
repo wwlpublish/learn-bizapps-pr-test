@@ -17,8 +17,8 @@ To set up a refresh schedule for your dataset, follow these steps:
 
 2. Hover over the dataset for which you want to set up the schedule and then select the **Schedule refresh** icon.
 
-> [!div class="mx-imgBorder"]
-> [![Select schedule refresh option](../media/5-select-schedule-refresh-option-ssm.png)](../media/5-select-schedule-refresh-option-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Select schedule refresh option](../media/5-select-schedule-refresh-option-ssm.png)](../media/5-select-schedule-refresh-option-ssm.png#lightbox)
 
 3. On the **Settings** page, turn on the **Scheduled refresh** feature. 
 

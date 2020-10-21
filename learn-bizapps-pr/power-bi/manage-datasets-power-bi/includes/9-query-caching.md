@@ -22,13 +22,13 @@ To access and configure query caching, follow these steps:
 
 1. Go to a dataset in your workspace and open its **Settings** page. In this example, you will enable query caching for **SalesDataset**.  
 
-> [!div class="mx-imgBorder"]
-> [![Query Caching in Settings](../media/9-query-caching-settings-ssm.png)](../media/9-query-caching-settings-ssm.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Query Caching in Settings](../media/9-query-caching-settings-ssm.png)](../media/9-query-caching-settings-ssm.png#lightbox)
 
 2. Select the **Datasets** tab and expand the **Query Caching** options, as shown in the following image.  
 
-> [!div class="mx-imgBorder"]
-> [![Query caching options](../media/9-query-caching-options-ss.png)](../media/9-query-caching-options-ss.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Query caching options](../media/9-query-caching-options-ss.png)](../media/9-query-caching-options-ss.png#lightbox)
 
 3. On the **Query Caching** page, choose one of the available options. The default option is that query caching is turned off; however, you can also select **Off**, which turns off query caching for the specific dataset in question. If you select **On**, query caching will be turned on for this specific dataset only. For this example, you will select **On** for your dataset because you want to apply query caching to your specific dataset.  
 
