@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.manage-datasets-power-bi.1-introduction 
-title: Introduction to managing datasets 
+title: Introduction 
 metadata: 
-  title: Introduction to managing datasets  
-  description: Learn about managing datasets.  
+  title: Introduction  
+  description: Introduction to managing datasets in Power BI  
   ms.date: 06/30/2020 
   author: heyrob 
   ms.author: robde 
