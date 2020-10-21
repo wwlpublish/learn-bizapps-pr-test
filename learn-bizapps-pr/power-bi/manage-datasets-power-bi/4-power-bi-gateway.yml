@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.manage-datasets-power-bi.4-power-bi-gateway 
-title: Use a Power BI gateway to connect to on-premise data sources
+title: Use a Power BI gateway to connect to on-premises data sources
 metadata: 
-  title: Use a Power BI gateway to connect to on-premise data sources 
-  description: Learn how to use a Power BI gateway to connect to on-premise data sources.  
+  title: Use a Power BI gateway to connect to on-premises data sources 
+  description: Learn how to use a Power BI gateway to connect to on-premises data sources.  
   ms.date: 06/30/2020 
   author: heyrob 
   ms.author: robde 

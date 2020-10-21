@@ -1,3 +1,13 @@
-You took advantage of Power BI's great features to manage your datasets. You started this task by using parameters that are stored in a Microsoft Excel workbook to create dynamic reports in Power BI Service, and thereby give end users the ability to filter the data for specific values. You also used parameters to create what-if scenarios for more in-depth analysis of the data. Next, you used two data refresh options to automate the refresh process and make it more efficient. You then endorsed your most critical datasets, so end users knew that they were the ones they should use. Lastly, you became familiar with how the on-premises gateway and got some ideas on how to troubleshoot potential connectivity issues. 
+This module allowed you to take advantage of the following features of Power BI to help you manage your datasets: 
 
-These dataset management techniques will help you to increase the ease of access and up-to-date nature of your datasets - and allow you to build high-quality reports and dashboards, so your users can make real-time decisions.
+- Parameters that are stored in a Microsoft Excel workbook that help you create dynamic reports in Power BI service. These dynamic reports help you provide your users with the ability to filter data for specific values. 
+
+- Parameters to create what-if scenarios for more in-depth analysis of the data. 
+
+- Two data refresh options to help you automate the refresh process and make it more efficient. 
+
+- Endorsement features for your most critical datasets to help your users identify the datasets that they should use. 
+
+- The on-premises gateway and ideas on how to troubleshoot potential connectivity issues. 
+
+These dataset management techniques will help you to increase the ease of access and up-to-date nature of your datasets, and will help you build high-quality reports and dashboards so that your users can make real-time decisions.
