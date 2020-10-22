@@ -74,7 +74,7 @@ In this task, you will create the **Salesperson** table (direct relationship to 
 
 1. In the diagram, select the **Salesperson** table.
 
-1. In the **Properties** pane, in the **Description** box, enter: **Salesperson related to s sale**
+1. In the **Properties** pane, in the **Description** box, enter: **Salesperson related to a sale**
 
 	Recall that description appear as tooltips in the **Fields** pane when the user hovers their cursor over a table or field.
 
