@@ -3,7 +3,7 @@ uid: learn.wwl.how-to-build-basic-chatbot
 metadata:
   title: How to build a basic chatbot
   description: "How to build a basic chatbot"
-  ms.date: 09/25/2020
+  ms.date: 10/24/2020
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -21,7 +21,7 @@ abstract: |
   -   Analyze the performance of your bot after it has been deployed
 prerequisites: |
   None
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/how-to-build-a-basic-chatbot.svg
 levels:
 - beginner
 roles:
