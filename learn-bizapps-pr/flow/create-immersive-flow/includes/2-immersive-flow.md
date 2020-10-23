@@ -80,7 +80,6 @@ then select the **Done** button each time you add a new field, as shown in the f
 	- Entry Date - Date Only
 	- First Name - Text
 	- Last Name - Text
-	- Phone Number - Phone
 	- Address - Text
 	- City - Text
 	- State - Text

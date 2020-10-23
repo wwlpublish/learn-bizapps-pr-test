@@ -11,7 +11,7 @@ Previously, when you used Power Query Editor to analyze the metadata, the **Colu
 > [!div class="mx-imgBorder"]
 > [![View column distribution statistics](../media/4-column-distribution-statistics-ssm.png)](../media/4-column-distribution-statistics-ssm.png#lightbox)
 
-A column that has a lot of repeated values in its range (distinct count is high) will have a low level of cardinality. Conversely, a column that has a lot of unique values in its range (unique count is high) will have a high level of cardinality.
+A column that has a lot of repeated values in its range (distinct count is low) will have a low level of cardinality. Conversely, a column that has a lot of unique values in its range (unique count is high) will have a high level of cardinality.
 
 Lower cardinality leads to more optimized performance, so you might need to reduce the number of high cardinally columns in your dataset.
 

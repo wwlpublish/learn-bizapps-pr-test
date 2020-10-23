@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/25/2020
+  ms.date: 10/24/2020
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -42,10 +42,10 @@ quiz:
     choices:
     - content: "The session has more than 100 turns"
       isCorrect: true
-      explanation: "Incorrect. Chatbot sessions can end if a session has more than 100 turns."
+      explanation: "Correct. Chatbot sessions can end if a session has more than 100 turns."
     - content: "The session is longer than 90 minutes"
       isCorrect: false
-      explanation: "Correct. The first message that occurs after 60 minutes - not 90 minutes - starts a new session."
+      explanation: "Incorrect. The first message that occurs after 60 minutes - not 90 minutes - starts a new session."
     - content: "The session has more than 50 turns"
       isCorrect: false
       explanation: "Incorrect. A user can end the chat session."

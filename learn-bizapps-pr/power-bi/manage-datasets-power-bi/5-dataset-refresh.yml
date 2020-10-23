@@ -3,7 +3,7 @@ uid: learn-bizapps.manage-datasets-power-bi.5-dataset-refresh
 title: Configure a dataset scheduled refresh
 metadata: 
   title: Configure a dataset scheduled refresh 
-  description: Learn how to configure a dataset scheduled refresh.  
+  description: Learn how to configure a scheduled refresh for a dataset.  
   ms.date: 06/30/2020 
   author: heyrob 
   ms.author: robde 

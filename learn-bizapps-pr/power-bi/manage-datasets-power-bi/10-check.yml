@@ -15,15 +15,15 @@ quiz:
   questions: 
   - content: Where are dataset-scheduled refreshes configured?
     choices: 
-    - content: Power BI Service
+    - content: Power BI service
       isCorrect: true 
-      explanation: Dataset-scheduled refreshes are configured in Power BI Service. 
-    - content: Power BI desktop
+      explanation: Dataset-scheduled refreshes are configured in Power BI service. 
+    - content: Power BI Desktop
       isCorrect: false 
-      explanation: Dataset-scheduled refreshes are configured in Power BI Service. 
-    - content: Appsource
+      explanation: Dataset-scheduled refreshes are configured in Power BI service. 
+    - content: AppSource
       isCorrect: false 
-      explanation: Dataset-scheduled refreshes are configured in Power BI Service. 
+      explanation: Dataset-scheduled refreshes are configured in Power BI service. 
   - content: What reserved parameters configure the start and end of where Incremental refresh should occur?
     choices: 
     - content: Start and End parameters
@@ -35,14 +35,14 @@ quiz:
     - content: RangeStart and RangeEnd
       isCorrect: true 
       explanation: RangeStart and RangeEnd configure the start and end of where Incremental refresh should occur.
-  - content: What is the difference between Promotion and Certification when endorsing a dataset?
+  - content: What is the difference between Promotion and Certification when you are endorsing a dataset?
     choices: 
     - content: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
       isCorrect: true 
       explanation: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
-    - content: Promotion is for wide-spread usage while Certification needs permission granted on the Admin Tenant Settings.
+    - content: Promotion is for broad usage while Certification needs permission granted on the Admin Tenant settings.
       isCorrect: false 
       explanation: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
-    - content: Promotion is for wide-spread usage while Certification needs permission granted on the Admin Tenant Settings.
+    - content: Promotion is for broad usage while Certification needs permission granted on the Admin Tenant settings.
       isCorrect: false 
       explanation: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
