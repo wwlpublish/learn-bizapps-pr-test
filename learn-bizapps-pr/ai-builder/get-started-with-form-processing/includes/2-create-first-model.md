@@ -26,7 +26,7 @@ The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080) are 
 
 We also want to extract the description and total amount for each line item present on the invoice. Define a table names **Items** and with the columns **Description** and **Item total**. 
 
-![Choose information to extract](../media/forms-choose-information2.gif)
+![Choose information to extract](../media/forms-choose-information-2.gif)
 
 ## Define collections and upload documents 
 
@@ -42,7 +42,7 @@ For the collection named **Adatum**, upload the five documents you will find on 
 
 For the collection names **Contoso**, upload the five documents you will find on the **AI Builder Form processing Sample Data/Contoso/Train** folder.  
  
-![Add collections of documents](../media/form-processing-add-collections2.gif)
+![Add collections of documents](../media/form-processing-add-collections-2.gif)
  
 Once you have uploaded the sample documents to each collection click **Analyze** to continue. During the analysis step, AI Builder examines the documents that you have uploaded, and detects the fields and tables in your document. The time it takes to complete this operation depends on the number of documents provided, but in most cases, it should only take a few minutes.
 
@@ -88,7 +88,7 @@ Once you have finished tagging one document, move to the next one to tag by clic
 
 Once you have finished tagging one collection, navigate back to the collection list to tag the second collection.  
 
-![Forms tag tables](../media/forms-tag-tables2.gif)
+![Forms tag tables](../media/forms-tag-tables-2.gif)
 
 ## Summary and train
 
