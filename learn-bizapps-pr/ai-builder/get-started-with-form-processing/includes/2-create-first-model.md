@@ -4,13 +4,12 @@ The following procedures will show you how to create a Form processing model in 
 
 Follow these steps to sign in to AI Builder:
 
-1. Go to Power Automate or Power Apps and sign in with your organizational account. 
-1. In the left pane, select AI Builder > Build. 
-1. Select Form processing. 
-1. Enter a name for your model. 
-1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data we will be using in this guided experience. You can download the sample data [here](https://go.microsoft.com/fwlink/?linkid=2128080).  
-
-Select Create. 
+1.  Go to Power Automate or Power Apps and sign in with your organizational account. 
+1.  In the left pane, select AI Builder > Build. 
+1.  Select Form processing. 
+1.  Enter a name for your model. 
+1.  If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data we will be using in this guided experience. You can download the sample data [here](https://go.microsoft.com/fwlink/?linkid=2128080).  
+1.  Select **Create**. 
 
 ## Choose information to extract 
 
@@ -79,9 +78,9 @@ AI Builder can detect tables automatically in your documents. These are indicate
 ![Forms tag tables](../media/forms-tag-tables.gif)
 
 > [!NOTE]
-> Current limitations with tables 
-> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as not available in document to continue.  
-> For AI Builder to detect tables, rows and columns need to be clearly delimited and be properly aligned. Nested tables and merged cells are currently not supported. 
+> **Current limitations with tables**
+> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as not available in document to continue.   
+> For AI Builder to detect tables, rows and columns need to be clearly delimited and be properly aligned. Nested tables and merged cells are currently not supported.  
 
 ### Tag all documents 
 
@@ -93,7 +92,7 @@ Once you have finished tagging one collection, navigate back to the collection l
 
 ## Summary and train
 
-After you have selected your fields, follow these steps:
+After you have tagged all documents across all collections, follow these steps:
 
 1.  Select **Next**.
 2.  Review the summary of your model's details. If everything looks acceptable, select **Train**.
