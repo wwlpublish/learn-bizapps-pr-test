@@ -77,9 +77,8 @@ AI Builder can detect tables automatically in your documents. These are indicate
 
 ![Forms tag tables](../media/forms-tag-tables.gif)
 
-> [!NOTE]
-> **Current limitations with tables**
-> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as not available in document to continue.   
+> [!NOTE] 
+> **Current limitations with tables:** Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as not available in document to continue.   
 > For AI Builder to detect tables, rows and columns need to be clearly delimited and be properly aligned. Nested tables and merged cells are currently not supported.  
 
 ### Tag all documents 
