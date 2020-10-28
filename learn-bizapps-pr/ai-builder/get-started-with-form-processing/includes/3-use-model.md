@@ -8,7 +8,7 @@ After your model has completed training, you can view important details about yo
 
 To see your model in action, select **Quick test**.
 
-Drag and drop or upload an image from your device to test. If you are using sample data, go to the **AI Builder Form processing Sample Data\\Invoices Version 2\\Train** folder for a test image.
+Drag and drop or upload an image from your device to test. From the provides sample data, use the files from the Test folders that we didn’t use for training (either from **AI Builder Form processing Sample Data\Adatum\Test** or **AI Builder Form processing Sample Data\Contoso\Test**).
 
 You will now be able to view the detected fields that you chose and the associated confidence scores for retrieving the individual fields compared to the trained model.
 

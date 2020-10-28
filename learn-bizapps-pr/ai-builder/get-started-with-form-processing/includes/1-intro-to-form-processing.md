@@ -6,17 +6,9 @@ Power Automate.
 
 ## Form processing defined
 
-Form processing is one of the many AI capabilities that are offered as a
-part of AI Builder. A Form processing model will learn the layout of
-your document so that it can best detect and extract the form fields
-that you want to save, whether the form is made up of printed text or
-handwriting.
+Form processing is one of the many AI capabilities that are offered as a part of AI Builder. A Form processing model will learn from your documents so that it can best detect and extract the form fields that you want to save, whether the form is made up of printed text or handwriting. 
 
-The layout of your document is learned by training your model. You can
-use images or PDFs of your documents to train your model, but
-text-embedded PDFs will provide the best results. Images should be as
-high-quality as possible to avoid any issues in detecting text. Only
-documents with the same layout should be used.
+You can use images or PDFs of your documents to train your model, but text-embedded PDFs will provide the best results. Images should be as high-quality as possible to avoid any issues in detecting text.  
 
 ![Example of detected fields in an invoice
 form](../media/image-1.png)

@@ -13,17 +13,17 @@ durationInMinutes: 7
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: How many different document layouts can be available for each model?
+  - content: What kind of documents I can use to train a Form Processing model? 
     choices: 
-    - content: One
+    - content: Just invoices 
+      isCorrect: false 
+      explanation: You can use any kind of document to train a Form Processing model
+    - content: Invoices and purchase orders  
+      isCorrect: false 
+      explanation: You can use any kind of document to train a Form Processing model
+    - content: Any kind of document 
       isCorrect: true 
-      explanation: One document layout is available for each model.
-    - content: Two
-      isCorrect: false 
-      explanation: One document layout is available for each model.
-    - content: Three
-      isCorrect: false 
-      explanation: One document layout is available for each model.
+      explanation: You can use any kind of document to train a Form Processing model
   - content: How many sample documents do you need to train your model?
     choices: 
     - content: At least one
