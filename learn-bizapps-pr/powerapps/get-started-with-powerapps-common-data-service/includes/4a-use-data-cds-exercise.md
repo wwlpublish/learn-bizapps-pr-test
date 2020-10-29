@@ -94,6 +94,9 @@ exercise. Open the link, and select the Download button and save it locally.
 1. Save and close the Excel file.
 1. Continue with the **Prospects** entity.
 1. Select the drop-down arrow to the right of **Get data** and select **Get data from Excel**.
+   
+   > [!NOTE]
+   > If you receive an error when selecting the **Get data from Excel** option, then your Power Apps license does not allow for importing Excel data. 
 1. Select **Upload**, locate the Prospects Excel file, and Select **Open**.
 1. Select **Map Fields**.  Map the following Prospect fields to the associated Source values:
 	- **Contract Amount**: *ContractAmount*
