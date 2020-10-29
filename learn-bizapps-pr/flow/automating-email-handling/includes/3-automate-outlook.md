@@ -18,7 +18,7 @@ To limit the retrieved emails, filter them according to their parent folder, sta
 
 ![The Retrieve Email Messages From Outlook action.](..\media\retrieve-outlook.png)
 
-In the upper part of the actions' properties, specify the Outlook instance that was previously created with the **Launch Outlook** action and the chosen Outlook account.
+In the upper part of the action's properties, specify the Outlook instance that was previously created with the **Launch Outlook** action and the chosen Outlook account.
 
 ![The Outloook Instance and Account fields of the Retrieve Email Messages From Outlook action.](..\media\retrieve-outlook-account.png)
 
@@ -76,7 +76,7 @@ The **Respond To Outlook Mail Message** action responds to an Outlook message by
 
 ![The Respond To Outlook Mail Message action.](..\media\respond-outlook.png)
 
-The actions contain fields to specify the email body and the attachments. In the **Attachment(s)** field, enter the file's path or a variable that contains a file or a list of files.
+This action contains fields to specify the email body and the attachments. In the **Attachment(s)** field, enter the file's path or a variable that contains a file or a list of files.
 
 If you selected to forward the email, you should also populate the primary recipient of the email and the CC and BCC recipients. 
 
