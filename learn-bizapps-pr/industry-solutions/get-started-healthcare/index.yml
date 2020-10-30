@@ -1,0 +1,35 @@
+### YamlMime:Module 
+uid: learn-bizapps.get-started-healthcare 
+metadata: 
+ title: 
+ description: 
+ ms.date: 11/06/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-d365-healthcare  
+title: 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Summary text goes here. 
+abstract: |  
+    In this module, you will: 
+    - 
+    - 
+prerequisites: 
+iconUrl: /learn/achievements/get-started-healthcare.svg  
+levels:  
+- beginner   
+roles:  
+- business-user   
+- functional-consultant 
+products:  
+- CHANGETOYOURPRODUCT  
+units: 
+- learn-bizapps.get-started-healthcare.1-introduction 
+- learn-bizapps.get-started-healthcare.2-technologies 
+- learn-bizapps.get-started-healthcare.3-healthcare-demo 
+- learn-bizapps.get-started-healthcare.4-check 
+- learn-bizapps.get-started-healthcare.5-summary 
+badge: 
+  uid: learn-bizapps.get-started-healthcare.badge 
