@@ -27,6 +27,8 @@ By default, Power Apps pulls in a price value for each item. This value is set a
 ```powerappsfl
 Text(ThisItem.Price, "$ ##.00")
 ```
+> ![NOTE]
+> Some separators and operators will shift based on the decimal separator of the author's language. See [Formula separators and chaining operator](https://docs.microsoft.com/powerapps/maker/canvas-apps/global-apps#formula-separators-and-chaining-operator) for more information.
 
 The **Text** function specifies how to format the number. The formula is like an Excel function, but Power Apps formulas refer to controls and other app elements instead of cells in a workbook.
 
