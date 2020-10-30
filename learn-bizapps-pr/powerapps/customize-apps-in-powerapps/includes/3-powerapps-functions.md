@@ -18,17 +18,18 @@ By default, Power Apps pulls in a price value for each item. This value is set a
 
 1. In **BrowseScreen1**, select the price of the first item.
 
-    ![Select price](../media/select-price.png)
+   ![Select price](../media/select-price.png)
 
 1. In the drop-down list of properties, select **Text**.
 
 1. To add the currency symbol for US dollars, set the **Text** property to this formula:
 
-```powerappsfl
-Text(ThisItem.Price, "$ ##.00")
-```
-> [!NOTE]
-> Some separators and operators will shift based on the decimal separator of the author's language. See [Formula separators and chaining operator](https://docs.microsoft.com/powerapps/maker/canvas-apps/global-apps#formula-separators-and-chaining-operator) for more information.
+   ```powerappsfl
+   Text(ThisItem.Price, "$ ##.00")
+   ```
+
+   > [!NOTE]
+   > Some separators and operators will shift based on the decimal separator of the author's language. See [Formula separators and chaining operator](https://docs.microsoft.com/powerapps/maker/canvas-apps/global-apps#formula-separators-and-chaining-operator) for more information.
 
 The **Text** function specifies how to format the number. The formula is like an Excel function, but Power Apps formulas refer to controls and other app elements instead of cells in a workbook.
 
@@ -41,11 +42,13 @@ To conditionally format the price's color, set the **Color** property of the pri
 ```powerappsfl
 If(ThisItem.Price > 5, Color.Red, Color.Green)
 ```
+
 To conditionally format the price's color, select the price **Label** and choose the **Color** property and set it to this formula: 
 
 ```powerappsfl
 If(ThisItem.Price > 5, Color.Red, Color.Green)
 ```
+
 ![Screenshot of color property screen.](../media/power-apps-color.png)
 
 ## Formulas included in the generated app
@@ -54,19 +57,19 @@ Power Apps uses a couple of formulas in every app that it generates. Both exampl
 
 * The first formula is associated with the **IconNewItem1** control ![New item icon](../media/powerapps-icon-add-item.png). Select this control to open the edit/create screen where you can create an item. To view the formula, select the ![New item icon](../media/powerapps-icon-add-item.png) and then select it in the formula bar. The formula is as follows:
 
-    ```powerappsfl
-    NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
-    ```
+  ```powerappsfl
+  NewForm(EditForm1);Navigate(EditScreen1, ScreenTransition.None)
+  ```
 
-    The formula instantiates an edit page on the edit/create screen so that users can create an item. A value of `ScreenTransition.None` means that there's no transition, such as a fade, between screens.
+  The formula instantiates an edit page on the edit/create screen so that users can create an item. A value of `ScreenTransition.None` means that there's no transition, such as a fade, between screens.
 
 * The second formula is associated with the **IconSortUpDown1** control ![Sort gallery icon](../media/powerapps-icon-sort.png). Select this control to sort the items in the gallery. The formula is as follows:
 
-    ```powerappsfl
-    UpdateContext({SortDescending1: !SortDescending1})
-    ```
+  ```powerappsfl
+  UpdateContext({SortDescending1: !SortDescending1})
+  ```
 
-    The formula uses `UpdateContext` to update a variable called `SortDescending1`. The exclamation "!" symbol in the formula is a shortcut for the Not function. The value of the variable switches back and forth as you select the control. This variable tells the gallery on this screen how to sort the items.
+  The formula uses `UpdateContext` to update a variable called `SortDescending1`. The exclamation "!" symbol in the formula is a shortcut for the Not function. The value of the variable switches back and forth as you select the control. This variable tells the gallery on this screen how to sort the items.
 
 The app contains many other formulas, so take some time to select controls and determine what formulas are set for various properties.
 
