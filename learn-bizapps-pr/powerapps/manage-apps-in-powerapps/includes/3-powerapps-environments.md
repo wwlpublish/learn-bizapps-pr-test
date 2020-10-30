@@ -1,6 +1,6 @@
 An environment is a container for apps and other resources, such as data connections and flows from Power Automate. It's a way to group items based on business requirements.
 
-![Screenshot of Power Platform environments](../media/power-apps-environments-2.png)
+![Screenshot of Power Platform environments](../media/power-apps-environments.png)
 
 If you've followed along with this module, you've already been working in <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a>; therefore, you've been working in a specific environment the whole time.
 In the upper-right corner of the home page, you can view your current environment.
