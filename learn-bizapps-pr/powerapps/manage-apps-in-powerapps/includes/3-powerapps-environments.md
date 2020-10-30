@@ -52,10 +52,11 @@ Environment admins can create other security roles as needed. They can also add 
 
 1. Start by going to <a href="https://admin.powerplatform.microsoft.com" target="_blank">https://admin.powerplatform.microsoft.com</a>
 2. On the left pane, **Environments** should be selected by default, if it is not, select **Environments**.
-3. Select the test environment that you just created, and then select the **Security** tab.
-4. Add the user by entering the email address of the user in your organization and then selecting **Add user**. 
-    Wait a few minutes for the user to be added.
-5. To verify if the user is now available, select **list of users**.
-6. Hover over the result that you want, select its check box, and then select **MANAGE ROLES** on the top bar.
-7. In the **Manage User Roles** box, select the role(s) for the user. In this example, assign the user to the Environment Maker role.
-8. Select **OK**.
+3. Select the test environment that you just created, and then select **Settings** at the top.
+4. Select the **Users + permissions** dropdown and select **Users**. 
+5. Select **Add user** at the top and add the user by entering the email address of the user in your organization and then selecting **Add**. Wait a few minutes for the user to be added. 
+6. To manage the roles and information of a user, select the user’s **Name**. This will open a new tab with the Dynamics 365 view of that user. 
+7. Select **Manage Roles** on the top bar.
+8. In the **Manage User Roles** box, select the role(s) for the user. In this example, assign the user to the Environment Maker role.
+9. Select **OK**.
+10. The changes are then saved, so you can close the Dynamics 365 tab in your browser when done. 
