@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Patient Service Center
       isCorrect: true 
-      explanation: The Patient Service Center is Dynamics 365 Omni-channel for customer service app.  The Patient Access portal is a Power Apps portal app.  The Microsoft Healthbot is an Azure Bot app and Microsoft Shifts is a Microsoft Teams app.
+      explanation: The Patient Service Center is Dynamics 365 Omnichannel for customer service app.  The Patient Access portal is a Power Apps portal app.  The Microsoft Health bot is an Azure Bot app and Microsoft Shifts is a Microsoft Teams app.
     - content: Patient Access portal
       isCorrect: false 
-      explanation: The Patient Service Center is Dynamics 365 Omni-channel for customer service app.  The Patient Access portal is a Power Apps portal app.  The Microsoft Healthbot is an Azure Bot app and Microsoft Shifts is a Microsoft Teams app.
-    - content: Microsoft Healthbot
+      explanation: The Patient Service Center is Dynamics 365 Omnichannel for customer service app.  The Patient Access portal is a Power Apps portal app.  The Microsoft Health bot is an Azure Bot app and Microsoft Shifts is a Microsoft Teams app.
+    - content: Microsoft Health bot
       isCorrect: false 
-      explanation: The Patient Service Center is Dynamics 365 Omni-channel for customer service app.  The Patient Access portal is a Power Apps portal app.  The Microsoft Healthbot is an Azure Bot app and Microsoft Shifts is a Microsoft Teams app.
+      explanation: The Patient Service Center is Dynamics 365 Omnichannel for customer service app.  The Patient Access portal is a Power Apps portal app.  The Microsoft Health bot is an Azure Bot app and Microsoft Shifts is a Microsoft Teams app.
     - content: Microsoft Shifts
       isCorrect: false 
-      explanation: The Patient Service Center is Dynamics 365 Omni-channel for customer service app.  The Patient Access portal is a Power Apps portal app.  The Microsoft Healthbot is an Azure Bot app and Microsoft Shifts is a Microsoft Teams app.
+      explanation: The Patient Service Center is Dynamics 365 Omnichannel for customer service app.  The Patient Access portal is a Power Apps portal app.  The Microsoft Health bot is an Azure Bot app and Microsoft Shifts is a Microsoft Teams app.
   - content: What Dynamics 365 app is the Home Health app based on?
     choices: 
     - content: Dynamics 365 Sales
