@@ -96,7 +96,7 @@ Care team members can use the patient form to see a centralized view of all the 
 
 The care management feature also allows administrators to view information about the practitioners, including the various care team participation as well as patient interactions and appointments. The app will also contain information about related medical organizations (for example, clinics, hospitals, health centers) and locations.
 
-### Care Plans
+### Care plans
 
 To manage a patient's medical condition, a practitioner can create individualized care plan for the patient. Key information such as the plan name, status, start, and end dates can be entered as well as assigning care plan teams and setting care plan goals.
 
