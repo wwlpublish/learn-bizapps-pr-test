@@ -104,9 +104,9 @@ Care plan activities can be created and tracked against the particular care plan
 
 > [![Screenshot of Care Management app showing the care plan of a patient.](../media/10-care-plan.png)(../media/10-care-plan.png#lightbox)
 
-### Clinical Data
+### Clinical data
 
-The Clinical Data section allows for medical practitioners to track observations, encounters, procedures, and appointments for patients. These entities map to the [HL7 FHIR standard](http://www.hl7.org/fhir/).
+The Clinical data section allows for medical practitioners to track observations, encounters, procedures, and appointments for patients. These entities map to the [HL7 FHIR standard](http://www.hl7.org/fhir/).
 
 > [![Screenshot of the Care Management app showing the clinical data section which lists the Observations, Encounters, Procedures and appointments.](../media/11-clinical-data.png)(../media/11-clinical-data.png#lightbox)
 
