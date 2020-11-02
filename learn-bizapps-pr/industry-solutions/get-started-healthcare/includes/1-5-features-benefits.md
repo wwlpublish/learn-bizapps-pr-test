@@ -4,7 +4,7 @@ The Healthcare solution is composed of apps (Patient Service Center, Patient Acc
 
 The Patient Service Center is the Dynamics 365 Omnichannel for Customer Service app that is configured to enable healthcare administrators and healthcare call center agents to engage effectively with patients.
 
-> [![Screenshot showing the Patient Service Center Omnichannel dashboard.](../media/1-service-center.png)])../media/1-service-center.png#lightbox)
+[![Screenshot showing the Patient Service Center Omnichannel dashboard.](../media/1-service-center.png)])../media/1-service-center.png#lightbox)
 
 The Patient Service Center will provide the following tools to assist healthcare agents with their interactions with patients:
 
@@ -44,7 +44,7 @@ Patient Access is a Power Apps Portal application to provide the following self-
 
 Healthcare agents will interact and view patient information using the Patient Service Center.
 
-> [![Screenshot of the Patient Access portal home page for a logged in patient. ](../media/2-service-center.png)])../media/2-service-center.png#lightbox)
+[![Screenshot of the Patient Access portal home page for a logged in patient. ](../media/2-service-center.png)])../media/2-service-center.png#lightbox)
 
 The patient is required to have a patient record (contact) in the Healthcare solution and then be given access to the Patient Access portal (using a secure authentication mechanism). The patient will be able to update and manage their profile (contact information) in the portal.
 
@@ -52,37 +52,37 @@ The patient is required to have a patient record (contact) in the Healthcare sol
 
 The patient can search through a directory of available healthcare practitioners that lists the pertinent information such as location and contact information.
 
-> [![Screenshot of Patient Access portal showing the "Find a doctor" page listing available healthcare practitioners](../media/3-find-doctor.png)])../media/3-find-doctor.png#lightbox)
+[![Screenshot of Patient Access portal showing the "Find a doctor" page listing available healthcare practitioners](../media/3-find-doctor.png)])../media/3-find-doctor.png#lightbox)
 
 ### Messages
 
 The messages area provides a place where a patient can send and receive secure messages from healthcare practitioners.
 
-> [![Screenshot of Patient Access portal showing the messages feature to send and receive secure messages from healthcare providers.](../media/4-find-appointment.png)])../media/4-find-appointment.png#lightbox)
+[![Screenshot of Patient Access portal showing the messages feature to send and receive secure messages from healthcare providers.](../media/4-find-appointment.png)])../media/4-find-appointment.png#lightbox)
 
 ### Appointments
 
 A patient can view their upcoming and past appointments and schedule new appointments or modifications such as rescheduling or canceling an appointment. Appointments made in other systems may appear based on the FHIR integration.
 
-> [![Screenshot of Patient Access portal showing the steps a patient would take to schedule a new appointment with a healthcare practitioner.](../media/5-schedule-appointment.png)])../media/5-schedule-appointment.png#lightbox)
+[![Screenshot of Patient Access portal showing the steps a patient would take to schedule a new appointment with a healthcare practitioner.](../media/5-schedule-appointment.png)])../media/5-schedule-appointment.png#lightbox)
 
 ### Medical records
 
 The medical records area allows for patients to view medications, allergies, conditions, visit summaries, care plans, and care teams.
 
-> [![Screenshot of Patient Access portal showing a list of medications that are prescribed for the patient logged into the portal.](../media/6-medications.png)])../media/6-medications.png#lightbox)
+[![Screenshot of Patient Access portal showing a list of medications that are prescribed for the patient logged into the portal.](../media/6-medications.png)])../media/6-medications.png#lightbox)
 
 ### Chat
 
 The embedded chat capabilities allow a patient to initiate a chat. This session could begin with a bot but be transferred to a live healthcare agent to provide information or to schedule an appointment.
 
-> [![Screenshot of Patient Access portal using the chatbot feature to engaged with the Microsoft healthbot.](../media/7-chat.png)])../media/7-chat.png#lightbox)
+[![Screenshot of Patient Access portal using the chatbot feature to engaged with the Microsoft healthbot.](../media/7-chat.png)])../media/7-chat.png#lightbox)
 
 ## Care Management
 
 The Care Management feature of the Healthcare solution provides Healthcare practitioners with detailed information about patients and the ability to create and manage the care plans. The solution also allows for the coordination and management of care team members or related medical organizations.
 
-> [![Screenshot of the Care Management, care coordinator dashboard showing care plan activities, patient appointments and timeline.](../media/8-care-management.png)])../media/8-care-management.png#lightbox)
+[![Screenshot of the Care Management, care coordinator dashboard showing care plan activities, patient appointments and timeline.](../media/8-care-management.png)])../media/8-care-management.png#lightbox)
 
 The three key areas of the Care Management app are Administration, Care Plans, and Clinical Data.
 
@@ -92,7 +92,7 @@ The Care Coordinator dashboard provides a view of active care plan activities, o
 
 Care team members can use the patient form to see a centralized view of all the patient information such as the assigned care team, care plans, appointments, and the patient's healthcare activity timeline. The structure of the patient data is based on the industry standard HL7 FHIR. Using the integration with the Azure FHIR service, practitioners can have extended visibility to patient data from other EMR systems.
 
-> [![Screenshot of care management app showing the clinical timeline of a patient.](../media/9-admin.png)])../media/9-admin.png#lightbox)
+[![Screenshot of care management app showing the clinical timeline of a patient.](../media/9-admin.png)])../media/9-admin.png#lightbox)
 
 The care management feature also allows administrators to view information about the practitioners, including the various care team participation as well as patient interactions and appointments. The app will also contain information about related medical organizations (for example, clinics, hospitals, health centers) and locations.
 
