@@ -140,7 +140,7 @@ The cases view will show a list of cases related to patients that have been assi
 
 ![Screenshot of the Home Health app showing an example of a case record.](../media/15-cases.png)
 
-### Home Care
+### Home care
 
 Home care will show a list of active home health work orders for patients. These will be assigned to a home healthcare practitioner and will display information about the patient as well as the scheduled time for the visit.
 
