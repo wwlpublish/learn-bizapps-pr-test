@@ -146,7 +146,7 @@ Home care will show a list of active home health work orders for patients. These
 
 ![Screenshot of the Home Health app showing an example of a Home Care work order record.](../media/16-home-care.png)
 
-### Schedule Board
+### Schedule board
 
 A healthcare agent will use the schedule board to create home care appointments for patients. The agent will use the Universal Resource Scheduling features to manage the schedules of care team members and optimize the home care visits using route optimization capabilities.
 
