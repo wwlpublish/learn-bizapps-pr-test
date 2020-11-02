@@ -28,9 +28,7 @@ management goals.
 in to your local instance. 
 
 1. Select the proper environment in the upper-right corner of the screen.
-
-	![Select Environment in Power Automate](../media/3-selecting-environment-power-automate.png)
-
+	
 1. Select **My Flows** on the menu on the left side of the screen and then select the **Business process flows** tab.
 
 	![Selecting My Flows and Business process flows in Power Automate](../media/4-selecting-my-flows-business-process-flows-power-automate.png)
@@ -82,7 +80,6 @@ then select the **Done** button each time you add a new field, as shown in the f
 	- Entry Date - Date Only
 	- First Name - Text
 	- Last Name - Text
-	- Phone Number - Phone
 	- Address - Text
 	- City - Text
 	- State - Text
@@ -161,9 +158,9 @@ resemble the following screenshot.
 	
 	-   Automobile Model - Text
 	
-	-   Automobile Year - Number
+	-   Automobile Year - Whole Number
 	
-	-   Automobile Mileage - Number
+	-   Automobile Mileage - Whole Number
 	
 	-   Automobile Comments - Text Area
 

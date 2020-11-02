@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.process-properties.3-set-process-run-policy 
+title: Set what happens when a process is run interactively or automatically
+metadata: 
+  title: Set what happens when a process is run interactively or automatically
+  description: Set what happens when a process is run interactively or automatically.
+  ms.date: 08/21/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-set-process-run-policy.md)] 

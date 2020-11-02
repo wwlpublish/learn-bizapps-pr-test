@@ -13,7 +13,7 @@ When a user starts a business process flow, the process bar at the top of the pa
 
 1. Launch Power Automate and sign in using your organizational account.
 
-1. In the left pane, select **Flows**.
+1. In the left pane, select **My flows**.
 
 1. On the top bar, select **New** and **Business process--from blank**.
 

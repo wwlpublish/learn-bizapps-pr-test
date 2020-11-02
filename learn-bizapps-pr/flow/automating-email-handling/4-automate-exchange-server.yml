@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.automating-email-handling.4-automate-exchange-server
+title: Automate an Exchange server
+metadata: 
+  title: Automate an Exchange server
+  description: Learn how to automate an Exchange server with WinAutomate.
+  ms.date: 09/21/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-automate-exchange-server.md)] 

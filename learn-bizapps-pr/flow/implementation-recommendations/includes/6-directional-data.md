@@ -15,7 +15,7 @@ you can implement directionality by using Power Platform Management connectors.
 The following sections explain how you can accomplish directional data governance.
 
 The first step in accomplishing directional data governance is to create a DLP policy, from the 
-[Power Automate Admin center](https://admin.flow.microsoft.com/?azure-portal=true), 
+[Power Automate Admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true), 
 that includes the SharePoint and Twitter connectors in the **Business data only**
 data group. By using this configuration, you are allowing makers to build flows 
 that include both of these connectors.

@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.first-steps-winautomation.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 08/20/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "WinAutomation processes can be executed only through the console."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "Processes can be executed through the console and the process designer, as well as by triggers and schedules."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Processes can be executed through the console and the process designer, as well as by triggers and schedules."
+  - content: "Which of the following panes exists in the process designer?"
+    choices: 
+    - content: "Tools repository"
+      isCorrect: false 
+      explanation: "There is not a Tools repository pane in the process designer."
+    - content: "Controls repository"
+      isCorrect: true 
+      explanation: "There is a controls repository pane in the process designer."
+    - content: "Video repository"
+      isCorrect: false 
+      explanation: "There is not a video repository pane in the process designer."
+  - content: "Triggers and schedules can be set through the process designer."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "Triggers and schedules can be set through the console."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Triggers and schedules can be set through the console."

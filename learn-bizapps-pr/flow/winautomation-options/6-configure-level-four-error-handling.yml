@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.winautomation-options.6-configure-level-four-error-handling 
+title: Configure global error handling 
+metadata: 
+  title: Configure global error handling 
+  description: Configure global error handling options.
+  ms.date: 08/20/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate   
+durationInMinutes: 6 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-configure-level-four-error-handling.md)] 

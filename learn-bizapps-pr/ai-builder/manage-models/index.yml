@@ -32,6 +32,8 @@ roles:
 - maker
 products:  
 - ai-builder 
+- power-platform
+- power-automate
 units: 
 - learn-bizapps.manage-models.1-lifecycle 
 - learn-bizapps.manage-models.2-manage-versions 

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.portals-architecture.3-tools 
+title: Portals maker and admin tools
+metadata: 
+  title: Portals maker and admin tools 
+  description: Learn about portals maker and admin tools.   
+  ms.date: 06/30/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-apps-portals 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-tools.md)] 

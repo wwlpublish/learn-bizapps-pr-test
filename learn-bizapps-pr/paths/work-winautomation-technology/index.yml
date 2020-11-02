@@ -1,0 +1,37 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.work-winautomation-technology
+metadata:
+  title: Work with different technologies in WinAutomation
+  description: Learn how to use features of WinAutomation.
+  ms.date: 09/25/2020
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Work with different technologies in WinAutomation
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  This Learning Path covers technologies used with WinAutomation. Learn how to automate email handling, Excel, user interface, and system services in this path. 
+prerequisites: Basic familiarity with WinAutomation.
+iconUrl: /learn/achievements/work-winautomation-technology.svg
+levels:
+- intermediate
+roles: 
+- administrator
+- maker  
+- business-user  
+- developer 
+- functional-consultant
+products:
+- power-platform
+- power-automate
+modules:
+- learn-bizapps.automating-email-handling 
+- learn-bizapps.excel-automation
+- learn-bizapps.system-services-actions
+- learn-bizapps.files-folders-handling 
+- learn-bizapps.ui-automation
+- learn-bizapps.web-automation
+
+trophy: 
+  uid: learn-bizapps.work-winautomation-technology.trophy

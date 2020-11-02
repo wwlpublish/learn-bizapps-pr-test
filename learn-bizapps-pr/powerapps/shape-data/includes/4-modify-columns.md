@@ -7,7 +7,7 @@ temporary column for tracking the selected records that only exists
 inside of Power Apps and does not modify the original data source.
 Fortunately, Power Apps offers a solution.
 
-With Power Apps there a series of columns that modify the columns of your
+With Power Apps there a series of functions that modify the columns of your
 table only within Power Apps, which means that they don't modify or change
 the actual data source. Those functions are:
 

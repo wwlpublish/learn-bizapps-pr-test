@@ -40,7 +40,7 @@ control is not a valid email address.
 3.  Modify the **DisplayMode** property of the **Button** control to the
     following formula.
     ```powerappsfl
-    If(IsMatch(TextInput1.Text, Email), DisplayMode.Edit,DisplayMode.Disabled)
+    If(IsMatch(TextInput1_1.Text, Email), DisplayMode.Edit,DisplayMode.Disabled)
     ```
 
 4.  Preview the app by selecting the **Play** button in the upper-right corner.

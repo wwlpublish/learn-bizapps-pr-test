@@ -97,9 +97,8 @@ You will notice in our example, the new entity and primary field begins with **c
 
 ## Customize the main form
 
-1. In Power Apps, in the left navigation pane, select **Model-driven**.
-2. In the left navigation pane, expand **Data**, select **Entities**, and then select **Pet**.
-3. On the **Forms** tab, select **Information** next to the **Main** form type to open the form editor.
+1. In the left navigation pane, expand **Data**, select **Entities**, and then select **Pet**.
+1. On the **Forms** tab, select **Information** next to the **Main** form type to open the form editor.
 
     > [!div class="mx-imgBorder"]
     > ![Edit main form](../media/updated-main-form-edit.png)

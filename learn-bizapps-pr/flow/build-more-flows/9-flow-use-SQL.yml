@@ -1,8 +1,8 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.9-flow-use-SQL
-title: Build a flow that uses SQL
+title: Exercise - Build a flow that uses SQL
 metadata: 
-  title: Build a flow that uses SQL
+  title: Exercise - Build a flow that uses SQL
   description: Learn to build a flow that uses SQL to update information.
   ms.date:  03/04/2020
   author: KevSch

@@ -1,16 +1,16 @@
 An environment is a container for apps and other resources, such as data connections and flows from Power Automate. It's a way to group items based on business requirements.
 
-![Environment picker](../media/powerapps-environments2.png)
+![Screenshot of Power Platform environments](../media/power-apps-environments.png)
 
 If you've followed along with this module, you've already been working in <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a>; therefore, you've been working in a specific environment the whole time.
 In the upper-right corner of the home page, you can view your current environment.
 
-![Environment picker](../media/powerapps-environment-picker.png)
+![Screenshot of Environment picker](../media/powerapps-environment-picker.png)
 
 If you're new to Microsoft Power Apps, you might have only the default environment at this point. If a drop-down menu is visible next to the environment name, this indicates that other environments are available.
 
 > [!NOTE]
-> If you want to work with Power Apps environments, you need a Power Apps Per app plan or Power Apps Per user plan. Additionally, if you want to work with Dynamics 365 restricted entities, you must have a Power Apps for Dynamics 365 license. Learn more about [licenses for Dynamics 365](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fpowerapps%2Fadministrator%2Fpricing-billing-skus%23licenses&data=02%7C01%7Cv-tosis%40microsoft.com%7C3bb58d639d8745c27ff908d62d4c1062%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636746202048937165&sdata=8rDKLL4XBkwCLOrpZe0F2MlTmkfhAmukrV3bn4a34NU%3D&reserved=0).
+> If you want to work with Power Apps environments, you need a Power Apps Per app plan or Power Apps Per user plan. Additionally, if you want to work with Dynamics 365 restricted entities, you must have a Power Apps for Dynamics 365 license. Learn more about [licenses for Dynamics 365](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses).
 
 ## Reasons to use environments
 Reasons to create environments beyond the default one include:
@@ -29,8 +29,7 @@ Only an admin can create environments. If you aren't an admin, this information 
 
 1. On the <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a> home page, select the gear icon near the upper-right corner and then select **Admin center**.
 
-    You can also go directly to <a href="https://admin.powerapps.com" target="_blank">admin.powerapps.com</a>.
-
+    You can also go directly to https://admin.powerplatform.microsoft.com/
 2. In the Power Apps admin center, select **+ New**. 
 3. In the **New environment** dialog box, enter a name for the environment and then select a region and an environment type.
 4. To the left of **Create a database for this environment**, select the toggle to Yes.
@@ -51,12 +50,13 @@ By default, you can access an environment in one of two ways:
 
 Environment admins can create other security roles as needed. They can also add and assign users to these roles.
 
-1. Start by going to <a href="https://admin.powerapps.com" target="_blank">admin.powerapps.com</a>
+1. Start by going to <a href="https://admin.powerplatform.microsoft.com" target="_blank">https://admin.powerplatform.microsoft.com</a>
 2. On the left pane, **Environments** should be selected by default, if it is not, select **Environments**.
-3. Select the test environment that you just created, and then select the **Security** tab.
-4. Add the user by entering the email address of the user in your organization and then selecting **Add user**. 
-    Wait a few minutes for the user to be added.
-5. To verify if the user is now available, select **list of users**.
-6. Hover over the result that you want, select its check box, and then select **MANAGE ROLES** on the top bar.
-7. In the **Manage User Roles** box, select the role(s) for the user. In this example, assign the user to the Environment Maker role.
-8. Select **OK**.
+3. Select the test environment that you just created, and then select **Settings** at the top.
+4. Select the **Users + permissions** dropdown and select **Users**. 
+5. Select **Add user** at the top and add the user by entering the email address of the user in your organization and then selecting **Add**. Wait a few minutes for the user to be added. 
+6. To manage the roles and information of a user, select the user’s **Name**. This will open a new tab with the Dynamics 365 view of that user. 
+7. Select **Manage Roles** on the top bar.
+8. In the **Manage User Roles** box, select the role(s) for the user. In this example, assign the user to the Environment Maker role.
+9. Select **OK**.
+10. The changes are then saved, so you can close the Dynamics 365 tab in your browser when done. 

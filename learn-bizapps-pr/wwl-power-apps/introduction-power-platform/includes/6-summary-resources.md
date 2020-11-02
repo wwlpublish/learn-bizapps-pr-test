@@ -24,7 +24,7 @@ Now that you have reviewed this module, you should be able to:
 
 ## Resources
 
-Use these resources to discover more. To open a resource link, right-click and select "Open in a new tab or window". That way, you can check out the resource and easily return to the module tab to unlock your achievement when done.
+Use these resources to discover more.
 
 > [!TIP]
 > To open a resource link, right-click and select "Open in a new tab or window". That way, you can check out the resource and easily return to the module tab to unlock your achievement when done.

@@ -1,0 +1,7 @@
+In this module, you learned how to use the AI aspects of advanced analytics in Power BI to further examine your data and answer more business questions.
+
+You started by enhancing your reports with a self-service element, and then you added an interactive **Q&A** visual that allows users to get direct answers to the questions that they ask in their own words. You also set up the **Q&A** feature to meet the needs of your organization and its dataset. Additionally, you learned how to continue setting up the **Q&A** feature going forward, as the data and organizational needs change, so that it works in the most optimized way and becomes a valuable asset in your reports. Next, you added the **Key influencers** visual to your report so that users could understand the factors that affect a specific metric. Finally, you added a **Decomposition Tree** visual to your reports so that users could view your data across multiple dimensions and conduct root cause analysis.
+
+The advanced analytical AI techniques that you applied to your organization's data enabled you to take your data analysis to a new level. You gained deeper insights in the data by analyzing the *why* and *how* of the data analysis results. You were able to analyze a new set of data, data that was in text format and untouched in your previous analysis.
+
+The results of your AI advanced analysis will enable users at all levels of your organization to further analyze the data, get new insights, get answers to important questions, and address business challenges.

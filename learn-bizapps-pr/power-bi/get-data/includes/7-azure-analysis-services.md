@@ -10,9 +10,6 @@ Notable differences between Azure Analysis Services cubes and SQL Server are:
 
 - Analysis Services cubes have calculations already in the cube, which will be discussed in more detail later.
 - If you don’t need an entire table, you can query the data directly. Instead of using Transact-SQL (T-SQL) to query the data, like you would in SQL Server, you can use multi-dimensional expressions (MDX) or data analysis expressions (DAX). 
-- You don’t need to use the **Get Data** button in Power BI Desktop.
- 
-
 
 ### Connect to data in Azure Analysis Services  
 
@@ -25,7 +22,7 @@ As previously mentioned, you use the **Get data** feature in Power BI Desktop. W
  
 Similar to a relational database, you can choose the tables that you want to use. If you want to directly query the Azure Analysis Services model, you can use DAX or MDX. 
  
-Because you want to get data to other data in your organization , you will likely import the data directly into Power BI. An acceptable alternative is to import all other data that you want (from Excel, SQL Server, and so on) into the Azure Analysis Services model and then use a live connection. Using this approach, the data modeling and DAX measures are all performed in one place, and it's a much simpler and easier way to maintain your solution.
+You will likely import the data directly into Power BI. An acceptable alternative is to import all other data that you want (from Excel, SQL Server, and so on) into the Azure Analysis Services model and then use a live connection. Using this approach, the data modeling and DAX measures are all performed in one place, and it's a much simpler and easier way to maintain your solution.
 
 For more information on connecting Power BI to Azure Analysis Services,
 please refer to [Connect with Power BI documentation.](https://docs.microsoft.com/azure/analysis-services/analysis-services-connect-pbi/?azure-portal=true) 

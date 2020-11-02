@@ -2,8 +2,7 @@ As you would expect, Power Apps has all of the functions and controls that you n
 
 The second common use of relationships is to query the parent from the child record. For this example, you will learn how to query the customer name when you are directly looking at the invoice record.
 
-Connecting a parent and child table in Power Apps
-------------------------------------------------
+## Connecting a parent and child table in Power Apps
 
 In this example, you will walk through how to reference a parent and
 child relationship using the Power Apps filter and a LookUp function.
@@ -56,7 +55,7 @@ modify the items property of Gallery2.
 1.  Set the **Items** property of **Gallery2** to:
 
     ```powerappsfl
-    Filter(InvoiceTable, CustomerID = Gallery1.Selected.ID)
+    Filter(InvoiceTable, CustomerID.ID = Gallery1.Selected.ID)
     ```
 
 The formula will do the following.
@@ -64,13 +63,12 @@ The formula will do the following.
   | **Formula Argument** | **Formula Input**                 | **Notes** |
   | :--------------------| :---------------------------------| :-----------------------------------------------------------------------------------------------------------------------------------------------------|
   | source               | InvoiceTable                      |  |
-  | logical_test        | CustomerID = Gallery1.Selected.ID | CustomerID is the column name from the InvoiceTable. Gallery1.Selected.The ID is the value of the ID column for the selected record in the gallery. |
+  | logical_test        | CustomerID.ID = Gallery1.Selected.ID | CustomerID is the column name from the InvoiceTable. Gallery1.Selected.The ID is the value of the ID column for the selected record in the gallery. |
 
 Now, Gallery2 will only display the invoice records for the selected
 customer in Gallery1.
 
-Looking up information stored in the parent from the child
-----------------------------------------------------------
+## Looking up information stored in the parent from the child
 
 The previous example looked showed how to go from the top down. Sometimes
 you need to go from the bottom up. For example, in the InvoiceTable, if
@@ -122,8 +120,7 @@ After making that change, Gallery3 is much more user-friendly.
 
 ![user-friendly list of invoice records](../media/image2.png)
 
-Performance Notes
-------------------------------------------------
+## Performance Notes
 
 The previous example is used to demonstrate the
 concept of looking up from the child to the parent. There can be

@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.work-with-winautomation
+metadata:
+  title: Work with WinAutomation
+  description: Learn how to use features of WinAutomation.
+  ms.date: 08/31/2020
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Work with WinAutomation
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Work with WinAutomation options, process properties, recording features, conditions, loops, variables, repositories, and error and exception handling. 
+prerequisites: None
+iconUrl: /learn/achievements/work-with-winautomation.svg
+levels:
+- intermediate
+roles: 
+- administrator
+- maker  
+- business-user  
+- developer 
+- functional-consultant
+products:
+- power-platform
+- power-automate
+modules:
+- learn-bizapps.winautomation-options
+- learn-bizapps.process-properties 
+- learn-bizapps.winautomation-recording-features
+- learn-bizapps.conditionals
+- learn-bizapps.loops
+- learn-bizapps.winautomation-variables
+- learn-bizapps.using-repositories 
+- learn-bizapps.exception-error-handling
+trophy: 
+  uid: learn-bizapps.work-with-winautomation.trophy

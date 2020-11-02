@@ -4,7 +4,7 @@ But because some people begin in the Power BI service, let's take a quick look a
 
 An **app** is a collection of preset, ready-made visuals and reports that are shared with an entire organization. Using an app is like microwaving a TV dinner or ordering a fast-food value meal: you just have to press a few buttons or make a few comments, and you're quickly served a collection of entrees designed to go together, all presented in a tidy, ready-to-consume package.
 
-So, let's take a quick look at apps, the service, and how it works. We'll go into more detail about apps (and the service) in upcoming modules, but you can think of this as a taste to whet your appetite.
+So, let's take a quick look at apps, the service, and how it works. We'll go into more detail about apps (and the service) in upcoming modules, but you can think of this as a taste to whet your appetite. You can sign into the service at <a href="https://powerbi.microsoft.com" target="_blank">https://powerbi.microsoft.com</a>. 
 
 ## Create out-of-box dashboards with cloud services
 With Power BI, connecting to data is easy. From the Power BI service, you can just select the **Get Data** button in the lower-left corner of the home page.

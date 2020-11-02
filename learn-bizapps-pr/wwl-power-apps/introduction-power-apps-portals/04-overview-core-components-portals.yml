@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-power-apps-portals.overview-core-components-portals
+title: Overview of core components of portals
+metadata:
+  title: Overview of core components of portals
+  description: "Overview of core components of portals"
+  ms.date: 10/22/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+azureSandbox: false
+durationInMinutes: 4
+content: |
+  [!include[](includes/04-overview-core-components-portals.md)]

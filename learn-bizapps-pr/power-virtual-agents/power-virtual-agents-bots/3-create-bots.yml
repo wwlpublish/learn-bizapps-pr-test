@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-virtual-agent-bots.3-create-bots 
+title: Create bots and work with the Power Virtual Agents interface
+metadata: 
+  title: Create bots and work with the Power Virtual Agents interface 
+  description: Learn how to create bots and work with the Power Virtual Agents interface.  
+  ms.date: 07/17/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-virtual-agents 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-create-bots.md)] 

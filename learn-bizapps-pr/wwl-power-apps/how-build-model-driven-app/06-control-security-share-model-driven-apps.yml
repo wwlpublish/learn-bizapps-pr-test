@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.how-to-build-model-driven-app.control-security-share-model-driven-apps
+title: Control security and share model-driven apps
+metadata:
+  title: Control security and share model-driven apps
+  description: "Control security and share model-driven apps"
+  ms.date: 10/22/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/06-control-security-share-model-driven-apps.md)]

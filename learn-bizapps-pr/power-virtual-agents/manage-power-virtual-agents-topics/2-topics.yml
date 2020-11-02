@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.manage-power-virtual-agent-topics.2-topics 
+title: Work with bot topics
+metadata: 
+  title: Work with bot topics
+  description: Learn how to work with bot topics.
+  ms.date: 08/17/2020 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-virtual-agents 
+durationInMinutes: 9
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-topics.md)] 

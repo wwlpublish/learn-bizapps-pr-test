@@ -1,0 +1,38 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.extend-power-apps-portals
+metadata:
+  title: Extend Power Apps portals
+  description: Learn how to extend Power Apps portals.
+  ms.date: 07/13/2020
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-apps
+title: Extend Power Apps portals
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  The ability to easily surface and interact with Common Data Service data on an externally facing web site is the core benefit for implementing a Power Apps portal. This learning path describes how to transform a content portal into a full web app interacting with Common Data Service. We will also cover the options available to customizers and developers to extend the portal functionality and integrate with Office 365, Power Platform, and Azure components. 
+prerequisites: |
+  - Power Apps trial subscription.
+  - Provisioned Power Apps portal from blank.
+  - Understanding of how to navigate and customize the model-driven Power Apps.
+  - Basic Power Apps development experience.
+iconUrl: /learn/achievements/extend-power-apps-portals.svg
+levels:
+- advanced
+roles: 
+- maker
+- functional-consultant
+- administrator
+- developer
+- solution-architect
+products:
+- power-platform
+- power-apps
+modules:
+- learn-bizapps.portals-access-common-data-service 
+- learn-bizapps.extend-power-app-portals
+- learn-bizapps.portal-custom-web
+ 
+trophy: 
+  uid: learn-bizapps.extend-power-apps-portals.trophy

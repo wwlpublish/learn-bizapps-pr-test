@@ -4,12 +4,12 @@ title: Build a dashboard
 metadata:
   title: Build a dashboard
   description: "Build a dashboard"
-  ms.date: 05/07/2020
+  ms.date: 09/24/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
   ms.prod: learning-power-bi
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 10
 content: |
   [!include[](includes/5-build-dashboard.md)]

@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.powerapps-common-data-service.4-import-data-into-your-database
-title: Create an entity and import data into your Common Data Service database  
+title: Exercise - Create an entity and import data into your Common Data Service database  
 metadata: 
-  title: Import data into your database
+  title: Exercise - Import data into your database
   description: Import data into your database
   ms.date: 01/17/2020
   author: KevSch

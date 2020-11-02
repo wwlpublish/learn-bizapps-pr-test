@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.web-automation.3-handle-webpages 
+title: Handle webpages and forms
+metadata: 
+  title: Handle webpages and forms
+  description: Learn about handling webpages and forms in WinAutomation.
+  ms.date: 09/30/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-handle-webpages.md)] 

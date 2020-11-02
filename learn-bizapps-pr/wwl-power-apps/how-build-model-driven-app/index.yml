@@ -1,0 +1,41 @@
+### YamlMime:Module
+uid: learn.wwl.how-to-build-model-driven-app
+metadata:
+  title: How to build a model-driven app
+  description: "How to build a model-driven app"
+  ms.date: 10/22/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+title: How to build a model-driven app
+summary: Learn how you can leverage Power Apps to create model-driven apps with little or no code.
+abstract: |
+  In this module, you will:
+  -   Learn what model-driven apps are and how they differ from canvas apps
+  -   Learn the building blocks of model-driven apps
+  -   Learn how to create and design model-driven apps
+  -   Learn how to change security and share model-driven apps
+prerequisites: |
+  None
+iconUrl: /learn/achievements/how-to-build-a-model-driven-app.svg
+levels:
+- beginner
+roles:
+- business-analyst
+- developer
+- maker
+products:
+- power-apps
+- power-platform
+units:
+- learn.wwl.how-to-build-model-driven-app.introduction-model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.build-blocks-of-model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.design-of-model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.create-model-driven-app
+- learn.wwl.how-to-build-model-driven-app.control-security-share-model-driven-apps
+- learn.wwl.how-to-build-model-driven-app.knowledge-check
+- learn.wwl.how-to-build-model-driven-app.summary
+badge:
+  uid: learn.wwl.how-to-build-model-driven-app.badge

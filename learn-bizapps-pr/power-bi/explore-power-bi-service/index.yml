@@ -34,7 +34,6 @@ roles:
 - business-user
 - data-analyst   
 products:  
-- dynamics  
 - power-bi 
 - power-platform
 units: 

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.visuals-power-bi.3-effective-visualization 
+title: Choose an effective visualization
+metadata: 
+  title: Choose an effective visualization 
+  description: Learn how to choose an effective visualization.  
+  ms.date: 06/30/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-effective-visualization.md)] 

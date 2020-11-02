@@ -14,21 +14,21 @@ Common scenarios and capabilities of Power Automate:
 
 ### Example: a purchase order approval
 
-Approvals are a great process to build in Power Automate. They are often - defined yet manual. Check out the following scenario for an example:
+Approvals are a great process to build in Power Automate. They are often defined yet manual. Check out the following scenario for an example:
 
-A user starts the process by going into a Power Apps app and creating a purchase order request. Once they submit the request the information is sent to a Power Automate flow.
+A user starts the process by going into a Power Apps app and creating a purchase order request. Once they submit the request, the information is sent to a Power Automate flow.
 
-The flow can be built to evaluate the request and then route the request based on criteria such as submitting user and request amount. The first action could be to send the request to the user's manager. The manager could be automatically retrieved from Azure AD avoiding prompting for duplicate information.
+The flow can be built to evaluate the request and then route the request based on criteria such as submitting user and request amount. The first action could be to send the request to the user's manager. The manager could be automatically retrieved from Azure AD, avoiding prompting for duplicate information.
 
 Here is the starting point of the flow.
     ![Flow edit form](../media/starting-point.png)
 
-After the manager receives the approval and approves, the flow can then provide conditional logic. Typically this might be something like if the purchase order request is greater than $10,000 send it to VP if not then automatically approve the purchase order.
+After the manager receives the approval and approves, the flow can then provide conditional logic. Typically, this might be something like: if the purchase order request is greater than $10,000, send it to VP; if not, then automatically approve the purchase order.
 
 Here is an example of what this flow may look like.
     ![flowchart logic for support emails](../media/flow-example.png)
 
-As you can see even the business process has many decision points. Your flow easily handles the decisions without you writing any code.
+As you can see, even the business process has many decision points. Your flow easily handles the decisions without you writing any code.
 
 ## Work with your data where it lives
 
@@ -60,7 +60,7 @@ Power Automate works by creating flows, of which there are three types:
 
 ## Add artificial intelligence to your flow without writing code
 
-Before the Power Platform adding functionality such as image or text processing required an advanced computer  or coding knowledge. There was code to write, data models to design and train, and a lot of complicated logic. The Power Platform, however, has "democratized" artificial intelligence by providing a wizard-based interface for building and training your model. This unlocks the power of Azure Machine Learning and Cognitive services without writing a single line of code.
+Before the Power Platform, adding functionality such as image or text processing required an advanced computer  or coding knowledge. There was code to write, data models to design and train, and a lot of complicated logic. The Power Platform, however, has "democratized" artificial intelligence by providing a wizard-based interface for building and training your model. This unlocks the power of Azure Machine Learning and Cognitive services without writing a single line of code.
 
 To take advantage of these AI capabilities you must first build a model. From [https://make.PowerApps.com](https://make.PowerApps.com) a wizard guides you through building and training the model. Currently, there are four available AI models available to build:
 
@@ -84,11 +84,11 @@ You can build prediction models to solve business problems such as:
 
 - Will a customer churn based on activity?
 
-Once you have a trained model then you can interact with the model in your flow to send and receive information to the AI system. Unlocking business value previously out of grasp without complex code.
+Once you have a trained model, then you can interact with the model in your flow to send and receive information to the AI system. Unlocking business value previously out of grasp without complex code.
 
 ## Security and Administration
 
-To manage security for Power Automate log into [https://admin.flow.microsoft.com/](https://admin.flow.microsoft.com/) From the Power Platform admin center you have full access to Power Automate tenant wide. You have the ability to create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas. The admin center gives you management capabilities across Power Automate.
+To manage security for Power Automate log into [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) From the Power Platform admin center you have full access to Power Automate tenant wide. You have the ability to create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas. The admin center gives you management capabilities across Power Automate.
 
 Power Automate also offers a full set of PowerShell cmdlets. These cmdlets allow you deeper controls and to work better in large-scale scenarios. Using the cmdlets for auditing gives you more control and insight on Power Automate's usage throughout your tenant.
 
@@ -100,4 +100,4 @@ Power Automate flows are built with triggers and actions.  Triggers determine wh
 
 If you are in IT or otherwise responsible for governance, Power Automate has plenty to offer for you. With Power Automate there are many security, governance, and reporting capabilities to provide the necessary oversight. You can even write a flow to manage all of the other flows. Also, Power Automate doesn't circumvent security in any way. Users cannot build flows to do things they don't already have permission to do today. 
 
-In the next unit, you'll learn about how Tru Green is using Power Automate to better run their business. 
+In the next unit, you'll learn about how TruGreen is using Power Automate to better run their business. 

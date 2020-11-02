@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.optimize-model-power-bi 
+metadata: 
+ title: Optimize a model for performance in Power BI 
+ description: Data Analysis eXpression (DAX) language is a key feature of Power BI. It is used to create calculated columns, calculated tables, and measures. In this module, you will learn how to use DAX to solve typical analytics problems. You will learn about one of the most popular DAX functions, CALCULATE, and how it can override the default behavior of Power BI. 
+ ms.date: 6/30/2020  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Optimize a model for performance in Power BI  
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Data Analysis eXpression (DAX) language is a key feature of Power BI. It is used to create calculated columns, calculated tables, and measures. In this module, you will learn how to use DAX to solve typical analytics problems. You will learn about one of the most popular DAX functions, CALCULATE, and how it can override the default behavior of Power BI. 
+abstract: |  
+    By the end of this module, you will be able to: 
+    - Review the performance of measures, relationships, and visuals. 
+    - Use variables to improve performance and troubleshooting.
+    - Improve performance by reducing cardinality levels.
+    - Optimize DirectQuery models with table level storage. 
+    - Create and manage aggregations.
+prerequisites: None 
+iconUrl: /learn/achievements/optimize-model-power-bi.svg  
+levels:  
+- intermediate   
+roles:  
+- data-analyst  
+products:  
+- power-bi 
+- power-platform
+units: 
+- learn-bizapps.optimize-model-power-bi.1-introduction 
+- learn-bizapps.optimize-model-power-bi.2-performance 
+- learn-bizapps.optimize-model-power-bi.3-variables 
+- learn-bizapps.optimize-model-power-bi.4-reduce-cardinality 
+- learn-bizapps.optimize-model-power-bi.5-directquery-models 
+- learn-bizapps.optimize-model-power-bi.6-aggregations 
+- learn-bizapps.optimize-model-power-bi.7-check 
+- learn-bizapps.optimize-model-power-bi.8-summary 
+badge: 
+  uid: learn-bizapps.optimize-model-power-bi.badge 

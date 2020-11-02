@@ -2,11 +2,13 @@ On [Power Apps](https://make.powerapps.com/?azure-portal=true), you can use a sa
 
 For more details, be sure to check out the documentation that's specific to each sample app.
 
-![Fundraiser sample app](../media/updated-fundraiser-app1.png)
+![Screenshot of Fundraiser sample app in Power Apps.](../media/updated-fundraiser-app1.png)
 
 ## Get sample apps
 
 Before you can experiment with or edit the model-driven sample apps, you must set them up in a Common Data Service database. First, create a trial environment and a database, and then select the **Include sample apps and data** check box.
+
+In Power Apps, select the environment you want, or go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true) to create a new one. Select **New**, provide a name, **Yes** to Create a database for this environment, and select **Save**.
 
 > [!IMPORTANT]
 > By selecting the **Include sample apps and data** check box, you will install all available sample apps in your database. Sample apps are for educational and demonstration purposes. We don't recommend installing them in production databases.
@@ -17,7 +19,7 @@ To run a sample app, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true) to see a list of available sample apps. For this example, select **Fundraiser**.
 
-	![Fundraiser sample app](../media/updated-fundraiser-app2.png)
+	![Select to edit Fundraiser sample app](../media/updated-fundraiser-app2.png)
 
 1. At the top of the page, select **Show Visual Filter** to show graphs and charts where you can see how donations to fundraisers are performing. In the next steps, you'll create a new fundraiser and submit a donation to that fundraiser.
 1. On the left pane, under **Fundraiser**, select **Fundraisers**.

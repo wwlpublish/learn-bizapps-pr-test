@@ -1,0 +1,44 @@
+### YamlMime:Module 
+uid: learn-bizapps.winautomation-variables 
+metadata: 
+ title: Handle variables in WinAutomation
+ description: In this module, we'll discuss how to create, access, edit and manipulate variables in WinAutomation.
+ ms.date: 08/24/2020  
+ author: georgiostrantzas  
+ ms.author: getrantz  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate    
+title: Handle variables in WinAutomation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  When developing processes, you may need to re-use information in various actions. Variables act like storage bins that save valuable information when a process is running.
+abstract: |  
+    In this module, you will: 
+    - Create, edit and manipulate variables.
+    - Examine the variable pane and the variables manager.
+    - Become familiar with all the variable data types and their properties.
+    - Configure persistent and external variables. 
+prerequisites: |
+    - Basic familiarity with the WinAutomation console and process designer.
+iconUrl: /learn/achievements/winautomation-variables.svg  
+levels:
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-automate 
+- power-platform  
+units: 
+- learn-bizapps.winautomation-variables.1-introducing-variables
+- learn-bizapps.winautomation-variables.2-create-edit-use-variables
+- learn-bizapps.winautomation-variables.3-variable-data-types
+- learn-bizapps.winautomation-variables.4-advanced-data-types
+- learn-bizapps.winautomation-variables.5-persistent-external-variables
+- learn-bizapps.winautomation-variables.6-variable-manipulation
+- learn-bizapps.winautomation-variables.7-exercise-create-access-manipulate-variables
+- learn-bizapps.winautomation-variables.8-check-knowledge
+- learn-bizapps.winautomation-variables.9-summary
+badge: 
+  uid: learn-bizapps.winautomation-variables.badge 

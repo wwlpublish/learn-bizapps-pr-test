@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.introduction-to-power-virtual-agents.what-power-virtual-agents
+title: What is Power Virtual Agents?
+metadata:
+  title: What is Power Virtual Agents?
+  description: "What is Power Virtual Agents?"
+  ms.date: 10/22/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/2-what-power-virtual-agents.md)]

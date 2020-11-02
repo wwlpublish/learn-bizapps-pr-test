@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.portals-access-common-data-service 
+metadata: 
+ title: Access Common Data Service in Power Apps portals
+ description: The ability to show and interact with Common Data Service data on a website is a core benefit of implementing a Microsoft Power Apps portal. This module focuses on the several techniques and methods to display and interact with Common Data Service data in Power Apps portals. 
+ ms.date: 07/10/2020  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-apps  
+title: Access Common Data Service in Power Apps portals 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The ability to show and interact with Common Data Service data on a website is a core benefit of implementing a Microsoft Power Apps portal. This module focuses on the several techniques and methods to display and interact with Common Data Service data in Power Apps portals. 
+abstract: |  
+    In this module, you will: 
+    - Discover the portal components that are available to display and interact with Common Data Service data on the portal.
+    - Identify the various features of the portal components.
+    - Display a list of data and an associated drill-down for details.
+    - Configure an entity form to access individual records.
+    - Trigger classic Common Data Service workflows from the portal. 
+prerequisites: Basic understanding of how to navigate and configure Microsoft Power Apps portals and knowledge of how to customize and configure model-driven apps  
+iconUrl: /learn/achievements/portals-access-common-data-service.svg  
+levels:  
+- intermediate   
+roles:  
+- functional-consultant  
+- maker
+- developer
+products:  
+- power-apps 
+- power-platform
+units: 
+- learn-bizapps.portals-access-common-data-service.1-introduction 
+- learn-bizapps.portals-access-common-data-service.2-entity-lists 
+- learn-bizapps.portals-access-common-data-service.3-entity-forms 
+- learn-bizapps.portals-access-common-data-service.4-exercise 
+- learn-bizapps.portals-access-common-data-service.5-check 
+- learn-bizapps.portals-access-common-data-service.6-summary 
+badge: 
+  uid: learn-bizapps.portals-access-common-data-service.badge 

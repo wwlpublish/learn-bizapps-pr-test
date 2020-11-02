@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.process-properties.5-configure-level-three-error-handling 
+title: Configure process error handling
+metadata: 
+  title: Configure process error handling
+  description: Configure error handling for a process. 
+  ms.date: 08/21/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 7 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-configure-level-three-error-handling.md)] 

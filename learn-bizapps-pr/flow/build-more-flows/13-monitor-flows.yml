@@ -1,8 +1,8 @@
-﻿### YamlMime:ModuleUnit 
+### YamlMime:ModuleUnit 
 uid: learn-bizapps.flow-build-more.13-monitor-flows
-title: Monitor flows
+title: Exercise - Monitor flows
 metadata: 
-  title: Monitor flows
+  title: Exercise - Monitor flows
   description: Learn how to monitor flow activity to spot usage issues.
   ms.date: 03/04/2020
   author: KevSch

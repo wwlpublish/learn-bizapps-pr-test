@@ -1,4 +1,4 @@
-Power Apps allows you to build custom business apps to make powerful new solutions. The potential to increase process efficiency in the areas of communication and data. Now that you have built your first app, consider areas that could benefit from custom solutions at your business. Start by thinking of processes that frustrate you and consider how you can leverage Power Apps to improve them for everyone.
+Power Apps allows you to build custom business apps to make powerful new solutions with the potential to increase process efficiency in the areas of communication and data. Now that you have built your first app, consider areas that could benefit from custom solutions at your business. Start by thinking of processes that frustrate you and consider how you can leverage Power Apps to improve them for everyone.
 
 Now that you have reviewed this module, you should be able to:
 

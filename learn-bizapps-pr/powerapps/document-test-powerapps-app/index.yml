@@ -26,7 +26,7 @@ roles:
 - functional-consultant  
 - maker  
 products:  
-- dynamics
+- dynamics-365
 - power-platform 
 units: 
 - learn-bizapps.use-documentation.01-create-test-plans 

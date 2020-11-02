@@ -29,6 +29,8 @@ roles:
 - maker
 products:    
 - ai-builder
+- power-platform
+- power-automate
 units: 
 - learn-bizapps.get-started-with-ai-builder-key-phrase-extraction.1-intro-key-phrase-extraction 
 - learn-bizapps.get-started-with-ai-builder-key-phrase-extraction.2-business-problems-solved 

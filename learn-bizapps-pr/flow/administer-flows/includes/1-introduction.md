@@ -23,7 +23,7 @@ There are two ways to open the Admin center.
 
 ### Option 2: Open the admin center directly
 
-- Go directly to the [Admin center](https://admin.flow.microsoft.com), and sign in by using your work account.
+- Go directly to the [Admin center](https://admin.powerplatform.microsoft.com), and sign in by using your work account.
 
 ## Environments
 

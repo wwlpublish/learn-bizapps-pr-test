@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.how-to-build-basic-chatbot.analyze-chatbot
+title: Analyze a chatbot
+metadata:
+  title: Analyze a chatbot
+  description: "Analyze a chatbot"
+  ms.date: 10/24/2020
+  author: wwlpublish
+  ms.author: chsims
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-analyze-chatbot.md)]

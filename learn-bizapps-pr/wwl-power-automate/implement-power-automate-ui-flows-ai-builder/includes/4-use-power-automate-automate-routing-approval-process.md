@@ -8,8 +8,7 @@ Watch this video to learn how you can use the forms processing model that was de
 To recap, here are the steps to incorporate the forms processing model, in to the flow created in unit 1; and automate the routing and approval of the invoice.
 
 >[!NOTE]
-> The predict action, which is based on AI Builder and requires the use of Common Data Service, is a premium connector.  Refer to the Summary and Resources section of this module for links to additional information.
-
+> The predict action, which is based on AI Builder and requires the use of Common Data Service, is a premium connector.  Refer to the Summary and Resources section of this module for links to additional information.  Also, some features in AI Builder have not yet released for general availability (GA), in certain regions, and remain in preview status.  To use AI Builder models in Power Automate, while in preview mode, you have to create the flow inside a solution (the steps below will not apply).  To learn more, visit [Create a flow in a solution.](https://docs.microsoft.com/power-automate/create-flow-solution)
 
 1. Open the flow you created in unit 1
 

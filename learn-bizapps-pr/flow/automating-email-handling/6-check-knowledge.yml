@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.automating-email-handling.6-check-knowledge
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/21/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: WinAutomation supports email handling only through webmail services and Outlook. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: WinAutomation supports email handling through webmail services and Microsoft Outlook and Exchange servers.
+    - content: "False"
+      isCorrect: true 
+      explanation: WinAutomation supports email handling through webmail services and Microsoft Outlook and Exchange servers.
+  - content: Which of the following options would you configure to send an email with the Send Email action?
+    choices: 
+    - content: SMTP server settings
+      isCorrect: true 
+      explanation: To use the Send Email action, you need to configure the SMTP Server tab.
+    - content: IMAP server settings
+      isCorrect: false 
+      explanation: To use the Send Email action, you need to configure the SMTP Server tab.
+  - content: Outlook can be launched without a visible instance. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: Outlook can be launched only with a visible instance.
+    - content: "False"
+      isCorrect: true 
+      explanation: Outlook can be launched only with a visible instance.

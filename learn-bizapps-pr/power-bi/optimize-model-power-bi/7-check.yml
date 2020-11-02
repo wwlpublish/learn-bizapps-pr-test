@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.optimize-model-power-bi.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 6/30/2020 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What benefit do you get from analyzing the metadata?   
+    choices: 
+    - content: The benefit of analyzing the metadata is that you can clearly identify data inconsistences with your dataset.
+      isCorrect: true 
+      explanation: The benefit of analyzing the metadata is that you can clearly identify data inconsistences with your dataset.
+    - content: The benefit of analyzing the metadata is to get familiar with your data.
+      isCorrect: false 
+      explanation: The benefit of analyzing the metadata is that you can clearly identify data inconsistences with your dataset.
+    - content: The benefit of analyzing the metadata is to know the number of rows, columns and tables being loaded into your model.
+      isCorrect: false 
+      explanation: The benefit of analyzing the metadata is that you can clearly identify data inconsistences with your dataset.
+  - content: What can be achieved by removing unnecessary rows and columns?
+    choices: 
+    - content: It is not necessary deleting unnecessary rows and columns and it is a good practice to keep all metadata intact.
+      isCorrect: false
+      explanation: Deleting unnecessary rows and columns will reduce a dataset size and its good practice to load only necessary data into your data model.
+    - content: Deleting unnecessary rows and columns will reduce a dataset size and its good practice to load only necessary data into your data model.
+      isCorrect: true 
+      explanation: Deleting unnecessary rows and columns will reduce a dataset size and its good practice to load only necessary data into your data model.
+    - content: Deleting unnecessary rows and columns can damage the structure of the data model.
+      isCorrect: false 
+      explanation: Deleting unnecessary rows and columns will reduce a dataset size and its good practice to load only necessary data into your data model.
+  - content: Is it possible to create a relationship between two columns if they are different DATA TYPE columns?
+    choices: 
+    - content: Yes, if cardinality of the relationship is set to Many-to-Many.
+      isCorrect: false
+      explanation: No, it is not possible to create a relationship between two columns if they are different DATA TYPE columns. Both columns in a relationship must be sharing the same DATA TYPE.
+    - content: No, both columns in a relationship must be sharing the same DATA TYPE.
+      isCorrect: true 
+      explanation: No, it is not possible to create a relationship between two columns if they are different DATA TYPE columns. Both columns in a relationship must be sharing the same DATA TYPE.
+    - content: Yes, the above is fully supported in latest version of Power BI desktop.
+      isCorrect: false 
+      explanation: No, it is not possible to create a relationship between two columns if they are different DATA TYPE columns. Both columns in a relationship must be sharing the same DATA TYPE.

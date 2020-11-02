@@ -62,7 +62,7 @@ In the following figure, notice that two colleagues are internal and the other t
 
 ## Add comments to a dashboard
 
-When a dashboard is shared, everyone with access to that dashboard can send messages to each other, right there on the dashboard, by using comments. The following scenario explains the process of adding comments, and then a video at the end of this section illustrates the process for you.
+When a dashboard is shared, everyone with access to that dashboard can send messages to each other, right there on the dashboard, by using comments. The following scenario explains the process of adding comments.
 
 In this scenario, Cassandra has created and shared a dashboard with her team. Instead of sending a chart and message in email, she shares a dashboard and adds a comment.
 

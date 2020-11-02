@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.dax-power-bi-models.4-report-visuals 
+title: Configure report visuals
+metadata: 
+  title: Configure report visuals 
+  description: Learn how to configure report visuals.  
+  ms.date: 7/7/2020 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 3 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-report-visuals.md)] 

@@ -30,7 +30,7 @@ roles:
 - maker
 products:    
 - ai-builder 
-- power-apps
+- power-platform
 - power-automate
 units: 
 - learn-bizapps.get-started-with-ai-builder.1-intro-ai-builder 
