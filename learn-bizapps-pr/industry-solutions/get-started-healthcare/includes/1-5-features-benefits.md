@@ -48,7 +48,7 @@ Healthcare agents will interact and view patient information using the Patient S
 
 The patient is required to have a patient record (contact) in the Healthcare solution and then be given access to the Patient Access portal (using a secure authentication mechanism). The patient will be able to update and manage their profile (contact information) in the portal.
 
-### Find a Doctor
+### Find a doctor
 
 The patient can search through a directory of available healthcare practitioners that lists the pertinent information such as location and contact information.
 
