@@ -30,8 +30,7 @@ products:
 units: 
 - learn-bizapps.get-started-healthcare.1-introduction 
 - learn-bizapps.get-started-healthcare.2-technologies 
-- learn-bizapps.get-started-healthcare.3-healthcare-demo 
-- learn-bizapps.get-started-healthcare.4-check 
-- learn-bizapps.get-started-healthcare.5-summary 
+- learn-bizapps.get-started-healthcare.3-check 
+- learn-bizapps.get-started-healthcare.4-summary 
 badge: 
   uid: learn-bizapps.get-started-healthcare.badge 
