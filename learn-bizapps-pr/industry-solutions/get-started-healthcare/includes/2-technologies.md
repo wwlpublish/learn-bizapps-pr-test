@@ -8,7 +8,7 @@ Microsoft 365 is a secure cloud-based productivity platform. Microsoft 365 provi
 
 ### Security and Compliance
 
-Microsoft 365 Defender protects organization's information technology assets from external and internal threats. This is especially important for healthcare organizations where both data protection and operations are mission critical. An administrator will be able to define user access, policies, and permissions as well as monitor incidents and potential security issues.
+Microsoft 365 Defender protects organization's information technology assets from external and internal threats. This is especially important for healthcare organizations where both data protection and operations are critical. An administrator will be able to define user access, policies, and permissions as well as monitor incidents and potential security issues.
 
 ### Communication
 
@@ -52,7 +52,7 @@ Power Apps portals is a web platform to allow external stakeholders with secure 
 
 ![Screenshot of the Patient Access portal home page.](../media/2-4-home-health.png)
 
-Canvas Power Apps allow for specific user interface requirements and are typically powerful for specific task-based activities. Canvas apps can run on the desktop, tablets, or mobile phones.
+Canvas Power Apps allows for specific user interface requirements and are typically powerful for specific task-based activities. Canvas apps can run on the desktop, tablets, or mobile phones.
 
 Other Power Apps can be developed to meet unique requirements or needs of a healthcare organization. These apps can interact with information from the Common Data Service and can be surfaced to healthcare practitioners using model-driven apps for more holistic view of information and management. Patients can access information from Power Apps Portals applications. Canvas Power Apps can be configured for healthcare professionals to assist with specific tasks, information retrieval, and gathering.
 
@@ -70,7 +70,7 @@ The healthcare solution uses Power BI in the Patient Service Center and Care Man
 
 ## Azure
 
-Microsoft Azure is a cloud platform that offers the ability to build powerful software applications, data storage and services without the need for expensive servers or networking equipment.
+Microsoft Azure is a cloud platform that offers the ability to build powerful software applications, data storage, and services without the need for expensive servers or networking equipment.
 
 The healthcare solution provides the FHIR Sync Agent which an Azure-based API for integration to FHIR (Fast Healthcare Interoperability Resource) systems. Patient data can be synchronized between the healthcare solution and made visible in the various Power Apps and dashboards. The healthcare solutions are built on the Common Data Model for healthcare that is designed based on the HL7 FHIR specification.
 

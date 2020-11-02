@@ -1,4 +1,4 @@
-The Healthcare solution is composed of a series of apps (Patient Service Center, Patient Access, Care Management, and Home Health) that all work from the Common Data Service. The Healthcare solution uses a Common Data Model that is built on the HL7 FHIR standard. The data can be integrated with existing medical record systems using the Azure FHIR integration.
+The Healthcare solution is composed of apps (Patient Service Center, Patient Access, Care Management, and Home Health) that all work from the Common Data Service. The Healthcare solution uses a Common Data Model that is built on the HL7 FHIR standard. The data can be integrated with existing medical record systems using the Azure FHIR integration.
 
 ### Patient Service Center
 
@@ -68,7 +68,7 @@ A patient can view their upcoming and past appointments and schedule new appoint
 
 ### Medical records
 
-The medical records area allows for patients to view medications, allergies, conditions, visit summaries, care plans and care teams.
+The medical records area allows for patients to view medications, allergies, conditions, visit summaries, care plans, and care teams.
 
 ![Screenshot of Patient Access portal showing a list of medications that are prescribed for the patient logged into the portal.](../media/6-medications.png)
 
@@ -88,7 +88,7 @@ The three key areas of the Care Management app are Administration, Care Plans, a
 
 ### Administration
 
-The Care Coordinator dashboard provides a view of active care plan activities, open appointments and a consolidated timeline view. From the dashboard, care team members can focus on specific patient needs to make appropriate adjustments and plan their schedule.
+The Care Coordinator dashboard provides a view of active care plan activities, open appointments, and a consolidated timeline view. From the dashboard, care team members can focus on specific patient needs to make appropriate adjustments and plan their schedule.
 
 Care team members can use the patient form to see a centralized view of all the patient information such as the assigned care team, care plans, appointments, and the patient's healthcare activity timeline. The structure of the patient data is based on the industry standard HL7 FHIR. Using the integration with the Azure FHIR service, practitioners can have extended visibility to patient data from other EMR systems.
 
@@ -116,7 +116,7 @@ The Home Health app provides administrators the ability to capture and monitor p
 
 ### Analytics
 
-The patient analytics dashboard provides practitioners with key information and vital statistics of a patient. Some of the key metrics tracked are heart rate, body temperature and body weight. The care team will capture these data points during an in-home visit with the patient.
+The patient analytics dashboard provides practitioners with key information and vital statistics of a patient. Some of the key metrics tracked are heart rate, body temperature, and body weight. The care team will capture these data points during an in-home visit with the patient.
 
 ![Screenshot of the Home Health, patient analytics dashboard showing examples of vital statistics trends taken for a particular patient.](../media/12-analytics.png)
 
