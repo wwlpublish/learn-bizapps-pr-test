@@ -91,6 +91,9 @@ below.
     ```powerappsfl
     Office365Users.ManagerV2(User().Email).mail
     ```
+> [!NOTE]
+> If you receive an error after entering this formula then the user does not have a manager assigned in Office 365.
+
 In the label, you will now see the current user's manager email address.
 The following is a breakdown of the formula.
 
