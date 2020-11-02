@@ -58,7 +58,7 @@ The patient can search through a directory of available healthcare practitioners
 
 The messages area provides a place where a patient can send and receive secure messages from healthcare practitioners.
 
-[![Screenshot of Patient Access portal showing the messages feature to send and receive secure messages from healthcare providers.](../media/4-find-appointment.png)])../media/4-find-appointment.png#lightbox)
+[![Screenshot of Patient Access portal showing the messages feature to send and receive secure messages from healthcare providers.](../media/4-find-appointment.png)](../media/4-find-appointment.png#lightbox)
 
 ### Appointments
 
