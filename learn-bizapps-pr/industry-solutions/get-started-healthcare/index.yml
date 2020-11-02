@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-healthcare 
 metadata: 
- title: Get started with Microsoft Cloud for Healthcare solutions
- description: Learn about the Microsoft Cloud for Healthcare solutions
+ title: Get started with Microsoft Cloud for Healthcare solutions powered by Dynamics 365
+ description: Learn about the Microsoft Cloud for Healthcare solutions powered by Dynamics 365.
  ms.date: 11/06/2020  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-d365-healthcare  
-title: Get started with Microsoft Cloud for Healthcare solutions
+title: Get started with Microsoft Cloud for Healthcare solutions powered by Dynamics 365
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Learn about the Microsoft Cloud for Healthcare solution. Get started with the apps and technologies used in this solution. 
