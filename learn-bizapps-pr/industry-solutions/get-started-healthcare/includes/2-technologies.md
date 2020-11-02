@@ -22,7 +22,7 @@ The core of any organization is its information. Microsoft 365 facilitates this 
 
 Microsoft Teams is a collaboration and communication platform. For healthcare professionals, it will allow care teams to collaborate on specific patient cases or treatment initiatives and provide virtual care.
 
-> [![A screenshot of a computer of Microsoft Teams showing an example of a Healthcare Team template](../media/2-1-teams.png)](../media/2-1-teams.png#lightbox)
+ [![A screenshot of a computer of Microsoft Teams showing an example of a Healthcare Team template](../media/2-1-teams.png)](../media/2-1-teams.png#lightbox)
 
 Healthcare professionals will be able to chat one-on-one or have threaded group conversations. Teams also provides the ability for holding meetings with video conferencing (virtual care).
 
@@ -30,7 +30,7 @@ Teams can also integrate various apps (including Power Apps) along with automati
 
 The shift capabilities of Microsoft Teams will allow administrators to effectively schedule the healthcare team's working hours.
 
-> [![Screenshot showing Shifts feature in Microsoft Teams](../media/2-2-teams.png)](../media/2-2-teams.png#lightbox)
+[![Screenshot showing Shifts feature in Microsoft Teams](../media/2-2-teams.png)](../media/2-2-teams.png#lightbox)
 
 ## Power Apps and Dynamics 365
 
@@ -44,13 +44,13 @@ The Patient Service Center is the Dynamics 365 Omnichannel for Customer Service 
 
 The Care Management app is Dynamics 365 Customer Service that has been customized for healthcare practitioners to provide detailed information about patients and the ability to create and manage the care plans. The solution also allows for the coordination and management of care team members or related medical organizations.
 
-> [![Screenshot showing the Care Management Model driven app.](../media/2-3-dynamics.png)](../media/2-3-dynamics.png#lightbox)
+[![Screenshot showing the Care Management Model driven app.](../media/2-3-dynamics.png)](../media/2-3-dynamics.png#lightbox)
 
 The Home Health app uses the Dynamics 365 Field Service app to provides administrators the ability to capture and monitor patient data as well as scheduling healthcare practitioner in-home patient visits.
 
 Power Apps portals is a web platform to allow external stakeholders with secure access to information stored in the Common Data Service. Patient Access is a Power Apps Portal application to provide self-service capabilities to patients such as messaging, managing appointments and searching for new healthcare practitioners.
 
-> [![Screenshot of the Patient Access portal home page.](../media/2-4-home-health.png)](../media/2-4-home-health.png#lightbox)
+[![Screenshot of the Patient Access portal home page.](../media/2-4-home-health.png)](../media/2-4-home-health.png#lightbox)
 
 Canvas Power Apps allows for specific user interface requirements and are typically powerful for specific task-based activities. Canvas apps can run on the desktop, tablets, or mobile phones.
 
@@ -66,7 +66,7 @@ Power BI can read data from various sources and present users with information p
 
 The healthcare solution uses Power BI in the Patient Service Center and Care Management applications to show clinical data and care plans. Dashboards in the Home Health app show administrators a high-level view of patient analytics as well as an overview of Healthcare provider information.
 
-> [![Screenshot showing the Home Health patient analytics dashboard](../media/2-5-power-bi.png)](../media/2-5-power-bi.png#lightbox)
+[![Screenshot showing the Home Health patient analytics dashboard](../media/2-5-power-bi.png)](../media/2-5-power-bi.png#lightbox)
 
 ## Azure
 
@@ -74,8 +74,8 @@ Microsoft Azure is a cloud platform that offers the ability to build powerful so
 
 The healthcare solution provides the FHIR Sync Agent which an Azure-based API for integration to FHIR (Fast Healthcare Interoperability Resource) systems. Patient data can be synchronized between the healthcare solution and made visible in the various Power Apps and dashboards. The healthcare solutions are built on the Common Data Model for healthcare that is designed based on the HL7 FHIR specification.
 
-> [![Screenshot of the FHIR sync agent setup model-driven app](../media/2-6-environments.png)](../media/2-6-environments.png#lightbox)
+[![Screenshot of the FHIR sync agent setup model-driven app](../media/2-6-environments.png)](../media/2-6-environments.png#lightbox)
 
 The Microsoft Health Bot is built on the Azure Bot Service and configured to utilize AI and data from a variety of healthcare sources. The health bot can be surfaced on the Patient Access portal where patients can interact with the bot to get information before being transferred to a healthcare agent.
 
-> [![Screenshot of the Healthbot on the Patient Access portal](../media/2-7-chat-bot.png)](../media/2-7-chat-bot.png#lightbox)
+[![Screenshot of the Healthbot on the Patient Access portal](../media/2-7-chat-bot.png)](../media/2-7-chat-bot.png#lightbox)

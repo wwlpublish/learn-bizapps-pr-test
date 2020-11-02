@@ -102,13 +102,13 @@ To manage a patient's medical condition, a practitioner can create individualize
 
 Care plan activities can be created and tracked against the particular care plan to provide the details of the care plan for the patient.
 
-> [![Screenshot of Care Management app showing the care plan of a patient.](../media/10-care-plan.png)])../media/10-care-plan.png#lightbox)
+[![Screenshot of Care Management app showing the care plan of a patient.](../media/10-care-plan.png)])../media/10-care-plan.png#lightbox)
 
 ### Clinical data
 
 The Clinical data section allows for medical practitioners to track observations, encounters, procedures, and appointments for patients. These entities map to the [HL7 FHIR standard](http://www.hl7.org/fhir/).
 
-> [![Screenshot of the Care Management app showing the clinical data section which lists the Observations, Encounters, Procedures and appointments.](../media/11-clinical-data.png)])../media/11-clinical-data.png#lightbox)
+[![Screenshot of the Care Management app showing the clinical data section which lists the Observations, Encounters, Procedures and appointments.](../media/11-clinical-data.png)])../media/11-clinical-data.png#lightbox)
 
 ## Home Health
 
@@ -118,11 +118,11 @@ The Home Health app provides administrators the ability to capture and monitor p
 
 The patient analytics dashboard provides practitioners with key information and vital statistics of a patient. Some of the key metrics tracked are heart rate, body temperature, and body weight. The care team will capture these data points during an in-home visit with the patient.
 
-> [![Screenshot of the Home Health, patient analytics dashboard showing examples of vital statistics trends taken for a particular patient.](../media/12-analytics.png)])../media/12-analytics.png#lightbox)
+[![Screenshot of the Home Health, patient analytics dashboard showing examples of vital statistics trends taken for a particular patient.](../media/12-analytics.png)])../media/12-analytics.png#lightbox)
 
 The provider analytics dashboard provides administrators with an overview of care team member activity. Key metrics tracked are patients seen, care plans created and average wait time as well as other details.
 
-> [![Screenshot of the Home Health app, provider analytics dashboard that shows an example overview of a Care Team Members visits.](../media/13-provider-analytics.png)])../media/13-provider-analytics.png#lightbox)
+[![Screenshot of the Home Health app, provider analytics dashboard that shows an example overview of a Care Team Members visits.](../media/13-provider-analytics.png)])../media/13-provider-analytics.png#lightbox)
 
 ### Contacts
 
@@ -130,7 +130,7 @@ The contacts section contains information about home health patients as well as 
 
 Home health care practitioners and administrators can use the patient form and see a centralized view of all the patient information such as the assigned care team, care plans, appointments, and the patient's healthcare activity timeline. The structure of the patient data is based on the industry standard HL7 FHIR. Using the integration with the Azure FHIR service, practitioners can have extended visibility to patient data from other EMR systems.
 
-> [![Screenshot of the Home Health app, contact form to show patient information.](../media/14-contacts.png)])../media/14-contacts.png#lightbox)
+[![Screenshot of the Home Health app, contact form to show patient information.](../media/14-contacts.png)])../media/14-contacts.png#lightbox)
 
 The practitioner view provides profile information about practitioner as well as a timeline view of patient interactions.
 
@@ -138,16 +138,16 @@ The practitioner view provides profile information about practitioner as well as
 
 The cases view will show a list of cases related to patients that have been assigned to a home healthcare practitioner. Along with basic case information such as the patient and case type, the form will also surface the patient details such as medications, conditions, allergies and more. There are also tabs to show the patient clinical timeline, the assigned care team as well as any established care plans.
 
-> [![Screenshot of the Home Health app showing an example of a case record.](../media/15-cases.png)])../media/15-cases.png#lightbox)
+[![Screenshot of the Home Health app showing an example of a case record.](../media/15-cases.png)])../media/15-cases.png#lightbox)
 
 ### Home care
 
 Home care will show a list of active home health work orders for patients. These will be assigned to a home healthcare practitioner and will display information about the patient as well as the scheduled time for the visit.
 
-> [[Screenshot of the Home Health app showing an example of a Home Care work order record.](../media/16-home-care.png)])../media/16-home-care.png#lightbox)
+[![Screenshot of the Home Health app showing an example of a Home Care work order record.](../media/16-home-care.png)])../media/16-home-care.png#lightbox)
 
 ### Schedule board
 
 A healthcare agent will use the schedule board to create home care appointments for patients. The agent will use the Universal Resource Scheduling features to manage the schedules of care team members and optimize the home care visits using route optimization capabilities.
 
-> [![Screenshot of the Home Health app showing the Schedule Board.](../media/17-schedule-board.png)])../media/17-schedule-board.png#lightbox)
+[![Screenshot of the Home Health app showing the Schedule Board.](../media/17-schedule-board.png)])../media/17-schedule-board.png#lightbox)
