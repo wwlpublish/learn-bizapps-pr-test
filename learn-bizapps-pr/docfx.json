@@ -63,6 +63,17 @@
         "dest": "modules"
       },
       {
+        "src": "industry-solutions",
+        "files": [
+          "**.yml",
+          "**/*.md"
+        ],
+        "exclude": [
+          "**/includes/**"
+      ],        
+        "dest": "modules"
+      },
+      {
         "src": "power-bi",
         "files": [
           "**.yml",
@@ -209,6 +220,17 @@
         "dest": "modules"
       },
       {
+        "src": "industry-solutions",
+        "files": [
+          "**/*.gif",
+          "**/*.png",
+          "**/*.svg",
+          "**/*.jpg",
+          "**/*.jpeg"
+        ],
+        "dest": "modules"
+      },
+      {
         "src": "power-bi",
         "files": [
           "**/*.gif",
@@ -317,6 +339,7 @@
     },
     "fileMetadata": {
       "searchScope": {
+          "industry-solutions/**/*.yml": ["Power Platform", "Dynamics"],
           "power-virtual-agents/**/*.yml": ["Power Platform", "Power Virtual Agents"],
           "powerapps/**/*.yml": ["Power Platform", "Power Apps"],
           "wwl-power-apps/**/*.yml": ["Power Platform", "Power Apps"],
