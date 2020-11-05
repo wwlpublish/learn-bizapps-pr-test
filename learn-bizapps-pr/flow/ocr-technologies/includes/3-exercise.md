@@ -4,7 +4,7 @@ In this exercise, you'll create a process that extracts text from a PDF file and
 
     ![Screenshot for creating a new process.](..\media\create-process.png)
 
-1. Use the **Display Select File Dialog** action to prompt users to select a PDF file. In the **File Filter** field, enter the value **.pdf** to limit the selectable files. 
+1. Use the **Display Select File Dialog** action to prompt users to select a PDF file. In the **File Filter** field, enter the value **\*.pdf** to limit the selectable files. 
 
     ![Screenshot of the file dialog window.](..\media\display-input-dialog.png)
 

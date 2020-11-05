@@ -409,7 +409,7 @@ Typically, the underlying issue is the field definition in the dataset. Maybe
 the dataset owner defined the field as text and that explains why Power BI can't
 sum or average it. Unfortunately, [only the dataset owner can change the way a
 field is
-categorized](https://docs.microsoft.com/power-bi/transform-model/desktop-measures).
+categorized](https://docs.microsoft.com/power-bi/transform-model/desktop-data-categorization).
 So if you have owner permissions to the dataset, either in Desktop or the
 program used to create the dataset (for example, Excel), you can fix this
 problem. Otherwise, you'll need to contact the dataset owner for help.
