@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.power-bi-excel-better-together.summary
+title: Summary
+metadata:
+  title: Summary
+  description: "In this module you’ve learned how to explain some of the\nways that you can use Power BI &amp; Excel together right now."
+  ms.date: 11/05/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+azureSandbox: false
+durationInMinutes: 1
+content: |
+  [!include[](includes/6-summary.md)]

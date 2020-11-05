@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.power-bi-excel-better-together.create-pivot-tables-from-certified-data-sets
+title: Create pivot tables from certified data sets
+metadata:
+  title: Create pivot tables from certified data sets
+  description: "How to introduce\nand demonstrate creating a Pivot Table and PivotChart to explore Store\nReturn Rates by Date using a Certified Power BI Dataset."
+  ms.date: 11/05/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+azureSandbox: false
+durationInMinutes: 6
+content: |
+  [!include[](includes/2-create-pivot-tables-from-certified-data-sets.md)]
