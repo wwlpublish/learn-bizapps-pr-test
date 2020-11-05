@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.analytics-excel.power-query-excel
+title: Power Query in Excel
+metadata:
+  title: Power Query in Excel
+  description: "How to deliver the section on Power Query. Topics include: why use it, the environment and UI, combining multiple files, and how to unpivot, clean and format data."
+  ms.date: 11/05/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+azureSandbox: false
+durationInMinutes: 29
+content: |
+  [!include[](includes/4-power-query-excel.md)]

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.analytics-excel.summary
+title: Summary
+metadata:
+  title: Summary
+  description: "In this module you learned how to help your students gain\nseveral compelling reasons to become a Modern Excel Analysts."
+  ms.date: 11/05/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/8-summary.md)]

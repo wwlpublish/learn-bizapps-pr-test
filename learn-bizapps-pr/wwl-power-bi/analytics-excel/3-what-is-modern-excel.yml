@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.analytics-excel.what-is-modern-excel
+title: What is modern excel
+metadata:
+  title: What is Modern Excel
+  description: "How to introduce the “Analytics in Excel” module that covers: modern Excel, Power Query, Power Pivot, relationships, measures, slicers, timeline, and conditional formatting."
+  ms.date: 11/05/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+azureSandbox: false
+durationInMinutes: 20
+content: |
+  [!include[](includes/3-what-is-modern-excel.md)]
