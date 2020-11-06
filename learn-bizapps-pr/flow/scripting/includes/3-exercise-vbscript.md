@@ -1,4 +1,4 @@
-In this exercise, you'll create a process that calculates how many hours of overtime that employees have worked. Consider that a typical working day is eight hours. 
+In this exercise, you'll create a process that calculates how many hours of overtime employees have worked. Consider that a typical working day is eight hours. 
 
 1. Launch WinAutomation and create a new process called **Overtime calculator**.
 
