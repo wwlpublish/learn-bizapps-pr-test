@@ -28,7 +28,7 @@ All actions that handle specific elements in webpages require controls as input.
 > [!NOTE]
 > For more information about controls, see the **Use repositories in WinAutomation** module.
 
-The following sections describe all web actions that use controls to handle webpage elements and forms. 
+The following sections describe all the web actions that use controls to handle webpage elements and forms. 
 
 ## Click Link on Web Page action
 
@@ -76,7 +76,7 @@ To enable or disable a check box on a web form, you can use the **Set Checkbox S
 
 ## Select Radio Button on Web Page action
 
-To select a button on a webpage, use the **Select Radio Button on Web Page** action. Like the other web form handling actions, you need to define a browser instance and a control that describes the button.
+To select a radio button on a webpage, use the **Select Radio Button on Web Page** action. Like the other web form handling actions, you need to define a browser instance and a control that describes the button.
 
 ![The Select Radio Button on Web Page action](..\media\select-radio-button-web-page.png)
 
