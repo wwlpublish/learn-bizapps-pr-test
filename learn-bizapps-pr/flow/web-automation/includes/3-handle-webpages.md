@@ -28,7 +28,7 @@ All actions that handle specific elements in webpages require controls as input.
 > [!NOTE]
 > For more information about controls, see the **Use repositories in WinAutomation** module.
 
-The following sections describe all the web actions that use controls to handle webpage elements and forms. 
+The following sections describe all web actions that use controls to handle webpage elements and forms. 
 
 ## Click Link on Web Page action
 
