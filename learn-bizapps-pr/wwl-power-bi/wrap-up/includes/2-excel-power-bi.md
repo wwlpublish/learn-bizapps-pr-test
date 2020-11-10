@@ -28,4 +28,4 @@ Power BI is best for:
 
 ## Optional Video
 > [!VIDEO <embedded_video_link>]Optional Video
-In this video you’ll see ___ deliver the entire Module 5, “Mapping Learning to Power BI”. Here and in all the modules, you have the option of delivering this section yourself, or using the recorded version as a co-instructor.
+> In this video you’ll see ___ deliver the entire Module 5, “Mapping Learning to Power BI”. Here and in all the modules, you have the option of delivering this section yourself, or using the recorded version as a co-instructor.

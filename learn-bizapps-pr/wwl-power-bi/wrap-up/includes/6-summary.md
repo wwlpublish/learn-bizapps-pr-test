@@ -4,8 +4,8 @@ In this module you have learned how to deliver the module on **Questions & Wrap-
 - The future of the Data Analysis industry
 
 
-[!Tip] 
-Power BI is evolving at a rapid rate—one of the best ways to keep pace with updates is to subscribe to the Power BI blog
+> [!Tip] 
+> Power BI is evolving at a rapid rate—one of the best ways to keep pace with updates is to subscribe to the Power BI blog
 
 
 ## Resources

@@ -5,7 +5,8 @@ The data analytics industry is heading towards:
 - Integrated everywhere
 - Tremendous opportunities for data analysts who can use the latest tools
 
-> [!TIP]Have a couple examples of areas where data is just starting to be used to support decision making so you can show your students the leading edge of data analytics.
+> [!TIP]
+> Have a couple examples of areas where data is just starting to be used to support decision making so you can show your students the leading edge of data analytics.
 
 
 This class is a starting point for the path to being a Modern Data Analyst. With the “Maintain Momentum!” slide you will help your students continue their journey beyond the class to:
@@ -16,4 +17,5 @@ This class is a starting point for the path to being a Modern Data Analyst. With
 
 
 ## Video
-> [!VIDEO <embedded_video_link>] In this 4-minute video Krissy Dyess explains how to deliver the last slides in the course . 
+> [!VIDEO <embedded_video_link>] 
+> In this 4-minute video Krissy Dyess explains how to deliver the last slides in the course . 
