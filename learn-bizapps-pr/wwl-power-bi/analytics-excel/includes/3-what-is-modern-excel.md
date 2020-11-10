@@ -1,13 +1,13 @@
-In this first section, you will explain that Modern Excel is a major upgrade to Excel’s reporting and forecasting capabilities.
+In this first section, you'll explain that Modern Excel is a major upgrade to Excel’s reporting and forecasting capabilities.
 
 The combination of two technologies and Excel:
-- Power Query (aka “Get and Transform”)
-- Power Pivot (aka “Data Model”)
+- Power Query, where you will get and transform data.
+- Power Pivot, where you will create data models.
 
 ## Benefits
 Some of the benefits of Modern Excel include:
 - Auto refresh, so it’s always up to date
-- Splice sources, for end-to-end visibility
+- Splice sources together, to integrate data
 - Nimble response, producing fist results in half the time
 - Capacity & speed, to handle years of data
 
@@ -19,7 +19,7 @@ Some of the benefits of Modern Excel include:
 
 ## Ecosystem: Overlap
 The important point of this slide is to show that Modern Excel and Power BI share many features but produce different visuals. 
-This review will lower your students fears and resistance to Power BI as a new and unknown product. 
+This review will lower your student's fears and resistance to the new and unknown Power BI. 
 
 ![Modern Excel and Power BI: Same brains, different visuals](../media/daily-benefits.png)
 
@@ -31,11 +31,11 @@ This review will lower your students fears and resistance to Power BI as a new a
 
 ## Modern tools
 
-This section is a short side trip into XLOOKUP and FILTER() to start your students thinking about finding and sorting data. These tools give you students a quick example of some of the new updates in Excel and prepare them to be successful in the rest of the course. 
+This section is a short side trip into XLOOKUP and FILTER() to start your students thinking about finding and sorting data. These tools will also give your students a quick example of some of the new updates thta they may have missed in Excel. 
 
 
 ### XLOOKUP() 
-The key message here is that this is a more robust and easer lookup that replaces:
+The key message here is that this is a more robust and easier lookup that replaces:
 - VLOOKUP 
 - HLOOKUP
 - INDEX()

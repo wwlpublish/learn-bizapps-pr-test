@@ -1,6 +1,6 @@
-In this module you learned how to help your students gain several compelling reasons to become a Modern Excel Analysts.
+In this module, you have learned how to teach the **Analytics in Excel** module of instructor-led course **Modern Excel Analyst in a day** to your Data Analyst customers. 
 
-You have learned how to explain and demonstrate usefull Excel tools including:
+You now have the skills, knowledge and course resouces to explain and demonstrate useful Excel tools including:
 - Power Query
 - Power Pivot
 - Relationships
@@ -8,14 +8,14 @@ You have learned how to explain and demonstrate usefull Excel tools including:
 - Slicers
 - Conditional formatting
 
-You have also learned how to give your students several compelling reasons to become a Modern Excel Analysts: 
+You've also learned how to give your students several compelling reasons to become a Modern Excel Analysts: 
 - Automate manual drudgery by using Power Query
 - More time for Analysis by using Power Pivot
 - Replace VLOOKUPs by creating a Data Model and Relationships
 - Eliminate human formula errors by using Measures
 
 ## Resources
-These resources  from the course will help your students better understand Modern Excel.  
+These resources  from the instuctor-led course will help your students better understand Modern Excel.  
 They will also allow you to provide additional information when you are explaining these topics to your customers. 
 
 > [!TIP]
