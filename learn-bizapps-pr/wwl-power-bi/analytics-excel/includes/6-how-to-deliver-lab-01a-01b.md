@@ -12,7 +12,7 @@ Your student’s tasks in Lab 01A are to create their own Power Pivot:
 1. Build a PivotTable using the Power Pivot for Excel Data Model
 1. dd Conditional Formatting & Apply a Sort to the PivotTable
 
-Lab document available at <CourseFolder>\...\Lab01A
+The Lab document is available at <CourseFolder>\...\Lab01A
 
 > [!NOTE]
 > Remind your students that the SureWi company scenario is for background only. It’s not very important to understand what the company does. 
@@ -32,8 +32,10 @@ Lab document available at <CourseFolder>\PowerBIPRIAD\Lab01B
 
 
 ## Video
-> [!VIDEO <embedded_video_link>] In this 4-minute video Krissy Dyess explains how to prepare your class for the Labs, and then dives into Labs 01A and 01B. 
+> [!VIDEO <embedded_video_link>] 
+> In this 4-minute video Krissy Dyess explains how to prepare your class for the Labs, and then dives into Labs 01A and 01B. 
 
 You can also view an instructor-led delivery of Labs 01A and 01B in the Instructor folder. 
 
-> [!TIP]Watch the videos of both Lab 01A and 01B that are included in the instructor files, and then try them yourself before teaching this class.
+> [!TIP]
+> Watch the videos of both Lab 01A and 01B that are included in the instructor files, and then try them yourself before teaching this class.

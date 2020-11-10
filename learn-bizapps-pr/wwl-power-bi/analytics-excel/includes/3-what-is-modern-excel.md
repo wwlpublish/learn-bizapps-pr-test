@@ -27,7 +27,8 @@ This review will lower your student's fears and resistance to the new and unknow
 > The Sargent Prepper and Captain Crunch characters may sound overly cute but will help your students quickly remember the roles of Power Query and Power Pivot. 
 
 ## Video
-> [!VIDEO <embedded_video_link>] In this 8-minute video you’ll see Krissy Dyess explain how to teach the first part of Analytics in Excel.
+> [!VIDEO <embedded_video_link>] 
+> In this 8-minute video you’ll see Krissy Dyess explain how to teach the first part of Analytics in Excel.
 
 ## Modern tools
 
@@ -46,5 +47,6 @@ The key message here is that this is a more robust and easier lookup that replac
 Is a quick and easy tool for retrieving data.
 
 ## Video
-> [!VIDEO <embedded_video_link>] In this 11-minute video Krissy Dyess shows you how to explain and give examples of XLOOKUP() and FILTER() in Excel.
+> [!VIDEO <embedded_video_link>] 
+> In this 11-minute video Krissy Dyess shows you how to explain and give examples of XLOOKUP() and FILTER() in Excel.
 

@@ -8,7 +8,8 @@ This slide is the value proposition for your students to adopt Power Query. Thes
 ![Why use Power Query](../media/why-power-query.png)
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 3-minute video Krissy Dyess explains how to teach this section where you begin with messy data, and then use Power Query to clean, transform, and load to create a Data Model.
+> [!VIDEO <embedded_video_link>] 
+> In this 3-minute video Krissy Dyess explains how to teach this section where you begin with messy data, and then use Power Query to clean, transform, and load to create a Data Model.
 
 ## Power Query in Excel – How to launch
 As you deliver this demonstration, encourage your students to launch it on their own machines and follow along as you tour the UI. This shared review of the UI will help them become comfortable navigating the product.
@@ -28,7 +29,8 @@ Use this order while presenting the Power Query Editor:
 > Stress that you don’t need to learn M to use Power Query effectively. Unless you are doing highly complex queries, you should be able to do whatever you need with buttons or macros.
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 6-minute video Krissy Dyess explains how to teach this section where you introduce the advantages of Power Query and then the UI.
+> [!VIDEO <embedded_video_link>] 
+> In this 6-minute video Krissy Dyess explains how to teach this section where you introduce the advantages of Power Query and then the UI.
 
 ## Combining Multiple Files 
 Now that you’ve reviewed the UI with your class it’s time to explain how to start collecting data. 
@@ -46,10 +48,11 @@ highlight the cost of the “old ways” in effort, time, and the potential for 
 > Emphasize the manual work and time saved  with Power Query that allows you to focus on analyzing your data.
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 7-minute video Krissy Dyess explains how to teach this section where you show how to combine files and fill up or down where there is missing data.
-Pivot, or crosstab’ formatting is very common but not always helpful for analysis.
+> [!VIDEO <embedded_video_link>] 
+> In this 7-minute video Krissy Dyess explains how to teach this section where you show how to combine files and fill up or down where there is missing data.
 
 ## Unpivot
+Pivot, or crosstab’ formatting is very common but not always helpful for analysis.
 The key point here is that your students can now unpivot columns from something that’s very wide to very long, which is our preferred structure.
 
 
@@ -66,4 +69,5 @@ Other great cleaning and formatting options that are available in Power Query in
 > For some of your students these will be new options, so be prepared to dive into any of them at your student’s request. Remember that the goal of this course is to bring awareness, so you’ll need to avoid getting too deep on how to clean up very messy data. 
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 10-minute video Krissy Dyess explains how to teach this section where you show how to unpivot, clean, and format data.
+> [!VIDEO <embedded_video_link>] 
+> In this 10-minute video Krissy Dyess explains how to teach this section where you show how to unpivot, clean, and format data.

@@ -13,7 +13,8 @@ Pivot Tables are one of the most powerful tools available to us as analysts as t
 > The slides for demos are marked with a speaker icon in the upper right corner.
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 10-minute video Krissy Dyess shows you how to introduce Power Pivot, and then demonstrate Relationships, multiple table pivot tables, and measures.
+> [!VIDEO <embedded_video_link>] 
+> In this 10-minute video Krissy Dyess shows you how to introduce Power Pivot, and then demonstrate Relationships, multiple table pivot tables, and measures.
 
 ## Power Pivot demonstration
 
@@ -33,7 +34,8 @@ In this demo you will:
 > This demo is nearly identical to the Lab. Remind your students that they will be doing this next to help them focus on the steps that you are demonstrating.
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 10-minute video Krissy Dyess shows you how to introduce Power Pivot, and then demonstrate creating a Power Pivot that utilizes multiple tables from the data model, 3 Measures, the Slicer, and the Timeline.
+> [!VIDEO <embedded_video_link>] 
+> In this 10-minute video Krissy Dyess shows you how to introduce Power Pivot, and then demonstrate creating a Power Pivot that utilizes multiple tables from the data model, 3 Measures, the Slicer, and the Timeline.
 
 
 ## Calculated Columns
@@ -47,4 +49,5 @@ In addition to the Implicit and Explicit Measures, we have what are called Calcu
 > Calculated Columns also use DAX formulas!  So, it can be a little confusing for some of your students. 
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 5-minute video Krissy Dyess shows you how to introduce calculated columns using DAX formulas to evaluate row by row and then use them in your analysis.
+> [!VIDEO <embedded_video_link>] 
+> In this 5-minute video Krissy Dyess shows you how to introduce calculated columns using DAX formulas to evaluate row by row and then use them in your analysis.

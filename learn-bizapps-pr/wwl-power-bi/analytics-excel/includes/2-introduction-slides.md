@@ -27,16 +27,16 @@ Lab 01B is optional for students who can complete Lab 01A in less than the allot
 
 ## Video
 > [!VIDEO <embedded_video_link>]
-In this 17-minute video you’ll see Krissy Dyess from Power Pivot Pro explain how to deliver the initial sides in the deck.
+> In this 17-minute video you’ll see Krissy Dyess from Power Pivot Pro explain how to deliver the initial sides in the deck.
 
 ## Optional video
 > [!VIDEO <embedded_video_link>]
-In this video you’ll see ___ deliver the entire Module 1, “Analytics in Excel”.  
+> In this video you’ll see ___ deliver the entire Module 1, “Analytics in Excel”.  
 
 
 > [!TIP]
 > In addition to taking notes on the content, take notes on what worked with Krissy Dyess’ and ___’s deliveries, and where you would do things differently. 
-Here and in all the modules, you have the option of delivering this section yourself, or using the recorded version as a co-instructor.
+> Here and in all the modules, you have the option of delivering this section yourself, or using the recorded version as a co-instructor.
 
 
 
