@@ -13,7 +13,8 @@ To do that they will:
 In this section you will also explain how to use data types from Power BI featured tables and set featured tables in Power BI for use with data types in excel.
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 12-minute video Krissy Dyess explains how to introduce and deliver the **Formatted Excel Report from a promoted dataset** demo.
+> [!VIDEO <embedded_video_link>] 
+> In this 12-minute video Krissy Dyess explains how to introduce and deliver the **Formatted Excel Report from a promoted dataset** demo.
 
 
 ## Using data types from Power BI featured tables
@@ -26,4 +27,5 @@ You will also give an overview of future Power BI.
 
 
 ### Video
-> [!VIDEO <embedded_video_link>] In this 7-minute video Krissy Dyess explains how to introduce and deliver the **Use Data Types from Power BI featured tables** demo.
+> [!VIDEO <embedded_video_link>] 
+> In this 7-minute video Krissy Dyess explains how to introduce and deliver the **Use Data Types from Power BI featured tables** demo.

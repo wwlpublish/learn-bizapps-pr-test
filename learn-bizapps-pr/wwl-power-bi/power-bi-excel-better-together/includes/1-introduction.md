@@ -38,4 +38,5 @@ Watching the videos, practicing the labs, and visiting the resources are highly 
 
 
 ## Video
-> [!VIDEO <embedded_video_link>] In this 7-minute video Krissy Dyess explains how to introduce module 3 “Power BI & Excel Better Together”.
+> [!VIDEO <embedded_video_link>] 
+> In this 7-minute video Krissy Dyess explains how to introduce module 3 “Power BI & Excel Better Together”.
