@@ -41,4 +41,5 @@ Watching the videos, practicing the labs, and visiting the resources are highly 
 
 
 ## Video
-> [!VIDEO <embedded_video_link>] In this 2-minute video Krissy Dyess explains how to introduce this next to the last module in the course.
+> [!VIDEO <embedded_video_link>] 
+> In this 2-minute video Krissy Dyess explains how to introduce this next to the last module in the course.

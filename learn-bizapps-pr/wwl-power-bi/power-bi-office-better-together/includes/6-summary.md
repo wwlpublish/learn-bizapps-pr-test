@@ -1,4 +1,4 @@
-You’ve learned how to show your students how Power BI integrates seamlessly with MS Office Teams & SharePoint Online. 
+You’ve learned how to show your students that Power BI integrates seamlessly with MS Office Teams & SharePoint Online. 
 
 You have learned how to explain the sections on:
 1. Power BI and Microsoft Teams
