@@ -1,11 +1,11 @@
 ## Introduction
-To help your customers gain the full power of Excel and Power BI, you will need to provide some of them with technical training on how to use modern Excel analytics. 
+To help your customers gain the full power of Excel and Power BI, you may need to provide some of them with technical training on how to use modern Excel analytics. 
 
-This train-the-trainer course will prepare you to deliver the **Modern Excel Analyst in a day** instructor-led course. This course will take your customers on a journey in Excel to Power BI Desktop and then to Power BI Service, and will help alleviate their data analysis concerns and move your sales forward.
+This train-the-trainer course will prepare you to deliver all or some of the **Modern Excel Analyst in a day** instructor-led course. That course will take your customers on a journey from Excel to Power BI Desktop and then to Power BI Service. At the end you will have alleviated their data analysis concerns and move your sales forward.  
 
-This course will give your customers a better understanding of advanced capabilities available in Excel, help them see what’s possible for modern Excel analysts, explore how Excel & Power BI are best used together, and how Excel & Power BI can be integrated in Microsoft Teams & SharePoint Online. 
+Delivering this course will give your customers a better understanding of advanced capabilities available in Excel. It will help them see what’s possible for modern Excel analysts. They will explore how Excel & Power BI are best used together, and how Excel & Power BI can be integrated in Microsoft Teams & SharePoint Online. 
 
-On completion of this Power BI train-the-trainer course, you will have the skills and knowledge to explain, and demonstrate how to:
+On completion of this Power BI train-the-trainer course, you will have the skills, knowledge, and resources to explain and demonstrate how to:
 - Setup Power Query & Power Pivot in Excel
 - Use Power Query & Power Pivot in Excel to improve efficiency, provide reusable seamless solutions and transform existing manual reporting into actionable insights
 - Understand how Excel maps into Power BI Desktop
@@ -14,7 +14,7 @@ On completion of this Power BI train-the-trainer course, you will have the skill
 
 ## How to take this course
 
-This course is a mix of text, videos, labs, resources, and quizzes that will help you deliver the **Modern Excel Analyst in a day** instructor-led course to your customers: 
+This train-the-trainer course is a mix of text, videos, labs, resources, and quizzes that will help you deliver the **Modern Excel Analyst in a day** instructor-led course to your customers: 
 - In the text, you will see tips and guidance on how to deliver this course.
 - In the videos, Krissy Dyess from Power Pivot Pro, takes you through the course and shows you how to explain and demonstrate the content.
 - The labs will help you practice using Excel and Power BI so you can better demo to your customers.
@@ -27,11 +27,11 @@ This course is a mix of text, videos, labs, resources, and quizzes that will hel
 
 
 ## Course balance
-1. The course starts heavily weighted to the first module first on **Analytics in Excel** with 48 slides for 2 hours and 15 minutes including labs. 
-1. Next it shifts to **Mapping the student’s knowledge of Excel onto Power BI** with a total of 39 slides for 2 hours with labs. 
-1. After that 15 slides on **Power BI and Excel better together** focuses on using the two products together for 1 hour and 5 minutes with lab. 
-1. Followed by 14 slides on **Power BI and MS Office better together** that focuses on sharing the results of your analysis in the rest of the MS Office suite of products for 20 minutes.  
-1. Finally 7 slides for 20 minutes on **Questions & Wrap-Up** that focuses on helping your students transfer their newly gained knowledge and skills to their work and career future.
+1. The course starts with a long **Analytics in Excel** module including 48 slides for 2 hours and 15 minutes including labs. 
+1. Next it shifts to the **Mapping the student’s knowledge of Excel onto Power BI** module with a total of 39 slides for 2 hours with labs. 
+1. Then it covers the **Power BI and Excel better together** module with 15 slides for 1 hour and 5 minutes with lab. 
+1. Followed by the **Power BI and MS Office better together** module with 14 slides for 20 minutes of lecture including multiple demos.  
+1. The course ends with a **Questions & Wrap-Up** including 7 slides that last for 20 minutes and focuses on helping your students transfer their newly gained knowledge and skills to their work and career future.
 
 
 ## Course breaks
@@ -41,13 +41,13 @@ If you are delivering it online, you may prefer to use a 5-minute break at the t
 ![PowerPoint screenshot showing the number of slides per section and class schedule.](../media/slide-count.png)
 
 ## To receive credit for this train-the-trainer course
-Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit for this train-the trainer course.
+Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit for this course.
 
 
 
 
 ## Lab setup
-The setup instructions are available in the **attendee > Lab materials > Lab01A folder**.
+The setup instructions are available in the **attendee > Lab materials > Lab01A** folder.
 
 > [!IMPORTANT]
 > Remember to send a copy of the Attendee folder to your students at least a day early so they can have the materials installed before class starts.
@@ -65,14 +65,18 @@ Check that you have Power BI Desktop installed
 •	Most recent monthly release is best!
 
 Launch Power BI Desktop
-•	Sign-in to the Power BI Service
+•	Sign in to the Power BI Service
 
 ### Copy paste snippets
 To improve accuracy and reduce typing, many labs involve copying and pasting from snippet files. 
-When snippet files are available, do not copy from the lab documents—rich-formatted text blocks often paste incorrectly, and you’re they’re likely to get a strange result in your code.
 
 •	Avoid the temptation to just copy-and-paste
 •	Take the time to understand the intention of each snippet
+
+> [!TIP]
+> When snippet files are available use them in your labs. 
+> Do not copy from the lab guide as the rich-formatted text blocks often paste incorrectly and you’re likely to get a strange result in your code.
+
 
 ## Video
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1XVQS]
