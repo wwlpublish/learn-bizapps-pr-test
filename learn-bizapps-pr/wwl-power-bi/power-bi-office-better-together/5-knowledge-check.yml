@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.power-bi-office-better-together.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Now that you’ve learned how to show your students how Power\nBI integrates seamlessly with MS Office Teams &amp; SharePoint Online, it’s\ntime for a quick knowledge check."
+  ms.date: 11/10/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/5-knowledge-check.md)]
+quiz:
+  title: ""
+  questions:
+  - content: "Can you share a link in Teams to a single visualization?"
+    choices:
+    - content: "Yes, from a Report you can share each visualization individually"
+      isCorrect: true
+      explanation: "That's correct."
+    - content: "Yes, but only one visualization per Report"
+      isCorrect: false
+      explanation: "That's incorrect. You can share each visualization individually."
+    - content: "No, only the entire report"
+      isCorrect: false
+      explanation: "That's incorrect. You can share each visualization individually."
+  - content: "Does a link to Power BI in Teams include a preview?"
+    choices:
+    - content: "Yes, always"
+      isCorrect: false
+      explanation: "That's incorrect. Only for Reports or Visuals that you have permission to view."
+    - content: "Yes, for Reports or Visuals that you have permission to view"
+      isCorrect: true
+      explanation: "That's correct."
+    - content: "No, you need to send a screenshot of the visualization along with the link for a preview"
+      isCorrect: false
+      explanation: "That's incorrect. Only for Reports or Visuals that you have permission to view."
+  - content: "You can share a link  to Power BI service in Teams to all of these except:"
+    choices:
+    - content: "Channel"
+      isCorrect: false
+      explanation: "That's incorrect. You can share a link  to Power BI service in Teams to a Channel, 1 on 1 chat, and group chat."
+    - content: "Call"
+      isCorrect: true
+      explanation: "That's correct. You can share a link  to Power BI service in Teams to a Channel, 1 on 1 chat, and group chat."
+    - content: "Group chat"
+      isCorrect: false
+      explanation: "That's incorrect. You can share a link  to Power BI service in Teams to a Channel, 1 on 1 chat, and group chat."

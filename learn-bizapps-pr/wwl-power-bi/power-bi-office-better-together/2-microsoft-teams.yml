@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.power-bi-office-better-together.microsoft-teams
+title: Power BI and Microsoft Teams
+metadata:
+  title: Power BI and Microsoft Teams
+  description: "Deliver the Power BI section and demonstrate some of the Microsoft Teams plus\nPower BI features."
+  ms.date: 11/10/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+azureSandbox: false
+durationInMinutes: 9
+content: |
+  [!include[](includes/2-microsoft-teams.md)]
