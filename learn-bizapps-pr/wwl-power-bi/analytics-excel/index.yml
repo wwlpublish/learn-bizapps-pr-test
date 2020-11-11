@@ -2,12 +2,8 @@
 uid: learn.wwl.analytics-excel
 metadata:
   title: 'Prepare to teach the module: Analytics in Excel'
-  description: "Deliver the “Analytics in Excel” module of the
-instructor-led course “Modern Excel Analyst in a day” to level set your Data
-Analyst customers on Excel tools.  Topics
-include Power Query, Power Pivot, relationships, measures, slicers, timeline,
-and conditional formatting."
-  ms.date: 11/10/2020
+  description: "Prepare to teach the module: Analytics in Excel"
+  ms.date: 11/11/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial

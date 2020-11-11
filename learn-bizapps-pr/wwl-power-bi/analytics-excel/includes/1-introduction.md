@@ -1,7 +1,9 @@
 ## Introduction
 To help your customers gain the full power of Excel and Power BI, you may need to provide some of them with technical training on how to use modern Excel analytics. 
 
-This train-the-trainer course will prepare you to deliver all or some of the **Modern Excel Analyst in a day** instructor-led course. That course will take your customers on a journey from Excel to Power BI Desktop and then to Power BI Service. At the end you will have alleviated their data analysis concerns and move your sales forward.  
+This train-the-trainer course will prepare you to deliver all or some of the **Modern Excel Analyst in a day** instructor-led course. 
+That course will take your customers on a journey from Excel to Power BI Desktop and then to Power BI Service. 
+By the end you will have alleviated some of their data analysis concerns and moved your sales forward.  
 
 Delivering this course will give your customers a better understanding of advanced capabilities available in Excel. It will help them see what’s possible for modern Excel analysts. They will explore how Excel & Power BI are best used together, and how Excel & Power BI can be integrated in Microsoft Teams & SharePoint Online. 
 
