@@ -165,11 +165,13 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "paths/sample-path/**",
-          "ai-builder/**,
+          "ai-builder/"**,
+          "dyn365-customer-service/**",
+          "dyn365-field-service/**",
           "flow/**",
-          "industry-solutions/**,
+          "industry-solutions/**",
           "power-bi/**",
-          "power-virtual-agents/**,
+          "power-virtual-agents/**",
           "powerapps/**",
           "module_template/**"
         ]
