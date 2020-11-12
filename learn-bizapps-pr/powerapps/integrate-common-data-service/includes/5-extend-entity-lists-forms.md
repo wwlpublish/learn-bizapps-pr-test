@@ -1,4 +1,4 @@
-Entity lists, entity forms, and web forms are the fundamental building blocks that enable Common Data Service data interactions for portal users. Each of them can be used in isolation. An entity list can display a company directory and allow users to download it as an Excel spreadsheet. An entity form can capture leads on a "contact us" page. A web form can collect anonymous product feedback from site visitors.
+Entity lists, entity forms, and web forms are the fundamental building blocks that enable Microsoft Dataverse data interactions for portal users. Each of them can be used in isolation. An entity list can display a company directory and allow users to download it as an Excel spreadsheet. An entity form can capture leads on a "contact us" page. A web form can collect anonymous product feedback from site visitors.
 
 However, the real power of the Power Apps portals platform is in how these components can be brought together by using data-driven configuration. The following sections explain how you can use the lists and forms together and start building robust and functional web apps instead of isolated web pages.
 
@@ -6,7 +6,7 @@ However, the real power of the Power Apps portals platform is in how these compo
 
 The **Help desk** application that is included in the portal templates contains the following features:
 
-- **Entity forms** - Enable users to create a new case or edit an existing case. These forms use model-driven forms that are defined in a Common Data Service instance with the Dynamics 365 Service app.
+- **Entity forms** - Enable users to create a new case or edit an existing case. These forms use model-driven forms that are defined in a Dataverse instance with the Dynamics 365 Service app.
 
    > [!div class="mx-imgBorder"]
    > [![Case entity forms](../media/case-entity-forms.png)](../media/case-entity-forms.png#lightbox)
@@ -23,7 +23,7 @@ The **Help desk** application that is included in the portal templates contains 
 
 This entity list is related to the **Customer Service – Home** webpage and portal, where users are presented with a complete application in a user-friendly format.
 
-You can use this pattern across any entity in Common Data Service and any new entity that might be required to meet a customer’s needs. The basic configuration includes:
+You can use this pattern across any entity in Dataverse and any new entity that might be required to meet a customer’s needs. The basic configuration includes:
 
 - Entity lists that are built on one or more views.
 
@@ -37,7 +37,7 @@ Basic configuration is usually sufficient to get started. You can enhance this c
 
 ## Advanced settings
 
-Power Apps portals extend Common Data Service functionality to web audiences, but they are not a direct replacement for model-driven Power Apps. Power Apps portals use model-driven views and forms to define the layout and behavior of lists and forms on the website, but not all features of model-driven apps are available in portals.
+Power Apps portals extend Dataverse functionality to web audiences, but they are not a direct replacement for model-driven Power Apps. Power Apps portals use model-driven views and forms to define the layout and behavior of lists and forms on the website, but not all features of model-driven apps are available in portals.
 
 No direct equivalents exist for client-side business rules or custom JavaScript. Only HTML and image web resources are supported, and HTML can't rely on scripts that communicate with the parent model-driven form. Another limitation is that connections, PCF controls, file datatype, and multi-select option sets are not supported.
 
@@ -65,7 +65,7 @@ If a model-driven form includes a subgrid of related records, the entity form an
 
 Notes are supported by Power Apps portals out of the box. You can add notes to your forms on the portal by adding the **Notes** control to the model-driven form. You can configure the behavior of the **Notes** control by using metadata. For more information, see [Configure notes for entity forms and web forms on portals](https://docs.microsoft.com/powerapps/maker/portals/configure-notes/?azure-portal=true).
 
-However, the **Notes** entity is not customizable in Common Data Service. As a result, certain restrictions are applied to supported functionality. For example, editing is only allowed by the note's author, no support is offered for an approval process, and visibility of notes is defined by the content by using a predefined naming convention. All these limitations restrict the use of notes in most scenarios.
+However, the **Notes** entity is not customizable in Dataverse. As a result, certain restrictions are applied to supported functionality. For example, editing is only allowed by the note's author, no support is offered for an approval process, and visibility of notes is defined by the content by using a predefined naming convention. All these limitations restrict the use of notes in most scenarios.
 
 Power Apps portals include alternative implementations for notes and attachments by using a portal comments custom activity.
 
@@ -84,7 +84,7 @@ For a reference to an implementation that uses portal comments, see how case com
 
 ## Extend with workflow
 
-Forms and lists support extensibility by using classic Common Data Service workflows. This mechanism is flexible and powerful in exposing additional business functionality. You can define a classic Common Data Service workflow for the target entity and add a workflow action button.
+Forms and lists support extensibility by using classic Dataverse workflows. This mechanism is flexible and powerful in exposing additional business functionality. You can define a classic Dataverse workflow for the target entity and add a workflow action button.
 
 Real-time and background workflows are supported, and you can configure the action button to refresh the page or redirect to the destination of your choice after the workflow is called.
 

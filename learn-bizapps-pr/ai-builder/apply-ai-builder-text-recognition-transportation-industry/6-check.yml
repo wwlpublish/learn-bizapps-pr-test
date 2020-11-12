@@ -54,7 +54,7 @@ quiz:
     - content: Taking a picture or uploading from a local disk
       isCorrect: true
       explanation: Text Recognizer component can get the image to be analyzed by taking a picture or uploading from a local disk.
-    - content: From Common Data Service
+    - content: From Microsoft Dataverse
       isCorrect: false 
       explanation: Text Recognizer component can get the image to be analyzed by taking a picture or uploading from a local disk.
   - content: Is AI Builder Text Recognizer component available from a model driven Power App?

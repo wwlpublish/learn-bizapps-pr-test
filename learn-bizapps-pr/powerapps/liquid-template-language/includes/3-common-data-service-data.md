@@ -1,6 +1,6 @@
-Portal makers can use a template language to build the output that combines static content. Similarly, makers can use a template language when working with multiple pages and dynamic content that comes from Common Data Service and making changes from one page to the next. The static elements are written in HTML, and the dynamic elements are written in Liquid. The Liquid elements act as placeholders: Before the output is sent to the browser, the Liquid elements are replaced by data from Common Data Service.
+Portal makers can use a template language to build the output that combines static content. Similarly, makers can use a template language when working with multiple pages and dynamic content that comes from Microsoft Dataverse and making changes from one page to the next. The static elements are written in HTML, and the dynamic elements are written in Liquid. The Liquid elements act as placeholders: Before the output is sent to the browser, the Liquid elements are replaced by data from Dataverse.
 
-Power Apps portals implements numerous extensions that are specific to the portals and Common Data Service.
+Power Apps portals implements numerous extensions that are specific to the portals and Dataverse.
 
 [Available Liquid objects](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-objects/?azure-portal=true) include:
 
@@ -9,7 +9,7 @@ Power Apps portals implements numerous extensions that are specific to the porta
 - Website
 - Generic entities
 
-[Power Apps Common Data Service entity tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/portals-entity-tags/?azure-portal=true) include:
+[Power Apps Dataverse entity tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/portals-entity-tags/?azure-portal=true) include:
 
 - chart
 - Power BI

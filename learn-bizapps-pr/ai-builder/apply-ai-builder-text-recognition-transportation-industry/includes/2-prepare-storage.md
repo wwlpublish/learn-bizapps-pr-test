@@ -14,13 +14,13 @@ The container's identifier is a textual data, we will use the built-in Name fiel
 
 ![Entity structure](../media/image3.png)
 
--   The Weight is a numerical data, modeled as Whole Number type in Common Data Service.
+-   The Weight is a numerical data, modeled as Whole Number type in Microsoft Dataverse.
 
--   The Price is a currency data, modeled as Currency type in Common Data Service.
+-   The Price is a currency data, modeled as Currency type in Dataverse.
 
 -   The Origin and Destination are location data, to make it simple we will use an Option Set with following values New York, Shanghai, San Francisco, Cape Town, Delhi, each corresponding to a port where the company is operating. An advanced design would be to create a separate Dock entity to enter more information data like country, zip code... and create a relationship with Container Shipment. (See [Create an Option set](https://docs.microsoft.com/powerapps/maker/common-data-service/custom-picklists))
 
--   Shipping Date and Arrival Date will store the date and hour of shipping from origin and arrival to destination, we will use Common Data Service's Date and Time.
+-   Shipping Date and Arrival Date will store the date and hour of shipping from origin and arrival to destination, we will use Dataverse's Date and Time.
 
 -   Is Fragile will indicate if the container is fragile or not, we use a Two Option for this.
 
@@ -28,9 +28,9 @@ The container's identifier is a textual data, we will use the built-in Name fiel
 
 -   Eventually for "Customer", the Power Platform provide some built-in entities like Account or Contact. We will use Account here and will create a Many-to-one relationship using the "Relationship" tab and "+Add relationship" button. (see [Create a relationship between entities](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-entity-lookup))
 
-We end with following entity structure. (Some fields are automatically added by Common Data Service to manage currencies)
+We end with following entity structure. (Some fields are automatically added by Dataverse to manage currencies)
 
-You can add some customers in the Account table using the "Edit from Excel" button. (See [Open entity data in Excel](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-excel-addin) or [Import or export data from Common Data Service](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-import-export))
+You can add some customers in the Account table using the "Edit from Excel" button. (See [Open entity data in Excel](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-excel-addin) or [Import or export data from Dataverse](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-import-export))
 
 ## Summary
 

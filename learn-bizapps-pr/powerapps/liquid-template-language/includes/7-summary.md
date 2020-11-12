@@ -1,4 +1,4 @@
-Liquid is integrated natively into Power Apps portals. It adds template processing to Power Apps portals, including logic, processing instructions, and Common Data Service access, to produce HTML or text output that is sent to the browser. Liquid can be used to add dynamic content to pages and to create a variety of custom templates. Additionally, Liquid provides access only to the data and operations that are explicitly allowed by the portals.
+Liquid is integrated natively into Power Apps portals. It adds template processing to Power Apps portals, including logic, processing instructions, and Microsoft Dataverse access, to produce HTML or text output that is sent to the browser. Liquid can be used to add dynamic content to pages and to create a variety of custom templates. Additionally, Liquid provides access only to the data and operations that are explicitly allowed by the portals.
 
 By now, you should be able to:
 

@@ -22,12 +22,12 @@ For more information, see the [Dynamics 365 Marketing Portal](https://docs.micro
 
 ## Customer portal (Dynamics 365 Supply Chain Management)
 
-The Customer portal template allows you to create an externally facing website that is connected to a Dynamics 365 Supply Chain Management environment. It uses [dual-write capabilities](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page/?azure-portal=true) to link Common Data Service entities to Dynamics 365 Supply Chain Management data. 
+The Customer portal template allows you to create an externally facing website that is connected to a Dynamics 365 Supply Chain Management environment. It uses [dual-write capabilities](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page/?azure-portal=true) to link Microsoft Dataverse entities to Dynamics 365 Supply Chain Management data. 
 
 The template provides guidance and a starting point for creating custom websites for business-to-business (B2B) sales-order processing and related scenarios. It helps companies bring dual-write, Power Apps portals, and Dynamics 365 Supply Chain Management together to create a self-service experience for their enterprise customers.
 
 > [!NOTE] 
-> You will need to have the dual-write solutions installed on your Common Data Service environment to provision the Dynamics 365 Supply Chain Management Customer portal.
+> You will need to have the dual-write solutions installed on your Dataverse environment to provision the Dynamics 365 Supply Chain Management Customer portal.
 
 The key features of the Customer portal are:
 

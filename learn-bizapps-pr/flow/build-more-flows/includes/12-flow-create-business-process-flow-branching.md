@@ -45,7 +45,7 @@ First, we'll create a process named **Car Sales Process**.
 
     - **Display name**: Enter *Car sales process*.
     - **Name**: A unique name that's based on the display name that you entered. You can change the name when you create the process, but you can't change it after the process has been created.
-    - **Common Data Service entity**: Select the *Lead* entity.
+    - **Microsoft Dataverse entity**: Select the *Lead* entity.
 
         The entity that you select affects the fields that are available for steps that can be added to the first stage of the process flow. If you can't find the Lead entity, make sure that the **Business process flows (fields will be created)** option is set for that entity in the entity definition. You can't change the entity after you save the process.
 

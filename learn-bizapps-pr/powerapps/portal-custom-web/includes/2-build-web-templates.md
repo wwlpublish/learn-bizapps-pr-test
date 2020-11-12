@@ -2,7 +2,7 @@
 
 - **Name** - When a template is included in other content, or extended by other templates, it is referred to by this name.
 - **Source** - The source content of the template. It can be static text, an HTML fragment, or most often, a layout by using Liquid.
-- **MIME type** - Defines what MIME type that the server will send to the client when the template is rendered. If value is not provided, the value is assumed to be `text/html`, which is a standard type for HTML pages. It's possible to create a web template that will render specialized content. For example, you can create a web template that will return some Common Data Service data in `json` format. In this case, the MIME type would be set to `application/json`. 
+- **MIME type** - Defines what MIME type that the server will send to the client when the template is rendered. If value is not provided, the value is assumed to be `text/html`, which is a standard type for HTML pages. It's possible to create a web template that will render specialized content. For example, you can create a web template that will return some Microsoft Dataverse data in `json` format. In this case, the MIME type would be set to `application/json`. 
 
 ## Web template management
 
@@ -10,7 +10,7 @@ Liquid implementations within Power Apps portals contain a number of [Template t
 
 ### FetchXML tag
 
-The `fetchxml` tag allows users to query data from Common Data Service and renders the results in a page.
+The `fetchxml` tag allows users to query data from Dataverse and renders the results in a page.
 
 ```xml
 {% fetchxml varResults %}

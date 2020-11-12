@@ -1,4 +1,4 @@
-Provisioning a Power Apps portal is a straightforward process, but it adds numerous features and components to a Common Data Service environment.
+Provisioning a Power Apps portal is a straightforward process, but it adds numerous features and components to a Microsoft Dataverse environment.
 
 In this module, you learned about:
 

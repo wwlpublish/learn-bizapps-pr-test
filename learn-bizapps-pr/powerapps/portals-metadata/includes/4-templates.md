@@ -1,4 +1,4 @@
-While webpages represent content that is accessible to portal users, page templates help to maintain a consistent appearance throughout your entire website. Templates also define how dynamic content that is based on Common Data Service data is delivered to your users and how users can interact with the portal pages. 
+While webpages represent content that is accessible to portal users, page templates help to maintain a consistent appearance throughout your entire website. Templates also define how dynamic content that is based on Microsoft Dataverse data is delivered to your users and how users can interact with the portal pages. 
 
 When you create a new webpage in the Power Apps portals Studio or the Portal Management app, choose a page template from the list of existing templates. Several page templates are included with each of the portal templates. 
 
@@ -15,7 +15,7 @@ Rewrite templates are useful for specialized content processing such as forums, 
 
 ## Web templates
 
-To create custom page templates, you can use the Web Template property, which is basically a layout template. For example, if a web template includes static HTML, this HTML will be rendered "as-is" in the page output that uses that template. The real power of web templates comes from the ability to contain Liquid code, which adds processing capabilities to the static content, including access to Common Data Service data.
+To create custom page templates, you can use the Web Template property, which is basically a layout template. For example, if a web template includes static HTML, this HTML will be rendered "as-is" in the page output that uses that template. The real power of web templates comes from the ability to contain Liquid code, which adds processing capabilities to the static content, including access to Dataverse data.
 
 Web templates are flexible; they can be rendered on their own or can be included as part of another template. Web templates support inheritance, where one template is based on and extends functionality of another. Additionally, they can be used to render a standalone fragment of HTML such as page breadcrumbs, the entire custom page, or you can create custom headers and footers for your portal website.
 

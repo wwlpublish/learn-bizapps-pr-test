@@ -17,7 +17,7 @@ At the end of these exercises, you will be able to:
 
 The prerequisites for performing tasks in this exercise are:
 
-- System Administrator access to a Common Data Service instance with the Dynamics 365 Customer Service app installed.
+- System Administrator access to a Microsoft Dataverse instance with the Dynamics 365 Customer Service app installed.
 
 - A provisioned Customer self-service, Community, or Partner portal template. If you do not have a Power Apps portal available, follow the [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
 

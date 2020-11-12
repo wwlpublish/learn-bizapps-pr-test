@@ -10,7 +10,7 @@ The designer feature that's included with Power Automate is user-friendly. Howev
 
 UI flows bring Robotic Process Automation (RPA) directly into Power Automate. This functionality comes with either a desktop or a web app that you use to record the user interface, including selections and keyboard input. This feature is useful for when you are working with legacy applications that don't have available APIs.
 
-Business process flows are built by using Power Platform and Common Data Service. You can also use Power Automate workflows. The business process is a series of steps that the user needs to complete in a specific stage. The business process flow will visually guide the user through various stages. These flows are created and managed by using Power Automate, and several templates are readily available. These templates can use the entities that are already available, or you can use custom entities that you have created.
+Business process flows are built by using Power Platform and Microsoft Dataverse. You can also use Power Automate workflows. The business process is a series of steps that the user needs to complete in a specific stage. The business process flow will visually guide the user through various stages. These flows are created and managed by using Power Automate, and several templates are readily available. These templates can use the entities that are already available, or you can use custom entities that you have created.
 
 Power Automate flows that you create in a solution are known as solution-aware flows. You can build a new flow directly inside a solution. In addition, you can edit and delete that flow.
 
@@ -24,7 +24,7 @@ You can add connectors to a solution. Additionally, you have the option to add e
 
 ### Environment variables
 
-Previously, it was a common practice for all stored data to be available in a single environment only. Now, because of environment variables, you have the flexibility to transport your configuration data from one environment to another within the same tenant. After creating environment variables in Common Data Service for apps, you can consume them by retrieving data from the **Environment Variable Definition** and **Environment Variable Value** entities.
+Previously, it was a common practice for all stored data to be available in a single environment only. Now, because of environment variables, you have the flexibility to transport your configuration data from one environment to another within the same tenant. After creating environment variables in Dataverse for apps, you can consume them by retrieving data from the **Environment Variable Definition** and **Environment Variable Value** entities.
 
 You can add environment variables in a solution. Additionally, you have the option to add an existing environment variable in a solution or create a new one that automatically becomes part of that solution.
 
@@ -44,7 +44,7 @@ You can't export a managed solution. Also, when a managed solution is deleted (u
 
 ## Create a new solution(s)
 
-The following scenario considers a Common Data Service entity, called Volunteer Requests, that saves all requests that are submitted. A Power Automate flow is created to send an email notification to team members of certain departments.
+The following scenario considers a Dataverse entity, called Volunteer Requests, that saves all requests that are submitted. A Power Automate flow is created to send an email notification to team members of certain departments.
 
 1. In Power Automate, select **Solutions** and then **+ New solution**.
 

@@ -19,7 +19,7 @@ abstract: |
     - Discover advanced AI Builder usage in Power Automate. 
 prerequisites: | 
     Before you begin this course, we recommend that you read the Get started with AI Builder module and the "What is AI Builder?" documentation. 
-    - Access to Common Data Service
+    - Access to Microsoft Dataverse
     - An AI Builder add-on or trial
 iconUrl: /learn/achievements/ai-builder-power-automate.svg  
 levels:  

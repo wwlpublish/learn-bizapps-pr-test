@@ -19,4 +19,4 @@ You will:
 * A work or school account to sign into your Windows device with administrator privileges and Power Automate.
 * A device that runs Windows 10 Pro or other supported operating system.
 * Microsoft Edge (version 80 or later) or other supported browser.
-* An environment with a Common Data Service database. 
+* An environment with a Microsoft Dataverse database. 

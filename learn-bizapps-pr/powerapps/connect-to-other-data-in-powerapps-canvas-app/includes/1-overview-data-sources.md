@@ -4,7 +4,7 @@ In the previous units, you learned about directly referencing data sources from 
 structured table format. Power Apps can directly read and display these
 tables through galleries, forms, and other controls. Additionally, if
 the data source supports it, Power Apps can create, edit, and delete data
-from these data sources. Examples include Common Data Service, SharePoint, and
+from these data sources. Examples include Microsoft Dataverse, SharePoint, and
 SQL Server.
 
 **Action-based data** - An action-based data source is one that uses

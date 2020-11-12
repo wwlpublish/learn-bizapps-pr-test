@@ -4,7 +4,7 @@ Start by [signing in](https://flow.microsoft.com/?azure-portal=true) to Power Au
 
 ## Create a flow from a solution
 
-To add AI Builder actions in a flow, create the flow from a Common Data Service solution.
+To add AI Builder actions in a flow, create the flow from a Microsoft Dataverse solution.
 
 1. Go to **Solutions** from the navigation bar on the left.
 

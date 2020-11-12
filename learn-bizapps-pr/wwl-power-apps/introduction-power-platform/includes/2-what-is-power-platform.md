@@ -5,7 +5,7 @@ Power Platform is comprised of four key products: Power Apps, Power Automate, Po
 ![Power Apps logo](../media/powerappslogo.png)
   :::column-end:::
   :::column span="3":::
-**Power Apps** provides a rapid low code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (Common Data Service) to allow simple integration and interaction with existing data. Power Apps enables the creation of web and mobile applications that run on all devices.
+**Power Apps** provides a rapid low code development environment for building custom apps for business needs. It has services, connectors, and a scalable data service and app platform (Microsoft Dataverse) to allow simple integration and interaction with existing data. Power Apps enables the creation of web and mobile applications that run on all devices.
 <br>
 People use apps for every area of their lives, and business should be no exception. Most out of the box solutions do not meet exact business needs or integrate well with other business programs. Power Apps eases users into app development with a simple interface so that every business user or pro developer can build custom apps.
 :::row-end:::
@@ -57,7 +57,7 @@ Among the programs listed above, there are cross cutting features which enable t
 **AI Builder** lets users and developers add AI capabilities to the workflows and Power Apps they create and use. AI Builder is a turnkey solution that allows you to easily add intelligence to your workflows and apps and predict outcomes to help improve business performance without writing code.
 
 
-**Common Data Service** is a scalable data service and app platform which lets users securely store and manage data from multiple sources and integrate that data in business applications using a common data model to ensure ease and consistency to users. Common Data Service is the common currency that enables the components of Power Platform to work together. It’s the foundation that enables the consolidation, display, and manipulation of data.
+**Common Data Service** is a scalable data service and app platform which lets users securely store and manage data from multiple sources and integrate that data in business applications using a common data model to ensure ease and consistency to users. Dataverse is the common currency that enables the components of Power Platform to work together. It’s the foundation that enables the consolidation, display, and manipulation of data.
 
 
 **Connectors** enable you to connect apps, data, and devices in the cloud. Consider connectors the bridge across which information and commands travel. There are more than 275 connectors for the Power Platform, enabling all of your data and actions to connect cohesively.  Examples of popular connectors include Salesforce, Office 365, Twitter, Dropbox, Google services, and more.

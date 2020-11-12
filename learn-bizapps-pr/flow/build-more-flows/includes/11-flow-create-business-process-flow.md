@@ -21,7 +21,7 @@ When a user starts a business process flow, the process bar at the top of the pa
 
     - **Flow name**: The display name of the process doesn't have to be unique, but it should be meaningful for people who must choose a process. You can change this name later.
     - **Name**: A unique name that's based on the display name. You can change the name when you create the process, but you can't change it after the process has been created. Power Automate can generate this for you.
-    - **Common Data Service entity**: Select the entity on which to base the process.
+    - **Microsoft Dataverse entity**: Select the entity on which to base the process.
 
         The entity that you select affects the fields that are available for steps that can be added to the first stage of the process flow. If you can't find the entity that you want, make sure that the **Business process flows (fields will be created)** option is set for the entity in the entity definition. You can't change the entity after you save the process.
 
