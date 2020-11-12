@@ -165,7 +165,7 @@
           "LICENSE-CODE",
           "ThirdPartyNotices",
           "paths/sample-path/**",
-          "ai-builder/"**,
+          "ai-builder/**",
           "dyn365-customer-service/**",
           "dyn365-field-service/**",
           "flow/**",
