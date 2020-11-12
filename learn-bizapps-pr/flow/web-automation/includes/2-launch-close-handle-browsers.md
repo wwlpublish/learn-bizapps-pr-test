@@ -23,7 +23,7 @@ To close a browser instance, use the **Close Web Browser** action. This action a
 
 ![The Close Web Browser action.](..\media\close-web-browser-actions.png)
 
-If you want to go to a new page by using an existing browser instance, use the **Go to Web Page** action. In this action's properties, you need to specify the browser instance and the URL of the webpage that you want to load. 
+If you want to go to a new page using an existing browser instance, use the **Go to Web Page** action. In this action's properties, you need to specify the browser instance and the URL of the webpage that you want to load. 
 
 This action can also be used to reload the current page and move a page back or forward.
 
