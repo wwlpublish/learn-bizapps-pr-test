@@ -1,4 +1,4 @@
-If your organization uses an Exchange server, WinAutomation will enable the email handling through the **Exchange** actions. These actions connect to an Exchange server and can also retrieve, send, or process emails from it.
+If your organization uses an Exchange server, WinAutomation enables email handling through the **Exchange** actions. These actions connect to an Exchange server and can also retrieve, send, or process emails from it.
 
 ## Connect to an Exchange server
 
