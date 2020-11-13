@@ -7,7 +7,7 @@ Common Data Service, and you cannot associate a business process flow
 with another data source behind it. 
 
 Common Data Service has many different out-of-the-box business process 
-flows that you can use in its current state or modified to fit your needs.
+flows that you can use in its current state or modify to fit your needs.
 
 A Power Automate flow does not have any visual components like a
 business process flow. Power Automate flows can be configured to work
