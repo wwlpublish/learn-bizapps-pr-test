@@ -1,7 +1,7 @@
 Microsoft Power Apps works with other technologies to help you build powerful apps for your organization. Some of these technologies include:
 
 - **Data sources** - Without data, you don't have a business. Data sources bring cloud and on-premises data into your apps. You access data through built-in connections, custom connectors, and gateways.
-- **Common Data Service** - A compliant and scalable data service that's integrated into Power Apps.
+- **Microsoft Dataverse** - A compliant and scalable data service that's integrated into Power Apps.
 - **Power Automate** - Allows you to build automated workflows to receive notifications, run processes, collect data, and more.
 
 
