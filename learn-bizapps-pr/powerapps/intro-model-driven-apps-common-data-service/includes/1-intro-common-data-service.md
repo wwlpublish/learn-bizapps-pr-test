@@ -4,24 +4,24 @@ the foundational data source of Power Platform. As a result, you will
 experience the most functionality, the deepest integrations, the most features,
 and the best ease-of-use of any available data sources. From
 simple web-based data design to robust, role-based security, 
-Common Data Service is a straightforward platform that you can use to begin designing your
+Microsoft Dataverse is a straightforward platform that you can use to begin designing your
 data structures and helping to keep them safe. Then, with your data in place, you
 have rich integration capabilities from Power Apps and the rest of 
 Power Platform. Additionally, by applying business rules, you can trust that your
 business integrity will be maintained no matter what tool you use to
 interact with the data.
 
-Another benefit of using Common Data Service is that all
+Another benefit of using Dataverse is that all
 of your data is stored in entities. An entity is a set of records that is used
 to store data, similar to how a table stores data within a database.
-Common Data Service includes a base set of standard entities that cover
+Dataverse includes a base set of standard entities that cover
 typical scenarios, but you can also create custom entities that are specific to
 your organization. Standard and custom entities within Common Data
 Service help provide a secure and cloud-based storage option for your data.
 Entities allow you to create a business-focused definition of your
 organization's data for use within apps. 
 
-Some benefits of using Common Data Service and its entities include:
+Some benefits of using Dataverse and its entities include:
 
 -   **Simple to manage** - Both the metadata and data are stored in the
     cloud so that you're confident about the details of how they're
@@ -48,6 +48,6 @@ Some benefits of using Common Data Service and its entities include:
     for Microsoft Excel to increase productivity and ensure data
     accessibility.
 
-Now that you have a better understanding of how Common Data Service works and
+Now that you have a better understanding of how Dataverse works and
 are aware of some of the benefits, you can now explore how these benefits can be applied 
 in a model-driven app.

@@ -1,4 +1,4 @@
-The purpose of this hands-on lab is to configure entity permissions to secure access to Common Data Service records.
+The purpose of this hands-on lab is to configure entity permissions to secure access to Microsoft Dataverse records.
 
 The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Microsoft Power Platform does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install the sample data into your environment.
 
@@ -9,7 +9,7 @@ At the end of these exercises, you will be able to:
 - Open the Power Apps portals Studio to configure an entity list to use entity permissions.
 - Create and assign a web role.
 - Create an entity permission record.
-- Link the entity permission to the web role and associate the web role to a Common Data Service contact.
+- Link the entity permission to the web role and associate the web role to a Dataverse contact.
 
 ### Prerequisites
 

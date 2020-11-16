@@ -56,9 +56,9 @@ You can view the data that you created for running the flow by following these s
 
 	![Select Solutions on menu on left](../media/29-select-solutions-menu.png)
 
-1. Double-click the **Common Data Services Default Solution** to open it, as shown in the following figure.
+1. Double-click the **Microsoft Dataverses Default Solution** to open it, as shown in the following figure.
 
-	![Select Common Data Service Default Solution](../media/30-select-cds-default-solution.png)
+	![Select Microsoft Dataverse Default Solution](../media/30-select-cds-default-solution.png)
 
 1. Select the **Customer Check In** entity.
 

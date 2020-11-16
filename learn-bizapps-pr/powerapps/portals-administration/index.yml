@@ -18,7 +18,7 @@ abstract: |
     - Learn how to configure key portal features such as custom domain names.
     - Manage SSL certificates and custom domain names.
     - Differentiate key features such as maintenance mode and IP address restriction.
-prerequisites: Basic understanding and usage of Microsoft Power Platform administration and solutions and how data is stored in Common Data Service. Knowledge of web technologies such as SSL, custom URLs, IP addresses, and so on, will also be beneficial.
+prerequisites: Basic understanding and usage of Microsoft Power Platform administration and solutions and how data is stored in Microsoft Dataverse. Knowledge of web technologies such as SSL, custom URLs, IP addresses, and so on, will also be beneficial.
 iconUrl: /learn/achievements/portals-administration.svg  
 levels:  
 - intermediate   

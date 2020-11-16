@@ -1,12 +1,12 @@
-Businesses that have Dynamics 365 or a custom Common Data Service solution already in place can quickly build a portal that is more secure and build their entire website, all without requiring developers. 
+Businesses that have Dynamics 365 or a custom Microsoft Dataverse solution already in place can quickly build a portal that is more secure and build their entire website, all without requiring developers. 
 
-A Power Apps portal is not automatically provisioned when a new Common Data Service environment is created. You will need to provision a Power Apps portal and determine the name, default URL, language, and template.
+A Power Apps portal is not automatically provisioned when a new Dataverse environment is created. You will need to provision a Power Apps portal and determine the name, default URL, language, and template.
 
 Power Apps portals evolved from Dynamics 365 Portals, which is now referred to as Power Apps portals. The key difference is that several additional portal templates are available for Dynamics 365-enabled environments.  
 
 > [!IMPORTANT]
 >
-> To provision a portal, you must be assigned to the System Administrator role of the Common Data Service environment that is selected for the portal.
+> To provision a portal, you must be assigned to the System Administrator role of the Dataverse environment that is selected for the portal.
 
 ## Portal templates
 
@@ -56,7 +56,7 @@ All components and features that are listed under **Content**, **Extensibility**
 
 ## Provision a portal
 
-Only one Power Apps portal can be provisioned for each Common Data Service environment.
+Only one Power Apps portal can be provisioned for each Dataverse environment.
 
 The high-level steps to provision a starter portal are:
 
@@ -66,7 +66,7 @@ The high-level steps to provision a starter portal are:
 
 3. On the left menu, select **+ Create**.
 
-4. Select **Portal from blank**. If you have Dynamics 365 apps deployed in your Common Data Service environment, additional portal templates, such as Customer self-service, will be available.
+4. Select **Portal from blank**. If you have Dynamics 365 apps deployed in your Dataverse environment, additional portal templates, such as Customer self-service, will be available.
 
 5. Provide a name for the portal.
 

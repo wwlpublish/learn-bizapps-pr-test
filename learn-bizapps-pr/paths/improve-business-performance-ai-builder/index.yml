@@ -14,7 +14,7 @@ summary: |
   Do you want to bring AI to your business to improve your business performance? AI Builder offers a wide array of AI capabilities, such as text recognition and object detection. This learning path guides you through each use case, the creation of the models, and how to use them.
 prerequisites: |
   - Signed up for Power Apps or Power Automate
-  - Access to Common Data Service
+  - Access to Microsoft Dataverse
 iconUrl: /learn/achievements/improve-business-performance-ai-builder.svg
 levels:
 - beginner

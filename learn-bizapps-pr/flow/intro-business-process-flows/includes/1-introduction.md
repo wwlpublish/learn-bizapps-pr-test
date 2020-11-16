@@ -13,7 +13,7 @@ to complete within an instance of a process.
 Business process flows can be configured to require users to enter information into certain 
 fields (data steps) before completing the stage and, if needed, you can 
 also allow users to jump stages. All data that is collected while you are completing 
-a business process flow is stored in one or more entities in Common Data Service.
+a business process flow is stored in one or more entities in Microsoft Dataverse.
 
 The following illustration shows a simple business process flow with two
 stages for adding questions to a survey. The business process

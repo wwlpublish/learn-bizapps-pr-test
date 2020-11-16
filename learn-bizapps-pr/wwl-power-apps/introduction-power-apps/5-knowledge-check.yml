@@ -45,7 +45,7 @@ quiz:
       explanation: "Incorrect. Power Apps supports both internal and external data sources with more than 270 connectors."
     - content: "Power Apps uses only external data sources and does not have an internal data source."
       isCorrect: false
-      explanation: "Incorrect. Power Apps is built on top of the Common Data Service and can leverage this internal data source."
+      explanation: "Incorrect. Power Apps is built on top of the Microsoft Dataverse and can leverage this internal data source."
     - content: "Power Apps can use multiple internal and external data sources in the same app."
       isCorrect: true
       explanation: "Correct. Power Apps allows you complete control of which data sources you use in your app. There are over 270 data connectors available, and the ability to build a customer connector if one does not exist."
