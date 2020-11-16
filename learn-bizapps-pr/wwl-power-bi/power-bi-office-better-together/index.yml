@@ -1,13 +1,9 @@
 ### YamlMime:Module
 uid: learn.wwl.power-bi-office-better-together
 metadata:
-  title: 'Prepare to teach the module: Power BI & Office better together '
-  description: "Deliver
-the fourth module of instructor-led course “Modern Excel Analyst in a day” to help
-your Data Analyst customers use Power BI integrated with MS Office
-Teams &amp; SharePoint Online – allowing them and their organizations to
-effectively collaborate and have data discussions."
-  ms.date: 11/10/2020
+  title: 'Prepare to teach the module: Power BI & Office better together'
+  description: "Prepare to teach the module: Power BI & Office better together"
+  ms.date: 11/16/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
