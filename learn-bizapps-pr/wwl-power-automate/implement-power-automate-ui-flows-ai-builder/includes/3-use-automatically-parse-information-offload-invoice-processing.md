@@ -10,7 +10,7 @@ To recap, here are the steps to create the forms processing model for the sample
 
 
 >[!NOTE]
-> Some features in AI Builder have not yet released for general availability (GA), and remain in preview status.  In addition, AI Builder requires the use of Common Data Service, which is the data platform for Power Apps and allows you to store and manage business data.  Refer to the Summary and Resources section of this module for links to additional information.
+> Some features in AI Builder have not yet released for general availability (GA), and remain in preview status.  In addition, AI Builder requires the use of Microsoft Dataverse, which is the data platform for Power Apps and allows you to store and manage business data.  Refer to the Summary and Resources section of this module for links to additional information.
 
 
 1. In your demo tenant navigate to **Power Automate**.  Make sure you are in the same environment in which you created the flow.

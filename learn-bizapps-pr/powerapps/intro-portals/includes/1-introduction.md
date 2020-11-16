@@ -1,4 +1,4 @@
-Model-driven and canvas Power Apps deliver business functionality to people. Microsoft Power Apps portals extend Common Data Service to internal and external audiences such as communities, customers, partners, and employees.
+Model-driven and canvas Power Apps deliver business functionality to people. Microsoft Power Apps portals extend Microsoft Dataverse to internal and external audiences such as communities, customers, partners, and employees.
 
 ![Power Apps portals & Audiences](../media/1-portals-audiences.png)
 
@@ -20,7 +20,7 @@ Consumers are a major driver of this trend:
 
 - Half of the consumers are using multiple channels to stay connected, including web, mobile, telephone, social, and self-service channels. Often, consumer use many channels for a single support experience.
 
-Providing a web portal interface takes advantage of these user trends and brings any type of engagement, including partner, group, and employee scenarios, that directly accesses Common Data Service to create a modern connected experience for external users and internal business operations.
+Providing a web portal interface takes advantage of these user trends and brings any type of engagement, including partner, group, and employee scenarios, that directly accesses Dataverse to create a modern connected experience for external users and internal business operations.
 
 ## Modern business
 
@@ -30,13 +30,13 @@ Your business is already using Power Apps. Consider the additional capabilities 
 
 - **Build a sales pipeline** - When a lead fills out a **Contact us** form on your company website, this information is recorded in Dynamics 365 Sales where the record can become part of your sales pipeline automatically.
 
-- **Empower employees** - When an employee needs a new computer, they can fill out an online form, where the information will be recorded in Common Data Service so the helpdesk staff can immediately access and process this information.
+- **Empower employees** - When an employee needs a new computer, they can fill out an online form, where the information will be recorded in Dataverse so the helpdesk staff can immediately access and process this information.
 
 - **Engage mobile workforce** - Empower agents on any device, wherever they work. Field technicians can process and complete work orders in the field, instantly updating Dynamics 365 Field Service.
 
 ## Power Apps portals capabilities
 
-Power Apps portals are built on top of Common Data Service. This architecture comes with a major benefit. All the differentiating features of model-driven Power Apps are the features of Power Apps portals as well, including:
+Power Apps portals are built on top of Dataverse. This architecture comes with a major benefit. All the differentiating features of model-driven Power Apps are the features of Power Apps portals as well, including:
 
 - Centralized management
 
@@ -54,17 +54,17 @@ Power Apps portals are built on top of Common Data Service. This architecture co
 
 - Integration with other services
 
-- Common Data Service extensibility
+- Dataverse extensibility
 
 - Audit
 
-Power Apps portals deliver a complete content management system out of the box, with all content stored in Common Data Service. As a result, content can be edited through the portals studio and also directly by using the Portal Management app. Additionally, the robust Common Data Service security model can help secure the content.
+Power Apps portals deliver a complete content management system out of the box, with all content stored in Dataverse. As a result, content can be edited through the portals studio and also directly by using the Portal Management app. Additionally, the robust Dataverse security model can help secure the content.
 
 The following table describes the key capabilities of Power Apps portals.
 
 |                          Capability icon                         |   Capability                | Description                                                  |
 | :----------------------------------------------------------: | ----------------- | :----------------------------------------------------------- |
-|         ![Content icon](../media/1-icon-content.png)         | **Content**       | Seamless, responsive, and customizable web design for any user on any device. Full tracking and context are available because Common Data Service is the operating system for all interactions. |
-|            ![Form icon](../media/1-icon-form.png)            | **Functionality** | Quickly build more secure, functional websites to interact with Common Data Service with no coding required. Track customer interactions across all channels and capture them in a custom Power Apps or Dynamics 365 instance. |
+|         ![Content icon](../media/1-icon-content.png)         | **Content**       | Seamless, responsive, and customizable web design for any user on any device. Full tracking and context are available because Dataverse is the operating system for all interactions. |
+|            ![Form icon](../media/1-icon-form.png)            | **Functionality** | Quickly build more secure, functional websites to interact with Dataverse with no coding required. Track customer interactions across all channels and capture them in a custom Power Apps or Dynamics 365 instance. |
 |           ![Icon tools](../media/1-icon-tools.png)           | **Extensibility** | Use powerful Microsoft Power Platform business processes that are natively extended through the web front end. Integrate portals with other systems like SharePoint or Power BI. Extend portals with custom development to cater to complex scenarios. |
-| ![Secure document icon](../media/1-icon-secure-document.png) | **Security**      | All data that is used to build portal content is protected more through Common Data Service security model. Power Apps portals extend this model to help secure and tailor the content for the target audiences who are not Common Data Service users. |
+| ![Secure document icon](../media/1-icon-secure-document.png) | **Security**      | All data that is used to build portal content is protected more through Dataverse security model. Power Apps portals extend this model to help secure and tailor the content for the target audiences who are not Dataverse users. |

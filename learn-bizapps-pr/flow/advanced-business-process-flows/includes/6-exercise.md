@@ -40,7 +40,7 @@ that you have been working in, select **My flows**, and then select **Business p
 		- San Diego
 		- Portland
 	
-	- Invoice Number - Autonumber - leave the defaults that are provided by Power Automate and Common Data Service
+	- Invoice Number - Autonumber - leave the defaults that are provided by Power Automate and Microsoft Dataverse
 	
 	- Service Comments - Text Area
 

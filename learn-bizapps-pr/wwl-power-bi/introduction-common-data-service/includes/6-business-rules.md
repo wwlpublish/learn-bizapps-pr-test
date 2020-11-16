@@ -1,4 +1,4 @@
-In Common Data Service you can define business rules. Business rules allow you to apply and maintain business logic at the data layer instead of the app layer. Put more simply, if you create business rules in Common Data Service, they are in effect regardless of how you interact with the data. 
+In Microsoft Dataverse you can define business rules. Business rules allow you to apply and maintain business logic at the data layer instead of the app layer. Put more simply, if you create business rules in Dataverse, they are in effect regardless of how you interact with the data. 
 
 An example business rule usage is when they are in canvas or model-driven apps to set or clear values in one or many fields in an entity. They can also be used to validate stored data or show error messages. Model-driven apps can use business rules to show or hide fields, enable or disable fields, and create recommendations based on business intelligence.
 

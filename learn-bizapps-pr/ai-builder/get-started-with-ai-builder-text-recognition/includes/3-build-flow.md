@@ -1,7 +1,7 @@
-Your task for this exercise is to build a Power Automate flow, check when an image is added to a folder, and trigger AI Builder Text recognition. Then, you will save recognized text in Common Data Service. This process can be useful when automating digitalization of paper forms. For more information, see Create a flow in Power Automate.
+Your task for this exercise is to build a Power Automate flow, check when an image is added to a folder, and trigger AI Builder Text recognition. Then, you will save recognized text in Microsoft Dataverse. This process can be useful when automating digitalization of paper forms. For more information, see Create a flow in Power Automate.
 
-### Create a Common Data Service entity to store recognized text
-To create a Common Data Service entity to store the recognized text, follow these steps:
+### Create a Dataverse entity to store recognized text
+To create a Dataverse entity to store the recognized text, follow these steps:
 
 1. Go to <https://make.powerapps.com>. 
 2. Open the **Data** menu and then the **Entities** submenu.
@@ -22,7 +22,7 @@ You can now create a flow in Power Automate that manages the triggering of AI Bu
 6. When you are finished, select **Create**.
 
 > [!NOTE] 
-> You can use any kind of trigger, such as: **When an email arrives in Outlook**, **When a record is created in Common Data Service**, **When an item is created in SharePoint**, and more.
+> You can use any kind of trigger, such as: **When an email arrives in Outlook**, **When a record is created in Dataverse**, **When an item is created in SharePoint**, and more.
 
 ### Set the folder that Power Automate will monitor for new incoming images
 
@@ -31,7 +31,7 @@ In this example, you will set the **Folder** property to the **Images** folder.
 ### Call AI Builder Text recognition
 
 1. Select **New step**. 
-2. Select **Predict - Common Data Service (current environment)**. 
+2. Select **Predict - Dataverse (current environment)**. 
 3. Select **TextRecognition model** in the **Model** drop-down menu. 
 4. Select **File Content** in the **Image file** drop-down menu.
 
@@ -50,7 +50,7 @@ Follow these steps to save the result in the entity that you previously created 
 To save the results to the entity, follow these steps:
 
 1. Select **Add an action**.
-2. Select **Create a new record - Common Data Service**. 
+2. Select **Create a new record - Dataverse**. 
 3. In the **Environment** property, enter the environment name where you have previously created the entity. 
 4. On the **Entity Name** property, enter **Text Recognizer Results**. 
 5. On the **Name** property, select **Response result line detected text**.

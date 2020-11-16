@@ -31,7 +31,7 @@ that customers can get the help that they need, any time and from any device.
 
 Providing a web portal interface takes advantage of these user trends and brings
 any type of engagement, including partner, group, and employee scenarios, that
-directly accesses Common Data Service to create a modern connected experience
+directly accesses Microsoft Dataverse to create a modern connected experience
 for external users and internal business operations.
 
 ## Modern business
@@ -62,7 +62,7 @@ following are additional capabilities that Power Apps portals can deliver:
 
 ## Power Apps portals capabilities
 
-Power Apps portals are built on top of Common Data Service. This architecture
+Power Apps portals are built on top of Dataverse. This architecture
 comes with a major benefit. All the differentiating features of model-driven
 Power Apps are the features of Power Apps portals as well, including:
 
@@ -82,12 +82,12 @@ Power Apps are the features of Power Apps portals as well, including:
 
 -   Integration with other services
 
--   Common Data Service extensibility
+-   Dataverse extensibility
 
 -   Audit
 
 Power Apps portals deliver a complete content management system out of the box,
-with all content stored in Common Data Service. As a result, content can be
+with all content stored in Dataverse. As a result, content can be
 edited through the Portals Studio and also directly by using the Portal
-Management app. Additionally, the robust Common Data Service security model can
+Management app. Additionally, the robust Dataverse security model can
 help secure the content.

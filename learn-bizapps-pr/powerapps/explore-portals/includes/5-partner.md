@@ -1,7 +1,7 @@
 The Partner portal provides organizations that have a partner channel with a mechanism to allow partners to manage and collaborate on opportunities and customers.
 
 > [!NOTE]
-> The Partner portal is only available on Common Data Service environments with Dynamics 365 apps enabled.
+> The Partner portal is only available on Microsoft Dataverse environments with Dynamics 365 apps enabled.
 
 > [!div class="mx-imgBorder"]
 > [![Partner Portal Home Page](../media/5-partner-portal-home.png)](../media/5-partner-portal-home.png#lightbox)

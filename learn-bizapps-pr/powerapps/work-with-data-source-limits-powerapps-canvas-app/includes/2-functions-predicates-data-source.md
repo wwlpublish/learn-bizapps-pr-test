@@ -1,6 +1,6 @@
-Determining when delegation will and will not happen is a combination of several variables. The first thing to consider is the data source. The following table shows the different functions and whether they support delegation for Common Data Service. In this table, **Yes** means the data source does the processing across all of the records. **No** means the data source returns only the first 500 (default) records to Power Apps, and Power Apps then processes the function locally.
+Determining when delegation will and will not happen is a combination of several variables. The first thing to consider is the data source. The following table shows the different functions and whether they support delegation for Microsoft Dataverse. In this table, **Yes** means the data source does the processing across all of the records. **No** means the data source returns only the first 500 (default) records to Power Apps, and Power Apps then processes the function locally.
 
->![Common Data Service delegation functions](../media/data-source-cds.png)
+>![Dataverse delegation functions](../media/data-source-cds.png)
 
 1.	Numbers with arithmetic expressions like `Filter(entity, field + 10 > 100)` aren't delegable. Language and TimeZone aren't delegable.
 2.	Doesn't support Trim[Ends] or Len. Supports other functions such as Left, Mid, Right, Upper, Lower, Replace, and Substitute.
@@ -8,9 +8,9 @@ Determining when delegation will and will not happen is a combination of several
 4.	Supports comparisons. For example, Filter(EntityName, MyCol = Blank()).
 5.	The aggregate functions are limited to a collection of 50,000 records. If needed, use the Filter function to select 50,000 records from a larger set before using the aggregate function.
 
-[Common Data Service](https://docs.microsoft.com/connectors/commondataservice/) has more info about using the Common Data Service as a data source, and about its delegable functions.
+[Dataverse](https://docs.microsoft.com/connectors/commondataservice/) has more info about using the Dataverse as a data source, and about its delegable functions.
 
-This table is only for supported delegable functions if you use the Common Data Service as a data source. But what if you use a different data source, like SharePoint or SQL?   
+This table is only for supported delegable functions if you use the Dataverse as a data source. But what if you use a different data source, like SharePoint or SQL?   
 
 ## Other data sources: SharePoint and SQL
 

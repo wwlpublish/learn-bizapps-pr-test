@@ -5,7 +5,7 @@ A Microsoft Power Apps portal is an external-facing application that is often op
 If a portal is completely inaccessible, an administrator can investigate numerous possibilities:
 
 - Whether the portal has been enabled or not
-- If other Common Data Service apps are accessible
+- If other Microsoft Dataverse apps are accessible
 - Issues that might have occurred with the infrastructure services that portals depend on such as Microsoft Azure Active Directory (Azure AD) or the Web Apps feature of Azure App Service (Web Apps)
 - If advisories exist on the Microsoft 365 admin center
 

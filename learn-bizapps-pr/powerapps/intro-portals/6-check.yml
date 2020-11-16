@@ -31,16 +31,16 @@ quiz:
     choices: 
     - content: System Administrator
       isCorrect: true 
-      explanation: To provision a portal, the user must be assigned to the System Administrator role in the Common Data Service environment that is selected for the portal.
+      explanation: To provision a portal, the user must be assigned to the System Administrator role in the Microsoft Dataverse environment that is selected for the portal.
     - content: Office 365 Global administrator
       isCorrect: false 
-      explanation: To provision a portal, the user must be assigned to the System Administrator role in the Common Data Service environment that is selected for the portal.
+      explanation: To provision a portal, the user must be assigned to the System Administrator role in the Dataverse environment that is selected for the portal.
     - content: System Customizer
       isCorrect: false 
-      explanation: To provision a portal, the user must be assigned to the System Administrator role in the Common Data Service environment that is selected for the portal.
+      explanation: To provision a portal, the user must be assigned to the System Administrator role in the Dataverse environment that is selected for the portal.
     - content: Power Apps portal administrator
       isCorrect: false 
-      explanation: To provision a portal, the user must be assigned to the System Administrator role in the Common Data Service environment that is selected for the portal.
+      explanation: To provision a portal, the user must be assigned to the System Administrator role in the Dataverse environment that is selected for the portal.
   - content: Where can you store the content of a portal web file?
     choices: 
     - content: Amazon S3

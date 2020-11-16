@@ -1,15 +1,15 @@
-## Common Data Service customer entities
+## Microsoft Dataverse customer entities
 
-Microsoft Power Apps portals security is configured primarily around the Common Data Service (or Dynamics 365) **contact** record. The contact record represents a person with which an organization has a relationship. In the Dynamics 365 apps, a contact record can represent a stakeholder such as a customer, partner, supplier, supporter, or an employee of organizational stakeholders (organizations are typically represented by using the **account** entity).
+Microsoft Power Apps portals security is configured primarily around the Dataverse (or Dynamics 365) **contact** record. The contact record represents a person with which an organization has a relationship. In the Dynamics 365 apps, a contact record can represent a stakeholder such as a customer, partner, supplier, supporter, or an employee of organizational stakeholders (organizations are typically represented by using the **account** entity).
 
 [Customer entities](https://docs.microsoft.com/powerapps/developer/common-data-service/customer-entities-account-contact/?azure-portal=true)
 
 > [!NOTE]
-> For portals that are configured for internal staff access (such as the Employee portal), Common Data Service system users will also need a contact record to access the portal.
+> For portals that are configured for internal staff access (such as the Employee portal), Dataverse system users will also need a contact record to access the portal.
 
 ## Contact record
 
-A portal might show public information and content that can be viewed by anonymous users that do not need to authenticate. An example would be an online newsletter or an event schedule that shows details from Common Data Service.
+A portal might show public information and content that can be viewed by anonymous users that do not need to authenticate. An example would be an online newsletter or an event schedule that shows details from Dataverse.
 
 However, certain private or protected information should only be made accessible to specified authenticated users of the portal. An example of this information would be member-only protected content or private information such as invoices.
 
@@ -17,7 +17,7 @@ However, certain private or protected information should only be made accessible
 > [!div class="mx-imgBorder"]
 > [![Contact record](../media/portal-contact.png)](../media/portal-contact.png#lightbox)
 
-A portal user will need to sign in by using an authentication process in which the portal application will recognize the visitor as a specific Common Data Service contact. The portal can then show the protected and private static and dynamic content to that portal user.
+A portal user will need to sign in by using an authentication process in which the portal application will recognize the visitor as a specific Dataverse contact. The portal can then show the protected and private static and dynamic content to that portal user.
 
 [Set up portal authentication](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal-authentication/?azure-portal=true)
 
@@ -31,7 +31,7 @@ Allowing or not allowing portal visitors to register as a new contact is configu
 
 ## Accounts
 
-A common relationship in Dynamics 365 and Common Data Service apps is where the contact is a child entity of an account record that represents an employee-employer relationship. This relationship might have an impact on configuring entity permissions because the contact might be provided access to content based on the permissions that are granted to the account record.
+A common relationship in Dynamics 365 and Dataverse apps is where the contact is a child entity of an account record that represents an employee-employer relationship. This relationship might have an impact on configuring entity permissions because the contact might be provided access to content based on the permissions that are granted to the account record.
 
 <!--image of portal user registering-->
 > [!div class="mx-imgBorder"]

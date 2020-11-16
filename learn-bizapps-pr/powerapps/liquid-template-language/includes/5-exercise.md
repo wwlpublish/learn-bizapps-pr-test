@@ -1,11 +1,11 @@
-The purpose of this hands-on lab is to access Common Data Service data by using Liquid.
+The purpose of this hands-on lab is to access Microsoft Dataverse data by using Liquid.
 
 ## Learning objectives
 
 At the end of these exercises, you'll be able to:
 
 - Enter Liquid code as part of the page content.
-- Access Common Data Service by using Liquid.
+- Access Dataverse by using Liquid.
 - Add conditional statements to display only available data.
 
 ### Prerequisites
@@ -17,7 +17,7 @@ For this exercise, you need to have the following parameters set up in your envi
 
 ### High-level steps
 
-In this exercise, you will display selected Common Data Service records by adding some HTML and Liquid code to the webpage copy section by using the Power Apps portals Studio code editor.  
+In this exercise, you will display selected Dataverse records by adding some HTML and Liquid code to the webpage copy section by using the Power Apps portals Studio code editor.  
 
 - Open your portal in Power Apps portals Studio.
 
