@@ -19,7 +19,7 @@ abstract: |
     - Learn how to use your Object detection models in Power Apps and Power Automate.
 prerequisites: |
     - A Power Apps or Power Automate [license](https://go.microsoft.com/fwlink/?linkid=2085130)
-    - Access to [Common Data Service](https://powerapps.microsoft.com/common-data-service/)
+    - Access to [Microsoft Dataverse](https://powerapps.microsoft.com/common-data-service/)
 iconUrl: /learn/achievements/get-started-with-object-detection.svg  
 levels:  
 - beginner   

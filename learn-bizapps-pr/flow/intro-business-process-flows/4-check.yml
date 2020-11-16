@@ -27,20 +27,20 @@ quiz:
     - content: You must have a valid Power Apps Dynamics 365 license or a valid Power Apps license.
       isCorrect: true
       explanation: You must have a valid a Power Apps Dynamics 365 license or valid a Power Apps license to create or use a business process flow.
-  - content: What type of business process flows does Common Data Service include?
+  - content: What type of business process flows does Microsoft Dataverse include?
     choices: 
     - content: A number of out-of-the-box predefined business process flows.
       isCorrect: true 
-      explanation: Common Data Service includes a number of out-of-the-box predefined business process flows. 
-    - content: No existing business process flows. Only custom business process flows are available with Common Data Service.
+      explanation: Dataverse includes a number of out-of-the-box predefined business process flows. 
+    - content: No existing business process flows. Only custom business process flows are available with Dataverse.
       isCorrect: false 
-      explanation: Common Data Service includes a number of out-of-the-box predefined business process flows. 
+      explanation: Dataverse includes a number of out-of-the-box predefined business process flows. 
     - content: A number of custom business process flows.
       isCorrect: false 
-      explanation: Common Data Service includes a number of out-of-the-box predefined business process flows. 
+      explanation: Dataverse includes a number of out-of-the-box predefined business process flows. 
     - content: A number of regular Power Automate flows only.
       isCorrect: false 
-      explanation: Common Data Service includes a number of out-of-the-box predefined business process flows. 
+      explanation: Dataverse includes a number of out-of-the-box predefined business process flows. 
   - content: Where can business process flows be embedded? 
     choices: 
     - content: They can be embedded into a public website.

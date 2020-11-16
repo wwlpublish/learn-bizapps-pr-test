@@ -3,7 +3,7 @@ uid: learn-bizapps.liquid-template-language.5-exercise
 title: Exercise - Display a list of accounts
 metadata: 
   title: Exercise - Display a list of accounts
-  description: Practice using Liquid to display Common Data Service data.
+  description: Practice using Liquid to display Microsoft Dataverse data.
   ms.date: 07/15/2020 
   author: DaveBeasley 
   ms.author: dbeasley 

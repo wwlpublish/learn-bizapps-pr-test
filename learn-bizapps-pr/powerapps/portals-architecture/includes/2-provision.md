@@ -1,4 +1,4 @@
-A fully functional portal that is based on a template is provisioned in an environment with Common Data Service enabled. This portal can be further configured to meet specific business requirements.
+A fully functional portal that is based on a template is provisioned in an environment with Microsoft Dataverse enabled. This portal can be further configured to meet specific business requirements.
 
 A maker will first choose a particular portal template. Currently, only one option (Portal from blank) is available for environments without Dynamics 365, while five different portal templates are available for environments with Dynamics 365 apps enabled.
 
@@ -40,7 +40,7 @@ By default, a portal will be provisioned in Trial mode. A maker will have 30 day
 
 ### Delete portal
 
-If you delete a portal app, it will be removed from the list of apps and the portal web application will be deleted as well. However, the portal solutions or portal metadata will not be deleted from Common Data Service.
+If you delete a portal app, it will be removed from the list of apps and the portal web application will be deleted as well. However, the portal solutions or portal metadata will not be deleted from Dataverse.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yWm3]
 

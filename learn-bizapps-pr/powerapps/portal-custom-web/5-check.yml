@@ -27,7 +27,7 @@ quiz:
     - content: "{% extend %}"
       isCorrect: false 
       explanation: Include, block, and extend are essential Liquid tags for building flexible, reusable web templates. Template is not a valid Liquid tag.
-  - content: What do you need to do to apply entity permissions when you are accessing Common Data Service data in Liquid templates?
+  - content: What do you need to do to apply entity permissions when you are accessing Microsoft Dataverse data in Liquid templates?
     choices: 
     - content: Use secure Liquid filter.
       isCorrect: false

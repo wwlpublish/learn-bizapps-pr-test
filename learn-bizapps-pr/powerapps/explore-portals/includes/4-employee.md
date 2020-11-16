@@ -1,7 +1,7 @@
 The Employee self-service template provides organizations with a portal that is configured to assist employees with finding specific human resources and company information or for resolving employee-specific issues.
 
 > [!NOTE]
-> The Employee self-service portal is only available on Common Data Service environments with Dynamics 365 apps enabled.
+> The Employee self-service portal is only available on Microsoft Dataverse environments with Dynamics 365 apps enabled.
 
 By default, the Employee self-service portal is configured to authenticate by using Microsoft Azure Active Directory (Azure AD), which provides employees with a single sign-on experience.
 

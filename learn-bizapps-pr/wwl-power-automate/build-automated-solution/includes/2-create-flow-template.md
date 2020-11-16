@@ -1,7 +1,7 @@
 With the hundreds of triggers, actions and connectors, sometimes the hardest part about Power Automate can be figuring out where to get started. To help you get started, there are countless flow templates available to help you build a solution. To see all of the available templates you can sign into [Power Automate](https://ms.flow.microsoft.com/), and select **Templates** from the left-hand menu. 
     ![Power Automate template archive](../media/flow-templates.png)
 
-From here, you can search by a specific word or phrase like "Common Data Service" or you can browse based on category. 
+From here, you can search by a specific word or phrase like "Microsoft Dataverse" or you can browse based on category. 
 
 If you click on a specific template, you will see details about the template including the data sources it will connect to. 
     ![template click in details](../media/email-report-template.png)

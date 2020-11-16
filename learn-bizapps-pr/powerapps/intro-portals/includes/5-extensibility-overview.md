@@ -2,7 +2,7 @@ Power Apps portals is considered a no-code, low-code solution to building portal
 
 ## Liquid
 
-Liquid is an open-source markup language that can be embedded into content (webpages content, content snippets) and web templates.  Liquid is used to add dynamic content to webpages and can also be used to surface Common Data Service records dynamically.
+Liquid is an open-source markup language that can be embedded into content (webpages content, content snippets) and web templates.  Liquid is used to add dynamic content to webpages and can also be used to surface Microsoft Dataverse records dynamically.
 
 For more information, see [Work with Liquid templates](https://docs.microsoft.com/powerapps/maker/portals/liquid/liquid-overview).
 
@@ -26,4 +26,4 @@ For more information, see [Edit CSS for themes in Power Apps portal](https://doc
 
 ## Companion apps
 
-Some situations might occur where custom code is required to create or update data in Common Data Service without submitting an entity form or web form. A common technique is to create a custom web app outside of Power Apps portals, by using the Web Apps feature of Azure App Service or Azure Functions, that will expose an API that can be securely called from JavaScript on portal pages. The web app can interact with data by using the standard Common Data Service web API.
+Some situations might occur where custom code is required to create or update data in Dataverse without submitting an entity form or web form. A common technique is to create a custom web app outside of Power Apps portals, by using the Web Apps feature of Azure App Service or Azure Functions, that will expose an API that can be securely called from JavaScript on portal pages. The web app can interact with data by using the standard Dataverse web API.

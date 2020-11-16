@@ -54,6 +54,6 @@ A company as such can fulfill this scenario by creating a flow that would perfor
 
     - Power Automate gets data directly from external sources, for example, new messages on Twitter. A flow could be triggered on tweets that mention the company name.
 
-    - Power Automate gets data from an aggregated data source, for example, an entity in Common Data Service. A flow could be triggered on new record creation.
+    - Power Automate gets data from an aggregated data source, for example, an entity in Microsoft Dataverse. A flow could be triggered on new record creation.
 
 - Categorize the feedback by using the **AI Builder category classification model**.

@@ -18,9 +18,9 @@ The Starter Kit does have some prerequisites, including:
 -   A global tenant admin, Power Platform Service admin, or Dynamics 365 service admin role is required
     to access the tenant resources.
 
--   A Power Apps premium license for accessing Common Data Service.
+-   A Power Apps premium license for accessing Microsoft Dataverse.
 
--   An environment with Common Data Service because the Starter Kit solution 
+-   An environment with Dataverse because the Starter Kit solution 
     will need to store metadata about the apps and flows that are detected 
     within an environment.
 
@@ -55,14 +55,14 @@ provides some insight into the use of Power Apps and Power Automate,
 it does so within the context of an environment. This parameter makes
 developing a holistic picture of usage difficult. However,
 using the tools that are provided in the COE Starter Kit brings all these
-insights together by using Common Data Service, a model-driven
+insights together by using Dataverse, a model-driven
 Power App, and a Power BI dashboard. These assets, plus the
 inclusion of flows that will sync data from Office 365 Security and
 Compliance logs and through the Power Platform management connectors
-into Common Data Service entities, provide the greatest level of 
+into Dataverse entities, provide the greatest level of 
 visibility for administrators.
 
-The Power BI dashboard connects to Starter Kit Common Data Service entities and
+The Power BI dashboard connects to Starter Kit Dataverse entities and
 contains tabs that provide the following reports:
 
 -   **Overview** - Includes the total number of apps and

@@ -1,4 +1,4 @@
-Power Apps portals store all information in Common Data Service. Portal entities define site structure, layout, content, and functionality.
+Power Apps portals store all information in Microsoft Dataverse. Portal entities define site structure, layout, content, and functionality.
 
 The two most common questions about portals are:
 
@@ -15,7 +15,7 @@ Webpages also form the basis for including other, specialized entity types in th
 
 ![Site page hierarchy](../media/3-page-hierarchy.png)
 
-Pages can be added and edited by using the Portal Studio, the portal front-side editor, or directly in Common Data Service by using the Portal Management app.
+Pages can be added and edited by using the Portal Studio, the portal front-side editor, or directly in Dataverse by using the Portal Management app.
 
 | Portal Studio                               | Portal Management app                                        |
 | :------------------------------------------ | :----------------------------------------------------------- |
@@ -24,7 +24,7 @@ Pages can be added and edited by using the Portal Studio, the portal front-side 
 | 3. Choose a layout.                          | 3. Select **New**.                                            |
 | 4. Enter details on the Properties pane.     | 4. Enter the page details.                                    |
 | 5. The page will be saved automatically.        | 5. Select **Save**.                                           |
-| **Security:** The user must be a licensed Power Apps user with the appropriate Common Data Service security privileges.                                            |  |
+| **Security:** The user must be a licensed Power Apps user with the appropriate Dataverse security privileges.                                            |  |
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yrkV]
 
@@ -66,23 +66,23 @@ Content snippets can include plain text, HTML layout, or template processing ins
 
 ![Content snippets on a page](../media/1-6-content-snippet.png)
 
-Snippets can be edited by using Portal Studio and Common Data Service records by using the Portal Management app.
+Snippets can be edited by using Portal Studio and Dataverse records by using the Portal Management app.
 
 ![Content snippets metadata in portal management app](../media/1-6-content-snippet-metadata.png)
 
 ## Entity lists and entity forms
 
-The strength of Power Apps portals is the ability to interact with information and data that is stored in Common Data Service.
+The strength of Power Apps portals is the ability to interact with information and data that is stored in Dataverse.
 
 ![Entity List](../media/1-6-entity-list-studio.png)
 
-Entity lists and entity forms use model-driven Power Apps views and will form definitions to create dynamic and interactive portal pages that work with Common Data Service. 
+Entity lists and entity forms use model-driven Power Apps views and will form definitions to create dynamic and interactive portal pages that work with Dataverse. 
 
-A webpage record can be linked to an entity list or an entity form. The linked list or form will be used by the template to render the page layout by using data from Common Data Service based on system or custom entities. The template might use list and form definitions to include interactivity, for example, read-write access to Common Data Service records.
+A webpage record can be linked to an entity list or an entity form. The linked list or form will be used by the template to render the page layout by using data from Dataverse based on system or custom entities. The template might use list and form definitions to include interactivity, for example, read-write access to Dataverse records.
 
 ### Entity lists
 
-Entity lists define how the list of Common Data Service records is displayed on portal pages. They are defined by one or more model-driven Power Apps views and include functionality like filtering and sorting.
+Entity lists define how the list of Dataverse records is displayed on portal pages. They are defined by one or more model-driven Power Apps views and include functionality like filtering and sorting.
 
 Entity lists can also have actions associated with them to enable Create/Edit/Read abilities and to trigger workflows. Display formats include traditional grid lists, calendar, or map and spreadsheet download.
 
@@ -90,11 +90,11 @@ Entity lists can also have actions associated with them to enable Create/Edit/Re
 
 Entity forms add the ability for portal pages to interact with records in a specific entity by using a model-driven Power Apps form definition as a layout template.
 
-**Form** mode can be read-only, insert, or edit. This mode defines if the form is used to generate a layout, capture the data, or provide full editing capabilities by using the Common Data Service entity record. Examples of the types of capabilities that are defined in **Form** mode include:
+**Form** mode can be read-only, insert, or edit. This mode defines if the form is used to generate a layout, capture the data, or provide full editing capabilities by using the Dataverse entity record. Examples of the types of capabilities that are defined in **Form** mode include:
 
-- Informational pages about employees, products, or any other Common Data Service entity.
+- Informational pages about employees, products, or any other Dataverse entity.
 - Data capture from either anonymous or authenticated users, for example, using a **Contact us** page to record leads in Dynamics 365 Sales or using a survey page to collect product feedback from customers. 
 - Support pages that provide read-write access to the customers' cases. 
 - Profile self-management for customers.
 - An alternative user interface for employees that provides required functionality without the need to deploy canvas-based Power Apps.
-- Any other scenario where data from Common Data Service needs to accessed, displayed, captured, and processed by using the portal.
+- Any other scenario where data from Dataverse needs to accessed, displayed, captured, and processed by using the portal.

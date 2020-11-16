@@ -1,4 +1,4 @@
-Users of Power Apps portals are tracked in Common Data Service as contacts.
+Users of Power Apps portals are tracked in Microsoft Dataverse as contacts.
 
 The Portal Management model-driven app provides access to the contact entity and
 has forms to manage passwords, view portal-specific contact information, and
@@ -7,14 +7,14 @@ provide registration and profile management forms for the portal.
 ![Web authentication settings on the contact form](../media/contact-authentication.png)
 
 All interactions and actions that a portal user takes (for example, leaving a
-comment on a page) are tied to their contact record in Common Data Service.
+comment on a page) are tied to their contact record in Dataverse.
 
 ## Authentication
 
 Portal users can authenticate by using the following methods:
 
 -   **Local authentication** - Basic authentication with usernames and passwords
-    are stored in the Common Data Service contact record internally.
+    are stored in the Dataverse contact record internally.
 
 -   **External authentication** - Credentials and password management are
     handled by other identity providers. Supported authentication providers
@@ -47,7 +47,7 @@ information on how to share the portal app with internal and external users.
 [![Portals security constructs](../media/share-portal.png)](../media/share-portal.png#lightbox)
 
 **Web roles** allow an administrator to control user access to portal content
-and Common Data Service records.
+and Dataverse records.
 
 ![Portals security constructs](../media/portal-security-hierarchy.png)
 
@@ -60,7 +60,7 @@ A web role can be associated with the following records:
     what actions can be taken.
 
 -   **Entity permissions** - Define what access a web role has to individual
-    Common Data Service entities.
+    Dataverse entities.
 
 A portal contact might be assigned to one or more web roles at a time. Access
 rules and permissions of individual roles are combined to determine the

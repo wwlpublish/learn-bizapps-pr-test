@@ -3,7 +3,7 @@ uid: learn-bizapps.manage-solutions-power-automate.6-build-deploy-complex-soluti
 title: Build and deploy a complex solution with flows, apps, and entities
 metadata: 
   title: Build and deploy a complex solution with flows, apps, and entities
-  description: Learn how a complex solution, which contains Common Data Service entities, a Power Apps app, and Power Automate flows, can be built, exported, and imported.  
+  description: Learn how a complex solution, which contains Microsoft Dataverse entities, a Power Apps app, and Power Automate flows, can be built, exported, and imported.  
   ms.date: 9/30/2020 
   author: DaveBeasley 
   ms.author: dbeasley 

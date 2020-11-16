@@ -43,18 +43,18 @@ quiz:
       explanation: The main benefit that branching logic delivers to business process flows is that a single business process can be used for many different conditions.
   - content: Which one of the following statements is true? 
     choices: 
-    - content: Power Automate instant flows cannot be used with the same Common Data Service entity as a business process flow.
+    - content: Power Automate instant flows cannot be used with the same Microsoft Dataverse entity as a business process flow.
       isCorrect: false
-      explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Common Data Service entity(s).
-    - content: Dynamics 365 workflows cannot be used with the same Common Data Service entity as a business process flow.
+      explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Dataverse entity(s).
+    - content: Dynamics 365 workflows cannot be used with the same Dataverse entity as a business process flow.
       isCorrect: false 
-      explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Common Data Service entity(s).
-    - content: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Common Data Service entity(s).
+      explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Dataverse entity(s).
+    - content: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Dataverse entity(s).
       isCorrect: true 
-      explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Common Data Service entity(s).
-    - content: Power Automate instant flows, Dynamics 365 workflows, and business process flows can only be used with the same Common Data Service entity(s).
+      explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Dataverse entity(s).
+    - content: Power Automate instant flows, Dynamics 365 workflows, and business process flows can only be used with the same Dataverse entity(s).
       isCorrect: false 
-      explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Common Data Service entity(s).
+      explanation: Power Automate instant flows, Dynamics 365 workflows, and business process flows can all be used with the same Dataverse entity(s).
   - content: Which of the following statements about business process flows is true?
     choices: 
     - content: Business process flows can only be used within a model-driven app.

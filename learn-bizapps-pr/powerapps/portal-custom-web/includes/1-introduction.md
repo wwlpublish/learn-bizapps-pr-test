@@ -1,6 +1,6 @@
 Liquid is an [open-source template language](http://dotliquidmarkup.org/?azure-portal=true) that can be used to add dynamic content to pages. Liquid code can be used anywhere in the portals where HTML or text content can be entered, including content in webpages, content snippets, and web templates. 
 
-Liquid has various language constructs that can help you build content, apply transformations, and control the implementation flow. Ability to access Common Data Service data by using FetchXML query language or directly retrieving entities by identifiers makes Liquid the primary choice for building data-driven webpages. It also includes a number of special tags (or processing instructions) that specifically target the building of reusable web templates. The following sections explain how templates are used in Microsoft Power Apps portals.
+Liquid has various language constructs that can help you build content, apply transformations, and control the implementation flow. Ability to access Microsoft Dataverse data by using FetchXML query language or directly retrieving entities by identifiers makes Liquid the primary choice for building data-driven webpages. It also includes a number of special tags (or processing instructions) that specifically target the building of reusable web templates. The following sections explain how templates are used in Microsoft Power Apps portals.
 
 ## Templates
 
@@ -13,7 +13,7 @@ The two types of templates that you can use in Power Apps portals are:
 
 **Rewrite** templates offer limited customizations. Liquid template language can be used as part of the content or inside content snippets, but the page layout and behavior are predefined.
 
-Contrarily, the **Web Template** option is entirely template-based and uses Liquid to define how the content is rendered. Templates are flexible. A template can include other templates for parts of the content. A template can also be based on another template, extending the base functionality. The real power of web templates comes from the ability to contain Liquid code that adds processing capabilities to the static content, including access to Common Data Service data.
+Contrarily, the **Web Template** option is entirely template-based and uses Liquid to define how the content is rendered. Templates are flexible. A template can include other templates for parts of the content. A template can also be based on another template, extending the base functionality. The real power of web templates comes from the ability to contain Liquid code that adds processing capabilities to the static content, including access to Dataverse data.
 
 > [!TIP]
 > Web templates can also contain HTML, Cascading Style Sheets (CSS), and JavaScript.
@@ -45,7 +45,7 @@ You can use web templates to define an entire webpage, a part of a page, or comm
 </div>
 ```
 
-This simple template includes other templates to render common bits and pieces, it defines content block that can be rendered differently by a derived template, and it renders Common Data Service data by using related **Entity List** and **Entity Form** records.
+This simple template includes other templates to render common bits and pieces, it defines content block that can be rendered differently by a derived template, and it renders Dataverse data by using related **Entity List** and **Entity Form** records.
 
 ## Web templates as website headers and footers
 

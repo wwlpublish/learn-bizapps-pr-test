@@ -41,7 +41,7 @@ quiz:
     - content: Unlimited
       isCorrect: true
       explanation: The same entity can be used by an unlimited number of apps.
-  - content: When deploying role-based security in the Common Data Service, which of the following products allows you to control access to entities for different users?
+  - content: When deploying role-based security in the Microsoft Dataverse, which of the following products allows you to control access to entities for different users?
     choices: 
     - content: SQL Server
       isCorrect: false

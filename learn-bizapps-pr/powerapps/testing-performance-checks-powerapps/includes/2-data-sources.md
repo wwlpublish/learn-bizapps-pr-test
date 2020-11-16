@@ -10,7 +10,7 @@ data throughout the app. This reduces the repetitive calls to the data
 source across the network. The following is an example of this process.
 
 In your app, you have several screens where you provide a drop-down menu for
-selecting the department. The list of departments is kept in Common Data Service in an entity named **DepartmentList**. On each instance of the
+selecting the department. The list of departments is kept in Microsoft Dataverse in an entity named **DepartmentList**. On each instance of the
 menu, you use the following formula.
 ```
 Filter(DepartmentList, Status = "Active")
