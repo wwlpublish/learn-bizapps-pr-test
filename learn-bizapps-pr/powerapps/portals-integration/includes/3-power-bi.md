@@ -27,7 +27,7 @@ The `powerbi` Liquid tag accepts the following parameters:
    {% powerbi path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}
    ```
 
-- **authentication_type** - Type of authentication that is required for the Power BI report or dashboard. Valid values for this parameter for embedded Power BI visualizations are Anonymous and Azure AD. The default value is Anonymous. While adding the Power BI report or dashboard, ensure that it is shared with Common Data Service Azure AD authenticated users.
+- **authentication_type** - Type of authentication that is required for the Power BI report or dashboard. Valid values for this parameter for embedded Power BI visualizations are Anonymous and Azure AD. The default value is Anonymous. While adding the Power BI report or dashboard, ensure that it is shared with Microsoft Dataverse Azure AD authenticated users.
 
    ```twig
    % powerbi authentication_type:"AAD" path:"https://app.powerbi.com/groups/00000000-0000-0000-0000-000000000000/reports/00000000-0000-0000-0000-000000000001/ReportSection01" %}

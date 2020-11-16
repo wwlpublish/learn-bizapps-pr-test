@@ -43,7 +43,7 @@ To complete the following steps, open the app that you want to share in Edit mod
 There is some basic information about permissions and licensing of which you should be aware:
 - Users and contributors need permissions to any data connections and gateways that a shared app uses. 
 - Some permissions come implicitly with the app, but you must explicitly grant others. 
-- If you create an app based on Common Data Service, you must also ensure that the users with whom you share the app have the appropriate permissions for the entity or entities on which the app relies. Specifically, those users must belong to a security role that can perform tasks such as creating, reading, writing, and deleting relevant records. 
+- If you create an app based on Microsoft Dataverse, you must also ensure that the users with whom you share the app have the appropriate permissions for the entity or entities on which the app relies. Specifically, those users must belong to a security role that can perform tasks such as creating, reading, writing, and deleting relevant records. 
 - In many cases, you'll want to create one or more custom security roles with the exact permissions that users need to run the app. You can then assign a role to each user as appropriate.
 
 Sharing an app is simple, and it's a great way to make an app that you find useful available to people across your organization.

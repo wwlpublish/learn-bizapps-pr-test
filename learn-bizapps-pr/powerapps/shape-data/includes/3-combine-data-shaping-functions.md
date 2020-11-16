@@ -26,6 +26,10 @@ small and then expand. The following is the typical order of operations you
 should follow when building a formula. Always confirm that you see the expected 
 data each step along the way.
 
+> [!NOTE]
+> The following steps is an example of combining formulas and not intended to work unless a datasource is provided.
+> The exercise unit of this module provides step-by-step details.
+
 1.  Add a **Gallery** control to your canvas.
 
 2.  Add YourDataSource to the **items** property and configure the

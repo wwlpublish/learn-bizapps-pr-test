@@ -11,7 +11,7 @@ metadata:
 title: Automating email handling in WinAutomation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Using email services is common in business procedures and critical for most organizations. WinAutomation offers various actions that enable email handling for webmail services and Microsoft Outlook and Exchange servers.
+  Using email services is common in business procedures and critical for most organizations. WinAutomation offers various actions that enable email handling for webmail services, Microsoft Outlook, and Exchange servers.
 abstract: |  
     In this module, you will: 
     - Become familiar with the Email, Outlook, and Exchange actions in WinAutomation.

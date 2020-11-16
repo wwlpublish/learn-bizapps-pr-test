@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.powerapps-common-data-service.3-create-a-cds-entity
-title: Create a Common Data Service entity  
+title: Create a Microsoft Dataverse entity  
 metadata: 
-  title: Create a Common Data Service entity
-  description: Create a Common Data Service entity
+  title: Create a Dataverse entity
+  description: Create a Dataverse entity
   ms.date: 01/17/2020
   author: KevSch
   ms.author: kschimke

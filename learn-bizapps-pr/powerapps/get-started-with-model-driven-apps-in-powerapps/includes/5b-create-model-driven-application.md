@@ -1,7 +1,7 @@
 ## Scenario
 
 In the [exercise](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise/?azure-portal=true) in the previous module of this learning path, you created 
-the Prospects entity in Common Data Service and imported the existing leads, 
+the Prospects entity in Microsoft Dataverse and imported the existing leads, 
 now in this exercise you will use this data to create a model-driven app. 
 This app will allow the sales team to enter and edit leads on the go and 
 keep the managers up to date on the current leads and forecasted revenue.

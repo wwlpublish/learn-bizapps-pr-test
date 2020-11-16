@@ -4,7 +4,7 @@ A number of portal templates are available that can be provisioned. These templa
 
 ![Portal Templates](../media/2-1-portal-templates.png)
 
-If you are building a custom business application by using Common Data Service without Dynamics 365 apps enabled, your only choice is the **Portal from blank** option.
+If you are building a custom business application by using Microsoft Dataverse without Dynamics 365 apps enabled, your only choice is the **Portal from blank** option.
 
 If you are using Microsoft Dynamics 365 apps such as Dynamics 365 Sales or Dynamics 365 Service, you have a choice of five additional portal templates:
 
@@ -25,8 +25,8 @@ If you are using Microsoft Dynamics 365 apps such as Dynamics 365 Sales or Dynam
 | Customer self-service | Partner, Customer | This option provides the ability for portal users to search knowledge articles, submit cases, and participate in discussion forums to resolve issues. |
 | Employee self-service | Employee          | This portal allows employees to access a centralized knowledge article and to also submit cases. |
 | Partner               | Partner           | Choose this option to build a portal where external partners can manage and collaborate on accounts and opportunities. Add-ons are available for Dynamics 365 Field Service or Dynamics 365 Project Service. |
-| Portal from blank     | Other             | The **Portal from blank** option is meant for unique line-of-business scenarios where the other templates are not a good fit. The portal can be configured to address a variety of requirements. If **Portal from blank** is provisioned within a Common Data Service environment with Dynamics 365 apps enabled, specific features from the other portals can be incorporated into the portal later. |
-| Customer portal       | Enterprise B2B    | The Dynamics 365 Supply Chain Management Customer portal is a template that provides portal access to Dynamics 365 Supply Chain Management data by using dual-write Common Data Service entities. |
+| Portal from blank     | Other             | The **Portal from blank** option is meant for unique line-of-business scenarios where the other templates are not a good fit. The portal can be configured to address a variety of requirements. If **Portal from blank** is provisioned within a Dataverse environment with Dynamics 365 apps enabled, specific features from the other portals can be incorporated into the portal later. |
+| Customer portal       | Enterprise B2B    | The Dynamics 365 Supply Chain Management Customer portal is a template that provides portal access to Dynamics 365 Supply Chain Management data by using dual-write Dataverse entities. |
 
 > [!IMPORTANT]
 > Review current licensing guides to determine the licenses, subscriptions, and capacity that is required for internal and external authenticated users and anonymous page views. For more information, see the [Dynamics 365 Licensing Guide](https://go.microsoft.com/fwlink/p/?LinkId=866544) or the 

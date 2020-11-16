@@ -6,7 +6,7 @@ For more details, be sure to check out the documentation that's specific to each
 
 ## Get sample apps
 
-Before you can experiment with or edit the model-driven sample apps, you must set them up in a Common Data Service database. First, create a trial environment and a database, and then select the **Include sample apps and data** check box.
+Before you can experiment with or edit the model-driven sample apps, you must set them up in a Microsoft Dataverse database. First, create a trial environment and a database, and then select the **Include sample apps and data** check box.
 
 In Power Apps, select the environment you want, or go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true) to create a new one. Select **New**, provide a name, **Yes** to Create a database for this environment, and select **Save**.
 

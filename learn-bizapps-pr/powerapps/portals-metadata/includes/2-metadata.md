@@ -4,7 +4,7 @@ The following section explains the purpose of portal metadata records.
 
 ## Website
 
-The **Website** portal metadata section defines properties that control the behavior of the portals that are provisioned on the particular Common Data Service environment.
+The **Website** portal metadata section defines properties that control the behavior of the portals that are provisioned on the particular Microsoft Dataverse environment.
 
 > [!div class="mx-imgBorder"]
 > [![Website Metadata](../media/2-website-metadata-ssm.png)](../media/2-website-metadata-ssm.png#lightbox)
@@ -29,8 +29,8 @@ The **Content** section contains the entities that define what and how static an
 | Metadata | Purpose |
 | --- | --- |
 | Content Snippets | Content snippets are typically short, reusable content items that can appear on various parts of a portal. An example of a content snippet would be the footer content that would be displayed on most portal webpages. A content snippet can contain text, Liquid code, HTML, and CSS. Typically, a content snippet record would be replicated for each provisioned portal language. |
-| Entity Forms | Entity forms use model-driven form definitions to display forms in the portal and enable access to Common Data Service records for portal visitors. An entity form can be configured to display read-only, edit, or create forms. |
-| Entity Lists | Entity lists use model-driven view definitions to display lists of Common Data Service records. An entity list can be configured to allow navigation to a selected record or to run workflows. A maker can also enable advanced search and filter capabilities. |
+| Entity Forms | Entity forms use model-driven form definitions to display forms in the portal and enable access to Dataverse records for portal visitors. An entity form can be configured to display read-only, edit, or create forms. |
+| Entity Lists | Entity lists use model-driven view definitions to display lists of Dataverse records. An entity list can be configured to allow navigation to a selected record or to run workflows. A maker can also enable advanced search and filter capabilities. |
 | Shortcuts | A shortcut record allows a portal maker to make a direct link on a webpage to another webpage, web file, or even an external URL, regardless of the hierarchy or site map of the portal. By default, the shortcut link will appear as a link on the parent webpage along with the list of other child pages. |
 | Web Files | A web file record provides a metadata record where a file can be attached as a note record. The web file record will define the name and partial URL. Web files are used for the images, CSS, and JavaScript files and to store downloadable content. |
 | Web Forms | Web forms are components similar to entity forms, but instead of a single record/form, web forms create a sequence of steps that can be used to build a portal-based business process flow. Web forms can currently only be configured by using the Portal Management app. |
@@ -41,19 +41,19 @@ The **Content** section contains the entities that define what and how static an
 
 ## Security
 
-The security capabilities of Power Apps portals are similar to Common Data Service role-based security. The main concept is that a portal user is represented by a contact record and can authenticate and sign in into a portal. The portal user can be assigned to one or more web roles, which can be used to control access to static portal content and Common Data Service records. Currently, this feature can only be managed within the Portal Management app.
+The security capabilities of Power Apps portals are similar to Dataverse role-based security. The main concept is that a portal user is represented by a contact record and can authenticate and sign in into a portal. The portal user can be assigned to one or more web roles, which can be used to control access to static portal content and Dataverse records. Currently, this feature can only be managed within the Portal Management app.
 
 > [!div class="mx-imgBorder"]
 > [![Security Metadata](../media/2-security-metadata-ssm.png)](../media/2-security-metadata-ssm.png#lightbox)
 
 | Metadata | Purpose |
 | --- | --- |
-| Contacts | The contact entity is the actual Common Data Service or Dynamics 365 contact entity. All authenticated portal visitors, including internal staff members, must have a corresponding contact record regardless of the authentication method. |
-| Entity Permissions | Entity permissions define the scope and the privileges for specific Common Data Service records. Each entity permission record can be associated with a web role, granting configured data access to portal visitors. |
-| Invitations | An invitation for an existing Common Data Service contact to join the portal can be created and sent to the contact by using Microsoft Power Automate. After it has been accepted, the invitation will determine the contact's access and permissions for the portal. |
+| Contacts | The contact entity is the actual Dataverse or Dynamics 365 contact entity. All authenticated portal visitors, including internal staff members, must have a corresponding contact record regardless of the authentication method. |
+| Entity Permissions | Entity permissions define the scope and the privileges for specific Dataverse records. Each entity permission record can be associated with a web role, granting configured data access to portal visitors. |
+| Invitations | An invitation for an existing Dataverse contact to join the portal can be created and sent to the contact by using Microsoft Power Automate. After it has been accepted, the invitation will determine the contact's access and permissions for the portal. |
 | Publishing State Transition Rules | External users can be given the ability to create and update portal content; however, further rules might be in place to allow for an approval process before the content is viewable by everyone. The Publishing State Transition Rule records define who can publish or unpublish content on the portal.|
 | Web Page Access Control Rules | Web Page Access Control Rules link a specific webpage to a web role, which is linked to portal users. This feature controls what webpages that a portal user can access. |
-| Web Roles | One or many web role records can be assigned to a portal user (contact). The web role can be linked to entity permissions and Web Page Access Control Rules to control access to content and Common Data Service records.|
+| Web Roles | One or many web role records can be assigned to a portal user (contact). The web role can be linked to entity permissions and Web Page Access Control Rules to control access to content and Dataverse records.|
 | Website Access Permissions | Website access permissions define which high-level editing permissions that specific web roles have on the portal. |
 
 Some of the specific starter portal templates might install additional portal metadata settings for specific features of the portal app, for example, knowledge articles for the Customer self-service portal.

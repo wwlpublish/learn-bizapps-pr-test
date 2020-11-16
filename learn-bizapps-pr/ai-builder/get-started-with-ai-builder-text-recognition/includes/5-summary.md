@@ -6,7 +6,7 @@ Additionally, you learned how to:
 -   Identify how to use AI Builder Text recognition within Power Platform.
 -   Evaluate which business problems can be solved by AI Builder Text recognition.
 -   Develop a simple flow with Power Automate that uses AI Builder Text recognition.
--   Practice processing files from a OneDrive folder and saving recognized text to Common Data Service.
+-   Practice processing files from a OneDrive folder and saving recognized text to Microsoft Dataverse.
 -   Develop a Power Apps application that will use AI Builder Text recognition.
 -   Practice retrieving recognized text.
 

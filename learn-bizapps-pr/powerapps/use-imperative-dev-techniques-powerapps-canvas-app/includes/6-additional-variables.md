@@ -55,7 +55,7 @@ This will store the entire user record in the variable. The user record has 3 co
 varUser.Email
 ```
 
-This example stores the record from an action-based data source. You could also use the **LookUp** function as a way to retrieve and store a record from a tabular data source, like Common Data Service, in a variable.
+This example stores the record from an action-based data source. You could also use the **LookUp** function as a way to retrieve and store a record from a tabular data source, like Microsoft Dataverse, in a variable.
 
 Variables don't auto update
 ---------------------------

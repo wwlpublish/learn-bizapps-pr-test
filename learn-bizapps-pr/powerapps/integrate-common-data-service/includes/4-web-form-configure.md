@@ -5,7 +5,7 @@ Web forms are configured in the Portal Management app, not through Power Apps po
 
 ### Web form properties
 
-Unlike an entity list or entity form, a web form is not linked to any particular Common Data Service entity. Instead, a web form organizes web form steps and persists a history of a user's steps as web form session records. Options on the web form control top-level preferences for the multi-step process:
+Unlike an entity list or entity form, a web form is not linked to any particular Microsoft Dataverse entity. Instead, a web form organizes web form steps and persists a history of a user's steps as web form session records. Options on the web form control top-level preferences for the multi-step process:
 
 - **Start step** - Controls the initialization of the form within the portal.
 
@@ -24,7 +24,7 @@ Web form steps provide the flow logic of the form’s user experience, such as s
 
 Each web form that is presented on the portal has one or more steps. These steps share some common properties:
 
-- **Target Entity** - The Common Data Service entity that is selected for the step defines available fields and how step data is related to the previous and next steps in the sequence.
+- **Target Entity** - The Dataverse entity that is selected for the step defines available fields and how step data is related to the previous and next steps in the sequence.
 
 - **Next Step** - Each step contains a pointer (a lookup) to the next step, with the exception of terminal steps. Terminal steps do not have a next step and are the last step of the web form. With conditional branching, you can have multiple terminal steps.
 

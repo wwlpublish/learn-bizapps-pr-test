@@ -2,7 +2,7 @@ Using email services to send standardized messages is common in most business pr
 
 Email automation enables organizations to efficiently send personalized emails to customers or employees. Uniformity in business communication is critical and ensures that all employees follow the same communication standards. 
 
-Accordingly, WinAutomation offers various actions that enable email handling for webmail services and Microsoft Outlook and Exchange servers.
+Accordingly, WinAutomation offers various actions that enable email handling for webmail services, Microsoft Outlook, and Exchange servers.
 
 This module examines the functionality of the **Email**, **Outlook**, and **Exchange** actions by developing processes where email automation is applicable.
 

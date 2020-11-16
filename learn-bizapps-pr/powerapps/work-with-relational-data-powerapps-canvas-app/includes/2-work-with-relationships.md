@@ -135,5 +135,5 @@ A better option to consider for this scenario is using a collection or
 other means to query and store all of the customer records and then
 perform your lookup against the collection. For more information about data performance, see the blog post on [Performance considerations with Power Apps](https://powerapps.microsoft.com/blog/performance-considerations-with-powerapps/).
 
-In the next unit, you will learn how Common Data Services removes all of the
+In the next unit, you will learn how Microsoft Dataverse removes all of the
 issues associated with related data by automatically drilling down for you.
