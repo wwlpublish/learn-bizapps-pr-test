@@ -1,4 +1,4 @@
-Entity permissions define the access and scope that a portal user has to a particular Common Data Service or Dynamics 365 entity on the portal. Common Data Service records can be accessed on a Power Apps portal by using an entity form, entity list, or web form, or it can be shown by using *Liquid* tags in webpage content or web templates.
+Entity permissions define the access and scope that a portal user has to a particular Microsoft Dataverse or Dynamics 365 entity on the portal. Dataverse records can be accessed on a Power Apps portal by using an entity form, entity list, or web form, or it can be shown by using *Liquid* tags in webpage content or web templates.
 
 > [!div class="mx-imgBorder"]
 > [![Entity Permission](../media/entity-permission.png)](../media/entity-permission.png#lightbox)
@@ -34,7 +34,7 @@ The following sections closely examine how these attributes are used to define s
 
 ## Global scope
 
-If an **Entity Permission** record that has Global scope is associated with a web role, any contact in that role will have specified access to all records of the defined entity in Common Data Service.
+If an **Entity Permission** record that has Global scope is associated with a web role, any contact in that role will have specified access to all records of the defined entity in Dataverse.
 
 For example, if a lead entity is granted the Read privilege with Global scope, all users in assigned web roles will be able to see all leads. This permission will be automatically respected by any entity lists, essentially showing all records, according to the model-driven views, that have been defined for that list.
 
@@ -45,7 +45,7 @@ Global scope is most frequently used with Read privilege to provide access to th
 
 ## Contact scope
 
-With Contact scope, a signed-in user in the role for which the entity permission record is defined will have the rights granted by that permission only for records that are related to that user's contact record through a selected Common Data Service relationship.
+With Contact scope, a signed-in user in the role for which the entity permission record is defined will have the rights granted by that permission only for records that are related to that user's contact record through a selected Dataverse relationship.
 
 On an entity list, a filter will be added to whatever model-driven views are shown by that list, which only retrieves records that are directly linked to the current user. Depending on the scenario, this relationship can be thought of as ownership or management rights.
 
@@ -56,7 +56,7 @@ For example, a set of privileges can be granted to a web role that allow Contact
 
 ## Account scope
 
-With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Common Data Service relationship.
+With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Dataverse relationship.
 
 > [!div class="mx-imgBorder"]
 > [![Account scope](../media/account-scope.png)](../media/account-scope.png#lightbox)

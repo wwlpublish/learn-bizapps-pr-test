@@ -6,9 +6,9 @@ improve visibility, you have decided you want to create a new app to track sales
 leads and automatically calculate the forecasted revenue. You want to use Common 
 Data Service to store the list of potential customers. 
 
-## Use Common Data Service to store data
+## Use Microsoft Dataverse to store data
 
-In this exercise, you will use Common Data Service to store the list of potential 
+In this exercise, you will use Dataverse to store the list of potential 
 customers for your app. 
 
 ### Creating a Custom Entity

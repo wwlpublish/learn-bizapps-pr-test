@@ -17,7 +17,7 @@ Reasons to create environments beyond the default one include:
 
 - **Separate app development by department** - In a large organization, each department can work in a different environment. That way, department employees see only apps and company data that are appropriate to their needs.
 - **Support application lifecycle management (ALM)** - Separate environments let you separate apps that are in development stages from those that have already been shared. Alternatively, you might want to use a trial environment so that you can receive feedback from employees before publishing the final app. For some organizations, showing apps before they're completely developed and published can present security concerns.
-- **Manage data access** - Each environment can have its own source of business data, called a database for Common Data Service. 
+- **Manage data access** - Each environment can have its own source of business data, called a database for Microsoft Dataverse. 
 Other data connections are specific to an environment and can't be shared across environments.
 
 > [!NOTE]
@@ -37,7 +37,7 @@ Only an admin can create environments. If you aren't an admin, this information 
 6. Select the currency and language for the data that is stored in the database. You cannot change the currency or language after the database is created. 
 7. Select **Save**.
  
-    It might take several minutes to create the database on Common Data Service. After the database is created, the new environment appears in the list of environments on the **Environments** page.
+    It might take several minutes to create the database on Dataverse. After the database is created, the new environment appears in the list of environments on the **Environments** page.
 
 You now have a new environment to work in. If you go back to <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a>, you will see it in the environments list.
 
@@ -46,7 +46,7 @@ You now have a new environment to work in. If you go back to <a href="https://ma
 By default, you can access an environment in one of two ways:
 
 - **System admin** - A system admin has full permissions to create and manage environments.
-- **Environment maker** - An environment maker can view all apps in that environment, create apps, and work with Common Data Service (other permissions apply).
+- **Environment maker** - An environment maker can view all apps in that environment, create apps, and work with Dataverse (other permissions apply).
 
 Environment admins can create other security roles as needed. They can also add and assign users to these roles.
 

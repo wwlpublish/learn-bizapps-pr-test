@@ -11,7 +11,7 @@ Out of the box, Power Apps portals includes the [jQuery](https://jquery.com/?azu
 
 ### Controls and fields
 
-A default **Contact Us** form that creates a lead in Common Data Service includes a mandatory **Topic** field. This field could be confusing to site visitors. You can't use CSS to hide the control because it leaves the red asterisk that indicates that the field is mandatory. JavaScript helps make your job of hiding the field relatively simple. To set this field to a predefined value and then hide it from view, go to portals Studio and add the following script to the source code of the page that contains the **Contact Us** form:
+A default **Contact Us** form that creates a lead in Microsoft Dataverse includes a mandatory **Topic** field. This field could be confusing to site visitors. You can't use CSS to hide the control because it leaves the red asterisk that indicates that the field is mandatory. JavaScript helps make your job of hiding the field relatively simple. To set this field to a predefined value and then hide it from view, go to portals Studio and add the following script to the source code of the page that contains the **Contact Us** form:
 
 ```html
 <script>

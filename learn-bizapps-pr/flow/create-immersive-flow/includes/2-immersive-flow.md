@@ -1,10 +1,10 @@
 The following scenario and exercise will help you practice building an immersive business process flow 
-with Power Automate and Common Data Service. Remember, all data
+with Power Automate and Microsoft Dataverse. Remember, all data
 that is associated with any business process flow is always stored in one or
-more entities within Common Data Service and business process flows.
+more entities within Dataverse and business process flows.
 
 > [!NOTE]
-> To complete this exercise, you will need access to an account that has permission to create entities and fields in Common Data Service and you should have a Power Apps or Dynamics 365 license. Ask your Power Platform administrator for proper permissions or sign in and create a personal Power Apps and Power Automate development environment by using the Power Apps Community Plan (which is free). Sign up by accessing the [Power Apps Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true) page.
+> To complete this exercise, you will need access to an account that has permission to create entities and fields in Dataverse and you should have a Power Apps or Dynamics 365 license. Ask your Power Platform administrator for proper permissions or sign in and create a personal Power Apps and Power Automate development environment by using the Power Apps Community Plan (which is free). Sign up by accessing the [Power Apps Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true) page.
 
 ### Scenario
 
@@ -55,7 +55,7 @@ in the following screenshot.
 
    ![Naming Stage One in the Business process flow Editor](../media/8-naming-stage-one-business-process-flow-editor.png)
 
-   Next, you will add fields to the new **CollectCustomerInfo** entity in Common Data Service so you can capture customer information.
+   Next, you will add fields to the new **CollectCustomerInfo** entity in Dataverse so you can capture customer information.
 
 1. Select the **Collect Customer Info** stage and then select the **Click to add fields and forms** hyperlink, as shown in the following figure.
 
@@ -142,7 +142,7 @@ appears correct, select the **Update** button in the ribbon.
 
 	> [!NOTE]
 	> When the data process flow is used, data will be saved into the
-	fields that you created in the customercheckin entity in Common Data Service.
+	fields that you created in the customercheckin entity in Dataverse.
 
 	Now, you will collect information about the automobile being serviced, so you'll add a new stage and add fields about the automobile to the customercheckin entity.
 

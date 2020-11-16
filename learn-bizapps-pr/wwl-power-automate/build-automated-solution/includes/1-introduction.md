@@ -5,7 +5,7 @@ In this module, you will:
 - Create a flow from a template 
 - Create a recurring flow on a schedule
 - Create a flow triggered by a button
-- Create a flow triggered by the Common Data Service
+- Create a flow triggered by the Microsoft Dataverse
 - Automate an approval request and discover the approval center
 
  

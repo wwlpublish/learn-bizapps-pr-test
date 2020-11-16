@@ -17,18 +17,18 @@ For data that's stored on-premises instead of in the cloud, you can use a gatewa
 An advantage of building your business apps in Power Apps is being able to connect to many data sources in a single app. With the connectors in Power Apps, you can connect to where your data lives. To learn more about data sources in Power Apps, refer to the Working With Data learning path. 
 
 
-## Common Data Service
-An important data source option to explore further is the Common Data Service. Common Data Service lets you store and manage data that's used by business applications. Data within Common Data Service is stored within a set of entities. An entity is a set of records that are used to store data, similar to how a table stores data within a database. Common Data Service includes a base set of standard entities that cover typical scenarios, but you can also create custom entities that are specific to your organization and then populate them with data by using Power Query. App makers can then use Power Apps to build rich applications by using this data.
+## Microsoft Dataverse
+An important data source option to explore further is the Dataverse. Dataverse lets you store and manage data that's used by business applications. Data within Dataverse is stored within a set of entities. An entity is a set of records that are used to store data, similar to how a table stores data within a database. Dataverse includes a base set of standard entities that cover typical scenarios, but you can also create custom entities that are specific to your organization and then populate them with data by using Power Query. App makers can then use Power Apps to build rich applications by using this data.
 
 ![Platform Overview](../media/platform.png)
 
-For information on purchasing a plan to use Common Data Service, refer to the [License](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus) and [Pricing](https://powerapps.microsoft.com/pricing/) information pages.
+For information on purchasing a plan to use Dataverse, refer to the [License](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus) and [Pricing](https://powerapps.microsoft.com/pricing/) information pages.
 
-## Reasons to use Common Data Service
-Standard and custom entities within Common Data Service provide a cloud-based storage option for your data. Entities let you create a business-focused definition of your organization's data for use within apps. If you're unsure if entities are your best option, consider the following benefits:
+## Reasons to use Dataverse
+Standard and custom entities within Dataverse provide a cloud-based storage option for your data. Entities let you create a business-focused definition of your organization's data for use within apps. If you're unsure if entities are your best option, consider the following benefits:
 - **Simple to manage** - Both the metadata and data are stored in the cloud. You don't need to worry about the details of how they're stored.
 - **Helps to secure data** - Data is stored so that users can see it only if you grant them access. Role-based security allows you to control access to entities for different users within your organization.
-- **Access your Dynamics 365 Data** - Data from your Dynamics 365 applications is also stored within the Common Data Service, which allows you to quickly build apps that use your Dynamics 365 data and extend your apps by using Power Apps.
+- **Access your Dynamics 365 Data** - Data from your Dynamics 365 applications is also stored within the Dataverse, which allows you to quickly build apps that use your Dynamics 365 data and extend your apps by using Power Apps.
 - **Rich metadata** - Data types and relationships are used directly within Power Apps.
 - **Logic and validation** - Define calculated fields, business rules, workflows, and business process flows to ensure data quality and drive business processes.
 - **Productivity tools** - Entities are available within the add-ins for Microsoft Excel to increase productivity and ensure data accessibility.

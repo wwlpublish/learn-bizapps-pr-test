@@ -1,18 +1,18 @@
 ### YamlMime:Module
 uid: learn-bizapps.wwl.introduction-common-data-service
 metadata:
-  title: Introduction to Common Data Service
-  description: "Introduction to Common Data Service"
+  title: Introduction to Microsoft Dataverse
+  description: "Introduction to Dataverse"
   ms.date: 09/24/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
-title: Introduction to Common Data Service
-summary: Learn about the basics of Common Data Service and explore ways you can connect and customize data connections to Power Platform applications.
+title: Introduction to Dataverse
+summary: Learn about the basics of Dataverse and explore ways you can connect and customize data connections to Power Platform applications.
 abstract: |
   In this module, you will:
-  - Discover the Common Data Service
+  - Discover the Dataverse
   - Learn about the Common Data Model
   - Identify entities, fields, and relationships
   - Learn about environments

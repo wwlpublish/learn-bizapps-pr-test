@@ -14,7 +14,7 @@ durationInMinutes: 6
 quiz: 
   title: Work with relational data in a Power Apps canvas app knowledge check
   questions: 
-  - content: Commonly used functions in Power Apps to connect related data sources not in Common Data Service for apps are?
+  - content: Commonly used functions in Power Apps to connect related data sources not in Microsoft Dataverse for apps are?
     choices: 
     - content: Parent and Child
       isCorrect: false
@@ -42,12 +42,12 @@ quiz:
     - content: LookUp only works after configuring the Filter settings.
       isCorrect: false 
       explanation: The LookUp function creates a new connection to the data source.  
-  - content: Common Data Service has built-in relationship functionality, to take advantage of it you need to do which of the following?
+  - content: Dataverse has built-in relationship functionality, to take advantage of it you need to do which of the following?
     choices: 
-    - content: Nothing, Common Data Service automatically determines your data relationships.
+    - content: Nothing, Dataverse automatically determines your data relationships.
       isCorrect: false
       explanation: You should create the relationship for the entity in Power Apps Studio. 
-    - content: Common Data Service isn't used for relational data.
+    - content: Dataverse isn't used for relational data.
       isCorrect: false 
       explanation: You should create the relationship for the entity in Power Apps Studio. 
     - content: Create the relationship for the entity in the Data section of Power Apps Studio.

@@ -13,20 +13,20 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which authentication method allows portal users to sign in with a username and password that is stored in Common Data Service?
+  - content: Which authentication method allows portal users to sign in with a username and password that is stored in Microsoft Dataverse?
     choices: 
     - content: Windows Authentication
       isCorrect: false 
-      explanation: Portal users can authenticate with local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes that are stored in the Common Data Service contact record.
+      explanation: Portal users can authenticate with local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes that are stored in the Dataverse contact record.
     - content: Local Authentication
       isCorrect: true 
-      explanation: Portal users can authenticate with local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes that are stored in the Common Data Service contact record.
+      explanation: Portal users can authenticate with local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes that are stored in the Dataverse contact record.
     - content: Form Authentication
       isCorrect: false 
-      explanation: Portal users can authenticate with local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes that are stored in the Common Data Service contact record.
+      explanation: Portal users can authenticate with local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes that are stored in the Dataverse contact record.
     - content: External Authentication
       isCorrect: false 
-      explanation: Portal users can authenticate with local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes that are stored in the Common Data Service contact record.
+      explanation: Portal users can authenticate with local authentication and external authentication. Local authentication is a common forms-based authentication with usernames and password hashes that are stored in the Dataverse contact record.
   - content: A portal user has not confirmed their email. What will they not be able to do?
     choices: 
     - content: Sign in to the portal

@@ -55,7 +55,7 @@ quiz:
     - content: You can only add forms and lists by using the Portal Management app
       isCorrect: false 
       explanation: The Properties pane will configure the properties of a component but not add them. You could add Liquid tags to a page template, but that would be for all pages using that template. You can add forms and lists through the Add components feature from the tool belt in portals Studio. Forms and lists can be added in the Portal Management app, but it is not the only way.
-  - content: You want portal visitors to be able to locate specific records in a list view based on an option value in the Common Data Service record. What is the best way to accomplish this task?
+  - content: You want portal visitors to be able to locate specific records in a list view based on an option value in the Microsoft Dataverse record. What is the best way to accomplish this task?
     choices: 
     - content: Enable the search property on the list component in portals Studio.
       isCorrect: false 

@@ -27,7 +27,7 @@ quiz:
     - content: JavaScript
       isCorrect: false 
       explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
-  - content: What do you need to do to apply entity permissions when accessing Common Data Service data in Liquid templates?
+  - content: What do you need to do to apply entity permissions when accessing Microsoft Dataverse data in Liquid templates?
     choices: 
     - content: Use the `secure` Liquid filter.
       isCorrect: false

@@ -29,7 +29,7 @@ The **Portal Details** area allows makers to alter some key attributes of a Powe
    > [!NOTE]
    > Some features, such as custom URLs, are not available for portals in **Trial** mode.
 
-- The portal binding can be changed so that the portal web application will read a different set of metadata records (website record) from Common Data Service.
+- The portal binding can be changed so that the portal web application will read a different set of metadata records (website record) from Microsoft Dataverse.
 
 - The portal state can be turned off (or on). Portal visitors will receive an error when visiting the portal URL.
 
@@ -49,7 +49,7 @@ The **Portal Actions** section of the portals admin center allows an administrat
 | ------ | ------- |
 | Add a custom domain name | This action will go through the process to configure a vanity URL for the Power Apps portal such as `https://www.contoso.com` instead of the subdomain `https://contoso.powerappsportals.com`. This option is only available for production portals. |
 | Restart | Restarting the portal will turn off the portal web application and restart the process, clearing the cache or potentially stuck processes. This action is the equivalent of restarting a web server and it might take a few minutes until the portal is available again. |
-| Update Dynamics 365 URL | In the event that the Common Data Service (or Dynamics 365) environment URL has been modified, this action will realign the portal web application to point to this updated URL. |
+| Update Dynamics 365 URL | In the event that the Dataverse (or Dynamics 365) environment URL has been modified, this action will realign the portal web application to point to this updated URL. |
 | Install Project Service Automation extension | This process will load the solutions and metadata to extend the Partner portal with Project service extensions. This action will only be successful on portals that have been provisioned by using the Partner template and if the connected Dynamics 365 instance has the Project Service Automation solution installed. |
 | Install Field Service extension | This process will load the solutions and metadata to extend the Partner portal with Field Service extensions. This action will only be successful on portals that have been provisioned by using the Partner portal template and if the connected Dynamics 365 instance has the Field Service solution installed. |
 | Get Public Key | A portal public key is required by the Live Assist by CafeX application to integrate with a Power Apps portal. |
@@ -58,7 +58,7 @@ The **Portal Actions** section of the portals admin center allows an administrat
 | Enable diagnostic logging | This action will allow an administrator to specify a Microsoft Azure Blob connection string and retention period where portal logs will be stored.  If issues occur with a portal, these logs can be examined to determine the root cause of a particular issue. |
 | Reset Portal | This action will delete all hosted resources that are associated with the portal. When the reset operation has finished, your portal URL will no longer be accessible and you can provision the portal again. The reset will not reinstall the portal solutions or delete the portal metadata. |
 | Change base URL | This action will allow an administrator to change the base URL (`something.powerappsportals.com`). The URL will need to be unique, and portal visitors will no longer be able to access the portal by using the old URL. If you have a custom URL, you will also need to update the CNAME records in your DNS settings. |
-| Enable maintenance mode | In instances where an administrator needs to change a portal or update Common Data Service, the portal can be put into maintenance mode where visitors will instead see a message that the portal is in maintenance mode or they will be redirected to a custom URL. |
+| Enable maintenance mode | In instances where an administrator needs to change a portal or update Dataverse, the portal can be put into maintenance mode where visitors will instead see a message that the portal is in maintenance mode or they will be redirected to a custom URL. |
 
 ## Set up custom domains and SSL
 
@@ -73,7 +73,7 @@ The **Manage SSL certificates** section will show a listing of all uploaded SSL 
 
 ## Set up SharePoint integration
 
-The **Set up SharePoint integration** section provides you with the ability to activate the SharePoint integration so that SharePoint document libraries that are integrated with Common Data Service and Dynamics 365 can be shown through an entity form.
+The **Set up SharePoint integration** section provides you with the ability to activate the SharePoint integration so that SharePoint document libraries that are integrated with Dataverse and Dynamics 365 can be shown through an entity form.
 
 ## Set up Power BI integration
 
@@ -90,7 +90,7 @@ The Portal Checker feature examines various configuration aspects of the portal 
 
 ## Manage portal authentication key
 
-Every two years, the portal authentication keys need to be updated so that the portal web application is able to continue communicating with the Common Data Service environment. This security aspect of the application is registered with Microsoft Azure Active Directory (Azure AD), such as the portal web application.
+Every two years, the portal authentication keys need to be updated so that the portal web application is able to continue communicating with the Dataverse environment. This security aspect of the application is registered with Microsoft Azure Active Directory (Azure AD), such as the portal web application.
 
 ## Set up IP address restriction
 

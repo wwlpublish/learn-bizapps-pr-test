@@ -15,7 +15,7 @@ two types of data sources are tabular and function-based.
 structured table format. Power Apps can directly read and display these tables
 through galleries, forms, and other controls. Additionally, if the data source
 supports it, Power Apps can create, edit, and delete data from these data
-sources. Examples include Common Data Service, SharePoint, and SQL Server.
+sources. Examples include Microsoft Dataverse, SharePoint, and SQL Server.
 
 **Function-based data** - A function-based data source is one that uses
 functions to interact with the data source. These functions can be used to

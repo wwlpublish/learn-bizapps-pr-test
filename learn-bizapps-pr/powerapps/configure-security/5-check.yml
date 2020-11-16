@@ -17,44 +17,44 @@ quiz:
     choices: 
     - content: Contacts
       isCorrect: false 
-      explanation: Web Page Access Rules define which pages are visible to a web role and what actions can be taken. Entity Permissions define what access that a web role has to individual Common Data Service entities.
+      explanation: Web Page Access Rules define which pages are visible to a web role and what actions can be taken. Entity Permissions define what access that a web role has to individual Microsoft Dataverse entities.
     - content: Data Access Permissions
       isCorrect: false 
-      explanation: Web Page Access Rules define which pages are visible to a web role and what actions can be taken. Entity Permissions define what access that a web role has to individual Common Data Service entities.
+      explanation: Web Page Access Rules define which pages are visible to a web role and what actions can be taken. Entity Permissions define what access that a web role has to individual Dataverse entities.
     - content: Entity Permissions
       isCorrect: true 
-      explanation: Web Page Access Rules define which pages are visible to a web role and what actions can be taken. Entity Permissions define what access that a web role has to individual Common Data Service entities.
+      explanation: Web Page Access Rules define which pages are visible to a web role and what actions can be taken. Entity Permissions define what access that a web role has to individual Dataverse entities.
     - content: Web Page Access Rules
       isCorrect: false 
-      explanation: Web Page Access Rules define which pages are visible to a web role and what actions can be taken. Entity Permissions define what access that a web role has to individual Common Data Service entities.
+      explanation: Web Page Access Rules define which pages are visible to a web role and what actions can be taken. Entity Permissions define what access that a web role has to individual Dataverse entities.
   - content: You created a new role called Partner Manager and want to grant users in this role with the permission to edit all contacts within the user's parent account. What scope would you select for the entity permission?
     choices: 
     - content: Contact scope
       isCorrect: false 
-      explanation: Use Account scope and then specify parent account relationship. With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Common Data Service relationship.
+      explanation: Use Account scope and then specify parent account relationship. With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Dataverse relationship.
     - content: Account scope
       isCorrect: true 
-      explanation: Use Account scope and then specify parent account relationship. With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Common Data Service relationship.
+      explanation: Use Account scope and then specify parent account relationship. With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Dataverse relationship.
     - content: Self scope
       isCorrect: false 
-      explanation: Use Account scope and then specify parent account relationship. With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Common Data Service relationship.
+      explanation: Use Account scope and then specify parent account relationship. With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Dataverse relationship.
     - content: This access is granted implicitly; no need to add any permissions
       isCorrect: false 
-      explanation: Use Account scope and then specify parent account relationship. With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Common Data Service relationship.
-  - content: You added a Dynamic Lookup Filter to your entity list so that you can filter the list by currency. However, at runtime, the list of available currencies in the filter is empty. You double-checked your Common Data Service instance, which shows that active currency records do exist. What do you need to do to display currencies in the filter?
+      explanation: Use Account scope and then specify parent account relationship. With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Dataverse relationship.
+  - content: You added a Dynamic Lookup Filter to your entity list so that you can filter the list by currency. However, at runtime, the list of available currencies in the filter is empty. You double-checked your Dataverse instance, which shows that active currency records do exist. What do you need to do to display currencies in the filter?
     choices: 
     - content: Remove and then add the filter again
       isCorrect: false 
-      explanation: Whenever Common Data Service data is accessed by using methods other than Entity List or Entity Form, entity permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
-    - content: Update the currency exchange rate in a Common Data Service model-driven app
+      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, entity permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+    - content: Update the currency exchange rate in a Dataverse model-driven app
       isCorrect: false 
-      explanation: Whenever Common Data Service data is accessed by using methods other than Entity List or Entity Form, entity permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, entity permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
     - content: Sign in as an administrator
       isCorrect: false 
-      explanation: Whenever Common Data Service data is accessed by using methods other than Entity List or Entity Form, entity permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, entity permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
     - content: Add an entity permission record for the currency entity
       isCorrect: true 
-      explanation: Whenever Common Data Service data is accessed by using methods other than Entity List or Entity Form, entity permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
+      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, entity permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an entity to display lookup values, an entity permission record is required.
   - content: You have a product list page that uses an entity list to display the data. You have configured Read  permissions for the product list entity and have set the scope to Global. Users have complained that they can browse a product listing page anonymously but are denied access to the page after they sign in. How would you resolve the issue?
     choices: 
     - content: Change the scope to Contact

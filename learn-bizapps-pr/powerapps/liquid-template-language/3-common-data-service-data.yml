@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.liquid-template-language.3-common-data-service-data 
-title: Access Common Data Service data
+title: Access Microsoft Dataverse data
 metadata: 
-  title: Access Common Data Service data
-  description: Learn how to add dynamic content by using Liquid and Common Data Service data.
+  title: Access Dataverse data
+  description: Learn how to add dynamic content by using Liquid and Dataverse data.
   ms.date: 07/15/2020 
   author: DaveBeasley 
   ms.author: dbeasley 

@@ -1,4 +1,4 @@
-With the **Entity Forms** feature, users can access individual records within the portal. Often, Common Data Service records are too complex to present on a single page or data requirements exist that include multiple Common Data Service entities. The following sections consider scenarios where it is not effective or even possible to implement data capture on a portal by using entity forms.
+With the **Entity Forms** feature, users can access individual records within the portal. Often, Microsoft Dataverse records are too complex to present on a single page or data requirements exist that include multiple Dataverse entities. The following sections consider scenarios where it is not effective or even possible to implement data capture on a portal by using entity forms.
 
 ## Surveys
 

@@ -3,11 +3,11 @@ complete a business process by using a set of predefined stages. Users are
 not limited on how long they run a business process or how long they have 
 a stage open. All data that is associated with the
 business process flow can only be stored in one or more entities in
-Common Data Service, and you cannot associate a business process flow
+Microsoft Dataverse, and you cannot associate a business process flow
 with another data source behind it. 
 
-Common Data Service has many different out-of-the-box business process 
-flows that you can use in its current state or modify to fit your needs.
+Dataverse has many different out-of-the-box business process 
+flows that you can use in its current state or modified to fit your needs.
 
 A Power Automate flow does not have any visual components like a
 business process flow. Power Automate flows can be configured to work
@@ -64,7 +64,7 @@ application within Power Automate (called an immersive business process flow), a
 ![Immersive business process flow](../media/immersive-business-process-flow.png)
 
 As mentioned previously, all data that is associated with a business process
-flow is stored in one or more Common Data Service entities (custom or
+flow is stored in one or more Dataverse entities (custom or
 standard). You could launch an instant Power Automate flow in
 conjunction with a business process flow to store data outside of Common
 Data Service if needed. Additionally, you can create Power BI

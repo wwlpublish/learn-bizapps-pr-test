@@ -12,9 +12,9 @@ top of a model-driven app in their own control, as shown in the following image.
 
 An immersive business process flow can exist on its own, and it is built entirely
 within the Power Automate editor. They will always exist within the default
-solution in an instance of Common Data Service, and are only accessible
+solution in an instance of Microsoft Dataverse, and are only accessible
 within Power Automate or the data tab that is associated with an entity in
-Common Data Service. Immersive business process flows offer many of the
+Dataverse. Immersive business process flows offer many of the
 same advantages of an embedded business process flow, but with the added
 advantage of simplified creation and streamlined management.
 

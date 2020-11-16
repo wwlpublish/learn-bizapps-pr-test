@@ -17,30 +17,30 @@ quiz:
     choices: 
     - content: One portal
       isCorrect: true 
-      explanation: The Portal from blank option is the only one that you can provision on a Common Data Service environment without Dynamics 365 enabled. Five different portal types exist, but four require Dynamics 365 apps. Common Data Service capacity comes into consideration when you are provisioning environments.
+      explanation: The Portal from blank option is the only one that you can provision on a Microsoft Dataverse environment without Dynamics 365 enabled. Five different portal types exist, but four require Dynamics 365 apps. Dataverse capacity comes into consideration when you are provisioning environments.
     - content: Five portals
       isCorrect: false 
-      explanation: The Portal from blank option is the only one that you can provision on a Common Data Service environment without Dynamics 365 enabled. Five different portal types exist, but four require Dynamics 365 apps. Common Data Service capacity comes into consideration when you are provisioning environments.
+      explanation: The Portal from blank option is the only one that you can provision on a Dataverse environment without Dynamics 365 enabled. Five different portal types exist, but four require Dynamics 365 apps. Dataverse capacity comes into consideration when you are provisioning environments.
     - content: One of each unique portal type
       isCorrect: false 
-      explanation: The Portal from blank option is the only one that you can provision on a Common Data Service environment without Dynamics 365 enabled. Five different portal types exist, but four require Dynamics 365 apps. Common Data Service capacity comes into consideration when you are provisioning environments.
-    - content: Limited by available Common Data Service capacity
+      explanation: The Portal from blank option is the only one that you can provision on a Dataverse environment without Dynamics 365 enabled. Five different portal types exist, but four require Dynamics 365 apps. Dataverse capacity comes into consideration when you are provisioning environments.
+    - content: Limited by available Dataverse capacity
       isCorrect: false 
-      explanation: The Portal from blank option is the only one that you can provision on a Common Data Service environment without Dynamics 365 enabled. Five different portal types exist, but four require Dynamics 365 apps. Common Data Service capacity comes into consideration when you are provisioning environments.
+      explanation: The Portal from blank option is the only one that you can provision on a Dataverse environment without Dynamics 365 enabled. Five different portal types exist, but four require Dynamics 365 apps. Dataverse capacity comes into consideration when you are provisioning environments.
   - content: Where is portal metadata stored?
     choices: 
     - content: Azure web application
       isCorrect: false
-      explanation: Portal metadata is stored in Common Data Service. The Azure web application only displays portal pages based on metadata but doesn't store any data. Portals solutions do not store data but define the metadata structure. The Portal Management app allows makers to create, update, and delete portal metadata but does not store it.
-    - content: Common Data Service
+      explanation: Portal metadata is stored in Dataverse. The Azure web application only displays portal pages based on metadata but doesn't store any data. Portals solutions do not store data but define the metadata structure. The Portal Management app allows makers to create, update, and delete portal metadata but does not store it.
+    - content: Dataverse
       isCorrect: true 
-      explanation: Portal metadata is stored in Common Data Service. The Azure web application only displays portal pages based on metadata but doesn't store any data. Portals solutions do not store data but define the metadata structure. The Portal Management app allows makers to create, update, and delete portal metadata but does not store it.
+      explanation: Portal metadata is stored in Dataverse. The Azure web application only displays portal pages based on metadata but doesn't store any data. Portals solutions do not store data but define the metadata structure. The Portal Management app allows makers to create, update, and delete portal metadata but does not store it.
     - content: Portals solutions
       isCorrect: false 
-      explanation: Portal metadata is stored in Common Data Service. The Azure web application only displays portal pages based on metadata but doesn't store any data. Portals solutions do not store data but define the metadata structure. The Portal Management app allows makers to create, update, and delete portal metadata but does not store it.
+      explanation: Portal metadata is stored in Dataverse. The Azure web application only displays portal pages based on metadata but doesn't store any data. Portals solutions do not store data but define the metadata structure. The Portal Management app allows makers to create, update, and delete portal metadata but does not store it.
     - content: Portals Management app
       isCorrect: false 
-      explanation: Portal metadata is stored in Common Data Service. The Azure web application only displays portal pages based on metadata but doesn't store any data. Portals solutions do not store data but define the metadata structure. The Portal Management app allows makers to create, update, and delete portal metadata but does not store it.
+      explanation: Portal metadata is stored in Dataverse. The Azure web application only displays portal pages based on metadata but doesn't store any data. Portals solutions do not store data but define the metadata structure. The Portal Management app allows makers to create, update, and delete portal metadata but does not store it.
   - content: In which tool can you not create a webpage?
     choices: 
     - content: Portals Studio
