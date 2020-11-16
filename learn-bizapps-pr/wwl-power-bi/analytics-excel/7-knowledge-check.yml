@@ -3,8 +3,8 @@ uid: learn.wwl.analytics-excel.knowledge-check
 title: Knowledge check
 metadata:
   title: Knowledge check
-  description: "Now that you’ve learned to teach Data Analysts about Excel\ntools including Power Query, Power Pivot, relationships, measures, slicers, and\nconditional formatting it’s time for a quick knowledge check."
-  ms.date: 11/11/2020
+  description: "Knowledge check"
+  ms.date: 11/16/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial

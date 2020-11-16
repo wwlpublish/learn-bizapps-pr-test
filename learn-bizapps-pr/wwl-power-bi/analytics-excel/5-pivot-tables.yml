@@ -3,8 +3,8 @@ uid: learn.wwl.analytics-excel.pivot-tables
 title: Pivot tables
 metadata:
   title: Pivot tables
-  description: "How to deliver the Analytics in Excel section that introduces Power\nPivot, and then explains relationships, multiple table pivot tables, and measures."
-  ms.date: 11/11/2020
+  description: "Pivot tables"
+  ms.date: 11/16/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
