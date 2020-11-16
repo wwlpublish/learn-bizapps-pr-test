@@ -1,4 +1,4 @@
-The purpose of this hands-on lab is to demonstrate how to add JavaScript code to a page to render data from Common Data Service as a chart by using another charting library. The data has been retrieved from Common Data Service by using a web template that acts as a REST API endpoint.
+The purpose of this hands-on lab is to demonstrate how to add JavaScript code to a page to render data from Microsoft Dataverse as a chart by using another charting library. The data has been retrieved from Dataverse by using a web template that acts as a REST API endpoint.
 
 The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Power Platform does provide the ability to add sample data as needed. If the environment that you are working in doesn't have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install the sample data into your environment.
 
@@ -6,7 +6,7 @@ The exercises work best when you have sample data to work with. Depending on the
 
 At the end of these exercises, you will be able to:
 
-- Build a webpage that acts as a REST endpoint that returns data from Common Data Service.
+- Build a webpage that acts as a REST endpoint that returns data from Dataverse.
 - Add inline code to a content webpage to retrieve the data by using the endpoint.
 - Use an external JavaScript library to consume the retrieved data.
 
@@ -24,7 +24,7 @@ For this exercise, make sure that the following parameters are set up in your en
 
 To finish the exercise, complete the following tasks:
 
-1. Create a web template with Liquid code to retrieve data about accounts in Common Data Service and then return the data in JSON format.
+1. Create a web template with Liquid code to retrieve data about accounts in Dataverse and then return the data in JSON format.
 1. Add **Page Template** and **Web Page** records that use the web template that you created.
 1. Open a content page and add JavaScript code that retrieves the data.
 1. Add a charting library to the page and JavaScript code by using the library to build a graph with the retrieved data.
@@ -228,4 +228,4 @@ This exercise uses Highcharts.js library (free for personal or non-profit use) t
 1. The output should now include the bubble chart. Hover over the bubbles to verify the data.
 
 > [!div class="mx-imgBorder"]
-> [![Bubble chart using Common Data Service data](../media/chart.png)](../media/chart.png#lightbox)
+> [![Bubble chart using Dataverse data](../media/chart.png)](../media/chart.png#lightbox)

@@ -11,7 +11,7 @@ The following table explains the common scenarios where entity forms can be used
 
 | Scenario | Description                                                  |
 | -------- | ------------------------------------------------------------ |
-| **Layout** | Entity forms can be configured and used in read-only mode as a layout mechanism. Think of entity forms as informational pages about employees, products, or any other Common Data Service entity. For example, you might have a custom entity in your Common Data Service instance that describes open positions that are available within your organization. Instead of crafting a special template to render the page, you can create a separate model-driven form for the entity, create a new webpage by using portals Studio, and then add an **Entity Form** component to the page. Any published changes in a form layout in a model-driven app will automatically apply to the webpage. |
+| **Layout** | Entity forms can be configured and used in read-only mode as a layout mechanism. Think of entity forms as informational pages about employees, products, or any other Microsoft Dataverse entity. For example, you might have a custom entity in your Dataverse instance that describes open positions that are available within your organization. Instead of crafting a special template to render the page, you can create a separate model-driven form for the entity, create a new webpage by using portals Studio, and then add an **Entity Form** component to the page. Any published changes in a form layout in a model-driven app will automatically apply to the webpage. |
 | **Information capture** | Forms can be used on the portal for data capture from anonymous or authenticated users. For example, a simple lead entity form might be rendered on a **Contact Us** page to record anonymous requests as leads in Dynamics 365 Sales. For authenticated users, a portal might use a survey page to collect product feedback from customers into a custom Product Feedback entity. |
 | **Record management** | Typically used in authenticated scenarios, entity forms allow various combinations of Create, Retrieve, Update, and Delete (CRUD) operations on an entity to be defined within a set of related webpages. For example, customers can retrieve and read their own cases and create new ones, partners can edit their company profiles, and employees can view the list of assets that are allocated to them by the company. |
 | **Web apps** | Entity forms, when used in conjunction with entity lists and subgrids, and with the functionality extended by JavaScript, allow developers to build complete web applications. |
@@ -33,7 +33,7 @@ While reuse of forms that are part of a model-driven app is possible, the common
 
 ### Mode
 
-The form mode can be **Read Only**, **Insert**, or **Edit**. This mode defines if the form is used to generate a layout, capture the data, or provide full editing capabilities for Common Data Service records. 
+The form mode can be **Read Only**, **Insert**, or **Edit**. This mode defines if the form is used to generate a layout, capture the data, or provide full editing capabilities for Dataverse records. 
 
 > [!NOTE]
 > A form that is in **Edit** mode will be rendered as **Read Only** if the user does not have write privileges for the record.
@@ -100,7 +100,7 @@ Additional settings define other aspects of form behavior, such as styling, tran
 > [!TIP]
 > Some of the settings and configuration options are hidden. Select the **Advanced settings** check box to display all available options.
 
-**Associate current portal user on insert** - This option can be used to keep track of which portal contacts created or updated the record. This setting creates a portal equivalent of the **Created By** and **Modified By** fields in Common Data Service. You can also set parental relationships where applicable. For example, if a new account record is created, you might want to set the current contact as a primary contact automatically.
+**Associate current portal user on insert** - This option can be used to keep track of which portal contacts created or updated the record. This setting creates a portal equivalent of the **Created By** and **Modified By** fields in Dataverse. You can also set parental relationships where applicable. For example, if a new account record is created, you might want to set the current contact as a primary contact automatically.
 
 **Add attach file** - A number of options are available to add a file upload control to your form. Configuration is flexible and supports multiple files, storage options, mime type, and size restrictions (for example, you can restrict uploads to images up to 2 MB in size). 
 
@@ -147,7 +147,7 @@ An entity form defines the required behavior but does not contain information ab
 
 Because forms can submit information back to the server for processing, you will have less control over the rendering of entity forms as compared to the entity lists.
 
-The following video shows how to extend entity list functionality with entity forms and display a Common Data Service record in a pop-up window or on a separate webpage.
+The following video shows how to extend entity list functionality with entity forms and display a Dataverse record in a pop-up window or on a separate webpage.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AjtN]
 

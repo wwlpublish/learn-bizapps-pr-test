@@ -31,7 +31,7 @@ Invitations contain a number of [Invitation attributes](https://docs.microsoft.c
 - Assign the invited contact(s) automatically to web roles on redemption. You can use this feature to grant users who accept the invitation special access rights in your portal.
 
 > [!IMPORTANT]
-> Email integration must be enabled in your Common Data Service instance for the email invitations to work.
+> Email integration must be enabled in your Microsoft Dataverse instance for the email invitations to work.
 
 The ensuing sections explain the process of sending and redeeming invitations.
 

@@ -13,20 +13,20 @@ durationInMinutes: 6
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: In Common Data Service, where is your data being stored?
+  - content: In Microsoft Dataverse, where is your data being stored?
     choices: 
     - content: Entities
       isCorrect: true 
-      explanation: In Common Data Service, data is stored in entities. 
+      explanation: In Dataverse, data is stored in entities. 
     - content: Forms
       isCorrect: false 
-      explanation: In Common Data Service, data is stored in entities. 
+      explanation: In Dataverse, data is stored in entities. 
     - content: SharePoint
       isCorrect: false 
-      explanation: In Common Data Service, data is stored in entities. 
+      explanation: In Dataverse, data is stored in entities. 
     - content: Access
       isCorrect: false 
-      explanation: In Common Data Service, data is stored in entities. 
+      explanation: In Dataverse, data is stored in entities. 
   - content: What is the benefit of building a model-driven app?
     choices: 
     - content: Logic-focused design, no code required, and different UIs across multiple devices

@@ -46,11 +46,11 @@ An administrator can also opt to receive early updates in the Portals admin cent
 > [!CAUTION]
 > You should opt for early updates in development or testing portals only, which will ensure that your production portal remains operational in the unlikely event that an early update might cause issues with your portal application.
 
-While underlying infrastructure is maintained automatically, portal solutions aren't automatically updated. These solutions are installed on Common Data Service and will always be compatible with the current portal web host. An administrator might be advised of the available solution updates from the Microsoft 365 message center.
+While underlying infrastructure is maintained automatically, portal solutions aren't automatically updated. These solutions are installed on Microsoft Dataverse and will always be compatible with the current portal web host. An administrator might be advised of the available solution updates from the Microsoft 365 message center.
 
 An administrator can update the portal solutions during an appropriate maintenance window because the update process might cause some performance degradation and portal instability.
 
-Portal solutions can be updated by using the Dynamics 365 admin center (even for Common Data Service portals that don't have Dynamics 365 apps installed).
+Portal solutions can be updated by using the Dynamics 365 admin center (even for Dataverse portals that don't have Dynamics 365 apps installed).
 
 1. Go to the [Power Platform admin center](https://aka.ms/ppac/?azure-portal=true).
 1. Expand **Admin Centers**.

@@ -16,7 +16,7 @@ Microsoft 365 provides various channels for communication with all stakeholders 
 
 ### Data
 
-The core of any organization is its information. Microsoft 365 facilitates this in various methods. Documents, files and unstructured data can be managed using SharePoint. Structured information can be managed using the Common Data Service, accessed via Power Apps or within Microsoft Teams.
+The core of any organization is its information. Microsoft 365 facilitates this in various methods. Documents, files and unstructured data can be managed using SharePoint. Structured information can be managed using the Microsoft Dataverse, accessed via Power Apps or within Microsoft Teams.
 
 ## Microsoft Teams
 
@@ -48,13 +48,13 @@ The Care Management app is Dynamics 365 Customer Service that has been customize
 
 The Home Health app uses the Dynamics 365 Field Service app to provides administrators the ability to capture and monitor patient data as well as scheduling healthcare practitioner in-home patient visits.
 
-Power Apps portals is a web platform to allow external stakeholders with secure access to information stored in the Common Data Service. Patient Access is a Power Apps Portal application to provide self-service capabilities to patients such as messaging, managing appointments and searching for new healthcare practitioners.
+Power Apps portals is a web platform to allow external stakeholders with secure access to information stored in the Dataverse. Patient Access is a Power Apps Portal application to provide self-service capabilities to patients such as messaging, managing appointments and searching for new healthcare practitioners.
 
 [![Screenshot of the Patient Access portal home page.](../media/2-4-home-health.png)](../media/2-4-home-health.png#lightbox)
 
 Canvas Power Apps allows for specific user interface requirements and are typically powerful for specific task-based activities. Canvas apps can run on the desktop, tablets, or mobile phones.
 
-Other Power Apps can be developed to meet unique requirements or needs of a healthcare organization. These apps can interact with information from the Common Data Service and can be surfaced to healthcare practitioners using model-driven apps for more holistic view of information and management. Patients can access information from Power Apps Portals applications. Canvas Power Apps can be configured for healthcare professionals to assist with specific tasks, information retrieval, and gathering.
+Other Power Apps can be developed to meet unique requirements or needs of a healthcare organization. These apps can interact with information from the Dataverse and can be surfaced to healthcare practitioners using model-driven apps for more holistic view of information and management. Patients can access information from Power Apps Portals applications. Canvas Power Apps can be configured for healthcare professionals to assist with specific tasks, information retrieval, and gathering.
 
 ## Power Automate
 

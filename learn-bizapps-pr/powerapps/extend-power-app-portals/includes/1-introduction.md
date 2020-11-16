@@ -4,7 +4,7 @@ Liquid template language in portal pages and templates begins to extend your web
 
 Power Apps portals features can also be further extended by using standard web technologies such as HTML, JavaScript, and Cascading Style Sheets (CSS).
 
-You might also encounter situations where you need to update or create data in Common Data Service without submitting an entity form or a web form. A common method is to build a standalone web application with an API that can be called from the Power Apps portal and that will act as a liaison to update Common Data Service.
+You might also encounter situations where you need to update or create data in Microsoft Dataverse without submitting an entity form or a web form. A common method is to build a standalone web application with an API that can be called from the Power Apps portal and that will act as a liaison to update Dataverse.
 
 After you have configured and customized your portal, another concern that you might have is determining how to ensure that your work is saved in a source control system and how to ensure that your portal can be deployed to a test or production portal.
 
@@ -12,8 +12,8 @@ After you have configured and customized your portal, another concern that you m
 
 Power Apps portals do not support client-side business rules, JavaScript web resource, or Power Apps component framework controls that are commonplace with the model-driven forms. As a result, portal deployments will occasionally become blocked because expectations of the same or similar form behavior can't be met. Instead, entity lists, entity forms, and web forms include a custom JavaScript option that allows developers to add scripts that implement equivalent functionality.
 
-However, the portals are based on model-driven apps that are underpinned by Common Data Service. In fact, portals deliver functionality that is already available in a model-driven app but only to the portal users, meaning that:
+However, the portals are based on model-driven apps that are underpinned by Dataverse. In fact, portals deliver functionality that is already available in a model-driven app but only to the portal users, meaning that:
 
 - Entity-scope business rules still apply because they are implemented on the server.
 - Workflows and Microsoft Power Automate flows are still triggered, regardless of whether a triggering action was run inside a model-driven app or a portal. The workflows can also be called explicitly by using form configuration on the portal.
-- When a portal user interacts with Common Data Service records, the server-side code runs as usual. Developers can pass relevant portal context to plug-ins when the records are updated by portal users who are employing entity forms. That approach adds some server-side code extensibility to the portals and enables various integration scenarios.
+- When a portal user interacts with Dataverse records, the server-side code runs as usual. Developers can pass relevant portal context to plug-ins when the records are updated by portal users who are employing entity forms. That approach adds some server-side code extensibility to the portals and enables various integration scenarios.
