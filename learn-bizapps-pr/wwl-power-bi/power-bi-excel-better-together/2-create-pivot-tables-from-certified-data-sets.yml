@@ -3,8 +3,8 @@ uid: learn.wwl.power-bi-excel-better-together.create-pivot-tables-from-certified
 title: Create pivot tables from certified data sets
 metadata:
   title: Create pivot tables from certified data sets
-  description: "How to introduce\nand demonstrate creating a Pivot Table and PivotChart to explore Store\nReturn Rates by Date using a Certified Power BI Dataset."
-  ms.date: 11/10/2020
+  description: "Create pivot tables from certified data sets"
+  ms.date: 11/16/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
