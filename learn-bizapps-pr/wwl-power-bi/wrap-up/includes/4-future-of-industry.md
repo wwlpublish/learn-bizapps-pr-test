@@ -17,5 +17,5 @@ This class is a starting point for the path to being a Modern Data Analyst. With
 
 
 ## Video
-> [!VIDEO <embedded_video_link>] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ix0P] 
 > In this 4-minute video Krissy Dyess explains how to deliver the last slides in the course . 

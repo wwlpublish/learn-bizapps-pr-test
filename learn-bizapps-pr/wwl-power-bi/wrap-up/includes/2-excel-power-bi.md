@@ -24,7 +24,7 @@ Power BI is best for:
 > As you deliver this comparison of Excel and Power BI, keep using quick examples from earlier in the class or from your students experience to ground the recommendations.
 
 ## Video
-> [!VIDEO <embedded_video_link>] In this 8-minute video Krissy Dyess explains how to deliver the section on when to use Excel, Power BI, or both. 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Iu74] In this 8-minute video Krissy Dyess explains how to deliver the section on when to use Excel, Power BI, or both. 
 
 ## Optional Video
 > [!VIDEO <embedded_video_link>]Optional Video

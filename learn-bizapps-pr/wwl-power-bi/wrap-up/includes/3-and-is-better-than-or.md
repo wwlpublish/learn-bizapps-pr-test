@@ -13,5 +13,5 @@ A couple of examples of using first one and then the other:
 > Again, as you deliver this comparison of Excel and Power BI, reuse the examples from the last slide, earlier in the class, or from your students experience to ground the recommendations.
 
 ## Video
-> [!VIDEO <embedded_video_link>] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IHZV] 
 > In this 8-minute video Krissy Dyess explains that Excel and Power BI is better than Excel or Power BI. 
