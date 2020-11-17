@@ -45,7 +45,7 @@ Before you enable additional actions for the entity form, you need to create a w
 1. Open the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.
 1. Make sure that the selected environment is the one with the portal solution installed.
 1. Select **Solutions**.
-1. Select **Common Data Service Default Solution**.
+1. Select **Microsoft Dataverse Default Solution**.
 1. Select the ellipsis (**...**) button and then select **Switch to classic**.
 1. In the new window that opens, select **Processes**.
 1. Select **New**.
