@@ -46,15 +46,17 @@ If you are delivering it online, you may prefer to use a 5-minute break at the t
 Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit for this course.
 
 
+## Course files
+The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located in this folder.
+***Waiting for file link from Tamer Farag***
 
-
-## Lab setup
+### Lab setup
 The setup instructions are available in the **attendee > Lab materials > Lab01A** folder.
 
 > [!IMPORTANT]
 > Remember to send a copy of the Attendee folder to your students at least a day early so they can have the materials installed before class starts.
 
-Setup instructions:
+#### Setup instructions:
 1.	Download the self-study kit (.zip) locally
 2.	Edit the file properties, and “unblock”
 3.	Extract the file contents to your file system. The lab documents will refer to this location as <CourseFolder>
@@ -80,6 +82,6 @@ To improve accuracy and reduce typing, many labs involve copying and pasting fro
 > Do not copy from the lab guide as the rich-formatted text blocks often paste incorrectly and you’re likely to get a strange result in your code.
 
 
-## Video
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1XVQS]
+## Video 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ix0F]
 > In this 14-minute video Krissy Dyess from Power Pivot Pro, introduces you to the course goals, outline, labs, and the course folder structure.

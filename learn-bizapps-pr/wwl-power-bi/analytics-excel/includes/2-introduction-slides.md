@@ -26,13 +26,13 @@ Lab 01B is optional for students who can complete Lab 01A in less than the allot
 > Remind your students that the SureWi company scenario is for background only. It’s not very important to understand what the company does.  
 
 ## Video
-> [!VIDEO <embedded_video_link>]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ix0E]
 > In this 17-minute video you’ll see Krissy Dyess from Power Pivot Pro explain how to deliver the initial sides in the deck.
 
 ## Optional video
 > [!VIDEO <embedded_video_link>]
 > In this video you’ll see ___ deliver the entire Module 1, “Analytics in Excel”.  
-
+***Waiting for link from Tamer F***
 
 > [!TIP]
 > In addition to taking notes on the content, take notes on what worked with Krissy Dyess’ and ___’s deliveries, and where you would do things differently. 

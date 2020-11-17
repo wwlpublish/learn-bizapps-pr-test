@@ -32,7 +32,7 @@ Lab document available at <CourseFolder>\PowerBIPRIAD\Lab01B
 
 
 ## Video
-> [!VIDEO <embedded_video_link>] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ID4q] 
 > In this 4-minute video Krissy Dyess explains how to prepare your class for the Labs, and then dives into Labs 01A and 01B. 
 
 You can also view an instructor-led delivery of Labs 01A and 01B in the Instructor folder. 
