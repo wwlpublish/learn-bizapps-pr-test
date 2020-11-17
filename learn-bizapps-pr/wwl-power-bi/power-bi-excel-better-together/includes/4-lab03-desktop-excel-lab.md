@@ -15,7 +15,7 @@ Lab document available at <PresentationFolder>\MAIAD\Attendee\Lab Materials\Lab 
 
 
 ## Video:
-> [!VIDEO <embedded_video_link>] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ix0N] 
 > In this 13-minute video Krissy Dyess explains how to prepare the class for this lab and deliver it as an instructor-led exercise.
 
 You can also view an instructor-led delivery of Lab 03 in the Instructor folder. 
