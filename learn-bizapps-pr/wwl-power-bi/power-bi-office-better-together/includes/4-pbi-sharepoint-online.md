@@ -14,5 +14,5 @@ In the demo you will show how to:
 > You may find that SharePoint online is new to your students. If so, be prepared to discuss the relationship between SharePoint, SharePoint online, and Teams.
 
 ## Video
-> [!VIDEO <embedded_video_link>] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IHZU] 
 > In this 5-minute video Krissy Dyess explains how to introduce and demonstrate Power BI and SharePoint Online.

@@ -10,5 +10,5 @@ These features will help your teams find and access Power BI Dashboards, Reports
 
 
 ## Video 
-> [!VIDEO <embedded_video_link>] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IHZT] 
 > In this 2-minute video Krissy Dyess explains how to introduce and demonstrate the Power BI app in Teams.
