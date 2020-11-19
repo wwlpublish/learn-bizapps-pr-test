@@ -19,7 +19,7 @@ For most organizations, it's a good idea to use the standard entities and attrib
 ## Logic and validation
 Entities within Dataverse can leverage rich server-side logic and validation to ensure data quality. You can also reduce repetitive code in each app that creates and uses data within an entity.
 
-* **Business rules**: Business rules validate data across multiple fields and entities, and provide warning and error messages, regardless of the app that's used to create the data. 
+* **Business rules**: Business rules validate data across multiple fields in an entity, and provide warning and error messages, regardless of the app that's used to create the data. 
 * **Business process flows**: Business process flows guide users to ensure they enter data consistently and follow the same steps every time. Business process flows are currently supported only for model-driven apps.
 * **Workflows**: Workflows automate business processes without requiring user interaction. 
 * **Business logic with code**: Business logic supports advanced developer scenarios that extend the application directly through code. 
