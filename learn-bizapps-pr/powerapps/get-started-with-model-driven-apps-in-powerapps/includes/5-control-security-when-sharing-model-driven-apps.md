@@ -41,7 +41,7 @@ To learn more about access and the scope of the different privileges, see [Secur
 2. For your new app, select the **...** to the right of the name, and then click **Share**.
 3. In the **Share** dialog box, select your app at the top left and then select the drop-down next to the environment on the right. Select **Manage security role**.
 
-![Screenshot of copying an app URL.](../media/share-custom-security.png)
+   ![Screenshot of copying an app URL.](../media/share-custom-security.png)
 
 4. On the **All Roles** page, click **New**.
 1. In the **Role Name** box, enter *Pet Grooming Technicians*.
