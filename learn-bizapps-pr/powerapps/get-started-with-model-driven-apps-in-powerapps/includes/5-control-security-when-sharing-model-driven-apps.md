@@ -36,14 +36,17 @@ To learn more about access and the scope of the different privileges, see [Secur
 1. Sign in to [Power Apps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
 > [!NOTE] 
 > To complete this exercise, you will first need to create an app as described in the previous unit of this module and create the Pet
-> entity as described in unit [Create a Microsoft Dataverse entity](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-entity) of [Get started with Dataverse module](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/).
+> entity as described in unit [Create a Microsoft Dataverse entity](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-entity) of [Get started with Dataverse Service module](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/).
 
 2. For your new app, select the **...** to the right of the name, and then click **Share**.
-3. In the **Share** dialog box, select your app at the top and then select the drop-down next to the environment on the right. Select **Manage security role**.
+3. In the **Share** dialog box, select your app at the top left and then select the drop-down next to the environment on the right. Select **Manage security role**.
+
+![Copy app URL](../media/share-custom-security.png)
+
 4. On the **All Roles** page, click **New**.
-5. In the **Role Name** box, enter *Pet Grooming Technicians*.
-6. In the Security Role designer, on the **Custom Entities** tab, find the **Pet** entity.
-7. On the **Pet** row, click **Read**, **Write**, and **Append** four times, to set the scope for each to *organization* ![Global organization scope](../media/organizational-scope-privilege.png) is selected:
+1. In the **Role Name** box, enter *Pet Grooming Technicians*.
+1. In the Security Role designer, on the **Custom Entities** tab, find the **Pet** entity.
+1. On the **Pet** row, click **Read**, **Write**, and **Append** four times, to set the scope for each to *organization* ![Global organization scope](../media/organizational-scope-privilege.png) is selected:
 
     ![New security role](../media/updated-custom-security-role.png)
 
