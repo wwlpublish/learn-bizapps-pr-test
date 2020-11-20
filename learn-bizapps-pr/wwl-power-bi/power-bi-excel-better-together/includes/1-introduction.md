@@ -4,6 +4,9 @@ This train-the-trainer course will prepare you to deliver the **Power BI & Offic
 
 Depending on your customers’ needs you may want to deliver this module by itself, or with some or all of the other modules in the **Modern Excel Analyst in a day** course to help close sales.
 
+The files required to teach this module of the instructor-led course **Modern Excel Analyst in a day** are located here:
+    - [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
+    - [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
 
 ## Learning objectives
 In this module you will learn how to deliver the instructor-led module **Power BI & Office Better Together** and teach your Data Analyst customers to use Excel and Power PI together.
