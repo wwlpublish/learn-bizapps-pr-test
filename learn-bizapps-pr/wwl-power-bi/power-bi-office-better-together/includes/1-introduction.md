@@ -20,7 +20,7 @@ The other modules in the **Prepare to teach: Modern Excel Analyst in a day** cou
 ![PowerPoint screenshot showing the number of slides per section and class schedule.](../media/slide-count.png)
 
 ## To take this module
-This module consists of 14 slides and should take 20 minutes to deliver. 
+
 
 This course is a mix of text, videos, labs, resources, and quizzes. 
 - The text provides tips and guidance on how to deliver this course.
@@ -29,6 +29,7 @@ This course is a mix of text, videos, labs, resources, and quizzes.
 - The resources will help you guide your customers to additional information during and after the sales process.
 - The quizzes will help you identify key messages and possible disconnects for your customers.
 
+This module in the instructor-led course consists of 14 slides and should take 20 minutes to deliver. 
 > [!TIP]
 > Tip In addition to taking notes on the content, take notes on what worked with Krissy Dyess’ delivery, and where you would do things differently. 
 

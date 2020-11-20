@@ -17,4 +17,4 @@ In this section you will explain and demonstrate some of the MS Teams plus Power
 
 ## Video:
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4Ix0O] 
-> In this 8-minute video Krissy Dyess explains how to introduce and demonstrate the Power BI Tab in Microsoft Teams, share to Teams from Power BI, and sharing a link in a Teams message .
+> In this 7-minute video Krissy Dyess explains how to introduce and demonstrate the Power BI Tab in Microsoft Teams, share to Teams from Power BI, and sharing a link in a Teams message .
