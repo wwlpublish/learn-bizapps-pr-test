@@ -70,7 +70,7 @@ property of the Next button on Screen1 from
 to **Jump to Screen 3**. Now, when the user selects the button, the app
 will navigate to Screen3. Then when they select the Back button on
 Screen3, they will navigate back to Screen1 and skip Screen2 entirely.
-This is by design in Power Apps and is important to concept understand to ensure the navigation in your app is configured properly.
+This is by design in Power Apps and is an important concept to ensure the navigation in your app is configured properly.
 
 Before moving on to the next section, add one more screen to the example
 app and rename the screen **Documentation**. With no Navigation pointing to this screen, it is not accessible to your end users. The purpose of this screen is to give the App creator a location in the app to make notes or add documentation about certain aspects of how the app functions. The App creator can also provide instructions for other editors of the app so they can quickly and easily identify what the previous creator did.
