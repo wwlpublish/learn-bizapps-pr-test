@@ -47,8 +47,10 @@ Watch the videos, practice the labs, visit the resources, and complete all the q
 
 
 ## Course files
-The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located in this folder.
-***Waiting for file link from Tamer Farag***
+The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:
+    - [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
+    - [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
+
 
 ### Lab setup
 The setup instructions are available in the **attendee > Lab materials > Lab01A** folder.

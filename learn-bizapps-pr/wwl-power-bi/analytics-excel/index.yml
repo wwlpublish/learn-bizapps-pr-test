@@ -3,7 +3,7 @@ uid: learn.wwl.analytics-excel
 metadata:
   title: 'Prepare to teach the module: Analytics in Excel'
   description: "Prepare to teach the module: Analytics in Excel"
-  ms.date: 11/17/2020
+  ms.date: 11/20/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -26,6 +26,7 @@ roles:
 products:
 - office-excel
 - power-bi
+- power-query
 units:
 - learn.wwl.analytics-excel.introduction
 - learn.wwl.analytics-excel.introduction-slides
