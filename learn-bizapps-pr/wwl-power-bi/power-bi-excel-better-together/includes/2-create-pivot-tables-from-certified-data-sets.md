@@ -7,7 +7,7 @@ You will demonstrate:
 
 
 > [!TIP]
-> find out what departments your students work in and discuss the demo using the data types that they will be familiar with. This will make the content much more relevant to them.
+> Find out what departments your students work in and discuss the demo using the data types that they will be familiar with. This will make the content much more relevant to them.
 > You will also discuss how to deal with data sensitivity and Microsoft Information Protection/Row Level Security (RLS). 
 
 ## Video

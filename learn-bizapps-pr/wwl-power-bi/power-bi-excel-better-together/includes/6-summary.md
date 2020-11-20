@@ -13,16 +13,18 @@ You learned how to deliver:
  - Data Types
  - Lineage
 
+![Overlap of Excel and Power BI](../media/ecosystem-overlap.png)
 
 ## Resources
-The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:
-    - [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
-    - [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
+The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:  
+- [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
+- [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
 
 These resources from the instructor-led course will help your students better understand Modern Excel.  
-They will also allow you to provide additional information when you are explaining these topics to your customers.
+They will also allow you to provide additional information when you are explaining these topics to your customers.  
+- [Row Level Security (RLS)](https://docs.microsoft.com/power-bi/admin/service-admin-rls)
 
-![Overlap of Excel and Power BI](../media/ecosystem-overlap.png)
+
 
 > [!TIP]
 > Take a moment to visit these sites, review their content, and bookmark them for future use.
