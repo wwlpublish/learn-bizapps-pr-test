@@ -1,0 +1,46 @@
+ The purpose of this exercise is to provide a more detailed example using the **Back()** and **Navigate** functions with multiple controls in a common real-world scenario. In many of the apps that you
+develop, certain screens may have multiple controls allowing users to
+navigate to different screens depending on the control they select. In
+the following example, you will create a three screen app to
+demonstrate the **Navigate** and **Back()** functionality.
+
+Exercise -  Create navigation and back functions
+-------------------------------------------------
+
+1. Go to the [Power Apps Studio](https://make.powerapps.com/).
+
+1. Select the **New app** dropdown and choose **Canvas**
+1. A new tab will open in your browser. Choose **Tablet layout** under Blank app near the bottom.
+1. In the new blank app, select the **Insert** tab, select the **New screen** dropdown, and choose *Blank*.
+
+[![select the New Screen dropdown.](../media/new-screen-ss.png)](../media/new-screen-ss.png#lightbox)
+
+2.  This will create a new blank screen in your app. Repeat once more to have 3 screens total.
+
+1. On Screen1, insert a **Button** control and change the **Text**
+    property to **Next**.
+3.  On Screen2, add a **Button** control and change the **Text** to **Next**.
+
+1. Add another **Button** control and change the **Text** to **Back**.
+4.  On Screen3, add a **Button** control and change the **Text**
+    property to **Back**.
+5.  On Screen1, set the Next button **OnSelect** property to **Navigate(Screen2,ScreenTransition.Fade)**.
+
+[![set the Next button.](../media/next-button-ss.png)](../media/next-button-ss.png#lightbox)
+
+6.  On Screen2, set the **OnSelect** property for the Next button to **Navigate(Screen3,ScreenTransition.Cover)**.
+7.  Set the **OnSelect** property for the Back button to **Back().**
+
+[![On screen2 set next button.](../media/next-screen-2-ss.png)](../media/next-screen-2-ss.png#lightbox)
+
+8.  On Screen3, set the **OnSelect** property for the Back button to **Back()**.
+
+[![set Back button.](../media/back-ss.png)](../media/back-ss.png#lightbox)
+
+9.  To test this, put the app in Preview or Play mode and navigate
+    through the app as a user would.
+
+As you select each button, notice the subtle visual transitions of each
+ScreenTransition. Remember, the Navigate function can include a
+ScreenTransition, but it is not required. If you write your Navigate function like
+this, **Navigate(Screen2)**, Power Apps would then navigate to the screen without any transition.
