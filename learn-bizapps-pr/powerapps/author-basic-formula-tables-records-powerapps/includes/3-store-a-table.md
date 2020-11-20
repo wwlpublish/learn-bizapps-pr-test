@@ -20,7 +20,7 @@ you.
 Create a collection
 -------------------
 
-You can create a collection named **collectMyFirstCollection** by using
+Creating a collection can be done within your app anywhere an action can normally be taken. For example, you can create a collection when pressing a button by changing the **OnSelect** property of the button, or even create a collection whenever you come to a certain screen by changing the **OnVisible** property of that screen. You can create a collection named **collectMyFirstCollection** by using
 this formula.
 
 ```powerappsfl

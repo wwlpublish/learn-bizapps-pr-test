@@ -20,7 +20,7 @@ Here's a breakdown of the syntax for the navigation function:
 In the first argument, you specify the name of the screen to display. In
 the second argument, you specify how the old screen changes to the new
 screen. In the third argument, you have the option to specify a Context
-variable. Taking a step back to the second argument, ScreenTransition,
+variable. Looking back to the second argument, ScreenTransition,
 there are a number of different ScreenTransitions you could apply. Each
 ScreenTransition produces a slightly different visual experience for the
 user.
@@ -53,42 +53,6 @@ Here are some examples using ScreenTransitions.
 The **Back ()** function has an optional argument
 for ScreenTransition.
 
-Here's a more detailed example using these functions with multiple
-controls in a common real-world scenario. In many of the apps that you
-develop, certain screens may have multiple controls allowing users to
-navigate to different screens depending on the control they select. In
-the following example, you will create a three screen app to
-demonstrate the **Navigate** and **Back()** functionality.
-
-1.  In Power Apps Studio, create 3 blank screens.
-
-2.  On Screen1, add a **Button** control and change the **Text**
-    property to **Next**.
-
-3.  On Screen2, add two **Button** controls and change the **Text** of one
-    button to **Next** and the other button control to **Back**.
-
-4.  On Screen3, add a **Button** control and change the **Text**
-    property to **Back**.
-
-5.  On Screen1, set the Next button **OnSelect** property to **Navigate(Screen2,ScreenTransition.Fade)**.
-
-6.  On Screen2, set the **OnSelect** property for the Next button to **Navigate(Screen3,ScreenTransition.Cover)**.
-
-7.  Set the **OnSelect** property for the Back button to **Back().**
-
-8.  On Screen3, set the **OnSelect** property for the Back button to **Back()**.
-
-9.  To test this, put the app in Preview or Play mode and navigate
-    through the app as a user would.
-
-As you select each button, notice the subtle visual transitions of each
-ScreenTransition. Remember, the Navigate function must include a
-ScreenTransition. If you tried to write your Navigate function like
-this, **Navigate(Screen2)**, Power Apps would display a red squiggly line
-in the formula box indicating that there is an issue with the function as
-written.
-
 Back () function
 --------------------
 
@@ -99,15 +63,14 @@ was just on, you need to use the **Navigate** function to navigate
 away from the screen to then use the **Back()** function to get back
 there. This can be a little confusing, so here's an example of how this works. 
 
-In the previous example there are 3 screens. Update the **OnSelect**
+In the previous example, there are three screens. Update the **OnSelect**
 property of the Next button on Screen1 from
 **Navigate(Screen2,ScreenTransition.Cover)** to
 **Navigate(Screen3,ScreenTransition.Cover)** and the **text** property
 to **Jump to Screen 3**. Now, when the user selects the button, the app
 will navigate to Screen3. Then when they select the Back button on
 Screen3, they will navigate back to Screen1 and skip Screen2 entirely.
-This is by design in Power Apps and is important to concept understand to ensure
-the navigation in your app is configured properly.
+This is by design in Power Apps and is an important concept to ensure the navigation in your app is configured properly.
 
 Before moving on to the next section, add one more screen to the example
 app and rename the screen **Documentation**. With no Navigation pointing to this screen, it is not accessible to your end users. The purpose of this screen is to give the App creator a location in the app to make notes or add documentation about certain aspects of how the app functions. The App creator can also provide instructions for other editors of the app so they can quickly and easily identify what the previous creator did.
