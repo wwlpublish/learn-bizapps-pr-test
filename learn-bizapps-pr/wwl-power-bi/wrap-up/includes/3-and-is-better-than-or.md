@@ -14,4 +14,4 @@ A couple of examples of using first one and then the other:
 
 ## Video
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IHZV] 
-> In this 8-minute video Krissy Dyess explains that Excel and Power BI is better than Excel or Power BI. 
+> In this 3-minute video Krissy Dyess explains that Excel and Power BI is better than Excel or Power BI. 
