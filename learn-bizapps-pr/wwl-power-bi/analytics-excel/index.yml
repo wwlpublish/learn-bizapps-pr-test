@@ -26,7 +26,6 @@ roles:
 products:
 - office-excel
 - power-bi
-- power-query
 units:
 - learn.wwl.analytics-excel.introduction
 - learn.wwl.analytics-excel.introduction-slides
