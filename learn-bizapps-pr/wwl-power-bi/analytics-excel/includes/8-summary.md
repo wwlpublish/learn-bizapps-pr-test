@@ -15,9 +15,9 @@ You've also learned how to give your students several compelling reasons to beco
 - Eliminate human formula errors by using Measures
 
 ## Resources
-The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:
-    - [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
-    - [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
+The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:  
+- [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
+- [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
 
 
 These resources from the instuctor-led course will help your students better understand Modern Excel.  

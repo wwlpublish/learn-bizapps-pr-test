@@ -21,7 +21,7 @@ Some of the benefits of Modern Excel include:
 The important point of this slide is to show that Modern Excel and Power BI share many features but produce different visuals. 
 This review will lower your student's fears and resistance to the new and unknown Power BI. 
 
-![Modern Excel and Power BI: Same brains, different visuals](../media/daily-benefits.png)
+![Modern Excel and Power BI: Same brains, different visuals](../media/ecosystem-overlap.png)
 
 > [!TIP]
 > The Sargent Prepper and Captain Crunch characters may sound overly cute but will help your students quickly remember the roles of Power Query and Power Pivot. 

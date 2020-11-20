@@ -28,12 +28,12 @@ This train-the-trainer course is a mix of text, videos, labs, resources, and qui
 
 
 
-## Course balance
-1. The course starts with a long **Analytics in Excel** module including 48 slides for 2 hours and 15 minutes including labs. 
+## Module timing in Modern Excel Analyst in a day 
+1. The instructor-led course starts with a long **Analytics in Excel** module including 48 slides for 2 hours and 15 minutes including labs. 
 1. Next it shifts to the **Mapping the student’s knowledge of Excel onto Power BI** module with a total of 39 slides for 2 hours with labs. 
 1. Then it covers the **Power BI and Excel better together** module with 15 slides for 1 hour and 5 minutes with lab. 
 1. Followed by the **Power BI and MS Office better together** module with 14 slides for 20 minutes of lecture including multiple demos.  
-1. The course ends with a **Questions & Wrap-Up** including 7 slides that last for 20 minutes and focuses on helping your students transfer their newly gained knowledge and skills to their work and career future.
+1. The course ends with a **Questions & Wrap-Up** module with 7 slides that last for 20 minutes and focuses on helping your students transfer their newly gained knowledge and skills to their work and career future.
 
 
 ## Course breaks
@@ -47,9 +47,9 @@ Watch the videos, practice the labs, visit the resources, and complete all the q
 
 
 ## Course files
-The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:
-    - [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
-    - [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
+The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:  
+- [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
+- [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
 
 
 ### Lab setup
@@ -66,18 +66,17 @@ The setup instructions are available in the **attendee > Lab materials > Lab01A*
 ### Power BI account
 You are responsible for having your own Power BI account.
 
-Check that you have Power BI Desktop installed
-•	Power BI Desktop is free to download
-•	Most recent monthly release is best!
+Check that you have Power BI Desktop installed  
+- Power BI Desktop is free to download
+- Most recent monthly release is best!
 
 Launch Power BI Desktop
-•	Sign in to the Power BI Service
+- Sign in to the Power BI Service
 
 ### Copy paste snippets
 To improve accuracy and reduce typing, many labs involve copying and pasting from snippet files. 
-
-•	Avoid the temptation to just copy-and-paste
-•	Take the time to understand the intention of each snippet
+- Avoid the temptation to just copy-and-paste
+- Take the time to understand the intention of each snippet
 
 > [!TIP]
 > When snippet files are available use them in your labs. 

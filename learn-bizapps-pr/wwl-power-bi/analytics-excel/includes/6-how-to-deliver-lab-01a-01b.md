@@ -18,7 +18,7 @@ The Lab document is available at <CourseFolder>\...\Lab01A
 > Remind your students that the SureWi company scenario is for background only. It’s not very important to understand what the company does. 
 
  
-## Lab 01A
+## Lab 01B
 Lab 01B is optional for students who can complete Lab 01A in less than the allotted 45 minutes. 
 
 Your student’s tasks in Lab 01B are to take an existing Power Pivot and adjust it with Measures, a Slicer, and sort by dates:
