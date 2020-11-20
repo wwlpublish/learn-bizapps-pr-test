@@ -14,7 +14,7 @@ demonstrate the **Navigate** and **Back()** functionality.
 
 	[![select the New Screen dropdown.](../media/new-screen-ss.png)](../media/new-screen-ss.png#lightbox)
 
-1.  This will create a new blank screen in your app. Repeat once more to have 3 screens total.
+1.  This will create a new blank screen in your app. Repeat once more to have three screens total.
 
 1. On Screen1, insert a **Button** control and change the **Text**
     property to **Next**.
