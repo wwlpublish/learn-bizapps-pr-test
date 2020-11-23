@@ -4,7 +4,7 @@ title: Power BI and SharePoint online
 metadata:
   title: Power BI and SharePoint online
   description: "Power BI and SharePoint online"
-  ms.date: 11/20/2020
+  ms.date: 11/23/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 6
 content: |
-  [!include[](includes/4-pbi-sharepoint-online.md)]
+  [!include[](includes/4-power-bi-sharepoint-online.md)]
