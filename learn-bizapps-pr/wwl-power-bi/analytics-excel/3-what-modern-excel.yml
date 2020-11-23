@@ -4,7 +4,7 @@ title: What is modern excel
 metadata:
   title: What is modern excel
   description: "What is modern excel"
-  ms.date: 11/20/2020
+  ms.date: 11/23/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 20
 content: |
-  [!include[](includes/3-what-is-modern-excel.md)]
+  [!include[](includes/3-what-modern-excel.md)]
