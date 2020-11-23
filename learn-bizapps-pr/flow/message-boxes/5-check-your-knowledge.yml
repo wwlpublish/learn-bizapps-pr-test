@@ -41,8 +41,8 @@ quiz:
       isCorrect: false 
       explanation: "That is false; custom dialog windows may contain Buttons, Checkboxes, Text, and many more types of elements."
     - content: "All the above"
-      isCorrect: false 
+      isCorrect: true 
       explanation: "That is false; custom dialog windows may contain Buttons, Checkboxes, Text, and many more types of elements."
     - content: "None of the above"
-      isCorrect: true
+      isCorrect: false
       explanation: "That is correct! Custom dialog windows may contain Buttons, Checkboxes, Text, and many more types of elements."
