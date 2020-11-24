@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-to-teach-module-design-report-layouts.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: Brett.Geoffroy
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Designing Report Layouts"
+  questions:
+  - content: "While you are demonstrating Report builder, your customer asks how you would look to the community or Power BI team blog for suggestions. What’s the fastest way to get to these resources from Report builder?"
+    choices:
+    - content: "Open Edge and start typing in the URL"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "File > Options to access resources"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Open Help, search for the topic, and then select Additional resources"
+      isCorrect: true
+      explanation: "That's correct."
+  - content: "Expressions can be assigned to all of these except:"
+    choices:
+    - content: "Location or size properties"
+      isCorrect: true
+      explanation: "That's correct."
+    - content: "Style and formatting properties"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Textbox and placeholder values"
+      isCorrect: false
+      explanation: "That's incorrect."
