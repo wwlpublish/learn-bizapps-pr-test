@@ -1,0 +1,29 @@
+This train the trainer course will give you the technical knowledge required to teach your customers to create, publish, and distribute Power BI paginated reports. This will help you explain and demo paginated reports to your customers, which in turn will help alleviate their reporting concerns and move your sales forward.
+
+This course is a mix of videos, labs, resources, and quizzes:
+- In the **videos**, Peter Myers (Microsoft Most Valued Professional - Data Platform, and course developer), and Chris Finlan (Principal Program Manager), and special guest Paginated Report Bear (Course Morale Manager) take you through the course and show you how to demonstrate creating paginated reports.
+- The **labs** will help you practice developing paginated reports so you can better demo to your customers.
+- The **resources** will help you guide your customers to additional information during and after the sales process.
+- The **quizzes** will help you identify key messages and possible disconnects for your customers.
+
+
+## Prepare to teach this course
+You will likely need to deliver some or all of this course to your customers to help close sales. As you take this course consider how you and your partners could present the content to your customers.
+
+In addition to taking notes on the content, take notes on what worked with Peter Myers and Chris Finlan’s delivery, and where you would do things differently. 
+
+
+## To receive credit
+Watch the videos, practice the labs, visit the resources, and complete all of the quizzes to receive credit.
+
+## Overview video
+In this 3-minute video Peter Myers, Chris Finlan , and special guest Paginated Report Bear (Course Morale Manager) welcome you and introduce course.
+
+> [!TIP]
+> You don't need a Paginated bear to teach this course, but a captivating course does depend on:
+> - Capturing your students attention
+> - Making the content relevant to your students environment
+> - Giving your students the confidence that they can use these tools
+
+> [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0] 
+> View the video here.
