@@ -41,7 +41,7 @@ quiz:
     - content: SHA2
       isCorrect: false 
       explanation: PFX is the only certificate type that can be uploaded in the Power Apps portals admin center.
-  - content: You need to update a large amount of Common Data Service data, which will affect some of the functionality of the portal. You want to block users from navigating to the portal. What is your best option to complete this task?
+  - content: You need to update a large amount of Microsoft Dataverse data, which will affect some of the functionality of the portal. You want to block users from navigating to the portal. What is your best option to complete this task?
     choices: 
     - content: Turn off the portal in the Portal Actions section.
       isCorrect: false 

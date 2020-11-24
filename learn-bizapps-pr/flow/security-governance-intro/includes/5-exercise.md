@@ -29,8 +29,8 @@ If necessary, sign up for a [trial Power Automate account](https://flow.microsof
 
 	When deciding to include a database for future environments, 
     evaluate how the environment will be used. For example, if you 
-    have plans to use Common Data Service, AI Builder, UI flows, 
-    or apps that use Common Data Service, then you need to include 
+    have plans to use Microsoft Dataverse, AI Builder, UI flows, 
+    or apps that use Dataverse, then you need to include 
     a database in your environment. If you have no plans to use these 
     features, then a database is not required.
 

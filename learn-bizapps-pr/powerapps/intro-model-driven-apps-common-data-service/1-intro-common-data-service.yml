@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.intro-model-driven-apps-common-data-service.1-intro-common-data-service 
-title: Introduction to Common Data Service
+title: Introduction to Microsoft Dataverse
 metadata: 
-  title: Introduction to Common Data Service 
-  description: Learn about Common Data Service.  
+  title: Introduction to Dataverse 
+  description: Learn about Dataverse.  
   ms.date: 1/17/2020 
   author: KevSch 
   ms.author: kschimke 

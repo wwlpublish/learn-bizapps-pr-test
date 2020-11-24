@@ -43,7 +43,7 @@ quiz:
     - content: By taking a picture or uploading one from a local disk
       isCorrect: true
       explanation: You can retrieve the text that is recognized in a Power Apps canvas app by taking a picture or uploading one from a local disk.
-    - content: From Common Data Service 
+    - content: From Microsoft Dataverse 
       isCorrect: false
       explanation: You can retrieve the text that is recognized in a Power Apps canvas app by taking a picture or uploading one from a local disk.
   - content: Is the AI Builder Text Recognizer component available from a model-driven Power App? 

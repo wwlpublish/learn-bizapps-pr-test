@@ -17,7 +17,7 @@ summary: |
 
 prerequisites: |
   - Signed up for Power Apps or Power Automate 
-  - Access to Common Data Service 
+  - Access to Microsoft Dataverse 
 iconUrl: /learn/achievements/bring-ai-to-your-business-with-ai-builder.svg
 levels:
 - beginner

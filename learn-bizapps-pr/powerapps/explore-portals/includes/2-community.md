@@ -1,7 +1,7 @@
 The Community portal template is meant to be used as a platform for an online community. 
 
 > [!NOTE]
-> The Community portal is only available on Common Data Service environments with Dynamics 365 apps enabled.
+> The Community portal is only available on Microsoft Dataverse environments with Dynamics 365 apps enabled.
 
 These communities are often built around the fact that the community members use services of the same organization. Perhaps the online community is comprised of a local city council that provides ongoing services to its constituents. Alternatively, the online community could be people who purchased products from a manufacturer, and who use the community site to share tips and tricks with each other or assist other members in troubleshooting.
 
@@ -107,6 +107,6 @@ An organization can allow customers to sign in to the portal and begin the suppo
 
 If the provided information is not sufficient to resolve the issue, the customer can create a new support case through the portal. This action will create a corresponding case record in Dynamics 365 Customer Service. The case can be assigned to a particular support representative or team that is following the same business processes that are defined for using the Customer Service Hub.
 
-The support representative can follow existing processes and procedures to resolve the case, such as referring to a knowledge article or providing steps to resolve the issue by using traditional support channels (phone, email). The support representative can also associate a portal comment activity record to the case, which is visible on the case timeline in Dynamics 365 and the portal. Additional configuration by using Common Data Service workflow and email integration will allow the customer to be notified of updates to the case with a hyperlink to the portal.
+The support representative can follow existing processes and procedures to resolve the case, such as referring to a knowledge article or providing steps to resolve the issue by using traditional support channels (phone, email). The support representative can also associate a portal comment activity record to the case, which is visible on the case timeline in Dynamics 365 and the portal. Additional configuration by using Dataverse workflow and email integration will allow the customer to be notified of updates to the case with a hyperlink to the portal.
 
 A customer can also respond and update the case by creating portal comments. When the case is resolved, the customer could have the option to reopen the case if the issue was not resolved.

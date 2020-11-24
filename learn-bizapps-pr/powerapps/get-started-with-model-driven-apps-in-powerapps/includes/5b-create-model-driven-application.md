@@ -1,10 +1,22 @@
 ## Scenario
 
 In the [exercise](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise/?azure-portal=true) in the previous module of this learning path, you created 
-the Prospects entity in Common Data Service and imported the existing leads, 
-now in this exercise you will use this data to create a model-driven app. 
+the Prospects entity in Microsoft Dataverse and imported the existing leads, 
+now in this exercise you will use this data to create a model-driven app. If you do not have the *Prospects* entity then refer to the previous exercise or follow the **Create the custom entity** steps below.
 This app will allow the sales team to enter and edit leads on the go and 
 keep the managers up to date on the current leads and forecasted revenue.
+
+### Create the custom entity (skip if you have already created the *Prospects* entity)
+
+1. Go to the [Power Apps home page](https://powerapps.microsoft.com/)  and sign in to Power Apps.
+1. On the menu, expand **Data** and **Select Entities**.
+1. Select **New Entity**.
+1. Enter the following information:
+	- **Display name**: *Prospects*
+1. In the Primary Field section, enter the following information:
+	- **Display Name**: *Prospect Name*
+1. Select **Create**.
+1. Select **Done**.
 
 ### Create the model-driven app for the prospects entity
 

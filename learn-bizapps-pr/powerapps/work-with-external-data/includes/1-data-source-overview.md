@@ -1,6 +1,6 @@
 In Microsoft Power Apps, you use data sources to connect to and store your data.
 You can access data within the Office 365 ecosystem in locations such as
-Common Data Service, SharePoint, SQL Server, and other
+Microsoft Dataverse, SharePoint, SQL Server, and other
 on-premises sources; Azure or other cloud services; a web API; or any of
 more than 200 built-in connectors.
 
@@ -11,7 +11,7 @@ This graphic shows the most common data sources.
 The Power Apps Per app plan or Power Apps Per user plan provides access to
 premium connectors, such as these examples:
 
--   Common Data Service (database)
+-   Dataverse (database)
 
 -   SQL Server
 
@@ -31,7 +31,7 @@ Tabular or action-based data sources
 ------------------------------------
 
 Data sources provide data as either actions or one or more tables. Some
-data sources, such as Common Data Service, SharePoint, and SQL Server provide
+data sources, such as Dataverse, SharePoint, and SQL Server provide
 your data in a structured table. With table data sources, you can easily
 display the data in a gallery or a form. In Power Apps, you can use
 multiple functions for working with tables of data.

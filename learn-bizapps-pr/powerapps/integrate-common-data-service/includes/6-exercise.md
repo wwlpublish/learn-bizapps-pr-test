@@ -17,7 +17,7 @@ At the end of these exercises, you will be able to:
 
 The prerequisites for performing tasks in this exercise are:
 
-- System Administrator access to a Common Data Service instance with the Dynamics 365 Customer Service app installed.
+- System Administrator access to a Microsoft Dataverse instance with the Dynamics 365 Customer Service app installed.
 
 - A provisioned Customer self-service, Community, or Partner portal template. If you do not have a Power Apps portal available, follow the [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
 
@@ -45,7 +45,7 @@ Before you enable additional actions for the entity form, you need to create a w
 1. Open the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.
 1. Make sure that the selected environment is the one with the portal solution installed.
 1. Select **Solutions**.
-1. Select **Common Data Service Default Solution**.
+1. Select **Microsoft Dataverse Default Solution**.
 1. Select the ellipsis (**...**) button and then select **Switch to classic**.
 1. In the new window that opens, select **Processes**.
 1. Select **New**.

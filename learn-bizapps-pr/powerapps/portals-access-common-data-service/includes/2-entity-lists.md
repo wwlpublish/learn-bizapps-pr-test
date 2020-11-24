@@ -1,4 +1,4 @@
-The **Entity Lists** component allows a maker to display a list of Common Data Service records on a portal webpage by using configuration only. Entity lists are defined by using model-driven app views and can be further configured to filter data based on entity permissions. Entity lists can have additional features enabled such as running workflows and navigating to show detail records. 
+The **Entity Lists** component allows a maker to display a list of Microsoft Dataverse records on a portal webpage by using configuration only. Entity lists are defined by using model-driven app views and can be further configured to filter data based on entity permissions. Entity lists can have additional features enabled such as running workflows and navigating to show detail records. 
 
 ## Create an entity list 
 
@@ -47,7 +47,7 @@ The following sections explain some of the most common features and settings.
 
 ### Views
 
-Selected view(s) define the Common Data Service entity fields, list layout, and the default sort order. 
+Selected view(s) define the Dataverse entity fields, list layout, and the default sort order. 
 
 **Multiple views** - If more than one view has been specified, a drop-down list will be rendered to allow the user to switch between the views. 
 
@@ -103,7 +103,7 @@ Entity lists can have actions associated with them to enable per list commands, 
 
 For more information, see [About entity lists](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).
 
-Watch the following video to learn how to configure and display the view on a portal page and add interactive filtering capabilities on an existing Common Data Service entity.
+Watch the following video to learn how to configure and display the view on a portal page and add interactive filtering capabilities on an existing Dataverse entity.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ArhG]
 

@@ -15,7 +15,7 @@ summary: |
 abstract: |  
     In this module, you will: 
     - Learn how to use scripting actions.
-    - Create two processes by using VBScript and JavaScript.
+    - Create two processes using VBScript and JavaScript.
 prerequisites: |
     - Familiarity with the WinAutomation Console and Process Designer
     - Advanced experience with process development and variables 

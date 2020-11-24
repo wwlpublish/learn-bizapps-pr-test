@@ -18,8 +18,8 @@ Follow these steps to give users the ability to automatically retrieve contact i
 
     ![A screenshot of an automatically generated cell phone description](../media/image2.png)
 
-### Bind the contact information to an existing entity from Common Data Service
-To bind the contact information to an existing entity from Common Data Service, follow these steps:
+### Bind the contact information to an existing entity from Microsoft Dataverse
+To bind the contact information to an existing entity from Dataverse, follow these steps:
 
 1. Select **Insert a new Form in edition mode**. 
 2. Change the **Default mode** property to **New** and the **Data source** property to the **Contacts** entity. 
@@ -89,6 +89,6 @@ The extracted contact information is now displayed in the form's data cards. You
 
 ![A screenshot of a social media post Description automatically generated](../media/image6.png)
 
-You can add new fields to the form; AI Builder Business card reader will recognize various contact information from business cards. You can also use the extracted information to create records in other entities from Common Data Service and to use it in external data sources.
+You can add new fields to the form; AI Builder Business card reader will recognize various contact information from business cards. You can also use the extracted information to create records in other entities from Dataverse and to use it in external data sources.
 
-You have now learned how to build a Power Apps canvas app with the AI Builder Business card reader component, and have discovered how to use the extracted contact information to create a new record in the **Contact** entity from Common Data Service.
+You have now learned how to build a Power Apps canvas app with the AI Builder Business card reader component, and have discovered how to use the extracted contact information to create a new record in the **Contact** entity from Dataverse.

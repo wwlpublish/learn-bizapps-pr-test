@@ -1,4 +1,4 @@
-Business process flows are used to guide a user through the steps of your business process when working with Model-driven apps and the Common Data Service. The example below will guide you through the process and decisions you need to make when building a business process flow. 
+Business process flows are used to guide a user through the steps of your business process when working with Model-driven apps and the Microsoft Dataverse. The example below will guide you through the process and decisions you need to make when building a business process flow. 
 
 ## Create a business process flow
 
@@ -16,7 +16,7 @@ Business process flows are used to guide a user through the steps of your busine
 
     - **Name**: A unique name that's based on the display name. You can change the name when you create the process, but you can't change it after the process has been created.
 
-    - **Common Data Service entity**: Select the entity to base the process on.
+    - **Dataverse entity**: Select the entity to base the process on.
 
     - The entity that you select affects the fields that are available for steps that can be added to the first stage of the process flow. You can't change the entity after you save the process.
 

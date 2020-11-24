@@ -59,13 +59,13 @@ quiz:
     choices: 
     - content: Add a real-time workflow on the Delete button and invoke the Escalate Case workflow as the first step. Rename the Delete button to Escalate.
       isCorrect: false 
-      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Common Data Service workflow of your choice against the record. Both background and real-time workflows are supported.
+      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Microsoft Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
     - content: Ask a developer to write JavaScript that invokes the Escalate Case workflow.
       isCorrect: false 
-      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Common Data Service workflow of your choice against the record. Both background and real-time workflows are supported.
+      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
     - content: Add the Workflow action under the Action Button Configuration feature.
       isCorrect: true 
-      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Common Data Service workflow of your choice against the record. Both background and real-time workflows are supported.
+      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
     - content: Background workflows are not available in Power Apps portals.
       isCorrect: false 
-      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Common Data Service workflow of your choice against the record. Both background and real-time workflows are supported.
+      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.

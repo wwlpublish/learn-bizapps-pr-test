@@ -16,7 +16,7 @@ browser. Select **Settings** on the upper right portion of the
 screen and then select **Connections**. Select any connector and then
 select **Flows using this connection** to see all flows that use that connector.
 
-![](../media/flows-using-connection.jpg)
+![Screenshot of flow connection.](../media/flows-using-connection.jpg)
 
 The flow **Details** screen shows other important information such as the owner of
 the connection and when it was created and modified.

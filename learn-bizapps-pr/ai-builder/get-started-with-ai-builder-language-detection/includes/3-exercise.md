@@ -1,6 +1,6 @@
 In this exercise, you will build a Power Automate flow that checks for the language of an email and then routes it to a specific email inbox. For more information, see the Create a flow in Power Automate documentation.
 
-The prerequisite for this exercise is to have Common Data Service in the environment where you are building your flow.
+The prerequisite for this exercise is to have Microsoft Dataverse in the environment where you are building your flow.
 
 **Create a flow that detects language and routes to a specific inbox**
 
