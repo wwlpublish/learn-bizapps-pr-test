@@ -14,8 +14,8 @@ In this module you have learned how to deliver the module on **Questions & Wrap-
 ## Resources
 
 The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:  
-- [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
-- [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
+- [Instructor](https://assetsprod.microsoft.com/mpn/maiad-instructor.zip)
+- [Attendee](https://assetsprod.microsoft.com/mpn/maiad-attendee.zip)
 
 These resources will help you better understand Power BI.
 
