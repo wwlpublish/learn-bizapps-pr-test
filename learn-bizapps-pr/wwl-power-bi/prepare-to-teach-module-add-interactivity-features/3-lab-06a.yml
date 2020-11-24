@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-to-teach-module-add-interactivity-features.lab-06a
+title: Lab 06A Add Interactivity Features
+metadata:
+  title: Lab 06A Add Interactivity Features
+  description: "Lab 06A Add Interactivity Features"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: Brett.Geoffroy
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 10
+content: |
+  [!include[](includes/3-lab-06a.md)]
