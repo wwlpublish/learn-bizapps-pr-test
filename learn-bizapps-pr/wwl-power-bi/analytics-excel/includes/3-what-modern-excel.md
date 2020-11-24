@@ -32,7 +32,7 @@ This review will lower your student's fears and resistance to the new and unknow
 
 ## Modern tools
 
-This section is a short side trip into XLOOKUP and FILTER() to start your students thinking about finding and sorting data. These tools will also give your students a quick example of some of the new updates thta they may have missed in Excel. 
+This section is a short side trip into XLOOKUP and FILTER() to start your students thinking about finding and sorting data. These tools will also give your students a quick example of some of the new updates that they may have missed in Excel. 
 
 
 ### XLOOKUP() 

@@ -1,6 +1,6 @@
 In this module, you have learned how to teach the **Analytics in Excel** module of instructor-led course **Modern Excel Analyst in a day** to your Data Analyst customers. 
 
-You now have the skills, knowledge and course resouces to explain and demonstrate useful Excel tools including:
+You now have the skills, knowledge and course resources to explain and demonstrate useful Excel tools including:
 - Power Query
 - Power Pivot
 - Relationships
@@ -16,8 +16,8 @@ You've also learned how to give your students several compelling reasons to beco
 
 ## Resources
 The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:  
-- [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
-- [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
+- [Instructor](https://assetsprod.microsoft.com/mpn/maiad-instructor.zip)
+- [Attendee](https://assetsprod.microsoft.com/mpn/maiad-attendee.zip)
 
 
 These resources from the instuctor-led course will help your students better understand Modern Excel.  
