@@ -22,10 +22,9 @@ In this 26-minute video Peter Myers and Chris Finlan demonstrate creating a tabl
 
 
 ![alt text for image](../media/sales-performance.png)
-https://www.youtube.com/watch?v=JhEa_TugXeE&list=PL1N57mwBHtN1icIhpjQOaRL8r9G-wytpT&index=15
 
 > [!TIP]
-> This is a 20-minute demo, so come back to the table report view a couple times during the demo to remind your students of how your changes will impact the user.
+> This is a 20-minute demo, so come back to the table report view a couple times during the demo to remind your students of what you are doing and how your changes will impact the user.
 
 > [!VIDEO https://www.youtube.com/embed/JhEa_TugXeE]
 > Access the video here
