@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-to-teach-module-retrieve-report-data.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: Brett.Geoffroy
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Retrieving report data"
+  questions:
+  - content: "If your data source is not natively supported, what is your best option?"
+    choices:
+    - content: "Create a static set of data for the purposes of the report"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Transfer the data you need to a supported data source"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Use Power BI Desktop to create a model first"
+      isCorrect: true
+      explanation: "That's correct."
+  - content: "Which of the following is NOT a reason to use stored procedures when possible?"
+    choices:
+    - content: "Security"
+      isCorrect: true
+      explanation: "That's correct."
+    - content: "Ease of maintenance"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Better performance"
+      isCorrect: false
+      explanation: "That's incorrect."
+  - content: "A dataset has collections of all of these except:"
+    choices:
+    - content: "Tables"
+      isCorrect: true
+      explanation: "That's correct."
+    - content: "Fields"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Parameters"
+      isCorrect: false
+      explanation: "That's incorrect."
