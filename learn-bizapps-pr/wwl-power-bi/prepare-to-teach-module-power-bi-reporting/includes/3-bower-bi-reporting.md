@@ -2,6 +2,8 @@ In this module we’ll cover:
 - Introducing Power BI
 - Power BI reporting
 - Paginated reporting
+
+
 You will likely need to deliver this module to some of your customers to help close sales. As you take this module consider how you and your partners could present the content to your customers. 
 
 ## Introducing Power BI
@@ -9,9 +11,9 @@ Power BI supports two different report types:
 - Power BI reports
 - Power BI paginated reports
 
-Do not confuse paginated reports with Power BI Report Server which is for on-premises scenarios.  Power BI paginated reports, are hosted in the Power BI service.
+Do not confuse paginated reports that are stored on Power BI Servcie with Power BI Report Server. Report Server is for on-premises scenarios.  
 
-This course does not cover Power BI Report Server. However, reports can be migrated from SQL Server Reporting Services (SSRS) or Power BI Report Server
+This course does not cover Power BI Report Server. However, reports can be migrated to Power BI Service from SQL Server Reporting Services (SSRS) or Power BI Report Server
 
 ### Video: Power BI Reporting – Part 1
 
