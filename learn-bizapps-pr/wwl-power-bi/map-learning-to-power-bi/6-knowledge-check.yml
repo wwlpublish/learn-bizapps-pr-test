@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/23/2020
+  ms.date: 11/24/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -45,7 +45,7 @@ quiz:
       explanation: "That's incorrect. This was the old way to protect data."
     - content: "Row level security (RLS)"
       isCorrect: true
-      explanation: "That's correct. RLS allows you to control acces by role."
+      explanation: "That's correct. RLS allows you to control access by role."
     - content: "Sharing specific reports with specific people"
       isCorrect: false
       explanation: "That's incorrect. This was the old way to protect data."

@@ -4,7 +4,7 @@ In this section you will show the interactivity of visuals across a Power BI rep
 > [!TIP]
 > Your students have just finished their lunch, so they will be relaxed and may not be paying close attention. For that reason, we start with Power BI visuals and an example where things move on the screen. You may also need to encourage them to re-engage.
 
-![Example of visuals in Power BI](../media/visuals.png)
+[![Example of visuals in Power BI](../media/visuals.png)](../media/visuals.png#lightbox)
 
 ### Video
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IAZT] 

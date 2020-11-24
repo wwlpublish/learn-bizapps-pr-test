@@ -1,9 +1,9 @@
 ## Publishing
 
-Power BI Service allows you to share your data sets and reports:
+Power BI service allows you to share your data sets and reports:
 - Publishing enables developers to share content with end users.
-- You can share an individual report with specific people, or with Office 365 groups
-- Comments can be created around a page, specific visual, or dashboard tile
+- You can share an individual report with specific people, or with Office 365 groups.
+- Comments can be created around a page, specific visual, or dashboard tile.
 
 > [!TIP]
 > This may be the first time that your students hear about Power BI service. Take the time to make sure they understand the different between Power BI desktop that you’ve already covered, and Power BI service that you are now starting to cover.
@@ -19,7 +19,7 @@ In this section you’ll deliver the promoted datasets section and explain how t
 > [!TIP]
 > While discussing promoted and secure data sets and scheduled refreshes, be careful not to get too detailed for your audience or your class schedule. The goal of this section is to make it clear that these options exist and are valuable.
 
-Power BI Service allows you to promote or certify your data sets and reports to create trusted analytics:
+Power BI service allows you to promote or certify your data sets and reports to create trusted analytics:
 - Create new reports based on existing datasets…especially those that are considered truthful and accurate
 - User can “promote” a data set or request it be “certified”
 - Power BI Admin applies certified status 

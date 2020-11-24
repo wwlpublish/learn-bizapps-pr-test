@@ -10,12 +10,12 @@ The key message is on the first slide of this module:
 > Your goal in this module is to help your students leverage what they already know about Power Pivot tables and extend that knowledge into Power BI Desktop.
 
 We are now at step 3 of the course journey:
-1. We level set with the class on Pivot tables
+1. We level set with the class on Pivot tables.
 1. We introduced Power Pivot in Excel as an extension of what they knew about Pivot tables.
 1. We now are introducing Power BI as an extension of what they just learned about Power Pivot in Excel.
 
 To do this you will show a side by side comparison of Power BI and Excel
-![Side by side comparison of Excel and Power BI.](../media/map-excel-power-bi.png)
+[![Side by side comparison of Excel and Power BI.](../media/map-excel-power-bi.png)](../media/map-excel-power-bi.png#lightbox)
 
 
 ## Connect to data sources
