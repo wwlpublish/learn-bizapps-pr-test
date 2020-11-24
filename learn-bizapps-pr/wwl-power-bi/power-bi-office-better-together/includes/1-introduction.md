@@ -10,12 +10,12 @@ In this module you will learn how to deliver the Instructor-led module on **Powe
 
 
 The other modules in the **Prepare to teach: Modern Excel Analyst in a day** course will give you the skills and knowledge to explain and demonstrate how to:
-1. Setup Power Query & Power Pivot in Excel
-1. Use Power Query & Power Pivot in Excel to improve efficiency, provide reusable seamless solutions and transform existing manual reporting into actionable insights
-1. Understand how Excel maps into Power BI Desktop
-1. Identify opportunities to use Excel & Power BI together
-1. **Integrate Excel & Power BI solutions into Microsoft Teams & SharePoint (This module)**
-1. Identify when to use Excel, Power BI, or both together.
+* Setup Power Query & Power Pivot in Excel
+* Use Power Query & Power Pivot in Excel to improve efficiency, provide reusable seamless solutions and transform existing manual reporting into actionable insights
+* Understand how Excel maps into Power BI Desktop
+* Identify opportunities to use Excel & Power BI together
+* **Integrate Excel & Power BI solutions into Microsoft Teams & SharePoint (This module)**
+* Identify when to use Excel, Power BI, or both together.
 
 ![PowerPoint screenshot showing the number of slides per section and class schedule.](../media/slide-count.png)
 

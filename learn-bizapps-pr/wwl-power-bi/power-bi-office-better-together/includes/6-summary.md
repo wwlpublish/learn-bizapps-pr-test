@@ -1,19 +1,20 @@
-In this module, you have learned how to teach the **Power BI and Office better togehter** module of instructor-led course **Modern Excel Analyst in a day** to your Data Analyst customers.
+In this module, you have learned how to teach the **Power BI and Office better together** module of instructor-led course **Modern Excel Analyst in a day** to your Data Analyst customers.
 You now have the skills, knowledge, and resources to help your students use what they already know about Office 365 and extend that knowledge into Power BI Desktop.
 
 You’ve learned how to show your students that Power BI integrates seamlessly with MS Office Teams & SharePoint Online. 
 
 You have learned how to explain the sections on:
-1. Power BI and Microsoft Teams
-1. Power BI and SharePoint
-1. Power BI and SharePoint Online
+
+* Power BI and Microsoft Teams
+* Power BI and SharePoint
+* Power BI and SharePoint Online
 
 
 
 ## Resources
 The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:  
-- [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
-- [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
+- [Instructor](https://assetsprod.microsoft.com/mpn/maiad-instructor.zip)
+- [Attendee](https://assetsprod.microsoft.com/mpn/maiad-attendee.zip)
 
 These resources will help you better understand Power BI, Power BI reporting and Power BI paginated reports.
 They will also allow you to provide additional information when you are explaining these topics to your customers. 
