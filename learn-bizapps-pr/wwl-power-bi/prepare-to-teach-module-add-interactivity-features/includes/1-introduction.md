@@ -1,3 +1,12 @@
+To help your customers gain the full power of Excel and Power BI, you may need to provide some of them with technical training on how to use paginated reports. 
+
+This train-the-trainer course will prepare you to deliver the **Adding Interactivity Features** module of the **Power BI Paginated Reports in a Day** instructor-led course. 
+That course will take your customers on a journey in to develop and then publish paginated reports with Power BI. By the end of your delivery, you will have alleviated some of their reporting concerns and moved your sales forward.  
+
+Depending on your customers’ needs you may want to deliver this module by itself, or with some or all  the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
+
+## Adding Interactivity Features
+
 Interactivity features to allow report users to control report display and content.
 
 
@@ -11,3 +20,28 @@ In this module we’ll cover how to explain and demonstrate implementing interac
 Not all rendering formats support interactivity features, however HTML supports all interactivity features.
 
 You will likely need to deliver this module to some of your customers to help close sales. As you take this module consider how you and your partners could present the content to your customers. 
+
+
+## How to teach this module 
+This train-the-trainer course will give you the technical knowledge and delivery guidance to teach your customers to create, publish, and distribute Power BI paginated reports.  This content will also help you explain and demonstrate paginated reports to your customers, which in turn will help alleviate their reporting concerns and move your sales forward.
+
+This train-the-trainer course is a mix of videos, labs, resources, and quizzes:
+- In the **videos**, Peter Myers (Microsoft Most Valued Professional - Data Platform, and course developer), and Chris Finlan (Principal Program Manager), and special guest Paginated Report Bear (Course Morale Manager) take you through the course and show you how to demonstrate creating paginated reports.
+- The **labs** will help you practice developing paginated reports so you can better demo to your customers.
+- The **resources** will help you guide your customers to additional information during and after the sales process.
+- The **quizzes** will help you identify key messages and possible disconnects for your customers.
+
+### Course files
+
+The instructor-led course content is available at: [https://aka.ms/priad-video-course](https://aka.ms/priad-video-course).  
+Video recordings of Peter Myers (Microsoft Most Valued Professional - Data Platform, and course developer), and Chris Finlan (Principal Program Manager) delivering the course are available at: [https://aka.ms/priad-online-course](https://aka.ms/priad-online-course)
+
+### Power BI account
+You are responsible for having your own Power BI account.
+
+The Power BI account is required for two reasons: 
+- To upload a Power BI Desktop file, which is a data source for report development. 
+- To publish reports, which is optional and dependent on the student having access to a workspace of Premium capacity
+
+## To receive credit for this module of the train-the-trainer course 
+Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit.
