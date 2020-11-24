@@ -23,6 +23,9 @@ The final report will look like the following:
 > [!Tip]
 > Depending on the skill level of your students, you may want to deliver this as an instructor-led lab to help them get though the steps smoothly.
 
+> [!IMPORTANT]
+> You will need to run this and all of the other labs in this course prior to teaching the course.
+
 
 ## The lab scenario
 The labs are based on the sales activities of the fictitious Adventure Works company.
