@@ -17,8 +17,8 @@ You learned how to deliver:
 
 ## Resources
 The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:  
-- [Instructor](https://assetsprod.microsoft.com/mpn/en-us/maiad-instructor.zip)
-- [Attendee](https://assetsprod.microsoft.com/mpn/en-us/maiad-attendee.zip)
+- [Instructor](https://assetsprod.microsoft.com/mpn/maiad-instructor.zip)
+- [Attendee](https://assetsprod.microsoft.com/mpn/maiad-attendee.zip)
 
 These resources from the instructor-led course will help your students better understand Modern Excel.  
 They will also allow you to provide additional information when you are explaining these topics to your customers.  
