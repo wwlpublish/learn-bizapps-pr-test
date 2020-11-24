@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-to-teach-module-visualize-report-data.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/24/2020
+  author: wwlpublish
+  ms.author: Brett.Geoffroy
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/6-knowledge-check.md)]
+quiz:
+  title: "Visualizing report data"
+  questions:
+  - content: "Which of these is true about Data Visualizations?"
+    choices:
+    - content: "Variant of the Tablix"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Layout size is dynamic"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Layout size is fixed"
+      isCorrect: true
+      explanation: "That's correct."
+  - content: "Which of these is true about Data regions?"
+    choices:
+    - content: "The Ribbon bar includes 6 templates"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Include: Gauge, Sparkline, and Indicator"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Variant of the Tablix"
+      isCorrect: true
+      explanation: "That's correct."
+  - content: "Which of the following is NOT true about Data Bar, Sparkline, and Indicator?"
+    choices:
+    - content: "Radial and linear gauge types are available."
+      isCorrect: true
+      explanation: "That's correct."
+    - content: "can be used stand-alone or embedded into Tablix data regions."
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "When embedded into a Tablix, they must be based on the same dataset used by the Tablix."
+      isCorrect: false
+      explanation: "That's incorrect."
