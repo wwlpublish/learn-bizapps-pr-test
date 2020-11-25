@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-to-teach-module-beyond-report-development.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/25/2020
+  author: wwlpublish
+  ms.author: Brett.Geoffroy
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: "Beyond report development"
+  questions:
+  - content: "Is it recommended that Report users be granted access to the workspace?"
+    choices:
+    - content: "Yes, this level of access is secure"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Yes, this is required to use parameters"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "No, reports should be shared of distributed"
+      isCorrect: true
+      explanation: "That's correct."
+  - content: "Which of these orders is correct?"
+    choices:
+    - content: "Data Sources retrieve data from Datasets to deliver Fields"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Fields retrieve data from Data Sources to deliver Datasets"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Datasets retrieve data from Data Sources to deliver Fields"
+      isCorrect: true
+      explanation: "That's correct."
+  - content: "Which of these is NOT a recommended method for embedding reports?"
+    choices:
+    - content: "Using a link or iframe"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "URL access"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Granting workspace access"
+      isCorrect: true
+      explanation: "That's correct."
