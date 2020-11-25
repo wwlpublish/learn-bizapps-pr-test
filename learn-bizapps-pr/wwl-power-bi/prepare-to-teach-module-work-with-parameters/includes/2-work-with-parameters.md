@@ -1,6 +1,6 @@
 ## Video 11: Working with Parameters - Part 1	
 
-In this 9-minute video Peter Myers and Chris Finlan introduce query parameters and report parameters. 
+In this 9-minute video, Peter Myers and Chris Finlan introduce query parameters and report parameters. 
 
 Parameters are typically used to filter report data.  
 There are two types, and while their purposes are different, they are often related:
@@ -26,7 +26,7 @@ There are two types, and while their purposes are different, they are often rela
 
 ## Video 12: Working with Parameters - Part 2	
 
-In this 11-minute video Peter Myers and Chris Finlan describe different parameter scenarios:  
+In this 11-minute video, Peter Myers and Chris Finlan describe different parameter scenarios:  
 - Adding an “All” item
 - Multi-value parameters
 - Cascading parameters
@@ -43,7 +43,7 @@ In this 11-minute video Peter Myers and Chris Finlan describe different paramete
 
 ## Video 13: Working with Parameters - Part 3	
 
-In this 20-minute video Peter Myers and Chris Finlan enhance the Sales person directory and demonstrate configuring parameters in different scenarios.
+In this 20-minute video, Peter Myers and Chris Finlan enhance the Sales person directory and demonstrate configuring parameters in different scenarios.
 
 
 The goal of this demo to show your students how to set up a report so their users can filter down the report to just the items that they are interested. 

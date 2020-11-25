@@ -54,16 +54,16 @@ You are responsible for having your own Power BI account.
 
 ### The Power BI account is required for two reasons: 
 - To upload a Power BI Desktop file, which is a data source for report development. 
-- To publish reports, which is optional and dependent on the student having access to a workspace of Premium capacity
+- To publish reports, which are optional and dependent on the student having access to a workspace of Premium capacity.
 
-##Publishing
+## Publishing
 Some lab tasks involve publishing your paginated report to a workspace.
-You can only open a paginated report when it has been saved to a workspace on dedicated capacity, which has the paginated reports workload enabled
+You can only open a paginated report when it has been saved to a workspace on dedicated capacity, which has the paginated reports workload enabled.
 
 
 ## Copy paste snippets
 To improve accuracy and reduce typing, many labs involve copying and pasting from snippet files. 
-When snippet files are available, do not copy from the lab documents—rich-formatted text blocks often paste incorrectly, and you’re they’re likely to get a strange result in your code.
+When snippet files are available, do not copy from the lab documents. Rich-formatted text blocks often paste incorrectly, and you’re likely to get a strange result in your code.
 
-- Avoid the temptation to just copy-and-paste
-- Take the time to understand the intention of each snippet
+- Avoid the temptation to just copy-and-paste.
+- Take the time to understand the intention of each snippet.

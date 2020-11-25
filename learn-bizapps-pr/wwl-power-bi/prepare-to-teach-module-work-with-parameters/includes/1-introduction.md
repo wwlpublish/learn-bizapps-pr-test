@@ -3,13 +3,13 @@ To help your customers gain the full power of Excel and Power BI, you may need t
 This train-the-trainer course will prepare you to deliver the **Working with Parameters** module of the **Power BI Paginated Reports in a Day** instructor-led course. 
 That course will take your customers on a journey in to develop and then publish paginated reports with Power BI. By the end of your delivery, you will have alleviated some of their reporting concerns and moved your sales forward.  
 
-Depending on your customers’ needs you may want to deliver this module by itself, or with some or all  the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
+Depending on your customers’ needs you may want to deliver this module by itself, or with the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
 
 ## Working with Parameters
 
 Parameters are typically used to filter report data.
 
-In this module we’ll cover how to teach and demonstrate:
+In this module, we’ll cover how to teach and demonstrate:
 
 - Introducing parameters
 - Creating report parameters
@@ -17,7 +17,7 @@ In this module we’ll cover how to teach and demonstrate:
 - Working with parameters
 
 > [!TIP]
-> You will likely need to deliver this module to some of your customers to help close sales. As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
+> As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
 
 
 ## How to teach this module 
