@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-to-teach-module-work-with-parameters.knowledge-check
+title: Knowledge check
+metadata:
+  title: Knowledge check
+  description: "Knowledge check"
+  ms.date: 11/25/2020
+  author: wwlpublish
+  ms.author: Brett.Geoffroy
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 3
+content: |
+  [!include[](includes/4-knowledge-check.md)]
+quiz:
+  title: "Working with parameters"
+  questions:
+  - content: "Which of these is NOT true about report parameters?"
+    choices:
+    - content: "Retrieve value(s) at report execution time"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Transfer the data you need to a supported data source"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Pass value(s) to a dataset query"
+      isCorrect: true
+      explanation: "That's correct."
+  - content: "Which of the following is NOT a use for report parameters?"
+    choices:
+    - content: "Reloading the source data"
+      isCorrect: true
+      explanation: "That's correct."
+    - content: "Formatting the report presentation"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "configuring subreports and report drillthrough actions"
+      isCorrect: false
+      explanation: "That's incorrect."
+  - content: "When previewing a report, what happens if a report parameter doesn’t have a valid default value?"
+    choices:
+    - content: "The user must choose a value and the report will process automatically."
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "The user must choose a value and click View Report."
+      isCorrect: true
+      explanation: "That's correct."
+    - content: "The report will process automatically with the first value option selected."
+      isCorrect: false
+      explanation: "That's incorrect."
