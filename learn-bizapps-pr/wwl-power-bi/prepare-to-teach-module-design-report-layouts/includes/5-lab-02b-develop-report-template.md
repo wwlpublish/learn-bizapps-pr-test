@@ -8,7 +8,7 @@ Your tasks in this lab are to:
 1. Create the report
 1. Explore Report Builder
 1. Design the report layout
-1. Finalize the design
+1. Complete the design
 
 
 Lab document available at <CourseFolder>\PowerBIPRIAD\Lab02B

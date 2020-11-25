@@ -6,14 +6,14 @@ That course will take your customers on a journey to develop and then publish pa
 Depending on your customers’ needs you may want to deliver this module by itself, or with some or all the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
 
 ## Designing Report Layouts
-Making a report that is easy for the user to understand is the difference between helping your organization be successful, accidentally generating fear, uncertainty, and doubt.
+Making a report that is easy for the user to understand is the difference between helping your organization be successful, and accidentally generating uncertainty.
 
-In this module we’ll cover how to explain and demostrate:
+In this module we’ll cover how to explain and demonstrate:
 - Designing report layouts
 - Setting dynamic properties
 
 > [!TIP]
-> You will likely need to deliver this module to some of your customers to help close sales. As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
+> As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
 
 ### Report design process
 A typical development methodology covers these steps:
@@ -39,7 +39,7 @@ This train-the-trainer course will give you the technical knowledge required to 
 This course is a mix of tips, videos, labs, resources, and quizzes:
 - The **tips** offer advice on how to best deliver the content.
 - In the **videos**, Peter Myers, Chris Finlan, and special guest Paginated Report Bear take you through the course and show you how to demonstrate creating paginated reports.
-    - Peter Myers is a Microsoft Most Valued Professional - Data Platform, and developed this course.
+    - Peter Myers is a Microsoft Most Valued Professional - Data Platform and developed this course.
     - Chris Finlan is a Principal Program Manager at Microsoft.
     - Paginated Report Bear is the Course Morale Manager.
 - The **labs** will help you practice developing paginated reports so you can better demo to your customers.
@@ -56,7 +56,7 @@ You are responsible for having your own Power BI account.
 
 The Power BI account is required for two reasons: 
 - To upload a Power BI Desktop file, which is a data source for report development. 
-- To publish reports, which is optional and dependent on the student having access to a workspace of Premium capacity
+- To publish reports, which are optional and dependent on the student having access to a workspace of Premium capacity.
 
 ## To receive credit for this module of the train-the-trainer course **Prepare to teach: Paginated reports in a day**
 Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit.

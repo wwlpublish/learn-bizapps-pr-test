@@ -1,4 +1,8 @@
-In this module we covered hot to explain and demonstrate:
+In this module, you have learned how to teach the **Design report layouts** module of instructor-led course **Power BI paginated reports in a day** to your Data Analyst customers.
+You now have the skills, knowledge, and resources to help your students learn about layouts in Power BI paginated reports.
+
+
+In this module you learned how to explain and demonstrate:
 
 - Designing report layouts
 - Setting dynamic properties

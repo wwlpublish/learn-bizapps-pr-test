@@ -20,21 +20,21 @@ quiz:
     choices:
     - content: "Open Edge and start typing in the URL"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Open Help, search for the topic, and then select Additional resources."
     - content: "File > Options to access resources"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Open Help, search for the topic, and then select Additional resources."
     - content: "Open Help, search for the topic, and then select Additional resources"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. This is the fastest way to get to these resources from Report builder."
   - content: "Expressions can be assigned to all of these except:"
     choices:
     - content: "Location or size properties"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Expressions cannot be assigned to location or size properties."
     - content: "Style and formatting properties"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Expressions cannot be assigned to location or size properties."
     - content: "Textbox and placeholder values"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Expressions cannot be assigned to location or size properties."

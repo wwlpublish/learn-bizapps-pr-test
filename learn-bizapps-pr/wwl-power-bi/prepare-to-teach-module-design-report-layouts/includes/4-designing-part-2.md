@@ -1,6 +1,6 @@
 ## Video: Designing Report Layouts - Part 3
 
-In this 21-minute video Peter Myers and Chris Finlan describe how to design report layouts, including setting properties dynamically.
+In this 21-minute video, Peter Myers and Chris Finlan describe how to design report layouts, including setting properties dynamically.
 
 A couple of key points to share with your students when you deliver this section:
 - Use a report variable to hold a value for time-dependent calculations
@@ -9,12 +9,12 @@ A couple of key points to share with your students when you deliver this section
 
 - Use report items to add visual interest to the layout
 
-- Use a Sub-report to display another paginated report inside the body of a main paginated report
+- Use a subreport to display another paginated report inside the body of a main paginated report
     - Any paginated report can be embedded, providing it is stored in the same workspace as the parent report
-    - Typically, the parent reports passes parameters to the sub-report
+    - Typically, the parent reports pass parameters to the subreport
     - Sub-reports can repeat within data regions, especially the List
 
-- Use expressions to assign dynamic values to properties.
+- Use expressions to assign dynamic values to properties
     
 - Use functions from:
     - A variety of .NET namespaces
@@ -25,16 +25,16 @@ A couple of key points to share with your students when you deliver this section
     - Can leverage any available .NET Framework libraries
 
 > [!VIDEO https://www.youtube.com/embed/eaFFzkT6pxE]
-> Access the video here
+> Access the video here.
 
 
 
 ## Video: Designing Report Layouts - Part 4
 
-In this 6-minute video Peter Myers and Chris Finlan put together all the theory and demonstrate designing a report template.
+In this 6-minute video, Peter Myers and Chris Finlan put together all the theory and demonstrate designing a report template.
 
 > [!TIP]
 > If you have students who are new to report creation, a discussion on the value of templates is appropriate here. 
 
 > [!VIDEO https://www.youtube.com/embed/0z576TI27Vg]
-> Access the video here
+> Access the video here.
