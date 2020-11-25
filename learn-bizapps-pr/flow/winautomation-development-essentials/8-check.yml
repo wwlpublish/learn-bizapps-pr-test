@@ -42,4 +42,4 @@ quiz:
       explanation: "That is false; the controls repository stores only the controls used in a process. Images are stored into the images repository."
     - content: "False."
       isCorrect: true 
-      explanation: "That is false; the controls repository stores only the controls used in a process."
+      explanation: "That is false; the controls repository stores only the controls used in a process. Images are stored into the images repository."
