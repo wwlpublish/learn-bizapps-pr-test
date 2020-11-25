@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/24/2020
+  ms.date: 11/25/2020
   author: wwlpublish
   ms.author: Brett.Geoffroy
   ms.topic: interactive-tutorial
@@ -27,7 +27,7 @@ quiz:
     - content: "Post its"
       isCorrect: true
       explanation: "That's correct."
-  - content: "Does HTML rendering support all Power BI interactivity features ?"
+  - content: "Does HTML rendering support all Power BI interactivity features?"
     choices:
     - content: "No, only Excel"
       isCorrect: false
