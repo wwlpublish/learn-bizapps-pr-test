@@ -1,4 +1,6 @@
-Interactivity features to allow report users to control report display and content.
+In this module, you have learned how to teach the **Add interactivity features** module of instructor-led course **Power BI paginated reports in a day** to your Data Analyst customers.
+You now have the skills, knowledge, and resources to help your students learn more about Power BI paginated reports.
+
 
 In this module we covered how to explain and demonstrate implementing interactivity features:
 - Toggle visibility
@@ -7,7 +9,7 @@ In this module we covered how to explain and demonstrate implementing interactiv
 - Tooltips
 
 
-Not all rendering formats support interactivity features, however HTML supports all interactivity features.
+Not all rendering formats support interactivity features, however HTML does support all interactivity features.
 
 ## Power BI Paginated reports in a day
 The instructor-led course content is available at: [https://aka.ms/priad-video-course](https://aka.ms/priad-video-course).  

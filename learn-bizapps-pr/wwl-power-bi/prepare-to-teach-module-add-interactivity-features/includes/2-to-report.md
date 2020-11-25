@@ -1,5 +1,5 @@
 ## Video 18: Adding Interactive Features - Part 1	3
-In this 3-minute video Peter Myers and Chris Finlan describe adding interactive features.
+In this 3-minute video, Peter Myers and Chris Finlan describe adding interactive features.
 
 Use Interactivity features to allow report users to control report display and content. 
 
@@ -17,7 +17,7 @@ Features include:
 
 ## Video 19: Adding Interactive Features - Part 2	5
 
-In this 5-minute video Peter Myers and Chris Finlan demonstrate adding interactive features to the table report.
+In this 5-minute video, Peter Myers and Chris Finlan demonstrate adding interactive features to the table report.
 
 The interactive features include:
 - Drilldown from Country to Salesperson

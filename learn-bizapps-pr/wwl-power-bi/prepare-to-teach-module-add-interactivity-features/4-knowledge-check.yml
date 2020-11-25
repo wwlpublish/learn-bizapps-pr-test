@@ -20,32 +20,32 @@ quiz:
     choices:
     - content: "Interactive sorting"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Interactive sorting and tooltips are interactivity features."
     - content: "Tooltips"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Interactive sorting and tooltips are interactivity features."
     - content: "Post its"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Interactive sorting and tooltips are interactivity features."
   - content: "Does HTML rendering support all Power BI interactivity features?"
     choices:
     - content: "No, only Excel"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. HTML rendering supports all Power BI interactivity features."
     - content: "No, Toggling visibility is not supported"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. HTML rendering supports all Power BI interactivity features."
     - content: "Yes"
       isCorrect: true
-      explanation: "That's correct."
-  - content: "How can report users reveal Tooltips?"
+      explanation: "That's correct. HTML rendering supports all Power BI interactivity features."
+  - content: "How can report users reveal tooltips?"
     choices:
     - content: "Left button selection of the item"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Hover the cursor over the item to show tooltips."
     - content: "Select the “Show all tooltips” button"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Hover the cursor over the item to show tooltips."
     - content: "Hover the cursor over the item"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Hover the cursor over the item to show tooltips."
