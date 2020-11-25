@@ -16,7 +16,7 @@ In this module we’ll cover how to teach and demonstrate:
 
 
 > [!TIP]
-> You will likely need to deliver this module to some of your customers to help close sales. As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
+> As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
 
 
 ## How to teach this module
@@ -42,7 +42,7 @@ You are responsible for having your own Power BI account.
 
 The Power BI account is required for two reasons: 
 - To upload a Power BI Desktop file, which is a data source for report development. 
-- To publish reports, which is optional and dependent on the student having access to a workspace of Premium capacity
+- To publish reports, which are optional and dependent on the student having access to a workspace of Premium capacity.
 
 ## To receive credit for this module of the train-the-trainer course 
 Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit.

@@ -20,32 +20,32 @@ quiz:
     choices:
     - content: "Create a static set of data for the purposes of the report"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Using Power BI Desktop to create a model first is your best option."
     - content: "Transfer the data you need to a supported data source"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Using Power BI Desktop to create a model first is your best option."
     - content: "Use Power BI Desktop to create a model first"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Using Power BI Desktop to create a model first is your best option."
   - content: "Which of the following is NOT a reason to use stored procedures when possible?"
     choices:
-    - content: "Security"
+    - content: "Linear code"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Stored procedures improve maintenance and performance."
     - content: "Ease of maintenance"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Stored procedures improve maintenance and performance."
     - content: "Better performance"
       isCorrect: false
-      explanation: "That's incorrect."
-  - content: "A dataset has collections of all of these except:"
+      explanation: "That's incorrect. Stored procedures improve maintenance and performance."
+  - content: "A dataset has collections of all of these except?"
     choices:
     - content: "Tables"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Datasets include parameters and fields."
     - content: "Fields"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Datasets include parameters and fields."
     - content: "Parameters"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Datasets include parameters and fields."

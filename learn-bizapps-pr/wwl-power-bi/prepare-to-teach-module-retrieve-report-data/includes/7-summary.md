@@ -1,15 +1,18 @@
+In this module, you have learned how to teach the **Retrieve report data** module of instructor-led course **Power BI paginated reports in a day** to your Data Analyst customers.
+You now have the skills, knowledge, and resources to help your students learn about layouts in Power BI paginated reports.
+
 In this module we covered how to teach and demonstrate:
 
 - Creating data sources
 - Creating datasets
 
 ## Recommended practices
-- If your data source is not natively supported, use Power BI Desktop to create a model first
+- If your data source isn't natively supported, use Power BI Desktop to create a model first
 - Use stored procedures, when possible:
     - Better performance
-    - Re-use of logic
+    - Reuse of logic
     - Ease of maintenance
-- For Power BI Desktop or Analysis Services sources, use the DAX query designer—unless you need server aggregates or calculated members
+- For Power BI Desktop or Analysis Services sources, use the DAX query designer unless you need server aggregates or calculated members
 
 
 ## resources
