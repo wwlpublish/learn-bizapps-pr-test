@@ -13,7 +13,7 @@ In this module we’ll cover how to explain and demostrate:
 - Setting dynamic properties
 
 > [!TIP]
-> You will likely need to deliver this module to some of your customers to help close sales. As you take this module consider how you and your partners could present the content to your customers. 
+> You will likely need to deliver this module to some of your customers to help close sales. As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
 
 ### Report design process
 A typical development methodology covers these steps:
@@ -41,7 +41,7 @@ This course is a mix of tips, videos, labs, resources, and quizzes:
 - In the **videos**, Peter Myers, Chris Finlan, and special guest Paginated Report Bear take you through the course and show you how to demonstrate creating paginated reports.
     - Peter Myers is a Microsoft Most Valued Professional - Data Platform, and developed this course.
     - Chris Finlan is a Principal Program Manager at Microsoft.
-    - Paginated Report Bear  is the Course Morale Manager.
+    - Paginated Report Bear is the Course Morale Manager.
 - The **labs** will help you practice developing paginated reports so you can better demo to your customers.
 - The **resources** will help you guide your customers to additional information during and after the sales process.
 - The **quizzes** will help you identify key messages and possible disconnects for your customers.
