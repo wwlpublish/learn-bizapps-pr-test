@@ -1,5 +1,5 @@
 ## Video 14: Visualizing Report Data - Part 1
-In this 11-minute video Peter Myers and Chris Finlan introduce the data region and data visualization templates you can use to visualize report data, and then focus on each of the data region templates.
+In this 11-minute video, Peter Myers and Chris Finlan introduce the data region and data visualization templates you can use to visualize report data, and then focus on each of the data region templates.
 
 The Insert ribbon tab contains three templates for data regions:
 - Table
@@ -17,7 +17,7 @@ The Insert ribbon tab contains three templates for data regions:
 
 
 ## Video 15: Visualizing Report Data - Part 2
-In this 26-minute video Peter Myers and Chris Finlan demonstrate creating a table report.
+In this 26-minute video, Peter Myers and Chris Finlan demonstrate creating a table report.
 
 
 

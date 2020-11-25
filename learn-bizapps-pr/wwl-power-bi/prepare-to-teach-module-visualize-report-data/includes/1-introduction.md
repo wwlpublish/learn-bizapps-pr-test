@@ -3,7 +3,7 @@ To help your customers gain the full power of Excel and Power BI, you may need t
 This train-the-trainer course will prepare you to deliver the **Visualizing Report Data** module of the **Power BI Paginated Reports in a Day** instructor-led course. 
 That course will take your customers on a journey in to develop and then publish paginated reports with Power BI. By the end of your delivery, you will have alleviated some of their reporting concerns and moved your sales forward.  
 
-Depending on your customers’ needs you may want to deliver this module by itself, or with some or all  the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
+Depending on your customers’ needs you may want to deliver this module by itself, or with the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
 
 
 
@@ -18,7 +18,7 @@ In this module we’ll cover how to teach and demonstrate:
 - Creating data visualizations
 
 > [!TIP]
-> You will likely need to deliver this module to some of your customers to help close sales. As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
+> As you take this train-the-trainer guide, consider how you and your partners could present the content to your customers. 
 
 ## How to teach this module 
 This train-the-trainer course will give you the technical knowledge required to teach your customers to create, publish, and distribute Power BI paginated reports. This training will help you explain and demonstrate paginated reports to your customers to reduce their reporting concerns and move your sales forward.
@@ -26,7 +26,7 @@ This train-the-trainer course will give you the technical knowledge required to 
 This course is a mix of tips, videos, labs, resources, and quizzes:
 - The **tips** offer advice on how to best deliver the content.
 - In the **videos**, Peter Myers, Chris Finlan, and special guest Paginated Report Bear take you through the course and show you how to demonstrate creating paginated reports.
-    - Peter Myers is a Microsoft Most Valued Professional - Data Platform, and developed this course.
+    - Peter Myers is a Microsoft Most Valued Professional - Data Platform and developed this course.
     - Chris Finlan is a Principal Program Manager at Microsoft.
     - Paginated Report Bear is the Course Morale Manager.
 - The **labs** will help you practice developing paginated reports so you can better demo to your customers.

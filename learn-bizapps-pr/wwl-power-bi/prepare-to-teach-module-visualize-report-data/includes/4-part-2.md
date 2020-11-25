@@ -1,5 +1,5 @@
 ## Video  16: Visualizing Report Data - Part 3
-In this 4-minute video Peter Myers and Chris Finlan introduce the data visualization templates. 
+In this 4-minute video, Peter Myers and Chris Finlan introduce the data visualization templates. 
 
 > [!NOTE]
 > Unlike flexible grid layouts, the visualization is fixed in dimensions.  
@@ -21,7 +21,7 @@ The **Insert** ribbon tab contains six templates to visualize data:
 
 
 ## Video 17: Visualizing Report Data - Part 4
-In this 8-minute video Peter Myers and Chris Finlan demonstrate adding data bars and indicators to the table report.
+In this 8-minute video, Peter Myers and Chris Finlan demonstrate adding data bars and indicators to the table report.
 
 
 > [!CAUTION]
