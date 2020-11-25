@@ -1,4 +1,4 @@
-The following video are not part of the course but are presented to provide background on Microsoft's Power BI paginated reports.  
+The following videos aren't part of the course, but are presented to provide background on Microsoft's Power BI paginated reports.  
 
 
 ## Power BI Paginated Reports in a Day - 22: Bonus Content: Review
@@ -23,7 +23,7 @@ In this 11- minute video, Peter Myers interviews Guilherme Boreki (Principal Sof
 
 ## Power BI Paginated Reports in a Day - 24: Bonus Content: Lowering the Barrier to Entry
 
-In this video, Matt Goswell (Senior Product Marketing Manager) and Paginated Report Bear discuss lowering the barrier to entry for modern analytics and enterprise reporting.
+In this 6-minute video, Matt Goswell (Senior Product Marketing Manager) and Paginated Report Bear discuss lowering the barrier to entry for modern analytics and enterprise reporting.
 
 > [!VIDEO https://www.youtube.com/embed/vu32LfckCt8]
 > Access the video here.

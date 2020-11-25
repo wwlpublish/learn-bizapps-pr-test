@@ -1,8 +1,11 @@
+In this module, you have learned how to teach the **Beyond report development** module of instructor-led course **Power BI paginated reports in a day** to your Data Analyst customers.
+You now have the skills, knowledge, and resources to help your students learn more about Power BI paginated reports.
+
 Creating a report is just the first step in providing information to your organization.
 
 Module one of this course was an introduction to paginated reports, and modules two through six focused on authoring reports.
 
-In this seventh module we covered how to teach and demonstrate what what happens once the report is finished:
+In this seventh module we covered how to teach and demonstrate what happens once the report is finished:
 
 - Publishing reports
 - Consuming reports

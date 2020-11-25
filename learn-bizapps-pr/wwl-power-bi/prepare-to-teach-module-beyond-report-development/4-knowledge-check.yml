@@ -16,36 +16,36 @@ content: |
 quiz:
   title: "Beyond report development"
   questions:
-  - content: "Is it recommended that Report users be granted access to the workspace?"
+  - content: "Is it recommended that paginated report users be granted access to the workspace?"
     choices:
-    - content: "Yes, this level of access is secure"
+    - content: "Yes, this level of access is secure."
       isCorrect: false
-      explanation: "That's incorrect."
-    - content: "Yes, this is required to use parameters"
+      explanation: "That's incorrect. Reports should be shared or distributed."
+    - content: "Yes, this is required to use parameters."
       isCorrect: false
-      explanation: "That's incorrect."
-    - content: "No, reports should be shared of distributed"
+      explanation: "That's incorrect. Reports should be shared or distributed."
+    - content: "No, reports should be shared or distributed"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Reports should be shared or distributed."
   - content: "Which of these orders is correct?"
     choices:
-    - content: "Data Sources retrieve data from Datasets to deliver Fields"
+    - content: "Data Sources retrieve data from Datasets to deliver Fields."
       isCorrect: false
-      explanation: "That's incorrect."
-    - content: "Fields retrieve data from Data Sources to deliver Datasets"
+      explanation: "That's incorrect. Datasets retrieve data from Data Sources to deliver Fields."
+    - content: "Fields retrieve data from Data Sources to deliver Datasets."
       isCorrect: false
-      explanation: "That's incorrect."
-    - content: "Datasets retrieve data from Data Sources to deliver Fields"
+      explanation: "That's incorrect. Datasets retrieve data from Data Sources to deliver Fields."
+    - content: "Datasets retrieve data from Data Sources to deliver Fields."
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Datasets retrieve data from Data Sources to deliver Fields."
   - content: "Which of these is NOT a recommended method for embedding reports?"
     choices:
     - content: "Using a link or iframe"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Recommended methods include using a link, iframe, or URL."
     - content: "URL access"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Recommended methods include using a link, iframe, or URL."
     - content: "Granting workspace access"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Recommended methods include using a link, iframe, or URL."
