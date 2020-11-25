@@ -26,7 +26,7 @@ This train-the-trainer course will give you the technical knowledge required to 
 This course is a mix of tips, videos, labs, resources, and quizzes:
 - The **tips** offer advice on how to best deliver the content.
 - In the **videos**, Peter Myers, Chris Finlan, and special guest Paginated Report Bear take you through the course and show you how to demonstrate creating paginated reports.
-    - Peter Myers is a Microsoft Most Valued Professional - Data Platform, and developed this course.
+    - Peter Myers is a Microsoft Most Valued Professional - Data Platform and developed this course.
     - Chris Finlan is a Principal Program Manager at Microsoft.
     - Paginated Report Bear is the Course Morale Manager.
 - The **labs** will help you practice developing paginated reports so you can better demo to your customers.
@@ -44,7 +44,7 @@ You are responsible for having your own Power BI account.
 
 The Power BI account is required for two reasons: 
 - To upload a Power BI Desktop file, which is a data source for report development. 
-- To publish reports, which is optional and dependent on the student having access to a workspace of Premium capacity
+- To publish reports, which are optional and dependent on the student having access to a workspace of Premium capacity
 
 ## To receive credit for this module of the train-the-trainer course 
 Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit.

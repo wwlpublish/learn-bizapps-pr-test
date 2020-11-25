@@ -20,32 +20,32 @@ quiz:
     choices:
     - content: "Retrieve value(s) at report execution time"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Report parameters don't pass values to a dataset query."
     - content: "Transfer the data you need to a supported data source"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Report parameters don't pass values to a dataset query."
     - content: "Pass value(s) to a dataset query"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Report parameters don't pass values to a dataset query."
   - content: "Which of the following is NOT a use for report parameters?"
     choices:
     - content: "Reloading the source data"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Report parameters are for formatting, configuring, and drillthrough actions."
     - content: "Formatting the report presentation"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Report parameters are for formatting, configuring, and drillthrough actions."
     - content: "configuring subreports and report drillthrough actions"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Report parameters are for formatting, configuring, and drillthrough actions."
   - content: "When previewing a report, what happens if a report parameter doesn’t have a valid default value?"
     choices:
     - content: "The user must choose a value and the report will process automatically."
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. The user must choose a value and click View Report."
     - content: "The user must choose a value and click View Report."
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. The user must choose a value and click View Report."
     - content: "The report will process automatically with the first value option selected."
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. The user must choose a value and click View Report."

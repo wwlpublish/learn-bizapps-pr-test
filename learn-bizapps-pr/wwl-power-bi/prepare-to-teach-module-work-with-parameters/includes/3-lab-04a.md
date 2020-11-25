@@ -1,4 +1,4 @@
-In this lab, your students will enhance the Salesperson Directory report developed in Lab 03A with parameters. 
+In this 45-minuute lab, your students will enhance the Salesperson Directory report developed in Lab 03A with parameters. 
 
 Your student's tasks in this lab are to:
 1. Add a query parameter
@@ -58,7 +58,7 @@ You are responsible for having your own Power BI account.
 
 ## Publishing
 Some lab tasks involve publishing your paginated report to a workspace.
-You can only open a paginated report when it has been saved to a workspace on dedicated capacity, which has the paginated reports workload enabled.
+You can only open a paginated report when it has been saved to a workspace which has the paginated reports workload enabled.
 
 
 ## Copy paste snippets
