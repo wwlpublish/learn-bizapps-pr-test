@@ -1,3 +1,8 @@
+In this module, you have learned how to teach the **Power BI reporting** module of instructor-led course **Power BI paginated reports in a day** to your Data Analyst customers.
+You now have the skills, knowledge, and resources to help your students learn about Power BI paginated reports.
+
+
+
 In this module you have learned how to explain that Power BI supports two different report types:
 - Power BI reports
 - Power BI paginated reports
@@ -18,6 +23,7 @@ They will also allow you to provide additional information when you are explaini
 - [Power BI site](http://powerbi.com)
 - [Power BI community](http://community.powerbi.com/)
 - [Power BI ideas](http://ideas.powerbi.com/)
+- [Power BI release guidance and roadmap](https://dynamics.microsoft.com/roadmap/overview/)
 - [Power BI blog](https://blog.powerbi.com/)
 - [Power BI documentation](https://docs.microsoft.com/power-bi/)
 - [Paginated reports in Power BI: FAQ](https://docs.microsoft.com/power-bi/paginated-reports-faq)

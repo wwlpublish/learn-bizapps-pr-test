@@ -14,38 +14,38 @@ durationInMinutes: 3
 content: |
   [!include[](includes/5-knowledge-check.md)]
 quiz:
-  title: "Power BI Reporting"
+  title: "Power BI reporting"
   questions:
   - content: "What role does Power BI Report Server have in Power BI paginated reports?"
     choices:
     - content: "It provides the underlying code for Power BI paginated reports"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Reports can be migrated from Power BI Report Server to Power BI paginated reports"
     - content: "It doesn’t have any role to play in paginated reports"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Reports can be migrated from Power BI Report Server to Power BI paginated reports"
     - content: "Reports can be migrated from Power BI Report Server to Power BI paginated reports"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Reports can be migrated from Power BI Report Server to Power BI paginated reports"
   - content: "Could your customers consume reports in Power BI mobile app?"
     choices:
     - content: "Yes"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Your customers consume reports in Power BI mobile app."
     - content: "No, but you can from a mobile browser"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Your customers consume reports in Power BI mobile app."
     - content: "Not yet, but it's coming soon"
       isCorrect: false
-      explanation: "That's incorrect."
-  - content: "Which of the following is true for both Calculated Columns and Measures?"
+      explanation: "That's incorrect. Your customers consume reports in Power BI mobile app."
+  - content: "Which of the following is the best site to see what's coming in Power BI?"
     choices:
     - content: "http://powerbi.com"
       isCorrect: false
-      explanation: "That's incorrect."
-    - content: "https://blog.powerbi.com/"
+      explanation: "That's incorrect. Check the Microsoft Power Platform product roadmap."
+    - content: "https://dynamics.microsoft.com/en-us/roadmap/overview/"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. This is the Microsoft Power Platform product roadmap."
     - content: "https://docs.microsoft.com/power-bi/"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Check the Microsoft Power Platform product roadmap."

@@ -3,7 +3,7 @@ This train-the-trainer course will give you the technical knowledge required to 
 This course is a mix of tips, videos, labs, resources, and quizzes:
 - The **tips** offer advice on how to best deliver the content.
 - In the **videos**, Peter Myers, Chris Finlan, and special guest Paginated Report Bear take you through the course and show you how to demonstrate creating paginated reports.
-    - Peter Myers is a Microsoft Most Valued Professional - Data Platform, and developed this course.
+    - Peter Myers is a Microsoft Most Valued Professional - Data Platform and developed this course.
     - Chris Finlan is a Principal Program Manager at Microsoft.
     - Paginated Report Bear is the Course Morale Manager.
 - The **labs** will help you practice developing paginated reports so you can better demo to your customers.
@@ -23,8 +23,8 @@ In this 3-minute video Peter Myers, Chris Finlan, and special guest Paginated Re
 
 > [!TIP]
 > You don't need a Paginated bear to teach this course, but a captivating course does depend on:
-> - Capturing your students attention
-> - Making the content relevant to your students environment
+> - Capturing your student's attention
+> - Making the content relevant to your student's environment
 > - Giving your students the confidence that they can use these tools
 
 > [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0] 
