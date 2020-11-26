@@ -22,7 +22,7 @@ Lab document available at <CourseFolder>\PowerBIPRIAD\Lab03A
 
 The final report will look like the following:
 
-![Demo report](../media/salesperson-dir.png)
+![Demo report](../media/salesperson-directory.png)
 
 > [!IMPORTANT]
 > You will need to run this and all of the other labs in this course prior to teaching the course.

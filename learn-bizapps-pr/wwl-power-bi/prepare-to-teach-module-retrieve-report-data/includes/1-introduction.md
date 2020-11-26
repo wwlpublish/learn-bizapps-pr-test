@@ -3,7 +3,7 @@ To help your customers gain the full power of Excel and Power BI, you may need t
 This train-the-trainer course will prepare you to deliver the **Retrieving Report Data** module of the **Power BI Paginated Reports in a Day** instructor-led course. 
 That course will take your customers on a journey in to develop and then publish paginated reports with Power BI. By the end of your delivery, you will have alleviated some of their reporting concerns and moved your sales forward.  
 
-Depending on your customers’ needs you may want to deliver this module by itself, or with some or all  the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
+Depending on your customers’ needs you may want to deliver this module by itself, or with the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
 
 ## Retrieving Report Data
 
