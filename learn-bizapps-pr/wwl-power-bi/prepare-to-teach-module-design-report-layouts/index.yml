@@ -3,9 +3,9 @@ uid: learn.wwl.prepare-to-teach-module-design-report-layouts
 metadata:
   title: 'Prepare to teach the module: Design report layouts'
   description: "Prepare to teach the module: Design report layouts"
-  ms.date: 11/25/2020
+  ms.date: 11/26/2020
   author: wwlpublish
-  ms.author: Brett.Geoffroy
+  ms.author: bgeoffro
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: 'Prepare to teach the module: Design report layouts'
@@ -14,7 +14,7 @@ abstract: |
   Teach the module “Designing report layouts” in the instructor-led course “Power BI paginated reports”.
 prerequisites: |
   Experience with paginated reports
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
 roles:

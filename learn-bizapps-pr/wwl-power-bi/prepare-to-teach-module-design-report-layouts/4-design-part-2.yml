@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.prepare-to-teach-module-design-report-layouts.designing-part-2
-title: Designing report layouts part 2
+title: Design report layouts part 2
 metadata:
-  title: Designing report layouts part 2
-  description: "Designing report layouts part 2"
-  ms.date: 11/25/2020
+  title: Design report layouts part 2
+  description: "Design report layouts part 2"
+  ms.date: 11/26/2020
   author: wwlpublish
   ms.author: Brett.Geoffroy
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 28
 content: |
-  [!include[](includes/4-designing-part-2.md)]
+  [!include[](includes/4-design-part-2.md)]
