@@ -13,7 +13,7 @@ Lab document available at <CourseFolder>\PowerBIPRIAD\Lab06A
 
 
 The final report will look like the following:
-![alt text for image](../media/sales-performance3.png)
+![alt text for image](../media/sales-performance-3.png)
 
 > [!Tip]
 > Depending on the skill level of your students, you may want to deliver this as an instructor-led lab to help them get though the steps smoothly.
