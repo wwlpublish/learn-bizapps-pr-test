@@ -40,7 +40,7 @@ This train-the-trainer course is a mix of text, videos, labs, resources, and qui
 The course is scheduled for a morning, lunch, and afternoon break. 
 If you are delivering it online, you may prefer to use a 5-minute break at the top of every hour.
 
-![PowerPoint screenshot showing the number of slides per section and class schedule.](../media/slide-count.png)
+![PowerPoint screenshot showing the number of slides per section and class schedule.](../media/slide-count2.png)
 
 ## To receive credit for this train-the-trainer course
 Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit for this course.
