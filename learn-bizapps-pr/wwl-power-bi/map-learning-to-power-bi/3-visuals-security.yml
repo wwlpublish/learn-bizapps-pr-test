@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.mapping-learning-to-power-bi.visuals-security
-title: Power BI Visuals and security
+title: Power BI visuals and security
 metadata:
-  title: Power BI Visuals and security
-  description: "Power BI Visuals and security"
-  ms.date: 11/24/2020
+  title: Power BI visuals and security
+  description: "Power BI visuals and security"
+  ms.date: 11/26/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial

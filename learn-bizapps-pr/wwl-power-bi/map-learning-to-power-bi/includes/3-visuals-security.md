@@ -1,4 +1,4 @@
-## Power BI Visuals
+## Power BI visuals
 In this section you will show the interactivity of visuals across a Power BI report page. Visuals allow us to present a complete story of our data while also allowing report users to explore and consume the insights dynamically. 
 
 > [!TIP]
@@ -10,7 +10,7 @@ In this section you will show the interactivity of visuals across a Power BI rep
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4IAZT] 
 > In this 11-minute video Krissy Dyes explains how to teach and run the demonstration in the Power BI visuals section. 
 
-## Power BI Security
+## Power BI security
 Power BI gives us new and better ways to secure our data with Row Level Security (RLS)!
 - Limits the data shown in reports based on the individual user
 - Prevents users from seeing data they are not supposed to see

@@ -8,10 +8,10 @@ We have now finished step 3 of the course journey:
 
 
 Remind you students that in this module we covered:
-1. Power BI Desktop - Introduction
-1. Power Query in Power BI Desktop
-1. Modelling in Power BI Desktop
-1. Power BI Visuals
+* Power BI Desktop - Introduction
+* Power Query in Power BI Desktop
+* Modeling in Power BI Desktop
+* Power BI Visuals
 
 ## Resources
 The files required to teach the instructor-led course **Modern Excel Analyst in a day** are located here:  
@@ -21,7 +21,7 @@ The files required to teach the instructor-led course **Modern Excel Analyst in 
 These resources from the instructor-led course will help your students better understand Modern Excel.  
 They will also allow you to provide additional information when you are explaining these topics to your customers.
 
-[Power BI Desktop](https://www.microsoft.com/en-us/download/details.aspx?id=58494)
+[Power BI Desktop](https://www.microsoft.com/download/details.aspx?id=58494)
 
 > [!TIP]
 > Take a moment to visit these sites, review their content, and bookmark them for future use.
