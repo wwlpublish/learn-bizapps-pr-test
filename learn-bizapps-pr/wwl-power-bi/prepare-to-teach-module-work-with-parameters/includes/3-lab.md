@@ -13,7 +13,7 @@ Your student's tasks in this lab are to:
 > You must successfully complete Lab 03A before commencing this lab
 
 The cascading parameters will look like the following:
-![detail of the Salesperson dropdown list](../media/lab04a.png)
+![detail of the Salesperson dropdown list](../media/lab.png)
 
 > [!Tip]
 > Depending on the skill level of your students, you may want to deliver this as an instructor-led lab to help them get though the steps smoothly.

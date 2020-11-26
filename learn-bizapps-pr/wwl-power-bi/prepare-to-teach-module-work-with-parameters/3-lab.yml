@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn.wwl.prepare-to-teach-module-work-with-parameters.lab-04a
-title: Lab 04A Work with parameters
+title: 'Lab 04A: Work with parameters'
 metadata:
-  title: Lab 04A Work with parameters
-  description: "Lab 04A Work with parameters"
-  ms.date: 11/25/2020
+  title: 'Lab 04A: Work with parameters'
+  description: "Lab 04A: Work with parameters"
+  ms.date: 11/26/2020
   author: wwlpublish
   ms.author: Brett.Geoffroy
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 45
 content: |
-  [!include[](includes/3-lab-04a.md)]
+  [!include[](includes/3-lab.md)]
