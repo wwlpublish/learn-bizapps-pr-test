@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/25/2020
+  ms.date: 11/26/2020
   author: wwlpublish
   ms.author: Brett.Geoffroy
   ms.topic: interactive-tutorial
@@ -20,32 +20,32 @@ quiz:
     choices:
     - content: "Variant of the Tablix"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. The layout size of Data Visualizations is fixed."
     - content: "Layout size is dynamic"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. The layout size of Data Visualizations is fixed."
     - content: "Layout size is fixed"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. The layout size of Data Visualizations is fixed."
   - content: "Which of these is true about Data regions?"
     choices:
     - content: "The Ribbon bar includes 6 templates"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Data regions are a variant of the Tablix."
     - content: "Include: Gauge, Sparkline, and Indicator"
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Data regions are a variant of the Tablix."
     - content: "Variant of the Tablix"
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Data regions are a variant of the Tablix."
   - content: "Which of the following is NOT true about Data Bar, Sparkline, and Indicator?"
     choices:
     - content: "Radial and linear gauge types are available."
       isCorrect: true
-      explanation: "That's correct."
+      explanation: "That's correct. Radial and linear gauge types are not available in the Data Bar, Sparkline, and Indicator."
     - content: "can be used stand-alone or embedded into Tablix data regions."
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Radial and linear gauge types are not available in the Data Bar, Sparkline, and Indicator."
     - content: "When embedded into a Tablix, they must be based on the same dataset used by the Tablix."
       isCorrect: false
-      explanation: "That's incorrect."
+      explanation: "That's incorrect. Radial and linear gauge types are not available in the Data Bar, Sparkline, and Indicator."

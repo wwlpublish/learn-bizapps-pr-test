@@ -4,7 +4,7 @@ title: Lab 05B  Develop a Table Report part 2
 metadata:
   title: Lab 05B  Develop a Table Report part 2
   description: "Lab 05B  Develop a Table Report part 2"
-  ms.date: 11/25/2020
+  ms.date: 11/26/2020
   author: wwlpublish
   ms.author: Brett.Geoffroy
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 20
 content: |
-  [!include[](includes/5-lab-05b-develop-table-report-part-2.md)]
+  [!include[](includes/5-lab-develop-table-report-part-2.md)]

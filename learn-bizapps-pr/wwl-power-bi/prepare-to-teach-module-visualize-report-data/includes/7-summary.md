@@ -1,3 +1,7 @@
+In this module, you have learned how to teach the **Visualise report data** module of instructor-led course **Power BI paginated reports in a day** to your Data Analyst customers.
+You now have the skills, knowledge, and resources to help your students learn about Power BI paginated reports.
+
+
 In this module we covered how to teach and demonstrate:
 
 - Visualizing report data

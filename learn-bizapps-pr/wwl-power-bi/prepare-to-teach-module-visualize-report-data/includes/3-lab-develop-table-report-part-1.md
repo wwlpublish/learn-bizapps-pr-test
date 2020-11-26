@@ -1,11 +1,11 @@
-In this lab, your students will develop a report named Sales Performance. It will include a Table based on a Power BI dataset that presents salespeople statistics grouped by country.
+In this 60-minute lab, your students will develop a report named Sales Performance. It will include a Table based on a Power BI dataset that presents salespeople statistics grouped by country.
 
 Your student's tasks in this lab are to:
 1. Create the report
 1. Create the data source
 1. Create the dataset
 1. Configure the report parameter
-1. Develop the table…
+1. Develop the table
 
 
 > [!WARNING]
@@ -16,7 +16,7 @@ Lab document available at <CourseFolder>\PowerBIPRIAD\Lab05A
 
 
 The final report will look like the following:
-![alt text for image](../media/lab05a.png)
+![alt text for image](../media/lab-05.png)
 
 
 
@@ -38,7 +38,7 @@ The labs are based on the sales activities of the fictitious Adventure Works com
 ## Your assignment
 In the labs, as their report author, you will develop several sales performance reports.
 
-The Adventure Works company scenario is for background only. It’s not very important to understand what the company does. 
+The Adventure Works company scenario is for background only. It’s not important to understand what the company does. 
 
 ## Lab setup
 The setup instructions are available from: [https://aka.ms/priad-online-course#self-study-kit](https://aka.ms/priad-online-course#self-study-kit)

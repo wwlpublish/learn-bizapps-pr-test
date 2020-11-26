@@ -17,7 +17,7 @@ The **Insert** ribbon tab contains six templates to visualize data:
 
 
 > [!VIDEO https://www.youtube.com/embed/dliLsRvQB-c]
-> Access the video here
+> Access the video here.
 
 
 ## Video 17: Visualizing Report Data - Part 4
@@ -27,8 +27,8 @@ In this 8-minute video, Peter Myers and Chris Finlan demonstrate adding data bar
 > [!CAUTION]
 > At 3-minutes into the video, the discussion of a chart inside a text box is a major area of confusion for new visualization developers. 
 
-![Screenshot of a chart in a textbox](../media/chart-in-textbox.png)
+![Screenshot of a chart in a textbox](../media/chart-textbox.png)
 
 
 > [!VIDEO https://www.youtube.com/embed/5yHxuRRP_eU]
-> Access the video here
+> Access the video here.
