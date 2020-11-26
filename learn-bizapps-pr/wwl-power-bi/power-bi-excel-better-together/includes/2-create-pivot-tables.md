@@ -1,9 +1,9 @@
 In this section you will first explain how to create a Pivot Table and PivotChart to explore Store Return Rates by Date using a Certified Power BI dataset. Remember that certified data sets are endorsed by your Power BI tenant administrator.
 
 You will demonstrate:
-1. Insert a new Pivot Table (from a Power BI Dataset) using data from a Certified Power BI dataset.
-1. Drag & Drop [Date] on Rows, [Return Rate] into Values.
-1. Create a PivotChart to compare two specific stores.
+- Insert a new Pivot Table (from a Power BI Dataset) using data from a Certified Power BI dataset.
+- Drag & Drop [Date] on Rows, [Return Rate] into Values.
+- Create a PivotChart to compare two specific stores.
 
 
 > [!TIP]

@@ -5,9 +5,9 @@ The goal of this lab is to bring everything from this class together into one ex
 
 
 Your tasks in this lab are to:
-1. Publish a Power BI Desktop Dataset & Report to the Power BI Service
-1. Download, Install, and Use Analyze in Excel
-1. Build an Excel report using a Power BI Dataset
+- Publish a Power BI Desktop Dataset & Report to the Power BI Service
+- Download, Install, and Use Analyze in Excel
+- Build an Excel report using a Power BI Dataset
 Lab document available at <PresentationFolder>\MAIAD\Attendee\Lab Materials\Lab 03
 
 > [!TIP] 

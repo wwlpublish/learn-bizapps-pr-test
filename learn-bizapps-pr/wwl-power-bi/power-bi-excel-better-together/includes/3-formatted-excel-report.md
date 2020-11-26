@@ -1,11 +1,11 @@
 In this 11-minute demo you will explain to your students how to create a Customer Contact List for a marketing call blitz.
 
 To do that they will:
-1. Connect to a Promoted Data set
-1. Create PivotTables/PivotCharts
-1. Add Cube Formulas
-1. Add Slicers
-1. Apply formatting.
+- Connect to a Promoted Data set
+- Create PivotTables/PivotCharts
+- Add Cube Formulas
+- Add Slicers
+- Apply formatting.
 
 > [!TIP]
 > This is a long (11-minute) demo so stop around the midpoint to verify that your students are still following along.
