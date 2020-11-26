@@ -3,9 +3,9 @@ uid: learn.wwl.prepare-to-teach-module-beyond-report-development
 metadata:
   title: 'Prepare to teach the module: Beyond report development'
   description: "Prepare to teach the module: Beyond report development"
-  ms.date: 11/25/2020
+  ms.date: 11/26/2020
   author: wwlpublish
-  ms.author: Brett.Geoffroy
+  ms.author: bgeoffro
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 title: 'Prepare to teach the module: Beyond report development'
@@ -14,7 +14,7 @@ abstract: |
   Teach the module “Beyond report development&quot; in the instructor-led course “Power BI paginated reports”.
 prerequisites: |
   Experience with Power BI paginated reports.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
 roles:
