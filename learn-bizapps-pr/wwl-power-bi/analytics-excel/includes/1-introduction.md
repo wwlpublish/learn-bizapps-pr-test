@@ -16,12 +16,12 @@ On completion of this Power BI train-the-trainer course, you will have the skill
 
 ## How to take this course
 
-This train-the-trainer course is a mix of text, videos, labs, resources, and quizzes that will help you deliver the **Modern Excel Analyst in a day** instructor-led course to your customers: 
+This train-the-trainer course is a mix of text, videos, labs, resources, and knowledge check questions that will help you deliver the **Modern Excel Analyst in a day** instructor-led course to your customers: 
 - In the text, you will see tips and guidance on how to deliver this course.
 - In the videos, Krissy Dyess from Power Pivot Pro, takes you through the course and shows you how to explain and demonstrate the content.
 - The labs will help you practice using Excel and Power BI so you can better demo to your customers.
 - The resources will help you guide your customers to additional information during and after the sales process.
-- The quizzes will help you test your knowledge of key messages and possible disconnects for your customers.
+- The knowledge check questions will help you test your knowledge of key messages and possible disconnects for your customers.
 
 > [!NOTE]
 > This train-the-trainer course does not cover every side in the deck. Delivery guidance is only provided on the critical sides. Watch the full course recordings to see how an experienced instructor delivers every slide, the demonstrations, and the labs.
@@ -40,10 +40,10 @@ This train-the-trainer course is a mix of text, videos, labs, resources, and qui
 The course is scheduled for a morning, lunch, and afternoon break. 
 If you are delivering it online, you may prefer to use a 5-minute break at the top of every hour.
 
-![PowerPoint screenshot showing the number of slides per section and class schedule.](../media/slide-count2.png)
+![PowerPoint screenshot showing the number of slides per section and class schedule.](../media/slide-count-2.png)
 
 ## To receive credit for this train-the-trainer course
-Watch the videos, practice the labs, visit the resources, and complete all the quizzes to receive credit for this course.
+Watch the videos, practice the labs, visit the resources, and complete all the knowledge check questions to receive credit for this course.
 
 
 ## Course files

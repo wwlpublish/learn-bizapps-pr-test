@@ -15,7 +15,7 @@ Some of the benefits of Modern Excel include:
 > [!TIP]
 > Push the “Daily benefits to you” to motivate your students to pay attention to this course. This slide isn’t a hard sell of the product, but a set of personal advantages that you are giving your students by teaching them how to use the product.
 
-![PowerPoint screenshot showing the benefits of Modern Excel compared to traditional excel](../media/daily-benefits.png)
+![PowerPoint screenshot showing the benefits of Modern Excel compared to Traditional Excel](../media/daily-benefits.png)
 
 ## Ecosystem: Overlap
 The important point of this slide is to show that Modern Excel and Power BI share many features but produce different visuals. 
