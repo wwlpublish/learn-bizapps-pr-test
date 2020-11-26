@@ -1,4 +1,4 @@
-In this module, you have learned how to teach the **Power BI and Excel better togehter** module of instructor-led course **Modern Excel Analyst in a day** to your Data Analyst customers.
+In this module, you have learned how to teach the **Power BI and Excel better together** module of instructor-led course **Modern Excel Analyst in a day** to your Data Analyst customers.
 You now have the skills, knowledge, and resources to help your students use what they already know about Excel and extend that knowledge into Power BI Desktop.
 
 In this module you’ve learned how to explain some of the ways that you can use Power BI & Excel together right now. 
