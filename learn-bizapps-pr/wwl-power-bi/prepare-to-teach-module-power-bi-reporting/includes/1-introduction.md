@@ -19,7 +19,7 @@ You will likely need to deliver some or all of this course to your customers to 
 Watch the videos, practice the labs, visit the resources, and complete all of the quizzes to receive credit.
 
 ## Overview video
-In this 3-minute video Peter Myers, Chris Finlan, and special guest Paginated Report Bear (Course Morale Manager) welcome you and introduce course.
+In this 3-minute video, Peter Myers, Chris Finlan, and special guest Paginated Report Bear (Course Morale Manager) welcome you and introduce course.
 
 > [!TIP]
 > You don't need a Paginated bear to teach this course, but a captivating course does depend on:

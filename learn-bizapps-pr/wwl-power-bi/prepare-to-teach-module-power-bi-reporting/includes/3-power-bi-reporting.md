@@ -17,7 +17,7 @@ Power BI supports two different report types:
 
 ### Video: Power BI Reporting – Part 1
 
-In this 6-minute video Peter Myers and Chris Finlan introduce Power BI, and contrast Power BI reporting with paginated reporting.
+In this 6-minute video, Peter Myers and Chris Finlan introduce Power BI, and contrast Power BI reporting with paginated reporting.
 
 > [!NOTE]
 > This video was recorded in February 2020 so things have changed a bit. For example, as of August 2020 there are 200+ apps that connect to Power BI, not the 50+ shown in this video.
@@ -27,7 +27,7 @@ In this 6-minute video Peter Myers and Chris Finlan introduce Power BI, and cont
 
 ### Video: Power BI Reporting – Part 2
 
-In this 4-minute video Peter Myers and Chris Finlan demonstrate viewing two reports, one a Power BI report, and the other a paginated report.
+In this 4-minute video, Peter Myers and Chris Finlan demonstrate viewing two reports, one a Power BI report, and the other a paginated report.
 
 > [!TIP]
 > Be prepared to provide examples that align with your student's roles and industries.

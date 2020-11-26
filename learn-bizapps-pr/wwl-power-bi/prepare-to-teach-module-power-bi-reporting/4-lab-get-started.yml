@@ -4,7 +4,7 @@ title: Lab 01A get started
 metadata:
   title: Lab 01A get started
   description: "Lab 01A get started"
-  ms.date: 11/25/2020
+  ms.date: 11/26/2020
   author: wwlpublish
   ms.author: Brett.Geoffroy
   ms.topic: interactive-tutorial
@@ -12,4 +12,4 @@ metadata:
 azureSandbox: false
 durationInMinutes: 10
 content: |
-  [!include[](includes/4-lab-01a-get-started.md)]
+  [!include[](includes/4-lab-get-started.md)]
