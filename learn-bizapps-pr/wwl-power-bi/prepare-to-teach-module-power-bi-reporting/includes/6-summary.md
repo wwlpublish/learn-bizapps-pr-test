@@ -26,9 +26,9 @@ They will also allow you to provide additional information when you are explaini
 - [Power BI release guidance and roadmap](https://dynamics.microsoft.com/roadmap/overview/)
 - [Power BI blog](https://blog.powerbi.com/)
 - [Power BI documentation](https://docs.microsoft.com/power-bi/)
-- [Paginated reports in Power BI: FAQ](https://docs.microsoft.com/power-bi/paginated-reports-faq)
+- [Paginated reports in Power BI: FAQ](https://docs.microsoft.com/power-bi/paginated-reports/paginated-reports-faq)
 - [What are paginated reports in Power BI Premium?](https://docs.microsoft.com/power-bi/paginated-reports-report-builder-power-bi)
 
-## Power BI Paginated reports in a day
+## Power BI paginated reports in a day
 The instructor-led course content is available at: [https://aka.ms/priad-video-course](https://aka.ms/priad-video-course).  
 Video recordings of Peter Myers (Microsoft Most Valued Professional - Data Platform, and course developer), and Chris Finlan (Principal Program Manager) delivering the course are available at: [https://aka.ms/priad-online-course](https://aka.ms/priad-online-course)

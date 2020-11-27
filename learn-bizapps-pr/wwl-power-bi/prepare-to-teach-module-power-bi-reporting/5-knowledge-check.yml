@@ -35,7 +35,7 @@ quiz:
     - content: "No, but you can from a mobile browser"
       isCorrect: false
       explanation: "That's incorrect. Your customers consume reports in Power BI mobile app."
-    - content: "Not yet, but it's coming soon"
+    - content: "Not yet"
       isCorrect: false
       explanation: "That's incorrect. Your customers consume reports in Power BI mobile app."
   - content: "Which of the following is the best site to see what's coming in Power BI?"

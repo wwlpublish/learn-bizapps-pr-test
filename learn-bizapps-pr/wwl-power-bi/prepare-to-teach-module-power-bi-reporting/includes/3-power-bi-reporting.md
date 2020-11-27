@@ -15,7 +15,7 @@ Power BI supports two different report types:
 > Your students may confuse paginated reports that are stored on Power BI Service with Power BI Report Server. Report Server is for on-premises scenarios.  
 > This course doesn't cover Power BI Report Server. However, reports can be migrated to Power BI Service from SQL Server Reporting Services (SSRS) or Power BI Report Server
 
-### Video: Power BI Reporting – Part 1
+### Video: Power BI reporting – Part 1
 
 In this 6-minute video, Peter Myers and Chris Finlan introduce Power BI, and contrast Power BI reporting with paginated reporting.
 
@@ -23,9 +23,8 @@ In this 6-minute video, Peter Myers and Chris Finlan introduce Power BI, and con
 > This video was recorded in February 2020 so things have changed a bit. For example, as of August 2020 there are 200+ apps that connect to Power BI, not the 50+ shown in this video.
 
 > [!VIDEO https://www.youtube.com/embed/s6Amctk3Z_g] 
-> View the video here.
 
-### Video: Power BI Reporting – Part 2
+### Video: Power BI reporting – Part 2
 
 In this 4-minute video, Peter Myers and Chris Finlan demonstrate viewing two reports, one a Power BI report, and the other a paginated report.
 
@@ -33,4 +32,3 @@ In this 4-minute video, Peter Myers and Chris Finlan demonstrate viewing two rep
 > Be prepared to provide examples that align with your student's roles and industries.
 
 > [!VIDEO https://www.youtube.com/embed/jXTiYJKw1Rs] 
-> View the video here.

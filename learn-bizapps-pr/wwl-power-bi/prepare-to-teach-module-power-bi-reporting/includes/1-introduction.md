@@ -1,6 +1,6 @@
 This train-the-trainer course will give you the technical knowledge required to teach your customers to create, publish, and distribute Power BI paginated reports. This training will help you explain and demonstrate paginated reports to your customers to reduce their reporting concerns and move your sales forward.
 
-This course is a mix of tips, videos, labs, resources, and quizzes:
+This course is a mix of tips, videos, labs, resources, and knowledge check questions:
 - The **tips** offer advice on how to best deliver the content.
 - In the **videos**, Peter Myers, Chris Finlan, and special guest Paginated Report Bear take you through the course and show you how to demonstrate creating paginated reports.
     - Peter Myers is a Microsoft Most Valued Professional - Data Platform and developed this course.
@@ -8,7 +8,7 @@ This course is a mix of tips, videos, labs, resources, and quizzes:
     - Paginated Report Bear is the Course Morale Manager.
 - The **labs** will help you practice developing paginated reports so you can better demo to your customers.
 - The **resources** will help you guide your customers to additional information during and after the sales process.
-- The **quizzes** will help you identify key messages and possible disconnects for your customers.
+- The **knowledge check questions** will help you identify key messages and possible disconnects for your customers.
 
 
 ## Prepare to teach this course
@@ -16,7 +16,7 @@ You will likely need to deliver some or all of this course to your customers to 
 
 
 ## To receive credit
-Watch the videos, practice the labs, visit the resources, and complete all of the quizzes to receive credit.
+Watch the videos, practice the labs, visit the resources, and complete all of the knowledge check questions to receive credit.
 
 ## Overview video
 In this 3-minute video, Peter Myers, Chris Finlan, and special guest Paginated Report Bear (Course Morale Manager) welcome you and introduce course.
@@ -28,4 +28,3 @@ In this 3-minute video, Peter Myers, Chris Finlan, and special guest Paginated R
 > - Giving your students the confidence that they can use these tools
 
 > [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0] 
-> View the video here.
