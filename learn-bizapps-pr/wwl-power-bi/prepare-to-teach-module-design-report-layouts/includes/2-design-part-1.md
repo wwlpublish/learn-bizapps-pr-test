@@ -11,7 +11,6 @@ In this 16-minute video, Peter Myers and Chris Finlan introduce Report Builder a
 > The goal is to create the report for use on the service.
 
 > [!VIDEO https://www.youtube.com/embed/EjHANN3rGNs]
-> Access the video here.
 
 
 
@@ -25,4 +24,3 @@ In this 6-minute video, Peter Myers and Chris Finlan demonstrate creating a firs
 ![UI of the paginated reports wizard](../media/wizard.png)
 
 > [!VIDEO https://www.youtube.com/embed/EjHANN3rGNs]
-> Access the video here.

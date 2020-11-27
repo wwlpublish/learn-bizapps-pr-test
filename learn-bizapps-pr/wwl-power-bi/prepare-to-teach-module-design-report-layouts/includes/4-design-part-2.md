@@ -25,7 +25,6 @@ A couple of key points to share with your students when you deliver this section
     - Can leverage any available .NET Framework libraries
 
 > [!VIDEO https://www.youtube.com/embed/eaFFzkT6pxE]
-> Access the video here.
 
 
 
@@ -37,4 +36,3 @@ In this 6-minute video, Peter Myers and Chris Finlan put together all the theory
 > If you have students who are new to report creation, a discussion on the value of templates is appropriate here. 
 
 > [!VIDEO https://www.youtube.com/embed/0z576TI27Vg]
-> Access the video here.

@@ -27,14 +27,14 @@ quiz:
     - content: "Open Help, search for the topic, and then select Additional resources"
       isCorrect: true
       explanation: "That's correct. This is the fastest way to get to these resources from Report builder."
-  - content: "Expressions can be assigned to all of these except:"
+  - content: "Expressions can be assigned to which of these?"
     choices:
-    - content: "Location or size properties"
+    - content: "Location properties"
+      isCorrect: false
+      explanation: "That's incorrect. Expressions cannot be assigned to location or size properties."
+    - content: "Size properties"
+      isCorrect: false
+      explanation: "That's incorrect. Expressions cannot be assigned to location or size properties."
+    - content: "Style and formatting propertiess"
       isCorrect: true
-      explanation: "That's correct. Expressions cannot be assigned to location or size properties."
-    - content: "Style and formatting properties"
-      isCorrect: false
-      explanation: "That's incorrect. Expressions cannot be assigned to location or size properties."
-    - content: "Textbox and placeholder values"
-      isCorrect: false
-      explanation: "That's incorrect. Expressions cannot be assigned to location or size properties."
+      explanation: "That's That's correct. Expressions cannot be assigned to location or size properties."
