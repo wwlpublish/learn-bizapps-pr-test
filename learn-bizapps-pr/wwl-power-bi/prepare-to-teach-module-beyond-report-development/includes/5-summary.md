@@ -1,4 +1,4 @@
-In this module, you have learned how to teach the **Beyond report development** module of instructor-led course **Power BI paginated reports in a day** to your Data Analyst customers.
+In this module, you have learned how to teach the **Beyond report development** module of instructor-led course **Power BI Paginated Reports in a Day** to your Data Analyst customers.
 You now have the skills, knowledge, and resources to help your students learn more about Power BI paginated reports.
 
 Creating a report is just the first step in providing information to your organization.
@@ -37,6 +37,6 @@ They will also allow you to provide additional information when you are explaini
 
 - [RDL migration tool](https://github.com/microsoft/RdlMigration)
 
-## Power BI Paginated reports in a day
+## Power BI paginated reports in a day
 The instructor-led course content is available at: [https://aka.ms/priad-video-course](https://aka.ms/priad-video-course).  
 Video recordings of Peter Myers (Microsoft Most Valued Professional - Data Platform, and course developer), and Chris Finlan (Principal Program Manager) delivering the course are available at: [https://aka.ms/priad-online-course](https://aka.ms/priad-online-course)

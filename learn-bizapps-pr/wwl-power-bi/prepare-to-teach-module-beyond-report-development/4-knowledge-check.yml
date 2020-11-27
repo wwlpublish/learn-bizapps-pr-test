@@ -38,14 +38,14 @@ quiz:
     - content: "Datasets retrieve data from Data Sources to deliver Fields."
       isCorrect: true
       explanation: "That's correct. Datasets retrieve data from Data Sources to deliver Fields."
-  - content: "Which of these is NOT a recommended method for embedding reports?"
+  - content: "Which of these is a recommended method for embedding reports?"
     choices:
-    - content: "Using a link or iframe"
-      isCorrect: false
-      explanation: "That's incorrect. Recommended methods include using a link, iframe, or URL."
-    - content: "URL access"
+    - content: "Using a link, iframe, or URL"
+      isCorrect: true
+      explanation: "That's correct. Recommended methods include using a link, iframe, or URL."
+    - content: ".jpg or .png image in an email"
       isCorrect: false
       explanation: "That's incorrect. Recommended methods include using a link, iframe, or URL."
     - content: "Granting workspace access"
-      isCorrect: true
-      explanation: "That's correct. Recommended methods include using a link, iframe, or URL."
+      isCorrect: false
+      explanation: "That's incorrect. Recommended methods include using a link, iframe, or URL."
