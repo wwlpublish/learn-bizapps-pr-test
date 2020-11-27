@@ -27,25 +27,14 @@ quiz:
     - content: "Use Power BI Desktop to create a model first"
       isCorrect: true
       explanation: "That's correct. Using Power BI Desktop to create a model first is your best option."
-  - content: "Which of the following is NOT a reason to use stored procedures when possible?"
-    choices:
-    - content: "Linear code"
-      isCorrect: true
-      explanation: "That's correct. Stored procedures improve maintenance and performance."
-    - content: "Ease of maintenance"
-      isCorrect: false
-      explanation: "That's incorrect. Stored procedures improve maintenance and performance."
-    - content: "Better performance"
-      isCorrect: false
-      explanation: "That's incorrect. Stored procedures improve maintenance and performance."
-  - content: "A dataset has collections of all of these except?"
+  - content: "A dataset may have collections of which of these?"
     choices:
     - content: "Tables"
-      isCorrect: true
-      explanation: "That's correct. Datasets include parameters and fields."
+      isCorrect: false
+      explanation: "That's incorrect. Datasets include parameters, filters, and fields."
     - content: "Fields"
+      isCorrect: true
+      explanation: "That's correct. Datasets include parameters, filters, and fields."
+    - content: "Reports"
       isCorrect: false
-      explanation: "That's incorrect. Datasets include parameters and fields."
-    - content: "Parameters"
-      isCorrect: false
-      explanation: "That's incorrect. Datasets include parameters and fields."
+      explanation: "That's incorrect. Datasets include parameters, filters, and fields."

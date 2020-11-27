@@ -10,7 +10,6 @@ You can connect to:
 > When you talk about connecting to the data source, emphasize the authentication option to protect valuable organizational data. 
 
 > [!VIDEO https://www.youtube.com/embed/SHGTTYXtio0]
-> Access the video here.
 
 
 ## Video: Retrieving Report Data - Part 2
@@ -20,11 +19,9 @@ In this 22-minute video, Peter Myers and Chris Finlan introduce paginated report
 > The first couple of slides can be confusing to new data analysts. Be prepared with examples of the different options or jump to the demo to show the query statements being developed, and then return to the intro slides.
 
 > [!VIDEO https://www.youtube.com/embed/1Dzd9wb7XUY]
-> Access the video here.
-
 
 ## Video: Retrieving Report Data - Part 3
-In this 22-minute , Peter Myers and Chris Finlan demonstrate creating and publishing a list report. This demonstration shows you the development methodology end-to-end.
+In this 22-minute video, Peter Myers and Chris Finlan demonstrate creating and publishing a list report. This demonstration shows you the development methodology end-to-end.
 
 
 ### Recommended practices:
@@ -36,4 +33,3 @@ In this 22-minute , Peter Myers and Chris Finlan demonstrate creating and publis
 - For Power BI Desktop or Analysis Services sources, use the DAX query designer, unless you need server aggregates or calculated members
 
 > [!VIDEO https://www.youtube.com/embed/OFXG7sl5L2o]
-> Access the video here.

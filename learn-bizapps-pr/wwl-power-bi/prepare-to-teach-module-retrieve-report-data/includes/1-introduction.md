@@ -21,7 +21,7 @@ In this module we’ll cover how to teach and demonstrate:
 
 ## How to teach this module
 This train-the-trainer course will give you the technical knowledge required to teach your customers to create, publish, and distribute Power BI paginated reports. 
-This course is a mix of tips, videos, labs, resources, and quizzes:
+This course is a mix of tips, videos, labs, resources, and knowledge check questions:
 - The **tips** offer advice on how to best deliver the content.
 - In the **videos**, Peter Myers, Chris Finlan, and special guest Paginated Report Bear take you through the course and show you how to demonstrate creating paginated reports.
     - Peter Myers is a Microsoft Most Valued Professional - Data Platform, and developed this course.
@@ -29,7 +29,7 @@ This course is a mix of tips, videos, labs, resources, and quizzes:
     - Paginated Report Bear is the Course Morale Manager.
 - The **labs** will help you practice developing paginated reports so you can better demo to your customers.
 - The **resources** will help you guide your customers to additional information during and after the sales process.
-- The **quizzes** will help you identify key messages and possible disconnects for your customers.
+- The **knowledge check questions** will help you identify key messages and possible disconnects for your customers.
 
 
 ### Course files

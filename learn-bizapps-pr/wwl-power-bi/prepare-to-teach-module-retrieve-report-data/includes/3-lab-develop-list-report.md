@@ -13,7 +13,7 @@ Your student's tasks in this lab are to:
 
 [!TIP] Depending on the skill level of your students, you may be able to let them complete this lab on their own, or you may need to deliver it step-by-step as an instructor-led lab.
 
-Lab document available at <CourseFolder>\PowerBIPRIAD\Lab03A
+Lab document available at &lt;CourseFolder&gt;\PowerBIPRIAD\Lab03A
 
 > [!IMPORTANT]
 > you must have successfully completed Lab 02A before starting this lab.
@@ -49,7 +49,7 @@ The setup instructions are available from: [https://aka.ms/priad-online-course#s
 1. Extract the file contents to your file system 
 
 
-The lab documents will refer to this location as <CourseFolder>
+The lab documents will refer to this location as &lt;CourseFolder&gt;.
 
 Full details and discussion about the self-study kit are found in the online documentation.
 

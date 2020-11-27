@@ -24,6 +24,6 @@ They will also allow you to provide additional information when you are explaini
 - [Report data in Power BI Report Builder](https://docs.microsoft.com/power-bi/report-builder-data)
 - [Data retrieval guidance for paginated reports](https://docs.microsoft.com/power-bi/guidance/report-paginated-data-retrieval)
 
-## Power BI Paginated reports in a day
+## Power BI paginated reports in a day
 The instructor-led course content is available at: [https://aka.ms/priad-video-course](https://aka.ms/priad-video-course).  
 Video recordings of Peter Myers (Microsoft Most Valued Professional - Data Platform, and course developer), and Chris Finlan (Principal Program Manager) delivering the course are available at: [https://aka.ms/priad-online-course](https://aka.ms/priad-online-course)
