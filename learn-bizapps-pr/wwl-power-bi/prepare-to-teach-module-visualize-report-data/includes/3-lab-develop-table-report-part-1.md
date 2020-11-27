@@ -1,11 +1,12 @@
 In this 60-minute lab, your students will develop a report named Sales Performance. It will include a Table based on a Power BI dataset that presents salespeople statistics grouped by country.
 
 Your student's tasks in this lab are to:
-1. Create the report
-1. Create the data source
-1. Create the dataset
-1. Configure the report parameter
-1. Develop the table
+
+* Create the report
+* Create the data source
+* Create the dataset
+* Configure the report parameter
+* Develop the table
 
 
 > [!WARNING]
