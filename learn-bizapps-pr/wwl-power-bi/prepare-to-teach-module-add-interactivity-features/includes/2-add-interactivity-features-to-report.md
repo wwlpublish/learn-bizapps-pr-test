@@ -1,4 +1,4 @@
-## Video 18: Adding Interactive Features - Part 1	3
+## Video 18: Adding interactive features - Part 1
 In this 3-minute video, Peter Myers and Chris Finlan describe adding interactive features.
 
 Use Interactivity features to allow report users to control report display and content. 
@@ -13,9 +13,8 @@ Features include:
 > Report parameters can also be considered an interactivity feature, and can be used to customize the report layout, including grouping and sorting.
 
 > [!VIDEO https://www.youtube.com/embed/LInMHpTEaI0]
-> Access the video here
 
-## Video 19: Adding Interactive Features - Part 2	5
+## Video 19: Adding interactive features - Part 2
 
 In this 5-minute video, Peter Myers and Chris Finlan demonstrate adding interactive features to the table report.
 
@@ -27,4 +26,3 @@ The interactive features include:
 > The discussion at 2:46 about reviewing and cleaning your report before publishing is critical to helping your students maintain their reputations as good analysts.
 
 > [!VIDEO https://www.youtube.com/embed/b_pr1xsbRJc]
-> Access the video here

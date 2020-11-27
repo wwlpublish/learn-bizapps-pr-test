@@ -9,7 +9,7 @@ Your student's tasks in this lab are to:
 >  You must successfully complete Lab 05B before commencing this lab.
 
 
-Lab document available at <CourseFolder>\PowerBIPRIAD\Lab06A
+Lab document available at &lt;CourseFolder&gt;\PowerBIPRIAD\Lab06A
 
 
 The final report will look like the following:
@@ -43,7 +43,7 @@ The setup instructions are available from: [https://aka.ms/priad-online-course#s
 1. Extract the file contents to your file system 
 
 
-The lab documents will refer to this location as <CourseFolder>
+The lab documents will refer to this location as &lt;CourseFolder&gt;.
 
 Full details and discussion about the self-study kit are found in the online documentation.
 
