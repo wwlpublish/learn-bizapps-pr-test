@@ -21,7 +21,6 @@ There are two types, and while their purposes are different, they are often rela
 >  Take a moment and ask your students about the parameters that they find valuable.  Answering this question will start them thinking about applying this concept to their own reports.
 
 > [!VIDEO https://www.youtube.com/embed/o7WaK88kheA]
-> Access the video here.
 
 
 ## Video 12: Working with Parameters - Part 2	
@@ -52,4 +51,3 @@ The goal of this demo to show your students how to set up a report so their user
 > Spend a couple moments with your students discussing what type filters their users would look for. This will get them out of a "generic user" mode and help them think about how they would actually apply this demo to their own environment.
 
 > [!VIDEO https://www.youtube.com/embed/13-6sWIRD74]
-> Access the video here.
