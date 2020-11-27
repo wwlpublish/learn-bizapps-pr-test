@@ -35,6 +35,6 @@ quiz:
     - content: "Size properties"
       isCorrect: false
       explanation: "That's incorrect. Expressions cannot be assigned to location or size properties."
-    - content: "Style and formatting propertiess"
+    - content: "Style and formatting properties"
       isCorrect: true
       explanation: "That's That's correct. Expressions cannot be assigned to location or size properties."
