@@ -12,8 +12,6 @@ The Insert ribbon tab contains three templates for data regions:
 > This first section of the module is just a review of visualizations in general. Make sure you've covered the concepts before diving into how to actually create visualizations. 
 
 > [!VIDEO https://www.youtube.com/embed/b4TxBBtOWSw]
-> Access the video here.
-
 
 
 ## Video 15: Visualizing Report Data - Part 2
@@ -27,4 +25,3 @@ In this 26-minute video, Peter Myers and Chris Finlan demonstrate creating a tab
 > This is a 20-minute demo, so come back to the table report view a couple times during the demo to remind your students of what you are doing and how your changes will impact the user.
 
 > [!VIDEO https://www.youtube.com/embed/JhEa_TugXeE]
-> Access the video here.

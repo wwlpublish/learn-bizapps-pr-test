@@ -17,7 +17,6 @@ The **Insert** ribbon tab contains six templates to visualize data:
 
 
 > [!VIDEO https://www.youtube.com/embed/dliLsRvQB-c]
-> Access the video here.
 
 
 ## Video 17: Visualizing Report Data - Part 4
@@ -31,4 +30,3 @@ In this 8-minute video, Peter Myers and Chris Finlan demonstrate adding data bar
 
 
 > [!VIDEO https://www.youtube.com/embed/5yHxuRRP_eU]
-> Access the video here.

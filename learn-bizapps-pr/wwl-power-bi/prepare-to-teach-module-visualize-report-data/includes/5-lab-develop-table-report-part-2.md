@@ -9,7 +9,7 @@ Your student's tasks in this lab are to:
 > You must successfully complete Lab 05A before commencing this lab
 
 
-Lab document available at <CourseFolder>\PowerBIPRIAD\Lab05B
+Lab document available at &lt;CourseFolder&gt;\PowerBIPRIAD\Lab05B
 
 
 The final report will look like the following:

@@ -38,14 +38,14 @@ quiz:
     - content: "Variant of the Tablix"
       isCorrect: true
       explanation: "That's correct. Data regions are a variant of the Tablix."
-  - content: "Which of the following is NOT true about Data Bar, Sparkline, and Indicator?"
+  - content: "Which of the following is true about Data Bar, Sparkline, and Indicator?"
     choices:
     - content: "Radial and linear gauge types are available."
+      isCorrect: false
+      explanation: "That's in correct. Radial and linear gauge types are not available in the Data Bar, Sparkline, and Indicator."
+    - content: "Can be used stand-alone or embedded into Tablix data regions."
       isCorrect: true
       explanation: "That's correct. Radial and linear gauge types are not available in the Data Bar, Sparkline, and Indicator."
-    - content: "can be used stand-alone or embedded into Tablix data regions."
+    - content: "When embedded into a Tablix, they can be based on different dataset than the one used by the Tablix."
       isCorrect: false
-      explanation: "That's incorrect. Radial and linear gauge types are not available in the Data Bar, Sparkline, and Indicator."
-    - content: "When embedded into a Tablix, they must be based on the same dataset used by the Tablix."
-      isCorrect: false
-      explanation: "That's incorrect. Radial and linear gauge types are not available in the Data Bar, Sparkline, and Indicator."
+      explanation: "That's incorrect. When embedded into a Tablix, they must be based on the same dataset used by the Tablix."
