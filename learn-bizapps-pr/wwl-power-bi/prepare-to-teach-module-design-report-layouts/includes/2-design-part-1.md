@@ -4,7 +4,7 @@ In this 16-minute video, Peter Myers and Chris Finlan introduce Report Builder a
 - Designing report layouts 
 - Setting dynamic properties
 
-![Paginated reports UI](../media/ui.png)
+![Paginated reports UI](../media/reports-ui.png)
  
 > [!NOTE]
 > Report builder is a tool for developers. It is not intended to be used as a report consumption tool.
