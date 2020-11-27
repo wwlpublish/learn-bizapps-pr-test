@@ -6,8 +6,8 @@ Use SharePoint Online search to quickly find your Power BI Reports & Dashboard, 
 > Before delivering the roadmap section, review the Power BI and Teams blogs to see what the latest plans are.
 
 In the demo you will show how to:
-1. Search for PowerPoint or Word documents from SharePoint.
-1. Search for Dashboard, Reports, and Apps from the Power BI Tab.
+- Search for PowerPoint or Word documents from SharePoint.
+- Search for Dashboard, Reports, and Apps from the Power BI Tab.
 
 
 > [!NOTE]
