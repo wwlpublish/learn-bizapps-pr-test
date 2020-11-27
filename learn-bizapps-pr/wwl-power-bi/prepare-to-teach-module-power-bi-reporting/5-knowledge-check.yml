@@ -4,9 +4,9 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/26/2020
+  ms.date: 11/27/2020
   author: wwlpublish
-  ms.author: Brett.Geoffroy
+  ms.author: bgeoffro
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 azureSandbox: false
@@ -43,7 +43,7 @@ quiz:
     - content: "http://powerbi.com"
       isCorrect: false
       explanation: "That's incorrect. Check the Microsoft Power Platform product roadmap."
-    - content: "https://dynamics.microsoft.com/en-us/roadmap/overview/"
+    - content: "https://dynamics.microsoft.com/roadmap/overview/"
       isCorrect: true
       explanation: "That's correct. This is the Microsoft Power Platform product roadmap."
     - content: "https://docs.microsoft.com/power-bi/"
