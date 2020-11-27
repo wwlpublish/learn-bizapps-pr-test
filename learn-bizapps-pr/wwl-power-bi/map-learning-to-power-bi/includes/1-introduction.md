@@ -25,12 +25,12 @@ The other modules in the **Prepare to teach: Modern Excel Analyst in a day** cou
 ![PowerPoint screenshot showing the number of slides per section and class schedule.](../media/slide-count.png)
 
 ## To take this module
-This course is a mix of text, videos, labs, resources, and quizzes. 
+This course is a mix of text, videos, labs, resources, and knowledge checks. 
 - The text provides tips and guidance on how to deliver this course.
 - In the videos, Krissy Dyess from Power Pivot Pro, takes you through the course and shows you how to explain and demonstrate combining Excel and Power BI.
 - The labs will help you practice using Excel and Power BI so you can better demo to your customers.
 - The resources will help you guide your customers to additional information during and after the sales process.
-- The quizzes will help you identify key messages and possible disconnects for your customers.
+- The knowledge checks will help you identify key messages and possible disconnects for your customers.
 
 
 ## To receive credit 

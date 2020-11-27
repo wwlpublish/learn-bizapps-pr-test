@@ -3,11 +3,12 @@
 
 
 Your student’s tasks in this lab are to:
-1. Start with pre-loaded PBIX file
-2. Create MANY to ONE relationship in Power BI Desktop
-3. Create Measures in Power BI Desktop
-4. Build a Report Page with Visuals Types: Card, Slicer, Matrix, Custom Visual
-5. Add Conditional Formatting Icons to Matrix Visual 
+
+* Start with pre-loaded PBIX file
+* Create MANY to ONE relationship in Power BI Desktop
+* Create Measures in Power BI Desktop
+* Build a Report Page with Visuals Types: Card, Slicer, Matrix, Custom Visual
+* Add Conditional Formatting Icons to Matrix Visual 
 
 Lab document available at <PresentationFolder>\MAIAD\Attendee\Lab Materials\Lab 02
 
