@@ -22,7 +22,8 @@ In this 6-minute video, Peter Myers and Chris Finlan introduce Power BI, and con
 > [!NOTE]
 > This video was recorded in February 2020 so things have changed a bit. For example, as of August 2020 there are 200+ apps that connect to Power BI, not the 50+ shown in this video.
 
-> [!VIDEO https://www.youtube.com/embed/s6Amctk3Z_g] 
+**View the video here.**  
+[https://www.youtube.com/embed/s6Amctk3Z_g](https://www.youtube.com/embed/s6Amctk3Z_g?azure-portal=true) 
 
 ### Video: Power BI reporting – Part 2
 
@@ -31,4 +32,5 @@ In this 4-minute video, Peter Myers and Chris Finlan demonstrate viewing two rep
 > [!TIP]
 > Be prepared to provide examples that align with your student's roles and industries.
 
-> [!VIDEO https://www.youtube.com/embed/jXTiYJKw1Rs] 
+**View the video here.**  
+[https://www.youtube.com/embed/jXTiYJKw1Rs](https://www.youtube.com/embed/jXTiYJKw1Rs?azure-portal=true) 

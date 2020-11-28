@@ -27,4 +27,5 @@ In this 3-minute video, Peter Myers, Chris Finlan, and special guest Paginated R
 > - Making the content relevant to your student's environment
 > - Giving your students the confidence that they can use these tools
 
-> [!VIDEO https://www.youtube.com/embed/DN1t5p9aui0] 
+**View the video here.**  
+[https://www.youtube.com/embed/DN1t5p9aui0](https://www.youtube.com/embed/DN1t5p9aui0?azure-portal=true) 
