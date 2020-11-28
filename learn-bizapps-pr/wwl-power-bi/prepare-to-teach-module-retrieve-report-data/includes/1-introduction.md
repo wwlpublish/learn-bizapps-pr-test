@@ -5,7 +5,7 @@ That course will take your customers on a journey in to develop and then publish
 
 Depending on your customers’ needs you may want to deliver this module by itself, or with the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
 
-## Retrieving Report Data
+## Retrieving report data
 
 The quality of your data determines the value of your report.
 

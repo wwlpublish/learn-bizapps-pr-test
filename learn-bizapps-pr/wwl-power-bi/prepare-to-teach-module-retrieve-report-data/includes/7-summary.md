@@ -15,7 +15,7 @@ In this module we covered how to teach and demonstrate:
 - For Power BI Desktop or Analysis Services sources, use the DAX query designer unless you need server aggregates or calculated members
 
 
-## resources
+## Resources
 These resources will help you better understand data retrieval for Power BI reporting and Power BI paginated reports.
 
 They will also allow you to provide additional information when you are explaining these topics to your customers. 
