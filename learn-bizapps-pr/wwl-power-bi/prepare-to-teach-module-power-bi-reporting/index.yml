@@ -3,7 +3,7 @@ uid: learn.wwl.prepare-to-teach-module-power-bi-reporting
 metadata:
   title: 'Prepare to teach the module: Power BI reporting'
   description: "Prepare to teach the module: Power BI reporting"
-  ms.date: 11/27/2020
+  ms.date: 11/28/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -26,7 +26,7 @@ products:
 units:
 - learn.wwl.prepare-to-teach-module-power-bi-reporting.introduction
 - learn.wwl.prepare-to-teach-module-power-bi-reporting.setup
-- learn.wwl.prepare-to-teach-module-power-bi-reporting.Power
+- learn.wwl.prepare-to-teach-module-power-bi-reporting.power
 - learn.wwl.prepare-to-teach-module-power-bi-reporting.lab-01a-get-started
 - learn.wwl.prepare-to-teach-module-power-bi-reporting.knowledge-check
 - learn.wwl.prepare-to-teach-module-power-bi-reporting.summary
