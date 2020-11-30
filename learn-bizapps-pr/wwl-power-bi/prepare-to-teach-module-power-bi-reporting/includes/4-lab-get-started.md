@@ -5,7 +5,7 @@ In this lab, you will help your students install Power PI Report Builder.
 1. Upload a Power BI Desktop file to a Power BI workspace.
 
 
-Lab document available at &lt;CourseFolder&gt;\PowerBIPRIAD\Lab01A  
+Lab document available at `<CourseFolder>\PowerBIPRIAD\Lab01A`  
 After being downloaded from [https://aka.ms/priad-online-course](https://aka.ms/priad-online-course.).
 
 > [!TIP]

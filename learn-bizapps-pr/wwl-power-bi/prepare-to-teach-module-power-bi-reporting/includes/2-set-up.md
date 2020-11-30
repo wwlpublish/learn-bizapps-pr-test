@@ -22,7 +22,7 @@ The setup instructions are available from: [https://aka.ms/priad-online-course#s
 1. Extract the file contents to your file system 
 
 
-The lab documents will refer to this location as &lt;CourseFolder&gt;.
+The lab documents will refer to this location as `<CourseFolder>`.
 
 Full details and discussion about the self-study kit are found in the online documentation.
 

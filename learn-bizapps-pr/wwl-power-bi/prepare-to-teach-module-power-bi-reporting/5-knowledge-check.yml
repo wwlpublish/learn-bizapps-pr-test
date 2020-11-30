@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/28/2020
+  ms.date: 11/30/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -40,12 +40,12 @@ quiz:
       explanation: "That's incorrect. Your customers consume reports in Power BI mobile app."
   - content: "Which of the following is the best site to see what's coming in Power BI?"
     choices:
-    - content: "http:\\/\\/powerbi.com"
+    - content: "http://powerbi.com"
       isCorrect: false
       explanation: "That's incorrect. Check the Microsoft Power Platform product roadmap."
-    - content: "https:\\/\\/dynamics.microsoft.com/roadmap/overview/"
+    - content: "https://dynamics.microsoft.com/roadmap/overview/"
       isCorrect: true
       explanation: "That's correct. This is the Microsoft Power Platform product roadmap."
-    - content: "https:\\/\\/docs.microsoft.com/power-bi/"
+    - content: "https://docs.microsoft.com/power-bi/"
       isCorrect: false
       explanation: "That's incorrect. Check the Microsoft Power Platform product roadmap."
