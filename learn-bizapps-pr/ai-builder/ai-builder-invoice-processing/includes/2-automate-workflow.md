@@ -5,7 +5,7 @@ When you log into either Power Automate or Power Apps, you can navigate to **AI 
 On the AI Builder home page, you'll see all the AI capabilities that are at your disposal. In the Get straight to productivity section, you'll see an entry for **Invoice Processing**. By selecting it, you'll learn more about this AI capability as well as a **Try it out** section where you can see some sample invoices and try your own invoices right away. Give it a try!
 
 > [!div class="mx-imgBorder"]
-> [![Invoice Processing (preview) dialog showing the Try It Out tab with an invoice selected, and Extracted information showing to the right.](../media/image-2.png)](../media/image-2.png#lightbox)
+> [![Invoice Processing (preview) dialog showing the Try It Out tab with an invoice selected, and Extracted information showing to the right.](../media/invoice-processing.png)](../media/invoice-processing.png#lightbox)
 
 ## Create an automated workflow using invoice processing
 
@@ -20,7 +20,7 @@ In this exercise, you'll create a flow that automatically runs whenever a new in
 1. Create a new flow by going to the **Create** menu on the left and select **Automated flow**. Give your flow a name and select as trigger **When a file is created** for OneDrive for Business.
 
 > [!div class="mx-imgBorder"]
-> [![Build an automated flow dialog with When a file is created (OneDrive for Business) selected for the flow's trigger.](../media/image-3.png)](../media/image-3.png#lightbox)
+> [![Build an automated flow dialog with When a file is created (OneDrive for Business) selected for the flow's trigger.](../media/build-flow.png)](../media/build-flow.png#lightbox)
 
 ### Configure the trigger
 
@@ -39,7 +39,7 @@ Next, you'll scan the contents of the image file for the key invoice information
 1. In the **Invoice file** field, select the **File content** dynamic content from the OneDrive trigger.
 
 > [!div class="mx-imgBorder"]
-> [![Dialogs for When a file is created, Process and save information from invoices, and Dynamic Value with File content selected.](../media/image-4.png)](../media/image-4.png#lightbox)
+> [![Dialogs for When a file is created, Process and save information from invoices, and Dynamic Value with File content selected.](../media/file-created.png)](../media/file-created.png#lightbox)
 
 ### Create an Excel table
 
@@ -50,7 +50,7 @@ Next, you'll scan the contents of the image file for the key invoice information
 1. Select the cells that you entered and then format them as a table, marking the first row as the header.
 
 > [!div class="mx-imgBorder"]
-> [![Formatted column headers for Invoice ID, Date, Vendor, and Total amount.](../media/image-5.png)](../media/image-5.png#lightbox)
+> [![Formatted column headers for Invoice ID, Date, Vendor, and Total amount.](../media/excel-headers.png)](../media/excel-headers.png#lightbox)
 
 ### Write the data to Excel
 
@@ -75,7 +75,7 @@ Now that your table is set up, you can add the extracted invoice information to 
 1. In the **Total amount** field, select the **Invoice total (number)** content from the AI Builder action.
 
 > [!div class="mx-imgBorder"]
-> [![Dialogs for When a file is created, Process and save information from invoices, and Add a row into a table, with fields filled out for Location, Document Library, File, Table, Invoice ID, Date, Vendor, and Total amount.](../media/image-6.png)](../media/image-6.png#lightbox)
+> [![Dialogs for When a file is created, Process and save information from invoices, and Add a row into a table, with fields filled out for Location, Document Library, File, Table, Invoice ID, Date, Vendor, and Total amount.](../media/dialogs.png)](../media/dialogs.png#lightbox)
 
 ### Test the flow
 
@@ -84,6 +84,6 @@ We're done building the flow. Let's now test it. Select the **Save** button on t
 Next, take an invoice and put it in the folder you defined on the OneDrive trigger in your flow. Once the invoice is uploaded to your OneDrive, the flow will get executed after some seconds: AI Builder will extract the data from the uploaded invoices and a new entry will be added to Excel with the extracted information.
 
 > [!div class="mx-imgBorder"]
-> [![Excel file with data filled in below the header row.](../media/image-7.png)](../media/image-7.png#lightbox)
+> [![Excel file with data filled in below the header row.](../media/results.png)](../media/results.png#lightbox)
 
 Congratulations! You've created an automated workflow by using invoice processing. Now, whenever you add a new invoice file to that OneDrive folder, a new entry will be added to the Excel file.
