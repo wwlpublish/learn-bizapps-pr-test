@@ -15,7 +15,7 @@ quiz:
   questions:
   - content: Where do you configure and customize your app?
     choices: 
-    - content: In make.powerapps.com
+    - content: In Power Apps Mobile
       explanation: You can configure and customize your apps in Power Apps Studio.
       isCorrect: false
     - content: In the Power Apps admin center
