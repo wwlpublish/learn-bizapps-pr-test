@@ -2,8 +2,8 @@ In this 10-minute lab, your students will enhance the design of the Sales Perfor
 
 
 Your student's tasks in this lab are to:
-1. Configure drilldown
-2. Configure interactive sorting
+* Configure drilldown
+* Configure interactive sorting
 
 > [!WARNING]
 >  You must successfully complete Lab 05B before commencing this lab.

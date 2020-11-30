@@ -12,7 +12,8 @@ Features include:
 > [!NOTE]
 > Report parameters can also be considered an interactivity feature, and can be used to customize the report layout, including grouping and sorting.
 
-> [!VIDEO https://www.youtube.com/embed/LInMHpTEaI0]
+**View the video here.**  
+[https://www.youtube.com/embed/LInMHpTEaI0](https://www.youtube.com/embed/LInMHpTEaI0?azure-portal=true)
 
 ## Video 19: Adding interactive features - Part 2
 
@@ -25,4 +26,6 @@ The interactive features include:
 > [!TIP]
 > The discussion at 2:46 about reviewing and cleaning your report before publishing is critical to helping your students maintain their reputations as good analysts.
 
-> [!VIDEO https://www.youtube.com/embed/b_pr1xsbRJc]
+**View the video here.**  
+[https://www.youtube.com/embed/b_pr1xsbRJc](https://www.youtube.com/embed/b_pr1xsbRJc?azure-portal=true)
+
