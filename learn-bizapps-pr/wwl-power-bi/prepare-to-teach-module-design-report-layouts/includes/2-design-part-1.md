@@ -1,4 +1,4 @@
-## Video: Designing Report Layouts - Part 1
+## Video: Designing report Layouts - Part 1
 
 In this 16-minute video, Peter Myers and Chris Finlan introduce Report Builder and describe a general development methodology for:
 - Designing report layouts 
@@ -10,11 +10,11 @@ In this 16-minute video, Peter Myers and Chris Finlan introduce Report Builder a
 > Report builder is a tool for developers. It is not intended to be used as a report consumption tool.
 > The goal is to create the report for use on the service.
 
-> [!VIDEO https://www.youtube.com/embed/EjHANN3rGNs]
+**View the video here.**  
+[https://www.youtube.com/embed/EjHANN3rGNs](https://www.youtube.com/embed/EjHANN3rGNs?azure-portal=true)
 
 
-
-## Video: Designing Report Layouts - Part 2
+## Video: Designing report layouts - Part 2
 
 In this 6-minute video, Peter Myers and Chris Finlan demonstrate creating a first report by using a wizard.
 
@@ -23,4 +23,5 @@ In this 6-minute video, Peter Myers and Chris Finlan demonstrate creating a firs
  
 ![UI of the paginated reports wizard](../media/wizard.png)
 
-> [!VIDEO https://www.youtube.com/embed/EjHANN3rGNs]
+**View the video here.**  
+[https://www.youtube.com/embed/EjHANN3rGNs](https://www.youtube.com/embed/EjHANN3rGNs?azure-portal=true)

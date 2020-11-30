@@ -5,10 +5,11 @@ To accelerate the development of reports, and to promote consistency of report d
 The template will be the starting design for new reports developed in other labs this course.
 
 Your tasks in this lab are to:
-1. Create the report
-1. Explore Report Builder
-1. Design the report layout
-1. Complete the design
+
+* Create the report
+* Explore Report Builder
+* Design the report layout
+* Complete the design
 
 
 Lab document available at &lt;CourseFolder&gt;\PowerBIPRIAD\Lab02B

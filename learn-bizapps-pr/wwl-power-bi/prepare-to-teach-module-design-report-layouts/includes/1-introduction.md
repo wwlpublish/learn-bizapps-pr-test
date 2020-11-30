@@ -5,7 +5,7 @@ That course will take your customers on a journey to develop and then publish pa
 
 Depending on your customers’ needs you may want to deliver this module by itself, or with the other modules in the **Power BI Paginated Reports in a Day** course to help close sales.
 
-## Designing Report Layouts
+## Designing report layouts
 Making a report that is easy for the user to understand is the difference between helping your organization be successful, and accidentally generating uncertainty.
 
 In this module we’ll cover how to explain and demonstrate:
