@@ -20,7 +20,8 @@ There are two types, and while their purposes are different, they are often rela
 > [!TIP]
 >  Take a moment and ask your students about the parameters that they find valuable.  Answering this question will start them thinking about applying this concept to their own reports.
 
-> [!VIDEO https://www.youtube.com/embed/o7WaK88kheA]
+**View the video here.**  
+[https://www.youtube.com/embed/o7WaK88kheA](https://www.youtube.com/embed/o7WaK88kheA?azure-portal=true)
 
 
 ## Video 12: Working with Parameters - Part 2	
@@ -35,9 +36,8 @@ In this 11-minute video, Peter Myers and Chris Finlan describe different paramet
 > [!TIP]
 >  If these scenarios match your students parameter list from above, highlight this strongly so they all know that you are solving their issues. 
 
-
-> [!VIDEO https://www.youtube.com/embed/okj6wO72clQ]
-> Access the video here.
+**View the video here.**  
+[https://www.youtube.com/embed/okj6wO72clQ](https://www.youtube.com/embed/okj6wO72clQ?azure-portal=true)
 
 
 ## Video 13: Working with Parameters - Part 3	
@@ -50,4 +50,5 @@ The goal of this demo to show your students how to set up a report so their user
 > [!Tip]
 > Spend a couple moments with your students discussing what type filters their users would look for. This will get them out of a "generic user" mode and help them think about how they would actually apply this demo to their own environment.
 
-> [!VIDEO https://www.youtube.com/embed/13-6sWIRD74]
+**View the video here.**  
+[https://www.youtube.com/embed/13-6sWIRD74](https://www.youtube.com/embed/13-6sWIRD74?azure-portal=true)

@@ -1,13 +1,13 @@
 In this 45-minuute lab, your students will enhance the Salesperson Directory report developed in Lab 03A with parameters. 
 
 Your student's tasks in this lab are to:
-1. Add a query parameter
-1. Configure available values
-1. Configure default values
-1. Configure an All item
-1. Configure cascading parameters
-1. Configure multi-value parameters
-1. Publish the report
+* Add a query parameter
+* Configure available values
+* Configure default values
+* Configure an All item
+* Configure cascading parameters
+* Configure multi-value parameters
+* Publish the report
 
 > [!WARNING]
 > You must successfully complete Lab 03A before commencing this lab
