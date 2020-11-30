@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn.wwl.prepare-to-teach-module-retrieve-report-data
+metadata:
+  title: 'Prepare to teach the module: Retrieve report data'
+  description: "Prepare to teach the module: Retrieve report data"
+  ms.date: 11/30/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-bi
+title: 'Prepare to teach the module: Retrieve report data'
+summary: Explain, demonstrate, and deliver to your Data Analyst customers the “Retrieving report data” module of the instructor-led course “Power BI paginated reports”.
+abstract: |
+  Teach the module &quot;Retrieving report data” in the instructor-led course “Power BI paginated reports”.
+prerequisites: |
+  Experience with paginated reports
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- data-analyst
+products:
+- power-bi
+- power-platform
+- azure-powerbi-embedded
+units:
+- learn.wwl.prepare-to-teach-module-retrieve-report-data.introduction
+- learn.wwl.prepare-to-teach-module-retrieve-report-data.retrieving
+- learn.wwl.prepare-to-teach-module-retrieve-report-data.lab-03a-develop-list-report
+- learn.wwl.prepare-to-teach-module-retrieve-report-data.knowledge-check
+- learn.wwl.prepare-to-teach-module-retrieve-report-data.summary
+badge:
+  uid: learn.wwl.prepare-to-teach-module-retrieve-report-data.badge
