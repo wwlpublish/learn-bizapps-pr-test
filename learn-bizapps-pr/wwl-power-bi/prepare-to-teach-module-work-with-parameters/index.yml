@@ -1,0 +1,33 @@
+### YamlMime:Module
+uid: learn.wwl.prepare-to-teach-module-work-with-parameters
+metadata:
+  title: 'Prepare to teach the module: Work with parameters'
+  description: "Prepare to teach the module: Work with parameters"
+  ms.date: 11/30/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+title: 'Prepare to teach the module: Work with parameters'
+summary: Explain, demonstrate, and deliver to your Data Analyst customers the “Retrieving report data” module of the instructor-led course “Power BI paginated reports”.
+abstract: |
+  Teach the module “Retrieving report data” in the instructor-led course “Power BI paginated reports”.
+prerequisites: |
+  Experience with Power BI paginated reports.
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles:
+- data-analyst
+products:
+- power-bi
+- power-platform
+- azure-powerbi-embedded
+units:
+- learn.wwl.prepare-to-teach-module-work-with-parameters.introduction
+- learn.wwl.prepare-to-teach-module-work-with-parameters.work-with-parameters
+- learn.wwl.prepare-to-teach-module-work-with-parameters.lab-04a
+- learn.wwl.prepare-to-teach-module-work-with-parameters.knowledge-check
+- learn.wwl.prepare-to-teach-module-work-with-parameters.summary
+badge:
+  uid: learn.wwl.prepare-to-teach-module-work-with-parameters.badge
