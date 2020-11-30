@@ -5,13 +5,14 @@ You will then help your students publish the report to Power BI.
 
 
 Your student's tasks in this lab are to:
-1. Create the report
-1. Create the data source
-1. Create the dataset
-1. Develop the report layout
-1. Publish the report
+* Create the report
+* Create the data source
+* Create the dataset
+* Develop the report layout
+* Publish the report
 
-[!TIP] Depending on the skill level of your students, you may be able to let them complete this lab on their own, or you may need to deliver it step-by-step as an instructor-led lab.
+> [!TIP] 
+> Depending on the skill level of your students, you may be able to let them complete this lab on their own, or you may need to deliver it step-by-step as an instructor-led lab.
 
 Lab document available at &lt;CourseFolder&gt;\PowerBIPRIAD\Lab03A
 
