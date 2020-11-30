@@ -12,7 +12,7 @@ Your tasks in this lab are to:
 * Complete the design
 
 
-Lab document available at &lt;CourseFolder&gt;\PowerBIPRIAD\Lab02B
+Lab document available at `<CourseFolder>\PowerBIPRIAD\Lab02B`
 
 > [!TIP] 
 > Depending on the skill level of your students, you may be able to let them complete this lab on their own, or you may need to deliver it step-by-step as an instructor-led lab.

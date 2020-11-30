@@ -1,6 +1,6 @@
 In this lab, you will help your students create their first report by using a Wizard.
 
-Lab document available at &lt;CourseFolder&gt;\PowerBIPRIAD\Lab02A
+Lab document available at `<CourseFolder>\PowerBIPRIAD\Lab02A`
 
 > [!IMPORTANT]
 > you must have successfully completed Lab 01A before starting this lab.
@@ -39,7 +39,7 @@ The setup instructions are available from: [https://aka.ms/priad-online-course#s
 1. Extract the file contents to your file system 
 
 
-The lab documents will refer to this location as &lt;CourseFolder&gt;.
+The lab documents will refer to this location as `<CourseFolder>`.
 
 Full details and discussion about the self-study kit are found in the online documentation.
 
