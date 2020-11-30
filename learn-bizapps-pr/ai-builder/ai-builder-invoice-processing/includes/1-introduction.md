@@ -3,7 +3,7 @@ Before you begin this course, we recommend that you first complete the [Get star
 The invoice processing prebuilt AI model extracts key invoice data to help automate the processing of invoices. The Invoice processing model is optimized to recognize common invoice elements like invoice ID, invoice date, amount due and more.
 
 > [!div class="mx-imgBorder"]
-> [![Sample invoice with extracted data highlighted, including customer name and address, invoice number, date, PO number, due date, subtotal, sales tax, and total due.](../media/image-1.png)](../media/image-1.png#lightbox)
+> [![Sample invoice with extracted data highlighted, including customer name and address, invoice number, date, PO number, due date, subtotal, sales tax, and total due.](../media/sample-invoice.png)](../media/sample-invoice.png#lightbox)
 
 The AI model also provides all recognized text on the invoice, which is useful if you're looking for fields that might be customized to a subset of your invoices.
 
