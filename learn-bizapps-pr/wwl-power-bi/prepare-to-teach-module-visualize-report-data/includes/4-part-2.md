@@ -15,8 +15,8 @@ The **Insert** ribbon tab contains six templates to visualize data:
 > [!TIP]
 > Your students may know these visualizations by different names so take a moment to describe or show each of the templates.
 
-
-> [!VIDEO https://www.youtube.com/embed/dliLsRvQB-c]
+**View the video here.**  
+[https://www.youtube.com/embed/dliLsRvQB-c](https://www.youtube.com/embed/dliLsRvQB-c?azure-portal=true)
 
 
 ## Video 17: Visualizing Report Data - Part 4
@@ -28,5 +28,5 @@ In this 8-minute video, Peter Myers and Chris Finlan demonstrate adding data bar
 
 ![Screenshot of a chart in a textbox](../media/chart-textbox.png)
 
-
-> [!VIDEO https://www.youtube.com/embed/5yHxuRRP_eU]
+**View the video here.**  
+[https://www.youtube.com/embed/5yHxuRRP_eU](https://www.youtube.com/embed/5yHxuRRP_eU?azure-portal=true)

@@ -11,7 +11,8 @@ The Insert ribbon tab contains three templates for data regions:
 > [!TIP]
 > This first section of the module is just a review of visualizations in general. Make sure you've covered the concepts before diving into how to actually create visualizations. 
 
-> [!VIDEO https://www.youtube.com/embed/b4TxBBtOWSw]
+**View the video here.**  
+[https://www.youtube.com/embed/b4TxBBtOWSw](https://www.youtube.com/embed/b4TxBBtOWSw?azure-portal=true)
 
 
 ## Video 15: Visualizing Report Data - Part 2
@@ -24,4 +25,5 @@ In this 26-minute video, Peter Myers and Chris Finlan demonstrate creating a tab
 > [!TIP]
 > This is a 20-minute demo, so come back to the table report view a couple times during the demo to remind your students of what you are doing and how your changes will impact the user.
 
-> [!VIDEO https://www.youtube.com/embed/JhEa_TugXeE]
+**View the video here.**  
+[https://www.youtube.com/embed/JhEa_TugXeE](https://www.youtube.com/embed/JhEa_TugXeE?azure-portal=true)
