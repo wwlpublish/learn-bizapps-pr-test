@@ -3,7 +3,7 @@ uid: learn-bizapps.ai-builder-invoice-processing.2-automate-workflow
 title: Create an automated workflow using invoice processing
 metadata: 
   title: Create an automated workflow using invoice processing
-  description: Learn to create a new flow, configure the trigger, create an Excel table, and write the data to Excel.
+  description: Learn to create a new flow, configure the trigger, write the data to Excel, and test the flow.
   ms.date: 12/09/2020 
   author: heyrob 
   ms.author: robde 

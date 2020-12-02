@@ -7,6 +7,6 @@ The invoice processing prebuilt AI model extracts key invoice data to help autom
 
 The AI model also provides all recognized text on the invoice, which is useful if you're looking for fields that might be customized to a subset of your invoices.
 
-No training or prior configuration is required to use invoice processing; you only need to provide an image or a PDF file, and the model will instantly return the results.
+No training or prior configuration is required to use invoice processing; you only need to provide an image or a PDF file, and the model returns the results instantly.
 
 Only English invoices from the United States are currently supported. For best results, limit your photos to only one invoice for each image and take the photo in adequate lighting conditions.
