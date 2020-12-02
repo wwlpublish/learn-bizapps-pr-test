@@ -2,7 +2,7 @@
 
 When you log into either Power Automate or Power Apps, you can navigate to **AI Builder** on the left menu and then select **Build**.
 
-On the AI Builder home page, you'll see all the AI capabilities that are at your disposal. In the Get straight to productivity section, you'll see an entry for **Invoice Processing**. By selecting it, you'll learn more about this AI capability as well as a **Try it out** section where you can see some sample invoices and try your own invoices right away. Give it a try!
+On the AI Builder home page, you'll see all the AI capabilities that are at your disposal. In the Get straight to productivity section, you'll see an entry for **Invoice Processing**. By selecting it, you'll learn more about this AI capability plus a **Try it out** section where you can see some sample invoices and try your own invoices right away. Give it a try!
 
 > [!div class="mx-imgBorder"]
 > [![Invoice Processing (preview) dialog showing the Try It Out tab with an invoice selected, and Extracted information showing to the right.](../media/invoice-processing.png)](../media/invoice-processing.png#lightbox)
