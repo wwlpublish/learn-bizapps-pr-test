@@ -3,7 +3,7 @@ uid: learn.wwl.power-bi-excel-better-together
 metadata:
   title: 'Prepare to teach the module: Power BI & Excel better together'
   description: "Prepare to teach the module: Power BI & Excel better together"
-  ms.date: 11/26/2020
+  ms.date: 12/03/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -18,7 +18,8 @@ abstract: |
 prerequisites: |
   - Basic familiarity with data analysis and reporting tools.
   - Experience with Excel.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/power-bi-excel-better-together.svg
+hidden: true
 levels:
 - intermediate
 roles:
