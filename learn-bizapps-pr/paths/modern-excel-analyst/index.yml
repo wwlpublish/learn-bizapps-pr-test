@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn.wwl.modern-excel-analyst
+metadata:
+  title: 'Prepare to teach the course: Modern Excel Analyst in a day'
+  description: 'Prepare to teach the course: Modern Excel Analyst in a day'
+  ms.date: 12/03/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerbi
+title: 'Prepare to teach the course: Modern Excel Analyst in a day'
+prerequisites: |
+  - Basic familiarity with data analysis and reporting tools.
+  - Experience with Excel and Power BI.
+summary: |
+  Deliver to your Data Analyst customers the instructor-led course “Modern Excel Analyst in a day” that covers extending Excel with Power BI.
+iconUrl: /learn/achievements/modern-excel-analyst.svg
+hidden: true
+levels:
+- intermediate
+roles:
+- business-analyst
+products:
+- office-excel
+- power-bi
+modules:
+- learn.wwl.analytics-excel
+- learn.wwl.mapping-learning-to-power-bi
+- learn.wwl.power-bi-excel-better-together
+- learn.wwl.power-bi-office-better-together
+- learn.wwl.wrap-up
+trophy:
+  uid: learn.wwl.modern-excel-analyst.trophy

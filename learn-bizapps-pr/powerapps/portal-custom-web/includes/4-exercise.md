@@ -1,6 +1,6 @@
 The purpose of this hands-on lab is to introduce the concept of building and extending Liquid templates.
 
-The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Common Data Service does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data) documentation to install the sample data into your environment.
+The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Microsoft Dataverse does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data) documentation to install the sample data into your environment.
 
 ## Learning objectives
 
@@ -21,7 +21,7 @@ For this exercise, you will need to have the following parameters set up in your
 
 To finish the exercise, you need to complete the following high-level tasks:
 
-- Create a partial template by accessing Common Data Service data to use as a layout block.
+- Create a partial template by accessing Dataverse data to use as a layout block.
 - Create a new template that extends a two-column layout web template.
 - Overwrite the side panel to include the partial template.
 - Change the template of an existing webpage.
@@ -29,7 +29,7 @@ To finish the exercise, you need to complete the following high-level tasks:
 
 ## Detailed steps
 
-To complete the exercise, you will build a new page template that includes a side panel that lists all accounts in Common Data Service.  
+To complete the exercise, you will build a new page template that includes a side panel that lists all accounts in Dataverse.  
 
 ### Create a partial template
 
@@ -115,7 +115,7 @@ Your next step is to test that your new template works:
 3. Select an existing page, for example **Product A** under **Services**. Note: names and hierarchy of pages on your portal might differ.
 4. Locate the **Template** property in the **Component** panel on the right side.
 5. Select **Directory Page Template** as the new template.
-   The list of accounts should be displayed because portals Studio runs under the maker account and uses Common Data Service security instead of entity permissions to filter the data.
+   The list of accounts should be displayed because portals Studio runs under the maker account and uses Dataverse security instead of entity permissions to filter the data.
 6. Select **Browse website**.
    The message "You do not have permissions to access the directory" should be displayed.
 

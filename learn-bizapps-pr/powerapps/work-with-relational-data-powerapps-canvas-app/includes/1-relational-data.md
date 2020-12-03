@@ -1,7 +1,7 @@
 As you start to build complex apps with Power Apps, one concept that you will need to become familiar with is relating data. Relating data is when you create a connection between two different data sources. An example is a travel expense app where you want to have one record for the trip and then one or more records for the individual expenses like food and lodging.
 
 The following table is an example of storing all of the expense data in
-one Common Data Service entity.
+one Microsoft Dataverse entity.
 
 | ID | Destination | Date      | Trip reason    | Expense type | Expense amount  |
 | - | -----------|----------|---------------|-------------|----------------|
@@ -46,7 +46,7 @@ the many benefits of Power Apps, connecting to multiple data sources from
 within one app is seamless.
 
 > [!NOTE]
-> Common Data Service can define relationships using Lookup columns, creating the structure and connecting the tables for you. This is outside the scope of this primer on relationships but worth noting as you consider data sources.
+> Dataverse can define relationships using Lookup columns, creating the structure and connecting the tables for you. This is outside the scope of this primer on relationships but worth noting as you consider data sources.
 
 In the next section, you will learn the functions and formulas for
 utilizing relationships in Power Apps.

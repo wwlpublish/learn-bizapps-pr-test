@@ -1,4 +1,4 @@
-The Healthcare solution is composed of apps (Patient Service Center, Patient Access, Care Management, and Home Health) that all work from the Common Data Service. The Healthcare solution uses a Common Data Model that is built on the HL7 FHIR standard. The data can be integrated with existing medical record systems using the Azure FHIR integration.
+The Healthcare solution is composed of apps (Patient Service Center, Patient Access, Care Management, and Home Health) that all work from the Microsoft Dataverse. The Healthcare solution uses a Common Data Model that is built on the HL7 FHIR standard. The data can be integrated with existing medical record systems using the Azure FHIR integration.
 
 ### Patient Service Center
 
@@ -20,7 +20,7 @@ The Patient Service Center will provide the following tools to assist healthcare
 
 -   Allow agents to schedule appointments for patients with available resources aligned to patient needs.
 
-The information about the interactions will be stored in the Common Data Service and tracked against patient records. This information can be shared with existing medical records systems using the FHIR integration capabilities of the Healthcare solution.
+The information about the interactions will be stored in the Dataverse and tracked against patient records. This information can be shared with existing medical records systems using the FHIR integration capabilities of the Healthcare solution.
 
 Patients themselves will not have visibility to the Patient Service Center but will be able to interact with the healthcare administrators via other channels such as the Patient Access portal, telephone, or SMS messaging.
 
@@ -32,7 +32,7 @@ Patient Access is a Power Apps Portal application to provide the following self-
 
 -   Schedule new appointments, review existing appointment details
 
--   View appointments made in other medical record systems in the Common Data Service via the FHIR integration
+-   View appointments made in other medical record systems in the Dataverse via the FHIR integration
 
 -   Review clinical data
 

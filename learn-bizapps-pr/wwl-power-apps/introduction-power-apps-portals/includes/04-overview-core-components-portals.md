@@ -9,7 +9,7 @@ Power Apps portals Studio components:
     -   Create a webpage.
     -   Delete a component.
     -   Sync Configuration - synchronizes the latest portal configuration
-        changes in Common Data Service database with your current Studio
+        changes in Microsoft Dataverse database with your current Studio
         session. For example, use Sync Configuration to reflect the changes in
         Studio when using the Portal Management app to change the configuration
         of pages, forms or any other objects.
@@ -30,7 +30,7 @@ Most of a portal's content is represented by webpages. A webpage is a document
 that is identified by a unique URL in a website. Through parent and child relationships 
 to other webpages, webpages form the hierarchy of a website, that is, its site map. 
 Webpages can be added and edited by using the Portal Studio, the portal front-side editor, 
-or directly in Common Data Service by using the Portal Management app.
+or directly in Dataverse by using the Portal Management app.
 
 ## Page templates
 
@@ -51,7 +51,7 @@ is a content snippet that can be updated with your company’s logo to quickly a
 
 ![Title content snippet](../media/content-snippets.png)
 
-Snippets can be edited by using Portal Studio and Common Data Service records by
+Snippets can be edited by using Portal Studio and Dataverse records by
 using the Portal Management app. Here is where you would replace the image source in the **Value** field 
 with your company's logo. 
 
@@ -60,15 +60,15 @@ with your company's logo.
 ## Entity lists and entity forms
 
 The strength of Power Apps portals is the ability to interact with information
-and data that is stored in Common Data Service. Entity lists and entity forms are used 
-in Power Apps portals to define what data should render on the portal from Common Data Service,
+and data that is stored in Dataverse. Entity lists and entity forms are used 
+in Power Apps portals to define what data should render on the portal from Dataverse,
 such as a list of records from an entity or a form to capture and display data for a specific record. 
 
 ![Account entity list](../media/member-directory-entity-list.png)
 
 A webpage record can be linked to an **entity list** or an **entity form**. The linked
 list or form will be used by the template to render the page layout with data
-from Common Data Service, such as a list of all *Active Contacts* to form the above 
+from Dataverse, such as a list of all *Active Contacts* to form the above 
 *Member Directory* list. In the **Properties** pane on the right of the above example, you
 see that this entity list was created to display the *Active Contacts* view
 from the *contacts* entity.

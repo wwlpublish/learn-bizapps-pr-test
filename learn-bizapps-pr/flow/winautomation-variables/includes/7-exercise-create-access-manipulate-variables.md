@@ -49,7 +49,7 @@ In this exercise, you will create a process that prompts users to enter basic in
 
     ![The populated fields in the Write to Excel Worksheet action's properties dialog.](..\media\write-to-excel-worksheet-action-properties-full-name-exercise.png)
 
-1. Repeat step 2, populating the **Value to Write** field with the **FullPhoneNumber** variable and the **Column** field with the Value two.
+1. Repeat step 9, populating the **Value to Write** field with the **FullPhoneNumber** variable and the **Column** field with the Value two.
 
     ![The populated fields in the Write to Excel Worksheet action's properties dialog.](..\media\write-to-excel-worksheet-action-properties-full-phone-exercise.png)
 

@@ -18,7 +18,7 @@ The **Execute JavaScript Function On Web Page** action functions similarly to th
 
 The result is stored in the **Result** variable, while the action doesn't provide separate variables for the potential errors. 
 
-Additionally, the **Use Template** button in the action's properties will create the main structure of a JavaScript function automatically.
+The **Use Template** button in the action's properties creates the main structure of a JavaScript function automatically.
 
 ![The Execute JavaScript Function On Web Page action.](..\media\run-javascript-browser.png)
 

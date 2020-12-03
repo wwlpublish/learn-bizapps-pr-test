@@ -45,27 +45,27 @@ quiz:
     choices: 
     - content: Power Apps portals admin center
       isCorrect: false 
-      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Common Data Service does not contain portal metadata.
+      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Microsoft Dataverse does not contain portal metadata.
     - content: Export and Import Excel files
       isCorrect: false 
-      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Common Data Service does not contain portal metadata.
+      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Dataverse does not contain portal metadata.
     - content: Configuration Data Migration tool
       isCorrect: true 
-      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Common Data Service does not contain portal metadata.
-    - content: Export and Import the Common Data Service solution
+      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Dataverse does not contain portal metadata.
+    - content: Export and Import the Dataverse solution
       isCorrect: false 
-      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Common Data Service does not contain portal metadata.
-  - content: How would you calculate taxes based on rates that are stored in Common Data Service on work orders that were entered on web forms on the portal?
+      explanation: The Power Apps portals admin center does not have tools to migrate portal metadata. Exporting and Importing Excel files would lead to problems with data relationships and potential duplicates of webpages. The Configuration Data Migration tool can use the Portal Schema files to export and import portal metadata. Dataverse does not contain portal metadata.
+  - content: How would you calculate taxes based on rates that are stored in Dataverse on work orders that were entered on web forms on the portal?
     choices: 
     - content: Add JavaScript to the Web Form steps.
       isCorrect: false 
-      explanation: You would not be able to query the rate information by using JavaScript on the Web Form steps. Creating an external web service would not be the most efficient way to calculate the taxes. A plug-in would launch when the data is saved to Common Data Service and can update a tax value based on rates in another entity. Common Data Service calculated fields can’t pull information (rates) from other records.
+      explanation: You would not be able to query the rate information by using JavaScript on the Web Form steps. Creating an external web service would not be the most efficient way to calculate the taxes. A plug-in would launch when the data is saved to Dataverse and can update a tax value based on rates in another entity. Dataverse calculated fields can’t pull information (rates) from other records.
     - content: Create an external web application.
       isCorrect: false 
-      explanation: You would not be able to query the rate information by using JavaScript on the Web Form steps. Creating an external web service would not be the most efficient way to calculate the taxes. A plug-in would launch when the data is saved to Common Data Service and can update a tax value based on rates in another entity. Common Data Service calculated fields can’t pull information (rates) from other records.
-    - content: Write a Common Data Service plug-in.
+      explanation: You would not be able to query the rate information by using JavaScript on the Web Form steps. Creating an external web service would not be the most efficient way to calculate the taxes. A plug-in would launch when the data is saved to Dataverse and can update a tax value based on rates in another entity. Dataverse calculated fields can’t pull information (rates) from other records.
+    - content: Write a Dataverse plug-in.
       isCorrect: true 
-      explanation: You would not be able to query the rate information by using JavaScript on the Web Form steps. Creating an external web service would not be the most efficient way to calculate the taxes. A plug-in would launch when the data is saved to Common Data Service and can update a tax value based on rates in another entity. Common Data Service calculated fields can’t pull information (rates) from other records.
+      explanation: You would not be able to query the rate information by using JavaScript on the Web Form steps. Creating an external web service would not be the most efficient way to calculate the taxes. A plug-in would launch when the data is saved to Dataverse and can update a tax value based on rates in another entity. Dataverse calculated fields can’t pull information (rates) from other records.
     - content: Add calculated fields to the work order entity.
       isCorrect: false 
-      explanation: You would not be able to query the rate information by using JavaScript on the Web Form steps. Creating an external web service would not be the most efficient way to calculate the taxes. A plug-in would launch when the data is saved to Common Data Service and can update a tax value based on rates in another entity. Common Data Service calculated fields can’t pull information (rates) from other records.
+      explanation: You would not be able to query the rate information by using JavaScript on the Web Form steps. Creating an external web service would not be the most efficient way to calculate the taxes. A plug-in would launch when the data is saved to Dataverse and can update a tax value based on rates in another entity. Dataverse calculated fields can’t pull information (rates) from other records.

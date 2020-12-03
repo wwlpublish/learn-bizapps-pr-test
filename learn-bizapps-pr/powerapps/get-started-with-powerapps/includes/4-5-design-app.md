@@ -46,7 +46,7 @@ There is a thorough discussion that needs to take place around Offline mode, and
 In the "Power Apps related technologies" module, you learned about some of the common data sources for building apps, but with all these choices how do you actually decide which data source to use for your solution? Maybe you already have a data source implemented that users work with on a day to day basis, like SharePoint. Could you just use this as your data source to build your app? Do I need to connect to multiple data sources? These are all common questions you should ask yourself and there are number of additional factors to consider, such as:
 
 - **Business Requirements** – Every data source and it's supported functionality is slightly different. So, depending on your app requirements you need to select the data source that supports your needs or modify your business requirements to comply with the supported functionality for the selected data source.
-- **Licensing/Cost** – Certain data sources like the Common Data Service or SQL are considered a "premium data source". A premium data source will require each user who uses the app to have a Power Apps Per App Plan or a Power Apps Per User Plan. For more information about licensing, see [Power Apps pricing](https://powerapps.microsoft.com/pricing/?azureportal=true)
+- **Licensing/Cost** – Certain data sources like the Microsoft Dataverse or SQL are considered a "premium data source". A premium data source will require each user who uses the app to have a Power Apps Per App Plan or a Power Apps Per User Plan. For more information about licensing, see [Power Apps pricing](https://powerapps.microsoft.com/pricing/?azureportal=true)
 
 ### User Experience (UX)
 
@@ -97,11 +97,11 @@ Localization can be something you must consider when developing your application
 
 ### Business Logic
 
-When using the common data service, you can create business rules and recommendations to apply logic and validations without writing code or creating plug-ins. The great thing about the common data service and business rules is that they are applied at the data level. This means that you can apply rules that are enforced regardless of how the data is accessed. 
+When using the Dataverse, you can create business rules and recommendations to apply logic and validations without writing code or creating plug-ins. The great thing about the Dataverse and business rules is that they are applied at the data level. This means that you can apply rules that are enforced regardless of how the data is accessed. 
  
-Often when building apps all of the business logic is built into the app. This works great if the data is only accessed via the app. The challenge is often business data is used in many ways and from different tools. This is where Business Rules shine. You can apply logic on the data in the Common Data Service, allowing your rules to be enforced no matter which tool interacts with the data. 
+Often when building apps all of the business logic is built into the app. This works great if the data is only accessed via the app. The challenge is often business data is used in many ways and from different tools. This is where Business Rules shine. You can apply logic on the data in the Dataverse, allowing your rules to be enforced no matter which tool interacts with the data. 
 
-For example, you have built a capital project expense tracking application using Common Data Service as the data source. In your business process, the duration field is an optional field if your request is less than 10,000 but the duration field is required if the request is more than 10,000. After you set up your entity in Common Data Service, you would then apply a business rule that says if Project Amount is greater than 10,000 then make Project Duration a required field. Now, regardless of how the user interacts with the data, the Business Rule will be enforced, keeping your data integrity.
+For example, you have built a capital project expense tracking application using Dataverse as the data source. In your business process, the duration field is an optional field if your request is less than 10,000 but the duration field is required if the request is more than 10,000. After you set up your entity in Dataverse, you would then apply a business rule that says if Project Amount is greater than 10,000 then make Project Duration a required field. Now, regardless of how the user interacts with the data, the Business Rule will be enforced, keeping your data integrity.
 
 ### Output
 

@@ -1,7 +1,7 @@
 The Customer self-service starter portal is for any organization that needs to provide customer support services. Dynamics 365 Customer Service features are extended to the portal.
 
 > [!NOTE]
-> The Customer self-service portal is only available on Common Data Service environments with Dynamics 365 apps enabled.
+> The Customer self-service portal is only available on Microsoft Dataverse environments with Dynamics 365 apps enabled.
 
 Similar to the Community portal, the features for both self-service and assisted service scenarios are included, though the emphasis is on the assisted service scenarios. Some self-service features, such as blogs, are not included.
 

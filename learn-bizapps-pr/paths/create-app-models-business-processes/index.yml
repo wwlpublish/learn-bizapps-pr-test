@@ -1,8 +1,8 @@
-﻿### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.create-app-models-business-processes
 metadata:
   title: Create a model-driven application in Power Apps
-  description: This learning path introduces you to creating a model-driven app in Power Apps that uses Common Data Service.
+  description: This learning path introduces you to creating a model-driven app in Power Apps that uses Microsoft Dataverse.
   ms.date: 01/17/2020
   author: KevSch
   ms.author: kschimke
@@ -11,7 +11,7 @@ metadata:
 title: Create a model-driven application in Power Apps
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  This learning path introduces you to creating a model-driven app in Power Apps that uses Common Data Service. 
+  This learning path introduces you to creating a model-driven app in Power Apps that uses Dataverse. 
 
   This learning path can help you prepare for the [Microsoft Certified: Power Platform App Maker Associate certification](https://docs.microsoft.com/learn/certifications/power-platform-app-maker).
 
@@ -31,6 +31,7 @@ modules:
 - learn-bizapps.intro-model-driven-apps-common-data-service
 - learn-bizapps.powerapps-common-data-service
 - learn-bizapps.powerapps-design-model-driven-apps
+- learn-dynamics.configure-model-driven-apps-customer-engagement 
 trophy:
   uid: learn.create-app-models-business-processes.trophy
 

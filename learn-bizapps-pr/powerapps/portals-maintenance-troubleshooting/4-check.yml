@@ -24,10 +24,10 @@ quiz:
     - content: Use the Disable custom errors action
       isCorrect: true 
       explanation: Selecting the Disable custom errors action will show detailed information directly on the portal page where the error has occurred. Resetting the portal will not resolve the issue or provide information. The diagnostics logs must be downloaded from Azure Blog storage, and the plug-in trace log is only viewable with the model-driven app settings.
-    - content: Review the Common Data Service plug-in trace log
+    - content: Review the Microsoft Dataverse plug-in trace log
       isCorrect: false 
       explanation: Selecting the Disable custom errors action will show detailed information directly on the portal page where the error has occurred. Resetting the portal will not resolve the issue or provide information. The diagnostics logs must be downloaded from Azure Blog storage, and the plug-in trace log is only viewable with the model-driven app settings.
-  - content: You want to deploy updates to your Common Data Service application that will affect portal functionality. You decide to put the portal in maintenance mode, but your manager wants portal visitors to know how long the site will be unavailable. What can you do?
+  - content: You want to deploy updates to your Dataverse application that will affect portal functionality. You decide to put the portal in maintenance mode, but your manager wants portal visitors to know how long the site will be unavailable. What can you do?
     choices: 
     - content: Use IP address restrictions
       isCorrect: false 
@@ -63,7 +63,7 @@ quiz:
     - content: The Azure portal host app
       isCorrect: false 
       explanation: Most of the portal assets are updated automatically except for the portal solutions that need to be updated in the Dynamics 365 admin center.
-    - content: Common Data Service
+    - content: Dataverse
       isCorrect: false 
       explanation: Most of the portal assets are updated automatically except for the portal solutions that need to be updated in the Dynamics 365 admin center.
     - content: The portals solutions in the Dynamics 365 admin center

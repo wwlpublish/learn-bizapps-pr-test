@@ -1,10 +1,10 @@
-Microsoft Power Apps portals generates output based on Common Data Service data. The fundamental question in this architecture is: How can I take *this* data and insert it into *that* output?
+Microsoft Power Apps portals generates output based on Microsoft Dataverse data. The fundamental question in this architecture is: How can I take *this* data and insert it into *that* output?
 
-The data in this question would commonly refer to Common Data Service data, and the output is usually HTML or plain text.
+The data in this question would commonly refer to Dataverse data, and the output is usually HTML or plain text.
 
 Because Power Apps portals uses a Software as a Service (SaaS) model, access to the server code is not provided. Portal makers need to edit their own templates, which is where Liquid template language comes in.
 
-Liquid is an [open-source template language](http://dotliquidmarkup.org/?azure-portal=true) that is integrated natively into Power Apps portals. It acts as a bridge between Common Data Service data and the HTML or text output that is sent to the browser. Liquid can be used to add dynamic content to pages and to create a variety of custom templates. Additionally, Liquid provides access only to the data and operations that are explicitly allowed by the portal security settings.
+Liquid is an [open-source template language](http://dotliquidmarkup.org/?azure-portal=true) that is integrated natively into Power Apps portals. It acts as a bridge between Dataverse data and the HTML or text output that is sent to the browser. Liquid can be used to add dynamic content to pages and to create a variety of custom templates. Additionally, Liquid provides access only to the data and operations that are explicitly allowed by the portal security settings.
 
 ### Add Liquid code to portal webpages
 

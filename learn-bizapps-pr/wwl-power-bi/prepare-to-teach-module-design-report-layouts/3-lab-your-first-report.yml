@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn.wwl.prepare-to-teach-module-design-report-layouts.lab-02a-your-first-report
+title: Lab 02A Your first report
+metadata:
+  title: Lab 02A Your first report
+  description: "Lab 02A Your first report"
+  ms.date: 12/03/2020
+  author: wwlpublish
+  ms.author: bgeoffro
+  ms.topic: interactive-tutorial
+  ms.prod: learning-azure
+azureSandbox: false
+durationInMinutes: 20
+content: |
+  [!include[](includes/3-lab-your-first-report.md)]

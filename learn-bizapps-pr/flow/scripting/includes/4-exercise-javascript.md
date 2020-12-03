@@ -1,4 +1,4 @@
-In this exercise, you'll create a process that calculates the last day of the current month by using JavaScript code. 
+In this exercise, you'll create a process that calculates the last day of the current month using JavaScript code. 
 
 1. Launch WinAutomation and create a new process named **Last day of the month**.
 
@@ -12,7 +12,7 @@ In this exercise, you'll create a process that calculates the last day of the cu
 
     ![The Set Variable actions in the workspace.](..\media\set-variables.png)
 
-1. Deploy a **Run JavaScript** action and populate it with the code that's shown in the following image. This action returns a text variable that contains the last day of the given month.
+1. Deploy a **Run JavaScript** action and populate it with the code shown in the following image. This action returns a text variable that contains the last day of the given month.
 
     ![The Run JavaScript action with populated fields.](..\media\run-javascript-example.png)
 
@@ -24,7 +24,7 @@ In this exercise, you'll create a process that calculates the last day of the cu
 
     ![The Convert Text to DateTime action with populated fields.](..\media\convert-text-date.png)
 
-1. Reconvert the datetime value to text by using the **Convert DateTime to Text** action. You are deploying this action to create a custom format of the date.
+1. Reconvert the datetime value to text using the **Convert DateTime to Text** action. You are deploying this action to create a custom format of the date.
 
     ![The Convert DateTime to Text action with populated fields.](..\media\convert-date-text.png)
 
