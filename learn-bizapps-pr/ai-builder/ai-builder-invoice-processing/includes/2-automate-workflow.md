@@ -79,7 +79,7 @@ Now that your table is set up, you can add the extracted invoice information to 
 
 ### Test the flow
 
-We're done building the flow. Let's now test it. Select the **Save** button on the top right and then on the **Test** button next to it. Select the option to trigger the action.
+We're done building the flow. Now let's test it. Select the **Save** button on the top right and then on the **Test** button next to it. Select the option to trigger the action.
 
 Next, take an invoice and put it in the folder you defined on the OneDrive trigger in your flow. Once the invoice is uploaded to your OneDrive, the flow will get executed after some seconds: AI Builder will extract the data from the uploaded invoices and a new entry will be added to Excel with the extracted information.
 

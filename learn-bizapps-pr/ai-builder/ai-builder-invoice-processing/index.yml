@@ -19,7 +19,7 @@ abstract: |
 prerequisites: A Power Automate or Power Apps license, access to Microsoft Dataverse, and an AI Builder add-on or trial.
 iconUrl: /learn/achievements/ai-builder-invoice-processing.svg
 levels:  
-- beginner   
+- beginner
 roles:  
 - maker
 - business-user

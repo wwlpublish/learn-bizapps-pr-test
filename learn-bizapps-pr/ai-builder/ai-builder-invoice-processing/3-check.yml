@@ -35,7 +35,7 @@ quiz:
     - content: Both PDF and image (JPG, PNG) files
       isCorrect: true 
       explanation: Invoice processing works for both PDF and image files.
-  - content: What type of information can you extract from an invoice when using invoice processing?
+  - content: What type of information can you extract from an invoice using invoice processing?
     choices: 
     - content: Commonly used invoice fields
       isCorrect: false 
