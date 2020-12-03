@@ -8,7 +8,7 @@ Depending on your customers’ needs you may want to deliver this module by itse
 
 
 
-## Beyond Report Development
+## Beyond report development
 
 Creating a report is just the first step in providing information to your organization.
 
