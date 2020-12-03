@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 11/27/2020
+  ms.date: 12/03/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -38,14 +38,14 @@ quiz:
     - content: "No, you need to send a screenshot of the visualization along with the link for a preview"
       isCorrect: false
       explanation: "That's incorrect. Only for Reports or Visuals that you have permission to view."
-  - content: "You can share a link  to Power BI service in Teams to all of these except:"
+  - content: "You can share a link to Power BI service in Teams to which of these?"
     choices:
-    - content: "Channel"
+    - content: "Call"
       isCorrect: false
       explanation: "That's incorrect. You can share a link  to Power BI service in Teams to a Channel, 1 on 1 chat, and group chat."
-    - content: "Call"
+    - content: "Channel"
       isCorrect: true
       explanation: "That's correct. You can share a link  to Power BI service in Teams to a Channel, 1 on 1 chat, and group chat."
-    - content: "Group chat"
+    - content: "Mobile call"
       isCorrect: false
       explanation: "That's incorrect. You can share a link  to Power BI service in Teams to a Channel, 1 on 1 chat, and group chat."
