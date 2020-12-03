@@ -3,7 +3,7 @@ uid: learn.wwl.prepare-to-teach-module-work-with-parameters
 metadata:
   title: 'Prepare to teach the module: Work with parameters'
   description: "Prepare to teach the module: Work with parameters"
-  ms.date: 11/30/2020
+  ms.date: 12/03/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -14,7 +14,8 @@ abstract: |
   Teach the module “Retrieving report data” in the instructor-led course “Power BI paginated reports”.
 prerequisites: |
   Experience with Power BI paginated reports.
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/work-with-parameters.svg
+hidden: true
 levels:
 - intermediate
 roles:

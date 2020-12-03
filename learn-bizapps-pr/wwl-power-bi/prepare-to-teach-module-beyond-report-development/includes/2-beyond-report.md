@@ -1,4 +1,4 @@
-## Video 20: Beyond report development - Part 1
+## Video 20: Beyond report development - part 1
 In this 14-minute video, Peter Myers and Chris Finlan describe how to publish reports to the Power BI service, and cover consuming, delivering, and embedding paginated reports. Finally, they discuss when it's a good choice to create a paginated report instead of a Power BI report.
 
 - Reports can be saved to a Power BI workspace from Report Builder  
@@ -16,11 +16,11 @@ In this 14-minute video, Peter Myers and Chris Finlan describe how to publish re
 
 > [!VIDEO https://www.youtube.com/embed/1CgDVDslwvs]
 
-## Video 21: Beyond report development - Part 2
+## Video 21: Beyond report development - part 2
 In this 5-minute video, Peter Myers and Chris Finlan demonstrate publishing a report. They then show how to embed it using URL access and create a subscription.
 
 
-### Licensing
+### Licenses
 
 Paginated reports are developed on the desktop using Power BI Report Builder (this tool is free) 
 

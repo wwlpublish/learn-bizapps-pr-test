@@ -3,7 +3,7 @@ uid: learn.wwl.prepare-to-teach-module-retrieve-report-data
 metadata:
   title: 'Prepare to teach the module: Retrieve report data'
   description: "Prepare to teach the module: Retrieve report data"
-  ms.date: 11/30/2020
+  ms.date: 12/03/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -14,7 +14,8 @@ abstract: |
   Teach the module &quot;Retrieving report data” in the instructor-led course “Power BI paginated reports”.
 prerequisites: |
   Experience with paginated reports
-iconUrl: /learn/achievements/generic-badge.svg
+iconUrl: /learn/achievements/retrieve-report-data.svg
+hidden: true
 levels:
 - intermediate
 roles:
