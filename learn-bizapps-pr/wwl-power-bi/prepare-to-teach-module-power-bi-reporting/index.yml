@@ -3,7 +3,7 @@ uid: learn.wwl.prepare-to-teach-module-power-bi-reporting
 metadata:
   title: 'Prepare to teach the module: Power BI reporting'
   description: "Prepare to teach the module: Power BI reporting"
-  ms.date: 11/30/2020
+  ms.date: 12/03/2020
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -15,6 +15,7 @@ abstract: |
 prerequisites: |
   Experience with Paginated reports.
 iconUrl: /learn/achievements/generic-badge.svg
+hidden: true
 levels:
 - intermediate
 roles:
