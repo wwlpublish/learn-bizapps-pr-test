@@ -1,4 +1,4 @@
-In this module, you have learned how to teach the **Beyond report development** module of instructor-led course **Power BI Paginated Reports in a Day** to your Data Analyst customers.
+In this module, you have learned how to teach the **Beyond report development** module of instructor-led course **Power BI paginated reports in a day** to your Data Analyst customers.
 You now have the skills, knowledge, and resources to help your students learn more about Power BI paginated reports.
 
 Creating a report is just the first step in providing information to your organization.
@@ -13,7 +13,7 @@ In this seventh module we covered how to teach and demonstrate what happens once
 - Embedding reports
 - When to use paginated reports
 - Licensing
-- Migrate SSRS reports
+- Migrate SSRS reports (SQL Server Reporting Services)
 
 ## Resources
 
@@ -31,7 +31,7 @@ They will also allow you to provide additional information when you are explaini
 
 - [When to use paginated reports in Power BI](https://docs.microsoft.com/power-bi/guidance/report-paginated-or-power-bi)
 
-### SSR migration
+### SSR migration (SQL Server Reporting Services)
 
 - [Migrate SQL Server Reporting Services reports to Power BI](https://docs.microsoft.com/power-bi/guidance/migrate-ssrs-reports-to-power-bi)
 
