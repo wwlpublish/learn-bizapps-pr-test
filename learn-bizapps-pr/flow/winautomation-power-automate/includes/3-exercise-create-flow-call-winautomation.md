@@ -20,7 +20,7 @@ For this module, we will create a WinAutomation Process and a Power Automate Flo
 
 1. **Save** the process and close Process Designer.
  
-1. Go to **https://flow.microsoft.com/**, and then navigate to **My Flows**, **UI Flows**, and click on **Create a UI Flow**.
+1. Go to **https://flow.microsoft.com/**, and then navigate to **My Flows**, **desktop flow**, and click on **Create a UI Flow**.
 
    ![go to flows website create a UI flow](..\media\go-to-flows-website-create-ui-flow.png)
 
