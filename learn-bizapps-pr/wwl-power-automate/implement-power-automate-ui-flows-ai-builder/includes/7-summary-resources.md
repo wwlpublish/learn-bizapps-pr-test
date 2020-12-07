@@ -6,7 +6,7 @@ Now that you have reviewed this module, you should be able to:
 
 - Use AI builder to create a prediction model to automatically parse information from sample invoice documents.
 
-- Implement robotic process automation with UI flows to automate entry of information into a legacy application.
+- Implement robotic process automation with desktop flow to automate entry of information into a legacy application.
 
 ## Key takeaways
 
@@ -17,7 +17,7 @@ Here are the three key takeaways:
 
 - AI Builder is a Power Platform capability that enables you to add intelligence to your automated processes, predict outcomes, and help improve business performance. AI Builder is a turnkey solution that brings the power of Microsoft AI through a point-and-click experience and is directly integrated into Power Apps and Power Automate.
 
-- UI flows bring Robotic Process Automation (RPA) capabilities to Power Automate. You can use UI flows to automate repetitive tasks in Windows and Web applications. UI flows records and plays back user interface actions (clicks, keyboard input, etc.) for applications that don't have easy-to-use or complete APIs available.
+- Desktop flow brings Robotic Process Automation (RPA) capabilities to Power Automate. You can use desktop flow to automate repetitive tasks in Windows and Web applications. Desktop flow records and plays back user interface actions (clicks, keyboard input, etc.) for applications that don't have easy-to-use or complete APIs available.
 
 
 
@@ -51,14 +51,14 @@ Use these resources to discover more.
 
 ### Build and use a UI flow to automate data entry into a legacy application
 
-- [Introduction to UI flows](https://docs.microsoft.com/power-automate/ui-flows/overview?azure-portal=true)
+- [Introduction to desktop flow](https://docs.microsoft.com/power-automate/ui-flows/overview?azure-portal=true)
 
-- [Set up UI flows](https://docs.microsoft.com/power-automate/ui-flows/setup?azure-portal=true)
+- [Set up desktop flow](https://docs.microsoft.com/power-automate/ui-flows/setup?azure-portal=true)
 
-- [Create and test desktop UI flows](https://docs.microsoft.com/power-automate/ui-flows/create-desktop?azure-portal=true)
+- [Create and test desktop flow](https://docs.microsoft.com/power-automate/ui-flows/create-desktop?azure-portal=true)
 
-- [Use inputs and outputs in desktop UI flows](https://docs.microsoft.com/power-automate/ui-flows/inputs-outputs-desktop?azure-portal=true)
+- [Use inputs and outputs in desktop flow](https://docs.microsoft.com/power-automate/ui-flows/inputs-outputs-desktop?azure-portal=true)
 
-- [Edit desktop UI flows](https://docs.microsoft.com/power-automate/ui-flows/edit-desktop?azure-portal=true)
+- [Edit desktop flow](https://docs.microsoft.com/power-automate/ui-flows/edit-desktop?azure-portal=true)
 
-- [Run attended and unattended UI flows](https://docs.microsoft.com/power-automate/ui-flows/run-ui-flow?azure-portal=true)
+- [Run attended and unattended desktop flow](https://docs.microsoft.com/power-automate/ui-flows/run-ui-flow?azure-portal=true)

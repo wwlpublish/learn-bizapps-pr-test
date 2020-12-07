@@ -11,7 +11,7 @@ To provide better services, they built a new artificial intelligence enabled vir
 
 TruGreen used some of the hundreds of connectors available for the Power Platform to connect to traditional data sources. Using these capabilities they had their first protype running in two days, once again without a single line of code. 
 
-In addition, they had systems that didn't have APIs to be used by the connectors. For these systems, they leveraged UI flows. With UI flows they were able to mimic onscreen actions that customer service associates used to perform manually via robotic process automation (RPA). 
+In addition, they had systems that didn't have APIs to be used by the connectors. For these systems, they leveraged desktop flow. With desktop flow they were able to mimic onscreen actions that customer service associates used to perform manually via robotic process automation (RPA). 
 
 Now they have a fully functional virtual agent for interacting with their customers that can take action on the customers' intent in a meaningful way. This is just the first step as they continue to drive better customer experiences and more business value using these tools. 
 
