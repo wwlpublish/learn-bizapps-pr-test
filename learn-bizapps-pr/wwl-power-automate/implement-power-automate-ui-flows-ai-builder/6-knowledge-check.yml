@@ -24,14 +24,14 @@ quiz:
     - content: "You must create your own AI models to use with Power Automate, there are no prebuilt models."
       isCorrect: false
       explanation: "Incorrect. You can use your published AI models, as well as some AI Builder prebuilt models in Power Automate."
-  - content: "Which of the following statements is correct, regarding UI flows?"
+  - content: "Which of the following statements is correct, regarding desktop flow?"
     choices:
-    - content: "UI flows can be used to automate only Windows based applications."
+    - content: "Desktop flow can be used to automate only Windows based applications."
       isCorrect: false
-      explanation: "Incorrect. UI flows can automate repetitive tasks in Windows and Web applications."
-    - content: "UI flows can automate repetitive tasks in Windows and Web applications."
+      explanation: "Incorrect. Desktop flow can automate repetitive tasks in Windows and Web applications."
+    - content: "Desktop flow can automate repetitive tasks in Windows and Web applications."
       isCorrect: true
-      explanation: "Correct. UI flows can automate repetitive tasks in Windows and Web applications."
-    - content: "UI flows can be used to automate only Web based applications."
+      explanation: "Correct. Desktop flow can automate repetitive tasks in Windows and Web applications."
+    - content: "Desktop flow can be used to automate only Web based applications."
       isCorrect: false
-      explanation: "Incorrect. UI flows can automate repetitive tasks in Windows and Web applications."
+      explanation: "Incorrect. Desktop flow can automate repetitive tasks in Windows and Web applications."

@@ -8,7 +8,7 @@ Microsoft Power Automate (previously known as Flow) is a service that allows you
 
 The designer feature that's included with Power Automate is user-friendly. However, drawing your flow logic on a Visio diagram can occasionally help you design a better workflow; hence the integration of Power Automate with Visio. In Visio, you can use the Business Process Modeling Notation (BPMN) basic shapes to design the flow and export it. You can then import that file into Power Automate, after which you have the flexibility to make further enhancements.
 
-UI flows bring Robotic Process Automation (RPA) directly into Power Automate. This functionality comes with either a desktop or a web app that you use to record the user interface, including selections and keyboard input. This feature is useful for when you are working with legacy applications that don't have available APIs.
+Desktop flow brings Robotic Process Automation (RPA) directly into Power Automate. This functionality comes with either a desktop or a web app that you use to record the user interface, including selections and keyboard input. This feature is useful for when you are working with legacy applications that don't have available APIs.
 
 Business process flows are built by using Power Platform and Microsoft Dataverse. You can also use Power Automate workflows. The business process is a series of steps that the user needs to complete in a specific stage. The business process flow will visually guide the user through various stages. These flows are created and managed by using Power Automate, and several templates are readily available. These templates can use the entities that are already available, or you can use custom entities that you have created.
 
