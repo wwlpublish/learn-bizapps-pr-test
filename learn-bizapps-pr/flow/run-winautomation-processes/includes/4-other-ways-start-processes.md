@@ -24,7 +24,7 @@ Select any flow from the drop-down list, and when this action runs, the selected
 
 ## Power Automate
 
-WinAutomation processes may also be invoked through a UI flow in Power Automate. Add an action in a UI flow, and select the Run WInAutomation option.
+WinAutomation processes may also be invoked through a Desktop flow in Power Automate. Add an action in a Desktop flow, and select the Run WInAutomation option.
  
 ![run winautomation desktop flow action](..\media\run-winautomation-ui-flows-action.png)
 

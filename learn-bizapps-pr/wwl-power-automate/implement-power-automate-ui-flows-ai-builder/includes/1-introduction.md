@@ -10,7 +10,7 @@ In this module, you will:
 
 - Implement robotic process automation with desktop flow to automate entry of information into a legacy application.
 
-With each unit in this module we will walk you through the process of taking a simple Power Automate flow that routes an invoice to a Teams channel and quickly and easily add AI builder functionality to parse content needed to process the invoice,  automate the approval process, and then use a UI flow to enter information into a legacy business application.
+With each unit in this module we will walk you through the process of taking a simple Power Automate flow that routes an invoice to a Teams channel and quickly and easily add AI builder functionality to parse content needed to process the invoice,  automate the approval process, and then use a Desktop flow to enter information into a legacy business application.
 
 Watch this video to get started, with an understanding of the process flow.
 
