@@ -49,7 +49,7 @@ Use these resources to discover more.
 
 - [Solutions Overview](https://docs.microsoft.com/power-automate/overview-solution-flows?azure-portal=true)
 
-### Build and use a UI flow to automate data entry into a legacy application
+### Build and use a Desktop flow to automate data entry into a legacy application
 
 - [Introduction to desktop flow](https://docs.microsoft.com/power-automate/ui-flows/overview?azure-portal=true)
 

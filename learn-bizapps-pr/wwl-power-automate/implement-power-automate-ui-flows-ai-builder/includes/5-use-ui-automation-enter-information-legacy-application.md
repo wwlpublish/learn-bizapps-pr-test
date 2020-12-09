@@ -2,11 +2,11 @@ Desktop flow bring Robotic Process Automation (RPA) capabilities to Power Automa
 
 The final step to fully automate the invoice approval process is to take the information that the UI builder model parsed from the invoice and have the flow automatically enter the information into the business legacy application.
 
-Watch this video to learn how to build a UI flow that you can use to automate data entry in your desktop legacy application.
+Watch this video to learn how to build a Desktop flow that you can use to automate data entry in your desktop legacy application.
 
 >[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4uOJe?azure-portal=true]
 
-The video showed steps for building a UI flow to automate the steps associated with a specific desktop legacy application. Your application will be different. The prerequisites and general steps for creating a UI flow, however, are common.  Listed below are links with detailed information to guide you through the setup and creation of desktop flow.
+The video showed steps for building a Desktop flow to automate the steps associated with a specific desktop legacy application. Your application will be different. The prerequisites and general steps for creating a Desktop flow, however, are common.  Listed below are links with detailed information to guide you through the setup and creation of desktop flow.
 
 - [Set up desktop flow](https://docs.microsoft.com/power-automate/ui-flows/setup?azure-portal=true)
 
@@ -19,7 +19,7 @@ The video showed steps for building a UI flow to automate the steps associated w
 - [Run attended and unattended desktop flow](https://docs.microsoft.com/power-automate/ui-flows/run-ui-flow?azure-portal=true)
 
 >[!NOTE]
-> When running a Power Automate flow that includes a UI flow, it is currently necessary that the computer in which the flow is running be configured with a single display monitor.
+> When running a Power Automate flow that includes a Desktop flow, it is currently necessary that the computer in which the flow is running be configured with a single display monitor.
 
 Business can automate their approval processes, infuse intelligence, and integrate their legacy apps in just a fraction of the time, using Power Automate and the new Robotic Process Automation capability alongside AI Builder, which are all part of the Microsoft Power Platform.
 
