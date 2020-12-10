@@ -86,4 +86,3 @@ When defining triggers, there are a few different types:
     clicked with 3rd party options, or even when a button is pressed inside of
     Power Apps. This gives you and/or the users control to "run" a flow on
     demand.
-
