@@ -22,4 +22,4 @@ In this exercise, you'll create a flow that extracts invoice data from scanned d
 
 1. Save the flow and run it to ensure that the extraction is completed successfully.
 
-    [ ![The final flow and the save and run buttons.](..\media\exericse-final-flow.png) ](..\media\exericse-final-flow-expanded.png#lightbox)
+    [ ![The appropriate buttons in the designer to save and run the final flow.](..\media\exericse-final-flow.png) ](..\media\exericse-final-flow-expanded.png#lightbox)
