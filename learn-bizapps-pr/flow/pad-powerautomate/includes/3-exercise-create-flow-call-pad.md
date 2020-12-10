@@ -71,7 +71,7 @@ The flow works as follows:
 
 1. Go to flow.microsoft.com
 
-1. Select **Create** and **Instant Flow**.
+1. Select **Create** and **Instant cloud flow**.
 
 1. Add a flow name, and select **Manually trigger a flow**
 
@@ -83,9 +83,9 @@ The flow works as follows:
    |Last Name|Enter the employee's last name|
    |Time Off|Enter the time off requested in days|
 
-   ![Set parameters in the desktop flow ](..\media\manually-trigger-a-flow-action-properties.png)
+   ![Set parameters in the desktop flow](..\media\manually-trigger-a-flow-action-properties.png)
 
-1. Add a new action and search for the **Run a flow built by Power Automate Desktop** action.
+1. Add a new action and search for the **Run a flow built with Power Automate Desktop** action.
 
    ![Select the action](..\media\choose-an-action.png)
 
@@ -97,7 +97,7 @@ The flow works as follows:
 
    ![Send an email v2 action](..\media\send-an-email-v2-action-properties.png)
 
-Note that the **Approval** variable originates from the **Run a flow built by Power Automate Desktop** action.
+Note that the **Approval** variable originates from the **Run a flow built with Power Automate Desktop** action.
 
 Save and test the flow. Enter the inputs as requested.
 
