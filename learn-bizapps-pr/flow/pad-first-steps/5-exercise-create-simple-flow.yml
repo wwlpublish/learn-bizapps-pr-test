@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.pad-first-steps.5-exercise-create-simple-flow 
-title: Exercise - Create and execute a simple flow
+title: Exercise - Create and run a simple flow
 metadata: 
-  title: Exercise - Create and execute a simple flow
-  description: Exercise - Create and execute a simple flow
+  title: Exercise - Create and run a simple flow
+  description: Practice creating and running a simple flow in Power Automate Desktop.
   ms.date: 10/26/2020 
   author: georgiostrantzas 
   ms.author: getrantz 

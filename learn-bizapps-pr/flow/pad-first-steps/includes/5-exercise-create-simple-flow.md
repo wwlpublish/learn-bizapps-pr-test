@@ -1,14 +1,14 @@
-In this exercise, you'll create a flow that copies a selected folder and adds information about the created backup in an Excel file. 
+In this exercise, you'll create a flow that copies a selected folder and then adds information about the created backup in a Microsoft Excel file. 
 
 To create the flow:
 
-1. Launch Power Automate Desktop and select the **New flow** button in the console.
+1. Launch Power Automate Desktop and then select the **New flow** button in the console.
 
     ![The New flow button in the console.](..\media\exercise-new-flow-button.png)
 
-1. Choose a name for your flow and select the **Create** button. In this example, we named our flow **Backup flow**.
+1. Choose a name for your flow and then select the **Create** button. For this example, the flow is named **Backup flow**.
 
-    ![The Build a flow dialog.](..\media\exercise-build-a-flow-dialog.png)
+    ![The Build a flow dialog box.](..\media\exercise-build-a-flow-dialog.png)
 
 1. When the flow designer is launched, add a **Display select folder dialog** action to prompt users to select a folder.
 
@@ -30,16 +30,16 @@ To create the flow:
 
     ![The Get current date and time action.](..\media\exercise-get-current-date-and-time-action.png)
 
-1. Now, deploy two **Write to Excel worksheet** actions to add log information in the Excel file. Use the first one to write the copied folder's path in the first column and the second one to add a timestamp in the second column of the first available row.
+1. Deploy two **Write to Excel worksheet** actions to add log information in the Excel file. Use the first one to write the copied folder's path in the first column and the second one to add a timestamp in the second column of the first available row.
 
     ![The Write to Excel worksheet action.](..\media\exercise-write-to-excel-worksheet-action.png)
 
-1. Lastly, use a **Close Excel** action to save and close the Excel file.
+1. Use a **Close Excel** action to save and close the Excel file.
 
     ![The Close Excel action.](..\media\exercise-close-excel-action.png)
 
-1. To test that the flow runs as expected, select the **Run** button, pick a folder and check that the log file has been updated.
+1. To test that the flow runs as expected, select the **Run** button, pick a folder, and then check that the log file has been updated.
 
     ![The final flow and the run button.](..\media\exercise-final-flow.png)
 
-1. If the flow works as expected, save it and close the flow designer. 
+1. If the flow works as expected, save it and then close the flow designer. 

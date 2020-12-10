@@ -1,4 +1,4 @@
-In this unit, we'll develop a flow that converts dates in the European format (d/m/yyyy) to the American format (m/d/yyyy). The flow will retrieve the date from the clipboard when the **Alt + 1** keys are pressed, and it will return the converted date. 
+In this unit, you'll develop a flow that converts dates in the European format (dd/mm/yyyy) to the American format (mm/dd/yyyy). The flow will retrieve the date from the clipboard when the **Alt + 1** keys are pressed, and it will return the converted date. 
 
 To create the flow:
 
@@ -6,19 +6,19 @@ To create the flow:
 
     ![The New flow button in the console.](..\media\console-new-flow.png)
 
-1. Populate a name for the  flow and select the **Create** button. In this example, we named our flow **Date conversion**
+1. Populate a name for the flow and then select the **Create** button. In this example, the flow is named **Date conversion**.
 
-    ![The Build a flow dialog.](..\media\console-build-new-flow.png)
+    ![The Build a flow dialog box.](..\media\console-build-new-flow.png)
 
-1. When the flow designer is launched, add a **Wait for hotkey** action in the workspace and set it to wait for the **Alt + 1** keys.
+1. When the flow designer is launched, add a **Wait for hot key** action in the workspace and set it to wait for the **Alt + 1** keys.
 
-    ![The Wait for hotkey action.](..\media\wait-for-hotkey-action.png)
+    ![The Wait for hot key action.](..\media\wait-for-hotkey-action.png)
 
 1. Add a **Get clipboard text** action to retrieve the current content of the clipboard.
 
     ![The Get clipboard text action.](..\media\get-clipboard-text.png)
 
-1. Now, deploy a **Convert text to datetime** action to convert the retrieved text to a datetime variable. The text represents the European date format, so configure the respective custom format in the action's properties. 
+1. Deploy a **Convert text to datetime** action to convert the retrieved text to a datetime variable. The text represents the European date format, so configure the custom format in the action's properties. 
 
     ![The Convert text to datetime action.](..\media\convert-text-to-datetime.png)
 
@@ -30,18 +30,18 @@ To create the flow:
 
     ![The Set clipboard text action.](..\media\set-clipboard-text.png)
 
-1. To test the flow, copy a date in the European format and select the **Run** button to verify that the flow returns the respective American date.
+1. To test the flow, copy a date in the European format and select the **Run** button to verify that the flow returns the American date format.
 
     ![The run button in the flow designer.](..\media\run-flow-icon.png)
 
-1. In case you want to check how every single action is executed, you can run the flow step by step using the **Run next action** button.
+1. If you want to check how every single action is implemented, you can run the flow step-by-step by using the **Run next action** button.
 
-    ![The run button next action in the flow designer.](..\media\run-next-action-icon.png)
+    ![The Run next action button in the flow designer.](..\media\run-next-action-icon.png)
 
-1. If the flow runs as expected, select **Save** and close the flow designer.
+1. If the flow runs as expected, select **Save** and then close the flow designer.
 
-    ![The save button in the flow designer.](..\media\save-icon.png)
+    ![The Save button in the flow designer.](..\media\save-icon.png)
 
-1. Now, you can run your flow manually through the **Run** button in the console. If you want to cancel the execution of the flow, you can press the **Stop** button.
+1. Run your flow manually through the **Run** button in the console. If you want to cancel the implementation of the flow, select the **Stop** button.
 
     ![The run button in the console.](..\media\run-date-conversion-flow.png)
