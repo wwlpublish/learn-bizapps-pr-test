@@ -12,7 +12,7 @@ The recorders can be used to jump-start the development of a flow; during manual
 
 Selecting either button will open the corresponding recorder.
 
-## The Desktop Recorder
+## The desktop recorder
 When the **desktop recorder** is launched, the recorder window will appear:
  
 ![desktop web recorder window](..\media\desktop-web-recorder-window.png)
@@ -21,7 +21,7 @@ This is where a preview of the recorded actions will appear during the recording
 
 ![recorded actions](..\media\recorded-actions.png)
 
-## The Web Recorder
+## The web recorder
 When the **web recorder** is launched, the user will be prompted to select a web browser:
 
 ![web recorder instance selection](..\media\web-recorder-instance-selection.png)
