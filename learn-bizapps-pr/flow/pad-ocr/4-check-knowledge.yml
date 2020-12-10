@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-ocr.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 11/05/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Which one of the following OCR engines does Power Automate Desktop support?"
+    choices: 
+    - content: "Microsoft MODI"
+      isCorrect: false 
+      explanation: "Power Automate Desktop supports both Microsoft MODI and Google Tesseract OCR engines."
+    - content: "Google Tesseract"
+      isCorrect: false 
+      explanation: "Power Automate Desktop supports both Microsoft MODI and Google Tesseract OCR engines."
+    - content: "Both"
+      isCorrect: true 
+      explanation: "Power Automate Desktop supports both Microsoft MODI and Google Tesseract OCR engines."
+  - content: "High values in width and height multipliers make the OCR extraction more effective."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "High values in width and height multipliers can make OCR actions to fail."
+    - content: "False"
+      isCorrect: true 
+      explanation: "High values in width and height multipliers can make OCR actions to fail."
+  - content: "The Wait for text on screen (OCR) action waits exclusively for a text to appear on the screen."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "The Wait for text on screen (OCR) action can wait for a text to appear or disappear from the screen."
+    - content: "False"
+      isCorrect: true 
+      explanation: "The Wait for text on screen (OCR) action can wait for a text to appear or disappear from the screen."
