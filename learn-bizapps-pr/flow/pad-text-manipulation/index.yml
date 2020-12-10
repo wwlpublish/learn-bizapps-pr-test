@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.pad-text-manipulation 
+metadata: 
+ title: Text manipulation in Power Automate Desktop
+ description: Learn how to manipulate text and DateTime values in Power Automate Desktop.
+ ms.date: 09/22/2020  
+ author: olegmelnykov  
+ ms.author: olmelnyk  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Text manipulation in Power Automate Desktop
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Power Automate Desktop provides actions to help you manipulate text and DateTime values. These Text and DateTime actions help you adopt a standardized data format in your processes. 
+abstract: |  
+    In this module, you will: 
+    - Learn how to use the Text group of actions.
+    - Create methods that help you process and edit text.
+    - Manipulate text type variables for input and output in actions and processes.
+prerequisites: |
+    - Basic familiarity with Power Automate Desktop
+    - Familiarity with editing and manipulating text
+iconUrl: /learn/achievements/pad-text-manipulation.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-platform 
+- power-automate
+units: 
+- learn-bizapps.pad-text-manipulation.1-introduction 
+- learn-bizapps.pad-text-manipulation.2-text-actions 
+- learn-bizapps.pad-text-manipulation.3-datetime-actions 
+- learn-bizapps.pad-text-manipulation.4-exercise 
+- learn-bizapps.pad-text-manipulation.5-check-knowledge 
+- learn-bizapps.pad-text-manipulation.6-summary 
+badge:  
+  uid: learn-bizapps.pad-text-manipulation.badge 
