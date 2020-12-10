@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-variables.8-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 10/27/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "Actions produce variables automatically."
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: "Every action produces variables automatically to store its results."
+    - content: "False"
+      isCorrect: false 
+      explanation: "Every action produces variables automatically to store its results."
+  - content: "A variable is converted to another data type when:"
+    choices: 
+    - content: "Data of another data type is stored into it."
+      isCorrect: true 
+      explanation: "Every variable is converted to another data type when its content is changed."
+    - content: "The flow developer manually changes it through the variables pane."
+      isCorrect: false 
+      explanation: "Flow developers cannot manually change the data type of a variable."
+    - content: "The data type of a variable cannot be converted."
+      isCorrect: false 
+      explanation: "Every variable is converted to another data type when its content is changed."
+  - content: "Flow variables are used to exchange data between the Power Automate and the Power Automate Desktop."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "Only input and output variables are used to exchange data between the Power Automate and the Power Automate Desktop."
+    - content: "False"
+      isCorrect: true 
+      explanation: "Only input and output variables are used to exchange data between the Power Automate and the Power Automate Desktop."
+
