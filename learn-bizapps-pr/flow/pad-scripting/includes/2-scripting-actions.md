@@ -16,7 +16,7 @@ While JavaScript is mainly a web development language, the **Run JavaScript** ac
 
 The action accepts a JavaScript block of code as input and stores the result of the implementation in the **JavascriptOutput** variable. Additionally, the action creates the **ScriptError** variable that stores potential errors.
 
-![The *Run JavaScript action.](..\media\run-javascript-action.png)
+![The Run JavaScript action.](..\media\run-javascript-action.png)
 
 ## Run JavaScript function on webpage
 

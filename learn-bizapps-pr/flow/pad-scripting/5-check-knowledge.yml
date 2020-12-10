@@ -13,28 +13,30 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "The Run JavaScript function on web page action stores the returned value and the potential errors in two different variables."
+  - content: "The Run JavaScript function on web page action:"
     choices: 
-    - content: "True"
+    - content: "Stores the returned value and the potential errors in two different variables."
       isCorrect: false 
       explanation: "The Run JavaScript function on web page action has only one produced variable named Result."
-    - content: "False"
+    - content: "Produces only one variable for the result."
       isCorrect: true 
       explanation: "The Run JavaScript function on web page action has only one produced variable named Result."
-  - content: "All scripting actions can run code on webpages."
+  - content: "Which one of the following scripting actions can run code on webpages?"
     choices: 
-    - content: "True"
-      isCorrect: false 
-      explanation: "Only the Run JavaScript function on web page action can run code on webpages."
-    - content: "False"
+    - content: "Run JavaScript function on web page"
       isCorrect: true 
       explanation: "Only the Run JavaScript function on web page action can run code on webpages."
-  - content: "Scripting actions cannot use variables defined in other actions."
-    choices: 
-    - content: "True"
+    - content: "Run JavaScript"
       isCorrect: false 
-      explanation: "You can use variables in your scripts through the percentage notation."
-    - content: "False"
+      explanation: "Only the Run JavaScript function on web page action can run code on webpages."
+    - content: "Both"
+      isCorrect: false 
+      explanation: "Only the Run JavaScript function on web page action can run code on webpages."
+  - content: "Which one of the following statements is true?"
+    choices: 
+    - content: "Scripting actions can contain any kind of variables in their code block."
       isCorrect: true 
-      explanation: "You can use variables in your scripts through the percentage notation."
-
+      explanation: "Code blocks can contain hardcoded values and any kind of variables."
+    - content: "Scripting actions can contain only text variables in their code block."
+      isCorrect: false 
+      explanation: "Code blocks can contain hardcoded values and any kind of variables."
