@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.pad-power-automate-desktop-recording-features 
+metadata: 
+ title: Generate Power Automate Desktop flows by recording
+ description: In this module, we will examine the ways in which users can automate tasks by performing them manually and recording the flow.
+ ms.date: 11/03/2020  
+ author: rokontol  
+ ms.author: rokontol  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Generate Power Automate Desktop flows by recording
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The Desktop and Web Recorders can be used to automatically generate blocks of actions, based on the user's interaction with the workstation.
+abstract: |  
+    In this module, you will: 
+    - Use the Desktop Recorder to generate actions automating local Windows UI-based tasks
+    - Deploy the Web Recorder to automate interactions with a web browser
+    - Preview and edit the automatically generated actions during and after the recording
+prerequisites: |
+iconUrl: /learn/achievements/pad-power-automate-desktop-recording-features.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+products:  
+- power-platform
+- power-automate
+units: 
+- learn-bizapps.pad-power-automate-desktop-recording-features.1-introduction 
+- learn-bizapps.pad-power-automate-dekstop-recording-features.2-recording-actions
+- learn-bizapps.pad-power-automate-desktop-recording-features.3-web-recorder 
+- learn-bizapps.pad-power-automate-desktop-recording-features.4-exercise-desktop-recorder 
+- learn-bizapps.pad-power-automate-desktop-recording-features.5-check-your-knowledge 
+- learn-bizapps.pad-power-automate-desktop-recording-features.6-summary 
+badge: 
+  uid: learn-bizapps.pad-power-automate-desktop-recording-features.badge 
