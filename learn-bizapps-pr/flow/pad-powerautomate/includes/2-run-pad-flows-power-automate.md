@@ -26,7 +26,7 @@ You can call this dekstop flow to run from Power Automate.
 
    ![new step](..\media\new-step.png)
 
-1. Search for and select the **Run a flow built by Power Automate Desktop** action.
+1. Search for and select the **Run a flow built with Power Automate Desktop** action.
 
    ![run flow built by pad](..\media\run-flow-built-by-pad.png)
 
