@@ -36,5 +36,5 @@ For example, if the flow contains a list of files called **Files**, you can get 
 ![The notation to get the size of a list of files.](..\media\variable-property-example.png)
 
 > [!NOTE]
-> To find more information about the available properties, please visit the [respective documentation article](https://docs.microsoft.com/en-us/power-automate/ui-flows/desktop/datatype-properties). 
+> To find more information about the available properties, please visit the [respective documentation article](https://docs.microsoft.com/power-automate/ui-flows/desktop/datatype-properties). 
 
