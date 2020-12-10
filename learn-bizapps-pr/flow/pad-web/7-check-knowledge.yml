@@ -1,0 +1,42 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-web.7-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 11/09/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: power-platform 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "The Extract data from web page action can extract only single values and lists of handpicked values."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "The Extract data from web page action can extract single values, handpicked values, lists, and data tables."
+    - content: "False"
+      isCorrect: true 
+      explanation: "The Extract data from web page action can extract single values, handpicked values, lists, and data tables."
+  - content: "Which of the following parameters is required as input by the web form handling actions?"
+    choices: 
+    - content: "A browser instance"
+      isCorrect: false 
+      explanation: "The web form handling actions require as input parameters both a browser instance and a UI element describing the element to handle."
+    - content: "A UI element describing the element to handle"
+      isCorrect: false 
+      explanation: "The web form handling actions require as input parameters both a browser instance and a UI element describing the element to handle."
+    - content: "Both"
+      isCorrect: true 
+      explanation: "The web form handling actions require as input parameters both a browser instance and a UI element describing the element to handle."
+  - content: "The Click link on web page action is the most suitable action for selecting download links."
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: "The Click download link on web page action is the most suitable action for selecting download links."
+    - content: "False"
+      isCorrect: true 
+      explanation: "The Click download link on web page action is the most suitable action for selecting download links."
