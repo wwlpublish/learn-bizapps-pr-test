@@ -16,7 +16,7 @@ Alternatively, launch Excel with an existing file by changing the **Launch Excel
 ![launch excel action properties continued](..\media\launch-excel-action-properties-continued.png)
 -->
 
-To view the Excel actions when the flow runs in real time, check the **Make instance visible** check box. The Excel window opens when the flow runs. If the checkbox isn't checked, Excel runs in the background. Expand the **Advanced** section, which includes an option to **Load add-Ins and macros** as the Excel file launches.
+To view the Excel actions when the flow runs in real time, check the **Make instance visible** check box. The Excel window opens when the flow runs. If the checkbox isn't checked, Excel runs in the background. Expand the **Advanced** section, which includes an option to **Load add-ins and macros** as the Excel file launches.
  
 
 <!--
