@@ -1,0 +1,1 @@
+The Power Automate Desktop platform consists of the console and the flow designer, which provide all essential tools to manage and develop flows. By using the input and output variables feature, you can pass data to and from the Power Automate platform, creating unlimited automation potentialities. 

@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-first-steps.6-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 10/26/2020 
+ author: georgiostrantzas 
+ ms.author: getrantz 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Flows can be run only through the Power Automate Desktop console. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: Flows can be run through the console and the flow designer.
+    - content: "False"
+      isCorrect: true 
+      explanation: Flows can be run through the console and the flow designer.
+  - content: Which one of the following components do you use to rename a flow?
+    choices: 
+    - content: The console
+      isCorrect: true 
+      explanation: To rename a flow, select the respective option in the console.
+    - content: The flow designer
+      isCorrect: false 
+      explanation: Only the console provides an option to rename a flow.
+  - content: Every flow contains a main subflow that is run automatically. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: Every flow contains a subflow named Main that runs automatically when the flow is implemented.
+    - content: "False"
+      isCorrect: false 
+      explanation: Every flow contains a subflow named Main that runs automatically when the flow is implemented.
+
