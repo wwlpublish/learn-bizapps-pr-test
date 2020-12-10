@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.pad-ui-elements 
+metadata: 
+ title: Use Power Automate Desktop to interact with windows and applications
+ description: Learn how Power Automate Desktop identifies and interacts with UI elements and windows.
+ ms.date: 11/02/2020  
+ author: rokontol  
+ ms.author: rokontol  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Use Power Automate Desktop to interact with windows and applications
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  UI interfaces and their components are identified through UI elements, which can be captured and used in UI/Windows-related actions.
+abstract: |  
+    In this module, you will:
+    - Learn about the concept of UI elements.
+    - Discover the window and element-handling capabilities of Power Automate Desktop.
+prerequisites: |
+  - Basic familiarity with the Power Automate Desktop flow designer
+iconUrl: /learn/achievements/pad-ui-automation.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-platform
+- power-automate
+units: 
+- learn-bizapps.pad-ui-elements.1-introduction 
+- learn-bizapps.pad-ui-elements.2-ui-elements 
+- learn-bizapps.pad-ui-elements.3-window-handle-element-interaction 
+- learn-bizapps.pad-ui-elements.4-check
+- learn-bizapps.pad-ui-elements.5-summary 
+badge: 
+  uid: learn-bizapps.pad-ui-automation.badge 

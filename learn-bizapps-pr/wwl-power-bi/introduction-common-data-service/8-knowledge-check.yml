@@ -4,9 +4,9 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 09/24/2020
+  ms.date: 12/10/2020
   author: wwlpublish
-  ms.author: skulthm
+  ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 azureSandbox: false
@@ -27,7 +27,7 @@ quiz:
     - content: "Manage solution development and data storage."
       isCorrect: false
       explanation: "Incorrect. Environments are the way you manage solution development and data storage in Dataverse."
-  - content: "Your manager has built a solution using the Dataverse using a few of the standard Entities included out of the box. He wants to capture the date that new records are added to the Entity, but he isn't sure how. He notices that a \"Date\" field is already inside his Entity, but he wants the field to have a custom name of \"Date Confirmed\". What would you recommend he do?"
+  - content: "Your manager has built a solution using the Common Data Service using a few of the standard Entities included out of the box. He wants to capture the date that new records are added to the Entity, but he isn't sure how. He notices that a \"Date\" field is already inside his Entity, but he wants the field to have a custom name of \"Date Confirmed\". What would you recommend he do?"
     choices:
     - content: "Create a new Entity with the name \"Date Confirmed\"."
       isCorrect: false

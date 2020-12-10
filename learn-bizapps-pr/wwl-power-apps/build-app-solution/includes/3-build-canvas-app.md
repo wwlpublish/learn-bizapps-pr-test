@@ -7,7 +7,7 @@ they will be able to view the buildings directly from their phones. In addition,
 they will also be able to edit the information and even add new buildings.
 
 This example uses Excel, but keep in mind that you can use data from many other
-sources, including the Microsoft Dataverse, Microsoft SharePoint, cloud services
+sources, including the Common Data Service, Microsoft SharePoint, cloud services
 like Salesforce, and on-premises sources like Microsoft SQL Server. This gives
 you the flexibility to build your app from your data no matter where it lives.
 You can also combine data sources within Power Apps to easily create

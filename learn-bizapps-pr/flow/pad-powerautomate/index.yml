@@ -1,0 +1,43 @@
+### YamlMime:Module 
+uid: learn-bizapps.pad-power-automate
+metadata: 
+ title: Combine Power Automate Desktop and Power Automate
+ description: This module describes how to combine a Power Automate Desktop flow with a Power Automate flow.
+ ms.date: 12/10/2020 
+ author: olegmelnykov  
+ ms.author: olmelnyk  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Combine Power Automate Desktop and Power Automate
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module describes how to combine a Power Automate Desktop flow with a Power Automate flow. It demonstrates how to call an existing Power Automate Desktop flow from Power Automate to enhance its functionality and save time when designing large, complex flows.
+abstract: |  
+    In this module, you will: 
+    - Create a flow in Power Automate that calls a Power Automate Desktop flow.
+    - Use the values of variables from Power Automate in a Power Automate Desktop flow.
+    - Use the resulting variables from Power Automate Desktop in Power Automate actions.
+prerequisites: |
+    - Either a paid or trial Power Automate license.
+    - A work or school account to sign into your Windows device with administrator privileges and Power Automate.
+    - A device that runs Windows 10 Pro or Windows Server 2019.
+    - Microsoft Edge (version 80 or later) or other supported browser.
+    - An environment with a Dataverse database. 
+iconUrl: /learn/achievements/pad-power-automate.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- developer 
+- functional-consultant
+products:  
+- power-automate
+- power-platform
+units: 
+- learn-bizapps.pad-power-automate.1-introduction 
+- learn-bizapps.pad-power-automate.2-run-pad-flows-power-automate 
+- learn-bizapps.pad-power-automate.3-exercise-create-flow-call-pad
+- learn-bizapps.pad-power-automate.4-check-your-knowledge 
+- learn-bizapps.pad-power-automate.5-summary 
+badge: 
+  uid: learn-bizapps.pad-power-automate.badge 

@@ -19,7 +19,7 @@ on the choices made in the design process.
 ## Understand the needs of the user
 
 With model-driven apps, the name says it all. Your primary design goal is to get
-your Microsoft Dataverse data model in order. With that in place, you can
+your Common Data Service data model in order. With that in place, you can
 connect Power Apps, and a model-driven app will be created for you from that
 model.
 
@@ -68,7 +68,7 @@ data being collected, such as:
 * Created On
 
 As you think about your data model, also think about field types. When adding
-fields to your entity in the Dataverse, the field type you choose will
+fields to your entity in the Common Data Service, the field type you choose will
 determine how users enter and view that in your model-driven app. Option sets
 show as dropdowns, currency shows with currency symbols, while decimal numbers
 don’t. These little changes in the entity can have a profound effect on how your
@@ -88,7 +88,7 @@ field.
 ### Business logic
 
 When incorporating business logic in your app, there are two primary options
-available. You can set **Business Rules** on your Dataverse entities
+available. You can set **Business Rules** on your Common Data Service entities
 or you can build **Business Process Flows**.
 
 With **Business Rules,** you will define behaviors at the data layer. This is

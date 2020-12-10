@@ -33,8 +33,8 @@ Your options for Cardinality are explained in the following table.
 | *Many to One*     | The most common default relationship. The column in one table can have more than one instance of a value. The related table (or lookup table) has only one instance of a value.    |
 | *One to One*     | The column in one table has only one instance of a particular value, and the other related table has only one instance of a particular value.     |
 
-By default, you will set relationships to cross-filter in both directions. Cross-filtering in just one direction limits some of the modeling capabilities in a relationship.
+Generally, we recommend minimizing the use of bi-directional relationships. They can negatively impact on model query performance, and possibly deliver confusing experiences for your report users.
 
 Setting accurate relationships between your data allows you to create complex calculations across multiple data elements.
 
-For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships/?azure-portal=true).
+For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships/?azure-portal=true) and [Bi-directional relationship guidance](https://docs.microsoft.com/power-bi/guidance/relationships-bidirectional-filtering/?azure-portal=true).

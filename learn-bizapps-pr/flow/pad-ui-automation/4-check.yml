@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-ui-elements.4-check
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 11/02/2020 
+ author: rokontol 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: UI elements can be added in which of the following Power Automate Desktop entities?
+    choices: 
+    - content: Power Automate Desktop Console
+      isCorrect: false
+      explanation: UI elements are added in the Flow Designer.
+    - content: Flow Designer
+      isCorrect: true 
+      explanation: UI elements are added in the Flow Designer.
+    - content: All of the above
+      isCorrect: false 
+      explanation: UI elements are added in the Flow Designer.
+    - content: None of the above
+      isCorrect: false 
+      explanation: UI elements are added in the Flow Designer.
+  - content: The optimal way for Power Automate Desktop to interact with application UIs is through which of the following elements?
+    choices: 
+    - content: UI elements
+      isCorrect: true
+      explanation: The best way to interact with application UIs is by using UI elements.
+    - content: On-screen coordinates
+      isCorrect: false 
+      explanation: The best way to interact with application UIs is by using UI elements.
+    - content: Image recognition
+      isCorrect: false 
+      explanation: The best way to interact with application UIs is by using UI elements.
+    - content: Keystrokes
+      isCorrect: false 
+      explanation: The best way to interact with application UIs is by using UI elements.
+  - content: The two types of UI elements are Window and UI element. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: true
+      explanation: Window UI elements are different from simple UI elements.
+    - content: "False"
+      isCorrect: false 
+      explanation: Window UI elements are different from simple UI elements.

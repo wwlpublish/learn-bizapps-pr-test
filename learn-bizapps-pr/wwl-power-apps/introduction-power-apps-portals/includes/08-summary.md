@@ -1,4 +1,4 @@
-Power Apps portals extend Microsoft Dataverse access to external audiences such
+Power Apps portals extend Common Data Service access to external audiences such
 as customers, employees, or partners. This access allows businesses to extend
 and scale their operations as they reduce call center costs, manual processing,
 and resolution times while simultaneously improving user satisfaction,
