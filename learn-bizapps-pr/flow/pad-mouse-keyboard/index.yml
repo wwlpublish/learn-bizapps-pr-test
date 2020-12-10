@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.pad-mouse-keyboard
+metadata: 
+ title: Simulate mouse and keyboard actions by using Power Automate Desktop
+ description: Learn how to use Power Automate Desktop to simulate mouse and keyboard actions.
+ ms.date: 08/27/2020
+ author: olegmelnykov  
+ ms.author: olmelnyk
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Simulate mouse and keyboard actions by using Power Automate Desktop
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Learn how to create processes that simulate mouse movement and clicks, as well as typing and key presses. This module also describes how to select and locate a specific image or area on the screen with the mouse. 
+abstract: |  
+    In this module, you will: 
+    - Learn how to create a process that simulates human interaction with a PC
+    - Learn how to automate simulated mouse movement and clicks
+    - Learn how to select and locate a specific image or area on the screen with the mouse
+    - Learn how to emulate typing or key presses
+prerequisites: |
+    - Basic familiarity with Power Automate Desktop
+    - Basic familiarity with Power Automate Desktop Process Designer Images
+iconUrl: /learn/achievements/pad-mouse-keyboard.svg  
+levels:  
+- beginner   
+roles:  
+- maker
+- developer 
+- functional-consultant 
+products:  
+- power-platform
+- power-automate 
+units: 
+- learn-bizapps.pad-mouse-keyboard.1-introduction
+- learn-bizapps.pad-mouse-keyboard.2-mouse-keyboard-actions
+- learn-bizapps.pad-mouse-keyboard.3-mouse-keyboard-exercise
+- learn-bizapps.pad-mouse-keyboard.4-check-your-knowledge
+- learn-bizapps.pad-mouse-keyboard.5-summary
+badge: 
+  uid: learn-bizapps.pad-mouse-keyboard.badge 
