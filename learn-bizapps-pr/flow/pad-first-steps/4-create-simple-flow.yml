@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-first-steps.4-create-simple-flow 
+title: How to create a simple flow
+metadata: 
+  title: How to create a simple flow
+  description: How to create a simple flow
+  ms.date: 10/26/2020 
+  author: georgiostrantzas 
+  ms.author: getrantz 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-create-simple-flow.md)] 
