@@ -1,0 +1,18 @@
+While Power Automate Desktop can work autonomously, you may need to exchange data with other products of the Power Automate platform.
+
+Power Automate Desktop provides this functionality through the input and output variables. Using these variables, you can pass data to and from Power Automate Desktop and develop sophisticated flows. 
+
+This feature creates unlimited potentialities allowing you to make the most out of the platform and create a complete automation solution. 
+
+> [!NOTE]
+> You can find more information about passing data between Power Automate Desktop and Power Automate in [Link a Power Automate Desktop flow with a flow](https://docs.microsoft.com/en-us/power-automate/ui-flows/desktop/link-pad-flow-portal).
+
+To create an input or output variable, select the + button in the variables pane, and choose the respective option. 
+
+![The button to add a new input or output variable.](..\media\add-input-output-variable-button.png)
+
+In the appeared dialog, you have to populate various fields, such as the variable's name and the external name, the default value, and a description. 
+
+The **Variable name** represents the variable's name in the flow, while the **External name** represents the name used outside the flow in Power Automate.
+
+![The Variable name and External name fields in the Add a new input variable dialog.](..\media\local-external-input-output-variable-name.png)
