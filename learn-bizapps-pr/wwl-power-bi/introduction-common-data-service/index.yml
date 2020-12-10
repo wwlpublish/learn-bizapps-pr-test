@@ -1,11 +1,11 @@
 ### YamlMime:Module
 uid: learn-bizapps.wwl.introduction-common-data-service
 metadata:
-  title: Introduction to Microsoft Dataverse
+  title: Introduction to Dataverse
   description: "Introduction to Dataverse"
-  ms.date: 09/24/2020
+  ms.date: 12/10/2020
   author: wwlpublish
-  ms.author: skulthm
+  ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 title: Introduction to Dataverse

@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.wwl.introduction-common-data-service.identify-entities-fields-common-data-service
-title: Identify entities and fields in Microsoft Dataverse
+title: Identify entities and fields in Dataverse
 metadata:
   title: Identify entities and fields in Dataverse
   description: "Identify entities and fields in Dataverse"
-  ms.date: 09/24/2020
+  ms.date: 12/10/2020
   author: wwlpublish
   ms.author: skulthm
   ms.topic: interactive-tutorial
