@@ -1,4 +1,4 @@
-While developing flows, you might encounter scenarios that need the implementation of custom behaviour. The most effective approach to handle these complex scenarios is through scripting, 
+While developing flows, you might encounter scenarios that need the implementation of custom behavior. The most effective approach to handle these complex scenarios is through scripting, 
 
 Scripting allows you to develop blocks of code and simplify pieces of flows that usually require dozens of actions. For example, you might need to execute JavaScript code on loaded webpages to alter their functionality or appearance. 
 

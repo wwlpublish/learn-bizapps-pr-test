@@ -42,7 +42,7 @@ Additionally, the action creates the **ScriptError** variable that stores potent
 
 The last supported scripting language in Power Automate Desktop is Python. Python is considered a general-purpose programming language, but it's favorable in arithmetic operations and matrix calculations.  
 
-The **Run Python script** action accepts a Python bloack of code as input and stores the result of the implementation in the **PythonScriptOutput** variable. 
+The **Run Python script** action accepts a Python block of code as input and stores the result of the implementation in the **PythonScriptOutput** variable. 
 
 Additionally, the action creates the **ScriptError** variable that stores potential errors.
 

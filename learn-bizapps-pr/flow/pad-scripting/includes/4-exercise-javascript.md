@@ -24,7 +24,7 @@ In this exercise, you'll create a flow that calculates the last day of the curre
 
     ![The Convert text to datetime action.](..\media\second-exercise-convert-text-to-datetime-action.png)
 
-1. Reconvert the datetime value to text using the **Convert datetime to text** asction. We are deploying this action to create a custom format of the date.
+1. Reconvert the datetime value to text using the **Convert datetime to text** action. We are deploying this action to create a custom format of the date.
 
     ![The Convert datetime to text action.](..\media\second-exercise-convert-datetime-totext-action.png)
 
