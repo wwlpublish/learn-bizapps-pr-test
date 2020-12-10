@@ -21,7 +21,7 @@ In the actions properties, you can also set whether the action will launch a new
 ![The automation browser option in the Launch new Internet Explorer action.](..\media\launch-new-internet-explorer-action-automation-browser.png)
 
 > [!NOTE]
-> The Power Automate Desktop automation browser implements some limitations that increase speed and efficiency on web-related flows. To find more information about the automation browser, please visit the [respective documentation article](https://docs.microsoft.com/en-us/power-automate/ui-flows/desktop/using-browsers#using-the-actual-internet-explorer-vs-the-automation-browser).
+> The Power Automate Desktop automation browser implements some limitations that increase speed and efficiency on web-related flows. To find more information about the automation browser, please visit the [respective documentation article](https://docs.microsoft.com/power-automate/ui-flows/desktop/using-browsers#using-the-actual-internet-explorer-vs-the-automation-browser).
 
 When you've developed the web-related part of your flow, you can use the **Close web browser** action to close the browser. This action accepts a browser instance as an input parameter and doesn't return any outputs.
 

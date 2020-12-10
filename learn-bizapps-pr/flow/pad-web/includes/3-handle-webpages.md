@@ -68,7 +68,7 @@ The platform enables you to do that through the **Focus text field on web page**
 
 ![The Focus text field on web page action.](..\media\focus-text-field-on-web-page-action.png)
 
-## Set checkbox state on web page and Select radio button on web page
+## Set checkbox state on web page and select radio button on web page
 
 Except for text fields, the majority of the web forms contain checkboxes and radio buttons. 
 
