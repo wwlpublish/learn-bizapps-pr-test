@@ -8,7 +8,7 @@ Using Power Automate Desktop combined with Power Automate allows you to:
 
 The connector combines the functionality of Power Automate Desktop and Power Automate, to further boost the benefits of both platforms.
 
-## Learning Objectives
+## Learning objectives
 
 In this module, you will: 
 * Create a cloud flow in Power Automate that calls a Power Automate Desktop flow.

@@ -18,7 +18,7 @@ When running the desktop flow from the console, a dialog prompts the user for th
 
    ![input variable dialog](..\media\input-variable-dialog.png)
 
-You can call this dekstop flow to run from Power Automate.
+You can call this desktop flow to run from Power Automate.
 
 ## Run a Power Automate Desktop flow in Power Automate
 

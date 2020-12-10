@@ -97,7 +97,8 @@ The flow works as follows:
 
    ![Send an email v2 action](..\media\send-an-email-v2-action-properties.png)
 
-Note that the **Approval** variable originates from the **Run a flow built with Power Automate Desktop** action.
+> [!NOTE]
+> The **Approval** variable originates from the **Run a flow built with Power Automate Desktop** action.
 
 Save and test the flow. Enter the inputs as requested.
 
