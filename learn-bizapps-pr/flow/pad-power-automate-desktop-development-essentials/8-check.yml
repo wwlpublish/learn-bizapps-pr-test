@@ -17,7 +17,7 @@ quiz:
     choices: 
     - content: "Containers used to store and retrieve data."
       isCorrect: true 
-      explanation: "That is correct! Variables are used by actions to store or retrieve data."
+      explanation: "That is correct! variables are used by actions to store or retrieve data."
     - content: "Different possible situations that the flow might have to face."
       isCorrect: false 
       explanation: "That is false; variables are used by actions to store or retrieve data."
@@ -27,12 +27,18 @@ quiz:
     - content: "None of the above."
       isCorrect: false 
       explanation: "That is false; variables are used by actions to store or retrieve data."
-  - content: "The two types of conditional statements are if-else and switch-case."
+  - content: "What are the two types of conditional statements?"
     choices: 
-    - content: "True."
+    - content: "If-else and switch-case"
       isCorrect: true 
       explanation: "That is correct! The two types of conditional statements are if-else and switch-case."
-    - content: "False."
+    - content: "If-else if and if-else"
+      isCorrect: false 
+      explanation: "That is false; The two types of conditional statements are if-else and switch-case."
+    - content: "If-else and loop condition"
+      isCorrect: false 
+      explanation: "That is false; The two types of conditional statements are if-else and switch-case."
+    - content: "Switch-case and loop condition"
       isCorrect: false 
       explanation: "That is false; The two types of conditional statements are if-else and switch-case."
   - content: "The UI elements tab stores images and UI elements used in a flow."
