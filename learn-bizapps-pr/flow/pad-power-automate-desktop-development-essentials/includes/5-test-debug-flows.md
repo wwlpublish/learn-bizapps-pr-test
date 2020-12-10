@@ -3,7 +3,7 @@ During flow development, it is important to test the behavior of the flow and en
 ## Testing
 Flows under development can be run at any time in the flow designer, through the **Run** button; during this run, the current Action is highlighted, giving users a clear view of the run progress.
 
-It is possible to run, stop, and resume the flow; it is also possible to run one action at a time, to closely examine the behavior of the flow in certain sections. This is all achieved using the respective buttons:
+It is possible to run, stop, and resume the flow. It is also possible to run one action at a time, to closely examine the behavior of the flow in certain sections. This is all achieved using the respective buttons:
 
 ![designer toolbar](..\media\toolbar.png)
  
@@ -19,7 +19,7 @@ Any design-time errors – errors that are identifiable before the flow is run �
 
 ![errors pane](..\media\errors-pane.png)
  
-In this example, two required fields were left blank, so the relevant action is highlighted as erroneous, and the Errors pane contains further details.
+In this example, two required fields were left blank, so the relevant action is highlighted as erroneous. The Errors pane contains further details.
 
 Runtime errors – errors that occur while a flow is running – are communicated in a similar fashion:
 

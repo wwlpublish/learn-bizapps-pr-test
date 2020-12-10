@@ -11,7 +11,7 @@ For example, to interact with the UI of Excel in order to change a cell’s colo
 
 In the UI elements tab, selecting **Add UI element** launches the tool Power Automate Desktop uses to extract UI elements. Navigating to the Excel interface, elements are automatically highlighted when the cursor hovers over them:
 
-![controls uispy](..\media\controls-uispy.png)
+![controls uispy](..\media\controls-ui-spy.png)
  
 Clicking while pressing down the Ctrl button will capture the highlighted element:
 

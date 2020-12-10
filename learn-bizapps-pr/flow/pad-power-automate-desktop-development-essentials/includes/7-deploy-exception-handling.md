@@ -1,6 +1,6 @@
-Runtime errors may occur as a result of unforeseen circumstances while a flow is running, resulting in it stopping due to an error. To avoid errors, users may configure exception handling rules, so that the flow may recover and continue running.
+Runtime errors may occur as a result of unforeseen circumstances while a flow is running, resulting in it stopping due to an error. To avoid errors, users may configure exception handling rules, so that the flow can recover and continue running.
 
-In the flow designer, exception handling may be applied toindividual actions.
+In the flow designer, exception handling may be applied to individual actions.
 
 ## Exception handling
 Exceptions may occur from virtually any action. For this reason, most actions’ properties contain an **On error** button.
