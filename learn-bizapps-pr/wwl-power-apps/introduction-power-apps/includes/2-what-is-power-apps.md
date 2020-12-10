@@ -87,4 +87,3 @@ By now you understand that Power Apps does not require traditional "code" like C
 Power Apps allows even the most entry level users to reduce paperwork, increase process efficiency, and ensure a single source of truth by combining multiple data sources into one app. Users can build apps with ease, while staying within the guardrails set by IT. This allows for an unprecedented amount of innovation and digitization, eliminating the app backlog, cumbersome paper-based processes and more.
 
 In the next unit, you learn about how Heathrow Airport has built 30 apps that have eliminated 75,000 pages of paperwork, reduced data entry by nearly 1,000 hours, and saved the airport hundreds of thousands of dollars.
-

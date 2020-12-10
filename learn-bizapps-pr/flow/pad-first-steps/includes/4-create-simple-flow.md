@@ -1,0 +1,47 @@
+In this unit, you'll develop a flow that converts dates in the European format (dd/mm/yyyy) to the American format (mm/dd/yyyy). The flow will retrieve the date from the clipboard when the **Alt + 1** keys are pressed, and it will return the converted date. 
+
+To create the flow:
+
+1. Launch Power Automate Desktop and select the **New flow** button in the console.
+
+    ![The New flow button in the console.](..\media\console-new-flow.png)
+
+1. Populate a name for the flow and then select the **Create** button. In this example, the flow is named **Date conversion**.
+
+    ![The Build a flow dialog box.](..\media\console-build-new-flow.png)
+
+1. When the flow designer is launched, add a **Wait for hot key** action in the workspace and set it to wait for the **Alt + 1** keys.
+
+    ![The Wait for hot key action.](..\media\wait-for-hotkey-action.png)
+
+1. Add a **Get clipboard text** action to retrieve the current content of the clipboard.
+
+    ![The Get clipboard text action.](..\media\get-clipboard-text.png)
+
+1. Deploy a **Convert text to datetime** action to convert the retrieved text to a datetime variable. The text represents the European date format, so configure the custom format in the action's properties. 
+
+    ![The Convert text to datetime action.](..\media\convert-text-to-datetime.png)
+
+1. To convert the datetime variable to the American date format, use the **Convert datetime to text** action with the appropriate custom format in its properties.
+
+    ![The Convert datetime to text action.](..\media\convert-datetime-to-text.png)
+
+1. Use the **Set clipboard text** action to set the final date as the current content of the clipboard. 
+
+    ![The Set clipboard text action.](..\media\set-clipboard-text.png)
+
+1. To test the flow, copy a date in the European format and select the **Run** button to verify that the flow returns the American date format.
+
+    ![The run button in the flow designer.](..\media\run-flow-icon.png)
+
+1. If you want to check how every single action is implemented, you can run the flow step-by-step by using the **Run next action** button.
+
+    ![The Run next action button in the flow designer.](..\media\run-next-action-icon.png)
+
+1. If the flow runs as expected, select **Save** and then close the flow designer.
+
+    ![The Save button in the flow designer.](..\media\save-icon.png)
+
+1. Run your flow manually through the **Run** button in the console. If you want to cancel the implementation of the flow, select the **Stop** button.
+
+    ![The run button in the console.](..\media\run-date-conversion-flow.png)
