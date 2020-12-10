@@ -46,4 +46,3 @@ The Common Data Model is the output of the Open Data Initiative. It provides a p
 ## Dataverse structure and benefits
 
 The structure of a Dataverse database is based upon the definitions and schema in the Common Data Model. The key benefit of using Common Data Model as the basis of a Dataverse database is simplified integration of any solutions that use a Common Data Model schema, because the standard entities of the solution are the same. You will also be able to take advantage of a rich ecosystem of solutions that vendors have built from using Common Data Model. Best of all, there is practically no limit to how far you can extend a Dataverse database.
-
