@@ -2,7 +2,7 @@ In previous units, you saw that every variable name needs to be enclosed in perc
 
 The percentage sign is used as a special character to denote variables. The platform evaluates any expression between percentage as a variable.
 
-![A variables with the precentage notation.](..\media\variabls-precentage-notation.png)
+![A variables with the precentage notation.](..\media\variables-precentage-notation.png)
 
 If you want to use the percentage sign as a simple character in a hardcoded text,  you have to combine it with the backslash (\\) character. 
 

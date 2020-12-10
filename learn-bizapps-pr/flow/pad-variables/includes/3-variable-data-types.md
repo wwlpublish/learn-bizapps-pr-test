@@ -5,7 +5,7 @@ Some of these data types are widely used throughout the application, such as num
 The platform supports more than 40 distinct data types and enables you to convert variables between each one of them by just changing the content.  
 
 > [!NOTE]
-> To find more information about each data type, please visit the [respective documentation article](https://docs.microsoft.com/en-us/power-automate/ui-flows/desktop/variable-data-types). 
+> To find more information about each data type, please visit the [respective documentation article](https://docs.microsoft.com/power-automate/ui-flows/desktop/variable-data-types). 
 
 For example, you can deploy the **Get clipboard text** action to retrieve your clipboard's current content. The action will store by default the retrieved text in a text variable named **ClipboardText**.
 

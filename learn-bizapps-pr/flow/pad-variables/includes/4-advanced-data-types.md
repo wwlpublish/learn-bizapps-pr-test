@@ -46,7 +46,7 @@ For example, you can save the first product's price inside a new variable using 
 > [!NOTE]
 > If you loop through a data table with a **For each** action, the variable that contains the current iteration's data will be a data row.
 
-## JSON format - Custom objects
+## JSON format - custom objects
 
 If you want to use data in JSON format in your flows, Power Automate Desktop provides the custom objects.
 

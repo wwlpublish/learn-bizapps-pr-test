@@ -44,7 +44,7 @@ Except for the type and the contents of the variables, you can use the variable 
 
 While you are debugging your flows using the **Run next action** button, you can check each variable's current value through the variables pane. Seeing how the flow changes the variables' contents in real time allows you to locate the source of unwanted functionality. 
 
-![The displayed variable's information.](..\media\variable-infomration.png)
+![The displayed variable's information.](..\media\variable-information.png)
 
 Besides providing information about the variables, the pane also allows you to perform more complicated tasks, such as renaming and finding where each variable is used.
 

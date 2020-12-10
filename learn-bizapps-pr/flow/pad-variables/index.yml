@@ -31,7 +31,7 @@ products:
 - power-platform 
 - power-automate 
 units: 
-- learn-bizapps.pad-variables.1-introducing-variables 
+- learn-bizapps.pad-variables.1-introduce-variables 
 - learn-bizapps.pad-variables.2-create-edit-use-variables 
 - learn-bizapps.pad-variables.3-variable-data-types 
 - learn-bizapps.pad-variables.4-advanced-data-types 
