@@ -1,11 +1,11 @@
 Editing a solution-aware app, flow and table requires you to first go into your solution and select the items from there. 
 
-1. In this scenario we first sign into Power Apps and selected **Solutions** and then selected **Volunteer Request**.
+1. In this scenario, we first sign into Power Apps and selected **Solutions** and then selected **Volunteer Request**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Select Solutions and Volunteer Request to access your solution.](../media/access-your-solution-ssm.png)](../media/access-your-solution-ssm.png#lightbox)
 
-1. Now you see all of your apps, flows and tables.
+1. Now you see all of your apps, flows, and tables.
 
 	> [!div class="mx-imgBorder"]
 	> [![See all of your apps, flows, and tables.](../media/all-items.png)](../media/all-items.png#lightbox)
@@ -20,7 +20,7 @@ Editing a solution-aware app, flow and table requires you to first go into your 
 	> [!div class="mx-imgBorder"]
 	> [![Edit the flow by selecting Edit.](../media/edit-existing-flow-ssm.png)](../media/edit-existing-flow-ssm.png#lightbox)
 
-1. For flows you can also select the icon which takes you into the details section of the flow. Details is where you can see run history, connections, owners, etc.
+1. For flows, you can also select the icon, which takes you into the details section of the flow. Details are where you can see run history, connections, owners, etc.
 
 	> [!div class="mx-imgBorder"]
 	> [![Details section displays history, connections, owners, etc.](../media/additional-features-ssm.png)](../media/additional-features-ssm.png#lightbox)
