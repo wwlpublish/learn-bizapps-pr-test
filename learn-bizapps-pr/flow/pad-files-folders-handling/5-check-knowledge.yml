@@ -27,14 +27,14 @@ quiz:
     - content: If File(s) Exists action
       isCorrect: false 
       explanation: The If File(s) Exists action marks the beginning of a conditional block of actions, depending on whether a file exists or not.
-  - content: The Get Files in Folder action will also retrieve subfolders. (True or False)
+ - content: Which one of the following statements is true about the Get Files in Folder action?
     choices: 
-    - content: "True"
+    - content: "It can retrieve the files and the subfolders that a specified folder contains."
       isCorrect: true 
-      explanation: The Get Files in Folder action retrieves subfolders, if the option is enabled.
-    - content: "False"
+      explanation: The Get Files in Folder action can retrieve files and subfolders.
+    - content: "It can retrieve only the files that a specified folder contains."
       isCorrect: false 
-      explanation: The Get Files in Folder action retrieves subfolders, if the option is enabled.
+      explanation: The Get Files in Folder action can also retrieve subfolders, if the option is enabled.
   - content: Which one of the following actions can you use to get the desktop directory of the current user?
     choices: 
     - content: Create Folder
@@ -49,11 +49,26 @@ quiz:
     - content: Get Special Folder
       isCorrect: true 
       explanation: The Get Special Folder action can return the path of the current user's desktop folder.
-  - content: The Copy File(s) action removes the files from their original location. (True or False)
+  - content: Which one of the following statements is true about the Copy File(s) action?
     choices: 
-    - content: "True"
+    - content: "It copies the files, and then it removes them from their original location."
       isCorrect: false 
-      explanation: The Copy File(s) action will keep the files in their original location.
-    - content: "False"
+      explanation: The Copy File(s) action keeps the files in their original location.
+    - content: "It copies the files without removing them from their original location."
       isCorrect: true 
-      explanation: The Copy File(s) action will keep the files in their original location.
+      explanation: The Copy File(s) action keeps the files in their original location.
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
