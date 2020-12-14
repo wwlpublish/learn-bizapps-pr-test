@@ -27,7 +27,7 @@ quiz:
     - content: If File(s) Exists action
       isCorrect: false 
       explanation: The If File(s) Exists action marks the beginning of a conditional block of actions, depending on whether a file exists or not.
- - content: Which one of the following statements is true about the Get Files in Folder action?
+  - content: Which one of the following statements is true about the Get Files in Folder action?
     choices: 
     - content: "It can retrieve the files and the subfolders that a specified folder contains."
       isCorrect: true 
