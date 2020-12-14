@@ -1,1 +1,0 @@
-WinAutomation provides users with the ability to handle files and folders through the files and folders actions. These actions allow users to develop sophisticated processes that create, retrieve, and modify files and folders.
