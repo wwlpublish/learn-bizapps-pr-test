@@ -26,37 +26,37 @@ Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to cr
 
 You will notice in our example, the new table and primary field begins with **cree0_**. Additional fields created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
 
-## Add and customize fields
+## Add and customize columns
 
 1. In the list of Tables, select the **Pet** table that you created in the previous section.
-2. On the **Fields** tab, on the table designer toolbar, select **Add field**.
-3. In the **Field properties** pane, enter the following values:
+2. On the **Columns** tab, on the table designer toolbar, select **Add column**.
+3. In the **Column properties** pane, enter the following values:
 
     - **Display name**: *Species*
-    - **Data type**: *Option Set*
-    - **Option set**: *New option set*
+    - **Data type**: *Choice*
+    - **Choice set**: *New choice set*
     - **Searchable**: *Yes*
 
-4. Create the option set:
+4. Create the choice set:
 
-    1. Replace *New option* with *Dog*.
+    1. Replace *New choice* with *Dog*.
     2. Select **Add new item**.
-    3. Replace *New option* with *Cat*.
+    3. Replace *New choice* with *Cat*.
     4. Select **Save**.
 
     > [!div class="mx-imgBorder"]
     > ![New option set](../media/updated-optionset-add-items.png)
 
 5. Make sure **Searchable** is selected, and then select **Done**.
-6. On the table designer toolbar, select **Add field**.
-7. In the **Field properties** pane, enter the following values, and then select **Done**:
+6. On the table designer toolbar, select **Add column**.
+7. In the **Column properties** pane, enter the following values, and then select **Done**:
 
     - **Display name**: *Breed*
     - **Data type**: *Text*
     - **Searchable**: *Yes*
 
-8. On the table designer toolbar, select **Add field**.
-9. In the **Field properties** pane, enter the following values, and then select **Done**:
+8. On the table designer toolbar, select **Add column**.
+9. In the **Column properties** pane, enter the following values, and then select **Done**:
 
     - **Display name**: *Appointment date*
     - **Data type**: *Date Only*
