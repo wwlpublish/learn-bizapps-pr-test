@@ -13,27 +13,30 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Before performing Active Directory actions, you must first establish a connection. (True or False)
+  - content: Which one of the following actions do you have to perform before deploying Active Directory actions?
     choices: 
-    - content: "True"
+    - content: "Establish an Active Directory connection."
       isCorrect: true 
-      explanation: That is correct! All Active Directory actions require an established connection.
-    - content: "False"
+      explanation: All Active Directory actions require an established connection.
+    - content: "No further action is required."
       isCorrect: false 
-      explanation: That is incorrect. All Active Directory actions require an established connection.
-  - content: Connect to server is the only action to establish a connection. (True or False)
+      explanation: All Active Directory actions require an established connection.
+  - content: Which one of the following actions can establish an Active Directory connection? 
     choices: 
-    - content: "True"
+    - content: "Connect to server"
       isCorrect: true
-      explanation: All other Active Directory actions require a previously established connection.
-    - content: "False"
-      isCorrect: false  
-      explanation: All other Active Directory actions require a previously established connection.
-  - content: You would use the Create object action to create an Active Directory organizational unit. (True or False)
+      explanation: Only the Connect to server action can establish an Active Directory connection.
+    - content: "Create user"
+      isCorrect: false
+      explanation: Only the Connect to server action can establish an Active Directory connection.
+    - content: "All Active Directory actions can establish a connection."
+      isCorrect: false
+      explanation: Only the Connect to server action can establish an Active Directory connection.
+  - content: Which one the following actions do you have to use to create an Active Directory organizational unit?
     choices: 
-    - content: "True"
+    - content: "Create object"
       isCorrect: true
-      explanation: Correct! The Create object action creates an Active Directory organizational unit. 
-    - content: "False"
+      explanation: The Create object action creates an Active Directory organizational unit. 
+    - content: "Create group"
       isCorrect: false 
-      explanation: That is incorrect. The Create object action creates an Active Directory organizational unit.
+      explanation: The Create group action creates an Active Directory group, not an organizational unit.
