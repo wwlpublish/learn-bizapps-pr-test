@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.pad-files-folders-handling.5-check-knowledge 
+uid: learn-bizapps.files-folders-handling.5-check-knowledge 
 title: Check your knowledge 
 metadata: 
  title: Check your knowledge 
@@ -21,9 +21,9 @@ quiz:
     - content: Get Files in Folder action
       isCorrect: false 
       explanation: The Get Files in Folder action retrieves the list of files in a folder.
-    - content: Get filepath part action	
+    - content: Get FilePath Part action	
       isCorrect: true 
-      explanation: The Get filepath part action retrieves one or more parts from a file path.
+      explanation: The Get FilePath Part action retrieves one or more parts from a file path.
     - content: If File(s) Exists action
       isCorrect: false 
       explanation: The If File(s) Exists action marks the beginning of a conditional block of actions, depending on whether a file exists or not.
@@ -48,7 +48,7 @@ quiz:
       explanation: The Get Files in Folder action will help you retrieve the list of files in a folder.
     - content: Get Special Folder
       isCorrect: true 
-      explanation: The Get Special Folder action can return the path of the current user's desktop folder.
+      explanation: The Get Special Folder action can return the path of the current user's Desktop folder.
   - content: The Copy File(s) action removes the files from their original location. (True or False)
     choices: 
     - content: "True"
