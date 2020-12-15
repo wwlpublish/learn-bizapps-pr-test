@@ -54,7 +54,7 @@ quiz:
     - content: "Microsoft Edge"
       isCorrect: false 
       explanation: "Web recording can also be used on Microsoft Internet Explorer, Mozilla Firefox, and Google Chrome."
-    - content: "Google CHrome"
+    - content: "Google Chrome"
       isCorrect: false 
       explanation: "Web recording can also be used on Microsoft Internet Explorer, Microsoft Edge, and Mozilla Firefox."
     - content: "Mozilla Firefox"

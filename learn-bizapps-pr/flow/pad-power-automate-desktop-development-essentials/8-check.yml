@@ -41,7 +41,7 @@ quiz:
     - content: "Switch-case and loop condition"
       isCorrect: false 
       explanation: "That is false; The two types of conditional statements are if-else and switch-case."
-  - content: "Which one of the following components does the UI elements tab stores?"
+  - content: "Which one of the following components does the UI elements tab store?"
     choices: 
     - content: "Images and UI elements"
       isCorrect: false 

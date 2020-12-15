@@ -28,8 +28,8 @@ quiz:
       explanation: "Both If and Switch blocks support unconditional cases."
     - content: "Switch blocks use the same input variable in all their cases."
       isCorrect: true 
-      explanation: "All switch cases use the same variable in ther condition."
-  - content: "When the implementation of a Switch block is recommended?"
+      explanation: "All switch cases use the same variable in their condition."
+  - content: "When is the implementation of a Switch block recommended?"
     choices: 
     - content: "When you have to check the values of multiple variables against multiple values."
       isCorrect: false 
