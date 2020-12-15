@@ -40,4 +40,3 @@ quiz:
     - content: "To store data for use in later actions in the same flow."
       isCorrect: true 
       explanation: "Flow variables are used to store data locally in the flow"
-
