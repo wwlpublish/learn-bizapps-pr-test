@@ -39,4 +39,4 @@ quiz:
       explanation: "Only input and output variables are used to exchange data between Power Automate and Power Automate Desktop."
     - content: "To store data for use in later actions in the same flow."
       isCorrect: true 
-      explanation: "Flow variables are used to store data locally in the flow"
+      explanation: "Flow variables are used to store data locally in the flow."
