@@ -17,10 +17,10 @@ quiz:
     choices: 
     - content: "All actions produce variables automatically, but you can rename them. "
       isCorrect: true 
-      explanation: "Every action produces variables automatically and their names are customisable."
+      explanation: "Every action produces variables automatically and their names are customizable."
     - content: "You need to declare all the produced variables manually."
       isCorrect: false 
-      explanation: "Every action produces variables automatically and their names are customisable"
+      explanation: "Every action produces variables automatically and their names are customizable"
   - content: "A variable is converted to another data type when:"
     choices: 
     - content: "Data of another data type is stored into it."
