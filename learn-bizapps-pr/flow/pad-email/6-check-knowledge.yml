@@ -13,12 +13,17 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "Power Automates Desktop supports email handling only through webmail services and Outlook."
+
+
+  - content: "Through which platforms does Power Automates Desktop support email handling?"
     choices: 
-    - content: "True"
+    - content: "Webmail services"
       isCorrect: false 
       explanation: "Power Automates Desktop supports email handling through webmail services, Microsoft Outlook and Exchange servers."
-    - content: "False"
+    - content: "Webmail services and Microsoft Outlook"
+      isCorrect: false 
+      explanation: "Power Automates Desktop supports email handling through webmail services, Microsoft Outlook and Exchange servers."
+    - content: "Webmail services, Microsoft Outlook and Exchange servers"
       isCorrect: true 
       explanation: "Power Automates Desktop supports email handling through webmail services, Microsoft Outlook and Exchange servers."
   - content: "Which of the following servers would you configure to retrieve emails with the Retrieve emails action?"
@@ -29,12 +34,11 @@ quiz:
     - content: "SMTP server"
       isCorrect: false 
       explanation: "SMTP servers are used to send emails."
-  - content: "Outlook can be launched without a visible instance."
+  - content: "In which mode can you launch Microsoft Outlook?"
     choices: 
-    - content: "True"
-      isCorrect: false 
-      explanation: "Outlook can be launched only with a visible instance."
-    - content: "False"
+    - content: "With a visible instance"
       isCorrect: true 
       explanation: "Outlook can be launched only with a visible instance."
-
+    - content: "With a invisible instance"
+      isCorrect: false 
+      explanation: "Outlook can be launched only with a visible instance."

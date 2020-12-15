@@ -13,14 +13,14 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "Actions produce variables automatically."
+  - content: "Which one of the following statements is true?"
     choices: 
-    - content: "True"
+    - content: "All actions produce variables automatically, but you can rename them. "
       isCorrect: true 
-      explanation: "Every action produces variables automatically to store its results."
-    - content: "False"
+      explanation: "Every action produces variables automatically and their names are customizable."
+    - content: "You need to declare all the produced variables manually."
       isCorrect: false 
-      explanation: "Every action produces variables automatically to store its results."
+      explanation: "Every action produces variables automatically and their names are customizable"
   - content: "A variable is converted to another data type when:"
     choices: 
     - content: "Data of another data type is stored into it."
@@ -32,12 +32,11 @@ quiz:
     - content: "The data type of a variable cannot be converted."
       isCorrect: false 
       explanation: "Every variable is converted to another data type when its content is changed."
-  - content: "Flow variables are used to exchange data between the Power Automate and the Power Automate Desktop."
+  - content: "What is the use of the flow variables?"
     choices: 
-    - content: "True"
+    - content: "To exchange data between Power Automate and Power Automate Desktop."
       isCorrect: false 
-      explanation: "Only input and output variables are used to exchange data between the Power Automate and the Power Automate Desktop."
-    - content: "False"
+      explanation: "Only input and output variables are used to exchange data between Power Automate and Power Automate Desktop."
+    - content: "To store data for use in later actions in the same flow."
       isCorrect: true 
-      explanation: "Only input and output variables are used to exchange data between the Power Automate and the Power Automate Desktop."
-
+      explanation: "Flow variables are used to store data locally in the flow."
