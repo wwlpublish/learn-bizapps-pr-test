@@ -13,27 +13,27 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "An If block may have unlimited alternative conditions."
+  - content: "Which one of the following statements is true?"
     choices: 
-    - content: "True"
+    - content: "An If block may have unlimited alternative conditions."
       isCorrect: true 
-      explanation: "That is correct! There is no limit to the number of Else If actions that can be added to an If block."
-    - content: "False"
+      explanation: "There is no limit to the number of Else If actions that can be added to an If block."
+    - content: "An If block can have only five alternative conditions."
       isCorrect: false 
-      explanation: "That is false; There is no limit to the number of Else If actions that can be added to an If block."
-  - content: "One of the differences between If and Switch is that there is no unconditional case in a Switch block."
+      explanation: "There is no limit to the number of Else If actions that can be added to an If block."
+  - content: "What is the difference between If and Switch blocks?"
     choices: 
-    - content: "True"
+    - content: "There is no unconditional case in a Switch block."
       isCorrect: false 
-      explanation: "That is false; both If and Switch blocks support unconditional cases."
-    - content: "False"
+      explanation: "Both If and Switch blocks support unconditional cases."
+    - content: "Switch blocks use the same input variable in all their cases."
       isCorrect: true 
-      explanation: "That is correct! Both If and Switch blocks support unconditional cases."
-  - content: "Switch is useful for checking the values of multiple variables against multiple values."
+      explanation: "All switch cases use the same variable in ther condition."
+  - content: "When the implementation of a Switch block is recommended?"
     choices: 
-    - content: "True"
+    - content: "When you have to check the values of multiple variables against multiple values."
       isCorrect: false 
-      explanation: "That is false; Switch only checks the value of one variable against multiple values."
-    - content: "False"
+      explanation: "Switch blocks check the value of one variable against multiple values."
+    - content: "When you have to check the value of one variable against multiple values."
       isCorrect: true
-      explanation: "That is correct! Switch only checks the value of one variable against multiple values."
+      explanation: "Switch blocks check the value of one variable against multiple values."
