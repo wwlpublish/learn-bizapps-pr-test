@@ -34,11 +34,11 @@ quiz:
     - content: "SMTP server"
       isCorrect: false 
       explanation: "SMTP servers are used to send emails."
-  - content: "In which modes can you launch Microsoft Outlook?"
+  - content: "In which mode can you launch Microsoft Outlook?"
     choices: 
     - content: "With a visible instance"
-      isCorrect: false 
+      isCorrect: true 
       explanation: "Outlook can be launched only with a visible instance."
     - content: "With a invisible instance"
-      isCorrect: true 
+      isCorrect: false 
       explanation: "Outlook can be launched only with a visible instance."

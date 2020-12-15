@@ -34,9 +34,9 @@ quiz:
       explanation: "Every variable is converted to another data type when its content is changed."
   - content: "What is the use of the flow variables?"
     choices: 
-    - content: "To exchange data between the Power Automate and the Power Automate Desktop."
+    - content: "To exchange data between Power Automate and Power Automate Desktop."
       isCorrect: false 
-      explanation: "Only input and output variables are used to exchange data between the Power Automate and the Power Automate Desktop."
+      explanation: "Only input and output variables are used to exchange data between Power Automate and Power Automate Desktop."
     - content: "To store data for use in later actions in the same flow."
       isCorrect: true 
       explanation: "Flow variables are used to store data locally in the flow"
