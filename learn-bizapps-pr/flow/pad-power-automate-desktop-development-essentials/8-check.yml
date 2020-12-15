@@ -41,11 +41,11 @@ quiz:
     - content: "Switch-case and loop condition"
       isCorrect: false 
       explanation: "That is false; The two types of conditional statements are if-else and switch-case."
-  - content: "The UI elements tab stores images and UI elements used in a flow."
+  - content: "Which one of the following components does the UI elements tab stores?"
     choices: 
-    - content: "True."
+    - content: "Images and UI elements"
       isCorrect: false 
-      explanation: "That is false; the UI elements tab stores only the UI elements used in a flow. Images are stored into the images tab."
-    - content: "False."
+      explanation: "The UI elements tab stores only the UI elements used in a flow. Images are stored into the images tab."
+    - content: "UI elements"
       isCorrect: true 
-      explanation: "That is correct! UI elements tab stores only the UI elements used in a flow. Images are stored into the images tab."
+      explanation: "The UI elements tab stores only the UI elements used in a flow. Images are stored into the images tab."
