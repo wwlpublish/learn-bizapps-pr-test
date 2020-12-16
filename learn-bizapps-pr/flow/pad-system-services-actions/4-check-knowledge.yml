@@ -13,27 +13,22 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: The Take Screenshot action saves the taken screenshots only to the clipboard. (True or False)
+  - content: Where can the Take Screenshot action save the taken screenshots?
     choices: 
-    - content: "True"
+    - content: "Clipboard"
       isCorrect: false 
-      explanation: That is incorrect. The Take screenshot action saves the taken screenshots to the clipboard or to a file.
-    - content: "False"
+      explanation: The Take screenshot action saves the taken screenshots to the clipboard or to a file.
+    - content: "Local file"
+      isCorrect: false 
+      explanation: The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
+    - content: "Both"
       isCorrect: true 
-      explanation: That is correct! The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
-  - content: The Pause Service action can only pause Windows services. (True or False)
+      explanation: The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
+  - content: Which services can the Pause Service action pause?
     choices: 
-    - content: "True"
+    - content: "Windows services"
       isCorrect: false 
-      explanation: That is incorrect. The Pause service action can pause Windows services as well as services from other software.
-    - content: "False"
+      explanation: The Pause service action can pause Windows services as well as services from other software.
+    - content: "All types of services"
       isCorrect: true 
-      explanation: That is correct! The Pause service action can pause Windows services as well as services from other software.
-  - content: The Run JavaScript action can run code on a webpage. (True or False)
-    choices: 
-    - content: "True"
-      isCorrect: false 
-      explanation: That is incorrect. Power Automate Desktop provides the Run JavaScript function on web page action to run code on a webpage.
-    - content: "False"
-      isCorrect: true 
-      explanation: That is correct! Power Automate Desktop provides the Run JavaScript function on web page action to run code on a webpage.
+      explanation: The Pause service action can pause Windows services as well as services from other software.
