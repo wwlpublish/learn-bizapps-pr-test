@@ -13,14 +13,14 @@ durationInMinutes: 5
 quiz:
   title: Answer the following questions to see what you've learned.
   questions:
-  - content: "Input variables can be passed to Power Automate."
+  - content: "Which type of variables can you pass to/from Power Automate?"
     choices:
-    - content: "True"
+    - content: "Flow variables"
       isCorrect: false
-      explanation: "That is incorrect. Output variables can be passed to Power Automate. Input variables receive their values from Power Automate."
-    - content: "False"
+      explanation: "Flow variables are used only locally in the flow."
+    - content: "Input and output variables"
       isCorrect: true
-      explanation: "That is correct! Input variables may take their values from external applications or user input."
+      explanation: "Input and output variables enable you to pass data to/from Power Automate."
   - content: "To pass a variable from Power Automate Desktop to Power Automate, you can use:"
     choices:
     - content: "A string-type variable."
