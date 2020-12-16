@@ -27,7 +27,7 @@ You have successfully created a calculated column. Although we won't be using th
 
 ## Model Data
 
-Now we that we have created a column that we don't need, let's hide it so that it doesn't get in the way of creating our visuals. There are many actions you can perform to transform your data in the Report building tab without going into Edit Queries.
+Now we have created a column that we don't need, let's hide it, so that it doesn't get in the way of creating our visuals. There are many actions you can perform to transform your data in the Report building tab, without going into Edit Queries.
 
 1. On the fields pane, right click the newly created **Test Column**.
     ![Model data](../media/test-column.png)
