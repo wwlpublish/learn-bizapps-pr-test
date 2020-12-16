@@ -13,14 +13,14 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "A small number of actions have exception handling options"
+  - content: "Which actions do they have exception handling options?"
     choices: 
-    - content: "True"
-      isCorrect: false
-      explanation: "That is false; most actions have configurable exception handling."
-    - content: "False"
+    - content: "Most of the actions"
       isCorrect: true
-      explanation: "That is correct! Most actions have configurable exception handling."
+      explanation: "Most actions have configurable exception handling."
+    - content: "Only critical actions that create instances and connections"
+      isCorrect: false
+      explanation: "Most actions have configurable exception handling."
   - content: "Which of the following is an exception handling option in Power Automate Desktop?"
     choices: 
     - content: "Email supervisor"
