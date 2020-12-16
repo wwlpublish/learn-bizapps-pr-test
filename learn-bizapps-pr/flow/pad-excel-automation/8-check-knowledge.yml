@@ -35,7 +35,7 @@ quiz:
     - content: "To write data to an Excel worksheet, you have to specify a cell."
       isCorrect: true 
       explanation: You are required to spefify cells to write data to an Excel file.
-  - content: Which cells do you have to specify to select a specific range of data in an Excel worksheet?"
+  - content: "Which cells do you have to specify to select a specific range of data in an Excel worksheet?"
       choices: 
     - content: "The cells in the upper-left and lower-right corners"
       isCorrect: true 
