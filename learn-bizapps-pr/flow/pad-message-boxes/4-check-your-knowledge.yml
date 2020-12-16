@@ -13,19 +13,22 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: "Message boxes are only used to provide input to a process."
+  - content: "What is the role of the Message boxes?"
     choices: 
-    - content: "True"
+    - content: "They provide input to a process."
       isCorrect: false 
-      explanation: "That is false; message boxes can be used to provide input to a process, and output to the user."
-    - content: "False"
-      isCorrect: true 
-      explanation: "That is correct! Message boxes can be used to provide input to a process, and output to the user."
-  - content: "The Display Message Box action displays a message to the user; the buttons on the message box are OK and Cancel and cannot be changed."
-    choices: 
-    - content: "True"
+      explanation: "Message boxes can be used to provide input to a process, and output to the user."
+    - content: "They provide output to the user."
       isCorrect: false 
-      explanation: "That is false; the buttons in the Display Message Box action can be changed. Multiple preset button combinations are available."
-    - content: "False"
+      explanation: "Message boxes can be used to provide input to a process, and output to the user."
+    - content: "Both of the above"
       isCorrect: true 
-      explanation: "That is correct! The buttons in the Display Message Box action can be changed. Multiple preset button combinations are available."
+      explanation: "Message boxes can be used to provide input to a process, and output to the user."
+  - content: "Which one of the following statements about the Display Message Box action is true?"
+      choices: 
+    - content: "The buttons OK and Cancel cannot be changed."
+      isCorrect: false 
+      explanation: "The buttons in the Display Message Box action can be changed. Multiple preset button combinations are available."
+    - content: "The buttons OK and Cancel are configurable."
+      isCorrect: true 
+      explanation: "The buttons in the Display Message Box action can be changed. Multiple preset button combinations are available."
