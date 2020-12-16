@@ -25,7 +25,7 @@ quiz:
       isCorrect: true 
       explanation: "Message boxes can be used to provide input to a process, and output to the user."
   - content: "Which one of the following statements about the Display Message Box action is true?"
-      choices: 
+    choices: 
     - content: "The buttons OK and Cancel cannot be changed."
       isCorrect: false 
       explanation: "The buttons in the Display Message Box action can be changed. Multiple preset button combinations are available."

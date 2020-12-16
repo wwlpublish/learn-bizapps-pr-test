@@ -36,7 +36,7 @@ quiz:
       isCorrect: true 
       explanation: You are required to spefify cells to write data to an Excel file.
   - content: "Which cells do you have to specify to select a specific range of data in an Excel worksheet?"
-      choices: 
+    choices: 
     - content: "The cells in the upper-left and lower-right corners"
       isCorrect: true 
       explanation: The range of cells is specified by the upper-left and lower-right corners.
