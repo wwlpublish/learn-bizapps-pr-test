@@ -3,7 +3,7 @@ uid: learn-bizapps.manage-solutions-power-automate.4-import-export-solutions
 title: Exercise - Import and export solutions
 metadata: 
   title: Exercise - Import and export solutions 
-  description: Learn how to export a solution and import it in another environment or tenant.  
+  description: Learn how to export a solution and import it into another environment or tenant.  
   ms.date: 12/14/2020
   author: DaveBeasley 
   ms.author: dbeasley 
