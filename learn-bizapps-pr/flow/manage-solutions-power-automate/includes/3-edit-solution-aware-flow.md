@@ -1,31 +1,31 @@
-Editing a solution-aware app, flow and table requires you to first go into your solution and select the items from there. 
+Editing a solution-aware app, flow, and table requires you to first select the items from your solution. 
 
-1. In this scenario, we first sign into Power Apps and selected **Solutions** and then selected **Volunteer Request**.
+1. Sign in to Power Apps, select **Solutions**, and then select **Volunteer Request**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Select Solutions and Volunteer Request to access your solution.](../media/access-your-solution-ssm.png)](../media/access-your-solution-ssm.png#lightbox)
 
-1. Now you see all of your apps, flows, and tables.
+   You should see all your apps, flows, and tables.
 
 	> [!div class="mx-imgBorder"]
 	> [![See all of your apps, flows, and tables.](../media/all-items.png)](../media/all-items.png#lightbox)
 
-1. To edit the canvas app, you first select the app and then select Edit. Edit is available on the top or using the ellipses. This will take you directly into the power apps studio. 
+1. To edit the canvas app, select the app and then select **Edit**, which is available in the upper portion of the screen, or you can select the ellipsis. This action will take you directly into Power Apps studio. 
 
 	> [!div class="mx-imgBorder"]
 	> [![Edit the canvas app by selecting Edit.](../media/edit-existing-app-ssm.png)](../media/edit-existing-app-ssm.png#lightbox)
 
-1. Similarly, select the flow and then select Edit. Edit is available on the top or using the ellipses. This will take you directly into edit mode of the flow.
+1. Select the flow and then select **Edit**, which directs you to the edit mode for the flow.
 
 	> [!div class="mx-imgBorder"]
 	> [![Edit the flow by selecting Edit.](../media/edit-existing-flow-ssm.png)](../media/edit-existing-flow-ssm.png#lightbox)
 
-1. For flows, you can also select the icon, which takes you into the details section of the flow. Details are where you can see run history, connections, owners, etc.
+1. For flows, you can also select the icon, which takes you into the details section of the flow. The **Details** section is where you can see run history, connections, owners, and so on.
 
 	> [!div class="mx-imgBorder"]
 	> [![Details section displays history, connections, owners, etc.](../media/additional-features-ssm.png)](../media/additional-features-ssm.png#lightbox)
  
-1. Finally, select the table then select Edit. Edit is available on the top or using the ellipses. This will take you to the section where you can view the columns, relationships, business rules, etc. 
+1. Select the table and then select **Edit**, which takes you to the section where you can view the columns, relationships, business rules, and so on. 
 
 	> [!div class="mx-imgBorder"]
 	> [![Edit the table by selecting Edit.](../media/edit-existing-table-ssm.png)](../media/edit-existing-table-ssm.png#lightbox)
