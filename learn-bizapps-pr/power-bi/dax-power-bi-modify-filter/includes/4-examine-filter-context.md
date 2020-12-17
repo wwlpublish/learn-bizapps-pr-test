@@ -34,7 +34,7 @@ Notice that the total **Sales Commission** result is BLANK. The reason is becau
 
 Three other functions that you can use to test filter state are:
 
--   **[ISFITLERED](https://docs.microsoft.com/dax/isfiltered-function-dax/?azure-portal=true) DAX function** - Returns TRUE when a passed-in column reference is *directly* filtered.
+-   **[ISFILTERED](https://docs.microsoft.com/dax/isfiltered-function-dax/?azure-portal=true) DAX function** - Returns TRUE when a passed-in column reference is *directly* filtered.
 
 -   **[ISCROSSFILTERED](https://docs.microsoft.com/dax/iscrossfiltered-function-dax/?azure-portal=true) DAX function** - Returns TRUE when a passed-in column reference is *indirectly* filtered. A column is cross-filtered when a filter that is applied to another column in the same table, or in a related table, affects the reference column by filtering it.
 
