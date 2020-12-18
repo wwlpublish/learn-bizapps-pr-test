@@ -1,0 +1,39 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-system-services-actions.4-check-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 09/24/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: The Take Screenshot action saves the taken screenshots only to the clipboard. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: That is incorrect. The Take screenshot action saves the taken screenshots to the clipboard or to a file.
+    - content: "False"
+      isCorrect: true 
+      explanation: That is correct! The Take Screenshot action saves the taken screenshots to the clipboard or to a file.
+  - content: The Pause Service action can only pause Windows services. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: That is incorrect. The Pause service action can pause Windows services as well as services from other software.
+    - content: "False"
+      isCorrect: true 
+      explanation: That is correct! The Pause service action can pause Windows services as well as services from other software.
+  - content: The Run JavaScript action can run code on a webpage. (True or False)
+    choices: 
+    - content: "True"
+      isCorrect: false 
+      explanation: That is incorrect. Power Automate Desktop provides the Run JavaScript function on web page action to run code on a webpage.
+    - content: "False"
+      isCorrect: true 
+      explanation: That is correct! Power Automate Desktop provides the Run JavaScript function on web page action to run code on a webpage.

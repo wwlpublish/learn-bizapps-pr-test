@@ -1,12 +1,12 @@
-Microsoft Dataverse has a rich set of administrative options that you can use
+Common Data Service has a rich set of administrative options that you can use
 to create new instances of a database or tailor access and features
-that are available for users of each Dataverse database instance.
+that are available for users of each Common Data Service database instance.
 Several administrative portals are available for you to use to
-administer Dataverse settings. 
+administer Common Data Service settings. 
 
 The Power Apps Admin center is discussed in this unit because it will satisfy most of 
 your administrative needs. However, a few other administrative options are available, 
-which are covered in the Manage permissions and administration for Dataverse 
+which are covered in the Manage permissions and administration for Common Data Service 
 learning path. 
 
 ### Power Apps Admin center
@@ -24,8 +24,8 @@ in the following figure.
     Data Service.
 
 -   **Data policies** - This section lets you set up policies to restrict
-    which data connectors can be used with Dataverse to limit
-    what data can flow into or out of Dataverse entities.
+    which data connectors can be used with Common Data Service to limit
+    what data can flow into or out of Common Data Service entities.
 
 -   **Data integration** - This section lets you create or add pre-defined
     connections and monitor these connections between Common Data
@@ -52,4 +52,4 @@ and opening each section on the left-hand side of the portal:
     ![Admin Menu options in Power Apps](../media/admin-menu-options.png)
 
 The Power Apps Admin center lets you manage the tasks of setting up users, permissions, and many other important features and
-capabilities of Dataverse. 
+capabilities of Common Data Service. 

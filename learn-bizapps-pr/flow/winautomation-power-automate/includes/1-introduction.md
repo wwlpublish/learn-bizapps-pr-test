@@ -3,8 +3,8 @@ The WinAutomation connector in Power Automate allows you to:
 - Execute a WinAutomation process through Power Automate
 - Pass in dynamic values from other Power Automate API actions that run in the cloud
 - View run results from cloud portal
-- Leverage existing UI flows gateway connections
-- Leverage existing experience of running UI flows in both attended and unattended modes.
+- Leverage existing desktop flow gateway connections
+- Leverage existing experience of running desktop flow in both attended and unattended modes.
 
 The connector essentially combines the functionality of Power Automate and WinAutomation, to further boost the benefits of both platforms.
 

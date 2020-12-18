@@ -56,7 +56,7 @@ Power Automate works by creating flows, of which there are three types:
 
 - Business process flows - These flows are built to augment the experience when using Model-driven apps and the Dataverse. Use these to create a guided experience in your Model-driven apps. 
 
-- UI flows - These robotic process automation (RPA) flows allow you to record yourself performing actions on your desktop or within a web browser. You can then trigger a flow to perform that process for you. You can also pass data in or get data out of the process, letting you automate even "manual" business processes.
+- Desktop flow - These robotic process automation (RPA) flows allow you to record yourself performing actions on your desktop or within a web browser. You can then trigger a flow to perform that process for you. You can also pass data in or get data out of the process, letting you automate even "manual" business processes.
 
 ## Add artificial intelligence to your flow without writing code
 

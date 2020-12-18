@@ -16,7 +16,7 @@ On **Page 4** of the report, add the **Customer Segment** column as the legend
 
 Notice that only one **Customer Segment** value exists. The reason is because the calculated column formula produces an incorrect result: Each customer is assigned the value of **High** because the expression `SUM(Sales[Sales Amount])` isn't evaluated in a filter context. Consequently, each customer is assessed on the sum of *every* **Sales Amount** column value in the Sales table.
 
-To force the evaluation of the `SUM(Sales[Sales Amount])` expression *for each customer*, a context transaction must take place that applies the row context column values to filter context. You can accomplish this transaction by using the CALCULATE function without passing in filter expressions.
+To force the evaluation of the `SUM(Sales[Sales Amount])` expression *for each customer*, a context transition must take place that applies the row context column values to filter context. You can accomplish this transition by using the CALCULATE function without passing in filter expressions.
 
 Modify the calculated column definition so that it produces the correct result.
 
