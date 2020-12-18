@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-excel-automation.4-writing-excel-worksheet
+title: Write to an Excel worksheet
+metadata: 
+  title: Write to an Excel worksheet
+  description: Learn how to write to an Excel worksheet.
+  ms.date: 09/22/2020 
+  author: olegmelnykov 
+  ms.author: olmelnyk 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 15 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-writing-excel-worksheet.md)] 
