@@ -1,0 +1,1 @@
+In this module, you learned about which scenarios Document automation addresses and what you can accomplish with it. You also learned to install and configure the Document automation base kit, and to use it to monitor, review, and process documents with the kit.
