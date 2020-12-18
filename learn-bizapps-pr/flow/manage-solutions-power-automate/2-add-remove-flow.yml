@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.manage-solutions-power-automate.2-add-remove-flow 
-title: Add and remove a flow in a solution
+title: Add and remove apps, flows, and entities in a solution
 metadata: 
-  title: Add and remove a flow in a solution 
-  description: Learn how to create a simple flow and then add it to or remove it from a solution.  
-  ms.date: 9/30/2020 
+  title: Add and remove apps, flows, and entities in a solution
+  description: Learn how to create apps, flows, and entities and then add or remove it from a solution.  
+  ms.date: 12/14/2020
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
