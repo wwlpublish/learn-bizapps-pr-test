@@ -1,7 +1,7 @@
-Watch this video, which walks you through the following:
+Watch the following video for a demonstration of the following processes:
 
-- How to package Power Apps canvas app, Power Automate flow, and a Dataverse entity with a Choices field into a solution.
+- Packaging a Power Apps canvas app, Power Automate flow, and a Dataverse entity with a **Choices** field into a solution
 
-- Export the solution from one environment and import it into another.
+- Exporting the solution from one environment and importing it into another
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4FJVJ]
