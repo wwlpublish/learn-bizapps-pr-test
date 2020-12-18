@@ -32,3 +32,11 @@ quiz:
     - content: "All types of services"
       isCorrect: true 
       explanation: The Pause service action can pause Windows services as well as services from other software.
+  - content: Which one of the following actions sets a value to an environment variable?
+    choices: 
+    - content: "Set environment variable"
+      isCorrect: true 
+      explanation: The Set environment variable action sets a value to a Microsoft Windows environment variable.
+    - content: "Set variable"
+      isCorrect: false 
+      explanation: The Set variable action sets a value to a local flow variable, not to an environment variable.  
