@@ -15,13 +15,13 @@ quiz:
   questions: 
   - content: "The Go to action directs the flow to:"
     choices: 
-    - content: "Another flow."
+    - content: "Another flow"
       isCorrect: false 
       explanation: "Your answer is incorrect. The Go to action directs the flow to a label."
-    - content: "A Label."
+    - content: "A Label"
       isCorrect: true 
       explanation: "That is correct!"
-    - content: "Another subflow."
+    - content: "Another subflow"
       isCorrect: false 
       explanation: "Your answer is incorrect. The Go to action directs the flow to a label."
     - content: "All of the above"
