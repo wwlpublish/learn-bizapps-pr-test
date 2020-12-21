@@ -151,7 +151,7 @@ Within Power Apps, you can utilize the concept of using one function to supply i
 
     **Items** - Refers to the Data Source name
 
-    **Collect** - Will copy all records from the **Items** into the **ItemaCollection** collection
+    **Collect** - Will copy all records from the **Items** into the **ItemsCollection** collection
 
 4.  Run the app. select the button. Stop running the app.
 
