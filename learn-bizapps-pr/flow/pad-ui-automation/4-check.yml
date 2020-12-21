@@ -41,11 +41,14 @@ quiz:
     - content: Keystrokes
       isCorrect: false 
       explanation: The best way to interact with application UIs is by using UI elements.
-  - content: The two types of UI elements are Window and UI element. (True or False)
+  - content: Which one of the following elements are UI elements?
     choices: 
-    - content: "True"
-      isCorrect: true
-      explanation: Window UI elements are different from simple UI elements.
-    - content: "False"
+    - content: "UI elements"
+      isCorrect: false
+      explanation: Window UI elements and simple UI elements are two different types of UI elements.
+    - content: "Window UI elements "
       isCorrect: false 
-      explanation: Window UI elements are different from simple UI elements.
+      explanation: Window UI elements and simple UI elements are two different types of UI elements.
+    - content: "Both "
+      isCorrect: true 
+      explanation: Window UI elements and simple UI elements are two different types of UI elements.

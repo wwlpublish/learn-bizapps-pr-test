@@ -15,32 +15,32 @@ quiz:
   questions: 
   - content: "The Go to action directs the flow to:"
     choices: 
-    - content: "Another flow."
+    - content: "Another flow"
       isCorrect: false 
       explanation: "Your answer is incorrect. The Go to action directs the flow to a label."
-    - content: "A Label."
+    - content: "A Label"
       isCorrect: true 
       explanation: "That is correct!"
-    - content: "Another subflow."
+    - content: "Another subflow"
       isCorrect: false 
       explanation: "Your answer is incorrect. The Go to action directs the flow to a label."
     - content: "All of the above"
       isCorrect: false 
       explanation: "Your answer is incorrect. The Go to action directs the flow to a label."
-  - content: "The Exit subflow action isn't necessary at the end of a subflow."
+  - content: "Which one of the following statements about the Exit subflow action is true?"
     choices: 
-    - content: "True"
+    - content: "It isn't necessary at the end of each subflow."
       isCorrect: true 
-      explanation: "That is correct!"
-    - content: "False"
+      explanation: "Subflows exit automatically after running their last action."
+    - content: "It is necessary at the end of each subflow."
       isCorrect: false 
-      explanation: "That is incorrect, the statement is true."
-  - content: "The Exit subflow action is necessary at the end of every subflow."
+      explanation: "Subflows exit automatically after running their last action."
+  - content: "Which one of the following statements about Comments is true?"
     choices: 
-    - content: "True"
-      isCorrect: false 
-      explanation: "That is incorrect. The Exit sublflow action is only necessary to prematurely stop running the subflow."
-    - content: "False"
+    - content: "They don't affect the functionality of the flow."
       isCorrect: true 
-      explanation: "That is correct!"
+      explanation: "Comments don't affect the functionality of the flow."
+    - content: "Comments are interpreted like all the other types of actions."
+      isCorrect: false 
+      explanation: "Comments aren't interpreted like standard actions."
 
