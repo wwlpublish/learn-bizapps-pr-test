@@ -80,7 +80,7 @@ In this task, you will create the **Salesperson** table (direct relationship to 
 
 1. For the **Salesperson (Performance)** table, set the description to: **Salesperson related to region(s)**.
 
-	The data model now provides to alternatives when analyzing salespeople. The **Salesperson** table allows analyzing sales made by a salesperson, while the **Salesperson (Performance)** table allows analyzing sales made in the sales region(s) assigned to the salesperson.
+	The data model now provides two alternatives when analyzing salespeople. The **Salesperson** table allows you to analyze sales made by a salesperson, while the **Salesperson (Performance)** table allows you to analyze sales made in the sales region(s) assigned to the salesperson.
 
 ### Task 2: Create the Date table
 
