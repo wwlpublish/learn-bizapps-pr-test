@@ -1,4 +1,4 @@
-In Power Apps, like Excel, you can create formulas to calculate and
+In Power Apps like Excel, you can create formulas to calculate and
 return values. The following are a few common functions that you can use when working with
 numbers and calculating values:
 
@@ -18,30 +18,44 @@ numbers and calculating values:
 You can incorporate controls into your calculations by referencing
 the function name.
 
-the following example shows how to calculate the sum of goods and services.
+The following example shows how to calculate the sum of goods and services.
 
-1.  Add 6 **Labels** and 3 **Text Inputs** to your canvas app,
-    as shown in the following screenshot.
+1. Navigate to [Power Apps](https://make.powerapps.com/).
 
-	![Calculation](../media/Calculation.png)
+1. Select **+ New App** and **Canvas**.
 
-2.  Select the **Label** to the right of "Total".
+1. At the bottom, under **Blank app**, select **Tablet layout**.
 
-3.  Change the **Text** property to the following.
+1. Select the **Insert** tab and add a **Label**.
 
-    ```powerappsfl
-    Sum(TextInput1_1 * TextInput1_2)
-    ```
+1. Change the **Text** property to *Product*.
 
-    (In this example, TextInput1_1 is the Quantity purchased and TextInput1_2 is the Cost per item.)
+1. Add three more **Labels** and change the **Text** properties to *Quantity*, *Cost*, and *Total*, respectively.
 
-4.  Now preview the app by selecting the **Play** button in the
-    upper-right corner. Test the formula.
+1. Select the **Insert** tab, then the **Text** dropdown, and insert three **Text Inputs** to your canvas app,
+   and arrange them as shown in the following screenshot.
 
-5.  Next, format the formula to display the value as a Currency. Update
-    the formula as follows.
-    ```powerappsfl
-    Text(Sum(TextInput1_1 * TextInput1_2),"$#,###0.00")
-    ```
+   ![Power Apps Treeview Screen1 text inputs](../media/calculation-update.png)
+
+1. Insert another **Label** to the right of *Total*.
+
+1. Change the **Text** property to the following.
+
+   ```powerappsfl
+   Sum(TextInput2 * TextInput3)
+   ```
+
+   (In this example, TextInput2 is the Quantity purchased and TextInput3 is the Cost per item.)
+
+1. Now preview the app by selecting the **Play** button in the
+   upper-right corner. Test the formula by entering some numbers for the quantity and price.
+
+1. Next, format the formula to display the value as a Currency. Update
+   the formula as follows.
+   ```powerappsfl
+   Text(Sum(TextInput2 * TextInput3),"$#,###0.00")
+   ```
+   
+   ![Power Apps Treeview Screen1 values](../media/calculation-update-2.png)
 
 For more information, see [Power Apps Aggregate Functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-aggregates).
