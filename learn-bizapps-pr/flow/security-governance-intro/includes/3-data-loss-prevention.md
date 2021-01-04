@@ -21,7 +21,7 @@ and **Act!** connector because they belong to different data groups.
 If you want to create a flow that included these two connectors, you will 
 need to move one of the connectors into the other data group.
 
-[ ![Data Loss Prevent Policy that includes connectors in the Business data only group and No Business data allowed](../media/3-data-policy.png) ](3-data-policy.png#lightbox)
+[ ![Data Loss Prevent Policy that includes connectors in the Business data only group and No Business data allowed](../media/3-data-policy.png) ](../media/3-data-policy.png#lightbox)
 
 Additionally, you can specify one data group to be the default data
 group. Select the data policy you want to make default and choose the **Edit policy** button at the top. To change the default data group, go to **Connectors** and choose the **Set default group** button in the upper- right corner.
