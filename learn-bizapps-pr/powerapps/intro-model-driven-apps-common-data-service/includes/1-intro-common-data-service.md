@@ -1,5 +1,4 @@
-Whether you are building a canvas app or a model-driven app, Common
-Data Service is the ideal data source because it is
+Whether you are building a canvas app or a model-driven app, Dataverse is the ideal data source because it is
 the foundational data source of Power Platform. As a result, you will
 experience the most functionality, the deepest integrations, the most features,
 and the best ease-of-use of any available data sources. From
@@ -16,8 +15,7 @@ of your data is stored in entities. An entity is a set of records that is used
 to store data, similar to how a table stores data within a database.
 Dataverse includes a base set of standard entities that cover
 typical scenarios, but you can also create custom entities that are specific to
-your organization. Standard and custom entities within Common Data
-Service help provide a secure and cloud-based storage option for your data.
+your organization. Standard and custom entities within Dataverse help provide a secure and cloud-based storage option for your data.
 Entities allow you to create a business-focused definition of your
 organization's data for use within apps. 
 
@@ -33,8 +31,7 @@ Some benefits of using Dataverse and its entities include:
     organization.
 
 -   **Access your Dynamics 365 data** - If you use Dynamics 365, data 
-    from your Dynamics 365 application is also stored within Common Data 
-    Service, allowing you to quickly build apps that use your 
+    from your Dynamics 365 application is also stored within Dataverse, allowing you to quickly build apps that use your 
     Dynamics 365 data and extend your apps by using Power Apps.
 
 -   **Rich metadata** - Data types and relationships are used
