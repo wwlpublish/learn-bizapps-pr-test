@@ -7,7 +7,7 @@ This app will allow the sales team to enter and edit leads on the go and
 keep the managers up to date on the current leads and forecasted revenue.
 
 ### Create the custom entity 
-You skip these steps if you have already created the *Prospects* entity. 
+You can skip these steps if you have already created the *Prospects* entity. 
 
 1. Go to the [Power Apps home page](https://powerapps.microsoft.com/)  and sign in to Power Apps.
 1. On the menu, expand **Data** and **Select Entities**.
