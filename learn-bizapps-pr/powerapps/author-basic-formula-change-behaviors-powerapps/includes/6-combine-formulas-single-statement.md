@@ -2,37 +2,48 @@ The following example uses the **Button** control and the
 **UpdateContext** function to create a dynamic formula for changing the
 **DisplayMode** of a button.
 
-1.  Add two **Button** controls to the canvas.
+1. Navigate to [Power Apps](https://make.powerapps.com).
 
-2.  Add one **Label** and one **Text input** to the canvas.
+1. Select **+ New App** and **Canvas**.
 
-	> Use the following screenshot for positioning and formatting.
+1. At the bottom, under **Blank app**, select **Tablet layout**.
 
-	> ![DisplayMode](../media/DisplayMode.png)
+1. Select the **Insert** tab and add a **button**.
 
-3.  Select **Button** control (Button3), set the **OnSelect** property to
+1. Change the **Text** property of the button to *Add*.
 
-	> **UpdateContext( { RunningTotal: RunningTotal + TextInput1 } )**.
+1. Add another **Button** control and change the **Text** to *Clear*.
 
-4.  Select the other **Button** control (Button4), set the **OnSelect**
-    property to
+1. Add one **Label** and one **Text input** to the canvas.
 
-	> **UpdateContext( { RunningTotal: 0 } )**.
+   > Use the following screenshot for positioning and formatting.
 
-5.  Set the **DisplayMode** property for the same button to
-    **If(RunningTotal \> 0, DisplayMode.Edit, DisplayMode.Disabled)**.
+   > ![Power Apps Tree view Screen1](../media/display-mode-update.png)
 
-	> Notice that after you've updated the **DisplayMode** property, it appears greyed out.
+1. Select **Add** button (Button1), and set the **OnSelect** property to
 
-6.  Select the **Label** (Label2), set the **Text** property to
-    **RunningTotal**.
+   > **UpdateContext( { RunningTotal: RunningTotal + TextInput1 } )**.
 
-7.  Test it by putting the app in Preview mode. In the text input enter a
-    value and select the **Add** button.
+1. Select the **Clear** button (Button2), and set the **OnSelect**
+   property to
 
-As soon as you click the **Add** button, the **Clear** button is selectable again.
+   > **UpdateContext( { RunningTotal: 0 } )**.
 
-For this example, an **If** function is used to evaluate if the
+1. Set the **DisplayMode** property for the same button to
+   
+   > **If(RunningTotal \> 0, DisplayMode.Edit, DisplayMode.Disabled)**.
+
+   > Notice that after you've updated the **DisplayMode** property, it appears greyed out.
+
+1. Select the **Label** (Label1), set the **Text** property to
+   **RunningTotal**.
+
+1. Test it by putting the app in Preview mode. In the text input, enter a
+   value and select the **Add** button.
+
+As soon as you select the **Add** button, the **Clear** button is selectable again.
+
+For this example, an **If** function is used to evaluate whether the
 **Context Variable** (RunningTotal) is greater than 0. If the
 **Context Variable** is greater than 0, set the **DisplayMode**
 property for the **Clear** button to **Edit**. If the **Context
