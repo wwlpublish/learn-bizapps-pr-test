@@ -6,7 +6,8 @@ now in this exercise you will use this data to create a model-driven app. If you
 This app will allow the sales team to enter and edit leads on the go and 
 keep the managers up to date on the current leads and forecasted revenue.
 
-### Create the custom entity (skip if you have already created the *Prospects* entity)
+### Create the custom entity 
+You skip these steps if you have already created the *Prospects* entity. 
 
 1. Go to the [Power Apps home page](https://powerapps.microsoft.com/)  and sign in to Power Apps.
 1. On the menu, expand **Data** and **Select Entities**.
