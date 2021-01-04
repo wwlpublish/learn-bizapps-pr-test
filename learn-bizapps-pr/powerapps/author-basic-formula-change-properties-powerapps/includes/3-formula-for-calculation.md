@@ -35,7 +35,7 @@ The following example shows how to calculate the sum of goods and services.
 1. Select the **Insert** tab, then the **Text** dropdown, and insert three **Text Inputs** to your canvas app,
    and arrange them as shown in the following screenshot.
 
-   ![Calculation](../media/Calculation.png)
+   ![Power Apps Treeview Screen1](../media/calculation-update.png)
 
 1. Insert another **Label** to the right of *Total*.
 
@@ -55,5 +55,7 @@ The following example shows how to calculate the sum of goods and services.
    ```powerappsfl
    Text(Sum(TextInput2 * TextInput3),"$#,###0.00")
    ```
+   
+   ![Power Apps Treeview Screen1](../media/calculation-update-2.png)
 
 For more information, see [Power Apps Aggregate Functions](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/function-aggregates).

@@ -58,7 +58,7 @@ Navigate(Screen2,ScreenTransition.Cover)
 ```
 
 
-![Navigate_Button](../media/navigate_button.png)
+![Power Apps Tree view Button1](../media/navigate-button.png)
 
 In the example above, the **OnSelect** property for the **Button1**
 control triggers the **Navigate** function. Now, when a user selects the
