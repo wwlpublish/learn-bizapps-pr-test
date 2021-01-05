@@ -31,7 +31,7 @@ found at [PowerShell support for Power Apps ](https://docs.microsoft.com/power-p
 
 After installing the prerequisite PowerShell modules, you can run the following statement, (**New-AdminDlpPolicy -DisplayName "HTTP DLP Policy" -SchemaVersion 2018-11-01**), which will create a new DLP policy that includes support for HTTP when you include a **-SchemaVersion** parameter of **2018-11-01**. After you have run the previous statement, you'll be asked to sign in by using your admin credentials.
 
-![http DLP](../media/5-http-dlp.png)
+![PowerShell http DLP.](../media/5-http-dlp.png)
 
 After the command has been run, you'll be provided a status output
 that includes the internal **PolicyName** and other attributes.
@@ -50,4 +50,4 @@ this case is **No business data allowed**. These connectors can be
 managed just like any other connectors and can be added to the
 **Business data only** data group.
 
-![http DLP](../media/7-http-dlp.png)
+![PowerShell http DLP output.](../media/7-http-dlp.png)
