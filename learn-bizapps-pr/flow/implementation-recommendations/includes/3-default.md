@@ -1,24 +1,20 @@
 The introduction module of this learning path explained the 
-DLP **Business data only** and **No business data allowed** data groups. 
+DLP **Business** and **Non-business** data groups. 
 You can use these data groups to separate connectors that share similar 
 characteristics when it comes to their applicability to the business. 
 For flows and apps that are processing business-related data, you will 
-want to ensure that these connectors are placed within the **Business data only** 
+want to ensure that these connectors are placed within the **Business** 
 data group. When you have connectors that don't support valid business 
-use cases, these connectors are best placed in the **No business data allowed** 
+use cases, these connectors are best placed in the **Non-business** 
 data group.
 
 When a DLP policy is created, Microsoft will designate a default data group, 
-which will be assigned automatically to the **No business data allowed** 
+which will be assigned automatically to the **Non-business** 
 data group.
 
-![default](../media/1-default.png)
+![default](../media/1-default-update.png)
 
-An administrator can change the default data group by selecting the
-ellipsis (**...**) beside the data group that they want to
-designate as the default data group.
-
-![new default](../media/2-new-default.png)
+An administrator can change the default data group by selecting the **Set default group** button and choosing the data group that they want to designate as the default data group.
 
 Changing the default data group does have implications; therefore, administrators
 should understand the impact that their action will have. Whenever a new
@@ -37,7 +33,7 @@ prevent makers from sending business data from Office 365 systems to
 consumer-based services like email and file sharing. 
 
 As a result of this strategy, consumer-based connectors have been placed 
-into the **No business data allowed** data group, which is also the default 
+into the **Non-business** data group, which is also the default 
 data group. Suppose Microsoft introduces a new Office 365 connector that will
 be placed into the default data group as a result, which means that a
 maker can build a flow that includes data from this new Office 365
