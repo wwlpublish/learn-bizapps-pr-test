@@ -14,12 +14,12 @@ These triggers/actions can only be managed in DLP policies that have a [schema v
 make the decision to implement these changes. Otherwise, it's highly possible that some flows will be broken, depending on how an organization wants to classify the connectors as business or non-business. 
 
 For example, if the HTTP action was previously not managed and is being used 
-with connectors from the **Business data only** data group and is then placed in 
-the **No business data allowed** data group, then any flows that are using this configuration
+with connectors from the **Business** data group and is then placed in 
+the **Non-business** data group, then any flows that are using this configuration
 will be suspended because of DLP violations.
 
 By using this new schema version, DLP policies can be constructed by using
-either of the following entities:
+either of the following tables:
 
 -   Power Platform Management connector
 
