@@ -22,8 +22,8 @@ Business users are usually a good fit for this task.
 
 1. When launching the **Document Automation Application**, validators will see only the **Processed** documents. You may also notice that the **Configuration** tab is hidden so only power users can change the model to use.
 
-> [!div class="mx-imgBorder"]
-> [![List of documents for review (empty).](../media/4-documents.png)](../media/4-documents.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![List of documents for review (empty).](../media/4-documents.png)](../media/4-documents.png#lightbox)
 
 1. As soon as documents arrive in the service email box, the **Document Automation Email Importer** flow detects the new email, extracts the attachment, calls the AI model and saves the extracted data as a pending process to be reviewed.
 
@@ -42,7 +42,7 @@ Business users are usually a good fit for this task.
 
 ## Limitations
 
-- Export is not yet implemented in the **Document Automation Application**. If you want to export the extracted data, go to the **Power Apps Data** > **Tables** menu and **Document Automation Data** table, then at the top, select the button **Export data**.
+Export is not yet implemented in the **Document Automation Application**. If you want to export the extracted data, go to the **Power Apps Data** > **Tables** menu and **Document Automation Data** table, then at the top, select the button **Export data**.
 
 > [!div class="mx-imgBorder"]
 > [![Tables > Document Automation Data showing the Columns tab.](../media/4-export.png)](../media/4-export.png#lightbox)
