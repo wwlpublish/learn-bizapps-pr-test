@@ -1,10 +1,8 @@
-Planning is essential in helping to secure and govern your Power Automate 
-and Power Platform environments. Because Power Automate is a democratized 
-automation tool that can be used by many different people, teams, business 
+Planning is essential in helping to secure and govern your Power Platform environments. Because the Power Platform contains democratized tools that can be used by many different people, teams, business 
 units, and roles in an organization, minimizing disruptions to those app 
 makers will ensure that your organization remains productive and that a 
 disruption to business-critical processes doesn't occur. Introducing governance 
-changes after flows have been built might result in those flows being broken, 
+changes after apps and flows have been built might result in those apps and flows being broken, 
 leading to unmet expectations.
 
 If Power Platform is new to your organization, now is the best
