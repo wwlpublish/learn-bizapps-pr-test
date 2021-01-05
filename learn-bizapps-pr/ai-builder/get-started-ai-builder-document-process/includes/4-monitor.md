@@ -27,18 +27,18 @@ Business users are usually a good fit for this task.
 
 1. As soon as documents arrive in the service email box, the **Document Automation Email Importer** flow detects the new email, extracts the attachment, calls the AI model and saves the extracted data as a pending process to be reviewed.
 
-> [!div class="mx-imgBorder"]
-> [![List of documents for review with invoice image documents for manual review.](../media/4-document-automation-email-review.png)](../media/4-document-automation-email-review.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![List of documents for review with invoice image documents for manual review.](../media/4-document-automation-email-review.png)](../media/4-document-automation-email-review.png#lightbox)
 
 1. By selecting the document name, you can access details, review extracted fields and edit incorrectly extracted values. Select **Validate** to save your changes. You can also skip this document and navigate to the next one to be reviewed with the **Next document** button.
 
-> [!div class="mx-imgBorder"]
-> [![Manual review of invoice image showing extracted data for validation.](../media/4-validate.png)](../media/4-validate.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Manual review of invoice image showing extracted data for validation.](../media/4-validate.png)](../media/4-validate.png#lightbox)
 
 1. The Power user has access to all documents including the ones in error and validated status.
 
-> [!div class="mx-imgBorder"]
-> [![List of documents including those with Validated or Invalid Document status.](../media/4-power-user.png)](../media/4-power-user.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![List of documents including those with Validated or Invalid Document status.](../media/4-power-user.png)](../media/4-power-user.png#lightbox)
 
 ## Limitations
 
