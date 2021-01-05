@@ -1,4 +1,4 @@
-The Introduction to Power Automate security and governance module
+The Introduction to Power Platform security and governance module
 of this learning path explained tenant and environment scopes as 
 they relate to Data Loss Prevention (DLP) policies. This module explores the Admin Analytics 
 experience, which follows a similar scope model as the PowerShell cmdlets.

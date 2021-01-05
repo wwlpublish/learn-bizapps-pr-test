@@ -11,7 +11,7 @@ the full list of controls, see more information in the
 This documentation also describes the list of properties available
 for each control.
 
-![Controls](../media/Controls.png)
+![Input dropdown](../media/controls.png)
 
 Control properties
 ------------------
