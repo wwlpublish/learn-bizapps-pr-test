@@ -12,7 +12,7 @@ organization might choose to implement a layered approach that enables
 specific scenarios but blocks others. When conflicting policies exist, 
 Microsoft will still apply the most restrictive policy.
 
-### Scenario 1: Office 365 Outlook and OneDrive for Business
+### Scenario 1: Microsoft 365 Outlook and OneDrive for Business
 
 In this use case, an IT department wants to enable people to
 automatically copy their email attachments into their Microsoft OneDrive for
@@ -60,7 +60,7 @@ means it complies with your DLP policies.
 
 ![enable flow](../media/11-flow-enable.png)
 
-### Scenario 3: Office 365 Outlook and SharePoint
+### Scenario 3: Microsoft 365 Outlook and SharePoint
 
 In this scenario, you will discover what happens when you have DLP
 policies that conflict with each other. This scenario includes logging

@@ -1,5 +1,5 @@
 In this exercise, you will create an environment-specific DLP policy that
-applies to Office 365 use cases. The driver behind this scenario is an
+applies to Microsoft 365 use cases. The driver behind this scenario is an
 organization that wants to ensure that makers can build automation
 solutions for the Office 365 platform by using Power Automate.
 
