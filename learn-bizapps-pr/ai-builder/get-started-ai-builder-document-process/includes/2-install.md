@@ -1,14 +1,14 @@
 In this unit, you will
 
-- Understand how to install the Document automation base kit
+- Understand how to install the Document automation base kit.
 
-- Learn what are the key components installed
+- Learn what are the key components installed.
 
-- Learn how to configure the connection to outlook and Dataverse
+- Learn how to configure the connection to outlook and Dataverse.
 
 The person installing the Document automation solution should:
 
-- Have good knowledge of Power Platform concepts (at least Power Automate connections and Dataverse)
+- Have good knowledge of Power Platform concepts (at least Power Automate connections and Dataverse).
 
 - Have enough privileges to configure Power Automate connections and add environment variables.
 
@@ -29,7 +29,7 @@ The following items will be installed with this package:
 
   - "Document Automation Processor" that calls the AI Builder model to extract values and store it in Microsoft Dataverse.
 
-  - "Document Automation Validator" that acts as a placeholder for your business rules and sends documents to the validation application
+  - "Document Automation Validator" that acts as a placeholder for your business rules and sends documents to the validation application.
 
 - Four Microsoft Dataverse tables
 
@@ -37,7 +37,7 @@ The following items will be installed with this package:
 
   - "Document Automation Data" storing the values extracted from the document.
 
-  - "Document Automation Configuration" storing the information about the model to use
+  - "Document Automation Configuration" storing the information about the model to use.
 
   - "Document Automation Taxonomy" mapping where each model labels will be stored in the "Document Automation Data" table fields.
 
@@ -73,7 +73,7 @@ To install and configure the Document automation solution, you must follow these
 
 1. You are redirected to the Power Platform admin center, accept the term of service, then select "Install."
 
-    Your document automation solution is now installed but is not activated yet. To finalize the installation and activate your document solution, you need to configure the data connections and turn on the flows used by the solution. We will start by configuring and activation the flow that captures documents to process.
+Your document automation solution is now installed but is not activated yet. To finalize the installation and activate your document solution, you need to configure the data connections and turn on the flows used by the solution. We will start by configuring and activation the flow that captures documents to process.
 
 1. Select the "Document automation Base Kit."
 

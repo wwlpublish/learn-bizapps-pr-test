@@ -55,7 +55,7 @@ The received documents go through the following steps:
 
     This flow does the following:
 
-    - It triggers after a document has been received and stored in the document queue (when it is in the "extracting data" state).
+    - It gets triggered after a document has been received and stored in the document queue (when it is in the "extracting data" state).
 
     - It retrieves the documents to process and runs an AI Builder form processing model on it to retrieve the relevant data. You can build your own AI Builder model to work with your unique document layout and retrieve the data that you need. More about this configure in the following learn modules.
 
@@ -71,7 +71,7 @@ The received documents go through the following steps:
 
     This flow does the following:
 
-    - It triggers after a document has been processed and extracted data stored in Dataverse (when it is in the "validating data" state).
+    - It gets triggered after a document has been processed and extracted data stored in Dataverse (when it is in the "validating data" state).
 
     - It sets the document's state to "manual review" to indicate that the data extracted is ready to be reviewed and approved by the someone.
 
@@ -97,19 +97,19 @@ The received documents go through the following steps:
 
     - List all documents that have been processed.
 
-    - Filter based on document states
+    - Filter based on document states:
 
-    - Invalid Document when not a PDF, PNG or JPEG
+      - Invalid Document when not a PDF, PNG or JPEG.
 
-    - Downloading document when email attachment is being retrieved and store in Dataverse
+      - Downloading document when email attachment is being retrieved and store in Dataverse.
 
-    - Extracting Data when AI is extracting data from the document.
+      - Extracting Data when AI is extracting data from the document.
 
-    - Validating when validation logic is being performed.
+      - Validating when validation logic is being performed.
 
-    - Manual review when the document is ready to be reviewed by a reviewer
+      - Manual review when the document is ready to be reviewed by a reviewer.
 
-    - Validated when the document has been successfully reviewed
+      - Validated when the document has been successfully reviewed.
 
     It is possible to configure who is a reviewer and/or an owner in your team.
 
