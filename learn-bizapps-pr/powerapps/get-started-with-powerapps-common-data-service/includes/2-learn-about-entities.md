@@ -1,6 +1,6 @@
 Microsoft Dataverse is designed to let you quickly and easily create a data model for your application, based on the tables and the table metadata that you include in your app. 
 
-tables describe the kinds of data that is stored in the Dataverse database. Each table corresponds to a database table and each column (also known as an attribute) within an table represents a column in that table. 
+Tables describe the kinds of data that is stored in the Dataverse database. Each table corresponds to a database table and each column (also known as an attribute) within an table represents a column in that table. 
 
 In Dataverse, metadata (data about data), is a collection of tables. table metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. When you use customization tools to create or edit tables, columns, and table relationships, you are editing this metadata.
 
@@ -17,7 +17,7 @@ For minor changes, you might not have to create a custom table:
 If standard tables don't work for your business needs, and if they can't be edited to meet those needs, consider creating a new table, column, or table relationship. If a standard table almost meets your business needs, you can use it as the basis for a new table.
 
 ## Table relationships
-table relationships define the different ways table records can be associated with records from other tables or the same table. table relationships are metadata. They let queries retrieve related data very efficiently. Use table relationships to define the formal relationships that define the table or that most records can use. 
+Table relationships define the different ways table records can be associated with records from other tables or the same table. table relationships are metadata. They let queries retrieve related data very efficiently. Use table relationships to define the formal relationships that define the table or that most records can use. 
 
 When you look at the solution explorer you might think that there are three types of table relationships but actually there are only two, see below:
 
@@ -37,7 +37,7 @@ Besides defining how records can be related to other records, 1:N table relation
 Before creating or editing tables in Dataverse, you should understand the different types of tables that you can create. After a custom table is created, the table type can't be changed. 
 
 ### Types of table owners
- When you create a custom table, the options for ownership are *User or team owned*, or *Organization-owned*. After an table is created, you can’t change the ownership. 
+When you create a custom table, the options for ownership are *User or team owned*, or *Organization-owned*. After an table is created, you can’t change the ownership. 
 
 - **User or team owned**: Actions that can be performed on these records can be controlled at the user level.
 - **Organization-owned**: Access to the data is controlled at the organization level.
