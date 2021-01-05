@@ -1,4 +1,4 @@
-The Plan and manage your Power Automate environment module of this 
+The Plan and manage your Power Platform environment module of this 
 learning path discussed strategies that deal with exceptions. The
 scenario that was outlined in that module involved SharePoint and 
 Twitter connectors that were being used within the same flow. 
@@ -16,11 +16,11 @@ The following sections explain how you can accomplish directional data governanc
 
 The first step in accomplishing directional data governance is to create a DLP policy, from the 
 [Power Automate Admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true), 
-that includes the SharePoint and Twitter connectors in the **Business data only**
+that includes the SharePoint and Twitter connectors in the **Business**
 data group. By using this configuration, you are allowing makers to build flows 
 that include both of these connectors.
 
-![Twitter SharePoint](../media/17-twitter-sharepoint.png)
+![Twitter SharePoint](../media/17-twitter-sharepoint-update.png)
 
 Next, you will transition to the [Power Automate Maker Portal](https://flow.microsoft.com/?azure-portal=true) 
 and sign in by using your administrator account so you can build your governance flow. Your goal is to build
@@ -58,7 +58,7 @@ listing of all flows for a given environment.
 ![flow management](../media/21-flow-management.png)
 
 The **List Flows as Admin** action requires the name of an environment as 
-an input parameter. Use the **Name** field that is returned from your **List
+an input parameter. Use the **Name** column that is returned from your **List
 Environments as Admin** call. When you provide this input, an **Apply to each**
 action will automatically be added that will allow you to iterate through all environments.
 
