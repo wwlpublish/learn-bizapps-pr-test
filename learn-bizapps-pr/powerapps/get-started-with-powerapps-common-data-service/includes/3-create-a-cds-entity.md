@@ -1,7 +1,7 @@
-In this unit, you'll create a table and then customize key components, like fields, relationships, views, and forms. You'll learn how to:
+In this unit, you'll create a table and then customize key components, like tables, relationships, views, and forms. You'll learn how to:
 
 - Create a custom table.
-- Add custom fields to your table.
+- Add custom tables to your table.
 - Add a table relationship.
 - Customize a view.
 - Customize a form.
@@ -24,7 +24,7 @@ Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to cr
 
 4. At the bottom, click **Create**.
 
-You will notice in our example, the new table and primary field begins with **cree0_**. Additional fields created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
+You will notice in our example, the new table and primary field begins with **cree0_**. Additional tables created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
 
 ## Add and customize columns
 
@@ -71,7 +71,7 @@ You will notice in our example, the new table and primary field begins with **cr
 3. Select **Done**.
 4. Select **Save table**.
 
-    Notice that when you add a many-to-one relationship, an **Account** field of the **Lookup** data type is automatically added to your list of fields on the **Fields** tab.
+    Notice that when you add a many-to-one relationship, an **Account** field of the **Lookup** data type is automatically added to your list of tables on the **Tables** tab.
 
     > [!div class="mx-imgBorder"]
     > ![Account lookup field](../media/updated-account-lookup-field.png)
@@ -103,10 +103,10 @@ You will notice in our example, the new table and primary field begins with **cr
     > [!div class="mx-imgBorder"]
     > ![Edit main form](../media/updated-main-form-edit.png)
 
-4. In the form editor, drag the **Species**, **Breed**, **Appointment date**, and **Account** fields from the **Field Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
+4. In the form editor, drag the **Species**, **Breed**, **Appointment date**, and **Account** tables from the **Field Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
 
     > [!div class="mx-imgBorder"]
-    > ![Select fields for main form](../media/updated-main-form-edit2.png)
+    > ![Select tables for main form](../media/updated-main-form-edit2.png)
 
 5. Select **Save**.
 6. Select **Publish**.
