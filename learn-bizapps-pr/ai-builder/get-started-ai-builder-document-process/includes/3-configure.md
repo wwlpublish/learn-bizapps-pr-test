@@ -22,6 +22,7 @@ The features available in the validation application by each persona are summari
 
 | | Manual Reviewer | Process Owner |
 |---|---|---|
+|     Controlling Dataverse role                              |     Document Automation Reviewer                                            | System Customizer    |
 |     Access the   “Configuration” tab                        |                                                                             |     X                |
 |     Configure   the model to use                            |                                                                             |     X                |
 |     Access the   “Documents” tab                            |     X                                                                       |     X                |
