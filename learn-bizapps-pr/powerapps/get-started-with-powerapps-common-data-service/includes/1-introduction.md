@@ -1,7 +1,7 @@
 Microsoft Dataverse lets you securely store and manage data used by business applications. 
 
 ## Tables
-Data within Dataverse is stored within a set of records called entities. An **table** is a set of records used to store data, similar to how a table stores data within a database.
+Data within Dataverse is stored within a set of records called entities. A **table** is a set of records used to store data, similar to how a table stores data within a database.
 
 Dataverse includes a base set of standard entities that support common business scenarios that connect to Dynamics 365 application data. You can also create custom entities specific to your organization and populate them with data that you import from lists in SharePoint, from Excel, or from PowerQuery. App makers can then use Power Apps to build rich applications using this data.
 

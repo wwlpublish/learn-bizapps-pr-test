@@ -17,7 +17,7 @@ For minor changes, you might not have to create a custom table:
 If standard tables don't work for your business needs, and if they can't be edited to meet those needs, consider creating a new table, column, or table relationship. If a standard table almost meets your business needs, you can use it as the basis for a new table.
 
 ## Table relationships
-Table relationships define the different ways table records can be associated with records from other tables or the same table. table relationships are metadata. They let queries retrieve related data very efficiently. Use table relationships to define the formal relationships that define the table or that most records can use. 
+Table relationships define the different ways table records can be associated with records from other tables or the same table. Table relationships are metadata. They let queries retrieve related data very efficiently. Use table relationships to define the formal relationships that define the table or that most records can use. 
 
 When you look at the solution explorer you might think that there are three types of table relationships but actually there are only two, see below:
 
