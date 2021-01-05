@@ -8,17 +8,13 @@ Introduction to Power Automate security and governance module, which is the
 first module of this learning path. In addition, you should review the DLP 
 prerequisites that were outlined at the beginning of this module.
 
-1.  Sign in to the [Power Automate Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true) as an environment or tenant administrator.
+1.  Sign in to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true) as an environment or tenant administrator.
 
 2.  Select **Data policies** from the left navigation pane.
 
 3.  From the upper-right corner, select **+ New policy**.
-
-4.  Select the **Apply to ONLY selected environments** button, select the environment that was created in the previous module, or any test environment, and then select the **Continue** button.
-
-	![new DLP](../media/15-new-dlp.png)
-
-5.  Within the **Business data only** data group, select the **+ Add** button and then select the following connectors: 
+3.  Type in a name for your policy *Office 365 Connectors*, then select **Next**
+5.  Within the **Non-business** data group, select the following connectors and then select the **Move to business** button at the top: 
     - Office 365 Outlook
     - Office 365 Users
     - SharePoint
@@ -29,15 +25,17 @@ prerequisites that were outlined at the beginning of this module.
     - Word Online (Business)
     - Yammer 
 
-6.  After you have selected all of these connectors, select the **Add connectors** button.
+	![new DLP](../media/15-new-dlp-update.png)
 
-    Your **Business data only** data group should now resemble the following image.
 
-    ![added connectors](../media/16-added-connectors.png)
+    Your **Business** data group should now resemble the following image.
 
-7.  Update the auto generated **Data Policy Name** that starts with **Policy** by selecting it at the top of the screen. Enter **Office 365 Connectors** and then select **Save Policy**.
+    ![added connectors](../media/16-added-connectors-update.png)
+6. Select the **Next** button
+7. For Define Scope, select **Exclude certain environments** and then select **Next**
+7. Select the environment you want to add to the policy and then select the **+ Add to policy** button at the top.
+7.  Review the policy settings and then select **Create Policy**.
 
-    ![save data policy](../media/17-save.png)
 
 8.  With your DLP policy in place, you can now create a flow that will validate that your DLP policy is working. To create this flow, go to the [Power Automate maker portal](https://flow.microsoft.com/?azure-portal=true).
 
@@ -45,9 +43,9 @@ prerequisites that were outlined at the beginning of this module.
 
 10. Select **Create** from the left navigation pane.
 
-11. Select the **Instant flow** link.
+11. Select the **Instant cloud flow** link.
 
-    ![create flow](../media/18-create.png)
+    ![create flow](../media/18-create-update.png)
 
 12. Provide a **Flow name** of **Test DLP**, select **Manually trigger a flow** as your trigger, and then select the **Create** button.
 
@@ -75,4 +73,4 @@ prerequisites that were outlined at the beginning of this module.
 
 22. You should get an error as a result of violating your DLP policy that you created. As a result, your flow will be disabled, and it cannot be enabled while it conflicts with any DLP policies. In this specific example, it is disabled because you have included an **MSN Weather** connector in a flow that also contains an **Office 365 Outlook** connector. If you want this flow to run, you can either add the **MSN Weather** connector to the **Business data only** data group in your Office 365 DLP policy that you previously created, or you can remove the **Office 365 Outlook** connector from the **Business data only** data group.
 
-	![DLP](../media/21-dlp.png)
+	![DLP](../media/21-dlp-update.png)
