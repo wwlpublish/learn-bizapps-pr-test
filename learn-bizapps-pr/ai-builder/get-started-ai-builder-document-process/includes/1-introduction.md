@@ -41,7 +41,7 @@ Document automation provides this standard end-to-end solution and includes the 
 1. Process the data extracted and allow users to review and approve data through a central manual validation application.
 
 > [!div class="mx-imgBorder"]
-> [![](../media/1-document-automation.png)](../media/1-document-automation.png#lightbox)
+> [![Document automation consists of automatically storing documents and sending them for processing in Power Automate, processing documents in AI Builder, and reviewing processed documents in Power Apps.](../media/1-document-automation.png)](../media/1-document-automation.png#lightbox)
 
 This Document automation functionality is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the "Document automation base kit."
 
