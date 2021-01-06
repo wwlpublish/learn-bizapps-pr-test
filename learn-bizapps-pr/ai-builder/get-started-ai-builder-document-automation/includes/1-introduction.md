@@ -131,7 +131,7 @@ The documents and extracted data that are in the "validated" state are ready to 
 
 ## How to use document automation
 
-Document automation is a reference unmanaged solution. Users are free to use and update the components of this solution to adapt it to their business and system specifics.
+Document automation is a reference managed solution. Users are free to use and update the components of this solution to adapt it to their business and system specifics.
 
 To use this solution, you need the following licenses:
 
