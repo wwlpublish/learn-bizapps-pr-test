@@ -1,17 +1,17 @@
 ﻿### YamlMime:LearningPath
 uid: learn-bizapps.best-practices-environments
 metadata:
-  title: Use best practices to secure and govern Power Automate environments
-  description: Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? Take this learning path, to identify best practices for securing and governing Power Automate environments. We will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
-  ms.date:  03/16/2020
-  author: KevSch
-  ms.author: kschimke
+  title: Use best practices to secure and govern Power Platform environments
+  description: Learn how you can improve security posture and governance in Power Platform.
+  ms.date:  01/06/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
-  ms.prod: learning-power-automate
+  ms.prod: learning-power-platform
 title: Use best practices to secure and govern Power Automate environments
 summary: |
   [!include[](../../includes/lp-banner.md)]
-  Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? Take this learning path, to identify best practices for securing and governing Power Automate environments. We will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
+  Is the Power Platform new to your organization? Are you looking to better understand how you can improve your organization’s productivity, without compromising your security posture, while enabling governance? Take this learning path, to identify best practices for securing and governing Power Platform environments. We will share tools and templates that can be used to ensure you are productive as you secure and govern the Power Platform.
 
   This learning path can help you prepare for the [Microsoft Certified: Power Platform App Maker Associate certification](https://docs.microsoft.com/learn/certifications/power-platform-app-maker).
 prerequisites: |
