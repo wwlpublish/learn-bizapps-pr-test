@@ -1,8 +1,8 @@
 In this unit, you will
 
-- Understand which scenarios Document automation addresses.
+- Understand which scenarios document automation addresses.
 
-- Learn what you can accomplish with Document automation.
+- Learn what you can accomplish with document automation.
 
 Before you begin this course, we recommend that you get familiar with these products:
 
@@ -16,23 +16,23 @@ Before you begin this course, we recommend that you get familiar with these prod
 
 - [Overview of form processing model](https://docs.microsoft.com/ai-builder/form-processing-model-overview) documentation.
 
-## What Document automation is
+## What document automation is
 
 Thanks to automation solutions and AI, organizations can accelerate and optimize the processing of documents to save humans from repetitive, low value, and error prone tasks. This applies to any kind of printed or digital form that must be reviewed, have data extracted from it, and be processed.
 
 Automating the processing of documents requires a complete solution. The Power Platform enables you to build a rich and robust document automation solution using Power Automate to orchestrate the overall process, AI Builder to bring the Intelligence required to efficiently extract information from documents, Power Apps to allow users to manually review and approve documents, and Dataverse to manage the document queue and store all the data, files, and configuration required.
 
-Starting from a blank page can be challenging when designing such a complex system. This Document automation solution is a reference implementation that provides a functional end-to-end solution that is ready to install and supports a common processing pattern: 
+Starting from a blank page can be challenging when designing such a complex system. This document automation solution is a reference implementation that provides a functional end-to-end solution that is ready to install and supports a common processing pattern: 
 
 - Receiving documents from a service mailbox.
 
 - Automatically extracting data from these documents.
 
-- Exporting the results to a target system like accounting, HR or CRM. 
+- Exporting the results to a target system like accounting, HR or CRM.
 
 Because of compliance rules or because AI doesn't always have 100% accuracy, there's a need to include a "human in the loop" review in this processing.
 
-Document automation provides this standard end-to-end solution and includes the following components: 
+Document automation provides this standard end-to-end solution and includes the following components:
 
 1. Manage documents received in emails.
 
@@ -43,9 +43,9 @@ Document automation provides this standard end-to-end solution and includes the 
 > [!div class="mx-imgBorder"]
 > [![Document automation consists of automatically storing documents and sending them for processing in Power Automate, processing documents in AI Builder, and reviewing processed documents in Power Apps.](../media/1-document-automation.png)](../media/1-document-automation.png#lightbox)
 
-This Document automation functionality is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](https://docs.microsoft.com/power-platform/admin/environments-overview)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the "Document automation base kit."
+This document automation functionality is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](https://docs.microsoft.com/power-platform/admin/environments-overview)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the "document automation base kit."
 
-## What Document automation includes
+## What document automation includes
 
 The received documents go through the following steps:
 
@@ -129,7 +129,7 @@ The received documents go through the following steps:
 
 The documents and extracted data that are in the "validated" state are ready to be exported to external systems like accounting, HR, or CRM.
 
-## How to use Document automation
+## How to use document automation
 
 Document automation is a reference unmanaged solution. Users are free to use and update the components of this solution to adapt it to their business and system specifics.
 
@@ -143,4 +143,4 @@ To use this solution, you need the following licenses:
 
 - AI Builder capacity based on the volume of document processed per month. The [AI Builder calculator](https://flow.microsoft.com/ai-builder-calculator/) allows you to estimate the capacity that is right for you.
 
-Now you have an understanding of which scenarios the Document automation base kit can help you with in automating the processing of your documents.
+Now you have an understanding of which scenarios the document automation base kit can help you with in automating the processing of your documents.

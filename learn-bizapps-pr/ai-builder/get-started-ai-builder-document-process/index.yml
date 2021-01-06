@@ -1,21 +1,21 @@
 ### YamlMime:Module 
 uid: learn-bizapps.get-started-ai-builder-document-process 
 metadata: 
- title: Get started with AI Builder Document Processing Automation
- description: Learn about Document automation, how to install, configure and use it.
+ title: Get started with AI Builder document automation
+ description: Learn about document automation, how to install, configure and use it.
  ms.date: 01/31/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-ai-builder  
-title: Get started with AI Builder Document Processing Automation
+title: Get started with AI Builder document automation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn about Document automation, how to install, configure and use it.
+  Learn about document automation, how to install, configure and use it.
 abstract: |  
     In this module, you will: 
-    - Understand which scenarios are addressed by Document automation.
-    - Learn what you can accomplish with Document automation.
+    - Understand which scenarios are addressed by document automation.
+    - Learn what you can accomplish with document automation.
 prerequisites: none
 iconUrl: /learn/achievements/get-started-ai-builder-document-process.svg  
 levels:  
