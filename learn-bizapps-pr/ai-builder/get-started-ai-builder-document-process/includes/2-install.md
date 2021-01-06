@@ -59,7 +59,7 @@ The flows run with the user credentials and data connections of the user who ins
 
 To install and configure the Document automation solution, you must follow these steps:
 
-1. Go to Power Automate and navigate to the AI Builder > document automation page.
+1. Go to Power Automate and navigate to the AI Builder > [Document automation page](https://flow.microsoft.com/manage/aibuilder/documentautomation).
 
 1. Select the **Select** button.
 
