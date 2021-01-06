@@ -1,12 +1,12 @@
 In this unit, you will
 
-- Understand how to install the Document automation base kit.
+- Understand how to install the document automation base kit.
 
 - Learn what key components are installed.
 
 - Learn how to configure the connection to Outlook and Dataverse.
 
-The person installing the Document automation solution should:
+The person installing the document automation solution should:
 
 - Have good knowledge of Power Platform concepts (at least Power Automate connections and Dataverse).
 
@@ -14,7 +14,7 @@ The person installing the Document automation solution should:
 
 - Own the connection to the Outlook service mailbox that will be used to receive the documents.
 
-Power Users or Administrators are usually a good fit for this task.
+Makers or Administrators are usually a good fit for this task.
 
 The following items will be installed with this package:
 
@@ -57,7 +57,7 @@ The flows run with the user credentials and data connections of the user who ins
 
 ## Install the solution
 
-To install and configure the Document automation solution, you must follow these steps:
+To install and configure the document automation solution, you must follow these steps:
 
 1. Go to Power Automate and navigate to the AI Builder > [Document automation page](https://flow.microsoft.com/manage/aibuilder/documentautomation).
 
@@ -111,4 +111,4 @@ Your document automation solution is now installed but is not yet activated. To 
 
 1. Repeat steps 1-10 for the "Document Automation Processor" and "Document Automation Validator" flows.
 
-You have successfully installed the Document automation base kit and are ready to configure it.
+You have successfully installed the document automation base kit and are ready to configure it.

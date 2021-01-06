@@ -14,9 +14,9 @@ The targeted person for configuring roles and permissions should:
 
 - Have good knowledge of the Power Platform's role-based access control.
 
-Power users are usually a good fit for this task.
+Makers are usually a good fit for this task.
 
-The Document automation starter kit provides a basic implementation of role-based access control allowing you to control features available to each persona described in the previous unit, the manual reviewer, and the process owner.
+The document automation starter kit provides a basic implementation of role-based access control allowing you to control features available to each persona described in the previous unit, the manual reviewer, and the process owner.
 
 The features available in the validation application by each persona are summarized in the table.
 
@@ -33,7 +33,7 @@ The features available in the validation application by each persona are summari
 |     Validate a   document                                   |     X                                                                       |     X                |
 |     Delete a   document                                     |                                                                             |     X                |
 
-\*When someone opens a processed document, he automatically assigns it to himself. Other validators will no longer see this document in the list and would get an error if they tried to update it.
+*When someone opens a processed document, he automatically assigns it to himself. Other validators will no longer see this document in the list and would get an error if they tried to update it.
 
 > [!NOTE]
 > If your company does not need to have role-based access control, you can just assign the "System customizer" role to everybody.
@@ -72,7 +72,7 @@ The next step is to create a form processing model that will extract the data fr
 Follow the module [Get started with Form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/) to learn how to make it.
 
 > [!TIP]
-> To create an AI Builder model, you need at least 5 samples of documents. If your suppliers send documents with various layouts, you should consider creating one collection per document type in the model. 
+> To create an AI Builder model, you need at least 5 samples of documents. If your suppliers send documents with various layouts, you should consider creating one collection per document type in the model.
 
 ## Configuring the model to use
 
@@ -84,7 +84,7 @@ The targeted person for configuring providers should:
 
 - Have good knowledge of AI Builder including building a Form Processing model.
 
-Power users are usually a good fit for this task.
+Makers are usually a good fit for this task.
 
 Once the model is created, you can use it in the pipeline.
 
@@ -120,4 +120,4 @@ Once the model is created, you can use it in the pipeline.
     > [!div class="mx-imgBorder"]
     > [![Configuration saved for Document Processing.](../media/3-document-process.png)](../media/3-document-process.png#lightbox)
 
-You have successfully understood how the Document automation base kit allows you to define different security roles and how it must be configured to process your documents.
+You have successfully understood how the document automation base kit allows you to define different security roles and how it must be configured to process your documents.

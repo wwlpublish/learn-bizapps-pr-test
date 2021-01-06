@@ -20,7 +20,7 @@ The targeted person for monitoring and reviewing documents should:
 
 Business users are usually a good fit for this task.
 
-1. When launching the **Document Automation Application**, validators will see only the **Processed** documents. You may also notice that the **Configuration** tab is hidden so only power users can change the model to use.
+1. When launching the **Document Automation Application**, validators will see only the **Processed** documents. You may also notice that the **Configuration** tab is hidden so only Makers can change the model to use.
 
    > [!div class="mx-imgBorder"]
    > [![List of documents for review (empty).](../media/4-documents.png)](../media/4-documents.png#lightbox)
@@ -35,7 +35,7 @@ Business users are usually a good fit for this task.
    > [!div class="mx-imgBorder"]
    > [![Manual review of invoice image showing extracted data for validation.](../media/4-validate.png)](../media/4-validate.png#lightbox)
 
-1. The Power user has access to all documents including the ones in error and validated status.
+1. The Maker has access to all documents including the ones in error and validated status.
 
    > [!div class="mx-imgBorder"]
    > [![List of documents including those with Validated or Invalid Document status.](../media/4-power-user.png)](../media/4-power-user.png#lightbox)
