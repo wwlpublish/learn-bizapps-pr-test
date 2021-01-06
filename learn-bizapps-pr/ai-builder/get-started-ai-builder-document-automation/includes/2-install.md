@@ -109,6 +109,6 @@ Your document automation solution is now installed but is not yet activated. To 
 
     The document Automation Email Importer flow is now configured and activated to receive documents by email.
 
-1. Repeat steps 1-10 for the "Document Automation Processor" and "Document Automation Validator" flows.
+1. Repeat steps 1-7 for the "Document Automation Processor" and "Document Automation Validator" flows.
 
 You have successfully installed the document automation base kit and are ready to configure it.
