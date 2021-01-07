@@ -73,6 +73,13 @@ To install and configure the document automation solution, you must follow these
 
 1. You are redirected to the Power Platform admin center. Accept the terms of service, then select **Install**.
 
+1. Return to the wizard and wait five to ten minutes for the installation to complete.
+
+    > [!div class="mx-imgBorder"]
+    > [![Custom documents solution wizard showing the "solution installed" message.](../media/2-wizard.png)](../media/2-wizard.png#lightbox)
+
+## Configure Power Automate flows
+
 Your document automation solution is now installed but is not yet activated. To finalize the installation and activate your document solution, you need to configure the data connections and turn on the flows used by the solution. We will start by configuring and activating the flow that captures documents to process.
 
 1. Select the **Document automation base kit**.
