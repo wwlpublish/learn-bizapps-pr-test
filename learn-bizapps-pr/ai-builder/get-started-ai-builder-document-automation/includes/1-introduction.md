@@ -131,7 +131,7 @@ The documents and extracted data that are in the "validated" state are ready to 
 
 ## How to use document automation
 
-Document automation is a reference unmanaged solution. Users are free to use and update the components of this solution to adapt it to their business and system specifics.
+Document automation is a reference managed solution. Users are free to use and update the components of this solution to adapt it to their business and system specifics.
 
 To use this solution, you need the following licenses:
 
@@ -143,4 +143,4 @@ To use this solution, you need the following licenses:
 
 - AI Builder capacity based on the volume of document processed per month. The [AI Builder calculator](https://flow.microsoft.com/ai-builder-calculator/) allows you to estimate the capacity that is right for you.
 
-Now you have an understanding of which scenarios the document automation base kit can help you with in automating the processing of your documents.
+Now you have an understanding of which scenarios the "Document automation base kit" can help you with in automating the processing of your documents.

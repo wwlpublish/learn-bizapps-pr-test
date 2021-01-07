@@ -1,5 +1,5 @@
 ### YamlMime:Module 
-uid: learn-bizapps.get-started-ai-builder-document-process 
+uid: learn-bizapps.get-started-ai-builder-document-automation 
 metadata: 
  title: Get started with AI Builder document automation
  description: Learn about document automation, how to install, configure and use it.
@@ -17,7 +17,7 @@ abstract: |
     - Understand which scenarios are addressed by document automation.
     - Learn what you can accomplish with document automation.
 prerequisites: none
-iconUrl: /learn/achievements/get-started-ai-builder-document-process.svg  
+iconUrl: /learn/achievements/get-started-ai-builder-document-automation.svg  
 levels:  
 - beginner   
 roles:  
@@ -27,11 +27,11 @@ products:
 - power-platform
 - power-automate
 units: 
-- learn-bizapps.get-started-ai-builder-document-process.1-introduction 
-- learn-bizapps.get-started-ai-builder-document-process.2-install 
-- learn-bizapps.get-started-ai-builder-document-process.3-configure 
-- learn-bizapps.get-started-ai-builder-document-process.4-monitor 
-- learn-bizapps.get-started-ai-builder-document-process.5-check 
-- learn-bizapps.get-started-ai-builder-document-process.6-summary 
+- learn-bizapps.get-started-ai-builder-document-automation.1-introduction 
+- learn-bizapps.get-started-ai-builder-document-automation.2-install 
+- learn-bizapps.get-started-ai-builder-document-automation.3-configure 
+- learn-bizapps.get-started-ai-builder-document-automation.4-monitor 
+- learn-bizapps.get-started-ai-builder-document-automation.5-check 
+- learn-bizapps.get-started-ai-builder-document-automation.6-summary 
 badge: 
-  uid: learn-bizapps.get-started-ai-builder-document-process.badge 
+  uid: learn-bizapps.get-started-ai-builder-document-automation.badge 
