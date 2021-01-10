@@ -112,7 +112,7 @@ If the search string is not known beforehand, search for a regular expression. S
 ![parse text properties regex](..\media\parse-text-properties-regex.png)
 
 
-To find a string in a text and replace it with another string or character, use the **Replace text** action. The **Text to parse**, **Text to find**, and **Replacement text** are required inputs. Similar to the **Parse text** action, the configure the search to be case-insensitive, or to contain regular expressions. Escape sequences enable the user to add characters, such as a tab or a new line, into the replacement text.
+To find a string in a text and replace it with another string or character, use the **Replace text** action. The **Text to parse**, **Text to find**, and **Replacement text** are required inputs. Similar to the **Parse text** action, in the **Replace text** action, configure the search to be case-insensitive, or to contain regular expressions. Escape sequences enable the user to add characters, such as a tab or a new line, into the replacement text.
  
 ![replace text action properties](..\media\replace-text-action-properties.png)
 
