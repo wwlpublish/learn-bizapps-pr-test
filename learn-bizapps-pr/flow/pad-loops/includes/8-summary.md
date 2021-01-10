@@ -1,4 +1,4 @@
-There are three kinds of loops in WinAutomation:
+There are three kinds of loops in Power Automate Desktop:
 * Simple loops, used to perform a predetermined number of repetitions, and in cases where a loop index should be used
 * Loop condition, used when the number of repetitions required is not known, but a condition should be satisfied before proceeding
 * For Each loop, used to iterate through the items of a list or table

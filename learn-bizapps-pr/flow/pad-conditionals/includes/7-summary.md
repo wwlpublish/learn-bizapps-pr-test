@@ -1,4 +1,4 @@
-Conditional actions allow you to modify flow actions at runtime, based on information available in the environment. They are divided into two major categories in WinAutomation:
+Conditional actions allow you to modify flow actions at runtime, based on information available in the environment. They are divided into two major categories:
 * The If group of actions
 * The Switch group of actions
 
