@@ -10,7 +10,7 @@ The person installing the document automation solution should:
 
 - Have good knowledge of Power Platform concepts (at least Power Automate connections and Dataverse).
 
-- Have enough privileges to configure Power Automate connections and add environment variables.
+- Have Power Platform privileges to configure Power Automate connections and add environment variables.
 
 - Own the connection to the Outlook service mailbox that will be used to receive the documents.
 
