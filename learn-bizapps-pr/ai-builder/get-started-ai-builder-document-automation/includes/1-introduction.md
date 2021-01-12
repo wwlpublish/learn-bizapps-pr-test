@@ -14,11 +14,11 @@ Before you begin this course, we recommend that you get familiar with these prod
 
 - [Get started with Form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/) learn module.
 
-- [Overview of form processing model](https://docs.microsoft.com/ai-builder/form-processing-model-overview) documentation.
+- [Overview of AI Builder form processing model](https://docs.microsoft.com/ai-builder/form-processing-model-overview) documentation.
 
 ## What document automation is
 
-Thanks to automation solutions and AI, organizations can accelerate and optimize the processing of documents to save humans from repetitive, low value, and error prone tasks. This applies to any kind of printed or digital form that must be reviewed, have data extracted from it, and be processed.
+Thanks to automation solutions and AI, organizations can accelerate and optimize the processing of documents to free humans from repetitive, low value, and error prone tasks. This applies to any kind of printed or digital form that must be reviewed, have data extracted from it, and be processed.
 
 Automating the processing of documents requires a complete solution. The Power Platform enables you to build a rich and robust document automation solution using Power Automate to orchestrate the overall process, AI Builder to bring the Intelligence required to efficiently extract information from documents, Power Apps to allow users to manually review and approve documents, and Dataverse to manage the document queue and store all the data, files, and configuration required.
 
@@ -30,102 +30,108 @@ Starting from a blank page can be challenging when designing such a complex syst
 
 - Exporting the results to a target system like accounting, HR or CRM.
 
-Because of compliance rules or because AI doesn't always have 100% accuracy, there's a need to include a "human in the loop" review in this processing.
+Because of things like compliance rules or the need to evaluate the accuracy of AI, there's a need to include a "human in the loop" manual review in this process.
 
-Document automation provides this standard end-to-end solution and includes the following components:
+Document automation provides this standard end-to-end solution. It includes the following components:
 
-1. Manage documents received in emails.
+- Manage documents received in emails.
 
-1. Use the AI Builder form processing solution to extract data from those documents.
+- Use the AI Builder form processing solution to extract data from those documents.
 
-1. Process the data extracted and allow users to review and approve data through a central manual validation application.
+- Process the data extracted and allow users to review and approve data through a central manual validation application.
 
 > [!div class="mx-imgBorder"]
 > [![Document automation consists of automatically storing documents and sending them for processing in Power Automate, processing documents in AI Builder, and reviewing processed documents in Power Apps.](../media/1-document-automation.png)](../media/1-document-automation.png#lightbox)
 
-This document automation functionality is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](https://docs.microsoft.com/power-platform/admin/environments-overview)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the "document automation base kit."
+The document automation tool is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](https://docs.microsoft.com/power-platform/admin/environments-overview)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the "document automation base kit."
 
 ## What document automation includes
 
 The received documents go through the following steps:
 
-1. Importing documents to process.
+### Document Automation Email Importer
 
-    This solution is configured to work with documents sent via email. If you receive documents in a different manner, you can customize the import flow to retrieve documents from a SharePoint folder or cloud storage for example. You can find more information about customization of the import mechanism in the next learning modules.
+This component imports documents to process.
 
-    The Document Automation Email importer does the following:
+This solution is configured to work with documents sent via email. If you receive documents in a different manner, you can customize the import flow to retrieve documents from a SharePoint folder or cloud storage for example. You can find more information about customization of the import mechanism in the next learning modules.
 
-    - It triggers when mail is received at a specific Outlook email address with an attachment. You can filter on senders or a specific word in the title. In the following module, you will learn how to configure this trigger to best fit how you receive documents.
+The Document Automation Email Importer does the following:
 
-    - It adds the document to the document queue managed in Dataverse.
+  - It triggers when mail is received at a specific Outlook email address with an attachment. You can filter on senders or a specific word in the title. In the following module, you will learn how to configure this trigger to best fit how you receive documents.
 
-    - It stores the document file in Dataverse.
+  - It adds the document to the document queue managed in Dataverse.
 
-    - The document's state is set to "extracting data." This is an indication that the document was received and is ready to be processed with AI to extract the relevant information.
+  - It stores the document file in Dataverse.
 
-1. Extracting data from the document using AI.
+  - The document's state is set to "extracting data." This is an indication that the document was received and is ready to be processed with AI to extract the relevant information.
 
-    The Document processor flow extracts data from the document using an AI Builder model.
+### Document processor Power Automate flow
 
-    This flow does the following:
+The document processor flow extracts data from the document using an AI Builder model.
 
-    - It gets triggered after a document has been received and stored in the document queue (when it is in the "extracting data" state).
+This flow does the following:
 
-    - It retrieves the documents to process and runs an AI Builder form processing model on it to retrieve the relevant data. You can build your own AI Builder model to work with your unique document layout and retrieve the data that you need. More about this configuration is in the following learn modules.
+  - It is triggered when a document is received and stored in the document queue, and is in the "extracting data" state.
 
-    - It stores the data extracted into a Dataverse table so that further data checks and processing can be performed on the data before it's exported or used in another system.
+  - It retrieves each document and runs an AI Builder form processing model on it to retrieve the relevant data. You can build your own AI Builder model for your unique document layout. More about this configuration is in the following learn modules.
 
-    - It sets the document's state to "validating data" to indicate that the data has been extracted and is ready to be processed with the business logic and rules you need to apply.
+  - It stores the extracted data in a Dataverse table so that further data checks and processing can be performed before it's exported or used in another system.
 
-1. Apply business rules and determine if the document requires manual validation.
+  - It sets the document's state to "validating data" to indicate that the data has been extracted and is ready to be processed with the business logic and rules that you need to apply.
 
-    The Document Automation Validator is a placeholder for you to add the business logic that you'd like to apply to the data. For example, asking for manual validation if one of the data fields hasn't been extracted or if the confidence level is below 80%, or auto approving the data if the \$ amount is below a certain amount and sending the others for manual approval.
+### Document automation validator
 
-    This flow is not configured with any rules by default and sends all documents for manual review.
+This helps apply business rules and determine if the document requires manual validation.
 
-    This flow does the following:
+The Document Automation Validator is a placeholder where you can add the business logic that you'd like to apply to the data. For example, you could ask for manual validation if one of the data fields hasn't been extracted or if the confidence level is below 80%; or you could auto approve the data when the \$ amount is below a certain value, while sending the others for manual approval.
 
-    - It gets triggered after a document has been processed and extracted data stored in Dataverse (when it is in the "validating data" state).
+This flow is not configured with any rules by default and sends all documents for manual review.
 
-    - It sets the document's state to "manual review" to indicate that the data extracted is ready to be reviewed and approved by the someone.
+This flow does the following:
 
-1. Manually reviewing and approving the document.
+  - It is triggered after a document has been processed and extracted data stored in Dataverse, when it is in the "validating data" state.
 
-    The Document Automation Application is the central place where users can visualize all the documents that are in the pipeline, their states, and review and approve the data extracted when required. This application also includes a section for the owner of the solution to configure the process. This application is built with Power Apps, which allows for easy customization.
+  - It sets the document's state to "manual review" to indicate that the data extracted is ready to be reviewed and approved by the someone.
 
-    The Document Automation Application allows users to do the following:
+### Document Automation Application
 
-    For manual reviewer:
+This helps with manually reviewing and approving documents.
 
-    - List all documents that are ready for review.
+The Document Automation Application is the central place where users can visualize all the documents that are in the pipeline, view their states, and review and approve the data extracted when required. This application also includes a section for the owner of the solution to configure the process. This application is built in Power Apps, which allows for easy customization.
 
-    - Open one of the documents to visualize side by side the document and the data extracted.
+The Document Automation Application allows users to do the following:
 
-    - Edit and/or complete the data extracted to check for missing data fields or errors.
+For manual reviewer:
 
-    - Approve the document and set the state to "Validated."
+  - List all documents that are ready for review.
 
-    For process owners
+  - Open a document to view the document and the extracted data side by side.
 
-    - Configure the AI Builder model used to process documents.
+  - Edit or complete the data extracted with missing data fields or errors.
 
-    - List all documents that have been processed.
+  - Approve the document and set the state to "Validated."
 
-    - Filter based on document states:
+For process owners
 
-      - Invalid Document when not a PDF, PNG or JPEG.
+  - Configure the AI Builder model used to process documents.
 
-      - Downloading document when email attachment is being retrieved and store in Dataverse.
+  - List all documents that have been processed.
 
-      - Extracting Data when AI is extracting data from the document.
+  - Filter based on document states:
 
-      - Validating when validation logic is being performed.
+    - **Invalid document** when not a PDF, PNG or JPEG.
 
-      - Manual review when the document is ready to be reviewed by a reviewer.
+    - **Downloading document** when email attachment is being retrieved and store in Dataverse.
 
-      - Validated when the document has been successfully reviewed.
+    - **Extracting data** when the AI model is extracting data from the document.
 
-    It is possible to configure who is a reviewer and/or an owner in your team.
+    - **Validating** when validation logic is being performed.
+
+    - **Manual review** when the document is ready to be reviewed by a reviewer.
+
+    - **Validated** when the document has been successfully reviewed.
+
+It is possible to configure who is a reviewer and/or an owner in your team.
 
 The documents and extracted data that are in the "validated" state are ready to be exported to external systems like accounting, HR, or CRM.
 
@@ -141,6 +147,6 @@ To use this solution, you need the following licenses:
 
 - A Power Apps license for the process owner to configure the process.
 
-- AI Builder capacity based on the volume of document processed per month. The [AI Builder calculator](https://flow.microsoft.com/ai-builder-calculator/) allows you to estimate the capacity that is right for you.
+- AI Builder capacity based on the volume of document processed per month. The [AI Builder calculator](https://flow.microsoft.com/ai-builder-calculator/) helps you to estimate the capacity that is right for you.
 
 Now you have an understanding of which scenarios the "Document automation base kit" can help you with in automating the processing of your documents.
