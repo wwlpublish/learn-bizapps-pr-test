@@ -42,7 +42,7 @@ Select See Environment Variables to set the values as described in the following
 
 |     Name                             |     Current value                                                                                                                                                                                                              |
 |--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|     Auto Delete   On Archive         |     Determines   whether apps are deleted when they're archived in the following flow: Admin |   App Archive and Clean Up - Check Approvals and Archive.     Value must be   Yes or No. A default value of No is provided.    |
+|     Auto Delete   On Archive         |     Determines   whether apps are deleted when they're archived in the following flow: Admin | App Archive and Clean Up - Check Approvals and Archive.     Value must be   Yes or No. A default value of No is provided.    |
 |     Developer   Compliance Center    |     Navigate to   the details page of the Developer Compliance Center (canvas app) included   with this solution and copy the web link (to launch the app) and paste it   into this variable.                                  |
 |     Production Environment           |     Determines if   the environment is Production or Dev/Test. True (the default) will mean that   the approvals are sent to app/flow owners. False will send those approvals to   the admin email.                            |
 ## Initialize flow approval tables in your environment
