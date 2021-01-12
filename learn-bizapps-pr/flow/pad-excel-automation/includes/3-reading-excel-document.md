@@ -16,7 +16,7 @@ To extract a table of data, set **Retrieve** to the **Values from a range of cel
 
 
 
-Variables store cell contents based on their type. For example, a date is stored as a **Datetime** variable. To store all data as text, select the **Get cell contents as text** option. When selecting to read values from a range of cells, select **First line of range contains column names** to ignore the first row. Change these properties in the in the **Advanced** section.
+Variables store cell contents based on their type. For example, a date is stored as a **Datetime** variable. To store all data as text, select the **Get cell contents as text** option. When selecting to read values from a range of cells, select **First line of range contains column names** to ignore the first row. To ignore the type of data in the cell and retrieve the contents as text, select **Get Cell Contents as Text**. Change these properties in the in the **Advanced** section.
   
 
 
