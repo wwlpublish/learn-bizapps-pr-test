@@ -87,7 +87,7 @@ With Power BI reports, you can get a holistic view of Dataverse data with visual
 
 This installation process is required for all non-core components in the starter kit to work. You'll need to create an environment in which to set up the CoE.
 
-1.  Download the CoE Starter Kit compressed file (aka.ms/CoeStarterKitDownload).
+1.  Download the [CoE Starter Kit compressed file](aka.ms/CoeStarterKitDownload/?azure-portal=true).
 
 	> [!IMPORTANT]
 	> Extract the zip file after downloading and before moving on to the next step. The CoE Starter Kit compressed file contains all solution components as well as non-solution aware components that make up the CoE Starter Kit.

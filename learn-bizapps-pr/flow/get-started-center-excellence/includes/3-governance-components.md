@@ -59,7 +59,7 @@ The following flows use the built-in Approval actions of Power automate. In the 
 
 -   Flow Archive and Clean Up - Check Approval) Collect audit log data
 
-1.  Go to [flow.microsoft.com](flow.microsoft.com/?azure-portal=true).
+1.  Go to [flow.microsoft.com](https://flow.microsoft.com/?azure-portal=true).
 
 1.  Select + New > Instant (From Blank).
 
