@@ -87,7 +87,7 @@ With Power BI reports, you can get a holistic view of Dataverse data with visual
 
 This installation process is required for all non-core components in the starter kit to work. You'll need to create an environment in which to set up the CoE.
 
-1.  Download the [CoE Starter Kit compressed file](aka.ms/CoeStarterKitDownload/?azure-portal=true).
+1.  Download the CoE Starter Kit compressed file.
 
 	> [!IMPORTANT]
 	> Extract the zip file after downloading and before moving on to the next step. The CoE Starter Kit compressed file contains all solution components as well as non-solution aware components that make up the CoE Starter Kit.
@@ -283,5 +283,5 @@ Environment variables are used to store application and flow configuration data 
 	|     Power   Automate environment variable    |     For a US   environment: [https://us.flow.microsoft.com/manage/environments/](https://us.flow.microsoft.com/manage/environments/?azure-portal=true)    For an EMEA environment: [https://emea.flow.microsoft.com/manage/environments/](https://emea.flow.microsoft.com/manage/environments/?azure-portal=true)     For a GCC   environment: [https://gov.flow.microsoft.us/manage/environments/](https://gov.flow.microsoft.us/manage/environments/?azure-portal=true)          |
 	|     Admin eMail                              |     Email address   used in flows to send notifications to admins; this should be either your   email address or a distribution list                                                                                                                     |
 	|     eMail Header   Style                     |     CSS style   used to format emails that are sent to admins and makers. A default value is   provided                                                                                                                                                  |
-	|     Also Delete   from CoE                   |     When the   Admin | Sync Template v2 (Check Deleted) flow is run, this denotes whether   you want the items deleted from CoE (Yes, which is the default) or just   marked as deleted (No).                                                           |
+	|     Also Delete   from CoE                   |     When the   Admin \| Sync Template v2 (Check Deleted) flow is run, this denotes whether   you want the items deleted from CoE (Yes, which is the default) or just   marked as deleted (No).                                                           |
 
