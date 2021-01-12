@@ -1,0 +1,59 @@
+The Microsoft Power Platform Center of Excellence or CoE is a collection of templates that has components and tools that are designed to help you get started with developing a strategy for adopting and supporting Microsoft Power Platform, with a focus on Power Apps and Power Automate. The CoE is an extension of the Admin center falling into the templates and customizations category.
+
+A CoE is designed to drive innovation and improvement. As a central function it can break down geographic and organizational silos to bring together like-minded people with similar business goals to share knowledge and success, while at the same time providing standards, consistency, and governance to the organization. In summary, a CoE can be a powerful way for an organization to align around business goals rather than individual department metrics.
+
+This learning document focuses on getting started with the initial configuring of the CoE kit in your tenant focusing on the core setup components, governance components, audit log data, and the Power BI report.
+
+Requirements:
+
+-   Admin account:
+
+    -   Power Platform service admin, global tenant admin, or Dynamics 365 service admin for access to all tenant resources through the Power Apps APIs.
+
+    -   This solution will work for environment admins, but the view will be restricted to only the environments an environment admin has access to.
+
+    -   This account must be email enabled.
+
+-   Premium licenses are required to use the CoE Starter Kit. Depending on what components you will use, your organization size and the existing licenses available in your organization, you will require either a Power Apps per user or per app or Power Automate per user or per flow license or a combination of these licenses.
+
+-   Environment with a Dataverse instance, where the user installing the solution has the System Administrator security role.
+
+-   The environment must have a data loss prevention (DLP) policy that allows:
+
+    -   [Dataverse](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true) 
+
+    -   [Dataverse (current environment)](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true) 
+
+    -   [Office 365 Users](https://docs.microsoft.com/connectors/office365users/?azure-portal=true), 
+
+    -   [Power Platform for Admins](https://docs.microsoft.com/connectors/powerplatformforadmins/?azure-portal=true)
+
+    -   [Power Automate Management](https://docs.microsoft.com/connectors/flowmanagement/?azure-portal=true) 
+
+    -   [Office 365 Outlook](https://docs.microsoft.com/connectors/office365/?azure-portal=true) 
+
+    -   [Power Apps for Admins](https://docs.microsoft.com/connectors/powerappsforadmins/?azure-portal=true) 
+
+    -   [Power Apps for Makers](https://docs.microsoft.com/connectors/powerappsforappmakers/?azure-portal=true) 
+
+    -   [SharePoint](https://docs.microsoft.com/connectors/sharepointonline/?azure-portal=true) 
+
+    -   [Azure Active Directory (Azure AD)](https://docs.microsoft.com/connectors/azuread/?azure-portal=true) 
+
+    -   [Power Automate for Admins](https://docs.microsoft.com/connectors/microsoftflowforadmins/?azure-portal=true) 
+
+    -   [RSS](https://docs.microsoft.com/connectors/rss/?azure-portal=true) 
+
+    -   [Office 365 Groups](https://docs.microsoft.com/connectors/office365groups/?azure-portal=true) 
+
+    -   [Approvals](https://docs.microsoft.com/connectors/approvals/?azure-portal=true) and HTTP to be used together
+
+> Those connectors must be in the business data--only bucket of the DLP policy for this environment. If you're using the [audit log](https://docs.microsoft.com/power-platform/guidance/coe/setup-auditlog/?azure-portal=true) solution, the custom connector used to connect to the Microsoft 365 audit log also must be included in your business data--only bucket.
+
+-   If multiple DLP policies apply to the same environment, either all of them must have the connectors the CoE Starter Kit uses in business data only or, if you have a policy that applies to all environments that you don't want to change, you can exclude the CoE environment from that policy. More information: [DLP policy scope](https://docs.microsoft.com/power-platform/admin/wp-data-loss-prevention?azure-portal=true#policy-scope)
+
+-   You've downloaded the CoE solution and CoE Power BI dashboard files to your device. The entire content package can be downloaded directly at [aka.ms/CoEStarterKitDownload](https://aka.ms/CoEStarterKitDownload/?azure-portal=true).
+
+> [!NOTE]
+> The Admin | Sync Template flows crawl through all the resources stored in Microsoft Power Platform and make a copy of details in each resource (for example, apps and flows) to Dataverse (table definitions are provided in this solution). All data displayed in most of the starter kit components must be in Dataverse, which means that the sync template must be configured for everything else to work. The sync flows run daily overnight. When you first set up the CoE Starter Kit, you can manually start the Admin | Sync Template v2 flow, which will start the process of crawling and storing the information in Dataverse.
+
