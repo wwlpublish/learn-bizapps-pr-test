@@ -16,17 +16,17 @@ The targeted person for configuring roles and permissions should:
 
 Makers are usually a good fit for this task.
 
-The document automation starter kit provides a basic implementation of role-based access control allowing you to control features available to each persona described in the previous unit, the manual reviewer, and the process owner.
+The **Document automation starter kit** provides a basic implementation of role-based access control allowing you to control features available to each persona described in the previous unit, the manual reviewer, and the process owner.
 
 The features available in the validation application by each persona are summarized in the table.
 
 | | Manual Reviewer | Process Owner |
 |---|---|---|
 |     Controlling Dataverse role                              |     Document Automation Reviewer                                            | System Customizer    |
-|     Access the   “Configuration” tab                        |                                                                             |     X                |
+|     Access the   **Configuration** tab                        |                                                                             |     X                |
 |     Configure   the model to use                            |                                                                             |     X                |
-|     Access the   “Documents” tab                            |     X                                                                       |     X                |
-|     View documents                                          |     Only in “Manual Review” state if not yet opened by another reviewer*    |     X                |
+|     Access the   **Documents** tab                            |     X                                                                       |     X                |
+|     View documents                                          |     Only in **Manual Review** state if not yet opened by another reviewer*    |     X                |
 |     Filter   documents list by state                        |                                                                             |     X                |
 |     Open the side-by-side   viewer (file/extracted data)    |     X                                                                       |     X                |
 |     Edit fields                                             |     X                                                                       |     X                |
@@ -36,7 +36,7 @@ The features available in the validation application by each persona are summari
 *When someone opens a processed document, he automatically assigns it to himself. Other validators will no longer see this document in the list and would get an error if they tried to update it.
 
 > [!NOTE]
-> If your company does not need to have role-based access control, you can just assign the "System customizer" role to everybody.
+> If your company does not need to have role-based access control, you can just assign the **System customizer** role to everybody.
 
 ## Configuring roles
 
@@ -67,7 +67,7 @@ The features available in the validation application by each persona are summari
 
 ## Create a form processing model
 
-The next step is to create a form processing model that will extract the data from your document with AI Builder.
+The next step is to create a Form Processing model that will extract the data from your document with AI Builder.
 
 Follow the module [Get started with Form processing in AI Builder](https://docs.microsoft.com/learn/modules/get-started-with-form-processing/) to learn how to make it.
 
@@ -120,4 +120,4 @@ Once the model is created, you can use it in the pipeline.
     > [!div class="mx-imgBorder"]
     > [![Configuration saved for Document Processing.](../media/3-document-process.png)](../media/3-document-process.png#lightbox)
 
-You have successfully understood how the document automation base kit allows you to define different security roles and how it must be configured to process your documents.
+You have successfully understood how the **Document automation base kit** allows you to define different security roles and how it must be configured to process your documents.
