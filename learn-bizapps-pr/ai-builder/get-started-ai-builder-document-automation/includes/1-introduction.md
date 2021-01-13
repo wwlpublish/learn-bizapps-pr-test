@@ -53,9 +53,9 @@ The received documents go through the following steps:
 
 This imports documents to process.
 
-The Document Automation Email Importer is configured to work with documents sent via email. If you receive documents in a different manner, you can customize the import flow to retrieve documents from a SharePoint folder or cloud storage for example. You can find more information about customization of the import mechanism in the next learning modules.
+This flow is configured to work with documents sent via email. If you receive documents in a different manner, you can customize the import flow to retrieve documents from a SharePoint folder or cloud storage for example. You can find more information about customization of the import mechanism in the next learning modules.
 
-The Document Automation Email Importer does the following:
+The "Document Automation Email Importer" does the following:
 
   - It triggers when mail is received at a specific Outlook email address with an attachment. You can filter on senders or a specific word in the title. In the following module, you will learn how to configure this trigger to best fit how you receive documents.
 
@@ -69,7 +69,7 @@ The Document Automation Email Importer does the following:
 
 This extracts data from the document using an AI Builder model.
 
-The Document Processor does the following:
+The "Document Processor" does the following:
 
   - It is triggered when a document is received and stored in the document queue, and is in the "extracting data" state.
 
@@ -83,11 +83,11 @@ The Document Processor does the following:
 
 This helps apply business rules and determine if the document requires manual validation.
 
-The Document Automation Validator is a placeholder where you can add the business logic that you'd like to apply to the data. For example, you could ask for manual validation if one of the data fields hasn't been extracted or if the confidence level is below 80%; or you could auto approve the data when the \$ amount is below a certain value, while sending the others for manual approval.
+This flow is a placeholder where you can add the business logic that you'd like to apply to the data. For example, you could ask for manual validation if one of the data fields hasn't been extracted or if the confidence level is below 80%; or you could auto approve the data when the \$ amount is below a certain value, while sending the others for manual approval.
 
 This flow is not configured with any rules by default and sends all documents for manual review.
 
-This flow does the following:
+The "Document Automation Validator" does the following:
 
   - It is triggered after a document has been processed and extracted data stored in Dataverse, when it is in the "validating data" state.
 
@@ -97,9 +97,9 @@ This flow does the following:
 
 This helps with manually reviewing and approving documents.
 
-The Document Automation Application is the central place where users can visualize all the documents that are in the pipeline, view their states, and review and approve the data extracted when required. This application also includes a section for the owner of the solution to configure the process. This application is built in Power Apps, which allows for easy customization.
+This application is the central place where users can visualize all the documents that are in the pipeline, view their states, and review and approve the data extracted when required. This application also includes a section for the owner of the solution to configure the process. This application is built in Power Apps, which allows for easy customization.
 
-The Document Automation Application allows users to do the following:
+The "Document Automation Application" allows users to do the following:
 
 For manual reviewer:
 
