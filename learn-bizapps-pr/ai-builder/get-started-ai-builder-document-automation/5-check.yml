@@ -13,20 +13,20 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which scenario can the document automation base kit address?
+  - content: Which scenario can the Document automation base kit address?
     choices: 
     - content: Invoice automation
       isCorrect: false 
-      explanation: The document automation base kit addresses invoice automation, purchase order automation, and receipt automation scenarios.
+      explanation: The Document automation base kit addresses invoice automation, purchase order automation, and receipt automation scenarios.
     - content: Purchase order automation
       isCorrect: false 
-      explanation: The document automation base kit addresses invoice automation, purchase order automation, and receipt automation scenarios.
+      explanation: The Document automation base kit addresses invoice automation, purchase order automation, and receipt automation scenarios.
     - content: Receipt automation
       isCorrect: false 
-      explanation: The document automation base kit addresses invoice automation, purchase order automation, and receipt automation scenarios.
+      explanation: The Document automation base kit addresses invoice automation, purchase order automation, and receipt automation scenarios.
     - content: All of the above
       isCorrect: true 
-      explanation: The document automation base kit addresses invoice automation, purchase order automation, and receipt automation scenarios.
+      explanation: The Document automation base kit addresses invoice automation, purchase order automation, and receipt automation scenarios.
   - content: Which licenses are required?
     choices: 
     - content: Power PBI

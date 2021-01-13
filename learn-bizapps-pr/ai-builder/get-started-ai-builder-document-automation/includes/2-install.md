@@ -21,35 +21,35 @@ The following items will be installed with this package:
 > [!div class="mx-imgBorder"]
 > [![Shows items installed with this package.](../media/2-installed-items.png)](../media/2-installed-items.png#lightbox)
 
-- A Power Apps "Document Automation Application" allowing makers to configure the AI model to use for document extraction, and users to track processing of documents and review them.
+- A Power Apps **Document Automation Application** allowing makers to configure the AI model to use for document extraction, and users to track processing of documents and review them.
 
 - Three Power Automate flows
 
-  - "Document Automation Email Importer" that listens to new emails arriving in the service mailbox, extracts any attachments, and creates a new processing request.
+  - **Document Automation Email Importer** that listens to new emails arriving in the service mailbox, extracts any attachments, and creates a new processing request.
 
-  - "Document Automation Processor" that calls the AI Builder model to extract values and store them in Microsoft Dataverse.
+  - **Document Automation Processor** that calls the AI Builder model to extract values and store them in Microsoft Dataverse.
 
-  - "Document Automation Validator" that acts as a placeholder for your business rules and sends documents to the validation application.
+  - **Document Automation Validator** that acts as a placeholder for your business rules and sends documents to the validation application.
 
 - Four Microsoft Dataverse tables
 
-  - "Document Automation Processing" stores document automation requests, files to be processed, and the status of the processing.
+  - **Document Automation Processing** stores document automation requests, files to be processed, and the status of the processing.
 
-  - "Document Automation Data" stores values extracted from the document.
+  - **Document Automation Data** stores values extracted from the document.
 
-  - "Document Automation Configuration" stores information about the model to use.
+  - **Document Automation Configuration** stores information about the model to use.
 
-  - "Document Automation Taxonomy" maps where each model's labels are stored in the "Document Automation Data" table fields.
+  - **Document Automation Taxonomy** maps where each model's labels are stored in the **Document Automation Data** table fields.
 
 - Two Microsoft Dataverse choices
 
-  - "Document Automation Processing Status" with steps of the workflow.
+  - **Document Automation Processing Status** with steps of the workflow.
 
-  - "Document Automation Configuration Status" to indicate that the AI model has been configured.
+  - **Document Automation Configuration Status** to indicate that the AI model has been configured.
 
 To install your document automation solution in one of your environments, you need to go through the following steps:
 
-- Install the "Document automation base kit" solution package.
+- Install the **Document automation base kit** solution package.
 
 - Activate the flows and data connections with your account.
 
@@ -114,8 +114,8 @@ Your document automation solution is now installed but is not yet activated. To 
     > [!div class="mx-imgBorder"]
     > [![Turn on the flow.](../media/2-turn-on.png)](../media/2-turn-on.png#lightbox)
 
-    The document Automation Email Importer flow is now configured and activated to receive documents by email.
+    The **Document Automation Email Importer** flow is now configured and activated to receive documents by email.
 
-1. Repeat steps 1-7 for the "Document Automation Processor" and "Document Automation Validator" flows.
+1. Repeat steps 1-7 for the **Document Automation Processor** and **Document Automation Validator** flows.
 
-You have successfully installed the document automation base kit and are ready to configure it.
+You have successfully installed the **Document automation base kit** and are ready to configure it.
