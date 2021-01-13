@@ -2,7 +2,7 @@
 uid: learn-bizapps.get-started-center-excellence 
 metadata: 
  title: Get started with Microsoft Power Platform Center of Excellence
- description: This module focuses on getting started with the initial configuring of the CoE kit in your tenant focusing on the core setup components, governance components, audit log data and the Power BI report. 
+ description: This module focuses on getting started with the initial configuring of the Microsoft Power Platform Center of Excellence (CoE) kit in your tenant, focusing on the core setup components, governance components, audit log data, and the Microsoft Power BI report. 
  ms.date: 01/31/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,7 +11,7 @@ metadata:
 title: Get started with Microsoft Power Platform Center of Excellence 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module focuses on getting started with the initial configuring of the CoE kit in your tenant focusing on the core setup components, governance components, audit log data and the Power BI report.  
+  This module focuses on getting started with the initial configuring of the Microsoft Power Platform Center of Excellence (CoE) kit in your tenant, focusing on the core setup components, governance components, audit log data, and the Microsoft Power BI report.
 abstract: |  
     In this module, you will: 
     - Set up core components.
