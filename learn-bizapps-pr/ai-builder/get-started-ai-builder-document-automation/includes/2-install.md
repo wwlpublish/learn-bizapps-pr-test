@@ -114,8 +114,8 @@ Your document automation solution is now installed but is not yet activated. To 
     > [!div class="mx-imgBorder"]
     > [![Turn on the flow.](../media/2-turn-on.png)](../media/2-turn-on.png#lightbox)
 
-    The document Automation Email Importer flow is now configured and activated to receive documents by email.
+    The "Document Automation Email Importer" flow is now configured and activated to receive documents by email.
 
 1. Repeat steps 1-7 for the "Document Automation Processor" and "Document Automation Validator" flows.
 
-You have successfully installed the document automation base kit and are ready to configure it.
+You have successfully installed the "Document automation base kit" and are ready to configure it.
