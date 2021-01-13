@@ -43,17 +43,17 @@ Document automation provides this standard end-to-end solution. It includes the 
 > [!div class="mx-imgBorder"]
 > [![Document automation consists of automatically storing documents and sending them for processing in Power Automate, processing documents in AI Builder, and reviewing processed documents in Power Apps.](../media/1-document-automation.png)](../media/1-document-automation.png#lightbox)
 
-The document automation tool is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](https://docs.microsoft.com/power-platform/admin/environments-overview)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the "document automation base kit."
+The document automation tool is a solution that you install in one of your Environments (learn more about environments in [Environments Overview](https://docs.microsoft.com/power-platform/admin/environments-overview)). This solution includes several Power Automate flows, a Power App, and several Dataverse data tables. It's called the "Document automation base kit."
 
 ## What document automation includes
 
 The received documents go through the following steps:
 
-### Document Automation Email Importer
+### Document Automation Email Importer flow
 
-This component imports documents to process.
+This imports documents to process.
 
-This solution is configured to work with documents sent via email. If you receive documents in a different manner, you can customize the import flow to retrieve documents from a SharePoint folder or cloud storage for example. You can find more information about customization of the import mechanism in the next learning modules.
+The Document Automation Email Importer is configured to work with documents sent via email. If you receive documents in a different manner, you can customize the import flow to retrieve documents from a SharePoint folder or cloud storage for example. You can find more information about customization of the import mechanism in the next learning modules.
 
 The Document Automation Email Importer does the following:
 
@@ -65,11 +65,11 @@ The Document Automation Email Importer does the following:
 
   - The document's state is set to "extracting data." This is an indication that the document was received and is ready to be processed with AI to extract the relevant information.
 
-### Document processor Power Automate flow
+### Document Processor flow
 
-The document processor flow extracts data from the document using an AI Builder model.
+This extracts data from the document using an AI Builder model.
 
-This flow does the following:
+The Document Processor does the following:
 
   - It is triggered when a document is received and stored in the document queue, and is in the "extracting data" state.
 
@@ -79,7 +79,7 @@ This flow does the following:
 
   - It sets the document's state to "validating data" to indicate that the data has been extracted and is ready to be processed with the business logic and rules that you need to apply.
 
-### Document automation validator
+### Document Automation Validator flow
 
 This helps apply business rules and determine if the document requires manual validation.
 
@@ -141,9 +141,9 @@ Document automation is a reference managed solution. Users are free to use and u
 
 To use this solution, you need the following licenses:
 
-- One Power Automate license to run all the flows that orchestrate the process.
+- One [Power Automate license](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus/) to run all the flows that orchestrate the process.
 
-- A Power Apps license for any user who must manually review and approve documents.
+- A [Power Apps license](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus/) for any user who must manually review and approve documents.
 
 - A Power Apps license for the process owner to configure the process.
 
