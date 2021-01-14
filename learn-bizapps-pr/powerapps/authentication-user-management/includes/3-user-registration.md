@@ -55,14 +55,14 @@ When the contact receives the email invitation and follows the URL, they are dir
 On this page, they can select the **I have an existing account** option, which opens some automation opportunities where the existing portal users can be sent an invitation code. After the code has been accepted and an existing account is used, you can run a workflow that could, for example, grant user access to some protected content.
 
 > [!div class="mx-imgBorder"]
-> [![Redeem invitation](../media/redeem-invitation.png)](../media/redeem-invitation.png#lightbox)
+> [![Screenshot of redeem invitation from an account.](../media/redeem-invitation.png)](../media/redeem-invitation.png#lightbox)
 
 ### Register user
 
 If the user does not select the **I have an existing account** option, they will be presented with the registration page. Similar to open registrations, users have the option to register by using any provider that is enabled on the portal. The selected registration will be associated with the invited contact, showing the invitation as redeemed.
 
 > [!div class="mx-imgBorder"]
-> [![Register invited contact](../media/register-invited-contact.png)](../media/register-invited-contact.png#lightbox)
+> [![Screenshot of register invited contact from an account.](../media/register-invited-contact.png)](../media/register-invited-contact.png#lightbox)
 
 After the registration process is complete, depending on the invitation options, the portal user can be associated with the predefined account or an additional workflow can be run.
 
