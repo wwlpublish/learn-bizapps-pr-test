@@ -13,7 +13,7 @@ Power Automate provides the following trigger and action:
 When a new flow is created from a Power Virtual Agents bot, a starter template is loaded that includes the Power Virtual Agents trigger and the Return value(s) to Power Virtual Agents action. You will only need to define the necessary input and output parameters and complete the structure of the flow.
 
 > [!div class="mx-imgBorder"]
-> [![If no flows exist, a new Power Automate flow can be created.](../media/2-1.png)](../media/2-1.png#lightbox)
+> [![Screenshot of If no flows exist, a new Power Automate flow can be created.](../media/2-1.png)](../media/2-1.png#lightbox)
 
 ## Work with input and output parameters
 
@@ -24,7 +24,7 @@ Variables that are defined in your bot can be to supply values to input paramete
 Input parameters represent values that will be captured in the Power Virtual Agents bot and used by the Power Automate flow steps. No limit is placed on the number of input parameters that you can add. However, you can only use number, string, and Boolean types as input parameters with Power Automate flows.
 
 > [!div class="mx-imgBorder"]
-> [![Choose the type of user input](../media/2-2.png)](../media/2-2.png#lightbox)
+> [![Screenshot of choosing the type of user input.](../media/2-2.png)](../media/2-2.png#lightbox)
 
 Consider what type of data will be required when the input parameter is passed through the flow. For example, if you intend on sending a customer's city and zip code to the MSN weather service, you might configure the input parameters as shown in the following figure.
 
@@ -36,19 +36,19 @@ Consider what type of data will be required when the input parameter is passed t
 The **City** parameter was defined as Text because MSN Weather consumes city names as text. The **Zip_Code** parameter was set to Number because it is consumed as a number. Each service that Power Automate can interact with will be different, so make sure that you take time to understand how it works.
 
 > [!div class="mx-imgBorder"]
-> [![Add input parameters](../media/2-2-1.png)](../media/2-2-1.png#lightbox)
+> [![Screenshot of adding input parameters to the flow.](../media/2-2-1.png)](../media/2-2-1.png#lightbox)
 
 When a step to get today's weather forecast from MSN Weather is added, the city and zip code will be passed to the location so that MSN Weather knows what forecast to get.
 
 > [!div class="mx-imgBorder"]
-> [![Input parameters can be inserted into flow steps](../media/2-3.png)](../media/2-3.png#lightbox)
+> [![Screnshot of input parameters that can be inserted into flow steps.](../media/2-3.png)](../media/2-3.png#lightbox)
 
 ### Output parameters
 
 Output parameters are values from a Power Automate flow that are returned to the Power Virtual Agents bot. Like input parameters, output parameters can be a string, number, or Boolean value.
 
 > [!div class="mx-imgBorder"]
-> [![Choose the type of output](../media/2-4.png)](../media/2-4.png#lightbox)
+> [![Screenshot of choosing the type of output parameter.](../media/2-4.png)](../media/2-4.png#lightbox)
 
 Returning to the previous weather example, after the flow has received the forecast details from the MSN weather service, you will create output parameters to store the details that are returned by the MSN weather service, where the values can be consumed by the Power Virtual Agents bot. For example, if you want to present the customer with a summary and chance of rain percentage for their location, you might create the following output parameters.
 
@@ -76,7 +76,7 @@ After your flow has been created, it can be initiated from your bot topic by usi
 - Get weather
 
 > [!div class="mx-imgBorder"]
-> [![Enter trigger phrases](../media/2-6.png)](../media/2-6.png#lightbox)
+> [![Screenshot of entering the trigger phrases for input.](../media/2-6.png)](../media/2-6.png#lightbox)
 
 To pass location information as variables to the Power Automate flow, you will need to capture them. The simplest way to accomplish this task is with the **Ask a question** node. You will use the **Identify** field on the question node to define what type of data that you want to capture. For example, you could set one item on the **Identify** field to **City** and the other to **Zip code**. The responses to these questions will be stored in variables.
 
