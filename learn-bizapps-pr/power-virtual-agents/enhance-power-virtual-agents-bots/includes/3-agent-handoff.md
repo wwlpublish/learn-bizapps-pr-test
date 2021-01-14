@@ -36,7 +36,7 @@ Three primary areas that can be defined when you create the application registra
 - **Redirect URI (optional)** - This area contains the URL for where the app is located.
 
 > [!div class="mx-imgBorder"]
-> [![Register an application dialog](../media/3-2.png)](../media/3-2.png#lightbox)
+> [![Screenshot of how to register an application dialog.](../media/3-2.png)](../media/3-2.png#lightbox)
 
 After you have defined the parameters, select the **Register** button.
 
@@ -49,7 +49,7 @@ Each bot can only be configured to send conversations to one Omnichannel for Cus
 To configure the handoff, select **Settings > Transfer to agent**. This screen allows you to define how the bot will facilitate handoff to different applications. Select the Dynamics 365 Omnichannel for Customer Service tile to begin the configuration process.
 
 > [!div class="mx-imgBorder"]
-> [![Transfer to agent settings](../media/3-3.png)](../media/3-3.png#lightbox)
+> [![Screenshot of how to transfer to agent settings selection.](../media/3-3.png)](../media/3-3.png#lightbox)
 
 The primary component that you need to provide is the application ID for the app that you previously created for the Azure AD registration. Omnichannel for Customer Service models bots as application users in the application. Modeling bots as application users ensures that the bot can have conversations sent to it like a human agent would. It is important that the application ID is unique to your organization (your Microsoft Dataverse organization or environment). Each bot that will interact with the same Omnichannel for Customer Service environment will need to use a different application ID. You might need to create multiple application registrations to support multiple bots.
 
