@@ -27,7 +27,7 @@ Examples of good starting phrases for a Store Hours topic would include:
 Additional trigger phrases can be added over time as you identify additional phrases that would be needed.
 
 > [!div class="mx-imgBorder"]
-> [![Trigger phrases](../media/2-1.png)](../media/2-1.png#lightbox)
+> [![Screenshot of trigger phrases that can be added.](../media/2-1.png)](../media/2-1.png#lightbox)
 
 You should also try to make your trigger phrases as unique to the individual topic as possible. This approach maximizes the likelihood that the bot will launch the correct topic as the user types what they need. For example, a bot might contain two topics: one called Product Returns and another called Product Recalls. It would not be uncommon for each topic to have similar verbiage. If you add "defective product" as a phrase to both, the application might not understand which topic to load.
 
@@ -40,12 +40,12 @@ Alternatively, you could create only one topic that is used for both returns and
 After you have defined how the topic will be triggered, you can design the flow of the topic as users interact with it, which is called a conversation path. A topic's conversation path defines how the customer will be interacted with and what will occur based on customer input. You can edit a topic conversation path by selecting the **Go to authoring canvas** button.
 
 > [!div class="mx-imgBorder"]
-> [![Go to authoring canvas](../media/2-2.png)](../media/2-2.png#lightbox)
+> [![Screenshot of go to authoring canvas butoon to edit topic.](../media/2-2.png)](../media/2-2.png#lightbox)
 
 When a new topic is created, the initial conversation path includes two items. A trigger phrase node and an empty message node will be inserted for you by default. Additional nodes can be added by selecting the plus (**+**) icon on the line or branch between or after a node.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of adding a node](../media/2-2-1.png)](../media/2-2-1.png#lightbox)
+> [![Screenshot of adding a node for a new topic area.](../media/2-2-1.png)](../media/2-2-1.png#lightbox)
 
 ## Work with conversation nodes
 
@@ -110,4 +110,4 @@ For more information, see [Microsoft Docs](https://docs.microsoft.com/power-virt
 Often, the end of a topic also represents the end of the conversation. The **End the conversation** node signifies the end of the entire conversation and provides actions that can be initiated. You can have a survey appear that asks the user if their question or issue was answered or resolved correctly. This information is collected under the [customer satisfaction analytics page](https://docs.microsoft.com/power-virtual-agents/analytics-csat/?azure-portal=true). You could also elect to escalate the conversation [over to a live agent](https://docs.microsoft.com/power-virtual-agents/advanced-hand-off/?azure-portal=true) if you are using a suitable customer service portal, such as Omnichannel for Microsoft Dynamics 365 Customer Service. At the end of a response that resolves the user's issue or answers the question, select **End the conversation**.
 
 > [!div class="mx-imgBorder"]
-> [![End the conversation](../media/2-5.png)](../media/2-5.png#lightbox)
+> [![Screenshot of end the conversation node details area.](../media/2-5.png)](../media/2-5.png#lightbox)
