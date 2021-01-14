@@ -3,7 +3,7 @@ Many authentication options that are supported by Power Apps portals are configu
 To view site settings, open the Power Apps portals app by going to [Dynamics 365 Home](https://home.dynamics.com/?azure-portal=true) and selecting **Power Apps portals**. In the app, select **Site Settings** in the navigation panel.
 
 > [!div class="mx-imgBorder"]
-> [![Active site settings](../media/active-site-settings.png)](../media/active-site-settings.png#lightbox)
+> [![Screenshot of active site settings for portals.](../media/active-site-settings.png)](../media/active-site-settings.png#lightbox)
 
 Only a few of the many available authentication-related site settings are installed when you provision a starter portal. Settings that are not created assume their documented default values.
 
@@ -12,7 +12,7 @@ Only a few of the many available authentication-related site settings are instal
 An example of the need to add a site setting is when you provision a custom portal and the form for registering a new local account requires an email address and a username.
 
 > [!div class="mx-imgBorder"]
-> [![Register with username](../media/register-username.png)](../media/register-username.png#lightbox)
+> [![Screenshot of register with username in customer portal.](../media/register-username.png)](../media/register-username.png#lightbox)
 
 To enable a local account sign-in by using an email address instead of a username, you can add the `Authentication/Registration/LocalLoginByEmail` setting and set it to **True**.
 
@@ -22,12 +22,12 @@ To enable a local account sign-in by using an email address instead of a usernam
 As a result, the form and the process for registering a new local account now require an email address only.
 
 > [!div class="mx-imgBorder"]
-> [![Register with email address only](../media/register-email-address.png)](../media/register-email-address.png#lightbox)
+> [![Screenshot of register with email address only in customer portal.](../media/register-email-address.png)](../media/register-email-address.png#lightbox)
 
 Also, the sign-in form will now refer to **Email** instead of **Username**.
 
 > [!div class="mx-imgBorder"]
-> [![Sign-in by email](../media/local-sign-email.png)](../media/local-sign-email.png#lightbox)
+> [![Screenshot of sign-in by email for customer portal.](../media/local-sign-email.png)](../media/local-sign-email.png#lightbox)
 
 > [!NOTE]
 > Where a function is enabled by default, a site setting needs to be created to disable that function. For example, adding the `Authentication/Registration/ResetPasswordEnabled = False` setting is required to disable the password reset feature for local authentication.
