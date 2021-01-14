@@ -109,7 +109,7 @@ You have now configured and interacted with the data in your gallery.
 3.  In the formula bar, make sure Items is selected and then enter the
     following expression:
 
-     ![screenshot of item collection formula](../media/item-collection.png)
+     ![Screenshot of item collection formula syntax.](../media/item-collection.png)
 
     This means that the Data Source for the table is the
    **ItemsCollection** collection and not the **Items** table in the Excel sheet.
@@ -181,7 +181,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 
 1.  On the **Tree View** panel on the left, go back to the first screen
     by clicking on **Screen 1**.
-    ![screenshot of tree view gallary.](../media/tree-view.png)
+    ![Screenshot of tree view gallery with the patch function.](../media/tree-view.png)
 
 2.  On the **Insert** tab, select **Label** and then rename label to
     *Name*. Then position the label next to the gallery.
@@ -193,7 +193,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
     Input.** Repeat this step and position both Text Inputs next to the
     labels made above. Your screen should now look like this:
    
-    ![screenshot of final output.](../media/screen-output.png)
+    ![Screenshot of final output form layout with text.](../media/screen-output.png)
 
 5.  On the **Insert** tab, select **Button** and position your button
     underneath your Labels. Change text on Button to *Update.*
@@ -203,7 +203,7 @@ copies all data from the *ItemsCollection* collection but in addition--we use th
 7.  In the formula bar, make sure you have the **Default** property 
     selected and then change the expression to the following:
 
-    ![screenshot of default property expression.](../media/default-property.png)
+    ![Screenshot of default property expression from formula bar.](../media/default-property.png)
 
     This will display the **Name** property of the Date Source record
 whenever you select it in the gallery. You can test this by running the
@@ -213,7 +213,7 @@ text in the input changes upon each click.
 8.  Repeat steps 6 and 7 for the Text Input next to the New Description
     label. The formula bar expression will look like this:
 
-    ![screenshot of default gallary expression.](../media/default-gallary.png)
+    ![Screenshot of default gallery expression label.](../media/default-gallary.png)
 
 9.  Select the **Update** button.
 

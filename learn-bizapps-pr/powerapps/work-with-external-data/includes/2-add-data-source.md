@@ -19,7 +19,7 @@ control.
 2.  In the properties pane, select the drop-down menu for the **Data source**
     property.
 
-    ![Add-Tabular-Data-Source](../media/add-tabular-data-source.png)
+    ![Screenshot of Add-Tabular-Data-Source selection.](../media/add-tabular-data-source.png)
 
 4.  In Search box type **SharePoint** and select **SharePoint** from the list. You could have also expanded **Connectors** and scrolled through all the available connectors until you found the **SharePoint** connector.
 
@@ -55,7 +55,7 @@ will be available throughout your app.
 
 3.  In the **Data** pane, type **Office** in Search and select **Office 365 Outlook** from the list. You could have also expanded **Connectors** and scrolled through all the available connectors until you found the **Office 365 Outlook** connector.
 
-	> ![Add Data Source](../media/add-data-source.png)
+	> ![Screenshot of adding a data source from the Data pane.](../media/add-data-source.png)
 
 4.  Select **+ Add a connection** and then select **Connect**.
 
@@ -67,7 +67,7 @@ Now the Office 365 Outlook data source is available for use in your app.
 To send an email, add a button control to your app, and set its
 **OnSelect** property to the highlighted formula:
 
-![Office 365 Outlook formula](../media/office365-outlook-formula.png)
+![Screenshot of setting the OnSelect property of Office 365 Outlook formula.](../media/office365-outlook-formula.png)
 
 This formula will do the following.
 

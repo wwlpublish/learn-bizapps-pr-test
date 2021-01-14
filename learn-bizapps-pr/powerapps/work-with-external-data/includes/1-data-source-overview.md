@@ -6,7 +6,7 @@ more than 200 built-in connectors.
 
 This graphic shows the most common data sources.
 
-![Data sources](../media/datasources.png)
+![Screenshot of the most common data sources used.](../media/datasources.png)
 
 The Power Apps Per app plan or Power Apps Per user plan provides access to
 premium connectors, such as these examples:
