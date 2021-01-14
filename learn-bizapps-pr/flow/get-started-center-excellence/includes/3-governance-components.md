@@ -82,7 +82,7 @@ The following flows use the built-in approval actions of Power Automate. In the 
 
 1.  Select **Run Flow**.
 
-1.  Select **Solutions** in the left panel. You should now see two new flow approval solutions, which helps verify that the process has succeeded.
+1.  Select **Solutions** in the left panel. You should now see two new flow approval solutions. This step helps verify that the process has succeeded.
 
     > [!div class="mx-imgBorder"]
 	> [![Two new flow approvals.](../media/two-flow-approvals-ssm.png)](../media/two-flow-approvals-ssm.png#lightbox)
