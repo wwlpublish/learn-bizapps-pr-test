@@ -1,8 +1,8 @@
-A Center of Excellence (CoE) drives innovation and improvement and brings together like-minded people with similar business goals to share knowledge and success, while providing standards, consistency, and governance.
+A Center of Excellence (CoE) drives innovation and improvement and brings together like-minded people who have similar business goals to share knowledge and success, while providing standards, consistency, and governance.
 
-The kit doesn't represent the entire CoE, because managing a CoE requires more than tools alone; the CoE also requires people, communication, and defined requirements and processes. The tools provided here are just a means to get to the end goal, but the CoE itself must be thoughtfully designed by each organization based on their needs and preferences.
+The kit doesn't represent the entire CoE because managing a CoE requires more than tools alone; the CoE also requires people, communication, and defined requirements and processes. The tools that are provided in this module are only a means to get to the end goal, but the CoE must be thoughtfully designed by each organization based on their needs and preferences.
 
-The underlying features and components used to build the kit (such as Dataverse, admin APIs, and connectors) are fully supported. The kit itself represents sample implementations of these features. Customers and community can use and customize these features to implement admin and governance capabilities in their organizations.
+The underlying features and components that are used to build the kit (such as Dataverse, admin APIs, and connectors) are fully supported. The kit represents sample implementations of these features. Customers and community can use and customize these features to implement admin and governance capabilities in their organizations.
 
 ## Links related to modules for specific articles
 
