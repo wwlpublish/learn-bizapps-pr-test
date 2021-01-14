@@ -97,7 +97,7 @@ steps:
 This Gallery will display a list of all of the invoice records in the
 table. This is **Gallery3**.
 
-![List of invoice records](../media/image1.png)
+![Screenshot of gallery with a list of all invoice records.](../media/image1.png)
 
 Showing the ID value for each customer does not provide help for the app
 user. To display the customer name, instead of the ID, do the following.
@@ -118,7 +118,7 @@ The formula will do the following:
 
 After making that change, Gallery3 is much more user-friendly.
 
-![user-friendly list of invoice records](../media/image2.png)
+![Screenshot of user-friendly gallery list of invoice records.](../media/image2.png)
 
 ## Performance Notes
 
