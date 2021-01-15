@@ -16,7 +16,7 @@ Variables are created automatically when you add a question node to a topic. By 
 When a variable is automatically created, a default name will be given. If desired, you can rename a variable by selecting it and then entering a new name.
 
 > [!div class="mx-imgBorder"]
-> [![Rename variable dialog](../media/5-2.png)](../media/5-2.png#lightbox)
+> [![Screenshot of the rename variable dialog from default name.](../media/5-2.png)](../media/5-2.png#lightbox)
 
 ### Use variables across topics
 

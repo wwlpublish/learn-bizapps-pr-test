@@ -8,7 +8,7 @@ Branching allows you to evaluate conditions to initiate conversation nodes to la
 You can select how the bot conversation should branch at this point. For example, if you have set up [end-user authentication](https://docs.microsoft.com/power-virtual-agents/advanced-end-user-authentication/?azure-portal=true), then you might want to specify a different message if the user is signed on (which might have happened earlier in the conversation).
 
 > [!div class="mx-imgBorder"]
-> [![Choose a variable](../media/3-1-1.png)](../media/3-1-1.png#lightbox)
+> [![Screenshot of the variable to choose for a branch.](../media/3-1-1.png)](../media/3-1-1.png#lightbox)
 
 Depending on what you select in the **Identify** field of the question node, branching might occur automatically. Automatic branching is always the case when you select **Multiple choice options**. Each option will have a branch created for it. For example, if you have a question node that asks a customer for their preferred store location and then provides them with **Seattle** and **Bellevue** as options, a condition branch for each option will be created. You will need to ensure that you are providing a completed path resolution for both items.
 

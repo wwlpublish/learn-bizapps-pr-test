@@ -34,7 +34,7 @@ These extensions allow administrators to:
 * Manage user's identities when external providers are used.
 
 > [!div class="mx-imgBorder"]
-> [![Contact web authentication form](../media/contact-web-authentication-form.png)](../media/contact-web-authentication-form.png#lightbox)
+> [![Screenshot of contact web authentication form.](../media/contact-web-authentication-form.png)](../media/contact-web-authentication-form.png#lightbox)
 
 ## Administrator as portal user
 
@@ -43,7 +43,7 @@ Portal users are not defined when Power Apps portals is provisioned. You, the pe
 - Sign in to the portal by using Azure AD authentication. If **Open Registration** is enabled (and it is by default), a contact record will be created as required.
 
    > [!div class="mx-imgBorder"]
-   > [![Sign in using Azure AD](../media/sign-azure-ad.png)](../media/sign-azure-ad.png#lightbox)
+   > [![Screenshot of sign in using Azure AD portal.](../media/sign-azure-ad.png)](../media/sign-azure-ad.png#lightbox)
 
 - If it's the first time that Azure AD authentication is being used, you might be prompted to provide consent for the portals web app to access user information. You can consent on behalf of the organization so that individual users won't be prompted.
 
@@ -51,7 +51,7 @@ Portal users are not defined when Power Apps portals is provisioned. You, the pe
 - Go to **Related > Web Roles**. Associate the **Administrators** web role with the contact.
 
 > [!div class="mx-imgBorder"]
-> [![Assign administrator web role](../media/assign-administrators-web-roles.png)](../media/assign-administrators-web-roles.png#lightbox)
+> [![Screenshot of assign administrator web role for administrators.](../media/assign-administrators-web-roles.png)](../media/assign-administrators-web-roles.png#lightbox)
 
 These steps will ensure that this Azure AD user has full administrative permissions when they are accessing the portal as an *external* user.
 
