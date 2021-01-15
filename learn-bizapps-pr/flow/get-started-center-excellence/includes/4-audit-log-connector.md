@@ -33,7 +33,7 @@ Use the following steps to set up an Azure AD app registration that will be used
 1.  Enter a name (such as **Microsoft 365 Management**), but don't change any other setting. Select **Register**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Enter a name and select Register.](../media/new-app-registeration-ss.png)](../media/new-app-registeration-ss.png#lightbox)
+	> [![Enter a name and select Register.](../media/new-app-registeration-ss.png)](../media/new-app-register-ss.png#lightbox)
 
 1.  Select **API permissions > + Add a permission**.
 
