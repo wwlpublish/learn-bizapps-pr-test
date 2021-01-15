@@ -7,11 +7,11 @@ The Audit Log Sync flow connects to the Microsoft 365 audit log to gather teleme
 
 Before using the audit log connector, you will need to meet the following prerequisites:
 
-1.  Microsoft 365 audit log search must be turned on for the audit log connector to work.
+-  Microsoft 365 audit log search must be turned on for the audit log connector to work.
 
-1.  You must have access to the audit log. The Microsoft Power Platform Service Admin role doesn't give you access to the audit log.
+-  You must have access to the audit log. The Microsoft Power Platform Service Admin role doesn't give you access to the audit log.
 
-1.  Your tenant must have a subscription that supports unified audit logging.
+-  Your tenant must have a subscription that supports unified audit logging.
 
 ## Connect to the audit log by using an Azure AD app registration
 
@@ -97,7 +97,7 @@ Now, you'll configure and set up a custom connector that uses Microsoft 365 Mana
 	> [!div class="mx-imgBorder"]
 	> [![Select Edit.](../media/custom-connector-security-ssm.png)](../media/custom-connector-security-ssm.png#lightbox)
 
-1.  Paste the application (client) ID that you copied from the app registration into the **Client id** field.
+1.  Paste the application (client) ID that you copied from the app registration into the **Client ID** field.
 
 1.  Paste the client secret that you copied from the app registration into the **Client secret** field.
 

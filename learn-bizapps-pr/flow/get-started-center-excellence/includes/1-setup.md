@@ -48,13 +48,13 @@ Make sure that you meet the following requirements before you begin this module:
 
     -   [Approvals](https://docs.microsoft.com/connectors/approvals/?azure-portal=true) and HTTP to be used together
 
-> [!NOTE]
-> Those connectors must be in the business data-only bucket of the DLP policy for this environment. If you're using the [audit log](https://docs.microsoft.com/power-platform/guidance/coe/setup-auditlog/?azure-portal=true) solution, the custom connector that is used to connect to the Microsoft 365 audit log must be included in your business data-only bucket as well.
+    > [!NOTE]
+    > Those connectors must be in the business data-only bucket of the DLP policy for this environment. If you're using the [audit log](https://docs.microsoft.com/power-platform/guidance/coe/setup-auditlog/?azure-portal=true) solution, the custom connector that is used to connect to the Microsoft 365 audit log must be included in your business data-only bucket as well.
 
 -   If multiple DLP policies apply to the same environment, then all of them must have the connectors that the CoE Starter Kit uses in business data only or, if you have a policy that applies to all environments that you don't want to change, you can exclude the CoE environment from that policy. For more information, see [DLP policy scope](https://docs.microsoft.com/power-platform/admin/wp-data-loss-prevention?azure-portal=true#policy-scope).
 
 -   You've downloaded the CoE solution and CoE Power BI dashboard files to your device. The entire content package can be downloaded directly at [aka.ms/CoEStarterKitDownload](https://aka.ms/CoEStarterKitDownload/?azure-portal=true).
 
-> [!NOTE]
-> The Admin | Sync Template flows search through all resources that are stored in Microsoft Power Platform and copy details in each resource (for example, apps and flows) to Dataverse (table definitions are provided in this solution). All data that is displayed in most of the starter kit components must be in Dataverse, which means that the sync template must be configured for everything else to work. The sync flows run daily overnight. When you first set up the CoE Starter Kit, you can manually start the Admin | Sync Template v2 flow, which will start the process of searching and storing the information in Dataverse.
+    > [!NOTE]
+    > The Admin | Sync Template flows search through all resources that are stored in Microsoft Power Platform and copy details in each resource (for example, apps and flows) to Dataverse (table definitions are provided in this solution). All data that is displayed in most of the starter kit components must be in Dataverse, which means that the sync template must be configured for everything else to work. The sync flows run daily overnight. When you first set up the CoE Starter Kit, you can manually start the Admin | Sync Template v2 flow, which will start the process of searching and storing the information in Dataverse.
 
