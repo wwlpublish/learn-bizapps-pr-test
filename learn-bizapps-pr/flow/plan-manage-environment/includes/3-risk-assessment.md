@@ -41,7 +41,7 @@ address risk, and then reviewing risks regularly, an organization can
 truly manage their risks and seek continuous improvement.
 
 Some organizations have used Power Platform to enable this
-process. As explained in the Introduction to Power Automate security 
+process. As explained in the Introduction to Power Platform security 
 and governance module, the Center of Excellence Starter Kit
 includes the Developer Compliance Center, which helps organizations
 manage the deployment of new applications and seeks the makers of

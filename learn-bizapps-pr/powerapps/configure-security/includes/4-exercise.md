@@ -122,6 +122,6 @@ Select the **Browse website** to view the page. You will receive a message indic
 1. Select **Sign in** and then enter the username and password for the portal user that you previously created.
 1. Go to the **Partner Directory** page, where you should be able to view the list of account records.
     > [!div class="mx-imgBorder"]
-    > [![Partner List](../media/exercise-entity-permissions.png)](../media/exercise-entity-permissions.png#lightbox)
+    > [![Screenshot of the Partner List director page in a portal account.](../media/exercise-entity-permissions.png)](../media/exercise-entity-permissions.png#lightbox)
 
 1. Select the *username* and then select **Sign-out**. The page should display a message about not having permissions to view records.

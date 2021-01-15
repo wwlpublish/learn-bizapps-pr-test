@@ -2,7 +2,7 @@
 uid: learn-bizapps.powerapps-common-data-service
 metadata: 
   title: Get started with Microsoft Dataverse
-  description: Dataverse lets you securely store and manage data that's used by business applications. Standard and custom entities within Dataverse provide a secure and cloud-based storage option for your data.
+  description: Dataverse lets you securely store and manage data that's used by business applications. Standard and custom tables within Dataverse provide a secure and cloud-based storage option for your data.
   ms.date: 01/17/2020
   author: KevSch
   ms.author: kschimke
@@ -11,10 +11,10 @@ metadata:
 title: Get started with Dataverse
 summary: |
     [!include[](../includes/module-banner.md)]
-    Dataverse lets you securely store and manage data that's used by business applications. Standard and custom entities within Dataverse provide a secure and cloud-based storage option for your data.
+    Dataverse lets you securely store and manage data that's used by business applications. Standard and custom tables within Dataverse provide a secure and cloud-based storage option for your data.
 abstract: |
     In this module, you will:
-    - Create entities with Dataverse
+    - Create tables with Dataverse
     - Import data into a Dataverse database 
 prerequisites: |
   - A Microsoft Power Apps account. If you don't already have a Power Apps account, select the **Get started free** link on [powerapps.com](https://make.powerapps.com/?utm_source=padocs&utm_medium=linkinadoc&utm_campaign=referralsfromdoc).

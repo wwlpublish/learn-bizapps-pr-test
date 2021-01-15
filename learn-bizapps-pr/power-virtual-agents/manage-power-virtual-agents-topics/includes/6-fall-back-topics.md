@@ -20,7 +20,7 @@ The fallback topic contains two nodes:
 - **Escalate** - Redirects to a live agent.
 
 > [!div class="mx-imgBorder"]
-> [![Trigger phrases, message, and redirect.](../media/6-2.png)](../media/6-2.png#lightbox)
+> [![Screenshot of trigger phrases, message, and redirect.](../media/6-2.png)](../media/6-2.png#lightbox)
 
 As with any other system topic, the fallback topic can be customized to fit your needs. For example, you can present the user with a question such as, "What are you looking to get assistance with?" Then, the customer could be presented with options such as **Sales**, **Service**, or **General**. Based on what the user selects, the bot could redirect them to a topic that is related to that selection, implement a Power Automate flow, send an email, or (if needed) escalate the customer's issue to an agent. The initial unrecognized text that is entered by the user is stored in a variable called *UnrecognizedTriggerPhrase*.
 

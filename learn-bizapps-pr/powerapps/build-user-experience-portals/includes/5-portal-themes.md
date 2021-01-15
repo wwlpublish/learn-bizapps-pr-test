@@ -33,7 +33,7 @@ For example, if you want to apply different styling to your **News** section and
 Any starter portal has two files that are already included as child web files on the home page: `bootstrap.min.css` and `theme.css`. These files define default styles and a theme for your entire portal. Additional stylesheets can be uploaded and edited in portals Studio by using the **Themes** section on the toolbelt.
 
 > [!div class="mx-imgBorder"]
-> [![CSS editing](../media/css-edit.png)](../media/css-edit.png#lightbox)
+> [![Screenshot of themes editing options from toolbelt for CSS code.](../media/css-edit.png)](../media/css-edit.png#lightbox)
 
 You need to consider how to approach style modifications for your portal:
 

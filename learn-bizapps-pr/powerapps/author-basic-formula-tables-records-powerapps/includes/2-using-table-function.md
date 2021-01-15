@@ -18,7 +18,7 @@ Price: "$ 1.95", 'Quantity on Hand': 10, 'Quantity on Order':
 10})
 ```
 
-![table_function](../media/table_function.png)
+![Screenshot that shows a table_function formula.](../media/table_function.png)
 
 Sometimes you need a simpler, single column **Table** for populating a
 **Dropdown** control choices. In that instance you can use the short cut
@@ -32,4 +32,4 @@ shown below.
 
 By placing that formula in the Items property of a Dropdown control, you will see the following.
 
-![dropdown_table](../media/dropdown_table.png)
+![Screenshot that shows a dropdown_table formula property.](../media/dropdown_table.png)

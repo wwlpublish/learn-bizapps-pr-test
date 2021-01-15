@@ -9,16 +9,19 @@ metadata:
  ms.author: getrantz 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
-durationInMinutes: 5 
+durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Flows can be run only through the Power Automate Desktop console. (True or False)
+  - content: Which one of the following statements is true? 
     choices: 
-    - content: "True"
+    - content: "You can run flows only through the console."
       isCorrect: false 
       explanation: Flows can be run through the console and the flow designer.
-    - content: "False"
+    - content: "You can run flows only through the flow designer."
+      isCorrect: false 
+      explanation: Flows can be run through the console and the flow designer.
+    - content: "You can run flows through both the console and the flow designer."
       isCorrect: true 
       explanation: Flows can be run through the console and the flow designer.
   - content: Which one of the following components do you use to rename a flow?
@@ -29,12 +32,11 @@ quiz:
     - content: The flow designer
       isCorrect: false 
       explanation: Only the console provides an option to rename a flow.
-  - content: Every flow contains a main subflow that is run automatically. (True or False)
+  - content: Every flow contains a subflow that is run automatically. What is the name of this subflow?
     choices: 
-    - content: "True"
+    - content: "Main"
       isCorrect: true 
-      explanation: Every flow contains a subflow named Main that runs automatically when the flow is implemented.
-    - content: "False"
+      explanation: Every flow contains a subflow named Main that starts automatically when the flow is run.
+    - content: "Master"
       isCorrect: false 
-      explanation: Every flow contains a subflow named Main that runs automatically when the flow is implemented.
-
+      explanation: Every flow contains a subflow named Main that starts automatically when the flow is run.

@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.plan-manage-environment 
 metadata: 
- title: Plan and manage your Power Automate environment
- description: Every organization has unique requirements based on their size, location, data residency requirements, and desire for democratized access to tools like Power Apps and Power Automate. This module discusses considerations that impact how an organization chooses to secure and govern their Power Platform environments.
- ms.date: 3/12/2020  
- author: KevSch  
- ms.author: kschimke  
+ title: Plan and manage your Power Platform environment
+ description: Learn how to manage your Power Platform environment
+ ms.date: 01/05/2021
+ author: DaveBeasley
+ ms.author: dbeasley  
  ms.topic: interactive-tutorial  
- ms.prod: learning-power-automate  
-title: Plan and manage your Power Automate environment 
+ ms.prod: learning-power-platform  
+title: Plan and manage your Power Platform environment 
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Every organization has unique requirements based on their size, location, data residency requirements, and desire for democratized access to tools like Power Apps and Power Automate. This module discusses considerations that impact how an organization chooses to secure and govern their Power Platform environments.

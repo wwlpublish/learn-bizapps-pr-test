@@ -9,7 +9,7 @@ metadata:
  ms.author: olmelnyk 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
-durationInMinutes: 5 
+durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
@@ -27,7 +27,7 @@ quiz:
     - content: None of the above
       isCorrect: false 
       explanation: Both methods can be used to get the length of a text variable.
-  - content: Which one of the following actions is used to remove whitespace characters from the beginning and end of a text or list of text values?"
+  - content: Which one of the following actions is used to remove whitespace characters from the beginning and end of a text or list of text values?
     choices:
     - content: Pad
       isCorrect: false 
@@ -38,11 +38,11 @@ quiz:
     - content: Parse
       isCorrect: false 
       explanation: The Parse action parses a text value to find the first occurrence, or all occurrences, of a specified subtext.
-  - content: The Get Subtext action retrieves a part of a text value or variable. (True or False)
+  - content: Which one of the following statements is true about the Get Subtext action?
     choices:
-    - content: "True"
+    - content: "It retrieves a part of a text value or variable and stores it in a new variable."
       isCorrect: true 
-      explanation: The Get Subtext action retrieves a subtext from a text value or variable.
-    - content: "False"
+      explanation: The Get Subtext action retrieves a subtext of a text value or variable and stores it by default in a new variable.
+    - content: "It retrieves a part of a text variable and stores it by default in the original variable."
       isCorrect: false
-      explanation: The Get Subtext action retrieves a subtext from a text value or variable.
+      explanation: The Get Subtext action retrieves a subtext of a text value or variable and stores it by default in a new variable.

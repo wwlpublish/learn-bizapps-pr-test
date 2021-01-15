@@ -14,7 +14,7 @@ Topics that are in the **Off** state will not trigger at all, and their trigger 
 While working on a topic, the Topic Checker feature in Power Virtual Agents will validate your topic and show errors or warnings. Errors or warnings can occur for any number of reasons. Warnings indicate that something is not ideal, but it will not prevent the bot from functioning. Because warnings do not prevent the bot from functioning, they are ignored during processing. Errors, however, need be addressed to avoid unexpected behavior or failure during the chat experience. Errors might occur if a node in your topic is incomplete. Instances that would cause errors include a **Message** node that doesn't provide a message or an authentication issue that occurs with a Power Automate flow that is being launched in an action. The Topic Checker feature provides details that are related to the warning or error to help make your task of resolving these issues easier.
 
 > [!div class="mx-imgBorder"]
-> [![Topic checker button](../media/7-2.png)](../media/7-2.png#lightbox)
+> [![Screenshot of the topic checker button for errors.](../media/7-2.png)](../media/7-2.png#lightbox)
 
 Four types of errors that appear in the Topic Checker feature and in the authoring canvas are:
 
@@ -36,6 +36,6 @@ You can also see the error state of a topic on the **Topics** list page by selec
 After you have created a few topics, you might want to use a previous topic as a baseline when you are creating new topics. Copying topics saves time when a conversation path is already defined. When you copy topics, you only need to modify the trigger phrases and tailor the conversation path to fit your needs. On the **Topics** list page, hover over a topic, select the menu icon, and then select **Make a copy**. This action will create a duplicate of the selected topic with *(Copy)* appended to the name. All topic content, such as the description, trigger phrases, and the entire conversation, is copied over to the new topic.
 
 > [!div class="mx-imgBorder"]
-> [![Make a copy menu item](../media/7-4.png)](../media/7-4.png#lightbox)
+> [![Screenshot of the make a copy menu item when copying a topic.](../media/7-4.png)](../media/7-4.png#lightbox)
 
 The new topic appears in the **User Topics** list. All copied topics have a status of **Off** by default to avoid confusion on which topic will trigger because it will have the same trigger phrases as the original topic. After you have finished editing the new topic, you can turn it **On** to [test it in the Test bot](https://docs.microsoft.com/power-virtual-agents/authoring-test-bot/?azure-portal=true) window and, when ready, publish the new topic.

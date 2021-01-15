@@ -1,17 +1,17 @@
 ### YamlMime:Module 
 uid: learn-bizapps.implementation-recommendations 
 metadata: 
- title: Implementation recommendations for Power Automate environments
- description: Do you want prescriptive recommendations for how organizations should choose to implement security and governance? This module will provide recommendations based on popular use cases, including Office 365 and Dynamics 365 configurations. In addition, edge cases such as custom and HTTP connectors are discussed. Tooling will also be discussed, including the DLP Editor Tool, from the Center of Excellence (COE) toolkit, which allows administrators to understand the impact of the DLP change that they are about to make.
- ms.date: 3/11/2020  
- author: KevSch  
- ms.author: kschimke  
+ title: Implementation recommendations for Power Platform environments
+ description: Learn how organizations should choose to implement security and governance.
+ ms.date: 01/05/2021  
+ author: DaveBeasley
+ ms.author: dbeasley  
  ms.topic: interactive-tutorial  
- ms.prod: learning-power-automate  
-title: Implementation recommendations for Power Automate environments 
+ ms.prod: learning-power-platform  
+title: Implementation recommendations for Power Platform environments 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Do you want prescriptive recommendations for how organizations should choose to implement security and governance? This module will provide recommendations based on popular use cases, including Office 365 and Dynamics 365 configurations. In addition, edge cases such as custom and HTTP connectors are discussed. Tooling will also be discussed, including the DLP Editor Tool, from the Center of Excellence (COE) toolkit, which allows administrators to understand the impact of the DLP change that they are about to make.
+  Do you want prescriptive recommendations for how organizations should choose to implement security and governance? This module provides recommendations based on popular use cases, including Microsoft 365 and Dynamics 365 configurations. In addition, edge cases such as custom and HTTP connectors are discussed. Tooling will also be discussed, including the DLP Editor Tool, from the Center of Excellence (COE) toolkit, which allows administrators to understand the impact of the DLP change that they are about to make.
 abstract: |  
     In this module, you will: 
     - Build a recommended Data Loss Prevention (DLP) policy for Office 365 scenarios.

@@ -1,16 +1,17 @@
 ## Scenario
 
 In the [exercise](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise/?azure-portal=true) in the previous module of this learning path, you created 
-the Prospects entity in Microsoft Dataverse and imported the existing leads, 
-now in this exercise you will use this data to create a model-driven app. If you do not have the *Prospects* entity then refer to the previous exercise or follow the **Create the custom entity** steps below.
+the Prospects table in Microsoft Dataverse and imported the existing leads, 
+now in this exercise you will use this data to create a model-driven app. If you do not have the *Prospects* table then refer to the previous exercise or follow the **Create the custom table** steps below.
 This app will allow the sales team to enter and edit leads on the go and 
 keep the managers up to date on the current leads and forecasted revenue.
 
-### Create the custom entity (skip if you have already created the *Prospects* entity)
+### Create the custom table 
+You can skip these steps if you have already created the *Prospects* table. 
 
 1. Go to the [Power Apps home page](https://powerapps.microsoft.com/)  and sign in to Power Apps.
-1. On the menu, expand **Data** and **Select Entities**.
-1. Select **New Entity**.
+1. On the menu, expand **Data** and **Select Tables**.
+1. Select **New Table**.
 1. Enter the following information:
 	- **Display name**: *Prospects*
 1. In the Primary Field section, enter the following information:
@@ -18,7 +19,7 @@ keep the managers up to date on the current leads and forecasted revenue.
 1. Select **Create**.
 1. Select **Done**.
 
-### Create the model-driven app for the prospects entity
+### Create the model-driven app for the prospects table
 
 1. Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true) by using your organizational account.
 1. Select the environment you want, or go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true) to create a new one.
@@ -29,8 +30,8 @@ keep the managers up to date on the current leads and forecasted revenue.
 1. Select the **Open the Site Map Designer** pencil icon to open the site map designer.
 1. Select **New Subarea**.
 1. On the right, for **Title** enter **Prospects Area**.
-1. Click the drop down for **select a type**, then choose **Entity**.
-1. For Entity, select **Prospects**.
+1. Click the drop down for **select a type**, then choose **Table**.
+1. For Table, select **Prospects**.
 1. Select **New Group**.
 1. On the right, for **Title** enter **Prospects Group**.
 1. Click **Save**.
@@ -55,8 +56,8 @@ into any issues, you can follow the steps below to create a new main
 form.
 
 1.  Go to the Power Apps Home Page, and on the left, Select **Data**.
-1.  Select **Entities**.
-1.  Locate and select the **Prospects** entity. 
+1.  Select **Tables**.
+1.  Locate and select the **Prospects** table. 
 1.  Select **Forms**.
 1.  Select the drop-down arrow next to Add form, and then select **Main Form** from the drop down. A new window will open.
 1.  Drag the **Stage** field from the right and place it below the **Owner** field in the center.

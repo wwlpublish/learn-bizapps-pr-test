@@ -8,14 +8,14 @@ You can create bots by selecting the bot icon in the Power Virtual Agents interf
 In the **Create a new bot** dialog box, enter a name for your bot. Select **Create** to begin the bot-building process, which can take up to 15 minutes for the first bot that you create in an environment. Subsequent bots take less time to create.
 
 > [!div class="mx-imgBorder"]
-> [![change environment](../media/power-virtual-agents-3-3-ssm.png)](../media/power-virtual-agents-3-3-ssm.png#lightbox)
+> [![Screenshot of change environment for new bot creation.](../media/power-virtual-agents-3-3-ssm.png)](../media/power-virtual-agents-3-3-ssm.png#lightbox)
 
 ## Delete a bot
 
 Bots that are no longer needed can be removed from your environment. This situation might occur when the bot is being replaced with a different bot, or if the bot no longer fits the needs of your organization. Use the bot icon on the top menu bar and then select the bot that you want to delete. Select the **Settings** icon and **General settings**, and then select the **Delete Bot** option.
 
 > [!div class="mx-imgBorder"]
-> [![general settings](../media/power-virtual-agents-3-2-ssm.png)](../media/power-virtual-agents-3-2-ssm.png#lightbox)
+> [![Screenshot of general settings for deleting a bot.](../media/power-virtual-agents-3-2-ssm.png)](../media/power-virtual-agents-3-2-ssm.png#lightbox)
 
 ## Work with the Power Virtual Agents user interface
 
@@ -24,7 +24,7 @@ The Power Virtual Agents user interface provides you with all the tools necessar
 The following image shows an example of what the user interface looks like.
 
 > [!div class="mx-imgBorder"]
-> [![user interface example](../media/power-virtual-agents-3-4-ssm.png)](../media/power-virtual-agents-3-4-ssm.png#lightbox)
+> [![Screenshot of user interface example process.](../media/power-virtual-agents-3-4-ssm.png)](../media/power-virtual-agents-3-4-ssm.png#lightbox)
 
 The following list describes the Power Virtual Agents user interface features, as indicated in the previous image:
 

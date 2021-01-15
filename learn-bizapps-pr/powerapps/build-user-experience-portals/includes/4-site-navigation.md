@@ -3,14 +3,14 @@ Most of a portal's content is represented by webpages. A webpage represents a pa
 Webpages also form the basis for including other, specialized entity types such as web files, shortcuts, forums, ideas, and blogs. Each of these records has a relationship with a parent page. Through parent and child relationships, these entities form the hierarchy of the website, that is, its site map.
 
 > [!div class="mx-imgBorder"]
-> [![Site page hierarchy](../media/page-hierarchy-concept.png)](../media/page-hierarchy-concept.png#lightbox)
+> [![Diagram of site page hierarchy for a portal.](../media/page-hierarchy-concept.png)](../media/page-hierarchy-concept.png#lightbox)
 
 ### Child pages
 
 You can view the parent-child relationships for a particular page by selecting the **Pages** section of the toolbelt, which will display the ordered list of the site pages. You can rearrange the page order and add, edit, delete, promote, and demote pages. Additionally, you can see whether the particular page is visible in the default menu.
 
 > [!div class="mx-imgBorder"]
-> [![Page hierarchy](../media/page-hierarchy.png)](../media/page-hierarchy.png#lightbox)
+> [![Screenshot of page hierarchy for a portal to aid in setup.](../media/page-hierarchy.png)](../media/page-hierarchy.png#lightbox)
 
 ### Site map
 
@@ -19,7 +19,7 @@ You can view your site structure at `https://portal_url/sitemap`. This site map 
 Site maps can be shaped by security. If a visitor doesn't have permissions to access a particular page, that page won't be visible for them in the site map.
 
 > [!div class="mx-imgBorder"]
-> [![Sitemap](../media/sitemap.png)](../media/sitemap.png#lightbox)
+> [![Screenshot of a sitemap for a portal that helps understand security.](../media/sitemap.png)](../media/sitemap.png#lightbox)
 
 The other type of site map, which is designed for consumption by search engines and web crawlers, is not included with the portal out of the box but can be created by using templates.
 
@@ -40,4 +40,4 @@ The web link sets are not the only way to navigate the website. The hierarchical
 How the child links are rendered is entirely up to the template. Portal templates include a number of pages that demonstrate different rendering techniques for navigation.
 
 > [!div class="mx-imgBorder"]
-> [![Samples of different ways of rendering for child navigation](../media/child-links-samples.png)](../media/child-links-samples.png#lightbox)
+> [![Screenshot of samples of different ways of rendering for child navigation.](../media/child-links-samples.png)](../media/child-links-samples.png#lightbox)
