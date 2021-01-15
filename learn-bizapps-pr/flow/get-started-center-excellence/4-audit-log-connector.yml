@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-started-center-excellence.4-audit-log-connector 
-title: Set up the audit log connector
+title: Exercise - Set up the audit log connector
 metadata: 
-  title: Set up the audit log connector 
+  title: Exercise - Set up the audit log connector 
   description: Learn about setting up the audit log connector.  
-  ms.date: 01/31/2021 
+  ms.date: 01/15/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-platform 
-durationInMinutes: 5 
+durationInMinutes: 15 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/4-audit-log-connector.md)] 

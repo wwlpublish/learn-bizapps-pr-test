@@ -42,17 +42,17 @@ Use the following steps to set up an Azure AD app registration that will be used
 
 1.  Select **Office 365 Management APIs** and then configure permissions as follows:
 
-    1.  Select **Delegated permissions** and then select **ActivityFeed.Read**.
+    a.  Select **Delegated permissions** and then select **ActivityFeed.Read**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Select Office 365 Management APIs and configure permissions.](../media/office-365-management-api-ssm.png)](../media/office-365-management-api-ssm.png#lightbox)
 
-	1.  Select **Application permissions** and then select **ActivityFeed.Read** and **ServiceHealth.Read**.
+	b.  Select **Application permissions** and then select **ActivityFeed.Read** and **ServiceHealth.Read**.
 
 	> [!div class="mx-imgBorder"]
 	> [![select Application permissions.](../media/request-api-permissions-ssm.png)](../media/request-api-permissions-ssm.png#lightbox)
 
-	1.  Select **Add permissions**.
+	c.  Select **Add permissions**.
 
 1.  Select **Grant admin consent for (your organization)**.
 

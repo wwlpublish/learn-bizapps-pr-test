@@ -10,4 +10,4 @@ The dashboard provides analytics and data for the following areas:
 
 The following video demonstrates how to connect the Power BI report.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE4M4MK] 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4M4MK] 

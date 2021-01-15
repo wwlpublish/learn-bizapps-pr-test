@@ -185,7 +185,7 @@ The import can take up to 10 minutes to be completed.
 
 ## Activate the sync template flows
 
-The flows with the prefix **Sync** are required for populating and cleaning up data in the Dataverse tables (Environment, Power Apps App, Flow, Flow Action Detail, Connector, and Maker). The sync flows are used to write or delete data from the admin connectors to the Dataverse tables. These flows run on a schedule.
+The flows with the prefix **Sync** are required for populating and cleaning up data in the Dataverse tables (Environment, Power Apps, Flow, Flow Action Detail, Connector, and Maker). The sync flows are used to write or delete data from the admin connectors to the Dataverse tables. These flows run on a schedule.
 
 The first run of these will be long running. To avoid issues, enable the flows in an explicit order and repeat this order on each upgrade as well.
 
@@ -193,7 +193,7 @@ The first run of these will be long running. To avoid issues, enable the flows i
 
 1.  Wait until it finishes before you turn on any other flows.
 
-1.  Ensure that the Sync Template v2 flows are already turned on for the following object types: Apps, Connectors, Custom Connectors, Flows, Model Driven Apps, PVA, RPA.
+1.  Ensure that the Sync Template v2 flows are already turned on for the following object types: Apps, Connectors, Custom Connectors, Flows, Model Driven Apps, Power Virtual Agents, Robotic Process Automation.
 
 1.  Turn on **Admin | Sync Template v2**. When it completes, turn it off again.
 
