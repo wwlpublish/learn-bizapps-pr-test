@@ -30,6 +30,7 @@ products:
 modules:
 - learn-bizapps.security-governance-intro
 - learn-bizapps.plan-manage-environment
+- learn-bizapps.get-started-center-excellence
 - learn-bizapps.manage-solutions-power-automate
 - learn-bizapps.implementation-recommendations
 - learn-bizapps.manage-environmental-changes
