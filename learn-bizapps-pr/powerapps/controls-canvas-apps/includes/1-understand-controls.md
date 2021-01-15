@@ -3,7 +3,7 @@ In Power Apps, you can add a variety of user interface (UI) elements to your can
 You can find all the controls available in Power Apps on the **Insert**
 tab.
 
-![Controls Ribbon](../media/control-ribbon.png)
+![Power Apps Controls Ribbon menu items for the Insert tab.](../media/control-ribbon.png)
 
 You can configure the appearance and behavior of a control by setting
 one or more of its properties. Each type of control has a different set

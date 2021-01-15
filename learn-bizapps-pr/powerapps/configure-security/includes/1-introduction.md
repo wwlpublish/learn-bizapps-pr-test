@@ -15,11 +15,11 @@ However, certain private or protected information should only be made accessible
 
 <!--image of contact record -->
 > [!div class="mx-imgBorder"]
-> [![Contact record](../media/portal-contact.png)](../media/portal-contact.png#lightbox)
+> [![Screenshot of a contact record accessible from a portal.](../media/portal-contact.png)](../media/portal-contact.png#lightbox)
 
 A portal user will need to sign in by using an authentication process in which the portal application will recognize the visitor as a specific Dataverse contact. The portal can then show the protected and private static and dynamic content to that portal user.
 
-[Set up portal authentication](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal-authentication/?azure-portal=true)
+[Screenshot of how to set up portal authentication for users.](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-portal-authentication/?azure-portal=true)
 
 A contact can be recognized as a portal user by accepting an invitation from the portal that is associated with an existing contact or by registering as a new contact.
 
@@ -35,7 +35,7 @@ A common relationship in Dynamics 365 and Dataverse apps is where the contact is
 
 <!--image of portal user registering-->
 > [!div class="mx-imgBorder"]
-> [![Contact Registration](../media/contact-registration.png)](../media/contact-registration.png#lightbox)
+> [![Screenshot of contact registration account setup in a portal.](../media/contact-registration.png)](../media/contact-registration.png#lightbox)
 
 ## Web role
 
@@ -56,4 +56,4 @@ You can assign web roles by using the Portal Management app and relating an exis
 Web roles can be configured to automatically provide access to all authenticated users or all anonymous users.
 
 > [!div class="mx-imgBorder"]
-> [![Web role](../media/web-role.png)](../media/web-role.png#lightbox)
+> [![Screenshot of the Web role and actions from this role.](../media/web-role.png)](../media/web-role.png#lightbox)

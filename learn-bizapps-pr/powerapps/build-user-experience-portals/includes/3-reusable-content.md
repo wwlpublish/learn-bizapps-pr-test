@@ -7,7 +7,7 @@ Content snippets are small chunks of editable content that can be placed by a te
 New content snippets can only be created in the Portal Management app. If a template maker inserts a snippet as editable, then the portals Studio will display the **Edit** command when a user hovers over the snippet. Snippet content then can be edited by using the Source code editor.
 
 > [!div class="mx-imgBorder"]
-> [![Editing footer snippet](../media/snippet-editing.png)](../media/snippet-editing.png#lightbox)
+> [![Screenshot of editing footer source code snippet.](../media/snippet-editing.png)](../media/snippet-editing.png#lightbox)
 
 Content managers who are editing a snippet should be aware whether the snippet is used in one place only, for example when defining the title on the portals home page, or if the snippet is used in multiple templates throughout the site, such as an official business trading name (that can change). In the latter scenario, changing the content in one place will update it wherever the snippet is used.
 
@@ -22,7 +22,7 @@ The front-side content editor can be used to create the hierarchical structure o
 For example, consider scenarios when you have a **News** page that contains news categories. You might decide to list the latest company announcement as part of the news navigation. To accomplish that task, you would define a **Latest** shortcut (with the **News** page as a parent) that points to the latest announcement (which could be "buried" in the hierarchy and have a URL such as `https://www.contoso.com/news/2019/Q1/profit-up-20-percent`). As a result, your navigation would place a shortcut on a page from the hierarchy directly below the top level news categories.
 
 > [!div class="mx-imgBorder"]
-> [![Shortcut sample](../media/shortcut-sample.png)](../media/shortcut-sample.png#lightbox)
+> [![Screenshot of shortcut URL sample navigation.](../media/shortcut-sample.png)](../media/shortcut-sample.png#lightbox)
 
 Normally, the shortcut security is defined by the security target. Select **Disable target validation** to define shortcut visibility by the security that is assigned to the parent page. This action will determine whether the shortcut will be visible in the site map.
 

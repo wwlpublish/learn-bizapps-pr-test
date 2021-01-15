@@ -1,14 +1,14 @@
 Often, organizations need to serve audiences of different languages, or they are required by law to provide multilingual content. A Power Apps portal can deliver content in multiple languages. You can support multiple languages by creating versions of your content structure for each additional language, which helps make it easier to translate and maintain. When a portal user selects a language, they are selecting a specific language version of your content structure.
 
 > [!div class="mx-imgBorder"]
-> [![Select portal language](../media/home-page-select-language.png)](../media/home-page-select-language.png#lightbox)
+> [![Screenshot to Select portal language on setup.](../media/home-page-select-language.png)](../media/home-page-select-language.png#lightbox)
 
 ## Configure additional languages
 
 You can configure additional languages by using the Portal Management app. The **Website** record has a **Supported Languages** section, where you can select the **Add New Website Language** option. When you add a new language to a website, make sure that you select **Portal Language** and **Publishing State**.
 
 > [!div class="mx-imgBorder"]
-> [![New website language](../media/new-website-language.png)](../media/new-website-language.png#lightbox)
+> [![Screenshot of New website language selection.](../media/new-website-language.png)](../media/new-website-language.png#lightbox)
 
 > [!IMPORTANT]
 > Website language will only allow you to select languages that are already enabled in your Microsoft Power Platform environment. If a language is not visible in the view, the system administrator would need to enable the language in the environment.
@@ -22,7 +22,7 @@ You can create language-aware content through localized content on webpages, by 
 Webpages have the concept of localized content pages. The **Localized Content** page is where the actual content of the webpage is created or modified. You can select different templates for each of the content pages, rendering them differently depending on the language.
 
 > [!div class="mx-imgBorder"]
-> [![List of content pages](../media/content-pages-list.png)](../media/content-pages-list.png#lightbox)
+> [![Screenshot of list of content pages for localization.](../media/content-pages-list.png)](../media/content-pages-list.png#lightbox)
 
 However, after you have enabled multiple languages, a single page hierarchy structure will still exist for webpages. In each language of the portal, parent and child pages will have the same relationship, and they will inherit the same security and web files as they would in a single language portal.
 

@@ -1,12 +1,12 @@
 Entity permissions define the access and scope that a portal user has to a particular Microsoft Dataverse or Dynamics 365 entity on the portal. Dataverse records can be accessed on a Power Apps portal by using an entity form, entity list, or web form, or it can be shown by using *Liquid* tags in webpage content or web templates.
 
 > [!div class="mx-imgBorder"]
-> [![Entity Permission](../media/entity-permission.png)](../media/entity-permission.png#lightbox)
+> [![Screenshot of Entity Permission for access and scope in portals.](../media/entity-permission.png)](../media/entity-permission.png#lightbox)
 
 You can create an entity permission in the Portal Management app and associate it to a specific web role to allow portal user access.
 
 > [!div class="mx-imgBorder"]
-> [![Entity Permission Web Role](../media/web-role-entity-lists.png)](../media/web-role-entity-lists.png#lightbox)
+> [![Screenshot of Entity Permission Web Role settings in poratls.](../media/web-role-entity-lists.png)](../media/web-role-entity-lists.png#lightbox)
 
 ## Create an entity permission
 
@@ -39,7 +39,7 @@ If an **Entity Permission** record that has Global scope is associated with a we
 For example, if a lead entity is granted the Read privilege with Global scope, all users in assigned web roles will be able to see all leads. This permission will be automatically respected by any entity lists, essentially showing all records, according to the model-driven views, that have been defined for that list.
 
 > [!div class="mx-imgBorder"]
-> [![Global scope](../media/global-scope.png)](../media/global-scope.png#lightbox)
+> [![Screenshot of Global scope settings in portals.](../media/global-scope.png)](../media/global-scope.png#lightbox)
 
 Global scope is most frequently used with Read privilege to provide access to the reference data, for example, a list of countries or currencies.
 
@@ -50,7 +50,7 @@ With Contact scope, a signed-in user in the role for which the entity permission
 On an entity list, a filter will be added to whatever model-driven views are shown by that list, which only retrieves records that are directly linked to the current user. Depending on the scenario, this relationship can be thought of as ownership or management rights.
 
 > [!div class="mx-imgBorder"]
-> [![Contact scope](../media/contact-scope.png)](../media/contact-scope.png#lightbox)
+> [![Screenshot of Contact scope for signed-in user role of portal.](../media/contact-scope.png)](../media/contact-scope.png#lightbox)
 
 For example, a set of privileges can be granted to a web role that allow Contact scope access to the orders by using the customer type of relationship. In other words, any portal user with that web role will have access to a subset that can be considered as *My Orders*.
 
@@ -59,7 +59,7 @@ For example, a set of privileges can be granted to a web role that allow Contact
 With Account scope, a signed-in user in the role for which the permission record is defined will have the rights granted by that permission only for records that are related to that user's parent account record through a selected Dataverse relationship.
 
 > [!div class="mx-imgBorder"]
-> [![Account scope](../media/account-scope.png)](../media/account-scope.png#lightbox)
+> [![Screenshot of Account scope signed-in user role of portal.](../media/account-scope.png)](../media/account-scope.png#lightbox)
 
 For example, a set of privileges is granted to a web role that allows Account scope access to the cases by using a customer type relationship between an account and case entities. In other words, any portal user with that web role will have access to a subset that can be thought of as *My Account's Cases*. 
 
@@ -70,7 +70,7 @@ Parent scope is designed to cover most complex scenarios where a portal user wil
 The **Parent Permission** record defines a permission and scope for an entity (Cases, in this example). With that permission in place, a child permission is created that defines a relationship from another entity (Notes, in this example) to the entity that is defined in the parent relationship (Cases).
 
 > [!div class="mx-imgBorder"]
-> [![Parental scope](../media/parental-scope.png)](../media/parental-scope.png#lightbox)
+> [![Screenshot of Parental scope of signed-in user role of portal.](../media/parental-scope.png)](../media/parental-scope.png#lightbox)
 
 Users in a web role with access to records that are defined by parent entity permissions will also have rights, as defined by the child permission record, to the records that are related to the parent record.
 
@@ -83,7 +83,7 @@ The default profile page has a special built-in form that allows any user to cha
 To apply entity permissions to entity list or entity form components, a maker will need to select the **Enable entity permissions** check box when configuring the component in the portals Studio.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Studio Set Entity Permission](../media/portal-studio-entity-permission.png)](../media/portal-studio-entity-permission.png#lightbox)
+> [![Screenshot of Portal Studio Set Entity Permission for user rights.](../media/portal-studio-entity-permission.png)](../media/portal-studio-entity-permission.png#lightbox)
 
 **Entity permissions** are automatically applied to data that is retrieved by using Liquid tags.
 
