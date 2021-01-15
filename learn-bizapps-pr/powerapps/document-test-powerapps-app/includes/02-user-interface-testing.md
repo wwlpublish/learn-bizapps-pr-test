@@ -5,7 +5,7 @@ EasyRepro is a library of tools from Microsft to provide Dynamics customers the 
 ## Sample Tests
 Over 100 standard tests for the Web Client and over 50 tests for the Unified Interface are available. The sample test bank covers create, retrieve, update, and delete scenarios for multiple entities including contacts, opportunities, accounts, leads, and cases. This provides you the ability to easily run and start creating customized tests using the test bank as your initial code base. You can easily access the pre-defined tests within each of the specific functional areas you are testing.
 
-![Screenshot of a sample test bank](../media/T1_EasyReproUser_interface_testing_image1.png)
+![Screenshot of a sample test bank in Visual Source Code.](../media/T1_EasyReproUser_interface_testing_image1.png)
 
 --- 
 
