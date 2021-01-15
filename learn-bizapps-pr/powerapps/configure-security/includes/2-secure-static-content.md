@@ -9,14 +9,14 @@ By default, when a maker creates a new webpage by using Power Apps portals Studi
 <!--image hide page in default menu-->
 
 > [!div class="mx-imgBorder"]
-> [![Hide in default menu](../media/hide-page.png)](../media/hide-page.png#lightbox)
+> [![Scrrenshot showing how to hide in default menu items in portal.](../media/hide-page.png)](../media/hide-page.png#lightbox)
 
 ## Webpage access control rule
 
 The **Web Page Access Control Rule** entity is a portal metadata record that can be linked to a specific webpage that can determine the visibility to that page.
 
 > [!div class="mx-imgBorder"]
-> [![Web Page Access Control Rule](../media/web-page-access-control-rule.png)](../media/web-page-access-control-rule.png#lightbox)
+> [![Screenshot of Web Page Access Control Rule entity setttings.](../media/web-page-access-control-rule.png)](../media/web-page-access-control-rule.png#lightbox)
 
 The following table describes the **Web Page Access Control Rule** record properties.
 
@@ -38,4 +38,4 @@ After you have defined an access control for a webpage, the page will not be acc
 The **Web Page Access Control Rule** record can then be linked to a web role that will provide access to any related contact records so that users can access the particular webpage.
 
 > [!div class="mx-imgBorder"]
-> [![Web page access control rule](../media/web-page-access-rule.png)](../media/web-page-access-rule.png#lightbox)
+> [![Screnshot of Web page access control rule settings in portal.](../media/web-page-access-rule.png)](../media/web-page-access-rule.png#lightbox)
