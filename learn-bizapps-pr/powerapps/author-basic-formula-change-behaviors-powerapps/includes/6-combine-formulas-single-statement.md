@@ -18,7 +18,7 @@ The following example uses the **Button** control and the
 
    > Use the following screenshot for positioning and formatting.
 
-   > ![Power Apps Tree view Screen1](../media/display-mode-update.png)
+   > ![Screenshot of Power Apps Tree view Screen label.](../media/display-mode-update.png)
 
 1. Select **Add** button (Button1), and set the **OnSelect** property to
 
