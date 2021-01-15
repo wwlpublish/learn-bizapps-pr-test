@@ -87,7 +87,7 @@ Country:"Italy", Population:1344000})
 5.  Select the top or first Label, in the **Text** property the default for example shows **ThisItem.City**, you could
     change this to something else if you would like. For more
     information about the ThisItem operator, see
-    [Operators and data types in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/operators).
+    [Screenshot of operators and data types in Power Apps for text property.](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/operators).
 
 6.  Select the middle or second Label, which shows as
     **ThisItem.Country**.
@@ -95,7 +95,7 @@ Country:"Italy", Population:1344000})
 7.  Select the last or third Label, change the **Text** property to
     **ThisItem.Population**.
 
-![Gallery Image](../media/gallery-image.png)
+![Screenshot of Gallery Image menu items for text property.](../media/gallery-image.png)
 
 These were just two simple examples demonstrating some basic
 functionality of a label control. There are many other ways to utilize
