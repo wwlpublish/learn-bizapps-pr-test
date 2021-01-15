@@ -15,25 +15,25 @@ To improve the layout, use the following procedure:
 
     The selection box around the gallery confirms your choice.
 
-    ![Select gallery](../media/select-gallery.png)
+    ![Screenshot of the browse screen to select gallery.](../media/select-gallery.png)
 
 1. On the right pane, open the Data pane by selecting the drop-down menu next to **Layout**.
 
-    ![Show layout options](../media/powerapps-layout.png)
+    ![Screenshot that shows the layout options from data pane.](../media/powerapps-layout.png)
 
 1. Select a different layout, such as the one that shows the image, the title, and the subtitle but not the body.
 
-    ![Change layout](../media/change-layout.png)
+    ![Screenshot of change layout for image, title, and subtitle.](../media/change-layout.png)
 
 1. Select the category of the item at the top of the gallery.
 
-    ![Select category label](../media/select-category.png)
+    ![Screenshot that shows the select category label options from gallery.](../media/select-category.png)
 
 1. Change **ThisItem.Category** to **ThisItem.Name** in the formula bar.
 
 1. Repeat the previous two steps but change the other **Label** control to show the price of each item.
 
-    ![Add price](../media/add-price.png)
+    ![Screenshot of adding the price lable for each item.](../media/add-price.png)
 
 Changing the layout of a gallery and the types of data that it shows is that simple, and you might find that it's fun, too.
 
@@ -46,11 +46,11 @@ browse screen, so the process for changing them is also slightly different.
 
 1. On the right pane, select **Edit fields**.
 
-    ![Select Edit fields](../media/powerapps-edit-fields.png)
+    ![Screenshot of Select Edit fields from the detail form.](../media/powerapps-edit-fields.png)
 
 1. Drag the **Name** field to the top of the list of fields and then drag the **Image** field to the bottom.
 
-    ![Move fields on the details screen](../media/powerapps-move-fields.png)
+    ![Screenshot of Move fields on the details screen at the tpp.](../media/powerapps-move-fields.png)
 
 ## Edit/create screen
 
