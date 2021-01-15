@@ -4,14 +4,14 @@ The Partner portal provides organizations that have a partner channel with a mec
 > The Partner portal is only available on Microsoft Dataverse environments with Dynamics 365 apps enabled.
 
 > [!div class="mx-imgBorder"]
-> [![Partner Portal Home Page](../media/5-partner-portal-home.png)](../media/5-partner-portal-home.png#lightbox)
+> [![Screenshot of initial Partner Portal Home Page available with Dynamics 365 apps.](../media/5-partner-portal-home.png)](../media/5-partner-portal-home.png#lightbox)
 
 Self-service and assisted service features in the Partner portal have the same functionality as in Community or Customer self-service portals, though the target audience is partners and not customers. This factor might influence how the feature is configured and used.
 
 When you are provisioning the Partner portal, you can add more features if the Dynamics 365 organization has Field Service or Project Service solutions loaded. Selecting these options will extend portal features to these Microsoft applications.
 
 > [!div class="mx-imgBorder"]
-> [![Enable Packages](../media/5-partner-add-ons.png)](../media/5-partner-add-ons.png#lightbox)
+> [![Screenshot of enable packages when provisioning the portal.](../media/5-partner-add-ons.png)](../media/5-partner-add-ons.png#lightbox)
 
 ## Partner management
 
