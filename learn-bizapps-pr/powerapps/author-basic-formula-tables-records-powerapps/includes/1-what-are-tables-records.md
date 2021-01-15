@@ -24,7 +24,7 @@ the other arguments that you specify.
 
 **Elements of a table**
 
-![Column](../media/column.png)
+![Screenshot showing a column within a table in studio.](../media/column.png)
 
 For the following examples, this table will be assumed to be from a data
 source named YourInventory.
