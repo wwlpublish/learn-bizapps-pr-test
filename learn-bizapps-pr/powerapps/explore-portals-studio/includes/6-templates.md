@@ -6,7 +6,7 @@ On the toolbelt, select **Templates** and then choose the web template that you 
 > Some of the default web templates, or web templates without a corresponding page template, might not be editable.  
 
 > [!div class="mx-imgBorder"]
-> [![Web templates](../media/6-web-templates-ss.png)](../media/6-web-templates-ss.png#lightbox)
+> [![Screenshot of default web templates available in the studio.](../media/6-web-templates-ss.png)](../media/6-web-templates-ss.png#lightbox)
 
 > [!WARNING]
 > Directly editing the web templates with incorrect syntax can lead to undesirable results.

@@ -9,7 +9,7 @@ The Custom portal contains core features such as content management, security, a
 
 | Environment with Dynamics 365 apps                           | Dataverse environment without Dynamics 365 apps                    |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| ![Dynamics 365 Apps - Custom Home Page](../media/6-custom-portal.png "Custom Home Dynamics 365 apps") | ![CDS only](../media/6-cds-blank-Portal.png "CDS Blank Portal") |
+| ![Screenshot of Dynamics 365 Apps - Custom Home Page](../media/6-custom-portal.png "Custom Home Dynamics 365 apps") | ![Screenshot of blank CDS only for blank portal setup.](../media/6-cds-blank-Portal.png "CDS Blank Portal") |
 
 > [!NOTE]
 > When **Portal from blank** is provisioned in a Dataverse environment with Dynamics 365 apps enabled, it will include an additional **Contact Us** page that allows anonymous enquiries to be recorded as leads within the Dynamics 365 app. 

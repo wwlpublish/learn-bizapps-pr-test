@@ -1,7 +1,7 @@
 Microsoft Power Apps portals Studio is a WYSIWYG design tool that will allow portal makers to create webpages and content and specify properties of portal components. Portals Studio is accessible from the Power Apps maker portal.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Studio](../media/1-portal-studio-ss.png)](../media/1-portal-studio-ss.png#lightbox)
+> [![Screenshot of Portal Studio design tool homepage.](../media/1-portal-studio-ss.png)](../media/1-portal-studio-ss.png#lightbox)
 
 ## Launch portals Studio
 
@@ -19,7 +19,7 @@ This procedure will launch the Studio, where makers can begin creating webpages 
 The portals Studio provides the tools that makers can use to modify and add content.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Studio Anatomy](../media/1-portal-studio-anatomy-ssm.png)](../media/1-portal-studio-anatomy-ssm.png#lightbox)
+> [![Screenshot showing the Portal Studio Anatomy including tools.](../media/1-portal-studio-anatomy-ssm.png)](../media/1-portal-studio-anatomy-ssm.png#lightbox)
 
 | Section | Name | Description |
 | ------- | ---- | ----------- |

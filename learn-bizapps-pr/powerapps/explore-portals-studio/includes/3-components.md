@@ -5,7 +5,7 @@ This simple design approach will add corresponding HTML, CSS, or Liquid code to 
 Select the component from the toolbelt to add it to the webpage canvas. Depending on the component type, you can either enter the content directly on the canvas (for example, text) or configure the component by using the Properties pane.
 
 > [!div class="mx-imgBorder"]
-> [![Web Page Components](../media/3-web-page-components-ss.png)](../media/3-web-page-components-ss.png#lightbox)
+> [![Screenshot of the portal web page componenets that are accessible from the canvas.](../media/3-web-page-components-ss.png)](../media/3-web-page-components-ss.png#lightbox)
 
 | Component      | Description                                                                                                                                                                                    |
 |----------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
