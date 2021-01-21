@@ -16,13 +16,13 @@ Workspaces are places to collaborate with colleagues to create and refine collec
 
 By clicking on **Workspaces** users can Create a workspace which will allow everybody or nobody in an organization to create new workspaces. They can also limit creation to members of specific security groups.
 
-![Screenshot of the Workspace settings dialog.](../media/06-power-bi-desktop-workspace-settings2.png)
+![Screenshot of the Workspace settings dialog.](../media/06-power-bi-desktop-workspace-settings-2.png)
 
 ## Setting up a classic workspace
 
 Setting up a classic workspace has the same steps as setting up a new workspace, with one additional step.  In the workspace dialog box you need to click on **revert to classic** to set up a classic workspace
 
-![Screenshot of the "My Workspace" menu option.](../media/pbi-learn06-01expandmywkspace2.png)
+![Screenshot of the "My Workspace" menu option.](../media/pbi-learn06-01-expand-my-workspace-2.png)
 
 In the **Create a group** dialog box, type email addresses, security groups, and distribution lists. Select **Add** to make the set of users members of the group, and then select **Save** to save the group.
 

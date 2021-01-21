@@ -7,7 +7,7 @@ Start in the Power BI service. In **My Workspace**, you will create an app that 
 
 Select the Create app button in the upper right to start the process of creating and publishing an app from the workspace.
 
-![Screenshot of the "Publish app" button.](../media/07-power-bi-desktop-publish-app2.png)
+![Screenshot of the "Publish app" button.](../media/07-power-bi-desktop-publish-app-2.png)
 
 On Setup, fill in the name and description to help people find the app. You can set a theme color to personalize it. You can also add a link to a support site.
 
