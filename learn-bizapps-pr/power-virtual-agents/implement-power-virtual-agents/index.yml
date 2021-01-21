@@ -2,7 +2,7 @@
 uid: learn-bizapps.implement-power-virtual-agents 
 metadata: 
  title: Implement Power Virtual Agents
- description: Learn to implement no-code chatbots to solve common customer issues.
+ description: Learn how to implement no-code chatbots to solve common customer issues.
  ms.date: 01/15/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,12 +11,12 @@ metadata:
 title: Implement Power Virtual Agents
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn to implement no-code chatbots to solve common customer issues.
+  Learn how to implement no-code chatbots to solve common customer issues.
 abstract: |  
     In this module, you will: 
-    - Create and configure a new bot
-    - Set permissions and security
-    - Use topics and entities
+    - Create and configure a new bot.
+    - Set permissions and security.
+    - Use topics and entities.
 prerequisites: none
 iconUrl: /learn/achievements/implement-power-virtual-agents.svg  
 levels:  
