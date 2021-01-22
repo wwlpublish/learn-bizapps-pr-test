@@ -15,57 +15,57 @@ quiz:
   questions: 
   - content: How do you migrate topics from one environment to another?
     choices: 
-    - content: Export the topic as a zipped file from one chat bot and import it to another chat bot in the other environment.
+    - content: Export the topic as a zipped file from one chatbot and then import it to another chatbot in the other environment.
       isCorrect: false 
-      explanation: Currently there is no option to migrate only topics from one environment to another. You need to create a Solution and then add the chat bot to that solution. Then you can export and import the chatbot.
-    - content: Export the entire chatbot as a zipped file from the source environment and import it to the destination environment.
+      explanation: Currently, no option exists for migrating only topics from one environment to another. You need to create a solution and then add the chatbot to that solution. Then, you can export and import the chatbot.
+    - content: Export the entire chatbot as a zipped file from the source environment and then import it to the destination environment.
       isCorrect: false 
-      explanation: Currently there is no option to migrate only topics from one environment to another. You need to create a Solution and then add the chat bot to that solution. Then you can export and import the chatbot.
-    - content: You cannot migrate only topics. You must migrate the entire chatbot using a Solution.
+      explanation: Currently, no option exists for migrating only topics from one environment to another. You need to create a solution and then add the chatbot to that solution. Then, you can export and import the chatbot.
+    - content: You can't migrate only topics. You must migrate the entire chatbot by using a solution.
       isCorrect: true 
-      explanation: Currently there is no option to migrate only topics from one environment to another. You need to create a Solution and then add the chat bot to that solution. Then you can export and import the chatbot.
-    - content: You use the Power Automate template to copy and paste the chatbot topics.
+      explanation: Currently, no option exists for migrating only topics from one environment to another. You need to create a solution and then add the chatbot to that solution. Then, you can export and import the chatbot.
+    - content: You would use the Power Automate template to copy and paste the chatbot topics.
       isCorrect: false 
-      explanation: Currently there is no option to migrate only topics from one environment to another. You need to create a Solution and then add the chat bot to that solution. Then you can export and import the chatbot.
-  - content: How do chatbots leverage the existing Tables in Power Apps or Power Automate?
+      explanation: Currently, no option exists for migrating only topics from one environment to another. You need to create a solution and then add the chatbot to that solution. Then, you can export and import the chatbot.
+  - content: How do chatbots use the existing tables in Power Apps or Power Automate?
     choices: 
-    - content: The existing Tables in Power Apps or Power Automate are already available in the Chatbot entities.
+    - content: The existing tables in Power Apps or Power Automate are already available in the chatbot entities.
       isCorrect: false 
-      explanation: Currently, the only option to connect with tables is using Power Automate flow. To trigger the flow, you use the Call an action feature in Chatbot authoring canvas.
-    - content: Using the Call an action feature in the Chatbot authoring canvas.
+      explanation: Currently, the only option to connect with tables is by using Power Automate flow. To trigger the flow, you would use the Call an action feature in the chatbot authoring canvas.
+    - content: You need to use the Call an action feature in the chatbot authoring canvas.
       isCorrect: true 
-      explanation: Currently, the only option to connect with tables is using Power Automate flow. To trigger the flow, you use the Call an action feature in Chatbot authoring canvas.
-    - content: You do a one-time synchronization configuration available in the chatbot manage.
+      explanation: Currently, the only option to connect with tables is by using Power Automate flow. To trigger the flow, you would use the Call an action feature in the chatbot authoring canvas.
+    - content: You do a one-time synchronization configuration that is available in the chatbot manager.
       isCorrect: false 
-      explanation: Currently, the only option to connect with tables is using Power Automate flow. To trigger the flow, you use the Call an action feature in Chatbot authoring canvas.
-    - content: You do a one-time synchronization configuration using the Bot Framework.
+      explanation: Currently, the only option to connect with tables is by using Power Automate flow. To trigger the flow, you would use the Call an action feature in the chatbot authoring canvas.
+    - content: You do a one-time synchronization configuration by using the Bot Framework.
       isCorrect: false 
-      explanation: Currently, the only option to connect with tables is using Power Automate flow. To trigger the flow, you use the Call an action feature in Chatbot authoring canvas.
-  - content: What are the authentication options currently available?
+      explanation: Currently, the only option to connect with tables is by using Power Automate flow. To trigger the flow, you would use the Call an action feature in the chatbot authoring canvas.
+  - content: What authentication options are currently available?
     choices: 
-    - content: No authentication, Only for Teams, and Manual using Azure Active Directory.
+    - content: No authentication, Only for Teams, and Manual using Azure Active Directory
       isCorrect: true 
-      explanation: You currently have three options to choose from for authentication. No authentication, Only for Teams, and Manual using Azure Active Directory.
-    - content: Azure Active Directory and Microsoft 365 Groups.
+      explanation: The three authentication options that you can choose from are No authentication, Only for Teams, and Manual using Azure Active Directory.
+    - content: Azure Active Directory and Microsoft 365 Groups
       isCorrect: false 
-      explanation: You currently have three options to choose from for authentication. No authentication, Only for Teams, and Manual using Azure Active Directory.
-    - content: Azure Active Directory and Teams.
+      explanation: The three authentication options that you can choose from are No authentication, Only for Teams, and Manual using Azure Active Directory.
+    - content: Azure Active Directory and Teams
       isCorrect: false 
-      explanation: You currently have three options to choose from for authentication. No authentication, Only for Teams, and Manual using Azure Active Directory.
-    - content: Azure Active Directory and Power Automate flow.
+      explanation: The three authentication options that you can choose from are No authentication, Only for Teams, and Manual using Azure Active Directory.
+    - content: Azure Active Directory and Power Automate flow
       isCorrect: false 
-      explanation: You currently have three options to choose from for authentication. No authentication, Only for Teams, and Manual using Azure Active Directory.
-  - content: What information does Analytics provide?
+      explanation: The three authentication options that you can choose from are No authentication, Only for Teams, and Manual using Azure Active Directory.
+  - content: What information does the Analytics section provide?
     choices: 
-    - content: Summary and Customer Satisfaction.
+    - content: Summary and Customer Satisfaction
       isCorrect: false 
-      explanation: Power Virtual Agents has a comprehensive set of analytics that show you the key performance indicators for your bot. This helps you analyze your bot performance and usage, customer satisfaction, topic usage, session information, and billed session information.
-    - content: Summary, Customer Satisfaction, and Sessions.
+      explanation: Power Virtual Agents has a comprehensive set of analytics that show you the key performance indicators for your bot. This feature helps you analyze your bot performance and usage, customer satisfaction, topic usage, session information, and billed session information.
+    - content: Summary, Customer Satisfaction, and Sessions
       isCorrect: false 
-      explanation: Power Virtual Agents has a comprehensive set of analytics that show you the key performance indicators for your bot. This helps you analyze your bot performance and usage, customer satisfaction, topic usage, session information, and billed session information.
-    - content: Summary, Customer Satisfaction, Sessions, and error log.
+      explanation: Power Virtual Agents has a comprehensive set of analytics that show you the key performance indicators for your bot. This feature helps you analyze your bot performance and usage, customer satisfaction, topic usage, session information, and billed session information.
+    - content: Summary, Customer Satisfaction, Sessions, and error log
       isCorrect: false 
-      explanation: Power Virtual Agents has a comprehensive set of analytics that show you the key performance indicators for your bot. This helps you analyze your bot performance and usage, customer satisfaction, topic usage, session information, and billed session information.
-    - content: Summary, Customer Satisfaction, Sessions, and Billing.
+      explanation: Power Virtual Agents has a comprehensive set of analytics that show you the key performance indicators for your bot. This feature helps you analyze your bot performance and usage, customer satisfaction, topic usage, session information, and billed session information.
+    - content: Summary, Customer Satisfaction, Sessions, and Billing
       isCorrect: true 
-      explanation: Power Virtual Agents has a comprehensive set of analytics that show you the key performance indicators for your bot. This helps you analyze your bot performance and usage, customer satisfaction, topic usage, session information, and billed session information.
+      explanation: Power Virtual Agents has a comprehensive set of analytics that show you the key performance indicators for your bot. This feature helps you analyze your bot performance and usage, customer satisfaction, topic usage, session information, and billed session information.
