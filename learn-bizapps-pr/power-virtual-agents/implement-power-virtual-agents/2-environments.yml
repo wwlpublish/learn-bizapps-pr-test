@@ -4,12 +4,12 @@ title: Environments in Power Virtual Agents
 metadata: 
   title: Environments in Power Virtual Agents
   description: Learn how to create bots in different environments.
-  ms.date: 01/15/2021 
+  ms.date: 01/22/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-virtual-agents 
-durationInMinutes: 2
+durationInMinutes: 5
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/2-environments.md)] 

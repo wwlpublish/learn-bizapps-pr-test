@@ -4,12 +4,12 @@ title: Bot entities and flow permissions
 metadata: 
   title: Bot entities and flow permissions
   description: Learn about prebuilt entities and flows.
-  ms.date: 01/15/2021 
+  ms.date: 01/22/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-virtual-agents 
-durationInMinutes: 1
+durationInMinutes: 2
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/4-bot-entities.md)] 
