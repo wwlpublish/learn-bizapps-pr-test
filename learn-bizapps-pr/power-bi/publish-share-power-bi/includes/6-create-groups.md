@@ -22,7 +22,7 @@ By clicking on **Workspaces** users can Create a workspace which will allow ever
 
 Setting up a classic workspace has the same steps as setting up a new workspace, with one additional step.  In the workspace dialog box you need to click on **revert to classic** to set up a classic workspace
 
-![Screenshot of the "My Workspace" menu option.](../media/pbi-learn06-01-expand-my-workspace-2.png)
+![Screenshot of the "My Workspace" menu option.](../media/power-bi-learn-06-01-expand-my-workspace-2.png)
 
 In the **Create a group** dialog box, type email addresses, security groups, and distribution lists. Select **Add** to make the set of users members of the group, and then select **Save** to save the group.
 
