@@ -35,7 +35,7 @@ If you do not have a source data table, you can use other ways to build a common
 
 You can use the Data Analysis Expression (DAX) functions CALENDARAUTO() or CALENDAR() to build your common date table. The CALENDAR() function returns a contiguous range of dates based on a start and end date that are entered as arguments in the function. Alternatively, the CALENDARAUTO() function returns a contiguous, complete range of dates that are automatically determined from your dataset. The starting date is chosen as the earliest date that exists in your dataset, and the ending date is the latest date that exists in your dataset plus data that has been populated to the fiscal month that you can choose to include as an argument in the CALENDARAUTO() function. For the purposes of this example, the CALENDAR() function is used because you only want to see the data from May 31, 2011 (the first day that Sales began its tracking of this data) and forward for the next 10 years.
 
-In Power BI Desktop, go to the **Modeling** tab on the ribbon. Select **New Table**, and then enter in the following DAX formula:
+In Power BI Desktop, go to the **Table** tab on the ribbon. Select **New Table**, and then enter in the following DAX formula:
 
 ```dax 
 Dates  = CALENDAR(DATE(2011, 5, 31), DATE(2021, 5, 31))
