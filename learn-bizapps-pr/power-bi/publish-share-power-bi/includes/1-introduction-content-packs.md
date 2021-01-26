@@ -13,7 +13,7 @@ Tasks in this module:
 
 ## Share and collaborate with colleagues in Power BI
 
-Power BI offers various ways of sharing and collaborating with colleagues on your dashboards, reports, and data including:
+Power BI offers various ways of sharing and collaborating with colleagues on your dashboards, reports, and datasets including:
 
  - Publish your reports from Power BI Desktop to the Power BI service.
  - Create *Apps* that package a dashboard, report, and dataset to send to your colleagues, who can use the content pack as a starting point and further enhance it.
