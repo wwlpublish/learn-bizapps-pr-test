@@ -7,10 +7,10 @@ Sign in to your account by using your Power BI service account information. The 
 
 ![Photo of phones and tablets running the Power BI mobile apps.](../media/05-power-bi-desktop-mobile-apps.png)
 
-Tap any dashboard to open it. Within a dashboard, you can tap a dashboard tile to focus on it in a larger view. Note any insights that you discover by tapping the **Annotate** button in the top-right corner. The Annotate feature allows you to draw on a focused tile to highlight areas of interest. The annotation tools are along the bottom of the screen.
+Tap any dashboard to open it. Within a dashboard, you can tap a dashboard tile to focus on it in a larger view. Note any insights that you discover by tapping the **Annotate** button. The Annotate feature allows you to draw on a focused tile to highlight areas of interest. The annotation tools are along the bottom of the screen.
 
 ![Screenshot from a smartphone showing drawn annotations over a visual.](../media/05-power-bi-desktop-phone-app.png)
 
-Share your annotated tile by tapping the **Share** link in the top right-hand corner.
+Share your annotated tile by tapping the **Share** link.
 
 For more information, see [What are the Power BI mobile apps?](https://docs.microsoft.com/power-bi/consumer/mobile/mobile-apps-for-mobile-devices/?azure-portal=true).
