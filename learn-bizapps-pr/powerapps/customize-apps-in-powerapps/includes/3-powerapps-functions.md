@@ -3,7 +3,6 @@ When using Microsoft Power Apps, you don't have to write complicated application
 If you've used Microsoft Excel functions, you should recognize the approach that Power Apps takes. This unit shows a couple of basic formulas for text formatting and then describes three of the formulas that Power Apps includes when it generates an app. With this information, you'll have a better idea of what formulas can do, and then you can also start to write your own.
 
 ## Get started with formulas and properties
-Properties determine the appearance and behavior of controls. Each type of control has a different set of properties. 
 
 The previous unit explored controls in all three screens of an app that Power Apps generated. In this section, you’ll use the properties of the label control to format the price in the gallery.
 
@@ -28,8 +27,12 @@ By default, Power Apps pulls in a price value for each item. This value is set a
    Text(ThisItem.Price, "$ ##.00")
    ```
 
-   > [!NOTE]
-   > Some separators and operators will shift based on the decimal separator of the author's language. See [Formula separators and chaining operator](https://docs.microsoft.com/powerapps/maker/canvas-apps/global-apps#formula-separators-and-chaining-operator) for more information.
+> [!NOTE]
+   > If your formula returns an error, then please note that the lanuage setting of your Power Apps environment can affect some separators and operators. For example, the above formula is expressed in a language and region that uses dot or period as the decimal separator, such as Japan or the United Kingdom. However, this same formula in a language and region where a comma is used for the decimal separator, such as France or Spain, the formula will need to be: 
+          ```powerappsfl
+       Text(ThisItem.Price; "$ ##,00")
+       ```
+   The property selection operator . (dot or period) in ThisItem.Price is always the same, no matter what the decimal separator is, but notice that the decimal separator and the chaining operation separator changed to a comma and semicolon respectively. Internally the formula doesn't change, all that changes is how it's displayed and edited by the author. See [Formula separators and chaining operator](https://docs.microsoft.com/powerapps/maker/canvas-apps/global-apps#formula-separators-and-chaining-operator/?azure-portal=true) for more information.
 
 The **Text** function specifies how to format the number. The formula is like an Excel function, but Power Apps formulas refer to controls and other app elements instead of cells in a workbook.
 
