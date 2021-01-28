@@ -24,6 +24,9 @@ You add components to your app by using the App Designer.
     - **Type**: *Entity*
     - **Entity**: *Account*
 
+> [!NOTE]
+> If *Account* is not an option as an entity, you may not have any sample data in your environment. Refer to this exercise on [how to create sample apps and data](https://docs.microsoft.com/learn/modules/intro-model-driven-apps-common-data-service/4-template-apps/?azure-portal=true).
+
     ![Add components to the site map](../media/updated-sitemap.png)
 
 3. Select **Save And Close**.
