@@ -10,7 +10,7 @@ The main benefits are that the healthcare features can be easily deployed withou
 
 ## Subscription requirements
 
-Many Microsoft Azure services are licensed on a consumption model, meaning the costs are determined by computing resources that have been used during a particular billing cycle. There is no fixed per month cost for The Azure API for FHIR. The Azure API for FHIR can be provisioned on an Azure Portal and the monthly costs can be calculated based on projected usage using the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/?azure-portal=true).
+Many Microsoft Azure services are licensed on a consumption model, meaning the costs are determined by computing resources that have been used during a particular billing cycle. There is no fixed per month cost for The Azure API for FHIR. The Azure API for FHIR can be provisioned on an Azure portal and the monthly costs can be calculated based on projected usage using the [Azure Pricing Calculator](https://azure.microsoft.com/pricing/calculator/?azure-portal=true).
 
 The Azure Health Bot is offered as a free or standard plan. The free plan is only recommended for testing and experimenting with the Azure Health Bot. The standard plan is a fixed monthly fee with a set package of messages and content consumption with additional fees for messages and content required beyond the fixed monthly fee. See [Choosing the right Health Bot plan](https://docs.microsoft.com/healthbot/resources/pricing-details/?azure-portal=true) for details.
 
@@ -18,11 +18,11 @@ The Azure Health Bot is offered as a free or standard plan. The free plan is onl
 
 ### Azure API for FHIR
 
-The Azure API for FHIR allows organizations to take data from various medical systems and centralize them in cloud-based systems. The information can then be accessed and updated from Microsoft Cloud for Healthcare applications as well as enabling a variety of AI and analytics features.
+The Azure API for FHIR allows organizations to take data from various medical systems and centralize them in cloud-based systems. The information can then be accessed and updated from Microsoft Cloud for Healthcare applications as well as enabling various AI and analytics features.
 
 The Azure API for FHIR can be deployed by adding a new resource to an existing Azure deployment. The deployment process will provision all the services and APIs to be integrated and accessed from the different electronic medical record systems.
 
-See [Quickstart: Deploy Azure API for FHIR using Azure Portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart/?azure-portal=true) for instructions to provision Azure API for FHIR.
+See [Quickstart: Deploy Azure API for FHIR using Azure portal](https://docs.microsoft.com/azure/healthcare-apis/fhir-paas-portal-quickstart/?azure-portal=true) for instructions to provision Azure API for FHIR.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Azure API for FHIR deployment screen in Azure.](../media/azure-api-fhir.png)](../media/azure-api-fhir.png#lightbox)

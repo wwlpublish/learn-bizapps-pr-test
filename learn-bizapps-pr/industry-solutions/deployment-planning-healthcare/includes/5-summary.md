@@ -1,6 +1,6 @@
-In this module we learned how to plan for a deployment of the Microsoft Cloud for Healthcare applications.
+In this module, we learned how to plan for a deployment of the Microsoft Cloud for Healthcare applications.
 
-We examined some of the features that are deployed to Microsoft Azure such as the Azure API for FHIR as well as the Azure Health Bot.
+We examined some of the features that are deployed to Microsoft Azure such as the Azure API for FHIR and the Azure Health Bot.
 
 We learned about the Power Platform, and how many of the Microsoft Cloud for Healthcare apps are built and extended using the Power Platform and Dynamics 365 solutions. We learned how to deploy some or all of these apps using the Dynamics 365 Solution Center.
 

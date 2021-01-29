@@ -13,7 +13,7 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: You want to provision the Health Bot to implement on your existing Patient Access portal.  What additional Microsoft services do you require?
+  - content: You want to provision the Health Bot to implement on your existing Patient Access portal.  What other Microsoft services do you require?
     choices: 
     - content: Power Platform
       isCorrect: false
@@ -27,7 +27,7 @@ quiz:
     - content: Microsoft 365
       isCorrect: false 
       explanation: You require Microsoft Azure to provision the Azure Health Bot.  Power Platform and Dynamics 365 are for the Microsoft Cloud for Health applications powered by Dynamics 365.  Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
-  - content: An organization has a subscription to the Microsoft Cloud for Healthcare AddOn and is using the Care Management app and wants to roll out the Home Health app.  What additional license do they require?
+  - content: An organization has a subscription to the Microsoft Cloud for Healthcare AddOn and is using the Care Management app and wants to roll out the Home Health app.  What other license do they require?
     choices: 
     - content: Power Apps portals logins
       isCorrect: false
@@ -41,7 +41,7 @@ quiz:
     - content: Dynamics 365 Marketing
       isCorrect: false 
       explanation: The Home Health app is built on top of and uses features of Dynamics 365 Field Service.
-  - content: You are provisioning a Dataverse environment for Microsoft Cloud for Healthcare apps.  Your organization wants to utilize the Patient Service Center.  What additional step must you take to deploy the Patient Service Center at a later step?
+  - content: You are provisioning a Dataverse environment for Microsoft Cloud for Healthcare apps.  Your organization wants to utilize the Patient Service Center.  What other step must you take to deploy the Patient Service Center at a later step?
     choices: 
     - content: Set the Environment to type of production
       isCorrect: false
