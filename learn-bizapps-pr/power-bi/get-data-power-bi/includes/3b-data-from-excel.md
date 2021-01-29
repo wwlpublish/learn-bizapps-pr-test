@@ -20,7 +20,7 @@ This unit explains how you can import an Excel workbook file that contains a sim
 Make sure that each column has a good name in excel; it will make it easier for you to find the data that you want when creating your reports in Power BI.
 
 ## Import from a local drive
-Wherever you keep your files, Power BI makes importing them simple. In Power BI, you can go to **Get Data > Files > Local File** to select the Excel file that you want.
+Wherever you keep your files, Power BI makes importing them simple. In Power BI, you can go **Get Data > Files > Local File** to select the Excel file that you want.
 
 ![Three screenshots showing the Get Data, Get, and the Local file buttons.](../media/06b-power-bi-desktop-get-data.png)
 
@@ -28,7 +28,7 @@ After you click Local file, you have two options.  You can import excel data int
 
 Import will connect to the data in your workbook so you can create Power BI reports and dashboards.  Upload will bring your excel file into Power BI so you can view and interact with it as you would in Excel Online
 
-![Screenshot of the My Workspace, Datasets window.](../media/06b-power-bi-desktop-local-file.png)
+![Screenshot of import or upload window.](../media/06-power-bi-desktop-local-dfile.png)
 
 After the file has been imported into Power BI, you can begin creating reports.
 
