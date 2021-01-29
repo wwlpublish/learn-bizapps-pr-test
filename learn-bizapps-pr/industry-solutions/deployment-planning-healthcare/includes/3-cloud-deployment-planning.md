@@ -8,7 +8,7 @@ Microsoft Bookings allow for online scheduling of virtual patient visits. Regula
 
 ## Subscription requirements
 
-To utilize Microsoft Teamsnd the Microsoft 365 EHR integration to the Epic platform, the following Microsoft 365 subscriptions are required:
+To utilize Microsoft Teams and the Microsoft 365 EHR integration to the Epic platform, the following Microsoft 365 subscriptions are required:
 
 -   Microsoft 365 Business Standard, Premium, Enterprise (Microsoft Teams)
 

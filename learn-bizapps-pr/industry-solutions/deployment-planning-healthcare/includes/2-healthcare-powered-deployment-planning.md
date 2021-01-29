@@ -89,7 +89,7 @@ The Microsoft Cloud for Healthcare deployment process will configure Dynamics 36
 
 The Patient Access application utilizes [Power Apps portals](https://docs.microsoft.com/powerapps/maker/portals/overview/?azure-portal=true), specifically an enhancement of the Customer self-service portal. The Customer self-service portal allows for external stakeholders to interact with the Dynamics 365 Customer Service app.
 
-The Patient Access portal allows patients to log in, request appointments and send and receive confidential communications with their healthcare professionals.
+The Patient Access portal allows patients to sign in, request appointments and send and receive confidential communications with their healthcare professionals.
 
 Prior to deployment of the Microsoft Cloud for Healthcare Patient Access solution, a Power Apps portal will need to be provisioned on the Dataverse environment. Ideally, the environment should not have any other portals deployed as the process could overwrite existing portal configurations.
 
