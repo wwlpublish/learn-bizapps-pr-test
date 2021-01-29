@@ -1,4 +1,4 @@
-The Microsoft Cloud for Healthcare applications are currently only supported on North American (NAM) Microsoft 365 tenants. [Other geographies will be supported in the future.]{.underline}
+The Microsoft Cloud for Healthcare applications are currently only supported on North American (NAM) Microsoft 365 tenants. Other geographies will be supported in the future.
 
 ## Microsoft 365
 
