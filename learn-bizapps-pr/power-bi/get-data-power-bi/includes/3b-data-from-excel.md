@@ -28,7 +28,7 @@ After you click Local file, you have two options.  You can import excel data int
 
 Import will connect to the data in your workbook so you can create Power BI reports and dashboards.  Upload will bring your excel file into Power BI so you can view and interact with it as you would in Excel Online
 
-![Screenshot of import or upload window.](../media/06-power-bi-desktop-local-dfile.png)
+![Screenshot of import or upload window.](../media/06-power-bi-desktop-local-file.png)
 
 After the file has been imported into Power BI, you can begin creating reports.
 
