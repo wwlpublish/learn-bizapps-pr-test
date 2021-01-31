@@ -23,7 +23,7 @@ If your calculation is long, you can add extra line breaks in the Expression Edi
 ![DAX formula with extra line breaks from typing ALT-Enter.](../media/04b-power-bi-desktop-alt-enter.png)
 
 ## Apply a measure
-After you've created a new measure, it will appear in one of the tables on the Fields pane, which is found on the right side of the screen. Power BI inserts the new measure into whichever table you have currently selected. While it doesn't matter, exactly, where the measure is located in your data, you can easily move it by selecting the measure and using the **Home Table** drop-down menu.
+After you've created a new measure, it will appear in one of the tables on the Fields pane, which is found on the right side of the screen. Power BI inserts the new measure into whichever table you have currently selected. While it doesn't matter, exactly, where the measure is located in your data, you can easily move it by selecting the measure and using the **Home Table** drop-down menu on the **Measure tools** tab.
 
 ![The new YTD Revenue field in the Field pane.](../media/04b-power-bi-desktop-measure-in-fields.png)
 

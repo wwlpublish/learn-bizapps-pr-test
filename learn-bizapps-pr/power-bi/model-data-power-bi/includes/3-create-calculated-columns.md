@@ -20,13 +20,13 @@ To create a calculated column, select the **Data view** in Power BI Desktop from
 
 ![Screenshot of the Data view canvas.](../media/03-power-bi-desktop-data-view.png)
 
-From the **Modeling** tab, select **New Column** to enable the formula bar. You can enter calculations by using Data Analysis Expressions (DAX) language. DAX is a powerful formula language, also found in Excel, that lets you build robust calculations. As you type a formula, Power BI Desktop displays matching formulas or data elements to assist and accelerate the creation of your formula.
+From the **Table tools** tab, select **New Column** to enable the formula bar. You can enter calculations by using Data Analysis Expressions (DAX) language. DAX is a powerful formula language, also found in Excel, that lets you build robust calculations. As you type a formula, Power BI Desktop displays matching formulas or data elements to assist and accelerate the creation of your formula.
 
 The Power BI formula bar will suggest specific DAX functions and related data columns as you enter your expression.
 
 ![Screenshot of the New Column button](../media/03-power-bi-desktop-calculate-column.png)
 
-After you have created the calculated columns in each table, they can be used as a unique key to establish a relationship between them. By going to the **Relationship** view, you can then drag the field from one table to the other to create the relationship.
+After you have created the new CountryZip calculated column in each table, they can be used as a unique key to establish a relationship between the two tables. By going to the **Relationship** view, you can then drag the CountryZip field from the Sales table to the Geography table to create the relationship.
 
 ![Screenshot of graphical relationship between two fields.](../media/03-power-bi-desktop-mapping-fields.png)
 

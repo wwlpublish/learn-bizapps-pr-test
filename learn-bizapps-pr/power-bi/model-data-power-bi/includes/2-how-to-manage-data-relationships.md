@@ -9,7 +9,7 @@ Tasks in this unit include:
 > [!NOTE]
 > To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this <a href="https://go.microsoft.com/fwlink/?linkid=2131277" target="_blank">**article**</a>.
 
-In the Model view, notice that a block represents each table and its columns and that lines between them represent relationships.
+In the Model view, notice that a block represents each table and the lines between them represent relationships.
 
 ![Screenshot of the Model view.](../media/02-power-bi-desktop-model-view.png)
 
@@ -33,7 +33,7 @@ Your options for Cardinality are explained in the following table.
 | *Many to One*     | The most common default relationship. The column in one table can have more than one instance of a value. The related table (or lookup table) has only one instance of a value.    |
 | *One to One*     | The column in one table has only one instance of a particular value, and the other related table has only one instance of a particular value.     |
 
-Generally, we recommend minimizing the use of bi-directional relationships. They can negatively impact on model query performance, and possibly deliver confusing experiences for your report users.
+Generally, we recommend minimizing the use of bi-directional relationships. They can negatively impact model query performance, and possibly deliver confusing experiences for your report users.
 
 Setting accurate relationships between your data allows you to create complex calculations across multiple data elements.
 
