@@ -12,11 +12,11 @@ To add AI Builder actions in a flow, create the flow from a Microsoft Dataverse 
 
 3. Select **+New > Flow** in the action bar on the top of the screen. The flow designer screen appears and asks you to choose the trigger action.
 
-    ![Create new flow.](../media/03-auto-generate-number.png)
+    ![List showing all connectors and triggers.](../media/03-auto-generate-number.png)
 
 4. In the **Triggers** section, select **Manually trigger a flow > + Add an input > Text**. Name your input **My Text**, as shown in the following figure.
 
-    ![Add an action to flow.](../media/03-pick-up-flow-trigger.png)
+    ![Manually trigger a flow called My Text, and Add an input.](../media/03-pick-up-flow-trigger.png)
 
 5. Select **+ New step**. You will now add an AI Builder action.
 
@@ -26,15 +26,15 @@ In this example, you will add the AI Builder action that allows sentiment analys
 
 - Search for intent, for example, "Analyze sentiment."
 
-    ![Sentiment intent action.](../media/03-add-action.png)
+    ![In Choose an action, search results for Analyze sentiment on the Actions tab.](../media/03-add-action.png)
 
 - Open the AI Builder action group.
 
-    ![Chose a flow action.](../media/03-ai-builder-action.png)
+    ![Choose an action with AI Builder selected.](../media/03-ai-builder-action.png)
 
     This action group lists all available AI Builder actions. You can pick the action from that page.
 
-    ![List of actions.](../media/03-ai-builder-flow.png)
+    ![In AI Builder, on the Actions tab, a list of actions includes Predict and Recognize text in an image.](../media/03-ai-builder-flow.png)
 
 - Use the generic **Predict** action that allows you to use any type of model.
 
@@ -50,7 +50,7 @@ For the AI Builder sentiment analysis model, **Language** and **Text** are the t
 
 2. In the **Text** field, select **My Text**, which is defined in the trigger action.
 
-    ![Analyze positive or negative sentiment.](../media/03-sentiment.png)
+    ![Analyze positive or negative sentiment in text.](../media/03-sentiment.png)
 
     The **My Text** value will be provided during flow testing, so you don't need to focus on it right now.
 
@@ -64,7 +64,7 @@ For this exercise, you will use a Microsoft Excel file in OneDrive to store the 
 
 2.  In this file, insert a table with two columns and then save the file (make sure that you use the **Insert > Table** function of Excel).
 
-    ![Excel file showing columns.](../media/03-excel.png)
+    ![Excel file showing inserted table with sortable Column1 and Column2.](../media/03-excel.png)
 
 3.  In **My AI Builder flow**, select **+ New step** and then add the **Add a row into a table** action from Excel Online (Business).
 
@@ -74,7 +74,7 @@ For this exercise, you will use a Microsoft Excel file in OneDrive to store the 
 
 6.  In the **Column 1** field, add **My Text**, and in the **Column 2** field, add **Overall text sentiment**.
 
-    ![Add a row to a table flow.](../media/03-add-table.png)
+    ![Add a row into a table shows My Text in Column1 and Overall text sentiment in Column2.](../media/03-add-table.png)
 
 7.  Select **Save**.
 
@@ -88,17 +88,17 @@ Before productizing a flow, it's always a good idea to test it during design pha
 
 3.  Provide the value of the **My Text** field from the trigger action. This text is what you want to analyze the sentiment for.
 
-    ![My text field for trigger.](../media/03-my-text.png)
+    ![My text field for trigger with text It was the best sandcastle he had ever seen.](../media/03-my-text.png)
 
 4.  Select **Run flow**. If your flow ran successfully, you would see all steps shown with a green tick.
 
-    ![Green steps complete.](../media/03-steps-complete.png)
+    ![Green steps complete. Your flow ran successfully.](../media/03-steps-complete.png)
 
 5.  You can expand the actions to view the running inputs and outputs of each action, which is a good way to debug your flow.
 
 6.  Check that the line has been correctly added in the Excel file.
 
-    ![Excel table records.](../media/03-populate-excel.png)
+    ![Records appear in the table in the Excel file.](../media/03-populate-excel.png)
 
 Congratulations, you have successfully created your first AI Builder flow.
 
