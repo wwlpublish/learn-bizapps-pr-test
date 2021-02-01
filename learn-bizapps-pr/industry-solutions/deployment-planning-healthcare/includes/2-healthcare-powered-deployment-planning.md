@@ -140,5 +140,5 @@ The various Microsoft Cloud for Healthcare Dynamics 365 apps will then be availa
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the listing of Dynamics 365 published apps including the various Microsoft Cloud for Healthcare apps.](../media/apps-available.png)](../media/apps-available.png#lightbox)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4MBqf]
 
