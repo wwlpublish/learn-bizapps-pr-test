@@ -75,7 +75,7 @@ Now that your table is set up, you can add the extracted invoice information to 
 1. In the **Total amount** field, select the **Invoice total (number)** content from the AI Builder action.
 
 > [!div class="mx-imgBorder"]
-> [![Dialogs for When a file is created, Process and save information from invoices, and Add a row into a table, with fields filled out for Location, Document Library, File, Table, Invoice ID, Date, Vendor, and Total amount.](../media/dialogs.png)](../media/dialogs.png#lightbox)
+> [![Dialogs for When a file is created, Process and save information from invoices, and Add a row into a table.](../media/dialogs.png)](../media/dialogs.png#lightbox)
 
 ### Test the flow
 
