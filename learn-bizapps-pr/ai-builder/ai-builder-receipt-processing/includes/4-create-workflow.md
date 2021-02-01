@@ -31,7 +31,7 @@ Next, you'll scan the contents of the image file for the key receipt information
 1. In the **Receipt file** field, select the **File content** dynamic content from the trigger that you added.
 
     > [!div class="mx-imgBorder"]
-    > [![Dynamic file content](../media/4-1.png)](../media/4-1.png#lightbox)
+    > [![Dynamic content with File name, File path, and File content as options.](../media/4-1.png)](../media/4-1.png#lightbox)
 
 ### Create a share link for the receipt
 
@@ -52,7 +52,7 @@ You can create a direct link to the receipt file for easy reference of the expen
 Before you begin writing your data into Excel, make sure that you have created a table that matches the information that you want to store.
 
 > [!div class="mx-imgBorder"]
-> [![Excel table headers Date, Merchant name, Amount, and Receipt](../media/4-2.png)](../media/4-2.png#lightbox)
+> [![Excel table headers Date, Merchant name, Amount, and Receipt.](../media/4-2.png)](../media/4-2.png#lightbox)
 
 1. Create a new Excel spreadsheet in SharePoint or open an existing spreadsheet.
 
@@ -67,7 +67,7 @@ Before you begin writing your data into Excel, make sure that you have created a
 Now that your table is set up, you can add the receipt information to the Excel spreadsheet.
 
 > [!div class="mx-imgBorder"]
-> [![Process from file creation through process and save information from receipts, create share link, and add row into table](../media/4-3.png)](../media/4-3.png#lightbox)
+> [![Process from file creation through process and save information from receipts, create share link, and add row into table.](../media/4-3.png)](../media/4-3.png#lightbox)
 
 1. Select **+ New step**.
 
@@ -90,6 +90,6 @@ Now that your table is set up, you can add the receipt information to the Excel 
 Now, whenever you add a new receipt file to that folder, a new entry will be added to Excel with the extracted information.
 
 > [!div class="mx-imgBorder"]
-> [![New line of data in Excel spreadsheet](../media/4-4.png)](../media/4-4.png#lightbox)
+> [![New line of data in the Excel spreadsheet.](../media/4-4.png)](../media/4-4.png#lightbox)
 
 Congratulations, you have created an automated workflow by using receipt processing.
