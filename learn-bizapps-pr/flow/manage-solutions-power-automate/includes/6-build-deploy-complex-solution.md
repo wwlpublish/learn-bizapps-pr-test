@@ -1,6 +1,6 @@
-Watch the following video, which explains these processes:
+Watch the following video for a demonstration of the following processes:
 
-- Packaging a Power Apps canvas app, Power Automate flow, and a Common Data Service entity with an **Option Set** field into a solution
+- Packaging a Power Apps canvas app, Power Automate flow, and a Dataverse entity with a **Choices** field into a solution
 
 - Exporting the solution from one environment and importing it into another
 

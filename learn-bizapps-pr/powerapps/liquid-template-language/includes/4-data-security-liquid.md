@@ -1,4 +1,4 @@
-Liquid extensions in Power Apps portals give portal makers access to Common Data Service. Entity permissions govern all data that is accessed by Liquid objects and tags, and it's not possible to switch off this feature. It also makes the output dynamic because it varies with the current portal user, their web roles, and associated entity permission records.
+Liquid extensions in Power Apps portals give portal makers access to Microsoft Dataverse. Entity permissions govern all data that is accessed by Liquid objects and tags, and it's not possible to switch off this feature. It also makes the output dynamic because it varies with the current portal user, their web roles, and associated entity permission records.
 
 To improve rendering performance and alter the template in response to the current user's privileges, developers can assert particular access rights before implementing data retrieval. For example, instead of trying to access contact records, developers would check whether the user has Read privileges for the contact entity and would then handle the response appropriately without retrieving the data.
 

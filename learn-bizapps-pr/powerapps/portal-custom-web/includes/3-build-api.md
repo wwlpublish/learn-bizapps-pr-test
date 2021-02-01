@@ -55,4 +55,4 @@ This template would be used without a header and footer, with the MIME type set 
 
 The page that uses this web template wouldn't be used by people who are in a browser; instead, it will be called from JavaScript code, effectively defining an API endpoint for your solution. JavaScript on another page would be able to load and render this data as required.
 
-Authorization will be in place, and accessing Common Data Service data by using this "headless" template is no different than if the output was rendered as HTML. The calling page would typically require user authentication prior to calling the endpoint.
+Authorization will be in place, and accessing Microsoft Dataverse data by using this "headless" template is no different than if the output was rendered as HTML. The calling page would typically require user authentication prior to calling the endpoint.

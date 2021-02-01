@@ -8,7 +8,7 @@ For example, you can use the Budget Tracker template to create an app that helps
 ![Budget Tracker template](../media/powerapps-budget-tracker.png)
 
 ## Create an app from a data source
-Another great way to get started is to generate an app from your own data. Simply point Power Apps at the data source of your choice (for example, a list in Microsoft SharePoint or Common Data Service), and watch as Power Apps automatically builds a three-screen app. This three-screen app lets you display, edit, delete, and create records.
+Another great way to get started is to generate an app from your own data. Simply point Power Apps at the data source of your choice (for example, a list in Microsoft SharePoint or Microsoft Dataverse), and watch as Power Apps automatically builds a three-screen app. This three-screen app lets you display, edit, delete, and create records.
 
 ![Power Apps app from a data source](../media/powerapps-app-from-data.png)
 

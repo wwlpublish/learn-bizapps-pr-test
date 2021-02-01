@@ -1,16 +1,16 @@
-Users of Power Apps portals are tracked in Common Data Service as contacts.
+Users of Power Apps portals are tracked in Microsoft Dataverse as contacts.
 
 The Portal Management model-driven app provides access to the contact entity and has forms to manage passwords, view portal-specific contact information, and provide registration and profile management forms for the portal.
 
 ![Contact web authentication form](../media/4-contact-web-authentication-form.png)
 
-All interactions and actions that a portal user takes (for example, leaving a comment on a page) are tied to their contact record in Common Data Service.
+All interactions and actions that a portal user takes (for example, leaving a comment on a page) are tied to their contact record in Dataverse.
 
 ## Authentication
 
 Portal users can authenticate by using the following methods:
 
-- **Local authentication** - Common forms-based authentication with usernames and password hashtags are stored in the Common Data Service contact record.
+- **Local authentication** - Common forms-based authentication with usernames and password hashtags are stored in the Dataverse contact record.
 
 - **External authentication** - Credentials and password management are handled by other identity providers. Supported authentication providers include:
   - OAuth2 (Microsoft, Twitter, Facebook, Google, LinkedIn, Yahoo)
@@ -30,7 +30,7 @@ After the user is authenticated and associated with a contact, Power Apps portal
 
 ![Portals security constructs](../media/1-7-portal-security.png)
 
-**Web role** allows an administrator to control user access to portal content and Common Data Service records.
+**Web role** allows an administrator to control user access to portal content and Dataverse records.
 
 ![Portals security constructs](../media/4-security-web-roles-permissions.png)
 
@@ -38,7 +38,7 @@ A web role can be associated with the following records:
 
 - **Website permissions** - Define what (if any) front-side editing permissions that a web role should have.
 - **Webpage access rules** - Define what pages are visible to a web role and what actions can be taken.
-- **Entity permissions** - Define what access a web role has to individual Common Data Service entities.
+- **Entity permissions** - Define what access a web role has to individual Dataverse entities.
 
 A portal contact might be assigned to one or more web roles at a time. Access rules and permissions of individual roles are combined to calculate the resulting permissions set.
 

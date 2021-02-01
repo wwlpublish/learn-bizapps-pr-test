@@ -8,7 +8,7 @@ Power BI paginated reports can use a dataset from Power BI service. These datase
 
 ### Create and configure a data source
 
-To retrieve data, open Power BI Report Builder. From the **Getting Started** screen, select **New Report**. You can choose whether to create a report with a table on it, a chart, or a blank report. For the purposes of this example, a blank report has been selected. These choices create a default visual on you're a new report, which can be changed at any time. Next, go to the **Report Data** window, which is typically on the left side of the tool, though it can be moved around.
+To retrieve data, open Power BI Report Builder. From the **Getting Started** screen, select **New Report**. You can choose whether to create a report with a table on it, a chart, or a blank report. For the purposes of this example, a blank report has been selected. These choices create a default visual on your a new report, which can be changed at any time. Next, go to the **Report Data** window, which is typically on the left side of the tool, though it can be moved around.
 
 Right-click the **Data Sources** folder and select **Add Data Source**.
 

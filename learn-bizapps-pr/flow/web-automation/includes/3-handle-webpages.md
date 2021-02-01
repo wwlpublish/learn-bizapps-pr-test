@@ -76,7 +76,7 @@ To enable or disable a check box on a web form, you can use the **Set Checkbox S
 
 ## Select Radio Button on Web Page action
 
-To select a button on a webpage, use the **Select Radio Button on Web Page** action. Like the other web form handling actions, you need to define a browser instance and a control that describes the button.
+To select a radio button on a webpage, use the **Select Radio Button on Web Page** action. Like the other web form handling actions, you need to define a browser instance and a control that describes the button.
 
 ![The Select Radio Button on Web Page action](..\media\select-radio-button-web-page.png)
 

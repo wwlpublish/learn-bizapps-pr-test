@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-power-automate-desktop-development-essentials.8-check
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 11/03/2020 
+ author: rokontol 
+ ms.author: rokontol 
+ ms.topic: interactive-tutorial 
+ ms.prod: rokontol
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: "In flow development, variables are:"
+    choices: 
+    - content: "Containers used to store and retrieve data."
+      isCorrect: true 
+      explanation: "That is correct! variables are used by actions to store or retrieve data."
+    - content: "Different possible situations that the flow might have to face."
+      isCorrect: false 
+      explanation: "That is false; variables are used by actions to store or retrieve data."
+    - content: "Actions that may or may not run, depending on the data the flow encounters."
+      isCorrect: false 
+      explanation: "That is false; variables are used by actions to store or retrieve data."
+    - content: "None of the above."
+      isCorrect: false 
+      explanation: "That is false; variables are used by actions to store or retrieve data."
+  - content: "What are the two types of conditional statements?"
+    choices: 
+    - content: "If-else and switch-case"
+      isCorrect: true 
+      explanation: "That is correct! The two types of conditional statements are if-else and switch-case."
+    - content: "If-else if and if-else"
+      isCorrect: false 
+      explanation: "That is false; The two types of conditional statements are if-else and switch-case."
+    - content: "If-else and loop condition"
+      isCorrect: false 
+      explanation: "That is false; The two types of conditional statements are if-else and switch-case."
+    - content: "Switch-case and loop condition"
+      isCorrect: false 
+      explanation: "That is false; The two types of conditional statements are if-else and switch-case."
+  - content: "Which one of the following components does the UI elements tab store?"
+    choices: 
+    - content: "Images and UI elements"
+      isCorrect: false 
+      explanation: "The UI elements tab stores only the UI elements used in a flow. Images are stored into the images tab."
+    - content: "UI elements"
+      isCorrect: true 
+      explanation: "The UI elements tab stores only the UI elements used in a flow. Images are stored into the images tab."

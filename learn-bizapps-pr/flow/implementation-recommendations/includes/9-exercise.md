@@ -37,7 +37,7 @@ Follow these steps to install the custom connector:
 
     ![new connector](../media/9-new-connector.png)
 
-12. Enter **Custom Office 365 Groups** in the **Connector name** field. In the **Import an OpenAPI file** field, enter **apiDefinition.swagger.json**, select the **Import** button, and then select **Continue**. If you recall, this is the file that you located in step 7 of this exercise.
+12. Enter **Custom Office 365 Groups** in the **Connector name** column. In the **Import an OpenAPI file** column, enter **apiDefinition.swagger.json**, select the **Import** button, and then select **Continue**. If you recall, this is the file that you located in step 7 of this exercise.
 
     ![import](../media/10-import.png)
 
@@ -112,7 +112,6 @@ custom connector. These steps are also covered in the following section.
 
 14. Validate that your custom connector can be managed through DLP policies by going to the [Power Automate Admin center](https://admin.flow.microsoft.com/apiPolicies/?azure-portal=true), and then explore your **Office 365 Connectors** DLP policy to ensure that your custom connector appears in your **Business data only** data group. You can now manage this custom connector, much like any other connector.
 
-	![validate](../media/16-validate.png)
 
 > [!NOTE]
 > Currently, you will not be able to rename the custom connector from this experience.

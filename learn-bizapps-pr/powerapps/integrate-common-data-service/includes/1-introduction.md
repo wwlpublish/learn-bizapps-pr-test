@@ -27,7 +27,7 @@ The following sections describe some of the most common features and settings.
 
 ### Views
 
-Selected views define the Common Data Service entity fields, list layout, and the default sort order.
+Selected views define the Microsoft Dataverse entity fields, list layout, and the default sort order.
 
 - **Multiple views** - If more than one view is specified, a drop-down list renders to allow the user to switch between the views.
 

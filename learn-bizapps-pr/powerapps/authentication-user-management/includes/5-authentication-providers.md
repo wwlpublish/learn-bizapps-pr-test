@@ -15,7 +15,7 @@ When external authentication is used, credentials and password management are ha
 Setting up authentication is a core customization in any portal. Simplified identity provider configuration in Power Apps portals provides in-app guidance for identity provider setup and abstract setup complexities. Makers and administrators can configure the portal for supported identity providers by following steps that are documented at [Simplified authentication and identity provider configuration](https://docs.microsoft.com/powerapps/maker/portals/configure/use-simplified-authentication-configuration/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
-> [![Identity providers](../media/portal-authentication-settings.png)](../media/portal-authentication-settings.png#lightbox)
+> [![Screenshot of authentication identity providers.](../media/portal-authentication-settings.png)](../media/portal-authentication-settings.png#lightbox)
 
 ## Azure Active Directory B2C
 

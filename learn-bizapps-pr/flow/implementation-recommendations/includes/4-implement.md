@@ -1,9 +1,9 @@
-The Plan and manage your Power Automate environment module includes 
+The Plan and manage your Power Platform environment module includes 
 a hands-on exercise that focuses on building a DLP policy 
 that supports Office 365 use cases. This unit further 
 explains that DLP policy and discusses additional considerations.
 
-![Office 365](../media/3-office-365.png)
+![Office 365](../media/3-added-connectors-update.png)
 
 This DLP policy includes many popular Office 365 connectors that are defined in the following section.
 

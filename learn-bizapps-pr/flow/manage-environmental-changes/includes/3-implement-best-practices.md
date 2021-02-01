@@ -33,7 +33,7 @@ Consider the following strategies:
     that makers have an outlet that they can use to request additional
     assistance if required.
 
-6.  Be prepared for exceptions. The Introduction to Power Automate 
+6.  Be prepared for exceptions. The Introduction to Power Platform 
     security and governance module discussed the need for
     exception environments where DLP rules are relaxed. As part of the
     communication that goes out to makers, they might have a legitimate

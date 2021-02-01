@@ -26,19 +26,19 @@ This example shows how to create a task in Dynamics 365 whenever a lead is creat
 
     ![Create from blank](../media/flow-create-blank.png)
 
-1. In the list of flow triggers, select **Common Data Service - When a record is created**. Dynamics 365 keep information in the Common Data Service, so we will use this connector throughout.
-1. If you're prompted to sign in to Common Data Service, do so.
+1. In the list of flow triggers, select **Microsoft Dataverse - When a record is created**. Dynamics 365 keep information in the Dataverse, so we will use this connector throughout.
+1. If you're prompted to sign in to Dataverse, do so.
 1. In the **Environment** field, select the instance where the flow should listen.
 1. In the **Entity Name** field, select the entity to listen to. This entity will act as a trigger that starts the flow.
 
     For this unit, select the **Lead** entity.
 
-1. For Common Data Service, you also need to specify the **Scope**. This will determine if your flow runs if you create a new record, if a new record is created by a user within your business unit, or if a new record is created by any user in your organization. For this example, choose **Organization**.
+1. For Dataverse, you also need to specify the **Scope**. This will determine if your flow runs if you create a new record, if a new record is created by a user within your business unit, or if a new record is created by any user in your organization. For this example, choose **Organization**.
 
     ![Flow details](../media/flow-details.png)
 
 1. Select **New step**.
-1. Select **Common Data Service – Create a new record**.
+1. Select **Dataverse – Create a new record**.
 1. In the **Environment** field, select the environment where the flow should create the record. Note that this doesn't have to be the same environment that the event is triggered from.
 1. In the **Entity Name** field, select the entity that will create a record when the event occurs.
 
@@ -65,8 +65,8 @@ This example shows how to create a task in Microsoft Planner whenever a task is 
 
     ![Create from blank](../media/flow-create-blank.png)
 
-1. In the list of flow triggers, select **Common Data Service - When a record is created**. Dynamics 365 keep information in the Common Data Service, so we will use this connector throughout.
-1. If you're prompted to sign in to Common Data Service, do so.
+1. In the list of flow triggers, select **Dataverse - When a record is created**. Dynamics 365 keep information in the Dataverse, so we will use this connector throughout.
+1. If you're prompted to sign in to Dataverse, do so.
 1. In the **Environment** field, select the instance where the flow should listen.
 1. In the **Entity Name** field, select the entity to listen to. This entity will act as a trigger that starts the flow.
 

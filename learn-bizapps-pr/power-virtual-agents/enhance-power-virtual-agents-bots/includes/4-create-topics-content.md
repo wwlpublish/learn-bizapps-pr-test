@@ -51,7 +51,7 @@ Three options for dealing with the topic include:
 - **Delete suggestion** - Does not add to your list of topics and deletes the topic from the suggested topics.
 
 > [!div class="mx-imgBorder"]
-> [![Suggest topics and add to topics](../media/4-4.png)](../media/4-4.png#lightbox)
+> [![Screenshot of how to suggest topics and add to topics.](../media/4-4.png)](../media/4-4.png#lightbox)
 
 ### Enable topics in your bot
 

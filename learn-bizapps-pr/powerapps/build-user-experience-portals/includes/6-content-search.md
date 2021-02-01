@@ -33,7 +33,7 @@ Portal content can be searched by using filters based on characteristics of the 
 Faceted search enables portals to have search filters that allow you to choose between items like forums, blogs, pages, and knowledge articles. More filters are available for specific search types. For example, knowledge articles can be filtered by Record Type, Modified Date, Rating, and Products to help customers find the content they need.
 
 > [!div class="mx-imgBorder"]
-> [![Faceted content search](../media/content-search.png)](../media/content-search.png#lightbox)
+> [![Screenshot of faceted content search using filters.](../media/content-search.png)](../media/content-search.png#lightbox)
 
 Faceted search can be enabled or disabled by using the `Search/FacetedView` site setting. Individual parts of faceted search can be disabled by deactivating specific entity views in Dynamics 365. Similar entities can be grouped together, for example, the search result type **Documents** describes both knowledge article attachments and web files.
 

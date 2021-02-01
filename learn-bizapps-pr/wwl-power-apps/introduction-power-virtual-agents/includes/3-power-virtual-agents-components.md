@@ -97,7 +97,7 @@ environment, or you can create a flow from within the Power Virtual
 Agents authoring canvas.
 
 >[!IMPORTANT]
->A flow can only be called from a topic located in the same **Common Data Service environment** as your chatbot. Flows must also be in a solution in Power Automate. You can **move flows into solutions,** so they are listed in the authoring canvas.
+>A flow can only be called from a topic located in the same **Microsoft Dataverse environment** as your chatbot. Flows must also be in a solution in Power Automate. You can **move flows into solutions,** so they are listed in the authoring canvas.
 
 Flows typically use variables to input and output information. The variables can
 then be used in other nodes within the topic.

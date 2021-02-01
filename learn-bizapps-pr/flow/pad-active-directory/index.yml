@@ -1,0 +1,43 @@
+### YamlMime:Module 
+uid: learn-bizapps.pad-active-directory 
+metadata: 
+ title: Active Directory handling in Power Automate Desktop
+ description: Learn about the Active Directory actions in Power Automate Desktop.
+ ms.date: 09/29/2020  
+ author: olegmelnykov  
+ ms.author: olmelnyk  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Active Directory handling in Power Automate Desktop
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Microsoft Azure Active Directory (Azure AD) is a directory service that enables administrators to manage permissions and access to network resources. Power Automate Desktop provides Active Directory actions to automate all related tasks. 
+abstract: |  
+    In this module, you will: 
+    - Connect to an Active Directory server.
+    - Manage users, groups, and objects with Active Directory actions.    
+prerequisites: |
+    - Windows Server 2016 or later
+    - Administrator rights
+    - Access to Active Directory users and computers
+    - Basic familiarity with process development
+    - Familiarity with Active Directory
+    - Access to the command prompt
+iconUrl: /learn/achievements/pad-active-directory.svg  
+levels:  
+- advanced  
+roles:  
+- administrator   
+- developer 
+- maker
+products:  
+- power-platform 
+- power-automate 
+units: 
+- learn-bizapps.pad-active-directory.1-introduction 
+- learn-bizapps.pad-active-directory.2-active-directory-actions 
+- learn-bizapps.pad-active-directory.3-exercise 
+- learn-bizapps.pad-active-directory.4-check-knowledge 
+- learn-bizapps.pad-active-directory.5-summary 
+badge:  
+  uid: learn-bizapps.pad-active-directory.badge 

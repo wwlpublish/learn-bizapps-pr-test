@@ -14,12 +14,12 @@ These triggers/actions can only be managed in DLP policies that have a [schema v
 make the decision to implement these changes. Otherwise, it's highly possible that some flows will be broken, depending on how an organization wants to classify the connectors as business or non-business. 
 
 For example, if the HTTP action was previously not managed and is being used 
-with connectors from the **Business data only** data group and is then placed in 
-the **No business data allowed** data group, then any flows that are using this configuration
+with connectors from the **Business** data group and is then placed in 
+the **Non-business** data group, then any flows that are using this configuration
 will be suspended because of DLP violations.
 
 By using this new schema version, DLP policies can be constructed by using
-either of the following entities:
+either of the following tables:
 
 -   Power Platform Management connector
 
@@ -31,7 +31,7 @@ found at [PowerShell support for Power Apps ](https://docs.microsoft.com/power-p
 
 After installing the prerequisite PowerShell modules, you can run the following statement, (**New-AdminDlpPolicy -DisplayName "HTTP DLP Policy" -SchemaVersion 2018-11-01**), which will create a new DLP policy that includes support for HTTP when you include a **-SchemaVersion** parameter of **2018-11-01**. After you have run the previous statement, you'll be asked to sign in by using your admin credentials.
 
-![http DLP](../media/5-http-dlp.png)
+![PowerShell http DLP.](../media/5-http-dlp.png)
 
 After the command has been run, you'll be provided a status output
 that includes the internal **PolicyName** and other attributes.
@@ -50,4 +50,4 @@ this case is **No business data allowed**. These connectors can be
 managed just like any other connectors and can be added to the
 **Business data only** data group.
 
-![http DLP](../media/7-http-dlp.png)
+![PowerShell http DLP output.](../media/7-http-dlp.png)

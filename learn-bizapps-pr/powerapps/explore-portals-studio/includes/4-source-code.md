@@ -3,7 +3,7 @@ Most of the design, layout, and addition of specific components can be accomplis
 In the portals Studio canvas, you can select a specific section and then select the **Code Editor** (**</>**) button in the footer to expand the Code Editor, which will display the source code of the specific webpage. You can edit or add custom code through this editor.
 
 > [!div class="mx-imgBorder"]
-> [![Custom Code Editor](../media/4-custom-code-editor-ss.png)](../media/4-custom-code-editor-ss.png#lightbox)
+> [![Screenshot of the custom code editor available in the studio.](../media/4-custom-code-editor-ss.png)](../media/4-custom-code-editor-ss.png#lightbox)
 > 
 > [!WARNING] 
 > You can potentially damage the layout of your page by entering incorrect syntax in the source code.
@@ -16,6 +16,6 @@ When the header is selected in portals Studio, a maker can select the navigation
 
 The header and footer layout can be further customized by using the portals Studio Code Editor.
 
-![Customize site header](../media/header-footer.png)
+![Screenshot showing how to customize site header in the code editor.](../media/header-footer.png)
 > [!WARNING] 
 > Because the header and the footer apply to the website, direct modifications of the source code might result in broken layout for the entire site.

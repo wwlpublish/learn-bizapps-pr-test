@@ -62,4 +62,4 @@ To view the webpage, on the Command bar, select **Browse website**.
 Now, you should now see your page with the formatted text.
 
 > [!div class="mx-imgBorder"]
-> [![Edit Source Code](../media/7-edit-source-code-ss.png)](../media/7-edit-source-code-ss.png#lightbox)
+> [![Screenshot that shows the editing of the source code from the browse website item.](../media/7-edit-source-code-ss.png)](../media/7-edit-source-code-ss.png#lightbox)

@@ -11,15 +11,15 @@ Use a business process flow if you:
 
 -   Want to use out-of-the-box business process flows.
 
--   Have a Dynamics 365 license and want to create automated business processes with Common Data Service.
+-   Have a Dynamics 365 license and want to create automated business processes with Microsoft Dataverse.
 
 Use a Power Automate flow if you:
 
 -   Want to schedule a workflow to start based on a predefined time interval or after *X* minutes, hours, or days of some action or event.
 
--   Want to trigger a flow based on data outside of Common Data Service (SharePoint, for example).
+-   Want to trigger a flow based on data outside of Dataverse (SharePoint, for example).
 
--   Do not want to store data that is captured in the flow in Common Data Service.
+-   Do not want to store data that is captured in the flow in Dataverse.
 
 -   Want to push notifications outside of Outlook (SMS or Gmail, for example).
 

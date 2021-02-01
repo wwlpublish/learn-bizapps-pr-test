@@ -11,7 +11,7 @@ The **Patch** function can be used to create a new record in your data
 source. To create a new record, there are three parts to the formula.
 
 1.  Include the name of the data source you want to edit. This could be
-    a tabular data source (such as Common Data Service or SharePoint) or a
+    a tabular data source (such as Microsoft Dataverse or SharePoint) or a
     collection. For the example, you will use **CustomerOrders** as the name
     of the data source.
 
@@ -41,7 +41,7 @@ It is also possible to edit a record in the data source. To edit a
 single record, there are three parts to the formula.
 
 1.  Include the name of the data source you want to edit. This could be
-    a tabular data source (such as Common Data Service or SharePoint) or a
+    a tabular data source (such as Dataverse or SharePoint) or a
     collection. For the example, you will use **CustomerOrders** as the name
     of the data source.
 

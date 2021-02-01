@@ -34,7 +34,7 @@ As you can see, even the business process has many decision points. Your flow ea
 
 When building an app, access to your data is very important. Power Automate offers you choices; through over 275 connectors you can easily connect to data and services across the web and even on-premises. Some common data sources include:
 
-- Common Data Service
+- Microsoft Dataverse
 
 - Salesforce
 
@@ -54,9 +54,9 @@ Power Automate works by creating flows, of which there are three types:
 
 - Event driven flows - These are flows that you build with a trigger and then one or more actions. There are  a multitude of triggers and actions available, thanks to the existing connectors. You will see these as My flows and Team flows in Power Automate. The only difference between a My flow and a Team flow is ownership. With a My flow you are the sole owner, while a Team flow has more than one owner. 
 
-- Business process flows - These flows are built to augment the experience when using Model-driven apps and the Common Data Service. Use these to create a guided experience in your Model-driven apps. 
+- Business process flows - These flows are built to augment the experience when using Model-driven apps and the Dataverse. Use these to create a guided experience in your Model-driven apps. 
 
-- UI flows - These robotic process automation (RPA) flows allow you to record yourself performing actions on your desktop or within a web browser. You can then trigger a flow to perform that process for you. You can also pass data in or get data out of the process, letting you automate even "manual" business processes.
+- Desktop flow - These robotic process automation (RPA) flows allow you to record yourself performing actions on your desktop or within a web browser. You can then trigger a flow to perform that process for you. You can also pass data in or get data out of the process, letting you automate even "manual" business processes.
 
 ## Add artificial intelligence to your flow without writing code
 

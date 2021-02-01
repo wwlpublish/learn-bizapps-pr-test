@@ -3,10 +3,10 @@ uid: learn-bizapps.plan-manage-environment.1-introduction
 title: Introduction
 metadata: 
   title: Introduction 
-  description: Introduction to planning and managing your Power Automate environment.  
-  ms.date: 3/12/2020 
-  author: KevSch 
-  ms.author: kschimke 
+  description: Introduction to planning and managing your Power Platform environment.  
+  ms.date: 01/05/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 3 

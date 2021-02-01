@@ -57,7 +57,7 @@ Among the programs listed above, there are cross cutting features which enable t
 **AI Builder** lets users and developers add AI capabilities to the workflows and Power Apps they create and use. AI Builder is a turnkey solution that allows you to easily add intelligence to your workflows and apps and predict outcomes to help improve business performance without writing code.
 
 
-**Common Data Service** is a scalable data service and app platform which lets users securely store and manage data from multiple sources and integrate that data in business applications using a common data model to ensure ease and consistency to users. Common Data Service is the common currency that enables the components of Power Platform to work together. It’s the foundation that enables the consolidation, display, and manipulation of data.
+**Microsoft Dataverse** is a scalable data service and app platform which lets users securely store and manage data from multiple sources and integrate that data in business applications using a common data model to ensure ease and consistency to users. Microsoft Dataverse is the common currency that enables the components of Power Platform to work together. It’s the foundation that enables the consolidation, display, and manipulation of data.
 
 
 **Connectors** enable you to connect apps, data, and devices in the cloud. Consider connectors the bridge across which information and commands travel. There are more than 275 connectors for the Power Platform, enabling all of your data and actions to connect cohesively.  Examples of popular connectors include Salesforce, Office 365, Twitter, Dropbox, Google services, and more.

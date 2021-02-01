@@ -1,7 +1,7 @@
 Power Apps portals administrators have several options for controlling authentication behavior for the portal user. These options are accessed through the **Web Authentication** tab on the **Portal Contact** form.
 
 > [!div class="mx-imgBorder"]
-> [![Portal contact web authentication information](../media/portal-contact-web-authentication.png)](../media/portal-contact-web-authentication.png#lightbox)
+> [![Screenshot of portal contact web authentication information.](../media/portal-contact-web-authentication.png)](../media/portal-contact-web-authentication.png#lightbox)
 
 The following table explains some of the options that are available on the **Web Authentication** tab.
 
@@ -23,4 +23,4 @@ For more information, see [Set authentication identity for a portal](https://doc
 The **External Identities** list includes all external providers that are registered for a specific user. Multiple external identities permit user sign-in with any of the registered providers. Entries in this list should not be edited manually; they are added/removed when the user connects/disconnects the providers by using the **Manage External Authentication** link on their **Profile** page.
 
 > [!div class="mx-imgBorder"]
-> [![Manage external authentication](../media/manage-external-authentication.png)](../media/manage-external-authentication.png#lightbox)
+> [![Screenshot of manage external identities authentication.](../media/manage-external-authentication.png)](../media/manage-external-authentication.png#lightbox)

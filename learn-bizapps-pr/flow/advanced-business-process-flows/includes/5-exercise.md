@@ -17,16 +17,16 @@ the store manager (you) when a new customer check-in record is created.
 
 	![Open the flow designer](../media/19-select-skip-button-enter-flow-designer.png)
 
-1. Enter **Common Data Service** in the connector search dialog box, as shown in the following screenshot.
+1. Enter **Microsoft Dataverse** in the connector search dialog box, as shown in the following screenshot.
 
-	![Search for Common Data Service](../media/20-search-common-data-service.png)
+	![Search for Microsoft Dataverse](../media/20-search-common-data-service.png)
 
-1. Select the Common Data Service connector and the **When a Record is created** 
+1. Select the Microsoft Dataverse connector and the **When a Record is created** 
 trigger. Select the **Environment** name that you used in the previous exercises, 
 select **Customer Check In** from the **Entity Name** field, select the **User** 
 in the **Scope** field, and then select **+ New step**, as shown in the following figure.
 
-	![Common Data Service Record created trigger with values completed](../media/21-fill-out-record-created-trigger.png)
+	![Dataverse Record created trigger with values completed](../media/21-fill-out-record-created-trigger.png)
 
 1. Enter **Send Email** in the actions search box and then select **Send an email notification (V3)**.
 

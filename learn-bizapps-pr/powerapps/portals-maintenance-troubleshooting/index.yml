@@ -17,7 +17,7 @@ abstract: |
     - Apply strategies and techniques to troubleshoot portal issues.
     - Learn about how the Portal Checker works and how to resolve potential portal issues.
     - Perform the portal update process.
-prerequisites: Basic understanding of Power Apps portals structure, knowledge of how the various portal components work together, and a good understand of Common Data Service and model-driven apps.
+prerequisites: Basic understanding of Power Apps portals structure, knowledge of how the various portal components work together, and a good understand of Microsoft Dataverse and model-driven apps.
 iconUrl: /learn/achievements/portals-maintenance-troubleshooting.svg  
 levels:  
 - intermediate   

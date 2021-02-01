@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.pad-power-automate.4-check-your-knowledge 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 12/10/2020 
+ author: olegmelnykov 
+ ms.author: olmelnyk 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3
+quiz:
+  title: Answer the following questions to see what you've learned.
+  questions:
+  - content: "Which type of variables can you pass to/from Power Automate?"
+    choices:
+    - content: "Flow variables"
+      isCorrect: false
+      explanation: "Flow variables are used only locally in the flow."
+    - content: "Input and output variables"
+      isCorrect: true
+      explanation: "Input and output variables enable you to pass data to/from Power Automate."
+  - content: "To pass a variable from Power Automate Desktop to Power Automate, you can use:"
+    choices:
+    - content: "A string-type variable."
+      isCorrect: false
+      explanation: "That is incorrect. To pass a variable from Power Automate to Power Automate Desktop, use an output variable."
+    - content: "An input variable"
+      isCorrect: false
+      explanation: "That is incorrect. To pass a variable from Power Automate to Power Automate Desktop, use an output variable."
+    - content: "An output variable"
+      isCorrect: true
+      explanation: "That is correct!"
+    - content: "A global variable"
+      isCorrect: false
+      explanation: "That is incorrect. To pass a variable from Power Automate to Power Automate Desktop, use an output variable."
+  - content: "An input/output variable's external name:"
+    choices:
+    - content: "Is used to reference the variable in any of the subflows"
+      isCorrect: false
+      explanation: "That is incorrect. A variable's external name is the name used in Power Automate."
+    - content: "Is used in the dialog which prompts the user for inputs"
+      isCorrect: false
+      explanation: "That is incorrect. A variable's external name is the name used in Power Automate."
+    - content: "Is the name it appears under in Power Automate"
+      isCorrect: true
+      explanation: "That is correct!"
+    - content: "Appears in the tray when the flow runs"
+      isCorrect: false
+      explanation: "That is incorrect. A variable's external name is the name used in Power Automate."

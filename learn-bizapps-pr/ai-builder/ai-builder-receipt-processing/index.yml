@@ -18,7 +18,7 @@ abstract: |
     - Explore how using receipt processing can save time.
     - Build a simple app by using receipt processing with Microsoft Power Apps.
     - Build a simple flow by using receipt processing with Microsoft Power Automate.
-prerequisites: A Power Apps or Power Automate license, access to Common Data Service, and an AI Builder add-on or trial
+prerequisites: A Power Apps or Power Automate license, access to Microsoft Dataverse, and an AI Builder add-on or trial
 
 iconUrl: /learn/achievements/ai-builder-receipt-processing.svg  
 levels:  

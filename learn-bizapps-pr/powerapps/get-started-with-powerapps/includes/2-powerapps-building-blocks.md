@@ -26,20 +26,21 @@ When you use apps in Power Apps Mobile, you get the most out of your device's ca
 
 ![Power Apps Mobile](../media/powerapps-mobile.png)
 
-## Power Apps Admin center
-The Power Apps admin center is the centralized place for managing Power Apps for an organization. On this site, you can define and manage different environments to house the apps. For example, you might have separate environments for development and production apps. Additionally, you can define data connections and manage environment roles and data policies. 
+## Power Platform admin center
+The Power Platform admin center is the centralized place for managing Power Apps for an organization. On this site, you can define and manage different environments to house the apps. For example, you might have separate environments for development and production apps. Additionally, you can define data connections and manage environment roles and data policies. 
 
 ## Licensing 
 
-Most users get their initial start with Power Apps by utilizing one of the licenses that comes with their Microsoft 365 Plan or Microsoft Dynamics 365 license. These licenses allow you to extend the functionality of the app that is licensed. This means if you purchased a Microsoft 365 plan that included a Power Apps license then you can build apps that extend and use SharePoint as a data source. But Power Apps doesn’t have to stop at just extending that platform. 
+Most users get their initial start with Power Apps by utilizing one of the licenses that come with their Microsoft 365 Plan or Microsoft Dynamics 365 license. These licenses allow you to extend the functionality of the app that is licensed. This means if you purchased a Microsoft 365 plan that included a Power Apps license then you can build apps that extend and use SharePoint as a data source. But Power Apps doesn’t have to stop at just extending that platform.  
 
-Power Apps has over 300 available data source connectors available including Common Data Service. To incorporate Common Data Service or any of those additional connectors all users of the app will need a premium license. There are two different ways to acquire a Premium license: 
+Power Apps has over 300 available data source connectors available including Microsoft Dataverse. To incorporate Dataverse or any of those additional connectors all users of the app will need a premium license. There are two different ways to acquire a Premium license: 
+
 - Per App model 
 - Per User model. 
 
-The Per App license allows users to access premium connectors for a specific business solution. The Per User license allows users to run unlimited premium licensed apps. This gives you the ability to grow with Power Apps and control cost by purchasing the license that best matches your business goals. 
+The Per App license plan allows individual users to run two applications and one portal for a specific business scenario in a specific environment based on the full capabilities of Power Apps with access to premium connectors. The Per User license plan allows users to run unlimited premium licensed apps. This gives you the ability to grow with Power Apps and control costs by purchasing the license that best matches your business goals. 
 
-In addition, Power Apps also has the capability to use Power Apps portals to build externally or internally facing websites using Common Data Service and Power Apps controls. Power Apps portals have their own licensing model and are not included in any of the licenses discussed previously above. With Power Portals you will purchase a capacity based license to meet your business needs.  
+In addition, Power Apps also has the capability to use Power Apps portals to build externally or internally facing websites using Dataverse and Power Apps controls. Power Apps portals have their own licensing model and are not included in any of the licenses discussed previously above. With Power Portals you will purchase a capacity based license to meet your business needs.  
 
 Review the following links about licensing.
 

@@ -51,7 +51,7 @@ a different process.
 1.  In the formula bar, there's an **Items** property. Delete
     **CustomGallerySample** from the formula bar.
 
-    ![Flow Items](../media/flow-item.png)
+    ![Screenshot of flow items from the Items gallery property.](../media/flow-item.png)
 
 2.  Type in the following for the **Items** property:
 
@@ -65,7 +65,7 @@ a different process.
 
 5.  Set the **Subtitle** label to **Mail**.
 
-    ![Flow settings](../media/flow-setting.png)
+    ![Screenshot of flow settings property from gallery settings.](../media/flow-setting.png)
 
 Now your gallery shows all of your Microsoft 365 users' DisplayNames and Mail properties just like you were using a tabular data source. This is because that function of the Office365Users data connection returns tabular data. You could use the output of this data with any function, like SortByColumns or Sum, that accepts a table of data as an input.
 
@@ -91,6 +91,9 @@ below.
     ```powerappsfl
     Office365Users.ManagerV2(User().Email).mail
     ```
+> [!NOTE]
+> If you receive an error after entering this formula then the user does not have a manager assigned in Office 365.
+
 In the label, you will now see the current user's manager email address.
 The following is a breakdown of the formula.
 

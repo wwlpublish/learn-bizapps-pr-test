@@ -1,5 +1,3 @@
-## Create a Flow using a button through the Power Automate mobile app
-
 Of course we have an app -- the Power Automate mobile app! From this app, you
 can access these features:
 
@@ -23,8 +21,7 @@ experience you'd expect from your PC, but it will show you useful details.
 For example, you'll see a flow's last activity. You can see whether the flow
 succeeded or failed. If it failed, you'll see which step it failed on.
 
-**How button flows are started**
---------------------------------
+## Create a button flow
 
 Buttons are flows that are started through a manual action. For example, you can
 create a button to send a *Working from home today* email to your manager. If

@@ -1,23 +1,36 @@
-The only way to edit a solution-aware flow is by going to **Solutions**, selecting your solution, and then selecting the flow to edit. Solution-aware flows don't show up in your **My flows** list.
+Editing a solution-aware app, flow, and table requires you to first select the items from your solution. 
 
-In this example, you will edit the flow that you previously created by changing the text in the body of the **Send an email** step.
-
-1. Select **Solutions > Volunteer Request > Volunteer Request Notification** flow and then select **Edit**.
+1. Sign in to Power Apps, select **Solutions**, and then select **Volunteer Request**.
 
 	> [!div class="mx-imgBorder"]
-	> [![edit solution](../media/edit-solution-aware-flow-step-1-ssm.png)](../media/edit-solution-aware-flow-step-1-ssm.png#lightbox)
+	> [![Select Solutions and Volunteer Request to access your solution.](../media/access-your-solution-ssm.png)](../media/access-your-solution-ssm.png#lightbox)
 
-1. In both email actions, add the following text at the end.
-
-	> [!div class="mx-imgBorder"]
-	> [![change the text in the body](../media/solution-flow-email-body-change-ssm.png)](../media/solution-flow-email-body-change-ssm.png#lightbox)
-
-1. Select the **Save** button in the upper-right corner of the screen and then confirm that the flow has been saved.
+   You should see all your apps, flows, and tables.
 
 	> [!div class="mx-imgBorder"]
-	> [![flow saved](../media/flow-saved-ss.png)](../media/flow-saved-ss.png#lightbox)
+	> [![See all of your apps, flows, and tables.](../media/all-items.png)](../media/all-items.png#lightbox)
 
-1. Select **Solutions > Volunteer Request** and confirm that your flow has been recently modified. The next time that this flow runs, you will see the updated text in the email body.
+1. To edit the canvas app, select the app and then select **Edit**, which is available in the upper portion of the screen, or you can select the ellipsis. This action will take you directly into Power Apps studio. 
 
 	> [!div class="mx-imgBorder"]
-	> [![solution flow confirmation](../media/solution-flow-confirmation-ssm.png)](../media/solution-flow-confirmation-ssm.png#lightbox)
+	> [![Edit the canvas app by selecting Edit.](../media/edit-existing-app-ssm.png)](../media/edit-existing-app-ssm.png#lightbox)
+
+1. Select the flow and then select **Edit**, which directs you to the edit mode for the flow.
+
+	> [!div class="mx-imgBorder"]
+	> [![Edit the flow by selecting Edit.](../media/edit-existing-flow-ssm.png)](../media/edit-existing-flow-ssm.png#lightbox)
+
+1. For flows, you can also select the icon, which takes you into the details section of the flow. The **Details** section is where you can see run history, connections, owners, and so on.
+
+	> [!div class="mx-imgBorder"]
+	> [![Details section displays history, connections, owners, etc.](../media/additional-features-ssm.png)](../media/additional-features-ssm.png#lightbox)
+ 
+1. Select the table and then select **Edit**, which takes you to the section where you can view the columns, relationships, business rules, and so on. 
+
+	> [!div class="mx-imgBorder"]
+	> [![Edit the table by selecting Edit.](../media/edit-existing-table-ssm.png)](../media/edit-existing-table-ssm.png#lightbox)
+ 
+The bread crumb path shows where that table is located.
+
+> [!div class="mx-imgBorder"]
+> [![Bread crumb path displays the table location.](../media/bread-crumb-menu-ssm.png)](../media/bread-crumb-menu-ssm.png#lightbox)

@@ -13,11 +13,11 @@ At the end of these exercises, you will be able to:
 The following prerequisites are necessary for completing these exercises:
 
 - Access to the Power Apps maker portal.
-- Ideally, you will have the default sample Common Data Service apps and data, but you can use other Common Data Service entities.
+- Ideally, you will have the default sample Microsoft Dataverse apps and data, but you can use other Dataverse entities.
 - You will need to have provisioned a Power Apps portal to complete the exercise. If you do not have a provisioned portal, go to [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) to create one.
 
 > [!TIP]
-> The exercises work best when you have sample data to work with. When you provision a Common Data Service environment, you have the opportunity to add sample apps and data.  Review the [Create Environment](https://docs.microsoft.com/power-platform/admin/create-environment.md?azure-portal=true#create-an-environment-with-a-database) steps to provision a Common Data Service environment with sample apps and data.
+> The exercises work best when you have sample data to work with. When you provision a Dataverse environment, you have the opportunity to add sample apps and data.  Review the [Create Environment](https://docs.microsoft.com/power-platform/admin/create-environment.md?azure-portal=true#create-an-environment-with-a-database) steps to provision a Dataverse environment with sample apps and data.
 
 ## Scenario
 
@@ -27,8 +27,8 @@ Your organization has provisioned a Power Apps portal and wants to display a lis
 
 To finish the exercise, complete the following tasks:
 
-- Create a webpage and add a list component that is linked to a Common Data Service entity.
-- Create a child webpage with a form component to display details for a Common Data Service entity.
+- Create a webpage and add a list component that is linked to a Dataverse entity.
+- Create a child webpage with a form component to display details for a Dataverse entity.
 - Modify the list component to allow visitors to drill down and view the detail record on the form page.
 
 
@@ -58,7 +58,7 @@ To add and configure a list component, follow these steps:
 	- **Entity** - Idea (sample idea) *or choose another entity from your own app*
 	- **Views** - Active Ideas
 
-1. Select **Browse** from the command bar and ensure that you can see a list of idea data records from Common Data Service.
+1. Select **Browse** from the command bar and ensure that you can see a list of idea data records from Dataverse.
 
 ### Create a webpage for the entity form
 
@@ -101,9 +101,9 @@ Your last task is to modify the list page to navigate to the form component:
 	- **Form** - Ideas Detail
 
 1. Click in the canvas area to save the webpage.
-1. Select **Browse** from the command bar and ensure that you can see a list of idea data records from Common Data Service and then select an idea to view details.
+1. Select **Browse** from the command bar and ensure that you can see a list of idea data records from Dataverse and then select an idea to view details.
 
     > [!div class="mx-imgBorder"]
     > [![entity list](../media/4-entity-list-exercise-ss.png)](../media/4-entity-list-exercise-ss.png#lightbox)
 
-Adding components to a webpage will allow you to quickly view Common Data Service records.
+Adding components to a webpage will allow you to quickly view Dataverse records.

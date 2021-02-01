@@ -11,7 +11,7 @@ the full list of controls, see more information in the
 This documentation also describes the list of properties available
 for each control.
 
-![Controls](../media/Controls.png)
+![Screenshot of Input dropdown menu item control.](../media/controls.png)
 
 Control properties
 ------------------
@@ -46,7 +46,7 @@ it is more efficient to create
 multi-function formulas. The following example combines
 multiple functions into a single formula.
 
-![CombineFunctions](../media/combine-functions.png)
+![Screenshot of combining functions in formulas.](../media/combine-functions.png)
 
 The two **Text Input** controls (TextInput1_1 and TextInput1_2) have no
 formulas or modifications. The **Text** property of the selected

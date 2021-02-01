@@ -45,7 +45,7 @@ You can also specify whether the text will be extracted from the whole selected 
 
 Some processes might need to wait for an application or webpage to load before continuing to the next actions. You can ensure that the required information is loaded by using the **Wait for Text on Screen (OCR)** action.
 
-In the action's properties, you can choose whether you want to wait for the text to appear or disappear and wait for its source. The text can be a hardcoded string or a regular expression, while the source can be the whole screen or the foreground window. 
+In the action's properties, you can choose whether you want to wait for the text to appear or disappear and specify its source. The text can be a hardcoded string or a regular expression, while the source can be the whole screen or the foreground window. 
 
 You can specify if the text will be extracted from the whole selected source, a specific subregion, or a subregion that is relative to an image.
 

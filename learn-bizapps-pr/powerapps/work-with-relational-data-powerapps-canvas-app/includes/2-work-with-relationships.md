@@ -2,8 +2,7 @@ As you would expect, Power Apps has all of the functions and controls that you n
 
 The second common use of relationships is to query the parent from the child record. For this example, you will learn how to query the customer name when you are directly looking at the invoice record.
 
-Connecting a parent and child table in Power Apps
-------------------------------------------------
+## Connecting a parent and child table in Power Apps
 
 In this example, you will walk through how to reference a parent and
 child relationship using the Power Apps filter and a LookUp function.
@@ -56,7 +55,7 @@ modify the items property of Gallery2.
 1.  Set the **Items** property of **Gallery2** to:
 
     ```powerappsfl
-    Filter(InvoiceTable, CustomerID = Gallery1.Selected.ID)
+    Filter(InvoiceTable, CustomerID.ID = Gallery1.Selected.ID)
     ```
 
 The formula will do the following.
@@ -64,13 +63,12 @@ The formula will do the following.
   | **Formula Argument** | **Formula Input**                 | **Notes** |
   | :--------------------| :---------------------------------| :-----------------------------------------------------------------------------------------------------------------------------------------------------|
   | source               | InvoiceTable                      |  |
-  | logical_test        | CustomerID = Gallery1.Selected.ID | CustomerID is the column name from the InvoiceTable. Gallery1.Selected.The ID is the value of the ID column for the selected record in the gallery. |
+  | logical_test        | CustomerID.ID = Gallery1.Selected.ID | CustomerID is the column name from the InvoiceTable. Gallery1.Selected.The ID is the value of the ID column for the selected record in the gallery. |
 
 Now, Gallery2 will only display the invoice records for the selected
 customer in Gallery1.
 
-Looking up information stored in the parent from the child
-----------------------------------------------------------
+## Looking up information stored in the parent from the child
 
 The previous example looked showed how to go from the top down. Sometimes
 you need to go from the bottom up. For example, in the InvoiceTable, if
@@ -99,7 +97,7 @@ steps:
 This Gallery will display a list of all of the invoice records in the
 table. This is **Gallery3**.
 
-![List of invoice records](../media/image1.png)
+![Screenshot of gallery with a list of all invoice records.](../media/image1.png)
 
 Showing the ID value for each customer does not provide help for the app
 user. To display the customer name, instead of the ID, do the following.
@@ -120,10 +118,9 @@ The formula will do the following:
 
 After making that change, Gallery3 is much more user-friendly.
 
-![user-friendly list of invoice records](../media/image2.png)
+![Screenshot of user-friendly gallery list of invoice records.](../media/image2.png)
 
-Performance Notes
-------------------------------------------------
+## Performance Notes
 
 The previous example is used to demonstrate the
 concept of looking up from the child to the parent. There can be
@@ -138,5 +135,5 @@ A better option to consider for this scenario is using a collection or
 other means to query and store all of the customer records and then
 perform your lookup against the collection. For more information about data performance, see the blog post on [Performance considerations with Power Apps](https://powerapps.microsoft.com/blog/performance-considerations-with-powerapps/).
 
-In the next unit, you will learn how Common Data Services removes all of the
+In the next unit, you will learn how Microsoft Dataverse removes all of the
 issues associated with related data by automatically drilling down for you.

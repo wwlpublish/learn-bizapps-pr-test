@@ -3,7 +3,7 @@ uid: learn-bizapps.portals-access-common-data-service.1-introduction
 title: Introduction
 metadata: 
   title: Introduction 
-  description: Introduction to accessing Common Data Service data in Power Apps portals. 
+  description: Introduction to accessing Microsoft Dataverse data in Power Apps portals. 
   ms.date: 07/10/2020 
   author: DaveBeasley 
   ms.author: dbeasley 

@@ -7,7 +7,7 @@ within the user interface in the Power Automate Admin center.
 
 Additional actions must be taken by an administrator 
 to have custom connectors show up in DLP policies that include either
-of the following entities:
+of the following tables:
 
 -   Power Platform Management connector
 

@@ -65,7 +65,7 @@ When you share a button with other people, you can either let them use all the c
 
 You can stop sharing a button by following these steps.
 
-1. On the **Buttons** tab, select the three dots next to the button that you want to share.
+1. On the **Buttons** tab, select the three dots next to the button that you want to stop sharing.
 
     ![Share a button](../media/share-button-flows-buttons-tab.png)
 

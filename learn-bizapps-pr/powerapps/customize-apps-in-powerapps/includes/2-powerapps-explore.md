@@ -5,7 +5,7 @@ A control is a UI element that produces an action or shows information. Many con
 
 In addition to these typical controls, Power Apps has more specialized controls, which you can find on the **Insert** tab.
 
-![Insert ribbon for Power Apps Studio](../media/powerapps-ribbon-controls.png)
+![Screenshot of the insert ribbon for Power Apps Studio.](../media/powerapps-ribbon-controls.png)
 
 A few controls that can add interest and impact to your apps include:
 
@@ -26,7 +26,7 @@ Controls in the browse screen that you'll want to become familiar with include:
 - **NextArrow1** - When this control is selected, it opens the details screen.
 - **IconNewItem1** - When this control is selected, it opens the edit/create screen.
 
-![Browse screen with controls](../media/powerapps-browse-screen.png)
+![Screenshot of the browse screen with controls in studio.](../media/powerapps-browse-screen.png)
 
 ## Explore the details screen
 The details screen is named **DetailScreen1** by default. Some of its controls are as follows:
@@ -36,7 +36,7 @@ The details screen is named **DetailScreen1** by default. Some of its controls a
 category from the Flooring Estimates table, as shown in the previous unit.
 - **IconEdit1** - When this control is selected, it opens the edit/create screen so that the user can edit the current item.
 
-![Details screen with controls](../media/powerapps-details-screen.png)
+![Screenshot of the details screen with controls in studio.](../media/powerapps-details-screen.png)
 
 ## Explore the edit/create screen
 The third screen in the app is **EditScreen1**. Some of its controls include:
@@ -46,6 +46,6 @@ The third screen in the app is **EditScreen1**. Some of its controls include:
 previous unit.
 - **IconAccept1** - When this control is selected, it saves the user's changes.
 
-![Edit/create screen with controls](../media/powerapps-edit-screen.png)
+![Screenshot of the Edit/create screen with controls in studio.](../media/powerapps-edit-screen.png)
 
 

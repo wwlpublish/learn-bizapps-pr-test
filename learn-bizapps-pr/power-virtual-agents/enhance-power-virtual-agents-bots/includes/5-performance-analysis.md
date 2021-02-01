@@ -1,7 +1,7 @@
 After a bot is deployed and customers are interacting with it, statistics that are related to the bot will become available. You can access this information through the **Analytics** tab in the side navigation pane. On this tab, you can find key performance indicators (KPIs) that show the volume of sessions that your bot has handled, how effectively your bot was able to engage users and resolve issues, escalation rates to human agents, and abandonment rates during conversations. You will also find customer satisfaction information at the KPI level and on the **Customer Satisfaction** tab.
 
 > [!div class="mx-imgBorder"]
-> [![Analytics](../media/5-1.png)](../media/5-1.png#lightbox)
+> [![Screenshot of the analytics that are captured with bots.](../media/5-1.png)](../media/5-1.png#lightbox)
 
 You can also view detailed session history and transcripts by selecting **Sessions** from the **Analytics** tab. On the **Sessions** page, you can download a file with the full session transcript, which can be a helpful way for you to adjust the performance of your bot and change the content in your topics to improve your bot's efficiency.
 
@@ -10,7 +10,7 @@ You can also view detailed session history and transcripts by selecting **Sessi
 The **Summary** page gives you a broad overview of your bot's performance. It uses AI technology to show you which topics have the greatest impact on escalation rate, abandon rate, and resolution rate. For more information, see the table under [Summary charts](https://docs.microsoft.com/power-virtual-agents/analytics-summary#summary-charts/).
 
 > [!div class="mx-imgBorder"]
-> [![Analytics summary page](../media/5-2.png)](../media/5-2.png#lightbox)
+> [![Screenshot of captured analytics page summary details.](../media/5-2.png)](../media/5-2.png#lightbox)
 
 The **Summary** page includes a variety of charts with graphical views of your bot's KPIs:
 
@@ -61,7 +61,7 @@ The topic details page provides a view into the performance of individual topics
   - [Customer satisfaction drivers](https://docs.microsoft.com/power-virtual-agents/analytics-csat#customer-satisfaction-drivers-chart)
 
 > [!div class="mx-imgBorder"]
-> [![Escalation rate drivers](../media/5-3.png)](../media/5-3.png#lightbox)
+> [![Screenshot of how escalation rate drivers are viewed.](../media/5-3.png)](../media/5-3.png#lightbox)
 
 The topic details page can also be displayed by opening an individual topic from the **Topics** page and selecting **Analytics** at the top of the page. You can also hover over an item and select the **Go to analytics** icon.
 
@@ -85,7 +85,7 @@ Having access to session information that is related to your bot can help you id
 Session transcripts are available by going to **Analytics > Sessions** tab. On the **Sessions** tab, you will be able to see all the different sessions that have been run for the bot. A session represents a conversation that someone had with the bot. If your bot had a high number of sessions, they will be broken down into multiple rows to help make managing the sessions easier. Each row will contain 2500 sessions. You can select each row to download the session transcripts for the specified time frame.
 
 > [!div class="mx-imgBorder"]
-> [![Analytics sessions for download](../media/5-6.png)](../media/5-6.png#lightbox)
+> [![Screenshot of how analytics sessions are prepared for download.](../media/5-6.png)](../media/5-6.png#lightbox)
 
 The downloaded file contains the following information:
 
