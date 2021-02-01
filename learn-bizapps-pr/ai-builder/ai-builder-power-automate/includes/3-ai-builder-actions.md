@@ -30,11 +30,11 @@ In this example, you will add the AI Builder action that allows sentiment analys
 
 - Open the AI Builder action group.
 
-    ![Choose an action with AI Builder selected.](../media/03-ai-builder-action.png)
+    ![Choose an action with A I Builder selected.](../media/03-ai-builder-action.png)
 
     This action group lists all available AI Builder actions. You can pick the action from that page.
 
-    ![In AI Builder, on the Actions tab, a list of actions includes Predict and Recognize text in an image.](../media/03-ai-builder-flow.png)
+    ![In A I Builder, on the Actions tab, a list of actions includes Predict and Recognize text in an image.](../media/03-ai-builder-flow.png)
 
 - Use the generic **Predict** action that allows you to use any type of model.
 
