@@ -94,7 +94,7 @@ First Row as Headers** feature. Notice that the column that contains the
 subcategory **Name** data now has **Month** as its column header.
 This column header is incorrect, so it needs to be renamed. 
 
-You can rename column headers in two ways. One approach is to right-click the header, select **Rename**, edit the name, and then press **Enter**. Alternatively, you can double-click the column header and overwrite the name withthe correct name. 
+You can rename column headers in two ways. One approach is to right-click the header, select **Rename**, edit the name, and then press **Enter**. Alternatively, you can double-click the column header and overwrite the name with the correct name. 
 
 You can also work around this issue by removing (skipping) the first two
 rows and then renaming the columns to the correct name. 
