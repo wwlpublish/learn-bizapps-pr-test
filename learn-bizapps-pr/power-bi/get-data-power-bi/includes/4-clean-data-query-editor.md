@@ -14,7 +14,7 @@ In this unit, you will transform data with Power Query Editor.
 
 ### Launch Power Query Editor
 
-To begin, select **Edit** from the **Navigator** window to launch Power Query Editor. You can also launch Power Query Editor directly from Power BI Desktop by using the **Edit Queries** button on the Home ribbon.
+To begin, select **Transform** from the **Navigator** window to launch Power Query Editor. You can also launch Power Query Editor directly from Power BI Desktop by using the **Transform data** button on the Home ribbon.
 
 ![The Edit Queries button the Home tab.](../media/03-power-bi-desktop-edit-queries.png)
 
