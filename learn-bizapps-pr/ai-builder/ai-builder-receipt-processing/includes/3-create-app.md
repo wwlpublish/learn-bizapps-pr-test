@@ -1,7 +1,7 @@
 Receipt processing uses a prebuilt AI model, which means that no prior training or configuration is required. You can use this model immediately in your canvas app by using the **Receipt processor** component.
 
 > [!div class="mx-imgBorder"]
-> [![Receipt processor](../media/3-1.png)](../media/3-1.png#lightbox)
+> [![Power Apps Studio with an A I Builder Receipt processor component open on Screen1.](../media/3-1.png)](../media/3-1.png#lightbox)
 
 In this exercise, you will create an app that scans a receipt and then displays the extracted information.
 
@@ -16,7 +16,7 @@ To add the **Receipt processor** component to your app, follow these steps:
 3. Select **Receipt processor (preview)**.
 
     > [!div class="mx-imgBorder"]
-    > [![AI Builder menu](../media/3-2.png)](../media/3-2.png#lightbox)
+    > [![AI Builder menu expanded to reveal the Receipt processor (preview).](../media/3-2.png)](../media/3-2.png#lightbox)
 
 Select the **Play** button in the upper-right corner of the screen to preview your app. You can then select the **Scan receipt** button on the component to upload a test image, which will scan and outline the key detected information from the receipt.
 
@@ -25,7 +25,7 @@ Select the **Play** button in the upper-right corner of the screen to preview yo
 The AI model will look for the most commonly used fields in receipts. The values of these fields can be retrieved directly as properties from the component.
 
 > [!div class="mx-imgBorder"]
-> [![ReceiptProcessor1.Total field from scan](../media/3-3.png)](../media/3-3.png#lightbox)
+> [![ReceiptProcessor1.Total field from scan detected a data type of text and a value of $1203.39.](../media/3-3.png)](../media/3-3.png#lightbox)
 
 1. Select **Insert > Label**.
 
@@ -45,7 +45,7 @@ The AI model will look for the most commonly used fields in receipts. The values
 1. Select all field options and then select **Add**.
 
     > [!div class="mx-imgBorder"]
-    > [![ReceiptProcessor1.PurchasedItems field](../media/3-5.png)](../media/3-5.png#lightbox)
+    > [![ReceiptProcessor1.PurchasedItems field returns two purchased items.](../media/3-5.png)](../media/3-5.png#lightbox)
 
     You can retrieve additional information about your receipts by using the **DetectedFields** and **DetectedText** properties.
 
@@ -54,7 +54,7 @@ The AI model will look for the most commonly used fields in receipts. The values
     **DetectedFields** contains advanced information about the key fields, such as the confidence score, bounding box, and page number.
 
     > [!div class="mx-imgBorder"]
-    > [![Detected fields](../media/3-6.png)](../media/3-6.png#lightbox)
+    > [![Detected fields shows formula for ReceiptProcessor1.DetectedFields.Total.Confidence with a value of 0.691.](../media/3-6.png)](../media/3-6.png#lightbox)
 
     For instance, to show the confidence score for the **Total** field that you displayed earlier, follow the next two steps.
 
