@@ -8,15 +8,15 @@ Eventually, preview scenarios are released for general availability (GA); then, 
 
 All GA scenarios are premium features. As such, they consume AI Builder capacity when they are used. To understand what it means to use a premium feature, you should first learn about the different ways that an AI model can be used today:
 
--   For a model that needs training, as soon as it is configured and trained, you can use it in quick test.
+- For a model that needs training, as soon as it is configured and trained, you can use it in quick test.
 
--   After a model has been published, or if it is a prebuilt model, you can use it in Power Automate.
+- After a model has been published, or if it is a prebuilt model, you can use it in Power Automate.
 
--   You can use your AI models in Power Apps by using a formula or by inserting a specific AI Builder component.
+- You can use your AI models in Power Apps by using a formula or by inserting a specific AI Builder component.
 
--   You can use a model by scheduling it to run on new and updated records or run it periodically.
+- You can use a model by scheduling it to run on new and updated records or run it periodically.
 
--   You can use certain model types in an integrated way in Dynamics 365 or SharePoint.
+- You can use certain model types in an integrated way in Dynamics 365 or SharePoint.
 
 For all these experiences, AI models are used and an output is created. These outputs are the actions that use the AI Builder add-on capacity. Depending on the configuration and data that are used, your models use different amounts of AI Builder capacity.
 
@@ -24,9 +24,9 @@ In addition to these prediction actions, which are common to all scenarios, some
 
 For each of these actions where AI Builder capacity is required are two ways to provide it:
 
--   Assign AI Builder capacity to environment
+- Assign AI Builder capacity to environment
 
--   Activate an AI Builder trial at user level
+- Activate an AI Builder trial at user level
 
 These concepts will be discussed in a later lesson. For now, remember that AI Builder premium features require AI Builder capacity to run a model (performing prediction), and in some cases, to train models. Therefore, creating a model cannot be done without AI Builder capacity.
 

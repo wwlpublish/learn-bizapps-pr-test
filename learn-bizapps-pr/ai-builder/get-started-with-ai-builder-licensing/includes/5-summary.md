@@ -7,4 +7,3 @@ You learned about the different types of included and premium AI Builder feature
 - Manage the AI Builder capacity through assign and unassign.
 - Check the AI Builder capacity assignment.
 - Distinguish the different ways to perform AI Builder action, through the environment with AI Builder capacity assigned or with an AI Builder trial license at user level.
-

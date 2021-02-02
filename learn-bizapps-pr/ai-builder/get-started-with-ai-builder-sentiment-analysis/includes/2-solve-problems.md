@@ -2,13 +2,13 @@ AI Builder Sentiment analysis provides insight into the sentiment of the text th
 
 Sentiment Analysis has many possible applications for your business, including:
 
--   Analyze sentiment of your brand by using data from social media and trigger an alert for negative customer entries.
+- Analyze sentiment of your brand by using data from social media and trigger an alert for negative customer entries.
 
--   Send an automatic response to negative customer feedback from surveys.
+- Send an automatic response to negative customer feedback from surveys.
 
--   Analyze trends on user sentiment for each product, geography, customer representative, and so on.
+- Analyze trends on user sentiment for each product, geography, customer representative, and so on.
 
--   Check the sentiment of your email before sending it to an important customer.
+- Check the sentiment of your email before sending it to an important customer.
 
 ### Analyze social media perception
 

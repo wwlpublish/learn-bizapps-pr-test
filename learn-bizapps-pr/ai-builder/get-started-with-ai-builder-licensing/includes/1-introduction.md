@@ -8,9 +8,9 @@ Because AI Builder is not a base product, but rather a set of features that you 
 
 If you detect an AI Builder feature after you have accessed the base product by using your license, it could be one of two possibilities:
 
--   The AI Builder feature is included in your license.
+- The AI Builder feature is included in your license.
 
--   The AI Builder feature is a premium feature that requires an add-on license.
+- The AI Builder feature is a premium feature that requires an add-on license.
 
 If the feature is included, you don't need additional licensing; the base product license is enough.
 
