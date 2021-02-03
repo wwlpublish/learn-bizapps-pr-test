@@ -7,7 +7,7 @@ Two ways to create a new visualization in Power BI Desktop are:
 
 * Drag field names from the Fields pane and then drop them on the report canvas. By default, your visualization appears as a table of data. 
   
-  ![Drag the "Country" field onto the canvas to create a visual.](../media/02-power-bi-desktop-drag-visual.png)
+  :::[Drag the "Country" field onto the canvas to create a visual.](../media/02-power-bi-desktop-drag-visual.png):::
 * In the Visualizations pane, select the type of visualization that you want to create. With this method, the default visual is a blank placeholder that resembles the type of visual that you selected.
   
   ![Screenshot of a visual selected on the Visualizations pane.](../media/02-power-bi-desktop-select-visual.png)
@@ -20,7 +20,7 @@ You can resize your visual by selecting it and then dragging the handles in or o
 
 As you hover over parts of your visuals, you'll receive a tooltip that contains details about that segment, such as labels and total value.
 
-Select the paintbrush icon on the Visualizations pane to make cosmetic changes to your visual. Examples of cosmetic changes include background alignment, title text, and data colors.
+Select the paintbrush icon on the Visualizations pane to make cosmetic changes to your visual. Examples of cosmetic changes include background, alignment, title text, and data colors.
 
   ![Screenshot of the Visualizations format pane.](../media/02-power-bi-desktop-visual-format.png)
 
