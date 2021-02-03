@@ -22,25 +22,25 @@ workflows.
 
 For example, with AI Builder you can:
 
--   Analyze text for classification, key phrases, language, and
+- Analyze text for classification, key phrases, language, and
     sentiment.
 
--   Predict whether something will happen.
+- Predict whether something will happen.
 
--   Process business card information.
+- Process business card information.
 
--   Process text from images.
+- Process text from images.
 
--   Read and save information from standard documents.
+- Read and save information from standard documents.
 
--   Recognize and count items in images.
+- Recognize and count items in images.
 
-![AI Builder dashboard](../media/image1.jpg)
+![AI Builder dashboard shows My Object Detection with 4 object names selected, 948 images added, and ready to tag objects in images.](../media/image1.jpg)
 
 A common use of AI Builder is to automate processes. The following
 examples can help you think about how you can use AI in your business:
 
--   **Invoice processing** - Companies often receive invoices in large
+- **Invoice processing** - Companies often receive invoices in large
     quantities and from a variety of sources, such as mail, fax, email,
     or in person. Processing these documents and manually entering them
     into your database can take considerable time. By
@@ -49,7 +49,7 @@ examples can help you think about how you can use AI in your business:
     information into your database. You can even create an app to
     review the information.
 
--   **Text analysis** - Businesses today are collecting more data than
+- **Text analysis** - Businesses today are collecting more data than
     ever before. Whether it's from survey responses, product reviews,
     user feedback, or support emails, generating the proper insights is
     important to understanding your business and your customers. By using
@@ -61,13 +61,13 @@ examples can help you think about how you can use AI in your business:
 
 You can access AI Builder within Power Apps and Power Automate.
 
-![AI Builder and Power Apps](../media/image2.jpg)
+![AI Builder within Power Apps on the Build tab. You can refine a model or use a ready-made tool like the business card reader.](../media/image2.jpg)
 
 Two available areas under AI Builder in the left side menu are:
 
--   **Build** - Where you create and get started by using AI models.
+- **Build** - Where you create and get started by using AI models.
 
--   **Models** - Where your created and shared models reside.
+- **Models** - Where your created and shared models reside.
 
 ## Next steps
 

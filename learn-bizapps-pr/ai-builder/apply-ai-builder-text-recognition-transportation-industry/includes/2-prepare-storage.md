@@ -8,25 +8,25 @@ Go to <https://make.powerapps.com> and open the "Data" menu and "Entities" subme
 
 The second step is to add fields that will store the data about each container. As said in the introduction unit, we need to store several information about the container. We will create the following fields in this entity:
 
-![Many-to-one relationship](../media/image2.png)
+![Current (Many) Container Shipment entity and its related entity Related (One) Account entity.](../media/image2.png)
 
 The container's identifier is a textual data, we will use the built-in Name field. (See [Types of fields](https://docs.microsoft.com/powerapps/maker/common-data-service/types-of-fields))
 
-![Entity structure](../media/image3.png)
+![Entities > Container Shipment on the Fields tab lists the fields and marks Name as the Primary Field.](../media/image3.png)
 
--   The Weight is a numerical data, modeled as Whole Number type in Microsoft Dataverse.
+- The Weight is a numerical data, modeled as Whole Number type in Microsoft Dataverse.
 
--   The Price is a currency data, modeled as Currency type in Dataverse.
+- The Price is a currency data, modeled as Currency type in Dataverse.
 
--   The Origin and Destination are location data, to make it simple we will use an Option Set with following values New York, Shanghai, San Francisco, Cape Town, Delhi, each corresponding to a port where the company is operating. An advanced design would be to create a separate Dock entity to enter more information data like country, zip code... and create a relationship with Container Shipment. (See [Create an Option set](https://docs.microsoft.com/powerapps/maker/common-data-service/custom-picklists))
+- The Origin and Destination are location data, to make it simple we will use an Option Set with following values New York, Shanghai, San Francisco, Cape Town, Delhi, each corresponding to a port where the company is operating. An advanced design would be to create a separate Dock entity to enter more information data like country, zip code... and create a relationship with Container Shipment. (See [Create an Option set](https://docs.microsoft.com/powerapps/maker/common-data-service/custom-picklists))
 
--   Shipping Date and Arrival Date will store the date and hour of shipping from origin and arrival to destination, we will use Dataverse's Date and Time.
+- Shipping Date and Arrival Date will store the date and hour of shipping from origin and arrival to destination, we will use Dataverse's Date and Time.
 
--   Is Fragile will indicate if the container is fragile or not, we use a Two Option for this.
+- Is Fragile will indicate if the container is fragile or not, we use a Two Option for this.
 
--   Delivery State will track the container progresses using an Option Set with following values Waiting, In Transit, Delivered with default value Waiting.
+- Delivery State will track the container progresses using an Option Set with following values Waiting, In Transit, Delivered with default value Waiting.
 
--   Eventually for "Customer", the Power Platform provide some built-in entities like Account or Contact. We will use Account here and will create a Many-to-one relationship using the "Relationship" tab and "+Add relationship" button. (see [Create a relationship between entities](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-entity-lookup))
+- Eventually for "Customer", the Power Platform provide some built-in entities like Account or Contact. We will use Account here and will create a Many-to-one relationship using the "Relationship" tab and "+Add relationship" button. (see [Create a relationship between entities](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-entity-lookup))
 
 We end with following entity structure. (Some fields are automatically added by Dataverse to manage currencies)
 

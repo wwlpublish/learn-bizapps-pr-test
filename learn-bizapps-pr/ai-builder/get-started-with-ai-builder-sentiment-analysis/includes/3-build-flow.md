@@ -6,21 +6,21 @@ The prerequisite for this exercise is to have Microsoft Dataverse and a Power Au
 
 Power Automate comes with many templates to help get you started with creating flows. To create a flow by using a template, follow these steps:
 
-1.  Sign in to [Power Automate](https://ms.flow.microsoft.com/) by using your organizational account.
-2.  Select **My flows**.
-3.  Select **New** and then select **Create from template**.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com/) by using your organizational account.
+2. Select **My flows**.
+3. Select **New** and then select **Create from template**.
 
-    ![Select Create from Template](../media/image1.png)
-   
-4.  Enter **AI Builder Sentiment** to filter for templates that feature AI Builder Sentiment analysis, select **Send a notification with the sentiment of manager's emails using AI Builder**, and then select the template.
-5.  Select **Continue**. In the flow, you'll see the steps that will be used to get your email profile and your boss's profile before the flow is started.
-6.  Scroll to the bottom of the flow steps to find the **Check if it is my manager** section. Your email address and your manager's email address are automatically filled in from the profile information that you entered.
-7.  In the **Send a push notification** section, select **Text** to change the text of the notification that you'll get when an email is received from your boss. Alternatively, you can leave the text as-is.
+    ![Screenshot of New menu dropped down and the Create from template option is highlighted.](../media/image1.png)
 
-    ![Send a push notification](../media/image2.png)
+4. Enter **AI Builder Sentiment** to filter for templates that feature AI Builder Sentiment analysis, select **Send a notification with the sentiment of manager's emails using AI Builder**, and then select the template.
+5. Select **Continue**. In the flow, you'll see the steps that will be used to get your email profile and your boss's profile before the flow is started.
+6. Scroll to the bottom of the flow steps to find the **Check if it is my manager** section. Your email address and your manager's email address are automatically filled in from the profile information that you entered.
+7. In the **Send a push notification** section, select **Text** to change the text of the notification that you'll get when an email is received from your boss. Alternatively, you can leave the text as-is.
 
-8.  Select **Save** to save and test the flow.
-9.  To change the flow, select **Edit flow**.
+    ![Screenshot of the Send a push notification section with the text set to Boss said: body/Subject. Sentiment: Response results.](../media/image2.png)
+
+8. Select **Save** to save and test the flow.
+9. To change the flow, select **Edit flow**.
 
 Now, when emails arrive from your boss, you'll get a push notification with sentiment of the email on your phone.
 
