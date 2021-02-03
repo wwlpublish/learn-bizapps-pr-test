@@ -8,29 +8,28 @@ To help facilitate this process, AI Builder allows you to have multiple versions
 
 Editing your model creates a new version that is based on your existing customizations. To edit your model, follow these steps:
 
-1.  Select **AI Builder > Models** on the left menu.
-2.  Find your model and select it to go to its details page.
-3.  In the upper-left corner of the screen, select **Edit model**.
-    
+1. Select **AI Builder > Models** on the left menu.
+2. Find your model and select it to go to its details page.
+3. In the upper-left corner of the screen, select **Edit model**.
+
 While you edit your model, you can save your work at any time and return later. The new version will be saved as a draft, which you can access again from your model's details page and by selecting **Resume draft**.
 
 ### Work with multiple versions
-    
+
 You can have three versions of your model at any given time:
 
--   One published version
--   One *last trained* non-published version
--   One draft version
-    
+- One published version
+- One *last trained* non-published version
+- One draft version
+
 On the model details page, you can switch between the trained versions using the pivots at the top of the page.
-    
-![Switch between trained versions](../media/image1.jpg)
-    
+
+![Screenshot of Object Detection (preview) with tabs for Published version and Last trained version (selected).](../media/image1.jpg)
+
 When you edit your model, if you have a published version and a last trained version, you can start from the configuration of either version.
 
-![Start from either configuration](../media/image2.jpg)
+![Screenshot of Edit model menu expanded to show Start from published version and Start from last trained version options.](../media/image2.jpg)
 
 ### What's next?
-    
-You now know how to manage multiple versions of your model. Next, you'll learn how to share your model so others in your organization can use it. 
-    
+
+You now know how to manage multiple versions of your model. Next, you'll learn how to share your model so others in your organization can use it.
