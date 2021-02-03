@@ -17,17 +17,18 @@ This unit explains how you can import an Excel workbook file that contains a sim
 > [!NOTE]
 > Up until now, we've been importing data through Power BI Desktop. This unit page is done from the Power BI service. 
 
-## Make sure that your data is formatted as a table
-For Power BI to import data from your workbook, that data needs to be formatted as a table. In Excel, you can highlight a range of cells, and then on the **Insert** tab of the Excel ribbon, select **Table**.
-
-![Screenshot of the Insert > Table buttons.](../media/06b-power-bi-desktop-excel-table.png)
-
-Make sure that each column has a good name; it will make it easier for you to find the data that you want when creating your reports in Power BI.
+Make sure that each column has a good name in excel; it will make it easier for you to find the data that you want when creating your reports in Power BI.
 
 ## Import from a local drive
-Wherever you keep your files, Power BI makes importing them simple. In Power BI, you can go to **Get Data > Files > Local File** to select the Excel file that you want.
+Wherever you keep your files, Power BI makes importing them simple. In Power BI, you can go **Get Data > Files > Local File** to select the Excel file that you want.
 
 ![Three screenshots showing the Get Data, Get, and the Local file buttons.](../media/06b-power-bi-desktop-get-data.png)
+
+After you click Local file, you have two options.  You can import excel data into Power BI or you can upload your excel file to Power BI.
+
+Import will connect to the data in your workbook so you can create Power BI reports and dashboards.  Upload will bring your excel file into Power BI so you can view and interact with it as you would in Excel Online
+
+![Screenshot of import or upload window.](../media/06-power-bi-desktop-local-file.png)
 
 After the file has been imported into Power BI, you can begin creating reports.
 

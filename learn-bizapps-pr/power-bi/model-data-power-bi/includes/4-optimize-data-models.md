@@ -18,7 +18,7 @@ To hide a field in the Fields pane of Power BI Desktop, right-click the column a
 If you view tables in the **Model** view, hidden fields appear dimmed. The data in these tables is still available and is still part of the model. You can unhide any field that has been hidden by right-clicking the field and then selecting **unhide**.
 
 ## Sort visualization data by another field
-The **Sort by Column** tool, available on the **Modeling** tab, is useful to help ensure that your data is displayed in the order that you intended.
+The **Sort by Column** tool, available on the **Table tools** tab, is useful to help ensure that your data is displayed in the order that you intended.  
 
 ![Screenshot of the Sort by Column field.](../media/04-power-bi-desktop-sort-by-column.png)
 
@@ -26,10 +26,10 @@ As a common example, data that includes the name of the month is sorted alphabet
 
 ![Bar graph with months sorted alphabetically.](../media/04-power-bi-desktop-alphabetical-months.png)
 
-In this case, selecting the field in the **Fields** list, selecting **Sort by Column** from the **Modeling** tab, and then choosing a field to sort by can remedy the problem. The **MonthNo** category sort option will order the months as intended.
+In this case, selecting the **MonthName** field in the **Fields** list, selecting **Sort by Column** from the **Table tools** tab, and then choosing a field to sort by can remedy the problem. The **MonthNo** category sort option will order the months as intended.
 
 ![Bar graph with month sorted by month order.](../media/04-power-bi-desktop-sorted-months.png)
 
-Setting the data type for a field is another way to optimize your information so that it's handled correctly. To change a data type from the report canvas, select the column in the Fields pane, and then use the **Format** drop-down menu to select one of the formatting options. Any visuals you've created that display that field are updated automatically.
+Setting the data type for a field is another way to optimize your information so that it's handled correctly. To change a data type from the report canvas, select the column in the Fields pane, and then use the **Format** drop-down menu on the **Column tools** tab to select one of the formatting options. Any visuals you've created that display that field are updated automatically.
 
 For more information, see [Sort by column in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-sort-by-column/?azure-portal=true).
