@@ -13,12 +13,12 @@ To enter a comment for reference purposes which is displayed in the workspace, u
 
 ![comment action properties](..\media\comment-action-properties.png)
 
-Direct the flow to a specific point in the flow marked with the **Label** action. Provide a name for the label and use a **Go to** action and provide the label name to direct the flow to it.
+Direct the flow to a specific point in the flow marked with the **Label** action. Provide a name for the label. 
 
 
 ![label action properties](..\media\label-action-properties.png)
 
-
+Use a **Go to** action and select the label from a drop-down list to direct the flow to it.
 
 ![go to action properties](..\media\go-to-action-properties.png)
 

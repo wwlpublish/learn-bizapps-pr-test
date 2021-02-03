@@ -55,7 +55,7 @@ To simulate mouse click(s), use the **Send Mouse Click**. Choose whether the act
 
 ## Keyboard actions
 
-Simulate using the physical keyboard to enter text or other key commands with the **Send Keys** action. Enter the text to send or specify a text variable. Additionally, set **Direct sensitive text input** to hide the text in the action properties. Select the "eye" icon to show the text you entered. For more specialized key commands, use the Insert Special Key buttons to insert special keys such as the arrow keys, Caps Lock or keys from the numeric keypad, and Insert Modifier to send keys such as Shift and Control. Optionally, set a delay between the keystrokes in milliseconds. 
+Simulate using the physical keyboard to enter text or other key commands with the **Send Keys** action. Enter the text to send or specify a text variable. Additionally, set **Direct sensitive text input** to hide the text in the action properties. Select the "eye" icon to show the text you entered. For more specialized key commands, use the **Insert special key** button to keys such as the arrow keys, Caps Lock or keys from the numeric keypad, and **Insert modifier** to send keys such as Shift and Control. Optionally, set a delay between the keystrokes in milliseconds. 
 
 ![Send Keys action properties](..\media\send-keys-action.png)
 
