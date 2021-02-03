@@ -2,47 +2,47 @@ In this exercise, you will build a Power Automate flow that checks for the langu
 
 The prerequisite for this exercise is to have Microsoft Dataverse in the environment where you are building your flow.
 
-**Create a flow that detects language and routes to a specific inbox**
+## Create a flow that detects language and routes to a specific inbox
 
 To create a flow that detects language of an email and then routes it to a specific email inbox, follow these steps:
 
-1.  Sign in to Power Automate.
+1. Sign in to Power Automate.
 
-2.  Select **Create** from the left navigation bar and then select **Automated flow**.
+2. Select **Create** from the left navigation bar and then select **Automated flow**.
 
-3.  Pick a name for your flow and then select **When a new email arrives** as your flow's trigger.
+3. Pick a name for your flow and then select **When a new email arrives** as your flow's trigger.
 
-    ![Select When a new email arrives](../media/image1.png)
+    ![The Flow name is "Route emails according to Language using A I Builder. Under Choose your flow's trigger, "When a new email arrives" is selected.](../media/image1.png)
 
-4.  Select **Create** and then **New Step**.
+4. Select **Create** and then **New Step**.
 
-5.  Search for the **Predict** action and then select it.
+5. Search for the **Predict** action and then select it.
 
-    ![Search for the Predict action](../media/image2.png)
+    ![Under Choose an action, search results for "predict" appear in the Actions tab.](../media/image2.png)
 
-6.  Select **LanguageDetection model** from the **Model** drop-down menu, and then select **Body** (or **Body** and **Subject**) from the dynamic content from previous steps.
+6. Select **LanguageDetection model** from the **Model** drop-down menu, and then select **Body** (or **Body** and **Subject**) from the dynamic content from previous steps.
 
-    ![Select Body](../media/image3.png)
+    ![On the Predict step, Model is set to LanguageDetection model, and Text value is set to Body. You can insert parameters from previous steps.](../media/image3.png)
 
-7.  Select **New Step** and search for **Condition Control**.
+7. Select **New Step** and search for **Condition Control**.
 
-    ![Search for Condition Control](../media/image4.png)
+    ![Under Choose an action, search results show the Condition Control.](../media/image4.png)
 
-8.  Select **Response Results Language** in the **Select output from previous steps** field.
+8. Select **Response Results Language** in the **Select output from previous steps** field.
 
-    ![Select Response Results Language](../media/image5.png)
+    ![Under Apply to each, Select an output from previous steps allows you to select Response Results Language.](../media/image5.png)
 
-9.  Select **Condition** and then enter **FR** (for French), **EN** (for English), **DE** (for German), and so on, to select what language you want to route to a particular email.
+9. Select **Condition** and then enter **FR** (for French), **EN** (for English), **DE** (for German), and so on, to select what language you want to route to a particular email.
 
-    ![Select Condition](../media/image6.png)
+    ![Under Condition, select Response is equal to FR.](../media/image6.png)
 
 10. Scroll down the page and, under the **If yes** condition, add the **Send an email** action. Select a trigger according to your preferred email provider.
 
-    ![Add the Send an email option](../media/image7.png)
+    ![Under If yes, Choose an action, the search results for send an email appear in the Actions tab.](../media/image7.png)
 
 11. Customize the **To**, **Subject**, and **Body** fields by using dynamic content, such as the content shown in the following image.
 
-    ![Customize the To, Subject, and Body fields](../media/image8.png)
+    ![Under If yes, Send an email (V2), the To, Subject, and Body fields are filled in with parameters from previous steps.](../media/image8.png)
 
 12. Select **Save** and test the flow with a sample email.
 
