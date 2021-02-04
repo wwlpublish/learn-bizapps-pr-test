@@ -20,7 +20,7 @@ You can resize your visual by selecting it and then dragging the handles in or o
 
 As you hover over parts of your visuals, you'll receive a tooltip that contains details about that segment, such as labels and total value.
 
-Select the paintbrush icon on the Visualizations pane to make cosmetic changes to your visual. Examples of cosmetic changes include background alignment, title text, and data colors.
+Select the paintbrush icon on the Visualizations pane to make cosmetic changes to your visual. Examples of cosmetic changes include background, alignment, title text, and data colors.
 
   ![Screenshot of the Visualizations format pane.](../media/02-power-bi-desktop-visual-format.png)
 
