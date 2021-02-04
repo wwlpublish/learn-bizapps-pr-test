@@ -28,7 +28,7 @@ In this task, you will publish **Power BI file Sales Analysis.pbix** to Power BI
  
 1.	You will be prompted to login to your Power BI account. Enter your Power BI credentials and password. 
 
-1.	In the **Publish to Power BI** window, select your workspace. 
+1.	In the **Publish to Power BI** window, select **My workspace**. 
 
 1.	Click **Select**.
  
@@ -95,7 +95,7 @@ In this task, you will design the first report page. When you've completed the d
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the completed report page.](../media/lab-4-ss.png)](../media/lab-4-ss.png#lightbox)
 
-1. To rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename**.
+1. To rename the page, at the bottom-left, right-click **Page 1**, and then select **Rename page**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Rename Page option.](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
@@ -427,7 +427,7 @@ In this task, you will publish the report.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Publish button.](../media/lab-43-ssm.png)](../media/lab-43-ssm.png#lightbox)
 
-1. Publish the report to your **Sales Analysis** workspace.
+1. Publish the report to **My workspace**.
 
 1. Leave Power BI Desktop open.
 
@@ -444,7 +444,7 @@ In this exercise, you will explore the **Sales Report** in the Power BI service
 
 In this task, you will explore the **Sales Report** in the Power BI service.
 
-1. In the Edge, in the Power BI service, in the **Navigation** pane, review the contents of your workspace, and then click the **Sales Report** report.
+1. In Microsoft Edge, in the Power BI service, in the **Navigation** pane, review the contents of your workspace, and then click the **Sales Report** report.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Sales Report on the Navigation pane.](../media/lab-44-ssm.png)](../media/lab-44-ssm.png#lightbox)
@@ -477,7 +477,7 @@ In this task, you will explore the **Sales Report** in the Power BI service.
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the In Focus icon.](../media/lab-46-ssm.png)](../media/lab-46-ssm.png#lightbox)
 
-	In focus mode zooms the visual to full page size.
+	In focus mode it zooms in on the visual to full page size.
 
 1. Hover the cursor over different segments of the pie charts to reveal tooltips.
 
@@ -516,9 +516,6 @@ In this task, you will explore the **Sales Report** in the Power BI service.
 
 1. At the bottom-left, notice the commands to change page, navigate backwards or forwards between pages, or to exit full screen mode.
 
-1. Exit full screen mode.
+1. Press esc to exit full screen mode.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Exit full screen mode icon.](../media/lab-50-ssm.png)](../media/lab-50-ssm.png#lightbox)
-
-1. To return to the workspace, in the breadcrumb trail, click your workspace name.
+1. To return to the workspace, click **My workspace** in the upper left corner.
