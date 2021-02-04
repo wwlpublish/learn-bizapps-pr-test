@@ -39,4 +39,4 @@ of latest training and the various states we've learned about here.
 
 ### Next steps
 
-Now that you have learned how your model can develop over time, your next step is to learn how to edit your model to improve its performance and how to manage multiple model versions. 
+Now that you have learned how your model can develop over time, your next step is to learn how to edit your model to improve its performance and how to manage multiple model versions.
