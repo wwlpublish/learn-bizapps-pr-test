@@ -11,7 +11,7 @@ metadata:
 title: Deployment planning of Microsoft Cloud for Healthcare 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn about deployment planning of Microsoft Cloud for Healthcare. This module provides an overview of the installation and configuration the Microsoft Cloud for Healthcare solution, why certain components are required and how they provide foundation for the Healthcare solution. The Healthcare solution is composed of the following applications; Care Management, Home Health, Patient Access, Patient Outreach, and the Patient Service Center. 
+  This module explains the installation and configuration of the Microsoft Cloud for Healthcare solution, why certain components are required, and how the components provide a foundation for the Healthcare solution. The Healthcare solution is composed of Care Management, Home Health, Patient Access, Patient Outreach, and the Patient Service Center applications. 
 abstract: |  
     In this module, you will: 
     - Learn about Microsoft Cloud for Healthcare Azure deployment planning.
