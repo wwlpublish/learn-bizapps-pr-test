@@ -77,7 +77,7 @@ The **combo** chart visualization is a combination of a column chart and a line 
 
 ## Card visualization
 
-The **card** visualization displays a single value: a single data point. This type of visualization is deal for visualizing important statistics that you want to track on your Power BI dashboard or report, such as total value, YTD sales, or year-over-year change.
+The **card** visualization displays a single value: a single data point. This type of visualization is ideal for visualizing important statistics that you want to track on your Power BI dashboard or report, such as total value, YTD sales, or year-over-year change.
 
 The **multi-row** card visualization displays one or more data points, with one data point for each row.
 
