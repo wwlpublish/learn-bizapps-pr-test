@@ -5,14 +5,14 @@ Data within Dataverse is stored within a set of records called entities. A **tab
 
 Dataverse includes a base set of standard entities that support common business scenarios that connect to Dynamics 365 application data. You can also create custom entities specific to your organization and populate them with data that you import from lists in SharePoint, from Excel, or from PowerQuery. App makers can then use Power Apps to build rich applications using this data.
 
-![Illustration showing an overview of the Business Application Platform](../media/platform.png)
+![Diagram overview of the Business Application Platform.](../media/platform.png)
 
 Dynamics 365 applications, such as Dynamics 365 Sales, Service, and Marketing, use Dataverse to store and secure data used by the applications. This means you can build apps using Power Apps and Dataverse directly against your core business data already used within Dynamics 365 without the need for manual integration.
 
  > [!NOTE]
  > Dynamics 365 Finance, Dynamic 365 Supply Chain Management, and Dynamics 365 Retail  currently require the configuration of the Data Integrator to make your business data available within Dataverse.
 
-![Screenshot showing a list of entities](../media/updated-entitylist.png "table list")
+![Screenshot of Power Apps sowing a list of entities.](../media/updated-entitylist.png "table list")
 
 For most organizations, it's a good idea to use the standard entities and attributes as they were intended. But to meet your business needs, you can extend the functionality of standard entities by creating one or more custom entities to store information that's unique to your organization. 
 
