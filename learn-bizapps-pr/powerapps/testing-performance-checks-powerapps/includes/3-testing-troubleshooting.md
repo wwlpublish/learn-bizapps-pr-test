@@ -103,11 +103,11 @@ Now that you have learned about testing from within the app you need to look at 
 
 One example of a way you can use this is to determine if performance slowness, as measured by the Timer control from the previous example, is within your app, the network, or the data source. By using the Developer Tools in Microsoft Edge, you can see the breakdown of the query that took 1.55 seconds in Power Apps.
 
-![Full Screen](../media/fullscreen.png)
+![Screenshot of the Developer Tools used to see the breakdown of the query.](../media/fullscreen.png)
 
 By hovering over the query in the bottom right of the screen, you can see the time breakdown as follows.
 
-![Zoom](../media/zoom.png)
+![Screenshot of the breakdown of the query that took 1.55 seconds in Power Apps.](../media/zoom.png)
 
 In this instance, most of the time was spent waiting on the data source
 to filter the data and respond. This tells you that you cannot make the
@@ -121,4 +121,3 @@ on just the pieces you need like the network timelines.
 Additionally, you can use the developer tools to get more details about
 error messages returned in the app or a stronger indication where
 connectivity issues are occurring.
- 
