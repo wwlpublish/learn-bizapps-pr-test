@@ -11,6 +11,6 @@ properties that can be modified to change how the control looks and
 functions. To view all of available icon controls, select **Insert**
 and then select the **Icons** drop-down menu.
 
-![Icons Controls](../media/IconsControls.png)
+![Screenshot of the Icons Controls drop-down menu.](../media/IconsControls.png)
 
 These controls include arrows, geometric shapes, actions, and symbols. By incorporating shapes and icons, you can save some space and reduce clutter in your app, especially when working with a Phone form factor app. The Phone form factor app has a much smaller area for designing and adding controls so replacing some of the buttons with shapes and icons could really benefit the overall spacing of your app.
