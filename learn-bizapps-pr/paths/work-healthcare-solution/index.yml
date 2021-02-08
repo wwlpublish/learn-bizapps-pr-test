@@ -1,0 +1,29 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.work-healthcare-solution
+metadata:
+  title: Work with Microsoft Cloud for Healthcare
+  description: Learn how to use features Microsoft Cloud for Healthcare.
+  ms.date: 02/08/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-healthcare
+title: Work with Microsoft Cloud for Healthcare
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Get an overview of Microsoft Cloud for Healthcare features and functionality. This Learning Path includes Deployment considerations as well as using the apps with Microsoft Cloud for Healthcare. 
+prerequisites: Familiarity with Dynamics 365 and Power Platform.
+iconUrl: /learn/achievements/work-healthcare-solution.svg
+levels:
+- beginner
+roles: 
+- business-user  
+- functional-consultant
+products:
+- power-platform
+- dynamics-365
+modules:
+- learn-bizapps.get-started-healthcare
+- learn-bizapps.deployment-planning-healthcare 
+trophy: 
+  uid: learn-bizapps.work-healthcare-solution.trophy
