@@ -12,7 +12,7 @@ Dynamics 365 applications, such as Dynamics 365 Sales, Service, and Marketing, u
  > [!NOTE]
  > Dynamics 365 Finance, Dynamic 365 Supply Chain Management, and Dynamics 365 Retail  currently require the configuration of the Data Integrator to make your business data available within Dataverse.
 
-![Screenshot of Power Apps sowing a list of entities.](../media/updated-entitylist.png "table list")
+![Screenshot of Power Apps showing a list of entities.](../media/updated-entitylist.png "table list")
 
 For most organizations, it's a good idea to use the standard entities and attributes as they were intended. But to meet your business needs, you can extend the functionality of standard entities by creating one or more custom entities to store information that's unique to your organization. 
 
