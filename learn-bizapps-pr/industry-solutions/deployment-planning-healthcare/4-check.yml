@@ -13,26 +13,26 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: You want to provision the Health Bot to implement on your existing Patient Access portal.  What other Microsoft services do you require?
+  - content: You want to provision the Health Bot to implement on your existing Patient Access portal. What other Microsoft services do you require?
     choices: 
     - content: Power Platform
       isCorrect: false
-      explanation: You require Microsoft Azure to provision the Azure Health Bot.  Power Platform and Dynamics 365 are for the Microsoft Cloud for Health applications powered by Dynamics 365.  Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
+      explanation: You require Microsoft Azure to provision the Azure Health Bot. Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
     - content: Dynamics 365
       isCorrect: false 
-      explanation: You require Microsoft Azure to provision the Azure Health Bot.  Power Platform and Dynamics 365 are for the Microsoft Cloud for Health applications powered by Dynamics 365.  Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
+      explanation: You require Microsoft Azure to provision the Azure Health Bot. Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
     - content: Microsoft Azure
       isCorrect: true
-      explanation: You require Microsoft Azure to provision the Azure Health Bot.  Power Platform and Dynamics 365 are for the Microsoft Cloud for Health applications powered by Dynamics 365.  Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
+      explanation: You require Microsoft Azure to provision the Azure Health Bot. Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
     - content: Microsoft 365
       isCorrect: false 
-      explanation: You require Microsoft Azure to provision the Azure Health Bot.  Power Platform and Dynamics 365 are for the Microsoft Cloud for Health applications powered by Dynamics 365.  Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
-  - content: An organization has a subscription to the Microsoft Cloud for Healthcare AddOn and is using the Care Management app and wants to roll out the Home Health app.  What other license do they require?
+      explanation: You require Microsoft Azure to provision the Azure Health Bot. Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
+  - content: An organization has a subscription to the Microsoft Cloud for Healthcare add-on, is using the Care Management app, and wants to roll out the Home Health app. What other license do they require?
     choices: 
-    - content: Power Apps portals logins
+    - content: Power Apps portals Login capacity add-on
       isCorrect: false
       explanation: The Home Health app is built on top of and uses features of Dynamics 365 Field Service.
-    - content: Dynamics 365 Customer Service Digital Messaging Add-On
+    - content: Digital Messaging Add-in for Microsoft Dynamics 365 Customer Service
       isCorrect: false 
       explanation: The Home Health app is built on top of and uses features of Dynamics 365 Field Service.
     - content: Dynamics 365 Field Service
@@ -41,45 +41,45 @@ quiz:
     - content: Dynamics 365 Marketing
       isCorrect: false 
       explanation: The Home Health app is built on top of and uses features of Dynamics 365 Field Service.
-  - content: You are provisioning a Dataverse environment for Microsoft Cloud for Healthcare apps.  Your organization wants to utilize the Patient Service Center.  What other step must you take to deploy the Patient Service Center at a later step?
+  - content: You are provisioning a Dataverse environment for Microsoft Cloud for Healthcare apps. Your organization wants to use the Patient Service Center. What other step do you need to take to deploy the Patient Service Center at a later step?
     choices: 
     - content: Set the Environment to type of production
       isCorrect: false
-      explanation: The Patient Service Center requires Dynamics 365 apps to be enabled, Dynamics 365 apps can only be enabled when the environment is being provisioned.
+      explanation: The Patient Service Center requires Dynamics 365 apps to be enabled. Dynamics 365 apps can only be enabled when the environment is being provisioned.
     - content: Set the Environment to type of sandbox
       isCorrect: false 
-      explanation: The Patient Service Center requires Dynamics 365 apps to be enabled, Dynamics 365 apps can only be enabled when the environment is being provisioned.
+      explanation: The Patient Service Center requires Dynamics 365 apps to be enabled. Dynamics 365 apps can only be enabled when the environment is being provisioned.
     - content: Enable Dynamics 365 apps
       isCorrect: true
-      explanation: The Patient Service Center requires Dynamics 365 apps to be enabled, Dynamics 365 apps can only be enabled when the environment is being provisioned.
+      explanation: The Patient Service Center requires Dynamics 365 apps to be enabled. Dynamics 365 apps can only be enabled when the environment is being provisioned.
     - content: Do not enable Dynamics 365 apps
       isCorrect: false 
-      explanation: The Patient Service Center requires Dynamics 365 apps to be enabled, Dynamics 365 apps can only be enabled when the environment is being provisioned.
-  - content: Where would you deploy the Virtual Visits for Teams?
+      explanation: The Patient Service Center requires Dynamics 365 apps to be enabled. Dynamics 365 apps can only be enabled when the environment is being provisioned.
+  - content: Where would you deploy Virtual Visits for Teams?
     choices: 
     - content: Add the app from within Microsoft Teams
       isCorrect: false
-      explanation: The Virtual Visits integration is deployed from the Solution Center.  It is not added as an app from within Microsoft Teams.  It is not provisioned from Power Apps maker portal and it is not added as an Azure resource.
+      explanation: The Virtual Visits integration is deployed from the Solution Center. It is not added as an app from within Microsoft Teams. It is not provisioned from Power Apps maker portal and it is not added as an Azure resource.
     - content: Deploy from the Solution Center
       isCorrect: true
-      explanation: The Virtual Visits integration is deployed from the Solution Center.  It is not added as an app from within Microsoft Teams.  It is not provisioned from Power Apps maker portal and it is not added as an Azure resource.
+      explanation: The Virtual Visits integration is deployed from the Solution Center. It is not added as an app from within Microsoft Teams. It is not provisioned from Power Apps maker portal and it is not added as an Azure resource.
     - content: Add as a new Azure Resource
       isCorrect: false 
-      explanation: The Virtual Visits integration is deployed from the Solution Center.  It is not added as an app from within Microsoft Teams.  It is not provisioned from Power Apps maker portal and it is not added as an Azure resource.
+      explanation: The Virtual Visits integration is deployed from the Solution Center. It is not added as an app from within Microsoft Teams. It is not provisioned from Power Apps maker portal and it is not added as an Azure resource.
     - content: Provision the integration from the Power Apps maker portal
       isCorrect: false 
-      explanation: The Virtual Visits integration is deployed from the Solution Center.  It is not added as an app from within Microsoft Teams.  It is not provisioned from Power Apps maker portal and it is not added as an Azure resource.
-  - content: A health organization wants to deploy the Patient Access portal for its patients to view and make appointments.  What Power App portal template do you provision before deploying the Microsoft Cloud for Healthcare solutions to the Dataverse environment?
+      explanation: The Virtual Visits integration is deployed from the Solution Center. It is not added as an app from within Microsoft Teams. It is not provisioned from Power Apps maker portal and it is not added as an Azure resource.
+  - content: A health organization wants to deploy the Patient Access portal for its patients to view and make appointments. What Power Apps portal template do you provision before deploying the Microsoft Cloud for Healthcare solutions to the Dataverse environment?
     choices: 
     - content: Customer self-service portal
       isCorrect: true 
-      explanation: Customer self-service portal is the required template for the Patient Access portal.  The Partner portal is configured for channel sales.  The Portal from blank doesn’t have any functionality by default beyond basic web pages.  The Customer portal is meant for surfacing information from Dynamics 365 supply chain management.
+      explanation: Customer self-service portal is the required template for the Patient Access portal. The Partner portal is configured for channel sales. The Portal from blank doesn’t have functionality by default beyond basic webpages. The Customer portal is meant for displaying information from Microsoft Dynamics 365 Supply Chain Management.
     - content: Partner portal
       isCorrect: false 
-      explanation: Customer self-service portal is the required template for the Patient Access portal.  The Partner portal is configured for channel sales.  The Portal from blank doesn’t have any functionality by default beyond basic web pages.  The Customer portal is meant for surfacing information from Dynamics 365 supply chain management.
+      explanation: Customer self-service portal is the required template for the Patient Access portal. The Partner portal is configured for channel sales. The Portal from blank doesn’t have functionality by default beyond basic webpages. The Customer portal is meant for displaying information from Microsoft Dynamics 365 Supply Chain Management.
     - content: Portal from blank
       isCorrect: false 
-      explanation: Customer self-service portal is the required template for the Patient Access portal.  The Partner portal is configured for channel sales.  The Portal from blank doesn’t have any functionality by default beyond basic web pages.  The Customer portal is meant for surfacing information from Dynamics 365 supply chain management.
+      explanation: Customer self-service portal is the required template for the Patient Access portal. The Partner portal is configured for channel sales. The Portal from blank doesn’t have functionality by default beyond basic webpages. The Customer portal is meant for displaying information from Microsoft Dynamics 365 Supply Chain Management.
     - content: Customer portal
       isCorrect: false 
-      explanation: Customer self-service portal is the required template for the Patient Access portal.  The Partner portal is configured for channel sales.  The Portal from blank doesn’t have any functionality by default beyond basic web pages.  The Customer portal is meant for surfacing information from Dynamics 365 supply chain management.
+      explanation: Customer self-service portal is the required template for the Patient Access portal. The Partner portal is configured for channel sales. The Portal from blank doesn’t have functionality by default beyond basic webpages. The Customer portal is meant for displaying information from Microsoft Dynamics 365 Supply Chain Management.
