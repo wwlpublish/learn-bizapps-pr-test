@@ -3,7 +3,7 @@ to enhance the user experience of your app. There are certain shapes and
 icons that are universally recognized that you will find in many of the apps that you use daily. 
 For example, instead of adding a Button
 control to your app and setting the **OnSelect** property to Back(), you
-could just as easily use the **Back** icon control and set it's
+could as easily use the **Back** icon control and set its
 **OnSelect** property to Back().
 
 Remember, icons are controls, and each control has a specific set of
