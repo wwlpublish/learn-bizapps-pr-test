@@ -24,7 +24,7 @@ The web templates that are included in a starter portal are implemented by using
 Any starter portal has two files already included as child web files of the home page: `bootstrap.min.css` and `theme.css`. These files define the default styles and theme for your entire portal. You can upload and edit additional stylesheets in portals Studio by using the **Themes** section on the tool belt.
 
 > [!div class="mx-imgBorder"]
-> [![CSS Editing](../media/css-edit.png)](../media/css-edit.png#lightbox)
+> [![Screenshot of the Themes section on the tool belt.](../media/css-edit.png)](../media/css-edit.png#lightbox)
 
 Make sure that you consider how you want to approach style modifications for your portal, such as:
 
@@ -39,7 +39,7 @@ Make sure that you consider how you want to approach style modifications for you
 You can add customizations to specific pages or sections of your portal by adding a **Web File** record by using the Portal Management app with an attachment to a CSS file. You will need to specify the parent page in the **Web File** record so that the theme will be applied to the parent page and all descendants of that page. This approach makes it possible for you to build fully customized sections of your site.
 
 > [!div class="mx-imgBorder"]
-> [![Custom Theme for Section](../media/custom-theme-section.png)](../media/custom-theme-section.png#lightbox)
+> [![Screenshot of the Parent Page field in the web file record.](../media/custom-theme-section.png)](../media/custom-theme-section.png#lightbox)
 
 > [!IMPORTANT]
 > The partial URL must end in **.css** for the portal to recognize it and apply it to the webpage and its child pages.
@@ -66,7 +66,7 @@ CSS is often overlooked when simple adjustments are required, such as hiding the
 - Set the default value as required.
 
 > [!div class="mx-imgBorder"]
-> [![Hide field and set default](../media/hide-default.png)](../media/hide-default.png#lightbox)
+> [![Screenshot of hte New Entity Form Metadata with Label, CSS Class, and Set Value On Save fields.](../media/hide-default.png)](../media/hide-default.png#lightbox)
 
 Instead of resorting to JavaScript, you can accomplish this task by using configuration only. Using CSS, where possible, has certain advantages:
 
