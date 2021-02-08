@@ -40,11 +40,11 @@ When you add data to a template file, you must make sure the data is unique. You
     - **UTC Conversion Time Zone Code**
     - **Version Number**
  
-    ![Example of Pet columns Source values](../media/mapping-fields.png)
+    ![Screenshot example of Pet columns Source values.](../media/mapping-fields.png)
 
 6. In the upper right, click **Save changes**.
 
-    ![Example of a Mapping status column and Import button for a successful upload](../media/mapping-warning.png)
+    ![Screenshot example of a Mapping status column and Import button for a successful upload.](../media/mapping-warning.png)
 
     You will notice under Mapping status, it states "Mapping warnings exist". The reason for this mapping status is because we set some of the columns to None or Not. This is fine because we didn't want to include those columns so this warning can be ignored. 
 
@@ -56,4 +56,4 @@ When you add data to a template file, you must make sure the data is unique. You
 9. Select the **Pet** table.
 10. On the table designer toolbar, select **Data**.
 
-Notice that the Account column is empty, this is because when you updated the Excel export file and update columns you were not instructed to update this column. The reason you were not instructed to update the Account column is because you cannot set a lookup value when importing data from Excel, this must be done from Power Apps. 
+Notice that the Account column is empty, this is because when you updated the Excel export file and update columns you were not instructed to update this column. The reason you were not instructed to update the Account column is because you cannot set a lookup value when importing data from Excel, this must be done from Power Apps.
