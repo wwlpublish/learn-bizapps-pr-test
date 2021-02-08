@@ -8,7 +8,7 @@ Power Automate allows you to export and then import a flow so that others can us
 
 1. For the flow that you want to export, select the **More commands** button (the three vertical dots), select **Export**, and then select **Package (.zip)**.
 
-    ![Export a package](../media/flow-export.png)
+    ![Screenshot of the My flows tab with the menu next to File Conversion and Upload selected, and the Export, then Package (.zip) options highlighted.](../media/flow-export.png)
 
 1. Fill in the package details:
 
@@ -28,9 +28,6 @@ After a flow has been exported, anyone that you send the zip file to can import 
 1. Go to Power Automate, and sign in by using your organizational account.
 1. In the left pane, select **My flows**.
 1. Select **Import**.
-
-    ![Import a flow](../media/flow-import.png)
-
 1. On the **Import package** page, select **Upload**, and then, in the dialog box, select the zip file that you exported.
 1. Back on the **Import package** page, select **Import**.
 

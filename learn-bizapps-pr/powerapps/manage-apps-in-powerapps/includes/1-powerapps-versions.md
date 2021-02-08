@@ -6,7 +6,7 @@ Microsoft Power Apps can help if you saved changes to an app that you shouldn't 
 
 2. In the list of apps, select the ellipsis (**...**) next to the app name and then select **Details**.
 
-    ![View app versions](../media/powerapps-versions-details2.png)
+    ![Screenshot of the ellipsis menu with Details highlighted.](../media/powerapps-versions-details2.png)
 
 3. Select the **Versions** tab.
 
@@ -16,7 +16,7 @@ Microsoft Power Apps can help if you saved changes to an app that you shouldn't 
 
 1. Select the ellipsis (**...**) next to the desired version and then select **Restore**.
 
-    ![Restore version](../media/restore-version.png)
+    ![Screenshot of the ellipsis with Restore highlighted.](../media/restore-version.png)
 
 2. Select **Restore** again to confirm the action.
 
@@ -28,7 +28,4 @@ When you restore a version of an app, the newly restored version gets a new, inc
 > After restoring a previous version, the restored version needs to be published before users will see the new version. 
 > If for some reason you are not able to restore a previous version, you can try the following:
 > - Make sure the App is not open in Power Apps Studio. If the app is open, you will not be able to restore the version.
-> - Verify the version you would like to restore is not older than six months. At the current time, only app versions less than six months old can be restored. 
-
-
-
+> - Verify the version you would like to restore is not older than six months. At the current time, only app versions less than six months old can be restored.

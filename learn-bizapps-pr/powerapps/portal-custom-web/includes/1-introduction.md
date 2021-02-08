@@ -51,7 +51,7 @@ This simple template includes other templates to render common bits and pieces, 
 
 Web templates can be used to override the global header and footer that is used by a Power Apps portal. To accomplish this task, set the **Header Template** or **Footer Template** field of your website to the web template of your choice. 
 
-![Website header and footer](../media/3-website-header-footer.png)
+![Screenshot of the web template header and footer.](../media/3-website-header-footer.png)
 
 If you override the **Header Template** field, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on, for your site interface elements that are normally handled by the default header template.
 

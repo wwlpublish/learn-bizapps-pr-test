@@ -128,7 +128,7 @@ Go to `https://yourportal.powerappsportals.com/getAccounts`.
 Your output should look like the following example:
 
    > [!div class="mx-imgBorder"]
-   > [![REST API data sent by a portal page](../media/rest-data.png)](../media/rest-data.png#lightbox)
+   > [![Screenshot example of the REST webpage output.](../media/rest-data.png)](../media/rest-data.png#lightbox)
 
 #### Add code to retrieve the data
 
@@ -167,7 +167,7 @@ To add code to retrieve the data, follow these steps:
 1. Verify that the console output contains the same data as previously retrieved by the REST API page.
 
     > [!div class="mx-imgBorder"]
-    > [![REST API data retrieved by a content page](../media/console-output.png)](../media/console-output.png#lightbox)
+    > [![Screenshot of the console output with the same data as the previously retrieved REST API page.](../media/console-output.png)](../media/console-output.png#lightbox)
 
 > [!IMPORTANT]
 > If you have not previously configured entity permissions for the account entity, your API call will return an empty array. Make sure that you have completed the **Add entity permissions** task.
@@ -228,4 +228,4 @@ This exercise uses Highcharts.js library (free for personal or non-profit use) t
 1. The output should now include the bubble chart. Hover over the bubbles to verify the data.
 
 > [!div class="mx-imgBorder"]
-> [![Bubble chart using Dataverse data](../media/chart.png)](../media/chart.png#lightbox)
+> [![Screenshot of the output with the bubble chart now included.](../media/chart.png)](../media/chart.png#lightbox)

@@ -9,7 +9,7 @@ Delegation warnings
 Anytime you use a non-delegable function, Power Apps underlines it with a
 blue line and displays a yellow warning triangle as shown below.
 
-![Delegation Warnings](../media/delegate-warning.png)
+![Screenshot of non-delegable function with blue line and yellow warning triangle.](../media/delegate-warning.png)
 
 This gives you a clear visual indicator that delegation is not
 happening, which means you may not be seeing all of your data. It is
@@ -24,7 +24,7 @@ important to understand a couple of things about this visual indicator.
 
 - The warning indicator only processes through the first thing that causes delegation. Notice in the above screenshot that only the underlined field "FirstName" is in blue. That is because it was the first item that caused delegation. "LastName" would also cause delegation in this scenario. This can be confusing because people try to troubleshoot what is the difference between FirstName and LastName instead of the real issue, which is the Search function. If you encounter this confusion, rearrange your formula. This will validate and whichever field is first will show the issue.
 
-![Warning Indicator](../media/warning-indicator.png)
+![Screenshot of the Warning Indicator for the first item that caused delegation.](../media/warning-indicator.png)
 
 - This visual indicator is only present when you are in the maker
     portal, building the app. When a user is running the app, they will
@@ -53,7 +53,7 @@ settings.
 5.  After you have set the limit, select the **arrow** in the upper left to
     save your change and return to the Maker portal.
 
-![App Settings](../media/app-settings.png)
+![Screenshot of the Power Apps Settings Advanced Settings with data row limit set.](../media/app-settings.png)
 
 There are two primary reasons that you might want to adjust this limit.
 
@@ -122,4 +122,4 @@ large. A potential downside is that LookUp will make separate calls to
 the data source for each of those first records in Products, causing much chatter on the network. If Suppliers is small enough and doesn't
 change often, you could cache the data source in your app with a Collect
 call when the app starts (using OnVisible on the opening screen) and do
-the LookUp to it instead. 
+the LookUp to it instead.
