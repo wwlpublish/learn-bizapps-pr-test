@@ -25,12 +25,12 @@ demonstrate the **Navigate** and **Back()** functionality.
     property to **Back**.
 1.  On Screen1, set the Next button **OnSelect** property to **Navigate(Screen2,ScreenTransition.Fade)**.
 
-	[![Screenshot of the Next button set OnSelect property to Navigate(Screen2,ScrenTransition.Fade).](../media/next-button-ss.png)](../media/next-button-ss.png#lightbox)
+	[![Screenshot of the Next button set OnSelect property to Navigate(Screen2,ScreenTransition.Fade).](../media/next-button-ss.png)](../media/next-button-ss.png#lightbox)
 
 1.  On Screen2, set the **OnSelect** property for the Next button to **Navigate(Screen3,ScreenTransition.Cover)**.
 1.  Set the **OnSelect** property for the Back button to **Back().**
 
-	[![Screenshot of the OnSelect property for the back button set to Back()on Screen2.](../media/next-screen-2-ss.png)](../media/next-screen-2-ss.png#lightbox)
+	[![Screenshot of the OnSelect property for the back button set to Back() on Screen2.](../media/next-screen-2-ss.png)](../media/next-screen-2-ss.png#lightbox)
 
 1.  On Screen3, set the **OnSelect** property for the Back button to **Back()**.
 
