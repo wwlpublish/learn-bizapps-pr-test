@@ -8,7 +8,7 @@ For more details, be sure to check out the documentation that's specific to each
 
 Before you can experiment with or edit the model-driven sample apps, you must set them up in a Microsoft Dataverse database. First, create a trial environment and a database, and then select the **Deploy sample apps and data** toggle.
 
-![Deploy sample apps and data toggle screenshot](../media/deploy-sample-apps.png)
+![Deploy sample apps and data toggle screenshot.](../media/deploy-sample-apps.png)
 
 In Power Apps, select the environment you want, or go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true) to create a new one. Select **New**, provide a name, **Yes** to Create a database for this environment, and select **Save**.
 
@@ -21,7 +21,7 @@ To run a sample app, follow these steps:
 
 1. Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true) to see a list of available sample apps. For this example, select **Fundraiser**.
 
-	![Select to edit Fundraiser sample app](../media/updated-fundraiser-app2.png)
+	![Screenshot of the Power Apps list of available sample apps with Fundraiser selected.](../media/updated-fundraiser-app2.png)
 
 1. At the top of the page, select **Show Visual Filter** to show graphs and charts where you can see how donations to fundraisers are performing. In the next steps, you'll create a new fundraiser and submit a donation to that fundraiser.
 1. On the left pane, under **Fundraiser**, select **Fundraisers**.
