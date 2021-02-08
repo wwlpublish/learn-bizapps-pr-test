@@ -12,7 +12,7 @@ demonstrate the **Navigate** and **Back()** functionality.
 1. A new tab will open in your browser. Choose **Tablet layout** under Blank app near the bottom.
 1. In the new blank app, select the **Insert** tab, select the **New screen** dropdown, and choose *Blank*.
 
-	[![select the New Screen dropdown.](../media/new-screen-ss.png)](../media/new-screen-ss.png#lightbox)
+	[![Screenshot of the Insert tab New screen with Blank selected.](../media/new-screen-ss.png)](../media/new-screen-ss.png#lightbox)
 
 1.  This will create a new blank screen in your app. Repeat once more to have three screens total.
 
@@ -25,16 +25,16 @@ demonstrate the **Navigate** and **Back()** functionality.
     property to **Back**.
 1.  On Screen1, set the Next button **OnSelect** property to **Navigate(Screen2,ScreenTransition.Fade)**.
 
-	[![set the Next button.](../media/next-button-ss.png)](../media/next-button-ss.png#lightbox)
+	[![Screenshot of the Next button set OnSelect property to Navigate(Screen2,ScrenTransition.Fade).](../media/next-button-ss.png)](../media/next-button-ss.png#lightbox)
 
 1.  On Screen2, set the **OnSelect** property for the Next button to **Navigate(Screen3,ScreenTransition.Cover)**.
 1.  Set the **OnSelect** property for the Back button to **Back().**
 
-	[![On screen2 set next button.](../media/next-screen-2-ss.png)](../media/next-screen-2-ss.png#lightbox)
+	[![Screenshot of the OnSelect property for the back button set to Back()on Screen2.](../media/next-screen-2-ss.png)](../media/next-screen-2-ss.png#lightbox)
 
 1.  On Screen3, set the **OnSelect** property for the Back button to **Back()**.
 
-	[![set Back button.](../media/back-ss.png)](../media/back-ss.png#lightbox)
+	[![Screenshot of the OnSelect property for the back button set to Back() on Screen3.](../media/back-ss.png)](../media/back-ss.png#lightbox)
 
 1.  To test this, put the app in Preview or Play mode and navigate
     through the app as a user would.
