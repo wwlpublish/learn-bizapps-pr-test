@@ -32,7 +32,7 @@ Depending on what specific applications and features will be implemented, to ins
 
 -   Power Apps portals Page view capacity add-on (Patient Access)
 
--   Dynamics 365 Customer Engagement Plan trial (30-day trial for Dynamics 365 Customer Service Enterprise and Dynamics 365 Field Service)
+-   Dynamics 365 Customer Engagement Plan trial (30-day trial for Dynamics 365 Customer Service and Dynamics 365 Field Service)
 
 -   Microsoft Cloud for Healthcare add-on (all solutions)
 
