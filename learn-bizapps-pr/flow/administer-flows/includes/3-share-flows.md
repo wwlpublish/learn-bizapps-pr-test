@@ -1,22 +1,26 @@
-In the Power Automate mobile app, you can share button flows with other users 
-or groups in your organization. The users or groups with whom you share a button 
+In the Power Automate mobile app, you can share button flows with other users
+or groups in your organization. The users or groups with whom you share a button
 can then run it the same way they run their own buttons.
 
 You can also share a link to buttons that another person shared with you.
 
 You can stop sharing your buttons at any time.
 
-The screenshots in this unit were taken on a Apple iOS device. If you're using 
-an Android or Windows device, what you see might differ, but the functionality 
+The screenshots in this unit were taken on a Apple iOS device. If you're using
+an Android or Windows device, what you see might differ, but the functionality
 is the same.
 
 ## Prerequisites
 
 To share buttons, you need:
 
-* An account that has access to [Power Automate](https://flow.microsoft.com).
+* An account that has access to [Power Automate](https://flow.microsoft.com/?azure-portal=true
+).
 * A flow to share.
-* A mobile device that has the Power Automate mobile app for [Android](https://aka.ms/flowmobiledocsandroid), [Apple iOS](https://aka.ms/flowmobiledocsios), or [Windows Phone](https://aka.ms/flowmobilewindows).
+* A mobile device that has the Power Automate mobile app for [Android](https://aka.ms/flowmobiledocsandroid/?azure-portal=true
+), [Apple iOS](https://aka.ms/flowmobiledocsios/?azure-portal=true
+), or [Windows Phone](https://aka.ms/flowmobilewindows/?azure-portal=true
+).
 * A person or group in your organization with whom to share your button.
 
 ## Share a button
@@ -27,11 +31,11 @@ You share a button by using the **Buttons** tab of the Power Automate mobile app
 
 1. On the **Buttons** tab, select the three dots next to the button that you want to share.
 
-    ![Share a button](../media/share-button-flows-buttons-tab.png)
+    ![Screenshot of the Buttons tab with the ellipsis button highlighted next to the Send myself a reminder in 10 minutes button.](../media/share-button-flows-buttons-tab.png)
 
 1. On the pop up, select **Invite others**.
 
-    ![Invite others](../media/share-button-flows-button-users.png)
+    ![Screenshot of the Buttons tab with the button menu showing Invite others and Share button links options. Invite others is highlighted.](../media/share-button-flows-button-users.png)
 
 1. On the following page you can manage users with whom you have already shared the flow. For this exercise, select **Invite others** again to continue with sharing.
 
@@ -54,7 +58,7 @@ When you share a button with other people, you can either let them use all the c
 
 1. Select **Provided by user** or your email address to specify whose connections must be used in the shared button.
 
-    ![Specify whose connections must be used](../media/share-button-select-connection-provided-by-user.png)
+    ![Screenshot of Users and connections Choose which connection to use for "Notifications" with Provided by user selected.](../media/share-button-select-connection-provided-by-user.png)
 
     You can view or change your selection at any time.
 
@@ -67,17 +71,17 @@ You can stop sharing a button by following these steps.
 
 1. On the **Buttons** tab, select the three dots next to the button that you want to stop sharing.
 
-    ![Share a button](../media/share-button-flows-buttons-tab.png)
+    ![Screenshot of the Buttons tab with the ellipsis button highlighted next to the Send myself a reminder in 10 minutes button to stop sharing.](../media/share-button-flows-buttons-tab.png)
 
 1. On the pop up, select **Invite others**.
 
-    ![Invite others](../media/share-button-flows-button-users.png)
+    ![Screenshot of the Buttons tab with the button menu showing Invite others and Share button links options. Invite others is highlighted again.](../media/share-button-flows-button-users.png)
 
 1. On the following page you can manage users with whom you have already shared the flow. On this page, select the user which you wish to remove.
 
 1. On the user's page, select **Remove user**.
 
-    ![Remove user](../media/share-button-flows-remove-user.png)
+    ![Screenshot of John Doe's page with Remove user highlighted.](../media/share-button-flows-remove-user.png)
 
 1. Wait for the removal action to be finished. The list on the **Button users** page is refreshed, and the user or group that you removed is no longer listed.
 
@@ -104,7 +108,7 @@ You can share a link to a button that has been shared with you.
 
 1. On the **Buttons** tab, select the three dots next to the button that you want to share.
 
-    ![Share a button](../media/share-button-flows-buttons-tab.png)
+    ![Screenshot of the Buttons tab with the ellipsis button highlighted next to the Send myself a reminder in 10 minutes button to re-share.](../media/share-button-flows-buttons-tab.png)
 
 1. Select **Share button link**.
 
@@ -118,7 +122,7 @@ If you no longer want to use a button that was shared with you, you can remove i
 
 1. On the **Buttons** tab, select the three dots next to the button that you no longer want to use.
 
-    ![Share a button](../media/share-button-flows-buttons-tab.png)
+    ![Screenshot of the Buttons tab with the ellipsis button highlighted next to the Send myself a reminder in 10 minutes button to stop using.](../media/share-button-flows-buttons-tab.png)
 
 1. Select **Remove**.
 

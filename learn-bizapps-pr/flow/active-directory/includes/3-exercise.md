@@ -13,11 +13,11 @@ Create a new process and then add the **Connect to Active Directory Server** act
 
 If authentication is required, select the **Use Authentication** check box, and then provide your **Authentication Type** and credentials.
   
-![connect to ad server properties exercise](..\media\connect-to-ad-server-properties-exercise.png)
- 
+![Screenshot of Properties of 'Connect to Active Directory User' action dialog with the L DAP Path property set to LDAP://DC=contoso,DC=demo.](..\media\connect-to-ad-server-properties-exercise.png)
+
 ## Create an Active Directory user
 
-The **Create Active Directory User** action requires the location where the user will be created. Enter the location of the user's container. 
+The **Create Active Directory User** action requires the location where the user will be created. Enter the location of the user's container.
 
 Provide the user’s personal details and credentials, as follows, and then select the **Disable account** and **Password never expires** check boxes.
 
@@ -26,28 +26,28 @@ Provide the user’s personal details and credentials, as follows, and then sele
 - **Initials** — NV
 - **Username** — nvarga
 - **Password** — Password123
-	
-![create ad user properties exercise](..\media\create-ad-user-properties-exercise.png)
+
+![Screenshot of Properties of 'Create Active Directory User' action dialog with the Action Input properties listed above highlighted.](..\media\create-ad-user-properties-exercise.png)
 
 ## Add the user to a group
 
-Now that an Active Directory user has been created, the next step is to add this user to a group with the **Modify Active Directory Group** action. 
+Now that an Active Directory user has been created, the next step is to add this user to a group with the **Modify Active Directory Group** action.
 
 Specify the group by filling in the **Distinguished Name** field and then set the **Operation** option to **Add User**, again specifying the user’s distinguished name.
   
-![modify ad group properties exercise](..\media\modify-ad-group-properties-exercise.png)
+![Screenshot of Properties of 'Modify Active Directory Group' action dialog with Distinguished Name, Operation, and User Distinguished Name highlighted.](..\media\modify-ad-group-properties-exercise.png)
 
 ## Create a computer object
 
 Next, you will add the **Create Active Directory Object** action. Set the **Object Name** field to **JSBOT** (in uppercase). The object’s location should be the computer's container, and the **Object Type** option should be set to **Computer**.
   
-![create ad object properties exercise](..\media\create-ad-object-properties-exercise.png)
+![Screenshot of Properties of 'Create Active Directory Object' action dialog with the Object Name, Location, and Object Type properties highlighted.](..\media\create-ad-object-properties-exercise.png)
 
 ## Close connection
 
 The last step in the process, **Close Active Directory Connection**, will disconnect from the Active Directory server.
   
-![close ad connection properties exercise](..\media\close-ad-connection-properties-exercise.png)
+![Screenshot of Properties of 'Close Active Directory Connection' action dialog. This action closes a previously opened Active Directory connection.](..\media\close-ad-connection-properties-exercise.png)
 
 ## Run the process
 
