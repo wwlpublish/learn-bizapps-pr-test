@@ -8,14 +8,14 @@ To access the portals admin center:
 1. Select **Manage** at the top of the page.
 
 > [!div class="mx-imgBorder"]
-> [![Power Platform Admin Center](../media/power-platform-admin-center.png)](../media/power-platform-admin-center.png#lightbox)
+> [![Screenshot of the Power Platform Admin Center with Portals displayed.](../media/power-platform-admin-center.png)](../media/power-platform-admin-center.png#lightbox)
 
 ## Portal details
 
 If you need to see more details about the provisioned portal, such as portal type, application ID, owner of the portal, and so on, you can go to the **Portal Details** tab. The user who has created the portal is the owner of the portal.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Details](../media/portal-details.png)](../media/portal-details.png#lightbox)
+> [![Screenshot of the Portal Details General Settings.](../media/portal-details.png)](../media/portal-details.png#lightbox)
 
 The **Portal Details** area allows makers to alter some key attributes of a Power Apps portal:
 
@@ -24,7 +24,7 @@ The **Portal Details** area allows makers to alter some key attributes of a Powe
 - By default, portals are provisioned in **Trial** mode and a message will be displayed in the admin center. A maker can convert a trial portal to a production portal.  
 
    > [!div class="mx-imgBorder"]
-   > [![Portal trial mode](../media/trial.png)](../media/trial.png#lightbox)
+   > [![Screenshot of the Portal Details trial mode.](../media/trial.png)](../media/trial.png#lightbox)
 
    > [!NOTE]
    > Some features, such as custom URLs, are not available for portals in **Trial** mode.
@@ -43,7 +43,7 @@ The **Portal Details** area allows makers to alter some key attributes of a Powe
 The **Portal Actions** section of the portals admin center allows an administrator to configure specific portal settings or perform actions against a configured portal. For more information, see [Power Apps portals admin center](https://docs.microsoft.com/powerapps/maker/portals/admin/admin-overview/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
-> [![Portal Actions](../media/portal-actions.png)](../media/portal-actions.png#lightbox)
+> [![Screenshot of the Portal Actions section of the admin center.](../media/portal-actions.png)](../media/portal-actions.png#lightbox)
 
 | Action | Details |
 | ------ | ------- |
@@ -65,7 +65,7 @@ The **Portal Actions** section of the portals admin center allows an administrat
 The **Set up custom domains and SSL** feature will show any existing host name and associated SSL Bindings for custom URLs that are configured for the portal.
 
 > [!div class="mx-imgBorder"]
-> [![Custom domains](../media/set-up-custom-domains.png)](../media/set-up-custom-domains.png#lightbox)
+> [![Screenshot of the Setup Custom domains screen.](../media/set-up-custom-domains.png)](../media/set-up-custom-domains.png#lightbox)
 
 ## Manage SSL certificates
 
@@ -84,7 +84,7 @@ The **Set up Power BI integration** section allows administrators to enable the 
 Portal Checker is a self-service diagnostic tool that can be used by portal administrators to identify common issues in their portals. Portal Checker helps to identify issues with a portal by looking at various configuration parameters and providing suggestions on how to fix them.
 
 > [!div class="mx-imgBorder"]
-> [![Portal checker](../media/portal-checker.png)](../media/portal-checker.png#lightbox)
+> [![Screenshot of the Portal checker diagnostic results.](../media/portal-checker.png)](../media/portal-checker.png#lightbox)
 
 The Portal Checker feature examines various configuration aspects of the portal and displays warning details and recommended steps to improve portal functionality and performance.
 
