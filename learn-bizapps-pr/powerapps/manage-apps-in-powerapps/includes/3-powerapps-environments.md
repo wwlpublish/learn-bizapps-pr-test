@@ -1,11 +1,11 @@
 An environment is a container for apps and other resources, such as data connections and flows from Power Automate. It's a way to group items based on business requirements.
 
-![Screenshot of Power Platform environments](../media/power-apps-environments.png)
+![Screenshot of the Power Platform environments.](../media/power-apps-environments.png)
 
 If you've followed along with this module, you've already been working in <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a>; therefore, you've been working in a specific environment the whole time.
 In the upper-right corner of the home page, you can view your current environment.
 
-![Screenshot of Environment picker](../media/powerapps-environment-picker.png)
+![Screenshot of the Environment with toolbar.](../media/powerapps-environment-picker.png)
 
 If you're new to Microsoft Power Apps, you might have only the default environment at this point. If a drop-down menu is visible next to the environment name, this indicates that other environments are available.
 
@@ -59,4 +59,4 @@ Environment admins can create other security roles as needed. They can also add 
 7. Select **Manage Roles** on the top bar.
 8. In the **Manage User Roles** box, select the role(s) for the user. In this example, assign the user to the Environment Maker role.
 9. Select **OK**.
-10. The changes are then saved, so you can close the Dynamics 365 tab in your browser when done. 
+10. The changes are then saved, so you can close the Dynamics 365 tab in your browser when done.
