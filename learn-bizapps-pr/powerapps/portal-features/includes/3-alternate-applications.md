@@ -15,7 +15,7 @@ By using Dynamics 365 Marketing, staff would create a conference or event, desig
 Integrations to specific payment gateways will need to be custom developed and are not part of the Event Management portal.
 
 > [!div class="mx-imgBorder"]
-> [![Event Management Portal](../media/3-event-portal.png)](../media/3-event-portal.png#lightbox)
+> [![Screenshot of the Event Management Portal.](../media/3-event-portal.png)](../media/3-event-portal.png#lightbox)
 
 
 For more information, see the [Dynamics 365 Marketing Portal](https://docs.microsoft.com/dynamics365/marketing/set-up-event-portal/?azure-portal=true) documentation.
@@ -36,5 +36,3 @@ The key features of the Customer portal are:
 - Ability to create orders on the portal
 
 For more information, see the [Dynamics 365 Supply Chain Management Customer Portal](https://docs.microsoft.com/dynamics365/supply-chain/sales-marketing/customer-portal-overview/?azure-portal=true) documentation.
-
-
