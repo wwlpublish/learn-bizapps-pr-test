@@ -9,7 +9,7 @@ Adding components such as entity lists, entity forms, and Microsoft Power BI wil
 The Iframe component allows for integration of other Microsoft technologies such as Power Virtual Agents and even canvas Power Apps to add to a Power Apps portal page.  
 
 > [!div class="mx-imgBorder"]
-> [![Embedded Canvas App](../media/embedded-canvas-app.png)](../media/embedded-canvas-app.png#lightbox)
+> [![Screenshot of the code editor on hte New registration page.](../media/embedded-canvas-app.png)](../media/embedded-canvas-app.png#lightbox)
 
 > [!NOTE]
 > Users will still require appropriate licensing for specific technologies, such as licenses for embedded canvas Power Apps or access to Power BI reports.
