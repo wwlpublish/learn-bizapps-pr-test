@@ -1,6 +1,6 @@
 Model-driven and canvas Power Apps deliver business functionality to people. Microsoft Power Apps portals extend Microsoft Dataverse to internal and external audiences such as communities, customers, partners, and employees.
 
-![Power Apps portals & Audiences](../media/1-portals-audiences.png)
+![Diagram of Power Apps portals and audiences.](../media/1-portals-audiences.png)
 
 Power Apps portals come with a variety of preconfigured portal solutions that target diverse audiences. Starter portals have many features that add value to the Microsoft Dynamics 365 service apps. The following sections explain how these features help modern businesses engage a modern audience.
 
@@ -64,7 +64,7 @@ The following table describes the key capabilities of Power Apps portals.
 
 |                          Capability icon                         |   Capability                | Description                                                  |
 | :----------------------------------------------------------: | ----------------- | :----------------------------------------------------------- |
-|         ![Content icon](../media/1-icon-content.png)         | **Content**       | Seamless, responsive, and customizable web design for any user on any device. Full tracking and context are available because Dataverse is the operating system for all interactions. |
-|            ![Form icon](../media/1-icon-form.png)            | **Functionality** | Quickly build more secure, functional websites to interact with Dataverse with no coding required. Track customer interactions across all channels and capture them in a custom Power Apps or Dynamics 365 instance. |
-|           ![Icon tools](../media/1-icon-tools.png)           | **Extensibility** | Use powerful Microsoft Power Platform business processes that are natively extended through the web front end. Integrate portals with other systems like SharePoint or Power BI. Extend portals with custom development to cater to complex scenarios. |
-| ![Secure document icon](../media/1-icon-secure-document.png) | **Security**      | All data that is used to build portal content is protected more through Dataverse security model. Power Apps portals extend this model to help secure and tailor the content for the target audiences who are not Basic Users. |
+|         :::image type="icon" source="../media/1-icon-content.png":::         | **Content**       | Seamless, responsive, and customizable web design for any user on any device. Full tracking and context are available because Dataverse is the operating system for all interactions. |
+|         :::image type="icon" source="../media/1-icon-form.png":::          | **Functionality** | Quickly build more secure, functional websites to interact with Dataverse with no coding required. Track customer interactions across all channels and capture them in a custom Power Apps or Dynamics 365 instance. |
+|          :::image type="icon" source="../media/1-icon-tools.png":::           | **Extensibility** | Use powerful Microsoft Power Platform business processes that are natively extended through the web front end. Integrate portals with other systems like SharePoint or Power BI. Extend portals with custom development to cater to complex scenarios. |
+|         :::image type="icon" source="../media/1-icon-secure-document.png":::       | **Security**      | All data that is used to build portal content is protected more through Dataverse security model. Power Apps portals extend this model to help secure and tailor the content for the target audiences who are not Basic Users. |
