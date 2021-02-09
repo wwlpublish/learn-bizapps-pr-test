@@ -38,7 +38,7 @@ Alternatively, if a content snippet has a language value, then the value of the 
 
 ## Browse the multilingual portal
 
-The `MultiLanguage/DisplayLanguageCodeInURL` (true or false) site setting controls whether a language is determined by URL or by each session cookie. When a URL-based approach is selected, the Code property of the portal language will be used as part of the URL `https://portal_url/<code>/page/`, for example, `https://www.contoso.com/en-US/contact-us/`.
+The `MultiLanguage/DisplayLanguageCodeInURL` (true or false) site setting controls whether a language is determined by URL or by each session cookie. When a URL-based approach is selected, the Code property of the portal language will be used as part of the URL `https://portal_url/<code>/page/`, for example, `https://www.contoso.com/contact-us/`.
 
 ## Language considerations
 
