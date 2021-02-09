@@ -15,7 +15,7 @@ To run the Portal Checker, follow these steps:
 After a few minutes, you should see a list of diagnostic results.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Checker](../media/portal-checker.png)](../media/portal-checker.png#lightbox)
+> [![Screenshot of the Run Portal Checker with diagnostic results listed.](../media/portal-checker.png)](../media/portal-checker.png#lightbox)
 
 The result will also provide mitigation steps or links to help you understand the impact of the issue.
 
@@ -28,12 +28,12 @@ As an administrator, you might have occasions when you don't want portal users t
 While you can change the portal state to **Off**, selecting this option would present the portal visitors with a message that the portal cannot be found, leaving the visitors wondering what has happened.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Off](../media/portal-off.png)](../media/portal-off.png#lightbox)
+> [![Screenshot of the Portal Off error message.](../media/portal-off.png)](../media/portal-off.png#lightbox)
 
 Within the Portals admin center actions is the option to enable the **Portal Maintenance** mode. Selecting this mode will provide the portal visitors with a more informational page indicating that the portal is temporarily unavailable.
 
 > [!div class="mx-imgBorder"]
-> [![Maintenance Mode](../media/maintenance-mode.png)](../media/maintenance-mode.png#lightbox)
+> [![Screenshot of the Portal Maintenance Mode message.](../media/maintenance-mode.png)](../media/maintenance-mode.png#lightbox)
 
 The maintenance mode page can also be replaced with a custom HTML page that is hosted elsewhere and publicly accessible. For more information, see [Enable maintenance mode](https://docs.microsoft.com/powerapps/maker/portals/admin/enable-maintenance-mode#enable-maintenance-mode/?azure-portal=true).
 
@@ -61,6 +61,6 @@ Portal solutions can be updated by using the Dynamics 365 admin center (even for
 1. Select **Upgrade** to start the solution upgrade process.
 
 > [!div class="mx-imgBorder"]
-> [![Update Portal Solutions](../media/update-portal-solutions.png)](../media/update-portal-solutions.png#lightbox)
+> [![Screenshot of the Starter Portal with the Upgrade icon highlighted.](../media/update-portal-solutions.png)](../media/update-portal-solutions.png#lightbox)
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AprS]

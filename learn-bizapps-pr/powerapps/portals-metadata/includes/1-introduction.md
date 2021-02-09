@@ -3,7 +3,7 @@ The Microsoft Power Apps portals Studio provides a maker with a tool to update s
 When a Power Apps portal is provisioned, one of the assets that is created on the Microsoft Dataverse environment is the Portal Management model-driven app. The app can also appear as the Dynamics 365 Portals app for environments with the Dynamics 365 app provisioned.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Management App](../media/1-portal-management-app-ss.png)](../media/1-portal-management-app-ss.png#lightbox)
+> [![Screenshot of Power Apps Portal Management Apps screen.](../media/1-portal-management-app-ss.png)](../media/1-portal-management-app-ss.png#lightbox)
 
 ## Launch the Portal Management app
 
@@ -26,7 +26,7 @@ The Portal Management app allows makers to perform advanced configuration action
 The Portal Management app consists of standard model-driven views and forms in which to add and update metadata. Some of the record forms will have specialized controls, such as HTML editors, to allow deeper customization of portal content.
 
 > [!div class="mx-imgBorder"]
-> [![HTML Editing inside content snippet](../media/1-html-editor-content-snippet-ss.png)](../media/1-html-editor-content-snippet-ss.png#lightbox)
+> [![Screenshot of the About Footer content snippet H T M L editing.](../media/1-html-editor-content-snippet-ss.png)](../media/1-html-editor-content-snippet-ss.png#lightbox)
 
 The Portal Management app contains the following areas:
 
@@ -40,6 +40,6 @@ The Portal Management app contains the following areas:
 The Portal Management app includes a portal wizard that can be used to generate webpages with an entity list and a corresponding entity form. This tool can be used to quickly build a working portal application over the existing Dataverse data.
 
 > [!div class="mx-imgBorder"]
-> [![Portal wizard](../media/1-portal-wizard-ss.png)](../media/1-portal-wizard-ss.png#lightbox)
+> [![Screenshot of the Create Portal Content wizard.](../media/1-portal-wizard-ss.png)](../media/1-portal-wizard-ss.png#lightbox)
 
 For more information about how to use the portal wizard, see [Create and expose portal content easily](https://docs.microsoft.com/dynamics365/portals/create-expose-portal-content/?azure-portal=true).

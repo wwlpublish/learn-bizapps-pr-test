@@ -38,12 +38,12 @@ Generally, a webpage is referenced as a single record. This reference is for con
 Every webpage, even in a single language portal, will have a root webpage and a content page for the base language. As a result, content for additional languages can be added later.
 
 > [!div class="mx-imgBorder"]
-> [![Content and web pages](../media/3-content-pages-c.png)](../media/3-content-pages-c.png#lightbox)
+> [![Diagram of Content pages and web pages for Home, News, and Help.](../media/3-content-pages-c.png)](../media/3-content-pages-c.png#lightbox)
 
 When a webpage is first created, all properties such as the name, partial URL, template, and so on, are saved in the root record. Content entries are created for each language, and the page properties are copied across. Then, page properties and page content are managed on the content webpage record. Pages in different languages can have different content and a different template, expiration date, navigation, and author, and they can be published on different dates.
 
 > [!div class="mx-imgBorder"]
-> [![Content pages](../media/3-child-pages-ss.png)](../media/3-child-pages-ss.png#lightbox)
+> [![Screenshot of the Localized Content page list.](../media/3-child-pages-ss.png)](../media/3-child-pages-ss.png#lightbox)
 
 You can use the path of the request to locate the webpage record, or the root webpage record, to be exact. The request language is defined either by the request URL, such as `https://www.contoso.com/es-ES/news`, or by a browser cookie, and the corresponding content page is located. The content page defines the content and the template but contains no information on how the content is displayed, which is determined by the page template.
 
@@ -69,7 +69,7 @@ Consider the **Entity Permissions** property as the portal equivalent of Dataver
 Ultimately, the goal for the process of building a webpage is to provide improved security. Any access to portal structures is governed by Web Page Access Control Rules while Entity Permissions help secure access to Dataverse data.
 
 > [!div class="mx-imgBorder"]
-> [![How portal pages are built](../media/3-pages-built-c.png)](../media/3-pages-built-c.png#lightbox)
+> [![Diagram of how portal pages are built with improved security.](../media/3-pages-built-c.png)](../media/3-pages-built-c.png#lightbox)
 
 Power Apps portals includes a robust and flexible mechanism for building static pages or the pages that include data from other Dataverse entities. By using a combination of Entity Lists, Entity Forms, Web Forms, and Liquid, you can build complete web applications by extending your Dataverse or Dynamics 365 solutions to external and internal audiences.
 

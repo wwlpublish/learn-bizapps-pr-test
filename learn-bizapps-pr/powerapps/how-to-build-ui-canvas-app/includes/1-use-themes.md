@@ -1,6 +1,6 @@
 A quick and easy way to change the colors in your app is to apply a theme. In Power Apps, there are several out-of-the-box themes to choose from. The following screenshot illustrates all the themes that are available in your app.
 
-![Themes](../media/Themes.png)
+![Screenshot of out-of-the-box themes in Power Apps.](../media/Themes.png)
 
 These themes have a specific set of default colors and visual elements which will alter the look and feel of your entire app. To use any of these themes in your Canvas app, select a theme from the ribbon. The changes to your app will take effect immediately.
 

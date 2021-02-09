@@ -7,7 +7,7 @@ The following section explains the purpose of portal metadata records.
 The **Website** portal metadata section defines properties that control the behavior of the portals that are provisioned on the particular Microsoft Dataverse environment.
 
 > [!div class="mx-imgBorder"]
-> [![Website Metadata](../media/2-website-metadata-ssm.png)](../media/2-website-metadata-ssm.png#lightbox)
+> [![Screenshot of the Website section highlighted on the Site Settings screen.](../media/2-website-metadata-ssm.png)](../media/2-website-metadata-ssm.png#lightbox)
 
 | Metadata | Purpose |
 | --- | --- |
@@ -24,7 +24,7 @@ The **Website** portal metadata section defines properties that control the beha
 The **Content** section contains the entities that define what and how static and dynamic information is displayed on a Power Apps portal. While some of the content can be added by using the Power Apps portals Studio, certain aspects can only be added or modified by updating the data directly with the Portal Management app.
 
 > [!div class="mx-imgBorder"]
-> [![Content Metadata](../media/2-content-metadata-ssm.png)](../media/2-content-metadata-ssm.png#lightbox)
+> [![Screenshot of the Content section on the Web Templates screen.](../media/2-content-metadata-ssm.png)](../media/2-content-metadata-ssm.png#lightbox)
 
 | Metadata | Purpose |
 | --- | --- |
@@ -44,7 +44,7 @@ The **Content** section contains the entities that define what and how static an
 The security capabilities of Power Apps portals are similar to Dataverse role-based security. The main concept is that a portal user is represented by a contact record and can authenticate and sign in into a portal. The portal user can be assigned to one or more web roles, which can be used to control access to static portal content and Dataverse records. Currently, this feature can only be managed within the Portal Management app.
 
 > [!div class="mx-imgBorder"]
-> [![Security Metadata](../media/2-security-metadata-ssm.png)](../media/2-security-metadata-ssm.png#lightbox)
+> [![Screenshot of the Security section on the Entity permissions window.](../media/2-security-metadata-ssm.png)](../media/2-security-metadata-ssm.png#lightbox)
 
 | Metadata | Purpose |
 | --- | --- |
@@ -57,4 +57,3 @@ The security capabilities of Power Apps portals are similar to Dataverse role-ba
 | Website Access Permissions | Website access permissions define which high-level editing permissions that specific web roles have on the portal. |
 
 Some of the specific starter portal templates might install additional portal metadata settings for specific features of the portal app, for example, knowledge articles for the Customer self-service portal.
-

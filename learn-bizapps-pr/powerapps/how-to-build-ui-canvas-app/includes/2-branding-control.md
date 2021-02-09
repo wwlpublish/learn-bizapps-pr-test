@@ -73,7 +73,7 @@ specific to the theme that you select. For example, here's an example of the **D
     set the color manually. To change the color of that background you
     would have to select a different theme.
 
-![Date Picker Control](../media/DatePickerControl.png)
+![Screenshot of the Date Picker Control with color set by theme.](../media/DatePickerControl.png)
 
 As you design your app, be sure to incorporate the use of icons. In
 the next section, you'll learn how to add an icon to a Canvas app to change the look and feel of the app. 
