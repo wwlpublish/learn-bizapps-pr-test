@@ -7,7 +7,7 @@ In this unit, you'll create a model-driven app by using one of the standard enti
 3. On the **Home** page, select the **Model-driven app from blank**.  
 4. Click **Create**.
 
-    ![Model-driven](../media/updated-choose-design-mode.png)
+    ![Screenshot of the Model-driven app from blank feature.](../media/updated-choose-design-mode.png)
 
 5. On the **Create a New App** page, enter a name and description for the app.
 6. Select **Done**. Your new app appears in the App Designer, and you can now add components to it.
@@ -17,7 +17,7 @@ You add components to your app by using the App Designer.
 
 1. Select the **Open the Site Map Designer** pencil icon to open the site map designer.
 
-    ![Create a new site map](../media/updated-new-sitemap.png)
+    ![Screenshot of the Site Map Designer view.](../media/updated-new-sitemap.png)
 
 2. In the site map designer, select **New Subarea**, and then, in the right pane on the **Properties** tab, select the following properties:
 
@@ -28,13 +28,13 @@ You add components to your app by using the App Designer.
     > If *Account* is not an option as an entity, you may not have any sample data in your environment. Refer to this exercise on [how to create sample apps and data](https://docs.microsoft.com/learn/modules/intro-model-driven-apps-common-data-service/4-template-apps/?azure-portal=true).
 
     > [!div class="mx-imgBorder"]
-    > [![Add components to the site map.](../media/updated-sitemap.png)](../media/updated-sitemap.png#lightbox)
+    > [![Screenshot of the Properties tab with type and entity set.](../media/updated-sitemap.png)](../media/updated-sitemap.png#lightbox)
 
 
 3. Select **Save And Close**.
 4. In the App Designer, select **Forms**, and then, in the right pane under **Main Forms**, select the **Account** form.
 
-    ![Account main form](../media/updated-main-form.png)
+    ![Screenshot of the Main Forms with Account form selected.](../media/updated-main-form.png)
 
 5. In the App Designer, select **Views**, then select the following properties:
 
@@ -53,4 +53,4 @@ Above My Active Accounts, select **Show Chart**.
 
 If the sample data for your accounts does not have an Industry populated, go into a few accounts and add an Industry. Once you have updated a few accounts with an industry the chart will update as well.  
 
-![Simple account entity app](../media/updated-accounts-quickstart-app.png)
+![Screenshot of updated chart with industry populated.](../media/updated-accounts-quickstart-app.png)
