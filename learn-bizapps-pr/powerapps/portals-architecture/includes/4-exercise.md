@@ -61,4 +61,4 @@ To view your new webpage, from the command bar, select **Browse website**.
 You should now see your new webpage on the portal. A link to your webpage is also on the main menu.
 
 > [!div class="mx-imgBorder"]
-> [![first web page](../media/4-first-web-page-ss.png)](../media/4-first-web-page-ss.png#lightbox)
+> [![Screenshot of the My first web page on the portal.](../media/4-first-web-page-ss.png)](../media/4-first-web-page-ss.png#lightbox)

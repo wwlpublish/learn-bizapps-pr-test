@@ -104,6 +104,6 @@ Your last task is to modify the list page to navigate to the form component:
 1. Select **Browse** from the command bar and ensure that you can see a list of idea data records from Dataverse and then select an idea to view details.
 
     > [!div class="mx-imgBorder"]
-    > [![entity list](../media/4-entity-list-exercise-ss.png)](../media/4-entity-list-exercise-ss.png#lightbox)
+    > [![Screenshot of the list of idea data records.](../media/4-entity-list-exercise-ss.png)](../media/4-entity-list-exercise-ss.png#lightbox)
 
 Adding components to a webpage will allow you to quickly view Dataverse records.
