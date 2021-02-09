@@ -30,7 +30,7 @@ modules:
 - learn-bizapps.pad-excel-automation
 - learn-bizapps.pad-system-services-actions
 - learn-bizapps.pad-files-folders-handling
-- learn-bizapps.pad-ui-automation
+- learn-bizapps.pad-ui-elements
 - learn-bizapps.pad-web
 trophy: 
   uid: learn-bizapps.pad-work-different-technologies.trophy

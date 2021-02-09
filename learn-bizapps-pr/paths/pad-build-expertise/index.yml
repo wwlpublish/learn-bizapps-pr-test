@@ -27,7 +27,7 @@ products:
 - power-automate
 modules:
 - learn-bizapps.pad-active-directory
-- learn-bizapps.pad-powerautomate
+- learn-bizapps.pad-power-automate
 - learn-bizapps.pad-database-handling
 - learn-bizapps.pad-scripting
 - learn-bizapps.pad-ocr
