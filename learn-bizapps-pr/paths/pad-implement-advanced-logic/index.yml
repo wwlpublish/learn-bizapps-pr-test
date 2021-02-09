@@ -1,0 +1,33 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.pad-implement-advanced-logic
+metadata:
+  title: Implement advanced logic in Power Automate Desktop
+  description: Learn how to develop advanced flows in Power Automate Desktop.
+  ms.date: 09/02/2021
+  author: olegmelnykov
+  ms.author: olmelnyk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Implement advanced logic in Power Automate Desktop
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Learn how to work with system flows, control flows, mimic mouse actions, as well as operations used to manipulate text, date, and time in Power Automate Desktop.
+prerequisites: None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- intermediate
+roles: 
+- maker  
+- developer 
+- functional-consultant  
+products:
+- power-platform
+- power-automate
+modules:
+- learn-bizapps.pad-system-services-actions
+- learn-bizapps.pad-flow-control
+- learn-bizapps.pad-mouse-keyboard
+- learn-bizapps.pad-message-boxes
+- learn-bizapps.pad-pad-text-manipulation
+trophy: 
+  uid: learn-bizapps.pad-implement-advanced-logic.trophy

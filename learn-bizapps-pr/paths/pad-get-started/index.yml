@@ -1,0 +1,30 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.pad-get-started
+metadata:
+  title: Get Started with Power Automate Desktop
+  description: Learn how to use features of Power Automate Desktop.
+  ms.date: 09/02/2021
+  author: olegmelnykov
+  ms.author: olmelnyk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Get Started with Power Automate Desktop
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Get started with Power Automate Desktop by learning about flows, creating automated steps, and flow development essentials.
+prerequisites: None
+iconUrl: /learn/achievements/generic-badge.svg
+levels:
+- beginner
+roles: 
+- maker  
+- developer 
+- functional-consultant  
+products:
+- power-platform
+- power-automate
+modules:
+- learn-bizapps.pad-first-steps
+- learn-bizapps.pad-power-automate-desktop-development-essentials
+trophy: 
+  uid: learn-bizapps.pad-get-started.trophy
