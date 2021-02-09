@@ -104,18 +104,18 @@ To test that your new workflow action button works, follow these steps:
    The case should be **Active - In Progress**.
 
    > [!div class="mx-imgBorder"]
-   > [![Active case](../media/case-active.png)](../media/case-active.png#lightbox)
+   > [![Screenshot of a Case noted as Active - In Progress.](../media/case-active.png)](../media/case-active.png#lightbox)
 
    At the bottom of the case window is a new **On Hold** button.
 
    > [!div class="mx-imgBorder"]
-   > [![On Hold button](../media/hold-button.png)](../media/hold-button.png#lightbox)
+   > [![Screenshot of the new On Hold button at the bottom of the case window.](../media/hold-button.png)](../media/hold-button.png#lightbox)
 
 1. Select the **On Hold** button. A message stating, "The workflow has been initiated" will display.
 1. The window will refresh and the case status will change to **Active - On Hold**.
 
    > [!div class="mx-imgBorder"]
-   > [![Case on hold](../media/case-hold.png)](../media/case-hold.png#lightbox)
+   > [![Screenshot of the Case status set as Actice - On Hold.](../media/case-hold.png)](../media/case-hold.png#lightbox)
 
 1. Scroll down and verify that the **On Hold** button is still present.
 
@@ -148,7 +148,7 @@ Having the workflow button visible at all times does not make sense in certain s
    This FetchXML ensures that the button is only visible when the case is active (`statecode eq 0 (Active)`) and the status reason field is not **On Hold** (`statuscode neq 2 (On Hold)`).
 
    > [!div class="mx-imgBorder"]
-   > [![Action button enhancements](../media/button-enhancement.png)](../media/button-enhancement.png#lightbox)
+   > [![Screenshot of the Confirmation details and filter criteria.](../media/button-enhancement.png)](../media/button-enhancement.png#lightbox)
 
 1. Select **Save**.
 
@@ -162,7 +162,7 @@ Having the workflow button visible at all times does not make sense in certain s
 1. Select **On Hold**. The confirmation will display.
 
    > [!div class="mx-imgBorder"]
-   > [![Confirmation prompt](../media/confirmation.png)](../media/confirmation.png#lightbox)
+   > [![Screenshot of the Confirmation prompt to put case on hold.](../media/confirmation.png)](../media/confirmation.png#lightbox)
 
 1. Select **Cancel**.
 1. Select **Close case** and then select **Yes** when prompted.
