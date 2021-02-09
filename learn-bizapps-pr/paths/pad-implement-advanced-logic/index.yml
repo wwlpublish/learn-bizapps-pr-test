@@ -13,8 +13,7 @@ summary: |
   [!include[](../../includes/lp-banner.md)]
   Learn how to work with system flows, control flows, mimic mouse actions, as well as operations used to manipulate text, date, and time in Power Automate Desktop.
 prerequisites: |
-  - Get Started with Power Automate Desktop
-  - Work with Power Automate Desktop
+  - Basic familiarity with Power Automate Desktop
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
@@ -26,10 +25,10 @@ products:
 - power-platform
 - power-automate
 modules:
-- learn-bizapps.pad-system-services-actions
-- learn-bizapps.pad-flow-control
-- learn-bizapps.pad-mouse-keyboard
 - learn-bizapps.pad-message-boxes
+- learn-bizapps.pad-flow-control
 - learn-bizapps.pad-text-manipulation
+- learn-bizapps.pad-mouse-keyboard
+- learn-bizapps.pad-system-services-actions
 trophy: 
   uid: learn-bizapps.pad-implement-advanced-logic.trophy

@@ -13,11 +13,11 @@ summary: |
   [!include[](../../includes/lp-banner.md)]
   Learn how to use Power Automate Desktop to work with Power Automate, OCR technologies, and scripting.
 prerequisites: |
-  - Get started with Power Automate Desktop
-  - Work with Power Automate Desktop
+  - Basic familiarity with Power Automate Desktop
+  - Fluency with technologies involved
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
-- intermediate
+- advanced
 roles: 
 - maker  
 - developer 
@@ -26,9 +26,9 @@ products:
 - power-platform
 - power-automate
 modules:
-- learn-bizapps.pad-active-directory
 - learn-bizapps.pad-power-automate
 - learn-bizapps.pad-database-handling
+- learn-bizapps.pad-active-directory
 - learn-bizapps.pad-scripting
 - learn-bizapps.pad-ocr
 trophy: 

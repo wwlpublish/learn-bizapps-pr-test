@@ -13,8 +13,8 @@ summary: |
   [!include[](../../includes/lp-banner.md)]
   Learn how to automate email handling, Excel, user interface, and system services with Power Automate Desktop.
 prerequisites: |
-  - Get Started with Power Automate Desktop
-  - Work with Power Automate Desktop
+  - Basic familiarity with Power Automate Desktop
+  - Fluency with technologies involved
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
@@ -26,11 +26,11 @@ products:
 - power-platform
 - power-automate
 modules:
-- learn-bizapps.pad-email
-- learn-bizapps.pad-excel-automation
-- learn-bizapps.pad-system-services-actions
 - learn-bizapps.pad-files-folders-handling
-- learn-bizapps.pad-ui-elements
 - learn-bizapps.pad-web
+- learn-bizapps.pad-ui-elements
+- learn-bizapps.pad-excel-automation
+- learn-bizapps.pad-email
+- learn-bizapps.pad-system-services-actions
 trophy: 
   uid: learn-bizapps.pad-work-different-technologies.trophy
