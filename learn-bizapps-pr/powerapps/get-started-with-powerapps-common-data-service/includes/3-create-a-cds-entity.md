@@ -71,7 +71,7 @@ You will notice in our example, the new table and primary field begins with **cr
 3. Select **Done**.
 4. Select **Save table**.
 
-    Notice that when you add a many-to-one relationship, an **Account** field of the **Lookup** data type is automatically added to your list of colums on the **Columns** tab.
+    Notice that when you add a many-to-one relationship, an **Account** field of the **Lookup** data type is automatically added to your list of columns on the **Columns** tab.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Account field of the lookup data type automatically added.](../media/updated-account-lookup-field.png)
