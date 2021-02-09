@@ -14,7 +14,7 @@ To access the portals Studio:
 The portals Studio is used for quickly defining a site structure with webpage management, creating page layouts, embedding forms and lists, and applying themes to and reviewing page templates.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Studio](../media/3-portal-studio-ss.png)](../media/3-portal-studio-ss.png#lightbox)
+> [![Screenshot of the Portal Studio with Components view.](../media/3-portal-studio-ss.png)](../media/3-portal-studio-ss.png#lightbox)
 
 ## Portal Management app
 
@@ -33,14 +33,14 @@ To access the Portal Management app:
 > The Portal Management app might be named Dynamics 365 Portals in existing Dynamics 365 environments.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Management App](../media/3-portals-management-app-ss.png)](../media/3-portals-management-app-ss.png#lightbox)
+> [![Screenshot of the Portal Management App view.](../media/3-portals-management-app-ss.png)](../media/3-portals-management-app-ss.png#lightbox)
 
 ## Portal front-side editing tools
 
 The portal front-side editing tools are legacy tools in which visitors to a portal with specialized web roles (such as administrator) can add and modify portal content and functionality directly when they are browsing portal pages. Along with being able to directly edit content, content creators can add webpages, web links, and web files to the pop-up tools window that appears. Moving forward, we recommend that you modify content by using the portals Studio.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Management App](../media/3-front-side-edit-portals-ss.png)](../media/3-front-side-edit-portals-ss.png#lightbox)
+> [![Screenshot of the portal front-side editing view.](../media/3-front-side-edit-portals-ss.png)](../media/3-front-side-edit-portals-ss.png#lightbox)
 
 ## Portals admin center
 
@@ -55,4 +55,4 @@ To access the Power Apps Portals admin center:
 1. Select the **Administration** link under **Advanced options** in the **Portal settings** flyout panel.
 
 > [!div class="mx-imgBorder"]
-> [![Portal admin center](../media/3-portals-admin-center-ss.png)](../media/3-portals-admin-center-ss.png#lightbox)
+> [![Screenshot of the Portals admin center with Portal Actions view.](../media/3-portals-admin-center-ss.png)](../media/3-portals-admin-center-ss.png#lightbox)
