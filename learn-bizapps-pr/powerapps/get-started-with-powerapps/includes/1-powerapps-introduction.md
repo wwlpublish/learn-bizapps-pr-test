@@ -20,7 +20,7 @@ With Power Apps, you can:
 - Connect to the cloud services and data sources that you're already using.
 - Share your apps instantly so that coworkers can use them on their phones and tablets.
 
-![Welcome to Power Apps](../media/powerapps-mobile.png)
+![Power Apps mobile screen view on phones and tablets.](../media/powerapps-mobile.png)
 
 When it comes to using Power Apps to get things done and keep people informed, your options are nearly limitless. The following examples can help you think about how to use an app, instead of traditional paper notes, to run your business:
 
@@ -42,5 +42,3 @@ To create, share, and administer apps, you'll use the following sites:
 > To use these sites, you'll need to sign in by using your organizational account.
 
 When you've completed your tasks, you can run your apps in a browser or in Power Apps Mobile (available for Windows tablets, iOS devices, and Android devices).
-
-
