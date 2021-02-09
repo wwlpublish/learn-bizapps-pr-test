@@ -2,7 +2,7 @@ Model-driven app design is an approach that focuses on adding dashboards, forms,
 
 In canvas apps, the app maker has total control over the app layout. In model-driven apps, on the other hand, much of the layout is determined by the components you add. The emphasis is more on quickly viewing your business data and making decisions instead of on intricate app design.
 
-![Sample model-driven app](../media/updated-model-app-sample.png)
+![Screenshot example of Power Apps model-driven app.](../media/updated-model-app-sample.png)
 
 ## The approach to making model-driven apps
 Model-driven apps have three design phases:
@@ -20,4 +20,4 @@ Defining and enforcing consistent business processes is a key aspect of model-dr
 ### Build the app
 After modeling data and defining processes, you build your app by selecting and setting up the components you need in the App Designer.
 
-![App Designer](../media/app-designer.png)
+![Screenshot of App Designer used to build your app.](../media/app-designer.png)
