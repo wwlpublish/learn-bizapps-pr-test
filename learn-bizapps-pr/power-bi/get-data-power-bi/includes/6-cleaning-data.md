@@ -4,7 +4,7 @@ In this unit, you will clean columnar data with Power Query Editor.
 
 
 **Video**: 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wRhf]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhf]
 > [!NOTE]
 > To follow along with the Excel spreadsheet in this video, download the .xlsx <a href="https://go.microsoft.com/fwlink/?linkid=2123759" target="_blank">**here**</a>.
 
