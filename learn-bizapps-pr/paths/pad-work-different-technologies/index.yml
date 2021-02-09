@@ -12,7 +12,9 @@ title: Work with different technologies in Power Automate Desktop
 summary: |
   [!include[](../../includes/lp-banner.md)]
   Learn how to automate email handling, Excel, user interface, and system services with Power Automate Desktop.
-prerequisites: None
+prerequisites: |
+  - Get Started with Power Automate Desktop
+  - Work with Power Automate Desktop
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
@@ -28,7 +30,7 @@ modules:
 - learn-bizapps.pad-excel-automation
 - learn-bizapps.pad-system-services-actions
 - learn-bizapps.pad-files-folders-handling
-- learn-bizapps.pad-pad-ui-automation
+- learn-bizapps.pad-ui-automation
 - learn-bizapps.pad-web
 trophy: 
   uid: learn-bizapps.pad-work-different-technologies.trophy

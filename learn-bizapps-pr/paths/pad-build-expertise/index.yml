@@ -12,7 +12,9 @@ title: Build expertise with Power Automate Desktop
 summary: |
   [!include[](../../includes/lp-banner.md)]
   Learn how to use Power Automate Desktop to work with Power Automate, OCR technologies, and scripting.
-prerequisites: None
+prerequisites: |
+  - Get started with Power Automate Desktop
+  - Work with Power Automate Desktop
 iconUrl: /learn/achievements/generic-badge.svg
 levels:
 - intermediate
