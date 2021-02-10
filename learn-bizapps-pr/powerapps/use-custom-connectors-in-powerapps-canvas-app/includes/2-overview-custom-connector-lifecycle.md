@@ -1,6 +1,6 @@
 Before you start creating custom connectors, you need to know all the details for each of the steps involved in the custom connector lifecycle. The following diagram shows all the tasks involved in creating and using custom connectors.
 
-> ![Authoring Steps](../media/authoring-steps.png)
+> ![Diagram of the Authoring Steps for creating and using custom connectors.](../media/authoring-steps.png)
 
 Build and secure your API
 -------------------------
