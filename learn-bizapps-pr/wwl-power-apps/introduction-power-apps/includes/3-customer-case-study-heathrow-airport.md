@@ -1,4 +1,4 @@
-Heathrow Airport is one of the world's busiest airports and models a small city in complexity and traffic. With over 76,000 people working on a given day and 200,000 travelers passing through, there's a strong need to continually optimize operations. One way to accomplish this goal is through the digitization of processes. Part of that effort included the adoption of Microsoft Office 365 for all employees, and later use of Power Apps 
+Heathrow Airport is one of the world's busiest airports and models a small city in complexity and traffic. With over 76,000 people working on a given day and 200,000 travelers passing through, there's a strong need to continually optimize operations. One way to accomplish this goal is through the digitization of processes. Part of that effort included the adoption of Microsoft Office 365 for all employees, and later use of Power Apps. 
 
 There are easily thousands of processes that could be turned into apps. These processes would require hundreds of developers and years of work to even make a dent. While Heathrow has a robust IT department, they did not have hundreds of extra developers to begin digitizing processes. Or did they?
 
