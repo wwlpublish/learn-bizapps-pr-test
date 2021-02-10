@@ -9,24 +9,21 @@ In this unit, we'll look to build two flows:
 
 Here are some other examples of flows that you can create by using Dynamics 365:
 
-* Create a list item in Microsoft SharePoint when an object is created in Dynamics 365.
-* Create Dynamics 365 lead records from a Microsoft Excel table.
-* Copy Dynamics 365 accounts to customers in Microsoft Dynamics 365 for Finance and Operations.
+- Create a list item in Microsoft SharePoint when an object is created in Dynamics 365.
+- Create Dynamics 365 lead records from a Microsoft Excel table.
+- Copy Dynamics 365 accounts to customers in Microsoft Dynamics 365 for Finance and Operations.
 
 > [!IMPORTANT]
-> To invoke a flow trigger, the Dynamics 365 customer engagement entity that's used with the flow must have change tracking turned on. For more about how to turn on change tracking, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization).
+> To invoke a flow trigger, the Dynamics 365 customer engagement entity that's used with the flow must have change tracking turned on. For more about how to turn on change tracking, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization/?azure-portal=true).
 
 ## Example one: Create a task from a lead
 
 This example shows how to create a task in Dynamics 365 whenever a lead is created in another instance of Dynamics 365.
 
-1. Sign in to [Power Automate](https://ms.flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com/?azure-portal=true) using your organizational account.
 1. In the left pane, select **My flows**.
 1. Select **New**, and then select **Automated--from blank**.
-
-    ![Create from blank](../media/flow-create-blank.png)
-
-1. In the list of flow triggers, select **Microsoft Dataverse - When a record is created**. Dynamics 365 keep information in the Dataverse, so we will use this connector throughout.
+1. In the list of flow triggers, select **Microsoft Dataverse - When a record is created**. Dynamics 365 keeps information in the Dataverse, so we will use this connector throughout.
 1. If you're prompted to sign in to Dataverse, do so.
 1. In the **Environment** field, select the instance where the flow should listen.
 1. In the **Entity Name** field, select the entity to listen to. This entity will act as a trigger that starts the flow.
@@ -35,7 +32,7 @@ This example shows how to create a task in Dynamics 365 whenever a lead is creat
 
 1. For Dataverse, you also need to specify the **Scope**. This will determine if your flow runs if you create a new record, if a new record is created by a user within your business unit, or if a new record is created by any user in your organization. For this example, choose **Organization**.
 
-    ![Flow details](../media/flow-details.png)
+    ![Screenshot of When a record is created with Environment set to the default, Entity Name set to Lead, and Scope set to Organization.](../media/flow-details.png)
 
 1. Select **New step**.
 1. Select **Dataverse – Create a new record**.
@@ -48,7 +45,7 @@ This example shows how to create a task in Dynamics 365 whenever a lead is creat
 
     For this unit, select **Full name**.
 
-    ![Topic field added to the Subject field](../media/flow-addtopic.png)
+    ![Screenshot of Create a new record with the Subject field set to the dynamic content Full name.](../media/flow-addtopic.png)
 
     > [!TIP]
     > In the dynamic content pane, select **See more** to see more fields that are associated with the entity. For example, you can also insert the **Company Name**, **Customer**, **Description**, or **Email** field for the lead into the **Subject** field for the task.
@@ -59,12 +56,9 @@ This example shows how to create a task in Dynamics 365 whenever a lead is creat
 
 This example shows how to create a task in Microsoft Planner whenever a task is created in Dynamics 365. Planner is a service that you can use to create to-do lists, add reminders, and track errands.
 
-1. Sign in to [Power Automate](https://ms.flow.microsoft.com) by using your organizational account.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com/?azure-portal=true) using your organizational account.
 1. In the left pane, select **My flows**.
 1. Select **New**, and then select **Automated--from blank**.
-
-    ![Create from blank](../media/flow-create-blank.png)
-
 1. In the list of flow triggers, select **Dataverse - When a record is created**. Dynamics 365 keep information in the Dataverse, so we will use this connector throughout.
 1. If you're prompted to sign in to Dataverse, do so.
 1. In the **Environment** field, select the instance where the flow should listen.
@@ -76,7 +70,7 @@ This example shows how to create a task in Microsoft Planner whenever a task is 
 
 1. Select **New step**.
 1. In the search field, enter *Planner*, and then select **Planner – Create a task**.
-1. See [create a task parameters](https://docs.microsoft.com/connectors/planner/#create-a-task) for information about the fields.
+1. See [create a task parameters](https://docs.microsoft.com/connectors/planner/#create-a-task/?azure-portal=true) for information about the fields.
 1. In the **Title** field, add **Subject** from the dynamic content pane.
 1. Select **Save**.
 
@@ -90,9 +84,9 @@ When the trigger occurs, the flow receives a notification, but the flow runs on 
 
 When you add a step to a flow, you can select **Show advanced options** to add a filter or order-by query that controls how the data is filtered in the flow.
 
-For example, you can use a filter query to retrieve only active contacts, and you can order them by last name. Enter the `statuscode eq 1` Open Data Protocol (OData) filter query, and select **Full name** in the dynamic content pane. For more about filter and order by queries, see [MSDN: $filter](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_1) and [MSDN: $orderby](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_2).
+For example, you can use a filter query to retrieve only active contacts, and you can order them by last name. Enter the `statuscode eq 1` Open Data Protocol (OData) filter query, and select **Full name** in the dynamic content pane. For more about filter and order by queries, see [MSDN: $filter](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_1/?azure-portal=true) and [MSDN: $orderby](https://msdn.microsoft.com/library/gg309461.aspx#Anchor_2/?azure-portal=true).
 
-![Flow orderby query](../media/flow-orderby-query.png)
+![Screenshot of List records with the Entity Name set to Lead and the Order By option set to the dynamic content Full name.](../media/flow-orderby-query.png)
 
 ### Best practices for advanced options
 
@@ -100,7 +94,7 @@ When you add a value to a field, you must match the field type, regardless of wh
 
 | Field type | How to use | Where to find | Name | Data type |
 | --- | --- | --- | --- | --- |
-| Text fields | Text fields require a single line of text or dynamic content that's a text-type field. Examples include the **Category** and **Sub-Category** fields. | **Settings** \> **Customizations** \> **Customize the System** \> **Entities** \> **Task** > **Fields** | category | Single Line of Text |
-| Integer fields | Some fields require an integer or dynamic content that's an integer-type field. Examples include the **Percent Complete** and **Duration** fields. | **Settings** \> **Customizations** \> **Customize the System** \> **Entities** \> **Task** \> **Fields** | percent complete | Whole Number |
-| Date fields | Some fields require a date that's entered in *mm/dd/yyyy* format or dynamic content that's a date-type field. Examples include the **Created On**, **Start Date**, **Actual Start**, **Last on Hold Time**, **Actual End**, and **Due Date** fields. | **Settings** \> **Customizations** \> **Customize the System** \> **Entities** \> **Task** \> **Fields** | created on | Date and Time |
-| Fields that require both a record ID and a lookup type | Some fields that reference another entity record require both the record ID and the lookup type. | **Settings** \> **Customizations** \> **Customize the System** \> **Entities** \> **Account** \> **Fields** | accountid | Primary Key |
+| Text fields | Text fields require a single line of text or dynamic content that's a text-type field. Examples include the **Category** and **Sub-Category** fields. | **Settings** > **Customizations** > **Customize the System** > **Entities** > **Task** > **Fields** | category | Single Line of Text |
+| Integer fields | Some fields require an integer or dynamic content that's an integer-type field. Examples include the **Percent Complete** and **Duration** fields. | **Settings** > **Customizations** > **Customize the System** > **Entities** > **Task** > **Fields** | percent complete | Whole Number |
+| Date fields | Some fields require a date that's entered in *mm/dd/yyyy* format or dynamic content that's a date-type field. Examples include the **Created On**, **Start Date**, **Actual Start**, **Last on Hold Time**, **Actual End**, and **Due Date** fields. | **Settings** > **Customizations** > **Customize the System** > **Entities** > **Task** > **Fields** | created on | Date and Time |
+| Fields that require both a record ID and a lookup type | Some fields that reference another entity record require both the record ID and the lookup type. | **Settings** > **Customizations** > **Customize the System** > **Entities** > **Account** > **Fields** | accountid | Primary Key |

@@ -1,4 +1,4 @@
-In the previous unit, you learned how to build an approval process for tweets that are stored in a Microsoft SharePoint list. In this unit, you'll see what the experience looks like when an approver receives a new approval request. 
+In the previous unit, you learned how to build an approval process for tweets that are stored in a Microsoft SharePoint list. In this unit, you'll see what the experience looks like when an approver receives a new approval request.
 
 ## Step one: Change the SharePoint list
 
@@ -12,7 +12,7 @@ First, we need to add an item to our SharePoint list. We can then process an app
     - **TweetContent**: Check out the new product line of Contoso Flooring #OhSoContoso
     - **Tweet Date**: Today's date.
 
-    ![New SharePoint item](../media/sharepoint-new-tweet.png)
+    ![Screenshot of SharePoint New item dialog with the Save button highlighted.](../media/sharepoint-new-tweet.png)
 
 ## Step two: Change the flow
 
@@ -22,16 +22,16 @@ First, we need to add an item to our SharePoint list. We can then process an app
 
 3. Select the **When a new item is created** trigger. Make sure that the information for the list item that you just created is shown.
 
-    ![Flow trigger](../media/approval-flow.png)
+    ![Screenshot of OUTPUTS section with an ID of 1, Title of Promotions, and TweetContent of Check out the new product line of Contoso Flooring.](../media/approval-flow.png)
 
 4. In Microsoft Outlook, open the automated approval mail in the inbox, and then select **Approve**. Add a comment and press **Submit**.
 
-    ![Outlook request](../media/outlook-mail.png)
+    ![Screenshot of Outlook Pending approval email with the Approve button highlighted.](../media/outlook-mail.png)
 
 5. In Power Automate, click on **Approvals** under **Actions**. You can see the approval you just submitted in your history.
 
 6. In SharePoint, refresh the **ContosoTweets** list. Make sure that the **ApprovalStatus** field is set to *Yes*, and that the comment that you just entered is shown.
 
-    ![Refreshed SharePoint list](../media/sharepoint-list-approved.png)
+    ![Screenshot of the refreshed SharePoint list showing an ApprovalStatus of Yes and ApproverComments of Good Tweet.](../media/sharepoint-list-approved.png)
 
 In this unit, you saw the experience from the approver's point of view, from receiving an approval request email to processing the request in the Approval Center.

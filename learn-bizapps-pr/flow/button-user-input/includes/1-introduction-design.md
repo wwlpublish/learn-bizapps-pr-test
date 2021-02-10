@@ -5,7 +5,7 @@ a flow by using buttons with user input. After you have added the trigger, you w
 Each step can be an action, a condition, or a combination of actions
 and conditions. The flow always ends with an action.
 
-Two ways to design the process for a button flow are by using 
+Two ways to design the process for a button flow are by using
 an existing template with a button trigger and by building a template from blank.
 
 ### Six types of user inputs
@@ -15,21 +15,21 @@ Currently, Power Automate flows can have six different types of user inputs:
 - Text
 
 - Yes/No
- 
+
 - File
- 
+
 - Email
- 
+
 - Number
- 
+
 - Date
 
-![Six user input buttons](../media/user-input-button.jpg)
+![Screenshot of Manually trigger a flow showing Choose type of user input, and the six user input buttons just listed.](../media/user-input-button.jpg)
 
 ### Text
 
-**Text** input is best used for adding text. When you select the ellipsis (...) 
-at the upper-right of the screen, you will see the **Delete** option and three 
+**Text** input is best used for adding text. When you select the ellipsis (...)
+at the upper-right of the screen, you will see the **Delete** option and three
 other options:
 
 - Add a drop-down list of options

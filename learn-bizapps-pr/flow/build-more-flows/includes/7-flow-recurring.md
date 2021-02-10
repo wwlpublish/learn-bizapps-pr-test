@@ -16,9 +16,9 @@ You can create a flow that performs one or more tasks (for example, sending a re
 
     For example, if you want the flow to run every two weeks, enter *2* in the **Interval** field, and select *Week* in the **Frequency** field. You can also specify the day of the week your flow should run. The text at the bottom of the dialog box explains your inputs in plain language.
 
-    ![Specify the recurrence](../media/specify-recurrence.png)
+    ![Screenshot of the Build a scheduled flow dialog with the recurrence settings under Run this flow highlighted and the Create button highlighted.](../media/specify-recurrence.png)
 
-1. Once you are satisfied with your inputs, select **Create**. 
+1. Once you are satisfied with your inputs, select **Create**.
 
 ## Specify advanced options
 
@@ -35,7 +35,7 @@ You can create a flow that performs one or more tasks (for example, sending a re
 
     For example, set up the flow as shown in the following graphic to start it no earlier than noon (Pacific time) on Monday, January 1, 2018, and to run it every two weeks, at 5:30 PM (Pacific time) on Tuesday.
 
-    ![Advanced options](../media/advanced-options.png)
+    ![Interval--2, Frequency--Week, Time zone--Pacific, Start time--2018-01-01T12:00Z, On these days--Tuesday, At these hours--17, and At these minutes--30.](../media/advanced-options.png)
 
 1. Add the action or actions that the flow should take.
 
@@ -51,14 +51,14 @@ Next, you'll learn how to delay a flow.
 
 1. In the list of actions, search **Delay** and select either **Delay** or **Delay until**.
 
-    ![Add a delay](../media/add-delay.png)
+    ![Screenshot of Choose an action showing search results for delay with Delay Schedule and Delay Until Schedule highlighted.](../media/add-delay.png)
 
 1. Follow one of these steps, depending on the action that you just selected:
 
     * If you selected **Delay**, specify a count and a unit of time, like second, minute, or hour.
 
-        ![Specify a delay in units of time](../media/delay.png)
+        ![Screenshot of the Delay action showing Count (Specify the count of unit to delay) and Unit (Minute) options.](../media/delay.png)
 
     * If you selected **Delay until**, specify a date in this format: *YYYY-MM-DDTHH:MM:SSZ*
 
-        ![Specify a delay until a specific date](../media/delay-until.png)
+        ![Screenshot of the Delay until action showing one Timestamp option (Example: 2021-07-11T14:45Z).](../media/delay-until.png)

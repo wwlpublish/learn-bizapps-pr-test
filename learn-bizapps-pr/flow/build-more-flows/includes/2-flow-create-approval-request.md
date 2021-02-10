@@ -23,21 +23,21 @@ First, let's create the SharePoint list.
 
 ## Step two: Create an approval request flow
 
-1. Sign in to [Power Automate](https://ms.flow.microsoft.com), and then select **Templates**.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com/?azure-portal=true), and then select **Templates**.
 1. Search **Post list items to Twitter** under **Approvals** and select the appropriate template.
 
-    ![Create approval flow button](../media/create-approval.png)
+    ![Screenshot of the Templates page on the Approval tab with search results for "Post list items to twitter after approval" highlighted.](../media/create-approval.png)
 
 1. Make sure that your account credentials for **SharePoint**, **Approvals**, and **Twitter** are correct, and then select **Continue**.
 
 1. In the **When a new item is created** action, enter the following values:
 
-    * **Site Address**: Enter the URL of your team's SharePoint site.
-    * **List Name**: Select *ContosoTweets*.
+    - **Site Address**: Enter the URL of your team's SharePoint site.
+    - **List Name**: Select *ContosoTweets*.
 
 1. In the **Start an approval** action, in the **Title** field, enter *New tweet for*, and then select **Title** in the dynamic content list.
 
-    ![Title dynamics content](../media/tweet-title.png)
+    ![Screenshot of the Start an approval action with the text "New tweet for" and the Dynamic content dialog open and Title selected.](../media/tweet-title.png)
 
 1. In the **Assigned to** field, enter and select either your name or the name of a test user.
 
@@ -45,13 +45,13 @@ First, let's create the SharePoint list.
 
 1. In the **Item Link** field, add the dynamic content **Link to Item**. In the **Item Link Description** field, enter *Contoso Tweet List*.
 
-    ![Item Link and Item Link Description fields](../media/tweet-item-link.png)
+    ![Item Link and Item Link Description fields.](../media/tweet-item-link.png)
 
 1. In the **If yes** section of the Condition, select **Add an action**.
 
 1. Search for *update item*, select the **SharePoint** connector, and then select the **SharePoint – Update item** action.
 
-    ![SharePoint - Update item](../media/update-item.png)
+    ![Screenshot of the If yes condition with the Post a tweet action and the Choose an action search results for SharePoint update item highlighted.](../media/update-item.png)
 
 1. In the **Site Address**, enter the URL of the team's SharePoint site again. In the **List Name** field, select *ContosoTweets* again. In the **Id** field, add **ID** from the dynamic content list. The **Id** field is used to match the actual tweet request in the SharePoint list.
 
@@ -59,7 +59,7 @@ First, let's create the SharePoint list.
 
 1. In the **ApprovalStatus** field, select *Yes*. Then select the **ApproverComments** field, and add **Comments** from the dynamic content list.
 
-    ![ApprovalStatus and ApproverComments fields](../media/approver-status.png)
+    ![ApprovalStatus and ApproverComments fields.](../media/approver-status.png)
 
 1. Click and drag **Post a Tweet** to below the **Update Item** action.
 
@@ -69,7 +69,7 @@ First, let's create the SharePoint list.
 
 1. Expand the **Post a tweet** action by selecting the title bar. Then select the **Tweet text** field, and add **TweetContent** from the dynamic content list. This step will create the actual tweet and then post it to Twitter when it's approved.
 
-    ![Post a tweet](../media/post-tweet.png)
+    ![Screenshot of the completed Post a tweet action.](../media/post-tweet.png)
 
 1. Select **Save**.
 
