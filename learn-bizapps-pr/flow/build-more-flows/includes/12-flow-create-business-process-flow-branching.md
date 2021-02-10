@@ -13,7 +13,7 @@ For example, for the process of selling cars, you can set up a single business p
 
 The following diagram shows a business process flow that has branches.
 
-![Flowchart showing the steps in the car sales process](../media/example-car-sales-flow-chart.png "Flowchart showing the steps in the car sales process")
+![Flowchart showing the steps in the car sales process.](../media/example-car-sales-flow-chart.png)
 
 ## Guidelines for business process flows that have branches
 
@@ -29,6 +29,7 @@ Keep the following points in mind when you design a business process flow that h
 - When branches are merged, either all the peer branches must be merged to a single stage, or each peer branch must end the process. A peer branch can't merge with other branches and end the process at the same time.
 
 > [!NOTE]
+>
 > - An entity that's used in the process can be revisited multiple times (that is, there can be multiple closed entity loops).
 > - A process can go back to the previous stage, regardless of the entity type. For example, if the active stage is **Deliver Quote** on a quote record, process users can move the active stage back to the **Propose** stage on an opportunity record.
 
@@ -60,27 +61,27 @@ First, we'll create a process named **Car Sales Process**.
     > [!TIP]
     > To create more complex branching, you can add another a **Condition** component to the **No** path of an existing **Condition** component.
 
-    ![Qualify stage after the condition is added](../media/example-car-sales-qualify-stage.jpg "Qualify stage after the condition is added")
+    ![Qualify stage after the condition is added.](../media/example-car-sales-qualify-stage.jpg)
 
     If **Car preference** = **New**, the process branches out to the **New Car Sales** stage, as shown here.
 
-    ![New Car Sales stage](../media/example-car-sales-new-stage-1.jpg "New Car Sales stage")
+    ![Screenshot of the New Car Sales stage with six steps.](../media/example-car-sales-new-stage-1.jpg)
 
     Otherwise, the process goes to the **Pre-Owned Car Sales** stage in the second branch, as shown here.
 
-    ![Pre-owned Car Sales stage](../media/example-car-sales-pre-owned-stage.jpg "Pre-owned Car Sales stage")
+    ![Screenshot of the Pre-owned Car Sales stage with seven steps.](../media/example-car-sales-pre-owned-stage.jpg)
 
     After all the steps in either the **New Car Sales** stage or the **Pre-Owned Car Sales** stage are finished, the process returns to the main flow, at the **Deliver Quote** stage.
 
-    ![Deliver Quote stage](../media/example-car-sales-deliver-quote-stage.jpg "Deliver Quote stage")
+    ![Screenshot of the Deliver Quote stage with four steps.](../media/example-car-sales-deliver-quote-stage.jpg)
 
-## Prevent information disclosure example 
+## Prevent information disclosure example
 
 There are a few things that you need to consider to prevent people from seeing specific information about a process flow.
 
 This section uses the example of a business process flow that has branches for processing a loan request at a bank. In the following diagram, the custom entities that are used in the stages are shown in parentheses.
 
-![Flow chart showing the steps in an example process to prevent information disclosure](../media/example-car-sales-flow-chart-process-prevent-information-disclosure.png "Flow chart showing the steps in an example process to prevent information disclosure")
+![Flow chart showing the steps in an example process to prevent information disclosure.](../media/example-car-sales-flow-chart-process-prevent-information-disclosure.png)
 
 In this scenario, the bank loan officer needs access to the Request record, but she shouldn't have any visibility into the investigation of the request. At first glance, it looks as though we can easily meet this requirement by assigning the loan officer a security role that doesn't grant access to the Investigation entity. But let's look at the example in more detail to see whether things will really be that easy.
 
@@ -97,10 +98,10 @@ In this process flow, the loan officer will be able to see the Fraud Investigati
 
 Pay special attention to the information that might become disclosed because of branching. In our example, to prevent information disclosure, split the process into two separate processes: one for the request processing and one for the fraud investigation. The process for the loan officer will then look like this.
 
-![Flow chart showing additional steps in the process to prevent information disclosure](../media/example-car-sales-flow-chart-additional-steps-prevent-information-disclosure.png "Flow chart showing additional steps in the process to prevent information disclosure")
+![Flow chart showing additional steps in the process to prevent information disclosure.](../media/example-car-sales-flow-chart-additional-steps-prevent-information-disclosure.png)
 
 The process for the investigation will be self-contained and will include the following stages.
 
-![Flow chart showing steps for an investigation process for information disclosure cases](../media/example-car-sales-flow-chart-investigation-information-disclosure-case.png "Flow chart showing steps for an investigation process for information disclosure cases")
+![Flow chart showing steps for an investigation process for information disclosure cases.](../media/example-car-sales-flow-chart-investigation-information-disclosure-case.png)
 
 You'll have to provide a workflow to synchronize the Approve/Deny decision from the Investigation record to the Request record.

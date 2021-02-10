@@ -2,27 +2,27 @@ This lesson shows how to build a flow that is triggered by a button that
 will notify you of the weather forecast for today and tomorrow. This example uses
 the **MSN Weather** connector.
 
-1.  [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true). 
+1. [Sign in to Power Automate](https://flow.microsoft.com/?azure-portal=true).
 
-1.  On the left navigation pane, select **+ Create**.
+1. On the left navigation pane, select **+ Create**.
 
-1.  This page shows the ways that you can make a flow. The first way
+1. This page shows the ways that you can make a flow. The first way
     is **Start from blank**, where you will select **Instant flow**.
-    
-1.  Add **Weather Information** as the flow name and select the **Manually trigger a flow** option
+
+1. Add **Weather Information** as the flow name and select the **Manually trigger a flow** option
     to trigger this flow.
 
-1.  Select **Create** to start building the flow.
+1. Select **Create** to start building the flow.
 
     The **Manually trigger a flow** trigger should already be added.
     On the upper left of the page, **Weather Information** will be shown as your
     flow name.
 
-1.  Select the **+ New step** button.
+1. Select the **+ New step** button.
 
-1.  In **Choose an action**, if you don't already see the **MSN Weather** connector, then search for **MSN** and select **MSN Weather**.
+1. In **Choose an action**, if you don't already see the **MSN Weather** connector, then search for **MSN** and select **MSN Weather**.
 
-	![MSN weather connector icon](../media/msn-weather-connector-icon.png)
+   :::image type="icon" source="../media/msn-weather-connector-icon.png":::
 
 1. Select **Get forecast for today**. Wait until it creates its connection.
 
@@ -33,8 +33,8 @@ the **MSN Weather** connector.
 1. Select the **+ New step** button again.
 
 1. In **Choose an action**, if you don't already see the **MSN Weather** connector, then search for **MSN** and select **MSN Weather**.
-	
-	![MSN weather connector icon](../media/msn-weather-connector-icon.png)
+
+    :::image type="icon" source="../media/msn-weather-connector-icon.png":::
 
 1. Select **Get the forecast for tomorrow**.
 
@@ -46,13 +46,13 @@ the **MSN Weather** connector.
 
 1. In **Choose an action**, select the **Notifications** option. If you don't already see the **Notifications**        option, search for **Notifications** and then select it.
 
-	![Notifications connector icon](../media/notifications-connector-icon.png)
+    :::image type="icon" source="../media/notifications-connector-icon.png":::
 
 1. Select **Send me a mobile notification**.
 
 1. In the **Text** field, enter **Today's forecast calls for:** and then,
     by using a combination of manually entered text and option selections, you can create a personalized list of actions. You can select options such as Day Conditions, Day Rain Chance, Day Summary,
-    Night Conditions, Night Rain Chance, Night Summary, and so on. Make sure that 
+    Night Conditions, Night Rain Chance, Night Summary, and so on. Make sure that
     the dynamic content comes from **Get forecast for today**.
 
 1. In the same **Text** field, enter **Tomorrow's forecast calls for:** and then, by
@@ -64,20 +64,20 @@ the **MSN Weather** connector.
 
     The following screenshot shows an example of the flow.
 
-    ![complete flow](../media/complete-flow.png)
+    ![Screenshot of Weather Information with steps Manually trigger a flow, Get forecast for today, Get forecast for tomorrow, and Send mobile notification.](../media/complete-flow.png)
 
     The following screenshots show examples of the flow actions.
-    
-    ![Notification action today's forecast](../media/notification-action-todays-forecast.png)
 
-    ![Notification action tomorrow's forecast](../media/notification-action-tomorrows-forecast.png)
+    ![Screenshot of the "Send me a mobile notification" action for today's forecast with dynamic content: Day Conditions, Day Rain Chance, Day Summary, etc.](../media/notification-action-todays-forecast.png)
+
+    ![Screenshot of the same action, but with tomorrow's forecast dynamic content added.](../media/notification-action-tomorrows-forecast.png)
 
     The following screenshot shows what the Microsoft Power Automate app
     notification looks like.
 
-    If the location service hasn’t already been allowed for the app, then you will be 
-    prompted to accept that when this button flow is run. If you don’t allow it, then 
-    the flow will fail. You will have to go into your browser settings (which varies between 
+    If the location service hasn’t already been allowed for the app, then you will be
+    prompted to accept that when this button flow is run. If you don’t allow it, then
+    the flow will fail. You will have to go into your browser settings (which varies between
     browsers) and grant Power Automate flow access to your location if you’ve denied it once before.
 
-	![Weather information notification](../media/weather-information-notification.png)
+    ![Mobile screenshot of the Weather information notification.](../media/weather-information-notification.png)

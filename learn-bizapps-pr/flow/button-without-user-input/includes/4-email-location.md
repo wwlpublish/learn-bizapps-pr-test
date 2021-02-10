@@ -2,33 +2,33 @@ This unit describes how to build a flow that is triggered by a button that
 will send an email with your current location to your manager. The flow will be built
 entirely from the Power Automate app on your smart phone.
 
-1.  In the Microsoft Power Automate app, select the **Flows** icon that 
+1. In the Microsoft Power Automate app, select the **Flows** icon that
     is available in the lower portion of the app. Select the **+** icon
     on the upper right of the app.
 
-1.  A menu option will slide upward from the lower part of the app. Select the
+1. A menu option will slide upward from the lower part of the app. Select the
     **Create from blank** option.
 
-1.  In the **Connectors** option, select **Flow button for mobile**. If you don't 
-    see the option, then search for it in **Search all connectors and triggers** and then 
+1. In the **Connectors** option, select **Flow button for mobile**. If you don't
+    see the option, then search for it in **Search all connectors and triggers** and then
     select it when you've found it.
 
-1.  In the **Manually trigger a flow** trigger, select **+**, 
-    **Add an input**, and then **Text**. Select **Input**, 
-    delete **Input**, and then enter **Reason**. Select **Done** in the upper right of the page. 
-    
-1.  Select **+** and then **New step**.
+1. In the **Manually trigger a flow** trigger, select **+**,
+    **Add an input**, and then **Text**. Select **Input**,
+    delete **Input**, and then enter **Reason**. Select **Done** in the upper right of the page.
 
-1.  Select **Add an action**.
+1. Select **+** and then **New step**.
 
-1.  Search for **Time**. Select **Date Time** and then select **Date Time Convert time zone**.
+1. Select **Add an action**.
 
-	![Date time connector icon](../media/date-time-connector-icon.png)
+1. Search for **Time**. Select **Date Time** and then select **Date Time Convert time zone**.
 
-1.  Select **Base time** and then select the **Timestamp** option from **Manually trigger a flow**
+   :::image type="icon" source="../media/date-time-connector-icon.png":::
+
+1. Select **Base time** and then select the **Timestamp** option from **Manually trigger a flow**
     and then click **Done**.
-   
-	![Search timestamp connector](../media/search-timestamp-connector.png)
+
+   ![Screenshot of Base time options to manually trigger a flow with the Timestamp option and the Done button highlighted.](../media/search-timestamp-connector.png)
 
 1. For both **Source time zone** and **Destination time zone**, select the same time zone that works for your geographic location. This example uses the **(UTC-05:00) Eastern Time (US & Canada)** option. After you have selected the time zone, select **Done** on the upper right of the screen.
 
@@ -42,9 +42,9 @@ entirely from the Power Automate app on your smart phone.
 
 1. Select **User email** from **Manually trigger a flow** and then select **Done**.
 
-	![User email trigger action icon](../media/user-email-trigger-action.png)
+   :::image type="icon" source="../media/user-email-trigger-action.png":::
 
-    ![User email trigger action](../media/user-email-trigger-action2.png)
+    ![Screenshot of User (U P N) options to manually trigger a flow with the User email option and the Done button highlighted.](../media/user-email-trigger-action2.png)
 
 1. Select **+ New step**.
 
@@ -67,37 +67,37 @@ entirely from the Power Automate app on your smart phone.
 
     Then, next to **Get Manager (V2)**, select **See more**. Select **Display Name** and then **Done**.
 
-    ![Add get manager display name](../media/add-get-manager-display-name.png)
+    ![Screenshot of Body with a list of dynamic content from Get manager with the Display Name option and the Done button highlighted.](../media/add-get-manager-display-name.png)
 
-1. Select **Body** again and then enter the following text: 
+1. Select **Body** again and then enter the following text:
 
-	```
-	I have arrived at the location.
-	
-	The time is
-	```
+   ```r
+   I have arrived at the location.
 
-	![Add get manager display name](../media/add-get-manager-display-name-2.png)
+   The time is
+   ```
+
+    ![Screenshot of Hi Display Name (dynamic content).](../media/add-get-manager-display-name-2.png)
 
     Next to **Convert time zone**, select **See more**, select
-    **Converted time**, and then select **Done**. 
+    **Converted time**, and then select **Done**.
 
-    ![Add get manager display name and time](../media/add-get-manager-display-name-time.png)
+    ![Screenshot of the Body with text "Hi Display Name (dynamic content). The time is Converted time (dynamic)" with Converted time and Done highlighted.](../media/add-get-manager-display-name-time.png)
 
 1. Select **Body** again and then enter the following text:
 
     ```My current location is:```
 
-	![Add converted time](../media/add-converted-time.png)
+    ![Screenshot of The time is Converted time (dynamic content).](../media/add-converted-time.png)
 
     Select **Manually trigger a flow > See more > Full address**. Select **Done**.
 
-    ![Add full address](../media/add-full-address.png)
+    ![Screenshot of the Body with text added "My current location is: Full address (dynamic content)" with Full address and Done highlighted.](../media/add-full-address.png)
 
 1. Give your flow a name such as **Send current location to Manager**
     and then select **Create** on the upper right of the screen.
 
-    ![complete flow](../media/complete-flow2.png)
+    ![Screenshot of Send current location To Manager flow with Convert time zone, Get manager, and Send an email steps..](../media/complete-flow2.png)
 
 1. In the next screen, select **Done**.
 
@@ -105,4 +105,4 @@ entirely from the Power Automate app on your smart phone.
 
 1. Your manager will receive an email.
 
-    ![send email](../media/send-email.png)
+    ![Screenshot of Send an email that ran 0 seconds ago with inputs To: shane, Subject: Arrived Onsite, and Body: Hi Shane. The time is...](../media/send-email.png)
