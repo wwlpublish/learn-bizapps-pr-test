@@ -2,7 +2,7 @@ In this unit, you'll see how Contoso Flooring uses Power Automate to automatical
 
 ## Prerequisites
 
-For this scenario, you need an account with Muhimbi, a PDF conversion service. If you don't already have a Muhimbi account, you can sign up for a [free 30-day trial](https://api.muhimbi.com/Auth/Pages/Signup.aspx).
+For this scenario, you need an account with Muhimbi, a PDF conversion service. If you don't already have a Muhimbi account, you can sign up for a [free 30-day trial](https://api.muhimbi.com/Auth/Pages/Signup.aspx/?azure-portal=true).
 
 ## Create the source and target folders
 
@@ -17,17 +17,17 @@ First, you must create the source and target folders in OneDrive for Business an
 
 1. In the **Choose your flow's trigger** search field, enter *OneDrive*, and select the **OneDrive for Business - When a file is created** trigger. Name your flow and press create.
 
-    ![OneDrive for Business - When a file is created trigger](../media/onedrive-trigger.png)
+    ![OneDrive for Business - When a file is created trigger.](../media/onedrive-trigger.png)
 
 1. In the **Folder** field, select the folder button, and then select the **Finished Documents** folder that you created in the previous step.
 
-1. Select **New step**. 
+1. Select **New step**.
 
 1. In the search box, enter *muhimbi*, select the **Muhimbi PDF** connector, and then select the **Muhimbi PDF – Convert document** action.
 
-    ![Muhimbi PDF – Convert document action](../media/muhimbi-action.png)
+    ![Muhimbi PDF – Convert document action with dynamic content for File content and File name highlighted.](../media/muhimbi-action.png)
 
-1. If Power Automate prompts you to sign in to Muhimbi, sign in. If you don't have a subscription to Muhimbi, you can use a [free 30-day trial](https://api.muhimbi.com/Auth/Pages/Signup.aspx).
+1. If Power Automate prompts you to sign in to Muhimbi, sign in. If you don't have a subscription to Muhimbi, you can use a [free 30-day trial](https://api.muhimbi.com/Auth/Pages/Signup.aspx/?azure-portal=true).
 
 1. In the **Convert document** action, set the following values:
 
@@ -35,7 +35,7 @@ First, you must create the source and target folders in OneDrive for Business an
     * **Source file content**: In the dynamic content list, select **File content**.
     * **Output format**: Select *PDF*.
 
-    ![Muhimbi setup](../media/muhimbi-configuration.png)
+    ![Muhimbi setup showing Convert document action with File name dynamic content as the Source file name, and File content as the Source file content.](../media/muhimbi-configuration.png)
 
     So far, you've set up these steps for your flow:
 
@@ -48,7 +48,7 @@ First, you must create the source and target folders in OneDrive for Business an
 
 1. In the search field, enter *sharepoint*, and then select the **SharePoint – Create file** action.
 
-    ![SharePoint – Create file action](../media/sharepoint-create-file.png)
+    ![Screenshot of Choose an action search results for SharePoint – Create file.](../media/sharepoint-create-file.png)
 
 1. In the **Create file** action, set the following values:
 
@@ -57,7 +57,7 @@ First, you must create the source and target folders in OneDrive for Business an
     * **File name**: In the dynamic content list, under **Convert document**, select **Base file name**. Then enter *.pdf* so that the file will be saved with the .pdf file name extension in SharePoint.
     * **File content**: In the dynamic content list, under **Convert document**, select **Processed file content**.
 
-    ![Set up the file in SharePoint](../media/sharepoint-configure-file.png)
+    ![Screenshot of the Create file action with the above mentioned properties filled in.](../media/sharepoint-configure-file.png)
 
 1. Select **Save** at the top of the page to save your work.
 
