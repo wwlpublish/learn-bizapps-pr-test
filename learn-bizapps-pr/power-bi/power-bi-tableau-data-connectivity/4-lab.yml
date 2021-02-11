@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-tableau-data-connectivity.4-lab 
+title: Data transformation lab
+metadata: 
+  title: Data transformation lab
+  description: In this lab, you'll connect to your data and transform it into a usable data model.
+  ms.date: 03/31/2021 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 30
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-lab.md)] 
