@@ -1,8 +1,5 @@
 In this unit, you will create a workspace that defines a set of users who have access to specific dashboards, reports, and datasets.
 
-**Video**: Create workspaces
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oNLh]
-
 Workspaces are places to collaborate with colleagues to create and refine collections of dashboards, reports, and paginated reports. There are two types of workspaces in Power BI:
 
 - **Classic workspaces** - groups are based on the groups in Microsoft 365. If you've been using Microsoft 365 groups to manage your group's email, calendar, and documents, then you'll find that Power BI offers the same features. When you create a group in Power BI, you're actually creating an Microsoft 365 group.
@@ -24,6 +21,6 @@ Setting up a classic workspace has the same steps as setting up a new workspace,
 
 ![Screenshot of the "My Workspace" menu option.](../media/power-bi-learn-06-01-expand-my-workspace-2.png)
 
-In the **Create a group** dialog box, type email addresses, security groups, and distribution lists. Select **Add** to make the set of users members of the group, and then select **Save** to save the group.
+In the **Create a workspace** dialog box, under **Advanced** you can click on **Specific users and groups** and type email addresses, security groups, and distribution lists. Then select **Save** to save the group.
 
 For more information, see [Create classic workspaces in Power BI](https://docs.microsoft.com/power-bi/service-create-workspaces/?azure-portal=true) and [Organize work in the new workspaces in Power BI](https://docs.microsoft.com/power-bi/service-new-workspaces/?azure-portal=true).
