@@ -6,7 +6,7 @@ In this exercise, you will apply error handling rules to all processes through t
 
 1. Open the **WinAutomation Console**, navigate to **Options**, and click on the **Error Handling** subtab:
 
-    ![The Behaviour tab in the WinAutomation Options.](..\media\behaviour-error-handling-options-b.png)
+    ![The Behavior tab in the WinAutomation Options.](..\media\behaviour-error-handling-options-b.png)
 
 1. Choose the **Write Event to Text File** option, assigning a .txt file in your documents folder, and **Add Screenshot to Logs**:
 
@@ -27,12 +27,10 @@ Let’s assume that a process has been rolled out by IT, and the error handling 
 
 1. In the **Process Properties** window, navigate to **Error Handling**, and select **Override Default Options**:
 
-    ![The Process Properties window.](..\media\override-default-options-error-handling-b.png)
+    ![The Process Properties of '01 - Run Calculator' window.](..\media\override-default-options-error-handling-b.png)
 
 1. Select **Record event to Windows Event Log**.
 
-    ![The Process Properties window with the Overide Default Options radiobutton enabled.](..\media\windows-event-log-error-handling.png)
+    ![The Process Properties window with the Override Default Options radiobutton enabled.](..\media\windows-event-log-error-handling.png)
 
     Because the default options have been overridden, any errors produced by this process will not be written to the previously created text file, nor will they produce a screenshot to the logs; only the custom error handling options will be applied.
-
-

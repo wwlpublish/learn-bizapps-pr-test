@@ -20,7 +20,7 @@ In the above case, for example, when this action fails, it will retry two more t
 
 By default, exception handling takes effect when any exception occurs while this action is running - however, you can configure it so that exception handling occurs only on a specific type of exception. Each action has specific exception types that it may produce:
 
-![The populated Exception Handling tab in the Open SQL Connection action's properties.](..\media\open-sql-connection-action-properties-selected-exception.png)
+![The populated Exception Handling tab in the Open SQL Connection action's properties with Exception handling rules for Selected Exception..](..\media\open-sql-connection-action-properties-selected-exception.png)
 
 In this example, the exception handling rules will only apply when the **Cannot connect to Data Source** exception occurs.
 
@@ -53,6 +53,6 @@ Therefore, any action-level exception handling rules run before the respective b
 
 ![The Exception Handling tab in the Launch New Edge action's properties.](..\media\launch-new-edge-action-properties.png)
 
-![The Workspace with an example using the The Begin Exception Block action.](..\media\launch-new-edge-action-workspace.png)
+![The Workspace with an example using the The Begin and End Exception Block action.](..\media\launch-new-edge-action-workspace.png)
 
 In the above example, if the sixth action fails, its individual exception handling rules will be considered first. If the exception persists, the exception block will be activated.

@@ -6,7 +6,7 @@ By automating database-related processes, users can replicate scheduled operatio
 
 ## Learning objectives
 
-In this module, you will: 
+In this module, you will:
 
 - Compose a connection string to connect to a database.
 - Use the appropriate action to run queries on a database.
