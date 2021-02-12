@@ -10,7 +10,7 @@ To change the selected cells, use the **Select Cells in Excel Worksheet** action
 
 ![Screenshot of Properties of 'Select Cells in Excel Worksheet' action with Select set to Range of Cells, and with Range Starts and Ends highlighted.](..\media\select-cells-in-excel-action-properties.png)
 
-Alternatively, you can set the **Select** option to **Range of Cells Relatively to Active Cell** to select a number of cells from the currently selected cell.
+Or you can set the **Select** option to **Range of Cells Relatively to Active Cell** to select a number of cells from the currently selected cell.
 
 ![The same dialog with Select set to "Range of Cells Relatively to Active Cell," and with range X Axis Direction and Number of Cells highlighted.](..\media\select-cells-in-excel-action-properties-continued.png)
 
@@ -18,6 +18,6 @@ To activate a particular cell, use the **Activate Cell in Excel Worksheet** acti
 
 ![Screenshot of Properties of 'Activate Cell in Excel Worksheet' action dialog with Activate set to Absolutely specified Cell.](..\media\activate-cell-in-excel-action-properties.png)
 
-It is also possible to insert and delete columns and rows by using the appropriate actions; however, you are required to specify a column or row index. In case of insertion, the row or column will be added before the one that is specified.
+You can also insert and delete columns and rows by using the appropriate actions, but you are required to specify a column or row index. With insertion, the row or column is added before the one that is specified.
 
 ![Screenshot of Properties of 'Insert Row to Excel Worksheet' action dialog.](..\media\insert-row-to-excel-action-properties.png)
