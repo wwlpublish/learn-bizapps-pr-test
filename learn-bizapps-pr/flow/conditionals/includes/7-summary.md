@@ -1,4 +1,5 @@
 Conditional actions allow you to modify process actions at runtime, based on information available in the environment. They are divided into two major categories in WinAutomation:
+
 * The If group of actions
 * The Switch group of actions
 
