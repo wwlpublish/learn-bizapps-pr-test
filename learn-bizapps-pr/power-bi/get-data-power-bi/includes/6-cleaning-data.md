@@ -1,12 +1,11 @@
 While Power BI can import your data from almost any source, its visualization and modeling tools work best with columnar data. Sometimes, your data won't be formatted in simple columns, which is often the case with Excel spreadsheets. 
 
-In this unit, you will clean columnar data with Power Query Editor.
+In this unit you will learn how to clean columnar data with Power Query Editor just like the example in the following video.
 
 
 **Video**: 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhf]
-> [!NOTE]
-> To follow along with the Excel spreadsheet in this video, download the .xlsx <a href="https://go.microsoft.com/fwlink/?linkid=2123759" target="_blank">**here**</a>.
+
 
 ![This page covers, "Clean columnar data".](../media/06-power-bi-desktop-task-overview.png)
 
