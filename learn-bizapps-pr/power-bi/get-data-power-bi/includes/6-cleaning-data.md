@@ -4,7 +4,7 @@ In this unit you will learn how to clean columnar data with Power Query Editor j
 
 
 **Video**: 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wRhf]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhf]
 
 
 ![This page covers, "Clean columnar data".](../media/06-power-bi-desktop-task-overview.png)
