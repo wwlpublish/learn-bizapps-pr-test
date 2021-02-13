@@ -1,4 +1,4 @@
-Errors that occur while a process is running cause it to stop. Depending on their significance, such errors may adversely impact business continuity. 
+Errors that occur while a process is running cause it to stop. Depending on their significance, such errors may adversely impact business continuity.
 
 In this unit, you'll learn how to use the error handling capabilities of WinAutomation.
 
@@ -10,7 +10,7 @@ To set up error handling, find the process in the console, open its properties, 
 
 ![The Error Handling tab in the Process Properties.](..\media\error-handling-process-properties.png)
 
-By default, processes use the default error handling options. To customize the error handling rules for an individual process, select **Override Default Options**. 
+By default, processes use the default error handling options. To customize the error handling rules for an individual process, select **Override Default Options**.
 
 ![The Error Handling tab in the Process Properties with the Override Default Options radiobutton selected.](..\media\override-default-options-error-handling.png)
 
