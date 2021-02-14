@@ -1,9 +1,6 @@
 In this lesson, you will create an instance of an app for everyone in a group.
 
-**Video**: Use apps
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oQm9]
-
-Start in **My Workspace**, select the workspace that you previously created.
+Select the workspace that you previously created.
 
 ![Screenshot of the sample, "Welcome to the Finance Group" app.](../media/power-bi-learn-06-03-my-org-content-pack.png)
 
