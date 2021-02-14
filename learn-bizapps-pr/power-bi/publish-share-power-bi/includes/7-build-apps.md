@@ -4,7 +4,8 @@ In the Power BI service, you will create an app that includes your dashboard, th
 
 Click on the workspace you published your Power BI Desktop report to, and select the Create app button in the upper right corner to start the process of creating and publishing an app from the workspace.
 
-[!Note] - you cannot publish an app from **"My Workspace"**.
+> [!Note]
+> You cannot publish an app from **"My Workspace"**.
 
 ![Screenshot of the "Publish app" button.](../media/07-power-bi-desktop-publish-app-2.png)
 
