@@ -1,8 +1,5 @@
 In this lesson, you're going to share a Power BI report on a webpage or share it through email. This feature of Power BI is often referred to as **Publish to web**.
 
-**Video**: Publish reports to web
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x4jJ]
-
 In the Power BI service, select the report that you want to share so that it's displayed on the canvas. Then from the menu, select **Share > Embed Report > Publish to web (public)**. A dialog box will appear, explaining that you'll receive an *embed code* that will allow you to include the report on a website or in an email.
 
 ![Screenshot of the "Embed in a public website" dialog.](../media/6-6-2-embed-public-website.png)

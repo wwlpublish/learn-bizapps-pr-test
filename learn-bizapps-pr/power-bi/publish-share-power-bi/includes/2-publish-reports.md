@@ -1,8 +1,5 @@
 Publishing your reports to the Power BI service is fast and simple.
 
-**Video**: Publish reports
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9vP]
-
 After you've completed writing your report, select the **Publish** button on the **Home** tab.
 
 ![Screenshot of the Publish button.](../media/02-power-bi-desktop-publish.png)
