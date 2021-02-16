@@ -6,11 +6,11 @@ Before you can fix a flow, you must identify why it failed. You will get an emai
 
 1. Select the **Settings** button (the gear symbol) at the top of the web portal and select **Activity** (or select the **Activity** tab in the mobile app), and then select your flow in the list that appears.
 
-    ![Notifications](../media/notifications-toolbar.png)
+    ![Screenshot of the Settings menu expanded with the Activity option highlighted.](../media/notifications-toolbar.png)
 
 2. Details about the flow appear, and at least one step has a red exclamation point (!) symbol. Open that step, and review the error message.
 
-    ![Error message](../media/flow-run-failure.png)
+    ![Screenshot of Error messages appearing in the flow details.](../media/flow-run-failure.png)
 
 ## Authentication failures
 
@@ -52,7 +52,7 @@ You might have run out of data that you can use.
 
 - If you're on a free plan or a trial plan, select the **Settings** button (the gear symbol) to show your current usage against your plan.
 
-    ![Settings button](../media/settings.png)
+    ![Screenshot of Settings button and the Settings menu expanded with the Admin Center option highlighted.](../media/settings.png)
 
 - If you're on a paid plan, runs are pooled across all users in your organization. We're working on features that will show information about available quotas and usage across an organization.
 
@@ -83,11 +83,11 @@ Some flows might run more often than you expect. For example, you create a flow 
 
 You might have issues that are based on other limits:
 
-* Each account can have up to:
+- Each account can have up to:
 
-    * 250 flows.
-    * 15 custom connectors.
-    * 20 connections per application programming interface (API) and 100 connections total.
+  - 250 flows.
+  - 15 custom connectors.
+  - 20 connections per application programming interface (API) and 100 connections total.
 
-* You can install a gateway only in the default environment.
-* Some external connectors, like Twitter, implement connection throttling to control the quality of service. Your flows might fail when throttling is in effect. If your flows are failing, review the details of the run that failed in the flow's run history.
+- You can install a gateway only in the default environment.
+- Some external connectors, like Twitter, implement connection throttling to control the quality of service. Your flows might fail when throttling is in effect. If your flows are failing, review the details of the run that failed in the flow's run history.
