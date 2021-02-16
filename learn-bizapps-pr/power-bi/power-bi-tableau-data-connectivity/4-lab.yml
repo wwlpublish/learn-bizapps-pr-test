@@ -9,7 +9,10 @@ metadata:
   ms.author: robde 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-bi 
-durationInMinutes: 30
+durationInMinutes: 35
+labId: XXXXX
+labModal: true
 content: | 
  [!include[](../includes/unit-banner.md)] 
+ [!include[](../includes/access-lab.md)]
  [!include[](includes/4-lab.md)] 
