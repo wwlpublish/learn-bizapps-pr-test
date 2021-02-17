@@ -54,7 +54,7 @@ After you have selected **Pin**, you will be redirected to your new dashboard, w
 > [!div class="mx-imgBorder"]
 > [![Pin a single tile to a dashboard](../media/01-pin-single-tile-ss.png)](../media/01-pin-single-tile-ss.png#lightbox)
 
-One of biggest benefits of a dashboard is being able to pin a visual that is sourced from a different dataset. The following section explains how you can add a visual onto your **Category** dashboard.
+One of the biggest benefits of a dashboard is being able to pin a visual that is sourced from a different dataset. The following section explains how you can add a visual to your **Category** dashboard.
 
 ## Pin a tile from a different report
 
