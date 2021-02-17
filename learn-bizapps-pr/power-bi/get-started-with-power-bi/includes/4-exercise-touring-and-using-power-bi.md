@@ -37,7 +37,7 @@ In addition to the app **dashboard**, the **report** that was generated (as part
 
 ![Power BI navigation](../media/pbi-touring_06.png)
 
-On the dashboard, you can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when the **May 2018** bar is selected in the **Pull Requests (by month)** visual, the other visuals on the page adjust to reflect that selection.
+You can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when the **AdamBJ** in the treemap on the **Pull Requests** report the other visuals on the page adjust to reflect that selection.
 
 ![Power BI navigation](../media/pbi-touring_06b.png)
 
