@@ -28,7 +28,9 @@ Use a **Go to** action and select the label from a drop-down list to direct the 
 
 To stop the subflow and go back to the point where it was run from, use **Exit subflow**. This action does not have properties.
 
-To stop running the entire flow, use the **Stop flow** action.
+To stop running the entire flow, use the **Stop flow** action. To stop the flow with an error message, set **End flow** to **With error message** and specify the message to display.
+
+![stop flow action properties](..\media\stop-flow-action-properties.png)
 
 Place actions that are likely to fail or produce an erroneous result in an error block. The **On block error** action along with its corresponding **End** action are used to create an error block. Place actions in an error block to prevent the entire block from attempting to complete in the event that at least one of the actions within it fails. 
 

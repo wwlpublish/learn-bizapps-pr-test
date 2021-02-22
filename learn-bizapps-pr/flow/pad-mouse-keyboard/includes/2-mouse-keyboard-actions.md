@@ -4,7 +4,7 @@ To locate the current position of the cursor and retrieve its coordinates, use t
 
 ![Get mouse position action properties](..\media\mouse-position-action-properties.png)
 
-To move the mouse to a specified position, use the **Move Mouse** action. Specify the target coordinates and how fast to move the cursor. Calculate the coordinates from the top left of the screen, the currently active window, or the mouse's current position. Set the mouse to move to the new position instantly, where the mouse appears to jump from one position to another or use animation to simulate a user's movement of the mouse. Optionally adjust the speed of the animation.
+To move the mouse to a specified position, use the **Move Mouse** action. Specify the target coordinates and how fast to move the cursor. Calculate the coordinates from the top left of the screen, the currently active window, or the mouse's current position. Set the mouse to move to the new position instantly, where the mouse appears to jump from one position to another or use animation to simulate a user's movement of the mouse. Optionally adjust the speed of the animation. To capture the current coordinates of the mouse relative to the screen, press **Ctrl** + **Shift**. This will populate the Position X and Position Y fields.
 
 ![Move mouse action properties](..\media\move-mouse-properties.png)
 
