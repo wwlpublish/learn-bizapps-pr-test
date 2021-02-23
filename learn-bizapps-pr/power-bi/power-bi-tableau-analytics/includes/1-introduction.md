@@ -1,0 +1,3 @@
+In this module, we'll be looking at different ways that Power BI allows business users to perform thoughtful analytics on top of their data to gain greater insight. You'll be exploring the following functions, which are purely out-of-the-box and can be initiated with a single click: Artificial Intelligence (AI) visuals, analytics pane, and what if analysis. We'll also look at ways Power BI can be integrated with other languages like R and Python.
+
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWy75H]
