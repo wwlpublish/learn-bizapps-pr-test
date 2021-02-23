@@ -3,11 +3,11 @@ In this lab, you'll create your first dashboard in Power BI using the standard v
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a Power BI dashboard leveraging standard visuals.](../media/final-dashboard.png)](../media/final-dashboard.png#lightbox)
 
-## Creating a Dashboard
+## Creating a dashboard
 
 In this exercise, you'll create a dashboard and add interactivity.
 
-### Task 1: Build a Scatter chart 
+### Task 1: Build a scatter chart 
 
 In this task, you'll create a scatter chart.
 
@@ -23,7 +23,7 @@ In this task, you'll create a scatter chart.
 
 1.  This provides a representation of the **Quantity** and **Sales Amount** by **Product**.
 
-### Task 2: Format the Scatter chart 
+### Task 2: Format the scatter chart 
 
 1.  From **FORMAT** section, under **Shapes** set the **Size** to 7 and set the **Marker shape** to diamond.
 
@@ -48,7 +48,7 @@ In this task, you'll create a scatter chart.
 
 1. *OPTIONAL* From **FORMAT** section, under **Y-axis,** go down to **Gridlines** and set the **Color** to White and the **Stroke width** to 4.
 
-### Task 3: Create a Stacked bar chart 
+### Task 3: Create a stacked bar chart 
 
 1. From the **VISUALIZATIONS** panel select **Stacked bar chart** visual :::image type="icon" source="../media/stacked-bar-chart.png":::.
 
@@ -58,7 +58,7 @@ In this task, you'll create a scatter chart.
 
 1. This provides a representation of the **Sales Amount** by **State**.
 
-### Task 4: Format the Stacked bar chart 
+### Task 4: Format the stacked bar chart 
 
 1. From **FORMAT** section, under **Data colors>Default color** select on :::image type="icon" source="../media/data-color-function.png":::
 
@@ -73,7 +73,7 @@ In this task, you'll create a scatter chart.
 
 1. *OPTIONAL* From **FORMAT** section, under **Border** set the **Color** to White and the **Radius** to 20.
 
-### Task 5: Create an Area chart 
+### Task 5: Create an area chart 
 
 1. From the VISUALIZATIONS panel, select **Area chart** visual :::image type="icon" source="../media/area-chart.png":::.
 
@@ -86,7 +86,7 @@ In this task, you'll create a scatter chart.
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the drill down button on the Visual Header.](../media/drill-down.png)](../media/drill-down.png#lightbox)
 
-### Task 6: Format the Area chart 
+### Task 6: Format the area chart 
 
 1. From **FORMAT** section under **Data colors>Sales Amount**, select on color selector box and select the light blue.
 
@@ -99,7 +99,7 @@ In this task, you'll create a scatter chart.
 
 1. *OPTIONAL* From **FORMAT** section, under **Border** set the **Color** to White and the **Radius** to 20.
 
-### Task 7: Add a Decomposition Tree
+### Task 7: Add a decomposition tree
 
 1. From the VISUALIZATIONS panel, select **Decomposition Tree** visual :::image type="icon" source="../media/decomposition-tree.png":::.
 
@@ -113,7 +113,7 @@ In this task, you'll create a scatter chart.
 
 1. Expand out the fields by selecting the "plus sign" next to each dimensional group.
 
-### Task 8: Format Decomposition Tree
+### Task 8: Format decomposition tree
 
 1. From **FORMAT** section under **Title**, turn **On** and set the **Text size** to 18 pt and write the following as **Title text**: Where do my discounts go?
 
@@ -125,7 +125,7 @@ In this task, you'll create a scatter chart.
 
 1. *OPTIONAL* From **FORMAT** section, under **Background** set to Off.
 
-### Task 9: Add a Multi-row Card
+### Task 9: Add a multi-row card
 
 1. From the VISUALIZATIONS panel, select **Multi-row Card** visual :::image type="icon" source="../media/multi-row-card.png":::.
 
@@ -137,7 +137,7 @@ In this task, you'll create a scatter chart.
 
 1. From **FIELDS** section, drag and drop **Discount Amount** field from **Sales** table to **Fields**.
 
-### Task 10: Format Multi-row Card
+### Task 10: Format multi-row card
 
 1. *OPTIONAL* From **FORMAT** section under **Data Labels** set the **Color** to White and the **Text Size** to 21 pt.
 
@@ -151,7 +151,7 @@ In this task, you'll create a scatter chart.
 
 1. *OPTIONAL* From **FORMAT** section, under **Background** set to Off.
 
-### Task 11: Set page Background
+### Task 11: Set page background
 
 1. *OPTIONAL* Select anywhere on the background of the **Page** to deselect visuals.
 
@@ -160,7 +160,7 @@ In this task, you'll create a scatter chart.
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Page background Color set to light gray and Transparency set to 0.](../media/page-background-color.png)](../media/page-background-color.png#lightbox)
 
-### Task 12: Add a header (Optional)
+### Task 12: Add a header (optional)
 
 1. From the **RIBBON** under **Insert>Elements>Shapes**, select the **Rectangle** icon.
 
@@ -177,11 +177,11 @@ In this task, you'll create a scatter chart.
     > [!div class="mx-imgBorder"]
     > [![Screenshot of Background color set to medium gray.](../media/shape-format-background-color.png)](../media/shape-format-background-color.png#lightbox)
 
-### Task 13: Add a Logo
+### Task 13: Add a logo
 
 1. From the **RIBBON** under **Insert>Elements**, select the **Image** icon. Navigate to the "Toys of Tomorrow Icon" and select **Open**.
 
-### Task 14: Add Page Filters
+### Task 14: Add page filters
 
 1. Expand the **FILTERS** pane, if it's closed.
 
@@ -196,7 +196,7 @@ In this task, you'll create a scatter chart.
 
 1. Select on one of the visuals you've created.
 
-1. From the **Ribbon** under **Format>Interactions**, select **Edit interactions.
+1. From the **Ribbon** under **Format>Interactions**, select **Edit interactions**.
 
 1. For each of the *other* visuals you've created, select the **Filter** icon from the **Visual Header**.
 
@@ -205,7 +205,7 @@ In this task, you'll create a scatter chart.
 
 1. Repeat the steps in **Task 15** with each of the others visuals you created.
 
-### Task 16: Create two Bookmark actions with icons 
+### Task 16: Create two bookmark actions with icons 
 
 In this task, we'll make a copy of the bar chart you've already made, convert it to a map, and give the user the option to pick between the two.
 
@@ -239,7 +239,7 @@ In this task, we'll make a copy of the bar chart you've already made, convert it
 
     You can now CTRL select on either of these two icons to swap between the bar chart and map.
 
-### Task 17: Arrange and Style
+### Task 17: Arrange and style
 
 Now that you have the building blocks, use the remaining time to arrange the visuals in a way that tells a story. Here's a couple of tips to get you going:
 

@@ -18,7 +18,7 @@ You can also build your own stunning visualizations using the custom visuals Sof
 
 There are also several third-party tools that allow you to build visuals using drag-and-drop interfaces. With these interfaces, you can develop the code necessary to create the visual you want without learning a new coding language.
 
-##Use R and Python
+## Use R and Python
 
 We'll dive into R and Python integration in a separate module, but you should know they're built in visual types in the visualizations pane. You select the language and a script editor will automatically show up. You'll need to have R or Python installed along with any packages you intend to use, but it means most visuals you can create using those languages can be shown in Power BI without much more work.
 

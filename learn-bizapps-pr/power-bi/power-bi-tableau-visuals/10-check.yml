@@ -24,7 +24,7 @@ quiz:
     - content: It only allows the user to favorite specific reports in your workbook.
       isCorrect: false 
       explanation: It does allow you to create a bookmark, which could allow you to favorite specific reports, but it does so much more than that; it allows you to mark a specific state and navigate between multiple states in your report.
-  - content: What part of Power BI allows users to expand their visual library by using visualizations created by 3^rd^ parties?
+  - content: What part of Power BI allows users to expand their visual library by using visualizations created by third parties?
     choices: 
     - content: Power BI Q&A
       isCorrect: false

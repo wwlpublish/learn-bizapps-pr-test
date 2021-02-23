@@ -23,5 +23,4 @@ The filter pane has many benefits; you can now declutter your report pages with 
 The filter pane allows for different levels of filtering from filters that affect the entire report all the way down to a single visual. It also gives you full flexibility to hide filters or even the whole panel from the end users to apply the filters as a backend procedure without confusing your end users.
 
 > [!div class="mx-imgBorder"]
-> [![
-With Filter panes, you have a lot of control over report filter design and functionality.](../media/power-bi-filter-pane.png)](../media/power-bi-filter-pane.png#lightbox)
+> [![With Filter panes, you have a lot of control over report filter design and functionality.](../media/power-bi-filter-pane.png)](../media/power-bi-filter-pane.png#lightbox)
