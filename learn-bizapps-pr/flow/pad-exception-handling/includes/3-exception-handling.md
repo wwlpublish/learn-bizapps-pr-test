@@ -31,7 +31,7 @@ For example, consider a flow in which Power Automate Desktop interacts with the 
 
 The **On block error** action allows you to apply one set of exception handling rules to an entire block of actions:
 
-![The On block error action's properties.](..\media\on-block-error-action-properties.png)
+![The On block error action's properties dialog.](..\media\on-block-error-action-properties.png)
 
 Actions in between the **On block error** and **End** actions are affected by the block’s exception handling rules:
 

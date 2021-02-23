@@ -13,11 +13,11 @@ Create a new process and then add the **Connect to server** action. Enter inform
 
 If authentication is required, select the **Use authentication** check box, and then provide your **Authentication type** and credentials.
   
-![connect to ad server properties exercise](..\media\connect-to-ad-server-properties-exercise.png)
- 
+![Screenshot of Connect to server action properties.](..\media\connect-to-ad-server-properties-exercise.png)
+
 ## Create an Active Directory user
 
-The **Create user** action requires the location where the user will be created. Enter the location of the user's container. 
+The **Create user** action requires the location where the user will be created. Enter the location of the user's container.
 
 Provide the user’s personal details and credentials, as follows, and then select the **Disable account** and **Password never expires** check boxes.
 
@@ -26,28 +26,28 @@ Provide the user’s personal details and credentials, as follows, and then sele
 - **Initials** — NV
 - **Username** — nvarga
 - **Password** — Password123
-	
-![create ad user properties exercise](..\media\create-ad-user-properties-exercise.png)
+
+![Screenshot of Create user action properties.](..\media\create-ad-user-properties-exercise.png)
 
 ## Add the user to a group
 
-Now that an Active Directory user has been created, the next step is to add this user to a group with the **Modify group** action. 
+Now that an Active Directory user has been created, the next step is to add this user to a group with the **Modify group** action.
 
 Specify the group by filling in the **Distinguished name** field and then set the **Operation** option to **Add user**, again specifying the user’s distinguished name.
   
-![modify ad group properties exercise](..\media\modify-ad-group-properties-exercise.png)
+![Screenshot of Modify group action properties.](..\media\modify-ad-group-properties-exercise.png)
 
 ## Create a computer object
 
 Next, you will add the **Create object** action. Set the **Object name** field to **NVBOT** (in uppercase). The object’s location should be the computer's container, and the **Object type** option should be set to **Computer**.
   
-![create ad object properties exercise](..\media\create-ad-object-properties-exercise.png)
+![Screenshot of Create object action properties.](..\media\create-ad-object-properties-exercise.png)
 
 ## Close connection
 
 The last step in the process, **Close connection**, will disconnect from the Active Directory server.
   
-![close ad connection properties exercise](..\media\close-ad-connection-properties-exercise.png)
+![Screenshot of Close connection action properties.](..\media\close-ad-connection-properties-exercise.png)
 
 ## Run the process
 
