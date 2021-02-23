@@ -2,7 +2,7 @@ Working with files is similar to working with folders. File and folder operation
 
 To get a list of all files in a specified folder, you can use the **Get files in folder** action. This action works similarly to the **Get subfolders in folder** action. The path of the folder is a required input and you can specify it as a variable.
 
-Optionally, you can filter files by using the **File filter** action. Add keywords, along with the asterisk (*) wildcard character, and separate multiple terms with a semicolon (;). You can look in subfolders by selecting the **Include subfolders** action.
+Optionally, you can filter files by using the **File filter** action. Add keywords, along with the asterisk (\*) wildcard character, and separate multiple terms with a semicolon (;). You can look in subfolders by selecting the **Include subfolders** action.
 
 ![Screenshot of the Get Files in Folder action properties dialog.](..\media\get-files-in-folder-action-properties.png)
 
