@@ -21,7 +21,7 @@ abstract: |
 prerequisites:|  
     - Access to Power BI service
     - Familiarity with Tableau
-    - Key Tableau concepts to understand: Grouping fields in folders, Editing default settings and field properties, and Adding comments to fields.
+    - Key Tableau concepts to understand are grouping fields in folders, editing default settings and field properties, and adding comments to fields.
 iconUrl: /learn/achievements/power-bi-tableau-visuals.svg  
 levels:  
 - beginner   
