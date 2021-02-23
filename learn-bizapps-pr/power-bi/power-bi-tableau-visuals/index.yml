@@ -18,7 +18,7 @@ abstract: |
     - Identify basic tips and tricks on making pages more interactive and user-friendly.
     - Create basic and customized pages that deliver insights.
     - Identify how visualization processes and actions differ between Tableau and Power BI.
-prerequisites:|  
+prerequisites: |  
     - Access to Power BI service
     - Familiarity with Tableau
     - Key Tableau concepts to understand are grouping fields in folders, editing default settings and field properties, and adding comments to fields.
