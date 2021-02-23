@@ -1,14 +1,14 @@
-In this lab, you will create a Key Influencers visual and identify the drivers behind Sales.
+In this lab, you'll create a Key Influencers visual and identify the drivers behind Sales.
 
 ## Create a Key Influencers visual
 
-In this exercise, you will create a Key Influencers visual around sales, and explore the biggest drivers behind increased/decreased sales.
+In this exercise, you'll create a Key Influencers visual around sales, and explore the biggest drivers behind increased/decreased sales.
 
 ### Task 1: Create a Key Influencers visual 
 
-In this task, you will create a a basic visual.
+In this task, you'll create a basic visual.
 
-1.  From the **VISUALIZATIONS** panel select **Key influencers** visual.
+1.  From the VISUALIZATIONS panel, select **Key influencers** visual.
 
 1.  From **FIELDS** section, drag and drop **Sales Amount** field from **Measures Table** table to **Analyze**.
 
