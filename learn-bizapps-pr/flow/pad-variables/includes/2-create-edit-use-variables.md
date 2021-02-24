@@ -8,11 +8,9 @@ To prevent the declaration of unnecessary variables, Power Automate Desktop prod
 
 Every time you add a new action in the workspace, the platform automatically produces some variables that hold the results. If you want to change the default name of a produced variable, you can select it and populate the new name.  
 
+In case you don't need a produced variable in your flow, you can disable the slider on the left side of it. Disabling unused variables reduces the number of variables in the variables pane and makes management more efficient. 
+
 ![The produced variable of the Change text case action.](..\media\produced-variables.png)
-
-In case you don't need a produced variable in your flow, you can select the icon on the left side of it and pick **Don't produce variable**. Disabling unused variables reduces the number of variables in the variables pane and makes management more efficient. 
-
-![The option to disable a produced variable.](..\media\disabled-produced-variables.png)
 
 After creating a variable, you might need to use its content as input in other actions. To reuse a variable, select the icon next to the desired input field and pick the variable or a specific property of it.
 
