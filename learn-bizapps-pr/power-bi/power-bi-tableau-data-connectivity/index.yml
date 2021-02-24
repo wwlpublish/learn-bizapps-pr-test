@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-bi-tableau-data-connectivity 
 metadata: 
- title: Translating data connectivity from Tableau to Power BI
+ title: Connect data to Power BI for Tableau users
  description: This module provides the foundational information needed to connect to your data confidently with the new platform.
  ms.date: 03/31/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
-title: Translating data connectivity from Tableau to Power BI
+title: Connect data to Power BI for Tableau users
 summary: |  
   [!include[](../includes/module-banner.md)] 
   As an analyst moving from Tableau to Microsoft Power BI, your main concern will be making sure that you can connect to the same data sources without losing functionality. This module provides the foundational information needed to work confidently with the new platform.
