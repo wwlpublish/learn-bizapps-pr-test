@@ -1,0 +1,45 @@
+### YamlMime:Module 
+uid: learn-bizapps.power-bi-tableau-intro 
+metadata: 
+ title: Introduction to Power BI for Tableau users
+ description: The purpose of this module is to help Tableau analysts make the leap from Tableau to Power BI.
+ ms.date: 03/31/2021  
+ author: heyrob  
+ ms.author: robde  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-bi  
+title: Introduction to Power BI for Tableau users
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The purpose of this module is to help Tableau analysts make the leap from Tableau to Power BI.
+abstract: |  
+    In this module, you will: 
+    - Walk through the Power BI Desktop interface.
+    - Connect to your data in Power BI Desktop using the DirectQuery and Import methods.
+    - Understand the importance of relationships in your Power BI data models.
+    - Build a visualization in Power BI Desktop.
+    - Apply conditional formatting to help analysts detect critical issues and identify patterns in data.
+    - Identify differences and similarities between Tableau and Power BI concepts.
+prerequisites: Access to Power BI service; familiarity with Tableau; and an understanding of key Tableau concepts such as connecting to data, building visualizations, and extracts vs. live connections.
+iconUrl: /learn/achievements/power-bi-tableau-intro.svg  
+levels:  
+- beginner
+roles:  
+- business-user
+- maker
+products:  
+- power-platform 
+- power-bi 
+units: 
+- learn-bizapps.power-bi-tableau-intro.1-introduction 
+- learn-bizapps.power-bi-tableau-intro.2-workspace 
+- learn-bizapps.power-bi-tableau-intro.3-terminology 
+- learn-bizapps.power-bi-tableau-intro.4-relationships 
+- learn-bizapps.power-bi-tableau-intro.5-calculate 
+- learn-bizapps.power-bi-tableau-intro.6-build-visual 
+- learn-bizapps.power-bi-tableau-intro.7-conditional 
+- learn-bizapps.power-bi-tableau-intro.8-performance 
+- learn-bizapps.power-bi-tableau-intro.9-check 
+- learn-bizapps.power-bi-tableau-intro.10-summary 
+badge: 
+  uid: learn-bizapps.power-bi-tableau-intro.badge 
