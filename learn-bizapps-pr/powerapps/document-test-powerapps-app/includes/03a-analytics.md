@@ -4,12 +4,12 @@ The other important aspect of adequate performance testing is to reproduce workl
 
 ## Instance statistics
 
-CDS for Apps analytics are available via Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac/?azure-portal=true). It contains various statistics that can help identify potential areas for deeper performance analysis, for example most used entities, storage consumed, failing system jobs and plugins, etc. 
+CDS for Apps analytics is available via Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac/?azure-portal=true). It contains various statistics that can help identify potential areas for deeper performance analysis, for example most used entities, storage consumed, failing system jobs and plugins, etc. 
 
 ## Query performance
 
 Dataverse is a service and, as any service, may not cater for your specific app design. Specific queries in your app may cause some performance issues. While you don’t have direct access to the components of the Dataverse such as database, there are tools available within Dataverse to help in tuning the environment to your specific needs. You can analyze and optimize query performance using the Data Performance view discussed in detail in the next topic.
-There are a number of tools that can assist in performance tuning various aspects of Power Apps.
+There are many tools that can help performance tuning various aspects of Power Apps.
 
 ## Dynamics 365 diagnostics
 
@@ -21,7 +21,7 @@ After opening the page and pressing Run, the report will become available that w
 
 ## Data performance logs
 
-You can analyze and optimize query performance using the Data Performance view, which provides an aggregated list of entities with long-running queries. A long running query is defined as a query that takes three seconds or longer to complete. Typical examples of a component that can have a long running query is a plug-in with custom FetchXML or a sub-grid or view. 
+You can analyze and optimize query performance using the Data Performance view, which provides an aggregated list of entities with long-running queries. A long running query is defined as a query that takes three seconds or longer to complete. Typical examples of a component that can have a long running query is a plug-in with custom FetchXML or a subgrid or view. 
 
 You can access Data Performance Logs via Settings -> Administration -> Data Performance.
 
@@ -43,7 +43,7 @@ The Entity Usage tab contains information about most used out-of-the-box and cus
 ![Screenshot showing the Dataverse analytics for common usage.](../media/performance-tools-image-3-updated.png)
 
 
-Other statistics are also available that may be useful. Plug-ins statistics can assist in identifying troublesome plugins, for example those with excessive average execution time.
+Other statistics are also available that may be useful. Plug-ins statistics can help identifying troublesome plugins, for example those with excessive average execution time.
 
 ### Power Apps analytics
 
