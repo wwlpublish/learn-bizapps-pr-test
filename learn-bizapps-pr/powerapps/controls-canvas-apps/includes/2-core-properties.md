@@ -1,4 +1,4 @@
-Controls are one of the biggest components of a Power App because how you implement them determine how your app interacts with your data, what actions are available to a user, and what conditions may need to be met before another action can be taken. You can configure the appearance and behavior of a control by setting one of its properties. Because controls are designed with specific use cases in mind, the properties for each control are slightly different. Here are some important properties to be aware of:
+Controls are one of the biggest components of a Power App because implementation determines how your app interacts with your data, what actions are available to a user, and what conditions may need to be met before another action can be taken. You can configure the appearance and behavior of a control by setting one of its properties. Because controls are designed with specific use cases in mind, the properties for each control are slightly different. Here are some important properties to be aware of:
 
 -   **Default** - The initial value of a control before it is changed by
     the user. For example, when working with a Drop down control you
