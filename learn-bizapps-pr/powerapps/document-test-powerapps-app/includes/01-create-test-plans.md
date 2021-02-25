@@ -12,6 +12,9 @@ There are many types of testing that you should consider in your deployment plan
 
 Regardless of the exact type or plan you are using; the following considerations should be included.
 
+> [!div class="mx-imgBorder"]
+> [![Diagram of the testing types of unit, user acceptance, integration, performance, and QA.](../media/testing-types.png)](../media/testing-types.png#lightbox)
+
 ## Use of Testing Plans
 
 A testing plan is an important scoping document in your project plan to communicate what will and will not be tested and necessary considerations for success. The testing plan is designed to be carried out by a technical resource to catch bugs before user acceptance testing. 
@@ -40,7 +43,10 @@ Some configurations, such as Word and Excel templates, cannot be moved between e
 
 ## Resources
 
-It is best practice to have components tested by a resource that did not create or configure the component. 
+It is best practice to have components tested by a resource that did not create or configure the component.
+
+> [!div class="mx-imgBorder"]
+> [![Diagram of the testing considerations of plans, environment, security, dependencies, and configurations.](../media/testing-considerations.png)](../media/testing-considerations.png#lightbox) 
 
 ## Test Plan Components
 
