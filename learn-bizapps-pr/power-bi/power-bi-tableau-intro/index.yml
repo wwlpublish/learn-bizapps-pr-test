@@ -2,7 +2,7 @@
 uid: learn-bizapps.power-bi-tableau-intro 
 metadata: 
  title: Introduction to Power BI for Tableau users
- description: The purpose of this module is to help Tableau analysts make the leap from Tableau to Power BI.
+ description: The purpose of this module is to help Tableau analysts switch from Tableau to Microsoft Power BI.
  ms.date: 03/31/2021  
  author: heyrob  
  ms.author: robde  
@@ -11,16 +11,16 @@ metadata:
 title: Introduction to Power BI for Tableau users
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The purpose of this module is to help Tableau analysts make the leap from Tableau to Power BI.
+  The purpose of this module is to help Tableau analysts switch from Tableau to Microsoft Power BI.
 abstract: |  
     In this module, you will: 
-    - Walk through the Power BI Desktop interface.
-    - Connect to your data in Power BI Desktop using the DirectQuery and Import methods.
-    - Understand the importance of relationships in your Power BI data models.
+    - Explore the Power BI Desktop interface.
+    - Connect to your data in Power BI Desktop by using the DirectQuery and Import methods.
+    - Learn about the importance of relationships in your Power BI data models.
     - Build a visualization in Power BI Desktop.
     - Apply conditional formatting to help analysts detect critical issues and identify patterns in data.
-    - Identify differences and similarities between Tableau and Power BI concepts.
-prerequisites: Access to Power BI service; familiarity with Tableau; and an understanding of key Tableau concepts such as connecting to data, building visualizations, and extracts vs. live connections.
+    - Discover differences and similarities between Tableau and Power BI concepts.
+prerequisites: Access to Power BI service, familiarity with Tableau, and an understanding of key Tableau concepts such as connecting to data, building visualizations, and knowing the difference between extracts versus live connections
 iconUrl: /learn/achievements/power-bi-tableau-intro.svg  
 levels:  
 - beginner
