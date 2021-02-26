@@ -13,7 +13,7 @@ From within **Full Screen Mode**, you can select **Fit to Screen** to shrink all
 
 ![Screenshot of the "Fit to Width" button.](../media/09-power-bi-fit-to-width.png)
 
-You can also collapse the navigation pane on the left-hand side of the page by selecting the hamburger icon. To expand the navigation pane, select the icon again.
+You can also collapse the navigation pane on the left-hand side of the page by selecting the three lines in the upper left corner. To expand the navigation pane, select the icon again.
 
 ![Screenshot of the left navigation pane collapsed and expanded.](../media/09-power-bi-collapse-menu.png)
 
