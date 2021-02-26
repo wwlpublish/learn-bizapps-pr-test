@@ -1,4 +1,4 @@
-With the Power BI Analytics pane, you can add dynamic reference lines, such as the min line, max line, and average line. The analytics pane also forecasts your data and gives you the control on how the forecast is conducted. One main difference is the option for symmetry shading, which allows for data driven background shading of scatter plots. This is helpful if you intend to truncate an axis but want to call it out to the end user.
+With the **Analytics** pane in Power BI, you can add dynamic reference lines, such as the min line, max line, and average line. The **Analytics** pane also forecasts your data and gives you control over how the forecast is conducted. One main difference is the option for symmetry shading, which allows for data-driven background shading of scatter plots. This feature is helpful if you intend to truncate an axis but want to call the user's attention to it.
 
 > [!div class="mx-imgBorder"]
-> [![The Power BI Analytics pane is similar to the analytics pane in Tableau.](../media/analytics-pane-vs-analytics-pane.png)](../media/analytics-pane-vs-analytics-pane.png#lightbox)
+> [![The Analytics pane in Power BI is similar to the Analytics pane in Tableau.](../media/analytics-pane-vs-analytics-pane.png)](../media/analytics-pane-vs-analytics-pane.png#lightbox)
