@@ -62,4 +62,7 @@ In this exercise you will use multiple controls mentioned in the previous units 
 	
 	![Screenshot of app screen with example data.](../media/exercise-3.png)
 
-As you change the slider you should see check marks appear and disappear per item in the gallery since you set the visibility to change depending on the slider control. Essentially, you made a gallery that shows whether a city's population is greater or not than the slider value. 
+As you change the slider you should see check marks appear and disappear per item in the gallery since you set the visibility to change depending on the slider control. Essentially, you made a gallery that shows whether a city's population is greater or not than the slider value. Here is a video of all the controls in action.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyuWD]
+
