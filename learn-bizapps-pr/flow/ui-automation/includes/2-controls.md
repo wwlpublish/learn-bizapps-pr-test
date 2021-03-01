@@ -4,12 +4,12 @@ To interact with UI items, WinAutomation must first identify them. To do so with
 
 When creating a process, you can add a control by selecting the **Add Control** button in the **Controls Repository**, as shown in the following screenshot.
 
-![Add Control button](../media/add-control-button.png)
+![Screenshot of the Process Designer with the Add Control button highlighted.](../media/add-control-button.png)
 
 Alternatively, when you are configuring a UI/Windows action, select the **Select Control from Repository** option and then select the **Add Control** button.
 
-![Add control through a UI action](../media/add-control-through-ui-action.png)
+![Screenshot of the Focus Window action properties with Select control from repository and Add control highlighted.](../media/add-control-through-ui-action.png)
 
 To capture a control, highlight it and then select **Ctrl + left-click**.
 
-![Capturing a UI control](../media/capturing-a-ui-control.png)
+![Screenshot of Capturing a UI control in Contoso Invoicing.](../media/capturing-a-ui-control.png)
