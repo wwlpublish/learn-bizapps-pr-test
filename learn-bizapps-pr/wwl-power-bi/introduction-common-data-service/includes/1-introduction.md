@@ -6,5 +6,5 @@ In this module, you will:
 
 - Describe the difference between Dataverse and Common Data Model
 
-- Explain use cases and limitations of business rules and process flows
+- Explain use cases and limitations of business rules and process flows 
 

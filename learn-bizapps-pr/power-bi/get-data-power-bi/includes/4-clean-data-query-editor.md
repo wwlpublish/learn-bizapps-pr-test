@@ -7,14 +7,14 @@ In this unit, you will transform data with Power Query Editor.
 &nbsp;
 
 **Video**: Transform data
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3x9uw]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3x9uw]
 
 > [!NOTE]
 > To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this <a href="https://go.microsoft.com/fwlink/?linkid=2131277" target="_blank">**article**</a>.
 
 ### Launch Power Query Editor
 
-To begin, select **Edit** from the **Navigator** window to launch Power Query Editor. You can also launch Power Query Editor directly from Power BI Desktop by using the **Edit Queries** button on the Home ribbon.
+To begin, select **Transform** from the **Navigator** window to launch Power Query Editor. You can also launch Power Query Editor directly from Power BI Desktop by using the **Transform data** button on the Home ribbon.
 
 ![The Edit Queries button the Home tab.](../media/03-power-bi-desktop-edit-queries.png)
 

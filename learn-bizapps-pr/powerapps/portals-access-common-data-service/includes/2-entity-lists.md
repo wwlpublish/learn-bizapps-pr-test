@@ -5,7 +5,7 @@ The **Entity Lists** component allows a maker to display a list of Microsoft Dat
 An entity list can be added as a component to a webpage in Power Apps portals Studio. After placing the list component on a page, the maker will need to set the properties of the entity list. Then, the maker will choose the entity and one or more model-driven views to be used to render the entity list on the page.
 
 > [!div class="mx-imgBorder"]
-> [![Adding entity list in Portal Studio](../media/2-entity-list-portal-studio-ss.png)](../media/2-entity-list-portal-studio-ss.png#lightbox)
+> [![Screenshot of entity list in Portal Studio.](../media/2-entity-list-portal-studio-ss.png)](../media/2-entity-list-portal-studio-ss.png#lightbox)
 
 ### List rendering
 
@@ -31,14 +31,14 @@ Power Apps portals Studio provides a basic interface for creating and configurin
 1. Open the list that you previously created in portals Studio.
 
     > [!div class="mx-imgBorder"]
-    > [![List Portal app](../media/2-list-portal-app-ssm.png)](../media/2-list-portal-app-ssm.png#lightbox)
+    > [![Screenshot of the Entity List in Portal Management.](../media/2-list-portal-app-ssm.png)](../media/2-list-portal-app-ssm.png#lightbox)
 
 An entity list can be as simple or as complicated as your business requirements specify. The only required properties for the entity list, other than the name and the website, are the target **Entity Name** and one or more **Views**. 
 
 Entity lists are highly configurable and have many settings that define the list behavior. Lists can also include actions for the user to interact with the items on the list.
 
 > [!div class="mx-imgBorder"]
-> [![Entity List structure](../media/2-entity-list-overview-c.png)](../media/2-entity-list-overview-c.png#lightbox)
+> [![Diagram of Entity List structure and overview.](../media/2-entity-list-overview-c.png)](../media/2-entity-list-overview-c.png#lightbox)
 
 The following sections explain some of the most common features and settings. 
 
@@ -54,7 +54,7 @@ Selected view(s) define the Dataverse entity fields, list layout, and the defaul
 **Sorting and pagination** - Sorting is enabled on any of the displayed columns and the page size is configurable.
 
 > [!div class="mx-imgBorder"]
-> [![Entity list features](../media/2-entity-list-features-ssm.png)](../media/2-entity-list-features-ssm.png#lightbox)
+> [![Screenshot of the Entitlement Contacts view and features.](../media/2-entity-list-features-ssm.png)](../media/2-entity-list-features-ssm.png#lightbox)
 
 > [!NOTE]
 > Entity lists include the **Web Page for Details View** and **Web Page for Create** general properties. These properties are for backward compatibility only. The functionality is included as part of the **View Actions** and **Item Actions** grid configuration.
@@ -80,14 +80,14 @@ If the current portal user and current portal user's parent account filters are 
 **Metadata filters** - Records in the list can be filtered on any of the list columns, including ranges, lookups, option sets, and custom FetchXML expressions. Portal users have access to an interactive filtering panel when the entity list is rendered.
 
 > [!div class="mx-imgBorder"]
-> [![Entity list search and filtering](../media/2-entity-list-features-filtering-ssm.png)](../media/2-entity-list-features-filtering-ssm.png#lightbox)
+> [![Screenshot of the Entity list search and filtering.](../media/2-entity-list-features-filtering-ssm.png)](../media/2-entity-list-features-filtering-ssm.png#lightbox)
 
 #### Display options
 
 Views can be rendered as traditional grid lists, a calendar, or a map. Delivering list content as an OData feed is also supported. 
 
 > [!div class="mx-imgBorder"]
-> [![Entity list rendered as map and calendar](../media/2-entity-list-map-calendar-ss.png)](../media/2-entity-list-map-calendar-ss.png#lightbox)
+> [![Screenshot of the Entity list rendered as a map and calendar.](../media/2-entity-list-map-calendar-ss.png)](../media/2-entity-list-map-calendar-ss.png#lightbox)
 
 Alternative views might require some additional configuration such as start and end date fields for a calendar or latitude and longitude fields for a map.
 
@@ -99,7 +99,7 @@ Alternative views might require some additional configuration such as start and 
 Entity lists can have actions associated with them to enable per list commands, like Create and Download (as a Microsoft Excel spreadsheet), or per record commands like View or Edit, and to trigger workflows.
 
 > [!div class="mx-imgBorder"]
-> [![Entity list commands](../media/2-entity-list-features-commands-ssm.png)](../media/2-entity-list-features-commands-ssm.png#lightbox)
+> [![Screenshot of Entity list commands and views.](../media/2-entity-list-features-commands-ssm.png)](../media/2-entity-list-features-commands-ssm.png#lightbox)
 
 For more information, see [About entity lists](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).
 
@@ -108,4 +108,3 @@ Watch the following video to learn how to configure and display the view on a po
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ArhG]
 
 Now that you've observed how the entity lists are built and rendered, you can learn how portals can display and interact with individual records.
-

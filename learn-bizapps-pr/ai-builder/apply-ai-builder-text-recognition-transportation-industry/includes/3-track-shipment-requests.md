@@ -10,19 +10,19 @@ Enter Contoso Container Tracking as name then click on Done.
 
 To use the entity that we have created in previous unit we need to reference it. Select "Entities" in the Right Pane and check Container Shipment, a new entry will be added in the left view.
 
-![New entry](../media/image4.png)
+![The entity view shows a Container Shipment to the left.](../media/image4.png)
 
 ## Enter new shipment requests
 
 To enter new container shipment requests, we need to create an entry form (See [Create or edit a model-driven app main form for an entity](https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-main-forms)). Edit the data entry form by selecting the "Forms" button in the left view and edit button on the "Information" main form in the right pane.
 
-![Edit the data entry form](../media/image5.png)
+![On the Components tab, under Main Forms, Information is selected.](../media/image5.png)
 
 ## Define fields
 
 We now need to the define the fields that will be provided by the user. On the opened window, add the following fields to the form using drag and drop from left pane: "Origin", "Destination", "Is Fragile", "Price", "Account" and "Weight".
 
-![New container shipment fields](../media/image6.png)
+![New Container Shipment form with fields added, and the Fields list to the left showing only unused fields.](../media/image6.png)
 
 Save and close the window.
 
@@ -32,7 +32,7 @@ To track shipment progress, we need a view of all containers with their informat
 
 Click on "Views" in the left view and "Create New" button on the left pane.
 
-![Set up shipment tracking](../media/image7.png)
+![On the Components tab, next to Select Views is the Create New button.](../media/image7.png)
 
 ## Define information to display
 
@@ -40,9 +40,9 @@ We will now define which information will be displayed on this view. Click on "C
 
 Click on "Column Attributes" for "Related Entity" and add the "Account Name".
 
-Name your view as Container List, save and publish.
+Name your view Containers List, save and publish.
 
-![Container list view](../media/image8.png)
+![The Containers List view shows a number of columns, including Name, Origin, Destination, etc.](../media/image8.png)
 
 On the component view, uncheck "All" and check Container List.
 
@@ -58,7 +58,7 @@ Click on the "Sub Area" in the left view, select "Entity" and "Container Shipmen
 
 Save and publish.
 
-![Save and publish](../media/image9.png)
+![Under Container tracking is a link for All containers, and Container Shipments.](../media/image9.png)
 
 ## Summary
 

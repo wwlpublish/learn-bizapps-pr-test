@@ -15,7 +15,7 @@ you to use when creating your button flows.
 
 | Parameter        | Description                                                                     |
 |------------------|---------------------------------------------------------------------------------|
-| City             | The city in which the device that's running the flow is located.                |
+| City             | The city in which the device that's running the flow is located.               |
 | Country / Region | The country/region in which the device that's running the flow is located.      |
 | Full address     | The full address where the device that's running the flow is located.           |
 | Latitude         | The latitude in which the device that's running the flow is located.            |
@@ -33,10 +33,10 @@ Triggers can be added to both actions and conditions.
 Consider a **Send an email (V2)** action where you have the option to
 apply any of the parameters from the preceding table in the body of the email message.
 
-![Send email action](../media/send-email-action.png)
+![Screenshot of the Send an email action with Dynamic content showing fields like City, Date, and Full address.](../media/send-email-action.png)
 
 You can also apply the trigger in a condition on the left and right side.
 
-![Left side trigger condition](../media/left-side-trigger-condition.png)
+![Screenshot of the Left side trigger condition, If yes.](../media/left-side-trigger-condition.png)
 
-![Right side trigger condition](../media/right-side-trigger-condition.png)
+![Screenshot of the Right side trigger condition, If no.](../media/right-side-trigger-condition.png)

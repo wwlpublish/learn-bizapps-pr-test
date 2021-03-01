@@ -9,11 +9,11 @@ By going through a simple design process, you can flush out any minor issues bef
 
 Here is a quick look at the App Designer for an example Model-driven app called “Fundraiser.”
 
-![Model driven app layout in studio.](../media/app-designer-fundraiser-example.png)
+![Screenshot of a model-driven app layout in studio.](../media/app-designer-fundraiser-example.png)
 
 When the app is put into Play Mode, it looks completely different.
 
-![Model driven app in play mode.](../media/fundraiser-app-in-play-mode.png)
+![Screenshot of a model-driven app in play mode.](../media/fundraiser-app-in-play-mode.png)
 
 ## Understand the needs of the user
 
@@ -42,11 +42,11 @@ These questions are important when designing a model-driven application because 
 
 You can view the app metadata by reviewing the Entity in the Dataverse.
 
-![Example of metadata.](../media/metadata-example.png)
+![Screenshot of app metadata of entity in the Dataverse.](../media/metadata-example.png)
 
 You can also view the app metadata by putting the app in Play mode.
 
-![Example of app in play mode.](../media/play-app-metadata-example.png)
+![Screenshot of app metadata in play mode.](../media/play-app-metadata-example.png)
 
 In the example above, for the Fundraiser Entity, there are several pieces of metadata being collected, such as:
 
@@ -63,7 +63,7 @@ As you think about your data model also think about field types. When adding fie
 > [!NOTE]
 > If a field type needs to be changed to a different field type, (i.e. text field to an option set), then you will need to delete that field and recreate with the correct field type. This will cause you to lose any data associated with that field.
 
-![Fundraiser entity default fields](../media/entity-field-types.png)
+![Screenshot of fundraiser entity default fields.](../media/entity-field-types.png)
 
 ### User Interface (UI) and User Experience (UX)
 
@@ -74,7 +74,7 @@ To continue building off of the example we’ve been using throughout this modul
  
 Here is an example of what the New Fundraiser form looks like when editing from the App Designer.
 
-![Fundraiser form.](../media/new-fundraiser-form.png)
+![Screenshot example of New Fundraiser form.](../media/new-fundraiser-form.png)
 
 ### Business Logic
 
@@ -88,7 +88,7 @@ With **Business Rules,** you will define behaviors at the data layer. This is gr
 
 A common output need for apps is to visualize the data.  For this requirement, you can implement Dashboards with custom filters and visual graphics to tie all of this data together right in your app. When creating your Dashboards, make sure it’s simple for your users to consume without overwhelming them with all the data. Provide high-level snapshots of your data and allow them to use filters to dive deeper into the data if needed. 
 
-![Fundraiser app in play mode.](../media/fundraiser-app-in-play-mode.png)
+![Screenshot of Fundraiser app in play mode to visualize data.](../media/fundraiser-app-in-play-mode.png)
 
 ### Additional third-party solutions and app accelerators
 

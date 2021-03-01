@@ -3,7 +3,7 @@ uid: learn-bizapps.wwl.introduction-power-platform
 metadata:
   title: Introduction to Power Platform
   description: "Introduction to Power Platform"
-  ms.date: 12/10/2020
+  ms.date: 02/10/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -28,6 +28,7 @@ products:
 - power-apps
 - power-automate
 - power-bi
+- power-platform
 units:
 - learn-bizapps.wwl.introduction-power-platform.introduction
 - learn-bizapps.wwl.introduction-power-platform.power-platform

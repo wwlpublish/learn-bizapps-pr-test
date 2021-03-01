@@ -8,12 +8,12 @@ Take a moment and create two blank Canvas apps. For one of the apps use the Phon
 
 **Phone form factor**
 
-![Phone Form Factor](../media/PhoneFormFactor.png)
+![Screenshot of a blank Canvas app for Phone Form Factor.](../media/PhoneFormFactor.png)
 
 
 **Tablet form factor**
 
-![Tablet Form Factor](../media/TabletFormFactor.png)
+![Screenshot of a blank Canvas app for Tablet Form Factor.](../media/TabletFormFactor.png)
 
 Depending on the form factor that you choose, you have the ability to alter the screen size. To view the current screen size and orientation, for either form factor, see following steps.
 

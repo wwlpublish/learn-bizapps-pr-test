@@ -9,17 +9,17 @@ The **Help desk** application that is included in the portal templates contains 
 - **Entity forms** - Enable users to create a new case or edit an existing case. These forms use model-driven forms that are defined in a Dataverse instance with the Dynamics 365 Service app.
 
    > [!div class="mx-imgBorder"]
-   > [![Case entity forms](../media/case-entity-forms.png)](../media/case-entity-forms.png#lightbox)
+   > [![Screenshot of the Active entity forms list.](../media/case-entity-forms.png)](../media/case-entity-forms.png#lightbox)
 
 - **Entity list** - Contains actions that are linked to entity forms.
 
    > [!div class="mx-imgBorder"]
-   > [![Case entity lists](../media/case-entity-list.png)](../media/case-entity-list.png#lightbox)
+   > [![Screenshot of the Case entity list with open new case pop out.](../media/case-entity-list.png)](../media/case-entity-list.png#lightbox)
 
 - **Entity form** - Used for editing a case and also contains metadata to help refine the display of some fields and enable the **Timeline** subgrid for comments. The entity list includes case-specific actions such as **Close case**.
 
    > [!div class="mx-imgBorder"]
-   > [![Case form explained](../media/case-form-explained.png)](../media/case-form-explained.png#lightbox)
+   > [![Screenshot of the edit case form feature and update, close, or cancel options.](../media/case-form-explained.png)](../media/case-form-explained.png#lightbox)
 
 This entity list is related to the **Customer Service – Home** webpage and portal, where users are presented with a complete application in a user-friendly format.
 

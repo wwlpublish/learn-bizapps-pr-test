@@ -6,30 +6,30 @@ Linda receives a transport request from Fabrikam, Inc for container to be shippe
 
 She enters all the information using the data entry form and saves.
 
-![New container shipment](../media/image14.png)
+![New Container Shipment form on the General tab filled in with a Save button at the top.](../media/image14.png)
 
 She can now see this new container, which is waiting to be shipped.
 
-![Containers list](../media/image15.png)
+![The new container appears in the Containers List.](../media/image15.png)
 
 John, the docker worker from San Francisco, has managed to carry the container on a boat and uses the "Contoso Container Check-in" application to update the status. He takes a picture of the container, selects the text with the container identifier, and updates the shipment date.
 
->[!NOTE] 
+>[!NOTE]
 >AI Builder text recognizer also supports uploading a picture from local device.
 
-![Container check-in and Update Shipping screens](../media/image16.PNG)
+![Container Check-in and Update shipping screens appear side by side.](../media/image16.PNG)
 
 Linda can now see that the container is on his way to Delhi in "Contoso Container Tracking" application.
 
-![Container tracking application](../media/image17.png)
+![Container tracking application shows the shipment with a Delivery State of In Transit.](../media/image17.png)
 
 After 20 days of travel, Chanda, the docker worker from Delhi, receives and unloads the container from the boat. She uses the "Contoso Container Check-in" application to update the status. She takes a picture of the container, selects the text with the container identifier, and updates the arrival date.
 
-![Update Shipping screen](../media/image18.png)
+![Update shipping screen shows the Arrival Date updated.](../media/image18.png)
 
 Linda can now see that the container has been delivered to Delhi and can inform her customer.
 
-![Containers list](../media/image19.png)
+![Container tracking application shows the shipment with a Delivery State of Delivered.](../media/image19.png)
 
 ## Summary
 

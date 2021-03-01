@@ -3,7 +3,7 @@ Entity Forms add the ability for portal pages to interact with records in a spec
 Entity forms can display most field types and subgrids but, currently, they can't display Power Apps Component Framework controls.
 
 > [!div class="mx-imgBorder"]
-> [![Entity Form](../media/3-entity-form-ss.png)](../media/3-entity-form-ss.png#lightbox)
+> [![Screenshot of the Entity Form with General data.](../media/3-entity-form-ss.png)](../media/3-entity-form-ss.png#lightbox)
 
 ## Common uses
 
@@ -23,7 +23,7 @@ When creating a new entity form, your first step is to decide the **Entity** and
 While reuse of forms that are part of a model-driven app is possible, the common practice is to design portal-specific model-driven forms (that might or might not be included in the model-driven apps). 
 
 > [!div class="mx-imgBorder"]
-> [![Entity Form in Portal Studio](../media/3-create-entity-form-ss.png)](../media/3-create-entity-form-ss.png#lightbox)
+> [![Screenshot of the Entity Form in Portal Studio.](../media/3-create-entity-form-ss.png)](../media/3-create-entity-form-ss.png#lightbox)
 
 - Portal forms are more concise with less information presented, especially when external audiences are involved.
 - Portal processes are separate from the internal use of a staff-facing, model-driven app (including Dynamics 365 apps). Dedicated portal forms are easier to maintain because any changes in the model-driven apps need to be manually applied to the portal forms, giving you an opportunity to review the requirements and assess usability aspects.
@@ -51,7 +51,7 @@ If the mode is **Insert**, no additional information is required. For **Read Onl
 Additional configuration options to control form appearance and behavior are available within portals Studio.
 
 > [!div class="mx-imgBorder"]
-> [![Entity Form configuration](../media/3-entity-form-settings-ssm.png)](../media/3-entity-form-settings-ssm.png#lightbox)
+> [![Screenshot of the Entity Form configuration with Form success settings.](../media/3-entity-form-settings-ssm.png)](../media/3-entity-form-settings-ssm.png#lightbox)
 
 ### Form success settings
 
@@ -76,12 +76,12 @@ Additional configuration settings are available for entity forms in the Portal M
 1. Open the form that you previously created in portals Studio.
 
 > [!div class="mx-imgBorder"]
-> [![Entity Form Portal Management app](../media/3-entity-form-metadata-ss.png)](../media/3-entity-form-metadata-ss.png#lightbox)
+> [![Screenshot of the Entity Form Portal Management metadata.](../media/3-entity-form-metadata-ss.png)](../media/3-entity-form-metadata-ss.png#lightbox)
 
 Forms can include **Actions** for the user to interact with the record. Detailed configurations for each form element are available by using additional **Entity Form Metadata** records.
 
 > [!div class="mx-imgBorder"]
-> [![Entity form structure](../media/3-entity-form-overview-c.png)](../media/3-entity-form-overview-c.png#lightbox)
+> [![Diagram of the Entity form structure and overview.](../media/3-entity-form-overview-c.png)](../media/3-entity-form-overview-c.png#lightbox)
 
 ### Configuration
 
@@ -109,7 +109,7 @@ Additional settings define other aspects of form behavior, such as styling, tran
 The form's map control requires additional configuration to tell it what the various location fields are, to assign values to them, or retrieve values from them. For more information, see [Geolocation configuration for entity forms](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms.md?azure-portal=true#geolocation-configuration-for-entity-forms).
 
 > [!div class="mx-imgBorder"]
-> [![Entity form with geolocation enabled](../media/3-entity-form-geolocation-ss.png)](../media/3-entity-form-geolocation-ss.png#lightbox)
+> [![Screenshot of the Entity form with geolocation enabled.](../media/3-entity-form-geolocation-ss.png)](../media/3-entity-form-geolocation-ss.png#lightbox)
 
 #### Entity reference
 
@@ -143,11 +143,10 @@ An entity form defines the required behavior but does not contain information ab
 ```
 
 > [!div class="mx-imgBorder"]
-> [![Entity form to render](../media/3-entity-form-liquid-tag-ssm.png)](../media/3-entity-form-liquid-tag-ssm.png#lightbox)
+> [![Screenshot of the Entity form code editor liquid tag.](../media/3-entity-form-liquid-tag-ssm.png)](../media/3-entity-form-liquid-tag-ssm.png#lightbox)
 
 Because forms can submit information back to the server for processing, you will have less control over the rendering of entity forms as compared to the entity lists.
 
 The following video shows how to extend entity list functionality with entity forms and display a Dataverse record in a pop-up window or on a separate webpage.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AjtN]
-

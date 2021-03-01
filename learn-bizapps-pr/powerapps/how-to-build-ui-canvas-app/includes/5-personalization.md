@@ -27,4 +27,4 @@ Here’s an example of how to add a user's profile picture, email, and name to y
 
 7.  Move the label so it's below the first label:
 
-![User Profile](../media/UserProfile.png)
+![Screenshot of a User Profile with picture, email, and name.](../media/UserProfile.png)

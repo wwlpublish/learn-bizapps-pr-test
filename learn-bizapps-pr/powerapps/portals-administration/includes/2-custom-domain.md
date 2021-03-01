@@ -31,7 +31,7 @@ The specific domain name will need to have a CNAME record that is set up in DNS 
 The final step is to bind the custom domain and the SSL certificate. Visitors should now be able to browse to the portal by using the custom URL.
 
 > [!div class="mx-imgBorder"]
-> [![SSL binding](../media/binding.png)](../media/binding.png#lightbox)
+> [![Screenshot of the Add SSL binding window.](../media/binding.png)](../media/binding.png#lightbox)
 
 > [!NOTE]
 > If you want to change your existing custom domain name, upload a new SSL certificate and follow the preceding steps.

@@ -271,7 +271,7 @@ In this task, you will update multiple columns in a single bulk update. You will
 	
 	-   Targets | EmployeeID
 
-1. In the **Properties** pane, slide the **Is Hidden** property to **On**.
+1. In the **Properties** pane, set the **Is Hidden** property to **Yes**.
 
 	> *The columns were hidden because they are either used by relationships or calculation logic.*
 

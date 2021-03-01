@@ -143,8 +143,10 @@ Follow these steps to add entity permissions:
 Your final task is to test your new template:
 
 1. Switch to portals Studio.
-2. Select **Browse website**. Note: This command rebuilds the site cache. A simple browser page refresh will not be sufficient to update the data.
+2. Select **Browse website**.
+
+This command rebuilds the site cache. A simple browser page refresh will not be sufficient to update the data.
 
 The page should now be displayed and include the list of accounts.
 
-   ![Build directory template block](../media/build-template.png)
+   ![Site cache rebuilt with page displayed and list of accounts.](../media/build-template.png)

@@ -6,15 +6,10 @@ In this unit, you will combine data from different sources by using Query Editor
 
 &nbsp;
 
-**Video**: Modeling and transforming data
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3wTTj]
-
-> [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Database > Access database**). The **FactData1** folder is <a href="https://go.microsoft.com/fwlink/?linkid=2124018" target="_blank">**here**</a>. If you have any issues loading the Access database, please read this <a href="https://go.microsoft.com/fwlink/?linkid=2131277" target="_blank">**article**</a>.
 
 ## Add more data sources
 
-To add more sources to an existing report, from the Home ribbon, select **Edit Queries** and then select **New Source**. You can use many potential data sources in Power BI Desktop, including folders. By connecting to a folder, you can import data from multiple Excel or CSV files at once. 
+To add more sources to an existing report, from the Home ribbon, select **Transform data** and then select **New Source**. You can use many potential data sources in Power BI Desktop, including folders. By connecting to a folder, you can import data from multiple Excel or CSV files at once. 
 
 Power Query Editor allows you to apply filters to your data. For example, selecting the drop-down arrow next to a column opens a checklist of text filters. Clearing a filter allows you to remove values from your model before the data is loaded into Power BI.
 

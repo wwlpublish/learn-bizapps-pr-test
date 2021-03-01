@@ -1,7 +1,7 @@
-In this unit, you'll create a table and then customize key components, like tables, relationships, views, and forms. You'll learn how to:
+In this unit, you'll create a table and then customize key components, like columns, relationships, views, and forms. You'll learn how to:
 
 - Create a custom table.
-- Add custom tables to your table.
+- Add custom columns to your table.
 - Add a table relationship.
 - Customize a view.
 - Customize a form.
@@ -24,7 +24,7 @@ Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to cr
 
 4. At the bottom, click **Create**.
 
-You will notice in our example, the new table and primary field begins with **cree0_**. Additional tables created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
+You will notice in our example, the new table and primary field begins with **cree0_**. Additional columns created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
 
 ## Add and customize columns
 
@@ -45,7 +45,7 @@ You will notice in our example, the new table and primary field begins with **cr
     4. Select **Save**.
 
     > [!div class="mx-imgBorder"]
-    > ![New option set](../media/updated-optionset-add-items.png)
+    > ![Screenshot of the column properties pane with details entered.](../media/updated-optionset-add-items.png)
 
 5. Make sure **Searchable** is selected, and then select **Done**.
 6. On the table designer toolbar, select **Add column**.
@@ -71,10 +71,10 @@ You will notice in our example, the new table and primary field begins with **cr
 3. Select **Done**.
 4. Select **Save table**.
 
-    Notice that when you add a many-to-one relationship, an **Account** field of the **Lookup** data type is automatically added to your list of tables on the **Tables** tab.
+    Notice that when you add a many-to-one relationship, an **Account** field of the **Lookup** data type is automatically added to your list of columns on the **Columns** tab.
 
     > [!div class="mx-imgBorder"]
-    > ![Account lookup field](../media/updated-account-lookup-field.png)
+    > ![Screenshot of the Account field of the lookup data type automatically added.](../media/updated-account-lookup-field.png)
 
 ## Customize a view
 
@@ -90,7 +90,7 @@ You will notice in our example, the new table and primary field begins with **cr
 4. To arrange the columns, select the column to move, and then select **Move Left** or **Move Right** until your view looks like this. You could also simply drag and drop the columns to arrange the order as well.
 
     > [!div class="mx-imgBorder"]
-    > ![Active pets view](../media/updated-active-pets-view.png)
+    > ![Screenshot of the Account drop-down with Move Left and Move Right options highlighted.](../media/updated-active-pets-view.png)
 
 5. On the view designer toolbar, select **Save**.
 6. Select **Publish**.
@@ -101,13 +101,13 @@ You will notice in our example, the new table and primary field begins with **cr
 1. On the **Forms** tab, select **Information** next to the **Main** form type to open the form editor.
 
     > [!div class="mx-imgBorder"]
-    > ![Edit main form](../media/updated-main-form-edit.png)
+    > ![Screenshot of the Form tab with Information highlighted.](../media/updated-main-form-edit.png)
 
-4. In the form editor, drag the **Species**, **Breed**, **Appointment date**, and **Account** tables from the **Field Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
+1. In the form editor, drag the **Species**, **Breed**, **Appointment date**, and **Account** columns from the **Field Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
 
     > [!div class="mx-imgBorder"]
-    > ![Select tables for main form](../media/updated-main-form-edit2.png)
+    > ![Screenshot of General section of the form canvas.](../media/updated-main-form-edit2.png)
 
-5. Select **Save**.
-6. Select **Publish**.
-7. Click the back arrow in your browser to close the form designer.
+1. Select **Save**.
+1. Select **Publish**.
+1. Click the back arrow in your browser to close the form designer.

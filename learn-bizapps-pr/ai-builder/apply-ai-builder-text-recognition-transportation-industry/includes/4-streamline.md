@@ -8,7 +8,7 @@ Use "Create" in Power Apps left menu and then "Canvas app from blank", name it C
 
 Let's enable John and Chandra to take a picture of a container and automatically retrieve the container identifiers. From "Insert" menu and "AI Builder" bar choose "Text Recognizer". This is the control that will allow to take or upload a picture and automatically recognize the container identifier.
 
-![Choose Text Recognizer](../media/image10.png)
+![The A I Builder menu is expanded to reveal Business card reader, Form processor, Object detector, and Text recognizer options.](../media/image10.png)
 
 Resize the control to fit in the screen and insert on the top a label editing the "Text" property to "Container Check-in" with blue background and white text centered.
 
@@ -18,7 +18,7 @@ We need to provide feedback to the user on what has been recognized. Selected In
 
 Aside insert a text Input and change the "Default" property to TextRecognizer1.SelectedText.
 
->[!NOTE] 
+>[!NOTE]
 >You can retrieve all the texts recognized with TextRecognizer1.OcrObjects and bind it to a table.
 
 This will display the text manually selected by the user from the list of texts recognized by AI Builder.
@@ -27,34 +27,35 @@ Eventually, the user needs a button to see details on this container and enter t
 
 ## Insert a button
 
--   Change the "Text" property to "Submit"
--   Change "Fill" property to blue
--   Change "Align" property to Center
--   To navigate to next screen when the user clicks on submit, change "OnSelect" to Navigate(Screen2). (You will get an error until we create the next screen)
+- Change the "Text" property to "Submit"
+- Change "Fill" property to blue
+- Change "Align" property to Center
+- To navigate to next screen when the user clicks on submit, change "OnSelect" to Navigate(Screen2). (You will get an error until we create the next screen)
 
 You should see this:
 
-![Container check-in screen](../media/image11.png)
+![Container check-in screen has Scan and Submit buttons and a Selected Container field.](../media/image11.png)
 
 ## Streamline work
 
 To streamline the work of the front line worker minimizing information requested, we will provide a guided experience that allows the user to update the entity data but ask him only the information relevant at this stage of the shipment. Insert a new Form Screen (See [Add a screen to a canvas app and navigate between screens](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-screen-context-variables))
 
-![New Form screen](../media/image12.png)
+![New Form screen offers Blank, Scrollable, List, Form, Success, and Tutorial options.](../media/image12.png)
 
 Change the title "Text" property to "Update shipping."
 
 Edit the EditForm1 (See [Show, edit, or add a record in a canvas app](https://docs.microsoft.com/powerapps/maker/canvas-apps/add-form))
 
--  To bind the edit form to the entity previously created, Click on connect to data on the view and select 'Container Shipments' on the left pane**
+- To bind the edit form to the entity previously created, Click on connect to data on the view and select 'Container Shipments' on the left pane**
 
-    -   Change the property "DataSource" to 'Container Shipments'
+- Change the property "DataSource" to 'Container Shipments'
 
 ### Enter the fields that will be displayed in the form
 
 In the right pane, click on "Edit Fields" and add "Origin," "Shipping Date," "Destination," "Arrival Date," "Is Fragile," and "Delivery State," and remove "Created On."
 
 ### Provide a guided experience
+
 We need to show only and allow change only on relevant fields depending on the state of shipment. In this case, the user will change the "Shipping Date" when shipping the container and "Arrival Date" when receiving the container, other fields will be hidden on not updatable.** Change the "DisplayMode" of "Name", "Origin", "Destination", "Is Fragile" and "Delivery State" to View.
 
 ## Display the proper container information
@@ -63,24 +64,24 @@ Retrieve the one corresponding to the text previously selected by the user.** Th
 
 The screen will behave differently depending on the state of the container. When it is waiting to be shipped, the user will be able to change the "Shipping Date" and when receiving it the "Arrival Date".
 
-Edit "Shipping Date\_DataCard1" (unlock the properties on the left pane, see [Unlock and customize a card](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-card#unlock-and-customize-a-card))
+Edit "Shipping Date\_DataCard1" (unlock the properties on the left pane, see [Unlock and customize a card](https://docs.microsoft.com/powerapps/maker/canvas-apps/customize-card#unlock-and-customize-a-card)).
 
--   To force the user filling the shipment date, change the "Required" property to True
+- To force the user filling the shipment date, change the "Required" property to True
 
--   The user shouldn't change the shipping date after shipment. Let's make it editable only when it is waiting to be shipped then.
+- The user shouldn't change the shipping date after shipment. Let's make it editable only when it is waiting to be shipped then.
     You can achieve this by changing the "DisplayMode" property to:
-    
-    ``` If(ThisItem.'Delivery State' <> ContainerStates.Waiting, DisplayMode.View, DisplayMode.Edit)```
+
+    ```If(ThisItem.'Delivery State' <> ContainerStates.Waiting, DisplayMode.View, DisplayMode.Edit)```
 
 Edit "Arrival Date\_DataCard1" (unlock the properties on the left pane)
 
--   The arrival data is relevant only when container is being received or delivered, so we should show it only in this case. Change the "Visible" property to ThisItem.\'Delivery State\'\<\> ContainerStates.Waiting
+- The arrival data is relevant only when container is being received or delivered, so we should show it only in this case. Change the "Visible" property to ThisItem.\'Delivery State\'\<\> ContainerStates.Waiting
 
--   To enforce the user filling the shipment date when receiving the container**, change the "Required" property to:
+- To enforce the user filling the shipment date when receiving the container**, change the "Required" property to:
 
     ```ThisItem.'Delivery State'<> ContainerStates.Waiting```
 
--   This arrival date should be changed once when container is being received otherwise it should be just displayed. Change the "DisplayMode" property to:
+- This arrival date should be changed once when container is being received otherwise it should be just displayed. Change the "DisplayMode" property to:
 
     ```If(ThisItem.'Delivery State'= ContainerStates.Delivered,DisplayMode.View, DisplayMode.Edit)```
 
@@ -88,11 +89,11 @@ We now need to build the logic to update the state when the user is submitting t
 
 ```Edit "IconAccept1"```
 
--   To change the state to In Transit when the container is being shipped and delivered when being received and submitting changes, change the "OnSelect" property to
+- To change the state to In Transit when the container is being shipped and delivered when being received and submitting changes, change the "OnSelect" property to
 
     ```If(First(Filter('Container Shipments', Name = TextInput1.Text)).'Delivery State'= ContainerStates.Waiting, Set(valState, ContainerStates.'In Transit'), Set(valState, ContainerStates.Delivered));SubmitForm(EditForm1);```
 
--   To not display the submitting button when the container has been already delivered, change the "Visible" property to:
+- To not display the submitting button when the container has been already delivered, change the "Visible" property to:
 
     ```'Delivery State_DataCard1'.Default <> ContainerStates.Delivered```
 
@@ -106,19 +107,19 @@ Once a change has been successfully submitted or canceled changes, we need to na
 
     ```** edit "Screen2" and change "OnVisible" property to Refresh('Container Shipments');ResetForm(EditForm1);```
 
-- To get back to the scanning screen when changed have been applied, edit the 
+- To get back to the scanning screen when changed have been applied, edit the
 
     ```"EditForm1"```
-    
-     and change 
-     
+
+     and change
+
      ```"OnSuccess" property to Navigate('Screen1')```
 
 - To get back to the scanning screen when the user hit the cancel button,** edit the "IconCancel1" and change "OnSelect" property to Navigate(\'Screen1\')
 
 You should get this:
 
-![Update shipping](../media/image13.png)
+![Update shipping shows values supplied for Name, Origin, Shipping Date, Destination, Arrival Data, Is Fragile, and Delivery State.](../media/image13.png)
 
 ## Summary
 

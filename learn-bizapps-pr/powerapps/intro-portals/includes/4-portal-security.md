@@ -2,7 +2,7 @@ Users of Power Apps portals are tracked in Microsoft Dataverse as contacts.
 
 The Portal Management model-driven app provides access to the contact entity and has forms to manage passwords, view portal-specific contact information, and provide registration and profile management forms for the portal.
 
-![Contact web authentication form](../media/4-contact-web-authentication-form.png)
+![Screenshot of the contact web authentication form.](../media/4-contact-web-authentication-form.png)
 
 All interactions and actions that a portal user takes (for example, leaving a comment on a page) are tied to their contact record in Dataverse.
 
@@ -19,7 +19,7 @@ Portal users can authenticate by using the following methods:
 
 Portal administrators can choose to enable or disable any combination of authentication options through portal **Authentication Settings**.
 
-![Portals Authentication Settings](../media/1-7-portal-authentication-settings.png)
+![Screenshot of the Portals Authentication Settings.](../media/1-7-portal-authentication-settings.png)
 
 > [!IMPORTANT]
 > Azure Active Directory B2C is a recommended identity provider for authentication. If another provider support is required, then it can be configured in Azure Active Directory B2C.
@@ -28,11 +28,11 @@ Portal administrators can choose to enable or disable any combination of authent
 
 After the user is authenticated and associated with a contact, Power Apps portals uses numerous entities to define authorization, that is, what a user is allowed to do. Selecting **Share** from the portal app options will provide information on how to share the portal app with internal and external users.
 
-![Portals security constructs](../media/1-7-portal-security.png)
+![Screenshot of the Portals security constructs.](../media/1-7-portal-security.png)
 
 **Web role** allows an administrator to control user access to portal content and Dataverse records.
 
-![Portals security constructs](../media/4-security-web-roles-permissions.png)
+![Diagram of the security web roles permissions.](../media/4-security-web-roles-permissions.png)
 
 A web role can be associated with the following records:
 

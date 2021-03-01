@@ -5,12 +5,12 @@ Keep in mind as you go through the various examples, we use static text and valu
 In the screenshot below, you will notice to the right of each category header (like String functions or Collection) the words "See more." By selecting "See more," the complete list of functions for that category will be shown.
 
 > [!div class="mx-imgBorder"]
-> [![See more for complete list of functions](../media/see-more-ss.png)](../media/see-more-ss.png#lightbox)
+> [![Screenshot of the Expression tab with the See more option for a complete list of functions.](../media/see-more-ss.png)](../media/see-more-ss.png#lightbox)
 
 Select **See more** beside String functions.
 
 > [!div class="mx-imgBorder"]
-> [![String functions see more](../media/string-function-see-more-ss.png)](../media/string-function-see-more-ss.png#lightbox)
+> [![Screenshot of See more String functions with replace(text, oldText, newText) selected.](../media/string-function-see-more-ss.png)](../media/string-function-see-more-ss.png#lightbox)
 
 ## String functions
 
@@ -60,17 +60,16 @@ Now that you know the answer is true, you can see that the *If* function returns
 > While you can write logical expressions as shown above, there is also an action called *Condition* that lets you write *If* statements without an expression.
 
 > [!div class="mx-imgBorder"]
-> [![condition to write if statements without an expression](../media/condition-ss.png)](../media/condition-ss.png#lightbox)
+> [![Screenshot of Choose an action with the Condition control selected.](../media/condition-ss.png)](../media/condition-ss.png#lightbox)
 
 Here is the same condition written using the action.
 
 > [!div class="mx-imgBorder"]
-> [![condition written using the action](../media/condition-action-ss.png)](../media/condition-action-ss.png#lightbox)
+> [![Screenshot of a condition written using the action.](../media/condition-action-ss.png)](../media/condition-action-ss.png#lightbox)
 
 You will find over time that you use a combination of both methods depending on your requirements.
 
 ## Conversion functions
-
 
 These functions are used to change the type of your data. This can be simple things like converting a text number into an integer, or more complex functions like changing the encoding of a file from base64 to binary. Knowing that these functions are available will help you overcome problems you encounter when getting your data shaped correctly.
 
@@ -131,7 +130,7 @@ The referencing functions are used to work with the outputs of your actions and 
 In the screenshot below, by adding the *User name* dynamic content from my trigger to the Inputs for Compose you can see this in action.
 
 > [!div class="mx-imgBorder"]
-> [![add user name dynamic content from trigger](../media/user-name-ss.png)](../media/user-name-ss.png#lightbox)
+> [![Screenshot of adding User name dynamic content from trigger.](../media/user-name-ss.png)](../media/user-name-ss.png#lightbox)
 
 By hovering over User name with the mouse pointer, you can see
 

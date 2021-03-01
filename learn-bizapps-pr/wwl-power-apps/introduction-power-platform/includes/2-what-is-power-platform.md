@@ -39,7 +39,6 @@ You can consider Power BI as the analysis and insights leg of the Power Platform
   :::column span="3":::
 **Power Virtual Agents** enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers.
 <br>
-Power Virtual Agents enables anyone to create powerful chatbots using a guided, no-code graphical interface, without the need for data scientists or developers.
 It minimizes the IT effort required to deploy and maintain a custom solution by empowering subject matter experts to build and maintain their own conversational solutions. 
 Power Virtual Agents is part of Power Platform, therefore integration into existing systems is streamlined with out-of-the-box integration with Power Automate and its ecosystems of hundreds of connectors. 
 Users can enable chatbots to perform an action by simply calling a Power Automate flow. Flows help users automate activities or call back end systems. Users can utilize existing flows that have been created 
@@ -57,7 +56,7 @@ Among the programs listed above, there are cross cutting features which enable t
 **AI Builder** lets users and developers add AI capabilities to the workflows and Power Apps they create and use. AI Builder is a turnkey solution that allows you to easily add intelligence to your workflows and apps and predict outcomes to help improve business performance without writing code.
 
 
-**Microsoft Dataverse** is a scalable data service and app platform which lets users securely store and manage data from multiple sources and integrate that data in business applications using a common data model to ensure ease and consistency to users. Common Data Service is the common currency that enables the components of Power Platform to work together. It’s the foundation that enables the consolidation, display, and manipulation of data.
+**Microsoft Dataverse** is a scalable data service and app platform which lets users securely store and manage data from multiple sources and integrate that data in business applications using a common data model to ensure ease and consistency to users. Microsoft Dataverse is the common currency that enables the components of Power Platform to work together. It’s the foundation that enables the consolidation, display, and manipulation of data.
 
 
 **Connectors** enable you to connect apps, data, and devices in the cloud. Consider connectors the bridge across which information and commands travel. There are more than 275 connectors for the Power Platform, enabling all of your data and actions to connect cohesively.  Examples of popular connectors include Salesforce, Office 365, Twitter, Dropbox, Google services, and more.

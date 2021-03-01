@@ -6,6 +6,6 @@ In RDA, a robot can function in *attended mode*, meaning that it can work alongs
 
 Robotic Process Automation (RPA), is distributed automation software that works as a user, and creates a virtual workforce of employees. RPA also supports attended and unattended mode.
 
-WinAutomation is a serverless, self-contained desktop automation platform, able to automate any task on a Windows computer. WinAutomation is able to function in both attended and unattended mode. 
+WinAutomation is a serverless, self-contained desktop automation platform, able to automate any task on a Windows computer. WinAutomation is able to function in both attended and unattended mode.
 
-WinAutomation is suitable for use by individuals, small or large teams, departments, and enterprises. 
+WinAutomation is suitable for use by individuals, small or large teams, departments, and enterprises.

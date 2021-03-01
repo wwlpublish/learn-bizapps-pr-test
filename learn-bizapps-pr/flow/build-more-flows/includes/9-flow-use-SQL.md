@@ -1,8 +1,8 @@
 This unit shows how to create a flow that monitors a source for new or changed items, and then copies those changes to a destination. You might create a flow of this type if your users enter data in one location, but your team needs that data in a different location or format.
 
-In this unit, you'll copy data from a [Microsoft SharePoint list](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194) (the source) to a [Microsoft Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview) table (the destination).
+In this unit, you'll copy data from a [Microsoft SharePoint list](https://support.office.com/article/SharePoint-lists-I-An-introduction-f11cd5fe-bc87-4f9e-9bfe-bbd87a22a194/?azure-portal=true) (the source) to a [Microsoft Azure SQL Database](https://docs.microsoft.com/azure/sql-database/sql-database-technical-overview/?azure-portal=true) table (the destination).
 
-Keep in mind that you can copy data over more than [275 services](https://flow.microsoft.com/connectors/) that Power Automate supports.
+Keep in mind that you can copy data over more than [275 services](https://flow.microsoft.com/connectors/?azure-portal=true) that Power Automate supports.
 
 > [!IMPORTANT]
 > Changes that you make in the destination aren't copied back to the source, because two-way synchronization isn't supported. If you try to set up two-way synchronization, you'll create an infinite loop where changes are sent endlessly between the source and destination.
@@ -10,7 +10,7 @@ Keep in mind that you can copy data over more than [275 services](https://flow.m
 ## Prerequisites
 
 * Access to a data source and a destination. This unit doesn't include the steps to create the source and destination.
-* Access to [Power Automate](https://flow.microsoft.com).
+* Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
 * A basic understanding of how your data is stored.
 * Familiarity with the basics of creating flows. For this unit, it's assumed that you know how to perform these actions.
 
@@ -51,7 +51,7 @@ First, we'll set up the SharePoint site to monitor changes.
 
 1. On the **When an item is created or modified** card, enter the site address, and then select the name of the SharePoint list that your flow monitors for new or updated items.
 
-    ![Set up the SharePoint trigger](../media/configure-sharepoint-trigger.png)
+    ![Screenshot of When an item is created or modified with the Site Address set to a SharePoint teams address, and List Name set to TravelTimeList.](../media/configure-sharepoint-trigger.png)
 
 ## Search the destination for the new or changed item
 
@@ -71,7 +71,7 @@ Next, we'll use the **SQL Server - Get rows** action to search the destination f
 
     The **Get rows** card should now look like this image.
 
-    ![Try to get the item from the destination database](../media/configure-sql-get-rows-action.png)
+    ![Screenshot of Get rows. Server name (a U R L), Database name (VideoEmployees), Table name (Vacation) and Filter Query (Title) highlighted.](../media/configure-sql-get-rows-action.png)
 
 ## Check whether the new or changed item was found
 
@@ -85,11 +85,11 @@ Next, we'll check whether the new or changed item was found.
 
 1. Select **Expression** and choose **length**. Your cursor should be between the parentheses in the equations.
 
-    ![Choose length expression](../media/length-expression.png)
+    ![Screenshot of Condition with Dynamic content on the Expression tab with length(collection) highlighted](../media/length-expression.png)
 
 1. Without leaving the open pane, select **Dynamic content**. In the **Get rows** category, select **value**.
-    
-    ![Select Dynamic content](../media/select-dynamic-content.png)
+
+    ![Screenshot of Dynamic content with value (List of Items) highlighted.](../media/select-dynamic-content.png)
 
     > [!TIP]
     > Confirm that you've selected **value** in the **Get rows** category. Don't select **value** in the **When an item is created or modified** category.
@@ -100,7 +100,7 @@ Next, we'll check whether the new or changed item was found.
 
     The **Condition** card should now look like this image.
 
-    ![Set up a condition](../media/configure-condition.png)
+    ![Screenshot of Condition with length is equal to 0 highlighted.](../media/configure-condition.png)
 
     > [!TIP]
     > The addition of the `length()` function lets the flow check the **value** list and check whether it has any items.
@@ -127,7 +127,7 @@ If the item doesn't exist in the destination, create it by using the **SQL Serve
     You can manually enter the data, select one or more tokens in the dynamic content pane, or enter any combination of text and tokens into the fields.
 
 > [!NOTE]
-> The **Insert row** and **Update row** cards show the names of the columns in the SQL Database table that's being used in the flow. Therefore, the cards that are shown in the images in this procedure might differ from the cards that you see. 
+> The **Insert row** and **Update row** cards show the names of the columns in the SQL Database table that's being used in the flow. Therefore, the cards that are shown in the images in this procedure might differ from the cards that you see.
 
 ## Update the item in the destination
 
@@ -137,7 +137,7 @@ Next, if the item exists in the destination, update it with the changes.
 
 1. Select **Save** to save the flow.
 
-    ![Finished flow](../media/finished-flow.png)
+    ![Screenshot of the finished flow. When an item is created or modified, get rows. If length is equal to zero, Insert row. If not, Update row.](../media/finished-flow.png)
 
 Now, whenever an item in your SharePoint list (the source) changes, your flow is triggered. It either inserts a new item or updates an existing item in SQL Database (the destination).
 

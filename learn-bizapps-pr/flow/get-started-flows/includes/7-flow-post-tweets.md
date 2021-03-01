@@ -18,7 +18,7 @@ First, you must select the trigger (event) that starts the flow.
 
 1. Under **Choose your flow's trigger**, enter *twitter*, select the **Twitter - When a new tweet is posted** trigger and select **Create**.
 
-    ![Twitter - When a new tweet is posted trigger](../media/twitter-search.png)
+    ![Screenshot of Build an automated flow with the flow's trigger set to Twitter - When a new tweet is posted.](../media/twitter-search.png)
 
 1. If you haven't already connected your Twitter account to Power Automate, select **Sign in to Twitter**, and then enter your credentials.
 
@@ -26,10 +26,9 @@ First, you must select the trigger (event) that starts the flow.
 
 ## Specify an action
 
-
 1. Select **New step**, and in the search field, enter *send email*, and then select the **Office 365 Outlook - Send an email** action.
 
-    ![Office 365 Outlook - Send an email action](../media/send-email.png)
+    ![Screenshot of the Office 365 Outlook - Send an email action.](../media/send-email.png)
 
 1. If you're prompted to sign in, select the sign-in button, and then enter your credentials.
 
@@ -39,7 +38,7 @@ First, you must select the trigger (event) that starts the flow.
 
 1. In the list of dynamic content, select the **Tweeted by** token to add a placeholder for it.
 
-    ![Tweeted by token](../media/add-parameter.png)
+    ![Screenshot of the "Tweeted by" token in Dynamic content.](../media/add-parameter.png)
 
 1. Select the **Body** field, and then, in the list of dynamic content, select the **Tweet text** token to add a placeholder for it.
 

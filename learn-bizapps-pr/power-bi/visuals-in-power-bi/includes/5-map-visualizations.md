@@ -26,4 +26,4 @@ To create a shape map, select the **Filled Map** option in the Visualization pan
 
 A warning icon in the top-left corner of your visual indicates that the map needs more location data to accurately plot values. This is a common problem when the data in your location field is ambiguous, such as using an area name like *Washington*, which could indicate a state or a district. 
 
-One way to resolve the location data problem is to rename your column to be more specific, such as *State*. Another way is to manually reset the data category by selecting **Data Category** on the **Modeling** tab. From the **Data Category** list, you can assign a category to your data such as "State" or "City."
+One way to resolve the location data problem is to rename your column to be more specific, such as *State*. Another way is to manually reset the data category by selecting **Data Category** on the **Column tools** tab. From the **Data Category** list, you can assign a category to your data such as "State" or "City."

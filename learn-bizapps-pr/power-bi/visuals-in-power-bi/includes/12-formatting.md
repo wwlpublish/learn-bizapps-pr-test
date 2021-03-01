@@ -37,7 +37,7 @@ When you have several elements on a report, Power BI lets you manage how they ov
 **Video**: Manage the z-order of elements
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oQlS]
 
-To manage the z-order of elements in a report, select an element and use the **Bring forward** and **Send backward** buttons on the **Visual tools** tab.
+To manage the z-order of elements in a report, select an element and use the **Bring forward** and **Send backward** buttons on the **Format** tab.
 
 ![Image of the "Send backward" button and its dropdown options on the Format tab.](../media/12-power-bi-desktop-z-order.png)
 

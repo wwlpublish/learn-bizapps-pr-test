@@ -18,13 +18,13 @@ Power Automate comes with many templates to get you started with creating flows.
 
 1. Select **New**, and then select **Create from template**.
 
-    ![Create from template](../media/Flow-notification-boss.png)
+    ![Screenshot of the expanded New menu with Create from template highlighted.](../media/Flow-notification-boss.png)
 
 1. Scroll down, and select **Get a push notification when you receive an email from your boss**.
 
     You can also quickly find this template by entering *notifications* in the search field.
 
-1. Select **Create Flow**. The flow will automatically render and open to the details and run history page. 
+1. Select **Create Flow**. The flow will automatically render and open to the details and run history page.
 
 1. To edit the flow and see the steps which will be used to get your email profile and your boss's, select **Edit**.
 
@@ -32,11 +32,11 @@ Power Automate comes with many templates to get you started with creating flows.
 
 1. In the **Send a push notification** section, select the title bar to change the text of the notification that you'll get when an email is received from your boss.
 
-    ![Edit parameters for the push notification](../media/flow-check-my-manager.png)
+    ![Screenshot of the If yes parameter with Send a push notification highlighted.](../media/flow-check-my-manager.png)
 
 1. To change the text of the email, in the **Text** field, enter a new message. You can also select dynamic content fields in the list.
 
-    ![New message text](../media/flow-change-text.png)
+    ![Screenshot of Send a push notification with Text set to "Boss said: Subject" (dynamic text).](../media/flow-change-text.png)
 
 1. Select **Save** to save and test the flow.
 

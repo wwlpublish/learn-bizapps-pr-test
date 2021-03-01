@@ -1,7 +1,7 @@
 Web forms are configured in the Portal Management app, not through Power Apps portals Studio.
 
 > [!div class="mx-imgBorder"]
-> [![Web form overview](../media/web-form-overview.png)](../media/web-form-overview.png#lightbox)
+> [![Diagram of the Web form overview in Portal Management.](../media/web-form-overview.png)](../media/web-form-overview.png#lightbox)
 
 ### Web form properties
 
@@ -73,4 +73,3 @@ The web form is not listed as a component in portals Studio, but a maker can add
 You can also select a web form as the value for a **Web Form** lookup on a webpage. The page template that is associated with the webpage uses that form definition to render the form.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AoG8]
-

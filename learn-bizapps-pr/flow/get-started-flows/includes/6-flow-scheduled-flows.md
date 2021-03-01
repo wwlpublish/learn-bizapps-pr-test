@@ -16,7 +16,7 @@ For this scenario, you will need to make an excel file with a table that contain
 
 1. Select **Create**.
 
-    ![Set the frequency and interval](../media/frequency-interval.png)
+    ![Screenshot of Build a scheduled flow with the frequency and interval set to Repeat every 1 Day and the Create button highlighted.](../media/frequency-interval.png)
 
 1. Select **New step**, to add an action.
 
@@ -26,13 +26,13 @@ For this scenario, you will need to make an excel file with a table that contain
 
 1. In the **Table name** box, select the drop-down arrow, and then browse to and select the worksheet to use.
 
-    ![Select the Excel workbook file and worksheet](../media/select-excel.png)
+    ![Screenshot of List rows present in a table with the Excel workbook file and worksheet selected.](../media/select-excel.png)
 
-1. Select **New step**, and then select **Add an action**. 
+1. Select **New step**, and then select **Add an action**.
 
 1. In the search field, enter *chimp*, select the **MailChimp** service, and then select the **MailChimp - Add member to list** action.
 
-    > [!NOTE] 
+    > [!NOTE]
     > MailChimp is a premium connector. Depending on your Power Automate license, you might need to sign up for a trial to use this connector.
 
 1. In the **List Id** field, select the desired MailChimp mailing list. In the **Status** field, select *subscribed*.
@@ -43,7 +43,7 @@ For this scenario, you will need to make an excel file with a table that contain
 
 1. Use the dynamic content feature to fill in the **First name** and **Last name** fields.
 
-    ![Set the first and last names](../media/mailchimp-names.png)
+    ![Screenshot of the Dynamic content menu being used to set the first and last names.](../media/mailchimp-names.png)
 
 And there you have it!
 
