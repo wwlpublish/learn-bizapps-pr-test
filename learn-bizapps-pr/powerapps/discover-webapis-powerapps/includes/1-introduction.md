@@ -16,6 +16,13 @@ Green Leaf's business has grown exponentially over the past year. Along with tha
 Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals develop applications that are easy to create and deploy. She wants to build a Power App with existing Web APIs through a custom connector.
 
 
+## What Is a Custom Connector? ##
+
+While Power Apps offer hundreds of connectors to connect to Microsoft and non-Microsoft services, you may want to communicate with services that are not available as prebuilt connectors like Inventory Management. [Custom connectors][az cuscon] address this scenario by allowing you to create a connector with its own actions.
+
+![Custom Connector Overview][image-01]
+
+
 ## Learning Objectives ##
 
 After completing this module, you will be able to:
@@ -26,3 +33,8 @@ After completing this module, you will be able to:
 ## Prerequisites ##
 
 * Familiarity with the concept of Web API (or HTTP API). Custom connectors use Web APIs to send and receive data.
+
+
+[image-01]: https://picsum.photos/seed/1-introduction-01.png/300/300
+
+[az cuscon]: https://docs.microsoft.com/connectors/custom-connectors/
