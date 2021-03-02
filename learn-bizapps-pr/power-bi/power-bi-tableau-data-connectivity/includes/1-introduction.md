@@ -39,7 +39,7 @@ Import mode, the most common mode, allows the data to be loaded into memory and 
 > [!NOTE]
 > Import mode is like taking an extract of data in Tableau Desktop.
 
-After it has been imported, the data is always stored to disk and must be loaded to memory before Power BI can query the dataset. Imported data can demand several resources from your machine because the size of the model(s) can grow quickly. Additionally, the dataset is only as fresh (or up to date) as its last refresh. That's why these datasets must be refreshed manually or on a schedule.
+After it has been imported, the data is always stored to disk and must be loaded to memory before Power BI can query the dataset. Imported data can demand several resources from your machine because the size of the model(s) can grow quickly. Additionally, the dataset is only as fresh (or up to date) as its last refresh. Therefore, these datasets must be refreshed manually or, if you’re leveraging the Service, on a schedule.
 
 ### DirectQuery mode
 
