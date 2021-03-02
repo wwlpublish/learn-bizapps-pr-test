@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps.discover-webapis-powerapps.2-create-custom-connector-with-apim
-title: This is a content module - change the title
+title: Create Custom Connector with Azure API Management
 metadata:
-  title: This is a content module - change the title
-  description: FILL THIS IN
-  ms.date: 02/04/2021
+  title: Create Custom Connector with Azure API Management
+  description: You can create a custom connector with Azure API Management
+  ms.date: 03/05/2021
   author: justinyoo
   ms.author: juyoo
   ms.topic: interactive-tutorial
