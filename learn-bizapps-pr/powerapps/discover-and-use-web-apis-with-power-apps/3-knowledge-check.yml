@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps.discover-webapis-powerapps.3-knowledge-check
+title: Check your knowledge
+metadata:
+  title: Check your knowledge
+  description: Answer the following questions to see what you've learned.
+  ms.date: 02/04/2021
+  author: justinyoo
+  ms.author: juyoo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned.
+  questions: 
+  - content: Question number one?
+    choices: 
+    - content: First wrong answer
+      isCorrect: false
+      explanation: It's wrong for this reason.
+    - content: Correct answer.
+      isCorrect: true
+      explanation: It's correct because of this reason.
+    - content: Second wrong answer.
+      isCorrect: false 
+      explanation: It's wrong for this reason.
+    - content: Third wrong answer.
+      isCorrect: false 
+      explanation: It's wrong because of this reason.
+  - content: Second question?
+    choices: 
+    - content: First wrong answer
+      isCorrect: false
+      explanation: It's wrong for this reason.
+    - content: Correct answer.
+      isCorrect: true
+      explanation: It's correct because of this reason.
+    - content: Second wrong answer.
+      isCorrect: false 
+      explanation: It's wrong for this reason.
+    - content: Third wrong answer.
+      isCorrect: false 
+      explanation: It's wrong because of this reason.
