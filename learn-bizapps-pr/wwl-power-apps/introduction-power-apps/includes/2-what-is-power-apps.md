@@ -31,9 +31,9 @@ Below are a couple of examples of a mobile canvas app built by Heathrow Airport.
 
 ### Model-driven apps
 
-Model-driven apps build from data in the Dataverse. Power Apps will build you a great looking, fully functional app to act upon and interact with this data. With model-driven apps, there is no need to worry about choosing the app size; it is responsive, meaning it works on mobile or tablet with no extra work by you. You define the relationships, forms, views, business rules, and more at the data layer, inside of the Dataverse, giving you enough control to get your business result without writing all of the formulas yourself. 
+Model-driven apps build from data in Microsoft Dataverse. Power Apps will build you a great looking, fully functional app to act upon and interact with this data. With model-driven apps, there is no need to worry about choosing the app size; it is responsive, meaning it works on mobile or tablet with no extra work by you. You define the relationships, forms, views, business rules, and more at the data layer, inside of the Dataverse, giving you enough control to get your business result without writing all of the formulas yourself. 
 
-Below is an example of a fundraiser donations tracking Model-driven app.  
+Below is an example of a fundraiser donations tracking model-driven app.  
     ![Power Apps Dashboard](../media/fundraiser.png)
 
 ### Portals
@@ -78,7 +78,7 @@ There are many tools for those in IT or otherwise responsible for governance. Po
 
 Power Apps also has its own set of PowerShell cmdlets for app creators, administrators, and developers that allow you to automate many of your administrative duties. A common use case of the PowerShell cmdlets is to automate the discovery and permission management of all apps in your tenant, allowing you to better understand and manage apps as they are created and spread throughout your company.
 
-In addition, in the Power Automate learn module, you will see that Power Automate has the ability to automate these tasks. You can download the [Center of Excellence](https://aka.ms/CoEStarterKitDownload) starter kit, a collection of components or tools that are designed to help get started with developing a strategy for adopting and supporting the Power Platform, with a focus on Power Apps and Power Automate.
+In addition, in the Power Automate learn module, you will see that Power Automate has the ability to automate these tasks. You can download the [Center of Excellence](https://aka.ms/CoEStarterKitDownload) starter kit, a collection of components or tools that are designed to help get started with developing a strategy for adopting and supporting Power Platform, with a focus on Power Apps and Power Automate.
 
 ## Driving business value
 
@@ -87,3 +87,4 @@ By now you understand that Power Apps does not require traditional "code" like C
 Power Apps allows even the most entry level users to reduce paperwork, increase process efficiency, and ensure a single source of truth by combining multiple data sources into one app. Users can build apps with ease, while staying within the guardrails set by IT. This allows for an unprecedented amount of innovation and digitization, eliminating the app backlog, cumbersome paper-based processes and more.
 
 In the next unit, you learn about how Heathrow Airport has built 30 apps that have eliminated 75,000 pages of paperwork, reduced data entry by nearly 1,000 hours, and saved the airport hundreds of thousands of dollars.
+
