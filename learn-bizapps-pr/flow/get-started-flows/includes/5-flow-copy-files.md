@@ -10,7 +10,7 @@ In this unit, you'll use a flow template to copy files from your personal OneDri
 
 1. Select **New**, and then select **Create from template**.
 
-    ![Create from template](../media/Flow-notification-boss.png)
+    ![Screenshot of the New menu expanded and the Create from template option highlighted.](../media/Flow-notification-boss.png)
 
 1. Scroll down, and select **Copy files to OneDrive for Business when they're added to OneDrive**.
 
@@ -20,7 +20,7 @@ In this unit, you'll use a flow template to copy files from your personal OneDri
 
 1. In the **OneDrive Folder** field, select the folder button.
 
-    ![Folder button](../media/flow-onedrive.png)
+    ![Screenshot of the Folder button highlighted next to the OneDrive Folder field.](../media/flow-onedrive.png)
 
 1. Select the OneDrive folder that files should be copied from.
 

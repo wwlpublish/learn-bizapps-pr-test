@@ -1,4 +1,4 @@
-Microsoft Dataverse is a cloud-based data storage which allows you to leverage the security and connectivity of Microsoft programs. Dataverse connect easily to all aspects of the Power Platform so that you can fully control, automate, and strengthen your business. With standard entities and fields, as well as the ability to easily define relationships between your data, Dataverse was built for those who need powerful, scalable solutions.
+Microsoft Dataverse is a cloud-based data storage which allows you to leverage the security and connectivity of Microsoft programs. Dataverse connects easily to all aspects of the Power Platform so that you can fully control, automate, and strengthen your business. With standard entities and fields, as well as the ability to easily define relationships between your data, Dataverse was built for those who need powerful, scalable solutions.
 
 Now that you have reviewed this module, you should be able to:
 

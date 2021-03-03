@@ -3,7 +3,7 @@ A fully functional portal that is based on a template is provisioned in an envir
 A maker will first choose a particular portal template. Currently, only one option (Portal from blank) is available for environments without Dynamics 365, while five different portal templates are available for environments with Dynamics 365 apps enabled.
 
 > [!div class="mx-imgBorder"]
-> [![choose portal template](../media/2-starter-portals-ssm.png)](../media/2-starter-portals-ssm.png#lightbox)
+> [![Screenshot of the Portal from blank selection.](../media/2-starter-portals-ssm.png)](../media/2-starter-portals-ssm.png#lightbox)
 
 ### Portal solutions installation
 
@@ -25,12 +25,12 @@ An Azure web app will be configured for each portal that is provisioned in an en
 The provisioned portal will appear in the **Apps** list of type Portal. From this portal app, a maker will be able to edit (go to portals Studio), browse, share, go to settings, delete, or view details about the portal. 
 
 > [!div class="mx-imgBorder"]
-> [![Portal App Menu](../media/2-portal-app-menu-ssm.png)](../media/2-portal-app-menu-ssm.png#lightbox)
+> [![Screenshot of the Portal Apps with ellipsis drop down menu and type noted.](../media/2-portal-app-menu-ssm.png)](../media/2-portal-app-menu-ssm.png#lightbox)
 
 A list of all portals in a Power Platform tenant can be viewed from the Power Platform admin center.
 
 > [!div class="mx-imgBorder"]
-> [![Power Platform Admin](../media/2-power-platform-admin-center-portals-ss.png)](../media/2-power-platform-admin-center-portals-ss.png#lightbox)
+> [![Screenshot of te Power Platform Admin Center portals list.](../media/2-power-platform-admin-center-portals-ss.png)](../media/2-power-platform-admin-center-portals-ss.png#lightbox)
 
 The Portal Management app will also appear in the **Apps** list.
 
@@ -43,4 +43,3 @@ By default, a portal will be provisioned in Trial mode. A maker will have 30 day
 If you delete a portal app, it will be removed from the list of apps and the portal web application will be deleted as well. However, the portal solutions or portal metadata will not be deleted from Dataverse.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4yWm3]
-

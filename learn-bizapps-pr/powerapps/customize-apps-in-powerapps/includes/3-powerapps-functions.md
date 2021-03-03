@@ -28,7 +28,7 @@ By default, Power Apps pulls in a price value for each item. This value is set a
    ```
 
 > [!NOTE]
-   > If your formula returns an error, then please note that the lanuage setting of your Power Apps environment can affect some separators and operators. For example, the above formula is expressed in a language and region that uses dot or period as the decimal separator, such as Japan or the United Kingdom. However, this same formula in a language and region where a comma is used for the decimal separator, such as France or Spain, the formula will need to be: 
+   > If your formula returns an error, then please note that the language setting of your Power Apps environment can affect some separators and operators. For example, the above formula is expressed in a language and region that uses dot or period as the decimal separator, such as Japan or the United Kingdom. However, this same formula in a language and region where a comma is used for the decimal separator, such as France or Spain, the formula will need to be: 
           ```powerappsfl
        Text(ThisItem.Price; "$ ##,00")
        ```
@@ -70,6 +70,6 @@ Power Apps uses a couple of formulas in every app that it generates. Both exampl
 
 The app contains many other formulas, so take some time to select controls and determine what formulas are set for various properties.
 
-For more information about these and other functions, refer to [formula reference for Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference) page.
+For more information about these and other functions, refer to [formula reference for Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/formula-reference/?azure-portal=true) page.
 
 For additional information on customizing a canvas app, refer to the Use the UI and controls in a canvas app in Power Apps learning path and the Use basic formulas to make a better canvas app in Power Apps learning path.

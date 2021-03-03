@@ -7,12 +7,12 @@ You can add an entity form to a webpage by using Power Apps portals Studio from 
 1. Open the form that was created previously in portals Studio.
 
 > [!div class="mx-imgBorder"]
-> [![Entity Form Portal Management app](../media/entity-form-meta-data.png)](../media/entity-form-meta-data.png#lightbox)
+> [![Screenshot of the Entity Form Portal Management metadata.](../media/entity-form-meta-data.png)](../media/entity-form-meta-data.png#lightbox)
 
 Forms can include actions for the user to interact with the record. Detailed configurations for each form element are available by using additional **Entity Form Metadata** records.
 
 > [!div class="mx-imgBorder"]
-> [![Entity form structure](../media/entity-form-overview.png)](../media/entity-form-overview.png#lightbox)
+> [![Diagram of the Entity form structure and overview.](../media/entity-form-overview.png)](../media/entity-form-overview.png#lightbox)
 
 ## Configuration
 
@@ -57,7 +57,7 @@ Other actions that you can configure include:
 The form's map control requires additional configuration to tell it what the various location fields are, to assign values to them, or to retrieve values from them. For more information, see [Geolocation configuration for entity forms](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms#geolocation-configuration-for-entity-forms/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
-> [![Entity form with geolocation enabled](../media/entity-form-geolocation.png)](../media/entity-form-geolocation.png#lightbox)
+> [![Screenshot of the Entity form with geolocation enabled.](../media/entity-form-geolocation.png)](../media/entity-form-geolocation.png#lightbox)
 
 ### Entity reference
 
@@ -88,6 +88,6 @@ An entity form defines the required behavior but does not contain information ab
 ```
 
 > [!div class="mx-imgBorder"]
-> [![Entity form to render](../media/entity-form-liquid-tag.png)](../media/entity-form-liquid-tag.png#lightbox)
+> [![Screenshot of the Entity form Code Editor liquid tag.](../media/entity-form-liquid-tag.png)](../media/entity-form-liquid-tag.png#lightbox)
 
 Because forms submit information back to the server for processing, you will have much less control over entity forms rendering as compared to entity lists.

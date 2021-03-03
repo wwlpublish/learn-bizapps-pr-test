@@ -10,7 +10,7 @@ If a portal is completely inaccessible, an administrator can investigate numerou
 - If advisories exist on the Microsoft 365 admin center
 
 > [!div class="mx-imgBorder"]
-> [![Admin Center](../media/administration-center.png)](../media/administration-center.png#lightbox)
+> [![Screenshot of the Admin Center with the Service health screen displayed.](../media/administration-center.png)](../media/administration-center.png#lightbox)
 
 An administrator should also investigate whether some of the portal metadata has been recently modified, such as the website or website binding records that also might affect portal functionality.
 
@@ -29,7 +29,7 @@ A typical error might begin when a portal visitor reports an issue when visiting
 In the Power Apps Portals admin center, the **Disable custom errors** action will replace the notification with detailed error information on the portal page that could provide additional information for an administrator to troubleshoot the issue.
 
 > [!div class="mx-imgBorder"]
-> [![Disable custom errors](../media/disable-custom-errors.png)](../media/disable-custom-errors.png#lightbox)
+> [![Screenshot of the Portal Actions with the Disable custom errors feature highlighted.](../media/disable-custom-errors.png)](../media/disable-custom-errors.png#lightbox)
 
 > [!NOTE]
 > Disabling custom errors should be a temporary setting because the detailed error message might convey an increased negative experience for portal visitors. We recommend that you only disable custom errors when you are in the development phase and enable custom errors after you go live.
@@ -41,7 +41,7 @@ Another option is to personalize the error message by adding a content snippet c
 Along with visual errors on portal pages, potential underlying issues could occur that are not quite as obvious to isolate and troubleshoot. Power Apps portals can be configured to log diagnostic information. The diagnostic logs will be stored in Azure Blob storage in a container named **telemetry-logs**. The administrator can configure the retention period of how long to keep the logs.
 
 > [!div class="mx-imgBorder"]
-> [![Diagnostic logging](../media/diagnostic-logging.png)](../media/diagnostic-logging.png#lightbox)
+> [![Screenshot of the Enable Diagnostic logging window.](../media/diagnostic-logging.png)](../media/diagnostic-logging.png#lightbox)
 
 The logs can provide information of patterns, duration, and frequency of specific portal errors to assist in resolving potential errors and issues.
 

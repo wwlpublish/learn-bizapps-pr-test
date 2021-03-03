@@ -13,7 +13,7 @@ Most of a portal's content is represented by webpages. A webpage represents a pa
 
 Webpages also form the basis for including other, specialized entity types in the portal site map: web files, shortcuts, forums, ideas, and blogs. Each of these records has a relationship with a parent page, which defines the URL and where the entries are located on the portal site map. 
 
-![Site page hierarchy](../media/3-page-hierarchy.png)
+![Diagram of the Site page hierarchy in relation to the parent page.](../media/3-page-hierarchy.png)
 
 Pages can be added and edited by using the Portal Studio, the portal front-side editor, or directly in Dataverse by using the Portal Management app.
 
@@ -64,17 +64,17 @@ Content snippets are reusable fragments of editable content that can be placed w
 
 Content snippets can include plain text, HTML layout, or template processing instructions, which helps enable dynamic content. 
 
-![Content snippets on a page](../media/1-6-content-snippet.png)
+![Screenshot example of the Content snippets on a page.](../media/1-6-content-snippet.png)
 
 Snippets can be edited by using Portal Studio and Dataverse records by using the Portal Management app.
 
-![Content snippets metadata in portal management app](../media/1-6-content-snippet-metadata.png)
+![Screenshot of the Portal Management app used to edit snippets.](../media/1-6-content-snippet-metadata.png)
 
 ## Entity lists and entity forms
 
 The strength of Power Apps portals is the ability to interact with information and data that is stored in Dataverse.
 
-![Entity List](../media/1-6-entity-list-studio.png)
+![Screenshot of the Entity List and entity form.](../media/1-6-entity-list-studio.png)
 
 Entity lists and entity forms use model-driven Power Apps views and will form definitions to create dynamic and interactive portal pages that work with Dataverse. 
 

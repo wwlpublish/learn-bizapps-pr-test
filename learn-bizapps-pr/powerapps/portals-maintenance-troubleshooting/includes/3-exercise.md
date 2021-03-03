@@ -70,4 +70,4 @@ The high-level steps are as follows:
 1. Note that the header output cache issue has been resolved.
 
 > [!div class="mx-imgBorder"]
-> [![Portal Checker](../media/portal-checker-exercise.png)](../media/portal-checker-exercise.png#lightbox)
+> [![Screenshot of the Portal Checker with the Header output cache highlighted.](../media/portal-checker-exercise.png)](../media/portal-checker-exercise.png#lightbox)

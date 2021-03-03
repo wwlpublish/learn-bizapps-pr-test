@@ -41,20 +41,6 @@ quiz:
     - content: Get Manager
       isCorrect: false 
       explanation: The Office 365 Users Get Manager (V2) connector is used to get manager information.
-  - content: Which connector provides the full address?
-    choices: 
-    - content: Get User Profile (V2)
-      isCorrect: false
-      explanation: The Manually Trigger a flow connector provides the full address.
-    - content: Manually Trigger a flow
-      isCorrect: true
-      explanation: The Manually Trigger a flow connector provides the full address.
-    - content: SharePoint
-      isCorrect: false 
-      explanation: The Manually Trigger a flow connector provides the full address.
-    - content: Office 365 Users
-      isCorrect: false 
-      explanation: The Manually Trigger a flow connector provides the full address.
   - content: How many actions and which action(s) are needed to attach an image to a new SharePoint item?
     choices: 
     - content: Two. Create the item first and then add the attachment.

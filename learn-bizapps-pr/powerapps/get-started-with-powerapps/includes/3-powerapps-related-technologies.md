@@ -4,11 +4,10 @@ Microsoft Power Apps works with other technologies to help you build powerful ap
 - **Microsoft Dataverse** - A compliant and scalable data service that's integrated into Power Apps.
 - **Power Automate** - Allows you to build automated workflows to receive notifications, run processes, collect data, and more.
 
-
 ## Data sources, connections, and gateways
 In Power Apps, most canvas apps use external information that is stored in Data Sources. A common example is a table in an Excel file that is stored in OneDrive for Business or SharePoint. Apps access these data sources by using connections. Some connections allow Power Apps to read and write stored data. In Power Apps, you can add many data sources to your apps through built-in or custom connectors. Some of the most popular data sources are shown in the following figure.
 
-![Power Apps data sources](../media/powerapps-datasources.png)
+![List of available Power Apps data sources.](../media/powerapps-datasources.png)
 
 Many data sources are cloud services, like Salesforce. Even Twitter can be a data source if, for example, you're tracking your company's hashtags. Connectors might not seem like the most exciting part of app development; however, they're essential when you work with data that you, your colleagues, and your customers care about. When an app shows up with your data source for the first time, you might suddenly find that they are, in fact, exciting.
 
@@ -16,11 +15,10 @@ For data that's stored on-premises instead of in the cloud, you can use a gatewa
 
 An advantage of building your business apps in Power Apps is being able to connect to many data sources in a single app. With the connectors in Power Apps, you can connect to where your data lives. To learn more about data sources in Power Apps, refer to the Working With Data learning path. 
 
-
 ## Microsoft Dataverse
 An important data source option to explore further is the Dataverse. Dataverse lets you store and manage data that's used by business applications. Data within Dataverse is stored within a set of entities. An entity is a set of records that are used to store data, similar to how a table stores data within a database. Dataverse includes a base set of standard entities that cover typical scenarios, but you can also create custom entities that are specific to your organization and then populate them with data by using Power Query. App makers can then use Power Apps to build rich applications by using this data.
 
-![Platform Overview](../media/platform.png)
+![Diagram of Microsoft Power Platform with Power BI, Power Apps, Power Automate, and Power Virtual Agents.](../media/platform.png)
 
 For information on purchasing a plan to use Dataverse, refer to the [License](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus) and [Pricing](https://powerapps.microsoft.com/pricing/) information pages.
 
@@ -37,7 +35,7 @@ Standard and custom entities within Dataverse provide a cloud-based storage opti
 
 As you continue developing your application, you may want to consider implementing additional Power Apps related technologies such as Power Automate and or Power BI. For example, you may have a simple Expense Report App that requires an approval before an item can be purchased. With Power Automate, you can create a simple Flow to make this happen. Or maybe you want to display your data with custom charts and graphs giving your users a more visual look into the data, which can often be useful. In this section, you will learn more about some of the other Power Platform technologies and how you could apply them in your own Power Apps solution. Keep in mind, if you decide to implement these Power Apps related technologies you should also review their licensing structure and associated costs.
 
-![Related apps icons.](../media/power-platform-technologies.png)
+![Diagram of power platform technologies with icons.](../media/power-platform-technologies.png)
 
 ### Power Automate
 
@@ -45,7 +43,7 @@ Power Automate brings automation to your business. This can be traditional workf
 
 You can use Power Automate to create logic that performs one or more tasks when an event occurs in a canvas app. For example, configure a button to execute a flow to do one of the following: create an item in a SharePoint list, send an email or meeting request, or add a file to OneDrive.  The button could be configured to do all of those in a single Power Automate flow. You can configure any control in the app to start the flow, which continues to run even if you close Power Apps.  Below is an example using Power Automate to send a flow:
 
-![Power Automate flow.](../media/power-automate-flow.png)
+![Screenshot example of a Power Automate flow.](../media/power-automate-flow.png)
 
 ### Identify Flows in your Solution
 
@@ -65,7 +63,7 @@ By embedding a Power BI tile in a Power Apps solution, you are able to bring val
 
 In the example below, you will see a simple Power BI Tile embedded in a Sales Planning app built in Power Apps. The visual is displaying the Profit and Gross Sales and the Power Apps form allows the user to enter sales predictions.
 
-![Power BI sales dashboard.](../media/embed-power-bi-power-apps.png)
+![Screenshot of an embedded Power BI sales dashboard.](../media/embed-power-bi-power-apps.png)
 
 ### Embed a Power Apps app in a Power BI Dashboard
 
@@ -73,15 +71,15 @@ Another integration between these two applications, is to embed a Power Apps app
 
 In the example below, we are analyzing the Sale Price and Profit by Country and Segment. Notice once you have embedded your Power App in a Power BI Dashboard you can navigate between screens.
 
-![Power BI with Power Apps.](../media/navigate-multiple-screens-details.png)
+![Screenshot of the embedded Power App in a Power BI dashboard.](../media/navigate-multiple-screens-details.png)
 
 In this next screenshot, still working with the same data as the previous example, you can utilize the native Power Apps features like Search with Power BI data.
 
-![Power Apps search with Power BI.](../media/power-apps-search-pbi-data.png)
+![Screenshot of the native Power Apps search with Power BI data.](../media/power-apps-search-pbi-data.png)
 
 In this last screenshot, for this example, you will see the embedded Power App is filtered by the Power BI selection.
 
-![Power BI with Power Apps filtered.](../media/apps-filtered-pbi-selection.png)
+![Screenshot of the embedded Power App filtered by the Power BI selection.](../media/apps-filtered-pbi-selection.png)
 
 ### Translating needs to the appropriate technology
 
@@ -93,12 +91,12 @@ Below are examples of the formulas to execute sending an email via Power Apps ve
 
 **Send an Email via Power Apps**
 
-![Send an email with Power Apps.](../media/send-email-power-apps.png)
+![Screenshot of the Send an email with Power Apps formula.](../media/send-email-power-apps.png)
 
 
 **Send an Email via Power Automate**
 
-![Send an email with Power Automate.](../media/send-email-power-automate.png)
+![Screenshot of the Send an email with Power Automate formula.](../media/power-automate-flow.png)
 
 Also, the number of steps in your solution/process will aid you in determining which technology best suits your needs. Power Apps is great for performing simple solutions with minimal steps but as your solutions become more complex and requires multiple steps, Power Automate would be the better solution.
 
@@ -108,12 +106,12 @@ Let's not forget about discussing Power Apps and Power BI, and when to use one v
 
 Here is a quick look at one of the simple, out of the box Power Apps charts.
 
-![Power Apps chart example.](../media/power-apps-chart-example.png)
+![Screenshot of a simple Power Apps chart example.](../media/power-apps-chart-example.png)
 
 Simple and minimal design above, nothing crazy but it gets the job done.
 
 On the other hand, if your solution requires in-depth analysis of your data, and robust visuals, Power BI will be the best product for your solution. Keep in mind, with Power BI, each app user will need an additional license on top of the Power Apps license. This is a small price to pay though if our solution relies on intuitive dashboards, charts, graphs, and several other features to help you get the most out of your solution.
 
-![Embedded Power BI tile in Power Apps.](../media/embedded-power-bi-tile-power-apps.png)
+![Screenshot of an Embedded Power BI tile in Power Apps.](../media/embedded-power-bi-tile-power-apps.png)
 
 By identifying the needs of related Power Apps technologies in your solution and strategically implementing them, you will be able to provide your users with a better overall experience when using the solution.

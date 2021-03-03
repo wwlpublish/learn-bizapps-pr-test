@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 12/10/2020
+  ms.date: 03/01/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -27,7 +27,7 @@ quiz:
     - content: "A Canvas app"
       isCorrect: true
       explanation: "Correct. With Canvas apps, you start with a blank canvas choosing your type of mobile or tablet. Then you can design the app to meet your \"pixel perfect\" design."
-  - content: "Your projects requirements call for the ability to take a picture of a part and identify which model it is. You are not a data scientist or developer, how can you add this to your app?"
+  - content: "Your project requirements call for the ability to take a picture of a part and identify which model it is. You are not a data scientist or developer, how can you add this to your app?"
     choices:
     - content: "Train and use an Object Detection model in your app with AI Builder."
       isCorrect: true

@@ -27,7 +27,7 @@ custom connector:
     the request URL for the API endpoint, and select an authorization
     protocol.
 
-![Create API HTTP Request](../media/01-create-api-http-request.png)
+![Screenshot of creating an API HTTP Request.](../media/01-create-api-http-request.png)
 
 | **Parameter**   | **Value** |
 | :---------------| :------------------------------------------------------------------------------|
@@ -38,7 +38,7 @@ custom connector:
 2.  Enter key-value pairs for the request header. For common HTTP
     headers, you can select from the drop-down list.
 
-![Create API HTTP Request header](../media/02-create-api-http-request-header.png)
+![Screenshot of the Create API HTTP Request header steps.](../media/02-create-api-http-request-header.png)
 
 | **Parameter**        | **Value**            |
 | :------------------- | :------------------- |
@@ -47,7 +47,7 @@ custom connector:
 3.  Enter content that you want to send in the request body. To check
     that the request works by getting a response back, select **Send**.
     
-![Create API HTTP Request Body](../media/03-create-api-http-request-body.png)
+![Screenshot of the Create API HTTP Request Body steps.](../media/03-create-api-http-request-body.png)
 
 ```json
 {
@@ -61,7 +61,7 @@ custom connector:
 4.  The response field contains the full response from the API,
     including the result or an error, if any occurred.
 
-![Create API HTTP Request Response](../media/04-create-api-http-request-response.png)
+![Screenshot of the Create API HTTP Request Response steps.](../media/04-create-api-http-request-response.png)
 
 For more information about HTTP requests, see
 [Requests](https://www.getpostman.com/docs/postman/sending_api_requests/requests).
@@ -70,13 +70,13 @@ For more information about HTTP requests, see
 
 1.  Select **Save**.
 
-![Save Request](../media/05-save-request.png)
+![Screenshot of the Save Request button.](../media/05-save-request.png)
 
 2.  Under **Save Request**, enter a request name and a description. The
     custom connector uses these values for the API operation summary and
     description.
 
-![Save Request](../media/06-save-request.png)
+![Screenshot of the Save Request window with the name and description.](../media/06-save-request.png)
 
  | **Parameter**         | **Value** |
  | :---------------------| :----------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -88,7 +88,7 @@ For more information about HTTP requests, see
     check mark, which creates a collection folder, then choose **Save to
     SentimentDemo**.
 
-![Save Request](../media/07-save-request.png)
+![Screenshot of the Save Request window with features highlighted.](../media/07-save-request.png)
 
  | **Parameter**     | **Value** |
  | :-----------------| :-----------------| 
@@ -101,14 +101,14 @@ way, the response appears as an example when you load the request later.
 
 1.  Above the response window, select **Save Response**.
 
-![Create API HTTP Request Save Response](../media/08-create-api-http-request-save-response.png)
+![Screenshot of the Create API HTTP Request Save Response button.](../media/08-create-api-http-request-save-response.png)
 
 Custom connectors support only one response per request. If you save multiple responses per request, only the first one is used.
 
 2.  At the top of the app, provide a name for your example response, and
     select **Save Example**.
 
-![Create API HTTP Request Save Response](../media/09-create-api-http-request-save-response.png)
+![Screenshot of the Create API HTTP Request Save example button.](../media/09-create-api-http-request-save-response.png)
 
 If your API had additional features, you would continue to build your
 Postman collection with any additional requests and responses.
@@ -126,17 +126,17 @@ custom connector.
     to the header to remove it. Select **Save** to save the collection
     again.
     
-![Remove headers](../media/10-remove-headers.png)
+![Screenshot of the Remove headers steps.](../media/10-remove-headers.png)
 
 2.  Select the ellipsis (**...**) next to the collection, and then
     choose **Export**.
     
-![Export HTTP Request](../media/11-export-http-request.png)
+![Screenshot of the Export HTTP Request steps.](../media/11-export-http-request.png)
 
 3.  Select the **Collection v1** export format, select **Export**, then
     browse to the location where you want to save the JSON file.
 
-![Export Format](../media/12-export-format.png)
+![Screenshot of the Export Collection window with steps highlighted.](../media/12-export-format.png)
 
 Create a custom connector from the Postman collection
 -----------------------------------------------------
@@ -173,16 +173,16 @@ wizard. You need to import the Postman collection for Power Apps and Power Autom
 2.  In the upper-right corner, select the gear icon and then select
     **Custom connectors**.
     
-![Icon Gear](../media/13-icon-gear.png)
+:::image type="icon" source="../media/13-icon-gear.png":::
 
 3.  Choose **Create custom connector**, then select **Import a Postman collection**.
 
-![Flow Apps Create Connector](../media/14-flow-apps-create-connector.png)
+![Screenshot of the Flow Apps Create Connector steps.](../media/14-flow-apps-create-connector.png)
 
 4.  Enter a name for the custom connector, then navigate to the Postman
     collection that you created, and select **Continue**.
     
-![Flow Apps upload collection](../media/15-flow-apps-upload-collection.png)
+![Screenshot of the Flow Apps upload collection steps.](../media/15-flow-apps-upload-collection.png)
 
  | **Parameter**            | **Value** |
  | :------------------------| :-----------------|
@@ -202,7 +202,7 @@ differences will be pointed out.
     API. The connector uses the API host and the base URL to determine
     how to call the API.
     
-![Page General](../media/16-page-general.png)
+![Screenshot of the General page with detailed information.](../media/16-page-general.png)
 
 2.  Update the description to something meaningful. This description
     displays in the custom connector's details, and it can help others
@@ -222,7 +222,7 @@ authentication.
 1.  On the **Security** page, under **Authentication type**,
     choose **API Key**.
     
-![Authentication Type](../media/17-authentication-type.png)
+![Screenshot of the Authentication Type set as API key.](../media/17-authentication-type.png)
 
 2.  Under **API Key**, specify a parameter label, name, and location.
     Specify a meaningful label, because this is displayed when someone
@@ -230,7 +230,7 @@ authentication.
     name and location must match what the API expects (in this case, the
     header you specified in Postman). Select **Connect**.
 
-![API Key Parameters](../media/18-api-key-parameters.png)
+![Screenshot of the API Key Parameter settings.](../media/18-api-key-parameters.png)
 
 | **Parameter**        | **Value** |
 | :--------------------| :-----------------------------|
@@ -260,7 +260,7 @@ here's a review of the user interface.
     learn about triggers for custom connectors in [Use webhooks with
     Azure Logic Apps and Power Automate](https://docs.microsoft.com/connectors/custom-connectors/create-webhook-trigger).
     
-![Definition Action Triggers](../media/19-definition-actions-triggers.png)
+![Screenshot of the Actions, Triggers, and References.](../media/19-definition-actions-triggers.png)
 
 2.  The **General** area displays information about the action or
     trigger currently selected. This information comes from the Postman
@@ -273,7 +273,7 @@ here's a review of the user interface.
 -   **internal** - Hidden from the user. 
 -   **important** - Always shown to the user first.
 
-![Definition General](../media/20-definition-general.png)
+![Screenshot of the General area with information about the action or triggered selected.](../media/20-definition-general.png)
 
 3.  The **Request** area displays information based on the HTTP request
     included in the Postman collection. In this case, the
@@ -281,20 +281,20 @@ here's a review of the user interface.
     "/text/analytics/v2.0/sentiment" (the full URL to the API is
     "[https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment](https://westus.api.cognitive.microsoft.com/text/analytics/v2.0/sentiment)").
     
-![Definition Request](../media/21-definition-request.png)
+![Screenshot of the Request area with information displayed based on the HTTP request.](../media/21-definition-request.png)
 
 4.  The **Response** area displays information based on the HTTP
     response included in the Postman collection. In this case, the only
     response defined is for "200" (a successful response), but you can
     define additional responses.
 
-![Definition Response](../media/22-definition-response.png)
+![Screenshot of the only Response set to 200.](../media/22-definition-response.png)
 
 5.  The **Validation** area displays any issues detected in the API
     definition. Make sure to check this area before you save a
     connector.
     
-![Definition Validation](../media/23-definition-validation.png)
+![Screenshot of the Validation succeeded message.](../media/23-definition-validation.png)
 
 ### Update the definition
 
@@ -305,17 +305,17 @@ Next you will change a few things so the connector is more user-friendly when so
 
 2.  In the **Request** area, select **body** then **Edit**.
 
-![Request body](../media/24-request-body.png)
+![Screenshot of the Request area with body edit highlighted.](../media/24-request-body.png)
 
 3.  In the **Parameter** area, you now see the three parameters that the
     API expects: ID, language, and text. Select **id** then **Edit**.
     
-![Request body ID](../media/25-request-body-id.png)
+![Screenshot of the Parameter area with the ID edit selected.](../media/25-request-body-id.png)
 
 4.  In the **Schema Property** area, update values for the parameter,
     then select **Back**.
 
-![Request edit schema](../media/26-request-edit-schema.png)
+![Screenshot of the Schema Property area with values set.](../media/26-request-edit-schema.png)
 
 | **Parameter**   | **Value** |
 | :---------------| :----------------------------------------------------|
@@ -355,29 +355,29 @@ properly.
 
 1.  On the **Test** page, choose **New connection**.
 
-![New Connection](../media/27-new-connection.png)
+![Screenshot of the New Connection on the Test page.](../media/27-new-connection.png)
 
 2.  Enter the API key from the Text Analytics API, then select **Create
     connection**.
     
-![Create Connection](../media/28-create-connection.png)
+![Screenshot of the API key and Create Connection button.](../media/28-create-connection.png)
 
 3.  Return to the **Test page**. 
 In Power Automate, go back to the **Test** page. Choose the refresh icon to make sure that the connection information is updated.
         
-![Refresh Connection](../media/29-refresh-connection.png)
+![Screenshot of the Refresh Connection button.](../media/29-refresh-connection.png)
 
 In Power Apps, go back to the list of connections available in the current environment. In the upper-right corner, select the gear icon, then select **Custom connectors**. Choose the connector that you created, then go back to the **Test** page.
 
-![Icon Gear](../media/13-icon-gear.png)
+:::image type="icon" source="../media/13-icon-gear.png":::  
 
 4.  On the **Test** page, enter a value for the **text** field (the
     other fields use the defaults that you set earlier), and then
     select **Test operation**.
 
-![Test Operation](../media/30-test-operation.png)
+![Screenshot of the text field and Test Operation button.](../media/30-test-operation.png)
 
 5.  The connector calls the API. You can review the response, which
     includes the sentiment score.
 
-![Connector Response](../media/31-connector-response.png)
+![Screenshot of the Response body field details entered.](../media/31-connector-response.png)

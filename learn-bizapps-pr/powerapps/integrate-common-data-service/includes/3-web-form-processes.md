@@ -5,7 +5,7 @@ With the **Entity Forms** feature, users can access individual records within th
 Consider a scenario where you want to capture feedback from customers after a case is closed. To increase survey completion rates, the business decides to require no additional captured information if the customer gives the case handling a rating of 5 out of 5.
 
 > [!div class="mx-imgBorder"]
-> [![Sample web form survey flow](../media/web-form-survey.png)](../media/web-form-survey.png#lightbox)
+> [![Diagram example web form survey flow.](../media/web-form-survey.png)](../media/web-form-survey.png#lightbox)
 
 In this scenario, a web form allows you to implement two pages for information capture and to add branching logic.
 
@@ -16,7 +16,7 @@ When you are designing surveys, consider whether you can extend and use a built-
 In an implementation that involves complex data capture, the business accepts applications for online training. The process is selective, and the training is highly specialized and targets a specific audience. Applicants need to satisfy some prerequisites such as educational and employment requirements.
 
 > [!div class="mx-imgBorder"]
-> [![Sample web form multi-step application](../media/web-form-application.png)](../media/web-form-application.png#lightbox)
+> [![Diagram example web form multi-step application.](../media/web-form-application.png)](../media/web-form-application.png#lightbox)
 
 Applicants might not be fully aware of the requirements and might not have all required evidence up front. The application process needs to implement the ability to suspend and resume the application and to handle multiple file uploads. Multiple entities could also be involved. Basic information and identity validation steps update the contact record while the rest of the data is captured in a separate entity for the application process.
 

@@ -1,0 +1,36 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.pad-work-different-technologies
+metadata:
+  title: Work with different technologies in Power Automate Desktop
+  description: This learning Path covers multiple technologies used with Power Automate Desktop.
+  ms.date: 02/09/2021
+  author: olegmelnykov
+  ms.author: olmelnyk
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Work with different technologies in Power Automate Desktop
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Learn how to automate email handling, Excel, user interface, and system services with Power Automate Desktop.
+prerequisites: |
+  - Basic familiarity with Power Automate Desktop
+  - Fluency with technologies involved
+iconUrl: /learn/achievements/generic-trophy.svg
+levels:
+- intermediate
+roles: 
+- maker  
+- developer 
+- functional-consultant  
+products:
+- power-platform
+- power-automate
+modules:
+- learn-bizapps.pad-files-folders-handling
+- learn-bizapps.pad-web
+- learn-bizapps.pad-ui-elements
+- learn-bizapps.pad-excel-automation
+- learn-bizapps.pad-email
+- learn-bizapps.pad-system-services-actions
+trophy: 
+  uid: learn-bizapps.pad-work-different-technologies.trophy

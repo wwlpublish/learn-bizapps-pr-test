@@ -37,4 +37,4 @@ Liquid code can be used anywhere in the portals where HTML or text content can b
 The content will now display the current time.
 
    > [!div class="mx-imgBorder"]
-   > [![Liquid sample](../media/liquid-start.png)](../media/liquid-start.png#lightbox)
+   > [![Screenshot of the liquid code on portal webpage with the current time displayed.](../media/liquid-start.png)](../media/liquid-start.png#lightbox)

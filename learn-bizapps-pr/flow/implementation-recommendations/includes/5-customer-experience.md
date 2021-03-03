@@ -45,7 +45,7 @@ through the automation of cyber security processes.
 | Microsoft Defender ATP     | Microsoft Defender ATP provides endpoint protection against malware and other malicious activities. By using the Microsoft Defender ATP, Cyber Security Analysts can automate actions such as isolating machines, performing investigation actions, removing application permissions, running antivirus scans, and much more. | Cyber Security Analyst        |
 
 Again, you might wonder why Power Platform and security-related
-connectors have been included in the preceding list. The reason is because 
+connectors have been included in the preceding list. The reason is because
 automating workloads shouldn't be restricted to app makers. Administrators
 and Cyber Security Analysts also have increasing demands on their time
 and they should try to be as efficient as possible.
@@ -54,9 +54,9 @@ In regard to cyber security, you can't rely solely on
 analysts querying logs 24 hours a day. By taking advantage of triggers
 for these security services, alerts and notifications can be sent to
 these teams where they can subsequently respond to emerging threats in
-near or real time. 
+near or real time.
 
-For some organizations, getting buy-in from security teams to use the 
-Power Platform might be challenging. However, when Cyber Security 
-Analysts have seen that the benefits solve their needs, they tend to be more open 
+For some organizations, getting buy-in from security teams to use the
+Power Platform might be challenging. However, when Cyber Security
+Analysts have seen that the benefits solve their needs, they tend to be more open
 to extending its use to other areas of the organization.

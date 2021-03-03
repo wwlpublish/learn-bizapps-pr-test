@@ -8,7 +8,7 @@ Here are some advantages of team flows:
 
 If you're the creator or an owner of a team flow, you'll find it listed on the **Team flows** tab in [Power Automate](https://flow.microsoft.com).
 
-![Team flows tab](../media/addowner5.png)
+![Screenshot of Power Automate on the My flows page with the Team flows tab highlighted.](../media/addowner5.png)
 
 > [!NOTE]
 > - Shared connections can be used only in the flow in which they were created.
@@ -28,7 +28,7 @@ You create a team flow by adding other owners to an existing flow. After new own
 
 1. Select the **Share** button for the flow that you want to change.
 
-    ![Invite another owner button](../media/addowner1.png)
+    ![Screenshot of the Team flows tab with the Invite another owner button highlighted next to the Post tweets flow.](../media/addowner1.png)
 
 1. Enter the name, email address, or group name of the person or group that you want to add as an owner.
 
@@ -46,7 +46,7 @@ You can add Microsoft SharePoint lists as co-owners of a flow. In that way, ever
 
 Any owner of a team flow can contribute connections to a flow. After another person has access to the flow, that person can use any connections in it, but only within the scope of that flow.
 
-For example, John creates a flow that updates items in SharePoint with his account, and he shares the flow with Mary. In this case, Mary will be able to change the use of SharePoint inside that flow, but not in any of her personal flows. Likewise, Mary can change the flow so that it uses her SharePoint connection, but John still won't able to use that new SharePoint connection in any of his flows. 
+For example, John creates a flow that updates items in SharePoint with his account, and he shares the flow with Mary. In this case, Mary will be able to change the use of SharePoint inside that flow, but not in any of her personal flows. Likewise, Mary can change the flow so that it uses her SharePoint connection, but John still won't able to use that new SharePoint connection in any of his flows.
 
 To view all the connections that are used by a flow, select the **Share** button, and inspect the list of embedded connections.
 
@@ -57,16 +57,16 @@ To view all the connections that are used by a flow, select the **Share** button
 
 1. On the **Team flows** tab, select the **Share** button for the flow that you want to change.
 
-    ![Invite another owner button](../media/addowner1.png)
+    ![Another screenshot of the Team flows tab with the Invite another owner button highlighted next to the Post tweets flow.](../media/addowner1.png)
 
-1. Select the **Delete** button ![user removed](../media/trash.png) for the owner that you want to remove.
+1. Select the **Delete** button for the owner that you want to remove.
 
 ## Embedded and other connections
 
 The connections that are used in a flow fall into two categories:
 
-* **Embedded**: These connections are used in the flow.
-* **Other**: These connections have been defined for the flow, but they aren't used in it.
+- **Embedded**: These connections are used in the flow.
+- **Other**: These connections have been defined for the flow, but they aren't used in it.
 
 If you stop using a connection in a flow, that connection appears in the **Other** connections list. It will remain there until an owner includes it in the flow again.
 

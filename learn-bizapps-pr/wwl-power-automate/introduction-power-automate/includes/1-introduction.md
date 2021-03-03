@@ -3,9 +3,7 @@ Power Automate is used to automate repetitive business processes. Beyond simple 
 In this module, you will:
 
 - Learn how to describe the business value and features in Power Automate
-- See how Power Automate works and looks from the user's perspective
+- See how Power Automate works and looks from the user's perspective 
 
 > [!NOTE]
 > You may have previously known Power Automate as Microsoft Flow. In October of 2019, Microsoft Flow was renamed to Power Automate to better convey that the service is able to do more than just create workflows. You will see that you still use Power Automate to create flows. This note is here as you will see some confusion in legacy content around Microsoft Flow and flows. This module will use the terms appropriately.
-
- 

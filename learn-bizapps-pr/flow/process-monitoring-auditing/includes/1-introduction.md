@@ -1,6 +1,6 @@
-Logging is the act of keeping records (logs) of events that occur while an application runs. 
+Logging is the act of keeping records (logs) of events that occur while an application runs.
 
-WinAutomation records all vital information about processes and the platform into a central log file. Through logs, users can ensure that processes run as expected and discover the source of thrown errors. 
+WinAutomation records all vital information about processes and the platform into a central log file. Through logs, users can ensure that processes run as expected and discover the source of thrown errors.
 
 All logs are displayed in the **Logs** tab of the **WinAutomation Console**
 

@@ -1,6 +1,6 @@
 Determining when delegation will and will not happen is a combination of several variables. The first thing to consider is the data source. The following table shows the different functions and whether they support delegation for Microsoft Dataverse. In this table, **Yes** means the data source does the processing across all of the records. **No** means the data source returns only the first 500 (default) records to Power Apps, and Power Apps then processes the function locally.
 
->![Dataverse delegation functions](../media/data-source-cds.png)
+>![Screenshot of table with different Dataverse delegation functions.](../media/data-source-cds.png)
 
 1.	Numbers with arithmetic expressions like `Filter(entity, field + 10 > 100)` aren't delegable. Language and TimeZone aren't delegable.
 2.	Doesn't support Trim[Ends] or Len. Supports other functions such as Left, Mid, Right, Upper, Lower, Replace, and Substitute.

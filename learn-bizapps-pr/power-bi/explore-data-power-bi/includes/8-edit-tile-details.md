@@ -7,14 +7,14 @@ To modify a tile, hover over and select the ellipsis to see the choices that are
 
 ![Screenshot of the options to modify a tile.](../media/08-power-bi-edit-tile-details.png)
 
-Select the pen icon to open the **Tile details** pane. From this pane, you can change the tile's **Title**, **Subtitle**, or include its last refresh time.
+Select Edit details to open the **Tile details** pane. From this pane, you can change the tile's **Title**, **Subtitle**, or include its last refresh time or even add a custom link to the tile.
 
 ![Screenshot of the "Tile details" dialog.](../media/08-power-bi-tile-details-menu.png)
 
 By default, when you select a dashboard tile, you're redirected to the report from which it originated. To change this behavior, use the **Set custom link** field on the **Tile details** pane. One popular use of this feature is to redirect users to the organization homepage when they select a logo image.
 
 ## Add images and text to your dashboard
-You can also add tiles that contain images, online videos, text boxes, or web content. When you select the **Add tile** link in the upper-left corner of a dashboard, the **Add tile** dialog box appears.
+You can also add tiles that contain images, online videos, text boxes, or web content. When you select the **Edit** dropdown then **Add a tile** at the top of the dashboard, the **Add a tile** dialog box appears.
 
 ![Image of the "Add tile" option and the "Add tile" dialog.](../media/08-power-bi-add-tile.png)
 

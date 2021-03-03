@@ -9,8 +9,10 @@ By the end of this module, you will be able to deploy the appropriate message bo
 ## Learning objectives
 
 In this module, you will:
+
 * Familiarize yourself with the various preset message boxes actions
 * Create your own customized message box
 
 ## Prerequisites
-* Basic familiarity with the WinAutomation process designer 
+
+* Basic familiarity with the WinAutomation process designer

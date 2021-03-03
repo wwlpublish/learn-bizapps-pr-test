@@ -22,7 +22,7 @@ Web templates are flexible; they can be rendered on their own or can be included
 Because the web template defines the content that is delivered to the client, a functional consultant would often engage a designer or developer to add CSS or JavaScript to extend a web template and add client-side functionality to the generated page.
 
 > [!div class="mx-imgBorder"]
-> [![Web Templates](../media/4-web-templates-ss.png)](../media/4-web-templates-ss.png#lightbox)
+> [![Screenshot of the Power Apps Portal Code Editor screen.](../media/4-web-templates-ss.png)](../media/4-web-templates-ss.png#lightbox)
 
 > [!NOTE] 
 > Web templates can be edited in the portals Studio if they have a corresponding page template. Web templates can't be created in the portals Studio. 

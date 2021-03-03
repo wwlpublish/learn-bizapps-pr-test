@@ -22,7 +22,7 @@ To connect to a data source, use the following procedure:
 1. Select **+ New app** and then **Canvas** from the drop-down menu.
 1. For the **OneDrive for Business** data source, select **Phone layout**.
 
-    ![Phone app from Excel](../media/powerapps-start-excel.png)
+    ![Screenshot of the Start with your data screen with Phone layout for OneDrive for Business highlighted.](../media/powerapps-start-excel.png)
 
     Generated apps are always based on a single list or table, but you can add more data to the app later. The next three steps explain how to connect to the Excel workbook.
 
@@ -35,15 +35,14 @@ To connect to a data source, use the following procedure:
 
 Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point.
 
-
 ## Explore the generated app
 Your new three-screen app now opens in Power Apps Studio.
 
 The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.
 
-![The generated app](../media/powerapps-full-screen2.png)
+![Power Apps main development window for Power Apps Studio.](../media/powerapps-full-screen2.png)
 
-Select **Play** ![Start app preview arrow](../media/powerapps-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
+Select **Play** :::image type="icon" source="../media/powerapps-arrow.png"::: in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 
 All apps that are generated from data have the same set of screens that you can view from the Screens pane:
 
@@ -63,4 +62,3 @@ To see how the app runs on mobile, install the Power Apps Mobile app on your pho
 3. On your phone or tablet, run the flooring-estimates app in Power Apps Mobile. If you do not want to install the app, you can run it in a browser.
 
 4. If you do not see the flooring-estimates app, then in your Power Apps Mobile app, select the hamburger menu in the top left of the screen and toggle on **Show non-production apps**.
-

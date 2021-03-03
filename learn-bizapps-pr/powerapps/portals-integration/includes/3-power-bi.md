@@ -3,7 +3,7 @@ You can add a Power BI report or dashboard to a webpage in a Power Apps portal t
 Before you can add a Power BI report to a Power Apps portal, you will need to enable the Power BI visualization or the Power BI Embedded service in the Power Apps portals admin center.
 
 > [!div class="mx-imgBorder"]
-> [![Enable Power BI](../media/enable-power-bi.png)](../media/enable-power-bi.png#lightbox)
+> [![Screenshot of the admin center Set up Power BI integration with Enable Power BI visualization and Enable Power BI Embedded service features.](../media/enable-power-bi.png)](../media/enable-power-bi.png#lightbox)
 
 - **Power BI visualization** - Allows you to embed *publish to web* Power BI reports for anonymous visitors or share Power BI reports or dashboards to Power BI Azure Active Directory authenticated users (for example, on an Employee self-service portal).
 - **Power BI Embedded service** - Allows you to share the Power BI reports or dashboards to external users who don't have a Power BI license or Azure Active Directory authentication set up. This feature uses the *new workspaces* feature of Power BI. For more information, see [Create the new workspaces in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces/?azure-portal=true)).
@@ -15,7 +15,7 @@ Enabling Power BI visualization allows a portal maker to add a Power BI componen
 From the Power Apps portals Studio, you can add the Power BI component to a portal page. This action will add a Liquid tag to the portal page, which can be further configured in the portals Studio source code editor, depending on the specific requirement.
 
 > [!div class="mx-imgBorder"]
-> [![Add Power BI](../media/power-bi-component.png)](../media/power-bi-component.png#lightbox)
+> [![Screenshot of the Portal components with Power BI highlighted.](../media/power-bi-component.png)](../media/power-bi-component.png#lightbox)
 
 ### Parameters
 
@@ -54,7 +54,7 @@ Filtering can be based on dynamic values, making it a great option to display pe
 Before adding the Power BI report or dashboard to a webpage in a portal, you must share it with the required users.
 
 > [!div class="mx-imgBorder"]
-> [![Power BI on a portal page](../media/power-bi-page.png)](../media/power-bi-page.png#lightbox)
+> [![Screenshot example of Power BI chart on a portal page.](../media/power-bi-page.png)](../media/power-bi-page.png#lightbox)
 
 ## Enable Power BI Embedded service
 
@@ -63,7 +63,7 @@ You can also enable and configure the Power BI Embedded service within the Power
 When you enable the Power BI Embedded service, make sure that you specify the Power BI workspaces that will be available for use on the portal.
 
 > [!div class="mx-imgBorder"]
-> [![Power BI Embedded](../media/power-bi-embedded.png)](../media/power-bi-embedded.png#lightbox)
+> [![Screenshot of the Enable Power BI Embedded service integration window.](../media/power-bi-embedded.png)](../media/power-bi-embedded.png#lightbox)
 
 When the Power BI Embedded service is activated, makers will be able to embed Power BI reports on a portal page, which will take advantage of the features and functionality of the Power BI Embedded service without makers needing to write corresponding code on the portal. You will need to have created a workspace within Power BI and added the appropriate reports, dashboards, and tiles.
 
@@ -74,7 +74,7 @@ When you are adding an embedded Power BI report, specify if the audience is for 
 ```
 
 > [!div class="mx-imgBorder"]
-> [![Organization embedded Power BI](../media/organization-embedded-power-bi.png)](../media/organization-embedded-power-bi.png#lightbox)
+> [![Screenshot of an organization embedded Power BI report.](../media/organization-embedded-power-bi.png)](../media/organization-embedded-power-bi.png#lightbox)
 
 > [!NOTE]
 > Power BI sharing requires appropriate licensing to be in place. Licensing requirements depend on the audience and method of sharing.

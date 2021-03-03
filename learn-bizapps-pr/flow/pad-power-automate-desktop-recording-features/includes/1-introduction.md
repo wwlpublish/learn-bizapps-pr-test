@@ -5,12 +5,17 @@ Let’s take a look at a common automation case. A considerable number of busine
 In this module, you will learn how to use recorders during development, and how to apply the different types of recorders according to the nature of the task at hand.
 
 By the end of this module, you will be able to understand the functionality of the two recorders, the tasks they can be used to automate, as well as the most efficient ways to deploy them.
+
 ## Learning objectives
+
 In this module, you will:
+
 * Use the desktop recorder to generate actions automating local Windows UI-based tasks
 * Deploy the web recorder to automate interactions with a web browser
 * Preview and edit the automatically generated actions during and after the recording
+
 ## Prerequisites
+
 * Basic familiarity with the Power Automate Desktop flow designer
 * Basic familiarity with the Power Automate Desktop console
 * Preconfiguration of Power Automate Desktop for web automation
