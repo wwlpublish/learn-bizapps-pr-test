@@ -1,4 +1,4 @@
-In this unit, you'll develop a flow that converts dates in the European format (dd/mm/yyyy) to the American format (mm/dd/yyyy). The flow will retrieve the date from the clipboard when the **Alt + 1** keys are pressed, and it will return the converted date. 
+In this unit, you'll develop a flow that converts dates in the European format (DD/MM/YYYY) to the American format (MM/DD/YYYY). The flow will retrieve the date from the clipboard when the **Alt + 1** keys are pressed, and it will return the converted date. 
 
 To create the flow:
 
@@ -10,9 +10,9 @@ To create the flow:
 
     ![The Build a flow dialog box.](..\media\console-build-new-flow.png)
 
-1. When the flow designer is launched, add a **Wait for hot key** action in the workspace and set it to wait for the **Alt + 1** keys.
+1. When the flow designer is launched, add a **Wait for shortcut key** action in the workspace and set it to wait for the **Alt + 1** keys.
 
-    ![The Wait for hot key action.](..\media\wait-for-hotkey-action.png)
+    ![The Wait for shortcut key action.](..\media\wait-for-shortcut-key-action.png)
 
 1. Add a **Get clipboard text** action to retrieve the current content of the clipboard.
 
