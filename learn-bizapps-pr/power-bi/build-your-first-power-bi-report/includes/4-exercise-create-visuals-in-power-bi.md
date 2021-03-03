@@ -12,24 +12,24 @@ The **Report** view has five main areas:
 4. The **Visualizations** pane, where you can change visualizations, customize colors or axes, apply filters, drag fields, and more
 5. The **Fields** pane, from which query elements and filters can be dragged either onto the **Report** view or into the **Filters** area of the **Visualizations** pane
 
-![Report view areas](../media/pbid-visuals_01.png)
+![Screenshot of the Report view five main areas.](../media/pbid-visuals_01.png)
 
 The **Visualizations** and **Fields** pane can be collapsed by selecting the small arrow along the edge, providing more space in the **Report** view to build cool visualizations.
 
-![Collapse panes](../media/pbid-visuals_02.png)
+![Screenshot of the Visualizations and Fields panes collapsed.](../media/pbid-visuals_02.png)
 
 ## Create visuals
 To create a visualization, just drag a field from the **Fields** list onto the **Report** view. In this case, let's drag the **State** field from **Ranking of best and worst states for retirement** and see what happens.
 
-![Drag a field onto the canvas](../media/pbid-visuals_03a.png)
+![Screenshot of the state field dragged onto the canvas.](../media/pbid-visuals_03a.png)
 
 Look at that: Power BI Desktop automatically created a map-based visualization, because it recognized that the **State** field has geolocation data.
 
-![A map visual](../media/pbid-visuals_03.png)
+![Screenshot of the map visual from the state field based on its geolocation data.](../media/pbid-visuals_03.png)
 
 Notice that you can select different types of visualizations in the **Visualizations** pane. Then, in the area below those icons, you can drag fields to different areas to apply a legend or change the visualization in other ways. 
 
-![The first visual](../media/pbid-visuals_04.png)
+![Screenshot of the Visualizations pane fields.](../media/pbid-visuals_04.png)
 
 Let's create a few visuals on this first report page and see what happens.
 
@@ -37,8 +37,7 @@ You can change the type of any visual by selecting it on the canvas and then sel
 
 **First visual**
 
-
-![Adjust the first visual](../media/pbid-visuals_04b.png)
+![Screenshot of the map replaced with the filled map.](../media/pbid-visuals_04b.png)
 
 You can adjust the size of a visual by dragging its corners or sides. Let's move this visual to the upper left before creating the next visual.
 
@@ -50,7 +49,7 @@ Drag **State** from **Ranking of best and worst states for retirement** onto a b
 
 We're almost done. On the **Fields** tab, move the **Crime** field to the **Line values** well. The following image shows how your visual should now look. 
 
-![Finished visual](../media/pbid-visuals_04d.png)
+![Screenshot of the finished visual example.](../media/pbid-visuals_04d.png)
 
 You can experiment with these visuals as much as you want: change the visual type, add fields, change the colors, or arrange the visual on the canvas. All these changes are fun to do, easy to undo, and quick to take effect.
 
@@ -58,7 +57,7 @@ Let's fast-forward a bit and see what the **Report** view looks like after a han
 
 The first report page provides a perspective of the data that's based on *overall rank*. When you select one of the visualizations, the **Fields and Filters** pane shows which fields are selected and the structure of the visualization (that is, which fields are applied to **Shared Axis**, **Column Values**, and **Line Values**).
 
-![A ready report page](../media/pbid-visuals_05.png)
+![Screenshot example of a ready report page.](../media/pbid-visuals_05.png)
 
 There are six **pages** in this report, each visualizing specific elements of our data:
 
@@ -71,7 +70,7 @@ There are six **pages** in this report, each visualizing specific elements of ou
 
 Here's what the page that focuses on affordability looks like.
 
-![A finished report](../media/pbid-visuals_06.png)
+![Screenshot of the page focused on affordability.](../media/pbid-visuals_06.png)
 
 There are all sorts of interesting reports and visualizations you can create. But what's best about creating reports is sharing them with others. In the next unit, we'll see just how easy it is to share Power BI reports.
 
@@ -83,6 +82,6 @@ You can add all sorts of visualizations to a page, but it's important not to ove
 
 To add a page to your report, just select **New Page** on the ribbon, or select the plus sign (**+**) next to the last report page.
 
-![Add a report page](../media/pbid-visuals_09.png)
+![Screenshot of the New page menu and add a report button.](../media/pbid-visuals_09.png)
 
 Okay, even with just a couple of visuals, you have a report. Let's move on to the next unit and learn how we can share these insight-filled reports with others.
