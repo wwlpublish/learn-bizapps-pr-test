@@ -1,27 +1,27 @@
 Data Loss Prevention (DLP) policies allow organizations to construct
 rules that permit and prevent connectors from communicating with each
 other within the same flow. Microsoft accomplishes this task by establishing
-two data groups: **Business data only** and **No business data allowed**. 
+two data groups: **Business data only** and **No business data allowed**.
 The intent of these two data groups is to put connectors that
 have the same data profile in the same data group. Grouping
 connectors means that they can communicate with each other within the
 same data group but are not able to communicate across data groups.
 
-To illustrate this concept, consider the following scenario where 
+To illustrate this concept, consider the following scenario where
 connectors have been distributed across the two data groups.
 You want to build a flow that includes the Microsoft **Word Online**,
 **Approvals**, and **Power BI** connectors. Because all of these connectors
-belong to the **Business** data group, you can confidently create and run this flow. 
+belong to the **Business** data group, you can confidently create and run this flow.
 
-Similarly, in the **Non-business** data group, you can combine 
-the **Salesforce**, **Dropbox**, and **10to8 Appointment** connectors within 
-the same flow because they all belong to the same data group. 
-However, you cannot create a flow that includes the **SQL Server** connector 
-and **Act!** connector because they belong to different data groups. 
-If you want to create a flow that included these two connectors, you will 
+Similarly, in the **Non-business** data group, you can combine
+the **Salesforce**, **Dropbox**, and **10to8 Appointment** connectors within
+the same flow because they all belong to the same data group.
+However, you cannot create a flow that includes the **SQL Server** connector
+and **Act!** connector because they belong to different data groups.
+If you want to create a flow that included these two connectors, you will
 need to move one of the connectors into the other data group.
 
-[ ![Data Loss Prevent Policy that includes connectors in the Business data only group and No Business data allowed](../media/3-data-policy.png) ](../media/3-data-policy.png#lightbox)
+[![Screenshot of the Data Loss Prevention Policy that includes connectors in the Business data only group and No Business data allowed.](../media/3-data-policy.png)](../media/3-data-policy.png#lightbox)
 
 Additionally, you can specify one data group to be the default data
 group. Select the data policy you want to make default and choose the **Edit policy** button at the top. To change the default data group, go to **Connectors** and choose the **Set default group** button in the upper- right corner.
@@ -34,14 +34,14 @@ that are deployed to an environment.
 
 DLP policies can belong to two different scopes: environment and tenant. An environment-scoped DLP policy only applies to
 that specific environment, whereas a tenant-scoped DLP policy applies to
-all environments in that tenant. When creating a new DLP policy, 
+all environments in that tenant. When creating a new DLP policy,
 policy authors have a few options that they can choose from, including the
 ability to **Add all environments** (tenant), **Add multiple environments**, and **Exclude certain environments**.
 
 When a DLP author selects **Add all environments**, this setting
 also ensures that new environments have this DLP policy applied.
 
-![DLP policy applied](../media/3-dlp-applied.png)
+![Screenshot of the Screenshot of the Data Loss Prevention policy applied.](../media/3-dlp-applied.png)
 
 Environments can have multiple DLP policies applied, which provides for
 more governance scenarios to be implemented. However, when multiple DLP
