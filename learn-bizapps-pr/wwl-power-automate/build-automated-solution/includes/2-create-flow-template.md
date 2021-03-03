@@ -1,7 +1,7 @@
-With the hundreds of triggers, actions and connectors, sometimes the hardest part about Power Automate can be figuring out where to get started. To help you get started, there are countless flow templates available to help you build a solution. To see all of the available templates you can sign into [Power Automate](https://ms.flow.microsoft.com/), and select **Templates** from the left-hand menu. 
+With the hundreds of triggers, actions and connectors, sometimes the hardest part about Power Automate can be figuring out where to get started. To help you get started, there are countless flow templates available to help you build a solution. To see all of the available templates, you can sign into [Power Automate](https://ms.flow.microsoft.com/en-us/) and select **Templates** from the left-hand menu. 
     ![Power Automate template archive](../media/flow-templates.png)
 
-From here, you can search by a specific word or phrase like "Microsoft Dataverse" or you can browse based on category. 
+From here, you can search by a specific word or phrase like "Dataverse" or you can browse based on category. 
 
 If you click on a specific template, you will see details about the template including the data sources it will connect to. 
     ![template click in details](../media/email-report-template.png)
@@ -28,7 +28,7 @@ You'll be asked to provide credentials for the Microsoft Office 365 Outlook and 
 
 - The flow will then create a folder on your OneDrive for Business account to automatically put every attachment that's sent to your work email address in that folder.
 
-Now that the flow is created, you can click Edit to see the details of what was created for you.
+Now that the flow is created, you can click **Edit** to see the details of what was created for you.
 
 From the flow builder, you can now click through the trigger and the actions to see how this flow was built for you. As you can see, there is no code and everything is accessible to customize or extend to better meet your business needs. 
 For example, maybe try configuring the flow to only process for emails from your boss. Here is a hint: Click on **Show advanced options** for the **On new email** trigger. 
