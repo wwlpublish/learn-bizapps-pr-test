@@ -19,7 +19,7 @@ When the app is put into Play Mode, it looks completely different.
 
 With Model-driven apps, the name says it all. Your primary design goal is to get your Microsoft Dataverse data model in order. With that in place, you can connect Power Apps, and a Model-driven app will be created for you from that model. 
 
-Model-driven apps are created using the App Designer.  You will choose the entities, dashboards, Business Process flows, forms, and other components that you want to make available in your app, and then the app will be created for you. This means you will need to spend more time understanding what your user needs than how it is going to look.
+Model-driven apps are created using the App Designer.  You will choose the tables, dashboards, Business Process flows, forms, and other components that you want to make available in your app, and then the app will be created for you. This means you will need to spend more time understanding what your user needs than how it is going to look.
 
 ### Business Requirements
 
@@ -40,7 +40,7 @@ As you begin the data modeling process, there are a couple of important question
 
 These questions are important when designing a model-driven application because of how model-driven applications function.  Remember, model-driven applications use a metadata-driven architecture. This means a large portion of the model-driven app is based on how your data is modeled, and there is no need to write custom code to alter the app design. To expand on this a little further, when thinking about Metadata this simply means “data about data” and this data defines the structure stored in the system. 
 
-You can view the app metadata by reviewing the Entity in the Dataverse.
+You can view the app metadata by reviewing the table in the Dataverse.
 
 ![Screenshot of app metadata of entity in the Dataverse.](../media/metadata-example.png)
 
@@ -48,7 +48,7 @@ You can also view the app metadata by putting the app in Play mode.
 
 ![Screenshot of app metadata in play mode.](../media/play-app-metadata-example.png)
 
-In the example above, for the Fundraiser Entity, there are several pieces of metadata being collected, such as:
+In the example above, for the Fundraiser table, there are several pieces of metadata being collected, such as:
 
 - Name
 - Fundraiser Goal
@@ -58,29 +58,29 @@ In the example above, for the Fundraiser Entity, there are several pieces of met
 
 Each solution you develop and deploy will have its own set of metadata to collect. This basic understanding of metadata is important as you continue the design process and modeling your app data. 
 
-As you think about your data model also think about field types. When adding fields to your entity in the Dataverse, the field type you choose will determine how users enter and view that in your Model-driven app. Option sets show as dropdowns, currency shows with currency symbols, while decimal numbers don’t. These little changes in the entity can have a profound effect on how your user experiences your app.
+As you think about your data model also think about column types. When adding columns to your table in the Dataverse, the column type you choose will determine how users enter and view that in your Model-driven app. Option sets show as dropdowns, currency shows with currency symbols, while decimal numbers don’t. These little changes in the table can have a profound effect on how your user experiences your app.
 
 > [!NOTE]
-> If a field type needs to be changed to a different field type, (i.e. text field to an option set), then you will need to delete that field and recreate with the correct field type. This will cause you to lose any data associated with that field.
+> If a column type needs to be changed to a different column type, (i.e. text column to an option set), then you will need to delete that column and recreate with the correct column type. This will cause you to lose any data associated with that column.
 
-![Screenshot of fundraiser entity default fields.](../media/entity-field-types.png)
+![Screenshot of fundraiser table default columns](../media/table-column-types.png)
 
 ### User Interface (UI) and User Experience (UX)
 
-When building a Model-driven app, most of the UI and UX are predetermined for you. You define the data model to build from, and then Power Apps determines the controls used in the app. You can influence these controls by determining what entity assets you include. You define in the App Designer What Forms, Views, Charts, and Dashboards are used in the app. You also control the navigation options via the Site Map. As you are planning your app, determine which components are needed in the app design, and create them before building your app. 
+When building a Model-driven app, most of the UI and UX are predetermined for you. You define the data model to build from, and then Power Apps determines the controls used in the app. You can influence these controls by determining what table assets you include. You define in the App Designer What Forms, Views, Charts, and Dashboards are used in the app. You also control the navigation options via the Site Map. As you are planning your app, determine which components are needed in the app design, and create them before building your app. 
 
 To continue building off of the example we’ve been using throughout this module, below is a simple Model-driven Form, which captures various pieces of information for creating a New Fundraiser. 
 
  
 Here is an example of what the New Fundraiser form looks like when editing from the App Designer.
 
-![Screenshot example of New Fundraiser form.](../media/new-fundraiser-form.png)
+![Screenshot example of new Fundraiser form.](../media/new-fundraiser-form.png)
 
 ### Business Logic
 
-When incorporating business logic in your app, there are two primary options available. You can set **Business Rules** on your Dataverse entities or you can build **Business Process Flows**.
+When incorporating business logic in your app, there are two primary options available. You can set **Business Rules** on your Dataverse tables or you can build **Business Process Flows**.
 
-With **Business Rules,** you will define behaviors at the data layer. This is great for changing when a field is required, setting a default value, or even showing or hiding a field based on a criteria. An example could be an entity for tracking expenses. You could have a field for type of travel and then build a business rule that says if they choose automobile then the mileage field is required, else it is optional. This gives you great power to make sure you maintain data consistency in all scenarios. 
+With **Business Rules,** you will define behaviors at the data layer. This is great for changing when a column is required, setting a default value, or even showing or hiding a column based on a criteria. An example could be an table for tracking expenses. You could have a column for type of travel and then build a business rule that says if they choose automobile then the mileage column is required, else it is optional. This gives you great power to make sure you maintain data consistency in all scenarios. 
 
 **Business Process Flows** are used to guide users through using your app. These workflows can provide visuals on next steps based on the status of the data and facilitate other actions that you want to occur as the user uses the app. Business Process Flows let you bring automation to your app and make it more of a guided experience than just a place to enter data.
 

@@ -13,6 +13,10 @@ Specifically, you'll learn how to:
 To share an app, you must have the Environment Admin or System Admin role.
 
 ## Scenario
+> [!NOTE] 
+> This scenario builds on ideas and concepts from the previous units. To complete this exercise, you will first need to create an app as described in the previous unit of this module and create the Pet
+> entity as described in unit [Create a Microsoft Dataverse entity](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-entity) of [Get started with Dataverse Service module](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/).
+
 This unit uses the example of a company named Contoso, which has a pet grooming business that services dogs and cats. An app that has a custom entity for tracking the pet grooming business has already been created and published.
 
 The app must be shared so that the pet grooming staff can use it. To share the app, an admin or app maker assigns one or more security roles to users and to the app.
@@ -34,9 +38,6 @@ To learn more about access and the scope of the different privileges, see [Secur
 
 ## Create a custom security role
 1. Sign in to [Power Apps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
-> [!NOTE] 
-> To complete this exercise, you will first need to create an app as described in the previous unit of this module and create the Pet
-> entity as described in unit [Create a Microsoft Dataverse entity](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-entity) of [Get started with Dataverse Service module](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/).
 
 2. For your new app, select the **...** to the right of the name, and then click **Share**.
 3. In the **Share** dialog box, select your app at the top left and then select the drop-down next to the environment on the right. Select **Manage security role**.
@@ -77,14 +78,6 @@ Security roles control a user's access to data through a set of access levels an
 3. Select the drop-down next to the environment name and choose **Pet Grooming Schedulers** security role to assign it to that user. 
 4. Select **Share** at the bottom when finished.
 
-## Share the link to your app
-1. In the **Share this app** dialog box, under **Share the link to your app directly with users**, copy the URL that's shown.
-1. Select **Close**.
-1. Paste the URL in a location where your users can access it. For example, you can post the URL on a Microsoft SharePoint site or send it in an email.
-
-You can also find the app URL on the **Properties** tab in the App Designer.
-
-![Screenshot of the copying a Web U R L icon.](../media/app-designer-copy-web-url.png)
 
 ## About predefined security roles
 The following predefined roles are available with a PowerApps environment. Unless otherwise noted, all the privileges have global scope.
