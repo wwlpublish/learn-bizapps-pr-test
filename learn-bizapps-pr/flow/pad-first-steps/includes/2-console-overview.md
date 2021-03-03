@@ -1,4 +1,4 @@
-When you launch Power Automate Desktop, the first window that appears on the screen is called the *console*. The console is the main component of the platform from which you can manage your existing flows and launch the flow designer to edit them or create new ones. 
+When you launch Power Automate Desktop, the first window that appears on the screen is called the console. The console is the main component of the platform from which you can manage your existing flows and launch the flow designer to edit them or create new ones. 
 
 ![Power Automate Desktop console.](..\media\console.png)
 
