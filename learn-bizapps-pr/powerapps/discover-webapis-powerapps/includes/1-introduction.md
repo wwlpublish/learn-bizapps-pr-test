@@ -15,6 +15,18 @@ Green Leaf's business has grown exponentially over the past year. Along with tha
 
 Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals develop applications that are easy to create and deploy. She wants to build a Power App with existing Web APIs through a custom connector.
 
+:::row:::
+  :::column span="4":::
+    Crystal is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of Green Leaf’s applications but is getting stretched thin by all the new requests. Crystal is familiar with Power Apps at a high-level and is eager to learn how she can use her existing skills to empower Citizen Developers.
+  :::column-end:::
+  :::column:::
+    ![Cartoon depiction of Crystal](../../shared/media/crystal.png)
+  :::column-end:::
+:::row-end:::
+
+
+Crystal and her development team have built Web APIs for the inventory management, which is served through [Azure API Management][az apim]. She expects that Maria will be able to build a Power App through a custom connector with Azure API Management.
+
 
 ## What Is a Custom Connector? ##
 
@@ -35,6 +47,7 @@ After completing this module, you will be able to:
 * Familiarity with the concept of Web API (or HTTP API). Custom connectors use Web APIs to send and receive data.
 
 
-[image-01]: https://picsum.photos/seed/1-introduction-01.png/300/300
+[image-01]: ../media/1-introduction-01.png
 
+[az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
 [az cuscon]: https://docs.microsoft.com/connectors/custom-connectors/
