@@ -2,7 +2,7 @@ You learned about the following topics in this module:
 
 - Basic Power BI concepts around data connections
 
-- Data transformation techniques by using Power Query editor
+- Data transformation techniques using Power Query editor
 
 - How to create and manage relationships in Power BI Desktop
 

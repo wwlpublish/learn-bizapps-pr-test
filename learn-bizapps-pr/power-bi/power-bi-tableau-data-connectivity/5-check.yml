@@ -31,7 +31,7 @@ quiz:
     choices: 
     - content: DirectQuery mode and live connections
       isCorrect: true 
-      explanation: Both DirectQuery mode and live connections directly connect to the data source and leverage its performance.
+      explanation: Both DirectQuery mode and live connections directly connect to the data source and use its performance.
     - content: DirectQuery mode and extracts
       isCorrect: false 
       explanation: DirectQuery mode allows users to query the data source itself, while Tableau extracts are compressed snapshots of data stored on disk and loaded into memory.

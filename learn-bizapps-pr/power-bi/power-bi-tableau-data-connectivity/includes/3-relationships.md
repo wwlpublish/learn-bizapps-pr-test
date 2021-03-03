@@ -5,7 +5,7 @@ Relationships matter, especially when it comes to your data.
 Relationships allow users to query data from multiple tables. The only way for this approach to work is through a matching field between the multiple tables. Power BI refers to this field as a relationship field.
 
 > [!div class="mx-imgBorder"]
-> [![A relationship view in Power BI with multiple relationship fields](../media/relationships.png)](../media/relationships.png#lightbox)
+> [![A relationship view in Power BI with multiple relationship fields.](../media/relationships.png)](../media/relationships.png#lightbox)
 
 Before you further explore the importance of the relationship field, you need to learn more about dimensional modeling, which will help you better structure your relationship model. By now, you should have hands-on experience creating a snowflake branch on your model, in addition to an understanding of the difference between dimension and fact tables and between normalized and de-normalized tables.
 
@@ -56,7 +56,7 @@ A one-to-one relationship means that each record in a table relates to one, and 
 
 A one-to-many relationship means that a record in one table can relate to zero, one, or many records in another table. For example, in the snowflake model, one customer could have multiple addresses, depending on if the customer has moved multiple times and if the customer has made purchases using the different addresses.
 
-A many-to-many relationship means that zero, one, or many records in one table can relate to zero, one, or many records in another table. In reference to the previous snowflake model, the example would be that customers can purchase various products, and products can be purchased by many customers.
+A many-to-many relationship means that zero, one, or many records in one table can relate to zero, one, or many records in another table. In reference to the previous snowflake model, the example would be that customers can purchase various products, and many customers can purchase products.
 
 ### Tableau compared to Power BI
 
