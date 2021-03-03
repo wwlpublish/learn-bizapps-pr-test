@@ -1,8 +1,8 @@
-Using standardized text and data formats is a widespread practice across enterprises, ensuring the integrity and the readability of data. Maintaining uniformity in numerical, text, and date values is of paramount importance, especially in areas such as finance and logistics. 
+Using standardized text and data formats is a widespread practice across enterprises, ensuring the integrity and the readability of data. Maintaining uniformity in numerical, text, and date values is of paramount importance, especially in areas such as finance and logistics.
 
 Furthermore, text manipulation and parsing are crucial to data extraction and process formalization. Converting data in the same patterned formats guarantees the expected behavior of the process and improves the cooperation between different data handling procedures.
 
-In business environments, Microsoft Excel registries, databases, and reports require identical data formats to make information more accessible and give users the ability to search for it in a faster and more effective way. 
+In business environments, Microsoft Excel registries, databases, and reports require identical data formats to make information more accessible and give users the ability to search for it in a faster and more effective way.
 
 ## Learning objectives
 

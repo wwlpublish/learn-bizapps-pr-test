@@ -46,12 +46,12 @@ In this exercise, you will create the **Sales Exploration** report.
 1.  Open Power BI Desktop and dismiss the welcome screen.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-1-ssm.png)](../media/lab-1-ssm.png#lightbox)
+	> [![Screenshot of the Power BI desktop button.](../media/lab-1-ssm.png)](../media/lab-1-ssm.png#lightbox)
 
 1.  Save the file to the **D:\DA100\MySolution** folder as **Sales Exploration**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
+	> [![Screenshot of the File named Sales Exploration.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
 
 1.  Create a live connection to your **Sales Analysis** dataset.
 
@@ -59,7 +59,7 @@ In this exercise, you will create the **Sales Exploration** report.
 	> Use the **Get Data** command on the **Home** ribbon tab, and then select **Power BI datasets**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
+	> [![Screenshot of the Get Data command and Power BI datasets option.](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
 
 You will now create four report pages. On each page, you'll work with a different visual to analyze and explore data.
 
@@ -70,15 +70,15 @@ In this exercise, you will create a scatter chart that can be animated.
 1.  Rename **Page 1** as **Scatter Chart**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-4-ssm.png)](../media/lab-4-ssm.png#lightbox)
+	> [![Screenshot of Page 1 renamed as Scatter Chart.](../media/lab-4-ssm.png)](../media/lab-4-ssm.png#lightbox)
 
 1.  Add a scatter chart visual to the report page, and then reposition and resize it so that it fills the entire page.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
+	> [![Screenshot of the scatter chart visualization.](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-6-ss.png)](../media/lab-6-ss.png#lightbox)
+	> [![Screenshot of the scatter chart on the report page repositioned and resized to fill the page.](../media/lab-6-ss.png)](../media/lab-6-ss.png#lightbox)
 
 1.  Add the following fields to the visual wells:
 
@@ -93,7 +93,7 @@ In this exercise, you will create a scatter chart that can be animated.
 	-   Play Axis: **Date | Quarter**
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-7-ssm.png)](../media/lab-7-ssm.png#lightbox)
+	> [![Screenshot of the legend, X axis, Y axis, Size, and Play axis fields.](../media/lab-7-ssm.png)](../media/lab-7-ssm.png#lightbox)
 
 	The chart can be animated when a field is added to the **Play Axis** well.
 
@@ -102,12 +102,12 @@ In this exercise, you will create a scatter chart that can be animated.
 1.  In the filter card, filter by **Bikes**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-8-ssm.png)](../media/lab-8-ssm.png#lightbox)
+	> [![Screenshot of the filter card filtered by Bikes.](../media/lab-8-ssm.png)](../media/lab-8-ssm.png#lightbox)
 
 1.  To animate the chart, in the lower-left corner, select **Play**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox)
+	> [![Screenshot of the Play button used to animate the chart.](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox)
 
 1. Watch the entire animation cycle from **FY2018 Q1** to **FY2020 Q4**.
 
@@ -130,15 +130,15 @@ In this exercise, you will create a forecast to determine possible future sales 
 1. Add a new page, and then rename the page to **Forecast**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-10-ssm.png)](../media/lab-10-ssm.png#lightbox)
+	> [![Screenshot of the new page renamed Forecast.](../media/lab-10-ssm.png)](../media/lab-10-ssm.png#lightbox)
 
 1. Add a line chart visual to the report page, and then reposition and resize it so that it fills the entire page.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
+	> [![Screenshot of the line chart visualization.](../media/lab-11-ssm.png)](../media/lab-11-ssm.png#lightbox)
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-12-ss.png)](../media/lab-12-ss.png#lightbox)
+	> [![Screenshot of the line chart added to the report page repositioned and resized to fill the page.](../media/lab-12-ss.png)](../media/lab-12-ss.png#lightbox)
 
 1. Add the following fields to the visual wells:
 
@@ -147,38 +147,38 @@ In this exercise, you will create a forecast to determine possible future sales 
 	-   Values: **Sales | Sales**
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
+	> [![Screenshot of the Axis and Values fields populated.](../media/lab-13-ssm.png)](../media/lab-13-ssm.png#lightbox)
 
 1. In the **Filters** pane, add the **Date | Year** field to the **Filters on this page** well.
 
 1. In the filter card, filter by two years: **FY2019** and **FY2020**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-14-ssm.png)](../media/lab-14-ssm.png#lightbox)
+	> [![Screenshot of the filter card filtered by FY2019 and FY2020.](../media/lab-14-ssm.png)](../media/lab-14-ssm.png#lightbox)
 
 	When forecasting over a time line, you will need at least two cycles (years) of data to produce an accurate and stable forecast.
 
 1. Add the **Product | Category** field to the **Filters on this page** well, and then filter by **Bikes**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-15-ssm.png)](../media/lab-15-ssm.png#lightbox)
+	> [![Screenshot of the product category filtered by Bikes.](../media/lab-15-ssm.png)](../media/lab-15-ssm.png#lightbox)
 
 1. To add a forecast, beneath the **Visualizations** pane, select the **Analytics** pane.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-16-ssm.png)](../media/lab-16-ssm.png#lightbox)
+	> [![Screenshot of the Analytics pane under the Visualizations pane.](../media/lab-16-ssm.png)](../media/lab-16-ssm.png#lightbox)
 
 1. Expand the **Forecast** section.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-17-ssm.png)](../media/lab-17-ssm.png#lightbox)
+	> [![Screenshot of the Forecast section expand feature.](../media/lab-17-ssm.png)](../media/lab-17-ssm.png#lightbox)
 
 	If the **Forecast** section is not available, it's likely because the visual hasn't been correctly configured. Forecasting is only available when two conditions are met: the axis has a single field of type Date and only one value field exists.
 
 1. Select **Add**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-18-ssm.png)](../media/lab-18-ssm.png#lightbox)
+	> [![Screenshot of the Add feature in the Forecast section.](../media/lab-18-ssm.png)](../media/lab-18-ssm.png#lightbox)
 
 1. Configure the following forecast properties:
 
@@ -191,7 +191,7 @@ In this exercise, you will create a forecast to determine possible future sales 
 1. Select **Apply**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-19-ssm.png)](../media/lab-19-ssm.png#lightbox)
+	> [![Screenshot of the Apply button on the forecast properties details page.](../media/lab-19-ssm.png)](../media/lab-19-ssm.png#lightbox)
 
 1. In the line visual, notice that the forecast has extended one month beyond the history data.
 
@@ -210,7 +210,7 @@ In this exercise, you will create a decomposition tree to explore the relationsh
 1. Add a new page, and then rename the page to **Decomposition Tree**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
+	> [![Screenshot of the new page renamed Decomposition Tree.](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
 
 1. On the **Insert** ribbon, from inside the **AI visuals** group, select **Decomposition Tree**.
 
@@ -218,12 +218,12 @@ In this exercise, you will create a decomposition tree to explore the relationsh
 	> The AI visuals are also available in the **Visualizations** pane.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-21-ssm.png)](../media/lab-21-ssm.png#lightbox)
+	> [![Screenshot of the Decomposition Tree on the Insert ribbon.](../media/lab-21-ssm.png)](../media/lab-21-ssm.png#lightbox)
 
 1. Reposition and resize the visual so that it fills the entire page.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-22-ss.png)](../media/lab-22-ss.png#lightbox)
+	> [![Screenshot of the visual repositioned and resized to fill the screen.](../media/lab-22-ss.png)](../media/lab-22-ss.png#lightbox)
 
 1. Add the following fields to the visual wells:
 
@@ -232,29 +232,29 @@ In this exercise, you will create a decomposition tree to explore the relationsh
 	-   Explain by: **Reseller | Geography** (the entire hierarchy)
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-23-ssm.png)](../media/lab-23-ssm.png#lightbox)
+	> [![Screenshot of the Analyze and Explain by fields added to the visual wells.](../media/lab-23-ssm.png)](../media/lab-23-ssm.png#lightbox)
 
 1. In the **Filters** pane, add the **Date | Year** field to the **Filters on this page** well, and then set the filter to **FY2020**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-24-ssm.png)](../media/lab-24-ssm.png#lightbox)
+	> [![Screenshot of the Date Year field filtered by FY2020.](../media/lab-24-ssm.png)](../media/lab-24-ssm.png#lightbox)
 
 1. In the **Decomposition Tree** visual, notice that the root of the tree is **Profit Margin** at **-0.94%**
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-25-ss.png)](../media/lab-25-ss.png#lightbox)
+	> [![Screenshot of the Decomposition Tree visual Profit Margin -0.94%.](../media/lab-25-ss.png)](../media/lab-25-ss.png#lightbox)
 
 1. Select the plus (**+**) icon, and in the context menu, select **High value**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-26-ssm.png)](../media/lab-26-ssm.png#lightbox)
+	> [![Screenshot of the High value from the plus icon.](../media/lab-26-ssm.png)](../media/lab-26-ssm.png#lightbox)
 
    Notice that the decision tree presents resellers, which are ordered from the highest profit margin.
 
 1. To remove the level, at the top of visual, beside the **Reseller** label, select **X**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-27-ssm.png)](../media/lab-27-ssm.png#lightbox)
+	> [![Screenshot of the x used to remove the level.](../media/lab-27-ssm.png)](../media/lab-27-ssm.png#lightbox)
 
 1. Select the plus (**+**) icon again and then expand to the **Country-Region** level.
 
@@ -269,7 +269,7 @@ In this exercise, you will create a decomposition tree to explore the relationsh
 1. Notice that root cause can be clearly isolated.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-28-ss.png)](../media/lab-28-ss.png#lightbox)
+	> [![Screenshot example of the root cause isolated.](../media/lab-28-ss.png)](../media/lab-28-ss.png#lightbox)
 
 	United States is not producing profit in FY2020. New York is one state that is not achieving positive profit, and it's due to four resellers paying less than standard costs for their goods.
 
@@ -282,7 +282,7 @@ In this exercise, you will use the **Key influencers** AI visual to determine wh
 1. Add a new page, and then rename the page to **Key Influencers**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-29-ssm.png)](../media/lab-29-ssm.png#lightbox)
+	> [![Screenshot of the new page renamed Key Influencers.](../media/lab-29-ssm.png)](../media/lab-29-ssm.png#lightbox)
 
 1. On the **Insert** ribbon, from inside the **AI visuals** group, select **Key influencers**.
 
@@ -290,12 +290,12 @@ In this exercise, you will use the **Key influencers** AI visual to determine wh
 	> AI visuals are also available in the **Visualizations** pane.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
+	> [![Screenshot of Key Influencers in the Visualizations pane.](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
 
 1. Reposition and resize the visual so that it fills the entire page.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-31-ss.png)](../media/lab-31-ss.png#lightbox)
+	> [![Screenshot of the visual resized and repositioned to fill the page.](../media/lab-31-ss.png)](../media/lab-31-ss.png#lightbox)
 
 1. Add the following fields to the visual wells:
 
@@ -306,26 +306,26 @@ In this exercise, you will use the **Key influencers** AI visual to determine wh
 	-   Expand by: **Sales | Quantity**
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-32-ssm.png)](../media/lab-32-ssm.png#lightbox)
+	> [![Screenshot of Analyze, Explain by, and Expand by added to the visual wells.](../media/lab-32-ssm.png)](../media/lab-32-ssm.png#lightbox)
 			
 1. In the upper left of the visual, notice that **Key influencers** is in focus, and the specific influence is set to determine **What influences Profit Margin to increase**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-33-ssm.png)](../media/lab-33-ssm.png#lightbox)
+	> [![Screenshot of the Key influencers in focus with the specific influence set to What influences Profit Margin to increase.](../media/lab-33-ssm.png)](../media/lab-33-ssm.png#lightbox)
 
 1. Review the result, which is that the city of **Bothel** is likely to increase.
 
 1. Modify the target to determine what influences the profit margin to *decrease*.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-34-ssm.png)](../media/lab-34-ssm.png#lightbox)
+	> [![Screenshot of the target modified to determine what influences the profit margin to decrease.](../media/lab-34-ssm.png)](../media/lab-34-ssm.png#lightbox)
 
 1. Review the result.
 
 1. To detect segments, in the upper-left corner, select **Top segments**.
 
 	> [!div class="mx-imgBorder"]
-	> [![alt text](../media/lab-35-ssm.png)](../media/lab-35-ssm.png#lightbox)
+	> [![Screenshot of the Top segments selected.](../media/lab-35-ssm.png)](../media/lab-35-ssm.png#lightbox)
 
 1. Notice that the target is now to determine segments when profit margin is likely to be high.
 
