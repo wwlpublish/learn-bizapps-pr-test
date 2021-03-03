@@ -18,7 +18,9 @@ To create the flow:
 
     ![The Copy folder action.](..\media\exercise-copy-folder-action.png)
 
-1. Deploy a **Launch Excel** action to open the Excel file that contains the logs about your backup activity.
+1. Deploy a **Launch Excel** action to open the Excel file that contains the logs about your backup activity. 
+
+    1. If this file doesn't already exist, create a blank Excel spreadsheet named **Logs.xlsx** in the **Desktop** folder so that the automation will be able to open it as an existing file. 
 
     ![The Launch Excel action.](..\media\exercise-launch-excel-action.png)
 
@@ -30,9 +32,15 @@ To create the flow:
 
     ![The Get current date and time action.](..\media\exercise-get-current-date-and-time-action.png)
 
-1. Deploy two **Write to Excel worksheet** actions to add log information in the Excel file. Use the first one to write the copied folder's path in the first column and the second one to add a timestamp in the second column of the first available row.
+1. Deploy two **Write to Excel worksheet** actions to add log information in the Excel file. 
 
-    ![The Write to Excel worksheet action.](..\media\exercise-write-to-excel-worksheet-action.png)
+    1. Use the first **Write to Excel worksheet** action to write the copied folder's path in the first column.
+
+        ![The Write to Excel worksheet action writing the folder's path.](..\media\exercise-write-to-excel-worksheet-action.png)
+    
+    1. Use the second deployed action to add a timestamp in the second column of the first available row.
+
+        ![The Write to Excel worksheet action writing the timestamp.](..\media\exercise-write-to-excel-worksheet-second-action.png)
 
 1. Use a **Close Excel** action to save and close the Excel file.
 
