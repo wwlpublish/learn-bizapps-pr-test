@@ -32,4 +32,4 @@ This action accepts a browser instance and a JavaScript function as inputs and t
 
 You can select the **Use Template** button to automatically create the JavaScript function's main structure.
 
-![Screenshot of the Execute Javascript Function on Web Page action.](..\media\execute-javascript-function-on-web-page-actions.png)
+![Screenshot of the Execute JavaScript Function on Web Page action.](..\media\execute-javascript-function-on-web-page-actions.png)
