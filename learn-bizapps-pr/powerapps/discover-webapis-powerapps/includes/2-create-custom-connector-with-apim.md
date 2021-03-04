@@ -1,61 +1,128 @@
-In order to use Web APIs in Power Apps, you should create a custom connector. There are several ways creating the custom connector.
+:::row:::
+  :::column span="4":::
+    Crystal is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of Green Leaf’s applications but is getting stretched thin by all the new requests. Crystal is familiar with Power Apps at a high-level and is eager to learn how she can use her existing skills to empower Citizen Developers.
+  :::column-end:::
+  :::column:::
+    ![Cartoon depiction of Crystal](../../shared/media/crystal.png)
+  :::column-end:::
+:::row-end:::
 
-![Many Ways Creating Custom Connector][image-01]
 
-This time, you are going to use [Azure API Management][az apim] to create a custom connector.
+Crystal and her development team have built Web APIs for the inventory management, which is served through [Azure API Management][az apim]. She wants to create a custom connector by exporting it to Power Apps so that Maria can directly use it on her Power Apps, without needing to know about API Management.
 
 
-## APIs on API Management ##
+> QUESTION: Do we provide a pre-built APIM instance here so that learners can visually walk through the process? To avoid dependency on the previous module, what could be the best way to provide context about APIM here?
+
+## Export Custom Connector from API Management ##
 
 Here is the inventory management API details hosted by API Management.
 
-![Inventory Management APIs on API Management][image-02]
+In order to access to API Management from Power Apps, you should have a subscription key. Go to the `Subscriptions` blade, click the three dots (`...`) and select the `Show/hide keys` menu.
 
-In order to access to API Management from outside, you should have a subscription key. Go to the `Subscriptions` blade, click the three dots (`...`) and select the `Show/hide keys` menu.
-
-![Subscription Blade][image-03]
+![Subscription Blade][image-01]
 
 Then, copy the subscription key from either `Primary key` or `Secondary key`.
 
-![Copy Subscription Key][image-04]
+![Copy Subscription Key][image-02]
+
+To generate a custom connector from Azure API Management, go to the `APIs` blade and select **Green Leaf Inventory Management** under the `All APIs` section. Then, you will be able to see the list of APIs.
+
+![Inventory Management APIs on API Management][image-03]
+
+Click the three dots (`...`) and you will see the context menu. Select the `Export ⬇️` menu.
+
+![API Export Menu on API Management][image-04]
+
+Click the `Power Apps and Power Automate` panel at the right bottom corner.
+
+![API Export Screen on API Management][image-05]
+
+Choose your Power Apps environment for the custom connector to publish and give the display name, **InventoryManager**. Then click the `Export` button at the bottom.
+
+![Export API to Power Apps][image-06]
+
+The inventory management APIs have been exported to Power Apps.
 
 
-## Create Custom Connector Directly from API Management ##
+## Create Connection to Custom Connector ##
 
-After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu at the left-hand side. Then, click the `➕ New custom connector` drop down menu at the right top corner and select the `Create from Azure Service (Preview)` menu.
+Although you created the custom connector, in order to use it, you should create a connection to the custom connector. Generally speaking, creating the connection requires authentication to the APIs.
 
-![New Custom Connector][image-05]
+> **What's the difference between connector and connection?**
+> 
+> A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. It doesn't actually connect you to the APIs. On the other hand, a connection knows the connection details how you connect to the APIs, including authentication details. Power Apps use the connection to communicate with APIs through the connector.
 
-When a modal is open, enter the following information:
+After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu at the left-hand side. Then, click the `➕` button at the right-hand side.
 
-* Give **InventoryManager** to Connector name.
-* Select your Azure subscription.
-* Choose **API Management** as Azure service.
-* Select the API Management instance, **apim-greenleaf-wus2**, for the inventory management.
-* Choose the API name, **green-leaf-inventory-management**, from the selected API Management instance.
+![New Custom Connector][image-07]
 
-Then, click the `Continue` button.
+> **NOTE**:
+> 
+> The following part is based on current bug of the custom connector created from API Management. This should be updated once this bug is fixed.
 
-![Custom Connector Details][image-06]
 
-At the General information section, confirm `Scheme`, `Host` and `Base URL` values whether they are identified from the API management above. Then, click the `Security ➡️` button.
+### ⬇️⬇️⬇️ Bug Workaround Part Begin ⬇️⬇️⬇️ ###
 
-![General Information][image-07]
+When a pop up modal shows up, you will only see two buttons&ndash;`Cancel` and `Create`. Close the modal by clicking the `Cancel` button.
 
-At the Security section, confirm `API Key` as the authentication type, `API Key` as the Parameter label, `Ocp-Apim-Subscription-Key` as the Parameter name and `Header` as the Parameter location, identified from the API Management above. Then, click the `Definition ➡️` button.
+![New Custom Connector Pop-up Modal][image-08]
 
-![Security][image-08]
+This time, click the `🖋` button at the right-hand side to update the connector.
 
-At the Definition section, leave them all as they are and click the `✅ Create connector` button at the right top corner.
+![Update Custom Connector][image-09]
 
-![Definition][image-09]
+Click the `2. Security` tab, and you will see all fields are greyed out, which are unmodifiable.
 
-You just created a new custom connector. Make sure your new custom connector is of name, `InventoryManagement`.
+![Custom Connector Security Tab Fields Unmodifiable][image-10]
+
+Click either `🖋 Edit` button, and you will see all the fields become modifiable. Then click the `Definition →` button at the right bottom corner.
+
+![Custom Connector Security Tab Fields Modifiable][image-11]
+
+At the `Definition` tab, leave everything unchanged and click the `✅ Update connector` button at the right-hand side. Once the custom connector is updated, you will see the message, `✅ Custom connector has been successfully updated` at the top of the screen.
+
+![Custom Connector Definition Tab][image-12]
+
+Go back to the `Custom Connectors` menu and click the `➕` button at the right-hand side again.
+
+![New Custom Connector][image-07]
+
+### ⬆️⬆️⬆️ Bug Workaround Part End ⬆️⬆️⬆️ ###
+
+When a pop up modal shows up, you will see the API Key field. Enter the API key copied at the beginning of this unit. Then click the `Create` button.
+
+![New Custom Connector Pop-up Modal][image-13]
+
+Go to the `Connections` menu, and you will see the new connection has been created.
+
+![New Connection][image-14]
 
 
 ## Test Custom Connector ##
 
+You may want to test your custom connector whether it works as expected or not. Go back to the `Custom Connectors` menu and click the `🖋` button at the right-hand side again.
 
+![Update Custom Connector][image-09]
+
+Click the `4. Test` tab, and you will see the connector has an active connection.
+
+![Custom Connector Test Tab][image-15]
+
+Choose the first operation at the left-hand side and click the `Test operation` button and you will see the result that the connector works as expected.
+
+![Custom Connector Test Operation][image-16]
+
+You have completed creating and testing a custom connector for the inventory management.
+
+
+## Key Takeaways ##
+
+After this unit, you are now able to:
+
+* Create a custom connector from Azure API Management by exporting the APIs,
+* Know the differences between a connector and a connection,
+* Create a connection of the custom connector, and
+* Test the connector.
 
 
 [image-01]: ../media/2-create-custom-connector-with-apim-01.png
@@ -68,6 +135,12 @@ You just created a new custom connector. Make sure your new custom connector is 
 [image-08]: ../media/2-create-custom-connector-with-apim-08.png
 [image-09]: ../media/2-create-custom-connector-with-apim-09.png
 [image-10]: ../media/2-create-custom-connector-with-apim-10.png
+[image-11]: ../media/2-create-custom-connector-with-apim-11.png
+[image-12]: ../media/2-create-custom-connector-with-apim-12.png
+[image-13]: ../media/2-create-custom-connector-with-apim-13.png
+[image-14]: ../media/2-create-custom-connector-with-apim-14.png
+[image-15]: ../media/2-create-custom-connector-with-apim-15.png
+[image-16]: ../media/2-create-custom-connector-with-apim-16.png
 
 [az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
 
