@@ -9,11 +9,11 @@ characteristics and quality of the source data.
 
 In this lab, you learn how to:
 
-  - Open Power BI Desktop
-  - Set Power BI Desktop options
-  - Connect to source data
-  - Preview source data
-  - Use data preview techniques to better understand the data
+- Open Power BI Desktop
+- Set Power BI Desktop options
+- Connect to source data
+- Preview source data
+- Use data preview techniques to better understand the data
 
 ## Prepare Data
 
@@ -24,24 +24,24 @@ queries will source data from SQL Server, and two from CSV files.
 
 In this task, you will first save the Power BI Desktop file.
 
-1.  Double-click the Power BI Desktop icon. (This may take a minute or two to open.)
+1. Double-click the Power BI Desktop icon. (This may take a minute or two to open.)
 
-1.	Dismiss the splash screen by selecting X to close.
+1. Dismiss the splash screen by selecting X to close.
 Open Power BI Desktop. Click the **File** ribbon tab to open the backstage view.
 
-1.  Open Power BI Desktop. Click the **File** ribbon tab to open the backstage view.
+1. Open Power BI Desktop. Click the **File** ribbon tab to open the backstage view.
 
-1.  Select **Save**.
+1. Select **Save**.
 
-1.  In the **Save As** window, navigate to the **D:\\DA100\\MySolution**
+1. In the **Save As** window, navigate to the **D:\\DA100\\MySolution**
     folder.
 
-1.  In the **File Name** box, enter **Sales Analysis**.
+1. In the **File Name** box, enter **Sales Analysis**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the file name box](../media/lab-002.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the file name box with Sales Analysis entered.](../media/lab-002.png)](../media/2-file-types-c.png#lightbox)
 
-1.  Click **Save**.
+1. Click **Save**.
 
 > [!TIP]
 > You can also save the file by clicking the **Save** icon located at
@@ -51,30 +51,30 @@ the top-left.
 
 In this task, you will set Power BI Desktop options.
 
-1.  In Power BI Desktop, click the **File** ribbon tab to open the
+1. In Power BI Desktop, click the **File** ribbon tab to open the
     backstage view.
 
-2.  At the left, select **Options and Settings**, and then select
+1. At the left, select **Options and Settings**, and then select
     **Options**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Options and Settings](../media/lab-005.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the Options and Settings page.](../media/lab-005.png)](../media/2-file-types-c.png#lightbox)
 
-3.  In the **Options** window, at the left, in the **Current File**
+1. In the **Options** window, at the left, in the **Current File**
     group, select **Data Load**.
 
     The **Data Load** settings for the current file allow setting options that determine default behaviors when modeling.
 
-4.  In the **Relationships** group, uncheck the two options that are checked.
+1. In the **Relationships** group, uncheck the two options that are checked.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Relationships options](../media/lab-007.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the Relationships options.](../media/lab-007.png)](../media/2-file-types-c.png#lightbox)
 
     While these two options can be helpful when developing a data model, they have been disabled to support the lab experience. When you create relationships in **Lab 03A**, you will learn why you are adding each one.
 
-5. Click **OK**.
+1. Click **OK**.
 
-6. Save the Power BI Desktop file.
+1. Save the Power BI Desktop file.
 
 ### Get data from SQL Server
 
@@ -83,36 +83,36 @@ In this task, you will create queries based on SQL Server tables.
 1. On the **Home** ribbon tab, from inside the **Data** group, click
     **SQL Server**.
 
-2. In the **SQL Server Database** window, in the **Server** box, enter
+1. In the **SQL Server Database** window, in the **Server** box, enter
     **localhost**.
 
     In the labs, you will connect to the SQL Server database by using **localhost**. This isn’t a recommended practice, however, when creating your own solutions. It’s because gateway data sources cannot resolve **localhost**.
 
-3. Click **OK**.
+1. Click **OK**.
 
-4. Notice that the default authentication is to **Use My Current Credentials**.
+1. Notice that the default authentication is to **Use My Current Credentials**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the authentication window](../media/lab-012.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the authentication window.](../media/lab-012.png)](../media/2-file-types-c.png#lightbox)
 
-5. Click **Connect**.
+1. Click **Connect**.
 
-6. When prompted about encryption support, click **OK**.
+1. When prompted about encryption support, click **OK**.
 
-7. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
+1. In the **Navigator** window, at the left, expand the **AdventureWorksDW2020** database.
 
     The **AdventureWorksDW2020** database is based on the **AdventureWorksDW2017** sample database. It has been modified to support the learning objectives of the course labs.
 
-8. Select but don’t check the **DimEmployee** table.
+1. Select but don’t check the **DimEmployee** table.
 
       > [!div class="mx-imgBorder"]
-      > [![Screenshot of the DimEmployee option](../media/lab-016.png)](../media/2-file-types-c.png#lightbox)
+      > [![Screenshot of the AdventureWorks database with the DimEmployee table highlighted.](../media/lab-016.png)](../media/2-file-types-c.png#lightbox)
 
-9. In the right pane, notice a preview of the table.
+1. In the right pane, notice a preview of the table.
 
     The preview allows you to determine the columns and a sample of rows.
 
-10. To create queries, check the following six tables:
+1. To create queries, check the following six tables:
 
     - DimEmployee
     - DimEmployeeSalesTerritory
@@ -121,8 +121,7 @@ In this task, you will create queries based on SQL Server tables.
     - DimSalesTerritory
     - FactResellerSales
 
-
-11. To apply transformations to the data of the selected tables, click
+1. To apply transformations to the data of the selected tables, click
     **Transform Data**.
 
     You won’t be transforming the data in this lab. The objectives of this lab are to explore and profile the data in the **Power Query Editor** window.
@@ -135,98 +134,98 @@ In this task, you will preview the data of the SQL Server queries. First, you wi
 
     The **Queries** pane contains one query for each selected table.
 
-2. Select the first query **DimEmployee**.
+1. Select the first query **DimEmployee**.
 
     The **DimEmployee** table stores one row for each employee. A subset of the rows represent the salespeople, which will be relevant to the model you’ll develop.
 
-3. At the bottom left, in the status bar, notice the table statistics - the table has 33 columns, and 296 rows.
+1. At the bottom left, in the status bar, notice the table statistics - the table has 33 columns, and 296 rows.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the status bar](../media/lab-020.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the status bar showing column and row counts.](../media/lab-020.png)](../media/2-file-types-c.png#lightbox)
 
-4. In the data preview pane, scroll horizontally to review all columns.
+1. In the data preview pane, scroll horizontally to review all columns.
 
-5. Notice that the last five columns contain **Table** or **Value**
+1. Notice that the last five columns contain **Table** or **Value**
     links.
 
     These five columns represent relationships to other tables in the database. They can be used to join tables together. You will join tables in **Lab 03A**.
 
-6. To assess column quality, on the **View** ribbon tab, from inside
+1. To assess column quality, on the **View** ribbon tab, from inside
     the **Data Preview** group, check **Column Quality**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the View ribbon tab](../media/lab-021.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the View ribbon tab with Column quality highlighted.](../media/lab-021.png)](../media/2-file-types-c.png#lightbox)
 
       Column quality allows you to easily determine the percentage of valid, error, or empty values.
 
-7. For the **Position** column (sixth last column), notice that 94% of
+1. For the **Position** column (sixth last column), notice that 94% of
     rows are empty (null).
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the position column](../media/lab-022.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the position column with the dropdown showing 6% valid, 0% error, and 94% empty.](../media/lab-022.png)](../media/2-file-types-c.png#lightbox)
 
-8. To assess column distribution, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Distribution**.
+1. To assess column distribution, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Distribution**.
 
-9. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
+1. Review the **Position** column again, and notice that there are four distinct values, and one unique value.
 
-10. Review the column distribution for the **EmployeeKey** (first)
+1. Review the column distribution for the **EmployeeKey** (first)
     column—there are 296 distinct values, and 296 unique values.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the column distribution](../media/lab-024.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the column distribution with 296 distinct and 296 unique.](../media/lab-024.png)](../media/2-file-types-c.png#lightbox)
 
     When the distinct and unique counts are the same, it means the column contains unique values. When modeling, it’s important that some tables contain unique columns. They will be used to create one-to-many relationships.
 
-11. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
+1. In the **Queries** pane, select the **DimEmployeeSalesTerritory** query.
 
     The **DimEmployeeSalesTerritory** table stores one row for each employee and the sales territory regions they manage. The table supports relating many regions to a single employee. Some employees manage one, two, or possibly more regions. When you model this data, you will need to define a many-to-many relationship.
 
-12. In the **Queries** pane, select the **DimProduct** query.
+1. In the **Queries** pane, select the **DimProduct** query.
 
     The **DimProduct** table contains one row per product sold by the company.
 
-13. Horizontally scroll to reveal the last columns.
+1. Horizontally scroll to reveal the last columns.
 
-14. Notice the **DimProductSubcategory** column.
+1. Notice the **DimProductSubcategory** column.
 
     If you were to add transformations to this query, you would use the **DimProductSubcategory** column to join tables.
 
-15. In the **Queries** pane, select the **DimReseller** query.
+1. In the **Queries** pane, select the **DimReseller** query.
 
     The **DimReseller** table contains one row per reseller. Resellers sell, distribute, or value add Adventure Works’ products.
 
-16. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
+1. To view column values, on the **View** ribbon tab, from inside the **Data Preview** group, check **Column Profile**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of column values](../media/lab-028.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the View tab with column profile highlighted.](../media/lab-028.png)](../media/2-file-types-c.png#lightbox)
 
-17. Select the **BusinessType** column header.
+1. Select the **BusinessType** column header.
 
-18. Notice that a new pane opens beneath the data preview pane.
+1. Notice that a new pane opens beneath the data preview pane.
 
-19. Review the column statistics and value distribution.
+1. Review the column statistics and value distribution.
 
-20. Notice the data quality issue: there are two labels for warehouse
+1. Notice the data quality issue: there are two labels for warehouse
     (**Warehouse**, and the misspelled **Ware House**).
 
    > [!div class="mx-imgBorder"]
-   > [![Screenshot of value distribution with two labels: Warehouse and Ware House](../media/lab-029.png)](../media/2-file-types-c.png#lightbox)
+   > [![Screenshot of value distribution with two labels: Warehouse and Ware House.](../media/lab-029.png)](../media/2-file-types-c.png#lightbox)
 
-21. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
+1. Hover the cursor over the **Ware House** bar, and notice that there are five rows with this value.
 
-22. In the **Queries** pane, select the **DimSalesTerritory** query.
+1. In the **Queries** pane, select the **DimSalesTerritory** query.
 
      The **DimSalesTerritory** table contains one row per sales region, including **Corporate HQ** (headquarters). Regions are assigned to a country, and countries are assigned to groups.
 
-23. In the **Queries** pane, select the **FactResellerSales** query.
+1. In the **Queries** pane, select the **FactResellerSales** query.
 
     The **FactResellerSales** table contains one row per sales order line - a sales order contains one or more line items.
 
-24. Review the column quality for the **TotalProductCost** column, and
+1. Review the column quality for the **TotalProductCost** column, and
     notice that 8% of the rows are empty.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the column quality](../media/lab-032.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the column quality showing 92% valid and 8% empty.](../media/lab-032.png)](../media/2-file-types-c.png#lightbox)
 
     Missing **TotalProductCost** column values is a data quality issue. To address the issue, you would apply transformations to fill in missing values by using the product standard cost, which is stored in the **DimProduct** table.
 
@@ -239,32 +238,31 @@ In this task, you will create a query based on a CSV file.
     **New Source** down-arrow, and then select **Text/CSV**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the New Source button on the Home ribbon](../media/lab-033.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the New Source button on the Home ribbon.](../media/lab-033.png)](../media/2-file-types-c.png#lightbox)
 
-2. In the **Open** window, navigate to the **D:\\DA100\\Data** folder,
+1. In the **Open** window, navigate to the **D:\\DA100\\Data** folder,
     and select the **ResellerSalesTargets.csv** file.
 
-3. Click **Open**.
+1. Click **Open**.
 
-4. In the **ResellerSalesTargets.csv** window, notice the data preview.
+1. In the **ResellerSalesTargets.csv** window, notice the data preview.
 
-5. Click **OK**.
+1. Click **OK**.
 
-6. In the **Queries** pane, notice the addition of the
+1. In the **Queries** pane, notice the addition of the
     **ResellerSalesTargets** query.
 
     The **ResellerSalesTargets** CSV file contains one row per salesperson, per year. Each row records 12 monthly sales targets (expressed in thousands). The business year for the Adventure Works company commences on July 1.
 
-7. Notice that no columns contain empty values. When there isn’t a monthly sales target, a hyphen character is stored instead.
+1. Notice that no columns contain empty values. When there isn’t a monthly sales target, a hyphen character is stored instead.
 
-18. Review the icons in each column header, to the left of the column
+1. Review the icons in each column header, to the left of the column
     name.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the icon in the column headers](../media/lab-036.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the icon in the column headers.](../media/lab-036.png)](../media/2-file-types-c.png#lightbox)
 
     The icons represent the column data type. **123** is whole number, and **ABC** is text.
-
 
 ### Get additional data from a CSV file
 
@@ -274,7 +272,8 @@ CSV file.
 Use the steps in the previous task to create a query based on the
     **D:\\DA100\\Data**\\**ColorFormats.csv** file.
 
-    The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors. 
+> [!NOTE]
+> The **ColorFormats** CSV file contains one row per product color. Each row records the HEX codes to format background and font colors.
 
 ### Finish up
 
@@ -283,17 +282,17 @@ In this task, you will complete the lab.
 1. On the **View** ribbon tab, from inside the **Data Preview** group,
     uncheck the three data preview options:
 
-  - Column quality
-  - Column distribution
-  - Column profile
+   - Column quality
+   - Column distribution
+   - Column profile
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the data preview options](../media/lab-038.png)](../media/2-file-types-c.png#lightbox)
+    > [![Screenshot of the View tab's data preview options.](../media/lab-038.png)](../media/2-file-types-c.png#lightbox)
 
-2. To save the Power BI Desktop file, on the **File** backstage view, select **Save**.
+1. To save the Power BI Desktop file, on the **File** backstage view, select **Save**.
 
-3. When prompted to apply the queries, click **Apply Later**.
+1. When prompted to apply the queries, click **Apply Later**.
 
     Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
 
-4. Leave Power BI Desktop open.
+1. Leave Power BI Desktop open.
