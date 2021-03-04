@@ -8,12 +8,12 @@ To apply the **AI Insights** feature to your data, open Power Query Editor and s
 > Premium capacity is required to use the **Text Analytics** and **Vision** options.
 
 > [!div class="mx-imgBorder"]
-> [![AI Insights options in Power Query Editor](../media/10-ai-insights-options-ssm.png)](../media/10-ai-insights-options-ssm.png#lightbox)
+> [![Screenshot of A I Insights options in Power Query Editor.](../media/10-ai-insights-options-ssm.png)](../media/10-ai-insights-options-ssm.png#lightbox)
 
 > [!NOTE]
 > If you do not see these options, you need to enable the **AI Insights** feature in Power BI Desktop settings. Go to **File > Options and settings > Options**. In the **Global** options list, select **Preview features**, select the check box for the **AI Insights function browser** option, and then select **OK**.
 
 > [!div class="mx-imgBorder"]
-> [![Enable AI Insights feature](../media/10-enable-ai-insights-feature-ssm.png)](../media/10-enable-ai-insights-feature-ssm.png#lightbox)
+> [![Screenshot of the Enable AI Insights feature.](../media/10-enable-ai-insights-feature-ssm.png)](../media/10-enable-ai-insights-feature-ssm.png#lightbox)
 
 On the **Add column** tab, the most relevant **AI Insights** option for this example is **Text Analytics**. This option includes Azure Cognitive Services models, such as Sentiment Analysis, Key Phrase Extraction, and Language Detection, that derive meaning or specific pieces of language from text data. You can use either the Sentiment Analysis or Key Phrase Extraction option to determine the customer sentiments in the Help tickets and visually show the results in Power BI.

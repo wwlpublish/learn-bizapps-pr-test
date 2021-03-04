@@ -1,11 +1,11 @@
-Dashboards in Power BI are one-page collections of visualizations that are created from within the Power BI service. You can create dashboards by pinning visuals from reports. 
+Dashboards in Power BI are one-page collections of visualizations that are created from within the Power BI service. You can create dashboards by pinning visuals from reports.
 
 **Video**: Create a dashboard
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3oYa2]
 
 Pinning a visual to a dashboard is a lot like pinning a picture to a corkboard on a wall, where the visual is pinned to a particular spot for others to see. To pin a visual, open its report on the Power BI service. Hover over the visual that you want to pin and select the pin icon.
 
-![Screenshot of the "Pin visual" button.](../media/03-power-bi-desktop-pin-visual.png)
+![Screenshot of the "Pin visual" button above a map.](../media/03-power-bi-desktop-pin-visual.png)
 
 You can select a destination dashboard for the visual from the drop-down menu or create a new dashboard. You can pin visualizations from multiple reports and pages to a single dashboard, allowing you to combine different datasets and sources into a single page of insights.
 
@@ -19,7 +19,7 @@ Your dashboards appear in the **Dashboards** section on the left side of the Pow
 
 You can change the layout of visuals on a dashboard however you'd like. To resize a tile, drag its handles in or out. To move a tile, simply select and drag it to a different location on the dashboard. Hover over a tile and select the pencil icon to open the **Tile details** form, where you can change information in the **Title** or **Subtitle** fields.
 
-![Screenshot of the Edit Details option.](../media/03-power-bi-desktop-edit-tile-details.png)
+![Screenshot of the "Edit Details" option.](../media/03-power-bi-desktop-edit-tile-details.png)
 
 Select a dashboard tile to view the report from which it originated. You can also change that link by using the **Set custom link** field on the **Tile details** form.
 

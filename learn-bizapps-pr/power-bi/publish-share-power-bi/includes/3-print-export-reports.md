@@ -1,13 +1,14 @@
 Occasionally, you might want to print a report or dashboard for a meeting or for sharing with others. Power BI provides a few ways for you to make these printouts.
 
-In the Power BI service, select **File** in the top-left side of the service and then select **Print this page** to open a print dialog box. 
+In the Power BI service, select **File** in the top-left side of the service and then select **Print this page** to open a print dialog box.
 
-![Screenshot of the "Print this page option.](../media/03-power-bi-desktop-print.png)
+![Screenshot of the "Print this page" option.](../media/03-power-bi-desktop-print.png)
 
 ## Export data from a visual
+
 You can also export the data from any visual in the Power BI service. Select the ellipsis on any visual and then select **Export to .csv**.
 
-![Screenshot of the "Export data" option](../media/03-power-bi-desktop-export-data.png)
+![Screenshot of the "Export to c s v" option.](../media/03-power-bi-desktop-export-data.png)
 
 You can also print or export directly from a report. When you are viewing a report in the Power BI service, select **File > Print** to open the print dialog box.
 
