@@ -8,7 +8,7 @@ Power BI imports the dashboards, reports, and datasets that are in the app.
 
 When you select the dataset, Power BI asks if you want to personalize the app. Create a copy of the app that you can use to make changes and keep it disconnected from the published version of the app. By creating a copy, you won't automatically receive updates if the app creator makes changes to the published version of the app. You can edit the dashboard, the report, and even the dataset if you want.
 
-![Screenshot of an imported dashboard.](../media/power-bi-learn-06-03-edit-report.png)
+![Screenshot of Power BI with an imported dashboard.](../media/power-bi-learn-06-03-edit-report.png)
 
 ## Update apps
 
@@ -21,4 +21,3 @@ Power BI processes those changes and publishes the updated app to the app galler
 ![Screenshot of the success notice after updating an app.](../media/power-bi-learn-06-04-content-pack-success.png)
 
 For more information, see [Change your published app](https://docs.microsoft.com/power-bi/service-create-distribute-apps#change-your-published-app).
-

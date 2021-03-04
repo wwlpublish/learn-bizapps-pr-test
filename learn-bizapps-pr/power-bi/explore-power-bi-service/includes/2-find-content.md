@@ -1,18 +1,18 @@
 In Power BI, the term *content* refers to apps, dashboards, and reports. Content is created by Power BI designers, who share it with colleagues like you. Your content is accessible and viewable in Power BI, and the best place to start is from your Power BI home.
 
-## Explore Power BI Home 
+## Explore Power BI Home
 
 When you sign in, Power BI opens and displays your Home canvas, as shown in the following figure.
 
-![Home canvas](../media/1-2/power-bi-home2.png)
+![Screenshot of the Power B I Home canvas.](../media/1-2/power-bi-home2.png)
 
 Power BI Home offers three ways of locating and viewing your content. Though all three accesses the same pool of content, they’re merely different ways of getting to that content. Occasionally, searching will be the easiest and quickest way to find something. Other times, selecting a tile on the Home canvas will be your best option.
 
-1.  The Home canvas displays and organizes your favorite and most recent content, along with recommended content and learning resources. Each piece of content displays as a tile, with a title and icon. Selecting a tile opens that content.
+1. The Home canvas displays and organizes your favorite and most recent content, along with recommended content and learning resources. Each piece of content displays as a tile, with a title and icon. Selecting a tile opens that content.
 
-2.  In the upper right corner, the global search box lets you search for content by title, name, or keyword.
+2. In the upper right corner, the global search box lets you search for content by title, name, or keyword.
 
-3.  Along the side, is a navigation pane. On this pane, your same content is organized a little differently, by Favorites, Recent, Apps, and Shared with me. From here, you can view lists of content and select the one to open.
+3. Along the side, is a navigation pane. On this pane, your same content is organized a little differently, by Favorites, Recent, Apps, and Shared with me. From here, you can view lists of content and select the one to open.
 
 The following sections review each of these options for finding and viewing content.
 
@@ -20,11 +20,11 @@ The following sections review each of these options for finding and viewing cont
 
 On the Home canvas, you can view all the content that you have permission to use. At first, you might not have much content, but that will change as you start to use Power BI with your colleagues.
 
-Your Home canvas also updates with recommended content and learning resources. 
+Your Home canvas also updates with recommended content and learning resources.
 
 As you work in Power BI, you’ll receive dashboards, reports, and apps from colleagues, and your Home canvas will eventually fill in. Over time, it might resemble the following Home canvas.
 
-![Home canvas with lots of content](../media/1-2/power-bi-home-page.png)
+![Screenshot of the Power B I Home canvas with lots of content.](../media/1-2/power-bi-home-page.png)
 
 The next few sections take a closer look at the Home canvas, from top to bottom.
 
@@ -32,7 +32,7 @@ The next few sections take a closer look at the Home canvas, from top to bottom.
 
 As previously mentioned, on your Home canvas, you can view all the content that you have permission to use. Each piece of content is a tile, and selecting a tile takes you to that piece of content. For example, selecting a tile for a dashboard opens the dashboard.
 
-![Power BI dashboard](../media/1-2/power-bi-open-dash.gif)
+![Animated screenshot of the Power BI dashboard.](../media/1-2/power-bi-open-dash.gif)
 
 ### Most important content at your fingertips
 
@@ -40,13 +40,13 @@ As previously mentioned, on your Home canvas, you can view all the content that 
 
 This top section contains links to the content you visit most often or that you’ve tagged as a *favorite*. Notice that three tiles have yellow stars meaning they have been tagged as favorites.
 
-![Favorite content on Home](../media/1-2/power-bi-home-favs.png)
+![Screenshot of the Favorites content on Home.](../media/1-2/power-bi-home-favs.png)
 
 #### Recents and My apps
 
 The next section displays the content you’ve visited most recently. Notice the timestamp on each tile. The **My apps** section lists apps that have been shared with you; the most recent apps are listed here. You can select **See all** to display a list of all apps that are shared with you.
 
-![Recent content on Home](../media/1-2/power-bi-home-recent-apps.png)
+![Screenshot of the Recents content on Home.](../media/1-2/power-bi-home-recent-apps.png)
 
 #### Shared with me
 
@@ -56,13 +56,11 @@ Colleagues share apps with you, and they also share individual dashboards and re
 
 Based on your activity and account settings, Power BI displays a set of recommended apps. Selecting an app tile opens the app.
 
-
 #### Learning resources
 
-At the bottom of the Home canvas is a set of learning resources. The exact resources that appear depend on your activity and settings. 
+At the bottom of the Home canvas is a set of learning resources. The exact resources that appear depend on your activity and settings.
 
-![Power BI Home learning resources](../media/1-2/power-bi-home-resources.png)
-
+![Screenshot of the Power BI Home learning resources.](../media/1-2/power-bi-home-resources.png)
 
 #### Explore the navigation pane
 
@@ -74,7 +72,7 @@ The nav pane organizes your content into categories that are similar to what you
 
 To open one of these content sections and display a list of all items, select the heading.
 
-![Heading identified](../media/1-2/power-bi-left-nav.png)
+![Screenshot of the navigation pane to the left with the headings highlighted.](../media/1-2/power-bi-left-nav.png)
 
 The navigation pane is another way for you to find the content you want, quickly. Content is organized in a manner similar to the Home canvas, but shown in lists instead of tiles.
 
@@ -82,6 +80,6 @@ The navigation pane is another way for you to find the content you want, quickly
 
 Sometimes, the fastest way to find your content is to search for it. Perhaps you’ve discovered a dashboard you haven’t used in a while isn’t showing up on your Home canvas. You remember that your colleague, Aaron, shared it with you but you don’t remember what he called it or whether it was a report or a dashboard.
 
-![Global search](../media/1-2/power-bi-search.png)
+![Screenshot of the Power B I Global search.](../media/1-2/power-bi-search.png)
 
 You can enter the full or partial name of that dashboard and search for it. Additionally, you can enter your colleague’s name and search for content that they've shared with you. The search is scoped to look for matches in all the content that you own or have access to.

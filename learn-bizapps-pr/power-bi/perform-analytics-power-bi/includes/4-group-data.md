@@ -13,12 +13,12 @@ The following image shows a bar chart in which Power BI has automatically segmen
 To create the group, use **Ctrl + click** to select the data points on the visual that you want to group. In this case, it's states with sales greater than 500,000 dollars. Right-click one of those selected data points and then select the **Group data** option.
 
 > [!div class="mx-imgBorder"]
-> [![Group data on visual](../media/4-group-data-visual-ssm.png)](../media/4-group-data-visual-ssm.png#lightbox)
+> [![Screenshot of the Group data property on a visualization.](../media/4-group-data-visual-ssm.png)](../media/4-group-data-visual-ssm.png#lightbox)
 
 When the group is created, notice that the visual updates to take into account the new group. The following image shows that the other states, which are the states with lower sales (less than 500,000 dollars) have been grouped together and are highlighted in a different shade.
 
 > [!div class="mx-imgBorder"]
-> [![Updated visual with group](../media/4-updated-visual-group-ssm.png)](../media/4-updated-visual-group-ssm.png#lightbox)
+> [![Screenshot of the updated visualization with grouping.](../media/4-updated-visual-group-ssm.png)](../media/4-updated-visual-group-ssm.png#lightbox)
 
 The new group field displays in the **Legend** bucket for the visual and is listed in the **Fields** pane.
 
@@ -31,7 +31,7 @@ Continuing with the previous example, you now want to edit the categories that m
 In the **Groups** window that displays is a list of the groups and the different items within those groups. The following image shows the **States with Sales > 500k** group and its members, along with the **Other** group (**States with Sales < 500k**) that contains all other values that have not been put into the first group. If you refresh your data, and new items appear in the ungrouped values list, they'll all go into the **Other** group.
 
 > [!div class="mx-imgBorder"]
-> [![Edit group](../media/4-edit-group-ssm.png)](../media/4-edit-group-ssm.png#lightbox)
+> [![Screenshot of editing groups and members in a group.](../media/4-edit-group-ssm.png)](../media/4-edit-group-ssm.png#lightbox)
 
 You can now make changes to the group. You can rename any group by double-clicking the group title in the **Groups and members** section and entering a new name. You can add ungrouped values into an existing group, remove values from an existing group, and create a new group.
 
@@ -42,6 +42,6 @@ The process of binning allows you to group your numerical and time field data in
 In this example, you want to create bins (groups) for the **Order Qty** field. Start in the **Fields** pane by right-clicking the **Order Qty** field that you want to create the bins for, and then select **New Group**. On the **Groups** window that displays, set the **Bin size** to the size that you want, adjust other settings as required, and then select **OK**.
 
 > [!div class="mx-imgBorder"]
-> [![Create bin](../media/4-create-bin-ss.png)](../media/4-create-bin-ss.png#lightbox)
+> [![Screenshot of a bin group named Order Qty (Bins).](../media/4-create-bin-ss.png)](../media/4-create-bin-ss.png#lightbox)
 
 When you have set up the bin group, you'll see a new field in the **Fields** pane with **(bins)** appended to its name. You can then drag that field onto the canvas to use the bin size in a visual.

@@ -4,7 +4,7 @@ Let's do a quick review of what we covered in this module.
 
 Power BI consists of three main elements—**Power BI Desktop**, the **Power BI service**, and **Power BI Mobile**—which work together to let you create, interact with, share, and consume your data the way you want.
 
-![Power BI cycle of use](../media/pbi-intro_02.png)
+![Image of the Power B I cycle of use from Power B I Desktop to Power B I service to Power B I Mobile.](../media/pbi-intro_02.png)
 
 We also discussed the basic building blocks in Power BI:
 
@@ -19,7 +19,8 @@ In the **Power BI service**, we installed an **app** in just a few clicks. That 
 Finally, we set up a **refresh schedule** for our data, so that we know the data will be fresh when we go back to the Power BI service.
 
 ## Next steps
-**Congratulations!** You've finished the first module of the **learning path** for Power BI. You now have a firm foundation of knowledge for when you move on to the next module, which walks through the steps to create your first report. 
+
+**Congratulations!** You've finished the first module of the **learning path** for Power BI. You now have a firm foundation of knowledge for when you move on to the next module, which walks through the steps to create your first report.
 
 We mentioned this before, but it's worth restating: this learning path builds your knowledge by following the common flow of work in Power BI:
 
@@ -28,11 +29,10 @@ We mentioned this before, but it's worth restating: this learning path builds yo
 * **Share** your dashboards with others, especially people who are on the go.
 * View and interact with shared dashboards and reports in **Power BI Mobile** apps.
 
-![Power BI cycle of use](../media/pbi-using_01.png)
+![Another image of the Power B I cycle of use from Power B I Desktop to Power B I service to Power B I Mobile.](../media/pbi-using_01.png)
 
 You might not do all that work yourself—some people will only view dashboards that were created by someone else, and they'll just use the service. That's fine, and we'll soon have a module dedicated to showing how you can easily navigate and use the **Power BI service** to view and interact with reports and apps.
 
 But the next module follows the flow of work in Power BI, showing you how to create a report and publish it to the Power BI service. You'll learn how those reports and dashboards are created and how they connected to the data. You might even decide to create a report or dashboard of your own.
 
 See you in the next module!
-

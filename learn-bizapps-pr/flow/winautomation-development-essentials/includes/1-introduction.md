@@ -7,7 +7,9 @@ In this module, you will get a first glance at the Process development capabilit
 By the end of this module, you will be able to start developing processes, identifying and implementing the basic techniques and tools required to complete a task.
 
 ## Learning Objectives
+
 In this module, you will:
+
 * Create a Process from scratch using the Process Designer
 * Learn how to use Actions and Variables
 * Understand the testing and debugging features of the Process Designer
@@ -15,6 +17,6 @@ In this module, you will:
 * Comprehend the use of controls and image controls, and their repositories
 * Use functions to compartmentalize and reuse parts of a process
 
-
 ## Prerequisites
+
 * Basic familiarity with the WinAutomation Console
