@@ -19,12 +19,12 @@ In this task, you will create a matrix visual to support testing your new measur
 1. In Power BI Desktop, in Report view, create a new report page.
 
 	> [!div class="mx-imgBorder"]
-	> [![create new report](../media/lab-8-1-ssm.png)](../media/lab-8-1-ssm.png#lightbox)
+	> [![Screenshot of the create new report feature icon.](../media/lab-8-1-ssm.png)](../media/lab-8-1-ssm.png#lightbox)
 
 1. On **Page 3**, add a matrix visual.
 
 	> [!div class="mx-imgBorder"]
-	> [![add matrix visual](../media/lab-8-2-ssm.png)](../media/lab-8-2-ssm.png#lightbox)
+	> [![Screenshot of the matrix visual on the Visualizations tab.](../media/lab-8-2-ssm.png)](../media/lab-8-2-ssm.png#lightbox)
 
 1. Resize the matrix visual to fill the entire page.
 
@@ -35,26 +35,26 @@ In this task, you will create a matrix visual to support testing your new measur
 1. To expand the entire hierarchy, at the top-right of the matrix visual, click the forked-double arrow icon twice.
 
 	> [!div class="mx-imgBorder"]
-	> [![click the forked-double arrow](../media/lab-8-3-ssm.png)](../media/lab-8-3-ssm.png#lightbox)
+	> [![Screenshot of the forked double arrow icon.](../media/lab-8-3-ssm.png)](../media/lab-8-3-ssm.png#lightbox)
 
 	Recall that the **Regions** hierarchy has the levels **Group**, **Country**, and **Region**.
 
 1. To format the visual, beneath the **Visualizations** pane, select the **Format** pane.
 
 	> [!div class="mx-imgBorder"]
-	> [![select Format pane](../media/lab-8-4-ssm.png)](../media/lab-8-4-ssm.png#lightbox)
+	> [![Screenshot of the Format pane button beneath the Visualizations pane.](../media/lab-8-4-ssm.png)](../media/lab-8-4-ssm.png#lightbox)
 
 1. In the **Search** box, enter **Stepped**.
 
 1. Set the **Stepped Layout** property to **Off**.
 
 	> [!div class="mx-imgBorder"]
-	> [![stepped layout off](../media/lab-8-5-ssm.png)](../media/lab-8-5-ssm.png#lightbox)
+	> [![Screenshot of the stepped layout set to off.](../media/lab-8-5-ssm.png)](../media/lab-8-5-ssm.png#lightbox)
 
 1. Verify that the matrix visual has four column headers.
 
 	> [!div class="mx-imgBorder"]
-	> [![verify there are four column headers](../media/lab-8-6-ss.png)](../media/lab-8-6-ss.png#lightbox)
+	> [![Screenshot of the matrix with four column headers.](../media/lab-8-6-ss.png)](../media/lab-8-6-ss.png#lightbox)
 
 	At Adventure Works, the sales regions are organized into groups, countries, and regions. All countries—except the United States—have just one region, which is named after the country. As the United States is such a large sales territory, it is divided into five regions.
 
@@ -67,7 +67,6 @@ In this task, you will create several measures with DAX expressions that use the
 1. In Report view, on the **Modeling** ribbon, from inside the **Calculations** group, click **New measure** to add a measure “Sales All Region” to the **Sales** table. 
 
 1.	Use the following expression to create the measure:
-
 
 	For your convenience, all DAX definitions in this lab can be copied from the **D:\DA100\Lab06B\Assets\Snippets.txt** file.
 
@@ -84,11 +83,10 @@ In this task, you will create several measures with DAX expressions that use the
 
 1. In the formula bar copy the expression from Snippets.txt file, and press **Enter**. This create the measure in **Sales** table. Review the field list in the **Fields** pane under **Sales** table, and you will see the **Sales All Region** measure.  
 
-1.	Check the **Sales All Region** measure in the **Fields** pane to add the measure to the matrix visual. 
-
+1.	Check the **Sales All Region** measure in the **Fields** pane to add the measure to the matrix visual.
 
 	> [!div class="mx-imgBorder"]
-	> [![Add sales all region measure](../media/lab-8-7-ssm.png)](../media/lab-8-7-ssm.png#lightbox)
+	> [![Screenshot of the sales all region measure added.](../media/lab-8-7-ssm.png)](../media/lab-8-7-ssm.png#lightbox)
 
 1. Notice that the **Sales All Region** measure computes the total of all region sales for each region, country (subtotal) and group (subtotal).
 
@@ -116,12 +114,12 @@ In this task, you will create several measures with DAX expressions that use the
 1. Format the **Sales % All Region** measure as a percentage with two decimal places.
 
 	> [!div class="mx-imgBorder"]
-	> [![change measure to percentage](../media/lab-8-7b-ssm.png)](../media/lab-8-7b-ssm.png#lightbox)
+	> [![Screenshot of the measure set to a percentage with two decimal places.](../media/lab-8-7b-ssm.png)](../media/lab-8-7b-ssm.png#lightbox)
 
 1. In the matrix visual, review the **Sales % All Region** measure values.
 
 	> [!div class="mx-imgBorder"]
-	> [![review Sales % All Region values](../media/lab-8-8-ssm.png)](../media/lab-8-8-ssm.png#lightbox)
+	> [![Screenshot of the Sales % All Region values.](../media/lab-8-8-ssm.png)](../media/lab-8-8-ssm.png#lightbox)
 
 1. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
@@ -145,7 +143,7 @@ In this task, you will create several measures with DAX expressions that use the
 1. Notice that only the United States’ regions produce a value which is not 100%.
 
 	> [!div class="mx-imgBorder"]
-	> [![United States not 100%](../media/lab-8-9-ssm.png)](../media/lab-8-9-ssm.png#lightbox)
+	> [![Screenshot of the United States region with a value not 100%.](../media/lab-8-9-ssm.png)](../media/lab-8-9-ssm.png#lightbox)
 
 	Recall that only the United States has multiple regions. All other countries have a single region which explains why they are all 100%.
 
@@ -170,7 +168,7 @@ In this task, you will create several measures with DAX expressions that use the
 1. Notice that the **Sales % Country** measure now only returns a value when a region is in scope.
 
 	> [!div class="mx-imgBorder"]
-	> [![Sales % Country value returned when region is in scope](../media/lab-8-10-ssm.png)](../media/lab-8-10-ssm.png#lightbox)
+	> [![Screenshot of the measure value returned only when a region is in scope.](../media/lab-8-10-ssm.png)](../media/lab-8-10-ssm.png#lightbox)
 
 1. Add another measure to the **Sales** table, based on the following expression, and format as a percentage:
 
@@ -217,7 +215,7 @@ In this task, you will create several measures with DAX expressions that use the
 1. In Model view, place the three new measures into a display folder named **Ratios**.
 
 	> [!div class="mx-imgBorder"]
-	> [![ratios folder](../media/lab-8-11-ss.png)](../media/lab-8-11-ss.png#lightbox)
+	> [![Screenshot of the three new measures in a ratios folder.](../media/lab-8-11-ss.png)](../media/lab-8-11-ss.png#lightbox)
 
 1. Save the Power BI Desktop file.
 
@@ -247,7 +245,7 @@ In this task, you will create a sales YTD measure.
 1. Notice the accumulation of sales values within the year.
 
 	> [!div class="mx-imgBorder"]
-	> [![accumulation of sales values](../media/lab-8-12-ss.png)](../media/lab-8-12-ss.png#lightbox)
+	> [![Screenshot of the accumulation of sales values.](../media/lab-8-12-ss.png)](../media/lab-8-12-ss.png#lightbox)
 
 	The TOTALYTD() function performs filter manipulation, specifically time filter manipulation. For example, to compute YTD sales for September 2017 (the third month of the fiscal year), all filters on the **Date** table are removed and replaced with a new filter of dates commencing at the beginning of the year (July 1, 2017) and extending through to the last date of the in-context date period (September 30, 2017).
 
@@ -285,7 +283,7 @@ In this task, you will create a sales YoY growth measure.
 1. Notice that the **Sales YoY Growth** measure value for **2017 Jul** is the **Sales** value for **2016 Jan**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Sales YoY Growth for 2017 July and Sales 2016 January](../media/lab-8-13-ssm.png)](../media/lab-8-13-ssm.png#lightbox)
+	> [![Screenshot of the Sales YoY Growth for 2017 July and 2016 January are the same.](../media/lab-8-13-ssm.png)](../media/lab-8-13-ssm.png#lightbox)
 
 	Now that the “difficult part” of the formula has been tested, you can overwrite the measure with the final formula which computes the growth result.
 
@@ -314,14 +312,14 @@ In this task, you will create a sales YoY growth measure.
 1. Verify that the YoY growth for **2018 Jul** is **392.83%**.
 
 	> [!div class="mx-imgBorder"]
-	> [![YoY growth](../media/lab-8-14-ssm.png)](../media/lab-8-14-ssm.png#lightbox)
+	> [![Screenshot of the YoY growth for 2018 July.](../media/lab-8-14-ssm.png)](../media/lab-8-14-ssm.png#lightbox)
 
 	This means that July 2018 sales ($2,411,559) represents a nearly 400% (almost 4x) improvement over the sales achieved for the prior year ($489,328).
 
 1. In Model view, place the two new measures into a display folder named **Time Intelligence**. 
 
 	> [!div class="mx-imgBorder"]
-	> [![Time Intelligence folder](../media/lab-8-15-ss.png)](../media/lab-8-15-ss.png#lightbox)
+	> [![Screenshot of the new measures in a Time Intelligence folder.](../media/lab-8-15-ss.png)](../media/lab-8-15-ss.png#lightbox)
 
 1. Save the Power BI Desktop file.
 
@@ -345,7 +343,7 @@ In this task, you will publish the Power BI Desktop file to Power BI.
 1. In the **Publish to Power BI** window, select your **Sales Analysis** workspace.
 
 	> [!div class="mx-imgBorder"]
-	> [![select Sales Analysis workspace](../media/lab-8-17-ssm.png)](../media/lab-8-17-ssm.png#lightbox)
+	> [![Screenshot of the Sales Analysis workspace as the destination.](../media/lab-8-17-ssm.png)](../media/lab-8-17-ssm.png#lightbox)
 
 1. Click **Select**.
 
@@ -356,7 +354,7 @@ In this task, you will publish the Power BI Desktop file to Power BI.
 1. In the Edge, in the Power BI service, in the **Navigation** pane (located at the left), review the contents of your **Sales Analysis** workspace.
 
 	> [!div class="mx-imgBorder"]
-	> [![Sales Analysis workspace contents](../media/lab-8-20-ssm.png)](../media/lab-8-20-ssm.png#lightbox)
+	> [![Screenshot of the Sales Analysis workspace contents.](../media/lab-8-20-ssm.png)](../media/lab-8-20-ssm.png#lightbox)
 
 	The publication has added a report and a dataset. If you don’t see them, press **F5** to reload the browser, and then expand the workspace again.
 
@@ -365,6 +363,6 @@ In this task, you will publish the Power BI Desktop file to Power BI.
 1. Hover the cursor over the **Sales Analysis** report, click the vertical ellipsis (…), and then select **Remove**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Remove Sales Analysis report](../media/lab-8-21-ssm.png)](../media/lab-8-21-ssm.png#lightbox)
+	> [![Screenshot of the Remove Sales Analysis report feature.](../media/lab-8-21-ssm.png)](../media/lab-8-21-ssm.png#lightbox)
 
 1. When prompted to confirm the deletion, click **Delete**.
