@@ -3,7 +3,7 @@ While Power Apps offer hundreds of connectors to connect to Microsoft and non-Mi
 * As a professional developer, you can create a custom connector from API Management by exporting the APIs.
 * As a citizen developer, as long as you have an Open API document, you can create a custom connector within Power Apps by importing the Open API document.
 
-To review, this module has covered the following topics:
+To sum up, this module has covered the following topics:
 
 * To create a custom connector from Azure API Management by exporting the APIs,
 * To create a custom connector from the Open API document by importing it,

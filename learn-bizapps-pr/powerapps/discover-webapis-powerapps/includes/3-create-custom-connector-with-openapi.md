@@ -1,24 +1,24 @@
 :::row:::
   :::column span="4":::
-    Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and if not orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
+    Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and, if not, orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
   :::column-end:::
   :::column:::
     ![Cartoon depiction of Maria](../../shared/media/maria.png)
   :::column-end:::
 :::row-end:::
 
-Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals develop applications that are easy to create and deploy. She wants to build a Power App with existing Web APIs through a custom connector. As Crystal's team is fully stretched and unable to create the custom connector for Maria, she needs to create the custom connector for the inventory management by herself. Fortunately, Crystal has provided Maria with an Open API document and API key for authentication.
+Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals to develop applications, which are easy to create and deploy. She also wants to build a Power App with existing Web APIs through a custom connector. As Crystal's team is fully stretched and unable to create the custom connector for Maria, she needs to create the custom connector for the inventory management by herself. Fortunately, Crystal has provided Maria with an Open API document and API key for authentication.
 
 
 ## Create Custom Connector from Open API Document ##
 
-There are several ways creating a custom connector from Power Apps. But this time, you are going to create the one using the Open API document because you have got the Open API document file.
+There are several ways of creating a custom connector from Power Apps. This time, you will create the one using the Open API document because you have got the Open API document file.
 
-After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu at the left-hand side. Then, click the `➕ New custom connector` button at the right-top corner and select the `Import an OpenAPI file` menu.
+After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu on the left-hand side. Then, click the `➕ New custom connector` button at the right-top corner and select the `Import an OpenAPI file` menu.
 
 ![Many Ways Creating Custom Connector][image-01]
 
-When a pop-up modal appears, give the name, **InventoryManager**, to the `Connector name` field and click the `Import` button to import the Open API document, named `openapi.json`. Then, click the `Continue` button.
+When a pop-up modal appears, give the name, **InventoryManager**, to the `Connector name` field and click the `Import` button to import the Open API document, `openapi.json`. Then, click the `Continue` button.
 
 ![Open API File Import][image-02]
 
@@ -30,11 +30,11 @@ Once the custom connector is created, you will see the message, `✅ Custom conn
 
 ![Custom Connector General Tab Connector Created][image-04]
 
-Click the `Custom Connectors` menu at the left-hand side of the page and you will see the custom connector created. the `➕` button at the right-hand side.
+Click the `Custom Connectors` menu on the left-hand side of the page, and you will see the custom connector created. The `➕` button at the right-hand side.
 
 ![New Custom Connector][image-05]
 
-When a pop up modal shows up, you will see the API Key field. Enter the API key copied at the beginning of this unit. Then click the `Create` button.
+When a pop-up modal shows up, you will see the API Key field. Enter the API key copied at the beginning of this unit. Then click the `Create` button.
 
 ![New Custom Connector Pop-up Modal][image-06]
 
@@ -42,7 +42,7 @@ Go to the `Connections` menu, and you will see the new connection has been creat
 
 ![New Connection][image-07]
 
-You have completed creating a custom connector for the inventory management.
+You have completed creating a custom connector for inventory management.
 
 
 ## Key Takeaways ##

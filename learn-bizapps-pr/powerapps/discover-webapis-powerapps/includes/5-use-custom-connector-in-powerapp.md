@@ -1,13 +1,13 @@
 :::row:::
   :::column span="4":::
-    Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and if not orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
+    Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and, if not, orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
   :::column-end:::
   :::column:::
     ![Cartoon depiction of Maria](../../shared/media/maria.png)
   :::column-end:::
 :::row-end:::
 
-Maria now has got a custom connector up and running, for inventory management. She wants to use the connector in her Power App.
+Maria now has got a custom connector up and running for inventory management. She wants to use the connector in her Power App.
 
 
 ## Create Canvas App ##
@@ -20,7 +20,7 @@ When a modal pops up, give the name, **Inventory**, to the `App name` field and 
 
 ![Create Power App Modal][image-02]
 
-In order to add the custom connector, navigate the `Data` menu. You will see nothing in the Data pane.
+Navigate the `Data` menu to add the custom connector. You will see nothing in the Data pane.
 
 ![Data Pane][image-03]
 
@@ -32,7 +32,7 @@ Click the `InventoryManager` connector, and you will see the `GreenLeafInventory
 
 ![Connection Added][image-05]
 
-Your custom connector is successfully added into your Power Apps. Navigate to the `Insert` menu at the top and click `Button` to add a button control onto the canvas.
+Your custom connector is successfully added to your Power Apps. Navigate to the `Insert` menu at the top and click `Button` to add a button control onto the canvas.
 
 ![Add Button][image-06]
 
@@ -52,7 +52,7 @@ Once the `Vertical` control is added, it asks the data source.
 
 ![Vertical Gallery Added][image-09]
 
-Select the `factories` collection declared above. Then the `Vertical` control changes below, because the `factories` collection currently contains nothing.
+Select the `factories` collection declared above. Then the `Vertical` control changes below because the `factories` collection currently contains nothing.
 
 ![Vertical Gallery Data Source Mapped][image-10]
 
