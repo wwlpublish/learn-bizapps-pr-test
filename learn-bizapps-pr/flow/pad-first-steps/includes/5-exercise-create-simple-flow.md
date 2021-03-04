@@ -34,7 +34,7 @@ To create the flow:
 
 1. Deploy two **Write to Excel worksheet** actions to add log information in the Excel file. 
 
-    1. Use the first **Write to Excel worksheet** action to write the copied folder's path in the first column.
+    1. Use the first **Write to Excel worksheet** action to write the copied folder's path in the first column of the first available row.
 
         ![The Write to Excel worksheet action writing the folder's path.](..\media\exercise-write-to-excel-worksheet-action.png)
     
