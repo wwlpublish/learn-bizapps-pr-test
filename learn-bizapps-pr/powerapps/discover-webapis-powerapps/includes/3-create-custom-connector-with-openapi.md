@@ -1,26 +1,64 @@
-In order to use Web APIs in Power Apps, you should create a custom connector. There are several ways creating the custom connector.
+:::row:::
+  :::column span="4":::
+    Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and if not orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
+  :::column-end:::
+  :::column:::
+    ![Cartoon depiction of Maria](../../shared/media/maria.png)
+  :::column-end:::
+:::row-end:::
 
-![Many Ways Creating Custom Connector][image-01]
-
-This time, you are going to use Open API document to create a custom connector.
-
-
-## APIs from Open API Document ##
+Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals develop applications that are easy to create and deploy. She wants to build a Power App with existing Web APIs through a custom connector. As Crystal's team is fully stretched and unable to create the custom connector for Maria, she needs to create the custom connector for the inventory management by herself. Fortunately, Crystal has provided Maria with an Open API document and API key for authentication.
 
 
 ## Create Custom Connector from Open API Document ##
 
+There are several ways creating a custom connector from Power Apps. But this time, you are going to create the one using the Open API document because you have got the Open API document file.
+
+After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu at the left-hand side. Then, click the `➕ New custom connector` button at the right-top corner and select the `Import an OpenAPI file` menu.
+
+![Many Ways Creating Custom Connector][image-01]
+
+When a pop-up modal appears, give the name, **InventoryManager**, to the `Connector name` field and click the `Import` button to import the Open API document, named `openapi.json`. Then, click the `Continue` button.
+
+![Open API File Import][image-02]
+
+As the Open API document has everything you need to create the custom connector, click the `✅ Create connector` button at the right-top corner.
+
+![Custom Connector General Tab Create Connector][image-03]
+
+Once the custom connector is created, you will see the message, `✅ Custom connector has been successfully created` at the top of the screen.
+
+![Custom Connector General Tab Connector Created][image-04]
+
+Click the `Custom Connectors` menu at the left-hand side of the page and you will see the custom connector created. the `➕` button at the right-hand side.
+
+![New Custom Connector][image-05]
+
+When a pop up modal shows up, you will see the API Key field. Enter the API key copied at the beginning of this unit. Then click the `Create` button.
+
+![New Custom Connector Pop-up Modal][image-06]
+
+Go to the `Connections` menu, and you will see the new connection has been created.
+
+![New Connection][image-07]
+
+You have completed creating a custom connector for the inventory management.
 
 
+## Key Takeaways ##
 
-[image-01]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-01.png/300/300
-[image-02]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-02.png/300/300
-[image-03]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-03.png/300/300
-[image-04]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-04.png/300/300
-[image-05]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-05.png/300/300
-[image-06]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-06.png/300/300
-[image-07]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-07.png/300/300
-[image-08]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-08.png/300/300
-[image-09]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-09.png/300/300
-[image-10]: https://picsum.photos/seed/3-create-custom-connector-with-openapi-10.png/300/300
+After this unit, you are now able to:
 
+* Create a custom connector from the Open API document, and
+* Create a connection of the custom connector by providing authentication details.
+
+
+[image-01]: ../media/3-create-custom-connector-with-openapi-01.png
+[image-02]: ../media/3-create-custom-connector-with-openapi-02.png
+[image-03]: ../media/3-create-custom-connector-with-openapi-03.png
+[image-04]: ../media/3-create-custom-connector-with-openapi-04.png
+[image-05]: ../media/3-create-custom-connector-with-openapi-05.png
+[image-06]: ../media/3-create-custom-connector-with-openapi-06.png
+[image-07]: ../media/3-create-custom-connector-with-openapi-07.png
+
+[pa]: https://powerapps.microsoft.com/

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps.discover-webapis-powerapps.3-create-custom-connector-with-openapi
-title: Create Custom Connector with Open API Document
+title: Create Custom Connector from Open API Document
 metadata:
-  title: Create Custom Connector with Open API Document
-  description: You can create a custom connector with Open API document
+  title: Create Custom Connector from Open API Document
+  description: You can create a custom connector from Open API document
   ms.date: 03/05/2021
   author: justinyoo
   ms.author: juyoo
