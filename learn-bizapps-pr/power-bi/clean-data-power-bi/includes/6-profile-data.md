@@ -22,7 +22,7 @@ in. You can view the current data model under the **Model** tab on Power
 BI Desktop.
 
 > [!div class="mx-imgBorder"]
-> [![example data structure and ribbon bar](../media/06-data-model-ribbon-ss.png)](../media/06-data-model-ribbon-ss.png#lightbox)
+> [![Screenshot example of data structure and the ribbon bar.](../media/06-data-model-ribbon-ss.png)](../media/06-data-model-ribbon-ss.png#lightbox)
 
 On the **Model** tab, you can edit specific column and table properties
 by selecting a table or columns, and you can transform the data by using
@@ -54,7 +54,7 @@ of data that is valid, in error, and empty. In an ideal situation, you
 want 100 percent of the data to be valid. 
 
 > [!div class="mx-imgBorder"]
-> [![anomalies and data statistics for a column of data](../media/06-column-statistics-ssm.png)](../media/06-column-statistics-ssm.png#lightbox)
+> [![Screenshot of anomalies and data statistics for a column of data.](../media/06-column-statistics-ssm.png)](../media/06-column-statistics-ssm.png#lightbox)
 
 > [!NOTE]
 > By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select **Column profiling based on entire data set**.
@@ -117,4 +117,4 @@ properties to gain clarity about and make further edits to the type and
 format of data in columns, finding data anomalies, and viewing data
 statistics in Power Query Editor. With this knowledge, you can include
 in your toolkit the ability to study your data in an efficient and
-effective manner. 
+effective manner.
