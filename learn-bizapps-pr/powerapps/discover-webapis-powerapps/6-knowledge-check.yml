@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps.discover-webapis-powerapps.6-knowledge-check
+title: Check your knowledge
+metadata:
+  title: Check your knowledge
+  description: Answer the following questions to see what you've learned.
+  ms.date: 03/05/2021
+  author: justinyoo
+  ms.author: juyoo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned.
+  questions: 
+  - content: You can directly export APIs from Azure API Management and create a custom connector from it.
+    choices: 
+    - content: 'True'
+      isCorrect: true
+      explanation: Azure API Management can export APIs to Power Apps by creating a custom connector.
+    - content: 'False'
+      isCorrect: false
+      explanation: Azure API Management can export APIs to Power Apps by creating a custom connector.
+  - content: You can import Open API document to create a custom connector in Power Apps.
+    choices: 
+    - content: 'True'
+      isCorrect: true
+      explanation: Power Apps can import APIs from the Open API document.
+    - content: 'False'
+      isCorrect: false
+      explanation: Power Apps can import APIs from the Open API document.
+  - content: They discuss the differences between connector and connection. What is **NOT** correct?
+    choices: 
+    - content: A connector has information about what the APIs look like.
+      isCorrect: false
+      explanation: A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
+    - content: A connector has information about how to communicate with the APIs.
+      isCorrect: false
+      explanation: A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
+    - content: A connector knows the connection details to the APIs, like authentication details.
+      isCorrect: true
+      explanation: A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
+    - content: A connection knows the connection details how to connect to the APIs, including authentication details.
+      isCorrect: false
+      explanation: A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
