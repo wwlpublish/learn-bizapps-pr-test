@@ -18,7 +18,6 @@ levels:
 - intermediate
 roles: 
 - maker
-- functional-consultant
 - administrator
 products:
 - power-platform
@@ -27,5 +26,6 @@ modules:
 - learn-bizapps.power-virtual-agent-bots
 - learn-bizapps.enhance-power-virtual-agent-bots
 - learn-bizapps.manage-power-virtual-agent-topics
+- learn-bizapps.implement-power-virtual-agents 
 trophy: 
   uid: learn-bizapps.work-power-virtual-agents.trophy
