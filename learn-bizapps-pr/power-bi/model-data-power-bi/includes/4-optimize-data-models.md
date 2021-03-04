@@ -15,7 +15,7 @@ If you view tables in the **Model** view, hidden fields appear dimmed. The data 
 
 The **Sort by Column** tool, available on the **Table tools** tab, is useful to help ensure that your data is displayed in the order that you intended.  
 
-![Screenshot of the Sort by Column option on the Column toold tab.](../media/04-power-bi-desktop-sort-by-column.png)
+![Screenshot of the Sort by Column option on the Column tool tab.](../media/04-power-bi-desktop-sort-by-column.png)
 
 As a common example, data that includes the name of the month is sorted alphabetically by default, for example, August would appear before February.
 
