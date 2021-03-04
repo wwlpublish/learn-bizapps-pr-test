@@ -3,4 +3,5 @@ The business world is increasingly data driven. Small and large businesses alike
 In this module, you will:
 
 - Describe the business value and features of Power BI
+
 - See how Power BI works and looks from the user’s perspective

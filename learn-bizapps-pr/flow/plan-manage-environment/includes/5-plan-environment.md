@@ -1,26 +1,26 @@
 Environment design is highly dependent on organizational design.
 Considerations include size, location, regulatory environment, and
-appetite for adoption. While environment design is organization-dependent, 
+appetite for adoption. While environment design is organization-dependent,
 the following recommendations will aid you in designing the
 right landscape for your organization.
 
 > [!NOTE]
-> The Introduction to Power Automate security and governance module 
-discussed the default environment. If you recall, every user within 
-the tenant will automatically have access to this environment. Because 
-no method exists for removing access to this environment, it is a common 
-practice to rename this environment to **Personal Productivity** to imply 
-that this environment is general use. Administrators should also be 
-aware of the location of this environment to ensure that no issues occur 
+> The Introduction to Power Automate security and governance module
+discussed the default environment. If you recall, every user within
+the tenant will automatically have access to this environment. Because
+no method exists for removing access to this environment, it is a common
+practice to rename this environment to **Personal Productivity** to imply
+that this environment is general use. Administrators should also be
+aware of the location of this environment to ensure that no issues occur
 from a data privacy perspective.
 
 Another important consideration is the aspect of centralization. For
-example, consider whether your organization has a centralized IT function. 
-You should also determine if your organization is responsible for the 
-administration and governance of the Power Platform environment. 
+example, consider whether your organization has a centralized IT function.
+You should also determine if your organization is responsible for the
+administration and governance of the Power Platform environment.
 Alternatively, your organization could have a decentralized
 organization where some aspects of technology are managed outside of an
-IT department. When establishing environment design, you have additional 
+IT department. When establishing environment design, you have additional
 important parameters to consider.
 
 ## Sample configurations
@@ -30,7 +30,7 @@ based on your organization's design and goals.
 
 ### Single region organization (centralized)
 
-In single region organization (centralized), environments are centrally managed and 
+In single region organization (centralized), environments are centrally managed and
 include isolation for personal productivity, development, testing, and production
 purposes. The personal productivity environment can be used to support
 scenarios like email notifications, team-based approvals, improvised data
@@ -38,21 +38,21 @@ collection, and the integration with Office 365 services. The central
 team that manages environments will also provide access into non-default
 environments.
 
-Because this organization operates in a single region, data residency concerns do 
+Because this organization operates in a single region, data residency concerns do
 not exist and do not require further segregation from other regions.
 
-![single region](../media/1-single-region.png)
+![Screenshot of a centralized single region organization.](../media/1-single-region.png)
 
 ### Single region organization (decentralized)
 
-In single region organization (decentralized), environments are independently 
-managed, and the administrative responsibilities have been assigned to 
+In single region organization (decentralized), environments are independently
+managed, and the administrative responsibilities have been assigned to
 individual business units to manage. This organization operates within
-a single region and the default environment has been renamed to 
+a single region and the default environment has been renamed to
 **Personal Productivity**. Additional environments have been created
 for respective business units like HR, Finance, Operations, and IT.
 
-![single region decentralized](../media/2-single-region-decentralized.png)
+![Screenshot of a decentralized single region organization.](../media/2-single-region-decentralized.png)
 
 ### Multi-region organization (centralized)
 
@@ -86,14 +86,14 @@ Regional teams can apply their IT Change Management practices to these
 environments so that business-critical apps and flows can be promoted
 through environments to address any compliance requirements.
 
-![multi-region centralized](../media/3-multi-region-centralized.png)
+![Screenshot of a centralized multi-region organization.](../media/3-multi-region-centralized.png)
 
 ### Multi-region organization (decentralized)
 
 In multi-region organization (decentralized), the environments are independently managed, and
 the administrative responsibilities have been assigned to individual
 business units to manage. This organization operates in
-multiple regions, and the default environment has been renamed to 
+multiple regions, and the default environment has been renamed to
 **Personal Productivity** and resides within the same region as the
 tenant (North America). Within this home region, additional environments
 have been created for different business units that provide them with
@@ -111,7 +111,7 @@ In addition, environments for business units in Asia and
 Europe will be created to ensure that they have the autonomy to build apps and flows without
 a central authority.
 
-![multi-region decentralized](../media/4-multi-region-decentralized.png)
+![Screenshot of a decentralized multi-region organization.](../media/4-multi-region-decentralized.png)
 
 ## Manage exceptions
 
