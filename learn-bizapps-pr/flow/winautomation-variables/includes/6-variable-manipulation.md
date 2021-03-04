@@ -4,19 +4,19 @@ In some cases, the percentage sign should be used as a simple character, instead
 
 WinAutomation enables you to create complex expressions containing hardcoded values, variable names, arithmetic operations, comparisons, logical operations, and parentheses.
 
-![Screenshot of the populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-expression.png)
+![Screenshot of the Set Value field set to count plus one greater than 10% in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-expression.png)
 
 ## Hardcoded values
 
 To include a hardcoded text value inside a variable, you can use quotes. Every value between the quote characters will be treated as a text value and not as a variable Name.
 
-![Screenshot of the populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-hardcoded-values.png)
+![Screenshot of the Set Value field set to text in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-hardcoded-values.png)
 
 ## Variable names
 
 Variables can be used by adding their name to the expression without any further notation.
 
-![Screenshot of the populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-variable-names.png)
+![Screenshot of the Set Value field with variable names in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-variable-names.png)
 
 ## Basic arithmetic
 
@@ -57,4 +57,4 @@ Logical operators can also be used to check multiple conditions simultaneously, 
 
 If you want to change the operators' priority, you can use parentheses. parentheses are handled the same way as in algebra and programming languages.
 
-![Screenshot of the populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-parentheses.png)
+![Screenshot of the Set Value field with two variables in parentheses multiplied by 12 in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-parentheses.png)

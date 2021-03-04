@@ -18,11 +18,11 @@ In this exercise, you will create a process that prompts users to enter basic in
 
 1. Add a **Set Variable** action to join the name and the last name into a new variable called **FullName**.
 
-    ![Screenshot of the populated fields in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-full-name-exercise.png)
+    ![Screenshot of the NameInput and LastNameInput fields in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-full-name-exercise.png)
 
 1. Repeat step 5, to join the country code and the phone number into a variable called **FullPhoneNumber**.
 
-    ![Screenshot of the populated fields in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-full-phone-number-exercise.png)
+    ![Screenshot of the CountryCodeInput and PhoneNumber fields in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-full-phone-number-exercise.png)
 
     Because both variables have been created through a **Display Input Dialog** action, they are texts and not numbers. If the variables were numbers, the action above would have performed addition and not string concatenation.
 
@@ -47,11 +47,11 @@ In this exercise, you will create a process that prompts users to enter basic in
     - The **Column** field with the value 1.
     - The **Row** field with the **FirstFreeRow** variable.
 
-    ![Screenshot of the populated fields in the Write to Excel Worksheet action's properties dialog.](..\media\write-to-excel-worksheet-action-properties-full-name-exercise.png)
+    ![Screenshot of the FullName field in the Write to Excel Worksheet action's properties dialog.](..\media\write-to-excel-worksheet-action-properties-full-name-exercise.png)
 
 1. Repeat step 9, populating the **Value to Write** field with the **FullPhoneNumber** variable and the **Column** field with the Value two.
 
-    ![Screenshot of the populated fields in the Write to Excel Worksheet action's properties dialog.](..\media\write-to-excel-worksheet-action-properties-full-phone-exercise.png)
+    ![Screenshot of the FullPhoneNumber field in the Write to Excel Worksheet action's properties dialog.](..\media\write-to-excel-worksheet-action-properties-full-phone-exercise.png)
 
 1. Lastly, add a **Close Excel** action to save and close the launched Excel worksheet.
 

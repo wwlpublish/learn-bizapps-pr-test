@@ -60,7 +60,7 @@ The combination of these two structures allows the creation of ordered lists of 
 
 You can access individual object values by using either the dot (**.**) notation (`Object.PropertyName`) or the bracket (**[]**) notation (`Object["PropertyName"]`).
 
-![Screenshot of the populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-json.png)
+![Screenshot of the populated Set Value field set to custom object property 1 in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-json.png)
 
 Custom objects follow the same functionality, using pairs of properties and values.
 
