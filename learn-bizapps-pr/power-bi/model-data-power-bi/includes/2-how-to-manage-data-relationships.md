@@ -7,11 +7,11 @@ Tasks in this unit include:
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhg]
 
 > [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Access database <a href="https://go.microsoft.com/fwlink/?linkid=2120368" target="_blank">**here**</a> and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this <a href="https://go.microsoft.com/fwlink/?linkid=2131277" target="_blank">**article**</a>.
+> To follow along with the examples in the videos and on this page, download the sample Access database [here](https://go.microsoft.com/fwlink/?linkid=2120368/?azure-portal=true) and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this [article](https://go.microsoft.com/fwlink/?linkid=2131277/?azure-portal=true).
 
 In the Model view, notice that a block represents each table and the lines between them represent relationships.
 
-![Screenshot of the Model view.](../media/02-power-bi-desktop-model-view.png)
+![Screenshot of the Model view icon on the left.](../media/02-power-bi-desktop-model-view.png)
 
 Adding and removing relationships is straightforward. To remove a relationship, right-click the relationship and select **Delete**. To create a relationship, drag and drop the fields that you want to link between tables.
 
@@ -26,7 +26,6 @@ For a more detailed view of your data relationships, on the **Home** tab, select
 ![Screenshot of the Manage Relationships button and dialog.](../media/02-power-bi-desktop-manage-relationships.png)
 
 Your options for Cardinality are explained in the following table.
-
 
 | Cardinality options     |  Example                                 |
 |-------------------    |------    |-----------------------------------    |
