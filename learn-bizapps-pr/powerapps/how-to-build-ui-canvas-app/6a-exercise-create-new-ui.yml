@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: |
   [!include[](../includes/unit-banner.md)]
-  [!include[](includes/6a-exercise-create-new-ui)] 
+  [!include[](includes/6a-exercise-create-new-ui.md)] 
