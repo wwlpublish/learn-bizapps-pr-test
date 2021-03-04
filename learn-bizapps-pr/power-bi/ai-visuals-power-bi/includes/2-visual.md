@@ -11,19 +11,19 @@ Consider a situation where you've created a report for the Supply Chain team, an
 To get access to the **Q&A** feature, you need to add the **Q&A** visual to your report. You can double-click anywhere on the canvas, and the visual should appear. Alternatively, you can select the **Q&A** icon on the **Visualizations** pane.
 
 > [!div class="mx-imgBorder"]
-> [![Add Q&A visualization](../media/2-add-visualization-ssm.png)](../media/2-add-visualization-ssm.png#lightbox)
+> [![Screenshot of the add Q&A visualization feature.](../media/2-add-visualization-ssm.png)](../media/2-add-visualization-ssm.png#lightbox)
 
 The **Q&A** feature is also available as a button, which is a useful option if you want to save space on your report canvas.
 
 > [!div class="mx-imgBorder"]
-> [![Add Q&A button](../media/2-add-button-ssm.png)](../media/2-add-button-ssm.png#lightbox)
+> [![Screenshot of the add Q&A feature button.](../media/2-add-button-ssm.png)](../media/2-add-button-ssm.png#lightbox)
 
 When the **Q&A** visual or button is added to your report, you can reposition and resize it. You can also customize the formatting in the same way that you would for any other type of visual or button.
 
 You can start asking questions immediately by selecting one of the suggested questions or by entering a question into the question box. As you type, Power BI will automatically display suggestions to help you complete your question.
 
 > [!div class="mx-imgBorder"]
-> [![Ask question](../media/2-ask-question-ss.png)](../media/2-ask-question-ss.png#lightbox)
+> [![Screenshot of question typed in question box.](../media/2-ask-question-ss.png)](../media/2-ask-question-ss.png#lightbox)
 
 ## Set up the Q&A feature
 
@@ -32,22 +32,22 @@ When you have added the **Q&A** visual to your report, you can set up the underl
 In this example, you receive feedback from users saying that they can't get data on sales by country. To assess the problem, you enter **sales by country** into the question box. The visual does not update; it does not answer your question. The following image shows that the word *country* is underlined in red. When a red underline occurs, Power BI is telling you that it does not understand this term. Knowing that the word *country* is not used in your dataset, you decide to use the term *region* instead and ultimately discover why the question is not being answered. Accordingly, you realize that you need to teach Power BI what you mean by adding a new term to its thesaurus.
 
 > [!div class="mx-imgBorder"]
-> [![Problem with question asked](../media/2-problem-question-ss.png)](../media/2-problem-question-ss.png#lightbox)
+> [![Screenshot of problem with question asked with misunderstood term underlined.](../media/2-problem-question-ss.png)](../media/2-problem-question-ss.png#lightbox)
 
 Select the settings icon to the right of the question box to open the **Q&A setup** window. Then, select the **Teach Q&A** option.
 
 > [!div class="mx-imgBorder"]
-> [![Q&A setup](../media/2-setup-ss.png)](../media/2-setup-ss.png#lightbox)
+> [![Screenshot of the Q&A setup window with Teach Q&A option.](../media/2-setup-ss.png)](../media/2-setup-ss.png#lightbox)
 
 Enter your question again, and then select the **Submit** button. In the **Define the terms Q&A didn't understand** section that displays, enter your alternative term or synonym. In this case, you will enter **region**. The following image shows that Power BI displays a preview result so that you can see if this new term will return the results that you are looking for. If this result is correct, select **Save**.
 
 > [!div class="mx-imgBorder"]
-> [![Define Q&A terms](../media/2-define-terms-ss.png)](../media/2-define-terms-ss.png#lightbox)
+> [![Screenshot of the Define the terms Q&A didn't understand section.](../media/2-define-terms-ss.png)](../media/2-define-terms-ss.png#lightbox)
 
 Now, when users search for sales by country, Power BI will know that they really mean sales by region and will automatically display the associated data in the visual.
 
 > [!div class="mx-imgBorder"]
-> [![Problem with question resolved](../media/2-problem-resolved-ss.png)](../media/2-problem-resolved-ss.png#lightbox)
+> [![Screenshot of the problem with question resolved with data in visual displayed.](../media/2-problem-resolved-ss.png)](../media/2-problem-resolved-ss.png#lightbox)
 
 ## Use the Q&A feature to build visuals
 
@@ -58,6 +58,6 @@ For example, if you review the questions that are being asked, and you see that 
 To turn a **Q&A** result into a standard visual, select the icon next to the question box.
 
 > [!div class="mx-imgBorder"]
-> [![Q&A visualization type](../media/2-visualization-ss.png)](../media/2-visualization-ss.png#lightbox)
+> [![Screenshot of the Q&A result standard visual button.](../media/2-visualization-ss.png)](../media/2-visualization-ss.png#lightbox)
 
 The **Q&A** feature is unique in that it does not require users to have knowledge of Power BI to use the visual; users can ask their questions and they, too, can create insightful visuals.
