@@ -1,5 +1,5 @@
-The  Introduction to Power Platform security and governance module 
-introduced Data Loss Prevention (DLP) policies, which restrict the 
+The  Introduction to Power Platform security and governance module
+introduced Data Loss Prevention (DLP) policies, which restrict the
 connectors that can be used together within the same flow or
 app. The module also introduced the scope that a DLP policy will apply to. For
 example, you can create a DLP policy that only applies to an environment.
@@ -9,7 +9,7 @@ automatically inherit this tenant-wide DLP policy.
 
 The following sections discuss layering DLP policies. An
 organization might choose to implement a layered approach that enables
-specific scenarios but blocks others. When conflicting policies exist, 
+specific scenarios but blocks others. When conflicting policies exist,
 Microsoft will still apply the most restrictive policy.
 
 ### Scenario 1: Microsoft 365 Outlook and OneDrive for Business
@@ -22,19 +22,19 @@ Business** connectors in the **Business** data group and
 leaves all remaining connectors in the **Non-business** data
 group.
 
-![DLP policy](../media/6-dlp-update.png)
+![Screenshot of the Data Loss Prevention policy.](../media/6-dlp-update.png)
 
 After this DLP policy has been saved, app makers are able to create flows that
 allow them to copy their email attachments to their OneDrive.
 
-![flow example](../media/7-flow.png)
+![Screenshot of the flow example with the Apply to each action open.](../media/7-flow.png)
 
 When makers have saved a flow, the DLP policies are enforced. If your flow is
 enabled, or in an **on** state, then you know that you have not violated
 any policies. You will experience the behavior of a flow that violates a
 DLP policy later in this module.
 
-![flow enabled](../media/8-flow-enabled.png)
+![Screenshot of the Power Automate flow enabled.](../media/8-flow-enabled.png)
 
 ### Scenario 2: SharePoint and Teams
 
@@ -43,22 +43,22 @@ in a Microsoft Teams channel whenever a new item is created in a
 SharePoint list. To enable this scenario, you will create another DLP
 policy. In this scenario, you will only have the **SharePoint** and
 **Microsoft Teams** connectors in the **Business** data group.
-All remaining connectors will be placed in the **Non-business** 
+All remaining connectors will be placed in the **Non-business**
 data group.
 
-![DLP policy setup](../media/9-dlp-update.png)
+![Screenshot of the Data Loss Prevention policy setup.](../media/9-dlp-update.png)
 
 After this DLP policy has been saved, you can create a flow
 that will implement your designed functionality that includes posting a
 message in a Teams channel whenever a new item is created in a
 SharePoint list.
 
-![example flow ](../media/10-flow.png)
+![Screenshot of the Power Automate example flow.](../media/10-flow.png)
 
 When you save this flow, you will discover that it has been enabled, which
 means it complies with your DLP policies.
 
-![enable flow](../media/11-flow-enable.png)
+![Screenshot of the Power Automate enable flow.](../media/11-flow-enable.png)
 
 ### Scenario 3: Microsoft 365 Outlook and SharePoint
 
@@ -73,32 +73,32 @@ spread across two different DLP policies. If you recall, in the first
 scenario, you included your **Office 365 Outlook** and **OneDrive for
 Business** connectors. In the second scenario, you included
 **SharePoint** and **Microsoft Teams** connectors within the same
-policy. Currently, no policy exists that allows both the **Office 365 Outlook** 
+policy. Currently, no policy exists that allows both the **Office 365 Outlook**
 and **SharePoint** connectors to be included in the same flow or app.
 
 You can create a third DLP policy that does include **Office 365
 Outlook** and **SharePoint** connectors in the **Business**
 data group. All of the connectors are placed in the **Non-business** data group environment.
 
-![DLP](../media/12-dlp-update.png)
+![Screenshot of the Power Automate data policies page.](../media/12-dlp-update.png)
 
 You will now construct a flow that includes an **Office 365 Outlook**
 trigger and a **SharePoint** action.
 
-![example flow](../media/13-flow.png)
+![Screenshot of the Power Automate example flow.](../media/13-flow.png)
 
 When you save this flow, you will encounter the following error indicating
 that you have violated a DLP policy and, as a result, your flow has been
 suspended.
 
-![DLP error](../media/14-dlp-error.png)
+![Screenshot of the Data Loss Prevention error.](../media/14-dlp-error.png)
 
 You might wonder why this error has occurred considering that you created
 a DLP policy that explicitly allows both **Office 365 Outlook** and
 **SharePoint** connectors to be included in the same flow. While you did
 create this DLP policy, Microsoft will still enforce the most
 restrictive policy. Microsoft will not allow you to bypass previous DLP
-policies through the introduction of new policies. Otherwise, 
+policies through the introduction of new policies. Otherwise,
 unintended data leakage could occur as organizations include new DLP
 policies.
 

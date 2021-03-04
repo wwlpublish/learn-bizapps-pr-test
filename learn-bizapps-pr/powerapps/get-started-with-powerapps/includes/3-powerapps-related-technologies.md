@@ -96,7 +96,7 @@ Below are examples of the formulas to execute sending an email via Power Apps ve
 
 **Send an Email via Power Automate**
 
-![Screenshot of the Send an email with Power Automate formula.](../media/send-email-power-automate.png)
+![Screenshot of the Send an email with Power Automate formula.](../media/power-automate-flow.png)
 
 Also, the number of steps in your solution/process will aid you in determining which technology best suits your needs. Power Apps is great for performing simple solutions with minimal steps but as your solutions become more complex and requires multiple steps, Power Automate would be the better solution.
 

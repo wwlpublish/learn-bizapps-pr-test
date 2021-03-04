@@ -15,18 +15,18 @@ quiz:
   questions: 
   - content: In Microsoft Dataverse, where is your data being stored?
     choices: 
-    - content: Entities
+    - content: Tables
       isCorrect: true 
-      explanation: In Dataverse, data is stored in entities. 
+      explanation: In Dataverse, data is stored in tables. 
     - content: Forms
       isCorrect: false 
-      explanation: In Dataverse, data is stored in entities. 
+      explanation: In Dataverse, data is stored in tables. 
     - content: SharePoint
       isCorrect: false 
-      explanation: In Dataverse, data is stored in entities. 
+      explanation: In Dataverse, data is stored in tables. 
     - content: Access
       isCorrect: false 
-      explanation: In Dataverse, data is stored in entities. 
+      explanation: In Dataverse, data is stored in tables. 
   - content: What is the benefit of building a model-driven app?
     choices: 
     - content: Logic-focused design, no code required, and different UIs across multiple devices
