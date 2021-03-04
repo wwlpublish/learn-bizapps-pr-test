@@ -11,35 +11,35 @@ GitHub repository. The connector's functionality is arbitrary; you only need a c
 
 Follow these steps to install the custom connector:
 
-1.  Go to the [Microsoft Power Platform GitHub repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true) in a web browser.
+1. Go to the [Microsoft Power Platform GitHub repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true) in a web browser.
 
-2.  Select the **Clone or download** button and then select the **Download ZIP** link. Note where you save this zip file.
+2. Select the **Clone or download** button and then select the **Download ZIP** link. Note where you save this zip file.
 
-    ![Clone](../media/8-clone.png)
+    ![Screenshot of the GitHub repository with the Clone or download button highlighted.](../media/8-clone.png)
 
-3.  Locate the zip file that you downloaded. Right-click the file in Windows Explorer and select **Extract All...**
+3. Locate the zip file that you downloaded. Right-click the file in Windows Explorer and select **Extract All...**
 
-4.  Go to the extracted folder and open the **PowerPlatformConnectors-master** folder.
+4. Go to the extracted folder and open the **PowerPlatformConnectors-master** folder.
 
-5.  Open the **samples** folder.
+5. Open the **samples** folder.
 
-6.  Open the **Office365Groups** folder.
+6. Open the **Office365Groups** folder.
 
-7.  Note the location of the **apiDefinition.swagger.json** file. You will need this file when you create your custom connector in subsequent steps.
+7. Note the location of the **apiDefinition.swagger.json** file. You will need this file when you create your custom connector in subsequent steps.
 
-8.  Go to the [Power Automate maker portal](https://flow.microsoft.com/?azure-portal=true) in a web browser and sign in.
+8. Go to the [Power Automate maker portal](https://flow.microsoft.com/?azure-portal=true) in a web browser and sign in.
 
-9.  From the environment picker, select the environment that you created in the first module of this learning path. If you recall, an environment called **Development** was created. By selecting this environment, your custom connector will only be deployed in this environment and will not be available in your default environment.
+9. From the environment picker, select the environment that you created in the first module of this learning path. If you recall, an environment called **Development** was created. By selecting this environment, your custom connector will only be deployed in this environment and will not be available in your default environment.
 
 10. Within the left navigation pane, expand **Data** and then select **Custom connectors**.
 
 11. Select **+ New custom connector** and then **Import an OpenAPI file**.
 
-    ![new connector](../media/9-new-connector.png)
+    ![Screenshot of the Power Automate Data > Custom connectors page with the New custom connector menu expanded and Import an Open A P I file highlighted.](../media/9-new-connector.png)
 
 12. Enter **Custom Office 365 Groups** in the **Connector name** column. In the **Import an OpenAPI file** column, enter **apiDefinition.swagger.json**, select the **Import** button, and then select **Continue**. If you recall, this is the file that you located in step 7 of this exercise.
 
-    ![import](../media/10-import.png)
+    ![Screenshot of the Create a custom connector dialog with Import an Open A P I file set to apiDefinition.swagger.json.](../media/10-import.png)
 
     The custom connector publisher wizard will now be displayed. You do not need to complete actions on the **General** tab.
 
@@ -51,7 +51,7 @@ Follow these steps to install the custom connector:
 
     You should now see your custom connector available within the **Custom connectors** experience.
 
-    ![custom connectors](../media/11-custom-connectors.png)
+    ![Screenshot of the Power Automate Custom connectors page with Custom Office 365 Groups added.](../media/11-custom-connectors.png)
 
 You have now published your custom connector. In the next topic, you will manage this custom connector in a DLP policy.
 
@@ -59,46 +59,46 @@ You have now published your custom connector. In the next topic, you will manage
 
 Currently, a custom connector cannot be managed through the Power Automate Admin center's DLP experience without some administrative actions. In this section, you will use the [Microsoft Power Apps and Power Automate PowerShell cmdlets](https://docs.microsoft.com/power-platform/admin/powerapps-powershell/?azure-portal=true) for administrators.
 
-To add a custom connector to a DLP policy, you will need to retrieve some 
-unique identifiers for your custom connector and DLP policy 
+To add a custom connector to a DLP policy, you will need to retrieve some
+unique identifiers for your custom connector and DLP policy
 to provide them as inputs when adding your
 custom connector. These steps are also covered in the following section.
 
 > [!NOTE]
 > Prior to attempting the following actions, ensure that you meet the prerequisites that were outlined earlier in this module.
 
-1.  Launch **Windows PowerShell** and select **Run as Administrator**.
+1. Launch **Windows PowerShell** and select **Run as Administrator**.
 
-    ![PowerShell](../media/12-powershell.png)
+    ![Screenshot of Windows PowerShell desktop app with Run as Administrator highlighted.](../media/12-powershell.png)
 
-2.  Import the required modules by using the following commands:
+2. Import the required modules by using the following commands:
 
     **Install-Module -Name Microsoft.PowerApps.Administration.PowerShell**
 
     **Install-Module -Name Microsoft.PowerApps.PowerShell -AllowClobber**
 
-3.  If you are prompted to accept the change to the *InstallationPolicy* value of the repository, accept **[A] Yes to all modules** by entering **A** and then selecting **Enter** for each module.
+3. If you are prompted to accept the change to the *InstallationPolicy* value of the repository, accept **[A] Yes to all modules** by entering **A** and then selecting **Enter** for each module.
 
-4.  List all your DLP policies by running the following command in the **Windows PowerShell** command-line tool: **Get-AdminDlpPolicy**.
+4. List all your DLP policies by running the following command in the **Windows PowerShell** command-line tool: **Get-AdminDlpPolicy**.
 
-    ![Command](../media/12a-command.png)
+    ![Screenshot of the command Get-AdminDlpPolicy.](../media/12a-command.png)
 
-	> [!NOTE]
-	> You will be prompted for credentials at this point. Ensure that the credentials you are using have Environment or Tenant Administrator permissions.
+    > [!NOTE]
+    > You will be prompted for credentials at this point. Ensure that the credentials you are using have Environment or Tenant Administrator permissions.
 
-5.  A list of DLP policies will be displayed. Look for the DLP policy that you created in the previous module. When you find the policy, copy the **PolicyName**, which is represented as a GUID, to a text editor like Notepad.
+5. A list of DLP policies will be displayed. Look for the DLP policy that you created in the previous module. When you find the policy, copy the **PolicyName**, which is represented as a GUID, to a text editor like Notepad.
 
-    ![get DLP](../media/13-get-dlp.png)
+    ![Screenshot of the get D L P results with PolicyName and DisplayName values highlighted.](../media/13-get-dlp.png)
 
-6.  You now need to retrieve more details about your custom connector. To do so, enter **Get-AdminPowerAppConnector** in the **Windows PowerShell** command-line tool. When the results have returned, copy the **ConnectorName** and **ConnectorId** values to a text editor.
+6. You now need to retrieve more details about your custom connector. To do so, enter **Get-AdminPowerAppConnector** in the **Windows PowerShell** command-line tool. When the results have returned, copy the **ConnectorName** and **ConnectorId** values to a text editor.
 
-    ![get connector](../media/14-get-connector.png)
+    ![Screenshot of the get connector results with the command Get-AdminPowerAppConnector and the value for ConnectorName and ConnectorId highlighted.](../media/14-get-connector.png)
 
-7.  Enter **Add-CustomConnectorToPolicy** in the Windows PowerShell command-line tool.
+7. Enter **Add-CustomConnectorToPolicy** in the Windows PowerShell command-line tool.
 
-8.  When prompted, provide the **PolicyName** that you copied in step 5.
+8. When prompted, provide the **PolicyName** that you copied in step 5.
 
-9.  Provide the **ConnectorName** value that you copied in step 6.
+9. Provide the **ConnectorName** value that you copied in step 6.
 
 10. Provide the **GroupName** of **hbi** to put it into the **Business data only** data group. Use **lbi** if you would rather put the custom connector in the **No business data allowed** data group.
 
@@ -108,10 +108,9 @@ custom connector. These steps are also covered in the following section.
 
 13. Your command should now run and you should be presented with a status **Code** of **200** and a **Description** of **OK**.
 
-    ![add connector](../media/15-add-connector.png)
+    ![Screenshot of the add connector results with Code and Description highlighted.](../media/15-add-connector.png)
 
 14. Validate that your custom connector can be managed through DLP policies by going to the [Power Automate Admin center](https://admin.flow.microsoft.com/apiPolicies/?azure-portal=true), and then explore your **Office 365 Connectors** DLP policy to ensure that your custom connector appears in your **Business data only** data group. You can now manage this custom connector, much like any other connector.
-
 
 > [!NOTE]
 > Currently, you will not be able to rename the custom connector from this experience.

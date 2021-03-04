@@ -23,7 +23,7 @@ follow to take them to a desired outcome. These steps provide a visual indicator
 that tells people where they are in the business process. 
 
 Business process flows reduce the need for training because new users don’t have 
-to focus on which entity they should be using. They can let the process guide them. 
+to focus on which table they should be using. They can let the process guide them. 
 You can configure business process flows to support common sales methodologies that 
 can help your sales groups achieve better results. 
 
@@ -38,18 +38,18 @@ how business process flows work, review these system business process flows:
 - Opportunity Sales Process
 - Phone to Case Process 
 
-### Multiple entities in business process flows
-You can use a business process flow for a single entity or to span multiple entities. 
+### Multiple tables in business process flows
+You can use a business process flow for a single table or to span multiple tables. 
 For example, you may have a process that begins with an opportunity, then continues 
 to a quote, an order, and then an invoice, before finally returning to close the 
 opportunity.
 
 You can design business process flows that tie together the records for up to five 
-different entities into a single process so that people using the app can focus on 
-the flow of their process rather than on which entity they are working in. This way, 
-they can easily navigate between related entity records.
+different tables into a single process so that people using the app can focus on 
+the flow of their process rather than on which table they are working in. This way, 
+they can easily navigate between related table records.
 
-### Multiple business process flows are available per entity
+### Multiple business process flows are available per table
 Not every user in an organization may follow the same process and different conditions 
 may require that a different process be applied. You can have up to 10 active business 
-process flows per entity to provide appropriate processes for different situations.
+process flows per table to provide appropriate processes for different situations.

@@ -1,18 +1,18 @@
-The introduction module of this learning path explained the 
-DLP **Business** and **Non-business** data groups. 
-You can use these data groups to separate connectors that share similar 
-characteristics when it comes to their applicability to the business. 
-For flows and apps that are processing business-related data, you will 
-want to ensure that these connectors are placed within the **Business** 
-data group. When you have connectors that don't support valid business 
-use cases, these connectors are best placed in the **Non-business** 
+The introduction module of this learning path explained the
+DLP **Business** and **Non-business** data groups.
+You can use these data groups to separate connectors that share similar
+characteristics when it comes to their applicability to the business.
+For flows and apps that are processing business-related data, you will
+want to ensure that these connectors are placed within the **Business**
+data group. When you have connectors that don't support valid business
+use cases, these connectors are best placed in the **Non-business**
 data group.
 
-When a DLP policy is created, Microsoft will designate a default data group, 
-which will be assigned automatically to the **Non-business** 
+When a DLP policy is created, Microsoft will designate a default data group,
+which will be assigned automatically to the **Non-business**
 data group.
 
-![default](../media/1-default-update.png)
+![Screenshot of Assign connectors page with the Business tab selected.](../media/1-default-update.png)
 
 An administrator can change the default data group by selecting the **Set default group** button and choosing the data group that they want to designate as the default data group.
 
@@ -30,10 +30,10 @@ behavior because it has an impact on DLP policies. For example, assume
 an organization has encouraged users to build flows that take advantage
 of Office 365 connectors. In addition, administrators have tried to
 prevent makers from sending business data from Office 365 systems to
-consumer-based services like email and file sharing. 
+consumer-based services like email and file sharing.
 
-As a result of this strategy, consumer-based connectors have been placed 
-into the **Non-business** data group, which is also the default 
+As a result of this strategy, consumer-based connectors have been placed
+into the **Non-business** data group, which is also the default
 data group. Suppose Microsoft introduces a new Office 365 connector that will
 be placed into the default data group as a result, which means that a
 maker can build a flow that includes data from this new Office 365
@@ -49,10 +49,10 @@ published. A later module of this learning path will discuss this template and o
 Custom connectors also pose a challenge for administrators. Much like
 Microsoft and third-party connectors, custom connectors will also be
 placed in the default data group. However, they will not be visible,
-which can create challenges. 
+which can create challenges.
 
-The good news is that, by using PowerShell or Power Platform Management 
-connectors, an administrator can add custom connectors to a data group. 
-After a connector has been added, it can be managed through the Power 
-Automate Admin center. This topic is further discussed in the 
+The good news is that, by using PowerShell or Power Platform Management
+connectors, an administrator can add custom connectors to a data group.
+After a connector has been added, it can be managed through the Power
+Automate Admin center. This topic is further discussed in the
 "Configure DLP for custom connectors" unit in this module.

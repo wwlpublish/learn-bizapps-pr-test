@@ -1,12 +1,11 @@
-The Plan and manage your Power Platform environment module includes 
-a hands-on exercise that focuses on building a DLP policy 
-that supports Office 365 use cases. This unit further 
+The Plan and manage your Power Platform environment module includes
+a hands-on exercise that focuses on building a DLP policy
+that supports Office 365 use cases. This unit further
 explains that DLP policy and discusses additional considerations.
 
-![Office 365](../media/3-added-connectors-update.png)
+![Screenshot of Power Platform Admin center Data policies page with Office 365 options on the Business tab of the Assign connectors step.](../media/3-added-connectors-update.png)
 
 This DLP policy includes many popular Office 365 connectors that are defined in the following section.
-
 
 | Connector name          | Purpose                                                                                                                                                           |
 |-------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -25,11 +24,11 @@ This DLP policy includes many popular Office 365 connectors that are defined in 
 While the preceding connectors represent connectors that are related
 to Office 365 services, other connectors exist that
 administrators should consider including, even though they are not
-related to Office 365. 
+related to Office 365.
 
-In some circumstances, the following connectors might be useful for general 
-purposes, like Approvals and Content Conversion, while others are available 
-to help protect the organization through the automation of cyber security 
+In some circumstances, the following connectors might be useful for general
+purposes, like Approvals and Content Conversion, while others are available
+to help protect the organization through the automation of cyber security
 processes.
 
  | Connector name             | Purpose                                                                                                                                                                                                                                                                                                                | Audience                      |
@@ -58,9 +57,9 @@ When it comes to cyber security, you can no longer rely solely on
 analysts querying logs 24 hours a day. By taking advantage of triggers
 for these security services, alerts and notifications can be sent to
 these teams where they can subsequently respond to emerging threats in
-near or real time. 
+near or real time.
 
-For some organizations, getting buy-in from security teams so they can use 
-Power Platform might be challenging. However, when Cyber Security Analysts 
-have seen the benefits and that it could solve their own needs, they generally are more 
+For some organizations, getting buy-in from security teams so they can use
+Power Platform might be challenging. However, when Cyber Security Analysts
+have seen the benefits and that it could solve their own needs, they generally are more
 open to extending its use to other areas of the organization.

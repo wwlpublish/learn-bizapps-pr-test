@@ -21,7 +21,7 @@ There are apps for all sorts of online services. The following image shows a pag
 
 ![Power BI services](../media/pbi-touring_03.png)
 
-For our purposes, we'll choose **GitHub**. GitHub is an application for online source control. When you select the **Get it now** button in the box for the GitHub app, the **Connect to GitHub** dialog box appears. Note that Github does not support Internet Explorer, so make sure you are working in another browser.
+For our purposes, we'll choose **GitHub**. GitHub is an application for online source control. When you select the **Get it now** button in the box for the GitHub app, the **Connect to GitHub** dialog box appears. Note that GitHub does not support Internet Explorer, so make sure you are working in another browser.
 
 ![The GitHub app](../media/pbi-touring_03b.png)
 
@@ -37,7 +37,7 @@ In addition to the app **dashboard**, the **report** that was generated (as part
 
 ![Power BI navigation](../media/pbi-touring_06.png)
 
-On the dashboard, you can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when the **May 2018** bar is selected in the **Pull Requests (by month)** visual, the other visuals on the page adjust to reflect that selection.
+You can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when the **AdamBJ** in the treemap on the **Pull Requests** report the other visuals on the page adjust to reflect that selection.
 
 ![Power BI navigation](../media/pbi-touring_06b.png)
 

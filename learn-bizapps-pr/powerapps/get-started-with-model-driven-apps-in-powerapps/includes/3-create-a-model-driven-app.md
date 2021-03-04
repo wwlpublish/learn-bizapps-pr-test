@@ -27,9 +27,7 @@ You add components to your app by using the App Designer.
     > [!NOTE]
     > If *Account* is not an option as an entity, you may not have any sample data in your environment. Refer to this exercise on [how to create sample apps and data](https://docs.microsoft.com/learn/modules/intro-model-driven-apps-common-data-service/4-template-apps/?azure-portal=true).
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Properties tab with type and entity set.](../media/updated-sitemap.png)](../media/updated-sitemap.png#lightbox)
-
+    ![Screenshot of the Properties tab with type and entity set.](../media/updated-sitemap.png)
 
 3. Select **Save And Close**.
 4. In the App Designer, select **Forms**, and then, in the right pane under **Main Forms**, select the **Account** form.

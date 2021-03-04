@@ -1,12 +1,12 @@
 A business process flow is a visual guide that is meant to help users
-complete a business process by using a set of predefined stages. Users are 
-not limited on how long they run a business process or how long they have 
+complete a business process by using a set of predefined stages. Users are
+not limited on how long they run a business process or how long they have
 a stage open. All data that is associated with the
 business process flow can only be stored in one or more entities in
 Microsoft Dataverse, and you cannot associate a business process flow
-with another data source behind it. 
+with another data source behind it.
 
-Dataverse has many different out-of-the-box business process 
+Dataverse has many different out-of-the-box business process
 flows that you can use in its current state or modified to fit your needs.
 
 A Power Automate flow does not have any visual components like a
@@ -18,34 +18,34 @@ move between steps based on data or user interaction. Flows support
 complex logic and looping and a Power Automate flow can call
 another Power Automate flow as needed.
 
-### Business process flows value to organizations 
+### Business process flows value to organizations
 
-Business process flows allow organizations to quickly standardize how 
-processes are completed and what data is collected at each stage. Business 
-process flows support logical branching so they can be used to standardize 
+Business process flows allow organizations to quickly standardize how
+processes are completed and what data is collected at each stage. Business
+process flows support logical branching so they can be used to standardize
 many common business processes within an organization.
 
 Business process flows offer the following benefits:
 
--   Improved outcomes
+- Improved outcomes
 
--   Consistent stages and work steps across all instances of the process
+- Consistent stages and work steps across all instances of the process
 
--   Improved data collection and reporting
+- Improved data collection and reporting
 
--   Decreased time to complete the process
+- Decreased time to complete the process
 
--   Predictable outcomes
+- Predictable outcomes
 
 Business process flows are simple to set up and administer. Business
-process users who are close to business operations and processes can 
+process users who are close to business operations and processes can
 create new business process flows or modify out-of-the-box business
-process flows by using Power Automate. 
+process flows by using Power Automate.
 
-Business process flows can be customized based on security roles, 
-allowing access to the appropriate stages and steps based on a 
-security role. Finally, the process of each instance of a business 
-process flow can be monitored, and the data from the process flow can 
+Business process flows can be customized based on security roles,
+allowing access to the appropriate stages and steps based on a
+security role. Finally, the process of each instance of a business
+process flow can be monitored, and the data from the process flow can
 be used in Power BI dashboards and reporting for simplified administration.
 
 ### Business process flows and the larger Power Platform
@@ -56,12 +56,12 @@ Automate. You can manage or create new business process flows by
 launching Power Automate and selecting **Business process flows** under
 **My Flows** in Power Automate, as shown in the following image.
 
-![Power Automate business process flows option](../media/power-automate-my-flows-business-process-flows.png)
+![Screenshot of Power Automate Flows page with the Business process flows tab selected and highlighted.](../media/power-automate-my-flows-business-process-flows.png)
 
-You can launch the new business process flows as a component of a model-driven Power App or a stand-alone 
+You can launch the new business process flows as a component of a model-driven Power App or a stand-alone
 application within Power Automate (called an immersive business process flow), as shown in the following image.
 
-![Immersive business process flow](../media/immersive-business-process-flow.png)
+![Screenshot of Power Automate immersive business process flow.](../media/immersive-business-process-flow.png)
 
 As mentioned previously, all data that is associated with a business process
 flow is stored in one or more Dataverse entities (custom or

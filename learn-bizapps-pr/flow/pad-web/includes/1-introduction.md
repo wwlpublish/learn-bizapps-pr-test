@@ -12,11 +12,11 @@ To provide automation solutions for these applications, Power Automate Desktop s
 
 With such comprehensive support, users can handle any element in web pages and perform data extraction operations.
 
-By the end of this module, you'll be able to develop web-related flows and extract data of any type from web pages. 
+By the end of this module, you'll be able to develop web-related flows and extract data of any type from web pages.
 
 ## Learning objectives
 
-In this module, you will: 
+In this module, you will:
 
 - Learn how to configure web automation actions.
 - Learn how to extract data from web pages.
@@ -26,4 +26,4 @@ In this module, you will:
 
 - Basic familiarity with the Power Automate Desktop console and flow designer.
 - Basic familiarity with flow development and variables.
-- Basic familiarity with the UI elements pane. 
+- Basic familiarity with the UI elements pane.

@@ -1,4 +1,4 @@
-When creating a model-driven app, you can use entities from Microsoft Dataverse
+When creating a model-driven app, you can use tables from Microsoft Dataverse
 as your building blocks. Model-driven apps start with your
 data model, building up from the shape of your core business data and
 processes in Dataverse to model forms, views, and other
