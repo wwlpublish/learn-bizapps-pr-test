@@ -1,10 +1,10 @@
 ### YamlMime:Module
 uid: learn-bizapps.powerapps.discover-webapis-powerapps
-title: Discover and use Web APIs with Power Apps
+title: Discover and Use Web APIs with Power Apps
 summary: |
   Does your organisation has Web APIs and you want to include them into your Power Apps? As long as your Web APIs are well defined in an Open API document, citizen developers will be easily able to build a custom connector that interact Power Apps with Web APIs.
 metadata:
-  title: Discover and use Web APIs with Power Apps
+  title: Discover and Use Web APIs with Power Apps
   description: Build a custom connector using Open API document, to send data to and receive it from Web APIs.
   ms.date: 03/05/2021
   author: justinyoo
