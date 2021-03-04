@@ -11,9 +11,9 @@ report by email) on a specific schedule:
 
 1.  Launch [Power Automate](https://flow.microsoft.com/) and sign in using your organizational account.
 
-2.  In the left pane, select **My flows**.
+2.  In the left pane, select **+ Create**.
 
-3.  Select **New**, and then select **Scheduled--from blank**.
+3.  Select **Scheduled cloud flow** under **Start from blank**.
 
 4.  In the dialog box, specify the flow's name and how often the flow should run.
 
@@ -40,13 +40,13 @@ report by email) on a specific schedule:
 
 ## Use the compose action
 
-Use the **Data Operation - Compose** (compose) action to save yourself from
+Use the **Compose** action to save yourself from
 entering identical data multiple times when you are designing a flow. For
 example, if you need to enter an array of digits: [0,1,2,3,4,5,6,7,8,9] several
 times while you design your flow, you could use the compose action to save the
 array like this:
 
-1.  Search for **Compose**, and then select the **Data Operation - Compose** (compose) action.
+1.  Search for **Compose**, and then select the **Compose** (Data Operation) action.
 
      ![Search for and select the compose action](../media/data-operation-compose-action.png)
 
@@ -57,26 +57,18 @@ array like this:
      >[!TIP]
      >For easier reference later, rename the **Compose** card by clicking on the text "Compose" on the title bar of the **Compose** card.
 
-     When you need to access the contents of the compose action, do so via the **Output** token on the **Add dynamic content from the apps and connectors used in this flow** list by following these steps:
+3. Continue adding steps to your flow to perform the actions desired. 
 
-3.  Add an action such as **Data Operation – Join**.
+4. Rename your flow by selecting "Untitled" at the top left and entering your flow name. 
 
-4.  Select the control to which you would like to add the contents you saved in the compose action.
-
-     The **Add dynamic content from the apps and connectors used in this flow** opens.
-
-5.  On the **Add dynamic content from the apps and connectors used in this flow**, select the **Outputs** token that’s under the **Compose** category of the **Dynamic content** tab.
-
-     ![Use output from compose action](../media/use-output-from-compose-action.png)
-
-6.  Next Save the Flow in the top right corner
+5.  Next **Save** the flow in the top right corner
 
      ![Click Save button](../media/save-flow.png)
 
-7.  Then select the back arrow in the top left corner next to the name of the Flow
+6.  Select the back arrow in the top left corner next to the name of the flow
 
      ![Click back arrow](../media/flow-back-arrow.png)
 
-8.  Finally, you can Run the Flow from the command bar at the top
+7.  Finally, you can **Run** the flow from the command bar at the top
 
      ![Run the flow](../media/command-bar-run-flow.png)

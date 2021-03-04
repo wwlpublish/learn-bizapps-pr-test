@@ -15,7 +15,7 @@ Data is the core of Power BI. As you explore reports, each visual draws its unde
 
 A simple type of filtering that you can use directly on the report page is called a **slicer**. Slicers provide cues to ways you can filter the results in the visuals on a report page. There are several different types of slicers: numeric, categorical, and date. Slicers make it easy to filter all the visuals on the page at once.
 
-![Animated image of a slicer.](../media/2-1/power-bi-slicers.gif)
+![Animation of a slicer used to filter results in a visual report.](../media/2-1/power-bi-slicers.gif)
 
 If you want to select more than one field, hold the Ctrl key and click additional fields.  
 
@@ -29,28 +29,20 @@ The four types of filters are:
 -   **Visual** – Applies to a single visual on a report page. You only see visual level filters if you've selected a visual on the report canvas.
 -   **Drillthrough** – Allows you to explore successively more detailed views within a single visual.
 
-
-![Image of the different types of filters](../media/2-1/power-bi-filter-types.png)
-
+![The four different types of filters in Power BI.](../media/2-1/power-bi-filter-types.png)
 
 For example, in the following screenshot, the designer added three page-level filters: **Segment**, **Year**, and **Region**. Notice that **Year** is currently set to filter to the year 2014. 
 
-
-![Image of the Power BI filter pane](../media/2-1/power-bi-filter-pane.png)
-
+![Screenshot of a three page level filter on the Power BI filter pane.](../media/2-1/power-bi-filter-pane.png)
 
 You can apply filters on the **Filters** pane, or you can select data directly in the report to narrow by date, category, geography, and so on. 
-
-
 
 > [!Note] 
 >  You can explore the data by modifying the existing filters. The changes you make are saved for you (not others) with the report, including when you open the report in a mobile app.
 
-
 When you exit the report, your filters are saved. To undo your filtering and return to the default filtering, slicing, drilling, and sorting that the report author set, select **Reset to default** from the top menu bar.
 
-![Alt text](../media/2-1/power-bi-06-reset-button.png)
-
+![Screenshot of the Reset to default button.](../media/2-1/power-bi-06-reset-button.png)
 
 ### Clear a filter
 
@@ -64,31 +56,28 @@ Selecting check boxes to apply simple filters is effective, but sometimes you ne
 
 If the values are continuous (not discrete) or represent a range, you can select the field name to open the advanced filter mode. Use the drop-down menu and text boxes to specify a range of values that you want to see.
 
-![Image showing example of filtering on a range](../media/2-1/power-bi-12-filter-range.png)
-
+![Screenshot example of filtering on a range.](../media/2-1/power-bi-12-filter-range.png)
 
 If the field values represent date or time, you can specify a start and end time when using the Date and Time filters.
 
-![Image of filtering on a date](../media/2-1/power-bi-13-filter-date.png)
+![Screenshot example of filtering on a date.](../media/2-1/power-bi-13-filter-date.png)
 
 ### Change how a chart is sorted in a report
 
 In a Power BI report, you can sort most visuals alphabetically or by numeric values of each category. For example, the following chart is sorted by the category **Store name**.
 
-![Bar chart sorted alpha by X axis.](../media/2-2/image6.png)
+![Screenshot of a bar chart sorted alpha by X axis.](../media/2-2/image6.png)
 
 Changing the sort from a category (store name) to a value (sales per square feet) is simple. In this example, you would select the ellipsis (\...) and choose **Sort by \> Sales Per Sq Ft**. Optionally, you might select the ellipsis again and choose **Sort Descending**.
 
-> ![Animated image showing selecting sort by and then ascending, descending](../media/2-2/image7.gif)
+> ![Animated image showing selecting sort by and then ascending, descending.](../media/2-2/image7.gif)
 
 > [!Note] 
 > Not all visuals can be sorted. For example, the following visuals cannot be sorted: Treemap, Map, Filled Map, Scatter, Gauge, Card, Multi Row Card, and Waterfall.
 
-
 ### Save changes you make to the sort order
 
 Power BI reports keep the filters, slicers, sorting, and other data view changes that you make. When you leave a report and then return later, your changes are saved. If you want to revert your changes to the report designer's settings, select **Reset to default** from the top menu bar.
-
 
 ### Drill down in a visual
 
@@ -98,7 +87,7 @@ In this example, you might select the **Aquatics** element to see data for swimm
 
 If you're unsure of which Power BI visuals contain a hierarchy, hover over a visual. If you see the following drill controls in the top corner, your visual has a hierarchy.
 
-![Image of drilldown icons.](../media/2-1/power-bi-drilldown-icons7.png)
+![Screenshot of the drilldown controls in Power BI visuals.](../media/2-1/power-bi-drilldown-icons7.png)
 
 Dates are a unique type of hierarchy. When the report designer adds a date field to a visual, Power BI automatically adds a time hierarchy that contains year, quarter, month, and day.
 
@@ -110,17 +99,17 @@ Using bookmarks in Power BI helps you capture the currently configured view of a
 
 To see report bookmarks in action, go to any Power BI report to which you have view or edit access and select the **Bookmarks** drop-down menu on the action bar.
 
-![Image of the Power BI bookmark bar](../media/2-1/power-bi-14-bookmark-bar.png)
+![Screenshot of the Power BI bookmarks drop down menu.](../media/2-1/power-bi-14-bookmark-bar.png)
 
 ### Create bookmarks
 
 When you've selected the report and view that you like, expand the **Bookmarks** drop-down menu and select **Add personal bookmark**. By default, Power BI will suggest a generic name for your bookmark. You can type in your own name and select **Save**.
 
-![Image of adding personal bookmark.](../media/2-1/power-bi-add-personal-bookmark.png)
+![Screenshot of the Add a personal bookmark with generic name suggestion.](../media/2-1/power-bi-add-personal-bookmark.png)
 
 After creating a bookmark, you can display it by selecting the bookmark name in the drop-down list. Notice that the breadcrumb for the report will now contain the bookmark that you're currently viewing.
 
-![Image of bookmark on top bar.](../media/2-1/power-bi-personal-bookmark-breadcrumb.png)
+![Screenshot of the bookmark name in the drop down list breadcrumb.](../media/2-1/power-bi-personal-bookmark-breadcrumb.png)
 
 > [!Note] 
 > You will be able to create a maximum of 20 bookmarks per report.
@@ -129,5 +118,4 @@ After creating a bookmark, you can display it by selecting the bookmark name in 
 
 The report designer will sometimes include bookmarks as part of the report. To view either your personal bookmark or a report bookmark, select the bookmark icon and make your selection. Bookmark icons are listed on the Bookmark pane that you can open by selecting **Bookmarks > Show more bookmarks**. 
 
-![Image of opening bookmarks.](../media/2-1/power-bi-open-bookmark.png)
-
+![Screenshot of the bookmarks pane show more bookmarks.](../media/2-1/power-bi-open-bookmark.png)

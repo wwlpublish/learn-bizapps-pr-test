@@ -28,7 +28,7 @@ By default, Power Apps pulls in a price value for each item. This value is set a
    ```
 
 > [!NOTE]
-   > If your formula returns an error, then please note that the lanuage setting of your Power Apps environment can affect some separators and operators. For example, the above formula is expressed in a language and region that uses dot or period as the decimal separator, such as Japan or the United Kingdom. However, this same formula in a language and region where a comma is used for the decimal separator, such as France or Spain, the formula will need to be: 
+   > If your formula returns an error, then please note that the language setting of your Power Apps environment can affect some separators and operators. For example, the above formula is expressed in a language and region that uses dot or period as the decimal separator, such as Japan or the United Kingdom. However, this same formula in a language and region where a comma is used for the decimal separator, such as France or Spain, the formula will need to be: 
           ```powerappsfl
        Text(ThisItem.Price; "$ ##,00")
        ```

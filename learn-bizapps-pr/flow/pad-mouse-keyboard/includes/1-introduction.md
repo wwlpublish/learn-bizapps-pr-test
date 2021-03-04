@@ -5,12 +5,15 @@ Simulating mouse and keyboard actions provides an alternative when automating ta
 Power Automate Desktop offers a variety of actions that enable you to simulate mouse and keyboard operations such as cursor movements, mouse clicks, and typing.
 
 ## Learning objectives
+
 You will learn:
+
 * How to create a process that simulates human interaction with a PC
 * How to automate mouse movement and clicks
 * How to select and locate a specific image or area on the screen with the mouse
 * How to emulate typing or key presses in a process
 
 ## Prerequisites
+
 * Basic familiarity with Power Automate Desktop
 * Basic familiarity with the Image Repository

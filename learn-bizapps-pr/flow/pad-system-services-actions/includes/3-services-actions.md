@@ -9,4 +9,4 @@ This group contains four actions:
 
 All actions of the group require the service name as input and don't return any output.
 
-![start service action properties](..\media\start-service-action-properties.png)
+![Screenshot of the start service action properties.](..\media\start-service-action-properties.png)

@@ -1,6 +1,7 @@
 By the end of this exercise, you will be able to create a Power Automate cloud flow which runs a Power Automate Desktop flow. The flow is designed to approve or deny an employee's request for time off.
 
 The flow works as follows:
+
 1. Power Automate requests 3 inputs from the user. A first name, a last name, and the amount of days off an employee is requesting
 1. Power Automate passes all three inputs to Power Automate Desktop as input variables.
 1. The Power Automate Desktop flow writes the values of these variables to a new row in an open Excel sheet
@@ -12,11 +13,11 @@ The flow works as follows:
 
 1. Create an Excel file, save the file with the name **Time Off.xlsx** and do not close Excel. Enter the headers in the first row in the following order: **First Name**, **Last Name**, **Days Requested**, **Approved**
 
-   ![Excel spreadsheet](..\media\spreadsheet.png)
+   ![Screenshot of Excel spreadsheet with headers added.](..\media\spreadsheet.png)
 
 1. In Power Automate Desktop, select **New Flow** and specify a flow name.
 
-   ![Create a desktop flow](..\media\pad-create-flow.png)
+   ![Screenshot of the Build a flow dialog with the flow name set to Update time off spreadsheet.](..\media\pad-create-flow.png)
 
 1. Add an input variable. Repeat this three times, specifying the fields as follows:
 
@@ -33,7 +34,7 @@ The flow works as follows:
 
 1. Add the **Attach to running Excel** action. Specify the **Document name**, entering **Time Off.xlsx**.
 
-   ![Attach to running excel action](..\media\attach-to-running-excel-action-properties.png)
+   ![Screenshot of the Attach to running Excel action dialog.](..\media\attach-to-running-excel-action-properties.png)
 
 1. Add the **Get first free column/row from Excel worksheet** action.
 
@@ -51,23 +52,22 @@ The flow works as follows:
    * Message box icon: **Question**
    * Message box buttons: **Yes - No**
 
-   ![Display message action](..\media\display-message-action-properties.png)
+   ![Screenshot of the Display message action dialog.](..\media\display-message-action-properties.png)
 
 1. Add a **Set variable** action, and set **Approval** to **%ButtonPressed%**.
 
-   ![Set variable action](..\media\set-variable-action-properties.png)
+   ![Screenshot of the Set variable action dialog.](..\media\set-variable-action-properties.png)
 
 1. Add a **Write to Excel worksheet** action, and select the following parameters:
    * Value to write: **%ButtonPressed%**
    * Column: **D**
    * Row: **%FirstFreeRow%**
 
-   ![Write to excel action](..\media\write-to-excel-action-properties.png)
+   ![Screenshot of the Write to Excel worksheet action dialog.](..\media\write-to-excel-action-properties.png)
 
 1. The completed flow should look like the following figure:
 
-![Final desktop flow](..\media\completed-pad-flow.png)
-
+![Screenshot of the completed desktop flow.](..\media\completed-pad-flow.png)
 
 1. Go to flow.microsoft.com
 
@@ -83,24 +83,23 @@ The flow works as follows:
    |Last Name|Enter the employee's last name|
    |Time Off|Enter the time off requested in days|
 
-   ![Set parameters in the desktop flow](..\media\manually-trigger-a-flow-action-properties.png)
+   ![Screenshot of the Manually trigger a flow dialog with the parameters set.](..\media\manually-trigger-a-flow-action-properties.png)
 
 1. Add a new action and search for the **Run a flow built with Power Automate Desktop** action.
 
-   ![Select the action](..\media\choose-an-action.png)
+   ![Screenshot of the Choose an action search results.](..\media\choose-an-action.png)
 
 1. Select the **Update time off spreadsheet** flow made previously and set Run mode to **Attended**. Set the three variables to their corresponding values from the text inputs of the first action, using dynamic content.
 
-   ![Run desktop flow action](..\media\run-a-flow-built-by-pad-action-properties.png)
+   ![Screenshot of the Run a flow built with Power Automate Desktop action.](..\media\run-a-flow-built-by-pad-action-properties.png)
 
 1. Add a **Send an e-mail (V2)** action. For the purpose of the exercise, send an e-mail to your address. Set Subject to **Days Off Request** and use dynamic content to set the body as in the figure below:
 
-   ![Send an email v2 action](..\media\send-an-email-v2-action-properties.png)
+   ![Screenshot of the Send an email v2 action dialog.](..\media\send-an-email-v2-action-properties.png)
 
 > [!NOTE]
 > The **Approval** variable originates from the **Run a flow built with Power Automate Desktop** action.
 
 Save and test the flow. Enter the inputs as requested.
-
 
 When the flow runs, notice that the spreadsheet is updated and a dialog box prompts the user to approve or deny the requested time off. The e-mail is also sent to the provided address containing the result of the request for approval.

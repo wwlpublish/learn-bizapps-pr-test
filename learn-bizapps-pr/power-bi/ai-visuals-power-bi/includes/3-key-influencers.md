@@ -5,7 +5,7 @@ In this example, you've built several visuals for the Customer Service team, and
 To establish the key influencers, first add the **Key influencers** visual to your report by selecting the **Key influencers** icon on the **Visualization** pane. Then, populate the visual with the metrics that you want to measure. In this case, you're interested in the logged tickets, so in the **Analyze** field well, you will add the **Sales** field, and in the **Explain by** field well, you will add the **City** and **Product Name** fields. The visual updates according to the fields that you added and then shows the influence that those fields have on your data.
 
 > [!div class="mx-imgBorder"]
-> [![Use key influencers visual](../media/3-use-key-influencers-visual-ssm.png)](../media/3-use-key-influencers-visual-ssm.png#lightbox)
+> [![Screenshot of the Key influencers visual and Analyze field.](../media/3-use-key-influencers-visual-ssm.png)](../media/3-use-key-influencers-visual-ssm.png#lightbox)
 
 You can now use the **What influences...** drop-down list to see what caused the data to decrease or increase. The previous image shows that the sales for California are likely to be USD 130,700.00 higher than sales in other cities.
 

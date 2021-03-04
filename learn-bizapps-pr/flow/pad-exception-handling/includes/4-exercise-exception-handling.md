@@ -6,7 +6,7 @@ In this exercise, you'll add exception handling rules to a flow that has already
 
 This flow downloads an Excel file to the user’s desktop, and proceeds to modify its data into a new worksheet.
 
-The **Download from Web** action has been identified as a potential risk, because internet connectivity isn't always stable. 
+The **Download from Web** action has been identified as a potential risk, because internet connectivity isn't always stable.
 
 Edit the action and select **On error**. Then, activate the following options:
 
@@ -17,11 +17,11 @@ Edit the action and select **On error**. Then, activate the following options:
 The result should look like this:
 
 ![Exception Handling in the Download from Web action's properties.](..\media\download-from-web-action-properties.png)
- 
-If this action fails, it will first retry after 2 seconds. 
+
+If this action fails, it will first retry after 2 seconds.
 If the retry fails, the **Check Web Access** subflow will run. This subflow has been designed to ping [https://www.microsoft.com](https://www.microsoft.com), to check whether there are issues with web connectivity - if the ping action produces a **Failed** result, a log entry is created in a text file on the user’s desktop, and the flow is stopped.
 
-![The created flow in the Workspace.](..\media\workspace.png)
+![Screenshot of the created flow in the Workspace.](..\media\workspace.png)
 
 If this computer's internet connectivity is at fault, the flow will end. If not, the action’s exception handling will continue, so the action will be repeated.
 
@@ -33,8 +33,8 @@ After the file is opened, a series of actions are performed on its contents. Due
 
 To achieve this, add a **On block error** action after the file is opened, and configure it so that it runs the **Restart Excel** subflow, and then repeats the failed action:
 
-![The On block error action's properties.](..\media\on-block-error-action-properties-b.png)
- 
-Press **OK**, and move the **End** action after the file is closed. 
+![Screenshot of the On block error action's properties.](..\media\on-block-error-action-properties-b.png)
+
+Press **OK**, and move the **End** action after the file is closed.
 
 The **Restart Excel** subflow saves the file in its current state, closes it, and then reopens it. Therefore, if any of the Excel-related actions fails, the flow will save and close the file, reopen it, and attempt to resume running.

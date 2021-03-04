@@ -1,25 +1,23 @@
 Sometimes, the fastest way to get answers about your data is by asking questions in the Q&A feature of Power BI. 
 
-
 > [!NOTE]
 > Though Power BI Q&A only currently supports answering queries that are asked in English, a preview is available for Spanish that can be enabled by your Power BI administrator.
-
 
 **Explore Q&A**
 
 You can use Q&A to explore your data by using the intuitive, natural language capabilities of Power BI and receive answers in the form of charts and graphs. 
 
-![Image of the Q&A field.](../media/2-3/power-bi-ask-question.png)
+![Screenshot of the Ask a question about your data field.](../media/2-3/power-bi-ask-question.png)
 
 ## Ask a question
 
 Ask a question about your data in Q&A by using natural language. Natural language refers to the ordinary language that humans use to communicate with one another every day. An example would be, “What are the total units by region?”
 
-![Image of the Q&A example: "What are the total units by region?"](../media/2-3/power-bi-ask-answer.png)
+![Screenshot of the data results for What are the total units by region.](../media/2-3/power-bi-ask-answer.png)
 
 Q&A is available on dashboards and reports in Power BI. To open the Q&A screen, go to the dashboard and place your cursor in the question box.
 
-![Q&A screen](../media/2-3/power-bi-questions.png)
+![Screenshot of the Q&A screen opened with details displayed.](../media/2-3/power-bi-questions.png)
 
 If the visuals' axis labels and values include the words *sales*, *account*, *month*, and *opportunities*, then you can confidently ask questions that use those values. For example, "Which account has the highest opportunity" or "Show sales by month as a bar chart."
 
@@ -29,14 +27,13 @@ Another way that Q&A helps you ask questions is with prompts, autocomplete, and 
 
 ![Animated image of Power BI answering Q&A questions.](../media/2-3/power-bi-qa.gif)
 
-
 ### Q&A visuals
 
 Q&A picks the best visual based on the data being displayed. For example, numbers may be displayed as a line chart while cities are more likely to be displayed as a map.
 
 You can also tell Q&A which visual to use by adding it to your question. Q&A will prompt you with a list of workable visual types. Using the previous example, you could ask, "What are the total units by region *by pie chart*?"
 
-![Image of Q&A answer but with "by pie chart" added to the question.](../media/2-3/power-bi-ask-answer-by-chart-type.png)
+![Screenshot of the Q&A answer but with "by pie chart" added to the question.](../media/2-3/power-bi-ask-answer-by-chart-type.png)
 
 **Words and terminology that Q&A recognizes**
 

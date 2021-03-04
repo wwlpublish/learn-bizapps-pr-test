@@ -3,9 +3,9 @@ uid: learn-bizapps.controls-canvas-apps
 metadata: 
   title: Use and understand Controls in a canvas app in Power Apps
   description: Controls help create a better experience for the user and collect the appropriate data. This module will help you understand and use Controls.
-  ms.date: 03/29/2019  
-  author: KevSch
-  ms.author: kschimke  
+  ms.date: 02/25/2021 
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Use and understand Controls in a canvas app in Power Apps 
@@ -34,6 +34,7 @@ units:
 - learn-bizapps.controls-canvas-apps.3-text-controls 
 - learn-bizapps.controls-canvas-apps.4-additional-controls 
 - learn-bizapps.controls-canvas-apps.5-media 
+- learn-bizapps.controls-canvas-apps.5a-exercise-app-with-controls
 - learn-bizapps.controls-canvas-apps.6-knowledge-check 
 - learn-bizapps.controls-canvas-apps.7-summary 
 badge: 
