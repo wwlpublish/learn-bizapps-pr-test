@@ -4,30 +4,30 @@ The following flow retrieves a list of all the files in the **Documents** folder
 
 First, we will retrieve the path to the Documents folder, retrieve all the files inside, and initialize four variables to act as file counters:
 
-![Initializing file counters](..\media\initializing-file-counters.png)
+![Screenshot of Initializing file counters.](..\media\initializing-file-counters.png)
 
 Because the files located in the Documents folder are stored in a list, we will use a **For Each** loop to iterate through each file:
 
-![For each action added](..\media\for-each-action-added.png)
+![Screenshot with the For each action added.](..\media\for-each-action-added.png)
 
 Now, each file must be checked for the required keywords. To achieve this, we will use a **Switch** action:
 
-![Switch current item](..\media\switch-current-item.png)
+![Screenshot of the Switch action dialog with the Value to check set to current item.](..\media\switch-current-item.png)
 
-![Switch action added](..\media\switch-action-added.png)
+![Screenshot with the Switch action added.](..\media\switch-action-added.png)
 
 Next, we will add the alternative cases, using **Case** actions. The **Contains** comparison is used, since filenames may contain more characters than our keywords:
 
-![Case contains payments](..\media\case-contains-payments.png)
+![Screenshot of the Case action dialog with Operator set to contains, and Value to compare set to payments.](..\media\case-contains-payments.png)
 
 Eventually, the flow should look like this:
 
-![Cases added](..\media\cases-added.png)
+![Screenshot with the Cases added to the For Each action.](..\media\cases-added.png)
 
 We will also add an unconditional alternative, in case some files contain none of our keywords:
 
-![Default case added](..\media\default-case-added.png)
+![Screenshot with the Default case added to the For Each action.](..\media\default-case-added.png)
 
 Inside each case, we will increase the respective counter variable; finally, we will add a message box to be displayed:
 
-![Increasing counters based on switch value](..\media\increasing-counters-based-on-switch-value.png)
+![Screenshot with Increase variable counters added to each case.](..\media\increasing-counters-based-on-switch-value.png)

@@ -7,7 +7,9 @@ In this module, you will get a first glance at the flow development capabilities
 By the end of this module, you will be able to start developing flows, identifying and implementing the basic techniques and tools required to complete a task.
 
 ## Learning objectives
+
 In this module, you will:
+
 * Create a flow from scratch using the flow designer
 * Learn how to use actions and variables
 * Understand the testing and debugging features of the flow designer
@@ -15,6 +17,6 @@ In this module, you will:
 * Comprehend the use of UI elements and images
 * Use subflows to compartmentalize and reuse parts of a flow
 
-
 ## Prerequisites
+
 * Basic familiarity with the Power Automate Desktop Console

@@ -115,7 +115,7 @@ Next, switch to data view, and then in the **Fields** pane, select the Due Date
 > Ordering or filtering columns doesn't change how the values are stored. These functions help you explore and understand the data.
 
 > [!div class="mx-imgBorder"]
-> [![An image shows the Due Date table in data view. There's one column named Date, and when the values are sorted earliest to latest, the first date is July 1, 2017.](../media/dax-due-date-table-data-view-1-ss.png)](../media/dax-due-date-table-data-view-1-ss.png#lightbox)
+> [![Screenshot of the Due Date table in the data view.](../media/dax-due-date-table-data-view-1-ss.png)](../media/dax-due-date-table-data-view-1-ss.png#lightbox)
 
 Now that the **Date** column is selected, review the message in the status bar (located in the lower-left corner). It describes how many rows that the table stores and how many distinct values are found in the selected column.
 

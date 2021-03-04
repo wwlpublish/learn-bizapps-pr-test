@@ -2,15 +2,15 @@ Apart from handling web forms and components, Power Automate Desktop enables you
 
 To extract information about a web page, use the **Get details of web page** action.  Through this action, you can retrieve descriptive details about web pages, such as its title, metadata keywords, and description. In the action's properties, you have to specify the browser instance and the desired information to retrieve.
 
-![The et details of web page action.](..\media\get-details-of-web-page-action.png)
+![Screenshot of the Get details of web page action.](..\media\get-details-of-web-page-action.png)
 
 To extract details about a specific element rather than the entire web page, you can use the **Get details of element on web page** action. This action requires a browser instance and a UI element describing the element.
 
-![The Get details of element on web page action.](..\media\get-details-of-element-on-web-page-action.png)
+![Screenshot of the Get details of element on web page action.](..\media\get-details-of-element-on-web-page-action.png)
 
 If you want to take a screenshot from a web page, you can use the **Take screenshot of web page** action. Deploying this action, you can take a screenshot of the entire web page or a specific element. The action allows you to store the taken screenshot to the clipboard or a file.
 
-![The Take screenshot of web page action.](..\media\take-screenshot-of-web-page-action.png)
+![Screenshot of the Take screenshot of web page action.](..\media\take-screenshot-of-web-page-action.png)
 
 ## Advanced data extraction
 
@@ -18,7 +18,7 @@ It's common in business procedures to extract web data displayed in the form of 
 
 Like the other web actions, the **Extract data from web page** action requires a browser instance containing the page from which you'll extract data.
 
-![The Extract data from web page action.](..\media\extract-data-from-web-page-action.png)
+![Screenshot of the Extract data from web page action.](..\media\extract-data-from-web-page-action.png)
 
 You can save the extracted data into a variable or a newly generated Microsoft Excel spreadsheet. Depending on the selection, the extracted data can be in any of the following forms:
 
@@ -34,25 +34,24 @@ To specify which data to extract, you have to launch a browser window while the 
 
 While the platform displays the **Live web helper** dialog, right-click on the desired element, select **Extract element value**, and choose the property you want to extract.
 
-![An extracted single value.](..\media\extract-single-value.png)
+![Screenshot of an extracted single value.](..\media\extract-single-value.png)
 
 If you repeat the selection for another corresponding value, the action will extract a list containing each related element's respective value.
 
-![An extracted list of values.](..\media\extract-list.png)
+![Screenshot of an extracted list of values.](..\media\extract-list.png)
 
 If you select an additional value, Power Automate Desktop will return a data table containing each element's corresponding data in the list.
 
-![An extracted table of values.](..\media\extract-table.png)
+![Screenshot of an extracted table of values.](..\media\extract-table.png)
 
 To extract data spread throughout multiple pages, right-click on the website's pager button and select **Set element as pager**.
 
-If you want to modify the CSS selectors manually, select the **Advanced settings** option. Manually selector editing allows you to create complex selectors when the automatic selection doesn't satisfy your needs. 
+If you want to modify the CSS selectors manually, select the **Advanced settings** option. Manually selector editing allows you to create complex selectors when the automatic selection doesn't satisfy your needs.
 
-![The advanced settings of the Live web helper.](..\media\web-helper-advanced-settings.png)
+![Screenshot of the advanced settings of the Live web helper.](..\media\web-helper-advanced-settings.png)
 
 To discard a selection you have made, select the **Reset** button on the **Live web helper** dialog.
 
-Lastly, you can select the **Refresh** button to highlight which data to extract based on the current selection. You can take advantage of this feature when you want to repeat a similar extraction for multiple pages. 
+Lastly, you can select the **Refresh** button to highlight which data to extract based on the current selection. You can take advantage of this feature when you want to repeat a similar extraction for multiple pages.
 
-![The Live web helper dialog.](..\media\web-helper-dialog.png)
-
+![Screenshot of the Live web helper dialog.](..\media\web-helper-dialog.png)
