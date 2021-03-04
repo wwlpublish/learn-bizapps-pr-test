@@ -36,7 +36,7 @@ In this task, you will create the **Sales Monitoring** dashboard.
 
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the pushpin.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
+	> [![Screenshot of the pushpin in the top right corner.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
 
 1.  In the **Pin to Dashboard** window, in the **Dashboard Name** box, enter **Sales Monitoring**.
 
@@ -91,12 +91,12 @@ In this task, you will create the **Sales Monitoring** dashboard.
 1. Notice the response is now **$33M**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Blank replaced with $33M.](../media/lab-7-ss.png)](../media/lab-7-ss.png#lightbox)
+	> [![Screenshot of Blank response replaced with $33M.](../media/lab-7-ss.png)](../media/lab-7-ss.png#lightbox)
 
 1. To pin the response to the dashboard, at the top-right corner, click **Pin Visual**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Pin Visual option.](../media/lab-8-ssm.png)](../media/lab-8-ssm.png#lightbox)
+	> [![Screenshot of the Pin Visual option on the Pin to dashboard window.](../media/lab-8-ssm.png)](../media/lab-8-ssm.png#lightbox)
 
 1. When prompted to pin the tile to the dashboard, click **Pin**.
 
@@ -153,7 +153,7 @@ In this task, you will configure a data alert.
 1. In the **Manage Alerts** pane (located at the right), click **Add Alert Rule**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Manage alerts pane.](../media/lab-15-ssm.png)](../media/lab-15-ssm.png#lightbox) 
+	> [![Screenshot of the Manage alerts pane with Add alert rule button.](../media/lab-15-ssm.png)](../media/lab-15-ssm.png#lightbox) 
 
 1. In the **Threshold** box, replace the value with **35000000** (35 million).
 

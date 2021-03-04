@@ -15,7 +15,7 @@ Usage metric reports are available for Power BI Pro users and can only be access
 To view usage metric reports, go to the pertinent workspace. Find the report or dashboard that you want to see usage metrics for. For example, if you want to see the usage metrics report for **Sales Data**, select the ellipsis (**...**), and then select **View usage metrics report** from the drop-down menu.
 
 > [!div class="mx-imgBorder"]
-> [![Navigate to the usage metrics report](../media/03-report-label-ssm.png)](../media/03-report-label-ssm.png#lightbox)
+> [![Screenshot of the View usage metrics report feature.](../media/03-report-label-ssm.png)](../media/03-report-label-ssm.png#lightbox)
 
 When the usage metrics report is ready for viewing, you will receive a prompt that will direct you to a dashboard. In the **Report usage** tab, you can view such details as:
 
@@ -30,12 +30,12 @@ When the usage metrics report is ready for viewing, you will receive a prompt th
 You can also filter by the distribution method of the report (for example, through sharing or from the workspace directly) and platform type (for example, mobile or web).
 
 > [!div class="mx-imgBorder"]
-> [![Usage metrics report](../media/03-usage-metrics-1-ssm.png)](../media/03-usage-metrics-1-ssm.png#lightbox)
+> [![Screenshot of the Report usage filtered by the report method.](../media/03-usage-metrics-1-ssm.png)](../media/03-usage-metrics-1-ssm.png#lightbox)
 
 You can also view performance metrics on the **Report performance** tab, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> [![Report Performance Usage Metrics](../media/03-report-performance-metrics-ss.png)](../media/03-report-performance-metrics-ss.png#lightbox)
+> [![Screenshot of the performance metrics on the Report Performance tab.](../media/03-report-performance-metrics-ss.png)](../media/03-report-performance-metrics-ss.png#lightbox)
 
 On the **Report performance** tab, you can view metrics such as:
 
@@ -48,4 +48,3 @@ On the **Report performance** tab, you can view metrics such as:
 -   Filters for date, so you can see how the performance changes according to the day.
 
 For more information, see [Monitor Usage Metrics](https://docs.microsoft.com/power-bi/collaborate-share/service-modern-usage-metrics/?azure-portal=true).
-

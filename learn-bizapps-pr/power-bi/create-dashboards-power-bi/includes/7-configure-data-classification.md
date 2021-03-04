@@ -13,17 +13,17 @@ To continue with the module scenario, you are working on the **Tickets** dashboa
 Next, you will have three classifications to choose from: **DO NOT SHARE**, **ASK FOR PERMISSION**, and **OK TO SHARE**, which can be added directly as well as the shorthand versions of these classifications. To access data classification on a dashboard, go to a specific dashboard in Power BI service. Hover over the ellipsis (**...**) by the name of the dashboard and then select **Settings**.
 
 > [!div class="mx-imgBorder"]
-> [![Data Classification Settings in Power BI service](../media/07-data-classification-settings-ss.png)](../media/07-data-classification-settings-ss.png#lightbox)
+> [![Screenshot of the Settings feature accessed from the ellipsis next to the dashboard name.](../media/07-data-classification-settings-ss.png)](../media/07-data-classification-settings-ss.png#lightbox)
 
 In the resulting window, under **Dashboards**, you can use the drop-down menu under **Data classification** to choose how you want the data to be classified. The **Tickets** dashboard contains highly sensitive information, so it must be marked as **DO NOT SHARE.** After you have made this selection, the dashboard will follow the default data rules or the rules that you have established under **Tenant settings**.
 
 > [!div class="mx-imgBorder"]
-> [![Data Classification under Dashboard settings](../media/07-data-classification-dashboard-ss.png)](../media/07-data-classification-dashboard-ss.png#lightbox)
+> [![Screenshot of the Data Classification field under Dashboard settings.](../media/07-data-classification-dashboard-ss.png)](../media/07-data-classification-dashboard-ss.png#lightbox)
 
 When you open the dashboard, it will now be marked by this new data classification, as shown in the following screenshot.
 
 > [!div class="mx-imgBorder"]
-> [![Data classification on a dashboard](../media/07-dashboard-tag-ss.png)](../media/07-dashboard-tag-ss.png#lightbox)
+> [![Screenshot of the Data classification set as high on a dashboard.](../media/07-dashboard-tag-ss.png)](../media/07-dashboard-tag-ss.png#lightbox)
 
 You have now added custom data classification to your dashboards and the Sales team is pleased. Data classification is an important feature because it allows you to add a level of security to your Power BI dashboards. Additionally, because you can personalize them in any way that your organization requires, data classification also adds a layer of personalization to your dashboards.
 

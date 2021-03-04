@@ -14,12 +14,12 @@ After creating steps to clean data, select the **View** ribbon of Power
 Query and then select **Advanced Editor**. 
 
 > [!div class="mx-imgBorder"]
-> [![View ribbon, advanced editor button](../media/08-view-ribbon-advanced-button-ssm.png)](../media/08-view-ribbon-advanced-button-ssm.png#lightbox)
+> [![Screenshot of the View ribbon advanced editor button.](../media/08-view-ribbon-advanced-button-ssm.png)](../media/08-view-ribbon-advanced-button-ssm.png#lightbox)
 
 The following screen should appear. 
 
 > [!div class="mx-imgBorder"]
-> [![M language in advanced editor](../media/08-m-code.png)](../media/08-m-code.png#lightbox)
+> [![Screenshot of the M language in the advanced editor.](../media/08-m-code.png)](../media/08-m-code.png#lightbox)
 
 Each Power Query step will roughly align with one or two lines of M
 code. You don't have to be an expert in M code to be able to read it.
@@ -32,4 +32,4 @@ process can refer to previous steps by the variable name to the right of
 the equal sign. Be careful about reordering these steps because it could
 ruin the statement dependencies. Write to a query formula step by using
 the **in** statement. Generally, the last query step is used as the
-**in final data set** result. 
+**in final data set** result.
