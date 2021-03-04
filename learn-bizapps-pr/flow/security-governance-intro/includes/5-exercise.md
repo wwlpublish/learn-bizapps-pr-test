@@ -10,7 +10,7 @@ If necessary, sign up for a [trial Power Automate account](https://flow.microsof
 
 4. Select **+ New**.
 
-    ![Screenshot of the New environment](../media/10-new-environment.png)
+    ![Screenshot of the Power Platform Admin center with the New button highlighted.](../media/10-new-environment.png)
 
 5. Provide a **Name** of **Development** and then select a **Type** of
     environment. Depending on your circumstances, create a **Trial** or
@@ -34,7 +34,7 @@ If necessary, sign up for a [trial Power Automate account](https://flow.microsof
     a database in your environment. If you have no plans to use these
     features, then a database is not required.
 
-    ![Screenshot of the new environment configures](../media/11-new-environment-configure.png)
+    ![Screenshot of the new environment settings.](../media/11-new-environment-configure.png)
 
 7. Provide the **Language** of your choice and **Currency**. For the purposes of this exercise,
     do not enable Dynamics 365 apps or sample apps and data. Select **Save** to
@@ -45,4 +45,4 @@ If necessary, sign up for a [trial Power Automate account](https://flow.microsof
     displayed in the Admin center. You might need to select **Refresh** for
     the **State** field to update.
 
-    ![Screenshot of the status message](../media/12-status.png)
+    ![Screenshot of the status message showing that the environment was created successfully.](../media/12-status.png)
