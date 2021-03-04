@@ -1,16 +1,19 @@
-There are many types of testing that you should consider in your deployment planning. Each of these can be done either casually, or very formally with a well-documented process to follow. Often in different deployments these will have slightly different expectations. Some testing options are manual (user adoption testing), and some are automated (load testing).
+There are many types of testing that you should consider in your deployment planning. Each of these can be done either casually, or formally with a well-documented process to follow. Often in different deployments these will have slightly different expectations. Some testing options are manual (user adoption testing), and some are automated (load testing).
 
-**Unit testing-** this is the smallest component of testing, a single unit of measure. Often this is thought to be a developer’s job. However, every person on a project should include this in their work. An example of unit testing could be: You are given a requirement to add a calculated field to a form. Before you advance the task to the testing team you would confirm the field was on the form as expected and test that the calculation was as expected.
+**Unit testing-** this is the smallest component of testing, a single unit of measure. Often this is thought to be a developer’s job. However, every person on a project should include this in their work. An example of unit testing could be: You are given a requirement to add a calculated field to a form. Before you advance the task to the testing team, you would confirm the field was on the form as expected and test that the calculation was as expected.
 
 **Quality assurance testing**- sometimes called QA, this is when someone independently tests the task by reviewing the expectation against the work performed. Often there will be testing of the smallest components, such as the units mentioned above and also testing of a full end-to-end user story. 
 
-**Performance testing** (sometimes also referred to as load testing)- there are many things that can be configured that will have an impact on system performance. Sometimes the number of concurrent users affects expected performance (load); sometimes it’s the combined actions of these users, and sometimes an individual user could experience problems such as a slow-loading form that has too many sub-grids. Integrations with other systems might also affect performance. Performance or load testing is most often done using external tools.
+**Performance testing** (sometimes also referred to as load testing)- there are many things that can be configured that will have an impact on system performance. Sometimes the number of concurrent users affects expected performance (load); sometimes it’s the combined actions of these users, and sometimes an individual user could experience problems such as a slow-loading form that has too many subgrids. Integrations with other systems might also affect performance. Performance or load testing is most often done using external tools.
 
 **Integration testing**- did the systems we integrated with perform as expected? Did we introduce unnecessary dependencies? 
 
 **User acceptance testing**- this is an opportunity to have direct feedback from the actual users of the system being built. User acceptance testing (hopefully) confirms the system built is the system users need. 
 
 Regardless of the exact type or plan you are using; the following considerations should be included.
+
+> [!div class="mx-imgBorder"]
+> [![Diagram of the testing types of unit, user acceptance, integration, performance, and QA.](../media/testing-types.png)](../media/testing-types.png#lightbox)
 
 ## Use of Testing Plans
 
@@ -20,17 +23,17 @@ At a minimum, a test plan should provide a means to test each business requireme
 
 ## Environment
 
-Requirements of the test plan outline the environment needed to test accurately. The environment for testing should be as close to the technical set up of the production environment as possible. If the application will be available in multiple formats such as desktop, mobile, and offline testing should be completed in all of these environments. 
+Requirements of the test plan outline the environment needed to test accurately. The environment for testing should be as close to the technical setup of the production environment as possible. If the application will be available in multiple formats such as desktop, mobile, and offline testing should be completed in all of these environments. 
 
 There may be times when the needed environment is not available at the time of testing. It is important that stakeholders are aware of these needs and dependencies and how they influence deadlines. 
 
 ## Security
 
-In creating a testing plan, it is important to consider all of the user personas that will use the application and test from the correct security roles. Common considerations on security include determining relevant security roles, field security profiles, business unit membership, and team membership. The testers means of authenticating should be the same as the production users. For example, if users will access the application through a VPN, testing needs to be completed over VPN. 
+In creating a testing plan, it is important to consider all of the user personas that will use the application and test from the correct security roles. Common considerations on security include determining relevant security roles, field security profiles, business unit membership, and team membership. The testers mean of authenticating should be the same as the production users. For example, if users will access the application through a VPN, testing needs to be completed over VPN. 
 
 ## Dependencies
 
-Consider data dependencies such as child records needed to populate lookups. If needed data is uncovered during testing be sure to note it so you can remember to make the data available to users during user acceptance testing and the rollout to production. 
+Consider data dependencies such as child records needed to populate lookups. If needed data is uncovered during testing be sure to note it so, you can remember to make the data available to users during user acceptance testing and the rollout to production. 
 
 Be mindful of customizations that reference specific records such as a specific account or custom child record. If a customization such as a workflow or business rule relies on a specific record that record will need to be migrated, so the GUID is the same in both environments. Using the data import wizard will replicate the data in the new environment with a different GUID. 
 
@@ -40,7 +43,10 @@ Some configurations, such as Word and Excel templates, cannot be moved between e
 
 ## Resources
 
-It is best practice to have components tested by a resource that did not create or configure the component. 
+It is best practice to have components tested by a resource that did not create or configure the component.
+
+> [!div class="mx-imgBorder"]
+> [![Diagram of the testing considerations of plans, environment, security, dependencies, and configurations.](../media/testing-considerations.png)](../media/testing-considerations.png#lightbox) 
 
 ## Test Plan Components
 

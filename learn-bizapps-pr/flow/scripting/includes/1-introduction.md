@@ -6,11 +6,11 @@ By using scripts, you can avoid the development of complicated processes and enh
 
 ## Learning objectives
 
- In this module, you will: 
+ In this module, you will:
 
 - Learn how to use scripting actions.
 - Create two processes using VBScript and JavaScript.
 
 ## Prerequisites
 
-To successfully complete this module, you should have familiarity with the WinAutomation Console and Process Designer, and you should have advanced experience with process development and variables. 
+To successfully complete this module, you should have familiarity with the WinAutomation Console and Process Designer, and you should have advanced experience with process development and variables.

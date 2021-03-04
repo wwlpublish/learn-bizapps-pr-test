@@ -10,17 +10,17 @@ Network capacity can greatly affect performance of the apps from the end-user po
 
 There are two primary network characteristics affecting the performance: network bandwidth and latency. Collaboration with your network team is essential to making sure that network configuration is adequate and does not affect app performance.
 
-### Client Configuration
+### Client configuration
 
 CDS apps are web-based applications and use web browsers, such as Edge or Chrome, as the user interface to view, add, or edit information that you’ve stored in the apps database. You may need to work with your system administrators to make sure that the client machines and software settings are optimized for performance. 
 
-## App Performance
+## App performance
 
 Design of the app itself can greatly affect performance. One of the strengths of the Power platform is ability to quickly build robust small apps targeting specific users and specific functionality. Instead of a monolithic app that is more likely to suffer from performance issues you now have the ability to design several separate apps. This separation ensures that each app can be analyzed and tuned independently without too much impact on the others.
 
 Design techniques for individual components may also affect performance of an app.
 
-### Model-driven Apps
+### Model-driven apps
 
 #### Forms
 
@@ -34,33 +34,37 @@ To improve performance of the entity views, limit the number of columns displaye
 
 Customize your views so that they bring back an actionable number of records. For example, Active Contacts view may contain hundreds of thousands of records while My Active Contacts will limit that view only to the contacts that are owned by the user. At the same time consider limiting the number of records per page so that the views return much more quickly.
 
-#### Quick Search
+#### Quick search
 
 Optimizing the quick search view only to include columns that makes sense to search will make a noticeable performance impact on searches within the views. 
 
-![Screenshot showing my active contacts view and search box](../media/T1_PerformanceTuningandOptimization_image1.png)
+![Screenshot showing my active contacts view and search box.](../media/T1_PerformanceTuningandOptimization_image1.png)
 
 When a user searches for records within a view, Dataverse performs a query that searches only predefined fields. Which fields are searched is defined by the Find Columns settings in the system Quick View.
 
-![Screenshot showing the add find columns window](../media/T1_PerformanceTuningandOptimization_image2.png) 
+![Screenshot showing the add find columns window.](../media/T1_PerformanceTuningandOptimization_image2.png) 
 
 The fewer number of columns that are selected, the faster quick search will be. Balance the number of find columns with the effectiveness of the search.
 
-### Canvas Apps
+### Canvas apps
 
 The primary source of performance issues in canvas apps are poorly designed data access, excessive or suboptimal formula use, and overly complex user interface.
 
-#### Loading Data
+#### Loading data
 
-Apps will perform poorly when most of the heavy lifting is done on the client and not on the server. Erroneous choice of how to query your data may lead to performance issues. Understanding [delegation](https://docs.microsoft.com/powerapps/maker/canvas-apps/delegation-overview) in canvas apps is the key to improving you app performance when it comes to data access.
+Apps will perform poorly when most of the heavy lifting is done on the client and not on the server. Erroneous choice of how to query your data may lead to performance issues. Understanding [delegation](https://docs.microsoft.com/powerapps/maker/canvas-apps/delegation-overview/?azure-portal=true) in canvas apps is the key to improving you app performance when it comes to data access. Delegation is where the expressiveness of Power Apps formulas meets the need to minimize data moving over the network. In short, Power Apps will delegate the processing of data to the data source, rather than moving the data to the app for processing locally.
+
+Where this becomes complicated, is because not everything that can be expressed in a Power Apps formula can be delegated to every data source. The Power Apps language mimics Excel's formula language, designed with complete and instant access to a full workbook in memory, with a wide variety of numerical and text manipulation functions. As a result, the Power Apps language is far richer than most data sources can support, including powerful database engines such as SQL Server.
+
+Working with large data sets requires using data sources and formulas that can be delegated. It's the only way to keep your app performing well and ensure users can access all the information they need. Take heed of delegation warnings that identify places where delegation isn't possible. If you're working with small data sets (fewer than 500 records), you can use any data source and formula because the app can process data locally if the formula can't be delegated.
 
 There are some canvas apps features that you would want to consider when optimizing your app start performance by using Concurrent function to load data from multiple sources concurrently. 
 
-#### Controls Optimization
+#### Controls optimization
 
 Another aspect that can affect performance is the number of screens and controls used in your app. Minimizing the number of controls and reducing complexity of the controls used can help boost your app performance. It will improve the performance while authoring the app as well. There are strategies to optimizing the number of controls used in your app. For example, you can use a gallery control instead of a Canvas/Data Cards when the data displayed is uniform or vary only slightly. Gallery can be powerful in reducing complexity, making your app easier to maintain.
 
-There are other optimizations techniques available, make sure that canvas apps developers familiarize themselves with [detailed documentation](https://docs.microsoft.com/powerapps/maker/canvas-apps/performance-tips).
+There are other optimizations techniques available, make sure that canvas apps developers familiarize themselves with [detailed documentation](https://docs.microsoft.com/powerapps/maker/canvas-apps/performance-tips/?azure-portal=true).
 
 ### Workflows 
 
@@ -72,62 +76,3 @@ Background workflows create a log record when an instance of the workflow is exe
 
 Custom extensions such as plugins are the common source of the performance issues. Work with developers to identify and resolve those.
 
-## Performance Testing
-
-Designing for performance is an important part of the process and so is performance testing. It is important to perform performance testing on the system where the volume of data is close to your production system. That will give you a good understanding for app performance in general and for the areas to optimize. Use the instance copy function to create a copy of the production instance including the data. 
-
-The other important aspect of adequate performance testing is to reproduce workloads expected in the production environment. There is often a disconnect between testing environments where the system is accessed by a handful of the testers and the production instance where hundreds and thousands of users may access the system at the same time. There are load testing tools available from Microsoft and third-party vendors and you will need to collaborate with your development team to ensure that the tools are installed, configured, and used appropriately within the development lifecycle.
-
-## Instance Statistics
-
-CDS for Apps analytics are available via Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac). It contains various statistics that can help identify potential areas for deeper performance analysis, for example most used entities, storage consumed, failing system jobs and plugins, etc. 
-
-## Query Performance
-
-Dataverse is a service and, as any service, may not cater for your specific app design. Specific queries in your app may cause some performance issues. While you don’t have direct access to the components of the Dataverse such as database, there are tools available within Dataverse to help in tuning the environment to your specific needs. You can analyze and optimize query performance using the Data Performance view discussed in detail in the next topic.
-There are a number of tools that can assist in performance tuning various aspects of Power Apps.
-
-## Dynamics 365 Diagnostics
-
-There are two primary network characteristics affecting the performance: network bandwidth and latency. Identify if these may impact your app performance, by using the Dynamics 365 Diagnostics tool that is available at https://&lt;myorg&gt;.crm.dynamics.com/tools/diagnostics/diag.aspx where &lt;myorg&gt;.crm.dynamics.com is the URL of your Dynamics 365 organization.
-
-![Screenshot showing the Dynamics 365 Diagnostics window](../media/T2_PerformanceTools_image1.png)
-
-After opening the page and pressing Run, the report will become available that will assist your network team in detecting and resolving the issues. The statistic includes some browser benchmarks that may be useful in identifying if browser performance is an issue.
-
-## Data Performance Logs
-
-You can analyze and optimize query performance using the Data Performance view, which provides an aggregated list of entities with long-running queries. A long running query is defined as a query that takes three seconds or longer to complete. Typical examples of a component that can have a long running query is a plug-in with custom FetchXML or a sub-grid or view. 
-
-You can access Data Performance Logs via Settings -> Administration -> Data Performance.
-
-![Screenshot showing the All Data Performance Logs vi](../media/T2_PerformanceTools_image2.png)
-
-If one or more long running entity queries are detected, log items are displayed in the view. You can use the Optimize command to apply optimizations to the selected query.
-
-> [!Note]
-> With the most recent advances in Azure SQL database self-tuning capabilities you may no longer see any long running queries reported in the Data Performance view. Slow queries are automatically detected and optimized at the database level. 
-
-## Analytics
-
-Dataverse analytics are available via the Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac). Various statistics can help identifying potential areas for deeper performance analysis.
-
-### Dataverse
-
-The Content Usage tab contains information about most used out-of-the-box and custom entities. Identifying the most used entities helps concentrate the optimization efforts on the parts of the app that matter.
-
-![Screenshot showing the Dataverse analytics for common usage](../media/T2_PerformanceTools_image3.png)
-
-The Storage tab provides a number of storage statistics across all of your tenant instances as well as breakdown of the storage within the selected instance. 
-
-![Screenshot showing the Dataverse for analytics for stroage](../media/T2_PerformanceTools_image4.png)
-
-This can help identify entities with excessive storage use that would be a primary target for further performance investigations.
-
-Other statistics are also available that may be useful. Plug-ins statistics can assist in identifying troublesome plugins, for example those with excessive average execution time.
-
-### Power Apps Analytics
-
-Power Apps Analytics help with performance analysis by providing detailed statistics on Service Performance across various connectors used in your app. 
-
-Additional information such as overall app usage, location statistics, or errors seen by end users can be extracted from other tabs. While not directly performance related, this information can be useful in pinpointing overall problematic areas that may be caused by poor app performance such as specific region, specific app, etc.
