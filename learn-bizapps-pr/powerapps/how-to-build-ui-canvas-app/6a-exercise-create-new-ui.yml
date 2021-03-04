@@ -4,7 +4,7 @@ title: Exercise - Create UI for a new canvas app
 metadata: 
   title: Exercise - Create UI for a new canvas app 
   description: Steps to create UI for a new canvas app. 
-  ms.date: 02/25/21 
+  ms.date: 02/25/2021 
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: |
   [!include[](../includes/unit-banner.md)]
-  [!include[](includes/6a-exercise-create-new-ui)] 
+  [!include[](includes/6a-exercise-create-new-ui.md)] 
