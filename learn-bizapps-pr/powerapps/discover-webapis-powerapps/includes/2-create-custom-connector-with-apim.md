@@ -97,22 +97,7 @@ Go to the `Connections` menu, and you will see the new connection has been creat
 
 ![New Connection][image-14]
 
-
-## Test Custom Connector ##
-
-You may want to test your custom connector whether it works as expected or not. Go back to the `Custom Connectors` menu and click the `🖋` button at the right-hand side again.
-
-![Update Custom Connector][image-09]
-
-Click the `4. Test` tab, and you will see the connector has an active connection.
-
-![Custom Connector Test Tab][image-15]
-
-Choose the first operation at the left-hand side and click the `Test operation` button and you will see the result that the connector works as expected.
-
-![Custom Connector Test Operation][image-16]
-
-You have completed creating and testing a custom connector for the inventory management.
+You have completed creating a custom connector for the inventory management.
 
 
 ## Key Takeaways ##
@@ -120,9 +105,8 @@ You have completed creating and testing a custom connector for the inventory man
 After this unit, you are now able to:
 
 * Create a custom connector from Azure API Management by exporting the APIs,
-* Know the differences between a connector and a connection,
-* Create a connection of the custom connector, and
-* Test the connector.
+* Know the differences between a connector and a connection, and
+* Create a connection of the custom connector by providing authentication details.
 
 
 [image-01]: ../media/2-create-custom-connector-with-apim-01.png
@@ -139,8 +123,6 @@ After this unit, you are now able to:
 [image-12]: ../media/2-create-custom-connector-with-apim-12.png
 [image-13]: ../media/2-create-custom-connector-with-apim-13.png
 [image-14]: ../media/2-create-custom-connector-with-apim-14.png
-[image-15]: ../media/2-create-custom-connector-with-apim-15.png
-[image-16]: ../media/2-create-custom-connector-with-apim-16.png
 
 [az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
 
