@@ -18,7 +18,7 @@ Custom connectors are supported by Azure API Management infrastructure and it he
 When the target API is on-premises the use of the connection is the same, but as you can see in the following image the API is accessed via the on-premises gateway.
 
 > [!div class="mx-imgBorder"]
-> [![Custom connector architecture when using on-premises data gateway.](../media/target-api-on-premises.png)](../media/target-api-on-premises.png#lightbox)
+> [![Custom connector architecture when using on-premises data gateway.](../media/target-api-premises.png)](../media/target-api-premises.png#lightbox)
 
 When a connection to the underlying API is created, the APIM gateway stores the API credentials or tokens, depending on type of the authentication used, on a per connection basis in a token store. Since only an authenticated user can create a connection, the connections are always authenticated. There's no anonymous access to the instance of a custom connector in APIM gateway. That allows APIM gateway to securely store API credentials on a per connection basis and use them as required.
 
