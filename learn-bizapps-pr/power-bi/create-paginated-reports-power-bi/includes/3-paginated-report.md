@@ -1,31 +1,31 @@
 To create a report, you must add a visual to the design surface, similar to what you would do in Power BI Desktop. Select the **Insert** tab from the ribbon at the top to see your options for adding a visual.
 
 > [!div class="mx-imgBorder"]
-> [![The Insert tab](../media/04-insert-tab-ss.png)](../media/04-insert-tab-ss.png#lightbox)
+> [![Screenshot of the Insert tab with options for adding a visual.](../media/04-insert-tab-ss.png)](../media/04-insert-tab-ss.png#lightbox)
 
 For the purposes of this example, a table visual has been added to the design surface.
 
 When you select the **Table** drop-down menu, you can choose from two options: **Insert Table** or **Table Wizard**. Select **Insert Table**.
 
 > [!div class="mx-imgBorder"]
-> [![Insert a table](../media/04-insert-a-table-ss.png)](../media/04-insert-a-table-ss.png#lightbox)
+> [![Screenshot of the Insert table feature from the menu.](../media/04-insert-a-table-ss.png)](../media/04-insert-a-table-ss.png#lightbox)
 
 You can now draw a table on the design surface. From the **Report data** window, drag fields from the dataset to the table on the design surface.
 
 > [!div class="mx-imgBorder"]
-> [![Adding fields to the table](../media/04-add-fields-ss.png)](../media/04-add-fields-ss.png#lightbox)
+> [![Screenshot of the dataset fields on the table design surface.](../media/04-add-fields-ss.png)](../media/04-add-fields-ss.png#lightbox)
 
 When you have finished, notice that the field is added to the lower portion of the table in the square brackets. The header will also be added. You can rename or apply formatting to the headers, such as bolding or underlining the text.
 
 To test this simple report, select the **Run** button from the **Home** tab in the ribbon.
 
 > [!div class="mx-imgBorder"]
-> [![The Run button](../media/04-run-button-ss.png)](../media/04-run-button-ss.png#lightbox)
+> [![Screenshot of the Run button from the Home tab.](../media/04-run-button-ss.png)](../media/04-run-button-ss.png#lightbox)
 
 The report will run and display actual data in the table.
 
 > [!div class="mx-imgBorder"]
-> [![The report is displaying](../media/04-display-report-ss.png)](../media/04-display-report-ss.png#lightbox)
+> [![Screenshot of the table with data after the report is run.](../media/04-display-report-ss.png)](../media/04-display-report-ss.png#lightbox)
 
 Notice that some items have changed in the report: a title was entered at the top, table headers were renamed and are in bold font, and a background color was selected on the header. These changes were implemented to help make using the report easier for the report reader.
 
@@ -40,12 +40,12 @@ Consider the scenario where you are creating a report that retrieves data from a
 To add a parameter, right-click **Parameters** and select **Add Parameter**. The **Report Parameter Properties** dialog box opens. 
 
 > [!div class="mx-imgBorder"]
-> [![Add a parameter](../media/04-add-parameter-ssm.png)](../media/04-add-parameter-ssm.png#lightbox)
+> [![Screenshot of the Add parameter feature from the Parameters menu.](../media/04-add-parameter-ssm.png)](../media/04-add-parameter-ssm.png#lightbox)
 
 On the **General** tab, name the parameter, select the data type, and then choose the prompt that the user will see.
 
 > [!div class="mx-imgBorder"]
-> [![Report parameter properties shwoing the Name, Prompt, Data type, and Select parameter visibility fields](../media/04-report-parameter-properties-ssm.png)](../media/04-report-parameter-properties-ssm.png#lightbox)
+> [![Screenshot of the Report parameter properties showing the Name, Prompt, Data type, and parameter visibility fields.](../media/04-report-parameter-properties-ssm.png)](../media/04-report-parameter-properties-ssm.png#lightbox)
 
 
 1.  In **Name**, type a name for the parameter or accept the default name.  
@@ -77,6 +77,6 @@ You can also get parameter values from a query. For more information, see the [M
 After you have created a parameter, you can use it to interact with the report. If you return to the dataset, you can connect that parameter with the query.
 
 > [!div class="mx-imgBorder"]
-> [![Connecting to the parameter with the dataset](../media/04-dataset-properties-parameter-ss.png)](../media/04-dataset-properties-parameter-ss.png#lightbox)
+> [![Screenshot of the Dataset Properties with the name, data source, type, and query details.](../media/04-dataset-properties-parameter-ss.png)](../media/04-dataset-properties-parameter-ss.png#lightbox)
 
 The parameter reference starts with the at (**@**) symbol. Add the parameter name to the query text. Now, when the report refreshes, the data will be pulled from the data source according to the WHERE clause and the parameter value.
