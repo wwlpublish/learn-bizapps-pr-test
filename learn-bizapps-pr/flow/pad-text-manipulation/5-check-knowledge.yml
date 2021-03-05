@@ -15,18 +15,18 @@ quiz:
   questions: 
   - content: What method can you use to retrieve the length of a variable that holds a single text value?
     choices: 
-    - content: The Get Text Length action
+    - content: The Get Subtext action
       isCorrect: false
-      explanation: Both methods can be used to get the length of a text variable.
-    - content: The %Variable%.length syntax
-      isCorrect: false 
-      explanation: Both methods can be used to get the length of a text variable.
-    - content: All of the above
+      explanation: The %Variable.length% syntax can be used to get the length of a text variable.
+    - content: The %Variable.length% syntax
       isCorrect: true 
-      explanation: Both methods can be used to get the length of a text variable.
+      explanation: The %Variable.length% syntax can be used to get the length of a text variable.
+    - content: All of the above
+      isCorrect: false 
+      explanation: The %Variable.length% syntax can be used to get the length of a text variable.
     - content: None of the above
       isCorrect: false 
-      explanation: Both methods can be used to get the length of a text variable.
+      explanation: The %Variable.length% syntax can be used to get the length of a text variable.
   - content: Which one of the following actions is used to remove whitespace characters from the beginning and end of a text or list of text values?
     choices:
     - content: Pad
