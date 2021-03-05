@@ -7,7 +7,7 @@
   :::column-end:::
 :::row-end:::
 
-Maria now has got a custom connector up and running for inventory management. She wants to use the connector in her Power App.
+Maria now has a custom connector up and running for inventory management. She wants to use the connector in her Power App.
 
 
 ## Create Canvas App ##

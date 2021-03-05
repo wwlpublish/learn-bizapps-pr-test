@@ -33,13 +33,13 @@ quiz:
     choices: 
     - content: A connector has information about what the APIs look like.
       isCorrect: false
-      explanation: A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
+      explanation: A connector defines contracts &ndash; what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
     - content: A connector has information about how to communicate with the APIs.
       isCorrect: false
-      explanation: A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
+      explanation: A connector defines contracts &ndash; what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
     - content: A connector knows the connection details to the APIs, like authentication details.
       isCorrect: true
-      explanation: A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
+      explanation: A connector defines contracts &ndash; what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
     - content: A connection knows the connection details how to connect to the APIs, including authentication details.
       isCorrect: false
-      explanation: A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.
+      explanation: A connector defines contracts &ndash; what APIs look like and how you can connect to APIs. A connection knows the connection details to the APIs, like authentication details.

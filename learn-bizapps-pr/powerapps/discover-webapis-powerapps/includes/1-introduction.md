@@ -17,7 +17,7 @@ Maria has been studying up on Power Apps in her spare time. She believes that Po
 
 :::row:::
   :::column span="4":::
-    Crystal is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of Green Leaf's applications but is getting stretched thin by all the new requests. Crystal is familiar with Power Apps at a high-level and is eager to learn how she can use her existing skills to empower Citizen Developers.
+    Crystal is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of Green Leaf's applications but is getting stretched thin by all the new requests. Crystal is familiar with Power Apps at a high level and is eager to learn how she can use her existing skills to empower Citizen Developers.
   :::column-end:::
   :::column:::
     ![Cartoon depiction of Crystal][meet crystal]

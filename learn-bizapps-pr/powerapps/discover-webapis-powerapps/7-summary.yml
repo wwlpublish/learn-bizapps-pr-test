@@ -3,7 +3,12 @@ uid: learn-bizapps.powerapps.discover-webapis-powerapps.7-summary
 title: Summary
 metadata:
   title: Summary
-  description: Summary that how to create a custom connector either from Azure API Management or Open API document, how to test the custom connector, and how to add the custom connector into Power App and use it.
+  description: |
+    Summary that how to do with a custom connector:
+    
+    * To create a custom connector either from Azure API Management or Open API document,
+    * To test the custom connector, and
+    * To add the custom connector into Power App and use it.
   ms.date: 03/05/2021
   author: justinyoo
   ms.author: juyoo

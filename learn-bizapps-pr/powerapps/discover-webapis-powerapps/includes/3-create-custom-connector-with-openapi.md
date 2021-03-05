@@ -12,7 +12,7 @@ Maria has been studying up on Power Apps in her spare time. She believes that Po
 
 ## Create Custom Connector from Open API Document ##
 
-There are several ways of creating a custom connector from Power Apps. This time, you will create the one using the Open API document because you have got the Open API document file.
+There are several ways of creating a custom connector from Power Apps. This time, you will create the one using the Open API document because you have the Open API document file.
 
 After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu on the left-hand side. Then, click the `➕ New custom connector` button at the right-top corner and select the `Import an OpenAPI file` menu.
 
