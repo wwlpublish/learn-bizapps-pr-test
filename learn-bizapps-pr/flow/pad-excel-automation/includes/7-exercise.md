@@ -33,7 +33,7 @@ The Excel document contains a list of customers. Each customer has a first name,
 The rest of the **Write to Excel worksheet** actions should be configured as follows:
 
 - **Last Name** — Column B
-- **Address** — Column C
+- **Age** — Column C
 - **State** — Column D
 - **City** — Column E
 
