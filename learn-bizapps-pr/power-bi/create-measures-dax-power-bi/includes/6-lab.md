@@ -131,7 +131,7 @@ In this task, you will add additional columns to enable filtering and grouping b
 1. On the **Table Tools** contextual ribbon, from inside the **Calculations** group, click **New Column**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screnshot of the New column feature on the Table tools ribbon.](../media/lab-6-11-ssm.png)](../media/lab-6-11-ssm.png#lightbox)
+	> [![Screenshot of the New column feature on the Table tools ribbon.](../media/lab-6-11-ssm.png)](../media/lab-6-11-ssm.png#lightbox)
 
 1. In the formula bar, type the following, and then press **Enter**:
 
