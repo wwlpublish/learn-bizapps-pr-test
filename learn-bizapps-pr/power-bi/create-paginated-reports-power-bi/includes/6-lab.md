@@ -574,7 +574,7 @@ In this task, you will format the table data region.
 1. Verify that the table design looks like the following:
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the table design view example.](../media/lab-56-ss.png)](../media/lab-56-ss.png#lightbox)
+	> [![Screenshot of the table design example view.](../media/lab-56-ss.png)](../media/lab-56-ss.png#lightbox)
 
 1. To remove any trailing space after the table, hover the cursor over the dashed line between the report body and report footer region, and then drag upwards to touch the bottom of the table.
 
