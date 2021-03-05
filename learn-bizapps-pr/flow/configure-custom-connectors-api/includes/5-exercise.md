@@ -5,7 +5,7 @@ In this exercise, you'll create a custom connector and see how to configure it t
 
 ## Task 1: Create a new solution
 
-1.  Navigate to [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and make sure you are in the correct environment.
+1.  Navigate to [Power Apps maker portal](https://make.powerapps.com) and make sure you are in the correct environment.
 
 1.  Select **Solutions** and select **+ New solution**.
 
@@ -27,7 +27,7 @@ In this task, you'll use Graph Explorer to perform an API action that you'll con
 1.  Select **Sign in to Graph Explorer**.
 
 	> [!div class="mx-imgBorder"]
-	> [Screenshot of the sign in to the graph explorer button.](../media/graph-explorer-sign-in.png)](../media/graph-explorer-sign-in.png#lightbox)
+	> [![Screenshot of the sign in to the graph explorer button.](../media/graph-explorer-sign-in.png)](../media/graph-explorer-sign-in.png#lightbox)
 
 1.  Sign in with your user information.
 
