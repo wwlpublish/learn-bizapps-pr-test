@@ -4,7 +4,7 @@ To locate the current position of the cursor and retrieve its coordinates, use t
 
 ![Screenshot of the Get mouse position action properties dialog.](..\media\mouse-position-action-properties.png)
 
-To move the mouse to a specified position, use the **Move Mouse** action. Specify the target coordinates and how fast to move the cursor. Calculate the coordinates from the top left of the screen, the currently active window, or the mouse's current position. Set the mouse to move to the new position instantly, where the mouse appears to jump from one position to another or use animation to simulate a user's movement of the mouse. Optionally adjust the speed of the animation.
+To move the mouse to a specified position, use the **Move Mouse** action. Specify the target coordinates and how fast to move the cursor. Calculate the coordinates from the top left of the screen, the currently active window, or the mouse's current position. Set the mouse to move to the new position instantly, where the mouse appears to jump from one position to another or use animation to simulate a user's movement of the mouse. Optionally adjust the speed of the animation. To capture the current coordinates of the mouse relative to the screen, press **Ctrl** + **Shift**. This will populate the Position X and Position Y fields.
 
 ![Screenshot of the Move mouse action properties dialog.](..\media\move-mouse-properties.png)
 
@@ -52,7 +52,7 @@ To simulate mouse click(s), use the **Send Mouse Click**. Choose whether the act
 
 ## Keyboard actions
 
-Simulate using the physical keyboard to enter text or other key commands with the **Send Keys** action. Enter the text to send or specify a text variable. Additionally, set **Direct sensitive text input** to hide the text in the action properties. Select the "eye" icon to show the text you entered. For more specialized key commands, use the Insert Special Key buttons to insert special keys such as the arrow keys, Caps Lock or keys from the numeric keypad, and Insert Modifier to send keys such as Shift and Control. Optionally, set a delay between the keystrokes in milliseconds.
+Simulate using the physical keyboard to enter text or other key commands with the **Send Keys** action. Enter the text to send or specify a text variable. Additionally, set **Direct sensitive text input** to hide the text in the action properties. Select the "eye" icon to show the text you entered. For more specialized key commands, use the **Insert special key** button to keys such as the arrow keys, Caps Lock or keys from the numeric keypad, and **Insert modifier** to send keys such as Shift and Control. Optionally, set a delay between the keystrokes in milliseconds. 
 
 ![Screenshot of the Send Keys action properties dialog.](..\media\send-keys-action.png)
 
