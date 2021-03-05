@@ -8,14 +8,14 @@ Follow these steps to sign in to AI Builder:
 1. In the left pane, select AI Builder > Build.
 1. Select Form processing.
 1. Enter a name for your model.
-1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data we will be using in this guided experience. You can download the sample data [here](https://go.microsoft.com/fwlink/?linkid=2128080/?azure-portal=true).
+1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data we will be using in this guided experience. You can download the sample data [here](https://go.microsoft.com/fwlink/?linkid=2128080).
 1. Select **Create**.
 
 ## Choose information to extract
 
 In this step you define the fields and tables you want to teach your model how to extract.
 
-The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080/?azure-portal=true) are invoices from two different providers. Define the following fields to extract:
+The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080) are invoices from two different providers. Define the following fields to extract:
 
 - Invoice number
 - Due date
@@ -100,10 +100,3 @@ After you have tagged all documents across all collections, follow these steps:
 
 Now that you've created a Form processing model in AI Builder, you'll learn how to test your model and use it in Power Apps and Power Automate.
 
-Normal: The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080/?azure-portal=true) are invoices from two different providers.
-
-Without portal: The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080) are invoices from two different providers.
-
-Swap "?" statements: The provided [sample data](https://go.microsoft.com/fwlink/?azure-portal=true/?linkid=2128080) are invoices from two different providers.
-
-With "&" instead of "/?" The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080&azure-portal=true) are invoices from two different providers.
