@@ -20,13 +20,13 @@ When the target API is on-premises the use of the connection is the same, but as
 > [!div class="mx-imgBorder"]
 > [![Custom connector architecture when using on-premises data gateway.](../media/target-api-on-premise.png)](../media/target-api-on-premise.png#lightbox)
 
-When a connection to the underlying API is created, the APIM gateway stores the API credentials or tokens, depending on type of the authentication used, on a per connection basis in a token store. Since only an authenticated user can create a connection, the connections are always authenticated. There is no anonymous access to the instance of a custom connector in APIM gateway. That allows APIM gateway to securely store API credentials on a per connection basis and use them as required.
+When a connection to the underlying API is created, the APIM gateway stores the API credentials or tokens, depending on type of the authentication used, on a per connection basis in a token store. Since only an authenticated user can create a connection, the connections are always authenticated. There's no anonymous access to the instance of a custom connector in APIM gateway. That allows APIM gateway to securely store API credentials on a per connection basis and use them as required.
 
-This solution enables authentication at the connection level and, once a connection is created, there is no need to authenticate API again when a custom connector is used either interactively in a Power Apps app, or in an automated Power Automate flow or a Logic Apps workflow. Depending on how connectors and connections are shared, credentials are collected at the different stages of a custom connector lifecycle.
+This solution enables authentication at the connection level and, once a connection is created, there's no need to authenticate API again when a custom connector is used either interactively in a Power Apps app, or in an automated Power Automate flow or a Logic Apps workflow. Depending on how connectors and connections are shared, credentials are collected at the different stages of a custom connector lifecycle.
 
 ## Connector and connections sharing
 
 After a maker configures a custom connector and secures the API, they have a choice of how to share the connector and connections. How the connector itself and the connections are managed and shared have implications on the connector's security.
 
-In the rest of this module, we will explore how to configure custom connectors for the different types of authentication.
+In the rest of this module, we'll explore how to configure custom connectors for the different types of authentication.
 
