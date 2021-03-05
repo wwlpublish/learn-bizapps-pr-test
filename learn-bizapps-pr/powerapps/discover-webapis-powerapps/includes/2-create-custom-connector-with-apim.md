@@ -65,7 +65,7 @@ After logging into [Power Apps][pa] dashboard, open the `Data` blade and click t
 
 When a pop-up modal shows up, you will only see two buttons&ndash;`Cancel` and `Create`. Close the modal by clicking the `Cancel` button.
 
-![New Custom Connector Pop-up Modal][image-08]
+![New Custom Connector Pop-up Modal Bug Workaround][image-08]
 
 This time, click the `🖋` button on the right-hand side to update the connector.
 
