@@ -149,7 +149,7 @@ In this task, you'll configure a new application that will be used to access the
 1.  Enter Contoso graph for Connector name.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screnshot of Contoso graph entered as the connector name.(../media/contoso-graph.png)](../media/contoso-graph.png#lightbox)
+	> [![Screenshot of Contoso graph entered as the connector name.](../media/contoso-graph.png)](../media/contoso-graph.png#lightbox)
 
 1.  Scroll down, enter **graph.microsoft.com** for **Host** and **/v1.0** for **Base URL**.
 
