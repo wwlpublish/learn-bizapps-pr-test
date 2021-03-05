@@ -99,3 +99,11 @@ After you have tagged all documents across all collections, follow these steps:
 ## Next steps
 
 Now that you've created a Form processing model in AI Builder, you'll learn how to test your model and use it in Power Apps and Power Automate.
+
+Normal: The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080/?azure-portal=true) are invoices from two different providers.
+
+Without portal: The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080) are invoices from two different providers.
+
+Swap "?" statements: The provided [sample data](https://go.microsoft.com/fwlink/?azure-portal=true/?linkid=2128080) are invoices from two different providers.
+
+With "&" instead of "/?" The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080&azure-portal=true) are invoices from two different providers.
