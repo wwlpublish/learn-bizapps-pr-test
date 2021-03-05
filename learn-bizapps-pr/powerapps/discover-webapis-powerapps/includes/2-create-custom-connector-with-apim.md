@@ -3,7 +3,7 @@
     Crystal is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of Green Leaf's applications but is getting stretched thin by all the new requests. Crystal is familiar with Power Apps at a high-level and is eager to learn how she can use her existing skills to empower Citizen Developers.
   :::column-end:::
   :::column:::
-    ![Cartoon depiction of Crystal](../../shared/media/crystal.png)
+    ![Cartoon depiction of Crystal][meet crystal]
   :::column-end:::
 :::row-end:::
 
@@ -85,7 +85,7 @@ At the `Definition` tab, leave everything unchanged and click the `✅ Update co
 
 Go back to the `Custom Connectors` menu and click the `➕` button on the right-hand side again.
 
-![New Custom Connector][image-07]
+![New Custom Connector Bug Workaround][image-07]
 
 ### ⬆️⬆️⬆️ Bug Workaround Part End ⬆️⬆️⬆️ ###
 
@@ -108,6 +108,8 @@ After this unit, you are now able to:
 * Know the differences between a connector and a connection, and
 * Create a connection of the custom connector by providing authentication details.
 
+
+[meet crystal]: ../media/meet-crystal.png
 
 [image-01]: ../media/2-create-custom-connector-with-apim-01.png
 [image-02]: ../media/2-create-custom-connector-with-apim-02.png

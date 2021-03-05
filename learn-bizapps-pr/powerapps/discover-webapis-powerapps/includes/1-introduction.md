@@ -9,7 +9,7 @@ Green Leaf's business has grown exponentially over the past year. Along with tha
     Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and, if not, orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
   :::column-end:::
   :::column:::
-    ![Cartoon depiction of Maria](../../shared/media/maria.png)
+    ![Cartoon depiction of Maria][meet maria]
   :::column-end:::
 :::row-end:::
 
@@ -20,7 +20,7 @@ Maria has been studying up on Power Apps in her spare time. She believes that Po
     Crystal is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of Green Leaf's applications but is getting stretched thin by all the new requests. Crystal is familiar with Power Apps at a high-level and is eager to learn how she can use her existing skills to empower Citizen Developers.
   :::column-end:::
   :::column:::
-    ![Cartoon depiction of Crystal](../../shared/media/crystal.png)
+    ![Cartoon depiction of Crystal][meet crystal]
   :::column-end:::
 :::row-end:::
 
@@ -46,6 +46,9 @@ After completing this module, you will be able to:
 
 * Familiarity with the concept of Web API (or HTTP API). Custom connectors use Web APIs to send and receive data.
 
+
+[meet crystal]: ../media/meet-crystal.png
+[meet maria]: ../media/meet-maria.png
 
 [image-01]: ../media/1-introduction-01.png
 

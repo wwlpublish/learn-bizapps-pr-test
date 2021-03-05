@@ -3,7 +3,7 @@
     Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and, if not, orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
   :::column-end:::
   :::column:::
-    ![Cartoon depiction of Maria](../../shared/media/maria.png)
+    ![Cartoon depiction of Maria][meet maria]
   :::column-end:::
 :::row-end:::
 
@@ -35,7 +35,8 @@ After this unit, you are now able to:
 * Test the custom connector by using the existing connection details.
 
 
+[meet maria]: ../media/meet-maria.png
+
 [image-01]: ../media/4-test-custom-connector-01.png
 [image-02]: ../media/4-test-custom-connector-02.png
 [image-03]: ../media/4-test-custom-connector-03.png
-
