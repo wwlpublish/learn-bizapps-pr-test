@@ -72,6 +72,6 @@ The configuration is stored in apiProperties.json file and developers can also u
 
 1.  Add redirect URLs to the connector app registration.
 
-1.  If your service is secured with Cross-Origin Resource Sharing (CORS) scheme, allow list Azure API Management domains ('usually azure-apim.net') for CORS on your service.
+1.  If your service is secured with Cross-Origin Resource Sharing (CORS) scheme, allow list Azure API Management domains (usually `azure-apim.net') for CORS on your service.
 
 Setting up Azure AD authentication involves more steps of registering apps and identities in Azure AD but has more benefits making it a preferred scheme for securing custom connectors.
