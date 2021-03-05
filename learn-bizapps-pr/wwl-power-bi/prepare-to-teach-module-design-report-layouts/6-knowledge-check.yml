@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 12/03/2020
+  ms.date: 03/05/2021
   author: wwlpublish
   ms.author: bgeoffro
   ms.topic: interactive-tutorial
@@ -16,17 +16,20 @@ content: |
 quiz:
   title: "Designing report layouts"
   questions:
-  - content: "While you are demonstrating Report builder, your customer asks how you would look to the community or Power BI team blog for suggestions. What’s the fastest way to get to these resources from Report builder?"
+  - content: "Which element(s) are included by default in the default blank report?"
     choices:
-    - content: "Open Edge and start typing in the URL"
+    - content: "Body only"
       isCorrect: false
-      explanation: "That's incorrect. Open Help, search for the topic, and then select Additional resources."
-    - content: "File > Options to access resources"
-      isCorrect: false
-      explanation: "That's incorrect. Open Help, search for the topic, and then select Additional resources."
-    - content: "Open Help, search for the topic, and then select Additional resources"
+      explanation: "That's incorrect."
+    - content: "Body and footer"
       isCorrect: true
-      explanation: "That's correct. This is the fastest way to get to these resources from Report builder."
+      explanation: "That's correct."
+    - content: "Body and header"
+      isCorrect: false
+      explanation: "That's incorrect."
+    - content: "Body, footer, and header"
+      isCorrect: false
+      explanation: "That's incorrect."
   - content: "Expressions can be assigned to which of these?"
     choices:
     - content: "Location properties"
