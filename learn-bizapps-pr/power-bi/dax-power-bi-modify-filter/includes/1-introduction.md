@@ -21,15 +21,16 @@ Consider an example that requires your formula to modify the filter context. You
 > [!div class="mx-imgBorder"]
 > [![An image shows a table with three columns: Region, Revenue, and Revenue % Total Region. The table displays 10 rows and a total.](../media/dax-table-region-ratio-over-total-region-ss.png)](../media/dax-table-region-ratio-over-total-region-ss.png#lightbox)
 
-The **Revenue % Total Region** result is achieved by defining a measure expression that's the ratio of revenue divided by revenue *for all regions*. Therefore, for Australia, the ratio is <span>$</span>10,655,335.96 divided by <span>$</span>109,809,274.20, which is 9.7 percent.
+The **Revenue % Total Region** result is achieved by defining a measure expression that's the ratio of revenue divided by revenue *for all regions*. Therefore, for Australia, the ratio is $10,655,335.96 divided by $109,809,274.20, which is 9.7 percent.
 
 The numerator expression doesn't need to modify filter context; it should use the current filter context (a visual that groups by region applies a filter for that region). The denominator expression, however, needs to remove any region filters to achieve the result for all regions.
 
 > [!TIP]
 > The key to writing complex measures is mastering these concepts:
-> -   Understanding how filter context works
-> -   Understanding when and how to modify filter context to achieve a required result
-> -   Composing a formula to accurately and efficiently modify filter context
+>
+> - Understanding how filter context works
+> - Understanding when and how to modify filter context to achieve a required result
+> - Composing a formula to accurately and efficiently modify filter context
 >
 >    Mastering these concepts takes practice and time. Rarely will students understand the concepts from the beginning of training. Therefore, be patient and persevere with the theory and activities. We recommend that you repeat this module at a later time to help reinforce the key lessons.
 
