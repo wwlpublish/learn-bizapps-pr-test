@@ -50,7 +50,7 @@ The trigger definition must include a POST method that is used to register a web
 
 In fact, the OpenAPI specification version used by the Power Platform doesn't differentiate actions and triggers. The custom connector definition uses custom extension **x-ms-trigger** to declare a trigger.
 
-```yml
+```yaml
 paths:
   /webhooks:
     post:
@@ -74,7 +74,7 @@ Custom connector definitions can describe the content of the incoming webhook re
 
 The custom **x-ms-notification-content** property is another extension used in OpenAPI to define the webhook response schema.
 
-```yml
+```yaml
 paths:
   /webhooks:
     x-ms-notification-content:
