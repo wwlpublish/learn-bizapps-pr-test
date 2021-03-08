@@ -28,7 +28,7 @@ Text. To report on this column, you need to change the data type of this
 column from Text to Date.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of column OrderDate data type set as text.](../media/04-column-data-type-setas-text-ssm.png)](../media/04-column-data-type-setas-text-ssm.png#lightbox)
+> [![Column OrderDate data type set as text](../media/04-column-data-type-setas-text-ssm.png)](../media/04-column-data-type-setas-text-ssm.png#lightbox)
 
 ## Implications of incorrect data types
 
@@ -45,12 +45,12 @@ time-based calculations.
 ```Quantity of Orders YTD = TOTALYTD(SUM('Sales'[OrderQty]), 'Sales'[OrderDate])```
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of error for time based calculated measure.](../media/04-error-calculated-measure-ss.png)](../media/04-error-calculated-measure-ss.png#lightbox)
+> [![Error for time based calculated measure](../media/04-error-calculated-measure-ss.png)](../media/04-error-calculated-measure-ss.png#lightbox)
 
-Another issue with having an incorrect data type applied on a date field is the inability to create a date hierarchy, which would allow you to analyze your data on yearly, monthly, or weekly basis. The following screenshot shows that the SalesDate field is not recognized as type Date and will only be presented as a list of dates in the Table visual. However, it is a best practice to use a date table and turn off the auto date/time to get rid of the auto generated hierarchy. For more information about this process, see [Auto generated data type](https://docs.microsoft.com/power-bi/guidance/auto-date-time/?azure-portal=true) documentation.
+Another issue with having an incorrect data type applied on a date field is the inability to create a date hierarchy, which would allow you to analyze your data on a yearly, monthly, or weekly basis. The following screenshot shows that the SalesDate field is not recognized as type Date and will only be presented as a list of dates in the Table visual. However, it is a best practice to use a date table and turn off the auto date/time to get rid of the auto generated hierarchy. For more information about this process, see [Auto generated data type](https://docs.microsoft.com/power-bi/guidance/auto-date-time/?azure-portal=true) documentation.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of SalesDate menu options available.](../media/04-additions-sales-date-options-ssm.png)](../media/04-additions-sales-date-options-ssm.png#lightbox)
+> [![Additions SalesDate options](../media/04-additions-sales-date-options-ssm.png)](../media/04-additions-sales-date-options-ssm.png#lightbox)
 
 ## Change the column data type 
 
@@ -67,13 +67,13 @@ in the **Transform** tab, and then select the correct data type from the
 list.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the data types available under the transform ribbon.](../media/04-select-data-type-ssm.png)](../media/04-select-data-type-ssm.png#lightbox)
+> [![Select data type under transform ribbon](../media/04-select-data-type-ssm.png)](../media/04-select-data-type-ssm.png#lightbox)
 
 Another method is to select the data type icon next to the column header
 and then select the correct data type from the list.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the data type icon next to the column header.](../media/04-select-data-type-from-list-ssm.png)](../media/04-select-data-type-from-list-ssm.png#lightbox)
+> [![Select data type from list](../media/04-select-data-type-from-list-ssm.png)](../media/04-select-data-type-from-list-ssm.png#lightbox)
 
 As with any other changes that you make in Power Query Editor, the
 change that you make to the column data type is saved as a programmed
