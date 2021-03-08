@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.create-triggers-custom-connectors 
+metadata: 
+ title: Create triggers for custom connectors for Power Apps and Power Automate
+ description: Learn how to create triggers for custom connectors for Power Apps and Power Automate. 
+ ms.date: 03/31/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-platform  
+title: Create triggers for custom connectors for Power Apps and Power Automate
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Learn how you can expand the functionality of custom connectors with the trigger definitions.
+abstract: |  
+    In this module, you will: 
+    - Describe triggers in custom connectors.
+    - Identify common scenarios where triggers can be used. 
+    - Differentiate different types of triggers.
+    - Extend custom connector definition to make use of triggers defined by a service API.
+prerequisites: None 
+iconUrl: /learn/achievements/create-triggers-custom-connectors.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+products:  
+- power-platform
+- power-apps 
+- power-automate 
+units: 
+- learn-bizapps.create-triggers-custom-connectors.1-introduction 
+- learn-bizapps.create-triggers-custom-connectors.2-webhook-trigger 
+- learn-bizapps.create-triggers-custom-connectors.3-create-webhook-trigger 
+- learn-bizapps.create-triggers-custom-connectors.4-exercise-webhook-trigger 
+- learn-bizapps.create-triggers-custom-connectors.5-polling-trigger 
+- learn-bizapps.create-triggers-custom-connectors.6-exercise-polling-trigger 
+- learn-bizapps.create-triggers-custom-connectors.7-check 
+- learn-bizapps.create-triggers-custom-connectors.8-summary 
+badge: 
+  uid: learn-bizapps.create-triggers-custom-connectors.badge 
