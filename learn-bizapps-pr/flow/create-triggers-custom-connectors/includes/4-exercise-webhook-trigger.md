@@ -30,7 +30,7 @@ In this task, you'll import an unmanaged solution that contains prebuilt custom 
 
 1. In a new tab, navigate to [Contoso invoicing](https://contosoinvoicing.azurewebsites.net/?azure-portal=true).
 
-1. Select on the **API Key** link.
+1. Select the **API Key** link.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the API key link highlighted.](../media/api-key-link.png)](../media/api-key-link.png#lightbox)
@@ -140,12 +140,12 @@ In this task, you'll import an unmanaged solution that contains prebuilt custom 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the target URL properties fields.](../media/required-internal.png)](../media/required-internal.png#lightbox)
 
-1. Select on the **Back** button.
+1. Select the **Back** button.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of an arrow pointing to the back button.](../media/back.png)](../media/back.png#lightbox)
 
-1. Select on the **Back** button again.
+1. Select the **Back** button again.
 
 1. Scroll down to the **Webhook Response** section, enter **Invoice** for **Description**, and select **+ Import from sample.** The Webhook Response defines what will be sent to your flow when the triggering event occurs.
 
@@ -214,7 +214,7 @@ In this task, you'll import an unmanaged solution that contains prebuilt custom 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the creation connection button.](../media/contoso-invoicing-triggers-details.png)](../media/contoso-invoicing-triggers-details.png#lightbox)
 
-1. Select on the **amount** field and select **Amount** from the dynamic content pane.
+1. Select the **amount** field and select **Amount** from the dynamic content pane.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the amount field output from previous step.](../media/amount-field.png)](../media/amount-field.png#lightbox)
@@ -239,7 +239,7 @@ In this task, you'll import an unmanaged solution that contains prebuilt custom 
 
 1. Search for compose and select **Compose** action.
 
-1. Select on the **Inputs** field and select **body** from the dynamic content pane.
+1. Select the **Inputs** field and select **body** from the dynamic content pane.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Inputs field and body form the dynamic content pane.](../media/body.png)](../media/body.png#lightbox)
