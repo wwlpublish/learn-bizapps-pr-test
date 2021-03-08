@@ -33,7 +33,7 @@ In this task, you import an unmanaged solution that contains prebuilt custom con
 
 1. Navigate to [Contoso invoicing](https://contosoinvoicing.azurewebsites.net/?azure-portal=true).
 
-1. Select on the **API Key** link.
+1. Select the **API Key** link.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the API key link highlighted.](../media/api-key-link.png)](../media/api-key-link.png#lightbox)
@@ -114,12 +114,12 @@ If you skipped the prior task, navigate to your Contoso invoicing triggers custo
 
     1.  **URL**: `https://contosoinvoicing.azurewebsites.net/ListInvoices?fromDate=`
 
-1.  Select on **...** button of **fromDate** and select **Edit**.
+1.  Select the **...** button of **fromDate** and select **Edit**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of an arrow pointing to the edit query button.](../media/query-edit.png)](../media/query-edit.png#lightbox)
 
-1.  Select **Internal** for **Visibility** and select on the **Back** button.
+1.  Select **Internal** for **Visibility** and select the **Back** button.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of parameter visibility option set to internal.](../media/internal-back.png)](../media/internal-back.png#lightbox)
@@ -161,7 +161,7 @@ If you skipped the prior task, navigate to your Contoso invoicing triggers custo
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the trigger configuration section with values.](../media/trigger-configuration-section.png)](../media/trigger-configuration-section.png#lightbox)
 
-1. Select on the **Update connector** button located on the top of the screen and wait for the connector to be updated.
+1. Select the **Update connector** button located on the top of the screen and wait for the connector to be updated.
 
 ## Task 3: Testing the trigger
 
@@ -202,7 +202,7 @@ If you have already completed Unit 4 and create the Create invoice cloud flow, s
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the creation connection button.](../media/contoso-invoicing-triggers-details.png)](../media/contoso-invoicing-triggers-details.png#lightbox)
 
-1. Select on the **amount** field and select **Amount** from the dynamic content pane.
+1. Select the **amount** field and select **Amount** from the dynamic content pane.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the amount field output from previous step.](../media/amount-field.png)](../media/amount-field.png#lightbox)
@@ -226,7 +226,7 @@ If you have already completed Unit 4 and create the Create invoice cloud flow, s
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of an arrow pointing to a custom connector trigger.](../media/poll-trigger.png)](../media/poll-trigger.png#lightbox)
 
-1. Select on the **... Menu** button of the trigger and make sure Connection reference is selected.
+1. Select the **... Menu** button of the trigger and make sure Connection reference is selected.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the connection reference section.](../media/connection-reference.png)](../media/connection-reference.png#lightbox)
@@ -235,7 +235,7 @@ If you have already completed Unit 4 and create the Create invoice cloud flow, s
 
 1. Search for compose and select **Compose** action.
 
-1. Select on the **Inputs** field and select **body** form the dynamic content pane.
+1. Select the **Inputs** field and select **body** form the dynamic content pane.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Inputs field and body form the dynamic content pane.](../media/body.png)](../media/body.png#lightbox)
@@ -281,7 +281,7 @@ If you have already completed Unit 4 and create the Create invoice cloud flow, s
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of an arrow pointing to the compose flow action.](../media/compose-step.png)](../media/compose-step.png#lightbox)
 
-1. Review the **Outputs** and select on the button
+1. Review the **Outputs** and select the button
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the compose flow action outputs.](../media/outputs-review.png)](../media/outputs-review.png#lightbox)
