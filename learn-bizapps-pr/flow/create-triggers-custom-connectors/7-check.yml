@@ -20,11 +20,11 @@ quiz:
       explanation: Power Automate can use triggers to start the flows.
     - content: Power Apps
       isCorrect: true 
-      explanation: Power Apps can take advantage of the custom connector actions but is not able to use the triggers.
+      explanation: Power Apps can take advantage of the custom connector actions but isn't able to use the triggers.
     - content: Azure Logic Apps
       isCorrect: false 
       explanation: Azure Logic Apps can use triggers to start the logic app workflows. 
-  - content: For a custom connector to implement a webhook trigger the API must support which of the following? 
+  - content: For a custom connector to implement a webhook trigger, the API must support which of the following? 
     choices: 
     - content: Allowing periodic checks for updates to trigger the flow. 
       isCorrect: false
@@ -35,14 +35,14 @@ quiz:
     - content: Running on a schedule. 
       isCorrect: false 
       explanation: The benefit of a webhook is the near instant notification of an event within the API running on a schedule would defeat the benefits of a webhook. 
-  - content: For a custom connector to implement a polling trigger the API which field on an invoice would you use? 
+  - content: For a custom connector to implement a polling trigger, the API which field on an invoice would you use? 
     choices: 
     - content: Amount
       isCorrect: false
-      explanation: This would not be a good choice because it does not identify new items.  The most common values are time-based or numbers that increment sequentially. 
+      explanation: This wouldn't be a good choice because it doesn't identify new items.  The most common values are time-based or numbers that increment sequentially. 
     - content: Date Created
       isCorrect: true 
       explanation: This allows getting newer invoices created since last time the polling checked for data.
     - content: Invoice Type
       isCorrect: false 
-      explanation: This would not be a good choice because it does not identify new items.  The most common values are time-based or numbers that increment sequentially. 
+      explanation: This wouldn't be a good choice because it doesn't identify new items.  The most common values are time-based or numbers that increment sequentially. 
