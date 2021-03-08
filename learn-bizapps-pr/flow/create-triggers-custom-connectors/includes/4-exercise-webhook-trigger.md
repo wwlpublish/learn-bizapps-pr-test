@@ -110,7 +110,7 @@ In this task, you'll import an unmanaged solution that contains prebuilt custom 
     1.  URL: `https://contosoinvoicing.azurewebsites.net/NewInvoiceNotification`
 
     1.  Body:
-		```
+		```json
 		{
 		"targetUrl":"https://webhook.site"
 		}
@@ -173,7 +173,7 @@ In this task, you'll import an unmanaged solution that contains prebuilt custom 
 1. Select **Update connector**.
 
 	> [!NOTE]
-	> If you receive an error message about "all paths must being with '/'", open swagger, find the line containing '':{} and delete it
+	> If you receive an error message about "all paths must being with '/'", open swagger, find the line containing '':{} and delete it.
 
 1. Select **Close**.
 
