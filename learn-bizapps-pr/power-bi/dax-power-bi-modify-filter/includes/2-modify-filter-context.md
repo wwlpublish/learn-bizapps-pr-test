@@ -6,7 +6,7 @@ CALCULATE(<expression>, [[<filter1>], <filter2>]…)
 
 The function requires passing in an expression that returns a scalar value and as many filters as you need. The expression can be a measure (which is a named expression) or any expression that can be evaluated in filter context.
 
-Filters can be Boolean expressions or table expressions. It's also possible to pass in filter modification functions that provide additional control when you are modifying filter context. 
+Filters can be Boolean expressions or table expressions. It's also possible to pass in filter modification functions that provide additional control when you are modifying filter context.
 
 When you have multiple filters, they're evaluated by using the AND logical operator, which means that all conditions must be TRUE at the same time.
 
@@ -17,11 +17,11 @@ When you have multiple filters, they're evaluated by using the AND logical opera
 
 A Boolean expression filter is an expression that evaluates to TRUE or FALSE. Boolean filters must abide by the following rules:
 
--   They can reference only a single column
+- They can reference only a single column
 
--   They cannot reference measures
+- They cannot reference measures
 
--   They cannot use functions that scan or return a table that includes aggregation functions like SUM.
+- They cannot use functions that scan or return a table that includes aggregation functions like SUM.
 
 In this example, you will create a measure. First, download and open the [**Adventure Works DW 2020 M06.pbix**](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M06.pbix) file. Then, add the following measure definition that filters the **Revenue** measure by using a Boolean expression filter for red products.
 
@@ -59,11 +59,11 @@ The following example shows a table filter expression that uses the FILTER funct
 ```dax
 Revenue High Margin Products =
 CALCULATE(
-	[Revenue],
-	FILTER(
-		'Product',
-		'Product'[List Price] > 'Product'[Standard Cost] * 2
-	)
+    [Revenue],
+    FILTER(
+        'Product',
+        'Product'[List Price] > 'Product'[Standard Cost] * 2
+    )
 )
 ```
 
@@ -74,11 +74,11 @@ All filter expressions that are passed in to the CALCULATE function are table fi
 ```dax
 Revenue Red =
 CALCULATE(
-	[Revenue],
-	FILTER(
-		'Product',
-		'Product'[Color] = "Red"
-	)
+    [Revenue],
+    FILTER(
+        'Product',
+        'Product'[Color] = "Red"
+    )
 )
 ```
 
@@ -86,9 +86,9 @@ CALCULATE(
 
 Two possible standard outcomes occur when you add filter expressions to the CALCULATE function:
 
--   If the columns (or tables) aren't in filter context, then new filters will be added to the filter context to evaluate the CALCULATE expression.
+- If the columns (or tables) aren't in filter context, then new filters will be added to the filter context to evaluate the CALCULATE expression.
 
--   If the columns (or tables) are already in filter context, the existing filters will be overwritten by the new filters to evaluate the CALCULATE expression.
+- If the columns (or tables) are already in filter context, the existing filters will be overwritten by the new filters to evaluate the CALCULATE expression.
 
 The following examples show how adding filter expressions to the CALCULATE function works.
 
@@ -105,7 +105,7 @@ Because no filter is applied on the **Color** column in the Product table, the e
 Switching the first column of the table visual from **Region** to **Color** will produce a different result because the **Color** column in the Product table is now in filter context.
 
 > [!div class="mx-imgBorder"]
-> [![An image shows a table with three columns: Color, Revenue, and Revenue Red. The table displays 10 rows and a total. The value for Revenue Red is the same for each row.](../media/dax-table-color-revenue-red-ss.png)](../media/dax-table-color-revenue-red-ss.png#lightbox)
+> [![Screenshot of a table with three columns: Color, Revenue, and Revenue Red, 10 rows, and a total. The value for Revenue Red is the same for each row.](../media/dax-table-color-revenue-red-ss.png)](../media/dax-table-color-revenue-red-ss.png#lightbox)
 
 The **Revenue Red** measure formula evaluates the **Revenue** measure by adding a filter on the **Color** column (to red) in the Product table. Consequently, in this visual that groups by color, the measure formula overwrites the filter context with a new filter.
 
