@@ -107,7 +107,7 @@ In this task, you'll import an unmanaged solution that contains prebuilt custom 
 
     1.  **Verb**: POST
 
-    1.  URL: [https://contosoinvoicing.azurewebsites.net/NewInvoiceNotification](https://contosoinvoicingtest.azurewebsites.net/NewInvoiceNotification/?azure-portal=true)
+    1.  URL: `https://contosoinvoicing.azurewebsites.net/NewInvoiceNotification`
 
     1.  Body:
 		```
