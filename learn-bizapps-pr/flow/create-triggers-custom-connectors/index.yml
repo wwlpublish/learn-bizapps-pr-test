@@ -1,17 +1,17 @@
 ### YamlMime:Module 
 uid: learn-bizapps.create-triggers-custom-connectors 
 metadata: 
- title: Create triggers for custom connectors for Power Apps and Power Automate
+ title: Create triggers for custom connectors for Power Automate
  description: Learn how to create triggers for custom connectors for Power Apps and Power Automate. 
  ms.date: 03/31/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform  
-title: Create triggers for custom connectors for Power Apps and Power Automate
+title: Create triggers for custom connectors for Power Automate
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn how you can expand the functionality of custom connectors with the trigger definitions.
+  Extend connector functionality in Power Automate and Logic Apps where a system needs to respond to the changes in the underlying data or services. In this module, learn how you can expand the functionality of custom connectors with the trigger definitions.
 abstract: |  
     In this module, you will: 
     - Describe triggers in custom connectors.
@@ -26,7 +26,6 @@ roles:
 - maker  
 products:  
 - power-platform
-- power-apps 
 - power-automate 
 units: 
 - learn-bizapps.create-triggers-custom-connectors.1-introduction 
