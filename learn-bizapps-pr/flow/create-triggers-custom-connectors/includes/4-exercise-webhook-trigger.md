@@ -128,7 +128,7 @@ In this task, you'll import an unmanaged solution that contains prebuilt custom 
 1.  Scroll back up to the **Request** section, select **Body** and select **Edit**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of an arrow pointing to the edit body button.(../media/body-edit.png)](../media/body-edit.png#lightbox)
+	> [![Screenshot of an arrow pointing to the edit body button.](../media/body-edit.png)](../media/body-edit.png#lightbox)
 
 1.  Select **targetUrl** and select **Edit**.
 
