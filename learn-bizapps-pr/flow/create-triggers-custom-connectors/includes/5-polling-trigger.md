@@ -52,7 +52,7 @@ Polling trigger is created using a wizard in Power Automate. The process include
 
     -   Expression **@{triggerBody().widgets[0].id}** extracts the current highest widget ID. Since the returned collection is sorted in the descending ID value, extracting the value from the first element guarantees that it's the highest current ID.
 
-    -   **@triggerBody().widgets define the data collection.
+    -   @triggerBody().widgets define the data collection.
 
 Parameters need to be extracted and processed, and this transformation can only be implemented using a connector policy. That's why the polling trigger configuration is stored as a policy template separate from the OpenAPI connector definition. One of the implications is that it's not possible to manually edit all of the polling trigger configuration in the Swagger editor.
 
