@@ -27,7 +27,7 @@ levels:
 - beginner   
 roles:  
 - business-user   
-- app-maker  
+- maker  
 products:  
 - power-platform 
 - power-bi 
