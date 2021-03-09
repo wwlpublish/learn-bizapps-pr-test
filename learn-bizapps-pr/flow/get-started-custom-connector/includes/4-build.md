@@ -1,4 +1,4 @@
-In this exercise, you will create your first custom connector for an existing API Contoso Invoicing.
+In this exercise, you will create your first custom connector for an existing API called Contoso Invoicing.
 
 > [!IMPORTANT]
 > Use a test environment with Microsoft Dataverse provisioned. If you don't have a test environment, you can sign up for the [Power Apps Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true).
@@ -25,7 +25,7 @@ To review the API, follow these steps:
 
 1. Select the **Open API definition** link.
 
-1. The following image shows an example of the Open API version of what was shown on the documentations page. Right-click and select **Save As**.
+1. The following image shows an example of the Open API version of what was shown on the documentations page. Right-click and select **Save as**.
 
     > [!div class="mx-imgBorder"]
     > [![An arrow pointing to the save as button - screenshot.](../media/save.png)](../media/save.png#lightbox)
@@ -68,7 +68,7 @@ To create a new connector, follow these steps:
 
 1. Select to open the **Contoso invoicing** solution that you created.
 
-1. Select **+ New > Other \| Custom connector**.
+1. Select **+ New > Other > Custom connector**.
 
     > [!div class="mx-imgBorder"]
     > [![An arrow pointing to create new custom connection - screenshot.](../media/custom.png)](../media/custom.png#lightbox)
@@ -102,21 +102,21 @@ To import the Open API definition, follow these steps:
     > [!div class="mx-imgBorder"]
     > [![An arrow pointing to the back button - screenshot.](../media/arrow.png)](../media/arrow.png#lightbox)
 
-1. Select the ellipsis (**...)** button of the connector and then select **Update from OpenAPI file**.
+1. Select the ellipsis (**...**) button of the connector and then select **Update from OpenAPI file**.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the update from open API file button - screenshot.](../media/ellipsis.png)](../media/ellipsis.png#lightbox)
+    > [![An arrow pointing to the Update from open API file button - screenshot.](../media/ellipsis.png)](../media/ellipsis.png#lightbox)
 
 1. Select **Import**.
 
-1. Select the **swagger.json** file that you downloaded in **Task 1:** **Review the API** and then select **Open**.
+1. Select the **swagger.json** file that you downloaded in **Task 1: Review the API** and then select **Open**.
 
 1. Select **Continue**.
 
 1. Fill in the host URL as **`contosoinvoicingtest.azurewebsites.net`** and then select **Security**.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the security tab - screenshot.](../media/host.png)](../media/host.png#lightbox)
+    > [![An arrow pointing to the Security tab - screenshot.](../media/host.png)](../media/host.png#lightbox)
 
 1. Notice that the field is filled out from the imported file.
 
@@ -130,7 +130,7 @@ To review and adjust definitions, follow these steps:
 
 1. Take a few minutes to review the operations that were imported.
 
-1. Notice the orange triangle next to **Get Invoice** that indicates a warning.
+1. Notice the orange triangle next to **GetInvoice** that indicates a warning.
 
 1. Select the **GetInvoice** operation.
 
@@ -139,7 +139,7 @@ To review and adjust definitions, follow these steps:
 
 1. Notice that the operation indicates a missing **Summary**.
 
-1. Provide **Get Invoice** as the **Summary** to improve the usability.
+1. Enter **Get Invoice** as the **Summary** to improve the usability.
 
     > [!div class="mx-imgBorder"]
     > [![Get invoice action summary - screenshot.](../media/summary-get.png)](../media/summary-get.png#lightbox)
@@ -151,7 +151,7 @@ To review and adjust definitions, follow these steps:
 1. Delete both **NewInvoice** operations because you won't use them.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the delete button - screenshot.](../media/delete.png)](../media/delete.png#lightbox)
+    > [![An arrow pointing to the Delete button - screenshot.](../media/delete.png)](../media/delete.png#lightbox)
 
 1. Select the **GetInvoiceSchema** operation.
 
@@ -160,7 +160,7 @@ To review and adjust definitions, follow these steps:
 1. Select **Update connector**.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the update connector button - screenshot.](../media/update.png)](../media/update.png#lightbox)
+    > [![An arrow pointing to the Update connector button - screenshot.](../media/update.png)](../media/update.png#lightbox)
 
 1. Do not navigate away from this page.
 
@@ -173,18 +173,18 @@ To test the connector, follow these steps:
 1. Select **+ New connection**.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the new connection button - screenshot.](../media/test.png)](../media/test.png#lightbox)
+    > [![An arrow pointing to the New connection button - screenshot.](../media/test.png)](../media/test.png#lightbox)
 
 1. Paste in the **API Key** that you saved in **Task 1: Review the API** and then select **Create connection**.
 
 1. Select the **Refresh** button.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the refresh button - screenshot.](../media/connections.png)](../media/connections.png#lightbox)
+    > [![An arrow pointing to the Refresh button - screenshot.](../media/connections.png)](../media/connections.png#lightbox)
 
-1. Select **List Invoice > Test Operation**.
+1. Select **ListInvoice > Test Operation**.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the test operation button - screenshot](../media/test-operation.png)](../media/test-operation.png#lightbox)
+    > [![An arrow pointing to the Test operation button - screenshot](../media/test-operation.png)](../media/test-operation.png#lightbox)
 
 > You should see some invoice data in the body area.
