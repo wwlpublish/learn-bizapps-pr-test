@@ -60,7 +60,7 @@ quiz:
     - content: Add words (HIDDEN) to the actions' names.
       isCorrect: false 
       explanation: The name of the action has no impact on its visibility.
-    - content: Mark them as internal.
+    - content: Select them as internal.
       isCorrect: true 
       explanation: This selection prevents the actions from showing but retains their definition for future use.
     - content: Share only the actions that you want people to use.
