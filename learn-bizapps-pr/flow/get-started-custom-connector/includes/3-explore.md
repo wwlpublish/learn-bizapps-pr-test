@@ -5,7 +5,7 @@ This topic continues explaining the basics of custom connectors by taking an in-
 One of the first decisions that you will make is the name of your connector. The name should be unique and clarify what the connector is to the consumer. You are limited to 30 characters for this name, and you can elaborate more in the **Description** field. The **Icon background color** field can also help you visually identify your connector. These fields are important because they show when the user is selecting the connector to use, and these visual cues help a user work more efficiently. If you plan to submit your connector for certification, make sure that you review the stricter requirements in the [Instructions on submitting your connector to Microsoft](https://docs.microsoft.com/connectors/custom-connectors/certification-submission/?azure-portal=true#title) documentation.
 
 > [!div class="mx-imgBorder"]
-> [![A screenshot showing the general tab for defining a custom connector](../media/general.png)](../media/general.png#lightbox)
+> [![A screenshot showing the General tab for defining a custom connector](../media/general.png)](../media/general.png#lightbox)
 
 ## Action and trigger naming
 
@@ -23,7 +23,7 @@ After you have selected an action or trigger, you will be able to see both summa
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the location of the summary and description.](../media/location.png)](../media/location.png#lightbox)
 
-In the previous images, notice that the naming patterns are inconsistent, where some names have spaces in the summary, and some do not. You can fix that error by updating the fields in the portal or, if you own the API, you can ask the developer to update what they provide on the Open API definition that you import. Be aware that if you manually make changes in the portal and then import the Open API definition again, it will overwrite your changes.
+In the previous images, notice that the naming patterns are inconsistent, where some names have spaces in the summary and some do not. You can fix that error by updating the fields in the portal or, if you own the API, you can ask the developer to update what they provide on the Open API definition that you import. Be aware that if you manually make changes in the portal and then import the Open API definition again, it will overwrite your changes.
 
 ## Action visibility
 
@@ -48,7 +48,7 @@ Actions that are selected as **important** are shown first. The user needs to se
 
 The request defines what parameters/data will be passed into the operation when the action invokes the operation on the API. When you import an Open API definition or a Postman collection, it will configure the request query, headers, and body settings. You can also import manually by importing from the sample.
 
-The following image shows an example of what the screen looks like when you\'re looking at the definition.
+The following image shows an example of what the screen looks like when you're looking at the definition.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot from the request query section showing the parameters that are configured.](../media/query.png)](../media/query.png#lightbox)
@@ -73,11 +73,11 @@ The fields and options that you should review and change are:
 
 - **Default value** - This field is an optional default value, but it must be provided if you set visibility to **internal** and make the parameter required.
 
-- **Is Required** - Make sure to set this option if API requires a value. This option enables a visual red asterisk next to the field.
+- **Is required** - Make sure to set this option if API requires a value. This option enables a visual red asterisk next to the field.
 
 - **Visibility** - This parameter works like the visibility option on the previously discussed action. If you have parameters that are not used often, select the **advanced** option.
 
-- **Type and Format** - Make sure that these fields are appropriate for the parameter importing from samples makes assumptions that are not always correct.
+- **Type and Format** - Make sure that these fields are appropriate because the parameter that's importing from samples makes assumptions that are not always correct.
 
 - **Dropdown type** - Use this parameter to configure a static or dynamic list of values to help make user selection easier and more predictable.
 
@@ -93,26 +93,26 @@ The response defines what you expect to be returned from the API. Unlike the req
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the responses that are available for configuration.](../media/response.png)](../media/response.png#lightbox)
 
-Selecting one of the responses will reveal the details, and similar to the process with a request, you can edit these items for easier consumption.
+Selecting one of the responses will reveal the details and, similar to the process with a request, you can edit these items for easier consumption.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot showing a specific response in the configuration options available.](../media/response-2.png)](../media/response-2.png#lightbox)
+> [![Screenshot showing a specific response in the available configuration options.](../media/response-2.png)](../media/response-2.png#lightbox)
 
-The items in the response correspond to what you see in the **Dynamic content** panel.
+The items in the response correspond to what shows in the **Dynamic content** panel.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the list of dynamic content from the connector.](../media/dynamic.png)](../media/dynamic.png#lightbox)
 
-Similar to the request, it's important to spend time making sure that you've included good names and descriptions because they can help make using the values easier.
+Similar to the request, make sure that you've included good names and descriptions because they can help make using the values easier.
 
 ## Validation
 
-Notice that a validation section similar to the following image shows up at the bottom of the screen.
+Notice that a validation section similar to the following image appears at the bottom of the screen.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing that validation was successful.](../media/validation.png)](../media/validation.png#lightbox)
 
-Make sure that this screen doesn't show errors and then take the time to resolve issues that are listed.
+Make sure that this screen doesn't show errors, and then take the time to resolve issues that are listed.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the validation errors.](../media/validation-errors.png)](../media/validation-errors.png#lightbox)
