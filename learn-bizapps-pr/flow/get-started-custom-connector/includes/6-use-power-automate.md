@@ -16,7 +16,7 @@ In this task, you will create a Power Automate flow inside the Contoso invoicing
     > [!NOTE]
     > If you still have the API key that you previously used, it would still be usable at this time. If not, you can get a new one.
 
-1. Go to [Power Platform maker portal](https://make.powerapps.com/) and select the environment that you used in Unit Four (**Exercise: Create a new connector in a solution**).
+1. Go to [Power Platform maker portal](https://make.powerapps.com/) and select the environment that you used in the **Exercise: Create a new connector in a solution** unit.
 
 1. Select **Solutions** and then select to open the **Contoso invoicing** solution.
 
@@ -30,7 +30,7 @@ In this task, you will create a Power Automate flow inside the Contoso invoicing
 1. Enter **manually trigger** in the search box and then select **Manually trigger a flow**.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the manually trigger a flow trigger - screenshot.](../media/manually.png)](../media/manually.png#lightbox)
+    > [![An arrow pointing to the Manually trigger a flow trigger - screenshot.](../media/manually.png)](../media/manually.png#lightbox)
 
 1. Select **+ New step**.
 
@@ -41,7 +41,7 @@ In this task, you will create a Power Automate flow inside the Contoso invoicing
 
 1. Select **List invoices** for the action.
 
-1. Enter **My invoice connection** for **Connection name**. Use a name for the connection that makes sense to you.
+1. Enter **My invoice connection** for **Connection Name**. Use a name for the connection that makes sense to you.
 
 1. Paste the API key link that you copied into the **API Key** field and then select **Create**.
 
@@ -53,9 +53,9 @@ In this task, you will create a Power Automate flow inside the Contoso invoicing
 1. Search for **create html** and then select **Create HTML table**.
 
     > [!div class="mx-imgBorder"]
-    > [![An arrow pointing to the create HTML flow action - screenshot.](../media/html.png)](../media/html.png#lightbox)
+    > [![An arrow pointing to the Create HTML flow action - screenshot.](../media/html.png)](../media/html.png#lightbox)
 
-1. Select the **From** field and then select **Body** from the **Dynamic content** pane.
+1. Select the **From** field and then select **body** from the **Dynamic content** pane.
 
     > [!div class="mx-imgBorder"]
     > [![Select an output from previous action - screenshot.](../media/body.png)](../media/body.png#lightbox)
@@ -84,7 +84,7 @@ In this task, you will create a Power Automate flow inside the Contoso invoicing
 
 ### Task 2: Test the cloud flow
 
-In this task, you will test the cloud flow that you created in **Task 1**.
+In this task, you will test the cloud flow that you created in **Task 1: Create a Power Automate cloud flow**.
 
 1. Select **Run**.
 
