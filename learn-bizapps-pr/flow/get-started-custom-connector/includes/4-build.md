@@ -18,9 +18,6 @@ To review the API, follow these steps:
 
 1. Select to expand and review each operation.
 
-    > [!div class="mx-imgBorder"]
-    > [![Add invoice operation details - screenshot.](../media/add-invoice.png)](../media/add-invoice.png#lightbox)
-
 1. Close the documentation browser tab or window.
 
 1. Select the **Open API definition** link.
