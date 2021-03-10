@@ -1,9 +1,9 @@
-In Microsoft Dataverse you can define business rules. Business rules allow you to apply and maintain business logic at the data layer instead of the app layer. Put more simply, if you create business rules in Dataverse, they are in effect regardless of how you interact with the data. 
+In Microsoft Dataverse you can define business rules. Business rules allow you to apply and maintain business logic at the data layer instead of the app layer. Put more simply, if you create business rules in Microsoft Dataverse, they are in affect regardless of how you interact with the data. 
 
-An example business rule usage is when they are in canvas or model-driven apps to set or clear values in one or many fields in an entity. They can also be used to validate stored data or show error messages. Model-driven apps can use business rules to show or hide fields, enable or disable fields, and create recommendations based on business intelligence.
+For example, business rules can be used in canvas or model-driven apps to set or clear values in one or many columns in a table. They can also be used to validate stored data or show error messages. Model-driven apps can use business rules to show or hide fields, enable or disable fields, and create recommendations based on business intelligence.
 
 > [!TIP]
-> Business rules are usually defined for an entity and apply to all forms, but you can define a business rule for a specific model-driven form. Canvas apps cannot have a business rule applied to a specific form, but they are still enforced when interacting with the data.
+> Business rules are usually defined for a table and apply to all forms, but you can define a business rule for a specific model-driven form. Canvas apps cannot have a business rule applied to a specific form, but they are still enforced when interacting with the data.
 
 Business rules give you a powerful way to enforce rules, set values, or validate data regardless of the form that is used to input data. Additionally, business rules are effective in helping to increase the accuracy of data, simplify application development, and streamline the forms presented to end users.
 
@@ -23,9 +23,7 @@ Model-driven apps can also use business rules to:
 
 - Create business recommendations based on business intelligence (model-driven apps only)
 
-Below is an example of a simple, yet powerful use of business rules. The business rule is configured to change the field Credit Limit VP Approver to be a required field if the Credit limit is set to greater than $1,000,000. 
-
-If the credit limit is less than $1,000,000 then the field is optional. 
+Below is an example of a simple, yet powerful use of business rules. The business rule is configured to change the field Credit Limit VP Approver to be a required field if the Credit limit is set to greater than $1,000,000. If the credit limit is less than $1,000,000 then the field is optional. 
 
 ![Business Rule edit form](../media/business-rule.png)
 
