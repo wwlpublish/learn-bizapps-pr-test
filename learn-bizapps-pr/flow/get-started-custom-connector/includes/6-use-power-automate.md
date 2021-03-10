@@ -7,7 +7,7 @@ In this exercise, you will create a manually triggered Power Automate cloud flow
 
 In this task, you will create a Power Automate flow inside the Contoso invoicing solution that you previously created.
 
-1. Get an API key from [Contoso Invoicing](https://contosoinvoicingtest.azurewebsites.net/).
+1. Get an API key from [Contoso Invoicing](https://contosoinvoicing.azurewebsites.net/?azure-portal=true).
 
 1. Select the **API Key** link.
 
