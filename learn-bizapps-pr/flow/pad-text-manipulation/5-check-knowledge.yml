@@ -15,7 +15,7 @@ quiz:
   questions: 
   - content: What method can you use to retrieve the length of a variable that holds a single text value?
     choices: 
-    - content: The Get Subtext action
+    - content: The Get subtext action
       isCorrect: false
       explanation: The %Variable.length% syntax can be used to get the length of a text variable.
     - content: The %Variable.length% syntax
@@ -38,11 +38,11 @@ quiz:
     - content: Parse
       isCorrect: false 
       explanation: The Parse action parses a text value to find the first occurrence, or all occurrences, of a specified subtext.
-  - content: Which one of the following statements is true about the Get Subtext action?
+  - content: Which one of the following statements is true about the Get subtext action?
     choices:
     - content: "It retrieves a part of a text value or variable and stores it in a new variable."
       isCorrect: true 
-      explanation: The Get Subtext action retrieves a subtext of a text value or variable and stores it by default in a new variable.
+      explanation: The Get subtext action retrieves a subtext of a text value or variable and stores it by default in a new variable.
     - content: "It retrieves a part of a text variable and stores it by default in the original variable."
       isCorrect: false
-      explanation: The Get Subtext action retrieves a subtext of a text value or variable and stores it by default in a new variable.
+      explanation: The Get subtext action retrieves a subtext of a text value or variable and stores it by default in a new variable.
