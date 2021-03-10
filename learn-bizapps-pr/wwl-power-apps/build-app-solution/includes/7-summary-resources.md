@@ -40,5 +40,5 @@ Use these resources to discover more.
 
 - [Customize a canvas app in Power Apps](https://docs.microsoft.com/learn/modules/customize-apps-in-powerapps/)
 
-- [Manage Apps in Power Apps](https://docs.microsoft.com/learn/modules/manage-apps-in-powerapps/index)
+- [Manage apps in Power Apps](https://docs.microsoft.com/learn/modules/manage-apps-in-powerapps/index)
 
