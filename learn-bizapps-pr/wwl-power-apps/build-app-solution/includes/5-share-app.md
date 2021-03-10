@@ -2,7 +2,7 @@ Now that you've created an app, you can share it with specific users, groups, or
 
 Even better, you can give someone permission to update the app. 
 
-Sharing your app your final steps as an app creator. You will want to share the
+Sharing your app is your final step as an app creator. You will want to share the
 app to test the full functionality with some stakeholders. This will give them a
 chance to provide feedback and help you become a better app creator.
 
