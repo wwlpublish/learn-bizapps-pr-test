@@ -32,7 +32,8 @@ units:
 - learn-bizapps.create-triggers-custom-connectors.2-webhook-trigger 
 - learn-bizapps.create-triggers-custom-connectors.3-create-webhook-trigger 
 - learn-bizapps.create-triggers-custom-connectors.4-exercise-webhook-trigger 
-- learn-bizapps.create-triggers-custom-connectors.5-polling-trigger 
+- learn-bizapps.create-triggers-custom-connectors.5-polling-trigger
+- learn-bizapps.create-triggers-custom-connectors.5-5-polling-trigger
 - learn-bizapps.create-triggers-custom-connectors.6-exercise-polling-trigger 
 - learn-bizapps.create-triggers-custom-connectors.7-check 
 - learn-bizapps.create-triggers-custom-connectors.8-summary 

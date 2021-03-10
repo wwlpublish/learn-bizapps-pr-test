@@ -97,7 +97,3 @@ This happens because it's possible to have multiple records returned from a sing
 Splitting of the incoming array into the multiple parallel executions is done for performance reasons. Each instance of the cloud flow in this scenario will receive a since object. If the Split On option isn't set, a single instance of the cloud flow will receive an array of values.
 
 Polling triggers are easier to define than the webhook triggers, however they're less granular and often less performant. The decision to build and use one type of the triggers or another is driven by service API's features, structure, and functionality.
-
-The following video shows the polling trigger.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyYqC/]
