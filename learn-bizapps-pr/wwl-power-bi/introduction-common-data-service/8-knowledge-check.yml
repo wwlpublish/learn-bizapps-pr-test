@@ -38,14 +38,14 @@ quiz:
     - content: "Create a new Environment with the name \"Date Confirmed\"."
       isCorrect: false
       explanation: "Incorrect. Environments are spaces in which Dataverse instances live, but creating a new Environment will do anything to help in this situation because creating a new Environment will leave him with the same out-of-the-box entities that he started with in his old Environment."
-  - content: "One of your co-workers has set up a Model-driven application using Dataverse. The app captures information about computer hardware assets, including their price. Your co-worker is concerned that users of the application are going to forget to populate the cost center if the part is expensable. How could this be prevented?"
+  - content: "One of your co-workers has set up a Model-driven application using Dataverse. The app captures information about computer hardware assets, including their price. Your co-worker is concerned that users of the application are going to forget to populate the cost center if the part is expendable. How could this be prevented?"
     choices:
     - content: "Use Power Automate to validate that the cost center column value is populated."
       isCorrect: false
       explanation: "Incorrect. You don't need a Flow to solve this issue, because the Dataverse has built-in capabilities to handle this sort of data validation without introducing any additional workflow solutions."
-    - content: "Use a Business Rule to make the cost center field required if the expensable field is true."
+    - content: "Use a Business Rule to make the cost center field required if the expendable field is true."
       isCorrect: true
-      explanation: "Correct. A business rule could be set up to mark the cost center field as required when the expensable field is set to true."
+      explanation: "Correct. A business rule could be set up to mark the cost center field as required when the expendable field is set to true."
     - content: "Use a Canvas App instead of a Model-driven app."
       isCorrect: false
       explanation: "Incorrect. There are ways to ensure the proper fields are populated in a Model-driven app."

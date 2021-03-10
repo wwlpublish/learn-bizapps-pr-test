@@ -1,7 +1,7 @@
 A table is a logical structure containing rows and columns that represents a set of data.  
 
 Below you can see a screenshot of the standard contact table and various types of columns it includes.
-    ![Power Apps customer entity edit form](../media/contact-table.png)
+    ![Power Apps customer entity edit form](../media/contact-table.PNG)
 
 ## Types of tables
 
