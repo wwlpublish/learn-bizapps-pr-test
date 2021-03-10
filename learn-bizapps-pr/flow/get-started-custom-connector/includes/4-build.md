@@ -7,7 +7,7 @@ In this exercise, you will create your first custom connector for an existing AP
 
 To review the API, follow these steps:
 
-1. Go to [Contoso Invoicing](https://contosoinvoicingtest.azurewebsites.net/?azure-portal=true).
+1. Go to [Contoso Invoicing](https://contosoinvoicing.azurewebsites.net/?azure-portal=true).
 
 1. Select the documentations link.
 
