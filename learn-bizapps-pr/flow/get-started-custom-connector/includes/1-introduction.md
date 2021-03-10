@@ -1,4 +1,4 @@
-This module explores custom connectors and explains how to configure them and use them with Microsoft Power Apps, Microsoft Power Automate, and Microsoft Azure Logic Apps.
+This module explores custom connectors and explains how to configure and use them with Microsoft Power Apps, Microsoft Power Automate, and Microsoft Azure Logic Apps.
 
 In this module, you will:
 
@@ -8,23 +8,23 @@ In this module, you will:
 
 Connectors help make it easier for app and flow makers to connect to other apps, data, and devices in the cloud in the following ways:
 
-- Connection is done in a consistent, repeatable way that is discoverable by the makers.
+- Connection is done in a consistent, repeatable way that is discoverable by makers.
 
-- Connectors have actions that allow the maker to control when an operation is performed.
+- Connectors have actions that allow makers to control when an operation is performed.
 
-- Connectors can have triggers that allow the automation to start when the triggering event occurs.
+- Connectors can have triggers that allow automation to start when the triggering event occurs.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram with API at the center, surrounded by connector and then Power Automate, Power Apps, and Logic Apps.](../media/target.png)](../media/target.png#lightbox)
 
-A connector is a proxy, or a wrapper, around an API that allows Power Automate, Power Apps, and Logic Apps to communicate with the underlying service. Many connectors are predefined and available for use without you having to define anything. These built-in connector definitions include services from Microsoft and others. When the service or API that you want to use doesn't have a prebuilt connector, you can create your own custom connector. If a prebuilt connector doesn't expose all triggers and actions that you need from the API, you can build a custom connector in addition to the available one to handle these extra requirements. After the custom connector has been defined, it becomes available for use in building apps and flows in that environment, similar to the built-in connectors.
+A connector is a proxy, or a wrapper, around an API that allows Power Automate, Power Apps, and Logic Apps to communicate with the underlying service. Many connectors are predefined and available for use without you having to define anything. These built-in connector definitions include services from Microsoft and others. When the service or API that you want to use doesn't have a prebuilt connector, you can create your own custom connector. If a prebuilt connector doesn't expose all triggers and actions that you need from the API, you can build a custom connector in addition to the available one to handle these extra requirements. After the custom connector has been defined, it becomes available for use when you are building apps and flows in that environment, similar to the built-in connectors.
 
 > [!div class="mx-imgBorder"]
-> [![High-level process is Identify or build API, Describe API, Use connector, Certify open source.](../media/process.png)](../media/process.png#lightbox)
+> [![High-level process is Identify or build API, Describe API, Use connector, and Certify open source.](../media/process.png)](../media/process.png#lightbox)
 
 ## Identify or build the API
 
-Your first task is to check the [connector reference](https://docs.microsoft.com/connectors/connector-reference/?azure-portal=true) to determine if a suitable connector already exists for the API/service. If a suitable connector doesn't already exist, then you can make your own custom connector. The custom connector can be defined to describe any REST API that is public (one that is available on the internet) or private (one that is only on your internal network). Private APIs require the [on-premises data gateway](https://docs.microsoft.com/flow/gateway-reference/?azure-portal=true) to access internal resources.
+Your first task is to check the [connector reference](https://docs.microsoft.com/connectors/connector-reference/?azure-portal=true) to determine if a suitable connector already exists for the API/service. If a suitable connector doesn't already exist, then you can make your own custom connector. You can define the custom connector to describe any REST API that is public (one that is available on the internet) or private (one that is only on your internal network). Private APIs require the [on-premises data gateway](https://docs.microsoft.com/flow/gateway-reference/?azure-portal=true) to access internal resources.
 
 This factor assumes that an API is available for you to use. However, if a compatible API doesn't already exist, developers can build one by using any technology of choice that is capable of hosting a REST API, including [Microsoft Azure Functions](https://azure.microsoft.com/services/functions/?azure-portal=true) and [Azure App Services](https://azure.microsoft.com/services/app-service/api/?azure-portal=true). You can also use [Azure API Management](https://aka.ms/apimrocks/?azure-portal=true) to increase manageability and governance of the APIs.
 
@@ -34,7 +34,7 @@ For Power Apps and Power Automate to discover what triggers and actions are avai
 
 ## Use the connector
 
-After they have been created in an environment, custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and imported into any environment that needs it. You can also share the connector with other people to allow them to use it like other shared resources.
+After they have been created in an environment, custom connectors can be used in the same way as built-in connectors. These connectors can also be used in an environment other than the one that you used to create it. The connector definition needs to be exported from the environment where it was created and then imported into any environment that needs it. You can also share the connector with other people to allow them to use it like other shared resources.
 
 ## Certify and share the connector as an open source
 
@@ -60,15 +60,15 @@ When you describe the API, you will use at least one of the following approaches
 
 ## Work with authenticated APIs
 
-The custom connector architecture supports working with authenticated APIs. When you define the custom connector, you identify how it should authenticate to the API. Authentication choices support anonymous, password protected, OAuth 2.0, and API key access.
+The custom connector architecture supports working with authenticated APIs. When you define the custom connector, you will identify how it should authenticate to the API. Authentication choices support anonymous, password protected, OAuth 2.0, and API key access.
 
 - **No authentication** - This choice is for APIs that allow anonymous access, and it is the default if you don't configure a specific authentication type.
 
 - **Basic authentication** - This choice is for APIs that require a user and password to be sent with each request.
 
-- **OAuth 2**.**0** - [OAuth 2.0](https://oauth.net/2/?azure-portal=true) is the industry-standard protocol for authorization. This option can be configured for any API that uses OAuth 2.0. Prebuilt configurations are available for you to select from for Microsoft services like Azure Active Directory (Azure AD), GitHub, and Azure DevOps. Similar prebuilt configurations are available for other services like Dropbox, Slack, Stripe, and more. The prebuilt configurations simplify what you need to provide to configure the identity provider.
+- **OAuth 2.0** - [OAuth 2.0](https://oauth.net/2/?azure-portal=true) is the industry-standard protocol for authorization. This option can be configured for any API that uses OAuth 2.0. Prebuilt configurations are available for you to select from for Microsoft services like Azure Active Directory (Azure AD), GitHub, and Azure DevOps. Similar prebuilt configurations are available for other services like Dropbox, Slack, Stripe, and more. The prebuilt configurations simplify what you need to provide to configure the identity provider.
 
-- **API Key** - An API key is a token that a client provides when making API calls. The API publisher typically provides the key, and it must be included in each request from the custom connector.
+- **API key** - An API key is a token that a client provides when making API calls. The API publisher typically provides the key, and it must be included in each request from the custom connector.
 
 Custom connectors help make it easier for app and flow makers to use APIs/services. Mostly, makers could directly invoke the API without a connector; however, they would have to know how to compose the request and interpret the results and then handle authentication. This process would have to be completed each time the app or flow used custom connectors.
 
