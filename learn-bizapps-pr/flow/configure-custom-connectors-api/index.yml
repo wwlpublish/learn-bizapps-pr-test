@@ -11,7 +11,7 @@ metadata:
 title: Configure custom connectors with authenticated APIs in Power Automate
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn how to configure custom connectors with authenticated APIs in Microsoft Power Automate. 
+  Custom connectors can provide access to custom or third-party APIs that are accessible via public endpoints. In this module, learn how to configure custom connectors with authenticated APIs in Microsoft Power Automate. 
 abstract: |  
     In this module, you will: 
     - Learn about authentication options.
