@@ -1,5 +1,3 @@
-## Overview
-
 The estimated time to complete this lab is 15 minutes.
 
 In this lab, you'll create a hierarchy and bins from a field. You'll also create a Measures table to store future calculations and update fields and tables to make them easier to use.
@@ -53,11 +51,12 @@ In this task, you'll create a product hierarchy.
 
 1. Repeat these last two steps to move your other measures to your new **Measures Table**.
 
-    > [!NOTE] If this process throws an error for any of your calculations, edit them to make sure the reference the new Measures Tables instead of their original table.
+    > [!NOTE]
+    > If this process throws an error for any of your calculations, edit them to make sure the reference the new Measures Tables instead of their original table.
 
 1. From the **FIELDS** section, right-click the empty **Column** field from **Measures Table** and select **Hide**.
 
-### Task 4: Clean-up Fields
+### Task 4: Clean up fields
 
 1. From the left pane, select the **Model**.
 
