@@ -1,3 +1,3 @@
-In this video, we walk through how to enable Azure AD authentication for a custom connector. You'll see how to take an API implemented with API key authentication and convert it to Azure AD authentication. You'll also see how to configure the custom connector from API key to use the Azure AD protected API.
+The following video demonstrates how to enable Azure AD authentication for a custom connector. You'll learn how to take an API that's implemented with API Key authentication and convert it to Azure AD authentication. Additionally, you'll learn how to configure the custom connector from API key to use the Azure AD protected API.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyXMw]
