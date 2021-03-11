@@ -1,4 +1,4 @@
-Public connectors are automatically available to all users. Custom connectors need to be [shared with others in your organization](https://docs.microsoft.com/connectors/custom-connectors/share/?azure-portal=true) before they can be used. After a maker configures a custom connector and then obtains the API, they have a choice of how to share the connector and connections to make them available to other users.
+Public connectors are automatically available to all users. Custom connectors need to be [shared with others in your organization](https://docs.microsoft.com/connectors/custom-connectors/share/?azure-portal=true) before they can be used. After a maker configures a custom connector and has provided a more secure API, they have a choice of how to share the connector and connections to make them available to other users.
 
 ## Logic apps
 
