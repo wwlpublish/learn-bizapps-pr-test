@@ -176,7 +176,7 @@ In Excel:
 
 ProductDetails.WholesalePrice = What Tailspin Toys paid to make/acquire the product
 
-Sales.UnitPrice = The undiscounted cost of product for customers **per unit**
+Sales.UnitPrice = The un-discounted cost of product for customers **per unit**
 
 Sales.DiscountAmount = A discount available that should be subtracted from Unit Price **per unit**
 
