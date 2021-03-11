@@ -39,7 +39,11 @@ In the previous example, the user who is creating a new connection will see the 
 
 The supplied value will be sent to the underlying service as a custom X-API-Key request header.
 
-The default Azure Functions template can use code as the parameter name and then send it as part of the query by setting the parameter location to **Query** so that the service URL will be similar to [https://functionurl.azurewebsites.net?code=user-supplied-code](https://functionurl.azurewebsites.net?code=user-supplied-code/?azure-portal=true).
+The default Azure Functions template can use code as the parameter name and then send it as part of the query by setting the parameter location to **Query** so that the service URL will be similar to:
+
+```http
+https://functionurl.azurewebsites.net?code=user-supplied-code/
+```
 
 Similar to **Basic authentication**, we recommended that you use the **API Key** authentication scheme only with HTTPS protocol to avoid sending the keys unencrypted.
 
