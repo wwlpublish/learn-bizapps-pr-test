@@ -89,13 +89,13 @@ Follow these steps to add a webhook trigger:
 
 1.  Provide the following values:
 
-    1.  **Summary** - When Invoice is Created
+    -  **Summary** - When Invoice is Created
 
-    1.  **Description** - When Invoice is Created
+    -  **Description** - When Invoice is Created
 
-    1.  **Operation ID** - InvoiceCreated
+    -  **Operation ID** - InvoiceCreated
 
-    1.  **Trigger type** - Webhook
+    -  **Trigger type** - Webhook
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the new trigger values for Summary, Description, Operation ID, and Trigger type.](../media/new-trigger-values.png)](../media/new-trigger-values.png#lightbox)
@@ -107,11 +107,11 @@ Follow these steps to add a webhook trigger:
 
 1.  Provide the following values and then select **Import**. With other APIs, you would get the sample from the API documentation.
 
-    1.  **Verb** - POST
+    -  **Verb** - POST
 
-    1.  **URL** - `https://contosoinvoicing.azurewebsites.net/NewInvoiceNotification`
+    -  **URL** - `https://contosoinvoicing.azurewebsites.net/NewInvoiceNotification`
 
-    1.  **Body**
+    -  **Body**
 		```json
 		{
 		"targetUrl":"https://webhook.site"
