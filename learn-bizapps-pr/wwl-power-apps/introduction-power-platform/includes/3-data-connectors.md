@@ -15,7 +15,7 @@ two types of data sources are tabular and function-based.
 structured table format. Power Apps can directly read and display these tables
 through galleries, forms, and other controls. Additionally, if the data source
 supports it, Power Apps can create, edit, and delete data from these data
-sources. Examples include Common Data Service, SharePoint, and SQL Server.
+sources. Examples include Microsoft Dataverse, SharePoint, and SQL Server.
 
 **Function-based data** - A function-based data source is one that uses
 functions to interact with the data source. These functions can be used to
@@ -35,7 +35,7 @@ Now that you understand more about data sources, you are ready to learn about
 connectors.
 
 **Connectors** are the bridges from your data source to your app, workflow, or
-dashboard. The Power Platform has more than 275 connectors available to common
+dashboard. Power Platform has more than 275 connectors available to common
 data sources. Connectors are divided into standard and premium. Some popular
 standard connectors are SharePoint, Outlook, and YouTube. Premium connectors
 require additional licensing for your app and/or users. A few premium connectors
@@ -44,7 +44,7 @@ summary and resources unit lists all connectors and whether they are considered
 standard or premium. You can also use AppSource to source and install apps and
 use the connectors to non-Microsoft services.
 
-Connectors can provide input and output between the data source and the Power
+Connectors can provide input and output between the data source and Power
 Platform, which can accelerate the delivery of Power Platform business
 solutions. For instance, using Dynamics 365 apps such as Customer Service, you
 can set up Power Automate to notify users when specific customer types are
@@ -64,7 +64,7 @@ two types of operations you can use, triggers or actions.
 
 **Triggers** are only used in Power Automate and prompt a flow to begin.
 Triggers can be time based, such as a flow which begins every day at 8:00 am, or
-they could be based off of an action like creating a new record in a table or
+they could be based off of an action like creating a new row in a table or
 receiving an email. You will always need a trigger to tell your workflow when to
 run.
 
@@ -78,7 +78,7 @@ what to do when there isn't a connector already built for your data source.
 
 ## Custom Connectors
 
-While the Power Platform offers more than 200 connectors, you also have the
+While Power Platform offers more than 200 connectors, you also have the
 option to build a custom connector. This will allow you to extend your app by
 calling a publicly available API, or a custom API you are hosting in a cloud
 provider, such as Azure. API stands for Application Programming Interface and

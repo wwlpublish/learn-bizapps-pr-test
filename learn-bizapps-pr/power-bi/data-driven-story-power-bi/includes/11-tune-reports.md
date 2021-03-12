@@ -1,4 +1,4 @@
-When you have finished creating your report, the performance of that report depends on how quickly data can load onto the report page. You should test your report in the Power BI Report Server to see how it works from a user's perspective. If you experience issues, or if the report users have reported issues, you need to investigate the cause of those issues and take measures to tune the report for more optimized performance.
+When you have finished creating your report, the performance of that report depends on how quickly data can load onto the report page. You should test your report in the Power BI service to see how it works from a user's perspective. If you experience issues, or if the report users have reported issues, you need to investigate the cause of those issues and take measures to tune the report for more optimized performance.
 
 ## Analyze performance
 
