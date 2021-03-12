@@ -25,7 +25,8 @@ products:
 - power-automate
 modules:
 - learn-bizapps.get-started-custom-connector 
-- learn-bizapps.configure-custom-connectors-api 
+- learn-bizapps.configure-custom-connectors-api
+- learn-bizapps.create-triggers-custom-connectors 
 trophy:
   uid: learn.build-custom-connectors.trophy
 
