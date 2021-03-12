@@ -21,7 +21,6 @@ A user starts the process by going into a Power Apps app and creating a purchase
 The flow can be built to evaluate the request and then route the request based on criteria such as submitting user and request amount. The first action could be to send the request to the user's manager. The manager could be automatically retrieved from Azure AD, avoiding prompting for duplicate information.
 
 Here is the starting point of the flow:
-
     ![Flow edit form](../media/starting-point.png)
 
 After the manager receives the approval and approves, the flow can then provide conditional logic. Typically, this might be something like: if the purchase order request is greater than $10,000, send it to VP; if not, then automatically approve the purchase order.
