@@ -20,29 +20,29 @@ quiz:
       explanation: Power Automate can use triggers to start the flows.
     - content: Power Apps
       isCorrect: true 
-      explanation: Power Apps can take advantage of the custom connector actions but isn't able to use the triggers.
+      explanation: Power Apps can take advantage of the custom connector actions, but it isn't able to use the triggers.
     - content: Azure Logic Apps
       isCorrect: false 
-      explanation: Azure Logic Apps can use triggers to start the logic app workflows. 
-  - content: For a custom connector to implement a webhook trigger, the API must support which of the following? 
+      explanation: Azure Logic Apps can use triggers to start the Logic Apps workflows. 
+  - content: For a custom connector to implement a webhook trigger, the API must support which of the following parameters? 
     choices: 
-    - content: Allowing periodic checks for updates to trigger the flow. 
+    - content: Allowing periodic checks for updates to trigger the flow 
       isCorrect: false
-      explanation: This is required for a polling trigger not a webhook trigger.
-    - content: Running on a schedule. 
+      explanation: This option is required for a polling trigger, not a webhook trigger.
+    - content: Running on a schedule 
       isCorrect: false 
-      explanation: The benefit of a webhook is the near instant notification of an event within the API running on a schedule would defeat the benefits of a webhook. 
-    - content: Managing registration of the webhook and posting the webhook when the event occurs. 
+      explanation: The benefit of a webhook is the near instant notification of an event within the API. Running on a schedule would defeat the benefits of a webhook. 
+    - content: Managing registration of the webhook and posting the webhook when the event occurs 
       isCorrect: true 
-      explanation: The API must be able to manage registration removal of the webhook and when the event occurs it must push out that event to the registered webhook.
-  - content: For a custom connector to implement a polling trigger, the API which field on an invoice would you use? 
+      explanation: The API must be able to manage registration removal of the webhook and, when the event occurs, it must push that event to the registered webhook.
+  - content: For a custom connector to implement a polling trigger on the API, you should use which one of the following fields on an invoice? 
     choices: 
     - content: Date Created
       isCorrect: true 
-      explanation: This allows getting newer invoices created since last time the polling checked for data.
+      explanation: This option allows you to create newer invoices since the last time that the polling checked for data.
     - content: Amount
       isCorrect: false
-      explanation: This wouldn't be a good choice because it doesn't identify new items.  The most common values are time-based or numbers that increment sequentially. 
+      explanation: This choice isn't optimal because it doesn't identify new items. The most common values are time-based or numbers that increment sequentially. 
     - content: Invoice Type
       isCorrect: false 
-      explanation: This wouldn't be a good choice because it doesn't identify new items.  The most common values are time-based or numbers that increment sequentially. 
+      explanation: This choice isn't optimal because it doesn't identify new items. The most common values are time-based or numbers that increment sequentially. 

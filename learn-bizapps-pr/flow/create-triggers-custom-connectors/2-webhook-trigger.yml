@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.create-triggers-custom-connectors.2-webhook-trigger 
-title: Describe a webhook trigger
+title: Webhook trigger
 metadata: 
-  title: Describe a webhook trigger 
+  title: Webhook trigger 
   description: Learn about a webhook trigger. 
   ms.date: 03/31/2021 
   author: DaveBeasley 

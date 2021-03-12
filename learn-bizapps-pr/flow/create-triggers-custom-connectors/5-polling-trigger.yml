@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.create-triggers-custom-connectors.5-polling-trigger 
-title: Describe a polling trigger
+title: Polling trigger
 metadata: 
-  title: Describe a polling trigger 
+  title: Polling trigger 
   description: Learn about a polling trigger. 
   ms.date: 03/31/2021 
   author: DaveBeasley 
