@@ -44,7 +44,7 @@ and opening each section on the left-hand side of the portal:
 
     ![Gear menu admin center selection](../media/admin-center.png)   
 
-3.  Select the options on the left-hand side of the admin center portal.
+3.  Use the left navigation pane to explore options for administering in the Power Platform admin center. 
 
     ![Admin menu options in Power Platform](../media/admin-menu-options.png)
 

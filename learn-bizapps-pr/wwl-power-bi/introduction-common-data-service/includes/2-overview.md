@@ -8,7 +8,7 @@ Below is a visualization that brings together the many offerings of Microsoft Da
 
 As you can see, Microsoft Dataverse offers a great deal of functionality. Below is a brief explanation of each category of features.
 
-**Security**: Dataverse handles authentication with Azure Active Directory (AAD) to allow for conditional access and multi-factor authentication. It supports authorization down to the row and column level and provides rich auditing capabilities. 
+**Security**: Dataverse handles authentication with Azure Active Directory (Azure AD) to allow for conditional access and multi-factor authentication. It supports authorization down to the row and column level and provides rich auditing capabilities. 
 
 **Logic**: Dataverse allows you to easily apply business logic at the data level. Regardless of how a user is interacting with the data, the same rules apply. These rules could be related to duplicate detection, business rules, workflows, or more.
 

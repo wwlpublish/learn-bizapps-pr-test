@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/10/2021
+  ms.date: 03/12/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "How can business rules be used in a canvas or model-driven app?"
+  - content: "How can business rules be used in both canvas and model-driven apps?"
     choices:
     - content: "To validate data and show error messages."
       isCorrect: true
