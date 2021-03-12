@@ -79,7 +79,7 @@ In this task, you will import an unmanaged solution that contains a prebuilt cus
 
 1. Don't navigate away from this page.
 
-## Task 2: Add polling trigger
+## Task 2: Add a polling trigger
 
 If you skipped the prior task, go to your **Contoso invoicing triggers** custom connector and select **Edit**.
 
