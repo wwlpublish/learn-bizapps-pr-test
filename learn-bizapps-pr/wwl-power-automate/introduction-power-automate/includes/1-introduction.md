@@ -3,6 +3,7 @@ Power Automate is used to automate repetitive business processes. Beyond simple 
 In this module, you will:
 
 - Learn how to describe the business value and features in Power Automate
+
 - See how Power Automate works and looks from the user's perspective 
 
 > [!NOTE]
