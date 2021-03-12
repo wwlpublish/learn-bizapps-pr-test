@@ -94,6 +94,6 @@ This process happens because it's possible to have multiple records that are ret
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the settings dialog box for poll options.](../media/settings-invoice-created.png)](../media/settings-invoice-created.png#lightbox)
 
-Splitting of the incoming array into the multiple parallel implementations is done for performance reasons. Each instance of the cloud flow in this scenario will receive a since object. If the **Split On** option isn't set, a single instance of the cloud flow will receive an array of values.
+Splitting of the incoming array into the multiple parallel implementations is done for performance reasons. Each instance of the cloud flow in this scenario will receive a single object. If the **Split On** option isn't set, a single instance of the cloud flow will receive an array of values.
 
 Polling triggers are easier to define than webhook triggers; however, they're less granular and often don't perform as well. The decision to build and use one type of trigger or another is driven by the features, structure, and functionality of the service API.
