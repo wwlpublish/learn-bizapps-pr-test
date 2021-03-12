@@ -41,7 +41,7 @@ business rule is configured to change the field Credit Limit VP Approver to be a
 required field if the Credit Limit is set to greater than \$1,000,000. If the
 credit limit is less than \$1,000,000 then the field is optional.
 
-![](../media/business-rule.png)
+![Example of business-rule](../media/business-rule.png)
 
 By applying this business rule at the data level instead of the app level, you
 have better control of your data. This can ensure your business logic is
