@@ -16,8 +16,6 @@ Direct the flow to a specific point in the flow marked with the **Label** action
 
 ![Screenshot of the Label action properties dialog.](..\media\label-action-properties.png)
 
-![label action properties](..\media\label-action-properties.png)
-
 Use a **Go to** action and select the label from a drop-down list to direct the flow to it.
 
 ![go to action properties](..\media\go-to-action-properties.png)
@@ -26,7 +24,7 @@ Use a **Go to** action and select the label from a drop-down list to direct the 
 
 ![Screenshot of the Run subflow action properties dialog.](..\media\run-function-action-properties.png)
 
-To stop the subflow and go back to the point where it was run from, use **Exit subflow**. This action does not have properties.
+To stop the subflow and go back to the point where it was run from, use **Exit subflow**. This action does not have properties. The **Exit Subflow** action is not required at the end of a subflow. When all the actions in a subflow have run, the flow will continue from the point where the subflow was run.
 
 To stop running the entire flow, use the **Stop flow** action. To stop the flow with an error message, set **End flow** to **With error message** and specify the message to display.
 
