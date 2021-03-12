@@ -4,4 +4,4 @@ The system will call your API regularly to check for changes in the data. The po
 
 The following video demonstrates how to add a polling trigger to the WooCommerce custom connector that was created previously. 
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyYqC/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWyYqC]
