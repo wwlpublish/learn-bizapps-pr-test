@@ -86,9 +86,9 @@ You can manually add other input fields to collect other data that is unique to 
           "constraints": {
             "required": "true"
           },
-          "description": "Specify your API Url e.g. https://test.contoso.com",
+          "description": "Specify your API URl e.g. https://test.contoso.com",
           "displayName": "API URL",
-          "tooltip": "Specify your API Url e.g. https://test.contoso.com"
+          "tooltip": "Specify your API URl e.g. https://test.contoso.com"
         }
       },
       "billingCode": {
