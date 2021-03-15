@@ -6,6 +6,6 @@ In this module, you will:
 
 - Identify when to use each Power Platform component application to create business solutions
 
-- Learn the value of using the Power Platform to create business solutions 
+- Learn the value of using Power Platform to create business solutions 
 
   
