@@ -1,8 +1,8 @@
 Here is a quick look at the App Designer for an example Model-driven app called
-“Fundraiser.” As you can see, there are two entities: Donation and Fundraiser. Each entity also contains four assets:
+“Fundraiser.” As you can see, there are two tables: Donation and Fundraiser. Each table also contains four assets:
 * **Forms** – Defining how users will see and interact with the data
 
-* **Views** – A list view of the records for each entity
+* **Views** – A list view of the rows for each table
 
 * **Charts** - Showing the data in a meaningful, visual representation
 
@@ -19,7 +19,7 @@ on the choices made in the design process.
 ## Understand the needs of the user
 
 With model-driven apps, the name says it all. Your primary design goal is to get
-your Common Data Service data model in order. With that in place, you can
+your Microsoft Dataverse data model in order. With that in place, you can
 connect Power Apps, and a model-driven app will be created for you from that
 model.
 
@@ -44,8 +44,7 @@ use a metadata-driven architecture. This means a large portion of the
 model-driven app is based on how your data is modeled, and there is no need to
 write custom code to alter the app design.
 
-You can view the app metadata by reviewing the Entity in the Common Data
-Service.
+You can view the app metadata by reviewing the Table in Microsoft Dataverse.
 
 [![Example of metadata.](../media/entity-metadata.png)](../media/entity-metadata.png#lightbox)
 
@@ -54,7 +53,7 @@ look like.
 
 [![Example of app in play mode.](../media/entity-play-mode.png)](../media/entity-play-mode.png#lightbox)
 
-In the example above, for the Fundraiser Entity, there are several pieces of
+In the example above, for the Fundraiser table, there are several pieces of
 data being collected, such as:
 
 * Name
@@ -67,34 +66,34 @@ data being collected, such as:
 
 * Created On
 
-As you think about your data model, also think about field types. When adding
-fields to your entity in the Common Data Service, the field type you choose will
-determine how users enter and view that in your model-driven app. Option sets
+As you think about your data model, also think about data types. When adding
+columns to your table in Microsoft Dataverse, the data type you choose will
+determine how users enter and view that in your model-driven app. Choices
 show as dropdowns, currency shows with currency symbols, while decimal numbers
-don’t. These little changes in the entity can have a profound effect on how your
+don’t. These little changes in the table can have a profound effect on how your
 user experiences your app.
 
-The screenshot below shows examples of Fields and the different data types they
+The screenshot below shows examples of columns and the different data types they
 could have using the Fundraiser example again.
 
 [![Fundraiser entity default fields](../media/fundraiser-entity-default-fields.png)](../media/fundraiser-entity-default-fields.png#lightbox)
 
 > [!IMPORTANT]
-> If a field type needs to be changed to a different field type, (i.e. text field
-to an option set), then you will need to delete that field and recreate with the
-correct field type. This will cause you to lose any data associated with that
-field.
+> If a column needs to be changed to a different data type, (i.e. text column
+to a choice column), then you will need to delete that column and recreate with the
+correct data type. This will cause you to lose any data associated with that
+column.
 
-### Business logic
+### Business Logic
 
 When incorporating business logic in your app, there are two primary options
-available. You can set **Business Rules** on your Common Data Service entities
+available. You can set **Business Rules** on your Microsoft Dataverse tables
 or you can build **Business Process Flows**.
 
 With **Business Rules,** you will define behaviors at the data layer. This is
 great for setting conditions for when a field is required, setting a default
 value, or even showing or hiding a field based on criteria. An example could be
-an entity for tracking expenses. You could have a field for type of travel and
+a table for tracking expenses. You could have a column for type of travel and
 then build a business rule that dictates that if a user chooses automobile then
 the mileage field is required, else it is optional. This gives you the power to
 make sure you maintain data consistency in all scenarios.
@@ -105,14 +104,14 @@ facilitate other actions that you want to occur as the user uses the app.
 Business Process Flows let you bring automation to your app and make it more of
 a guided experience than just a place to enter data. If you would like to go more in-depth 
 with Business Process Flows check out this additional Microsoft Learn module: 
-https://docs.microsoft.com/learn/modules/work-with-business-process-flows-dynamics-365/ 
+https://docs.microsoft.com/learn/modules/work-with-business-process-flows-dynamics-365/
 
 ### Dashboards
 
 A common output need for apps is to visualize the data. For this requirement,
-you can implement Dashboards with custom filters and visual graphics to tie all
-this data together right in your app. When creating your Dashboards, make sure
-it’s simple for your users to consume without overwhelming them with all the
+you can implement dashboards with custom filters and visual graphics to tie all
+this data together right in your app. When creating your dashboards, make sure
+they are simple for your users to consume without overwhelming them with all the
 data. Provide high-level snapshots of your data and allow them to use filters to
 dive deeper into the data if needed.
 

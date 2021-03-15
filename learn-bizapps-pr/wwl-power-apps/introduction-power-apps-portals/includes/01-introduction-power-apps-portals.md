@@ -1,5 +1,5 @@
 Power Apps portals provide a great way to allow internal and external audiences
-to view and interact with data from Common Data Service or Dynamics 365. Through
+to view and interact with data from Microsoft Dataverse or Dynamics 365. Through
 the Power Apps interface, you can build an anonymous or authenticated website
 that provides them with a branded, personalized, self-service experience.
 
