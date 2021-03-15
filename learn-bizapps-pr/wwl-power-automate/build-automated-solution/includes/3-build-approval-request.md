@@ -10,7 +10,7 @@ First, let's create the SharePoint list.
 
 1. On your SharePoint site, create a SharePoint list named *ContosoTweets*.
     >[!NOTE]
-    >If you are not familiar with creating a SharePoint list, more detail steps are available here: [Create a list](https://support.microsoft.com/en-us/office/create-a-list-0d397414-d95f-41eb-addd-5e6eff41b083)
+    >If you are not familiar with creating a SharePoint list, more detailed steps are available here: [Create a list](https://support.microsoft.com/en-us/office/create-a-list-0d397414-d95f-41eb-addd-5e6eff41b083)
 
 2. Open the list, and select **Add column**.
 
