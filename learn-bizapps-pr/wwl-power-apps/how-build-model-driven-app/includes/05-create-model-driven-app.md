@@ -110,7 +110,7 @@ Views display rows and columns in a table. Each row is a record with columns you
 
 2.	On the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
 
-    ![Account views](../media/column-attributes.png)
+    ![Column Attributes](../media/column-attributes.png)
 
 3.	From the list, select the column you want and drag it to the column heading. You can also add the column by double-clicking it.
 
