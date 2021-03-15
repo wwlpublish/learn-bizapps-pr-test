@@ -4,12 +4,12 @@ title: Components of Power Virtual Agents
 metadata:
   title: Components of Power Virtual Agents
   description: "Components of Power Virtual Agents"
-  ms.date: 02/10/2021
+  ms.date: 03/15/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 azureSandbox: false
-durationInMinutes: 5
+durationInMinutes: 8
 content: |
   [!include[](includes/3-power-virtual-agents-components.md)]
