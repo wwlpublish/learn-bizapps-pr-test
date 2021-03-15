@@ -9,10 +9,11 @@ validate stored data or show error messages. Model-driven apps can use business
 rules to show or hide columns, enable or disable columns, and create
 recommendations based on business intelligence.
 
->   [!TIP] Business rules are usually defined for a table and apply to all
->   forms, but you can define a business rule for a specific model-driven form.
->   Canvas apps cannot have a business rule applied to a specific form, but they
->   are still enforced when interacting with the data.
+> [!TIP] 
+> Business rules are usually defined for a table and apply to all
+forms, but you can define a business rule for a specific model-driven form.
+Canvas apps cannot have a business rule applied to a specific form, but they
+are still enforced when interacting with the data.
 
 Business rules give you a powerful way to enforce rules, set values, or validate
 data regardless of the form that is used to input data. Additionally, business
