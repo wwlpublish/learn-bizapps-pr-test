@@ -49,7 +49,7 @@ information on how to share the portal app with internal and external users.
 **Web roles** allow an administrator to control user access to portal content
 and Microsoft Dataverse rows.
 
-![Portals security constructs](../media/portal-security-hierarchy.png)
+![Portals security hierarchy](../media/portal-security-hierarchy.png)
 
 A web role can be associated with the following table rows:
 
