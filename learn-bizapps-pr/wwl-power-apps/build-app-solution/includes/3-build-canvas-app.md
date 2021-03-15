@@ -57,7 +57,7 @@ Your new three-screen app now opens in Power Apps Studio.
 
 The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.  
 > [!div class="mx-imgBorder"]
-> ![App editor view](../media/power-apps-edit.png)
+> [ ![App editor view](../media/power-apps-edit.png) ](../media/power-apps-edit.png#lightbox)
 
 Select Play ![Start app preview arrow](../media/forward-arrow.png) in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 
@@ -187,7 +187,7 @@ On the details screen, you want to change the order of the fields. The controls 
 
 2. On the right pane, select **Edit fields**.
     > [!div class="mx-imgBorder"]
-    >![Detail edit form](../media/detail-edit-form.png)
+    > [ ![Detail edit form](../media/detail-edit-form.png) ](../media/detail-edit-form.png#lightbox)
 
 3. Click the **+ Add field** button at the top of the Fields section.
 
@@ -221,7 +221,7 @@ A control is a UI element that produces an action or shows information. Many con
 
 In addition to these typical controls, Power Apps has more specialized controls, which you can find on the **Insert** tab.
 > [!div class="mx-imgBorder"]
-> ![Control type list](../media/control-type-list.png)
+> [ ![Control type list](../media/control-type-list.png) ](../media/control-type-list.png#lightbox)
 
 A few controls that can add interest and impact to your apps include:
 
