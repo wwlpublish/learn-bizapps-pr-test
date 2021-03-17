@@ -16,27 +16,27 @@ In this lab you learn how to:
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
-1. Prepare Data in Power BI Desktop
+1. [Prepare data in Power BI Desktop](https://docs.microsoft.com/learn/modules/get-data/lab-prepare/?azure-portal=true)
 
-2. Load Data in Power BI Desktop
+1. [Load data in Power BI Desktop](https://docs.microsoft.com/learn/modules/clean-data-power-bi/8-lab/?azure-portal=true)
 
-3. **Model Data in Power BI Desktop, Part 1**
+1. **Model data in Power BI Desktop, Part 1**
 
-4. Model Data in Power BI Desktop, Part 2
+1. [Model data in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/design-model-power-bi/9-lab/?azure-portal=true)
 
-5. Create DAX Calculations in Power BI Desktop, Part 1
+1. [Create DAX calculations in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/create-measures-dax-power-bi/6-lab/?azure-portal=true)
 
-6. Create DAX Calculations in Power BI Desktop, Part 2
+1. [Create DAX calculations in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/create-measures-dax-power-bi/8-lab/?azure-portal=true)
 
-7. Design a Report in Power BI Desktop, Part 1
+1. [Design a report in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/visuals-power-bi/8-lab/?azure-portal=true)
 
-8. Design a Report in Power BI Desktop, Part 2
+1. [Design a report in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/data-driven-story-power-bi/13-lab/?azure-portal=true)
 
-9. Create a Power BI Dashboard
+1. [Create a Power BI dashboard](https://docs.microsoft.com/learn/modules/create-dashboards-power-bi/9-lab/?azure-portal=true)
 
-10. Perform Data Analysis in Power BI Desktop
+1. [Perform data analysis in Power BI Desktop](https://docs.microsoft.com/learn/modules/ai-visuals-power-bi/5-lab/?azure-portal=true)
 
-11. Create a Power BI Paginated Report
+1. [Create a Power BI paginated report](https://docs.microsoft.com/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
 
 ## Exercise 1: Create Model Relationships
 
