@@ -39,8 +39,8 @@ Model-driven apps can also use business rules to:
 
 Below is an example of a simple, yet powerful use of business rules. The
 business rule is configured to change the field Credit Limit VP Approver to be a
-required field if the Credit Limit is set to greater than \$1,000,000. If the
-credit limit is less than \$1,000,000 then the field is optional.
+required field if the Credit Limit is set to greater than $1,000,000. If the
+credit limit is less than $1,000,000 then the field is optional.
 
 ![Example of business-rule](../media/business-rule.png)
 
