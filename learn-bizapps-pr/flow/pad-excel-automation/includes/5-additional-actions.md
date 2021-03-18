@@ -24,6 +24,6 @@ The **Run Excel macro** action runs any macro saved in the workbook. Specify the
 
 ![Screenshot of Properties of 'Run Excel macro' action dialog](..\media\run-excel-macro-action-properties.png)
 
-> [!NOTE] To run a macro named RevenuePerUser with the arguments 778 and Rbotas, the input would have to be > > formatted like so:
+> [!NOTE] To run a macro named RevenuePerUser with the arguments 778 and Rbotas, the input would have to be formatted like so:
 > 
 > **RevenuePerUser;778;Rbotas**
