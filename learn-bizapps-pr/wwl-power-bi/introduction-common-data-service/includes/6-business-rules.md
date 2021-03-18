@@ -1,7 +1,7 @@
 In Microsoft Dataverse you can define business rules. Business rules allow you
 to apply and maintain business logic at the data layer instead of the app layer.
 Put more simply, if you create business rules in Microsoft Dataverse, they are
-in affect regardless of where you interact with the data.
+in effect regardless of where you interact with the data.
 
 For example, business rules can be used in canvas and model-driven apps to set
 or clear values in one or many columns in a table. They can also be used to
@@ -39,8 +39,8 @@ Model-driven apps can also use business rules to:
 
 Below is an example of a simple, yet powerful use of business rules. The
 business rule is configured to change the field Credit Limit VP Approver to be a
-required field if the Credit Limit is set to greater than \$1,000,000. If the
-credit limit is less than \$1,000,000 then the field is optional.
+required field if the Credit Limit is set to greater than $1,000,000. If the
+credit limit is less than $1,000,000 then the field is optional.
 
 ![Example of business-rule](../media/business-rule.png)
 
