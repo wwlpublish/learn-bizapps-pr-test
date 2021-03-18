@@ -40,4 +40,4 @@ quiz:
       explanation: It is possible to create your own custom data connectors as well.
     - content: To Microsoft services, to other cloud services, and to custom data sources.
       isCorrect: true
-      explanation: It's correct because of this reason.
+      explanation: There are hundreds of connectors to many Microsoft services and 3rd party services, and custom connectors can be built to connect to other service as well.
