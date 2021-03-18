@@ -1,23 +1,23 @@
 ### YamlMime:Module
-uid: learn-bizapps.powerapps.discover-webapis-powerapps
-title: Discover and use Web APIs with Power Apps
+uid: learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer
+title: Understanding Low Code as a Traditional Developer
 summary: |
-  Does your organisation has Web APIs and you want to include them into your Power Apps? As long as your Web APIs are well defined in an Open API document, citizen developers will be easily able to build a custom connector that interact Power Apps with Web APIs.
+  Power Apps can be a powerful tool for citizen developers and traditional developers alike. Upon finishing this module, a traditional developer will have learned how Power Apps work, what the formula language is, and how to create an app using Power Apps
 metadata:
-  title: Discover and use Web APIs with Power Apps
-  description: Build a custom connector using Open API document, to send data to and receive it from Web APIs.
+  title: Understanding Low Code as a Traditional Developer
+  description: Understand Power Fx and how to use it to build an app within Power Apps as a traditional developer
   ms.date: 03/05/2021
-  author: justinyoo
-  ms.author: juyoo
+  author: ghurlman
+  ms.author: grhurl
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 abstract: |
   In this module you will:
-  - Create a custom connector through Azure API Management
-  - Create a custom connector through Open API document
-  - Use a custom connector in Power App
+  - Understand what Power Fx is and how to use it
+  - Create an app using Power Apps
+  - Modify an app using Power Fx
 prerequisites: |
-  - Familiarity with the concept of Web API (or HTTP API). Custom connectors use Web APIs to send and receive data.
+  -  Access to Microsoft Excel and OneDrive for Business.
 iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: false
 levels:
