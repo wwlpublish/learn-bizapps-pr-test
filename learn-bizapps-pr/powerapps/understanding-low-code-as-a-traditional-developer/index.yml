@@ -32,8 +32,7 @@ units:
   - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.1-introduction
   - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.2-understanding-power-fx
   - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.3-create-your-first-app-as-a-traditional-developer
-  - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.4-exploring-data-access-patterns-and-practices
-  - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.5-knowledge-check
-  - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.6-summary
+  - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.4-knowledge-check
+  - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.5-summary
 badge: 
   uid: learn.azure.sample-learn-module.badge
