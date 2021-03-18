@@ -1,4 +1,4 @@
-The growth of Microsoft Power Apps has led a number of traditional developers to take a look at Power Apps and run into an app development model that is _like_ other development environments, but not quite the same. While Power Apps has been built in order to allow more people to achieve more by building apps, it can also be a valuable tool for traditional developers looking to create apps quickly, iterate through testing, and get those apps in front of users on tablets, phones, and on the web faster than ever before.
+The growth of Microsoft Power Apps has led many traditional developers to take a look at Power Apps. When they do, they into an app development model that is _like_ other development environments, but not quite the same. While Power Apps has been built in order to allow more people to achieve more by building apps, it can also be a valuable tool for traditional developers looking to create apps quickly, iterate through testing, and get those apps in front of users on tablets, phones, and on the web faster than ever before.
 
 This module will help bridge the gap between your existing traditional development knowledge and how Power Apps works including app logic, user interface creation, and data flow.
 
@@ -8,7 +8,7 @@ The management at VanArsdel, Ltd have decided to allow the business users in the
 
 :::row:::
   :::column span="4":::
-    Kiana Anderson is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of VanArsdel's applications but is getting stretched thin by all the new requests. Crystal has heard of Power Apps, and would like to learn what it can do on its own before using her full-stack skills to add more capabilities to the platform.
+    Kiana Anderson is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of VanArsdel's applications but is getting stretched thin by all the new requests. Kiana has heard of Power Apps, and would like to learn what it can do on its own before using her full-stack skills to add more capabilities to the platform.
   :::column-end:::
   :::column:::
     ![Cartoon depiction of Crystal](../../../shared/media/crystal.png)
@@ -62,7 +62,7 @@ In this example, the LookUp function implies that only one record should be retr
 
 ### Runs only when is needed.
 
-We defined a formula for the Text property of the label control. As the variable Selected changes, the LookUp is automatically recalculated and the label updated. The maker did not need to write an OnChange handler for Selection, needing to remember that this label is dependent upon it. This is declarative programming as discussed earlier: the maker specified what they wanted to have in the label, not how or when it should be fetched. In fact, if this label is not visible because it is on a screen that is not visible or its Visible property is false, we can defer this calculation until the label is visible and effectively eliminate it if that rarely happens.
+We defined a formula for the Text property of the label control. As the variable Selected changes, the LookUp is automatically recalculated and the label updated. The maker did not need to write an OnChange handler for Selection, needing to remember that this label is dependent upon it. This is declarative programming as discussed earlier; the maker specified what they wanted to have in the label, not how or when it should be fetched. In fact, if this label is not visible because it is on a screen that is not visible or its Visible property is false, we can defer this calculation until the label is visible and effectively eliminate it if that rarely happens.
 
 ### Excel syntax translation.
 
