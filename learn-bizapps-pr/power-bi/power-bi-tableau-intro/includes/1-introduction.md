@@ -16,9 +16,6 @@ In today\'s modern data world, it is essential for companies to empower as many 
 
 The goal of data preparation is to make the data accessible for users, analysts, customers, partners, coworkers, etc. In order to prepare the data, you would use the **Power Query Editor**, which has rich formatting capabilities. This tool, built into the Power BI Desktop product, provides the ability to connect to many different data sources and transform your data into the shape you want. This way, you can explore and visualize the data to gain insights. The **Power Query Editor** is intuitive and gives the analyst numerous transformation options.
 
-> [!div class="mx-imgBorder"]
-> [![Power Query Editor allows analysts to connect to data, clean, and transform data. This tool is similar to what is offered in Tableau Prep and Alteryx.](../media/tableau-prep-vs-power-query.png)](../media/tableau-prep-vs-power-query.png#lightbox)
-
 ## Explore your data
 
 Once the data is prepared and organized, you would explore the data with **Power BI Desktop**. Like Tableau Desktop, using Power BI\'s desktop service is a great way to familiarize yourself with the data. You can set up calculations using the **Data Analysis Expressions (DAX)** language to keep your reports dynamic. These calculations will further explore the data when you apply filters. You can also define relationships, which allows you to analyze data from multiple, disparate data sources.
