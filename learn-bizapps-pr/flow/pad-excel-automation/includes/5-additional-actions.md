@@ -24,6 +24,6 @@ The **Run Excel macro** action runs any macro saved in the workbook. Specify the
 
 ![Screenshot of Properties of 'Run Excel macro' action dialog](..\media\run-excel-macro-action-properties.png)
 
-For example, a workbook contains a macro called OrderStatus. The macro requires two arguments, the order number and the username. To look up order number 778 for the username Rbotas, the **Macro** field would have to be formatted as follows:
+For example, a workbook used by the sales department at Contoso Inc. contains a macro called OrderStatus. The macro requires two arguments, the order number and the username, and returns a customer's order status. To look up order number 778 for the username Rbotas, the **Macro** field in the properties of the action would have to be formatted as follows:
 
  **OrderStatus;778;Rbotas**
