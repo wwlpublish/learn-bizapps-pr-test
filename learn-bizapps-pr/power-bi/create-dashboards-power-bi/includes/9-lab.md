@@ -139,7 +139,7 @@ In this task you'll set up the environment for the lab by creating a dataset.
 1. Select the **Local File** tile.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Files tile with the Get button highlighted.](../media/lab-1-e-ssm.png)](../media/lab-1-e-ssm.png#lightbox)
+    > [![Screenshot of the Power B I Local File tile.](../media/lab-1-e-ssm.png)](../media/lab-1-e-ssm.png#lightbox)
 
 1. In the **Open** window, navigate to the **D:\DA100\Labs\design-report-in-power-bi-desktop-enhanced\Solution** folder.
 
@@ -226,7 +226,7 @@ In this task you'll create the **Sales Monitoring** dashboard. You'll pin a visu
 1. When prompted to pin the tile to the dashboard, select **Pin**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Pin to dashboard window.](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox)
+    > [![Screenshot of the Pin to dashboard window with the Pin button highlighted.](../media/lab-9-ssm.png)](../media/lab-9-ssm.png#lightbox)
 
 1. To return to the dashboard, at the top-left corner, select **Exit Q&A**.
 

@@ -132,7 +132,7 @@ In this task, you will design the first report page. When you've completed the d
 1. To add an image, on the **Insert** ribbon tab, from inside the **Elements** group, select **Image**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the location and size of the image on the report.](../media/lab-7-ssm.png)](../media/lab-7-ssm.png#lightbox)
+    > [![Screenshot of the Insert ribbon tab with the Image button highlighted.](../media/lab-7-ssm.png)](../media/lab-7-ssm.png#lightbox)
 
 1. In the **Open** window, navigate to the **D:\DA100\Resources** folder.
 
