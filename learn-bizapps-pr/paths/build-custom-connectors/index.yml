@@ -27,6 +27,7 @@ modules:
 - learn-bizapps.get-started-custom-connector 
 - learn-bizapps.configure-custom-connectors-api
 - learn-bizapps.create-triggers-custom-connectors 
+- learn-bizapps.policy-templates-custom-connectors 
 trophy:
   uid: learn.build-custom-connectors.trophy
 
