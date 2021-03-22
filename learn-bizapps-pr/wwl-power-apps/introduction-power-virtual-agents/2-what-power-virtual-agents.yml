@@ -4,12 +4,12 @@ title: What is Power Virtual Agents?
 metadata:
   title: What is Power Virtual Agents?
   description: "What is Power Virtual Agents?"
-  ms.date: 02/10/2021
+  ms.date: 03/15/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 5
 content: |
   [!include[](includes/2-what-power-virtual-agents.md)]

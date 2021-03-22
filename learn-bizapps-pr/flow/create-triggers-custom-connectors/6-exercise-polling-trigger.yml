@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.create-triggers-custom-connectors.6-exercise-polling-trigger 
+title: Exercise - Implement a polling trigger
+metadata: 
+  title: Exercise - Implement a polling trigger 
+  description: Steps to implement a polling trigger.  
+  ms.date: 03/12/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-exercise-polling-trigger.md)] 
