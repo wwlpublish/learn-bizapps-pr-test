@@ -5,6 +5,9 @@ This exercise requires you to install Python and access the command prompt on th
 > [!IMPORTANT]
 > Use a test environment with Microsoft Dataverse provisioned. If you don't have one, you can sign up for the [community plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true).
 
+> [!NOTE]
+> Download the following file to your local computer to complete this exercise [Contoso Invoicing Triggers](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-connectors/ContosoInvoicingTriggers_1_0_0_0.zip). Select the download button on the middle-right of the screen.
+
 ## Task 1: Import a solution
 
 In this task, you'll import an unmanaged solution that contains a Contoso Invoicing custom connector. You'll use this connector to complete the tasks in this exercise.
