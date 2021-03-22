@@ -4,7 +4,7 @@ title: Exercise - Use a policy template to dynamically set the host URL
 metadata: 
   title: Exercise - Use a policy template to dynamically set the host URL  
   description: Steps to create a policy template to set the host URL at connection creation.   
-  ms.date: 03/31/2021 
+  ms.date: 03/22/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 

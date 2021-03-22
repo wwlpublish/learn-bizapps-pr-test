@@ -3,7 +3,7 @@ uid: learn-bizapps.policy-templates-custom-connectors
 metadata: 
  title: Policy templates for custom connectors in Power Automate
  description: This module explores using policies with custom connectors and explains how to configure them by using policy templates.
- ms.date: 03/31/2021  
+ ms.date: 03/22/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
