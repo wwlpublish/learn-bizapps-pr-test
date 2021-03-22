@@ -11,7 +11,7 @@ users are making connections through different connectors.
 
     **Install-Module -Name Microsoft.PowerApps.Administration.PowerShell**
 
-    **Install-Module -Name Microsoft.PowerApps.PowerShell-AllowClobber**
+    **Install-Module -Name Microsoft.PowerApps.PowerShell -AllowClobber**
 
 3. If you are prompted to accept the change to the *InstallationPolicy*
     value of the repository, accept this change for all modules by entering
