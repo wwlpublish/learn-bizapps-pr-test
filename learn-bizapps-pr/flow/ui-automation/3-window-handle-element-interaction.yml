@@ -5,8 +5,8 @@ metadata:
   title: Window handling and element interaction
   description: Examine the different groups of actions that interact with windows and window elements.
   ms.date: 09/30/2020 
-  author: rokontol 
-  ms.author: rokontol 
+  author: mariosleon
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 15 

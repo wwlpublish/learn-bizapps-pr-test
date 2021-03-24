@@ -5,8 +5,8 @@ metadata:
   title: Introduction to desktop and web recorders
   description: An introduction to recording desktop and web actions using the Power Automate Desktop recording tools.
   ms.date: 11/03/2020 
-  author: rokontol 
-  ms.author: rokontol 
+  author: mariosleon
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 5 

@@ -5,8 +5,8 @@ metadata:
   title: Web Recorder
   description: Recording web Actions with the Web Recorder.
   ms.date: 08/25/2020 
-  author: rokontol 
-  ms.author: rokontol 
+  author: mariosleon
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 10
