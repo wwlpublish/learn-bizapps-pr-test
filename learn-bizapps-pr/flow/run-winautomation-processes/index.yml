@@ -4,8 +4,8 @@ metadata:
  title: Run WinAutomation processes
  description: This module covers the basic options available in WinAutomation for running processes.
  ms.date: 08/21/2020  
- author: rokontol  
- ms.author: rokontol  
+ author: mariosleon 
+ ms.author: marleon 
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
 title: Run WinAutomation processes
