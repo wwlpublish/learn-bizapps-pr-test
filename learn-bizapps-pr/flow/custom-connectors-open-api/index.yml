@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.custom-connectors-open-api 
 metadata: 
- title: Power Automate OpenAPI custom connectors
+ title: Create Power Automate OpenAPI custom connectors
  description: Learn about Power Automate OpenAPI custom connectors.
  ms.date: 04/15/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Power Automate OpenAPI custom connectors 
+title: Create Power Automate OpenAPI custom connectors 
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Define extensions to OpenAPI to configure specific featuers supported by customer connectors in Power Automate. This module covers authentication, actions, and triggers used with OpenAPI connectors.
