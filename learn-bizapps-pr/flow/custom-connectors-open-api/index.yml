@@ -11,7 +11,7 @@ metadata:
 title: Power Automate OpenAPI custom connectors 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Details of Power Automate OpenAPI custom connectors.
+  Define extensions to OpenAPI to configure specific featuers supported by customer connectors in Power Automate. This module covers authentication, actions, and triggers used with OpenAPI connectors.
 abstract: |  
     In this module, you will: 
     - Learn about OpenAPI extensions.
