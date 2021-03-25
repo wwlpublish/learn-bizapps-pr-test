@@ -1,7 +1,7 @@
 When you configure a parameter for an action on a custom connector the default maker's experience to enter the parameter value is a simple textbox. If you had a parameter on an Add Invoice action named Invoice Type ID, the maker experience would look like the following:
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot showing the add invoice action with type ID just a simple textbox.(../media/add-invoice.png)](../media/add-invoice.png#lightbox)
+> [![Screenshot showing the add invoice action with type ID just a simple textbox.](../media/add-invoice.png)](../media/add-invoice.png#lightbox)
 
 As you can see, the maker would need to know the magic values for Invoice Type ID. Which in our example is the following:
 
@@ -29,7 +29,7 @@ And if you looked at the maker experience in Power Automate it would now look li
 
 While that is improved, it still requires the maker to know what the value of 1 or 2 means. You could describe that in the parameter description to make it easier. Using enums is best for self-describing data. For example, if you had a parameter for Days Due and used an enum for 30,60,90 that would be easy to understand and use. Another limitation on using enum is if the API adds new allowable values you must edit the custom connector enum definition and publish the updated version of the connector. To improve the experience further Microsoft added an OpenAPI extension x-ms-dynamic-values.
 
-## Configuring Dynamic values
+## Configuring dynamic values
 
 You can configure the x-ms-dynamic-values extension on a parameter to have the list of values retrieved from the underlying API. The following are some of the benefits of this approach.
 

@@ -117,7 +117,7 @@ In this task, you'll import an unmanaged solution that contains a Contoso Invoic
 1.  Enter **Invoice Type** for **Summary**, **1** for **Default value**, and select **Yes** for **Is required**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the query parameter properties.](../media/requrired.png)](../media/requrired.png#lightbox)
+    > [![Screenshot of the query parameter properties.](../media/required.png)](../media/required.png#lightbox)
 
 1.  Scroll down and select **Dynamic** for **Dropdown type**.
 

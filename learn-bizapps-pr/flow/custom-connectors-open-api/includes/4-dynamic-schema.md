@@ -15,7 +15,7 @@ In our Contoso Invoicing API example, after importing the OpenAPI definition, ou
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the action without any extensions configured.](../media/action-example.png)](../media/action-example.png#lightbox)
 
-The above image shows parameters that aren'tt relevant for adding a purchase order invoice versus a non-purchase order invoice. Also, not all of the invoice fields are valid input for the invoice creation. For example, createDate is a field set by the API and shouldn't be part of the user input. After implementing dynamic values for the invoice type ID and dynamic schema for the other parameters here's what the action looks like:
+The above image shows parameters that aren't relevant for adding a purchase order invoice versus a non-purchase order invoice. Also, not all of the invoice fields are valid input for the invoice creation. For example, createDate is a field set by the API and shouldn't be part of the user input. After implementing dynamic values for the invoice type ID and dynamic schema for the other parameters here's what the action looks like:
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the custom connector action with purchase order field visible.](../media/dynamic-values-implemented-example.png)](../media/dynamic-values-implemented-example.png#lightbox)
