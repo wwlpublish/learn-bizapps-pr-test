@@ -5,7 +5,7 @@ Making your custom connector open-source and certified can make it easily availa
 
 There are many reasons to certify your custom connector but ease of use, visibility, and expanding the reach of your API are among the top reasons. Certify your custom connector if it provides access to an API that is useful to a broad audience and not internally focused. You do not have to host the API underlying service on Microsoft technologies. In fact, connectors are great for integrating Power Platform solutions with non-Microsoft solutions. Connectors can be certified for free or paid APIs.
 
-Certified connectors are reviewed to ensure they meet the [certification criteria](https://docs.microsoft.com/connectors/custom-connectors/submit-certification#certification-criteria/?azure-portal=true) prior to publishing. A key requirement is you must either own the underlying service or present explicit rights to use the API and provide a user scenario that fits well with the products. There is no charge for the initial certification or updates to the connector. In the next topic, we dive deeper into the certification process.
+Certified connectors are reviewed to ensure they meet the [certification criteria](https://docs.microsoft.com/connectors/custom-connectors/submit-certification?azure-portal=true#certification-criteria) prior to publishing. A key requirement is you must either own the underlying service or present explicit rights to use the API and provide a user scenario that fits well with the products. There is no charge for the initial certification or updates to the connector. In the next topic, we dive deeper into the certification process.
 
 ## When to make a custom connector open-source
 
@@ -25,7 +25,7 @@ The custom-connectors folder contains fully functional connector samples that ca
 
 The certified-connectors folder contains certified connectors that are already deployed and available out-of-box within the Power Platform for use. A requirement of Microsoft connector certification program is that new certified connectors be open-sourced for community contributions. The Microsoft Connector Certification Team manages the certified-connectors folder to ensure that within the master branch, the connector version is identical to that deployed in the Power Platform. The dev branch is maintained by the connector owner and the Microsoft Connector Certification Team to allow community development of the connector prior to certification and deployment of a version.
 
-To contribute to the GitHub repository, you start by forking (taking your own copy) of the repository. The steps are documented [here](https://github.com/Microsoft/PowerPlatformConnectors.md?azure-portal=true#creating-a-fork). Once that's completed, you're ready to prepare your connector for contribution using a pull request. You can download your connector assets using the Power Platform Connector CLI.
+To contribute to the GitHub repository, you start by forking (taking your own copy) of the repository. The steps are documented [here](https://github.com/Microsoft/PowerPlatformConnectors?azure-portal=true#creating-a-fork). Once that's completed, you're ready to prepare your connector for contribution using a pull request. You can download your connector assets using the Power Platform Connector CLI.
 
 ## Download using Power Platform Connector CLI
 

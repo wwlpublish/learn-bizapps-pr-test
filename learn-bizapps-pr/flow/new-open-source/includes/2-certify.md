@@ -21,7 +21,7 @@ This is where your journey begins as you start envisioning what your connector w
 
 - Review the supported OpenAPI extensions for applicability. For example, the test connection is commonly implemented by certified connectors. Also using dynamic value extensions can be helpful if you have parameters with lists of values to choose from.
 
-For new connector certification, you don't have to wait until you finish developing the connector to register for certification. Follow how to register [here](https://docs.microsoft.com/connectors/custom-connectors/submit-certification.md?azure-portal=true#certification-process). Expect an email from a Microsoft representative to understand your custom connector, learn about your development progress, and guide you through the certification process.
+For new connector certification, you don't have to wait until you finish developing the connector to register for certification. Follow how to register [here](https://docs.microsoft.com/connectors/custom-connectors/submit-certification?azure-portal=true#certification-process). Expect an email from a Microsoft representative to understand your custom connector, learn about your development progress, and guide you through the certification process.
 
 For updates to a certified connector, the most important part of planning is to not break existing users. We'll cover that in more detail in the updates and versioning unit.
 
@@ -33,7 +33,7 @@ The primary focus in this step is getting your API and the definition for your c
 
 In the introduction unit, we covered a high-level overview of how to make an open-source connector. For your certified connector, you will put it in the certified-connectors folder. Prior to submitting a pull request, you must perform the following tasks:
 
-- Edit your connector files to add the [specific required meta data](https://docs.microsoft.com/connectors/custom-connectors/certification-submission.md?azure-portal=true#publisher-and-stack-owner). Your connector files must contain specific metadata describing the connector and its end service.
+- Edit your connector files to add the [specific required meta data](https://docs.microsoft.com/connectors/custom-connectors/certification-submission?azure-portal=true#publisher-and-stack-owner). Your connector files must contain specific metadata describing the connector and its end service.
 
 - Run the paconn validate command on your downloaded connector and resolve any errors.
 
@@ -51,7 +51,7 @@ As part of submitting to ISV Studio for certification you should be prepared to 
 
 - Connector testing information, for example, any API key or other authentication details. Any details that would help a tester use the connector.
 
-- An `Intro.md` file that contains info to include in the public documentation for the connector. You can find a template [here](https://docs.microsoft.com/connectors/custom-connectors/certification-submission.md?azure-portal=true#submitting-to-isv-studio).
+- An `Intro.md` file that contains info to include in the public documentation for the connector. You can find a template [here](https://docs.microsoft.com/connectors/custom-connectors/certification-submission?azure-portal=true#submitting-to-isv-studio).
 
 As the certification progresses, you will get updates in the portal, and an email to the primary contact. If any issues are encountered, you will be expected to resolve them before the certification will proceed. Once the connector is passed certification that will be scheduled for deployment to the "Preview" region for testing.
 
