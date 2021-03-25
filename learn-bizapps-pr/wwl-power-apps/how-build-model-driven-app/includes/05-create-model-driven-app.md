@@ -32,9 +32,9 @@ You add components to your app by using the App Designer.
 2.  In the site map designer, select **New Subarea**, and then, in the right
     pane on the **Properties** tab, select the following properties:
 
-    -   **Type**: *Table*
+    -   **Type**: *Entity*
 
-    -   **Table**: *Account*
+    -   **Entity**: *Account*
 
         [![Add components to the site map](../media/sitemap-designer.png)](../media/sitemap-designer.png#lightbox)
 
