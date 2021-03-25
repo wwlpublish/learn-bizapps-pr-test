@@ -1,0 +1,43 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.build-first-desktop-flow.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/15/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 2 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What indications do you have that your actions are recording appropriately?
+    choices: 
+    - content: There will be a red outline before clicking and a blue highlight after.
+      isCorrect: true 
+      explanation: Be sure to take a few seconds between actions.
+    - content: There will be a red recording button visible on the screen.
+      isCorrect: false 
+      explanation: There is a pause button, though.
+    - content: There will be a pop-up indicating that the recording has started.
+      isCorrect: false 
+      explanation: The recording pane will be visible, but there will not be a pop-up.
+    - content: Power Automate Desktop will minimize so you can see your whole screen.
+      isCorrect: false 
+      explanation: The recording pane will be visible unless manually minimized so that you can see the actions as you record them.
+  - content: Which of the following actions can you not perform within Power Automate Designer?
+    choices: 
+    - content: Edit your previously recorded actions.
+      isCorrect: false
+      explanation: You can edit or delete your actions here.
+    - content: Delete previously recorded actions.
+      isCorrect: false 
+      explanation: You can edit or delete your actions here. You can also delete actions from the record screen.
+    - content: Record keyboard shortcuts used for navigation.
+      isCorrect: true 
+      explanation: The recorder needs you to select the specific field you wish to edit rather than using keyboard shortcuts.
+    - content: Pause your recording to perform unrecorded actions.
+      isCorrect: false 
+      explanation: You can pause your recording, which is recommended over canceling and starting over.
