@@ -1,4 +1,4 @@
-While devloping a Power App, you may find out you need to call a web API created by a high-code development team in your organization. Power Apps have already provided you with hundreds of *connectors* to access resources inside and outside your organization. However, there is no built-in connector for you to call web APIs that your organization has developed. This situation brings about you have to create a custom connector to fill the gap between Power Apps and web APIs.
+While developing a Power App, you may find out you need to call a web API created by a high-code development team in your organization. Power Apps has already provided you with hundreds of *connectors* to access resources inside and outside your organization. However, there is no built-in connector for you to call web APIs that your organization has developed. This situation brings about you have to create a custom connector to fill the gap between Power Apps and web APIs.
 
 You've met the team at Green Leaf Heating and Air Conditioning, or Green Leaf for short, and learned a bit about the issues they currently have with their Field Inventory Management System.
 
