@@ -25,7 +25,7 @@ The custom-connectors folder contains fully functional connector samples that ca
 
 The certified-connectors folder contains certified connectors that are already deployed and available out-of-box within the Power Platform for use. A requirement of Microsoft connector certification program is that new certified connectors be open-sourced for community contributions. The Microsoft Connector Certification Team manages the certified-connectors folder to ensure that within the master branch, the connector version is identical to that deployed in the Power Platform. The dev branch is maintained by the connector owner and the Microsoft Connector Certification Team to allow community development of the connector prior to certification and deployment of a version.
 
-To contribute to the GitHub repository, you start by forking (taking your own copy) of the repository. The steps are documented [here](https://github.com/Microsoft/PowerPlatformConnectors#creating-a-fork/?azure-portal=true). Once that's completed, you're ready to prepare your connector for contribution using a pull request. You can download your connector assets using the Power Platform Connector CLI.
+To contribute to the GitHub repository, you start by forking (taking your own copy) of the repository. The steps are documented [here](https://github.com/Microsoft/PowerPlatformConnectors.md?azure-portal=true#creating-a-fork). Once that's completed, you're ready to prepare your connector for contribution using a pull request. You can download your connector assets using the Power Platform Connector CLI.
 
 ## Download using Power Platform Connector CLI
 

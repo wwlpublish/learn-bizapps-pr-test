@@ -42,7 +42,7 @@ You can also indicate in the summary or description a hint of upcoming deprecati
 
 To hide the action from new users but not break existing users, you can mark the action as deprecated in the OpenAPI configuration. You can make this change by directly editing the OpenAPI definition using the Swagger editor. To indicate that an action is deprecated, add the following to the operation configuration:
 
-`deprecated: false`
+`deprecated: true`
 
 > [!div class="mx-imgBorder"]
 > [![screenshot showing how to set deprecated to true in code.](../media/4-5-deprecated.png)](../media/4-5-deprecated.png#lightbox)
