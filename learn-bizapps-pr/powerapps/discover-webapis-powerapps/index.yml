@@ -29,14 +29,15 @@ products:
   - power-platform
   - power-apps
 units: 
-  - learn-bizapps.powerapps.discover-webapis-powerapps.1-introduction
-  - learn-bizapps.powerapps.discover-webapis-powerapps.2-what-are-custom-connectors
-  - learn-bizapps.powerapps.discover-webapis-powerapps.3-create-custom-connector-with-apim
-  - learn-bizapps.powerapps.discover-webapis-powerapps.4-what-is-openapi-and-why-should-use-it
-  - learn-bizapps.powerapps.discover-webapis-powerapps.5-create-custom-connector-with-openapi
-  - learn-bizapps.powerapps.discover-webapis-powerapps.6-test-custom-connector
-  - learn-bizapps.powerapps.discover-webapis-powerapps.7-use-custom-connector-in-powerapp
-  - learn-bizapps.powerapps.discover-webapis-powerapps.8-knowledge-check
-  - learn-bizapps.powerapps.discover-webapis-powerapps.9-summary
+  - learn-bizapps.powerapps.discover-webapis-powerapps.01-introduction
+  - learn-bizapps.powerapps.discover-webapis-powerapps.02-what-are-custom-connectors
+  - learn-bizapps.powerapps.discover-webapis-powerapps.03-create-custom-connector-with-apim
+  - learn-bizapps.powerapps.discover-webapis-powerapps.04-what-is-openapi-and-why-should-use-it
+  - learn-bizapps.powerapps.discover-webapis-powerapps.05-create-custom-connector-with-openapi
+  - learn-bizapps.powerapps.discover-webapis-powerapps.06-test-and-use-custom-connector
+  - learn-bizapps.powerapps.discover-webapis-powerapps.07-test-custom-connector
+  - learn-bizapps.powerapps.discover-webapis-powerapps.08-use-custom-connector-in-powerapp
+  - learn-bizapps.powerapps.discover-webapis-powerapps.09-knowledge-check
+  - learn-bizapps.powerapps.discover-webapis-powerapps.10-summary
 badge: 
   uid: learn.azure.sample-learn-module.badge

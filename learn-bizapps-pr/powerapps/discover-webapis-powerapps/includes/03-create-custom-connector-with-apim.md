@@ -1,13 +1,3 @@
-:::row:::
-  :::column span="4":::
-    Crystal is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of Green Leaf's applications but is getting stretched thin by all the new requests. Crystal is familiar with Power Apps at a high-level and is eager to learn how she can use her existing skills to empower Citizen Developers.
-  :::column-end:::
-  :::column:::
-    ![Cartoon depiction of Crystal][meet crystal]
-  :::column-end:::
-:::row-end:::
-
-
 Crystal and her development team have built web APIs for inventory management, which is served through [Azure API Management][az apim]. She wants to create a custom connector by exporting it to Power Apps so that Maria can directly use it on her Power Apps without needing to know about API Management.
 
 
@@ -47,10 +37,6 @@ The inventory management APIs have been exported to Power Apps.
 ## Create Connection to Custom Connector ##
 
 Although you created the custom connector, in order to use it, you should create a connection to the custom connector. Generally speaking, creating the connection requires authentication to the APIs.
-
-> ** What's the difference between connector and connection?**
-> 
-> A connector defines contracts&ndash;what APIs look like and how you can connect to APIs. It doesn't actually connect you to the APIs. On the other hand, a connection knows the connection details how you connect to the APIs, including authentication details. Power Apps use the connection to communicate with APIs through the connector.
 
 After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu on the left-hand side. Then, click the `➕` button on the right-hand side.
 
@@ -104,27 +90,24 @@ You have completed creating a custom connector for inventory management.
 
 After this unit, you are now able to:
 
-* Create a custom connector from Azure API Management by exporting the APIs,
-* Know the differences between a connector and a connection, and
+* Create a custom connector from Azure API Management by exporting the APIs, and
 * Create a connection of the custom connector by providing authentication details.
 
 
-[meet crystal]: ../media/meet-crystal.png
-
-[image-01]: ../media/2-create-custom-connector-with-apim-01.png
-[image-02]: ../media/2-create-custom-connector-with-apim-02.png
-[image-03]: ../media/2-create-custom-connector-with-apim-03.png
-[image-04]: ../media/2-create-custom-connector-with-apim-04.png
-[image-05]: ../media/2-create-custom-connector-with-apim-05.png
-[image-06]: ../media/2-create-custom-connector-with-apim-06.png
-[image-07]: ../media/2-create-custom-connector-with-apim-07.png
-[image-08]: ../media/2-create-custom-connector-with-apim-08.png
-[image-09]: ../media/2-create-custom-connector-with-apim-09.png
-[image-10]: ../media/2-create-custom-connector-with-apim-10.png
-[image-11]: ../media/2-create-custom-connector-with-apim-11.png
-[image-12]: ../media/2-create-custom-connector-with-apim-12.png
-[image-13]: ../media/2-create-custom-connector-with-apim-13.png
-[image-14]: ../media/2-create-custom-connector-with-apim-14.png
+[image-01]: ../media/03-create-custom-connector-with-apim-01.png
+[image-02]: ../media/03-create-custom-connector-with-apim-02.png
+[image-03]: ../media/03-create-custom-connector-with-apim-03.png
+[image-04]: ../media/03-create-custom-connector-with-apim-04.png
+[image-05]: ../media/03-create-custom-connector-with-apim-05.png
+[image-06]: ../media/03-create-custom-connector-with-apim-06.png
+[image-07]: ../media/03-create-custom-connector-with-apim-07.png
+[image-08]: ../media/03-create-custom-connector-with-apim-08.png
+[image-09]: ../media/03-create-custom-connector-with-apim-09.png
+[image-10]: ../media/03-create-custom-connector-with-apim-10.png
+[image-11]: ../media/03-create-custom-connector-with-apim-11.png
+[image-12]: ../media/03-create-custom-connector-with-apim-12.png
+[image-13]: ../media/03-create-custom-connector-with-apim-13.png
+[image-14]: ../media/03-create-custom-connector-with-apim-14.png
 
 [az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
 

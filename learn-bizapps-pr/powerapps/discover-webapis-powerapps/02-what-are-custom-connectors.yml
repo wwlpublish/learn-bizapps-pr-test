@@ -1,0 +1,14 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.powerapps.discover-webapis-powerapps.02-what-are-custom-connectors
+title: What Are Custom Connectors
+metadata:
+  title: What Are Custom Connectors
+  description: Learn what the custom connectors are
+  ms.date: 03/05/2021
+  author: justinyoo
+  ms.author: juyoo
+  ms.topic: interactive-tutorial
+  ms.prod: learning-powerapps
+durationInMinutes: 3
+content: | 
+  [!include[](includes/02-what-are-custom-connectors.md)]

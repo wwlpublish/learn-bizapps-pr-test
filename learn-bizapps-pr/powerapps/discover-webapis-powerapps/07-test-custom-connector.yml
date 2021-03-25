@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.powerapps.discover-webapis-powerapps.6-test-custom-connector
-title: Test Custom Connector
+uid: learn-bizapps.powerapps.discover-webapis-powerapps.07-test-custom-connector
+title: Exercise - Test Custom Connector
 metadata:
-  title: Test Custom Connector
+  title: Exercise - Test Custom Connector
   description: Test the custom connector by invoking the web API
   ms.date: 03/05/2021
   author: justinyoo
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 3
 content: | 
-  [!include[](includes/6-test-custom-connector.md)]
+  [!include[](includes/07-test-custom-connector.md)]

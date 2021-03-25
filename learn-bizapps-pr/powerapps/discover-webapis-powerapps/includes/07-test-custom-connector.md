@@ -1,12 +1,3 @@
-:::row:::
-  :::column span="4":::
-    Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and, if not, orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
-  :::column-end:::
-  :::column:::
-    ![Cartoon depiction of Maria][meet maria]
-  :::column-end:::
-:::row-end:::
-
 Maria has now got a custom connector for her Power Apps to communicate with the inventory management APIs. She wants to make sure whether the connector works as expected before using it on her Power App.
 
 
@@ -35,8 +26,6 @@ After this unit, you are now able to:
 * Test the custom connector by using the existing connection details.
 
 
-[meet maria]: ../media/meet-maria.png
-
-[image-01]: ../media/4-test-custom-connector-01.png
-[image-02]: ../media/4-test-custom-connector-02.png
-[image-03]: ../media/4-test-custom-connector-03.png
+[image-01]: ../media/07-test-custom-connector-01.png
+[image-02]: ../media/07-test-custom-connector-02.png
+[image-03]: ../media/07-test-custom-connector-03.png

@@ -1,12 +1,3 @@
-:::row:::
-  :::column span="4":::
-    Maria works in inventory management and makes sure Green Leaf runs like a well-oiled machine. She verifies the warehouse has enough parts and, if not, orders more using a legacy system that Crystal wrote. But more than that – she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
-  :::column-end:::
-  :::column:::
-    ![Cartoon depiction of Maria][meet maria]
-  :::column-end:::
-:::row-end:::
-
 Maria now has a custom connector up and running for inventory management. She wants to use the connector in her Power App.
 
 
@@ -74,16 +65,14 @@ After this unit, you are now able to:
 * Call an API through the custom connector and render the result to the control.
 
 
-[meet maria]: ../media/meet-maria.png
-
-[image-01]: ../media/5-use-custom-connector-in-powerapp-01.png
-[image-02]: ../media/5-use-custom-connector-in-powerapp-02.png
-[image-03]: ../media/5-use-custom-connector-in-powerapp-03.png
-[image-04]: ../media/5-use-custom-connector-in-powerapp-04.png
-[image-05]: ../media/5-use-custom-connector-in-powerapp-05.png
-[image-06]: ../media/5-use-custom-connector-in-powerapp-06.png
-[image-07]: ../media/5-use-custom-connector-in-powerapp-07.png
-[image-08]: ../media/5-use-custom-connector-in-powerapp-08.png
-[image-09]: ../media/5-use-custom-connector-in-powerapp-09.png
-[image-10]: ../media/5-use-custom-connector-in-powerapp-10.png
-[image-11]: ../media/5-use-custom-connector-in-powerapp-11.png
+[image-01]: ../media/08-use-custom-connector-in-powerapp-01.png
+[image-02]: ../media/08-use-custom-connector-in-powerapp-02.png
+[image-03]: ../media/08-use-custom-connector-in-powerapp-03.png
+[image-04]: ../media/08-use-custom-connector-in-powerapp-04.png
+[image-05]: ../media/08-use-custom-connector-in-powerapp-05.png
+[image-06]: ../media/08-use-custom-connector-in-powerapp-06.png
+[image-07]: ../media/08-use-custom-connector-in-powerapp-07.png
+[image-08]: ../media/08-use-custom-connector-in-powerapp-08.png
+[image-09]: ../media/08-use-custom-connector-in-powerapp-09.png
+[image-10]: ../media/08-use-custom-connector-in-powerapp-10.png
+[image-11]: ../media/08-use-custom-connector-in-powerapp-11.png
