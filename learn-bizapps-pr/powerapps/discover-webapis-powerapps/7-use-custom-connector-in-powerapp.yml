@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.powerapps.discover-webapis-powerapps.5-use-custom-connector-in-powerapp
+uid: learn-bizapps.powerapps.discover-webapis-powerapps.7-use-custom-connector-in-powerapp
 title: Use Custom Connector in Power App
 metadata:
   title: Use Custom Connector in Power App
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 3
 content: | 
-  [!include[](includes/5-use-custom-connector-in-powerapp.md)]
+  [!include[](includes/7-use-custom-connector-in-powerapp.md)]

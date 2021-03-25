@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.powerapps.discover-webapis-powerapps.4-test-custom-connector
+uid: learn-bizapps.powerapps.discover-webapis-powerapps.6-test-custom-connector
 title: Test Custom Connector
 metadata:
   title: Test Custom Connector
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 3
 content: | 
-  [!include[](includes/4-test-custom-connector.md)]
+  [!include[](includes/6-test-custom-connector.md)]

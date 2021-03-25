@@ -7,22 +7,22 @@
   :::column-end:::
 :::row-end:::
 
-Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals to develop applications, which are easy to create and deploy. She also wants to build a Power App with existing Web APIs through a custom connector. As Crystal's team is fully stretched and unable to create the custom connector for Maria, she needs to create the custom connector for the inventory management by herself. Fortunately, Crystal has provided Maria with an Open API document and API key for authentication.
+Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals to develop applications, which are easy to create and deploy. She also wants to build a Power App with existing web APIs through a custom connector. As Crystal's team is fully stretched and unable to create the custom connector for Maria, she needs to create the custom connector for the inventory management by herself. Fortunately, Crystal has provided Maria with an OpenAPI document and API key for authentication.
 
 
-## Create Custom Connector from Open API Document ##
+## Create Custom Connector from OpenAPI Document ##
 
-There are several ways of creating a custom connector from Power Apps. This time, you will create the one using the Open API document because you have the Open API document file.
+There are several ways of creating a custom connector from Power Apps. This time, you will create the one using the OpenAPI document because you have the OpenAPI document file.
 
 After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu on the left-hand side. Then, click the `➕ New custom connector` button at the right-top corner and select the `Import an OpenAPI file` menu.
 
 ![Many Ways Creating Custom Connector][image-01]
 
-When a pop-up modal appears, give the name, **InventoryManager**, to the `Connector name` field and click the `Import` button to import the Open API document, `openapi.json`. Then, click the `Continue` button.
+When a pop-up modal appears, give the name, **InventoryManager**, to the `Connector name` field and click the `Import` button to import the OpenAPI document, `openapi.json`. Then, click the `Continue` button.
 
-![Open API File Import][image-02]
+![OpenAPI File Import][image-02]
 
-As the Open API document has everything you need to create the custom connector, click the `✅ Create connector` button at the right-top corner.
+As the OpenAPI document has everything you need to create the custom connector, click the `✅ Create connector` button at the right-top corner.
 
 ![Custom Connector General Tab Create Connector][image-03]
 
@@ -49,7 +49,7 @@ You have completed creating a custom connector for inventory management.
 
 After this unit, you are now able to:
 
-* Create a custom connector from the Open API document, and
+* Create a custom connector from the OpenAPI document, and
 * Create a connection of the custom connector by providing authentication details.
 
 

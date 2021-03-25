@@ -8,7 +8,7 @@
 :::row-end:::
 
 
-Crystal and her development team have built Web APIs for inventory management, which is served through [Azure API Management][az apim]. She wants to create a custom connector by exporting it to Power Apps so that Maria can directly use it on her Power Apps without needing to know about API Management.
+Crystal and her development team have built web APIs for inventory management, which is served through [Azure API Management][az apim]. She wants to create a custom connector by exporting it to Power Apps so that Maria can directly use it on her Power Apps without needing to know about API Management.
 
 
 > QUESTION: Do we provide a pre-built APIM instance here so that learners can visually walk through the process? To avoid dependency on the previous module, what could be the best way to provide context about APIM here?
