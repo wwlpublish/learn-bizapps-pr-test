@@ -29,7 +29,7 @@ There are many advantages of using the OpenAPI document for your custom connecto
 
 As you can see the diagram below, OpenAPI document doesn't have to know the actual implementation of the web API, as long as the contract remains the same.
 
-![][image-04]
+![OpenAPI without Having to Know Web API][image-04]
 
 
 ## Custom Connector from OpenAPI or Azure API Management ##
