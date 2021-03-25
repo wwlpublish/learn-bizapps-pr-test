@@ -1,4 +1,4 @@
-To make an efficient and scalable solution for most of the solutions that you build, you will need to split up data into different containers (entities). Trying to store everything into a single container would likely be inefficient and difficult to work with and understand.
+To make an efficient and scalable solution for most of the solutions that you build, you will need to split up data into different containers (tables). Trying to store everything into a single container would likely be inefficient and difficult to work with and understand.
 
 The following example helps illustrate this concept.
 
