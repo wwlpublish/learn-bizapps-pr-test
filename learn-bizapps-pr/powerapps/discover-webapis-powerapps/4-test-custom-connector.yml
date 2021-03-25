@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps.discover-webapis-powerapps.4-test-custom-connector
 title: Test Custom Connector
 metadata:
   title: Test Custom Connector
-  description: You can test a custom connector created from either Azure API Management or Open API document
+  description: Test the custom connector by invoking the web API
   ms.date: 03/05/2021
   author: justinyoo
   ms.author: juyoo

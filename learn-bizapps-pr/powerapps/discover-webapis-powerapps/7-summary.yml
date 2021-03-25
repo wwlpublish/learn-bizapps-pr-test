@@ -4,11 +4,11 @@ title: Summary
 metadata:
   title: Summary
   description: |
-    Summary that how to do with a custom connector:
-    
-    * To create a custom connector either from Azure API Management or Open API document,
-    * To test the custom connector, and
-    * To add the custom connector into Power App and use it.
+    In this module on discovering and using web APIs with Power Apps, you learned:
+
+    * How to create a custom connector from both Azure API Management and an OpenAPI document
+    * How to call a web API from a Power Apps using a custom connector
+
   ms.date: 03/05/2021
   author: justinyoo
   ms.author: juyoo

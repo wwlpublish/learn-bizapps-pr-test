@@ -13,22 +13,28 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned.
   questions: 
-  - content: You can directly export APIs from Azure API Management and create a custom connector from it.
+  - content: What is the **LEAST** relevant while creating a custom connector from Azure API Management?
     choices: 
-    - content: 'True'
-      isCorrect: true
-      explanation: Azure API Management can export APIs to Power Apps by creating a custom connector.
-    - content: 'False'
+    - content: Each API in Azure API Management has the **Export** menu to create a custom connector
       isCorrect: false
       explanation: Azure API Management can export APIs to Power Apps by creating a custom connector.
-  - content: You can import Open API document to create a custom connector in Power Apps.
-    choices: 
-    - content: 'True'
-      isCorrect: true
-      explanation: Power Apps can import APIs from the Open API document.
-    - content: 'False'
+    - content: Azure API Management offers the feature for the direct creation of a custom connector for Power Apps
       isCorrect: false
-      explanation: Power Apps can import APIs from the Open API document.
+      explanation: Azure API Management can export APIs to Power Apps by creating a custom connector.
+    - content: To use the custom connector within Power Apps, you don't need to create a connection for it.
+      isCorrect: true
+      explanation: Connector only defines the API contracts. To use the connector, you should create a connection that includes authentication details.
+  - content: There are several ways to create a custom connector for Power Apps. What is **NOT** the way to create the custom connector?
+    choices: 
+    - content: Export from Azure API Management
+      isCorrect: false
+      explanation: Power Apps can import APIs from the OpenAPI document. Azure API Management can directly export a custom connector.
+    - content: Import an OpenAPI file
+      isCorrect: false
+      explanation: Power Apps can import APIs from the OpenAPI document. Azure API Management can directly export a custom connector.
+    - content: Import a WSDL file
+      isCorrect: true
+      explanation: Power Apps can import APIs from the OpenAPI document. Azure API Management can directly export a custom connector.
   - content: They discuss the differences between connector and connection. What is **NOT** correct?
     choices: 
     - content: A connector has information about what the APIs look like.

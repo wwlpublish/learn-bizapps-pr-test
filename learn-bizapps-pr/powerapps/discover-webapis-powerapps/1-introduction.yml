@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps.discover-webapis-powerapps.1-introduction
 title: Introduction
 metadata:
   title: Introduction
-  description: Maria as a citizen developer looks for chances to use Web APIs for her inventory management app, using Power Apps
+  description: Power Apps can communicate with any web API by using a custom connector
   ms.date: 03/05/2021
   author: justinyoo
   ms.author: juyoo

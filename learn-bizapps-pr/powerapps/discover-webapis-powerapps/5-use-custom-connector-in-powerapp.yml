@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps.discover-webapis-powerapps.5-use-custom-connector-i
 title: Use Custom Connector in Power App
 metadata:
   title: Use Custom Connector in Power App
-  description: You can add a custom connector and call APIs through the connector within Power App
+  description: Call the web API from a Power App using the custom connector
   ms.date: 03/05/2021
   author: justinyoo
   ms.author: juyoo
