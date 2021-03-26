@@ -13,7 +13,7 @@ Here are some common areas of failure in a project:
 - Not having buy in from senior management
 - Not being able to have a complete enterprise vision
 
-<sup>^</sup> This list is not exhaustive and many other things can can cause project failure.
+This list is not exhaustive and many other things can can cause project failure.
 
 ## Recipes for success
 
@@ -26,7 +26,7 @@ Good projects have the following characteristics:
 - Performing Project checkpoints – How are we doing?
 - Having retrospectives and evaluating lessons learned - How did we do?
 
-<sup>^</sup> This list is not exhaustive and many more things that go into making a project successful.
+This list is not exhaustive and many more things that go into making a project successful.
 
 ## Project checkpoints
 
@@ -34,7 +34,7 @@ The solution architect should insist on a way to measure how things are going on
 
 For example, the solution architect can use simple Red, Yellow, Green coding.
 
-![Screenshot of project health.](../media/4-project-health.png)
+![Screenshot of project health checklist scorecard.](../media/4-project-health.png)
 
 This screenshot highlights the Red, Yellow, Green concept.  It provides a quick glance visual health of the project and what shape the areas are in. Good teams raise issues early, mitigate the issue, and escalate to red without last-minute surprises.
 

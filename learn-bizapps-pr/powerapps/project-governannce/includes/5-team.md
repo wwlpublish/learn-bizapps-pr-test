@@ -8,7 +8,7 @@ The solution architect is visible in the project to other team members and will 
 
 The solution architect may further be responsible for increasing the skills and experience of project team members, mentoring them, and encouraging them to take more responsibility and gain new skills.
 
-## Assessing the teams' skills
+## Assessing the teams skills
 
 A solution architect establishes the breakdown that will be used for the functional and technical design. As a solution architect it is not often that you get to choose your team and not everyone on a team can be a rock star performer.
 
@@ -41,7 +41,7 @@ The solution architect should define standards so that there is consistency for:
 - Security: When to use roles, column security, hierarchical security etc.
 - Development: for example early vs late bound, error handling etc.
 
-The solution architect should make use of Microsoft documentation such as [model-driven apps best practices](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/, https://docs.microsoft.com/powerapps/developer/data-platform/appendix-app-design-best-practices-checklist/?azure-portal=true) and [developer best practices](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/best-practices-sdk).
+The solution architect should make use of Microsoft documentation such as [model-driven apps best practices](https://docs.microsoft.com/powerapps/developer/model-driven-apps/best-practices/?azure-portal=true), [app design best practices](https://docs.microsoft.com/powerapps/developer/data-platform/appendix-app-design-best-practices-checklist/?azure-portal=true) and [developer best practices](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/best-practices-sdk/?azure-portal=true).
 
 ## Working environments
 
