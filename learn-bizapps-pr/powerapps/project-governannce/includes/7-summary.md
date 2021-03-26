@@ -1,5 +1,3 @@
-# Summary
-
 Building business solutions using the Power Platform is a team effort requiring coordination and planning to succeed. Solution architects are often the glue that holds a project team together.
 
 In this module, you looked at the role of the solution architect in relation to project governance, including:

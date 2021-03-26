@@ -1,5 +1,3 @@
-# Techniques for keeping a project on track
-
 The solution architect should ensure that the project is always moving forwards towards the project's goals. The solution architect should establish good practices that ensure the customer and team members know where the project is and are aware of any issues that affect the project's progress.
 
 ## Recipes for failure
@@ -38,7 +36,7 @@ For example, the solution architect can use simple Red, Yellow, Green coding.
 
 ![Screenshot of project health.](../media/4-project-health.png)
 
-This screenshot highlights the Red, Yellow, Green concept.  It provides a quick glance visual health of the project and what shape the areas are in. Good teams raise issues early, mitigate the issue, and escalate to red without last minute surprises.
+This screenshot highlights the Red, Yellow, Green concept.  It provides a quick glance visual health of the project and what shape the areas are in. Good teams raise issues early, mitigate the issue, and escalate to red without last-minute surprises.
 
 This exact method doesn’t have to be used, but the solution architect should agree on a simple health check process.
 
@@ -46,8 +44,8 @@ This exact method doesn’t have to be used, but the solution architect should a
 
 The solution architect should evaluate how the project performed at regular points in the project. There is little point waiting to the end of the project to review how the project went as that does not allow the team members to put things right. It is important to gain an understanding of how does the customer think you did so you can address any concerns the customer might have.
 
-The solution architect should establish checkpoints to look back at progress. Before the checkpoint, rhe solution architect should gather feedback from inside and outside the project team.
+The solution architect should establish checkpoints to look back at progress. Before the checkpoint, the solution architect should gather feedback from inside and outside the project team.
 
-During the checkpoint meeting,the solution architect should push for no fault discussions. The aim is to turn failures into goals for the next checkpoint review.
+During the checkpoint meeting, the solution architect should push for no fault discussions. The aim is to turn failures into goals for the next checkpoint review.
 
 Let us now look further at how the solution architect works as part of a team.

@@ -5,7 +5,7 @@ metadata:
  title: Check your knowledge
  description: Answer the following questions to see what you've learned.
  ms.date: 04/01/2021
- author: JulianSharp
+ author: DaveBeasley
  ms.author: dbeasley
  ms.topic: interactive-tutorial
  ms.prod: learning-power-platform-solution-architect
@@ -48,7 +48,7 @@ quiz:
       explanation: While certifications are useful in demonstrating a basic competence in a role or technology, they do not show team members' strengths and weaknesses that the solution architect needs in able to allocate tasks appropriately.
     - content: Review the resumes of each team member.
       isCorrect: false
-      explanation: A solution architect does not need a resume, the solution architect needs to learn each team members' strengths and weaknesses to decide how to allocate work. A resume does not provide this information.
+      explanation: A solution architect does not need a resume, the solution architect needs to learn each team members strengths and weaknesses to decide how to allocate work. A resume does not provide this information.
     - content: Ask team members to complete a test of questions about customizing the Power Platform.
       isCorrect: false    
       explanation: A test simply confirms a team member's knowledge. It would be better for the solution architect to ask the questions  to trigger a discussion that allows the team member to demonstrate their knowledge.
