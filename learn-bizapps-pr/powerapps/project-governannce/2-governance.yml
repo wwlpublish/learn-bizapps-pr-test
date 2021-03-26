@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.project-governance.2-governance
+title: Project governance
+metadata:
+  title: Project governance
+  description: What do we mean by governance in a project
+  ms.date: 04/01/2021
+  author: JulianSharp
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 5
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/2-governance.md)]
