@@ -13,7 +13,7 @@ Double-click the variable, in this case, **Account**.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the input output variables selector with Account highlighted.](../media/15-set-variable-2.png)](../media/15-set-variable-2.png#lightbox)
 
-Select **Save** to close the dialogue box and complete your variable setup. After setting the remaining variables, your steps will look like the below.
+Select **Save** to close the dialog box and complete your variable setup. After setting the remaining variables, your steps will look like the below.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the steps with three that populate a text box with a variable.](../media/16-set-variable-3.png)](../media/16-set-variable-3.png#lightbox)

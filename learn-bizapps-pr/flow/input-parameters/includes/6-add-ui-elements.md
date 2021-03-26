@@ -3,7 +3,7 @@ The input variables already had associated steps, but it is difficult to define 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power Automate Desktop showing how to drag an action to a step.](../media/17-drag-step.png)](../media/17-drag-step.png#lightbox)
 
-In the subsequent dialogue box, click the **down arrow** to expand options and select **Add a new UI element**.
+In the subsequent dialog box, click the **down arrow** to expand options and select **Add a new UI element**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Get details of a U I element in window dialog with the U I element expanded and the Add a new U I element button highlighted.](../media/18-expand-options.png)](../media/18-expand-options.png#lightbox)
@@ -18,7 +18,7 @@ Once you see the selected element display in the tracking session, click **Done*
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Tracking session window with the Done button highlighted.](../media/20-done-ui-element.png)](../media/20-done-ui-element.png#lightbox)
 
-The tracking session will disappear, leaving the Power Automate Designer and the edit dialogue box for Get details of a UI element in window. Click **Save**.
+The tracking session will disappear, leaving the Power Automate Designer and the edit dialog box for Get details of a UI element in window. Click **Save**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Get details of a U I element in window dialog with the Save button highlighted.](../media/21-save-ui-element.png)](../media/21-save-ui-element.png#lightbox)
@@ -32,12 +32,12 @@ Click the stacked paper icon on the right side of your screen. Find the element 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the UI elements dialog with the Stacked Paper icon highlighted.](../media/22-stacked-paper.png)](../media/22-stacked-paper.png#lightbox)
 
-In the subsequent dialogue box, hovering over the text will reveal **ellipses**. Click these and then **Edit selector**.
+In the subsequent dialog box, hovering over the text will reveal **ellipses**. Click these and then **Edit selector**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Selectors of U I element "Text '1030" dialog with the Edit Selector option highlighted.](../media/23-edit-selector.png)](../media/23-edit-selector.png#lightbox)
 
-Click on the element you wish to edit and ensure that the **Name Equal to 1030** (or your text) is not selected. This allows the value to be dynamic instead of static. Select Update and Close the Edit Selector dialogue box.
+Click on the element you wish to edit and ensure that the **Name Equal to 1030** (or your text) is not selected. This allows the value to be dynamic instead of static. Select Update and Close the Edit Selector dialog box.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Selector Builder dialog.](../media/24-selector-builder.png)](../media/24-selector-builder.png#lightbox)

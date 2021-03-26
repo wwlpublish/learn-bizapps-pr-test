@@ -1,4 +1,4 @@
-Creating and running automation systems in Power Automate requires you to have access to make changes to the environments in your tenant, and ensure you have the appropriate licenses and permissions. If you do not already have admin access to a valid tenant, you may want to take a few minutes and start a free trial [here](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3?activetab=pivot%3aoverviewtab&azure-portal=true). In addition, you will need a Power Automate user plan with attended RPA license to complete this module. You can sign up for a free trial [here](https://flow.microsoft.com/pricing/?azure-portal=true) if you don't already have this license.
+Creating and running automation systems in Power Automate requires you to have access to make changes to the environments in your tenant, and ensure you have the appropriate licenses and permissions. If you do not already have admin access to a valid tenant, you may want to take a few minutes and [start a free trial](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3?activetab=pivot%3aoverviewtab&azure-portal=true). In addition, you will need a Power Automate user plan with attended RPA license to complete this module. You can sign up for a free trial [here](https://flow.microsoft.com/pricing/?azure-portal=true) if you don't already have this license.
 
 If you completed the module Build your first Desktop Flow, feel free to skip to the next unit.
 
@@ -11,7 +11,7 @@ If you are using an existing tenant rather than creating a trial for this exerci
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power Platform admin center with the Environments page selected.](../media/1-environments.png)](../media/1-environments.png#lightbox)
 
-Now that you are in your chosen environment, add a database by clicking **Add database**. In the subsequent dialogue box, feel free to specify the requested values, but you can simply keep the defaults and press **Add**. You may be prompted to sign in again before creating your database. Upon doing so, your database should provision appropriately.
+Now that you are in your chosen environment, add a database by clicking **Add database**. In the subsequent dialog box, feel free to specify the requested values, but you can simply keep the defaults and press **Add**. You may be prompted to sign in again before creating your database. Upon doing so, your database should provision appropriately.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Power Platform admin center Add database dialog.](../media/2-database.png)](../media/2-database.png#lightbox)
@@ -28,7 +28,7 @@ If you have already installed Power Automate Desktop, ensure you are running the
 
 ### Power Automate Desktop
 
-Navigate to [Power Automate](https://flow.microsoft.com2-database) and sign in with the account you used to create your environment and database. Once there, click **My Flows**, **Install**, and **Power Automate Desktop**.
+Navigate to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in with the account you used to create your environment and database. Once there, click **My Flows**, **Install**, and **Power Automate Desktop**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power Automate with the Install button expanded and Power Automate Desktop highlighted.](../media/3-install-power-automate-desktop.png)](../media/3-install-power-automate-desktop.png#lightbox)

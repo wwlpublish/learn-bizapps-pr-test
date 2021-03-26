@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.new-input-parameters.4-set-input-variable 
-title: Set input variables
+uid: learn-bizapps.input-parameters.8-summary 
+title: Summary
 metadata: 
-  title: Set input variables
-  description: Learn to edit values for input variables.
+  title: Summary
+  description: Summary of input and output parameters in Power Automate
   ms.date: 03/31/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 1
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/4-set-input-variable.md)] 
+ [!include[](includes/8-summary.md)] 
