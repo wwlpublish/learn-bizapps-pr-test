@@ -1,0 +1,40 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.new-input-parameters.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 03/31/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 2
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following correctly identifies when input and output variables are defined?
+    choices: 
+    - content: Input variables are defined before the flow, while output variables are defined during.
+      isCorrect: true 
+      explanation: Correct! This is one of the main differences between the two.
+    - content: Output variables are defined before the flow, while input variables are defined during.
+      isCorrect: false 
+      explanation: Incorrect, try reversing those two.
+    - content: Both are defined before the flow.
+      isCorrect: false 
+      explanation: Incorrect. One of the main differences between output and input variables is when they are defined.
+    - content: Both are defined during the flow.
+      isCorrect: false 
+      explanation: Incorrect. One of the main differences between output and input variables is when they are defined.
+  - content: Which of the following requests a default value when it is defined?
+    choices: 
+    - content: Input variable.
+      isCorrect: true 
+      explanation: Correct! The default value will be used if no other value is provided for the variable when the flow is run.
+    - content: Output variable.
+      isCorrect: false 
+      explanation: Incorrect. Output variables are defined within the flow, so they do not need a default.
+    - content: UI Element.
+      isCorrect: false 
+      explanation: Incorrect. UI Elements are taken from the desktop application or elsewhere by an action in a desktop flow.

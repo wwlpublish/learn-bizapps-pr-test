@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.new-input-parameters 
+metadata: 
+ title: Input and output parameters in Power Automate
+ description: This module will focus on defining inputs and outputs for desktop flows, allowing your flows to be more comprehensive and useful.
+ ms.date: 03/31/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Input and output parameters in Power Automate
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will focus on defining inputs and outputs for desktop flows, allowing your flows to be more comprehensive and useful. 
+abstract: |  
+    In this module, you will: 
+    - Create a Desktop Flow with predefined inputs
+    -	Record actions performed in the desktop-based Contoso invoicing application using these inputs, and capturing application data for output
+    -	Perform a test run of a new Desktop Flow with a new set of inputs
+prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate. It is also Desktop flow.
+iconUrl: /learn/achievements/new-input-parameters.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+products:  
+- power-platform
+- power-automate 
+units: 
+- learn-bizapps.new-input-parameters.1-introduction 
+- learn-bizapps.new-input-parameters.2-set-up 
+- learn-bizapps.new-input-parameters.3-define-input-variable
+- learn-bizapps.new-input-parameters.4-set-input-variable 
+- learn-bizapps.new-input-parameters.5-define-output-variable 
+- learn-bizapps.new-input-parameters.6-add-ui-elements 
+- learn-bizapps.new-input-parameters.7-check 
+- learn-bizapps.new-input-parameters.8-summary 
+badge: 
+  uid: learn-bizapps.new-input-parameters.badge 
