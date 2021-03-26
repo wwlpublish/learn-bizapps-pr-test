@@ -9,7 +9,7 @@ If you are using an existing tenant rather than creating a trial for this exerci
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the environments list in the Power Platform admin center.](../media/environments.png)](../media/environments.png#lightbox)
 
-Now that you are in your chosen environment, add a database by selecting **Add database**. In the subsequent dialogue box, feel free to specify the requested values, but you can keep the defaults and press **Add**. You may be prompted to sign in again before creating your database. Upon doing so, your database should provision appropriately.
+Now that you are in your chosen environment, add a database by selecting **Add database**. In the subsequent dialog box, feel free to specify the requested values, but you can keep the defaults and press **Add**. You may be prompted to sign in again before creating your database. Upon doing so, your database should provision appropriately.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Add Database feature with details diplayed and Add button.](../media/database.png)](../media/database.png#lightbox)

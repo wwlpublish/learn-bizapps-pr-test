@@ -3,7 +3,7 @@ Navigate to [Power Automate](https://flow.microsoft.com/?azure-portal=true). Ens
 > [!div class="mx-imgBorder"]
 > [![Screenshot of My flow, desktop flows with Create a desktop flow button.](../media/desktop-begin.png)](../media/desktop-begin.png#lightbox)
 
-Select **Launch app** and open Power Automate Desktop from the subsequent dialogue box. The desktop app will open in the designer with a new flew named "Untitled", which you can change later.
+Select **Launch app** and open Power Automate Desktop from the subsequent dialog box. The desktop app will open in the designer with a new flew named "Untitled", which you can change later.
 
 Desktop flows are created to mimic the actions of a user when performing steps in a process. You have to train the flow by adding those actions.
 
@@ -12,7 +12,7 @@ To add actions to your flow, you simply need to select the desired action and dr
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Run application feature under System actions.](../media/run-application.png)](../media/run-application.png#lightbox)
 
-In the following dialogue box, you need to specify the path to the application. You can do so by inputting the location manually but clicking the icon on the right allows you to select it from a file explorer. You can search in the file explorer if you do not know the exact location of your application.
+In the following dialog box, you need to specify the path to the application. You can do so by inputting the location manually but clicking the icon on the right allows you to select it from a file explorer. You can search in the file explorer if you do not know the exact location of your application.
 
 Leave the remaining fields as is and press **Save**.
 
