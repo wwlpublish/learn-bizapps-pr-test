@@ -50,6 +50,6 @@ After launching the app, sign in using the account, which you used to set up you
 
 One of the major benefits of using desktop flows is the ability to perform actions on desktop applications. For the flow you will create, you will use an invoicing application to explore the concepts and actions available to you in desktop flows. After completing the module, you can use what you have learned to run desktop flows on your own applications and automate existing processes.
 
-To download the Contoso Invoice App, go here and select download. After downloading, open the application and familiarize yourself with all the elements.
+Download the Contoso Invoice App, and then open the application and familiarize yourself with all the elements.
 
 Now you're ready to get into the details of Power Automate Desktop!
