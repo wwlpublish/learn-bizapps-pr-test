@@ -59,7 +59,7 @@ In this task you will set up the environment for the lab.
 
 1. Select **Browse Reports**.
 
-1. In the **Open** window, navigate to the **D:\DA100\Labs\configure-data-model-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **D:\DA100\Labs\03-configure-data-model-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
