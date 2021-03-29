@@ -17,9 +17,9 @@ Dynamics 365 applications, such as Dynamics 365 Sales, Service, and Marketing, u
 For most organizations, it's a good idea to use the standard tables and attributes as they were intended. But to meet your business needs, you can extend the functionality of standard tables by creating one or more custom tables to store information that's unique to your organization. 
 
 ## Logic and validation
-Tables within Dataverse can leverage rich server-side logic and validation to ensure data quality. You can also reduce repetitive code in each app that creates and uses data within an table.
+Tables within Dataverse can leverage rich server-side logic and validation to ensure data quality. You can also reduce repetitive code in each app that creates and uses data within a table.
 
-* **Business rules**: Business rules validate data across multiple columns in an table, and provide warning and error messages, regardless of the app that's used to create the data. 
+* **Business rules**: Business rules validate data across multiple columns in a table, and provide warning and error messages, regardless of the app that's used to create the data. 
 * **Business process flows**: Business process flows guide users to ensure they enter data consistently and follow the same steps every time. Business process flows are currently supported only for model-driven apps.
 * **Workflows**: Workflows automate business processes without requiring user interaction. 
 * **Business logic with code**: Business logic supports advanced developer scenarios that extend the application directly through code. 
