@@ -61,7 +61,7 @@ For example, you can define an action to return customers by country with the fo
 
 `https://myapi.myservice.com/customers/{country}`
 
-In this action, *country* will become a parameter that is supplied by the user of the connector. Because these parameters are part of the path, they need to be URL-encoded. By default, path parameters are single URL-encoded. However, in certain scenarios, the underlying API might expect the parameters to be double URL-encoded to resolve potential ambiguities that are introduced by certain characters such as the at sign (@), slash (/), back slash (\), and so on.
+In this action, *country* will become a parameter that is supplied by the user of the connector. Because these parameters are part of the path, they need to be URL-encoded. By default, path parameters are single URL-encoded. However, in certain scenarios, the underlying API might expect the parameters to be double URL-encoded to resolve potential ambiguities that are introduced by certain characters such as the at sign (@), slash (/), back slash (\\), and so on.
 
 To configure double encoding on a path parameter, you would add the following option to the parameter:
 
