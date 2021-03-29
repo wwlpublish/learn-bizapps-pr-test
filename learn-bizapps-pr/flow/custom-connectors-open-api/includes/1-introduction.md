@@ -38,9 +38,9 @@ When the editor is engaged, the OpenAPI definition in YAML Ain't Markup Language
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Swagger editor in use with YAML on the left and an operation list on the right.](../media/editor-engaged.png)](../media/editor-engaged.png#lightbox)
 
-If you aren't familiar with [YAML](https://yaml.org/?azure-portal=true), it's a human-friendly data serialization standard that helps you make changes to it, save it, and have it consumed by the connector runtime.
+If you aren't familiar with [YAML](https://yaml.org/?azure-portal=true), it's a human-friendly data serialization standard that helps you make changes to the YAML content, save it, and have it consumed by the connector runtime.
 
-Most changes that you'll make will have an example to start from. A good place to look is in other connectors that are located in the [Power Platform Connector GitHub repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true). For example, if you want to implement an **x-ms-capability** extension, you could search the repository and see how other connectors have configured it.
+Most changes that you'll make will have an example to start from. A good place to look for changes in YAML is in other connectors that are located in the [Power Platform Connector GitHub repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true). For example, if you want to implement an **x-ms-capability** extension, you could search the repository and see how other connectors have configured it.
 
 When using the editor, it's best to make small, focused changes. The editor checks your syntax as you type and tells you, in real time, if a mistake has been made and where the mistake is located.
 
