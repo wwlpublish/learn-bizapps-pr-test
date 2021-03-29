@@ -18,6 +18,8 @@ Selecting **2015** in the second visual changed the filter context for the DAX m
 
 The definition of the DAX measure has not changed; it's still the original, as shown in the following example:
 
-```Total Sales = sum('Sales OrderDetails'[Total Price])```
+```dax
+Total Sales = sum('Sales OrderDetails'[Total Price])
+```
 
 This scenario is a simple way to explain how context works with DAX. Many other factors affect how DAX formulas are evaluated. Slicers, page filters, and more can affect how a DAX formula is calculated and displayed.

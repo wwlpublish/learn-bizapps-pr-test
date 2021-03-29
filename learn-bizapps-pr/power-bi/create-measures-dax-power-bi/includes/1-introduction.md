@@ -42,7 +42,9 @@ A new DAX formula appears in the formula bar underneath the ribbon at the top.
 
 You can replace the "Column =" default text with the following example text:
 
-```Total Price = 'Sales OrderDetails'[Quantity] * 'Sales OrderDetails'[Unit Price]```
+```dax
+Total Price = 'Sales OrderDetails'[Quantity] * 'Sales OrderDetails'[Unit Price]
+```
 
 The value on the left side of the equal sign is the column name. The text on the right side of the equal sign is the DAX expression. This simple DAX expression takes the quantity value and multiplies it with the unit price value for each individual row. It will produce one value for each record in the table. If you drag the new column from the **Fields** list to the visual, you will see the new values.
 
@@ -65,7 +67,7 @@ Three ways to create a custom column in Power BI are:
 
 You can create a calculated column when you pull the data from the data source. Each data source would have a different technique for completing this action. For instance, if you were pulling data from a relational data source by using a view that was written in the SQL language, it would look like the following example:
 
-```
+```sql
 CREATE VIEW OrdersWithTotalPrice
 AS
 SELECT unitprice, qty, unitprice * qty as TotalPrice 
@@ -123,7 +125,9 @@ Text will now appear in the formula bar underneath the ribbon.
 
 You can replace the "Measure =" text with the following text:
 
-```Total Sales = sum('Sales OrderDetails'[Total Price])```
+```dax
+Total Sales = sum('Sales OrderDetails'[Total Price])
+```
 
 The new measure will now appear in the **Fields** list.
 
