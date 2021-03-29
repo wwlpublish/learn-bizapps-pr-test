@@ -4,7 +4,7 @@ A Power Platform Solution Architect plays a key role on a project. The solution 
 
 The solution architect specifically can make sure that requirements are in scope and nothing is over-promised. The Solution Architect therefore will need to  manage the project's scope and keep the project on track. Keeping a project moving along sounds easy but in practice, requires the solution architect to be proactive in managing the project even when there is a project manager involved.
 
-Most projects fail it due to the technical capabilities of team member's but in failing to manage the scope of the project or in not addressing issues as they arise.
+Most projects fail not due to the technical capabilities of team member's but in failing to manage the scope of the project or in not addressing issues as they arise.
 
 During the project, the solution architect is a key member of a governance team. As scope or requirements change, they are typically involved in review and prevent scope creep from happening. The solution architect may not have a seat at the governance table, but their input will always be there.
 
