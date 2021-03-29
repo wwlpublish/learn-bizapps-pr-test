@@ -232,7 +232,7 @@ In this task, you will create a data source and dataset to retrieve a query resu
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Dataset Properties Import button.](../media/lab-19-ssm.png)](../media/lab-19-ssm.png#lightbox)
 
-1. In the **Import Query** window, navigate to the **D:\DA100\Labs\create-power-bi-paginated-report\Assets** folder, and then select the **SalesOrder.sql** file.
+1. In the **Import Query** window, navigate to the **D:\DA100\Labs\10-create-power-bi-paginated-report\Assets** folder, and then select the **SalesOrder.sql** file.
 
 1. Click **Open**.
 

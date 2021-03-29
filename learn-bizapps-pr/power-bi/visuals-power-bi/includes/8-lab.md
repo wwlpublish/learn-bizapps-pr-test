@@ -224,7 +224,7 @@ In this task, you will design the first report page. When you've completed the d
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the visuals pane with Shared axis set to Month and Column values set to Sales.](../media/lab-18-ssm.png)](../media/lab-18-ssm.png#lightbox)
 
-    By dragging visuals into a visual, they will be added to default wells. For precision, you can drag fields directly into the wells, as you will do next.
+    By dragging fields into a visual, they will be added to default wells. For precision, you can drag fields directly into the wells, as you will do next.
 
 1. From the **Fields** pane, drag the **Sales | Profit Margin** field into the **Line Values** well.
 
