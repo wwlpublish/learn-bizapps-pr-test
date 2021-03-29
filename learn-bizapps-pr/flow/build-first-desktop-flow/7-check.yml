@@ -41,3 +41,14 @@ quiz:
     - content: Pause your recording to perform unrecorded actions.
       isCorrect: false 
       explanation: You can pause your recording, which is recommended over canceling and starting over.
+  - content: Other than recording, how do you add actions to your flow?
+    choices: 
+    - content: By querying a data table you have created with the correct steps.
+      isCorrect: false
+      explanation: This is incorrect. To add actions to your flow, you can record them or select the desired action and drag it to the main canvas.
+    - content: Select the desired action and drag it to the main canvas.
+      isCorrect: true 
+      explanation: That’s right! To add actions to your flow, you simply need to select the desired action and drag it to the main canvas.
+    - content: By setting your action to published.
+      isCorrect: false 
+      explanation: This is incorrect. To add actions to your flow, you simply need to select the desired action and drag it to the main canvas.
