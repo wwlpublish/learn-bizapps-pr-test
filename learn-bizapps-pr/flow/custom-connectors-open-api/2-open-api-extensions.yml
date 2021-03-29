@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.custom-connectors-open-api.2-open-api-extensions 
-title: Utilize OpenAPI extensions
+title: Use OpenAPI extensions
 metadata: 
-  title: Utilize OpenAPI extensions 
-  description: Learn how to utilize OpenAPI extensions. 
+  title: Use OpenAPI extensions 
+  description: Learn how to use OpenAPI extensions. 
   ms.date: 04/15/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

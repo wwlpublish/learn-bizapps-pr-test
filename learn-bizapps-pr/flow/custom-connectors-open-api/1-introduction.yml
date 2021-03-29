@@ -3,7 +3,7 @@ uid: learn-bizapps.custom-connectors-open-api.1-introduction
 title: Introduction
 metadata: 
   title: Introduction 
-  description: Introduction to OpenAPI custom connectors.  
+  description: Introduction to creating Power Automate OpenAPI custom connectors  
   ms.date: 04/15/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

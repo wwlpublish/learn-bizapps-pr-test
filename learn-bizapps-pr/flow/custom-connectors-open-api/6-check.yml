@@ -13,48 +13,48 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: You've implemented a custom connector that uses API Key authentication.  You would like to have it validate the key at connection creation time.  What should you do to implement this? 
+  - content: You've implemented a custom connector that uses API Key authentication. You want to have it validate the key at connection creation time. What should you do to implement this action? 
     choices: 
     - content: Configure an OpenAPI extension x-ms-capabilities with the testConnection property configured. 
       isCorrect: true 
-      explanation: This extension will call the configured operation when a connection is created and report failure for an invalid key. 
-    - content: Use a Policy Template to set the key in the header. 
+      explanation: This extension will call the configured operation when a connection is created and will report failure for an invalid key. 
+    - content: Use a policy template to set the key in the header. 
       isCorrect: false 
       explanation: Creating a policy template won't validate the connection at creation time.
-    - content: Enable test connection feature in the custom connector designer. 
+    - content: Enable the test connection feature in the custom connector designer. 
       isCorrect: false 
       explanation: The connector designer doesn't have this feature.
     - content: Include {KEY} placeholder as the key value and the connection designer will replace it with a valid key when creating a connection.
       isCorrect: false 
       explanation: Connection creation doesn't support placeholders; you need to provide the way for the designer to test the connection instead. 
-  - content: The parameters on one of your custom connector actions vary based on the category parameter value selected.  You would like users to only see parameters that are valid for a specific category.  What should you do to implement this? 
+  - content: The parameters on one of your custom connector actions vary based on the selected category parameter value. You want users to only see parameters that are valid for a specific category. What should you do to implement this specification? 
     choices: 
-    - content: Use a Policy Template. 
+    - content: Use a policy template. 
       isCorrect: false
-      explanation: You can't implement dynamic schema using a policy template.
+      explanation: You can't implement dynamic schema by using a policy template.
     - content: Configure a Dynamic Schema OpenAPI extension. 
       isCorrect: true 
-      explanation: This extension will call the configured operation when a connection is created and report failure for an invalid key. 
+      explanation: This extension will call the configured operation when a connection is created and will report failure for an invalid key. 
     - content: Configure a Dynamic Values OpenAPI extension. 
       isCorrect: false 
-      explanation: Dynamics values extension allows the list of values to be retrieved at run-time, but it doesn't support dynamic schema required in this scenario.
-    - content: Use Swagger editor to enter the list of valid parameters sorted by category as per OpenAPI specifications. 
+      explanation: Dynamics values extension allows the list of values to be retrieved at run-time, but it doesn't support dynamic schema that is required in this scenario.
+    - content: Use Swagger editor to enter the list of valid parameters that are sorted by category according to OpenAPI specifications. 
       isCorrect: false 
       explanation: OpenAPI specifications don't support dynamic schema definitions.
-  - content: You would like to configure Dynamic Values for a parameter on your custom connector action.  What support do you need from the API to allow you to configure this? 
+  - content: You want to configure Dynamic Values for a parameter on your custom connector action. What support do you need from the API to allow you to complete this configuration? 
     choices: 
     - content: API needs to be compliant with OpenAPI specifications.
       isCorrect: false
-      explanation: OpenAPI specifications don't include any definitions for the dynamic values.
+      explanation: OpenAPI specifications don't include definitions for the dynamic values.
     - content: API needs to include an operation that returns the schema for the parameter. 
       isCorrect: false 
       explanation: You need an operation that returns the valid list of values for that parameter, not the schema.
     - content: API needs to include an operation that returns an array of valid values for that parameter. 
       isCorrect: true 
-      explanation: This extension will call the configured operation to get the values to populate the dropdown list that the user selects values from for that parameter. 
-    - content: Nothing, Dynamic values only work with an array of values specified in the OpenAPI definition. 
+      explanation: This extension will call the configured operation to get the values to populate the drop-down list from which the user selects values for that parameter. 
+    - content: Nothing, dynamic values only work with an array of values that are specified in the OpenAPI definition. 
       isCorrect: false 
-      explanation: Dynamic values extension retrieves available values using an API operation instead of a fixed array. 
+      explanation: Dynamic values extension retrieves available values by using an API operation instead of a fixed array. 
   - content: Which of the following is an alternative option to configure an OpenAPI extension if you don’t want to use the Swagger editor? 
     choices: 
     - content: Configure the extension when you build a Power Automate flow. 
@@ -62,7 +62,7 @@ quiz:
       explanation: You can't configure an OpenAPI extension in the Power Automate designer. 
     - content: Use the Power Platform command-line tool and the editor of your choice. 
       isCorrect: true 
-      explanation: This allows you to download the definition make the changes and update the custom connector definition without using the Swagger editor. 
+      explanation: This option allows you to download the definition, make the changes, and update the custom connector definition without using the Swagger editor. 
     - content: Use Solution explorer to configure the extension.
       isCorrect: false 
       explanation: You can't configure an OpenAPI extension in the Solution explorer. 
