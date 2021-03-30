@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.introduction-return-workplace-solution 
+metadata: 
+ title: Introduction to the Return to the Workplace solution
+ description: This module provides an introduction and overview of the Microsoft Return to the Workplace solution. 
+ ms.date: 04/15/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-d365-return-workplace  
+title: Introduction to the Return to the Workplace solution 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module provides an introduction and overview of the Microsoft Return to the Workplace solution. The Return to the Workplace solution provides many different features to plan, coordinate, and manage the safe return to the workplace.  The Return to Workplace solution contains modules for location readiness, location management, employee health and safety management and workplace care management. 
+abstract: |  
+    In this module, you will: 
+    - Describe the main features of the Return to the Workplace solution.
+    - Understand the benefits and use cases of the Return to the Workplace solution components.
+    - Identify the Microsoft technologies supporting the main features.
+    - Describe the high-level functionality of the Return to the Workplace solution.
+    - Be able to launch and navigate the features of the Return to the Workplace solution.
+    - Identify where to find next steps to configure Return to the Workplace solution.
+prerequisites: None 
+iconUrl: /learn/achievements/introduction-return-workplace-solution.svg  
+levels:  
+- beginner   
+roles:  
+- business-user   
+- functional-consultant 
+- maker
+products:  
+- power-platform 
+- power-apps 
+units: 
+- learn-bizapps.introduction-return-workplace-solution.1-introduction 
+- learn-bizapps.introduction-return-workplace-solution.2-features 
+- learn-bizapps.introduction-return-workplace-solution.3-functionality 
+- learn-bizapps.introduction-return-workplace-solution.4-next-steps 
+- learn-bizapps.introduction-return-workplace-solution.5-check 
+- learn-bizapps.introduction-return-workplace-solution.6-summary 
+badge: 
+  uid: learn-bizapps.introduction-return-workplace-solution.badge 
