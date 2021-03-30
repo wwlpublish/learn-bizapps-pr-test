@@ -24,6 +24,9 @@ The solution architect often brings a lot prior knowledge and experience and is 
 
 Making assumptions and generalizations can be risky. A key role of the solution architect is to communicate the information to team members at the right time. Communication should be clear and relevant to each team member. Emails may not be enough and the solution architect should talk regularly with team members to make sure everyone is on the same page. Remember communication is two way and to listen to the team members.
 
+> [!div class="mx-imgBorder"]
+> [![Diagram of a solution architect decision making process.](../media/5-role.png)](../media/5-role.png#lightbox)
+
 ## Breaking down the work
 
 Dividing work to assign to team members is a task undertaken by the solution architect. The solution architect should look for logical divisions of functionality in the application, , Customer Service vs Customer Acquisition. The solution architect should look for horizontal solution features such as document Management or computer telephony integration (CTI).
