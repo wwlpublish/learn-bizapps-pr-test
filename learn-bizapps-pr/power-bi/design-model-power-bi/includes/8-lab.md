@@ -20,7 +20,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 1. [Load data in Power BI Desktop](https://docs.microsoft.com/learn/modules/clean-data-power-bi/8-lab/?azure-portal=true)
 
-1. **Model data in Power BI Desktop, Part 1**
+1. **Model data in Power BI Desktop, Part 1** << You are here. This is the lab for the current module.
 
 1. [Model data in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/design-model-power-bi/9-lab/?azure-portal=true)
 
@@ -37,6 +37,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. [Perform data analysis in Power BI Desktop](https://docs.microsoft.com/learn/modules/ai-visuals-power-bi/5-lab/?azure-portal=true)
 
 1. [Create a Power BI paginated report](https://docs.microsoft.com/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
+
+> [!NOTE]
+> Each lab starts with a PBIX file that has all of the previous lab work completed. If you should lose your work for any reason, you can open the PBIX file that includes the progress up to that point from the folder indicated at the beginning of the next lab.
 
 ## Exercise 1: Create Model Relationships
 
@@ -523,6 +526,9 @@ In this task, you will complete the lab.
 
 1. If prompted to apply queries, click **Apply Later**.
 
-1. If you intend to start the next lab, leave Power BI Desktop open.
+1. If you intend to start the next lab, you can opt to leave Power BI Desktop open.
 
-    You’ll enhance the data model by configuring a many-to-many relationship and row-level security in the **Model data in Power BI Desktop, Part 2** lab.
+    > [!WARNING]
+    > If you leave the lab open, it will time out after one to four hours. Your work in the *current* module's lab will be lost, but each lab after the first one includes a PBIX file with the work from all previous labs completed so that you don't need to start over.
+
+You’ll enhance the data model by configuring a many-to-many relationship and row-level security in the **Model data in Power BI Desktop, Part 2** lab.

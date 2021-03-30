@@ -21,7 +21,7 @@ In this lab, you learn how to:
 
 This lab is one of many in a series of labs that was designed as a complete story from data preparation to publication as reports and dashboards. You can complete the labs in any order. However, if you intend to work through multiple labs, for the first 10 labs, we suggest you do them in the following order:
 
-1. **Prepare data in Power BI Desktop**
+1. **Prepare data in Power BI Desktop** << You are here. This is the lab for the current module.
 
 1. [Load data in Power BI Desktop](https://docs.microsoft.com/learn/modules/clean-data-power-bi/8-lab/?azure-portal=true)
 
@@ -42,6 +42,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. [Perform data analysis in Power BI Desktop](https://docs.microsoft.com/learn/modules/ai-visuals-power-bi/5-lab/?azure-portal=true)
 
 1. [Create a Power BI paginated report](https://docs.microsoft.com/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
+
+> [!NOTE]
+> Each lab starts with a PBIX file that has all of the previous lab work completed. If you should lose your work for any reason, you can open the PBIX file that includes the progress up to that point from the folder indicated at the beginning of the next lab.
 
 ## Exercise 1: Prepare data
 
@@ -365,6 +368,9 @@ In this task, you'll complete the lab.
 
     Applying the queries will load their data to the data model. You’re not ready to do that, as there are many transformations that must be applied first.
 
-1. If you intend to start the next lab, leave Power BI Desktop open.
+1. If you intend to start the next lab, you can opt to leave Power BI Desktop open.
+
+    > [!WARNING]
+    > If you leave the lab open, it will time out after one to four hours. Your work in the *current* module's lab will be lost, but each lab after the first one includes a PBIX file with the work from all previous labs completed so that you don't need to start over.
 
     You’ll apply various transformations to the queries and then apply the queries to load them to the data model in the Load Data in Power BI Desktop lab.

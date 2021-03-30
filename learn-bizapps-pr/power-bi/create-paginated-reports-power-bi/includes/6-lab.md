@@ -45,7 +45,10 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 1. [Perform data analysis in Power BI Desktop](https://docs.microsoft.com/learn/modules/ai-visuals-power-bi/5-lab/?azure-portal=true)
 
-1. **Create a Power BI paginated report**
+1. **Create a Power BI paginated report** << You are here. This is the lab for the current module.
+
+> [!NOTE]
+> Each lab starts with a PBIX file that has all of the previous lab work completed. If you should lose your work for any reason, you can open the PBIX file that includes the progress up to that point from the folder indicated at the beginning of the next lab.
 
 ## Exercise 1: Get started
 

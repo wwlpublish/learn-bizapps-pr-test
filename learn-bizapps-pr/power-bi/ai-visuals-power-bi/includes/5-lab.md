@@ -34,9 +34,12 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 1. [Create a Power BI dashboard](https://docs.microsoft.com/learn/modules/create-dashboards-power-bi/9-lab/?azure-portal=true)
 
-1. **Perform data analysis in Power BI Desktop**
+1. **Perform data analysis in Power BI Desktop** << You are here. This is the lab for the current module.
 
 1. [Create a Power BI paginated report](https://docs.microsoft.com/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
+
+> [!NOTE]
+> Each lab starts with a PBIX file that has all of the previous lab work completed. If you should lose your work for any reason, you can open the PBIX file that includes the progress up to that point from the folder indicated at the beginning of the next lab.
 
 ## Exercise 1: Create the report
 
@@ -445,3 +448,6 @@ In this task, you'll complete the lab.
 1. To publish the file to your workspace, on the **Home** ribbon tab, from inside the **Share** group, click **Publish**.
 
 1. Close Power BI Desktop.
+
+    > [!WARNING]
+    > If you leave the lab open, it will time out after one to four hours. Your work in the *current* module's lab will be lost, but each lab after the first one includes a PBIX file with the work from all previous labs completed so that you don't need to start over.
