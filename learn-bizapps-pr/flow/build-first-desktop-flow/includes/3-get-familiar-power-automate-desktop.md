@@ -1,32 +1,32 @@
-You have now downloaded all the appropriate software and have the necessary licenses to create your first desktop flow, but first, let's get more familiar with the software.
+You have now downloaded the appropriate software and have the necessary licenses to create your first desktop flow. Your next task is to become familiar with the software.
 
-Open up Power Automate Desktop and take a look around. In the upper right corner, you can see which environment you are in. Take a moment to make sure this is the same environment that you created a database for earlier. Under Flows you can see any existing desktop flows you have and edit, start, or delete them. Let's explore what it looks like when you are creating or editing a flow by clicking the **New Flow** button in the top-left corner.
+Open and explore Power Automate Desktop. The upper-right corner indicates which environment you are in. Take a moment to make sure that this is the same environment that you created a database for previously. Under **Flows**, you will see existing desktop flows that you have, and you will be able to edit, start, or delete them. You can explore what creating or editing a flow looks like by selecting the **+ New flow** button in the upper-left corner.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power Automate Desktop page with new flow button.](../media/desktop.png)](../media/desktop.png#lightbox)
+> [![Screenshot of the Power Automate Desktop page with New flow button.](../media/desktop.png)](../media/desktop.png#lightbox)
 
-Name your flow and select **Create**. Don't worry about the name; this is just to familiarize yourself with the app and you will delete this flow shortly.
+Name your flow and then select **Create**. The specifics of the name aren't important; it's temporary and meant to help you become familiar with the app. You will delete this flow shortly.
 
-After you have created your new test flow, you will see the Power Automate Desktop designer. There are several elements to focus on here, so let's go through them.
+After you have created your new test flow, the Power Automate Desktop designer will display. The designer contains several elements for you to focus on:
 
--   A. The toolbar - Contains basic operations for use with actions (Save, Undo, Copy, Debug, and Paste) as well as buttons to start the Desktop/Web Recorders and control the process execution (Start/Pause/Stop).
+-   **The toolbar** (A) - Contains basic operations for use with actions (**Save**, **Undo**, **Copy**, **Debug**, and **Paste**) and buttons to start the desktop/web recorders and control the process implementation (Start/Pause/Stop).
 
--   B. Subflows - Allows you to create subflows under your main flow.
+-   **Subflows** (B) - Allows you to create subflows under your **Main** flow.
 
--   C. Actions pane - Contains all Power Automate Desktop Actions and includes a search bar that helps finding specific actions by matching the action name to the text string.
+-   **Actions pane** (C) - Contains all Power Automate Desktop actions and includes a search bar that helps you find specific actions by matching the action name to the text string.
 
--   D. Workspace - Contains all the actions added to the process so far. Functions are separated into tabs.
+-   **Workspace** (D) - Contains all actions that are added to the process so far. Functions are separated into tabs.
 
--   E. Input/output variables - Contains all the variables you created in the process.
+-   **Input/output variables** (E) - Contains all variables that you created in the process.
 
--   F. Flow variables - List of all variables used in the process.
+-   **Flow variables** (F) - List of all variables that are used in the process.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the designer screen with features highlighted.](../media/designer.png)](../media/designer.png#lightbox)
 
-Save your flow and close the window. You can see your new flow in the list and by clicking the ellipses, you can expand the options for that flow and delete it.
+Save your flow and close the window. You should now see your new flow in the list. Select the ellipsis (**...**) button to expand the options for that flow and then delete it.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the flow options with delete selected.](../media/delete.png)](../media/delete.png#lightbox)
 
-Now that you're familiar with Power Automate Desktop, let's create a flow!
+Now that you're familiar with Power Automate Desktop, you can create a flow.
