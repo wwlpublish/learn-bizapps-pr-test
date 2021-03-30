@@ -36,7 +36,7 @@ Microsoft Power Platform CLI includes the paconn command-line tool that is desig
 
 1. Select the downloaded .exe file to start installation.
 
-1. Select the **Add Python xx to Path** check box, select **Install**, and then wait for the installation to complete.
+1. Select the **Add Python xx to Path** check box, select **Install Now**, and then wait for the installation to complete.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Install Python dialog box.](../media/3-02-install-python.png)](../media/3-02-install-python.png#lightbox)
@@ -74,7 +74,7 @@ In this task, you'll download the connector definition files locally so that you
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the successful sign-in message.](../media/3-05-success.png)](../media/3-05-success.png#lightbox)
 
-1. Return to the command prompt, where you should see a **Login successful** message.
+1. Return to the command prompt, where you should see a login successful message.
 
 1. Run the download command.
 
@@ -189,7 +189,7 @@ In this task, you'll validate the connector and fix some common errors. You'll a
    > [!div class="mx-imgBorder"]
    > [![Screenshot of connector metadata added after the info with a comma at the end of the info section.](../media/3-15-add-metadata.png)](../media/3-15-add-metadata.png#lightbox)
 
-1. Select file and save your changes.
+1. Select **File** and **Save** your changes.
 
 1. Run the validate command one more time.
 
