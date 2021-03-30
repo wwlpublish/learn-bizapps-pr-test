@@ -24,7 +24,7 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 1. [Create DAX calculations in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/create-measures-dax-power-bi/8-lab/?azure-portal=true)
 
-1. **Design a report in Power BI Desktop, part 1**
+1. **Design a report in Power BI Desktop, part 1** << You are here. This is the lab for the current module.
 
 1. [Design a report in Power BI Desktop, part 2](https://docs.microsoft.com/learn/modules/data-driven-story-power-bi/13-lab/?azure-portal=true)
 
@@ -33,6 +33,9 @@ This lab is one of many in a series of labs that was designed as a complete stor
 1. [Perform data analysis in Power BI Desktop](https://docs.microsoft.com/learn/modules/ai-visuals-power-bi/5-lab/?azure-portal=true)
 
 1. [Create a Power BI paginated report](https://docs.microsoft.com/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
+
+> [!NOTE]
+> Each lab starts with a PBIX file that has all of the previous lab work completed. If you should lose your work for any reason, you can open the PBIX file that includes the progress up to that point from the folder indicated at the beginning of the next lab.
 
 ## Exercise 1: Create a report
 
@@ -580,6 +583,11 @@ In this task you'll complete the lab
 
 1. To return to the workspace, select **My workspace** in the upper left corner.
 
-1. Leave the Microsoft Edge browser window open.
+1. If you intend to start the next lab, you can opt to leave the lab and the Microsoft Edge browser window open.
+
+    > [!WARNING]
+    > If you leave the lab open, it will time out after one to four hours. Your work in the *current* module's lab will be lost, but each lab after the first one includes a PBIX file with the work from all previous labs completed so that you don't need to start over.
 
 You will enhance the report design with advanced features in the **Design a report in Power BI Desktop, Part 2** lab.
+
+[!INCLUDE [](../../../includes/power-bi-lab-end.md)]

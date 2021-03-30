@@ -30,13 +30,16 @@ This lab is one of many in a series of labs that was designed as a complete stor
 
 1. [Design a report in Power BI Desktop, part 1](https://docs.microsoft.com/learn/modules/visuals-power-bi/8-lab/?azure-portal=true)
 
-1. **Design a report in Power BI Desktop, part 2**
+1. **Design a report in Power BI Desktop, part 2** << You are here. This is the lab for the current module.
 
 1. [Create a Power BI dashboard](https://docs.microsoft.com/learn/modules/create-dashboards-power-bi/9-lab/?azure-portal=true)
 
 1. [Perform data analysis in Power BI Desktop](https://docs.microsoft.com/learn/modules/ai-visuals-power-bi/5-lab/?azure-portal=true)
 
 1. [Create a Power BI paginated report](https://docs.microsoft.com/learn/modules/create-paginated-reports-power-bi/6-lab/?azure-portal=true)
+
+> [!NOTE]
+> Each lab starts with a PBIX file that has all of the previous lab work completed. If you should lose your work for any reason, you can open the PBIX file that includes the progress up to that point from the folder indicated at the beginning of the next lab.
 
 ## Exercise 1: Configure sync slicers
 
@@ -502,6 +505,11 @@ In this task, you will complete the lab.
 
 1. Save the Power BI Desktop file, and then republish the report to Power BI.
 
-1. Leave Power BI Desktop open.
+1. If you intend to start the next lab, you can opt to leave Power BI Desktop open.
+
+    > [!WARNING]
+    > If you leave the lab open, it will time out after one to four hours. Your work in the *current* module's lab will be lost, but each lab after the first one includes a PBIX file with the work from all previous labs completed so that you don't need to start over.
 
 When you share the report in the **Publish and share Power BI content** lab, the report will enforce row-level security.
+
+[!INCLUDE [](../../../includes/power-bi-lab-end.md)]
