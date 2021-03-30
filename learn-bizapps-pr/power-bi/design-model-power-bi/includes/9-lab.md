@@ -55,7 +55,7 @@ In this task, you will set up the environment for the lab.
 
 1. Select **Browse Reports**.
 
-1. In the Open window, navigate to the **D:\DA100\Labs\configure-data-model-in-power-bi-desktop-advanced\Starter** folder.
+1. In the Open window, navigate to the **D:\DA100\Labs\03-configure-data-model-in-power-bi-desktop-advanced\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
@@ -182,7 +182,7 @@ In this task, you will create a relationship to the **Targets** table
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the widened table visual with Salesperson, Sales, and Target columns.](../media/lab-2-7-ss.png)](../media/lab-2-7-ss.png#lightbox)
 
-    It's now possible to visualize sales and targets. But take care, for two reasons. First, there is no filter on a time period, and so targets also include future target values. Second, targets are not additive, and so the total should not be displayed. They can either disabled by using a visual formatting property or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create DAX calculations in Power BI Desktop, Part 2** lab that’ll return BLANK when more than one salesperson is filtered.
+    It's now possible to visualize sales and targets. But take care, for two reasons. First, there is no filter on a time period, and so targets also include future target values. Second, targets are not additive, and so the total should not be displayed. They can either be disabled by using a visual formatting property or removed by using calculation logic. You’ll follow the second approach by creating a target measure in the **Create DAX calculations in Power BI Desktop, Part 2** lab that’ll return BLANK when more than one salesperson is filtered.
 
 ## Exercise 2: Enforce row-level security
 
