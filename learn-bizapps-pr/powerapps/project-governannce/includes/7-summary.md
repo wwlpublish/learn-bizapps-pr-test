@@ -14,4 +14,4 @@ In this module, you looked at the role of the solution architect in relation to 
 
 The next steps are to look at the architect of the Power Platform to learn the capabilities of the Power Platform and how to use the strengths of the Power Platform to design solutions to business problems.
 
-For more specific Power Platform goverance, see the [Use best practices to secure and govern Power Platform environments](https://docs.microsoft.com/learn/paths/best-practices-environments/?azure-portal=true) Learning Path.
+For more specific Power Platform app goverance, see the [Use best practices to secure and govern Power Platform environments](https://docs.microsoft.com/learn/paths/best-practices-environments/?azure-portal=true) Learning Path.
