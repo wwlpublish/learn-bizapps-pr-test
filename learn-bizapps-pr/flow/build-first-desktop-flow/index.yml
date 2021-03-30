@@ -14,9 +14,9 @@ summary: |
   This module introduces the basics of Power Automate Desktop flows and explains how to build the first flow to help automate a repetitive task. 
 abstract: |  
     In this module, you will: 
-    - Learn about Power Automate Desktop flow.
+    - Learn about Power Automate Desktop flows.
     - Learn how to create a new desktop flow.
-    - Record actions that are performed in the desktop-based Contoso invoicing application.
+    - Record actions that are performed in the desktop-based Contoso Invoicing application.
     - Perform a test run of the new desktop flow.
 prerequisites: Basic understanding of Microsoft Power Automate. Because students will be recording actions that are performed in the lab UI, we recommend that students view lab instructions on a separate device or in a printout. The lab can still be completed while students peruse instructions during UI action recording, but they will have the extra task of cutting the recorded actions of viewing the instructions from the desktop flow. 
 iconUrl: /learn/achievements/build-first-desktop-flow.svg  
