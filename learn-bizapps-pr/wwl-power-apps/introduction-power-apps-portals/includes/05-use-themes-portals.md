@@ -31,7 +31,7 @@ You can set any existing theme in your portal to the default theme.
 
     ![Select theme icon](../media/edit-theme.png)
 
-5.  Select any default theme from the available presets (in this example, we selected Green).
+5.  Select any default theme from the available presets (in this example, we selected Blue).
 
     >[!div class="mx-imgBorder"]
     >![Select a default theme](../media/choose-theme.png)
