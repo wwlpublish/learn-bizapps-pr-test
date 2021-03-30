@@ -28,7 +28,7 @@ Below are some examples of bad news that should not be held back by the solution
 - Data migration has identified 200 new fields and from this data three new undocumented processes have been discovered.
 
 > [!div class="mx-imgBorder"]
->[!Diagram of actional feedback when working on a project.](../media/2-feedback.png)](../media/3-feedback.png#lightbox)
+> [!Diagram of actional feedback when working on a project.](../media/2-feedback.png)](../media/3-feedback.png#lightbox)
 
 The solution architect needs to keep feedback, especially bad news, actionable. There is little point in saying "Something is amiss here"; there is no clear call to action and the recipient is left trying to figure out what the problem is. Instead, the solution architect should make a clear problem statement and provide references and the potential impact on the project.
 
