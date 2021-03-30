@@ -2,7 +2,7 @@
 uid: learn-bizapps.input-parameters 
 metadata: 
  title: Define input and output parameters in Power Automate
- description: This module will focus on defining inputs and outputs for desktop flows, allowing your flows to be more comprehensive and useful.
+ description: This module defines input and output parameters for desktop flows, which will allow your flows to be more comprehensive and useful.
  ms.date: 03/31/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,13 +11,13 @@ metadata:
 title: Define input and output parameters in Power Automate
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module will focus on defining inputs and outputs for desktop flows, allowing your flows to be more comprehensive and useful. 
+  This module defines input and output parameters for desktop flows, which will allow your flows to be more comprehensive and useful. 
 abstract: |  
     In this module, you will: 
-    - Create a Desktop Flow with predefined inputs
-    -	Record actions performed in the desktop-based Contoso invoicing application using these inputs, and capturing application data for output
-    -	Perform a test run of a new Desktop Flow with a new set of inputs
-prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate. It is also Desktop flow.
+    - Create a desktop flow with predefined input parameters.
+    - Record actions that are performed in the desktop-based Contoso Invoicing application by using these inputs and capturing application data for output.
+    - Perform a test run of a new desktop flow with a new set of inputs.
+prerequisites: A basic understanding of Microsoft Power Automate and Power Automate Desktop flows
 iconUrl: /learn/achievements/input-parameters.svg  
 levels:  
 - beginner   
