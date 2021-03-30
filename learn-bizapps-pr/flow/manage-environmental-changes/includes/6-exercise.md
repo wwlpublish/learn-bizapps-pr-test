@@ -3,7 +3,9 @@ Apps and Power Automate PowerShell cmdlets to list all connections
 that are in your tenant. You can use this information to determine which
 users are making connections through different connectors.
 
-> [!NOTE] Running the Install-Module command downloads one or more modules from Microsoft's repository, and installs them on the local computer. This gives you access to more commands to manage your Power Apps tenant that will be used in this exercise. Managing environment-scoped assets requires the person who is administrating these assets to possess environment admin permissions. In regard to managing tenant-scoped assets, the person who is administrating these assets must possess tenant admin permissions.
+> [!NOTE] Running the Install-Module command downloads one or more modules from Microsoft's repository, and installs them on the local computer. This gives you access to more
+>  commands to manage your Power Apps tenant that will be used in this exercise. Managing environment-scoped assets requires the person who is administrating these assets to
+>  possess environment admin permissions. In regard to managing tenant-scoped assets, the person who is administrating these assets must possess tenant admin permissions.
 
 1. Launch **Windows PowerShell** and select **Run as Administrator**.
 
