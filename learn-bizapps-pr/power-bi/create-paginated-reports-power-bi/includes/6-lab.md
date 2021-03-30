@@ -740,3 +740,5 @@ In this task, you will view the report in print layout mode.
 1. Navigate to pages 2 and 3.
 
 In this lab, you won't publish the report. Paginated reports can only be rendered in the Power BI service when they are stored in a workspace on dedicated capacity, and when that capacity has the paginated reports workload enabled. These requirements do not exist for the class.
+
+[!INCLUDE [](../../../includes/power-bi-lab-end.md)]

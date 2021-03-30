@@ -589,3 +589,5 @@ In this task you'll complete the lab
     > If you leave the lab open, it will time out after one to four hours. Your work in the *current* module's lab will be lost, but each lab after the first one includes a PBIX file with the work from all previous labs completed so that you don't need to start over.
 
 You will enhance the report design with advanced features in the **Design a report in Power BI Desktop, Part 2** lab.
+
+[!INCLUDE [](../../../includes/power-bi-lab-end.md)]

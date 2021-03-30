@@ -451,3 +451,5 @@ In this task, you'll complete the lab.
 
     > [!WARNING]
     > If you leave the lab open, it will time out after one to four hours. Your work in the *current* module's lab will be lost, but each lab after the first one includes a PBIX file with the work from all previous labs completed so that you don't need to start over.
+
+[!INCLUDE [](../../../includes/power-bi-lab-end.md)]

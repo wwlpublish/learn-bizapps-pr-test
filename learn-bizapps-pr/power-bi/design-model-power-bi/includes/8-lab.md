@@ -532,3 +532,5 @@ In this task, you will complete the lab.
     > If you leave the lab open, it will time out after one to four hours. Your work in the *current* module's lab will be lost, but each lab after the first one includes a PBIX file with the work from all previous labs completed so that you don't need to start over.
 
 You’ll enhance the data model by configuring a many-to-many relationship and row-level security in the **Model data in Power BI Desktop, Part 2** lab.
+
+[!INCLUDE [](../../../includes/power-bi-lab-end.md)]
