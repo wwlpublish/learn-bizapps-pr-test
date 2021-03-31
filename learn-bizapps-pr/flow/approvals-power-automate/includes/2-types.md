@@ -29,7 +29,7 @@ Below are the two Custom Responses categories side by side. They look the same, 
 Here is a closer look at the advanced settings. It includes adding a link to a description, attachments, and even assigning a requestor who is sending this approval request.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot details of the advanced settings fields.](../media/advanced-settings-createa-pproval.png)](../media/advanced-settings-createa-pproval.png#lightbox)
+> [![Screenshot details of the advanced settings fields.](../media/advanced-settings-create-approval.png)](../media/advanced-settings-create-approval.png#lightbox)
 
 The following are all the metadata files that are available along with it.
 
@@ -133,7 +133,7 @@ The **Assigned to** is where you add the email addresses of the approvers and ca
 Here is a closer look at the advanced settings. It includes adding a link to a description, attachments, and even assigning a requestor who is sending this approval request.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the details of the advanced settings.](../media/advanced-settings-createa-pproval.png)](../media/advanced-settings-createa-pproval.png#lightbox)
+> [![Screenshot of the details of the advanced settings.](../media/advanced-settings-create-approval.png)](../media/advanced-settings-create-approval.png#lightbox)
 
 Approve and Reject are the two out-of-box response options available, with Custom Responses, you can add your own options. The Response options item is where you add your options.
 
