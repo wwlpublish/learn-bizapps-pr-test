@@ -20,7 +20,7 @@ abstract: |
     - Perform a test run of the new desktop flow.
 prerequisites: |
     - Basic understanding of Microsoft Power Automate. 
-    - Recommended - View lab instructions on a seperate device or in a printout. 
+    - Recommended - View lab instructions on a separate device or in a printout. 
 iconUrl: /learn/achievements/build-first-desktop-flow.svg  
 levels:  
 - beginner   
