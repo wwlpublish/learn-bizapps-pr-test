@@ -4,4 +4,4 @@ They both offer you the flexibility to add rich text body and to send attachment
 
 ## Links to related modules for specific topics
 
-- [Microsoft SharePoint Connector in Power Automate](https://docs.microsoft.com/sharepoint/dev/business-apps/power-automate/sharepoint-connector-actions-triggers)
+- [Microsoft SharePoint Connector in Power Automate](https://docs.microsoft.com/sharepoint/dev/business-apps/power-automate/sharepoint-connector-actions-triggers/?azure-portal=true)
