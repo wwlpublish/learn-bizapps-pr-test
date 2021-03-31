@@ -8,4 +8,4 @@ In this module, you will:
 
 - Perform a test run of a new desktop flow with a new set of inputs.
 
-If you do not already have a desktop flow from which you can set inputs and outputs, you might want to refer to this module.
+If you do not already have a desktop flow from which you can set inputs and outputs, you might want to refer to the module on creating your first Power Automate Desktop flow.
