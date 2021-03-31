@@ -8,7 +8,7 @@ metadata:
  ms.author: dbeasley   
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Project Governance 
+title: Power Platform Architecture
 summary: |  
   [!include[](../includes/module-banner.md)] 
   The Solution Architect is responsible for the overall design of the solution. Understanding the architecture of the Power Platform control is imperative when designing solutions based on the Power Platform. This module is concerned with the components and capabilities of the Power Platform and how these control the design of your solutions.
