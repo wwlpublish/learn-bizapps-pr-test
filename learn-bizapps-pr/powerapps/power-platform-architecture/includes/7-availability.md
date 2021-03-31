@@ -10,7 +10,7 @@ When creating a solution, the solution architect should follow these principles:
 
 Microsoft deploys a Power Platform environment within an Azure region. Within a region, services and data are replicated redundantly across the datacenter(s) to increase availability. Each Azure region has a paired region where Power Platform resources are replicated automatically. Microsoft monitors the Power Platform on your behalf as part of the service.
 
-![Diagram of Azure Availability.](../media/7-azure-availability.png)
+![Diagram of Azure availability locations.](../media/7-azure-availability.png)
 
 ## Handling failover
 

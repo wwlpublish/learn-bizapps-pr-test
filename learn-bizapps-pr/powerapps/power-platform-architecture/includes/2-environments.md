@@ -17,7 +17,7 @@ Environments are containers that administrators can use to manage apps, flows, c
 
 ## Tenants
 
-Microsoft 365 uses an Azure Active Directory tenant to control authentication and authorization. You do not need an Azure subscription to access the Azure Active Directory (AAD), the Microsoft 365 subscription permits access to the AAD portal (<https://aad.portal.azure.com>). Adding a user to Microsoft 365, adds the user to AAD. AAD tenants are located in an Azure region, normally the region of the user who created the tenant.
+Microsoft 365 uses an Azure Active Directory tenant to control authentication and authorization. You do not need an Azure subscription to access the Azure Active Directory (AAD), the Microsoft 365 subscription permits access to the [AAD portal](https://aad.portal.azure.com). Adding a user to Microsoft 365, adds the user to AAD. AAD tenants are located in an Azure region, normally the region of the user who created the tenant.
 
 Environments are created within an Azure Active Directory (AAD) tenant. Access to the environment is authenticated by Azure AD.
 
@@ -50,7 +50,7 @@ A solution architect needs to consider how access to these other components is c
 
 The following diagram illustrates how an environment related to other components inside and outside the environment.
 
-![Diagram representing components inside and outside an environment.](../media/2-inside-environment.png)
+![Diagram representing components inside and outside an environment.](../media/3-inside-environment.png)
 
 ## Security layers
 

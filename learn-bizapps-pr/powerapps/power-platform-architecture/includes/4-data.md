@@ -57,7 +57,7 @@ Actions can make it easy for makers to invoke complex custom logic. Consider the
 
 You could create a custom connector for the Learning service with an action called "Register Student for Class" that performs these steps as shown in the following image.
 
-![Diagram of a custom connector.](../media/4-custom-connector.png)
+![Diagram showing a custom connector in Power Platform.](../media/4-custom-connector.png)
 
 Makers without the custom connector would need to know the details of the service, by using a custom connector with an action this promotes good architectural design; loose coupling via a contract where the calling system does not need to know the details since they could change.
 
@@ -142,7 +142,7 @@ The Dataverse Web API provides a development experience that can be used across 
 > [!NOTE]
 > When you are using the Dataverse connectors in Power Automate and Power Apps they are making calls to the OData API.
 
-![Diagram of Microsoft Dataverse Web API.](../media/4-dataverse-api.png)
+![Diagram of Microsoft Dataverse Web API details.](../media/4-dataverse-api.png)
 
 A developer can add custom plug-in logic at the Pre and Post-Operation stages of a transaction to perform validation, calculations, and integrations using the .NET SDK.
 

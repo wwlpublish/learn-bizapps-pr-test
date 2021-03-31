@@ -27,8 +27,8 @@ A solution architect needs to consider the roadmap that Microsoft publishes twic
 
 ## Next steps
 
-If you want to learn more about Power Platform architecture the Power CAT team has produced a series of videos on Power Platform architecture and best practices <https://www.youtube.com/playlist?list=PLi9EhCY4z99W2QOTgbwhFZEjpqc8YZDVH>.
+If you want to learn more about Power Platform architecture the Power CAT team has produced a series of videos on Power Platform architecture and [best practices](https://www.youtube.com/playlist?list=PLi9EhCY4z99W2QOTgbwhFZEjpqc8YZDVH).
 
-To learn more about best practices to secure and govern Power Platform environments see <https://docs.microsoft.com/learn/paths/best-practices-environments/>
+See the [Power Platform best practices](https://docs.microsoft.com/learn/paths/best-practices-environments/) Learning Path.
 
 The next steps are to look at data modeling in Microsoft Dataverse.

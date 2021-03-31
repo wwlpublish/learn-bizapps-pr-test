@@ -14,7 +14,7 @@ The Power Platform is Microsoft’s low-code, rapid business application develop
 
 - Power Virtual Agents: Allows anyone to create chatbots without writing code from within a browser interface.
 
-![Low code tools.](../media/1-components.png)
+![Diagram showing the various low code tools.](../media/1-components.png)
 
 The Power Platform includes many other components that support the Power Platform tools that the solution architect can use:
 
@@ -26,7 +26,7 @@ The Power Platform includes many other components that support the Power Platfor
 
 The diagram below illustrates how the components of the Power Platform are related.
 
-![Screenshot of Power Platform.](../media/1-power-platform.png)
+![Screenshot showing the elements of Power Platform.](../media/1-power-platform.png)
 
 > [!NOTE]
 > This module describes the architecture of the Power Platform. There are other modules that examine the details for Power Apps, Power Automate, Power BI, and Power Virtual Agents.
@@ -41,7 +41,7 @@ Typically solutions that a solution architect designs will make use of many of t
 
 Power Apps allows users to act on data and drive business processes. Power Automate can automate apps and act on behalf of the user in response to metrics and events. Power BI can analyze the data captured by apps. Power Virtual Agents can assist users. Power Automate flows can be called from Power Apps, Power Virtual Agent actions, and Power BI alerts. Power BI dashboards and tiles can be displayed in Power App screens. Power Apps can be embedded in Power BI dashboards.
 
-![Low code tools.](../media/1-low-code-tools.png)
+![Diagram of low code tools for Power Platform.](../media/1-low-code-tools.png)
 
 ## What do we mean by the platform
 

@@ -42,7 +42,7 @@ Each tenant has a base request capacity per tenant that can only be used by thes
 Power Apps and Power Automate capacity add-on allows customers to increase the limits for a given user. Each capacity add-on raises the request limits by an other 10,000 per 24 hours.
 
 > [!NOTE]
-> For more information, see <https://docs.microsoft.com/power-platform/admin/api-request-limits-allocations>
+> For more information, see [API limits](https://docs.microsoft.com/power-platform/admin/api-request-limits-allocations/?azure-portal=true).
 
 ## Service Limits
 
@@ -56,7 +56,7 @@ Microsoft limits the number of concurrent connections per user account, the numb
 > Service protection limits cannot be increased.
 
 > [!NOTE]
-> For more information, see <<https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits> >
+> For more information, see [API limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits/?azure-portal=true).
 
 ## Retry policies and patterns
 
@@ -67,7 +67,7 @@ The Web API returns a 429 error if the limit is reached. The response will inclu
 > [!NOTE]
 > Care should be taken to not make it worse by over retrying.
 
-For more on service protection limits and what to do see <https://docs.microsoft.com/en-us/powerapps/developer/common-data-service/api-limits>
+See [Service protection limits](https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits/?azure-portal=true) for more information.
 
 ## How to minimize API calls
 
