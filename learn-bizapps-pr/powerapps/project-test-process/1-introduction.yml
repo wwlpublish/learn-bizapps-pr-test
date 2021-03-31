@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.project-test-process.1-introduction
+title: Introduction to the testing the Power Platform
+metadata:
+  title: Introduction to testing the Power Platform
+  description: Overview of the testing for the Power Platform
+  ms.date: 04/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 10
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/1-introduction.md)]

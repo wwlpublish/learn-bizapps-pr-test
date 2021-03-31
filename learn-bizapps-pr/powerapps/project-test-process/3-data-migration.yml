@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.project-test-process.3-data-migration
+title: Data migration
+metadata:
+  title: Data migration
+  description: Planning data migration
+  ms.date: 04/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 8
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/3-data-migration.md)]

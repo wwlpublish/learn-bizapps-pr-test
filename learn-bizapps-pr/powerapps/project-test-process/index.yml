@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.project-test-process
+metadata: 
+ title: Testing and Go Live
+ description: The Solution Architect role does not end; the solution must be deployed.
+ ms.date: 04/01/2021
+ author: DaveBeasley  
+ ms.author: dbeasley   
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-platform-solution-architect
+title: Testing and Go Live
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The Solution Architect role does not end; the solution must be deployed.
+abstract: |  
+    In this module, you will: 
+    - Review the Solution Architect’s role with testing and go live
+    - Plan for data migration
+    - Plan for testing
+    - Plan for go live
+prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
+iconUrl: /learn/achievements/project-test-process.svg  
+levels:  
+- advanced
+roles:  
+- solution-architect
+products:    
+- power-apps 
+- power-automate
+- power-platform
+- power-virtual-agents
+- ai-builder
+units: 
+- learn-bizapps.project-test-process.1-introduction
+- learn-bizapps.project-test-process.2-planning
+- learn-bizapps.project-test-process.3-data-migration
+- learn-bizapps.project-test-process.4-go-live
+- learn-bizapps.project-test-process.5-check
+- learn-bizapps.project-test-process.6-summary
+badge: 
+  uid: learn-bizapps.project-test-process.badge
