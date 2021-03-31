@@ -1,7 +1,7 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.architect-analytics.6-dataflows
 title: Dataflows
-metadata: dbeasley
+metadata: 
   title: Dataflows
   description: Use Dataflows to extract, transform, and load data for Power BI
   ms.date: 04/01/2021
