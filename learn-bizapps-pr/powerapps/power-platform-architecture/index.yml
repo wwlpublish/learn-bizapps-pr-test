@@ -15,8 +15,8 @@ summary: |
 abstract: |  
     In this module, you will: 
     - Review the key Power Platform architecture components.
-    - Understand how the platform's design and limits influences solution architectures.
-    - Understand how to communicate with the customer on how the platform meets their needs.
+    - Explore how the platform's design and limits influences solution architectures.
+    - Review how to communicate with the customer on how the platform meets their needs.
 prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
 iconUrl: /learn/achievements/power-platform-architecture.svg  
 levels:  
