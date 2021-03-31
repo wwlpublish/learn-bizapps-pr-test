@@ -167,6 +167,6 @@ Non-authenticated users such as contractors, vendors, and other suppliers still 
 
 As you can see in the video below, the screens walk the user quickly through the process and make the passes easily retrievable to present at the time of entry.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWABEt/]
 
 To learn more about customizing the portal, you can review this [learning path](https://docs.microsoft.com/learn/paths/get-started-power-apps-portals/?azure-portal=true).
