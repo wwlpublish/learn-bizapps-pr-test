@@ -36,7 +36,7 @@ When you use apps in Power Apps Mobile, you get the most out of your device's ca
 ## Power Platform admin center
 The Power Platform admin center is the centralized place for managing Power Apps for an organization. On this site, you can define and manage different environments to house the apps. For example, you might have separate environments for development and production apps. Additionally, you can define data connections and manage environment roles and data policies. 
 
-For a more information, see [Best practices](https://docs.microsoft.com/learn/paths/best-practices-environments/) Learning Path.
+For more information, see [Best practices](https://docs.microsoft.com/learn/paths/best-practices-environments/) Learning Path.
 
 ![Screenshot of Power Platform admin center.](../media/update-5.png)
 
