@@ -1,0 +1,8 @@
+In this module, we have covered how Dataverse for Teams is defined as a product, how to provision a Dataverse for Teams environment, how to create our first Table within the environment, and how to manage permissions on the table. We have only scratched the surface of Dataverse for Teams, but hopefully, you are feeling excited by the possibilities that this new low/no-code platform provides users who want to create customized solutions to their business problems. In the next modules, we will dive deeper into the platform, and explore building a Power App within the new environment we created, as well as how we can connect Chatbots, Power BI reports, and Power Automate Flows to create a robust solution capable of changing the way your users interact with their data.
+
+## Links to related modules for specific topics
+
+| Topic                                                           | Link                                                                                                                      |
+|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------|
+| Additional information on the data types available in Dataverse | https://docs.microsoft.com/powerapps/maker/data-platform/types-of-fields                                            |
+| How to create Teams and channels                                | https://docs.microsoft.com/microsoftteams/get-started-with-teams-create-your-first-teams-and-channels#create-a-team |
