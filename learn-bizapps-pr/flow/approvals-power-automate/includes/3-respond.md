@@ -38,7 +38,7 @@ In addition, you can log into <https://flow.microsoft.com>, select the **Actions
 
 The same can be done using the Power Automate app in your smartphone.
 
-In the app select **Activity**, which is available in the bottom menu, then select **Approvals, which are available on the top menu. There you will see any pending approvals, which you can complete using the options available.
+In the app select **Activity**, which is available in the bottom menu, then select **Approvals**, which are available on the top menu. There you will see any pending approvals, which you can complete using the options available.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the app with Activity feature and list of approvals.](../media/respond-smart-device.png)](../media/respond-smart-device.png#lightbox)
