@@ -22,7 +22,7 @@ If you are using a trial environment, consider setting up a profile in your brow
 
 ## Software installation
 
-The following exercises will require various software to be installed on your computer. The following steps will guide you through the download and installation of Power Automate Desktop, the required extensions, and the Contoso Invoice app.
+The following exercises will require various software to be installed on your computer. The following steps will guide you through the download and installation of Power Automate Desktop, the required extensions, and the Contoso Invoicing app.
 
 If you have already installed Power Automate Desktop, ensure that you are running the latest available version.
 
@@ -48,10 +48,10 @@ When the installation is complete, select the link of your preferred browser and
 
 After launching the app, sign in by using the account that you used to set up your environment and database.
 
-## Contoso Invoice app
+## Contoso Invoicing app
 
 One major benefit of using desktop flows is the ability to perform actions on desktop applications. For the flow that you will create, you will use an invoicing application to explore the concepts and actions that are available to you in desktop flows. After completing the module, you can use what you have learned to run desktop flows on your own applications and automate existing processes.
 
-Download the Contoso Invoice app, and then open the application and explore the elements.
+Download the Contoso Invoicing app, and then open the application and explore the elements.
 
 If you don't have a desktop app that is created to define inputs and outputs, do so now by following this module or on your own.
