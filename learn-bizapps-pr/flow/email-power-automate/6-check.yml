@@ -1,0 +1,85 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.email-power-automate.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/30/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which types of mail connectors were described in this module?
+    choices: 
+    - content: 1 - Microsoft Outlook.
+      isCorrect: false 
+      explanation: Two mail connectors were described in this module, Microsoft Outlook and Mail.
+    - content: 1 - Mail.
+      isCorrect: false 
+      explanation: Two mail connectors were described in this module, Microsoft Outlook and Mail.
+    - content: 3 - Mail, Microsoft Outlook, and SharePoint.
+      isCorrect: false 
+      explanation: Two mail connectors were described in this module, Microsoft Outlook and Mail.
+    - content: 2- Mail and Microsoft Outlook.
+      isCorrect: true 
+      explanation: Two mail connectors were described in this module, Microsoft Outlook and Mail.
+  - content: What are the connector types for Mail and Microsoft Outlook?
+    choices: 
+    - content: Mail is Standard and Microsoft Outlook is Premier.
+      isCorrect: false 
+      explanation: Both Mail and Microsoft Outlook are Standard connectors.
+    - content: Mail and Outlook are Standard.
+      isCorrect: true 
+      explanation: Both Mail and Microsoft Outlook are Standard connectors.
+    - content: Mail is Premier and Microsoft Outlook is Standard.
+      isCorrect: false 
+      explanation: Both Mail and Microsoft Outlook are Standard connectors.
+    - content: Both Mail and Microsoft Outlook are Premier.
+      isCorrect: false 
+      explanation: Both Mail and Microsoft Outlook are Standard connectors.
+  - content: What is the main difference between Microsoft Outlook and Mail connector?
+    choices: 
+    - content: Microsoft Outlook doesn't have triggers while Mail does.
+      isCorrect: false 
+      explanation: The Microsoft Outlook connector comes with several triggers for the Power Automate flow. Mail doesn't have any triggers and only one action.
+    - content: No difference, they're both exactly the same.
+      isCorrect: false 
+      explanation: The Microsoft Outlook connector comes with several triggers for the Power Automate flow. Mail doesn't have any triggers and only one action.
+    - content: Microsoft Outlook connector has triggers while Mail doesn't.
+      isCorrect: true 
+      explanation: The Microsoft Outlook connector comes with several triggers for the Power Automate flow. Mail doesn't have any triggers and only one action.
+    - content: User interface, flow condition, and internet connection.
+      isCorrect: false 
+      explanation: The Microsoft Outlook connector comes with several triggers for the Power Automate flow. Mail doesn't have any triggers and only one action.
+  - content: How did you capture the file size of the document that is uploaded to a SharePoint document library?
+    choices: 
+    - content: SharePoint automatically identifies the file size and makes it available.
+      isCorrect: true 
+      explanation: When a file is uploaded to SharePoint, its file size is automatically identified and made available. The column name is called File Size, which is hidden by default. You need to go to advanced settings and select it.
+    - content: You must manually type it in.
+      isCorrect: false 
+      explanation: When a file is uploaded to SharePoint, its file size is automatically identified and made available. The column name is called File Size, which is hidden by default. You need to go to advanced settings and select it.
+    - content: An additional flow step is needed.
+      isCorrect: false 
+      explanation: When a file is uploaded to SharePoint, its file size is automatically identified and made available. The column name is called File Size, which is hidden by default. You need to go to advanced settings and select it.
+    - content: The Outlook trigger provides this information.
+      isCorrect: false 
+      explanation: When a file is uploaded to SharePoint, its file size is automatically identified and made available. The column name is called File Size, which is hidden by default. You need to go to advanced settings and select it.
+  - content: How many attachments from an incoming email can be saved?
+    choices: 
+    - content: Only 1.
+      isCorrect: false 
+      explanation: All of the attachments are saved in the document library. Power Automate flow uses the Apply to each action to capture all of the attachments.
+    - content: Five or less.
+      isCorrect: false 
+      explanation: All of the attachments are saved in the document library. Power Automate flow uses the Apply to each action to capture all of the attachments.
+    - content: Depends on to how many were attached to the email.
+      isCorrect: false 
+      explanation: All of the attachments are saved in the document library. Power Automate flow uses the Apply to each action to capture all of the attachments.
+    - content: All of them.
+      isCorrect: true 
+      explanation: All of the attachments are saved in the document library. Power Automate flow uses the Apply to each action to capture all of the attachments.
