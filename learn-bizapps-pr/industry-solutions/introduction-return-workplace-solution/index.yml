@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.introduction-return-workplace-solution 
 metadata: 
- title: Introduction to the Return to the Workplace solution
+ title: Get started with the Return to the Workplace solution
  description: This module provides an introduction and overview of the Microsoft Return to the Workplace solution. 
  ms.date: 04/15/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-d365-return-workplace  
-title: Introduction to the Return to the Workplace solution 
+title: Get started with the Return to the Workplace solution
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module provides an introduction and overview of the Microsoft Return to the Workplace solution. The Return to the Workplace solution provides many different features to plan, coordinate, and manage the safe return to the workplace.  The Return to Workplace solution contains modules for location readiness, location management, employee health and safety management and workplace care management. 
