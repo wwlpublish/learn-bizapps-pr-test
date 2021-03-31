@@ -7,12 +7,12 @@ A solution architect needs to ensure that the solution does not exceed the limit
 Requests in the Power Platform consist of various actions that a user makes across various products. At a high level, below is what constitute an API request:
 
 - Power Apps: all API requests to connectors and Microsoft Dataverse.
-- Power Automate: all API requests to connectors, HTTP actions, and built-in actions from initializing variables to a simple compose action. Both succeeded and failed actions count towards these limits. Additionally, retries and additional requests from pagination count as action executions as well. As a basic rule each step in a Power Automate cloud flow is an API request.
+- Power Automate: all API requests to connectors, HTTP actions, and built-in actions from initializing variables to a simple compose action. Both succeeded and failed actions count towards these limits. Additionally, retries and other requests from pagination count as action executions as well. As a basic rule each step in a Power Automate cloud flow is an API request.
 - Dataverse: all create, read, update, and delete (CRUD), assign, and share operations including user-driven and internal system requests required to complete CRUD transactions, as well as special operations like share or assign. These can be from any client or application and using any endpoint. These include, but are not limited to, plug-ins, classic workflows, and custom controls making the earlier-mentioned operations.
 
 ## Entitlement limits
 
-These limits represent the number of API requests users are entitled to make each day. The allocated limit depends on the type of license assigned to each user. API entitlement limits are based on a 24 hour period as shown in the following table.
+These limits represent the number of API requests users are entitled to make each day. The allocated limit depends on the type of license assigned to each user. API entitlement limits are based on a 24-hour period as shown in the following table.
 
 | User license                   | Number of API requests / 24 hours |
 | ------------------------------ | --------------------------------- |
@@ -24,7 +24,7 @@ These limits represent the number of API requests users are entitled to make eac
 | Office 365 license             | 2,000                             |
 | Power Apps per app plan        | 1,000 per app pass                |
 
-If a user has multiple plans assigned from different product lines, the total number of requests allowed would be the sum of requests allocated to each license type. For example, if a user has both a Dynamics 365 Customer Service Enterprise license as well as a Office 365 E3 user license then that user will have a total of 20,000 + 2,000 = 22,000 requests available per 24 hours.
+If a user has multiple plans assigned from different product lines, the total number of requests allowed would be the sum of requests allocated to each license type. For example, if a user has both a Dynamics 365 Customer Service Enterprise license as well as Office 365 E3 user license then that user will have a total of 20,000 + 2,000 = 22,000 requests available per 24 hours.
 
 Dataverse provides the ability to have identities that do not require any user license to interact with the service. There are four types of these users:
 
@@ -39,10 +39,10 @@ Each tenant has a base request capacity per tenant that can only be used by thes
 - If a tenant has at least one Dynamics 365 professional subscription, they will get 50,000 requests per 24 hours.
 - If a tenant has at least one Microsoft Power Apps or Power Automate subscription, they will get 25,000 requests per 24 hours.
 
-Power Apps and Power Automate capacity add-on allows customers to increase the limits for a given user. Each capacity add-on raises the request limits by an additional 10,000 per 24 hours.
+Power Apps and Power Automate capacity add-on allows customers to increase the limits for a given user. Each capacity add-on raises the request limits by an other 10,000 per 24 hours.
 
 > [!NOTE]
-> For further information see <https://docs.microsoft.com/power-platform/admin/api-request-limits-allocations>
+> For more information, see <https://docs.microsoft.com/power-platform/admin/api-request-limits-allocations>
 
 ## Service Limits
 
@@ -56,13 +56,13 @@ Microsoft limits the number of concurrent connections per user account, the numb
 > Service protection limits cannot be increased.
 
 > [!NOTE]
-> For further information see <<https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits> >
+> For more information, see <<https://docs.microsoft.com/powerapps/developer/common-data-service/api-limits> >
 
 ## Retry policies and patterns
 
 Custom logic using the APIs should handle retries. When a service protection API limit error occurs, it will provide a value indicating the duration before any new requests from the user can be processed.
 
-The Web API returns a 429 error if rhe limit is reached. The response will include a Retry-After with number of seconds. With the Organization Service, a TimeSpan value is returned in the OrganizationServiceFault.ErrorDetails collection with the key Retry-After.
+The Web API returns a 429 error if the limit is reached. The response will include a Retry-After with number of seconds. With the Organization Service, a TimeSpan value is returned in the OrganizationServiceFault.ErrorDetails collection with the key Retry-After.
 
 > [!NOTE]
 > Care should be taken to not make it worse by over retrying.

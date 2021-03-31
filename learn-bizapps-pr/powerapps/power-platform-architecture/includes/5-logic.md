@@ -1,4 +1,4 @@
-Microsoft Dataverse provides a number of different ways to perform custom logic.
+Microsoft Dataverse provides many different ways to perform custom logic.
 
 There are several options available for applying custom business logic in Dataverse including:
 
@@ -21,7 +21,7 @@ There are several options available for applying custom business logic in Datave
 
 The solution architect will need to be able to decide which component of the Power platform is used where in the solution. There are no hard or fast rules for this as each of these options have their own pros and cons.
 
-For instance there are the following limitations/:
+For instance, there are the following limitations/:
 
 - You cannot trigger Power Automate flows from calculated or rollup columns.
 - Rollup columns are only recalculated every hour.
@@ -41,7 +41,7 @@ Custom logic can be executed either synchronously or asynchronously. The solutio
 
 When the operations are performed synchronously, the user's screen is blocked until all operations are completed. The operations can modify data before or after it is saved to the database. Synchronous calls add minimal overhead to handling the processing but all operations in a synchronous transaction are limited to a total of 2 minutes. This is a hard limit and cannot be changed. Dataverse Plug-ins and Classic workflows can be performed synchronously. Business rules are performed synchronously if the scope is set to table.
 
-When the operations are performed asynchronously, the user's screen is returned after their data is saved to the database. The operation will be added to a queue and will be performed at a later point in time, this could be within a few seconds, or it could be several minutes or even hours depending on the workload. Asynchronous means that users will have to refresh their screen to see the results. There is an additional overhead in running asynchronous jobs. THe platform creates rows in the AsyncOperation and WorkflowLog tables. These rows are updated when the operation starts, as it progresses, and after it completes. The rows can be set to be automatically deleted. Dataverse Plug-ins and Classic workflows can be performed asynchronously. Power Automate cloud flows are performed asynchronously.
+When the operations are performed asynchronously, the user's screen is returned after their data is saved to the database. The operation will be added to a queue and will be performed at a later point in time, this could be within a few seconds, or it could be several minutes or even hours depending on the workload. Asynchronous means that users will have to refresh their screen to see the results. There is additional overhead in running asynchronous jobs. The platform creates rows in the AsyncOperation and WorkflowLog tables. These rows are updated when the operation starts, as it progresses, and after it completes. The rows can be set to be automatically deleted. Dataverse Plug-ins and Classic workflows can be performed asynchronously. Power Automate cloud flows are performed asynchronously.
 
 ## Client vs server processing
 
@@ -49,6 +49,6 @@ The solution architect needs to understand where logic is performed.
 
 Canvas app formulas, Model-driven form script, Business rules, and Power Apps Component Framework logic happens in the user interface and the user sees the result immediately. However, this logic is only enforced in the app the logic is implemented in.
 
-Plug-ins, Power Automate cloud flows, classic workflows, and Business rules (with scope set to Table) happens only when the data is sent to the server by an app, flow, or an API call. The user only sees results of service custom logic in their app on refresh of data. Server logic is enforced when any app, flow, or API is used.
+Plug-ins, Power Automate cloud flows, classic workflows, and Business rules (with scope set to Table) happen only when the data is sent to the server by an app, flow, or an API call. The user only sees results of service custom logic in their app on refresh of data. Server logic is enforced when any app, flow, or API is used.
 
 The Power Platform imposes limits on the number of calls that can be made. The solution architect needs to design the solution with these limits in mind.

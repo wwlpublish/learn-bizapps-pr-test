@@ -1,6 +1,6 @@
-Power Platform provide a flexible architecture that can be tailored to support many business scenarios.
+Power Platform provides a flexible architecture that can be tailored to support many business scenarios.
 
-Staying up to date on the platform capabilities is essential to architecting solutions that will best leverage the capabilities
+Staying up to date on the platform capabilities is essential to architecting solutions that will best use the capabilities
 
 In this module, you looked at the Power Platform Architecture, including:
 
@@ -11,8 +11,8 @@ In this module, you looked at the Power Platform Architecture, including:
 
 A solution architect needs to make the most of the Power Platform architecture:
 
-- Power Platform components are designed to work well together.
-- Leverage the platform strengths, don’t focus on the weaknesses.
+- Power Platform components are designed to work together.
+- Use the platform strengths, don’t focus on the weaknesses.
 - Use Microsoft Azure to fill gaps where you exceed the platform's capabilities, instead of pushing the platform beyond its natural capabilities.
 - Avoid using unsupported techniques for customizations.
 

@@ -1,6 +1,6 @@
 Data is at the center of everything a business does today and powers the insights that can drive what it should do tomorrow. To thrive and grow, businesses need to capture, analyze, predict, present, and report data and do it all with a high level of agility.
 
-With the Power Platform you can either:
+With the Power Platform, you can either:
 
 - Access data from the platform using Connectors.
 - Store data in the platform using Microsoft Dataverse.
@@ -13,19 +13,19 @@ Connectors and Dataverse both use REST API and OData to for requests and data.
 
 ## Dataverse vs Connectors
 
-Connectors allow you to take advantage of the Power Platform without moving your data. Power BI, Power Apps, and Power Automate all leverage connectors allowing you to analyze, act and automate across data and services.
+Connectors allow you to take advantage of the Power Platform without moving your data. Power BI, Power Apps, and Power Automate all use connectors allowing you to analyze, act, and automate across data and services.
 
 With connectors:
 
-- Can leverage existing data sources and services.
+- Can use existing data sources and services.
 - Connect to more than 400 systems and services out of the box.
 - Access data stored on-premises systems with the data gateway.
-- Create custom connectors for internal and third party services.
+- Create custom connectors for internal and third-party services.
 
 > [!IMPORTANT]
 > Not all the public connectors support all the actions the underlying service supports, solution architects should investigate that the actions they require are supported otherwise a custom connector is required.
 
-Connectors allow you to build your apps without having to migrate the data which can be time consuming or costly.
+Connectors allow you to build your apps without having to migrate the data, which can be time consuming or costly.
 
 Microsoft Dataverse should be your data source of choice for new data stores, or where you want to make use of Dataverse capabilities that will be described below or you want to use features of the Power Platform such as AI Builder or Portal Apps.
 
@@ -47,19 +47,19 @@ Custom Connectors can be packaged and deployed with solutions.
 
 Actions can make it easy for makers to invoke complex custom logic. Consider the processing to register a student for a class. The processing steps are:
 
-1 Check if student exists
-2 Create student if not exist
-3 Lookup class by course code
-4 Check if class over capacity
-5 Check if student has class pre-requisites
-6 Create class student record
-7 Notify user of results
+1. Check if student exists
+1. Create student if not exist
+1. Lookup class by course code
+1. Check if class over capacity
+1. Check if student has class pre-requisites
+1. Create class student record
+1. Notify user of results
 
 You could create a custom connector for the Learning service with an action called "Register Student for Class" that performs these steps as shown in the following image.
 
 ![Diagram of a custom connector.](../media/4-custom-connector.png)
 
-Makers with out the custom connector would need to know the details of the service, by using a custom connector with an action this promotes good architectural design; loose coupling via a contract where the calling system does not need to know the details since they could change.
+Makers without the custom connector would need to know the details of the service, by using a custom connector with an action this promotes good architectural design; loose coupling via a contract where the calling system does not need to know the details since they could change.
 
 ## Virtual tables
 
@@ -123,7 +123,7 @@ Everything in Microsoft Dataverse is exposed as an API call. All tools and apps 
 
 ![Diagram of Microsoft Dataverse Extensibility.](../media/4-extensibility.png)
 
-Dataverse provides extension capabilities at every horizontal layers. As a solution architect, you need to understand the different types of extensibility paradigms. Dataverse has:
+Dataverse provides extension capabilities at every horizontal layer. As a solution architect, you need to understand the different types of extensibility paradigms. Dataverse has:
 
 - A rich API for integrating with Web Services and OData.
 - No code logic with Business Rules, Calculated columns, Rollup Columns, Business Process Flows and more.
@@ -144,7 +144,7 @@ The Dataverse Web API provides a development experience that can be used across 
 
 ![Diagram of Microsoft Dataverse Web API.](../media/4-dataverse-api.png)
 
-A developer can add custom plug-in logic at the Pre and Post Operation stages of a transaction to perform validation, calculations, and integrations using the .NET SDK.
+A developer can add custom plug-in logic at the Pre and Post-Operation stages of a transaction to perform validation, calculations, and integrations using the .NET SDK.
 
 > [!NOTE]
 > The App API is also exposed to a SOAP endpoint. The SOAP endpoint is deprecated and should not directly be used for new apps.
