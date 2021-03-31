@@ -1,24 +1,26 @@
 ### YamlMime:Module 
 uid: learn-bizapps.build-first-desktop-flow 
 metadata: 
- title: Build Your First Power Automate Desktop flow
- description: Robotic Process Automation with Power Automate allows users to focus on more important tasks by allowing flows to perform and mundane, repetitive tasks which bog down the day to day.
+ title: Build your first Power Automate Desktop flow
+ description: Robotic process automation (RPA) with Microsoft Power Automate allows users to focus on more important tasks by allowing flows to perform and by automating repetitive tasks that impede daily processes.
  ms.date: 04/15/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Build Your First Power Automate Desktop flow
+title: Build your first Power Automate Desktop flow
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module will focus on introducing the basics of Desktop flows and building the first flow to easily automate a repetitive task. 
+  This module introduces the basics of Power Automate Desktop flows and explains how to build the first flow to help automate a repetitive task. 
 abstract: |  
     In this module, you will: 
-    - Become familiar with the Desktop flow.
-    - Learn to create a new Desktop flow.
-    - Record actions performed in the desktop-based Contoso invoicing application.
-    - Perform a test run of the new Desktop flow.
-prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate. As you will be recording actions performed in your UI in this lab, you will have the best experience if you view the lab instructions on a separate device or in a printout. You can still complete the lab while perusing the instructions during UI action recording, but you will have to perform extra work to cut the recorded actions of viewing the instructions from the desktop flow. 
+    - Learn about Power Automate Desktop flows.
+    - Learn how to create a new desktop flow.
+    - Record actions that are performed in the desktop-based Contoso Invoicing application.
+    - Perform a test run of the new desktop flow.
+prerequisites: |
+    - Basic understanding of Microsoft Power Automate. 
+    - Recommended - View lab instructions on a separate device or in a printout. 
 iconUrl: /learn/achievements/build-first-desktop-flow.svg  
 levels:  
 - beginner   
