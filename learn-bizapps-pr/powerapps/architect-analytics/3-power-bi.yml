@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.architect-analytics.3-power-bi
+title: Power BI Overview
+metadata:
+  title: Power BI Overview
+  description: Overview of the capabilities of Power BI
+  ms.date: 04/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 8
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/3-power-bi.md)]
