@@ -6,7 +6,7 @@ Performance testing is to ensure that the application is performing as designed 
 
 Many customers don't include performance testing to save on cost and effort, and run into user adoption problems quickly after the application goes live. The solution architect needs to make the customer aware of the risks of not doing performance testing.
 
-The results of this testing may require the solution architect to help plan the remediation steps as well as guide them through submitting support requests. Performance testing needs to be completed enough in advance of the application going live to remediate any issues surfaced in performance testing.
+The results of this testing may require the solution architect to help plan the remediation steps and guide them through submitting support requests. Performance testing needs to be completed enough in advance of the application going live to remediate any issues surfaced in performance testing.
 
 Key questions that the solution architect should address for performance testing:
 
@@ -27,11 +27,11 @@ The solution architect should monitor network traffic for the different office l
 
 ## Deployment planning
 
-The deployment of a solution will go more smoothly with some preliminary planning. The deployment plan consists of a number of activities to ensure successful deployment of the solution: The deployment plan will vary on a case by case basis but a deployment plan can include:
+The deployment of a solution will go more smoothly with some preliminary planning. The deployment plan consists of many activities to ensure successful deployment of the solution: The deployment plan will vary on a case by case basis but a deployment plan can include:
 
 - Environment setup
 - Types of Testing
-- End User Training
+- End-User Training
 - Data Migration
 - Rollout strategy
 - Support during deployment
@@ -50,8 +50,8 @@ The solution architect should:
 
 The solution architect knows the system better than anyone and should perform their own risk assessment for go-live. The solution architect should take a look at the system from top to bottom and consider:
 
-- What could break.
-- What might not work as designed.
+- What could break?
+- What might not work as designed?
 - What if the other system goes down.
-- Do we have the proper deployment sequence.
+- Do we have the proper deployment sequence?
 - Plan for the worst, celebrate later when it doesn’t happen.

@@ -14,4 +14,4 @@ In this module, you looked at the role of the solution architect in relation to 
 
 ## Next steps
 
-The next steps are to look at application lifecyle management in the Power Platform.
+The next steps are to look at application lifecycle management in the Power Platform.

@@ -19,19 +19,19 @@ The solution architect will need to evaluate the impact of fixing an issue prior
 Below are common go-live problems:
 
 - No plan for how to roll back if deploy goes wrong.
-- Incorrect assumptions about end user workstation or network configurations.
-- Not enough real-world testing which can lead to customizations that don’t really meet real users needs or performance issues with real user load.
+- Incorrect assumptions about end-user workstation or network configurations.
+- Not enough real-world testing, which can lead to customizations that don’t really meet real users needs or performance issues with real user load.
 
 The solution architect should push to reduce risk of problems with go-live, for example:
 
-- Look for places to streamline and simplify the plan e.g., pre-deploy mobile apps
+- Look for places to streamline and simplify the plan for example, pre-deploy mobile apps
 - Prioritize  data migration, so the important data gets in first.
 - Have all users access a dummy production environment so you can workout any access issues before go-live.
 - Can you run the old system and new system in parallel and slowly move groups users?
 
 ## Automate go-live
 
-The solution architect should consider automating go-live activities to reduce effort and risks. By using automation you can script and test go-live activities before go-live. For instance you can consider automating:
+The solution architect should consider automating go-live activities to reduce effort and risks. By using automation, you can script and test go-live activities before go-live. For instance you can consider automating:
 
 - User, team, and business unit creation.
 - Reference data creation and updates.
@@ -44,4 +44,4 @@ Any automation must be well tested.
 
 The solution architect is often the first call with issues arise with go-live and in the post go-live period. The solution architect will need to proactively triage, isolate, and simplify issues. Often, Power Platform tools can be your best friend to fix problems using its built-in features.
 
-Before you make changes, you should think through both the immediate impact as well as long term impact of any mitigation activities you apply.
+Before you make changes, you should think through both the immediate impact and long-term impact of any mitigation activities you apply.

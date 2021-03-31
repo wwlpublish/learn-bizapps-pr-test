@@ -2,18 +2,18 @@ When deploying Power Platform solutions, data is important. Your users cannot he
 
 ## Data migration approaches and tools
 
-There are multiple types of tools and approaches that can be leveraged when migrating data to Microsoft Dataverse. The following list of options is not an exhaustive list, but it includes some of the most common options:
+There are multiple types of tools and approaches that can be used when migrating data to Microsoft Dataverse. The following list of options is not an exhaustive list, but it includes some of the most common options:
 
 - Get data from Excel: In the Maker Portal, you can click Get data when viewing a table and import data from an Excel or .csv file.
 - Legacy data import utility: You can import data to tables from csv, xls, xml, and zip files.
-- Power Platform Dataflows: In the Maker portal,you can select Dataflows from under the Data menu, and configure an import from a variety of cloud data sources.Data from these sources can be transformed prior to import using Power Query.
+- Power Platform Dataflows: In the Maker portal, you can select Dataflows from under the Data menu, and configure an import from various cloud data sources. Data from these sources can be transformed prior to import using Power Query.
 - Extract, transform, and load (ETL) software such as Azure Data Factory. Azure Data Factory has a connector for Microsoft Dataverse.
 - Third-party tools such as Kingswaysoft.
 - Custom applications developed using the API.
 
 ## When to perform data migration
 
-Data migration must be performed at a number of points in the project:
+Data migration must be performed at many points in the project:
 
 - Developers and functional consultants will require data when building apps.
 - Users will require data for User Acceptance Testing.

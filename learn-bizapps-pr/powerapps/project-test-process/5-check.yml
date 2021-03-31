@@ -17,11 +17,11 @@ quiz:
     choices: 
     - content: To ensure the system works as expected.
       isCorrect: true
-      explanation: User acceptance testing is performed by end users to ensure the system works as expected in day-to-day activities. UAT is critical to ensure go-live sign-off and acceptance of the new system.
+      explanation: User acceptance testing is performed by end users to ensure the system works as expected in day-to-day activities. UAT is critical to ensure go-live sign-out and acceptance of the new system.
     - content: To ensure the system performs to the SLA.
       isCorrect: false
       explanation: This is performance testing.
-    - content: To validate existing historical data..
+    - content: To validate existing historical data.
       isCorrect: false
       explanation: This is data validation testing of migrated data.
     - content: To test the system after an update.
@@ -45,13 +45,13 @@ quiz:
     choices: 
     - content: After development is complete.
       isCorrect: false
-      explanation: The deployment plan should not be left until development is complete, it should ideally be started as early in the project as possible.
+      explanation: The deployment plan should be started as early in the project as possible.
     - content: As soon as possible.
       isCorrect: true
       explanation: The deployment plan should be started as early in the project as possible. The deployment plan is important as it helps guide towards a successful deployment.
     - content: During the go-live review.
       isCorrect: false    
-      explanation: The deployment plan should not be left until go-live is imminent, it should ideally be started as early in the project as possible.
-    - content: At the same time as the statement of work.
+      explanation: The deployment plan should be started as early in the project as possible.
+    - content: At the same time, as the statement of work.
       isCorrect: false
       explanation: The statement of work is before the project has started. The solution components have not been chosen and designed and it is not possible to create the deployment plan without this information.
