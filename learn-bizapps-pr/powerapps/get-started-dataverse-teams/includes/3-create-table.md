@@ -31,7 +31,7 @@ Now that you have provisioned a Dataverse for Teams environment for the Team you
 
     From the visual table editor, you can use any of the following data types. For a complete list of data types available and how they work, see the links in the Summary section at the end of the module.
     
-    |     Data Type      |     Description                                                     |
+    |     Data type      |     Description                                                     |
     |--------------------|---------------------------------------------------------------------|
     |     Text           |     A single line   of text.                                        |
     |     Email          |     Text in email   format, will be clickable for the user.         |
@@ -93,7 +93,7 @@ You probably have some other columns of your own that you'd like to add, so let'
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the data type values available.](../media/data-type.png)](../media/data-type.png#lightbox)
 
-| Data Type            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                         |
+| Data type            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     Text             | Text is like a “Single Line of Text” column that you might see in a SharePoint list, although this data type in Dataverse can hold large strings of text, as well.                                                                                                                                                                                                                                                                            |
 |     Email            | Email would be used if you knew that this column should only hold email addresses – using a data type aligned with the data you’ll be inputting into the field will give you access to intelligent out-of-the-box features that are specific to the type of data you’re working with. Email records, for example, are clickable and will launch Outlook or other mail clients to allow the user a more streamlined way to send an email to someone. |
