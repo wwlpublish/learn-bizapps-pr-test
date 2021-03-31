@@ -1,19 +1,19 @@
-Automating mundane tasks will allow you to increase productivity to spend time on more meaningful tasks. To automate desktop action effectively, you not only need to define the actions, but you also need to define inputs and outputs. Now you know how to better leverage desktop flows by defining and altering the information used in them.
+Automating repetitive tasks will help you increase productivity so that you can spend time on more meaningful tasks. To automate desktop action effectively, you need to define the actions and define inputs and outputs. Now, you know how to optimally use desktop flows by defining and altering the information that is used in them.
 
-Now that you have reviewed this module, you should be able to:
+After having reviewed this module, you should be able to:
 
-- Create a Desktop Flow with predefined inputs
+- Create a desktop flow with predefined inputs.
 
-- Record actions performed in the desktop-based Contoso invoicing application using these inputs, and capturing application data for output
+- Record actions that are performed in the desktop-based Contoso Invoicing application by using these inputs and capturing application data for output.
 
-- Perform a test run of a new Desktop Flow with a new set of inputs
+- Perform a test run of a new desktop flow with a new set of inputs.
 
 ## Key takeaways
 
-Here are the three key takeaways:
+The key takeaways for this module are:
 
 - Input variables allow you to feed information into your desktop flow.
 
 - Output variables allow you to collect information from within your desktop flow to use later.
 
-- Adding UI elements and setting variables create exponential value for your desktop flows.
+- Adding UI elements and setting variables will create exponential value for your desktop flows.
