@@ -18,7 +18,9 @@ abstract: |
     - Learn how to create a new desktop flow.
     - Record actions that are performed in the desktop-based Contoso Invoicing application.
     - Perform a test run of the new desktop flow.
-prerequisites: Basic understanding of Microsoft Power Automate. Because students will be recording actions that are performed in the lab UI, we recommend that students view lab instructions on a separate device or in a printout. The lab can still be completed while students peruse instructions during UI action recording, but they will have the extra task of cutting the recorded actions of viewing the instructions from the desktop flow. 
+prerequisites: |
+    - Basic understanding of Microsoft Power Automate. 
+    - Recommended - View lab instructions on a seperate device or in a printout. 
 iconUrl: /learn/achievements/build-first-desktop-flow.svg  
 levels:  
 - beginner   
