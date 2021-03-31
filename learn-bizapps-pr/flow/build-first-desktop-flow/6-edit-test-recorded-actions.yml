@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.build-first-desktop-flow.6-edit-test-recorded-actions 
+title: Edit and test recorded actions
+metadata: 
+  title: Edit and test recorded actions 
+  description: Learn how to edit and test recorded actions. 
+  ms.date: 03/31/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-edit-test-recorded-actions.md)] 
