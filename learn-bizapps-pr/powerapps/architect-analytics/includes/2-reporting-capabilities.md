@@ -41,7 +41,7 @@ The Export to Excel feature can only include data from Dataverse.
 
 Data can also be edited in Excel Online and saved back into Dataverse to give an immersive editing user experience.
 
-There is a limit for exporting to Excel of 100,00 rows by default. This limit can be increased to 1,000,000 rows with the MaxRecordsForExportToExcel setting.
+There is a limit for exporting to Excel of 100,000 rows by default. This limit can be increased to 1,000,000 rows with the MaxRecordsForExportToExcel setting.
 
 ## Word and Excel templates
 
