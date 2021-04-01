@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.project-governance
 metadata: 
- title: Implement project governance as a solution architect for Power Platform and Dynamics 365
+ title: Implement project governance for Power Platform and Dynamics 365
  description: Learn about project governance as a solution architect.
  ms.date: 04/01/2021
  author: DaveBeasley  
  ms.author: dbeasley
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Implement project governance as a solution architect for Power Platform and Dynamics 365 
+title: Implement project governance for Power Platform and Dynamics 365 
 summary: |  
   [!include[](../includes/module-banner.md)] 
   The solution architect for Microsoft Power Platform has a key role on a project. Typically, the solution architect will implement governance, change processes, and monitor the project progress. This module explains the role of the solution architect in implementing project governance.
