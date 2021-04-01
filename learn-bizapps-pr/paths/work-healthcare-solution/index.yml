@@ -20,8 +20,8 @@ roles:
 - business-user  
 - functional-consultant
 products:
-- power-platform
-- dynamics-365
+- industry-solutions
+- mscloud-healthcare
 modules:
 - learn-bizapps.get-started-healthcare
 - learn-bizapps.deployment-planning-healthcare 

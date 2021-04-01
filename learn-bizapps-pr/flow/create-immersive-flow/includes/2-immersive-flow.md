@@ -4,7 +4,7 @@ that is associated with any business process flow is always stored in one or
 more entities within Dataverse and business process flows.
 
 > [!NOTE]
-> To complete this exercise, you will need access to an account that has permission to create entities and fields in Dataverse and you should have a Power Apps or Dynamics 365 license. Ask your Power Platform administrator for proper permissions or sign in and create a personal Power Apps and Power Automate development environment by using the Power Apps Community Plan (which is free). Sign up by accessing the [Power Apps Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true) page.
+> To complete this exercise, you will need access to an account that has permission to create tables and columns in Dataverse and you should have a Power Apps or Dynamics 365 license. Ask your Power Platform administrator for proper permissions or sign in and create a personal Power Apps and Power Automate development environment by using the Power Apps Community Plan (which is free). Sign up by accessing the [Power Apps Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true) page.
 
 ### Scenario
 
@@ -38,12 +38,12 @@ in to your local instance.
    ![Creating a new business process flow using the + New button.](../media/5-creating-new-business-process-flow-using-new-button.png)
 
 1. Enter **Customer Check In** as the **Flow name**, select **None (Immersive Business Process)**
-under the entity drop-down list, and then select the **Create** button, as shown in the following screenshot. Wait a minute for the entity to be created, and then the **Business process flow** editor will launch.
+under the table drop-down list, and then select the **Create** button, as shown in the following screenshot. Wait a minute for the table to be created, and then the **Business process flow** editor will launch.
 
-   ![Screenshot of Build a business process flow with Flow name, Choose an entity (None Immersive Business Process), and the Create button highlighted.](../media/6-naming-new-business-process-flow.png)
+   ![Screenshot of Build a business process flow with Flow name, Choose an table (None Immersive Business Process), and the Create button highlighted.](../media/6-naming-new-business-process-flow.png)
 
-1. In the **Business process flow** editor, add fields to the
-new entity (customercheckin) that was automatically created in the previous step.
+1. In the **Business process flow** editor, add columns to the
+new table (customercheckin) that was automatically created in the previous step.
 Select **Customer Check In New Stage**, as shown in the following figure.
 
    ![Selecting Stage One in the Business process flow Editor.](../media/7-selecting-stage-one-business-process-flow-editor.png)
@@ -54,7 +54,7 @@ in the following screenshot.
 
    ![Naming Stage One in the Business process flow Editor.](../media/8-naming-stage-one-business-process-flow-editor.png)
 
-   Next, you will add fields to the new **CollectCustomerInfo** entity in Dataverse so you can capture customer information.
+   Next, you will add columns to the new **CollectCustomerInfo** table in Dataverse so you can capture customer information.
 
 1. Select the **Collect Customer Info** stage and then select the **Click to add fields and forms** hyperlink, as shown in the following figure.
 
@@ -65,14 +65,14 @@ in the following screenshot.
    > [!NOTE]
    > If you select **Click to add field and forms** link from Power Automate, you may see the classic UI.
    > To see the modern UI, Open Power Apps in a new window and sign-in. On the left, select **Data** then **Entities**.
-   > Find and select the **Customer Check In entity**. Add the fields as listed in the next step.
+   > Find and select the **Customer Check In table**. Add the columns as listed in the next step.
 
-1. Add fields to the collectcustomerinfo entity by selecting the **Add Field** button, as shown in the following screenshot.
+1. Add fields to the collectcustomerinfo table by selecting the **Add Field** button, as shown in the following screenshot.
   
    ![Screenshot of Power Apps with the Add field button highlighted.](../media/11-selecting-add-field-button.png)
 
-1. Add each of the fields from the following list. Enter the name and data type and
-then select the **Done** button each time you add a new field, as shown in the following screen.
+1. Add each of the columns from the following list. Enter the name and data type and
+then select the **Done** button each time you add a new column, as shown in the following screen.
 
    ![Screenshot of the Entry Date properties with Data type expanded and Date Only highlighted, and with the Display name and Done button highlighted.](../media/12-creating-entry-date-field.png)
 
@@ -83,21 +83,21 @@ then select the **Done** button each time you add a new field, as shown in the f
    - City - Text
    - State - Text
    - Postal Code - Text
-   - Phone Number - Phone Number
+   - Phone Number - Phone
    - Comments - Text Area
 
-1. When you are finished, select the **Save Entity** button to save
-the new fields. Make sure that you select the **Save Entity** button or none
-of the fields will be added.
+1. When you are finished, select the **Save Table** button to save
+the new columns. Make sure that you select the **Save Table** button or none
+of the columns will be added.
 
-   ![Screenshot of Power Apps with the Save Entity button highlighted.](../media/13-select-save-entity-button.png)
+   ![Screenshot of Power Apps with the Save Table button highlighted.](../media/13-select-save-entity-button.png)
 
-1. Close the current tab of the browser that is showing the entity fields, and then
+1. Close the current tab of the browser that is showing the table columns, and then
 return to the business process flow designer screen.
 
-### Add fields as steps and finish the flow
+### Add columns as steps and finish the flow
 
-Now, you will add the fields as Steps in the first Stage in the **Customer Check In** business process flow.
+Now, you will add the columns as Steps in the first Stage in the **Customer Check In** business process flow.
 
 1. Refresh your browser and then select the **Customer Check In** Stage.
 
@@ -132,7 +132,7 @@ Now, you will add the fields as Steps in the first Stage in the **Customer Check
    ![Screenshot of Edit Security Roles with the Data Step #2 settings highlighted.](../media/17-add-last-name-data-step.png)
 
 1. Select the **Components** tab, and then drag additional data steps and add
-fields that were added earlier under Stage One (Entry Date, Address, City, State, and so on).
+columns that were added earlier under Stage One (Entry Date, Address, City, State, and so on).
 
 1. When you are done, Stage 1 should appear as shown in the following figure. If all
 appears correct, select the **Update** button in the ribbon.
@@ -141,9 +141,9 @@ appears correct, select the **Update** button in the ribbon.
 
    > [!NOTE]
    > When the data process flow is used, data will be saved into the
- fields that you created in the customercheckin entity in Dataverse.
+ columns that you created in the customercheckin table in Dataverse.
 
-   Now, you will collect information about the automobile being serviced, so you'll add a new stage and add fields about the automobile to the customercheckin entity.
+   Now, you will collect information about the automobile being serviced, so you'll add a new stage and add columns about the automobile to the customercheckin table.
 
 1. Select the **Components** tab and drag a new stage to the right of
 Stage 1. Make sure to drop the new stage into the plus (**+**) sign. The new stage should
@@ -151,7 +151,7 @@ resemble the following screenshot.
 
    ![Screenshot of Power Apps with Stage highlighted in the Components panel and the new stage to the right of the original.](../media/19-add-new-stage-component.png)
 
-1. Repeat the steps that were covered for Stage 1, and then add the following fields and steps:
+1. Repeat the steps that were covered for Stage 1, and then add the following columns and steps:
 
    - Automobile Make - Text
 
@@ -163,7 +163,7 @@ resemble the following screenshot.
 
    - Automobile Comments - Text Area
 
-1. Make sure to save the entity after you add the new fields.
+1. Make sure to save the table after you add the new columns.
 
 1. When you are done adding the data steps, select the **Update**
 button in the ribbon. Your completed Stage 2 should look like the following screenshot.
