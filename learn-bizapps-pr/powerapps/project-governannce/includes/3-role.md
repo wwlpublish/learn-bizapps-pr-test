@@ -42,7 +42,7 @@ You should ask leading questions such as "Will that cause 1,000,000 Power Automa
 
 If you have concerns about a proposed solution or a change, you need to highlight your concern but encourage the person to think through and resolve the concern.
 
-Reviewing the work of others is a key task for the solution architect. The difference between reviewing what someone has done and doing the work yourself is miniscule. When reviewing the work of others, the solution architect needs to be constructive and provide suggestions on where to look for answers. For example, when it is unclear that a solid design has been proposed, the solution architect might encourage the creation of a proof of concept or other tests to validate the proposed solution.
+Reviewing the work of others is a key task for the solution architect. The difference between reviewing what someone has done and doing the work yourself is minuscule. When reviewing the work of others, the solution architect needs to be constructive and provide suggestions on where to look for answers. For example, when it is unclear that a solid design has been proposed, the solution architect might encourage the creation of a proof of concept or other tests to validate the proposed solution.
 
 Essentially, the role of a solution architect is to constantly talk to the people who are involved in the project to ensure that the vision of the project is achieved. Unsuccessful solution architects hide from the team and spend time updating their architecture designs rather than collaborating with the team and helping them discover solutions.
 
