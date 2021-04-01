@@ -14,17 +14,17 @@ An advantage of building your business apps in Power Apps is being able to conne
 ![Expanded list of available Power Apps data sources.](../media/update-connectors.png)
 
 ## Microsoft Dataverse
-An important data source option to explore further is the Dataverse. Dataverse lets you store and manage data that's used by business applications. Data within Dataverse is stored within a set of entities. An entity is a set of records that are used to store data, similar to how a table stores data within a database. Dataverse includes a base set of standard entities that cover typical scenarios, but you can also create custom entities that are specific to your organization and then populate them with data by using Power Query. App makers can then use Power Apps to build rich applications by using this data.
+An important data source option to explore further is the Dataverse. Dataverse lets you store and manage data that's used by business applications. Data within Dataverse is stored within a set of tables. A table is a set of records that are used to store data, similar to how a table stores data within a database. Dataverse includes a base set of standard tables that cover typical scenarios, but you can also create custom tables that are specific to your organization and then populate them with data by using Power Query. App makers can then use Power Apps to build rich applications by using this data.
 
 ![Diagram of Microsoft Power Platform with Power BI, Power Apps, Power Automate, and Power Virtual Agents.](../media/platform.png)
 
 For information on purchasing a plan to use Dataverse, refer to the [License](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus) and [Pricing](https://powerapps.microsoft.com/pricing/) information pages.
 
 ## Reasons to use Dataverse
-Standard and custom entities within Dataverse provide a cloud-based storage option for your data. Entities let you create a business-focused definition of your organization's data for use within apps. If you're unsure if entities are your best option, consider the following benefits:
+Standard and custom tables within Dataverse provide a cloud-based storage option for your data. Tables let you create a business-focused definition of your organization's data for use within apps. If you're unsure if tables are your best option, consider the following benefits:
 - **Simple to manage** - Both the metadata and data are stored in the cloud. You don't need to worry about the details of how they're stored.
-- **Helps to secure data** - Data is stored so that users can see it only if you grant them access. Role-based security allows you to control access to entities for different users within your organization.
+- **Helps to secure data** - Data is stored so that users can see it only if you grant them access. Role-based security allows you to control access to tables for different users within your organization.
 - **Access your Dynamics 365 Data** - Data from your Dynamics 365 applications is also stored within the Dataverse, which allows you to quickly build apps that use your Dynamics 365 data and extend your apps by using Power Apps.
 - **Rich metadata** - Data types and relationships are used directly within Power Apps.
 - **Logic and validation** - Define calculated fields, business rules, workflows, and business process flows to ensure data quality and drive business processes.
-- **Productivity tools** - Entities are available within the add-ins for Microsoft Excel to increase productivity and ensure data accessibility.
+- **Productivity tools** - Tables are available within the add-ins for Microsoft Excel to increase productivity and ensure data accessibility.
