@@ -2,22 +2,22 @@
 uid: learn-bizapps.powerapps.discover-webapis-powerapps
 title: Discover and Use Web APIs with Power Apps
 summary: |
-  Does your organization has web APIs and you want to include them into your Power Apps? As long as your web APIs are well-defined in an OpenAPI document, citizen developers will be easily able to build a custom connector that interacts Power Apps with web APIs.
+  Does your organization have web APIs and you want to include them into your Power Apps? In this module, you'll learn how you can build custom connectors to interact with web APIs in your Power Apps.
 metadata:
   title: Discover and Use Web APIs with Power Apps
-  description: Build a custom connector using OpenAPI document, to send data to and receive it from web APIs.
-  ms.date: 03/05/2021
+  description: Build a custom connector using an OpenAPI document or Azure API Management to send data to and receive data from web APIs.
+  ms.date: 04/02/2021
   author: justinyoo
   ms.author: juyoo
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 abstract: |
   In this module you will:
-  - Create a custom connector through Azure API Management
-  - Create a custom connector through OpenAPI document
-  - Use a custom connector in Power App
+  - Create a custom connector using Azure API Management
+  - Create a custom connector using an OpenAPI document
+  - Use a custom connector in a Power Apps app to call a web API
 prerequisites: |
-  - Familiarity with the concept of web API (or HTTP API). Custom connectors use web APIs to send and receive data.
+  - Familiarity with the concept of web (HTTP) APIs. Custom connectors use web APIs to send and receive data.
 iconUrl: http://via.placeholder.com/120x120
 ratingEnabled: false
 levels:
@@ -36,7 +36,7 @@ units:
   - learn-bizapps.powerapps.discover-webapis-powerapps.05-create-custom-connector-with-openapi
   - learn-bizapps.powerapps.discover-webapis-powerapps.06-test-and-use-custom-connector
   - learn-bizapps.powerapps.discover-webapis-powerapps.07-test-custom-connector
-  - learn-bizapps.powerapps.discover-webapis-powerapps.08-use-custom-connector-in-powerapp
+  - learn-bizapps.powerapps.discover-webapis-powerapps.08-use-custom-connector-in-powerapps
   - learn-bizapps.powerapps.discover-webapis-powerapps.09-knowledge-check
   - learn-bizapps.powerapps.discover-webapis-powerapps.10-summary
 badge: 

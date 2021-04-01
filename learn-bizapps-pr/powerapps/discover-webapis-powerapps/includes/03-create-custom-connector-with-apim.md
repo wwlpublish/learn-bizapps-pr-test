@@ -1,35 +1,47 @@
-Crystal and her development team have built web APIs for inventory management, which is served through [Azure API Management][az apim]. She wants to create a custom connector by exporting it to Power Apps so that Maria can directly use it on her Power Apps without needing to know about API Management.
+Maria needs to display warehouse locations in her Power Apps app. Crystal and her development team have built several web APIs to support inventory management, one of which returns the warehouse locations.
 
+The web APIs are served through [Azure API Management][az apim], which has the ability to create custom connectors for any web APIs it hosts. With the custom connector, Maria's Power Apps app will be able to call the warehouse location API in Azure API Management.
 
-> QUESTION: Do we provide a pre-built APIM instance here so that learners can visually walk through the process? To avoid dependency on the previous module, what could be the best way to provide context about APIM here?
+<!-- NOTE to REVIEWER - The download link for this module can be found at https://github.com/justinyoo/inventory-management-demo-web-api, which will be transferred to the MicrosoftDocs org. -->
+
+> [!NOTE]
+> Download the artifact file to your local computer to complete this exercise. You may need to [install Azure CLI][az cli install] if you don't have it.
+> 
+> [Download: ASP.NET Core Web API with Azure API Management][artifacts].
+> 
+> 1. Select the download button on the middle-right of the screen.
+> 1. Unzip the `artifacts.zip` file.
+> 1. Login to Azure via Azure CLI.
+> 1. Run either `Setup.ps1` (PowerShell) or `setup.sh` (Bash).
+
 
 ## Export Custom Connector from API Management ##
 
 Here are the inventory management API details hosted by API Management.
 
-In order to access API Management from Power Apps, you should have a subscription key. Go to the `Subscriptions` blade, click the three dots (`...`) and select the `Show/hide keys` menu.
+1. In order to access API Management from Power Apps, you should have a subscription key. Go to the `Subscriptions` blade, click the three dots (`...`) and select the `Show/hide keys` menu.
 
-![Subscription Blade][image-01]
+    ![Subscription Blade][image-01]
 
-Then, copy the subscription key from either `Primary key` or `Secondary key`.
+1. Then, copy the subscription key from either `Primary key` or `Secondary key`.
 
-![Copy Subscription Key][image-02]
+    ![Copy Subscription Key][image-02]
 
-To generate a custom connector from Azure API Management, go to the `APIs` blade and select **Green Leaf Inventory Management** under the `All APIs` section. Then, you will be able to see the list of APIs.
+1. To generate a custom connector from Azure API Management, go to the `APIs` blade and select an appropriate API under the `All APIs` section. In the screenshot, it's **Inventory Management**. Then, you will be able to see the API for the warehouse locations.
 
-![Inventory Management APIs on API Management][image-03]
+    ![Inventory Management APIs on API Management][image-03]
 
-Click the three dots (`...`), and you will see the context menu. Select the `Export ⬇️` menu.
+1. Click the three dots (`...`), and you will see the context menu. Select the `Export ⬇️` menu.
 
-![API Export Menu on API Management][image-04]
+    ![API Export Menu on API Management][image-04]
 
-Click the `Power Apps and Power Automate` panel at the right bottom corner.
+1. Click the `Power Apps and Power Automate` panel at the right bottom corner.
 
-![API Export Screen on API Management][image-05]
+    ![API Export Screen on API Management][image-05]
 
-Choose your Power Apps environment for the custom connector to publish and give the display name, **InventoryManager**. Then click the `Export` button at the bottom.
+1. Choose your Power Apps environment for the custom connector to publish and give the display name, **InventoryManager**. Then click the `Export` button at the bottom.
 
-![Export API to Power Apps][image-06]
+    ![Export API to Power Apps][image-06]
 
 The inventory management APIs have been exported to Power Apps.
 
@@ -86,14 +98,6 @@ Go to the `Connections` menu, and you will see the new connection has been creat
 You have completed creating a custom connector for inventory management.
 
 
-## Key Takeaways ##
-
-After this unit, you are now able to:
-
-* Create a custom connector from Azure API Management by exporting the APIs, and
-* Create a connection of the custom connector by providing authentication details.
-
-
 [image-01]: ../media/03-create-custom-connector-with-apim-01.png
 [image-02]: ../media/03-create-custom-connector-with-apim-02.png
 [image-03]: ../media/03-create-custom-connector-with-apim-03.png
@@ -110,5 +114,7 @@ After this unit, you are now able to:
 [image-14]: ../media/03-create-custom-connector-with-apim-14.png
 
 [az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
-
+[az cli install]: https://docs.microsoft.com/cli/azure/install-azure-cli
 [pa]: https://powerapps.microsoft.com/
+
+[artifacts]: https://github.com/justinyoo/inventory-management-demo-web-api/blob/main/artifacts.zip
