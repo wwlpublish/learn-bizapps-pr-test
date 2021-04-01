@@ -38,3 +38,17 @@ quiz:
     - content: UI element
       isCorrect: false 
       explanation: UI elements are taken from the desktop application or elsewhere by an action in a desktop flow.
+  - content: Which of the following are the options for a data type of an input variable?
+    choices: 
+    - content: Text or sensitive text
+      isCorrect: true 
+      explanation: Correct! You can only choose between sensitive text, which is encrypted, or text.
+    - content: Value, text, or sensitive text
+      isCorrect: false 
+      explanation: Incorrect. You can only choose between sensitive text, which is encrypted, or text.
+    - content: Email, text, or sensitive text
+      isCorrect: false 
+      explanation: Incorrect. You can only choose between sensitive text, which is encrypted, or text.
+    - content: Email, value, text, or sensitive text
+      isCorrect: false
+      explanation: Incorrect. You can only choose between sensitive text, which is encrypted, or text.
