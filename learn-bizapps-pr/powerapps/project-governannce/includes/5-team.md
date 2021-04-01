@@ -40,7 +40,7 @@ The solution architect should define standards to ensure consistency for the fol
 - Naming of components
 - Column data types
 - UI - The options for form layouts, when to use multiple forms, and so on
-- Automation - When to use different automation options such as Power Automate cloud flows versus Classic workflow versus Business rules versus Client script
+- Automation - When to use different automation options such as Power Automate cloud flows, Classic workflow, Business rules, or Client script
 - Security - When to use roles, column security, hierarchical security, and so on
 - Development - For example, define early versus late bound, error handling, and so on
 
