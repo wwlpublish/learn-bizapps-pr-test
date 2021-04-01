@@ -2,7 +2,7 @@
 uid: learn-bizapps.introduction-return-workplace-solution 
 metadata: 
  title: Get started with the Return to the Workplace solution
- description: This module provides an introduction and overview of the Microsoft Power Apps Employee Return to the Workplace solution. 
+ description: This module provides an introduction and overview of the Microsoft Power Apps Return to the Workplace solution. 
  ms.date: 04/15/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,7 +11,7 @@ metadata:
 title: Get started with the Return to the Workplace solution
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The Microsoft Power Apps Employee Return to the Workplace solution provides several features to help you plan, coordinate, and manage the safe return to the workplace. Within the solution are modules for location readiness, location management, employee health and safety management, and workplace care management. 
+  The Microsoft Power Apps Return to the Workplace solution provides several features to help you plan, coordinate, and manage the safe return to the workplace. Within the solution are modules for location readiness, location management, employee health and safety management, and workplace care management. 
 abstract: |  
     In this module, you will: 
     - Learn about the main features of the Return to the Workplace solution.
