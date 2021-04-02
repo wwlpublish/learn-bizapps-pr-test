@@ -38,7 +38,7 @@ Play a sound at any point during the flow with the **Play sound** action. Set th
 
 Permanently delete all contents of the recycle bin using the **Empty recycle bin** action. This action contains no editable properties.
 
-Take a screenshot of the specified screen, all screens, or the foreground window only with the **Take screenshot** action. Save the image file can be saved to the clipboard or to a file. To save the screenshot to a file, specify a path and image format.
+Take a screenshot of the specified screen, all screens, or the foreground window only with the **Take screenshot** action. Copy the image file to the clipboard or save it to a file. To save the screenshot to a file, specify a path and image format.
 
 ![Screenshot of the take screenshot action properties.](..\media\take-screenshot-action-properties.png)
 

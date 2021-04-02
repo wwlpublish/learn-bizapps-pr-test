@@ -40,7 +40,7 @@ Your new three-screen app now opens in Power Apps Studio.
 
 The following figure shows the main development window for Power Apps Studio, which you'll learn more about in later units.
 
-![Power Apps main development window for Power Apps Studio.](../media/powerapps-full-screen2.png)
+![Power Apps main development window for Power Apps Studio.](../media/powerapps-full-screen-2.png)
 
 Select **Play** :::image type="icon" source="../media/powerapps-arrow.png"::: in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 

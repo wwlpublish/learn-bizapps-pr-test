@@ -7,7 +7,7 @@ Tasks in this unit include:
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wRhg]
 
 > [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Access database [here](https://go.microsoft.com/fwlink/?linkid=2120368/?azure-portal=true) and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this [article](https://go.microsoft.com/fwlink/?linkid=2131277/?azure-portal=true).
+> To follow along with the examples in the videos and on this page, download the sample Access database [here](https://go.microsoft.com/fwlink/?linkid=2120368&azure-portal=true) and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this [article](https://go.microsoft.com/fwlink/?linkid=2131277&azure-portal=true).
 
 In the Model view, notice that a block represents each table and the lines between them represent relationships.
 
@@ -36,4 +36,4 @@ Generally, we recommend minimizing the use of bi-directional relationships. They
 
 Setting accurate relationships between your data allows you to create complex calculations across multiple data elements.
 
-For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships/?azure-portal=true) and [Bi-directional relationship guidance](https://docs.microsoft.com/power-bi/guidance/relationships-bidirectional-filtering/?azure-portal=true).
+For more information, see: [Create and manage relationships in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-create-and-manage-relationships/&azure-portal=true) and [Bi-directional relationship guidance](https://docs.microsoft.com/power-bi/guidance/relationships-bidirectional-filtering/&azure-portal=true).

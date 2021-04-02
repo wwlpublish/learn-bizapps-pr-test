@@ -26,7 +26,7 @@ quiz:
       explanation: The benefit of analyzing the metadata is that you can clearly identify data inconsistences with your dataset.
   - content: What can be achieved by removing unnecessary rows and columns?
     choices: 
-    - content: It is not necessary deleting unnecessary rows and columns and it is a good practice to keep all metadata intact.
+    - content: It is not necessary to delete unused rows and columns. It is a good practice to keep all metadata intact.
       isCorrect: false
       explanation: Deleting unnecessary rows and columns will reduce a dataset size and its good practice to load only necessary data into your data model.
     - content: Deleting unnecessary rows and columns will reduce a dataset size and its good practice to load only necessary data into your data model.

@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/10/2021
+  ms.date: 03/15/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -16,17 +16,17 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "Your sales team is in desperate need of a mobile application that can display records living in a SharePoint list. When displaying the records, multiple pieces of information about each record need to be visible to the user. Which of the following Power Apps tools would you use when designing your app to achieve this functionality?"
+  - content: "Your sales team is in desperate need of a mobile application that can display rows living in a SharePoint list. When displaying the records, multiple pieces of information about each record need to be visible to the user. Which of the following Power Apps tools would you use when designing your app to achieve this functionality?"
     choices:
-    - content: "Create a gallery to display the sales records."
+    - content: "Create a gallery to display the sales rows."
       isCorrect: true
-      explanation: "Correct. Galleries are used to display tables of data from your data source. They are highly customizable, so you can show whatever information about a particular record that is necessary. You could then use a Form to edit individual records, if desired."
-    - content: "Create a form to display the sales records."
+      explanation: "Correct. Galleries are used to display tables of data from your data source. They are highly customizable, so you can show whatever information about a particular row that is necessary. You could then use a Form to edit individual records, if desired."
+    - content: "Create a form to display the sales rows."
       isCorrect: false
       explanation: "Incorrect. Forms are used to display and edit specific items, not display multiple rows of data."
-    - content: "Create an input control to display the sales records."
+    - content: "Create an input control to display the sales rows."
       isCorrect: false
-      explanation: "Incorrect. Input controls allow the user to type text, press a button, or perform other functions; they are not used to display table data, which is what you would need to show these SharePoint records."
+      explanation: "Incorrect. Input controls allow the user to type text, press a button, or perform other functions; they are not used to display table data, which is what you would need to show these SharePoint rows."
   - content: "You have been tasked with creating a Power App that can scan barcodes that will display the scanned item's information on the screen. Out of the following control options, which one would the barcode scanner fall under?"
     choices:
     - content: "Galleries"
@@ -42,7 +42,7 @@ quiz:
     choices:
     - content: "You would modify the data source to purge out all orders older than 90 days."
       isCorrect: false
-      explanation: "Incorrect. You need to keep the older records also. Instead you would use a Filter formula in your gallery, applying a logic formula that checks to see if the Order Date is less than 90 days ago."
+      explanation: "Incorrect. You need to keep the older records also. Instead, you would use a Filter formula in your gallery, applying a logic formula that checks to see if the Order Date is less than 90 days ago."
     - content: "Use the data filtering wizard."
       isCorrect: false
       explanation: "Incorrect. Power Apps does not include any data filtering wizards. Instead, you would use the Filter formula in your gallery, applying a logic formula that checks to see if the Order Date is less than 90 days ago."

@@ -15,4 +15,4 @@ Sales[‘TotalCost] = Sales[‘Quantity’] * Sales[‘Price’]
 Consider the following relationships between **dSalesPerson**, **fSales**, and **dCustomer**. A change in **dCustomer** will result in a change in **fSales**, which results in changes in **dSalesPerson.** These types of dependencies can exist within relationships.
 
 > [!div class="mx-imgBorder"]
-> [![Dependencies in Relationships](../media/07-dependencies-relationships-01-ssm.png)](../media/07-dependencies-relationships-01-ssm.png#lightbox)
+> [![Screenshot of the Dependencies in Relationships.](../media/07-dependencies-relationships-01-ssm.png)](../media/07-dependencies-relationships-01-ssm.png#lightbox)

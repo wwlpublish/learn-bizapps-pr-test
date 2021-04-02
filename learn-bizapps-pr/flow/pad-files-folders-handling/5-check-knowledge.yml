@@ -29,12 +29,12 @@ quiz:
       explanation: The If File(s) Exists action marks the beginning of a conditional block of actions, depending on whether a file exists or not.
   - content: Which one of the following statements is true about the Get Files in Folder action?
     choices: 
-    - content: "It can retrieve the files and the subfolders that a specified folder contains."
+    - content: "It can retrieve the files that a specified folder and its subfolders contain."
       isCorrect: true 
-      explanation: The Get Files in Folder action can retrieve files and subfolders.
+      explanation: That is correct!
     - content: "It can retrieve only the files that a specified folder contains."
       isCorrect: false 
-      explanation: The Get Files in Folder action can also retrieve subfolders, if the option is enabled.
+      explanation: The Get Files in Folder action contains the option to retrieve files from subfolders as well.
   - content: Which one of the following actions can you use to get the desktop directory of the current user?
     choices: 
     - content: Create Folder
