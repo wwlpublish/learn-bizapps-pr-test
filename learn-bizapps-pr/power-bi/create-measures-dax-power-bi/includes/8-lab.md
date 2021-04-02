@@ -359,7 +359,7 @@ In this task, you will create a sales YoY growth measure.
 
 1. Notice that the new measure returns blank for the first 12 months (there were no sales recorded before fiscal year 2017).
 
-1. Notice that the **Sales YoY Growth** measure value for **2017 Jul** is the **Sales** value for **2016 Jan**.
+1. Notice that the **Sales YoY Growth** measure value for **2018 Jul** is the **Sales** value for **2017 Jan**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Sales YoY Growth for 2017 July and 2016 January are the same.](../media/lab-8-13-ssm.png)](../media/lab-8-13-ssm.png#lightbox)
