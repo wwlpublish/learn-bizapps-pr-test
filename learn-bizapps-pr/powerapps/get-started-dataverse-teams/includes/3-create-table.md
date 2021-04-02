@@ -2,6 +2,8 @@ Now that you have provisioned a Dataverse for Teams environment for the team tha
 
 ## Power Apps visual table editor
 
+To access the Power Apps visual table editor, follow these steps:
+
 1. While editing an app in the Power Apps editor for Teams, select the **Create new table** button.
 
 	> [!div class="mx-imgBorder"]
@@ -116,18 +118,6 @@ Now that you have provisioned your environment and have created a table with col
 1. On the **Manage permissions** screen, you can define who has access to your table and its data. Different privilege levels are available for the team and colleagues who have this table shared with them.
 
 	Five different permission options include:
-	
-	-   **Full access**
-	
-	-   **Collaborate**
-	
-	-   **Reference**
-	
-	-   **Private**
-	
-	-   **None**
-
-	The following sections review each permission option independently to help you understand what they do.
 	
 	- **Full access** - Allows users and groups full access to create new records, read or update existing records, and delete records. This level of access should only be granted to users who need full control over the data.
 	
