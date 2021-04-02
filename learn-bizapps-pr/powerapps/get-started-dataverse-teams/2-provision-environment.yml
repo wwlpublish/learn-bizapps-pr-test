@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.get-started-dataverse-teams.2-provision-environment 
-title: Provisioning your first Dataverse environment
+title: Provision your first Dataverse environment
 metadata: 
-  title: Provisioning your first Dataverse environment 
+  title: Provision your first Dataverse environment 
   description: Learn how to provision your first Dataverse environment. 
   ms.date: 04/15/2021 
   author: DaveBeasley 
