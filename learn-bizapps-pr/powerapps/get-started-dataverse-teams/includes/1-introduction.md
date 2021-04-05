@@ -2,10 +2,10 @@ Microsoft Dataverse for Teams is a built-in, low-code data platform for Microso
 
 The four types of Dataverse for Teams solutions are:
 
-**Apps** - Use Power Apps in Teams to create custom apps that are built by using the enhanced performance and scalability of Dataverse for Teams. Build custom solutions to meet your data and collaboration needs.
+- **Apps** - Use Power Apps in Teams to create custom apps that are built by using the enhanced performance and scalability of Dataverse for Teams. Build custom solutions to meet your data and collaboration needs.
 
-**Workflows** - Automate repetitive tasks with Power Automate in Teams. Build flows that can respond to new Teams messages when data changes in Dataverse for Teams or when a Teams message is selected and has started a process. Bring more productivity to your Teams work.
+- **Workflows** - Automate repetitive tasks with Power Automate in Teams. Build flows that can respond to new Teams messages when data changes in Dataverse for Teams or when a Teams message is selected and has started a process. Bring more productivity to your Teams work.
 
-**Chatbots** - Respond to employee needs by building bots with Power Virtual Agents from within Teams. Share expertise through FAQs and interact with your data in Dataverse for Teams.
+- **Chatbots** - Respond to employee needs by building bots with Power Virtual Agents from within Teams. Share expertise through FAQs and interact with your data in Dataverse for Teams.
 
-**Dashboards** - Present powerful interactive charts and data with Power BI in Teams. Users can explore and interact with their data in Dataverse for Teams.
+- **Dashboards** - Present powerful interactive charts and data with Power BI in Teams. Users can explore and interact with their data in Dataverse for Teams.
