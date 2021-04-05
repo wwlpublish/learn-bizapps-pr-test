@@ -10,7 +10,7 @@ There are four types of approval actions available in Create an approval. They c
 Below are the two Approval/Reject categories side by side. They look the same, however, they have one key difference and that is the number of approvals required to complete. As the name suggests, the one on the left waits for everyone to approve, and the one on the right requires only one.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of two approval/reject categories with key differences.](../media/approve-reject-types.png)](../media/approve-reject-types.png#lightbox)
+> [![Screenshot of two approval/reject categories with key differences.](../media/approve-reject-types.jpg)](../media/approve-reject-types.jpg#lightbox)
 
 The **Assigned to** is where you add the email addresses of the approvers and can be separated with a semicolon ';'.
 
