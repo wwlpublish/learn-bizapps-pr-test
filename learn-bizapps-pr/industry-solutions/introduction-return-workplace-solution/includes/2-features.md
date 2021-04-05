@@ -2,7 +2,7 @@ Businesses are eager to reopen and need to be informed of the risks and plans. T
 
 ## Location Readiness dashboard 
 
-The Location Readiness dashboard is a Power BI dashboard that helps you to integrate insights into your own data and global sources in a unified view. You can view the dashboard in the model-driven apps or directly from powerbi.com. The dashboard allows you to filter by one or many geographical locations, from worldwide to country or region level, throughout. Additionally, you can view results as a map or tabular view. Like all Power BI dashboards in the Return to Workplace solution, you can drill into the data to view more details as needed.
+The Location Readiness dashboard is a Power BI dashboard that helps you to integrate insights into your own data and global sources in a unified view. You can view the dashboard in the model-driven apps or directly from the [Power BI website](https://powerbi.microsoft.com). The dashboard allows you to filter by one or many geographical locations, from worldwide to country or region level, throughout. Additionally, you can view results as a map or tabular view. Like all Power BI dashboards in the Return to Workplace solution, you can drill into the data to view more details as needed.
 
 The **System at a Glance** tab shows data that is related to reopening phases, confirmed cases, fatalities, and the effective reproductive number, also known as the *R number*.
 
