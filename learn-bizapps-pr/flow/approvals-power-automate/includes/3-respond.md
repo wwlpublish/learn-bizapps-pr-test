@@ -5,12 +5,12 @@ The approval action provides the flexibility to approve or reject across various
 **Power Automate Approval** connector gives you the flexibility to approve directly from **Microsoft Outlook**. This works for both the approve and reject and also for custom responses.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the approval and reject options for a purchase request.](../media/approvals-request.png)](../media/approvals-request.png#lightbox)
+> [![Screenshot of the approval and reject options for a purchase request.](../media/approvals-request.jpg)](../media/approvals-request.jpg#lightbox)
 
 After the approval is made the email body automatically updates to the following thereby making sure, you do not approve or reject multiple times.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the email updated to approved status.](../media/after-approval.png)](../media/after-approval.png#lightbox)
+> [![Screenshot of the email updated to approved status.](../media/after-approve.jpg)](../media/after-approve.jpg#lightbox)
 
 ## How to respond from Power Automate via internet browser
 
@@ -41,7 +41,7 @@ The same can be done using the Power Automate app in your smartphone.
 In the app select **Activity**, which is available in the bottom menu, then select **Approvals**, which are available on the top menu. There you will see any pending approvals, which you can complete using the options available.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the app with Activity feature and list of approvals.](../media/respond-smart-device.png)](../media/respond-smart-device.png#lightbox)
+> [![Screenshot of the app with Activity feature and list of approvals.](../media/respond-device.jpg)](../media/respond-device.jpg#lightbox)
 
 ## How to respond from Microsoft Teams
 
