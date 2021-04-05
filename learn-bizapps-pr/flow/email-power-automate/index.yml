@@ -2,7 +2,7 @@
 uid: learn-bizapps.email-power-automate 
 metadata: 
  title: Email with Power Automate
- description: Would you like emails sent out automatically when new data is added, or existing data is updated? Would you like email metadata captured in SharePoint automatically? This module will focus on how we can use the email actions in Power Automate with SharePoint as the data source.
+ description: With Microsoft Power Automate, you can create emails that are sent automatically when new data is added or when existing data is updated. Additionally, you can have email metadata captured in SharePoint automatically. This module explains how you can use email actions in Power Automate with SharePoint as the data source.
  ms.date: 04/30/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,15 +11,15 @@ metadata:
 title: Email with Power Automate
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Would you like emails sent out automatically when new data is added, or existing data is updated? Would you like email metadata captured in SharePoint automatically? This module will focus on how we can use the email actions in Power Automate with SharePoint as the data source.
+  With Microsoft Power Automate, you can create emails that are sent automatically when new data is added or when existing data is updated. Additionally, you can have email metadata captured in SharePoint automatically. This module explains how you can use email actions in Power Automate with SharePoint as the data source.
 abstract: |  
     In this module, you will: 
-    - Gain insights into the Power Automate SharePoint Connector
-    - Use SharePoint triggers
-    - Send emails using Microsoft 365 Outlook
-    - Send emails using Mail
-    - Save email content to SharePoint
-prerequisites: Basic understanding of how to create flows with SharePoint as the trigger.
+    - Learn about the SharePoint Connector for Power Automate.
+    - Use SharePoint triggers.
+    - Send emails by using Microsoft 365 Outlook.
+    - Send emails by using the Mail connector.
+    - Save email content to SharePoint.
+prerequisites: Basic understanding of how to create flows with SharePoint as the trigger
 iconUrl: /learn/achievements/email-power-automate.svg  
 levels:  
 - beginner   
