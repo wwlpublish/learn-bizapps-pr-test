@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.data-modeling.8-answer
+title: Answers to Exercise
+metadata:
+  title: Answers to Exercise
+  description: Answers to Data modelling scenarios
+  ms.date: 04/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 15
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/8-answer.md)]

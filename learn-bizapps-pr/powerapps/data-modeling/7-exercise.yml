@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.data-modeling.7-exercise
+title: Exercise
+metadata:
+  title: Exercise
+  description: Data modelling scenarios
+  ms.date: 04/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 15
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/7-exercise.md)]

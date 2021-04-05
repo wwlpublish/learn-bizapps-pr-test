@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.data-modeling.9-check
+title: Check your knowledge
+metadata: 
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 04/01/2021
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Since Account and Contact system entities are easily recreated, is it a good idea to recreate them across several custom entities to get exactly the system you need?
+    choices: 
+    - content: Yes, you should always recreate custom entities whenever possible.
+      isCorrect: false
+      explanation: In almost every situation, Account and Contact entities should never be recreated.
+    - content: Yes, there is no harm in recreating custom entities.
+      isCorrect: false
+      explanation: In almost every situation, Account and Contact entities should never be recreated.
+    - content: No, in almost every situation, Accounts and Contacts should not be recreated.
+      isCorrect: true
+      explanation: In almost every situation, Account and Contact entities should never be recreated.
+    - content: No, custom entities don't provide any value.
+      isCorrect: false
+      explanation: In almost every situation, Account and Contact entities should never be recreated.
+  - content: You are creating a solution for a not-for-profit system. You need to get going quickly with build. What should you use?
+    choices: 
+    - content: Proof of Concept
+      isCorrect: false
+      explanation: PoCs are used to validate data models and designs. They do not get you going quickly.
+    - content: Nonprofit Industry Solution Accelerator
+      isCorrect: true
+      explanation: Accelerators enable you to quickly build industry vertical solutions as the data schema has already been defined.
+    - content: Create custom tables.
+      isCorrect: false
+      explanation: Create you own custom tables will take time to design and validate the data model. You should use an accelerator if one is available.
+    - content: XrmToolBox
+      isCorrect: false
+      explanation: The XrmToolBox is a set of community tools that allow easier customization and administration. XrmToolBox will document your data model but not create it for you.
+  - content: Which data type should you use to create a column that has 3 values user must select from, the values change every three months.
+    choices: 
+    - content: Yes/No
+      isCorrect: false
+      explanation: Yes/No columns are boolean and only hold either 0 or 1 values. 
+    - content: Choice
+      isCorrect: false
+      explanation: Choice columns do not allow items to be deleted from the choice list and require a Customizer to make the changes.
+    - content: Lookup
+      isCorrect: true
+      explanation: A lookup column is linked to a table. Users can select from the active rows on this table with a lookup control. The rows in the table can be deactivated by a user with privileges.
+    - content: Text
+      isCorrect: false
+      explanation: Test fields allow any value to be entered, they do not permit a range of values to select from.
