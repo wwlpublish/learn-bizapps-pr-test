@@ -23,7 +23,7 @@ When you are responding to an approval, you can add comments. You can capture th
 Here is what the option to add the comment looks like.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the option to a comment field.](../media/comments.png)](../media/comments.png#lightbox)
+> [![Screenshot of the option to a comment field.](../media/comments.jpg)](../media/comments.jpg#lightbox)
 
 The comment can be captured using Power Automate.
 
