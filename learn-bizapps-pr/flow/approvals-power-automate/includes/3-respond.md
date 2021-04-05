@@ -53,9 +53,9 @@ In the app select **Activity**, which is available in the bottom menu, then sele
 Then you'll see the approvals assigned to you and their status.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Approvals received with status noted.](../media/teams-approval-status.png)](../media/teams-approval-status.png#lightbox)
+> [![Screenshot of the Approvals received with status noted.](../media/teams-approval-status.jpg)](../media/teams-approval-status.jpg#lightbox)
 
 You can also approve and reject directly inside Teams by clicking on the approval that is pending.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the reject and approve options within Teams.](../media/approve-reject-teams.png)](../media/approve-reject-teams.png#lightbox)
+> [![Screenshot of the reject and approve options within Teams.](../media/approve-reject-team.jpg)](../media/approve-reject-team.jpg#lightbox)
