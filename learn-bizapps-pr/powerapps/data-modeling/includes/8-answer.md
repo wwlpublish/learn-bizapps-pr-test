@@ -12,7 +12,7 @@ You should use the following tables:
 - Level Requirement table, or use a N:N relationship between Level and Requirement, for the requirements to achieve the level
 - VIP Benefit table for the benefits available to each VIP
 
-How the requirements are measure may affect the tables required.
+How the requirements are measured may affect the tables required.
 
 ## Scenario: File and Image storage
 
