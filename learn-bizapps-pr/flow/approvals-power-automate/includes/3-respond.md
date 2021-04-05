@@ -17,7 +17,7 @@ After the approval is made the email body automatically updates to the following
 **Microsoft Outlook** gives you the flexibility to access **Outlook Web Apps** via the browser and accept the approvals from there as well.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Outlook Web Apps with approvals feature.](../media/accept-approval-browser.png)](../media/accept-approval-browser.png#lightbox)
+> [![Screenshot of the Outlook Web Apps with approvals feature.](../media/accept-approve-browser.jpg)](../media/accept-approve-browser.jpg#lightbox)
 
 Just like the desktop Outlook client, you have the flexibility to add a comment from the browser.
 
@@ -32,7 +32,7 @@ In addition, you can log into <https://flow.microsoft.com>, select the **Actions
 > [![Screenshot of the Approvals received with pending list.](../media/approve-power-automate.png)](../media/approve-power-automate.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the choose your response list with confirm button.](../media/choose-response.png)](../media/choose-response.png#lightbox)
+> [![Screenshot of the choose your response list with confirm button.](../media/choose-responses.jpg)](../media/choose-responses.jpg#lightbox)
 
 ## How to respond from Power Automate mobile device app
 
