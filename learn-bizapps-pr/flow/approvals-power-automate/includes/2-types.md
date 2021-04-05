@@ -24,7 +24,7 @@ Approve and Reject are the two out-of-box response options available, with Custo
 Below are the two Custom Responses categories side by side. They look the same, however, they have one key difference and that is the number of approvals required to complete. As the name suggests, the one on the left waits for all responses, and the one on the right requires only one.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the two custom response categories with key differences.](../media/custom-approve-reject-types.png)](../media/custom-approve-reject-types.jpg#lightbox)
+> [![Screenshot of the two custom response categories with key differences.](../media/custom-approve-reject-types.jpg)](../media/custom-approve-reject-types.jpg#lightbox)
 
 Here is a closer look at the advanced settings. It includes adding a link to a description, attachments, and even assigning a requestor who is sending this approval request.
 
