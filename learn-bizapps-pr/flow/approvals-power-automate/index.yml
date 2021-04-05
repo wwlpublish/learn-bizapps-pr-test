@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.approvals-power-automate 
+metadata: 
+ title: Approvals in Power Automate
+ description: Need an out-of-box approval process you can use in your Power Automate flow? With the Approvals connector, you can do just that! This module will focus on how you can use Approvals to send email notifications to designated approvers and record their responses.
+ ms.date: 04/15/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Approvals in Power Automate 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  It is common for a workflow process to undergo an approval step. Approvals are required from either a single user or multiple users and the responses need to be captured to make decisions for the next step. Approvals are often sent as emails or notifications on your mobile devices to make them easy to access and understand.
+abstract: |  
+    In this module, you will: 
+    - Gain insights into Approvals connector.  
+    - Know the types of approval actions.
+    - Learn how to respond to an approval.
+    - Know the metadata captured from approvals.
+    - Understand known issues and limits.
+prerequisites: The Target Audience should have a basic understanding of how to create flows with SharePoint as the trigger.      
+iconUrl: /learn/achievements/approvals-power-automate.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+products:  
+- power-platform
+- power-automate 
+units: 
+- learn-bizapps.approvals-power-automate.1-introduction 
+- learn-bizapps.approvals-power-automate.2-types 
+- learn-bizapps.approvals-power-automate.3-respond 
+- learn-bizapps.approvals-power-automate.4-metadata 
+- learn-bizapps.approvals-power-automate.5-issues-limits 
+- learn-bizapps.approvals-power-automate.6-check 
+- learn-bizapps.approvals-power-automate.7-summary 
+badge: 
+  uid: learn-bizapps.approvals-power-automate.badge 
