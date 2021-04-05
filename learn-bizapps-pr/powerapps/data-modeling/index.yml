@@ -27,12 +27,11 @@ roles:
 - solution-architect
 products:    
 - power-platform
-- dataverse
 - common-data-service
 - dynamics-customer-engagement
 units: 
 - learn-bizapps.data-modeling.1-introduction
-- learn-bizapps.data-modeling.2-cdm
+- learn-bizapps.data-modeling.2-common-data-model
 - learn-bizapps.data-modeling.3-data-model
 - learn-bizapps.data-modeling.4-data-store
 - learn-bizapps.data-modeling.5-dataverse

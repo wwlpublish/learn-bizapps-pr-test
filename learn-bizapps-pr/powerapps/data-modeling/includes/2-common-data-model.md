@@ -10,7 +10,7 @@ The Common Data Model is a standard and extensible collection of schemas (entiti
 - Multiple systems and platforms implement Common Data Model today.
 - Internal and external partners including Dataverse, Power BI DataFlows, Azure Data Services, Informatica and more.
 
-> [![Diagram of the Common Data Model schema.](../media/2-common-data-model.png)](..media/2-common-data-model.png#lightbox)
+> [![Diagram of the Common Data Model schema.](../media/2-common-data-model.png)](../media/2-common-data-model.png#lightbox)
 
 ## Where is Common Data Model used
 
