@@ -36,9 +36,7 @@ units:
 - learn-bizapps.data-modeling.4-data-store
 - learn-bizapps.data-modeling.5-dataverse
 - learn-bizapps.data-modeling.6-best-practice
-- learn-bizapps.data-modeling.7-exercise
-- learn-bizapps.data-modeling.8-answer
-- learn-bizapps.data-modeling.9-check
-- learn-bizapps.data-modeling.10-summary
+- learn-bizapps.data-modeling.7-check
+- learn-bizapps.data-modeling.8-summary
 badge: 
   uid: learn-bizapps.data-modeling.badge
