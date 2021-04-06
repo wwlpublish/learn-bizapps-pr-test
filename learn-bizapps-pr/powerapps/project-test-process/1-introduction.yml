@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.project-test-process.1-introduction
-title: Introduction to the testing the Power Platform
+title: Introduction
 metadata:
-  title: Introduction to testing the Power Platform
-  description: Overview of the testing for the Power Platform
+  title: Introduction
+  description: Overview of the testing and go-live processes for Microsoft Power Platform
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley 
