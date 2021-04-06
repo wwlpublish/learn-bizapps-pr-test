@@ -1,4 +1,4 @@
-The Return to Workplace apps require their own environment for deployment. The Return to Workplace solution can be obtained and deployed from [Microsoft AppSource](https://appsource.microsoft.com/en-us/product/dynamics-365/msemr.pprtwsoln).
+The Return to Workplace apps require their own environment for deployment. The Return to Workplace solution can be obtained and deployed from [Microsoft AppSource](https://appsource.microsoft.com/product/dynamics-365/msemr.pprtwsoln).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot from Microsoft AppSource page where you can get the solutions.](../media/appsource.png)](../media/appsource.png#lightbox)
