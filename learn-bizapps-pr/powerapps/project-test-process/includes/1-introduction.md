@@ -82,7 +82,7 @@ A key aspect of integration testing should be focused on the data that flows in 
 
 Because integration testing can involve other systems, you need to ensure that test environments are used for all components. You don't want integration testing to communicate with a live system and then modify the production data by accident. Occasionally, test scenarios will drive configuration options in the application integration to make it testable. Having the ability to turn off integrations can help you test without invoking the integration.
 
-The process of building integrations is now more approachable and is therefore more accessible to a greater number of people on project teams. Often, integrations might become hidden inside of Power Apps canvas applications or Power Automate flows. These hidden integrations can often go unnoticed because the application is using a surface connector from another source. The plan should consider these integrations like any other integration and then test them accordingly.
+The process of building integrations is now more approachable and is therefore more accessible to a greater number of people on project teams. Often, integrations might become hidden inside of Power Apps canvas applications or Microsoft Power Automate flows. These hidden integrations can often go unnoticed because the application is using a surface connector from another source. The plan should consider these integrations like any other integration and then test them accordingly.
 
 ### User acceptance testing
 
