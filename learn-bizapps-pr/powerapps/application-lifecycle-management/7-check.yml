@@ -44,7 +44,7 @@ quiz:
   - content: You want to partition your solutions by creating separate solutions for each type of component. What is this called?
     choices: 
     - content: Horizontal splitting
-      isCorrect: true
+      isCorrect: false
       explanation: Horizontal splitting refers to creating solutions that only contain components of the same type.
     - content: Solution layering
       isCorrect: true
