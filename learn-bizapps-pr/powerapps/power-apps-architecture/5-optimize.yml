@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.power-apps-architecture.5-optimize
+title: Optimizing Canvas apps
+metadata:
+  title: Optimizing Canvas apps
+  description: Techniques for optimizing Canvas app performance
+  ms.date: 04/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 7
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/5-optimize.md)]

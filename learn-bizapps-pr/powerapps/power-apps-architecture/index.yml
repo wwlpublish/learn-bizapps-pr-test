@@ -1,0 +1,43 @@
+### YamlMime:Module 
+uid: learn-bizapps.power-apps-architecture
+metadata: 
+ title: Explore Power Apps Architecture
+ description: Explore the architecture of Power Apps. 
+ ms.date: 04/01/2021
+ author: DaveBeasley
+ ms.author: dbeasley
+ ms.topic: interactive-tutorial
+ ms.prod: learning-power-platform-solution-architect
+title: Explore Power Apps Architecture
+summary: |
+  [!include[](../includes/module-banner.md)] 
+  The Solution Architect is responsible for the overall design of the solution. Understanding the capabilities of Power Apps is imperative when designing the apps for the solution. This module is concerned with the different types of apps, the differences between apps, and when and which type(s) of apps to use. 
+abstract: |
+    In this module, you will: 
+    - Explore options for apps and how to choose where to start.
+    - Explore app composition options.
+    - Understand using components as part of your app architecture.
+    - Understand when to include Portals as an app in your architecture.
+prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
+iconUrl: /learn/achievements/power-apps-architecture.svg
+levels:
+- advanced
+roles:
+- solution-architect
+products:
+- power-apps 
+- power-platform
+- dataverse
+- common-data-service
+units: 
+- learn-bizapps.power-apps-architecture.1-introduction
+- learn-bizapps.power-apps-architecture.2-patterns
+- learn-bizapps.power-apps-architecture.3-composition
+- learn-bizapps.power-apps-architecture.4-components
+- learn-bizapps.power-apps-architecture.5-optimize
+- learn-bizapps.power-apps-architecture.6-teams
+- learn-bizapps.power-apps-architecture.7-portals
+- learn-bizapps.power-apps-architecture.8-check
+- learn-bizapps.power-apps-architecture.9-summary
+badge: 
+  uid: learn-bizapps.power-apps-architecture.badge
