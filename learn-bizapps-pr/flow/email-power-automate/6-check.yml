@@ -13,20 +13,6 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which types of mail connectors were described in this module?
-    choices: 
-    - content: Microsoft Outlook
-      isCorrect: false 
-      explanation: Two mail connectors were described in this module, Microsoft Outlook and Mail.
-    - content: Mail
-      isCorrect: false 
-      explanation: Two mail connectors were described in this module, Microsoft Outlook and Mail.
-    - content: Mail, Microsoft Outlook, and SharePoint
-      isCorrect: false 
-      explanation: Two mail connectors were described in this module, Microsoft Outlook and Mail.
-    - content: Mail and Microsoft Outlook
-      isCorrect: true 
-      explanation: Two mail connectors were described in this module, Microsoft Outlook and Mail.
   - content: What are the connector types for Mail and Microsoft Outlook?
     choices: 
     - content: Mail is a standard connector and Microsoft Outlook is a premier connector.
