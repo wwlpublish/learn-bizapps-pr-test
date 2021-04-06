@@ -47,10 +47,10 @@ quiz:
       isCorrect: false
       explanation: An employee is a type of contact. 
     - content: Staff
-      isCorrect: true 
+      isCorrect: false 
       explanation: An employee is a type of contact. 
     - content: Contacts
-      isCorrect: false 
+      isCorrect: true 
       explanation: An employee is a type of contact. 
     - content: Accounts
       isCorrect: false 
