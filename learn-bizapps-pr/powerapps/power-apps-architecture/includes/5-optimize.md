@@ -72,4 +72,4 @@ With your app connected to Applications Insights, you can collect telemetry on h
 
 The solution architect should decide if Application Insights are to be included in apps you create.
 
-For more information, see [Application Insights](https://docs.microsoft.com/en-us/powerapps/maker/canvas-apps/application-insights).
+For more information, see [Application Insights](https://docs.microsoft.com/powerapps/maker/canvas-apps/application-insights).

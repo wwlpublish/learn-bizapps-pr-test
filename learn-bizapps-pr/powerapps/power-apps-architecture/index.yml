@@ -27,7 +27,6 @@ roles:
 products:
 - power-apps 
 - power-platform
-- dataverse
 - common-data-service
 units: 
 - learn-bizapps.power-apps-architecture.1-introduction
