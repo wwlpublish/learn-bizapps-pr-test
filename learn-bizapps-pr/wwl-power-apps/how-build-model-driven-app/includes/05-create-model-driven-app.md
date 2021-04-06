@@ -55,7 +55,7 @@ You add components to your app by using the App Designer.
 
 6.  In the App Designer, select **Charts**, then select the **Accounts by Industry** chart.
 
-7.  On the App Designer toolbar, select **Save**.
+7.  On the App Designer toolbar, select **Save And Close**.
 
 ## Create a form
 
