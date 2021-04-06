@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.email-power-automate.3-send-outlook 
-title: Send emails using Microsoft 365 Outlook
+title: Send emails by using Microsoft 365 Outlook
 metadata: 
-  title: Send emails using Microsoft 365 Outlook
-  description: Learn to send emails using the 365 Outlook connector actions and triggers.
+  title: Send emails by using Microsoft 365 Outlook
+  description: Learn how to send emails by using the 365 Outlook connector actions and triggers.
   ms.date: 04/30/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

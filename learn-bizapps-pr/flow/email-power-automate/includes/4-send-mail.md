@@ -1,8 +1,8 @@
-Mail Connection Provider lets you send email notifications. It can be used with both Power Apps and with Power Automate.
+Mail Connection Provider lets you send email notifications, and it can be used with Microsoft Power Apps and Microsoft Power Automate.
 
 ## Basic concept of the Mail connector
 
-On actions, no triggers are available for mail. The following action is the only one available.
+No triggers are available for mail on actions. The following action is the only one that is available.
 
 | **Action** | **Description** |
 |------------|-----------------|
@@ -10,9 +10,9 @@ On actions, no triggers are available for mail. The following action is the only
 
 ## Send an email action with dynamic content from SharePoint
 
-The SharePoint connector has a trigger for new items in power automate flows. In this example, we're going to start a workflow process when a new item for a travel reimbursement request has been submitted. Email notifications are sent using the mail connector.
+The SharePoint connector has a trigger for new items in Power Automate flows. This example shows a workflow process being started when a new item for a travel reimbursement request has been submitted. Email notifications are sent by using the Mail connector.
 
-Here's an overview of the column types for the SharePoint list called Travel Reimbursement.
+The following table provides an overview of the column types for the SharePoint list called **Travel Reimbursement**.
 
 | **Column** | **Type** | **Required** | **Additional information** |
 |------------|----------|--------------|----------------------------|
@@ -22,12 +22,12 @@ Here's an overview of the column types for the SharePoint list called Travel Rei
 | Cost | Currency | Yes | |
 | Manager | Person or Group | No | Person |
 
-Here's a screenshot of the SharePoint list. The Created, Created By, Modified and Modified By are automatically added by SharePoint.
+The following screenshot shows the SharePoint list. SharePoint automatically adds the **Created**, **Created By**, **Modified**, and **Modified By** columns.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the SharePoint list of Columns.](../media/4-1-columns.png)](../media/4-1-columns.png#lightbox)
 
-Go back to the Travel Reimbursement list and from the ribbon, select **Automate**, then **Power Automate**, and select **Create a flow.**
+Return to the **Travel Reimbursement** list and, from the ribbon, select **Automate > Power Automate > Create a flow**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Travel Reimbursement list with Automate selected.](../media/4-2-automate.png)](../media/4-2-automate.png#lightbox)
@@ -35,21 +35,21 @@ Go back to the Travel Reimbursement list and from the ribbon, select **Automate*
 Select the **Request approval (everyone must approve) for a selected item** template.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Create a flow dialog with the Request approval (everyone must approve) template highlighted.](../media/4-3-create-flow.png)](../media/4-3-create-flow.png#lightbox)
+> [![Screenshot of the Create a flow dialog box with the Request approval (everyone must approve) template highlighted.](../media/4-3-create-flow.png)](../media/4-3-create-flow.png#lightbox)
 
-Select **Create Flow.**
+Select **Create Flow**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Request approval (everyone must approve) template.](../media/4-4-request-approval.png)](../media/4-4-request-approval.png#lightbox)
 
-The flow is suspended by default, so you need to turn in on. Also select **Edit** to view the flow design.
+You need to **Turn on** the flow because it is suspended by default. Select **Edit** to view the flow design.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the flow with Edit and Turn on buttons highlighted, and with status: suspended highlighted.](../media/4-5-suspended.png)](../media/4-5-suspended.png#lightbox)
+> [![Screenshot of the flow with Edit and Turn on buttons highlighted and with status: suspended highlighted.](../media/4-5-suspended.png)](../media/4-5-suspended.png#lightbox)
 
-The flow contains the mail action.
+The flow contains the Mail action.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the completed flow.](../media/4-6-flow.png)](../media/4-6-flow.png#lightbox)
 
-You've successfully created an email action flow using Mail with dynamic content from SharePoint.
+You've successfully created an email action flow by using Mail with dynamic content from SharePoint.

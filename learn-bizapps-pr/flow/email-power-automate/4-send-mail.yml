@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.email-power-automate.4-send-mail 
-title: Send email using Mail
+title: Send email by using Mail
 metadata: 
-  title: Send email using Mail
-  description: Learn to use the Mail Connection Provider.
+  title: Send email by using Mail
+  description: Learn how to use Mail Connection Provider.
   ms.date: 04/30/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

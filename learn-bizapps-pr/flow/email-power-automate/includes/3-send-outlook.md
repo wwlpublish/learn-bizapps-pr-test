@@ -2,9 +2,11 @@ Microsoft 365 Outlook (previously known as Office 365 Outlook) has a standard co
 
 ## Basic concept of Microsoft 365 Outlook connector
 
-Microsoft 365 Outlook can be used as both actions and triggers in a Power Automate flow. Here's the list and their descriptions:
+Microsoft 365 Outlook can be used as actions and triggers in a Power Automate flow. 
 
 ### Actions and triggers
+
+The following table describes the actions and triggers in Outlook.
 
 | **Action** | **Trigger** |
 |------------|-------------|
@@ -46,70 +48,70 @@ For full descriptions of actions and triggers, see the link in the Summary unit 
 
 ## Send an email action with dynamic content from SharePoint
 
-The SharePoint connector has a trigger for new items in Power Automate flows. In this example, we're going to start a workflow process when a new item for a travel reimbursement request has been submitted. Email notifications are sent using Microsoft Outlook.
+The SharePoint connector has a trigger for new items in Power Automate flows. The example for this module will start a workflow process when a new item for a travel reimbursement request has been submitted. Email notifications are sent by using Microsoft Outlook.
 
-Here's a screenshot of the SharePoint list with the column types for Travel Reimbursement. SharePoint adds the **Created**, **Created By**, **Modified** and **Modified By** columns automatically.
+The following screenshot shows the SharePoint list with the column types for travel reimbursement. SharePoint automatically adds the **Created**, **Created By**, **Modified**, and **Modified By** columns.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the SharePoint list showing column types.](../media/3-1-columns.png)](../media/3-1-columns.png#lightbox)
 
-Here's a screenshot of the choice column.
+The following screenshot shows the **Choice (menu to choose from)** column.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Settings > Edit Column dialog with column type set to Choice (menu to choose from).](../media/3-2-edit-column.png)](../media/3-2-edit-column.png#lightbox)
+> [![Screenshot of the Settings > Edit Column dialog box with column type set to Choice (menu to choose from).](../media/3-2-edit-column.png)](../media/3-2-edit-column.png#lightbox)
 
-Go back to the Travel Reimbursement list and from the ribbon, select **Automate** then **Power Automate** and select **Create a flow**
+Return to the **Travel Reimbursement** list and, from the ribbon, select **Automate > Power Automate > Create a flow**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Travel Reimbursement list with Create a flow selected.](../media/3-3-create-flow.png)](../media/3-3-create-flow.png#lightbox)
 
-On the right, in Create a flow, select Start approval when a new item is added.
+On the right, in **Create a flow**, select the **Start approval when a new item is added** option.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Create a flow with Start approval when a new item is added highlighted.](../media/3-4-start-approval.png)](../media/3-4-start-approval.png#lightbox)
+> [![Screenshot of Create a flow with the Start approval when a new item is added option highlighted.](../media/3-4-start-approval.png)](../media/3-4-start-approval.png#lightbox)
 
-Confirm the connection and select **continue.**
-
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Start approval when a new item is added dialog with the Continue button highlighted.](../media/3-5-continue.png)](../media/3-5-continue.png#lightbox)
-
-Change the flow title to **Travel Reimbursement** and the list name.
+Confirm the connection and then select **Continue**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the When a new item is created dialog.](../media/3-6-travel-reimbursement.png)](../media/3-6-travel-reimbursement.png#lightbox)
+> [![Screenshot of the Start approval when a new item is added dialog box with the Continue button highlighted.](../media/3-5-continue.png)](../media/3-5-continue.png#lightbox)
 
-We need to modify this template to get the manager information. For that, drag the **Get my profile (V2)** action and drop it below the trigger.
+Change the flow title and **List Name** to **Travel Reimbursement**.
 
-Before:
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the When a new item is created dialog box.](../media/3-6-travel-reimbursement.png)](../media/3-6-travel-reimbursement.png#lightbox)
+
+This template needs to be modified to get the manager information. To do so, drag the **Get my profile (V2)** action and then drop it below the trigger.
+
+The following screenshot shows what the template looked like before you modified it.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the flow with an arrow from Get my profile to the spot to drop it.](../media/3-7-before.png)](../media/3-7-before.png#lightbox)
 
-After:
+The following screenshot shows what the template looked like after you modified it.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the flow with Get my profile in its new location.](../media/3-8-after.png)](../media/3-8-after.png#lightbox)
 
-Select **+** and select **Add an action.**
+Select the plus sign (**+**) and then select **Add an action**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Get my profile action with Add an action highlighted.](../media/3-9-add-action.png)](../media/3-9-add-action.png#lightbox)
 
-Search for get manager and select **Get manager (V2).**
+Search for **get manager** and then select **Get manager (V2)**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Choose an action dialog with the Get manager (V2) action selected.](../media/3-91-get-manager.png)](../media/3-91-get-manager.png#lightbox)
+> [![Screenshot of the Choose an action dialog box with the Get manager (V2) action selected.](../media/3-91-get-manager.png)](../media/3-91-get-manager.png#lightbox)
 
-In **Get manager (V2)**, select **User Principal Name.**
+In **Get manager (V2)**, select **User Principal Name**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Get manager (V2) action with Add dynamic content selected and User Principal Name highlighted.](../media/3-92-user-principal-name.png)](../media/3-92-user-principal-name.png#lightbox)
 
-In the **Start an approval** action, for **Assigned To** select **Add dynamic content** and select **Mail** in **Get manager (V2).**
+In the **Start an approval** action, for **Assigned To**, select **Add dynamic content** and then select **Mail** in **Get manager (V2)**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Start an approval action with Add dynamic content selected and Mail highlighted.](../media/3-93-start-approval.png)](../media/3-93-start-approval.png#lightbox)
 
-Select **Flow checker** to confirm there are no errors and then select **Save.**
+Select **Flow checker** to confirm that no errors have occurred and then select **Save**.
 
-You've successfully created an email action using Microsoft Outlook with dynamic content from SharePoint.
+You've successfully created an email action by using Microsoft Outlook with dynamic content from SharePoint.
