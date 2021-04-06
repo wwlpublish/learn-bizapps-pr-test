@@ -15,7 +15,7 @@ summary: |
 abstract: |  
     In this module, you will learn about: 
     - The solution architect’s role in integrations.
-    - What is integration and why do we need it
+    - What is integration and why do we need it.
     - Power Platform features that enable integration.
     - Using the capabilities of Azure.
 prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
