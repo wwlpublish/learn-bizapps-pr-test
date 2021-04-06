@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.application-lifecycle-management
+metadata: 
+ title: Plan Application Lifecycle Management for the Power Platform
+ description: The Power Platform Solution Architect needs to define the environment strategy and application lifecycle management for transporting work from development to test to production.
+ ms.date: 04/01/2021
+ author: DaveBeasley  
+ ms.author: dbeasley   
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-platform-solution-architect
+title: Plan Application Lifecycle Management for the Power Platform
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The Power Platform Solution Architect needs to define the environment strategy and application lifecycle management for transporting work from development to test to production.
+abstract: |  
+    In this module, you will: 
+    - Learn about Microsoft vision and Solution Architect’s role in ALM
+    - Review Environment Strategies
+    - Define a solution structure for your deliverables
+prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
+iconUrl: /learn/achievements/application-lifecycle-management.svg  
+levels:  
+- advanced
+roles:  
+- solution-architect
+products:    
+- power-platform
+- dataverse
+units: 
+- learn-bizapps.application-lifecycle-management.1-introduction
+- learn-bizapps.application-lifecycle-management.2-considerations
+- learn-bizapps.application-lifecycle-management.3-solutions
+- learn-bizapps.application-lifecycle-management.4-configuration
+- learn-bizapps.application-lifecycle-management.5-release
+- learn-bizapps.application-lifecycle-management.6-devops
+- learn-bizapps.application-lifecycle-management.7-check
+- learn-bizapps.application-lifecycle-management.8-summary
+badge: 
+  uid: learn-bizapps.application-lifecycle-management.badge
