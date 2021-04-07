@@ -3,11 +3,11 @@
 
 [Tenant settings](https://docs.microsoft.com/power-bi/admin/service-admin-portal?azure-portal=true#tenant-settings) enable fine-grained control over the features that are made available to your organization and are managed in the [Admin portal](https://app.powerbi.com/admin-portal/tenantSettings/?azure-portal=true). Tenant settings can be configured by a global admin, Power BI service administrator, or Power Platform service administrator. Many tenant settings can restrict capabilities and features to a limited set of users by assigning one of three states.
 
-1. **Disabled for the entire organization**: No one in your organization can use this feature.
+- **Disabled for the entire organization**: No one in your organization can use this feature.
 
-2. **Enabled for the entire organization**: Everyone in your organization can use this feature.
+- **Enabled for the entire organization**: Everyone in your organization can use this feature.
 
-3. **Enabled for a subset of the organization**: Specific security groups in your organization can use this feature.
+- **Enabled for a subset of the organization**: Specific security groups in your organization can use this feature.
 
 For more information about creating, editing, or deleting security groups in Microsoft 365 Admin Center, review this [article](https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group/?azure-portal=true).
 
