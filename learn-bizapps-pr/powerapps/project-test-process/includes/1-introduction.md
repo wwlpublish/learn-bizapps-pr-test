@@ -64,7 +64,7 @@ You can use a unit test to check whether a specific function or feature of your 
 
 Unit testing is recommended but not required. When you are getting started, or if the amount of code in your solution is relatively small, you might perceive that you are spending more time writing tests than creating the functionality that is included in your solution. The benefits of unit testing begin to accrue when your solution becomes larger and more complex, particularly with server-side development, where you could see significant benefits in debugging locally by using mock or fake data with a testing framework.
 
-Manual testing can be done with all apps, business rules, and plug-ins. Some tests can be automated by using the Microsoft Power Apps Test Studio and Visual Studio. A popular unit test framework for server-side development is Fake Xrm Easy.
+Manual testing can be done with all apps, business rules, and plug-ins. Some tests can be automated by using the Microsoft Power Apps Studio and Visual Studio. A popular unit test framework for server-side development is Fake Xrm Easy.
 
 The solution architect should decide on the tools that will be used for unit testing and the level of automation that should be used.
 
