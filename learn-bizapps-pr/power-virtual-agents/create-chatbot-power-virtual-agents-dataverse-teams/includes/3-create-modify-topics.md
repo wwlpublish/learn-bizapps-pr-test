@@ -1,8 +1,8 @@
 In Power Virtual Agents, chatbot conversations are defined by **topics**. With topics, you define and control the way the conversation plays out. There are two types of topics:
 
-1. **Trigger phrases:** The chatbot needs to detect when the user asks a question that it knows how to respond to. The trigger phases are the phrases, keywords, and questions that the user is likely to type in. Recommended best practice is to have five to 10 trigger phrases of common ways your users would request help on the topic.
+**Trigger phrases:** The chatbot needs to detect when the user asks a question that it knows how to respond to. The trigger phases are the phrases, keywords, and questions that the user is likely to type in. Recommended best practice is to have five to 10 trigger phrases of common ways your users would request help on the topic.
 
-1. **Conversation nodes:** Once the chatbot has a question, it needs to know how to handle the request. Conversation nodes define how the chatbot responds and if there are any actions required.
+**Conversation nodes:** Once the chatbot has a question, it needs to know how to handle the request. Conversation nodes define how the chatbot responds and if there are any actions required.
 
 To view and edit topics in your chatbot, select **Topics** from the left-hand column in the Power Virtual Agents editor. Many topics are automatically created for a chatbot.
 
