@@ -15,43 +15,43 @@ quiz:
   questions: 
   - content: What is user acceptance testing used for?
     choices: 
-    - content: To ensure the system works as expected.
+    - content: To ensure that the system works as expected
       isCorrect: true
-      explanation: User acceptance testing is performed by end users to ensure the system works as expected in day-to-day activities. UAT is critical to ensure go-live sign-out and acceptance of the new system.
-    - content: To ensure the system performs to the SLA.
+      explanation: User acceptance testing (UAT) is performed by users to ensure that the system works as expected in daily activities. UAT is critical to ensure go-live sign-out and acceptance of the new system.
+    - content: To ensure that the system performs to the service-level agreement (SLA)
       isCorrect: false
-      explanation: This is performance testing.
-    - content: To validate existing historical data.
+      explanation: This option is describing performance testing.
+    - content: To validate existing historical data
       isCorrect: false
-      explanation: This is data validation testing of migrated data.
-    - content: To test the system after an update.
+      explanation: This option is describing data validation testing of migrated data.
+    - content: To test the system after an update
       isCorrect: false
-      explanation: This is regression testing.
+      explanation: This option is describing regression testing.
   - content: What is required for performance testing?
     choices: 
     - content: Sample data
       isCorrect: false
-      explanation: Performance testing requires volumes of data that represent real loads not a sample of data.
+      explanation: Performance testing requires volumes of data that represent real loads, not a sample of data.
     - content: Sandbox environment
       isCorrect: false
-      explanation: Performance testing should be performed on a separate environment. The environment should be a Production type environment not a Sandbox that has fewer resources allocated.
-    - content: Test environment for integrations.
+      explanation: Performance testing should be performed on a separate environment. The environment should be a Production type environment, not a sandbox environment that has fewer resources allocated.
+    - content: Test environment for integrations
       isCorrect: false
-      explanation: Integrations are tested as part of integration testing not performance testing. Performance testing is for the Power Platform solution not a test platform for an external system.
+      explanation: Integrations are tested as part of integration testing, not performance testing. Performance testing is for the Power Platform solution, not a test platform for an external system.
     - content: Live volumes of data
       isCorrect: true
-      explanation: Performance testing requires realistic volume of data for a valid test.
+      explanation: Performance testing requires a realistic volume of data for a valid test.
   - content: When should the deployment plan be prepared?
     choices: 
-    - content: After development is complete.
+    - content: After development is complete
       isCorrect: false
       explanation: The deployment plan should be started as early in the project as possible.
-    - content: As soon as possible.
+    - content: As soon as possible
       isCorrect: true
-      explanation: The deployment plan should be started as early in the project as possible. The deployment plan is important as it helps guide towards a successful deployment.
-    - content: During the go-live review.
+      explanation: The deployment plan should be started as early in the project as possible. The deployment plan is important because it helps guide toward a successful deployment.
+    - content: During the go-live review
       isCorrect: false    
       explanation: The deployment plan should be started as early in the project as possible.
-    - content: At the same time, as the statement of work.
+    - content: At the same time as the statement of work
       isCorrect: false
-      explanation: The statement of work is before the project has started. The solution components have not been chosen and designed and it is not possible to create the deployment plan without this information.
+      explanation: The statement of work happens before the project has started. The solution components have not been chosen and designed, and it is not possible to create the deployment plan without this information.
