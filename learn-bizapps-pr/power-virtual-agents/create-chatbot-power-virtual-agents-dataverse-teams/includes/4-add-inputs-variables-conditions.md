@@ -36,7 +36,7 @@ For our chatbot, we need to delete the current message node since it will be rep
     > [!div class="mx-imgBorder"]
 	> [![Screenshot of the variable properties with name field.](../media/image-14.png)](../media/image-14.png#lightbox)
 
-There are two variables available by default. The first is **bot.UserDisplayName, which provides the user's name. The second is **bot.UserID, which gives us their login name. By using **bot.UserDisplayName**, the chatbot can call the user by name, which personalizes the experience. You can use **bot.UserID** to create conditions nodes to take actions based on which user the bot is interacting with.
+There are two variables available by default. The first is **bot.UserDisplayName**, which provides the user's name. The second is **bot.UserID**, which gives us their login name. By using **bot.UserDisplayName**, the chatbot can call the user by name, which personalizes the experience. You can use **bot.UserID** to create conditions nodes to take actions based on which user the bot is interacting with.
 
 To have the event contacts chatbot greet the user by name, add a new message node at the chatbot's beginning. When typing in the message node, select the **{X} insert variable** pull-down and select **bot.UserDisplayName.**
 

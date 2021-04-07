@@ -6,10 +6,10 @@ For example, the Event Contacts chatbot could provide the Sales Project Team mem
 
 1. Create a new Dataverse for Teams table in the same Team as the chatbot named "Sales Project Team." The columns and data types to use are:
 
-|     Column           |     Data Type    |
-|----------------------|------------------|
-|     Name             |     Text         |
-|     Email Address    |     Email        |
+	|     Column           |     Data Type    |
+	|----------------------|------------------|
+	|     Name             |     Text         |
+	|     Email Address    |     Email        |
 
 1. Add new rows for each of the four contacts.
     

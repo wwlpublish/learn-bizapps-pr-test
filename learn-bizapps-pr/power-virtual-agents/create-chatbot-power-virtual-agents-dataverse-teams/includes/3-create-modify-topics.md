@@ -73,9 +73,11 @@ For our "Events Contacts" chatbot, we want the chatbot to respond to the questio
     
     The event team contacts for North America are:
 
-    **USA:** Lynne Robbins `LynneR@contoso.com`
+    **USA** 
+	Lynne Robbins `LynneR@contoso.com`
 
-	**Canada:** Lidia Holloway `Lidia@contoso.com`
+	**Canada**
+	Lidia Holloway `Lidia@contoso.com`
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the trigger phrases and message.](../media/image-8.png)](../media/image-8.png#lightbox)
