@@ -131,7 +131,7 @@ For example, the Event Contacts chatbot could provide the Sales Project Team mem
 
 Type in one of the trigger phrases to test the chatbot.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Test box menu window.](../media/image-32.png)](../media/image-32.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Test box menu window.](../media/image-32.png)](../media/image-32.png#lightbox)
 
 Advanced flows are available to look up a single record in Dataverse for Teams based on the users need. For example, a user might want the contact information for a particular person based on their job title. While outside the scope of this module, the Common Data Services List Rows can use **OData** filters based on choices the user has made in the chatbot. For more information regarding OData queries, see the summary section at the end of this module.
