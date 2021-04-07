@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-admin-reach.11-lab 
+title: Lab
+metadata: 
+  title: Lab 
+  description: Steps to complete the lab task. 
+  ms.date: 04/30/2021 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 1
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/11-lab.md)] 
