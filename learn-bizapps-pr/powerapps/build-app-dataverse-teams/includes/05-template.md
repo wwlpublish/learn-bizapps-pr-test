@@ -14,7 +14,7 @@ Collect ideas from your team and then review, manage, and vote on them to see wh
 
 The Inspection app manages, schedules, and collects reports from your team. From there, you can analyze the results. It uses Microsoft Planner to track the inspections. Two apps get installed, "Manage inspections" and "Inspections."
 
-"Manage inspections" allows you to edit settings and define the type of inspections your team can make. It also gives you an overview of everything completed and provides reporting.
+Manage inspections allows you to edit settings and define the type of inspections your team can make. It also gives you an overview of everything completed and provides reporting.
 
 ![Screenshot of the inspections template app.](../media/23-inspection.png)
 
@@ -28,8 +28,8 @@ Create a place for your team to report issues, assign tickets, and track progres
 
 The "Manage issues" app gives an overview of all tracked tasks and can create templates to make it easier for your team to collect the information needed.
 
-![Screenshot showing the issues template app.](../media/25-issues.png)
+![Screenshot showing the issues template app.](../media/25-issue.png)
 
-"Issues reporting" provides a personalized view for each team member. They can view, edit, and create new items.
+Issues reporting provides a personalized view for each team member. They can view, edit, and create new items.
 
 ![Screenshot showing the issues template reporting.](../media/26-issue-report.png)
