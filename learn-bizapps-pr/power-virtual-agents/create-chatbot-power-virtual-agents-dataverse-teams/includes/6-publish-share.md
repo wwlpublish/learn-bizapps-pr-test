@@ -47,8 +47,8 @@ Before publishing a chatbot to the whole organization, you should provide more i
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Edit details pane with details populated.](../media/image-36.png)](../media/image-36.png#lightbox)
 
-> [!IMPORTANT]
-> Once a user has installed the bot from the Teams App Store, changes to the bot icon and color will not apply to them. Users will have to uninstall and then reinstall the bot to see the changes.
+	> [!IMPORTANT]
+	> Once a user has installed the bot from the Teams App Store, changes to the bot icon and color will not apply to them. Users will have to uninstall and then reinstall the bot to see the changes.
 
 1. Select **More** to edit additional information like developer name and links to a website, privacy statement, and terms of use.
 
