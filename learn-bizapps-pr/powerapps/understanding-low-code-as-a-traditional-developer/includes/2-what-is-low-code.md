@@ -1,4 +1,4 @@
-## What Is "Low Code", and how is it used in Canvas-based Power Apps?
+## What is low code, and how is it used in canvas-based Power Apps?
 
 You and Kiana have worked on the same "high code" or traditional development team at VanArsdel for a long time. You've developed everything from .NET Core Console applications to ASP.NET Core web APIs to reusable libraries shared via NuGet together. As you sit down to learn Power Apps from a traditional development background, it helps to understand what is meant by "low code".
 
