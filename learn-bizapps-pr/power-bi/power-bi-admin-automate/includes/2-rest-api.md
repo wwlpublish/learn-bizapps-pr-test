@@ -24,4 +24,4 @@ The following chart provides a description and list of available REST operations
 > [!NOTE]
 > With a Power BI license, you can log into the account to see how the Power BI REST API works, get information, or perform operation on Power BI artifacts you have access to - without writing any code using the new Power BI API Try-it tool. Try-it enables you to explore how each REST call works, what are the required params, structure of response or errors, and what data comes back. To use the Try-it tool, start by reviewing [go to Power BI REST API documentation.](https://docs.microsoft.com/rest/api/power-bi/?azure-portal=true)
 
-For additional information on Power BI service REST APIs, please review this [article](https://docs.microsoft.com/rest/api/power-bi/?azure-portal=true).
+For additional information on Power BI service REST APIs, please review [Power BI REST APIs](https://docs.microsoft.com/rest/api/power-bi/?azure-portal=true).
