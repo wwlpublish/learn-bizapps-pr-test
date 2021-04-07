@@ -19,7 +19,7 @@ You must have a Microsoft 365 admin role to purchase or assign licenses for your
 
 The following table shows which role is required to do tasks related to purchase and licensing. For more information about administrator roles in Azure Active Directory, see [View and assign administrator roles in Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal/?azure-portal=true). To learn more about admin roles in Microsoft 365, including best practices, see [About admin roles](https://docs.microsoft.com/microsoft-365/admin/add-users/about-admin-roles/?azure-portal=true).
 
-| **WHO CAN PURCHASE SERVICES AND LICENSES?** | **WHO CAN MANAGE USER LICENSES?** |
+| **Who can purchase services and licenses?** | **Who can manager user licenses?** |
 |---------------------------------------------|-----------------------------------|
 | Billing administrator | License administrator |
 | Global administrator  | User administrator |
