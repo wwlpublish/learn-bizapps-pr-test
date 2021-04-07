@@ -1,5 +1,8 @@
 You've created the connector, tested it, and now you'll learn how to use it in a canvas app.
 
+> [!NOTE]
+> To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
+
 
 ## Create Canvas App ##
 
@@ -65,3 +68,5 @@ You have successfully included the custom connector into your Power Apps app.
 [image-09]: ../media/08-use-custom-connector-in-powerapps-09.png
 [image-10]: ../media/08-use-custom-connector-in-powerapps-10.png
 [image-11]: ../media/08-use-custom-connector-in-powerapps-11.png
+
+[pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true

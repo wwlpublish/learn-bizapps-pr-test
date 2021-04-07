@@ -14,6 +14,9 @@ The web APIs are served through [Azure API Management][az apim], which has the a
 > 1. Login to Azure via Azure CLI.
 > 1. Run either `Setup.ps1` (PowerShell) or `setup.sh` (Bash).
 
+> [!NOTE]
+> To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
+
 
 ## Export Custom Connector from API Management ##
 
@@ -116,5 +119,6 @@ You have completed creating a custom connector for inventory management.
 [az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
 [az cli install]: https://docs.microsoft.com/cli/azure/install-azure-cli
 [pa]: https://powerapps.microsoft.com/
+[pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
 
 [artifacts]: https://github.com/justinyoo/inventory-management-demo-web-api/blob/main/artifacts.zip

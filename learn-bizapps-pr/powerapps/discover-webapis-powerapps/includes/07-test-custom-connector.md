@@ -1,5 +1,8 @@
 In the last exercise you created a custom connector for your Power Apps app. Now, you will test the connector through this exercise.
 
+> [!NOTE]
+> To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
+
 
 ## Test Custom Connector ##
 
@@ -26,3 +29,5 @@ You have completed testing a custom connector for inventory management.
 [image-02]: ../media/07-test-custom-connector-02.png
 [image-03]: ../media/07-test-custom-connector-03.png
 [image-04]: ../media/07-test-custom-connector-04.png
+
+[pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true

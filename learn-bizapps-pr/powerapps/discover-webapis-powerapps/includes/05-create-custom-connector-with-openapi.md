@@ -1,5 +1,9 @@
 In this exercise you'll learn how to create a custom connector from an OpenAPI document.
 
+> [!NOTE]
+> To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
+
+
 ## Create Custom Connector from OpenAPI Document ##
 
 There are several ways of creating a custom connector for Power Apps. This time, you will create one using the OpenAPI document. Suppose you have an `openapi.json` document and API access key provided by the professional development team.
@@ -44,3 +48,4 @@ You have completed creating a custom connector for inventory management.
 [image-07]: ../media/05-create-custom-connector-with-openapi-07.png
 
 [pa]: https://powerapps.microsoft.com/
+[pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
