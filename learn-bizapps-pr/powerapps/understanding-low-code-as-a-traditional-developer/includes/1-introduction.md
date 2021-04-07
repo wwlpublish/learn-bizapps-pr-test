@@ -36,7 +36,7 @@ You and Kiana have worked on the same "high code" or traditional development tea
 
 The term "low code" can mean different things to different people when they first hear it. What we mean when we talk about low code is that with tools like Power Apps, you only need to write a small amount of code to get results that would normally take several more lines of code in a traditional programming language.
 
-In canvas-based Power Apps, the low code scripting language used is called [Power Fx](https://docs.microsoft.com/en-us/power-platform/power-fx/overview); that is the language we will be learning and using throughout this module to build our app.
+In canvas-based Power Apps, the low code scripting language used is called [Power Fx](https://docs.microsoft.com/power-platform/power-fx/overview); that is the language we will be learning and using throughout this module to build our app.
 
 Take this as an example: to look up the first name of the employee for an order, one would write the Power Fx formula or equivalent JavaScript as seen in the animation below. This animation shows the mapping between the parts of the Power Fx formula and the concepts that need to be explicitly coded in the equivalent JavaScript.
 

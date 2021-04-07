@@ -43,4 +43,4 @@ This is isolated from what is happening for the Fill color, these are two entire
 Now there is a time and a place for imperative, step-by-step, logic and Power Fx offers this too. Apps write back changes to databases and start automations with the press of a button, while spreadsheets do not do these things. Whenever possible, for all the benefits cited above and consistency with Excel, we favor the declarative approach.
 
 > [!NOTE]
-> You can find more information on using imperative development techniques in another Learn module, [Use imperative development techniques for canvas apps in Power Apps](../../use-imperative-dev-techniques-powerapps-canvas-app).
+> You can find more information on using imperative development techniques in another Learn module, [Use imperative development techniques for canvas apps in Power Apps](../use-imperative-dev-techniques-powerapps-canvas-app).
