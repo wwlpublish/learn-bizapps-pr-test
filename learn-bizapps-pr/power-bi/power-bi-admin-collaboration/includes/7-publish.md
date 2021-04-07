@@ -9,12 +9,12 @@ The following steps describe how to use Publish to web.
 1. Open a report in a workspace that you can edit and select **More options (...)** > **Embed** > **Publish to web (public)**.
 
    > [!div class="mx-imgBorder"]
-   > [![Graphic of screen shots associated with sharing Power BI content.](../media/7-publish.png)](../media/7-publish.png#lightbox)
+   > [![Screenshot of Power BI Sales and Marketing with the Share menu expanded, Embed report selected, and Publish to web (public) highlighted.](../media/7-publish.png)](../media/7-publish.png#lightbox)
 
 1. If your Power BI admin hasn't allowed you to create embed codes, you may need to contact them.
 
    > [!div class="mx-imgBorder"]
-   > [![Graphic of screen shot associated with sharing Power BI content.](../media/7-contact.png)](../media/7-contact.png#lightbox)
+   > [![Screenshot of the message box showing Contact your admin to enable code creation.](../media/7-contact.png)](../media/7-contact.png#lightbox)
 
    > [!tip]
    > For help finding the person who can enable Publish to web in your organization, see [How to find your Power BI administrator](https://docs.microsoft.com/power-bi/collaborate-share/service-publish-to-web?azure-portal=true#find-your-power-bi-administrator).
@@ -22,12 +22,12 @@ The following steps describe how to use Publish to web.
 1. Review the dialog content and select Create embed code.
 
    > [!div class="mx-imgBorder"]
-   > [![Graphic of screen shot associated with creating embed code.](../media/7-code.png)](../media/7-code.png#lightbox)
+   > [![Screenshot of the Embed in a public website dialog with an arrow to the Create embed code button.](../media/7-code.png)](../media/7-code.png#lightbox)
 
 1. Review the warning, as shown here, and confirm that the data is okay to embed in a public website. If it is, select **Publish**.
 
    > [!div class="mx-imgBorder"]
-   > [![Graphic of screen shot associated creating embed code.](../media/7-warning.png)](../media/7-warning.png#lightbox)
+   > [![Screenshot of the Embed in a public website dialog with the warning.](../media/7-warning.png)](../media/7-warning.png#lightbox)
 
 1. In the Success dialog, you see a preview of how the report will look. Select the **Size** and **Default page**.
 
@@ -37,7 +37,7 @@ The following steps describe how to use Publish to web.
    > Make those changes first. Then copy the link to send it in email or copy the HTML to paste into a website. You can embed it in code such as an iFrame or paste it directly into a web page or blog.
    >
    > [!div class="mx-imgBorder"]
-   > [![Graphic of screen shots associated with sharing Power BI content.](../media/7-success.png)](../media/7-success.png#lightbox)
+   > [![Screenshot of the report with the message Success! Your report is ready to share.](../media/7-success.png)](../media/7-success.png#lightbox)
 
 1. If you previously created an embed code for a report and you select **Publish to web**, you won't see the dialogs in steps 2-4. Instead, you see the **Embed code** dialog.
 

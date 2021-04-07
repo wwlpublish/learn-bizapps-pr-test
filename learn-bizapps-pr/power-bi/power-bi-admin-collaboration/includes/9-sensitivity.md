@@ -26,6 +26,6 @@ For Power BI data that has a data sensitivity label and is exported to an Excel,
 
 [Enable sensitivity labels in Power BI - Power BI | Microsoft Docs](https://docs.microsoft.com/power-bi/admin/service-security-enable-data-sensitivity-labels/?azure-portal=true)
 
-[Learn about sensitivity labels - Microsoft 365 Compliance | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels?view=o365-worldwide&azure-portal=true)
+[Learn about sensitivity labels - Microsoft 365 Compliance | Microsoft Docs](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels/?azure-portal=true)
 
 [Data protection in Power BI - Power BI | Microsoft Docs](https://docs.microsoft.com/power-bi/admin/service-security-data-protection-overview/?azure-portal=true)
