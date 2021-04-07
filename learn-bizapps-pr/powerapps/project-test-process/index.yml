@@ -1,24 +1,24 @@
 ### YamlMime:Module 
 uid: learn-bizapps.project-test-process
 metadata: 
- title: Testing and Go Live
- description: The Solution Architect role does not end; the solution must be deployed.
+ title: Testing and go-live
+ description: The solution architect role is continuous; they must also deploy the solution.
  ms.date: 04/01/2021
  author: DaveBeasley  
  ms.author: dbeasley   
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Testing and Go Live
+title: Testing and go-live
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The Solution Architect role does not end; the solution must be deployed.
+  Proper testing is important to help ensure the project's success. The solution architect plays a key role in ensuring a project is properly tested.
 abstract: |  
     In this module, you will: 
-    - Review the Solution Architect’s role with testing and go live
-    - Plan for data migration
-    - Plan for testing
-    - Plan for go live
-prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
+    - Review the solution architect’s role with testing and go-live.
+    - Learn about the data migration process and deployment.
+    - Learn about the testing process.
+    - Discover how to plan for go-live.
+prerequisites: Experience working on Microsoft Power Platform projects as either a junior solution architect, a senior functional consultant, or a senior developer
 iconUrl: /learn/achievements/project-test-process.svg  
 levels:  
 - advanced
