@@ -82,7 +82,7 @@ For example, the Event Contacts chatbot could provide the Sales Project Team mem
 
 1. In the search box, type in **Control,** then under **Actions** select **Apply to each**.
 
-1. In the **Select an output from previous steps**, click in the text box and then select **value** under the **List rows** section**.** Select **Add an action** to continue.
+1. In the **Select an output from previous steps**, click in the text box and then select **value** under the **List rows** section. Select **Add an action** to continue.
     
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Select an output from previous steps box with value selected.](../media/image-28.png)](../media/image-28.png#lightbox)
