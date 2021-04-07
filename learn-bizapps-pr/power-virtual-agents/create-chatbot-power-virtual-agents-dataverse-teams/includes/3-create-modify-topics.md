@@ -55,9 +55,13 @@ For our "Events Contacts" chatbot, we want the chatbot to respond to the questio
 1. Type in the following **Trigger phrases**. Select **Add** between each one.
     
     `who are the event contacts`
+
     `event contacts`
+
     `who to contact for the event`
+
     `event contact information`
+
     `event info`
     
     > [!div class="mx-imgBorder"]
@@ -69,18 +73,16 @@ For our "Events Contacts" chatbot, we want the chatbot to respond to the questio
     
     The event team contacts for North America are:
 
-    **USA**
-    Lynne Robbins `LynneR@contoso.com`
+    **USA:** Lynne Robbins `LynneR@contoso.com`
 
-	**Canada**
-    Lidia Holloway `Lidia@contoso.com`
+	**Canada:** Lidia Holloway `Lidia@contoso.com`
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the trigger phrases and message.](../media/image-8.png)](../media/image-8.png#lightbox)
 
 1. Select the **+** symbol under the **Message** node to add another conversation node.
 
-1. Select **Go to another topic -> End of Conversation**.
+1. Select **Go to another topic > End of Conversation**.
     
     The **End of Conversation** is a **System topic** on how to end the conversation. This system topic asks the user about the accuracy of the results and to rate their experience. All system topics can be edited to customize the experience in the Topics screen.
     
