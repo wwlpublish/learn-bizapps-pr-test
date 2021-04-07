@@ -11,7 +11,7 @@ metadata:
 title: Testing and go-live
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The solution architect role is continuous; they must also deploy the solution.
+  Proper testing is important to help ensure the project's success. The solution architect plays a key role in ensuring a project is properly tested.
 abstract: |  
     In this module, you will: 
     - Review the solution architect’s role with testing and go-live.
