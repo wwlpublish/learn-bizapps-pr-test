@@ -1,3 +1,5 @@
+After that quick background on low code development, both you and Kiana have noticed similarities and differences between the programming languages you've traditionally used to build applications, like C# and JavaScript, and Power FX used in Power Apps.
+
 Microsoft Power Fx is the low code language for expressing logic inside of canvas-based Power Apps. Power Fx is inspired by Microsoft Excel, and follows many of the patterns found in Excel expressions.
 
 ## Expressions and Formulas

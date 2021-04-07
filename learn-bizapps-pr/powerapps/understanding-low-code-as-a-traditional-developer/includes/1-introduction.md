@@ -1,17 +1,19 @@
-The growth of Microsoft Power Apps has led many traditional developers to take a look at Power Apps. When they do, they into an app development model that is _like_ other development environments, but not quite the same. While Power Apps has been built in order to allow more people to achieve more by building apps, it can also be a valuable tool for traditional developers looking to create apps quickly, iterate through testing, and get those apps in front of users on tablets, phones, and on the web faster than ever before.
+The growth of Microsoft Power Apps has led many traditional developers to take a look at Power Apps. When they do, they step into an app development model that is _like_ other development environments, but not quite the same. While Power Apps has been built in order to allow more people to achieve more by building apps, it can also be a valuable tool for traditional developers looking to create apps quickly, iterate through testing, and get those apps in front of users on tablets, phones, and on the web faster than ever before.
 
 This module will help bridge the gap between your existing traditional development knowledge and how Power Apps works including app logic, user interface creation, and data flow.
 
 ## Setting the scene
 
-The management at VanArsdel, Ltd have decided to allow the business users in the office to start using Power Apps in order to scale how quickly applications can be built for the business to get their needs met while continuing to overload their IT organization.
+You work as part of a new Fusion Development Team at VanArsdel, Ltd Heating and Air Conditioning. In a Fusion Development Team, business users develop applications with Power Apps in order to scale how quickly applications can be built. In addition to the built-in capabilities, Power Apps applications may use data and logic provided by the internal IT organization in the form of web APIs. This allows business users to get their needs met faster without overloading their IT organization.
+
+Let's meet your teammates and learn about the business problem you'll solve.
 
 :::row:::
   :::column span="4":::
-    Kiana Anderson is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of VanArsdel's applications but is getting stretched thin by all the new requests. Kiana has heard of Power Apps, and would like to learn what it can do on its own before using her full-stack skills to add more capabilities to the platform.
+    Kiana is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of VanArsdel's applications but is getting stretched thin by all the new requests. Kiana has heard of Power Apps, and would like to learn what it can do on its own before using her full-stack skills to add more capabilities to the platform.
   :::column-end:::
   :::column:::
-    ![Cartoon depiction of Crystal](../../../shared/media/crystal.png)
+    ![Cartoon depiction of Crystal](../../../shared/media/kiana.png)
   :::column-end:::
 :::row-end:::
 
@@ -19,16 +21,18 @@ Kiana has been supporting a long-running forms-over-data app written in ASP.NET 
 
 :::row:::
   :::column span="4":::
-    Maria Zelaya works in inventory management and makes sure Munson's runs like a well-oiled machine. She verifies the warehouse has enough materials on hand and if not orders more using a legacy system that Crystal wrote. But more than that—she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
+    Maria works in inventory management and makes sure VanArsdel runs like a well-oiled machine. She verifies the warehouse has enough materials on hand and if not orders more using a legacy system that Kiana wrote. But more than that—she performs audits on the inventory, checks with vendors for the best prices, and other inventory supply management tasks.
   :::column-end:::
   :::column:::
     ![Cartoon depiction of Maria](../../shared/media/maria.png)
   :::column-end:::
 :::row-end:::
 
-Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals develop applications that are easy to create and deploy. She will provide Crystal with requirements for the new app, and do some work on the Power Apps mobile app with her as well.
+Maria has been studying up on Power Apps in her spare time. She believes that Power Apps excels at enabling business professionals develop applications that are easy to create and deploy. She will provide Kiana with requirements for the new app, and do some work on the Power Apps mobile app with her as well.
 
 ## What Is "Low Code", and how is it used in Canvas-based Power Apps?
+
+You and Kiana have worked on the same "high code" or traditional development team at VanArsdel for a long time. You've developed everything from .NET Core Console applications to ASP.NET Core web APIs to reusable libraries shared via NuGet together. As you sit down to learn Power Apps from a traditional development background, it helps to understand what is meant by "low code".
 
 The term "low code" can mean different things to different people when they first hear it. What we mean when we talk about low code is that with tools like Power Apps, you only need to write a small amount of code to get results that would normally take several more lines of code in a traditional programming language.
 
@@ -54,7 +58,7 @@ Orders and Customers are two different tables, related through a many-to-one rel
 
 ### Projection.
 
-When writing a query, many developers will naively write “select * from …” that brings back all the columns of data. Power Fx does analysis of all the columns that are used through the entire app, even across formula dependencies. Projection is automatically optimized and again the maker need not even know what that word means.
+When writing a query, many developers will write “select * from …” that brings back all the columns of data. Power Fx does analysis of all the columns that are used through the entire app, even across formula dependencies. Projection is automatically optimized and again the maker need not even know what that word means.
 
 ### Retrieve only what is needed.
 
@@ -66,11 +70,11 @@ We defined a formula for the Text property of the label control. As the variable
 
 ### Excel syntax translation.
 
-Excel is used by hundreds of millions of users, most of which know that “&” is used for string concatenation. JavaScript uses “+” and other languages use “.”. We are meeting makers where they are, leveraging the knowledge they already have.
+Excel is used by hundreds of millions of users, most of which know that “&” is used for string concatenation. JavaScript uses “+” and other languages use “.”. Power Fx is meeting makers where they are, leveraging the knowledge they already have.
 
 ### Display names and localization.
 
-'First Name' is used in the Power Fx formula while nwind_firstname is used in the JavaScript equivalent. In Dataverse and SharePoint, there is a display name for fields and tables as well as a unique logical name. The display names are often much more user friendly, as in this case, but they have another important quality: they can be localized. If you have a multi-lingual team, each team member can see table and field names in their own language. In all cases, Power Fx makes sure that the correct logical name is sent to the database automatically.
+'First Name' is used in the Power Fx formula while nwind_firstname is used in the JavaScript equivalent. In [Dataverse](https://docs.microsoft.com/powerapps/maker/data-platform/) and SharePoint, there is a display name for fields and tables as well as a unique logical name. The display names are often much more user friendly, as in this case, but they have another important quality: they can be localized. If you have a multi-lingual team, each team member can see table and field names in their own language. In all cases, Power Fx makes sure that the correct logical name is sent to the database automatically.
 
 ### Always live
 
