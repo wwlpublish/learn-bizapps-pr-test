@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.2-understanding-power-fx
+uid: learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.3-understanding-power-fx
 title: Understanding Power Fx
 metadata:
   title: Understanding Power Fx
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 5
 content: | 
-  [!include[](includes/2-understanding-power-fx.md)]
+  [!include[](includes/3-understanding-power-fx.md)]

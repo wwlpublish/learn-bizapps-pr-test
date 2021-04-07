@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.3-create-your-first-app-as-a-traditional-developer
+uid: learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.4-create-your-first-app-as-a-traditional-developer
 title: Exercise - Create Your First Power Apps App as a Traditional Developer
 metadata:
   title: Exercise - Create Your First Power Apps App as a Traditional Developer
@@ -11,4 +11,4 @@ metadata:
   ms.prod: learning-powerapps
 durationInMinutes: 10
 content: | 
-  [!include[](includes/3-create-your-first-app-as-a-traditional-developer.md)]
+  [!include[](includes/4-create-your-first-app-as-a-traditional-developer.md)]
