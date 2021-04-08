@@ -1,8 +1,10 @@
 With the Power BI Publish to web option, you can easily embed interactive Power BI content in blog posts, websites, emails, or social media. You can also easily edit, update, refresh, or stop sharing your published visuals.
 
-**Note:** Publish to web is disabled by default. Power BI admins can enable this feature in the Admin portal tenant settings export and sharing settings.
+> [!Note]
+> Publish to web is disabled by default. Power BI admins can enable this feature in the Admin portal tenant settings export and sharing settings.
 
-**Warning! Proceed with caution**. When you use Publish to web, anyone on the Internet can view your published report or visual. Viewing requires no authentication. These factors of Publish to web make it an excellent option for publishing public relations material. It includes viewing detail-level data that your reports aggregate. Before publishing a report, make sure it's okay for you to share the data and visualizations publicly. Don't publish confidential or proprietary information. If in doubt, check your organization's policies before publishing.
+> [!Warning]
+> **Proceed with caution**. When you use Publish to web, anyone on the Internet can view your published report or visual. Viewing requires no authentication. These factors of Publish to web make it an excellent option for publishing public relations material. It includes viewing detail-level data that your reports aggregate. Before publishing a report, make sure it's okay for you to share the data and visualizations publicly. Don't publish confidential or proprietary information. If in doubt, check your organization's policies before publishing.
 
 The following steps describe how to use Publish to web.
 
