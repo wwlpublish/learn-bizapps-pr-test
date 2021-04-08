@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.power-platform-architecture.4-data
-title: Working with Data
+title: Work with data
 metadata:
-  title: Working with Data
-  description: Using data with Connectors and Microsoft Dataverse
+  title: Work with data
+  description: Learn how to use data with connectors and Microsoft Dataverse.
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley 
