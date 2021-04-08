@@ -1,6 +1,6 @@
 Analytics play a major role in solutions that are developed for Microsoft Power Platform. Analytics and insights can be delivered with Power Platform in several different ways. The solution architect will need to evaluate the ways for implementing reporting and analytics in the solution.
 
-Artificial intelligence (AI) is becoming more important in enhancing the apps and data in business solutions. Accordingly, the solution architect will need to evaluate the options for using AI within Power Platform solutions.
+AI is becoming more important in enhancing the apps and data in business solutions. Accordingly, the solution architect will need to evaluate the options for using AI within Power Platform solutions.
 
 ## Reporting and insights
 
