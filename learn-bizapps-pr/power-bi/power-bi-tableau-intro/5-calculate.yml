@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.power-bi-tableau-intro.5-calculate 
-title: Understand the CALCULATE function
+title: CALCULATE function
 metadata: 
-  title: Understand the CALCULATE function
-  description: Learn to use the CALCULATE function to control row and filter context.
+  title: CALCULATE function
+  description: Learn how to use the CALCULATE function to control row and filter context.
   ms.date: 03/31/2021 
   author: heyrob 
   ms.author: robde 

@@ -1,1 +1,9 @@
-In this module, you made the leap from Tableau to Power BI. You learned how the differences between Tableau and Power BI with its terminology around the visualization tools and connection types. You learned how to make your analyses function correctly when using multiple tables with relationships. You learned how to create a visualization in Power BI and how it compares to the Tableau visualization process. You learned how to do conditional formatting in Power BI and compare it to the calculation-heavy approach in Tableau. Lastly, you learned how to analyze the performance of your report elements with the Performance Analyzer.
+In this module, you switched from using Tableau to Microsoft Power BI. 
+
+Additionally, you learned how to:
+
+- Identify differences between Tableau and Power BI regarding terminology around the visualization tools and connection types. 
+- Make your analyses function correctly when using multiple tables with relationships. 
+- Create a visualization in Power BI and compare it to the Tableau visualization process. 
+- Apply conditional formatting in Power BI and compare it to the calculation-heavy approach in Tableau. 
+- Analyze the performance of your report elements by using Performance Analyzer.
