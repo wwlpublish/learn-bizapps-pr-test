@@ -3,7 +3,7 @@ uid: learn-bizapps.power-platform-architecture.7-availability
 title: High availability and disaster recovery considerations
 metadata:
   title: High availability and disaster recovery considerations
-  description: Consider how to include high availability in the solution design
+  description: Learn how to include high availability in the solution design.
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley 
