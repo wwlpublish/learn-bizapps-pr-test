@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-platform-architecture
 metadata: 
- title: Power Platform Architecture
- description: Learn about the Power Platform architecture.
+ title: Power Platform architecture
+ description: Learn about Microsoft Power Platform architecture.
  ms.date: 04/01/2021
  author: DaveBeasley  
  ms.author: dbeasley   
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Power Platform Architecture
+title: Power Platform architecture
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The Solution Architect is responsible for the overall design of the solution. Understanding the architecture of the Power Platform control is imperative when designing solutions based on the Power Platform. This module is concerned with the components and capabilities of the Power Platform and how these control the design of your solutions.
+  Solution architects are responsible for overall design of the solution. Understanding the architecture of the Microsoft Power Platform control is imperative when designing solutions based on Power Platform. This module describes the components and capabilities of Power Platform and how they control the design of your solutions.
 abstract: |  
     In this module, you will: 
     - Review the key Power Platform architecture components.
-    - Explore how the platform's design and limits influences solution architectures.
-    - Review how to communicate with the customer on how the platform meets their needs.
-prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
+    - Explore how the platform's design and limits can influence solution architectures.
+    - Review how to communicate with the customer on how the platform can meet their needs.
+prerequisites: Experience working on Power Platform projects as either a junior solution architect, a senior functional consultant, or a senior developer
 iconUrl: /learn/achievements/power-platform-architecture.svg  
 levels:  
 - advanced
