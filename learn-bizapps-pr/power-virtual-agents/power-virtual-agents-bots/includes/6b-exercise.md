@@ -8,13 +8,11 @@ Customer support costs have continued to rise as the customer base has grown, an
 
 ## Exercise 1: Build your first chatbot 
 
-Power Virtual Agents helps you quickly and easily create AI-powered solutions to some of your customer support challenges - no developers or data scientists required.
-
 In this exercise, you will go through the steps of creating, deploying, and testing your first bot to handle a common customer request.
 
 ### Task 1: Sign in to create a bot 
 
-1.  Go to [https://powerva.microsoft.com/](https://powerva.microsoft.com/?azure-portal=true) and select **Sign in**. Sign in with your own work or school account or test account you set up in Lab 01.
+1.  Go to [https://powerva.microsoft.com/](https://powerva.microsoft.com/?azure-portal=true) and select **Sign in**. Sign in with your own work or school account.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the sign in message for accessing your Power Virtual Agents account.](../media/lab-1.png)](../media/lab-1.png#lightbox)
