@@ -22,7 +22,11 @@ The Power BI dashboard that the tile is from must be shared with the users of th
 
 We do not recommend that you have more than three Power BI tiles loaded at the same time within an app. The **LoadPowerBIContent** property controls the loading of Power BI content. When this property is set to **true**, the Power BI content is loaded and shown. When the property is set to **false**, the Power BI content is unloaded, which releases memory and optimizes performance.
 
-It is possible to pass a parameter of type string to the Power BI tile from the canvas app by modifying the **TileURL** property and appending &$filter=<TableName>/<ColumnName> eq '<Value>'. This action allows the tile to be filtered by a value in the canvas app.
+It is possible to pass a parameter of type string to the Power BI tile from the canvas app by modifying the **TileURL** property and appending 
+
+``` &$filter=<TableName>/<ColumnName> eq '<Value>'
+```
+This action allows the tile to be filtered by a value in the canvas app.
 
 A canvas app can be embedded within a Power BI report. The canvas app can interact with the other visuals in the report. A Power Apps visual can be added to the report. The canvas app uses the **PowerBIIntegration** object to integrate the canvas app with Power BI.
 
