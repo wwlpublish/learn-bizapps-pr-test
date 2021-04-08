@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.architect-analytics.1-introduction
-title: Introduction to Analytics and Artificial Intelligence
+title: Introduction
 metadata:
-  title:  Introduction to Analytics and Artificial Intelligence
-  description: The role of the solution architect in reporting and insights.
+  title: Introduction
+  description: Introduction to evaluating Power Platform analytics and AI as a solution architect
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley

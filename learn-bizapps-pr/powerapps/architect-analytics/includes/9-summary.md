@@ -1,19 +1,15 @@
-# Summary
+Reporting and analytics are an important part of the digital feedback loop of an organization. Analytics and insights can be delivered in several different ways with Power Platform. The solution architect needs to evaluate the ways for implementing reporting and, when possible, look for opportunities to be more predictive than reactive when looking at reports and analytics.
 
-Reporting and analytics are an important part of the digital feedback loop of an organization. There are many ways for analytics and insights to be delivered with the Power Platform. The solution architect needs to evaluate the ways for implementing reporting and When possible look for opportunities to be more predictive than reactive looking at reports and analytics.
+In this module, you reviewed the role of the solution architect in relation to analytics and AI, including:
 
-In this module, you looked at the role of the solution architect in relation to analytics and AI, including:
+- Planning and evaluating requirements
 
-    - Planning and evaluating requirements
+- Reporting capabilities of Power Platform
 
-    - Reporting capabilities of the Power Platform
+- Power BI
 
-    - Power BI
-
-    - Enterprise BI
-
-    - Artificial Intelligence
+- Enterprise BI
 
 ## Next steps
 
-The next steps are to look at the architecture of Power Apps to learn the capabilities of the Power Apps to design solutions to business problems.
+The next steps are to look at the architecture of Power Apps to learn the capabilities of Power Apps when designing solutions to business problems.

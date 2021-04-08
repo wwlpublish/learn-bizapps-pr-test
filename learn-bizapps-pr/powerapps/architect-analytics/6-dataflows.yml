@@ -3,7 +3,7 @@ uid: learn-bizapps.architect-analytics.6-dataflows
 title: Dataflows
 metadata: 
   title: Dataflows
-  description: Use Dataflows to extract, transform, and load data for Power BI
+  description: Use dataflows to extract, transform, and load data for Power BI.
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley
