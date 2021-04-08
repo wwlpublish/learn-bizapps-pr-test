@@ -1,6 +1,6 @@
 Dataflows are cloud-based extract, transform, and load (ETL) services that help you ingest data from various sources and then convert it into an analysis-ready form. Dataflows can be used by Power BI to process and ingest large volumes of data.
 
-![Diagram of Dataflow process.](../media/6-dataflows-self-service.png)
+![Diagram showing the Dataflow process to dashboards.](../media/6-dataflows-self-service.png)
 
 Dataflows are designed to support the following scenarios:
 
@@ -12,7 +12,7 @@ Dataflows are designed to support the following scenarios:
 
 Dataflows can transform data by using Power Query and enrich data by using Microsoft Azure Cognitive Services and Azure Machine Learning, as shown in the following diagram.
 
-![Diagram of Dataflow capabilities.](../media/6-dataflows.png)
+![Diagram showing the Dataflow capabilities.](../media/6-dataflows.png)
 
 After you’ve created a dataflow, you can use Power BI Desktop and Power BI service to create datasets, reports, dashboards, and apps that use Common Data Model to drive in-depth insights into your business data.
 
@@ -36,7 +36,7 @@ Enterprise BI, where data is extracted for use in broader enterprise reporting t
 
 The following diagram shows use of Data Export Service to extract data from Dataverse and populate a data warehouse that reporting tools such as Power BI can use.
 
-![Diagram of Dataflow process.](../media/6-enterprise-reporting.png)
+![Diagram showing the inputs of Dataflow process.](../media/6-enterprise-reporting.png)
 
 > [!NOTE]
 > You could substitute Export to Azure Data Lake in place of Data Export Service.
