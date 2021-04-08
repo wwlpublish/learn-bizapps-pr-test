@@ -11,7 +11,7 @@ metadata:
 title: Model security for Power Platform solutions
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The solution architect's role in security modeling for the Power Platform. This module is about the security options for your tenant and environments, and access to data and functionality within Dataverse.
+  This model covers the solution architect's role in security modeling for the Power Platform. Security options for your tenant and environments, and access to data and functionality within Dataverse.
 abstract: |  
     In this module, you will learn about: 
     - The Solution Architect’s role in security modeling
