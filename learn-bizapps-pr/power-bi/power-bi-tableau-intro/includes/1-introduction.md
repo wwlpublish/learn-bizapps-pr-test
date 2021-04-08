@@ -17,9 +17,6 @@ The following sections further explain these report building stages, which are n
 
 The goal of data preparation is to make the data accessible for users, analysts, customers, partners, coworkers, etc. To prepare the data, you would use Power Query Editor, which has rich formatting capabilities. This tool, which is built into Power BI Desktop, provides you with the ability to connect to many different data sources and transform your data to your preference. As a result, you can explore and visualize the data to gain insights. Power Query Editor is intuitive and offers the analyst numerous transformation options.
 
-> [!div class="mx-imgBorder"]
-> [![Power Query Editor allows analysts to connect, clean, and transform data. This tool is similar to what is offered in Tableau Prep and Alteryx.](../media/tableau-prep-vs-power-query.png)](../media/tableau-prep-vs-power-query.png#lightbox)
-
 ## Explore your data
 
 After the data has been prepared and organized, you would explore the data with Power BI Desktop. Similar to Tableau Desktop, using Power BI Desktop is a great way to help you become familiar with the data. You can set up calculations by using the Data Analysis Expressions (DAX) language to keep your reports dynamic. These calculations will further explore the data when you apply filters. You can also define relationships, which allows you to analyze data from multiple, disparate data sources.

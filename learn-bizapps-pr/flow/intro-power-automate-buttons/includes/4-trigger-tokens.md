@@ -37,21 +37,21 @@ The prerequisites for this example are a Microsoft account with access to Micros
 The following steps can help you create a Microsoft Power Automate mobile app for
 your Android or IOS smart phone.
 
-1.  In your Microsoft Power Automate app, select the **Flows** icon, which is available at the bottom of the app. Select the plus icon (**+**) in the upper right.
+1. In your Microsoft Power Automate app, select the **Flows** icon, which is available at the bottom of the app. Select the plus icon (**+**) in the upper right.
 
-1.  You should see a menu option slide up from the bottom of the page. Select the **Create from blank** option.
+1. You should see a menu option slide up from the bottom of the page. Select the **Create from blank** option.
 
-1.  In the **Connectors** field, select the **Flow button for mobile** option. If you don't see the option, then search for it by using **Search all connectors and triggers** and then select it.
+1. In the **Connectors** field, select the **Flow button for mobile** option. If you don't see the option, then search for it by using **Search all connectors and triggers** and then select it.
 
-1.  In the **Manually trigger a flow** trigger, select **+ Add an input**. Select **Text** by selecting **Input**, deleting Input, and then entering **Reason**. Select **Done** in the upper right of the page.
+1. In the **Manually trigger a flow** trigger, select **+ Add an input**. Select **Text** by selecting **Input**, deleting Input, and then entering **Reason**. Select **Done** in the upper right of the page.
 
-1.  Select **+ New step**.
+1. Select **+ New step**.
 
-1.  Select **Add an action**.
+1. Select **Add an action**.
 
-1.  In the **Connectors** field, select the **Office 365 Users** option. If you don't see the option, then search for it by using **Search all connectors and triggers** and then select it.
+1. In the **Connectors** field, select the **Office 365 Users** option. If you don't see the option, then search for it by using **Search all connectors and triggers** and then select it.
 
-1.  Select **Office 365 Users Get Manager (V2)**.
+1. Select **Office 365 Users Get Manager (V2)**.
 
 1. Enter your email address in the **User (UPN)** field.
 
@@ -69,7 +69,7 @@ your Android or IOS smart phone.
 
 1. Select **Body**, enter **Hi**, and then add a space. Then, in the **Get Manager (V2)** field, select **See more** and then select **Display Name**.
 
-1. Select **Return** to take the cursor to the next line and then enter, **I'll be arriving to work late due to a traffic jam. My current location:** 
+1. Select **Return** to take the cursor to the next line and then enter, **I'll be arriving to work late due to a traffic jam. My current location:**
 
 1. Select **Return** to take the cursor to the next line.
 
@@ -79,7 +79,7 @@ your Android or IOS smart phone.
 
    Your flow should resemble the following image.
 
-	![First flow completed view](../media/first-flow-completed-view.png)
+   ![Screenshot of the first flow completed.](../media/first-flow-completed-view.png)
 
 1. When you select the **Buttons** option that is available on the bottom of the page, you should see a circular button called **Late to work**. When you select the button, you can add the **Reason** and then select **Done** in the upper right of the screen.
 
