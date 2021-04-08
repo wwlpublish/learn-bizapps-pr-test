@@ -1,6 +1,6 @@
 Microsoft Power BI is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Whether your data is a simple Microsoft Excel workbook or a collection of cloud-based and on-premises hybrid data warehouses, Power BI helps you connect to your data sources, visualize (or discover) what's important, and share that with anyone you want.
 
-![Dataverse reporting options.](../media/3-power-bi.png)
+![Diagram showing Dataverse reporting options.](../media/3-power-bi.png)
 
 Power BI can be simple and fast, capable of creating quick insights from an Excel workbook or a local database. However, Power BI is also robust and enterprise-grade, ready for extensive modeling and real-time analytics and for custom development. Therefore, while it can be your personal report and visualization tool, it can also serve as the analytics and decision engine behind group projects, divisions, or entire corporations.
 
@@ -37,7 +37,7 @@ Common Power BI visualization types:
 
 The quick insights feature generates visualizations based on your data. Power BI applies a set of sophisticated algorithms to discover potentially interesting trends and patterns and then generates visuals that you use.
 
-![Dataverse reporting options.](../media/3-power-bi-insights.png)
+![Diagram Dataverse Power BI report option.](../media/3-power-bi-insights.png)
 
 Some AI powered visualizations that a solution architect should consider include:
 
@@ -59,7 +59,7 @@ Two options for using Dataverse data in Power BI are:
 
 The process for creating Power BI visualizations is shown in the following diagram.
 
-![Dataverse reporting options.](../media/3-process.png)
+![Diagram of Dataverse reporting options in various apps.](../media/3-process.png)
 
 After you have connected to a Dataverse environment, perform the following series of activities to prepare and model the data:
 
@@ -93,7 +93,7 @@ When using Power BI, you need understand how security on rows is applied. The se
 
 Power BI uses the concept of row-level security (RLS) to restrict data access for given users. Filters restrict data access at the row level, and you can define filters within roles. RLS is configured in Power BI desktop by using rules.
 
-![Screenshot of Row Level Security.](../media/3-row-level-security.png)
+![Screenshot showing the Row Level Security.](../media/3-row-level-security.png)
 
 Characteristics of row-level security are that it:
 
