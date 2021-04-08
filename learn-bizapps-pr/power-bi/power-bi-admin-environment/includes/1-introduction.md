@@ -37,6 +37,3 @@ Keep the following in mind when considering tenant location:
 
 - Think about other Azure services the organization might be considering. Choosing the wrong location could result in Egress charges.
 
-For more information on how Power BI assigns the data region that a tenant uses, review this video.
-
-> [!video https://www.youtube.com/embed/0fOxaHJPvdM?showinfo=0]
