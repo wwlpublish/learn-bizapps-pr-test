@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.power-platform-architecture.3-location
-title: Environment Data Location
+title: Environment data location
 metadata:
-  title: Environment Data Location
-  description: Determining the location for Power Platform environments and data
+  title: Environment data location
+  description: Learn how to determine the location for Power Platform environments and data.
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley 
