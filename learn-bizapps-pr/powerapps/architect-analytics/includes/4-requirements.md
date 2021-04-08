@@ -38,7 +38,7 @@ Other security considerations:
 - Power BI content in shared model-driven app dashboards must also be shared in Power BI.
 - Shared dashboards are refreshed in context of the report owner, not the user who is viewing the dashboard.
 - Determine whether row-level security (RLS) needs to be configured or not.
-- Assess if you should exclude or obfuscate secure fields and PII data.
+- Assess if you should exclude or obfuscate secure fields and personal data.
 - Examine aggregating data in the query.
 - Limit the export data options in Power BI.
 
