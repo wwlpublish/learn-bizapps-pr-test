@@ -27,7 +27,7 @@ With connectors, you can:
 
 Connectors allow you to build your apps without having to migrate the data, which can be time-consuming or costly.
 
-Microsoft Dataverse should be your data source of choice for new data stores or where you want to use Dataverse capabilities (which will be described subsequently) or features of Power Platform such as AI Builder or Portal Apps.
+Microsoft Dataverse should be your data source of choice for new data stores or where you want to use Dataverse capabilities (which will be described subsequently) or features of Power Platform such as AI Builder or Power Apps portals Apps.
 
 ## Custom connectors
 
