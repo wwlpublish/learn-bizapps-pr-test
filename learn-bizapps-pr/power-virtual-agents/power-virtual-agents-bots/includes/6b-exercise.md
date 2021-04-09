@@ -207,7 +207,7 @@ You may recall that when we made a copy of the Lesson 2 topic, the copy was crea
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the toggle phrases status.](../media/lab-23.png)](../media/lab-23.png#lightbox)
 
-1.  In the bottom-left corner of the page, select **Test your bot**. Make sure the **Track between topics** toggle is set to the**On** position. In the test bot, enter **Is there a store near me?** and select the **Send** button.
+1.  In the bottom-left corner of the page, select **Test your bot**. Make sure the **Track between topics** toggle is set to the **On** position. In the test bot, enter **Is there a store near me?** and select the **Send** button.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Track between topics toggle and the Is there a store near me? message.](../media/lab-24.png)](../media/lab-24.png#lightbox)
