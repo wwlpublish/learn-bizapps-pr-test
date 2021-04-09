@@ -15,6 +15,6 @@ The following is an example of an audit log search.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power BI audit log search report.](../media/4-log.png)](../media/4-log.png#lightbox)
 
-The Power BI audit log search is primarily a manual task. However, a new cmdlet to enable Power BI admins to download the Power BI activity log should be available shortly. The Power BI activity log is the set of audit events specific to Power BI.
+The Power BI audit log search is primarily a manual task. The Power BI activity log is the set of audit events specific to Power BI.
 
 For additional information about Power BI audit logs, review [Track user activities in Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-auditing/?azure-portal=true).
