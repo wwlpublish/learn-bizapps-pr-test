@@ -1,4 +1,4 @@
-A Power BI tenant is an additional service subscription and a part of an Office 365 suite that is attached to a domain. Understanding the tenant location is important. It can affect the interactions you have with the service based on local governmental regulations such as privacy laws.
+A Power BI tenant is an additional service subscription and a part of an Office 365 suite that is attached to a domain. Understanding the tenant location is important. It can affect the interactions you have with the service based on local governmental regulations such as privacy laws. 
 
 When setting up a Power BI environment, you need to understand in which Azure data store the Power BI tenant will be located. Tenant location is based on an organization's Office 365 country or Azure Active Directory (AAD) data center.
 
