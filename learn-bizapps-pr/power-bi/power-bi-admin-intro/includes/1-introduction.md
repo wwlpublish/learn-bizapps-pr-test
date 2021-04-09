@@ -1,4 +1,4 @@
-The explosion of data permeating all organizations is changing the way we interact with data and the way we seek to draw intelligence from this vast and often untapped potential.
+The explosion of data permeating all organizations is changing the way we interact with data and the way we seek to draw intelligence from this vast and often untapped potential. 
 
 - It's estimated that in 2020 fifty zettabytes of data had been created - this is 20,000 times the total amount of data that existed in the world less than three decades ago.
 
