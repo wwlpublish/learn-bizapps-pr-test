@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.power-platform-architecture.1-introduction
-title: Introduction to the Power Platform Architecture
+title: Introduction
 metadata:
-  title: Introduction to the Power Platform Architecture
-  description: Overview of the Power Platform architecture, capabilities, and components
+  title: Introduction
+  description: Overview of Power Platform architecture, capabilities, and components
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley 

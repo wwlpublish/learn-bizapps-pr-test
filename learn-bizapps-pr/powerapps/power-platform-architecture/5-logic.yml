@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.power-platform-architecture.5-logic
-title: Custom Logic
+title: Custom logic
 metadata:
-  title: Custom Logic
-  description: Creating custom logic
+  title: Custom logic
+  description: Learn how to create custom logic.
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley 
