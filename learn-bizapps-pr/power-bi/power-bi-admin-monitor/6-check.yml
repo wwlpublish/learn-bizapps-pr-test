@@ -43,7 +43,7 @@ quiz:
       explanation: The metrics reports are read-only. There is no Power BI report converter and you do not have a settings option through the O365 admin portal that allows you to request an editable Power BI object.
   - content: Which one of the following statements accurately describes searching through a Power BI activity log?
     choices: 
-    - content: It is currently a manual task but a cmdlet will be available soon
+    - content: It is currently a manual task
       isCorrect: true 
       explanation: There currently is no user interface to search the activity logs.
     - content: You can use the Microsoft 365 security center to search an audit log
