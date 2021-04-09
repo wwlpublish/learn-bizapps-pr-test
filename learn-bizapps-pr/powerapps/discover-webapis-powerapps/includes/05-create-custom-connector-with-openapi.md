@@ -1,5 +1,16 @@
 In this exercise you'll learn how to create a custom connector from an OpenAPI document.
 
+<!-- NOTE to REVIEWER - The download link for this module can be found at https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip . -->
+
+> [!NOTE]
+> Download the artifact file to your local computer to complete this exercise. After downloading the file, you will need to unzip it. Suppose you already know the API access key from the previous exercise unit.
+> 
+> [Download: ASP.NET Core Web API with Azure API Management][artifacts].
+> 
+> 1. Select the download button on the middle-right of the screen.
+> 1. Unzip the `artifacts.zip` file.
+> 1. Find the `openapi.json` file.
+
 > [!NOTE]
 > To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
 
@@ -49,3 +60,5 @@ You have completed creating a custom connector for inventory management.
 
 [pa]: https://powerapps.microsoft.com/
 [pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
+
+[artifacts]: https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip

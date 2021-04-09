@@ -2,10 +2,10 @@ Maria needs to display warehouse locations in her Power Apps app. Crystal and he
 
 The web APIs are served through [Azure API Management][az apim], which has the ability to create custom connectors for any web APIs it hosts. With the custom connector, Maria's Power Apps app will be able to call the warehouse location API in Azure API Management.
 
-<!-- NOTE to REVIEWER - The download link for this module can be found at https://github.com/justinyoo/inventory-management-demo-web-api, which will be transferred to the MicrosoftDocs org. -->
+<!-- NOTE to REVIEWER - The download link for this module can be found at https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip . -->
 
 > [!NOTE]
-> Download the artifact file to your local computer to complete this exercise. You may need to [install Azure CLI][az cli install] if you don't have it.
+> Download the artifact file to your local computer to complete this exercise. After downloading the file, you will need to unzip it. You may need to [install Azure CLI][az cli install] if you don't have it.
 > 
 > [Download: ASP.NET Core Web API with Azure API Management][artifacts].
 > 
@@ -121,4 +121,4 @@ You have completed creating a custom connector for inventory management.
 [pa]: https://powerapps.microsoft.com/
 [pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
 
-[artifacts]: https://github.com/justinyoo/inventory-management-demo-web-api/blob/main/artifacts.zip
+[artifacts]: https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip
