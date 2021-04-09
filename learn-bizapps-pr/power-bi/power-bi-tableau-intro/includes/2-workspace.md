@@ -28,19 +28,19 @@ In the Power BI Desktop **Report** view, you can build visualizations and report
 
 1. The ribbon at the top, which displays common tasks that are associated with reports and visualizations.
 
-1. The canvas area in the middle, where visualizations are created and arranged.
+1. The canvas area in the middle, where you can create and arrange visualizations.
 
-1. The pages tab area at the bottom, which lets you select or add report pages.
+1. The pages tab area at the bottom, where you can select or add report pages.
 
 1. The **Filters** pane, where you can filter data visualizations.
 
 1. The **Visualizations** pane, where you can add, change, or customize visualizations and apply interactions.
 
-1. The **Fields** pane, which shows the available fields that can be dragged onto the canvas, **Filters** pane, or **Visualizations** pane to create or modify visualizations.
+1. The **Fields** pane, which shows the available fields that you can drag onto the canvas, **Filters** pane, or **Visualizations** pane to create or modify visualizations.
 
 > [!div class="mx-imgBorder"]
 > [![The Power BI workspace with each function defined.](../media/power-bi-build-reports.png)](../media/power-bi-build-reports.png#lightbox)
 
 ## Share your work
 
-Now that you have a Power BI Desktop report, you can share it with other users. You can either distribute the .pbix file like any other file, upload the .pbix file from Power BI service, or you can publish directly from Power BI Desktop to Power BI service.
+Now that you have a Power BI Desktop report, you can share it with other users. You can either distribute the .pbix file like any other file, load the .pbix file from Power BI service, or you can publish directly from Power BI Desktop to Power BI service.
