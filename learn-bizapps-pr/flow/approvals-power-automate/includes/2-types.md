@@ -1,37 +1,37 @@
-The **Create an approval action** starts an automated approval process but does not wait for the approval to complete. The approval is cancelable.
+The **Create an approval** action starts an automated approval process but doesn't wait for the approval to complete. You can cancel the approval.
 
-This action can be paired with the **Wait for an approval** action in order to wait for a response.
+If you want to wait for a response, the **Create an approval** action can be paired with the **Wait for an approval** action.
 
-There are four types of approval actions available in Create an approval. They can be summarized into two categories, **Approve/Reject** and **Custom Responses.**
+Four types of approval actions are available in the **Create an approval** action, and they can be summarized into two categories: **Approve/Reject** and **Custom Responses**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the four approval actions available.](../media/four-create-approvals.png)](../media/four-create-approvals.png#lightbox)
+> [![Screenshot of the four approval actions that are available.](../media/four-create-approvals.png)](../media/four-create-approvals.png#lightbox)
 
-Below are the two Approval/Reject categories side by side. They look the same, however, they have one key difference and that is the number of approvals required to complete. As the name suggests, the one on the left waits for everyone to approve, and the one on the right requires only one.
+The following screenshot shows the two **Approval/Reject** categories side-by-side. The categories appear similar; however, they have one key difference, which is the number of approvals that are required to complete the action. As their names suggest, the **Everyone must approve** type will wait for everyone to approve, and the **First to respond** type requires only one approval.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of two approval/reject categories with key differences.](../media/approve-reject-types.jpg)](../media/approve-reject-types.jpg#lightbox)
 
-The **Assigned to** is where you add the email addresses of the approvers and can be separated with a semicolon ';'.
+In the **Assigned to** field, you can add the email addresses of the approvers, which you can separate with a semicolon (**;**).
 
-Here is a closer look at the advanced settings. It includes adding a link to a description, attachments, and even assigning a requestor who is sending this approval request.
+The following image provides a closer look at the advanced settings. The settings include the ability to link to a description, add attachments, and even assign a requestor who is sending this approval request.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the advanced settings details.](../media/advanced-settings-create-approval.png)](../media/advanced-settings-create-approval.png#lightbox)
 
-Approve and Reject are the two out-of-box response options available, with Custom Responses, you can add your own options. The Response options item is where you add your options.
+**Approve** and **Reject** are the out-of-the-box response options that are available. With **Custom Responses**, you can add your own options. In the **Response options Item** field, you can add your options.
 
-Below are the two Custom Responses categories side by side. They look the same, however, they have one key difference and that is the number of approvals required to complete. As the name suggests, the one on the left waits for all responses, and the one on the right requires only one.
+The following figure shows two **Custom Responses** categories side-by-side. The categories appear similar; however, they have one key difference, which is the number of approvals that are required to complete the action. As the names suggest, the **Wait for all responses** type will wait for all responses, and the **Wait for one response** type requires only one response.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the two custom response categories with key differences.](../media/custom-approval-reject-types.png)](../media/custom-approval-reject-types.png#lightbox)
 
-Here is a closer look at the advanced settings. It includes adding a link to a description, attachments, and even assigning a requestor who is sending this approval request.
+The following image provides a closer look at the advanced settings. The settings include the ability to add a link to a description, add attachments, and even assign a requestor who is sending this approval request.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot details of the advanced settings fields.](../media/advanced-settings-create-approval.png)](../media/advanced-settings-create-approval.png#lightbox)
 
-The following are all the metadata files that are available along with it.
+The metadata files that are available with the advanced settings include:
 
 -   Approvers Approver name
 
@@ -65,14 +65,14 @@ The following are all the metadata files that are available along with it.
 
 -   Approvers
 
-## How to use Wait for an approval action
+## Use the Wait for an approval action
 
-As the name suggests, this approval waits for a specified approval to complete. It requires the ID of the previous approval.
+As the name suggests, the **Wait for an approval** action waits for a specified approval to complete. It requires the ID of the previous approval.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the wait for an approval action with required ID.](../media/wait-approval.png)](../media/wait-approval.png#lightbox)
+> [![Screenshot of the Wait for an approval action with required ID.](../media/wait-approval.png)](../media/wait-approval.png#lightbox)
 
-Here are all the metadata that are available along with it.
+The metadata that is available with the **Wait for an approval** action includes:
 
 -   Response summary
 
@@ -116,33 +116,33 @@ Here are all the metadata that are available along with it.
 
 -   Responses
 
-## How to use Start and wait for an approval action
+## Use the Start and wait for an approval action
 
-The **Start and wait for an approval** is the most common used approval action.
+The **Start and wait for an approval** action is the most commonly used approval action.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the start and wait for an approval type menu.](../media/start-wait-approval-type-menu.png)](../media/start-wait-approval-type-menu.png#lightbox)
 
-Below are the two Approval/Reject categories side by side. They look the same, however, they have one key difference and that is the number of approvals required to complete. As the name suggests, the one on the left waits for everyone to approve, and the one on the right requires only one.
+The following image shows the two **Approval/Reject** categories side-by-side. The categories appear similar; however, they have one key difference, which is the number of approvals that are required to complete the action. As the names suggest, the **Everyone must approve** type waits for everyone to approve, and the **First to respond** type requires only one approval.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the approval and reject categories with differences noted.](../media/start-wait-approval-types.png)](../media/start-wait-approval-types.png#lightbox)
+> [![Screenshot of the Approval/Eeject categories with differences noted.](../media/start-wait-approval-types.png)](../media/start-wait-approval-types.png#lightbox)
 
-The **Assigned to** is where you add the email addresses of the approvers and can be separated with a semicolon ';'.
+In the **Assigned to** field, you can add the email addresses of the approvers, which can be separated with a semicolon (**;**).
 
-Here is a closer look at the advanced settings. It includes adding a link to a description, attachments, and even assigning a requestor who is sending this approval request.
+The following image provides a closer look at the advanced settings. The settings include the ability to add a link to a description, add attachments, and even assign a requestor who is sending this approval request.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the details of the advanced settings.](../media/advanced-settings-create-approval.png)](../media/advanced-settings-create-approval.png#lightbox)
 
-Approve and Reject are the two out-of-box response options available, with Custom Responses, you can add your own options. The Response options item is where you add your options.
+**Approve** and **Reject** are the out-of-the-box response options that are available. With **Custom Responses**, you can add your own options. In the **Response options Item** field, you can add your options.
 
-Below are the two Custom Responses categories side by side. They look the same, however, they have one key difference and that is the number of approvals required to complete. As the name suggests, the one on the left waits for all responses, and the one on the right requires only one.
+The following screenshot shows the two **Custom Responses** categories side-by-side. The categories appear similar; however, they have one key difference, which is the number of approvals that are required to complete the action. As the names suggest, the **Wait for all responses** type waits for all responses, and the **Wait for one response** type requires only one response.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the two custom responses with key differences.](../media/start-wait-approval-custom-responses.png)](../media/start-wait-approval-custom-responses.png#lightbox)
 
-The following are all the metadata files that are available along with it.
+The metadata files that are available with the **Start and wait for an approval** action are:
 
 -   Response summary
 
