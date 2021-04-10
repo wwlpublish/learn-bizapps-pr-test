@@ -1,12 +1,13 @@
-Once you have created a custom connector from either Azure API Management or an OpenAPI document, you need to test to make sure it runs as expected, and then use it in in a Power Apps Canvas app.
+Maria now has a custom connector for a web API to use in her Power App application. But before she can use it, she needs to test it to make sure it runs as expected.
 
-## Testing Custom Connector ##
+
+## Testing the custom Connector ##
 
 The last step of creating a custom connector is to check whether it works as expected. Power Apps Studio gives you the ability to test your connector. You can see the functionality in the screenshot below.
 
 ![Custom Connector Test Tab][image-01]
 
-During this testing stage, you can test the connection and the API operations. Here are test results of the custom connector.
+During this testing stage, you can test the connection and the API operations. Here are example test results, both passing and failing, of the custom connector.
 
 ![Test Results][image-02]
 

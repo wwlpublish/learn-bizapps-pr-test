@@ -1,12 +1,12 @@
 You've created the connector, tested it, and now you'll learn how to use it in a canvas app.
 
 > [!NOTE]
-> To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
+> Power Apps requires either an Microsoft 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate][pa pricing].
 
 
-## Create Canvas App ##
+## Create a canvas ppp ##
 
-1. First of all, create a blank canvas app. Go to the `Create` menu at the left-hand side and click the `Canvas app from blank` panel.
+1. First of all, create a blank canvas app. In Power Apps studio go to the `Create` menu at the left-hand side and click the `Canvas app from blank` panel.
 
     ![Create Power Apps][image-01]
 
@@ -18,7 +18,8 @@ You've created the connector, tested it, and now you'll learn how to use it in a
 
     ![Data Pane][image-03]
 
-1. Click the `Add data` button and enter inventory in the search box, and you will see the `InventoryManager` custom connector.
+1. Click the `Add data` button and enter **inventory** in the search box, and you will see the `InventoryManager` custom connector. *(Assuming you named your custom connector `InventoryManager`.)*
+
 
     ![Custom Connector Search][image-04]
 
@@ -69,4 +70,4 @@ You have successfully included the custom connector into your Power Apps app.
 [image-10]: ../media/08-use-custom-connector-in-powerapps-10.png
 [image-11]: ../media/08-use-custom-connector-in-powerapps-11.png
 
-[pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
+[pa pricing]: https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus

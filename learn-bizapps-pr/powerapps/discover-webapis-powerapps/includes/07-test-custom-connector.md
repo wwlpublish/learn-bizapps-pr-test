@@ -1,12 +1,12 @@
 In the last exercise you created a custom connector for your Power Apps app. Now, you will test the connector through this exercise.
 
 > [!NOTE]
-> To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
+> Power Apps requires either an Microsoft 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate][pa pricing].
 
 
-## Test Custom Connector ##
+## Test the custom connector ##
 
-1. You may want to test your custom connector whether it works as expected or not. Go to the `Custom Connectors` menu on the left-hand side and click the `🖋` button on the right-hand side.
+1. To test whether your custom connector works as expected or not, go to the `Custom Connectors` menu on the left-hand side and click the `🖋` button on the right-hand side.
 
     ![Update Custom Connector][image-01]
 
@@ -18,11 +18,9 @@ In the last exercise you created a custom connector for your Power Apps app. Now
 
     ![Custom Connector Test Operation - Success][image-03]
 
-1. You may notice that, for some reason, the web API stops working. In this case you will see an error screen similar to this. If you see this kind of error screen, get your professional development team to fix the error.
+1. If for whatever reason the web API stops working you will see an error screen similar to the one below. If you see this kind of error screen, get your pro-dev team to help fix the error.
 
     ![Custom Connector Test Operation - Fail][image-04]
-
-You have completed testing a custom connector for inventory management.
 
 
 [image-01]: ../media/07-test-custom-connector-01.png
@@ -30,4 +28,4 @@ You have completed testing a custom connector for inventory management.
 [image-03]: ../media/07-test-custom-connector-03.png
 [image-04]: ../media/07-test-custom-connector-04.png
 
-[pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
+[pa pricing]: https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus

@@ -1,28 +1,20 @@
-Maria needs to display warehouse locations in her Power Apps app. Crystal and her development team have built several web APIs to support inventory management, one of which returns the warehouse locations.
+In this exercise you're going to create a custom connector by exporting an API from Azure API Management.
+
+In the VanArsdel fusion development scenario, Maria needs to display warehouse locations in her Power Apps application. Kiana and her development team have built several web APIs one of which returns the warehouse locations.
 
 The web APIs are served through [Azure API Management][az apim], which has the ability to create custom connectors for any web APIs it hosts. With the custom connector, Maria's Power Apps app will be able to call the warehouse location API in Azure API Management.
 
-<!-- NOTE to REVIEWER - The download link for this module can be found at https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip . -->
-
 > [!NOTE]
-> Download the artifact file to your local computer to complete this exercise. After downloading the file, you will need to unzip it. You may need to [install Azure CLI][az cli install] if you don't have it.
+> If you want to use Azure API Management and Power Apps throughout the exercises in this module you will need to follow a couple of steps.
 > 
-> [Download: ASP.NET Core Web API with Azure API Management][artifacts].
+> The first is to download the web API files from GitHub and provision and deploy them to API Management using the instructions included in the README file.
 > 
-> 1. Select the download button on the middle-right of the screen.
-> 1. Unzip the `artifacts.zip` file.
-> 1. Login to Azure via Azure CLI.
-> 1. Run either `Setup.ps1` (PowerShell) or `setup.sh` (Bash).
-
-> [!NOTE]
-> To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
+> The second is Power Apps requires either a Microsoft 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate][pa pricing].
 
 
-## Export Custom Connector from API Management ##
+## Export a web API from API Management to a custom connector ##
 
-Here are the inventory management API details hosted by API Management.
-
-1. In order to access API Management from Power Apps, you should have a subscription key. Go to the `Subscriptions` blade, click the three dots (`...`) and select the `Show/hide keys` menu.
+1. You need a subscription key in order for Power Apps to access any web API hosted in API Management. Go to the `Subscriptions` blade, click the three dots (`...`) and select the `Show/hide keys` menu.
 
     ![Subscription Blade][image-01]
 
@@ -49,9 +41,9 @@ Here are the inventory management API details hosted by API Management.
 The inventory management APIs have been exported to Power Apps.
 
 
-## Create Connection to Custom Connector ##
+## Create a connection to the custom connector ##
 
-Although you created the custom connector, in order to use it, you should create a connection to the custom connector. Generally speaking, creating the connection requires authentication to the APIs.
+You need to create a connection to the custom connector in order to use it. Generally speaking, creating the connection requires authentication to the web APIs.
 
 After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu on the left-hand side. Then, click the `➕` button on the right-hand side.
 
@@ -120,5 +112,6 @@ You have completed creating a custom connector for inventory management.
 [az cli install]: https://docs.microsoft.com/cli/azure/install-azure-cli
 [pa]: https://powerapps.microsoft.com/
 [pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
+[pa pricing]: https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus
 
 [artifacts]: https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip

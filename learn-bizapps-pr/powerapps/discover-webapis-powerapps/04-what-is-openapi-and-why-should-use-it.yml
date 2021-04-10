@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.powerapps.discover-webapis-powerapps.04-what-is-openapi-and-why-should-use-it
-title: What Is OpenAPI and Why Should Use It
+title: What is OpenAPI and why you should use it
 metadata:
-  title: What Is OpenAPI and Why Should Use It
+  title: What is OpenAPI and why you should use it
   description: Learn what the OpenAPI spec is and why we should use it for custom connectors
-  ms.date: 04/02/2021
+  ms.date: 04/12/2021
   author: justinyoo
   ms.author: juyoo
   ms.topic: interactive-tutorial

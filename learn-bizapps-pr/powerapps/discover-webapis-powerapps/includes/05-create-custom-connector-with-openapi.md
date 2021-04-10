@@ -1,23 +1,18 @@
 In this exercise you'll learn how to create a custom connector from an OpenAPI document.
 
-<!-- NOTE to REVIEWER - The download link for this module can be found at https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip . -->
-
 > [!NOTE]
-> Download the artifact file to your local computer to complete this exercise. After downloading the file, you will need to unzip it. Suppose you already know the API access key from the previous exercise unit.
+> To complete this exercise you will need a Power Apps license, an `openapi.json` file and an API access key.
 > 
-> [Download: ASP.NET Core Web API with Azure API Management][artifacts].
+> Power Apps requires either a Microsoft 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate][pa pricing].
 > 
-> 1. Select the download button on the middle-right of the screen.
-> 1. Unzip the `artifacts.zip` file.
-> 1. Find the `openapi.json` file.
-
-> [!NOTE]
-> To complete this exercise, you may need to sign up for the [Power Apps Community Plan][pa cp].
+> The `openapi.json` file can be found on [GitHub here][artifacts]. Unzip the archive, and the `openapi.json` will be included.
+> 
+> The API access key has already been obtained from the previous exercise unit.
 
 
-## Create Custom Connector from OpenAPI Document ##
+## Create a custom connector from an OpenAPI document ##
 
-There are several ways of creating a custom connector for Power Apps. This time, you will create one using the OpenAPI document. Suppose you have an `openapi.json` document and API access key provided by the professional development team.
+There are several ways of creating a custom connector for Power Apps. In this exercise, you will create one using an OpenAPI document. Suppose you have an OpenAPI document named `openapi.json` and an API access key provided by the professional development team.
 
 1. After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu on the left-hand side. Then, click the `➕ New custom connector` button at the right-top corner and select the `Import an OpenAPI file` menu.
 
@@ -39,7 +34,7 @@ There are several ways of creating a custom connector for Power Apps. This time,
 
     ![New Custom Connector][image-05]
 
-1. When a pop-up modal shows up, you will see the API Key field. Enter the API key handed from the professional development team. Then click the `Create` button.
+1. When a pop-up modal shows up, you will see the API Key field. Enter the API key for the web API, which is usually obtained from the web API's developers. Then click the `Create` button.
 
     ![New Custom Connector Pop-up Modal][image-06]
 
@@ -47,7 +42,7 @@ There are several ways of creating a custom connector for Power Apps. This time,
 
     ![New Connection][image-07]
 
-You have completed creating a custom connector for inventory management.
+A new custom connector from the OpenAPI document is now created and ready to be used within a Power Apps application.
 
 
 [image-01]: ../media/05-create-custom-connector-with-openapi-01.png
@@ -59,6 +54,6 @@ You have completed creating a custom connector for inventory management.
 [image-07]: ../media/05-create-custom-connector-with-openapi-07.png
 
 [pa]: https://powerapps.microsoft.com/
-[pa cp]: https://powerapps.microsoft.com/communityplan/?azure-portal=true
+[pa pricing]: https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus
 
 [artifacts]: https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/fusion-developers/artifacts.zip
