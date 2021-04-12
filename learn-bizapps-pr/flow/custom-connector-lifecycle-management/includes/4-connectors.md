@@ -57,7 +57,7 @@ Instead of selecting a connector interactively you can specify a particular conn
 
 Then your command would be the following:
 
-```json
+```
 paconn download -e d80faec4-eb14-4076-9681-9b46b97adbfd -c shared_cr83e-5fcontoso-20invoicing-5f20493607d490e1e0
 ```
 
@@ -79,7 +79,7 @@ The files downloaded are placed in a folder named using the connector ID. If the
 
 The **paconn create** command would create a custom connector in the target environment using the specified definition files. The API definition, API properties, and icon must be specified by either parameters or a settings file. The create command will prompt for any other parameters like environment ID if not provided. The following is an example of the create command:
 
-```json
+```
 paconn create ^
   -e [Power Platform Environment GUID] ^
   --api-prop [Path to apiProperties.json] ^
@@ -94,7 +94,7 @@ If your connector uses OAuth2 then you can use the -secret parameter to specify 
 
 The **paconn update** command updates an existing custom connector in the target environment using the specified definition files. The API definition, API properties and icon must be specified by either parameters or a settings file. The update command will prompt for any other parameters like environment ID if not provided. The following is an example of the update command:
 
-```json
+```
 paconn update ^
   -e [Power Platform Environment GUID] ^
   -c [Connector ID] ^
