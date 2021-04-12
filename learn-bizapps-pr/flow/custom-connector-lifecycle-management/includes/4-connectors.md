@@ -102,7 +102,7 @@ paconn update ^
   --api-def [Path to apiDefinition.swagger.json] ^
   --icon [Path to icon.png] ^
   --secret [The OAuth2 client secret for the connector]
-``
+```
 
 > [!IMPORTANT]
 > Update will replace the definition in the target environment even if it had been modified since you downloaded your copy. It is important to coordinate with anyone else making updates to the connector.
