@@ -41,7 +41,7 @@ quiz:
     - content: The flow is not successfully saved, and the maker will lose all of their work.
       isCorrect: false 
       explanation: Because SharePoint and Microsoft Teams connectors appear in two different Data Loss Prevention (DLP) policies, they cannot be included within the same flow because it will conflict with DLP policies. The default behavior of DLP policy enforcement is that, when saving, DLP rules will be checked. If a flow violates a DLP policy, it will still be saved but will be in a disabled state.
-  - content: What role is needed for creating the environment-wide DLP policies?
+  - content: What role is needed for creating environment-wide DLP policies?
     choices: 
     - content: Admin
       isCorrect: true 
