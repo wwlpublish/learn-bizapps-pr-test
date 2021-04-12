@@ -12,7 +12,7 @@ Use care to ensure someone is not editing your custom connector using the portal
 
 ## Installing command-line tool
 
-The **paconn** command-line tool requires Python 3.5 or above. Python should be installed first followed by **pip install paconn** command to install the tool. Detailed [installation instructions](https://docs.microsoft.com/%20connectors/custom-connectors/paconn-cliy/?azure-portal=true) are available.
+The **paconn** command-line tool requires Python 3.5 or above. Python should be installed first followed by **pip install paconn** command to install the tool. Detailed [installation instructions](https://docs.microsoft.com/connectors/custom-connectors/paconn-cli/?azure-portal=true) are available.
 
 ## Setting file or parameters
 
