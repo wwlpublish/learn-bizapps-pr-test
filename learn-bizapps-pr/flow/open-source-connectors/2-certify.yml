@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.open-source-connectors.2-certify 
+title: Certify a custom connector
+metadata: 
+  title: Certify a custom connector
+  description: Learn how to get Microsoft approval to publish a custom connector.
+  ms.date: 03/30/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 6
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-certify.md)] 

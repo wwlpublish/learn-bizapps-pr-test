@@ -9,7 +9,7 @@ OneDrive for Business is a potential storage location for your Power BI content 
 
 To connect to a PBIX (Power BI Desktop) file on OneDrive for Business, sign in to the Power BI service and select **Get Data**. Under **Create new content**, select **Files**, and then select **OneDrive - Business**. Highlight the file and then select **Connect**.
 
-![Screenshot of selecting a PBIX file.](../media/6-4a-2.png)
+![Screenshot of OneDrive for Business selecting a PBIX file.](../media/6-4a-2.png)
 
 Your content appears on the left-hand side navigation bar. File changes on the **OneDrive for Business** page will automatically reflect in the Power BI environment and will be recorded in the version history.
 

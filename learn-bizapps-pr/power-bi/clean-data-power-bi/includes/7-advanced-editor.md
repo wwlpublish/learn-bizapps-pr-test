@@ -28,7 +28,7 @@ change the name of a database, you could do it right in the code and
 then select **Done**. 
 
 You might notice that M code is written top-down. Later steps in the
-process can refer to previous steps by the variable name to the right of
+process can refer to previous steps by the variable name to the left of
 the equal sign. Be careful about reordering these steps because it could
 ruin the statement dependencies. Write to a query formula step by using
 the **in** statement. Generally, the last query step is used as the

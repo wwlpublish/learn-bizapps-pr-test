@@ -8,20 +8,20 @@ When you select **Create embed code**, Power BI presents another dialog box stat
 
 Power BI presents a dialog box with two links:
 
- - A link that you can share in an email, which shows the report as a webpage
+- A link that you can share in an email, which shows the report as a webpage
 
- - HTML code (a link plus within an iframe) so that you can embed the report directly into a webpage
+- HTML code (a link plus within an iframe) so that you can embed the report directly into a webpage
 
 For the HTML link, you can choose from predefined sizes for the embedded report, or you can modify the iframe code and customize its size.
 
 You can paste the email link into a browser and see your report as a webpage. You can interact with that webpage just as you would if you were viewing the report in Power BI. The following image shows a **Publish to web** page when its link was copied directly from that dialog box into a browser.
 
-![Screenshot of a "Publish to web" page.](../media/6-6-4.png)
+![Screenshot of a Power BI "Publish to web" page.](../media/6-6-4.png)
 
 You can also embed the iframe link into a blog post, website, or Sway.
 
 If you want to delete an embedded code that you created, Power BI can help. In Power BI, select the gear icon in the upper-right corner and then select **Manage embed codes**.
 
-The Power BI workspace shows the embed codes that you've created. 
+The Power BI workspace shows the embed codes that you've created.
 
 For more information, see [Publish to web from Power BI](https://docs.microsoft.com/power-bi/service-publish-to-web/?azure-portal=true).

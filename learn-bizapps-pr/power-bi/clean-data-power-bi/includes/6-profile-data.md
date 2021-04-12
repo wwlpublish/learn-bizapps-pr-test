@@ -56,8 +56,8 @@ want 100 percent of the data to be valid. 
 > [!div class="mx-imgBorder"]
 > [![anomalies and data statistics for a column of data](../media/06-column-statistics-ssm.png)](../media/06-column-statistics-ssm.png#lightbox)
 
-> [!NOTE]
-> By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select **Column profiling based on entire data set**.
+> [!NOTE] 
+> By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select **Column profiling based on entire data set**. 
 
 **Column distribution** shows you the distribution of the data within
 the column and the counts of distinct and unique values, both of which
@@ -66,10 +66,10 @@ values are all values in a column, including duplicates and null values,
 while unique values do not include duplicates or
 nulls. Therefore, **distinct** in this table tells you the total count
 of how many values are present, while **unique** tells you how many of
-those values are not duplicates or nulls.
+those values only appear once.
 
 **Column profile** gives you a more in-depth look into the statistics
-within the column. This column provides several different values,
+within the columns for the first 1,000 rows of data. This column provides several different values,
 including the count of rows, which is important when verifying whether
 the importing of your data was successful. For example, if your original
 database had 100 rows, you could use this row count to verify that 100

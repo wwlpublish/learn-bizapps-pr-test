@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.create-triggers-custom-connectors.5-5-polling-trigger 
+title: Create a polling trigger
+metadata: 
+  title: Create a polling trigger 
+  description: Learn about creating a polling trigger. 
+  ms.date: 03/12/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+durationInMinutes: 8 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-5-polling-trigger.md)] 

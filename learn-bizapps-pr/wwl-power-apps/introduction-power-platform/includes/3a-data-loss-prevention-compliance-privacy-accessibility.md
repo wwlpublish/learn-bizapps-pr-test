@@ -62,13 +62,13 @@ Currently, TLS 1.2 (or higher) is required for accessing the server endpoints.
 The European Union General Data Protection Regulation (GDPR) is one of the
 newest privacy regulations enacted that gives rights to people to manage their
 personal data. A complete discussion of GDPR is beyond the scope of this
-content, however the Power Platform does fully support the GDPR. For more GDPR
+content, however Power Platform does fully support the GDPR. For more GDPR
 resources and information, visit the Trust Center
 at <https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx>.
 
-## Accessibility in the Power Platform
+## Accessibility in Power Platform
 
-One of the things that Microsoft values the most is making sure that the Power
+One of the things that Microsoft values the most is making sure that Power
 Platform is accessible and inclusive to all kinds of users all over the world.
 An accessible canvas app will allow users with vision, hearing, and other
 impairments to successfully use the app. In addition to being a requirement for

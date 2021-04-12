@@ -11,7 +11,7 @@ For example, the Supply Chain team asks you to create a report that shows the fr
 Power BI Desktop has a number of DAX functions that you can use to get quick statistics based on your data. You can access these quick functions by right-clicking the **Values** field in the **Visualizations** pane, as illustrated in the following image.
 
 > [!div class="mx-imgBorder"]
-> [![Statistical functions](../media/2-statistical-functions-ssm.png)](../media/2-statistical-functions-ssm.png#lightbox)
+> [![Screenshot of the statistical functions.](../media/2-statistical-functions-ssm.png)](../media/2-statistical-functions-ssm.png#lightbox)
 
 However, to avoid performance issues, it's better to create the statistical measures yourself by using DAX functions to calculate average, sum, min, max, and so on. For example, to analyze the inventory data to find the average order quantity for each product, you could use the following formula:
 
@@ -25,7 +25,7 @@ AVERAGE ( Sales[Order Qty] )
 Histograms and bell curves are the most common way to display statistics about your datasets. In Power BI terms, you can represent a histogram with one of the bar or column chart visuals and represent a bell curve with an area chart visual, as illustrated in the following image. You can also use the Q&A visual to ask a direct question about the top or bottom items in a list.
 
 > [!div class="mx-imgBorder"]
-> [![Bar and area charts](../media/2-bar-area-charts-ss.png)](../media/2-bar-area-charts-ss.png#lightbox)
+> [![Screenshot of the Power BI bar and area charts.](../media/2-bar-area-charts-ss.png)](../media/2-bar-area-charts-ss.png#lightbox)
 
 A typical bar or column chart visual in Power BI relates two data points: a measure and a dimension. A histogram differs slightly from a standard bar chart in that it only visualizes a single data point.
 
@@ -42,7 +42,7 @@ To create the group, in the **Fields** pane, right-click the data field that you
 3. Enter **5** as the **Bin count**, **1** as the **Min value**, and **44** as the **Max value**.
 
 > [!div class="mx-imgBorder"]
-> [![Add group for histogram](../media/2-add-group-histogram-ss.png)](../media/2-add-group-histogram-ss.png#lightbox)
+> [![Screenshot of the adding groups for histograms.](../media/2-add-group-histogram-ss.png)](../media/2-add-group-histogram-ss.png#lightbox)
 
 Next, populate the visual as follows:
 
@@ -51,13 +51,13 @@ Next, populate the visual as follows:
 2. Drag and drop the **Order Bins (Buckets)** group from the **Fields** pane into the **Axis** field on the **Visualizations** pane.
 
 > [!div class="mx-imgBorder"]
-> [![Set up histogram](../media/2-set-up-histogram-ssm.png)](../media/2-set-up-histogram-ssm.png#lightbox)
+> [![Screenshot of setting up a bar chart for Qty orders by bin size.](../media/2-set-up-histogram-ssm.png)](../media/2-set-up-histogram-ssm.png#lightbox)
 
 The visual now shows that the data is grouped into buckets on the x-axis, with the order quantities of that variable on the y-axis.
 
 You have now produced a histogram that displays the order quantity (**OrderQty** field) by order size buckets for the Supply Chain team.
 
-## Top N analysis 
+## Top N analysis
 
 The TOPN DAX function returns the top N rows of a specified table. The Top N analysis is a great way to present data that might be important, such as the top 10 selling products, top 10 performers in an organization, or top 10 customers. Alternatively, you can look at it from the other perspective and present the bottom 10 items in a list, in other words, the worst performers. Depending on the requirements, you might want to use one or both of these options.
 
@@ -70,21 +70,21 @@ You've created a report for the Supply Chain team, and now the team members have
 Add the **Q&A** visualization to your report, and then reposition the visual and customize its formatting, as required.
 
 > [!div class="mx-imgBorder"]
-> [![Add Q&A visual](../media/2-add-question-answer-visual-ssm.png)](../media/2-add-question-answer-visual-ssm.png#lightbox)
+> [![Screenshot of adding the Q&A visualization.](../media/2-add-question-answer-visual-ssm.png)](../media/2-add-question-answer-visual-ssm.png#lightbox)
 
 Now, you can use the visual to get answers. In this case, you want to know what the top 10 selling products are, so you enter a question such as, "What are my top 10 products by sales?" Power BI will automatically display those results for you.
 
 > [!div class="mx-imgBorder"]
-> [![Use Q&A visual to find top N](../media/2-use-question-answer-find-top-n-ss.png)](../media/2-use-question-answer-find-top-n-ss.png#lightbox)
+> [![Screenshot of using the Q&A visualization to find top N.](../media/2-use-question-answer-find-top-n-ss.png)](../media/2-use-question-answer-find-top-n-ss.png#lightbox)
 
 ### Use a Top N filter type
 
 Top N is a filtering option that is available on the **Filters** pane. Select the field that you want to analyze on your report page (in this example, it's the **Product Name** field). In the **Filters** pane, expand the **Filter type** list and select **Top N**. In the **Show items** settings, select **Top** and **10**. Then, select **Cost of Sales** as the value that you want to filter the field by. The visual updates accordingly.
 
 > [!div class="mx-imgBorder"]
-> [![Use filter type to find Top N](../media/2-use-filter-find-top-n-ssm.png)](../media/2-use-filter-find-top-n-ssm.png#lightbox)
+> [![Screenshot of using the filter type to find Top N.](../media/2-use-filter-find-top-n-ssm.png)](../media/2-use-filter-find-top-n-ssm.png#lightbox)
 
-### Use a TOPN DAX function 
+### Use a TOPN DAX function
 
 You can also calculate your top 10 products in DAX by using the TOPN function. This option could be useful if you want to present the top 10 in a different context, such as how much of the top 10 best-selling products contributed toward the overall total sales.
 
@@ -98,9 +98,8 @@ SUMX ( TOPN ( 10, Product, Product[Product Name], ASC ), [Total Sales] )
 The following image shows how much the top 10 products contribute toward the overall sales.
 
 > [!div class="mx-imgBorder"]
-> [![Use DAX function TOPN to calculate Top 10 Product](../media/2-use-dax-function-calculate-top-n-ss.png)](../media/2-use-dax-function-calculate-top-n-ss.png#lightbox)
+> [![Screenshot of using the DAX function TOP N to calculate Top 10 Products.](../media/2-use-dax-function-calculate-top-n-ss.png)](../media/2-use-dax-function-calculate-top-n-ss.png#lightbox)
 
 You can adjust the DAX formula to present the same result in percentages.
 
 For more information about the statistical capabilities of Power BI, see [Statistical Functions - DAX](https://docs.microsoft.com/dax/statistical-functions-dax/?azure-portal=true).
-

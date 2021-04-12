@@ -21,8 +21,7 @@ Model-driven apps have three design phases:
 Model-driven design uses metadata-driven architecture so that designers can
 customize apps without writing code. To model business data, you determine what
 data the app will need and how that data will relate to other data. Metadata
-means *data about data* and defines the structure of the data stored in Common
-Data Service.
+means *data about data* and defines the structure of the data stored in Microsoft Dataverse.
 
 ### Define your business processes
 

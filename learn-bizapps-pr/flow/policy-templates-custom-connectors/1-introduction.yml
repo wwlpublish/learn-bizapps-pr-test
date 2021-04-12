@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.policy-templates-custom-connectors.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction 
+  description: Introduction to policy templates for custom connectors in Power Automate 
+  ms.date: 03/22/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 

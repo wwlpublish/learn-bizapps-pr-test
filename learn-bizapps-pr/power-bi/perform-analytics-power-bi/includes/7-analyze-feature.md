@@ -10,12 +10,12 @@ Instead of exploring the data manually, you can use the **Analyze** feature to g
 To use the **Analyze** feature, right-click a data point on the visual and then hover over the **Analyze** option to display two further options: **Explain the increase** and **Find where the distribution is different**. The options that are available will depend on the data point that you selected.
 
 > [!div class="mx-imgBorder"]
-> [![Display analyze options](../media/7-display-analyze-options-ssm.png)](../media/7-display-analyze-options-ssm.png#lightbox)
+> [![Screenshot of the visualization with the analyze option highlighted.](../media/7-display-analyze-options-ssm.png)](../media/7-display-analyze-options-ssm.png#lightbox)
 
 In this example, you select the **Explain the increase** option, and a window displays with a new visual, as illustrated in the following image.
 
 > [!div class="mx-imgBorder"]
-> [![View analysis](../media/7-view-analysis-ss.png)](../media/7-view-analysis-ss.png#lightbox)
+> [![Screenshot of the visualization with analysis.](../media/7-view-analysis-ss.png)](../media/7-view-analysis-ss.png#lightbox)
 
 If you find this analysis useful, you can add the new visual to your report so that other users can view it. Select the plus (**+**) icon in the upper-right corner of the visual to add it to your report.
 

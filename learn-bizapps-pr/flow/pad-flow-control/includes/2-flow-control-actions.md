@@ -12,19 +12,23 @@ To enter a comment for reference purposes which is displayed in the workspace, u
 
 ![Screenshot of the Comment action properties dialog.](..\media\comment-action-properties.png)
 
-Direct the flow to a specific point in the flow marked with the **Label** action. Provide a name for the label and use a **Go to** action and provide the label name to direct the flow to it.
+Direct the flow to a specific point in the flow marked with the **Label** action. Provide a name for the label. 
 
 ![Screenshot of the Label action properties dialog.](..\media\label-action-properties.png)
 
-![Screenshot of the Go to action properties dialog.](..\media\go-to-action-properties.png)
+Use a **Go to** action and select the label from a drop-down list to direct the flow to it.
+
+![go to action properties](..\media\go-to-action-properties.png)
 
  To run another subflow at any point in the flow, use the **Run subflow** action. When the subflow completes, the flow continues with the next action. The subflow must be specified by name and can be selected from the drop-down list of existing subflows.
 
 ![Screenshot of the Run subflow action properties dialog.](..\media\run-function-action-properties.png)
 
-To stop the subflow and go back to the point where it was run from, use **Exit subflow**. This action does not have properties.
+To stop the subflow and go back to the point where it was run from, use **Exit subflow**. This action does not have properties. The **Exit Subflow** action is not required at the end of a subflow. When all the actions in a subflow have run, the flow will continue from the point where the subflow was run.
 
-To stop running the entire flow, use the **Stop flow** action.
+To stop running the entire flow, use the **Stop flow** action. To stop the flow with an error message, set **End flow** to **With error message** and specify the message to display.
+
+![stop flow action properties](..\media\stop-flow-action-properties.png)
 
 Place actions that are likely to fail or produce an erroneous result in an error block. The **On block error** action along with its corresponding **End** action are used to create an error block. Place actions in an error block to prevent the entire block from attempting to complete in the event that at least one of the actions within it fails.
 

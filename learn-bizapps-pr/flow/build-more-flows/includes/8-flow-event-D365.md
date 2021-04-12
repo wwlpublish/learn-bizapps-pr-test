@@ -5,7 +5,7 @@ In Power Automate, you can set up automated workflows between your favorite apps
 In this unit, we'll look to build two flows:
 
 - The first flow creates a task in Dynamics 365 when a lead is created in another instance of Dynamics 365.
-- The second flow copies a list item to the Wunderlist website when a task is created in Dynamics 365.
+- The second flow copies a list item to the Planner when a task is created in Dynamics 365.
 
 Here are some other examples of flows that you can create by using Dynamics 365:
 

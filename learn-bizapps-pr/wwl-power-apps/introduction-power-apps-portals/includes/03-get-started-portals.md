@@ -1,13 +1,13 @@
-Businesses that have Dynamics 365 or a custom Common Data Service solution
+Businesses that have Dynamics 365 or a custom Microsoft Dataverse solution
 already in place can quickly build portals that are more secure and build their
 entire website, all without requiring developers.
 
-A Power Apps portal is not automatically provisioned when a new Common Data
-Service environment is created. You will need to provision a Power Apps portal
+A Power Apps portal is not automatically provisioned when a new Dataverse 
+environment is created. You will need to provision a Power Apps portal
 and determine the name, default URL, language, and template.
 
 >[!IMPORTANT]
->   To provision a portal, you must be assigned to the System Administrator role of the Common Data Service environment that is selected for the portal.
+>   To provision a portal, you must be assigned the System Administrator role of the Microsoft Dataverse environment that is selected for the portal.
 
 ## Portal templates
 
@@ -21,9 +21,8 @@ workload.
 
 [![Portal Templates](../media/ways-to-make-app.png)](../media/ways-to-make-app.png#lightbox)
 
-If you are building a custom business application by using Common Data Service
-without Dynamics 365 apps enabled, your only choice is the **Portal from
-blank** option.
+If you are building a custom business application by using Microsoft Dataverse
+without Dynamics 365 apps enabled, your only choice is the **Portal from blank** option.
 
 If you are using Microsoft Dynamics 365 apps such as Dynamics 365 Sales or
 Dynamics 365 Service, you have a choice of five additional portal templates:
@@ -52,12 +51,12 @@ The audience will determine which options of portal you will be given.
 | Customer self-service | Partner, Customer | This option provides the ability for portal users to search knowledge articles, submit cases, and participate in discussion forums to resolve issues.                                                                                                                                                                                                                                                 |
 | Employee self-service | Employee          | This portal allows employees to access a centralized knowledge article and to also submit cases.                                                                                                                                                                                                                                                                                                      |
 | Partner               | Partner           | Choose this option to build a portal where external partners can manage and collaborate on accounts and opportunities. Add-ons are available for Dynamics 365 Field Service or Dynamics 365 Project Service.                                                                                                                                                                                          |
-| Customer portal       | Enterprise B2B    | The Dynamics 365 Supply Chain Management Customer portal is a template that provides portal access to Dynamics 365 Supply Chain Management data by using dual-write Common Data Service entities.                                                                                                                                                                                                     |
-| Portal from blank     | Other             | The **Portal from blank** option is meant for unique line-of-business scenarios where the other templates are not a good fit. The portal can be configured to address a variety of requirements. If **Portal from blank** is provisioned within a Common Data Service environment with Dynamics 365 apps enabled, specific features from the other portals can be incorporated into the portal later. |
+| Customer portal       | Enterprise B2B    | The Dynamics 365 Supply Chain Management Customer portal is a template that provides portal access to Dynamics 365 Supply Chain Management data by using dual-write Microsoft Dataverse tables.                                                                                                                                                                                                       |
+| Portal from blank     | Other             | The **Portal from blank** option is meant for unique line-of-business scenarios where the other templates are not a good fit. The portal can be configured to address a variety of requirements. If **Portal from blank** is provisioned within a Microsoft Dataverse environment, specific features from the other portals can be incorporated into the portal later. |
 
 ## Provision a portal
 
-Only one Power Apps portals can be provisioned for each Common Data Service
+Only one Power Apps portals can be provisioned for each Microsoft Dataverse
 environment.
 
 The high-level steps to provision a starter portal are:
@@ -68,7 +67,7 @@ The high-level steps to provision a starter portal are:
 
 3.  On the left menu, select **+ Create**.
 
-4.  Select **Portal from blank**. If you have Dynamics 365 apps deployed in your Common Data Service environment, additional portal templates, such as Customer self-service, will be available.
+4.  Select **Portal from blank**. If you have Dynamics 365 apps deployed in your Microsoft Dataverse environment, additional portal templates, such as Customer self-service, will be available.
 
 5.  Provide a name for the portal.
 

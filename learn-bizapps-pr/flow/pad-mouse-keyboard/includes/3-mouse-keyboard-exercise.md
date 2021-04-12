@@ -16,7 +16,7 @@ The flow will:
     ![Screenshot of the Move mouse action properties dialog.](..\media\move-mouse-exercise-part-two.png)
 
 > [!NOTE]
-> If your start button is in the default bottom left position, enter Position X: 0. Position Y in this case is going to be your monitor's vertical resolution. These coordinates will take your mouse to the bottom left of your screen. Otherwise, a quick way of finding the coordinates of the Start button is to add a Get mouse position action, move the mouse to the Start button while the Flow Designer window is in the foreground, and pressing F5 to run the flow. The variables from the action will record the coordinates of the Start button. Make sure to delete or disable the Get mouse position after you have noted the required coordinates.
+> To capture the current coordinates of the mouse relative to the screen, press **Ctrl** + **Shift**. This will populate the Position X and Position Y fields.
 
 1. Add the **Send Mouse Click** action. Leave the **Mouse event to send** option on its default setting, Left Click.
 

@@ -4,7 +4,8 @@ Power BI service makes it easy to share your datasets, dashboards, and reports w
 
 2. Click the **share** button by the Contoso Manufacturing Sales dashboard.
 
-![My workspace dashboards](../media/share-my-workspace.png)
+>[!div class="mx-imgBorder"]
+>[ ![My workspace dashboards](../media/share-my-workspace.png) ](../media/share-my-workspace.png#lightbox)
 
 3. Type in the names or emails of those you wish to share your dashboard with and set the options to determine the user permissions.
 

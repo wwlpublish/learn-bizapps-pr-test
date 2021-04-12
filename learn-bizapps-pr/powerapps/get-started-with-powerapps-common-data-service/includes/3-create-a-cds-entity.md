@@ -18,13 +18,13 @@ Sign in to [Power Apps](https://make.powerapps.com) and follow these steps to cr
 
     - **Display name**: *Pet*
 
-3. In the Primary Field section, enter the following:
+3. In the Primary Column section, enter the following:
 
     - **Display name**: *Pet Name*
 
 4. At the bottom, click **Create**.
 
-You will notice in our example, the new table and primary field begins with **cree0_**. Additional columns created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
+You will notice in our example, the new table and primary column begins with **cree0_**. Additional columns created for this table will also begin with **cree0**, this is specific to our demo environment. When testing in your own environment this may look different.
 
 ## Add and customize columns
 
@@ -59,7 +59,7 @@ You will notice in our example, the new table and primary field begins with **cr
 9. In the **Column properties** pane, enter the following values, and then select **Done**:
 
     - **Display name**: *Appointment date*
-    - **Data type**: *Date Only*
+    - **Data type**: *Date and Time*
     - **Searchable**: *Yes*
 
 10. Select **Save table**.
@@ -79,7 +79,7 @@ You will notice in our example, the new table and primary field begins with **cr
 ## Customize a view
 
 1. On the **Views** tab, right-click **Active Pets** view and select **Open Link in New Tab**. If you don't see the **Active Pets** view, select **Remove filter**.
-2. In the view designer, select **View column**, select the following columns, and then select **OK**:
+2. In the view designer, select **Add Columns**, select the following columns, and then select **OK**:
 
     - Account
     - Appointment date
