@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.custom-connector-lifecycle-management 
+metadata: 
+ title: Custom connector lifecycle management
+ description: This module covers how to manage these different scenarios using the tools and capabilities of the platform.
+ ms.date: 04/30/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Custom connector lifecycle management 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The use case for your custom connector will determine how you want to manage the lifecycle as it evolves. The primary scenarios are single environment usage, multiple environments usage, and open sourcing/certifying. 
+abstract: |  
+    In this module, you will: 
+    - Apply updates and versioning.
+    - Use solutions.
+    - Use connectors.
+    - Automate connector lifecycle.
+prerequisites: Familiarity with Power Platform and Power Automate.  
+iconUrl: /learn/achievements/custom-connector-lifecycle-management.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+products:  
+- power-platform
+- power-automate 
+units: 
+- learn-bizapps.custom-connector-lifecycle-management.1-introduction 
+- learn-bizapps.custom-connector-lifecycle-management.2-updates 
+- learn-bizapps.custom-connector-lifecycle-management.3-solutions 
+- learn-bizapps.custom-connector-lifecycle-management.4-connectors 
+- learn-bizapps.custom-connector-lifecycle-management.5-automate-connector-lifecycle 
+- learn-bizapps.custom-connector-lifecycle-management.6-exercise 
+- learn-bizapps.custom-connector-lifecycle-management.7-check 
+- learn-bizapps.custom-connector-lifecycle-management.8-summary 
+badge: 
+  uid: learn-bizapps.custom-connector-lifecycle-management.badge 
