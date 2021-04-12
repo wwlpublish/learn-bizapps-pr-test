@@ -103,7 +103,7 @@ contains tabs that provide the following reports:
         insight into the popularity of specific connectors within your
         tenant.
 
-        ![Screenshot of the Center Of Excellence P B I.](../media/5-coe-pbi-1.png)
+![Screenshot of the Center Of Excellence P B I.](../media/5-coe-pbi-1.png)
 
 ### App Audit
 

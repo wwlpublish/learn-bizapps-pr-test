@@ -23,7 +23,7 @@ To edit the contents of a text field, use the appropriate action.
 
 ![Screenshot of the Populate Text Field in Window action dialog.](../media/populate-text-field-in-window-action.png)
 
-![Screenshot of the Capturing a text field](../media/capturing-text-field.png)
+![Screenshot of the Capturing a text field.](../media/capturing-text-field.png)
 
 Select the **Save** button to save the changes by using the **Press Button in Window** action.
 

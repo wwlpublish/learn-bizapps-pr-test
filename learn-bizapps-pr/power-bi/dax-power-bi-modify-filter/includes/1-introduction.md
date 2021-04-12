@@ -27,9 +27,10 @@ The numerator expression doesn't need to modify filter context; it should use th
 
 > [!TIP]
 > The key to writing complex measures is mastering these concepts:
-> -   Understanding how filter context works
-> -   Understanding when and how to modify filter context to achieve a required result
-> -   Composing a formula to accurately and efficiently modify filter context
+>
+> - Understanding how filter context works
+> - Understanding when and how to modify filter context to achieve a required result
+> - Composing a formula to accurately and efficiently modify filter context
 >
 >    Mastering these concepts takes practice and time. Rarely will students understand the concepts from the beginning of training. Therefore, be patient and persevere with the theory and activities. We recommend that you repeat this module at a later time to help reinforce the key lessons.
 

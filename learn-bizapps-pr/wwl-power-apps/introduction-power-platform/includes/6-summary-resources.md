@@ -2,7 +2,7 @@ Microsoft Power Platform offers a point-and-click approach to building custom ap
 
 Now that you have reviewed this module, you should be able to:
 
-- Describe the components and features of the Power Platform
+- Describe the components and features of Power Platform
 
 - Identify when to use each Power Platform component application to create business solutions
 

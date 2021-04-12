@@ -63,6 +63,8 @@ As you think about your data model also think about column types. When adding co
 > [!NOTE]
 > If a column type needs to be changed to a different column type, (i.e. text column to an option set), then you will need to delete that column and recreate with the correct column type. This will cause you to lose any data associated with that column.
 
+![Screenshot of fundraiser table default columns](../media/entity-field-types.png)
+
 ### User Interface (UI) and User Experience (UX)
 
 When building a Model-driven app, most of the UI and UX are predetermined for you. You define the data model to build from, and then Power Apps determines the controls used in the app. You can influence these controls by determining what table assets you include. You define in the App Designer What Forms, Views, Charts, and Dashboards are used in the app. You also control the navigation options via the Site Map. As you are planning your app, determine which components are needed in the app design, and create them before building your app. 

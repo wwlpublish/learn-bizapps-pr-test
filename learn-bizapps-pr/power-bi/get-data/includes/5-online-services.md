@@ -2,20 +2,20 @@ To support their daily operations, organizations frequently use a range
 of software applications, such as SharePoint, OneDrive, Dynamics 365,
 Google Analytics and so on. These applications produce their own data.
 Power BI can combine the data from multiple applications to produce more
-meaningful insights and reports. 
+meaningful insights and reports.
 
-**Scenario:**
+## Scenario
 
 Tailwind Traders uses SharePoint to collaborate and store sales
 data. It's the start of the new financial year and the sales
 managers want to enter new goals for the sales team. The form that the leadership uses exists in SharePoint. You are required to establish a
 connection to this data within Power BI Desktop, so that the sales goals
 can be used alongside other sales data to determine the health of the
-sales pipeline. 
+sales pipeline.
 
 The following sections examine how to use the Power BI Desktop **Get Data** feature to connect to data sources that are produced by external applications. To illustrate this process, an example is provided that shows how to connect to a SharePoint site and import data from an online list.  
 
-### Connect to data in an application 
+### Connect to data in an application
 
 When connecting to data in an application, you would begin in the same
 way as you would when connecting to the other data sources:
@@ -31,19 +31,19 @@ do not need to enter your full URL file path; you only need to load your
 site URL because, when you are connected, you can select the specific
 list that you want to load. Depending on the URL that you copied, you
 might need to delete the last part of your URL, as illustrated in the
-following image. 
+following image.
 
 > [!div class="mx-imgBorder"]
-> [![Where to get SharePoint Online List URL](../media/5-sharepoint-url-orig-location-ssm.png)](../media/5-sharepoint-url-orig-location-ssm.png#lightbox)
+> [![Screenshot of the SharePoint Online List U R L.](../media/5-sharepoint-url-orig-location-ssm.png)](../media/5-sharepoint-url-orig-location-ssm.png#lightbox)
 
 After you have entered your URL, select **OK**. Power BI needs to
 authorize the connection to SharePoint, so sign in with your Microsoft
-account and then select **Connect**. 
+account and then select **Connect**.
 
 > [!div class="mx-imgBorder"]
-> [![Authorization step to get access to SharePoint](../media/5-authorization-step-sharepoint-access-ssm.png)](../media/5-authorization-step-sharepoint-access-ssm.png#lightbox)
+> [![Screenshot of the Authorization step to get access to SharePoint.](../media/5-authorization-step-sharepoint-access-ssm.png)](../media/5-authorization-step-sharepoint-access-ssm.png#lightbox)
 
-### Choose the application data to import 
+### Choose the application data to import
 
 After Power BI has made the connection with SharePoint, the
 **Navigator** window appears, as it does when you connect to other data
@@ -51,15 +51,15 @@ sources. The window displays the tables and entities within your
 SharePoint site. Select the list that you want to load into Power BI
 Desktop. Similar to when you import from other data sources, you have
 the option to automatically load your data into Power BI model or launch
-the Power Query Editor to transform your data before loading it.   
+the Power Query Editor to transform your data before loading it.
 
-For this example, you select the **Load** option.   
-
-> [!div class="mx-imgBorder"]
-> [![Navigator window view with available tables](../media/5-navigator-window-view-tables-ss.png)](../media/5-navigator-window-view-tables-ss.png#lightbox)
+For this example, you select the **Load** option.
 
 > [!div class="mx-imgBorder"]
-> [![Close and Apply step to apply changes](../media/5-close-apply-step-changes-ssm.png)](../media/5-close-apply-step-changes-ssm.png#lightbox)
+> [![Screenshot of the Navigator window view with available tables.](../media/5-navigator-window-view-tables-ss.png)](../media/5-navigator-window-view-tables-ss.png#lightbox)
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Close and Apply step to apply changes.](../media/5-close-apply-step-changes-ssm.png)](../media/5-close-apply-step-changes-ssm.png#lightbox)
 
 When you are satisfied with your data, select the **Close & Apply** button
-to apply your changes and load your data into Power BI Desktop. 
+to apply your changes and load your data into Power BI Desktop.

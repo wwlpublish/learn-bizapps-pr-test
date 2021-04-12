@@ -28,26 +28,28 @@ For example, assume that you are importing data from a database that contains sa
 The following figure shows how the initial shape of the data appears in a Power BI table visual.
 
 > [!div class="mx-imgBorder"]
-> [![Initial data without DAX in a table visual](../media/02-table-visual-ss.png)](../media/02-table-visual-ss.png#lightbox)
+> [![Screenshot of the initial data without DAX in a table.](../media/02-table-visual-ss.png)](../media/02-table-visual-ss.png#lightbox)
 
 You can start using DAX by creating a calculated column that multiplies the unit price with the quantity. The calculated column will create a value for each row called Total Price. Create the new column by selecting the ellipsis (**...**) button on the table in the **Fields** list and then selecting **New column**.
 
 > [!div class="mx-imgBorder"]
-> [![The ellipsis button on the fields list](../media/02-new-column-ss.png)](../media/02-new-column-ss.png#lightbox)
+> [![Screenshot of the ellipsis button on the fields list menu.](../media/02-new-column-ss.png)](../media/02-new-column-ss.png#lightbox)
 
 A new DAX formula appears in the formula bar underneath the ribbon at the top.
 
 > [!div class="mx-imgBorder"]
-> [![New DAX column](../media/02-new-dax-column-ss.png)](../media/02-new-dax-column-ss.png#lightbox)
+> [![Screenshot of the new DAX formula in the formula bar.](../media/02-new-dax-column-ss.png)](../media/02-new-dax-column-ss.png#lightbox)
 
 You can replace the "Column =" default text with the following example text:
 
-```Total Price = 'Sales OrderDetails'[Quantity] * 'Sales OrderDetails'[Unit Price]```
+```dax
+Total Price = 'Sales OrderDetails'[Quantity] * 'Sales OrderDetails'[Unit Price]
+```
 
 The value on the left side of the equal sign is the column name. The text on the right side of the equal sign is the DAX expression. This simple DAX expression takes the quantity value and multiplies it with the unit price value for each individual row. It will produce one value for each record in the table. If you drag the new column from the **Fields** list to the visual, you will see the new values.
 
 > [!div class="mx-imgBorder"]
-> [![New Total Price column](../media/02-new-total-price-ss.png)](../media/02-new-total-price-ss.png#lightbox)
+> [![Screenshot of the new total price column.](../media/02-new-total-price-ss.png)](../media/02-new-total-price-ss.png#lightbox)
 
 The previous screenshot shows that DAX is calculating correctly and displaying the results that you wanted.
 
@@ -65,7 +67,7 @@ Three ways to create a custom column in Power BI are:
 
 You can create a calculated column when you pull the data from the data source. Each data source would have a different technique for completing this action. For instance, if you were pulling data from a relational data source by using a view that was written in the SQL language, it would look like the following example:
 
-```
+```sql
 CREATE VIEW OrdersWithTotalPrice
 AS
 SELECT unitprice, qty, unitprice * qty as TotalPrice 
@@ -77,7 +79,7 @@ Using SQL language is an efficient way of creating a column because it would mak
 You can also use Power Query to create a custom column.
 
 > [!div class="mx-imgBorder"]
-> [![Power Query custom column](../media/02-custom-column-ss.png)](../media/02-custom-column-ss.png#lightbox)
+> [![Screenshot of the Power Query custom column feature.](../media/02-custom-column-ss.png)](../media/02-custom-column-ss.png#lightbox)
 
 The custom column dialog uses the M language to create the new column. M language is out of scope for the purposes of this module.
 
@@ -104,7 +106,7 @@ Many available categories of calculations and ways to modify each calculation ex
 To create a quick measure in Power BI Desktop, right-click or select the ellipsis (**...**) button next to any item in the **Fields** pane and then select **New quick measure** from the menu that appears. The **Quick measures** screen will appear.
 
 > [!div class="mx-imgBorder"]
-> [![The quick measure menu item](../media/02-quick-measure-ssm.png)](../media/02-quick-measure-ssm.png#lightbox)
+> [![Screenshot of the New quick measure menu item.](../media/02-quick-measure-ssm.png)](../media/02-quick-measure-ssm.png#lightbox)
 
 In the **Quick measures** window, you can select the calculation that you want and the fields to run the calculation against. For instance, you can select a calculation and the column that you want to operate over. Power BI creates the DAX measure for you and displays the DAX. This approach can be a helpful way to learn the DAX syntax.
 
@@ -119,21 +121,23 @@ To continue with the previous scenario, you want to create a measure that totals
 Text will now appear in the formula bar underneath the ribbon.
 
 > [!div class="mx-imgBorder"]
-> [![New measure](../media/02-new-measure-ss.png)](../media/02-new-measure-ss.png#lightbox)
+> [![Screenshot of the new measure in the formula bar.](../media/02-new-measure-ss.png)](../media/02-new-measure-ss.png#lightbox)
 
 You can replace the "Measure =" text with the following text:
 
-```Total Sales = sum('Sales OrderDetails'[Total Price])```
+```dax
+Total Sales = sum('Sales OrderDetails'[Total Price])
+```
 
 The new measure will now appear in the **Fields** list.
 
 > [!div class="mx-imgBorder"]
-> [![The new measure in the fields list](../media/02-new-measure-fields-ss.png)](../media/02-new-measure-fields-ss.png#lightbox)
+> [![Screenshot of the new measure in the fields list.](../media/02-new-measure-fields-ss.png)](../media/02-new-measure-fields-ss.png#lightbox)
 
 When you drag Total Sales over to the report design surface, you will see the total sales for the entire organization in a column chart.
 
 > [!div class="mx-imgBorder"]
-> [![Total sales measure in a column chart](../media/02-total-sales-ss.png)](../media/02-total-sales-ss.png#lightbox)
+> [![Screenshot of the total sales measure in a column chart.](../media/02-total-sales-ss.png)](../media/02-total-sales-ss.png#lightbox)
 
 ## Differences between a calculated column and a measure
 

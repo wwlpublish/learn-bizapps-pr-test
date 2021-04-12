@@ -62,7 +62,7 @@ months, both of which are organized into columns. 
 However, you notice that the data did not import as expected.
 
 > [!div class="mx-imgBorder"]
-> [![Original excel data](../media/02-identify-columns.ss.png)](../media/02-identify-columns.ss.png#lightbox)
+> [![Original Excel data](../media/02-identify-columns.ss.png)](../media/02-identify-columns.ss.png#lightbox)
 
 Consequently, the data is difficult to read. A problem has occurred with the data in its current state because column headers are in different rows (marked in red), and several columns have undescriptive names, such as **Column1**, **Column2**, and so on.
 
