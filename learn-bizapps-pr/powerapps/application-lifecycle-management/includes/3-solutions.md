@@ -42,7 +42,7 @@ The solution architect needs to decide on the number of solutions that will be u
 
 In the following example, four solutions have been used: The CDM Healthcare accelerator, a Common Contoso solution, and two solutions containing apps. These solutions are layered. For example, the contact form is customized in the CDM Healthcare Extension. The same form elements are modified in the Contoso Common solution. The end users will see the changes from the Contoso Common solution.
 
-![Diagram showing example solution layers.](../media/3-solutions-layer-example.png)
+![Diagram showing example solution layers.](../media/3-solution-layer-example.png)
 
 ## Solution structure
 
