@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.integrations
 metadata: 
- title: Implement integration with the Power Platform
+ title: Implement integrations with the Power Platform
  description: Learn how to implement integration in Power Platform solutions.
  ms.date: 04/01/2021
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Implement integration with the Power Platform
+title: Implement integrations with the Power Platform
 summary: |  
   [!include[](../includes/module-banner.md)] 
   The Power Platform Solution Architect leads the design of integrations. This module explores the issues faced in integrating with Power Platform solutions.
