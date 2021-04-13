@@ -14,7 +14,7 @@ Here are some other examples of flows that you can create by using Dynamics 365:
 - Copy Dynamics 365 accounts to customers in Microsoft Dynamics 365 for Finance and Operations.
 
 > [!IMPORTANT]
-> To invoke a flow trigger, the Dynamics 365 customer engagement entity that's used with the flow must have change tracking turned on. For more about how to turn on change tracking, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization/?azure-portal=true).
+> To invoke a flow trigger, the Dynamics 365 customer engagement entity that's used with the flow must have change tracking turned on. For more about how to turn on change tracking, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
 ## Example one: Create a task from a lead
 
