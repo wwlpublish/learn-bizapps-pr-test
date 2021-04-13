@@ -3,7 +3,7 @@ uid: learn-bizapps.approvals-power-automate
 metadata: 
  title: Approvals in Power Automate
  description: The Approvals connector is an out-of-the-box approval process that you can use in your Microsoft Power Automate flow. This module will focus on how you can use the Approvals connector to send email notifications to designated approvers and then record their responses.
- ms.date: 04/15/2021  
+ ms.date: 04/13/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
