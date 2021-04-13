@@ -36,7 +36,7 @@ Solution layering is implemented at a component level. Managed and unmanaged sol
 - Unmanaged layer: All imported unmanaged solutions and ad-hoc customizations exist at this layer. All unmanaged solutions share a single unmanaged layer.
 - Managed layers: All imported, managed solutions and the system solution exist at this level. When multiple managed solutions are installed, the last one installed is above the managed solution installed previously. This means that the second solution installed can customize the one installed before it. When two managed solutions have conflicting definitions, the runtime behavior is either "Last one wins" or a merge logic is implemented. If you uninstall a managed solution, the managed solution below it takes effect. If you uninstall all managed solutions, the default behavior defined within the system solution is applied. At the base of the managed layers level is the system layer. The system layer contains the entities and components that are required for the platform to function.
 
-![Diagram that shows the solution layers.](../media/3-solutions-layers.png)
+![Diagram that shows the solution layers.](../media/3-solution-layers.png)
 
 The solution architect needs to decide on the number of solutions that will be used for their business solution. While you could work with a single solution, this leads to dependencies on releases, and large solutions can take a long time to export and import. Most projects use multiple solutions. Solution architects should understand the merge behavior when a solution is updated or when multiple solutions are installed that affect the same component.
 
