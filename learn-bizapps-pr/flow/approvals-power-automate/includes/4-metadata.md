@@ -1,31 +1,31 @@
-The Power Automate Approvals actions provide several metadata items that are helpful.
+Actions in the **Approvals** connector for Power Automate provide several helpful metadata items.
 
-## Who approved or rejected?
+## Who is approved or rejected
 
-Once an item is approved or rejected, all the metadata that is part of this process is available for other workflow processes. Here is the primary dynamic content that captures the information.
+After an item has been approved or rejected, all metadata that is part of this process is available for other workflow processes. The following screenshot shows the primary dynamic content that captures the information.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the primary dynamic content that captures the metadata.](../media/dynamic-content-approvals.png)](../media/dynamic-content-approvals.png#lightbox)
 
-Outcome will provide you which approval option was selected. It's either approve or reject or any of the custom responses you may have added.
+The **Outcome** option will provide you with the approval option that was selected, which will likely be **Approve**, **Reject**, or custom responses that you might have added.
 
 ## Date and time stamps of the approvals
 
-Several dates and time stamps are automatically captured by approval. Here are all the dates that are captured.
+Several dates and time stamps are automatically captured by approval. The following screenshot shows all dates that are captured.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the dates captured automatically by approval.](../media/date-time-stamps-captured.png)](../media/date-time-stamps-captured.png#lightbox)
 
 ## Additional comments
 
-When you are responding to an approval, you can add comments. You can capture these comments and save them in the data source of your choice.
+When responding to an approval, you can add comments. You can capture these comments and save them in the data source of your choice.
 
-Here is what the option to add the comment looks like.
+The following screenshot shows what the **Comments** option looks like.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the option to a comment field.](../media/comments.jpg)](../media/comments.jpg#lightbox)
+> [![Screenshot of the Comment field to add a comment.](../media/comments.jpg)](../media/comments.jpg#lightbox)
 
-The comment can be captured using Power Automate.
+The comments can be captured by using Power Automate.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Responses Comments feature in Power Automate.](../media/responses-comments.png)](../media/responses-comments.png#lightbox)
