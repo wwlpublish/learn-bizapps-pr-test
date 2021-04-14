@@ -35,10 +35,10 @@ quiz:
     - content: Allows you to duplicate an action in your flow by copying and pasting it.
       isCorrect: true 
       explanation: Copy to my clipboard is a key feature that is available in the flow actions. Select the ellipsis button to find it.
-    - content: Two triggers and two actions.
+    - content: It allows us to copy the block of Flow logic rather than just the actions. 
       isCorrect: false 
       explanation: Copy to my clipboard is a key feature that is available in the flow actions. Select the ellipsis button to find it.
-    - content: No trigger and one action.
+    - content: It allows you to share your flows publicly through sites such as GitHub. 
       isCorrect: false 
       explanation: Copy to my clipboard is a key feature that is available in the flow actions. Select the ellipsis button to find it.
   - content: What are the options available in **Configure run after**?
