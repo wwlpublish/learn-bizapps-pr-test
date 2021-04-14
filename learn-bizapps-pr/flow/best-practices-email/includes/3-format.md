@@ -31,7 +31,7 @@ Power Apps Studio comes with several variable functions such as:
 
 **Environment variables**: Flows often require different configuration settings across environments. Environment variables as configurable input parameters allow management of data separately compared to hard-coding values within your customization or using other tools.
 
-Environment variables are part of Power Automate Solutions. Solutions are used to transport apps and components from one environment to another or to apply a set of customizations to existing apps. A solution can contain one or more flows and other components such as site apps, maps, tables, processes, web resources, choices, and more. To learn more about Solutions see, [Solutions overview](https://docs.microsoft.com/powerapps/maker/data-platform/solutions-overview/?azure-portal=true)
+Environment variables are part of Power Automate Solutions. Solutions are used to transport apps and components from one environment to another or to apply a set of customizations to existing apps. A solution can contain one or more flows and other components such as site apps, maps, tables, processes, web resources, choices, and more. To learn more about Solutions see, [Solutions overview](https://docs.microsoft.com/powerapps/maker/data-platform/solutions-overview/?azure-portal=true).
 
 To create a solution, you go to [Power Automate](https://us.flow.microsoft.com/?azure-portal=true) click on **Solutions** which available on the left vertical navigation, click on **+ New solution**.
 
