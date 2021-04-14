@@ -26,7 +26,7 @@ levels:
 roles:  
 - maker  
 products:  
-- dynamics-365  
+- power-platform
 - power-automate 
 units: 
 - learn-bizapps.best-practices-email.1-introduction 
