@@ -8,13 +8,13 @@ metadata:
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-automate
-title:Integrate SharePoint and Power Automate
+title: Integrate SharePoint and Power Automate
 summary: |
   [!include[](../../includes/lp-banner.md)]
   Using SharePoint and Power Automate helps you automate day-to-day tasks. The Learning Path covers approvals in SharePoint and Power Automate, best practices, connectors, and error handling within flows. 
 prerequisites: |
   - A basic understanding of Microsoft Power Automate. 
-  - Familiarity with SharePoint
+  - Familiarity with SharePoint.
 iconUrl: /learn/achievements/integrate-power-automate.svg
 levels:
 - intermediate
