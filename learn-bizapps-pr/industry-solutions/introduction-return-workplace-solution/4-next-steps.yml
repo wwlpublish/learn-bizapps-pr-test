@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.introduction-return-workplace-solution.4-next-steps 
+title: Next steps for configurators 
+metadata: 
+  title: Next steps for configurators  
+  description: Learn about the next steps for configurators. 
+  ms.date: 04/05/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-return-workplace 
+durationInMinutes: 2
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-next-steps.md)] 

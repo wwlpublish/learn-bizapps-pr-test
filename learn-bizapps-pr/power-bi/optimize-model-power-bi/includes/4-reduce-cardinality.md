@@ -4,14 +4,14 @@ Cardinality is a term that is used to describe the uniqueness of the values in a
 
 Previously, when you used Power Query Editor to analyze the metadata, the **Column distribution** option on the **View** tab displayed statistics on how many distinct and unique items were in each column in the data.
 
-- **Distinct values count** - The total number of different values found in a given column.
+-   **Distinct values count** - The total number of different values found in a given column.
 
-- **Unique values count** - The total number of values that only appear once in a given column.
+-   **Unique values count** - The total number of values that only appear once in a given column.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the View tab column distribution statistics.](../media/4-column-distribution-statistics-ssm.png)](../media/4-column-distribution-statistics-ssm.png#lightbox)
+> [![View column distribution statistics](../media/4-column-distribution-statistics-ssm.png)](../media/4-column-distribution-statistics-ssm.png#lightbox)
 
-A column that has a lot of repeated values in its range (distinct count is low) will have a low level of cardinality. Conversely, a column that has a lot of unique values in its range (unique count is high) will have a high level of cardinality.
+A column that has a lot of repeated values in its range (distinct count is high) will have a low level of cardinality. Conversely, a column that has a lot of unique values in its range (unique count is high) will have a high level of cardinality.
 
 Lower cardinality leads to more optimized performance, so you might need to reduce the number of high cardinally columns in your dataset.
 
@@ -23,20 +23,20 @@ When you create or edit a relationship, you can configure additional options. By
 
 The relationships can have different cardinality. Cardinality is the direction of the relationship, and each model relationship must be defined with a cardinality type. The cardinality options in Power BI are:
 
-- **Many-to-one (*:1)** - This relationship is the most common, default type. It means that the column in one table can have more than one instance of a value, and the other related table, often known as the lookup table, has only one instance of a value.
+-   **Many-to-one (*:1)** - This relationship is the most common, default type. It means that the column in one table can have more than one instance of a value, and the other related table, often known as the lookup table, has only one instance of a value.
 
-- **One-to-one (1:1)** - In this relationship type, the column in one table has only one instance of a particular value, and the other related table has only one instance of a particular value.
+-   **One-to-one (1:1)** - In this relationship type, the column in one table has only one instance of a particular value, and the other related table has only one instance of a particular value.
 
-- **One-to-many (1:*)** - In this relationship type, the column in one table has only one instance of a particular value, and the other related table can have more than one instance of a value.
+-   **One-to-many (1:*)** - In this relationship type, the column in one table has only one instance of a particular value, and the other related table can have more than one instance of a value.
 
-- **Many-to-many (:)** - With composite models, you can establish a many-to-many relationship between tables, which removes requirements for unique values in tables. It also removes previous workarounds, such as introducing new tables only to establish relationships.
+-   **Many-to-many (:)** - With composite models, you can establish a many-to-many relationship between tables, which removes requirements for unique values in tables. It also removes previous workarounds, such as introducing new tables only to establish relationships.
 
 During development, you will be creating and editing relationships in your model, so when you are building new relationships in your model, regardless of what cardinality you have chosen, always ensure that both of the columns that you are using to participate in a relationship are sharing the same data type. Your model will never work if you try to build a relationship between two columns, where one column has a text data type and another column has an integer data type.
 
 In the following example, the **ProductID** field has the data type **Whole number** in the Product and Sales tables. The columns with data type **Integer** perform better than columns with data type **Text**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the ProductID data type set to whole number.](../media/4-product-id-type-whole-number-ssm.png)](../media/4-product-id-type-whole-number-ssm.png#lightbox)
+> [![ProductID type whole number](../media/4-product-id-type-whole-number-ssm.png)](../media/4-product-id-type-whole-number-ssm.png#lightbox)
 
 ## Improve performance by reducing cardinality levels
 
@@ -53,3 +53,4 @@ In Power BI Desktop, a Mixed mode design produces a composite model. Essentially
 An effective technique to reduce the model size is to set the **Storage Mode** property for larger fact-type tables to **DirectQuery**. This design approach can work well in conjunction with techniques that are used to summarize your data. For example, the summarized sales data could be used to achieve high performance "summary" reporting. A drill-through page could be created to display granular sales for specific (and narrow) filter context, displaying all in-context sales orders. The drill-through page would include visuals based on a DirectQuery table to retrieve the sales order data (sales order details).
 
 For more information, see [Data reduction techniques for Import modeling](https://docs.microsoft.com/power-bi/guidance/import-modeling-data-reduction#group-by-and-summarize/?azure-portal=true).
+

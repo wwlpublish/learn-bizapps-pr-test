@@ -18,12 +18,13 @@ abstract: |
     - Learn how to use APIs with Microsoft Azure Active Directory.
     - Use a graph API from a custom connector.
     - Share and move between environments.
-prerequisites: None 
+prerequisites: Experience with Power Platform and Power Automate. 
 iconUrl: /learn/achievements/configure-custom-connectors-api.svg  
 levels:  
 - intermediate   
 roles:  
-- maker  
+- maker
+- developer
 products:  
 - power-platform
 - power-automate 
