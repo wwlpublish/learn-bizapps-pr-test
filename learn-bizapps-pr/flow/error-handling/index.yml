@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.error-handling 
 metadata: 
- title: Best practices for error handling
- description: Are you frustrated when things don't work out as you expected in your flow? Error handling can solve that problem! Error handling gives you the flexibility to define any number of steps to run even if an action has failed. This feature gives you the confidence to run even your most important business processes using Microsoft Power Automate flows.
+ title: Best practices for error handling in Power Automate flows
+ description: Learn aobut error handling in Microsoft Power Automate flows.
  ms.date: 04/30/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Best practices for error handling
+title: Best practices for error handling in Power Automate flows
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Getting notifications when your flow has failed because of an error is critical to maintaining business continuity. Also, the notification should provide the cause of the error to help resolve it quickly. This module will focus on how you can use the Configure run after, an option available for flow actions, to help isolate errors. It also overviews the built-in error reports.
