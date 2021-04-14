@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.power-apps-architecture.1-introduction
-title: Introduction to types of Power App
+title: Introduction
 metadata:
-  title: Introduction to types of Power App
-  description: Overview of the types of apps available in Power Apps
+  title: Introduction
+  description: Overview of the types of apps that are available in Microsoft Power Apps
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley
