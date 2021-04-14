@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.http-connectors.3-azure 
+title: HTTP with Azure Active Directory connector
+metadata: 
+  title: HTTP with Azure Active Directory connector 
+  description: Learn about HTTP with Azure Active Directory connector. 
+  ms.date: 04/30/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-azure.md)] 
