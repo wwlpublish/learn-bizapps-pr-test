@@ -31,7 +31,7 @@ Current known issues and limitations are:
 
 The throttling limit for the **API** calls per connection is **100 calls** for every **60 seconds**.
 
-An example is invoking an HTTP request** to **Microsoft Graph** to get user information.
+An example is invoking an HTTP request to **Microsoft Graph** to get user information.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot example of an H T T P request to Microsoft Graph.](../media/invoke-http-request.png)](../media/invoke-http-request.png#lightbox)
