@@ -24,7 +24,8 @@ We do not recommend that you have more than three Power BI tiles loaded at the s
 
 It is possible to pass a parameter of type string to the Power BI tile from the canvas app by modifying the **TileURL** property and appending 
 
-``` &$filter=<TableName>/<ColumnName> eq '<Value>'
+```
+&$filter=<TableName>/<ColumnName> eq '<Value>'
 ```
 This action allows the tile to be filtered by a value in the canvas app.
 
