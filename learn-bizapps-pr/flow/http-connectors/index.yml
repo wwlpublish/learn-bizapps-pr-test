@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.http-connectors 
 metadata: 
- title: HTTP connectors
- description: Have you ever wished you had the option to directly connect to Microsoft 365 or Azure service and not be limited to the out-of-box actions that Power Automate provides? With the HTTP actions, you can do just that! This module will focus on how you can use the HTTP connectors available in Power Automate.
+ title: Interact with data using web requests with HTTP connectors in Power Automate
+ description: Learn about HTTP connectors available in Power Automate.
  ms.date: 04/30/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: HTTP connectors 
+title: Interact with data using web requests with HTTP connectors in Power Automate 
 summary: |  
   [!include[](../includes/module-banner.md)] 
   HTTP connectors use Representational State Transfer (REST) services that allow users to interact directly with data by using web requests. This allows flow makers to tap into the full potential of what the web service has to offer in a secure manner and still use Power Automate flows. This module will focus on both the built-in and the premium HTTP connectors. 
