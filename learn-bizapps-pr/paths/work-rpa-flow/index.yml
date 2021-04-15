@@ -24,6 +24,6 @@ products:
 - power-automate
 modules:
 - learn-bizapps.build-first-desktop-flow
-- Define input and output parameters in Power Automate
+- learn-bizapps.input-parameters
 trophy: 
   uid: learn-bizapps.work-rpa-flow.trophy
