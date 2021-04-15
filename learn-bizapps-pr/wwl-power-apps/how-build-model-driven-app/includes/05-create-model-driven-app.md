@@ -90,7 +90,7 @@ You add components to your app by using the App Designer.
 ## Open and add a view in the app designer
 The following steps explain how to open and add a view in the app designer.
 
-1.	In the app designer **Table View** section, select **Views**.
+1.	In the app designer **Entity View** section, select **Views**.
     *   In this example, we have selected **Views** from the **Account** table.
 
     [![Account views](../media/app-designer-add-view.png)](../media/app-designer-add-view.png#lightbox)
