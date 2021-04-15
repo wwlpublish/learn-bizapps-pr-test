@@ -41,7 +41,7 @@ quiz:
     - content: Test Studio
       isCorrect: true
       explanation: Test Studio is a tool for testing, including performing regression testing on canvas apps.
-  - content: Your canvas apps are performing poorly with many formulas to calculate a value. You want to offload processing to speed up performance. What should you do?
+  - content: Your canvas apps contain many forumals and are performing poorly. You want to offload processing to speed up performance. What should you do?
     choices: 
     - content: Create a Power Automate flow and then run the flow by using an expression.
       isCorrect: true
