@@ -4,9 +4,9 @@ When you're storing or viewing data with your app, an important part of the desi
 
 There are three types of table in Dataverse:
 
-- Standard: Standard tables are tables where you can store data and add to the navigation in model-driven apps. Most tables you create will be standard tables. There are several standard tables created from the Common Data Model schema in a Dataverse environment.
-- Activity: Activity tables are used to store interactions such as phone calls, tasks, and appointments. There is a set of activity tables in a Dataverse database.
-- Virtual: Virtual tables allow you to create the table and columns in Dataverse, but then use an external data source to store the data. To the user, the data appears in their apps like any other data.
+- **Standard**: Standard tables are tables where you can store data and add to the navigation in model-driven apps. Most tables you create will be standard tables. There are several standard tables created from the Common Data Model schema in a Dataverse environment.
+- **Activity**: Activity tables are used to store interactions such as phone calls, tasks, and appointments. There is a set of activity tables in a Dataverse database.
+- **Virtual**: Virtual tables allow you to create the table and columns in Dataverse, but then use an external data source to store the data. To the user, the data appears in their apps like any other data.
 
 When you create a custom standard table, you must specify its ownership:
 
@@ -17,13 +17,13 @@ When you create a custom standard table, you must specify its ownership:
 
 ## Custom Activity tables
 
-Activity tables are used to store interactions. They have a relationship to all tables that have Enable for activities set on their table metadata. Activity tables share the same set of columns and share the same security privileges. Rows in activity tables appear in the timeline on model-driven app forms. In this example, a custom activity table called Donation has been created.
+Activity tables are used to store interactions. They have a relationship to all tables that have **Enable for activities** set on their table metadata. Activity tables share the same set of columns and share the same security privileges. Rows in activity tables appear in the timeline on model-driven app forms. In this example, a custom activity table called Donation has been created.
 
 ![Diagram of the relationship of a custom activity.](../media/5-custom-activity.png)
 
 There are some advantages for using custom activity tables:
 
-- Show up in list with other activities.
+- Show up in a list with other activities.
 - Can be rolled up with other activities.
 - Can create a "donation" on any table that supports activities.
 
@@ -137,7 +137,7 @@ The relationship between the expense report and the line item is an example of a
 
 ### Many-to-many (N:N)
 
-Multiple to multiple data structure is a special type. This is for cases where multiple records can be associated with multiple set of other records. A good example is your network of business partners. You have multiple business partners (customers and vendors) that you work with, and those business partners also work with multiple colleagues of yours.
+Multiple to multiple data structure is a special type. This is for cases where multiple records can be associated with multiple sets of other records. A good example is your network of business partners. You have multiple business partners (customers and vendors) that you work with, and those business partners also work with multiple colleagues of yours.
 
 ![Diagram shoing multiple people connected by lines.](../media/5-many-to-many.png)
 

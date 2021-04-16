@@ -11,7 +11,7 @@ metadata:
 title: Model data for Power Platform solutions
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The solution architect's role in data modelling for the Power Platform. This module addresses the trade offs for modelling data in Power Platform solutions.
+  The solution architect's role in data modeling for the Power Platform. This module addresses the trade offs for modeling data in Power Platform solutions.
 abstract: |  
     In this module, you will learn about: 
     - Data modeling influencers

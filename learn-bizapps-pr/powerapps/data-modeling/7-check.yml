@@ -21,7 +21,7 @@ quiz:
     - content: Yes, there is no harm in recreating custom entities.
       isCorrect: false
       explanation: In almost every situation, Account and Contact entities should never be recreated.
-    - content: No, in almost every situation, Accounts and Contacts should not be recreated.
+    - content: No, in almost every situation, Accounts, and Contacts should not be recreated.
       isCorrect: true
       explanation: In almost every situation, Account and Contact entities should never be recreated.
     - content: No, custom entities don't provide any value.
@@ -41,11 +41,11 @@ quiz:
     - content: XrmToolBox
       isCorrect: false
       explanation: The XrmToolBox is a set of community tools that allow easier customization and administration. XrmToolBox will document your data model but not create it for you.
-  - content: Which data type should you use to create a column that has 3 values user must select from, the values change every three months.
+  - content: Which data type should you use to create a column that has three values user must select from, the values change every three months.
     choices: 
     - content: Yes/No
       isCorrect: false
-      explanation: Yes/No columns are boolean and only hold either 0 or 1 values. 
+      explanation: Yes/No columns are boolean and only hold either 0 or 1 value. 
     - content: Choice
       isCorrect: false
       explanation: Choice columns do not allow items to be deleted from the choice list and require a Customizer to make the changes.

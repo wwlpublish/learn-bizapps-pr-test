@@ -12,4 +12,4 @@ Problems with your data model are much harder to correct once apps have been com
 
 ## Next Steps
 
-Learn more with the [Design data models for Dynamics 365 solutions module](https://docs.microsoft.com/learn/modules/data-models/).
+Learn more with the [Design data models for Dynamics 365 solutions module](https://docs.microsoft.com/learn/modules/data-models/?azure-portal=true).

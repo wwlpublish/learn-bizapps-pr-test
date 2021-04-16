@@ -6,7 +6,7 @@ When designing your solution, it is important to understand existing data source
 
 ### New data
 
-If your app is creating data that does not already exist anywhere, such as in situations where the existing business process was done using paper, we recommend storing the data in Dataverse.
+If your app is creating data that does not already exist, such as in situations where the existing business process was done using paper, we recommend storing the data in Dataverse.
 
 ### Read/write from existing system
 
@@ -18,11 +18,11 @@ In situations where original data should never be modified or overwritten, you c
 
 ## Where to store data
 
-Data modeling on the Power Platform should look at the whole data architecture picture and include a logical look at data from Dataverse, Data Lakes and external sources using connectors.
+Data modeling on the Power Platform should look at the whole data architecture picture and include a logical look at data from Dataverse, Data Lakes, and external sources using connectors.
 
 ### Dataverse
 
-Dataverse uses abstracts you and your apps from how data is stored. All data in Dataverse is accessed via REST APIs. Currently the tables in Dataverse are relational tables but this may change in the future. Dataverse stores its data in a mixture of stores and formats:
+Dataverse abstracts you and your apps from how data is stored. All data in Dataverse is accessed via REST APIs. Currently the tables in Dataverse are relational tables. Dataverse stores its data in a mixture of stores and formats:
 
 - Azure SQL Server Elastic Pools
 - Azure CosmosDB
@@ -33,14 +33,14 @@ Dataverse uses abstracts you and your apps from how data is stored. All data in 
 
 Power Apps apps have three ways of using existing data:
 
-- Connector: A connector allows the app to connect to various systems and sources—such as SharePoint, SQL Server, or Office 365—and directly retrieve data from them or save data to them.
-- DataFlow: DataFlows extract, transform, and load data from another system to Dataverse or Azure Data Lake storage. Unlike a connector, it fetches data in a scheduled batch. Instead of just retrieving the data as-is from the data source, you can use Power Query Online to manipulate, cleanse, and transform data before you store it to the target storage.
-- Virtual Tables: A virtual table is a custom table in Dataverse that contain data from an external data source. Virtual tables appear in your app to users as regular table rows, but contain data that is sourced from an external database, such as an Azure SQL Database. Virtual tables are no longer read-only and apps can create and write data to Virtual tables.
+- **Connector**: A connector allows the app to connect to various systems and sources—such as SharePoint, SQL Server, or Microsoft 365 and directly retrieve data from them or save data to them.
+- **DataFlow**: DataFlows extract, transform, and load data from another system to Dataverse or Azure Data Lake storage. Unlike a connector, it fetches data in a scheduled batch. Instead of just retrieving the data as-is from the data source, you can use Power Query Online to manipulate, cleanse, and transform data before you store it to the target storage.
+- **Virtual tables**: A virtual table is a custom table in Dataverse that contains data from an external data source. Virtual tables appear in your app to users as regular table rows, but contain data that is sourced from an external database, such as an Azure SQL Database. Virtual tables are no longer read-only and apps can create and write data to Virtual tables.
 
 ### Choosing where to store data
 
 When choosing where to store data for your solution here are some recommendations:
 
-Dataverse: For transactional data your apps are going to consume and manipulate.
-Azure Data Lake: Good for data from other systems, read focused, and brought into a common data model structure.
-Connectors: Connectors: Good for leaving existing data where it is and accessing other services that make their data available.
+- **Dataverse**: Good for transactional data your apps are going to consume and manipulate.
+- **Azure Data Lake**: Good for data from other systems, read focused, and brought into a common data model structure.
+- **Connectors**: Good for leaving existing data where it is and accessing other services that make their data available.

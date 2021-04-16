@@ -1,4 +1,4 @@
-The Common Data Model standard defines a common language for business entities covering, over time, the full range of business processes across sales, services, marketing, operations, finance, talent, and commerce and for the Customer, People, and Product entities at the core of a company's business processes. The goal of Common Data Model is to enable data and application interoperability spanning multiple channels, service implementations, and vendors. Common Data Model provides self-describing data (structurally and semantically), enabling applications to easily read and understand the data.
+The Common Data Model standard defines a common language for business entities covering the full range of business processes across sales, services, marketing, operations, finance, talent, and commerce and for the customer, people, and product entities at the core of a company's business processes. The goal of Common Data Model is to enable data and application interoperability spanning multiple channels, service implementations, and vendors. Common Data Model provides self-describing data (structurally and semantically), enabling applications to easily read and understand the data.
 
 ## What is the Common Data Model
 
@@ -33,4 +33,4 @@ Industry accelerators are foundational components within Microsoft Power Platfor
 - Manufacturing
 - Media and entertainment
 
-For more information see [industry accelerators](https://docs.microsoft.com/dynamics365/industry/accelerators/overview).
+For more information, see [industry accelerators](https://docs.microsoft.com/dynamics365/industry/accelerators/overview).
