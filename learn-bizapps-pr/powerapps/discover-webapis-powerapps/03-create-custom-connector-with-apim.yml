@@ -4,7 +4,7 @@ title: Exercise - Create a custom connector from Azure API Management
 metadata:
   title: Exercise - Create a custom connector from Web API in Azure API Management
   description: Create a custom connector by exporting a web API from Azure API Management
-  ms.date: 04/12/2021
+  ms.date: 04/16/2021
   author: justinyoo
   ms.author: juyoo
   ms.topic: interactive-tutorial

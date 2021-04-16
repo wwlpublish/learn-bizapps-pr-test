@@ -9,7 +9,7 @@ metadata:
     * How to create a custom connector from both Azure API Management and an OpenAPI document
     * How to call a web API from a Power Apps app using a custom connector
 
-  ms.date: 04/12/2021
+  ms.date: 04/16/2021
   author: justinyoo
   ms.author: juyoo
   ms.topic: interactive-tutorial

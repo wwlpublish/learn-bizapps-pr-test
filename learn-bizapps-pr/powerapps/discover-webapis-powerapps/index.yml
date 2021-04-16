@@ -6,7 +6,7 @@ summary: |
 metadata:
   title: Discover and use Web APIs with Power Apps
   description: Build a custom connector using an OpenAPI document or Azure API Management to send data to and receive data from web APIs.
-  ms.date: 04/12/2021
+  ms.date: 04/16/2021
   author: justinyoo
   ms.author: juyoo
   ms.topic: interactive-tutorial
