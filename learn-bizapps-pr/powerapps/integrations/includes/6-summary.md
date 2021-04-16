@@ -10,6 +10,6 @@ For more information, see the following:
 
 - [Data integration](https://docs.microsoft.com/powerapps/developer/data-platform/data-synchronization)
 
-- [Integration with Azure](https://docs.microsoft.com/powerapps/developer/data-platform/azure-integration
+- [Integration with Azure](https://docs.microsoft.com/powerapps/developer/data-platform/azure-integration)
 
 - [Integrate with Power Platform and Dataverse learning path](https://docs.microsoft.com/learn/paths/integrate-power-platform).
