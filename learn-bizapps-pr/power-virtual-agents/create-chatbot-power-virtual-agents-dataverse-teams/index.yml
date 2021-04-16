@@ -2,8 +2,8 @@
 uid: learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams 
 metadata: 
  title: Create your first chatbot using Power Virtual Agents and Dataverse for Teams
- description: To help make it easier to learn how to create a chatbot, we will step through the process of creating, editing, and then publishing a chatbot that provides contact information for an event planning team.
- ms.date: 04/30/2021  
+ description: Learn how to create a chatbot with Teams.
+ ms.date: 04/16/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  

@@ -10,7 +10,7 @@ To create chatbots (also referred to as **bots**), first install the Power Virtu
 
 To install Power Virtual Agent for Teams:
 
-1. Open Teams then select **Apps** from the left navigation bar.
+1. Open Teams, then select **Apps** from the left navigation bar.
 1. Type for **Power Virtual Agents** and then select it from the search results.
     
     > [!div class="mx-imgBorder"]

@@ -18,6 +18,6 @@ Power Virtual Agents for Teams is a no code/low code solution to create powerful
 
 -   [Quick build HR, IT, and any kind of Teams FAQ bot with Power Virtual Agents](https://powervirtualagents.microsoft.com/blog/quickly-build-a-microsoft-teams-faq-bot-with-power-virtual-agents/?azure-portal=true)
 
--   [https://aka.ms/PVAForTeams](https://aka.ms/PVAForTeams/?azure-portal=true) to install PVA Teams app or search for Power Virtual Agents in Teams app store.
+-   [Power Virtual Agents Teams](https://aka.ms/PVAForTeams/?azure-portal=true) to install Power Virtual Agents Teams app or search for Power Virtual Agents in Teams app store.
 
--   [https://aka.ms/PVAinaDayPackage](https://aka.ms/PVAinaDayPackage/?azure-portal=true) for hands-on training in building Microsoft Teams bot with PVA.
+-   [Build Teams bots](https://aka.ms/PVAinaDayPackage/?azure-portal=true) for hands-on training in building Microsoft Teams bot with Power Virtual Agents.
