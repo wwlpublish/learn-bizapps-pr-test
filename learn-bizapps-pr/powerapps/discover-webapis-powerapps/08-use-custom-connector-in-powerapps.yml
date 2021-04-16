@@ -9,6 +9,6 @@ metadata:
   ms.author: juyoo
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-durationInMinutes: 3
+durationInMinutes: 8
 content: | 
   [!include[](includes/08-use-custom-connector-in-powerapps.md)]

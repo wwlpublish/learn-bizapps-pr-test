@@ -9,6 +9,6 @@ metadata:
   ms.author: juyoo
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-durationInMinutes: 3
+durationInMinutes: 5
 content: | 
   [!include[](includes/07-test-custom-connector.md)]

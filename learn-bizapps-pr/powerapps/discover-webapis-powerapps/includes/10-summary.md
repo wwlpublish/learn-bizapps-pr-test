@@ -20,3 +20,8 @@ To sum up, this module has covered the following topics:
 * [Create a Custom Connector from an OpenAPI Definition](https://docs.microsoft.com/connectors/custom-connectors/define-openapi-definition)
 * [Use a Custom Connector from a Power Apps App](https://docs.microsoft.com/connectors/custom-connectors/use-custom-connector-powerapps)
 * [Custom Connector FAQ for Azure Logic Apps, Power Automate, and Power Apps](https://docs.microsoft.com/connectors/custom-connectors/faq)
+
+
+## Additional Resources ##
+
+* [Fusion development approach to building apps using Power Apps](https://aka.ms/fusiondevbook)

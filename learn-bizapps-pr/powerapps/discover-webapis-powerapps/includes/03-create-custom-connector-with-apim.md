@@ -45,50 +45,41 @@ The inventory management APIs have been exported to Power Apps.
 
 You need to create a connection to the custom connector in order to use it. Generally speaking, creating the connection requires authentication to the web APIs.
 
-After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu on the left-hand side. Then, click the `➕` button on the right-hand side.
+1. After logging into [Power Apps][pa] dashboard, open the `Data` blade and click the `Custom Connectors` menu on the left-hand side. Then, click the `➕` button on the right-hand side.
 
-![New Custom Connector][image-07]
+    ![New Custom Connector][image-07]
 
-> **NOTE**:
-> 
-> The following part is based on the current bug of the custom connector created from API Management. We should update this part once this bug is fixed.
+1. When a pop-up modal shows up, you will only see two buttons &ndash; `Cancel` and `Create`. You need to enable an API key field before creating the connection. Close the modal by clicking the `Cancel` button.
 
+    ![New Custom Connector Pop-up Modal Bug Workaround][image-08]
 
-### ⬇️⬇️⬇️ Bug Workaround Part Begin ⬇️⬇️⬇️ ###
+1. This time, click the `🖋` button on the right-hand side to update the connector.
 
-When a pop-up modal shows up, you will only see two buttons&ndash;`Cancel` and `Create`. Close the modal by clicking the `Cancel` button.
+    ![Update Custom Connector][image-09]
 
-![New Custom Connector Pop-up Modal Bug Workaround][image-08]
+1. Click the `2. Security` tab, and you will see all fields are greyed out, which are unmodifiable.
 
-This time, click the `🖋` button on the right-hand side to update the connector.
+    ![Custom Connector Security Tab Fields Unmodifiable][image-10]
 
-![Update Custom Connector][image-09]
+1. Click either the `🖋 Edit` button, and you will see all the fields become modifiable. Then click the `Definition →` button at the right bottom corner.
 
-Click the `2. Security` tab, and you will see all fields are greyed out, which are unmodifiable.
+    ![Custom Connector Security Tab Fields Modifiable][image-11]
 
-![Custom Connector Security Tab Fields Unmodifiable][image-10]
+1. At the `Definition` tab, leave everything unchanged and click the `✅ Update connector` button on the right-hand side. Once the custom connector is updated, you will see the message, `✅ Custom connector has been successfully updated` at the top of the screen.
 
-Click either the `🖋 Edit` button, and you will see all the fields become modifiable. Then click the `Definition →` button at the right bottom corner.
+    ![Custom Connector Definition Tab][image-12]
 
-![Custom Connector Security Tab Fields Modifiable][image-11]
+1. Go back to the `Custom Connectors` menu and click the `➕` button on the right-hand side again.
 
-At the `Definition` tab, leave everything unchanged and click the `✅ Update connector` button on the right-hand side. Once the custom connector is updated, you will see the message, `✅ Custom connector has been successfully updated` at the top of the screen.
+    ![New Custom Connector Bug Workaround][image-07]
 
-![Custom Connector Definition Tab][image-12]
+1. When a pop-up modal shows up, you will see the API Key field enabled. Enter the API key copied at the beginning of this unit. Then click the `Create` button.
 
-Go back to the `Custom Connectors` menu and click the `➕` button on the right-hand side again.
+    ![New Custom Connector Pop-up Modal][image-13]
 
-![New Custom Connector Bug Workaround][image-07]
+1. Go to the `Connections` menu, and you will see the new connection has been created.
 
-### ⬆️⬆️⬆️ Bug Workaround Part End ⬆️⬆️⬆️ ###
-
-When a pop-up modal shows up, you will see the API Key field. Enter the API key copied at the beginning of this unit. Then click the `Create` button.
-
-![New Custom Connector Pop-up Modal][image-13]
-
-Go to the `Connections` menu, and you will see the new connection has been created.
-
-![New Connection][image-14]
+    ![New Connection][image-14]
 
 You have completed creating a custom connector for inventory management.
 
