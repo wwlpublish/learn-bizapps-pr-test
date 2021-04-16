@@ -13,7 +13,7 @@ Let's meet your teammates and learn about the business problem you'll solve.
     Kiana is a full-stack developer and software architect specializing in C# and .NET. She has written and designed many of VanArsdel's applications but is getting stretched thin by all the new requests. Kiana has heard of Power Apps, and would like to learn what it can do on its own before using her full-stack skills to add more capabilities to the platform.
   :::column-end:::
   :::column:::
-    ![Cartoon depiction of Crystal](../../../shared/media/kiana.png)
+    ![Cartoon depiction of Crystal](../../shared/media/kiana.png)
   :::column-end:::
 :::row-end:::
 
