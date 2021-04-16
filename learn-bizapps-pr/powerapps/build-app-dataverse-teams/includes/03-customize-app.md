@@ -2,7 +2,7 @@ In the previous lesson, you created a new app using your data loaded into Datave
 
 For this lesson, we will change the title of the app, the layout of the gallery, and change the order of fields.
 
-To start, open Teams using the desktop client or browsing [Teams](https://teams.microsoft.com/?azure-portal=true) and open the Power Apps app. Click on the **Build** tab at the top and then select your app.
+To start, open Teams using the desktop client or browsing [Teams](https://teams.microsoft.com/?azure-portal=true) and open the Power Apps app. Select on the **Build** tab at the top and then select your app.
 
 ![Screenshot of open app in Power Apps Studio.](../media/12-studio-open.png)
 
@@ -25,7 +25,7 @@ Power Apps are built using various UI elements referred to as **Controls**. Use 
 
 **Rectangle** - A border shape that can be placed anywhere on the app
 
-**Date Picker** - Allows the user to select a date using a calendar pop up
+**Date Picker** - Allows the user to select a date using a calendar pop-up
 
 **Button** - A way for the user to interact with the app
 
@@ -51,7 +51,7 @@ When editing your app, you need to select the control item so that the propertie
 
     or
 
--   Click on the title in the app and, **AppNameLabel1** will appear in the properties pane
+-   Select on the title in the app and, **AppNameLabel1** will appear in the properties pane
 
 Once selected, you can edit the **Text** properties on the right. You can also change various other properties such as **Font**, **Font size**, and **Text alignment**. This process can be used to change the text and appearance of any label in the app.
 
@@ -61,7 +61,7 @@ Once selected, you can edit the **Text** properties on the right. You can also c
 
 A **gallery** control displays multiple records for the user to view and select. Each record in the gallery can display multiple types of information. For example, a gallery could show a listing of inventory items that show the name, model number, and price for each. Depending on what you need, galleries come in various vertical and horizontal layouts.
 
-To change the layout of the gallery, select the gallery by clicking on it in the app or finding **BrowseGallery1** in the Tree view. Under the **Properties** pane, select from various **Layout** options.
+To change the layout of the gallery, select the gallery by Selecting on it in the app or finding **BrowseGallery1** in the Tree view. Under the **Properties** pane, select from various **Layout** options.
 
 ![Screenshot that shows the gallery options.](../media/15-gallery.png)
 
@@ -71,10 +71,10 @@ To change the content of the gallery's fields, go to the **Properties** pane and
 
 ## Change the order in which fields appear
 
-1. Select the form by clicking on it in the app or finding **EditForm1** in the **Tree view**.
+1. Select the form by selecting on it in the app or finding **EditForm1** in the **Tree view**.
 
 1. Under the **Properties** pane, select **Edit fields** next to **Fields**.
 
-1. Right-click on the ellipsis next to each field to bring up more options. Select **Move up**, **Move down**, or **Remove**.
+1. Right-select on the ellipsis next to each field to bring up more options. Select **Move up**, **Move down**, or **Remove**.
     
     ![Screenshot of the ordering of gallery fields.](../media/17-gallery-field-order.png)
