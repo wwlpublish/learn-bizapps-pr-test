@@ -2,7 +2,7 @@ Now that you have built an app, you will want to share it will your team. You do
 
 1. Open your app for editing in Power Apps Studio
 
-1. Select **Publish to Teams** from the toolbar, then select **Next**
+1. Select **Publish to Teams** from the toolbar, then select **Next**.
     
     ![Screenshot of the publishing to Teams window.](../media/18-publish.png)
 
@@ -14,15 +14,15 @@ Now that you have built an app, you will want to share it will your team. You do
 
 By default, your Dataverse for Teams app is only available to the Team that you created the app in. Sometimes you will want to share your application with others in your organization. To share your app with others outside the Team:
 
-1. Verify you are a Team Owner where the app is currently published
+1. Verify you are a Team Owner where the app is currently published.
 
-1. Open the **Build** tab in the Power App for Teams app and select **See all**
+1. Open the **Build** tab in the Power App for Teams app and select **See all**.
 
-1. Select **Share with colleagues**
+1. Select **Share with colleagues**.
 
-1. Type in the Microsoft 365 group or Azure AD security group to share with and **Enter or select a security group**
+1. Type in the Microsoft 365 group or Azure AD security group to share with and **Enter or select a security group**.
 
-1. Turn on or off sharing of apps to the users then select **Save**
+1. Turn on or off sharing of apps to the users then select **Save**.
 
    ![Screenshot showing the sharing with colleagues.](../media/20-share-colleagues.png)
 

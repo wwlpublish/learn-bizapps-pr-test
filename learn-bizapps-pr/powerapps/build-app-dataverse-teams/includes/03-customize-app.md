@@ -13,31 +13,31 @@ Your app will open in Power Apps studio for editing.
 
 Power Apps are built using various UI elements referred to as **Controls**. Use controls to create the user experience when navigating and interacting with the app. Some common controls are:
 
-**Label** - Display information to the user as text, numbers, dates, or currency
+- **Label** - Display information to the user as text, numbers, dates, or currency.
 
-**Edit form** - Allows the user to create and edit records and then save them
+- **Edit form** - Allows the user to create and edit records and then save them.
 
-**Text box** - A box where a user can enter data such as text and numbers
+- **Text box** - A box where a user can enter data such as text and numbers.
 
-**Vertical gallery** - Displays multiple records from a data source in a vertical orientation, can show multiple types of data for each record
+- **Vertical gallery** - Displays multiple records from a data source in a vertical orientation, can show multiple types of data for each record.
 
-**Add Icon** - Select from a library of graphical symbols, can be configured to respond when a user selects them
+- **Add Icon** - Select from a library of graphical symbols, can be configured to respond when a user selects them.
 
-**Rectangle** - A border shape that can be placed anywhere on the app
+- **Rectangle** - A border shape that can be placed anywhere on the app.
 
-**Date Picker** - Allows the user to select a date using a calendar pop-up
+- **Date Picker** - Allows the user to select a date using a calendar pop-up.
 
-**Button** - A way for the user to interact with the app
+- **Button** - A way for the user to interact with the app.
 
 When editing the app, select between Tree view, Insert, Data, and Media options in the far-left column.
 
--   Tree view - Displays a visual hierarchy of all the controls in the app
+-   Tree view - Displays a visual hierarchy of all the controls in the app.
 
--   Insert - Insert new controls such as labels, buttons, icons, and forms
+-   Insert - Insert new controls such as labels, buttons, icons, and forms.
 
--   Data - Add more tables from Dataverse for Teams or add a connector to other O365 services
+-   Data - Add more tables from Dataverse for Teams or add a connector to other O365 services.
 
--   Media - Add images, videos, and audio
+-   Media - Add images, videos, and audio.
 
 In the center of the screen is where you visually move and edit the components that make up your app. When a control is selected from the tree view or in the app view, the properties pane displays the properties. At the top is the formula bar, allowing more editing capabilities.
 
@@ -47,11 +47,11 @@ In the center of the screen is where you visually move and edit the components t
 
 When editing your app, you need to select the control item so that the properties will appear on the right. To change the title that appears in the app, you first choose the label that has the text. You can either:
 
--   Select **Tree view** and then browse down to select **AppNameLabel1** 
+-   Select **Tree view** and then browse down to select **AppNameLabel1**.
 
     or
 
--   Select on the title in the app and, **AppNameLabel1** will appear in the properties pane
+-   Select on the title in the app and, **AppNameLabel1** will appear in the properties pane.
 
 Once selected, you can edit the **Text** properties on the right. You can also change various other properties such as **Font**, **Font size**, and **Text alignment**. This process can be used to change the text and appearance of any label in the app.
 

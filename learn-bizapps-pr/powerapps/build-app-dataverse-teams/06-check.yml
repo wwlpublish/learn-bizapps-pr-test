@@ -42,7 +42,7 @@ quiz:
       explanation: Incorrect, the owner is not the only person who can access a published app
     - content: Anybody on the team
       isCorrect: true 
-      explanation: Correct, Once the app is published, all members of the team will have access to the app by default.
+      explanation: Correct, once the app is published, all members of the team will have access to the app by default.
     - content: Anybody in the Organization
       isCorrect: false 
       explanation: Incorrect, the owner of the Team must take other steps to share the app beyond the members of the team
