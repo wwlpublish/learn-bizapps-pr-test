@@ -42,7 +42,7 @@ There are three types of integration:
 - Application Integration: A higher-level integration connecting at the application layer.
 - Process Integration: Combining multiple disparate systems, each of those systems is part of an overall business function.
 
-![Diagram showing the types of integration.](../media/1-part-of-bigger-picture.png)
+![Diagram showing the types of integration.](../media/1-types-integrations.png)
 
 ## How can the solution architect help?
 
