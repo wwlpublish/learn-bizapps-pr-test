@@ -12,8 +12,8 @@ If the chatbot is for the whole organization, you will submit it for review by y
 
 1. Select the **Publish** button. In the **Publish latest content** confirmation window, select **Publish** to confirm.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the publish latest content message.](../media/image-33.png)](../media/image-33.png#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the publish latest content message.](../media/image-33.png)](../media/image-33.png#lightbox)
 
 If this is the first time the chatbot is published only team members can access it. If the chatbot is only intended for team members, you will need to direct users on how to access it. Select **Share the bot** to select the best method for your situation:
 
