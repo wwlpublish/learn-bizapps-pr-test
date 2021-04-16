@@ -6,7 +6,7 @@ Power Virtual Agents for Teams is a no code/low code solution to create powerful
 
 [Use entities and slot filling in Power Virtual Agent bots](https://docs.microsoft.com/power-virtual-agents/advanced-entities-slot-filling/?azure-portal=true)
 
-[Syntax guidance for basic Markdown usage](https://docs.microsoft.com/azure/devops/project/wiki/markdown-guidance?view=azure-devops/?azure-portal=true)
+[Syntax guidance for basic Markdown usage](https://docs.microsoft.com/azure/devops/project/wiki/markdown-guidance?view=azure-devops/)
 
 [OData query options overview](https://docs.microsoft.com/odata/concepts/queryoptions-overview/?azure-portal=true)
 
