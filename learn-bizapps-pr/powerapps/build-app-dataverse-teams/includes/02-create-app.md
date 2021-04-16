@@ -17,7 +17,7 @@ All Dataverse for Teams apps requires a Microsoft Team to store the Power App da
 1. Select **Open** to install Power Apps
 
    > [!NOTE]
-   > *Pin the Power App app to the app launcher to quickly access it at any time. Just right-select on the Power Apps icon and select **Pin.** You can also run the app as a separate window from Teams by selecting on **Pop out app***.
+   > Pin the Power App app to the app launcher to quickly access it at any time. Just right-select on the Power Apps icon and select **Pin.** You can also run the app as a separate window from Teams by selecting on **Pop out app**.
  
    ![Screenshot showing how to pin an app in Teams.](../media/03-pin-app.png)
 
