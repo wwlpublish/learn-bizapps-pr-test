@@ -2,7 +2,7 @@ One way to increase the tech intensity for VanArsdel Heating and Air Conditionin
 
 The VanArsdel Fusion Development is trying to solve a problem they refer to as "The Field Inventory Management System".
 
-As the newest employee at VanArsdel you get "volun-told" to take notes as Caleb, the lead field technician describes an inefficient workflow that costs him and his team meany hours each day.
+As the newest employee at VanArsdel you get "volun-told" to take notes as Caleb, the lead field technician describes an inefficient workflow that costs him and his team many hours each day.
 
 ## The Field Inventory Management System
 
@@ -12,7 +12,7 @@ As the newest employee at VanArsdel you get "volun-told" to take notes as Caleb,
 - He'll sometimes call another technician if they're nearby to see if they have the part that he can pick up from them.
 - Otherwise, he'll travel back to the central warehouse to pick it up, and fill out a piece of paper indicating the part has been removed.
 - If the part is not in stock at the warehouse, Caleb fills out another piece of paper to indicate the part needs to be ordered.
-- Caleb and his team would be able to visit more customers per day if not for the time they spend traveling to pick up parts.
+- Caleb and his team could visit more customers per day if they didn't spend time traveling to pick up parts.
 
 Malik, the office manager, lets Caleb know that a lot of the time the field technicians call Malik and ask him to check the warehouse inventory. It might save the technicians time, but it interrupts Malik's workday and his other responsibilities.
 
