@@ -32,7 +32,7 @@ Consider the following factors when you're looking to improve a model's performa
 Cardinality refers to the number of unique values that are contained in a column, or field, of a database. High-cardinality values are typically identification numbers, email addresses, or user names.
 
 > [!div class="mx-imgBorder"]
-> [![An example of a data table column with high cardinality is a USERS table with a column named USER_ID.](../media/user-table.png)](../user-table/user-table.png#lightbox)
+> [![An example of a data table column with high cardinality is a USERS table with a column named USER_ID.](../media/user-table.png)](../media/user-table.png#lightbox)
 
 Your first consideration should be removing high-cardinality fields. If you have a unique ID for every row, remove that field. The higher the cardinality, the more costly it is to store; distinct values equal high cost.
 
