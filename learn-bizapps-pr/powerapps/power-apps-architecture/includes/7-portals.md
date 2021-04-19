@@ -84,4 +84,4 @@ Portal assets, such as views and forms, can be packaged in solutions, but most p
 
 - [Work with Power Apps portals](https://docs.microsoft.com/learn/paths/work-power-apps-portals/?azure-portal=true).
 
-Extend Power Apps portals <https://docs.microsoft.com/learn/paths/extend-power-apps-portals/>
+- [Extend Power Apps portals](https://docs.microsoft.com/learn/paths/extend-power-apps-portals/)
