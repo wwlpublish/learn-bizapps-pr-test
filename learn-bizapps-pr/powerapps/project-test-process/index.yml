@@ -32,8 +32,8 @@ products:
 - ai-builder
 units: 
 - learn-bizapps.project-test-process.1-introduction
-- learn-bizapps.project-test-process.2-planning
-- learn-bizapps.project-test-process.3-data-migration
+- learn-bizapps.project-test-process.2-plan-go-live
+- learn-bizapps.project-test-process.3-migrate-data
 - learn-bizapps.project-test-process.4-go-live
 - learn-bizapps.project-test-process.5-check
 - learn-bizapps.project-test-process.6-summary
