@@ -199,7 +199,7 @@ In this configuration:
 - Benefits can be secured individually
 - Querying is a little more difficult you have no ability to directly access attributes on the benefit table
 
-No let us look at just using columns on the Contact table.
+Now let us look at just using columns on the Contact table.
 
 ![Diagram of an example VIP benefits as columns.](../media/5-example-4-d.png)
 
