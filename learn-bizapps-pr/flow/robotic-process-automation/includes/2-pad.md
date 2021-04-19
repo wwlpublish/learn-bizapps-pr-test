@@ -18,7 +18,7 @@ Power Automate desktop flows are a valid way to perform integrations and automat
 
 Unlike the rest of the Power Platform tools, Desktop flows require software to be installed on your local computer. You need this software because you need to interact with software applications that aren't accessible from the cloud.
 
-The Power Automate Desktop app is a Windows application that you use to create, edit, and run desktop flows. You can download this tool [here](https:/​/​go.microsoft.​com/fwlink/​?​linkid=​2102613) or from the Power Automate portal. Microsoft has announced that Power Automate Desktop will, in future, be included with Windows 10 and is free to use on a Windows 10 computer.
+The Power Automate Desktop app is a Windows application that you use to create, edit, and run desktop flows. You can download this tool [here](https://go.microsoft.com/fwlink/?linkid=2102613) or from the Power Automate portal. Microsoft has announced that Power Automate Desktop will, in future, be included with Windows 10 and is free to use on a Windows 10 computer.
 
 You'll need a computer running Windows 10, Windows Server 2016, or Windows Server 2019 to install Power Automate Desktop.
 
