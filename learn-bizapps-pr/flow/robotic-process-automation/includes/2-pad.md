@@ -2,7 +2,7 @@ Power Automate desktop flows are for automation where there's no connector or AP
 
 Power Automate Desktop flows use Robotic Process Automation (RPA) techniques to automate user actions on these legacy applications. These techniques require software to be installed on the computers where the applications are installed. The software required to create, edit, and run desktop flows is called Power Automate Desktop.
 
-Whether working with modern or legacy apps, on-premises or in the cloud, Power Automate Desktop can automate rule-based UI tasks by recording mouse clicks, keyboard inputs, and data entry. As well as entering data, Power Automate Desktop can also extract information from the application user interface. Once the actions have been recorded, Power Automate Desktop has a rich editor for adjusting these user actions to create complex desktop flows.
+Whether working with modern or legacy apps, on-premises or in the cloud, Power Automate Desktop can automate rule-based UI tasks by recording mouse clicks, keyboard inputs, and data entry. And entering data, Power Automate Desktop can also extract information from the application user interface. Once the actions have been recorded, Power Automate Desktop has a rich editor for adjusting these user actions to create complex desktop flows.
 
 > [!div class="mx-imgBorder"]
 > [![alt text](../media/2-desktop-flow-designer.png)](../media/2-desktop-flow-designer.png#lightbox)
