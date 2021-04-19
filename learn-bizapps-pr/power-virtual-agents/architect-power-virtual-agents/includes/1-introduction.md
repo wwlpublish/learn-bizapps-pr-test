@@ -36,7 +36,7 @@ Conversational AI can be added into application to increase the user experience.
 - Triage for healthcare / crisis communication
 - Customer feedback / quizzes, surveys, and competitions
 
-A popular use for chatbots is in customer support scenarios. For example, if you visit the HP support site <https://support.hp.com> a chatbot will assist you with troubleshooting, warranty, and repairs.
+A popular use for chatbots is in customer support scenarios. For example, a chatbot can assist you with troubleshooting, warranty, and repairs.
 
 Most people's experience of chatbots in customer support scenarios, but there are potentially more powerful use cases for using chatbots inside of an organization such as:
 
