@@ -95,7 +95,7 @@ Power Virtual Agents is solution aware and can be included in solutions and appl
 > [!IMPORTANT]
 > Bots contain many sub-components, such as Topics, that must all be exported and imported together. You should consider creating segmenting your solution and have bots and their sub-components separate in a separate solution from other components.
 
-> [!NOTE]]
+> [!NOTE]
 > You can only import and export bots with the Power Virtual Agents web app. The feature is not available in the Power Virtual Agents app in Microsoft Teams.
 
 ## Deployment

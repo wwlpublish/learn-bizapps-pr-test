@@ -1,6 +1,6 @@
 When creating chatbots, there are some import concepts to understand before building your chatbot.
 
-## Language Understanding
+## Language understanding
 
 When humans interact with a computer application using text or speech, a human should not be expected to use the application’s internal instructions. A computer application must be able to handle language provided in a natural way and be able to react accordingly to the meaning that the human has expressed. Natural Language Processing, an AI capability, bridges the gap between human and computer language, it allows humans and computer applications to work together in a natural way.
 

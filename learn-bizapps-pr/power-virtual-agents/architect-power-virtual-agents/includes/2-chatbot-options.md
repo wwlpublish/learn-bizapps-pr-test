@@ -35,11 +35,11 @@ The Bot Framework Composer is a tool to build bots. The Bot Framework Composer u
 
 Bot Framework Composer can be used to build bots without the need to write code and supports both LUIS and QnA Maker.
 
-![Screenshot of Azure Bot Framework Composer bot.](../media/2-bot-composer.png)
+> [![Screenshot of Azure Bot Framework Composer bot.](../media/2-bot-composer.png)](../media/2-bot-composer.png#lightbox)
 
 There are similarities between Power Virtual Agents and Composer; both provide a no-code authoring canvas for users to build bots. However, there are key differences in the functionality and look of both technologies. For instance, topics in Power Virtual Agents are similar to dialogs in Composer.
 
-The Bot Framework Composer is open source and is multi-platform with support for Windows, Linux, and macOS. You can find Bot Composer on GitHub at <https://github.com/microsoft/BotFramework-Composer>.
+The Bot Framework Composer is open source and is multi-platform with support for Windows, Linux, and macOS. See [Bot Composer on GitHub](https://github.com/microsoft/BotFramework-Composer/?azure-portal=true) for more information.
 
 Bot makers can use Bot Framework Composer to create custom content and add it to Power Virtual Agents.
 
@@ -47,7 +47,7 @@ Bot makers can use Bot Framework Composer to create custom content and add it to
 
 QnA Maker is a service that creates a searchable knowledge base from existing documents and websites. This knowledge base contains built in natural language processing. The QnA Maker knowledge base can then be used in bots and other applications to respond to FAQ type questions.
 
-![Screenshot of QnA Maker knowledge base.](../media/2-qna-maker-knowledge-base.png)
+> [![Screenshot of QnA Maker knowledge base.](../media/2-qna-maker-knowledge-base.png)](../media/2-qna-maker-knowledge-base.png#lightbox)
 
 QnA Maker does not provide a bot itself, but you can easily generate an Azure Bot Service bot from your QnA Maker knowledge base in a few minutes without writing any code.
 
@@ -67,7 +67,7 @@ Power Virtual Agents chatbots interact with customers and employees, answer ques
 
 Power Virtual Agents chatbots can be created easily without the need for data scientists or developers.
 
-![Screenshot of Power Virtual Agents bot canvas.](../media/2-pva-bot-canvas.png)
+> [![Screenshot of Power Virtual Agents bot canvas.](../media/2-pva-bot-canvas.png)](../media/2-pva-bot-canvas.png#lightbox)
 
 Power Virtual Agents is built on top of the Azure Bot Framework and uses the capabilities of the Bot Framework in a no-code environment.
 
