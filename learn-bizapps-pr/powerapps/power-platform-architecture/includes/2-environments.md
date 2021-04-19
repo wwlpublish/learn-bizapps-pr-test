@@ -34,7 +34,7 @@ The following diagram illustrates how an organization might create multiple envi
 
 ![Diagram representing multiple environments.](../media/2-environments.png)
 
-Environments are a scope for life cycle management and a scope for permissions.
+Environments are a scope for lifecycle management and a scope for permissions.
 
 ## Items not contained in an environment
 
