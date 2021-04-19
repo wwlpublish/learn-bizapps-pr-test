@@ -45,7 +45,7 @@ quiz:
     choices: 
     - content: Column-level security
       isCorrect: false
-      explanation: Column-level security is used to restrict access to individual pieces of data in columns such as PII.
+      explanation: Column-level security is used to restrict access to individual pieces of data in columns such as identifiable information.
     - content: Business units
       isCorrect: false
       explanation: Business units are used to segment data between user communities. They are not used for management oversight.

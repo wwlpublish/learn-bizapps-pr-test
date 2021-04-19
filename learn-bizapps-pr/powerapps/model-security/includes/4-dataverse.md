@@ -59,7 +59,7 @@ Dataverse provides many security features for accessing data:
 
 ![Diagram of Dataverse business unit security features.](../media/4-security-features.png)
 
-The solution architect needs to understand each of these features and how they combine to create the security model for their solution. This topic does not go into detail about each of these security features, but aims to explain how they can be used together to create a security model for your solution.
+The solution architect needs to understand each of these features and how they combine to create the security model for their solution. This unit does not go into detail about each of these security features, but aims to explain how they can be used together to create a security model for your solution.
 
 ### Table ownership
 
@@ -118,14 +118,14 @@ There is an option on the security role that controls how the security role oper
 
 ![Screenshot of security roles and teams details.](../media/4-security-role-teams.png)
 
-Using the Direct User option treats privileges as if they were directly assigned directly to the user. Using this option you can avoid having to assign security roles to users and just use teams and security roles assigned to teams.
+Using the Direct User option treats privileges as if they were directly assigned to the user. Using this option you can avoid having to assign security roles to users and just use teams and security roles assigned to teams.
 
 > [!NOTE]
 > Owner Teams belongs to Business Units. A user can only belong to one business unit at a time, but a user can be added to a team in another business units. This allows users to access data in a business unit that is not in their hierarchy.
 
 ### Column-level security
 
-The privileges provided by security roles operate at the row level. If a user has update privilege on a row, they can update all columns on that row. Sometimes row-level control of access is not adequate such as columns containing personal identifiable information (PII). Dataverse has a column-level security feature to allow more granular control of security at the column level.
+The privileges provided by security roles operate at the row level. If a user has update privilege on a row, they can update all columns on that row. Sometimes row-level control of access is not adequate such as columns containing personal identifiable information. Dataverse has a column-level security feature to allow more granular control of security at the column level.
 
 Column-level security operates separately to security roles. Column security profiles define the read/write privilege on the columns and these profiles are assigned to users and teams.
 
@@ -134,7 +134,7 @@ Column-level security operates separately to security roles. Column security pro
 
 ### Hierarchical security
 
-One of the issues with the use of business units is their strict hierarchy. Access to data can only follow the hierarchy of the business units, , in the diagram of business units a user in Sales can be given access to the North, Central, and South business units, conversely a user in the Operations business unit cannot access data that belongs to Sales without being given access to all data in the organization.
+One of the issues with the use of business units is their strict hierarchy. Access to data can only follow the hierarchy of the business units. In the diagram of business units a user in Sales can be given access to the North, Central, and South business units, conversely a user in the Operations business unit cannot access data that belongs to Sales without being given access to all data in the organization.
 
 ![Diagram of hierarchical security for an organization.](../media/4-hierarchical.png)
 
@@ -142,7 +142,7 @@ In hierarchical security, the user in the position above can read and write all 
 
 Hierarchical security is an alternative security model that is designed for scenarios where a user that requires management oversight is not within the same part of the business unit hierarchy. Hierarchical security is useful where managers are in different countries or departments from their direct reports.  Hierarchical security has two options:
 
-- Manager hierarchy: This uses the user hierarchy on the systemuser table. There is a restriction that a manager in in the same business unit or in the direct chain of business units above.
+- Manager hierarchy: This uses the user hierarchy on the systemuser table. There is a restriction that a manager in the same business unit or in the direct chain of business units above.
 - Positional hierarchy: This uses the Position table. This is more flexible and ignores the business unit structure. Positional hierarchy also allows for more than one person in a position.
 
 Only one of the hierarchical types can be used at the same time.

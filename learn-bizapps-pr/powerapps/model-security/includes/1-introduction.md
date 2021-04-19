@@ -7,7 +7,7 @@ The right security strategy balances legitimate security requirements with the n
 
 ![Balance user access with system security.](../media/1-user-access-system-security.png)
 
-On one hand, data and system security is important. The data drives the business, data that you do not want to fall into the hands of a competitor. With regulations surrounding personal data, organizations can be liable for data breaches that include personal data.
+On one hand, data and system security are important. The data drives the business, data that you do not want to fall into the hands of a competitor. With regulations surrounding personal data, organizations can be liable for data breaches that include personal data.
 
 On the other hand, is system usability and user adoption. If the security model is too lax, users can view and change data that they should not be able to access; creating a perception that the data in the system is not reliable. If the security model is too stringent and you lock down everything so users can only see a small subset of the data in the system or can only perform limited operations, you diminish the value the solution, and users will revert to their old data silos and user adoption, the most important aspect of measuring the success of a solution, will suffer.
 
@@ -61,7 +61,7 @@ When learning about the user environment, the solution architect also needs to d
 - Is there a data classification system?
 - What are the data retention policies?
 - What are the privacy policies?
-- What data access regulations apply such as GDPR?
+- What data access regulations apply?
 
 ## Solution Architect’s role in security modeling
 

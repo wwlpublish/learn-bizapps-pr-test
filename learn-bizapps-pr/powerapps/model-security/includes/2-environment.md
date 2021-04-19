@@ -16,7 +16,7 @@ Azure AD has several features that the Power Platform can utilize:
 
 - Identity and Access Management (IAM): Manage access to Power Apps apps
 - Authentication: Verify credentials when a user signs in to an App of users a flow.
-- Single sign-on (SSO): Access apps without having to log in separately,
+- Single sign-on (SSO): Access apps without having to sign in separately,
 - Multi-Factor Authentication (MFA): Prompted a user during sign-in for other forms of identification.
 - Business-to-Business (B2B): Manage your guest users and external partners, while maintaining control over your own corporate data. Guest access is supported for the Power Platform.
 - Conditional Access: Manage access to your apps using signals to make decisions on allowing access.

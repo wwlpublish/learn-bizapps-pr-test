@@ -1,5 +1,3 @@
-# Summary
-
 In this module, you looked at security modeling with the Power Platform, including:
 
 - Learning about different aspects of security architecture
