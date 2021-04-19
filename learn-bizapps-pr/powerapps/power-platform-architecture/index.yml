@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-platform-architecture
 metadata: 
- title: Power Platform architecture
+ title: "Solution Architect series: Power Platform architecture"
  description: Learn about Microsoft Power Platform architecture.
- ms.date: 04/01/2021
+ ms.date: 04/19/2021
  author: DaveBeasley  
  ms.author: dbeasley   
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Power Platform architecture
+title: "Solution Architect series: Power Platform architecture"
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Solution architects are responsible for overall design of the solution. Understanding the architecture of the Microsoft Power Platform control is imperative when designing solutions based on Power Platform. This module describes the components and capabilities of Power Platform and how they control the design of your solutions.
