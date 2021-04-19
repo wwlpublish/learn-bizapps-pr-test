@@ -34,6 +34,7 @@ modules:
 - learn-bizapps.data-modeling
 - learn-bizapps.architect-analytics
 - learn-bizapps.integrations
+- learn-bizapps.project-test-process
 trophy:
   uid: learn.solution-architect-design.trophy
 
