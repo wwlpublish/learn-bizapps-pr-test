@@ -1,6 +1,6 @@
 OpenAPI defines a standard and programming language-agnostic interface description for web APIs. It allows both humans and computers to discover and understand the capabilities of a service without having to access to source code, additional documentation, or inspect network traffic.
 
-![OpenAPI][image-01]
+:::image type="content" source="media/04-what-is-openapi-and-why-should-use-it-01.png" alt-text="OpenAPI":::
 
 Using an OpenAPI document describing a web API, the consumer can understand and communicate with the web API with minimal effort.
 
@@ -17,11 +17,11 @@ With the OpenAPI document, you don't have to know where the API is located or wh
 
 Power Apps lets you instantly create a custom connector with this OpenAPI document.
 
-![Many Ways Creating Custom Connector][image-02]
+:::image type="content" source="media/04-what-is-openapi-and-why-should-use-it-02.png" alt-text="Many Ways Creating Custom Connector":::
 
 Once you create the custom connector from the OpenAPI document, you will be able to see it on your Power Apps page.
 
-![Custom Connector on Power Apps Page][image-03]
+:::image type="content" source="media/04-what-is-openapi-and-why-should-use-it-03.png" alt-text="Custom Connector on Power Apps Page":::
 
 
 ## Why use an OpenAPI document for custom connectors? ##
@@ -33,7 +33,7 @@ There are many advantages of using the OpenAPI document for your custom connecto
 
 As you can see the diagram below, the OpenAPI document doesn't have to know the actual implementation of the web API, as long as the contract remains the same.
 
-![OpenAPI without Having to Know Web API][image-04]
+:::image type="content" source="media/04-what-is-openapi-and-why-should-use-it-04.png" alt-text="OpenAPI without Having to Know Web API":::
 
 
 ## A custom connector from an OpenAPI document or Azure API Management ##
@@ -51,11 +51,6 @@ The table below lists some comparisons between Azure API Management and OpenAPI 
 | Extra Cost | Yes | No |
 | Architectural Complexity | Higher | Lower |
 
-
-[image-01]: ../media/04-what-is-openapi-and-why-should-use-it-01.png
-[image-02]: ../media/04-what-is-openapi-and-why-should-use-it-02.png
-[image-03]: ../media/04-what-is-openapi-and-why-should-use-it-03.png
-[image-04]: ../media/04-what-is-openapi-and-why-should-use-it-04.png
 
 [az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
 

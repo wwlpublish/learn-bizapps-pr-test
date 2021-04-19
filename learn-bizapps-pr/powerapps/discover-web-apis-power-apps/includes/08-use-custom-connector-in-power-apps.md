@@ -8,28 +8,27 @@ You've created the connector, tested it, and now you'll learn how to use it in a
 
 1. First of all, create a blank canvas app. In Power Apps studio go to the `Create` menu at the left-hand side and click the `Canvas app from blank` panel.
 
-    ![Create Power Apps][image-01]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-01.png" alt-text="Create Power Apps":::
 
 1. When a modal pops up, give the name, **Inventory**, to the `App name` field and leave the format as default. Then click the `Create` button.
 
-    ![Create Power Apps Modal][image-02]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-02.png" alt-text="Create Power Apps Modal":::
 
 1. Navigate the `Data` menu to add the custom connector. You will see nothing in the Data pane.
 
-    ![Data Pane][image-03]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-03.png" alt-text="Data Pane":::
 
 1. Click the `Add data` button and enter **inventory** in the search box, and you will see the `InventoryManager` custom connector. *(Assuming you named your custom connector `InventoryManager`.)*
 
-
-    ![Custom Connector Search][image-04]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-04.png" alt-text="Custom Connector Search":::
 
 1. Click the `InventoryManager` connector, and you will see the `InventoryManagement` connection.
 
-    ![Connection Added][image-05]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-05.png" alt-text="Connection Added":::
 
 1. Your custom connector is successfully added to your Power Apps. Navigate to the `Insert` menu at the top and click `Button` to add a button control onto the canvas.
 
-    ![Add Button][image-06]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-06.png" alt-text="Add Button":::
 
 1. While `Button1` is selected, choose the property value to **OnSelect** and enter the function formula below. `InventoryManagement` represents the custom connector and `getapiwarehouselocations()` represents an API endpoint. The `warehouses` collection stores the result that the `getapiwarehouselocations()` function returns.
 
@@ -37,37 +36,25 @@ You've created the connector, tested it, and now you'll learn how to use it in a
     ClearCollect(warehouses, InventoryManagement.getapiwarehouselocations())
     ```
 
-    ![Add Formula][image-07]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-07.png" alt-text="Add Formula":::
 
 1. Click `Gallery` and select the `Vertical` control.
 
-    ![Add Vertical Gallery][image-08]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-08.png" alt-text="Add Vertical Gallery":::
 
 1. Once the `Vertical` control is added, it asks the data source.
 
-    ![Vertical Gallery Added][image-09]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-09.png" alt-text="Vertical Gallery  Added":::
 
 1. Select the `warehouses` collection declared above. Then the `Vertical` control changes below because the `warehouses` collection currently contains nothing.
 
-    ![Vertical Gallery Data Source Mapped][image-10]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-10.png" alt-text="Vertical Gallery Data Source Mapped":::
 
 1. While holding your `Alt` key on Windows (or `Option` key on Mac), click the `Button` button, and you will see the list of warehouse locations showing up in the `Vertical` control.
 
-    ![Custom Connector Result in Vertical Gallery][image-11]
+    :::image type="content" source="media/08-use-custom-connector-in-power-apps-11.png" alt-text="Custom Connector Result in Vertical Gallery":::
 
 You have successfully included the custom connector into your Power Apps app.
 
-
-[image-01]: ../media/08-use-custom-connector-in-powerapps-01.png
-[image-02]: ../media/08-use-custom-connector-in-powerapps-02.png
-[image-03]: ../media/08-use-custom-connector-in-powerapps-03.png
-[image-04]: ../media/08-use-custom-connector-in-powerapps-04.png
-[image-05]: ../media/08-use-custom-connector-in-powerapps-05.png
-[image-06]: ../media/08-use-custom-connector-in-powerapps-06.png
-[image-07]: ../media/08-use-custom-connector-in-powerapps-07.png
-[image-08]: ../media/08-use-custom-connector-in-powerapps-08.png
-[image-09]: ../media/08-use-custom-connector-in-powerapps-09.png
-[image-10]: ../media/08-use-custom-connector-in-powerapps-10.png
-[image-11]: ../media/08-use-custom-connector-in-powerapps-11.png
 
 [pa pricing]: https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus
