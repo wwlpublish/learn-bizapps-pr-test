@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.model-security.3-data-loss-prevention
-title: Data Loss Prevention
+title: Data loss prevention
 metadata:
-  title: Data Loss Prevention
+  title: Data loss prevention
   description: Preventing unauthorized data access from the Power Platform
   ms.date: 04/19/2021
   author: DaveBeasley

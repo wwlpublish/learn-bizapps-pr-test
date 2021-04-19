@@ -16,7 +16,7 @@ The purpose behind DLPs is to prevent unauthorized data access and leakage from 
 
 Connectors are classified as either business data only, no business data allowed, or blocked. A connector in the business data only group can only be used with other connectors from that group in the same app or flow. The names "business" and "non-business" do not have any special meaning, they are simply labels. The grouping of the connectors themselves is of significance, not the name of the group they're placed in. Connectors that are blocked cannot be used at all.
 
-> [![Screenshot of the Data Loss Prevention Policy.](../media/3-dlp-policy.png)](../media/3-dlp-policy.png#lightbox)
+> [![Screenshot of the Data loss prevention Policy.](../media/3-dlp-policy.png)](../media/3-dlp-policy.png#lightbox)
 
 > [!NOTE]
 > The Common Data Service connectors cannot be blocked.
@@ -25,7 +25,7 @@ Connectors are classified as either business data only, no business data allowed
 
 DLP policies can be scoped at the tenant level and at the environment level.
 
-![Screenshot of the Data Loss Prevention policy scope.](../media/3-dlp-applied.png)
+![Screenshot of the Data loss prevention policy scope.](../media/3-dlp-applied.png)
 
 It is possible to apply multiple DLP policies to an environment. At design and runtime, all policies that are applicable to the environment in which the app or flow resides are evaluated together to decide whether the resource is in compliance or violation of DLP policies. If multiple policies are configured for one environment, the most restrictive policy applies to the combination of connectors.
 
@@ -40,7 +40,7 @@ The following approach is recommended:
 2. Create a policy for the default environment (and other training environments) that further restricts which Microsoft connectors are classified as Business Data.
 3. Create other policies, or exclude those environments from policies #1 and #2 above, that permit certain connectors to be used for specific environments.
 
-![Diagram of the Data Loss Prevention policy layers.](../media/3-dlp-layers.png)
+![Diagram of the Data loss prevention policy layers.](../media/3-dlp-layers.png)
 
 ## Deploying policies
 

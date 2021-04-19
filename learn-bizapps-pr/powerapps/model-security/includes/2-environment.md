@@ -89,7 +89,7 @@ The following behavior is observed:
 Managing environments and performing some administration activities requires one or more of these administrative roles:
 
 - Global admin: A user with role has full administration access to all services in the tenant. Global admins have access to all Power Platform environments and will be added to all Dataverse environments with the System Administrator security role.
-- Power Platform admin: A user with the Power Platform admin can create environments, manage all environments even if the users do not belong to the security group for the environment, manage Power Apps, manage Power Automate, and manage Data Loss Prevention policies. A Power Platform admin can also manage support tickets and monitor service health.
+- Power Platform admin: A user with the Power Platform admin can create environments, manage all environments even if the users do not belong to the security group for the environment, manage Power Apps, manage Power Automate, and manage Data loss prevention policies. A Power Platform admin can also manage support tickets and monitor service health.
 - Delegated admin: Delegated administration is used by Microsoft Cloud Solution Provider (CSP) partners to manage their customers through the Microsoft Partner Portal. A Delegated admin has full administration to all services in the customer's tenant.
 
 > [!NOTE]
