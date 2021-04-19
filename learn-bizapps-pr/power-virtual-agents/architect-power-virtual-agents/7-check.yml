@@ -45,10 +45,10 @@ quiz:
     choices: 
     - content: Power Virtual Agents Web app
       isCorrect: false
-      explanation: 
+      explanation: Adaptive Cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
     - content: Power Virtual Agents in Microsoft Teams
       isCorrect: false
-      explanation: 
+      explanation: Adaptive Cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
     - content: Adaptive Cards
       isCorrect: false
       explanation: Adaptive Cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
