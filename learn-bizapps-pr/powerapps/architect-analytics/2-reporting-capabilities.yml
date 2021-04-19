@@ -4,12 +4,12 @@ title: Power Platform reporting capabilities
 metadata:
   title: Power Platform reporting capabilities
   description: Learn about the reporting options that are provided in Power Platform.
-  ms.date: 04/01/2021
+  ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-platform-solution-architect
-durationInMinutes: 8
+durationInMinutes: 6
 content: |
  [!include[](../includes/unit-banner.md)]
  [!include[](includes/2-reporting-capabilities.md)]
