@@ -47,7 +47,7 @@ Azure AD B2B collaboration is a feature that lets you invite guest users to coll
 
 For more information, see [enabling guests to access Power App](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app-guests/?azure-portal=true) and [Power Apps per app](https://docs.microsoft.com/power-platform/admin/about-powerapps-perapp/?azure-portal=true).
 
-## Cross Tenant isolation
+## Cross tenant isolation
 
 In B2B collaboration scenarios, you securely share the apps and data in your tenant with a third party's tenant. In the default configuration, each tenant can access the other tenant's resources.
 
