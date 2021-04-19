@@ -46,7 +46,7 @@ You can reduce the complexity that is involved with data integration scenarios b
 
 Upsert is used with Alternate keys. You need to provide enough information in the upsert call, and Dataverse will look up the row and either create or update the row, as shown in the following diagram.
 
-![Diagram that shows the use of upsert logic.](../media/3-upsert.png)
+> [![Diagram that shows the use of upsert logic.](../media/3-upsert.png)](../media/3-upsert.png#lightbox)
 
 ## Custom APIs
 
