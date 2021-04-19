@@ -1,0 +1,42 @@
+### YamlMime:Module 
+uid: learn-bizapps.data-modeling
+metadata: 
+ title: "Solution Architect series: Model data for Power Platform solutions"
+ description: Learn how to work with data modeling in Power Platform solutions as a solution architect.
+ ms.date: 04/19/2021
+ author: DaveBeasley  
+ ms.author: dbeasley   
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-platform-solution-architect
+title: "Solution Architect series: Model data for Power Platform solutions"
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The solution architect's role in data modeling for the Power Platform. This module addresses the trade offs for modeling data in Power Platform solutions.
+abstract: |  
+    In this module, you will learn about: 
+    - Data modeling influencers
+    - Data model strategy
+    - Data types
+    - Data relationships
+prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
+iconUrl: /learn/achievements/data-modeling.svg  
+levels:  
+- intermediate 
+- advanced
+roles:  
+- solution-architect
+products:    
+- power-platform
+- common-data-service
+- dynamics-customer-engagement
+units: 
+- learn-bizapps.data-modeling.1-introduction
+- learn-bizapps.data-modeling.2-common-data-model
+- learn-bizapps.data-modeling.3-data-model
+- learn-bizapps.data-modeling.4-data-store
+- learn-bizapps.data-modeling.5-dataverse
+- learn-bizapps.data-modeling.6-best-practice
+- learn-bizapps.data-modeling.7-check
+- learn-bizapps.data-modeling.8-summary
+badge: 
+  uid: learn-bizapps.data-modeling.badge
