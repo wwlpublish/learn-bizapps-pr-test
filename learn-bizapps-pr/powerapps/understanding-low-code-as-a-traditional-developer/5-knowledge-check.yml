@@ -41,17 +41,3 @@ quiz:
     - content: To Microsoft services, to other cloud services, and to custom data sources.
       isCorrect: true
       explanation: There are hundreds of connectors to many Microsoft services and 3rd party services, and custom connectors can be built to connect to other service as well.
-  - content: How can you set a control's property (such as the Fill color) in an event handler in Power Apps?
-    choices: 
-    - content: "Set the control with a simple assignment: SomeControl.Fill = Yellow"
-      isCorrect: false
-      explanation: Power Apps and Power Fx use a declarative model; the control's Fill property can only be set by the Fill property itself.
-    - content: An app written decaratively will have unpredictable results.
-      isCorrect: false
-      explanation: The results you get in a declarative app are no more or less correct or predictable than any other development environment.
-    - content: The new formula language for Microsoft Excel.
-      isCorrect: false 
-      explanation: Power Fx was modeled after how Microsoft Excel's language works, but is not a replacement for the existing Microsoft Excel formula language.
-    - content: A drop-in replacement for JavaScript to build apps.
-      isCorrect: false 
-      explanation: Power Fx is not a traditional programming language, and can't be used outside of Microsoft Power Apps at this time.
