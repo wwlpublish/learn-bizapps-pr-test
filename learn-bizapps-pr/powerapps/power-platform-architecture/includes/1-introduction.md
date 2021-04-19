@@ -59,7 +59,7 @@ Data is at the center of everything that a business does today. With Power Platf
 - Azure services such as Azure SQL
 - Non-Microsoft sources such as Twitter, SendGrid, Dropbox, and Mailchimp 
 
-Power Apps and Power Automate use the connectors to access the data where it lives. Microsoft Dataverse is more than a database, it a platform for building business apps and solutions.
+Power Apps and Power Automate use the connectors to access the data where it lives. Microsoft Dataverse is more than a database, it is a platform for building business apps and solutions.
 
 Microsoft Dataverse controls security, implements logic, enables integrations, and contains a wealth of capabilities that enable powerful business solutions to be created. These capabilities will be explored further in this module.
 
