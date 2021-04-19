@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.security-modeling.1-introduction
+uid: learn-bizapps.model-security.1-introduction
 title: Introduction to security modeling
 metadata:
   title: Introduction to security modeling
   description: The solution architect role in designing security for Power Platform apps and data.
-  ms.date: 04/01/2021
+  ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial

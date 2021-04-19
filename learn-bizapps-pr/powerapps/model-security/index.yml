@@ -1,14 +1,14 @@
 ### YamlMime:Module 
-uid: learn-bizapps.security-modeling
+uid: learn-bizapps.model-security
 metadata: 
- title: Model security for Power Platform solutions
+ title: "Solution Architect series: Model security for Power Platform solutions"
  description: Lean about security functionality within Dataverse.
- ms.date: 04/01/2021
+ ms.date: 04/19/2021
  author: DaveBeasley  
  ms.author: dbeasley   
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Model security for Power Platform solutions
+title: "Solution Architect series: Model security for Power Platform solutions"
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This model covers the solution architect's role in security modeling for the Power Platform. Security options for your tenant and environments, and access to data and functionality within Dataverse.
@@ -18,7 +18,7 @@ abstract: |
     - Controlling access to environments and resources
     - Controlling access to data in Dataverse
 prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
-iconUrl: /learn/achievements/security-modeling.svg  
+iconUrl: /learn/achievements/model-security.svg  
 levels:  
 - advanced
 roles:  
@@ -28,12 +28,12 @@ products:
 - common-data-service
 - dynamics-365
 units: 
-- learn-bizapps.security-modeling.1-introduction
-- learn-bizapps.security-modeling.2-environment
-- learn-bizapps.security-modeling.3-dlp
-- learn-bizapps.security-modeling.4-dataverse
-- learn-bizapps.security-modeling.5-apps
-- learn-bizapps.security-modeling.6-check
-- learn-bizapps.security-modeling.7-summary
+- learn-bizapps.model-security.1-introduction
+- learn-bizapps.model-security.2-environment
+- learn-bizapps.model-security.3-data-loss-prevention
+- learn-bizapps.model-security.4-dataverse
+- learn-bizapps.model-security.5-apps
+- learn-bizapps.model-security.6-check
+- learn-bizapps.model-security.7-summary
 badge: 
-  uid: learn-bizapps.security-modeling.badge
+  uid: learn-bizapps.model-security.badge

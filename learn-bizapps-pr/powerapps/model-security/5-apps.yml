@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.security-modeling.5-apps
+uid: learn-bizapps.model-security.5-apps
 title: Security in apps
 metadata:
   title: Security in apps
   description: Security across the layers of the application
-  ms.date: 04/01/2021
+  ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial

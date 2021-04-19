@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.security-modeling.7-summary
+uid: learn-bizapps.model-security.7-summary
 title: Summary
 metadata: 
   title: Summary
   description: Summary of the Project Governance module
-  ms.date: 04/01/2021
+  ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial
