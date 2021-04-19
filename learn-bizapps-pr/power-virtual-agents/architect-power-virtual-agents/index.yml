@@ -1,0 +1,43 @@
+### YamlMime:Module 
+uid: learn-bizapps.architect-power-virtual-agents
+metadata: 
+ title: "Solution Architect series: Explore Power Virtual Agents"
+ description: Chatbots are becoming an increasingly important component of business applications. Understanding the capabilities of Power Virtual Agents is required when designing a Power Platform solution. This module is concerned with Power Virtual Agents and its capabilities.
+ ms.date: 04/19/2021
+ author: DaveBeasley  
+ ms.author: dbeasley   
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-platform-solution-architect
+title: Explore Power Virtual Agents
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Chatbots are becoming an increasingly important component of business applications. Understanding the capabilities of Power Virtual Agents is required when designing a Power Platform solution. This module is concerned with Power Virtual Agents and its capabilities.
+abstract: |  
+    In this module, you will: 
+    - Explore options for chatbots and how to choose where to start.
+    - Explore scenarios for chatbots.
+    - Understand the components of Power Virtual Agents.
+prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
+iconUrl: /learn/achievements/architect-power-virtual-agents.svg  
+levels:  
+- advanced
+roles:  
+- solution-architect
+products:    
+- power-platform
+- power-automate
+- power-virtual-agents
+- dataverse
+- common-data-service
+- azure-bot-service
+units: 
+- learn-bizapps.architect-power-virtual-agents.1-introduction
+- learn-bizapps.architect-power-virtual-agents.2-chatbot-options
+- learn-bizapps.architect-power-virtual-agents.3-concepts
+- learn-bizapps.architect-power-virtual-agents.4-best-practice
+- learn-bizapps.architect-power-virtual-agents.5-integrate-chatbots
+- learn-bizapps.architect-power-virtual-agents.6-pva-teams
+- learn-bizapps.architect-power-virtual-agents.7-check
+- learn-bizapps.architect-power-virtual-agents.8-summary
+badge: 
+  uid: learn-bizapps.architect-power-virtual-agents.badge

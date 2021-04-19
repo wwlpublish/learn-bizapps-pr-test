@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.architect-power-virtual-agents.1-introduction
+title: Introduction to Power Virtual Agents
+metadata:
+  title: Introduction to Power Virtual Agents
+  description: What are Power Virtual Agents and the use cases for chatbots
+  ms.date: 04/19/2021
+  author: DaveBeasley
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 8
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/1-introduction.md)]
