@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.integrations.1-introduction
-title: Introduction to integration with the Power Platform
+title: Introduction
 metadata:
-  title: Introduction to integration with the Power Platform
-  description: Learn the different ways to integrate with the Power Platform
+  title: Introduction
+  description: Learn about the different ways to integrate with Microsoft Power Platform.
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley

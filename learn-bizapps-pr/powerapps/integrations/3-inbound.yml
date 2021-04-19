@@ -3,7 +3,7 @@ uid: learn-bizapps.integrations.3-inbound
 title: Inbound data integration
 metadata:
   title: Inbound data integration
-  description: Integrating other systems into Dataverse
+  description: Learn how to integrate other systems into Microsoft Dataverse.
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley
