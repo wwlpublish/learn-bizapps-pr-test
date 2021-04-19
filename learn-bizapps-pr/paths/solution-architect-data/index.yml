@@ -31,6 +31,7 @@ modules:
 - learn-bizapps.power-platform-architecture
 - learn-bizapps.power-apps-architecture
 - learn-bizapps.power-automate-architecture
+- learn-bizapps.architect-power-virtual-agents
 - learn-bizapps.data-modeling
 - learn-bizapps.architect-analytics
 - learn-bizapps.integrations
