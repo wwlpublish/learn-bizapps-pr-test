@@ -34,7 +34,7 @@ Power Apps generates the app by inspecting your data and matching it with Power 
 ## Preview the generated app
 Your new three screen app now opens in Power Apps Studio.
 
-![Power Apps main development window for Power Apps Studio.](../media/powerapps-full-screen2.png)
+[![Power Apps main development window for Power Apps Studio.](../media/powerapps-full-screen.png)](../media/powerapps-full-screen.png#lightbox)
 
 Select **Play** :::image type="icon" source="../media/powerapps-arrow.png"::: in the upper-right corner to practice using the app. Notice that it includes all the data from the table and provides a good default experience.
 
@@ -89,11 +89,11 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Sort the items by name by entering the following formula:
 
-```powerappsfl
-    Sort(FlooringInventory, Name, Ascending)
-```
+    ```powerappsfl
+        Sort(FlooringInventory, Name, Ascending)
+    ```
 
-![Power Apps Studio editing window showing errors in the app after the last step](../media/studio-with-errors.jpeg)
+    [![Power Apps Studio editing window showing errors in the app after the last step](../media/studio-with-errors.jpeg)](../media/studio-with-errors.jpeg#lightbox)
 
 ### Fix the errors and add a data connection
 
@@ -125,7 +125,7 @@ Back()
 
 ![An example of the email that is sent when a request is saved in the app](../media/email-generated.png)
 
-## Save and Publish Your App
+## Save and publish your app
 
 To make your app visible on the phone, it needs to be saved and published. Select **File**, **Save as**. Replace the current title "App" with **Flooring Inventory**, and then select **Save**. You will see a green check mark when all changes are successfully saved. You can now open the app on your phone.
 
