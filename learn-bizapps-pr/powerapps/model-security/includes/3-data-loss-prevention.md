@@ -16,7 +16,7 @@ The purpose behind DLPs is to prevent unauthorized data access and leakage from 
 
 Connectors are classified as either business data only, no business data allowed, or blocked. A connector in the business data only group can only be used with other connectors from that group in the same app or flow. The names "business" and "non-business" do not have any special meaning, they are simply labels. The grouping of the connectors themselves is of significance, not the name of the group they're placed in. Connectors that are blocked cannot be used at all.
 
-> [![Screenshot of the Data Loss Prevention Policy.](../media/3-dlp.png)](../media/3-dlp.png#lightbox)
+> [![Screenshot of the Data Loss Prevention Policy.](../media/3-dlp-policy.png)](../media/3-dlp-policy.png#lightbox)
 
 > [!NOTE]
 > The Common Data Service connectors cannot be blocked.
