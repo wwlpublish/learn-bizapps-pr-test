@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.robotic-process-automation
+metadata: 
+ title: Explore Robotic Process Automation
+ description: Robotic Process Automation is concerned with the automation of legacy applications. Understanding the capabilities of Power Automate Desktop is required when integrating a Power Platform solution. This module is concerned with Power Automate Desktop and its capabilities.
+ ms.date: 04/19/2021
+ author: DaveBeasley
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Explore Robotic Process Automation
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Robotic Process Automation is concerned with the automation of legacy applications. Understanding the capabilities of Power Automate Desktop is required when integrating a Power Platform solution. This module is concerned with Power Automate Desktop and its capabilities.
+abstract: |  
+    In this module, you will:
+    - Explore options for automation and how to choose where to start.
+    - Explore scenarios for Power Automate Desktop.
+    - Understand the components for running Power Automate desktop flows.
+prerequisites: Experience working on Power Platform projects as either a junior Solution Architect, a senior Functional Consultant, or a senior Developer.
+iconUrl: /learn/achievements/robotic-process-automation.svg  
+levels:  
+- advanced
+roles:  
+- solution-architect
+products:  
+- power-platform  
+- power-automate
+units: 
+- learn-bizapps.robotic-process-automation.1-introduction
+- learn-bizapps.robotic-process-automation.2-pad
+- learn-bizapps.robotic-process-automation.3-tasks
+- learn-bizapps.robotic-process-automation.4-running
+- learn-bizapps.robotic-process-automation.5-process
+- learn-bizapps.robotic-process-automation.6-check
+- learn-bizapps.robotic-process-automation.7-summary
+badge: 
+  uid: learn-bizapps.robotic-process-automation.badge
