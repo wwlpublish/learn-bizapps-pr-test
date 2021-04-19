@@ -83,9 +83,9 @@ If you have multiple choice columns dependent on one another, this can only be a
 
 You have several choices where to store files and images:
 
-Dataverse: Using the File and Image data typ
-SharePoint: Good for collaboration but there is an issue with security. Security for the files follows SharePoint permissions and is not synchronized with Dataverse row permissions.
-Azure Storage: Good for archiving and external access. Standalone security but can granted for small periods of time based on link generated for consumption (valet pattern), and can handle large files.
+- Dataverse: Using the File and Image data typ
+- SharePoint: Good for collaboration but there is an issue with security. Security for the files follows SharePoint permissions and is not synchronized with Dataverse row permissions.
+- Azure Storage: Good for archiving and external access. Standalone security but can granted for small periods of time based on link generated for consumption (valet pattern), and can handle large files.
 
 The file and image data types:
 

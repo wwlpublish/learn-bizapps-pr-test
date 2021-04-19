@@ -3,13 +3,13 @@ uid: learn-bizapps.data-modeling.8-summary
 title: Summary
 metadata: 
   title: Summary
-  description: Summary of the Data Modelling module
+  description: Summary of the Data Modeling module
   ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-platform-solution-architect
-durationInMinutes: 2
+durationInMinutes: 1
 content: |
  [!include[](../includes/unit-banner.md)]
  [!include[](includes/8-summary.md)]
