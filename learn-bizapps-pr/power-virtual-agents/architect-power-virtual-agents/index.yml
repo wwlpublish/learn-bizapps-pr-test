@@ -25,11 +25,8 @@ roles:
 - solution-architect
 products:    
 - power-platform
-- power-automate
 - power-virtual-agents
-- dataverse
 - common-data-service
-- azure-bot-service
 units: 
 - learn-bizapps.architect-power-virtual-agents.1-introduction
 - learn-bizapps.architect-power-virtual-agents.2-chatbot-options
