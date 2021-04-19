@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-apps-architecture
 metadata: 
- title: Explore Power Apps architecture
+ title: "Solution Architect series: Explore Power Apps architecture"
  description: Explore the architecture of Microsoft Power Apps. 
- ms.date: 04/01/2021
+ ms.date: 04/19/2021
  author: DaveBeasley
  ms.author: dbeasley
  ms.topic: interactive-tutorial
  ms.prod: learning-power-platform-solution-architect
-title: Explore Power Apps architecture
+title: "Solution Architect series: Explore Power Apps architecture"
 summary: |
   [!include[](../includes/module-banner.md)] 
   Solution architects are responsible for a solution’s overall design. Understanding the capabilities of Power Apps is imperative when designing apps for a solution. This module explains the different types of apps, the differences between apps, and when and which type(s) of apps to use. 
