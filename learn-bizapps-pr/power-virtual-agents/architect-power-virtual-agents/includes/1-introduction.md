@@ -1,4 +1,4 @@
-We now use multiple communications channels such as email, web chat, telephone, and social media platforms such as Slack, Teams, and Facebook. Organizations need to be able to contactable by their customers over these multiple channels and further they need to respond consistently in the same manner no matter, which channels a customer decides to use.
+We now use multiple communications channels such as email, web chat, telephone, and platforms such as Slack, Teams, and Facebook. Organizations need to be able to contactable by their customers over these multiple channels and further they need to respond consistently in the same manner no matter, which channels a customer decides to use.
 
 Users and customers are becoming more demanding, they require 24x7 response, responses that are tailored to their behaviors and characteristics, and to respond to more complex requests.
 
