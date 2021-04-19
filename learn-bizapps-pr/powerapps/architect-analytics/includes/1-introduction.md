@@ -34,7 +34,7 @@ When looking at reporting, the solution architect needs to consider different ca
 - **Self-service BI** - Data is exported from Dataverse or could be refreshed on a schedule.
 - **Enterprise BI** - Data is extracted for use in broader enterprise reporting tools, which could be done to allow integration of data from other sources.
 
-![Diagram of types of reporting.](../media/1-types-of-reporting.png)
+![Diagram of types of reporting.](../media/1-types-of-reports.png)
 
 Solution architects need to be aware of the prebuilt insights that are available with Microsoft Dynamics 365 apps, such as:
 

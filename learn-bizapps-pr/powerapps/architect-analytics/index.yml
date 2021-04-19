@@ -35,7 +35,7 @@ products:
 - common-data-service
 units: 
 - learn-bizapps.architect-analytics.1-introduction
-- learn-bizapps.architect-analytics.2-reporting-capabilities
+- learn-bizapps.architect-analytics.2-report-capabilities
 - learn-bizapps.architect-analytics.3-power-bi
 - learn-bizapps.architect-analytics.4-requirements
 - learn-bizapps.architect-analytics.5-power-platform

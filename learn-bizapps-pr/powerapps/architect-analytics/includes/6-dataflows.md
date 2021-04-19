@@ -36,7 +36,7 @@ Enterprise BI, where data is extracted for use in broader enterprise reporting t
 
 The following diagram shows use of Data Export Service to extract data from Dataverse and populate a data warehouse that reporting tools such as Power BI can use.
 
-![Diagram showing the inputs of Dataflow process.](../media/6-enterprise-reporting.png)
+![Diagram showing the inputs of Dataflow process.](../media/6-enterprise-reports.png)
 
 > [!NOTE]
 > You could substitute Export to Azure Data Lake in place of Data Export Service.

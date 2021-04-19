@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit
-uid: learn-bizapps.architect-analytics.2-reporting-capabilities
+uid: learn-bizapps.architect-analytics.2-report-capabilities
 title: Power Platform reporting capabilities
 metadata:
   title: Power Platform reporting capabilities
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 6
 content: |
  [!include[](../includes/unit-banner.md)]
- [!include[](includes/2-reporting-capabilities.md)]
+ [!include[](includes/2-report-capabilities.md)]
