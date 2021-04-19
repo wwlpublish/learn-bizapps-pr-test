@@ -1,6 +1,6 @@
 Power Automate Desktop can both capture the steps performed by the user and edit the steps in desktop flows.
 
-the user can record tasks with
+The user can record tasks with
 
 - Desktop recorder: Records the steps on Windows native applications.
 - Web recorder: Records steps in a browser for web applications.
