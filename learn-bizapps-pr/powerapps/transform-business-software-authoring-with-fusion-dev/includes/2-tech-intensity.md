@@ -31,7 +31,7 @@ The team now sees how they can work together to create software:
 - The software development team focuses on providing data and complex logic the Power App application can consume
 - And IT can easily manage rollout to get the Power Apps into the hands of the users immediately
 
-:::image type="content" source="../media/tech-intensity.png" alt-text="Diagram of the VanArsdel fusion development team and it's development process. ":::
+:::image type="content" source="../media/fusion-team.png" alt-text="VanArsdel fusion dev team organization. ":::
 This shows how the VanArsdel fusion development team is organized. And how each job role previously discussed in the company maps to the role the person plays in a fusion development team. It is driving home the point that business professionals work with technology professionals to build better apps faster. There is also a flowchart on this graphic that indicates the steps of the fusion development process at a high level. The first step is the kick-off, or when a citizen dev identifies a problem and a team forms around how to solve it. The second step is planning to solve the problem, and the third step is execution, or when citizen developers use Power Apps and professional developers use the tools they are comfortable with to build the apps.
 :::image-end:::
 
