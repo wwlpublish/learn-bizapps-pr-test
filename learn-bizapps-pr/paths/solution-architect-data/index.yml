@@ -1,9 +1,9 @@
-﻿### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.solution-architect-design
 metadata:
   title: "Solution Architect: Design Power Platform solutions"
   description: Learn how a solution architect designs solutions.
-  ms.date:  04/19/2021
+  ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -32,7 +32,9 @@ modules:
 - learn-bizapps.power-apps-architecture
 - learn-bizapps.power-automate-architecture
 - learn-bizapps.architect-power-virtual-agents
+- learn-bizapps.robotic-process-automation
 - learn-bizapps.data-modeling
+- learn-bizapps.model-security
 - learn-bizapps.architect-analytics
 - learn-bizapps.integrations
 - learn-bizapps.project-test-process
