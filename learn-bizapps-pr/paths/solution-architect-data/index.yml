@@ -37,6 +37,7 @@ modules:
 - learn-bizapps.model-security
 - learn-bizapps.architect-analytics
 - learn-bizapps.integrations
+- learn-bizapps.application-lifecycle-management
 - learn-bizapps.project-test-process
 trophy:
   uid: learn.solution-architect-design.trophy
