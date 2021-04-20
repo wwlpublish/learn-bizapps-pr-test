@@ -10,7 +10,7 @@ You have been selected to work with some of VanArsdel's top employees as they br
 
 You will help them create a Fusion Development team.
 
-## Team Members
+## Team members
 
 Here are your team members:
 
@@ -20,7 +20,7 @@ Here are your team members:
 [!include[](../../shared/includes/meet-caleb-row.md)]
 [!include[](../../shared/includes/meet-preeti-row.md)]
 
-## The Kickoff Meeting
+## The kickoff meeting
 
 The first agenda item of the Fusion Development kickoff meeting is to choose which business problem to address.
 

@@ -4,7 +4,7 @@ The VanArsdel Fusion Development is trying to solve a problem they refer to as "
 
 As the newest employee at VanArsdel you get "volun-told" to take notes as Caleb, the lead field technician describes an inefficient workflow that costs him and his team many hours each day.
 
-## The Field Inventory Management System
+## The field inventory management system
 
 ![graphic showing workflow of the current inventory management system](../media/vanarsdel-current-inventory-management-process.png)
 

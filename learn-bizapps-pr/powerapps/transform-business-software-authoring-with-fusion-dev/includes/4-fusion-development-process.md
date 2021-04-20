@@ -4,7 +4,7 @@ The Field Inventory Management System problem involves folks from the field tech
 
 The way Caleb, Maria, and Kiana organize themselves is instructive in how many Fusion Developments can and do work.
 
-## Development Process
+## Development process
 
 "Here's the interesting thing about Power Apps," Maria started off with, "you do not need to really know anything about software development in order to create an amazing app that solves a specific business problem."
 
@@ -22,7 +22,7 @@ Kiana reiterated, "So even though Citizen Developers build Power Apps, they stil
 
 Kiana nodding her head then said, "So it sounds like Professional Developers are integral to building Power Apps and Fusion Development teams then."
 
-## Team Organization
+## Team organization
 
 Caleb chimed in, "I'm going to be honest - this still sounds like a really laborious job and the application might not be that great if we have to build one for all the needs of all the teams at once."
 

@@ -20,7 +20,7 @@ Maria almost interrupted Caleb and said "I've been studying up on Power Apps in 
 
 Preeti couldn't help but smile and say "And Power Apps is all run from our M365 tenant. So it's fully managed from an IT perspective from the start."
 
-## Fusion Development Teams
+## Fusion development teams
 
 The team now sees how they can work together to create software:
 
