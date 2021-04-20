@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.use-healthcare-solution.5-patient-service-center 
+title: Patient Service Center app
+metadata: 
+  title: Patient Service Center app
+  description: Learn how the Patient Service Center app is used.
+  ms.date: 04/20/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-healthcare 
+durationInMinutes: 6
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-patient-service-center.md)] 
