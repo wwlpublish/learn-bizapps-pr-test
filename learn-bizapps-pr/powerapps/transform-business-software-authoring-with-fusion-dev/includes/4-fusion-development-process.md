@@ -28,6 +28,8 @@ Caleb chimed in, "I'm going to be honest - this still sounds like a really labor
 
 "That's the thing," Maria answered. "Each business professional - or Citizen Developer, if you will - can build their own app that's perfect for their own needs. So we're building many small apps that are perfect for our jobs. When we're in this team we just need to be sure we're not duplicating efforts and that we communicate exactly what we need to Kiana and Preeti over in IT."
 
+![Flowchart of the process a fusion dev team takes to build apps and the people involved in the team.](../media/working-fusion-dev-team.png)
+
 Caleb walked towards the whiteboard again, "You know how I like to sum things up with bullet points, so here's what I'm hearing Fusion Development Teams are":
 
 - Folks from across the organization get together to solve a business problem

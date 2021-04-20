@@ -8,6 +8,10 @@ As the newest employee at VanArsdel you get "volun-told" to take notes as Caleb,
 
 ![graphic showing workflow of the current inventory management system](../media/vanarsdel-current-inventory-management-process.png)
 
+:::image type="content" source="../media/vanarsdel-current-inventory-management-process.png" alt-text="Flowchart of the current inventory management system for VanArsdel. ":::
+A flowchart of the current inventory management system and workflow for VanArsdel comprises several steps - and this one shows the steps and who is involved. First the field tech is dispatch to a customer's home for a repair. If the field tech need a part they do not have, they will either call the office manager or head to the nearest warehouse. At which point they may or may not find the part in inventory. If the part is in inventory, they may or may not mark indicate they took it out of stock. The inventory manager must make sure they perform audits at all times during this process so inventory is always up to date and order parts if necessary. An important point the flowchart drives home in addition to the workflow is where citizen developers can help (knowing which features and workflows they need for productivity) and where professional developers can help (knowing what platforms and services can be provided to enable citizen developers to be productive).
+:::image-end:::
+
 - While performing a repair service in the field, Caleb discovers he needs a part that he does not have on his truck.
 - He'll sometimes call another technician if they're nearby to see if they have the part that he can pick up from them.
 - Otherwise, he'll travel back to the central warehouse to pick it up, and fill out a piece of paper indicating the part has been removed.
