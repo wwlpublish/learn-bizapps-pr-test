@@ -38,7 +38,7 @@ Release pipelines can be used to:
 
 Tasks in Microsoft Power Platform Build Tools can be used along with any other available Azure DevOps tasks to compose your build and release pipelines. Pipelines that teams will commonly establish include Initiate, Export from Dev, Build, and Release.
 
-![Diagram of Azure DevOps with Power Platform.](../media/6-alm-devops.png)
+> [![Diagram of Azure DevOps with Power Platform.](../media/6-alm-devops.png)](../media/6-alm-devops.png#lightbox)
 
 ## Alternative automation tools
 

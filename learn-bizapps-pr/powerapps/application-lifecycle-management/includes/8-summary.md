@@ -25,7 +25,7 @@ Before you progress with building and deploying your solution, you need to ensur
 - Service Principals and service accounts that are necessary for connections are established and configured.
 - Environment settings have been documented and configured in each environment.
 
-## Next Steps
+## Next steps
 
 Learn more about ALM by using the [Evolve your DevOps practices learning path](https://docs.microsoft.com/learn/paths/evolve-your-devops-practices/).
 

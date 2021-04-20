@@ -22,7 +22,7 @@ Developing an environment strategy means configuring environments and other laye
 - Ensure that data is being stored and transmitted in acceptable geographic regions (for performance and compliance reasons).
 - Ensure isolation of applications that are being developed.
 
-![Diagram showing an example of environment strategy.](../media/2-environment-strategy.png)
+> [![Diagram showing an example of environment strategy.](../media/2-environment-strategy.png)](../media/2-environment-strategy.png#lightbox)
 
 The following types of environments are available in Power Platform:
 
@@ -54,7 +54,7 @@ If you use a source control-centric approach, then:
 - The dev environment is re-created from source control (this process can be automated and repeatable).
 - Changes from the dev environment are checked into source control.
 
-![Diagram that shows a source-centric approach.](../media/2-source-centric.png)
+> [![Diagram that shows a source-centric approach.](../media/2-source-centric.png)](../media/2-source-centric.png#lightbox)
 
 A source control-centric approach encourages you to have a definitive master and the ability to re-create development environments for any tracked version. Currently, Microsoft is encouraging and building tooling to support source control-centric ALM.
 
@@ -78,7 +78,7 @@ Power Apps is a platform that benefits professional developers and citizen devel
 
 With Power Apps, you can quickly create a usable version of your app because Power Apps provides a WYSIWYG development experience. You can experience the actual working app early in the development process, and if new requirements arise, you can add new features to the next version.
 
-![Diagram of Power Apps development approach.](../media/2-agile.png)
+> [![Diagram of Power Apps development approach.](../media/2-agile.png)](../mdedia/2-agile.png#lightbox)
 
 Issues with customizing and developing components within Power Platform include:
 
@@ -94,7 +94,7 @@ You can minimize clashes between makers by creating an individual environment fo
 
 Though you are using an environment-centric approach, you will still need to decide where the master copy of the solutions and code will live.
 
-Solution-aware developer code assets (such as plug-ins, PCF code components, and form scripts (transpiled from TypeScript) should be "built" on a build environment and not the developer's desktop. After being built, the assets should be deployed to an environment that the master solution will be exported from or built into a solution that will be installed.
+Solution-aware developer code assets (such as plug-ins, PCF code components, and form scripts (transpiled from TypeScript)) should be "built" on a build environment and not the developer's desktop. After being built, the assets should be deployed to an environment that the master solution will be exported from or built into a solution that will be installed.
 
 ## Tools
 

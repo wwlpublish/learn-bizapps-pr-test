@@ -52,7 +52,7 @@ Strategies for creating solutions, listed in order from simplest to most complex
 - Multiple solutions
 - Multiple solutions with shared components
 
-By creating a single solution, you will establish a working set of customizations. This approach helps makes it easier to find items that you have customized. Additionally, this approach is recommended when you only want to create a single managed solution. If you think that you might have to split up the solution in the future, consider using multiple solutions.
+By creating a single solution, you will establish a working set of customizations. This approach helps make it easier to find items that you have customized. Additionally, this approach is recommended when you only want to create a single managed solution. If you think that you might have to split up the solution in the future, consider using multiple solutions.
 
 If you have two unrelated solutions that don’t share components, the most direct approach is to create two unmanaged solutions.
 
@@ -78,7 +78,7 @@ When deciding how to segment into one or more solutions, you should consider the
 - Multiple solutions require their own environments to ensure that they remain independent.
 - Care must be taken to manage dependencies.
 - Makers must know what solution to put new components in.
-- Common patterns for multiple solution splitting are horizontal and vertical partitioning.
+- Common patterns for multiple solution splittings are horizontal and vertical partitioning.
 
 ## Horizontal solution splitting
 
