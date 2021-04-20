@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.application-lifecycle-management.1-introduction
-title: Introduction to application lifecycle management for the Power Platform
+title: Introduction
 metadata:
-  title: Introduction to application lifecycle management for the Power Platform
-  description: Application lifecycle management for the Power Platform
+  title: Introduction 
+  description: Introduction to application lifecycle management (ALM) for Microsoft Power Platform
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley 

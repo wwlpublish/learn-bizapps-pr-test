@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.application-lifecycle-management.2-considerations
-title: Key considerations for application lifecycle management
+title: Key considerations for ALM
 metadata:
-  title: Key considerations for application lifecycle management
-  description: Strategies for application lifecycle management
+  title: Key considerations for ALM
+  description: Learn about the different strategies for application lifecycle management (ALM).
   ms.date: 04/01/2021
   author: DaveBeasley
   ms.author: dbeasley 
