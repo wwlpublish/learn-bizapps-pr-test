@@ -1,4 +1,3 @@
-## Introduction
 
 A benefit to both medical organizations and their patients is to provide self-service capabilities to allow patients to schedule appointments, communicate with their care team, and view their own medical information.
 

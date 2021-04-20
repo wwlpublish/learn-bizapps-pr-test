@@ -1,4 +1,3 @@
-## Introduction
 
 The Care Management app allows healthcare professionals to manage information and events as it pertains to patient healthcare in a central location.
 
