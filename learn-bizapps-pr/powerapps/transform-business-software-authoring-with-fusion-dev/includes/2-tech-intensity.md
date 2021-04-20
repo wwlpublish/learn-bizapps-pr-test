@@ -6,13 +6,13 @@ Malik explains that tech intensity at a company has 3 dimensions:
 
 Each dimension of tech intensity builds upon the others.
 
-:::image type="content" source="../media/tech-intensity.png" alt-text="Venn diagram showing how the 3 components of tech intensity overlap. ":::
-Two diagrams, the first is a Venn diagram that explains how tech intensity is the intersection of technology adoption of a company, an individual's capability to use the technology, and organizational trust to deploy the technology. The more those three areas overlap, the higher the tech intensity of a company. The second diagram is a 3 dimensional cross-section of the Venn diagram. It is meant to illustrate that to increase tech intensity, or to increase the overlap between each of the 3 components, a company must have cross-cutting communications across departments.
+:::image type="content" source="../media/tech-intensity.png" alt-text="Venn diagram showing how the three components of tech intensity overlap. ":::
+Two diagrams, the first is a Venn diagram that explains how tech intensity is the intersection of technology adoption of a company, an individual's capability to use the technology, and organizational trust to deploy the technology. The more those three areas overlap, the higher the tech intensity of a company. The second diagram is a 3-dimensional cross-section of the Venn diagram. It is meant to illustrate that to increase tech intensity, or to increase the overlap between each of the three components, a company must have cross-cutting communications across departments.
 :::image-end:::
 
 "Looking at it from another way", Malik explained, "tech intensity is all about breaking down the silos we work in and enabling cross-team productivity."
 
-Caleb raised his hand, "But here's what I don't get. My team of field techs can work with Maria's team of inventory specialists to come up with a great way to handle inventory at the warehouse. But without getting Kiana's team of software developer's involved... where does the technology in tech intensity come in?"
+Caleb raised his hand, "But here's what I don't get. My team of field technicians can work with Maria's team of inventory specialists to come up with a great way to handle inventory at the warehouse. But without getting Kiana's team of software developer's involved... where does the technology in tech intensity come in?"
 
 Maria almost interrupted Caleb and said "I've been studying up on Power Apps in my spare time. And Power Apps excels at enabling business professionals develop applications that are easy to create and deploy."
 
@@ -27,12 +27,12 @@ Preeti couldn't help but smile and say "And Power Apps is all run from our M365 
 The team now sees how they can work together to create software:
 
 - Business and IT domain experts from across the company identify and collaborate to find solutions to company-wide problems
-- Business owners create Power App applications that exactly addresses and solves the problem
+- Business owners create Power App applications that exactly address and solve the problem
 - The software development team focuses on providing data and complex logic the Power App application can consume
 - And IT can easily manage rollout to get the Power Apps into the hands of the users immediately
 
 :::image type="content" source="../media/tech-intensity.png" alt-text="Diagram of the VanArsdel fusion development team and it's development process. ":::
-This shows how the VanArsdel fusion development team is organized. And how each job role previously discussed in the company maps to the role the person plays in a fusion development team. It is driving home the point that business professionals work with technology professionals to build better apps faster. There is also a flowchart on this graphic that indicates the steps of the fusion development process at a high-level. The first step is the kick-off, or when a citizen dev identifies a problem and a team forms around how to solve it. The second step is planning to solve the problem, and the third step is execution, or when citizen developers use Power Apps and professional developers use the tools they are comfortable with to build the apps.
+This shows how the VanArsdel fusion development team is organized. And how each job role previously discussed in the company maps to the role the person plays in a fusion development team. It is driving home the point that business professionals work with technology professionals to build better apps faster. There is also a flowchart on this graphic that indicates the steps of the fusion development process at a high level. The first step is the kick-off, or when a citizen dev identifies a problem and a team forms around how to solve it. The second step is planning to solve the problem, and the third step is execution, or when citizen developers use Power Apps and professional developers use the tools they are comfortable with to build the apps.
 :::image-end:::
 
 Malik smiles and says, "This is a Fusion Development Team. Citizen Developers working with Professional Developers to increase VanArsdel's tech intensity!"
