@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.application-lifecycle-management
 metadata: 
- title: Plan application lifecycle management for Power Platform
+ title: "Solution Architect series: Plan application lifecycle management for Power Platform"
  description: Solution architects for Microsoft Power Platform need to define the environment strategy and application lifecycle management (ALM) for transporting work from development to test to production.
  ms.date: 04/20/2021
  author: DaveBeasley  
  ms.author: dbeasley   
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Plan application lifecycle management for Power Platform
+title: "Solution Architect series: Plan application lifecycle management for Power Platform"
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Solution architects for Microsoft Power Platform need to define the environment strategy and application lifecycle management (ALM) for transporting work from development to test to production.
