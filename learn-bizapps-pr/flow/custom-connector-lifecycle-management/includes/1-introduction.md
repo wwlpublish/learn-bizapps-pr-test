@@ -4,7 +4,7 @@ The use case for your custom connector will determine how you want to manage the
 
 -   **Multiple environments usage** - This scenario covers usage when you want to install the connector privately in multiple environments and are not interested in open-sourcing or certifying the connector. The connector should be created and managed in the context a solution, which is the primary mechanism to copy custom connectors between the environments. Your connector will benefit from all the lifecycle management aspects of the solution framework. To track changes in the connector, you could use version control of the solution components.
 
--   **Open sourcing/certifying** - This scenario covers when you are open-sourcing or certifying your connector to make it available publicly for others to install or use. In this scenario, you will be managing the individual files that make up the definition of the connector and be using the Power Platform command-line tool for importing and exporting. Since publishing these connectors require the individual definition files and also requires more metadata to be captured, it is more common to source control the exported files and not a solution.
+-   **Open sourcing/certifying** - This scenario covers when you are open-sourcing or certifying your connector to make it available publicly for others to install or use. In this scenario, you will manage the individual files that make up the definition of the connector and use the Power Platform command-line tool for importing and exporting. Since publishing these connectors require the individual definition files and also requires more metadata to be captured, it is more common to source control the exported files and not a solution.
 
 In this module, we will be diving deeper into how to manage these different scenarios using the tools and capabilities of the platform.
 
@@ -17,7 +17,7 @@ The application lifecycle is the cyclical development process that involves thes
 > [!div class="mx-imgBorder"]
 > [![Diagram of the cyclical development process of application lifecycle.](../media/diagram-application-lifecycle.png)](../media/diagram-application-lifecycle.png#lightbox)
 
-When you open source and/or certify your custom connector the deploy phase is more than just moving it to another environment. There is a specific set of procedures to follow you can read more on [Instructions on submitting your connector to Microsoft](https://docs.microsoft.com/connectors/custom-connectors/certification-submission/?azure-portal=true).
+When you open source and/or certify your custom connector, the deploy phase is more than just moving it to another environment. There is a specific set of procedures to follow you can read more on [Instructions on submitting your connector to Microsoft](https://docs.microsoft.com/connectors/custom-connectors/certification-submission/?azure-portal=true).
 
 ## Power Platform ALM
 

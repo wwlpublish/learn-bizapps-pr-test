@@ -34,7 +34,7 @@ To use any of the paconn commands, you must authenticate first using the **pacon
 
 Once the interactive sign-in is completed this will establish a session to be used by other **paconn** commands. The session will expire after some time and will have to be reestablished to continue using the tool. You can force an end of the session at any time using the **paconn logout** command.
 
-Since an interactive user sign-in is required to authenticate, the command-line tool can be used with attended automation scripts but would not work in unattended scenarios like a build pipeline.
+Since an interactive user sign in is required to authenticate, the command-line tool can be used with attended automation scripts but would not work in unattended scenarios like a build pipeline.
 
 ## Downloading
 
@@ -92,7 +92,7 @@ If your connector uses OAuth2 then you can use the -secret parameter to specify 
 
 ## Updating
 
-The **paconn update** command updates an existing custom connector in the target environment using the specified definition files. The API definition, API properties and icon must be specified by either parameters or a settings file. The update command will prompt for any other parameters like environment ID if not provided. The following is an example of the update command:
+The **paconn update** command updates an existing custom connector in the target environment using the specified definition files. The API definition, API properties, and icon must be specified by either parameters or a settings file. The update command will prompt for any other parameters like environment ID if not provided. The following is an example of the update command:
 
 ```
 paconn update ^

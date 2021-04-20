@@ -3,6 +3,9 @@ In this exercise, you will export a solution containing a custom connector into 
 > [!IMPORTANT]
 > Use a test environment with Microsoft Dataverse provisioned. If you do not have one you can sign up for the [community plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true). A GitHub account is also required to complete the exercise. You can sign up for one for free at [GitHub.com](https://GitHub.com/?azure-portal=true).
 
+> [!NOTE]
+> Download the following file to your local computer to complete this exercise [Contoso Invoicing Triggers](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/tree/master/power-automate-connectors/lifecycle). Select the download button on the middle-right of the screen.
+
 ## Task 1: Import solution
 
 In this task, you will import an unmanaged solution that contains a Contoso Invoicing custom connector. You will use this connector to complete the tasks in this exercise.

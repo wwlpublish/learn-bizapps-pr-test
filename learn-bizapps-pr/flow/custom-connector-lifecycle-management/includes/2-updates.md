@@ -26,7 +26,7 @@ As a result, when this action is presented in the Power Automate cloud flow desi
 
 ## New versions of an action
 
-At some point in an action's lifetime, you might realize you need to introduce a breaking change. The best thing to do is create a new version of the action. Existing users of the original action will not be impacted, but new users can take advantage of the new version. A common practice is to indicate the version as part of the summary. The following is what this would look like:
+At some point in an action's lifetime, you might realize you need to introduce a breaking change. The best thing to do is create a new version of the action. Existing users of the original action will not be impacted, but new users can take advantage of the new version. A common practice is to indicate the version as part of the summary. The screenshot below is what this would look like:
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the new version Get Invoice V2.](../media/new-version.png)](../media/new-version.png#lightbox)
