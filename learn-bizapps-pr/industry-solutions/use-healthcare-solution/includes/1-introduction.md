@@ -93,4 +93,4 @@ A procedure row will allow a medical practitioner to record specific action whil
 
 An appointment row specifies a meeting between a patient and a medical practitioner for a specific diagnosis or treatment. The appointment could be in-person or virtual over Microsoft Teams. Appointment management ensures that the practitioner has an appropriate to manage their patient caseloads.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCm39/]

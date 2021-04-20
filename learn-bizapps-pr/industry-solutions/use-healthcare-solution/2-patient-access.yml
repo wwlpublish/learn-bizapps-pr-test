@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.microsoft-cloud-healthcare.2-patient-access 
+uid: learn-bizapps.use-healthcare-solution.2-patient-access 
 title: Patient Access portal
 metadata: 
   title: Patient Access portal
   description: Learn about self-service options that you can provide for your patients.
-  ms.date: 04/22/2021 
+  ms.date: 04/20/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 

@@ -63,4 +63,4 @@ The patient portal also can start a chat with the Azure Health Bot that can be e
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Patient Access portal where a patient is having a chat with a live agent.](../media/2-6-chat.png)](../media/2-6-chat.png#lightbox)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCtDU/]

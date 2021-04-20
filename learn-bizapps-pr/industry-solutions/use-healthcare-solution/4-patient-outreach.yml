@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.microsoft-cloud-healthcare.4-patient-outreach 
+uid: learn-bizapps.use-healthcare-solution.4-patient-outreach 
 title: Patient Outreach app
 metadata: 
   title: Patient Outreach app
   description: Learn how administrators use the Patient Outreach app to communicate with patients.
-  ms.date: 04/22/2021 
+  ms.date: 04/20/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
