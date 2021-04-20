@@ -34,4 +34,4 @@ A supervisor or manager of a healthcare call center can monitor the performance 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Omnichannel intraday insights dashboard.](../media/5-4-insights.png)](../media/5-4-insights.png#lightbox)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCyT8/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCyT8]

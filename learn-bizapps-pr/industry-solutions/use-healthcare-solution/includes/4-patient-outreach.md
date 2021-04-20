@@ -71,4 +71,4 @@ The event registrations track a contact's specific engagement to an event. The r
 
 The lead management section is typically geared toward sales engagement scenarios but can be used in a healthcare scenario to recruit potential patients, volunteers, and public to engage with a healthcare organization's services and programs.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCyT7/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCyT7]

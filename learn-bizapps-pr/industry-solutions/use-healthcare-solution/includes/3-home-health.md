@@ -35,4 +35,4 @@ The healthcare practitioners that are to be scheduled for home-based visits are 
 
 Healthcare practitioners can access their schedule using the mobile app and can also update the status of the visit and other patient information.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCyT1/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCyT1]
