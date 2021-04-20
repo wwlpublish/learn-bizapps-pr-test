@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.microsoft-cloud-healthcare 
+metadata: 
+ title: Use the Microsoft Cloud for Healthcare solutions
+ description: This module provides a walkthrough of the various MCH applications and reasoning why each step is important or the value it provides to a practitioner, patient, or administrator. The Healthcare solution is composed of the Care Management, Home Health, Patient Access, and Patient Outreach apps, and the Patient Service Center.
+ ms.date: 04/22/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-d365-healthcare  
+title: Use the Microsoft Cloud for Healthcare solutions
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module provides a walkthrough of the various MCH applications and reasoning why each step is important or the value it provides to a practitioner, patient, or administrator. The Healthcare solution is composed of the Care Management, Home Health, Patient Access, and Patient Outreach apps, and the Patient Service Center.
+abstract: |  
+    In this module, you will: 
+    - Know the specific function of each app
+    - Understand the roles and how they use the app
+    - Learn why the specific data tracking and functionality provides value to Healthcare workloads
+    - Understand how a specific role would use the app in their day to day job tasks
+    - Understand how a patient would interact with the MCH system
+prerequisites: Target Audience should have a basic understanding of how to navigate model-driven applications and an understanding of Microsoft Teams, Microsoft 365, Dataverse, Power Automate, Power BI and Dynamics 365 apps.
+iconUrl: /learn/achievements/microsoft-cloud-healthcare.svg  
+levels:  
+- beginner   
+roles:  
+- functional-consultant  
+- business-user  
+products: 
+- industry-solutions
+- mscloud-healthcare 
+units: 
+- learn-bizapps.microsoft-cloud-healthcare.1-introduction 
+- learn-bizapps.microsoft-cloud-healthcare.2-patient-access 
+- learn-bizapps.microsoft-cloud-healthcare.3-home-health 
+- learn-bizapps.microsoft-cloud-healthcare.4-patient-outreach 
+- learn-bizapps.microsoft-cloud-healthcare.5-patient-service-center 
+- learn-bizapps.microsoft-cloud-healthcare.6-check 
+- learn-bizapps.microsoft-cloud-healthcare.7-summary 
+badge: 
+  uid: learn-bizapps.microsoft-cloud-healthcare.badge 
