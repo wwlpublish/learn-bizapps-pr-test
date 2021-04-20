@@ -34,7 +34,7 @@ To use any of the paconn commands, you must authenticate first using the **pacon
 
 Once the interactive sign-in is completed this will establish a session to be used by other **paconn** commands. The session will expire after some time and will have to be reestablished to continue using the tool. You can force an end of the session at any time using the **paconn logout** command.
 
-Since an interactive user sign in is required to authenticate, the command-line tool can be used with attended automation scripts but would not work in unattended scenarios like a build pipeline.
+Since an interactive user sign-in is required to authenticate, the command-line tool can be used with attended automation scripts but would not work in unattended scenarios like a build pipeline.
 
 ## Downloading
 
