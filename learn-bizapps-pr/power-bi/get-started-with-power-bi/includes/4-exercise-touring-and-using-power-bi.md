@@ -38,7 +38,7 @@ In addition to the app **dashboard**, the **report** that was generated (as part
 
 ![Screenshot of the Github navigation with arrows to Dashboard and Report tabs.](../media/pbi-touring_06.png)
 
-You can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when the **AdamBJ** in the treemap on the **Pull Requests** report the other visuals on the page adjust to reflect that selection.
+You can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when you select the **Pull Requests** report in the treemap, the other visuals on the page adjust to reflect that selection.
 
 ![Screenshot of the Github app with the Pull Requests report selected.](../media/pbi-touring_06b.png)
 

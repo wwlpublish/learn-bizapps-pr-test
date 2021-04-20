@@ -18,6 +18,10 @@ Additionally, the **Create Tesseract OCR engine** action provides the **Use othe
 
 ![Screenshot of the Create Tesseract O C R engine action.](..\media\create-tesseract-ocr-engine-action.png)
 
+Apart from the **Create Tesseract OCR engine** action, you can initialize a Tesseract OCR engine within every OCR action. This OCR engine initialization method provides the same configuration options as before and eliminates the need for a produced **OCREngine** variable.
+
+![Screenshot of the Tesseract options in the Extract text with O C R action.](..\media\extract-text-with-ocr-action-tesseract-options.png)
+
 > [!NOTE]
 > To use the **Create MODI OCR engine** action, you need to install the MODI OCR engine on your Desktop.
 
