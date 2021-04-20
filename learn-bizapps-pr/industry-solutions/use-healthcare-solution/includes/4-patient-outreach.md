@@ -39,6 +39,8 @@ A subscription list allows patients to "subscribe" to specific information outre
 
 ## Marketing execution
 
+Elements of marketing are used for a patient journey.
+
 ### Patient journeys
 
 A patient journey is an outline or a communication plan to provide information to a group of patients that are grouped together in a segment. The patient journey can also begin some actions and follow-ups depending on the interaction of the patients with the communications (for example, clicking a link or opening an email).
@@ -55,6 +57,8 @@ The marketing email section provides a "what you see is what you get" (WYSIWYG) 
 A healthcare organization may want to convey information to the public and patients via social activities. The social activities section provides a view of current social activities and sentiment.
 
 ## Event management
+
+Event management helps capture events for providers and patients.
 
 ### Event
 
