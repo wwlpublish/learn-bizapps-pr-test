@@ -27,7 +27,7 @@ The sentiment of the patient can also be tracked so the agent can respond approp
 
 The chat information is stored against the patient record in Dataverse. So other practitioners or advisors can use that information if providing treatments or procedures while using other Microsoft Cloud for Healthcare apps or integrated EMR systems.
 
-## Intraday Monitoring
+## Intraday monitoring
 
 A supervisor or manager of a healthcare call center can monitor the performance and analytics of the agents using the Omnichannel intraday insights dashboard. The dashboard can show metrics such as wait times, average conversation length, and other items.
 
