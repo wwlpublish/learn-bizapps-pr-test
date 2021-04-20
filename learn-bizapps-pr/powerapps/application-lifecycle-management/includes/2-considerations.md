@@ -78,7 +78,7 @@ Power Apps is a platform that benefits professional developers and citizen devel
 
 With Power Apps, you can quickly create a usable version of your app because Power Apps provides a WYSIWYG development experience. You can experience the actual working app early in the development process, and if new requirements arise, you can add new features to the next version.
 
-> [![Diagram of Power Apps development approach.](../media/2-agile.png)](../mdedia/2-agile.png#lightbox)
+> [![Diagram of Power Apps development approach.](../media/2-agile.png)](../media/2-agile.png#lightbox)
 
 Issues with customizing and developing components within Power Platform include:
 
