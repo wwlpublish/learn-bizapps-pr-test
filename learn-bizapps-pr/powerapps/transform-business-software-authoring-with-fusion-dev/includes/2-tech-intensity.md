@@ -6,7 +6,7 @@ Malik explains that tech intensity at a company has 3 dimensions:
 
 Each dimension of tech intensity builds upon the others.
 
-:::image type="content" source="../media/tech-intensity.png" alt-text="Venn diagram showing how the three components of tech intensity overlap. ":::
+:::image type="complex" source="../media/tech-intensity.png" alt-text="Venn diagram showing how the three components of tech intensity overlap. ":::
 Two diagrams, the first is a Venn diagram that explains how tech intensity is the intersection of technology adoption of a company, an individual's capability to use the technology, and organizational trust to deploy the technology. The more those three areas overlap, the higher the tech intensity of a company. The second diagram is a 3-dimensional cross-section of the Venn diagram. It is meant to illustrate that to increase tech intensity, or to increase the overlap between each of the three components, a company must have cross-cutting communications across departments.
 :::image-end:::
 
@@ -31,7 +31,7 @@ The team now sees how they can work together to create software:
 - The software development team focuses on providing data and complex logic the Power App application can consume
 - And IT can easily manage rollout to get the Power Apps into the hands of the users immediately
 
-:::image type="content" source="../media/fusion-team.png" alt-text="VanArsdel fusion dev team organization. ":::
+:::image type="complex" source="../media/fusion-team.png" alt-text="VanArsdel fusion dev team organization. ":::
 This shows how the VanArsdel fusion development team is organized. And how each job role previously discussed in the company maps to the role the person plays in a fusion development team. It is driving home the point that business professionals work with technology professionals to build better apps faster. There is also a flowchart on this graphic that indicates the steps of the fusion development process at a high level. The first step is the kick-off, or when a citizen dev identifies a problem and a team forms around how to solve it. The second step is planning to solve the problem, and the third step is execution, or when citizen developers use Power Apps and professional developers use the tools they are comfortable with to build the apps.
 :::image-end:::
 

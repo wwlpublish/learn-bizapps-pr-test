@@ -6,7 +6,7 @@ As the newest employee at VanArsdel you get "volun-told" to take notes as Caleb,
 
 ## The field inventory management system
 
-:::image type="content" source="../media/vanarsdel-current-inventory-management-process.png" alt-text="Flowchart of the current inventory management system for VanArsdel. " lightbox="../media/vanarsdel-current-inventory-management-process.png":::
+:::image type="complex" source="../media/vanarsdel-current-inventory-management-process.png" alt-text="Flowchart of the current inventory management system for VanArsdel. " lightbox="../media/vanarsdel-current-inventory-management-process.png":::
 A flowchart of the current inventory management system and workflow for VanArsdel comprises several steps - and this one shows the steps and who is involved. First the field tech is dispatch to a customer's home for a repair. If the field tech need a part they do not have, they will either call the office manager or head to the nearest warehouse. At which point they may or may not find the part in inventory. If the part is in inventory, they should indicate they took it out of stock. The inventory manager must make sure they do audits at all times during this process so inventory is always up to date and order parts if necessary. An important point the flowchart drives home also to the workflow is where citizen developers can help (knowing which features and workflows they need for productivity) and where professional developers can help (knowing what platforms and services can be provided to enable citizen developers to be productive).
 :::image-end:::
 
