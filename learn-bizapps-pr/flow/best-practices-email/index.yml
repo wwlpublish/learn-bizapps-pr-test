@@ -3,7 +3,7 @@ uid: learn-bizapps.best-practices-email
 metadata: 
  title: Best practices for email in SharePoint and Power Automate
  description: Emails continue to be the primary and preferred means of communication for many businesses. In some situations, emails are also received as an official electronic form of approval. This module will provide you with a list of best practices you can follow using Power Automate for both outgoing and incoming emails.
- ms.date: 04/30/2021  
+ ms.date: 04/21/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -11,7 +11,7 @@ metadata:
 title: Best practices for email in SharePoint and Power Automate
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Even though there are many means of communication, emails are often considered the primary and official one. Whether you are sending an electronic approval, or attaching important documents to complete a transaction process, emails are a vital tool for businesses. In this module, we will focus on key features that can help you leverage Power Automate flows to enhance and secure your electronic mail. 
+  Even though there are many means of communication, emails are often considered the primary and official one. Whether you are sending an electronic approval, or attaching important documents to complete a transaction process, emails are a vital tool for businesses. In this module, we will focus on key features that can help you use Power Automate flows to enhance and secure your electronic mail. 
 abstract: |  
     By the end of this course, students will be able to: 
     - Monitor incoming emails

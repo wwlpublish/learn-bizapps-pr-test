@@ -15,7 +15,7 @@ All your email addresses are created there as mailbox accounts. If you would lik
 
 Once you have the required permission, you can send emails on behalf of the person using Power Automate flow.
 
-Microsoft Office 365 Outlook connector's Send an email (V2) action has the option to send an email on behalf of someone. To find this feature click on **Show advanced options**.
+Microsoft Office 365 Outlook connector's Send an email (V2) action has the option to send an email on behalf of someone. To find this feature, select **Show advanced options**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Show advanced options button.](../media/advanced-options.png)](../media/advanced-options.png#lightbox)

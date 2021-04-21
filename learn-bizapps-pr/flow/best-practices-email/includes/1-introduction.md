@@ -1,4 +1,4 @@
-Users can be bombarded with incoming emails that leave them distracted and unable to concentrate on a single task. This is where Power Automate can help with its ability to monitor the to, from and the subject line of the emails and create an automated workflow to take actions based on conditions.
+Users can be bombarded with incoming emails that leave them distracted and unable to concentrate on a single task. This is where Power Automate can help with its ability to monitor the **to, from, and the subject** line of the emails and create an automated workflow to take actions based on conditions.
 
 ## Trigger flows
 
@@ -16,7 +16,7 @@ Each of the above triggers will monitor all the incoming emails of the folder yo
 
 ## Save metadata to SharePoint lists
 
-Metadata is defined as a set of data that describes and gives relevant information about other data. For example, as emails arrive to our Microsoft Outlook Inbox, we primarily focus on the key metadata such as To, From, Subject and Body. However, there are several other metadata items that are available, like Importance, which are available and can be captured for future use. Saving metadata makes it easier to search in the future.
+Metadata is defined as a set of data that describes and gives relevant information about other data. For example, as emails arrive to our Microsoft Outlook Inbox, we primarily focus on the key metadata such as **To, From, Subject, and Body**. However, there are several other metadata items that are available, like Importance, which are available and can be captured for future use. Saving metadata makes it easier to search in the future.
 
 If you would like to only capture the metadata of specific emails, then you can use a combination of options already available to define that. For example, you can only trigger a flow if the email came to you, Cc'd to a specific group email address and the email subject contains 'Monthly Inventory Report'
 
@@ -88,7 +88,7 @@ Add a new action where you search for **SharePoint** and select **Create a file*
 > [!div class="mx-imgBorder"]
 > [![Screenshot of a new action where you search for SharePoint and select Create a file.](../media/sharepoint-create-file-action.png)](../media/sharepoint-create-file-action.png#lightbox)
 
-Add the site address, folder path, file name and file content. The folder patch is for the library where you would like to save the attachments.
+Add the site address, folder path, file name, and file content. The folder patch is for the library where you would like to save the attachments.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the file name and file content.](../media/attachment-name-content.png)](../media/attachment-name-content.png#lightbox)
@@ -104,12 +104,12 @@ We need to confirm the file(s) have been saved successfully and if not, then we 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the condition inside the apply to each setting.](../media/condition.png)](../media/condition.png#lightbox)
 
-In the left side of the condition, click on **Add dynamic content**, select **Expressions** and add the following formula outputs('Create_file')['statusCode']. On the right, add 403.
+In the left side of the condition, select **Add dynamic content**, select **Expressions,** and add the following formula outputs('Create_file')['statusCode']. On the right, add 403.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the left side of the condition with the Add dynamic content, Expression added.](../media/left-side-condition.png)](../media/left-side-condition.png#lightbox)
 
-In If yes click on **Add an action** and add the **Send an email (V2).**
+In If yes select on **Add an action** and add the **Send an email (V2).**
 
 This error notification email is sent to the same person who received the original email from which the attachment has to be saved.
 

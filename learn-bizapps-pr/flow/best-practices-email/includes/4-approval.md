@@ -35,12 +35,12 @@ When you add the **Approver email** in the **Start and wait for an approval acti
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the approval action automatically added to Apply to each.](../media/approval-apply-each.png)](../media/approval-apply-each.png#lightbox)
 
-By default, each approval is completed in a sequential manner. If you would like to change that to parallel, then click on the ellipses for **Apply to each** and select **Settings**.
+By default, each approval is completed in a sequential manner. If you would like to change that to parallel, then select the ellipses for **Apply to each** and select **Settings**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the settings for apply to each.](../media/settings.png)](../media/settings.png#lightbox)
 
-Toggle the **Concurrency Control** radio button to **On** and click **Done**. The maximum number of concurrent runs is 50 and the default is 20.
+Toggle the **Concurrency Control** radio button to **On** and select **Done**. The maximum number of concurrent runs is 50 and the default is 20.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Concurrency Control button set to on.](../media/concurrency.png)](../media/concurrency.png#lightbox)
