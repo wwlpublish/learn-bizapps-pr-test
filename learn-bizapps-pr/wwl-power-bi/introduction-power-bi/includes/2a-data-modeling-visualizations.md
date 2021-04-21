@@ -97,7 +97,7 @@ A table supports two dimensions, but a matrix makes it easier to display
 data meaningfully across multiple dimensions -- it supports a stepped layout.
 The matrix automatically aggregates the data and enables drill down.
 
-![matrix](../media/matrix.png)
+![the picture of matrix](../media/matrix.png)
 
 ### Pie charts
 
@@ -123,7 +123,7 @@ categories.
 Are charts of colored rectangles, with size representing value. They can be
 hierarchical, with rectangles nested within the main rectangles.
 
-![treemap](../media/treemap.png)
+![the picture of treemap](../media/treemap.png)
 
 ### Waterfall charts
 
