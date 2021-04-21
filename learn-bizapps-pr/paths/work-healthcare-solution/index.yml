@@ -24,6 +24,7 @@ products:
 - mscloud-healthcare
 modules:
 - learn-bizapps.get-started-healthcare
-- learn-bizapps.deployment-planning-healthcare 
+- learn-bizapps.deployment-planning-healthcare
+- learn-bizapps.use-healthcare-solution 
 trophy: 
   uid: learn-bizapps.work-healthcare-solution.trophy

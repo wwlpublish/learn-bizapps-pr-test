@@ -7,9 +7,9 @@ You will build a model-driven Power App and use the Business card reader compone
 To create a model-driven app in Power Apps, follow these steps:
 
 1. Select **Create** in the Power Apps left menu.
-1. Select **Canvas model-driven from blank**.
-1. Name the canvas app **Contoso Business card reader**.
-1. In the App Designer, edit the **Site map** and then edit the sub group.
+1. Select **Model Driven Apps from blank**.
+1. Name the model-driven app **Contoso Business card reader**.
+1. In the App Designer, edit the **Site map** and then edit the sub area.
 1. Select a Microsoft Dataverse entity related to the form that you will create that will use the Business card reader component. For this lesson, use the **Appointment** entity.
 1. Select **Save and close**.
 
