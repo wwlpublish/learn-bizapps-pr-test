@@ -1,4 +1,4 @@
-﻿### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.integrate-power-automate
 metadata:
   title: Integrate SharePoint and Power Automate 
@@ -28,6 +28,7 @@ products:
 modules:
 - learn-bizapps.email-power-automate
 - learn-bizapps.approvals-power-automate
+- learn-bizapps.http-connectors 
 - learn-bizapps.best-practices-email 
 - learn-bizapps.error-handling 
 trophy:
