@@ -29,6 +29,7 @@ modules:
 - learn-bizapps.email-power-automate
 - learn-bizapps.approvals-power-automate
 - learn-bizapps.http-connectors 
+- learn-bizapps.error-handling 
 trophy:
   uid: learn.integrate-power-automate.trophy
 
