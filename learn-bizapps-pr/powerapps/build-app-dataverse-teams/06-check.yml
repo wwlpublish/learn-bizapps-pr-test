@@ -13,36 +13,36 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What is the primary purpose of the Hero template?
+  - content: What is the primary purpose of the hero template?
     choices: 
-    - content: To make it easier to have an app that allows you to list, create, edit, and delete records
+    - content: To help make it easier for you to have an app that allows you to list, create, edit, and delete records
       isCorrect: true 
-      explanation: Once you have your data source defined, the hero template is designed to provide the components needed for a basic app. It simplifies the process to have the necessary components so that your app can list, create, edit, and delete records.
+      explanation: After you have defined your data source, the hero template will provide the needed components for a basic app. The hero template simplifies the process of having the necessary components so that your app can list, create, edit, and delete records.
     - content: To give you a layout that is dynamic and compelling for the user
       isCorrect: false 
-      explanation: Incorrect, the hero template is designed to provide an easy way to build a basic app, it’s up to you to change the app to better meet your user and organizational needs.
-    - content: To walk you through the app-building process
+      explanation: The hero template provides a simple way to build a basic app, and it’s up to you to change the app to better meet your user and organizational needs.
+    - content: To go through the app-building process
       isCorrect: false 
-      explanation: Incorrect, the Hero template is designed to provide an easy way to build a basic app, it does not lead the user through a step-by-step process.
-  - content: What triggers Power Apps to AutoSave every two minutes?
+      explanation: The hero template provides a simple way to build a basic app; it does not lead the user through a step-by-step process.
+  - content: What triggers Power Apps to automatically save every two minutes?
     choices: 
     - content: Creating a new app
       isCorrect: false 
-      explanation: Incorrect, creating a new app does not start to AutoSave every two minutes
+      explanation: Creating a new app does not start the process of automatically saving every two minutes
     - content: Selecting the Save button in the toolbar
       isCorrect: true 
-      explanation: It’s a good idea to select the save button once your data is loaded into the hero template for the first time.  Only after selecting the Save button will Power Apps start auto-saving changes every two minutes.
+      explanation: It’s a good idea to select the Save button after your data has been loaded into the hero template for the first time.  Only after you have selected the Save button will Power Apps start automatically saving changes every two minutes.
     - content: Previewing the app
       isCorrect: false 
-      explanation: Incorrect, previewing the app does not start to AutoSave every two minutes
+      explanation: Previewing the app does not start the process of automatically saving every two minutes
   - content: By default, who can access a published Dataverse for Teams app?
     choices: 
     - content: Only the owner
       isCorrect: false 
-      explanation: Incorrect, the owner is not the only person who can access a published app
-    - content: Anybody on the team
+      explanation: The owner is not the only person who can access a published app.
+    - content: Anyone on the team
       isCorrect: true 
-      explanation: Correct, once the app is published, all members of the team will have access to the app by default.
-    - content: Anybody in the Organization
+      explanation: After the app has been published, all members of the team will have access to the app by default.
+    - content: Anyone in the organization
       isCorrect: false 
-      explanation: Incorrect, the owner of the Team must take other steps to share the app beyond the members of the team
+      explanation: The owner of the team must take other steps to share the app beyond the members of the team.

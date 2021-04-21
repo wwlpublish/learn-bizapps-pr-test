@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.build-app-dataverse-teams.02-create-app 
-title: Create your first app using the Hero template
+title: Create your first app with the hero template
 metadata: 
-  title: Create your first app using the Hero template
-  description: Create your first app using the Hero template
+  title: Create your first app with the hero template
+  description: Learn how to create your first app by using the hero template.
   ms.date: 04/16/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

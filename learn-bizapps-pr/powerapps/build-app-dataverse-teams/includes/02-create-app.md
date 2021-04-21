@@ -1,102 +1,102 @@
-Here are the steps to create an app from Microsoft Teams.
+The following steps show how to create an app from Microsoft Teams.
 
-## Step 1: Identify a Microsoft Team 
+## Step 1: Identify a Microsoft team 
 
-All Dataverse for Teams apps requires a Microsoft Team to store the Power App data. Only team members will be able to access your app by default.
+All Dataverse for Teams apps require a Microsoft team to store the Microsoft Power Apps data. Only team members will be able to access your app by default.
 
-## Step 2: Add the Power Apps app to Teams
+## Step 2: Add the Power Apps application to Teams
 
 1. Launch Teams or use your browser to open [Teams](https://teams.microsoft.com).
 
-1. In Teams, select **Apps** in the lower-left corner of the screen
+1. In Teams, select **Apps** in the lower-left corner of the screen.
 
-1. In the search box, type in **Power Apps** and then select it from the search results
+1. In the search box, enter **Power Apps** and then select it from the search results.
 
    ![Screenshot of the app selection screen in Teams.](../media/02-app-selection.png)
 
-1. Select **Open** to install Power Apps
+1. Select **Open** to install Power Apps.
 
    > [!NOTE]
-   > Pin the Power App app to the app launcher to quickly access it at any time. Just right-select on the Power Apps icon and select **Pin.** You can also run the app as a separate window from Teams by selecting on **Pop out app**.
+   > Pin the app for Power Apps to the app launcher so that you can quickly access it any time. Right-click the Power Apps icon and then select **Pin**. You can also run the app as a separate window from Teams by selecting **Pop out app**.
  
    ![Screenshot showing how to pin an app in Teams.](../media/03-pin-app.png)
 
 ## Step 3: Create a new app
 
-Once you have Power Apps installed, you can create your first app.
+After you have installed Power Apps, you can create your first app.
 
-1. From Teams, open the Power Apps app and select **Create an app**
+1. From Teams, open the Power Apps application and then select **Create an app**.
     
     ![Screenshot of Teams and Power Apps create button.](../media/04-create-app.png)
 
-1. Select a Team for your app and then select **Create**
+1. Select a team for your app and then select **Create**.
 
-1. Type in the name of your app, then select **Save**
+1. Enter the name of your app and then select **Save**.
 
-You will now see the hero template for your app. It's currently empty since we haven't connected a Dataverse table to it.
+The hero template for your app will display. It's currently empty because you haven't connected a Dataverse table to it.
 
 ## Step 4: Create and connect a table to your app
 
-1. Open your new app and select **Create new table**
+1. Open your new app and then select **Create new table**.
 
-1. Type in a new table name and then select **Create**
+1. Enter a new table name and then select **Create**.
 
-1. You can now add new columns to your table by selecting **+ Add column**
+1. Add new columns to your table by selecting **+ Add column**.
 
-   For each column, provide a **Name** and then select the **Type** of data it holds. By choosing the appropriate data type, you will be able to access intelligent out-of-the-box features to make your app more manageable for users to use.
+   For each column, provide a **Name** and then select the **Type** of data that it holds. By choosing the appropriate data type, you will be able to access intelligent, out-of-the-box features to make your app more manageable for people to use.
 
-   For our table, we want to track the date the equipment was deployed, the location, if service is needed, and any relevant notes.
+   For the table, you need to track the date that the equipment was deployed, the location, whether service is needed, and relevant notes.
 
-   - For tracking the deployment date, use date type **Date**
+   - For tracking the deployment date, use date type of **Date**.
     
-     ![Screenshot of adding data column for app.](../media/05-add-column.png)
+     ![Screenshot of adding a data column for the app.](../media/05-add-column.png)
 
-   - To limit the location options to "Conference Room A" and "Conference Room B", use data type **Choice**. To add more choices use **+ New choice**
+   - To limit the location options to "Conference Room A" and "Conference Room B," use the **Choice** data type. To add more choices, select **+ New choice**.
     
-     ![Screenshot of adding choice to app.](../media/06-add-choice.png)
+     ![Screenshot of adding a choice to the app.](../media/06-add-choice.png)
 
-   - To indicate if service is needed, use **Yes/No** as the data type as we only need to toggle between two options. This data type limits a user to just two choices.
+   - To indicate if service is needed, use **Yes/No** as the data type because you only need to switch between two options. This data type limits a user to only two choices.
     
      ![Screenshot of adding a choice for service.](../media/07-service.png)
 
-   - Use **Text** data type for the Notes column
+   - Use the **Text** data type for the **Notes** column.
 
-     ![Screenshot of adding a note column in app.](../media/08-notes.png)
+     ![Screenshot of adding a Notes column in the app.](../media/08-notes.png)
 
-      Below is a list of data types that are available using the visual table editor. For a complete list of all the data types available and how they work, see the links in the Summary unit at the end of this module.
+      The following list of data types are available by using the visual table editor. For a complete list of all available data types and how they work, see the links in the Summary unit at the end of this module.
 
       |     Data Type    |     Description    |
       |-|-|
       |     Text    |     A single line   of text.    |
-      |     Email    |     Text in email   format, will be selectable for the user.    |
-      |     URL    |     A hyperlink   in URL format, will be selectable for the user.    |
+      |     Email    |     Text in email   format; will be selectable for the user.    |
+      |     URL    |     A hyperlink   in URL format; will be selectable for the user.    |
       |     Auto Number    |     Defines an   autogenerated number sequence.    |
-      |     Number    |     An integer.   (for example, 10 or -10)    |
+      |     Number    |     An integer   (for example, 10 or -10).    |
       |     Date    |     Allows users   to enter or search for a date.    |
       |     Decimal    |     A number with   a decimal point (for example, 1.5 or -1.5).    |
       |     Lookup    |     References a primary column in another table.    |
-      |     Choice    |     Allow people to select one choice from a list.    |
-      |     Yes/No    |     Allow people to pick between two choices.    |
+      |     Choice    |     Allows people to select one choice from a list.    |
+      |     Yes/No    |     Allows people to pick between two choices.    |
 
-4. To add data to your table, select **+ Add row**. Enter data that you want your users to see when they use your app.
+4. To add data to your table, select **+ Add row**. Enter data that you want people to see when they use your app.
     
-    Notice how our choice of data type changes the user experience to fit the type of data being stored.
+    Notice how the choice of data type changes the user experience to fit the type of data that is being stored.
 
-    - Date Deployed: a calendar can be used to select the **Date**.
-    - Location: uses a pull-down of options defined in the **Choice** data type.
-    - Service Required: the user can select between **Yes/No** with a toggle.
-    - Notes: The user can enter **Text**.
+    - **Date Deployed** - A calendar can be used to select the **Date**.
+    - **Location** - Uses a drop-down list of options that are defined in the **Choice** data type.
+    - **Service Required** - The user can select between **Yes/No** with a toggle.
+    - **Notes** - The user can enter **Text**.
 
    ![Screenshot showing the calendar for the app. ](../media/10-calendar.png)
 
-1. Select **Close** to finish editing the table. It may take a few minutes to process the table. Once completed, the Hero Template will appear with the data loaded into the app.
+1. Select **Close** to finish editing the table. It might take a few minutes to process the table. After the processing has completed, the hero template will appear, showing the data loaded into the app.
 
-1. Press **Save** in the toolbar to create the first saved version. After the first save, Power Apps will continue to AutoSave every two minutes while you are editing.
+1. Select **Save** in the toolbar to create the first saved version. After the first save, Power Apps will continue to save automatically every two minutes while you are editing.
 
 ## Step 5: Preview and test your app
 
-To preview and test your app, select on the **Preview** button in the upper right.
+To preview and test your app, select the **Preview** button in the upper right.
 
-The hero template automatically creates a functioning app with your data. Once a data source is linked, you can instantly view, edit, and delete existing records or create new ones.
+The hero template automatically creates a functioning app with your data. After a data source has been linked, you can instantly view, edit, and delete existing records or create new ones.
 
 > [![Screenshot of the layout of hero template.](../media/11-layout.png)](../media/11-layout.png#lightbox) 
