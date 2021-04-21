@@ -35,7 +35,7 @@ Microsoft's approach to automation is:
 
 This flowchart can help you determine how to architect your automation.
 
-Decision-making flowchart for your design.](../media/1-decision-making-flow.png)
+![Flowchart that shows decision-making for your design.](../media/1-decision-making-flow.png)
 
 ## Use cases for Power Automate desktop flows
 
