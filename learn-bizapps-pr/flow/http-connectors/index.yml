@@ -3,7 +3,7 @@ uid: learn-bizapps.http-connectors
 metadata: 
  title: Interact with data using web requests with HTTP connectors in Power Automate
  description: Learn about HTTP connectors available in Power Automate.
- ms.date: 04/30/2021  
+ ms.date: 04/21/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -23,7 +23,8 @@ iconUrl: /learn/achievements/http-connectors.svg
 levels:  
 - intermediate   
 roles:  
-- maker  
+- maker
+- business-user
 products:  
 - power-platform 
 - power-automate 
