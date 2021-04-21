@@ -6,11 +6,11 @@ The SharePoint actions in Power Automate have settings that are used to improve 
 
 SharePoint and the Approval connectors are the most commonly used Connectors with Power Automate. SharePoint can be used with all three ways to make a flow. That includes:
 
-- start from blank
+- Start from blank
 
-- start from a template
+- Start from a template
 
-- start from a connector
+- Start from a connector
 
 **Start from a blank** lets you create a custom flow to meet your requirements and you can use triggers like:
 

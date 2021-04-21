@@ -7,7 +7,7 @@
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Configure run after with "is successful" selected.](../media/configure-run-after.jpg)](../media/configure-run-after.jpg#lightbox)
 
-Consider a scenario where after uploading an image to a SharePoint library, you would like to send it to Azure Cognitive Services, an Artificial Intelligence and Machine Learning service, to analyze the image. After the image is analyzed, all the tags created by Cognitive Services can be saved in SharePoint if you set up a workflow.
+Consider a scenario where after uploading an image to a SharePoint library, you would like to send it to Azure Cognitive Services, an Artificial Intelligence, and Machine Learning service, to analyze the image. After the image is analyzed, all the tags created by Cognitive Services can be saved in SharePoint if you set up a workflow.
 
 The first step is to send the image, that is, the file content to the **Analyze Image** step in the flow.
 

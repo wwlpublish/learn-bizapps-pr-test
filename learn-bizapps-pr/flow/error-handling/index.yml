@@ -2,8 +2,8 @@
 uid: learn-bizapps.error-handling 
 metadata: 
  title: Best practices for error handling in Power Automate flows
- description: Learn aobut error handling in Microsoft Power Automate flows.
- ms.date: 04/30/2021  
+ description: Learn about error handling in Microsoft Power Automate flows.
+ ms.date: 04/21/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -24,7 +24,7 @@ levels:
 - intermediate   
 roles:  
 - maker  
-- functional-consultant 
+- business-user
 products: 
 - power-platform 
 - power-automate 
