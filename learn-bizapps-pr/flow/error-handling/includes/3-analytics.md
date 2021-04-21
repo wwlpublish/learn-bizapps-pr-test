@@ -28,9 +28,9 @@ To access these reports:
 
 1. Go to the navigation bar on the left side.
 
-1. Select Analytics.
+1. Select **Analytics**.
 
-1. Select Microsoft Power Automate.
+1. Select **Microsoft Power Automate**.
 
 1. View the reports on the right side.
 
