@@ -6,7 +6,7 @@ If the user to whom the email notification is being sent via flow is part of you
 
 If, however, emails are sent to people outside your company then sending attachments is the only option.
 
-The Office 365 Outlook connector's send email actions allows you add multiple attachments.
+The Office 365 Outlook connector's send email actions allows you to add multiple attachments.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the add attachment details.](../media/add-attachments.png)](../media/add-attachments.png#lightbox)
