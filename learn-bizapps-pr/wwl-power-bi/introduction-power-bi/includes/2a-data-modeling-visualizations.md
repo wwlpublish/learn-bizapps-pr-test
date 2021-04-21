@@ -247,9 +247,9 @@ shape and transform data so that it's ready for your models and visualizations.
 
 To begin, select **Edit** from the **Navigator** window to launch Power Query
 Editor. You can also launch Power Query Editor directly from Power BI Desktop by
-using the **Edit Queries** button on the Home ribbon.
+using the **Transform  Data** button on the Home ribbon.
 
-![The Edit Queries button the Home tab.](../media/edit-queries-button.png)
+![The Transform Data button the Home tab.](../media/transform-data-button.png)
 
 After loading your data into Power Query Editor, you'll see the following
 screen:
