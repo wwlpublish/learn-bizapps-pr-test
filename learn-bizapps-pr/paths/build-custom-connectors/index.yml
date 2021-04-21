@@ -31,6 +31,7 @@ modules:
 - learn-bizapps.open-source-connectors
 - learn-bizapps.policy-templates-custom-connectors 
 - learn-bizapps.custom-connectors-open-api
+- learn-bizapps.custom-connector-lifecycle-management
 trophy:
   uid: learn.build-custom-connectors.trophy
 

@@ -149,6 +149,6 @@ CALCULATE (
 
 ## Modify relationship behavior
 
-You can modify the model relationship behavior when an expression is evaluated by passing the [CROSSFILTER](https://docs.microsoft.com/dax/crossfilter-function-dax/?azure-portal=true) DAX function as a filter expression to the CALCULATE function. It's an advanced capability.
+You can modify the model relationship behavior when an expression is evaluated by passing the [CROSSFILTER](https://docs.microsoft.com/dax/crossfilter-function/?azure-portal=true) DAX function as a filter expression to the CALCULATE function. It's an advanced capability.
 
 The CROSSFILTER function can modify filter directions (from both to single or from single to both) and even disable a relationship.

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.architect-analytics.5-power-platform
+title: Power BI and Power Platform
+metadata:
+  title: Power BI and Power Platform
+  description: Learn how Power BI can be used with the other components of Power Platform.
+  ms.date: 04/19/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 4
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/5-power-platform.md)]
