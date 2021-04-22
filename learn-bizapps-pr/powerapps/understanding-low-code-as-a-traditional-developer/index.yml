@@ -6,7 +6,7 @@ summary: |
 metadata:
   title: Understanding Low Code as a Traditional Developer
   description: Understand Power Fx and how to use it to build an app within Power Apps as a traditional developer
-  ms.date: 03/05/2021
+  ms.date: 04/22/2021
   author: ghurlman
   ms.author: grhurl
   ms.topic: interactive-tutorial
@@ -18,7 +18,7 @@ abstract: |
   - Modify an app using Power Fx
 prerequisites: |
   -  Access to Microsoft Excel and OneDrive for Business.
-iconUrl: http://via.placeholder.com/120x120
+iconUrl: /learn/achievements/understanding-low-code-development-as-a-traditional-developer.svg
 ratingEnabled: false
 levels:
   - beginner
@@ -36,4 +36,4 @@ units:
   - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.5-knowledge-check
   - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer.6-summary
 badge: 
-  uid: learn.azure.sample-learn-module.badge
+  uid: learn-bizapps.azure.understanding-low-code-development-as-a-traditional-developer.badge
