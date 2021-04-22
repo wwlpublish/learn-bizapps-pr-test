@@ -1,4 +1,4 @@
-# ### YamlMime:LearningPath
+### YamlMime:LearningPath
 uid: learn-bizapps.transform-with-fusion-dev
 metadata:
   title: Transform your business applications with fusion development
@@ -35,6 +35,6 @@ modules:
 - learn-bizapps.powerapps.understanding-low-code-as-a-traditional-developer
 - learn-dynamics.build-power-app-component
 - learn.azure.integrate-openapi-enabled-web-api-with-apim-and-visual-studio
-- learn-bizapps.powerapps.discover-webapis-powerapps
+- learn-bizapps.powerapps.discover-web-apis-power-apps
 trophy:
   uid: learn.transform-with-fusion-development.trophy
