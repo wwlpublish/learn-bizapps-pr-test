@@ -32,9 +32,7 @@ The two main dataset modes in Power BI that should be familiar to Tableau analys
 
 Import mode, the most common mode, allows the data to be loaded into memory and refreshed on request or schedule. This mode often delivers fast performance because you immediately have access to the data; it's loaded into memory and ready to go when you are.
 
-:::image type="complex" source="../media/extracts-vs-import.png" alt-text="Data in Tableau and Power B I.":::
-   In Tableau, extracts are snapshots of your data that can be used to improve performance by storing the data on disk and loading it into memory. In Power B I, import mode is applied to the datasets and delivers fast performance by importing the data, loading it into memory, and storing it to disk.
-:::image-end:::
+In Tableau, extracts are snapshots of your data that can be used to improve performance by storing the data on disk and loading it into memory. In Power B I, import mode is applied to the datasets and delivers fast performance by importing the data, loading it into memory, and storing it to disk.
 
 > [!NOTE]
 > Import mode is like taking an extract of data in Tableau Desktop.
@@ -45,9 +43,7 @@ After it has been imported, the data is always stored to disk and must be loaded
 
 DirectQuery mode allows analysts to query the data source on request to return results. This query storage mode is dependent on your data source performance; if you've spent considerable time and resources on the data source to make it perform optimally, you'll want to capitalize on your efforts.
 
-:::image type="complex" source="../media/live-connections-vs-direct-query.png" alt-text="Live connections in Tableau versus DirectQuery mode in Power B I.":::
-   In Tableau, live connections are connections to the underlying data; Tableau makes queries directly against the data source and returns the results. In Power B I, DirectQuery mode means that Power B I is directly connected to the data source; the data comes straight from a query that is sent to the data source.
-:::image-end:::
+In Tableau, live connections are connections to the underlying data; Tableau makes queries directly against the data source and returns the results. In Power B I, DirectQuery mode means that Power B I is directly connected to the data source; the data comes straight from a query that is sent to the data source.
 
 > [!NOTE]
 > DirectQuery mode is similar to using a live connection to data in Tableau Desktop.

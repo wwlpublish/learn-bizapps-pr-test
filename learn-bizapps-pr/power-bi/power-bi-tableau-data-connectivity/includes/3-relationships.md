@@ -40,7 +40,7 @@ Notice that the snowflake schema includes seven dimension tables:
 
 - Department Dim
 
-Each dimension table contains unique, descriptive attributes that provide more meaning to the measures in the Sales Fact table, such as **CustomerID**, **ProductID**, and **ProductName**. With these fields, you could find out which product is purchased the most by distinct customers.
+Each dimension table contains unique, descriptive attributes that provide more meaning to the measures in the Sales Fact table, such as **CustomerID**, **EmployeeID**, and **ProductID**. With these fields, you could find out which product is purchased the most by distinct customers.
 
 ### Normalized tables
 
