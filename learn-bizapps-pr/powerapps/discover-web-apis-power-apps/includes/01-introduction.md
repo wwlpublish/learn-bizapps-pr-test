@@ -7,7 +7,7 @@ There are two members on VanArsdel's fusion development team so far, Kiana and M
 They are working together to create a new Power Apps app that helps manage inventory. Their first task is to display a list of VanArsdel's warehouse locations. The warehouse locations will be fetched from a web API and displayed in the Power Apps app.
 
 
-## Learning Objectives ##
+## Learning objectives ##
 
 In this module, you will:
 

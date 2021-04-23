@@ -13,8 +13,7 @@ To sum up, this module has covered the following topics:
 * How to add the custom connector to a Power Apps app, and
 * How to call an API through the custom connector.
 
-
-## Learn More ##
+## Learn more ##
 
 * [Export APIs from Azure API Management to the Power Platform](https://docs.microsoft.com/azure/api-management/export-api-power-platform)
 * [Create a Custom Connector from an OpenAPI Definition](https://docs.microsoft.com/connectors/custom-connectors/define-openapi-definition)
@@ -22,6 +21,6 @@ To sum up, this module has covered the following topics:
 * [Custom Connector FAQ for Azure Logic Apps, Power Automate, and Power Apps](https://docs.microsoft.com/connectors/custom-connectors/faq)
 
 
-## Additional Resources ##
+## Additional resources ##
 
 * [Fusion development approach to building apps using Power Apps](https://aka.ms/fusiondevbook)

@@ -15,6 +15,6 @@ Fusion Development Team gathers professionals from across the company to develop
 
 In future modules, you'll work with Kiana and Maria as Kiana learns what it's like to develop Power Apps from a Professional Developer's background. And you'll create a web API to be consumed within a Power App for the Field Inventory Management system.
 
-## Additional Resources
+## Additional resources
 
-- [Fusion development approach to building apps using Power Apps](https://aka.ms/fusiondevbook)
+- [Fusion development approach to building apps using Power Apps](https://aka.ms/fusiondevbook)w
