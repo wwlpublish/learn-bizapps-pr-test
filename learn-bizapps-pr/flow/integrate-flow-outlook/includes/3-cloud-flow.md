@@ -36,7 +36,7 @@ You may need to wait a moment for Outlook to sign in. Once you see the Folder op
 Select **New step** and search for and select the action **Run a flow built with Power Automate Desktop**.
 
 > [!div class="mx-imgBorder"]
-> [![[Screenshot of run a flow built with Power Automate Desktop option.](../media/run-desktop-flow.png)](../media/run-desktop-flow.png#lightbox)
+> [![Screenshot of run a flow built with Power Automate Desktop option.](../media/run-desktop-flow.png)](../media/run-desktop-flow.png#lightbox)
 
 If you have not already configured your gateway connection, use the dropdown under Gateway name to select the appropriate gateway.
 
