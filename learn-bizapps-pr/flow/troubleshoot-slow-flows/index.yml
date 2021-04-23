@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.troubleshoot-slow-flows 
+metadata: 
+ title: Troubleshoot slow-running flows
+ description: Have you noticed your flow actions seem to be running slowly, and sometimes get stuck on an action? While the cause of this issue varies based on the connector and the flow logic, the overall steps to troubleshoot and find the cause of the issue are the same. This module focuses on already running flows that are either running slowly or failing. It doesn't apply to triggers not firing.
+ ms.date: 04/26/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Troubleshoot slow-running flows
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  With the deep integration of Power Automate flows and SharePoint available, there has been an exponential growth of flows running that are either triggered by adding, editing, or deleting SharePoint lists or documents. From time-to-time, flows fail or get stuck running. Flows streamline repetitive tasks and paperless processes so that you can focus your attention where it's needed most. So it's important to have an overview of how to troubleshoot the failure and bring them back to successful runs.
+abstract: |  
+    In this module, you will: 
+    - SharePoint connector limits
+    - Using compose and variables actions to view the data
+    - Power Automate analytics
+    - Data policies
+    - Redesigning your flows
+prerequisites: The Target Audience should have a basic understanding of how to create flows with SharePoint as the trigger.
+iconUrl: /learn/achievements/troubleshoot-slow-flows.svg  
+levels:  
+- intermediate   
+roles:  
+- maker 
+- business-user 
+products: 
+- power-platform 
+- power-automate
+units: 
+- learn-bizapps.troubleshoot-slow-flows.1-introduction 
+- learn-bizapps.troubleshoot-slow-flows.2-compose-variables 
+- learn-bizapps.troubleshoot-slow-flows.3-analytics 
+- learn-bizapps.troubleshoot-slow-flows.4-admin-center 
+- learn-bizapps.troubleshoot-slow-flows.5-redesign 
+- learn-bizapps.troubleshoot-slow-flows.6-check 
+- learn-bizapps.troubleshoot-slow-flows.7-summary 
+badge: 
+  uid: learn-bizapps.troubleshoot-slow-flows.badge 
