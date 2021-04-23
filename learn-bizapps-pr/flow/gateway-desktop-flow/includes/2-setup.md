@@ -1,6 +1,6 @@
 Creating and running automation systems in Power Automate requires you to have access to make a few changes to the environments in your tenant, and ensure you have the appropriate licenses and permissions. If you do not already have admin access to a valid tenant, you may want to take a few minutes and start a [free trial](https://www.microsoft.com/microsoft-365/enterprise/office-365-e3?activetab=pivot%3aoverviewtab/?azure-portal=true). In addition, you will need a Power Automate user plan with attended RPA license to complete this module. You can sign up for a [free trial](https://flow.microsoft.com/pricing/?azure-portal=true) if you don't already have this license.
 
-If you completed the module Build your first Power Automate Desktop Flow, feel free to skip to the next unit.
+If you completed the module, Build your first Power Automate Desktop Flow, feel free to skip to the next unit.
 
 ## Create a trial environment with database
 
@@ -52,6 +52,6 @@ After launching the app, sign in using the account, which you used to set up you
 
 One of the major benefits of using desktop flows is the ability to perform actions on desktop applications. For the flow you will create, you will use an invoicing application to explore the concepts and actions available to you in desktop flows. After completing the module, you can use what you have learned to run desktop flows on your own applications and automate existing processes.
 
-To download the Contoso Invoice App, visit here and select download. After downloading, open the application and familiarize yourself with all the elements.
+Download the [Contoso Invoicing app](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-automate-desktop/contoso-invoice-app/ContosoInvoicingSetup.exe), and then open the application and explore the elements.
 
 If you don't have a desktop app created to connect to a cloud flow, do so now by following this module or on your own.
