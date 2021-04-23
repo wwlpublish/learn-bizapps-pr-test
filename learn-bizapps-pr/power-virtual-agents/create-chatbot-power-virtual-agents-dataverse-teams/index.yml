@@ -1,22 +1,22 @@
 ### YamlMime:Module 
 uid: learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams 
 metadata: 
- title: Create your first chatbot using Power Virtual Agents and Dataverse for Teams
- description: Learn how to create a chatbot with Teams.
+ title: Create a chatbot with Power Virtual Agents and Dataverse for Teams
+ description: Learn how to create your first chatbot by using Microsoft Power Virtual Agents and Microsoft Dataverse for Teams.
  ms.date: 04/16/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-virtual-agents  
-title: Create your first chatbot using Power Virtual Agents and Dataverse for Teams 
+title: Create a chatbot with Power Virtual Agents and Dataverse for Teams 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Employees who have quick access to information make better decisions, reduce errors, and save money.  Chatbots create a personalized experience that simplifies how employees get information.  Power Virtual Agents and Dataverse for Teams create intelligent chatbots to quickly respond to employee needs without building high code solutions. 
+  Employees who have quick access to information make better decisions, reduce errors, and save money. Chatbots create a personalized experience that simplifies how employees get information. Power Virtual Agents and Dataverse for Teams create intelligent chatbots to quickly respond to employee needs without building high-code solutions. 
 abstract: |  
-    By the end of this module, you will be able to: 
-    - Create a chatbot 
-    - Have the chatbot call Power Automate actions to retrieve data from Dataverse for Teams
-    - Publish the chatbot to your team or the whole company
+    In this module, you will: 
+    - Learn how to create a chatbot. 
+    - Discover how the chatbot can call Microsoft Power Automate actions to retrieve data from Dataverse for Teams.
+    - Publish the chatbot to your team or the whole company.
 prerequisites: None 
 iconUrl: /learn/achievements/create-chatbot-power-virtual-agents-dataverse-teams.svg  
 levels:  
