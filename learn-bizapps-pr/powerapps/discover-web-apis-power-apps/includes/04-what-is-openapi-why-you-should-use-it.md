@@ -42,7 +42,7 @@ To create a custom connector, you can use either Azure API Management or an Open
 
 The table below lists some comparisons between Azure API Management and OpenAPI for custom connectors.
 
-|     | Azure API Management | OpenAPI Document |
+|     | Azure API Management | OpenAPI document |
 | ---:|:---:|:---:|
 | API Control | Centralized | Distributed |
 | API Structure Layer | Complex | Simple |

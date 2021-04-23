@@ -1,7 +1,7 @@
 Maria now has a custom connector for a web API to use in her Power App application. But before she can use it, she needs to test it to make sure it runs as expected.
 
 
-## Testing the custom Connector ##
+## Testing the custom connector ##
 
 The last step of creating a custom connector is to check whether it works as expected. Power Apps Studio gives you the ability to test your connector. You can see the functionality in the screenshot below.
 
