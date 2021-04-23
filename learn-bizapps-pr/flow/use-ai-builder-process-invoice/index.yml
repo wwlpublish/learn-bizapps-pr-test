@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.use-ai-builder-process-invoice 
+metadata: 
+ title: Use AI Builder to process invoice forms
+ description: AI models take robotic process automation to the next level, allowing users to free up their time by having Power Automate perform more complex tasks.
+ ms.date: 04/23/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Use AI Builder to process invoice forms
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will show how to integrate AI builder into an existing API-based flow to facilitate a robust automated process.
+abstract: |  
+    In this module, you will: 
+    - Build a new AI model for form processing
+    - Train the new AI model to process Contoso Invoice forms
+    - Integrate the new AI model into an existing Cloud flow
+    - Perform a test run of the updated Cloud flow and associated AI builder-based predictions
+prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate. This module builds off the modules Build your first Power Automate Desktop UI flow Use input and output parameters, Create a Gateway to Desktop UI flow, and Integration with Outlook connector.
+iconUrl: /learn/achievements/use-ai-builder-process-invoice.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- business-user  
+products: 
+- power-platform
+- power-automate 
+units: 
+- learn-bizapps.use-ai-builder-process-invoice.1-introduction 
+- learn-bizapps.use-ai-builder-process-invoice.2-set-up 
+- learn-bizapps.use-ai-builder-process-invoice.3-form-process-flow 
+- learn-bizapps.use-ai-builder-process-invoice.4-model 
+- learn-bizapps.use-ai-builder-process-invoice.5-analyze-train-model 
+- learn-bizapps.use-ai-builder-process-invoice.6-integrate-model 
+- learn-bizapps.use-ai-builder-process-invoice.7-check 
+- learn-bizapps.use-ai-builder-process-invoice.8-summary 
+badge: 
+  uid: learn-bizapps.use-ai-builder-process-invoice.badge 
