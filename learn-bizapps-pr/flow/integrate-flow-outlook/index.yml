@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.integrate-flow-outlook 
+metadata: 
+ title: Integrate desktop flow with Outlook connector
+ description: Microsoft Power Automate Desktop-UI flows allow users to create robust robotic process automation. This includes the need to integrate more software such as Outlook into the automation process.
+ ms.date: 04/30/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Integrate desktop flow with Outlook connector 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will show how to build upon an existing gateway to integrate Outlook with a desktop-UI flow.
+abstract: |  
+    In this module, you will: 
+    - Create a new Solution to package the end-to-end invoice processing solution
+    - Create a new Cloud Flow that initiates the invoicing process via receipt of an email
+    - Integrate the Desktop Flow from Lab 3 into the Cloud Flow
+    - Perform a test run of the new Cloud Flow
+prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate. This module builds off the modules Build your first Power Automate Desktop UI flow Use input and output parameters, and Create a Gateway to Desktop UI flow. 
+iconUrl: /learn/achievements/integrate-flow-outlook.svg  
+levels:  
+- intermediate   
+roles:  
+- business-user   
+- maker 
+products:  
+- power-platform  
+- power-automate 
+units: 
+- learn-bizapps.integrate-flow-outlook.1-introduction 
+- learn-bizapps.integrate-flow-outlook.2-setup 
+- learn-bizapps.integrate-flow-outlook.3-cloud-flow 
+- learn-bizapps.integrate-flow-outlook.4-test-flow 
+- learn-bizapps.integrate-flow-outlook.5-check 
+- learn-bizapps.integrate-flow-outlook.6-summary 
+badge: 
+  uid: learn-bizapps.integrate-flow-outlook.badge 
