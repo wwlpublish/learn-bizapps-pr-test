@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.gateway-desktop-flow 
 metadata: 
- title: Connect a cloud flow to a desktop flow
- description: Gateways allow desktop flows to connect to other services and apply the robotic process automation to its fullest potential. Creating gateways will let users utilize other Microsoft products such as Outlook and Teams in their desktop flows and integrate new and legacy systems.
+ title: Connect a cloud flow to a desktop flow in Power Automate Desktop
+ description: Learn how to create cloud flows in Power Automate Desktop.
  ms.date: 04/30/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Connect a cloud flow to a desktop flow 
+title: Connect a cloud flow to a desktop flow in Power Automate Desktop
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Gateways allow Desktop flows to connect to other services and use robotic process automation to its fullest potential. This module focuses on using those gateways as a foundation for integrating additional technology with Cloud flows.
