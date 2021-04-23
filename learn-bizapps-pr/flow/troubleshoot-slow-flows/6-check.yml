@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 04/26/2021 
+ ms.date: 04/23/2021 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -19,10 +19,10 @@ quiz:
       isCorrect: false 
       explanation: There are scenarios where the flow runs successfully, however, you don't get the results you intended because of the flow. It's times like these where using the compose and variable actions helps.
     - content: Compose a value before setting it to a variable.
-      isCorrect: true 
+      isCorrect: false 
       explanation: There are scenarios where the flow runs successfully, however, you don't get the results you intended because of the flow. It's times like these where using the compose and variable actions helps.
     - content: View the value of an action to determine the data and format.
-      isCorrect: false 
+      isCorrect: true
       explanation: There are scenarios where the flow runs successfully, however, you don't get the results you intended because of the flow. It's times like these where using the compose and variable actions helps.
     - content: View the value of an action to determine if it's reusable.
       isCorrect: false 

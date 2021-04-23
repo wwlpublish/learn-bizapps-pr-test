@@ -2,7 +2,7 @@ There are scenarios where all the information provided in this document doesn't 
 
 Finally, file size can directly affect the overall flow performance. The larger the file size, the slower the flow will run.
 
-Links to related modules for specific topics
+Links to related modules:
 
 - [Limits for automated, scheduled, and instant flows](https://docs.microsoft.com/power-automate/limits-and-config/?azure-portal=true)
 - [SharePoint throttling limits](https://docs.microsoft.com/connectors/sharepointonline/?azure-portal=true#limits)
