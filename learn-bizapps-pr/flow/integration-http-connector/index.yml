@@ -2,7 +2,7 @@
 uid: learn-bizapps.integration-http-connector 
 metadata: 
  title: Power Automate Integration with SharePoint HTTP actions
- description: Have you ever wished you could directly connect to SharePoint and not be limited to the out-of-box actions that Power Automate provides? With the HTTP connector, you can do just that! This module will focus on how you can use the HTTP connector to make API calls to SharePoint directly.
+ description: Learn how to use HTTP actions to integrate SharePoint and Power Automate.
  ms.date: 04/30/2021  
  author: DaveBeasley  
  ms.author: dbeasley  

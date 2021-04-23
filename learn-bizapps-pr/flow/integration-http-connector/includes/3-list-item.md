@@ -10,7 +10,7 @@ We will use the **GET**, **POST**, and **DELETE** methods to make changes to a S
 
 ## Get item from SharePoint using GET
 
-The GET method allows you to leverage the REST API of SharePoint to find specific information. In this example, we can confirm if there a list name **location** in a SharePoint.
+The GET method allows you to use the REST API of SharePoint to find specific information. In this example, we can confirm if there a list name **location** in a SharePoint.
 
 The **Manually trigger a flow** simply triggers a flow without any input. The **Send an HTTP request to SharePoint** is the main action to gather the information we seek.
 
