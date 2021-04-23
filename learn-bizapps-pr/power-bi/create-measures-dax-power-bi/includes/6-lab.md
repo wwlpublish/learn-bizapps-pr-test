@@ -149,7 +149,7 @@ In this task, you'll create the **Salesperson** table (direct relationship to **
 
     The data model now provides two alternatives when analyzing salespeople. The **Salesperson** table allows you to analyze sales made by a salesperson, while the **Salesperson (Performance)** table allows you to analyze sales made in the sales region(s) assigned to the salesperson.
 
-### Task 2: Create the Date table
+### Task 3: Create the Date table
 
 In this task, you will create the **Date** table.
 

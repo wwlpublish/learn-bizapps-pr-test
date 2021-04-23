@@ -1,0 +1,48 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.build-app-dataverse-teams.06-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/16/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is the primary purpose of the hero template?
+    choices: 
+    - content: To help make it easier for you to have an app that allows you to list, create, edit, and delete records
+      isCorrect: true 
+      explanation: After you have defined your data source, the hero template will provide the needed components for a basic app. The hero template simplifies the process of having the necessary components so that your app can list, create, edit, and delete records.
+    - content: To give you a layout that is dynamic and compelling for the user
+      isCorrect: false 
+      explanation: The hero template provides a simple way to build a basic app, and it’s up to you to change the app to better meet your user and organizational needs.
+    - content: To go through the app-building process
+      isCorrect: false 
+      explanation: The hero template provides a simple way to build a basic app; it does not lead the user through a step-by-step process.
+  - content: What triggers Power Apps to automatically save every two minutes?
+    choices: 
+    - content: Creating a new app
+      isCorrect: false 
+      explanation: Creating a new app does not start the process of automatically saving every two minutes
+    - content: Selecting the Save button in the toolbar
+      isCorrect: true 
+      explanation: It’s a good idea to select the Save button after your data has been loaded into the hero template for the first time.  Only after you have selected the Save button will Power Apps start automatically saving changes every two minutes.
+    - content: Previewing the app
+      isCorrect: false 
+      explanation: Previewing the app does not start the process of automatically saving every two minutes
+  - content: By default, who can access a published Dataverse for Teams app?
+    choices: 
+    - content: Only the owner
+      isCorrect: false 
+      explanation: The owner is not the only person who can access a published app.
+    - content: Anyone on the team
+      isCorrect: true 
+      explanation: After the app has been published, all members of the team will have access to the app by default.
+    - content: Anyone in the organization
+      isCorrect: false 
+      explanation: The owner of the team must take other steps to share the app beyond the members of the team.
