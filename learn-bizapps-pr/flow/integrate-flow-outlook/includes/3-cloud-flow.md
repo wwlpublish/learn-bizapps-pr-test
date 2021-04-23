@@ -21,7 +21,7 @@ This is where we create and edit flows specific to this solution. To create a ne
 Rename your flow. The below flow has been named "Use Outlook email to trigger a Desktop flow" but you can choose whatever name you want. Search the actions to find **When a new email arrives (V3)**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the flow named and the action when a new email arrives (V3) selected.](../media/new-email.png)](../media/new-email.png#lightbox)
+> [![Screenshot of the flow named and the action of when a new email arrives (V3) selected.](../media/new-email.png)](../media/new-email.png#lightbox)
 
 Always use the latest version of the action you are seeking. This ensures you have access to any new features that have been released.
 
