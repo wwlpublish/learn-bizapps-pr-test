@@ -3,7 +3,7 @@ The SharePoint connector in Power Automate comes with a **Send an HTTP request t
 > [!div class="mx-imgBorder"]
 > [![Screenshot of SharePoint action to send an HTTP request to SharePoint.](../media/image-1.png)](../media/image-1.png#lightbox)
 
-We will use the **GET**, **POST, and **DELETE** methods to make changes to a SharePoint list.
+We will use the **GET**, **POST**, and **DELETE** methods to make changes to a SharePoint list.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of methods available to make changes to a SharePoint list.](../media/image-2.png)](../media/image-2.png#lightbox)
@@ -14,7 +14,7 @@ The GET method allows you to leverage the REST API of SharePoint to find specifi
 
 The **Manually trigger a flow** simply triggers a flow without any input. The **Send an HTTP request to SharePoint** is the main action to gather the information we seek.
 
-**Site Address, Method, Uri, and **Headers** are the required fields.
+**Site Address, Method, Uri, and Headers** are the required fields.
 
 In this example, we were able to **GET** the information of a specific item.
 
