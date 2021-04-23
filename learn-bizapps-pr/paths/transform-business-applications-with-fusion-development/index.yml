@@ -37,4 +37,4 @@ modules:
 - learn.azure.integrate-openapi-enabled-web-api-with-apim-and-visual-studio
 - learn-bizapps.powerapps.discover-web-apis-power-apps
 trophy:
-  uid: learn.transform-with-fusion-development.trophy
+  uid: learn-bizapps.transform-with-fusion-development.trophy
