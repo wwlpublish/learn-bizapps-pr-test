@@ -18,7 +18,7 @@ You also have a filtered version of total sales, where you're evaluating the tot
 `Airplane Sales = CALCULATE( [Total Sales], 'Product Details'[ItemGroup] = "Airplane" )`
 
 > [!TIP]
-> CORRELATING TO TABLEAU: The following snippet of code shows how you would make the same calculation in Tableau: `Airplane Sales = IF [ItemGroup] = "Airplane" THEN SUM([Sales Amount] ELSE 0 END`
+> CORRELATING TO TABLEAU: The following snippet of code shows how you would make the same calculation in Tableau: `Airplane Sales = IF [ItemGroup] = "Airplane" THEN SUM([Sales Amount] ELSE 0 END)`
 
 ## Ignore a filter with CALCULATE
 

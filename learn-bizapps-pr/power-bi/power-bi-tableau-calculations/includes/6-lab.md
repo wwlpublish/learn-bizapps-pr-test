@@ -26,7 +26,7 @@ In this task, you'll create a new column using two different tables.
 
 1. Create a measure titled **Sales Amount**.
 
-1. Use the DAX formula **SUMX** and the **UnitPrice, DiscountAmount, and Quantity** fields from the **Sales** table to create an amount for the total sale.
+1. Use the DAX formula **SUMX** and the **UnitPrice**, **DiscountAmount**, and **Quantity** fields from the **Sales** table to create an amount for the total sale.
 
     > [!TIP]
     > The Amount is the Unit Price minus the Discount and then multiplied by the Quantity.
@@ -35,7 +35,7 @@ In this task, you'll create a new column using two different tables.
 
 1. Create a measure titled **Discount %** in the **Sales** table.
 
-1. Using the DAX formula **DIVIDE**, use the Discount Amount and **Unit Price** fields from the **Sales** table to create a ratio of the two demonstrating the percentage that is discounted off of the original unit price.
+1. Using the DAX formula **DIVIDE**, use the Discount Amount and **Unit Price** fields from the **Sales** table to create a ratio of the two demonstrating the percentage that is discounted from the original unit price.
 
 ## Task 4: Calculate the Change in Sales Amount Year over Year
 
@@ -83,7 +83,7 @@ How can you create a measure to control Sales to calculate only for a specific t
 
     This uses the two previously created variables to set our date limits.
 
-1. Lastly, create the **RETURN** where **CALCULATE(dbo_Sales[Sales Amount],IncludeDates)**
+1. Lastly, create the **RETURN** where **CALCULATE(Sales[Sales Amount],IncludeDates)**
 
 1. The end measure should look like this:
 
