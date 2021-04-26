@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.use-teams-connector 
 metadata: 
- title: Use the Teams connector
+ title: Use the Teams connector in Power Automate
  description: A fully automated process ties together many concepts and capabilities in Power Automate. This module allows users to bring those concepts together to build a robust automation involving multiple programs.
  ms.date: 04/27/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Use the Teams connector
+title: Use the Teams connector in Power Automate
 summary: |  
   [!include[](../includes/module-banner.md)] 
   A fully automated process ties together many concepts and capabilities in Power Automate. This module allows users to bring those concepts together to build a robust automation involving multiple programs.
