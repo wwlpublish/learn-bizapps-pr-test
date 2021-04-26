@@ -3,7 +3,7 @@ uid: learn-bizapps.build-custom-connectors
 metadata:
   title: Build custom connectors for Power Automate
   description: Learn how you to build custom connectors for Power Automate
-  ms.date:  03/12/2021
+  ms.date: 03/12/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -31,6 +31,7 @@ modules:
 - learn-bizapps.open-source-connectors
 - learn-bizapps.policy-templates-custom-connectors 
 - learn-bizapps.custom-connectors-open-api
+- learn-bizapps.custom-connector-lifecycle-management
 trophy:
   uid: learn.build-custom-connectors.trophy
 

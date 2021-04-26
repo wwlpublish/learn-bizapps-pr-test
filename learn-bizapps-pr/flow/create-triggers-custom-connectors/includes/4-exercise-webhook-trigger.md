@@ -4,7 +4,7 @@ In this exercise, you'll add a webhook trigger to the custom connector for an ex
 > Use a test environment with Microsoft Dataverse provisioned. If you don't have one, you can sign up for the [community plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true).
 
 > [!NOTE]
-> Download the following file to your local computer to complete this exercise [Contoso Invoicing Triggers](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-connectors/ContosoInvoicingTriggers_1_0_0_0.zip). Select the download button on the middle-right of the screen.
+> Download the following file to your local computer to complete this exercise [Contoso Invoicing Triggers](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-connectors/webhook/ContosoInvoicingTriggers_1_0_0_0.zip). Select the download button on the middle-right of the screen.
 
 ## Task 1: Import a solution with the custom connector
 

@@ -9,7 +9,7 @@ In this exercise, you'll add a polling trigger to the custom connector for an ex
 > You can continue using the connector that you created and modified in **Unit 4: Implement a webhook trigger**. If you completed that exercise, you can skip ahead to **Task 2**.
 
 > [!NOTE]
-> Download the following file to your local computer to complete this exercise [Contoso Invoicing Triggers](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-connectors/ContosoInvoicingTriggers_1_0_0_0.zip). Select the download button on the middle-right of the screen.
+> Download the following file to your local computer to complete this exercise [Contoso Invoicing Triggers](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-connectors/polling/ContosoInvoicingTriggers_1_0_0_0.zip). Select the download button on the middle-right of the screen.
 
 In this task, you will import an unmanaged solution that contains a prebuilt custom connector for Contoso Invoicing API.
 
