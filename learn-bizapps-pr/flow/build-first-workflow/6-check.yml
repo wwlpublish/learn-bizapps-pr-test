@@ -37,13 +37,13 @@ quiz:
       explanation: Incorrect. Use scheduled flows for workflows that run on a set schedule.
   - content: What is the default length of time Dataverse for Teams stores a flow's runs history before deleting it?
     choices: 
-    - content: 14 Days
+    - content: 14 days
       isCorrect: false 
       explanation: Incorrect. Dataverse for Teams keeps flow run history longer than 14 days by default.
-    - content: 28 Days
+    - content: 28 days
       isCorrect: true 
       explanation: Correct. Dataverse for Teams keeps flow run history for 28 days by default.
-    - content: 30 Days
+    - content: 30 days
       isCorrect: false 
       explanation: Incorrect. Dataverse for Teams deletes flow run history before 30 days by default.
     - content: 90 days
