@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.build-first-workflow.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/26/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which application builds Power Automate flows stored in a Dataverse for Teams environment?
+    choices: 
+    - content: Power Automate for Teams
+      isCorrect: false 
+      explanation: Incorrect. Power Automate for Teams stores flows in the default environment and not in Dataverse for Teams.
+    - content: Power Virtual Agent for Teams
+      isCorrect: false 
+      explanation: Incorrect. Power Virtual Agent for Teams doesn't create flows.
+    - content: Power Apps for Teams
+      isCorrect: true 
+      explanation: Correct. Power Apps for Teams creates flows stored in the Dataverse for Teams environment associated with a Team.
+  - content: What is the best way to configure a flow to run on Tuesday and Thursday each week?
+    choices: 
+    - content: Create a scheduled flow, set to repeat each week, and then enable Tuesday and Thursday.
+      isCorrect: true 
+      explanation: Correct. You can specify the days of the week when setting the schedule in weeks.
+    - content: Create two scheduled flows, schedule each flow with a different start date and then set to repeat in seven days.
+      isCorrect: false 
+      explanation: Incorrect. it's easier to create one flow and then configure the desired days of the week.
+    - content: Create an automated flow that triggers based on a specific calendar entry.
+      isCorrect: false 
+      explanation: Incorrect. Use scheduled flows for workflows that run on a set schedule.
+  - content: What is the default length of time Dataverse for Teams stores a flow's runs history before deleting it?
+    choices: 
+    - content: 14 Days
+      isCorrect: false 
+      explanation: Incorrect. Dataverse for Teams keeps flow run history longer than 14 days by default.
+    - content: 28 Days
+      isCorrect: true 
+      explanation: Correct. Dataverse for Teams keeps flow run history for 28 days by default.
+    - content: 30 Days
+      isCorrect: false 
+      explanation: Incorrect. Dataverse for Teams deletes flow run history before 30 days by default.
+    - content: 90 days
+      isCorrect: false 
+      explanation: Incorrect. Dataverse for Teams deletes flow run history before 90 days by default.
