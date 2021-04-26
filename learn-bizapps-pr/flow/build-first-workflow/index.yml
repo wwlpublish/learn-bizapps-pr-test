@@ -3,7 +3,7 @@ uid: learn-bizapps.build-first-workflow
 metadata: 
  title: Build your first workflow using Power Automate and Dataverse for Teams
  description: Bring automation and workflows to Microsoft Teams by using Power Automate and Dataverse for Teams.
- ms.date: 04/30/2021  
+ ms.date: 04/26/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -11,7 +11,7 @@ metadata:
 title: Build your first workflow using Power Automate and Dataverse for Teams
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  By leveraging automated and scheduled flows you can build powerful workflows inside of Microsoft Teams and increase productivity in your Teams work.
+  By using automated and scheduled flows you can build powerful workflows inside of Microsoft Teams and increase productivity in your Teams work.
 abstract: |  
     In this module, you'll: 
     - Build a flow to respond to changes in Teams.

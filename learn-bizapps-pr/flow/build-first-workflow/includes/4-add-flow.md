@@ -40,14 +40,14 @@ The key feature that makes this so powerful is that any needed information is pa
 
 1. Select **Create a new flow** and the Power Automate editor will launch in a web browser.
 
-1. Give your flow a new name by selecting **Untitled** then typing in **PowerApps to Teams Message**.
+1. Give your flow a new name by selecting **Untitled** then typing in **Power Apps to Teams Message**.
 
-   Type in **PowerApps** in the search field and select **PowerApps** in the **Triggers** section.
+   Type in **Power Apps** in the search field and select **Power Apps** in the **Triggers** section.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the PowerApps trigger in the search results.](../media/image-16.png)](../media/image-16.png#lightbox)
 
-1. The flow is now editable. It only has PowerApps defined as the trigger. To add an action, select **New Step**.
+1. The flow is now editable. It only has Power Apps defined as the trigger. To add an action, select **New Step**.
 
 1. Type in **Teams** in the search then scroll down under **Actions** and select **Post a message (V3) (preview).**
 
@@ -56,17 +56,17 @@ The key feature that makes this so powerful is that any needed information is pa
 
 1. Select the **Team** and **Channel** that you want the message to be sent to.
 
-1. The Team message will be provided by the Power App when it's triggered. Select in the **Message** text box and then select **Ask in PowerApps** as the dynamic content.
+1. The Team message will be provided by the Power App when it's triggered. Select in the **Message** text box and then select **Ask in Power Apps** as the dynamic content.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Post a message action with dynamic content for the Message field set to Ask in PowerApps.](../media/image-18.png)](../media/image-18.png#lightbox)
 
-1. When **Ask in PowerApps** was selected as the dynamic content for the message, it automatically created a variable and gave it a name. Select **Save** at the end of the flow.
+1. When **Ask in Power Apps** was selected as the dynamic content for the message, it automatically created a variable and gave it a name. Select **Save** at the end of the flow.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the completed flow with the Save button highlighted.](../media/image-19.png)](../media/image-19.png#lightbox)
 
-1. With the flow saved, switch back to the Power App app editor that you started in. The new flow should appear in the PowerApp editor under the **Data** pop out. If for some reason that window is closed, select Button1 and check that **On select** is selected in the pull-down. Select the ellipsis menu and select **Power Automate.** Select the flow to continue.
+1. With the flow saved, switch back to the Power App app editor that you started in. The new flow should appear in the Power App editor under the **Data** pop out. If for some reason that window is closed, select Button1 and check that **On select** is selected in the pull-down. Select the ellipsis menu and select **Power Automate.** Select the flow to continue.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Power Apps with OnSelect, Power Automate, and PowerApps to Teams Message highlighted.](../media/image-20.png)](../media/image-20.png#lightbox)
@@ -98,9 +98,9 @@ Before publishing any application to **Teams,** you can test it by selecting **P
 
 1. In the Power Apps editor, close preview mode by selecting the **X icon** or pressing **ESC**. As this is just a test application, we'll not publish it to Teams.
 
-If you need to edit a flow you have connected to PowerApps:
+If you need to edit a flow, you have connected to Power Apps:
 
-1. Open the PowerApps App in Teams.
+1. Open the Power Apps App in Teams.
 
 1. Select the **Build** menu.
 

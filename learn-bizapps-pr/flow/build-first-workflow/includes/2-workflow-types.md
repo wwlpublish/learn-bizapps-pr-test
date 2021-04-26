@@ -6,7 +6,7 @@ Sometimes you have tasks that need to be performed when certain events happen. W
 
 - When an item in a Teams list is modified, send an email
 
-- Create a task in Planner based on an Office 365 Outlook calendar event
+- Create a task in Planner based on an Microsoft 365 Outlook calendar event
 
 - Start an approval for new documents in Teams
 

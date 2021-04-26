@@ -12,11 +12,11 @@ It's time to create your first flow using Dataverse for Teams. For this example,
    > [!div class="mx-imgBorder"]
    > [![Screenshot of Microsoft Teams Built by this team tab with See all highlighted.](../media/image-1.png)](../media/image-1.png#lightbox)
 
-1. Select **Cloud Flows** on the left to view any existing flows. To create a new automated flow, click **+ New** > **Cloud flow** > **Automated**.
+1. Select **Cloud Flows** on the left to view any existing flows. To create a new automated flow, select **+ New** > **Cloud flow** > **Automated**.
 
 1. Type in a name for the flow under **Flow name**.
 
-1. For **"Choose your Flow's trigger**, scroll or search for **When a new channel message is added**. Select the trigger and click **Create** to continue.
+1. For **"Choose your Flow's trigger**, scroll or search for **When a new channel message is added**. Select the trigger and select **Create** to continue.
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Build an automated cloud flow dialog.](../media/image-2.png)](../media/image-2.png#lightbox)
@@ -41,7 +41,7 @@ We want to search the subject of the messages to see if they have the word "task
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Condition action with Message contains task.](../media/image-4.png)](../media/image-4.png#lightbox)
 
-Now when the **Message subject** contains "task" it will perform actions in the **If yes** area. The conditions in Power Automate are case sensitive so we'll need to add a few more conditions to detect common variations like "Task" and "TASK". Select **+ Add** then **+ Add Row.**
+Now when the **Message subject** contains "task" it will perform actions in the **If yes** area. The conditions in Power Automate are case-sensitive so we'll need to add a few more conditions to detect common variations like "Task" and "TASK". Select **+ Add** then **+ Add Row.**
 
 A new selection will appear at the top of the Condition window to switch between **And** and **Or** statements.
 
@@ -49,12 +49,12 @@ A new selection will appear at the top of the Condition window to switch between
 
 **Or** - Only one of the conditions must be true
 
-Change the selection to **Or** and then fill out the additional conditions for detect **"Task"** and **"Tasks"**. For each new row use **Message subject** from dynamic content and set the condition to **contains**. Select **+ Add** to add more rows.
+Change the selection to **Or** and then fill out the other conditions for detect **"Task"** and **"Tasks"**. For each new row use **Message subject** from dynamic content and set the condition to **contains**. Select **+ Add** to add more rows.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Condition action with three Or rows.](../media/image-5.png)](../media/image-5.png#lightbox)
 
-The condition action gives us two additional areas. If the condition is true, then we want a new Planner task created. No actions are needed if the condition is false so there is nothing more needed in the **If no** condition.
+The condition action gives us two other areas. If the condition is true, then we want a new Planner task created. No actions are needed if the condition is false so there is nothing more needed in the **If no** condition.
 
 For the **If yes** condition box, select **Add an action**.
 
