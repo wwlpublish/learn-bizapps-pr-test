@@ -26,5 +26,6 @@ modules:
 - learn-bizapps.build-first-desktop-flow
 - learn-bizapps.input-parameters
 - learn-bizapps.integrate-flow-outlook
+- learn-bizapps.gateway-desktop-flow 
 trophy: 
   uid: learn-bizapps.work-automation-flow.trophy

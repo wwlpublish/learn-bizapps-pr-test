@@ -27,18 +27,18 @@ quiz:
     - content: Power Chatbots for Teams
       isCorrect: false 
       explanation: Only Power Virtual Agents for Teams can create and manage chatbots in Dataverse for Teams.
-  - content: You have a new chatbot that you want your team to start using. Everybody on your team is already a member of the Team associated with the chatbot. How do you share out the chatbot so they can install it from the Built by your colleagues section in Teams?
+  - content: You have a new chatbot that you want your team to start using. Everyone on your team is already a member of the team that is associated with the chatbot. How do you share the chatbot so they can install it from the Built by your colleagues section in Teams?
     choices: 
-    - content: Since the chatbot is already associated with the Team, provide the shared link for the chatbot.
+    - content: Because the chatbot is already associated with the team, you should provide the shared link for the chatbot.
       isCorrect: false
       explanation: The chatbot shared link doesn't add the chatbot to the Built by your colleagues section in Teams.
-    - content: Publish the chatbot then select Add to Teams when sharing the chatbot using Power Virtual Agents for Teams.
+    - content: Publish the chatbot and then select Add to Teams when you are sharing the chatbot by using Power Virtual Agents for Teams.
       isCorrect: true 
       explanation: Adding to Teams will allow team members to install the chatbot from the Built by your colleagues section in Teams.
-    - content: Add the team members to the security group associated with the chatbot.
+    - content: Add the team members to the security group that is associated with the chatbot.
       isCorrect: false 
-      explanation: You cannot associate a security group with a chatbot. You can only provide access to the chatbot to the team associated with the chatbot and if needed, to the rest of the organization.
-    - content: Submit the chatbot for admin approval after publishing the app in Power Virtual Agents for Teams.
+      explanation: You can't associate a security group with a chatbot. You can only provide access to the chatbot to the team that is associated with the chatbot and, if needed, to the rest of the organization.
+    - content: Submit the chatbot for admin approval after you publish the app in Power Virtual Agents for Teams.
       isCorrect: false 
       explanation: Submit for admin approval is for requesting the chatbot to be published to the entire organization.
   - content: Which is a type of conversation node that does not exist?
@@ -51,7 +51,7 @@ quiz:
       explanation: Condition nodes are used for branching logic.
     - content: Make a Decision
       isCorrect: true  
-      explanation: There is no such conversation node named Make a decision.
+      explanation: No such conversation node named Make a decision exists.
     - content: Show a Message
       isCorrect: false 
       explanation: Message nodes respond to the user with information.
@@ -60,4 +60,4 @@ quiz:
       explanation: Survey nodes cause a survey to appear when the conversation ends.
     - content: Call an action
       isCorrect: false 
-      explanation: Action nodes call Power Automate Flows.
+      explanation: Action nodes call Power Automate flows.
