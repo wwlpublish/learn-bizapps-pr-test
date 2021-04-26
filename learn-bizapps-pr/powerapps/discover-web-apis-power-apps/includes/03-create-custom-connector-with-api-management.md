@@ -49,30 +49,6 @@ You need to create a connection to the custom connector in order to use it. Gene
 
     :::image type="content" source="../media/03-create-custom-connector-with-api-management-07.png" alt-text="New Custom Connector":::
 
-1. When a pop-up modal shows up, you will only see two buttons &ndash; `Cancel` and `Create`. You need to enable an API key field before creating the connection. Close the modal by clicking the `Cancel` button.
-
-    :::image type="content" source="../media/03-create-custom-connector-with-api-management-08.png" alt-text="New Custom Connector Pop-up Modal with No Subscription Key":::
-
-1. This time, click the `🖋` button on the right-hand side to update the connector.
-
-    :::image type="content" source="../media/03-create-custom-connector-with-api-management-09.png" alt-text="Update Custom Connector":::
-
-1. Click the `2. Security` tab, and you will see all fields are greyed out, which are unmodifiable.
-
-    :::image type="content" source="../media/03-create-custom-connector-with-api-management-10.png" alt-text="Custom Connector Security Tab Fields Unmodifiable":::
-
-1. Click either the `🖋 Edit` button, and you will see all the fields become modifiable. Then click the `Definition →` button at the right bottom corner.
-
-    :::image type="content" source="../media/03-create-custom-connector-with-api-management-11.png" alt-text="Custom Connector Security Tab Fields Modifiable":::
-
-1. At the `Definition` tab, leave everything unchanged and click the `✅ Update connector` button on the right-hand side. Once the custom connector is updated, you will see the message, `✅ Custom connector has been successfully updated` at the top of the screen.
-
-    :::image type="content" source="../media/03-create-custom-connector-with-api-management-12.png" alt-text="Custom Connector Definition Tab":::
-
-1. Go back to the `Custom Connectors` menu and click the `➕` button on the right-hand side again.
-
-    :::image type="content" source="../media/03-create-custom-connector-with-api-management-07.png" alt-text="New Custom Connector Ready":::
-
 1. When a pop-up modal shows up, you will see the API Key field enabled. Enter the API key copied at the beginning of this unit. Then click the `Create` button.
 
     :::image type="content" source="../media/03-create-custom-connector-with-api-management-13.png" alt-text="New Custom Connector Pop-up Modal":::
@@ -82,7 +58,6 @@ You need to create a connection to the custom connector in order to use it. Gene
     :::image type="content" source="../media/03-create-custom-connector-with-api-management-14.png" alt-text="New Connection":::
 
 You have completed creating a custom connector for inventory management.
-
 
 [az apim]: https://docs.microsoft.com/azure/api-management/api-management-key-concepts
 [az cli install]: https://docs.microsoft.com/cli/azure/install-azure-cli
