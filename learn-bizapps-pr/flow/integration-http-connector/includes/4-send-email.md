@@ -11,4 +11,4 @@ You can also create flows that send email notifications directly from `SharePoin
 
 The following video shows an email notification that is sent directly from SharePoint when a list in the site is used to reserve conference rooms for meetings.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWCP6W]
