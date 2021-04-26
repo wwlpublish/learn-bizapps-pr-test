@@ -45,9 +45,9 @@ Now when the **Message subject** contains "task" it will perform actions in the 
 
 A new selection will appear at the top of the Condition window to switch between **And** and **Or** statements.
 
-**And** - All conditions must be true
+- **And** - All conditions must be true
 
-**Or** - Only one of the conditions must be true
+- **Or** - Only one of the conditions must be true
 
 Change the selection to **Or** and then fill out the other conditions for detect **"Task"** and **"Tasks"**. For each new row use **Message subject** from dynamic content and set the condition to **contains**. Select **+ Add** to add more rows.
 
