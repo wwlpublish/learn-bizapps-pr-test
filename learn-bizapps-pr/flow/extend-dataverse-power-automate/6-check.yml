@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.extend-dataverse-power-automate.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/27/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What does scope mean?
+    choices: 
+    - content: The scope determines which records a trigger responds to.
+      isCorrect: true 
+      explanation: Correct! Depending on the owner of the record and the scope, the trigger may or may not be activated.
+    - content: A scope is a bucket to help organize tables, flows, apps, and more.
+      isCorrect: false 
+      explanation: Incorrect. That would be an environment.
+    - content: Scope is another word for table.
+      isCorrect: false 
+      explanation: Incorrect. That would be an entity.
+    - content: Scope determines the audience of a flow.
+      isCorrect: false 
+      explanation: Incorrect. Scope is specific to Dataverse triggers.
+  - content: When given multiple versions of actions within Power Automate, which version should you typically select?
+    choices: 
+    - content: The version just before the newest, in case there are bugs in the newest version.
+      isCorrect: false 
+      explanation: Incorrect. Using the newest version ensures that you have all of the up-to-date features. All actions that are generally available (not in preview) have already gone through testing.
+    - content: The newest version to ensure that you're getting all the latest features.
+      isCorrect: true 
+      explanation: Correct. Using the newest version ensures that you have all of the up-to-date features.
+    - content: The oldest version since it's likely to be simple and basic.
+      isCorrect: false 
+      explanation: Incorrect. The oldest version will likely lack functionality that would be useful for maximizing the efficacy of your solution.
+    - content: Research the versions before selecting and pick which is best for you.
+      isCorrect: false 
+      explanation: Incorrect. The newer versions will nearly always be the best choice for you and it's not worthwhile to research every version while building a solution.
+  - content: What tells the flow what to do?
+    choices: 
+    - content: Triggers
+      isCorrect: false 
+      explanation: Incorrect. The trigger tells the flow when to run.
+    - content: Environment
+      isCorrect: false 
+      explanation: Incorrect. Environments organize apps, tables, flows, and more in an organization.
+    - content: Scope
+      isCorrect: false 
+      explanation: Incorrect. The scope determines whether a record will activate a trigger. Depending on the owner of the record and the scope, the trigger may or may not be activated.
+    - content: Actions
+      isCorrect: true 
+      explanation: Correct! Actions are performed by the flow after being triggered.
