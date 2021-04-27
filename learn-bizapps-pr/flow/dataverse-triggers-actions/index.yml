@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.dataverse-triggers-actions 
+metadata: 
+ title: Use Dataverse triggers and actions in Power Automate
+ description: Dataverse usability can be extended by integrating with Power Automate to reduce or eliminate any repetitive business processes.
+ ms.date: 04/30/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Use Dataverse triggers and actions in Power Automate 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module will focus on introducing the triggers and actions you can use to build flows in Power Automate with Dataverse. 
+abstract: |  
+    In this module, you will: 
+    - Become familiar with Dataverse triggers in Power Automate
+    - Become familiar with Dataverse actions in Power Automate
+    - Understand additional inputs available
+prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate and Dataverse. 
+iconUrl: /learn/achievements/dataverse-triggers-actions.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+products:  
+- power-platform  
+- power-automate 
+units: 
+- learn-bizapps.dataverse-triggers-actions.1-introduction 
+- learn-bizapps.dataverse-triggers-actions.2-dataverse-triggers 
+- learn-bizapps.dataverse-triggers-actions.3-use-triggers 
+- learn-bizapps.dataverse-triggers-actions.4-dataverse-actions 
+- learn-bizapps.dataverse-triggers-actions.5-check 
+- learn-bizapps.dataverse-triggers-actions.6-summary 
+badge: 
+  uid: learn-bizapps.dataverse-triggers-actions.badge 
