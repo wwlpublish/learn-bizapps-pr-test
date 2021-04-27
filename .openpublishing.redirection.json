@@ -1,6 +1,46 @@
 ﻿{
   "redirections": [
     {
+      "source_path": "learn-bizapps-pr/wwl-power-automate/index.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/work-automation-flow/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/wwl-power-automate/1-introduction.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/work-automation-flow/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/wwl-power-automate/2-create-basic-flow-route-invoice-teams-channel.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/work-automation-flow/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/wwl-power-automate/3-use-automatically-parse-information-offload-invoice-processing.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/work-automation-flow/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/wwl-power-automate/4-use-power-automate-automate-routing-approval-process.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/work-automation-flow/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/wwl-power-automate/5-use-ui-automation-enter-information-legacy-application.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/work-automation-flow/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/wwl-power-automate/6-knowledge-check.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/work-automation-flow/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/wwl-power-automate/7-summary-resources.md",
+      "redirect_url": "https://docs.microsoft.com/learn/paths/work-automation-flow/",
+      "redirect_document_id⁯": false
+    },
+    {
       "source_path": "learn-bizapps-pr/flow/manage-solutions-power-automate/5-improve-solution-life-cycle.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/manage-solutions-power-automate/",
       "redirect_document_id⁯": false
