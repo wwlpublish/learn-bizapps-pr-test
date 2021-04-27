@@ -28,7 +28,8 @@ products:
 - common-data-service
 modules:
 - learn-bizapps.get-started-dataverse-teams 
-- learn-bizapps.build-app-dataverse-teams 
+- learn-bizapps.build-app-dataverse-teams
+- learn-bizapps.build-first-workflow
 - learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams 
 trophy: 
   uid: learn-bizapps.work-power-platform-teams.trophy
