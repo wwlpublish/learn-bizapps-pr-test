@@ -2,7 +2,7 @@
 uid: learn-bizapps.use-teams-connector 
 metadata: 
  title: Use the Teams connector in Power Automate
- description: A fully automated process ties together many concepts and capabilities in Power Automate. This module allows users to bring those concepts together to build a robust automation involving multiple programs.
+ description: Learn how to use the Teams connector with Power Automate.
  ms.date: 04/27/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -18,7 +18,7 @@ abstract: |
     - Integrate the Desktop flow for entering the invoice information into the approval process
     - Integrate Outlook-based approval/rejection notifications into the invoice process
     - Perform a test of the end-to-end invoice processing Cloud flow
-prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate. This module builds off the modules Build your first Power Automate Desktop flow Use input and output parameters, Create a Gateway to Desktop flow, Integration with Outlook connector, and Use AI builder to process invoice forms.
+prerequisites: A basic understanding of Microsoft Power Automate. This module builds off the modules, Build your first Power Automate Desktop flow Use input and output parameters, Create a Gateway to Desktop flow, Integration with Outlook connector, and Use AI builder to process invoice forms.
 iconUrl: /learn/achievements/use-teams-connector.svg  
 levels:  
 - intermediate   
