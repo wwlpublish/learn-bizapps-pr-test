@@ -22,7 +22,7 @@ If you have not already configured your gateway connection, use the dropdown und
 
 If you don't see your gateway, you may need to delete this step and recreate it in order to refresh the list. If your gateway still does not appear, you may need to restart the gateway on your PC and retry.
 
-The next two fields request your credentials to log into your computer. If you are unsure what to put in the Domain and username field, you can open a Command Prompt window by opening Start, typing CMD and pressing enter. Once the command prompt opens, type "Set user" and press Enter.
+The next two fields request your credentials to log into your computer. If you are unsure what to put in the Domain and username field, you can open a Command Prompt window by opening Start, typing CMD and pressing enter. Once the command prompt opens, type **Set user** and press Enter.
 
 Several lines of code will appear. Take the user domain and the username and separate them by a backward slash as seen below. Select **Create**.
 

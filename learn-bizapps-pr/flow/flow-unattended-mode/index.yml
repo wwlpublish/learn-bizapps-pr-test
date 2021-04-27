@@ -2,8 +2,8 @@
 uid: learn-bizapps.flow-unattended-mode 
 metadata: 
  title: Run Power Automate Desktop flow in unattended mode
- description: The final step to robotic process automation is allowing flows to run unattended. With unattended RPA everything is fully automated so you're able to schedule and trigger events of high volume tasks with no users logged in. This module builds upon existing modules to create a complete and robust solution.
- ms.date: 04/30/2021  
+ description: Learn how to run an unattended Power Automate Desktop flow.
+ ms.date: 04/27/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -11,13 +11,13 @@ metadata:
 title: Run Power Automate Desktop flow in unattended mode 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  When building out robotic process automation, one can't man the flow always. This module will demonstrate the solution for this by allowing you to run your UI and API flows unattended. 
+  When building out robotic process automation, one can't always monitor the flow. This module will demonstrate the solution for this by allowing you to run your UI and API flows unattended. 
 abstract: |  
     In this module, you will: 
     - Run a basic desktop flow in unattended mode
     - Run a desktop flow + cloud flow scenario in unattended mode
     - Learn best practices and setup for unattended desktop flows
-prerequisites: You'll need to have a paid unattended RPA license to do the following exercises. There is no unattended trial licensing. The Target Audience should have a basic understanding of Microsoft Power Automate. This module builds off the modules Build your first Power Automate Desktop UI flow Use input and output parameters, Create a Gateway to Desktop UI flow, Integration with Outlook connector, Use AI builder to process invoice forms, and Use Teams connector and adaptive cards. 
+prerequisites: You'll need to have a paid unattended RPA license to do the following exercises. There is no unattended trial licensing. The Target Audience should have a basic understanding of Microsoft Power Automate. This module builds off the modules, Build your first Power Automate Desktop UI flow Use input and output parameters, Create a Gateway to Desktop UI flow, Integration with Outlook connector, Use AI builder to process invoice forms, and Use Teams connector and adaptive cards. 
 iconUrl: /learn/achievements/flow-unattended-mode.svg  
 levels:  
 - intermediate   

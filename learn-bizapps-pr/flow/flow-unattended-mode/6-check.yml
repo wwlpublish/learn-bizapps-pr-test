@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 04/30/2021 
+ ms.date: 04/27/2021 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -26,7 +26,7 @@ quiz:
       explanation: Using multiple accounts to create and run unattended desktop flows allows you to run more flows simultaneously on the same device.
     - content: Setting up a cluster of devices on which the flows can run.
       isCorrect: false 
-      explanation: Setting up a cluster of devices helps to prevent time out on your flows by allowing you to run multiple unattended desktop flows simultaneously.
+      explanation: Setting up a cluster of devices helps to prevent time out on your flows by allowing you to run multiple unattended desktops flows simultaneously.
   - content: Which of the following is true regarding unattended desktop flows?
     choices: 
     - content: Desktop flows can be queued indefinitely.

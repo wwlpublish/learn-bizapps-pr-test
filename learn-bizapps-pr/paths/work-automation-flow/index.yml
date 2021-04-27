@@ -28,6 +28,7 @@ modules:
 - learn-bizapps.integrate-flow-outlook
 - learn-bizapps.gateway-desktop-flow 
 - learn-bizapps.use-ai-builder-process-invoice
-- learn-bizapps.use-teams-connector 
+- learn-bizapps.use-teams-connector
+- learn-bizapps.flow-unattended-mode
 trophy: 
   uid: learn-bizapps.work-automation-flow.trophy
