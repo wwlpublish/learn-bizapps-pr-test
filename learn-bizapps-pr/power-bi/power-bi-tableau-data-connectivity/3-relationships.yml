@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-tableau-data-connectivity.3-relationships 
+title: Relationships
+metadata: 
+  title: Relationships
+  description: Learn about relationships that allow users to query data from multiple tables.
+  ms.date: 03/30/2021 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 4
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-relationships.md)] 
