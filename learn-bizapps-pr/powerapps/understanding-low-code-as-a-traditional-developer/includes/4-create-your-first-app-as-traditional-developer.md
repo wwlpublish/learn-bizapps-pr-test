@@ -9,7 +9,7 @@ There are hundreds of data connectors that Power Apps can connect to out of the 
 
 To connect to a data source, use the following procedure: 
 
-1. Download the [Flooring Inventory workbook](https://az787822.vo.msecnd.net/documentation/get-started-from-data/FlooringInventory.xlsx) and save it to OneDrive for Business.
+1. Download the [Flooring Inventory workbook](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/understand-low-code/FlooringInventory.xlsx) and save it to OneDrive for Business.
 
 1. Go to [https://make.powerapps.com](https://make.powerapps.com) and sign in with your organizational account.
 
