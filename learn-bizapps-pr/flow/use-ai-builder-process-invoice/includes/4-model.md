@@ -17,7 +17,7 @@ For this example, we'll rename the collection to Contoso and add five invoice do
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power Automate with Contoso selected and the Add documents button highlighted.](../media/6-select-data-source.png)](../media/6-select-data-source.png#lightbox)
 
-Select the documents you want. After, you'll see an upload screen with the documents you've chosen. Select **Upload documents**. You'll see a screen with the status of each document. Once the upload is complete, select **Close**.
+Select the documents you want. After, you'll see an upload screen with the documents, you've chosen. Select **Upload documents**. You'll see a screen with the status of each document. Once the upload is complete, select **Close**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Upload documents dialog.](../media/7-upload-complete.png)](../media/7-upload-complete.png#lightbox)

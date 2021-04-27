@@ -3,12 +3,12 @@ Now that you've created and customized your AI model, let's integrate it into a 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Solutions page with Invoice processing solution highlighted.](../media/14-select-solution.png)](../media/14-select-solution.png#lightbox)
 
-Select the flow in which you wish to use the AI model. If you're following from the previous models, the name of the flow is "Use Outlook email to trigger Desktop flows". Select **Edit**.
+Select the flow in which you wish to use the AI model. If you're following from the previous models, the name of the flow is **Use Outlook email to trigger Desktop flows**. Select **Edit**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Flows > Use Outlook email to trigger Desktop flow dialog.](../media/15-edit-flow.png)](../media/15-edit-flow.png#lightbox)
 
-For now, we'll delete the action "Run a flow built with Power Automate Desktop" by selecting the ellipses and then **Delete**. We're doing this so that we can test the AI model without constantly triggering the desktop flow.
+For now, we'll delete the action **Run a flow built with Power Automate Desktop** by selecting the ellipses and then **Delete**. We're doing this so that we can test the AI model without constantly triggering the desktop flow.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Run a flow built with Power Automate Desktop action with the ellpsis button selected and the Delete option highlighted.](../media/16-delete-action.png)](../media/16-delete-action.png#lightbox)
@@ -33,7 +33,7 @@ While inside the Apply to Each, select **Add an action**. Search for and add the
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Send an email action with dynamic content showing search results for From.](../media/20-return-to-sender.png)](../media/20-return-to-sender.png#lightbox)
 
-Use "Thanks for sending the invoice" for the Subject. The body will be a mix of text and dynamic content from the AI model. The end result will look like the below. The model has both a display name and a value for each field. Select **Save**.
+Use **Thanks for sending the invoice** for the Subject. The body will be a mix of text and dynamic content from the AI model. The end result will look like the below. The model has both a display name and a value for each field. Select **Save**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Send an email dialog with the body completed.](../media/21-send-email.png)](../media/21-send-email.png#lightbox)
