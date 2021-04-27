@@ -5,7 +5,7 @@ To add fields, type the field name in the provided text box and select **+** or 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Choose information to extract dialog.](../media/4-add-fields.png)](../media/4-add-fields.png#lightbox)
 
-Press **Next** to continue.
+Select **Next** to continue.
 
 Now you'll add collections of documents for your model to study. Collections allow for the grouping of documents with different layouts, for example, if you have customers or organizers who have different layouts for invoicing or other repeated documentation. The same model can process as many as 100 distinct collections. To add a new collection, select **New collection**. To rename the newly created collection, double-click the automated collection name (in this case, **Collection 1**).
 
