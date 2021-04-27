@@ -27,5 +27,6 @@ modules:
 - learn-bizapps.input-parameters
 - learn-bizapps.integrate-flow-outlook
 - learn-bizapps.gateway-desktop-flow 
+- learn-bizapps.use-ai-builder-process-invoice 
 trophy: 
   uid: learn-bizapps.work-automation-flow.trophy
