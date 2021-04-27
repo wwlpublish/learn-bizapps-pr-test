@@ -8,7 +8,7 @@ The estimated time to complete this lab is 35 minutes.
 
 1. Highlight Excel and select the Connect button.
 
-1. Navigate to C:\Leap_to_PBI\Data.
+1. Navigate to D:\Power-BI-Tableau\Lab-02\Data
 
 1. Open raw_TailspinToys2019-US.xlsx.
 
