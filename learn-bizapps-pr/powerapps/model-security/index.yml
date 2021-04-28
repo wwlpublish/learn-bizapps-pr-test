@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.model-security
 metadata: 
- title: Solution architect series: Model security for Power Platform solutions
+ title: "Solution architect series: Model security for Power Platform solutions"
  description: Lean about security functionality within Microsoft Dataverse.
  ms.date: 04/19/2021
  author: DaveBeasley  
  ms.author: dbeasley   
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Solution architect series: Model security for Power Platform solutions
+title: "Solution architect series: Model security for Power Platform solutions"
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module explains the solution architect's role in security modeling for Microsoft Power Platform, security options for your tenant and environments, and access to data and functionality within Dataverse.
