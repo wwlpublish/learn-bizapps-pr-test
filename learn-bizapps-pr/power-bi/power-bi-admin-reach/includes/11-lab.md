@@ -1,0 +1,1 @@
+Now it's time to complete a lab. Open the Attendee Lab.pdf document and go to the Broadening the Reach of Power BI section. Complete the lab and return for the Knowledge Check.
