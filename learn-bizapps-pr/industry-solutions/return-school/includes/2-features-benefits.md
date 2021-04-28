@@ -4,7 +4,7 @@ The Return to School solution features a Power App and a Power Apps portal desig
 
 **Dashboard and analytics** help school administrators view historical trends of key program measurements, such as daily attestations and cases. Dashboards show metrics for reopening and analytics measure testing efficacy and operational performance.
 
-## Return to School management app and portal
+## Return to School Management app and portal
 
 The Return to School Management app is a model-driven app that allows you to directly control the settings for your portal and configure details such as the definition of your reopening phases, schools, and services. Access to a school can be determined using many different settings. A school might have reopening phases to define total allowed occupancy and available entry times to stagger access to reduce bottlenecks at entry points. An individual user can be flagged for no entry allowed after a positive test result, or failed attestation.
 
