@@ -45,13 +45,13 @@ quiz:
     choices: 
     - content: Local Active Directory accounts synchronization with Azure Active Directory
       isCorrect: false
-      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-prem Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  
+      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-premises Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  
     - content: User attribute auto conversion in SSAS
       isCorrect: true 
       explanation: User attribute auto conversion in SSAS is not a viable option to support the SSO user-mapping process.
     - content: Manual user remapping
       isCorrect: false 
-      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-prem Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  
-    - content: On-prem Active Directory Property Lookup to remap UPNs to AD users
+      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-premises Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  
+    - content: On-premises Active Directory Property Lookup to remap UPNs to AD users
       isCorrect: false 
-      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-prem Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  
+      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-premises Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  

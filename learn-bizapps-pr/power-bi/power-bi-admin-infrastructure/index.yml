@@ -11,7 +11,7 @@ metadata:
 title: Establish a data access infrastructure in Power BI 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Working with on-premises data sources requires configuring a gateway between Power BI and the on-prem data source. This module examines how to work with gateways and SQL Server Analysis Services (SSAS) data sources that are used either for scheduled refresh or for live connections. 
+  Working with on-premises data sources requires configuring a gateway between Power BI and the on-premises data source. This module examines how to work with gateways and SQL Server Analysis Services (SSAS) data sources that are used either for scheduled refresh or for live connections. 
 abstract: |  
     By the end of this module, you'll be able to: 
     - Understand the difference between gateways, the various connectivity modes, and data refresh methods.

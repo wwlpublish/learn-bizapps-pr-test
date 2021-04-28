@@ -34,7 +34,7 @@ Can use + share:
 
 Single sign-on (SSO) allows you to use the same credentials to sign in to your personal computer, local Active Directory, or on to the Power BI service.
 
-However, because Power BI can only be accessed through Azure Active Directory, you must synchronize your local Active Directory with Azure Active Directory to use SSO to sign in to the Power BI service. To allow other on-prem users to use SSO to sign in to Power BI, you would simply have to synchronize their local Active Directory with Azure Active Directory as well.
+However, because Power BI can only be accessed through Azure Active Directory, you must synchronize your local Active Directory with Azure Active Directory to use SSO to sign in to the Power BI service. To allow other on-premises users to use SSO to sign in to Power BI, you would simply have to synchronize their local Active Directory with Azure Active Directory as well.
 
 For more information regarding synchronizing your local Active Directory to Azure Active Directory, see this [article](https://docs.microsoft.com/power-bi/connect-data/service-gateway-enterprise-manage-ssas?azure-portal=true#synchronize-an-on-premises-active-directory-with-azure-ad).
 
