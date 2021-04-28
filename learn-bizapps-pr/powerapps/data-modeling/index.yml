@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.data-modeling
 metadata: 
- title: Solution architect series: Model data for Power Platform solutions
+ title: Solution architect series - Model data for Power Platform solutions
  description: Learn how to work with data modeling in Microsoft Power Platform solutions as a solution architect.
  ms.date: 04/19/2021
  author: DaveBeasley  
  ms.author: dbeasley   
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: Solution architect series: Model data for Power Platform solutions
+title: Solution architect series - Model data for Power Platform solutions
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module explains the solution architect's role in data modeling for Power Platform and the tradeoffs for modeling data in Power Platform solutions.
