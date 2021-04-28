@@ -3,7 +3,7 @@ uid: learn-bizapps.integrate-power-automate
 metadata:
   title: Integrate SharePoint and Power Automate 
   description: Learn how SharePoint and Power Automate are integrated.
-  ms.date:  04/14/2021
+  ms.date: 04/14/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -32,6 +32,7 @@ modules:
 - learn-bizapps.best-practices-email 
 - learn-bizapps.error-handling 
 - learn-bizapps.integration-http-connector 
+- learn-bizapps.troubleshoot-slow-flows 
 trophy:
   uid: learn.integrate-power-automate.trophy
 

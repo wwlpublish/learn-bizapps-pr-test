@@ -13,3 +13,5 @@ _dependentPackages/
 *.bak
 
 .openpublishing.buildcore.ps1
+
+.DS_Store
