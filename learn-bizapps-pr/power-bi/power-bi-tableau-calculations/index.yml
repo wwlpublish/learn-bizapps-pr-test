@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-bi-tableau-calculations 
 metadata: 
- title: Understand Power BI calculations for Tableau users
+ title: Create Power BI calculations for Tableau users
  description: This module provides guidance on Power BI calculation concepts, and how to create and edit calculations.
  ms.date: 03/30/2021  
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
-title: Understand Power BI calculations for Tableau users
+title: Create Power BI calculations for Tableau users
 summary: |  
   [!include[](../includes/module-banner.md)] 
   This module provides guidance on Power BI calculation concepts, and how to create and edit calculations.
