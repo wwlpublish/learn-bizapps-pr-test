@@ -66,4 +66,4 @@ This tool provides analysts a way to execute and analyze DAX queries against Mic
 
 For more information on DAX Studio see: [DAX Studio](https://daxstudio.org/).
 
-For more information on measure tables see: [Measure Tables in Power BI](https://exceleratorbi.com.au/measure-tables-in-power-bi/)
+For more information on measure tables see: [Measure Tables in Power BI](https://go.microsoft.com/fwlink/?linkid=2162158)
