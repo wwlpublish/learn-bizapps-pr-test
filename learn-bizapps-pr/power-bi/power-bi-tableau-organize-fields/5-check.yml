@@ -17,7 +17,7 @@ quiz:
     choices: 
     - content: It's possible to have the table appear at the bottom of the tables list.
       isCorrect: false 
-      explanation: With a Measure table, you can have the table appear at the top of the tables list.
+      explanation: With a Measures table, you can have the table appear at the top of the tables list.
     - content: It's a dedicated table used to store some or all the measures in the workbook.
       isCorrect: true 
       explanation: This is considered to be best practice since it manages all the measures you create on top of your data.
