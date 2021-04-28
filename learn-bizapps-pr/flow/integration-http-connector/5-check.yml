@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.integration-http-connector.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/28/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is the difference between GET and POST?
+    choices: 
+    - content: Get is to get information. POST is to add data.
+      isCorrect: false
+      explanation: By using HTTP requests, you can use REST endpoints to do typical CRUD operations against SharePoint.
+    - content: Get is to read data. POST is to add and delete data.
+      isCorrect: false 
+      explanation: By using HTTP requests, you can use REST endpoints to do typical CRUD operations against SharePoint.
+    - content: Get is to read data. POST is to add, edit, and delete data.
+      isCorrect: true 
+      explanation: By using HTTP requests, you can use REST endpoints to do typical CRUD operations against SharePoint.
+    - content: Get is to read and add data. POST is to edit and delete data.
+      isCorrect: false 
+      explanation: By using HTTP requests, you can use REST endpoints to do typical CRUD operations against SharePoint.
+  - content: What are the required fields for the HTTP action?
+    choices: 
+    - content: Site address and Headers.
+      isCorrect: false
+      explanation: The HTTP request requires the following fields. Site Address https://domainame.sharepoint.com/sites/sitename Method POST Uri /_api/web/lists/getbytitle('listname')/items Headers Accept and Content-Type
+    - content: Site Address, Method, Uri, and Headers.
+      isCorrect: true 
+      explanation: The HTTP request requires the following fields. Site Address https://domainame.sharepoint.com/sites/sitename Method POST Uri /_api/web/lists/getbytitle('listname')/items Headers Accept and Content-Type
+    - content: Site address, Method, and Headers.
+      isCorrect: false 
+      explanation: The HTTP request requires the following fields. Site Address https://domainame.sharepoint.com/sites/sitename Method POST Uri /_api/web/lists/getbytitle('listname')/items Headers Accept and Content-Type
+    - content: Method and Headers.
+      isCorrect: false 
+      explanation: The HTTP request requires the following fields. Site Address https://domainame.sharepoint.com/sites/sitename Method POST Uri /_api/web/lists/getbytitle('listname')/items Headers Accept and Content-Type
+  - content: Which two email address types are available in SharePoint?
+    choices: 
+    - content: A user email address and no-reply@m365service.com.
+      isCorrect: false
+      explanation: You can create flows that send email notifications directly from SharePointOnline.com. The Send an HTTP request to SharePoint action is used to create an email that comes from the no-reply@sharepointonline.com mailbox.
+    - content: A user email address in From and To.
+      isCorrect: false 
+      explanation: You can create flows that send email notifications directly from SharePointOnline.com. The Send an HTTP request to SharePoint action is used to create an email that comes from the no-reply@sharepointonline.com mailbox.
+    - content: A user email address in From and no-reply@sharepoint.com.
+      isCorrect: false 
+      explanation: You can create flows that send email notifications directly from SharePointOnline.com. The Send an HTTP request to SharePoint action is used to create an email that comes from the no-reply@sharepointonline.com mailbox.
+    - content: A user email address in From and no-reply@sharepointonline.com.
+      isCorrect: true 
+      explanation: You can create flows that send email notifications directly from SharePointOnline.com. The Send an HTTP request to SharePoint action is used to create an email that comes from the no-reply@sharepointonline.com mailbox.
+  - content: Which feature is useful in POST for editing and deleting actions?
+    choices: 
+    - content: Option to edit and delete a specific item number.
+      isCorrect: true 
+      explanation: Using the IF-MATCH and X-HTTP-Method headers and the Uri, you can isolate the specific item number you wish to edit or delete.
+    - content: Option to edit and delete random item numbers.
+      isCorrect: false 
+      explanation: Using the IF-MATCH and X-HTTP-Method headers and the Uri, you can isolate the specific item number you wish to edit or delete.
+    - content: Option to edit a specific item number and delete all.
+      isCorrect: false 
+      explanation: Using the IF-MATCH and X-HTTP-Method headers and the Uri, you can isolate the specific item number you wish to edit or delete.
+    - content: Option to edit all and delete a specific item number.
+      isCorrect: false 
+      explanation: Using the IF-MATCH and X-HTTP-Method headers and the Uri, you can isolate the specific item number you wish to edit or delete.

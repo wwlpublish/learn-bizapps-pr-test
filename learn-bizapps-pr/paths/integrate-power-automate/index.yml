@@ -31,6 +31,7 @@ modules:
 - learn-bizapps.http-connectors 
 - learn-bizapps.best-practices-email 
 - learn-bizapps.error-handling 
+- learn-bizapps.integration-http-connector 
 - learn-bizapps.troubleshoot-slow-flows 
 trophy:
   uid: learn.integrate-power-automate.trophy
