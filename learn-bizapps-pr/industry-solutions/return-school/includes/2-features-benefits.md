@@ -58,4 +58,4 @@ Often the first analysis performed is the simplest. In the model-driven app, you
 The solution comes with charts available to visualize information about the status of your Active Cases. The chart can be viewed directly inline with the records as you can see in the image below.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot showing model-driven Return to School management app with a listing of cases and a corresponding chart.](../media/active-cases.png)](../media/active-cases.png#lightbox)
+> [![Screenshot showing model-driven Return to School Management app with a listing of cases and a corresponding chart.](../media/active-cases.png)](../media/active-cases.png#lightbox)
