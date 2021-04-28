@@ -8,7 +8,7 @@ The Return to School solution features a Power App and a Power Apps portal desig
 
 The Return to School Management app is a model-driven app that allows you to directly control the settings for your portal and configure details such as the definition of your reopening phases, schools, and services. Access to a school can be determined using many different settings. A school might have reopening phases to define total allowed occupancy and available entry times to stagger access to reduce bottlenecks at entry points. An individual user can be flagged for no entry allowed after a positive test result, or failed attestation.
 
-The portal will then take building visitors through a series of options for obtaining and using a building entry pass, scheduling testing appointments or submitting results, or registering dependents to do the same.
+The portal will then take building visitors through a series of options for obtaining and using a building entry pass, scheduling testing appointments, or submitting results, or registering dependents to do the same.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the return to school portal page and options.](../media/portal.png)](../media/portal.png#lightbox)
@@ -19,7 +19,7 @@ A school may need to control the flow of visitors to their buildings. Students, 
 
 A building pass will be created for a same day visit.
 
-On the pass below you will notice a QR code. This is a setting that has been enabled to allow for contactless building access. If your facility does not support the scanning of such codes, you can disable this setting. You will learn more about the settings later in this module.
+On the pass below, you will notice a QR code. This is a setting that has been enabled to allow for contactless building access. If your facility does not support the scanning of such codes, you can disable this setting. You will learn more about the settings later in this module.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing return to school portal page with a QR code day pass.](../media/day-pass.png)](../media/day-pass.png#lightbox)
@@ -36,7 +36,7 @@ The user will receive a confirmed appointment screen once the selection has been
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing Return to School portal page with a confirmed appointment.](../media/confirmed-appointment.png)](../media/confirmed-appointment.png#lightbox)
 
-A building pass will not automatically be created for this user for their confirmed appointment. Appointments can be scheduled days in advance and passes are created for same day entry. Power Automate would make it possible to automate the creation of this using a flow. Additionally, you could consider other automations such as emailing a confirmation of the appointment or reminders for the appointment. To learn more about using Power Automate visit this [Learning Path](https://docs.microsoft.com/learn/paths/automate-process-power-automate/?azure-portal=true).
+A building pass will not automatically be created for this user for their confirmed appointment. Appointments can be scheduled days in advance and passes are created for same day entry. Power Automate would make it possible to automate the creation of this using a flow. Additionally, you could consider other automations such as emailing a confirmation of the appointment or reminders for the appointment. To learn more about using Power Automate, visit this [Learning Path](https://docs.microsoft.com/learn/paths/automate-process-power-automate/?azure-portal=true).
 
 ## Dashboards and analytics
 

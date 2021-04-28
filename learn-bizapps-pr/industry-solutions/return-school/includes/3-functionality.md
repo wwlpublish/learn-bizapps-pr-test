@@ -30,9 +30,9 @@ Also in the Solution Settings area, you configure your Master Data. This will in
 
 #### Schools and school groups
 
-Schools can belong to school groups. School groups allow you to organize in a logical way schools that might have similar characteristics and similar reopening phases. One example would be to group schools by grade levels, as different ages may have different reopening phases based on regional guidelines. Or, if a school district crosses county lines, they may wish to group schools by geography instead.
+Schools can belong to school groups. School groups allow you to organize in a logical way, schools that might have similar characteristics and similar reopening phases. One example would be to group schools by grade levels, as different ages may have different reopening phases based on regional guidelines. Or, if a school district crosses county lines, they may wish to group schools by geography instead.
 
-For an individual school you will capture standard information such as location, but also additional data specific to our purposes of enabling you to define your safe return criteria. A school record will also include its reopen phase, test locations, and more captured on the record.
+For an individual school you will capture standard information such as location, but also other data specific to our purposes of enabling you to define your safe return criteria. A school record will also include its reopen phase, test locations, and more captured on the record.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing an example of the school form in the Return to School Admin model-driven app.](../media/school-form.png)](../media/school-form.png#lightbox)
@@ -46,7 +46,7 @@ As you plan your reopening, you can capture those requirements here and build ou
 
 #### Persons
 
-Persons tracked here are contacts. In addition to the standard contact data you might expect, in this solution you will find portal access settings, dependent information, and a record of their access, notification, appointments, test results and additional related records to support their return. To invite a person to use the portal, set the Requires portal access to Yes.
+Persons tracked here are contacts. In addition to the standard contact data you might expect, in this solution you will find portal access settings, dependent information, and a record of their access, notification, appointments, test results and other related records to support their return. To invite a person to use the portal, set the Requires portal access to Yes.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the portal options setting for a Person row on the Return to School model-driven app.](../media/person-settings.png)](../media/person-settings.png#lightbox)
@@ -79,7 +79,7 @@ The test location will define what services are offered there. You will also hav
 
 #### Configure test location schedule 
 
-Each location will have its own schedule. Any given school can have more than one location available for services and appointments, and each one will need to have its appointments and timeslots configured. These schedules will need to be kept up to date. You may add or remove capacity and that may impact appointment availability. Consider creating a regular cadence of options based on anticipated needs. Persons wanting an appointment will be bound by the constraints you define here.
+Each location will have its own schedule. Any given school can have more than one location available for services and appointments, and each one will need to have its appointments and timeslots configured. These schedules will need to be kept up to date. You may add or remove capacity and that may affect appointment availability. Consider creating a regular cadence of options based on anticipated needs. Persons wanting an appointment will be bound by the constraints you define here.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the Service Location Schedule form in the Return to School model-driven app.](../media/service-location-schedule-form.png)](../media/service-location-schedule-form.png#lightbox)
@@ -93,9 +93,9 @@ When a person wanting an appointment is in the process of booking that appointme
 
 ## Return to School portal user configuration
 
-The Return to School portal allows administrators to provide an easy-to-use web-based way to register and manage building access. This portal is intended to be simple to set-up and use. To learn more about more advanced options for customizing portals please visit this [Learning Path](https://docs.microsoft.com/learn/paths/work-power-apps-portals/?azure-portal=true).
+The Return to School portal allows administrators to provide an easy-to-use web-based way to register and manage building access. This portal is intended to be simple to set-up and use. To learn more about more advanced options for customizing portals, visit this [Learning Path](https://docs.microsoft.com/learn/paths/work-power-apps-portals/?azure-portal=true).
 
-Configuration of some features has already been completed via the model-driven app Back to School. There is where you enable and disable features for Daily Passes, QR Codes and Dependent's Access. It is also the data in that app that will be available here for users such as contact information, schools, school access, appointments, and more.
+Configuration of some features has already been completed via the model-driven app Back to School. There is where you enable and disable features for Daily Passes, QR Codes, and Dependent's Access. It is also the data in that app that will be available here for users such as contact information, schools, school access, appointments, and more.
 
 Because the portal may contain some sensitive information, one of the first things you will do is provide access only to properly authenticated users. Those authenticated users come perform the following tasks:
 

@@ -16,7 +16,7 @@ For the more experienced Dynamics 365 or Power Platform consultant, the steps sh
 
 1.  Set up portal URL environment variable.
 
-If you are looking for detailed steps to complete these tasks, you can find them at Microsoft [docs.](https://docs.microsoft.com/dynamics365/industry/return-to-school/deploy/?azure-portal=true)
+For more information, see [Return to School](https://docs.microsoft.com/dynamics365/industry/return-to-school/deploy/?azure-portal=true).
 
 Additionally, the expected extensions and platform capabilities are still available to you as a maker in the environment. Extend the configuration as needed but be mindful of the impact to the solutions you have deployed.
 
