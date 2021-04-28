@@ -16,4 +16,4 @@ By the end of this module, you'll learn the basics of creating visual context in
 
 -   Creating bookmarks
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWy26M]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWy26M]
