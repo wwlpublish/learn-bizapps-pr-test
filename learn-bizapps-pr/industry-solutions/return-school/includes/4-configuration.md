@@ -20,7 +20,7 @@ For more information, see [Return to School](https://docs.microsoft.com/dynamics
 
 Additionally, the expected extensions and platform capabilities are still available to you as a maker in the environment. Extend the configuration as needed but be mindful of the impact to the solutions you have deployed.
 
-Ideas on functionality you could extend include:
+Ideas on functionality to extend:
 
 -   Editing the portal to include your school colors or mascots
 
