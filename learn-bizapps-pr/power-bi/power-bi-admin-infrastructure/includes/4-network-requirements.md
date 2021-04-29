@@ -9,7 +9,7 @@ The following chart provides a list of key uniform resource locators (URLs), out
 
 The first requirement if you're installing a gateway is an internet connection to allow you to download from [Microsoft.com](https://www.microsoft.com/). From there, you will download the gateway installer. For this task, you will need the 80 outbound port.
 
-You will also need to download the internet Windows connectivity diagnostic check from [msftncsi.com](http://msftncsi.com). This function runs on port 443.
+You will also need to download the internet Windows connectivity diagnostic check from **msftncsi**. This function runs on port 443.
 
 Next, you will need the components to support Azure Active Directory sign in for [PowerBI.com](https://powerbi.microsoft.com). These components include, `login.windows.net`, `login.microsoftonline.com`, and `microsoftonline-p.com`. You will use outbound port 443 for this function. You will also use port 443 to access [PowerBI.com](https://powerbi.microsoft.com/?azure-portal=true) to configure and register the gateway with Power BI and Gateway Management service.
 
