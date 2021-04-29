@@ -11,7 +11,7 @@ metadata:
 title: Build your first workflow with Power Automate and Dataverse for Teams
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  By using automated and scheduled flows, you can build powerful workflows inside of Microsoft Teams and increase productivity in your Teams work.
+  By using automated and scheduled flows, you can build powerful workflows inside of Microsoft Teams and increase productivity in your MicrosoftTeams work.
 abstract: |  
     In this module, you will: 
     - Build a flow to respond to changes in Teams.
