@@ -8,4 +8,4 @@ Three different areas where performance can be impacted and improved are:
 
 - Improvement of visuals
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWy75K]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWy75K]
