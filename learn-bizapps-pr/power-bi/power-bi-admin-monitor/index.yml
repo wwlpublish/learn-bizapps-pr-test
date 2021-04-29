@@ -17,7 +17,7 @@ abstract: |
     - Discover what usage metrics are available through the Power BI admin portal
     - Optimize use of usage metrics for dashboards and reports
     - Distinguish between audit logs and the activity logs
-prerequisites: We recommend completing the [Dashboard in a Day](https://www.microsoftevents.com/profile/web/index.cfm?PKwebID=0x1728241abcd&azure-portal=true) learning path before beginning this module.
+prerequisites: We recommend completing [Dashboard in a Day](https://www.microsoftevents.com/profile/web/index.cfm?PKwebID=0x1728241abcd&azure-portal=true) before beginning this module.
 iconUrl: /learn/achievements/power-bi-admin-monitor.svg  
 levels:  
 - intermediate   
