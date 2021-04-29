@@ -1,5 +1,8 @@
 Most of the time in Power BI, you create tables by importing data into your model from an external data source. With table functions, instead, you add new tables based on the data you have already loaded into the model.
 
+**Video**: Demo of Query Editor
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWy75B]
+
 ## Overview
 
 Table functions allow Power BI users to create an intermediate table, which is viewed in the data model and can be used in other DAX expressions. Table functions are temporary tables that you can use, but they are not visible because they are not outputted.
