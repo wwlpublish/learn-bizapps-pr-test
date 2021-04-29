@@ -12,7 +12,7 @@ Additionally, Common Data Model has the following features:
 - Multiple systems and platforms currently implement Common Data Model
 - Internal and external partners, including Dataverse, Microsoft Power BI dataflows, Microsoft Azure data services, Informatica, and more.
 
-> [![Diagram of the Common Data Model schema.](../media/2-common-data-model.png)](../media/2-common-data-model.png#lightbox)
+[![Diagram of the Common Data Model schema.](../media/2-common-data-model.png)](../media/2-common-data-model.png#lightbox)
 
 ## Where Common Data Model is used
 
