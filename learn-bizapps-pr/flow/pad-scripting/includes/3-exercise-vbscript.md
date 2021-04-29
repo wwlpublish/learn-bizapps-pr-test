@@ -1,5 +1,8 @@
 In this exercise, you'll create a flow that calculates how many overtime hours employees have worked. Consider that a typical working day is eight hours.
 
+> [!NOTE]
+> Before creating the flow, download the [**Employees.xlsx**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/Employees.zip) file that is required for this exercise. Select **Download** on the right side of the page and extract the downloaded file to your local computer.
+
 1. Launch Power Automate Desktop console and create a new flow named **Overtime calculator**.
 
     ![Screenshot of the Power Automate Build a flow dialog.](..\media\first-exercise-new-flow.png)
