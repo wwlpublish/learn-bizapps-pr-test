@@ -1,9 +1,9 @@
  You learned about the following topics in this module:    
 
--   REST APIs to automate common Power BI admin tasks 
+-   Describe the various embedding scenarios that allow you to broaden the reach of Power BI 
 
--   Power BI cmdlets for Windows PowerShell and PowerShell core 
+-   Understand the options for developers to customize Power BI solutions 
 
--   Power BI cmdlets 
+-   Learn to provision and optimize Power BI embedded capacity and create and deploy dataflows 
 
--   Automating common Power BI admin tasks with scripting 
+-   Build custom Power BI solutions template apps 
