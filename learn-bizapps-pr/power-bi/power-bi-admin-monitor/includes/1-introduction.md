@@ -5,4 +5,4 @@ New usage metrics are being regularly added to this report.
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power BI usage metric report.](../media/1-portal.png)](../media/1-portal.png#lightbox)
 
-For additional information about Power BI usage metrics, review the [Usage Metrics section of this article](https://docs.microsoft.com/power-bi/admin/service-admin-portal?azure-portal=true#usage-metrics).
+For additional information about Power BI usage metrics, review the [Usage Metrics section of this article]<a href="https://go.microsoft.com/fwlink/?linkid=2162218" target="_blank">
