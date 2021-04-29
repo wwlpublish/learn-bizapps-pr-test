@@ -19,19 +19,6 @@ There are two primary network characteristics affecting the performance: network
 
 After opening the page and pressing Run, the report will become available that will assist your network team in detecting and resolving the issues. The statistic includes some browser benchmarks that may be useful in identifying if browser performance is an issue.
 
-## Data performance logs
-
-You can analyze and optimize query performance using the Data Performance view, which provides an aggregated list of entities with long-running queries. A long running query is defined as a query that takes three seconds or longer to complete. Typical examples of a component that can have a long running query is a plug-in with custom FetchXML or a subgrid or view. 
-
-You can access Data Performance Logs via Settings -> Administration -> Data Performance.
-
-![Screenshot showing the All Data Performance Logs via Settings administration data performance.](../media/T2_PerformanceTools_image2.png)
-
-If one or more long running entity queries are detected, log items are displayed in the view. You can use the Optimize command to apply optimizations to the selected query.
-
-> [!Note]
-> With the most recent advances in Azure SQL database self-tuning capabilities you may no longer see any long running queries reported in the Data Performance view. Slow queries are automatically detected and optimized at the database level. 
-
 ## Analytics
 
 Dataverse analytics are available via the Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac/?azure-portal=true). Various statistics can help identifying potential areas for deeper performance analysis.
