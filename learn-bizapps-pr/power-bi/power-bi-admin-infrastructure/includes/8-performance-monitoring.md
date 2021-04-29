@@ -5,4 +5,4 @@ There are multiple sources for information on gateway performance monitoring. A 
 
 By enabling these logs to monitor your gateway, you'll have a starting point if you're trying to determine the cause of unexpected performance or usage levels on your gateway.
 
-There is also an out-of-the-box [Power BI template](https://download.microsoft.com/download/D/A/1/DA1FDDB8-6DA8-4F50-B4D0-18019591E182/GatewayPerformanceMonitoring.pbit/?azure-portal=true) for visualization that you can download.
+There is also an out-of-the-box [Power BI template](https://download.microsoft.com/download/D/A/1/DA1FDDB8-6DA8-4F50-B4D0-18019591E182/GatewayPerformanceMonitoring.pbit) for visualization that you can download.

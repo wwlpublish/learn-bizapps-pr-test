@@ -33,8 +33,8 @@ Live or exploration mode is similar to Direct Query with one distinction. Live o
 
 The composite connectivity mode allows you to combine multiple data connections from either direct query or import modes or a combination of both. Most multidimensional data sources are supported with the following exceptions: SAP HANA and BW, SAP Business Warehouse, SQL Server Analysis Services, and Power BI Datasets. As a reminder, you can base an unlimited number of reports on the one dataset published through Power BI. Plus, the number of data sources per report is unlimited through the composite mode.
 
-In composite mode, you have all data transformations available on sources accessed through the import mode, and depending on the source, you have partial support for sources connected to through a direct query. The mashup capabilities for important data include merge, append, and parameterized queries. For direct query data, mash up capabilities include merge and append.
+In composite mode, you have all data transformations available on sources accessed through the import mode, and depending on the source, you have partial support for sources connected to through a direct query. The mashup capabilities for imported data include merge, append, and parameterized queries. For direct query data, mash up capabilities include merge and append.
 
 Finally, you have the ability to establish relationships between queries from different data sources.
 
-For more information regarding connectivity modes, see the following [video](https://www.youtube.com/watch?v=HaSD6uRljDw&t=2240s/?azure-portal=true) and articles.
+For more information regarding connectivity modes, see the following [video](https://www.youtube.com/watch?v=HaSD6uRljDw&t=2240s/?azure-portal=true).

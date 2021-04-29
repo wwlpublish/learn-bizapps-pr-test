@@ -7,13 +7,13 @@ The following chart provides a list of key uniform resource locators (URLs), out
 > [!div class="mx-imgBorder"]
 > [![Chart listing details to support a gateway installation.](../media/details-gateway-installation.png)](../media/details-gateway-installation.png#lightbox)
 
-The first requirement if you're installing a gateway is an internet connection to allow you to download from [Microsoft.com](https://www.microsoft.com/?azure-portal=true). From there, you will download the gateway installer. For this task, you will need the 80 outbound port.
+The first requirement if you're installing a gateway is an internet connection to allow you to download from [Microsoft.com](https://www.microsoft.com/). From there, you will download the gateway installer. For this task, you will need the 80 outbound port.
 
-You will also need to download the internet Windows connectivity diagnostic check from [msftncsi.com](http://msftncsi.com/?azure-portal=true). This function runs on port 443.
+You will also need to download the internet Windows connectivity diagnostic check from **msftncsi**. This function runs on port 443.
 
-Next, you will need the components to support Azure Active Directory sign in for [PowerBI.com](https://powerbi.microsoft.com/?azure-portal=true). These components include, `login.windows.net`, `login.microsoftonline.com`, and `microsoftonlin-p.com`. You will use outbound port 443 for this function. You will also use port 443 to access [PowerBI.com](https://powerbi.microsoft.com/?azure-portal=true) to configure and register the gateway with Power BI and Gateway Management service.
+Next, you will need the components to support Azure Active Directory sign in for [PowerBI.com](https://powerbi.microsoft.com). These components include, `login.windows.net`, `login.microsoftonline.com`, and `microsoftonline-p.com`. You will use outbound port 443 for this function. You will also use port 443 to access [PowerBI.com](https://powerbi.microsoft.com/?azure-portal=true) to configure and register the gateway with Power BI and Gateway Management service.
 
-Once installation and registration are completed, you must then connect to the service bus and [servicebus.windows.net](https://servicebus.windows.net/?azure-portal=true) to set the mode you plan to run your gateway in.
+Once installation and registration are completed, you must then connect to the service bus and [servicebus](https://azure.microsoft.com/services/service-bus) to set the mode you plan to run your gateway in.
 
 There are essentially two data gateway mode options, transmission control protocol (TCP) and hypertext transfer protocol secure (HTTPS).
 
