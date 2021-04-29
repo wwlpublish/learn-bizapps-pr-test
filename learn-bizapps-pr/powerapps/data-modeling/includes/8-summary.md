@@ -1,14 +1,14 @@
-In this module, you looked at data modeling with the Power Platform, including:
+In this module, you learned about the solution architect's role in data modeling with Power Platform, including:
 
-- Learning about data modeling influencers
-- Learning about data model strategies
-- Choosing where to store data
-- Choosing data types
-- Defining relationships
+- Data modeling influencers
+- Data model strategies
+- Where to store data
+- Data types
+- How to define relationships
 
-A good data model is essential as it forms the foundation of what you build your apps on. The data model drives your app interface and design.
+A good data model is essential because it forms the foundation on which you build your apps. The data model drives your app interface and design.
 
-Problems with your data model are much harder to correct once apps have been composed using the model.
+Problems with your data model are difficult to correct after apps have been composed by using the model.
 
 ## Next Steps
 

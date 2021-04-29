@@ -17,6 +17,6 @@ With direct query or live connection, refreshes are performed real time and the 
 
 With direct query or live connections, data is not stored in Power BI, the data is always stored in the on-premises data source. Plus, there is no data size limitation in Power BI. Data size limitation is dependent solely on the on-premises data source.
 
-You can reuse on-premises row level security from your database if you're using direct query and if your using live connections, you will use the security from your analysis services.
+You can reuse on-premises row level security from your database if you're using direct query and if you're using live connections, you will use the security from your analysis services.
 
 Data sources supported when using direct query or live connections are listed in Unit 1 of this course.

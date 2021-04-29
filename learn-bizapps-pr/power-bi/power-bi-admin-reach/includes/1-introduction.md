@@ -29,9 +29,9 @@ Access the publish to web option through the Power BI admin portal.
 
 For more information on the publish to web option, see this [article](https://docs.microsoft.com/power-bi/collaborate-share/service-publish-to-web/?azure-portal=true).
 
-## Embed in Teams
+## Embed in Microsoft Teams
 
-You can embed Power BI reports in Teams. In your Microsoft Teams channel, select the + sign and choose the Power BI option as a tab. Microsoft Teams automatically detects all the reports in your Power BI groups and in My Workspace. You can choose which reports you want to show in your Power BI tab in your channel.
+You can embed Power BI reports in Microsoft Teams. In your Microsoft Teams channel, select the + sign and choose the Power BI option as a tab. Microsoft Teams automatically detects all the reports in your Power BI groups and in My Workspace. You can choose which reports you want to show in your Power BI tab in your channel.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Microsoft Teams add a tab option.](../media/power-bi-teams.png)](../media/power-bi-teams.png#lightbox)
