@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.data-modeling.1-introduction
-title: Introduction to data modeling
+title: Introduction
 metadata:
-  title: Introduction to data modeling
-  description: The solution architect role in data modeling for the Power Platform.
+  title: Introduction
+  description: Introduction to the solution architect's role in data modeling for Power Platform
   ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.data-modeling.6-best-practice
-title: Best practice for Dataverse
+title: Best practices for Dataverse
 metadata:
-  title: Best practice for Dataverse
-  description: Best practice for data modeling in Microsoft Dataverse
+  title: Best practices for Dataverse
+  description: Learn about best practices for data modeling in Microsoft Dataverse.
   ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley
