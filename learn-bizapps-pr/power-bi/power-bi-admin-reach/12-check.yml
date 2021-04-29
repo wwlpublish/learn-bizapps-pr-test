@@ -41,20 +41,20 @@ quiz:
     - content: NuGet gallery
       isCorrect: true 
       explanation: NuGet gallery is the central package repository.
-  - content: Which of the following is not a recognized option to create or build on top of a dataflow?
+  - content: Which of the following is NOT a recognized option to create or build on top of a dataflow?
     choices: 
     - content: Use define new tables
       isCorrect: false
-      explanation: Define new tables, use linked tables, and use computed tables are all recognize ways to create or build on top of a dataflow.
+      explanation: Define new tables, use linked tables, and use computed tables are all recognized ways to create or build on top of a dataflow.
     - content: Use linked tables
       isCorrect: false 
-      explanation: Define new tables, use linked tables, and use computed tables are all recognize ways to create or build on top of a dataflow.
+      explanation: Define new tables, use linked tables, and use computed tables are all recognized ways to create or build on top of a dataflow.
     - content: Use entity tables
       isCorrect: true 
       explanation: Use entity tables is not a recognized way to create or build on top of a dataflow.
     - content: Use a computed table
       isCorrect: false 
-      explanation: Define new tables, use linked tables, and use computed tables are all recognize ways to create or build on top of a dataflow.
+      explanation: Define new tables, use linked tables, and use computed tables are all recognized ways to create or build on top of a dataflow.
   - content: Power BI Template Apps allow Power BI Pro and Power BI Premium users to gain immediate insights through prepackaged dashboards and reports that can be connected to what source?
     choices: 
     - content: SharePoint Online
