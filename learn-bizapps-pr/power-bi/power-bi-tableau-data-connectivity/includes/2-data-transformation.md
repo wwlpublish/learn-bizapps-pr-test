@@ -2,9 +2,6 @@
 
 As a Tableau analyst who is transitioning to Power BI, your main learning opportunity will be in making sure that you can connect to your data (the same data that you can connect to in Tableau Desktop) and that the data is ready for analysis. However, you might realize that this scenario is not the case. A significant amount of effort is required for you to cleanse and transform the data.
 
-**Video**: Demo of Advanced Editor
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWy75u]
-
 This scenario is where a tool like Tableau Prep would be beneficial in helping you to create your dataflow. This unit will examine dataflows in depth.
 
 There are three options, each with a button. Define new entities has an Add new entities button and the following description. Choose a data source to define the entities for your dataflow. You can map your data to standard Common Data Model entities, or define custom entities instead. Link entities from other dataflows has an Add linked entities button and the following description. Linking to entities from other dataflows reduces duplication and helps maintain consistency across your organization. Import Model has an Import model button and the following description. Choose a dataflow model to import into your workspace.
