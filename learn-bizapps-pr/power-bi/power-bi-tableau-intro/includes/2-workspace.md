@@ -22,9 +22,6 @@ Now that you are connected to your data, you can adjust the data to meet your re
 > [!div class="mx-imgBorder"]
 > [![Example of the Power Query Editor window with step-by-step instructions on adjusting some data.](../media/power-query-editor.png)](../media/power-query-editor.png#lightbox)
 
-**Video**: Demo of Query Editor
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWy75t]
-
 ## Build your reports
 
 In the Power BI Desktop **Report** view, you can build visualizations and reports. The **Report** view has six main areas:
