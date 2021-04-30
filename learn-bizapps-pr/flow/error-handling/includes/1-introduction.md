@@ -43,30 +43,30 @@ The following sections describe SharePoint actions in Power Automate:
 
 - **Add a comment** - This feature allows you to add a comment. Comments are used to help the flow makers remember the reason why this action or condition was added.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of a comment box in an action.](../media/comment.jpg)](../media/comment.jpg#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of a comment box in an action.](../media/comment.jpg)](../media/comment.jpg#lightbox)
 
 - **Static result (Preview)** - By setting up static results for an action in your flow, you can simulate output data from that action. Enabling static results on an action doesn't run the action but returns the mock data instead.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Static result (Preview) dialog box.](../media/static-results.jpg)](../media/static-results.jpg#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the Static result (Preview) dialog box.](../media/static-results.jpg)](../media/static-results.jpg#lightbox)
 
 - **Settings** - Other settings include **Secure Inputs**, **Secure Outputs**, **Asynchronous Pattern**, **Automatic decompression**, **Timeout**, **Retry Policy**, and **Tracked Properties**.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the additional settings dialog.](../media/settings.jpg)](../media/settings.jpg#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the additional settings dialog.](../media/settings.jpg)](../media/settings.jpg#lightbox)
 
 - **Configure run after** - Occasionally, certain situations don't result exactly as you expected in your flow, which is where the **Configure run after** option helps. You can define any number of steps to run after the failure of an action.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of Configure run after with "is successful" selected.](../media/configure-run-after.jpg)](../media/configure-run-after.jpg#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of Configure run after with "is successful" selected.](../media/configure-run-after.jpg)](../media/configure-run-after.jpg#lightbox)
 
 - **Peek code** - Peek code gives you the flexibility to view the actions from a code perspective. Through this view, you can see details such as IDs, authentication types, and the links that are used to make API calls.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Peek code view showing code for inputs and parameters.](../media/peek-code.jpg)](../media/peek-code.jpg#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the Peek code view showing code for inputs and parameters.](../media/peek-code.jpg)](../media/peek-code.jpg#lightbox)
 
 - **Delete Step** - You can delete the current step that you are in. A dialog box will appear, confirming if you want to delete the step.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the Delete Step message box.](../media/delete-step.jpg)](../media/delete-step.jpg#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the Delete Step message box.](../media/delete-step.jpg)](../media/delete-step.jpg#lightbox)
