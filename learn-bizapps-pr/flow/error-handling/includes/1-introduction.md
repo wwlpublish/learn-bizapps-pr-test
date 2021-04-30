@@ -43,8 +43,8 @@ The following sections describe SharePoint actions in Power Automate:
 
 - **Add a comment** - This feature allows you to add a comment. Comments are used to help the flow makers remember the reason why this action or condition was added.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of a comment box in an action.](../media/comment.jpg)](../media/comment.jpg#lightbox)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of a comment box in an action.](../media/comment.jpg)](../media/comment.jpg#lightbox)
 
 - **Static result (Preview)** - By setting up static results for an action in your flow, you can simulate output data from that action. Enabling static results on an action doesn't run the action but returns the mock data instead.
 
