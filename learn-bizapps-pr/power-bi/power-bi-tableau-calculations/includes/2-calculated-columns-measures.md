@@ -10,6 +10,7 @@
 
 With calculated columns, you can add new data to a table already in your Power BI model. You'll be exploring some common use-cases: conditional columns, arithmetic between columns, and columns that are dependent on multiple tables.
 
+**Video**: Demo of calculated columns
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWy75w]
 
 ## Create conditional columns
@@ -69,6 +70,7 @@ The RELATED function allows users to use values from other tables in calculated 
 
 We review these steps in the following video:
 
+**Video**: Creating a calculate column
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWy75x]
 
 Another relationship function you might use is USERELATIONSHIP, which overrides other relationships only for the duration of the calculation. In other words, it enables the indicated relationship (based on the parameters or two column names) for the duration of the calculation.
@@ -77,6 +79,7 @@ Another relationship function you might use is USERELATIONSHIP, which overrides 
 
 Measures are going to be a little different when compared to calculated columns. Measures are not calculated by every row - they're calculated based on an aggregation.
 
+**Video**: Demo of creating a measure
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWy75B]
 
 | **Measures** | **Definition** |
