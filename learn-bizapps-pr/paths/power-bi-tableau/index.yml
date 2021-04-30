@@ -18,7 +18,7 @@ levels:
 - intermediate
 roles: 
 - data-analyst
-- business-intelligence
+- business-user
 products:
 - power-bi 
 modules:
