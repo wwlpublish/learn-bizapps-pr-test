@@ -1,4 +1,4 @@
-The premium HTTP with Azure AD connector is used to fetch resources from various web services that are authenticated by Microsoft Azure Active Directory (Azure AD) or from an on-premises web service.
+The premium **HTTP with Azure AD** connector is used to fetch resources from various web services that are authenticated by Microsoft Azure Active Directory (Azure AD) or from an on-premises web service.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the HTTP with Azure AD connector.](../media/http-azure.png)](../media/http-azure.png#lightbox)
@@ -23,7 +23,7 @@ The **Invoke an HTTP request** helps you access data from an endpoint by using o
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Invoke an HTTP request fields.](../media/invoke-http.png)](../media/invoke-http.png#lightbox)
 
-Current known issues and limitations of the HTTP with Azure AD connector are:
+Current known issues and limitations of the **HTTP with Azure AD** connector are:
 
 -   The connector encodes the request body into base64 encoding; hence, it should be used to call network services that expect the request body in this format. You can't use this connector to call a network service that expects the request body in raw binary format.
 
@@ -31,7 +31,7 @@ Current known issues and limitations of the HTTP with Azure AD connector are:
 
 The throttling limit for the **API** calls per connection is **100 calls** for every **60 seconds**.
 
-An example of the limitations with the HTTP with Azure AD connector is invoking an HTTP request to Microsoft Graph to get user information.
+An example of the limitations with the **HTTP with Azure AD** connector is invoking an HTTP request to Microsoft Graph to get user information.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot example of an HTTP request to Microsoft Graph.](../media/invoke-http-request.png)](../media/invoke-http-request.png#lightbox)
