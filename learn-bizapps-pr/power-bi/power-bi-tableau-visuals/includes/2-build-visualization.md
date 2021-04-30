@@ -11,9 +11,6 @@ As a Tableau analyst, creating a visual started with:
 > [!div class="mx-imgBorder"]
 > [![Step-by-step example on how to create a visualization in Tableau Desktop.](../media/tableau-workspace.png)](../media/tableau-workspace.png#lightbox)
 
-**Video**: Demo of Query Editor
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWy26M]
-
 In Microsoft Power BI, there are different steps to the same visualization process:
 
 1.  Start with the visual we're interested in by selecting one from the Visualization pane (like the "Show Me" feature in Tableau).
