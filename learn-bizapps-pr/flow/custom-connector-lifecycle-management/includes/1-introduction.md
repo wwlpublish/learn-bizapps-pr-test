@@ -1,4 +1,4 @@
-The use case for your custom connector will determine how you want to manage the life cycle as it evolves. The primary scenarios and a high-level overview of how they are handled are as follows:
+The use case for your custom connector will determine how you want to manage the life cycle as it evolves. The primary scenarios and a high-level overview are:
 
 -   **Single environment usage** - This scenario is commonly used for productivity apps that are built and used in the same environment. In this scenario, you are not concerned with moving the app between different environments or sharing it with other people outside your company. You would still have some concern for breaking changes and should follow some versioning update guidance. Using solutions will help your future transportability if you want to move the app to other environments in the future. Typically, for this scenario, a formal application lifecycle management (ALM) process is not implemented.
 
