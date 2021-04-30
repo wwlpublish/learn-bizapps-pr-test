@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.http-connectors 
 metadata: 
- title: Interact with data using web requests with HTTP connectors in Power Automate
+ title: Overview of HTTP connectors in Power Automate
  description: Learn about HTTP connectors that are available in Microsoft Power Automate.
  ms.date: 04/21/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Interact with data using web requests with HTTP connectors in Power Automate 
+title: Overview of HTTP connectors in Power Automate 
 summary: |  
   [!include[](../includes/module-banner.md)] 
   HTTP connectors use Representational State Transfer (REST) architecture, which allows users to interact directly with data by using web requests. Additionally, it allows flow makers to use the full potential of the web service offerings in a secure manner while still using Power Automate flows. This module will focus on the built-in and premium HTTP connectors. 
