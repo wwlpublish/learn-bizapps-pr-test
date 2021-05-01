@@ -1,13 +1,14 @@
 ### YamlMime:LearningPath
 uid: learn-bizapps.administer-power-bi-p2
 metadata:
-  title: Power BI administrators manage every aspect of their tenant. This learning path covers advanced administrative tasks, such as fostering collaboration and sharing data. You will earn how to monitor and audit usage, build a data access infrastructure, broaden the reach of Power BI, and automate administration with APIs and PowerShell cmdlets.
+  title: Administer Power BI, part 1 - Tenants, governance, collaboration  
+  description: Power BI administrators manage every aspect of their tenant. This learning path covers advanced administrative tasks, such as fostering collaboration and sharing data. You will earn how to monitor and audit usage, build a data access infrastructure, broaden the reach of Power BI, and automate administration with APIs and PowerShell cmdlets.
   ms.date: 05/01/2021
   author: heyrob
   ms.author: robde
   ms.topic: interactive-tutorial
   ms.prod: learning-power-bi
-title: Administer Power BI, part 1: Tenants, governance, collaboration                          
+title: Administer Power BI, part 1 - Tenants, governance, collaboration                          
 summary: |
   [!include[](../../includes/lp-banner.md)]
   Power BI administrators manage every aspect of their tenant. This learning path covers advanced administrative tasks, such as fostering collaboration and sharing data. You will earn how to monitor and audit usage, build a data access infrastructure, broaden the reach of Power BI, and automate administration with APIs and PowerShell cmdlets.
