@@ -1,10 +1,10 @@
 By using Data Analysis Expressions (DAX), you can add three types of calculations to your data model:
 
-- Calculated tables
+-   Calculated tables
 
-- Calculated columns
+-   Calculated columns
 
-- Measures
+-   Measures
 
 > [!NOTE]
 > DAX can also be used to define row-level security (RLS) rules, which are expressions that enforce filters over model tables. However, rules aren't considered to be model calculations so they're out of scope for this module. For more information, see [Row-level security (RLS) with Power BI](https://docs.microsoft.com/power-bi/admin/service-admin-rls/?azure-portal=true).
@@ -18,11 +18,11 @@ You can write a DAX formula to add a calculated table to your model. The formula
 
 Calculated tables can be useful in various scenarios:
 
-- Date tables
+-   Date tables
 
-- Role-playing dimensions
+-   Role-playing dimensions
 
-- What-if analysis
+-   What-if analysis
 
 ### Date tables
 
@@ -40,7 +40,7 @@ Microsoft Power BI models only allow one active relationship between tables, whi
 Perhaps a better model design could have two date tables, each with an active relationship to the Sales table. Thus, report users can filter by order date or ship date, or both at the same time. A calculated table can duplicate the Date table data to create the Ship Date table.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of two tables: Sales and Date. There is one relationship between Sales and Date, and one relationship between Sales and Ship Date.](../media/dax-sales-data-relationships-2-ss.png)](../media/dax-sales-data-relationships-2-ss.png#lightbox)
+> [![The image shows two tables: Sales and Date. There is one relationship between the Sales and Date tables, and one relationship between the Sales and Ship Date tables. Both relationships are active.](../media/dax-sales-data-relationships-2-ss.png)](../media/dax-sales-data-relationships-2-ss.png#lightbox)
 
 ### What-if analysis
 
@@ -57,7 +57,7 @@ You can write a DAX formula to add a calculated column to any table in your mode
 In the **Fields** pane, calculated columns are enhanced with a special icon. The following example shows a single calculated column in the Customer table called **Age**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Fields pane. In the Customer table, there are multiple fields, one adorned with an icon indicating that it's a calculated column.](../media/dax-fields-pane-calculated-column-ss.png)](../media/dax-fields-pane-calculated-column-ss.png#lightbox)
+> [![The image shows a section of the Fields pane. Inside the Customer table, there are multiple fields. One is adorned with the special icon, which indicates that it's a calculated column.](../media/dax-fields-pane-calculated-column-ss.png)](../media/dax-fields-pane-calculated-column-ss.png#lightbox)
 
 ## Measures
 
@@ -66,7 +66,7 @@ You can write a DAX formula to add a measure to any table in your model. The for
 In the **Fields** pane, measures are shown with the calculator icon. The following example shows three measures in the Sales table: **Cost**, **Profit**, and **Revenue**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Fields pane. In the Sales table, there are multiple fields, three adorned with the calculator icon indicating that they're measures.](../media/dax-fields-pane-measures-ss.png)](../media/dax-fields-pane-measures-ss.png#lightbox)
+> [![The image shows a section of the Fields pane. Inside the Sales table, there are multiple fields. Three are adorned with the calculator icon, which indicate that they're measures.](../media/dax-fields-pane-measures-ss.png)](../media/dax-fields-pane-measures-ss.png#lightbox)
 
 Occasionally, measures can be described as *explicit measures*. To be clear, explicit measures are model calculations that are written in DAX and are commonly referred to as simply *measures*. Yet, the concept of *implicit measures* exists, too. Implicit measures are columns that can be summarized by visuals in simplistic ways, like count, sum, minimum, maximum, and so on. You can identify implicit measures in the **Fields** pane because they're shown with the sigma symbol (∑).
 
