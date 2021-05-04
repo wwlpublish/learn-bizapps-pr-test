@@ -15,7 +15,7 @@ If we'd triggered the flow before, we could test automatically, but since this i
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Test Flow dialog with Manually selected.](../media/11-manually.png)](../media/11-manually.png#lightbox)
 
-Now we need to add a record to the table. In a new tab, visit [Power Apps](https://www.make.powerapps.com/?azure-portal=true) and select **Data** and then **Tables**. You can search for the table you want or select **Contact**.
+Now we need to add a record to the table. In a new tab, visit [Power Apps](https://make.powerapps.com/?azure-portal=true) and select **Data** and then **Tables**. You can search for the table you want or select **Contact**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Power Apps with Data > Tables selected in the navigation pane and Contact highlighted in the Tables list.](../media/12-data.png)](../media/12-data.png#lightbox)
