@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.best-practices-email.2-send 
-title: Send on behalf of
+title: Send on behalf of someone else
 metadata: 
-  title: Send on behalf of 
-  description: Learn about the send on behalf of feature. 
+  title: Send on behalf of someone else
+  description: Learn about the Send on behalf of feature. 
   ms.date: 04/21/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
