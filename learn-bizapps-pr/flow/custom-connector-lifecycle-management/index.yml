@@ -1,24 +1,24 @@
 ### YamlMime:Module 
 uid: learn-bizapps.custom-connector-lifecycle-management 
 metadata: 
- title: Custom connector lifecycle management in Power Automate
- description: This module covers how to manage these different scenarios using the tools and capabilities of the platform.
+ title: Custom connector life cycle management in Power Automate
+ description: This module explains how to handle the different scenarios of managing the life cycle of your custom connector by using the tools and capabilities of the platform.
  ms.date: 04/20/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Custom connector lifecycle management in Power Automate
+title: Custom connector life cycle management in Power Automate
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The use case for your custom connector will determine how you want to manage the lifecycle as it evolves. The primary scenarios are single environment usage, multiple environments usage, and open sourcing/certifying. 
+  The use case for your custom connector will determine how you want to manage the life cycle as it evolves. The primary scenarios are single environment usage, multiple environments usage, and open sourcing/certifying. 
 abstract: |  
     In this module, you will: 
     - Apply updates and versioning.
     - Use solutions.
     - Use connectors.
-    - Automate connector lifecycle.
-prerequisites: Familiarity with Power Platform and Power Automate.  
+    - Automate connector life cycle management.
+prerequisites: Familiarity with Microsoft Power Platform and Microsoft Power Automate  
 iconUrl: /learn/achievements/custom-connector-lifecycle-management.svg  
 levels:  
 - intermediate   

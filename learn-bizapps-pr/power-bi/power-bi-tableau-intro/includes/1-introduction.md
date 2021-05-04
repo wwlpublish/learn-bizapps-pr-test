@@ -1,5 +1,8 @@
 By the end of this module, you will be able to take your first step in changing from Tableau to Microsoft Power BI. Tableau and Power BI provide a set of tools that enables analysts and Enterprise Business Intelligence professionals to build visualizations and get insights from their data. These same tools cover the full spectrum of data connectivity, preparation, modeling, creating visualizations, and collaboration.
 
+**Video**: Introduction to Power BI for Tableau users
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWy75r]
+
 ## Life cycle comparison
 
 In today's data world, it is essential for companies to empower as many users as possible to gather actionable insights from quality data. These actionable insights are taken from reports that are built into tools like Tableau and Power BI. To get these insights, you would use these tools (and their features) at different stages in a report building life cycle: prepare, explore, visualize, and share and collaborate.
