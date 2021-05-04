@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.data-modeling.4-data-store
-title: Choosing a data store
+title: Choose a data store
 metadata:
-  title: Choosing a data store
-  description: Compare data stores
+  title: Choose a data store
+  description: Learn how to compare and choose data stores.
   ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley

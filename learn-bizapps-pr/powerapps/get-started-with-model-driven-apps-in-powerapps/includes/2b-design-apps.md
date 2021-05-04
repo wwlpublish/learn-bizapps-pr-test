@@ -42,7 +42,7 @@ These questions are important when designing a model-driven application because 
 
 You can view the app metadata by reviewing the table in the Dataverse.
 
-![Screenshot of app metadata of entity in the Dataverse.](../media/metadata-example.png)
+![Screenshot of app metadata of table in the Dataverse.](../media/new-metadata-example.png)
 
 You can also view the app metadata by putting the app in Play mode.
 
@@ -63,7 +63,7 @@ As you think about your data model also think about column types. When adding co
 > [!NOTE]
 > If a column type needs to be changed to a different column type, (i.e. text column to an option set), then you will need to delete that column and recreate with the correct column type. This will cause you to lose any data associated with that column.
 
-![Screenshot of fundraiser table default columns](../media/entity-field-types.png)
+![Screenshot of fundraiser table default columns.](../media/new-table-field-types.png)
 
 ### User Interface (UI) and User Experience (UX)
 
@@ -74,7 +74,7 @@ To continue building off of the example we’ve been using throughout this modul
  
 Here is an example of what the New Fundraiser form looks like when editing from the App Designer.
 
-![Screenshot example of new Fundraiser form.](../media/new-fundraiser-form.png)
+![Screenshot example of New Fundraiser form.](../media/new-updated-fundraiser-form.png)
 
 ### Business Logic
 

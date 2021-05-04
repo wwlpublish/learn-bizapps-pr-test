@@ -166,11 +166,11 @@ In this task, you'll create a scatter chart.
 
 1. From **Format Shape>General**, set the **Width** and **Height** to be 1280 and 120 respectively.
 
-1. From **FORMAT SHAPE** section under **Line>Weight**, set it to 0.
+1. From **FORMAT SHAPE** section under **Line>Weight**, set it to **0**.
 
-1. From FORMAT SHAPE section under Fill set, it to Off.
+1. From **FORMAT SHAPE** section under Fill set, it to **Off**.
 
-1. From **FORMAT SHAPE** section under **Background** set it to On.
+1. From **FORMAT SHAPE** section under **Background** set it to **On**.
 
 1. From **FORMAT SHAPE** section under **Background>Color**, set it to a medium gray.
 

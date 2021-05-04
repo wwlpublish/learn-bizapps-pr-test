@@ -1,8 +1,10 @@
-The type of workflows that can be created are categorized as automated and scheduled.
+The types of workflows that can be created are categorized as automated and scheduled.
 
 ## Automated flows
 
-Sometimes you have tasks that need to be performed when certain events happen. With Power Automate monitoring for those events, you can have the workflow automatically performed. Examples of Automated flows:
+Occasionally, you will have tasks that need to be performed when certain events happen. With Power Automate monitoring for those events, you can have the workflow automatically performed. 
+
+Examples of automated flows include:
 
 - When an item in a Teams list is modified, send an email
 
@@ -12,9 +14,11 @@ Sometimes you have tasks that need to be performed when certain events happen. W
 
 ## Scheduled flows
 
-Scheduled flows are launched by time-based events. At a certain interval or a specified time, Power Automate will perform the workflow. Examples of Scheduled flows:
+Scheduled flows are launched by time-based events. At a certain interval or a specified time, Power Automate will perform the workflow. 
 
-- Email a list of upcoming Calendar events
+Examples of scheduled flows include:
+
+- Email a list of upcoming calendar events
 
 - Delete OneDrive files older than five days and send an email daily
 

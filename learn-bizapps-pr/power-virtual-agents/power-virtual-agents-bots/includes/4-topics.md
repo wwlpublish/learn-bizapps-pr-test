@@ -16,9 +16,6 @@ Each created bot will include several predefined topics to help you get started.
 
 -   **System** - Prepopulated topics that represent common use cases that can occur during a bot conversation.
 
-> [!div class="mx-imgBorder"]
-> [![Screenshot of the lesson topics and system topics for getting started.](../media/power-virtual-agents-4-1-ss.png)](../media/power-virtual-agents-4-1-ss.png#lightbox)
-
 ## Work with lesson topics
 
 The intent of lesson topics is to provide examples of how to use topics to solve specific scenarios and to help you become more comfortable as you create bots. Lesson topics range from simple, such as providing a user with store hours, to more complex scenarios, where the bot assists online shoppers with items in their cart.
