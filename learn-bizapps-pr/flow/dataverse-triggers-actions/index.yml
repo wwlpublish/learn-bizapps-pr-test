@@ -17,7 +17,7 @@ abstract: |
     - Become familiar with Dataverse triggers in Power Automate
     - Become familiar with Dataverse actions in Power Automate
     - Understand additional inputs available
-prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate and Dataverse. 
+prerequisites: A basic understanding of Microsoft Power Automate and Dataverse. 
 iconUrl: /learn/achievements/dataverse-triggers-actions.svg  
 levels:  
 - intermediate   
