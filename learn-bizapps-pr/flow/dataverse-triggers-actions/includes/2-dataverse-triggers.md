@@ -1,4 +1,4 @@
-Power Automate allows you to build automated workflows through a series of triggers and actions. Triggers act as a catalyst to begin a series of actions. They 'trigger' your flow to begin. Dataverse (previously Common Data Service) acts as a scalable database, but also offers rich metadata and built-in logic processes. Nevertheless, the triggers in Power Automate are built on the data stored inside Dataverse.
+Power Automate allows you to build automated workflows through a series of triggers and actions. Triggers act as a catalyst to begin a series of actions. They 'trigger' your flow to begin. Dataverse acts as a scalable database, but also offers rich metadata and built-in logic processes. Nevertheless, the triggers in Power Automate are built on the data stored inside Dataverse.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Dataverse triggers.](../media/dataverse-triggers.png)](../media/dataverse-triggers.png#lightbox)
