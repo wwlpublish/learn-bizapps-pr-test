@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 04/27/2021 
+ ms.date: 05/04/2021 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -38,7 +38,7 @@ quiz:
     - content: The oldest version since it's likely to be simple and basic.
       isCorrect: false 
       explanation: Incorrect. The oldest version will likely lack functionality that would be useful for maximizing the efficacy of your solution.
-    - content: Research the versions before selecting and pick which is best for you.
+    - content: Research the versions before selecting, and pick which is best for you.
       isCorrect: false 
       explanation: Incorrect. The newer versions will nearly always be the best choice for you and it's not worthwhile to research every version while building a solution.
   - content: What tells the flow what to do?

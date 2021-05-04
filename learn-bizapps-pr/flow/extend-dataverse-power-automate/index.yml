@@ -2,8 +2,8 @@
 uid: learn-bizapps.extend-dataverse-power-automate 
 metadata: 
  title: Extend Dataverse with Power Automate
- description: Automating processes that begin in Dataverse can be done easily by building a flow. This allows you to extend beyond Dataverse to programs such as Outlook and To-Do.
- ms.date: 04/27/2021  
+ description: Learn how to extend Dataverse with Power Automate.
+ ms.date: 05/04/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -27,6 +27,7 @@ roles:
 products: 
 - power-platform
 - power-automate
+- common-data-service
 units: 
 - learn-bizapps.extend-dataverse-power-automate.1-introduction 
 - learn-bizapps.extend-dataverse-power-automate.2-set-up-flow-trigger 
