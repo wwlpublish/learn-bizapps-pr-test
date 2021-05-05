@@ -52,6 +52,6 @@ After launching the app, sign in using the account, which you used to set up you
 
 One of the major benefits of using desktop flows is the ability to perform actions on desktop applications. For testing this functionality without making changes to your existing desktop apps, you can use this invoicing application to explore the concepts and actions available to you in desktop flows. After completing the module, you can use what you have learned to run desktop flows on your own applications and automate existing processes.
 
-Download the [Contoso Invoicing app](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/raw/master/power-automate-desktop/contoso-invoice-app/ContosoInvoicingSetup.exe), and then open the application and explore the elements.
+Download the [Contoso Invoicing app](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/contoso-invoice-app/ContosoInvoicingSetup.zip), extract the contents and then install the application and explore the elements.
 
 If you don't have a desktop app created to connect to a cloud flow, do so now by following this module or on your own. In addition, you will need a defined gateway for this connection to work. If you have not created a gateway to your desktop, do so now by following this module.
