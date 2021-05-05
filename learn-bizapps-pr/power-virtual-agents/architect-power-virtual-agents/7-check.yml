@@ -13,45 +13,45 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: You build a Power Virtual Agent chatbot. You need to add an existing bot developed in Node.js with the Azure Bot Framework to your chatbot. What should you do?
+  - content: You are building a Power Virtual Agents chatbot. You need to add an existing bot that was developed in Node.js with the Azure Bot Framework to your chatbot. What should you do?
     choices: 
     - content: Use Azure Bot Composer
       isCorrect: false
-      explanation: Azure Bot Composer can only be used to add content to a  Power Virtual Agent chatbot. It cannot be used to add an Azure Bot Framework bot.
+      explanation: Azure Bot Composer can only be used to add content to a Power Virtual Agents chatbot. It can't be used to add an Azure Bot Framework bot.
     - content: Use the Dispatcher tool 
       isCorrect: false
-      explanation: The Dispatcher tool will add your Power Virtual Agent chatbot and allow it to be called from an Azure Bot Framework bot. 
+      explanation: The Dispatcher tool will add your Power Virtual Agents chatbot and allow it to be called from an Azure Bot Framework bot. 
     - content: Add a skill
       isCorrect: true
-      explanation: You define the Azure Bot Framework bot as a skill. You can then call the Azure Bot Framework bot from your Power Virtual Agent chatbot.
+      explanation: You will define the Azure Bot Framework bot as a skill. You can then call the Azure Bot Framework bot from your Power Virtual Agents chatbot.
     - content: Use Power Automate
       isCorrect: false
-      explanation: Power Automate is used to perform actions for the Power Virtual Agent chatbot. It cannot add an Azure Bot Framework bot.
-  - content: You need to answer questions in a Power Virtual Agent chatbot from an QnA Maker knowledge base. What should you use?
+      explanation: Power Automate is used to perform actions for the Power Virtual Agents chatbot. It can't add an Azure Bot Framework bot.
+  - content: You need to answer questions in a Power Virtual Agents chatbot from a QnA Maker knowledge base. What should you use?
     choices: 
     - content: Azure Bot Composer
       isCorrect: false
-      explanation: Azure Bot Composer can integrate with QnA Maker knowledge bases but QnA Maker is not available in Composer for Power Virtual Agents.
+      explanation: Azure Bot Composer can integrate with QnA Maker knowledge bases, but QnA Maker is not available in Azure Bot Composer for Power Virtual Agents.
     - content: Power Automate
       isCorrect: true
-      explanation: Power Automate has a connector QnA Maker. Calling a Power Automate cloud flow with a Power Virtual Agents action allows the user prompt to be answered with a QnA Maker knowledge base response.
-    - content: Custom Entity
+      explanation: Power Automate has a QnA Maker connector. Calling a Power Automate cloud flow with a Power Virtual Agents action allows the user prompt to be answered with a QnA Maker knowledge base response.
+    - content: Custom entities
       isCorrect: false
       explanation: Power Virtual Agents entities are used to extract information from a user's prompt. Entities are not used to access the QnA Maker knowledge base.
-    - content: Channel
+    - content: Channels
       isCorrect: false
       explanation: Power Virtual Agents channels are used to deploy the chatbot to different services. Channels are not used to access the QnA Maker knowledge base.
   - content: You need to create a chatbot that supports LUIS and QnA Maker. What should you use?
     choices: 
-    - content: Power Virtual Agents Web app
+    - content: Power Virtual Agents web app
       isCorrect: false
-      explanation: Adaptive Cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
+      explanation: Adaptive cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
     - content: Power Virtual Agents in Microsoft Teams
       isCorrect: false
-      explanation: Adaptive Cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
-    - content: Adaptive Cards
+      explanation: Adaptive cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
+    - content: Adaptive cards
       isCorrect: false
-      explanation: Adaptive Cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
+      explanation: Adaptive cards are used to create rich interactive messages with Azure Bot Service bots. They are not related to LUIS or QnA Maker.
     - content: Azure Bot Composer
       isCorrect: true
       explanation: Azure Bot Composer supports LUIS and QnA Maker natively.
