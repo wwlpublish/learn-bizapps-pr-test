@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.architect-power-virtual-agents.1-introduction
-title: Introduction to Power Virtual Agents
+title: Introduction
 metadata:
-  title: Introduction to Power Virtual Agents
-  description: What are Power Virtual Agents and the use cases for chatbots
+  title: Introduction
+  description: Introduction to Microsoft Power Virtual Agents and its components
   ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley 
