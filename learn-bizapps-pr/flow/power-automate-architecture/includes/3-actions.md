@@ -8,7 +8,7 @@ The **Dataverse** connector has the following actions:
 - Update a record
 - Delete a record
 
-The **Dataverse ** connector has the same actions, including several more:
+The **Dataverse** connector has the same actions, including several more:
 - Create a new row
 - Get a row by ID
 - List rows
@@ -23,10 +23,10 @@ The **Dataverse ** connector has the same actions, including several more:
 - Perform an unbound action
 - Predict by using AI Builder models
 
-The **Dataverse ** connector also allows the creation and use of child flows.
+The **Dataverse** connector also allows the creation and use of child flows.
 
 > [!NOTE]
-> The **Dataverse ** connector has many advantages over other connectors and should be your first choice with Power Automate.
+> The **Dataverse** connector has many advantages over other connectors and should be your first choice with Power Automate.
 
 ## Retrieve data
 
@@ -74,4 +74,4 @@ Custom actions are reusable processes that can be initiated from code and Power 
 - **Set Word Template** - Creates a Microsoft Word document from a Word template.
 - **Add To Queue** - Adds a record to a queue.
 
-Power Automate cloud flows can call custom actions by using the **Dataverse ** connector. You should use **Perform a bound action** for action processes that are associated with a table and use **Perform an unbound action** for action processes that are set as **Global**.
+Power Automate cloud flows can call custom actions by using the **Dataverse** connector. You should use **Perform a bound action** for action processes that are associated with a table and use **Perform an unbound action** for action processes that are set as **Global**.

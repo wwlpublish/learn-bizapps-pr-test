@@ -13,7 +13,7 @@ Three types of triggers for initiating Power Automate cloud flows are:
 - **Instant** - A flow that is run manually by a user, such as a button being pressed.
 - **Scheduled** - A flow that is run on a recurring basis, such as at 9:00 AM every workday, or every hour.
 
-This section will focus on using the triggers for Dataverse. Automated flows can be triggered from data events in the platform's event framework. The **Dataverse ** connector has a single automated trigger when a record is created, updated, or deleted.
+This section will focus on using the triggers for Dataverse. Automated flows can be triggered from data events in the platform's event framework. The **Dataverse** connector has a single automated trigger when a record is created, updated, or deleted.
 
 In the trigger step, you have to specify the trigger condition:
 
@@ -25,7 +25,7 @@ In the trigger step, you have to specify the trigger condition:
 - Update
 - Update or delete
 
-The **Dataverse ** connector has a single instant trigger when a flow step is run from a business process flow. This feature allows a Power Automate cloud flow to be manually initiated by a user as a step in a business process flow.
+The **Dataverse** connector has a single instant trigger when a flow step is run from a business process flow. This feature allows a Power Automate cloud flow to be manually initiated by a user as a step in a business process flow.
 
 The **Dataverse** connector has a single instant trigger when a row is selected. This feature allows a Power Automate cloud flow to be manually initiated by a user from within a form for a row in a model-driven app.
 
@@ -47,7 +47,7 @@ Additionally, like other triggers, **Dataverse** connectors can have a filter ap
 
 ![Screenshot of the connector with filters on the trigger.](../media/2-trigger-filter.png)
 
-In the previous diagram, the **When a row is added, modified or deleted** trigger for the **Dataverse ** trigger has two filters that can be used:
+In the previous diagram, the **When a row is added, modified or deleted** trigger for the **Dataverse** trigger has two filters that can be used:
 
 - **Column filter** - If columns are specified, the flow will only run if any of the listed columns are modified.
 - **Row filter** - If an OData query is specified, the filter expressions determine which rows can trigger the flow.

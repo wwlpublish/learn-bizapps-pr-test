@@ -16,7 +16,7 @@ The underlying features and components that are used to build the kit (such as D
 
 [Dataverse (previously known as Dataverse)](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true)
 
-[Dataverse ](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true)
+[Dataverse](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true)
 
 [Microsoft 365 Users (previously known as Office 365 users)](https://docs.microsoft.com/connectors/office365users/?azure-portal=true)
 
