@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.architect-power-virtual-agents.5-integrate-chatbots
-title: Integrating chatbots
+title: Integrate chatbots
 metadata:
-  title: Integrating chatbots
-  description: Using chatbots with other services
+  title: Integrate chatbots
+  description: Learn how to use chatbots with other services.
   ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley 
