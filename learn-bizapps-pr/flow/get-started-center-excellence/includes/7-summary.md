@@ -14,9 +14,9 @@ The underlying features and components that are used to build the kit (such as D
 
 [Search the audit sign in the compliance center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#before-you-begin/?azure-portal=true)
 
-[Dataverse (previously known as Common Data Service)](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true)
+[Dataverse (previously known as Dataverse)](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true)
 
-[Dataverse (current environment)](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true)
+[Dataverse ](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true)
 
 [Microsoft 365 Users (previously known as Office 365 users)](https://docs.microsoft.com/connectors/office365users/?azure-portal=true)
 

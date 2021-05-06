@@ -73,10 +73,10 @@ To add an action, follow these steps:
 
 1. Enter **ContactInfo** for the **Name** and then select **String** for the type.
 
-1. To access Dataverse for Teams table information, search for the **Common Data Service (Current Environment)** connector. Select **List rows** for the trigger.
+1. To access Dataverse for Teams table information, search for the **Dataverse (Current Environment)** connector. Select **List rows** for the trigger.
     
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the search for Common Data Service connector with List rows selected.](../media/image-27.png)](../media/image-27.png#lightbox)
+	> [![Screenshot of the search for Dataverse connector with List rows selected.](../media/image-27.png)](../media/image-27.png#lightbox)
 
 1. From the drop-down list, select the **Sales Project Team** table.
     

@@ -87,8 +87,8 @@ Power Automate Desktop flows are a valid way to perform integrations and automat
 Three connectors for Microsoft Dataverse are:
 
 - **Microsoft Dynamics 365** - This connector is deprecated and should not be used.
-- **Common Data Service** - Use this connector when you are not using solutions. It allows connection to any Dataverse environment.
-- **Common Data Service (Current Environment)** - Use this connector when you use solutions. This connector is the recommended choice, has more options than the other connectors, and is more flexible in the triggers that are available.
+- **Dataverse** - Use this connector when you are not using solutions. It allows connection to any Dataverse environment.
+- **Dataverse (Current Environment)** - Use this connector when you use solutions. This connector is the recommended choice, has more options than the other connectors, and is more flexible in the triggers that are available.
 
 ## Assess the cost of doing nothing
 

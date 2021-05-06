@@ -18,7 +18,7 @@ Power Platform is a low-code, rapid business application development platform, a
 
 Power Platform includes many other components that support Power Platform tools that the solution architect can use:
 
-- **Microsoft Dataverse (formerly known as Common Data Service)** - Provides a no-code environment to create tables, relationships, and business logic.
+- **Microsoft Dataverse (formerly known as Dataverse)** - Provides a no-code environment to create tables, relationships, and business logic.
 
 - **Data connectors** - Connectors define the services and data sources that Power Platform tools can access.
 
