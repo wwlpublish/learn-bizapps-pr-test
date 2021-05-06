@@ -5,14 +5,14 @@ Power Automate Desktop flows use robotic process automation (RPA) techniques to 
 Whether working with modern or legacy apps, on-premises, or in the cloud, Power Automate Desktop can automate rule-based UI tasks by recording mouse clicks, keyboard inputs, and data entry. Power Automate Desktop can also extract information from the application user interface. After the actions have been recorded, Power Automate Desktop has a rich editor for adjusting these user actions to create complex desktop flows.
 
 > [!div class="mx-imgBorder"]
-> [![alt text](../media/2-desktop-flow-designer.png)](../media/2-desktop-flow-designer.png#lightbox)
+> [![Screenshot of Power Automate Desktop flow designer.](../media/2-desktop-flow-designer.png)](../media/2-desktop-flow-designer.png#lightbox)
 
 Power Automate Desktop flows can be run attended, with the user manually initiating the flow. Alternatively, the flows can be run unattended, with desktop flows running on Microsoft Azure Virtual Machines.
 
 Power Automate Desktop flows are a valid way to perform integrations and automation when no other alternative is available, or when developing an integration would be expensive and time-consuming.
 
 > [!NOTE]
-> Power Automate cloud flows are explained in the Power Automate architecture module.
+> Power Automate cloud flows are explained in the [Power Automate architecture module](https://docs.microsoft.com/learn/modules/power-automate-architecture/?azure-portal=true).
 
 ## Desktop software
 
