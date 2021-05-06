@@ -20,4 +20,4 @@ The number of columns within a table varies from a few columns to a hundred or m
 Every database in Microsoft Dataverse starts with a standard set of tables and each standard table has a standard set of columns.
 
 > [!TIP]
-> Always use standard tables and columns when possible. You can rename a table if that makes the table more understandable in the context of your solution. Always review the list of standard tables and make sure a standard table will not meet your needs before you create a new table.
+> Always use standard tables and columns when possible. You can rename a table if that makes the table more understandable in the context of your solution. Always review the list of standard tables and make sure a standard table will meet your needs before you create a new table.
