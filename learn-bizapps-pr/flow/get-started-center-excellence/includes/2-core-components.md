@@ -130,7 +130,7 @@ Importing the solution is a required installation process that helps ensure that
 	
 		-   Dataverse
 		
-		-   Dataverse (current environment)
+		-   Dataverse 
 		
 		-   Power Apps for Admins
 		

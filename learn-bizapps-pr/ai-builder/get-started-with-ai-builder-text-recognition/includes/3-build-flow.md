@@ -32,7 +32,7 @@ In this example, you will set the **Folder** property to the **Images** folder.
 ### Call AI Builder Text recognition
 
 1. Select **New step**.
-2. Select **Predict - Dataverse (current environment)**.
+2. Select **Predict - Dataverse**.
 3. Select **TextRecognition model** in the **Model** drop-down menu.
 4. Select **File Content** in the **Image file** drop-down menu.
 

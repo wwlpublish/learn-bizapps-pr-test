@@ -13,7 +13,7 @@ Three types of triggers for initiating Power Automate cloud flows are:
 - **Instant** - A flow that is run manually by a user, such as a button being pressed.
 - **Scheduled** - A flow that is run on a recurring basis, such as at 9:00 AM every workday, or every hour.
 
-This section will focus on using the triggers for Dataverse. Automated flows can be triggered from data events in the platform's event framework. The **Common Data Service (current environment)** connector has a single automated trigger when a record is created, updated, or deleted.
+This section will focus on using the triggers for Dataverse. Automated flows can be triggered from data events in the platform's event framework. The **Dataverse** connector has a single automated trigger when a record is created, updated, or deleted.
 
 In the trigger step, you have to specify the trigger condition:
 
@@ -25,9 +25,9 @@ In the trigger step, you have to specify the trigger condition:
 - Update
 - Update or delete
 
-The **Common Data Service (current environment)** connector has a single instant trigger when a flow step is run from a business process flow. This feature allows a Power Automate cloud flow to be manually initiated by a user as a step in a business process flow.
+The **Dataverse** connector has a single instant trigger when a flow step is run from a business process flow. This feature allows a Power Automate cloud flow to be manually initiated by a user as a step in a business process flow.
 
-The **Common Data Service** connector has a single instant trigger when a row is selected. This feature allows a Power Automate cloud flow to be manually initiated by a user from within a form for a row in a model-driven app.
+The **Dataverse** connector has a single instant trigger when a row is selected. This feature allows a Power Automate cloud flow to be manually initiated by a user from within a form for a row in a model-driven app.
 
 For example, a common pattern that is used with Power Automate cloud flows is to use the **Scheduled trigger to run** feature to retrieve all rows that are due for the day and then loop through and process them on a daily basis.
 
@@ -35,19 +35,19 @@ For example, a common pattern that is used with Power Automate cloud flows is to
 
 Triggers represent notifications to Power Automate cloud flows that an event has occurred. Triggers are grouped into two types: poll and push. A polling trigger makes a call into the API at a reoccurring frequency to check for new messages. When new data is available, the trigger will run the flow. Examples of poll triggers include timer triggers. A push trigger responds to a push of new data from the service.
 
-When you are using triggers, indication of whether a trigger is poll or push will be invisible to you. The deprecated **Dynamics 365** connector used polling triggers; the more modern **Common Data Service** connector uses push triggers. Push triggers are more efficient and are more real-time.
+When you are using triggers, indication of whether a trigger is poll or push will be invisible to you. The deprecated **Dynamics 365** connector used polling triggers; the more modern **Dataverse** connector uses push triggers. Push triggers are more efficient and are more real-time.
 
 Not every connector has a trigger. In such cases, you can use a scheduled trigger and then retrieve the data that has changed since the previous run. In other words, use a polling pattern. If you use this pattern, you need to ensure that you don't run the flow too often, and you should leave several minutes between each iteration.
 
 ## Use filters
 
-Solution architects should consider minimizing the number of flow runs for each cloud flow. A common mistake that many people make with Power Automate when creating and updating triggers is to retrieve the row and then have a condition that checks if the flow needs to do anything. With **Common Data Service** connectors, you do not need to retrieve the row; the trigger step contains the new/changed data.
+Solution architects should consider minimizing the number of flow runs for each cloud flow. A common mistake that many people make with Power Automate when creating and updating triggers is to retrieve the row and then have a condition that checks if the flow needs to do anything. With **Dataverse** connectors, you do not need to retrieve the row; the trigger step contains the new/changed data.
 
-Additionally, like other triggers, **Common Data Service** connectors can have a filter applied to the trigger. A filter will prevent the flow run from being implemented, reducing unnecessary implementations of the flow.
+Additionally, like other triggers, **Dataverse** connectors can have a filter applied to the trigger. A filter will prevent the flow run from being implemented, reducing unnecessary implementations of the flow.
 
 ![Screenshot of the connector with filters on the trigger.](../media/2-trigger-filter.png)
 
-In the previous diagram, the **When a row is added, modified or deleted** trigger for the **Common Data Service (current environment)** trigger has two filters that can be used:
+In the previous diagram, the **When a row is added, modified or deleted** trigger for the **Dataverse** trigger has two filters that can be used:
 
 - **Column filter** - If columns are specified, the flow will only run if any of the listed columns are modified.
 - **Row filter** - If an OData query is specified, the filter expressions determine which rows can trigger the flow.
