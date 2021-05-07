@@ -15,12 +15,12 @@ summary: |
 abstract: |  
     In this module, you will: 
     - Learn about the relationship between Dataverse contacts and portal users.
-    - Identify the various portal security metadata entities such as contacts, web roles, webpage access control rules, and entity permissions.
+    - Identify the various portal security metadata entities such as contacts, web roles, webpage access control rules, and table permissions.
     - Discover how you can limit access to portal webpages by using webpage access control rules.
-    - Learn how to configure entity permissions to secure Dataverse and Dynamics 365 records.
+    - Learn how to configure table permissions to secure Dataverse and Dynamics 365 records.
 prerequisites: |
   - Basic understanding of Power Apps portals
-  - Ability to create webpages and show Dataverse data by using entity lists and entity forms
+  - Ability to create webpages and show Dataverse data by using table lists and table forms
   - Basic understanding of how relationships work between Dataverse entities
 iconUrl: /learn/achievements/configure-security.svg  
 levels:  
@@ -35,7 +35,7 @@ products:
 units: 
 - learn-bizapps.configure-security.1-introduction 
 - learn-bizapps.configure-security.2-secure-static-content 
-- learn-bizapps.configure-security.3-entity-permissions 
+- learn-bizapps.configure-security.3-table-permissions 
 - learn-bizapps.configure-security.4-exercise 
 - learn-bizapps.configure-security.5-check 
 - learn-bizapps.configure-security.6-summary 
