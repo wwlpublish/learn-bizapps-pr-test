@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 10 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/3-table-permissions.md)] 
+ [!include[](includes/3-entity-permissions.md)] 
