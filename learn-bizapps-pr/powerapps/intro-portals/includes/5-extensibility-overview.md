@@ -14,7 +14,7 @@ For more information, see [Create a custom page template](https://docs.microsoft
 
 ## JavaScript
 
-Custom JavaScript code can be embedded in different portal assets such as webpages, web templates, entity forms, and entity lists.  JavaScript can be used to enhance the client interface, add complex user input validation, or call external web services. Scripting in Power Apps portals is specific to portal components and does not use scripts from model-driven apps in entity forms or views.
+Custom JavaScript code can be embedded in different portal assets such as webpages, web templates, table forms, and table lists.  JavaScript can be used to enhance the client interface, add complex user input validation, or call external web services. Scripting in Power Apps portals is specific to portal components and does not use scripts from model-driven apps in table forms or views.
 
 For more information, see [Add custom JavaScript](https://docs.microsoft.com/powerapps/maker/portals/configure/add-custom-javascript).
 
@@ -26,4 +26,4 @@ For more information, see [Edit CSS for themes in Power Apps portal](https://doc
 
 ## Companion apps
 
-Some situations might occur where custom code is required to create or update data in Dataverse without submitting an entity form or web form. A common technique is to create a custom web app outside of Power Apps portals, by using the Web Apps feature of Azure App Service or Azure Functions, that will expose an API that can be securely called from JavaScript on portal pages. The web app can interact with data by using the standard Dataverse web API.
+Some situations might occur where custom code is required to create or update data in Dataverse without submitting table form or web form. A common technique is to create a custom web app outside of Power Apps portals, by using the Web Apps feature of Azure App Service or Azure Functions, that will expose an API that can be securely called from JavaScript on portal pages. The web app can interact with data by using the standard Dataverse web API.

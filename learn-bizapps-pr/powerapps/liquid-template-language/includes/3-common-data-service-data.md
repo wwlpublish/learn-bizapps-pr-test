@@ -9,25 +9,25 @@ Power Apps portals implements numerous extensions that are specific to the porta
 - Website
 - Generic entities
 
-[Power Apps Dataverse entity tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/portals-entity-tags/?azure-portal=true) include:
+[Power Apps Dataverse table tags](https://docs.microsoft.com/powerapps/maker/portals/liquid/portals-table-tags/?azure-portal=true) include:
 
 - chart
 - Power BI
-- entitylist
-- entityview
+- tablelist
+- tableview
 - fetchxml
 
-In the following example, the **Active Currencies** view is being loaded and all returned records are displayed. In portals Studio, this code produces output because of the implicit design-time privileges of the maker. However, on the portal, the user needs to have Read privileges assigned on the **currency** entity for the fragment to return any data.
+In the following example, the **Active Currencies** view is being loaded and all returned records are displayed. In portals Studio, this code produces output because of the implicit design-time privileges of the maker. However, on the portal, the user needs to have Read privileges assigned on the **currency** table for the fragment to return any data.
 
 ```twig
-{% entityview logical_name:'transactioncurrency', name:'Active Currencies' %}
-<p>We support {{ entityview.total_records }} currencies.</p>
+{% tableview logical_name:'transactioncurrency', name:'Active Currencies' %}
+<p>We support {{ tableview.total_records }} currencies.</p>
 <ul>
-  {% for cur in entityview.records -%}
+  {% for cur in tableview.records -%}
   <li>{{ cur.currencyname }}</li>
   {% endfor %}
 </ul>
-{% endentityview %}
+{% endtableview %}
 ```
 
 The output would look like the following example:
@@ -45,7 +45,7 @@ By using Liquid in Power Apps portals, you can:
 - [Store source content by using web templates](https://docs.microsoft.com/dynamics365/customer-engagement/portals/store-content-web-templates/?azure-portal=true), entirely through configuration within Power Apps, for use throughout the Power Apps portals content management system.
 - [Render a website header and primary navigation bar](https://docs.microsoft.com/powerapps/maker/portals/liquid/render-site-header-primary-navigation/?azure-portal=true), entirely through configuration within Power Apps.
 
-In these scenarios, you'll have dynamic access to Power Apps portals features, such as site settings, content snippets, entity lists and forms, and so on.
+In these scenarios, you'll have dynamic access to Power Apps portals features, such as site settings, content snippets, table lists and forms, and so on.
 
 > [!IMPORTANT]
 > Liquid statements are only processed as *output*. Liquid does not have the capacity to extend server-side code that deals with user interactions such as form submissions.

@@ -47,11 +47,11 @@ To create a web template, follow these steps:
     ```twig
     {% fetchxml accounts %}
     <fetch>
-      <entity name="account">
+      <table name="account">
         <attribute name="name" />
         <attribute name="numberofemployees" />
         <attribute name="revenue" />
-      </entity>
+      </table>
     </fetch>
     {% endfetchxml %}
     [
@@ -100,18 +100,18 @@ To create a page template and a webpage, follow these steps:
 1. Select **Save & Close**.
 
 > [!IMPORTANT]
-> If you have not previously configured entity permissions for the account entity, your API page will return an empty array. Complete the next task to set up the permissions if you have not done so previously.
+> If you have not previously configured table permissions for the account table, your API page will return an empty array. Complete the next task to set up the permissions if you have not done so previously.
 
-#### Add entity permissions
+#### Add table permissions
 
-To add entity permissions, follow these steps:
+To add table permissions, follow these steps:
 
 1. Switch to the Portal Management app.
-1. Select **Entity Permissions**.
+1. Select **Table Permissions**.
 1. Select **+ New**.
 1. Enter the following values:
     - **Name** - Account Directory
-    - **Entity Name** - Select account entity
+    - **Table Name** - Select account table
     - **Website** - Select your current website
     - **Scope** - Select **Global**
     - **Privileges** - Select **Read**
@@ -170,7 +170,7 @@ To add code to retrieve the data, follow these steps:
     > [![Screenshot of the console output with the same data as the previously retrieved REST API page.](../media/console-output.png)](../media/console-output.png#lightbox)
 
 > [!IMPORTANT]
-> If you have not previously configured entity permissions for the account entity, your API call will return an empty array. Make sure that you have completed the **Add entity permissions** task.
+> If you have not previously configured table permissions for the account table, your API call will return an empty array. Make sure that you have completed the **Add table permissions** task.
 
 #### Add external library functionality
 

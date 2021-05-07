@@ -2,7 +2,7 @@ Portal templates provide additional features that extend the functionality of Mi
 
 ## Case management
 
-The case management capabilities extend Dynamics 365 Customer Service by allowing portal users to log and update support cases, tickets, and questions. This information is stored in the Dynamics 365 case entity and communications are tracked by using portal comments.
+The case management capabilities extend Dynamics 365 Customer Service by allowing portal users to log and update support cases, tickets, and questions. This information is stored in the Dynamics 365 case table and communications are tracked by using portal comments.
 
 This feature is a common use case for portals and provides customer service organizations with a key channel to interact with their customers. A key benefit is that customers who want to submit a ticket are presented with options to review existing knowledge articles and forum posts because these items might resolve the customer's question in a faster manner.
 

@@ -15,7 +15,7 @@ To use the Event Framework for your solution, make sure that you're familiar wit
 Additionally, you can specify the different stages:
 
 - **Pre-Validation** - For the initial operation, this stage will occur before the main system operation. This stage provides an opportunity for you to include logic to cancel the operation before the database transaction. This stage occurs before any security checks are performed to verify that the calling or signed-in user has the correct permission to perform the intended operation.
-- **Pre-Operation** - Occurs before the main system operation and within the database transaction. If you want to change values for an entity that is included in the message, you should do it in this stage.
+- **Pre-Operation** - Occurs before the main system operation and within the database transaction. If you want to change values for table that is included in the message, you should do it in this stage.
 - **Main-Operation** - For internal use only except for custom API and custom virtual table data providers.
 - **Post-Operation** - Occurs after the main system operation and within the database transaction. Use this stage to modify properties of the message before it is returned to the caller.
 

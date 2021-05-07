@@ -73,7 +73,7 @@ The **Manage SSL certificates** section will show a listing of all uploaded SSL 
 
 ## Set up SharePoint integration
 
-The **Set up SharePoint integration** section provides you with the ability to activate the SharePoint integration so that SharePoint document libraries that are integrated with Dataverse and Dynamics 365 can be shown through an entity form.
+The **Set up SharePoint integration** section provides you with the ability to activate the SharePoint integration so that SharePoint document libraries that are integrated with Dataverse and Dynamics 365 can be shown through a table form.
 
 ## Set up Power BI integration
 

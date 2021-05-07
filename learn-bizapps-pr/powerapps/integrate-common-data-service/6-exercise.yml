@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.integrate-common-data-service.6-exercise 
-title: Exercise - Extend entity forms with additional actions
+title: Exercise - Extend table forms with additional actions
 metadata: 
-  title: Exercise - Extend entity forms with additional actions
+  title: Exercise - Extend table forms with additional actions
   description: Practice creating and configuring a workflow action and an action button.
   ms.date: 07/16/2020 
   author: DaveBeasley 

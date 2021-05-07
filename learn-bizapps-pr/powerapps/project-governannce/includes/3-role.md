@@ -25,7 +25,7 @@ Examples of bad news that the solution architect shouldn't withhold:
 - The cost of user licenses will increase by 87 percent if they move ahead with that requirement as written.
 - That feature is being deprecated.
 - With the added relationship, the data import will now take 30 days.
-- Data migration has identified 200 new fields and, from this data, three new undocumented processes have been discovered.
+- Data migration has identified 200 new columns and, from this data, three new undocumented processes have been discovered.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of actionable feedback when working on a project.](../media/3-feedback.png)](../media/3-feedback.png#lightbox)

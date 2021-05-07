@@ -31,16 +31,16 @@ quiz:
     choices: 
     - content: Profile management
       isCorrect: false 
-      explanation: Power Apps portals provide the ability to show and interact with Microsoft Dataverse data by using web roles and entity permissions, including the contact entity (profile management). A Payment gateway would need to be developed separately.
+      explanation: Power Apps portals provide the ability to show and interact with Microsoft Dataverse data by using web roles and table permissions, including the contact table (profile management). A Payment gateway would need to be developed separately.
     - content: Dataverse security
       isCorrect: false 
-      explanation: Power Apps portals provide the ability to show and interact with Dataverse data by using web roles and entity permissions, including the contact entity (profile management). A Payment gateway would need to be developed separately.
+      explanation: Power Apps portals provide the ability to show and interact with Dataverse data by using web roles and table permissions, including the contact table (profile management). A Payment gateway would need to be developed separately.
     - content: Payment gateway
       isCorrect: true 
-      explanation: Power Apps portals provide the ability to show and interact with Dataverse data by using web roles and entity permissions, including the contact entity (profile management). A Payment gateway would need to be developed separately.
+      explanation: Power Apps portals provide the ability to show and interact with Dataverse data by using web roles and table permissions, including the contact table (profile management). A Payment gateway would need to be developed separately.
     - content: Create and Update Dataverse records
       isCorrect: false 
-      explanation: Power Apps portals provide the ability to show and interact with Dataverse data by using web roles and entity permissions, including the contact entity (profile management). A Payment gateway would need to be developed separately.
+      explanation: Power Apps portals provide the ability to show and interact with Dataverse data by using web roles and table permissions, including the contact table (profile management). A Payment gateway would need to be developed separately.
   - content: Where do you write new knowledge articles for the portal?
     choices: 
     - content: Portal Studio
