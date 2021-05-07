@@ -9,10 +9,10 @@ To access the Power Apps visual table editor, follow these steps:
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Create new table button.](../media/create-table.png)](../media/create-table.png#lightbox)
 
-1. Enter **EquipmentList** in the **Table name** field because you want the table to hold a list of equipment. Select **Create** to complete the process.
+1. Enter **EquipmentList** in the **Table name** column because you want the table to hold a list of equipment. Select **Create** to complete the process.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Table name field with the Create button.](../media/table-name.png)](../media/table-name.png#lightbox)
+	> [![Screenshot of the Table name column with the Create button.](../media/table-name.png)](../media/table-name.png#lightbox)
 
     After a few seconds, your table will be provisioned and will display in the visual table editor. The visual table editor enables you to quickly populate your table with the **+ Add column** and **+ Add row** options.
     
@@ -20,7 +20,7 @@ To access the Power Apps visual table editor, follow these steps:
 
 1. Select **+ Add column**.
 
-1. In the **Name** field, enter **Location**.
+1. In the **Name** column, enter **Location**.
 
 1. To indicate the type of data that the table will contain, select **Choice** from the **Type** drop-down menu.
 
@@ -46,10 +46,10 @@ To access the Power Apps visual table editor, follow these steps:
     |     Choice         |     Allows people to select one choice from a list                  |
     |     Yes/No         |     Allows people to pick between two choices                       |
 
-1. Select **+ Add rows** to fill out your table with data. The input for the fields depends on the type of column that you selected. For this example, two choices are available in the **Location** drop-down list.
+1. Select **+ Add rows** to fill out your table with data. The input for the columns depends on the type of column that you selected. For this example, two choices are available in the **Location** drop-down list.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the field input values for location.](../media/field-input.png)](../media/field-input.png#lightbox)
+	> [![Screenshot of the column input values for location.](../media/column-input.png)](../media/column-input.png#lightbox)
 
 1. After you have finished editing the table, select **Close** from the bottom of the editor to return to the app. Now that you have data for the app, Dataverse for Teams automatically generates a basic application by using the Hero Template.
 
@@ -86,9 +86,9 @@ Likely, you will want to add other columns. The following steps will show you th
 	A blade will appear on the right side of the screen. The **Display name** of your column is what your users would see if they were entering data directly into the table, while the **Name** column shows what the column is named in the database.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Column properties fields.](../media/column-properties.png)](../media/column-properties.png#lightbox)
+	> [![Screenshot of the Column properties columns.](../media/column-properties.png)](../media/column-properties.png#lightbox)
 
-	The **Data type** field is perhaps the most important part of designing a column because it defines what type of data is being held within the column. 
+	The **Data type** column is perhaps the most important part of designing a column because it defines what type of data is being held within the column. 
 
 1. Select the **Data type** drop-down menu to show the full range of available data types. Several options are available for you to choose from; the most common ones are explained in the following table. Each data type has special characteristics and settings that can be applied on selection.
 
@@ -98,7 +98,7 @@ Likely, you will want to add other columns. The following steps will show you th
 | Data type            | Description                                                                                                                                                                                                                                                                                                                                                                                                                                         |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |     Text             | Text is similar to a **Single Line of Text** column that you might see in a SharePoint list, though this data type in Dataverse can hold large strings of text as well.                                                                                                                                                                                                                                                                            |
-|     Email            | Email would be used if you knew that this column should only hold email addresses. By using a data type that is aligned with the data that you’ll be entering into the field, you will have access to intelligent, out-of-the-box features that are specific to the type of data that you’re working with. Email records, for example, are selectable and will launch Outlook or other mail clients to allow the user a more streamlined way to send an email to someone. |
+|     Email            | Email would be used if you knew that this column should only hold email addresses. By using a data type that is aligned with the data that you’ll be entering into the column, you will have access to intelligent, out-of-the-box features that are specific to the type of data that you’re working with. Email records, for example, are selectable and will launch Outlook or other mail clients to allow the user a more streamlined way to send an email to someone. |
 |     Date and Time    | Date and Time should be used when the time of day is important to a record, while Date Only can be used if only the date is relevant.                                                                                                                                                                                                                                                                                                        |
 |     Whole Number     | Whole number is used for numbers that don’t have decimal points, while Decimal Number is used for numbers that do.                                                                                                                                                                                                                                                                                                                                  |
 |     Currency         | If you are keeping track of dollar figures in your table, a Currency data type might be relevant for one of your columns.                                                                                                                                                                                                                                                                                                         |

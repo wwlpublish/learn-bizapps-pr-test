@@ -32,12 +32,12 @@ The Portal Management app contains the following areas:
 
 - **Website** - Controls various operational aspects of the portal such as site and portal settings, page templates, temporary and permanent redirects within the site, and others.
 - **Content** - Provides access to static content that appears on the portal, navigation, and records that control portal access to Dataverse data.
-- **Security** - Defines security assets such as web roles and entity permissions.
+- **Security** - Defines security assets such as web roles and table permissions.
 - **Administration** - Includes miscellaneous portal features like portal wizard and integration with traffic analyzers and search engines.
 
 ## Portal wizard
 
-The Portal Management app includes a portal wizard that can be used to generate webpages with an entity list and a corresponding entity form. This tool can be used to quickly build a working portal application over the existing Dataverse data.
+The Portal Management app includes a portal wizard that can be used to generate webpages with a table list and a corresponding table form. This tool can be used to quickly build a working portal application over the existing Dataverse data.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Create Portal Content wizard.](../media/1-portal-wizard-ss.png)](../media/1-portal-wizard-ss.png#lightbox)

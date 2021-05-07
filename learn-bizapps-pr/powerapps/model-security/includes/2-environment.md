@@ -14,7 +14,7 @@ Power Platform uses Azure AD to authenticate users.
 
 Azure AD has several features that Power Platform can use:
 
-- **Identity and access management** - Manage access to apps from Power Apps.
+- **Idtable and access management** - Manage access to apps from Power Apps.
 - **Authentication** - Verify credentials when a user signs in to an app that has several users in a flow.
 - **Single sign-on (SSO)** - Access apps without having to sign in separately.
 - **Multifactor authentication** - Prompts a user during sign-in for other forms of identification.
@@ -22,16 +22,16 @@ Azure AD has several features that Power Platform can use:
 - **Conditional access** - Manage access to your apps by using signals to make decisions on allowing access.
 - **Device Management** - Manage how your devices access your corporate data.
 - **Enterprise users** - Manage license assignment.
-- **Hybrid identity** - Microsoft Azure AD Connect provides a single user identity for authentication and authorization, regardless of location (cloud or on-premises).
-- **Identity governance** - Manage your organization's identity through employee, business partner, vendor, service, and app access controls.
-- **Identity protection** - Detect potential vulnerabilities that affect your organization's identities.
+- **Hybrid idtable** - Microsoft Azure AD Connect provides a single user idtable for authentication and authorization, regardless of location (cloud or on-premises).
+- **Idtable governance** - Manage your organization's idtable through employee, business partner, vendor, service, and app access controls.
+- **Idtable protection** - Detect potential vulnerabilities that affect your organization's identities.
 - **Reports and monitoring** - Insights into the security and usage patterns in your environment. The Power Platform admin center provides more detailed insights than are provided by Azure AD.
 
 Other features of Azure AD that are not currently supported with Power Platform:
 
 - **Business-to-consumer (B2C)** - Control how customers sign in by using their preferred social, enterprise, or local account identities.
-- **Managed identities** - An identity in Azure AD that can authenticate any Azure AD-supported authentication service. Currently, this feature is not supported in Power Platform, and service principals must be used instead.
-- **Privileged identity management (PIM)** - Provides elevated administrator access in a just-in-time (JIT) manner.
+- **Managed identities** - An idtable in Azure AD that can authenticate any Azure AD-supported authentication service. Currently, this feature is not supported in Power Platform, and service principals must be used instead.
+- **Privileged idtable management (PIM)** - Provides elevated administrator access in a just-in-time (JIT) manner.
 
 An organization is likely to have chosen how it implements Azure AD and a Power Platform solution, and it is unlikely to change this fundamentally. However, Power Platform might provide access to users who have never had IT app access previously, such as mobile frontline workers, business partners, and external contractors who don't have identities in Azure AD. Therefore, you might need to consider Conditional access, B2B, and guest user access.
 

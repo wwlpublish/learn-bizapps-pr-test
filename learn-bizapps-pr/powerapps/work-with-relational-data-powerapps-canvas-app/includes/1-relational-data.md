@@ -1,7 +1,7 @@
 As you start to build complex apps with Power Apps, one concept that you will need to become familiar with is relating data. Relating data is when you create a connection between two different data sources. An example is a travel expense app where you want to have one record for the trip and then one or more records for the individual expenses like food and lodging.
 
 The following table is an example of storing all of the expense data in
-one Microsoft Dataverse entity.
+one Microsoft Dataverse table.
 
 | ID | Destination | Date      | Trip reason    | Expense type | Expense amount  |
 | - | -----------|----------|---------------|-------------|----------------|

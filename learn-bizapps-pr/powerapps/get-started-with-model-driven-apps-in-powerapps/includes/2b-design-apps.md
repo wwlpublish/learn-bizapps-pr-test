@@ -63,7 +63,7 @@ As you think about your data model also think about column types. When adding co
 > [!NOTE]
 > If a column type needs to be changed to a different column type, (i.e. text column to an option set), then you will need to delete that column and recreate with the correct column type. This will cause you to lose any data associated with that column.
 
-![Screenshot of fundraiser table default columns.](../media/new-table-field-types.png)
+![Screenshot of fundraiser table default columns.](../media/new-table-column-types.png)
 
 ### User Interface (UI) and User Experience (UX)
 
@@ -80,7 +80,7 @@ Here is an example of what the New Fundraiser form looks like when editing from 
 
 When incorporating business logic in your app, there are two primary options available. You can set **Business Rules** on your Dataverse tables or you can build **Business Process Flows**.
 
-With **Business Rules,** you will define behaviors at the data layer. This is great for changing when a column is required, setting a default value, or even showing or hiding a column based on a criteria. An example could be an table for tracking expenses. You could have a column for type of travel and then build a business rule that says if they choose automobile then the mileage column is required, else it is optional. This gives you great power to make sure you maintain data consistency in all scenarios. 
+With **Business Rules,** you will define behaviors at the data layer. This is great for changing when a column is required, setting a default value, or even showing or hiding a column based on a criteria. An example could be a table for tracking expenses. You could have a column for type of travel and then build a business rule that says if they choose automobile then the mileage column is required, else it is optional. This gives you great power to make sure you maintain data consistency in all scenarios. 
 
 **Business Process Flows** are used to guide users through using your app. These workflows can provide visuals on next steps based on the status of the data and facilitate other actions that you want to occur as the user uses the app. Business Process Flows let you bring automation to your app and make it more of a guided experience than just a place to enter data.
 

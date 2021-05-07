@@ -1,5 +1,5 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.integrate-common-data-service.5-extend-entity-lists-forms 
+uid: learn-bizapps.integrate-common-data-service.5-extend-table-lists-forms 
 title: Extend lists and forms
 metadata: 
   title: Extend lists and forms
@@ -12,4 +12,4 @@ metadata:
 durationInMinutes: 6 
 content: | 
  [!include[](../includes/unit-banner.md)] 
- [!include[](includes/5-extend-entity-lists-forms.md)] 
+ [!include[](includes/5-extend-table-lists-forms.md)] 

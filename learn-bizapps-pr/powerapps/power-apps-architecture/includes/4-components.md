@@ -44,7 +44,7 @@ Power Apps component framework empowers professional developers and app makers t
 Characteristics of code components are that they:
 
 - Can be used in model-driven and canvas apps in web and mobile.
-- Can be used in multiple apps to replace fields and grids.
+- Can be used in multiple apps to replace columns and grids.
 - Can be used by new record and edit experiences.
 - Can typically use multiple components on a form without performance problems.
 - Require code developers with TypeScript and HTML skills.

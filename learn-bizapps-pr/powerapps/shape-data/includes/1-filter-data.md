@@ -20,10 +20,10 @@ status, you could filter your data by using the following formula in the
 Items property of your gallery.
 
 ```
-Filter(YourDataSourceEntity, IsActive = "Yes")
+Filter(YourDataSourcetable, IsActive = "Yes")
 ```
 
-Instead of displaying all of the records from the entity, the
+Instead of displaying all of the records from the table, the
 gallery would only show the records that had Yes in the column IsActive.
 This gives your users fewer records to sort through and speeds up the
 app by reducing the amount of data downloaded.
@@ -39,7 +39,7 @@ example to show all of the records where **IsActive** is **Yes** and
 **Region** is **North** by using the following query.
 
 ```
-Filter(YourDataSourceEntity, IsActive = "Yes" And Region = "North")
+Filter(YourDataSourcetable, IsActive = "Yes" And Region = "North")
 ```
 
 This formula will return all of the records where IsActive is Yes, and
@@ -58,7 +58,7 @@ see all records where the Region is North or West. To build that query
 you would use the Or operator.
 
 ```
-Filter(YourDataSourceEntity, Region = "North" Or Region = "West")
+Filter(YourDataSourcetable, Region = "North" Or Region = "West")
 ```
 
 This formula will return all of the records where Region is equal to
@@ -77,13 +77,13 @@ Region is either North or West. To do that you can include parentheses
 in your formula. Your formula would be the following.
 
 ```
-Filter(YourDataSourceEntity, IsActive = "Yes" And (Region = "North" Or Region = "West"))
+Filter(YourDataSourcetable, IsActive = "Yes" And (Region = "North" Or Region = "West"))
 ```
 
 The formula will evaluate the parentheses first. In this formula, it
 will first determine if the Region is North or West. If either of those
 evaluations is true, then the right side will be true. Next, the formula
-will check the value of the IsActive field. If that equals "Yes", then
+will check the value of the IsActive column. If that equals "Yes", then
 the record is a match and will be returned by the Filter function.
 Microsoft Power Apps supports a wide range of operators and the nesting of them to
 shape your data.
