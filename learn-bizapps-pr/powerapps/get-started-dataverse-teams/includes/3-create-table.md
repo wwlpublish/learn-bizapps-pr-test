@@ -49,7 +49,7 @@ To access the Power Apps visual table editor, follow these steps:
 1. Select **+ Add rows** to fill out your table with data. The input for the columns depends on the type of column that you selected. For this example, two choices are available in the **Location** drop-down list.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the column input values for location.](../media/column-input.png)](../media/column-input.png#lightbox)
+	> [![Screenshot of the column input values for location.](../media/field-input.png)](../media/field-input.png#lightbox)
 
 1. After you have finished editing the table, select **Close** from the bottom of the editor to return to the app. Now that you have data for the app, Dataverse for Teams automatically generates a basic application by using the Hero Template.
 

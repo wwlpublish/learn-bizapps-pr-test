@@ -63,7 +63,7 @@ As you think about your data model also think about column types. When adding co
 > [!NOTE]
 > If a column type needs to be changed to a different column type, (i.e. text column to an option set), then you will need to delete that column and recreate with the correct column type. This will cause you to lose any data associated with that column.
 
-![Screenshot of fundraiser table default columns.](../media/new-table-column-types.png)
+![Screenshot of fundraiser table default columns.](../media/new-table-field-types.png)
 
 ### User Interface (UI) and User Experience (UX)
 

@@ -22,7 +22,7 @@ Adding columns
 When you choose a data source, you can click on **Edit columns** and
 **Add column** to select which columns you would like to display on the form.
 
-![Screenshot of Adding Fields in studio.](../media/adding-columns.png)
+![Screenshot of Adding Fields in studio.](../media/adding-fields.png)
 
 By selecting one or more of the columns, the **Form** control will add a data
 card for each column. Each card will be configured with a label to
