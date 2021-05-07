@@ -1,14 +1,14 @@
-Entity permissions define the access and scope that a portal user has to a particular Microsoft Dataverse or Dynamics 365 table on the portal. Dataverse records can be accessed on a Power Apps portal by using an table form, table list, or web form, or it can be shown by using *Liquid* tags in webpage content or web templates.
+Entity permissions define the access and scope that a portal user has to a particular Microsoft Dataverse or Dynamics 365 table on the portal. Dataverse records can be accessed on a Power Apps portal by using a table form, table list, or web form, or it can be shown by using *Liquid* tags in webpage content or web templates.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Entity Permission for access and scope in portals.](../media/entity-permission.png)](../media/entity-permission.png#lightbox)
 
-You can create an table permission in the Portal Management app and associate it to a specific web role to allow portal user access.
+You can create a table permission in the Portal Management app and associate it to a specific web role to allow portal user access.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Entity Permission Web Role settings in poratls.](../media/web-role-entity-lists.png)](../media/web-role-entity-lists.png#lightbox)
 
-## Create an table permission
+## Create a table permission
 
 Follow these steps to create a new **Entity Permission** record:
 
@@ -47,7 +47,7 @@ Global scope is most frequently used with Read privilege to provide access to th
 
 With Contact scope, a signed-in user in the role for which the table permission record is defined will have the rights granted by that permission only for records that are related to that user's contact record through a selected Dataverse relationship.
 
-On an table list, a filter will be added to whatever model-driven views are shown by that list, which only retrieves records that are directly linked to the current user. Depending on the scenario, this relationship can be thought of as ownership or management rights.
+On a table list, a filter will be added to whatever model-driven views are shown by that list, which only retrieves records that are directly linked to the current user. Depending on the scenario, this relationship can be thought of as ownership or management rights.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Contact scope for signed-in user role of portal.](../media/contact-scope.png)](../media/contact-scope.png#lightbox)
@@ -67,7 +67,7 @@ For example, a set of privileges is granted to a web role that allows Account sc
 
 Parent scope is designed to cover most complex scenarios where a portal user will require full access to the records but the access must be limited to a specific scope. For example, for users who have access to Cases (for example, *My Cases*), you would grant permissions to those users to access Notes that are related to the cases, but you would restrict access to the Notes for only the cases that the user already has access to.
 
-The **Parent Permission** record defines a permission and scope for an table (Cases, in this example). With that permission in place, a child permission is created that defines a relationship from another table (Notes, in this example) to the table that is defined in the parent relationship (Cases).
+The **Parent Permission** record defines a permission and scope for a table (Cases, in this example). With that permission in place, a child permission is created that defines a relationship from another table (Notes, in this example) to the table that is defined in the parent relationship (Cases).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Parental scope of signed-in user role of portal.](../media/parental-scope.png)](../media/parental-scope.png#lightbox)

@@ -6,9 +6,9 @@ The exercises work best when you have sample data to work with. Depending on the
 
 At the end of these exercises, you will be able to:
 
-- Open the Power Apps portals Studio to configure an table list to use table permissions.
+- Open the Power Apps portals Studio to configure a table list to use table permissions.
 - Create and assign a web role.
-- Create an table permission record.
+- Create a table permission record.
 - Link the table permission to the web role and associate the web role to a Dataverse contact.
 
 ### Prerequisites
@@ -51,7 +51,7 @@ To finish the exercise, complete the following tasks:
     - **Name** - Partner Directory
     - **Partial URL** - partnerdirectory
 
-#### Add an table list
+#### Add a table list
 
 1. On the canvas, select the page copy component and, from the toolbelt, select the **Components** icon and then add the **List** component.
 1. Add the following values:
@@ -92,7 +92,7 @@ Select the **Browse website** to view the page. You will receive a message indic
 1. From the list on the right side, select the contact that you registered on the portal.
 1. Select **Add**.
 
-#### Create an table list
+#### Create a table list
 
 1. In the Portal Management app, select **Entity Permissions**.
 1. Add a new table permission record, and then enter the following values:

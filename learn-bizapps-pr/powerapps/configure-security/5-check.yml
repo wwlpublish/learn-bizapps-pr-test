@@ -45,17 +45,17 @@ quiz:
     choices: 
     - content: Remove and then add the filter again
       isCorrect: false 
-      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, table permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an table to display lookup values, an table permission record is required.
+      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, table permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For a table to display lookup values, a table permission record is required.
     - content: Update the currency exchange rate in a Dataverse model-driven app
       isCorrect: false 
-      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, table permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an table to display lookup values, an table permission record is required.
+      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, table permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For a table to display lookup values, a table permission record is required.
     - content: Sign in as an administrator
       isCorrect: false 
-      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, table permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an table to display lookup values, an table permission record is required.
-    - content: Add an table permission record for the currency table
+      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, table permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For a table to display lookup values, a table permission record is required.
+    - content: Add a table permission record for the currency table
       isCorrect: true 
-      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, table permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For an table to display lookup values, an table permission record is required.
-  - content: You have a product list page that uses an table list to display the data. You have configured Read  permissions for the product list table and have set the scope to Global. Users have complained that they can browse a product listing page anonymously but are denied access to the page after they sign in. How would you resolve the issue?
+      explanation: Whenever Dataverse data is accessed by using methods other than Entity List or Entity Form, table permissions are applied automatically, including metadata filters where the Dynamic Lookup Filter is used. For a table to display lookup values, a table permission record is required.
+  - content: You have a product list page that uses a table list to display the data. You have configured Read  permissions for the product list table and have set the scope to Global. Users have complained that they can browse a product listing page anonymously but are denied access to the page after they sign in. How would you resolve the issue?
     choices: 
     - content: Change the scope to Contact
       isCorrect: false 
@@ -63,9 +63,9 @@ quiz:
     - content: Ask a developer to create a web template that can bypass the security check
       isCorrect: false 
       explanation: One of the web roles in the portal can be marked as Anonymous and another one as Authenticated. These roles allow you to apply permissions and access rules to all portal users based on whether they access the site anonymously or if they are signed in. Because users can access the data anonymously but can’t when they’re authenticated, it indicates that the table permission is associated with the Anonymous role but not with the Authenticated one.
-    - content: Associate an table permission with the All Users role
+    - content: Associate a table permission with the All Users role
       isCorrect: false 
       explanation: One of the web roles in the portal can be marked as Anonymous and another one as Authenticated. These roles allow you to apply permissions and access rules to all portal users based on whether they access the site anonymously or if they are signed in. Because users can access the data anonymously but can’t when they’re authenticated, it indicates that the table permission is associated with the Anonymous role but not with the Authenticated one.
-    - content: Associate an table permission with the Authenticated users role
+    - content: Associate a table permission with the Authenticated users role
       isCorrect: true 
       explanation: One of the web roles in the portal can be marked as Anonymous and another one as Authenticated. These roles allow you to apply permissions and access rules to all portal users based on whether they access the site anonymously or if they are signed in. Because users can access the data anonymously but can’t when they’re authenticated, it indicates that the table permission is associated with the Anonymous role but not with the Authenticated one.
