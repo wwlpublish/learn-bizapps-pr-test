@@ -37,7 +37,7 @@ Power Apps portals is a platform and includes a long list of components and feat
 | Branding                         | Table Forms           | Invitations                | Knowledge Management                       |
 | Content Publishing               | Table Lists           | Content Permissions        | Discussion Forums                          |
 | Responsive Design                | Table Actions         | Table Permissions         | Ideas, Blogs                               |
-| Webpages                        | Automation    | Idtable                   | Customer, Account, & Opportunity Management |
+| Webpages                        | Automation    | Identity                   | Customer, Account, & Opportunity Management |
 | Faceted Search and SEO           | Charts & Graphs        | Authentication             | Delegated Administration                   |
 | Multilingual Portals            | Azure Integration      | Auth Providers integration | Multi-Partner Collaboration                |
 | Ads, Polls, Ratings, and Comments | SharePoint Integration |                            | Entitlements & SLAs                        |

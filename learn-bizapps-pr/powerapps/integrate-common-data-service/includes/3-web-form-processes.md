@@ -18,7 +18,7 @@ In an implementation that involves complex data capture, the business accepts ap
 > [!div class="mx-imgBorder"]
 > [![Diagram example web form multi-step application.](../media/web-form-application.png)](../media/web-form-application.png#lightbox)
 
-Applicants might not be fully aware of the requirements and might not have all required evidence up front. The application process needs to implement the ability to suspend and resume the application and to handle multiple file uploads. Multiple entities could also be involved. Basic information and idtable validation steps update the contact record while the rest of the data is captured in a separate table for the application process.
+Applicants might not be fully aware of the requirements and might not have all required evidence up front. The application process needs to implement the ability to suspend and resume the application and to handle multiple file uploads. Multiple entities could also be involved. Basic information and identity validation steps update the contact record while the rest of the data is captured in a separate table for the application process.
 
 In this scenario, a web form is effective in implementing the wizard-style application process with a progress indicator and forward and back navigation.
 
@@ -44,7 +44,7 @@ To implement these and similar processes, web forms extend the table form concep
 
 ## Common practices
 
-Use web forms sparingly. Though more powerful, they are also more complex to create and maintain thtable forms. As you evaluate the complex business processes, analyze your data capture requirements. If you're dealing with a data entry process for a single table that has numerous columns to capture, consider creating table form with multiple tabs and using the **Auto Generate Steps From Tabs** form option to automatically generate multi-screen data entry with **Next** and **Previous** buttons added as required.
+Use web forms sparingly. Though more powerful, they are also more complex to create and maintain than table forms. As you evaluate the complex business processes, analyze your data capture requirements. If you're dealing with a data entry process for a single table that has numerous columns to capture, consider creating table form with multiple tabs and using the **Auto Generate Steps From Tabs** form option to automatically generate multi-screen data entry with **Next** and **Previous** buttons added as required.
 
 Web forms work well when the processes involve branching, span multiple entities, or require suspend and resume functionality. In these scenarios, dividing the process into smaller steps makes it easier to implement and maintain.
 

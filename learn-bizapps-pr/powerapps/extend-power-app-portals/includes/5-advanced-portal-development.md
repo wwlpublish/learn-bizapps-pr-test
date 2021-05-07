@@ -19,7 +19,7 @@ Combined with custom web templates that use Liquid code to deliver *data* instea
 
 Situations might occur where you want to communicate securely with external services while maintaining the security context, such as when you are processing online payments. Power Apps portals enables this scenario by providing support for [OAuth 2.0 implicit grant flow within your portal](https://docs.microsoft.com/powerapps/maker/portals/oauth-implicit-grant-flow/?azure-portal=true).
 
-This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth implicit grant flow. This method helps ensure that the idtable information of a signed-in user is passed in a secured manner to the external calls.
+This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth implicit grant flow. This method helps ensure that the identity information of a signed-in user is passed in a secured manner to the external calls.
 
 In this scenario, you build a custom web application and Power Apps portals would communicate to this application by using JavaScript to call the API.  
 
