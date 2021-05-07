@@ -12,17 +12,17 @@ Portal users can authenticate by using the following methods:
 
 - **Local authentication** - Common forms-based authentication with usernames and password hashtags are stored in the Dataverse contact record.
 
-- **External authentication** - Credentials and password management are handled by other idtable providers. Supported authentication providers include:
+- **External authentication** - Credentials and password management are handled by other identity providers. Supported authentication providers include:
   - OAuth2 (Microsoft, Twitter, Facebook, Google, LinkedIn, Yahoo)
   - Open ID (Azure Active Directory, Azure Active Directory B2C)
-  - WS-Federation and SAML 2.0. These providers are used for integration with on-premises Active Directory and other idtable services.
+  - WS-Federation and SAML 2.0. These providers are used for integration with on-premises Active Directory and other identity services.
 
 Portal administrators can choose to enable or disable any combination of authentication options through portal **Authentication Settings**.
 
 ![Screenshot of the Portals Authentication Settings.](../media/1-7-portal-authentication-settings.png)
 
 > [!IMPORTANT]
-> Azure Active Directory B2C is a recommended idtable provider for authentication. If another provider support is required, then it can be configured in Azure Active Directory B2C.
+> Azure Active Directory B2C is a recommended identity provider for authentication. If another provider support is required, then it can be configured in Azure Active Directory B2C.
 
 ## Authorization
 
