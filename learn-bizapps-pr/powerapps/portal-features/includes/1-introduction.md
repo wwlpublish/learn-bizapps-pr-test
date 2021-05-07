@@ -44,7 +44,7 @@ Users who are browsing to a Power Apps portal application will be able to authen
 An authenticated portal user can be assigned a web role with associated table permissions and webpage access control rules to control access to specific webpages and Dataverse records.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the configure idtable provider window.](../media/1-configure-idtable-provider.png)](../media/1-configure-idtable-provider.png#lightbox)
+> [![Screenshot of the configure identity provider window.](../media/1-configure-identity-provider.png)](../media/1-configure-idtable-provider.png#lightbox)
 
 ## Profile management
 
