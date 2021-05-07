@@ -22,7 +22,7 @@ Azure AD has several features that Power Platform can use:
 - **Conditional access** - Manage access to your apps by using signals to make decisions on allowing access.
 - **Device Management** - Manage how your devices access your corporate data.
 - **Enterprise users** - Manage license assignment.
-- **Hybrid idtable** - Microsoft Azure AD Connect provides a single user identity for authentication and authorization, regardless of location (cloud or on-premises).
+- **Hybrid identity** - Microsoft Azure AD Connect provides a single user identity for authentication and authorization, regardless of location (cloud or on-premises).
 - **Identity governance** - Manage your organization's identity through employee, business partner, vendor, service, and app access controls.
 - **Identity protection** - Detect potential vulnerabilities that affect your organization's identities.
 - **Reports and monitoring** - Insights into the security and usage patterns in your environment. The Power Platform admin center provides more detailed insights than are provided by Azure AD.
