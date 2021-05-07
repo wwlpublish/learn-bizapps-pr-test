@@ -10,7 +10,7 @@ For an example of a sophisticated implementation that can be hosted in Power App
 
 ### API calls
 
-Combined with custom web templates that use Liquid code to deliver *data* instead of HTML, JavaScript can call *back* into Power Apps portals to retrieve the data and then use it to create alternative UX. For example, instead of using the **Entity List** calendar view, you can retrieve list data in JSON format instead and then use other calendaring libraries, like FullCalendar, to create sophisticated calendar visualization. Alternatively, you can retrieve opportunity data and use another charting JavaScript library for sophisticated interactive charting.
+Combined with custom web templates that use Liquid code to deliver *data* instead of HTML, JavaScript can call *back* into Power Apps portals to retrieve the data and then use it to create alternative UX. For example, instead of using the **Table List** calendar view, you can retrieve list data in JSON format instead and then use other calendaring libraries, like FullCalendar, to create sophisticated calendar visualization. Alternatively, you can retrieve opportunity data and use another charting JavaScript library for sophisticated interactive charting.
 
 > [!IMPORTANT]
 > When you use web templates, it is only possible to implement REST service for GET operations. No other operation, such as PUT, is supported by Liquid code.
@@ -19,7 +19,7 @@ Combined with custom web templates that use Liquid code to deliver *data* instea
 
 Situations might occur where you want to communicate securely with external services while maintaining the security context, such as when you are processing online payments. Power Apps portals enables this scenario by providing support for [OAuth 2.0 implicit grant flow within your portal](https://docs.microsoft.com/powerapps/maker/portals/oauth-implicit-grant-flow/?azure-portal=true).
 
-This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth implicit grant flow. This method helps ensure that the identity information of a signed-in user is passed in a secured manner to the external calls.
+This feature allows a customer to make client-side calls to external APIs and secure them by using OAuth implicit grant flow. This method helps ensure that the idtable information of a signed-in user is passed in a secured manner to the external calls.
 
 In this scenario, you build a custom web application and Power Apps portals would communicate to this application by using JavaScript to call the API.  
 

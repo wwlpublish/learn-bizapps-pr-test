@@ -37,7 +37,7 @@ Some benefits of using Dataverse and its tables include:
 -   **Rich metadata** - Data types and relationships are used
     directly within Power Apps.
 
--   **Logic and validation** - Define calculated fields, business
+-   **Logic and validation** - Define calculated columns, business
     rules, workflows, and business process flows to ensure data quality
     and drive business processes.
 

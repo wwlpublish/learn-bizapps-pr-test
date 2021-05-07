@@ -1,4 +1,4 @@
-In the previous unit, you learned how to use functions to connect related tables.  Functions allow you to build apps upon relational data. With Microsoft Dataverse, you define relationships at the entity level. With this in place, Power Apps provides a dot (.) notation for drilling into the related data, which reduces the number of LookUp functions that you need in your app. 
+In the previous unit, you learned how to use functions to connect related tables.  Functions allow you to build apps upon relational data. With Microsoft Dataverse, you define relationships at the table level. With this in place, Power Apps provides a dot (.) notation for drilling into the related data, which reduces the number of LookUp functions that you need in your app. 
 
 The following video shows how to configure a relationship in Dataverse. 
 

@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Website
       isCorrect: true 
-      explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
+      explanation: The central table in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
     - content: Website Binding
       isCorrect: false 
-      explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
+      explanation: The central table in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
     - content: Page Template
       isCorrect: false 
-      explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
+      explanation: The central table in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
     - content: Site Setting
       isCorrect: false 
-      explanation: The central entity in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
+      explanation: The central table in this architecture is Website. The rest of the portal entities are linked to and dependent on the website directly or indirectly. Website defines the header and the footer for the entire site. 
   - content: In a single language portal, how many webpage records exist for each portal page?
     choices: 
     - content: Zero
@@ -71,15 +71,15 @@ quiz:
       explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
   - content: Which component cannot be added from portals Studio but can be added from the Portal Management app?
     choices: 
-    - content: Entity Lists
+    - content: Table Lists
       isCorrect: false 
-      explanation: Entity Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
+      explanation: Table Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
     - content: Web Forms
       isCorrect: true 
-      explanation: Entity Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
+      explanation: Table Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
     - content: Images
       isCorrect: false 
-      explanation: Entity Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
+      explanation: Table Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
     - content: Embedded Power BI reports
       isCorrect: false 
-      explanation: Entity Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.
+      explanation: Table Lists, images (web files), and Power BI reports can be added as components from portals Studio. Web Forms need to be added by using the Portal Management app.

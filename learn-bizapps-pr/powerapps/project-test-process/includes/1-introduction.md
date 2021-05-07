@@ -97,7 +97,7 @@ Tips for getting good results from UAT:
 - When the user is stuck on a screen, ask them to explain their expectation.
 - Experiment with different devices to make sure that the test cases behave similarly.
 - Ideally, test the app in the user's actual environment or location if the app uses offline capabilities.
-- Ask your users to attempt "breaking" your app, such as by entering unusual characters in text fields.
+- Ask your users to attempt "breaking" your app, such as by entering unusual characters in text columns.
 - Users will typically test the "happy path" (the path that a user takes when everything is going perfectly). Ask them to also test scenarios such as canceling an expense report instead of submitting it or denying an expense report instead of approving it.
 
 Users might not be familiar with testing software. Inform them of what type of feedback that you're looking for. It's often helpful to provide a template for bugs to make sure that testers explain exactly what they were doing, what happened, what they expected to happen instead, and relevant information about their testing environment (such as device type and browser).

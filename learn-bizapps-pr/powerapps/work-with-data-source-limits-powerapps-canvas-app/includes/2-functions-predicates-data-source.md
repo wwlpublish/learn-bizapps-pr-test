@@ -2,10 +2,10 @@ Determining when delegation will and will not happen is a combination of several
 
 >![Screenshot of table with different Dataverse delegation functions.](../media/data-source-cds.png)
 
-1.	Numbers with arithmetic expressions like `Filter(entity, field + 10 > 100)` aren't delegable. Language and TimeZone aren't delegable.
+1.	Numbers with arithmetic expressions like `Filter(table, field + 10 > 100)` aren't delegable. Language and TimeZone aren't delegable.
 2.	Doesn't support Trim[Ends] or Len. Supports other functions such as Left, Mid, Right, Upper, Lower, Replace, and Substitute.
 3.	DateTime can be delegated except for DateTime functions Now() and Today().
-4.	Supports comparisons. For example, Filter(EntityName, MyCol = Blank()).
+4.	Supports comparisons. For example, Filter(TableName, MyCol = Blank()).
 5.	The aggregate functions are limited to a collection of 50,000 records. If needed, use the Filter function to select 50,000 records from a larger set before using the aggregate function.
 
 [Dataverse](https://docs.microsoft.com/connectors/commondataservice/) has more info about using the Dataverse as a data source, and about its delegable functions.

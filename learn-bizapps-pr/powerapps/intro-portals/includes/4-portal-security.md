@@ -1,6 +1,6 @@
 Users of Power Apps portals are tracked in Microsoft Dataverse as contacts.
 
-The Portal Management model-driven app provides access to the contact entity and has forms to manage passwords, view portal-specific contact information, and provide registration and profile management forms for the portal.
+The Portal Management model-driven app provides access to the contact table and has forms to manage passwords, view portal-specific contact information, and provide registration and profile management forms for the portal.
 
 ![Screenshot of the contact web authentication form.](../media/4-contact-web-authentication-form.png)
 
@@ -12,17 +12,17 @@ Portal users can authenticate by using the following methods:
 
 - **Local authentication** - Common forms-based authentication with usernames and password hashtags are stored in the Dataverse contact record.
 
-- **External authentication** - Credentials and password management are handled by other identity providers. Supported authentication providers include:
+- **External authentication** - Credentials and password management are handled by other idtable providers. Supported authentication providers include:
   - OAuth2 (Microsoft, Twitter, Facebook, Google, LinkedIn, Yahoo)
   - Open ID (Azure Active Directory, Azure Active Directory B2C)
-  - WS-Federation and SAML 2.0. These providers are used for integration with on-premises Active Directory and other identity services.
+  - WS-Federation and SAML 2.0. These providers are used for integration with on-premises Active Directory and other idtable services.
 
 Portal administrators can choose to enable or disable any combination of authentication options through portal **Authentication Settings**.
 
 ![Screenshot of the Portals Authentication Settings.](../media/1-7-portal-authentication-settings.png)
 
 > [!IMPORTANT]
-> Azure Active Directory B2C is a recommended identity provider for authentication. If another provider support is required, then it can be configured in Azure Active Directory B2C.
+> Azure Active Directory B2C is a recommended idtable provider for authentication. If another provider support is required, then it can be configured in Azure Active Directory B2C.
 
 ## Authorization
 
@@ -38,7 +38,7 @@ A web role can be associated with the following records:
 
 - **Website permissions** - Define what (if any) front-side editing permissions that a web role should have.
 - **Webpage access rules** - Define what pages are visible to a web role and what actions can be taken.
-- **Entity permissions** - Define what access a web role has to individual Dataverse entities.
+- **Table permissions** - Define what access a web role has to individual Dataverse entities.
 
 A portal contact might be assigned to one or more web roles at a time. Access rules and permissions of individual roles are combined to calculate the resulting permissions set.
 
