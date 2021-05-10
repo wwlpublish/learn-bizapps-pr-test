@@ -31,4 +31,6 @@ If you want to learn more about Power Platform architecture, the Power CAT team 
 
 For more information, see [Power Platform best practices](https://docs.microsoft.com/learn/paths/best-practices-environments/).
 
+For more information on Dynamics 365 apps, see the [Dynamics 365 Fundamentals Learning Path](https://docs.microsoft.com/learn/paths/dynamics-365-fundamentals/?azure-portal=true).
+
 The next steps are to look at data modeling in Microsoft Dataverse.
