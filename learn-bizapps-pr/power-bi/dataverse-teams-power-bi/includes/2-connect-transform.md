@@ -104,11 +104,11 @@ For the Cost Trends table data, we need to remove unnecessary columns, rename co
 
     | Icon | Data type |
     |------|-----------|
-    | [![Screenshot of the date and time icon.](../media/image-10.png)](../media/image-10.png#lightbox) | Date/Time |
-    | [![Screenshot of the date icon.](../media/image-11.png)](../media/image-11.png#lightbox) | Date |
-    | [![Screenshot of the whole number icon](../media/image-12.png)](../media/image-12.png#lightbox) | Whole Number |
-    | [![Screenshot of the percentage icon.](../media/image-13.png)](../media/image-13.png#lightbox) | Percentage |
-    | [![Screenshot of the string icon.](../media/image-14.png)](../media/image-14.png#lightbox) | String |
+    | ![Screenshot of the date and time icon.](../media/image-10.png) | Date/Time |
+    | ![Screenshot of the date icon.](../media/image-11.png) | Date |
+    | ![Screenshot of the whole number icon.](../media/image-12.png) | Whole Number |
+    | ![Screenshot of the percentage icon.](../media/image-13.png) | Percentage |
+    | ![Screenshot of the string icon.](../media/image-14.png) | String |
 
 1. In the **Query Settings** tab, rename the table by selecting the **Name** and typing in **Cost Trends**. All of the transformation actions are listed under **Applied Steps**. You can undo a step by deleting it from the list.
 

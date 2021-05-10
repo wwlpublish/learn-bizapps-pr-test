@@ -38,16 +38,16 @@ quiz:
       explanation: Correct - The Instance URL provides the Dataverse for Teams Environment URL needed to have Power BI connect.
   - content: You created a new Power BI report in My workspaces that you need to share with the rest of your project team. There's already a Microsoft Team created for the project. What is the best way to share the report?
     choices: 
-    - content: From the Power BI app in Teams, 1. Open the report. 2. Share it with all the members of the project team. 3. Add a Power BI tab in the project's Microsoft Teams channel to the report.
+    - content: From the Power BI app in Teams, (1), Open the report. (2), Share it with all the members of the project team. (3), Add a Power BI tab in the project's Microsoft Teams channel to the report.
       isCorrect: true 
       explanation: Correct - The report must be shared with all of the team members so they can view the Power BI report in the channel tab.
-    - content: From the Power BI app in Teams, 1. Open the report. 2. Select the option to start a chat in Teams for the project's Microsoft Teams channel.
+    - content: From the Power BI app in Teams, (1), Open the report. (2), Select the option to start a chat in Teams for the project's Microsoft Teams channel.
       isCorrect: false 
       explanation: Incorrect - Starting a chat in Teams provides a URL to the report but doesn't change the report permissions.
-    - content: From the Power BI Desktop, 1. Open the pbix file. 2. Share the report with all the members of the project team. 3. Publish the report to the project's Microsoft Teams channel.
+    - content: From the Power BI Desktop, (1), Open the pbix file. (2), Share the report with all the members of the project team. (3), Publish the report to the project's Microsoft Teams channel.
       isCorrect: false 
       explanation: Incorrect - The Power BI Desktop can't share or grant permissions to users, and it only publishes reports to Power BI workspaces.
-    - content: From the Power BI Desktop, 1. Open the pbix file. 2. Share the report with all the members of the project team. 3. Export the report to Teams.
+    - content: From the Power BI Desktop, (1), Open the pbix file. (2), Share the report with all the members of the project team. (3), Export the report to Teams.
       isCorrect: false 
       explanation: Incorrect - The Power BI Desktop can't share or grant permissions to users and only exports PDF files.
   - content: Which Power BI application is required to connect to Dataverse for Teams?
