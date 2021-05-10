@@ -1,4 +1,4 @@
-The purpose of this hands-on lab is to introduce the process of extending entity forms with additional actions.
+The purpose of this hands-on lab is to introduce the process of extending table forms with additional actions.
 
 Exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install sample data to assist with exercises. Power Platform does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install sample data into your environment.
 
@@ -6,8 +6,8 @@ Exercises work best when you have sample data to work with. Depending on the env
 
 At the end of these exercises, you will be able to:
 
-- Create a new workflow for a case entity.
-- Configure a new workflow action for entity forms.
+- Create a new workflow for a case table.
+- Configure a new workflow action for table forms.
 - Add a user prompt for a workflow action.
 - Apply a conditional filter to an action button.
 
@@ -32,7 +32,7 @@ The business wants to enable customers to place an active case on hold, with the
 
 To finish the exercise, complete the following tasks:
 
-1. Create a real-time workflow for the case entity that sets the case status to **On Hold**.
+1. Create a real-time workflow for the case table that sets the case status to **On Hold**.
 1. Add a workflow action button to the existing case edit form.
 1. Add a confirmation message.
 1. Add filter criteria to show the button only for active cases that are not on hold.
@@ -40,7 +40,7 @@ To finish the exercise, complete the following tasks:
 
 ### Create a workflow process
 
-Before you enable additional actions for the entity form, you need to create a workflow that is called by the form. Choose to create a real-time workflow for immediate visual feedback on the entity form.
+Before you enable additional actions for the table form, you need to create a workflow that is called by the form. Choose to create a real-time workflow for immediate visual feedback on the table form.
 
 1. Open the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.
 1. Make sure that the selected environment is the one with the portal solution installed.
@@ -53,7 +53,7 @@ Before you enable additional actions for the entity form, you need to create a w
    - **Process name** - Case On Hold
    - **Category** - Workflow
    - **Run this workflow in the background** - Clear this option
-   - **Entity** - Case
+   - **Table** - Case
 1. Select **OK**.
 1. Select **As an on-demand process**.
 1. Clear **Record is created**.
@@ -64,12 +64,12 @@ Before you enable additional actions for the entity form, you need to create a w
 
 ### Create an action button
 
-After the workflow has been created, you can add a workflow action button to the case entity form and configure this button to call the workflow.
+After the workflow has been created, you can add a workflow action button to the case table form and configure this button to call the workflow.
 
 1. Go to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
 1. Make sure that the correct environment is selected in the environment selector in the upper-right corner.
 1. From the **Apps** list, locate and open the Portal Management app (Type = Model-driven).
-1. Select **Entity Forms**.
+1. Select **Table Forms**.
 1. Select **Customer Service - Edit Case**.
 1. Select the **Additional Settings** tab.
 1. Press **+ Workflow**.
@@ -124,7 +124,7 @@ To test that your new workflow action button works, follow these steps:
 Having the workflow button visible at all times does not make sense in certain scenarios, such as for disabled cases. You can enter additional information to enhance the user experience.
 
 1. Switch to the Portal Management app.
-1. Select **Entity Forms**.
+1. Select **Table Forms**.
 1. Select **Customer Service - Edit Case**.
 1. Select the **Additional Settings** tab.
 1. Select **Advanced Settings** and locate the **Workflow** action.
@@ -135,17 +135,17 @@ Having the workflow button visible at all times does not make sense in certain s
 
    ```xml
    <fetch>
-   <entity name="incident" >
+   <table name="incident" >
       <attribute name="incidentid" />
       <filter type="and" >
          <condition attribute="statecode" operator="eq" value="0" />
          <condition attribute="statuscode" operator="neq" value="2" />
       </filter>
-   </entity>
+   </table>
    </fetch>
    ```
 
-   This FetchXML ensures that the button is only visible when the case is active (`statecode eq 0 (Active)`) and the status reason field is not **On Hold** (`statuscode neq 2 (On Hold)`).
+   This FetchXML ensures that the button is only visible when the case is active (`statecode eq 0 (Active)`) and the status reason column is not **On Hold** (`statuscode neq 2 (On Hold)`).
 
    > [!div class="mx-imgBorder"]
    > [![Screenshot of the Confirmation details and filter criteria.](../media/button-enhancement.png)](../media/button-enhancement.png#lightbox)
@@ -173,4 +173,4 @@ The case status should state **Resolved - Problem Solved**. Only the **Reopen Ca
 
 You might want to add a **Resume** workflow and an action button to the form. The action button should only be visible when the case is on hold.
 
-This exercise shows how Power Apps portals helps you extend entity forms, effectively converting simple data entry forms into a part of a web app.
+This exercise shows how Power Apps portals helps you extend table forms, effectively converting simple data entry forms into a part of a web app.

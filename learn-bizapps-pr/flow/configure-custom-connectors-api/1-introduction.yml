@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.configure-custom-connectors-api.1-introduction 
+title: Introduction
+metadata: 
+  title: Introduction 
+  description: Introduction to authentication options 
+  ms.date: 03/11/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 

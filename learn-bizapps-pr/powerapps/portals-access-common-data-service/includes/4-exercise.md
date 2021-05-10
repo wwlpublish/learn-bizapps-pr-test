@@ -27,14 +27,14 @@ Your organization has provisioned a Power Apps portal and wants to display a lis
 
 To finish the exercise, complete the following tasks:
 
-- Create a webpage and add a list component that is linked to a Dataverse entity.
-- Create a child webpage with a form component to display details for a Dataverse entity.
+- Create a webpage and add a list component that is linked to a Dataverse table.
+- Create a child webpage with a form component to display details for a Dataverse table.
 - Modify the list component to allow visitors to drill down and view the detail record on the form page.
 
 
-### Create a webpage for the entity list
+### Create a webpage for the table list
 
-In this exercise, you will create a webpage to contain the **Entity Lists** component.
+In this exercise, you will create a webpage to contain the **Table Lists** component.
 
 1. Go to the [maker portal](https://make.powerapps.com/?azure-portal=true) and sign in.  
 1. Locate your portal app, select the ellipsis (**...**), and then select **Edit** to open portals Studio.
@@ -55,14 +55,14 @@ To add and configure a list component, follow these steps:
 1. In the Properties pane, enter the following values for the **List** component:
 
 	- **Name** - Ideas List
-	- **Entity** - Idea (sample idea) *or choose another entity from your own app*
+	- **Table** - Idea (sample idea) *or choose another table from your own app*
 	- **Views** - Active Ideas
 
 1. Select **Browse** from the command bar and ensure that you can see a list of idea data records from Dataverse.
 
-### Create a webpage for the entity form
+### Create a webpage for the table form
 
-Your next task is to create a webpage to contain the **Entity Forms** component to view record details. This webpage will be a child page of the **Ideas list** page.
+Your next task is to create a webpage to contain the **Table Forms** component to view record details. This webpage will be a child page of the **Ideas list** page.
 
 1. From the tool belt, select **Pages** and locate the **Ideas** page that you created previously.
 1. Select the ellipsis (**...**) and then select **Add a child page**.
@@ -82,7 +82,7 @@ To add and configure a form component, follow these steps:
 1. In the Properties pane, enter the following values for the **Form component**:
 
 	- **Name** - Ideas Detail
-	- **Entity** - Idea (sample idea) *or choose another entity from your own app*
+	- **Table** - Idea (sample idea) *or choose another table from your own app*
 	- **Form Layout** - Information (you can select **Edit** to modify your form or create your own form specifically for the portal)
 	- **Mode** - ReadOnly
 

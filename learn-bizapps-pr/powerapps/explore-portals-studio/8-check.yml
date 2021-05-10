@@ -29,7 +29,7 @@ quiz:
       explanation: The canvas, Properties pane, and toolbelt are features of the portals Studio while the portal checker is in the admin section.
   - content: What is a specific component that can't be added to a webpage by using portals Studio?
     choices: 
-    - content: Entity lists
+    - content: Table lists
       isCorrect: false 
       explanation: The Web Forms component isn't available to add to a webpage in portals Studio.
     - content: Three-column section

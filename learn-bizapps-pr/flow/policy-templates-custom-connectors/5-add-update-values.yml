@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.policy-templates-custom-connectors.5-add-update-values 
+title: Add or update values
+metadata: 
+  title: Add or update values  
+  description: Learn how to add or update values.  
+  ms.date: 03/22/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-add-update-values.md)] 

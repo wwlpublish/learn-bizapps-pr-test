@@ -7,7 +7,7 @@ While some time calculations are simple to do in DAX, others are more difficult.
 
 Notice that the totals increment for each month but then reset when the year changes. In other programming languages, this result can be fairly complicated, often involving several variables and looping through code. DAX makes this process fairly simple, as shown in the following example:
 
-```
+```dax
 YTD Total Sales = TOTALYTD 
 ( 
     SUM('Sales OrderDetails'[Total Price]) 
@@ -19,7 +19,7 @@ The **YTD Total Sales** measure uses a built-in DAX function called TOTALYTD. Th
 
 Another example of working with time would be comparing your current sales with the sales of a previous time period. For instance, if you want to see the total sales of the month next to the total sales of the prior month, you would enter the DAX measure definition, as shown in the following example:
 
-```
+```dax
 Total Sales Previous Month = CALCULATE
 (
     sum('Sales OrderDetails'[Total Price])

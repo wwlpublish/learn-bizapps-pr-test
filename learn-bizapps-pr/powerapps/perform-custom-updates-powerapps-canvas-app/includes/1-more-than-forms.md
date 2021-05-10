@@ -9,12 +9,12 @@ your data sources without the use of forms directly.
 Patch is most often used when you need to take action on the data without user interaction in a repetitive manner, or your app design doesn't allow for the use of forms. For example, if you want to update a logging data source every time a user clicks a button to navigate to another screen you could use the formula for the OnSelect property of the button.
 
 ```
-Patch(LoggingEntity, Defaults(LoggingEntity), {WhoClicked:
+Patch(LoggingTable, Defaults(LoggingTable), {WhoClicked:
 User().FullName, WhenClicked: Now()}); Navigate(NextScreen,
 ScreenTransition.Cover)
 ```
 
-This formula would create a new record in the data source named **LoggingEntity**. The WhoClicked column sets to the **FullName** property of the user who is signed in, and the WhenClicked column sets to the Date and Time of when they clicked the button. This would open the screen named **NextScreen** using the Cover screen transition.
+This formula would create a new record in the data source named **LoggingTable**. The WhoClicked column sets to the **FullName** property of the user who is signed in, and the WhenClicked column sets to the Date and Time of when they clicked the button. This would open the screen named **NextScreen** using the Cover screen transition.
 
 Delete a record
 ---------------

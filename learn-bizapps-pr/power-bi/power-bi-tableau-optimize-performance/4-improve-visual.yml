@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-tableau-optimize-performance.4-improve-visual 
+title: Improve a visual
+metadata: 
+  title: Improve a visual 
+  description: Learn how to improve a visual. 
+  ms.date: 03/31/2021 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 2 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-improve-visual.md)] 

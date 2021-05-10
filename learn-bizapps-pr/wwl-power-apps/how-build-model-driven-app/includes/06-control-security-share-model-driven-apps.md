@@ -16,11 +16,12 @@ reflect common user tasks, and the access levels that are defined follow the
 security best practice of providing access to the minimum amount of business
 data that is required to use the app.
 
-Apps can be based on a custom entity. Because the entity is custom, privileges 
-must be explicitly specified before users can work in it. To do this, you can use either of the following approaches:
+Apps can be based on a custom table. Because
+the table is custom, privileges must be explicitly specified before users can
+work in it. To do this, you can use either of the following approaches:
 
 -   Expand an existing predefined security role so that it includes privileges
-    on records that are based on the custom entity.
+    for rows that are in the custom table.
 
 -   Create a custom security role to manage privileges for users of the app.
 
@@ -35,19 +36,19 @@ use depend on the security roles they are assigned to.
 The following predefined roles are available with a Power Apps environment.
 Unless otherwise noted, all the privileges have global scope.
 
-|**ABOUT PREDEFINED SECURITY ROLES**|||
-|--|--|--|
+| **ABOUT PREDEFINED SECURITY ROLES** |                                                                         |                                                                                                                                                                                                                                                                                                                                                                                                                           |
+|-------------------------------------|-------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Security role**                   | **Privileges**                                                          | **Description**                                                                                                                                                                                                                                                                                                                                                                                                           |
 | Environment Maker                   | None                                                                    | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Microsoft Flow. But these users can't access the data in an environment. To learn more about environments, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/). |
 | System Administrator                | Create, Read, Write, Delete, Customize                                  | This role has full permission to customize or administer the environment, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization).                                             |
-| System Customizer                   | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view records only for environment entities that they create. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization).                                                                                       |
-| Microsoft Basic User            | Read, Create (self), write (self), delete (self)                        | Users who have this role can run an app in the environment and perform common tasks for the records they own.                                                                                                                                                                                                                                                                                                             |
-| Delegate                            | Act on behalf of another user                                           | This role lets code run as or impersonate another user. This role is typically used with another security role to provide access to records. To learn more, see [Impersonate another user](https://docs.microsoft.com/dynamics365/customer-engagement/developer/org-service/impersonate-another-user).                                                                                                              |
+| System Customizer                   | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view rows only for environment tables that they create. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization).                                                                                       |
+| Microsoft Dataverse User            | Read, Create (self), write (self), delete (self)                        | Users who have this role can run an app in the environment and perform common tasks for the rows they own.                                                                                                                                                                                                                                                                                                             |
+| Delegate                            | Act on behalf of another user                                           | This role lets code run as or impersonate another user. This role is typically used with another security role to provide access to rows. To learn more, see [Impersonate another user](https://docs.microsoft.com/powerapps/developer/data-platform/impersonate-another-user).                                                                                                              |
 
 ## Share the link to your app
 
 Sharing a model-driven app involves two primary steps. First, associate one or
-more security role(s) with the app then assign the security role(s) to users.
+more security role(s) with the app, then assign the security role(s) to users.
 
 1.  Visit [https://make.powerapps.com](https://make.powerapps.com/)
 

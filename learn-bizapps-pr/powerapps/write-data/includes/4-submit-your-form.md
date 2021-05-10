@@ -7,7 +7,7 @@ control labeled **Save** or **Submit**. The formula for **OnSelect** is
 This function will take all of the data that is entered into the
 controls on your data cards and save it to the data source for the
 **Form** control. Each data card on your **Form** control has an **Update** property
-where the value or formula that will be used to update that field is
+where the value or formula that will be used to update that column is
 specified. If you have unlocked your card, you can modify that formula.
 This is often unnecessary and only done in special circumstances.
 

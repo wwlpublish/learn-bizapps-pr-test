@@ -10,7 +10,7 @@ data throughout the app. This reduces the repetitive calls to the data
 source across the network. The following is an example of this process.
 
 In your app, you have several screens where you provide a drop-down menu for
-selecting the department. The list of departments is kept in Microsoft Dataverse in an entity named **DepartmentList**. On each instance of the
+selecting the department. The list of departments is kept in Microsoft Dataverse in a table named **DepartmentList**. On each instance of the
 menu, you use the following formula.
 ```
 Filter(DepartmentList, Status = "Active")
@@ -19,7 +19,7 @@ Filter(DepartmentList, Status = "Active")
 This works and performs okay.
 
 When you finish the app, you realize that you are querying the
-**DepartmentList** entity multiple times even though it is static
+**DepartmentList** table multiple times even though it is static
 information. You could modify your app to create a collection with the
 **OnStart** property of the app that stores the information using the
 following formula.

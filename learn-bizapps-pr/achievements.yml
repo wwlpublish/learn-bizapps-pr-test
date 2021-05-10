@@ -1,5 +1,10 @@
 ### YamlMime:Achievements
 achievements:
+- uid: learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder.badge
+  type: badge
+  title: Implement robotic process automation with Microsoft Power Automate, Teams, desktop flow, and AI Builder
+  summary: Badge for the 'Implement robotic process automation with Microsoft Power Automate, Teams, desktop flow, and AI Builder' module.
+  iconUrl: /learn/achievements/implement-rpa-power-automate-ui-flows-ai-builder.svg
 - uid: learn.flow-create-approval.badge
   type: badge
   title: Create an approval flow Badge

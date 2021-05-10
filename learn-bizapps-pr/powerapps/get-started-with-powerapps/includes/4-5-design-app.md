@@ -33,17 +33,10 @@ Depending on the solution or company policies, you may have certain security, pr
 
 During this process, you will also want to identify any government regulations or authentication/authorization requirements (if applicable). You don't necessarily have to have all the answers to your questions here; you just want to know all the requirements.
 
-### Offline Mode
-
-One of the first questions to consider when developing your application is, will the app need to function offline? If so, will the entire app or only part of the app needs to function offline? When will the data be synchronized to my data source? Are there any limitations? 
-
-This is important to consider during the planning phase because if you were to build your app without this functionality, then decide to add it later, it will be more difficult than just doing it in the first place. Why is this?  You will need to make sure you are using collections and additional functions like SaveData and LoadData as you go along to allow your app to function offline. Also, if you are using Forms and trying to implement Offline mode, you will run into issues. 
-
-There is a thorough discussion that needs to take place around Offline mode, and it's best to have this early in the design process as it will affect the rest of the process.
 
 ### Data Model
 
-In the "Power Apps related technologies" module, you learned about some of the common data sources for building apps, but with all these choices how do you actually decide which data source to use for your solution? Maybe you already have a data source implemented that users work with on a day to day basis, like SharePoint. Could you just use this as your data source to build your app? Do I need to connect to multiple data sources? These are all common questions you should ask yourself and there are number of additional factors to consider, such as:
+In the "Power Apps related technologies" module, you learned about some of the common data sources for building apps, but with all these choices how do you actually decide which data source to use for your solution? Maybe you already have a data source implemented that users work with on a day to day basis, like SharePoint. Could you just use this as your data source to build your app? Do I need to connect to multiple data sources? These are all common questions you should ask yourself and there are number of other factors to consider, such as:
 
 - **Business Requirements** – Every data source and it's supported functionality is slightly different. So, depending on your app requirements you need to select the data source that supports your needs or modify your business requirements to comply with the supported functionality for the selected data source.
 - **Licensing/Cost** – Certain data sources like the Microsoft Dataverse or SQL are considered a "premium data source". A premium data source will require each user who uses the app to have a Power Apps Per App Plan or a Power Apps Per User Plan. For more information about licensing, see [Power Apps pricing](https://powerapps.microsoft.com/pricing/?azureportal=true)
@@ -57,6 +50,8 @@ Some of the basic designs elements you will want to consider are things like:
 - Custom Branding (your logo and colors)
 - Pop-ups
 - Hide/show buttons based on users' access/permissions
+
+![Screenshot of a pop-up Survey app for training class.](../media/update-8.png)
 
 One of the most common User Experience enhancements you can implement in your applications are Pop-ups. By implementing pop-ups, you can provide the users with a simple, but useful visual to confirm what the user clicked on went through or maybe your pop-up acts as a loading screen as the logic on the backend is processed. For example, in the screenshot below when a user clicks on "Submit", we might have a simple pop-up display to let them know their submission was successful. 
 
@@ -83,39 +78,17 @@ The example below shows a simple Visio wireframe of a Purchase Items screen in a
 
 ![Screenshot example of a simple Visio wireframe.](../media/visio-wireframe.png)
 
-- Use Power Apps to create a mockup of your application. You can add most of the controls, graphics, forms, and other items to your app screens and play with the layout and size for each element as if you were building the app for real. When designing the UI you don't need to add the logic behind the various elements you placed on the screen.  The goal here is to focus on what the app could look like and how it could function. This similar to what you can do with a Visio wireframe but one of the biggest pros of going this route is that you will gain more experience working with Power Apps and also learn more about the various UI elements available in the process. All of the experience and knowledge you will gain by creating your app mockup in Power Apps will only payoff later when it's time to start on the production app. Another big upside to using Power Apps for your mockup is that if you show this to your team and they like what you did, you can continue building off this app or create a new app and copy the elements you would like to keep to your other application. By not having to redo the UI or only having to redo parts of it, you could potentially save yourself hours of work. 
+- Use Power Apps to create a mockup of your application. You can add most of the controls, graphics, forms, and other items to your app screens and play with the layout and size for each element as if you were building the app for real. When designing the UI you don't need to add the logic behind the various elements you placed on the screen.  The goal here is to focus on what the app could look like and how it could function. This similar to what you can do with a Visio wireframe but one of the biggest pros of going this route is that you will gain more experience working with Power Apps and also learn more about the various UI elements available in the process. All of the experience and knowledge you will gain by creating your app mockup in Power Apps will only payoff later when it's time to start on the production app. Another significant upside to using Power Apps for your mockup is that if you show this to your team and they like what you did, you can continue building off this app or create a new app and copy the elements you would like to keep to your other application. By not having to redo the UI or only having to redo parts of it, you could potentially save yourself hours of work. 
 
 The example below shows a simple mockup of a New Purchase Order Screen.
 
 ![Screenshot of a mockup of a new purchase order app.](../media/purchase-order-example.png)
 
-It really comes down to your preference and comfort with the software you are using to create the mockup. You should also consider licensing and costs when making this decision. Visio requires additional licensing to get the full functionality required for creating a wireframe diagram. Whereas with Power Apps, it doesn't matter which license you have.  As long as you have Power Apps (and sufficient permissions in your environment), you can create apps and mockup apps.
+It really comes down to your preference and comfort with the software you are using to create the mockup. You should also consider licensing and costs when making this decision. Visio requires other licensing to get the full functionality required for creating a wireframe diagram. Whereas with Power Apps, it doesn't matter which license you have.  As long as you have Power Apps (and sufficient permissions in your environment), you can create apps and mockup apps.
 
-As you design the User Interface, a few additional things to think about are Accessibility and Localization. It's important to ensure the app interface follows accessibility guidelines so all your users can interact with your application without any issues. To review these guidelines and additional accessibility properties, see [Create accessible canvas apps in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/accessible-apps?azureportal=true).
+As you design the User Interface, a few other things to think about are Accessibility and Localization. It's important to ensure the app interface follows accessibility guidelines so all your users can interact with your application without any issues. To review these guidelines and other accessibility properties, see [Create accessible canvas apps in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/accessible-apps/?azureportal=true).
 
-Localization can be something you must consider when developing your application as well. Depending on where your app will be used, you may need to use different punctuation. For example, some regions of the world use a . (dot or period) as the decimal separator while others use a , (comma). For more information on building a globally supported application, see [Build global support into canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/global-apps?azure-portal=true).
+Localization can be something you must consider when developing your application as well. Depending on where your app will be used, you may need to use different punctuation. For example, some regions of the world use a . (dot or period) as the decimal separator while others use a , (comma). For more information on building a globally supported application, see [Build global support into canvas apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/global-apps/?azure-portal=true).
 
-### Business Logic
-
-When using the Dataverse, you can create business rules and recommendations to apply logic and validations without writing code or creating plug-ins. The great thing about the Dataverse and business rules is that they are applied at the data level. This means that you can apply rules that are enforced regardless of how the data is accessed. 
- 
-Often when building apps all of the business logic is built into the app. This works great if the data is only accessed via the app. The challenge is often business data is used in many ways and from different tools. This is where Business Rules shine. You can apply logic on the data in the Dataverse, allowing your rules to be enforced no matter which tool interacts with the data. 
-
-For example, you have built a capital project expense tracking application using Dataverse as the data source. In your business process, the duration field is an optional field if your request is less than 10,000 but the duration field is required if the request is more than 10,000. After you set up your entity in Dataverse, you would then apply a business rule that says if Project Amount is greater than 10,000 then make Project Duration a required field. Now, regardless of how the user interacts with the data, the Business Rule will be enforced, keeping your data integrity.
-
-### Output
-
-Finally, you will want to discuss your app's data output. This simply means what type of data will your app generate, and once the data is generated what will be done with it? A few questions to ask your app stakeholders:
-- How does the data need to be visualized?
-- What actions will be taken on the data once it is collected?
-- Are there specific format or file types the data are needed?
-
-The answers to these questions will help determine if additional functionality needs to be added to the app such as a Power BI report, email output, PDF, or CSV.   
-
-Let’s look at an example.  Perhaps your organization has a legacy ERP solution and the orders submitted in your Power App need to be reflected in the ERP application. While one option might be to build a custom connector to that solution, another option may be to export the data to a CSV file using Power Automate and Power Apps together, see screenshot below:
-
-![Screenshot of an exported CSV file using Power Automate and Power Apps.](../media/export-csv-file-data-output.png)
-
-The great thing about generating this CSV file export is that it's not linked to your data, so the changes you make to the file will not alter the app data.
 
 For more information. see [Planning a Power Apps project](https://docs.microsoft.com/powerapps/guidance/planning/introduction).

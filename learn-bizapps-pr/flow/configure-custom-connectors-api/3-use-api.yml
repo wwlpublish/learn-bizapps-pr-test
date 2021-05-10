@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.configure-custom-connectors-api.3-use-api 
+title: Use APIs with Azure AD
+metadata: 
+  title: Use APIs with Azure AD 
+  description: Learn how to use APIs more securely with Azure Active Directory. 
+  ms.date: 03/11/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+durationInMinutes: 3 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-use-api.md)] 
