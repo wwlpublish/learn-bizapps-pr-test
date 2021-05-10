@@ -16,7 +16,7 @@ The **Find a doctor** feature in the Patient Access portal shows a list of poten
 
 ## Messages
 
-In the **Messages** section, patients can send and receive messages from their health care team. Messages work like email, but the content is protected on the portal for sensitive medical information and communications.
+In the **Messages** section, patients can send and receive messages from their healthcare team. Messages work like email, but the content is protected on the portal for sensitive medical information and communications.
 
 > [!div class="mx-imgBorder"]
 > [![A portal page on the Patient Access portal showing a list of messages from medical practitioners and a button to create a new message.](../media/2-3-inbox.png)](../media/2-3-inbox.png#lightbox)
