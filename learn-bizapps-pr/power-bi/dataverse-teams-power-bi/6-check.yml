@@ -1,0 +1,66 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.dataverse-teams-power-bi.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 05/31/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 6
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What information is needed when connecting Power BI to Dataverse for Teams?
+    choices: 
+    - content: Session ID
+      isCorrect: false 
+      explanation: Incorrect - This doesn't provide the Dataverse for Teams Environment URL.
+    - content: Tenant ID
+      isCorrect: false 
+      explanation: Incorrect - This doesn't provide the Dataverse for Teams Environment URL.
+    - content: Object ID
+      isCorrect: false 
+      explanation: Incorrect - This doesn't provide the Dataverse for Teams Environment URL.
+    - content: Build name
+      isCorrect: false 
+      explanation: Incorrect - This doesn't provide the Dataverse for Teams Environment URL.
+    - content: Resource ID
+      isCorrect: false 
+      explanation: Incorrect - This doesn't provide the Dataverse for Teams Environment URL.
+    - content: Unique Name
+      isCorrect: false 
+      explanation: Incorrect - This doesn't provide the Dataverse for Teams Environment URL.
+    - content: Instance URL
+      isCorrect: true 
+      explanation: Correct - The Instance URL provides the Dataverse for Teams Environment URL needed to have Power BI connect.
+  - content: You created a new Power BI report in My workspaces that you need to share with the rest of your project team. There's already a Microsoft Team created for the project. What is the best way to share the report?
+    choices: 
+    - content: From the Power BI app in Teams, 1. Open the report. 2. Share it with all the members of the project team. 3. Add a Power BI tab in the project's Microsoft Teams channel to the report.
+      isCorrect: true 
+      explanation: Correct - The report must be shared with all of the team members so they can view the Power BI report in the channel tab.
+    - content: From the Power BI app in Teams, 1. Open the report. 2. Select the option to start a chat in Teams for the project's Microsoft Teams channel.
+      isCorrect: false 
+      explanation: Incorrect - Starting a chat in Teams provides a URL to the report but doesn't change the report permissions.
+    - content: From the Power BI Desktop, 1. Open the pbix file. 2. Share the report with all the members of the project team. 3. Publish the report to the project's Microsoft Teams channel.
+      isCorrect: false 
+      explanation: Incorrect - The Power BI Desktop can't share or grant permissions to users, and it only publishes reports to Power BI workspaces.
+    - content: From the Power BI Desktop, 1. Open the pbix file. 2. Share the report with all the members of the project team. 3. Export the report to Teams.
+      isCorrect: false 
+      explanation: Incorrect - The Power BI Desktop can't share or grant permissions to users and only exports PDF files.
+  - content: Which Power BI application is required to connect to Dataverse for Teams?
+    choices: 
+    - content: Power BI web site
+      isCorrect: false 
+      explanation: Incorrect - The Power BI web site can't connect to Dataverse for Teams data.
+    - content: Power BI Desktop
+      isCorrect: true 
+      explanation: Correct - The Power BI Desktop is the only Power BI app that can connect to Dataverse for Teams data.
+    - content: Power BI for Teams
+      isCorrect: false 
+      explanation: Incorrect - Power BI for Teams has all the functionality of the Power BI web site, which can't connect to Dataverse for Teams data.
+    - content: Power BI for Dataverse
+      isCorrect: false 
+      explanation: Incorrect - There isn't a Power BI for Dataverse version.
