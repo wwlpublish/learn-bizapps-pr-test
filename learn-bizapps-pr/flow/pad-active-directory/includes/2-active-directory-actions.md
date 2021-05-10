@@ -85,7 +85,7 @@ Get information, or the members of an Active Directory with the **Get group info
 
 ## Object management
 
-Create, move, rename, or delete Active Directory objects with the corresponding actions. To create an object, use the **Create object** action. The object’s name, location, and type must be specified in the action properties.
+Create, move, rename, or delete Active Directory computers and organizational units with the corresponding actions. To create an object, use the **Create object** action. The object’s name, location, and type must be specified in the action properties.
   
 ![Screenshot of Create object action properties.](..\media\create-ad-object-action-properties.png)
 
