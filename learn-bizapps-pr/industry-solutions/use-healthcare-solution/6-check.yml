@@ -13,65 +13,65 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What Dynamics 365 app is the Microsoft Cloud of Healthcare Home Health app extended from?
+  - content: The Home Health app in Microsoft Cloud for Healthcare is extended from which Dynamics 365 app?
     choices: 
     - content: Dynamics 365 Customer Service
       isCorrect: false 
-      explanation: The Home Health app allows for resources such as home healthcare professionals to be booked for home visits. This uses the functionality of Dynamics 365 Field Service. Dynamics 365 Customer Service doesn't have the resource scheduling capability. Dynamics 365 Marketing is used for outreach (Patient Outreach) and Dynamics 365 Supply Chain Management is used for Enterprise Resource Planning applications.
+      explanation: The Home Health app allows for resources, such as home healthcare professionals, to be scheduled for home visits, which uses the functionality of Dynamics 365 Field Service. Dynamics 365 Customer Service doesn't have the resource scheduling capability. Dynamics 365 Marketing is used for outreach (Patient Outreach), and Dynamics 365 Supply Chain Management is used for Enterprise Resource Planning applications.
     - content: Dynamics 365 Field Service
       isCorrect: true 
-      explanation: The Home Health app allows for resources such as home healthcare professionals to be booked for home visits. This uses the functionality of Dynamics 365 Field Service. Dynamics 365 Customer Service doesn't have the resource scheduling capability. Dynamics 365 Marketing is used for outreach (Patient Outreach) and Dynamics 365 Supply Chain Management is used for Enterprise Resource Planning applications.
+      explanation: The Home Health app allows for resources, such as home healthcare professionals, to be scheduled for home visits, which uses the functionality of Dynamics 365 Field Service. Dynamics 365 Customer Service doesn't have the resource scheduling capability. Dynamics 365 Marketing is used for outreach (Patient Outreach), and Dynamics 365 Supply Chain Management is used for Enterprise Resource Planning applications.
     - content: Dynamics 365 Marketing
       isCorrect: false 
-      explanation: The Home Health app allows for resources such as home healthcare professionals to be booked for home visits. This uses the functionality of Dynamics 365 Field Service. Dynamics 365 Customer Service doesn't have the resource scheduling capability. Dynamics 365 Marketing is used for outreach (Patient Outreach) and Dynamics 365 Supply Chain Management is used for Enterprise Resource Planning applications.
+      explanation: The Home Health app allows for resources, such as home healthcare professionals, to be scheduled for home visits, which uses the functionality of Dynamics 365 Field Service. Dynamics 365 Customer Service doesn't have the resource scheduling capability. Dynamics 365 Marketing is used for outreach (Patient Outreach), and Dynamics 365 Supply Chain Management is used for Enterprise Resource Planning applications.
     - content: Dynamics 365 Supply Chain Management
       isCorrect: false 
-      explanation: The Home Health app allows for resources such as home healthcare professionals to be booked for home visits. This uses the functionality of Dynamics 365 Field Service. Dynamics 365 Customer Service doesn't have the resource scheduling capability. Dynamics 365 Marketing is used for outreach (Patient Outreach) and Dynamics 365 Supply Chain Management is used for Enterprise Resource Planning applications.
-  - content: A patient's data is integrated from an Electronic Medical Record system and is updated using the Care Management app. How can the patient be provided access to view their medical information?
+      explanation: The Home Health app allows for resources, such as home healthcare professionals, to be scheduled for home visits, which uses the functionality of Dynamics 365 Field Service. Dynamics 365 Customer Service doesn't have the resource scheduling capability. Dynamics 365 Marketing is used for outreach (Patient Outreach), and Dynamics 365 Supply Chain Management is used for Enterprise Resource Planning applications.
+  - content: A patient's data is integrated from an electronic medical records (EMR) system and is updated by using the Care Management app. How can you provide the patient with access to view their medical information?
     choices: 
     - content: Use the FHIR Sync Agent to sync data to the Patient Access portal
       isCorrect: false 
-      explanation: The patient data is stored in Microsoft Dataverse, so the patient will have immediate access to their information via the Patient Access portal (based on Power Apps portals). The patient data will also be visible in all the Microsoft Cloud for Healthcare apps since the row is stored in Dataverse. The FHIR Sync Agent is what is used to integrate the data from an Electronic Medical Record system. Adding a patient to a Microsoft Teams channel won't give them access to their medical information.
+      explanation: Patient data is stored in Microsoft Dataverse, so the patient will have immediate access to their information through the Patient Access portal (based on Power Apps portals). Patient data will also be visible in all Microsoft Cloud for Healthcare apps because the row is stored in Dataverse. You would use the FHIR Sync Agent to integrate data from an electronic medical records (EMR) system. Adding a patient to a Microsoft Teams channel won't give them access to their medical information.
     - content: Copy the patient data to the Patient Service Center app
       isCorrect: false 
-      explanation: The patient data is stored in Microsoft Dataverse, so the patient will have immediate access to their information via the Patient Access portal (based on Power Apps portals). The patient data will also be visible in all the Microsoft Cloud for Healthcare apps since the row is stored in Dataverse. The FHIR Sync Agent is what is used to integrate the data from an Electronic Medical Record system. Adding a patient to a Microsoft Teams channel won't give them access to their medical information.
-    - content: Provide the patient with a login to the Patient Access portal
+      explanation: Patient data is stored in Microsoft Dataverse, so the patient will have immediate access to their information through the Patient Access portal (based on Power Apps portals). Patient data will also be visible in all Microsoft Cloud for Healthcare apps because the row is stored in Dataverse. You would use the FHIR Sync Agent to integrate data from an electronic medical records (EMR) system. Adding a patient to a Microsoft Teams channel won't give them access to their medical information.
+    - content: Provide the patient with sign-in information to the Patient Access portal
       isCorrect: true 
-      explanation: The patient data is stored in Microsoft Dataverse, so the patient will have immediate access to their information via the Patient Access portal (based on Power Apps portals). The patient data will also be visible in all the Microsoft Cloud for Healthcare apps since the row is stored in Dataverse. The FHIR Sync Agent is what is used to integrate the data from an Electronic Medical Record system. Adding a patient to a Microsoft Teams channel won't give them access to their medical information.
+      explanation: Patient data is stored in Microsoft Dataverse, so the patient will have immediate access to their information through the Patient Access portal (based on Power Apps portals). Patient data will also be visible in all Microsoft Cloud for Healthcare apps because the row is stored in Dataverse. You would use the FHIR Sync Agent to integrate data from an electronic medical records (EMR) system. Adding a patient to a Microsoft Teams channel won't give them access to their medical information.
     - content: Add the patient to a Microsoft Teams channel
       isCorrect: false 
-      explanation: The patient data is stored in Microsoft Dataverse, so the patient will have immediate access to their information via the Patient Access portal (based on Power Apps portals). The patient data will also be visible in all the Microsoft Cloud for Healthcare apps since the row is stored in Dataverse. The FHIR Sync Agent is what is used to integrate the data from an Electronic Medical Record system. Adding a patient to a Microsoft Teams channel won't give them access to their medical information.
-  - content: A healthcare agent is communicating with a patient using the Patient Service Center. The agent needs to know what medications the patient is taking. How can they find this information?
+      explanation: Patient data is stored in Microsoft Dataverse, so the patient will have immediate access to their information through the Patient Access portal (based on Power Apps portals). Patient data will also be visible in all Microsoft Cloud for Healthcare apps because the row is stored in Dataverse. You would use the FHIR Sync Agent to integrate data from an electronic medical records (EMR) system. Adding a patient to a Microsoft Teams channel won't give them access to their medical information.
+  - content: A healthcare agent is communicating with a patient by using the Patient Service Center app. The agent needs to know the medications that the patient is taking. How can the agent find this information?
     choices: 
-    - content: Log into the Patient Access portal and view the patient info
+    - content: Sign in to the Patient Access portal and view the patient information.
       isCorrect: false 
-      explanation: The Patient Service Center provides the ability for agents to view the patient form that has the medications on the timeline. The agent couldn't log into the portal for the patient. The agent could get the same info from the Home Healthcare app and the EMR system, but it would be more efficient to get it directly from the agent dashboard.
-    - content: Launch the Home Healthcare app and view Home Health work orders for this patient
+      explanation: The Patient Service Center app provides agents with the ability to view the patient form that shows medications on the timeline. The agent can’t sign in to the portal for the patient. The agent could get the same information from the Home Healthcare app and the EMR system, but it would be more efficient to get it directly from the agent dashboard.
+    - content: Launch the Home Healthcare app and view Home Health work orders for this patient.
       isCorrect: false 
-      explanation: The Patient Service Center provides the ability for agents to view the patient form that has the medications on the timeline. The agent couldn't log into the portal for the patient. The agent could get the same info from the Home Healthcare app and the EMR system, but it would be more efficient to get it directly from the agent dashboard.
-    - content: View the patient timeline on the patient/contact form in the agent dashboard
+      explanation: The Patient Service Center app provides agents with the ability to view the patient form that shows medications on the timeline. The agent can’t sign in to the portal for the patient. The agent could get the same information from the Home Healthcare app and the EMR system, but it would be more efficient to get it directly from the agent dashboard.
+    - content: View the patient timeline on the patient/contact form on the agent dashboard.
       isCorrect: true 
-      explanation: The Patient Service Center provides the ability for agents to view the patient form that has the medications on the timeline. The agent couldn't log into the portal for the patient. The agent could get the same info from the Home Healthcare app and the EMR system, but it would be more efficient to get it directly from the agent dashboard.
-    - content: Look up the info in an Electronic Medical Record system
+      explanation: The Patient Service Center app provides agents with the ability to view the patient form that shows medications on the timeline. The agent can’t sign in to the portal for the patient. The agent could get the same information from the Home Healthcare app and the EMR system, but it would be more efficient to get it directly from the agent dashboard.
+    - content: Look up the information in an electronic medical records (EMR) system.
       isCorrect: false 
-      explanation: The Patient Service Center provides the ability for agents to view the patient form that has the medications on the timeline. The agent couldn't log into the portal for the patient. The agent could get the same info from the Home Healthcare app and the EMR system, but it would be more efficient to get it directly from the agent dashboard.
-  - content: A medical organization wants to send out a monthly newsletter to its patients. Which would be the best app to make this easier?
+      explanation: The Patient Service Center app provides agents with the ability to view the patient form that shows medications on the timeline. The agent can’t sign in to the portal for the patient. The agent could get the same information from the Home Healthcare app and the EMR system, but it would be more efficient to get it directly from the agent dashboard.
+  - content: A medical organization wants to send a monthly newsletter to its patients. Which would be the best app to make this task easier?
     choices: 
     - content: Care Management app
       isCorrect: false 
-      explanation: The Patient Outreach app is based on Dynamics 365 Marketing and can create segments, Marketing emails, and patient journeys that can be used to send out regular newsletters. The other apps can't easily send mass communications.
+      explanation: The Patient Outreach app is based on Dynamics 365 Marketing and can create segments, marketing emails, and patient journeys that can be used to send regular newsletters. The other apps can't easily send mass communications.
     - content: Patient Access portal
       isCorrect: false 
-      explanation: The Patient Outreach app is based on Dynamics 365 Marketing and can create segments, Marketing emails, and patient journeys that can be used to send out regular newsletters. The other apps can't easily send mass communications.
+      explanation: The Patient Outreach app is based on Dynamics 365 Marketing and can create segments, marketing emails, and patient journeys that can be used to send regular newsletters. The other apps can't easily send mass communications.
     - content: Home Health app
       isCorrect: false 
-      explanation: The Patient Outreach app is based on Dynamics 365 Marketing and can create segments, Marketing emails, and patient journeys that can be used to send out regular newsletters. The other apps can't easily send mass communications.
+      explanation: The Patient Outreach app is based on Dynamics 365 Marketing and can create segments, marketing emails, and patient journeys that can be used to send regular newsletters. The other apps can't easily send mass communications.
     - content: Patient Outreach app
       isCorrect: true 
-      explanation: The Patient Outreach app is based on Dynamics 365 Marketing and can create segments, Marketing emails, and patient journeys that can be used to send out regular newsletters. The other apps can't easily send mass communications.
-  - content: An administrator for home healthcare services needs to book a certified physiotherapist to visit a patient. Where can the administrator book the resource?
+      explanation: The Patient Outreach app is based on Dynamics 365 Marketing and can create segments, marketing emails, and patient journeys that can be used to send regular newsletters. The other apps can't easily send mass communications.
+  - content: An administrator for home healthcare services needs to schedule a certified physiotherapist to visit a patient. Where can the administrator schedule the resource?
     choices: 
-    - content: Schedule Board
+    - content: Schedule board
       isCorrect: true 
       explanation: The schedule board uses the Universal Scheduler feature of Dynamics 365 Field Service to book appropriate resources against a home care work order.
     - content: Cases
