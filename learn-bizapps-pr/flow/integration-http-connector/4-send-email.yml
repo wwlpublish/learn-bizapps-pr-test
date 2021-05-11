@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.integration-http-connector.4-send-email 
-title: Power Automate flow to send an email directly from SharePoint
+title: Use Power Automate to send an email from SharePoint
 metadata: 
-  title: Power Automate flow to send an email directly from SharePoint 
-  description: Learn how to send an email directly from SharePoint. 
+  title: Use Power Automate to send an email from SharePoint 
+  description: Learn how to use Power Automate flow to send an email from SharePoint. 
   ms.date: 04/28/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
