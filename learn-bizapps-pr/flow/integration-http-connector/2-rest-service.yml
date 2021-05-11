@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.integration-http-connector.2-rest-service 
-title: Overview of SharePoint REST service
+title: SharePoint REST service
 metadata: 
-  title: Overview of SharePoint REST service 
+  title: SharePoint REST service 
   description: Learn about SharePoint REST service. 
   ms.date: 04/28/2021 
   author: DaveBeasley 

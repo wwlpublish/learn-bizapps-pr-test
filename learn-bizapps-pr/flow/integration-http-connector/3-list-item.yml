@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.integration-http-connector.3-list-item 
-title: Power Automate flow to add, edit, delete, and read SharePoint list item
+title: Use Power Automate to change a SharePoint list
 metadata: 
-  title: Power Automate flow to add, edit, delete, and read SharePoint list item 
+  title: Use Power Automate to change a SharePoint list 
   description: Learn how to add, edit, delete, and read SharePoint list items. 
   ms.date: 04/28/2021 
   author: DaveBeasley 

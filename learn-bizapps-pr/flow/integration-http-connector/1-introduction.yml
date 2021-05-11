@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.integration-http-connector.1-introduction 
-title: Introduction to HTTP connection
+title: Introduction
 metadata: 
-  title: Introduction to HTTP connection 
-  description: Learn about HTTP connection. 
+  title: Introduction 
+  description: Introduction to integrating Power Automate with SharePoint HTTP actions 
   ms.date: 04/28/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

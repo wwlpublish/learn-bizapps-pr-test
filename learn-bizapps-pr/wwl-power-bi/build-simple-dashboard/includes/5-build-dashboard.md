@@ -16,7 +16,7 @@ If you clicked on the link from publishing your report, your report should now b
 
 4. Go to the first page of your report.
 
-5. You may notice that Key Influencers does not have the option to pin the visual when you hover over it. Instead, press the **Pin a Live Page** button at the top of your report.
+5. You may notice that Key Influencers does not have the option to pin the visual when you hover over it. Instead, press the **Pin to a dashboard** button at the top of your report.
 
     >[!div class="mx-imgBorder"]
     >![Pin a live page](../media/pin-a-live-page.png)
