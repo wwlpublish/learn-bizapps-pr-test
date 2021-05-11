@@ -9,12 +9,12 @@ metadata:
 title: Introduction to Power BI for Tableau users
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  The purpose of this module is to help Tableau analysts switch from Tableau to Microsoft Power BI.
+  How does Microsoft Power BI differ from Tableau? What do these two tools share in common? Let's explore how they connect to data and help you build visualizations. 
 abstract: |  
-    In this module, you will: 
-    - Explore the Power BI Desktop interface.
+    After completing this module, you will be able to: 
+    - Describe the Power BI Desktop interface.
     - Connect to your data in Power BI Desktop by using the DirectQuery and Import methods.
-    - Learn about the importance of relationships in your Power BI data models.
+    - Describe the importance of relationships in your Power BI data models.
     - Build a visualization in Power BI Desktop.
     - Apply conditional formatting to help analysts detect critical issues and identify patterns in data.
     - Discover differences and similarities between Tableau and Power BI concepts.
