@@ -1,17 +1,17 @@
 ### YamlMime:Module 
 uid: learn-bizapps.dataverse-teams-power-bi 
 metadata: 
- title: Teams and Power BI
+ title: Create reports with Power BI and Dataverse for Teams
  description: Dataverse for Teams - Build your first report with Power BI and Dataverse for Teams.
  ms.date: 05/31/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-bi  
-title: Teams and Power BI
+title: Create reports with Power BI and Dataverse for Teams
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Dataverse for Teams - Build your first report with Power BI and Dataverse for Teams.
+  Build your reports with Power BI and Dataverse for Teams. This module covers importing a dataset, creating a report, editing reports, and sharing reports with others.
 abstract: |  
     In this module, you will: 
     - Import a Dataverse dataset into Power BI
