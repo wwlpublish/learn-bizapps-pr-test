@@ -32,12 +32,12 @@ quiz:
     - content: Dynamics 365
       isCorrect: false
       explanation: The Dynamics 365 connector is deprecated and can only perform CRUD operations.
-    - content: Common Data Service
+    - content: Dataverse
       isCorrect: false
-      explanation: The Common Data Service connector can only perform CRUD operations.
-    - content: Common Data Service (current environment)
+      explanation: The Dataverse connector can only perform CRUD operations.
+    - content: Dataverse 
       isCorrect: true
-      explanation: The Common Data Service (current environment) connector can perform CRUD and other advanced operations such as perform a bound action and perform an unbound action.
+      explanation: The Dataverse  connector can perform CRUD and other advanced operations such as perform a bound action and perform an unbound action.
     - content: Power Apps 
       isCorrect: false
       explanation: The Power Apps connector allows Power Automate flows to be called from canvas apps. The Power Apps connector can't run Dataverse custom actions.

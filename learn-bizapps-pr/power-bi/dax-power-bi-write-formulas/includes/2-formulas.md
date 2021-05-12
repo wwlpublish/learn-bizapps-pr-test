@@ -14,17 +14,17 @@ A DAX formula consists of expressions that return a result. The result is either
 
 Formulas are assembled by using:
 
-- DAX functions
+-   DAX functions
 
-- DAX operators
+-   DAX operators
 
-- References to model objects
+-   References to model objects
 
-- Constant values, like the number 24 or the literal text "FY" (for fiscal year)
+-   Constant values, like the number 24 or the literal text "FY" (for fiscal year)
 
-- DAX variables
+-   DAX variables
 
-- Whitespace
+-   Whitespace
 
 > [!TIP]
 > When entering DAX formulas in Power BI Desktop, you have the benefit of IntelliSense. IntelliSense is a code-completion aid that lists functions and model resources. When you select a DAX function, it also provides you with a definition and description. We recommend that you use IntelliSense to help you quickly build accurate formulas.
@@ -60,11 +60,11 @@ Ship Date = 'Date'
 
 However, single quotation marks can be omitted when both of the following conditions are true:
 
-1. The table name does not include embedded spaces.
+1.  The table name does not include embedded spaces.
 
-2. The table name is not a reserved word that is used by DAX. All DAX function names and operators are reserved words. *Date* is a DAX function name, which explains why, when you are referencing a table named Date, that it must be enclosed within single quotation marks.
+2.  The table name is not a reserved word that is used by DAX. All DAX function names and operators are reserved words. *Date* is a DAX function name, which explains why, when you are referencing a table named Date, that it must be enclosed within single quotation marks.
 
-In the following calculated table definition, it's possible to omit the square brackets when referencing the Airport table:
+In the following calculated table definition, it's possible to omit the single quotation marks when referencing the Airport table:
 
 ```dax
 Arrival Airport = Airport
@@ -116,21 +116,21 @@ How and when to use DAX variables is described later in this module.
 
 Whitespace refers to characters that you can use to format your formulas in a way that's quick and simple to understand. Whitespace characters include:
 
-- Spaces
+-   Spaces
 
-- Tabs
+-   Tabs
 
-- Carriage returns
+-   Carriage returns
 
 Whitespace is optional and it doesn't modify your formula logic or negatively impact performance. We strongly recommend that you adopt a format style and apply it consistently, and consider the following recommendations:
 
-- Use spaces between operators.
+-   Use spaces between operators.
 
-- Use tabs to indent nested function calls.
+-   Use tabs to indent nested function calls.
 
-- Use carriage returns to separate function arguments, especially when it's too long to fit on a single line. Formatting in this way makes it simpler to troubleshoot, especially when the formula is missing a parenthesis.
+-   Use carriage returns to separate function arguments, especially when it's too long to fit on a single line. Formatting in this way makes it simpler to troubleshoot, especially when the formula is missing a parenthesis.
 
-- Err on the side of too much whitespace than too little.
+-   Err on the side of too much whitespace than too little.
 
 > [!TIP]
 > In the formula bar, to enter a carriage return, press the **Shift+Enter** shortcut keys. Pressing the **Enter** key alone will commit your formula.
@@ -146,15 +146,15 @@ The following example is the same measure definition but now formatted, which he
 ```dax
 Revenue YoY % =
 DIVIDE(
-    [Revenue]
-        - CALCULATE(
-            [Revenue],
-            SAMEPERIODLASTYEAR('Date'[Date])
-    ),
-    CALCULATE(
-        [Revenue],
-        SAMEPERIODLASTYEAR('Date'[Date])
-    )
+	[Revenue]
+		- CALCULATE(
+			[Revenue],
+			SAMEPERIODLASTYEAR('Date'[Date])
+	),
+	CALCULATE(
+		[Revenue],
+		SAMEPERIODLASTYEAR('Date'[Date])
+	)
 )
 ```
 

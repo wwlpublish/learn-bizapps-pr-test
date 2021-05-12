@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.http-connectors.3-azure 
-title: HTTP with Azure Active Directory connector
+title: HTTP with Azure AD connector
 metadata: 
-  title: HTTP with Azure Active Directory connector 
-  description: Learn about HTTP with Azure Active Directory connector. 
+  title: HTTP with Azure AD connector 
+  description: Learn about the HTTP with Azure AD connector. 
   ms.date: 04/21/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

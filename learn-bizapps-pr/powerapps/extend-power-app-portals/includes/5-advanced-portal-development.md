@@ -10,7 +10,7 @@ For an example of a sophisticated implementation that can be hosted in Power App
 
 ### API calls
 
-Combined with custom web templates that use Liquid code to deliver *data* instead of HTML, JavaScript can call *back* into Power Apps portals to retrieve the data and then use it to create alternative UX. For example, instead of using the **Entity List** calendar view, you can retrieve list data in JSON format instead and then use other calendaring libraries, like FullCalendar, to create sophisticated calendar visualization. Alternatively, you can retrieve opportunity data and use another charting JavaScript library for sophisticated interactive charting.
+Combined with custom web templates that use Liquid code to deliver *data* instead of HTML, JavaScript can call *back* into Power Apps portals to retrieve the data and then use it to create alternative UX. For example, instead of using the **Table List** calendar view, you can retrieve list data in JSON format instead and then use other calendaring libraries, like FullCalendar, to create sophisticated calendar visualization. Alternatively, you can retrieve opportunity data and use another charting JavaScript library for sophisticated interactive charting.
 
 > [!IMPORTANT]
 > When you use web templates, it is only possible to implement REST service for GET operations. No other operation, such as PUT, is supported by Liquid code.

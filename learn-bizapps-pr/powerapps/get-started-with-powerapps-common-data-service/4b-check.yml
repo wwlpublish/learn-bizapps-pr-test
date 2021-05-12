@@ -13,7 +13,7 @@ durationInMinutes: 6
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: When creating an Table, what are the two types of relationships you can create?
+  - content: When creating a Table, what are the two types of relationships you can create?
     choices: 
     - content: One-to-many and One-to-one
       isCorrect: false 

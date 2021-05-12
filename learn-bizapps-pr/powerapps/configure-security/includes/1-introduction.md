@@ -1,6 +1,6 @@
 ## Microsoft Dataverse customer entities
 
-Microsoft Power Apps portals security is configured primarily around the Dataverse (or Dynamics 365) **contact** record. The contact record represents a person with which an organization has a relationship. In the Dynamics 365 apps, a contact record can represent a stakeholder such as a customer, partner, supplier, supporter, or an employee of organizational stakeholders (organizations are typically represented by using the **account** entity).
+Microsoft Power Apps portals security is configured primarily around the Dataverse (or Dynamics 365) **contact** record. The contact record represents a person with which an organization has a relationship. In the Dynamics 365 apps, a contact record can represent a stakeholder such as a customer, partner, supplier, supporter, or an employee of organizational stakeholders (organizations are typically represented by using the **account** table).
 
 [Customer entities](https://docs.microsoft.com/powerapps/developer/common-data-service/customer-entities-account-contact/?azure-portal=true)
 
@@ -31,7 +31,7 @@ Allowing or not allowing portal visitors to register as a new contact is configu
 
 ## Accounts
 
-A common relationship in Dynamics 365 and Dataverse apps is where the contact is a child entity of an account record that represents an employee-employer relationship. This relationship might have an impact on configuring entity permissions because the contact might be provided access to content based on the permissions that are granted to the account record.
+A common relationship in Dynamics 365 and Dataverse apps is where the contact is a child table of an account record that represents an employee-employer relationship. This relationship might have an impact on configuring table permissions because the contact might be provided access to content based on the permissions that are granted to the account record.
 
 <!--image of portal user registering-->
 > [!div class="mx-imgBorder"]
@@ -39,7 +39,7 @@ A common relationship in Dynamics 365 and Dataverse apps is where the contact is
 
 ## Web role
 
-When a portal user has an associated contact, you still need to assign web roles that will be linked to webpage access control rules and entity permissions that will determine information that the portal user can access.
+When a portal user has an associated contact, you still need to assign web roles that will be linked to webpage access control rules and table permissions that will determine information that the portal user can access.
 
 A **Web Role** record can only be created in the Portal Management app and contains the following properties.
 
@@ -48,8 +48,8 @@ A **Web Role** record can only be created in the Portal Management app and conta
 | Name | The name of the web role. This name should be descriptive of the purpose or audience that will be assigned the web role. |
 | Website | The website to which this web role belongs. |
 | Description | A description of the purpose of the web role and other descriptive information. |
-| Authenticated Users Role | A Boolean field that indicates that the linked entity permissions or webpage access control rules will be automatically applied to all authenticated portal users. |
-| Anonymous Users Role |  A Boolean field that indicates that the linked entity permissions or webpage access control rules will be automatically applied to all anonymous portal users. |
+| Authenticated Users Role | A Boolean field that indicates that the linked table permissions or webpage access control rules will be automatically applied to all authenticated portal users. |
+| Anonymous Users Role |  A Boolean field that indicates that the linked table permissions or webpage access control rules will be automatically applied to all anonymous portal users. |
 
 You can assign web roles by using the Portal Management app and relating an existing contact to a web role. Web roles can also be assigned to a contact from a portal invitation record.
 

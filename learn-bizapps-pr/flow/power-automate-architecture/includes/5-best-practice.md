@@ -9,7 +9,7 @@ Several options are available for your team to make the flows that they build mo
 
 Using child flows allows you to separate parts of a flow into reusable child flows.
 
-To create a child flow, you must create the flow in a solution and then use the **Common Data Service (current environment)** trigger. The child flow can use the following triggers:
+To create a child flow, you must create the flow in a solution and then use the **Dataverse** trigger. The child flow can use the following triggers:
 
 - Manually-triggered button
 - Power Apps

@@ -13,59 +13,59 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: What is the requirement for Send as to work?
+  - content: What is the requirement for the Send as filter to work?
     choices: 
-    - content: There are no requirements, just make sure the email address is correct.
+    - content: No requirements; you only need to make sure that the email address is correct.
       isCorrect: false
-      explanation: Send as access to a mailbox is done in the Exchange admin center. You find the user's email account and in mailbox delegation add the person who is granted access to send the email on your behalf.
+      explanation: You would use the Send as access to a mailbox in the Exchange admin center. You can find the user's email account and, in the mailbox delegation, add the person who is granted access to send the email on your behalf.
     - content: It needs to be an email address that is part of your tenant.
       isCorrect: false 
-      explanation: Send as access to a mailbox is done in the Exchange admin center. You find the user's email account and in mailbox delegation add the person who is granted access to send the email on your behalf.
+      explanation: You would use the Send as access to a mailbox in the Exchange admin center. You can find the user's email account and, in the mailbox delegation, add the person who is granted access to send the email on your behalf.
     - content: To send an email on behalf of someone, you need Send as access to their mailbox.
       isCorrect: true 
-      explanation: Send as access to a mailbox is done in the Exchange admin center. You find the user's email account and in mailbox delegation add the person who is granted access to send the email on your behalf.
+      explanation: You would use the Send as access to a mailbox in the Exchange admin center. You can find the user's email account and, in the mailbox delegation, add the person who is granted access to send the email on your behalf.
     - content: It needs to be a shared mailbox and not a user mailbox.
       isCorrect: false 
-      explanation: Send as access to a mailbox is done in the Exchange admin center. You find the user's email account and in mailbox delegation add the person who is granted access to send the email on your behalf.
+      explanation: You would use the Send as access to a mailbox in the Exchange admin center. You can find the user's email account and, in the mailbox delegation, add the person who is granted access to send the email on your behalf.
   - content: How do you enhance the body of your flow email?
     choices: 
-    - content: By using the rich text editor.
+    - content: By using the rich text editor
       isCorrect: false
-      explanation: Both Outlook mail and Mail connectors send email actions providing the option to format your email body. You can also add code similar to HTML.
-    - content: By either using the rich text editor feature or using code similar to HTML.
+      explanation: Outlook mail and Mail connectors send email actions that provide you with the option to format your email body. You can also add code similar to HTML.
+    - content: By using the rich text editor feature or by using code similar to HTML
       isCorrect: true 
-      explanation: Both Outlook mail and Mail connectors send email actions providing the option to format your email body. You can also add code similar to HTML.
-    - content: By using HTML with JavaScript.
+      explanation: Outlook mail and Mail connectors send email actions that provide you with the option to format your email body. You can also add code similar to HTML.
+    - content: By using HTML with JavaScript
       isCorrect: false 
-      explanation: Both Outlook mail and Mail connectors send email actions providing the option to format your email body. You can also add code similar to HTML.
-    - content: By using HTML.
+      explanation: Outlook mail and Mail connectors send email actions that provide you with the option to format your email body. You can also add code similar to HTML.
+    - content: By using HTML
       isCorrect: false 
-      explanation: Both Outlook mail and Mail connectors send email actions providing the option to format your email body. You can also add code similar to HTML.
+      explanation: Outlook mail and Mail connectors send email actions that provide you with the option to format your email body. You can also add code similar to HTML.
   - content: What is required for approvals to be sent in a concurrent or parallel manner?
     choices: 
     - content: Add approval actions in parallel.
       isCorrect: false
-      explanation: The Approval step inside an Apply to each by default runs in a sequential manner. To make it run concurrently, go to the settings of apply to each and turn on the concurrency option.
+      explanation: The approval step inside an Apply to each action runs in a sequential manner by default. To make it run concurrently, go to the settings of the Apply to each action and then turn on the Concurrency Control option.
     - content: Add multiple email addresses in the approval step.
       isCorrect: false 
-      explanation: The Approval step inside an Apply to each by default runs in a sequential manner. To make it run concurrently, go to the settings of apply to each and turn on the concurrency option.
+      explanation: The approval step inside an Apply to each action runs in a sequential manner by default. To make it run concurrently, go to the settings of the Apply to each action and then turn on the Concurrency Control option.
     - content: Add multiple approval steps and apply to each.
       isCorrect: false 
-      explanation: The Approval step inside an Apply to each by default runs in a sequential manner. To make it run concurrently, go to the settings of apply to each and turn on the concurrency option.
-    - content: The Approval step should be in an Apply to each action with its concurrency set to on.
+      explanation: The approval step inside an Apply to each action runs in a sequential manner by default. To make it run concurrently, go to the settings of the Apply to each action and then turn on the Concurrency Control option.
+    - content: The approval step should be in an Apply to each action with its Concurrency Control set to On.
       isCorrect: true 
-      explanation: The Approval step inside an Apply to each by default runs in a sequential manner. To make it run concurrently, go to the settings of apply to each and turn on the concurrency option.
-  - content: What are the two ways to send files via email?
+      explanation: The approval step inside an Apply to each action runs in a sequential manner by default. To make it run concurrently, go to the settings of the Apply to each action and then turn on the Concurrency Control option.
+  - content: What are the two ways to send files through email?
     choices: 
-    - content: Using attachments and links.
+    - content: Attachments and links
       isCorrect: true 
-      explanation: For your internal company users, approved guests and external users, links in emails are preferred. For users who do not have access to your tenant, emails are sent with attachments.
-    - content: Using attachments and OneDrive.
+      explanation: For your internal company users, approved guests, and external users, links in emails are preferred. For users who don't have access to your tenant, emails are sent with attachments.
+    - content: Attachments and OneDrive
       isCorrect: false 
-      explanation: For your internal company users, approved guests and external users, links in emails are preferred. For users who do not have access to your tenant, emails are sent with attachments.
-    - content: Using forms and links.
+      explanation: For your internal company users, approved guests, and external users, links in emails are preferred. For users who don't have access to your tenant, emails are sent with attachments.
+    - content: Forms and links
       isCorrect: false 
-      explanation: For your internal company users, approved guests and external users, links in emails are preferred. For users who do not have access to your tenant, emails are sent with attachments.
-    - content: Using attachments and forms.
+      explanation: For your internal company users, approved guests, and external users, links in emails are preferred. For users who don't have access to your tenant, emails are sent with attachments.
+    - content: Attachments and forms
       isCorrect: false 
-      explanation: For your internal company users, approved guests and external users, links in emails are preferred. For users who do not have access to your tenant, emails are sent with attachments.
+      explanation: For your internal company users, approved guests, and external users, links in emails are preferred. For users who don't have access to your tenant, emails are sent with attachments.

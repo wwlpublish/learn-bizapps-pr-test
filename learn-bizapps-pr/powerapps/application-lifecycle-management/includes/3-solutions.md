@@ -61,7 +61,7 @@ You might have multiple solutions that share components. You might have a certai
 Rules that you should follow with solutions:
 
 - Create a solution publisher and use it for all solutions.
-- Don’t use the default publisher, the default solution, or the Common Data Service default solution.
+- Don’t use the default publisher, the default solution, or the Dataverse default solution.
 - Keep the solution structure as simple as possible.
 - Avoid selecting the **Include all components** check box unless you are adding an unmanaged table.
 - Include table metadata only when you are changing table properties.

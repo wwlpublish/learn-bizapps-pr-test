@@ -128,9 +128,9 @@ Importing the solution is a required installation process that helps ensure that
 	
 	1.  Complete the same steps for the following connectors:
 	
-		-   Dataverse
+		-   Dataverse (legacy)
 		
-		-   Dataverse (current environment)
+		-   Dataverse 
 		
 		-   Power Apps for Admins
 		
