@@ -49,6 +49,6 @@ Now that you have the Power Apps application installed, you can create the first
 1. Enter the name for your app and then select **Save**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Name your app field.](../media/name-app.png)](../media/name-app.png#lightbox)
+	> [![Screenshot of the Name your app column.](../media/name-app.png)](../media/name-app.png#lightbox)
 
 With the creation of the first app, you now have a Dataverse for Teams environment to help you start building tables. The Power Apps editor enables you to quickly create tables with the **Create new table** button, which the next section will explain.

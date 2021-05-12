@@ -20,9 +20,9 @@ Make sure that you meet the following requirements before you begin this module:
 
 -   The environment must have a data loss prevention (DLP) policy that allows:
 
-    -   [Dataverse](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true) 
+    -   [Dataverse (legacy)](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true) 
 
-    -   [Dataverse (current environment)](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true) 
+    -   [Dataverse](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true) 
 
     -   [Office 365 Users](https://docs.microsoft.com/connectors/office365users/?azure-portal=true), 
 

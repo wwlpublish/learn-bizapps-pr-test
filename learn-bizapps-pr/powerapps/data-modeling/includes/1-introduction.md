@@ -1,21 +1,21 @@
-The Solution Architect is responsible for the overall high-level design of the data model for the solution. Understanding the capabilities of Dataverse is imperative when designing the data model for the solution. This module addresses the trade offs for modeling data in Power Platform solutions.
+Solution architects are responsible for the overall high-level design of the data model for the solution. It is imperative that solution architects understand the capabilities of Microsoft Dataverse when they are designing the data model for the solution. This module addresses the tradeoffs for modeling data in Microsoft Power Platform solutions.
 
-## What is data modeling?
+## Data modeling overview
 
-A data model is a visual model showing how data flows through your system and how different entities relate to each other. Data models define the relationship types between entities and abstract a database to a visual representation that is easy to understand.
+A data model is a visual model that shows how data flows through your system and how different entities relate to each other. Data models define the relationship types between entities and abstract a database to a straightforward visual representation.
 
-For solutions based on the Power Platform, the data model is crucial to the design of the solution as it will affect app design, especially model-driven apps.
+For solutions that are based on Power Platform, the data model is crucial to the design of the solution because it will affect app design, especially model-driven apps.
 
-## Solution Architect’s role in data modeling
+## Solution architect’s role in data modeling
 
-The solution architect:
+With data modeling, the solution architect's role is to:
 
-- Leads the data model design effort to establish a high-level data architecture for the project.
-- Establishes a data model that can be extended by the individual design teams and communicate the design with the teams.
-- Reviews and provides feedback as the data model evolves during detail design of solution features.
+- Lead the data model design effort to establish a high-level data architecture for the project.
+- Establish a data model that can be extended by the individual design teams and communicate the design with the teams.
+- Review and provide feedback as the data model evolves during detail design of solution features.
 
-## Do not always have all the information
+## Work with multiple options
 
-Data modeling can be hard and experience of many different projects will increase your data modeling skills. There is often not a clear correct answer and there may be many possible options.
+Data modeling can be difficult, and having experience with many different projects will increase your data modeling skills. Often, a clear correct answer won't be provided, and many possible options might be available.
 
-A solution architect has to make the best choices with the limited information available, this is part of being a solution architect.
+Solution architects need to make the best choices with the limited information that is available, which is part of being a solution architect.

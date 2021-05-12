@@ -13,10 +13,10 @@ By default, when a maker creates a new webpage by using Power Apps portals Studi
 
 ## Webpage access control rule
 
-The **Web Page Access Control Rule** entity is a portal metadata record that can be linked to a specific webpage that can determine the visibility to that page.
+The **Web Page Access Control Rule** table is a portal metadata record that can be linked to a specific webpage that can determine the visibility to that page.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Web Page Access Control Rule entity setttings.](../media/web-page-access-control-rule.png)](../media/web-page-access-control-rule.png#lightbox)
+> [![Screenshot of Web Page Access Control Rule table setttings.](../media/web-page-access-control-rule.png)](../media/web-page-access-control-rule.png#lightbox)
 
 The following table describes the **Web Page Access Control Rule** record properties.
 

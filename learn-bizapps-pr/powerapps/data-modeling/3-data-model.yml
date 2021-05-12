@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.data-modeling.3-data-model
-title: Data Modeling
+title: Data modeling
 metadata:
-  title: Data Modeling
-  description: Logical and Physical Data modeling
+  title: Data modeling
+  description: Learn about logical and physical data modeling.
   ms.date: 04/19/2021
   author: DaveBeasley
   ms.author: dbeasley

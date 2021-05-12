@@ -32,7 +32,7 @@ Your business is already using Power Apps. Consider the additional capabilities 
 
 - **Empower employees** - When an employee needs a new computer, they can fill out an online form, where the information will be recorded in Dataverse so the helpdesk staff can immediately access and process this information.
 
-- **Engage mobile workforce** - Empower agents on any device, wherever they work. Field technicians can process and complete work orders in the field, instantly updating Dynamics 365 Field Service.
+- **Engage mobile workforce** - Empower agents on any device, wherever they work. Field technicians can process and complete work orders in the column, instantly updating Dynamics 365 Field Service.
 
 ## Power Apps portals capabilities
 

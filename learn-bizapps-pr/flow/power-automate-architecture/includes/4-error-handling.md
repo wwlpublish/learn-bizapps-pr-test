@@ -23,7 +23,7 @@ If your flow needs to perform a series of actions on Dataverse data, and you mus
 If you define a changeset, the operations will run in a single transaction. If any of the steps error, the changes that were made by the prior steps will be rolled back.
 
 > [!NOTE]
-> Changesets are only available with the **Create**, **Update**, and **Delete** actions in the **Common Data Service (current environment)** connector.
+> Changesets are only available with the **Create**, **Update**, and **Delete** actions in the **Dataverse** connector.
 
 ## API limits
 
@@ -34,4 +34,4 @@ Limits are also applied for certain actions in Power Automate and for Power Auto
 - Many operations like the **Apply for Each** loop only work up to 100,000 iterations. You might be required to partition work when working with large sets of items.
 - The **Do Until** loop has a default of 60 loops or 1 hour of run time. If it exceeds these limits, it exits the loop without error. You can increase the number of loops and time in the settings for the action.
 - Flows can run for a maximum of 30 days. You should not use long running flows; use scheduled flows that check if the row needs to be processed instead.
-- Connectors have throttling limits, for instance the **Common Data Service (current environment)** connector permits only 6,000 API calls for each connection every 300 seconds.
+- Connectors have throttling limits, for instance the **Dataverse** connector permits only 6,000 API calls for each connection every 300 seconds.

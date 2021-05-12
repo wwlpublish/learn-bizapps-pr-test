@@ -38,7 +38,7 @@ The pull pattern can be effective for data augmentation. You can use the pull pa
 
 In Dataverse tables, rows are uniquely identified by using a GUID. Other systems that need to integrate with Dataverse will need to record the GUID in the database or will have to query Dataverse to find the row that needs to be updated. This approach is inefficient. Dataverse provides the capability to create alternate keys on tables.
 
-An alternate key allows external systems that need to read and write rows to efficiently access the rows without having to first run a query to find the GUID. For example, accounting systems often have an alphanumeric account number that uniquely identifies the account. You can define the account number field in the Dataverse table to be an alternate key so that the accounting system can read and write the account by using the data that it holds in its own system.
+An alternate key allows external systems that need to read and write rows to efficiently access the rows without having to first run a query to find the GUID. For example, accounting systems often have an alphanumeric account number that uniquely identifies the account. You can define the account number column in the Dataverse table to be an alternate key so that the accounting system can read and write the account by using the data that it holds in its own system.
 
 ## Upsert
 

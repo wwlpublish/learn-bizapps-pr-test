@@ -1,10 +1,10 @@
-The solution architect should understand how to use RPA to create end-to-end automation across web, legacy, and on-premise systems. Power Automate Desktop enable more options for automating and integrating solutions. Its use should be carefully evaluated by the solution architect.
+Solution architects should understand how to use RPA to create end-to-end automation across web, legacy, and on-premises systems. Power Automate Desktop enables more options for automating and integrating solutions, and solution architects should carefully evaluate its use.
 
 ## Next steps
 
-There are several learning paths in Microsoft Learn for Power Automate Desktop including:
+Select the following links for more information about Power Automate Desktop:
 
-- [Automate processes with Robotic Process Automation and Power Automate Desktop](https://docs.microsoft.com/learn/paths/work-automation-flow/?azure-portal=true) 
+- [Automate processes with robotic process automation and Power Automate Desktop](https://docs.microsoft.com/learn/paths/work-automation-flow/?azure-portal=true) 
 
 - [Work with different technologies in Power Automate Desktop](https://docs.microsoft.com/learn/paths/pad-work-different-technologies/?azure-portal=true) 
 
