@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.troubleshoot-slow-flows.2-compose-variables 
-title: Use Compose and variables to view the data
+title: Use the Compose and Variable actions to view data
 metadata: 
-  title: Use Compose and variables to view the data
-  description: Use the Compose action to view action data, and variables to view appended data.
+  title: Use the Compose and Variable actions to view data
+  description: Use the Compose action to view action data and the Variable action to view appended data.
   ms.date: 04/23/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
