@@ -1,6 +1,6 @@
-There are scenarios where all the information provided in this document doesn't apply to your flow. There are situations where you can't filter the data using OData query or your Do Until will need to run every minute. This will affect the overall performance of the flow, so it's important to monitor the flow analytics and see if there are any timeouts.
+Scenarios do occur where all information that is provided in a document doesn't apply to your flow. Occasionally, you might not be able to filter data by using OData query or the **Do until** condition will need to run every minute. These scenarios will affect the overall performance of the flow, so it's important to monitor the flow analytics and determine if timeouts have occurred.
 
-Finally, file size can directly affect the overall flow performance. The larger the file size, the slower the flow will run.
+File size can directly affect overall flow performance; the larger the file size, the slower the flow will run.
 
 Links to related modules:
 
