@@ -108,7 +108,7 @@ Individual rows can be shared with users and teams. This feature permits users t
 
 ### Security roles and teams
 
-Security roles can be associated with teams. Users can then be associated with the team; therefore, all users who are associated with the team will benefit from the role. Users will have access to the row's owner by the team and, depending on other security features, might have access to rows that are owned by other users in the team.
+Security roles can be associated with teams. Users can then be associated with the team; therefore, all users who are associated with the team will benefit from the role. Users will have access to the rows owned by the team and, depending on other security features, might have access to rows that are owned by other users in the team.
 
 Options on the security role that control how the security role operates with a team are:
 
