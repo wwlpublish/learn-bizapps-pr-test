@@ -2,7 +2,7 @@
 uid: learn-bizapps.integrate-flow-outlook 
 metadata: 
  title: Integrate desktop flow with Outlook connector in Power Automate Desktop
- description: Learn how to integrate desktop flows with Outlook in Power Automate Desktop.
+ description: Learn how to integrate desktop flows with Microsoft Outlook in Power Automate Desktop.
  ms.date: 04/23/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,14 +11,14 @@ metadata:
 title: Integrate desktop flow with Outlook connector in Power Automate Desktop
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This module will show how to build upon an existing gateway to integrate Outlook with a desktop-UI flow.
+  This module will show how to build on an existing gateway to integrate Microsoft Outlook with a desktop UI flow.
 abstract: |  
     In this module, you will: 
-    - Create a new Solution to package the end-to-end invoice processing solution
-    - Create a new Cloud Flow that initiates the invoicing process via receipt of an email
-    - Integrate the Desktop Flow from Lab 3 into the Cloud Flow
-    - Perform a test run of the new Cloud Flow
-prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate. This module builds off the modules, Build your first Power Automate Desktop UI flow Use input and output parameters, and Create a Gateway to Desktop UI flow. 
+    - Create a new solution to package the complete invoice processing solution.
+    - Create a new cloud flow that initiates the invoicing process through receipt of an email.
+    - Integrate a desktop flow into a cloud flow.
+    - Test the new cloud flow.
+prerequisites: Basic understanding of Microsoft Power Automate. This module builds from the Build your first Power Automate Desktop UI flow, the Use input and output parameters, and the Create a Gateway to Desktop UI flow modules. 
 iconUrl: /learn/achievements/integrate-flow-outlook.svg  
 levels:  
 - intermediate   
