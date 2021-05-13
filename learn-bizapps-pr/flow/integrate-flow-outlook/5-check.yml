@@ -13,45 +13,45 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: When given multiple versions of actions within Power Automate, which version should you typically select?
+  - content: When you are given multiple versions of actions within Power Automate, which version should you typically select?
     choices: 
-    - content: The newest version to ensure that you are getting all the latest features.
+    - content: The newest version to ensure that you are getting the latest features
       isCorrect: true 
-      explanation: Using the newest version ensures that you have all of the up-to-date features.
-    - content: The version just before the newest, in case there are bugs in the newest version.
+      explanation: Using the newest version ensures that you have all the up-to-date features.
+    - content: The version before the newest, in case the newest version contains bugs
       isCorrect: false 
-      explanation: Using the newest version ensures that you have all of the up-to-date features. All actions, which are generally available (not in preview) have already gone through testing.
-    - content: The oldest version since it is likely to be simple and basic. 
+      explanation: Using the newest version ensures that you have all the up-to-date features. All actions that are generally available (not in preview) have already gone through testing.
+    - content: The oldest version because it is likely to be simple and basic 
       isCorrect: false 
       explanation: The oldest version will likely lack functionality that would be useful for maximizing the efficacy of your solution.
-    - content: You should research the versions before selecting and pick which is best for you.
+    - content: You should research the versions before selecting and then pick the one that is best for you
       isCorrect: false 
-      explanation: The newer versions will nearly always be the best choice for you and it is not worthwhile to research every version while building a solution.
-  - content: What is a Solution in Power Automate?
+      explanation: The newer versions will almost always be the best choice for you, and it is not worthwhile to research every version while you are building a solution.
+  - content: What is a solution in Power Automate?
     choices: 
-    - content: A group of only apps that are packaged together for an organization.
+    - content: A group of apps that are packaged together for an organization
       isCorrect: false
       explanation: Solutions can include flows as well.
-    - content: A group of apps AND flows that are packaged together for an organization.
+    - content: A group of apps and flows that are packaged together for an organization
       isCorrect: true 
       explanation: You can also import and export entire solutions rather than the individual customizations.
-    - content: A group of only flows that are packaged together for an organization.
+    - content: A group of flows that are packaged together for an organization
       isCorrect: false 
       explanation: Solutions can include apps as well.
-    - content: A system of flows that are triggered by each other.
+    - content: A system of flows that are triggered by each other
       isCorrect: false 
-      explanation: Solutions are groups of apps and flows, which may or may not trigger one another.
-  - content: Which of the following can NOT be done using Outlook?
+      explanation: Solutions are groups of apps and flows that might or might not trigger one another.
+  - content: Which of the following can't be done by using Outlook?
     choices: 
-    - content: Trigger a flow.
+    - content: Trigger a flow
       isCorrect: false
-      explanation: Flows can be triggered by many Outlook actions (sending and receiving emails, creating a new contact, etc.).
-    - content: Providing input variables to Power Automate.
+      explanation: Flows can be triggered by many Outlook actions (sending and receiving emails, creating a new contact, and so on).
+    - content: Provide input variables to Power Automate
       isCorrect: false 
-      explanation: You can use the information from emails or even attachments to set the input variables for a desktop flow using dynamic content inside of a cloud flow.
-    - content: Create and edit flows.
+      explanation: You can use the information from emails or attachments to set the input variables for a desktop flow by using dynamic content inside a cloud flow.
+    - content: Create and edit flows
       isCorrect: true 
       explanation: Flows can only be created and edited through Power Automate.
-    - content: Use output variables provided by a desktop flow.
+    - content: Use output variables that are provided by a desktop flow
       isCorrect: false 
-      explanation: You can use output variables from a desktop flow inside of a cloud flow and provide those variables to Outlook to send an email or perform other actions.
+      explanation: You can use output variables from a desktop flow inside a cloud flow and provide those variables to Outlook to send an email or perform other actions.
