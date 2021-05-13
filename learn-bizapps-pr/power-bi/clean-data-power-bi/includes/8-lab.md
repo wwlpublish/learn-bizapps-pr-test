@@ -56,7 +56,7 @@ In this task you'll set up the environment for the lab.
 
 1. To open the starter Power BI Desktop file, from the **File** ribbon tab, select **Open report**, and then **Browse reports**.
 
-1. In the **Open** window, navigate to the **D:\DA100\Labs\load-data-with-power-query-in-power-bi-desktop\Starter** folder.
+1. In the **Open** window, navigate to the **D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
 
 1. Select the **Sales Analysis** file and select **Open**.
 
