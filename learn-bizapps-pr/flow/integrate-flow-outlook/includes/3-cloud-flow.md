@@ -44,7 +44,7 @@ If you don't see your gateway, you might need to delete this step and re-create 
 
 The next two fields request your credentials to sign in to your computer. If you are unsure what to put in the **Domain and username** field, you can open a command prompt window by opening the **Start** menu, entering **CMD** in the search box, and then pressing the **Enter** key. When the command prompt opens, enter **Set user** and then press the **Enter** key.
 
-Several lines of code will appear. Separate the **user domain** and the **username** with a backslash (\), as shown in the following screenshot. Select **Create**.
+Several lines of code will appear. Separate the **user domain** and the **username** with a backslash (\\), as shown in the following screenshot. Select **Create**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of desktop flow details.](../media/user-domain-user-name.png)](../media/user-domain-user-name.png#lightbox)
