@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.use-teams-connector.4-integrate-existing-flow 
-title: Integrate with existing desktop flow
+title: Integrate with an existing desktop flow
 metadata: 
-  title: Integrate with existing desktop flow
-  description: Learn to integrate an existing desktop flow into a new one.
+  title: Integrate with an existing desktop flow
+  description: Learn how to integrate an existing desktop flow into a new one.
   ms.date: 04/27/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
