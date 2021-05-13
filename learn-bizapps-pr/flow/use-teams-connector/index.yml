@@ -11,7 +11,7 @@ metadata:
 title: Use the Teams connector in Power Automate
 summary: |  
   [!include[](../includes/module-banner.md)] 
- A fully automated process joins many concepts and capabilities in Power Automate. This module shows how to bring those concepts together to build a robust automation that involves multiple programs.
+  A fully automated process joins many concepts and capabilities in Power Automate. This module shows how to bring those concepts together to build a robust automation that involves multiple programs.
 abstract: |  
     In this module, you will: 
     - Integrate a Microsoft Teams-based approval model and the associated conditional logic into an existing cloud flow.
