@@ -1,21 +1,21 @@
-Solutions allow you to combine multiple Cloud flows, desktop flows, and apps to automate an entire process and focus on the things that matter most. Now you know how to create a desktop flow allowing you to automate tasks that use legacy applications on your desktop and reduce the number of repetitive and mundane tasks you perform daily triggered by an event from your typical work process. You can accomplish this by building a cloud flow connected to a program such as Outlook.
+Solutions allow you to combine multiple cloud flows, desktop flows, and apps to automate an entire process and focus on the tasks that matter most. Now, you have learned how to create a desktop flow that will allow you to automate tasks that use legacy applications on your desktop. The desktop flow will also help you reduce the number of repetitive tasks that you perform daily that are triggered by an event from your typical work process. You can accomplish this task by building a cloud flow that is connected to a program such as Outlook.
 
-Now that you have reviewed this module, you should be able to:
+In this module, you have learned how to:
 
--   Create a new Solution to package the end-to-end invoice processing solution
+- Create a new solution to package the complete invoice processing solution.
 
--   Create a new Cloud Flow that initiates the invoicing process via receipt of an email
+- Create a new cloud flow that initiates the invoicing process through the receipt of an email.
 
--   Integrate an invoicing Desktop Flow into the new Cloud Flow
+- Integrate an invoicing desktop flow into a new cloud flow.
 
--   Perform a test run of the new Cloud Flow
+- Test the new cloud flow.
 
 ## Key takeaways
 
-Here are the three key takeaways:
+Three key takeaways for this module:
 
 - Solutions allow you to group and organize multiple flows and apps.                                                                                
 
 - You can export and import entire solutions instead of exporting individual apps and flows.                                                        
 
-- Breaking your process into small steps and building and testing those individual steps will allow your RPA to be more robust and easier to build. 
+- Separating your process into small steps and building and testing those individual steps will allow your RPA to be more robust and easier to build. 

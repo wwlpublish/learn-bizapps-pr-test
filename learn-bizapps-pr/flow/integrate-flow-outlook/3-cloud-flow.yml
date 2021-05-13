@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.integrate-flow-outlook.3-cloud-flow 
-title: Build a cloud flow triggered in Outlook
+title: Build a cloud flow that is triggered in Outlook
 metadata: 
-  title: Build a cloud flow triggered in Outlook 
-  description: Learn how to build a cloud flow triggered in Outlook. 
+  title: Build a cloud flow that is triggered in Outlook 
+  description: Learn how to build a cloud flow that is triggered in Outlook. 
   ms.date: 04/23/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
