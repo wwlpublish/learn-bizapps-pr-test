@@ -15,43 +15,43 @@ quiz:
   questions: 
   - content: How many documents are needed to train the form processor?
     choices: 
-    - content: "5."
+    - content: "5"
       isCorrect: true 
-      explanation: Correct! Only five documents of the same layout are necessary.
-    - content: "10."
+      explanation: Only five documents of the same layout are necessary.
+    - content: "10"
       isCorrect: false 
-      explanation: Incorrect. Only five documents of the same layout are necessary.
-    - content: "50."
+      explanation: Only five documents of the same layout are necessary.
+    - content: "50"
       isCorrect: false 
-      explanation: Incorrect. Only five documents of the same layout are necessary.
-    - content: "100."
+      explanation: Only five documents of the same layout are necessary.
+    - content: "100"
       isCorrect: false 
-      explanation: Incorrect. Only five documents of the same layout are necessary, but you can have 100 different layouts.
+      explanation: Only five documents of the same layout are necessary, but you can have 100 different layouts.
   - content: What does a collection hold in the form processor?
     choices: 
-    - content: Documents with a similar layout.
+    - content: Documents with a similar layout
       isCorrect: true 
-      explanation: Correct. A collection allows you to group documents. You can have up to 100 collections to specify different layouts.
-    - content: Documents that have not been analyzed by the form processor yet.
+      explanation: A collection allows you to group documents. You can have up to 100 collections to specify different layouts.
+    - content: Documents that have not been analyzed by the form processor
       isCorrect: false 
-      explanation: Incorrect. A collection holds a group of documents with a similar layout.
-    - content: Documents that are actively passing through your flow.
+      explanation: A collection holds a group of documents with a similar layout.
+    - content: Documents that are actively passing through your flow
       isCorrect: false 
-      explanation: Incorrect. A collection holds a group of documents with a similar layout.
-    - content: The output variables that are captured by the form processor.
+      explanation: A collection holds a group of documents with a similar layout.
+    - content: The output variables that are captured by the form processor
       isCorrect: false 
-      explanation: Incorrect. A collection holds a group of documents with a similar layout.
-  - content: What does the "Apply to each" action do in the cloud flow created?
+      explanation: A collection holds a group of documents with a similar layout.
+  - content: What does the "Apply to each" action do in the created cloud flow?
     choices: 
-    - content: Tells our form processor to process multiple attachments in a single email.
+    - content: Tells the form processor to process multiple attachments in a single email
       isCorrect: true 
-      explanation: Correct. Power Automate adds this automatically when there may be more than one item.
-    - content: Tells our form processor to read through each field in the document.
+      explanation: Power Automate adds this action automatically when more than one item exists.
+    - content: Tells the form processor to read through each field in the document
       isCorrect: false 
-      explanation: Incorrect. The form processor will always read through each field in the document.
-    - content: Tells our form processor to analyze all the documents needed to train it.
+      explanation: The form processor will always read through each field in the document.
+    - content: Tells the form processor to analyze all documents that are needed to train it
       isCorrect: false 
-      explanation: Incorrect. Training the model doesn't take place in the flow.
-    - content: Tells our form processor that we're done selecting fields from our document.
+      explanation: Training the model doesn't take place in the flow.
+    - content: Tells the form processor that you're done selecting fields from your document
       isCorrect: false 
-      explanation: Incorrect. This process doesn't take place in the flow.
+      explanation: This process doesn't take place in the flow.
