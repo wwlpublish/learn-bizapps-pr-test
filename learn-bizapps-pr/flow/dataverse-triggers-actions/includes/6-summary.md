@@ -1,17 +1,15 @@
-Data is only as good as your use of it. Power Automate ensures that using data held in Dataverse is simple and powerful. Now you know some of the ways you can use these programs in combination to change the way you work by managing your data and automating repetitive, data-driven tasks.
+Power Automate ensures that the process of using data that is held in Dataverse is simple and powerful. Now, you have learned how to use these programs in combination to change the way that you work by managing your data and automating repetitive, data-driven tasks.
 
-Now that you have reviewed this module, you should be able to:
+In this module, you learned about:
 
--   Use Dataverse triggers in Power Automate
+-   Dataverse triggers and actions in Power Automate.
 
--   Use Dataverse actions in Power Automate
-
--   Understand additional inputs available
+-   Additional inputs that are available.
 
 ## Key takeaways
 
-Here are three key takeaways:
+Three key takeaways from this module are:
 
 - Power Automate can be used with Dataverse to extend your data processes.
 - Triggers start a flow; actions are completed in a flow.
-- You do not need to have a Dataverse trigger in order to use a Dataverse action.
+- You don't need to have a Dataverse trigger to use a Dataverse action.
