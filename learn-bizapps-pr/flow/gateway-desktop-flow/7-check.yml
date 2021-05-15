@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.gateway-desktop-flow.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/23/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: How is the recovery key for a gateway generated?
+    choices: 
+    - content: The user decides what they want their key to be.
+      isCorrect: true 
+      explanation: You choose what your key will be. Remember to write it down in a secure location.
+    - content: It is randomly generated after the gateway has been named.
+      isCorrect: false 
+      explanation: Recovery keys are not randomly generated. Instead, they are chosen by the person who creates the gateway.
+    - content: It is randomly generated after the gateway has been registered.
+      isCorrect: false 
+      explanation: Recovery keys are not randomly generated. Instead, they are chosen by the person who creates the gateway.
+    - content: It is the name of your computer.
+      isCorrect: false 
+      explanation: Recovery keys are chosen by the person who creates the gateway.
+  - content: Which of the following is true regarding desktop and cloud flows?
+    choices: 
+    - content: Flows have to be initiated with manual triggers through Power Automate.
+      isCorrect: false
+      explanation: This module used the manual trigger to help make learning easier; however, many triggers can be used to initiate a flow.
+    - content: You shouldn't use your keyboard and mouse while desktop flows are running.
+      isCorrect: true 
+      explanation: Using your keyboard and/or mouse while the desktop flow is running could interrupt the process and end the flow.
+    - content: If Power Automate doesn't have a predefined connection with a program, flows can't be used with that program.
+      isCorrect: false 
+      explanation: The advantage of desktop flows is that they allow you to use Power Automate with programs that don't have a predefined connection with Power Automate.
+    - content: Desktop flows connect to online services such as Outlook or Teams.
+      isCorrect: false 
+      explanation: Cloud flows connect through online services through APIs. A cloud flow connects to online or cloud services.
+  - content: What is the bridge that allows you to connect desktop and cloud flows?
+    choices: 
+    - content: An API
+      isCorrect: false 
+      explanation: An API is a bridge that connects cloud services together. You would use APIs often in cloud flows.
+    - content: Robotic Process Automation (RPA)
+      isCorrect: false 
+      explanation: RPA is the process of automating human actions that you are building by using desktop and cloud flows. 
+    - content: A gateway
+      isCorrect: true 
+      explanation: You need a gateway anytime that you connect something on a desktop to anything that is held in the cloud.

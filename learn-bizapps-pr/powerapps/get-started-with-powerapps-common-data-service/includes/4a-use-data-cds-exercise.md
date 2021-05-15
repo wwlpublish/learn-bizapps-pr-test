@@ -24,7 +24,7 @@ customers for your app.
 1. Select **Add column**.
 1. Enter the following information:
 	- **Display name**: *Stage*
-	- **Data Type**: *Option Set*
+	- **Data Type**: *Choice*
 1. For **Option Set**, Select the dropdown and select **New option set**. Enter the following information and Select **Save**.
 	- **Display name**: *Prospect Stage*
 	- **Name**: *prospectstage*

@@ -8,14 +8,14 @@ Follow these steps to sign in to AI Builder:
 1. In the left pane, select AI Builder > Build.
 1. Select Form processing.
 1. Enter a name for your model.
-1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data we will be using in this guided experience. You can download the sample data [here](https://go.microsoft.com/fwlink/?linkid=2128080/?azure-portal=true).
+1. If you want to create your model by using your own documents, make sure that you have at least five examples that use the same layout. Otherwise, you can use sample data we will be using in this guided experience. You can download the sample data [here](https://go.microsoft.com/fwlink/?linkid=2128080).
 1. Select **Create**.
 
 ## Choose information to extract
 
 In this step you define the fields and tables you want to teach your model how to extract.
 
-The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080/?azure-portal=true) are invoices from two different providers. Define the following fields to extract:
+The provided [sample data](https://go.microsoft.com/fwlink/?linkid=2128080) are invoices from two different providers. Define the following fields to extract:
 
 - Invoice number
 - Due date
@@ -72,14 +72,16 @@ Not all defined fields and tables need to necessarily be in all documents. If yo
 
 ### Tag tables
 
-AI Builder can detect tables automatically in your documents. These are indicated by a rounded table button on the upper left of the table. Select that button. You can preview the content detected by the table as well as tag the table. Select **Tag table** and choose the table defined on the first step. Then tag the two columns we want to extract, **Description** and **Item total**.
+To tag a table: 
 
-![Animated screenshot of invoice opening the table menu and selecting Tag table, then selecting items for each field.](../media/forms-tag-tables.gif)
+1. Draw a rectangle around the table in the document you are interested in, and then select the table name that it corresponds to. The content of the panel on the right will change. 
+1. Select a cell from the table on the right panel, and then tag it on the document. 
+1. Once you have tagged one cell, come back to the right panel, and select another cell to tag. 
+1. Repeat this process until you have tagged all rows for all the columns you are interested in. 
 
-> [!NOTE]
->**Current limitations with tables:**
-> Drawing tables that haven't been automatically detected isn't currently supported. If you defined a table that is not automatically detected, you will need to mark it as not available in document to continue.
-> For AI Builder to detect tables, rows and columns need to be clearly delimited and be properly aligned. Nested tables and merged cells are currently not supported.
+The following animation illustrates the process: 
+
+![Animated screenshot of invoice opening the table menu and selecting Tag table, then selecting items for each field.](../media/form-processing-tag-table.gif)
 
 ### Tag all documents
 
@@ -99,3 +101,4 @@ After you have tagged all documents across all collections, follow these steps:
 ## Next steps
 
 Now that you've created a Form processing model in AI Builder, you'll learn how to test your model and use it in Power Apps and Power Automate.
+

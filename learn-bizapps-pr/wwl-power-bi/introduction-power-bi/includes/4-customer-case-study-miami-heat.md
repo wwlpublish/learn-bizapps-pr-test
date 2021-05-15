@@ -1,4 +1,4 @@
-While it's accepted that data can improve business processes and increase revenue, a real-world example helps to unite the concepts that we've already covered and allows you to see the potential of Power BI in action. One such case is that of Miami heat, whose Power BI adoption is 70% across the organization.
+While it's accepted that data can improve business processes and increase revenue, a real-world example helps to unite the concepts that we've already covered and allows you to see the potential of Power BI in action. One such case is that of Miami Heat, whose Power BI adoption is 70% across the organization.
 
 Miami Heat leveraged the powerful analysis and visualization features to completely transform their customer interactions and business operations.
 
@@ -14,6 +14,6 @@ Basketball is about far more than watching the skill of players. There's a senti
 
 By analyzing their data in Power BI, the Miami Heat operations team has been able to increase revenue, but also improve the allocation of resources by predicting customer behavior.
 
-“Using Power BI and the entire Azure data platform, we can predict attendance for all 44 games of the season within hours of the schedule being released,” says Edson Crevecoeur, Vice President of Strategy and Data Analytics for the Miami HEAT. “Last season, we got within 4 percent of the actual numbers for the whole season, two months before any games had been played. This puts us in a better position to identify opportunities, mitigate risks, and manage our resources in a more efficient fashion. Ultimately helping all areas of our business focus on enhancing the fan experience.”
+“Using Power BI and the entire Azure data platform, we can predict attendance for all 44 games of the season within hours of the schedule being released,” says Edson Crevecoeur, Vice President of Strategy and Data Analytics for the Miami Heat. “Last season, we got within 4 percent of the actual numbers for the whole season, two months before any games had been played. This puts us in a better position to identify opportunities, mitigate risks, and manage our resources in a more efficient fashion. Ultimately helping all areas of our business focus on enhancing the fan experience.”
 
-As Miami heat effectively demonstrates, leveraging Power BI and other Microsoft technologies can lead to significant returns for not only revenue, but your business users' ability to make beneficial decisions.
+As Miami Heat effectively demonstrates, leveraging Power BI and other Microsoft technologies can lead to significant returns for not only revenue, but your business users' ability to make beneficial decisions.

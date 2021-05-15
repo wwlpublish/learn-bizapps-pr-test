@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams 
+metadata: 
+ title: Create a chatbot with Power Virtual Agents and Dataverse for Teams
+ description: Learn how to create your first chatbot by using Microsoft Power Virtual Agents and Microsoft Dataverse for Teams.
+ ms.date: 04/16/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-virtual-agents  
+title: Create a chatbot with Power Virtual Agents and Dataverse for Teams 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Employees who have quick access to information make better decisions, reduce errors, and save money. Chatbots create a personalized experience that simplifies how employees get information. Power Virtual Agents and Dataverse for Teams create intelligent chatbots to quickly respond to employee needs without building high-code solutions. 
+abstract: |  
+    In this module, you will: 
+    - Learn how to create a chatbot. 
+    - Discover how the chatbot can call Microsoft Power Automate actions to retrieve data from Dataverse for Teams.
+    - Publish the chatbot to your team or the whole company.
+prerequisites: None 
+iconUrl: /learn/achievements/create-chatbot-power-virtual-agents-dataverse-teams.svg  
+levels:  
+- beginner   
+roles:  
+- business-user   
+products:  
+- power-platform
+- power-virtual-agents 
+units: 
+- learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.1-introduction 
+- learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.2-create-first-chatbot 
+- learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.3-create-modify-topics 
+- learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.4-add-inputs-variables-conditions 
+- learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.5-call-action-pull-data 
+- learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.6-publish-share 
+- learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.7-check 
+- learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.8-summary 
+badge: 
+  uid: learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams.badge 

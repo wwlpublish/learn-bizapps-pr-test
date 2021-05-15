@@ -3,7 +3,7 @@ A data analyst is one of several critical roles in an organization, who help unc
 The following figure shows the five key areas that you'll engage in during the data analysis process.
 
 > [!div class="mx-imgBorder"]
-> [![tasks of a data analyst](../media/tasks-data-analyst-ss.png)](../media/tasks-data-analyst-ss.png#lightbox)
+> [![Diagram of the five key areas of a data analysis.](../media/tasks-data-analyst-ss.png)](../media/tasks-data-analyst-ss.png#lightbox)
 
 ## Prepare
 

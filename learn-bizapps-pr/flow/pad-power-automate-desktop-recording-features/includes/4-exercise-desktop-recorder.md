@@ -5,29 +5,29 @@ In this exercise, you will automate a desktop-related task, to get a better gras
 1. Create a new flow.
 
 1. Add a **Run Application** action, configured as below:
- 
-   ![run application properties exercise](..\media\run-application-properties-exercise.png)
+
+   ![Screenshot of the run application properties exercise.](..\media\run-application-properties-exercise.png)
 
 1. Launch Excel, either manually or by running the flow.
 
 1. Click on the **desktop recorder** button in the designer:
- 
-   ![macro recorder button exercise](..\media\macro-recorder-button-exercise.png)
+
+   ![Screenshot of the macro recorder button exercise.](..\media\macro-recorder-button-exercise.png)
 
 1. Select **Blank Workbook**.
 
 1. Select the entire first row, then assign it a background color:
 
-   ![excel exercise](..\media\excel-exercise.png)
+   ![Screenshot of the excel exercise with the colors data grid selected.](..\media\excel-exercise.png)
 
 1. The preview window should look like this:
- 
-   ![recorded actions exercise](..\media\recorded-actions-exercise.png)
+
+   ![Screenshot of the recorded actions exercise.](..\media\recorded-actions-exercise.png)
 
 1. You may go ahead and add a comment as well:
- 
-   ![recorded actions exercise comment](..\media\recorded-actions-exercise-comment.png)
+
+   ![Screenshot of the recorded actions exercise comment.](..\media\recorded-actions-exercise-comment.png)
 
 1. Press **Finish**. Your recorded actions have been added to the flow:
- 
-   ![recorded actions exercise comment workspace](..\media\recorded-actions-exercise-comment-workspace.png)
+
+   ![Screenshot of the recorded actions exercise comment workspace.](..\media\recorded-actions-exercise-comment-workspace.png)

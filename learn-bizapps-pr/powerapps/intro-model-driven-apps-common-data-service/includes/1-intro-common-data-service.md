@@ -11,15 +11,15 @@ business integrity will be maintained no matter what tool you use to
 interact with the data.
 
 Another benefit of using Dataverse is that all
-of your data is stored in entities. An entity is a set of records that is used
+of your data is stored in tables. A table is a set of records that is used
 to store data, similar to how a table stores data within a database.
-Dataverse includes a base set of standard entities that cover
-typical scenarios, but you can also create custom entities that are specific to
-your organization. Standard and custom entities within Dataverse help provide a secure and cloud-based storage option for your data.
-Entities allow you to create a business-focused definition of your
+Dataverse includes a base set of standard tables that cover
+typical scenarios, but you can also create custom tables that are specific to
+your organization. Standard and custom tables within Dataverse help provide a secure and cloud-based storage option for your data.
+Tables allow you to create a business-focused definition of your
 organization's data for use within apps. 
 
-Some benefits of using Dataverse and its entities include:
+Some benefits of using Dataverse and its tables include:
 
 -   **Simple to manage** - Both the metadata and data are stored in the
     cloud so that you're confident about the details of how they're
@@ -27,7 +27,7 @@ Some benefits of using Dataverse and its entities include:
 
 -   **Helps secure your data** - Data is stored so that users can see
     it only if you grant them access. Role-based security allows you to
-    control access to entities for different users within your
+    control access to tables for different users within your
     organization.
 
 -   **Access your Dynamics 365 data** - If you use Dynamics 365, data 
@@ -37,11 +37,11 @@ Some benefits of using Dataverse and its entities include:
 -   **Rich metadata** - Data types and relationships are used
     directly within Power Apps.
 
--   **Logic and validation** - Define calculated fields, business
+-   **Logic and validation** - Define calculated columns, business
     rules, workflows, and business process flows to ensure data quality
     and drive business processes.
 
--   **Productivity tools** - Entities are available within the add-ins
+-   **Productivity tools** - Tables are available within the add-ins
     for Microsoft Excel to increase productivity and ensure data
     accessibility.
 

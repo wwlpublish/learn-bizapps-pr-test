@@ -64,7 +64,7 @@ However, single quotation marks can be omitted when both of the following condit
 
 2.  The table name is not a reserved word that is used by DAX. All DAX function names and operators are reserved words. *Date* is a DAX function name, which explains why, when you are referencing a table named Date, that it must be enclosed within single quotation marks.
 
-In the following calculated table definition, it's possible to omit the square brackets when referencing the Airport table:
+In the following calculated table definition, it's possible to omit the single quotation marks when referencing the Airport table:
 
 ```dax
 Arrival Airport = Airport

@@ -3,7 +3,7 @@ uid: learn-bizapps.automate-process-using-flow
 metadata:
   title: Automate a business process using Power Automate
   description: This learning path introduces you to Power Automate, teaches you how to build workflows, and how to administer flows. 
-  ms.date:  02/03/2019
+  ms.date: 02/03/2019
   author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial
@@ -32,7 +32,6 @@ modules:
 - learn-bizapps.flow-get-started
 - learn-bizapps.flow-build-more
 - learn-bizapps.flow-administration
-- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder
 - learn-bizapps.ai-builder-power-automate 
 trophy:
   uid: learn.automate-process-using-flow.trophy

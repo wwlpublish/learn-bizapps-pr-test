@@ -10,17 +10,16 @@ In this example, you've produced some charts and visuals for the Customer Servic
 In the **Visualizations** pane, select the **Get more visuals** icon and then select **Get more visuals**. On the **Power BI Visuals** window that displays, select the **Advanced Analytics** category. Browse the available options and then select the **Add** button for the visual that you want to import. In this example, you will add the **Variance Chart** custom visual.
 
 > [!div class="mx-imgBorder"]
-> [![Add advanced analytics custom visual](../media/8-add-advanced-analytics-custom-visual-ssm.png)](../media/8-add-advanced-analytics-custom-visual-ssm.png#lightbox)
+> [![Screenshot of adding an advanced analytics custom visual.](../media/8-add-advanced-analytics-custom-visual-ssm.png)](../media/8-add-advanced-analytics-custom-visual-ssm.png#lightbox)
 
 When the visual has been imported, an icon for the new custom visual displays under the other visual icons in the **Visualizations** pane.
 
 > [!div class="mx-imgBorder"]
-> [![Add variance chart custom visual to report](../media/8-add-variance-chart-custom-visual-report-ssm.png)](../media/8-add-variance-chart-custom-visual-report-ssm.png#lightbox)
+> [![Screenshot of adding a variance chart custom visual to report.](../media/8-add-variance-chart-custom-visual-report-ssm.png)](../media/8-add-variance-chart-custom-visual-report-ssm.png#lightbox)
 
 You can then add fields to the new visual and customize it in the same way that you would for any other visual. In this example, you will add **Country** to the **Category** field, **Gross Sales** to the **Primary Value** field, and **Net Sales** to the **Comparison Value** field.
 
 Then, you should notice that you have a variance visual that contains multiple charts, which is a task that you couldn't complete without importing the Advanced Analytics custom visual from AppSource.
 
 > [!div class="mx-imgBorder"]
-> [![Set up advanced analytics custom visual](../media/8-set-up-advanced-analytics-custom-visual-ssm.png)](../media/8-set-up-advanced-analytics-custom-visual-ssm.png#lightbox)
-
+> [![Screenshot of setting up an advanced analytics custom visual.](../media/8-set-up-advanced-analytics-custom-visual-ssm.png)](../media/8-set-up-advanced-analytics-custom-visual-ssm.png#lightbox)

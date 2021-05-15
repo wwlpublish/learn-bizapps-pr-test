@@ -1,12 +1,12 @@
 ﻿### YamlMime:ModuleUnit 
 uid: learn-bizapps.author-advanced-formulas.2-math-operation 
-title: Math operation on tables
+title: Math operations on tables
 metadata: 
-  title: Math operation on tables 
-  description: Math operation on tables 
-  ms.date: 04/12/2019 
-  author: KevSch
-  ms.author: kschimke 
+  title: Math operations on tables 
+  description: Math operations on tables 
+  ms.date: 04/29/2021  
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial 
   ms.prod: learning-powerapps 
    

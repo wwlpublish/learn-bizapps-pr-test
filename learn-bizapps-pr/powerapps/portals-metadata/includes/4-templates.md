@@ -4,8 +4,8 @@ When you create a new webpage in the Power Apps portals Studio or the Portal Man
 
 Two template types control how the template determines what to render:
 
-- **Rewrite** - Uses the **Rewrite URL** field to render a given ASP.NET template.
-- **Web Template** - Uses the **Web Template** field to render a given web template.
+- **Rewrite** - Uses the **Rewrite URL** column to render a given ASP.NET template.
+- **Web Template** - Uses the **Web Template** column to render a given web template.
 
 ## Rewrite
 
@@ -29,7 +29,7 @@ Because the web template defines the content that is delivered to the client, a 
 
 ### Web template attributes
 
-A web template is a simple entity with only the following attributes:
+A web template is a simple table with only the following attributes:
 
 - **Name** - When a template is included in other content, or extended by other templates, it is referred to by this name.
 - **Source** - The source content of the template. It can be a static text, HTML fragment, or (most often) a layout by using Liquid.
@@ -37,7 +37,7 @@ A web template is a simple entity with only the following attributes:
 
 ### Website headers and footers
 
-Web templates can also be used to override the global header and footer that is used by a Power Apps portal. To accomplish this task, set the **Header Template** or **Footer Template** field of your website to the web template of your choice. If you override **Header Template**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on, for your site interface elements that are normally handled by the default header template.
+Web templates can also be used to override the global header and footer that is used by a Power Apps portal. To accomplish this task, set the **Header Template** or **Footer Template** column of your website to the web template of your choice. If you override **Header Template**, your selected template assumes responsibility for rendering the primary navigation, sign-in/sign-out links, search interface, and so on, for your site interface elements that are normally handled by the default header template.
 
 > [!TIP]
 > If you don't specify a header or a footer template in the website record, the default content is rendered. To remove the header or footer, specify a blank template.

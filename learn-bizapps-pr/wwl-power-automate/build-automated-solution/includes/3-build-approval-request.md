@@ -2,13 +2,15 @@ In this unit, you'll learn how to build a business-friendly scenario that uses a
 
 In this scenario, anyone who has access to the Microsoft SharePoint list can contribute tweets without knowing anything about Twitter. The social media team can then approve or reject those tweets. Therefore, that team remains in control of the account and the content that goes out to customers.
 
-## Step one: Create a SharePoint list for tweets
+## Create a SharePoint list for tweets
 
 You'll use a template that starts an approval process whenever a new item is created in a specific list. If the item is approved, a tweet is posted to Twitter. For this unit, you'll change the process by adding steps that update a SharePoint list with the approval response, indicate whether the item was approved, and add any comments that the approver added to the proposed tweet.
 
 First, let's create the SharePoint list.
 
 1. On your SharePoint site, create a SharePoint list named *ContosoTweets*.
+    >[!NOTE]
+    >If you are not familiar with creating a SharePoint list, more detailed steps are available here: [Create a list](https://support.microsoft.com/en-us/office/create-a-list-0d397414-d95f-41eb-addd-5e6eff41b083)
 
 2. Open the list, and select **Add column**.
 
@@ -25,12 +27,11 @@ First, let's create the SharePoint list.
 
 4. Copy the URL of the SharePoint list. You'll use it when you create the flow.
 
-## Step two: Create an approval request flow
+## Create an approval request flow
 
-1. Sign in to [Power Automate](https://ms.flow.microsoft.com/), and then select **Approvals**.
+1. Sign in to [Power Automate](https://ms.flow.microsoft.com/), and then select **Templates**.
 
-2. Select **Create approval flow**, and then scroll down and select the **Post list items to Twitter after approval** template.  
-    ![Create Approval button](../media/create-approval.png)
+2. Search for and select the **Post list items to Twitter after approval** template.  
 
 3. Make sure that your account credentials for **SharePoint**, **Approvals**, and **Twitter** are correct, and then select **Continue**.  
     ![Linked account credentials](../media/verify-credentials.png)
@@ -93,12 +94,6 @@ Power Automate helps users to manage their approvals through the approval center
 
 ## Export the flow
 
-Now that you have built a flow, you can also export the flow. When exporting a flow, you can either export to a package or a Logic Apps template. Both options are available from the flow details page.
+Now that you have built a flow, you can also export the flow. You can export the flow from the flow details page.
 
-When you export to a package you can then send the resulting zip file to a co-worker in the same tenant to import or to someone in another tenant. The wizard will then walk them through importing the package and connecting it to their specific data sources.
-
-When you export to a Logic Apps template, you can go to Azure Logic Apps and import the template. 
-Logic Apps can then be used to run the logic you created in the flow or can be used to extend the 
-logic using Azure Logic Apps specific functionality. Azure Logic Apps is the engine that Power Automate 
-flows are built upon. You can read more about exporting your flows to Logic Apps here: 
-<https://docs.microsoft.com/azure/logic-apps/export-from-microsoft-flow-logic-app-template>
+When you export to a package, you can then send the resulting zip file to a co-worker in the same tenant to import or to someone in another tenant. The wizard will then walk them through importing the package and connecting it to their specific data sources.

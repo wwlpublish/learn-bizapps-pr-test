@@ -5,8 +5,8 @@ metadata:
   title: Manage control and image repositories
   description: Manage control and image repositories
   ms.date: 08/20/2020 
-  author: rokontol 
-  ms.author: rokontol 
+  author: mariosleon
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 5 

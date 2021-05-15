@@ -11,12 +11,14 @@ The connector essentially combines the functionality of Power Automate and WinAu
 ## Learning Objectives
 
 You will:
-* Learn how to use the WinAutomation connector to run WinAutomation from a Power Automate flow
-* Create a flow that passes arguments through the command line to WinAutomation, and retrieves arguments from the command line in WinAutomation.
+
+- Learn how to use the WinAutomation connector to run WinAutomation from a Power Automate flow
+- Create a flow that passes arguments through the command line to WinAutomation, and retrieves arguments from the command line in WinAutomation.
 
 ## Prerequisites
-* Either a paid or trial Power Automate plan.
-* A work or school account to sign into your Windows device with administrator privileges and Power Automate.
-* A device that runs Windows 10 Pro or other supported operating system.
-* Microsoft Edge (version 80 or later) or other supported browser.
-* An environment with a Microsoft Dataverse database. 
+
+- Either a paid or trial Power Automate plan.
+- A work or school account to sign into your Windows device with administrator privileges and Power Automate.
+- A device that runs Windows 10 Pro or other supported operating system.
+- Microsoft Edge (version 80 or later) or other supported browser.
+- An environment with a Microsoft Dataverse database.

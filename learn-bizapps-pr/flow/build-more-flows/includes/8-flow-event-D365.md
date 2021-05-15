@@ -5,7 +5,7 @@ In Power Automate, you can set up automated workflows between your favorite apps
 In this unit, we'll look to build two flows:
 
 - The first flow creates a task in Dynamics 365 when a lead is created in another instance of Dynamics 365.
-- The second flow copies a list item to the Wunderlist website when a task is created in Dynamics 365.
+- The second flow copies a list item to the Planner when a task is created in Dynamics 365.
 
 Here are some other examples of flows that you can create by using Dynamics 365:
 
@@ -14,7 +14,7 @@ Here are some other examples of flows that you can create by using Dynamics 365:
 - Copy Dynamics 365 accounts to customers in Microsoft Dynamics 365 for Finance and Operations.
 
 > [!IMPORTANT]
-> To invoke a flow trigger, the Dynamics 365 customer engagement entity that's used with the flow must have change tracking turned on. For more about how to turn on change tracking, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/dynamics365/customer-engagement/admin/enable-change-tracking-control-data-synchronization/?azure-portal=true).
+> To invoke a flow trigger, the Dynamics 365 customer engagement entity that's used with the flow must have change tracking turned on. For more about how to turn on change tracking, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
 ## Example one: Create a task from a lead
 

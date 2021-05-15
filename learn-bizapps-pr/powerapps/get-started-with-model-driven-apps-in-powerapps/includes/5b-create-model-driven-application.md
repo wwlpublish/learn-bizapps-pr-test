@@ -14,7 +14,7 @@ You can skip these steps if you have already created the *Prospects* table.
 1. Select **New Table**.
 1. Enter the following information:
 	- **Display name**: *Prospects*
-1. In the Primary Field section, enter the following information:
+1. In the Primary Column section, enter the following information:
 	- **Display Name**: *Prospect Name*
 1. Select **Create**.
 1. Select **Done**.
@@ -30,8 +30,8 @@ You can skip these steps if you have already created the *Prospects* table.
 1. Select the **Open the Site Map Designer** pencil icon to open the site map designer.
 1. Select **New Subarea**.
 1. On the right, for **Title** enter **Prospects Area**.
-1. Click the drop down for **select a type**, then choose **Table**.
-1. For Table, select **Prospects**.
+1. Click the drop down for **select a type**, then choose **Table (Table)**.
+1. For Table (Table), select **Prospects**.
 1. Select **New Group**.
 1. On the right, for **Title** enter **Prospects Group**.
 1. Click **Save**.
@@ -42,8 +42,8 @@ You can skip these steps if you have already created the *Prospects* table.
 1.	Select **Charts**.
 1.	Select **Create New**.
 1.	For the Chart Name, enter **Forecasted Revenue by Stage**.
-1.	For Legend Entries (Series), check the box, and select the **Forecasted Revenue** field.
-1.	For Horizontal (Category) Axis Labels, select the **Stage** Field.
+1.	For Legend Entries (Series), check the box, and select the **Forecasted Revenue** column.
+1.	For Horizontal (Category) Axis Labels, select the **Stage** Column.
 1.	Select **Save and Close**.
 1.	Back on the App Designer, select the checkbox next to **Forecasted Revenue by Stage**.
 1.	Select **Save**.
@@ -60,12 +60,12 @@ form.
 1.  Locate and select the **Prospects** table. 
 1.  Select **Forms**.
 1.  Select the drop-down arrow next to Add form, and then select **Main Form** from the drop down. A new window will open.
-1.  Drag the **Stage** field from the right and place it below the **Owner** field in the center.
-1.  Drag the **Contract Amount** field and place it below the **Stage** field.
-1.  Drag the **Probability** field and place it below the **Contract Amount** field.
-1.  Drag the **Forecasted Revenue** field and place it below the **Probability** field.
+1.  Drag the **Stage** column from the right and place it below the **Owner** column in the center.
+1.  Drag the **Contract Amount** column and place it below the **Stage** column.
+1.  Drag the **Probability** column and place it below the **Contract Amount** column.
+1.  Drag the **Forecasted Revenue** column and place it below the **Probability** column.
 1.  Now select **Forecasted Revenue** and then select **Change Properties** on the ribbon.
-1.  Select the checkbox for **Read-only field**.
+1.  Select the checkbox for **Read-only column**.
 1.  Select **Save**.
 1.  Select **Publish**.
 1.  Close the window.

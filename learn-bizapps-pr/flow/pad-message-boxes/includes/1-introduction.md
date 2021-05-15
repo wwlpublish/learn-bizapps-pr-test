@@ -9,7 +9,9 @@ By the end of this module, you will be able to deploy the appropriate message bo
 ## Learning objectives
 
 In this module, you will:
+
 * Familiarize yourself with the various preset message boxes actions
 
 ## Prerequisites
-* Basic familiarity with the Power Automate Desktop process designer 
+
+* Basic familiarity with the Power Automate Desktop flow designer
