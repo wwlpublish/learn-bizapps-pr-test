@@ -7,7 +7,7 @@ The web APIs are served through [Azure API Management][az apim], which has the a
 > [!NOTE]
 > If you want to use Azure API Management and Power Apps throughout the exercises in this module you will need to follow a couple of steps.
 > 
-> The first is to download the web API files from GitHub and provision and deploy them to API Management using the instructions included in the README file.
+> The first is to [download the web API files from GitHub][artifacts], unzip the archive, and provision and deploy them to API Management using the instructions included in the README file.
 > 
 > The second is Power Apps requires either a Microsoft 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate][pa pricing].
 
