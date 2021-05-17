@@ -19,7 +19,7 @@ Now let's build a more classic visual.
 6. Select the **Line and clustered column chart** visual from the Visualizations pane.
     ![Visualization options - line and clustered column chart](../media/line-and-clustered-column-chart.png)
 
-7. Click on the box beside the following columns in the following order to select them: **Product**, **Manufacturing Price**, **Sales Prices**, **Profit**.
+7. Click on the box beside the following columns in the following order to select them: **Product**, **Manufacturing Price**, **Sale Price**, **Profit**.
 
 8. Note that Power BI automatically assigns each column to an appropriate field of the visual. In this case, however, we want to click and drag **Profit** from Column Values to Line Values.
 
