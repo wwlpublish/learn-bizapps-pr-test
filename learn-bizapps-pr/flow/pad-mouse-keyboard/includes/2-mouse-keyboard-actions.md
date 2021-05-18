@@ -8,7 +8,7 @@ To move the mouse to a specified position, use the **Move Mouse** action. Specif
 
 ![Screenshot of the Move mouse action properties dialog.](..\media\move-mouse-properties.png)
 
-Specify an image on the screen to move the cursor to with the **Move Mouse to Image** action. Select the target image from existing images. If no images have been added, they can be captured by clicking on the **Capture new image** button in the pop-out.
+Specify an image on the screen to move the cursor to with the **Move Mouse to Image** action. Select the target image from existing images. If no images have been added, they can be captured by clicking on the **Capture image** button in the pop-out.
 
 ![Screenshot of the Move Mouse to Image properties dialog pop-out.](..\media\move-mouse-image-properties-popout.png)
 
