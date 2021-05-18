@@ -15,7 +15,7 @@ The learning objectives for this module are:
 
 ## Dataverse for Teams sample data
 
-For this module, we need a table in Dataverse for Teams. Select a Microsoft Team and create a new table named "Cost Trends" with the following fields and data types:
+For this module, we need a table in Dataverse for Teams. You can use thie [Cost trends](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/dataverse-power-bi/CostTrends.zip) spreadsheet to upload data.  Select **Download** and then extract the spreadsheet to your local computer. Select a Microsoft Team and create a new table named "Cost Trends" with the following fields and data types:
 
 | Column Name | Data Type |
 |-------------|-----------|
