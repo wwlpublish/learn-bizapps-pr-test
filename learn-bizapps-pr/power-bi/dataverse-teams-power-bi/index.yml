@@ -28,6 +28,7 @@ products:
 - office-teams
 - power-platform 
 - power-bi 
+- common-data-service
 units: 
 - learn-bizapps.dataverse-teams-power-bi.1-introduction 
 - learn-bizapps.dataverse-teams-power-bi.2-connect-transform 
