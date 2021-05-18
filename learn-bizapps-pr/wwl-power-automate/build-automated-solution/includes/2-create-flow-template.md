@@ -15,7 +15,7 @@ To alleviate those time consuming searches, you can build a flow that stores all
 
 1. From the list of templates search for "**Save Office 365 email attachments to OneDrive for Business**" and then **click on the template** to start using it.
 
-2. Click **Create Flow** at the bottom of the screen to create the flow.
+2. Click **Continue** at the bottom of the screen to create the flow.
     ![Build flow for Office 365 emails](../media/office-365-email-template.png)
 
 **Save Office 365 email attachments to OneDrive for Business** is one of the one-click templates, in which you can answer questions that are necessary to build the flow, so that you don't have to write a line of code.
