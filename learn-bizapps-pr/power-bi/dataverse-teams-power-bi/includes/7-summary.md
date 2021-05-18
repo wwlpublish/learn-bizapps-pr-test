@@ -4,7 +4,7 @@ Empower your users with Power BI reports using Dataverse for Team data so they c
 
 ## Links related to modules for specific topics
 
-- [Power BI Pro licensing](https://docs.microsoft.com/power-bi/admin/service-admin-licensing-organization/?azure-portal=true)
-- [Power Query Editor](https://docs.microsoft.com/power-bi/transform-model/desktop-query-overview/?azure-portal=true)
-- [Subscribe to a Power BI Report](https://docs.microsoft.com/power-bi/consumer/end-user-subscribe/?azure-portal=true)
-- [Power BI Workspaces](https://docs.microsoft.com/power-bi/collaborate-share/service-create-the-new-workspaces/?azure-portal=true)
+- [Power BI Pro licensing](/power-bi/admin/service-admin-licensing-organization/?azure-portal=true)
+- [Power Query Editor](/power-bi/transform-model/desktop-query-overview/?azure-portal=true)
+- [Subscribe to a Power BI Report](/power-bi/consumer/end-user-subscribe/?azure-portal=true)
+- [Power BI Workspaces](/power-bi/collaborate-share/service-create-the-new-workspaces/?azure-portal=true)
