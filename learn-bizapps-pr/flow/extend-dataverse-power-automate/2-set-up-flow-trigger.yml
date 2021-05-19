@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.extend-dataverse-power-automate.2-set-up-flow-trigger 
-title: Set up your flow and configure your trigger
+title: Set up a flow and configure its trigger
 metadata: 
-  title: Set up your flow and configure your trigger
-  description: Learn to create an automated cloud flow and set up what triggers it.
+  title: Set up a flow and configure its trigger
+  description: Learn how to create an automated cloud flow and set up its trigger.
   ms.date: 05/04/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
