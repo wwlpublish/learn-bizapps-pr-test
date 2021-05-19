@@ -1,21 +1,21 @@
-AI and Robotic Processing Automation (RPA) allows you to reduce or eliminate burdensome and repetitive tasks by allowing a computer to do all the work for you. Now you know how to use AI models to simplify and automate those processes. The Power Platform makes training and incorporating these models simple and easy.
+AI and robotic processing automation (RPA) help you to reduce or eliminate burdensome and repetitive tasks by allowing a computer to do all the work for you. Now you have learned how to use AI models to simplify and automate those processes. Power Platform makes training and incorporating these models simpler.
 
-Now that you've reviewed this module, you can:
+In this module, you have learned how to:
 
-- Build a new AI model for Form processing
+- Build a new AI model for form processing.
 
-- Train the new AI model to process Contoso Invoice forms
+- Train the new AI model to process Contoso Invoice forms.
 
-- Integrate the new AI model into an existing Cloud flow
+- Integrate the new AI model into an existing cloud flow.
 
-- Perform a test run of the updated Cloud flow and associated AI builder-based predictions
+- Test the updated cloud flow and associated AI Builder-based predictions.
 
 ## Key takeaways
 
-Here are the three key takeaways:
+Three key takeaways from this module are:
 
-- Customizing and incorporating AI models into your process automation is simple and easy.
+- Customizing and incorporating AI models into your process automation is simple.
 
 - Collections allow you to use up to 100 layouts for form process models.
 
-- Using the dynamic content from AI models, flows can perform actions with data.
+- Using the dynamic content from AI models allows flows to perform actions with data.

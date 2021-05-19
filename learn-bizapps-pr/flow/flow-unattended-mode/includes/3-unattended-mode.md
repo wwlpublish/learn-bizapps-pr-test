@@ -1,39 +1,39 @@
-A cloud flow runs in the cloud and accesses services via API. Cloud flows are required to trigger the unattended desktop flow. To begin creating your cloud flow, open [Power Automate](https://us.flow.microsoft.com/?azure-portal=true) and select **My flows** and then **Cloud flows**.
+A cloud flow runs in the cloud and accesses services through APIs. Cloud flows are required to trigger the unattended desktop flow. To begin creating your cloud flow, open [Power Automate](https://us.flow.microsoft.com/?azure-portal=true) and select **My flows** and then **Cloud flows**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of cloud flows in the flow window.](../media/cloud-flows.png)](../media/cloud-flows.png#lightbox)
+> [![Screenshot of Cloud flows in the flow window.](../media/cloud-flows.png)](../media/cloud-flows.png#lightbox)
 
-Next select **New flow** and then **Instant cloud flow**.
-
-> [!div class="mx-imgBorder"]
-> [![Screenshot of new flow menu with instant cloud flow selected.](../media/instant-cloud-flow.png)](../media/instant-cloud-flow.png#lightbox)
-
-Name your flow. Here we have used the name Manual trigger Desktop flow to enter invoice. Choose **Manually trigger a flow**, then select **Create**.
+Next, select **New flow > Instant cloud flow**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the flow name field and manually trigger a flow selected.](../media/name-flow.png)](../media/name-flow.png#lightbox)
+> [![Screenshot of new flow menu with Instant cloud flow selected.](../media/instant-cloud-flow.png)](../media/instant-cloud-flow.png#lightbox)
 
-Once the screen changes to the flow builder, select **New step** and then search for and select **Run a flow built with Power Automate Desktop**.
+Name your flow. The following screenshot shows the example name as **Manual trigger Desktop flow to enter invoice**. Select the **Manually trigger a flow** option and then select **Create**.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the flow name field and Manually trigger a flow selected.](../media/name-flow.png)](../media/name-flow.png#lightbox)
+
+When the screen changes to the flow builder, select **New step** and then search for and select **Run a flow built with Power Automate Desktop**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Run a flow built with Power Automate Desktop action selected.](../media/run-desktop-flow-action.png)](../media/run-desktop-flow-action.png#lightbox)
 
-If you have not already configured your gateway connection, use the dropdown under Gateway name to select the appropriate gateway.
+If you haven't already configured your gateway connection, use the **Gateway name** drop-down menu to select the appropriate gateway.
 
-If you don't see your gateway, you may need to delete this step and recreate it in order to refresh the list. If your gateway still does not appear, you may need to restart the gateway on your PC and retry.
+If you can't find your gateway, you might need to delete this step and re-create it to refresh the list. If your gateway still doesn't appear, you might need to restart the gateway on your PC and then retry the process.
 
-The next two fields request your credentials to log into your computer. If you are unsure what to put in the Domain and username field, you can open a Command Prompt window by opening Start, typing CMD and pressing enter. Once the command prompt opens, type **Set user** and press Enter.
+The next two fields request your credentials to sign in to your computer. If you are unsure what to put in the **Domain and username** field, you can open a command prompt window by opening the **Start** menu, entering **CMD** in the search box, and then pressing the **Enter** key. When the command prompt opens, enter **Set user** and then press the **Enter** key.
 
-Several lines of code will appear. Take the user domain and the username and separate them by a backward slash as seen below. Select **Create**.
+Several lines of code will appear. Separate the **user domain** and the **username** with a backslash (\), as shown in the following screenshot. Select **Create**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the name, domain, user name, and password details.](../media/user-domain-user-name.png)](../media/user-domain-user-name.png#lightbox)
+> [![Screenshot of the Gateway name, Domain and user name, and Password details.](../media/user-domain-user-name.png)](../media/user-domain-user-name.png#lightbox)
 
-Once you have connected to your desktop, Power Automate will prompt you for information specific to your desktop flow. Use the dropdown to select the name of your desired flow, in this case Invoicing, and choose **Unattended - Runs in the background without signing in** for your Run Mode.
+When you have connected to your desktop, Power Automate will prompt you for information that is specific to your desktop flow. Use the drop-down menu to select the name of your desired flow, in this case **Invoicing**, and then select the **Unattended - Runs in the background without signing in** option in the **Run Mode** drop-down menu.
 
-Once you have selected your desktop flow, any requested input variables will be added for you to fill in. You can use dynamic content from the trigger or other steps in your cloud flow to populate these variables. Here, we will just put placeholders since we are only testing the unattended flow. Select **Save**.
+After you have selected your desktop flow, requested input variables will be added for you to fill in. You can use dynamic content from the trigger or other steps in your cloud flow to populate these variables. For the purposes of this module, you can enter placeholders because you are only testing the unattended flow. Select **Save**.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the unattended flow placeholder information.](../media/unattended-flow-placeholders.png)](../media/unattended-flow-placeholders.png#lightbox)
 
-That's it! You have created the unattended desktop flow. Now, let's test it!
+You have created the unattended desktop flow. Now, you can test it.

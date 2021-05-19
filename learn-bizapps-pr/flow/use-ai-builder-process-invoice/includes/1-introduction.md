@@ -1,11 +1,11 @@
-Robotic Processing Automation (RPA) allows you to reduce or eliminate burdensome and repetitive tasks by allowing programs such as Power Automate to perform them for you. One way to make RPA exponentially more powerful is by using Artificial Intelligence (AI). Although it may seem intimidating to incorporate and train AI, the Power Platform makes it simple and easy.
+Robotic processing automation (RPA) helps you to reduce or eliminate burdensome and repetitive tasks by allowing programs such as Microsoft Power Automate to perform them for you. One way to make RPA exponentially more powerful is by using AI. Though it might seem intimidating to incorporate and train AI, Microsoft Power Platform simplifies those tasks to help make them easier for you.
 
-In this module, you'll:
+In this module, you will:
 
-- Build a new AI model for Form processing
+- Build a new AI model for form processing.
 
-- Train the new AI model to process Contoso Invoice forms
+- Train the new AI model to process Contoso Invoice forms.
 
-- Integrate the new AI model into an existing Cloud flow
+- Integrate the new AI model into an existing cloud flow.
 
-- Perform a test run of the updated Cloud flow and associated AI builder-based predictions
+- Test the updated cloud flow and associated AI Builder-based predictions.

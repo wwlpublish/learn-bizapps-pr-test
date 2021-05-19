@@ -3,7 +3,7 @@ uid: learn-bizapps.integrate-flow-outlook.1-introduction
 title: Introduction
 metadata: 
   title: Introduction 
-  description: Introduction to integration with Outlook connector. 
+  description: Introduction to integrating a desktop flow with an Outlook connector in Power Automate Desktop 
   ms.date: 04/23/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

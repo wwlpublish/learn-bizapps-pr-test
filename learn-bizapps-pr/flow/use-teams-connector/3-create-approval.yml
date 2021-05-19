@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.use-teams-connector.3-create-approval 
-title: Create approval solution
+title: Create an approval solution
 metadata: 
-  title: Create approval solution
-  description: Learn to connect to Teams for approval.
+  title: Create an approval solution
+  description: Learn how to connect to Teams for approval.
   ms.date: 04/27/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

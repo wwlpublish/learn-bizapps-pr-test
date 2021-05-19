@@ -10,7 +10,11 @@ To create the flow:
 
     ![Screenshot of the Build a flow dialog box.](..\media\console-build-new-flow.png)
 
-1. When the flow designer is launched, add a **Wait for shortcut key** action in the workspace and set it to wait for the **Alt + 1** keys.
+1. When the flow designer is launched, use the **Actions** pane to search for and select the **Wait for shortcut key** action.
+
+    ![Screenshot of the actions pane.](..\media\actions-pane.png)
+
+1. Set the action to wait for the **Alt + 1** keys.
 
     ![Screenshot of the Wait for shortcut key action.](..\media\wait-for-shortcut-key-action.png)
 
@@ -42,6 +46,6 @@ To create the flow:
 
     ![Screenshot of the Save button in the flow designer.](..\media\save-icon.png)
 
-1. Run your flow manually through the **Run** button in the console. If you want to cancel the implementation of the flow, select the **Stop** button.
+1. Run your flow manually through the **Run** button in the console. Use the date **14/03/2021** as an example and check that the flow returns **03/14/2021**. If you want to stop running the flow, select the **Stop** button.
 
     ![Screenshot of the run button in the console.](..\media\run-date-conversion-flow.png)
