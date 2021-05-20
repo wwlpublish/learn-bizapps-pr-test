@@ -17,4 +17,4 @@ In future modules, you'll work with Kiana and Maria as Kiana learns what it's li
 
 ## Additional resources
 
-- [Fusion development approach to building apps using Power Apps](https://aka.ms/fusiondevbook)w
+- [Fusion development approach to building apps using Power Apps](https://aka.ms/fusiondevbook)
