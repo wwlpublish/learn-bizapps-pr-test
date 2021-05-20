@@ -12,7 +12,7 @@ All the actions that handle specific components in web pages require UI elements
 
     ![Screenshot of the U I element field in the Click link on web page action.](..\media\click-link-on-web-page-action-ui-element-field.png)
 
-1. Select one of the already created UI elements or create a new one through the **Add a new UI element** button.
+1. Select one of the already created UI elements or create a new one through the **Add UI element** button.
 
     ![Screenshot of the Add a new U I element button in Click link on web page action.](..\media\click-link-on-web-page-action-add-new-ui-element-button.png)
 

@@ -10,7 +10,7 @@ Power Automate Desktop supports the Microsoft MODI and Google Tesseract engines 
 
 To initialize the engine, you need to specify its language and set the image's width and height multipliers.
 
-Image multipliers increase the size of the image to make text extraction or searching more effective. Although multipliers are a valuable mechanism, avoid setting values greater than two because high values might lead to failed results.
+Image multipliers increase the size of the image to make text extraction or searching more effective. Although multipliers are a valuable mechanism, avoid setting values greater than three because high values might lead to failed results.
 
 As an output, these actions produce an OCR engine variable. This variable is used as input in virtually every other OCR action.
 
