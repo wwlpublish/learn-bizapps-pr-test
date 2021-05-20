@@ -27,7 +27,7 @@ quiz:
     - content: All of the above
       isCorrect: true 
       explanation: Security groups, O365 groups, and distribution groups are all available ways you can provide access to workspaces.
-  - content: Which one of the following isn't a permission level available in workspaces v2?
+  - content: Which one of the following ISN'T a permission level available in workspaces v2?
     choices: 
     - content: Admin
       isCorrect: false 
