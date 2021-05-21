@@ -51,8 +51,7 @@ You can skip these steps if you have already created the *Prospects* table.
 
 ### Creating the form
 
-You can attempt to create a new form in the App Designer but if you run
-into any issues, you can follow the steps below to create a new main
+Follow the steps below to create a new main
 form.
 
 1.  Go to the Power Apps Home Page, and on the left, Select **Data**.
