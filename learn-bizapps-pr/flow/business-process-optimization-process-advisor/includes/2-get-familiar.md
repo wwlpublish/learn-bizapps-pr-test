@@ -7,7 +7,8 @@ Process Advisor is accessed through [Power Automate](https://flow.microsoft.com/
 
 Here you can create a new process or add recordings to an existing process. You will also see a link to download Power Automate Desktop and short instructional videos to walk you through various tasks in Process Advisor. Remember that recordings are conducted through Power Automate Desktop and this program will need to be downloaded.
 
-Note: Process Advisor will need a few minutes to set up the first time you navigate there.
+> [!NOTE]
+> Process Advisor will need a few minutes to set up the first time you navigate there.
 
 Clicking on **Processes** will show the details of any existing processes, which you own or coown. If you don't yet have any processes, it will invite you to begin a new one.
 
