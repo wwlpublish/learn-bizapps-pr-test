@@ -32,7 +32,8 @@ units:
 - learn-bizapps.business-process-optimization-process-advisor.2-get-familiar 
 - learn-bizapps.business-process-optimization-process-advisor.3-create-recording 
 - learn-bizapps.business-process-optimization-process-advisor.4-edit-recordings-group-actions 
-- learn-bizapps.business-process-optimization-process-advisor.5-analyze-recordings-interpret-results 
+- learn-bizapps.business-process-optimization-process-advisor.5-analyze-recordings-interpret-results
+- learn-bizapps.business-process-optimization-process-advisor.5b-automation-recommendations
 - learn-bizapps.business-process-optimization-process-advisor.6-check 
 - learn-bizapps.business-process-optimization-process-advisor.7-summary 
 badge: 
