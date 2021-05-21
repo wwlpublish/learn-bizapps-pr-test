@@ -55,7 +55,7 @@ quiz:
     - content: Load balancing
       isCorrect: false 
       explanation: Eviction is the process whereby an inactive dataset is removed from memory to make room for another dataset. Dataset eviction is a normal, beneficial process and enables the support of a larger number of datasets than memory resources can handle at one time.
-  - content: Which one of the following ISN'T a part of Power BI\'s Bring your own key (BYOK) feature?
+  - content: Which one of the following is NOT a part of Power BI\'s Bring your own key (BYOK) feature?
     choices: 
     - content: Organization's keys are stored in Azure Key Vault.
       isCorrect: false
