@@ -59,7 +59,7 @@ form.
 1.  Locate and select the **Prospects** table. 
 1.  Select **Forms**.
 1.  Select the drop-down arrow next to Add form, and then select **Main Form** from the drop down. A new window will open.
-1.  Drag the **Stage** column from the right and place it below the **Owner** column in the center.
+1.  Drag the **Stage** column from the left and place it below the **Owner** column in the center.
 1.  Drag the **Contract Amount** column and place it below the **Stage** column.
 1.  Drag the **Probability** column and place it below the **Contract Amount** column.
 1.  Drag the **Forecasted Revenue** column and place it below the **Probability** column.
