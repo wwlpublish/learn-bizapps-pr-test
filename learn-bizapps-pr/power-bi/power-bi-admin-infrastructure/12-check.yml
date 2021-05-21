@@ -41,7 +41,7 @@ quiz:
     - content: Frequency and data volume of data model refreshes in Power BI
       isCorrect: true 
       explanation: When determining the power and type of hardware to use for your gateway, a key factor would be the frequency and data volume of data model refreshes in your Power BI environment as this will represent a major processing load on the machine. 
-  - content: Which of the following is not one of the single sign-on (SSO) user-mapping options covered in this module?
+  - content: Which of the following is NOT one of the single sign-on (SSO) user-mapping options covered in this module?
     choices: 
     - content: Local Active Directory accounts synchronization with Azure Active Directory
       isCorrect: false

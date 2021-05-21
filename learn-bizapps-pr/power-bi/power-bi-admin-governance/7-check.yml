@@ -41,7 +41,7 @@ quiz:
     - content: Compliance
       isCorrect: false 
       explanation: Compliance ensures that all regulations are met in all your organization's data practices.
-  - content: Which of the following administrator roles is not responsible for configuring tenant settings?
+  - content: Which of the following administrator roles is NOT responsible for configuring tenant settings?
     choices: 
     - content: Global administrator
       isCorrect: false 
@@ -55,7 +55,7 @@ quiz:
     - content: Power BI billing administrator
       isCorrect: true 
       explanation: The Power BI billing administrator is responsible for administrating BI billing and not configuring tenant settings.
-  - content: Which link is not available for customization in the custom help and support menu?
+  - content: Which link is NOT available for customization in the custom help and support menu?
     choices: 
     - content: Training documentation
       isCorrect: false 

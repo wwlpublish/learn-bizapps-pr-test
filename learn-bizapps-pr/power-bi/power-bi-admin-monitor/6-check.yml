@@ -13,7 +13,7 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which one of the following isn't a Power BI tenant metric available through the O365 admin portal?
+  - content: Which one of the following is NOT a Power BI tenant metric available through the O365 admin portal?
     choices: 
     - content: Number of user dashboards
       isCorrect: false 
