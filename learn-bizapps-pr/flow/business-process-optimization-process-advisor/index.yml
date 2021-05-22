@@ -3,7 +3,7 @@ uid: learn-bizapps.business-process-optimization-process-advisor
 metadata: 
  title: Optimize your business process with Process Advisor
  description: Learn how to optimize your business process with Process Advisor.
- ms.date: 05/24/2021  
+ ms.date: 05/25/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -33,8 +33,8 @@ units:
 - learn-bizapps.business-process-optimization-process-advisor.3-create-recording 
 - learn-bizapps.business-process-optimization-process-advisor.4-edit-recordings-group-actions 
 - learn-bizapps.business-process-optimization-process-advisor.5-analyze-recordings-interpret-results
-- learn-bizapps.business-process-optimization-process-advisor.5b-automation-recommendations
-- learn-bizapps.business-process-optimization-process-advisor.6-check 
-- learn-bizapps.business-process-optimization-process-advisor.7-summary 
+- learn-bizapps.business-process-optimization-process-advisor.6-automation-recommendations
+- learn-bizapps.business-process-optimization-process-advisor.7-check 
+- learn-bizapps.business-process-optimization-process-advisor.8-summary 
 badge: 
   uid: learn-bizapps.business-process-optimization-process-advisor.badge 
