@@ -1,7 +1,7 @@
 Within your process map, you may see blue icons on various activities like the below. This is a recommendation for automation. Power Automate has taken information such as time and applications involved in this activity and recommended further action. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the analytics for recommendations.](../media/6-process-map-auto.png.png)](../media/6-process-map-auto.png.png#lightbox)
+> [![Screenshot of the analytics for recommendations.](../media/6-process-map-auto.png)](../media/6-process-map-auto.png#lightbox)
 
 Selecting the icon will begin a new cloud flow with suggestions for connectors grouped by activities based on your process.  
 
