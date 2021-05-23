@@ -1,4 +1,4 @@
-Process Advisor works with other technology in the Power Platform to generate insights. Power Automate Desktop allows you to record actions you perform on your computer while Dataverse stores the information from your processes. Because of this, you will need to have access to all of these from a licensing and security perspective to take advantage of Process Advisor. If you cannot see Process Advisor when visiting Power Automate, talk to your administrator about your permissions.
+Process advisor is built using the great features and capabilities of the Power Platform to generate insights. Power Automate Desktop allows you to record actions you perform on your computer while Dataverse stores the information from your processes. Because of this, you will need to have access to all of these from a licensing and security perspective to take advantage of process advisor. If you cannot see process advisor when visiting Power Automate, talk to your administrator about your permissions. 
 
 Process Advisor is accessed through [Power Automate](https://flow.microsoft.com/?azure-portal=true) by selecting **Process advisor** and then **Create** on the left navigation pane.
 
@@ -7,7 +7,7 @@ Process Advisor is accessed through [Power Automate](https://flow.microsoft.com/
 
 Here you can create a new process or add recordings to an existing process. You will also see a link to download Power Automate Desktop and short instructional videos to walk you through various tasks in Process Advisor. Remember that recordings are conducted through Power Automate Desktop and this program will need to be downloaded.
 
-Clicking on **Processes** will show the details of any existing processes, which you own or co-own. If you don't yet have any processes, you can begin a new one.
+Selecting **Processes** will show the details of any existing processes, which you own or co-own. If you don't yet have any processes, you can begin a new one.
 
 Selecting a process will allow you to see the details involved including the various recordings and who created them at what time and their status.
 

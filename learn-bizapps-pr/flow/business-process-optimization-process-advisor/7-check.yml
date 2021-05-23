@@ -55,3 +55,17 @@ quiz:
     - content: A variant is a recording that takes much longer than the others.
       isCorrect: false 
       explanation: There are many reasons a recording could take longer, but they are not called variants.
+  - content: What connectors can Automation recommendations recommend to improve your business processes and increase efficiencies? 
+    choices: 
+    - content: Automation recommendations only include Premium connectors. 
+      isCorrect: false 
+      explanation: Recommendations include all connectors relevant to your process, including Power Automate Desktop to automate legacy applications.
+    - content: Automation recommendations only include Office 365 connectors. 
+      isCorrect: false 
+      explanation: Recommendations include all connectors relevant to your process, including Power Automate Desktop to automate legacy applications.
+    - content: All connectors can be recommended except AI Builder and Power Automate Desktop.
+      isCorrect: false 
+      explanation: Recommendations include all connectors relevant to your process, including Power Automate Desktop to automate legacy applications.
+    - content: All connectors relevant to your process, including Power Automate Desktop to automate legacy applications
+      isCorrect: true 
+      explanation: Recommendations include all connectors relevant to your process, including Power Automate Desktop to automate legacy applications.

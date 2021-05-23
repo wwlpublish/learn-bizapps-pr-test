@@ -8,7 +8,7 @@ As you will remember from the second unit, there are several statuses for record
 > [!NOTE]
 > You can edit recordings that have already been analyzed, but you must prepare every recording for analysis by grouping actions and changing the status to "Ready to analyze".
 
-By clicking on individual actions, you can edit the action text or description to eliminate private data or Personal Identifiable Information (PII) and delete the screenshot. Screenshots help users or owners of the process to understand what is taking place in the action but deleting the screenshot will not affect the analysis in any way. Editing out personal information and deleting screenshots can be important for keeping anonymous data anonymous as it is shared with any owners of the process. You can also delete sensitive steps or modify data input while recording and pause the recording, perform actions regarding sensitive data, and then resume recording.
+By selecting individual actions, you can edit the action text or description to eliminate private data or Personal Identifiable Information (PII) and delete the screenshot. Screenshots help users or owners of the process to understand what is taking place in the action but deleting the screenshot will not affect the analysis in any way. Editing out personal information and deleting screenshots can be important for keeping anonymous data anonymous as it is shared with any owners of the process. You can also delete sensitive steps or modify data input while recording and pause the recording, perform actions regarding sensitive data, and then resume recording.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the action details edit area with delete screenshot feature.](../media/privacy.png)](../media/privacy.png#lightbox)

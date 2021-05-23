@@ -1,13 +1,22 @@
-The process advisor automation recommendation feature helps you identify automation opportunities. It also guides you in automating your processes using Microsoft Power Automate.
-
-The blue recommendation icons on the process map activity show the automation opportunities.
+Within your process map, you may see blue icons on various activities like the below. This is a recommendation for automation. Power Automate has taken information such as time and applications involved in this activity and recommended further action. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the analytics for recommendations.](../media/automation-dot.png)](../media/automation-dot.png#lightbox)
+> [![Screenshot of the analytics for recommendations.](../media/6-process-map-auto.png.png)](../media/6-process-map-auto.png.png#lightbox)
 
-When you select **+Automate activities** above the map, you're shown the cloud flow connectors recommendations relevant to your process.
-
-When you select **+Automate activities** above the recommendations, you'll be taken to Power Automate form designer. This is where you'll see the connector recommendations for the activities in your process map. You can select and add the connectors to your flow to automate your process.
+Selecting the icon will begin a new cloud flow with suggestions for connectors grouped by activities based on your process.  
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the recommendations connector.](../media/automation-connector.png)](../media/automation-connector.png#lightbox)
+> [![Screenshot of a new cloud flow selection.](../media/new-cloud-flow.png)](../media/new-cloud-flow.png#lightbox)
+
+Selecting a recommended connector will add the selection to your flow. 
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of automate activities connector.](../media/choose-selection.png)](../media/choose-selection.png#lightbox)
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of a connector added to the recommendation.](../media/connector-added.png)](../media/connector-added.png#lightbox)
+
+You can reach these recommendations anytime by choosing Automate activities. If you would like to connect to legacy applications, Power Automate Desktop is also available as a connector.  
+
+Automation recommendations guide non-developers on how to create a solution on their analyzed process the right way. 
+

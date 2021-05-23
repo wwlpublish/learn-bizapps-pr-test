@@ -3,7 +3,7 @@ Once you have a couple of recordings and have grouped the actions in those recor
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Analyze button for the process.](../media/analyze.png)](../media/analyze.png#lightbox)
 
-In the following pop-up, press **Confirm**. Once your analysis is complete, the included recordings should switch status to "Analyzed". After this occurs, press **Analytics** to view the results.
+In the following pop-up, press **Confirm**. Once your analysis is complete, the included recordings should switch status to "Analyzed." After this occurs, press **Analytics** to view the results.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Analytics button used to access the results.](../media/analytics.png)](../media/analytics.png#lightbox)
@@ -39,5 +39,10 @@ You can select Variant 1 to filter all the information on the analytics page to 
 > [![Screenshot of the filtered information on the analytics page.](../media/deviation.png)](../media/deviation.png#lightbox)
 
 You can see that in this recording, filling out the invoice form took longer than in the other recordings. In fact, the whole process took more than two minutes, the longest of all the runs. This may be because the user was typing information instead of copying and pasting, or it could be an outlier. Either way, you are gaining insights into the process.
+
+In addition to information on your process, you can find analytics on the various applications being used in your process on the applications tab. 
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of various apps and how they are performing.](../media/analyze-apps.png)](../media/analyze-apps.png#lightbox)
 
 Now you can see where bottlenecks may exist in your process and where you can most easily automate.
