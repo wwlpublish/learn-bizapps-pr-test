@@ -20,7 +20,7 @@ abstract: |
 prerequisites: None 
 iconUrl: /learn/achievements/business-process-optimization-process-advisor.svg  
 levels:  
-- intermediate   
+- beginner   
 roles:  
 - maker  
 - business-user  
