@@ -12,12 +12,12 @@ Creating a custom visual is beyond the scope of this unit, so in this example, y
 In the **Visualizations** pane, select the **Get more visuals** icon and then select **Get more visuals**. On the window that displays, locate and select the visual that you want to import and then select **Add**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Get more visuals from the AppSource.](../media/5-get-visual-appsource-ssm.png)](../media/5-get-visual-appsource-ssm.png#lightbox)
+> [![Get a visual from the AppSource](../media/5-get-visual-appsource-ssm.png)](../media/5-get-visual-appsource-ssm.png#lightbox)
 
 The new visual will appear under the other visuals in the **Visualizations** pane. To add the visual to your report, select its icon. You can then add fields to the visual and customize its formatting, just like you would for any other visual.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the new visualization's icon in the Visualizations pane.](../media/5-new-visual-icon-ssm.png)](../media/5-new-visual-icon-ssm.png#lightbox)
+> [![New visual icon](../media/5-new-visual-icon-ssm.png)](../media/5-new-visual-icon-ssm.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the new AppSource visualization in a report.](../media/5-new-appsource-visual-ss.png)](../media/5-new-appsource-visual-ss.png#lightbox)
+> [![New AppSource visual](../media/5-new-appsource-visual-ss.png)](../media/5-new-appsource-visual-ss.png#lightbox)
