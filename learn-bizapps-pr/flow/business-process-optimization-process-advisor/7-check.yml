@@ -46,12 +46,12 @@ quiz:
     - content: A variant is grouping of actions.
       isCorrect: false 
       explanation: An activity is grouping of actions.
-    - content: A variant is a deviation in a process.
+    - content: A variant is a recording that fails to be analyzed and must be rerecorded. 
+      isCorrect: false 
+      explanation: A recording will have a status of Failed if an error occurs and it needs to be rerecorded. 
+    - content: A variant is a specific path (same steps in the same sequence) users take to complete a process. 
       isCorrect: true 
       explanation: A variant is a deviation in the process where users take different paths. This is called out in the process map. 
-    - content: A variant is a recording that fails to be analyzed and must be rerecorded.
-      isCorrect: false 
-      explanation: A recording will have a status of Failed if an error occurs and it needs to be rerecorded.
     - content: A variant is a recording that takes much longer than the others.
       isCorrect: false 
       explanation: There are many reasons a recording could take longer, but they are not called variants.
