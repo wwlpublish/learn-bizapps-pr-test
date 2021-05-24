@@ -1,12 +1,12 @@
-As we learned in the previous unit, the common flow of work in Microsoft Power BI is to create a report in Power BI Desktop, publish it to the Power BI service, and then share it with others, so that they can view it in the service or on a mobile app.
+As we learned in the previous unit, the common flow of work in Microsoft Power BI is to create a report in Power BI Desktop, publish it to the Power BI service, and then share it with others so that they can view it in the service or on a mobile app.
 
 But because some people begin in the Power BI service, let's take a quick look at that first, and learn about an easy and popular way to quickly create visuals in Power BI: *apps*.
 
 An **app** is a collection of preset, ready-made visuals and reports that are shared with an entire organization. Using an app is like microwaving a TV dinner or ordering a fast-food value meal: you just have to press a few buttons or make a few comments, and you're quickly served a collection of entrees designed to go together, all presented in a tidy, ready-to-consume package.
 
-So, let's take a quick look at apps, the service, and how it works. We'll go into more detail about apps (and the service) in upcoming modules, but you can think of this as a taste to whet your appetite. You can sign into the service at [https://powerbi.microsoft.com](https://powerbi.microsoft.com/?azure-portal=true).
+So, let's take a quick look at apps, the service, and how they work. We'll go into more detail about apps (and the service) in upcoming modules, but you can think of this as a taste to whet your appetite. You can sign into the service at [https://powerbi.microsoft.com](https://powerbi.microsoft.com/?azure-portal=true).
 
-## Create out-of-box dashboards with cloud services
+## Create out-of-the-box dashboards with cloud services
 
 With Power BI, connecting to data is easy. From the Power BI service, you can just select the **Get Data** button in the lower-left corner of the home page.
 
@@ -38,13 +38,13 @@ In addition to the app **dashboard**, the **report** that was generated (as part
 
 ![Screenshot of the Github navigation with arrows to Dashboard and Report tabs.](../media/pbi-touring_06.png)
 
-You can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when the **AdamBJ** in the treemap on the **Pull Requests** report the other visuals on the page adjust to reflect that selection.
+You can select any of the visuals and interact with them. As you do so, all the other visuals on the page will respond. For example, when you select the **Pull Requests** report in the treemap, the other visuals on the page adjust to reflect that selection.
 
 ![Screenshot of the Github app with the Pull Requests report selected.](../media/pbi-touring_06b.png)
 
 ## Update data in the Power BI service
 
-You can also choose to **update** the dataset for an app, or other data that you use in Power BI. To set update settings, select the schedule update icon for the dataset to update, and then use the menu that appears. You can also select the update icon (the circle with an arrow) next to the schedule update icon to update the dataset immediately.
+You can also choose to **update** the dataset for an app, or other data that you use in Power BI. To set update settings, select the schedule update icon for the dataset that you want to update, and then use the menu that appears. You can also select the update icon (the circle with an arrow) next to the schedule update icon to update the dataset immediately.
 
 ![Screenshot of scheduling an update for dashboards.](../media/pbi-touring_09.png)
 

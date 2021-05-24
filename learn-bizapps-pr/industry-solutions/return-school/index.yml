@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.return-school 
+metadata: 
+ title: Get started with the Return to School solution
+ description: Learn about the Return to School solution.
+ ms.date: 04/28/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-d365-return-school  
+title: Get started with the Return to School solution 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The Microsoft Return to School solution offers tools to help administrators manage the return of staff and students to onsite activities as regional restrictions change to allow for a safe return. Currently, the Return to School solution is designed to support US-based organizations.
+abstract: |  
+    In this module, you will: 
+    - Learn about the main features of the Return to School solution.
+    - Discover the benefits and use cases of the Return to School solution components.
+    - Explore the high-level functionality of the Return to School solution.
+    - Launch and navigate the features of the Return to School solution.
+    - Identify where to find next steps to configure the Return to School solution.
+prerequisites: None 
+iconUrl: /learn/achievements/return-school.svg  
+levels:  
+- beginner   
+roles:  
+- business-user   
+- functional-consultant 
+- maker
+products:  
+- industry-solutions 
+- return-to-school 
+units: 
+- learn-bizapps.return-school.1-introduction 
+- learn-bizapps.return-school.2-features-benefits 
+- learn-bizapps.return-school.3-functionality 
+- learn-bizapps.return-school.4-configuration 
+- learn-bizapps.return-school.5-check 
+- learn-bizapps.return-school.6-summary 
+badge: 
+  uid: learn-bizapps.return-school.badge 

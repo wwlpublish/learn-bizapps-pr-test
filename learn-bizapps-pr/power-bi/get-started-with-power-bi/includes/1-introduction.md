@@ -1,6 +1,6 @@
-**Microsoft Power BI** is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Whether your data is a simple Microsoft Excel workbook, or a collection of cloud-based and on-premises hybrid data warehouses, **Power BI** lets you easily connect to your data sources, visualize (or discover) what's important, and share that with anyone or everyone you want.
+**Microsoft Power BI** is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Whether your data is a simple Microsoft Excel workbook, or a collection of cloud-based and on-premises hybrid data warehouses, **Power BI** lets you easily connect to your data sources, visualize (or discover) what's important, and share that with anyone or everyone.
 
-![How Power BI works with other data](../media/pbi-intro_01.png)
+![How Power BI works with other data to share insights.](../media/pbi-intro_01.png)
 
 **Power BI** can be simple and fast, capable of creating quick insights from an Excel workbook or a local database. But **Power BI** is also robust and enterprise-grade, ready not only for extensive modeling and real-time analytics, but also for custom development. Therefore, it can be your personal report and visualization tool, but can also serve as the analytics and decision engine behind group projects, divisions, or entire corporations.
 
@@ -9,7 +9,7 @@ If you're a **beginner** with Power BI, this module will get you going. If you'r
 ## The parts of Power BI
 Power BI consists of a Microsoft Windows desktop application called **Power BI Desktop**, an online SaaS (*Software as a Service*) service called the **Power BI service**, and mobile Power BI **apps** that are available on any device, with native mobile BI apps for Windows, iOS, and Android.
 
-![The parts of Power BI](../media/pbi-intro_02.png)
+![The parts of Power BI: desktop, service, and mobile.](../media/pbi-intro_02.png)
 
 These three elements—**Desktop**, the **service**, and **Mobile** apps—are designed to let people create, share, and consume business insights in the way that serves them, or their role, most effectively.
 

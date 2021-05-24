@@ -26,5 +26,5 @@ Standard and custom tables within Dataverse provide a cloud-based storage option
 - **Helps to secure data** - Data is stored so that users can see it only if you grant them access. Role-based security allows you to control access to tables for different users within your organization.
 - **Access your Dynamics 365 Data** - Data from your Dynamics 365 applications is also stored within the Dataverse, which allows you to quickly build apps that use your Dynamics 365 data and extend your apps by using Power Apps.
 - **Rich metadata** - Data types and relationships are used directly within Power Apps.
-- **Logic and validation** - Define calculated fields, business rules, workflows, and business process flows to ensure data quality and drive business processes.
+- **Logic and validation** - Define calculated columns, business rules, workflows, and business process flows to ensure data quality and drive business processes.
 - **Productivity tools** - Tables are available within the add-ins for Microsoft Excel to increase productivity and ensure data accessibility.

@@ -1,4 +1,4 @@
-In the Options tab, you can configure global WinAuotmation error handling settings. Global error handling works for any process that you have not defined error handling for at a lower level.
+In the Options tab, you can configure global WinAutomation error handling settings. Global error handling works for any process that you have not defined error handling for at a lower level.
 
 To determine which actions will be performed if a process fails to run successfully:
 

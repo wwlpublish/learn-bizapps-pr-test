@@ -34,7 +34,7 @@ You will notice in our example, the new table and primary column begins with **c
 
     - **Display name**: *Species*
     - **Data type**: *Choice*
-    - **Choice set**: *New choice set*
+    - **Choice set**: *+ New choice*
     - **Searchable**: *Yes*
 
 4. Create the choice set:
@@ -71,15 +71,15 @@ You will notice in our example, the new table and primary column begins with **c
 3. Select **Done**.
 4. Select **Save table**.
 
-    Notice that when you add a many-to-one relationship, an **Account** field of the **Lookup** data type is automatically added to your list of columns on the **Columns** tab.
+    Notice that when you add a many-to-one relationship, an **Account** column of the **Lookup** data type is automatically added to your list of columns on the **Columns** tab.
 
     > [!div class="mx-imgBorder"]
-    > ![Screenshot of the Account field of the lookup data type automatically added.](../media/updated-account-lookup-field.png)
+    > ![Screenshot of the Account column of the lookup data type automatically added.](../media/updated-account-lookup-field.png)
 
 ## Customize a view
 
 1. On the **Views** tab, right-click **Active Pets** view and select **Open Link in New Tab**. If you don't see the **Active Pets** view, select **Remove filter**.
-2. In the view designer, select **Add Columns**, select the following columns, and then select **OK**:
+2. In the view designer, select **+ View Column**, select the following columns, and then select **OK**:
 
     - Account
     - Appointment date
@@ -103,7 +103,7 @@ You will notice in our example, the new table and primary column begins with **c
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Form tab with Information highlighted.](../media/updated-main-form-edit.png)
 
-1. In the form editor, drag the **Species**, **Breed**, **Appointment date**, and **Account** columns from the **Field Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
+1. In the form editor, drag the **Species**, **Breed**, **Appointment date**, and **Account** columns from the **Column Explorer** pane to the **General** section of the form canvas, so that the form looks like this.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of General section of the form canvas.](../media/updated-main-form-edit2.png)

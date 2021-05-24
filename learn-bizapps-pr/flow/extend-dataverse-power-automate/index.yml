@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.extend-dataverse-power-automate 
+metadata: 
+ title: Extend Dataverse with Power Automate
+ description: Learn how to extend Microsoft Dataverse with Microsoft Power Automate.
+ ms.date: 05/04/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Extend Dataverse with Power Automate
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module explains how to create your first flow in Power Automate with triggers and actions from Dataverse.
+abstract: |  
+    In this module, you will: 
+    - Build flows with Dataverse.
+    - Integrate Dataverse with Microsoft Outlook.
+    - Integrate Dataverse with Microsoft To Do.
+prerequisites: Basic understanding of Microsoft Power Automate and Microsoft Dataverse
+iconUrl: /learn/achievements/extend-dataverse-power-automate.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+- developer 
+products: 
+- power-platform
+- power-automate
+- common-data-service
+units: 
+- learn-bizapps.extend-dataverse-power-automate.1-introduction 
+- learn-bizapps.extend-dataverse-power-automate.2-set-up-flow-trigger 
+- learn-bizapps.extend-dataverse-power-automate.3-email-dataverse-record 
+- learn-bizapps.extend-dataverse-power-automate.4-add-items 
+- learn-bizapps.extend-dataverse-power-automate.5-test-run-flow 
+- learn-bizapps.extend-dataverse-power-automate.6-check 
+- learn-bizapps.extend-dataverse-power-automate.7-summary 
+badge: 
+  uid: learn-bizapps.extend-dataverse-power-automate.badge 

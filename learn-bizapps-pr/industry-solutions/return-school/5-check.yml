@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.return-school.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/28/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-d365-return-school 
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following options should visitors use to check in for building access for school appointments?
+    choices: 
+    - content: Return to School Management model-driven app 
+      isCorrect: false
+      explanation: This app is used to configure appointment availability and requires special licensing and authentication that visitors would not have. Visitors should use the Return to School portal app to check in for building access for school appointments.
+    - content: Return to School portal app   
+      isCorrect: true 
+      explanation: The portal app supports users who don't have a Microsoft Azure Active Directory (Azure AD) login for the organization. Visitors should use the Return to School portal app to check in for building access for school appointments.
+    - content: Location Readiness dashboard 
+      isCorrect: false 
+      explanation: This is not an app; it displays data from an app. Visitors should use the Return to School portal app to check in for building access for school appointments.
+  - content: When would a staff member request a pass for their dependent?
+    choices: 
+    - content: After you have added them as a dependent in the Return to School portal app  
+      isCorrect: true 
+      explanation: Staff members can request a pass for their dependent after they have added them as a dependent in the Return to School portal app. 
+    - content: You must start by sending them a check-in invitation 
+      isCorrect: false 
+      explanation: Invitations are not available unless you have customized your solution. Staff members can request a pass for their dependent after they have added them as a dependent in the Return to School portal app.
+    - content: Send them a copy of your pass in an email 
+      isCorrect: false 
+      explanation: A pass can only be used by the person to whom it was issued. Staff members can request a pass for their dependent after they have added them as a dependent in the Return to School portal app.
+  - content: The Return to School portal is best consumed by people who are using what type of device?
+    choices: 
+    - content: Mobile phone only 
+      isCorrect: false
+      explanation: The Return to School portal app is best consumed on a mobile phone, tablet device, or desktop browser.
+    - content: Tablet device only
+      isCorrect: false 
+      explanation: The Return to School portal app is best consumed on a mobile phone, tablet device, or desktop browser.
+    - content: Desktop browser only 
+      isCorrect: false 
+      explanation: The Return to School portal app is best consumed on a mobile phone, tablet device, or desktop browser.
+    - content: All three of these devices
+      isCorrect: true 
+      explanation: The Return to School portal app is best consumed on a mobile phone, tablet device, or desktop browser.

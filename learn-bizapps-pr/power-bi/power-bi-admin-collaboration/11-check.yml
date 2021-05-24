@@ -1,0 +1,74 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-admin-collaboration.11-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/30/2021 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 4
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: In which of the following ways can you provide access to workspaces?
+    choices: 
+    - content: Security groups
+      isCorrect: false 
+      explanation: Security groups are an available way to provide access to workspaces.
+    - content: O365 groups
+      isCorrect: false 
+      explanation: O365 groups are an available way to provide access to workspaces.
+    - content: Distribution groups
+      isCorrect: false 
+      explanation: Distribution groups are an available way to provide access to workspaces.
+    - content: All of the above
+      isCorrect: true 
+      explanation: Security groups, O365 groups, and distribution groups are all available ways you can provide access to workspaces.
+  - content: Which one of the following ISN'T a permission level available in workspaces v2?
+    choices: 
+    - content: Admin
+      isCorrect: false 
+      explanation: Admin is a permission level available in workspaces v2.
+    - content: Member
+      isCorrect: false 
+      explanation: Member is a permission level available in workspaces v2.
+    - content: Contributor
+      isCorrect: false 
+      explanation: Contributor is a permission level available in workspaces v2.
+    - content: Steward
+      isCorrect: true 
+      explanation: Steward isn't a permission level in the workspaces v2.
+  - content: Which of the following workspaces v2 migration options are available to Power BI users?
+    choices: 
+    - content: Migration is optional even after general availability (GA).
+      isCorrect: false 
+      explanation: Migration is mandatory for all Power BI users at a point and time chosen by Microsoft after GA.
+    - content: Opt-in migration will be available at general availability (GA).
+      isCorrect: true 
+      explanation: This will be a migration option available to Power BI users.
+    - content: After general availability (GA), migration exemptions will be available to users.
+      isCorrect: false 
+      explanation: Migration exemptions won't be available to users post GA.
+    - content: There's little advantage to migrating, so the opt-out option should be selected.
+      isCorrect: false 
+      explanation: There are significant advantages to migrating, and migration will be mandatory at a time when Microsoft determines the impact will be minimal to users.
+  - content: What are the different methods of sharing Power BI content?
+    choices: 
+    - content: Apps
+      isCorrect: false 
+      explanation: Apps are one of the ways to share Power BI content.
+    - content: Sharing dashboards or reports
+      isCorrect: false 
+      explanation: Sharing dashboards or reports are one of the ways to share Power BI content.
+    - content: Publish to web
+      isCorrect: false 
+      explanation: Publish to web is one of the ways to share Power BI content.
+    - content: Embed content
+      isCorrect: false 
+      explanation: Embed content is one of the ways to share Power BI content.
+    - content: All of the above
+      isCorrect: true 
+      explanation: Apps, sharing dashboard or reports, publish to web, and embed content are the different methods to share Power BI content.

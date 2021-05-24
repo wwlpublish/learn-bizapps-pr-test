@@ -1,0 +1,39 @@
+### YamlMime:Module 
+uid: learn-bizapps.application-lifecycle-management-architect
+metadata: 
+ title: "Solution Architect series: Plan application lifecycle management for Power Platform"
+ description: Solution architects for Microsoft Power Platform need to define the environment strategy and application lifecycle management (ALM) for transporting work from development to test to production.
+ ms.date: 04/20/2021
+ author: DaveBeasley  
+ ms.author: dbeasley   
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-platform-solution-architect
+title: "Solution Architect series: Plan application lifecycle management for Power Platform"
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Solution architects for Microsoft Power Platform need to define the environment strategy and application lifecycle management (ALM) for transporting work from development to test to production.
+abstract: |  
+    In this module, you will: 
+    - Learn about Microsoft's vision and the solution architect’s role in ALM.
+    - Review environment strategies.
+    - Define a solution structure for your deliverables.
+prerequisites: Experience working on Power Platform projects as either a junior solution architect, a senior functional consultant, or a senior developer
+iconUrl: /learn/achievements/application-lifecycle-management-architect.svg  
+levels:  
+- advanced
+roles:  
+- solution-architect
+products:    
+- power-platform
+- common-data-service
+units: 
+- learn-bizapps.application-lifecycle-management-architect.1-introduction
+- learn-bizapps.application-lifecycle-management-architect.2-considerations
+- learn-bizapps.application-lifecycle-management-architect.3-solutions
+- learn-bizapps.application-lifecycle-management-architect.4-configuration
+- learn-bizapps.application-lifecycle-management-architect.5-release
+- learn-bizapps.application-lifecycle-management-architect.6-devops
+- learn-bizapps.application-lifecycle-management-architect.7-check
+- learn-bizapps.application-lifecycle-management-architect.8-summary
+badge: 
+  uid: learn-bizapps.application-lifecycle-management-architect.badge
