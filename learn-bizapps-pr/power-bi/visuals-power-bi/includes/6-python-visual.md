@@ -10,32 +10,32 @@ Before you create the R visual, you must install R on your local computer so tha
 When you have downloaded and installed R, Power BI enables it automatically, but you should verify that it has been enabled in the correct location. In Power BI Desktop, select **File** **>** **Options and settings** **>** **Options** and then select **R scripting** in the **Global** options list. Verify that your local R installation is specified in the **Detected R home directories** drop-down menu and that it properly reflects the local R installation that you want Power BI Desktop to use. In the following image, the path to the local installation of R is C:\Program Files\R Open\R-3.5.3\.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of selecting R scripting in global options.](../media/6-select-r-scripting-global-options-ssm.png)](../media/6-select-r-scripting-global-options-ssm.png#lightbox)
+> [![Select R scripting in global options](../media/6-select-r-scripting-global-options-ssm.png)](../media/6-select-r-scripting-global-options-ssm.png#lightbox)
 
 When you've verified your R installation, you can create the R visual.
 
 Select the **R visual** icon in the **Visualizations** pane and then select **Enable** on the window that displays. You'll then see a placeholder R visual image on the report canvas, with the **R script editor** underneath.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of selecting R visualization from the Visualizations pane.](../media/6-select-r-visual-ssm.png)](../media/6-select-r-visual-ssm.png#lightbox)
+> [![Select R visual from visualization pane](../media/6-select-r-visual-ssm.png)](../media/6-select-r-visual-ssm.png#lightbox)
 
 Next, in the **Field** panel, select the fields that you want to use in your script. They will display in the **Values** section in the **Visualizations** pane. You'll use the data in these fields to create a plot.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of selecting fields for the R visualization.](../media/6-select-fields-r-visual-ssm.png)](../media/6-select-fields-r-visual-ssm.png#lightbox)
+> [![Select fields for R visual](../media/6-select-fields-r-visual-ssm.png)](../media/6-select-fields-r-visual-ssm.png#lightbox)
 
 As you select or remove fields, supporting code in the **R script editor** is automatically generated or removed. Based on your selections, the **R script editor** generates the following binding code:
 
-- The editor created a dataset dataframe with the fields that you added.
+-   The editor created a dataset dataframe with the fields that you added.
 
-- The default aggregation is: do not summarize.
+-   The default aggregation is: do not summarize.
 
-- Similar to table visuals, fields are grouped and duplicate rows appear only once.
+-   Similar to table visuals, fields are grouped and duplicate rows appear only once.
 
 When you have selected the fields, you're ready to write an R script that results in plotting to the R default device. When the script is complete, select **Run** from the **R script editor** title bar.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the script in the R script editor.](../media/6-run-r-script-ssm.png)](../media/6-run-r-script-ssm.png#lightbox)
+> [![Run R script](../media/6-run-r-script-ssm.png)](../media/6-run-r-script-ssm.png#lightbox)
 
 Power BI Desktop identifies the plot and presents it on the canvas.
 
@@ -44,18 +44,18 @@ Power BI Desktop identifies the plot and presents it on the canvas.
 No prerequisites exist for creating a Python visual, so you can start right away in Power BI Desktop by selecting the **Python visual** icon in the **Visualizations** pane. Select **Enable** on the window that displays, and then you'll then see a placeholder Python visual image on the report canvas, with the **Python script editor** underneath.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of selecting the Python visual.](../media/6-select-python-visual-ssm.png)](../media/6-select-python-visual-ssm.png#lightbox)
+> [![Select Python visual](../media/6-select-python-visual-ssm.png)](../media/6-select-python-visual-ssm.png#lightbox)
 
 You can continue creating a Python visual in the same way as you did when creating the R visual. In summary, you would select the fields, write the Python script, and then select **Run** from the **Python script editor** title bar.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Python script editor title bar.](../media/6-python-script-editor-title-bar-ssm.png)](../media/6-python-script-editor-title-bar-ssm.png#lightbox)
+> [![Python script editor title bar](../media/6-python-script-editor-title-bar-ssm.png)](../media/6-python-script-editor-title-bar-ssm.png#lightbox)
 
 ## Import an R or Python visual
 
 To import an R or Python visual from AppSource, in the **Visualizations** pane, select the **Get more visuals** icon and then select **Get more visuals**. On the window that displays, locate and select the R or Python visual that you want to import and then select **Add**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Get more visuals from App Source.](../media/6-import-appsource-ssm.png)](../media/6-import-appsource-ssm.png#lightbox)
+> [![Import visual from App Source](../media/6-import-appsource-ssm.png)](../media/6-import-appsource-ssm.png#lightbox)
 
 The new visual icon will appear under the other visual icons in the **Visualizations** pane.
