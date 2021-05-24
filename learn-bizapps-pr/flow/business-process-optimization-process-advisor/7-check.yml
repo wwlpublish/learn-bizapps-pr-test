@@ -27,7 +27,7 @@ quiz:
     - content: At least 10
       isCorrect: false 
       explanation: You only need two recordings, but the more recordings you have, the greater your insights will be.
-  - content: What permission does another user need to add recordings to your process?
+  - content: What process advisor role does another user need to add recordings to your process? 
     choices: 
     - content: Only contributors can add recordings.
       isCorrect: false 
