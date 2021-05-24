@@ -33,7 +33,7 @@ On the next row of visual, we see the variants in terms of frequency and time. B
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the variants time details.](../media/variants-time.png)](../media/variants-time.png#lightbox)
 
-You can select Variant 1 to filter all the information on the analytics page to better understand this deviation.
+You can select Variant 1 to filter all the information on the analytics page to better understand this path.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the filtered information on the analytics page.](../media/deviation.png)](../media/deviation.png#lightbox)
