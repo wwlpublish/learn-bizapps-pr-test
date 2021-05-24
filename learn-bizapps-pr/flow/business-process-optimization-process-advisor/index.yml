@@ -11,7 +11,7 @@ metadata:
 title: Optimize your business process with Process Advisor 
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Power Automate's Process Advisor allows you to record existing business processes and analyze them in order to increase the efficacy by tracking time to complete tasks and mapping out the various actions involved. Understanding a process is the first step to automating a solution, and Process Advisor simplifies that exercise.
+  Power Automate's process advisor allows you to record existing business processes and analyze them in order to increase the efficacy by tracking time to complete tasks and mapping out the various actions involved. Understanding a process is the first step to automating a solution, and Process Advisor simplifies that exercise.
 abstract: |  
     In this module, you will: 
     - Create your first recording.
