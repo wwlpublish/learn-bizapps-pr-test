@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.implementation-recommendations.6-directional-data 
-title: Layer directional data governance on top of DLP policies
+title: Use Flow for directional data governance
 metadata: 
-  title: Layer directional data governance on top of DLP policies 
+  title: Use Flow for directional data governance 
   description: Learn about layering directional data governance on top of DLP policies.  
-  ms.date: 3/11/2020 
-  author: KevSch 
-  ms.author: kschimke 
+  ms.date: 5/24/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 12 
