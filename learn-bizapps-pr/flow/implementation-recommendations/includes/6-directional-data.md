@@ -1,4 +1,4 @@
-For some business processes, you may have data from external connectors going into services that contain business data. DLP data policies require both connectors in the business data group so they can communicate. The problem is the connectors should only communicate one way and that business data is never sent out to the 3^rd^ party. Controlling the direction of data is called **directional data governance**.
+For some business processes, you may have data from external connectors going into services that contain business data. DLP data policies require both connectors in the business data group so they can communicate. The problem is the connectors should only communicate one way and that business data is never sent out to the 3rd party. Controlling the direction of data is called **directional data governance**.
 
 Currently, DLP policies do not have directional data governance. However, using Power Automate you can detect and disable flows that send business data externally.
 
