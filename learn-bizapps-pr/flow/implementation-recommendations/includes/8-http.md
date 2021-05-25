@@ -13,7 +13,7 @@ By using this new schema version, DLP policies can be constructed by using eithe
 
 - Power Apps and Power Automate PowerShell cmdlets
 
-However, using PowerShell is the simplest path forward. Additional information about PowerApps and Power Automate PowerShell cmdlets can be found at [PowerShell support for Power Apps](https://docs.microsoft.com/power-platform/admin/powerapps-powershell/?azure-portal=true).
+However, using PowerShell is the simplest path forward. Additional information about PowerApps and Power Automate PowerShell cmdlets can be found at [PowerShell support for Power Apps](/power-platform/admin/powerapps-powershell/?azure-portal=true).
 
 After installing the prerequisite PowerShell modules, you can run the following statement, (**New-AdminDlpPolicy -DisplayName "HTTP DLP Policy" -SchemaVersion 2018-11-01**), which will create a new DLP policy that includes support for HTTP when you include a **-SchemaVersion** parameter of **2018-11-01**. After you have run the previous statement, you'll be asked to sign in by using your admin credentials.
 
