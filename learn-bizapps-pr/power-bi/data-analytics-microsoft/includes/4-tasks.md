@@ -63,6 +63,6 @@ Apps can be a valuable distribution method for your content and allow easier man
 
 The management of your content helps to foster collaboration between teams and individuals. Sharing and discovery of your content is important for the right people to get the answers that they need. It is also important to help ensure that items are secure. You want to make sure that the right people have access and that you are not leaking data past the correct stakeholders.
 
-Proper management can also help reduce data silos within your organization. Data duplication can make managing and introducing data latency difficult when resources are overused. Power BI helps reduce data silos with the use of shared datasets, and it allows you to reuse data that you have prepared and modeled. For key business data, endorsing a dataset as certified can help to ensure trust in that data.
+Proper management can also help reduce data silos within your organization. Data duplication can make managing and reducing data latency difficult when resources are overused. Power BI helps reduce data silos with the use of shared datasets, and it allows you to reuse data that you have prepared and modeled. For key business data, endorsing a dataset as certified can help to ensure trust in that data.
 
 The management of Power BI assets helps reduce the duplication of efforts and helps ensure security of the data.
