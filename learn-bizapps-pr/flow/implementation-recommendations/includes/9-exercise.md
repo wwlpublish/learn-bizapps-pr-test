@@ -52,7 +52,7 @@ You have now published your custom connector. In the next topic, you will manage
 
 ## Manage a custom connector in a DLP policy
 
-Currently, a custom connector cannot be managed through the Power Automate Admin center's DLP experience without some administrative actions. In this section, you will use the [Microsoft Power Apps and Power Automate PowerShell cmdlets](https://docs.microsoft.com/power-platform/admin/powerapps-powershell/?azure-portal=true) for administrators.
+Currently, a custom connector cannot be managed through the Power Automate Admin center's DLP experience without some administrative actions. In this section, you will use the [Microsoft Power Apps and Power Automate PowerShell cmdlets](/power-platform/admin/powerapps-powershell/?azure-portal=true) for administrators.
 
 To add a custom connector to a DLP policy, you will need to retrieve some unique identifiers for your custom connector and DLP policy to provide them as inputs when adding your custom connector. These steps are also covered in the following section.
 
