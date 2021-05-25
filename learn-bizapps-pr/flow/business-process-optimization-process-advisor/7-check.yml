@@ -55,7 +55,7 @@ quiz:
     - content: A variant is a recording that takes much longer than the others.
       isCorrect: false 
       explanation: There are many reasons a recording could take longer, but they are not called variants.
-  - content: What connectors can Automation recommendations recommend to improve your business processes and increase efficiencies? 
+  - content: What connectors can Automation recommendations recommend for improving your business processes and increasing efficiency? 
     choices: 
     - content: Automation recommendations only include Premium connectors. 
       isCorrect: false 
