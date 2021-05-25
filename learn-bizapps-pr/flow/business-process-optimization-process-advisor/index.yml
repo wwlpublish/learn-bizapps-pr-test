@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.business-process-optimization-process-advisor 
+metadata: 
+ title: Optimize your business process with Process Advisor
+ description: Learn how to optimize your business process with Process Advisor.
+ ms.date: 05/25/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Optimize your business process with Process Advisor 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Power Automate's process advisor allows you to record existing business processes and analyze them in order to increase the efficacy by tracking time to complete tasks and mapping out the various actions involved. Understanding a process is the first step to automating a solution, and Process Advisor simplifies that exercise.
+abstract: |  
+    In this module, you will: 
+    - Create your first recording.
+    - Edit recordings and group actions.
+    - Analyze recordings and interpret results.
+prerequisites: None 
+iconUrl: /learn/achievements/business-process-optimization-process-advisor.svg  
+levels:  
+- beginner   
+roles:  
+- maker  
+- business-user  
+products:  
+- power-platform 
+- power-automate 
+units: 
+- learn-bizapps.business-process-optimization-process-advisor.1-introduction 
+- learn-bizapps.business-process-optimization-process-advisor.2-get-familiar 
+- learn-bizapps.business-process-optimization-process-advisor.3-create-recording 
+- learn-bizapps.business-process-optimization-process-advisor.4-edit-recordings-group-actions 
+- learn-bizapps.business-process-optimization-process-advisor.5-analyze-recordings-interpret-results
+- learn-bizapps.business-process-optimization-process-advisor.6-automation-recommendations
+- learn-bizapps.business-process-optimization-process-advisor.7-check 
+- learn-bizapps.business-process-optimization-process-advisor.8-summary 
+badge: 
+  uid: learn-bizapps.business-process-optimization-process-advisor.badge 

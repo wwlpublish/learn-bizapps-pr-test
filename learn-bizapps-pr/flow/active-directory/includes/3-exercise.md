@@ -39,7 +39,7 @@ Specify the group by filling in the **Distinguished Name** field and then set th
 
 ## Create a computer object
 
-Next, you will add the **Create Active Directory Object** action. Set the **Object Name** field to **JSBOT** (in uppercase). The object’s location should be the computer's container, and the **Object Type** option should be set to **Computer**.
+Next, you will add the **Create Active Directory Object** action. Set the **Object Name** field to **NVBOT** (in uppercase). The object’s location should be the computer's container, and the **Object Type** option should be set to **Computer**.
   
 ![Screenshot of Properties of 'Create Active Directory Object' action dialog with the Object Name, Location, and Object Type properties highlighted.](..\media\create-ad-object-properties-exercise.png)
 
