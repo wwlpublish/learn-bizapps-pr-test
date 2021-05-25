@@ -3,9 +3,9 @@ uid: learn-bizapps.implementation-recommendations
 metadata: 
  title: Implementation recommendations for Power Platform environments
  description: Learn how organizations should choose to implement security and governance.
- ms.date: 01/05/2021  
+ ms.date: 5/24/2021
  author: DaveBeasley
- ms.author: dbeasley  
+ ms.author: dbeasley
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform  
 title: Implementation recommendations for Power Platform environments 
@@ -36,7 +36,6 @@ units:
 - learn-bizapps.implementation-recommendations.4-implement 
 - learn-bizapps.implementation-recommendations.5-customer-experience 
 - learn-bizapps.implementation-recommendations.6-directional-data 
-- learn-bizapps.implementation-recommendations.7-connectors 
 - learn-bizapps.implementation-recommendations.8-http 
 - learn-bizapps.implementation-recommendations.9-exercise 
 - learn-bizapps.implementation-recommendations.10-check 
