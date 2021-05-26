@@ -1,8 +1,9 @@
-In this module, you learned how to connect and transform Dataverse for Teams data into Power BI. You also learned to take that data and build and edit Power BI reports with visualizations. You also learned how to share those reports with others and access them without leaving Microsoft Teams.
+In this module, you learned how to connect and transform Dataverse for Teams data into Power BI. You also learned to use that data to build and edit Power BI reports with visualizations. You also learned how to share those reports with others and access them without leaving Microsoft Teams.
 
-Empower your users with Power BI reports using Dataverse for Team data so they can visualize, interact, and share insights with others across the organization. With Power BI and Dataverse for Teams, make better decisions, accelerate business transformation, and grow the organization.
+Empower your users with Power BI reports by using Dataverse for Teams data so that they can visualize, interact, and share insights with others across the organization. With Power BI and Dataverse for Teams, you can make better decisions, accelerate business transformation, and grow the organization.
 
 ## Links related to modules for specific topics
+For more information, see the following links:
 
 - [Power BI Pro licensing](/power-bi/admin/service-admin-licensing-organization/?azure-portal=true)
 - [Power Query Editor](/power-bi/transform-model/desktop-query-overview/?azure-portal=true)
