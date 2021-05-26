@@ -15,7 +15,7 @@ To share an app, you must have the Environment Admin or System Admin role.
 ## Scenario
 > [!NOTE] 
 > This scenario builds on ideas and concepts from the previous units. To complete this exercise, you will first need to create an app as described in the previous unit of this module and create the Pet
-> table as described in unit [Create a Microsoft Dataverse table](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-table) of [Get started with Dataverse Service module](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/).
+> table as described in unit [Create a Microsoft Dataverse table](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-entity) of [Get started with Dataverse Service module](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/).
 
 This unit uses the example of a company named Contoso, which has a pet grooming business that services dogs and cats. An app that has a custom table for tracking the pet grooming business has already been created and published.
 
