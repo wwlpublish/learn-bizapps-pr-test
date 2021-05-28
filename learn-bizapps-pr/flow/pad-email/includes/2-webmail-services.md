@@ -7,7 +7,7 @@ Virtually all major webmail services support IMAP and SMTP and usually require t
 
 ## Configure IMAP and SMTP servers
 
-Before deploying any email action, you have to configure the server that will handle the respective request. The **Retrieve email message** and **Process email message**  actions require an IMAP server, while the **Send email** action requires an SMTP server.
+Before deploying any email action, you have to configure the server that will handle the respective request. The **Retrieve email messages** and **Process email messages**  actions require an IMAP server, while the **Send email** action requires an SMTP server.
 
 To configure an IMAP server, launch the respective action's properties and expand the  **IMAP server** section.
 
