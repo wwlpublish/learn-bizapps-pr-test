@@ -31,4 +31,4 @@ Use these resources to discover more.
 
 - [Build your own flow with Power Automate](https://flow.microsoft.com/)
 
-- [Power Automate Documentation](https://docs.microsoft.com/flow/)
+- [Power Automate Documentation](/flow/)
