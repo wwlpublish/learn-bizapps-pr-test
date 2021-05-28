@@ -7,13 +7,13 @@ Virtually all major webmail services support IMAP and SMTP and usually require t
 
 ## Configure IMAP and SMTP servers
 
-Before deploying any email action, you have to configure the server that will handle the respective request. The **Retrieve emails** and **Process emails**  actions require an IMAP server, while the **Send email** action requires an SMTP server.
+Before deploying any email action, you have to configure the server that will handle the respective request. The **Retrieve email message** and **Process email message**  actions require an IMAP server, while the **Send email** action requires an SMTP server.
 
 To configure an IMAP server, launch the respective action's properties and expand the  **IMAP server** section.
 
 In this section, populate the address, the server port, and your account credentials. If untrusted certificates are permitted, or the server uses TLS/SSL, select the **Accept Untrusted Certificates** or the **Enable SSL** option, respectively.
 
-![Screenshot of the IMAP server section in the Retrieve emails action.](..\media\imap-server-config.png)
+![Screenshot of the IMAP server section in the Retrieve email message action.](..\media\imap-server-config.png)
 
 To configure an SMTP server, launch the properties of the **Send email**  action and expand the **SMTP server** section.
 
@@ -21,25 +21,25 @@ In the **SMTP server** section, populate the address, the server port, and your 
 
 ![Screenshot of the SMTP server section in the Send email action.](..\media\smtp-server-config.png)
 
-## Retrieve emails
+## Retrieve email messages
 
-If you want to retrieve emails that meet specific criteria from your mailbox, you can use the **Retrieve emails** action.
+If you want to retrieve emails that meet specific criteria from your mailbox, you can use the **Retrieve email message** action.
 
 To limit the retrieved emails, you can filter them according to their parent folder, state, or keywords included in various fields. All the available filters are located in the **Email filters** section of the action's properties.
 
 In case the retrieved emails contain attachments, the action allows you to save the files locally on your desktop.
 
-![Screenshot of the Retrieve emails action.](..\media\retrieve-emails-action.png)
+![Screenshot of the Retrieve email message action.](..\media\retrieve-emails-action.png)
 
-## Process emails
+## Process email messages
 
-After retrieving messages from your mailbox, Power Automate Desktop enables you to manipulate them through the **Process emails** action.
+After retrieving messages from your mailbox, Power Automate Desktop enables you to manipulate them through the **Process email message** action.
 
 This action runs a series of essential operations in the previously retrieved emails, like deleting, marking as unread, and moving messages to other folders.
 
-To deploy the action, you have to use as input a list of emails specified in the **Retrieve emails** action.
+To deploy the action, you have to use as input a list of emails specified in the **Retrieve email message** action.
 
-![Screenshot of the Process emails action.](..\media\process-emails-action.png)
+![Screenshot of the Process email message action.](..\media\process-emails-action.png)
 
 ## Send email
 
