@@ -27,8 +27,8 @@ of across one or more environments should be classified as **Blocked**. When a
 new policy is created, all connectors are defaulted to the **Non-Business**
 group. From there they can be moved to **Business** or **Blocked** based on your
 preference. You can manage connectors when you create or modify the properties
-of a DLP policy from the [Power Platform admin
-center](https://admin.powerplatform.microsoft.com/). These affect Power Platform
+of a DLP policy from the [Microsoft Power Platform admin
+center](https://admin.powerplatform.microsoft.com/). These affect Microsoft Power Platform
 canvas apps and Power Automate flows. To create a DLP policy, you need to be
 a tenant admin or have the Environment Admin role.
 
@@ -62,11 +62,11 @@ Currently, TLS 1.2 (or higher) is required for accessing the server endpoints.
 The European Union General Data Protection Regulation (GDPR) is one of the
 newest privacy regulations enacted that gives rights to people to manage their
 personal data. A complete discussion of GDPR is beyond the scope of this
-content, however Power Platform does fully support the GDPR. For more GDPR
+content, however Microsoft Power Platform does fully support the GDPR. For more GDPR
 resources and information, visit the Trust Center
 at <https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx>.
 
-## Accessibility in Power Platform
+## Accessibility in Microsoft Power Platform
 
 One of the things that Microsoft values the most is making sure that Power
 Platform is accessible and inclusive to all kinds of users all over the world.
