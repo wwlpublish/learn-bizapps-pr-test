@@ -1,5 +1,5 @@
-Power Platform is made powerful by its ability to leverage data across many
-platforms. To do this, components of the Power Platform use connectors. You can
+Microsoft Power Platform is made powerful by its ability to leverage data across many
+platforms. To do this, components of Microsoft Power Platform use connectors. You can
 think of connectors as a bridge from your data source to your app or workflow
 which allows information to be conveyed back and forth. Connectors allow you to
 extend your business solutions across platforms and add functionality for your
@@ -35,7 +35,7 @@ Now that you understand more about data sources, you are ready to learn about
 connectors.
 
 **Connectors** are the bridges from your data source to your app, workflow, or
-dashboard. Power Platform has more than 275 connectors available to common
+dashboard. Microsoft Power Platform has more than 275 connectors available to common
 data sources. Connectors are divided into standard and premium. Some popular
 standard connectors are SharePoint, Outlook, and YouTube. Premium connectors
 require additional licensing for your app and/or users. A few premium connectors
@@ -45,7 +45,7 @@ standard or premium. You can also use AppSource to source and install apps and
 use the connectors to non-Microsoft services.
 
 Connectors can provide input and output between the data source and Power
-Platform, which can accelerate the delivery of Power Platform business
+Platform, which can accelerate the delivery of Microsoft Power Platform business
 solutions. For instance, using Dynamics 365 apps such as Customer Service, you
 can set up Power Automate to notify users when specific customer types are
 added. Or you can use a SharePoint document library to store files that are fed
@@ -53,7 +53,7 @@ into Power Apps to manage and distribute. Microsoft also provides connectors to
 their Azure services, providing advanced AI techniques to do tasks such as
 reading text off images or cognitive services like recognizing faces in images.
 
-All Power Platform business solutions can be used and implemented into Microsoft
+All Microsoft Power Platform business solutions can be used and implemented into Microsoft
 365 apps such as Teams. This allows users to play Power Apps within Teams or run
 Power Automate from actions and events within Teams.
 
@@ -78,7 +78,7 @@ what to do when there isn't a connector already built for your data source.
 
 ## Custom Connectors
 
-While Power Platform offers more than 200 connectors, you also have the
+While Microsoft Power Platform offers more than 200 connectors, you also have the
 option to build a custom connector. This will allow you to extend your app by
 calling a publicly available API, or a custom API you are hosting in a cloud
 provider, such as Azure. API stands for Application Programming Interface and

@@ -4,15 +4,15 @@ that are available for users of each Dataverse database instance.
 Several administrative portals are available for you to use to
 administer Microsoft Dataverse settings. 
 
-The Power Platform admin center is discussed in this unit because it will satisfy most of 
+The Microsoft Power Platform admin center is discussed in this unit because it will satisfy most of 
 your administrative needs. However, a few other administrative options are available, 
 which are covered in the Manage permissions and administration for Microsoft Dataverse 
 learning path. 
 
-### Power Platform admin center
+### Microsoft Power Platform admin center
 
 Most of the administration settings that you will need are available in the
-Power Platform admin center. You should always check for administration
+Microsoft Power Platform admin center. You should always check for administration
 settings as your first step when looking to administer Microsoft Dataverse.
 
 Settings are grouped into the following broad categories and are accessible
@@ -40,13 +40,13 @@ and opening each section on the left-hand side of the portal:
 2.  Select **Admin center** under the gear, as shown.
 
     > [!TIP]
-    > You can go directly to the Power Platform admin center at <https://admin.powerplatform.microsoft.com> and then sign in.
+    > You can go directly to the Microsoft Power Platform admin center at <https://admin.powerplatform.microsoft.com> and then sign in.
 
     ![Gear menu admin center selection](../media/admin-center.png)   
 
-3.  Use the left navigation pane to explore options for administering in the Power Platform admin center. 
+3.  Use the left navigation pane to explore options for administering in the Microsoft Power Platform admin center. 
 
-    ![Admin menu options in Power Platform](../media/admin-menu-options.png)
+    ![Admin menu options in Microsoft Power Platform](../media/admin-menu-options.png)
 
-The Power Platform admin center lets you manage the tasks of setting up users, permissions, and many other important features and
+The Microsoft Power Platform admin center lets you manage the tasks of setting up users, permissions, and many other important features and
 capabilities of Microsoft Dataverse. 
