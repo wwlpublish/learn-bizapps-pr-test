@@ -45,23 +45,23 @@ Use these resources to discover more.
 
 - [Power Automate](https://flow.microsoft.com/)
 
-- [Power Automate Documentation](https://docs.microsoft.com/flow/)
+- [Power Automate Documentation](/flow/)
 
 ### More on Connectors
 
-- [Connector Reference](https://docs.microsoft.com/connectors/)
+- [Connector Reference](/connectors/)
 
-- [Overview of canvas-app connectors for Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/connections-list)
+- [Overview of canvas-app connectors for Power Apps](/powerapps/maker/canvas-apps/connections-list)
 
 ### Getting started with Custom Connectors
 
-- [Using a blank custom connector](https://docs.microsoft.com/connectors/custom-connectors/define-blank)
+- [Using a blank custom connector](/connectors/custom-connectors/define-blank)
 
-- [From an OpenAPI definition](https://docs.microsoft.com/connectors/custom-connectors/define-openapi-definition)
+- [From an OpenAPI definition](/connectors/custom-connectors/define-openapi-definition)
 
-- [From a Postman collection](https://docs.microsoft.com/connectors/custom-connectors/define-postman-collection)
+- [From a Postman collection](/connectors/custom-connectors/define-postman-collection)
 
-- [Use custom connectors in a PowerApps canvas app](https://docs.microsoft.com/learn/modules/use-custom-connectors-in-powerapps-canvas-app/)
+- [Use custom connectors in a PowerApps canvas app](/learn/modules/use-custom-connectors-in-powerapps-canvas-app/)
 
 ### Get started with Power Virtual Agents
 - [Power Virtual Agents](https://powervirtualagents.microsoft.com/)
