@@ -13,7 +13,7 @@ To configure an IMAP server, launch the respective action's properties and expan
 
 In this section, populate the address, the server port, and your account credentials. If untrusted certificates are permitted, or the server uses TLS/SSL, select the **Accept Untrusted Certificates** or the **Enable SSL** option, respectively.
 
-![Screenshot of the IMAP server section in the Retrieve email message action.](..\media\imap-server-config.png)
+![Screenshot of the IMAP server section in the Retrieve email messages action.](..\media\imap-server-config.png)
 
 To configure an SMTP server, launch the properties of the **Send email**  action and expand the **SMTP server** section.
 
@@ -23,23 +23,23 @@ In the **SMTP server** section, populate the address, the server port, and your 
 
 ## Retrieve email messages
 
-If you want to retrieve emails that meet specific criteria from your mailbox, you can use the **Retrieve email message** action.
+If you want to retrieve emails that meet specific criteria from your mailbox, you can use the **Retrieve email messages** action.
 
 To limit the retrieved emails, you can filter them according to their parent folder, state, or keywords included in various fields. All the available filters are located in the **Email filters** section of the action's properties.
 
 In case the retrieved emails contain attachments, the action allows you to save the files locally on your desktop.
 
-![Screenshot of the Retrieve email message action.](..\media\retrieve-emails-action.png)
+![Screenshot of the Retrieve email messages action.](..\media\retrieve-emails-action.png)
 
 ## Process email messages
 
-After retrieving messages from your mailbox, Power Automate Desktop enables you to manipulate them through the **Process email message** action.
+After retrieving messages from your mailbox, Power Automate Desktop enables you to manipulate them through the **Process email messages** action.
 
 This action runs a series of essential operations in the previously retrieved emails, like deleting, marking as unread, and moving messages to other folders.
 
-To deploy the action, you have to use as input a list of emails specified in the **Retrieve email message** action.
+To deploy the action, you have to use as input a list of emails specified in the **Retrieve email messages** action.
 
-![Screenshot of the Process email message action.](..\media\process-emails-action.png)
+![Screenshot of the Process email messages action.](..\media\process-emails-action.png)
 
 ## Send email
 
