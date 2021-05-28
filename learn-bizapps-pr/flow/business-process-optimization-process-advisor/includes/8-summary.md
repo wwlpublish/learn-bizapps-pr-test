@@ -1,5 +1,5 @@
-Understanding the different ways your users are completing a process can be nearly as difficult as mapping out that process and determining areas that would benefit from automation. Now you know how to do this easily with Process Advisor.
+Understanding the different ways that your users are completing a process can be nearly as difficult as mapping that process and determining areas that would benefit from automation. Process advisor can help you with this task.
 
-With little setup and inconvenience to your users, process advisor will map your process and give you insights on actions that are taking long or have numerous variations. You can use these insights to understand where automations would be beneficial to save your user's time and effort, getting back to the tasks that only humans can do.
+With little setup, process advisor will map your process and give you insights on actions that are taking too long or have numerous variations. You can use these insights to understand where automation would be beneficial, saving your users' time and effort and allowing them to get back to the tasks that they need to focus on.
 
-Consider the processes you have which would be much easier with a little automation and map out your process to begin automation to increase efficiency. Taking advantage of technology and making your life easier has become simple with Process Advisor.
+Consider your processes that would be simpler with a little automation, and then map your process to begin automation. By taking advantage of the process advisor capability in Power Automate, you can simplify your business processes and increase efficiency.
