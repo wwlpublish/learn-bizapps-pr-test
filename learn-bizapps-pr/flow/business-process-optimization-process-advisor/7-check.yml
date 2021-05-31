@@ -31,41 +31,41 @@ quiz:
     choices: 
     - content: Only contributors can add recordings.
       isCorrect: false 
-      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings while co-owners can edit or delete any recordings in the process.
+      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings, while co-owners can edit or delete any recordings in the process.
     - content: Only co-owners can add recordings.
       isCorrect: false 
-      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings while co-owners can edit or delete any recordings in the process.
+      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings, while co-owners can edit or delete any recordings in the process.
     - content: Contributors or co-owners can add recordings.
       isCorrect: true 
-      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings while co-owners can edit or delete any recordings in the process.
-    - content: No one can add recordings to your process regardless of their permissions.
+      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings, while co-owners can edit or delete any recordings in the process.
+    - content: No one can add recordings to your process, regardless of their permissions.
       isCorrect: false 
-      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings while co-owners can edit or delete any recordings in the process.
+      explanation: Contributors or co-owners can add recordings, but contributors can only edit or delete their own recordings, while co-owners can edit or delete any recordings in the process.
   - content: What is a variant?
     choices: 
-    - content: A variant is grouping of actions.
+    - content: A grouping of actions
       isCorrect: false 
       explanation: An activity is grouping of actions.
-    - content: A variant is a recording that fails to be analyzed and must be rerecorded. 
+    - content: A recording that fails to be analyzed and must be rerecorded 
       isCorrect: false 
       explanation: A recording will have a status of Failed if an error occurs and it needs to be rerecorded. 
-    - content: A variant is a specific path (same steps in the same sequence) users take to complete a process. 
+    - content: A specific path (same steps in the same sequence) that users take to complete a process 
       isCorrect: true 
-      explanation: A variant is a deviation in the process where users take different paths. This is called out in the process map. 
-    - content: A variant is a recording that takes much longer than the others.
+      explanation: A variant is a deviation in the process where users take different paths, which is called out in the process map. 
+    - content: A recording that takes much longer than the others
       isCorrect: false 
-      explanation: There are many reasons a recording could take longer, but they are not called variants.
-  - content: What connectors can Automation recommendations recommend for improving your business processes and increasing efficiency? 
+      explanation: Many reasons exist for why a recording might take longer, but they are not called variants.
+  - content: What connectors can automation recommendations suggest for improving your business processes and increasing efficiency? 
     choices: 
     - content: Automation recommendations only include Premium connectors. 
       isCorrect: false 
-      explanation: Recommendations include all connectors relevant to your process, including Power Automate Desktop to automate legacy applications.
+      explanation: Recommendations include all connectors that are relevant to your process, including Power Automate Desktop to automate legacy applications.
     - content: Automation recommendations only include Office 365 connectors. 
       isCorrect: false 
-      explanation: Recommendations include all connectors relevant to your process, including Power Automate Desktop to automate legacy applications.
-    - content: All connectors can be recommended except AI Builder and Power Automate Desktop.
+      explanation: Recommendations include all connectors that are relevant to your process, including Power Automate Desktop to automate legacy applications.
+    - content: All connectors can be recommended, except AI Builder and Power Automate Desktop.
       isCorrect: false 
-      explanation: Recommendations include all connectors relevant to your process, including Power Automate Desktop to automate legacy applications.
-    - content: All connectors relevant to your process, including Power Automate Desktop to automate legacy applications
+      explanation: Recommendations include all connectors that are relevant to your process, including Power Automate Desktop to automate legacy applications.
+    - content: All connectors that are relevant to your process will be suggested, including Power Automate Desktop to automate legacy applications.
       isCorrect: true 
-      explanation: Recommendations include all connectors relevant to your process, including Power Automate Desktop to automate legacy applications.
+      explanation: Recommendations include all connectors that are relevant to your process, including Power Automate Desktop to automate legacy applications.
