@@ -19,7 +19,7 @@ abstract: |
     - Become familiar with various variable data types and their properties.
     - Configure input and output variables.
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps).
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-variables.svg  
 levels:  
 - beginner   

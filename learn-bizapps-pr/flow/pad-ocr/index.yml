@@ -17,7 +17,7 @@ abstract: |
     - Learn how to configure OCR actions.
     - Create a flow that extracts text from images using OCR technologies.
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps), [flow development](../pad-power-automate-desktop-development-essentials) and [variables](../pad-variables).
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), [flow development](../pad-power-automate-desktop-development-essentials/index.yml) and [variables](../pad-variables/index.yml).
 iconUrl: /learn/achievements/pad-ocr.svg  
 levels:  
 - intermediate  
