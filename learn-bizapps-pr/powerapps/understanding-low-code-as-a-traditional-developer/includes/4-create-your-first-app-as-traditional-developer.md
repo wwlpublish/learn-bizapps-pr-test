@@ -26,7 +26,7 @@ To connect to a data source, use the following procedure:
 1. Under **Connections**, select **OneDrive for Business** and browse to the file location.
     You might need to select **New Connection** to see the **OneDrive for Business** connection. 
 1. Under **Choose an Excel file**, select the **FlooringInventory.xlsx** file.
-1. Under **Choose a table**, select the **FlooringInventory** table. 
+1. Under **Choose a table**, select the **FlooringEstimates** table. 
 1. Select **Connect** on the bottom right.
 
 Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point.
