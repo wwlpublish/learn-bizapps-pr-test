@@ -19,7 +19,7 @@ abstract: |
     - Explore additional options when evaluating conditions
     - Provide default and alternative behaviors for flows based on the environment data
 prerequisites: |
-    - Basic familiarity with the Process Designer
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps).
 iconUrl: /learn/achievements/pad-conditionals.svg  
 levels:  
 - beginner   
