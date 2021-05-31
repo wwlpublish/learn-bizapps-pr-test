@@ -18,7 +18,7 @@ abstract: |
     - Learn how to extract data from web pages.
     - Create a flow that extracts gainer stocks from the MSN website.
 prerequisites: |
-    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps), [UI elements])(../pad-power-automate-desktop-development-essentials) and [variables](../pad-variables).
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps), [UI elements](../pad-power-automate-desktop-development-essentials) and [variables](../pad-variables).
 iconUrl: /learn/achievements/pad-web.svg  
 levels:  
 - beginner   

@@ -17,8 +17,7 @@ abstract: |
     - Become familiar with the email, Outlook, and Exchange actions.
     - Create a flow that retrieves, processes, and sends emails.
 prerequisites: |
-    - Basic familiarity with the Power Automate Desktop console and flow designer.
-    - Basic familiarity with flow development and variables.
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps), [flow development](../pad-power-automate-desktop-development-essentials) and [variables](../pad-variables).
 iconUrl: /learn/achievements/pad-email.svg  
 levels:  
 - beginner   
