@@ -19,8 +19,7 @@ abstract: |
     - Iterate through the items of a list using for each loops
     - Explicitly end loops when required
 prerequisites: |
-    - Basic familiarity with the Power Automate Desktop Process Designer
-    - Basic familiarity with Lists, Tables, and the square brackets notation
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps) and [how to handle list and table variables](../pad-variables/).
 iconUrl: /learn/achievements/pad-loops.svg  
 levels:  
 - beginner   
