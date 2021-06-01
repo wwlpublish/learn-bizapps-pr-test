@@ -94,7 +94,7 @@ Three connectors for Microsoft Dataverse are:
 
 A solution architect should consider the effort that it will take to build an automation and then decide whether it is justified. This decision involves weighing business value against the cost of automating the process. Business value is the ongoing benefit that the business receives from the project.
 
-To assess whether it's worth automating the process, you need to understand the cost of not solving the problem. As a part of defining the business value that you hope to achieve from the Power Platform solution, you should get a better understanding of what it's costing the organization to solve the problem in the current manner. In other words, measure the cost of doing nothing.
+To assess whether it's worth automating the process, you need to understand the cost of not solving the problem. As a part of defining the business value that you hope to achieve from Microsoft Power Platform solution, you should get a better understanding of what it's costing the organization to solve the problem in the current manner. In other words, measure the cost of doing nothing.
 
 If the business value that you will receive by automating the process doesn't compare favorably to the cost of doing nothing, ask yourself whether this business problem is the right one to focus on.
 

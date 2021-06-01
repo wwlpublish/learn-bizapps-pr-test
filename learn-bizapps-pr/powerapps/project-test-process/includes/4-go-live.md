@@ -1,6 +1,6 @@
-The solution architect has a unique role in customer implementations of Power Platform solutions. Solution architects are among the key people who are responsible for the success of the deployment.
+The solution architect has a unique role in customer implementations of Microsoft Power Platform solutions. Solution architects are among the key people who are responsible for the success of the deployment.
 
-Go-live is the process through which the Power Platform solution becomes operational. This process goes beyond turning on the production environment and the deployment of the solution files; it also includes the onboarding of users. If you are migrating from a legacy customer relationship management system, the process can include the final production data migration, decommissioning of the old system, and post-deployment support of the new system.
+Go-live is the process through which Microsoft Power Platform solution becomes operational. This process goes beyond turning on the production environment and the deployment of the solution files; it also includes the onboarding of users. If you are migrating from a legacy customer relationship management system, the process can include the final production data migration, decommissioning of the old system, and post-deployment support of the new system.
 
 To prepare for a successful project go-live, the solution architect should plan and deliver a Go-live Readiness review. The review can be a meeting or a workshop, but the solution architect should prepare a go-live document for review. The review's goal is to evaluate how prepared the customer is for go-live. The Go-live Readiness review should be scheduled and completed before the customer's go-live date, ideally with enough time to make necessary corrections that the review has revealed.
 
@@ -42,6 +42,6 @@ All automation must be well tested.
 
 ## Deal with problems
 
-The solution architect is often the first call when issues arise with go-live and in the post go-live period. The solution architect will need to proactively triage, isolate, and simplify issues. Often, Power Platform tools can prove beneficial to you when fixing problems by using its built-in features.
+The solution architect is often the first call when issues arise with go-live and in the post go-live period. The solution architect will need to proactively triage, isolate, and simplify issues. Often, Microsoft Power Platform tools can prove beneficial to you when fixing problems by using its built-in features.
 
 Before you make changes, consider the immediate impact and long-term impact of mitigation activities that you apply.

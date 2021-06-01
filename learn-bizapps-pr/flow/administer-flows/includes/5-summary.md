@@ -13,7 +13,7 @@ Now you've learned how to take care of them when things aren't quite right. You 
 
 ## Continue your journey
 
-Want to learn more about the Power Platform and how to solve problems? Check out these resources:
+Want to learn more about Microsoft Power Platform and how to solve problems? Check out these resources:
 
 - [Power Apps](https://docs.microsoft.com/learn/paths/create-powerapps/) learning path. You'll learn how to build apps that use flows to track or update business processes on any device.
 

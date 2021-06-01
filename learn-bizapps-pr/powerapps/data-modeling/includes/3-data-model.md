@@ -1,4 +1,4 @@
-Data modeling on Power Platform examines the whole data architecture picture and includes a logical glimpse of data from Dataverse, data lakes, and external sources by using connectors.
+Data modeling on Microsoft Power Platform examines the whole data architecture picture and includes a logical glimpse of data from Dataverse, data lakes, and external sources by using connectors.
 
 Multiple types and standards for data modeling are available, including Unified Modeling Language (UML), IDEF1X, and others. Specific data model standards are beyond the scope of this unit, but data models for Dataverse data structures generally fall into two general categories:
 

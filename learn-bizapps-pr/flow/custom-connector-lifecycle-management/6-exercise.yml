@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.custom-connector-lifecycle-management.6-exercise 
-title: Exercise - Use GitHub Actions for Power Platform
+title: Exercise - Use GitHub Actions for Microsoft Power Platform
 metadata: 
-  title: Exercise - Use GitHub Actions for Power Platform 
-  description: Practice using GitHub Actions for Power Platform.  
+  title: Exercise - Use GitHub Actions for Microsoft Power Platform 
+  description: Practice using GitHub Actions for Microsoft Power Platform.  
   ms.date: 04/20/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

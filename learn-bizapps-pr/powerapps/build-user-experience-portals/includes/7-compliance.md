@@ -19,7 +19,7 @@ You can configure your portal to meet data protection standards. Two important p
 
 ### Minor portal users
 
-Regulations for identifying minors vary by country and/or region. Because a minor can only access the portal with parental consent, you can configure the portal to identify minors by using these columns in the portal contact record:
+Regulations for identifying minors vary by country and/or region. Because a minor can only access the portal with parental consent, you can configure the portal to identify minors by using these columns in the portal contact row:
 
 - **Is Minor** - Indicates that the contact is considered a minor in their jurisdiction. By default, **No** is selected.
 - **Is Minor with Parental Consent** - Indicates that the contact is considered a minor in their jurisdiction and has parental consent. By default, **No** is selected.
@@ -28,9 +28,9 @@ By using additional site settings, you can configure the portal to deny access t
 
 It's up to the organization to define how the information about a user being a minor and/or having parental consent is collected. For example, a registration form can be customized to include a **Birth Date** column and, if required, a parental consent flag. You might want to further enhance the functionality by implementing workflow rules that would calculate user age at the sign-in time and then set or clear the **Is Minor** flag.
 
-Special considerations must be given when using external providers such as Azure Active Directory B2C. Only limited information is available from the providers, and providers might or might not have a mechanism for minor protection. Therefore, when someone registers by using an external provider, and the portal is configured to block minors or minors without parental consent, the contact record is not created and the user is not authenticated.
+Special considerations must be given when using external providers such as Azure Active Directory B2C. Only limited information is available from the providers, and providers might or might not have a mechanism for minor protection. Therefore, when someone registers by using an external provider, and the portal is configured to block minors or minors without parental consent, the contact row is not created and the user is not authenticated.
 
-For more information, see [Identifying minor portal users and obtaining parental consent](https://docs.microsoft.com/powerapps/maker/portals/configure/implement-gdpr#identifying-minor-portal-users-and-obtaining-parental-consent/?azure-portal=true).
+For more information, see [Identifying minor portal users and obtaining parental consent](/powerapps/maker/portals/configure/implement-gdpr#identifying-minor-portal-users-and-obtaining-parental-consent/?azure-portal=true).
 
 ### Terms and conditions
 
@@ -42,4 +42,4 @@ Power Apps portals use content snippets to store terms and conditions and to sup
 
 The contact table includes the **Portal Terms Agreement Date**, which indicates the date and time that the person agreed to the portal terms and conditions.
 
-For more information, see [Agreeing to terms and conditions](https://docs.microsoft.com/powerapps/maker/portals/configure/implement-gdpr#agreeing-to-terms-and-conditions/?azure-portal=true).
+For more information, see [Agreeing to terms and conditions](/powerapps/maker/portals/configure/implement-gdpr#agreeing-to-terms-and-conditions/?azure-portal=true).

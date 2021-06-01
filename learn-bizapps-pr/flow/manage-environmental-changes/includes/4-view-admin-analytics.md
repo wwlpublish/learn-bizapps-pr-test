@@ -2,11 +2,11 @@ Previously, you learned about the steps that you can take to support
 communicating with users when you are ready to make governance changes.
 However, it is important to understand the impacts of an upcoming
 change before sending out communications.
-The Power Platform Admin Analytics feature can help administrators
+Microsoft Power Platform Admin Analytics feature can help administrators
 understand how Power Automate is being used in your organization to help
 you avoid undesirable impacts.
 
-Six Power Automate reports are available in the Power Platform Admin center:
+Six Power Automate reports are available in Microsoft Power Platform Admin center:
 
 - Runs
 
@@ -22,7 +22,7 @@ Six Power Automate reports are available in the Power Platform Admin center:
 
 Administrators can use these reports to gain insight about how people are using Power Automate.
 
-To access the Admin Analytics feature, go to the [Power Platform
+To access the Admin Analytics feature, go to the [Microsoft Power Platform
 Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true) by using an
 account that has environment or tenant admin privileges. After you have
 signed in, expand the **Analytics** drop-down menu from the left navigation
@@ -40,7 +40,7 @@ To change the environment, an administrator can select the filter icon in
 the upper-right corner of the **Admin center** page, where they can select their desired
 **Environment** and the **Time period** that they want to see analytics for.
 
-The Power Platform Admin center will store analytics for up to 28 days,
+Microsoft Power Platform Admin center will store analytics for up to 28 days,
 but administrators can filter based on the last 14 and 7 days. In
 addition, the analytics are not aggregated in real time. Administrators
 can expect up to a three-hour delay before the latest analytics are published.

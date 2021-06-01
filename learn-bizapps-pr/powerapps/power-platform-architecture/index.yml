@@ -11,7 +11,7 @@ metadata:
 title: "Solution Architect series: Power Platform architecture"
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Solution architects are responsible for overall design of the solution. Understanding the architecture of the Microsoft Power Platform control is imperative when designing solutions based on Power Platform. This module describes the components and capabilities of Power Platform and how they control the design of your solutions.
+  Solution architects are responsible for overall design of the solution. Understanding the architecture of Microsoft Power Platform control is imperative when designing solutions based on Power Platform. This module describes the components and capabilities of Power Platform and how they control the design of your solutions.
 abstract: |  
     In this module, you will: 
     - Review the key Power Platform architecture components.

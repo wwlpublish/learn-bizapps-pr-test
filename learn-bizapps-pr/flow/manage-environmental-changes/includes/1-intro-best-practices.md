@@ -5,7 +5,7 @@ how administrators can prepare for making governance changes through
 proactive change management.
 
 Change management is important because it reduces the friction that might occur
-when changes are made to Power Platform environments that app makers are
+when changes are made to Microsoft Power Platform environments that app makers are
 not prepared for. Inevitably, if app makers are not prepared for these changes,
 people's expectations won't be met.
 
@@ -17,7 +17,7 @@ confidence about any change that they are about to make.
 
 Another consideration is that change management is not about limiting
 what people can do. With change management, you have the ability
-to identify when people are doing exceptional work with Power Platform.
+to identify when people are doing exceptional work with Microsoft Power Platform.
 If you can identify these champions, then it might be a good idea to determine
 how they can be further empowered to help the organization achieve greater
 business results.

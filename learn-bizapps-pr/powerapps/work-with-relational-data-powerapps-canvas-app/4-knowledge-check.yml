@@ -53,6 +53,6 @@ quiz:
     - content: Create the relationship for the table in the Data section of Power Apps Studio.
       isCorrect: true
       explanation: You should create the relationship for the table in Power Apps Studio. 
-    - content: Create the relationship at the tenant level for the Power Platform.
+    - content: Create the relationship at the tenant level for Microsoft Power Platform.
       isCorrect: false 
       explanation: You should create the relationship for the table in Power Apps Studio. 

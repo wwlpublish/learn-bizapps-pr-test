@@ -22,7 +22,7 @@ The **Errors** analytics provide comprehensive details of all errors that your f
 
 Built-in dashboards are available in Power Automate for environment admins and flow makers.
 
-Environment admins can access analytics for Power Automate in the Microsoft Power Platform admin center. The reports provide insights into runs, usage, errors, types of flows created, shared flows, and details on connectors that are associated with the different flow types, such as automated flows, button flows, scheduled flows, approval flows, and business process flows. These reports are not available for the **UI flows** type.
+Environment admins can access analytics for Power Automate in Microsoft Power Platform admin center. The reports provide insights into runs, usage, errors, types of flows created, shared flows, and details on connectors that are associated with the different flow types, such as automated flows, button flows, scheduled flows, approval flows, and business process flows. These reports are not available for the **UI flows** type.
 
 To access these reports:
 
@@ -37,7 +37,7 @@ To access these reports:
 1. To select the correct environment, select **Change filters**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power Platform admin center on the Analytics Power Automate page Errors tab with the Change filters option highlighted.](../media/filters.png)](../media/filters.png#lightbox)
+> [![Screenshot of Microsoft Power Platform admin center on the Analytics Power Automate page Errors tab with the Change filters option highlighted.](../media/filters.png)](../media/filters.png#lightbox)
 
 The out-of-the-box analytics features that are available include:
 

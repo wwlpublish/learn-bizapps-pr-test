@@ -1,4 +1,4 @@
-In this module, you learned about the solution architect's role in data modeling with Power Platform, including:
+In this module, you learned about the solution architect's role in data modeling with Microsoft Power Platform, including:
 
 - Data modeling influencers
 - Data model strategies

@@ -1,4 +1,4 @@
-The  Introduction to Power Platform security and governance module
+The  Introduction to Microsoft Power Platform security and governance module
 introduced Data Loss Prevention (DLP) policies, which restrict the
 connectors that can be used together within the same flow or
 app. The module also introduced the scope that a DLP policy will apply to. For
@@ -85,7 +85,7 @@ data group. All of the connectors are placed in the **Non-business** data group 
 You will now construct a flow that includes an **Office 365 Outlook**
 trigger and a **SharePoint** action.
 
-![Screenshot of the Power Automate example flow.](../media/13-flow.png)
+![Screenshot of the Power Automate example flow with SharePoint.](../media/13-flow.png)
 
 When you save this flow, you will encounter the following error indicating
 that you have violated a DLP policy and, as a result, your flow has been

@@ -1,10 +1,10 @@
 You have learned about the strategies that are used to establish governance
 and change management processes. Additionally, you discovered that the governance
 tools that Microsoft provides can be used for change management purposes.
-When makers use Power Platform tools to improve their productivity,
+When makers use Microsoft Power Platform tools to improve their productivity,
 administrators should try to encourage those users to help scale the organization.
 
-The Admin Analytics feature, found in the Power Platform Admin center, is a
+The Admin Analytics feature, found in Microsoft Power Platform Admin center, is a
 valuable tool for administrators to get insights into their users. This feature
 doesn’t require any intervention by an administrator. It's refreshed automatically
 and keeps data for 28 days.

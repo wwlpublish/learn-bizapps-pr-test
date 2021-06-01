@@ -35,7 +35,7 @@ Admins with the following roles and a license can view the reports in Power Auto
 
 - **Environment admin** - Can view reports for the environments that the admin has access to.
 
-- **Power Platform admin** - Can view reports for all environments.
+- **Microsoft Power Platform admin** - Can view reports for all environments.
 
 - **Dynamics 365 admin** - Can view reports for all environments.
 
@@ -44,7 +44,7 @@ Admins with the following roles and a license can view the reports in Power Auto
 The reports provide insights into runs, usage, errors, types of flows that are created, shared flows, and details on connectors that are associated with different flow types such as automated flows, button flows, scheduled flows, approval flows, and business process flows. Each report is a Power BI report, and the data that is presented ranges from the last 7, 14, and 28 days.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power Platform admin center on the Power Automate page with Change filters selected to open the Filters dialog box.](../media/image-19.png)](../media/image-19.png#lightbox)
+> [![Screenshot of Microsoft Power Platform admin center on the Power Automate page with Change filters selected to open the Filters dialog box.](../media/image-19.png)](../media/image-19.png#lightbox)
 
 By default, the **Runs** report appears first. It provides a view into the daily, weekly, and monthly run data of all flows in an environment.
 

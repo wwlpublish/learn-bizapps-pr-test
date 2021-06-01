@@ -1,6 +1,6 @@
 The purpose of this hands-on lab is to introduce the process of extending table forms with additional actions.
 
-Exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install sample data to assist with exercises. Power Platform does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install sample data into your environment.
+Exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install sample data to assist with exercises. Microsoft Power Platform does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install sample data into your environment.
 
 ## Learning objectives
 
@@ -19,7 +19,7 @@ The prerequisites for performing tasks in this exercise are:
 
 - System Administrator access to a Microsoft Dataverse instance with the Dynamics 365 Customer Service app installed.
 
-- A provisioned Customer self-service, Community, or Partner portal template. If you do not have a Power Apps portal available, follow the [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
+- A provisioned Customer self-service, Community, or Partner portal template. If you do not have a Power Apps portal available, follow the [Create Portal](/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
 
 ## Scenario
 
@@ -56,9 +56,9 @@ Before you enable additional actions for the table form, you need to create a wo
    - **Table** - Case
 1. Select **OK**.
 1. Select **As an on-demand process**.
-1. Clear **Record is created**.
+1. Clear **row is created**.
 1. Select **Add Step > Change Status**.
-1. Change the record status to **On Hold**.
+1. Change the row status to **On Hold**.
 1. Select **Activate**.
 1. Select **Close**.
 
@@ -69,7 +69,7 @@ After the workflow has been created, you can add a workflow action button to the
 1. Go to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
 1. Make sure that the correct environment is selected in the environment selector in the upper-right corner.
 1. From the **Apps** list, locate and open the Portal Management app (Type = Model-driven).
-1. Select **Table Forms**.
+1. Select **table Forms**.
 1. Select **Customer Service - Edit Case**.
 1. Select the **Additional Settings** tab.
 1. Press **+ Workflow**.
@@ -95,11 +95,11 @@ To test that your new workflow action button works, follow these steps:
    1. Select **Login Enabled**.
    1. Select **Save**.
    1. Select **Change Password** and enter the new password of your choice.
-   1. Add the **Authenticated Users** web role to the contact record.
+   1. Add the **Authenticated Users** web role to the contact row.
    1. Sign out as a system administrator.
    1. Sign in as the new user.
 1. Select **Support** on the top menu bar.
-1. Select an existing case. If no existing cases exist, create and save a new case record.
+1. Select an existing case. If no existing cases exist, create and save a new case row.
   
    The case should be **Active - In Progress**.
 
