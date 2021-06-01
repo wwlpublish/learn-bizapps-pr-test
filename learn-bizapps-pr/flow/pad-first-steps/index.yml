@@ -18,7 +18,7 @@ abstract: |
     - Learn how to use the core features of the Power Automate Desktop platform. 
     - Create and run a flow.
 prerequisites: |
-    - Power Automate Desktop should be installed 
+    [Power Automate Desktop](https://flow.microsoft.com/desktop/) should be installed. 
 iconUrl: /learn/achievements/pad-first-steps.svg  
 levels:  
 - beginner   

@@ -17,7 +17,7 @@ abstract: |
     - Learn how the process flow works.
     - Learn how to use the flow control group of actions to direct and manipulate the flow.
 prerequisites: |
-    - Basic familiarity with Power Automate Desktop
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-flow-control.svg  
 levels:  
 - beginner   

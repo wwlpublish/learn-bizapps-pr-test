@@ -17,11 +17,11 @@ abstract: |
     - Connect to an Active Directory server.
     - Manage users, groups, and objects with Active Directory actions.    
 prerequisites: |
+    - Basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml)
+    - Familiarity with Active Directory
     - Windows Server 2016 or later
     - Administrator rights
     - Access to Active Directory users and computers
-    - Basic familiarity with process development
-    - Familiarity with Active Directory
     - Access to the command prompt
 iconUrl: /learn/achievements/pad-active-directory.svg  
 levels:  

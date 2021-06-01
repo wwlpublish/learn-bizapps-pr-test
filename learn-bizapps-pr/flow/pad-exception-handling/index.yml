@@ -16,7 +16,7 @@ abstract: |
     In this module, you will: 
     - Configure the exception handling properties of individual actions.
 prerequisites: |
-    - Basic familiarity with the Power Automate Desktop Console and Process Designer.
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-exception-handling.svg  
 levels:  
 - intermediate   

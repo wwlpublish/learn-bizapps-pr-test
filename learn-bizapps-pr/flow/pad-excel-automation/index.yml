@@ -19,8 +19,7 @@ abstract: |
     - Create and edit worksheets.
     - Save and close Excel files.
 prerequisites: |
-    - Basic familiarity with the Power Automate Desktop Console and Process Designer
-    - Basic familiarity with Microsoft Excel
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), and familiarity with Microsoft Excel.
 iconUrl: /learn/achievements/pad-excel-automation.svg  
 levels:  
 - beginner   
