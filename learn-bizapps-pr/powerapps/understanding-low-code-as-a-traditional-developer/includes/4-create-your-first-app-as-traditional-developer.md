@@ -63,8 +63,6 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Now click on **EditForm1_1** in the tree view, and press the _<Delete>_ key to delete the control.
 
-1. Click the **X** icon on the top of the app screen, and press the _<Delete>_ key to delete it. Do the same for the **✔** icon.
-
 ### Add controls to the new screen
 
 1. Click on the **+** icon on the left side of the screen to bring up the **Insert** panel.
