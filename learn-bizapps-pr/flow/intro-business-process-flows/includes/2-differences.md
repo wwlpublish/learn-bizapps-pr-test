@@ -48,7 +48,7 @@ security role. Finally, the process of each instance of a business
 process flow can be monitored, and the data from the process flow can
 be used in Power BI dashboards and reporting for simplified administration.
 
-### Business process flows and the larger Power Platform
+### Business process flows and the larger Microsoft Power Platform
 
 Business process flows are deeply integrated with the Microsoft Power
 Platform. They are created, customized, and managed by using Power
@@ -71,5 +71,5 @@ Data Service if needed. Additionally, you can create Power BI
 dashboards from the data that was collected within the business process flow.
 
 Business process flows are deeply integrated
-within Power Platform and offer powerful ways to
+within Microsoft Power Platform and offer powerful ways to
 improve how you manage common business processes.

@@ -37,21 +37,21 @@ quiz:
       explanation: When custom connectors are deployed to an environment, they are not visible in the Power Admin center. However, they are in the default data group but not visible.
     - content: Custom connectors are not visible in the DLP editor but are placed in the default data group.
       isCorrect: true
-      explanation: When custom connectors are deployed to an environment, they are not visible in the DLP editor but are placed in the default data group. PowerShell or the Power Platform Management connector is required to make custom connectors visible in the DLP editor.
+      explanation: When custom connectors are deployed to an environment, they are not visible in the DLP editor but are placed in the default data group. PowerShell or Microsoft Power Platform Management connector is required to make custom connectors visible in the DLP editor.
     - content: Custom connectors are not managed.
       isCorrect: false 
-      explanation: Custom connectors are managed, to make them visible in the DLP policy editor you need to use PowerShell or the Power Platform Management connector.
-  - content: What are the behaviors of the Power Platform Management connectors as they relate to DLP policies?
+      explanation: Custom connectors are managed, to make them visible in the DLP policy editor you need to use PowerShell or Microsoft Power Platform Management connector.
+  - content: What are the behaviors of Microsoft Power Platform Management connectors as they relate to DLP policies?
     choices: 
-    - content: Because these connectors are part of Power Platform, they are not subject to DLP policies.
+    - content: Because these connectors are part of Microsoft Power Platform, they are not subject to DLP policies.
       isCorrect: false
-      explanation: Power Platform Management connectors are managed like any other connector in Power Platform.
+      explanation: Microsoft Power Platform Management connectors are managed like any other connector in Microsoft Power Platform.
     - content: These connectors are managed in DLP policies, much like any other connector.
       isCorrect: true
-      explanation: Power Platform Management connectors are managed like any other connector in Power Platform.
+      explanation: Microsoft Power Platform Management connectors are managed like any other connector in Microsoft Power Platform.
     - content: These connectors need to be enabled by an administrator before they can be managed in DLP policies.
       isCorrect: false 
-      explanation: Power Platform Management connectors are managed like any other connector in Power Platform.
+      explanation: Microsoft Power Platform Management connectors are managed like any other connector in Microsoft Power Platform.
     - content: These connectors cannot be managed in a DLP policy.
       isCorrect: false 
-      explanation: Power Platform Management connectors are managed like any other connector in Power Platform.
+      explanation: Microsoft Power Platform Management connectors are managed like any other connector in Microsoft Power Platform.

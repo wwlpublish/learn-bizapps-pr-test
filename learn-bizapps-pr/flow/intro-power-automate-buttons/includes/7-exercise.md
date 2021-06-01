@@ -14,7 +14,7 @@ The high-level steps are as follows:
 ### Confirm the name of your Office 365 private group
 
 For our example, the private group name we are using in this exercise is
-**Power Platform** and its email address is ```powerplatform@xyz.onmicrosoft.com```.
+**Microsoft Power Platform** and its email address is ```powerplatform@xyz.onmicrosoft.com```.
 You can find your group name in your Office 365 Outlook and use it for your example.
 
 ### Remove the existing user(s)
@@ -33,7 +33,7 @@ You can find your group name in your Office 365 Outlook and use it for your exam
 
 1. In **Users and connections**, select **Invite others**.
 
-1. In **Search people or groups**, enter **Power Platform** or your group name. You
+1. In **Search people or groups**, enter **Microsoft Power Platform** or your group name. You
     should see the name appear. Select the plus icon (**+**), and the group will be added.
     Select **Send** on the upper right.
 

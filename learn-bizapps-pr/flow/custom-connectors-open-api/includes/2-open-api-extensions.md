@@ -1,6 +1,6 @@
 This unit explores how to use the Microsoft OpenAPI extensions **x-ms-capabilities** and **x-ms-url-encoding** in your custom connectors.
 
-The **x-ms-capabilities** extension helps you configure which capabilities are offered by the connector at the connector level and operation level. Currently, Power Platform custom connectors can be configured for the following options:
+The **x-ms-capabilities** extension helps you configure which capabilities are offered by the connector at the connector level and operation level. Currently, Microsoft Power Platform custom connectors can be configured for the following options:
 
 -   **chunkTransfer** - Operation level
 

@@ -1,4 +1,4 @@
-**Connectors** allow the Power Platform to send and receive data with other services such as Microsoft 365, Dataverse, Azure, Dropbox, and more. To control the flow of sensitive information, you can create rules to permit or prevent connectors from communicating with each other. DLP Policies allow you to assign connectors to one of three **data groups** to accomplish this task.
+**Connectors** allow Microsoft Power Platform to send and receive data with other services such as Microsoft 365, Dataverse, Azure, Dropbox, and more. To control the flow of sensitive information, you can create rules to permit or prevent connectors from communicating with each other. DLP Policies allow you to assign connectors to one of three **data groups** to accomplish this task.
 
 **Business** - Connectors that are processing business-related data.
 
@@ -26,4 +26,4 @@ Administrators can be made aware of new connectors that have been recently publi
 
 ## Custom connectors and data groups
 
-Custom connectors pose a challenge for administrators as they do not appear in the DLP policy data groups. Just like Microsoft and third-party connectors, custom connectors are placed in the default data group. To assign a different data group, custom connectors require PowerShell or the Power Platform Management connectors. The exercise at the end of the module demonstrates how to apply a DLP policy to a custom connector.
+Custom connectors pose a challenge for administrators as they do not appear in the DLP policy data groups. Just like Microsoft and third-party connectors, custom connectors are placed in the default data group. To assign a different data group, custom connectors require PowerShell or Microsoft Power Platform Management connectors. The exercise at the end of the module demonstrates how to apply a DLP policy to a custom connector.

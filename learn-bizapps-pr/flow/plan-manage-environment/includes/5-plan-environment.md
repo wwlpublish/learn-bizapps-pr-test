@@ -17,7 +17,7 @@ from a data privacy perspective.
 Another important consideration is the aspect of centralization. For
 example, consider whether your organization has a centralized IT function.
 You should also determine if your organization is responsible for the
-administration and governance of the Power Platform environment.
+administration and governance of Microsoft Power Platform environment.
 Alternatively, your organization could have a decentralized
 organization where some aspects of technology are managed outside of an
 IT department. When establishing environment design, you have additional
@@ -131,7 +131,7 @@ organization wants to restrict its use to a broader audience,
 governance tools can be layered on top of the out-of-the-box DLP
 capabilities. In this scenario, the Twitter connector can be moved into
 the same data group as SharePoint, but you can govern its use. More
-specifically, Power Platform for Admins and Flow management
+specifically, Microsoft Power Platform for Admins and Flow management
 connectors can aid in the detection of newly created or edited flows
 that use this combination of connectors.
 

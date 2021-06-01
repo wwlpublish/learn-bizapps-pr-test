@@ -9,7 +9,7 @@ Consider the following strategies:
 
 2. Track all flow users in a digital list. This list can be a Yammer group,
     SharePoint list, distribution list, or Microsoft Azure Active Directory group.
-    You could also use the Power Platform Center of Excellence (COE) Starter
+    You could also use Microsoft Power Platform Center of Excellence (COE) Starter
     Kit.
 
     > [!Note]
@@ -33,7 +33,7 @@ Consider the following strategies:
     that makers have an outlet that they can use to request additional
     assistance if required.
 
-6. Be prepared for exceptions. The Introduction to Power Platform
+6. Be prepared for exceptions. The Introduction to Microsoft Power Platform
     security and governance module discussed the need for
     exception environments where DLP rules are relaxed. As part of the
     communication that goes out to makers, they might have a legitimate

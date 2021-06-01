@@ -1,8 +1,8 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.troubleshoot-slow-flows.4-admin-center 
-title: Power Platform admin center
+title: Microsoft Power Platform admin center
 metadata: 
-  title: Power Platform admin center
+  title: Microsoft Power Platform admin center
   description: Learn about data loss prevention (DLP) policies and data sharing in groups.
   ms.date: 04/23/2021 
   author: DaveBeasley 

@@ -24,7 +24,7 @@ The designer feature that comes with Power Automate is user-friendly. Occasional
 
 UI flows bring robotic process automation (RPA) directly into Power Automate. This functionality comes with either a desktop or a web app that you can use to record the UI, including clicks and keyboard input. This feature is handy when you're working with legacy applications that don't have available APIs.
 
-Business process flows are built by using Power Platform and Dataverse. You can also use Power Automate workflows. The business process is a series of steps that the user needs to complete in a specific stage. The business process flow visually guides the user through various stages. These flows are created and managed by using Power Automate, and several templates are readily available. These templates can use the entities that are already available, or you can use custom entities that you've created.
+Business process flows are built by using Microsoft Power Platform and Dataverse. You can also use Power Automate workflows. The business process is a series of steps that the user needs to complete in a specific stage. The business process flow visually guides the user through various stages. These flows are created and managed by using Power Automate, and several templates are readily available. These templates can use the entities that are already available, or you can use custom entities that you've created.
 
 Power Automate flows that you create in a solution are known as solution-aware flows. You can build a new flow directly inside a solution, and you can also edit and delete that flow.  
 
