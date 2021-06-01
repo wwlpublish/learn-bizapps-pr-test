@@ -37,10 +37,10 @@ Use these resources to discover more.
 
 - [AI Builder](https://powerapps.microsoft.com/ai-builder/)
 
-- [AI Builder Documentation](https://docs.microsoft.com/ai-builder/overview)
+- [AI Builder Documentation](/ai-builder/overview)
 
 ### Learn more about Portals
 
 - [Portals](https://powerapps.microsoft.com/portals/)
 
-- [Portals Documentation](https://docs.microsoft.com/powerapps/maker/portals/overview)
+- [Portals Documentation](/powerapps/maker/portals/overview)
