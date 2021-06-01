@@ -10,7 +10,7 @@ When you have multiple environments, each environment has its own set of solutio
 The characteristics of solutions are that they:
 
 - Include metadata and certain entities with configuration data. Solutions don't contain business data.
-- Contain many different Power Platform components, such as model-driven apps, canvas apps, site maps, flows, tables, table metadata, columns, forms, views, business rules, process definitions, custom connectors, web resources, choices, charts, and components that are created by developers such as scripts or compiled code.
+- Contain many different Microsoft Power Platform components, such as model-driven apps, canvas apps, site maps, flows, tables, table metadata, columns, forms, views, business rules, process definitions, custom connectors, web resources, choices, charts, and components that are created by developers such as scripts or compiled code.
 - Are packaged as a unit to be exported and imported to other environments, or they are deconstructed and checked into source control as source code for assets.
 - Are used to apply changes to existing solutions.
 

@@ -24,7 +24,7 @@ Developing an environment strategy means configuring environments and other laye
 
 > [![Diagram showing an example of environment strategy.](../media/2-environment-strategy.png)](../media/2-environment-strategy.png#lightbox)
 
-The following types of environments are available in Power Platform:
+The following types of environments are available in Microsoft Power Platform:
 
 - **Sandbox** - A sandbox environment is any non-production environment of Dataverse. Isolated from production, a sandbox environment is the place to safely develop and test application changes with low risk.
 - **Production** - The environment where apps and other software are put into operation for their intended use.
@@ -39,9 +39,9 @@ For more information, see [environments](/power-platform/admin/environments-over
 
 ## Handle solutions and other non-solution aware code and components
 
-Power Platform projects consist of components that can be packaged inside solutions in environments and components that cannot be added to solutions such as components deployed in Azure, configuration data, and Power BI reports. The ALM plan must consider how to handle these non-solution aware components.
+Microsoft Power Platform projects consist of components that can be packaged inside solutions in environments and components that cannot be added to solutions such as components deployed in Azure, configuration data, and Power BI reports. The ALM plan must consider how to handle these non-solution aware components.
 
-The solution architect needs to decide if application lifecycle management will be managed by using solutions or by using source code control. Traditionally, Power Platform projects have been more environment-centric, but many are now moving toward being source control-centric.
+The solution architect needs to decide if application lifecycle management will be managed by using solutions or by using source code control. Traditionally, Microsoft Power Platform projects have been more environment-centric, but many are now moving toward being source control-centric.
 
 If you use an environment-centric approach, then:
 
@@ -80,10 +80,10 @@ With Power Apps, you can quickly create a usable version of your app because Pow
 
 > [![Diagram of Power Apps development approach.](../media/2-agile.png)](../media/2-agile.png#lightbox)
 
-Issues with customizing and developing components within Power Platform include:
+Issues with customizing and developing components within Microsoft Power Platform include:
 
-- Power Platform doesn't support versioning of components (except for canvas apps).
-- Users can't work on the same Power Platform component simultaneously.
+- Microsoft Power Platform doesn't support versioning of components (except for canvas apps).
+- Users can't work on the same Microsoft Power Platform component simultaneously.
 - Model-driven apps have multiple components, each with their own editors, allowing work to be divided between makers. Conversely, canvas apps have only one editor and only one person can work on an app at any one time. By using canvas components, you can allow multiple makers to work on the same app simultaneously.
 
 Solution architects should establish the workflow for how app builders will make changes and promote them. Proactive communication and work assignments should be managed to minimize conflicts between makers.
@@ -98,9 +98,9 @@ Solution-aware developer code assets (such as plug-ins, PCF code components, and
 
 ## Tools
 
-Microsoft provides several tools and apps that you can use with ALM in Power Platform:
+Microsoft provides several tools and apps that you can use with ALM in Microsoft Power Platform:
 
-- **Power Platform admin center** - Provides a unified portal for administrators to create and manage environments.
+- **Microsoft Power Platform admin center** - Provides a unified portal for administrators to create and manage environments.
 - **Power Apps build tools** - Automate common build and deployment tasks that are related to Power Apps by using Azure DevOps. 
 - **GitHub** - Popular example of a version control system.
 - **Configuration Migration tool** - Enables you to move configuration and/or reference data across environments.
@@ -111,4 +111,4 @@ Microsoft provides several tools and apps that you can use with ALM in Power Pla
 - **Power Apps checker PowerShell module** - Interacts with the Power Apps checker service so that you can run static analysis jobs and download the results.
 
 > [!NOTE]
-> GitHub actions for Power Platform are currently in preview.
+> GitHub actions for Microsoft Power Platform are currently in preview.

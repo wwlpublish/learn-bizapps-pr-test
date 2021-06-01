@@ -3,7 +3,7 @@ App composition is one of the most important tasks for a solution architect. Tak
 A user’s app experience will be how they judge the solution architecture.
 
 > [!IMPORTANT]
-> The level of change in Power Platform means that best practices will change every few months.
+> The level of change in Microsoft Power Platform means that best practices will change every few months.
 
 ## Next steps
 

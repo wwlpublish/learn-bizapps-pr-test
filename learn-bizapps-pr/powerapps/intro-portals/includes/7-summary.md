@@ -2,7 +2,7 @@ Power Apps portals extends Microsoft Dataverse access to external audiences such
 
 This module covered the following concepts:
 
-- Business scenarios where Power Apps portals can add value to customer Power Platform and Dynamics 365 solutions.
+- Business scenarios where Power Apps portals can add value to customer Microsoft Power Platform and Dynamics 365 solutions.
 - Core records for the content and data access: webpages, templates, table forms, and table lists.
 - Fundamentals of portals security and which methods are used to control access to the content and data.
 

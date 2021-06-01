@@ -12,7 +12,7 @@ Furthermore, the solution architect might be responsible for increasing the skil
 
 A solution architect establishes the breakdown that will be used for the functional and technical design. As a solution architect, you seldom get to choose your team, and not everyone on a team can be a top performer.
 
-The solution architect must learn how to assess team members' skills and weaknesses to assign the correct tasks to the correct team members. Solution architects shouldn't ask for a resume to gauge how much a specific team member knows about Power Platform. However, they should have a set of probing discussion questions to test knowledge, such as asking the team member when they should use managed instead of unmanaged solutions or when they should use business rules or Power Automate cloud flows.
+The solution architect must learn how to assess team members' skills and weaknesses to assign the correct tasks to the correct team members. Solution architects shouldn't ask for a resume to gauge how much a specific team member knows about Microsoft Power Platform. However, they should have a set of probing discussion questions to test knowledge, such as asking the team member when they should use managed instead of unmanaged solutions or when they should use business rules or Power Automate cloud flows.
 
 The solution architect could also assign small tasks or proof of concepts to team members and then assess the results. Additionally, the solution architect should encourage the team member to explain their proposed solution to better understand their thought processes. 
 
@@ -33,7 +33,7 @@ A typical task for solution architects is to divide work and assign it to team m
 
 ## Establish standards
 
-Standards are important on any project for the team to follow. Some elements in Power Platform are more difficult to change later, such as the schema prefix or table and column names.
+Standards are important on any project for the team to follow. Some elements in Microsoft Power Platform are more difficult to change later, such as the schema prefix or table and column names.
 
 The solution architect should define standards to ensure consistency for the following elements:
 
@@ -50,6 +50,6 @@ The solution architect should use Microsoft documentation such as [model-driven 
 
 The solution architect is responsible for defining how configuration and development will occur. This definition will depend on many factors, including the skills of the team and whether the team is colocated or if they're dispersed remotely.
 
-The development environment topology needs to be determined and some type of testing environment(s) will be needed. Remember, Power Platform does not provide version-controlled tracking by default.
+The development environment topology needs to be determined and some type of testing environment(s) will be needed. Remember, Microsoft Power Platform does not provide version-controlled tracking by default.
 
 Consider projects that you have been involved in, and then ask yourself what else the solution architect might have done to help teams work better together.

@@ -54,7 +54,7 @@ Machine learning is beyond the scope of this course. However, solution architect
 
 ## AI Builder
 
-AI Builder is a component of the Power Platform solution that allows you to add AI to predict outcomes to help improve business performance without writing code. You do not need to understand machine learning or learn Python to use AI Builder. Microsoft helps make it easier for you to create AI models and then consume those models in Power Platform.
+AI Builder is a component of Microsoft Power Platform solution that allows you to add AI to predict outcomes to help improve business performance without writing code. You do not need to understand machine learning or learn Python to use AI Builder. Microsoft helps make it easier for you to create AI models and then consume those models in Microsoft Power Platform.
 
 AI Builder takes the concept of Cognitive Services further, enabling anyone to use AI in their apps and flows and to build their own machine learning models without needing expertise in machine learning or having to write code.
 

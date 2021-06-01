@@ -18,7 +18,7 @@ Factors that will influence how you design integrations include:
 - Security requirements
 - Reliability requirements
 - Impact of duplication of data or functionality
-- Fit with existing Power Platform capability
+- Fit with existing Microsoft Power Platform capability
 - Cost, time, and resources
 - Internal politics
 
@@ -31,12 +31,12 @@ The following factors will cause integrations to fail:
 - Underestimating the complexity of integrating
 - Poor user experience with the integrated solution
 - Increasing cohesion of components, which creates a fragile system
-- Not knowing what Power Platform does or doesn't do well
+- Not knowing what Microsoft Power Platform does or doesn't do well
 - Not knowing what the other system does or doesn't do well
 - Source data is of poor quality or is full of duplicates and dirty data
 - Not being clear regarding what the system of record is
 - Having multiple parties involved and not coordinating the building of the integrations
-- Other parties who are building integrations are unfamiliar with Power Platform
+- Other parties who are building integrations are unfamiliar with Microsoft Power Platform
 
 ## Design for resilience
 
@@ -53,7 +53,7 @@ Every situation is unique, and you will encounter a variety of integration scena
 
 ![Diagram showing the integration process.](../media/2-integration-process.png)
 
-The design process is a balance, and you won't have a right or wrong answer for a solution. When considering the options for integration, the solution architect needs to assess the skills that are available in the team and the breadth of Power Platform capabilities.
+The design process is a balance, and you won't have a right or wrong answer for a solution. When considering the options for integration, the solution architect needs to assess the skills that are available in the team and the breadth of Microsoft Power Platform capabilities.
 
 ![Diagram showing the integration approaches.](../media/2-integration-approaches.png)
 

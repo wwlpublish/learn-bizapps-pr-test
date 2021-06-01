@@ -1,6 +1,6 @@
 Data loss prevention (DLP) policies act as guardrails to help prevent users from unintentionally exposing organizational data and to protect information security in the tenant. DLP policies enforce rules that establish which connectors will be enabled for each environment and which connectors can be used together.
 
-DLPs prevent unauthorized data access and leakage from Power Platform. As a solution architect, you need to be concerned with DLPs because they:
+DLPs prevent unauthorized data access and leakage from Microsoft Power Platform. As a solution architect, you need to be concerned with DLPs because they:
 
 - Ensure proper data flow in an organization by following organization policies.
 - Can prevent a developed solution from working properly, if they are not included in your plans.

@@ -1,6 +1,6 @@
 An environment is a container for apps and other resources, such as data connections and flows from Power Automate. It's a way to group items based on business requirements.
 
-![Screenshot of the Power Platform environments.](../media/power-apps-environments.png)
+![Screenshot of Microsoft Power Platform environments.](../media/power-apps-environments.png)
 
 If you've followed along with this module, you've already been working in <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a>; therefore, you've been working in a specific environment the whole time.
 In the upper-right corner of the home page, you can view your current environment.
@@ -30,7 +30,7 @@ Only an admin can create environments. If you aren't an admin, this information 
 1. On the <a href="https://make.powerapps.com" target="_blank">make.powerapps.com</a> home page, select the gear icon near the upper-right corner and then select **Admin center**.
 
     You can also go directly to https://admin.powerplatform.microsoft.com/
-2. In the Power Platform admin center, select **+ New**. 
+2. In Microsoft Power Platform admin center, select **+ New**. 
 3. In the **New environment** dialog box, enter a name for the environment and then select a region and an environment type.
 4. To the left of **Create a database for this environment**, select the toggle to Yes.
 5. Select **Next**.

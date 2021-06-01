@@ -18,7 +18,7 @@ In situations where original data should never be modified or overwritten, you c
 
 ## Where to store data
 
-Data modeling on Power Platform should look at the whole data architecture picture and include a logical look at data from Dataverse, data lakes, and external sources by using connectors.
+Data modeling on Microsoft Power Platform should look at the whole data architecture picture and include a logical look at data from Dataverse, data lakes, and external sources by using connectors.
 
 ### Dataverse
 
