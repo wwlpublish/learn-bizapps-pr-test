@@ -78,7 +78,7 @@ For example, you might have an event page that displays information about an upc
 
 ## Add a table form to your portal
 
-a table form defines the required behavior but does not contain information about how and where on the site the form should render. The two ways to render a table form in a portal are:
+A table form defines the required behavior but does not contain information about how and where on the site the form should render. The two ways to render a table form in a portal are:
 
 - Explicitly specify the table form as a target for a table list action like **Create**, **Update**, or **Edit**. In this case, the form renders in a modal pop-up window. Certain limitations apply when the form is rendered in a pop-up window, for example, creating related rows from subgrids is not available.
 - Similar to a table list, you can add a table form component to a webpage from the portals studio. This action places a Liquid tag on the webpage copy to render the table form.

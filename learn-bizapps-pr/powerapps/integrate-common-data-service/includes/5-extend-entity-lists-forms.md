@@ -25,9 +25,9 @@ This table list is related to the **Customer Service – Home** webpage and port
 
 You can use this pattern across any table in Dataverse and any new table that might be required to meet a customer’s needs. The basic configuration includes:
 
-- table lists that are built on one or more views.
+- Table lists that are built on one or more views.
 
-- table forms to create and view individual rows. If the row creation process is complicated, use a web form instead.
+- Table forms to create and view individual rows. If the row creation process is complicated, use a web form instead.
 
 - Action button configuration on the table list to use table forms for create, update, and view operations.
 
@@ -45,7 +45,7 @@ You can use advanced settings to implement some of the features that do not map 
 
 ### Commands
 
-table lists, table forms, and web forms include action button configuration that adds per-row actions. See [table form action configuration](/powerapps/maker/portals/configure/entity-forms#entity-form-action-configuration/?azure-portal=true) and [table list configuration](/powerapps/maker/portals/configure/entity-lists#entity-list-configuration/?azure-portal=true) for information about available actions.
+Table lists, table forms, and web forms include action button configuration that adds per-row actions. See [table form action configuration](/powerapps/maker/portals/configure/entity-forms#entity-form-action-configuration/?azure-portal=true) and [table list configuration](/powerapps/maker/portals/configure/entity-lists#entity-list-configuration/?azure-portal=true) for information about available actions.
 
 Some commands include the **Filter Criteria** setting. You can use it to enter FetchXML that evaluates and hides the command if the selected row is not returned by the specified FetchXML query.
 
@@ -76,7 +76,7 @@ Portal comments can be shown on a form by using the **Timeline** control. No fun
 
 - Comment approval by using the **Send** command. Only sent or received comments are visible on the portal.
 
-- row of portal users who created and received the comment.
+- Row of portal users who created and received the comment.
 
 - Further customization of the portal comment table is possible to implement additional business requirements.
 

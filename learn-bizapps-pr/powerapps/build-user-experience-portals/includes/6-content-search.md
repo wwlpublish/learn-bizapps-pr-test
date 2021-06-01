@@ -2,7 +2,7 @@ In Power Apps portals, you can search for rows across multiple tables by using t
 
 ## Global search
 
-Global search of Power Apps portals allows you to search for rows across multiple tables. It also allows you to search across multiple columns and configure what columns of an table would be searchable.
+Global search of Power Apps portals allows you to search for rows across multiple tables. It also allows you to search across multiple columns and configure what columns of a table would be searchable.
 
 Among the benefits of global search are its ability to:
 
@@ -24,7 +24,7 @@ Knowledge articles have a feature that allows you to mark an article as **Intern
 
 Notes and attachments on knowledge articles and web files are searched as well. For more information, see [Search within file attachment content](/powerapps/maker/portals/configure/search-file-attachment/?azure-portal=true).
 
-All other tables, both system and custom, that might have been used to generate portal content are not part of the global search. They cannot be added to the global search, but targeted search functionality is available. For example, if an table is used to generate a list of rows on a page, that list can include search capabilities.
+All other tables, both system and custom, that might have been used to generate portal content are not part of the global search. They cannot be added to the global search, but targeted search functionality is available. For example, if a table is used to generate a list of rows on a page, that list can include search capabilities.
 
 ## Faceted search
 

@@ -53,7 +53,7 @@ Before you enable additional actions for the table form, you need to create a wo
    - **Process name** - Case On Hold
    - **Category** - Workflow
    - **Run this workflow in the background** - Clear this option
-   - **table** - Case
+   - **Table** - Case
 1. Select **OK**.
 1. Select **As an on-demand process**.
 1. Clear **row is created**.
@@ -124,7 +124,7 @@ To test that your new workflow action button works, follow these steps:
 Having the workflow button visible at all times does not make sense in certain scenarios, such as for disabled cases. You can enter additional information to enhance the user experience.
 
 1. Switch to the Portal Management app.
-1. Select **table Forms**.
+1. Select **Table Forms**.
 1. Select **Customer Service - Edit Case**.
 1. Select the **Additional Settings** tab.
 1. Select **Advanced Settings** and locate the **Workflow** action.

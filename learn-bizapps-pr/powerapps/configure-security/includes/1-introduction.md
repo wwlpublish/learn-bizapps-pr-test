@@ -19,7 +19,7 @@ However, certain private or protected information should only be made accessible
 
 A portal user will need to sign in by using an authentication process in which the portal application will recognize the visitor as a specific Dataverse contact. The portal can then show the protected and private static and dynamic content to that portal user.
 
-[Screenshot of how to set up portal authentication for users.](/powerapps/maker/portals/configure/configure-portal-authentication/?azure-portal=true)
+[Overview of authentication in Power Apps portals](/powerapps/maker/portals/configure/configure-portal-authentication/?azure-portal=true)
 
 A contact can be recognized as a portal user by accepting an invitation from the portal that is associated with an existing contact or by registering as a new contact.
 
