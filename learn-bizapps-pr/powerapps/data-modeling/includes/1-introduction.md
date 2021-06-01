@@ -4,7 +4,7 @@ Solution architects are responsible for the overall high-level design of the dat
 
 A data model is a visual model that shows how data flows through your system and how different entities relate to each other. Data models define the relationship types between entities and abstract a database to a straightforward visual representation.
 
-For solutions that are based on Power Platform, the data model is crucial to the design of the solution because it will affect app design, especially model-driven apps.
+For solutions that are based on Microsoft Power Platform, the data model is crucial to the design of the solution because it will affect app design, especially model-driven apps.
 
 ## Solution architect’s role in data modeling
 

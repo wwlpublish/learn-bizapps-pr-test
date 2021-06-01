@@ -1,4 +1,4 @@
-Microsoft has a worldwide network of datacenters (which support Power Platform) that are set up in 17 different locations. This level of localization helps organizations more easily meet data residency, sovereignty, and compliance requirements.
+Microsoft has a worldwide network of datacenters (which support Microsoft Power Platform) that are set up in 17 different locations. This level of localization helps organizations more easily meet data residency, sovereignty, and compliance requirements.
 
 When creating an environment, you can specify its geographical location. The data for the environment will be held in the chosen geographical location.
 
@@ -16,8 +16,8 @@ Microsoft offers the option of choosing global, local, and sovereign clouds:
 > [!NOTE]
 > New locations are planned, so the preceding list might not be complete. Go to <https://docs.microsoft.com/power-platform/availability> for the latest information.
 
-The following diagram shows the supported Power Platform locations.
-![Diagram representing supported Power Platform locations.](../media/3-location.png)
+The following diagram shows the supported Microsoft Power Platform locations.
+![Diagram representing supported Microsoft Power Platform locations.](../media/3-location.png)
 
 ## Data residency
 
@@ -41,11 +41,11 @@ Solution architects must consider regulatory and compliance requirements, such a
 
 Microsoft will not transfer customer data outside the selected Azure geographic location (geo), except when it is necessary for Microsoft to provide customer support, troubleshoot the service, or comply with legal requirements.
 
-Power Platform stores information that is global in nature, such as user identities and profile information, in a datacenter that is located in the United States. All Power Platform customer data and the geo-redundant mirrors are maintained within the selected geo.
+Microsoft Power Platform stores information that is global in nature, such as user identities and profile information, in a datacenter that is located in the United States. All Microsoft Power Platform customer data and the geo-redundant mirrors are maintained within the selected geo.
 
 ## When to use multiple environments
 
-A previous module explained how Power Platform uses environments to separate development from production and to separate different user groups. When you further consider the location of users in a global organization, consider other reasons for creating multiple environments:
+A previous module explained how Microsoft Power Platform uses environments to separate development from production and to separate different user groups. When you further consider the location of users in a global organization, consider other reasons for creating multiple environments:
 
 - Handle application lifecycle management (ALM) – Dev / Test / Prod.
 - Isolate resources that are not used by the same users or that share data.

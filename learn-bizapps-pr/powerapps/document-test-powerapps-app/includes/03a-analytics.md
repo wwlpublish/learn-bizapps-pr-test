@@ -4,7 +4,7 @@ The other important aspect of adequate performance testing is to reproduce workl
 
 ## Instance statistics
 
-CDS for Apps analytics is available via Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac/?azure-portal=true). It contains various statistics that can help identify potential areas for deeper performance analysis, for example most used entities, storage consumed, failing system jobs and plugins, etc. 
+CDS for Apps analytics is available via Microsoft Power Platform admin center [https://aka.ms/ppac](https://aka.ms/ppac/?azure-portal=true). It contains various statistics that can help identify potential areas for deeper performance analysis, for example most used entities, storage consumed, failing system jobs and plugins, etc. 
 
 ## Query performance
 
@@ -21,7 +21,7 @@ After opening the page and pressing Run, the report will become available that w
 
 ## Analytics
 
-Dataverse analytics are available via the Power platform admin center [https://aka.ms/ppac](https://aka.ms/ppac/?azure-portal=true). Various statistics can help identifying potential areas for deeper performance analysis.
+Dataverse analytics are available via Microsoft Power Platform admin center [https://aka.ms/ppac](https://aka.ms/ppac/?azure-portal=true). Various statistics can help identifying potential areas for deeper performance analysis.
 
 ### Dataverse
 

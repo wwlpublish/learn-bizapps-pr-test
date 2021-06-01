@@ -52,7 +52,7 @@ An administrator can update the portal solutions during an appropriate maintenan
 
 Portal solutions can be updated by using the Dynamics 365 admin center (even for Dataverse portals that don't have Dynamics 365 apps installed).
 
-1. Go to the [Power Platform admin center](https://aka.ms/ppac/?azure-portal=true).
+1. Go to the [Microsoft Power Platform admin center](https://aka.ms/ppac/?azure-portal=true).
 1. Expand **Admin Centers**.
 1. Select **Dynamics 365**.
 1. Select the environment where the portal is provisioned.

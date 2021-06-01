@@ -34,7 +34,7 @@ Poor security design can lead to poor performance. Techniques that you can use t
 - Minimize the number of business units.
 - Use access teams instead of owner teams.
 - Test with real volumes and real security scenarios to validate the design.
-- Use the analytics tools in the Power Platform admin center to view API calls and high-volume processes.
+- Use the analytics tools in Microsoft Power Platform admin center to view API calls and high-volume processes.
 
 The best way to improve performance is to keep the security design as simple as possible.
 

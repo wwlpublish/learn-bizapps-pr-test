@@ -1,4 +1,4 @@
-In this module, you learn how to use application lifecycle management with the Power Platform, including:
+In this module, you learn how to use application lifecycle management with Microsoft Power Platform, including:
 
 - Learning about Microsoft's vision and the solution architect’s role in ALM.
 

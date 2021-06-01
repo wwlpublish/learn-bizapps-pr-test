@@ -45,7 +45,7 @@ Some AI powered visualizations that a solution architect should consider include
 - **Key influencers** - Helps you understand the factors that are affecting a specific metric. It analyzes your data for you, ranks the factors that matter, and then displays those factors as key influencers. The visual also helps you contrast the relative importance of these factors.
 - **Decomposition tree** - Automatically aggregates data and lets you drill down into your dimensions so that you can view your data across multiple dimensions. The decomposition tree can be used to conduct root cause analysis.
 
-A common method for sharing Power BI visualizations is to create a Power BI app. Apps can be shared internally and externally. Power BI apps can be embedded in other applications. You can see an embedded Power BI app on the **Analytics** tab in the Power Platform admin center.
+A common method for sharing Power BI visualizations is to create a Power BI app. Apps can be shared internally and externally. Power BI apps can be embedded in other applications. You can see an embedded Power BI app on the **Analytics** tab in Microsoft Power Platform admin center.
 
 ## Work with Dataverse data
 
@@ -113,11 +113,11 @@ Alerts show in Power BI service, display on the Power BI mobile app, are sent by
 
 ## Workspaces vs. environments
 
-Power BI does not use Power Platform environments. Power BI uses workspaces to create separate spaces for datasets, reports, and dashboards. Workspaces are similar to environments. Users can be given roles in a workspace to allow collaboration when building Power BI components. A user doesn't need to belong to a workspace to have a report or dashboard shared with them.
+Power BI does not use Microsoft Power Platform environments. Power BI uses workspaces to create separate spaces for datasets, reports, and dashboards. Workspaces are similar to environments. Users can be given roles in a workspace to allow collaboration when building Power BI components. A user doesn't need to belong to a workspace to have a report or dashboard shared with them.
 
 ## Application lifecycle management
 
-Power BI resources can't be included in Power Platform solution packages, and deployment needs to be managed separately.
+Power BI resources can't be included in Microsoft Power Platform solution packages, and deployment needs to be managed separately.
 
 Power BI has its own application lifecycle management (ALM) process (available with Power BI Premium only) to move Power BI components from one workspace to another. 
 

@@ -4,7 +4,7 @@ A solution architect needs to ensure that the solution does not exceed the limit
 
 ## API requests
 
-Requests in Power Platform consist of various actions that a user makes across various products. The following list describes what constitutes an API request, at a high level:
+Requests in Microsoft Power Platform consist of various actions that a user makes across various products. The following list describes what constitutes an API request, at a high level:
 
 - **Power Apps** - All API requests to connectors and Microsoft Dataverse.
 - **Power Automate** - All API requests to connectors, HTTP actions, and built-in actions from initializing variables to a simple compose action. Both succeeded and failed actions count toward these limits. Additionally, retries and other requests from pagination count as action implementations. As a basic rule, each step in a Power Automate cloud flow is an API request.

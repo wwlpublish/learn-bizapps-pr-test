@@ -19,7 +19,7 @@ Several options are available for applying custom business logic in Dataverse, i
 
 ## Create custom logic
 
-The solution architect will need to be able to decide which component of Power Platform is used and where it is used in the solution. No rules are imposed for this decision because each option has its own pros and cons.
+The solution architect will need to be able to decide which component of Microsoft Power Platform is used and where it is used in the solution. No rules are imposed for this decision because each option has its own pros and cons.
 
 For instance, the following limitations can occur:
 
@@ -51,4 +51,4 @@ Canvas app formulas, model-driven form script, business rules, and Power Apps co
 
 Plug-ins, Power Automate cloud flows, classic workflows, and business rules (with scope set to **Table**) happen only when the data is sent to the server by an app, flow, or an API call. The user only sees results of service custom logic in their app on refresh of data. Server logic is enforced when any app, flow, or API is used.
 
-Power Platform imposes limits on the number of calls that can be made. The solution architect needs to design the solution with these limits in mind.
+Microsoft Power Platform imposes limits on the number of calls that can be made. The solution architect needs to design the solution with these limits in mind.

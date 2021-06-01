@@ -2,7 +2,7 @@ Environments are containers that administrators can use to manage apps, flows, c
 
 Apps in Microsoft Power Apps and Microsoft Power Automate flows do not provide users with access to data assets that they don't already have access to. Users should only have access to data that they require access to.
 
-Access to environments is multilayered. Environments are contained within an Azure Active Directory (Azure AD) tenant. Access to the environment is authenticated by Azure AD. Users must have a user account in Azure AD to access any environment, and they must have a license to use Power Platform. To access an individual environment, the user will need a Microsoft 365 role if a Microsoft Dataverse database is not available, and they'll need a Dataverse security role if a Dataverse database is available. Users also need to be given permission on resources in an environment such as apps, flows, and connectors.
+Access to environments is multilayered. Environments are contained within an Azure Active Directory (Azure AD) tenant. Access to the environment is authenticated by Azure AD. Users must have a user account in Azure AD to access any environment, and they must have a license to use Microsoft Power Platform. To access an individual environment, the user will need a Microsoft 365 role if a Microsoft Dataverse database is not available, and they'll need a Dataverse security role if a Dataverse database is available. Users also need to be given permission on resources in an environment such as apps, flows, and connectors.
 
 An administrator can also control access to environments from other Azure AD tenants in business-to-business (B2B) scenarios.
 
@@ -10,30 +10,30 @@ An administrator can also control access to environments from other Azure AD ten
 
 ## Azure AD
 
-Power Platform uses Azure AD to authenticate users.
+Microsoft Power Platform uses Azure AD to authenticate users.
 
-Azure AD has several features that Power Platform can use:
+Azure AD has several features that Microsoft Power Platform can use:
 
 - **Identity and access management** - Manage access to apps from Power Apps.
 - **Authentication** - Verify credentials when a user signs in to an app that has several users in a flow.
 - **Single sign-on (SSO)** - Access apps without having to sign in separately.
 - **Multifactor authentication** - Prompts a user during sign-in for other forms of identification.
-- **Business-to-business (B2B)** - Manage your guest users and external partners while maintaining control over your own corporate data. Guest access is supported for Power Platform.
+- **Business-to-business (B2B)** - Manage your guest users and external partners while maintaining control over your own corporate data. Guest access is supported for Microsoft Power Platform.
 - **Conditional access** - Manage access to your apps by using signals to make decisions on allowing access.
 - **Device Management** - Manage how your devices access your corporate data.
 - **Enterprise users** - Manage license assignment.
 - **Hybrid identity** - Microsoft Azure AD Connect provides a single user identity for authentication and authorization, regardless of location (cloud or on-premises).
 - **Identity governance** - Manage your organization's identity through employee, business partner, vendor, service, and app access controls.
 - **Identity protection** - Detect potential vulnerabilities that affect your organization's identities.
-- **Reports and monitoring** - Insights into the security and usage patterns in your environment. The Power Platform admin center provides more detailed insights than are provided by Azure AD.
+- **Reports and monitoring** - Insights into the security and usage patterns in your environment. Microsoft Power Platform admin center provides more detailed insights than are provided by Azure AD.
 
-Other features of Azure AD that are not currently supported with Power Platform:
+Other features of Azure AD that are not currently supported with Microsoft Power Platform:
 
 - **Business-to-consumer (B2C)** - Control how customers sign in by using their preferred social, enterprise, or local account identities.
-- **Managed identities** - An identity in Azure AD that can authenticate any Azure AD-supported authentication service. Currently, this feature is not supported in Power Platform, and service principals must be used instead.
+- **Managed identities** - An identity in Azure AD that can authenticate any Azure AD-supported authentication service. Currently, this feature is not supported in Microsoft Power Platform, and service principals must be used instead.
 - **Privileged identity management (PIM)** - Provides elevated administrator access in a just-in-time (JIT) manner.
 
-An organization is likely to have chosen how it implements Azure AD and a Power Platform solution, and it is unlikely to change this fundamentally. However, Power Platform might provide access to users who have never had IT app access previously, such as mobile frontline workers, business partners, and external contractors who don't have identities in Azure AD. Therefore, you might need to consider Conditional access, B2B, and guest user access.
+An organization is likely to have chosen how it implements Azure AD and a Microsoft Power Platform solution, and it is unlikely to change this fundamentally. However, Microsoft Power Platform might provide access to users who have never had IT app access previously, such as mobile frontline workers, business partners, and external contractors who don't have identities in Azure AD. Therefore, you might need to consider Conditional access, B2B, and guest user access.
 
 Conditional access requires an Azure AD Premium license. Conditional access policies can grant or block access to apps and data based on the following factors:
 
@@ -43,7 +43,7 @@ Conditional access requires an Azure AD Premium license. Conditional access poli
 
 ![Conceptual Conditional access process flow.](../media/2-conditional-access-overview-how-it-works.png)
 
-Microsoft Azure Active Directory B2B (Azure AD B2B) collaboration is a feature that lets you invite guest users to collaborate with your organization. You can assign licenses to guest users to run apps that are built with Power Platform. Currently, guests can't create or edit Power Apps.
+Microsoft Azure Active Directory B2B (Azure AD B2B) collaboration is a feature that lets you invite guest users to collaborate with your organization. You can assign licenses to guest users to run apps that are built with Microsoft Power Platform. Currently, guests can't create or edit Power Apps.
 
 For more information, see [Share a canvas app with guest users](https://docs.microsoft.com/powerapps/maker/canvas-apps/share-app-guests/?azure-portal=true) and [About Power Apps per app plans](https://docs.microsoft.com/power-platform/admin/about-powerapps-perapp/?azure-portal=true).
 
@@ -88,8 +88,8 @@ The previous screenshot shows that the following behavior is observed:
 
 Managing environments and performing some administration activities requires one or more of these administrative roles:
 
-- **Global admin** - A user with this role has full administration access to all services in the tenant. Global admins have access to all Power Platform environments and will be added to all Dataverse environments with the System Administrator security role.
-- **Power Platform admin** - A user with the Power Platform admin role can create environments, manage all environments (even if the users don't belong to the security group for the environment), manage Power Apps, manage Power Automate, and manage data loss prevention policies. A Power Platform admin can also manage support tickets and monitor service health.
+- **Global admin** - A user with this role has full administration access to all services in the tenant. Global admins have access to all Microsoft Power Platform environments and will be added to all Dataverse environments with the System Administrator security role.
+- **Microsoft Power Platform admin** - A user with Microsoft Power Platform admin role can create environments, manage all environments (even if the users don't belong to the security group for the environment), manage Power Apps, manage Power Automate, and manage data loss prevention policies. A Microsoft Power Platform admin can also manage support tickets and monitor service health.
 - **Delegated admin** - Delegated administration is used by Microsoft Cloud Solution Provider program (CSP) partners to manage their customers through the Microsoft Partner Portal. A Delegated admin has full administration to all services in the customer's tenant.
 
 > [!NOTE]

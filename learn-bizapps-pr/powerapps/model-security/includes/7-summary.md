@@ -1,4 +1,4 @@
-In this module, you learned about security modeling with Power Platform, including:
+In this module, you learned about security modeling with Microsoft Power Platform, including:
 
 - Different aspects of security architecture.
 - Securing environments.

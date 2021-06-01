@@ -1,6 +1,6 @@
-Analytics play a major role in solutions that are developed for Microsoft Power Platform. Analytics and insights can be delivered with Power Platform in several different ways. The solution architect will need to evaluate the ways for implementing reporting and analytics in the solution.
+Analytics play a major role in solutions that are developed for Microsoft Power Platform. Analytics and insights can be delivered with Microsoft Power Platform in several different ways. The solution architect will need to evaluate the ways for implementing reporting and analytics in the solution.
 
-AI is becoming more important in enhancing the apps and data in business solutions. Accordingly, the solution architect will need to evaluate the options for using AI within Power Platform solutions.
+AI is becoming more important in enhancing the apps and data in business solutions. Accordingly, the solution architect will need to evaluate the options for using AI within Microsoft Power Platform solutions.
 
 ## Reporting and insights
 
@@ -17,7 +17,7 @@ For example:
 
 ## Solution architect role in reporting
 
-Power Platform offers a multitude of options for reporting, which will be covered in this module. Solution architects must evaluate the needs from the requirements and then identify the best approach to take.
+Microsoft Power Platform offers a multitude of options for reporting, which will be covered in this module. Solution architects must evaluate the needs from the requirements and then identify the best approach to take.
 
 > [!NOTE]
 > Different approaches might be required for different needs. The solution architect should select the most appropriate method for each requirement and scenario.

@@ -1,19 +1,19 @@
 Data is at the center of everything that a business does today, and it powers the insights that can drive what the business should do tomorrow. To thrive and grow, businesses need to capture, analyze, predict, present, and report data and do it all with a high level of agility.
 
-With Power Platform, you can:
+With Microsoft Power Platform, you can:
 
 - Access data from the platform by using connectors.
 - Store data in the platform by using Microsoft Dataverse.
 
 ## APIs
 
-Power Platform uses REST APIs to communicate between apps and data and to perform management activities. REST APIs are built on open standards. You can compose HTTP requests for specific operations or use libraries from other sources to generate classes for whatever language or platform you want.
+Microsoft Power Platform uses REST APIs to communicate between apps and data and to perform management activities. REST APIs are built on open standards. You can compose HTTP requests for specific operations or use libraries from other sources to generate classes for whatever language or platform you want.
 
 Connectors and Dataverse use REST API and OData for requests and data.
 
 ## Dataverse vs. connectors
 
-Connectors allow you to take advantage of Power Platform without moving your data. Power BI, Power Apps, and Power Automate use connectors, which allows you to analyze, act, and automate across data and services.
+Connectors allow you to take advantage of Microsoft Power Platform without moving your data. Power BI, Power Apps, and Power Automate use connectors, which allows you to analyze, act, and automate across data and services.
 
 With connectors, you can:
 
@@ -27,7 +27,7 @@ With connectors, you can:
 
 Connectors allow you to build your apps without having to migrate the data, which can be time-consuming or costly.
 
-Microsoft Dataverse should be your data source of choice for new data stores or where you want to use Dataverse capabilities (which will be described subsequently) or features of Power Platform such as AI Builder or Power Apps portals Apps.
+Microsoft Dataverse should be your data source of choice for new data stores or where you want to use Dataverse capabilities (which will be described subsequently) or features of Microsoft Power Platform such as AI Builder or Power Apps portals Apps.
 
 ## Custom connectors
 
@@ -57,7 +57,7 @@ Actions can help make it easier for makers to invoke complex custom logic. For e
 
 You could create a custom connector for the learning service with an action called "Register Student for Class" that performs these steps, as shown in the following image.
 
-![Diagram showing a custom connector in Power Platform.](../media/4-custom-connector.png)
+![Diagram showing a custom connector in Microsoft Power Platform.](../media/4-custom-connector.png)
 
 Makers without the custom connector would need to know the details of the service. Using a custom connector with an action promotes good architectural design; loose coupling could occur in a contract where the calling system doesn't need to know the details because they could change.
 
@@ -96,7 +96,7 @@ Dataverse provides an event model for integrating with other systems, and import
 
 Dataverse uses Microsoft Azure Cognitive Search to enable data that is held in Dataverse to be searched.
 
-Dataverse is not restricted to apps that are built with  Power Platform; the APIs allow applications to be built with other tools, such as Xamarin, to build an external, customer-facing application.
+Dataverse is not restricted to apps that are built with  Microsoft Power Platform; the APIs allow applications to be built with other tools, such as Xamarin, to build an external, customer-facing application.
 
 ## Reasons for choosing Dataverse
 
@@ -104,7 +104,7 @@ Building the data infrastructure to enable business insight can be time-consumin
 
 Dataverse addresses these concerns with a user-friendly, manageable, compliant, scalable, and globally available SaaS data service. Dataverse empowers organizations to work with any type of data and any type of app and then use the data within it to gain insights and drive business action.
 
-As part of Power Platform, Dataverse requires no or little code to be written, so it can be used by anyone, from knowledge workers to professional developers.
+As part of Microsoft Power Platform, Dataverse requires no or little code to be written, so it can be used by anyone, from knowledge workers to professional developers.
 
 Standard and custom tables within Dataverse provide a cloud-based storage option for your data. Tables let you create a business-focused definition of your organization's data for use within apps.
 
@@ -112,7 +112,7 @@ If you are not sure whether Dataverse is your best option, consider these benefi
 
 - **Simple to manage** - Metadata and data are stored in the cloud. You don't have to be concerned about the details of how they're stored.
 - **Simple to secure** - Data is stored in a way that users can see it only if you grant them access. Role-based security allows you to control access to tables for different users within your organization.
-- **Access your data** – Data from your Power Platform applications is also stored within Dataverse, allowing you to quickly build apps that use your data.
+- **Access your data** – Data from your Microsoft Power Platform applications is also stored within Dataverse, allowing you to quickly build apps that use your data.
 - **Rich metadata** - Data types and relationships are used directly within Power Apps.
 - **Logic and validation** - Define calculated columns, business rules, workflows, and business process flows to ensure data quality and drive business processes.
 - **Productivity tools** - Tables are available within the add-ins for Microsoft Excel to increase productivity and ensure data accessibility.
@@ -135,7 +135,7 @@ Dataverse has the following features:
 - Custom actions
 - Custom API
 
-These capabilities allow complex enterprise applications to be built by using Power Platform. Though the solution architect might not have been a developer, they need to be familiar with each of these points and how they can be used in solutions.
+These capabilities allow complex enterprise applications to be built by using Microsoft Power Platform. Though the solution architect might not have been a developer, they need to be familiar with each of these points and how they can be used in solutions.
 
 ## Dataverse API
 

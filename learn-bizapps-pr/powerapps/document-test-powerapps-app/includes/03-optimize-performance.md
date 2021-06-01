@@ -16,7 +16,7 @@ CDS apps are web-based applications and use web browsers, such as Edge or Chrome
 
 ## App performance
 
-Design of the app itself can greatly affect performance. One of the strengths of the Power platform is ability to quickly build robust small apps targeting specific users and specific functionality. Instead of a monolithic app that is more likely to suffer from performance issues you now have the ability to design several separate apps. This separation ensures that each app can be analyzed and tuned independently without too much impact on the others.
+Design of the app itself can greatly affect performance. One of the strengths of Microsoft Power Platform is ability to quickly build robust small apps targeting specific users and specific functionality. Instead of a monolithic app that is more likely to suffer from performance issues you now have the ability to design several separate apps. This separation ensures that each app can be analyzed and tuned independently without too much impact on the others.
 
 Design techniques for individual components may also affect performance of an app.
 
