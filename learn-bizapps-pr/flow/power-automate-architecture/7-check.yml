@@ -32,9 +32,6 @@ quiz:
     - content: Dynamics 365
       isCorrect: false
       explanation: The Dynamics 365 connector is deprecated and can only perform CRUD operations.
-    - content: Dataverse
-      isCorrect: false
-      explanation: The Dataverse connector can only perform CRUD operations.
     - content: Dataverse 
       isCorrect: true
       explanation: The Dataverse  connector can perform CRUD and other advanced operations such as perform a bound action and perform an unbound action.
