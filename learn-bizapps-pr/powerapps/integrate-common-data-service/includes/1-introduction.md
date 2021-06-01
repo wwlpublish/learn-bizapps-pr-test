@@ -13,12 +13,12 @@ Portals Studio provides a basic interface for creating and configuring table lis
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the New table list in Portal Management.](../media/list-portal-app.png)](../media/list-portal-app.png#lightbox)
 
-An table list can be as simple or as complicated as your business requirements specify. To begin, the only required properties for the table list, other than the name and the website, are the target **Table Name** and one or more **Views**.
+A table list can be as simple or as complicated as your business requirements specify. To begin, the only required properties for the table list, other than the name and the website, are the target **Table Name** and one or more **Views**.
 
-Table lists are highly configurable and have several settings that define the list behavior. Lists can also include actions for the user to interact with the items on the list.
+table lists are highly configurable and have several settings that define the list behavior. Lists can also include actions for the user to interact with the items on the list.
 
 > [!div class="mx-imgBorder"]
-> [![Diagram of Table list structure and overview.](../media/entity-list-overview.png)](../media/entity-list-overview.png#lightbox)
+> [![Diagram of table list structure and overview.](../media/entity-list-overview.png)](../media/entity-list-overview.png#lightbox)
 
 The following sections describe some of the most common features and settings.
 
@@ -60,14 +60,14 @@ If both the current portal user and current portal user's parent account filters
 - **Metadata filters** - This feature is also configuration-only. Records in the list can be filtered on any of the list columns, including ranges, lookups, optionsets, and custom FetchXml expressions. Portal users have access to the interactive filtering panel when the table list is rendered.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Table list search and filtering features.](../media/entity-list-features-filtering.png)](../media/entity-list-features-filtering.png#lightbox)
+> [![Screenshot of the table list search and filtering features.](../media/entity-list-features-filtering.png)](../media/entity-list-features-filtering.png#lightbox)
 
 #### Display options
 
 Views can render as traditional grid lists, calendars, or maps. Delivering list content as an OData feed is also supported.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Table list rendered as a map and calendar.](../media/entity-list-map-calendar.png)](../media/entity-list-map-calendar.png#lightbox)
+> [![Screenshot of the table list rendered as a map and calendar.](../media/entity-list-map-calendar.png)](../media/entity-list-map-calendar.png#lightbox)
 
 Alternative views might require additional configuration such as start and end date columns for a calendar, or latitude and longitude columns for a map.
 
@@ -79,6 +79,6 @@ Alternative views might require additional configuration such as start and end d
 Table lists can have actions associated with them to enable commands for each list, such as **Create** and **Download** (as a Microsoft Excel spreadsheet), or commands for each record, such as **View** or **Edit**, and to trigger workflows.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Table list features and commands.](../media/entity-list-features-commands.png)](../media/entity-list-features-commands.png#lightbox)
+> [![Screenshot of the table list features and commands.](../media/entity-list-features-commands.png)](../media/entity-list-features-commands.png#lightbox)
 
-For more detailed information about table list attributes and relationships and how to use them to configure list behavior, see [About table lists](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).
+For more detailed information about table list attributes and relationships and how to use them to configure list behavior, see [About table lists](/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).

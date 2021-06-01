@@ -25,7 +25,7 @@ Dataverse analytics are available via the Power platform admin center [https://a
 
 ### Dataverse
 
-The Entity Usage tab contains information about most used out-of-the-box and custom entities. Identifying the most used entities helps concentrate the optimization efforts on the parts of the app that matter.
+The Table Usage tab contains information about most used out-of-the-box and custom entities. Identifying the most used entities helps concentrate the optimization efforts on the parts of the app that matter.
 
 ![Screenshot showing the Dataverse analytics for common usage.](../media/performance-tools-image-3-updated.png)
 

@@ -10,7 +10,7 @@ data throughout the app. This reduces the repetitive calls to the data
 source across the network. The following is an example of this process.
 
 In your app, you have several screens where you provide a drop-down menu for
-selecting the department. The list of departments is kept in Microsoft Dataverse in a table named **DepartmentList**. On each instance of the
+selecting the department. The list of departments is kept in Microsoft Dataverse in an table named **DepartmentList**. On each instance of the
 menu, you use the following formula.
 ```
 Filter(DepartmentList, Status = "Active")
@@ -40,16 +40,16 @@ limitation as you implement the use of collections in your app.
 Delegation also affects performance
 -----------------------------------
 
-When you learned about [delegation](https://docs.microsoft.com/learn/modules/work-with-data-source-limits-powerapps-canvas-app/), 
-you focused on returning the right amount of records for your
+When you learned about [delegation](/learn/modules/work-with-data-source-limits-powerapps-canvas-app/), 
+you focused on returning the right amount of rows for your
 data source. It is also important to remember that delegation,
 especially for mobile apps, can affect performance.
 
 When a formula delegates to the data source, all of the processing is
-handled by the data source, and only the matching records are returned
+handled by the data source, and only the matching rows are returned
 across the network to the app to be displayed. If a function is not
 delegable, then it is very common to change the delegation limit to
-2,000 records. This means that the first 2,000 records will be
+2,000 rows. This means that the first 2,000 rows will be
 downloaded across the network and then processed locally. In scenarios
 where you are on a slow cellular connection or a low-end mobile device
 this processing can take a considerable amount of time, causing a poor

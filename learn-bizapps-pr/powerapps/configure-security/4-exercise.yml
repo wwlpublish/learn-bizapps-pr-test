@@ -1,10 +1,10 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.configure-security.4-exercise 
-title: Exercise - Apply table permissions
+title: Exercise - Apply entity permissions
 metadata: 
-  title: Exercise - Apply table permissions
-  description: Practice applying table permissions.
-  ms.date: 07/15/2020 
+  title: Exercise - Apply entity permissions
+  description: Practice applying entity permissions.
+  ms.date: 06/01/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 

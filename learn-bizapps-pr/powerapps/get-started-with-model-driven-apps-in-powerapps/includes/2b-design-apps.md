@@ -25,11 +25,11 @@ Model-driven apps are created using the App Designer.  You will choose the table
 
 The first step in the process is to understand your business requirements. Work with the app stakeholders to consider your security, accessibility, data, and design needs. 
 
-For security, the Dataverse has a robust security model. You will want to consider how securing your app’s data affects your app and what security model best supports your business needs. There are lots of options available, including hierarchy security, row-level security, to name a few. You will need to confirm your data is secured to meet your needs, and then your app will honor that security. For more information, see [Security in Dataverse](https://docs.microsoft.com/power-platform/admin/wp-security?azureportal=true).
+For security, the Dataverse has a robust security model. You will want to consider how securing your app’s data affects your app and what security model best supports your business needs. There are lots of options available, including hierarchy security, row-level security, to name a few. You will need to confirm your data is secured to meet your needs, and then your app will honor that security. For more information, see [Security in Dataverse](/power-platform/admin/wp-security?azureportal=true).
 
 During this process, you will also want to identify any government regulations or authentication/authorization requirements (if applicable). You may want to implement multi-factor authentication but will need to think about how this will affect users connecting to your application. You don’t necessarily have to have all the answers to your questions here; you just want to flush out all of the requirements. 
 
-Finally, does your app need to be available when the user is disconnected from the internet? This is called Offline Mode and is supported by the Dataverse and Model-driven apps when using iOS or Android clients. It does require additional design considerations. For more information, see [Set up mobile offline synchronization](https://docs.microsoft.com/dynamics365/mobile-app/setup-mobile-offline-for-admin?azureportal=true).
+Finally, does your app need to be available when the user is disconnected from the internet? This is called Offline Mode and is supported by the Dataverse and Model-driven apps when using iOS or Android clients. It does require additional design considerations. For more information, see [Set up mobile offline synchronization](/dynamics365/mobile-app/setup-mobile-offline-for-admin?azureportal=true).
 	
 ### Data Model
 
@@ -61,7 +61,7 @@ Each solution you develop and deploy will have its own set of metadata to collec
 As you think about your data model also think about column types. When adding columns to your table in the Dataverse, the column type you choose will determine how users enter and view that in your Model-driven app. Option sets show as dropdowns, currency shows with currency symbols, while decimal numbers don’t. These little changes in the table can have a profound effect on how your user experiences your app.
 
 > [!NOTE]
-> If a column type needs to be changed to a different column type, (i.e. text column to an option set), then you will need to delete that column and recreate with the correct column type. This will cause you to lose any data associated with that column.
+> If a column type needs to be changed to a different column type, (i.e. text column to an choice), then you will need to delete that column and recreate with the correct column type. This will cause you to lose any data associated with that column.
 
 ![Screenshot of fundraiser table default columns.](../media/new-table-field-types.png)
 
@@ -80,7 +80,7 @@ Here is an example of what the New Fundraiser form looks like when editing from 
 
 When incorporating business logic in your app, there are two primary options available. You can set **Business Rules** on your Dataverse tables or you can build **Business Process Flows**.
 
-With **Business Rules,** you will define behaviors at the data layer. This is great for changing when a column is required, setting a default value, or even showing or hiding a column based on a criteria. An example could be a table for tracking expenses. You could have a column for type of travel and then build a business rule that says if they choose automobile then the mileage column is required, else it is optional. This gives you great power to make sure you maintain data consistency in all scenarios. 
+With **Business Rules,** you will define behaviors at the data layer. This is great for changing when a column is required, setting a default value, or even showing or hiding a column based on a criteria. An example could be an table for tracking expenses. You could have a column for type of travel and then build a business rule that says if they choose automobile then the mileage column is required, else it is optional. This gives you great power to make sure you maintain data consistency in all scenarios. 
 
 **Business Process Flows** are used to guide users through using your app. These workflows can provide visuals on next steps based on the status of the data and facilitate other actions that you want to occur as the user uses the app. Business Process Flows let you bring automation to your app and make it more of a guided experience than just a place to enter data.
 
@@ -92,6 +92,6 @@ A common output need for apps is to visualize the data.  For this requirement, y
 
 ### Additional third-party solutions and app accelerators
 
-It is also important to know about the different App accelerators and third-party solutions available to you. Depending on the industry you are in, Health, Financial, Banking, Education, Non- Profit, Automotive, or Media, Microsoft has released a number of accelerators or foundational components to assist you with quickly standing up your solution. For more information, see [Industry accelerators overview](https://docs.microsoft.com/common-data-model/industry-accelerators?azureportal=true).
+It is also important to know about the different App accelerators and third-party solutions available to you. Depending on the industry you are in, Health, Financial, Banking, Education, Non- Profit, Automotive, or Media, Microsoft has released a number of accelerators or foundational components to assist you with quickly standing up your solution. For more information, see [Industry accelerators overview](/common-data-model/industry-accelerators?azureportal=true).
 
-For more information. see [Planning a Power Apps project](https://docs.microsoft.com/powerapps/guidance/planning/introduction).
+For more information. see [Planning a Power Apps project](/powerapps/guidance/planning/introduction).
