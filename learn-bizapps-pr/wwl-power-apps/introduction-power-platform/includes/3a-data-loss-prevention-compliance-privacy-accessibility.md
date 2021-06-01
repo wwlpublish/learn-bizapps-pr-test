@@ -77,4 +77,4 @@ usability for all users, regardless of their abilities. You can use
 the [Accessibility Checker](/powerapps/maker/canvas-apps/accessibility-checker) to
 help review potential accessibility issues in your app. For more details and
 suggestions on making your canvas apps more accessible, visit
-[/powerapps/maker/canvas-apps/accessible-apps](/powerapps/maker/canvas-apps/accessible-apps).
+[Create accessible canvas apps in Power Apps](/powerapps/maker/canvas-apps/accessible-apps).
