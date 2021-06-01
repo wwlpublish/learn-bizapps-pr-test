@@ -2,7 +2,7 @@ The Filter function works great when you want to make very specific, and
 often static queries. Use the Search function when you would like to do
 a more flexible query against a string column. A common use case is
 providing a search input box to allow the app user to type in a string
-and then your gallery will return records that match the string anywhere
+and then your gallery will return rows that match the string anywhere
 within the column.
 
 An example would be if you wanted to do a partial string match on an
@@ -14,10 +14,10 @@ use the following formula in the Items property of a gallery.
 Search(YourDataSource, SearchInput.Text, "Address")
 ```
 
-This would return all the records where the Address column contained the
+This would return all the rows where the Address column contained the
 value entered in the **Text Input** control SearchInput. Another useful
 behavior is if SearchInput is blank, meaning the user has not entered
-any data, then all the records from YourDataSource would be returned.
+any data, then all the rows from YourDataSource would be returned.
 This makes the Search function very powerful and easy to use.
 
 The Search function can also be used to search across more than one

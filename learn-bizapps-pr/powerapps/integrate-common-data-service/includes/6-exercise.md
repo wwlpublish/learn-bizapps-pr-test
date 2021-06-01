@@ -53,12 +53,12 @@ Before you enable additional actions for the table form, you need to create a wo
    - **Process name** - Case On Hold
    - **Category** - Workflow
    - **Run this workflow in the background** - Clear this option
-   - **Table** - Case
+   - **table** - Case
 1. Select **OK**.
 1. Select **As an on-demand process**.
-1. Clear **Record is created**.
+1. Clear **row is created**.
 1. Select **Add Step > Change Status**.
-1. Change the record status to **On Hold**.
+1. Change the row status to **On Hold**.
 1. Select **Activate**.
 1. Select **Close**.
 
@@ -69,7 +69,7 @@ After the workflow has been created, you can add a workflow action button to the
 1. Go to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
 1. Make sure that the correct environment is selected in the environment selector in the upper-right corner.
 1. From the **Apps** list, locate and open the Portal Management app (Type = Model-driven).
-1. Select **Table Forms**.
+1. Select **table Forms**.
 1. Select **Customer Service - Edit Case**.
 1. Select the **Additional Settings** tab.
 1. Press **+ Workflow**.
@@ -95,11 +95,11 @@ To test that your new workflow action button works, follow these steps:
    1. Select **Login Enabled**.
    1. Select **Save**.
    1. Select **Change Password** and enter the new password of your choice.
-   1. Add the **Authenticated Users** web role to the contact record.
+   1. Add the **Authenticated Users** web role to the contact row.
    1. Sign out as a system administrator.
    1. Sign in as the new user.
 1. Select **Support** on the top menu bar.
-1. Select an existing case. If no existing cases exist, create and save a new case record.
+1. Select an existing case. If no existing cases exist, create and save a new case row.
   
    The case should be **Active - In Progress**.
 
@@ -124,7 +124,7 @@ To test that your new workflow action button works, follow these steps:
 Having the workflow button visible at all times does not make sense in certain scenarios, such as for disabled cases. You can enter additional information to enhance the user experience.
 
 1. Switch to the Portal Management app.
-1. Select **Table Forms**.
+1. Select **table Forms**.
 1. Select **Customer Service - Edit Case**.
 1. Select the **Additional Settings** tab.
 1. Select **Advanced Settings** and locate the **Workflow** action.

@@ -10,7 +10,7 @@ In the upper-right corner of the home page, you can view your current environmen
 If you're new to Microsoft Power Apps, you might have only the default environment at this point. If a drop-down menu is visible next to the environment name, this indicates that other environments are available.
 
 > [!NOTE]
-> If you want to work with Power Apps environments, you need a Power Apps Per app plan or Power Apps Per user plan. Additionally, if you want to work with Dynamics 365 restricted entities, you must have a Power Apps for Dynamics 365 license. Learn more about [licenses for Dynamics 365](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses).
+> If you want to work with Power Apps environments, you need a Power Apps Per app plan or Power Apps Per user plan. Additionally, if you want to work with Dynamics 365 restricted tables, you must have a Power Apps for Dynamics 365 license. Learn more about [licenses for Dynamics 365](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus#licenses).
 
 ## Reasons to use environments
 Reasons to create environments beyond the default one include:

@@ -1,4 +1,4 @@
-Table lists, table forms, and web forms are the fundamental building blocks that enable Microsoft Dataverse data interactions for portal users. Each of them can be used in isolation. An table list can display a company directory and allow users to download it as an Excel spreadsheet. An table form can capture leads on a "contact us" page. A web form can collect anonymous product feedback from site visitors.
+Table lists, table forms, and web forms are the fundamental building blocks that enable Microsoft Dataverse data interactions for portal users. Each of them can be used in isolation. A table list can display a company directory and allow users to download it as an Excel spreadsheet. An table form can capture leads on a "contact us" page. A web form can collect anonymous product feedback from site visitors.
 
 However, the real power of the Power Apps portals platform is in how these components can be brought together by using data-driven configuration. The following sections explain how you can use the lists and forms together and start building robust and functional web apps instead of isolated web pages.
 
@@ -14,7 +14,7 @@ The **Help desk** application that is included in the portal templates contains 
 - **Table list** - Contains actions that are linked to table forms.
 
    > [!div class="mx-imgBorder"]
-   > [![Screenshot of the Case entity list with open new case pop out.](../media/case-entity-list.png)](../media/case-entity-list.png#lightbox)
+   > [![Screenshot of the Case table list with open new case pop out.](../media/case-entity-list.png)](../media/case-entity-list.png#lightbox)
 
 - **Table form** - Used for editing a case and also contains metadata to help refine the display of some columns and enable the **Timeline** subgrid for comments. The table list includes case-specific actions such as **Close case**.
 
@@ -25,9 +25,9 @@ This table list is related to the **Customer Service – Home** webpage and port
 
 You can use this pattern across any table in Dataverse and any new table that might be required to meet a customer’s needs. The basic configuration includes:
 
-- Table lists that are built on one or more views.
+- table lists that are built on one or more views.
 
-- Table forms to create and view individual records. If the record creation process is complicated, use a web form instead.
+- table forms to create and view individual rows. If the row creation process is complicated, use a web form instead.
 
 - Action button configuration on the table list to use table forms for create, update, and view operations.
 
@@ -45,9 +45,9 @@ You can use advanced settings to implement some of the features that do not map 
 
 ### Commands
 
-Table lists, table forms, and web forms include action button configuration that adds per-record actions. See [Table form action configuration](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms#entity-form-action-configuration/?azure-portal=true) and [Table list configuration](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists#entity-list-configuration/?azure-portal=true) for information about available actions.
+table lists, table forms, and web forms include action button configuration that adds per-row actions. See [table form action configuration](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-forms#entity-form-action-configuration/?azure-portal=true) and [table list configuration](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists#entity-list-configuration/?azure-portal=true) for information about available actions.
 
-Some commands include the **Filter Criteria** setting. You can use it to enter FetchXML that evaluates and hides the command if the selected record is not returned by the specified FetchXML query.
+Some commands include the **Filter Criteria** setting. You can use it to enter FetchXML that evaluates and hides the command if the selected row is not returned by the specified FetchXML query.
 
 ### Form metadata
 
@@ -59,7 +59,7 @@ For more details about metadata configuration for forms, see [Configure web form
 
 ### Form subgrids
 
-If a model-driven form includes a subgrid of related records, the table form and web forms display a read-only list of records by using the default view. To enable actions for the grid such as **Create**, **Update**, and **Delete**, you must configure those actions by using metadata configuration. Metadata configuration allows you to implement the portal equivalent of standard grid commands that are available in model-driven apps. For more information and step-by-step instructions, see [Configure Web form subgrids for portals](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-subgrid/?azure-portal=true).
+If a model-driven form includes a subgrid of related rows, the table form and web forms display a read-only list of rows by using the default view. To enable actions for the grid such as **Create**, **Update**, and **Delete**, you must configure those actions by using metadata configuration. Metadata configuration allows you to implement the portal equivalent of standard grid commands that are available in model-driven apps. For more information and step-by-step instructions, see [Configure Web form subgrids for portals](https://docs.microsoft.com/powerapps/maker/portals/configure/configure-web-form-subgrid/?azure-portal=true).
 
 ### Notes
 
@@ -76,7 +76,7 @@ Portal comments can be shown on a form by using the **Timeline** control. No fun
 
 - Comment approval by using the **Send** command. Only sent or received comments are visible on the portal.
 
-- Record of portal users who created and received the comment.
+- row of portal users who created and received the comment.
 
 - Further customization of the portal comment table is possible to implement additional business requirements.
 
