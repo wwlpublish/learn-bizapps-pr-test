@@ -1,4 +1,4 @@
-The  Introduction to Power Platform security and governance module
+The  Introduction to Microsoft Power Platform security and governance module
 introduced Data Loss Prevention (DLP) policies, which restrict the
 connectors that can be used together within the same flow or
 app. The module also introduced the scope that a DLP policy will apply to. For

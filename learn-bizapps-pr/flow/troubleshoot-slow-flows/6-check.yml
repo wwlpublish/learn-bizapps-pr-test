@@ -41,7 +41,7 @@ quiz:
     - content: Flow and environment analytics have the same date ranges.
       isCorrect: false 
       explanation: Flow analytics provides you with a history of a specific flow and the analytics can be filtered in 7, 14, and 30 days. Environment analytics provides you with a history of all flows in that environment and the analytics can be filtered in 7, 14, and 28 days.
-  - content: What are the three groups of data loss prevention (DLP) policies in Power Platform admin center?
+  - content: What are the three groups of data loss prevention (DLP) policies in Microsoft Power Platform admin center?
     choices: 
     - content: Essential, Non-Essential, and Blocked
       isCorrect: false 

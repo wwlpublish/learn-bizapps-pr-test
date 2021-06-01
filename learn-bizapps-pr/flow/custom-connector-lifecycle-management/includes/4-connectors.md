@@ -81,7 +81,7 @@ The **paconn create** command would create a custom connector in the target envi
 
 ```
 paconn create ^
-  -e [Power Platform Environment GUID] ^
+  -e [Microsoft Power Platform Environment GUID] ^
   --api-prop [Path to apiProperties.json] ^
   --api-def [Path to apiDefinition.swagger.json] ^
   --icon [Path to icon.png] ^
@@ -96,7 +96,7 @@ The **paconn update** command updates an existing custom connector in the target
 
 ```
 paconn update ^
-  -e [Power Platform Environment GUID] ^
+  -e [Microsoft Power Platform Environment GUID] ^
   -c [Connector ID] ^
   --api-prop [Path to apiProperties.json] ^
   --api-def [Path to apiDefinition.swagger.json] ^
@@ -107,4 +107,4 @@ paconn update ^
 > [!IMPORTANT]
 > Update will replace the definition in the target environment, even if it has been modified since you downloaded your copy. It is important to coordinate with anyone else who is making updates to the connector.
 
-The Microsoft Power Platform Connectors CLI is an essential tool when you are building custom connectors. Use it as part of your life cycle to help make changes to the connectors and to download copies of the connector definition files for source control.
+Microsoft Power Platform Connectors CLI is an essential tool when you are building custom connectors. Use it as part of your life cycle to help make changes to the connectors and to download copies of the connector definition files for source control.

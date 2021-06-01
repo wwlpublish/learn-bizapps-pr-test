@@ -7,9 +7,9 @@ You can create data loss prevention (DLP) policies that can act as guardrails to
 DLP policies enforce rules for which connectors can be used together by classifying connectors as **Business** or **Non-Business**. If you put a connector in the **Business** group, it can only be used with other connectors from that group in any given app or flow. Occasionally, you might want to block the use of certain connectors altogether by classifying them as **Blocked**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power Platform admin center on the Data policies page on the Assign connectors step.](../media/image-27.png)](../media/image-27.png#lightbox)
+> [![Screenshot of Microsoft Power Platform admin center on the Data policies page on the Assign connectors step.](../media/image-27.png)](../media/image-27.png#lightbox)
 
-When a new policy is created, all connectors are placed in the **Non-Business** group by default. From that point, the connectors can be moved to **Business** or **Blocked** based on your preference. You can manage the connectors in a data group when you create or modify the properties of a DLP policy from the Microsoft Power Platform admin center.
+When a new policy is created, all connectors are placed in the **Non-Business** group by default. From that point, the connectors can be moved to **Business** or **Blocked** based on your preference. You can manage the connectors in a data group when you create or modify the properties of a DLP policy from Microsoft Power Platform admin center.
 
 ## Confirm that connectors are in the same group
 

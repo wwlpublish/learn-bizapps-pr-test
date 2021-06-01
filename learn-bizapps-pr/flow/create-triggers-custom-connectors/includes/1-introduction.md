@@ -43,7 +43,7 @@ Fundamentally, these two types of triggers differ regarding which side is respon
 
 ## Define a trigger
 
-Much like the connector definition, both types of triggers are defined by an OpenAPI (Swagger) document that specifies the endpoints, parameters, conditions, and responses. However, the OpenAPI specification version that is used by Microsoft Power Platform doesn't differentiate actions and triggers. Power Platform adds [custom OpenAPI extensions](https://docs.microsoft.com/connectors/custom-connectors/openapi-extensions/?azure-portal=true) to extend the specifications to define triggers and their content.
+Much like the connector definition, both types of triggers are defined by an OpenAPI (Swagger) document that specifies the endpoints, parameters, conditions, and responses. However, the OpenAPI specification version that is used by Microsoft Power Platform doesn't differentiate actions and triggers. Microsoft Power Platform adds [custom OpenAPI extensions](https://docs.microsoft.com/connectors/custom-connectors/openapi-extensions/?azure-portal=true) to extend the specifications to define triggers and their content.
 
 A step-by-step wizard for triggers is available, and it follows the same general layout as the action wizard.
 

@@ -8,7 +8,7 @@ Introduction to Power Automate security and governance module, which is the
 first module of this learning path. In addition, you should review the DLP
 prerequisites that were outlined at the beginning of this module.
 
-1. Sign in to the [Power Platform Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true) as an environment or tenant administrator.
+1. Sign in to the [Microsoft Power Platform Admin Center](https://admin.powerplatform.microsoft.com/?azure-portal=true) as an environment or tenant administrator.
 
 1. Select **Data policies** from the left navigation pane.
 
@@ -29,7 +29,7 @@ prerequisites that were outlined at the beginning of this module.
 
     Your **Business** data group should now resemble the following image.
 
-    ![Screenshot of the Power Platform admin center with added connectors.](../media/16-added-connectors-update.png)
+    ![Screenshot of Microsoft Power Platform admin center with added connectors.](../media/16-added-connectors-update.png)
 1. Select the **Next** button
 1. For Define Scope, select **Exclude certain environments** and then select **Next**
 1. Select the environment you want to add to the policy and then select the **+ Add to policy** button at the top.

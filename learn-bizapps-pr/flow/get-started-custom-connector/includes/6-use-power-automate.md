@@ -16,7 +16,7 @@ In this task, you will create a Power Automate flow inside the Contoso invoicing
     > [!NOTE]
     > If you still have the API key that you previously used, it would still be usable at this time. If not, you can get a new one.
 
-1. Go to [Power Platform maker portal](https://make.powerapps.com/) and select the environment that you used in the **Exercise: Create a new connector in a solution** unit.
+1. Go to [Microsoft Power Platform maker portal](https://make.powerapps.com/) and select the environment that you used in the **Exercise: Create a new connector in a solution** unit.
 
 1. Select **Solutions** and then select to open the **Contoso invoicing** solution.
 

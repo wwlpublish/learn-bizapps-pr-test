@@ -1,4 +1,4 @@
-Core components are set up to sync all your resources from Power Platform into tables to get more visibility into the apps, flows, and makers that exist in your environment. The core components contain assets that are relevant to admins only.
+Core components are set up to sync all your resources from Microsoft Power Platform into tables to get more visibility into the apps, flows, and makers that exist in your environment. The core components contain assets that are relevant to admins only.
 
 The following information is available for each app: 
 
@@ -94,7 +94,7 @@ Importing the solution is a required installation process that helps ensure that
 
 1.  Create an environment in which to set up the CoE.
 
-	1.  Go to the Power Platform admin center.
+	1.  Go to Microsoft Power Platform admin center.
 	
 	1.  Select **Environments > + New**, and then enter a name, type, and purpose.
 	
@@ -136,7 +136,7 @@ Importing the solution is a required installation process that helps ensure that
 		
 		-   Power Apps for Makers
 		
-		-   Power Platform for Admins
+		-   Microsoft Power Platform for Admins
 		
 		-   Power Automate for Admins
 		
@@ -215,7 +215,7 @@ The following assets depend on the CoE Settings table:
 
 To configure CoE settings:
 
-1.  Go to make.powerapps.com, select **Apps**, and then open the Power Platform Admin View model-driven app in Play mode.
+1.  Go to make.powerapps.com, select **Apps**, and then open Microsoft Power Platform Admin View model-driven app in Play mode.
 
 1.  On the left pane, select **Configure**.
 

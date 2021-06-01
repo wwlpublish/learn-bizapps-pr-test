@@ -4,7 +4,7 @@ If you have completed the *Build your first Power Automate Desktop flow* module 
 
 ## Create a trial environment with database
 
-After you have signed in to a valid tenant, go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments/?azure-portal=true). You will need to create a trial environment with a database. Select **Environments** and then choose your automatically created environment, the **default**.
+After you have signed in to a valid tenant, go to the [Microsoft Power Platform admin center](https://admin.powerplatform.microsoft.com/environments/?azure-portal=true). You will need to create a trial environment with a database. Select **Environments** and then choose your automatically created environment, the **default**.
 
 If you are using an existing tenant rather than creating a trial for this exercise, you can use the default environment or create a new one to keep it separate from your existing solutions.
 

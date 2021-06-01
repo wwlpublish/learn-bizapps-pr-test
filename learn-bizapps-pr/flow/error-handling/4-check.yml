@@ -59,13 +59,13 @@ quiz:
     choices: 
     - content: Run, Usage, Created, Shared, and Connectors
       isCorrect: true 
-      explanation: Run, Usage, Created, Shared, and Connectors are the out-of-the-box analytics features that are available in the Power Platform admin center for Power Automate.
+      explanation: Run, Usage, Created, Shared, and Connectors are the out-of-the-box analytics features that are available in Microsoft Power Platform admin center for Power Automate.
     - content: Run, Usage, Created, Deleted, and Shared
       isCorrect: false 
-      explanation: Run, Usage, Created, Shared, and Connectors are the out-of-the-box analytics features that are available in the Power Platform admin center for Power Automate.
+      explanation: Run, Usage, Created, Shared, and Connectors are the out-of-the-box analytics features that are available in Microsoft Power Platform admin center for Power Automate.
     - content: Run, Usage, Created, and Connectors
       isCorrect: false 
-      explanation: Run, Usage, Created, Shared, and Connectors are the out-of-the-box analytics features that are available in the Power Platform admin center for Power Automate.
+      explanation: Run, Usage, Created, Shared, and Connectors are the out-of-the-box analytics features that are available in Microsoft Power Platform admin center for Power Automate.
     - content: Run, Usage, Created, Deleted, Shared, and Connectors
       isCorrect: false 
-      explanation: Run, Usage, Created, Shared, and Connectors are the out-of-the-box analytics features that are available in the Power Platform admin center for Power Automate.
+      explanation: Run, Usage, Created, Shared, and Connectors are the out-of-the-box analytics features that are available in Microsoft Power Platform admin center for Power Automate.

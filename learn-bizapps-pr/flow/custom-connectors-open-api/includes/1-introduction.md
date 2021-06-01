@@ -22,7 +22,7 @@ While some OpenAPI extensions are configured as you work with definitions by usi
 
 -   **Import OpenAPI** - When you import an OpenAPI file, it can contain Microsoft OpenAPI extensions.
 
--   **Power Platform Connectors CLI** - By using the command-line tool paconn, you can download the API definition file and edit it by using your favorite JSON editor. When you have finished editing, you can use paconn to upload the amended definitions back to your environment. This approach is best when you need to make other changes to the **API Properties** file for connection parameters, for example.
+-   **Microsoft Power Platform Connectors CLI** - By using the command-line tool paconn, you can download the API definition file and edit it by using your favorite JSON editor. When you have finished editing, you can use paconn to upload the amended definitions back to your environment. This approach is best when you need to make other changes to the **API Properties** file for connection parameters, for example.
 
 -   **Built-in Swagger editor** - The custom connector designer has a built-in OpenAPI editor, which is the quickest way to add OpenAPI extensions.
 
@@ -40,7 +40,7 @@ When the editor is engaged, the OpenAPI definition in YAML Ain't Markup Language
 
 If you aren't familiar with [YAML](https://yaml.org/?azure-portal=true), it's a human-friendly data serialization standard that helps you make changes to the YAML content, save it, and have it consumed by the connector runtime.
 
-Most changes that you'll make will have an example to start from. A good place to look for changes in YAML is in other connectors that are located in the [Power Platform Connector GitHub repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true). For example, if you want to implement an **x-ms-capability** extension, you could search the repository and see how other connectors have configured it.
+Most changes that you'll make will have an example to start from. A good place to look for changes in YAML is in other connectors that are located in the [Microsoft Power Platform Connector GitHub repository](https://github.com/microsoft/PowerPlatformConnectors/?azure-portal=true). For example, if you want to implement an **x-ms-capability** extension, you could search the repository and see how other connectors have configured it.
 
 When using the editor, it's best to make small, focused changes. The editor checks your syntax as you type and tells you, in real time, if a mistake has been made and where the mistake is located.
 
