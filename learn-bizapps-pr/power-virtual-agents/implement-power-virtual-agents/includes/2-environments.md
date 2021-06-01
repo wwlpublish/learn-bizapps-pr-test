@@ -11,10 +11,10 @@ To create a bot in an environment where you don't have access, you'll need to be
 
 - Assign the security role of "bot author" to you in the environment.
 
-To assign the security role of "bot author," the Power Platform admin must go to the Power Platform admin center, select the environment, and then select **Settings**.
+To assign the security role of "bot author," Microsoft Power Platform admin must go to Microsoft Power Platform admin center, select the environment, and then select **Settings**.
 
 > [!div class="mx-imgBorder"]
-> [![Power Platform admin center with the Environments tab selected and the Settings button selected.](../media/environment-pva-settings.png)](../media/environment-pva-settings.png#lightbox)
+> [![Microsoft Power Platform admin center with the Environments tab selected and the Settings button selected.](../media/environment-pva-settings.png)](../media/environment-pva-settings.png#lightbox)
 
 In **Users + permissions**, select **Security roles**.
 
@@ -29,7 +29,7 @@ Select **Bot Author**.
 Select **+ Add people**.
 
 > [!div class="mx-imgBorder"]
-> [![Power Platform admin center open to Environments > Contoso (default) > Settings > Security roles > Bot Author with the Add People button highlighted.](../media/add-people.png)](../media/add-people.png#lightbox)
+> [![Microsoft Power Platform admin center open to Environments > Contoso (default) > Settings > Security roles > Bot Author with the Add People button highlighted.](../media/add-people.png)](../media/add-people.png#lightbox)
 
 You can search for the person whom you are looking for, select the name, and then select **Add**.
 

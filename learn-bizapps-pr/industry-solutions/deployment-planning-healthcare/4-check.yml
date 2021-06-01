@@ -15,18 +15,18 @@ quiz:
   questions: 
   - content: You want to provision the Health Bot to implement on your existing Patient Access portal. What other Microsoft services do you require?
     choices: 
-    - content: Power Platform
+    - content: Microsoft Power Platform
       isCorrect: false
-      explanation: You require Microsoft Azure to provision the Azure Health Bot. Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
+      explanation: You require Microsoft Azure to provision the Azure Health Bot. Microsoft Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
     - content: Dynamics 365
       isCorrect: false 
-      explanation: You require Microsoft Azure to provision the Azure Health Bot. Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
+      explanation: You require Microsoft Azure to provision the Azure Health Bot. Microsoft Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
     - content: Microsoft Azure
       isCorrect: true
-      explanation: You require Microsoft Azure to provision the Azure Health Bot. Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
+      explanation: You require Microsoft Azure to provision the Azure Health Bot. Microsoft Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
     - content: Microsoft 365
       isCorrect: false 
-      explanation: You require Microsoft Azure to provision the Azure Health Bot. Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
+      explanation: You require Microsoft Azure to provision the Azure Health Bot. Microsoft Power Platform and Dynamics 365 are for Microsoft Cloud for Health applications powered by Dynamics 365. Microsoft 365 is required for the EHR Teams integration and Microsoft Bookings.
   - content: An organization has a subscription to the Microsoft Cloud for Healthcare add-on, is using the Care Management app, and wants to roll out the Home Health app. What other license do they require?
     choices: 
     - content: Power Apps portals Login capacity add-on

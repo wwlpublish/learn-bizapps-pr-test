@@ -1,16 +1,16 @@
 Currently, the Microsoft Cloud for Healthcare applications are only supported on North American Microsoft 365 tenants. 
 
-## Power Platform
+## Microsoft Power Platform
 
-Microsoft Power Platform provides a foundation for building applications, analyzing data, and automating processes. Robust business and industry applications can be quickly developed by using low-code and professional code techniques. Many of Microsoft's flagship business solutions, such as Dynamics 365 apps, are built on Power Platform.
+Microsoft Power Platform provides a foundation for building applications, analyzing data, and automating processes. Robust business and industry applications can be quickly developed by using low-code and professional code techniques. Many of Microsoft's flagship business solutions, such as Dynamics 365 apps, are built on Microsoft Power Platform.
 
-Many of the Microsoft Cloud for Healthcare apps are built and extended from existing Power Platform and Microsoft Dynamics 365 solutions.
+Many of the Microsoft Cloud for Healthcare apps are built and extended from existing Microsoft Power Platform and Microsoft Dynamics 365 solutions.
 
-Providing healthcare applications that are built on Power Platform has several benefits. For example, an increased pool of professional solution architects, functional consultants, and application developers might not have a background in the healthcare industry, but they can apply their application skills to collaborate on implementing robust healthcare solutions.
+Providing healthcare applications that are built on Microsoft Power Platform has several benefits. For example, an increased pool of professional solution architects, functional consultants, and application developers might not have a background in the healthcare industry, but they can apply their application skills to collaborate on implementing robust healthcare solutions.
 
-Power Platform can be extended, modified, and integrated, which allows organizations to implement unique application solutions to address specific requirements.
+Microsoft Power Platform can be extended, modified, and integrated, which allows organizations to implement unique application solutions to address specific requirements.
 
-Along with the core capabilities that are provided with the various healthcare solutions, Power Platform offers other services that can be used such as custom apps with Microsoft Power Apps, Power Automate, Power BI, AI Builder, and Power Virtual Agents.
+Along with the core capabilities that are provided with the various healthcare solutions, Microsoft Power Platform offers other services that can be used such as custom apps with Microsoft Power Apps, Power Automate, Power BI, AI Builder, and Power Virtual Agents.
 
 To configure Microsoft Cloud for Healthcare, you need to install and configure several prerequisite applications before deploying the healthcare solutions. Deployment of Microsoft Cloud for Healthcare is facilitated in the [Dynamics 365 Solutions Center.](https://admin.solutions.dynamics.com/?azure-portal=true).
 
@@ -40,7 +40,7 @@ During deployment, the Dynamics 365 Solution Center will verify that the tenant 
 
 ## Dataverse environment
 
-A Microsoft Dataverse environment will need to be provisioned with a database. Using the default Power Platform environment is not supported. Multiple environments for production, development, and testing need to be considered for healthy application lifecycle management (ALM).
+A Microsoft Dataverse environment will need to be provisioned with a database. Using the default Microsoft Power Platform environment is not supported. Multiple environments for production, development, and testing need to be considered for healthy application lifecycle management (ALM).
 
 The Home Health, Patient Service Center, Patient Outreach, and Patient Access applications will also require a Dataverse environment with Dynamics 365 apps enabled.
 
@@ -48,7 +48,7 @@ The Home Health, Patient Service Center, Patient Outreach, and Patient Access ap
 > Dynamics 365 apps, such as Customer Service, must be enabled when the environment database is created; it cannot be added later.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Power Platform admin center deploying a new environment and ensuring that the Dynamics 365 apps are enabled.](../media/enable-apps.png)](../media/enable-apps.png#lightbox)
+> [![Screenshot of Microsoft Power Platform admin center deploying a new environment and ensuring that the Dynamics 365 apps are enabled.](../media/enable-apps.png)](../media/enable-apps.png#lightbox)
 
 ## Microsoft Cloud for Healthcare applications prerequisites
 
