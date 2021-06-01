@@ -20,9 +20,9 @@ To limit the retrieved emails, you can filter them according to their parent fol
 
 ![Screenshot of the Retrieve email messages from Outlook action dialog.](..\media\retrieve-emails-outlook.png)
 
-## Send email through Outlook
+## Send email message through Outlook
 
-To send an email message through Outlook, you can deploy the **Send email through Outlook** action that creates and sends new email messages. In the action's properties, you can specify the following entities:
+To send an email message through Outlook, you can deploy the **Send email message through Outlook** action that creates and sends new email messages. In the action's properties, you can specify the following entities:
 
 - Sender
 - Sender's displayed name
@@ -32,7 +32,7 @@ To send an email message through Outlook, you can deploy the **Send email throug
 
 Optionally, you can write the email body in HTML or include attachments in the message. To attach a file, enter the file's path or a variable containing the file (or a list of files) in the **Attachment(s)** field.
 
-![Screenshot of the Send email through Outlook action dialog.](..\media\send-email-outlook.png)
+![Screenshot of the Send email message through Outlook action dialog.](..\media\send-email-outlook.png)
 
 ## Process email messages in Outlook
 
@@ -54,9 +54,9 @@ You can save the extracted emails into various file types, such as Outlook Messa
 
 ![Screenshot of the Save Outlook email messages action dialog.](..\media\save-emails-outlook.png)
 
-## Respond to an Outlook mail message
+## Respond to Outlook message
 
-If you want to reply to or forward an email, you can use the **Respond to Outlook mail message** action. This action responds to an Outlook message by replying, replying to all, or forwarding.
+If you want to reply to or forward an email, you can use the **Respond to Outlook message** action. This action responds to an Outlook message by replying, replying to all, or forwarding.
 
 In the action properties, you have to enter an email variable specified in the **Retrieve email messages from Outlook** action.
 
@@ -64,4 +64,4 @@ Besides the email body, the action allows you to attach files in your replying m
 
 If you select to forward an email, you should also populate the primary recipient and the CC and BCC recipients.
 
-![Screenshot of the Respond to Outlook mail message action dialog.](..\media\respond-email-outlook.png)
+![Screenshot of the Respond to Outlook message action dialog.](..\media\respond-email-outlook.png)

@@ -74,7 +74,7 @@ An accessible canvas app will allow users with vision, hearing, and other
 impairments to successfully use the app. In addition to being a requirement for
 many governments and organizations, following the below guidelines increases
 usability for all users, regardless of their abilities. You can use
-the [Accessibility Checker](https://docs.microsoft.com/powerapps/maker/canvas-apps/accessibility-checker) to
+the [Accessibility Checker](/powerapps/maker/canvas-apps/accessibility-checker) to
 help review potential accessibility issues in your app. For more details and
 suggestions on making your canvas apps more accessible, visit
-<https://docs.microsoft.com/powerapps/maker/canvas-apps/accessible-apps>.
+[Create accessible canvas apps in Power Apps](/powerapps/maker/canvas-apps/accessible-apps).

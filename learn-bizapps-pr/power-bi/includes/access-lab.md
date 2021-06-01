@@ -7,7 +7,7 @@ You are automatically logged in to your lab environment as data-ai\student.
 You can now begin your work on this lab.
 
 > [!TIP]
-> To dock the lab environment so that it fills the window, select the push pin icon at the top center.
+> To dock the lab environment so that it fills the window, select the PC icon at the top and then select **Fit Window to Machine**.
 >
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the lab with the push pin icon highlighted.](./push-pin.png)](./push-pin.png#lightbox)
+> [![Screenshot of the lab with the PC icon selected and the Fit Window to Machine option highlighted.](./fit-window.png)](./fit-window.png#lightbox)

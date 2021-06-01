@@ -4,8 +4,8 @@ metadata:
  title: Adjust process behavior using conditional actions with Power Automate Desktop
  description: Learn how to use conditional actions to configure a flow to vary behavior at runtime-based information in the environment.
  ms.date: 10/27/2020
- author: rokontol
- ms.author: rokontol
+ author: mariosleon
+ ms.author: marleon
  ms.topic: interactive-tutorial
  ms.prod: learning-power-automate
 title: Adjust process behavior using conditional actions with Power Automate Desktop
@@ -19,7 +19,7 @@ abstract: |
     - Explore additional options when evaluating conditions
     - Provide default and alternative behaviors for flows based on the environment data
 prerequisites: |
-    - Basic familiarity with the Process Designer
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-conditionals.svg  
 levels:  
 - beginner   

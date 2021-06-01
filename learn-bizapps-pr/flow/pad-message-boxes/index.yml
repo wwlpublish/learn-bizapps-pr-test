@@ -16,6 +16,7 @@ abstract: |
     In this module, you will:
     - Familiarize yourself with the various preset message box actions
 prerequisites: |
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-message-boxes.svg  
 levels:  
 - beginner   

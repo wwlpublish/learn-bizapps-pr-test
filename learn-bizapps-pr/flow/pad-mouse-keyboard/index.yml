@@ -19,8 +19,7 @@ abstract: |
     - Learn how to select and locate a specific image or area on the screen with the mouse
     - Learn how to emulate typing or key presses
 prerequisites: |
-    - Basic familiarity with Power Automate Desktop
-    - Basic familiarity with Power Automate Desktop Process Designer Images
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), and familiarity with [handling images in Power Automate Desktop](../pad-power-automate-desktop-development-essentials/index.yml).
 iconUrl: /learn/achievements/pad-mouse-keyboard.svg  
 levels:  
 - beginner   
