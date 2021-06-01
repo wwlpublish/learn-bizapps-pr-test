@@ -21,7 +21,7 @@ abstract: |
     - Comprehend the use of UI elements and images
     - Use subflows to compartmentalize and reuse parts of a flow
 prerequisites: |
-    - Basic familiarity with the Power Automate Desktop Console
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-power-automate-desktop-development-essentials.svg  
 levels:  
 - beginner   

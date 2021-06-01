@@ -18,8 +18,7 @@ abstract: |
     - Create methods that help you process and edit text.
     - Manipulate text type variables for input and output in actions and processes.
 prerequisites: |
-    - Basic familiarity with Power Automate Desktop
-    - Familiarity with editing and manipulating text
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), and familiarity with manipulating text.
 iconUrl: /learn/achievements/pad-text-manipulation.svg  
 levels:  
 - intermediate   

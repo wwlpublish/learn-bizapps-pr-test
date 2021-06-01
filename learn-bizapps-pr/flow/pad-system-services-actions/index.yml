@@ -17,8 +17,7 @@ abstract: |
     - Automate system-related tasks with the system group of actions.
     - Automate the management of Windows services with the service group of actions.
 prerequisites: |
-    - Basic familiarity with Power Automate Desktop
-    - An account with Administrator privileges
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-system-services-actions.svg  
 levels:  
 - beginner   
