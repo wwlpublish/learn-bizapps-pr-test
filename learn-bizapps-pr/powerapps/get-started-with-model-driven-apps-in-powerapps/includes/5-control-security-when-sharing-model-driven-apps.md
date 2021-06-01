@@ -15,7 +15,7 @@ To share an app, you must have the Environment Admin or System Admin role.
 ## Scenario
 > [!NOTE] 
 > This scenario builds on ideas and concepts from the previous units. To complete this exercise, you will first need to create an app as described in the previous unit of this module and create the Pet
-> table as described in unit [Create a Microsoft Dataverse table](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-entity) of [Get started with Dataverse Service module](https://docs.microsoft.com/learn/modules/get-started-with-powerapps-common-data-service/).
+> table as described in unit [Create a Microsoft Dataverse table](/learn/modules/get-started-with-powerapps-common-data-service/3-create-a-cds-entity) of [Get started with Dataverse Service module](/learn/modules/get-started-with-powerapps-common-data-service/).
 
 This unit uses the example of a company named Contoso, which has a pet grooming business that services dogs and cats. An app that has a custom table for tracking the pet grooming business has already been created and published.
 
@@ -34,7 +34,7 @@ Because the environment that will maintain the pet grooming rows is also used fo
 - Pet grooming technicians just need to read, update, and attach other rows. Therefore, their security role will have read, write, and append privileges.
 - Pet grooming schedulers need all the privileges that pet grooming technicians have. In addition, they must be able to create, append to, delete, and share rows. Therefore, their security role will have create, read, write, append, delete, assign, append to, and share privileges.
 
-To learn more about access and the scope of the different privileges, see [Security roles](https://docs.microsoft.com/dynamics365/customer-engagement/admin/security-roles-privileges#security-roles).
+To learn more about access and the scope of the different privileges, see [Security roles](/dynamics365/customer-engagement/admin/security-roles-privileges#security-roles).
 
 ## Create a custom security role
 1. Sign in to [Power Apps](https://powerapps.microsoft.com/) by using your organizational account. If you don't already have an account, select **Get started free**.
@@ -85,7 +85,7 @@ The following predefined roles are available with a PowerApps environment. Unles
 | Security role            | Privileges | Description |
 |--------------------------|------------|-------------|
 | Environment Maker        | None | Users who have this role can create new resources that are associated with an environment, including apps, connections, custom application programming interfaces (APIs), gateways, and flows that use Microsoft Flow. But these users can't access the data in an environment. To learn more about environments, see [Announcing Power Apps environments](https://powerapps.microsoft.com/blog/powerapps-environments/). |
-| System Administrator     | Create, Read, Write, Delete, Customize | This role has full permission to customize or administer the environment, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
-| System Customizer        | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view rows only for environment entities that they create. To learn more, see [Privileges required for customization](https://docs.microsoft.com/dynamics365/customer-engagement/customize/privileges-required-customization). |
+| System Administrator     | Create, Read, Write, Delete, Customize | This role has full permission to customize or administer the environment, including creating, changing, and assigning security roles. User who have this role can view all data in the environment. To learn more, see [Privileges required for customization](/dynamics365/customer-engagement/customize/privileges-required-customization). |
+| System Customizer        | Create (self), Read (self), Write (self), Delete (self), Customizations | This role has full permission to customize the environment. But users who have this role can view rows only for environment entities that they create. To learn more, see [Privileges required for customization](/dynamics365/customer-engagement/customize/privileges-required-customization). |
 | Basic User | Read, Create (self), write (self), delete (self) | Users who have this role can run an app in the environment and perform common tasks for the rows they own. |
-| Delegate                 | Act on behalf of another user | This role lets code run as or impersonate another user. This role is typically used with another security role to provide access to rows. To learn more, see [Impersonate another user](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/org-service/impersonate-another-user). |
+| Delegate                 | Act on behalf of another user | This role lets code run as or impersonate another user. This role is typically used with another security role to provide access to rows. To learn more, see [Impersonate another user](/dynamics365/customerengagement/on-premises/developer/org-service/impersonate-another-user). |

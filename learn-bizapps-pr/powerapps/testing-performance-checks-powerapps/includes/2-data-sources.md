@@ -40,7 +40,7 @@ limitation as you implement the use of collections in your app.
 Delegation also affects performance
 -----------------------------------
 
-When you learned about [delegation](https://docs.microsoft.com/learn/modules/work-with-data-source-limits-powerapps-canvas-app/), 
+When you learned about [delegation](learn/modules/work-with-data-source-limits-powerapps-canvas-app/), 
 you focused on returning the right amount of rows for your
 data source. It is also important to remember that delegation,
 especially for mobile apps, can affect performance.

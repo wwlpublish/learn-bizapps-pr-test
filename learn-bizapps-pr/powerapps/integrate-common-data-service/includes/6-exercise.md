@@ -1,6 +1,6 @@
 The purpose of this hands-on lab is to introduce the process of extending table forms with additional actions.
 
-Exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install sample data to assist with exercises. Power Platform does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install sample data into your environment.
+Exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install sample data to assist with exercises. Power Platform does provide the ability to add sample data as needed. If the environment that you are working in does not have sample data installed, follow the steps in the [Add or remove sample data](/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install sample data into your environment.
 
 ## Learning objectives
 
@@ -19,7 +19,7 @@ The prerequisites for performing tasks in this exercise are:
 
 - System Administrator access to a Microsoft Dataverse instance with the Dynamics 365 Customer Service app installed.
 
-- A provisioned Customer self-service, Community, or Partner portal template. If you do not have a Power Apps portal available, follow the [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
+- A provisioned Customer self-service, Community, or Partner portal template. If you do not have a Power Apps portal available, follow the [Create Portal](/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
 
 ## Scenario
 

@@ -89,10 +89,10 @@ Microsoft Power Apps supports a wide range of operators and the nesting of them 
 shape your data.
 
 For more information on the different operators that are available in
-Power Apps, see [Operators and data types in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/functions/operators)
+Power Apps, see [Operators and data types in Power Apps](/powerapps/maker/canvas-apps/functions/operators)
 in the documentation. Other examples include greater
 than, less than, not, in, exact in, and more. Also, when evaluating
 operators be sure that you understand delegation. Different operators have
 different delegation behaviors with different data sources. For a list 
 of data sources and their operators, 
-see [Understand delegation in a canvas app](https://docs.microsoft.com/powerapps/maker/canvas-apps/delegation-list).
+see [Understand delegation in a canvas app](/powerapps/maker/canvas-apps/delegation-list).

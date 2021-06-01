@@ -8,7 +8,7 @@ that people get approval for an invoice before submitting an order.
 Business process flows use the same underlying technology as other 
 processes, but the capabilities that they provide are very different 
 from other features that use processes. To learn how to create or edit 
-a business process flow, see [Create a business process flow](https://docs.microsoft.com/power-automate/create-business-process-flow)
+a business process flow, see [Create a business process flow](/power-automate/create-business-process-flow)
 
 ## Use business process flows
 Why should you use business process flows? Business process flows provide 
