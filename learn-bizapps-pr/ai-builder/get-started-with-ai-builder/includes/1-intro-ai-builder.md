@@ -2,7 +2,7 @@ Welcome to AI Builder. This self-paced module will help you build an AI model fr
 
 ## AI Builder defined
 
-AI Builder is a Power Platform capability that helps you improve your
+AI Builder is a Microsoft Power Platform capability that helps you improve your
 business performance by automating processes and predicting outcomes. By using AI Builder, you can quickly bring AI to your apps and flows that connect to your business data that is stored in the underlying data platform (Microsoft Dataverse) or in various cloud data sources, such as SharePoint, OneDrive, or Azure.
 
 AI models that you create in AI Builder can help provide intelligence to

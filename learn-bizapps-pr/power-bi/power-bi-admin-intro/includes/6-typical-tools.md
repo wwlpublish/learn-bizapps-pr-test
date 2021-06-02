@@ -1,14 +1,14 @@
 There are multiple portals and tools used by Power BI administrators. A list of the portals and tools most commonly used are:
 
 :::image type="complex" source="../media/6-tools.png" alt-text="Graphic of list of Power BI administrator tools and screenshots of applications.":::
-   The list includes Power B I Admin Portal, Power B I Gateway Management, Power Platform Admin Center, Microsoft 365 Admin Center, Security & Compliance Center, Azure Active Directory Portal, PowerShell, and REST A P I.
+   The list includes Power B I Admin Portal, Power B I Gateway Management, Microsoft Power Platform Admin Center, Microsoft 365 Admin Center, Security & Compliance Center, Azure Active Directory Portal, PowerShell, and REST A P I.
 :::image-end:::
 
 **Power BI admin portal** - Used to manage a Power BI tenant, including the configuration of governance policies, usage monitoring, and provisioning of licenses, capacities, and organizational resources.
 
-**Power BI gateway management** - Use the Power Platform admin center to view and manage on-premises data gateways. For more information about gateway administration and management, see this [article](https://docs.microsoft.com/power-platform/admin/onpremises-data-gateway-management#manage-gateway-installers/?azure-portal=true).
+**Power BI gateway management** - Use Microsoft Power Platform admin center to view and manage on-premises data gateways. For more information about gateway administration and management, see this [article](https://docs.microsoft.com/power-platform/admin/onpremises-data-gateway-management#manage-gateway-installers/?azure-portal=true).
 
-**Power Platform admin center** - Provides a unified portal for administrators to manage environments and settings for Power Apps, Power Automate, and customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation).
+**Microsoft Power Platform admin center** - Provides a unified portal for administrators to manage environments and settings for Power Apps, Power Automate, and customer engagement apps (Dynamics 365 Sales, Dynamics 365 Customer Service, Dynamics 365 Field Service, Dynamics 365 Marketing, and Dynamics 365 Project Service Automation).
 
 **Microsoft 365 admin center** - Here you'll manage users and their license assignment and you can launch into many of the individual admin centers from here.
 

@@ -38,17 +38,17 @@ quiz:
     - content: Power BI capacity administrator
       isCorrect: false 
       explanation: The Power BI capacity administrator isn't part of Azure and is configured in Power BI. This admin role is responsible for enabling and managing Power BI capacities.
-    - content: Power Platform service administrator
+    - content: Microsoft Power Platform service administrator
       isCorrect: false 
-      explanation: The Power Platform service administrator uses the Power Platform admin center to manage environments and settings for Power Apps, Power Automate, and customer engagement apps.
+      explanation: Microsoft Power Platform service administrator uses Microsoft Power Platform admin center to manage environments and settings for Power Apps, Power Automate, and customer engagement apps.
   - content: Which Power BI administrator role is responsible for managing gateways?
     choices: 
     - content: Power BI capacity administrator
       isCorrect: false 
       explanation: The Power BI capacity administrator is responsible for enabling and managing Power BI capacities.
-    - content: Power Platform service administrator
+    - content: Microsoft Power Platform service administrator
       isCorrect: true 
-      explanation: The Power Platform service administrator is responsible for managing data gateways.
+      explanation: Microsoft Power Platform service administrator is responsible for managing data gateways.
     - content: Power BI billing administrator
       isCorrect: false 
       explanation: The Power BI billing administrator may be responsible for assigning licenses in addition to billing.
