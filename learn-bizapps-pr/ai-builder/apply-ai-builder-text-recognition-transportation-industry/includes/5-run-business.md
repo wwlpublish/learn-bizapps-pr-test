@@ -33,4 +33,4 @@ Linda can now see that the container has been delivered to Delhi and can inform 
 
 ## Summary
 
-You've now successfully tested that your business scenario is working end to end. You're now ready to release these applications to your users improving the way your company will run his business thanks to the magic of AI and the Power Platform!
+You've now successfully tested that your business scenario is working end to end. You're now ready to release these applications to your users improving the way your company will run his business thanks to the magic of AI and Microsoft Power Platform!

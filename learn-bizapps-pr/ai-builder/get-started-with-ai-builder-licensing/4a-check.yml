@@ -58,10 +58,10 @@ quiz:
     choices: 
     - content: It is not necessary because credits can be consumed directly at tenant level.
       isCorrect: false
-      explanation: Allocation of AI Builder credits to an environment happens in Power Platform admin center and is mandatory to use with purchased capacity.
-    - content: It happens in Power Platform admin center and is mandatory to use with purchased capacity.
+      explanation: Allocation of AI Builder credits to an environment happens in Microsoft Power Platform admin center and is mandatory to use with purchased capacity.
+    - content: It happens in Microsoft Power Platform admin center and is mandatory to use with purchased capacity.
       isCorrect: true
-      explanation: Allocation of AI Builder credits to an environment happens in Power Platform admin center and is mandatory to use with purchased capacity.
+      explanation: Allocation of AI Builder credits to an environment happens in Microsoft Power Platform admin center and is mandatory to use with purchased capacity.
     - content: It must be redone at the beginning of each month.
       isCorrect: false
-      explanation: Allocation of AI Builder credits to an environment happens in Power Platform admin center and is mandatory to use with purchased capacity.
+      explanation: Allocation of AI Builder credits to an environment happens in Microsoft Power Platform admin center and is mandatory to use with purchased capacity.

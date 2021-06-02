@@ -1,4 +1,4 @@
-AI Builder Sentiment analysis provides insight into the sentiment of the text that it analyzes. Being fully integrated with Power Platform allows you to automate a wide range of scenarios that you might be otherwise performing manually.
+AI Builder Sentiment analysis provides insight into the sentiment of the text that it analyzes. Being fully integrated with Microsoft Power Platform allows you to automate a wide range of scenarios that you might be otherwise performing manually.
 
 Sentiment Analysis has many possible applications for your business, including:
 

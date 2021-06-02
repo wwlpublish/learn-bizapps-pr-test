@@ -38,10 +38,10 @@ To connect to Dataverse for Teams table data, follow these steps:
 
 1. From the **Home** ribbon, select **Get Data**.
 
-1. Select **Power Platform** then **Dataverse**. Select **Connect** to continue.
+1. Select **Microsoft Power Platform** then **Dataverse**. Select **Connect** to continue.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Get Data page with Power Platform selected and Dataverse highlighted.](../media/image-4.png)](../media/image-4.png#lightbox)
+    > [![Screenshot of the Get Data page with Microsoft Power Platform selected and Dataverse highlighted.](../media/image-4.png)](../media/image-4.png#lightbox)
 
 1. Enter the environment URL for the Dataverse for Teams table that you copied previously. Remove the **https://** protocol and the trailing slash (**/**) from the URL. Set **Data Connectivity mode** to **Import** and then select **OK**.
 
