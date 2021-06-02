@@ -1,12 +1,12 @@
 Premium experiences, such as performing a prediction in a prebuilt model or launching a training action on a custom model such as object detection, require available capacity in the current environment.
 
-An environment is a Power Platform concept that defines a storage and working area. Usually, an environment includes a Microsoft Dataverse database (which is required for AI Builder to work correctly) and apps, AI models, and flows that are created in it. For example, tenants might use environments to distinguish production (Prod) environments from development (Dev) environments, and might occasionally use them to separate areas between Enterprise divisions. An environment is also known as an organization in a dynamic namespace.
+An environment is a Microsoft Power Platform concept that defines a storage and working area. Usually, an environment includes a Microsoft Dataverse database (which is required for AI Builder to work correctly) and apps, AI models, and flows that are created in it. For example, tenants might use environments to distinguish production (Prod) environments from development (Dev) environments, and might occasionally use them to separate areas between Enterprise divisions. An environment is also known as an organization in a dynamic namespace.
 
-When you purchase the AI Builder Capacity add-on, corresponding capacity is made available at the tenant level. To make it available at the environment level, you need to assign it in the Power Platform admin center on the [Resources > Capacity page](https://admin.powerplatform.microsoft.com/resources/capacity).
+When you purchase the AI Builder Capacity add-on, corresponding capacity is made available at the tenant level. To make it available at the environment level, you need to assign it in Microsoft Power Platform admin center on the [Resources > Capacity page](https://admin.powerplatform.microsoft.com/resources/capacity).
 
-If your tenant is entitled to any Power Platform Capacity add-ons, including the AI Builder Capacity add-on, the **Add-ons** tab appears.
+If your tenant is entitled to any Microsoft Power Platform Capacity add-ons, including the AI Builder Capacity add-on, the **Add-ons** tab appears.
 
-![A screenshot of the Power Platform admin center open to the Resources tab, Capacity page.](../media/image5.png)
+![A screenshot of Microsoft Power Platform admin center open to the Resources tab, Capacity page.](../media/image5.png)
 
 In this section, you will learn how to assign and unassign AI Builder credits to your environments.
 

@@ -1,7 +1,7 @@
 > [!div class="mx-imgBorder"]
 > [![Screen shot of Power BI admin portal screens depicting setting options.](../media/3-portal.png)](../media/3-portal.png#lightbox)
 
-[Tenant settings](https://docs.microsoft.com/power-bi/admin/service-admin-portal?azure-portal=true#tenant-settings) enable fine-grained control over the features that are made available to your organization and are managed in the [Admin portal](https://app.powerbi.com/admin-portal/tenantSettings/?azure-portal=true). Tenant settings can be configured by a global admin, Power BI service administrator, or Power Platform service administrator. Many tenant settings can restrict capabilities and features to a limited set of users by assigning one of three states.
+[Tenant settings](https://docs.microsoft.com/power-bi/admin/service-admin-portal?azure-portal=true#tenant-settings) enable fine-grained control over the features that are made available to your organization and are managed in the [Admin portal](https://app.powerbi.com/admin-portal/tenantSettings/?azure-portal=true). Tenant settings can be configured by a global admin, Power BI service administrator, or Microsoft Power Platform service administrator. Many tenant settings can restrict capabilities and features to a limited set of users by assigning one of three states.
 
 - **Disabled for the entire organization**: No one in your organization can use this feature.
 

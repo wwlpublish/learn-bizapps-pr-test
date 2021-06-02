@@ -12,7 +12,7 @@ The targeted person for configuring roles and permissions should:
 
 - Understand which users must have access to which features.
 
-- Have good knowledge of the Power Platform's role-based access control.
+- Have good knowledge of Microsoft Power Platform's role-based access control.
 
 Makers are usually a good fit for this task.
 
@@ -40,7 +40,7 @@ The features available in the validation application by each persona are summari
 
 ## Configuring roles
 
-1. Open the [Power Platform Admin center](https://tip.admin.powerplatform.microsoft.com/) and select your environment, then select **Settings** on the top.
+1. Open the [Microsoft Power Platform Admin center](https://tip.admin.powerplatform.microsoft.com/) and select your environment, then select **Settings** on the top.
 
     > [!div class="mx-imgBorder"]
     > [![List of saved environments.](../media/3-environment.png)](../media/3-environment.png#lightbox)

@@ -26,7 +26,7 @@ The container's identifier is a textual data, we will use the built-in Name fiel
 
 - Delivery State will track the container progresses using an Option Set with following values Waiting, In Transit, Delivered with default value Waiting.
 
-- Eventually for "Customer", the Power Platform provide some built-in entities like Account or Contact. We will use Account here and will create a Many-to-one relationship using the "Relationship" tab and "+Add relationship" button. (see [Create a relationship between entities](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-entity-lookup))
+- Eventually for "Customer", Microsoft Power Platform provide some built-in entities like Account or Contact. We will use Account here and will create a Many-to-one relationship using the "Relationship" tab and "+Add relationship" button. (see [Create a relationship between entities](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-entity-lookup))
 
 We end with following entity structure. (Some fields are automatically added by Dataverse to manage currencies)
 

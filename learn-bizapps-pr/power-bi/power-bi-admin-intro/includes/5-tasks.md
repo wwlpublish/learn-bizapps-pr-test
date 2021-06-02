@@ -16,6 +16,6 @@ For the **Power BI administrator**, these tasks are:
 
 - **Monitoring usage** - Monitor how your dashboard and reports are being used. Views per day, unique users per day, views per user, and shares per day are a few of the metrics that can be reported on and monitored.
 
-For the **Power Platform administrator**, a key task is:
+For the **Microsoft Power Platform administrator**, a key task is:
 
 - **Manage gateways** - On-premises data gateways act as a bridge, providing quick and secure data transfer between on-premises data - data that isn't in the cloud, and Power BI, Power Automate, Logic Apps, and Power Apps services. For more information about managing gateways, see this [article](https://docs.microsoft.com/power-platform/admin/onpremises-data-gateway-management/?azure-portal=true).
