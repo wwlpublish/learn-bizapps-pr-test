@@ -6,6 +6,10 @@
 
 If you're a **beginner** with Power BI, this module will get you going. If you're a Power BI **veteran**, this module will tie concepts together and fill in the gaps.
 
+Here is a working Power BI report. Feel free to click and explore.
+
+<iframe width="1140" height="540" src=https://msit.powerbi.com/view?r=eyJrIjoiNGE0MTRiNDMtZWMyZS00MzVlLTgyMmQtYzI2MjM5Nzg4OTQwIiwidCI6IjcyZjk4OGJmLTg2ZjEtNDFhZi05MWFiLTJkN2NkMDExZGI0NyIsImMiOjV9 frameborder="0" allowFullScreen="true"></iframe>
+
 ## The parts of Power BI
 Power BI consists of a Microsoft Windows desktop application called **Power BI Desktop**, an online SaaS (*Software as a Service*) service called the **Power BI service**, and mobile Power BI **apps** that are available on any device, with native mobile BI apps for Windows, iOS, and Android.
 
