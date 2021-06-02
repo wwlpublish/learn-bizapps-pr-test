@@ -91,7 +91,7 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Click and drag both controls to line up with the other controls and each other, and change the text on the new label to say **Inventory item**.
 
-1. Click on the drop down control to select it, and in the right-side properties panel, click on the **Items** property's dropdown and select **FlooringInventory**. Then, click on the **Value** property's dropdown and select **Name**.
+1. Click on the drop down control to select it, and in the right-side properties panel, click on the **Items** property's dropdown and select **FlooringEstimates**. Then, click on the **Value** property's dropdown and select **Name**.
 
 1. Click on the **Items** property label, and note that the cursor focus is now in the formula bar, with the Items property selected.
 
