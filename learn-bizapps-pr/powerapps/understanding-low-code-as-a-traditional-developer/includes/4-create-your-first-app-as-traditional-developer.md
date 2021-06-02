@@ -61,6 +61,16 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Right-click on **EditScreen1_1** on the tree view, and click on **Rename**. Type in **InventoryRequest** for a new name for the screen, and hit _<Enter>_ to save it.
 
+1. Click on **BrowseScreen1** in the tree view to go back to the first screen, and click on the **(+)** icon to select it.
+
+1. Choose the **OnSelect** property from theh dropdown list next to the formula bar, replace the contents of the formula bar with this:
+
+    ```powerappsfl
+        Navigate(InventoryRequest, None)
+    ```
+
+1. Hold down the ALT key, and click on the **(+)** icon to test the Navigate function you just wrote; the app should load the InventoryRequest screen you created a moment ago.
+
 1. Now click on **EditForm1_1** in the tree view, and press the _<Delete>_ key to delete the control.
 
 ### Add controls to the new screen
