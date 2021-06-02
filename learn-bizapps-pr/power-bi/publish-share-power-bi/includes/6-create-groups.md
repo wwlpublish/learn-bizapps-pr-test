@@ -23,4 +23,4 @@ Setting up a classic workspace has the same steps as setting up a new workspace,
 
 In the **Create a workspace** dialog box, under **Advanced** you can click on **Specific users and groups** and type email addresses, security groups, and distribution lists. Then select **Save** to save the group.
 
-For more information, see [Create classic workspaces in Power BI](https://docs.microsoft.com/power-bi/service-create-workspaces/?azure-portal=true) and [Organize work in the new workspaces in Power BI](https://docs.microsoft.com/power-bi/service-new-workspaces/?azure-portal=true).
+For more information, see [Create classic workspaces in Power BI](https://docs.microsoft.com/power-bi/collaborate-share/service-create-workspaces/?azure-portal=true) and [Organize work in the new workspaces in Power BI](https://docs.microsoft.com/power-bi/service-new-workspaces/?azure-portal=true).
