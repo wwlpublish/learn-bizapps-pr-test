@@ -2,7 +2,7 @@ In this unit, you'll learn how to build prescheduled flows by using a trigger ca
 
 ## Prerequisites
 
-For this scenario, you will need to make an excel file with a table that contains the following columns: ContactEmail, FirstName, and LastName.
+For this scenario, you will need to make an Excel file with a table that contains the following columns: ContactEmail, FirstName, and LastName. Save the Excel file in OneDrive for Business. You'll connect to this file in step 9.
 
 ## Create a scheduled flow
 
