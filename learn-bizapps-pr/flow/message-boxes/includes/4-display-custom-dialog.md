@@ -36,7 +36,7 @@ To demonstrate this functionality, you'll develop a process that handles the onb
 
     ![Screenshot of the Custom Dialog Designer on the Buttons tab.](..\media\custom-dialog-designer-buttons.png)
 
-1. Create a new function named Add Employee that will populate the employee's information to your employee management system.
+1. Create a new function named **Add Employee** that will populate the employee's information to your employee management system.
 
     The example uses a hypothetical employee management system tool. In your implementation, you can modify the form-filling steps to work with your preferred software.
 
