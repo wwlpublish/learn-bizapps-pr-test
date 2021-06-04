@@ -28,7 +28,7 @@ To become familiar with this functionality, develop a process that handles the o
 
     ![Screenshot of the Custom Dialog Designer showing the combobox pop-out.](..\media\custom-dialog-designer-combo-box-pop-out.png)
 
-1. Add a date picker to male users select a hire date. Additionally, add a checkbox to indicate whether the employee requires a company-issued phone.
+1. Add a date picker to make users select a hire date. Additionally, add a checkbox to indicate whether the employee requires a company-issued phone.
 
     ![Screenshot of the Custom Dialog Designer on the Radios and Checkboxes tab.](..\media\custom-dialog-designer-radios-check-boxes.png)
 
