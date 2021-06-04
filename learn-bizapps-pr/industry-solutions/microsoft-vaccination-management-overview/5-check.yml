@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.microsoft-vaccination-management-overview.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 06/11/2021 
+ author: KevSch 
+ ms.author: kschimke 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-d365-healthcare 
+durationInMinutes: 6
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is Microsoft Vaccination Management built on?
+    choices: 
+    - content: Microsoft Power Platform
+      isCorrect: true 
+      explanation: Microsoft Vaccination Management solution is built on Microsoft Power Platform.
+    - content: Microsoft Azure
+      isCorrect: false 
+      explanation: Microsoft Vaccination Management solution is built on Microsoft Power Platform.
+    - content: Microsoft Teams
+      isCorrect: false 
+      explanation: Microsoft Vaccination Management solution is built on Microsoft Power Platform.
+    - content: None of the above
+      isCorrect: false 
+      explanation: Microsoft Vaccination Management solution is built on Microsoft Power Platform.
+  - content: The Vaccination Management App is composed of three main areas.  Reference Data, Management data, and what other type of data?
+    choices: 
+    - content: Referential
+      isCorrect: false 
+      explanation: Reference Data, Management data, and registration data.
+    - content: Registration
+      isCorrect: true 
+      explanation: Reference Data, Management data, and registration data.
+    - content: Contact
+      isCorrect: false 
+      explanation: Reference Data, Management data, and registration data.
+    - content: Account
+      isCorrect: false 
+      explanation: Reference Data, Management data, and registration data.
+  - content: Any healthcare organization that administers COVID-19 vaccination to residents has to report the information to the state. The states' immunizations systems accept data in what type of format?
+    choices: 
+    - content: Text
+      isCorrect: false 
+      explanation: The states’ immunizations systems accept data in HL7 format.
+    - content: HL7
+      isCorrect: true 
+      explanation: The states’ immunizations systems accept data in HL7 format.
+    - content: HK9
+      isCorrect: false 
+      explanation: The states’ immunizations systems accept data in HL7 format.
+    - content: OData
+      isCorrect: false 
+      explanation: The states’ immunizations systems accept data in HL7 format.
