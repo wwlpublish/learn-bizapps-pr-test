@@ -22,7 +22,7 @@ Microsoft Vaccination Management has the following capabilities:
 
       - Data for Eligibility, Resident, and Appointment is entered by residents in the Registration and appointment scheduling portal.
 
-      - -Data for Vaccination is entered by vaccination frontline volunteers and nurses in the Frontline worker app.
+      - Data for Vaccination is entered by vaccination frontline volunteers and nurses in the Frontline worker app.
 
 - Registration and appointment scheduling portal
 
