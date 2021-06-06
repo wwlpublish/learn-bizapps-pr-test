@@ -6,6 +6,6 @@ Let's review what you've learned:
 
 - Learned how MVM addresses global vaccination needs.
 
-- Understood MVM architecture, capabilities, and personas.
+- Explored MVM architecture, capabilities, and personas.
 
-- Discovered how MCM integrates with external immunization systems with HL7.
+- Examined how MVM integrates with external immunization systems with HL7.
