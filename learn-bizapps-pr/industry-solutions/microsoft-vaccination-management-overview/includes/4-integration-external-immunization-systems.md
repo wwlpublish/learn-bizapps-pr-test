@@ -5,7 +5,7 @@ HL7 is the message structure to report the vaccination information to state heal
 > [!div class="mx-imgBorder"]
 > [![Flow chart of H L 7 integration with immunization systems.](../media/integration.png)](../media/integration.png#lightbox)
 
-1. The HL7 message generation is triggered after the shot is administered and the vaccinator selects **Complete vaccination** in the [frontline worker app](/dynamics365/industry/vaccination-management/check-in-administer/?azure-portal=true). This creates a vaccination record in Dataverse that can be viewed in the Vaccination site management app under [Vaccination](/dynamics365/industry/vaccination-management/site-management/?azure-portal=true). After the business logic to associate vaccination documents is complete, the **Completed**" flag on the vaccination record is set. This will trigger the message generation plug-in.
+1. The HL7 message generation is triggered after the shot is administered and the vaccinator selects **Complete vaccination** in the [frontline worker app](/dynamics365/industry/vaccination-management/check-in-administer/?azure-portal=true). This creates a vaccination record in Dataverse that can be viewed in the Vaccination site management app under [Vaccination](/dynamics365/industry/vaccination-management/site-management/?azure-portal=true). After the business logic to associate vaccination documents is complete, the **Completed** flag on the vaccination record is set. This will trigger the message generation plug-in.
 
 1. After the message is generated successfully, a **Vaccination Data Sharing Notification Log** is created for the vaccination. This will trigger the plug-in to send the HL7 message to the state agencies immunization system. The response from the immunization system will be stored in the same record.
 
@@ -13,4 +13,4 @@ HL7 is the message structure to report the vaccination information to state heal
 
 Each message generation will create a record in **Vaccination Data Sharing Notification Log**. The response from the immunization system is also stored in the same record, allowing you to have a log of the number of times a particular vaccination record was replayed and what the issues were with each message.
 
-To understand more on how to implement HL7 integration with external immunization systems, reference the following [article](/dynamics365/industry/vaccination-management/integration-immunization-systems/?azure-portal=true) on Microsoft Docs.
+To understand more on how to implement HL7 integration with external immunization systems,see [integration immunization systems](/dynamics365/industry/vaccination-management/integration-immunization-systems/?azure-portal=true) on Microsoft Docs.
