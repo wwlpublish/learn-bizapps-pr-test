@@ -5,8 +5,8 @@ metadata:
   title: Capabilities, architecture, and personas
   description: Learn about what you can do with Microsoft Vaccine Management.
   ms.date: 06/11/2021 
-  author: KevSch 
-  ms.author: kschimke 
+  author: DaveBeasley  
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365-healthcare 
 durationInMinutes: 6
