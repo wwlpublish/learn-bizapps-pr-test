@@ -5,11 +5,11 @@ metadata:
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
  ms.date: 06/11/2021 
- author: KevSch 
- ms.author: kschimke 
+ author: DaveBeasley 
+ ms.author: dbeasley 
  ms.topic: interactive-tutorial 
  ms.prod: learning-d365-healthcare 
-durationInMinutes: 6
+durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
