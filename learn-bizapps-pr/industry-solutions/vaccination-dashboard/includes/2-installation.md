@@ -56,7 +56,7 @@ While we are privately available and for this training, you will retrieve the ap
 9.  The app should begin to install.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot showing app install as complete.](../media/9-insatll-complete.png)](../media/9-install-complete.png)
+    > [![Screenshot showing app install as complete.](../media/9-install-complete.png)](../media/9-install-complete.png)
 
 10. Once complete, you should see a prompt that your app is ready. Select **Go to app**.
 
@@ -124,7 +124,7 @@ While we are privately available and for this training, you will retrieve the ap
 25. Select **Sign in and Continue.**
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the sign-in process for the dashboard.](../media/21-sign-in-auth.png)]((../media/21-sign-in-auth.png)
+    > [![Screenshot of the sign-in process for the dashboard.](../media/21-sign-in-auth.png)](../media/21-sign-in-auth.png)
 
 26. **Log in** with your training user credentials.
 
