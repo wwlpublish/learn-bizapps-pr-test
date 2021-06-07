@@ -1,6 +1,6 @@
-This lab is designed for you to get hands-on experience with Microsoft Vaccination Management. The lab includes step-by-step instructions for someone new to Microsoft Vaccination management. This lab covers the environment setup process, which is required for you to proceed with other labs. Make sure to follow all the pre-requisite steps listed in this document before starting the labs.
+This module is designed for you to get hands-on experience with Microsoft Vaccination Management. The module includes step-by-step instructions for someone new to Microsoft Vaccination management. This module covers the environment setup process, which is required for you to proceed with other exercises. Make sure to follow all the pre-requisite steps listed in this document before starting the exercises.
 
-After this lab, you will be able to do the following:
+After this module, you will be able to do the following:
 
 -   Create a new Tenant with Trial Dynamics 365 licenses
 
@@ -18,7 +18,7 @@ Before You Begin
 
 Roles and Personas
 
-This lab covers the following Microsoft Vaccination Management roles and personas:
+This module covers the following Microsoft Vaccination Management roles and personas:
 
 -   System Administrator
 
