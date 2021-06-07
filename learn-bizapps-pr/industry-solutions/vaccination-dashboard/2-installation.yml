@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.vaccination-dashboard.2-installation 
+title: Exercise - Install dashboard
+metadata: 
+  title: Exercise - Install dashboard
+  description: Exercise - Install dashboard
+  ms.date: 06/10/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-healthcare-vaccination 
+durationInMinutes: 8 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-installation.md)] 

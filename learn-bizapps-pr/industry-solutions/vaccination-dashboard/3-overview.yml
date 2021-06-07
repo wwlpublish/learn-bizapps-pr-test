@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.vaccination-dashboard.3-overview 
+title: Exercise - Dashboard overview
+metadata: 
+  title: Exercise - Dashboard overview
+  description: Exercise - Dashboard overview
+  ms.date: 06/10/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-healthcare-vaccination 
+durationInMinutes: 6 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-overview.md)] 
