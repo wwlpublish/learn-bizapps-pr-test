@@ -26,7 +26,7 @@ In this exercise, you will be playing the role of a System Administrator and lea
 7.  In Azure portal, select **Groups.**
 
 > [!div class="mx-imgBorder"]
-> [![Screenshto of selecting the group for testing.](../media/19-test-overview.png)](..media/19-test-overview.png)
+> [![Screenshot of selecting the group for testing.](../media/19-test-overview.png)](../media/19-test-overview.png)
 
 8.  Copy the Object ID of the newly created Security Group.
 
@@ -35,7 +35,8 @@ In this exercise, you will be playing the role of a System Administrator and lea
 
 9.  Navigate to https://aka.ms/MVMAccess and fill the required details to add your Tenant and Security Group to the allowlist. 
 
-> [!NOTE] It may take three business days to add your organization's tenant and security group.
+> [!NOTE]
+> It may take three business days to add your organization's tenant and security group.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot showing the request access form.](../media/21-request-access.png)](../media/21-request-access.png)
