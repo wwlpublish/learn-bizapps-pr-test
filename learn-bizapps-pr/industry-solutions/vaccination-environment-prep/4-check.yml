@@ -1,0 +1,29 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.vaccination-environment-prep.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 06/10/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-healthcare-vaccination 
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: YourQuestion
+    choices: 
+    - content: YourAnswer
+      isCorrect: true 
+      explanation: YourExplanation
+    - content: YourAnswer
+      isCorrect: false 
+      explanation: YourExplanation
+    - content: YourAnswer
+      isCorrect: false 
+      explanation: YourExplanation
+    - content: YourAnswer
+      isCorrect: false 
+      explanation: YourExplanation

@@ -1,0 +1,34 @@
+### YamlMime:Module 
+uid: learn-bizapps.vaccination-environment-prep 
+metadata: 
+ title: 
+ description: 
+ ms.date: 06/10/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-healthcare-vaccination  
+title: 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Summary text goes here. 
+abstract: |  
+    In this module, you will: 
+    - 
+    - 
+prerequisites: 
+iconUrl: /learn/achievements/vaccination-environment-prep.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+products:  
+- CHANGETOYOURPRODUCT  
+units: 
+- learn-bizapps.vaccination-environment-prep.1-introduction 
+- learn-bizapps.vaccination-environment-prep.2-tenant 
+- learn-bizapps.vaccination-environment-prep.3-access 
+- learn-bizapps.vaccination-environment-prep.4-check 
+- learn-bizapps.vaccination-environment-prep.5-summary 
+badge: 
+  uid: learn-bizapps.vaccination-environment-prep.badge 
