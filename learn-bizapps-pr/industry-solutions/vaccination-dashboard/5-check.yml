@@ -27,7 +27,7 @@ quiz:
     - content: YourAnswer
       isCorrect: false 
       explanation: YourExplanation
- - content: Which of the following is not a page that is included with the Microsoft Vaccination Management Dashboard?
+  - content: Which of the following is not a page that is included with the Microsoft Vaccination Management Dashboard?
     choices: 
     - content: Demographics
       isCorrect: false 
