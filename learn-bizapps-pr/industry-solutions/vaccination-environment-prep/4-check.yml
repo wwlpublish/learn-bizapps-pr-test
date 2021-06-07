@@ -16,11 +16,11 @@ quiz:
   - content: Microsoft Vaccination Management is currently available for everyone.
     choices: 
     - content: "True"
-      isCorrect: true 
-      explanation: Microsoft Vaccination Management is available to everyone.
-    - content: "False"
       isCorrect: false 
-      explanation: Microsoft Vaccination Management is available to everyone.
+      explanation: You must be approved to access Microsoft Vaccination Management.
+    - content: "False"
+      isCorrect: true 
+      explanation: You must be approved to access Microsoft Vaccination Management.
   - content: Microsoft Vaccination Management requires a Dataverse environment.
     choices: 
     - content: "True"

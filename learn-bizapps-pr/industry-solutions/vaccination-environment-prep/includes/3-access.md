@@ -2,7 +2,7 @@ Insert instructional text hereCurrently, Microsoft Vaccination Management isn't 
 
 In this exercise, you will be playing the role of a System Administrator and learn to place the request to get the access to deploy MVM Solution in your tenant.
 
-1.  Navigate to [https://admin.Microsoft.com](https://admin.microsoft.com/). Select **Groups** and then select **Active groups**.
+1.  Navigate to [https://admin.Microsoft.com](https://admin.microsoft.com/?azure-portal=true). Select **Groups** and then select **Active groups**.
 
 2.  Select on **Add a group**.
 
@@ -19,9 +19,9 @@ In this exercise, you will be playing the role of a System Administrator and lea
 > [!div class="mx-imgBorder"]
 > [![Screenshot of providing a name for the group creation.](../media/18-group-name.png)](../media/18-group-name.png)
 
-5.  Follow the instructions for [create groups](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide#add-members-to-the-group) to add yourself and other users to the security group. The users in this group will only be able to deploy MVM in an environment. Make sure that the user created in Exercise 1, Task 1 is part of this group.
+5.  Follow the instructions for [creating groups](/microsoft-365/admin/create-groups/create-groups?view=o365-worldwide#add-members-to-the-group/?azure-portal=true) to add yourself and other users to the security group. The users in this group will only be able to deploy MVM in an environment. Make sure that the user created in Exercise 1, Task 1 is part of this group.
 
-6.  Navigate to [https://portal.azure.com](https://portal.azure.com/) with the same credentials and follow the instructions for [find tenant](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant#find-tenant-id-through-the-azure-portal) to retrieve the Tenant ID, which you will be using in the later steps.
+6.  Navigate to [https://portal.azure.com](https://portal.azure.com/) with the same credentials and follow the instructions for [find tenant](/azure/active-directory/fundamentals/active-directory-how-to-find-tenant#find-tenant-id-through-the-azure-portal/?azure-portal=true) to retrieve the Tenant ID, which you will be using in the later steps.
 
 7.  In Azure portal, select **Groups.**
 
@@ -33,7 +33,7 @@ In this exercise, you will be playing the role of a System Administrator and lea
 > [!div class="mx-imgBorder"]
 > [![Screenshot of finding the object ID for your group.](../media/20-object-id.png)](../media/20-object-id.png)
 
-9.  Navigate to https://aka.ms/MVMAccess and fill the required details to add your Tenant and Security Group to the allowlist. 
+9.  Navigate to https://aka.ms/MVMAccess/?azure-portal=true and fill the required details to add your Tenant and Security Group to the allowlist. 
 
 > [!NOTE]
 > It may take three business days to add your organization's tenant and security group.
