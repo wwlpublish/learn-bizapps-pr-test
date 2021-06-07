@@ -1,0 +1,1 @@
+In this module, you learned that Microsoft Vaccination Management (MVM) is deployed via the Microsoft Cloud Solution Center. The Microsoft Cloud Solution Center provides a central place to deploy and configure various solutions like MVM. You also learned about the various licensing scenarios for MVM and how to deploy it through Solution Center.
