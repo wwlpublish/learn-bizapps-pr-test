@@ -74,7 +74,7 @@ In this task, you will learn to add the other pre-requisite trial licenses (Offi
 6.  Select **Try now** and then **Continue** to check out the free trial order.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of check out process for trial.](../media/12-check-out.png)](../media/10-check-out.png)
+> [![Screenshot of check out process for trial.](../media/12-check-out.png)](../media/12-check-out.png)
 
 7.  Navigate to Admin Center Page, select **Purchase Services** on the left pane and search for **Power BI Pro** in **Power BI** Category. select **Details** on **Power BI Pro**.
 
