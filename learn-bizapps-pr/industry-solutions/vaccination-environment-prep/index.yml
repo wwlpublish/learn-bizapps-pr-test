@@ -20,8 +20,7 @@ prerequisites: None
 iconUrl: /learn/achievements/vaccination-environment-prep.svg  
 levels:  
 - intermediate   
-roles:  
-- maker 
+roles:   
 - administrator
 products:  
 - industry-solutions
