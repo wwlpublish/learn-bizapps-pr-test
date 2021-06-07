@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.vaccination-environment-prep.5-summary 
-title: 
+title: Summary
 metadata: 
-  title: 
-  description: 
+  title: Summary
+  description: Summary of environment prepartion.
   ms.date: 06/10/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-healthcare-vaccination 
-durationInMinutes: 5 
+durationInMinutes: 2
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/5-summary.md)] 

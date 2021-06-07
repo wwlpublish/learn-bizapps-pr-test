@@ -9,21 +9,31 @@ metadata:
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
  ms.prod: learning-healthcare-vaccination 
-durationInMinutes: 5 
+durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: YourQuestion
+  - content: Microsoft Vaccination Management is currently available for everyone.
     choices: 
-    - content: YourAnswer
+    - content: "True"
       isCorrect: true 
-      explanation: YourExplanation
-    - content: YourAnswer
+      explanation: Microsoft Vaccination Management is available to everyone.
+    - content: "False"
       isCorrect: false 
-      explanation: YourExplanation
-    - content: YourAnswer
+      explanation: Microsoft Vaccination Management is available to everyone.
+  - content: Microsoft Vaccination Management requires a Dataverse environment.
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: MVM uses a Dataverse environment.
+    - content: "False"
       isCorrect: false 
-      explanation: YourExplanation
-    - content: YourAnswer
+      explanation: MVM uses a Dataverse environment.
+  - content: Microsoft Vaccination Management is deployed via the Solution Center.
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: MVM is deployed via the solution center.
+    - content: "False"
       isCorrect: false 
-      explanation: YourExplanation
+      explanation: MVM is deployed via the solution center.

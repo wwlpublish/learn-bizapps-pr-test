@@ -4,7 +4,7 @@ In this lab, you learned how to do the following:
 
 -   Create a new Tenant with Trial Dynamics 365 licenses
 
--   Add additional pre-requisite trial licenses
+-   Add other pre-requisite trial licenses
 
 -   Request Microsoft Vaccination Management Deployment Access
 

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.vaccination-environment-prep.3-access 
-title: 
+title: Access and deploy environments
 metadata: 
-  title: 
-  description: 
+  title: Access and deploy environments
+  description: Learn how to access and deploy environments.
   ms.date: 06/10/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

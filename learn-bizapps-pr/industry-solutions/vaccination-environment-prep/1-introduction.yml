@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.vaccination-environment-prep.1-introduction 
-title: 
+title: Introduction to environment setup for Microsoft Vaccination Management
 metadata: 
-  title: 
-  description: 
+  title: Introduction to environment setup for Microsoft Vaccination Management
+  description: Introduction to environment setup for Microsoft Vaccination Management.
   ms.date: 06/10/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-healthcare-vaccination 
-durationInMinutes: 5 
+durationInMinutes: 1 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/1-introduction.md)] 
