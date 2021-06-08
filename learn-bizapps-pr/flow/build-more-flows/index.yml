@@ -3,9 +3,9 @@ uid: learn-bizapps.flow-build-more
 metadata: 
   title: Build more complex flows with Power Automate
   description: Learn how to build more complex flows that automate events.
-  ms.date: 03/04/2020
-  author: KevSch
-  ms.author: kschimke
+  ms.date: 06/08/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-automate
 title: Build more complex flows with Power Automate 
@@ -36,8 +36,6 @@ units:
 - learn-bizapps.flow-build-more.8-flow-event-D365
 - learn-bizapps.flow-build-more.9-flow-use-SQL
 - learn-bizapps.flow-build-more.10-flow-integrate-powerapps
-- learn-bizapps.flow-build-more.11-flow-create-business-process-flow
-- learn-bizapps.flow-build-more.12-flow-create-business-process-flow-branching
 - learn-bizapps.flow-build-more.13-monitor-flows
 - learn-bizapps.flow-build-more.14-knowledge-check
 - learn-bizapps.flow-build-more.15-summary

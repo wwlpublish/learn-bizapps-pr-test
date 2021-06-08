@@ -1,6 +1,16 @@
 {
   "redirections": [
     {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/includes/11-flow-create-business-process-flow.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
+      "source_path": "learn-bizapps-pr/flow/build-more-flows/includes/12-flow-create-business-process-flow-branching.md",
+      "redirect_url": "https://docs.microsoft.com/en-us/learn/paths/automate-process-power-automate/",
+      "redirect_document_id⁯": false
+    },
+    {
       "source_path": "learn-bizapps-pr/flow/implementation-recommendations/7-connectors.md",
       "redirect_url": "https://docs.microsoft.com/learn/modules/implementation-recommendations/",
       "redirect_document_id⁯": false
