@@ -4,7 +4,7 @@ These actions can launch and close Outlook, as well as retrieve, send, process a
 
 ## Launch and close Outlook
 
-Before deploying any Outlook action, use the **Launch Outlook** action to launch Outlook and create an instance variable of it. This action doesn't require any parameters, while the other Outlook actions require the created instance.
+Before deploying any Outlook actions, use the **Launch Outlook** action to launch Outlook and create an instance variable of it. This action doesn't require any parameters, while the other Outlook actions require the created instance.
 
 ![Screenshot of the Launch Outlook action dialog.](..\media\launch-outlook-action.png)
 

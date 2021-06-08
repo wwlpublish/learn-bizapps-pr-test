@@ -4,7 +4,7 @@ Email automation enables organizations to send personalized emails to customers 
 
 Power Automate Desktop provides various actions that enable email handling for webmail services, Microsoft Outlook, and Exchange servers.
 
-Using the email actions, you can automate any webmail service that supports the Internet Message Access Protocol (IMAP) and Simple Mail Transfer Protocol (SMTP), such as Outlook.com.
+Using the email actions, you can automate any webmail service that supports the Internet Message Access Protocol (IMAP) and the Simple Mail Transfer Protocol (SMTP), such as Outlook.com.
 
 To use the available Outlook actions, you have to install the respective software, while the Exchange actions require an existed Exchange server.
 

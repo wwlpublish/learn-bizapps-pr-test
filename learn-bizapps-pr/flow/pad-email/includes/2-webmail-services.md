@@ -7,11 +7,11 @@ Virtually all major webmail services support IMAP and SMTP, while they usually r
 
 ## Configure IMAP and SMTP servers
 
-Before deploying any email action, you have to configure the server that will handle the requests. The **Retrieve email messages** and **Process email messages**  actions require an IMAP server, while the **Send email** action requires an SMTP server.
+Before deploying any email actions, you have to configure the server that will handle the requests. The **Retrieve email messages** and **Process email messages**  actions require an IMAP server, while the **Send email** action requires an SMTP server.
 
 To configure the required IMAP server, open the action's properties and expand the  **IMAP server** section.
 
-In **IMAP server** section, populate the address and the port of the server, and your account credentials. If untrusted certificates are permitted or the server uses TLS/SSL, select the **Accept Untrusted Certificates** or the **Enable SSL** option, respectively.
+In the **IMAP server** section, populate the address and the port of the server, and your account credentials. If untrusted certificates are permitted or the server uses TLS/SSL, select the **Accept Untrusted Certificates** or the **Enable SSL** option, respectively.
 
 ![Screenshot of the IMAP server section in the Retrieve email messages action.](..\media\imap-server-config.png)
 
@@ -37,7 +37,7 @@ After retrieving messages from your mailbox, Power Automate Desktop enables you 
 
 This action runs a series of essential email handling operations, such as deleting, marking as unread, and moving messages to other folders.
 
-To deploy the action, you have to set a list of emails as input. The list can be created by the **Retrieve email messages** action.
+To deploy this action, you have to set a list of emails as input. The list can be created by the **Retrieve email messages** action.
 
 ![Screenshot of the Process email messages action.](..\media\process-emails-action.png)
 
