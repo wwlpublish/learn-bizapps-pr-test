@@ -33,7 +33,7 @@ The process of preparing data and modeling data is an iterative process. Data pr
 
 ## Visualize
 
-The visualization task is where you get to bring your data to life. The ultimate goal of the visualize task is to solve business problems. A well-designed report should tell a compelling story about that data, which will enable business decision makers to quickly gain needed insights. By using appropriate visualizations and interactions, you can provide an effective report that guides the reader through the content quickly and efficiently, therefore allowing the reader to follow a narrative into the data.
+The visualization task is where you get to bring your data to life. The ultimate goal of the visualize task is to solve business problems. A well-designed report should tell a compelling story about that data, which will enable business decision makers to quickly gain needed insights. By using appropriate visualizations and interactions, you can provide an effective report that guides the reader through the content quickly and efficiently, thereby allowing the reader to follow a narrative into the data.
 
 The reports that are created during the visualization task help businesses and decision makers understand what that data means so that accurate and vital decisions can be made. Reports drive the overall actions, decisions, and behaviors of an organization that is trusting and relying on the information that is discovered in the data.
 
