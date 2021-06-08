@@ -25,15 +25,15 @@ quiz:
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: MVM uses a Dataverse environment.
+      explanation: Microsoft Vaccination Management uses a Dataverse environment.
     - content: "False"
       isCorrect: false 
-      explanation: MVM uses a Dataverse environment.
-  - content: Microsoft Vaccination Management is deployed via the Solution Center.
+      explanation: Microsoft Vaccination Management uses a Dataverse environment.
+  - content: Microsoft Vaccination Management is deployed from the Solution Center.
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: MVM is deployed via the solution center.
+      explanation: Microsoft Vaccination Management is deployed from the Solution Center.
     - content: "False"
       isCorrect: false 
-      explanation: MVM is deployed via the solution center.
+      explanation: Microsoft Vaccination Management is deployed from the Solution Center.
