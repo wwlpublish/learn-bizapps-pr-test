@@ -41,17 +41,12 @@ quiz:
     - content: Microsoft Dataverse
       isCorrect: false 
       explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
-  - content: YourQuestion
+  - content: A Dataverse environment is needed to deploy Microsoft Vaccination Management?
     choices: 
-    - content: YourAnswer
+    - content: "True"
       isCorrect: true 
-      explanation: YourExplanation
-    - content: YourAnswer
+      explanation: Your environment needs to include Dataverse as you will need to create a database within that environment.
+    - content: "False"
       isCorrect: false 
-      explanation: YourExplanation
-    - content: YourAnswer
-      isCorrect: false 
-      explanation: YourExplanation
-    - content: YourAnswer
-      isCorrect: false 
-      explanation: YourExplanation
+      explanation: Your environment needs to include Dataverse as you will need to create a database within that environment.
+    
