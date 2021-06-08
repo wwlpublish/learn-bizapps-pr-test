@@ -252,7 +252,7 @@ In this task, you will learn to create new schedules and automatically create sl
 
 **Congratulations!** You have successfully created a slot schedule for a vaccination site in the Vaccination Site Management App.
 
-## Task 6: Create a Batch
+## Task 6: Create a batch
 
 In this task you will create a batch of newly received vaccine doses to be made available to residents.
 
@@ -283,7 +283,7 @@ In this task you will create a batch of newly received vaccine doses to be made 
 
 **Congratulations!** You have successfully created a vaccine batch in the Vaccination Site Management App.
 
-## Task 7: Open a Vaccine Phase for Booking
+## Task 7: Open a vaccine phase for booking
 
 To address the situation of when demand for appointments is greater than the availability of appointment slots, vaccination program administrators can set a phase to allow or not allow eligible residents to make an appointment.
 

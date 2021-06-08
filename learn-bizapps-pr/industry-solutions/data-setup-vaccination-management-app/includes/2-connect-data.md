@@ -7,9 +7,9 @@ The Power Query user experience is provided through the Power Query Editor user 
 
 In this exercise, you will be playing the role of a Business Analyst and learn how to do the following:
 
-1.  Use Power Query options to quickly import a small subset of data into Dataverse.
+- Use Power Query options to quickly import a small subset of data into Dataverse.
 
-1.  Learn how to create Excel templates.
+- Learn how to create Excel templates.
 
 ## Task 1: Navigate to Get Data in Power Apps
 
