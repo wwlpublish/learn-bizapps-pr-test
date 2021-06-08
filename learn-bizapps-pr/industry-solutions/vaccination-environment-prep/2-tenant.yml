@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.vaccination-environment-prep.2-tenant 
-title: Exercise - setup a demo tenant with trial license
+title: Exercise - Set up a demo tenant with a trial license
 metadata: 
-  title: Exercise - setup a demo tenant with trial license
-  description: Learn how to setup a demo tenant with trial license
+  title: Exercise - Set up a demo tenant with a trial license
+  description: Learn how to set up a demo tenant with a trial license.
   ms.date: 06/10/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
