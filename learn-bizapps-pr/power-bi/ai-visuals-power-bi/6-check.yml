@@ -46,7 +46,7 @@ quiz:
     - content: Searching for help topics about Power BI.
       isCorrect: true
       explanation: Searching for help topics about Power BI is not a feature of the Q&A visual. 
-  - content: What does the decomposition tree not enable you to do?
+  - content: What does the decomposition tree NOT enable you to do?
     choices: 
     - content: Conduct root cause analysis to understand a measure better.
       isCorrect: false
