@@ -19,7 +19,7 @@ In this task, you will get to know the Power Query options available to get smal
 
 1.  Log in using the credentials supplied in the training for your user.
 
-1.  Select the correct environment from the upper right **Environment** drop down.
+1.  Select the correct environment from the upper right **Environment** drop-down.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Environment drop down menu.](../media/environment.png)](../media/environment.png#lightbox)
@@ -36,7 +36,7 @@ In this task, you will get to know the Power Query options available to get smal
 
 1.  Browse through the various Power Query options available to import data into Dataverse. Power Query offers a wide number of data connectors, which are broken down into multiple categories. These connectors range from data sources such as TXT, CSV, and Excel files, to databases such as Microsoft SQL Server, and popular SaaS services such as Microsoft Dynamics 365.
 
-    Please reference [this article](/power-query/best-practices/?azure-portal=true) to learn more about best practices when working with Power Query to get data into Dataverse.
+    Reference [this article](/power-query/best-practices/?azure-portal=true) to learn more about best practices when working with Power Query to get data into Dataverse.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Power Query data sources available.](../media/data-sources.png)](../media/data-sources.png#lightbox)
@@ -51,7 +51,7 @@ In this task, we will walk through the steps to import data into Dataverse from 
 
 1.  Log in using the credentials supplied in the training for your user.
 
-1.  Select the correct environment from the upper right **Environment** drop down.
+1.  Select the correct environment from the upper right **Environment** drop-down.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Environment drop down menu with an environment selected.](../media/environment.png)](../media/environment.png#lightbox)

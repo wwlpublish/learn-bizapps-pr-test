@@ -29,7 +29,7 @@ quiz:
       explanation: Site data is not an area of the Vaccination Management app.
   - content: Which option quickly imports a small subset of data into Dataverse?
     choices: 
-    - content: Power Shell
+    - content: PowerShell
       isCorrect: false
       explanation: Power Query quickly imports a small subset of data into Dataverse.
     - content: Power Apps

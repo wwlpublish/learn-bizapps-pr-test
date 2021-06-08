@@ -4,9 +4,9 @@ Vaccination Program Administrators who are looking to:
 
 -   Learn how to quickly pull data into Dataverse to create new records.
 
--   Setup Reference Data to launch new Vaccine Sites and Locations
+-   Set up Reference Data to launch new Vaccine Sites and Locations
 
--   Setup Master Data to manage Vaccine and Program data
+-   Set up Master Data to manage Vaccine and Program data
 
 Vaccination Provider Administrators who are looking to:
 
@@ -16,5 +16,4 @@ Vaccination Provider Administrators who are looking to:
 
 -   Create Site Schedules
 
-In this lab, you learned how a Vaccination Program Manager can quickly pull data into Dataverse to create new records. You also discovered how to create new Reference Data to launch new Vaccine Sites and Locations. Finally, you setup Master Data to manage Vaccine and Program data for Microsoft Vaccine Management.
-
+In this lab, you learned how a Vaccination Program Manager can quickly pull data into Dataverse to create new records. You also discovered how to create new Reference Data to launch new Vaccine Sites and Locations. Finally, you set up Master Data to manage Vaccine and Program data for Microsoft Vaccine Management.

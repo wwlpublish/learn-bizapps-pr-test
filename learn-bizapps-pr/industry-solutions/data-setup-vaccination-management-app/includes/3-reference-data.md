@@ -1,19 +1,19 @@
-The Vaccination Site Management App is a model-driven Power App that allows a Location/Site manager to setup the reference data which is required to initially set up and begin using Microsoft Vaccine Management apps like the Vaccination Site Management app, Frontline Worker App and the Registration and Booking Portal.
+The Vaccination Site Management App is a model-driven Power App that allows a Location/Site manager to set up the reference data, which is required to initially set up and begin using Microsoft Vaccine Management apps like the Vaccination Site Management app, Frontline Worker App and the Registration and Booking Portal.
 
 In this exercise, you will be playing the role of a Business Analyst and learn how to do the following:
 
-- Create a new Medical Code to track additional vaccine details.
+- Create a new Medical Code to track more vaccine details.
 - Use Power Query functionality in Power Apps to quickly import new Location records into Dataverse.
 
 ## Task 1: Create a new Medical Code record
 
-In this task, we will begin by quickly creating a new Medical Code CVX record that will be used later for creating a new Vaccine Type in the next exercise. A medical code represents a custom entity value that is usually supplied by providing a reference to one or more terminologies, but it may also be defined by the provision of text. CVX codes indicate the product used in a vaccination. They are maintained by the Centers for Disease Control and Prevention, Immunization Information System Support Branch (IISSB) for use in HL7 data transmission. Provide the vaccination's CVX code. For Ex: 210 for Covid-19 Vaccine
+In this task, we will begin by quickly creating a new Medical Code CVX record that will be used later for creating a new Vaccine Type in the next exercise. A medical code represents a custom entity value that is supplied by providing a reference to one or more terminologies, but it may also be defined by the provision of text. CVX codes indicate the product used in a vaccination. They are maintained by the Centers for Disease Control and Prevention, Immunization Information System Support Branch (IISSB) for use in HL7 data transmission. Provide the vaccination's CVX code. For Ex: 210 for Covid-19 Vaccine
 
 1.  Navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true) (recommend Incognito or InPrivate session).
 
 1.  Log in using the credentials supplied in the training for your user.
 
-1.  Select the correct environment from the upper right **Environment** drop down.
+1.  Select the correct environment from the upper right **Environment** drop-down.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Environment drop down menu.](../media/environment.png)](../media/environment.png#lightbox)

@@ -1,6 +1,6 @@
 This is the **second** exercise in a series covering Microsoft Vaccination Management (MVM). These labs follow a sequence of presentations covering an overview of Microsoft Vaccination Management, Solution Center installation, and the accompanying Data model. Before beginning this exercise, confirm that you have provisioned an environment with the necessary components installed.
 
-In this exercise you will learn how to add and manage your data in Microsoft Vaccination Management by using the Vaccination Management App. The Vaccination management app is used by vaccination program administrators to set up and manage eligibility phases, vaccines, doses, and schedules. Vaccination program administrators can also see who has registered, review vaccine inventory, view basic reports on appointments, and see the outcomes of vaccinations.
+In this exercise, you will learn how to add and manage your data in Microsoft Vaccination Management by using the Vaccination Management App. The Vaccination management app is used by vaccination program administrators to set up and manage eligibility phases, vaccines, doses, and schedules. Vaccination program administrators can also see who has registered, review vaccine inventory, view basic reports on appointments, and see the outcomes of vaccinations.
 
 The Vaccine site management app has three areas:
 
@@ -36,9 +36,9 @@ Vaccination Program Administrators who are looking to:
 
 -   Learn how to quickly pull data into Dataverse to create new records.
 
--   Setup Reference Data to launch new Vaccine Sites and Locations
+-   Set up Reference Data to launch new Vaccine Sites and Locations
 
--   Setup Master Data to manage Vaccine and Program data
+-   Set up Master Data to manage Vaccine and Program data
 
 Vaccination Provider Administrators who are looking to:
 

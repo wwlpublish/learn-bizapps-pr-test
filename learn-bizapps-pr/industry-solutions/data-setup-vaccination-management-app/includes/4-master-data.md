@@ -2,7 +2,7 @@ The Vaccination Management App is a model-driven Power App that is used by the h
 
 In this exercise, you will be playing the role of a Site/Location manager and learn how to do the following:
 
-- Setup Vaccine manufacturer's details.
+- Set up Vaccine manufacturer's details.
 
 - Record the Vaccine details along with its dosage, storage, and immunization education details.
 
@@ -10,7 +10,7 @@ In this exercise, you will be playing the role of a Site/Location manager and le
 
 - Setup Vaccination site details and then associate the vaccinators to a site.
 
-- Create schedules and auto-create slots.
+- Create schedules and autocreate slots.
 
 - Record vaccination shipments.
 
@@ -21,7 +21,7 @@ In this task, you will create a Vaccine manufacturer record. This will enable yo
 1.  In the left pane, click on **Manufacturer** and then you can view the list of active manufacturers.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of manufacturer in the left pane navigation.](../media/manufacturer.png)](../manufacturer/image.png#lightbox)
+	> [![Screenshot of manufacturer in the left pane navigation.](../media/manufacturer.png)](../media/manufacturer.png#lightbox)
 
 1.  On the **Manufacturer** form, click on **New** button.
 
@@ -295,7 +295,7 @@ To make access to vaccination appointments more equitable, a vaccination program
 
 In this task, we will open a Vaccine Phase for Registration & Booking.
 
-1.  Select **Reference Data** from the bottom left site map.
+1.  Select **Reference Data** from the bottom-left site map.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of reference data on the left site map.](../media/reference-data-selected.png)](../media/reference-data-selected.png#lightbox)
