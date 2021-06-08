@@ -44,7 +44,7 @@ You can create a flow that performs one or more tasks (for example, sending a re
 
 1. Add the action or actions that the flow should take and then click **Save**.
 
-    For this example, I will use the add the **Send an email (V2)** action to remind me to submit any expense reports I have for this month.
+    For this example, I will add the **Send an email (V2)** action to remind me to submit any expense reports I have for this month.
 
 ## Delay the flow
 

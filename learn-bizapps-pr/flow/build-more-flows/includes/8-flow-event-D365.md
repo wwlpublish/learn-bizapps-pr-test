@@ -10,7 +10,7 @@ In this unit, we'll look to build two flows:
 Here are some other examples of flows that you can create by using Microsoft Dataverse:
 
 - Create a list item in Microsoft SharePoint when an object is created in Microsoft Dataverse.
-- Create Microsoft Dataverse account records from an Microsoft Excel table.
+- Create Microsoft Dataverse account records from a Microsoft Excel table.
 
 ## Prerequisites
 
@@ -80,7 +80,7 @@ This example shows how to create a task in Microsoft Planner whenever a task is 
 1. In the search field, enter *Planner*, and then select **Planner – Create a task**.
 1. For Group Id, hit the dropdown and select a Group. In our example, I will select **Marketing Plan**.
 1. For Plan Id, hit the dropdown and select a Plan. 
-1. In the **Title** field, enter some text and then add the **Subject**, from the dynamic content pane. In our example for the Title field, I will enter *Begin onboarding process for:*. This will give my new Planner task some additional clarity, when it shows up in the Planner App.
+1. In the **Title** field, enter some text and then add the **Subject**, from the dynamic content pane. In our example, for the Title field, I will enter *Begin onboarding process for:*. This will give my new Planner task some additional clarity, when it shows up in the Planner App.
 1. For Bucket Id, hit the dropdown and select a Bucket (optional).
 
    ![Screenshot of Create a planner task with Group Id, Plan Id, Title, and Bucket Id.](../media/flow-planner-details.png)
