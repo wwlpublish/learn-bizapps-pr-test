@@ -1,0 +1,40 @@
+### YamlMime:Module 
+uid: learn-bizapps.post-deployment-configuration 
+metadata: 
+ title: Microsoft Vaccination Management post-deployment configuration
+ description: Learn how to update portal bindings and Bing map settings, and to enable, configure, and integrate Microsoft Vaccination Management.
+ ms.date: 06/14/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-healthcare-vaccination  
+title: Microsoft Vaccination Management post-deployment configuration
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Learn how to update portal bindings and Bing map settings, and to enable, configure, and integrate Microsoft Vaccination Management.
+abstract: |  
+    In this module, you will: 
+    - Explore and Enable MVM Workflows.
+    - Learn to update MVM Portal bindings and Bing map settings.
+    - Learn to enable, configure, and customize the MVM Power Automate Flows.
+    - Learn to integrate MVM Power Automate Email flows with a bulk email service connector.  
+prerequisites: You must have Power Apps user credentials.
+iconUrl: /learn/achievements/post-deployment-configuration.svg  
+levels:  
+- beginner   
+roles:  
+- administrator   
+- developer 
+products: 
+- industry-solutions
+- mscloud-healthcare 
+units: 
+- learn-bizapps.post-deployment-configuration.1-introduction 
+- learn-bizapps.post-deployment-configuration.2-exercise 
+- learn-bizapps.post-deployment-configuration.3-exercise 
+- learn-bizapps.post-deployment-configuration.4-exercise 
+- learn-bizapps.post-deployment-configuration.5-exercise 
+- learn-bizapps.post-deployment-configuration.6-check 
+- learn-bizapps.post-deployment-configuration.7-summary 
+badge: 
+  uid: learn-bizapps.post-deployment-configuration.badge 
