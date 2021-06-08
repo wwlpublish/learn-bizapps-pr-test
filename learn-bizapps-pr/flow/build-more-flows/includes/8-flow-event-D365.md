@@ -15,11 +15,11 @@ Here are some other examples of flows that you can create by using Microsoft Dat
 ## Prerequisites
 
 * Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
-* An [environment](https://docs.microsoft.com/en-us/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](https://docs.microsoft.com/en-us/power-platform/admin/create-database). (Applicable only for work or school accounts).
+* An [environment](/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](/power-platform/admin/create-database). (Applicable only for work or school accounts).
 * A basic understanding of Power Automate as well as experience with creating a flow is recommended.
 
 > [!IMPORTANT]
-> To invoke a flow trigger, the Microsoft Dataverse customer engagement table that's used with the flow must have change tracking turned on. For more about how to turn on change tracking, see [Enable change tracking to control data synchronization](https://docs.microsoft.com/power-platform/admin/enable-change-tracking-control-data-synchronization).
+> To invoke a flow trigger, the Microsoft Dataverse customer engagement table that's used with the flow must have change tracking turned on. For more about how to turn on change tracking, see [Enable change tracking to control data synchronization](/power-platform/admin/enable-change-tracking-control-data-synchronization).
 
 ## Example one: Create a task from a new Account
 
@@ -85,7 +85,7 @@ This example shows how to create a task in Microsoft Planner whenever a task is 
 
    ![Screenshot of Create a planner task with Group Id, Plan Id, Title, and Bucket Id.](../media/flow-planner-details.png)
 
-   See [create a task parameters](https://docs.microsoft.com/connectors/planner/#create-a-task/?azure-portal=true) for information 	about the fields.
+   See [create a task parameters](/connectors/planner/#create-a-task/?azure-portal=true) for information 	about the fields.
 
 1. Select **Save**.
 

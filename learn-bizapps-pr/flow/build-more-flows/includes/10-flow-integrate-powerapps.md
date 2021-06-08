@@ -33,7 +33,7 @@ Adding a flow to a Power Apps application is very straightforward.
 
     ![Screenshot of search results for PowerApps button.](../media/flow-select-powerapp.png)
 
-For more about how to create flows, see [Create a flow from a template in Power Automate](https://docs.microsoft.com/flow/get-started-logic-template/?azure-portal=true).
+For more about how to create flows, see [Create a flow from a template in Power Automate](/flow/get-started-logic-template/?azure-portal=true).
 
 ## Add a Power Apps application from Power Automate
 
@@ -49,7 +49,7 @@ You can also go in the other direction. You can start in Power Automate and then
 
     Once the template is selected and opened, you can start building your flow.
 
-For more about how to create apps by using Power Apps, see [Create a canvas app from a template in Power Apps](https://docs.microsoft.com/powerapps/maker/canvas-apps/get-started-test-drive/?azure-portal=true).
+For more about how to create apps by using Power Apps, see [Create a canvas app from a template in Power Apps](/powerapps/maker/canvas-apps/get-started-test-drive/?azure-portal=true).
 
 ## Integration of SharePoint with Power Automate
 
