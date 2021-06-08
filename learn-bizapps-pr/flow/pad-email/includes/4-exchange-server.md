@@ -20,7 +20,7 @@ To limit the retrieved emails, you can filter them according to their parent fol
 
 ## Send an Exchange email message
 
-To send an email message, deploy the **Send Exchange email message** action that creates and sends new email messages through a previously established Exchange server connection.
+To send an email message, deploy the **Send Exchange email message** action, that creates and sends new email messages through a previously established Exchange server connection.
 
 In the action's properties, you can specify the following elements:
 
@@ -40,6 +40,6 @@ After retrieving messages from an Exchange folder, Power Automate Desktop enable
 
 This action runs a series of essential email handling operations, such as deleting, marking as unread, and moving messages to other folders.
 
-To use this action, you have to set a list of emails as input. This list can be created by the **Retrieve Exchange email messages** action.
+To deploy this action, you have to set a list of emails as input. This list can be created by the **Retrieve Exchange email messages** action.
 
 ![Properties of the Process Exchange email messages action dialog.](..\media\process-exchange-action.png)

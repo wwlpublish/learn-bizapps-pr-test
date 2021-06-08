@@ -4,7 +4,7 @@ These actions can launch and close Outlook, as well as retrieve, send, process a
 
 ## Launch and close Outlook
 
-Before deploying any Outlook action, use the **Launch Outlook** action to launch Outlook and create an instance variable of it. This action doesn't require any parameters, while the Outlook actions require the created instance.
+Before deploying any Outlook action, use the **Launch Outlook** action to launch Outlook and create an instance variable of it. This action doesn't require any parameters, while the other Outlook actions require the created instance.
 
 ![Screenshot of the Launch Outlook action dialog.](..\media\launch-outlook-action.png)
 
@@ -22,7 +22,7 @@ To limit the retrieved emails, you can filter them according to their parent fol
 
 ## Send email message through Outlook
 
-To send an email message through Outlook, deploy the **Send email message through Outlook** action that creates and sends new email messages. In the action's properties, you can specify the following elements:
+To send an email message through Outlook, deploy the **Send email message through Outlook** action, that creates and sends new email messages. In the action's properties, you can specify the following elements:
 
 - Sender
 - Recipient
@@ -39,7 +39,7 @@ After retrieving messages from a mailbox, Power Automate Desktop enables you to 
 
 This action runs a series of essential email handling operations, such as deleting, marking as unread, and moving messages to other folders.
 
-To use this action, you have to set a list of emails as input. This list can be created by the **Retrieve email messages from Outlook*** action.
+To use this action, you have to set a list of emails as input. This list can be created by the **Retrieve email messages from Outlook** action.
 
 ![Screenshot of the Process email messages in Outlook action dialog.](..\media\process-emails-outlook.png)
 
@@ -47,7 +47,7 @@ To use this action, you have to set a list of emails as input. This list can be 
 
 Apart from processing retrieved emails, Power Automate Desktop enables you to save emails locally using the **Save Outlook email messages** action.
 
-This action requires a list of retrieved emails that can be retrieved using the **Retrieve email messages from Outlook** action.
+This action requires a list of emails that can be retrieved using the **Retrieve email messages from Outlook** action.
 
 You can save the extracted emails into various file types, such as Outlook Message, HTML, and text. To name the files manually, select **Custom** in the **File name** dropdown menu and populate the **Save as** field.
 
@@ -57,7 +57,7 @@ You can save the extracted emails into various file types, such as Outlook Messa
 
 To reply or forward an email, use the **Respond to Outlook message** action. This action responds to an Outlook message by replying, replying to all, or forwarding.
 
-In the action's properties, you have to populate an email variable. You can retrieve emails using the **Retrieve email messages from Outlook** action.
+In the action's properties, you have to populate an email variable. You can use an individual element of an email list retrieved with the **Retrieve email messages from Outlook** action.
 
 Apart from text, the action allows you to attach files to your replying message. To attach a file, populate the file path or a variable containing the file (or a list of files) in the **Attachment(s)** field.
 
