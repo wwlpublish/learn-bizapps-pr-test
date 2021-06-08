@@ -23,7 +23,7 @@ Data preparation can often be a lengthy process. Data analysts follow a series o
 
 When the data is in a proper state, it's ready to be modeled. Data modeling is the process of determining how your tables are related to each other. This process is done by defining and creating relationships between the tables. From that point, you can enhance the model by defining metrics and adding custom calculations to enrich your data.
 
-Creating an effective and proper data model is a critical step in helping organizations understand and gain valuable insights into the data. An effective data model makes reports more accurate, allows the data to be explored faster and more efficient, decreases time for the report writing process, and simplifies future report maintenance.
+Creating an effective and proper data model is a critical step in helping organizations understand and gain valuable insights into the data. An effective data model makes reports more accurate, allows the data to be explored faster and more efficiently, decreases time for the report writing process, and simplifies future report maintenance.
 
 The model is another critical component that has a direct effect on the performance of your report and overall data analysis. A poorly designed model can have a drastically negative impact on the general accuracy and performance of your report. Conversely, a well-designed model with well-prepared data will ensure a properly efficient and trusted report. This notion is more prevalent when you are working with data at scale.
 
