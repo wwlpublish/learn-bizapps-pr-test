@@ -40,7 +40,7 @@ After they have been created in an environment, custom connectors can be used in
 
 Because custom connectors are only available in environments where their definition exists, they are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. By certifying your connector, you can make the custom connector that you created available as a prebuilt connector in all customer environments. Certifying a connector requires that you own the API or have explicit permission to publish a connector from the API owner.
 
-For more information, see [Submit your connector for Microsoft certification](https://docs.microsoft.com/connectors/custom-connectors/submit-certification/?azure-portal=true).
+For more information, see [Certification process](/connectors/custom-connectors/certification-submission/?azure-portal=true).
 
 This step in the process is optional and only required if you want to share your connector and have it listed as certified. Internal-facing connectors don't need to complete this certification process.
 
