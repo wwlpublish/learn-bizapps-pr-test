@@ -34,7 +34,7 @@ The primary scenario for classic workflows is when real-time processing is requi
 
 Characteristics of classic workflows are that they:
 
-- Can't only access related records in many-to-one relationships.
+- Can only access related records in many-to-one relationships.
 - Are limited to operations on Dataverse data.
 
 ![Screenshot of the Classic workflow editor.](../media/1-classic-workflow.png)
