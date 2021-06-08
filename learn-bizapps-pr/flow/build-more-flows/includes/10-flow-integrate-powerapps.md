@@ -2,6 +2,7 @@ The data that fuels business processes is often buried in separate systems that 
 
 ![Integrate flow shows a cube, comment bubble, cloud, email, and spreadsheet all coming out of a folder.](../media/FlowPlan.png)
 
+But Microsoft Power Platform with Power Automate, Power Apps, and Power BI along with tools like Microsoft SharePoint make it all easier. Together, these apps and services provide these advantages:
 
 - The data can easily be tapped.
 - Critical business decisions can be made more quickly and more intelligently.
