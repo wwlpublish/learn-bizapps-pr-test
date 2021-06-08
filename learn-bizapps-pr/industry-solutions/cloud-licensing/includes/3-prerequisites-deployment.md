@@ -12,7 +12,7 @@ There are a couple of prerequisites before you begin deployment using the Micros
 
 - User should also have the required licenses for MVM and its dependencies.
 
-- Follow the Allow-listing process for MVM (see Lab 0: Environment Preparation & Prerequisites)
+- Follow the Allow-listing process for MVM 
 
 ## Deployment
 
