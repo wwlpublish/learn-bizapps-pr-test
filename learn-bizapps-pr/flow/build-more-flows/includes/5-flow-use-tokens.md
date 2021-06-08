@@ -34,7 +34,7 @@ Although the procedures in this unit show screenshots from an Apple iOS device, 
 ### Prerequisites
 
 * A work or school email address, or a [Microsoft account](https://account.microsoft.com/about?refd=www.microsoft.com/?azure-portal=true) that has access to Power Automate
-* The Power Automate mobile app for [Android](https://aka.ms/flowmobiledocsandroid/?azure-portal=true), [iOS](https://aka.ms/flowmobiledocsios/?azure-portal=true), or [Windows Phone](https://aka.ms/flowmobilewindows/?azure-portal=true)
+* The Power Automate mobile app for [Android](https://aka.ms/flowmobiledocsandroid/?azure-portal=true) or [iOS](https://aka.ms/flowmobiledocsios/?azure-portal=true).
 
 ### Create the button flow
 

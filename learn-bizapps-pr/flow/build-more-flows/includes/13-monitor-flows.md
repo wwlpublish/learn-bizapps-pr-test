@@ -2,7 +2,7 @@ You can view a summary of the number of times that each flow succeeded or failed
 
 ## Prerequisites
 
-* Install the Power Automate mobile app for [Google Android](https://aka.ms/flowmobiledocsandroid/?azure-portal=true), [Apple iOS](https://aka.ms/flowmobiledocsios/?azure-portal=true), or [Windows Phone](https://aka.ms/flowmobilewindows/?azure-portal=true) on a supported device. The screenshots in this unit were taken on the Apple iPhone version of the app, but the mobile app for Android and Windows Phone are similar.
+* Install the Power Automate mobile app for [Google Android](https://aka.ms/flowmobiledocsandroid/?azure-portal=true) or [Apple iOS](https://aka.ms/flowmobiledocsios/?azure-portal=true) on a supported device. The screenshots in this unit were taken on the Apple iPhone version of the app, but the mobile app for Android and Windows Phone are similar.
 * If you have completed all of the Units in this Learning Path, you will have a number of flow runs available for review. If you don't already have a flow, you will want to create one now on the [Power Automate website](https://flow.microsoft.com/?azure-portal=true) before proceeding with this unit. For easier testing, use a flow that you can trigger yourself instead of waiting for an external event.
 
 > [!TIP]
