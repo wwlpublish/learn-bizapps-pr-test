@@ -6,7 +6,7 @@ The appointment scheduling portal lets you search for appointment locations usin
 
 In this task, you'll learn how to update the Bing API key and other default map settings.
 
-1. Create a [Bing Maps account](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account/?azure-portal=true) and [generate an API key](https://docs.microsoft.com/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key/?azure-portal=true).
+1. Create a [Bing Maps account](/bingmaps/getting-started/bing-maps-dev-center-help/creating-a-bing-maps-account/?azure-portal=true) and [generate an API key](/bingmaps/getting-started/bing-maps-dev-center-help/getting-a-bing-maps-key/?azure-portal=true).
 
    > [!Note]
    > If you are in an official training course, then this step is just informational, and no action is required from you because the Bing Map account would have already been set up and the API key would have been provided to you by your instructor.
@@ -113,13 +113,14 @@ In this task, you'll learn how to update the portal binding after the solution d
 
 1. Wait 1-5 minutes for the portal to restart. (Feel free to refill your water or stretch those legs!)
 
-    > [!tip] You may also jump ahead to the next exercise, as we will open the portal later in the next exercise.
+    > [!tip]
+    > You may also jump ahead to the next exercise, as we will open the portal later in the next exercise.
 
 1. Navigate back to the Registration and booking portal.
 
-    1. Navigate to the [Power Apps](https://make.powerapps.com/?azure-portal=true).
+    1. Navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true).
 
-    1. Select **Apps** > **Registration and booking Portal** app.
+    1. Select **Apps** , then the **Registration and booking Portal** app.
 
     1. Open the app by selecting the app name or selecting Browse.
 
@@ -207,7 +208,7 @@ As part of this task, you'll learn the steps to enable virtual waiting room and 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Portal running in the browser, again.](../media/3-15-portal.png)](../media/3-15-portal.png#lightbox)
 
-1. Navigate back to the Portal Management Settings Page
+1. Navigate back to the Portal Management Settings page.
 
     1. Find the **Portal Management** App and select it to open it. This app consists of all the Portal settings and its metadata.
 

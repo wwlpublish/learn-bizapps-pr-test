@@ -8,7 +8,7 @@ Some of the Power Automate Flows handle sending of emails. These emails are base
 
 In this task, you'll change that URL in the environment variable **RegistrationPortalURL** from the default one to the one that is specific to your Registration and booking Portal. This will ensure that all automatically generated emails will have the right URL to your Portal without modifying the individual flows.
 
-See the following documentation to learn more about the [Environment Variables](https://docs.microsoft.com/power-platform-release-plan/2019wave2/microsoft-powerapps/new-solution-components-get-full-support/?azure-portal=true).
+See the following documentation to learn more about the [Environment Variables](/power-platform-release-plan/2019wave2/microsoft-powerapps/new-solution-components-get-full-support/?azure-portal=true).
 
 1. Navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true).
 
@@ -67,7 +67,7 @@ A connection is a proxy or a wrapper around an API that allows the underlying se
 
 In this task, you'll learn to add the connections such as **Office 365 Outlook** and **Common Data Service (current environment)** which will be used in later tasks to associate it with Connection references.
 
-See the following documentation to learn more about the [Power Automate Connections](https://docs.microsoft.com/power-automate/add-manage-connections/?azure-portal=true).
+See the following documentation to learn more about the [Power Automate Connections](/power-automate/add-manage-connections/?azure-portal=true).
 
 1. In the left navigation, expand **Data** and select **Connections**.
 
@@ -113,7 +113,7 @@ See the following documentation to learn more about the [Power Automate Connecti
 
 A connection reference is a solution component that contains information about a connector. The operations within a Power Automate flow bind to a connection reference. Update the connection references used by Microsoft Vaccination Management to point to the connections created as part of the earlier task.
 
-See the following documentation to learn more about the [Connection references](https://docs.microsoft.com/powerapps/maker/data-platform/create-connection-reference/?azure-portal=true) and [Connectors](https://docs.microsoft.com/connectors/?azure-portal=true).
+See the following documentation to learn more about the [Connection references](/powerapps/maker/data-platform/create-connection-reference/?azure-portal=true) and [Connectors](/connectors/?azure-portal=true).
 
 In this task, you will be using an unmanaged Solution **Vaccination Management Configuration** and update the connection on the connection references with the new connections that were created as part of the earlier task.
 
@@ -170,13 +170,13 @@ In this task, you'll explore the included MVM Power Automate Flows and turn on t
 
 1. Make sure that the **Status** on each of the below four base flows are **On** as these flows are used as child flows in other flows.
 
-    1. **Send Email (Phase Opening)** - This is used as a child flow by the **Process Phase Opening** flow.
+    - **Send Email (Phase Opening)** - This is used as a child flow by the **Process Phase Opening** flow.
 
-    1. **Send Email (Registration)** - This is used by the **Email Registration Confirmation** flows to send emails to the residents.
+    - **Send Email (Registration)** - This is used by the **Email Registration Confirmation** flows to send emails to the residents.
 
-    1. **Send Email with Attachment (Base)** - This is used as a child flow by the **Email VIS Document** flow to send vaccine information statement as an attachment once resident receives the vaccine.
+    - **Send Email with Attachment (Base)** - This is used as a child flow by the **Email VIS Document** flow to send vaccine information statement as an attachment once resident receives the vaccine.
 
-    1. **Send Email (Generic)** - This is used as a child flow by all other remaining flows that send emails.
+    - **Send Email (Generic)** - This is used as a child flow by all other remaining flows that send emails.
 
 1. If any of them aren't turned on, select **More Commands** (...), then **Turn On**.
 
@@ -185,7 +185,7 @@ In this task, you'll explore the included MVM Power Automate Flows and turn on t
 
 1. Based on the customer requirements, you can turn on the required flows in the remaining list of flows. The definitions for each of the flows are listed in the below links:
 
-    [MVM Flows Definitions | Microsoft Docs](https://docs.microsoft.com/dynamics365/industry/vaccination-management/extend/?azure-portal=true#microsoft-vaccination-management-flows)
+    [MVM Flows Definitions | Microsoft Docs](/dynamics365/industry/vaccination-management/extend/?azure-portal=true#microsoft-vaccination-management-flows)
 
 1. Change the search category from **All** to **Cloud flow**. This will apply the filter to list only the Cloud Flows.
 
@@ -201,9 +201,9 @@ In this task, you'll explore the included MVM Power Automate Flows and turn on t
 
 In this task, you will learn to create a solution to group all the changes that you will be doing in the subsequent tasks and exercises. Solutions are used to transport apps and components from one environment to another or to apply a set of customizations to existing apps. A solution can contain one or more apps and other components such as site maps, tables, processes, web resources, choices, flows, and more.
 
-Solutions are the mechanism for implementing application lifecycle management (ALM) in Power Apps and other Power Platform products, such as Power Automate. For detailed information about the solution concepts and how solutions are used for application lifecycle management, see [Overview of ALM with Microsoft Power Platform](https://docs.microsoft.com/power-platform/alm/overview-alm/?azure-portal=true) in the Power Platform ALM guide.
+Solutions are the mechanism for implementing application lifecycle management (ALM) in Power Apps and other Power Platform products, such as Power Automate. For detailed information about the solution concepts and how solutions are used for application lifecycle management, see [Overview of ALM with Microsoft Power Platform](/power-platform/alm/overview-alm/?azure-portal=true) in the Power Platform ALM guide.
 
-See the following documentation to learn more about the [Solutions](https://docs.microsoft.com/powerapps/developer/data-platform/introduction-solutions/?azure-portal=true).
+See the following documentation to learn more about the [Solutions](/powerapps/developer/data-platform/introduction-solutions/?azure-portal=true).
 
 1. In the left pane, select **Solutions** and then you can view the list of solutions deployed in the environment.
 
@@ -214,7 +214,7 @@ See the following documentation to learn more about the [Solutions](https://docs
 
 1. In the right pane, select the **Publisher** drop-down list and then select **+ Publisher** to create a new Published record in a new tab page in your browser.
 
-    The solution publisher indicates who developed the app. For this reason, you should create a solution publisher that is meaningful. For more information about the solution publisher, see [Solution publisher](https://docs.microsoft.com/power-platform/alm/solution-concepts-alm#solution-publisher/?azure-portal=true) in the Power Platform ALM guide. Once a publisher has been set up, it can be linked to every (new) solution created.
+    The solution publisher indicates who developed the app. For this reason, you should create a solution publisher that is meaningful. For more information about the solution publisher, see [Solution publisher](/power-platform/alm/solution-concepts-alm#solution-publisher/?azure-portal=true) in the Power Platform ALM guide. Once a publisher has been set up, it can be linked to every (new) solution created.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Publisher drop-down list with the + Publisher option highlighted.](../media/4-25-publisher.png)](../media/4-25-publisher.png#lightbox)

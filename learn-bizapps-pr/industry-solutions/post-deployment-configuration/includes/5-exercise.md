@@ -1,23 +1,23 @@
 [Microsoft Exchange Online](https://www.microsoft.com/microsoft-365/exchange/exchange-online/?azure-portal=true) isn't a bulk email service, and has a limit of 10,000 emails per day per mailbox, which won't suffice for typical email volumes required for vaccination management scenarios, so it requires customers to have their own bulk email service as per their choice and compliance needs that they can use to send emails for various scenarios including registration confirmation, booking invitations, appointment confirmation and cancellations, appointment reminders, and immunization records. While the actual number of emails sent will vary for each deployment based on your registration and vaccination volumes, the number of emails can be *excessively high per day during peak times*.
 
-Customer implementations can extend the [standard Power Automate flows](https://docs.microsoft.com/dynamics365/industry/vaccination-management/configure-security-portal-flows/?azure-portal=true#configure-power-automate-flows) in Microsoft Vaccination Management (MVM) to integrate Microsoft Vaccination Management with the third-party bulk email provider of their choice.
+Customer implementations can extend the [standard Power Automate flows](/dynamics365/industry/vaccination-management/configure-security-portal-flows/?azure-portal=true#configure-power-automate-flows) in Microsoft Vaccination Management (MVM) to integrate Microsoft Vaccination Management with the third-party bulk email provider of their choice.
 
 Some of the popular bulk email services like [SendGrid](https://azuremarketplace.microsoft.com/marketplace/apps/SendGrid.SendGrid?tab=Overview&azure-portal=true) have standard Power Automate connectors that can be used by customers or other bulk email services can be integrated by building a Power Automate custom connector.
 
 In this exercise, you'll learn to extend an email flow to integrate with SendGrid Service as an example to send higher volumes of emails.
 
-See the following documentation to learn more about the [Sending limits in Exchange](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits/?azure-portal=true#receiving-and-sending-limits).
+See the following documentation to learn more about the [Sending limits in Exchange](/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits/?azure-portal=true#receiving-and-sending-limits).
 
 ## Task 1: Extend an Email flow to integrate with Bulk email service
 
 In this task, you'll learn to use SendGrid connector as an example to send higher volumes of emails.
 
-See the following documentation to learn more about the [SendGrid Connector](https://docs.microsoft.com/connectors/sendgrid/?azure-portal=true).
+See the following documentation to learn more about the [SendGrid Connector](/connectors/sendgrid/?azure-portal=true).
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the completed send email flow.](../media/5-1-flow.png)](../media/5-1-flow.png#lightbox)
 
-1. Create a SendGrid account either directly in [SendGrid](https://sendgrid.com/?azure-portal=true) or via [Azure portal](https://docs.microsoft.com/azure/sendgrid-dotnet-how-to-send-email/?azure-portal=true#create-a-sendgrid-account) and then create an API key.
+1. Create a SendGrid account either directly in [SendGrid](https://sendgrid.com/?azure-portal=true) or via [Azure portal](/azure/sendgrid-dotnet-how-to-send-email/?azure-portal=true#create-a-sendgrid-account) and then create an API key.
 
     > [!Note]
     > If you are in an official training course, then this step is just informational and no action is required, because the SendGrid account is already set up and the API key is provided to you.
@@ -43,7 +43,7 @@ See the following documentation to learn more about the [SendGrid Connector](htt
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the list of existing cloud flows with four flows selected.](../media/5-4-cloud-flows.png)](../media/5-4-cloud-flows.png#lightbox)
 
-1. On the **Send Email (Registration)** flow, select **More Commands (...) > Edit** to open and edit the flow in a new tab page in the browser.
+1. On the **Send Email (Registration)** flow, select **More Commands** (...), then **Edit** to open and edit the flow in a new tab in the browser.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the ellipsis button selected and the Edit options highlighted.](../media/5-5-edit.png)](../media/5-5-edit.png#lightbox)

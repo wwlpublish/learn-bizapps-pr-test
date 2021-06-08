@@ -16,4 +16,4 @@ After this set of exercises, you can do the following:
 
 1. Open an internet browser in either **In-Private** or **Incognito** mode.
 
-1. Navigate to [Power Apps](https://make.powerapps.com) and sign in with your user credentials.
+1. Navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true) and sign in with your user credentials.
