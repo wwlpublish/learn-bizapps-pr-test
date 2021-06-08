@@ -45,9 +45,13 @@ First, we'll set up the SharePoint site to monitor changes.
 
 1. In the left pane, select **My flows**.
 
-1. Select **New**, and then select **Automated--from blank**.
+1. Select **+ New flow**, and then select **Automated cloud flow**.
 
-1. Name your flow. Search all triggers triggers for the **SharePoint - When an item is created or modified** trigger and select it. Press **Create**.
+1. Under Flow name, you can either enter a flow name now or one will be generated automatically.
+
+1. In the Search all triggers field, enter *When an item is created* and then select the **SharePoint - When an item is created or modified** trigger.
+
+1. Select **Create**.
 
 1. On the **When an item is created or modified** card, enter the site address, and then select the name of the SharePoint list that your flow monitors for new or updated items.
 
@@ -57,17 +61,17 @@ First, we'll set up the SharePoint site to monitor changes.
 
 Next, we'll use the **SQL Server - Get rows** action to search the destination for the new or changed item.
 
-1. Select **New step**.
+1. Select **+ New step**.
 
-1. Under **Choose an action**, search for *Get rows*, and then select **SQL Server - Get rows (V2)**.
+1. Under **Choose an operation**, search for *SQL Get rows*, and then select **SQL Server - Get rows (V2)**.
 
 1. Set the **Server name**, **Database name**, and **Table name** for the table you wish to monitor.
 
 1. Select **Show advanced options**.
 
-1. In the **Filter Query** box, enter *Title eq* followed by a space and a single quotation mark ('). Then select the **Title** token in the dynamic content list, and enter another single quotation mark.
+1. In the **Filter Query** box, enter *Title eq* followed by a space and a single quotation mark ('). Then select the **Title** token in the dynamic content list, and enter another single quotation mark (').
 
-    This step assumes that you're matching the titles of the rows in the source and destination.
+    This step assumes that you're matching the titles, or in this example the ExpenseTitle field in SQL (destination) to the Title column in SharePoint (source).
 
     The **Get rows** card should now look like this image.
 
@@ -77,7 +81,7 @@ Next, we'll use the **SQL Server - Get rows** action to search the destination f
 
 Next, we'll check whether the new or changed item was found.
 
-1. Select **New step**, and then select **Condition**.
+1. Select **+ New step**, and then select **Condition**.
 
 1. On the **Condition** card, select the field on the left.
 
@@ -87,12 +91,14 @@ Next, we'll check whether the new or changed item was found.
 
     ![Screenshot of Condition with Dynamic content on the Expression tab with length(collection) highlighted](../media/length-expression.png)
 
-1. Without leaving the open pane, select **Dynamic content**. In the **Get rows** category, select **value**.
+1. Without leaving the open pane, select **Dynamic content**.
+
+1. In the **Get rows (V2)** category, select **value** and then select **OK**.
 
     ![Screenshot of Dynamic content with value (List of Items) highlighted.](../media/select-dynamic-content.png)
 
     > [!TIP]
-    > Confirm that you've selected **value** in the **Get rows** category. Don't select **value** in the **When an item is created or modified** category.
+    > Confirm that you've selected **value** in the **Get rows (V2)** category. Don't select **value** in the **When an item is created or modified** category.
 
 1. In the field in the center, select *is equal to*.
 
@@ -116,7 +122,7 @@ When your flow gets items from the destination, there are two possible outcomes.
 
 If the item doesn't exist in the destination, create it by using the **SQL Server - Insert row** action.
 
-1. On the **If yes** branch of the condition, select **Add an action**, search for *insert row*, and then select **SQL Server - Insert row (V2)**.
+1. On the **If yes** branch of the condition, select **Add an action**, search for *insert row SQL*, and then select **SQL Server - Insert row (V2)**.
 
 1. On the **Insert row** card, set the **Server name**, **Database name**, and **Table name** for the table to insert the new item into (the information you entered above).
 

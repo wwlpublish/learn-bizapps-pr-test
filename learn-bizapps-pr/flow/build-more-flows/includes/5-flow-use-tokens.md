@@ -27,7 +27,7 @@ Here's the list of button trigger tokens that are available to you when you crea
 
 When you create a button, you can use trigger tokens to add rich functionality to it.
 
-Let's create a button flow on a mobile device. The button flow will use trigger tokens to send the date and your full address in a "Working from home" email to your boss.
+Let's create a button flow on a mobile device to let your colleagues know you are working from home today. 
 
 Although the procedures in this unit show screenshots from an Apple iOS device, the experience is similar on Android and Windows Phone devices.
 
@@ -44,15 +44,15 @@ Although the procedures in this unit show screenshots from an Apple iOS device, 
 
     ![Mobile screenshot of Power Automate with the Browse button highlighted.](../media/1.png)
 
-1. Search for and select the **Send a 'Working from home today' email to your manager** service.
+1. Search for *Working from home today* and select the **Send a "Working from home today "email to your colleagues** service.
 
-    ![Send a 'Working from home today' email to your manager.](../media/2.png)
+    ![Send a 'Working from home today' email to your colleagues.](../media/2.png)
 
 1. Select **Use this template**.
 
     ![Mobile screenshot of the Send a Working from home today email action with the Use this template button highlighted.](../media/3.png)
 
-1. Press the title of the **Send an email** card to expand your options. Note that this is a part of simultaneous actions. We've turned the screen so you can see more of the flow here.
+1. Press the title of the **Send an email** card to expand your options. Note that this is a part of simultaneous actions.
 
     ![Screenshot of the Edit view of the flow with the Send an email action highlighted.](../media/3-5.png)
 
@@ -62,9 +62,11 @@ Although the procedures in this unit show screenshots from an Apple iOS device, 
 
 1. Scroll to the **Body** field, and select the default message so that you can add tokens there.
 
-1. Select the **Full address** token.
+1. In the Search field, enter *Full Address* and select the **Full Address** token.
 
     ![Full address token added to the Body field.](../media/8.png)
+
+1. In the upper right corner, select **Done**.
 
 1. Select **Create**.
 
@@ -79,12 +81,12 @@ Although the procedures in this unit show screenshots from an Apple iOS device, 
 
 1. Select the **Buttons** tab at the bottom of the window. You'll see a list of the buttons that you have permissions to use. Select the button that represents the button flow that you just created:
 
-    ![Screenshot of Buttons tab with the Send a Working from home today email to your manager - 2 button highlighted.](../media/10.png)
+    ![Screenshot of Buttons tab with the Send a Working from home today email to your colleagues - 2 button highlighted.](../media/10.png)
 
 1. Your device may prompt you to let the button flow access your device's location information. If necessary, press **Allow**
 
-    In a few moments, you'll notice that the email was sent to your boss.
+    In a few moments, you'll notice that the email was sent successfully.
 
     ![Mobile screenshot showing that the WFH Email was sent successfully.](../media/12.png)
 
-Congratulations! You just created a button flow that uses both the **Date** and **Full address** trigger tokens.
+Congratulations! You just created a button flow that uses both the **Date** and **Full Address** trigger tokens.

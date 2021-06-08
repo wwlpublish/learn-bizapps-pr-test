@@ -2,7 +2,6 @@ The data that fuels business processes is often buried in separate systems that 
 
 ![Integrate flow shows a cube, comment bubble, cloud, email, and spreadsheet all coming out of a folder.](../media/FlowPlan.png)
 
-But Microsoft Power Platform with Power Automate, Power Apps, and Power BI along with tools like Microsoft SharePoint make it all easier. Together, these apps and services provide these advantages:
 
 - The data can easily be tapped.
 - Critical business decisions can be made more quickly and more intelligently.
@@ -25,7 +24,7 @@ Adding a flow to a Power Apps application is very straightforward.
 
     ![Screenshot of the Power Apps Action tab with the Power Automate button highlighted.](../media/flow-action.png)
 
-1. In the **Data** dialog box, select **Create a new flow**.
+1. In the **Data** dialog box, select **+ Create a new flow**.
 
     ![Screenshot of the Data dialog with the Create a new flow button highlighted.](../media/flow-add.png)
 
@@ -57,11 +56,13 @@ Customers regularly exchange data between SharePoint lists and other systems to 
 
 Power Automate allows for automating the exchange of workflows and data between SharePoint and a variety of Microsoft and third-party services. You can create and start flows directly from a SharePoint list, and store and change that data in SharePoint.
 
-1. From a SharePoint list, select **Flow** on the top toolbar, and then select **Create a flow**.
+1. From a SharePoint list, select **Integrate** on the top toolbar, and then hover your cursor over **Power Automate**.
+
+1. Select **Create a flow**.  
 
     ![Screenshot of SharePoint toolbar with the Flow menu expanded and the Create a flow option highlighted.](../media/flow-sharepoint-flow.png)
 
-2. In the **Create a flow** pane, select the template to use.
+1. In the **Create a flow** pane, select the template to use.
 
     Power Automate is started, and you can finish creating the flow.
 
@@ -69,12 +70,14 @@ Power Automate allows for automating the exchange of workflows and data between 
 
 Power Apps lets you connect to, create, and share business apps on any device in minutes. You can build efficient mobile forms and apps directly from a SharePoint list, without writing a line of code.
 
-Power Apps and Power Automate share a common connector framework that lets you weave in dozens of data sources that are located on premises or in the cloud. These data sources include Microsoft Exchange, Microsoft SQL Server, Microsoft Dynamics, Salesforce, Google, MailChimp, Twitter, and Wunderlist.
+Power Apps and Power Automate share a common connector framework that lets you weave in dozens of data sources that are located on premises or in the cloud. These data sources include Microsoft Exchange, Microsoft SQL Server, Microsoft Dataverse, Salesforce, Google, MailChimp, Twitter, and Wunderlist.
 
-1. From a SharePoint list, select **Power Apps** on the top toolbar, and then select **Create an app**.
+1. From a SharePoint list, select **Integrate** on the top toolbar, and then hover your cursor over **Power Apps**.
+
+1. Select **Create an app**.
 
     ![Screenshot of SharePoint toolbar with the PowerApps menu expanded and the Create an app option highlighted.](../media/flow-sharepoint-powerapps.png)
 
-2. In the **Create an app** pane, enter a name for your app, and then select **Create**.
+1. In the **Create an app** pane, enter a name for your app, and then select **Create**.
 
     Power Apps is started, and you can finish creating the app.
