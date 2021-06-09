@@ -19,7 +19,7 @@ In this task, you'll record the vaccination details for the appointment you sche
 1. Complete the vaccination and then select **Yes**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the dialog box asking Do you want to mark vaccination complete for the selected patient?](../media/4-3-complete.png)](../media/4-3-complete.png#lightbox)
+    > ![Screenshot of the dialog box asking Do you want to mark vaccination complete for the selected patient?](../media/4-3-complete.png)
 
 1. View the completion screen and notice that an email confirmation has been sent to the resident.
 
@@ -52,6 +52,6 @@ In this task, you'll record the vaccination details for Mr. Smith and schedule h
 1. View the completion screen and notice that an email confirmation has been sent to the resident.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the vaccination complete page in a browser.](../media/4-7-complete.png)](../media/4-7-complete.png#lightbox)
+    > ![Screenshot of the vaccination complete page in a browser.](../media/4-7-complete.png)
 
 **Congratulations!** You completed a vaccination using the Frontline worker app using a web browser.
