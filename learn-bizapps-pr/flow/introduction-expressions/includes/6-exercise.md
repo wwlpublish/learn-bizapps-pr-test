@@ -60,7 +60,7 @@ Let's say you need to find out how much it would cost to carpet a room based on 
 
     The C formats the number as currency, with the 2 representing how many decimal places. Refer to [Standard numeric format strings](/dotnet/standard/base-types/standard-numeric-format-strings/?azure-portal=true) for more number formats.
 
-1. The complete expression should be:
+1. The complete expression is:
 
    ```regex
    formatNumber(outputs('Compose'), 'C2')
