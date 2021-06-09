@@ -58,7 +58,7 @@ Let's say you need to find out how much it would cost to carpet a room based on 
 
 1. Next finish the expression with **, 'C2'**.
 
-    The C formats the number as currency, with the 2 representing how many decimal places. Refer to [Standard numeric format strings](https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings/?azure-portal=true) for more number formats.
+    The C formats the number as currency, with the 2 representing how many decimal places. Refer to [Standard numeric format strings](/dotnet/standard/base-types/standard-numeric-format-strings/?azure-portal=true) for more number formats.
 
 1. The complete expression should be:
 
