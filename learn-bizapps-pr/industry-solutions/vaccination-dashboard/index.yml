@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.vaccination-dashboard 
 metadata: 
- title: Use the Microsoft Vaccination Management dashboard
- description: Learn how to use the Microsoft Vaccination Management dashboard.
+ title: Use the Microsoft Vaccination Management Dashboard
+ description: Learn how to use the Microsoft Vaccination Management Dashboard.
  ms.date: 06/10/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-healthcare-vaccination  
-title: Use the Microsoft Vaccination Management dashboard
+title: Use the Microsoft Vaccination Management Dashboard
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Learn how to configure the Microsoft Vaccination Management Dashboard.
