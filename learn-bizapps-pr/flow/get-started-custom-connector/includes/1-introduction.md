@@ -24,7 +24,7 @@ A connector is a proxy, or a wrapper, around an API that allows Power Automate, 
 
 ## Identify or build the API
 
-Your first task is to check the [connector reference](https://docs.microsoft.com/connectors/connector-reference/?azure-portal=true) to determine if a suitable connector already exists for the API/service. If a suitable connector doesn't already exist, then you can make your own custom connector. You can define the custom connector to describe any REST API that is public (one that is available on the internet) or private (one that is only on your internal network). Private APIs require the [on-premises data gateway](https://docs.microsoft.com/power-automate/gateway-reference/?azure-portal=true) to access internal resources.
+Your first task is to check the [connector reference](/connectors/connector-reference/?azure-portal=true) to determine if a suitable connector already exists for the API/service. If a suitable connector doesn't already exist, then you can make your own custom connector. You can define the custom connector to describe any REST API that is public (one that is available on the internet) or private (one that is only on your internal network). Private APIs require the [on-premises data gateway](/power-automate/gateway-reference/?azure-portal=true) to access internal resources.
 
 This factor assumes that an API is available for you to use. However, if a compatible API doesn't already exist, developers can build one by using any technology of choice that is capable of hosting a REST API, including [Microsoft Azure Functions](https://azure.microsoft.com/services/functions/?azure-portal=true) and [Azure App Services](https://azure.microsoft.com/services/app-service/api/?azure-portal=true). You can also use [Azure API Management](https://aka.ms/apimrocks/?azure-portal=true) to increase manageability and governance of the APIs.
 
@@ -40,7 +40,7 @@ After they have been created in an environment, custom connectors can be used in
 
 Because custom connectors are only available in environments where their definition exists, they are not available to other Microsoft customers. By sharing a custom connector definition as an open source, you make it available on GitHub for other customers to import into their environments. By certifying your connector, you can make the custom connector that you created available as a prebuilt connector in all customer environments. Certifying a connector requires that you own the API or have explicit permission to publish a connector from the API owner.
 
-For more information, see [Submit your connector for Microsoft certification](https://docs.microsoft.com/connectors/custom-connectors/submit-certification/?azure-portal=true).
+For more information, see [Certification process](/connectors/custom-connectors/certification-submission/?azure-portal=true).
 
 This step in the process is optional and only required if you want to share your connector and have it listed as certified. Internal-facing connectors don't need to complete this certification process.
 
@@ -54,7 +54,7 @@ When you describe the API, you will use at least one of the following approaches
 
 - **Import Open API definition** - [Open API](https://swagger.io/resources/open-api/?azure-portal=true) is a specification that describes REST, simplifying the tasks of developing and consuming an API by effectively mapping all resources and operations that are associated with it. Many services/APIs publish an Open API definition, and you can import it to describe the API in the custom connector. Importing version 2.0 is supported, but version 3.0 is not currently supported. This approach is beneficial if an Open API definition is available from the API publisher or, if you are developing the API, you can publish one.
 
-- **Import Postman collection** - [Postman](https://www.postman.com/downloads/?azure-portal=true) is a tool for testing REST APIs. You can use this tool to perform the actions on the API that you want to describe and then save them as a [Postman collection](https://docs.microsoft.com/connectors/custom-connectors/create-postman-collection/?azure-portal=true). This collection is then imported to describe the API in the custom connector. Currently, you can use this approach with v1 collections.
+- **Import Postman collection** - [Postman](https://www.postman.com/downloads/?azure-portal=true) is a tool for testing REST APIs. You can use this tool to perform the actions on the API that you want to describe and then save them as a [Postman collection](/connectors/custom-connectors/create-postman-collection/?azure-portal=true). This collection is then imported to describe the API in the custom connector. Currently, you can use this approach with v1 collections.
 
 - **Export from Azure** - If your API is built as an Azure App Service, Microsoft Azure Functions, or is managed by Microsoft Azure API Management, you can export from those services and it will automatically create the initial custom connector definition.
 

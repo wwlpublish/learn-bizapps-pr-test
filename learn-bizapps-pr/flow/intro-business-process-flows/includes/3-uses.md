@@ -1,7 +1,4 @@
-Knowing when to use a business process flow or a 
-regular Power Automate flow to automate a processes or task can be difficult. The
-following guidelines can help you decide if you should use a business
-process flow or a standard Power Automate flow.
+Knowing when to use a business process flow or a regular Power Automate flow to automate a process or task can be difficult. The following guidelines can help you decide if you should use a business process flow or a standard Power Automate flow.
 
 Use a business process flow if you:
 
@@ -9,7 +6,7 @@ Use a business process flow if you:
 
 -   Want a simple visual guide to help users complete a process.
 
--   Want to use out-of-the-box business process flows.
+-   Want to use out-of-the-box business process or custom business process flows.
 
 -   Have a Dynamics 365 license and want to create automated business processes with Microsoft Dataverse.
 
