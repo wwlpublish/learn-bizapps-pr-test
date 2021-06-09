@@ -18,7 +18,7 @@ The name of the business process flow is shown on the left side of the control, 
 
 The key difference between immersive and embedded business process flows is that an embedded business process flow is a component within the larger model-driven app, while the immersive business process flow is a stand-alone solution. Embedded and immersive business process flows help users complete a process within the context of a larger solution.
 
-A user always views and completes an embedded business process flow within a model-driven app. An immersive business process flow is a stand-alone app, and it is built solely for the purpose of completing the business process. The immersive business process flow exists as the entire solution rather than a component of a larger model-driven app.
+A user always views and completes an embedded business process flow within a model-driven app. An immersive business process flow is a stand-alone app, and it is built solely for completing the business process. The immersive business process flow exists as the entire solution rather than a component of a larger model-driven app.
 
 Many of the concepts and techniques that are discussed and demonstrated within this learning path apply to both embedded and immersive business process flows. Immersive and embedded flows are similar. The main difference between them is how they are launched and the context that they are viewed in.
 

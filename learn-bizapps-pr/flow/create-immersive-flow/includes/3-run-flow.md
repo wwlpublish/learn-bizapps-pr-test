@@ -36,7 +36,7 @@ Now that you have a new business process flow, you can try it out and discover h
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of second New Stage dropdown with the green Finished button highlighted.](../media/25-business-process-flow-complete.png)](../media/25-business-process-flow-complete.png#lightbox)
 
-1.  You can create additional records by launching Power Automate, selecting **My Flows** and **Business process flows**, and then selecting the arrow next to the **Customer Check In** business process flow, as shown in the following screenshot.
+1.  You can create more records by launching Power Automate, selecting **My Flows** and **Business process flows**, and then selecting the arrow next to the **Customer Check In** business process flow, as shown in the following screenshot.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the business process flow running again.](../media/26-run-business-process-flow-again.png)](../media/26-run-business-process-flow-again.png#lightbox)

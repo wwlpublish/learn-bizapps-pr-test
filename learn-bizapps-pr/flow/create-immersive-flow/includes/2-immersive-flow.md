@@ -23,7 +23,7 @@ Management believes that improved data collection and standardized processes wil
 1.  Select the **+ New** button on the upper-left corner of the screen.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of creating new business process flow using the + New button.](../media/5-new-business-process-flow-button .png)](../media/5-new-business-process-flow-button .png#lightbox)
+	> [![Screenshot of creating new business process flow using the + New button.](../media/5-new-business-process-flow-button.png)](../media/5-new-business-process-flow-button.png#lightbox)
 
 1.  Enter **Customer Check In** as the **Flow name**, select **None (Immersive Business Process)** under the table drop-down list, and then select the **Create** button, as shown in the following screenshot. Wait a minute for the table to be created, and then the **Business process flow** editor will launch.
 
@@ -130,7 +130,7 @@ Now, you will add the columns as Steps in the first Stage in the **Customer Chec
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of Edit Security Roles with the Data Step 2 settings highlighted.](../media/17-add-last-name-data-step.png)](../media/17-add-last-name-data-step.png#lightbox)    
 
-1.  Select the **Components** tab, and then drag additional data steps and add columns that were added earlier under Stage One (Entry Date, Address, City, State, and so on).
+1.  Select the **Components** tab, and then drag more data steps and add columns that were added earlier under Stage One (Entry Date, Address, City, State, and so on).
 
 1.  When you are done, Stage 1 should appear as shown in the following figure. If all appears correct, select the **Update** button in the ribbon.
 
