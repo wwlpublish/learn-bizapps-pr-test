@@ -72,7 +72,7 @@ You can view the data that you created for running the flow by following these s
 
 Now, you can view the all the data that you created with your new immersive business process flow.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot shows the Customers entered with the immersive business process flow.](../media/34-close-up-all-data-view.png)](../media/34-close-up-all-data-view.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Screenshot shows the Customers entered with the immersive business process flow.](../media/34-close-up-all-data-view.png)](../media/34-close-up-all-data-view.png#lightbox)
 
 In the next and final module of this learning path, you will improve your new immersive flow by customizing the form that is associated with your flow, adding logical branching, and adding instant workflow notification to make your new immersive business process flow even more powerful.
