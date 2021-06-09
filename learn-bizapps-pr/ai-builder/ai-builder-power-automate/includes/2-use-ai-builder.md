@@ -67,7 +67,7 @@ In this exercise, we will be using a flow template that connects to a pre-config
 
     ![Ensure all of your connections have been entered correctly](../media/verify-connection-credentials.png)
 
-1. In the first 3 steps of this flow, it's checking a mailbox for new emails, then using the AI **Convert email to plain text by inputing 'Body' dynamic content** action and then using the **AI Builder Language Detection** to determine language.
+1. In the first 3 steps of this flow, it's checking a mailbox for new emails, then using the AI **Convert email to plain text by inputting 'Body' dynamic content** action and then using the **AI Builder Language Detection** to determine language.
 
     ![Review the first 3 steps of the flow template](../media/new-flow-detect-language.png)
 
