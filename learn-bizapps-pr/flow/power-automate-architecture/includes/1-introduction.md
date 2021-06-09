@@ -42,6 +42,8 @@ Characteristics of classic workflows are that they:
 > [!IMPORTANT]
 > Power Automate should be the first choice for background operations.
 
+See [classic dataverse workflows](/power-automate/workflow-processes/?azure-portal=true) for more information.
+
 ## Plug-ins
 
 A plug-in is a .NET assembly that you can upload to Microsoft Dataverse. Classes within the assembly can be registered to specific events (steps) within the event framework. The code within the class provides a way for you to respond to the event so that you can augment or modify the default behavior of the platform.
