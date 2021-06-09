@@ -2,7 +2,7 @@
 uid: learn-bizapps.vaccination-environment-prep 
 metadata: 
  title: Microsoft Vaccination Management environment preparation
- description: Learn how to setup an environment for Microsoft Vaccination Management
+ description: Learn how to set up an environment for Microsoft Vaccination Management.
  ms.date: 06/10/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,11 +11,11 @@ metadata:
 title: Microsoft Vaccination Management environment preparation
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Setup your trial environments to start working with Microsoft Vaccination Management.
+  Set up your trial environments to start working with Microsoft Vaccination Management.
 abstract: |  
     In this module, you will: 
-    - Create a trial tenant
-    - Access and deploy your environment
+    - Create a trial tenant.
+    - Access and deploy your environment.
 prerequisites: None
 iconUrl: /learn/achievements/vaccination-environment-prep.svg  
 levels:  

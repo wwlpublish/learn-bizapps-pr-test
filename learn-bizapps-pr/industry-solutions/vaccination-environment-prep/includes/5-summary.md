@@ -1,11 +1,9 @@
-In this lab, you learned about the environment setup process for Microsoft Vaccination Management.
+In this module, you learned about the environment setup process for Microsoft Vaccination Management, including how to:
 
-In this lab, you learned how to do the following:
+-   Create a new tenant with Dynamics 365 trial licenses.
 
--   Create a new Tenant with Trial Dynamics 365 licenses
+-   Add other prerequisite trial licenses.
 
--   Add other pre-requisite trial licenses
+-   Request Microsoft Vaccination Management deployment access.
 
--   Request Microsoft Vaccination Management Deployment Access
-
--   Deploy Microsoft Vaccination Management via Solution Center
+-   Deploy Microsoft Vaccination Management through the Solution Center.
