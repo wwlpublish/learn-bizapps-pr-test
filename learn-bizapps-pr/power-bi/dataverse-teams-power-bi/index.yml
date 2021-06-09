@@ -2,7 +2,7 @@
 uid: learn-bizapps.dataverse-teams-power-bi 
 metadata: 
  title: Create reports with Power BI and Dataverse for Teams
- description: Dataverse for Teams - Build your first report with Power BI and Dataverse for Teams.
+ description: Learn how to build your first report with Microsoft Power BI and Dataverse for Teams.
  ms.date: 05/18/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,14 +11,14 @@ metadata:
 title: Create reports with Power BI and Dataverse for Teams
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Build your reports with Power BI and Dataverse for Teams. This module covers importing a dataset, creating a report, editing reports, and sharing reports with others.
+  Build your reports with Microsoft Power BI and Dataverse for Teams. This module explains how to import a dataset, create a report, edit reports, and share reports with others.
 abstract: |  
     In this module, you will: 
-    - Import a Dataverse dataset into Power BI
-    - Create a new Power BI report based on the data set
-    - Edit the report
-    - Share the report with others
-prerequisites: You must have the appropriate Power BI license to build and share Power BI reports. For more information about Power BI licenses, see the Summary unit links at the end of this module.
+    - Import a Microsoft Dataverse dataset into Power BI.
+    - Create a new Power BI report based on the dataset.
+    - Edit a report.
+    - Share a report with others.
+prerequisites: Appropriate Power BI license to build and share Power BI reports. For more information about Power BI licenses, see the links that are provided in the Summary unit at the end of this module.
 iconUrl: /learn/achievements/dataverse-teams-power-bi.svg  
 levels:  
 - beginner   

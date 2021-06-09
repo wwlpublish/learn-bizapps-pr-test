@@ -87,4 +87,4 @@ Other solutions add features to the portal that can greatly enhance user experie
 - Click to call
 - Customer journey tracking
 
-Alternatively, Power Platform and Dynamics 365 independent software vendors and partners that offer Power Platform and Dynamics 365 vertical solutions might often include portal extensions that are designed for their solution needs. When you are working with a vendor who offers portals as part of their overall solution, it would be sensible to discuss portal requirements and the portal template selection beforehand.
+Alternatively, Microsoft Power Platform and Dynamics 365 independent software vendors and partners that offer Microsoft Power Platform and Dynamics 365 vertical solutions might often include portal extensions that are designed for their solution needs. When you are working with a vendor who offers portals as part of their overall solution, it would be sensible to discuss portal requirements and the portal template selection beforehand.

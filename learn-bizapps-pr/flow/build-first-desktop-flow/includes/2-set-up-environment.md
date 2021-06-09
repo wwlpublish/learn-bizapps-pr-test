@@ -2,12 +2,12 @@ Creating and running automation systems in Power Automate requires you to have a
 
 ## Create a trial environment with database
 
-After you have successfully signed in to a valid tenant, go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments/?azure-portal=true). You will need to create a trial environment with a database. Select **Environments** and then select your automatically created environment, **Demo (default)**.
+After you have successfully signed in to a valid tenant, go to the [Microsoft Power Platform admin center](https://admin.powerplatform.microsoft.com/environments/?azure-portal=true). You will need to create a trial environment with a database. Select **Environments** and then select your automatically created environment, **Demo (default)**.
 
 If you are using an existing tenant rather than creating a trial for this exercise, you can use the default environment or create a new one to keep it separate from your existing solutions.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Environments list in the Power Platform admin center.](../media/environments.png)](../media/environments.png#lightbox)
+> [![Screenshot of the Environments list in Microsoft Power Platform admin center.](../media/environments.png)](../media/environments.png#lightbox)
 
 Now that you are in your chosen environment, add a database by selecting **Add database**. In the subsequent dialog box, you can specify the requested values but can keep the defaults. Select **Add**. You might be prompted to sign in again before creating your database, after which your database should provision appropriately.
 

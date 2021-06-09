@@ -1,4 +1,4 @@
-AI and robotic processing automation (RPA) help you to reduce or eliminate burdensome and repetitive tasks by allowing a computer to do all the work for you. Now you have learned how to use AI models to simplify and automate those processes. Power Platform makes training and incorporating these models simpler.
+AI and robotic processing automation (RPA) help you to reduce or eliminate burdensome and repetitive tasks by allowing a computer to do all the work for you. Now you have learned how to use AI models to simplify and automate those processes. Microsoft Power Platform makes training and incorporating these models simpler.
 
 In this module, you have learned how to:
 

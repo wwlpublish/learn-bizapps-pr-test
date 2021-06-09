@@ -38,7 +38,7 @@ Environments are a scope for lifecycle management and a scope for permissions.
 
 ## Items not contained in an environment
 
-Environments contain Power Platform components such as apps, flows, and bots. However, not everything that you might build for your solution is contained in environments. Microsoft Dynamics 365 apps (Sales, Marketing, Customer Service, Field Service, and Project Operations) are contained in an environment. No limitations are applied to the number of apps or flows that can be deployed within an environment.
+Environments contain Microsoft Power Platform components such as apps, flows, and bots. However, not everything that you might build for your solution is contained in environments. Microsoft Dynamics 365 apps (Sales, Marketing, Customer Service, Field Service, and Project Operations) are contained in an environment. No limitations are applied to the number of apps or flows that can be deployed within an environment.
 
 An environment does not contain:
 
@@ -54,16 +54,16 @@ The following diagram illustrates how an environment is related to other compone
 
 ## Security layers
 
-Power Platform uses multiple layers of security:
+Microsoft Power Platform uses multiple layers of security:
 
-- **Azure AD** - User identities are authenticated by Azure Active Directory (Azure AD). With Azure AD, you can restrict people from using Azure AD features, such as conditional access policies, and enforce security through multi-factor authentication. Azure AD supports single sign-on (SSO) so that users don't need to sign in separately to Power Platform. Guest access is supported for Power Platform.
-- **Licensing** - Users require an appropriate license to access Power Platform.
+- **Azure AD** - User identities are authenticated by Azure Active Directory (Azure AD). With Azure AD, you can restrict people from using Azure AD features, such as conditional access policies, and enforce security through multi-factor authentication. Azure AD supports single sign-on (SSO) so that users don't need to sign in separately to Microsoft Power Platform. Guest access is supported for Microsoft Power Platform.
+- **Licensing** - Users require an appropriate license to access Microsoft Power Platform.
 - **Environments** - Azure AD security groups control access to each environment.
 - **Data Loss Prevention Policies** - Restrict the use of connectors for environments and therefore the risk of data leakage. You can create cross-tenant inbound and outbound restrictions where you have a multi-tenant scenario.
 - **Security Roles** - Access to tables and rows in Dataverse is controlled by security roles.
 - **Encryption** - All data is encrypted at rest by using SQL Server Transparent Data Encryption (TDE). All data is encrypted in transit by using SSL.
 
-The following diagram shows how security layers are applied for Power Platform environments.
+The following diagram shows how security layers are applied for Microsoft Power Platform environments.
 
 ![Diagram representing environment security.](../media/2-environment-security.png)
 

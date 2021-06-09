@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.business-process-optimization-process-advisor.5-analyze-recordings-interpret-results 
+title: Analyze recordings and interpret results
+metadata: 
+  title: Analyze recordings and interpret results 
+  description: Learn how to analyze recordings and interpret results.  
+  ms.date: 05/25/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/5-analyze-recordings-interpret-results.md)] 

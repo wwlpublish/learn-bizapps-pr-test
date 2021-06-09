@@ -37,7 +37,7 @@ quiz:
       explanation: Performance testing should be performed on a separate environment. The environment should be a Production type environment, not a sandbox environment that has fewer resources allocated.
     - content: Test environment for integrations
       isCorrect: false
-      explanation: Integrations are tested as part of integration testing, not performance testing. Performance testing is for the Power Platform solution, not a test platform for an external system.
+      explanation: Integrations are tested as part of integration testing, not performance testing. Performance testing is for Microsoft Power Platform solution, not a test platform for an external system.
     - content: Live volumes of data
       isCorrect: true
       explanation: Performance testing requires a realistic volume of data for a valid test.

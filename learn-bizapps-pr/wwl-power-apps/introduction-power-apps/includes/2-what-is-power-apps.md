@@ -78,7 +78,7 @@ There are many tools for those in IT or otherwise responsible for governance. Po
 
 Power Apps also has its own set of PowerShell cmdlets for app creators, administrators, and developers that allow you to automate many of your administrative duties. A common use case of the PowerShell cmdlets is to automate the discovery and permission management of all apps in your tenant, allowing you to better understand and manage apps as they are created and spread throughout your company.
 
-In addition, in the Power Automate learn module, you will see that Power Automate has the ability to automate these tasks. You can download the [Center of Excellence](https://aka.ms/CoEStarterKitDownload) starter kit, a collection of components or tools that are designed to help get started with developing a strategy for adopting and supporting Power Platform, with a focus on Power Apps and Power Automate.
+In addition, in the Power Automate learn module, you will see that Power Automate has the ability to automate these tasks. You can download the [Center of Excellence](https://aka.ms/CoEStarterKitDownload) starter kit, a collection of components or tools that are designed to help get started with developing a strategy for adopting and supporting Microsoft Power Platform, with a focus on Power Apps and Power Automate.
 
 ## Driving business value
 

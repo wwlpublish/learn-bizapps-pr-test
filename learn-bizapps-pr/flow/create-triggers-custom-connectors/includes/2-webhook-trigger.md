@@ -48,7 +48,7 @@ The trigger definition must include a POST method that is used to register a web
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the custom connector maker design experience. A new trigger is being defined and HTTP verb POST and URL are highlighted as the key parts of the trigger definition.](../media/trigger-post-method.png)](../media/trigger-post-method.png#lightbox)
 
-The OpenAPI specification version that is used by Power Platform doesn't differentiate actions and triggers. The custom connector definition uses the **x-ms-trigger** custom extension to declare a trigger.
+The OpenAPI specification version that is used by Microsoft Power Platform doesn't differentiate actions and triggers. The custom connector definition uses the **x-ms-trigger** custom extension to declare a trigger.
 
 ```
 paths:

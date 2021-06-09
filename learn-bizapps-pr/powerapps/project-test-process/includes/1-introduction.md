@@ -72,7 +72,7 @@ The solution architect should decide on the tools that will be used for unit tes
 
 The solution architect needs to help the test team understand how to test the integrated components.
 
-One advantage of Power Platform is its strong integration capabilities. Integration is one of the most important aspects of the business process implementation because it ensures that the implementation functions correctly and has a strong impact on overall adoption.
+One advantage of Microsoft Power Platform is its strong integration capabilities. Integration is one of the most important aspects of the business process implementation because it ensures that the implementation functions correctly and has a strong impact on overall adoption.
 
 The solution architect and customer should review the testing scenarios that involve integrations with other line-of-business applications to ensure that end-to-end testing scenarios are created. This review will likely require that the customer plans to have test environments for their other applications.
 

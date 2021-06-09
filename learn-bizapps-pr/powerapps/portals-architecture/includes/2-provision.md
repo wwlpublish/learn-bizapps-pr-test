@@ -27,10 +27,10 @@ The provisioned portal will appear in the **Apps** list of type Portal. From thi
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Portal Apps with ellipsis drop down menu and type noted.](../media/2-portal-app-menu-ssm.png)](../media/2-portal-app-menu-ssm.png#lightbox)
 
-A list of all portals in a Power Platform tenant can be viewed from the Power Platform admin center.
+A list of all portals in a Microsoft Power Platform tenant can be viewed from Microsoft Power Platform admin center.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of te Power Platform Admin Center portals list.](../media/2-power-platform-admin-center-portals-ss.png)](../media/2-power-platform-admin-center-portals-ss.png#lightbox)
+> [![Screenshot of te Microsoft Power Platform Admin Center portals list.](../media/2-power-platform-admin-center-portals-ss.png)](../media/2-power-platform-admin-center-portals-ss.png#lightbox)
 
 The Portal Management app will also appear in the **Apps** list.
 

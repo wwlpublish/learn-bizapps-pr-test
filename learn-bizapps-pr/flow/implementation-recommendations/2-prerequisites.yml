@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.implementation-recommendations.2-prerequisites 
-title: Prerequisites for Power Platform DLP
+title: Prerequisites for Microsoft Power Platform DLP
 metadata: 
-  title: Prerequisites for Power Platform DLP 
-  description: Learn about the prerequisites for Power Platform DLP. 
-  ms.date: 3/11/2020 
-  author: KevSch 
-  ms.author: kschimke 
+  title: Prerequisites for Microsoft Power Platform DLP 
+  description: Learn about the prerequisites for Microsoft Power Platform DLP. 
+  ms.date: 5/24/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
-durationInMinutes: 5 
+durationInMinutes: 2 
 content: | 
  [!include[](../includes/unit-banner.md)] 
  [!include[](includes/2-prerequisites.md)] 

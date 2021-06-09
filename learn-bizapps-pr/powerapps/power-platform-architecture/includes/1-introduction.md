@@ -1,10 +1,10 @@
-A solution architect for Microsoft Power Platform is responsible for overall design of the solution. Understanding the architecture of Power Platform, how it is designed, and its limits are important when designing solutions based around Power Platform.
+A solution architect for Microsoft Power Platform is responsible for overall design of the solution. Understanding the architecture of Microsoft Power Platform, how it is designed, and its limits are important when designing solutions based around Microsoft Power Platform.
 
-As you consider your solution's design, you need to understand the components and capabilities of Power Platform and how they control the design of your solution.
+As you consider your solution's design, you need to understand the components and capabilities of Microsoft Power Platform and how they control the design of your solution.
 
-## Power Platform components
+## Microsoft Power Platform components
 
-Power Platform is a low-code, rapid business application development platform, and it contains several different independent, yet closely related tools:
+Microsoft Power Platform is a low-code, rapid business application development platform, and it contains several different independent, yet closely related tools:
 
 - **Microsoft Power Apps** - Allows anyone to build custom web and mobile apps by using low-code or no-code techniques.
 
@@ -16,28 +16,28 @@ Power Platform is a low-code, rapid business application development platform, a
 
 ![Diagram showing the various low code tools.](../media/1-components.png)
 
-Power Platform includes many other components that support Power Platform tools that the solution architect can use:
+Microsoft Power Platform includes many other components that support Microsoft Power Platform tools that the solution architect can use:
 
 - **Microsoft Dataverse** - Provides a no-code environment to create tables, relationships, and business logic.
 
-- **Data connectors** - Connectors define the services and data sources that Power Platform tools can access.
+- **Data connectors** - Connectors define the services and data sources that Microsoft Power Platform tools can access.
 
-- **AI Builder** - A set of AI model types that can use data in Dataverse to create, tailor, and train AI models that can be used by other components of Power Platform.
+- **AI Builder** - A set of AI model types that can use data in Dataverse to create, tailor, and train AI models that can be used by other components of Microsoft Power Platform.
 
-The following diagram illustrates how Power Platform components are related.
+The following diagram illustrates how Microsoft Power Platform components are related.
 
-![Screenshot showing the elements of Power Platform.](../media/1-power-platform.png)
+![Screenshot showing the elements of Microsoft Power Platform.](../media/1-power-platform.png)
 
 > [!NOTE]
-> This module describes the architecture of Power Platform. Other modules will examine the details for Power Apps, Power Automate, Power BI, and Power Virtual Agents.
+> This module describes the architecture of Microsoft Power Platform. Other modules will examine the details for Power Apps, Power Automate, Power BI, and Power Virtual Agents.
 
 ## Cloud
 
-Power Platform is cloud-based software as a service (SaaS) solution that is available from within a Microsoft Azure Active Directory (Azure AD) tenant. Power Platform is licensed through Microsoft 365 and secured by Azure AD. Power Platform runs on Microsoft Azure; therefore, it is highly scalable and available globally.
+Microsoft Power Platform is cloud-based software as a service (SaaS) solution that is available from within a Microsoft Azure Active Directory (Azure AD) tenant. Microsoft Power Platform is licensed through Microsoft 365 and secured by Azure AD. Microsoft Power Platform runs on Microsoft Azure; therefore, it is highly scalable and available globally.
 
-## Power Platform capabilities
+## Microsoft Power Platform capabilities
 
-Typically, the solutions that a solution architect designs will use many components that are provided by Power Platform. The individual components provide great capabilities on their own but are more powerful when combined.
+Typically, the solutions that a solution architect designs will use many components that are provided by Microsoft Power Platform. The individual components provide great capabilities on their own but are more powerful when combined.
 
 - Power Apps allows users to act on data and drive business processes. 
 - Power Automate can automate apps and act on behalf of the user in response to metrics and events. 
@@ -47,13 +47,13 @@ Typically, the solutions that a solution architect designs will use many compone
 - Power BI dashboards and tiles can be displayed in Power Apps screens. 
 - Power Apps can be embedded in Power BI dashboards.
 
-![Diagram of low code tools for Power Platform.](../media/1-low-code-tools.png)
+![Diagram of low code tools for Microsoft Power Platform.](../media/1-low-code-tools.png)
 
 ## Meaning of platform
 
-Typically, when most people refer to Power Platform, they are thinking of the four components: Power Apps, Power Automate, Power BI, and Power Virtual Agents. These tools allow you to build apps and create solutions.
+Typically, when most people refer to Microsoft Power Platform, they are thinking of the four components: Power Apps, Power Automate, Power BI, and Power Virtual Agents. These tools allow you to build apps and create solutions.
 
-Data is at the center of everything that a business does today. With Power Platform, you can connect to data where it lives by using connectors or store data in Microsoft Dataverse. Connectors are provided for the following entities:
+Data is at the center of everything that a business does today. With Microsoft Power Platform, you can connect to data where it lives by using connectors or store data in Microsoft Dataverse. Connectors are provided for the following entities:
 
 - Office 365 services such as email and SharePoint
 - Azure services such as Azure SQL

@@ -10,7 +10,7 @@ Before you can experiment with or edit the model-driven sample apps, you must se
 
 ![Deploy sample apps and data toggle screenshot.](../media/deploy-sample-apps.png)
 
-In Power Apps, select the environment you want, or go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true) to create a new one. Select **New**, provide a name, **Yes** to Create a database for this environment, and select **Save**.
+In Power Apps, select the environment you want, or go to the [Microsoft Power Platform admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true) to create a new one. Select **New**, provide a name, **Yes** to Create a database for this environment, and select **Save**.
 
 > [!IMPORTANT]
 > By selecting the **Deploy sample apps and data** toggle, you will install all available sample apps in your database. Sample apps are for educational and demonstration purposes. We don't recommend installing them in production databases.

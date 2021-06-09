@@ -1,4 +1,4 @@
-The reporting options that are provided in Power Platform meet many operational reporting requirements.
+The reporting options that are provided in Microsoft Power Platform meet many operational reporting requirements.
 
 ![Dataverse reporting options.](../media/2-operational-options.png)
 

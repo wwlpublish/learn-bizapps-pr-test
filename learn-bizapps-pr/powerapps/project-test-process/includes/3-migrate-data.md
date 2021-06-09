@@ -1,4 +1,4 @@
-Data is important when you are deploying Power Platform solutions. Your users can't help customers when no data is in the system. Typically, when you are replacing another business application with a solution based on Microsoft Dataverse, some data is migrated into the new system during the deployment so that users can see relevant business data when they start using the application.
+Data is important when you are deploying Microsoft Power Platform solutions. Your users can't help customers when no data is in the system. Typically, when you are replacing another business application with a solution based on Microsoft Dataverse, some data is migrated into the new system during the deployment so that users can see relevant business data when they start using the application.
 
 ## Data migration approaches and tools
 
@@ -6,7 +6,7 @@ Multiple types of tools and approaches are available for you to use when migrati
 
 - **Get data from Excel** - In the maker portal, you can select the **Get data** option when viewing a table and then import data from a Microsoft Excel or a .csv file.
 - **Legacy data import utility** - You can import data to tables from .csv, .xls, .xml, and zip files.
-- **Power Platform dataflows** - In the maker portal, you can select **Dataflows** under the **Data** menu and then configure an import from various cloud data sources. Data from these sources can be transformed prior to import by using Microsoft Power Query.
+- **Microsoft Power Platform dataflows** - In the maker portal, you can select **Dataflows** under the **Data** menu and then configure an import from various cloud data sources. Data from these sources can be transformed prior to import by using Microsoft Power Query.
 - **Extract, transform, and load (ETL)** - You can extract, transfer, and load (ETL) software such as Microsoft Azure Data Factory. Data Factory has a connector for Microsoft Dataverse.
 - **Outsourced tools** - Use tools from other sources such as Kingswaysoft.
 - **Custom applications** - Use custom applications that are developed by using the API.

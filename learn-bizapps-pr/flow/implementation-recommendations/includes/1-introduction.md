@@ -1,15 +1,13 @@
-This module provides prescriptive guidance on how
-organizations can govern their Power Platform environments. The areas of
-focus include default data groups for Data Loss
-Prevention (DLP) policies.
+Organizations collect and manage critical data such as financial records or proprietary information that provides a competitive advantage. They can also have sensitive information such as credit card numbers, health records, social security numbers, and other types of personal identifiable information. As you build Microsoft Power Platform solutions and provide users access to this data, it can be disastrous if they inappropriately share the data with those who shouldn't have it. Organizations must have a way to identify, monitor, and automatically protect sensitive data. Using Data Loss Protection (DLP) policies in your Microsoft Power Platform environment will give you this ability.
 
-Additionally, this module provides sample DLP configurations for
-Office 365 and Dynamics 365 users. You will also explore
-more advanced scenarios that include custom connectors and managing
-DLP for HTTP connectors. As part of the custom connector and HTTP
-exploration, the module also discusses the available tools, including
-Power Platform Management connectors and PowerShell cmdlets.
+Over the course of this module you will learn:
 
-Every organization has different needs when it comes to governance.
-Approach the following sections as options and implement the solution
-that best aligns with your requirements.
+-   How DLP policies protect business and sensitive data from being leaked
+
+-   DLP policy configurations for Microsoft 365 and Dynamics environments
+
+-   Using Power Automate for directional data governance
+
+-   How to manage HTTP and customer connectors
+
+Every organization has different needs when it comes to governance. Approach the following sections as options and implement the solution that best aligns with your requirements.

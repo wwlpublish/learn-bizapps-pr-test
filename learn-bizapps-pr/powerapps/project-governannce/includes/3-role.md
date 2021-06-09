@@ -1,12 +1,12 @@
-Often, a solution architect's role in the project will be to use their experience and expertise to evaluate issues and changes. However, monitoring change in a project is excessively simple, especially in Power Platform. Consequently, the solution architect could become overly focused on monitoring change rather than ensuring that the project moves forward. Therefore, the solution architect should guide other project team members in performing evaluation and analysis of issues and changes.
+Often, a solution architect's role in the project will be to use their experience and expertise to evaluate issues and changes. However, monitoring change in a project is excessively simple, especially in Microsoft Power Platform. Consequently, the solution architect could become overly focused on monitoring change rather than ensuring that the project moves forward. Therefore, the solution architect should guide other project team members in performing evaluation and analysis of issues and changes.
 
 One challenge that new solution architects face is the process of leaving the role of doer into a role of leading and guiding others. A solution architect needs to be available to other project team members and to support their growth.
 
 ## Involvement in defining governance
 
-With Power Platform projects, making changes can be simple; however, making several small changes and having a poor governance process can cause a project to fail. For instance, the solution architect needs to make sure that the process to evaluate change doesn't take longer than implementing the change.
+With Microsoft Power Platform projects, making changes can be simple; however, making several small changes and having a poor governance process can cause a project to fail. For instance, the solution architect needs to make sure that the process to evaluate change doesn't take longer than implementing the change.
 
-It is imperative that the solution architect is involved in defining the processes and procedures for project governance. Their involvement helps ensure that processes and procedures are appropriate for the Power Platform technologies that are used and that they don't cause unnecessary overhead.
+It is imperative that the solution architect is involved in defining the processes and procedures for project governance. Their involvement helps ensure that processes and procedures are appropriate for Microsoft Power Platform technologies that are used and that they don't cause unnecessary overhead.
 
 ## Provide actionable feedback
 

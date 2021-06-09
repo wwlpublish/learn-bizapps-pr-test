@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.implementation-recommendations.9-exercise 
-title: Exercise - Publish a custom connector and apply a DLP policy
+title: Exercise - Manage a custom connector with a DLP policy 
 metadata: 
-  title: Exercise - Publish a custom connector and apply a DLP policy 
-  description: Practice publishing a custom connector and applying a DLP policy to it. 
-  ms.date: 3/11/2020 
-  author: KevSch 
-  ms.author: kschimke 
+  title: Exercise - Manage a custom connector with a DLP policy 
+  description: Practice managing a custom connector with a DLP policy. 
+  ms.date: 5/24/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 12 

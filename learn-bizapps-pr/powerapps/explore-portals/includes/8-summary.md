@@ -14,7 +14,7 @@ In this module, you looked at various ways to get started using Power Apps porta
 
 - Where organizations with a partner or reseller network can use the Partner portal to allow partners to manage accounts, contacts, and opportunities and to browse published knowledge articles and submit partner support cases.
 
-- That the Custom portal and Portal from blank templates provide an option to extend unique line-of-business applications to external audiences and provide another key aspect to Power Platform.
+- That the Custom portal and Portal from blank templates provide an option to extend unique line-of-business applications to external audiences and provide another key aspect to Microsoft Power Platform.
 
 ## Next steps
 

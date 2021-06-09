@@ -23,7 +23,7 @@ Data preparation can often be a lengthy process. Data analysts follow a series o
 
 When the data is in a proper state, it's ready to be modeled. Data modeling is the process of determining how your tables are related to each other. This process is done by defining and creating relationships between the tables. From that point, you can enhance the model by defining metrics and adding custom calculations to enrich your data.
 
-Creating an effective and proper data model is a critical step in helping organizations understand and gain valuable insights into the data. An effective data model makes reports more accurate, allows the data to be explored faster and more efficient, decreases time for the report writing process, and simplifies future report maintenance.
+Creating an effective and proper data model is a critical step in helping organizations understand and gain valuable insights into the data. An effective data model makes reports more accurate, allows the data to be explored faster and more efficiently, decreases time for the report writing process, and simplifies future report maintenance.
 
 The model is another critical component that has a direct effect on the performance of your report and overall data analysis. A poorly designed model can have a drastically negative impact on the general accuracy and performance of your report. Conversely, a well-designed model with well-prepared data will ensure a properly efficient and trusted report. This notion is more prevalent when you are working with data at scale.
 
@@ -33,7 +33,7 @@ The process of preparing data and modeling data is an iterative process. Data pr
 
 ## Visualize
 
-The visualization task is where you get to bring your data to life. The ultimate goal of the visualize task is to solve business problems. A well-designed report should tell a compelling story about that data, which will enable business decision makers to quickly gain needed insights. By using appropriate visualizations and interactions, you can provide an effective report that guides the reader through the content quickly and efficiently, therefore allowing the reader to follow a narrative into the data.
+The visualization task is where you get to bring your data to life. The ultimate goal of the visualize task is to solve business problems. A well-designed report should tell a compelling story about that data, which will enable business decision makers to quickly gain needed insights. By using appropriate visualizations and interactions, you can provide an effective report that guides the reader through the content quickly and efficiently, thereby allowing the reader to follow a narrative into the data.
 
 The reports that are created during the visualization task help businesses and decision makers understand what that data means so that accurate and vital decisions can be made. Reports drive the overall actions, decisions, and behaviors of an organization that is trusting and relying on the information that is discovered in the data.
 
@@ -63,6 +63,6 @@ Apps can be a valuable distribution method for your content and allow easier man
 
 The management of your content helps to foster collaboration between teams and individuals. Sharing and discovery of your content is important for the right people to get the answers that they need. It is also important to help ensure that items are secure. You want to make sure that the right people have access and that you are not leaking data past the correct stakeholders.
 
-Proper management can also help reduce data silos within your organization. Data duplication can make managing and introducing data latency difficult when resources are overused. Power BI helps reduce data silos with the use of shared datasets, and it allows you to reuse data that you have prepared and modeled. For key business data, endorsing a dataset as certified can help to ensure trust in that data.
+Proper management can also help reduce data silos within your organization. Data duplication can make managing and reducing data latency difficult when resources are overused. Power BI helps reduce data silos with the use of shared datasets, and it allows you to reuse data that you have prepared and modeled. For key business data, endorsing a dataset as certified can help to ensure trust in that data.
 
 The management of Power BI assets helps reduce the duplication of efforts and helps ensure security of the data.

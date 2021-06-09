@@ -44,7 +44,7 @@ When building an app, access to your data is very important. Power Automate offe
 
 - Office 365
 
-You don't have to choose just one data source either. Power Platform easily supports multiple data connections allowing you to bring data together from many platforms into a single automation. 
+You don't have to choose just one data source either. Microsoft Power Platform easily supports multiple data connections allowing you to bring data together from many platforms into a single automation. 
 
 Finally, if your data isn't retrievable by one of the 275 plus connectors, then Power Automate also allows you to create custom connectors, letting you talk to any data source via a swagger file.  
 
@@ -60,7 +60,7 @@ Power Automate works by creating flows, of which there are three types:
 
 ## Add artificial intelligence to your flow without writing code
 
-Before Power Platform, adding functionality such as image or text processing required an advanced computer  or coding knowledge. There was code to write, data models to design and train, and a lot of complicated logic. Power Platform, however, has "democratized" artificial intelligence by providing a wizard-based interface for building and training your model. This unlocks the power of Azure Machine Learning and Cognitive services without writing a single line of code.
+Before Microsoft Power Platform, adding functionality such as image or text processing required an advanced computer  or coding knowledge. There was code to write, data models to design and train, and a lot of complicated logic. Microsoft Power Platform, however, has "democratized" artificial intelligence by providing a wizard-based interface for building and training your model. This unlocks the power of Azure Machine Learning and Cognitive services without writing a single line of code.
 
 To take advantage of these AI capabilities you must first build a model. From [https://make.PowerApps.com](https://make.PowerApps.com) a wizard guides you through building and training the model. Currently, there are four available AI models available to build:
 
@@ -88,7 +88,7 @@ Once you have a trained model, then you can interact with the model in your flow
 
 ## Security and Administration
 
-To manage security for Power Automate, log into [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/). From the Power Platform admin center you have full access to Power Automate tenant wide. You have the ability to create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas. The admin center gives you management capabilities across Power Automate.
+To manage security for Power Automate, log into [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/). From the Microsoft Power Platform admin center you have full access to Power Automate tenant wide. You have the ability to create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas. The admin center gives you management capabilities across Power Automate.
 
 Power Automate also offers a full set of PowerShell cmdlets. These cmdlets allow you deeper controls and to work better in large-scale scenarios. Using the cmdlets for auditing gives you more control and insight on Power Automate's usage throughout your tenant.
 

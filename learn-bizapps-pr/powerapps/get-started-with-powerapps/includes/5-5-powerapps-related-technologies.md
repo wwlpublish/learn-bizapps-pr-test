@@ -4,11 +4,11 @@ Microsoft Power Apps works with other technologies to help you build powerful ap
 
 - **Power BI** - Allows you to connect data from multiple sources and transform the data into graphical visualizations to gain insights.
 
-## Related Power Platform technologies
+## Related Microsoft Power Platform technologies
 
-As you continue developing your application, you may want to consider implementing other Power Apps related technologies such as Power Automate and or Power BI. For example, you may have a simple Expense Report App that requires an approval before an item can be purchased. With Power Automate, you can create a Flow to make this happen. Or maybe you want to display your data with custom charts and graphs giving your users a more visual look into the data, which can often be useful. In this section, you will learn more about some of the other Power Platform technologies and how you could apply them in your own Power Apps solution. Keep in mind, if you decide to implement these Power Apps related technologies you should also review their licensing structure and associated costs.
+As you continue developing your application, you may want to consider implementing other Power Apps related technologies such as Power Automate and or Power BI. For example, you may have a simple Expense Report App that requires an approval before an item can be purchased. With Power Automate, you can create a Flow to make this happen. Or maybe you want to display your data with custom charts and graphs giving your users a more visual look into the data, which can often be useful. In this section, you will learn more about some of the other Microsoft Power Platform technologies and how you could apply them in your own Power Apps solution. Keep in mind, if you decide to implement these Power Apps related technologies you should also review their licensing structure and associated costs.
 
-![Diagram of power platform technologies with icons.](../media/power-platform-technologies.png)
+![Diagram of Microsoft Power Platform technologies with icons.](../media/power-platform-technologies.png)
 
 ### Power Automate
 
@@ -28,7 +28,7 @@ For many Power Apps solutions Power Automate is used to handle complex business 
 
 ## Power BI
 
-Power BI is an analytics tool within the Power Platform suite.  Power BI connects data from multiple sources and transforms the data into graphical visualizations to gain insights.  It allows business users to utilize many different visualizations to build comprehensive reports and dashboards.  When creating Power BI reports to view and analyze your app data, you have the ability to customize them for personal use and will only be accessible by you, providing you with a more unique and custom experience. If you need to share the report with others, you and each of the report consumer will need a Power BI Pro license. This license allows you to not only share the content but also control what others are able to do with the shared report or dashboard.  
+Power BI is an analytics tool within Microsoft Power Platform suite.  Power BI connects data from multiple sources and transforms the data into graphical visualizations to gain insights.  It allows business users to utilize many different visualizations to build comprehensive reports and dashboards.  When creating Power BI reports to view and analyze your app data, you have the ability to customize them for personal use and will only be accessible by you, providing you with a more unique and custom experience. If you need to share the report with others, you and each of the report consumer will need a Power BI Pro license. This license allows you to not only share the content but also control what others are able to do with the shared report or dashboard.  
 
 While Power Apps has capabilities to include simple graphs or tables, many solutions would be better served with a visualization provided by Power BI.  Power Apps and Power BI have two options for seamless integration:
 

@@ -1,80 +1,83 @@
-Power BI reports are meant to have people view and interact with them to gain insights and make better decisions. The Power BI for Teams App allows you to collaborate with your team members on data and take action. In this unit we will:
+Power BI reports are designed so that people can view and interact with them to gain insights and make better decisions. The Power BI for Teams app allows you to collaborate with your team members on data and take action.
 
-- **Add the Power BI for Teams app** so you can access your Power BI data without having to leave Teams.
+In this unit, you will learn how to:
+
+- **Add the Power BI for Teams app** so that you can access your Power BI data without leaving Teams.
 
 - **Grant permissions to reports** to allow your coworkers and team members access.
 
 - Use the Power BI tab for Microsoft Teams to **embed interactive reports in channel and chat tabs**.
 
-- **Start a chat in Teams** while viewing the report to start a conversation.
+- **Start a chat in Teams** to start a conversation while you are viewing the report.
 
-- Easily **reference a report in the Teams message box** when collaborating with coworkers.
+- **Reference a report in the Teams message box** when you are collaborating with coworkers.
 
 - **Add a comment to a report** to start a conversation with colleagues.
 
 ## Add the Power BI for Teams app
+To add the Power BI for Teams app, follow these steps:
 
 1. Launch Teams or use your browser to open [https://teams.microsoft.com](https://teams.microsoft.com/?azure-portal=true).
 
 1. In Teams, select **Apps** in the lower-left corner of the screen.
 
-1. In the search box, type in **Power BI** and then select it from the search results.
+1. In the search box, enter **Power BI** and then select it from the search results.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Teams Apps page with Power B I highlighted.](../media/image-39.png)](../media/image-39.png#lightbox)
+    > [![Screenshot of the Apps page in Teams with Power BI highlighted.](../media/image-39.png)](../media/image-39.png#lightbox)
 
 1. Select **Add** to install Power BI.
 
-If you've never signed into Power BI before, sign in and go through the new user setup prompts.
+If you've never signed in to Power BI before, sign in and then go through the new user setup prompts.
 
-> [!Note]
-> Pin the Power BI app to the app launcher to quickly access it at any time. Right-click the Power BI icon and select **Pin.** You can also run the app as a separate window from Teams by selecting **Pop out app**.
+> [!NOTE]
+> Pin the Power BI app to the app launcher to quickly access it at any time. Right-click the Power BI icon and select **Pin**. You can also run the app as a separate window from Teams by selecting **Pop out app**.
 >
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power B I app right-clicked with Pin selected.](../media/image-40.png)](../media/image-40.png#lightbox)
+> [![Screenshot of the Power BI app, right-clicked, with Pin selected.](../media/image-40.png)](../media/image-40.png#lightbox)
 
-The Power BI app for Teams launch page gives you quick access to your favorite reports, dashboards, and workspaces. Also, you can explore Power BI training, highlighted content published by the Power BI community, and recommended apps.
+The Power BI app for Teams launch page gives you quick access to your favorite reports, dashboards, and workspaces. Also, you can explore Power BI training, highlighted content that is published by the Power BI community, and recommended apps.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power B I app for Teams launch page.](../media/image-41.png)](../media/image-41.png#lightbox)
+> [![Screenshot of the Power BI app for Teams launch page.](../media/image-41.png)](../media/image-41.png#lightbox)
 
 ## Share a report
 
-Reports published to Power BI workspaces automatically grant access to everybody who is a member of the workspace. If you published the report to **My workspace,** only you have access to the report by default.
+Reports that are published to Power BI workspaces automatically grant access to everyone who is a member of the workspace. If you published the report to **My workspace**, only you have access to the report by default.
 
 > [!NOTE]
-> When a user tries to access a Power BI report that they don't have access to, they are prompted through a request access dialog to provide a note explaining their reason for access. The owner of the report receives an email to review the request and approve if appropriate.
+> When a user tries to access a Power BI report that they don't have access to, they are prompted through a request access dialog box to provide a note that explains their reason for access. The owner of the report will receive an email to review the request and approve if appropriate.
 
-To create a share link:
+To create a share link, follow these steps:
 
-1. Open the report in Power BI for Teams app.
+1. Open the report in the Power BI for Teams app.
 
 1. Select **Share** from the menu bar.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Power B I app with the Share icon highlighted.](../media/image-42.png)](../media/image-42.png#lightbox)
+    > [![Screenshot of the Power BI app with the Share button highlighted.](../media/image-42.png)](../media/image-42.png#lightbox)
 
-1. Expand the dialog to define who can use the link. Choose the appropriate settings, then select **Apply.**
+1. Expand the dialog box to define who can use the link. Choose the appropriate settings and then select **Apply**.
 
-    - **People in your organization:** This link grants access to people in your organization. It doesn't work for external users.
-    - **People with existing access:** Use this option when you want to generate a link and not change the existing permissions.
-    - **Specific people:** This link prompts you to provide the name of specific people, groups, or external guests in your organization's Azure Active Directory. You can't grant access to external users that aren't guests of your organization.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Send link dialog with People in your organization selected.](../media/image-43.png)](../media/image-43.png#lightbox)
-
-1. Select whether you want to **Copy link** to the clipboard, open an **Outlook** email with the link, or post the link to a **Teams** channel. If you share with **Specific people,** you can type in a message and **Send** an email immediately.
+    - **People in your organization** - This link grants access to people in your organization. It doesn't work for external users.
+    - **People with existing access** - Use this option when you want to generate a link and not change the existing permissions.
+    - **Specific people** - This link prompts you to provide the name of specific people, groups, or external guests in your organization's Microsoft Azure Active Directory (Azure AD). You can't grant access to external users that aren't guests of your organization.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Send link dialog with Specific people selected, and the add a message section highlighted.](../media/image-44.png)](../media/image-44.png#lightbox)
+    > [![Screenshot of the Send link dialog box with People in your organization selected.](../media/image-43.png)](../media/image-43.png#lightbox)
 
-To manage report permissions:
+1. Select whether you want to **Copy link** to the clipboard, open an **Outlook** email with the link, or post the link to a **Teams** channel. If you share with **Specific people**, you can enter a message and **Send** an email immediately.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Send link dialog box with Specific people selected and the Add a message section highlighted.](../media/image-44.png)](../media/image-44.png#lightbox)
+
+To manage report permissions, follow these steps:
 
 1. Open the report in Power BI for Teams.
 
 1. Select **Share** from the menu bar.
 
-1. Select the **More options** ellipsis in the **Send link** windows title, then **Manage permissions**.
+1. Select the **More options** ellipsis (**…**) in the **Send link** windows title and then select **Manage permissions**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Send link title with the ellipsis icon selected to show the Manage permissions option.](../media/image-45.png)](../media/image-45.png#lightbox)
@@ -86,136 +89,136 @@ To manage report permissions:
 
 ## Embed interactive reports in channel and chat tabs
 
-Adding a Power BI tab in Teams makes it easier for your team members to find the report. They can view and interact with the report without having to leave the channel or chat.
+Adding a Power BI tab in Teams helps make it easier for your team members to find the report. They can view and interact with the report without leaving the channel or chat.
 
 1. Open the Teams app or use your browser to open [https://teams.microsoft.com](https://teams.microsoft.com/?azure-portal=true).
 
-1. Open a chat or channel to add the BI Report.
+1. Open a chat or channel to add the Power BI report.
 
-1. Select the **Add tab** **+** icon.
+1. Select the **Add a tab** icon (**+**).
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Teams General tab with the Add tab icon highlighted.](../media/image-47.png)](../media/image-47.png#lightbox)
+    > [![Screenshot of the General tab in Teams with the Add a tab icon highlighted.](../media/image-47.png)](../media/image-47.png#lightbox)
 
 1. Select the **Power BI** app.
 
-1. Type in a **Tab name** and then select the report from the workspace section; select **Save** to continue.
+1. Enter a **Tab name** and then select the report from the workspace section. Select **Save** to continue.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Power B I dialog with tab name and workspace set to Contoso Cost Trends.](../media/image-48.png)](../media/image-48.png#lightbox)
+    > [![Screenshot of the Power BI dialog box with the Tab name field and My workspace set to Contoso Cost Trends.](../media/image-48.png)](../media/image-48.png#lightbox)
 
-The report appears as a tab in the channel or chat.
+The report will appear as a tab in the channel or chat.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Teams General page with Contoso Cost Trends as a tab.](../media/image-49.png)](../media/image-49.png#lightbox)
+> [![Screenshot of the General page in Teams with Contoso Cost Trends as a tab.](../media/image-49.png)](../media/image-49.png#lightbox)
 
 > [!NOTE]
-> Adding a Power BI tab does not change permissions, and only users that have access can view the report. Users who don't have access are prompted to request access when they select the tab.
+> Adding a Power BI tab does not change permissions, and only users that have access can view the report. Users who don't have access will be prompted to request access when they select the tab.
 
 ## Start a chat in Teams
 
-Start a conversation in a Teams channel when viewing reports in the Power BI for Teams app. The conversation can be about the report, or you can direct it to an individual visual.
+You can start a conversation in a Teams channel when you are viewing reports in the Power BI for Teams app. The conversation can be about the report or you can direct it to an individual visual.
 
-To start a chat in Teams about the report:
+To start a chat in Teams about the report, follow these steps:
 
-1. Open the report in the Power BI app for Teams.
+1. Open the report in the Power BI for Teams app.
 
 1. Select **Chat in Teams**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Teams with the Chat in Teams icon highlighted.](../media/image-50.png)](../media/image-50.png#lightbox)
+    > [![Screenshot of Teams with the Chat in Teams button highlighted.](../media/image-50.png)](../media/image-50.png#lightbox)
 
 1. If prompted, fill out the authentication prompts for Teams.
 
-1. Type in the name of a Team or Channel in the **Share to** field. Type in a message without overwriting or changing the URL.
+1. Enter the name of a team or channel in the **Share to** field. Enter a message without overwriting or changing the URL.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Share to Microsoft Teams dialog.](../media/image-51.png)](../media/image-51.png#lightbox)
+    > [![Screenshot of the Share to Microsoft Teams dialog box.](../media/image-51.png)](../media/image-51.png#lightbox)
 
-1. Select **Share** when finished.
+1. Select **Share** when you are finished.
 
-    In the channel, a new conversation is started with a link to the report.
+    In the channel, a new conversation will be started with a link to the report.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the channel showing the new conversation and the link to the report.](../media/image-52.png)](../media/image-52.png#lightbox)
 
-To start a chat in Teams about an individual visual:
+To start a chat in Teams about an individual visual, follow these steps:
 
-1. Open the report in the Power BI app for Teams.
+1. Open the report in the Power BI for Teams app.
 
-1. On the report visual, select the **More option** ellipsis and then **Add a comment**.
+1. On the report visual, select the **More options** ellipsis (**…**) and then select **Add a comment**.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the report visual in Power B I app for teams with the ellipsis icon selected to reveal the Chat in Teams option.](../media/image-53.png)](../media/image-53.png#lightbox)
+    > [![Screenshot of the report visual in Power BI for Teams app with the ellipsis button selected to reveal the Chat in Teams option.](../media/image-53.png)](../media/image-53.png#lightbox)
 
 1. If prompted, fill out the authentication prompts for Teams.
 
-1. Type in the name of a Team or Channel in the **Share to** field. Type in a message without overwriting or changing the URL. Select **Share** when finished.
+1. Enter the name of a team or channel in the **Share to** field. Enter a message without overwriting or changing the URL. Select **Share** when you are finished.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of Teams with the Share to Microsoft Teams dialog open.](../media/image-54.png)](../media/image-54.png#lightbox)
+    > [![Screenshot of Teams with the Share to Microsoft Teams dialog box open.](../media/image-54.png)](../media/image-54.png#lightbox)
 
-    When users select the link in Teams, the selected visual is highlighted.
+    When users select the link in Teams, the selected visual will be highlighted.
 
-> [!Note]
-> **Chat in Teams** starts a Microsoft Team conversation with a link to the report. It does not update the permissions, and only users with permissions to the report can access it. Users who don't have access are prompted to request access when they select the link.
+> [!NOTE]
+> **Chat in Teams** starts a Microsoft Team conversation with a link to the report. It does not update the permissions, and only users with permissions to the report can access it. Users who don't have access will be prompted to request access when they select the link.
 
 ## Reference a report in the Teams message box
 
-To reference a Power BI report from a channel or chat:
+To reference a Power BI report from a channel or chat, follow these steps:
 
 1. From a Teams message box, select the **Power BI** icon.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of a Teams message box with the Power B I icon highlighted.](../media/image-55.png)](../media/image-55.png#lightbox)
+    > [![Screenshot of a Teams message box with the Power BI icon highlighted.](../media/image-55.png)](../media/image-55.png#lightbox)
 
 1. Search for and select the report to include in the chat.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Power B I menu with the reports listed.](../media/image-56.png)](../media/image-56.png#lightbox)
+    > [![Screenshot of the Power BI menu with the reports listed.](../media/image-56.png)](../media/image-56.png#lightbox)
 
-1. **Send** the message when done.
+1. **Send** the message when you are done.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the message with the send icon highlighted.](../media/image-57.png)](../media/image-57.png#lightbox)
+    > [![Screenshot of the message with the Send icon highlighted.](../media/image-57.png)](../media/image-57.png#lightbox)
 
-Users can **Open** the Power BI report or **Subscribe** to set up a schedule to receive email updates. For more information about subscribing to a Power BI report, see the links in the Summary unit at the end of the module.
+Users can select to **Open** the Power BI report, or they can select **Subscribe** to set up a schedule to receive email updates. For more information about subscribing to a Power BI report, see the links in the Summary unit at the end of the module.
 
 ## Add comments to a report
 
-Comments can be added to a report or even on individual visuals on the report. Target comments to individuals using @mention to grab their attention. Any report filters or slicer settings are captured with the comment to view the report as it was when first commented.
+You can add comments to a report or even on individual visuals on the report. To target comments to individuals, use the **@mention** function to grab their attention. Report filters or slicer settings will be captured with the comment so that you can view the report as it was when you first commented.
 
-To create a general comment on the report:
+To create a general comment on the report, follow these steps:
 
-1. Open the report in the Power BI app for Teams.
+1. Open the report in the Power BI for Teams app.
 
-1. Select **Comment** to open the Comments pane.
+1. Select **Comment** to open the **Comments** pane.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Comment icon selected and the Comments pane highlighted.](../media/image-58.png)](../media/image-58.png#lightbox)
 
-1. Use @mention to alert others to your comment so they can respond, select **Post** when finished.
+1. Use **@mention** to alert others to your comment so that they can respond. Select **Post** when you are finished.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Comments pane with a message and a teammate @mentioned.](../media/image-59.png)](../media/image-59.png#lightbox)
+    > [![Screenshot of the Comments pane with a message and a teammate tagged with the @mention function.](../media/image-59.png)](../media/image-59.png#lightbox)
 
-1. An email is sent to the person that is @mentioned.
-
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the email message sent to the @mentioned person.](../media/image-60.png)](../media/image-60.png#lightbox)
-
-1. When selecting **Open Comments**, a browser window opens to the report on the Power BI website where they can reply to the comment.
-
-To comment on an individual visual:
-
-1. Open the report in the Power BI app for Teams.
-
-1. On the report visual, select the **More option** ellipsis and then **Add a comment**.
+   An email will be sent to the person who is tagged in the **@mention** function.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Power B I app for Teams with the report visual ellipsis icon selected to reveal the Add a comment option.](../media/image-61.png)](../media/image-61.png#lightbox)
+    > [![Screenshot of the email message sent to the person who is tagged in the @mention function.](../media/image-60.png)](../media/image-60.png#lightbox)
 
-1. The selected report visuals are highlighted when entering a comment. Use @mentions in the same way you would for general comments.
+When the person selects **Open Comments**, a browser window will open to the report on the Power BI website, where they can reply to the comment.
+
+To comment on an individual visual, follow these steps:
+
+1. Open the report in the Power BI for Teams app.
+
+1. On the report visual, select the **More options** ellipsis (**…**) and then select **Add a comment**.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Power BI for Teams app with the report visual ellipsis icon selected to reveal the Add a comment option.](../media/image-61.png)](../media/image-61.png#lightbox)
+
+1. The selected report visuals will be highlighted when you enter a comment. Use **@mention** functions in the same way that you would for general comments.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Comments pane next to the visual.](../media/image-62.png)](../media/image-62.png#lightbox)

@@ -33,9 +33,9 @@ After you set a bot variable, it will be available to all topics. When you are c
 
 When you use a condition node, a flow action node, or a skill node, you will also see available bot variables in those sections.
 
-### Reuse a variable across topics
+### Reuse a variable across topics (global)
 
-To define a variable as a bot variable, open it in the authoring canvas. You can accomplish this task by opening the **Ask a question** node that is storing the variable that you want to work with. On the **Variable Properties** pane, under **Usage**, select **Bot (any topic can access)**. The variable name will be given a prefix string of **bot** to differentiate it from the topic-level variables. For example, the variable UserName is now shown as bot.UserName. When you convert a variable to a bot variable, make sure that the variable is unique across all topics. If a conflict is encountered, you will need to rename the variable before saving your change.
+You may need to use global variables from one topic to another. To define a variable as a bot variable, open it in the authoring canvas. You can accomplish this task by opening the **Ask a question** node that is storing the variable that you want to work with. On the **Variable Properties** pane, under **Usage**, select **Bot (any topic can access)**. The variable name will be given a prefix string of **bot** to differentiate it from the topic-level variables. For example, the variable UserName is now shown as bot.UserName. When you convert a variable to a bot variable, make sure that the variable is unique across all topics. If a conflict is encountered, you will need to rename the variable before saving your change. See [Use global variables across topics within a bot](/power-platform-release-plan/2020wave1/power-virtual-agents/use-global-variables-across-topics-within-bot) for more information.
 
 > [!div class="mx-imgBorder"]
 > [![The pva_StoreLocation variable has Usage property set to Topic.](../media/5-4.png)](../media/5-4.png#lightbox)

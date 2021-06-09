@@ -1,4 +1,4 @@
-Business process flows are a capability of Power Platform that helps users observe a defined business process, find out where they are in the process, and know what data is required to complete the next stage. Business process flows are used within model-driven apps to help guide the user through multiple steps and stages.
+Business process flows are a capability of Microsoft Power Platform that helps users observe a defined business process, find out where they are in the process, and know what data is required to complete the next stage. Business process flows are used within model-driven apps to help guide the user through multiple steps and stages.
 
 A business process flow consists of stages and steps. A stage is linked to a Dataverse table, and steps are typically linked to columns in the table for the stage. The business process flow is shown at the top of a form in a model-driven app.
 

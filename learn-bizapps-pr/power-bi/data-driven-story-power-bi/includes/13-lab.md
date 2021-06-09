@@ -61,7 +61,7 @@ In this task you'll set up the environment for the lab by signing in to Power BI
 
 1. Select **Sign In** (located at the top-right corner).
 
-1. Enter the account details provided to you.
+1. You are prompted to sign into your Power BI account. Enter your Power BI credentials and password.
 
 1. If prompted to update the password, reenter the provided password, and then enter and confirm a new password.
 

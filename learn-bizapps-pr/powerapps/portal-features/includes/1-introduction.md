@@ -55,7 +55,7 @@ An authenticated portal user will be able to manage their own profile informatio
 
 ## Customization and extensibility
 
-Power Apps portals provide many tools to create content, add Dataverse data, and configure the appearance of a portal application. Portal capabilities can also be further extended by using custom web templates, Liquid markup, JavaScript, and Cascading Style Sheets (CSS). Portals can also use other Power Platform development technologies such as plug-ins, Power Automate, and workflows.
+Power Apps portals provide many tools to create content, add Dataverse data, and configure the appearance of a portal application. Portal capabilities can also be further extended by using custom web templates, Liquid markup, JavaScript, and Cascading Style Sheets (CSS). Portals can also use other Microsoft Power Platform development technologies such as plug-ins, Power Automate, and workflows.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of the Employee Self=Service Portal web template.](../media/1-web-template.png)](../media/1-web-template.png#lightbox)

@@ -18,7 +18,7 @@ Solution architects should categorize the data that is required in Dataverse. A 
 
 When considering getting data into Dataverse, you will need to determine if data will be pushed into Dataverse by another system or if it will be pulled into Dataverse.
 
-The general push pattern for inbound integration into Dataverse is to use the web API with the other system making the web API calls. However, allowing other systems to write directly into Dataverse requires the other systems to understand the data model in Dataverse and how the processes in the Power Platform solution operate. It's a good idea to create a layer for external systems to access the following entities:
+The general push pattern for inbound integration into Dataverse is to use the web API with the other system making the web API calls. However, allowing other systems to write directly into Dataverse requires the other systems to understand the data model in Dataverse and how the processes in Microsoft Power Platform solution operate. It's a good idea to create a layer for external systems to access the following entities:
 
 - **Event-based processing** - Power Automate and Microsoft Azure Logic Apps are good approaches for individual transactions that are triggered by changes in the source system.
 - **Batch processing** - Batch is often abstracted by tooling from other sources such as KingswaySoft or by using Microsoft Azure Data Factory.

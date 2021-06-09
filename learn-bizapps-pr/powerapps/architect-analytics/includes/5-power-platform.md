@@ -1,4 +1,4 @@
-Power BI can be used with the other components of Power Platform.
+Power BI can be used with the other components of Microsoft Power Platform.
 
 Power BI content can be:
 - Consumed in PowerBI.com. 

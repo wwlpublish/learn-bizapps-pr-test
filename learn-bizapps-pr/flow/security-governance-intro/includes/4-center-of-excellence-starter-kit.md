@@ -1,6 +1,6 @@
-The Power Platform Center of Excellence (COE) Starter Kit is a set of
+Microsoft Power Platform Center of Excellence (COE) Starter Kit is a set of
 apps, flows, a custom connector, and a Power BI dashboard that allows
-organizations to govern their Power Platform environments. The tool is
+organizations to govern their Microsoft Power Platform environments. The tool is
 freely available for download on
 [GitHub](https://github.com/microsoft/powerapps-tools/tree/master/Administration/CoEStarterKit/?azure-portal=true).
 
@@ -15,7 +15,7 @@ encouraged to expand on their efforts.
 
 The Starter Kit does have some prerequisites, including:
 
-- A global tenant admin, Power Platform Service admin, or Dynamics 365 service admin role is required
+- A global tenant admin, Microsoft Power Platform Service admin, or Dynamics 365 service admin role is required
     to access the tenant resources.
 
 - A Power Apps premium license for accessing Microsoft Dataverse.
@@ -50,7 +50,7 @@ unknowingly breaking someone's app.
 
 ### Catalog tenant resources, visualize data in Power BI
 
-While Admin Analytics, which is found in the Power Platform Admin center,
+While Admin Analytics, which is found in Microsoft Power Platform Admin center,
 provides some insight into the use of Power Apps and Power Automate,
 it does so within the context of an environment. This parameter makes
 developing a holistic picture of usage difficult. However,
@@ -58,7 +58,7 @@ using the tools that are provided in the COE Starter Kit brings all these
 insights together by using Dataverse, a model-driven
 Power App, and a Power BI dashboard. These assets, plus the
 inclusion of flows that will sync data from Office 365 Security and
-Compliance logs and through the Power Platform management connectors
+Compliance logs and through Microsoft Power Platform management connectors
 into Dataverse entities, provide the greatest level of
 visibility for administrators.
 

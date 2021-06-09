@@ -38,7 +38,7 @@ Solution architects should categorize the data that is required in Dataverse. A 
 
 ## Push pattern
 
-Event-based processing is associated with the push pattern. An event in Dataverse runs a process that connects to the external system and updates the data in that system. When linking directly to another system, solution architects need to ensure that they are creating performance issues for both systems and are not creating a tightly coupled system.
+Event-based processing is associated with the push pattern. An event in Dataverse runs a process that connects to the external system and updates the data in that system. When linking directly to another system, solution architects need to ensure that they are not creating performance issues for both systems and are not creating a tightly coupled system.
 
 > [!IMPORTANT]
 > If using plug-ins, the solution architect needs to be aware of the two-minute time limit for plug-in processing.

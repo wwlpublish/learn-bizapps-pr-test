@@ -9,7 +9,7 @@ Before using the audit log connector, you will need to meet the following prereq
 
 -  Microsoft 365 audit log search must be turned on for the audit log connector to work.
 
--  You must have access to the audit log. The Microsoft Power Platform Service Admin role doesn't give you access to the audit log.
+-  You must have access to the audit log. Microsoft Power Platform Service Admin role doesn't give you access to the audit log.
 
 -  Your tenant must have a subscription that supports unified audit logging.
 

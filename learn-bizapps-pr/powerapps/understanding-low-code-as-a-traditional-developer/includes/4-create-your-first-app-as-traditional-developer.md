@@ -26,7 +26,7 @@ To connect to a data source, use the following procedure:
 1. Under **Connections**, select **OneDrive for Business** and browse to the file location.
     You might need to select **New Connection** to see the **OneDrive for Business** connection. 
 1. Under **Choose an Excel file**, select the **FlooringInventory.xlsx** file.
-1. Under **Choose a table**, select the **FlooringInventory** table. 
+1. Under **Choose a table**, select the **FlooringEstimates** table. 
 1. Select **Connect** on the bottom right.
 
 Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point.
@@ -61,9 +61,17 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Right-click on **EditScreen1_1** on the tree view, and click on **Rename**. Type in **InventoryRequest** for a new name for the screen, and hit _<Enter>_ to save it.
 
-1. Now click on **EditForm1_1** in the tree view, and press the _<Delete>_ key to delete the control.
+1. Click on **BrowseScreen1** in the tree view to go back to the first screen, and click on the **(+)** icon to select it.
 
-1. Click the **X** icon on the top of the app screen, and press the _<Delete>_ key to delete it. Do the same for the **✔** icon.
+1. Choose the **OnSelect** property from theh dropdown list next to the formula bar, replace the contents of the formula bar with this:
+
+    ```powerappsfl
+        Navigate(InventoryRequest, None)
+    ```
+
+1. Hold down the ALT key, and click on the **(+)** icon to test the Navigate function you just wrote; the app should load the InventoryRequest screen you created a moment ago.
+
+1. Now click on **EditForm1_1** in the tree view, and press the _<Delete>_ key to delete the control.
 
 ### Add controls to the new screen
 
@@ -83,7 +91,7 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Click and drag both controls to line up with the other controls and each other, and change the text on the new label to say **Inventory item**.
 
-1. Click on the drop down control to select it, and in the right-side properties panel, click on the **Items** property's dropdown and select **FlooringInventory**. Then, click on the **Value** property's dropdown and select **Name**.
+1. Click on the drop down control to select it, and in the right-side properties panel, click on the **Items** property's dropdown and select **FlooringEstimates**. Then, click on the **Value** property's dropdown and select **Name**.
 
 1. Click on the **Items** property label, and note that the cursor focus is now in the formula bar, with the Items property selected.
 

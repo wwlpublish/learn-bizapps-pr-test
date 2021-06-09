@@ -6,7 +6,7 @@ transparency, and scale of operations.
 
 This module covered the following concepts:
 
--   How Power Apps portals can add value to customer Power Platform and Dynamics 365 solutions.
+-   How Power Apps portals can add value to customer Microsoft Power Platform and Dynamics 365 solutions.
 
 -   Core components for configuring a portal: webpages, templates, table forms, content snippets, and table lists.
 

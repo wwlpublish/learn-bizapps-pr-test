@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/22/2021
+  ms.date: 05/31/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -26,7 +26,7 @@ quiz:
       explanation: "Incorrect. Power Automate can be administered via https://admin.powerplatform.microsoft.com but there are also PowerShell cmdlets and flow actions to give you multiple options for administration."
     - content: "Power Automate can be administered on the web, via PowerShell, or even by building flows."
       isCorrect: true
-      explanation: "Correct. Power Automate provides https://admin.powerplatform.microsoft.com, PowerShell cmdlets, and flow actions for managing Power Automate. This give you complete flexibility for your Power Platform administration."
+      explanation: "Correct. Power Automate provides https://admin.powerplatform.microsoft.com, PowerShell cmdlets, and flow actions for managing Power Automate. This give you complete flexibility for your Microsoft Power Platform administration."
   - content: "Where do you find flow templates?"
     choices:
     - content: "You have to build and save templates yourself; there are no pre-built templates."

@@ -24,6 +24,6 @@ When an app or a flow uses your connector in a solution, a connection reference 
 
 When you are ready to update your custom connector, make the changes in your development environment and then export the solution as managed. Then, you would import the new managed solution version into your other environments. All changes that you have made become available for apps and flows after the upgrade has completed, except for sensitive configuration information that must be entered each time, and no other editing is required each time an update is done.
 
-Using solutions to manage the life cycle of your custom connector provides a consistent way of doing it with how you manage other Power Platform resources. The same techniques that you use for automating the export, import, and source control of your assets can be consistently applied for custom connectors as well. This module will later describe automating the process by using Power Platform Build Tools. 
+Using solutions to manage the life cycle of your custom connector provides a consistent way of doing it with how you manage other Microsoft Power Platform resources. The same techniques that you use for automating the export, import, and source control of your assets can be consistently applied for custom connectors as well. This module will later describe automating the process by using Microsoft Power Platform Build Tools. 
 
 For more information, see [Application lifecycle management (ALM) with Microsoft Power Platform](https://docs.microsoft.com/power-platform/alm/?azure-portal=true).

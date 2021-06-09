@@ -26,7 +26,7 @@ quiz:
     - content: "Webmail services, Microsoft Outlook and Exchange servers"
       isCorrect: true 
       explanation: "Power Automates Desktop supports email handling through webmail services, Microsoft Outlook and Exchange servers."
-  - content: "Which of the following servers would you configure to retrieve emails with the Retrieve emails action?"
+  - content: "Which of the following servers would you configure to retrieve emails with the Retrieve email messages action?"
     choices: 
     - content: "IMAP server"
       isCorrect: true 

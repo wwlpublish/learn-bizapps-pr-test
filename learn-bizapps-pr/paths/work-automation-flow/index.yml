@@ -30,5 +30,6 @@ modules:
 - learn-bizapps.use-ai-builder-process-invoice
 - learn-bizapps.use-teams-connector
 - learn-bizapps.flow-unattended-mode
+- learn-bizapps.business-process-optimization-process-advisor 
 trophy: 
   uid: learn-bizapps.work-automation-flow.trophy

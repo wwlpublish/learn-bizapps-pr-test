@@ -28,7 +28,7 @@ Occasionally, makers consider replacing standard functionality with custom table
 
 ### Do not re-create accounts and contacts
 
-When deploying Power Platform solutions, you will frequently track multiple types of companies, organizations, and contacts in the system. Some of these entities represent customer/client organizations, while others might be support and advisory organizations, such as accountants and legal firms. Some entities might be miscellaneous types of organizations, such as trade associations.
+When deploying Microsoft Power Platform solutions, you will frequently track multiple types of companies, organizations, and contacts in the system. Some of these entities represent customer/client organizations, while others might be support and advisory organizations, such as accountants and legal firms. Some entities might be miscellaneous types of organizations, such as trade associations.
 
 The most common approach to managing multiple categories of company relationships is to use the Account table for all organization types and use a column, such as **Relationship type**, or a custom option set to flag companies by their type or category. You can filter views based on the type of company, and business rules can conditionally show or hide column and form components based on type.
 
@@ -58,7 +58,7 @@ The following sections explain factors that you should consider before repurposi
 
 #### Consider the future
 
-The future of Power Platform is moving much faster than ever before, so using tables in non-standard ways can cause problems if Microsoft makes changes to the table that you are using. Also, if you choose to repurpose a seldom-used system table, such as Contracts, Microsoft might elect to deprecate that table in the future. Custom tables are not deprecated. Additionally, if you repurpose a system table, consider what you might do if you later need that entity for its intended purposes. Customers who have repurposed a case eventually needed case management and had to address it with custom tables because the standard case table was already used for completely different purposes.
+The future of Microsoft Power Platform is moving much faster than ever before, so using tables in non-standard ways can cause problems if Microsoft makes changes to the table that you are using. Also, if you choose to repurpose a seldom-used system table, such as Contracts, Microsoft might elect to deprecate that table in the future. Custom tables are not deprecated. Additionally, if you repurpose a system table, consider what you might do if you later need that entity for its intended purposes. Customers who have repurposed a case eventually needed case management and had to address it with custom tables because the standard case table was already used for completely different purposes.
 
 #### Consider overhead
 

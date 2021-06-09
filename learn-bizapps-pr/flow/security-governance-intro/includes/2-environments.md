@@ -13,10 +13,10 @@ testing, and production purposes. Using this strategy might also align flow crea
 with existing IT change management requirements.
 
 By default, anyone can create environments, but administrators can also
-[control who can create and manage environments in the Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/control-environment-creation/?azure-portal=true) and
+[control who can create and manage environments in Microsoft Power Platform Admin center](https://docs.microsoft.com/power-platform/admin/control-environment-creation/?azure-portal=true) and
 limit it to a set of administrators.
 
-![Screenshot of the Power Platform Admin Center displaying a list of environments including Personal Productivity, Production, Test, and Development.](../media/1-environments.png)
+![Screenshot of Microsoft Power Platform Admin Center displaying a list of environments including Personal Productivity, Production, Test, and Development.](../media/1-environments.png)
 
 When creating an environment, organizations can choose which region they
 want their environment to reside in. This approach is important because it allows
@@ -26,7 +26,7 @@ available to store data include Asia, Australia, Canada, Europe, France, India,
 Japan, South America, United Kingdom, United States, and US Government (GCC).
 
 Regions are also important when it comes to Admin Analytics because the
-Power Platform Analytics feature isolates analytics through
+Microsoft Power Platform Analytics feature isolates analytics through
 environments. The telemetry that is generated in one region is not
 allowed to leave that region. For administrators to view analytics, they
 need to select an environment first before they can view telemetry.

@@ -3,7 +3,7 @@ You can create an open-source custom connector and certify it to help make it ea
 
 ## When to certify a custom connector
 
-Many reasons exist for certifying your custom connector, but ease of use, visibility, and expanding the reach of your API are among the top reasons. Certify your custom connector if it provides access to an API that is useful to a broad audience and is not internally focused. You do not have to host the API underlying service on Microsoft technologies. In fact, connectors are beneficial for integrating Power Platform solutions with non-Microsoft solutions. You can certify connectors for free or with paid APIs.
+Many reasons exist for certifying your custom connector, but ease of use, visibility, and expanding the reach of your API are among the top reasons. Certify your custom connector if it provides access to an API that is useful to a broad audience and is not internally focused. You do not have to host the API underlying service on Microsoft technologies. In fact, connectors are beneficial for integrating Microsoft Power Platform solutions with non-Microsoft solutions. You can certify connectors for free or with paid APIs.
 
 Certified connectors are reviewed to ensure that they meet the [certification criteria](https://docs.microsoft.com/connectors/custom-connectors/submit-certification?azure-portal=true#certification-criteria) prior to publishing. A key requirement is that you must own the underlying service, or you must present explicit rights to use the API and then provide a user scenario that fits well with the products. Initial certification and updates to the connector are free. The next topic will further explain the certification process.
 
@@ -21,13 +21,13 @@ Most contributions require that you agree to a Contributor License Agreement (CL
 
 The GitHub repository has two main folders that contain the connectors: **custom-connectors** and **certified-connectors**.
 
-The **custom-connectors** folder contains fully functional connector samples that can be deployed to Power Platform for extension and use. These samples might not be certified connectors but are created and maintained by the open-source community to offer useful scenarios or examples of connector concepts.
+The **custom-connectors** folder contains fully functional connector samples that can be deployed to Microsoft Power Platform for extension and use. These samples might not be certified connectors but are created and maintained by the open-source community to offer useful scenarios or examples of connector concepts.
 
-The **certified-connectors** folder contains certified connectors that are already deployed and available for use, out of the box, within Power Platform. A requirement of the Microsoft connector certification program is that new certified connectors must be open source for community contributions. The Microsoft Connector Certification team manages the **certified-connectors** folder to ensure that, within the **master** branch, the connector version is identical to that which is deployed in Power Platform. The **dev** branch is maintained by the connector owner and the Microsoft Connector Certification team to allow community development of the connector prior to certification and deployment of a version.
+The **certified-connectors** folder contains certified connectors that are already deployed and available for use, out of the box, within Microsoft Power Platform. A requirement of the Microsoft connector certification program is that new certified connectors must be open source for community contributions. The Microsoft Connector Certification team manages the **certified-connectors** folder to ensure that, within the **master** branch, the connector version is identical to that which is deployed in Microsoft Power Platform. The **dev** branch is maintained by the connector owner and the Microsoft Connector Certification team to allow community development of the connector prior to certification and deployment of a version.
 
-To contribute to the GitHub repository, you will start by taking your own copy (or *creating a fork*) of the repository. The steps are explained in the [Creating a Fork](https://github.com/Microsoft/PowerPlatformConnectors?azure-portal=true#creating-a-fork) documentation. After you've created a fork, you're ready to prepare your connector for contribution by using a pull request. You can download your connector assets by using the Power Platform Connector CLI.
+To contribute to the GitHub repository, you will start by taking your own copy (or *creating a fork*) of the repository. The steps are explained in the [Creating a Fork](https://github.com/Microsoft/PowerPlatformConnectors?azure-portal=true#creating-a-fork) documentation. After you've created a fork, you're ready to prepare your connector for contribution by using a pull request. You can download your connector assets by using Microsoft Power Platform Connector CLI.
 
-## Download by using Power Platform Connector CLI
+## Download by using Microsoft Power Platform Connector CLI
 
 To prepare the necessary files to create an open-source connector, use the paconn download command from [Microsoft Power Platform Connectors CLI](https://docs.microsoft.com/connectors/custom-connectors/paconn-cli/?azure-portal=true).
 
@@ -35,11 +35,11 @@ Download the custom connector files by running the following command:
 
 `paconn download`
 
-When you run this command, it will go through a device login to allow paconn to access your Power Platform environment on your behalf. After you have been authenticated, paconn will provide you with a list of environments to select from followed by a list of connectors to select.
+When you run this command, it will go through a device login to allow paconn to access your Microsoft Power Platform environment on your behalf. After you have been authenticated, paconn will provide you with a list of environments to select from followed by a list of connectors to select.
 
 If you know your environment ID and connector ID, you can use the following command-line syntax to avoid being prompted:
 
-`paconn download -e [Power Platform Environment GUID] -c [Connector ID]`
+`paconn download -e [Microsoft Power Platform Environment GUID] -c [Connector ID]`
 
 The download includes four files:
 

@@ -19,7 +19,7 @@ You only need multiple environments if your company is global and you are suppor
 
 ## Create environments
 
-The first time that you sign in to Power Virtual Agents and create a new bot, a default environment is created. Unless specified otherwise, any additional bots will be created in the default environment. If additional environments are needed, such as for different regions, organizational needs, or other circumstances, they can be added through the [Power Platform admin center](https://docs.microsoft.com/power-platform/admin/create-environment/?azure-portal=true).
+The first time that you sign in to Power Virtual Agents and create a new bot, a default environment is created. Unless specified otherwise, any additional bots will be created in the default environment. If additional environments are needed, such as for different regions, organizational needs, or other circumstances, they can be added through the [Microsoft Power Platform admin center](https://docs.microsoft.com/power-platform/admin/create-environment/?azure-portal=true).
 
 When in the admin center, you can add environments by going to the **Environments** tab and selecting **New** to open the new environment panel.
 

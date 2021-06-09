@@ -3,8 +3,8 @@ uid: learn-bizapps.integrate-common-data-service.3-web-form-processes
 title: Web form processes
 metadata: 
   title: Web form processes
-  description: Learn when to use web forms instead of table forms.
-  ms.date: 07/16/2020 
+  description: Learn when to use web forms instead of entity forms.
+  ms.date: 06/01/2021
   author: DaveBeasley 
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 

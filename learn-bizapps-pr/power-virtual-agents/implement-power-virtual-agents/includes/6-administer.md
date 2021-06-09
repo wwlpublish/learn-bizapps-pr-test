@@ -12,7 +12,7 @@ The **Summary** tab provides a detailed overview of how many total chatbot sessi
 The **Customer Satisfaction** report helps identify which topics are having the most impact and where analysts will go to stay informed.
 
 > [!div class="mx-imgBorder"]
-> [![Monitoring Power Platform: Power Virtual Agents Analytics.](../media/customer-satisfaction.png)](../media/customer-satisfaction.png#lightbox)
+> [![Monitoring Microsoft Power Platform: Power Virtual Agents Analytics.](../media/customer-satisfaction.png)](../media/customer-satisfaction.png#lightbox)
 
 The **Sessions** tab gives you the flexibility to download raw data from all chatbot sessions. This offering includes a complete transcript of the sessions and the outcome.
 
@@ -48,7 +48,7 @@ You can view the current access that a user has for your environment, and you ha
 > [!div class="mx-imgBorder"]
 > [![Share your bot page with the following message displayed in the Environment security roles section: "This user needs environment security roles to work with bots in Power Virtual Agents. By sharing the bot the user will be assigned the selected security roles."](../media/share-your-bot.png)](../media/share-your-bot.png#lightbox)
 
-**Bot author**, **Bot contributor**, and **Bot transcript viewer** are the three security roles for Power Virtual Agents that you can manage at the Power Platform admin center.
+**Bot author**, **Bot contributor**, and **Bot transcript viewer** are the three security roles for Power Virtual Agents that you can manage at Microsoft Power Platform admin center.
 
 You can assign the **Environment maker** security role when sharing a bot with a user who doesn't have sufficient environment permissions to run Power Virtual Agents.
 

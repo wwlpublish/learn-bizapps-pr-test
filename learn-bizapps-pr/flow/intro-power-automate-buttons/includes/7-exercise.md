@@ -1,4 +1,4 @@
-You have a Power Automate button that you have shared with one
+You have a Power Automate button that you've shared with one
 person, and now you'd like to share it with your entire team, which
 already has an Office 365 private group. You've been asked to use that
 private group to share the app with your entire team.
@@ -13,11 +13,11 @@ The high-level steps are as follows:
 
 ### Confirm the name of your Office 365 private group
 
-For our example, the private group name we are using in this exercise is
+For our example, the private group name we're using in this exercise is
 **Power Platform** and its email address is ```powerplatform@xyz.onmicrosoft.com```.
 You can find your group name in your Office 365 Outlook and use it for your example.
 
-### Remove the existing user(s)
+### Remove the existing user
 
 1. Locate the Microsoft Power Automate button app you want to share.
 
@@ -25,15 +25,15 @@ You can find your group name in your Office 365 Outlook and use it for your exam
     horizontal navigation pane.
 
 1. Select your **Late to work** flow and then select **Users and connections**.
-    Below **Shared with**, you will see the existing user(s). Select their
-    name(s) and then select **Remove user**. Repeat this step for any other
-    users that you have listed there.
+    Below **Shared with**, you'll see any existing users. Select a
+    name and then select **Remove user**. Repeat this step for any other
+    users that you've listed there.
 
 ### Add the new private group and confirm that people are using their own connections
 
 1. In **Users and connections**, select **Invite others**.
 
-1. In **Search people or groups**, enter **Power Platform** or your group name. You
+1. In **Search people or groups**, enter **Microsoft Power Platform** or your group name. You
     should see the name appear. Select the plus icon (**+**), and the group will be added.
     Select **Send** on the upper right.
 
@@ -45,7 +45,7 @@ You can find your group name in your Office 365 Outlook and use it for your exam
     **Office 365 Users**.
     Select each **Edit** option that is located next to each connection, and then confirm that the
     **Provided by user** option has been selected.
-    If the option is selected, then select **Cancel**; if it is not, select the
+    If the option is selected, then select **Cancel**; if it isn't, select the
     **Provided by user** option.
 
-You have now successfully shared the button with an Office 365 private group.
+You've now successfully shared the button with an Office 365 private group.

@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 03/15/2021
+  ms.date: 06/01/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -49,15 +49,15 @@ quiz:
     - content: "Function-based"
       isCorrect: false
       explanation: "Incorrect. Function-based is a type of data source, not a connector operation."
-  - content: "A client likes the idea of implementing a Power Platform solution, but is concerned about the ability to interact with a custom API. How should you respond?"
+  - content: "A client likes the idea of implementing a Microsoft Power Platform solution, but is concerned about the ability to interact with a custom API. How should you respond?"
     choices:
-    - content: "Power Platform offers the ability to create custom connectors for this purpose which allow you to connect to Power Apps and Power Automate."
+    - content: "Microsoft Power Platform offers the ability to create custom connectors for this purpose which allow you to connect to Power Apps and Power Automate."
       isCorrect: true
       explanation: "Correct. You can build out a custom connector to bridge your app or workflow to the API."
-    - content: "Power Platform has over 270 connectors to use in these situations."
+    - content: "Microsoft Power Platform has over 270 connectors to use in these situations."
       isCorrect: false
       explanation: "Incorrect. While the statement is accurate, a custom API would require a custom connector."
-    - content: "Power Platform uses connectors that hold a series of functions available for developers."
+    - content: "Microsoft Power Platform uses connectors that hold a series of functions available for developers."
       isCorrect: false
       explanation: "Incorrect. APIs hold a series of functions available for developers. Connectors allow you to push the information and functions back and forth from your data source."
   - content: "Someone asks you to describe a connector. How would you respond?"

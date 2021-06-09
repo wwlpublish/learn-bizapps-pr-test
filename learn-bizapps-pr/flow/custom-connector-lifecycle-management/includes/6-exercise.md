@@ -1,4 +1,4 @@
-In this exercise, you will export a solution that contains a custom connector into GitHub by using GitHub Actions for Power Platform.
+In this exercise, you will export a solution that contains a custom connector into GitHub by using GitHub Actions for Microsoft Power Platform.
 
 > [!IMPORTANT]
 > Use a test environment with Microsoft Dataverse provisioned. If you don't have one, you can sign up for the [Community Plan](https://powerapps.microsoft.com/communityplan/?azure-portal=true). A GitHub account is also required to complete the exercise. You can sign up for one for free at [GitHub.com](https://GitHub.com/?azure-portal=true).

@@ -1,4 +1,4 @@
-Microsoft Dataverse is a cloud-based data storage which allows you to leverage the security and connectivity of Microsoft programs. Microsoft Dataverse connect easily to all aspects of Power Platform so that you can fully control, automate, and strengthen your business. With standard tables and columns, as well as the ability to easily define relationships between your data, Microsoft Dataverse was built for those who need powerful, scalable solutions.
+Microsoft Dataverse is a cloud-based data storage which allows you to leverage the security and connectivity of Microsoft programs. Microsoft Dataverse connect easily to all aspects of Microsoft Power Platform so that you can fully control, automate, and strengthen your business. With standard tables and columns, as well as the ability to easily define relationships between your data, Microsoft Dataverse was built for those who need powerful, scalable solutions.
 
 Now that you have reviewed this module, you should be able to:
 
@@ -28,28 +28,28 @@ Use these resources to discover more.
 
 ### Microsoft Dataverse
 
-- [Introduction to Microsoft Dataverse](https://docs.microsoft.com/learn/modules/intro-common-data-service/)
+- [Introduction to Microsoft Dataverse](/learn/modules/intro-common-data-service/)
 
-- [Microsoft Dataverse Documentation](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-intro)
+- [Microsoft Dataverse Documentation](/powerapps/maker/common-data-service/data-platform-intro)
 
-- [Common Data Model](https://docs.microsoft.com/business-applications-release-notes/april19/cdm-data-integration/common-data-model-cdm)
+- [Common Data Model](/business-applications-release-notes/april19/cdm-data-integration/common-data-model-cdm)
 
 - [Licensing](https://download.microsoft.com/download/9/5/6/9568EFD0-403D-4AE4-95F0-7FACA2CCB2E4/Power%20Apps%20and%20Power%20Automate%20Licensing%20Guide%20-%20Nov%202019.pdf)
 
 ### Tables, columns, and relationships
 
-- [Create and Manage Tables in Microsoft Dataverse](https://docs.microsoft.com/learn/modules/create-manage-entities/)
+- [Create and Manage Tables in Microsoft Dataverse](/learn/modules/create-manage-entities/)
 
-- [Complex tables](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-complex-entities)
+- [Complex tables](/powerapps/maker/common-data-service/data-platform-complex-entities)
 
-- [Restricted tables requiring Dynamics 365 licenses](https://docs.microsoft.com/powerapps/maker/common-data-service/data-platform-restricted-entities)
+- [Restricted tables requiring Dynamics 365 licenses](/powerapps/maker/common-data-service/data-platform-restricted-entities)
 
-- [Create and manage columns within a table in Microsoft Dataverse](https://docs.microsoft.com/learn/modules/create-manage-fields-within-entity/)
+- [Create and manage columns within a table in Microsoft Dataverse](/learn/modules/create-manage-fields-within-entity/)
 
-- [Create a relationship between tables in Microsoft Dataverse](https://docs.microsoft.com/learn/modules/create-relationship-between-cds-entities/)
+- [Create a relationship between tables in Microsoft Dataverse](/learn/modules/create-relationship-between-cds-entities/)
 
 ### Relationships and business rules
 
-- [Create and manage environments in Microsoft Dataverse](https://docs.microsoft.com/learn/modules/create-manage-environments/1-intro)
+- [Create and manage environments in Microsoft Dataverse](/learn/modules/create-manage-environments/1-intro)
 
-- [Define and create business rules in Microsoft Dataverse](https://docs.microsoft.com/learn/modules/define-create-business-rules/)
+- [Define and create business rules in Microsoft Dataverse](/learn/modules/define-create-business-rules/)

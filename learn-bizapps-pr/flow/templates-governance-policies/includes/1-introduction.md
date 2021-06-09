@@ -19,9 +19,9 @@ Microsoft has categorized the templates based on popular scenarios
 like approvals, email, and calendar.
 
 While many of the templates in the gallery target information
-workers, some templates target Power Platform governance
+workers, some templates target Microsoft Power Platform governance
 use cases. This module explores some of these templates that
 can be used by administrators to improve their productivity when governing
-Power Platform.
+Microsoft Power Platform.
 
 ![Screenshot of the Power Automate Templates page.](../media/2-templates.png)

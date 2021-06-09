@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Power Apps portals admin center
       isCorrect: false 
-      explanation: The Power Platform admin center has the ability to list all portals in the various environments of a specific tenant. The Power Apps portals admin center is for helping you configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all portals in a tenant.
+      explanation: Microsoft Power Platform admin center has the ability to list all portals in the various environments of a specific tenant. The Power Apps portals admin center is for helping you configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all portals in a tenant.
     - content: Power Platform admin center
       isCorrect: true 
-      explanation: The Power Platform admin center has the ability to list all portals in the various environments of a specific tenant. The Power Apps portals admin center is for helping you configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all portals in a tenant.
+      explanation: Microsoft Power Platform admin center has the ability to list all portals in the various environments of a specific tenant. The Power Apps portals admin center is for helping you configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all portals in a tenant.
     - content: Power Apps admin portal
       isCorrect: false 
-      explanation: The Power Platform admin center has the ability to list all portals in the various environments of a specific tenant. The Power Apps portals admin center is for helping you configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all portals in a tenant.
+      explanation: Microsoft Power Platform admin center has the ability to list all portals in the various environments of a specific tenant. The Power Apps portals admin center is for helping you configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all portals in a tenant.
     - content: Navigate to each environment and view the list of apps
       isCorrect: false 
-      explanation: The Power Platform admin center has the ability to list all portals in the various environments of a specific tenant. The Power Apps portals admin center is for helping you configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all portals in a tenant.
+      explanation: Microsoft Power Platform admin center has the ability to list all portals in the various environments of a specific tenant. The Power Apps portals admin center is for helping you configure properties of the currently selected portal. The Power Apps admin portal is for managing Power Apps. While you can see portals as apps in each environment, you cannot list all portals in a tenant.
   - content: What kind of SSL certificate file format is required for Power Apps portals?
     choices: 
     - content: PFX
