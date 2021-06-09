@@ -8,4 +8,4 @@ To get started with the Frontline worker app, download the Microsoft Power Apps 
 
 - For **Android** devices, use [**Google Play**](https://aka.ms/powerappsandroid/?azure-portal=true).
 
-For more information, see [Use the Frontline worker app](https://docs.microsoft.com/dynamics365/industry/vaccination-management/check-in-administer/?azure-portal=true).
+For more information, see [Use the Frontline worker app](/dynamics365/industry/vaccination-management/check-in-administer/?azure-portal=true).
