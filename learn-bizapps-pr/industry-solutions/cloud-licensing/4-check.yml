@@ -1,0 +1,52 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.cloud-licensing.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 06/14/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-d365-healthcare 
+durationInMinutes: 4
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: The user logging into the Solution Center should have either a Power Platform or Dynamics 365 ____________ role to deploy MVM.
+    choices: 
+    - content: User role
+      isCorrect: false 
+      explanation: An administrator role is required to deploy MVM.
+    - content: Administrator role
+      isCorrect: true 
+      explanation: An administrator role is required to deploy MVM.
+    - content: Read-only role
+      isCorrect: false 
+      explanation: An administrator role is required to deploy MVM.
+    - content: No role is needed.
+      isCorrect: false 
+      explanation: An administrator role is required to deploy MVM.
+  - content: The ________________ is an orchestrator that simplifies the whole deployment process by checking licensing requirements and dependencies. 
+    choices: 
+    - content: Microsoft Power Platform
+      isCorrect: false 
+      explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
+    - content: Microsoft Cloud Solution Center
+      isCorrect: true 
+      explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
+    - content: Microsoft Portal
+      isCorrect: false 
+      explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
+    - content: Microsoft Dataverse
+      isCorrect: false 
+      explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
+  - content: A Dataverse environment is needed to deploy Microsoft Vaccination Management?
+    choices: 
+    - content: "True"
+      isCorrect: true 
+      explanation: Your environment needs to include Dataverse as you will need to create a database within that environment.
+    - content: "False"
+      isCorrect: false 
+      explanation: Your environment needs to include Dataverse as you will need to create a database within that environment.
+    

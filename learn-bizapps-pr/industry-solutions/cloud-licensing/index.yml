@@ -1,0 +1,35 @@
+### YamlMime:Module 
+uid: learn-bizapps.cloud-licensing 
+metadata: 
+ title: Microsoft Cloud Solution Center and licensing
+ description: The Microsoft Cloud Solution Center provides a central place to deploy and configure solutions. In this module, you'll learn about the Microsoft Cloud Solution Center and licensing scenarios for Microsoft Vaccination Management (MVM).
+ ms.date: 06/14/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-healthcare-vaccination
+title: Microsoft Cloud Solution Center and licensing
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  The Microsoft Cloud Solution Center provides a central place to deploy and configure solutions. In this module, you'll learn about the Microsoft Cloud Solution Center and licensing scenarios for Microsoft Vaccination Management (MVM).
+abstract: |  
+    In this module, you will: 
+    - Learn about the Microsoft Cloud Solution Center.
+    - Learn about licensing scenarios for Microsoft Vaccination Management (MVM).
+prerequisites: Prerequisites are covered in the module.
+iconUrl: /learn/achievements/cloud-licensing.svg  
+levels:  
+- beginner   
+roles:  
+- administrator   
+products: 
+- industry-solutions 
+- mscloud-healthcare 
+units: 
+- learn-bizapps.cloud-licensing.1-introduction 
+- learn-bizapps.cloud-licensing.2-licensing 
+- learn-bizapps.cloud-licensing.3-prerequisites-deployment 
+- learn-bizapps.cloud-licensing.4-check 
+- learn-bizapps.cloud-licensing.5-summary 
+badge: 
+  uid: learn-bizapps.cloud-licensing.badge 
