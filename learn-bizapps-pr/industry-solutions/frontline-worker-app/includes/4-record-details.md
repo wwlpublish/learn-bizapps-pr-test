@@ -11,10 +11,12 @@ In this task, you'll record the vaccination details for the appointment you sche
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Select vaccine dose page with buttons for Dose 1 and Dose 2.](../media/4-1-dose.png)](../media/4-1-dose.png#lightbox)
 
-1. Select either **Left Arm** or **Right Arm** as the Site for the shot. Select **Injection, intradermal** as the Route. Complete the vaccination and then select **Yes**.
+1. Select either **Left Arm** or **Right Arm** as the Site for the shot. Select **Injection, intradermal** as the Route.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Scan and administer the vaccine page with Site set to Left arm and Route set to injection, intradermal.](../media/4-2-site-route.png)](../media/4-2-site-route.png#lightbox)
+
+1. Complete the vaccination and then select **Yes**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the dialog box asking Do you want to mark vaccination complete for the selected patient?](../media/4-3-complete.png)](../media/4-3-complete.png#lightbox)
@@ -37,10 +39,12 @@ In this task, you'll record the vaccination details for Mr. Smith and schedule h
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Select vaccine dose page with buttons for Dose 1 and Dose 2 in a browser.](../media/4-5-dose.png)](../media/4-5-dose.png#lightbox)
 
-1. Select either **Left Arm** or **Right Arm** as the site for the shot. Select **Injection, intradermal** as the Route. Complete the vaccination and then select **Yes**.
+1. Select either **Left Arm** or **Right Arm** as the site for the shot. Select **Injection, intradermal** as the Route.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Scan and administer the vaccine page with Site set to Left arm and Route set to injection, intradermal in a browser.](../media/4-6-site-route.png)](../media/4-6-site-route.png#lightbox)
+
+1. Complete the vaccination and then select **Yes**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the dialog box asking Do you want to mark vaccination complete for the selected patient? in a browser.](../media/4-3-complete.png)](../media/4-3-complete.png#lightbox)

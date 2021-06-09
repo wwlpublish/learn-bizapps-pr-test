@@ -117,10 +117,12 @@ In this task, you'll modify the Frontline worker app by adding a field to the fo
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the Choose a field dialog with Favorite Color selected.](../media/5-18-favorite.png)
 
-1. The Favorite Color field will now be added to the bottom of the data card and will overlap the Dose Number field. Select the Dose Number Data card and drag it down lower on the form so that they don't overlap.
+1. The Favorite Color field will now be added to the bottom of the data card and will overlap the Dose Number field.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the dose number data card showing the overlapping fields.](../media/5-19-data-card.png)](../media/5-19-data-card.png#lightbox)
+
+1. Select the Dose Number Data card and drag it down lower on the form so that they don't overlap.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of dose number data card with the overlapping fields issue fixed.](../media/5-20-fixed.png)](../media/5-20-fixed.png#lightbox)
@@ -162,10 +164,12 @@ In this task, you'll test the new scenario by checking in and recording the vacc
 
 1. Go though and check in another resident. Select **Vaccinate now** and select **Dose 1.**
 
-1. You'll now see the Favorite Color field added to the form. **Fill out** the various fields and then select **Complete Vaccination**. Mark the vaccination complete for the selected patient by select **Yes**.
+1. You'll now see the Favorite Color field added to the form. **Fill out** the various fields and then select **Complete Vaccination**.
 
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Dose 1 page with Favorite Color set to blue, other fields filled out, and showing the Complete vaccination button.](../media/5-23-new-field.png)](../media/5-23-new-field.png#lightbox)
+
+1. Mark the vaccination complete for the selected patient by selecting **Yes**.
 
     > [!div class="mx-imgBorder"]
     > ![Screenshot of the dialog box asking whether to mark the vaccination complete for the selected patient.](../media/5-24-complete.png)
