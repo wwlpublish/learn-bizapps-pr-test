@@ -9,12 +9,12 @@ In this exercise, you will assume the persona of a Vaccine Program Administrator
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the environments dropdown list.](../media/environments.png)](../media/environments.png#lightbox)
 
-1.  Navigate to **Apps** and locate **Vaccination site management app** and click on '...' , then **Play**.
+1.  Navigate to **Apps** and locate **Vaccination site management app** and click on '...', then **Play**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the vaccination site management app play feature.](../media/play.png)](../media/play.png#lightbox)
 
-1.  In the app that opens, go to the bottom left corner and set the **Area** to **Reference Data**.
+1.  In the app that opens, go to the bottom-left corner and set the **Area** to **Reference Data**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the area set to refernce data.](../media/reference-data.png)](../media/reference-data.png#lightbox)
@@ -26,7 +26,7 @@ In this exercise, you will assume the persona of a Vaccine Program Administrator
 
 1.  Once the **Phase** record opens up, set the following field values and click on **Save and Close**.
 
-	Booking open : **Yes**
+	Booking open: **Yes**
 	
 	To Send = **5**
 

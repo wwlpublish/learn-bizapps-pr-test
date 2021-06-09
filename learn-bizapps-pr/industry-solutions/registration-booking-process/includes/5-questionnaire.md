@@ -2,7 +2,7 @@ In this exercise, you will be required to create a new question to the eligibili
 
 ## Task 1: Customize existing components and add new components in a solution 
 
-In this task, you will re-use the existing solution that you created in Lab1 and add a few components that will be customized to reflect the new question on the portal
+In this task, you will reuse the existing solution that you created in Lab 1 and add a few components that will be customized to reflect the new question on the portal
 
 1.  Navigate to the solution you created in Lab1 called **MVM in a Day** and click on **+Add Existing** and select **Table**.
 
@@ -70,12 +70,12 @@ In this task, you will re-use the existing solution that you created in Lab1 and
 1.  In the navigation pane, click on **Resources** dropdown and then **Portals**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the resources dropdown menu with portals.](../media/manage.png)](../media/manage.png#lightbox)
+	> [![Screenshot of the resources dropdown menu with portals.](../media/portals.png)](../media/portals.png#lightbox)
 
 1.  In the Search box, search for \<Your allocated environment Name\> and you can find the **Registration Portal** show up as a search result. Click on **...** and then **Manage**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of registration portal result with manage selected.](../media/image.png)](../media/image.png#lightbox)
+	> [![Screenshot of registration portal result with manage selected.](../media/manage.png)](../media/manage.png#lightbox)
 
 1.  This should launch the Portal Admin Center in a new tab. In the Admin Center, click on **Portal Actions** and then **Restart Portal**.
 

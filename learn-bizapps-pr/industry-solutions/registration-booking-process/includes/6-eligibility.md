@@ -1,10 +1,10 @@
-In this exercise, you will mimic onboarding the MVM solution for a new locale/geo that has different COVID vaccination eligibility rules. In that case, you would be required to override most of the existing portal behaviour and replace it with new rules. You would also be required to edit the overall eligibility workflow that evaluates if a person is eligible according to the configured rules so that the new set of rules are honoured during eligibility computation.
+In this exercise, you will mimic onboarding the MVM solution for a new locale/geo that has different COVID vaccination eligibility rules. In that case, you would be required to override most of the existing portal behavior and replace it with new rules. You would also be required to edit the overall eligibility workflow that evaluates if a person is eligible according to the configured rules so that the new set of rules is honored during eligibility computation.
 
 ## Task 1: Customize existing components and add new components in a solution 
 
-In this task, you will re-use the existing solution that you created in Lab1 and add a few components that will be customized to reflect the new question on the portal
+In this task, you will re-use the existing solution that you created in Lab 1 and add a few components that will be customized to reflect the new question on the portal
 
-1.  Navigate to the solution you created in Lab1 called **MVM in a Day** and search for **Covid Vaccination Eligibility** table and click on it.
+1.  Navigate to the solution you created in Lab 1 called **MVM in a Day** and search for **Covid Vaccination Eligibility** table and click on it.
 
 1.  Once the table opens, click on **Add column** and set the following details:
 
@@ -114,66 +114,66 @@ In this task, you will edit the portal settings to reflect a new page with your 
 
 1.  Set following values in the Web Form Step and click **on Save**.
 
-    Name : **New Questions**
+    Name: **New Questions**
 
-    Web Form : **Vaccination Management - Eligibility**
+    Web Form: **Vaccination Management - Eligibility**
 
-    Type : **Load Form**
+    Type: **Load Form**
 
-    Target Entity Logical Name : **COVID Vaccination Eligibility**
+    Target Entity Logical Name: **COVID Vaccination Eligibility**
 
-    Next Step : **Work History**
+    Next Step: **Work History**
 
-    Move Previous Permitted : **Yes**
+    Move Previous Permitted: **Yes**
 
-    Enable Entity Permissions : **Yes**
+    Enable Entity Permissions: **Yes**
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the values in the web form step.](../media/image.png)](../media/image.png#lightbox)
+	> [![Screenshot of the values in the web form step.](../media/web-form-values.png)](../media/web-form-values.png#lightbox)
 
 1. Now navigate to **Form Definition** tab on the form and set the following values and then click on **Save and Close**.
 
-    Form Name : **Vaccination Management - Portal Web Form**
+    Form Name: **Vaccination Management - Portal Web Form**
 
-    Tab Name : **New Questions**
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the form name and tab name.](../media/web-form-values.png)](../media/web-form-values.png#lightbox)
-
-1. You will land on the **Welcome** web form step again. Now set the Next step to the web form that you just created - **New Questions**.
+    Tab Name: **New Questions**
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the next step set to new questions.](../media/form-definition-values.png)](../media/form-definition-values.png#lightbox)
+	> [![Screenshot of the form name and tab name.](../media/form-definition-values.png)](../media/form-definition-values.png#lightbox)
+
+1. You will land on the **Welcome** web form step again. Now set the Next step to the web form that you created - **New Questions**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the next step set to new questions.](../media/set-new-questions.png)](../media/set-new-questions.png#lightbox)
 
 1. Once done, **Save** the form and close.
 
 ## Task 3: Edit workflow to change eligibility logic
 
-In this task you will edit the current eligibility logic to take into account the responses to your new questions and compute eligibility accordingly.
+In this task, you will edit the current eligibility logic to take into account the responses to your new questions and compute eligibility accordingly.
 
 1.  Navigate back to your **MVM in a Day** solution and click on **+Add existing** and select **Process**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the add existing menu with process selected.](../media/set-new-questions.png)](../media/set-new-questions.png#lightbox)
+	> [![Screenshot of the add existing menu with process selected.](../media/add-process.png)](../media/add-process.png#lightbox)
 
 1.  Search for 'Eligibility Phase'. Select the process named **Vaccination - Eligibility Phase Determination** and click on **Add**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the search for eligibility phase with vaccination eligibility phase determination selected.](../media/add-process.png)](../media/add-process.png#lightbox)
+	> [![Screenshot of the search for eligibility phase with vaccination eligibility phase determination selected.](../media/add-eligibility-phase.png)](../media/add-eligibility-phase.png#lightbox)
 
 1.  Once added, click on the process **Vaccination - Eligibility Phase Determination.** This will launch the process designer in a new tab.
 
 1.  Click on **Deactivate** button in the top ribbon. In the dialog that opens, click on **Deactivate**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the deactivate button.](../media/add-eligibility-phase.png)](../media/add-eligibility-phase.png#lightbox)
+	> [![Screenshot of the deactivate button.](../media/deactivate.png)](../media/deactivate.png#lightbox)
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the deactivate confirmation window.](../media/deactivate.png)](../media/deactivate.png#lightbox)
+	> [![Screenshot of the deactivate confirmation window.](../media/deactivate-confirmation.png)](../media/deactivate-confirmation.png#lightbox)
 
     Now the process designer will open up with the editable version of the Process.
 
-1.  In the process designer, click on **Insert** and then select **After Step**. If it is pre-selected, then simply move to the next step.
+1.  In the process designer, click on **Insert** and then select **After Step**. If it is pre-selected, then move to the next step.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the insert menu with after step selected.](../media/insert-after-step.png)](../media/insert-after-step.png#lightbox)
@@ -262,7 +262,7 @@ In this task you will edit the current eligibility logic to take into account th
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the portal actions menu with restart option.](../media/restart-portal-action.png)](../media/restart-portal-action.png#lightbox)
 
-1.  Once the portal restarts, navigate back to your portal page and follow the process of checking eligibility as done in Exercise 1. Follow through till you reach on the Step 2 of Eligibility questionnaire to verify your new question now shows up in the portal.
+1.  Once the portal restarts, navigate back to your portal page and follow the process of checking eligibility as done in Exercise 1. Follow through until you reach on the Step 2 of Eligibility questionnaire to verify your new question now shows up in the portal.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the new questions added to the portal.](../media/verify-question.png)](../media/verify-question.png#lightbox)

@@ -26,7 +26,7 @@ Public users, who are looking to:
 
 -   Register, if phase is open
 
--   Pre-register, if phase not yet open
+-   Pre-register, if phase is not yet open
 
 -   Book appointments
 

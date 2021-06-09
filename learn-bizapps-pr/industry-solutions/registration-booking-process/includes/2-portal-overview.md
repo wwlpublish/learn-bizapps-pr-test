@@ -1,4 +1,4 @@
-In this exercise, you will assume the persona of a public user who is looking to register for vaccination via the Vaccine Management Portal. You will learn how to browse to the portal, become familiar with the eligibility questions and understand the registration process.
+In this exercise, you will assume the persona of a public user who is looking to register for vaccination via the Vaccine Management Portal. You will learn how to browse to the portal, become familiar with the eligibility questions, and understand the registration process.
 
 ## Task 1: Navigate to portal and register for vaccination
 
@@ -16,7 +16,7 @@ In this exercise, you will assume the persona of a public user who is looking to
 
 1.  The portal launches in another tab. Click on **Start registration** button to begin the registration process.
 
-	Alternately, you can also enter the Event code in the textbox below and then click on **Start registration** button. For steps to generate an event code, go to Bonus Exercise 1. Note that the overall registration process remains same irrespective of the option you choose.
+	Alternately, you can also enter the Event code in the textbox below and then click on **Start registration** button. For steps to generate an event code, go to Bonus Exercise 1. The overall registration process remains same irrespective of the option you choose.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the start registration button to begin the process.](../media/start-registration.png)](../media/start-registration.png#lightbox)
@@ -35,7 +35,7 @@ In this exercise, you will assume the persona of a public user who is looking to
 
 	Have you received the first dose of the COVID-19 vaccine? : **Yes**
 
-	Did we administer that dose **: Any option No/Yes**
+	Did we administer that dose: **Any option No/Yes**
 
 	What was the date of your first dose? : **<Any date in past\>**
 
@@ -115,7 +115,7 @@ In this exercise, you will assume the persona of a public user who is looking to
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the successful registration message.](../media/success-message.png)](../media/success-message.png#lightbox)
 
-1. **Repeat** **Steps** **10 - 13** to create additional registrations for **two** more residents:
+1. **Repeat** **Steps** **10 - 13** to create more registrations for **two** more residents:
 
     **Resident Two**:
 

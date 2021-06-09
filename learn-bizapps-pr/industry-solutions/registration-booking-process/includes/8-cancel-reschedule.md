@@ -30,7 +30,7 @@ In this exercise, you will assume the persona of a public user who has registere
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the confirmation window for the date of birth.](../media/confirm-birthdate.png)](../media/confirm-birthdate.png#lightbox)
 
-1.  Your appointment will be cancelled with a confirmation message. Click on **Schedule a new appointment**.
+1.  Your appointment will be canceled with a confirmation message. Click on **Schedule a new appointment**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the schedule new appointment button.](../media/schedule-new.png)](../media/schedule-new.png#lightbox)

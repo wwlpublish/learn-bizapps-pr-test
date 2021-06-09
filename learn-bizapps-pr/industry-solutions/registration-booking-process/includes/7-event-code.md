@@ -11,7 +11,7 @@ In this task, you will assume the persona of a system user and login to the Data
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Environments dropdown list.](../media/environments.png)](../media/environments.png#lightbox)
 
-1.  Navigate to **Apps** and locate **Vaccination site management app** and click on '...' , then **Play**.
+1.  Navigate to **Apps** and locate **Vaccination site management app** and click on '...', then **Play**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the vaccination site management app play feature.](../media/play.png)](../media/play.png#lightbox)
