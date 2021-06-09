@@ -10,7 +10,7 @@ After this lesson you will be able to do the following:
 
 -   Discover how to configure the Vaccination Management Portal for new questions and scenarios.
 
-## Before you Begin
+## Before you begin
 
 1.  You must be connected to the internet.
 
