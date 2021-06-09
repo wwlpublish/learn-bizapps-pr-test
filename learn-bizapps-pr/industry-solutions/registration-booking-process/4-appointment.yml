@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.registration-booking-process.4-appointment 
+title: Book a vaccination appointment
+metadata: 
+  title: Book a vaccination appointment 
+  description: Learn how to book a vaccination appointment. 
+  ms.date: 06/15/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-healthcare-vaccination 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-appointment.md)] 
