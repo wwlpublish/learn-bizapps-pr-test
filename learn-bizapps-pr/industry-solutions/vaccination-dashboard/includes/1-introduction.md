@@ -16,7 +16,7 @@ Before you begin the exercises in this module, make sure that you complete these
 
 1.  Make sure that you are connected to the internet.
 
-2.  Open an internet browser in **In-Private** or **Incognito** mode.
+2.  Open an internet browser in **InPrivate** or **Incognito** mode.
 
 3.  Go to [Power Apps](https://make.powerapps.com/?azure-portal=true) and sign in with your user credentials.
 
