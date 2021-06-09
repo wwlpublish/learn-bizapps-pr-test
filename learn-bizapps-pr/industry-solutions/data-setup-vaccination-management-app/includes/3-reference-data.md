@@ -102,7 +102,7 @@ In this task, we will use the Import data feature in Power Apps to quickly impor
 1.  Navigate back to County on the left-hand site map and your will now see the new Counties that have been created.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot list of all active counties.](../media/counties-list.png)](../media/counties-list.png#lightbox)
+	> [![Screenshot list of all active counties.](../media/counties-list.png)](../media/counties-list-large.png#lightbox)
 
 **Congratulations!** You used the Import data feature in Power Apps to quickly import new County records into the Vaccination Site Management app for the state of California.
 
