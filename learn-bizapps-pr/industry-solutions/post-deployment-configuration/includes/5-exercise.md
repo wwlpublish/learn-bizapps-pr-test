@@ -174,11 +174,11 @@ After one to three minutes, **Email Registration Confirmation (Lastname: A-M)** 
 
 1. If you haven't received the registration email by five minutes after submission, then:
 
-    - Check for the e-mail in your Junk folder.
+    1. Check for the e-mail in your Junk folder.
 
-    - If you can't find the registration email in your junk folder, then verify whether the steps in Exercise 1, Task 1, Steps 4 and 5 were followed and then redo this task.
+    1. If you can't find the registration email in your junk folder, then verify whether the steps in Exercise 1, Task 1, Steps 4 and 5 were followed and then redo this task.
 
-    - If you can't find the registration email even after following the above steps, then open the latest executions in **Email Registration Confirmation (Lastname: A-M)** and **Send Email(Registration)** flow history to debug it further.
+    1. If you can't find the registration email even after following the above steps, then open the latest executions in **Email Registration Confirmation (Lastname: A-M)** and **Send Email(Registration)** flow history to debug it further.
 
 1. You can also verify the **28-day run history** for the execution status and detailed run history in the **Email Registration Confirmation (Lastname: A-M)** and **Send Email(Registration)** flows.
 
