@@ -1,0 +1,51 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.frontline-worker-app.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 06/15/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-healthcare-vaccination 
+durationInMinutes: 6
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What can a frontline worker scan to check in a resident?
+    choices: 
+    - content: Driver’s license
+      isCorrect: false 
+      explanation: The scanner uses a QR code to check in residents.
+    - content: QR Code
+      isCorrect: true 
+      explanation: The scanner uses a QR code to check in residents.
+    - content: Signature
+      isCorrect: false 
+      explanation: The scanner uses a QR code to check in residents.
+    - content: There's nothing to scan
+      isCorrect: false 
+      explanation: The scanner uses a QR code to check in residents.
+  - content: The Frontline worker app is a _____________.
+    choices: 
+    - content: Power Apps model-driven app
+      isCorrect: false 
+      explanation: The Frontline worker app is a Power Apps canvas app.
+    - content: Power BI report
+      isCorrect: false 
+      explanation: The Frontline worker app is a Power Apps canvas app.
+    - content: Power Apps canvas app
+      isCorrect: true 
+      explanation: The Frontline worker app is a Power Apps canvas app.
+    - content: Power Automate Flow
+      isCorrect: false 
+      explanation: The Frontline worker app is a Power Apps canvas app.
+  - content: Can the Frontline Worker app be launched from both a mobile device and a desktop device?
+    choices: 
+    - content: Yes, it can.
+      isCorrect: true 
+      explanation: The Frontline worker app can be launched from a mobile device or from any browser.
+    - content: No, it can only be launched from a mobile device.
+      isCorrect: false 
+      explanation: The Frontline worker app can be launched from a mobile device or from any browser.
