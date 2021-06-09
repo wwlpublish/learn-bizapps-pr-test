@@ -131,7 +131,7 @@ In this exercise, you will assume the persona of a public user who is looking to
 
     1. **Date of Birth**: March 01, 1967
 
-    1. **Street Address**: 456 23^rd^ Street
+    1. **Street Address**: 456 23rd Street
 
     1. **City**: Redmond
 
@@ -159,7 +159,7 @@ In this exercise, you will assume the persona of a public user who is looking to
 
     1. **Date of Birth**: April 01, 1978
 
-    1. **Street Address**: 789 23^rd^ Street
+    1. **Street Address**: 789 23rd Street
 
     1. **City**: Redmond
 
