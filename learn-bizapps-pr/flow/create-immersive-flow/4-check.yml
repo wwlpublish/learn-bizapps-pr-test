@@ -4,9 +4,9 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 06/09/2021 
- author: DaveBeasley
- ms.author: dbeasley
+ ms.date: 03/18/2020 
+ author: KevSch 
+ ms.author: kschimke 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
 durationInMinutes: 8 
@@ -31,16 +31,16 @@ quiz:
     choices: 
     - content: Any source that is accessible through a connector
       isCorrect: false
-      explanation: Immersive business process flows store all data that is collected from the flow in Microsoft Dataverse tables. 
+      explanation: Immersive business process flows store all data that is collected from the flow in Microsoft Dataverse entities.
     - content: In SQL Server in the cloud or on-prem
       isCorrect: false 
-      explanation: Immersive business process flows store all data that is collected from the flow in Microsoft Dataverse tables. 
-    - content: Dataverse tables
+      explanation: Immersive business process flows store all data that is collected from the flow in Dataverse entities.
+    - content: Dataverse entities
       isCorrect: true
-      explanation: Immersive business process flows store all data that is collected from the flow in Microsoft Dataverse tables. 
+      explanation: Immersive business process flows store all data that is collected from the flow in Dataverse entities.
     - content: SharePoint
       isCorrect: false 
-      explanation: Immersive business process flows store all data that is collected from the flow in Microsoft Dataverse tables. 
+      explanation: Immersive business process flows store all data that is collected from the flow in Dataverse entities.
   - content: Which item is a key benefit of an immersive business process flow?
     choices: 
     - content: Ease of development and deployment
