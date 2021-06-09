@@ -1,34 +1,35 @@
-This is the **fifth and final** exercise in a series covering Microsoft Vaccination Management (MVM). These exercises follow a sequence of presentations covering an overview of Microsoft Vaccination Management, Cloud Solution Center installation, and the accompanying data model.
+This is the fifth and final exercise in a series that covers Microsoft Vaccination Management. These exercises follow a sequence of presentations that provide an overview of Microsoft Vaccination Management, Microsoft Cloud Solution Center installation, and the accompanying data model.
 
-After this module you will be able to do the following:
+In this module, you will:
 
-1.  Configure the Microsoft Vaccination Management Dashboard.
+- Configure the Microsoft Vaccination Management Dashboard.
 
-2.  Share the Microsoft Vaccination Management Dashboard Power BI data model and report.
+- Share the Microsoft Vaccination Management Dashboard data model and report in Microsoft Power BI.
 
-3.  Navigate the various pages within the Power BI MVM Dashboard
+- Navigate the various pages within the Microsoft Vaccination Management Dashboard in Power BI.
 
-4.  Learn how to embed the report in Power Apps to use directly in the vaccination management model-driven application.
+- Learn how to embed the report in Microsoft Power Apps to use directly in the vaccination management model-driven application.
 
-**Before you Begin**
 
-1.  You must be connected to the internet.
+## Before you begin
+Before you begin the exercises in this module, make sure that you complete these steps:
 
-2.  Open an internet browser in either In-Private or Incognito mode.
+1.  Make sure that you are connected to the internet.
 
-3.  Navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true) and sign in with your user credentials.
+2.  Open an internet browser in **In-Private** or **Incognito** mode.
 
-**Users and Scenarios**
+3.  Go to [Power Apps](https://make.powerapps.com/?azure-portal=true) and sign in with your user credentials.
 
-This lab covers the following Microsoft Vaccination Management user experiences and scenarios.
 
-Healthcare Program Leaders:
+## Users and scenarios
 
--   Navigate the Vaccination Management Dashboard
+This module focuses on the following Microsoft Vaccination Management user experiences and scenarios:
 
-System Customizers:
+- **Healthcare program leaders** - Navigate the Vaccination management dashboard.
 
--   Set up MVM Command Center as an App in Power BI Online
+- **System customizers**
 
--   Embed the Command Center report in Power Apps
+  - Set up **MVM-Command Center** as an app in Power BI online.
+
+  - Embed the Command Center report in Power Apps.
 
