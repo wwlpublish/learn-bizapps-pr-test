@@ -14,10 +14,10 @@ summary: |
   Learn how to configure the Microsoft Vaccination Management Dashboard.
 abstract: |  
     In this module, you will: 
-    - Configure the vaccination dashboard
-    - Share the vaccination dashboard
-    - Embed a dashboard into Power Apps
-prerequisites: You will need to configure you environment and have completed the other exercises as described in the other modules of this Learning Path.
+    - Configure the vaccination dashboard.
+    - Share the vaccination dashboard.
+    - Embed a dashboard into Microsoft Power Apps.
+prerequisites: You will need to configure your environment and should have completed the exercises in the other modules of this learning path.
 iconUrl: /learn/achievements/vaccination-dashboard.svg  
 levels:  
 - beginner   
