@@ -13,7 +13,7 @@ stages for adding questions to a survey. The business process
 flow is shown as a component of a model-driven solution in Power Apps.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Power Automate Flows page with the Business process flows tab selected and highlighted.](../media/1-embedded-business-process-flow-stage-displayed.png)](../media/1-embedded-business-process-flow-stage-displayed.png#lightbox)
+> [![Screenshot of Power Automate Flows page with the Business process flows tab selected and highlighted.](../media/embedded-business-process-flow-stage.png)](../media/embedded-business-process-flow-stage.png#lightbox)
 
 Business process flows are created and managed by using Power Automate, and they are available for out-of-the-box tables and for your own custom tables. Microsoft has many prebuilt business process flows, or you can create your own. Additionally, a table can have none, one, or many business process flows associated with it. Business process flows are customizable to fit many organizational needs.
 
