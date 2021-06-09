@@ -1,4 +1,4 @@
-If your organization uses an Exchange server, Power Automate Desktop enables the automation of it through the Exchange actions. You can use Exchange actions to connect to an Exchange server and retrieve, send, or process emails from it.
+If your organization uses an Exchange server, Power Automate Desktop enables the automation of it through the Exchange actions. You can use the Exchange actions to connect to an Exchange server and retrieve, send, or process emails from it.
 
 ## Connect to an Exchange server
 
