@@ -24,14 +24,21 @@ Keep the following points in mind when you design a business process flow that h
 - Each branch can be no more than five levels deep.
 - Branching rules must be based on the steps in the stage that immediately precedes them.
 - You can combine multiple conditions in a rule by using the `AND` operator or the `OR` operator, but not both.
-- When you define a process flow, you can optionally select an entity relationship. This entity relationship must a one-to-many (1:N) relationship.
+- When you define a process flow, you can optionally select a table relationship. This table relationship must a one-to-many (1:N) relationship.
 - More than one active process can run concurrently on the same data record.
 - When branches are merged, either all the peer branches must be merged to a single stage, or each peer branch must end the process. A peer branch can't merge with other branches and end the process at the same time.
 
 > [!NOTE]
 >
-> - An entity that's used in the process can be revisited multiple times (that is, there can be multiple closed entity loops).
-> - A process can go back to the previous stage, regardless of the entity type. For example, if the active stage is **Deliver Quote** on a quote record, process users can move the active stage back to the **Propose** stage on an opportunity record.
+> - A table that's used in the process can be revisited multiple times (that is, there can be multiple closed table loops).
+> - A process can go back to the previous stage, regardless of the table type. For example, if the active stage is **Deliver Quote** on a quote record, process users can move the active stage back to the **Propose** stage on an opportunity record.
+
+## Prerequisites
+
+* Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
+* An [environment](/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](/power-platform/admin/create-database) and Dynamics 365 Apps enabled. (Applicable only for work or school accounts).
+* Experience with creating a business process flow.
+
 
 ## Dynamics 365 customer engagement example: Car selling process flow that has two branches
 
@@ -41,14 +48,14 @@ First, we'll create a process named **Car Sales Process**.
 
 1. Launch Power Automate and sign in using your organizational account.
 1. In the left pane, select **Flows**.
-1. On the top bar, select **New** **Business process--from blank**.
-1. In the **Create business process flow** pane, fill in the required fields:
+1. On the top bar, select **+ New** and then select **Business process flow**.
+1. In the **Build a business process flow** pane, fill in the required fields:
 
-    - **Display name**: Enter *Car sales process*.
+    - **Flow name**: Enter *Car sales process*.
     - **Name**: A unique name that's based on the display name that you entered. You can change the name when you create the process, but you can't change it after the process has been created.
-    - **Microsoft Dataverse entity**: Select the *Lead* entity.
+    - **Choose a table**: Select the *Lead* table.
 
-        The entity that you select affects the fields that are available for steps that can be added to the first stage of the process flow. If you can't find the Lead entity, make sure that the **Business process flows (fields will be created)** option is set for that entity in the entity definition. You can't change the entity after you save the process.
+        The table that you select affects the fields that are available for steps that can be added to the first stage of the process flow. If you can't find the Lead table, make sure that the **Business process flows (fields will be created)** option is set for that table in the table definition. You can't change the table after you save the process.
 
 1. Select **Create**.
 1. Once the new page spins up in PowerApps, add the first stage to the process, name the stage *Qualify*, and add two data steps to it: *Purchase Time frame* and *Car Preference*.
@@ -83,14 +90,14 @@ This section uses the example of a business process flow that has branches for p
 
 ![Flow chart showing the steps in an example process to prevent information disclosure.](../media/example-car-sales-flow-chart-process-prevent-information-disclosure.png)
 
-In this scenario, the bank loan officer needs access to the Request record, but she shouldn't have any visibility into the investigation of the request. At first glance, it looks as though we can easily meet this requirement by assigning the loan officer a security role that doesn't grant access to the Investigation entity. But let's look at the example in more detail to see whether things will really be that easy.
+In this scenario, the bank loan officer needs access to the Request record, but she shouldn't have any visibility into the investigation of the request. At first glance, it looks as though we can easily meet this requirement by assigning the loan officer a security role that doesn't grant access to the Investigation table. But let's look at the example in more detail to see whether things will really be that easy.
 
 Let's say that a customer submits a loan request for more than $60,000 to the bank. Here is a high-level view of the stages and branches:
 
 - In the first stage, the loan officer reviews the request.
 - A branching rule checks whether the amount that's owed to the bank will exceed $50,000. If this branching rule is satisfied, the next stage in the process is to investigate whether the request is fraudulent.
 - If it's determined that the request is fraudulent, the process moves on to taking legal action against the requestor.
-- The loan officer shouldn't have visibility into the two investigative stages, because she doesn't have access to the Investigation entity.
+- The loan officer shouldn't have visibility into the two investigative stages, because she doesn't have access to the Investigation table.
 - But if the loan officer opens the Request record, she can see the entire end-to-end process. Not only will she be able to see the Fraud Investigation stage, but she'll also be able to identify the outcome of the investigation, because she can see the Legal Action stage in the process.
 - The loan officer can preview the steps in the investigative stages by choosing the stage. Although she won't be able to see the data or the step completion status, she'll be able to identify the potential actions that were taken against the requestor during the Fraud Investigation and Legal Action stages.
 

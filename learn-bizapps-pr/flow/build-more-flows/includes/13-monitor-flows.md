@@ -2,15 +2,12 @@ You can view a summary of the number of times that each flow succeeded or failed
 
 ## Prerequisites
 
-* Install the Power Automate mobile app for [Google Android](https://aka.ms/flowmobiledocsandroid/?azure-portal=true), [Apple iOS](https://aka.ms/flowmobiledocsios/?azure-portal=true), or [Windows Phone](https://aka.ms/flowmobilewindows/?azure-portal=true) on a supported device. The screenshots in this unit were taken on the Apple iPhone version of the app, but the mobile app for Android and Windows Phone are similar.
-* If you don't already have a flow, create one on the [Power Automate website](https://flow.microsoft.com/?azure-portal=true). For easier testing, use a flow that you can trigger yourself instead of waiting for an external event.
-
-The flow in this tutorial runs when you receive email from a specific address.
+* Install the Power Automate mobile app for [Google Android](https://aka.ms/flowmobiledocsandroid/?azure-portal=true) or [Apple iOS](https://aka.ms/flowmobiledocsios/?azure-portal=true) on a supported device. The screenshots in this unit were taken on the Apple iPhone version of the app, but the mobile app for Android and Windows Phone are similar.
+* If you have completed all of the Units in this Learning Path, you will have a number of flow runs available for review. If you don't already have a flow, you will want to create one now on the [Power Automate website](https://flow.microsoft.com/?azure-portal=true) before proceeding with this unit. For easier testing, use a flow that you can trigger yourself instead of waiting for an external event.
 
 > [!TIP]
 > For testing, you can set up the flow with your personal email address. Then, when the flow is ready for real use, you can set it up with a different address (for example, your manager's).
 
-When the flow runs, it sends a custom push notification to your phone.
 
 ## Show a summary of activity
 
@@ -18,9 +15,9 @@ When the flow runs, it sends a custom push notification to your phone.
 
     It might take some time for the data to appear in the app.
 
-1. Start the mobile app.
+1. From your phone, open the Power Automate Mobile app.
 
-    Select the **Activity** tab. This tab organizes data by day, and today's data appears at the top.
+1. At the bottom of the screen, select the **Activity** tab. This tab organizes data by day, and today's data appears at the top.
 
     ![Mobile screenshot of activity organized by day with Today and Yesterday highlighted.](../media/activity-day2.png)
 
@@ -38,14 +35,14 @@ When the flow runs, it sends a custom push notification to your phone.
 
 ## Show details of a run
 
-1. In the activity summary, select an entry to show details for the most recent run.
+1. From the Activity Feed, click the **>** icon next to one of your flows to show details about the flows run.
 
-    For each event and action, a symbol indicates whether the event or action succeeded or failed. If it succeeded, the amount of time that it took (in seconds) also appears.
+    For each event and action, a green **Checkmark** symbol indicates the step was successful and a red **X** symbol indicates that there was an issue with the step. If it succeeded, the amount of time that it took (in seconds) also appears.
 
     ![Mobile screenshot of Activity details. Run details are On new email, Get my profile, Get manager, and Check if it is my manager.](../media/activity-icons.png)
 
-1. Tap **Run history** to list all runs of the flow. Then select a specific run to view its details.
-
-    ![Mobile screenshot with More Options expanded and the See previous runs option highlighted.](../media/more-options.png)
+1. In the upper right hand corner of the screen, click the **...** and then select **See previous runs**. 
 
     ![Screenshot of the Run history showing Flow successful and the date and time for each run under TODAY (17).](../media/history-mixed.png)
+
+Any of the runs in in your flow history can be selected to show run details and or Resubmit the Flow, if one or more had failed.
