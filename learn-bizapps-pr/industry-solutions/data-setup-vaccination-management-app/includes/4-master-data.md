@@ -190,7 +190,7 @@ In this task, you will create vaccination site details and associate vaccinators
 	- **Timezone IANA**: America/Tijuana
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of vaccination site general details.](../media/site-details.png)](../media/site-details.png#lightbox)
+	> [![Screenshot of vaccination site general details.](../media/site-details.png)](../media/site-details-large.png#lightbox)
 
 1. Upon saving the record, the controls in the **Vaccinators** group will be visible. Click on **Add Existing Vaccination Performer** button to associate an existing user to a vaccination site.
 
