@@ -49,10 +49,10 @@ In this task, you will verify what changed on your **COVID Vaccination Eligibili
 
 1.  Navigate to the same **COVID Vaccination Eligibility** record that you viewed in previous exercise.
 
-Note the Immunization Recommendation record updated there now. If it does not appear immediately, give it a few minutes before you click refresh and it should show up on your record.
+The Immunization Recommendation record updated there now. If it does not appear immediately, give it a few minutes before you click refresh and it should show up on your record.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the covid vaccination eligibility record and the immunization recommendation record.](../media/immunization-record.png)](../media/immunization-record.png#lightbox)
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the covid vaccination eligibility record and the immunization recommendation record.](../media/immunization-record.png)](../media/immunization-record.png#lightbox)
 
 **Congratulations!** You have now opened up a phase to allow bookings for registered residents and also sent invites to them for booking process. Once you receive the mail notification to schedule the vaccine, you can move on to book your appointment for the vaccination in the next exercise.
 

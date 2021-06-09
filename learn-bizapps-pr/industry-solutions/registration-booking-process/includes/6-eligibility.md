@@ -188,7 +188,7 @@ In this task, you will edit the current eligibility logic to take into account t
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the add step menu with conditional branch selected.](../media/conditional-branch.png)](../media/conditional-branch.png#lightbox)
 
-1.  The step appears in the workflow as shown below. Click on **\<condition\>(click to configure)**.
+1.  The step appears in the workflow as shown below. Click on **condition (click to configure)**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the covid vaccination eligibility step in the workflow.](../media/configure-condition.png)](../media/configure-condition.png#lightbox)

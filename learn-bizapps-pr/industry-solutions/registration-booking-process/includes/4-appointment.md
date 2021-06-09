@@ -17,7 +17,7 @@ In this exercise, you will assume the persona of a public user who has registere
 
 1.  If you registered using an Event code in Exercise 1, then you should see the pre-selected vaccination site show up automatically. Click **Select** to continue with the booking process.
 
-If you did not use an Event Code during registration, skip this step and go to next step to search for vaccination sites.
+	If you did not use an Event Code during registration, skip this step and go to next step to search for vaccination sites.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of search for an appointment location window.](../media/location.png)](../media/location.png#lightbox)

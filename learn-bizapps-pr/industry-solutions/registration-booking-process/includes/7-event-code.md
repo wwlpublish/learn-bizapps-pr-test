@@ -30,23 +30,23 @@ In this task, you will assume the persona of a system user and login to the Data
 
     **Name :** Walk-in Schedule
 
-    **Location :** \<Select any Location created in previous labs\>
+    **Location :** Select any Location created in previous labs
 
     **Private :** Yes
 
     **Dose :** Dose Any
 
-    **Vaccine :** \<Select any Vaccine created in previous labs\>
+    **Vaccine :** Select any Vaccine created in previous labs
 
-    **Start Date :** \<Select today's date\>
+    **Start Date :** Select today's date
 
-    **End Date :** \<Select today's date + 2\>
+    **End Date :** Select today's date + 2
 
     **Start Time :** 06:00
 
     **End Time :** 21:00
 
-    **Days of the Week :** \<Select **Yes** for all days of week Sunday through Saturday\>
+    **Days of the Week :** Select **Yes** for all days of week Sunday through Saturday
 
     **Slot Interval :** 15 minutes
 
@@ -66,9 +66,9 @@ In this task, you will assume the persona of a system user and login to the Data
 
     **Name:** SampleEventCode
 
-    **Expiration Date:** \<Set any date in future\>
+    **Expiration Date:** Set any date in future
 
-    **Schedule :** \<Select the schedule record created in above task \>
+    **Schedule :** Select the schedule record created in above task 
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of a new vaccination event code record.](../media/event-code-record.png)](../media/event-code-record.png#lightbox)

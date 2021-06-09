@@ -37,9 +37,9 @@ In this exercise, you will assume the persona of a public user who is looking to
 
 	Did we administer that dose: **Any option No/Yes**
 
-	What was the date of your first dose? : **<Any date in past\>**
+	What was the date of your first dose? : **Any date in past**
 
-	What was the vaccine type? : **<Choose any from list\>**
+	What was the vaccine type? : **Choose any from list**
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of vaccine history with additional questions if first dose has been received.](../media/vaccine-history-2.png)](../media/vaccine-history-2.png#lightbox)
@@ -94,11 +94,11 @@ In this exercise, you will assume the persona of a public user who is looking to
 
 	1.  **Email Address**: Your valid email address (This is important and needs to be a valid email.)
 		
-	1. **Confirm Email Address** : <Same as above email address\>
+	1. **Confirm Email Address** : Same as above email address
 		
-	1. **Primary Phone**: <can be left blank\>
+	1. **Primary Phone**: can be left blank
 		
-	1. **Special Assistance** : <can be left blank\>
+	1. **Special Assistance** : can be left blank
 
 1. Click **Next**
 
