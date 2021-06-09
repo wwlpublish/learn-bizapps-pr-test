@@ -23,7 +23,7 @@ Management believes that improved data collection and standardized processes wil
 1.  Select the **+ New** button on the upper-left corner of the screen.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of creating new business process flow using the + New button.](../media/5-new-business-process-flow-button.png)](../media/5-new-business-process-flow-button.png#lightbox)
+	> [![Screenshot of creating new business process flow using the + New button.](../media/5-new-flow-button.png)](../media/5-new-flow-button.png#lightbox)
 
 1.  Enter **Customer Check In** as the **Flow name**, select **None (Immersive Business Process)** under the table drop-down list, and then select the **Create** button, as shown in the following screenshot. Wait a minute for the table to be created, and then the **Business process flow** editor will launch.
 
