@@ -22,7 +22,7 @@ An example of a string function is the **formatNumber** function. This function 
 formatNumber(12.5,'C')
 ```
 
-The C represents the Currency numeric format string. Don't worry, a list of the other options are available at [Standard numeric format strings](https://docs.microsoft.com/dotnet/standard/base-types/standard-numeric-format-strings/?azure-portal=true). You might be asking what if you wanted to show the number as currency but with the Yen symbol? There's an optional parameter where you can pass the locale.
+The C represents the Currency numeric format string. Don't worry, a list of the other options are available at [Standard numeric format strings](/dotnet/standard/base-types/standard-numeric-format-strings/?azure-portal=true). You might be asking what if you wanted to show the number as currency but with the Yen symbol? There's an optional parameter where you can pass the locale.
 
 ```regex
 formatNumber(12.5,'C','ja-JP')
@@ -125,7 +125,7 @@ One important thing to remember as you explore date and time functions in Power 
 convertFromUtc(utcNow(), 'Eastern Standard Time', 'dd-MM-yyyy hh:mm tt' )
 ```
 
-This will output 06-07-2021 05:39 PM. For a complete list of the date time format options, see [Custom date and time format strings](https://docs.microsoft.com/dotnet/standard/base-types/custom-date-and-time-format-strings/?azure-portal=true).
+This will output 06-07-2021 05:39 PM. For a complete list of the date time format options, see [Custom date and time format strings](/dotnet/standard/base-types/custom-date-and-time-format-strings/?azure-portal=true).
 
 ## Referencing functions
 
