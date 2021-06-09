@@ -1,5 +1,12 @@
 In this section, you will discover how to install your AI Builder flows to fulfill your business scenarios.
 
+## Prerequisites
+
+- Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
+- A license or trial of the [AI Builder](/ai-builder/administer-licensing).
+- An [environment](/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](/power-platform/admin/create-database). (Applicable only for work or school accounts).
+- A basic understanding of Power Automate as well as experience with creating a flow is recommended.
+
 ## AI Builder flow templates
 
 [Power Automate templates](https://us.flow.microsoft.com/templates/?azure-portal=true) contain preconfigured logic that eases creation of flows for specific business purposes.
@@ -8,17 +15,17 @@ To create a flow from an AI Builder template, follow these steps:
 
 1. Select the **My templates** tab in the left menu. The list of available templates will appear.
 
-2. Enter **AI Builder** in the search bar and then press the **Enter** key. All AI Builder templates will be displayed, as shown in the following figure.
+1. Enter **AI Builder** in the search bar and then press the **Enter** key. All AI Builder templates will be displayed, as shown in the following figure.
 
     ![A screenshot of a search for A I Builder showing all flow templates.](../media/04-templates.png)
 
-3. Select the **Send a notification with the sentiment of manager's email using AI Builder** template. You will see a summary of the template with a list of the connections that will be used.
+1. Select the **Send a notification with the sentiment of manager's email using AI Builder** template. You will see a summary of the template with a list of the connections that will be used.
 
     ![Send a notification with the sentiment of manager's email using A I Builder.](../media/04-notification.png)
 
-    Select **Continue**.
+1. At the bottom, select **Continue**.
 
-4. A preconfigured flow appears (at this stage, the flow is not yet saved).
+1. A preconfigured flow appears (at this stage, the flow is not yet saved).
 
     ![Preconfigured flow template with If yes and If no conditions.](../media/04-preconfigured-flow.png)
 
@@ -28,7 +35,7 @@ To create a flow from an AI Builder template, follow these steps:
     - Add new actions
     - Remove existing actions (this step will likely break the actions downstream)
 
-5. Save the flow and then test it.
+1. Once you are done, click **Save** and then you can test the flow.
 
 ## Create a flow from AI Builder studio
 
