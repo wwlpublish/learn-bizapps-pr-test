@@ -243,7 +243,7 @@ In this task, you will learn to create new schedules and automatically create sl
 	> Be sure to check off at least one day prior to saving the record for the first time, otherwise no slots will be created.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of vaccine event record general details.](../media/event-record.png)](../media/event-record.png#lightbox)
+	> [![Screenshot of vaccine event record general details.](../media/event-record.png)](../media/event-record-large.png#lightbox)
 
 1. Click **Save & Close.** The Schedule Builder will then process and create the slots for the Schedule record.
 
@@ -311,7 +311,7 @@ In this task, we will open a Vaccine Phase for Registration & Booking.
 1.  Change the '**Booking open'** field from No to **Yes**. This will lock the field once changed so that it cannot be changed back. All future Vaccine Eligibility records will now be tracked against this phase. Click **Save & Close** to close the record.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of a phase 2 record with booking open field set to yes.](../media/booking-open.png)](../media/booking-open.png#lightbox)
+	> [![Screenshot of a phase 2 record with booking open field set to yes.](../media/booking-open.png)](../media/booking-open-large.png#lightbox)
 
 **Congratulations!** You have open up a Vaccine Phase for registration and booking in the Vaccination Site Management app.
 
