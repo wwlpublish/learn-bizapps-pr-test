@@ -12,7 +12,7 @@ After this set of exercises, you can do the following:
 
 ## Before you begin
 
-1. You must be connected to the internet.
+1. Connect to the internet.
 
 1. Open an internet browser in either **In-Private** or **Incognito** mode.
 

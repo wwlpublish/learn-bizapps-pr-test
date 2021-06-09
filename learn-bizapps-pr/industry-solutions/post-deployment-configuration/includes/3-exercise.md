@@ -124,8 +124,8 @@ In this task, you'll learn how to update the portal binding after the solution d
 
     1. Open the app by selecting the app name or selecting Browse.
 
-    > [!div class="mx-imgBorder"]
-    > [![Screenshot of the Apps list with Browse highlighted.](../media/3-7-browse.png)](../media/3-7-browse.png#lightbox)
+        > [!div class="mx-imgBorder"]
+        > [![Screenshot of the Apps list with Browse highlighted.](../media/3-7-browse.png)](../media/3-7-browse.png#lightbox)
 
 1. If you see the following error, the portal is still restarting.
 
