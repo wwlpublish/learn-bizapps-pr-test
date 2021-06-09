@@ -17,7 +17,7 @@ In this task, you'll record the vaccination details for the appointment you sche
     > [![Screenshot of the Scan and administer the vaccine page with Site set to Left arm and Route set to injection, intradermal.](../media/4-2-site-route.png)](../media/4-2-site-route.png#lightbox)
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the dialog box asking Do you want to mark vaccination complete for the selected patient?](../media/4-3-complete.png)](../media/4-3-complete.png#lightbox)
+    > ![Screenshot of the dialog box asking Do you want to mark vaccination complete for the selected patient?](../media/4-3-complete.png)
 
 1. View the completion screen and notice that an email confirmation has been sent to the resident.
 
@@ -48,6 +48,6 @@ In this task, you'll record the vaccination details for Mr. Smith and schedule h
 1. View the completion screen and notice that an email confirmation has been sent to the resident.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the vaccination complete page in a browser.](../media/4-7-complete.png)](../media/4-7-complete.png#lightbox)
+    > ![Screenshot of the vaccination complete page in a browser.](../media/4-7-complete.png)
 
 **Congratulations!** You completed a vaccination using the Frontline worker app using a web browser.
