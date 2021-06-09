@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.data-setup-vaccination-management-app.2-connect-data 
+title: Connect data to Dataverse
+metadata: 
+  title: Connect data to Dataverse 
+  description: Learn about connecting data to Dataverse. 
+  ms.date: 06/15/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-healthcare-vaccination 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-connect-data.md)] 

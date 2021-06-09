@@ -1,0 +1,37 @@
+### YamlMime:Module 
+uid: learn-bizapps.data-setup-vaccination-management-app 
+metadata: 
+ title: Data set up with the Vaccination Management app
+ description: This exercise covers the Microsoft Vaccination Management user experience and scenarios encountered by program administrators.
+ ms.date: 06/15/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-healthcare-vaccination  
+title: Data set up with the Vaccination Management app 
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  In this exercise you will learn how to add and manage your data in Microsoft Vaccination Management by using the Vaccination Management App.  The Vaccination management app is used by vaccination program administrators to set up and manage eligibility phases, vaccines, doses, and schedules. Vaccination program administrators can also see who has registered, review vaccine inventory, view basic reports on appointments, and see the outcomes of vaccinations. 
+abstract: |  
+    In this module, you will learn to: 
+    - Load and connect data with Power Query
+    - Set up site management reference data
+    - Set up master data
+prerequisites: Before beginning this exercise, confirm that you have provisioned an environment with the necessary components installed.
+iconUrl: /learn/achievements/data-setup-vaccination-management-app.svg  
+levels:  
+- beginner   
+roles:  
+- administrator   
+products:  
+- industry-solutions 
+- mscloud-healthcare
+units: 
+- learn-bizapps.data-setup-vaccination-management-app.1-introduction 
+- learn-bizapps.data-setup-vaccination-management-app.2-connect-data 
+- learn-bizapps.data-setup-vaccination-management-app.3-reference-data 
+- learn-bizapps.data-setup-vaccination-management-app.4-master-data 
+- learn-bizapps.data-setup-vaccination-management-app.5-check 
+- learn-bizapps.data-setup-vaccination-management-app.6-summary 
+badge: 
+  uid: learn-bizapps.data-setup-vaccination-management-app.badge 
