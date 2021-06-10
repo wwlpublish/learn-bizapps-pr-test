@@ -91,6 +91,7 @@ Importing the solution is a required installation process that helps ensure that
 
 	> [!IMPORTANT]
 	> Extract the zip file after downloading and before moving on to the next step. The CoE Starter Kit compressed file contains all solution components and non-solution aware components that make up the CoE Starter Kit.
+	> For more information, see [Set up core components](/power-platform/guidance/coe/setup-core-components).
 
 1.  Create an environment in which to set up the CoE.
 
