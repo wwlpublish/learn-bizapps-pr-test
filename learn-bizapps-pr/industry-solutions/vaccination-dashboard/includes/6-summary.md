@@ -1,13 +1,13 @@
-Insert instructional text hereIn this lab, you learned about the Microsoft Vaccination Management (MVM) Command Center Power BI Application and how to set up and explore the vaccination dashboard.
+In this module, you learned how to configure the Microsoft Vaccination Management Dashboard.
 
-You completed the following tasks:
+Additionally, you learned how to:
 
-1.  Installed the Microsoft Vaccination Management from AppSource
+- Install the Microsoft Vaccination Management Dashboard from AppSource.
 
-2.  Configured the Command Center Power BI data model and report in PBI Online.
+- Configure the Command Center Power BI data model and report in Power BI online.
 
-3.  Navigated the various pages within the MVM Command Center report.
+- Navigate the various pages within the MVM Command Center report.
 
-4.  Embedded the Power BI Report in Power Apps to use directly in the vaccination management model-driven application.
+- Embed the Power BI report in Power Apps to use directly in the vaccination management model-driven application.
 
 This is the final lab in this series. Congratulations for completing this learning series on Microsoft Vaccination Management.

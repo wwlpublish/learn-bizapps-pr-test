@@ -13,21 +13,18 @@ durationInMinutes: 3
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Where can you install the Microsoft Vaccination Management Dashboard?
+  - content: Where can you install the Microsoft Vaccination Management Dashboard from?
     choices: 
-    - content: AppSource
+    - content: Microsoft AppSource
       isCorrect: true 
-      explanation: You install Microsoft Vaccination Management dashboard from AppSource.
+      explanation: You can install Microsoft Vaccination Management Dashboard from AppSource.
     - content: Microsoft.com
       isCorrect: false 
-      explanation: You install Microsoft Vaccination Management dashboard from AppSource.
+      explanation: You can install Microsoft Vaccination Management Dashboard from AppSource.
     - content: Powerbi.com
       isCorrect: false 
-      explanation: You install Microsoft Vaccination Management dashboard from AppSource.
-    - content: YourAnswer
-      isCorrect: false 
-      explanation: YourExplanation
-  - content: Which of the following is not a page that is included with the Microsoft Vaccination Management Dashboard?
+      explanation: You can install Microsoft Vaccination Management Dashboard from AppSource.    
+  - content: Which of the following options is not a page that is included with the Microsoft Vaccination Management Dashboard?
     choices: 
     - content: Demographics
       isCorrect: false 
