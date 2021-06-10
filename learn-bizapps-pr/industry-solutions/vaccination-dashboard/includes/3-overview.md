@@ -75,7 +75,7 @@ In this task, you will explore the **Demographics** page, which lets you view th
 You can filter information based on the date range, vaccine manufacturer, and the primary dose number (1 or 2).
 
 > [!div class="mx-imgBorder"]
-> [![Sreenshot of the Demographics page.](../media/28-demographic-page.png)](../media/28-demographic-page.png)
+> [![Screenshot of the Demographics page.](../media/28-demographic-page.png)](../media/28-demographic-page.png)
 
 Explore the data on the **Demographics** page, and then:
 
