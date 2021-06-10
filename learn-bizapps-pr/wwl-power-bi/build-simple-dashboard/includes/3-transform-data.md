@@ -1,10 +1,10 @@
-Data doesn't always come into your report clean, or ready to use. You may need additional columns or to rename or hide existing columns. You may have multiple data sources and need to define a relationship between them. All of these tasks are known as data transformation. While we will go over a couple of tasks here, you can explore this topic further [Model Data in Power BI](https://docs.microsoft.com/learn/modules/model-data-power-bi/).
+Data doesn't always come into your report clean, or ready to use. You may need additional columns or to rename or hide existing columns. You may have multiple data sources and need to define a relationship between them. All of these tasks are known as data transformation. While we will go over a couple of tasks here, you can explore this topic further [Model Data in Power BI](/learn/modules/model-data-power-bi/).
 
 ## Custom Columns
 
 Let's make a custom column using Power Query editor. 
 
-1. Click on the **Edit Queries** button on the Home tab of the editing pane.
+1. Click on the **Transform Data** button on the Home tab of the editing pane.
 
     ![Calculated column with queries](../media/edit-queries-button.png)
 
@@ -26,7 +26,7 @@ Let's make a custom column using Power Query editor.
 You have successfully created a custom column. Although we won't be using this test column for visuals, you will need this skill to transform your data in the future.
 
 > [!NOTE]
-> For more information on calculated columns, including the use of IF statements, see Tutorial: [Create calculated columns in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-calculated-columns?).
+> For more information on calculated columns, including the use of IF statements, see Tutorial: [Create calculated columns in Power BI Desktop](/power-bi/desktop-tutorial-create-calculated-columns).
 
 ## Model Data
 

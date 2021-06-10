@@ -32,22 +32,22 @@ Use these resources to discover more.
 
 ### Learn more about transforming data by visiting the following links:
 
-- [Tutorial: Create calculated columns in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-tutorial-create-calculated-columns?)
+- [Tutorial: Create calculated columns in Power BI Desktop](/power-bi/desktop-tutorial-create-calculated-columns)
 
-- [Sort by column in Power BI Desktop](https://docs.microsoft.com/power-bi/desktop-sort-by-column?)
+- [Sort by column in Power BI Desktop](/power-bi/desktop-sort-by-column)
 
-- [Model Data in Power BI](https://docs.microsoft.com/learn/modules/model-data-power-bi/)
+- [Model Data in Power BI](/learn/modules/model-data-power-bi/)
 
 ### Review all Power BI
 
-- [Power BI Documentation](https://docs.microsoft.com/power-bi/)
+- [Power BI Documentation](/power-bi/)
 
 ### Additional Modules on Power BI
 
-- [Explore what Power BI can do for you](https://docs.microsoft.com/learn/modules/explore-power-bi-service/)
+- [Explore what Power BI can do for you](/learn/modules/explore-power-bi-service/)
 
-- [Use visuals in Power BI](https://docs.microsoft.com/learn/modules/visuals-in-power-bi/)
+- [Use visuals in Power BI](/learn/modules/visuals-in-power-bi/)
 
-- [Get data with Power BI Desktop](https://docs.microsoft.com/learn/modules/get-data-power-bi/)
+- [Get data with Power BI Desktop](/learn/modules/get-data-power-bi/)
 
-- [Get started building with Power BI](https://docs.microsoft.com/learn/modules/get-started-with-power-bi/)
+- [Get started building with Power BI](/learn/modules/get-started-with-power-bi/)
