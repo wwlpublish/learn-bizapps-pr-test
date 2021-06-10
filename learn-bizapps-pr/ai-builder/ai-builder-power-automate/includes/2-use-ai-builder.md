@@ -61,11 +61,13 @@ In this exercise, we'll be using a flow template that connects to a pre-configur
 
 1. Select the **Route emails as per the language detected by AI Builder on new email** flow template.
 
-    ![Select Route emails as per the language detected by AI Builder on new email flow.](../media/route-emails.png)
+    > [!div class="mx-imgBorder"]
+    > [![Select Route emails as per the language detected by AI Builder on new email flow.](../media/route-emails.png)](../media/route-emails.png#lightbox)
 
 1. At the bottom of the screen, under *This flow will connect to:*, ensure all of your connections have been entered correctly and select **Continue**. If any of the connections are missing or incorrect, you can't continue.
 
-    ![Ensure all of your connections have been entered correctly.](../media/verify-connection-credentials.png)
+    > [!div class="mx-imgBorder"]
+    > [![Ensure all of your connections have been entered correctly.](../media/verify-connection-credentials.png)](../media/verify-connection-credentials.png#lightbox)
 
 1. In the first 3 steps of this flow, it's checking a mailbox for new emails, then using the AI **Convert email to plain text by inputting 'Body' dynamic content** action and then using the **AI Builder Language Detection** to determine language.
 
@@ -75,7 +77,8 @@ In this example, we're just using our logged-in user account, but in a real-worl
 
 1. This template has predefined a couple of languages, **EN** and **FR**. You could add more cases for other languages as well by selecting the **+** icon.
 
-    ![This template has predefined a couple of languages.](../media/template-predefined-languages.png)
+    > [!div class="mx-imgBorder"]
+    > [![This template has predefined a couple of languages.](../media/template-predefined-languages.png)](../media/template-predefined-languages.png#lightbox)
 
 1. In the **Send an email to a specific inbox EN** step, select the **To** field and enter an email address. In this example, I'll use our **Helpdesk - North America** mailbox.
 
