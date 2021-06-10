@@ -5,7 +5,7 @@ Microsoft Vaccination Management Dashboard offers a dashboard that is created in
 
 In this exercise, you will learn how to configure the Microsoft Vaccination Management Dashboard from Microsoft AppSource, connect to your data, and then load the Microsoft Vaccination Management Dashboard in a Power BI online workspace to view the report.
 
-## Install Microsoft Vaccination Management Dashboard from Microsoft AppSource
+## Install Microsoft Vaccination Management Dashboard from AppSource
 
 In this task, you will retrieve the Microsoft Vaccination Management Dashboard from AppSource and then configure it in Power BI online, where a new workspace and application will be created automatically.
 
