@@ -5,8 +5,8 @@ metadata:
   title: Intro to Excellence Starter Kit 
   description: Learn about Microsoft Power Platform Center of Excellence (COE) Starter Kit.  
   ms.date: 3/09/2020 
-  author: KevSch 
-  ms.author: kschimke 
+  author: DaveBeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 15 

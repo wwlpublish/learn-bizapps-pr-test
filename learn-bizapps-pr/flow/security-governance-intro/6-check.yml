@@ -5,8 +5,8 @@ metadata:
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
  ms.date: 3/09/2020 
- author: KevSch 
- ms.author: kschimke 
+ author: DaveBeasley 
+ ms.author: dbeasley 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
 durationInMinutes: 6 

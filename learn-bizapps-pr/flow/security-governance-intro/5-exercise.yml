@@ -5,8 +5,8 @@ metadata:
   title: Exercise - Create a Microsoft Power Platform environment 
   description: Practice creating a Power Platform environment.  
   ms.date: 3/09/2020 
-  author: KevSch 
-  ms.author: kschimke 
+  author: DaveBeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 8 
