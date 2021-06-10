@@ -27,31 +27,31 @@ quiz:
     - content: None of the above
       isCorrect: false 
       explanation: Microsoft Vaccination Management solution is built on Microsoft Power Platform.
-  - content: The Vaccination Management App is composed of three main areas.  Reference Data, Management data, and what other type of data?
+  - content: The Vaccination Management app is composed of three main areas. Reference Data and Management are two areas. What is the third area?
     choices: 
     - content: Referential
       isCorrect: false 
-      explanation: Reference Data, Management data, and registration data.
+      explanation: Reference Data, Management, and Registration are the three main areas in the Vaccination Management app.
     - content: Registration
       isCorrect: true 
-      explanation: Reference Data, Management data, and registration data.
+      explanation: Reference Data, Management, and Registration are the three main areas in the Vaccination Management app.
     - content: Contact
       isCorrect: false 
-      explanation: Reference Data, Management data, and registration data.
+      explanation: Reference Data, Management, and Registration are the three main areas in the Vaccination Management app.
     - content: Account
       isCorrect: false 
-      explanation: Reference Data, Management data, and registration data.
-  - content: Any healthcare organization that administers COVID-19 vaccination to residents has to report the information to the state. The states' immunizations systems accept data in what type of format?
+      explanation: Reference Data, Management, and Registration are the three main areas in the Vaccination Management app.
+  - content: Any healthcare organization that administers COVID-19 vaccinations to residents must report the information to the state. The state immunization systems accept data in what type of format?
     choices: 
     - content: Text
       isCorrect: false 
-      explanation: The states’ immunizations systems accept data in HL7 format.
+      explanation: The state immunization systems accept data in HL7 format.
     - content: HL7
       isCorrect: true 
-      explanation: The states’ immunizations systems accept data in HL7 format.
+      explanation: The state immunization systems accept data in HL7 format.
     - content: HK9
       isCorrect: false 
-      explanation: The states’ immunizations systems accept data in HL7 format.
+      explanation: The state immunization systems accept data in HL7 format.
     - content: OData
       isCorrect: false 
-      explanation: The states’ immunizations systems accept data in HL7 format.
+      explanation: The state immunization systems accept data in HL7 format.
