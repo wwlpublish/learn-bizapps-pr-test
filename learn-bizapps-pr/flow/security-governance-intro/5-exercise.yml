@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.security-governance-intro.5-exercise 
-title: Exercise - Create a Power Automate environment
+title: Exercise - Create a Power Platform environment
 metadata: 
   title: Exercise - Create a Microsoft Power Platform environment 
-  description: Practice creating a Power Automate environment.  
+  description: Practice creating a Power Platform environment.  
   ms.date: 3/09/2020 
   author: KevSch 
   ms.author: kschimke 
