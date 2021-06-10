@@ -1,12 +1,12 @@
-In this section, you will discover and use AI Builder actions in Power Automate through the creation of a simple flow.
+In this section, you'll discover and use AI Builder actions in Power Automate through the creation of a simple flow.
 
 ## Prerequisites
 
 * Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
 * A license or trial of the [AI Builder](/ai-builder/administer-licensing).
 * An [environment](/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](/power-platform/admin/create-database). (Applicable only for work or school accounts).
-* A Microsoft Office 365 account with access to OneDrive for Business and Excel Online (Business). 
-* A basic understanding of Power Automate as well as experience with creating a flow is recommended.
+* A Microsoft Office 365 account with access to OneDrive for Business and Excel Online (Business).
+* A basic understanding of Power Automate and experience with creating a flow is recommended.
 
 ## Create a flow from a solution
 
@@ -16,7 +16,7 @@ To add AI Builder actions in a flow, create the flow from a Microsoft Dataverse 
 
 1. Go to **Solutions** from the navigation bar on the left.
 
-1. Create a new solution called **My AI Builder solution**, select a Publisher and then click **Create**.
+1. Create a new solution called **My AI Builder solution**, select a Publisher, and then select **Create**.
 
 1. Now select the **My AI Builder solution** solution to open it.
 
@@ -28,11 +28,11 @@ To add AI Builder actions in a flow, create the flow from a Microsoft Dataverse 
 
     ![Manually trigger a flow called My Text, and Add an input.](../media/03-pick-up-flow-trigger.png)
 
-1. Select **+ New step**. You will now add an AI Builder action.
+1. Select **+ New step**. You'll now add an AI Builder action.
 
 ### Search for and add an AI Builder action
 
-In this example, you will add the AI Builder action that allows sentiment analysis. Choose one of the following options to help you accomplish this task:
+In this example, you'll add the AI Builder action that allows sentiment analysis. Choose one of the following options to help you accomplish this task:
 
 1. In the search field, enter "Analyze sentiment".
 
@@ -66,7 +66,7 @@ For the AI Builder sentiment analysis model, **Language** and **Text** are the t
 
 ### Use the model's inference
 
-For this exercise, you will use a Microsoft Excel file in OneDrive to store the text sentiment that is detected by the AI model.
+For this exercise, you'll use a Microsoft Excel file in OneDrive to store the text sentiment that is detected by the AI model.
 
 1. Create an Excel file named **AI Builder results.xlsx** in your OneDrive.
 
@@ -94,7 +94,7 @@ Before productizing a flow, it's always a good idea to test it during design pha
 
 1. Select **Manually - Perform the starting action to trigger it.** and the select **Save & Test**.
 
-1. Provide the value of the **My Text** field from the trigger action. This text is what you want to analyze the sentiment for. For this example, we'll enter *It was the best sandcastle he had ever seen.*.
+1. Provide the value of the **My Text** field from the trigger action. This text is what you want to analyze the sentiment for. For this example, we'll enter *It was the best sandcastle he had ever seen.*
 
     ![My text field for trigger with text It was the best sandcastle he had ever seen.](../media/03-my-text.png)
 
@@ -108,6 +108,6 @@ Before productizing a flow, it's always a good idea to test it during design pha
 
     ![Records appear in the table in the Excel file.](../media/03-populate-excel.png)
 
-Congratulations, you have successfully created your first AI Builder flow.
+Congratulations, you've successfully created your first AI Builder flow.
 
 For more information, see [Use AI Builder in Power Automate](/ai-builder/use-in-flow-overview/?azure-portal=true).

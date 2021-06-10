@@ -1,11 +1,11 @@
-In this section, you will discover how to install your AI Builder flows to fulfill your business scenarios.
+In this section, you'll discover how to install your AI Builder flows to fulfill your business scenarios.
 
 ## Prerequisites
 
 - Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
 - A license or trial of the [AI Builder](/ai-builder/administer-licensing).
 - An [environment](/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](/power-platform/admin/create-database). (Applicable only for work or school accounts).
-- A basic understanding of Power Automate as well as experience with creating a flow is recommended.
+- A basic understanding of Power Automate and experience with creating a flow is recommended.
 
 ## AI Builder flow templates
 
@@ -19,13 +19,13 @@ To create a flow from an AI Builder template, follow these steps:
 
     ![A screenshot of a search for A I Builder showing all flow templates.](../media/04-templates.png)
 
-1. Select the **Send a notification with the sentiment of manager's email using AI Builder** template. You will see a summary of the template with a list of the connections that will be used.
+1. Select the **Send a notification with the sentiment of manager's email using AI Builder** template. You'll see a summary of the template with a list of the connections that will be used.
 
     ![Send a notification with the sentiment of manager's email using A I Builder.](../media/04-notification.png)
 
 1. At the bottom, select **Continue**.
 
-1. A preconfigured flow appears (at this stage, the flow is not yet saved).
+1. A preconfigured flow appears (at this stage, the flow isn't yet saved).
 
     ![Preconfigured flow template with If yes and If no conditions.](../media/04-preconfigured-flow.png)
 
@@ -35,7 +35,7 @@ To create a flow from an AI Builder template, follow these steps:
     - Add new actions
     - Remove existing actions (this step will likely break the actions downstream)
 
-1. Once you are done, click **Save** and then you can test the flow.
+1. Once you're done, select **Save** and then you can test the flow.
 
 ## Create a flow from AI Builder studio
 
@@ -47,7 +47,7 @@ The following example shows a custom form processing model. The detail page of t
 
 Selecting **+ New flow** opens the screen where you can create a flow from a template.
 
-![Click a button to read and save information from documents using A I Builder.](../media/04-new-flow.png)
+![Select a button to read and save information from documents using A I Builder.](../media/04-new-flow.png)
 
 Selecting **Continue** opens a preconfigured flow with the custom model selected in the AI Builder action.
 
