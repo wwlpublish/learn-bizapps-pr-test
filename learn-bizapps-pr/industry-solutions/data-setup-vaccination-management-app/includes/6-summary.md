@@ -1,19 +1,19 @@
-This exercise covered the following Microsoft Vaccination Management user experiences and scenarios:
+This module covered the following Microsoft Vaccination Management user experiences and scenarios:
 
-Vaccination Program Administrators who are looking to:
+- Vaccination Program Administrators who are looking to:
 
--   Learn how to quickly pull data into Dataverse to create new records.
+  - Learn how to quickly pull data into Dataverse to create new records.
 
--   Set up Reference Data to launch new Vaccine Sites and Locations
+  - Set up reference data to launch new vaccine sites and locations.
 
--   Set up Master Data to manage Vaccine and Program data
+  - Set up master data to manage vaccine and program data.
 
-Vaccination Provider Administrators who are looking to:
+- Vaccination provider administrators who are looking to:
 
--   Create Vaccine Batches
+  - Create vaccine batches.
 
--   Create Vaccination Sites
+  - Create vaccination sites.
 
--   Create Site Schedules
+  - Create site schedules.
 
-In this lab, you learned how a Vaccination Program Manager can quickly pull data into Dataverse to create new records. You also discovered how to create new Reference Data to launch new Vaccine Sites and Locations. Finally, you set up Master Data to manage Vaccine and Program data for Microsoft Vaccine Management.
+In this lab, you learned how a vaccination program manager can quickly pull data into Dataverse to create new records. You also discovered how to create new reference data to launch new vaccine sites and locations. Finally, you set up master data to manage vaccine and program data for Microsoft Vaccine Management.
