@@ -4,11 +4,11 @@ In this exercise, you will learn how to add and manage your data in Microsoft Va
 
 The **Vaccination management** app has three areas:
 
--   **Reference Data** - Vaccination program administrators can create and populate data that includes information about vaccines, locations of vaccination sites, and demographics data about registered residents.
+-   **Reference data** - Vaccination program administrators can create and populate data that includes information about vaccines, locations of vaccination sites, and demographics data about registered residents.
 
--   **Management Data** - Vaccination program administrators can create and populate data that includes information about vaccines and their manufacturer, vaccination providers and their schedules, and vaccination sites and event codes.
+-   **Management data** - Vaccination program administrators can create and populate data that includes information about vaccines and their manufacturer, vaccination providers and their schedules, and vaccination sites and event codes.
 
--   **Registration Data** - The following data types are entered in this area:
+-   **Registration data** - The following data types are entered in this area:
 
     -   Data for eligibility, resident, and appointment is entered by residents in the Registration and appointment scheduling portal.
 
