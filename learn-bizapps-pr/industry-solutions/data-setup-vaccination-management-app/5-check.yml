@@ -13,45 +13,45 @@ durationInMinutes: 6
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following is not an area of the Vaccination Management app?
+  - content: Which of the following is not an area of the Vaccination management app?
     choices: 
-    - content: Reference Data
+    - content: Reference data
       isCorrect: false
       explanation: Site data is not an area of the Vaccination Management app.
-    - content: Site Data
+    - content: Site data
       isCorrect: true 
       explanation: Site data is not an area of the Vaccination Management app.
-    - content: Management Data
+    - content: Management data
       isCorrect: false 
       explanation: Site data is not an area of the Vaccination Management app.
-    - content: Registration Data
+    - content: Registration data
       isCorrect: false 
       explanation: Site data is not an area of the Vaccination Management app.
-  - content: Which option quickly imports a small subset of data into Dataverse?
+  - content: Which option helps you quickly import a small subset of data into Dataverse?
     choices: 
     - content: PowerShell
       isCorrect: false
-      explanation: Power Query quickly imports a small subset of data into Dataverse.
+      explanation: Power Query helps you quickly import a small subset of data into Dataverse.
     - content: Power Apps
       isCorrect: false 
-      explanation: Power Query quickly imports a small subset of data into Dataverse.
+      explanation: Power Query helps you quickly import a small subset of data into Dataverse.
     - content: Power Query
       isCorrect: true 
-      explanation: Power Query quickly imports a small subset of data into Dataverse.
+      explanation: Power Query helps you quickly import a small subset of data into Dataverse.
     - content: Power BI
       isCorrect: false 
-      explanation: Power Query quickly imports a small subset of data into Dataverse.
-  - content: To address the situation of when demand for appointments is greater than the availability of appointment slots, vaccination program administrators can set a which of the following to allow or not allow eligible residents to make an appointment?
+      explanation: Power Query helps you quickly import a small subset of data into Dataverse.
+  - content: To address the situation of when demand for appointments is greater than the availability of appointment slots, vaccination program administrators can set which of the following options to allow or not allow eligible residents to make an appointment?
     choices: 
-    - content: slot
+    - content: Slot
       isCorrect: false
       explanation: Vaccination program administrators can set a phase to allow or not allow eligible residents to make an appointment.
-    - content: phase
+    - content: Phase
       isCorrect: true 
       explanation: Vaccination program administrators can set a phase to allow or not allow eligible residents to make an appointment.
-    - content: batch
+    - content: Batch
       isCorrect: false 
       explanation: Vaccination program administrators can set a phase to allow or not allow eligible residents to make an appointment.
-    - content: site
+    - content: Site
       isCorrect: false 
       explanation: Vaccination program administrators can set a phase to allow or not allow eligible residents to make an appointment.
