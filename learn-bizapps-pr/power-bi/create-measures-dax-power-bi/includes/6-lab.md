@@ -12,7 +12,7 @@ In this lab, you learn how to:
 
 In this exercise, you will create two calculated tables. The first will be the **Salesperson** table, to allow a direct relationship between it and the **Sales** table. The second will be the **Date** table.
 
-Open the **Sales Analysis.pbix** starter file, which is found in the **D:\DA100\Lab06A\Starter** folder.
+Open the **Sales Analysis.pbix** starter file, which is found in the **D:\DA100\Labs\05-create-dax-calculations-in-power-bi-desktop\Starter** folder.
 
 ### Task 1: Create the Salesperson table
 
