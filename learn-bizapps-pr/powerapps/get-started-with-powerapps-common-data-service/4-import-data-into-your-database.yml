@@ -4,9 +4,9 @@ title: Exercise - Create a table and import data into your Microsoft Dataverse d
 metadata: 
   title: Exercise - Import data into your database
   description: Import data into your database
-  ms.date: 01/17/2020
-  author: KevSch
-  ms.author: kschimke
+  ms.date: 06/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 durationInMinutes: 10 
