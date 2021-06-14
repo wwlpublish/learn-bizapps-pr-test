@@ -1,6 +1,7 @@
 In this exercise, you will assume the persona of a public user who is looking to register for your vaccination through Microsoft Vaccination Management. You will learn how to browse to the portal and become familiar with the eligibility questions and registration process.
 
 ## Task 1: Go to the portal and register for a vaccination
+To go to the portal and register for a vaccination, follow these steps:
 
 1.  Launch an internet browser in **InPrivate** or **Incognito** mode and then go to [Power Apps](https://make.preview.powerapps.com/?azure-portal=true) by using the user credentials that were shared by your coach.
 
