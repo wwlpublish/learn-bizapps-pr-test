@@ -1,215 +1,213 @@
-In this exercise, you will assume the persona of a public user who is looking to register for vaccination via the Vaccine Management Portal. You will learn how to browse to the portal, become familiar with the eligibility questions, and understand the registration process.
+In this exercise, you will assume the persona of a public user who is looking to register for your vaccination through Microsoft Vaccination Management. You will learn how to browse to the portal and become familiar with the eligibility questions and registration process.
 
-## Task 1: Navigate to portal and register for vaccination
+## Task 1: Go to the portal and register for a vaccination
 
-1.  Launch in-private/incognito mode in your browser and navigate to [Power Apps](https://make.preview.powerapps.com/?azure-portal=true) using the user credentials shared by your coach.
+1.  Launch an internet browser in **InPrivate** or **Incognito** mode and then go to [Power Apps](https://make.preview.powerapps.com/?azure-portal=true) by using the user credentials that were shared by your coach.
 
-1.  Select your allocated environment from the list of environments in the dropdown.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the environments dropdown list.](../media/environments.png)](../media/environments.png#lightbox)
-
-1.  Navigate to **Apps** and locate **Registration and Booking portal** and click on ellipsis, then **Browse**.
+1.  Select your allocated environment from the list of environments in the dropdown list.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the registration and booking portal app with browse highlighted.](../media/registration-booking-portal.png)](../media/registration-booking-portal.png#lightbox)
+	> [![Screenshot of the Environments dropdown list.](../media/environments.png)](../media/environments.png#lightbox)
 
-1.  The portal launches in another tab. Click on **Start registration** button to begin the registration process.
-
-	Alternately, you can also enter the Event code in the textbox below and then click on **Start registration** button. For steps to generate an event code, go to Bonus Exercise 1. The overall registration process remains same irrespective of the option you choose.
+1.  Go to the **Apps** section, locate **Registration and booking portal**, select the ellipsis (**...**), and then select **Browse**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the start registration button to begin the process.](../media/start-registration.png)](../media/start-registration.png#lightbox)
+	> [![Screenshot of the Registration and booking portal app with Browse highlighted.](../media/registration-booking-portal.png)](../media/registration-booking-portal.png#lightbox)
 
-1.  Select the responses to the eligibility questionnaire as shown in the screenshots and click on **Next**.
+1.  When the portal launches in another tab, select the **Start registration** button to begin the registration process.
 
-	Have you received the first dose of the COVID-19 vaccine? : **No**
+	Alternately, you can enter a code in the **Enter event code if you have one** box and then select the **Start registration** button. For steps to generate an event code, go to Bonus Exercise 1. The overall registration process remains the same, regardless of the option that you choose.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the vaccine history window with first dose question.](../media/vaccine-history.png)](../media/vaccine-history.png#lightbox)
+	> [![Screenshot of the Start registration button to begin the process.](../media/start-registration.png)](../media/start-registration.png#lightbox)
 
-	Alternately, you can also select **Yes** for above question if you have already taken the dose 1 and set values shown below and click **Next**
+1.  Select the responses to the eligibility questionnaire, as shown in the following screenshots, and then select **Next**.
+
+    If you have not received your first dose, select **No** for the **Have you received any dose of a COVID-19 vaccine?** question.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the vaccine history window with the first dose question.](../media/vaccine-history.png)](../media/vaccine-history.png#lightbox)
+
+    Alternately, select **Yes** if you have already received the first dose. Then, set the following values (which are shown in the subsequent screenshot) and select **Next**.
 
 	> [!NOTE]
-	> You can either do step 5 or step 6 and click on **Next**.
+	> You can complete step 5 or step 6 and then select **Next**.
 
-	Have you received the first dose of the COVID-19 vaccine? : **Yes**
+	1. For the **Have you received any dose of the COVID-19 vaccine?** question, select **Yes**.
 
-	Did we administer that dose: **Any option No/Yes**
+	1. For the **Did we administer that dose?** question, select **No**.
 
-	What was the date of your first dose? : **Any date in past**
+	1. For the **What was the date that you received the dose?** question, enter any date in the past.
 
-	What was the vaccine type? : **Choose any from list**
+	1. For the **What was the vaccine type?** question, choose any type from the list of options.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of vaccine history with additional questions if first dose has been received.](../media/vaccine-history-2.png)](../media/vaccine-history-2.png#lightbox)
 
-1.  Select Yes only for the below question and default pre-selected responses for others and click **Next**
-
-	Are you currently employed as a healthcare worker? : **Yes**
+1.  Select **Yes** only for the **Are you currently employed as a healthcare worker?** question. Keep the default, preselected **No** responses for the other questions and then select **Next**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the vaccine phase qualifications window.](../media/qualifications.png)](../media/qualifications.png#lightbox)
+	> [![Screenshot of the Vaccine phase qualifications window.](../media/qualifications.png)](../media/qualifications.png#lightbox)
 
-1.  Select default pre-selected responses and click **Next**
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the pre-existing health conditions window.](../media/health-conditions.png)](../media/health-conditions.png#lightbox)
-
-1.  Select default pre-selected responses and click **Next**
+1.  Select the following default, preselected responses and then select **Next**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the covid-19 exposure and vaccine reaction window.](../media/exposure-reactions.png)](../media/exposure-reactions.png#lightbox)
+	> [![Screenshot of the Pre-existing health conditions window.](../media/health-conditions.png)](../media/health-conditions.png#lightbox)
 
-1. At this step, you will create **three** new residents records that we will book as appointments for today. Fill out the following values fields and ensure the **email address** is a valid one so that you can receive booking notifications and take action on the next steps.
+1.  Select the following default, preselected responses and then select **Next**.
 
-    **Resident One**:
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the COVID-19 exposure and vaccine reaction window.](../media/exposure-reactions.png)](../media/exposure-reactions.png#lightbox)
 
-	1.  **First Name**: Madison
+1. Create **three** new resident records that you will book as appointments for today. Fill out the following values and then ensure that the email address is a valid one so that you can receive booking notifications and take action on the next steps.
 
-    1. **Last Name**: Butler
+    **Resident One**
 
-    1. **Race**: Asian
+	1.  **First name** - Madison
 
-    1. **Ethnicity**: Not Hispanic or Latino
+    1. **Last name** - Butler
 
-    1.  **Gender**: Female
+    1. **Race** - Asian
 
-    1. **Date of Birth**: February 01, 1967 *Make a note of this value and keep for reference. This will be required in later exercises.
+    1. **Ethnicity** - Not Hispanic or Latino
 
-    1. **Street Address**: 123 23rd Street
+    1.  **Gender** - Female
 
-    1. **City**: Redmond
+    1. **Date of birth** - February 01, 1967 (*Note this value and keep for reference; it will be required in later exercises*.)
 
-    1. **County:** King
+    1. **Street address** - 123 23rd Street
 
-    1.  **State/Province**: WA/Washington
+    1. **City** - Redmond
 
-    1. **Zip/Postal Code**: 98052
+    1. **County** - King
 
-    1. **Country**: USA
+    1.  **State/Province** - WA/Washington
+
+    1. **Zip/Postal Code** - 98052
+
+    1. **Country** - USA
 
 		> [!div class="mx-imgBorder"]
-		> [![Screenshot of the personal contact information window.](../media/contact-information.png)](../media/contact-information.png#lightbox)
+		> [![Screenshot of the Personal contact information window.](../media/contact-information.png)](../media/contact-information.png#lightbox)
 
-	1.  **Email Address**: Your valid email address (This is important and needs to be a valid email.)
+	1.  **Email Address** - Your valid email address (This email address is important and needs to be a valid email.)
 		
-	1. **Confirm Email Address** : Same as above email address
+	1. **Confirm Email Address** - Same as the email address that you entered
 		
-	1. **Primary Phone**: can be left blank
+	1. **Primary phone** - This field can be left blank
 		
-	1. **Special Assistance** : can be left blank
+	1. **Special Assistance** - This option can be left blank
 
-1. Click **Next**
+1. Select **Next**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the personal contact information window with next button.](../media/contact-information-2.png)](../media/contact-information-2.png#lightbox)
+	> [![Screenshot of the Contact Information window with the Next button.](../media/contact-information-2.png)](../media/contact-information-2.png#lightbox)
 
-1. On the next page, review the summary screen and select the checkbox for **I certify that the information I've provided is true to the best of my knowledge** and click **Complete registration**.
+1. On the next page, review the summary screen and then select the check box for **I certify that the information I've provided is true to the best of my knowledge**. Select the **Complete registration** button.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the complete registration window with certification of information provided.](../media/complete-registration.png)](../media/complete-registration.png#lightbox)
 
-1. You should now see the following screen completing your registration for the vaccine.
+   The following screen will display, indicating that your registration for the vaccine is complete.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the successful registration message.](../media/success-message.png)](../media/success-message.png#lightbox)
 
-1. **Repeat** **Steps** **10 - 13** to create more registrations for **two** more residents:
+1. Repeat **steps 10-13** to create registrations for two more residents:
 
-    **Resident Two**:
+    **Resident Two**
 
-    1. **First Name**: Christopher
+    1. **First name** - Christopher
 
-    1. **Last Name**: Reed
+    1. **Last name** - Reed
 
-    1. **Race**: Black or African American
+    1. **Race** - Black or African American
 
-    1. **Ethnicity**: Not Hispanic or Latino
+    1. **Ethnicity** - Not Hispanic or Latino
 
-    1. **Gender**: Male
+    1. **Gender** - Male
 
-    1. **Date of Birth**: March 01, 1967
+    1. **Date of birth** - March 01, 1967
 
-    1. **Street Address**: 456 23rd Street
+    1. **Street address** - 456 23rd Street
 
-    1. **City**: Redmond
+    1. **City** - Redmond
 
-    1. **County:** King
+    1. **County** - King
 
-    1. **State/Province**: WA
+    1. **State/Province** - WA
 
-    1. **Zip/Postal Code**: 98052
+    1. **Zip/Postal Code** - 98052
 
-    1. **Country**: USA
+    1. **Country** - USA
 
-    1. **Email Address**: Your email address
+    1. **Email Address** - Your email address
 
-    **Resident Three**:
+    **Resident Three**
 
-    1. **First Name**: Kayla
+    1. **First name** - Kayla
 
-    1. **Last Name**: Lewis
+    1. **Last name** - Lewis
 
-    1. **Race**: White
+    1. **Race** - White
 
-    1. **Ethnicity**: Hispanic or Latino
+    1. **Ethnicity** - Hispanic or Latino
 
-    1. **Gender**: Female
+    1. **Gender** - Female
 
-    1. **Date of Birth**: April 01, 1978
+    1. **Date of birth** - April 01, 1978
 
-    1. **Street Address**: 789 23rd Street
+    1. **Street address** - 789 23rd Street
 
-    1. **City**: Redmond
+    1. **City** - Redmond
 
-    1. **County:** King
+    1. **County** - King
 
-    1. **State/Province**: WA
+    1. **State/Province** - WA
 
-    1. **Zip/Postal Code**: 98052
+    1. **Zip/Postal Code** - 98052
 
-    1. **Country**: USA
+    1. **Country** - USA
 
-    1. **Email Address**: Your email address
+    1. **Email Address** - Your email address
 
-## Task 2: Verify Dataverse records created post registration process
+## Task 2: Verify Dataverse records that were created post registration process
 
-In this task, you will assume the persona of a system user/administrator and login to the Dataverse environment and view the records that are created/edited post the registration process.
+In this task, you will assume the persona of a system user/administrator. You will sign in to the Microsoft Dataverse environment and view the records that are created/edited after the registration process.
 
-1.  Launch in-private/incognito mode in your browser and navigate to 'make.powerapps.com' using the user credentials shared by your coach.
+1.  Launch your internet browser in **InPrivate** or **Incognito** mode and then go to 'make.powerapps.com' by using the user credentials that were shared by your coach.
 
-1.  Select your allocated environment from the list of environments in the dropdown.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the environments list with dropdown menu.](../media/environments.png)](../media/environments.png#lightbox)
-
-1.  Navigate to **Apps** and locate **Vaccination site management app** and click on '...' , then **Play**
+1.  Select your allocated environment from the **Environments** dropdown list.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the play feature for vaccination site management app.](../media/play.png)](../media/play.png#lightbox)
+	> [![Screenshot of the Environments list with dropdown menu.](../media/environments.png)](../media/environments.png#lightbox)
 
-1.  The Vaccination Site Management app launches in the next tab. Navigate to **Change area** in the navigation panel and click on it to set to **Registration**.
-
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the change area in the navigation panel with registration option.](../media/registration.png)](../media/registration.png#lightbox)
-
-1.  The default view will load to **Active Covid Vaccine Eligibilities**. You can select view your **Vaccine Eligibility record** created as a result of your registration steps on the portal.
-
-1. Open your Vaccine Eligibility record and click on all tabs highlighted below - **General, Risk Factors** and **Covid History**. You can note the values you entered during the registration process reflect in the **COVID Vaccine Eligibility** record.
+1.  Go to the **Apps** section, locate **Vaccination site management app**, select the ellipsis (**...**), and then select **Play**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the vaccine eligibility record with general, risk factors, and covid history tabs.](../media/tabs.png)](../media/tabs.png#lightbox)
+	> [![Screenshot of the Play feature for the Vaccination site management app.](../media/play.png)](../media/play.png#lightbox)
 
-1.  Make a note of the 'Phase' showing up on the **COVID Vaccine Eligibility** record. This will be used in the subsequent exercise. For example, in the below screenshot, it shows up as **Phase 1. **
+1.  The **Vaccination site management** app will launch in the next tab. Go to **Change area** on the navigation panel and then select the app to set it to **Registration**.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Change area in the navigation panel with the Registration option.](../media/registration.png)](../media/registration.png#lightbox)
+
+1.  The default view will load to **Active Covid Vaccine Eligibilities**. You can select to view your **Vaccine Eligibility record** that was created as a result of your registration steps on the portal.
+
+1. Open your **Vaccine Eligibility** record and select all tabs that are highlighted in the following screenshot: **General**, **Risk Factors**, and **COVID History**. Note that the values that you entered during the registration process reflect in the **COVID Vaccine Eligibility** record.
+
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of the Vaccine Eligibility record with the General, Risk Factors, and COVID History tabs.](../media/tabs.png)](../media/tabs.png#lightbox)
+
+1.  Note the **Phase** that displays on the **COVID Vaccine Eligibility** record. This value will be used in the subsequent exercise. For example, the following screenshot shows this value as **Phase 1**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the phase noted on the covid vaccine eligibility record.](../media/phase-1.png)](../media/phase-1.png#lightbox)
 
-1.  Now click on **Related** tab and select **Vaccine Recommendations**. You will not see any **Vaccine Recommendation** record tagged to your **COVID Vaccine Eligibility** record. It will get created in the subsequent exercises.
+1.  Select the **Related** tab and select **Vaccine Recommendations**. A **Vaccine Recommendation** record will not be tagged to your **COVID Vaccine Eligibility** record; it will be created in the subsequent exercises.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the vaccine recommendations tab with no results displayed.](../media/recommendations.png)](../media/recommendations.png#lightbox)
+	> [![Screenshot of the Vaccine Recommendations tab with no results displayed.](../media/recommendations.png)](../media/recommendations.png#lightbox)
 
-**Congratulations!** You have now completed your vaccine eligibility process and verified how it manifests in Dataverse. Now that you are eligible, you can move on to book your appointment for the vaccination in the next exercises.
+Congratulations, you have now completed your vaccine eligibility process and have verified how it manifests in Dataverse. Now that you are eligible, you can move on to the next exercises where you'll book your appointment for the vaccination.
 
