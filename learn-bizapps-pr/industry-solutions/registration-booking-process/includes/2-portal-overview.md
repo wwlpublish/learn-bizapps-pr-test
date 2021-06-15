@@ -114,7 +114,7 @@ To go to the portal and register for a vaccination, follow these steps:
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the successful registration message.](../media/success-message.png)](../media/success-message.png#lightbox)
 
-1. Repeat **steps 10-13** to create registrations for two more residents:
+1. Repeat **steps 10-11** to create registrations for two more residents:
 
     **Resident Two**
 
