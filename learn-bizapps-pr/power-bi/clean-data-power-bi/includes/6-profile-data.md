@@ -57,7 +57,7 @@ want 100 percent of the data to be valid. 
 > [![anomalies and data statistics for a column of data](../media/06-column-statistics-ssm.png)](../media/06-column-statistics-ssm.png#lightbox)
 
 > [!NOTE] 
-> By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select **Column profiling based on entire data set**. 
+> By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select **Column profiling based on entire data set**. ]
 
 **Column distribution** shows you the distribution of the data within
 the column and the counts of distinct and unique values, both of which
@@ -86,7 +86,7 @@ the text column, as seen in the previous image, the minimum value is the
 first value and the maximum value is the last value when in alphabetical
 order.
 
-Additionally, the **Value distribution** graph tells you the counts for each unique value in that specific column. When looking at the graph in the previous image, notice that the value distribution indicates that "Anthony Grosse" appears the greatest number of times within the **SalesPerson** column and that "Lily Code" appears the least amount of times. This information is particularly important because it identifies outliers. If a value appears far more than other values in a column, the **Value distribution** feature allows you to pinpoint a place to begin your investigation into why this is so.
+Additionally, the **Value distribution** graph tells you the counts for each distinct value in that specific column. When looking at the graph in the previous image, notice that the value distribution indicates that "Anthony Grosse" appears the greatest number of times within the **SalesPerson** column and that "Lily Code" appears the least amount of times. This information is particularly important because it identifies outliers. If a value appears far more than other values in a column, the **Value distribution** feature allows you to pinpoint a place to begin your investigation into why this is so.
 
 On a numeric column, **Column Statistics** will also include how many
 zeroes and null values exist, along with the average value in the

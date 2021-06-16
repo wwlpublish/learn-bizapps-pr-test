@@ -20,7 +20,7 @@ In this task, you will publish **Power BI file Sales Analysis.pbix** to Power BI
  
 1.	Click the **File** ribbon tab to open the backstage view, and then select **Open Report**. 
 
-1.	In the **Open Report** window, click **Browse reports**, navigate to the **D:\DA100\Lab08A\Starter** folder, select **Sales Analysis.pbix file**. 
+1.	In the **Open Report** window, click **Browse reports**, navigate to the **D:\DA100\Labs\08-design-report-in-power-bi-desktop-enhanced\Starter** folder, select **Sales Analysis.pbix file**. 
 
 1.	Click **Open** and save the Power BI Desktop file.
 
@@ -110,7 +110,7 @@ In this task, you will design the first report page. When you've completed the d
 
 1. To add an image, on the **Insert** ribbon tab, from inside the **Elements** group, click **Image**.
 
-1. In the **Open** window, navigate to the **D:\DA100\Data** folder.
+1. In the **Open** window, navigate to the **D:\DA100\Resources** folder.
 
 1. Select the **AdventureWorksLogo.jpg** file, and then click **Open**.
 
