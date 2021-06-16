@@ -1,19 +1,20 @@
-This is the **first** set of exercises in a series covering Microsoft Vaccination Management (MVM). These sets of exercises follow a sequence of presentations covering an overview of Microsoft Vaccination Management, Solution Center installation, and the data model. Before beginning this set of exercises, confirm that you've provisioned an environment with the necessary components installed as described in the previous module.
+This module is the **first** set of exercises in a series covering Microsoft Vaccination Management. These exercises follow a sequence of presentations that provide an overview of Microsoft Vaccination Management, Microsoft Cloud Solution Center installation, and the data model. Before beginning these exercises, make sure that you've provisioned an environment with the necessary components installed, as described in the previous module.
 
-After this set of exercises, you can do the following:
+For this set of exercises, you will:
 
-- Explore and Enable MVM Workflows.
+- Explore and enable Microsoft Vaccination Management workflows.
 
-- Learn to update MVM Portal bindings and Bing map settings.
+- Learn how to update Microsoft Vaccination Management portal bindings and Bing Maps settings.
 
-- Learn to enable, configure, and customize the MVM Power Automate Flows.
+- Learn how to enable, configure, and customize the Microsoft Power Automate flows in Microsoft Vaccination Management.
 
-- Learn to integrate MVM Power Automate Email flows with a bulk email service connector.
+- Learn how to integrate Power Automate email flows in Microsoft Vaccination Management with a bulk email service connector.
 
 ## Before you begin
+Before you begin the exercises in this module, complete the following tasks:
 
 1. Connect to the internet.
 
-1. Open an internet browser in either **In-Private** or **Incognito** mode.
+1. Open an internet browser in **InPrivate** or **Incognito** mode.
 
-1. Navigate to [Power Apps](https://make.powerapps.com/?azure-portal=true) and sign in with your user credentials.
+1. Go to [Power Apps](https://make.powerapps.com/?azure-portal=true) and sign in with your user credentials.
