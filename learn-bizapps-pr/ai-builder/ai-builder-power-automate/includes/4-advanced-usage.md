@@ -1,4 +1,11 @@
-In this section, you will discover how to install your AI Builder flows to fulfill your business scenarios.
+In this section, you'll discover how to install your AI Builder flows to fulfill your business scenarios.
+
+## Prerequisites
+
+- Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
+- A license or trial of the [AI Builder](/ai-builder/administer-licensing).
+- An [environment](/power-platform/admin/environments-overview) with a [Microsoft Dataverse database](/power-platform/admin/create-database). (Applicable only for work or school accounts).
+- A basic understanding of Power Automate and experience with creating a flow is recommended.
 
 ## AI Builder flow templates
 
@@ -8,19 +15,21 @@ To create a flow from an AI Builder template, follow these steps:
 
 1. Select the **My templates** tab in the left menu. The list of available templates will appear.
 
-2. Enter **AI Builder** in the search bar and then press the **Enter** key. All AI Builder templates will be displayed, as shown in the following figure.
+1. Enter **AI Builder** in the search bar and then press the **Enter** key. All AI Builder templates will be displayed, as shown in the following figure.
 
-    ![A screenshot of a search for A I Builder showing all flow templates.](../media/04-templates.png)
+    > [!div class="mx-imgBorder"]
+    > [![A screenshot of a search for A I Builder showing all flow templates.](../media/04-templates.png)](../media/04-templates.png#lightbox)
 
-3. Select the **Send a notification with the sentiment of manager's email using AI Builder** template. You will see a summary of the template with a list of the connections that will be used.
+1. Select the **Send a notification with the sentiment of manager's email using AI Builder** template. You'll see a summary of the template with a list of the connections that will be used.
 
     ![Send a notification with the sentiment of manager's email using A I Builder.](../media/04-notification.png)
 
-    Select **Continue**.
+1. At the bottom, select **Continue**.
 
-4. A preconfigured flow appears (at this stage, the flow is not yet saved).
+1. A preconfigured flow appears (at this stage, the flow isn't yet saved).
 
-    ![Preconfigured flow template with If yes and If no conditions.](../media/04-preconfigured-flow.png)
+    > [!div class="mx-imgBorder"]
+    > [![Preconfigured flow template with If yes and If no conditions.](../media/04-preconfigured-flow.png)](../media/04-preconfigured-flow.png#lightbox)
 
     You can save the flow as-is or update it at your convenience:
 
@@ -28,7 +37,7 @@ To create a flow from an AI Builder template, follow these steps:
     - Add new actions
     - Remove existing actions (this step will likely break the actions downstream)
 
-5. Save the flow and then test it.
+1. Once you're done, select **Save** and then you can test the flow.
 
 ## Create a flow from AI Builder studio
 
@@ -36,11 +45,12 @@ From AI Builder studio, you can launch the creation of a flow by using your favo
 
 The following example shows a custom form processing model. The detail page of the model contains a **Use model** button (the model must be published). Selecting this button will open a right panel that offers multiple options, as shown in the following figure.
 
-![Custom form processing model with Use model button selected to reveal the User your model panel to the right.](../media/04-custom-form.png)
+> [!div class="mx-imgBorder"]
+> [![Custom form processing model with Use model button selected to reveal the User your model panel to the right.](../media/04-custom-form.png)](../media/04-custom-form.png#lightbox)
 
 Selecting **+ New flow** opens the screen where you can create a flow from a template.
 
-![Click a button to read and save information from documents using A I Builder.](../media/04-new-flow.png)
+![Select a button to read and save information from documents using A I Builder.](../media/04-new-flow.png)
 
 Selecting **Continue** opens a preconfigured flow with the custom model selected in the AI Builder action.
 

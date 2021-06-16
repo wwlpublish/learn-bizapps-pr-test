@@ -8,16 +8,16 @@ To support the building of these automations, Microsoft provides build tasks for
 
 -   **Deploy managed solutions** - When the solution that contains your custom connector is installed in non-development environments, you should deploy a managed solution. The managed solution should be built from the contents of source control and not directly from development. This approach ensures that your source control always contains a copy of what is deployed in your non-development environments.
 
-You can use Power Platform tooling, along with any other available GitHub Actions or Azure DevOps tasks, to compose your build and release workflows. Automations that teams commonly put in place include provisioning development environments, exporting from a development environment to source control, generating builds, and releasing solutions. The following diagram illustrates examples of automations that you might consider.
+You can use Microsoft Power Platform tooling, along with any other available GitHub Actions or Azure DevOps tasks, to compose your build and release workflows. Automations that teams commonly put in place include provisioning development environments, exporting from a development environment to source control, generating builds, and releasing solutions. The following diagram illustrates examples of automations that you might consider.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram illustrating examples of automations that you might consider.](../media/automation-diagram.png)](../media/automation-diagram.png#lightbox)
 
-Whether you use Azure DevOps or GitHub Actions is your preference. Both offer similar capabilities for automating the life cycles of Power Platform solutions.
+Whether you use Azure DevOps or GitHub Actions is your preference. Both offer similar capabilities for automating the life cycles of Microsoft Power Platform solutions.
 
 ## Azure DevOps
 
-Azure DevOps uses build and release pipelines to implement automation. Generally, pipelines are used to build and prepare artifacts and release deploy to downstream environments. Building a Power Platform pipeline is done visually by adding build tasks. The following screenshot is an example of a pipeline that uses the build tasks.
+Azure DevOps uses build and release pipelines to implement automation. Generally, pipelines are used to build and prepare artifacts and release deploy to downstream environments. Building a Microsoft Power Platform pipeline is done visually by adding build tasks. The following screenshot is an example of a pipeline that uses the build tasks.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of Microsoft Power Platform Build Tools.](../media/pipeline.png)](../media/pipeline.png#lightbox)

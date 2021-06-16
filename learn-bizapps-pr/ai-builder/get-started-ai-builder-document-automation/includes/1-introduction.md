@@ -20,7 +20,7 @@ Before you begin this course, we recommend that you get familiar with these prod
 
 Thanks to automation solutions and AI, organizations can accelerate and optimize the processing of documents to free humans from repetitive, low value, and error prone tasks. This applies to any kind of printed or digital form that must be reviewed, have data extracted from it, and be processed.
 
-Automating the processing of documents requires a complete solution. The Power Platform enables you to build a rich and robust document automation solution using Power Automate to orchestrate the overall process, AI Builder to bring the Intelligence required to efficiently extract information from documents, Power Apps to allow users to manually review and approve documents, and Dataverse to manage the document queue and store all the data, files, and configuration required.
+Automating the processing of documents requires a complete solution. The Microsoft Power Platform enables you to build a rich and robust document automation solution using Power Automate to orchestrate the overall process, AI Builder to bring the Intelligence required to efficiently extract information from documents, Power Apps to allow users to manually review and approve documents, and Dataverse to manage the document queue and store all the data, files, and configuration required.
 
 Starting from a blank page can be challenging when designing such a complex system. This document automation solution is a reference implementation that provides a functional end-to-end solution that is ready to install and supports a common processing pattern: 
 

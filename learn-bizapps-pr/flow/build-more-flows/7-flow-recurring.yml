@@ -4,9 +4,9 @@ title: Exercise - Learn to build a flow that runs at recurring time intervals
 metadata: 
   title: Exercise - Learn to build a flow that runs at recurring time intervals
   description: Learn to build a flow that runs at the same time on a recurring schedule.
-  ms.date: 03/04/2020
-  author: KevSch
-  ms.author: kschimke
+  ms.date: 06/08/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-automate
 durationInMinutes: 6 

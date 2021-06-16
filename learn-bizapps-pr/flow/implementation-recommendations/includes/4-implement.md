@@ -1,4 +1,4 @@
-The Power Platform default environment is traditionally used by users to create their own Power Automate flows. A DLP policy assigned to the default environment is recommended to prevent users from leaking business data stored in Microsoft 365. These connectors should be assigned to the Business data group.
+Microsoft Power Platform default environment is traditionally used by users to create their own Power Automate flows. A DLP policy assigned to the default environment is recommended to prevent users from leaking business data stored in Microsoft 365. These connectors should be assigned to the Business data group.
 
 |     Connector Name               |     Purpose                                                                                                                                                                     |
 |----------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -14,7 +14,7 @@ The Power Platform default environment is traditionally used by users to create 
 |     Yammer                       |     The Yammer connector   allows makers to subscribe and post messages in the enterprise social media   site.                                                                  |
 |     Microsoft Teams              |     By using the Microsoft   Teams connectors, makers can subscribe to messages that are posted within   Teams channels, post messages, and create channels.                    |
 
-The following connectors do not contain business data, but administrators should consider placing them in the Business data group. These connectors automate approvals, content conversions, power platform management, and cyber security processes.
+The following connectors do not contain business data, but administrators should consider placing them in the Business data group. These connectors automate approvals, content conversions, Microsoft Power Platform management, and cyber security processes.
 
  |     Connector name                  |     Purpose                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

@@ -24,7 +24,7 @@ quiz:
     - content: English and Spanish 
       isCorrect: false
       explanation: Only English is officially supported by Business card reader at this time.
-  - content: Where in the Power Platform can you use the AI Builder Business card reader technology? 
+  - content: Where in Microsoft Power Platform can you use the AI Builder Business card reader technology? 
     choices: 
     - content: Model-driven apps, canvas apps, and flows
       isCorrect: true

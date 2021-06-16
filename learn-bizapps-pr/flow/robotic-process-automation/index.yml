@@ -17,7 +17,7 @@ abstract: |
     - Explore options for automation and how to choose where to start.
     - Explore scenarios for Power Automate Desktop.
     - Learn about the components for running Power Automate Desktop flows.
-prerequisites: Experience working on Power Platform projects as either a junior solution architect, a senior functional consultant, or a senior developer
+prerequisites: Experience working on Microsoft Power Platform projects as either a junior solution architect, a senior functional consultant, or a senior developer
 iconUrl: /learn/achievements/robotic-process-automation.svg  
 levels:  
 - advanced

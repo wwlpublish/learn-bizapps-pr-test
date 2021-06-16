@@ -73,13 +73,13 @@ quiz:
     choices: 
     - content: Yes, it can be blocked.
       isCorrect: false
-      explanation: In Power Platform DLP, you can't block the Approvals connector. You can leave it in the default Non-Business group or move it to the Business group.
+      explanation: In Microsoft Power Platform DLP, you can't block the Approvals connector. You can leave it in the default Non-Business group or move it to the Business group.
     - content: No, it cannot be blocked.
       isCorrect: true 
-      explanation: In Power Platform DLP, you can't block the Approvals connector. You can leave it in the default Non-Business group or move it to the Business group.
+      explanation: In Microsoft Power Platform DLP, you can't block the Approvals connector. You can leave it in the default Non-Business group or move it to the Business group.
     - content: Yes, it can be blocked if it is an online connector; however, it can't be blocked if it is on-premises.
       isCorrect: false 
-      explanation: In Power Platform DLP, you can't block the Approvals connector. You can leave it in the default Non-Business group or move it to the Business group.
+      explanation: In Microsoft Power Platform DLP, you can't block the Approvals connector. You can leave it in the default Non-Business group or move it to the Business group.
     - content: Yes, it can be blocked if you are using a premium connector; however, it can't be blocked if you are using a standard connector.
       isCorrect: false 
-      explanation: In Power Platform DLP, you can't block the Approvals connector. You can leave it in the default Non-Business group or move it to the Business group.
+      explanation: In Microsoft Power Platform DLP, you can't block the Approvals connector. You can leave it in the default Non-Business group or move it to the Business group.

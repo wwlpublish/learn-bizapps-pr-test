@@ -14,7 +14,7 @@ summary: |
   This Learning Path explores custom connectors and explains how to configure them and use them with Microsoft Power Apps, Microsoft Power Automate, and Microsoft Azure Logic Apps. 
 prerequisites: |
   - A basic understanding of Microsoft Power Automate. 
-  - Familiarity with Power Platform, Power Apps, and Azure Logic Apps
+  - Familiarity with Microsoft Power Platform, Power Apps, and Azure Logic Apps
 iconUrl: /learn/achievements/build-custom-connectors.svg
 levels:
 - intermediate

@@ -8,7 +8,7 @@ that people get approval for an invoice before submitting an order.
 Business process flows use the same underlying technology as other 
 processes, but the capabilities that they provide are very different 
 from other features that use processes. To learn how to create or edit 
-a business process flow, see [Create a business process flow](https://docs.microsoft.com/power-automate/create-business-process-flow)
+a business process flow, see [Create a business process flow](/power-automate/create-business-process-flow)
 
 ## Use business process flows
 Why should you use business process flows? Business process flows provide 
@@ -44,10 +44,10 @@ For example, you may have a process that begins with an opportunity, then contin
 to a quote, an order, and then an invoice, before finally returning to close the 
 opportunity.
 
-You can design business process flows that tie together the records for up to five 
+You can design business process flows that tie together the rows for up to five 
 different tables into a single process so that people using the app can focus on 
 the flow of their process rather than on which table they are working in. This way, 
-they can easily navigate between related table records.
+they can easily navigate between related table rows.
 
 ### Multiple business process flows are available per table
 Not every user in an organization may follow the same process and different conditions 

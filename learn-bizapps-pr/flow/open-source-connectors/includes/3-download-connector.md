@@ -33,7 +33,7 @@ In this task, you'll import an unmanaged solution that contains a Contoso Invoic
 
 ## Task 2: Install Microsoft Power Platform CLI
 
-Microsoft Power Platform CLI includes the paconn command-line tool that is designed to aid Power Platform custom connector development. The paconn tool uses Python runtime, which you'll be installing as well.
+Microsoft Power Platform CLI includes the paconn command-line tool that is designed to aid Microsoft Power Platform custom connector development. The paconn tool uses Python runtime, which you'll be installing as well.
 
 1. Go to [Download Python](https://www.python.org/downloads/?azure-portal=true) and select **Download Python**. You can use any version greater than 3.5.
 

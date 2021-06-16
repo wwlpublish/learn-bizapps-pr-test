@@ -3,9 +3,9 @@ uid: learn-bizapps.navigation-canvas-app
 metadata: 
   title: Navigation in a canvas app in Power Apps
   description: App users can only navigate through the navigation options provided by an app developer, and this module is designed to help you build a good navigation experience for your canvas app.
-  ms.date: 03/29/2019  
-  author: KevSch
-  ms.author: kschimke  
+  ms.date: 11/20/2020  
+  author: DaveBeasley
+  ms.author: dbeasley  
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Navigation in a canvas app in Power Apps 

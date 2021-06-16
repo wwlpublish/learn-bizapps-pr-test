@@ -31,5 +31,6 @@ modules:
 - learn-bizapps.build-app-dataverse-teams
 - learn-bizapps.build-first-workflow
 - learn-bizapps.create-chatbot-power-virtual-agents-dataverse-teams 
+- learn-bizapps.dataverse-teams-power-bi 
 trophy: 
   uid: learn-bizapps.work-power-platform-teams.trophy

@@ -49,9 +49,9 @@ quiz:
     - content: Power BI service administrator
       isCorrect: false 
       explanation: The Power BI service administrator is capable and responsible for configuring certain tenant settings.
-    - content: Power Platform service administrator
+    - content: Microsoft Power Platform service administrator
       isCorrect: false 
-      explanation: The Power Platform service administrator is capable and responsible for configuring certain tenant settings.
+      explanation: Microsoft Power Platform service administrator is capable and responsible for configuring certain tenant settings.
     - content: Power BI billing administrator
       isCorrect: true 
       explanation: The Power BI billing administrator is responsible for administrating BI billing and not configuring tenant settings.

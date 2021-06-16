@@ -60,7 +60,7 @@ quiz:
     - content: Configure the extension when you build a Power Automate flow. 
       isCorrect: false
       explanation: You can't configure an OpenAPI extension in the Power Automate designer. 
-    - content: Use the Power Platform command-line tool and the editor of your choice. 
+    - content: Use Microsoft Power Platform command-line tool and the editor of your choice. 
       isCorrect: true 
       explanation: This option allows you to download the definition, make the changes, and update the custom connector definition without using the Swagger editor. 
     - content: Use Solution explorer to configure the extension.

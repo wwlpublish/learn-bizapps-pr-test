@@ -13,7 +13,7 @@ Over 100 standard tests for the Web Client and over 50 tests for the Unified Int
 
 ### Functionality Covered
 
-- Activity Record Wall
+- Activity Row Wall
 
 - Business Process Flow
 

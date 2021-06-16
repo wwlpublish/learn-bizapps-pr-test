@@ -13,20 +13,20 @@ particular job or service call.
 The following list describes the button trigger tokens that are available for
 you to use when creating your button flows.
 
-| Parameter        | Description                                                                     |
-|------------------|---------------------------------------------------------------------------------|
-| City             | The city in which the device that's running the flow is located.                |
-| Country/Region | The country/region in which the device that's running the flow is located.      |
-| Full address     | The full address where the device that's running the flow is located.           |
-| Latitude         | The latitude in which the device that's running the flow is located.            |
-| Longitude        | The longitude in which the device that's running the flow is located.           |
-| Postal Code      | The postal code in which the device that's running the flow is located.         |
-| State            | The state in which the device that's running the flow is located.               |
-| Street           | The street on which the device that's running the flow is located.              |
-| Timestamp        | The time in the area where the device that's running the flow is located.       |
-| Date             | The date in the area where the device that's running the flow is located.       |
-| Username         | The username of the person who is signed in to the device that's running the flow.      |
-| User email       | The email address of the person who is signed in to the device that's running the flow. |
+| Parameter | Description |
+|-----------|-------------|
+| City | The city in which the device that's running the flow is located. |
+| Country/Region | The country/region in which the device that's running the flow is located. |
+| Full address | The full address where the device that's running the flow is located. |
+| Latitude | The latitude in which the device that's running the flow is located. |
+| Longitude | The longitude in which the device that's running the flow is located. |
+| Postal Code | The postal code in which the device that's running the flow is located. |
+| State | The state in which the device that's running the flow is located. |
+| Street | The street on which the device that's running the flow is located. |
+| Timestamp | The time in the area where the device that's running the flow is located. |
+| Date | The date in the area where the device that's running the flow is located. |
+| Username | The username of the person who is signed in to the device that's running the flow. |
+| User email | The email address of the person who is signed in to the device that's running the flow. |
 
 Trigger tokens provide you with rich functionality to add to your flow
 when you create a button. Consider a scenario where you want to
@@ -79,7 +79,8 @@ your Android or IOS smart phone.
 
    Your flow should resemble the following image.
 
-   ![Screenshot of the first flow completed.](../media/first-flow-completed-view.png)
+   > [!div class="mx-imgBorder"]
+   > [![Screenshot of the first flow after it's completed.](../media/first-flow-completed-view.png)](../media/first-flow-completed-view.png#lightbox)
 
 1. When you select the **Buttons** option that is available on the bottom of the page, you should see a circular button called **Late to work**. When you select the button, you can add the **Reason** and then select **Done** in the upper right of the screen.
 

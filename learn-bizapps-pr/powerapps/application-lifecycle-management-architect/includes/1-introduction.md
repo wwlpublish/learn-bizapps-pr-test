@@ -4,7 +4,7 @@ The application life cycle is the cyclical software development process that inv
 
 This module explains how you can define your environment structure, compose your solutions, develop your application lifecycle management (ALM) strategy, and then use the build and release pipelines in Microsoft Azure Pipelines, one of the services of Azure DevOps.
 
-## Application lifecycle management with Power Platform
+## Application lifecycle management with Microsoft Power Platform
 
 Microsoft uses solutions to package apps and customizations and export from one Microsoft Dataverse environment as a file and then import that solution package file into another Dataverse environment. The solution packaging supports different scenarios from simple changes to fully automated release management. Microsoft uses the same method for packaging its own apps and updates.
 
@@ -18,7 +18,7 @@ The following concepts are important for understanding ALM by using Microsoft Po
 
 ## Microsoft's vision
 
-The Power Platform vision for ALM is to enable apps and customizations to be deployed through automated processes: 
+Microsoft Power Platform vision for ALM is to enable apps and customizations to be deployed through automated processes: 
 
 - **Quick Start** - Enable app builders to be set up with an environment with the latest build, connect to source control, and make a change quickly.
 - **Build** - Simplify tooling, consolidate portals, and speed up inner loop.
@@ -26,11 +26,11 @@ The Power Platform vision for ALM is to enable apps and customizations to be dep
 - **Manage** - Invest in other environment management capabilities to offer more flexibility for app builders to use and dispose preconfigured environments as needed.
 - **Monitor** - Application telemetry and feedback loop by design.
 
-Solution architects should understand the vision and journey that Microsoft is on to shape how ALM is done for Power Platform projects.  As this journey evolves, solution architects should continue to shape their own plans to apply the capabilities that are provided by the platform and tools.
+Solution architects should understand the vision and journey that Microsoft is on to shape how ALM is done for Microsoft Power Platform projects.  As this journey evolves, solution architects should continue to shape their own plans to apply the capabilities that are provided by the platform and tools.
 
 ## Solution architect role
 
-Solution architects for Power Platform need to define the environment strategy and application lifecycle management for transporting work from development to test to production.
+Solution architects for Microsoft Power Platform need to define the environment strategy and application lifecycle management for transporting work from development to test to production.
 
 The solution architect should:
 

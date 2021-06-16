@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.power-automate-architecture
 metadata: 
- title: "Solution Architect series: Explore Power Automate architecture"
+ title: "Explore Power Automate architecture"
  description: Explore the architecture of Microsoft Power Automate.
  ms.date: 04/19/2021
  author: DaveBeasley  
  ms.author: dbeasley 
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform-solution-architect
-title: "Solution Architect series: Explore Power Automate architecture"
+title: "Explore Power Automate architecture"
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Solution architects are responsible for a solution’s overall design. Understanding the capabilities of Power Automate is imperative when designing the automation for the solution. This module focuses on Power Automate and its capabilities.
@@ -23,6 +23,7 @@ levels:
 - advanced
 roles:  
 - solution-architect
+- functional-consultant
 products:    
 - power-automate
 - power-platform

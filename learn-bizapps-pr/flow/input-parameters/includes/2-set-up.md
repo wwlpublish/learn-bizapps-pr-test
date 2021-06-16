@@ -4,17 +4,17 @@ If you have completed the *Build your first Power Automate Desktop flow* module,
 
 ## Create a trial environment with database
 
-After you have successfully signed in to a valid tenant, go to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/environments/?azure-portal=true). You will need to create a trial environment with a database. Select **Environments** and then select your automatically created environment, **Demo (default)**.
+After you have successfully signed in to a valid tenant, go to the [Microsoft Power Platform admin center](https://admin.powerplatform.microsoft.com/environments/?azure-portal=true). You will need to create a trial environment with a database. Select **Environments** and then select your automatically created environment, **Demo (default)**.
 
 If you are using an existing tenant rather than creating a trial for this exercise, you can use the default environment or create a new one to keep it separate from your existing solutions.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Power Platform admin center with the Environments page selected.](../media/1-environments.png)](../media/1-environments.png#lightbox)
+> [![Screenshot of Microsoft Power Platform admin center with the Environments page selected.](../media/1-environments.png)](../media/1-environments.png#lightbox)
 
 Now that you are in your chosen environment, add a database by selecting **Add database**. In the subsequent dialog box, you can specify the requested values but can keep the defaults. Select **Add**. You might be prompted to sign in again before creating your database, after which your database should provision appropriately.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power Platform admin center Add database dialog box.](../media/2-database.png)](../media/2-database.png#lightbox)
+> [![Screenshot of Microsoft Power Platform admin center Add database dialog box.](../media/2-database.png)](../media/2-database.png#lightbox)
 
 Creating your database might take up to one minute; afterward, you can continue to the next steps.
 

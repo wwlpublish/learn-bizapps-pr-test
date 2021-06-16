@@ -14,7 +14,7 @@ summary: |
   Work with triggers and actions to extend Power Automate and Dataverse. This Learning Path looks at how to use these features with your flows. 
 prerequisites: |
   - A basic understanding of Microsoft Power Automate. 
-  - Familiarity with Power Platform, Power Apps, and Azure Logic Apps
+  - Familiarity with Microsoft Power Platform, Power Apps, and Azure Logic Apps
 iconUrl: /learn/achievements/integrate-dataverse-power-automate.svg
 levels:
 - intermediate

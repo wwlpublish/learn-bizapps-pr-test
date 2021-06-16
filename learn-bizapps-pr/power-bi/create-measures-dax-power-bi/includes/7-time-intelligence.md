@@ -3,11 +3,11 @@ All data analysts will have to deal with time. Dates are important, so we highly
 While some time calculations are simple to do in DAX, others are more difficult. For instance, the following screenshot shows what happens if you want to display a running total.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot example of a running total in DAX.](../media/02-running-total-ss.png)](../media/02-running-total-ss.png#lightbox)
+> [![Running total in DAX](../media/02-running-total-ss.png)](../media/02-running-total-ss.png#lightbox)
 
 Notice that the totals increment for each month but then reset when the year changes. In other programming languages, this result can be fairly complicated, often involving several variables and looping through code. DAX makes this process fairly simple, as shown in the following example:
 
-```dax
+```
 YTD Total Sales = TOTALYTD 
 ( 
     SUM('Sales OrderDetails'[Total Price]) 
@@ -19,7 +19,7 @@ The **YTD Total Sales** measure uses a built-in DAX function called TOTALYTD. Th
 
 Another example of working with time would be comparing your current sales with the sales of a previous time period. For instance, if you want to see the total sales of the month next to the total sales of the prior month, you would enter the DAX measure definition, as shown in the following example:
 
-```dax
+```
 Total Sales Previous Month = CALCULATE
 (
     sum('Sales OrderDetails'[Total Price])
@@ -32,6 +32,6 @@ This measure uses the CALCULATE function, indicating that you're overriding the 
 The following screenshot shows the results in a table visual.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot showing the results in a table visual.](../media/02-previous-month-ss.png)](../media/02-previous-month-ss.png#lightbox)
+> [![PREVIOUSMONTH DAX](../media/02-previous-month-ss.png)](../media/02-previous-month-ss.png#lightbox)
 
 When you examine the months side-by-side, notice that the total sales for July compare to the total sales for June.

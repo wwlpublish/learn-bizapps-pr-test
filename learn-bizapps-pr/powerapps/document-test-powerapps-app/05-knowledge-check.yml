@@ -3,9 +3,9 @@ uid: learn-bizapps.use-documentation.05-knowledge-check
 metadata: 
   title: Document and test your Power Apps application check your knowledge
   description: This quiz tests your knowledge of documentation and testing.
-  ms.date: 02/14/2019 
-  author: kevsch 
-  ms.author: Kschimke 
+  ms.date: 06/01/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365 
    
@@ -58,7 +58,7 @@ quiz:
       explanation: This is referred to as quality assurance.
   - content: You need to optimize the quick search view. What should you do?
     choices: 
-    - content: Exclude test fields 
+    - content: Exclude test columns 
       isCorrect: false 
       explanation: You should only include columns that need to be searched. 
     - content: Include all columns available

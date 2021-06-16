@@ -1,4 +1,4 @@
-Power Automate should be your go-to tool for automation and custom logic on Power Platform projects.
+Power Automate should be your go-to tool for automation and custom logic on Microsoft Power Platform projects.
 
 Solution architects should work with their teams to ensure consistency in use and then use flow reviews to improve quality.
 

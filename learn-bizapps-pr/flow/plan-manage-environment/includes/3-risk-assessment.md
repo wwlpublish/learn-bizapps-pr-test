@@ -3,7 +3,7 @@ establishing cyber security policies and managing risk through a
 quantitative process. If your organization has an existing risk
 assessment, we recommend that you first review that assessment to see if it can be
 used. One situation that you definitely should avoid is creating something for 
-Power Platform that isn't aligned to a broader cyber security risk assessment.
+Microsoft Power Platform that isn't aligned to a broader cyber security risk assessment.
 
 Otherwise, the following sections highlight some considerations that you can use 
 to establish a lightweight risk assessment process that helps you track, measure, 
@@ -40,8 +40,8 @@ exceptions, quantifying their exposure, assigning accountability to
 address risk, and then reviewing risks regularly, an organization can
 truly manage their risks and seek continuous improvement.
 
-Some organizations have used Power Platform to enable this
-process. As explained in the Introduction to Power Platform security 
+Some organizations have used Microsoft Power Platform to enable this
+process. As explained in the Introduction to Microsoft Power Platform security 
 and governance module, the Center of Excellence Starter Kit
 includes the Developer Compliance Center, which helps organizations
 manage the deployment of new applications and seeks the makers of

@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 07/16/2020 
+ ms.date: 06/01/2021 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -13,7 +13,7 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following options is not a valid table list view?
+  - content: Which of the following options is not a valid entity list view?
     choices: 
     - content: Map view
       isCorrect: false 
@@ -27,15 +27,15 @@ quiz:
     - content: Grid list view
       isCorrect: false 
       explanation: Views can be rendered as traditional grid lists, a calendar, or a map. Delivering list content as an OData feed is also supported.
-  - content: You have created a Contact Us table form and want to ensure that users are redirected to a Thank You page after successful submission. How can you achieve this task?
+  - content: You have created a Contact Us entity form and want to ensure that users are redirected to a Thank You page after successful submission. How can you achieve this task?
     choices: 
-    - content: Change the table form title to "Contact Us - Thank You."
+    - content: Change the entity form title to "Contact Us - Thank You."
       isCorrect: false 
       explanation: The On Success Settings feature defines behavior on the form on successful submission. Options are to display a message or to redirect to another page or URL.
-    - content: Set the Table Form column to Thank You Page on the Contact Us table form.
+    - content: Set the Entity Form column to Thank You Page on the Contact Us entity form.
       isCorrect: false 
       explanation: The On Success Settings feature defines behavior on the form on successful submission. Options are to display a message or to redirect to another page or URL.
-    - content: Add a redirect step to the table form.
+    - content: Add a redirect step to the entity form.
       isCorrect: false 
       explanation: The On Success Settings feature defines behavior on the form on successful submission. Options are to display a message or to redirect to another page or URL.
     - content: Configure On Success Settings to redirect to a Thank You page.
@@ -59,13 +59,13 @@ quiz:
     choices: 
     - content: Add a real-time workflow on the Delete button and invoke the Escalate Case workflow as the first step. Rename the Delete button to Escalate.
       isCorrect: false 
-      explanation: Table lists, table forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Microsoft Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
+      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Microsoft Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
     - content: Ask a developer to write JavaScript that invokes the Escalate Case workflow.
       isCorrect: false 
-      explanation: Table lists, table forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
+      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
     - content: Add the Workflow action under the Action Button Configuration feature.
       isCorrect: true 
-      explanation: Table lists, table forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
+      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
     - content: Background workflows are not available in Power Apps portals.
       isCorrect: false 
-      explanation: Table lists, table forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.
+      explanation: Entity lists, entity forms, and web forms include the Action Button Configuration feature, which adds actions for each record. The Workflow action runs a classic Dataverse workflow of your choice against the record. Both background and real-time workflows are supported.

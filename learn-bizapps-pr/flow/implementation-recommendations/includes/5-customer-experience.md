@@ -17,7 +17,7 @@ Another popular use case that organizations face when creating DLP policies is s
 
 **\* Optional** - Depending on whether an organization uses these tools or not, these connectors are often used to support digital signatures for contracts that might be generated from Dynamics 365.
 
-The following connectors do not contain Dynamics 365 business data, but administrators should consider placing them in the Business data group. These connectors automate approvals, content conversions, power platform management, and cyber security processes.
+The following connectors do not contain Dynamics 365 business data, but administrators should consider placing them in the Business data group. These connectors automate approvals, content conversions, Microsoft Power Platform management, and cyber security processes.
 
 |     Connector name                  |     Purpose                                                                                                                                                                                                                                                                                                                                  |
 |-------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|

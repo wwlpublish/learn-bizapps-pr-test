@@ -4,9 +4,9 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 03/12/2020 
- author: KevSch 
- ms.author: kschimke 
+ ms.date: 01/05/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
 durationInMinutes: 6 
@@ -27,7 +27,7 @@ quiz:
     - content: It is not possible to list the custom connectors in a tenant.
       isCorrect: false 
       explanation: The Get-AdminPowerAppConnector PowerShell cmdlet will list all custom connectors in a tenant.
-  - content: What is the maximum data retention period for Admin Analytics that is found in the Power Platform Admin center?
+  - content: What is the maximum data retention period for Admin Analytics that is found in Microsoft Power Platform Admin center?
     choices: 
     - content: 14 days
       isCorrect: false
@@ -45,13 +45,13 @@ quiz:
     choices: 
     - content: Run the Get-ErrorsForEnvironment PowerShell cmdlet.
       isCorrect: false
-      explanation: In the Errors report that is found in the Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.
-    - content: View the Errors report that is found in the Power Platform Admin center - Admin Analytics feature.
+      explanation: In the Errors report that is found in Microsoft Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.
+    - content: View the Errors report that is found in Microsoft Power Platform Admin center - Admin Analytics feature.
       isCorrect: true
-      explanation: In the Errors report that is found in the Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.
+      explanation: In the Errors report that is found in Microsoft Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.
     - content: Search the Office 365 Security and Compliance logs.
       isCorrect: false 
-      explanation: In the Errors report that is found in the Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.
+      explanation: In the Errors report that is found in Microsoft Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.
     - content: Currently, no method exists for finding all flow errors for an environment; a method only exists for a tenant.
       isCorrect: false
-      explanation: In the Errors report that is found in the Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.
+      explanation: In the Errors report that is found in Microsoft Power Platform Admin center, administrators will be able to view all flow errors over the past 28 days.

@@ -59,7 +59,7 @@ appointment and sends the attendees an email letting them know that you are runn
 
 1. In the **Body** field, enter the following text:
 
-    ```c
+    ```txt
     Hi there,
 
     I'm running a little late for our meeting.

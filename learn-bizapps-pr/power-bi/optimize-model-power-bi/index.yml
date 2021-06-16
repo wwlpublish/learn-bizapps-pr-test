@@ -3,7 +3,7 @@ uid: learn-bizapps.optimize-model-power-bi
 metadata: 
  title: Optimize a model for performance in Power BI 
  description: Data Analysis eXpression (DAX) language is a key feature of Power BI. It is used to create calculated columns, calculated tables, and measures. In this module, you will learn how to use DAX to solve typical analytics problems. You will learn about one of the most popular DAX functions, CALCULATE, and how it can override the default behavior of Power BI. 
- ms.date: 6/30/2020  
+ ms.date: 06/10/2021
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  

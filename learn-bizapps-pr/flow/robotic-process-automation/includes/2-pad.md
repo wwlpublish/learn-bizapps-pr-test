@@ -42,7 +42,7 @@ Further settings for browsers should be configured as well. These settings are d
 
 ## Requirements
 
-Power Automate Desktop requires access to a Power Platform environment that has a Microsoft Dataverse database. You might need to create a database for the default environment if one doesn't already exist.
+Power Automate Desktop requires access to a Microsoft Power Platform environment that has a Microsoft Dataverse database. You might need to create a database for the default environment if one doesn't already exist.
 
 ## Solutions
 

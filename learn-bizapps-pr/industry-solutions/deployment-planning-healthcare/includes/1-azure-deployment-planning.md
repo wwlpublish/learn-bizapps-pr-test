@@ -2,7 +2,7 @@ Currently, the Microsoft Cloud for Healthcare applications are only supported on
 
 ## Microsoft Azure
 
-Microsoft Azure is a cloud-based platform that is the foundation for applications, databases, and services. Microsoft services such as Microsoft 365, Power Platform, and other services run on Microsoft Azure. IT professionals can create and provision their own solutions by using Microsoft Azure.
+Microsoft Azure is a cloud-based platform that is the foundation for applications, databases, and services. Microsoft services such as Microsoft 365, Microsoft Power Platform, and other services run on Microsoft Azure. IT professionals can create and provision their own solutions by using Microsoft Azure.
 
 Azure API for FHIR (fast healthcare interoperability resources) and Azure Health Bot are features of Microsoft Cloud for Healthcare that are powered by Microsoft Azure.
 

@@ -1,6 +1,6 @@
 There are many types of testing that you should consider in your deployment planning. Each of these can be done either casually, or formally with a well-documented process to follow. Often in different deployments these will have slightly different expectations. Some testing options are manual (user adoption testing), and some are automated (load testing).
 
-**Unit testing-** this is the smallest component of testing, a single unit of measure. Often this is thought to be a developer’s job. However, every person on a project should include this in their work. An example of unit testing could be: You are given a requirement to add a calculated field to a form. Before you advance the task to the testing team, you would confirm the field was on the form as expected and test that the calculation was as expected.
+**Unit testing-** this is the smallest component of testing, a single unit of measure. Often this is thought to be a developer’s job. However, every person on a project should include this in their work. An example of unit testing could be: You are given a requirement to add a calculated column to a form. Before you advance the task to the testing team, you would confirm the column was on the form as expected and test that the calculation was as expected.
 
 **Quality assurance testing**- sometimes called QA, this is when someone independently tests the task by reviewing the expectation against the work performed. Often there will be testing of the smallest components, such as the units mentioned above and also testing of a full end-to-end user story. 
 
@@ -29,13 +29,13 @@ There may be times when the needed environment is not available at the time of t
 
 ## Security
 
-In creating a testing plan, it is important to consider all of the user personas that will use the application and test from the correct security roles. Common considerations on security include determining relevant security roles, field security profiles, business unit membership, and team membership. The testers mean of authenticating should be the same as the production users. For example, if users will access the application through a VPN, testing needs to be completed over VPN. 
+In creating a testing plan, it is important to consider all of the user personas that will use the application and test from the correct security roles. Common considerations on security include determining relevant security roles, column security profiles, business unit membership, and team membership. The testers mean of authenticating should be the same as the production users. For example, if users will access the application through a VPN, testing needs to be completed over VPN. 
 
 ## Dependencies
 
-Consider data dependencies such as child records needed to populate lookups. If needed data is uncovered during testing be sure to note it so, you can remember to make the data available to users during user acceptance testing and the rollout to production. 
+Consider data dependencies such as child rows needed to populate lookups. If needed data is uncovered during testing be sure to note it so, you can remember to make the data available to users during user acceptance testing and the rollout to production. 
 
-Be mindful of customizations that reference specific records such as a specific account or custom child record. If a customization such as a workflow or business rule relies on a specific record that record will need to be migrated, so the GUID is the same in both environments. Using the data import wizard will replicate the data in the new environment with a different GUID. 
+Be mindful of customizations that reference specific rows such as a specific account or custom child row. If a customization such as a workflow or business rule relies on a specific row that row will need to be migrated, so the GUID is the same in both environments. Using the data import wizard will replicate the data in the new environment with a different GUID. 
 
 ## Solution Awareness
 

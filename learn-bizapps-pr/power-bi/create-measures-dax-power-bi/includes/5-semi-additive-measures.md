@@ -4,7 +4,7 @@ Occasionally, summing a measure doesn't make sense, such as when you are perform
 
 You can use the CALCULATE function to complete this action, along with the LastDate function, as shown in the following example:
 
-```dax
+```
 Last Inventory Count =
 CALCULATE (
     SUM ( 'Warehouse'[Inventory Count] ),

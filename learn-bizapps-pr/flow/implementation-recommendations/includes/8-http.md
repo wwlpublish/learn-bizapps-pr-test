@@ -1,4 +1,4 @@
-HTTP triggers and actions are considered built into the Power Platform and by default, don’t appear as connectors in the DLP policy editor. However, because of customer needs and past feedback, it is possible to manage the triggers/actions that are shown in the following image.
+HTTP triggers and actions are considered built into Microsoft Power Platform and by default, don’t appear as connectors in the DLP policy editor. However, because of customer needs and past feedback, it is possible to manage the triggers/actions that are shown in the following image.
 
 ![Screenshot of H T T P, When a H T T P request is received, and H T T P Webhook.](../media/4-http.png)
 
@@ -9,7 +9,7 @@ the **Non-business** data group, then any flows that are using this configuratio
 
 By using this new schema version, DLP policies can be constructed by using either of the following tables:
 
-- Power Platform Management connector
+- Microsoft Power Platform Management connector
 
 - Power Apps and Power Automate PowerShell cmdlets
 

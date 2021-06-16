@@ -41,20 +41,6 @@ quiz:
     - content: Triggers can be added only to conditions.
       isCorrect: false
       explanation: Triggers can be added to actions and conditions.
-  - content: What is the input requirement for the Get Manager connector to work?
-    choices: 
-    - content: Your City or Full address information
-      isCorrect: false
-      explanation: User principal name or email ID is needed for the Get Manager connector to work.
-    - content: User principal name or email ID
-      isCorrect: true
-      explanation: User principal name or email ID is needed for the Get Manager connector to work.
-    - content: Timestamp
-      isCorrect: false 
-      explanation: User principal name or email ID is needed for the Get Manager connector to work.
-    - content: Full address, Date, and Timestamp
-      isCorrect: false 
-      explanation: User principal name or email ID is needed for the Get Manager connector to work.
   - content: If a user property such as city or phone number is missing, where can you update this information?
     choices: 
     - content: In Azure Active Directory or Office 365 User 

@@ -17,8 +17,7 @@ abstract: |
     - Learn how to create processes that manage files and folders.
     - Learn how to manage the properties of multiple files and folders.
 prerequisites: |
-    - Basic familiarity with Power Automate Desktop
-    - Basic familiarity with managing files, folders, and paths
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), and familiarity with managing files, folders and paths.
 iconUrl: /learn/achievements/pad-files-folders-handling.svg  
 levels:  
 - beginner   

@@ -13,7 +13,7 @@ See [Create your first app](https://www.youtube.com/watch?v=88FlPT7XbP0) if you'
 ## Licensing 
 
 
-To learn more about licensing in the Power Platform review the following links:
+To learn more about licensing in Microsoft Power Platform review the following links:
 
 [Microsoft Power Platform licensing overview](https://docs.microsoft.com/power-platform/admin/pricing-billing-skus)
 

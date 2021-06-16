@@ -3,7 +3,7 @@ The Return to Workplace apps require their own environment for deployment. The R
 > [!div class="mx-imgBorder"]
 > [![Screenshot from Microsoft AppSource page where you can get the solutions.](../media/appsource.png)](../media/appsource.png#lightbox)
 
-For the more experienced Dynamics 365 or Power Platform consultant, the steps should be simple to follow. From a high level, you should complete the following tasks:
+For the more experienced Dynamics 365 or Microsoft Power Platform consultant, the steps should be simple to follow. From a high level, you should complete the following tasks:
 
 1.  Create a Dataverse environment that is unique for this purpose.
 

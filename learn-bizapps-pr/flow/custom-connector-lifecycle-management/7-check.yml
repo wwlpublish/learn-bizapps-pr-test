@@ -39,13 +39,13 @@ quiz:
     choices: 
     - content: Import the custom connector from GitHub. 
       isCorrect: false
-      explanation: You would use Power Platform Connector CLI.
+      explanation: You would use Microsoft Power Platform Connector CLI.
     - content: Export the solution from the development environment. 
       isCorrect: false 
-      explanation: You would use Power Platform Connector CLI. 
-    - content: Download the files with Power Platform Connector CLI. 
+      explanation: You would use Microsoft Power Platform Connector CLI. 
+    - content: Download the files with Microsoft Power Platform Connector CLI. 
       isCorrect: true 
-      explanation: Power Platform Connector CLI downloads the files from your development environment.
+      explanation: Microsoft Power Platform Connector CLI downloads the files from your development environment.
   - content: When you are updating a custom connector definition, which of the following would not be a breaking change? 
     choices: 
     - content: Removing an input parameter. 

@@ -6,7 +6,7 @@ In the example below, an organization has a business need for SharePoint to stor
 
 The first step in accomplishing directional data governance is to create a DLP policy, from the [Power Automate Admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true), that includes the SharePoint and Twitter connectors in the **Business** data group. By using this configuration, you are allowing makers to build flows that include both of these connectors.
 
-![Screenshot of Power Platform Admin center Data policies page on the Assign connectors step showing Twitter and SharePoint options.](../media/17-twitter-sharepoint-update.png)
+![Screenshot of Microsoft Power Platform Admin center Data policies page on the Assign connectors step showing Twitter and SharePoint options.](../media/17-twitter-sharepoint-update.png)
 
 Next, you will transition to the [Power Automate Maker Portal](https://flow.microsoft.com/?azure-portal=true)
 and sign in by using your administrator account so you can build your governance flow. Your goal is to build

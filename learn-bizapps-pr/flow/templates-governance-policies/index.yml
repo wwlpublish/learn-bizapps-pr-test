@@ -1,17 +1,17 @@
 ### YamlMime:Module 
 uid: learn-bizapps.templates-governance-policies 
 metadata: 
- title: Use templates to enforce governance policies in Power Platform
- description: Learn about templates in Power Platform.
+ title: Use templates to enforce governance policies in Microsoft Power Platform
+ description: Learn about templates in Microsoft Power Platform.
  ms.date: 01/05/2021
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform  
-title: Use templates to enforce governance policies in Power Platform  
+title: Use templates to enforce governance policies in Microsoft Power Platform  
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Microsoft provides many templates in Power Platform that administrators can use to enforce governance policies and increase visibility of assets that are being created within a customer’s tenant. This module will identify some existing templates that you can use to provide administrators with greater visibility.
+  Microsoft provides many templates in Microsoft Power Platform that administrators can use to enforce governance policies and increase visibility of assets that are being created within a customer’s tenant. This module will identify some existing templates that you can use to provide administrators with greater visibility.
 abstract: |  
     In this module, you will: 
     - Identify existing templates that aid in security and governance processes.

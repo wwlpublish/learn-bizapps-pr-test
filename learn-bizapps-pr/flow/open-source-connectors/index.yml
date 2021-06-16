@@ -2,7 +2,7 @@
 uid: learn-bizapps.open-source-connectors 
 metadata: 
  title: Certify and create open-source a Power Automate custom connector
- description: Learn how to make your custom connector available to all users in the Microsoft Power Platform GitHub repository.
+ description: Learn how to make your custom connector available to all users in Microsoft Power Platform GitHub repository.
  ms.date: 03/30/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,7 +11,7 @@ metadata:
 title: Certify and create open-source a Power Automate custom connector
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn how to make your custom connector available to all users in the Microsoft Power Platform GitHub repository.
+  Learn how to make your custom connector available to all users in Microsoft Power Platform GitHub repository.
 abstract: |  
     In this module, you will: 
     - Learn when to create an open-source custom connector.
