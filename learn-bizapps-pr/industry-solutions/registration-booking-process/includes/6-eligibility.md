@@ -244,6 +244,7 @@ In this task, you will edit the current eligibility logic to consider the respon
 	> [![Screenshot example of the final workflow.](../media/activate.png)](../media/activate.png#lightbox)
 
 ## Task 4: Restart the portal and verify your changes
+In this task, you will restart the portal and verify your changes. 
 
 1. In the same browser where you have signed in to the lab environment, open a new tab and go to [https://admin.powerplatform.microsoft.com/](https://admin.powerplatform.microsoft.com/).
 
