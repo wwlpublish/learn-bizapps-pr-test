@@ -15,7 +15,7 @@ quiz:
   questions: 
   - content: What is a risk of having null values in a numeric column? 
     choices: 
-    - content: That funtion SUM of data will be incorrect. 
+    - content: That function SUM of data will be incorrect. 
       isCorrect: false
       explanation: This is incorrect. SUM will ignore NULL values and calculate correctly. 
     - content: That function MAX of data will be incorrect. 
