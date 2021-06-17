@@ -3,7 +3,7 @@ uid: learn-bizapps.post-deployment-configuration.4-exercise
 title: Configure flow connections
 metadata: 
   title: Configure flow connections
-  description: Learn to automate business processes such as sending registration confirmation emails, appointment reminder emails, vaccine dose reminder emails, and bulk appointment slots creation.
+  description: Learn how to automate business processes such as sending registration confirmation emails, appointment reminder emails, vaccine dose reminder emails, and creating bulk appointment slots.
   ms.date: 06/14/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
