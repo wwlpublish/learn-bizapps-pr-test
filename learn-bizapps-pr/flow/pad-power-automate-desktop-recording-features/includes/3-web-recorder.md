@@ -4,7 +4,7 @@ The flow will convert a set amount of USA dollars to euros using the MSN currenc
 
 To record the flow:
 
-1. Create a new desktop flow, select Web recorder in the flow designer, and select the web browser to use for the recording.
+1. Create a new desktop flow, select **Web recorder** in the flow designer, and select the web browser to use for the recording.
 
     ![The Specify web browser instance to use dialog.](..\media\web-recorder-instance-selection-dialog.png)
 
