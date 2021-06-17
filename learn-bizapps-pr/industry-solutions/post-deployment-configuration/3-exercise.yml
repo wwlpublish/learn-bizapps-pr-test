@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.post-deployment-configuration.3-exercise 
-title: Exercise - Power Portal configuration
+title: Exercise - Power Apps portals configuration
 metadata: 
   title: Exercise - Power Portal configuration
-  description: Walk through the steps to update Bing API key and map settings, update the portal binding, and enable the virtual waiting room.
+  description: Practice updating Bing API key and map settings, updating the portal binding, and enabling the virtual waiting room.
   ms.date: 06/14/2021 
   author: DaveBeasley 
   ms.author: dbeasley 
