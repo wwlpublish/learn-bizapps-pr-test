@@ -1,6 +1,4 @@
-To become familiar with the web recorder, follow the presented instructions to develop a web-based flow. 
-
-The flow will convert a set amount of USA dollars to euros using the MSN currency converter tool.
+To become familiar with the web recorder, follow the presented instructions to develop a web-based flow. The flow will convert a set amount of USA dollars to euros using the MSN currency converter tool.
 
 To record the flow:
 
