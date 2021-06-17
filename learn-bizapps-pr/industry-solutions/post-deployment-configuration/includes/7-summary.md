@@ -1,11 +1,13 @@
-In this set of exercises, you learned about the post-deployment configurations available in Microsoft Vaccination Management. You learned to:
+In these exercises, you learned about the post-deployment configurations that are available in Microsoft Vaccination Management. 
 
-- Explore and Enable MVM Workflows.
+Additionally, you learned how to:
 
-- Update MVM Portal bindings and Bing map settings.
+- Explore and enable Microsoft Vaccination Management workflows.
 
-- Enable, configure, and customize the MVM Power Automate Flows.
+- Update Microsoft Vaccination Management portal bindings and Bing Maps settings.
 
-- Integrate MVM Power Automate Email flows with a bulk email service connector.
+- Enable, configure, and customize Power Automate flows in Microsoft Vaccination Management.
 
-In the next set of exercises, you'll learn how set up vaccination site data using the Vaccination Management App.
+- Integrate Power Automate email flows in Microsoft Vaccination Management with a bulk email service connector.
+
+In the next set of exercises, you'll learn how to set up vaccination site data by using the Vaccination management app.
