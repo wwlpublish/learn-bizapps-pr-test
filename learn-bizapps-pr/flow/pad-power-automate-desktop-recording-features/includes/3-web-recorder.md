@@ -1,5 +1,8 @@
 Let’s use the **web recorder** to automate a web-based flow. This flow includes logging into a web portal, configuring and generating a report, and logging out.
 
+> [!NOTE]
+> To develop the flow presented in this unit, you have to own an account in [Ιnvoicely](https://ssolutions.invoicely.com/). If you don't, you can create a new one free of charge.
+
 First, we will launch our browser of choice, and visit the web portal. Then, we may start the web recorder in the designer window, and attach it to the browser:
 
 ![Screenshot of the Specify web browser instance to use dialog.](..\media\web-recorder-instance-selection-continued.png)
