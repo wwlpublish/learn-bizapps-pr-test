@@ -10,7 +10,7 @@ To record the flow:
 
     ![The MSN currency converter page.](..\media\msn-currency-converter-page.png)
 
-1. Select **Record** in the web recorder and set the drop-down menus of the converter to **United States Dollar** and **Euro**, respectively1.
+1. Select **Record** in the web recorder, and set the drop-down menus of the converter to **United States Dollar** and **Euro**, respectively.
 
     ![The currency drop-down menus in the MSN currency converter page.](..\media\msn-currency-converter-page-drop-down-menus.png)
 
