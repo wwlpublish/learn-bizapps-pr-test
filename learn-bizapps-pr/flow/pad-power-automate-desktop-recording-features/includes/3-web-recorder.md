@@ -24,4 +24,4 @@ To record the flow:
 
 1. Finally, press **Finish** to add all the automatically generated actions to the flow. These actions are no different from any others: they can be moved, edited, or deleted.
 
-    ![The generated action in the workspace.](..\media\web-recorder-generated-actions.png)
+    ![The generated action in the workspace.](..\media\web-recorder-generated-actions-workspace.png)
