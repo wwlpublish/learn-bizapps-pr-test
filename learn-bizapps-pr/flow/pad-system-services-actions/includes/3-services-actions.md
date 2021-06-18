@@ -7,6 +7,6 @@ This group contains four actions:
 - Pause service
 - Resume service
 
-All actions of the group require the service name as input and don't return any output.
+All actions of the group require the service name as input. Enter the name of a service, or select one from the drop-down list. None of the actions return any output.
 
 ![Screenshot of the start service action properties.](..\media\start-service-action-properties.png)
