@@ -50,7 +50,7 @@ To ping a remote computer, use the **Ping** action. Specify the remote computer 
 
 ![Screenshot of the ping action properties.](..\media\ping-action-properties.png)
 
-Set environment variables with the **Set environment Variable** action. Specify an environment variable, a value to set, and a type (user or system). The **Get environment variable** action retrieves the value of the specified variable name and store it into a variable. The **Delete environment variable** action deletes the variable with the specified name and type.
+Set Windows environment variables with the **Set Windows environment variable** action. Specify an environment variable, a value to set, and a type (user or system). The **Get Windows environment variable** action retrieves the value of the specified variable name and store it into a variable. The **Delete Windows environment variable** action deletes the variable with the specified name and type.
 
 ![Screenshot of the set environment variable action properties.](..\media\set-environment-variable-action-properties.png)
 
