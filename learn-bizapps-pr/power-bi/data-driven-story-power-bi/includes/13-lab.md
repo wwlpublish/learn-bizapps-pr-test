@@ -103,7 +103,7 @@ In this task you'll set up the environment for the lab by opening the starter re
 
 1. Select **Browse Reports**.
 
-1. In the Open window, navigate to the **D:\DA100\Labs\design-report-in-power-bi-desktop-enhanced\Starter** folder.
+1. In the Open window, navigate to the **D:\DA100\Labs\07-design-report-in-power-bi-desktop-enhanced\Starter** folder.
 
 1. Select the **Sales Analysis** file.
 
