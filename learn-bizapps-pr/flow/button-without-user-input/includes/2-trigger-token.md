@@ -7,8 +7,8 @@ When you run a flow from a button on a smart phone, the date,
 time, and current address where the phone is located are
 automatically available for use. You can use these trigger tokens to
 build useful flows that will minimize repetitive tasks such as providing
-your location to someone or tracking how much time that you have spent on a
-particular job/service call.
+your location to someone or tracking how much time you have spent on a
+particular job or service call.
 
 The following table provides a list of button trigger tokens that are available for
 you to use when creating your button flows.
