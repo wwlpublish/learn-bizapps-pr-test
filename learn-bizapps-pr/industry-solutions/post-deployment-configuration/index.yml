@@ -2,7 +2,7 @@
 uid: learn-bizapps.post-deployment-configuration 
 metadata: 
  title: Microsoft Vaccination Management post-deployment configuration
- description: Learn how to update portal bindings and Bing map settings, and to enable, configure, and integrate Microsoft Vaccination Management.
+ description: Learn how to update portal bindings and Bing Maps settings, and learn how to enable, configure, and integrate Microsoft Vaccination Management.
  ms.date: 06/14/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,14 +11,14 @@ metadata:
 title: Microsoft Vaccination Management post-deployment configuration
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Learn how to update portal bindings and Bing map settings, and to enable, configure, and integrate Microsoft Vaccination Management.
+  Learn how to update portal bindings and Bing Maps settings, and learn how to enable, configure, and integrate Microsoft Vaccination Management.
 abstract: |  
     In this module, you will: 
-    - Explore and Enable MVM Workflows.
-    - Learn to update MVM Portal bindings and Bing map settings.
-    - Learn to enable, configure, and customize the MVM Power Automate Flows.
-    - Learn to integrate MVM Power Automate Email flows with a bulk email service connector.  
-prerequisites: You must have Power Apps user credentials.
+    - Explore and enable Microsoft Vaccination Management workflows.
+    - Learn how to update Microsoft Vaccination Management portal bindings and Bing Maps settings.
+    - Learn how to enable, configure, and customize Microsoft Power Automate flows in Microsoft Vaccination Management.
+    - Learn how to integrate Power Automate email flows in Microsoft Vaccination Management with a bulk email service connector.  
+prerequisites: You must have Microsoft Power Apps user credentials.
 iconUrl: /learn/achievements/post-deployment-configuration.svg  
 levels:  
 - beginner   
