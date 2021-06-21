@@ -31,27 +31,27 @@ quiz:
     choices: 
     - content: Receipt
       isCorrect: false
-      explanation: After booking an appointment  resident will receive a QR code to be scanned at the time of the appointment.
+      explanation: After booking an appointment, the resident will receive a QR code to be scanned at the time of the appointment.
     - content: QR code
       isCorrect: true 
-      explanation: After booking an appointment  resident will receive a QR code to be scanned at the time of the appointment.
+      explanation: After booking an appointment, the resident will receive a QR code to be scanned at the time of the appointment.
     - content: Picture
       isCorrect: false 
-      explanation: After booking an appointment  resident will receive a QR code to be scanned at the time of the appointment.
+      explanation: After booking an appointment, the resident will receive a QR code to be scanned at the time of the appointment.
     - content: Nothing
       isCorrect: false 
-      explanation: After booking an appointment  resident will receive a QR code to be scanned at the time of the appointment.
+      explanation: After booking an appointment, the resident will receive a QR code to be scanned at the time of the appointment.
   - content: Where do administrators check registrations?
     choices: 
     - content: Portal
       isCorrect: false
-      explanation: Administrators can check registrations under the Registration area in the Vaccine Management App.
-    - content: Vaccine Management App
+      explanation: Administrators can check registrations under the Registration area in the Vaccination management app.
+    - content: Vaccination management app
       isCorrect: true
-      explanation: Administrators can check registrations under the Registration area in the Vaccine Management App.
-    - content: Frontline Worker App
+      explanation: Administrators can check registrations under the Registration area in the Vaccination management app.
+    - content: Frontline worker app
       isCorrect: false
-      explanation: Administrators can check registrations under the Registration area in the Vaccine Management App.
-    - content: Vaccine Management Dashboard
+      explanation: Administrators can check registrations under the Registration area in the Vaccination management app.
+    - content: Vaccination management dashboard
       isCorrect: false 
-      explanation: Administrators can check registrations under the Registration area in the Vaccine Management App.
+      explanation: Administrators can check registrations under the Registration area in the Vaccination management app.

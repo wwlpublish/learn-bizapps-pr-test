@@ -1,22 +1,22 @@
 ### YamlMime:Module 
 uid: learn-bizapps.registration-booking-process 
 metadata: 
- title: Registration and booking process
+ title: Registration and booking process in Microsoft Vaccination Management
  description: This lab covers Microsoft Vaccination Management user experiences and scenarios.
  ms.date: 06/15/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-healthcare-vaccination  
-title: Registration and booking process 
+title: Registration and booking process in Microsoft Vaccination Management
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  This is the third lab in a series covering Microsoft Vaccination Management (MVM).  These labs follow a sequence of presentations covering an overview of Microsoft Vaccination Management, Solution Center installation, and the accompanying Data model.  Before beginning this lab, confirm that you have provisioned an environment with the necessary components.  
+  This module is the third lab in a series covering Microsoft Vaccination Management. These labs follow a sequence of presentations that provide an overview of Microsoft Vaccination Management, Microsoft Cloud Solution Center installation, and the accompanying data model.
 abstract: |  
     In this module, you will: 
     - Learn about the vaccination management registration and booking capabilities.
     - Check vaccination eligibility and registration.
-    - Book an appointment
+    - Book an appointment.
     - Configure the portal for new questions and scenarios.
 prerequisites: Before beginning this lab, confirm that you have provisioned an environment with the necessary components installed as described in Lab 00. 
 iconUrl: /learn/achievements/registration-booking-process.svg  

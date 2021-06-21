@@ -1,13 +1,13 @@
-This exercise covered the Registration and Booking Process for Microsoft Vaccination Management.
+This module focused on the registration and booking process for Microsoft Vaccination Management.
 
-In this exercise, you learned how to do the following:
+The exercises in this module helped you to:
 
--   Understand Microsoft Vaccination Management Registration and Booking capabilities
+-   Explore the Microsoft Vaccination Management registration and booking capabilities.
 
--   Learn how to check vaccination eligibility and register through the Vaccination Management Portal
+-   Check vaccination eligibility and register through the Vaccination management portal.
 
--   Learn how to book an appointment when you are eligible.
+-   Book an appointment when you are eligible.
 
--   Discover how to configure the Vaccination Management Portal for new questions and scenarios.
+-   Configure the Vaccination management portal for new questions and scenarios.
 
-The next exercise in this series will touch on the Frontline Worker App for onsite vaccination personnel.
+The next exercise in this series will describe the **Frontline worker** app for onsite vaccination personnel.
