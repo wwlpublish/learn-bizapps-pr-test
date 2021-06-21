@@ -59,7 +59,7 @@ quiz:
     choices:
     - content: The Get User Profile (V2)
       isCorrect: false
-      explanation: 
+      explanation: The Manually Trigger a flow also provides the current location of the user from where the button was selected to trigger the flow.
     - content: The Manually Trigger a flow
       isCorrect: true
       explanation: The Manually Trigger a flow also provides the current location of the user from where the button was selected to trigger the flow.
