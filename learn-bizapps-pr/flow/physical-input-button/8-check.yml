@@ -4,82 +4,55 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 03/03/2020 
- author: KevSch 
- ms.author: kschimke 
+ ms.date: 06/21/2021 
+ author: DaveBeasley
+ ms.author: dbeasley
  ms.topic: interactive-tutorial 
  ms.prod: learning-power-automate 
-durationInMinutes: 10 
+durationInMinutes: 6 
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which of the following are the click settings that are available in Flic that you can use when building a flow?
+  - content: What are the advantages of using Flic physical button vs the Power Automate virtual button?
     choices: 
-    - content: click
+    - content: Flic is a physical button while Power Automate is virtual.
       isCorrect: false
-      explanation: Click, double-click, and hold are the three click settings in Flic. 
-    - content: click, double-click, and hold 
+      explanation: The Flic trigger in Power Automate has several events options such as click, double click, hold and any. In addition, you can simply click on the button as long as the mobile device is within reach for the Bluetooth signal.
+    - content: Flic has multiple options to trigger a flow such as click, double click and hold. Power Automate virtual button has only one click. 
       isCorrect: true
-      explanation: Click, double-click, and hold are the three click settings in Flic. 
-    - content: click and double-click
+      explanation: The Flic trigger in Power Automate has several events options such as click, double click, hold and any. In addition, you can simply click on the button as long as the mobile device is within reach for the Bluetooth signal. 
+    - content: Flic button has more color options compared to Power Automate's virtual buttons.
       isCorrect: false 
-      explanation: Click, double-click, and hold are the three click settings in Flic. 
-    - content: click, double-click, triple-click, and hold. 
+      explanation: The Flic trigger in Power Automate has several events options such as click, double click, hold and any. In addition, you can simply click on the button as long as the mobile device is within reach for the Bluetooth signal. 
+    - content: Flic's physical button offers the ability to add your company logo. Power Automate's button is large and bulky. 
       isCorrect: false 
-      explanation: Click, double-click, and hold are the three click settings in Flic. 
-  - content: Which connector is used to get manager information?
+      explanation: The Flic trigger in Power Automate has several events options such as click, double click, hold and any. In addition, you can simply click on the button as long as the mobile device is within reach for the Bluetooth signal.
+  - content: How do you use Twilio to communicate with the end user?
     choices: 
-    - content: Office 365 Users User Profile (V2)
+    - content: Twilio sends an email message.
       isCorrect: false
-      explanation: Office 365 Users Get Manager (V2) is used to get manager information. 
-    - content: Office 365 Users User Properties (V2)
+      explanation: Twilio sends an SMS text message to the user. The user's phone number is gathered from the user's Office 365 profile.  
+    - content: Twilio sends a Power Automate notification.
       isCorrect: false 
-      explanation: Office 365 Users Get Manager (V2) is used to get manager information. 
-    - content: Office 365 Users Get Manager (V2)
+      explanation: Twilio sends an SMS text message to the user. The user's phone number is gathered from the user's Office 365 profile. 
+    - content: Twilio sends an SMS text message to the user.
       isCorrect: true
-      explanation: Office 365 Users Get Manager (V2) is used to get manager information. 
-    - content: Get Manager
+      explanation: Twilio sends an SMS text message to the user. The user's phone number is gathered from the user's Office 365 profile. 
+    - content: Twilio will make a pre-recorded phone call.
       isCorrect: false 
-      explanation: Office 365 Users Get Manager (V2) is used to get manager information. 
-  - content: Does the Flic trigger provide the username or user's email address?
+      explanation: Twilio sends an SMS text message to the user. The user's phone number is gathered from the user's Office 365 profile. 
+  - content: Does Flic use the Microsoft Office 365 username and password?
     choices: 
-    - content: Yes. By default, any flow that is run has the user's email address.
-      isCorrect: false
-      explanation: No, the Flic trigger does not provide username or user email address information. You would use the Compose action to manually type the email address.
-    - content: Yes. Both Flic and Power Automate use the same authentication (in other words, username and password).
-      isCorrect: false 
-      explanation: No, the Flic trigger does not provide username or user email address information. You would use the Compose action to manually type the email address.
-    - content: No. You would use the Get manager (V2) action to get the username and user's email address information.
-      isCorrect: false 
-      explanation: No, the Flic trigger does not provide username or user email address information. You would use the Compose action to manually type the email address.
-    - content: No. You would use the Compose action to manually type the email address.
+    - content: No. You will have to register with Flic first and create a username and password there.
       isCorrect: true
-      explanation: No, the Flic trigger does not provide username or user email address information. You would use the Compose action to manually type the email address.
-  - content: Can the Get calendar view of events action show all your events for a day?
-    choices: 
-    - content: Yes. It does, by default, show all your events for a day and no additional steps are needed.
-      isCorrect: false
-      explanation: Yes, the Get Calendar view of events action shows all events for a day, but you must add the Start Time and the End Time correctly.
-    - content: Yes. However, you must add the Start Time and the End Time correctly.
-      isCorrect: true
-      explanation: Yes, the Get Calendar view of events action shows all events for a day, but you must add the Start Time and the End Time correctly.
-    - content: No. It can only provide one event.
+      explanation: Even though Flic is an approved connector, it does not use the Microsoft 365's username and password for its authentication. A separate account is created at Flic.io.
+    - content: No. Flic does not need username and password.
       isCorrect: false 
-      explanation: Yes, the Get Calendar view of events action shows all events for a day, but you must add the Start Time and the End Time correctly.
-    - content: No. It can only provide events on an hourly basis.
+      explanation: Even though Flic is an approved connector, it does not use the Microsoft 365's username and password for its authentication. A separate account is created at Flic.io.
+    - content:Yes. You do not need to register with Flic.
       isCorrect: false 
-      explanation: Yes, the Get Calendar view of events action shows all events for a day, but you must add the Start Time and the End Time correctly.
-  - content: Does Flic use your Office 365 username and password?
-    choices: 
-    - content: No. You will have to register with Flic first and create a username and password.
-      isCorrect: true 
-      explanation: No, Flic does not use your Office 365 username and password. You will have to register with Flic first and create a username and password.
-    - content: No. Flic does not need a username and password.
-      isCorrect: false 
-      explanation: No, Flic does not use your Office 365 username and password. You will have to register with Flic first and create a username and password.
-    - content: Yes. You do not need to register with Flic.
-      isCorrect: false 
-      explanation: No, Flic does not use your Office 365 username and password. You will have to register with Flic first and create a username and password.
+      explanation: Even though Flic is an approved connector, it does not use the Microsoft 365's username and password for its authentication. A separate account is created at Flic.io.
     - content: Yes. Your Office 365 account automatically synchronizes with Flic.
-      isCorrect: false 
-      explanation: No, Flic does not use your Office 365 username and password. You will have to register with Flic first and create a username and password.
+      isCorrect: false
+      explanation: Even though Flic is an approved connector, it does not use the Microsoft 365's username and password for its authentication. A separate account is created at Flic.io.
+ 
