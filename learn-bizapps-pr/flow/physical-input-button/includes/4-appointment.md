@@ -1,11 +1,10 @@
-In this unit, you will build a flow, which is triggered by the Flic button, that looks up your next
-appointment and sends the attendees an email letting them know that you are running late.
+In this unit, you will build a flow, which is triggered by the Flic button, that looks up your next appointment and sends the attendees an email letting them know that you are running late.
 
 1. Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
 
 1. Select **+ Create**, which is available on the left navigation pane.
 
-1. In the **Start from blank** area of the page, select **Automated flow**.
+1. In the **Start from blank** area of the page, select **Automated cloud flow**.
 
 1. In the **Flow name** field, enter **Running Late** as the name of the flow. Under **Choose your flow's trigger**, search for **Flic**. Select **When a Flic is pressed** and then select **Create**.
 
@@ -15,7 +14,7 @@ appointment and sends the attendees an email letting them know that you are runn
 
 1. Select **+ New step**.
 
-1. In the **Choose an action** field, search for **Get calendar events** and then select the **Get calendar view of events (V2)** action.
+1. In the **Choose an action** field, search for **Get calendar events** and then select the **Get calendar view of events (V3)** action.
 
 1. For **Calendar ID**, select **Calendar**.
 
@@ -25,9 +24,9 @@ appointment and sends the attendees an email letting them know that you are runn
 
 1. Select **OK**.
 
-1. In the **End time** field, select **Expression** and then add the **```addHours(utcNow(),1)```** formula.
+1. In the **End time** field, select **Expression** and then add the **addHours(utcNow(),1)** formula.
 
-1. Select **OK**.
+1. Select **OK**. 
 
     The action should look like the following image.
 
@@ -69,10 +68,6 @@ appointment and sends the attendees an email letting them know that you are runn
 
     ![Screenshot of the full running late flow.](../media/full-running-late-flow.jpg)
 
-1. Select the **Flow checker** icon, which is available on the upper right of the screen.
-   If no errors occur, select **Save**.
+1. Select the **Flow checker** icon, which is available on the upper right of the screen. If no errors occur, select **Save**.
 
-Congratulations, you have now successfully built a flow that triggers by use of a physical button.
-To test the flow, you need to have the Flic app open on your phone and then select the Flic
-button once. The flow will check to see if any meetings are currently happening or are
-pending between now and the next hour, and then it will send out a notification to all attendees.
+Congratulations, you have now successfully built a flow that triggers by the use of a physical button. To test the flow, you need to have the Flic app open on your phone and then select the Flic button once. The flow will check to see if any meetings are currently happening or are pending between now and the next hour, and then it will send out a notification to all attendees.
