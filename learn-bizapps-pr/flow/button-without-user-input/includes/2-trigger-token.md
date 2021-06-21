@@ -33,10 +33,13 @@ Triggers can be added to both actions and conditions.
 Consider a **Send an email (V2)** action where you have the option to
 apply any of the parameters from the preceding table in the body of the email message.
 
-![Screenshot of the Send an email action with Dynamic content showing fields like City, Date, and Full address.](../media/send-email-action.png)
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Send an email action with Dynamic content showing fields like City, Date, and Full address.](../media/send-email-action.png)](../media/send-email-action.png#lightbox)
 
 You can also apply the trigger in a condition on the left and right side.
 
-![Screenshot of the Left side trigger condition, If yes.](../media/left-side-trigger-condition.png)
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Left side trigger condition, If yes.](../media/left-side-trigger-condition.png)](../media/left-side-trigger-condition.png#lightbox)
 
-![Screenshot of the Right side trigger condition, If no.](../media/right-side-trigger-condition.png)
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Right side trigger condition, If no.](../media/right-side-trigger-condition.png)](../media/right-side-trigger-condition.png#lightbox)

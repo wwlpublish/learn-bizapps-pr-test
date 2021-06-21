@@ -26,7 +26,8 @@ To build a flow using an existing template, follow these steps:
 
 The following screenshot shows an example of the button templates.
 
-![Screenshot of the Power Automate Templates page with a search for Buttons and the "Sorted by popularity" setting highlighted.](../media/search-buttons-templates.png)
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the Power Automate Templates page with a search for Buttons and the "Sorted by popularity" setting highlighted.](../media/search-buttons-templates.png)](../media/search-buttons-templates.png#lightbox)
 
 ### Build a flow from blank
 
