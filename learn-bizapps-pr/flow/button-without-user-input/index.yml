@@ -3,7 +3,7 @@ uid: learn-bizapps.button-without-user-input
 metadata: 
  title: Create a Power Automate button without user input
  description: Do you want to create a Power Automate button flow? This module will focus on Power Automate buttons that don’t require user input and run a predefined series of actions. 
- ms.date: 2/22/2020  
+ ms.date: 06/21/2021  
  author: KevSch  
  ms.author: kschimke  
  ms.topic: interactive-tutorial  
@@ -35,8 +35,7 @@ units:
 - learn-bizapps.button-without-user-input.1-intro-design-process 
 - learn-bizapps.button-without-user-input.2-trigger-token 
 - learn-bizapps.button-without-user-input.3-weather-report 
-- learn-bizapps.button-without-user-input.4-email-location 
-- learn-bizapps.button-without-user-input.5-exercise 
+- learn-bizapps.button-without-user-input.4-email-location
 - learn-bizapps.button-without-user-input.6-check 
 - learn-bizapps.button-without-user-input.7-summary 
 badge: 

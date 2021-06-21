@@ -1,3 +1,7 @@
+Are you a field service analyst who is delayed for the next appointment due to traffic? Or your current appointment has taken longer than expected and will be delayed for your next?
+
+Don't you wish there was an easier way to let your manager know your current location so that your next appointment can be handed off to someone else?
+
 This unit describes how to build a flow that is triggered by a button that
 will send an email with your current location to your manager. The flow will be built
 entirely from the Power Automate app on your smart phone.
@@ -26,7 +30,7 @@ entirely from the Power Automate app on your smart phone.
    :::image type="icon" source="../media/date-time-connector-icon.png":::
 
 1. Select **Base time** and then select the **Timestamp** option from **Manually trigger a flow**
-    and then click **Done**.
+    and then select **Done**.
 
    ![Screenshot of Base time options to manually trigger a flow with the Timestamp option and the Done button highlighted.](../media/search-timestamp-connector.png)
 
@@ -65,9 +69,10 @@ entirely from the Power Automate app on your smart phone.
 
     ```Hi.```
 
-    Then, next to **Get Manager (V2)**, select **See more**. Select **Display Name** and then **Done**.
+1. Then, next to **Get Manager (V2)**, select **See more**. Select **Display Name** and then **Done**.
 
-    ![Screenshot of Body with a list of dynamic content from Get manager with the Display Name option and the Done button highlighted.](../media/add-get-manager-display-name.png)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Body with a list of dynamic content from Get manager with the Display Name option and the Done button highlighted.](../media/add-get-manager-display-name.png)](../media/add-get-manager-display-name.png#lightbox)
 
 1. Select **Body** again and then enter the following text:
 
@@ -79,18 +84,18 @@ entirely from the Power Automate app on your smart phone.
 
     ![Screenshot of Hi Display Name (dynamic content).](../media/add-get-manager-display-name-2.png)
 
-    Next to **Convert time zone**, select **See more**, select
+1. Next to **Convert time zone**, select **See more**, select
     **Converted time**, and then select **Done**.
 
     ![Screenshot of the Body with text "Hi Display Name (dynamic content). The time is Converted time (dynamic)" with Converted time and Done highlighted.](../media/add-get-manager-display-name-time.png)
 
 1. Select **Body** again and then enter the following text:
 
-    ```My current location is:```
-
     ![Screenshot of The time is Converted time (dynamic content).](../media/add-converted-time.png)
 
-    Select **Manually trigger a flow > See more > Full address**. Select **Done**.
+    ```My current location is:```
+
+1. Select **Manually trigger a flow**, then **See more**, and **Full address**. Select **Done**.
 
     ![Screenshot of the Body with text added "My current location is: Full address (dynamic content)" with Full address and Done highlighted.](../media/add-full-address.png)
 
