@@ -1,12 +1,15 @@
-In this unit, you will install and configure the Flic.io app. Before you begin, you need to
-have your smart phone and the Flic button available. Though the steps in this unit
-are for installing on an iPhone, the procedure should be similar for Android phones.
+In this unit, you will install and configure the Flic.io app. Before you begin, you need to have your smartphone and the Flic button available.
 
-1. Go to the App Store.
+> [!div class="mx-imgBorder"]
+> [![Diagram of flic buttons available with push, double push, and hold.](../media/flic.png)](../media/flic.png#lightbox)
 
-1. Find the Flic app. When you've found the app, select **Get and download a copy** of the app.
+Though the steps in this unit are for installing on an iPhone, the procedure should be similar for Android phones.
 
-1. Open the Flic app on your smart phone. You might receive a message regarding Flic sending you notifications. Select either **Allow** or **Don't Allow**.
+1.  Go to the App Store.
+
+1.  Find the Flic app. When you've found the app, select **Get and download a copy** of the app.
+
+1.  Open the Flic app on your smartphone. You might receive a message regarding Flic sending you notifications. Select either **Allow** or **Don't Allow**.
 
     ![Screenshot of the Flic notification request.](../media/flic-notification.jpg)
 
@@ -22,7 +25,7 @@ are for installing on an iPhone, the procedure should be similar for Android pho
 
     ![Screenshot of the Flic phone setting tab.](../media/flic-phone-setting-tab.jpg)
 
-1. Select the Add Flic to phone **+** button, which is available on the lower right of the app.
+1. Select the Add Flic to phone + button, which is available on the lower right of the app.
 
 1. Press and hold the Flic button until it connects. This process should take no longer than 10 seconds. If you see a sad face icon, then select the **Try again** button, which is available in the lower part of the app.
 
@@ -56,4 +59,4 @@ are for installing on an iPhone, the procedure should be similar for Android pho
 
     ![Screenshot of the Microsoft flow hold click.](../media/microsoft-flow-hold-click.jpg)
 
-You now have a Flic button successfully installed and configured with your smart phone.
+You now have a Flic button successfully installed and configured with your smartphone.
