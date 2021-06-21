@@ -13,40 +13,40 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: The user logging into the Solution Center should have either a Power Platform or Dynamics 365 ____________ role to deploy MVM.
+  - content: The user who is signing in to Solution Center should have a Microsoft Power Platform or a Dynamics 365 ____________ role to deploy Microsoft Vaccination Management.
     choices: 
-    - content: User role
+    - content: User
       isCorrect: false 
-      explanation: An administrator role is required to deploy MVM.
-    - content: Administrator role
+      explanation: An administrator role is required to deploy Microsoft Vaccination Management.
+    - content: Administrator
       isCorrect: true 
-      explanation: An administrator role is required to deploy MVM.
-    - content: Read-only role
+      explanation: An administrator role is required to deploy Microsoft Vaccination Management.
+    - content: Read-only
       isCorrect: false 
-      explanation: An administrator role is required to deploy MVM.
-    - content: No role is needed.
+      explanation: An administrator role is required to deploy Microsoft Vaccination Management.
+    - content: No role is needed
       isCorrect: false 
-      explanation: An administrator role is required to deploy MVM.
-  - content: The ________________ is an orchestrator that simplifies the whole deployment process by checking licensing requirements and dependencies. 
+      explanation: An administrator role is required to deploy Microsoft Vaccination Management.
+  - content: Which of the following options is an orchestrator that simplifies the whole deployment process by checking licensing requirements and dependencies? 
     choices: 
     - content: Microsoft Power Platform
       isCorrect: false 
-      explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
+      explanation: Microsoft Cloud Solution Center checks licensing requirements and dependencies.
     - content: Microsoft Cloud Solution Center
       isCorrect: true 
-      explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
+      explanation: Microsoft Cloud Solution Center checks licensing requirements and dependencies.
     - content: Microsoft Portal
       isCorrect: false 
-      explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
+      explanation: Microsoft Cloud Solution Center checks licensing requirements and dependencies.
     - content: Microsoft Dataverse
       isCorrect: false 
-      explanation: The Microsoft Cloud Solution Center checks licensing requirements and dependencies.
-  - content: A Dataverse environment is needed to deploy Microsoft Vaccination Management?
+      explanation: Microsoft Cloud Solution Center checks licensing requirements and dependencies.
+  - content: A Dataverse environment is needed to deploy Microsoft Vaccination Management. (True or False)
     choices: 
     - content: "True"
       isCorrect: true 
-      explanation: Your environment needs to include Dataverse as you will need to create a database within that environment.
+      explanation: Your environment needs to include Dataverse because you will need to create a database within that environment.
     - content: "False"
       isCorrect: false 
-      explanation: Your environment needs to include Dataverse as you will need to create a database within that environment.
+      explanation: Your environment needs to include Dataverse because you will need to create a database within that environment.
     
