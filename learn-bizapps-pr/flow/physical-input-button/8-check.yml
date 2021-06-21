@@ -49,7 +49,7 @@ quiz:
     - content: No. Flic does not need username and password.
       isCorrect: false 
       explanation: Even though Flic is an approved connector, it does not use the Microsoft 365's username and password for its authentication. A separate account is created at Flic.io.
-    - content:Yes. You do not need to register with Flic.
+    - content: Yes. You do not need to register with Flic.
       isCorrect: false 
       explanation: Even though Flic is an approved connector, it does not use the Microsoft 365's username and password for its authentication. A separate account is created at Flic.io.
     - content: Yes. Your Office 365 account automatically synchronizes with Flic.
