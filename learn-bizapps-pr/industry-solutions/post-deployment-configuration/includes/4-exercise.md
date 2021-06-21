@@ -44,7 +44,7 @@ For more information, see [Environment Variables](/power-platform-release-plan/2
        All environment variables will display.
 
         > [!div class="mx-imgBorder"]
-        > [![Screenshot of the Solutions list with Default Solution highlighted.](../media/4-5-solutions.png)](../media/4-5-solutions.png#lightbox)
+        > [![Screenshot of the Solutions list with Default Solution highlighted for variables.](../media/4-5-solutions.png)](../media/4-5-solutions.png#lightbox)
 
     1. In the upper-right corner, search for the **RegistrationPortalUrl** environment variable.
 
@@ -120,7 +120,7 @@ In this task, you will be using an unmanaged solution, **Vaccination Management 
 1. In the left pane, select **Solutions** and then view the list of solutions that are deployed in the environment.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the navigation pane with Solutions highlighted.](../media/4-15-solutions.png)](../media/4-15-solutions.png#lightbox)
+    > [![Screenshot of the navigation pane with Solutions highlighted for deployed environments.](../media/4-15-solutions.png)](../media/4-15-solutions.png#lightbox)
 
 1. On the **Solutions** page, select the **Vaccination Management Configuration** solution.
 
@@ -151,7 +151,7 @@ In this task, you'll explore and turn on the included Power Automate flows in Mi
 1. In the left pane, select **Solutions** and then view the list of solutions that are deployed in the environment.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the navigation pane with Solutions highlighted.](../media/4-15-solutions.png)](../media/4-15-solutions.png#lightbox)
+    > [![Screenshot of the navigation pane with Solutions highlighted of list of solutions.](../media/4-15-solutions.png)](../media/4-15-solutions.png#lightbox)
 
 1. On the **Solutions** page, select **Vaccination Management Flows**. This solution consists of all Power Automate flows and their related components that shipped as part of Microsoft Vaccination Management.
 
@@ -208,7 +208,7 @@ For more information, see [Solutions](/powerapps/developer/data-platform/introdu
 1. In the left pane, select **Solutions** and then view the list of solutions that are deployed in the environment.
 
     > [!div class="mx-imgBorder"]
-    > [![Screenshot of the navigation pane with Solutions highlighted.](../media/4-15-solutions.png)](../media/4-15-solutions.png#lightbox)
+    > [![Screenshot of the navigation pane with Solutions highlighted after creating solution.](../media/4-15-solutions.png)](../media/4-15-solutions.png#lightbox)
 
 1. On the **Solutions** page, select **New solution** in the command bar.
 
