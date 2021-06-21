@@ -12,13 +12,13 @@ title: Share Power Automate buttons
 summary: |  
   [!include[](../includes/module-banner.md)] 
 
-  Do you want to share Power Automate button flows with others? In this module, you will learn how to share buttons and will discover some security basics.
+  Power Automate Buttons are the way flow can be executed on demand and represent one of two ways that Power Automates can be constructed. Most people starting with Power Automate work with event driven flows. This module will get people acquainted with the connection, monitoring and security capabilities of a Power Automate Button. It sets up the learning process for the other modules.
 abstract: |  
     In this module, you will: 
     - Discover the sharing process of Power Automate flow buttons.
     - Learn about flow button connection security.
     - Monitor the run history of a button flow.
-prerequisites: A basic understanding of Microsoft Power Automate and a working mobile device with a Power Automate license.
+prerequisites: The Target Audience should have a basic understanding of Microsoft Power Automate and how to create an event driven Power Automate.
 iconUrl: /learn/achievements/share-buttons.svg  
 levels:  
 - intermediate   
