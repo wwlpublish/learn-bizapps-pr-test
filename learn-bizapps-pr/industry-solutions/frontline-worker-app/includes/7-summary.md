@@ -1,12 +1,13 @@
+Congratulations on completing the fourth set of exercises in this Microsoft Vaccination Management learning path series. 
 
-Congratulations on completing the fourth set of exercises in this Microsoft Vaccination Management Learning Path series. In this set of exercises, you learned:
+In this set of exercises, you learned how:
 
-- How a vaccination site frontline worker can check in a resident by scanning a QR code.
+- Vaccination site frontline workers can check in a resident by scanning a QR code.
 
-- How a vaccination site frontline worker can manually look up and check in a resident.
+- Vaccination site frontline workers can manually look up and check in a resident.
 
-- How to record health and vaccination details in the Frontline worker app.
+- You can record health and vaccination details in the **Frontline worker** app.
 
-- How to configure the Frontline worker app to surface and record more columns in data tables for reporting purposes.
+- You can configure the **Frontline worker** app to show and record more columns in data tables for reporting purposes.
 
-In the next set of exercises, you'll learn about the Vaccination Management Dashboard and how to use it to provide a better understanding of vaccination site operations.
+In the next set of exercises, you'll learn about the Vaccination Management dashboard and how to use it to provide a better understanding of vaccination site operations.

@@ -3,7 +3,7 @@ uid: learn-bizapps.frontline-worker-app.5-add-question
 title: Add a new question to the Frontline worker app
 metadata: 
   title: Add a new question to the Frontline worker app
-  description: Learn to create a new column in the solution and add it as a field in the app to use it as a question. 
+  description: Learn how to create a new column in the solution and then add it as a field in the app to use it as a question. 
   ms.date: 06/15/2021 
   author: DaveBeasley 
   ms.author: dbeasley 

@@ -2,7 +2,7 @@
 uid: learn-bizapps.frontline-worker-app 
 metadata: 
  title: Microsoft Vaccination Management Frontline worker app
- description: The Frontline worker app is used by workers at vaccination sites to distribute and administer vaccinations safely and effectively.
+ description: Workers at vaccination sites can use the Frontline worker app to distribute and administer vaccinations safely and effectively.
  ms.date: 06/15/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
@@ -11,14 +11,14 @@ metadata:
 title: Microsoft Vaccination Management Frontline worker app
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  With the Frontline worker app, these critical workers have the information they need to check in patients who have registered and booked an appointment, with the option to use touch-free QR code scanning. 
+  With the Frontline worker app in Microsoft Vaccination Management, workers at vaccination sites have the information that they need to check in patients who have registered and booked an appointment, including the option to use touch-free QR code scanning. 
 abstract: |  
-    In this module, you'll: 
+    In this module, you will: 
     - Check in residents manually or by scanning a QR code.
     - Administer and record vaccinations.
-    - Create new columns in Dataverse tables.
+    - Create new columns in Microsoft Dataverse tables.
     - Add new fields to the Frontline worker app.
-prerequisites: To get started with the Frontline worker app, you need to download the Microsoft Power Apps mobile app on your device from the device's app store.
+prerequisites: Download the Microsoft Power Apps mobile app on your device from the device's app store.
 iconUrl: /learn/achievements/frontline-worker-app.svg  
 levels:  
 - beginner   
