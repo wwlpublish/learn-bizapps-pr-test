@@ -1,6 +1,6 @@
 This unit shows how to create a business process flow by using Microsoft Power Apps.
 
-For more about how to create a mobile task flow, see [Create a mobile task flow](/dynamics365/customer-engagement/customize/create-mobile-task-flow/?azure-portal=true).
+For more about how to create a mobile task flow, see [Create a mobile task flow](/dynamics365/customer-engagement/customize/create-mobile-task-flow?azure-portal=true).
 
 When a user starts a business process flow, the process bar at the top of the page shows the stages and steps of the process.
 
