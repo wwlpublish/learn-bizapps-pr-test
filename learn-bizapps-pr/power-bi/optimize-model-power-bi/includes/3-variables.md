@@ -40,7 +40,7 @@ RETURN
     SalesVariance
 ```
 
-In the first measure definition in the table, the formula is inefficient because it requires Power BI to evaluate the same expression twice. The second definition is more efficient because, due to the variable, Power BI only needs to evaluate the expression once.
+In the first measure definition in the table, the formula is inefficient because it requires Power BI to evaluate the same expression twice. The second definition is more efficient because, due to the variable, Power BI only needs to evaluate the PARALLEDPERIOD expression once.
 
 If your data model has multiple queries with multiple measures, the use of variables could cut the overall query processing time in half and improve the overall performance of the data model. Furthermore, this solution is a simple one; imagine the savings as the formulas get more complicated, for instance, when you are dealing with percentages and running totals.
 
@@ -56,13 +56,12 @@ Using clear, concise, meaningful names will help make it easier for you to under
 
 You can use variables to help you debug a formula and identify what the issue is. Variables help simplify the task of troubleshooting your DAX calculation by evaluating each variable separately and by recalling them after the RETURN expression.
 
-In the following example, you test an expression that is assigned to a variable. You temporarily rewrite the RETURN expression to write to the variable. The measure definition returns only the **SalesPriorYear** variable and it comments-out the intended RETURN expression.
-
+In the following example, you test an expression that is assigned to a variable. In order to debug you temporarily rewrite the RETURN expression to write to the variable. The measure definition returns only the **SalesPriorYear** variable because that is what comes after the RETURN expression.
 ```DAX
 Sales YoY Growth % =
 VAR SalesPriorYear =  CALCULATE([Sales], PARALLELPERIOD('Date'[Date], -12, MONTH))
 VAR SalesPriorYear% = DIVIDE(([Sales] - SalesPriorYear), SalesPriorYear)  
-RETURN  SalesPriorYear
+RETURN  SalesPriorYear%
 ```
 
 The RETURN expression will display the **SalesPriorYear** value only. This technique allows you to revert the expression when you have completed the debugging. It also makes calculations simpler to understand due to reduced complexity of the DAX code.

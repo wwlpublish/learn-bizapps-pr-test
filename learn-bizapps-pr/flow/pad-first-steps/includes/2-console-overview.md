@@ -5,7 +5,7 @@ When you launch Power Automate Desktop, the first window that appears on the scr
 Like all products in Microsoft Power Automate, the Power Automate Desktop console enables you to select a development environment, handle all the flows in it, and create new ones.
 
  > [!NOTE]
- > Environments are containers that are used to separate apps that might have different roles, security requirements, or target audiences.
+ > Environments are spaces to store, manage, and share your organization's business data, apps, chatbots, and flows. They also serve as containers to separate apps that might have different roles, security requirements, or target audiences. 
 
 To handle an existing flow, right-click on it and choose between starting, editing, renaming, and deleting it. If the flow is currently running, the additional option to stop it is available.
 

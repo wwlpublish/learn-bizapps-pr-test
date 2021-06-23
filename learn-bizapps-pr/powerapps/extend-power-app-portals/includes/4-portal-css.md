@@ -1,6 +1,6 @@
 Cascading Style Sheets (CSS) is a language that determines the style of a webpage by describing how its HTML elements are to be displayed, including text, fonts, colors, backgrounds borders, and margins.
 
-Making changes to the style of your portal pages can be as simple as applying CSS statements directly to a page in the **Custom CSS** field. For example, if you need to increase the height of the navigation bar at the top of a home page to fit a logo, you can edit the page properties and add a custom CSS statement.
+Making changes to the style of your portal pages can be as simple as applying CSS statements directly to a page in the **Custom CSS** column. For example, if you need to increase the height of the navigation bar at the top of a home page to fit a logo, you can edit the page properties and add a custom CSS statement.
 
 ```css
 .navbar-static-top.navbar { min-height: 100px; }
@@ -39,7 +39,7 @@ Make sure that you consider how you want to approach style modifications for you
 You can add customizations to specific pages or sections of your portal by adding a **Web File** record by using the Portal Management app with an attachment to a CSS file. You will need to specify the parent page in the **Web File** record so that the theme will be applied to the parent page and all descendants of that page. This approach makes it possible for you to build fully customized sections of your site.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Parent Page field in the web file record.](../media/custom-theme-section.png)](../media/custom-theme-section.png#lightbox)
+> [![Screenshot of the Parent Page column in the web file record.](../media/custom-theme-section.png)](../media/custom-theme-section.png#lightbox)
 
 > [!IMPORTANT]
 > The partial URL must end in **.css** for the portal to recognize it and apply it to the webpage and its child pages.
@@ -59,14 +59,14 @@ When you are starting portal customizations, one of the most common requests tha
 
 ### CSS for simple adjustments
 
-CSS is often overlooked when simple adjustments are required, such as hiding the element or adjusting margins to fit a wide label. Bootstrap framework is the foundation of the styling in Power Apps portals, and it defines many styles that control appearance and multi-column responsive layout. For example, if you want to hide a particular field and submit a default value instead of collecting the user input, you can use **Entity Form Metadata** for the field and then define the following parameters:
+CSS is often overlooked when simple adjustments are required, such as hiding the element or adjusting margins to fit a wide label. Bootstrap framework is the foundation of the styling in Power Apps portals, and it defines many styles that control appearance and multi-column responsive layout. For example, if you want to hide a particular column and submit a default value instead of collecting the user input, you can use **Table Form Metadata** for the column and then define the following parameters:
 
 - Set **Label** to a single space.
 - Set **CSS Class** to **hide**.
 - Set the default value as required.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of hte New Entity Form Metadata with Label, CSS Class, and Set Value On Save fields.](../media/hide-default.png)](../media/hide-default.png#lightbox)
+> [![Screenshot of hte New Table Form Metadata with Label, CSS Class, and Set Value On Save columns.](../media/hide-default.png)](../media/hide-default.png#lightbox)
 
 Instead of resorting to JavaScript, you can accomplish this task by using configuration only. Using CSS, where possible, has certain advantages:
 

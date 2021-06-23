@@ -1,10 +1,8 @@
-This module reviewed the behavior of the default data group and
-its impact on new and custom connectors that are deployed to an
-environment. It also reviewed popular DLP configurations for
-Office 365 and Dynamics 365 workloads and demonstrated how you can layer
-additional governance on top of DLP policies.
+To protect critical data from being shared with those who should not have it, organizations need to identify, monitor, and automatically protect data. Using Data Loss Protection (DLP) policies manage which Microsoft Power Platform connectors can share data. Directional data governance allows you to detect and prevent connectors from sharing in the wrong direction.
+Over the course of the module you learned:
 
-You also learned about how to include HTTP triggers and actions within DLP policies
-when you use the 2018-11-01 DLP schema version. Finally, you
-learned how to use the Power Apps and Power Automate
-PowerShell cmdlets to add a custom connector to an existing DLP policy.
+- How to use DLP data groups to control data flows between connectors
+- Recommended DLP policy settings for Microsoft 365 and Dynamics environments
+- How to use Power Automate flows for directional data governance
+- Managing HTTP and custom connectors
+

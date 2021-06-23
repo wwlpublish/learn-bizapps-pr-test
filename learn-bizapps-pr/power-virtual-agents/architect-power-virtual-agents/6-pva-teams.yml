@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit
+uid: learn-bizapps.architect-power-virtual-agents.6-pva-teams
+title: Power Virtual Agents in Teams
+metadata:
+  title: Power Virtual Agents in Teams
+  description: Learn how to use the Power Virtual Agents app in Microsoft Teams.
+  ms.date: 04/19/2021
+  author: DaveBeasley
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-platform-solution-architect
+durationInMinutes: 4
+content: |
+ [!include[](../includes/unit-banner.md)]
+ [!include[](includes/6-pva-teams.md)]

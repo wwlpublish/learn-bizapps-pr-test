@@ -17,8 +17,7 @@ abstract: |
     - Learn how to use scripting actions.
     - Create two flows using VBScript and JavaScript.
 prerequisites: |
-    - Familiarity with the Power Automate Desktop console and flow designer.
-    - Advanced experience with flow development and variables.
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml), [flow development](../pad-power-automate-desktop-development-essentials/index.yml) and [variables](../pad-variables/index.yml).
 iconUrl: /learn/achievements/pad-scripting.svg  
 levels:  
 - advanced   

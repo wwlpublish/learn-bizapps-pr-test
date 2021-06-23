@@ -1,6 +1,6 @@
 The purpose of this hands-on lab is to demonstrate how to add JavaScript code to a page to render data from Microsoft Dataverse as a chart by using another charting library. The data has been retrieved from Dataverse by using a web template that acts as a REST API endpoint.
 
-The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Power Platform does provide the ability to add sample data as needed. If the environment that you are working in doesn't have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install the sample data into your environment.
+The exercises work best when you have sample data to work with. Depending on the environment that you are working with, you might want to install some sample data to assist with the exercises. Microsoft Power Platform does provide the ability to add sample data as needed. If the environment that you are working in doesn't have sample data installed, follow the steps in the [Add or remove sample data](https://docs.microsoft.com/power-platform/admin/add-remove-sample-data/?azure-portal=true) documentation to install the sample data into your environment.
 
 ## Learning objectives
 
@@ -47,11 +47,11 @@ To create a web template, follow these steps:
     ```twig
     {% fetchxml accounts %}
     <fetch>
-      <entity name="account">
+      <table name="account">
         <attribute name="name" />
         <attribute name="numberofemployees" />
         <attribute name="revenue" />
-      </entity>
+      </table>
     </fetch>
     {% endfetchxml %}
     [
@@ -100,18 +100,18 @@ To create a page template and a webpage, follow these steps:
 1. Select **Save & Close**.
 
 > [!IMPORTANT]
-> If you have not previously configured entity permissions for the account entity, your API page will return an empty array. Complete the next task to set up the permissions if you have not done so previously.
+> If you have not previously configured table permissions for the account table, your API page will return an empty array. Complete the next task to set up the permissions if you have not done so previously.
 
-#### Add entity permissions
+#### Add table permissions
 
-To add entity permissions, follow these steps:
+To add table permissions, follow these steps:
 
 1. Switch to the Portal Management app.
-1. Select **Entity Permissions**.
+1. Select **Table Permissions**.
 1. Select **+ New**.
 1. Enter the following values:
     - **Name** - Account Directory
-    - **Entity Name** - Select account entity
+    - **Table Name** - Select account table
     - **Website** - Select your current website
     - **Scope** - Select **Global**
     - **Privileges** - Select **Read**
@@ -170,7 +170,7 @@ To add code to retrieve the data, follow these steps:
     > [![Screenshot of the console output with the same data as the previously retrieved REST API page.](../media/console-output.png)](../media/console-output.png#lightbox)
 
 > [!IMPORTANT]
-> If you have not previously configured entity permissions for the account entity, your API call will return an empty array. Make sure that you have completed the **Add entity permissions** task.
+> If you have not previously configured table permissions for the account table, your API call will return an empty array. Make sure that you have completed the **Add table permissions** task.
 
 #### Add external library functionality
 

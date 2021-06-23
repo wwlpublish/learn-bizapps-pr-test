@@ -30,7 +30,7 @@ In this exercise, you'll apply transformations to each of the queries.
 
 1.  From the **File** tab, select **Open report**, and then **Browse reports**.
  
-1. You will open **Sales Analysis.pbix** file, which is found in the **D:\DA100\Lab03A\Starter** folder.
+1. You will open **Sales Analysis.pbix** file, which is found in the **D:\DA100\Labs\02-load-data-with-power-query-in-power-bi-desktop\Starter** folder.
 
 ### Configure the Salesperson query
 
@@ -51,7 +51,7 @@ In this task, you'll configure the **Salesperson** query.
 1.  In the **Queries** pane, verify that the query name has updated.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Queries pane with name updated.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
+	> [![Screenshot of the Queries pane.](../media/lab-2-ssm.png)](../media/lab-2-ssm.png#lightbox)
 
 	You'll now filter the query rows to retrieve only employees who are salespeople.
 
@@ -60,7 +60,7 @@ In this task, you'll configure the **Salesperson** query.
     down-arrow, and then select **Go to Column**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Go to Column option.](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
+	> [![Screenshot of the Go to Column option](../media/lab-3-ssm.png)](../media/lab-3-ssm.png#lightbox)
 
 	> [!TIP]
 	> This technique is useful when a query contains many columns.
@@ -70,7 +70,7 @@ In this task, you'll configure the **Salesperson** query.
     click the **AZ** sort button, and then select **Name**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Go to Column window.](../media/lab-4-ssm.png)](../media/lab-4-ssm.png#lightbox)
+	> [![Screenshot of the Go to Column window](../media/lab-4-ssm.png)](../media/lab-4-ssm.png#lightbox)
 
 1.  Select the **SalesPersonFlag** column, and then click **OK**.
 
@@ -78,7 +78,7 @@ In this task, you'll configure the **Salesperson** query.
     the down-arrow, and then uncheck **FALSE**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the column header dropdown menu.](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
+	> [![Screenshot of the column header dropdown menu](../media/lab-5-ssm.png)](../media/lab-5-ssm.png#lightbox)
 
 1.  Click **OK**.
 
@@ -152,7 +152,7 @@ In this task, you'll configure the **Salesperson** query.
     5 columns and 18 rows.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the status bar with 5 columns and 18 rows.](../media/lab-16-ss.png)](../media/lab-16-ss.png#lightbox)
+	> [![Screenshot of the status bar.](../media/lab-16-ss.png)](../media/lab-16-ss.png#lightbox)
 
 	It's important that you do not proceed if your query does not produce the correct result, it won't be possible to complete later labs. If it doesn't, refer back to the steps in this task to fix any problems.
 
@@ -187,7 +187,7 @@ detailed instructions, you can refer back to other tasks.
 1. Select the **DimProduct** query.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the DimProduct query in the query list.](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
+	> [![Screenshot of the DimProduct query](../media/lab-20-ssm.png)](../media/lab-20-ssm.png#lightbox)
 
 1. Rename the query to **Product**.
 
@@ -213,7 +213,7 @@ detailed instructions, you can refer back to other tasks.
     column name, click the expand button.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the expand button in the column header.](../media/lab-21-ssm.png)](../media/lab-21-ssm.png#lightbox)
+	> [![Screenshot of the expand button](../media/lab-21-ssm.png)](../media/lab-21-ssm.png#lightbox)
 
 1. To uncheck all columns, uncheck the **(Select All Columns)** item.
 
@@ -221,7 +221,7 @@ detailed instructions, you can refer back to other tasks.
     **DimProductCategory** columns.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the two selected columns highlighted.](../media/lab-22-ssm.png)](../media/lab-22-ssm.png#lightbox)
+	> [![Screenshot of the two selected columns.](../media/lab-22-ssm.png)](../media/lab-22-ssm.png#lightbox)
 
 	By selecting these two columns, a transformation will be applied to join to the **DimProductSubcategory** table, and then include these columns. The **DimProductCategory** column is, in fact, another related table.
 
@@ -293,7 +293,7 @@ In this task, you will configure the **Reseller** query.
 	-   In the **Replace With** box, enter **Warehouse**
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Replace Values window.](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
+	> [![Screenshot of the Replace Values window](../media/lab-30-ssm.png)](../media/lab-30-ssm.png#lightbox)
 
 1. Click **OK**.
 
@@ -322,7 +322,7 @@ In this task, you will configure the **Region** query.
     remove the value 0 (zero).
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Region query with filter.](../media/lab-34-ssm.png)](../media/lab-34-ssm.png#lightbox)
+	> [![Screenshot of the Region query](../media/lab-34-ssm.png)](../media/lab-34-ssm.png#lightbox)
 
 1. Remove all columns, except the following:
 
@@ -389,7 +389,7 @@ In this task, you will configure the **Sales** query.
     inside the **General** group, click **Custom Column**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Custom Column button.](../media/lab-37-ssm.png)](../media/lab-37-ssm.png#lightbox)
+	> [![Screenshot of the Custom Column button](../media/lab-37-ssm.png)](../media/lab-37-ssm.png#lightbox)
 
 1. In the **Custom Column** window, in the **New Column Name** box,
     replace the text with **Cost**.
@@ -430,7 +430,7 @@ In this task, you will configure the **Sales** query.
     select **Whole Number**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Quantity column header.](../media/lab-40-ssm.png)](../media/lab-40-ssm.png#lightbox)
+	> [![Screenshot of the Quantity column header](../media/lab-40-ssm.png)](../media/lab-40-ssm.png#lightbox)
 
 	Configuring the correct data type is important. When the column contains
 	numeric value, it's also important to choose the correct type if you
@@ -467,7 +467,7 @@ In this task, you'll configure the **Targets** query.
     multi-select the **Year** and **EmployeeID** column headers.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Targets query with Year and EmployeeID columns selected.](../media/lab-44-ssm.png)](../media/lab-44-ssm.png#lightbox)
+	> [![Screenshot of the Targets query.](../media/lab-44-ssm.png)](../media/lab-44-ssm.png#lightbox)
 
 1. Right-click either of the select column headers, and then in the
     context menu, select **Unpivot Other Columns**.
@@ -523,7 +523,7 @@ In this task, you'll configure the **Targets** query.
 1. Notice also the formula presented above the query grid.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the formula presented above the query grid.](../media/lab-50-ssm.png)](../media/lab-50-ssm.png#lightbox)
+	> [![Screenshot of the formula.](../media/lab-50-ssm.png)](../media/lab-50-ssm.png#lightbox)
 
 1. To rename the new column, double-click the **Merged** column header.
 
@@ -549,7 +549,7 @@ In this task, you'll configure the **Targets** query.
     **Multiply**.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Standard mneu with Multiply button.](../media/lab-53-ssm.png)](../media/lab-53-ssm.png#lightbox)
+	> [![Screenshot of the Standard button.](../media/lab-53-ssm.png)](../media/lab-53-ssm.png#lightbox)
 
 1. In the **Multiply** window, in the **Value** box, enter **1000**.
 
@@ -639,7 +639,7 @@ In this task, you'll update the **ColorFormats** to disable its load.
 1. In the **Query Settings** pane, click the **All Properties** link.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the All Properties link on the Query Settings pane.](../media/lab-69-ssm.png)](../media/lab-69-ssm.png#lightbox)
+	> [![Screenshot of the All Properties link.](../media/lab-69-ssm.png)](../media/lab-69-ssm.png#lightbox)
 
 1. In the **Query Properties** window, uncheck the
     **Enable Load To Report** checkbox.

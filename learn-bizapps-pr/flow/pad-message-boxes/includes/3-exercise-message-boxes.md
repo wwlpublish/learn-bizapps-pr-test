@@ -2,6 +2,8 @@ In attended automation, interaction between the user and workstation is necessar
 
 In this exercise, you will develop an attended flow, which receives real-time input from the user, and provides useful information as output while running.
 
+To begin, download [**Orders.zip**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/Orders.zip). Select **Download** on the right. Extract the Excel file to your local computer.
+
 1. Start by prompting the user to select an Excel file. Use a **Display Select File Dialog** action.
 
    ![Screenshot of the display select file dialog properties dialog.](..\media\display-select-file-dialog-properties-exercise.png)
@@ -40,7 +42,7 @@ In this exercise, you will develop an attended flow, which receives real-time in
 
     ![Screenshot of the Write to Excel worksheet properties dialog.](..\media\write-to-excel-worksheet-properties-exercise.png)
 
-1. Run the flow.
+1. Run the flow. When prompted, select the **Orders.xlsx** file.
 
     ![Screenshot of the completed exercise workspace.](..\media\final-exercise-workspace.png)
 

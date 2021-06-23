@@ -1,23 +1,23 @@
 ﻿### YamlMime:Module 
 uid: learn-bizapps.author-basic-formula-change-properties-powerapps
 metadata: 
-  title: Author a basic formula to change properties in a Power Apps canvas app
-  description: Want to enhance your Power Apps canvas app? You can use basic formulas to make changes to control properties.  This will include changing the format, position, simple calculations, and implementing conditional formatting.
-  ms.date: 04/27/2020  
+  title: Create formulas to change properties in a Power Apps canvas app
+  description: Want to enhance or customize your Power Apps canvas app? You can use easy-to-write formulas to make changes in your app that include changing the format or position of controls, do simple math calculations, or implement conditional formatting in your design.
+  ms.date: 04/29/2021  
   author: DaveBeasley
-  ms.author: dbeasley  
+  ms.author: dbeasley
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Author a basic formula to change properties in a Power Apps canvas app  
+title: Create formulas to change properties in a Power Apps canvas app  
 summary: |
   [!include[](../includes/module-banner.md)]
 
-  Want to enhance your Power Apps canvas app? You can use basic formulas to make changes to control properties.  This will include changing the format, position, simple calculations, and implementing conditional formatting. 
+  Want to enhance or customize your Power Apps canvas app? You can use easy-to-write formulas to make changes in your app that include changing the format or position of controls, do simple math calculations, or implement conditional formatting in your design. 
 abstract: |  
     In this module, you will: 
     - Understand the basics of how to use formulas in a canvas app
     - Change the format of a date control 
-    - Use a formula to do simple calculations
+    - Use a formula to do simple math calculations
     - Change the position of an icon using a formula
     - Understand how to implement conditional formatting in canvas apps using a formula
 prerequisites: A basic understanding of how to create a canvas app in Power Apps.  This should include adding controls to the app.  An understanding of working with data in Power Apps is also helpful but not required.       

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.policy-templates-custom-connectors.6-exercise 
+title: Exercise - Use a policy template to dynamically set the host URL 
+metadata: 
+  title: Exercise - Use a policy template to dynamically set the host URL  
+  description: Steps to create a policy template to set the host URL at connection creation.   
+  ms.date: 03/22/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+durationInMinutes: 10 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/6-exercise.md)] 

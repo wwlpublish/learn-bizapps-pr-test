@@ -13,14 +13,14 @@ To retrieve data, open Power BI Report Builder. From the **Getting Started** scr
 Right-click the **Data Sources** folder and select **Add Data Source**.
 
 > [!div class="mx-imgBorder"]
-> [![Add a data source part 1](../media/04-add-data-source-part-1-ssm.png)](../media/04-add-data-source-part-1-ssm.png#lightbox)
+> [![Screenshot of the Add data source feature in Data Sources.](../media/04-add-data-source-part-1-ssm.png)](../media/04-add-data-source-part-1-ssm.png#lightbox)
 
 On the **General** tab, name the data source.
 
 After naming the data source, choose the correct connection string by selecting the **Build** button.
 
 > [!div class="mx-imgBorder"]
-> [![ Select the Build button from Data Source Properties](../media/04-data-source-properties-build-button-ssm.png)](../media/04-data-source-properties-build-button-ssm.png#lightbox)
+> [![Screenshot of the Data Source Properties window with Build button.](../media/04-data-source-properties-build-button-ssm.png)](../media/04-data-source-properties-build-button-ssm.png#lightbox)
 
 After you have selected **Build**, the **Connection Properties** screen appears. The properties on this screen will be unique for each data source. The following figure is an example of what you might see in the screen. The figure shows the properties of a SQL Server connection that you, the report author, will enter:
 
@@ -33,7 +33,7 @@ After you have selected **Build**, the **Connection Properties** screen appears.
 1.  Select **OK** to continue
 
     > [!div class="mx-imgBorder"]
-	> [![Connection properties screen](../media/04-connection-properties-ssm.png)](../media/04-connection-properties-ssm.png#lightbox)
+	> [![Screenshot of the connection properties details.](../media/04-connection-properties-ssm.png)](../media/04-connection-properties-ssm.png#lightbox)
 
 You can also enter username and password information on the **Connection Properties** screen, or you can leave it on the default setting and use your Windows credentials. Select **OK** again.
 
@@ -56,4 +56,4 @@ From the window that displays, you can:
 1.  Enter a query into the text box.
 
 > [!div class="mx-imgBorder"]
-> [![The Dataset Properties screen](../media/04-dataset-properties-ssm.png)](../media/04-dataset-properties-ssm.png#lightbox)
+> [![Screenshot of the Dataset Properties window with name, type, and query.](../media/04-dataset-properties-ssm.png)](../media/04-dataset-properties-ssm.png#lightbox)

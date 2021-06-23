@@ -10,7 +10,7 @@ The web templates that are included in a starter portal are implemented by using
 
 Cascading Style Sheets (CSS) is a language that determines the style of a webpage by describing how its HTML elements are to be displayed, including text, fonts, colors, backgrounds, borders, and margins.
 
-Making changes to the style of your portal pages can be as simple as applying CSS statements directly to a page in the **Custom CSS** field. For example, if you need to increase the height of the navigation bar at the top of a particular page to fit a logo, you can simply edit the page and then add a custom CSS statement.
+Making changes to the style of your portal pages can be as simple as applying CSS statements directly to a page in the **Custom CSS** column. For example, if you need to increase the height of the navigation bar at the top of a particular page to fit a logo, you can simply edit the page and then add a custom CSS statement.
 
 ```css
 .navbar-static-top.navbar { min-height: 100px; background-color:gold; }

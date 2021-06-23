@@ -31,7 +31,7 @@ that customers can get the help that they need, any time and from any device.
 
 Providing a web portal interface takes advantage of these user trends and brings
 any type of engagement, including partner, group, and employee scenarios, that
-directly accesses Common Data Service to create a modern connected experience
+directly accesses Microsoft Dataverse to create a modern connected experience
 for external users and internal business operations.
 
 ## Modern business
@@ -52,8 +52,8 @@ following are additional capabilities that Power Apps portals can deliver:
     where the record can become part of your sales pipeline automatically.
 
 -   **Empower employees** - When an employee needs a new computer, they can fill
-    out an online form, where the information will be recorded in Common Data
-    Service so the helpdesk staff can immediately access and process this
+    out an online form, where the information will be recorded in Dataverse 
+    so the helpdesk staff can immediately access and process this
     information.
 
 -   **Engage mobile workforce** - Empower agents on any device, wherever they
@@ -62,7 +62,7 @@ following are additional capabilities that Power Apps portals can deliver:
 
 ## Power Apps portals capabilities
 
-Power Apps portals are built on top of Common Data Service. This architecture
+Power Apps portals are built on top of Microsoft Dataverse. This architecture
 comes with a major benefit. All the differentiating features of model-driven
 Power Apps are the features of Power Apps portals as well, including:
 
@@ -82,12 +82,12 @@ Power Apps are the features of Power Apps portals as well, including:
 
 -   Integration with other services
 
--   Common Data Service extensibility
+-   Microsoft Dataverse extensibility
 
 -   Audit
 
 Power Apps portals deliver a complete content management system out of the box,
-with all content stored in Common Data Service. As a result, content can be
+with all content stored in Microsoft Dataverse. As a result, content can be
 edited through the Portals Studio and also directly by using the Portal
-Management app. Additionally, the robust Common Data Service security model can
+Management app. Additionally, the robust Microsoft Dataverse security model can
 help secure the content.

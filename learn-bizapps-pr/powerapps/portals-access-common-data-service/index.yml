@@ -17,7 +17,7 @@ abstract: |
     - Discover the portal components that are available to display and interact with Dataverse data on the portal.
     - Identify the various features of the portal components.
     - Display a list of data and an associated drill-down for details.
-    - Configure an entity form to access individual records.
+    - Configure a table form to access individual records.
     - Trigger classic Dataverse workflows from the portal. 
 prerequisites: Basic understanding of how to navigate and configure Microsoft Power Apps portals and knowledge of how to customize and configure model-driven apps  
 iconUrl: /learn/achievements/portals-access-common-data-service.svg  

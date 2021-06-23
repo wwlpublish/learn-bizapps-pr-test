@@ -7,7 +7,7 @@ When you publish a report, Power BI Desktop packages your report and data, inclu
 To publish your report, select the **Publish** button on the **Home** tab.
 
 > [!div class="mx-imgBorder"]
-> [![Publish report button on Home tab](../media/9-publish-report-button-ssm.png)](../media/9-publish-report-button-ssm.png#lightbox)
+> [![Screenshot of the Publish report button on the Home tab.](../media/9-publish-report-button-ssm.png)](../media/9-publish-report-button-ssm.png#lightbox)
 
 You might be prompted to save your changes, in which case, select **Save** and then proceed to save your Power BI (.pbix) file.
 
@@ -18,10 +18,10 @@ In the **Publish to Power BI** window, select the destination in which you want 
 When the report is successfully published, you'll get a success message that contains a link to your report in your Power BI site. Select **Got it** to close the **Publishing to BI** window and return to your report in Power BI Desktop. From the report page, you can select the provided URL to go to Power BI service and see your new report.
 
 > [!div class="mx-imgBorder"]
-> [![Publish report success message](../media/9-publish-report-success-message-ss.png)](../media/9-publish-report-success-message-ss.png#lightbox)
+> [![Screenshot of the Publishing to Power B I report success message.](../media/9-publish-report-success-message-ss.png)](../media/9-publish-report-success-message-ss.png#lightbox)
 
 > [!div class="mx-imgBorder"]
-> [![View report in Power BI Server](../media/9-view-report-power-bi-server-ss.png)](../media/9-view-report-power-bi-server-ss.png#lightbox)
+> [![Screenshot of the report in Power B I Server.](../media/9-view-report-power-bi-server-ss.png)](../media/9-view-report-power-bi-server-ss.png#lightbox)
 
 ## Export reports
 

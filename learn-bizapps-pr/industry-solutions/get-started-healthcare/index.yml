@@ -25,8 +25,8 @@ roles:
 - functional-consultant 
 - maker
 products:  
-- power-platform
-- dynamics-365 
+- industry-solutions
+- mscloud-healthcare
 units: 
 - learn-bizapps.get-started-healthcare.1-introduction 
 - learn-bizapps.get-started-healthcare.1-5-features-benefits

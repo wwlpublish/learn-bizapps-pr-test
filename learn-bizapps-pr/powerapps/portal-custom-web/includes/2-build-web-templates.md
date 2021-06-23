@@ -1,4 +1,4 @@
-**Web Template** is a simple entity that contains the following attributes:
+**Web Template** is a simple table that contains the following attributes:
 
 - **Name** - When a template is included in other content, or extended by other templates, it is referred to by this name.
 - **Source** - The source content of the template. It can be static text, an HTML fragment, or most often, a layout by using Liquid.
@@ -16,9 +16,9 @@ The `fetchxml` tag allows users to query data from Dataverse and renders the res
 {% fetchxml varResults %}
 <!— Fetchxml query -->
 <fetch>
-  <entity name="account">
+  <table name="account">
     <attribute name="name" />
-  </entity>
+  </table>
 </fetch>
 {% endfetchxml %}
 ```
@@ -32,7 +32,7 @@ The `varResults` variable will contain the results of the query.
 ```
 
 > [!IMPORTANT]
-> Entity permissions are always applied to the `fetchxml` tag.
+> Table permissions are always applied to the `fetchxml` tag.
 
 ### Comment tag
 

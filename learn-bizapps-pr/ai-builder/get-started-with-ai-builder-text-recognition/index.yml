@@ -2,7 +2,7 @@
 uid: learn-bizapps.get-started-with-ai-builder-text-recognition 
 metadata: 
  title: Get started with AI Builder Text recognition
- description: Learn about AI Builder Text recognition and how to use it with other Power Platform products.
+ description: Learn about AI Builder Text recognition and how to use it with other Microsoft Power Platform products.
  ms.date: 04/10/2020  
  author: heyrob  
  ms.author: robde  
@@ -11,11 +11,11 @@ metadata:
 title: Get started with AI Builder Text recognition
 summary: |  
    [!include[](../includes/module-banner.md)] 
-   Learn about AI Builder Text recognition and how to use it with other Power Platform products.
+   Learn about AI Builder Text recognition and how to use it with other Microsoft Power Platform products.
 abstract: |  
     In this module, you will: 
     - Integrate AI Builder Text recognition.
-    - Identify how to use AI Builder Text recognition within Power Platform.
+    - Identify how to use AI Builder Text recognition within Microsoft Power Platform.
     - Evaluate which business problems can be solved by AI Builder Text recognition.
     - Develop a simple flow with Power Automate that uses AI Builder Text recognition.
     - Practice processing files from a OneDrive folder and saving recognized text to Microsoft Dataverse.

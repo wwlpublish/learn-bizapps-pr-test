@@ -7,7 +7,7 @@ Paginated reports give a pixel-perfect view of the data. Pixel perfect means tha
 Power BI paginated reports are descendants of SQL Server Reporting Services (SSRS), which was first introduced in 2004. Power BI paginated reports and SSRS have a lot in common. If you're looking for information on paginated reports and can't find it, searching the internet and Microsoft documentation on SSRS is an excellent idea because you'll find numerous blog posts, videos, and documentation available to you.
 
 > [!div class="mx-imgBorder"]
-> [![Power BI Report Builder](../media/04-power-bi-report-builder-ssm.png)](../media/04-power-bi-report-builder-ssm.png#lightbox)
+> [![Screenshot of the Power BI Report Builder from Power BI Desktop.](../media/04-power-bi-report-builder-ssm.png)](../media/04-power-bi-report-builder-ssm.png#lightbox)
 
 ### When paginated reports are the right fit
 
@@ -20,7 +20,7 @@ Power BI paginated reports can also display all of your data in a single report 
 Power BI paginated reports are not created in Power BI Desktop; they are built by using Power BI Report Builder. Power BI paginated reports are a feature of Power BI Premium.
 
 > [!div class="mx-imgBorder"]
-> [![Power BI premium](../media/04-power-bi-premium-ss.png)](../media/04-power-bi-premium-ss.png#lightbox)
+> [![Screenshot of the Power BI paginated reports in Power BI Report Builder.](../media/04-power-bi-premium-ss.png)](../media/04-power-bi-premium-ss.png#lightbox)
 
 In this module, you will:
 
@@ -30,4 +30,4 @@ In this module, you will:
 
 -   Work with charts and tables on the report. 
 
--   Publish the report. 
+-   Publish the report.

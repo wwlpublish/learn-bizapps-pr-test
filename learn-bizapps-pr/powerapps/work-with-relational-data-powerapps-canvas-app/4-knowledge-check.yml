@@ -46,13 +46,13 @@ quiz:
     choices: 
     - content: Nothing, Dataverse automatically determines your data relationships.
       isCorrect: false
-      explanation: You should create the relationship for the entity in Power Apps Studio. 
+      explanation: You should create the relationship for the table in Power Apps Studio. 
     - content: Dataverse isn't used for relational data.
       isCorrect: false 
-      explanation: You should create the relationship for the entity in Power Apps Studio. 
-    - content: Create the relationship for the entity in the Data section of Power Apps Studio.
+      explanation: You should create the relationship for the table in Power Apps Studio. 
+    - content: Create the relationship for the table in the Data section of Power Apps Studio.
       isCorrect: true
-      explanation: You should create the relationship for the entity in Power Apps Studio. 
-    - content: Create the relationship at the tenant level for the Power Platform.
+      explanation: You should create the relationship for the table in Power Apps Studio. 
+    - content: Create the relationship at the tenant level for Microsoft Power Platform.
       isCorrect: false 
-      explanation: You should create the relationship for the entity in Power Apps Studio. 
+      explanation: You should create the relationship for the table in Power Apps Studio. 

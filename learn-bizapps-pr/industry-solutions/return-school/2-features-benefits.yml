@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.return-school.2-features-benefits 
+title: Features and benefits
+metadata: 
+  title: Features and benefits 
+  description: Learn about the features and benefits of the Return to School solution. 
+  ms.date: 04/28/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-return-school 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-features-benefits.md)] 

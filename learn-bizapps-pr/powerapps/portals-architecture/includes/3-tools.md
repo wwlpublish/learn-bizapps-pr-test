@@ -1,4 +1,4 @@
-Power Platform provides a number of tools to help you administer, configure, and fine-tune a Power Apps portal to meet specific business requirements.
+Microsoft Power Platform provides a number of tools to help you administer, configure, and fine-tune a Power Apps portal to meet specific business requirements.
 
 ## Portals Studio
 
@@ -18,7 +18,7 @@ The portals Studio is used for quickly defining a site structure with webpage ma
 
 ## Portal Management app
 
-Not all portal configuration features are available in the Power Apps portals Studio. Portal Management is a Power Apps model-driven app that allows makers to add, modify, or delete any of the portal metadata records that define the portal functionality and appearance. The Portal Management app can be used for creating and editing content snippets, managing advanced options for entity forms and entity lists, and other advanced configuration tasks.
+Not all portal configuration features are available in the Power Apps portals Studio. Portal Management is a Power Apps model-driven app that allows makers to add, modify, or delete any of the portal metadata records that define the portal functionality and appearance. The Portal Management app can be used for creating and editing content snippets, managing advanced options for table forms and table lists, and other advanced configuration tasks.
 
 > [!WARNING]
 > Incorrectly modifying the portal metadata might have undesirable effects on the operation and appearance of your portal.

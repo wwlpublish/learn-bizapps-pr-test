@@ -1,4 +1,4 @@
-Microsoft Power Platform Center of Excellence (CoE) is a collection of templates that has components and tools to help you get started with developing a strategy for adopting and supporting Power Platform, with a focus on Power Apps and Power Automate. CoE is an extension of the admin center and falls within the templates and customizations category.
+Microsoft Power Platform Center of Excellence (CoE) is a collection of templates that has components and tools to help you get started with developing a strategy for adopting and supporting Microsoft Power Platform, with a focus on Power Apps and Power Automate. CoE is an extension of the admin center and falls within the templates and customizations category.
 
 A Center of Excellence is designed to drive innovation and improvement. As a central function, a CoE can break down geographic and organizational silos to bring together like-minded people who have similar business goals to share knowledge and success while simultaneously providing standards, consistency, and governance to the organization. A CoE can be a powerful way for an organization to align around business goals rather than individual department metrics.
 
@@ -8,7 +8,7 @@ Make sure that you meet the following requirements before you begin this module:
 
 -   Admin account
 
-    -   Power Platform service admin, global tenant admin, or Microsoft Dynamics 365 service admin for access to all tenant resources through the Power Apps APIs
+    -   Microsoft Power Platform service admin, global tenant admin, or Microsoft Dynamics 365 service admin for access to all tenant resources through the Power Apps APIs
 
     -   This solution will work for environment admins, but the view will be restricted to only the environments that an environment admin has access to
 
@@ -20,13 +20,13 @@ Make sure that you meet the following requirements before you begin this module:
 
 -   The environment must have a data loss prevention (DLP) policy that allows:
 
-    -   [Dataverse](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true) 
+    -   [Dataverse (legacy)](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true) 
 
-    -   [Dataverse (current environment)](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true) 
+    -   [Dataverse](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true) 
 
     -   [Office 365 Users](https://docs.microsoft.com/connectors/office365users/?azure-portal=true), 
 
-    -   [Power Platform for Admins](https://docs.microsoft.com/connectors/powerplatformforadmins/?azure-portal=true)
+    -   [Microsoft Power Platform for Admins](https://docs.microsoft.com/connectors/powerplatformforadmins/?azure-portal=true)
 
     -   [Power Automate Management](https://docs.microsoft.com/connectors/flowmanagement/?azure-portal=true) 
 

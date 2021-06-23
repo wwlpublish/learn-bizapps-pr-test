@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 07/15/2020 
+ ms.date: 06/01/2021
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -21,7 +21,7 @@ quiz:
     - content: Change the page's partial URL to point to the correct parent.
       isCorrect: false 
       explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the site map tree. Other suggestions will not achieve the desired result.
-    - content: Edit the page and then select the correct value in the Parent Page field.
+    - content: Edit the page and then select the correct value in the Parent Page column.
       isCorrect: true 
       explanation: Any page attribute that includes Parent Page can be changed when you are editing the page. You can’t rearrange pages in the site map tree. Other suggestions will not achieve the desired result.
     - content: Drag and drop the page in the site map tree.
@@ -59,13 +59,13 @@ quiz:
     choices: 
     - content: Add a new home.css web file.
       isCorrect: false 
-      explanation: The content of the Custom CSS field of a webpage applies to that page only and setting this field to the provided CSS snippet will achieve the desired effect. Any CSS in the file with the .css extension applies to the parent page and all its descendants. Content snippets do not affect the appearance of a portal unless it's used in a template.
+      explanation: The content of the Custom CSS column of a webpage applies to that page only and setting this column to the provided CSS snippet will achieve the desired effect. Any CSS in the file with the .css extension applies to the parent page and all its descendants. Content snippets do not affect the appearance of a portal unless it's used in a template.
     - content: Replace the content of the bootstrap.min.css file.
       isCorrect: false 
-      explanation: The content of the Custom CSS field of a webpage applies to that page only and setting this field to the provided CSS snippet will achieve the desired effect. Any CSS in the file with the .css extension applies to the parent page and all its descendants. Content snippets do not affect the appearance of a portal unless it's used in a template.
+      explanation: The content of the Custom CSS column of a webpage applies to that page only and setting this column to the provided CSS snippet will achieve the desired effect. Any CSS in the file with the .css extension applies to the parent page and all its descendants. Content snippets do not affect the appearance of a portal unless it's used in a template.
     - content: Add a new content snippet called Home/Background.
       isCorrect: false 
-      explanation: The content of the Custom CSS field of a webpage applies to that page only and setting this field to the provided CSS snippet will achieve the desired effect. Any CSS in the file with the .css extension applies to the parent page and all its descendants. Content snippets do not affect the appearance of a portal unless it's used in a template.
-    - content: Set the Custom CSS field for the Home page.
+      explanation: The content of the Custom CSS column of a webpage applies to that page only and setting this column to the provided CSS snippet will achieve the desired effect. Any CSS in the file with the .css extension applies to the parent page and all its descendants. Content snippets do not affect the appearance of a portal unless it's used in a template.
+    - content: Set the Custom CSS column for the Home page.
       isCorrect: true 
-      explanation: The content of the Custom CSS field of a webpage applies to that page only and setting this field to the provided CSS snippet will achieve the desired effect. Any CSS in the file with the .css extension applies to the parent page and all its descendants. Content snippets do not affect the appearance of a portal unless it's used in a template.
+      explanation: The content of the Custom CSS column of a webpage applies to that page only and setting this column to the provided CSS snippet will achieve the desired effect. Any CSS in the file with the .css extension applies to the parent page and all its descendants. Content snippets do not affect the appearance of a portal unless it's used in a template.

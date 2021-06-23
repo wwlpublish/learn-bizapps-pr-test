@@ -21,6 +21,9 @@ As mentioned earlier, a topic defines how a chatbot conversation plays out in Po
 
 4.  Select **Save topic** to add the topic to the topics list.
 
+> [!NOTE]
+> You can have up to 1,000 topics in a bot.
+
 ## Design the topic's conversation path
 
 1.  In the topic details for the topic you want to edit, select **Go to

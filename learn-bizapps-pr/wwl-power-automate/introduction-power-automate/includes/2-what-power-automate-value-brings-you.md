@@ -1,4 +1,4 @@
-Do you find yourself downloading email attachments and then uploading the file to the database? Power Automate can help. Does the process of getting a new purchase order approved involve you taking a form from desk to desk to get sign off? Power Automate can help. Do you have to log into a website every morning, find the daily numbers, and then save those into another system? Power Automate can help.
+Do you find yourself regularly downloading email attachments and then uploading the file to the database? Power Automate can help. Does the process of getting a new purchase order approved involve you taking a form from desk to desk to get sign off? Power Automate can help. Do you have to log into a website every morning, find the daily numbers, and then save those into another system? Power Automate can help.
 
 Power Automate is all about having computers manage repetitive tasks. Power Automate allows anyone with knowledge of the business process to create a repeatable flow that when triggered, leaps into action and performs the process. 
 
@@ -20,7 +20,7 @@ A user starts the process by going into a Power Apps app and creating a purchase
 
 The flow can be built to evaluate the request and then route the request based on criteria such as submitting user and request amount. The first action could be to send the request to the user's manager. The manager could be automatically retrieved from Azure AD, avoiding prompting for duplicate information.
 
-Here is the starting point of the flow.
+Here is the starting point of the flow:
     ![Flow edit form](../media/starting-point.png)
 
 After the manager receives the approval and approves, the flow can then provide conditional logic. Typically, this might be something like: if the purchase order request is greater than $10,000, send it to VP; if not, then automatically approve the purchase order.
@@ -44,7 +44,7 @@ When building an app, access to your data is very important. Power Automate offe
 
 - Office 365
 
-You don't have to choose just one data source either. Power Platform easily supports multiple data connections allowing you to bring data together from many platforms into a single automation. 
+You don't have to choose just one data source either. Microsoft Power Platform easily supports multiple data connections allowing you to bring data together from many platforms into a single automation. 
 
 Finally, if your data isn't retrievable by one of the 275 plus connectors, then Power Automate also allows you to create custom connectors, letting you talk to any data source via a swagger file.  
 
@@ -54,13 +54,13 @@ Power Automate works by creating flows, of which there are three types:
 
 - Event driven flows - These are flows that you build with a trigger and then one or more actions. There are  a multitude of triggers and actions available, thanks to the existing connectors. You will see these as My flows and Team flows in Power Automate. The only difference between a My flow and a Team flow is ownership. With a My flow you are the sole owner, while a Team flow has more than one owner. 
 
-- Business process flows - These flows are built to augment the experience when using Model-driven apps and the Dataverse. Use these to create a guided experience in your Model-driven apps. 
+- Business process flows - These flows are built to augment the experience when using Model-driven apps and Microsoft Dataverse. Use these to create a guided experience in your Model-driven apps. 
 
-- Desktop flow - These robotic process automation (RPA) flows allow you to record yourself performing actions on your desktop or within a web browser. You can then trigger a flow to perform that process for you. You can also pass data in or get data out of the process, letting you automate even "manual" business processes.
+- Desktop flows - These robotic process automation (RPA) flows allow you to record yourself performing actions on your desktop or within a web browser. You can then trigger a flow to perform that process for you. You can also pass data in or get data out of the process, letting you automate even "manual" business processes.
 
 ## Add artificial intelligence to your flow without writing code
 
-Before the Power Platform, adding functionality such as image or text processing required an advanced computer  or coding knowledge. There was code to write, data models to design and train, and a lot of complicated logic. The Power Platform, however, has "democratized" artificial intelligence by providing a wizard-based interface for building and training your model. This unlocks the power of Azure Machine Learning and Cognitive services without writing a single line of code.
+Before Microsoft Power Platform, adding functionality such as image or text processing required an advanced computer  or coding knowledge. There was code to write, data models to design and train, and a lot of complicated logic. Microsoft Power Platform, however, has "democratized" artificial intelligence by providing a wizard-based interface for building and training your model. This unlocks the power of Azure Machine Learning and Cognitive services without writing a single line of code.
 
 To take advantage of these AI capabilities you must first build a model. From [https://make.PowerApps.com](https://make.PowerApps.com) a wizard guides you through building and training the model. Currently, there are four available AI models available to build:
 
@@ -88,7 +88,7 @@ Once you have a trained model, then you can interact with the model in your flow
 
 ## Security and Administration
 
-To manage security for Power Automate log into [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com) From the Power Platform admin center you have full access to Power Automate tenant wide. You have the ability to create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas. The admin center gives you management capabilities across Power Automate.
+To manage security for Power Automate, log into [https://admin.powerplatform.microsoft.com](https://admin.powerplatform.microsoft.com/). From the Microsoft Power Platform admin center you have full access to Power Automate tenant wide. You have the ability to create and manage environments, implement Data Loss Prevention policies, work with Data integrations, manage user licenses, and quotas. The admin center gives you management capabilities across Power Automate.
 
 Power Automate also offers a full set of PowerShell cmdlets. These cmdlets allow you deeper controls and to work better in large-scale scenarios. Using the cmdlets for auditing gives you more control and insight on Power Automate's usage throughout your tenant.
 

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.gateway-desktop-flow.3-gateway-connection 
+title: Create a gateway connection
+metadata: 
+  title: Create a gateway connection 
+  description: Learn how to create a gateway connection. 
+  ms.date: 04/23/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 1 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-gateway-connection.md)] 

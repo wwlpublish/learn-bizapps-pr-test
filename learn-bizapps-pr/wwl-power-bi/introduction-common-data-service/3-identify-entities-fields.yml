@@ -1,15 +1,15 @@
 ### YamlMime:ModuleUnit
 uid: learn-bizapps.wwl.introduction-common-data-service.identify-entities-fields-common-data-service
-title: Identify entities and fields in Dataverse
+title: Identify tables and columns in Dataverse
 metadata:
-  title: Identify entities and fields in Dataverse
-  description: "Identify entities and fields in Dataverse"
-  ms.date: 02/09/2021
+  title: Identify tables and columns in Dataverse
+  description: "Identify tables and columns in Dataverse"
+  ms.date: 05/31/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 4
 content: |
   [!include[](includes/3-identify-entities-fields.md)]

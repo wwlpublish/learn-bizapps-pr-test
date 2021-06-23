@@ -47,7 +47,7 @@ CALCULATE (
 )
 ```
 
-When you have created a new outlier measure, you can group your products into categories by using the grouping feature, as you previously did when creating a histogram. You then need to add a scatter chart visual, as you did in the previous section, because this the best visualization option for displaying outliers. When you've added the scatter chart, populate it with the fields that are associated with your DAX formula and outlier measure.
+When you have created a new outlier measure, you can group your products into categories by using the grouping feature, as you previously did when creating a histogram. You then need to add a scatter chart visual, as you did in the previous section, because this is the best visualization option for displaying outliers. When you've added the scatter chart, populate it with the fields that are associated with your DAX formula and outlier measure.
 
 > [!div class="mx-imgBorder"]
 > [![Screenshot of selecting outlier logic fields to use in a scatter chart.](../media/3-select-outlier-logic-fields-ss.png)](../media/3-select-outlier-logic-fields-ss.png#lightbox)

@@ -6,7 +6,7 @@ The underlying features and components that are used to build the kit (such as D
 
 ## Links related to modules for specific articles
 
-[Power Platform Center of Excellence (CoE) Starter Kit](https://docs.microsoft.com/power-platform/guidance/coe/starter-kit/?azure-portal=true)
+[Microsoft Power Platform Center of Excellence (CoE) Starter Kit](https://docs.microsoft.com/power-platform/guidance/coe/starter-kit/?azure-portal=true)
 
 [Data loss prevention policies](https://docs.microsoft.com/power-platform/admin/wp-data-loss-prevention/?azure-portal=true)
 
@@ -14,13 +14,13 @@ The underlying features and components that are used to build the kit (such as D
 
 [Search the audit sign in the compliance center](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance?view=o365-worldwide#before-you-begin/?azure-portal=true)
 
-[Dataverse (previously known as Common Data Service)](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true)
+[Dataverse (legacy)](https://docs.microsoft.com/connectors/commondataservice/?azure-portal=true)
 
-[Dataverse (current environment)](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true)
+[Dataverse](https://docs.microsoft.com/connectors/commondataserviceforapps/?azure-portal=true)
 
 [Microsoft 365 Users (previously known as Office 365 users)](https://docs.microsoft.com/connectors/office365users/?azure-portal=true)
 
-[Power Platform for Admins (Preview)](https://docs.microsoft.com/connectors/powerplatformforadmins/?azure-portal=true)
+[Microsoft Power Platform for Admins (Preview)](https://docs.microsoft.com/connectors/powerplatformforadmins/?azure-portal=true)
 
 [Power Automate Management](https://docs.microsoft.com/connectors/flowmanagement/?azure-portal=true)
 

@@ -1,0 +1,33 @@
+﻿### YamlMime:LearningPath
+uid: learn-bizapps.integrate-dataverse-power-automate
+metadata:
+  title: Integrate Power Automate flows and Dataverse
+  description: Learn how you to Integrate Power Automate flows and Dataverse.
+  ms.date: 05/06/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-power-automate
+title: Integrate Power Automate flows and Dataverse
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Work with triggers and actions to extend Power Automate and Dataverse. This Learning Path looks at how to use these features with your flows. 
+prerequisites: |
+  - A basic understanding of Microsoft Power Automate. 
+  - Familiarity with Microsoft Power Platform, Power Apps, and Azure Logic Apps
+iconUrl: /learn/achievements/integrate-dataverse-power-automate.svg
+levels:
+- intermediate
+roles:
+- maker
+- developer
+products:
+- power-platform
+- power-automate
+- common-data-service
+modules:
+- learn-bizapps.dataverse-triggers-actions 
+- learn-bizapps.extend-dataverse-power-automate 
+trophy:
+  uid: learn.integrate-dataverse-power-automate.trophy
+

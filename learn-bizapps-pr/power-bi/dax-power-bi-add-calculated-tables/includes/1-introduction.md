@@ -107,7 +107,7 @@ Effectively, the CALENDARAUTO function guarantees that the following requirement
 -   The column must not have missing dates.
 
 > [!TIP]
-> You can also create a date table by using the [CALENDAR](https://docs.microsoft.com/dax/calendar-function-dax/?azure-portal=true) DAX function. This function allows passing in two date values, which represent the date range. The function generates one row for each date within the range. You can pass in static date values or pass in expressions that retrieve the earliest/latest dates from specific columns in your model.
+> You can also create a date table by using the [CALENDAR](https://docs.microsoft.com/dax/calendar-function-dax/?azure-portal=true) DAX function and passing in two date values, which represent the date range. The function generates one row for each date within the range. You can pass in static date values or pass in expressions that retrieve the earliest/latest dates from specific columns in your model.
 
 Next, switch to data view, and then in the **Fields** pane, select the Due Date table. Now, review the column of dates. You might want to order them to see the earliest date in the first row by selecting the arrow inside the **Date** column header and then sorting in ascending order.
 
@@ -115,7 +115,7 @@ Next, switch to data view, and then in the **Fields** pane, select the Due Date
 > Ordering or filtering columns doesn't change how the values are stored. These functions help you explore and understand the data.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Due Date table in the data view.](../media/dax-due-date-table-data-view-1-ss.png)](../media/dax-due-date-table-data-view-1-ss.png#lightbox)
+> [![An image shows the Due Date table in data view. There's one column named Date, and when the values are sorted earliest to latest, the first date is July 1, 2017.](../media/dax-due-date-table-data-view-1-ss.png)](../media/dax-due-date-table-data-view-1-ss.png#lightbox)
 
 Now that the **Date** column is selected, review the message in the status bar (located in the lower-left corner). It describes how many rows that the table stores and how many distinct values are found in the selected column.
 

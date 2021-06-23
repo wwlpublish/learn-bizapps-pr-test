@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.custom-connector-lifecycle-management.2-updates 
+title: Updates and versioning
+metadata: 
+  title: Updates and versioning 
+  description: Learn about updates and versioning.  
+  ms.date: 04/20/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-updates.md)] 

@@ -31,7 +31,7 @@ select **Rename**. Edit the current name or type a new
 name, and then press **Enter**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Rename feature to rename a query.](../media/03-rename-query-ssm.png)](../media/03-rename-query-ssm.png#lightbox)
+> [![Rename a query](../media/03-rename-query-ssm.png)](../media/03-rename-query-ssm.png#lightbox)
 
 ## Replace values
 
@@ -45,7 +45,7 @@ replace (**Attribute** in this case), and then select **Replace
 Values** on the **Transform** tab. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Replace values feature in Power Query Editor.](../media/03-replace-value-ssm.png)](../media/03-replace-value-ssm.png#lightbox)
+> [![Replace value feature in Power Query Editor](../media/03-replace-value-ssm.png)](../media/03-replace-value-ssm.png#lightbox)
 
 In the **Value to Find** box, enter the name of the value that you want
 to replace, and then in the **Replace With** box, enter the correct
@@ -53,7 +53,7 @@ value name and then select **OK**. In Power Query, you can't select one
 cell and change one value, like you might have done in Excel.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Replace values feature.](../media/03-value-find-ssm.png)](../media/03-value-find-ssm.png#lightbox)
+> [![replace one value with another in the value to find box](../media/03-value-find-ssm.png)](../media/03-value-find-ssm.png#lightbox)
 
 You can review the list of steps that you took to restructure and
 correct your data in the **Query Settings** pane. When you have
@@ -67,7 +67,7 @@ data.
 Occasionally, you might find that your data sources contain null values. For example, a freight amount on a sales order might have a null value if it's synonymous with zero. If the value stays null, the averages will not calculate correctly. One solution would be to change the nulls to zero, which will produce the more accurate freight average. In this instance, using the same steps that you followed previously will help you replace the null values with zero. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Replace values of null with zero example.](../media/03-replace-null-zero-ss.png)](../media/03-replace-null-zero-ss.png#lightbox)
+> [![Replace null value with zero](../media/03-replace-null-zero-ss.png)](../media/03-replace-null-zero-ss.png#lightbox)
 
 ## Remove duplicates 
 
@@ -88,7 +88,7 @@ give you a comparison of the tables and will let you use both tables, if
 needed.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Remove duplicates feature.](../media/03-remove-duplicates-ssm.png)](../media/03-remove-duplicates-ssm.png#lightbox)
+> [![Remove duplicates feature](../media/03-remove-duplicates-ssm.png)](../media/03-remove-duplicates-ssm.png#lightbox)
 
 ## Best practices for naming tables, columns, and values
 
@@ -112,3 +112,4 @@ the report. Values that are too long might be difficult to read and fit
 on a visual. Values that are too short might be difficult to interpret.
 Avoiding acronyms in values is also a good idea, provided that the text
 will fit on the visual.
+

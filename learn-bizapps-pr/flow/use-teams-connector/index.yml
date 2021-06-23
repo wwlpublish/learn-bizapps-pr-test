@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.use-teams-connector 
+metadata: 
+ title: Use the Teams connector in Power Automate
+ description: Learn how to use the Teams connector in Microsoft Power Automate.
+ ms.date: 04/27/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-automate  
+title: Use the Teams connector in Power Automate
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  A fully automated process joins many concepts and capabilities in Power Automate. This module shows how to bring those concepts together to build a robust automation that involves multiple programs.
+abstract: |  
+    In this module, you will: 
+    - Integrate a Microsoft Teams-based approval model and the associated conditional logic into an existing cloud flow.
+    - Integrate the desktop flow for entering the invoice information into the approval process.
+    - Integrate Microsoft Outlook-based approval/rejection notifications into the invoice process.
+    - Test the end-to-end invoice processing cloud flow.
+prerequisites: Basic understanding of Microsoft Power Automate. This module builds off the Build your first Power Automate Desktop flow, the Use input and output parameters, the Create a Gateway to Desktop flow, the Integration with Outlook connector, and the Use AI builder to process invoice forms modules.
+iconUrl: /learn/achievements/use-teams-connector.svg  
+levels:  
+- intermediate   
+roles:  
+- maker
+- business-user
+products: 
+- power-platform
+- power-automate 
+units: 
+- learn-bizapps.use-teams-connector.1-introduction 
+- learn-bizapps.use-teams-connector.2-existing-solution 
+- learn-bizapps.use-teams-connector.3-create-approval 
+- learn-bizapps.use-teams-connector.4-integrate-existing-flow 
+- learn-bizapps.use-teams-connector.5-communication-outlook 
+- learn-bizapps.use-teams-connector.6-test-run-flow 
+- learn-bizapps.use-teams-connector.7-check 
+- learn-bizapps.use-teams-connector.8-summary 
+badge: 
+  uid: learn-bizapps.use-teams-connector.badge 

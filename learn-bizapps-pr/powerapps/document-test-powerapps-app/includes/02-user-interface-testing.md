@@ -1,4 +1,4 @@
-EasyRepro is a library of tools from Microsft to provide Dynamics customers the ability to facilitate automated UI testing for projects. The functionality provided covers the core commands that end users would perform on a typical workday and working to extend that coverage to more functionality. EasyRepro supports testing for Dynamics 365 versions 8.1 and higher.
+EasyRepro is a library of tools from Microsoft to provide Dynamics customers the ability to facilitate automated UI testing for projects. The functionality provided covers the core commands that end users would perform on a typical workday and working to extend that coverage to more functionality. EasyRepro supports testing for Dynamics 365 versions 8.1 and higher.
 
 ---
 
@@ -13,7 +13,7 @@ Over 100 standard tests for the Web Client and over 50 tests for the Unified Int
 
 ### Functionality Covered
 
-- Activity Record Wall
+- Activity Row Wall
 
 - Business Process Flow
 

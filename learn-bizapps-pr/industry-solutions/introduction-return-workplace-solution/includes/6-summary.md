@@ -1,0 +1,1 @@
+As businesses begin reopening, it is important to follow local, regional, and national guidelines to help ensure a successful phased reopening. The Microsoft Return to the Workplace solution offers several apps that allow organizations to define the rules that they need to follow and enable their employees and guests to safely return to their workplace.

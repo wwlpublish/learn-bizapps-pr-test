@@ -4,12 +4,12 @@ title: Overview of core components of portals
 metadata:
   title: Overview of core components of portals
   description: "Overview of core components of portals"
-  ms.date: 12/10/2020
+  ms.date: 06/16/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 azureSandbox: false
-durationInMinutes: 4
+durationInMinutes: 6
 content: |
   [!include[](includes/04-overview-core-components-portals.md)]

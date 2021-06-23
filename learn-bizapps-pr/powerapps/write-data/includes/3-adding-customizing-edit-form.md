@@ -16,31 +16,31 @@ source or add a data source.
 
 ![Screenshot of Choose Fields options in studio.](../media/choose-fields.png)
 
-Adding fields
+Adding columns
 -------------
 
-When you choose a data source, you can click on **Edit fields** and
-**Add field** to select which fields you would like to display on the form.
+When you choose a data source, you can click on **Edit columns** and
+**Add column** to select which columns you would like to display on the form.
 
 ![Screenshot of Adding Fields in studio.](../media/adding-fields.png)
 
-By selecting one or more of the fields, the **Form** control will add a data
-card for each field. Each card will be configured with a label to
-display the field name, an input control for working with the data, and
-other controls for handling error messages and required fields. The following is
+By selecting one or more of the columns, the **Form** control will add a data
+card for each column. Each card will be configured with a label to
+display the column name, an input control for working with the data, and
+other controls for handling error messages and required columns. The following is
 an example of a form.
 
 ![Screenshot of and example form for handling error messages.](../media/example-form.png)
 
-The **Form** control will automatically select the input control based on your field
-type. For many fields, there are multiple options available. You can
-change the **Control type** by clicking the drop-down menu for the field's
+The **Form** control will automatically select the input control based on your column
+type. For many columns, there are multiple options available. You can
+change the **Control type** by clicking the drop-down menu for the column's
 card and selecting one of the other options.
 
 ![Screenshot of changing control type in drop-down.](../media/control-type.png)
 
 Note that when changing control types, additional configuration
-may be required. For example, if you change a **Text** field from the
+may be required. For example, if you change a **Text** column from the
 **Edit text** control type to **Allowed Values** you might need to
 configure the values in the drop-down list. Before you can customize the
 drop-down control inside the card, you will need to unlock the card.
@@ -55,15 +55,15 @@ custom card, which allows you to modify all of the settings.
 ![Screenshot of how advanced options to customize a card.](../media/customize-card.png)
 
 If after working with the custom card you decide that you want to return to
-the original settings, you can delete the custom card and add the field
+the original settings, you can delete the custom card and add the column
 back to your form again. To do this, select the entire form,
-click **Properties** on the **Edit** pane, click **Edit fields**, and
+click **Properties** on the **Edit** pane, click **Edit columns**, and
 finding your custom card.
 
 ![Screenshot of custom card property settings.](../media/custom-card.png)
 
 Select the ellipses **(...)** to the right and select **Remove**. Now you can
-click **Add field** at the top and select the field again.
+click **Add column** at the top and select the column again.
 
 Designing the Form control
 --------------------------
@@ -79,7 +79,7 @@ From the **Edit** pane you have three primary design controls:
 the width locked to the columns available in your form. For example,
 if you choose a 4-column layout, then you can get your card and set its
 width to 1, 2, 3, or 4 columns on your form. This gives you the flexibility
-to provide more space for a field while working in fixed sizes.
+to provide more space for a column while working in fixed sizes.
 
 Alternatively, you can turn off Snap to columns, and then set the
 width of each card to any size you would like. The following is an example of a
@@ -97,12 +97,12 @@ over setting **Snap to columns** to **Off**.
 The **Layout** option is set to **Horizontal** or **Vertical**. This will change
 the default placement of the label. The following is an example of the previous
 form with its Layout changed to horizontal, city and state/province set
-to two columns, and some field resizing.
+to two columns, and some column resizing.
 
 ![Screenshot of changing the form layout to horizontal.](../media/horizontal.png)
 
 Additionally, you can reorder the cards by using drag-and-drop
-functionality within the **Fields** pane to move fields up and down the
+functionality within the **Fields** pane to move columns up and down the
 list. This will set the display order on your form. You can use the
 ellipses **(...)** and select **Move up** and **Move down** for finer control.
 

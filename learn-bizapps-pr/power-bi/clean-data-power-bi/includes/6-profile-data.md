@@ -22,7 +22,7 @@ in. You can view the current data model under the **Model** tab on Power
 BI Desktop.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot example of data structure and the ribbon bar.](../media/06-data-model-ribbon-ss.png)](../media/06-data-model-ribbon-ss.png#lightbox)
+> [![example data structure and ribbon bar](../media/06-data-model-ribbon-ss.png)](../media/06-data-model-ribbon-ss.png#lightbox)
 
 On the **Model** tab, you can edit specific column and table properties
 by selecting a table or columns, and you can transform the data by using
@@ -54,10 +54,10 @@ of data that is valid, in error, and empty. In an ideal situation, you
 want 100 percent of the data to be valid. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of anomalies and data statistics for a column of data.](../media/06-column-statistics-ssm.png)](../media/06-column-statistics-ssm.png#lightbox)
+> [![anomalies and data statistics for a column of data](../media/06-column-statistics-ssm.png)](../media/06-column-statistics-ssm.png#lightbox)
 
-> [!NOTE]
-> By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select **Column profiling based on entire data set**.
+> [!NOTE] 
+> By default, Power Query examines the first 1000 rows of your data set. To change this, select the profiling status in the status bar and select **Column profiling based on entire data set**. ]
 
 **Column distribution** shows you the distribution of the data within
 the column and the counts of distinct and unique values, both of which
@@ -66,10 +66,10 @@ values are all values in a column, including duplicates and null values,
 while unique values do not include duplicates or
 nulls. Therefore, **distinct** in this table tells you the total count
 of how many values are present, while **unique** tells you how many of
-those values are not duplicates or nulls.
+those values only appear once.
 
 **Column profile** gives you a more in-depth look into the statistics
-within the column. This column provides several different values,
+within the columns for the first 1,000 rows of data. This column provides several different values,
 including the count of rows, which is important when verifying whether
 the importing of your data was successful. For example, if your original
 database had 100 rows, you could use this row count to verify that 100
@@ -86,7 +86,7 @@ the text column, as seen in the previous image, the minimum value is the
 first value and the maximum value is the last value when in alphabetical
 order.
 
-Additionally, the **Value distribution** graph tells you the counts for each unique value in that specific column. When looking at the graph in the previous image, notice that the value distribution indicates that "Anthony Grosse" appears the greatest number of times within the **SalesPerson** column and that "Lily Code" appears the least amount of times. This information is particularly important because it identifies outliers. If a value appears far more than other values in a column, the **Value distribution** feature allows you to pinpoint a place to begin your investigation into why this is so.
+Additionally, the **Value distribution** graph tells you the counts for each distinct value in that specific column. When looking at the graph in the previous image, notice that the value distribution indicates that "Anthony Grosse" appears the greatest number of times within the **SalesPerson** column and that "Lily Code" appears the least amount of times. This information is particularly important because it identifies outliers. If a value appears far more than other values in a column, the **Value distribution** feature allows you to pinpoint a place to begin your investigation into why this is so.
 
 On a numeric column, **Column Statistics** will also include how many
 zeroes and null values exist, along with the average value in the
@@ -117,4 +117,4 @@ properties to gain clarity about and make further edits to the type and
 format of data in columns, finding data anomalies, and viewing data
 statistics in Power Query Editor. With this knowledge, you can include
 in your toolkit the ability to study your data in an efficient and
-effective manner.
+effective manner. 

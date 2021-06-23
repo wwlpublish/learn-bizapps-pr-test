@@ -1,4 +1,4 @@
-With the **Entity Forms** feature, users can access individual records within the portal. Often, Microsoft Dataverse records are too complex to present on a single page or data requirements exist that include multiple Dataverse entities. The following sections consider scenarios where it is not effective or even possible to implement data capture on a portal by using entity forms.
+With the **Table Forms** feature, users can access individual rows within the portal. Often, Microsoft Dataverse rows are too complex to present on a single page or data requirements exist that include multiple Dataverse tables. The following sections consider scenarios where it is not effective or even possible to implement data capture on a portal by using table forms.
 
 ## Surveys
 
@@ -9,7 +9,7 @@ Consider a scenario where you want to capture feedback from customers after a ca
 
 In this scenario, a web form allows you to implement two pages for information capture and to add branching logic.
 
-When you are designing surveys, consider whether you can extend and use a built-in **Feedback** entity to capture entries, or whether creating a separate entity is more appropriate. In general, a **Feedback** entity is suitable for shorter, more targeted surveys like product or case feedback. For more information, see [Configure an entity for feedback/ratings](https://docs.microsoft.com/powerapps/maker/common-data-service/configure-entity-feedback).
+When you are designing surveys, consider whether you can extend and use a built-in **Feedback** table to capture entries, or whether creating a separate table is more appropriate. In general, a **Feedback** table is suitable for shorter, more targeted surveys like product or case feedback. For more information, see [Configure an table for feedback/ratings](/powerapps/maker/common-data-service/configure-entity-feedback).
 
 ## Complex data capture
 
@@ -18,25 +18,25 @@ In an implementation that involves complex data capture, the business accepts ap
 > [!div class="mx-imgBorder"]
 > [![Diagram example web form multi-step application.](../media/web-form-application.png)](../media/web-form-application.png#lightbox)
 
-Applicants might not be fully aware of the requirements and might not have all required evidence up front. The application process needs to implement the ability to suspend and resume the application and to handle multiple file uploads. Multiple entities could also be involved. Basic information and identity validation steps update the contact record while the rest of the data is captured in a separate entity for the application process.
+Applicants might not be fully aware of the requirements and might not have all required evidence up front. The application process needs to implement the ability to suspend and resume the application and to handle multiple file uploads. Multiple tables could also be involved. Basic information and identity validation steps update the contact row while the rest of the data is captured in a separate table for the application process.
 
 In this scenario, a web form is effective in implementing the wizard-style application process with a progress indicator and forward and back navigation.
 
 When you are planning multi-step data capture, consider the following questions:
 
 - Is the process streamlined or does conditional branching exist?
-- What entities are involved in the process, and how are they related to each other?
+- What tables are involved in the process, and how are they related to each other?
 - Does the portal user need to be authenticated prior to the process start?
 - Are users allowed to suspend and resume the process?
 - Is a user restricted to a single process, or are multiple processes allowed for each user?
 - Do you need to handle notes or file uploads?
-- Do you need to include multiple related records that display by using subgrids?
+- Do you need to include multiple related rows that display by using subgrids?
 
-To implement these and similar processes, web forms extend the entity form concept to allow multi-step and multi-form interactions. Web forms allow you to build complex, multi-step forms including:
+To implement these and similar processes, web forms extend the table form concept to allow multi-step and multi-form interactions. Web forms allow you to build complex, multi-step forms including:
 
 - Single or multi-step navigation
 - Conditional branching
-- Entry across a number of entities
+- Entry across a number of tables
 - Custom requests that are chained together in a single flow
 
 > [!NOTE]
@@ -44,9 +44,9 @@ To implement these and similar processes, web forms extend the entity form conce
 
 ## Common practices
 
-Use web forms sparingly. Though more powerful, they are also more complex to create and maintain than entity forms. As you evaluate the complex business processes, analyze your data capture requirements. If you're dealing with a data entry process for a single entity that has numerous fields to capture, consider creating an entity form with multiple tabs and using the **Auto Generate Steps From Tabs** form option to automatically generate multi-screen data entry with **Next** and **Previous** buttons added as required.
+Use web forms sparingly. Though more powerful, they are also more complex to create and maintain than table forms. As you evaluate the complex business processes, analyze your data capture requirements. If you're dealing with a data entry process for a single table that has numerous columns to capture, consider creating an table form with multiple tabs and using the **Auto Generate Steps From Tabs** form option to automatically generate multi-screen data entry with **Next** and **Previous** buttons added as required.
 
-Web forms work well when the processes involve branching, span multiple entities, or require suspend and resume functionality. In these scenarios, dividing the process into smaller steps makes it easier to implement and maintain.
+Web forms work well when the processes involve branching, span multiple tables, or require suspend and resume functionality. In these scenarios, dividing the process into smaller steps makes it easier to implement and maintain.
 
 Create a flowchart or a diagram for your process and enumerate the steps. Use a naming convention for the steps so that they can be easily identified, for example: 
 

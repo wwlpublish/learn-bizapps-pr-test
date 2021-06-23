@@ -1,6 +1,6 @@
 Most of a portal's content is represented by webpages. A webpage represents a particular URL in a portal's website. Portal structure is hierarchical and all webpages have a parent page, except for the single root (Home) page of a website.
 
-Webpages also form the basis for including other, specialized entity types such as web files, shortcuts, forums, ideas, and blogs. Each of these records has a relationship with a parent page. Through parent and child relationships, these entities form the hierarchy of the website, that is, its site map.
+Webpages also form the basis for including other, specialized table types such as web files, shortcuts, forums, ideas, and blogs. Each of these records has a relationship with a parent page. Through parent and child relationships, these entities form the hierarchy of the website, that is, its site map.
 
 > [!div class="mx-imgBorder"]
 > [![Diagram of site page hierarchy for a portal.](../media/page-hierarchy-concept.png)](../media/page-hierarchy-concept.png#lightbox)
@@ -14,7 +14,7 @@ You can view the parent-child relationships for a particular page by selecting t
 
 ### Site map
 
-You can view your site structure at `https://portal_url/sitemap`. This site map is a visual representation of the hierarchy of the entire site, and you could use it for verification, documentation, and building navigation. You can hide the records from the site map by setting the **Hidden from Sitemap** field.
+You can view your site structure at `https://portal_url/sitemap`. This site map is a visual representation of the hierarchy of the entire site, and you could use it for verification, documentation, and building navigation. You can hide the records from the site map by setting the **Hidden from Sitemap** column.
 
 Site maps can be shaped by security. If a visitor doesn't have permissions to access a particular page, that page won't be visible for them in the site map.
 

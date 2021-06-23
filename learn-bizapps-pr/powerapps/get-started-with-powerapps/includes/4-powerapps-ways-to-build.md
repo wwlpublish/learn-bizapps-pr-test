@@ -1,4 +1,4 @@
-This unit describes how to create an app from a template, a blank canvas, and a data source. In the next unit, you'll be able to get more hands-on with app creation. This learning path is focused on canvas apps, which give you the flexibility to arrange the user experience and interface the way that you want it. You can get started in many different ways; however, for all of the options, you will use the Power Apps Studio features and functionality to build your app.
+This unit describes how to create an app from a template, a blank canvas, and a data source. This learning path is focused on canvas apps, which give you the flexibility to arrange the user experience and interface the way that you want it. You can get started in many different ways; however, for all of the options, you will use the Power Apps Studio features and functionality to build your app.
 
 ## Create an app from a template
 A good way to create an app is to start from a template. Templates use sample data to help you determine what's possible. By opening templates in Power Apps Studio, you can learn, hands-on, how an app is built.
@@ -14,7 +14,7 @@ Another great way to get started is to generate an app from your own data. Simpl
 
 A special data source is SharePoint. Modern lists in SharePoint and Power Apps have a tight integration. You can either build an app from within a SharePoint site or you can use Power Apps to customize your modern list forms.
 
-![Screenshot of the Power Apps functionality in SharePoint.](../media/powerapps-SharePoint.jpg)
+![Screenshot of the Power Apps functionality in SharePoint.](../media/powerapps-sharepoint.jpg)
 
 The following app was created from a SharePoint list and lets you browse items in the list, view item details, and create and edit items. After Power Apps generates an app, you can customize it to make it look and behave exactly the way you want.
 

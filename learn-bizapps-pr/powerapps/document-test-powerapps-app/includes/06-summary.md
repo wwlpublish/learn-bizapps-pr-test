@@ -2,7 +2,7 @@ In this module, you learned about different types of testing plans such as user 
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrMe8]
 
->[Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/?azure-portal=true
+>[Microsoft Power Platform Admin Portal](https://admin.powerplatform.microsoft.com/?azure-portal=true
 )
 
 >[Power Apps](https://make.powerapps.com/?azure-portal=true

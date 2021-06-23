@@ -1,18 +1,18 @@
 ﻿### YamlMime:Module 
 uid: learn-bizapps.author-basic-forumla-change-behaviors-powerapps
 metadata: 
-  title: Author a basic formula to change behaviors in a Power Apps canvas app
-  description: Learn how to author a basic formula to change behaviors in a Power Apps canvas app.
-  ms.date: 04/27/2020  
+  title: Create formulas to change behaviors in a Power Apps canvas app
+  description: Learn how to enhance and customize your Power Apps canvas app using basic formulas.
+  ms.date: 04/29/2021  
   author: DaveBeasley
-  ms.author: dbeasley  
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
-title: Author a basic formula to change behaviors in a Power Apps canvas app 
+title: Create formulas to change behaviors in a Power Apps canvas app 
 summary: |
   [!include[](../includes/module-banner.md)]
 
-  Learn how to enhance your Power Apps canvas app using basic formulas to make behavior changes to your app.  Behavior changes are changes to how a control works. This module will focus on the visible and display mode properties.
+  Learn how to enhance and customize your Power Apps canvas app using basic formulas to make behavior changes to your app such as controlling the visibility or display mode of your controls and visuals.
 abstract: |  
     In this module, you will: 
     - Understand True and False

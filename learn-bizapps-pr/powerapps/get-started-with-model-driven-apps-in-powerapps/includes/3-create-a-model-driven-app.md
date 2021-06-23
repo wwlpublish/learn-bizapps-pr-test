@@ -1,4 +1,4 @@
-In this unit, you'll create a model-driven app by using one of the standard entities that's available in your Microsoft Power Apps environment.
+In this unit, you'll create a model-driven app by using one of the standard tables that are available in your Microsoft Power Apps environment.
 
 ## Create a model-driven app
 
@@ -25,7 +25,7 @@ You add components to your app by using the App Designer.
     - **Entity**: *Account*
 
     > [!NOTE]
-    > If *Account* is not an option as an entity, you may not have any sample data in your environment. Refer to this exercise on [how to create sample apps and data](https://docs.microsoft.com/learn/modules/intro-model-driven-apps-common-data-service/4-template-apps/?azure-portal=true).
+    > If *Account* is not an option as an entity, you may not have any sample data in your environment. Refer to this exercise on [how to create sample apps and data](/learn/modules/intro-model-driven-apps-common-data-service/4-template-apps/?azure-portal=true).
 
     ![Screenshot of the Properties tab with type and entity set.](../media/updated-sitemap.png)
 

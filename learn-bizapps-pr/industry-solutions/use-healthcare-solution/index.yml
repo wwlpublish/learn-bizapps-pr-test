@@ -1,0 +1,41 @@
+### YamlMime:Module 
+uid: learn-bizapps.use-healthcare-solution 
+metadata: 
+ title: Use Microsoft Cloud for Healthcare solutions
+ description: Learn how to use the apps in Microsoft Cloud for Healthcare.
+ ms.date: 04/20/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-industry-healthcare  
+title: Use Microsoft Cloud for Healthcare solutions
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  This module describes the various Microsoft Cloud for Healthcare applications and the value they provide to a practitioner, patient, or administrator. Cloud Healthcare includes the Care Management, Home Health, Patient Access, and Patient Outreach apps, in addition to the Patient Service Center.
+abstract: |  
+    In this module, you will: 
+    - Discover the specific function of each app.
+    - Explore the various roles and how they use the apps.
+    - Learn how specific data tracking and functionality provide value to healthcare workloads.
+    - Find out how a specific role uses the app in daily job tasks.
+    - Learn how a patient would interact with the Microsoft Cloud for Healthcare system.
+prerequisites: Basic understanding of how to navigate model-driven applications and an understanding of Microsoft Teams, Microsoft 365, Microsoft Dataverse, Microsoft Power Automate, Microsoft Power BI, and Microsoft Dynamics 365 apps
+iconUrl: /learn/achievements/use-healthcare-solution.svg  
+levels:  
+- beginner   
+roles:  
+- functional-consultant  
+- business-user  
+products: 
+- industry-solutions
+- mscloud-healthcare 
+units: 
+- learn-bizapps.use-healthcare-solution.1-introduction 
+- learn-bizapps.use-healthcare-solution.2-patient-access 
+- learn-bizapps.use-healthcare-solution.3-home-health 
+- learn-bizapps.use-healthcare-solution.4-patient-outreach 
+- learn-bizapps.use-healthcare-solution.5-patient-service-center 
+- learn-bizapps.use-healthcare-solution.6-check 
+- learn-bizapps.use-healthcare-solution.7-summary 
+badge: 
+  uid: learn-bizapps.use-healthcare-solution.badge 

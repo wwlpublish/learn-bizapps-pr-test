@@ -10,7 +10,7 @@ Every time you add a new action in the workspace, the platform automatically pro
 
 ![Screenshot of the produced variable of the Change text case action.](..\media\produced-variables.png)
 
-In case you don't need a produced variable in your flow, you can select the icon on the left side of it and pick **Don't produce variable**. Disabling unused variables reduces the number of variables in the variables pane and makes management more efficient.
+In case you don't need a produced variable in your flow, you can select the toggle button on the left side of it to disable it. Disabling unused variables reduces the number of variables in the variables pane and makes management more efficient.
 
 ![Screenshot of the option to disable a produced variable.](..\media\disabled-produced-variables.png)
 

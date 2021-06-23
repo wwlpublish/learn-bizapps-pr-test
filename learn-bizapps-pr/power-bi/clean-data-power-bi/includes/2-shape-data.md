@@ -16,7 +16,7 @@ You need to use Power Query Editor to clean up and shape this
 data before you can start building reports. 
 
 > [!div class="mx-imgBorder"]
-> [![Diagram of transforming data with query editor.](../media/02-shape-data-query-editor-overview-ss.png)](../media/02-shape-data-query-editor-overview-ss.png#lightbox)
+> [![Transform data with query editor](../media/02-shape-data-query-editor-overview-ss.png)](../media/02-shape-data-query-editor-overview-ss.png#lightbox)
 
 ## Get started with Power Query Editor  
 
@@ -25,7 +25,7 @@ selecting the **Transform data** option on the **Home** tab of Power BI
 Desktop.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Transform data menu to open power query editor.](../media/02-open-query-editor-transform-button-ssm.png)](../media/02-open-query-editor-transform-button-ssm.png#lightbox)
+> [![Open power query editor](../media/02-open-query-editor-transform-button-ssm.png)](../media/02-open-query-editor-transform-button-ssm.png#lightbox)
 
 In Power Query Editor, the data in your selected query displays in the
 middle of the screen and, on the left side, the **Queries** pane lists
@@ -57,12 +57,12 @@ In the following screenshot, the source data in the csv file for SalesTarget (s
 months, both of which are organized into columns. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the source data in the csv file for SalesTarget with a target categorized by product and subcategory of month.](../media/02-identify-headers-names-ssm.png)](../media/02-identify-headers-names-ssm.png#lightbox)
+> [![Original excel data](../media/02-identify-columns.ss.png)](../media/02-identify-columns.ss.png#lightbox)
 
 However, you notice that the data did not import as expected.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the original data imported.](../media/02-identify-columns.ss.png)](../media/02-identify-columns.ss.png#lightbox)
+> [![Identify column headers and names](../media/02-identify-headers-names-ssm.png)](../media/02-identify-headers-names-ssm.png#lightbox)
 
 Consequently, the data is difficult to read. A problem has occurred with the data in its current state because column headers are in different rows (marked in red), and several columns have undescriptive names, such as **Column1**, **Column2**, and so on.
 
@@ -75,12 +75,12 @@ When a table is created in Power BI Desktop, Power Query Editor assumes tha
 You can promote headers in two ways: by selecting the **Use First Row as Headers** option on the **Home** tab or by selecting the drop-down button next to **Column1** and then selecting **Use First Row as Headers**. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the use first row as headers option.](../media/02-use-first-row-headers-ssm.png)](../media/02-use-first-row-headers-ssm.png#lightbox)
+> [![Different options to use first row as headers](../media/02-use-first-row-headers-ssm.png)](../media/02-use-first-row-headers-ssm.png#lightbox)
 
 The following image illustrates how the **Use First Row as Headers** feature impacts the data: 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Use first row as headers result.](../media/02-use-first-row-headers-result-ssm.png)](../media/02-use-first-row-headers-result-ssm.png#lightbox)
+> [![Use first row as headers result](../media/02-use-first-row-headers-result-ssm.png)](../media/02-use-first-row-headers-result-ssm.png#lightbox)
 
 ## Rename columns 
 
@@ -110,13 +110,13 @@ blank (it has no data) and the second row has data that is
 no longer required.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot example of the Remove top rows.](../media/02-remove-top-rows-ssm.png)](../media/02-remove-top-rows-ssm.png#lightbox)
+> [![Remove top rows](../media/02-remove-top-rows-ssm.png)](../media/02-remove-top-rows-ssm.png#lightbox)
 
 To remove these excess rows, select **Remove Rows** > **Remove Top
 Rows** on the **Home** tab. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Remove top rows feature on the Home tab.](../media/02-remove-top-rows-feature-ssm.png)](../media/02-remove-top-rows-feature-ssm.png#lightbox)
+> [![Remove top rows feature](../media/02-remove-top-rows-feature-ssm.png)](../media/02-remove-top-rows-feature-ssm.png#lightbox)
 
 ## Remove columns 
 
@@ -142,14 +142,14 @@ change over time. 
 You can remove columns in two ways. The first method is to select the columns that you want to remove and then, on the **Home** tab, select **Remove Columns**. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Remove Columns menu with Remove columns feature.](../media/02-remove-columns-ssm.png)](../media/02-remove-columns-ssm.png#lightbox)
+> [![Remove columns feature](../media/02-remove-columns-ssm.png)](../media/02-remove-columns-ssm.png#lightbox)
 
 Alternatively, you can select the columns that you want to keep and
 then, on the **Home** tab, select **Remove Columns** > **Remove
 Other Columns**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Remove other columns feature.](../media/02-remove-other-columsn-ssm.png)](../media/02-remove-other-columsn-ssm.png#lightbox)
+> [![Remove other columns feature](../media/02-remove-other-columsn-ssm.png)](../media/02-remove-other-columsn-ssm.png#lightbox)
 
 ## Unpivot columns 
 
@@ -159,7 +159,7 @@ importing data from Excel. The following example shows a sample Excel
 document with sales data.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Excel data that needs to be unpivoted.](../media/02-excel-data-multiple-columns-ss.png)](../media/02-excel-data-multiple-columns-ss.png#lightbox)
+> [![Excel data that needs to be unpivoted](../media/02-excel-data-multiple-columns-ss.png)](../media/02-excel-data-multiple-columns-ss.png#lightbox)
 
 Though the data might initially make sense, it would be difficult to
 create a total of all sales combined from 2018 and 2019. Your goal would
@@ -170,7 +170,7 @@ When you import the data into Power Query, it will look like the
 following image.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the original Power Query data.](../media/02-original-data-ss.png)](../media/02-original-data-ss.png#lightbox)
+> [![Original Power Query data](../media/02-original-data-ss.png)](../media/02-original-data-ss.png#lightbox)
 
 Next, rename the first column to **Month**. This column was mislabeled
 because that header in Excel was labeling the 2018 and 2019 columns.
@@ -178,7 +178,7 @@ Highlight the 2018 and 2019 columns, select the **Transform** tab in
 Power Query, and then select **Unpivot**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the unpivot results in Power Query.](../media/02-unpivot-ss.png)](../media/02-unpivot-ss.png#lightbox)
+> [![Unpivot results in Power Query](../media/02-unpivot-ss.png)](../media/02-unpivot-ss.png#lightbox)
 
 You can rename the **Attribute** column to **Year** and the **Value**
 column to **SalesAmount**.
@@ -204,18 +204,18 @@ In the SalesTarget example, you can pivot the columns to get the quantity
 On the **Transform** tab, select **Transform > Pivot Columns**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Pivot Column feature on the Transform tab.](../media/02-pivot-column-ssm.png)](../media/02-pivot-column-ssm.png#lightbox)
+> [![Pivot Column](../media/02-pivot-column-ssm.png)](../media/02-pivot-column-ssm.png#lightbox)
 
 On the **Pivot Column** window that displays, select a column from the **Values Column** list, such as **Subcategory name**. Expand the advanced options and select an option from the **Aggregate Value Function** list, such as **Count (All)**, and then select **OK**. 
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Pivot Column with Values column and Aggregate value function fields.](../media/02-aggregate-value-function-ssm.png)](../media/02-aggregate-value-function-ssm.png#lightbox)
+> [![Aggregate value function](../media/02-aggregate-value-function-ssm.png)](../media/02-aggregate-value-function-ssm.png#lightbox)
 
 The following image illustrates how the **Pivot Column** feature changes
 the way that the data is organized.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the pivot column feature and how it changes how data is organized.](../media/02-pivot-column-feature-display-data-ssm.png)](../media/02-pivot-column-feature-display-data-ssm.png#lightbox)
+> [![pivot column feature changes how data is organized](../media/02-pivot-column-feature-display-data-ssm.png)](../media/02-pivot-column-feature-display-data-ssm.png#lightbox)
 
 Power Query Editor records all steps that you take to shape your data,
 and the list of steps are shown in the **Query Settings** pane. If you

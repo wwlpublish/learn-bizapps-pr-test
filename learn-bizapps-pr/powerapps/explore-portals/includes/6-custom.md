@@ -14,7 +14,7 @@ The Custom portal contains core features such as content management, security, a
 > [!NOTE]
 > When **Portal from blank** is provisioned in a Dataverse environment with Dynamics 365 apps enabled, it will include an additional **Contact Us** page that allows anonymous enquiries to be recorded as leads within the Dynamics 365 app. 
 
-A functional consultant can configure the Custom portal to address business requirements by adding web links and custom pages and by surfacing Dataverse records. A Custom portal can be further extended by using entity lists, entity forms, web forms, or custom templates.
+A functional consultant can configure the Custom portal to address business requirements by adding web links and custom pages and by surfacing Dataverse records. A Custom portal can be further extended by using table lists, table forms, web forms, or custom templates.
 
 Features from other portals can be applied to a Custom portal in an environment with Dynamics 365 apps enabled.
 

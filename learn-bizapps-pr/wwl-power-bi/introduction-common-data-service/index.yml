@@ -3,18 +3,18 @@ uid: learn-bizapps.wwl.introduction-common-data-service
 metadata:
   title: Introduction to Dataverse
   description: "Introduction to Dataverse"
-  ms.date: 02/09/2021
+  ms.date: 05/31/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 title: Introduction to Dataverse
-summary: Learn about the basics of Dataverse and explore ways you can connect and customize data connections to Power Platform applications.
+summary: Learn about the basics of Dataverse and explore ways you can connect and customize data connections to Microsoft Power Platform applications.
 abstract: |
   In this module, you will:
-  - Discover the Dataverse
+  - Discover Microsoft Dataverse
   - Learn about the Common Data Model
-  - Identify entities, fields, and relationships
+  - Identify tables, columns, and relationships
   - Learn about environments
   - Discover business rules
 prerequisites: |

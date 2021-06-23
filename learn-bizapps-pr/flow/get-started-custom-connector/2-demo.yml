@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-custom-connector.2-demo 
+title: Demo of the maker portal experience
+metadata: 
+  title: Demo of the maker portal experience
+  description: Watch a video demonstration of the maker portal.
+  ms.date: 03/10/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-platform 
+durationInMinutes: 7
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-demo.md)] 

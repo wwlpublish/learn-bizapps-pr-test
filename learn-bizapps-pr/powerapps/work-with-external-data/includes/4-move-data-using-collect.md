@@ -61,7 +61,7 @@ You could set the **OnSelect** property for the button to this formula:
 ```
 ForAll(Filter(collectColorData, UpdateSource = true),
 Patch(DataSourceName, Defaults(DataSourceName), {NameColumnSource: Name,
-FavoriteColorColumnSource: FavoriteColor})
+FavoriteColorColumnSource: FavoriteColor}))
 ```
 
 This formula would add records to the data source named

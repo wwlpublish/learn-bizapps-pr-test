@@ -30,7 +30,7 @@ When you provision a Dynamics 365 for Customer Engagement trial, Office 365 lice
 1. Select **Billing > Purchase Services**.
 1. Locate the **Office 365 E3** product and select the **Get free trial** option.
 1. Assign the Office 365 license to your user account.
-1. Open the [Power platform admin center](https://aka.ms/ppac/?azure-portal=true).
+1. Open the [Microsoft Power Platform admin center](https://aka.ms/ppac/?azure-portal=true).
 1. Select **Environments**, select your environment, and then select **Settings**.
 1. Select **Mailboxes**.
 1. Open your mailbox record and select **Approve Email**.

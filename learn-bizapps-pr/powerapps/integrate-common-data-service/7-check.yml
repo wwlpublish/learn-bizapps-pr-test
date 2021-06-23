@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 07/16/2020 
+ ms.date: 06/01/2021 
  author: DaveBeasley 
  ms.author: dbeasley 
  ms.topic: interactive-tutorial 
@@ -32,7 +32,7 @@ quiz:
     - content: Change the entity form title to "Contact Us - Thank You."
       isCorrect: false 
       explanation: The On Success Settings feature defines behavior on the form on successful submission. Options are to display a message or to redirect to another page or URL.
-    - content: Set the Entity Form field to Thank You Page on the Contact Us entity form.
+    - content: Set the Entity Form column to Thank You Page on the Contact Us entity form.
       isCorrect: false 
       explanation: The On Success Settings feature defines behavior on the form on successful submission. Options are to display a message or to redirect to another page or URL.
     - content: Add a redirect step to the entity form.

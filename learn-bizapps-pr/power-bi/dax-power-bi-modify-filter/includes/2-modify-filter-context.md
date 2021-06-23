@@ -37,7 +37,7 @@ Add the **Revenue Red** measure to the table visual that is found on **Page 1*
 In this next example, the following measure filters the **Revenue** measure by multiple colors. Notice the use of the IN operator followed by a list of color values.
 
 ```dax
-Revenue Red or Green = CALCULATE([Revenue], 'Product'[Color] IN {"Red", "Green"})
+Revenue Red or Blue = CALCULATE([Revenue], 'Product'[Color] IN {"Red", "Blue"})
 ```
 
 The following measure filters the **Revenue** measure by expensive products. Expensive products are those with a list price greater than USD 1000.

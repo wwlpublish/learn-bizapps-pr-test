@@ -8,7 +8,7 @@ At the end of these exercises, you will be able to:
 
 - Extend Liquid templates by using `extends` and `block` tags.
 - Reuse Liquid templates by using the `include` tag.
-- Apply entity permissions to the results of the new template.
+- Apply table permissions to the results of the new template.
 
 ### Prerequisites
 
@@ -25,7 +25,7 @@ To finish the exercise, you need to complete the following high-level tasks:
 - Create a new template that extends a two-column layout web template.
 - Overwrite the side panel to include the partial template.
 - Change the template of an existing webpage.
-- Configure entity permissions to display data to anonymous users.
+- Configure table permissions to display data to anonymous users.
 
 ## Detailed steps
 
@@ -47,9 +47,9 @@ Your first task is to create a partial template that will not be used to render 
     ```twig
     {% fetchxml accounts %}
     <fetch>
-      <entity name="account">
+      <table name="account">
         <attribute name="name" />
-      </entity>
+      </table>
     </fetch>
     {% endfetchxml %}
     
@@ -99,7 +99,7 @@ In this exercise, you will create a page template that will use your new web tem
    - **Website** - Select the current website
    - **Type** - Select **Web Template**
    - **Web Template** - Select **Directory Template**
-   - **Entity Name** - Select **Web Page**
+   - **Table Name** - Select **Web Page**
 4. Select **Save & Close**.
 
 ### Test
@@ -115,20 +115,20 @@ Your next step is to test that your new template works:
 3. Select an existing page, for example **Product A** under **Services**. Note: names and hierarchy of pages on your portal might differ.
 4. Locate the **Template** property in the **Component** panel on the right side.
 5. Select **Directory Page Template** as the new template.
-   The list of accounts should be displayed because portals Studio runs under the maker account and uses Dataverse security instead of entity permissions to filter the data.
+   The list of accounts should be displayed because portals Studio runs under the maker account and uses Dataverse security instead of table permissions to filter the data.
 6. Select **Browse website**.
    The message "You do not have permissions to access the directory" should be displayed.
 
-### Add entity permissions
+### Add table permissions
 
-Follow these steps to add entity permissions:
+Follow these steps to add table permissions:
 
 1. Return to the Portal Management app.
-2. Select **Entity Permissions**.
+2. Select **Table Permissions**.
 3. Select **+ New**.
 4. Enter the following values:
    - **Name** - Account Directory
-   - **Entity Name** - Select the account entity
+   - **Table Name** - Select the account table
    - **Website** - Select your current website
    - **Scope** - Select **Global**
    - **Privileges** - Select **Read**

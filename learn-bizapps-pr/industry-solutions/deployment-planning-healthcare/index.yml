@@ -25,8 +25,8 @@ roles:
 - business-user   
 - functional-consultant 
 products:  
-- power-platform
-- dynamics-365  
+- industry-solutions
+- mscloud-healthcare  
 units: 
 - learn-bizapps.deployment-planning-healthcare.1-azure-deployment-planning 
 - learn-bizapps.deployment-planning-healthcare.2-healthcare-powered-deployment-planning 

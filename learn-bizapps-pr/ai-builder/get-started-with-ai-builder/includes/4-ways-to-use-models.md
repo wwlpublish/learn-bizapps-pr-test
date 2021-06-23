@@ -60,7 +60,7 @@ action.
 
 You can add the AI Builder action to [solution-aware
 flows](https://docs.microsoft.com/power-automate/create-flow-solution)
-by searching for the **Predict** action under **Microsoft Dataverse (current environment)** and then selecting your model name from the **Model** drop-down menu.
+by searching for the **Predict** action under **Microsoft Dataverse** and then selecting your model name from the **Model** drop-down menu.
 
 ## Use your model in your database
 

@@ -4,8 +4,8 @@ metadata:
  title: Power Automate Desktop development essentials
  description: This module covers the basic development features available in Power Automate Desktop.
  ms.date: 11/03/2020  
- author: rokontol  
- ms.author: rokontol  
+ author: mariosleon 
+ ms.author: marleon 
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
 title: Power Automate Desktop development essentials
@@ -21,7 +21,7 @@ abstract: |
     - Comprehend the use of UI elements and images
     - Use subflows to compartmentalize and reuse parts of a flow
 prerequisites: |
-    - Basic familiarity with the Power Automate Desktop Console
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-power-automate-desktop-development-essentials.svg  
 levels:  
 - beginner   

@@ -4,8 +4,8 @@ metadata:
  title: Use Power Automate Desktop to interact with windows and applications
  description: Learn how Power Automate Desktop identifies and interacts with UI elements and windows.
  ms.date: 11/02/2020  
- author: rokontol  
- ms.author: rokontol  
+ author: mariosleon 
+ ms.author: marleon 
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
 title: Use Power Automate Desktop to interact with windows and applications
@@ -17,7 +17,7 @@ abstract: |
     - Learn about the concept of UI elements.
     - Discover the window and element-handling capabilities of Power Automate Desktop.
 prerequisites: |
-  - Basic familiarity with the Power Automate Desktop flow designer
+    A basic understanding of [how to use Power Automate Desktop Console and Flow designer](../pad-first-steps/index.yml).
 iconUrl: /learn/achievements/pad-ui-automation.svg  
 levels:  
 - beginner   

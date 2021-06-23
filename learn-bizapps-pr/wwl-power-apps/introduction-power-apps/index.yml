@@ -3,7 +3,7 @@ uid: learn-bizapps.wwl.introduction-power-apps
 metadata:
   title: Introduction to Power Apps
   description: "Introduction to Power Apps"
-  ms.date: 03/01/2021
+  ms.date: 05/31/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ summary: Learn about the value and capabilities of Power Apps and ways other org
 abstract: |
   In this module, you will learn:
   - What is Power Apps and the business value it creates
-  - How a business is using Power Apps, the rest of the Power Platform, and Azure to help build better buildings
+  - How a business is using Power Apps, the rest of the Microsoft Power Platform, and Azure to help build better buildings
   - See a video walkthrough of Power Apps
 prerequisites: |
   None

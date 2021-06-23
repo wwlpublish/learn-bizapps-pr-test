@@ -20,7 +20,7 @@ The solutions should not be installed individually by an administrator but insta
 
 ## Portals metadata
 
-Power Apps portal metadata will describe the portal website, webpages, web templates, content snippets, entity forms, entity lists, site settings, and other configuration data. The data is stored in Dataverse. A portal maker can add, modify, or delete portal metadata to specifically configure a portal application by using the Power Apps portals Studio, the Portal Management app, or the legacy front-side editing tools.
+Power Apps portal metadata will describe the portal website, webpages, web templates, content snippets, table forms, table lists, site settings, and other configuration data. The data is stored in Dataverse. A portal maker can add, modify, or delete portal metadata to specifically configure a portal application by using the Power Apps portals Studio, the Portal Management app, or the legacy front-side editing tools.
 
 One of the distinctive features of Power Apps portals is using Dataverse as a centralized storage for the information that is required to run the portal website. Everything that portals require to run, including metadata and content, is stored in a Dataverse database, which helps make backing up and transporting portal solutions between the environments easier.
 

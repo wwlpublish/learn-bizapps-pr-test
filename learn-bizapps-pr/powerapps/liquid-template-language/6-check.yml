@@ -27,20 +27,20 @@ quiz:
     - content: JavaScript
       isCorrect: false 
       explanation: Liquid is an open-source template language that is integrated into portals. It can be used by template developers to add dynamic content to pages and to create a variety of custom templates.
-  - content: What do you need to do to apply entity permissions when accessing Microsoft Dataverse data in Liquid templates?
+  - content: What do you need to do to apply table permissions when accessing Microsoft Dataverse data in Liquid templates?
     choices: 
     - content: Use the `secure` Liquid filter.
       isCorrect: false
-      explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off that feature.
-    - content: Nothing, entity permissions are applied automatically.
+      explanation: All data access that is performed by Liquid objects and tags is governed by table permissions, and it's not possible to switch off that feature.
+    - content: Nothing, table permissions are applied automatically.
       isCorrect: true 
-      explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off that feature.
-    - content: Select the Enable Entity Permissions option on the Web Template entity that contains Liquid code.
+      explanation: All data access that is performed by Liquid objects and tags is governed by table permissions, and it's not possible to switch off that feature.
+    - content: Select the Enable Table Permissions option on the Web Template table that contains Liquid code.
       isCorrect: false 
-      explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off that feature.
+      explanation: All data access that is performed by Liquid objects and tags is governed by table permissions, and it's not possible to switch off that feature.
     - content: Place Liquid code on a secured webpage.
       isCorrect: false 
-      explanation: All data access that is performed by Liquid objects and tags is governed by entity permissions, and it's not possible to switch off that feature.
+      explanation: All data access that is performed by Liquid objects and tags is governed by table permissions, and it's not possible to switch off that feature.
   - content: Where is Liquid code not processed?
     choices: 
     - content: Page content

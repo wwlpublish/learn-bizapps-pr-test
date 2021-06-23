@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.dataverse-triggers-actions.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 05/04/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is the difference between triggers and actions?
+    choices: 
+    - content: Triggers start a flow while actions are performed in a flow.
+      isCorrect: true 
+      explanation: Your flow will always start with a trigger followed by one or more actions.
+    - content: Actions and triggers are synonymous and have no differences.
+      isCorrect: false 
+      explanation: Triggers and actions are different.
+    - content: Actions start a flow while triggers are performed in a flow.
+      isCorrect: false 
+      explanation: Try the reverse, where triggers start a flow while actions are performed in a flow.
+    - content: Triggers are used for Dataverse while actions are used for other connectors.
+      isCorrect: false 
+      explanation: Triggers and actions are used for Dataverse and other connectors.
+  - content: Which trigger allows for additional inputs?
+    choices: 
+    - content: When a record is created
+      isCorrect: false
+      explanation: Because you don't know where the user might be performing this action, you can't request additional input through the trigger.
+    - content: When a record is updated
+      isCorrect: false 
+      explanation: Because you don't know where the user might be performing this action, you can't request additional input through the trigger.
+    - content: When a record is deleted
+      isCorrect: false 
+      explanation: Because you don't know where the user might be performing this action, you can't request additional input through the trigger.
+    - content: When a record is selected
+      isCorrect: true
+      explanation: Because this action begins as a button in Dataverse, you can request additional input from the user.
+  - content: What does the List records action do?
+    choices: 
+    - content: Fetches child items
+      isCorrect: false
+      explanation: While the action can be used for this task, List records is not limited to only this scenario.
+    - content: Fetches multiple records in a Dataverse table, which can be filtered according to a logical condition
+      isCorrect: true
+      explanation: One scenario would be fetching all items that are related to another record in the same or a different table.
+    - content: Fetches all versions of a row of data
+      isCorrect: false 
+      explanation: The List records action does not fetch versions.

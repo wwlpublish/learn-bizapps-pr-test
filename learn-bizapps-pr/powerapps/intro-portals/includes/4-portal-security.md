@@ -1,6 +1,6 @@
 Users of Power Apps portals are tracked in Microsoft Dataverse as contacts.
 
-The Portal Management model-driven app provides access to the contact entity and has forms to manage passwords, view portal-specific contact information, and provide registration and profile management forms for the portal.
+The Portal Management model-driven app provides access to the contact table and has forms to manage passwords, view portal-specific contact information, and provide registration and profile management forms for the portal.
 
 ![Screenshot of the contact web authentication form.](../media/4-contact-web-authentication-form.png)
 
@@ -38,7 +38,7 @@ A web role can be associated with the following records:
 
 - **Website permissions** - Define what (if any) front-side editing permissions that a web role should have.
 - **Webpage access rules** - Define what pages are visible to a web role and what actions can be taken.
-- **Entity permissions** - Define what access a web role has to individual Dataverse entities.
+- **Table permissions** - Define what access a web role has to individual Dataverse entities.
 
 A portal contact might be assigned to one or more web roles at a time. Access rules and permissions of individual roles are combined to calculate the resulting permissions set.
 

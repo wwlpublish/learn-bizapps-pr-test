@@ -5,8 +5,8 @@ metadata:
   title: Controls
   description: Learn how WinAutomation identifies UI elements through controls.
   ms.date: 09/30/2020 
-  author: rokontol 
-  ms.author: rokontol 
+  author: mariosleon
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 5 

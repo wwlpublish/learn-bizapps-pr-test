@@ -12,7 +12,7 @@ Here are the basic building blocks in Power BI:
 
 ## Visualizations
 
-A **visualization** (sometimes also referred to as a **visual**) is a visual representation of data, like a chart, a color-coded map, or other interesting things you can create to represent your data visually. Power BI has all sorts of visualization types, and more are coming all the time. The following image shows a collection of different visualizations that were created in Power BI.
+A **visualization** (sometimes also referred to as a **visual**) is a visual representation of data, like a chart, a color-coded map, or other interesting things you can create to represent your data visually. Power BI has all sorts of visualization types, and more are coming all the time. The following image shows a collection of visualizations that were created in Power BI.
 
 ![Screenshot of Power B I visualizations in the Retail analysis sample.](../media/pbi-bblocks_01.png)
 
@@ -30,7 +30,7 @@ You can have a simple dataset that's based on a single table from a Microsoft Ex
 
 For example, you can create a dataset from three database fields, one website table, an Excel table, and online results of an email marketing campaign. That unique combination is still considered a single **dataset**, even though it was pulled together from many different sources.
 
-Filtering data before bringing it into Power BI lets you focus on the data that matters to you. For example, you can filter your contact database so that only customers who received emails from the marketing campaign are included in the dataset. You can then create visuals based on that subset (the filtered collection) of customers who were included in the campaign. Filtering helps you focus your data—and your efforts.
+Filtering data before bringing it into Power BI lets you focus on the data that matters to you. For example, you can filter your contact database so that only customers who received emails from the marketing campaign are included in the dataset. You can then create visuals based on that subset of customers (the filtered collection) who were included in the campaign. Filtering helps you focus your data, and your efforts.
 
 An important and enabling part of Power BI is the multitude of data **connectors** that are included. Whether the data you want is in Excel or a Microsoft SQL Server database, in Azure or Oracle, or in a service like Facebook, Salesforce, or MailChimp, Power BI has built-in data connectors that let you easily connect to that data, filter it if necessary, and bring it into your dataset.
 
@@ -38,20 +38,20 @@ After you have a dataset, you can begin creating visualizations that show differ
 
 ## Reports
 
-In Power BI, a **report** is a collection of visualizations that appear together on one or more pages. Just like any other report you might create for a sales presentation or write for a school assignment, a report in Power BI is a collection of items that are related to each other. The following image shows a **report** in Power BI Desktop—in this case, it's the second page in a five-page report. You can also create reports in the Power BI service.
+In Power BI, a **report** is a collection of visualizations that appear together on one or more pages. Just like any other report you might create for a sales presentation or write for a school assignment, a report in Power BI is a collection of items that are related to each other. The following image shows a **report** in Power BI Desktop. In this case, it's the second page in a five-page report. You can also create reports in the Power BI service.
 
 ![Screenshot of a report open for editing in Power B I Desktop.](../media/pbi-bblocks_03.png)
 
 Reports let you create many visualizations, on multiple pages if necessary, and let you arrange those visualizations in whatever way best tells your story.
 
-You might have a report about quarterly sales, product growth in a particular segment, or migration patterns of polar bears. Whatever your subject, reports let you gather and organize your visualizations onto one page (or more).
+You might have a report about quarterly sales, product growth in a particular segment, or the migration patterns of polar bears. Whatever your subject, reports let you gather and organize your visualizations onto one page (or more).
 
 ## Dashboards
 
 When you're ready to share a report, or a collection of visualizations, you create a **dashboard**. Much like the dashboard in a car, a Power BI **dashboard** is a collection of visuals from a single page that you can share with others. Often, it's a selected group of visuals that provide quick insight into the data or story you're trying to present.
 
-A dashboard must fit on a single page, often called a canvas (the canvas is the blank backdrop in Power BI Desktop or the service, where you put visualizations). Think of it like the canvas that an artist or painter uses—a workspace where you create, combine, and rework interesting and compelling visuals.
-You can share dashboards with other users or groups, who can then interact with your dashboards when they're in the Power BI service or on their mobile device.
+A dashboard must fit on a single page, often called a canvas. The canvas is the blank backdrop in Power BI Desktop or the service, where you put visualizations. Think of it like the canvas that an artist or painter uses—a workspace where you create, combine, and rework interesting and compelling visuals.
+You can share dashboards with other users or groups, who can then interact with your dashboards when they're in the Power BI service or on their mobile devices.
 
 ## Tiles
 
@@ -69,11 +69,11 @@ Those are the basics of Power BI and its building blocks. Let's take a moment to
 
 Power BI is a collection of services, apps, and connectors that lets you connect to your data, wherever it happens to reside, filter it if necessary, and then bring it into Power BI to create compelling visualizations that you can share with others.
 
-Now that you've learned about the handful of basic building blocks of Power BI, it should be clear that you can create datasets that make sense *to you* and create visually compelling reports that tell your story. Stories told with Power BI don't have to be complex, or complicated, to be compelling.
+Now that you've learned about the handful of basic building blocks of Power BI, it should be clear that you can create datasets that make sense *to you* and create visually compelling reports that tell your story. Stories told with Power BI don't have to be complicated to be compelling.
 
-For some people, using a single Excel table in a dataset and then sharing a dashboard with their team will be an incredibly valuable way to use Power BI.
+For some people, using a single Excel table in a dataset and then sharing a dashboard with their team is an incredibly valuable way to use Power BI.
 
-For others, the value of Power BI will be in using real-time Azure SQL Data Warehouse tables that combine with other databases and real-time sources to build a moment-by-moment dataset.
+For others, the value of Power BI is in using real-time Azure Synapse Analytics tables that combine with other databases and real-time sources to build a moment-by-moment dataset.
 
 For both groups, the process is the same: create datasets, build compelling visuals, and share them with others. And the result is also the same for both groups: harness your ever-expanding world of data, and turn it into actionable insights.
 

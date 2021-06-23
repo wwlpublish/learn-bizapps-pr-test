@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.custom-connector-lifecycle-management.4-connectors 
+title: Use Microsoft Power Platform connectors CLI
+metadata: 
+  title: Use Microsoft Power Platform connectors CLI 
+  description: Learn about using Microsoft Power Platform connectors CLI.  
+  ms.date: 04/20/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 5 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/4-connectors.md)] 

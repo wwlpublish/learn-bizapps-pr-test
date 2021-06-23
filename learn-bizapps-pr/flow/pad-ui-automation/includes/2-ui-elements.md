@@ -10,6 +10,6 @@ Doing so will launch the UISpy, which allows the capturing of multiple UI elemen
 
 ![Screenshot of the Add multiple U I elements.](../media/add-multiple-ui-elements.png)
 
-Alternatively, when configuring a UI/Windows action, select the drop-down list and press the **Add a new UI element** button:
+Alternatively, when configuring a UI/Windows action, select the drop-down list and press the **Add UI element** button:
 
 ![Screenshot of the Add U I element through a U I action.](../media/add-ui-element-through-ui-action.png)

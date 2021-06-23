@@ -14,7 +14,7 @@ Based on the data size and the time it takes to process each entry, this flow ma
 
 ![Screenshot of the display message action in workspace.](..\media\display-message-action-in-workspace.png)
 
-Let’s examine how this action will affect what the user sees. When the process is complete, the user is notified:
+Let’s examine how this action will affect what the user sees. When the flow is complete, the user is notified:
 
 ![Screenshot of the message box showing the number of claims processed as 4765.](..\media\message-box.png)
 

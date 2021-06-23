@@ -1,0 +1,57 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-admin-infrastructure.12-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/30/2021 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: The ability to combine multiple data connections describes which data connectivity mode?  
+    choices: 
+    - content: Live/exploration
+      isCorrect: false
+      explanation: The only data connection mode that allows the combination of multiple data connections is the composite data connectivity mode. 
+    - content: Direct query
+      isCorrect: false 
+      explanation: The only data connection mode that allows the combination of multiple data connections is the composite data connectivity mode. 
+    - content: Composite
+      isCorrect: true 
+      explanation: The composite data connectivity mode allows for combining multiple data connections including direct query or import or a combination of both.  
+    - content: Import
+      isCorrect: false 
+      explanation: The only data connection mode that allows the combination of multiple data connections is the composite data connectivity mode. 
+  - content: What key factor should be considered when sizing your gateway hardware?
+    choices: 
+    - content: Data center proximity to data sources
+      isCorrect: false
+      explanation: Data center proximity to data sources, network availability, and available rack space in the data center are not key factors in determining the size and power of your gateway hardware. They may however factor into decisions related to overall Power BI environment performance, management, and monitoring. 
+    - content: Network availability
+      isCorrect: false 
+      explanation: Data center proximity to data sources, network availability, and available rack space in the data center are not key factors in determining the size and power of your gateway hardware. They may however factor into decisions related to overall Power BI environment performance, management, and monitoring. 
+    - content: Available rack space in the data center
+      isCorrect: false 
+      explanation: Data center proximity to data sources, network availability, and available rack space in the data center are not key factors in determining the size and power of your gateway hardware. They may however factor into decisions related to overall Power BI environment performance, management, and monitoring. 
+    - content: Frequency and data volume of data model refreshes in Power BI
+      isCorrect: true 
+      explanation: When determining the power and type of hardware to use for your gateway, a key factor would be the frequency and data volume of data model refreshes in your Power BI environment as this will represent a major processing load on the machine. 
+  - content: Which of the following is NOT one of the single sign-on (SSO) user-mapping options covered in this module?
+    choices: 
+    - content: Local Active Directory accounts synchronization with Azure Active Directory
+      isCorrect: false
+      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-premises Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  
+    - content: User attribute auto conversion in SSAS
+      isCorrect: true 
+      explanation: User attribute auto conversion in SSAS is not a viable option to support the SSO user-mapping process.
+    - content: Manual user remapping
+      isCorrect: false 
+      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-premises Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  
+    - content: On-premises Active Directory Property Lookup to remap UPNs to AD users
+      isCorrect: false 
+      explanation: Local Active Directory accounts synchronization with Azure Active Directory, Manual user remapping, and on-premises Active Directory Property Lookup to remap UPNs to AD users are three of the SSO user-mapping options covered in this module.  

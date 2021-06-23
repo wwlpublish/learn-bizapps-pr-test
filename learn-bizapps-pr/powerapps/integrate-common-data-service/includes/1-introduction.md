@@ -1,24 +1,24 @@
-You can add entity lists to webpages by using Microsoft Power Apps portals Studio, where you can configure some of the main properties. Additional configuration options are available by using the Portal Management app.
+You can add table lists to webpages by using Microsoft Power Apps portals Studio, where you can configure some of the main properties. Additional configuration options are available by using the Portal Management app.
 
-## Configure the entity list
+## Configure the table list
 
-Portals Studio provides a basic interface for creating and configuring entity lists; however not everything can be configured in portals Studio. Makers can customize all entity list features and properties by using the Portal Management app. To access entity lists in the Portal Management app, use the following procedure:
+Portals Studio provides a basic interface for creating and configuring table lists; however not everything can be configured in portals Studio. Makers can customize all table list features and properties by using the Portal Management app. To access table lists in the Portal Management app, use the following procedure:
 
 1. Go to the [Power Apps maker portal](https://make.powerapps.com/?azure-portal=true).
 1. In the upper-right corner, use the environment selector to select the target environment.
 1. From the **Apps** list, locate and open the Portal Management app. (The app type is Model-driven.)
-1. In the left navigation, select **Entity Lists**.
+1. In the left navigation, select **Table Lists**.
 1. Open the list that was previously created in portals Studio.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the New entity list in Portal Management.](../media/list-portal-app.png)](../media/list-portal-app.png#lightbox)
+> [![Screenshot of the New table list in Portal Management.](../media/list-portal-app.png)](../media/list-portal-app.png#lightbox)
 
-An entity list can be as simple or as complicated as your business requirements specify. To begin, the only required properties for the entity list, other than the name and the website, are the target **Entity Name** and one or more **Views**.
+A table list can be as simple or as complicated as your business requirements specify. To begin, the only required properties for the table list, other than the name and the website, are the target **Table Name** and one or more **Views**.
 
-Entity lists are highly configurable and have several settings that define the list behavior. Lists can also include actions for the user to interact with the items on the list.
+table lists are highly configurable and have several settings that define the list behavior. Lists can also include actions for the user to interact with the items on the list.
 
 > [!div class="mx-imgBorder"]
-> [![Diagram of Entity list structure and overview.](../media/entity-list-overview.png)](../media/entity-list-overview.png#lightbox)
+> [![Diagram of table list structure and overview.](../media/entity-list-overview.png)](../media/entity-list-overview.png#lightbox)
 
 The following sections describe some of the most common features and settings.
 
@@ -27,7 +27,7 @@ The following sections describe some of the most common features and settings.
 
 ### Views
 
-Selected views define the Microsoft Dataverse entity fields, list layout, and the default sort order.
+Selected views define the Microsoft Dataverse table columns, list layout, and the default sort order.
 
 - **Multiple views** - If more than one view is specified, a drop-down list renders to allow the user to switch between the views.
 
@@ -37,11 +37,11 @@ Selected views define the Microsoft Dataverse entity fields, list layout, and th
 > [![Screenshot of the Entitlement Contacts view and features.](../media/entity-list-features.png)](../media/entity-list-features.png#lightbox)
 
 > [!NOTE]
-> Entity lists include the **Web Page for Details View** and **Web Page for Create** general properties. These properties are for backward compatibility only. The functionality is included as part of the View Actions and Item Actions grid configuration.
+> Table lists include the **Web Page for Details View** and **Web Page for Create** general properties. These properties are for backward compatibility only. The functionality is included as part of the View Actions and Item Actions grid configuration.
 
 ### Configuration
 
-You can configure entity list data by using filtering and searching or by selecting various display options.
+You can configure table list data by using filtering and searching or by selecting various display options.
 
 #### Filtering and searching
 
@@ -57,28 +57,28 @@ Filtering and searching functionalities help you configure the data in the follo
 
 If both the current portal user and current portal user's parent account filters are enabled, the portal renders a drop-down menu, which allows the user to view their own data (My) or their parent account's data (account name is displayed).
 
-- **Metadata filters** - This feature is also configuration-only. Records in the list can be filtered on any of the list columns, including ranges, lookups, optionsets, and custom FetchXml expressions. Portal users have access to the interactive filtering panel when the entity list is rendered.
+- **Metadata filters** - This feature is also configuration-only. Records in the list can be filtered on any of the list columns, including ranges, lookups, optionsets, and custom FetchXml expressions. Portal users have access to the interactive filtering panel when the table list is rendered.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Entity list search and filtering features.](../media/entity-list-features-filtering.png)](../media/entity-list-features-filtering.png#lightbox)
+> [![Screenshot of the table list search and filtering features.](../media/entity-list-features-filtering.png)](../media/entity-list-features-filtering.png#lightbox)
 
 #### Display options
 
 Views can render as traditional grid lists, calendars, or maps. Delivering list content as an OData feed is also supported.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Entity list rendered as a map and calendar.](../media/entity-list-map-calendar.png)](../media/entity-list-map-calendar.png#lightbox)
+> [![Screenshot of the table list rendered as a map and calendar.](../media/entity-list-map-calendar.png)](../media/entity-list-map-calendar.png#lightbox)
 
-Alternative views might require additional configuration such as start and end date fields for a calendar, or latitude and longitude fields for a map.
+Alternative views might require additional configuration such as start and end date columns for a calendar, or latitude and longitude columns for a map.
 
 > [!IMPORTANT]
-> Maps and calendars require page templates that can render the view. When a starter portal is provisioned, **Rewrite** page templates like **Page** or **Full Page** support this functionality. Pages that use web templates will render the default entity list view.
+> Maps and calendars require page templates that can render the view. When a starter portal is provisioned, **Rewrite** page templates like **Page** or **Full Page** support this functionality. Pages that use web templates will render the default table list view.
 
 ### Actions
 
-Entity lists can have actions associated with them to enable commands for each list, such as **Create** and **Download** (as a Microsoft Excel spreadsheet), or commands for each record, such as **View** or **Edit**, and to trigger workflows.
+Table lists can have actions associated with them to enable commands for each list, such as **Create** and **Download** (as a Microsoft Excel spreadsheet), or commands for each record, such as **View** or **Edit**, and to trigger workflows.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Entity list features and commands.](../media/entity-list-features-commands.png)](../media/entity-list-features-commands.png#lightbox)
+> [![Screenshot of the table list features and commands.](../media/entity-list-features-commands.png)](../media/entity-list-features-commands.png#lightbox)
 
-For more detailed information about entity list attributes and relationships and how to use them to configure list behavior, see [About entity lists](https://docs.microsoft.com/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).
+For more detailed information about table list attributes and relationships and how to use them to configure list behavior, see [About table lists](/powerapps/maker/portals/configure/entity-lists/?azure-portal=true).

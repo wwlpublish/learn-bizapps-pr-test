@@ -4,7 +4,7 @@ title: Knowledge check
 metadata:
   title: Knowledge check
   description: "Knowledge check"
-  ms.date: 02/09/2021
+  ms.date: 05/31/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
@@ -16,7 +16,7 @@ content: |
 quiz:
   title: "Check your knowledge"
   questions:
-  - content: "How can business rules be used in a canvas or model-driven app?"
+  - content: "How can business rules be used in both canvas and model-driven apps?"
     choices:
     - content: "To validate data and show error messages."
       isCorrect: true
@@ -27,25 +27,25 @@ quiz:
     - content: "Manage solution development and data storage."
       isCorrect: false
       explanation: "Incorrect. Environments are the way you manage solution development and data storage in Dataverse."
-  - content: "Your manager has built a solution using the Common Data Service using a few of the standard Entities included out of the box. He wants to capture the date that new records are added to the Entity, but he isn't sure how. He notices that a \"Date\" field is already inside his Entity, but he wants the field to have a custom name of \"Date Confirmed\". What would you recommend he do?"
+  - content: "Your manager has built a solution using the Microsoft Dataverse using a few of the standard tables included out of the box. He wants to capture the date that new records are added to the Entity, but he isn't sure how. He notices that a \"Date\" field is already inside his Entity, but he wants the field to have a custom name of \"Date Confirmed\". What would you recommend he do?"
     choices:
-    - content: "Create a new Entity with the name \"Date Confirmed\"."
+    - content: "Create a new table with the name \"Date Confirmed\"."
       isCorrect: false
-      explanation: "Incorrect. Entities are similar to tables and records within them can have many fields. You wouldn't want to create a new Entity just to store a date when a field inside the existing entity already does that."
-    - content: "Use the built-in Date field within the Entity to store the date values, but rename the field to \"Date Confirmed\"."
+      explanation: "Incorrect. Tables can have many columns. You wouldn't want to create a new table just to store a date when a column inside the existing table already does that."
+    - content: "Use the built-in Date column within the table to store the date values, but rename the column to \"Date Confirmed\"."
       isCorrect: true
-      explanation: "Correct. When building a solution in the Dataverse, it is best practice to use the out-of-the-box entities and fields where possible. In this case, the Entity already has a \"Date\" field. Best practices also state that you simply rename the existing fields if needed, so that would be the recommended solution here."
+      explanation: "Correct. When building a solution in Dataverse, it is best practice to use the out-of-the-box tables and columns where possible. In this case, the table already has a \"Date\" column. Best practices also state that you simply rename the existing columns if needed, so that would be the recommended solution here."
     - content: "Create a new Environment with the name \"Date Confirmed\"."
       isCorrect: false
       explanation: "Incorrect. Environments are spaces in which Dataverse instances live, but creating a new Environment will do anything to help in this situation because creating a new Environment will leave him with the same out-of-the-box entities that he started with in his old Environment."
-  - content: "One of your co-workers has set up a Model-driven application using the Dataverse. The app captures information about computer hardware assets, including their price. Your co-worker is concerned that users of the application are going to put incorrect values into fields - for instance, they might put in the wrong cost center when submitting a new record. How could this be prevented?"
+  - content: "One of your co-workers has set up a Model-driven application using Dataverse. The app captures information about computer hardware assets, including their price. Your co-worker is concerned that users of the application are going to forget to populate the cost center if the part is expendable. How could this be prevented?"
     choices:
-    - content: "Use Business Rules to automatically validate the cost center for the currently-logged in user."
-      isCorrect: true
-      explanation: "Correct. A business rule could be set up to validate that the cost center the user has entered into the Model-driven app matches the cost center that is assigned to their department."
-    - content: "Use Power Automate to validate that the field value matches what the table is expecting."
+    - content: "Use Power Automate to validate that the cost center column value is populated."
       isCorrect: false
       explanation: "Incorrect. You don't need a Flow to solve this issue, because the Dataverse has built-in capabilities to handle this sort of data validation without introducing any additional workflow solutions."
+    - content: "Use a Business Rule to make the cost center field required if the expendable field is true."
+      isCorrect: true
+      explanation: "Correct. A business rule could be set up to mark the cost center field as required when the expendable field is set to true."
     - content: "Use a Canvas App instead of a Model-driven app."
       isCorrect: false
-      explanation: "Incorrect. It doesn't matter whether your co-worker uses a Canvas or a Model-driven app in this instance, because either way he still has to have a mechanism to validate the information in the field."
+      explanation: "Incorrect. There are ways to ensure the proper fields are populated in a Model-driven app."

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.custom-connector-lifecycle-management.3-solutions 
+title: Use solutions
+metadata: 
+  title: Use solutions 
+  description: Learn about using solutions. 
+  ms.date: 04/20/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 4 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-solutions.md)] 

@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.introduction-return-workplace-solution.5-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/05/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-d365-return-workplace 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which of the following options should vendors use to check in to physical workplace sites?
+    choices: 
+    - content: Employee Return to the Workplace canvas app 
+      isCorrect: false
+      explanation: This app requires an Azure Active Directory authenticated user, and most vendors would not have that.
+    - content: Workplace Care Management model-driven app 
+      isCorrect: false 
+      explanation: This app requires an Azure Active Directory authenticated user, and most vendors would not have that.
+    - content: Return to the Workplace portal app
+      isCorrect: true 
+      explanation: The portal app supports users that do not have an Azure Active Directory login for the organization.  
+    - content: Location Readiness dashboard 
+      isCorrect: false 
+      explanation: This option is not an app; it displays data from an app.
+  - content: What should you do as an employee who is bringing a guest to the workplace?
+    choices: 
+    - content: Nothing, provided that you have already checked-in
+      isCorrect: false
+      explanation: The guest cannot check in until a pass has been issued.
+    - content: Add the guest as a dependent in the Employee Return to Workplace canvas app
+      isCorrect: true 
+      explanation: After you have requested your own pass, you can add guests. The app will remember the guests for ease of use the next time that they visit.
+    - content: Send the guest a check-in invitation
+      isCorrect: false 
+      explanation: Invitations are not available unless you have customized your solution.
+    - content: Send the guest an email with a copy of your pass
+      isCorrect: false 
+      explanation: A pass can only be used by the person to whom it was issued.
+  - content: What are employees stored as in Dataverse?
+    choices: 
+    - content: Employees
+      isCorrect: false
+      explanation: An employee is a type of contact. 
+    - content: Staff
+      isCorrect: false 
+      explanation: An employee is a type of contact. 
+    - content: Contacts
+      isCorrect: true 
+      explanation: An employee is a type of contact. 
+    - content: Accounts
+      isCorrect: false 
+      explanation: An employee is a type of contact. 
+  - content: You are an employee case manager. You can check in by using the Employee Return to the Workplace canvas app but can't access the Workplace Care Management model-driven app. How should this issue be resolved?
+    choices: 
+    - content: Request that the security role of Health and Safety Leader be assigned to you.
+      isCorrect: true 
+      explanation: This role is required to perform the tasks of an employee case manager.
+    - content: Request a Power Apps license.
+      isCorrect: false 
+      explanation: It is a security role that determines this access.
+    - content: Request a Return to Workplace license.
+      isCorrect: false 
+      explanation: It is a security role that determines this access.
+    - content: Request that the security role of Workplace Care Manager be assigned to you.
+      isCorrect: false 
+      explanation: It is the Health and Safety Leader role that determines this access.

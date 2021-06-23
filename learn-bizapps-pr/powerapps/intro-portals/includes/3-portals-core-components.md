@@ -9,9 +9,9 @@ Power Apps portals have several core components that enable these scenarios.
 
 ## Webpages
 
-Most of a portal's content is represented by webpages. A webpage represents a particular URL in a portal's website and is one of the core entities of the portal's content management system. Through parent and child relationships to other webpages, this entity forms the hierarchy of a website, that is, its site map.
+Most of a portal's content is represented by webpages. A webpage represents a particular URL in a portal's website and is one of the core entities of the portal's content management system. Through parent and child relationships to other webpages, this table forms the hierarchy of a website, that is, its site map.
 
-Webpages also form the basis for including other, specialized entity types in the portal site map: web files, shortcuts, forums, ideas, and blogs. Each of these records has a relationship with a parent page, which defines the URL and where the entries are located on the portal site map. 
+Webpages also form the basis for including other, specialized table types in the portal site map: web files, shortcuts, forums, ideas, and blogs. Each of these records has a relationship with a parent page, which defines the URL and where the entries are located on the portal site map. 
 
 ![Diagram of the Site page hierarchy in relation to the parent page.](../media/3-page-hierarchy.png)
 
@@ -70,29 +70,29 @@ Snippets can be edited by using Portal Studio and Dataverse records by using the
 
 ![Screenshot of the Portal Management app used to edit snippets.](../media/1-6-content-snippet-metadata.png)
 
-## Entity lists and entity forms
+## Table lists and table forms
 
 The strength of Power Apps portals is the ability to interact with information and data that is stored in Dataverse.
 
-![Screenshot of the Entity List and entity form.](../media/1-6-entity-list-studio.png)
+![Screenshot of the Table List and entity form.](../media/1-6-entity-list-studio.png)
 
-Entity lists and entity forms use model-driven Power Apps views and will form definitions to create dynamic and interactive portal pages that work with Dataverse. 
+Table lists and table forms use model-driven Power Apps views and will form definitions to create dynamic and interactive portal pages that work with Dataverse. 
 
-A webpage record can be linked to an entity list or an entity form. The linked list or form will be used by the template to render the page layout by using data from Dataverse based on system or custom entities. The template might use list and form definitions to include interactivity, for example, read-write access to Dataverse records.
+A webpage record can be linked to table list or table form. The linked list or form will be used by the template to render the page layout by using data from Dataverse based on system or custom entities. The template might use list and form definitions to include interactivity, for example, read-write access to Dataverse records.
 
-### Entity lists
+### Table lists
 
-Entity lists define how the list of Dataverse records is displayed on portal pages. They are defined by one or more model-driven Power Apps views and include functionality like filtering and sorting.
+Table lists define how the list of Dataverse records is displayed on portal pages. They are defined by one or more model-driven Power Apps views and include functionality like filtering and sorting.
 
-Entity lists can also have actions associated with them to enable Create/Edit/Read abilities and to trigger workflows. Display formats include traditional grid lists, calendar, or map and spreadsheet download.
+Table lists can also have actions associated with them to enable Create/Edit/Read abilities and to trigger workflows. Display formats include traditional grid lists, calendar, or map and spreadsheet download.
 
-### Entity forms
+### Table forms
 
-Entity forms add the ability for portal pages to interact with records in a specific entity by using a model-driven Power Apps form definition as a layout template.
+Table forms add the ability for portal pages to interact with records in a specific table by using a model-driven Power Apps form definition as a layout template.
 
-**Form** mode can be read-only, insert, or edit. This mode defines if the form is used to generate a layout, capture the data, or provide full editing capabilities by using the Dataverse entity record. Examples of the types of capabilities that are defined in **Form** mode include:
+**Form** mode can be read-only, insert, or edit. This mode defines if the form is used to generate a layout, capture the data, or provide full editing capabilities by using the Dataverse table record. Examples of the types of capabilities that are defined in **Form** mode include:
 
-- Informational pages about employees, products, or any other Dataverse entity.
+- Informational pages about employees, products, or any other Dataverse table.
 - Data capture from either anonymous or authenticated users, for example, using a **Contact us** page to record leads in Dynamics 365 Sales or using a survey page to collect product feedback from customers. 
 - Support pages that provide read-write access to the customers' cases. 
 - Profile self-management for customers.

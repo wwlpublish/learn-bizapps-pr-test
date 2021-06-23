@@ -4,16 +4,16 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge 
  description: Answer the following questions to see what you've learned. 
- ms.date: 01/17/2020 
- author: KevSch 
- ms.author: kschimke 
+ ms.date: 06/01/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
  ms.topic: interactive-tutorial 
  ms.prod: learning-powerapps
 durationInMinutes: 6 
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: When creating an Table, what are the two types of relationships you can create?
+  - content: When creating a Table, what are the two types of relationships you can create?
     choices: 
     - content: One-to-many and One-to-one
       isCorrect: false 

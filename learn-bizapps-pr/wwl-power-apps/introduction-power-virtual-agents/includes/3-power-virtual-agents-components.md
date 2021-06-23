@@ -38,7 +38,8 @@ to deploy it without having to exit the Power Virtual Agents portal.
 When you create a chatbot, a number of topics will be automatically created for
 you.
 
-![Four lesson topics and a number of system topics are in the Topics list](../media/topics-list.png)
+>[!div class="mx-imgBorder"]
+>[ ![Four lesson topics and a number of system topics are in the Topics list](../media/topics-list.png)](../media/topics-list.png#lightbox)
 
 These are:
 

@@ -22,7 +22,7 @@ For this example, set the **Folder** property to **Images**.
 To call AI Builder Business card reader, follow these steps:
 
 1. Select **New step**.
-2. Select **Predict - Dataverse (current environment)**.
+2. Select **Predict - Dataverse**.
 3. Select **BusinessCard model** in the **Model** drop-down list.
 4. Select **File Content** for the **Image** property.
 5. Select **File content type** for the **Image type** property.

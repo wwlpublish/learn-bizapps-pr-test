@@ -12,11 +12,13 @@ Follow these steps:
 
 1. Below the **Search templates...** search box are several options such as **All flows**, **Featured**, **Shared with me**, and so on. Find and select the **Button** option.
 
-    ![Screenshot of Search templates with the Button option selected.](../media/button-templates.jpg)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Search templates with the Button option selected.](../media/button-templates.jpg)](../media/button-templates.jpg#lightbox)
 
 1. Find the **Create new Outlook Task** template and select it.
 
-    ![Screenshot of the Create new Outlook task tile from the search results.](../media/create-new-outlook-task-template.jpg)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the Create new Outlook task tile from the search results.](../media/create-new-outlook-task-template.jpg)](../media/create-new-outlook-task-template.jpg#lightbox)
 
 1. Select **sign in**.
 
@@ -32,10 +34,12 @@ Follow these steps:
 1. Add a task name and task description and then select **Done**, which is available on the upper-right
     side of the app.
 
-    ![Mobile screenshot of Create new Outlook Task with the Done button highlighted.](../media/add-new-outlook-task-using-mobile-app.jpg)
+    > [!div class="mx-imgBorder"]
+    > [![Mobile screenshot of Create new Outlook Task with the Done button highlighted.](../media/add-new-outlook-task-using-mobile-app.jpg)](../media/add-new-outlook-task-using-mobile-app.jpg#lightbox)
 
-1. To confirm that the flow has run successfully, go to Outlook on your local machine and select the **Task icon** on the lower left of the screen.
+1. To confirm that the flow has run successfully, go to Outlook on your local machine and select the **Task** icon on the lower left of the screen.
 
 1. Verify that you see the new task.
 
-    ![Screenshot of Outlook with the Using button task available in the Task list.](../media/new-task-made-available.jpg)
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Outlook with the Using button task available in the Task list.](../media/new-task-made-available.jpg)](../media/new-task-made-available.jpg#lightbox)

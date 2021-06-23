@@ -3,22 +3,22 @@ The **Edit Form** control has three different display modes: **View**,
 available and affects the form's behavior.
 
 -   **View mode** -- In this mode, the form will present the information
-    for the record, but the fields will not be editable. The controls on
+    for the record, but the columns will not be editable. The controls on
     the cards will present themselves with their view behavior. For
     example, the **Input** control will present without a border around
     the text.
 
 -   **Edit mode** -- In this mode, the form will present the information
-    for the record, and all the editable fields will be editable.
+    for the record, and all the editable columns will be editable.
     Remember, a form can have a mixture of editable and non-editable
-    fields. The controls on the cards will present themselves with their
+    columns. The controls on the cards will present themselves with their
     edit behavior. For example, the **Input** control will present with a
     border around the text. This gives the user a visual clue they can
     edit the data. The **Default** property of the **Input** control
     determines the data shown in the control.
 
 -   **New mode** -- In this mode, the form will present all of the
-    fields for a record, but the fields will be blank. The user will
+    columns for a record, but the columns will be blank. The user will
     enter new data and create a new record. The controls on the cards
     will present themselves with their edit behavior. For example, the
     **Input** control will present with a border around the text, giving

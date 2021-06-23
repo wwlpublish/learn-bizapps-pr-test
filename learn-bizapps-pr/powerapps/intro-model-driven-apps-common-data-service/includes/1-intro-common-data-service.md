@@ -1,12 +1,12 @@
 Whether you are building a canvas app or a model-driven app, Dataverse is the ideal data source because it is
-the foundational data source of Power Platform. As a result, you will
+the foundational data source of Microsoft Power Platform. As a result, you will
 experience the most functionality, the deepest integrations, the most features,
 and the best ease-of-use of any available data sources. From
 simple web-based data design to robust, role-based security, 
 Microsoft Dataverse is a straightforward platform that you can use to begin designing your
 data structures and helping to keep them safe. Then, with your data in place, you
 have rich integration capabilities from Power Apps and the rest of 
-Power Platform. Additionally, by applying business rules, you can trust that your
+Microsoft Power Platform. Additionally, by applying business rules, you can trust that your
 business integrity will be maintained no matter what tool you use to
 interact with the data.
 
@@ -37,7 +37,7 @@ Some benefits of using Dataverse and its tables include:
 -   **Rich metadata** - Data types and relationships are used
     directly within Power Apps.
 
--   **Logic and validation** - Define calculated fields, business
+-   **Logic and validation** - Define calculated columns, business
     rules, workflows, and business process flows to ensure data quality
     and drive business processes.
 

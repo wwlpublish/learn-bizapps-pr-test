@@ -3,7 +3,7 @@ uid: learn-bizapps.powerapps-get-started
 metadata:
   title: Get started with Power Apps
   description: Learn the basics of Power Apps and how you can use it in your organization.
-  ms.date: 05/08/2020
+  ms.date: 03/31/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
@@ -33,10 +33,11 @@ products:
 units:
 - learn-bizapps.powerapps-get-started.1-powerapps-introduction
 - learn-bizapps.powerapps-get-started.2-powerapps-building-blocks
-- learn-bizapps.powerapps-get-started.3-powerapps-related-technologies
-- learn-bizapps.powerapps-get-started.4-powerapps-ways-to-build
-- learn-bizapps.powerapps-get-started.4-5-design-app
 - learn-bizapps.powerapps-get-started.5-powerapps-create-first
+- learn-bizapps.powerapps-get-started.4-powerapps-ways-to-build
+- learn-bizapps.powerapps-get-started.3-powerapps-related-technologies
+- learn-bizapps.powerapps-get-started.5-5-powerapps-related-technologies
+- learn-bizapps.powerapps-get-started.4-5-design-app
 - learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
 - learn-bizapps.powerapps-get-started.7-summary-cleanup
 badge: 

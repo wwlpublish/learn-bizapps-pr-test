@@ -2,13 +2,13 @@ The Microsoft Power Apps portals admin center provides a series of functions for
 
 To access the portals admin center:
 
-1. Sign in to the [Power Platform admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true).
+1. Sign in to the [Microsoft Power Platform admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true).
 1. In the left pane, select **Resources** and then select **Portals**.
 1. Select a portal.
 1. Select **Manage** at the top of the page.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Power Platform Admin Center with Portals displayed.](../media/power-platform-admin-center.png)](../media/power-platform-admin-center.png#lightbox)
+> [![Screenshot of Microsoft Power Platform Admin Center with Portals displayed.](../media/power-platform-admin-center.png)](../media/power-platform-admin-center.png#lightbox)
 
 ## Portal details
 
@@ -73,7 +73,7 @@ The **Manage SSL certificates** section will show a listing of all uploaded SSL 
 
 ## Set up SharePoint integration
 
-The **Set up SharePoint integration** section provides you with the ability to activate the SharePoint integration so that SharePoint document libraries that are integrated with Dataverse and Dynamics 365 can be shown through an entity form.
+The **Set up SharePoint integration** section provides you with the ability to activate the SharePoint integration so that SharePoint document libraries that are integrated with Dataverse and Dynamics 365 can be shown through a table form.
 
 ## Set up Power BI integration
 

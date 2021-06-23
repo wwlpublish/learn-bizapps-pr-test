@@ -1,3 +1,3 @@
-**Ending Your Lab**
+## Ending Your Lab
 
-To end this lab, click the menu icon in the upper right hand corner of this instruction window and select **End Lab**. 
+To end this lab, select the **Done** button in the bottom right corner of this instruction window.

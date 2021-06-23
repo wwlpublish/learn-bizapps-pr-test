@@ -9,7 +9,7 @@ Power Apps portals Studio components:
     -   Create a webpage.
     -   Delete a component.
     -   Sync Configuration - synchronizes the latest portal configuration
-        changes in Common Data Service database with your current Studio
+        changes in Microsoft Dataverse database with your current Studio
         session. For example, use Sync Configuration to reflect the changes in
         Studio when using the Portal Management app to change the configuration
         of pages, forms or any other objects.
@@ -30,12 +30,12 @@ Most of a portal's content is represented by webpages. A webpage is a document
 that is identified by a unique URL in a website. Through parent and child relationships 
 to other webpages, webpages form the hierarchy of a website, that is, its site map. 
 Webpages can be added and edited by using the Portal Studio, the portal front-side editor, 
-or directly in Common Data Service by using the Portal Management app.
+or directly in Microsoft Dataverse by using the Portal Management app.
 
 ## Page templates
 
-A webpage record does not define how the page looks when it is rendered on the
-portal. Instead, it is linked to the **Page template** record that defines the
+A webpage row does not define how the page looks when it is rendered on the
+portal. Instead, it is linked to the **Page template** row that defines the
 layout and the behavior. Think of the webpage as the exact URL and the Page
 template as the blueprint for displaying the content.
 
@@ -51,36 +51,36 @@ is a content snippet that can be updated with your company’s logo to quickly a
 
 ![Title content snippet](../media/content-snippets.png)
 
-Snippets can be edited by using Portal Studio and Common Data Service records by
-using the Portal Management app. Here is where you would replace the image source in the **Value** field 
+Snippets can be edited by using Portal Studio and Microsoft Dataverse rows by
+using the Portal Management app. Here is where you would replace the image source in the **Value** column 
 with your company's logo. 
 
 ![Edit Title content snippets](../media/edit-title-content-snippet.png)
 
-## Entity lists and entity forms
+## Table lists and table forms
 
 The strength of Power Apps portals is the ability to interact with information
-and data that is stored in Common Data Service. Entity lists and entity forms are used 
-in Power Apps portals to define what data should render on the portal from Common Data Service,
-such as a list of records from an entity or a form to capture and display data for a specific record. 
+and data that is stored in Microsoft Dataverse. Table lists and table forms are used 
+in Power Apps portals to define what data should render on the portal from Microsoft Dataverse,
+such as a list of rows from a table or a form to capture and display data for a specific row. 
 
 ![Account entity list](../media/member-directory-entity-list.png)
 
-A webpage record can be linked to an **entity list** or an **entity form**. The linked
+A webpage row can be linked to a **table list** or an **table form**. The linked
 list or form will be used by the template to render the page layout with data
-from Common Data Service, such as a list of all *Active Contacts* to form the above 
+from Microsoft Dataverse, such as a list of all *Active Contacts* to form the above 
 *Member Directory* list. In the **Properties** pane on the right of the above example, you
-see that this entity list was created to display the *Active Contacts* view
-from the *contacts* entity.
+see that this table list was created to display the *Active Contacts* view
+from the *contacts* table.
 
-Entity lists can include functionality like filtering and sorting and can also have
+Table lists can include functionality like filtering and sorting and can also have
 actions associated with them to enable Create/Edit/Read abilities and to trigger
 workflows. With this, App Makers can determine what will happen when a user
-opens a record from a list, such as taking them to a form displaying the details
-of the selected record.
+opens a row from a list, such as taking them to a form displaying the details
+of the selected row.
 
 ![Configuring entity lists](../media/configure-entity-lists.png)
 
 In the above example, the App Maker has dictated that the user will be taken to
-the **Entity Form** if they want to *create* or view *details* for a specific record
+the **Table Form** if they want to *create* or view *details* for a specific row
 from a list.

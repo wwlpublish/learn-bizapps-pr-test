@@ -17,16 +17,16 @@ quiz:
     choices: 
     - content: Add an Iframe element that points to the SharePoint URL.
       isCorrect: false 
-      explanation: Adding a document location subgrid on a model-driven form that is used for an entity form will display a SharePoint document library on the portal page. A SharePoint Liquid tag or component is not available. Adding an Iframe element that points to the SharePoint URL won't show the documents that are related to that entity, provide security, or an ideal layout.
+      explanation: Adding a document location subgrid on a model-driven form that is used for a table form will display a SharePoint document library on the portal page. A SharePoint Liquid tag or component is not available. Adding an Iframe element that points to the SharePoint URL won't show the documents that are related to that table, provide security, or an ideal layout.
     - content: Use the `{% sharepoint %}` Liquid tag.
       isCorrect: false 
-      explanation: Adding a document location subgrid on a model-driven form that is used for an entity form will display a SharePoint document library on the portal page. A SharePoint Liquid tag or component is not available. Adding an Iframe element that points to the SharePoint URL won't show the documents that are related to that entity, provide security, or an ideal layout.
+      explanation: Adding a document location subgrid on a model-driven form that is used for a table form will display a SharePoint document library on the portal page. A SharePoint Liquid tag or component is not available. Adding an Iframe element that points to the SharePoint URL won't show the documents that are related to that table, provide security, or an ideal layout.
     - content: Add a Document Location subgrid on a model-driven form.
       isCorrect: true 
-      explanation: Adding a document location subgrid on a model-driven form that is used for an entity form will display a SharePoint document library on the portal page. A SharePoint Liquid tag or component is not available. Adding an Iframe element that points to the SharePoint URL won't show the documents that are related to that entity, provide security, or an ideal layout.
+      explanation: Adding a document location subgrid on a model-driven form that is used for a table form will display a SharePoint document library on the portal page. A SharePoint Liquid tag or component is not available. Adding an Iframe element that points to the SharePoint URL won't show the documents that are related to that table, provide security, or an ideal layout.
     - content: Add the SharePoint component to the page in portals Studio.
       isCorrect: false 
-      explanation: Adding a document location subgrid on a model-driven form that is used for an entity form will display a SharePoint document library on the portal page. A SharePoint Liquid tag or component is not available. Adding an Iframe element that points to the SharePoint URL won't show the documents that are related to that entity, provide security, or an ideal layout.
+      explanation: Adding a document location subgrid on a model-driven form that is used for a table form will display a SharePoint document library on the portal page. A SharePoint Liquid tag or component is not available. Adding an Iframe element that points to the SharePoint URL won't show the documents that are related to that table, provide security, or an ideal layout.
   - content: You add a Power BI component to your portal page by using the Publish to web access type, and in the source code editor, you add filtering to the Liquid tag. However, portal users still see the entire dataset. What could be the issue?
     choices: 
     - content: The portal users need to be signed in.

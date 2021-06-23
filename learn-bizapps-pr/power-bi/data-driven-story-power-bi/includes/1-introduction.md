@@ -6,26 +6,26 @@ In this module's scenario, you work as a Power BI developer for Tailwind Traders
 
 You have already begun adding and customizing visuals on the report. Now, you need to take the report to the next level to meet management's requirements.
 
-By the end of this module, you will be able to: 
+By the end of this module, you will be able to:
 
--   Design a report layout.
+- Design a report layout.
 
--   Add buttons, bookmarks, and selections.
+- Add buttons, bookmarks, and selections.
 
--   Design report navigation.
+- Design report navigation.
 
--   Use basic interactions.
+- Use basic interactions.
 
--   Use advanced interactions and drillthrough.
+- Use advanced interactions and drillthrough.
 
--   Configure conditional formatting.
+- Configure conditional formatting.
 
--   Apply slicing, filtering, and sorting.
+- Apply slicing, filtering, and sorting.
 
--   Publish and export reports. 
+- Publish and export reports.
 
--   Comment on reports.
+- Comment on reports.
 
--   Use Performance analyzer to tune reports.
+- Use Performance analyzer to tune reports.
 
--   Optimize reports for mobile use.
+- Optimize reports for mobile use.

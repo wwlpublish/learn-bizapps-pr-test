@@ -33,6 +33,6 @@ The flow will:
 
      ![Screenshot of the Take screenshot action properties dialog.](..\media\take-screenshot-exercise-part-five.png)
 
-1. Add the **Take screenshot** action. Set **Capture** to **Foreground window**, **Save screenshot to** to **File**, **Image file** to **%SpecialFolder%\screen.jpg** and **Image format** to **JPG**.
+1. Add the **Take screenshot** action. Set **Capture** to **Foreground window**, **Save screenshot to** to **File**, **Image file** to **%SpecialFolderPath%\screen.jpg** and **Image format** to **JPG**.
 
 1. Running the flow will result in the screen.jpg file being placed on the current user’s desktop.

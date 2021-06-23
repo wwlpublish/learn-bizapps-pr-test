@@ -56,10 +56,10 @@ To edit the source code, follow these steps:
 
    ```twig
    <h2>List of accounts</h2>
-   {% entityview logical_name:'account', name:'Active Accounts' %}
-   <p>We have {{ entityview.total_records }} accounts.</p>
+   {% tableview logical_name:'account', name:'Active Accounts' %}
+   <p>We have {{ tableview.total_records }} accounts.</p>
    <ul>
-     {% for account in entityview.records -%}
+     {% for account in tableview.records -%}
      <li>{{ account.name }}
        {% if account.telephone1 %}
        (<a href="tel:{{ account.telephone1 }}">{{ account.telephone1 }}</a>)
@@ -67,7 +67,7 @@ To edit the source code, follow these steps:
      </li>
      {% endfor %}
    </ul>
-   {% endentityview %}
+   {% endtableview %}
    ```
 
 1. Select **Save**.
@@ -79,4 +79,4 @@ To edit the source code, follow these steps:
 1. Select the **Browse website** button. The displayed webpage should only contain the text, "We have 0 accounts."
 
     > [!NOTE]
-    > This result is expected because, at runtime, the portal will deny access to entity records unless an entity permission record exists to allow access to the data.
+    > This result is expected because, at runtime, the portal will deny access to table records unless table permission record exists to allow access to the data.

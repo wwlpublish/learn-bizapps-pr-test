@@ -13,12 +13,12 @@ By default, when a maker creates a new webpage by using Power Apps portals Studi
 
 ## Webpage access control rule
 
-The **Web Page Access Control Rule** entity is a portal metadata record that can be linked to a specific webpage that can determine the visibility to that page.
+The **Web Page Access Control Rule** table is a portal metadata row that can be linked to a specific webpage that can determine the visibility to that page.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of Web Page Access Control Rule entity setttings.](../media/web-page-access-control-rule.png)](../media/web-page-access-control-rule.png#lightbox)
+> [![Screenshot of Web Page Access Control Rule table setttings.](../media/web-page-access-control-rule.png)](../media/web-page-access-control-rule.png#lightbox)
 
-The following table describes the **Web Page Access Control Rule** record properties.
+The following table describes the **Web Page Access Control Rule** row properties.
 
 | Property | Details |
 | --- | --- |
@@ -26,16 +26,16 @@ The following table describes the **Web Page Access Control Rule** record proper
 | Website | This property references the website in which the rule will reside. |
 | Web Page | This lookup references the webpage to which you should apply the rule. |
 | Right | This property determines the level of access rights that a portal user will have to the specific webpage. The **Restrict Read** right means that the portal visitor is allowed to view the page but cannot directly edit the page. The **Grant Change** right means that the user can view the page and, if they have access to the front-side editing tools, they will be able to change the content. |
-| Description | This field allows a maker to add a description of the purpose and scope of the rule. |
+| Description | This column allows a maker to add a description of the purpose and scope of the rule. |
 
 After you have defined an access control for a webpage, the page will not be accessible on the portal and, by default, will not appear on any menu navigation.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4AjtR]
 
 > [!NOTE]
-> The menu link (**WebLink**) to a page with an access rule can be made visible to all portal visitors by selecting the **Disable Page Validation** option on the **WebLink** record in the Portal Management app.
+> The menu link (**WebLink**) to a page with an access rule can be made visible to all portal visitors by selecting the **Disable Page Validation** option on the **WebLink** row in the Portal Management app.
 
-The **Web Page Access Control Rule** record can then be linked to a web role that will provide access to any related contact records so that users can access the particular webpage.
+The **Web Page Access Control Rule** row can then be linked to a web role that will provide access to any related contact rows so that users can access the particular webpage.
 
 > [!div class="mx-imgBorder"]
 > [![Screnshot of Web page access control rule settings in portal.](../media/web-page-access-rule.png)](../media/web-page-access-rule.png#lightbox)

@@ -1,0 +1,38 @@
+### YamlMime:Module 
+uid: learn-bizapps.policy-templates-custom-connectors 
+metadata: 
+ title: Configure policy templates for custom connectors in Power Automate
+ description: This module explores using policies with custom connectors and explains how to configure them by using policy templates.
+ ms.date: 03/22/2021  
+ author: DaveBeasley  
+ ms.author: dbeasley  
+ ms.topic: interactive-tutorial  
+ ms.prod: learning-power-platform  
+title: Configure policy templates for custom connectors in Power Automate
+summary: |  
+  [!include[](../includes/module-banner.md)] 
+  Policies allow you to modify the behavior of a custom connector at runtime. You can use policies to perform data conversion, route requests, set parameter values, and more. You can configure policies directly in the custom connector API properties file before import, or you can do it from the maker portal in the custom connector designer by applying policy templates. 
+abstract: |  
+    In this module, you will: 
+    - Discover how policies can modify the behavior of custom connectors at runtime.
+    - Apply policy templates to a custom connector.
+prerequisites: Experience with Power Automate. 
+iconUrl: /learn/achievements/policy-templates-custom-connectors.svg  
+levels:  
+- intermediate   
+roles:  
+- maker  
+products:  
+- power-platform 
+- power-automate
+units: 
+- learn-bizapps.policy-templates-custom-connectors.1-introduction 
+- learn-bizapps.policy-templates-custom-connectors.2-expressions-runtime 
+- learn-bizapps.policy-templates-custom-connectors.3-policies-data-conversion 
+- learn-bizapps.policy-templates-custom-connectors.4-configure-host-url-routing 
+- learn-bizapps.policy-templates-custom-connectors.5-add-update-values 
+- learn-bizapps.policy-templates-custom-connectors.6-exercise 
+- learn-bizapps.policy-templates-custom-connectors.7-check 
+- learn-bizapps.policy-templates-custom-connectors.8-summary 
+badge: 
+  uid: learn-bizapps.policy-templates-custom-connectors.badge 

@@ -5,7 +5,7 @@ In this example, you will format and configure the default clustered column char
 Start by selecting the visualization on the canvas, and then select the **Format** button (paint roller icon) to display the **Format** pane.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the formatting options for visualization.](../media/4-format-visualization-options-ssm.png)](../media/4-format-visualization-options-ssm.png#lightbox)
+> [![Formatting options for visualization](../media/4-format-visualization-options-ssm.png)](../media/4-format-visualization-options-ssm.png#lightbox)
 
 The formatting options that are available will depend on the type of visualization that you selected.
 
@@ -30,14 +30,14 @@ In the following examples, you will edit the title, change the background, and a
 You can edit a default title and add a title, if you don't have one. In this example, you will select the column chart visualization and then, in the **Format** pane, scroll down and expand the **Title** section. Edit the current title by adding a space between **Sales** and **Amount**, and then increase the font size to 16 points.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of formatting the visualization title.](../media/4-format-visualization-title-ssm.png)](../media/4-format-visualization-title-ssm.png#lightbox)
+> [![Format the visualization title](../media/4-format-visualization-title-ssm.png)](../media/4-format-visualization-title-ssm.png#lightbox)
 
 ## Background
 
 It is best practice to keep the default white background so the presented data can be clearly seen. However, you can change the default background color to make a visualization more colorful and easier to read or to match a particular color scheme. In this example, continue with the column chart that is selected and then, in the **Format** pane, expand the **Background** section and change the color to light grey.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of formatting the visualization background.](../media/4-format-visualization-background-ssm.png)](../media/4-format-visualization-background-ssm.png#lightbox)
+> [![Format the visualization background](../media/4-format-visualization-background-ssm.png)](../media/4-format-visualization-background-ssm.png#lightbox)
 
 ## Tooltip
 
@@ -48,35 +48,36 @@ To expand on the data points that are displayed in the default tooltip, you can 
 The following image shows the default tooltip first and then the customized tooltip that displays additional data.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of adding a new value for the tooltip.](../media/4-add-new-value-page-tooltip-ssm.png)](../media/4-add-new-value-page-tooltip-ssm.png#lightbox)
+> [![Add new value for tooltip](../media/4-add-new-value-page-tooltip-ssm.png)](../media/4-add-new-value-page-tooltip-ssm.png#lightbox)
 
 Another way to use tooltips is to display graphical information. The process of adding this type of tooltip is not as straightforward, but it is worthwhile. You would begin by creating a new page in the report.
 
 Open the new page and then open the **Format** pane. Expand the **Page Size** section and then select **Tooltip** from the **Type** list.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of adding a new report page for the tooltip.](../media/4-add-new-report-page-tooltip-ss.png)](../media/4-add-new-report-page-tooltip-ss.png#lightbox)
+> [![Add new report page for tooltip](../media/4-add-new-report-page-tooltip-ss.png)](../media/4-add-new-report-page-tooltip-ss.png#lightbox)
 
 In the **Page information** section, turn the **Tooltip** slider to **On** so that Power BI registers this page as a tooltip page
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Tooltip option enabled on page information.](../media/4-enable-tooltip-option-ss.png)](../media/4-enable-tooltip-option-ss.png#lightbox)
+> [![Tooltip option enabled on page information](../media/4-enable-tooltip-option-ss.png)](../media/4-enable-tooltip-option-ss.png#lightbox)
 
 Tooltips have limited canvas space, so to ensure that your visuals appear in the tooltip, on the **View** tab, set the **Page view** option to **Actual size**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of changing the page view size for the tooltip.](../media/4-change-page-view-size-tooltip-ss.png)](../media/4-change-page-view-size-tooltip-ss.png#lightbox)
+> [![Change page view size for tooltip](../media/4-change-page-view-size-tooltip-ss.png)](../media/4-change-page-view-size-tooltip-ss.png#lightbox)
 
 Next, add one or more visuals to the tooltip page, in the same way that you would on any other report page.
 
 Now, you need to specify the fields for which you want the tooltip to display. Select the tooltip page and then select the **Values** tab in the **Visualizations** pane. Drag the fields from the **Fields** pane into the **Tooltip** bucket. In this example, you will drag the **SalesAmount** field into the **Tooltip** bucket.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of specifying fields for the tooltip.](../media/4-specify-fields-tooltip-ssm.png)](../media/4-specify-fields-tooltip-ssm.png#lightbox)
+> [![Specify fields for tooltip](../media/4-specify-fields-tooltip-ssm.png)](../media/4-specify-fields-tooltip-ssm.png#lightbox)
 
 Return to the report page and apply the tooltip to one or more visuals on that page. Select a visual and then, in the **Format** pane, scroll down to the **Tooltip** section. Turn the tooltip option **On** and then select your tooltip page from the **Page** list.
 
 When you hover over the visual, the tooltip will display.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the visualization displaying the tooltip.](../media/4-display-tooltip-ssm.png)](../media/4-display-tooltip-ssm.png#lightbox)
+> [![Display tooltip](../media/4-display-tooltip-ssm.png)](../media/4-display-tooltip-ssm.png#lightbox)
+

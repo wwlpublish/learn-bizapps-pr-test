@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-tableau-calculations.2-calculated-columns-measures 
+title: Understanding calculated columns and measures
+metadata: 
+  title: Understanding calculated columns and measures
+  description: Learn to create conditional columns and perform arithmetic between columns.
+  ms.date: 03/31/2021 
+  author: heyrob 
+  ms.author: robde 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+durationInMinutes: 13
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/2-calculated-columns-measures.md)] 

@@ -12,7 +12,7 @@ In this exercise, you will:
 
 ### Attach to an Excel file and add headers
 
-To begin, download and open the **Customers.xlsx** file. Then, follow these steps to attach to this running Excel file:
+To begin, download [**Customers.xlsx**](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-automate-desktop/Customers.zip). Select **Download** on the right. Extract the Excel file to your local computer. Then, follow these steps to attach to this running Excel file:
 
 1. Create a new process and then add the **Attach to running Excel** action.
 

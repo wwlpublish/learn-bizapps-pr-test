@@ -14,4 +14,4 @@ In this module, you will:
 
 ## Prerequisites
 
-* Basic familiarity with the Power Automate Desktop process designer
+* Basic familiarity with the Power Automate Desktop flow designer

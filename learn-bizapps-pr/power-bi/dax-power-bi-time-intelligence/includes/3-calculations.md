@@ -11,17 +11,17 @@ Your first task is to add the following measure definition that counts the numbe
 ```dax
 Customers LTD =
 VAR CustomersLTD =
-	CALCULATE(
-		DISTINCTCOUNT(Sales[CustomerKey]),
-		DATESBETWEEN(
-			'Date'[Date],
-			BLANK(),
-			MAX('Date'[Date])
-		),
-		'Sales Order'[Channel] = "Internet"
-	)
+    CALCULATE(
+        DISTINCTCOUNT(Sales[CustomerKey]),
+        DATESBETWEEN(
+            'Date'[Date],
+            BLANK(),
+            MAX('Date'[Date])
+        ),
+        'Sales Order'[Channel] = "Internet"
+    )
 RETURN
-	CustomersLTD
+    CustomersLTD
 ```
 
 Add the **Customers LTD** measure to the matrix visual. Notice that it produces a result of distinct customers LTD until the end of each month.
@@ -36,31 +36,31 @@ Next, you will modify the measure by renaming it to **New Customers** and by ad
 ```dax
 New Customers =
 VAR CustomersLTD =
-	CALCULATE(
-		DISTINCTCOUNT(Sales[CustomerKey]),
-		DATESBETWEEN(
-			'Date'[Date],
-			BLANK(),
-			MAX('Date'[Date])
-		),
-		'Sales Order'[Channel] = "Internet"
-	)
+    CALCULATE(
+        DISTINCTCOUNT(Sales[CustomerKey]),
+        DATESBETWEEN(
+            'Date'[Date],
+            BLANK(),
+            MAX('Date'[Date])
+        ),
+        'Sales Order'[Channel] = "Internet"
+    )
 VAR CustomersPrior =
-	CALCULATE(
-		DISTINCTCOUNT(Sales[CustomerKey]),
-		DATESBETWEEN(
-			'Date'[Date],
-			BLANK(),
-			MIN('Date'[Date]) - 1
-		),
-		'Sales Order'[Channel] = "Internet"
-	)
+    CALCULATE(
+        DISTINCTCOUNT(Sales[CustomerKey]),
+        DATESBETWEEN(
+            'Date'[Date],
+            BLANK(),
+            MIN('Date'[Date]) - 1
+        ),
+        'Sales Order'[Channel] = "Internet"
+    )
 RETURN
-	CustomersLTD - CustomersPrior
+    CustomersLTD - CustomersPrior
 ```
 
 > [!div class="mx-imgBorder"]
-> [![An image shows a matrix visual with grouping on Year and Month on the rows and Revenue, Revenue YTD, Revenue YoY %, and New Customers. The New Customers values are highlighted.](../media/dax-matrix-new-customers-ssm.png)](../media/dax-matrix-new-customers-ssm.png#lightbox)
+> [![Screenshot of a matrix visual with grouping on Year and Month on the rows and Revenue, Revenue YTD, Revenue YoY %, and New Customers.](../media/dax-matrix-new-customers-ssm.png)](../media/dax-matrix-new-customers-ssm.png#lightbox)
 
 For the **CustomersPrior** variable, notice that the DATESBETWEEN function includes dates until the first date in filter context *minus* one. Because Microsoft Power BI internally stores dates as numbers, you can add or subtract numbers to shift a date.
 
@@ -75,14 +75,14 @@ When you are summarizing snapshot tables, measure formulas can rely on DAX time 
 In the following example, you will explore a scenario for the Adventure Works company. Switch to model view and select the **Inventory** model diagram.
 
 > [!div class="mx-imgBorder"]
-> [![An image shows a model diagram that consists of three tables: Product, Date, and Inventory. The Product and Date tables each have a one-to-many relationship to the Inventory table.](../media/dax-model-diagram-inventory-ss.png)](../media/dax-model-diagram-inventory-ss.png#lightbox)
+> [![Screenshot of a three-table model diagram. The Product and Date tables each have a one-to-many relationship to the Inventory table.](../media/dax-model-diagram-inventory-ss.png)](../media/dax-model-diagram-inventory-ss.png#lightbox)
 
 Notice that the diagram shows three tables: Product, Date, and Inventory. The Inventory table stores snapshots of unit balances for each date and product. Importantly, the table contains no missing dates and no duplicate entries for any product on the same date. Also, the last snapshot record is stored for the date of June 15, 2020.
 
 Now, switch to report view and select **Page 2** of the report. Add the **UnitsBalance** column of the Inventory table to the matrix visual. Its default summarization is set to sum values.
 
 > [!div class="mx-imgBorder"]
-> [![An image shows a matrix visual titled FY2020 Mountain-200 Bike Stock. It has Product grouped on the rows and Month grouped on the columns. High values are shown for each product and month.](../media/dax-matrix-mountain-200-bike-stock-1-ss.png)](../media/dax-matrix-mountain-200-bike-stock-1-ss.png#lightbox)
+> [![Screenshot of a Mountain-200 Bike Stock matrix with Product grouped on the rows and Month grouped on the columns.](../media/dax-matrix-mountain-200-bike-stock-1-ss.png)](../media/dax-matrix-mountain-200-bike-stock-1-ss.png#lightbox)
 
 This visual configuration is an example of how not to summarize a snapshot value. Adding daily snapshot balances together doesn't produce a meaningful result. Therefore, remove the **UnitsBalance** field from the matrix visual.
 
@@ -91,8 +91,8 @@ Now, you will add a measure definition that sums the **UnitsBalance** value *for
 ```dax
 Stock on Hand =
 CALCULATE(
-	SUM(Inventory[UnitsBalance]),
-	LASTDATE('Date'[Date])
+    SUM(Inventory[UnitsBalance]),
+    LASTDATE('Date'[Date])
 )
 ```
 
@@ -102,7 +102,7 @@ CALCULATE(
 Add the **Stock on Hand** measure to the matrix visual. The value for each product is now based on the last recorded units balance for each month.
 
 > [!div class="mx-imgBorder"]
-> [![An image shows a matrix visual titled FY2020 Mountain-200 Bike Stock. It has Product grouped on the rows and Month grouped on the columns. Lower values are shown for each product and month. June 2020 and the Total are BLANK.](../media/dax-matrix-mountain-200-bike-stock-2-ss.png)](../media/dax-matrix-mountain-200-bike-stock-2-ss.png#lightbox)
+> [![Screenshot of the Mountain-200 Bike Stock matrix with Product grouped on the rows and Month grouped on the columns.](../media/dax-matrix-mountain-200-bike-stock-2-ss.png)](../media/dax-matrix-mountain-200-bike-stock-2-ss.png#lightbox)
 
 The measure returns BLANKs for June 2020 because no record exists for the last date in June. According to the data, it hasn't happened yet.
 
@@ -115,11 +115,11 @@ Use the following measure definition to modify the **Stock on Hand** measure.
 ```dax
 Stock on Hand =
 CALCULATE(
-	SUM(Inventory[UnitsBalance]),
-	LASTNONBLANK(
-		'Date'[Date],
-		CALCULATE(SUM(Inventory[UnitsBalance]))
-	)
+    SUM(Inventory[UnitsBalance]),
+    LASTNONBLANK(
+        'Date'[Date],
+        CALCULATE(SUM(Inventory[UnitsBalance]))
+    )
 )
 ```
 

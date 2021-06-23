@@ -38,7 +38,7 @@ Play a sound at any point during the flow with the **Play sound** action. Set th
 
 Permanently delete all contents of the recycle bin using the **Empty recycle bin** action. This action contains no editable properties.
 
-Take a screenshot of the specified screen, all screens, or the foreground window only with the **Take screenshot** action. Save the image file can be saved to the clipboard or to a file. To save the screenshot to a file, specify a path and image format.
+Take a screenshot of the specified screen, all screens, or the foreground window only with the **Take screenshot** action. Copy the image file to the clipboard or save it to a file. To save the screenshot to a file, specify a path and image format.
 
 ![Screenshot of the take screenshot action properties.](..\media\take-screenshot-action-properties.png)
 
@@ -50,7 +50,7 @@ To ping a remote computer, use the **Ping** action. Specify the remote computer 
 
 ![Screenshot of the ping action properties.](..\media\ping-action-properties.png)
 
-Set environment variables with the **Set environment Variable** action. Specify an environment variable, a value to set, and a type (user or system). The **Get environment variable** action retrieves the value of the specified variable name and store it into a variable. The **Delete environment variable** action deletes the variable with the specified name and type.
+Set Windows environment variables with the **Set Windows environment variable** action. Specify an environment variable, a value to set, and a type (user or system). The **Get Windows environment variable** action retrieves the value of the specified variable name and store it into a variable. The **Delete Windows environment variable** action deletes the variable with the specified name and type.
 
 ![Screenshot of the set environment variable action properties.](..\media\set-environment-variable-action-properties.png)
 

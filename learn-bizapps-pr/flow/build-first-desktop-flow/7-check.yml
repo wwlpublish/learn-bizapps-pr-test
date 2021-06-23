@@ -1,0 +1,54 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.build-first-desktop-flow.7-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 03/31/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-automate 
+durationInMinutes: 2 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What indications do you have that your actions are recording appropriately?
+    choices: 
+    - content: A red outline will show before you make the selection, and a blue highlight will show afterward.
+      isCorrect: true 
+      explanation: Take a few seconds between actions to ensure that the red outline and blue highlight appear to verify appropriate recording.
+    - content: A red recording button will be visible on the screen.
+      isCorrect: false 
+      explanation: A red recording button is not visible on the screen, but a pause button is provided.
+    - content: A pop-up window will indicate that the recording has started.
+      isCorrect: false 
+      explanation: The recording pane will be visible, but not a pop-up window.
+    - content: Power Automate Desktop will minimize so that you can see your whole screen.
+      isCorrect: false 
+      explanation: The recording pane will be visible unless it's manually minimized so that you can see the actions as you record them.
+  - content: Which of the following actions can you not perform within Power Automate designer?
+    choices: 
+    - content: Edit your previously recorded actions.
+      isCorrect: false
+      explanation: You can edit or delete your actions in the designer.
+    - content: Delete previously recorded actions.
+      isCorrect: false 
+      explanation: You can edit or delete your actions in the designer. You can also delete actions from the record screen.
+    - content: Record keyboard shortcuts that are used for navigation.
+      isCorrect: true 
+      explanation: The recorder needs you to select the specific field that you want to edit rather than using keyboard shortcuts.
+    - content: Pause your recording to perform unrecorded actions.
+      isCorrect: false 
+      explanation: You can pause your recording, which is recommended over canceling and starting over.
+  - content: Other than recording, how do you add actions to your flow?
+    choices: 
+    - content: Query a data table that you have created with the correct steps.
+      isCorrect: false
+      explanation: To add actions to your flow, you can record them or select the desired action and then drag it to the Main canvas.
+    - content: Select the desired action and drag it to the main canvas.
+      isCorrect: true 
+      explanation: To add actions to your flow, you can record them or select the desired action and then drag it to the Main canvas.
+    - content: Set your action to published.
+      isCorrect: false 
+      explanation: To add actions to your flow, you can record them or select the desired action and then drag it to the Main canvas.

@@ -9,6 +9,8 @@ You'll use a template that starts an approval process whenever a new item is cre
 First, let's create the SharePoint list.
 
 1. On your SharePoint site, create a SharePoint list named *ContosoTweets*.
+    >[!NOTE]
+    >If you are not familiar with creating a SharePoint list, more detailed steps are available here: [Create a list](https://support.microsoft.com/en-us/office/create-a-list-0d397414-d95f-41eb-addd-5e6eff41b083)
 
 2. Open the list, and select **Add column**.
 
@@ -92,12 +94,6 @@ Power Automate helps users to manage their approvals through the approval center
 
 ## Export the flow
 
-Now that you have built a flow, you can also export the flow. When exporting a flow, you can either export to a package or a Logic Apps template. Both options are available from the flow details page.
+Now that you have built a flow, you can also export the flow. You can export the flow from the flow details page.
 
-When you export to a package you can then send the resulting zip file to a co-worker in the same tenant to import or to someone in another tenant. The wizard will then walk them through importing the package and connecting it to their specific data sources.
-
-When you export to a Logic Apps template, you can go to Azure Logic Apps and import the template. 
-Logic Apps can then be used to run the logic you created in the flow or can be used to extend the 
-logic using Azure Logic Apps specific functionality. Azure Logic Apps is the engine that Power Automate 
-flows are built upon. You can read more about exporting your flows to Logic Apps here: 
-<https://docs.microsoft.com/azure/logic-apps/export-from-microsoft-flow-logic-app-template>
+When you export to a package, you can then send the resulting zip file to a co-worker in the same tenant to import or to someone in another tenant. The wizard will then walk them through importing the package and connecting it to their specific data sources.

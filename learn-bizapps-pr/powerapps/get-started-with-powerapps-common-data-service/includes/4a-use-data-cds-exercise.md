@@ -18,20 +18,20 @@ customers for your app.
 1. Select **New table**.
 1. Enter the following information:
 	- **Display name**: *Prospects*
-1. In the Primary column section, enter the following information:
+1. In the Primary Name column section, enter the following information:
 	- **Display name**: *Prospect Name*
 1. Select **Create**.
 1. Select **Add column**.
 1. Enter the following information:
 	- **Display name**: *Stage*
-	- **Data Type**: *Option Set*
-1. For **Option Set**, Select the dropdown and select **New option set**. Enter the following information and Select **Save**.
+	- **Data Type**: *Choice*
+1. For **choice**, Select the dropdown and select **New choice**. Enter the following information and Select **Save**.
 	- **Display name**: *Prospect Stage*
 	- **Name**: *prospectstage*
 	- Add the following items/options: **Lead**, **Opportunity**, **Won**, **Lost**		
-1. Once the option set has saved, continue entering the following information for the new column:
+1. Once the choice has saved, continue entering the following information for the new column:
 	- **Default value**: *Lead*
-	- Check **Required**
+	- Change **Required** dropdown to **Required**
 1. Select **Done**.
 1. Select **Add column**.
 1. Enter the following information and then Select **Done**.
@@ -49,10 +49,10 @@ customers for your app.
 	- Select **+Add** for Calculated or Rollup
 	- Select **+Calculation**
 1. On the popup, Select **Save**.
-1. A new browser window will open. Select **Add action**.
-1. Enter the following formula, but do not copy and paste, type it in as your column names will not be exactly the same as the example below.  The crXXX_ is likely to be different than below.
+1. A new browser window will open. Select **Add action** near the bottom.
+1. Enter the following formula, but do not copy and paste, type it in as your column names will not be exactly the same as the example below since the **crXXX_** will be specific numbers and letters that define your environment. The formula entry will auto-suggest you options as you start to type the column names.
 
-	```cree0_contractamount * (cree0_probability / 100)```
+	```crXXX_contractamount * (crXXX_probability / 100)```
 1. Select the checkmark to save your changes. You may need to scroll right to see it.
 1. Select **SAVE AND CLOSE**.
 1. Select **Done**.

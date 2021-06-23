@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.integration-http-connector.3-list-item 
+title: Use Power Automate to change a SharePoint list
+metadata: 
+  title: Use Power Automate to change a SharePoint list 
+  description: Learn how to add, edit, delete, and read SharePoint list items. 
+  ms.date: 04/28/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-automate 
+durationInMinutes: 3 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/3-list-item.md)] 

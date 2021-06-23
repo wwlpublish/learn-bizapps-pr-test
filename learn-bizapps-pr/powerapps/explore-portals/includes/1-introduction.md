@@ -40,8 +40,8 @@ All portal templates are built on a common foundation (portal base) and include 
 
 - Ability to configure the portal by using the Portal studio.
 - Content management, including content publishing, design, theming, search, multi-lingual support, and templating.
-- Extensibility that is built on webpages, templates, entity forms, entity lists, and more. 
-- Security that is based on identity management, integration with authentication providers, web roles, content permissions, and entity permissions.
+- Extensibility that is built on webpages, templates, table forms, table lists, and more. 
+- Security that is based on identity management, integration with authentication providers, web roles, content permissions, and table permissions.
 - Common features like ads, polls, ratings, and comments. These features are not standalone and can be used throughout other parts of the implementation. For example, ratings and comments can be enabled for a page, and ads can be included as part of a template. Some features will require Dynamics 365 apps to be enabled. For example, knowledge articles require a Microsoft Dynamics 365 app.
 
 Where the portal templates are different is around the functional areas that target *specific business processes* such as case management. These features are deployed as additional managed solutions, making it easier to add missing features if necessary.
@@ -87,4 +87,4 @@ Other solutions add features to the portal that can greatly enhance user experie
 - Click to call
 - Customer journey tracking
 
-Alternatively, Power Platform and Dynamics 365 independent software vendors and partners that offer Power Platform and Dynamics 365 vertical solutions might often include portal extensions that are designed for their solution needs. When you are working with a vendor who offers portals as part of their overall solution, it would be sensible to discuss portal requirements and the portal template selection beforehand.
+Alternatively, Microsoft Power Platform and Dynamics 365 independent software vendors and partners that offer Microsoft Power Platform and Dynamics 365 vertical solutions might often include portal extensions that are designed for their solution needs. When you are working with a vendor who offers portals as part of their overall solution, it would be sensible to discuss portal requirements and the portal template selection beforehand.

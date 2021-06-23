@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-admin-automate.8-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/30/2021 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which BI REST API operations group supports automating tasks for working with administrative tasks?
+    choices: 
+    - content: Apps
+      isCorrect: false
+      explanation: Apps, Users are REST APIs designed to automate tasks associated with APPs and Users. Tasks is not a REST API currently defined or available.
+    - content: Admin
+      isCorrect: true 
+      explanation: The admin operations group is designed to help automate common administrative tasks. 
+    - content: Users
+      isCorrect: false 
+      explanation: Apps, Users are REST APIs designed to automate tasks associated with APPs and Users. Tasks is not a REST API currently defined or available.
+    - content: Tasks
+      isCorrect: false 
+      explanation: Apps, Users are REST APIs designed to automate tasks associated with APPs and Users. Tasks is not a REST API currently defined or available.
+  - content: A cmdlet is a single command that participates in the pipeline semantics of PowerShell and performs an action that typically returns what type of object to the next command in the pipeline.
+    choices: 
+    - content: Microsoft .NET
+      isCorrect: true 
+      explanation: A cmdlet typically returns a Microsoft.NET object to the next command in the pipeline.
+    - content: Advance script
+      isCorrect: false 
+      explanation: A cmdlet is a single command that participates in the pipeline semantics of PowerShell and typically returns a Microsoft.NET object to the next command in the pipeline. Examples of PowerShell advanced functions are advanced script functions, CDXML, and workflows.
+    - content: CDXML
+      isCorrect: false 
+      explanation: A cmdlet is a single command that participates in the pipeline semantics of PowerShell and typically returns a Microsoft.NET object to the next command in the pipeline. Examples of PowerShell advanced functions are advanced script functions, CDXML, and workflows.
+    - content: Workflow
+      isCorrect: false 
+      explanation: A cmdlet is a single command that participates in the pipeline semantics of PowerShell and typically returns a Microsoft.NET object to the next command in the pipeline. Examples of PowerShell advanced functions are advanced script functions, CDXML, and workflows.
+  - content: In what resource can you find a list of available Power BI cmdlets?
+    choices: 
+    - content: My workspace
+      isCorrect: false
+      explanation: My workspace stores all the content that you own and create. REST API is an API that provides a RESTful set of web services enabling you to create, retrieve, update, and delete Power BI capacities. AppSource provides access to datasets, reports, and dashboards from several popular SaaS solutions such as Salesforce and Google analytics.
+    - content: REST API database
+      isCorrect: false 
+      explanation: My workspace stores all the content that you own and create. REST API is an API that provides a RESTful set of web services enabling you to create, retrieve, update, and delete Power BI capacities. AppSource provides access to datasets, reports, and dashboards from several popular SaaS solutions such as Salesforce and Google analytics.
+    - content: PowerShell Gallery
+      isCorrect: true 
+      explanation: Cmdlets are available on PowerShell Gallery.
+    - content: AppSource
+      isCorrect: false 
+      explanation: My workspace stores all the content that you own and create. REST API is an API that provides a RESTful set of web services enabling you to create, retrieve, update, and delete Power BI capacities. AppSource provides access to datasets, reports, and dashboards from several popular SaaS solutions such as Salesforce and Google analytics.
+  - content: What is a primary reason you would use scripting to automate common Power BI administrative tasks?
+    choices: 
+    - content: Reduce system production overhead
+      isCorrect: false
+      explanation: A primary reason for automating common admin tasks is to support the implementation of governance policies. Reducing system overhead or optimizing system performance is better achieved through proper system setup or configuration. Lessening your workload is an admirable ambition but should not be a priority.
+    - content: Implement governance policies
+      isCorrect: true 
+      explanation: Automating common administrative tasks supports the implementation of governance policies.
+    - content: Lessen your workload
+      isCorrect: false 
+      explanation: A primary reason for automating common admin tasks is to support the implementation of governance policies. Reducing system overhead or optimizing system performance is better achieved through proper system setup or configuration. Lessening your workload is an admirable ambition but should not be a priority.
+    - content: Optimize your Power BI system performance
+      isCorrect: false 
+      explanation: A primary reason for automating common admin tasks is to support the implementation of governance policies. Reducing system overhead or optimizing system performance is better achieved through proper system setup or configuration. Lessening your workload is an admirable ambition but should not be a priority.

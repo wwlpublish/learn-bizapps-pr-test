@@ -1,14 +1,13 @@
 ## Access your environment
 
-Before you start this lab, select **Launch lab** above. 
+Before you start this lab (unless you are continuing from a previous lab), select **Launch lab** above.
 
-To log in to your lab environment:
+You are automatically logged in to your lab environment as data-ai\student.
 
-1.	Click anywhere on the Windows desktop in the lab window.
-2.	On the **Resources** tab on the lab side bar, select the **T** icon next to **Password**. The machine password is automatically entered for you. You can log in with the Student profile.
-3.	Press **Enter**.
+You can now begin your work on this lab.
 
-
-   ![Image of the lab password on the Resources tab.](../includes/vm-login.png)
-
-You can now begin your work on this lab. 
+> [!TIP]
+> To dock the lab environment so that it fills the window, select the PC icon at the top and then select **Fit Window to Machine**.
+>
+> [!div class="mx-imgBorder"]
+> [![Screenshot of the lab with the PC icon selected and the Fit Window to Machine option highlighted.](./fit-window.png)](./fit-window.png#lightbox)

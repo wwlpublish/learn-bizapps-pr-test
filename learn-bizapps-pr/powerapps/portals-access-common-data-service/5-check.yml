@@ -13,7 +13,7 @@ durationInMinutes: 4
 quiz: 
   title: Answer the following questions to see what you've learned. 
   questions: 
-  - content: Which one of the following options is not a valid entity list view?
+  - content: Which one of the following options is not a valid table list view?
     choices: 
     - content: Map view
       isCorrect: false 
@@ -27,15 +27,15 @@ quiz:
     - content: Grid list view
       isCorrect: false 
       explanation: Views can be rendered as traditional grid lists, a calendar, or a map. Delivering list content as an OData feed is also supported.
-  - content: You have created a Contact Us entity form and want to redirect users to a Thank You page after successful submission. How can you achieve this task?
+  - content: You have created a Contact Us table form and want to redirect users to a Thank You page after successful submission. How can you achieve this task?
     choices: 
-    - content: Change the entity form title to "Contact Us - Thank You."
+    - content: Change the table form title to "Contact Us - Thank You."
       isCorrect: false 
       explanation: The On Success Settings feature defines behavior on successful submission of the form. Options are to display a message or redirect to another page or URL.
-    - content: Set the Entity Form field on the Thank You page to the Contact Us entity form.
+    - content: Set the Table Form column on the Thank You page to the Contact Us table form.
       isCorrect: false 
       explanation: The On Success Settings feature defines behavior on successful submission of the form. Options are to display a message or redirect to another page or URL.
-    - content: Add a redirect step to the entity form.
+    - content: Add a redirect step to the table form.
       isCorrect: false 
       explanation: The On Success Settings feature defines behavior on successful submission of the form. Options are to display a message or redirect to another page or URL.
     - content: Configure On Success Settings to redirect to the Thank You page.
@@ -59,13 +59,13 @@ quiz:
     choices: 
     - content: Enable the search property on the list component in portals Studio.
       isCorrect: false 
-      explanation: Enabling the search property will only provide the quick find search box. Adding the Option Set field to the view is not the best way to find the data. The metadata searching option is the best solution for allowing users to filter on specific option set values. Increasing the number of records for each page will not help users locate data.
-    - content: Add the Option Set field to the model-driven view to allow portal visitors to sort by the value.
+      explanation: Enabling the search property will only provide the quick find search box. Adding the Option Set column to the view is not the best way to find the data. The metadata searching option is the best solution for allowing users to filter on specific option set values. Increasing the number of records for each page will not help users locate data.
+    - content: Add the Option Set column to the model-driven view to allow portal visitors to sort by the value.
       isCorrect: false 
-      explanation: Enabling the search property will only provide the quick find search box. Adding the Option Set field to the view is not the best way to find the data. The metadata searching option is the best solution for allowing users to filter on specific option set values. Increasing the number of records for each page will not help users locate data.
-    - content: In the Portal Management app, enable Metadata searching and configure a filter for the Option Set field.
+      explanation: Enabling the search property will only provide the quick find search box. Adding the Option Set column to the view is not the best way to find the data. The metadata searching option is the best solution for allowing users to filter on specific option set values. Increasing the number of records for each page will not help users locate data.
+    - content: In the Portal Management app, enable Metadata searching and configure a filter for the Option Set column.
       isCorrect: true 
-      explanation: Enabling the search property will only provide the quick find search box. Adding the Option Set field to the view is not the best way to find the data. The metadata searching option is the best solution for allowing users to filter on specific option set values. Increasing the number of records for each page will not help users locate data.
+      explanation: Enabling the search property will only provide the quick find search box. Adding the Option Set column to the view is not the best way to find the data. The metadata searching option is the best solution for allowing users to filter on specific option set values. Increasing the number of records for each page will not help users locate data.
     - content: In portals Studio, increase the number of records for each page.
       isCorrect: false 
-      explanation: Enabling the search property will only provide the quick find search box. Adding the Option Set field to the view is not the best way to find the data. The metadata searching option is the best solution for allowing users to filter on specific option set values. Increasing the number of records for each page will not help users locate data.
+      explanation: Enabling the search property will only provide the quick find search box. Adding the Option Set column to the view is not the best way to find the data. The metadata searching option is the best solution for allowing users to filter on specific option set values. Increasing the number of records for each page will not help users locate data.

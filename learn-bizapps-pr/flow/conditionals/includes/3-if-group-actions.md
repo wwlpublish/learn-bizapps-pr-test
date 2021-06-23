@@ -161,4 +161,4 @@ Close Excel
 Save the Excel document and close the Excel Instance stored into %ExcelInstance%
 ```
 
-Now, in case of unexpected input, the maximum time will be designated as Undefined.
+Now, in case of unexpected input, the maximum time will be designated as Unspecified.

@@ -34,7 +34,7 @@ You have connected to your **Excel** table in **OneDrive for Business** list, an
 
 3.  Select the **Image, title, subtitle, and body** layout.
 
-4.  In the properties pane on the right, select the Edit button for the **Fields** property and set the following points:
+4.  In the properties pane on the right, select the Edit button for the **columns** property and set the following points:
 
     -   **Body1**: Description
 
@@ -109,11 +109,11 @@ You have now configured and interacted with the data in your gallery.
 
     **SearchInput.Text** - This retrieves the text typed into the *SearchInput* text input control.
 
-    **"Name"** - Represents the field or column where the search is made
+    **"Name"** - Represents the column or column where the search is made
 
     This will return all the records where the *Name* column contained the value entered in the Text Input control *SearchInput*.
 
-4.  If you wanted to search more than one field, you can append the field names at the end of the expression.
+4.  If you wanted to search more than one column, you can append the column names at the end of the expression.
 
     ```powerappsfl
     Search(Items, SearchInput.Text, "Name", "Description")
@@ -167,11 +167,11 @@ Within Power Apps, you can utilize the concept of using one function to supply i
 
     This means that the Data Source for the table is the **ItemsCollection** collection and not the **Items** table in the Excel sheet.
 
-4.  In the properties pane on the right, select the **Edit fields** button for the **Fields** property.
+4.  In the properties pane on the right, select the **Edit columns** button for the **columns** property.
 
-5.  Select **+ Add field**
+5.  Select **+ Add column**
 
-6.  Select all available fields and then select **Add**
+6.  Select all available columns and then select **Add**
 
 7.  Select the X towards the right of **Data** to exit
 

@@ -1,0 +1,15 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.introduction-return-workplace-solution.1-introduction 
+title: Introduction 
+metadata: 
+  title: Introduction  
+  description: Introduction to the Return to the Workplace solution features and benefits.  
+  ms.date: 04/05/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-d365-return-workplace 
+durationInMinutes: 3 
+content: | 
+ [!include[](../includes/unit-banner.md)] 
+ [!include[](includes/1-introduction.md)] 

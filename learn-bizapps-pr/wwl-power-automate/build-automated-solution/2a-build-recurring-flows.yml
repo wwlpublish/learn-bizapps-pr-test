@@ -4,12 +4,12 @@ title: Build recurring flows
 metadata:
   title: Build recurring flows
   description: "Build recurring flows"
-  ms.date: 03/02/2021
+  ms.date: 05/18/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 azureSandbox: false
-durationInMinutes: 8
+durationInMinutes: 10
 content: |
   [!include[](includes/2a-build-recurring-flows.md)]

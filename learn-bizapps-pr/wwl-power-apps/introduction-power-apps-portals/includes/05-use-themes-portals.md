@@ -31,10 +31,10 @@ You can set any existing theme in your portal to the default theme.
 
     ![Select theme icon](../media/edit-theme.png)
 
-5.  Select any default theme from the available presets (in this example, we
-    selected Green).
+5.  Select any default theme from the available presets (in this example, we selected Blue).
 
-    ![Select a default theme](../media/choose-theme.png)
+    >[!div class="mx-imgBorder"]
+    >![Select a default theme](../media/choose-theme.png)
 
 The selected theme is applied to your portal.
 
@@ -50,7 +50,8 @@ The selected theme is applied to your portal.
 
 5.  Select **New Theme**.
 
-    ![Create a new theme](../media/create-new-theme.png)
+    >[!div class="mx-imgBorder"]
+    >![Create a new theme](../media/create-new-theme.png)
 
 ## Edit theme details
 
@@ -69,7 +70,8 @@ Power Apps Studio.
     presets. Selecting a theme opens the details pane on the right side of your
     workspace.
 
-    ![Theme details](../media/theme-details.png)
+    >[!div class="mx-imgBorder"]
+    >![Theme details](../media/theme-details.png)
 
 6.  Edit theme details such as name, description, and color for different areas.
 

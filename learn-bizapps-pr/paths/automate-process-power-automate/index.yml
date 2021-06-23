@@ -3,7 +3,7 @@ uid: learn-bizapps.automate-process-using-flow
 metadata:
   title: Automate a business process using Power Automate
   description: This learning path introduces you to Power Automate, teaches you how to build workflows, and how to administer flows. 
-  ms.date:  02/03/2019
+  ms.date: 02/03/2019
   author: KevSch
   ms.author: kschimke
   ms.topic: interactive-tutorial
@@ -13,7 +13,7 @@ summary: |
   [!include[](../../includes/lp-banner.md)]
   This learning path introduces you to Power Automate, teaches you how to build workflows, and how to administer flows. 
 
-  This learning path can help you prepare for the [Microsoft Certified: Power Platform App Maker Associate certification](https://docs.microsoft.com/learn/certifications/power-platform-app-maker).
+  This learning path can help you prepare for the [Microsoft Certified: Microsoft Power Platform App Maker Associate certification](https://docs.microsoft.com/learn/certifications/power-platform-app-maker).
 
 prerequisites: |
   - Familiarity with SharePoint, OneDrive, and Excel. 
@@ -32,8 +32,8 @@ modules:
 - learn-bizapps.flow-get-started
 - learn-bizapps.flow-build-more
 - learn-bizapps.flow-administration
-- learn.wwl.implement-rpa-power-automate-ui-flows-ai-builder
-- learn-bizapps.ai-builder-power-automate 
+- learn-bizapps.ai-builder-power-automate
+- learn-bizapps.business-process-optimization-process-advisor 
 trophy:
   uid: learn.automate-process-using-flow.trophy
 

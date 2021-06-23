@@ -4,12 +4,12 @@ title: Data modeling and visualizations
 metadata:
   title: Data modeling and visualizations
   description: "Data modeling and visualizations"
-  ms.date: 03/02/2021
+  ms.date: 04/21/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-azure
 azureSandbox: false
-durationInMinutes: 10
+durationInMinutes: 12
 content: |
   [!include[](includes/2a-data-modeling-visualizations.md)]

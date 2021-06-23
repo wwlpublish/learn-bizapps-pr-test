@@ -29,7 +29,7 @@ For example, assume that you work as a Microsoft Power BI developer for Tailwind
 
 The data model produces a report that has received negative feedback from users. The users are happy with the results that they see in the report, but they are not satisfied with the report performance. Loading the pages in the report is taking too long, and tables are not refreshing quickly enough when certain selections are made. In addition to this feedback, the IT team has highlighted that the file size of this particular data model is too large, and it is putting a strain on the organization's resources.
 
-You need to review the data model to identify the root cause of the performance issues and make changes to optimize performance.
+You need to review the data model to identify the root cause of the performance issues and make changes to optimization performance.
 
 By the end of this module, you will be able to:
 

@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.portals-access-common-data-service.4-exercise 
-title: Exercise - Use an entity list and entity form
+title: Exercise - Use a table list and table form
 metadata: 
-  title: Exercise - Use an entity list and entity form 
-  description: Learn how to use an entity list and entity form.  
+  title: Exercise - Use a table list and table form 
+  description: Learn how to use a table list and table form.  
   ms.date: 07/10/2020 
   author: DaveBeasley 
   ms.author: dbeasley 

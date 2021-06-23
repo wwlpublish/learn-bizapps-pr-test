@@ -12,11 +12,11 @@ The targeted person for configuring roles and permissions should:
 
 - Understand which users must have access to which features.
 
-- Have good knowledge of the Power Platform's role-based access control.
+- Have good knowledge of Microsoft Power Platform's role-based access control.
 
 Makers are usually a good fit for this task.
 
-The **Document automation starter kit** provides a basic implementation of role-based access control allowing you to control features available to each persona described in the previous unit, the manual reviewer, and the process owner.
+The **Document automation base kit** provides a basic implementation of role-based access control allowing you to control features available to each persona described in the previous unit, the manual reviewer, and the process owner.
 
 The features available in the validation application by each persona are summarized in the table.
 
@@ -40,7 +40,7 @@ The features available in the validation application by each persona are summari
 
 ## Configuring roles
 
-1. Open the [Power Platform Admin center](https://tip.admin.powerplatform.microsoft.com/) and select your environment, then select **Settings** on the top.
+1. Open the [Microsoft Power Platform Admin center](https://tip.admin.powerplatform.microsoft.com/) and select your environment, then select **Settings** on the top.
 
     > [!div class="mx-imgBorder"]
     > [![List of saved environments.](../media/3-environment.png)](../media/3-environment.png#lightbox)
@@ -73,6 +73,28 @@ Follow the module [Get started with Form processing in AI Builder](https://docs.
 
 > [!TIP]
 > To create an AI Builder model, you need at least 5 samples of documents. If your suppliers send documents with various layouts, you should consider creating one collection per document type in the model.
+
+## Optionally configure rules on received emails
+
+You can customize the way emails are processed by selecting **View Solution**.
+
+> [!div class="mx-imgBorder"]
+> [![Screenshot of Power Automate Document automation page with the View solution button in the Custom documents section.](../media/3-select.png)](../media/3-select.png#lightbox)
+
+1. Select "Document automation base kit."
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Power Automate Solutions page with the Document automation base kit selected.](../media/3-solutions.png)](../media/3-solutions.png#lightbox)
+
+1. Then select “Document Automation Email Importer” and **Edit** in the top banner.
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of Power Automate My flows page with the Document Automation Email Importer open.](../media/3-importer.png)](../media/3-importer.png#lightbox)
+
+1. You are in the authoring experience of the email importer flow. Here you can configure the email rules to filter on the specific emails that you want to process. You must keep the “include attachments” property set to “Yes” as this flow takes the document on attachment as the document to be processed. But you can configure filters on the topic, senders, and so on, based on your needs.  
+
+    > [!div class="mx-imgBorder"]
+    > [![Screenshot of the settings in the "When a new email arrives" step that flows into the "For each attachment" step.](../media/3-email.png)](../media/3-email.png#lightbox)
 
 ## Configuring the model to use
 

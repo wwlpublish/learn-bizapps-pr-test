@@ -1,23 +1,23 @@
 ### YamlMime:Module 
 uid: learn-bizapps.security-governance-intro 
 metadata: 
- title: Introduction to Power Platform security and governance  
- description: Learn how to secure and govern Power Platform apps.
- ms.date: 01/05/2020  
+ title: Introduction to Microsoft Power Platform security and governance  
+ description: Learn how to secure and govern Microsoft Power Platform apps.
+ ms.date: 3/09/2020
  author: DaveBeasley 
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-platform  
-title: Introduction to Power platform security and governance   
+title: Introduction to Microsoft Power Platform security and governance   
 summary: |  
   [!include[](../includes/module-banner.md)] 
-  Do you want to learn about how to help secure and govern Power Platform apps like Power Automate and Power Apps? This module focuses on introducing Power Platform environments and their role in creating Data Loss Prevention (DLP) policies by using examples and use cases. A brief introduction and overview of tools will also be discussed, including Power Platform and Power Automate Admin experiences and the Power Platform Center of Excellence (COE) toolkit.
+  Do you want to learn about how to help secure and govern Microsoft Power Platform apps like Power Automate and Power Apps? This module focuses on introducing Microsoft Power Platform environments and their role in creating Data Loss Prevention (DLP) policies by using examples and use cases. A brief introduction and overview of tools will also be discussed, including Microsoft Power Platform and Power Automate Admin experiences and Microsoft Power Platform Center of Excellence (COE) toolkit.
 abstract: |  
     In this module, you will: 
-    - Access the Power Platform admin experiences.
+    - Access Microsoft Power Platform admin experiences.
     - Create simple environment and tenant-wide DLP policies.
     - Discover and identify the differences between the Business data group and the No-business data group.
-    - Learn about the differences between out-of-the-box Power Automate Admin experiences and the Power Platform Center of Excellence toolkit.
+    - Learn about the differences between out-of-the-box Power Automate Admin experiences and Microsoft Power Platform Center of Excellence toolkit.
 prerequisites: A basic understanding of Power Apps and Power Automate, including their purpose and how these tools are used within an organization.  
 iconUrl: /learn/achievements/security-governance-intro.svg  
 levels:  

@@ -2,9 +2,9 @@
 uid: learn-bizapps.tables-and-records.5-lookup-return-record
 title: Use the lookup function to return a record
 metadata: 
-  title: Use the lookup function to return a record
-  description: Use the lookup function to return a record
-  ms.date: 04/27/2020 
+  title: Use the lookup function to return a specific record
+  description: Use the lookup function to return a specific record
+  ms.date: 04/29/2021  
   author: DaveBeasley
   ms.author: dbeasley 
   ms.topic: interactive-tutorial 

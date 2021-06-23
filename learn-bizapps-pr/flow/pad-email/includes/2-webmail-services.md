@@ -1,56 +1,56 @@
-Power Automate Desktop enables the automation of webmail services through email actions. You can use these actions to retrieve email messages from IMAP servers or send messages through SMTP servers.
+Power Automate Desktop enables the automation of webmail services through the email actions. You can use these actions to retrieve email messages from IMAP servers and send messages through SMTP servers.
 
-Virtually all major webmail services support IMAP and SMTP and usually require their activation through the settings.
+Virtually all major webmail services support IMAP and SMTP, while they usually require you to activate the respective options.
 
 > [!NOTE]
-> In case you are using multi-factor authentication on your account, you have to create an application password to use the email actions.
+> To automate email accounts protected with multi-factor authentication, you have to create application passwords.
 
 ## Configure IMAP and SMTP servers
 
-Before deploying any email action, you have to configure the server that will handle the respective request. The **Retrieve emails** and **Process emails**  actions require an SMTP server, while the **Send email** action requires an IMAP server.
+Before deploying any email actions, you have to configure the server that will handle the requests. The **Retrieve email messages** and **Process email messages**  actions require an IMAP server, while the **Send email** action requires an SMTP server.
 
-To configure an IMAP server, launch the respective action's properties and expand the  **IMAP server** section.
+To configure the required IMAP server, open the action's properties and expand the  **IMAP server** section.
 
-In this section, populate the address, the server port, and your account credentials. If untrusted certificates are permitted, or the server uses TLS/SSL, select the **Accept Untrusted Certificates** or the **Enable SSL** option, respectively.
+In the **IMAP server** section, populate the address and the port of the server, and your account credentials. If untrusted certificates are permitted or the server uses TLS/SSL, select the **Accept Untrusted Certificates** or the **Enable SSL** option, respectively.
 
-![Screenshot of the IMAP server section in the Retrieve emails action.](..\media\imap-server-config.png)
+![Screenshot of the IMAP server section in the Retrieve email messages action.](..\media\imap-server-config.png)
 
-To configure an SMTP server, launch the properties of the **Send email**  action and expand the **SMTP server** section.
+To configure the required SMTP server, open the properties of the **Send email**  action and expand the **SMTP server** section.
 
-In the **SMTP server** section, populate the address, the server port, and your account credentials. You can also enable SSL/TLS and untrusted certificates if they are applicable.
+In the **SMTP server** section, populate the address and the port of the server, and your account credentials. Additionally, you can enable SSL/TLS and untrusted certificates, if they're applicable.
 
 ![Screenshot of the SMTP server section in the Send email action.](..\media\smtp-server-config.png)
 
-## Retrieve emails
+## Retrieve email messages
 
-If you want to retrieve emails that meet specific criteria from your mailbox, you can use the **Retrieve emails** action.
+To retrieve emails that meet specific criteria from your mailbox, use the **Retrieve email messages** action.
 
 To limit the retrieved emails, you can filter them according to their parent folder, state, or keywords included in various fields. All the available filters are located in the **Email filters** section of the action's properties.
 
-In case the retrieved emails contain attachments, the action allows you to save the files locally on your desktop.
+If the retrieved emails contain attachments, the action allows you to save the files locally on your desktop.
 
-![Screenshot of the Retrieve emails action.](..\media\retrieve-emails-action.png)
+![Screenshot of the Retrieve email messages action.](..\media\retrieve-emails-action.png)
 
-## Process emails
+## Process email messages
 
-After retrieving messages from your mailbox, Power Automate Desktop enables you to manipulate them through the **Process emails** action.
+After retrieving messages from your mailbox, Power Automate Desktop enables you to manipulate them using the **Process email messages** action.
 
-This action runs a series of essential operations in the previously retrieved emails, like deleting, marking as unread, and moving messages to other folders.
+This action runs a series of essential email handling operations, such as deleting, marking as unread, and moving messages to other folders.
 
-To deploy the action, you have to use as input a list of emails specified in the **Retrieve emails** action.
+To deploy this action, you have to set a list of emails as input. The list can be created by the **Retrieve email messages** action.
 
-![Screenshot of the Process emails action.](..\media\process-emails-action.png)
+![Screenshot of the Process email messages action.](..\media\process-emails-action.png)
 
 ## Send email
 
-The last action of the email actions is the **Send email** action that creates and sends new email messages. To use the actions, you have to specify the following elements:
+The last action of the email group is the **Send email** action, that creates and sends new email messages. To deploy this action, you have to specify the following elements:
 
 - Sender
-- Sender's displayed name
+- Sender's display name
 - Recipient
 - CC and BCC recipients
 - Subject and body of the new email
 
-Optionally, you can write the email body in HTML or include attachments in the message. To attach a file, enter the file's path or a variable containing the file (or a list of files) in the **Attachment(s)** field.
+Optionally, you can write the email body in HTML and attach files to the message. To attach a file, populate the file path or a variable containing the file (or a list of files) in the **Attachment(s)** field.
 
 ![Screenshot of the Send email action dialog.](..\media\send-email-action.png)

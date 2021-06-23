@@ -5,8 +5,8 @@ metadata:
   title: Introduction
   description: Introduction to using Power Automate Desktop to interact with windows and applications
   ms.date: 11/02/2020 
-  author: rokontol 
-  ms.author: rokontol 
+  author: mariosleon
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 2 

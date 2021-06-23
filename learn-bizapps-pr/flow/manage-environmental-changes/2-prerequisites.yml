@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.manage-environmental-changes.2-prerequisites 
-title: Prerequisites for Power Platform governance and change management 
+title: Prerequisites for Microsoft Power Platform governance and change management 
 metadata: 
-  title: Prerequisites for Power Platform governance and change management 
-  description: Learn about the prerequisites for Power Platform governance and change management.
-  ms.date: 03/12/2020 
-  author: KevSch 
-  ms.author: kschimke 
+  title: Prerequisites for Microsoft Power Platform governance and change management 
+  description: Learn about the prerequisites for Microsoft Power Platform governance and change management.
+  ms.date: 01/05/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 3 

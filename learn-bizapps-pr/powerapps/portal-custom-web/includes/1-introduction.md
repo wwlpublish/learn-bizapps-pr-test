@@ -31,12 +31,12 @@ You can use web templates to define an entire webpage, a part of a page, or comm
     {% block main %}
       {% include 'Page Copy' %}
 
-      {% if page.adx_entitylist %}
-        {% include 'entity_list' key:page.adx_entitylist.id %}
+      {% if page.adx_tablelist %}
+        {% include 'table_list' key:page.adx_tablelist.id %}
       {% endif %}
     
-      {% if page.adx_entityform %}
-        {% entityform id: page.adx_entityform.id %}
+      {% if page.adx_tableform %}
+        {% tableform id: page.adx_tableform.id %}
       {% endif %}
 
 		{% endblock %}
@@ -45,7 +45,7 @@ You can use web templates to define an entire webpage, a part of a page, or comm
 </div>
 ```
 
-This simple template includes other templates to render common bits and pieces, it defines content block that can be rendered differently by a derived template, and it renders Dataverse data by using related **Entity List** and **Entity Form** records.
+This simple template includes other templates to render common bits and pieces, it defines content block that can be rendered differently by a derived template, and it renders Dataverse data by using related **Table List** and **Table Form** records.
 
 ## Web templates as website headers and footers
 

@@ -1,6 +1,6 @@
 Microsoft Dataverse is designed to let you quickly and easily create a data model for your application, based on the tables and the table metadata that you include in your app. 
 
-Tables describe the kinds of data that is stored in the Dataverse database. Each table corresponds to a database table and each column (also known as an attribute) within an table represents a column in that table. 
+Tables describe the kinds of data that is stored in the Dataverse database. Each table corresponds to a database table and each column (also known as an attribute) within a table represents a column in that table. 
 
 In Dataverse, metadata (data about data), is a collection of tables. table metadata is what controls the kinds of records you can create and what kind of actions can be performed on them. When you use customization tools to create or edit tables, columns, and table relationships, you are editing this metadata.
 
@@ -37,7 +37,7 @@ Besides defining how records can be related to other records, 1:N table relation
 Before creating or editing tables in Dataverse, you should understand the different types of tables that you can create. After a custom table is created, the table type can't be changed. 
 
 ### Types of table owners
-When you create a custom table, the options for ownership are *User or team owned*, or *Organization-owned*. After an table is created, you can’t change the ownership. 
+When you create a custom table, the options for ownership are *User or team owned*, or *Organization-owned*. After a table is created, you can’t change the ownership. 
 
 - **User or team owned**: Actions that can be performed on these records can be controlled at the user level.
 - **Organization-owned**: Access to the data is controlled at the organization level.
@@ -66,7 +66,7 @@ You can create new custom activity tables. The metadata values of activity table
 
 ## Business Rules
 
-Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. The business rules defined for an table apply to both canvas apps and model-driven apps if the table is used in the app.
+Business rules provide a simple interface to implement and maintain fast-changing and commonly used rules. The business rules defined for a table apply to both canvas apps and model-driven apps if the table is used in the app.
  
 By combining conditions and actions, you can do any of the following with business rules:
 - Set column values

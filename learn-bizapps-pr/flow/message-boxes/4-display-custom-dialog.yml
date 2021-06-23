@@ -5,8 +5,8 @@ metadata:
   title: Display custom dialog boxes
   description: Use the Display custom dialog action with a dialog designer.
   ms.date: 08/27/2020 
-  author: rokontol 
-  ms.author: rokontol 
+  author: mariosleon
+  ms.author: marleon
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 10

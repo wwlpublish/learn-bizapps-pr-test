@@ -8,7 +8,7 @@ To move the mouse to a specified position, use the **Move Mouse** action. Specif
 
 ![Screenshot of the Move mouse action properties dialog.](..\media\move-mouse-properties.png)
 
-Specify an image on the screen to move the cursor to with the **Move Mouse to Image** action. Select the target image from existing images. If no images have been added, they can be captured by clicking on the **Capture new image** button in the pop-out.
+Specify an image on the screen to move the cursor to with the **Move Mouse to Image** action. Select the target image from existing images. If no images have been added, they can be captured by clicking on the **Capture image** button in the pop-out.
 
 ![Screenshot of the Move Mouse to Image properties dialog pop-out.](..\media\move-mouse-image-properties-popout.png)
 
@@ -28,9 +28,9 @@ Use this action to add multiple images. When an action includes multiple images,
 
    ![Screenshot of the Move Mouse to Image action properties dialog.](..\media\move-mouse-image-action-properties.png)
 
-Specify a string of text on the screen to move the cursor to with the **Move Mouse to Text onscreen**. The action moves the cursor to the text, even if it is stored as an image such as a jpg or pdf file. For this action, you must specify an optical character recognition (OCR) engine in the OCR action. The callouts in the following illustration show how to configure this action.
+Specify a string of text on the screen to move the cursor to with the **Move Mouse to Text onscreen**. The action moves the cursor to the text, even if it is stored as an image such as a jpg or pdf file. For this action, you must specify an optical character recognition (OCR) engine or an OCR engine variable. The callouts in the following illustration show how to configure this action.
 
-1. In the action properties, set the OCR engine variable created by the OCR action
+1. In the action properties, set the OCR engine type, or specify a previously created OCR engine variable
 1. Text to Find is a required input. Optionally enter a regular expression
 1. In case the text appears more than once on the screen, specify which occurrence of the text to move the cursor to
 1. Specify whether the action should search for the text on the entire screen, or only in the foreground window

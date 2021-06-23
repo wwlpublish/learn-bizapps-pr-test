@@ -20,6 +20,13 @@ To change the case of a text value, apply the **Change text case** action to a s
 
 ![Screenshot of the change text case action properties.](..\media\change-text-case-action-properties.png)
 
+> [!NOTE]
+> To get the length of a text variable use the following syntax:
+>
+> **%Variable.length%**
+> 
+> This will return the numerical value of a text variable's length.
+
 ## Text, dates, and numbers
 
 Four text actions are dedicated to converting text values to and from the number and **datetime** data types. Certain scenarios can occur where data that includes numbers has been extracted from a source, such as a spreadsheet or webpage, and has been stored as a datatable, datarow, or even a text value, but it must be entered as a numerical value elsewhere.

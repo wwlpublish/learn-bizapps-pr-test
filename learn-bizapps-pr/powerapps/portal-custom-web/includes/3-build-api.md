@@ -1,4 +1,4 @@
-The **Page Template** entity has a setting that specifies whether the page should use the common website header and footer templates when the web template is used. 
+The **Page Template** table has a setting that specifies whether the page should use the common website header and footer templates when the web template is used. 
 
 ![Page template setting to use site header and footer](../media/3-page-template.png)
 
@@ -11,20 +11,20 @@ When the website header and footer are not used, the template assumes responsibi
 For example, you can create a web template that returns a list of accounts, or any other data that the current user has access to, in `json` format. 
 
 ```twig
-{% entityview logical_name:'account', name:'Active Accounts' %}
+{% tableview logical_name:'account', name:'Active Accounts' %}
 [
-{% for acc in entityview.records -%}
+{% for acc in tableview.records -%}
     {
         "name": "{{ acc.name }}",
         "phone": "{{ acc.telephone1 }}"
     }{% unless forloop.last %},{% endunless %}
 {% endfor -%}
 ]
-{% endentityview %}
+{% endtableview %}
 ```
 
 > [!NOTE]
-> In this example, instead of the `entityview` tag,  you can use a FetchXML query inside the `fetchxml` tag. Using inline FetchXML adds some flexibility to the query. The query can be built dynamically by using template parameters or even a `request` object that contains query string parameters of a current HTTP page request.
+> In this example, instead of the `tableview` tag,  you can use a FetchXML query inside the `fetchxml` tag. Using inline FetchXML adds some flexibility to the query. The query can be built dynamically by using template parameters or even a `request` object that contains query string parameters of a current HTTP page request.
 
 This template would be used without a header and footer, with the MIME type set to `application/json`. The output would be similar to the following example:
 

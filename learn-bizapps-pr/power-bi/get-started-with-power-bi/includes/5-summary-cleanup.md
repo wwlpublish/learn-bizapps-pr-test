@@ -8,11 +8,11 @@ Power BI consists of three main elements—**Power BI Desktop**, the **Power BI 
 
 We also discussed the basic building blocks in Power BI:
 
-* **Visualizations** – A visual representation of data, sometimes just called visuals
-* **Datasets** – A collection of data that Power BI uses to create visualizations
-* **Reports** – A collection of visuals from a dataset, spanning one or more pages
-* **Dashboards** – A single-page collection of visuals built from a report
-* **Tiles** – A single visualization on a report or dashboard
+* **Visualizations** – Visual representations of data, sometimes just called visuals
+* **Datasets** – Collections of data that Power BI uses to create visualizations
+* **Reports** – Collections of visuals from a dataset, spanning one or more pages
+* **Dashboards** – Single-page collections of visuals built from reports
+* **Tiles** – Single visualizations on reports or dashboards
 
 In the **Power BI service**, we installed an **app** in just a few clicks. That **app**, a ready-made collection of visuals and reports, let us easily connect to a **software service** to populate the app and bring that data to life.
 
@@ -24,7 +24,7 @@ Finally, we set up a **refresh schedule** for our data, so that we know the data
 
 We mentioned this before, but it's worth restating: this learning path builds your knowledge by following the common flow of work in Power BI:
 
-* Bring data into **Power BI Desktop**, and create a report.
+* Bring data into **Power BI Desktop** and create a report.
 * **Publish** to the Power BI service, where you create new visualizations or build dashboards.
 * **Share** your dashboards with others, especially people who are on the go.
 * View and interact with shared dashboards and reports in **Power BI Mobile** apps.

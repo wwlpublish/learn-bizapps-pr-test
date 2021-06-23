@@ -43,7 +43,7 @@ The **End Loop** action is automatically added when any of the above three loops
 
 ![Screenshot of the for each loop example workspace.](..\media\for-each-loop-example-workspace.png)
 
-In the above example, actions 2-4 will be repeated for each email message stored in the **%RetrievedEmails%** list.
+In the above example, actions 4-6 will be repeated for each email message stored in the **%RetrievedEmails%** list.
 
 ## Exit loop
 

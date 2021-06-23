@@ -12,4 +12,5 @@ using AI- and data-driven insights available in an easy-to-read dashboard.
 In this module, you will:
 
 -   Learn how to describe the business value and features of Power Virtual Agents
+
 -   Learn essential components that make up Power Virtual Agents and chatbots

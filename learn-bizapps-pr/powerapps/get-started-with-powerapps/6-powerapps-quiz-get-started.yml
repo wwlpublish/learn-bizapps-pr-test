@@ -3,13 +3,13 @@ uid: learn-bizapps.powerapps-get-started.6-powerapps-quiz-get-started
 metadata:
   title: Check your knowledge
   description: Answer the following questions to see what you've learned.
-  ms.date: 05/08/2020
+  ms.date: 03/31/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
 title: Check your knowledge
-durationInMinutes: 6
+durationInMinutes: 4
 quiz:
   title: Answer the following questions to see what you've learned.
   questions:

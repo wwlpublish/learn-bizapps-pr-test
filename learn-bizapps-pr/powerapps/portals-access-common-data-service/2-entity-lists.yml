@@ -1,9 +1,9 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.portals-access-common-data-service.2-entity-lists 
-title: Use entity lists to display multiple Microsoft Dataverse records
+title: Use table lists to display multiple Microsoft Dataverse records
 metadata: 
-  title: Use entity lists to display multiple Dataverse records 
-  description: Learn how to display multiple Dataverse records by using entity lists.  
+  title: Use table lists to display multiple Dataverse records 
+  description: Learn how to display multiple Dataverse records by using table lists.  
   ms.date: 07/10/2020 
   author: DaveBeasley 
   ms.author: dbeasley 

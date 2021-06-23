@@ -4,13 +4,14 @@ You can create a button flow either on the Power Automate website or in the mobi
 
 ## Prerequisites
 
-You must have an account on the Power Automate website.
+* Access to [Power Automate](https://flow.microsoft.com/?azure-portal=true).
+* A basic understanding of Power Automate as well as experience with creating a flow is recommended.
 
 ## Open the template
 
 1. Launch Power Automate and sign in using your organizational account.
 
-1. Select **Templates** and search *Create a New Outlook Task*.
+1. Select **Templates** and search *Create New Outlook Task*.
 
     ![Screenshot of the Create a New Outlook Task tile as it appears in the search results.](../media/2-input.png)
 
@@ -20,7 +21,7 @@ You must have an account on the Power Automate website.
 
 You'll notice that this flow already requests additional input, but let's add another field.
 
-1. On the trigger card, select **Add an input**.
+1. Click **Edit** and on the trigger card, select **+ Add an input**.
 
     ![Screenshot of the Manually trigger a flow card with the Add an input button highlighted.](../media/6-input.png)
 
@@ -34,7 +35,7 @@ You'll notice that this flow already requests additional input, but let's add an
 
 1. On the **Create a task** card, select the title bar to expand the card.
 
-1. In the Due Date field, select **Due Date** from the dynamic content.
+1. For the Due Date field, search for "Due date" in the Dynamic Content search field and then select **Due Date**.
 
     ![Screenshot of the Create a task card with the Due Date field highlighted.](../media/10-input.png)
 
@@ -58,7 +59,7 @@ You'll now use the mobile app for Power Automate to run the button flow that you
 
     ![Screenshot of the Feed tab. The Create new Outlook Task with "Flow successfully ran 1 time" is highlighted and the Activity button is highlighted.](../media/runmt5-input.png)
 
-1. To view the detailed results of the flow run, select the **Create a task** step.
+1. To view the detailed results of the flow run, select the **Create new Outlook Task**  flow at the top of your Activity Feed and then select the **Create a task** step.
 
     ![Screenshot of Activity details with run details for Create new Outlook Task. Manually trigger a flow took 0 seconds, and Create a task took 0 seconds.](../media/runmt6-input.png)
 

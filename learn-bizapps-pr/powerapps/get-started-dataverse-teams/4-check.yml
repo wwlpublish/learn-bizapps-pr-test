@@ -1,0 +1,60 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.get-started-dataverse-teams.4-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/05/2021 
+ author: DaveBeasley 
+ ms.author: dbeasley 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-apps 
+durationInMinutes: 3 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: What is required for creating a table in Dataverse for Teams?
+    choices: 
+    - content: A table can't be created until you have a Dataverse for Teams license.
+      isCorrect: false
+      explanation: Dataverse for Teams doesn't have a separate license from Teams. If you are licensed for Teams, then you have Dataverse for Teams.
+    - content: A table can't be created until the Dataverse for Teams environment is provisioned when you are creating a new app or chatbot.
+      isCorrect: true
+      explanation: The Dataverse for Teams environment is only provisioned when the first Power Apps application or chatbot is created.
+    - content: A table can't be created until a Power Apps tab is added to a channel.
+      isCorrect: false 
+      explanation: Creating a Power Apps tab in a Teams channel doesn’t provision the Dataverse for Teams environment, which is needed to create the table.
+    - content: A table can't be created until a Power Automate cloud flow has been associated with a Power Apps application.
+      isCorrect: false 
+      explanation: Flows do not provision the Dataverse for Teams environment, which is required to create a table.
+  - content: Guest users who have access to your team need the ability to create, modify, and delete records within your table. However, the guest users should not be able to see records that were created by other users because they are not members of your company. Which level of privilege should they be assigned in the Management interface? 
+    choices: 
+    - content: Full access
+      isCorrect: false
+      explanation:  Full access for guest users would give them create, modify, and delete permissions to any record.
+    - content: Collaborative
+      isCorrect: false
+      explanation: Collaborative access allows users to create new records and view any records that were created by other users.
+    - content: Reference
+      isCorrect: false 
+      explanation: Reference doesn’t allow the user to create records, but it allows them access to any record that was created by other users.
+    - content: Private
+      isCorrect: true 
+      explanation: Private will allow the guests to create records, but it will restrict them to only viewing those records that they created. Guest users will not be able to view records that were created by other users.
+    - content: None
+      isCorrect: false 
+      explanation: The None level of access denies all access to the table. Consequently, the guest users will be unable to create or view records.
+  - content: Which editor gives you access to all available data types when you are creating a new column in a Dataverse for Teams table?
+    choices: 
+    - content: Dataverse for Teams table editor
+      isCorrect: false
+      explanation: The Power Apps table editor will give you access to all available data types when you're creating a new column.
+    - content: Power Apps visual table editor
+      isCorrect: false 
+      explanation: The visual table editor has only the most common data types available when you are creating a new column.
+    - content: SharePoint list editor
+      isCorrect: false 
+      explanation: The SharePoint list editor can only edit SharePoint lists and not Dataverse for Teams tables.
+    - content: Power Apps table editor
+      isCorrect: true 
+      explanation: The Power Apps table editor gives you the full list of data types when you are creating a new column.

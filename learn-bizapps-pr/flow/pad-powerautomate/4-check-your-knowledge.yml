@@ -25,10 +25,10 @@ quiz:
     choices:
     - content: "A string-type variable."
       isCorrect: false
-      explanation: "That is incorrect. To pass a variable from Power Automate to Power Automate Desktop, use an output variable."
+      explanation: "That is incorrect. To pass a variable from Power Automate Desktop to Power Automate, use an output variable."
     - content: "An input variable"
       isCorrect: false
-      explanation: "That is incorrect. To pass a variable from Power Automate to Power Automate Desktop, use an output variable."
+      explanation: "That is incorrect. To pass a variable from Power Automate Desktop to Power Automate, use an output variable."
     - content: "An output variable"
       isCorrect: true
       explanation: "That is correct!"

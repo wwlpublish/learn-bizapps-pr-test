@@ -1,14 +1,21 @@
 This unit explores each part of the following Power Apps components:
 
-* **Power Apps Home Page** - Apps start here, whether you build them from data, a sample app, or a blank screen.
-* **Power Apps Studio** - Develop your apps further by connecting to data, adding and arranging user interface (UI) elements (known as controls), and building formulas.
+## Power Apps building blocks
+Power Apps is a collection of services, apps, and connectors that work together to let you do much more than just view your data. You can act on your data and update it anywhere and from any device.
+
+* [**Power Apps Home Page**](https://make.powerapps.com) - Apps start here, whether you build them from data, a sample app, or a blank screen.
+* [**Power Apps Studio**](https://create.powerapps.com/studio/) - Develop your apps further by connecting to data, adding and arranging user interface (UI) elements (known as controls), and building formulas.
 * **Power Apps Mobile** - Run your apps on Microsoft Windows, Apple iOS, and Google Android devices.
-* **Power Apps Admin Center** - Manage Power Apps environments and other components.
+* [**Power Apps Admin Center**](https://admin.powerplatform.microsoft.com/) - Manage Power Apps environments and other components.
+
+
+> [!NOTE]
+> To use these sites, you'll need to sign in by using your organizational account.
 
 ## Power Apps Home Page
 If you are building an app, you'll start with the [Power Apps Home Page](https://make.powerapps.com). You can build apps from sample apps, templates, or a blank screen. All the apps that you've built appear here, along with any apps that others have created and shared with you.
 
-![Screenshot of the Power Apps home page view.](../media/powerapps-homepage5.png)
+![Screenshot of the Power Apps home page view.](../media/powerapps-homepage-5.png)
 
 ## Power Apps Studio
 Power Apps Studio is where you can fully develop your apps to make them more effective as a business tool and to make them more attractive. Power Apps Studio has three panes that make creating apps seem more like building a slide deck in Microsoft PowerPoint:
@@ -20,32 +27,16 @@ Power Apps Studio is where you can fully develop your apps to make them more eff
 ![Screenshot of the Power Apps Studio pane views.](../media/powerapps-full-screen.png)
 
 ## Power Apps Mobile
-Power Apps Mobile for Windows, iOS, and Android devices allows you to use all the apps that you've created, and those others have shared with you, on your mobile device. You or your users can download the Microsoft Power Apps app from the appropriate app store. When users log in with their credentials, they will see all apps that have been shared with them. The Power Apps Mobile app only needs to be downloaded once. 
+Power Apps Mobile for Windows, iOS, and Android devices allow you to use all the apps that you've created, and those others have shared with you, on your mobile device. You or your users can download the Microsoft Power Apps app from the appropriate app store. When users sign in with their credentials, they will see all apps that have been shared with them. The Power Apps Mobile app only needs to be downloaded once. 
 
 When you use apps in Power Apps Mobile, you get the most out of your device's capabilities: camera controls, GPS location, and more.
 
-![Power Apps Mobile screen view for phones and tablets.](../media/powerapps-mobile.png)
+![Power Apps Mobile screen view for phones and tablets.](../media/update-4.png)
 
-## Power Platform admin center
-The Power Platform admin center is the centralized place for managing Power Apps for an organization. On this site, you can define and manage different environments to house the apps. For example, you might have separate environments for development and production apps. Additionally, you can define data connections and manage environment roles and data policies. 
+## Microsoft Power Platform admin center
+Microsoft Power Platform admin center is the centralized place for managing Power Apps for an organization. On this site, you can define and manage different environments to house the apps. For example, you might have separate environments for development and production apps. Additionally, you can define data connections and manage environment roles and data policies. 
 
-## Licensing 
+For more information, see [Best practices](https://docs.microsoft.com/learn/paths/best-practices-environments/) Learning Path.
 
-Most users get their initial start with Power Apps by utilizing one of the licenses that come with their Microsoft 365 Plan or Microsoft Dynamics 365 license. These licenses allow you to extend the functionality of the app that is licensed. This means if you purchased a Microsoft 365 plan that included a Power Apps license then you can build apps that extend and use SharePoint as a data source. But Power Apps doesn’t have to stop at just extending that platform.  
+![Screenshot of Microsoft Power Platform admin center.](../media/update-5.png)
 
-Power Apps has over 300 available data source connectors available including Microsoft Dataverse. To incorporate Dataverse or any of those additional connectors all users of the app will need a premium license. There are two different ways to acquire a Premium license: 
-
-- Per App model 
-- Per User model. 
-
-The Per App license plan allows individual users to run two applications and one portal for a specific business scenario in a specific environment based on the full capabilities of Power Apps with access to premium connectors. The Per User license plan allows users to run unlimited premium licensed apps. This gives you the ability to grow with Power Apps and control costs by purchasing the license that best matches your business goals. 
-
-In addition, Power Apps also has the capability to use Power Apps portals to build externally or internally facing websites using Dataverse and Power Apps controls. Power Apps portals have their own licensing model and are not included in any of the licenses discussed previously above. With Power Portals you will purchase a capacity based license to meet your business needs.  
-
-Review the following links about licensing.
-
-[Microsoft Power Apps pricing](https://powerapps.microsoft.com/pricing/?azureportal=true)
-
-[Microsoft Power Automate pricing](https://us.flow.microsoft.com/pricing/?azureportal=true)
-
-[Microsoft Power Apps portals pricing](https://powerapps.microsoft.com/portals/?azureportal=true)

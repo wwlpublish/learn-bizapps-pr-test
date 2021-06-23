@@ -4,12 +4,12 @@ title: Power BI in action
 metadata:
   title: Power BI in action
   description: "Power BI in action"
-  ms.date: 03/02/2021
+  ms.date: 04/21/2021
   author: wwlpublish
   ms.author: chsims
   ms.topic: interactive-tutorial
   ms.prod: learning-power-bi
 azureSandbox: false
-durationInMinutes: 3
+durationInMinutes: 6
 content: |
   [!include[](includes/5-action.md)]

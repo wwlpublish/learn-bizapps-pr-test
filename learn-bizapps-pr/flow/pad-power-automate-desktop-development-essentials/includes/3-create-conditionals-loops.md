@@ -15,7 +15,8 @@ We will add an **If** action to the workspace, configuring it as below:
 We want to check whether the variable that contains the data we read from the worksheet in the previous action contains the desired header.
 
 > [!NOTE]
-> Pressing the variable icon next to the input field will produce a list of available variables to add to the field; this makes variables easier to handle.
+> Selecting the variable icon next to the input field will produce a list of available variables to add to the field; this makes variables easier to handle.
+>![Screenshot of the variable icon and variable list.](..\media\variable-icon.png)
 
 Press OK to add the action to the workspace. An **End If** action is also automatically added, to signify the end of the conditional block of actions; any actions added between the **If** and **End If** actions will only run if the condition in the **If** action is met.
 

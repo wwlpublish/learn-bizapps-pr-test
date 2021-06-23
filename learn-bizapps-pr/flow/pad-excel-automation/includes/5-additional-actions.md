@@ -19,3 +19,15 @@ To activate a particular cell, use the **Activate Cell in Excel Worksheet** acti
 It is also possible to insert and delete columns and rows by using the appropriate actions; however, you are required to specify a column or row index. In case of insertion, the row or column will be added before the one that is specified.
 
 ![Screenshot of Insert row to Excel worksheet action properties dialog.](..\media\insert-row-to-excel-action-properties.png)
+
+The **Run Excel macro** action runs a specified macro saved in the workbook. Specify the name of the macro and any parameters separated by semicolons (;). 
+
+![Screenshot of Properties of 'Run Excel macro' action dialog](..\media\run-excel-macro-action-properties.png)
+
+For example, a workbook used by the sales department at Contoso Inc. contains a macro called OrderStatus. The macro requires two arguments, the order number and the username, and returns a customer's order status. To look up order number 778 for the username Rbotas, the **Macro** field in the properties of the action would have to be formatted as follows:
+
+ **OrderStatus;778;Rbotas**
+
+ To use variables rather than providing values directly, format the input as follows:
+
+ **%MacroName%;%OrderNumber%;%UserName%**

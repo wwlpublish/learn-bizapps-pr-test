@@ -1,0 +1,32 @@
+### YamlMime:LearningPath
+uid: learn-bizapps.return-work-school
+metadata:
+  title: Safely return to school and the workplace using solutions
+  description: Learn how to use the Return to the Workplace and Return to School solutions.
+  ms.date: 04/29/2021
+  author: DaveBeasley
+  ms.author: dbeasley
+  ms.topic: interactive-tutorial
+  ms.prod: learning-return-workplace
+title: Safely return to work and school using solutions
+summary: |
+  [!include[](../../includes/lp-banner.md)]
+  Reopen responsibly, monitor intelligently, and protect continuously with capabilities for a safer environment. This Learning Path covers both the Return to School and Return to the Workplace solutions. 
+prerequisites: None.
+iconUrl: /learn/achievements/return-work-school.svg
+levels:
+- beginner
+roles: 
+- maker
+- business-user
+products:
+- power-platform
+- power-automate
+- industry-solutions 
+- return-to-school
+- return-to-workplace
+modules:
+- learn-bizapps.introduction-return-workplace-solution 
+- learn-bizapps.return-school 
+trophy: 
+  uid: learn-bizapps.return-work-school.trophy

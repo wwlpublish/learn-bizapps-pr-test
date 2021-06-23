@@ -8,9 +8,9 @@ In this unit, you will
 
 The person installing the document automation solution should:
 
-- Have good knowledge of Power Platform concepts (at least Power Automate connections and Dataverse).
+- Have good knowledge of Microsoft Power Platform concepts (at least Power Automate connections and Dataverse).
 
-- Have Power Platform privileges to configure Power Automate connections and add environment variables.
+- Have Microsoft Power Platform privileges to configure Power Automate connections and add environment variables.
 
 - Own the connection to the Outlook service mailbox that will be used to receive the documents.
 
@@ -71,51 +71,16 @@ To install and configure the document automation solution, you must follow these
     > [!div class="mx-imgBorder"]
     > [![Custom documents solution wizard showing the first page, Install solution.](../media/2-install-solution.png)](../media/2-install-solution.png#lightbox)
 
-1. You are redirected to the Power Platform admin center. Accept the terms of service, then select **Install**.
-
-1. Return to the wizard and wait five to ten minutes for the installation to complete.
+1. Wait five to ten minutes for the installation to complete.
 
     > [!div class="mx-imgBorder"]
     > [![Custom documents solution wizard showing the "solution installed" message.](../media/2-wizard.png)](../media/2-wizard.png#lightbox)
-
-## Configure Power Automate flows
-
-Your document automation solution is now installed but is not yet activated. To finalize the installation and activate your document solution, you need to configure the data connections and turn on the flows used by the solution. We will start by configuring and activating the flow that captures documents to process.
-
-1. Select the **Document automation base kit**.
+    
+1. Choose from already created connections or create a new one using the ellipsis (...) button.
 
     > [!div class="mx-imgBorder"]
-    > [![Solutions list with Document automation base kit selected.](../media/2-document-automation-base-kit.png)](../media/2-document-automation-base-kit.png#lightbox)
+    > [![Custom documents solution wizard showing the Setup connections with Office 365 Outlook and Dataflex connected.](../media/2-wizard-2.png)](../media/2-wizard-2.png#lightbox)
 
-1. Then select **Document Automation Email Importer**.
+1. Select **Next** and wait for the flows to activate, then select **Finish**.
 
-1. Select **Edit** in the top banner.
-
-    > [!div class="mx-imgBorder"]
-    > [![Edit flows for the Documentation Automation Email Importer.](../media/2-edit.png)](../media/2-edit.png#lightbox)
-
-1. Select the "+" for each connection to configure the connection, then select **Continue**.
-
-    > [!IMPORTANT]
-    > The account that you use for the **Office 365 Outlook** connection is the email account that will be used to receive the documents to process. You should use the email address to which your documents are sent. If your documents are received by multiple email addresses, you can duplicate this flow to capture documents from all of those addresses.
-
-    > [!div class="mx-imgBorder"]
-    > [![This flow will connect to Dataverse, Dataverse (current environment), or Office 365 Outlook.](../media/2-flow-connect.png)](../media/2-flow-connect.png#lightbox)
-
-1. You are in the authoring experience of the email importer flow. Here you can configure the email rules to filter on the specific emails that you want to process. You have to keep **include attachments** set to **Yes** as this flow takes the document of the attachment as the document to be processed. But you can configure filters on the topic, senders, etc., based on your needs.
-
-    > [!div class="mx-imgBorder"]
-    > [![Email rules for when a new email arrives.](../media/2-when-email-arrives.png)](../media/2-when-email-arrives.png#lightbox)
-
-1. Now select **Save** and then select the back arrow on the top left to return to the previous screen.
-
-1. Select **Turn on** on the top banner.
-
-    > [!div class="mx-imgBorder"]
-    > [![Turn on the flow.](../media/2-turn-on.png)](../media/2-turn-on.png#lightbox)
-
-    The **Document Automation Email Importer** flow is now configured and activated to receive documents by email.
-
-1. Repeat steps 1-7 for the **Document Automation Processor** and **Document Automation Validator** flows.
-
-You have successfully installed the **Document automation base kit** and are ready to configure it.
+You have successfully installed the "Document automation base kit" and are ready to configure it.

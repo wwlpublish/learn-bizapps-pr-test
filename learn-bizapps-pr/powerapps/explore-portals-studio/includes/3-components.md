@@ -1,6 +1,6 @@
 After a webpage has been created, a portal maker can add a set of predefined components on the page to format the layout and add static and dynamic content.
 
-This simple design approach will add corresponding HTML, CSS, or Liquid code to the webpage without the maker needing to know the structure or syntax of these languages. The configuration information will be stored on the **Page copy** field of the content's webpage record.
+This simple design approach will add corresponding HTML, CSS, or Liquid code to the webpage without the maker needing to know the structure or syntax of these languages. The configuration information will be stored on the **Page copy** column of the content's webpage record.
 
 Select the component from the toolbelt to add it to the webpage canvas. Depending on the component type, you can either enter the content directly on the canvas (for example, text) or configure the component by using the Properties pane.
 

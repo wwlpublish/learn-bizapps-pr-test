@@ -13,7 +13,7 @@ summary: |
   [!include[](../../includes/lp-banner.md)]
   Get started with Power Automate Desktop by learning about flows, creating automated steps, and flow development essentials.
 prerequisites: None
-iconUrl: /learn/achievements/generic-trophy.svg
+iconUrl: /learn/achievements/pad-get-started.svg
 levels:
 - beginner
 roles: 
@@ -27,4 +27,4 @@ modules:
 - learn-bizapps.pad-first-steps
 - learn-bizapps.pad-power-automate-desktop-development-essentials
 trophy: 
-  uid: learn-bizapps.pad-get-started.trophy
+  uid: learn.pad-get-started.trophy

@@ -55,13 +55,13 @@ You add components to your app by using the App Designer.
 
 6.  In the App Designer, select **Charts**, then select the **Accounts by Industry** chart.
 
-7.  On the App Designer toolbar, select **Save**.
+7.  On the App Designer toolbar, select **Save And Close**.
 
 ## Create a form
 
-1.	On the left navigation pane, expand **Data**, and then select **Entities**.
+1.	On the left navigation pane, expand **Data**, and then select **Tables**.
 
-2.	Select an entity, such as the account entity, and then select the **Forms** tab.
+2.	Select a table, such as the account table, and then select the **Forms** tab.
 
 3.	Select **Add form**, and then select one of the following
     *	**Main form**
@@ -75,43 +75,48 @@ You add components to your app by using the App Designer.
 
 ## Edit a form
 
-1.	On the left navigation pane, expand **Data**, and then select **Entities**.
-2.	Select an entity, such as the account entity, and then select the **Forms** tab.
+1.	On the left navigation pane, expand **Data**, and then select **Tables**.
+
+2.	Select a table, such as the account table, and then select the **Forms** tab.
+
 3.	Select the form name that you want to edit.
+
     *   You can also select the row for a form, and then in the command bar, select **Edit form**
-    *   Another alternative is to select .. next to the form name, and then in the menu, select **Edit form**.
+
+    *   Another alternative is to select **...** next to the form name, and then in the menu, select **Edit form**.
+    
 4.	When you are done making changes to the form, select **Save** to save the form.
 
 ## Open and add a view in the app designer
 The following steps explain how to open and add a view in the app designer.
 
 1.	In the app designer **Entity View** section, select **Views**.
-    *   In this example, we have selected **Views** from the **Account** entity.
+    *   In this example, we have selected **Views** from the **Account** table.
 
     [![Account views](../media/app-designer-add-view.png)](../media/app-designer-add-view.png#lightbox)
 
 2.	To add a view, select it by using view types such as Public, Advanced Find, Associated, and Lookup. The view is automatically added to the **Views** list.
 
     > [!NOTE]
-    > Views are displayed based on the entity that you have selected. For example, when you select Account, views that are related to the Account entity are displayed.
+    > Views are displayed based on the table that you have selected. For example, when you select Account, views that are related to the Account table are displayed.
 
 For more information about the app designer visit [Design custom business apps by using the app designer](https://docs.microsoft.com/powerapps/maker/model-driven-apps/design-custom-business-apps-using-app-designer)
 
 ## Add a column to your view in app designer
 
-Views display records in a table that contains rows and columns. Each row is a record, and the fields you display from the record are determined by the columns you add to the view.
+Views display rows and columns in a table. Each row is a record with columns you add to the view.
 
 1.	In app designer, select the entity view that you want and then on the right pane next to the view that you want select edit (pencil button).
 
 2.	On the **Components** tab, select the **Column Attributes** list for either the **Primary Entity** or **Related Entity**.
 
-    ![Account views](../media/column-attributes.png)
+    ![Column Attributes](../media/column-attributes.png)
 
-3.	From the list, select the attribute you want and drag it to the column heading. You can also add the attribute by double-clicking it.
+3.	From the list, select the column you want and drag it to the column heading. You can also add the column by double-clicking it.
 
-4.	Repeat step 3 until you have added all the attributes you want to display in your view.
+4.	Repeat step 3 until you have added all the columns you want to display in your view.
 
-As you add attributes, you can drag them to any position among existing column headings. You can also move columns around after you add them to your view.
+As you add columns, you can drag them to any position among existing column headings. You can also move columns around after you add them to your view.
 
 For more detailed options on creating and editing views visit https://docs.microsoft.com/powerapps/maker/model-driven-apps/create-edit-views-app-designer 
 

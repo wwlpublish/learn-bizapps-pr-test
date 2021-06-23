@@ -20,4 +20,4 @@ If from one process (Process A) you run a different process (Process B) by using
 
 For Process B to access any of the external variables, the `ext:` prefix must be included before the variable name. For example, if Process A defines a variable `%MyData%`, Process B can access the value of that variable using the notation: `%ext:MyData%`.
 
-![Screenshot of the populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-external-variable.png
+![Screenshot of the populated Set Value field in the Set Variable action's properties dialog.](..\media\set-variable-action-properties-external-variable.png)

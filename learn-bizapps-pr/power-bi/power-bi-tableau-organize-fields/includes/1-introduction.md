@@ -1,0 +1,3 @@
+The goal of this module is to learn how to prepare your datasets properly for future development and analysis. Whether they're the developers that you're handing information off to or they're the actual end users that are going to get their hands dirty. You'll be accomplishing this through an understanding of how to organize and simplify your calculations. These will help you visualize faster and more efficiently. On top of that, this module will help you create an organizational structure for Power BI, one that should be familiar coming from Tableau.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWy26K]

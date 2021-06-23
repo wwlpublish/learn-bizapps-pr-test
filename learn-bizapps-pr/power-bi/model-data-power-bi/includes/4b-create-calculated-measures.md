@@ -7,7 +7,7 @@ Tasks in this unit include:
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3wWvJ]
 
 > [!NOTE]
-> To follow along with the examples in the videos and on this page, download the sample Access database [here](https://go.microsoft.com/fwlink/?linkid=2120368/?azure-portal=true) and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this [article](https://go.microsoft.com/fwlink/?linkid=2131277/?azure-portal=true).
+> To follow along with the examples in the videos and on this page, download the sample Access database [here](https://go.microsoft.com/fwlink/?linkid=2120368&azure-portal=true) and import into Power BI Desktop (**Get Data > Database > Access database**). If you have any issues loading the Access database, please read this [article](https://go.microsoft.com/fwlink/?linkid=2131277&azure-portal=true).
 
 ## Create a measure
 

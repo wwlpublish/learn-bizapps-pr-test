@@ -1,0 +1,71 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.power-bi-admin-premium.6-check 
+title: Check your knowledge 
+metadata: 
+ title: Check your knowledge 
+ description: Answer the following questions to see what you've learned. 
+ ms.date: 04/30/2021 
+ author: heyrob 
+ ms.author: robde 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+durationInMinutes: 4 
+quiz: 
+  title: Answer the following questions to see what you've learned. 
+  questions: 
+  - content: Which one of the following is correct? Power BI Premium is all about
+    choices: 
+    - content: Capacity or content
+      isCorrect: true 
+      explanation: Power BI Premium is about capacity, or content. Power BI Pro is about the number of users.
+    - content: Number of users
+      isCorrect: false 
+      explanation: Power BI Premium is about capacity, or content. Power BI Pro is about the number of users.
+    - content: Dataset refreshes
+      isCorrect: false 
+      explanation: Power BI Premium is about capacity, or content. Power BI Pro is about the number of users.
+    - content: Dataset evictions
+      isCorrect: false 
+      explanation: Power BI Premium is about capacity, or content. Power BI Pro is about the number of users.
+  - content: A Power BI Premium P1 capacity supports how many concurrent dataset refreshes?
+    choices:
+    - content: Two
+      isCorrect: false
+      explanation: Power BI Premium P1 supports up to six simultaneous dataset refreshes.
+    - content: Four
+      isCorrect: false 
+      explanation: Power BI Premium P1 supports up to six simultaneous dataset refreshes.
+    - content: Six
+      isCorrect: true 
+      explanation: Power BI Premium P1 supports up to six simultaneous dataset refreshes.
+    - content: Eight
+      isCorrect: false 
+      explanation: Power BI Premium P1 supports up to six simultaneous dataset refreshes.
+  - content: The process whereby an inactive dataset is removed from memory to make room for another dataset is known as
+    choices: 
+    - content: Eviction
+      isCorrect: true 
+      explanation: Eviction is the process whereby an inactive dataset is removed from memory to make room for another dataset. Dataset eviction is a normal, beneficial process and enables the support of a larger number of datasets than memory resources can handle at one time.
+    - content: Checkpointing
+      isCorrect: false 
+      explanation: Eviction is the process whereby an inactive dataset is removed from memory to make room for another dataset. Dataset eviction is a normal, beneficial process and enables the support of a larger number of datasets than memory resources can handle at one time.
+    - content: Transference
+      isCorrect: false 
+      explanation: Eviction is the process whereby an inactive dataset is removed from memory to make room for another dataset. Dataset eviction is a normal, beneficial process and enables the support of a larger number of datasets than memory resources can handle at one time.
+    - content: Load balancing
+      isCorrect: false 
+      explanation: Eviction is the process whereby an inactive dataset is removed from memory to make room for another dataset. Dataset eviction is a normal, beneficial process and enables the support of a larger number of datasets than memory resources can handle at one time.
+  - content: Which one of the following is NOT a part of Power BI\'s Bring your own key (BYOK) feature?
+    choices: 
+    - content: Organization's keys are stored in Azure Key Vault.
+      isCorrect: false
+      explanation: All these statements are correct except for an organization's encryption keys expiring on an annual basis. Organizations can set an expiry date, but it's not required or based on a timespan.
+    - content: An organization's encryption keys expire on an annual basis.
+      isCorrect: true
+      explanation: All these statements are correct except for an organization's encryption keys expiring on an annual basis. Organizations can set an expiry date, but it's not required or based on a timespan.
+    - content: Both data-at-rest and in-process encryption are supported.
+      isCorrect: false 
+      explanation: All these statements are correct except for an organization's encryption keys expiring on an annual basis. Organizations can set an expiry date, but it's not required or based on a timespan.
+    - content: You can revoke your organization's keys if you exit the Power BI service.
+      isCorrect: false 
+      explanation: All these statements are correct except for an organization's encryption keys expiring on an annual basis. Organizations can set an expiry date, but it's not required or based on a timespan.
