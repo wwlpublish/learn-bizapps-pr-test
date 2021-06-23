@@ -1,4 +1,4 @@
-In this unit, you'll create a model-driven app by using one of the standard entities that's available in your Microsoft Power Apps environment.
+In this unit, you'll create a model-driven app by using one of the standard tables that are available in your Microsoft Power Apps environment.
 
 ## Create a model-driven app
 
