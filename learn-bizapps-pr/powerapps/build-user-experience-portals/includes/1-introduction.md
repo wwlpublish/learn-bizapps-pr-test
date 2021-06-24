@@ -1,4 +1,4 @@
-Microsoft Power Apps portals are built on top of Microsoft Dataverse. Power Apps portals extend functionality to internal and external audiences, but this functionality must already be present in a custom Power Apps application by using Dataverse or a Microsoft Dynamics 365 application. For example, if you do not have Dynamics 365 column Service installed, you will not be able to install the column Service portal solution.
+Microsoft Power Apps portals are built on top of Microsoft Dataverse. Power Apps portals extend functionality to internal and external audiences, but this functionality must already be present in a custom Power Apps application by using Dataverse or a Microsoft Dynamics 365 application. For example, if you do not have Dynamics 365 Field Service installed, you will not be able to install the Field Service portal solution.
 
 Conversely, if you have Dynamics 365 Sales installed, you will be able to configure case management functionality in your portal without having to use code. In other words, Power Apps portals are *web enablers* of Power Apps for the internal and external audiences.
 
