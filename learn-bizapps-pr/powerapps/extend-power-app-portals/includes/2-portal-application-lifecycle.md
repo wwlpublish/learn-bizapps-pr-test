@@ -11,7 +11,7 @@ For more information, see [Application lifecycle management (ALM) with Microsoft
 Power Apps portals configuration is stored directly within Dataverse as records known as *portal metadata*. When you provision a Power Apps portal, the portal template that you choose will populate a number of portal-specific Dataverse entities with data that describe the website structure, webpages, content, table list configuration, table form configuration, and so on. As you configure the portal by using Power Apps portals Studio or other tools, you are changing or adding to the portal metadata.
 
 > [!div class="mx-imgBorder"]
-> [!Screenshot of the Portal Metadata with portal-specific Dataverse entities with data.](../media/portal-meta-data.png)](../media/portal-meta-data.png#lightbox)
+> [![Screenshot of the Portal Metadata with portal-specific Dataverse entities with data.](../media/portal-meta-data.png)](../media/portal-meta-data.png#lightbox)
 
 Portal metadata can't be added to a Dataverse solution file. The challenge is how to move the portal metadata records from one environment to another. While model-driven Power Apps have built-in features to export and import data, these features work for a single table and must be sequenced based on data relationships.  
 

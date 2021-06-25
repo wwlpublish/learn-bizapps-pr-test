@@ -4,7 +4,7 @@ You've created the connector, tested it, and now you'll learn how to use it in a
 > Power Apps requires either an Microsoft 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate][pa pricing].
 
 
-## Create a canvas ppp ##
+## Create a canvas app ##
 
 1. First of all, create a blank canvas app. In Power Apps studio go to the `Create` menu at the left-hand side and click the `Canvas app from blank` panel.
 
