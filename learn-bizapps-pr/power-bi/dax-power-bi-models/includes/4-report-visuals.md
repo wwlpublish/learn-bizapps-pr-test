@@ -51,7 +51,7 @@ While hierarchy levels are based on columns, they can be used to filter and grou
 
 Measures are designed to summarize model data; they can't be used to group data. However, measures can be used to filter data in one special case: to use a measure to filter a visual when the visual displays the measure and the filter is a visual-level filter (so, not a report or page-level filter). When used in this way, a measure filter is applied *after* the analytic query has summarized data. This process is done to eliminate groups where the measure filter condition is not true. (For those who are familiar with SQL syntax, a measure that used to filter a visual is like the HAVING clause in a SELECT statement.)
 
-The following figure shows the stacked column visual adjusted to display groups (months) when sales amounts exceed $5 million. This adjustment is done in the **Filters** pane by applying a filter to the **Sales Amount** field: Configure the filter to show items when the value *is greater than 5000000*. Remember to select **Apply filter**, which is located in the lower-right corner of the card.
+The following figure shows the stacked column visual adjusted to display groups (months) when sales amounts exceed $5 million. This adjustment is done in the **Filters** pane by applying a filter to the **Sales Amount** field: Configure the filter to show items when the value *is greater than 5,000,000*. Remember to select **Apply filter**, which is located in the lower-right corner of the card.
 
 Notice that only four groups (months) have sales amounts exceeding $5 million.
 
