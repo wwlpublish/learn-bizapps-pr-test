@@ -11,7 +11,7 @@ An analytic query has three phases that are implemented in the following order:
 > [!div class="mx-imgBorder"]
 > [![An animation shows the sequence of the three analytic query phases: Filter, Group, and Summarize.](../media/dax-filter-group-summarize-c.gif)](../media/dax-filter-group-summarize-c.gif#lightbox)
 
-**Filtering**, or slicing, targets the data of relevance. In Power BI reports, filters can be applied to three different scopes: report, page, or visual. Filtering is also applied in the background when row-level security (RLS) is enforced. Each report visual can inherit filters or have filters directly applied to it.
+**Filtering**, or slicing, targets the data of relevance. In Power BI reports, filters can be applied to three different scopes: the entire report, a specific page, or a specific visual. Filtering is also applied in the background when row-level security (RLS) is enforced. Each report visual can inherit filters or have filters directly applied to it.
 
 **Grouping**, or dicing, divides query results into groups.
 

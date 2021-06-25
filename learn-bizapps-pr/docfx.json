@@ -359,34 +359,49 @@
     "markdownEngineName": "markdig",
     "localization_scopes": {
         "ai-builder/**/*.yml": [
+          "ar-sa",
           "de-de",
           "es-es",
           "fr-fr",
-          "ja-jp"
+          "it-it",
+          "ja-jp",
+          "pt-br"
         ],
         "dyn365-customer-service/**/*.yml": [
+          "ar-sa",
           "de-de",
           "es-es",
           "fr-fr",
-          "ja-jp"
+          "it-it",
+          "ja-jp",
+          "pt-br"
         ],
         "dyn365-field-service/**/*.yml": [
+          "ar-sa",
           "de-de",
           "es-es",
           "fr-fr",
-          "ja-jp"
+          "it-it",
+          "ja-jp",
+          "pt-br"
         ],
         "dyn365-marketing/**/*.yml": [
+          "ar-sa",
           "de-de",
           "es-es",
           "fr-fr",
-          "ja-jp"
+          "it-it",
+          "ja-jp",
+          "pt-br"
         ],
         "flow/**/*.yml": [
+          "ar-sa",
           "de-de",
           "es-es",
           "fr-fr",
-          "ja-jp"
+          "it-it",
+          "ja-jp",
+          "pt-br"
         ],
         "power-bi/**/*.yml": [
           "de-de",
@@ -414,10 +429,13 @@
           "th-th"
         ],
         "powerapps/**/*.yml": [
+          "ar-sa",
           "de-de",
           "es-es",
           "fr-fr",
-          "ja-jp"
+          "it-it",
+          "ja-jp",
+          "pt-br"
         ]
   }
 }

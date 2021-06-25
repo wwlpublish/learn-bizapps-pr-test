@@ -94,7 +94,7 @@ The [COUNT](https://docs.microsoft.com/dax/count-function-dax/?azure-portal=true
 
 Alternatively, you can choose the better way to write the **Order Line Count** measure. Instead of counting values in a column, it's semantically clearer to use the [COUNTROWS](https://docs.microsoft.com/dax/countrows-function-dax/?azure-portal=true) DAX function. Unlike the previously introduced aggregation functions, which aggregate column values, the COUNTROWS function counts the number of rows *for a table*.
 
-Modify the **Order Line Count** measure formula to the following parameters:
+Modify the **Order Line Count** measure formula you created above to the following parameters:
 
 ```dax
 Order Line Count =
