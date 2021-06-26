@@ -1,0 +1,17 @@
+﻿### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-mobile-apps.2-find-your-data
+title: Find your data
+metadata: 
+  title:  Find your data
+  description: Learn how to find your data using the home page and the navigation tree. 
+  ms.date: 06/26/2021 
+  author: paulinbar
+  ms.author: painbar 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+   
+durationInMinutes: 12 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/2-find-your-data.md)] 
+
