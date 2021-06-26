@@ -1,0 +1,17 @@
+﻿### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-mobile-apps.1-power-bi-mobile-apps
+title: What are the Power BI Mobile apps?
+metadata: 
+  title:  What are the Power BI Mobile apps?
+  description: What are the Power BI Mobile apps and why should I use them? 
+  ms.date: 06/26/2021 
+  author: paulinbar
+  ms.author: painbar 
+  ms.topic: interactive-tutorial 
+  ms.prod: learning-power-bi 
+   
+durationInMinutes: 12 
+content: |
+  [!include[](../includes/unit-banner.md)]
+  [!include[](includes/1-power-bi-mobile-apps.md)] 
+
