@@ -4,7 +4,7 @@ The mobile app provides several locations where you can find your data.
 
 When you first open the Power BI Mobile app, you’ll be asked to sign in to your Power BI account. After a few introductory screens, you'll be directed to the home page, as shown in the following image.
  
-![Image of the Power BI mobile app home page.]()../media/find-your-data/powerbi-mobile-app-home.png)
+![Image of the Power BI mobile app home page.](../media/find-your-data/powerbi-mobile-app-home.png)
 
 The home page provides you quick access to your most frequently or recently visited reports, dashboards, and apps. Additionally, an activity feed keeps you current about what's happening with your Power BI content. The header at the top of the home page, and the action bar at the bottom, contain items that help you get quickly to the content you need, or to perform various actions.
 
@@ -23,6 +23,6 @@ After you’ve opened a report, dashboard, or app, you can use the navigation tr
 
 The navigation tree shows you the location hierarchy of your content at a glance, and you can navigate up the content hierarchy, go to sibling content, or even return to your home page. If the item you’re viewing is part of an app, the tree displays the entire contents of the app, such as sections, links, and all reports and dashboards. If the item you’re viewing is a report, you’ll also find a list of all visible report pages.
 
-[Image]
+![Image of the Power BI mobile app navigation tree.](../media/find-your-data/power-bi-mobile-nav-tree1.png)
 
 Now you know what Power BI is and why to use it. In the next unit, you'll learn how to navigate the Power BI user interface.
