@@ -4,7 +4,7 @@ The mobile app provides several locations where you can find your data.
 
 When you first open the Power BI Mobile app, you’ll be asked to sign in to your Power BI account. After a few introductory screens, you'll be directed to the home page, as shown in the following image.
  
-[../media/find-your-data/powerbi-mobile-app-home.png]
+![Image of the Power BI mobile app home page.]()../media/find-your-data/powerbi-mobile-app-home.png)
 
 The home page provides you quick access to your most frequently or recently visited reports, dashboards, and apps. Additionally, an activity feed keeps you current about what's happening with your Power BI content. The header at the top of the home page, and the action bar at the bottom, contain items that help you get quickly to the content you need, or to perform various actions.
 
