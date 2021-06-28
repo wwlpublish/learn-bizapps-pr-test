@@ -67,11 +67,13 @@ Double-click the **Name** field, rename the label to **Invoice Description**, an
 
 1. Drag the new fields that you previously added in this exercise from the list of fields on the right to the General form area on the left. 
 
-   ![Drag fields from the list of fields on the right to the canvas on the left.](../media/331-drag-field.png)
+	> [!div class="mx-imgBorder"]
+	> [![Drag fields from the list of fields on the right to the canvas on the left.](../media/331-drag-field.png)](../media/331-drag-field.png#lightbox)
  
 1. Select the **Save** button and then select the **Publish** button in the ribbon at the top of the form designer.
    
-   ![Save and publish form by selecting buttons in the ribbon.](../media/34-save-publish-form.png)
+	> [!div class="mx-imgBorder"]
+	> [![Save and publish form by selecting buttons in the ribbon.](../media/34-save-publish-form.png)](../media/34-save-publish-form.png#lightbox)
 
 1. Close the **Designer** tab in the browser.
 
@@ -81,7 +83,8 @@ an instance of the flow by selecting the play icon next to the
 flow name. It should look like the following screenshot. Add data to the
 main form and the stages and then save the record.
 
-   ![Screenshot of Smog Check for Bill Taylor showing new fields in main form.](../media/35-observe-new-fields-main-form.png)
+	> [!div class="mx-imgBorder"]
+	> [![Screenshot of Smog Check for Bill Taylor showing new fields in main form.](../media/35-observe-new-fields-main-form.png)](../media/35-observe-new-fields-main-form.png#lightbox)
 
 ## Add read-only fields to the form
 

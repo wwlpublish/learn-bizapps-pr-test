@@ -50,7 +50,8 @@ Occasionally, you will want to model a business process that has multiple
 branches, and not all branches end up at the same rendezvous stage. Currently, this situation
 is not allowed in a business process flow. An example of an unsupported flow is shown in the following image.
 
-![Branching logic showing vehicle service for tune-up versus smog with a nested test for cars made in 1971 or before.](../media/2-process-flow-2-bad-branching.png)
+> [!div class="mx-imgBorder"]
+> [![Branching logic showing vehicle service for tune-up versus smog with a nested test for cars made in 1971 or before.](../media/2-process-flow-2-bad-branching.png)](../media/2-process-flow-2-bad-branching.png#lightbox)
 
 Notice the choices that exist around the Vehicle Service decision point.
 Two of the branches end up at the **Issue or Deny Smog

@@ -28,7 +28,8 @@ that sends an approval request to a user when a record in an entity in
 Dataverse is modified. In the exercises at the end of this module, you'll create an
 instant workflow in Power Automate and add it to your business process solution. 
 
-![Complex instant flow with two sets of If yes and If no conditions.](../media/4-complex-instant-flow.png)
+> [!div class="mx-imgBorder"]
+> [![Complex instant flow with two sets of If yes and If no conditions.](../media/4-complex-instant-flow.png)](../media/4-complex-instant-flow.png#lightbox)
 
 Business process flows work within Power Platform and
 many options are available, including instant flows and approval flows that
