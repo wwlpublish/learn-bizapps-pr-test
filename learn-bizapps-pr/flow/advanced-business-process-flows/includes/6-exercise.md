@@ -63,7 +63,8 @@ open the model-driven forms designer.
 1. Scroll down to the **General** section at the bottom of the form.
 Double-click the **Name** field, rename the label to **Invoice Description**, and then select the **OK** button.
 
-   ![Rename the Name field to Invoice Title and select the OK button.](../media/33-rename-title-field.png)
+	> [!div class="mx-imgBorder"]
+	> [![Rename the Name field to Invoice Title and select the OK button.](../media/33-rename-title-field.png)](../media/33-rename-title-field.png#lightbox)
 
 1. Drag the new fields that you previously added in this exercise from the list of fields on the right to the General form area on the left. 
 
@@ -83,8 +84,7 @@ an instance of the flow by selecting the play icon next to the
 flow name. It should look like the following screenshot. Add data to the
 main form and the stages and then save the record.
 
-	> [!div class="mx-imgBorder"]
-	> [![Screenshot of Smog Check for Bill Taylor showing new fields in main form.](../media/35-observe-new-fields-main-form.png)](../media/35-observe-new-fields-main-form.png#lightbox)
+   ![Screenshot of Smog Check for Bill Taylor showing new fields in main form.](../media/35-observe-new-fields-main-form.png)
 
 ## Add read-only fields to the form
 
