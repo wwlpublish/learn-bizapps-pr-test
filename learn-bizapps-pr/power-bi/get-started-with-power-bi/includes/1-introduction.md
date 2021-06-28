@@ -1,8 +1,10 @@
 **Microsoft Power BI** is a collection of software services, apps, and connectors that work together to turn your unrelated sources of data into coherent, visually immersive, and interactive insights. Whether your data is a simple Microsoft Excel workbook, or a collection of cloud-based and on-premises hybrid data warehouses, **Power BI** lets you easily connect to your data sources, visualize (or discover) what's important, and share that with anyone or everyone.
 
-![How Power BI works with other data to share insights.](../media/pbi-intro_01.png)
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFLap]
 
 **Power BI** can be simple and fast, capable of creating quick insights from an Excel workbook or a local database. But **Power BI** is also robust and enterprise-grade, ready not only for extensive modeling and real-time analytics, but also for custom development. Therefore, it can be your personal report and visualization tool, but can also serve as the analytics and decision engine behind group projects, divisions, or entire corporations.
+
+![How Power BI works with other data to share insights.](../media/pbi-intro_01.png)
 
 If you're a **beginner** with Power BI, this module will get you going. If you're a Power BI **veteran**, this module will tie concepts together and fill in the gaps.
 
