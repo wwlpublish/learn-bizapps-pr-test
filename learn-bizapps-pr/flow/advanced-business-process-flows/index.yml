@@ -1,14 +1,14 @@
 ### YamlMime:Module 
 uid: learn-bizapps.advanced-business-process-flows 
 metadata: 
- title: Understand advanced business process flow concepts in Power Automate 
- description: Do you want to improve your business process flow? This module introduces more advanced business process flow concepts and techniques that you can use to help improve your flow. 
- ms.date: 03/25/2020  
- author: KevSch  
- ms.author: kschimke  
+ title: Advanced concepts to improve business process flows in Power Automate 
+ description: Do you want to improve your business process flow? This module introduces more advanced concepts and techniques that you can use to help improve your flow to model more complex processes. 
+ ms.date: 06/28/2021  
+ author: DaveBeasley
+ ms.author: dbeasley
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-automate  
-title: Understand advanced business process flow concepts in Power Automate  
+title: Advanced concepts to improve business process flows in Power Automate   
 summary: |  
   [!include[](../includes/module-banner.md)] 
   Do you want to improve your business process flow? This module introduces more advanced business process flow concepts and techniques that you can use to help improve your flow.  
@@ -18,7 +18,7 @@ abstract: |
     - Create additional fields and a main form to enhance a business process flow.
     - Discover how to use instant flows with business process flows. 
     - Enhance immersive business process flows by using advanced techniques. 
-prerequisites: A basic understanding of how to model a business process as a set of stages, steps, and branching concepts and a familiarity with Microsoft Power Platform.      
+prerequisites: A basic understanding of how to model a business process as a set of stages, steps, and branching concepts and a familiarity with Power Platform.      
 iconUrl: /learn/achievements/advanced-business-process-flows.svg  
 levels:  
 - intermediate   

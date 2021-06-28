@@ -1,9 +1,8 @@
-The previous module of this learning path explained how to create a simple,
-two-step linear business process flow. Some business processes are
+By now you should know how to create a two-step linear business process flow. Some business processes are
 simple step-by-step sequential workflows, but many processes might need branching
 logic that requires one set of stages for one condition and another set of
-stages for an alternative condition. Think of this logic as a simple
-*if then else* statement.
+stages for an alternative condition. Think of this logic as an
+*if then else* statement. So if a condition fulfills certain logic, then do one thing, else do another thing.
 
 Logical branching requires a decision point
 and a test of a value or condition. If a condition matches a certain value,
@@ -38,21 +37,20 @@ equipment and the required checks are different for vehicles that are built befo
 or during 1971 and after 1971. As a result, you need to add a logical
 branch to check the year when the vehicle was manufactured, collect
 different information, and then perform different checks on vehicles that are built
-after 1971. The exercises at the end of this module explain how to build a business process flow to
+after 1971. The exercises in this module explain how to build a business process flow to
 manage this scenario.
 
 Unfortunately, business process flows have some limitations on what can
 be modeled with logical branching. The following sections examine what types of
 logical branching can't be modeled and built in business process flows today.
 
-### Unsupported logical branching and a possible work-around
+## Unsupported logical branching and a possible work-around
 
 Occasionally, you will want to model a business process that has multiple
 branches, and not all branches end up at the same rendezvous stage. Currently, this situation
 is not allowed in a business process flow. An example of an unsupported flow is shown in the following image.
 
-![Branching logic showing vehicle service for tune-up
-versus smog with a nested test for cars made in 1971 or before.](../media/2-process-flow-2-bad-branching.png)
+![Branching logic showing vehicle service for tune-up versus smog with a nested test for cars made in 1971 or before.](../media/2-process-flow-2-bad-branching.png)
 
 Notice the choices that exist around the Vehicle Service decision point.
 Two of the branches end up at the **Issue or Deny Smog
@@ -68,8 +66,8 @@ one. A better way to model this logic is to add a second decision point, as
 shown in the following figure. The approach that is shown in the diagram is supported because
 the decision stages are each testing one condition and all resolve to a single stage.
 
-![Branching logic diagram showing two sequential branching
-logic components with one that tests model year and
-another that tests service performed.](../media/3-process-flow-3-repaired-branching.png)
+> [!div class="mx-imgBorder"]
+> [![Branching logic diagram showing two sequential branching logic components with one that tests model year and
+another that tests service performed.](../media/3-process-flow-3-repaired-branching.png)](../media/3-process-flow-3-repaired-branching.png#lightbox)
 
 Study this example so you understand how to add another logical branch and model business process flows correctly.
