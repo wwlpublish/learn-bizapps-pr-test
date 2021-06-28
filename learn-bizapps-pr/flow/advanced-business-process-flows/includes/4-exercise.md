@@ -104,11 +104,11 @@ it to the right of the **Customer Check In** stage, as shown in the following im
 (**+**) sign on the right of the page and another to the plus (**+**) sign under the **Condition** stage, as shown in the following figure.
 Name each of the new stages by selecting each new stage and entering the new name. Be sure to save the name by clicking apply after each change.
 
-  ![Two additional stages added in business process flow designer.](../media/10-two-additional-stages-added.png)
+	![Two additional stages added in business process flow designer.](../media/10-two-additional-stages-added.png)
 
 1. Drag another stage to the right of the **Customer Check In Post 1971 Smog Check** stage. Rename this last stage **Collect Payment**.
 
-  ![Final stage added in business process flow designer.](../media/11-add-final-stage.png)
+	![Final stage added in business process flow designer.](../media/11-add-final-stage.png)
 
 1. Connect the **Customer Check In 1971 or Older Smog Check** stage to the **Collect Payment Stage** by following these steps:
 
