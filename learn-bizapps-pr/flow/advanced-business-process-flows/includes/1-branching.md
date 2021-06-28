@@ -50,8 +50,7 @@ Occasionally, you will want to model a business process that has multiple
 branches, and not all branches end up at the same rendezvous stage. Currently, this situation
 is not allowed in a business process flow. An example of an unsupported flow is shown in the following image.
 
-> [!div class="mx-imgBorder"]
-> [![Branching logic showing vehicle service for tune-up versus smog with a nested test for cars made in 1971 or before.](../media/2-process-flow-2-bad-branching.png)](../media/2-process-flow-2-bad-branching.png#lightbox)
+![Branching logic showing vehicle service for tune-up versus smog with a nested test for cars made in 1971 or before.](../media/2-process-flow-2-bad-branching.png)
 
 Notice the choices that exist around the Vehicle Service decision point.
 Two of the branches end up at the **Issue or Deny Smog
@@ -67,7 +66,8 @@ one. A better way to model this logic is to add a second decision point, as
 shown in the following figure. The approach that is shown in the diagram is supported because
 the decision stages are each testing one condition and all resolve to a single stage.
 
-![Branching logic diagram showing two sequential branching logic components with one that tests model year and
-another that tests service performed.](../media/3-process-flow-3-repaired-branching.png)
+> [!div class="mx-imgBorder"]
+> [![Branching logic diagram showing two sequential branching logic components with one that tests model year and
+another that tests service performed.](../media/3-process-flow-3-repaired-branching.png)](../media/3-process-flow-3-repaired-branching.png#lightbox)
 
 Study this example so you understand how to add another logical branch and model business process flows correctly.
