@@ -6,26 +6,22 @@ The following screenshot shows a new instance of your business process flow.
 Notice that only two fields are shown on the main screen (outlined in red): **Name** and **Owner**.
 The name of the record is similar to the title of this record, and the
 owner of the record is the current user who created the instance of the
-current business process flow. Now, you will add some fields to make this screen more useful.
+current business process flow. As mentioned previously, you can enhance 
+the user experience by ensuring an appropriate number of fields for every 
+stage. Now, you will add some fields to make this screen more useful.
+
+![Immersive flow with only two fields on main form.](../media/25-immersive-flow-2-fields-main-form.png)
 
 ## Add fields to the main form
 
 Follow these steps to add fields to the main form.
 
-![Immersive flow with only two fields on main form.](../media/25-immersive-flow-2-fields-main-form.png)
-
-1. Sign in to Power Automate, make sure that you are in the proper environment
-that you have been working in, select **My flows**, and then select **Business process flows**.
-
-1. Open the **Customer Check In** flow in design mode by selecting the pencil icon, as shown in the following screenshot.
+1. Navigate and sign in to [Power Apps](https://make.powerapps.com/), make sure that you are in the environment
+that you have been working in, select **Data**, **Tables**, and then select the appropriate table, in this case **Customer Check In**.
 
     ![Screenshot of Edit button for Customer Check In immersive flow.](../media/26-edit-customer-check-in.png)
 
-1. Select the last stage (Collect Payment) and then select the **Data Fields and Forms** link.
-
-    ![Screenshot of the link Click to add fields and forms.](../media/27-add-forms-fields-hyperlink.png)
-
-1. Start your enhancements by selecting the **+Add field** button and then adding the following fields.
+1. Start your enhancements by selecting the **+ Add column** button and then adding the following fields.
 
     ![Screenshot of the Add field button in the ribbon.](../media/28-add-fields.png)
 
@@ -33,22 +29,22 @@ that you have been working in, select **My flows**, and then select **Business p
 
     - **Transaction Date** - Date Only
 
-    - **Location** - New Option Set
+    - **Location** - Choose **Choice** as the column type and under choice, choose **New choice** and enter the following options:
 
         - Los Angeles
         - San Francisco
         - San Diego
         - Portland
 
-    - **Invoice Number** - Autonumber - leave the defaults that are provided by Power Automate and Microsoft Dataverse
+    - **Invoice Number** - Autonumber - leave the defaults that are provided by Microsoft Dataverse
 
-    - **Service Comments** - Text Area
+    - **Service Comments** - Multiline Text
 
 1. After you have added the new fields, save the entity by
-selecting the **Save Entity** button. Don't skip saving the entity or
+selecting the **Save Table** button. Don't skip saving the entity or
 your new fields will not be saved with the entity.
 
-   ![Screenshot of Power Apps Customer Check In on the Fields tab with the Save Entity button highlighted.](../media/29-select-save-entity-button.png)
+   ![Screenshot of Power Apps Customer Check In on the Fields tab with the Save Entity button highlighted.](../media/16-save-entity.png)
 
 1. To enhance the main form, select the **Forms** tab on the current screen, as shown in the following figure.
 
@@ -56,8 +52,7 @@ your new fields will not be saved with the entity.
 
 1. Select the top main form name, which is a hyperlink to the form
 designer (the name of your form might be different). This action will
-open the WYSIWYG forms designer. The WYSIWYG designer is not
-available for immersive business forms at this time.
+open the model-driven forms designer.
 
    ![Screenshot of Power Apps Customer Check In on the Forms tab with the main form, Information, highlighted.](../media/31-select-main-form.png)
 
@@ -66,21 +61,23 @@ available for immersive business forms at this time.
    ![Select the Switch to classic button in the ribbon.](../media/32-select-switch-classic.png)
 
 1. Scroll down to the **General** section at the bottom of the form.
-Double-click the **Name** field, rename the invoice title label to **Invoice Description**, and then select the **OK** button.
+Double-click the **Name** field, rename the label to **Invoice Description**, and then select the **OK** button.
 
    ![Rename the Name field to Invoice Title and select the OK button.](../media/33-rename-title-field.png)
 
-1. Drag the new fields that you previously added in this exercise
-onto the form, as shown in the following screenshot. Select the **Save** button and then select
-the **Publish** button in the ribbon at the top of the form designer.
+1. Drag the new fields that you previously added in this exercise from the list of fields on the right to the General form area on the left. 
 
+   ![Drag fields from the list of fields on the right to the canvas on the left.](../media/331-drag-field.png)
+ 
+1. Select the **Save** button and then select the **Publish** button in the ribbon at the top of the form designer.
+   
    ![Save and publish form by selecting buttons in the ribbon.](../media/34-save-publish-form.png)
 
 1. Close the **Designer** tab in the browser.
 
 1. Go back to the home page of Power Automate. Select **My flows** and
 **Business process flows**. Select the **Customer Check In** flow and run
-an instance of the flow by selecting the small triangle icon next to the
+an instance of the flow by selecting the play icon next to the
 flow name. It should look like the following screenshot. Add data to the
 main form and the stages and then save the record.
 
@@ -92,29 +89,23 @@ Your next task is to add a few fields to the main form
 from the data that you entered within a few of the stages. You will
 make these fields read-only.
 
-1. Go back to the list of business process flows (available from **My flows** in
-Power Automate).
+1. Navigate and sign in to [Power Apps](https://make.powerapps.com/), make sure that you are in the environment
+that you have been working in, select **Data**, **Tables**, and then select the appropriate table, in this case **Customer Check In**.
 
-1. Select the pencil icon next to the **Customer Check In** flow to enter
-the business process flow designer.
-
-1. Select the **Collect Payment** stage and then select the
-**Click to add fields and forms** hyperlink, as shown in the following figure.
-
-   ![Screenshot with Customer Check In Collect Payment stage highlighted and the Data Fields and Forms Click to add fields and forms link.](../media/36-add-forms-fields-hyperlink.png)
+    ![Screenshot of Edit button for Customer Check In immersive flow.](../media/26-edit-customer-check-in.png)
 
 1. Select the **Forms** tab.
 
-   ![Screenshot of Power Apps Customer Check In with the Forms tab in the ribbon highlighted.](../media/37-select-forms-tab.png)
+   ![Screenshot of Power Apps Customer Check In with the Forms tab highlighted.](../media/30-select-forms-tab.png)
 
-1. Select the name of the main form, which is a hyperlink to the form designer.
+1. Select the top main form name, which is a hyperlink to the form
+designer (the name of your form might be different).
 
-   ![Another screenshot of Power Apps Customer Check In on the Forms tab with the main form, Information, highlighted.](../media/38-select-main-form.png)
+   ![Screenshot of Power Apps Customer Check In on the Forms tab with the main form, Information, highlighted.](../media/31-select-main-form.png)
 
-1. Select **Switch to classic**, as shown in the following figure. Now, you are back at the
-form designer, where you'll make a few more changes.
+1. Select **Switch to classic** when the new screen opens.
 
-   ![Select Switch to Classic button in ribbon.](../media/39-select-switch-classic.png)
+   ![Select the Switch to classic button in the ribbon.](../media/32-select-switch-classic.png)
 
 1. Enhance the main form with some of the data that you collect
 within the stages. Clear the **Only show unused fields** option
@@ -166,10 +157,5 @@ Check In** flow to check that all the changes that you made are working properly
 The business process flow should look like the following screenshot.
 
    ![Main form with all fields added for Automobile Info.](../media/45-nearly-finished-main-form.png)
-
-You can create a new instance of the **Customer Check In** flow by selecting
-the **+ Add record** button in the ribbon.
-
-![Power Apps on the Entities tab with the Add record and Edit record buttons highlighted.](../media/46-detail-view-records.png)
 
 Congratulations, you've created a working business process flow.  
