@@ -30,13 +30,13 @@ instant workflow in Power Automate and add it to your business process solution.
 
 ![Complex instant flow with two sets of If yes and If no conditions.](../media/4-complex-instant-flow.png)
 
-Business process flows work within Power Platform and
+Business process flows work within Microsoft Power Platform and
 many options are available, including instant flows and approval flows that
 can run in concert with a business process flow to extend your solution.
 
 Business process flows don't exclude the possibility of adding
 more capabilities to the envisioned solution by using
-other components of Power Platform like Power Apps, Power
+other components of Microsoft Power Platform like Power Apps, Power
 Automate instant flows, or Power BI Dashboards. You can read more about
 instant flows by selecting the related links in the summary unit within
 this module.
