@@ -1,5 +1,7 @@
 Performance optimization, also known as performance tuning, involves making changes to the current state of the data model so that it runs more efficiently. Essentially, when your data model is optimized, it performs better.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWG0Ll]
+
 You might find that your report runs well in test and development environments, but when deployed to production for broader consumption, performance issues arise. From a report user's perspective, poor performance is characterized by report pages that take longer to load and visuals taking more time to update. This poor performance results in a negative user experience.
 
 As a data analyst, you will spend approximately 90 percent of your time working with your data, and nine times out of ten, poor performance is a direct result of a bad data model, bad Data Analysis Expressions (DAX), or the mix of the two. The process of designing a data model for performance can be tedious, and it is often underestimated. However, if you address performance issues during development, you will have a robust Power BI data model that will return better reporting performance and a more positive user experience. Ultimately, you will also be able to maintain optimized performance. As your organization grows, the size of its data grows, and its data model becomes more complex. By optimizing your data model early, you can mitigate the negative impact that this growth might have on the performance of your data model.
