@@ -37,9 +37,12 @@ quiz:
       explanation: The ID reader supports PDF and image (JPG, PNG) files.
   - content: Do you need to provide training data to train the ID reader?
     choices: 
-    - content: Yes, you do.
+    - content: Yes
       isCorrect: false 
-      explanation: Prebuilt models don't need training data; they're ready out of the box.
+      explanation: Prebuilt models do not require training data.
     - content: No, but you can improve the model by adding more data.
+      isCorrect: false
+      explanation: Prebuilt models do not require training data.
+    - content: Prebuilt models don't need training data; they're ready out of the box.
       isCorrect: true 
-      explanation: Prebuilt models don't need training data; they're ready out of the box.
+      explanation: Prebuilt models do not require training data.
