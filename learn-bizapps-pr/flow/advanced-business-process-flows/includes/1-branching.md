@@ -1,5 +1,4 @@
-By now you should know how to create a simple,
-two-step linear business process flow. Some business processes are
+By now you should know how to create a two-step linear business process flow. Some business processes are
 simple step-by-step sequential workflows, but many processes might need branching
 logic that requires one set of stages for one condition and another set of
 stages for an alternative condition. Think of this logic as an

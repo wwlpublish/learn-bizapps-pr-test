@@ -22,7 +22,7 @@ the store manager (you) when a new customer check-in record is created.
     ![Screenshot of the search results for Dataverse with the When a record is created option highlighted.](../media/20-search-common-data-service.png)
 
 1. Choose the change type **Create** and the table used in your business process flow, in this case **Customer Check In**. You must also choose a scope. 
-A scope determines whose actions trigger the flow, whether anyone in the organization, in your business unit, or just youself (user). For now, you can choose 
+A scope determines whose actions trigger the flow, whether anyone in the organization, in your business unit, or yourself (user). For now, you can choose 
 **User** since you have yet to test this process. Once complete, select **+ New step**.
 
     ![Dataverse When a record is created trigger with the three values filled in and the New step button highlighted.](../media/21-fill-out-record-created-trigger.png)

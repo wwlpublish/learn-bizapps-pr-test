@@ -6,7 +6,7 @@ advanced techniques:
 
 -   Use instant flows with an immersive business process flow
 
--   Creating additional fields and enhancing the main form to improve the usefulness of a business process flow
+-   Creating other fields and enhancing the main form to improve the usefulness of a business process flow
 
 Now you can take these concepts to further enhance your business processes to include automation, a logical flow to a process, and useful forms.
 
@@ -17,4 +17,3 @@ If you want to learn more about this topic, feel free to explore the following l
 - Learn more about using [Instant flows](/business-applications-release-notes/april19/microsoft-flow/instant-steps-business-process-flows/?azure-portal=true).
 
 - Additional information about [Business process flows](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview/?azure-portal=true).
-

@@ -11,8 +11,7 @@ a powerful capability that can supplement business process flows.
 
 Microsoft Power Automate offers instant workflows that can run (trigger)
 automatically based on a schedule, time, data value, or if a
-record is added, selected, or modified. These workflows can work in
-conjunction with a business process flow to gather approvals, copy data
+record is added, selected, or modified. These workflows can work with a business process flow to gather approvals, copy data
 from Dataverse to another data source, or trigger an email
 notification to specific users to alert them that something has changed and
 needs their attention. You can make instant flows that automatically
@@ -20,7 +19,7 @@ trigger based on a record that is created, deleted, or modified, or you can
 make the flows run (trigger) by having a user select a button within a step in a stage.
 
 Instant flows are made with Power Automate and they start with a single
-trigger followed by a series of actions. Unlike business process flows which take the 
+trigger followed by a series of actions. Unlike business process flows, which take the 
 user through a series of stages, instant flows may start with or contain user actions, 
 but their primary purpose is to take information from that action and designate 
 steps for cloud services through connectors rather than users. 
@@ -37,7 +36,7 @@ can run in concert with a business process flow to extend your solution.
 
 Business process flows don't exclude the possibility of adding
 more capabilities to the envisioned solution by using
-additional components of Power Platform like Power Apps, Power
+other components of Power Platform like Power Apps, Power
 Automate instant flows, or Power BI Dashboards. You can read more about
 instant flows by selecting the related links in the summary unit within
 this module.
