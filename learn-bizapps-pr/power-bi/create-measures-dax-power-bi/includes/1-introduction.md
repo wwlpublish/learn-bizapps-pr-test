@@ -1,5 +1,7 @@
 Data Analysis Expressions (DAX) is a programming language that is used throughout Microsoft Power BI for creating calculated columns, measures, and custom tables. It is a collection of functions, operators, and constants that can be used in a formula, or expression, to calculate and return one or more values. You can use DAX to solve a number of calculation and data analysis problems, which can help you create new information from data that is already in your model.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFLbx]
+
 In Power BI, you can use different calculation techniques and functions to create measures or calculated columns. Primarily, you will be able to achieve the same result by using these techniques; however, the key is to know how and when to apply them. By having a basic understanding of when and how to use which technique, you will be able to create robust and high-performance data models.
 
 By the end of this module, you'll be able to: 
