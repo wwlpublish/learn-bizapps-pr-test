@@ -10,7 +10,7 @@ Open the report you want in the Power BI mobile app on your mobile device. If th
  
 Tap the pushpin. Now, you can filter by city, state/province, or country/region, depending on the data in the report. The filter only lists options that match your current location.
 
-![Screenshot of applying a geographic location filter.]()
+![Screenshot of applying a geographic location filter.](../media/5-get-your-data-out-in-the-real-world/power-bi-mobile-app-geo-map-set-filter.png)
  
 For more information, see [Filter a report by geographic location in the Power BI mobile apps](/power-bi/consumer/mobile/mobile-apps-geographic-filtering).
 
@@ -24,11 +24,11 @@ First, you must have access to a report that included barcode data. This means t
 
 Then, when you're out in the field and come to a barcoded item whose report you want to see, you can open the app, tap **Scanner** from the **More options (...)** menu on the lower navigation bar, and then scan the barcode.
 
-![Screenshot of Scanner menu option.]()
+![Screenshot of Scanner menu option.](../media/5-get-your-data-out-in-the-real-world/)
  
 The report (or list of reports) that include items with that barcode will appear. Choose the report that you want, and when you open it, it will be filtered to that barcode.
 
-![Screenshot of list of reports that have barcode data.]()
+![Screenshot of list of reports that have barcode data.](../media/5-get-your-data-out-in-the-real-world/)
  
 While you've got the report open and you move on to another item that's included in that report, you can just tap **More options (...)** on the report footer to find the barcode scanner icon again so that you can scan the next barcode.
 
