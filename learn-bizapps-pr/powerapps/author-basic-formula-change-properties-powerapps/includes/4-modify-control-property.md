@@ -13,10 +13,10 @@ canvas and how to use the user's input to modify it. The control
 location on the canvas is based on a combination of two properties: the
 X and the Y property.
 
--   **X** -- The distance between the left edge of a control and the
+-   **X** - The distance between the left edge of a control and the
     left edge of the screen.
 
--   **Y** -- The distance between the top edge of a control and the top
+-   **Y** - The distance between the top edge of a control and the top
     edge of the screen.
 
 The **X** and **Y** properties apply to all controls except screens.
@@ -25,16 +25,16 @@ information is displayed and consumed by users.
 
 1.  Add a **Dropdown** control to your canvas app.
 
-	> Select **Dropdown** and change the **Items** property from **DropDownSample** to Table({Position:"Top"},{Position:"Bottom"},{Position:"Middle"})
+1.  Select **Dropdown** and change the **Items** property from **DropDownSample** to Table({Position:"Top"},{Position:"Bottom"},{Position:"Middle"})
 
-2.  On the **Insert** tab, click **Icons** and select the **Check**
+1.  On the **Insert** tab, click **Icons** and select the **Check**
     icon.
 
-3.  Set the **Y** property for the **Check** icon.
+1.  Set the **Y** property for the **Check** icon.
 
     ```
-    If(Dropdown1.Selected.Position ="Top",150,If(Dropdown1.Selected.Position = "Bottom",650,400))
+    If(Dropdown1.Selected.Position ="Top",150,Dropdown1.Selected.Position = "Bottom",650,400)
     ```
 
-4.  Test the formula. Select each position from the drop-down menu.
+1.  Test the formula. Select each position from the drop-down menu.
     Notice that the **Check** icon changes its Y position.

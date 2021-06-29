@@ -30,6 +30,9 @@ Consider a scenario where you have a solution that includes an app, table, and a
     > [!div class="mx-imgBorder"]
     > [![Screenshot of the Export this solution dialog with Export as set to Managed and the Export button highlighted.](../media/select-managed-unmanaged-ssm.png)](../media/select-managed-unmanaged-ssm.png#lightbox)
 
+	> [!NOTE]
+	> Solution Version numbers are used to keep track of the functionality contained in a particular solution release. Versioning is used in the Power Platform to determine if code being imported is a solution or a patch. Power Platform solution versions are in the format \<major\>.\<minor\>.\<build\>.\<revision\>. When you create a new version, you will be asked to enter the version number. This defaults to 1.0.0.0 and auto increments based on the Solution update. An update must have a higher major, minor, build or revision number than the parent solution. For example, for a base solution version 1.0.0.0, a small update could be a version 1.0.0.1 or a slightly more significant update could have version 1.0.1.0. A substantially more significant update could be version 2.2.0.0.
+
    In the upper left of the screen, you should see a message stating that the solution was exported and will download soon. Presently, a zipped file will be downloaded to your default download location.
 
     > [!div class="mx-imgBorder"]
