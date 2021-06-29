@@ -6,7 +6,7 @@ A useful capability that the Power BI mobile apps offer is the ability to filter
 
 Open the report you want in the Power BI mobile app on your mobile device. If the report has geographic data, a message will appear, asking you to allow Power BI to access your location. Select **Allow** and then tap **Allow** again. When the report opens, a pushpin icon will display.
 
-![Image of pushpin icon.]()
+![Image of pushpin icon.](../media/5-get-your-data-out-in-the-real-world/power-bi-mobile-app-push-pin.png)
  
 Tap the pushpin. Now, you can filter by city, state/province, or country/region, depending on the data in the report. The filter only lists options that match your current location.
 
