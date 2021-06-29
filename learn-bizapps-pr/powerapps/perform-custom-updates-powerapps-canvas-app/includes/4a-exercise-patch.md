@@ -1,5 +1,3 @@
-### Using the Patch function
-
 This hands-on lab shows you how to use the Patch function in a gallery. 
 
 1.  Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true).
@@ -48,7 +46,7 @@ set its **OnSelect** property to this formula:
 	```powerappsfl
 	Patch(CityPopulations,Defaults(CityPopulations),{Country:Country.Text,City:City.Text,Population:Value(Population.Text)})
 	```			
-1. Now lets add addtional Countries to our Gallery. Go to the right-hand side of the screen and click the Preview icon.
+1. Now lets add additional Countries to our Gallery. Go to the right-hand side of the screen and click the Preview icon.
 
 	![Screenshot of the Canvas app with Gallery, Preview icon.](../media/4a-exercise-patch-preview-icon.png)
 
