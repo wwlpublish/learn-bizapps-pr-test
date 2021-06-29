@@ -2,7 +2,7 @@ This hands-on lab shows you how to use the ForAll function in a gallery.
 
 1.  Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true).
   
-1.  On the Home screen select **Canvas app from blank**.
+1.  On the Home screen, select **Canvas app from blank**.
 
 	> [!div class="mx-imgBorder"]
 	> [![Screenshot of the Canvas app from blank feature.](../media/exercise-1.png)](../media/exercise-1.png#lightbox)
@@ -30,7 +30,7 @@ This hands-on lab shows you how to use the ForAll function in a gallery.
 1.  Press and hold **Alt Key**, and select the **Button** control, and set its **Text** property to "Collect" 
 (This will create your collection and store all the information).
 
-1.  Select the **Gallery** dropdown at the top and choose **Blank vertical** gallery and choose **CityPopulations** from the data source pop up.
+1.  Select the **Gallery** dropdown at the top and choose **Blank vertical** gallery and choose **CityPopulations** from the data source pop-up.
 
 1.  With the gallery selected, in the right pane, change the layout from blank to **Title, subtitle, and body**.
 
