@@ -49,7 +49,7 @@ This hands-on lab shows you how to use the Concurrent function to test performan
 1.  Press and hold **Alt Key**, and select the **Collection Button** control (This will create two collections named collectFruit and collectVegetable. The SpeedCollect label will display in milliseconds the amount of time it took to run the process information.).
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Canvas app from blank feature.](../media/exercise-1-performance-collection.png)](../media/exercise-1-performance-collection.png#lightbox)
+	> [![Screenshot of the Collection Button control with three displayed and highlighted.](../media/exercise-1-performance-collection.png)](../media/exercise-1-performance-collection.png#lightbox)
 
     The lbl_SpeedCollect shows the amount of time it took to run the OnSelect process.
 
@@ -94,13 +94,6 @@ This hands-on lab shows you how to use the Concurrent function to test performan
 
 1.  Press and hold **Alt Key**, and select the **Concurrent Button** control (This will create two collections named collectFruit and collectVegetable. The SpeedConcurrent label will display in millisecond the amount of time it took to run the process information.).
 
-    ![Screenshot of the Canvas app from blank feature.](../media/exercise-2-performance-concurrent.png)
+    ![Screenshot of the collection and concurent buttons.](../media/exercise-2-performance-concurrent.png)
 
  You see that adding the **Concurrent** function improved the performance of the **OnStart** collection process. Keep in mind because you can't predict the order in which formulas within the Concurrent function start and end. The Concurrent function shouldn't contain dependencies on other formulas within the same Concurrent function.
-
-
-
-
-
-
-    

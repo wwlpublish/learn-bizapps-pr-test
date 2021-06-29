@@ -1,12 +1,12 @@
 ## Scenario
 
 In the [exercise](/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise/?azure-portal=true) from the previous module of this learning path, you created the Prospects table in Microsoft Dataverse and imported the existing leads, now in this exercise you will use that data to create a model-driven app. 
-If you do not have the *Prospects* table then refer to the previous [exercise](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise) 
+If you do not have the *Prospects* table then refer to the previous [exercise](/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise) 
 This app will allow the sales team to enter and edit leads on the go and 
 keep the managers up to date on the current leads and forecasted revenue.
 
 ### Create the model-driven app for the prospects table
-After you have created the *Prospects* table from the previous [exercise](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise). You will need the *Prospects* table from the previous [exercise](https://docs.microsoft.com/en-us/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise) to complete this exercise.
+After you have created the *Prospects* table from the previous [exercise](/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise). You will need the *Prospects* table from the previous [exercise](/learn/modules/get-started-with-powerapps-common-data-service/4a-use-data-cds-exercise) to complete this exercise.
 
 1. Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true) by using your organizational account.
 1. Select the environment you want, or go to the [Power Apps admin center](https://admin.powerplatform.microsoft.com/?azure-portal=true) to create a new one.

@@ -54,6 +54,6 @@ set its **OnSelect** property to this formula:
 1. On the left Navigation Pane change the layout from blank to Title, subtitle, and body. 
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the Canvas app with Gallery, Collect button and checkbox.](../media/4a-exercise-forall-collection-change-gallery-type.png)](../media/4a-exercise-forall-collection-change-gallery-type.png#lightbox)
+	> [![Screenshot of properties with layout field and title, subtitle, and body dropdown.](../media/4a-exercise-forall-collection-change-gallery-type.png)](../media/4a-exercise-forall-collection-change-gallery-type.png#lightbox)
 
 You have now used the For All command to add all checked items to a new gallery.
