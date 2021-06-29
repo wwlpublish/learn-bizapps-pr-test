@@ -145,5 +145,3 @@ One advantage of viewing Power BI in a mobile app rather than in a mobile browse
 Power BI provides clear indicators when you go in and out of offline mode, as well as indicators for missing dashboards, reports, and tiles that aren't available offline. Some other types of content may not be available as well.
  
 For more information, see [View your data offline in the Power BI mobile apps](/power-bi/consumer/mobile/mobile-apps-offline-data).
-
-Now you know what Power BI is and why to use it. In the next unit, you'll learn how to navigate the Power BI user interface.
