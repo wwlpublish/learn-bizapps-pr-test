@@ -1,10 +1,8 @@
-### Using the variables and collections.
-
-This hands-on lab shows you how to create and use Global, Contextual and Collection functions. 
+This hands-on lab shows you how to create and use Global, Contextual, and Collection functions. 
 
 1. Sign into [Power Apps](https://make.powerapps.com/?azure-portal=true).
 
-1. On the Home screen select **Canvas app from blank**.
+1. On the Home screen, select **Canvas app from blank**.
 
     ![Screenshot of the Canvas app from blank feature.](../media/exercise-1.png)
 
@@ -16,7 +14,7 @@ This hands-on lab shows you how to create and use Global, Contextual and Collect
 
     ![Screenshot of the view screen with onstart and app highlighted.](../media/6a-exercise-app-onstart.png)
 
-1. Set the **OnStart** propery to this property to this formula:
+1. Set the **OnStart** property to this property to this formula:
 
     ```powerappsfl
     ClearCollect(collectCustomer, 
@@ -57,7 +55,7 @@ This hands-on lab shows you how to create and use Global, Contextual and Collect
     ```
 1.  Press and hold **Alt Key**, and select the first **Trash can** icon. 
 
-    This will delete the selected row from the collection. While this process works you probably want to give a warning message that the row will be deleted. 
+    This will delete the selected row from the collection. While this process works, you probably want to give a warning message that the row will be deleted. 
 
 	Now let's create a popup warning to inform the user about the deletion and give them an option to cancel.
 
@@ -121,11 +119,11 @@ This hands-on lab shows you how to create and use Global, Contextual and Collect
         button_Delete
         button_Cancel
 
-1. Right-Click Select **Group** set the **Visable** property of Group1 the below:
+1. Right-Click Select **Group** set the **Visible** property of Group1 the below:
 
         varPopup
 
-	You have just created a popup box that will delete the selected Customer from the gallery. 
+	You have created a popup box that will delete the selected Customer from the gallery. 
 
 	Let's test the Delete function.
 
