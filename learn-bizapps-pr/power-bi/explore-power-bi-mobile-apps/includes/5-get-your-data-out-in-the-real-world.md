@@ -1,107 +1,46 @@
-We all live in a data culture where business decisions should be based on facts, not opinions. We need data to help us make these decisions.
+The Power BI mobile apps leverage your mobile device's location and scanning capabilities to make access to your data easier and more efficient when you're out in the field or on the go. You can get a filtered view of your data based on you location, and you can scan QR codes and barcodes to open reports and get filtered views of data.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2PMcs]
+## Filter reports by your geographic location
 
-Every day, colleagues send you all types of data, from reports to spreadsheets, emails with charts, and even printed handouts. As the data accumulates, the task of quickly finding what you need, when you need it, becomes more difficult. Too much data increases the risk that you're not using the most recent information.
+A useful capability that the Power BI mobile apps offer is the ability to filter data by geographic location. When you are out in the field, if the report that you need has geographical data, such as data for a particular city, state, or region, you can filter that report based on your geographic location.
 
-Power BI can help make your job easier and more effective at the same time by converting all that data into charts and graphs to help you visualize your data in meaningful ways.
+Open the report you want in the Power BI mobile app on your mobile device. If the report has geographic data, a message will appear, asking you to allow Power BI to access your location. Select **Allow** and then tap **Allow** again. When the report opens, a pushpin icon will display.
 
-![Image showing data overload with reports, charts, email, and spreadsheets.](../media/1-1/power-bi-data-overload.png)
+![Image of pushpin icon.]()
+ 
+Tap the pushpin. Now, you can filter by city, state/province, or country/region, depending on the data in the report. The filter only lists options that match your current location.
 
-You can view data insights from colorful and compelling visuals instead of just lists and tables.
+![Screenshot of applying a geographic location filter.]()
+ 
+For more information, see [Filter a report by geographic location in the Power BI mobile apps](/power-bi/consumer/mobile/mobile-apps-geographic-filtering).
 
-![Image of Power BI on a computer, tablet, and phone.](../media/1-1/power-bi-tools.png)
+## Scan barcodes to get filtered reports
 
-You and your colleagues can work from the same trusted dashboards and reports from a browser or mobile device. Because your data updates and refreshes automatically, you’re always working with the freshest content.
+Consider a scenario where you're checking inventory in a large supermarket, and while you're out in the aisles you need to get information about particular products, such as how many the store has in stock, what departments the items are stocked in, and so on. With the Power BI mobile app, you can open the Power BI scanner on your mobile device, scan an item's barcode, and quickly get to the relevant report, already filtered to the data you need.
 
-![Image of data channels combined by Power B I.](../media/1-1/power-bi-data-consolidated.png)
+Here's how it works.
 
-Furthermore, because the content isn’t static, you can explore your data further by looking for trends, insights, and other business intelligence. The intuitive features of Power BI allow you to slice the content and even ask questions by using your own words. Let Power BI monitor your data for you, and send you alerts when data changes above or below a threshold you set. All your data is available anytime, whether it’s in the cloud or on-premises, from any device.
+First, you must have access to a report that included barcode data. This means that you or a colleague has created a report in Power BI Desktop that includes barcode data, and that the report has been published to the Power BI service and shared with you.
 
-## How to know if you're a Power BI consumer
+Then, when you're out in the field and come to a barcoded item whose report you want to see, you can open the app, tap **Scanner** from the **More options (...)** menu on the lower navigation bar, and then scan the barcode.
 
-The way you interact with Power BI depends on your job role. As a user or consumer, you're the person who receives dashboards, reports, and apps from designers who create them. Also, you work in the online version of Power BI (called Power BI service) reviewing and interacting with this data to make business decisions.
+![Screenshot of Scanner menu option.]()
+ 
+The report (or list of reports) that include items with that barcode will appear. Choose the report that you want, and when you open it, it will be filtered to that barcode.
 
-You don’t need to be a data scientist to perform complex data analysis. Power BI does the complex work for you with straightforward and intuitive controls.
+![Screenshot of list of reports that have barcode data.]()
+ 
+While you've got the report open and you move on to another item that's included in that report, you can just tap **More options (...)** on the report footer to find the barcode scanner icon again so that you can scan the next barcode.
 
-![Roles of different Power BI consumers and designers.](../media/1-1/power-bi-roles.png)
+For more information, see [Scan barcodes from the mobile app to get filtered data](/power-bi/consumer/mobile/mobile-apps-scan-barcode-iphone).
 
-All you need to get started is simply a browser or mobile device and an internet connection.
+## Scan QR codes to get directly to relevant information
 
-## Safely interact with content
+With QR codes in Power BI you can connect any item in the real world directly to related Power BI information, eliminating the need to search for or navigate to that information.
 
-You can explore and interact with your content, filter, slice, subscribe, and export, without affecting the underlying dataset or the original dashboards, reports, or apps.
+Consider another scenario where a colleague has created a QR code in the Power BI service for a report or for a tile in a dashboard, shared the dashboard or report with you, and then placed the QR code in a key location, such as in an email or on a specific item. Afterward, you can scan the QR code for immediate access to the relevant tile or report, directly from your phone by using the scanner in the Power BI app or any other scanner that is installed on your phone.
 
-> [!NOTE]
-> Remember, you cannot hurt your data. Power BI is a great place for you to explore and experiment without worrying that you’ll “break” anything.
+For more information, see [Scan a Power BI QR code from your mobile device](/power-bi/consumer/mobile/mobile-apps-qr-code).
 
-That doesn't mean you can't save your changes; you can, but your changes only affect your view of the content. Furthermore, reverting to the original default view is as simple as selecting the **Reset to default** button.
-
-![Screenshot of the "Reset to default" button.](../media/1-1/power-bi-reset-to-default.png)
-
-## Display details on a visual
-
-Visuals are made up of datapoints, and by hovering over a datapoint, you can view the details.
-
-![Animation of finding additional information in a chart and a map. ](../media/1-1/power-bi-hover.gif)
-
-## Show data that is used to create a visual
-
-Use the Show Data feature if you want to view data that Power BI is using to build a visual. The selected visual expands to fill the canvas, and the data displays below or alongside.
-
-![Screenshot of a chart and the underlying data that created it.](../media/1-1/power-bi-show-data.png)
-
-## Export data
-
-In addition to showing the data that is used to create a visual, you can also export that data and view it in Microsoft Excel. When you export to Excel, you’re creating a separate document, a spreadsheet that isn't part of Power BI. Any changes that you make in the Excel file won’t impact the data in Power BI. Whether you want to take a closer look at the data, or you want to use the data in another application or for another purpose, Power BI gives you that flexibility.
-
-![Screenshot of the context menu with the "Export data" option highlighted.](../media/1-1/power-bi-export-excel.png)
-
-Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
-
-![Screenshot of exporting reports to PowerPoint.](../media/1-1/power-bi-powerpoint.png)
-
-## Cross highlight and cross filter report content
-
-All visuals in a report are related. Highlight or select a value in one visual and instantly view its impact on the other visuals.
-
-![Animated screenshot of a cross-filter in action.](../media/1-1/power-bi-cross-filter.gif)
-
-## Collaborate with colleagues
-
-Skip the email. With the Power BI comment feature, you can add a personal comment or start a conversation with colleagues about a dashboard, right there on that dashboard. The comment feature is just one of the ways you can collaborate with others.
-
-![Animated image of @mentions for comments in Power B I.](../media/1-1/power-bi-comment.gif)
-
-## Let Power BI work for you
-
-With subscriptions and alerts, Power BI sends information to you in email, on a schedule that you set.  
-
-### Subscribe to reports and dashboards
-
-To stay up-to-date on your most important content, you can subscribe to report pages and dashboards that matter most to you. Power BI will send a snapshot to your email inbox.
-
-![Screenshot of Subscribe functionality in Power B I.](../media/1-1/power-bi-subscribe.png)
-
-### Get alerts when your data reaches a threshold
-
-Your data is live, and your visuals will update automatically. If you want to be notified when data changes above or below a threshold that you have set, use data alerts.
-
-![Screenshot of a Power B I alert with a value in red.](../media/1-1/power-bi-alert.png)
-
-Power BI sends you an email when the value passes any upper or lower limit that you set.
-
-Power BI can enable everyone—not just data specialists—with real insight into what is happening. It allows you, as a consumer, to make better and more informed decisions.
-
-In Power BI, you have the tools to explore and interact with the data to find answers to questions and to discover new insights. Additionally, you can:
-
-- ask questions by using natural language
-- collaborate with your team
-- share what you discover, and
-- take action from your desk or on the go.
-
-Power BI is straightforward and delivers powerful data-backed business intelligence to help you answer questions, make decisions, track progress, make predictions, stay up-to-date on a regular cadence, and much more.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2PHbV]
 
 Now you know what Power BI is and why to use it. In the next unit, you'll learn how to navigate the Power BI user interface.
