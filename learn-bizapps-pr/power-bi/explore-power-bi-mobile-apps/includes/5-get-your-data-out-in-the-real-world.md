@@ -41,6 +41,3 @@ With QR codes in Power BI you can connect any item in the real world directly to
 Consider another scenario where a colleague has created a QR code in the Power BI service for a report or for a tile in a dashboard, shared the dashboard or report with you, and then placed the QR code in a key location, such as in an email or on a specific item. Afterward, you can scan the QR code for immediate access to the relevant tile or report, directly from your phone by using the scanner in the Power BI app or any other scanner that is installed on your phone.
 
 For more information, see [Scan a Power BI QR code from your mobile device](/power-bi/consumer/mobile/mobile-apps-qr-code).
-
-
-Now you know what Power BI is and why to use it. In the next unit, you'll learn how to navigate the Power BI user interface.
