@@ -14,7 +14,7 @@ This hands-on lab shows you how to create and use Global, Contextual and Collect
 
 1. On the App Object 
 
-    ![Screenshot of the Canvas app from blank feature.](../media/6a-exercise-app-onstart.png)
+    ![Screenshot of the view screen with onstart and app highlighted.](../media/6a-exercise-app-onstart.png)
 
 1. Set the **OnStart** propery to this property to this formula:
 
@@ -33,7 +33,7 @@ This hands-on lab shows you how to create and use Global, Contextual and Collect
 
 1. Click the **ellipsis (…)** and Select **Run OnStart** this will run the **OnStart** formula you just entered and populate the collection.
 
-    ![Screenshot of the Canvas app from blank feature.](../media/6a-exercise-app-run-onstart.png)
+    ![Screenshot of the ellipsis with run onstart selected.](../media/6a-exercise-app-run-onstart.png)
 
 1. Select the **Insert** tab and add **Gallery**, set its **Items** property to **collectCustomer**.
 
@@ -48,7 +48,7 @@ This hands-on lab shows you how to create and use Global, Contextual and Collect
 
     Your Gallery will now include the Trash can icon.
 
-    ![Screenshot of the Canvas app from blank feature.](../media/6a-exercise-gallery-trashcan.png)
+    ![Screenshot of the gallery with the trash can icons displayed.](../media/6a-exercise-gallery-trashcan.png)
 
 1. Select the **Trash icon** and the below formula to its **OnSelect** property:
 
