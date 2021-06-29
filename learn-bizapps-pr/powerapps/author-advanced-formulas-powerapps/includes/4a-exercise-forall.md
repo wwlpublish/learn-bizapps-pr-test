@@ -1,7 +1,7 @@
 This hands-on lab shows you how to use the ForAll function in a gallery. 
 
 1.  Sign in to [Power Apps](https://make.powerapps.com/?azure-portal=true).
-2.  
+  
 1.  On the Home screen select **Canvas app from blank**.
 
 	> [!div class="mx-imgBorder"]

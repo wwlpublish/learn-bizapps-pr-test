@@ -2,7 +2,7 @@ Solutions allow you to package features, such as apps in Microsoft Power Apps (c
 
 Solutions are part of the overall application lifecycle management (ALM) practice of Microsoft Power Platform. Solutions are important mechanisms for implementing ALM. For more information, see [Solutions for implementing ALM](https://docs.microsoft.com/power-platform/alm/overview-alm/?azure-portal=true).
 
-## Learn the basics: Power Apps, Power Automate flows, connection references, and environment variables
+## Learn the basics
 
 ### Power Apps
 
