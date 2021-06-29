@@ -1,4 +1,4 @@
-On [Power Apps](https://make.powerapps.com/?azure-portal=true), you can use a sample app to explore design possibilities. You'll also discover concepts that you can apply as you develop your own apps. Every sample app uses fictitious data to showcase a real-world scenario.
+In [Power Apps](https://make.powerapps.com/?azure-portal=true), you can use a sample app to explore design possibilities. You'll also discover concepts that you can apply as you develop your own apps. Every sample app uses fictitious data to showcase a real-world scenario.
 
 For more details, be sure to check out the documentation that's specific to each sample app.
 
@@ -6,7 +6,7 @@ For more details, be sure to check out the documentation that's specific to each
 
 ## Get sample apps
 
-Before you can experiment with or edit the model-driven sample apps, you must set them up in a Microsoft Dataverse database. First, create a trial environment and a database, and then select the **Deploy sample apps and data** toggle.
+Before you can experiment with or edit the model-driven sample apps, you must set them up in a Microsoft Dataverse database. If you have not already created a trial enviroment, follow the steps in the [Create a trial (standard) environment in the Power Platform admin center](/power-platform/admin/trial-environments/?azure-portal=true) learning module. Make sure that you select the **Deploy sample apps and data** toggle.
 
 ![Deploy sample apps and data toggle screenshot.](../media/deploy-sample-apps.png)
 
