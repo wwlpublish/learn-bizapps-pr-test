@@ -1,107 +1,77 @@
-We all live in a data culture where business decisions should be based on facts, not opinions. We need data to help us make these decisions.
+To maximize your experience with the mobile app, you can create shortcuts and alerts, share reports and dashboards, play reports as slideshows, and use split-screen mode to multi-task with other apps.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2PMcs]
+## Use shortcuts to get straight to your reports and dashboards
 
-Every day, colleagues send you all types of data, from reports to spreadsheets, emails with charts, and even printed handouts. As the data accumulates, the task of quickly finding what you need, when you need it, becomes more difficult. Too much data increases the risk that you're not using the most recent information.
+To quickly get to your frequently used reports or dashboards on your mobile device, you can create shortcuts that get you straight to where you want to go.
 
-Power BI can help make your job easier and more effective at the same time by converting all that data into charts and graphs to help you visualize your data in meaningful ways.
+On iOS devices, you can create voice-activated Siri shortcuts as well as shortcuts that you can put on your home screen.
 
-![Image showing data overload with reports, charts, email, and spreadsheets.](../media/1-1/power-bi-data-overload.png)
+To create a Siri shortcut, tap **Siri shortcut** under the **More options(...)** menu on the footer of your report or dashboard.
 
-You can view data insights from colorful and compelling visuals instead of just lists and tables.
+![Screenshot of Siri shortcut menu option.]()
+ 
+On the **Add to Siri** page that appears, type in a phrase that Siri can use to open your item in Power BI, and then tap **Add to Siri**.
 
-![Image of Power BI on a computer, tablet, and phone.](../media/1-1/power-bi-tools.png)
+![Screenshot of Add to Siri page.]()
+ 
+After you've created the Siri shortcut, you can access your dashboard or report by activating Siri by voice and saying the shortcut phrase. Siri will launch Power BI and take you right to the report or dashboard you wanted.
 
-You and your colleagues can work from the same trusted dashboards and reports from a browser or mobile device. Because your data updates and refreshes automatically, you’re always working with the freshest content.
+After you've created a Siri shortcut to some Power BI content, you can also add it to your device's home screen. Then, with a single tap on your home screen, you can open your content directly. To create a Sira home screen shortcut, follow the instructions on Apple support's [Shortcuts User Guide](https://support.apple.com/en-il/guide/shortcuts/apd735880972/ios) page.
 
-![Image of data channels combined by Power B I.](../media/1-1/power-bi-data-consolidated.png)
+For more information, see [Using Siri shortcuts in the Power BI Mobile iOS App](power-bi/consumer/mobile/mobile-apps-ios-siri-shortcuts).
 
-Furthermore, because the content isn’t static, you can explore your data further by looking for trends, insights, and other business intelligence. The intuitive features of Power BI allow you to slice the content and even ask questions by using your own words. Let Power BI monitor your data for you, and send you alerts when data changes above or below a threshold you set. All your data is available anytime, whether it’s in the cloud or on-premises, from any device.
+On Android devices, you can also create shortcuts to put on your home screen. Select the **Add shortcut** option under the **More options(...)** menu on the report or dashboard's footer.
 
-## How to know if you're a Power BI consumer
+![Screenshot of the Add shortcut option in the Android's More options menu.]()
+              
+After you’ve created a shortcut, you can access your dashboard or report by tapping the shortcut icon on the home screen.
 
-The way you interact with Power BI depends on your job role. As a user or consumer, you're the person who receives dashboards, reports, and apps from designers who create them. Also, you work in the online version of Power BI (called Power BI service) reviewing and interacting with this data to make business decisions.
+![Screenshot of shortcut on Android home screen.]()
+ 
+On Android devices, shortcuts to frequently viewed reports and dashboards are also available on a quick access menu that you can display with a long tap on the app launcher icon (the icon that you got when you installed the mobile app on your device). This quick access menu changes from time to time, depending on what you've been looking at. From the quick access menu, you can create a permanent home screen shortcut by dragging it onto the home screen.
 
-You don’t need to be a data scientist to perform complex data analysis. Power BI does the complex work for you with straightforward and intuitive controls.
+![Screenshot of quick access menu on Android shortcut.]()
+ 
+For more information, see [Use Android app Shortcuts in the Power BI Android app](/power-bi/consumer/mobile/mobile-app-quick-access-shortcuts).
 
-![Roles of different Power BI consumers and designers.](../media/1-1/power-bi-roles.png)
+## Create alerts for when data needs your attention
 
-All you need to get started is simply a browser or mobile device and an internet connection.
+While you're on the go, you can set up alerts on dashboards in the Power BI mobile apps to notify you when data that you're interested in has changed. Alerts that you set up on your mobile device will also be visible in the Power BI service. Likewise, in the mobile apps you will receive alerts that you have set up in the Power BI service.
 
-## Safely interact with content
+Alerts can be set up for tiles that feature a single number, such as cards and gauges, but not for tiles with streaming data.
+To set up an alert, find the visual you're interested in, tap **More options (...)** in the upper-right corner of the visual, and then select **Manage alerts**. 
+ 
+![Screenshot of Manage alerts option.]()
 
-You can explore and interact with your content, filter, slice, subscribe, and export, without affecting the underlying dataset or the original dashboards, reports, or apps.
+For more information, see [Set data alerts in the Power BI mobile apps](/power-bi/consumer/mobile/mobile-set-data-alerts-in-the-mobile-apps).
 
-> [!NOTE]
-> Remember, you cannot hurt your data. Power BI is a great place for you to explore and experiment without worrying that you’ll “break” anything.
+## Share reports and dashboards 
 
-That doesn't mean you can't save your changes; you can, but your changes only affect your view of the content. Furthermore, reverting to the original default view is as simple as selecting the **Reset to default** button.
+Sharing views of your reports and dashboards with colleagues is simple from the Power BI mobile apps. To share views, go to the item that you want to share, apply the filters or bookmarks that you need to get the view of the data that you want to share, and then select the **Share** option, which is located in the header under **More options (...)**. If enough space is available on the header, the **Share** option might already be visible on the header. 
 
-![Screenshot of the "Reset to default" button.](../media/1-1/power-bi-reset-to-default.png)
+![Screenshot of Share option in iOS and Android.]()
+ 
+When you tap the **Share button**, you'll be able to choose one of the communications apps that you have on your device, such as your email app. A link to the view that you created will be sent through the app that you chose.
+ 
+You can also share your reports when you annotate them. Select the options menu on the report footer, choose **Annotate**, make your annotations, and then share them by tapping the **Share** icon in the upper-right corner of the screen.
 
-## Display details on a visual
+![Screenshot of Share option from Annotate page.]()
+ 
+## Play reports as slideshows
 
-Visuals are made up of datapoints, and by hovering over a datapoint, you can view the details.
+On Windows devices, you can play a report as a slideshow that cycles through the report’s pages, bookmarks, or both, depending on what you choose. You can also set up your slideshow to start playing automatically whenever the app is launched. This feature is useful for creating kiosk-like experiences where you want your report to run in a public display without manual intervention.
 
-![Animation of finding additional information in a chart and a map. ](../media/1-1/power-bi-hover.gif)
+Learn more about [slideshows](/power-bi/consumer/mobile/mobile-windows-10-app-presentation-mode#slideshows) in the Power BI mobile app documentation.
 
-## Show data that is used to create a visual
+## Use split screen mode to work with other apps side by side
 
-Use the Show Data feature if you want to view data that Power BI is using to build a visual. The selected visual expands to fill the canvas, and the data displays below or alongside.
+There may be times when you want to view and interact with your data while working in another app, such as writing an email. If your iPad or Android tablet has multi-window support, you can open the two apps side by side.
 
-![Screenshot of a chart and the underlying data that created it.](../media/1-1/power-bi-show-data.png)
+![Screenshot showing split-screen mode in portrait and landscape orientation.]()
+ 
+Once both your apps are open side by side, you can adjust the size of the screens by dragging the border between the apps left and right.
 
-## Export data
+Check your tablet's documentation to see how to open apps in split screen mode on your device.
 
-In addition to showing the data that is used to create a visual, you can also export that data and view it in Microsoft Excel. When you export to Excel, you’re creating a separate document, a spreadsheet that isn't part of Power BI. Any changes that you make in the Excel file won’t impact the data in Power BI. Whether you want to take a closer look at the data, or you want to use the data in another application or for another purpose, Power BI gives you that flexibility.
-
-![Screenshot of the context menu with the "Export data" option highlighted.](../media/1-1/power-bi-export-excel.png)
-
-Exporting isn’t limited to individual visuals; you can export entire reports to PowerPoint or PDF to share with your colleagues.
-
-![Screenshot of exporting reports to PowerPoint.](../media/1-1/power-bi-powerpoint.png)
-
-## Cross highlight and cross filter report content
-
-All visuals in a report are related. Highlight or select a value in one visual and instantly view its impact on the other visuals.
-
-![Animated screenshot of a cross-filter in action.](../media/1-1/power-bi-cross-filter.gif)
-
-## Collaborate with colleagues
-
-Skip the email. With the Power BI comment feature, you can add a personal comment or start a conversation with colleagues about a dashboard, right there on that dashboard. The comment feature is just one of the ways you can collaborate with others.
-
-![Animated image of @mentions for comments in Power B I.](../media/1-1/power-bi-comment.gif)
-
-## Let Power BI work for you
-
-With subscriptions and alerts, Power BI sends information to you in email, on a schedule that you set.  
-
-### Subscribe to reports and dashboards
-
-To stay up-to-date on your most important content, you can subscribe to report pages and dashboards that matter most to you. Power BI will send a snapshot to your email inbox.
-
-![Screenshot of Subscribe functionality in Power B I.](../media/1-1/power-bi-subscribe.png)
-
-### Get alerts when your data reaches a threshold
-
-Your data is live, and your visuals will update automatically. If you want to be notified when data changes above or below a threshold that you have set, use data alerts.
-
-![Screenshot of a Power B I alert with a value in red.](../media/1-1/power-bi-alert.png)
-
-Power BI sends you an email when the value passes any upper or lower limit that you set.
-
-Power BI can enable everyone—not just data specialists—with real insight into what is happening. It allows you, as a consumer, to make better and more informed decisions.
-
-In Power BI, you have the tools to explore and interact with the data to find answers to questions and to discover new insights. Additionally, you can:
-
-- ask questions by using natural language
-- collaborate with your team
-- share what you discover, and
-- take action from your desk or on the go.
-
-Power BI is straightforward and delivers powerful data-backed business intelligence to help you answer questions, make decisions, track progress, make predictions, stay up-to-date on a regular cadence, and much more.
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2PHbV]
 
 Now you know what Power BI is and why to use it. In the next unit, you'll learn how to navigate the Power BI user interface.
