@@ -24,11 +24,11 @@ First, you must have access to a report that included barcode data. This means t
 
 Then, when you're out in the field and come to a barcoded item whose report you want to see, you can open the app, tap **Scanner** from the **More options (...)** menu on the lower navigation bar, and then scan the barcode.
 
-![Screenshot of Scanner menu option.](../media/5-get-your-data-out-in-the-real-world/)
+![Screenshot of Scanner menu option.](../media/5-get-your-data-out-in-the-real-world/power-bi-mobile-app-scanner.png)
  
 The report (or list of reports) that include items with that barcode will appear. Choose the report that you want, and when you open it, it will be filtered to that barcode.
 
-![Screenshot of list of reports that have barcode data.](../media/5-get-your-data-out-in-the-real-world/)
+![Screenshot of list of reports that have barcode data.](../media/5-get-your-data-out-in-the-real-world/power-bi-mobile-app-barcode-scan-choose-report.png)
  
 While you've got the report open and you move on to another item that's included in that report, you can just tap **More options (...)** on the report footer to find the barcode scanner icon again so that you can scan the next barcode.
 
