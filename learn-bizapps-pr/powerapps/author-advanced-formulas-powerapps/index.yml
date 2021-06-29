@@ -3,7 +3,7 @@ uid: learn-bizapps.author-advanced-formulas
 metadata: 
   title: Create formulas that use tables, records, and collections in a canvas app in Power Apps
   description: Do you have need for complex formulas in your app? This module can help you write those formulas.
-  ms.date: 04/29/2021  
+  ms.date: 06/29/2021  
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial  
@@ -34,6 +34,7 @@ units:
 - learn-bizapps.author-advanced-formulas.2-math-operation 
 - learn-bizapps.author-advanced-formulas.3-combine-separate-records 
 - learn-bizapps.author-advanced-formulas.4-forall-function 
+- learn-bizapps.author-advanced-formulas.4a-exercise-forall
 - learn-bizapps.author-advanced-formulas.5-knowledge-check 
 - learn-bizapps.author-advanced-formulas.6-summary 
 badge: 
