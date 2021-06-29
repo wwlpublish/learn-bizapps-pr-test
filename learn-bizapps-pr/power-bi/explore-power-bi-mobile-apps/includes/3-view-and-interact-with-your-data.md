@@ -81,11 +81,11 @@ In the mobile apps, you interact with filters on the filters pane. When you're i
 
 The filters pane has tabs that display the filters that are relevant for the level you're viewing. For instance, in the report pictured in the image below, there are filters that apply to the whole report, filters that apply to specific pages, and filters that apply to specific visuals. As a result, you see three tabs on the filters pane. Tap a tab to see and change the filters for the particular level.
 
-![Screenshot illustrating the three filter tabs.](../media/3-view-and-interact-with-your-data/)
+![Screenshot illustrating the three filter tabs.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-filter-icons-page.png)
  
 From a visual, you tap the **More options (...)** menu in the upper-right corner of the visual and then tap the **Open visual-level filters** option. The filters pane will open to the visual-level tab.
 
-![Screenshot of visual-level tab.](../media/3-view-and-interact-with-your-data/)
+![Screenshot of visual-level tab.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-open-visual-level-filters.png) 
                       
 If you had opened the filters pane from a report page, you would have seen only two tabs, one for report-level filters and another for the page-level filters, because only those tabs would be the relevant filters for that context.
 
@@ -95,25 +95,25 @@ You can browse through report pages in numerous ways:
 
 * Tap the down arrow next to the report title to display the navigation pane, and then select the desired page.
 
-    ![Screenshot of browsing pages using the navigation tree.](../media/3-view-and-interact-with-your-data/)
+    ![Screenshot of browsing pages using the navigation tree.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-nav-to-page.png)
 
 * Swipe firmly from the side of the screen toward the center. Swipe from the right side to advance, and swipe from the left side to go back.
 
-    ![Screenshot of browsing pages by swiping right and left.](../media/3-view-and-interact-with-your-data/)
+    ![Screenshot of browsing pages by swiping right and left.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-swipe-to-browse.png)
 
 * Tap the Pages icon in the report footer.
 
-    ![Screenshot of browsing pages using the pages icon.](../media/3-view-and-interact-with-your-data/)
+    ![Screenshot of browsing pages using the pages icon.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-pages-icon-report-footer.png)
 
 ## Report actions
 
 The report footer contains icons that you can use to perform common actions. You’ve already seen a few of them in previous sections. 
 
-![Screenshot of action icons in report footer.](../media/3-view-and-interact-with-your-data/)
+![Screenshot of action icons in report footer.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-report-footer-action-bar.png)
  
 The **More options (...)** menu contains all report actions: both the common actions you see on the report footer as well as a number of other actions.
 
-![Image showing full list of report actions.](../media/3-view-and-interact-with-your-data/)
+![Image showing full list of report actions.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-report-actions-more-options.png)
 
 For more information, see [Explore reports in the Power BI mobile apps](/power-bi/consumer/mobile/mobile-reports-in-the-mobile-apps).
 
