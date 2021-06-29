@@ -140,26 +140,3 @@ This hands-on lab shows you how to create and use Global, Contextual and Collect
 1. This time Click **Cancel**, the popup window closes and INV29595 remains in the gallery.
 
 Now you have created a dynamic collection, created a global variable and created a pop-up that uses a contextual variable.
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
