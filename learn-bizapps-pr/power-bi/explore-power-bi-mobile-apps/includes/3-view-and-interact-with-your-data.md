@@ -125,13 +125,13 @@ In the Power BI mobile apps, you can't create bookmarks - you can only *use* the
 
 You can see any bookmarks that have been created for a report on the bookmarks menu under **More options (...)** on the report actions toolbar. While you can't create bookmarks in the mobile apps, you can mark an existing personal bookmark as the default bookmark by selecting the **More options (...)** ellipsis that follows the personal bookmark name and choosing **Make default**. If do this, the next time you open the report, it will open to the view defined by the that default bookmark.
 
-![Screenshot of bookmarks menu, showing the Make default option.](../media/3-view-and-interact-with-your-data/)
+![Screenshot of bookmarks menu, showing the Make default option.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-bookmarks-menu.png)
   
 ## Refresh your data
 
 Report data refreshes when you open a report. You can also refresh report data manually by pulling down slightly from top to bottom on the report page.
 
-![Screenshot illustrating pulling down on report to refresh data.](../media/3-view-and-interact-with-your-data/)
+![Screenshot illustrating pulling down on report to refresh data.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-refresh-report.png)
 
 >[!NOTE]
 > In the mobile apps, data is always refreshed with the data as it is in the Power BI service, never directly from the data source.
