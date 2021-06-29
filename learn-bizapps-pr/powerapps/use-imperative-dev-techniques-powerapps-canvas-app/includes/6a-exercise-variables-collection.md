@@ -131,7 +131,7 @@ This hands-on lab shows you how to create and use Global, Contextual and Collect
 
 1.  Press and hold **Alt Key**, and select the **Trash can** icon for  invoice# INV70817. 
 
-     ![Screenshot of the Canvas app from blank feature.](../media/6a-exercise-popup.png)
+     ![Screenshot of the delete and cancel buttons.](../media/6a-exercise-popup.png)
 
 1. Click the **Delete** button, INV70817 is removed from the gallery.
 
