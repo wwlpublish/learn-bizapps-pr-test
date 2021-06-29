@@ -6,9 +6,9 @@ This hands-on lab shows you how to use the Concurrent function to test performan
 
     ![Screenshot of the Canvas app from blank feature.](../media/exercise-1.png)
 
-1.   Name your app **New App** , format **Tablet** and click **Create**.
-    
-	![Screenshot of the new app named New UI App with Create button.](../media/exercise-2.png)
+1. Name your app **New App** , format **Tablet** and click **Create**.
+
+    ![Screenshot of the new app named New UI App with Create button.](../media/exercise-2.png)
 
 1. Select the **Insert** tab and add a button, name it button_Collection, set its **Text** property to Collection and set its **OnSelect** property to this formula:
 
