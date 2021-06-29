@@ -42,11 +42,11 @@ When viewing reports on the app, you can use focus mode for report visuals. Focu
 
 In a phone report, tap **More options (...)** in the upper-right corner of a visual and then tap **Expand to focus mode**.
 
-![Screenshot of expand to focus mode option.](../media/3-view-and-interact-with-your-data/)
+![Screenshot of expand to focus mode option.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-expand-to-focus-mode.png)
  
 In focus mode, you can long tap data points to get tooltips and drill down on data, just like you can when you're not in focus mode. You'll also have a footer and a **More options (…)** menu that offer more ways of exploring and interacting with the data of the visual.
 
-![Screenshot of visual actions available in focus mode.](../media/3-view-and-interact-with-your-data/)
+![Screenshot of visual actions available in focus mode.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-visual-focus-mode-options.png)
  
 Some options change, depending on the kind of visual you're focusing on. Possible options are described in the following table.
 
@@ -61,13 +61,13 @@ Some options change, depending on the kind of visual you're focusing on. Possibl
 
 What you do in focus mode carries over to the report canvas and vice versa. For example, if you highlight a value in a visual and then return to the whole report, the report will be filtered to the value you highlighted in the visual.
 
-To clear all exploration from a visual, tap the **Reset visual** button ![Image of the reset visual button.](../media/3-view-and-interact-with-your-data/).
+To clear all exploration from a visual, tap the **Reset visual** button ![Image of the reset visual button.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-reset-visuals-button.png).
 
 ## Zoom in and out of your data
 
 Use the pinch gesture to zoom in and out of your reports to examine them in greater detail.
 
-![Image illustrating zoom in and zoom out pinching motions](../media/3-view-and-interact-with-your-data/)
+![Image illustrating zoom in and zoom out pinching motions](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-zoom-in-zoom-out.png)
 
 ## Filter your data
 
