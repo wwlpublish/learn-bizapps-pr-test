@@ -1,0 +1,45 @@
+### YamlMime:ModuleUnit 
+uid: learn-bizapps.intro-to-power-bi-mobile-apps.7-check 
+title: Check your knowledge
+metadata: 
+ title: Check your knowledge
+ description: Answer the following questions to see what you've learned.
+ ms.date: 06/30/2021 
+ author: paulinbar 
+ ms.author: painbar 
+ ms.topic: interactive-tutorial 
+ ms.prod: learning-power-bi 
+  
+durationInMinutes: 5 
+quiz: 
+  title: Answer the following questions to see what you've learned.
+  questions: 
+  - content: How can you get Power BI to spot outliers and trends in your data?
+    choices: 
+    - content: Use the Spotlight feature  
+      isCorrect: false 
+      explanation: The Quick insights feature is built on a growing set of advanced analytical algorithms that allow people to find insights in their data in intuitive ways. 
+    - content: Export data to Microsoft Excel
+      isCorrect: false 
+      explanation: The Quick insights feature is built on a growing set of advanced analytical algorithms that allow people to find insights in their data in intuitive ways. 
+    - content: Use Quick insights
+      isCorrect: true 
+      explanation: The Quick insights feature is built on a growing set of advanced analytical algorithms that allow people to find insights in their data in intuitive ways. 
+    - content: Use Custom Q&A 
+      isCorrect: false 
+      explanation: The Quick insights feature is built on a growing set of advanced analytical algorithms that allow people to find insights in their data in intuitive ways. 
+
+  - content: How could you gather, arrange, and share interesting Power BI visuals from several different sources?
+    choices: 
+    - content: Pin them to a Power BI report
+      isCorrect: false 
+      explanation: A Power BI dashboard is a single page, often called a canvas, that uses visualizations from a variety of reports to tell a story.
+    - content: Pin them to a Power BI dashboard
+      isCorrect: true 
+      explanation: A Power BI dashboard is a single page, often called a canvas, that uses visualizations from a variety of reports to tell a story.
+    - content: Export them to PDF
+      isCorrect: false 
+      explanation: A Power BI dashboard is a single page, often called a canvas, that uses visualizations from a variety of reports to tell a story.
+    - content: Use the Get Data feature
+      isCorrect: false 
+      explanation: A Power BI dashboard is a single page, often called a canvas, that uses visualizations from a variety of reports to tell a story.

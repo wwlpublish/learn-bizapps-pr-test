@@ -20,6 +20,3 @@ To find the app settings, tap your profile picture in the upper-left corner of t
 ![Screenshot of the Settings gear on an iOS device]()
  
 This action gets  you to the settings page. The iOS and Android pages differ slightly.
-
-
-Now you know what Power BI is and why to use it. In the next unit, you'll learn how to navigate the Power BI user interface.
