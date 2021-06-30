@@ -1,14 +1,14 @@
 ﻿### YamlMime:Module
 uid: learn-bizapps.powerapps-get-started
 metadata:
-  title: Get started with Power Apps
+  title: Get started with Power Apps canvas apps
   description: Learn the basics of Power Apps and how you can use it in your organization.
   ms.date: 03/31/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-powerapps
-title: Get started with Power Apps
+title: Get started with Power Apps canvas apps
 summary: |
   [!include[](../includes/module-banner.md)]
 

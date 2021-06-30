@@ -1,5 +1,7 @@
 Microsoft Power BI dashboards are different than Power BI reports. Dashboards allow report consumers to create a single artifact of directed data that is personalized just for them. Dashboards can be comprised of pinned visuals that are taken from different reports. Where a Power BI report uses data from a single dataset, a Power BI dashboard can contain visuals from different datasets.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWG0LA]
+
 Well-built dashboards capture the main, most important highlights of the story that you are trying to tell. The following screenshot is an example of a well-built dashboard.
 
 > [!div class="mx-imgBorder"]
