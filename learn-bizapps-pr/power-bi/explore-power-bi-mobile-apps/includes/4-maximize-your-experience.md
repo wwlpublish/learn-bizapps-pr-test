@@ -26,11 +26,11 @@ On Android devices, you can also create shortcuts to put on your home screen. Se
               
 After you’ve created a shortcut, you can access your dashboard or report by tapping the shortcut icon on the home screen.
 
-![Screenshot of shortcut on Android home screen.](../media/4-maximize-your-experience/)
+![Screenshot of shortcut on Android home screen.](../media/4-maximize-your-experience/../media/4-maximize-your-experience/power-bi-mobile-app-android-home-screen-shortcut.png)
  
 On Android devices, shortcuts to frequently viewed reports and dashboards are also available on a quick access menu that you can display with a long tap on the app launcher icon (the icon that you got when you installed the mobile app on your device). This quick access menu changes from time to time, depending on what you've been looking at. From the quick access menu, you can create a permanent home screen shortcut by dragging it onto the home screen.
 
-![Screenshot of quick access menu on Android shortcut.](../media/4-maximize-your-experience/power-bi-mobile-app-android-home-screen-shortcut.png)
+![Screenshot of quick access menu on Android shortcut.](../media/4-maximize-your-experience/power-bi-mobile-app-android-home-screen-quick-access-shortcut.png)
  
 For more information, see [Use Android app Shortcuts in the Power BI Android app](/power-bi/consumer/mobile/mobile-app-quick-access-shortcuts).
 
