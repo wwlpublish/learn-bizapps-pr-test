@@ -17,6 +17,8 @@ To customize your experience with the Power BI mobile app, you can configure num
 
 To find the app settings, tap your profile picture in the upper-left corner of the home page and then tap **Settings**. The following image shows this process on iOS; however, the process is similar on Android.
 
-![Screenshot of the Settings gear on an iOS device]()
+![Screenshot of the Settings gear on an iOS device](../media/6-configure-app-settings/power-bi-mobile-app-settings-gear-ios.png)
  
 This action gets  you to the settings page. The iOS and Android pages differ slightly.
+
+![Screenshot of the Settings gear on an iOS device](../media/6-configure-app-settings/power-bi-mobile-app-settings-page.png)
