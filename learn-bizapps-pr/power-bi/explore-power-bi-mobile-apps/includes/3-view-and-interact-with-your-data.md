@@ -1,4 +1,4 @@
-AAfter you have a report open in the app, you can start working with it. You can do many things with your report and its data. By tapping and long tapping on the data that is shown in the report, you can slice and dice the data. In the report footer, you'll find actions that you can take on the report.
+After you have a report open in the app, you can start working with it. You can do many things with your report and its data. By tapping and long tapping on the data that is shown in the report, you can slice and dice the data. In the report footer, you'll find actions that you can take on the report.
  
 Some reports have pages that are optimized for mobile viewing and are shown in portrait orientation. Whenever you come to a page that is not optimized for mobile viewing, it usually flips automatically to landscape orientation, and you can view it just as you would in a regular web browser. If the page doesn't flip automatically, the app will prompt you to flip your device to see the page.
 
@@ -79,7 +79,7 @@ Report authors often create filters to highlight specific data. Several kinds of
 
 In the mobile apps, you interact with filters on the filters pane. When you're in a report, you can open the filters pane using the filter icon in the report footer.
 
-The filters pane has tabs that display the filters that are relevant for the level you're viewing. For instance, in the report pictured in the image below, there are filters that apply to the whole report, filters that apply to specific pages, and filters that apply to specific visuals. As a result, you see three tabs on the filters pane. Tap a tab to see and change the filters for the particular level.
+The filters pane has tabs that display the filters that are relevant for the level you're viewing. For instance, in the report pictured in the image below, there are filters that apply to the whole report, filters that apply to the specific page you're on. As a result, you see two tabs on the filters pane. Tap a tab to see and change the filters for the particular level you're interested in.
 
 ![Screenshot illustrating the three filter tabs.](../media/3-view-and-interact-with-your-data/power-bi-mobile-app-filter-icons-page.png)
  

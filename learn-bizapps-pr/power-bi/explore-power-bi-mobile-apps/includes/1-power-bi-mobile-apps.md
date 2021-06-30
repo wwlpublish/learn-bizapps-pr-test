@@ -18,4 +18,3 @@ Get the Power BI app that suits your device.
 |Android  |iOS  |Windows 10  |
 |---------|---------|---------|
 |[![Image of link logo for Android app.](../media/1-power-bi-mobile-apps/android-store-hotlink.png)](https://go.microsoft.com/fwlink/?LinkId=544867)     |[![Image of link logo for iOS app.](../media/1-power-bi-mobile-apps/app-store-hotlink.png)](https://go.microsoft.com/fwlink/?LinkId=526218)         |[![Image of link logo for Windows 10 app.](../media/1-power-bi-mobile-apps/windows-store-hotlink.png)](https://go.microsoft.com/fwlink/?LinkId=526478)         |
-
