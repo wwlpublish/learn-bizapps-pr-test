@@ -14,32 +14,19 @@ durationInMinutes: 5
 quiz: 
   title: Answer the following questions to see what you've learned.
   questions: 
-  - content: How can you get Power BI to spot outliers and trends in your data?
+  - content: In the Power BI mobile apps, you can do all of the following except:
     choices: 
-    - content: Use the Spotlight feature  
+    - content: Share reports and dashboards with colleagues.  
       isCorrect: false 
-      explanation: The Quick insights feature is built on a growing set of advanced analytical algorithms that allow people to find insights in their data in intuitive ways. 
-    - content: Export data to Microsoft Excel
-      isCorrect: false 
-      explanation: The Quick insights feature is built on a growing set of advanced analytical algorithms that allow people to find insights in their data in intuitive ways. 
-    - content: Use Quick insights
+      explanation: You can share reports and dashboards with the Power BI mobile apps. Just open the report or dashboard, and then in the header open the More options (...) menu and tap the Share icon.  
+    - content: Create reports and dashboards.
       isCorrect: true 
-      explanation: The Quick insights feature is built on a growing set of advanced analytical algorithms that allow people to find insights in their data in intuitive ways. 
-    - content: Use Custom Q&A 
+      explanation: Reports must be created in Power BI Desktop or in the Power BI service. Dashboards are created in the Power BI serice.  
+    - content: Set up alerts that notify you when data you're interested in has changed.
       isCorrect: false 
-      explanation: The Quick insights feature is built on a growing set of advanced analytical algorithms that allow people to find insights in their data in intuitive ways. 
+      explanation: You can define alerts both in the Power BI mobile apps and in the Power BI service. You'll receive alert notifications both in the mobile app and in the Power BI service, regardless of whether you created the alert in the mobile app or in the service. 
+    - content: Analyze anomalous spikes and dips in your data. 
+      isCorrect: false 
+      explanation: The Power BI mobile apps support anomaly detection. If anomaly detection has been enabled for a report, spikes and dips in your data that exceed defined thresholds are indicated on the report. By tapping the anomalous data points you open the Anomalies pane where you can view possible explanations for the anomalous values.
 
-  - content: How could you gather, arrange, and share interesting Power BI visuals from several different sources?
-    choices: 
-    - content: Pin them to a Power BI report
-      isCorrect: false 
-      explanation: A Power BI dashboard is a single page, often called a canvas, that uses visualizations from a variety of reports to tell a story.
-    - content: Pin them to a Power BI dashboard
-      isCorrect: true 
-      explanation: A Power BI dashboard is a single page, often called a canvas, that uses visualizations from a variety of reports to tell a story.
-    - content: Export them to PDF
-      isCorrect: false 
-      explanation: A Power BI dashboard is a single page, often called a canvas, that uses visualizations from a variety of reports to tell a story.
-    - content: Use the Get Data feature
-      isCorrect: false 
-      explanation: A Power BI dashboard is a single page, often called a canvas, that uses visualizations from a variety of reports to tell a story.
+      asdf
