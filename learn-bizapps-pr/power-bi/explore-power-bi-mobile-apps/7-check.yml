@@ -28,5 +28,17 @@ quiz:
     - content: Analyze anomalous spikes and dips in your data. 
       isCorrect: false 
       explanation: The Power BI mobile apps support anomaly detection. If anomaly detection has been enabled for a report, spikes and dips in your data that exceed defined thresholds are indicated on the report. By tapping the anomalous data points you open the Anomalies pane where you can view possible explanations for the anomalous values.
-
-      asdf
+  - content: Which of the following can you do in the Power BI mobile app but not in the Power BI service?
+    choices:
+    - content: Cross-highlight data in visuals by selecting data points.
+      isCorrect: false 
+      explanation: Cross-highlighting is supported in both the Power BI service and in the mobile apps.
+    - content: View reports and dashboards when you're offline.
+      isCorrect: true 
+      explanation: While you're offline, you can access and interact with dashboards you've accessed previously from the mobile app. You also have read-only access to any Power BI reports you've accessed previously from the mobile app. While offline, you can see the full report, but you cannot not filter, cross-filter, sort, or use slicers on it.
+    - content: Use drill down, drill up, and drill through capabilities when they're defined.
+      isCorrect: false 
+      explanation: Drill down, drill up, and drill through are supported both in the mobile app and in the Power BI service. You access drill down controls by long tapping a data point to display a tooltip.
+    - content: Define personal bookmarks to define a configured view of your data. 
+      isCorrect: false 
+      explanation: Both report bookmarks are defined in Power BI Desktop. Personal bookmarks are defined in the Power BI service. In the Power BI mobile app, you cannot define bookmarks, but you can mark an existing personal bookmark as the default bookmark, which means that each time you open the report, it will open to the view defined by that bookmark.
