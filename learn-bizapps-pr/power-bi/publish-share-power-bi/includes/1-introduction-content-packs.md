@@ -1,5 +1,7 @@
 Likely, you will want to share your reports and dashboards with your coworkers and friends at some point. With Power BI, publishing and sharing your reports and dashboards is straightforward.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWG2db]
+
 Tasks in this module:
 - Publish reports
 - Print and export reports

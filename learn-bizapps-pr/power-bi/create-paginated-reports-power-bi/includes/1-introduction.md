@@ -1,5 +1,7 @@
 Paginated reports allow report developers to create Power BI artifacts that have tightly controlled rendering requirements. Paginated reports are ideal for creating sales invoices, receipts, purchase orders, and tabular data. This module will teach you how to create reports, add parameters, and work with tables and charts in paginated reports.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWFJCH]
+
 ### Paginated reports defined
 
 Paginated reports give a pixel-perfect view of the data. Pixel perfect means that you have total control of how the report renders. If you want a footer on every sales receipt that you create, a paginated report is the appropriate solution. If you want a certain customer's name to always appear in green font on a report, you can do that in a paginated report.
