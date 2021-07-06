@@ -1,5 +1,7 @@
 Microsoft Power BI can help you secure reports and workspaces by allowing you to share them to active directory users and groups. You can also share a single report but have users see different data according to their job role.
 
+> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWFJCU]
+
 For example, consider a scenario where you work for Tailspin Traders. You use the following table to track sales.
 
 > [!div class="mx-imgBorder"]
