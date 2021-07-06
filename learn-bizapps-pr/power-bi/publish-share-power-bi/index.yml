@@ -7,7 +7,8 @@ metadata:
  author: heyrob  
  ms.author: robde  
  ms.topic: interactive-tutorial  
- ms.prod: learning-power-bi  
+ # ms.prod: learning-power-bi  
+ ms.service: power-bi
 title: Publish and share in Power BI
 summary: |
   [!include[](../includes/module-banner.md)]
