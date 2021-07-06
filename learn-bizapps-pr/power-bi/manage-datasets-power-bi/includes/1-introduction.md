@@ -1,5 +1,7 @@
 When your datasets are published to your organization's workspace in Microsoft Power BI service, everyone who needs access to those datasets can find them in a central location, which provides opportunities for collaboration between teams. It also reduces the duplication of effort because one dataset can be used by multiple users for different business reasons. For instance, one dataset can be used to create multiple Power BI reports. Because preparing and cleaning data can be time-consuming, sharing datasets can be a productivity boost for report authors.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFJCT]
+
 The sharing of datasets needs to be actively managed for optimal organizational performance. For example, you can automate the refresh process so that it becomes more efficient and users always have access to the latest data. You can also promote certain datasets over others so that users can clearly identify the best datasets to use.
 
 Management of datasets also involves the implementation of parameters within those datasets to help with decision making and solve business problems. For example, you can use parameters to change the server or database name of your dataset or a file path for a data source. You can also use parameters to configure incremental refreshes of your data and to run "what-if" scenarios and conduct scenario-type analysis on the data.

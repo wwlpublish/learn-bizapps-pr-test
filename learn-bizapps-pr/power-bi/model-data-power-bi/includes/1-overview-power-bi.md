@@ -1,5 +1,7 @@
 Often, you'll connect to multiple data sources to create your reports. All that data needs to work together to create a cohesive report. *Modeling* is how to get your connected data ready for use.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFTX7]
+
 Tasks in this module:
 - Create relationships between your data sources 
 - Create a new field with calculated columns

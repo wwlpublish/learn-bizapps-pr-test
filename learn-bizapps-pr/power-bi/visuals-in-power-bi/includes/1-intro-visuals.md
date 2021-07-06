@@ -1,4 +1,6 @@
-*Visuals* allow you to present data in a compelling and insightful way, and help you *show* the important components of it. Power BI has many compelling visuals and many more that are released frequently. 
+*Visuals* allow you to present data in a compelling and insightful way, and help you *show* the important components of it. Power BI has many compelling visuals and many more that are released frequently.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFP5W]
 
 The following are the tasks that you'll complete in this module:
 - Explore Power BI visuals

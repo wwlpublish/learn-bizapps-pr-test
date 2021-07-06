@@ -1,5 +1,7 @@
 Analytics encompasses emerging industry practices, such as data mining, big data analytics, machine learning, AI, and predictive analytics. It is a term that is used to describe the technical aspects of analytics that have predictive capabilities and can be used to solve business problems.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFJCL]
+
 Analytics can transform raw data into an extensive collection of information that categorizes data to identify and analyze behavioral data and patterns. Organizations can use this information to analyze the current state of their operations and to predict future behavior and trends by asking "what-if" questions. Additionally, analytics can help with fraud detection, image recognition, sentiment analysis, overall general employee productivity, and it also often replaces cumbersome manual processes.
 
 Consider the scenario where you ask an employee to determine the cause of a recent spike in sales. The employee might have to painstakingly inspect each sale, interview customers, talk to sales people, and examine market trends. Instead, you can use the Microsoft Power BI key influencers visual to use advanced analytics and possibly get an answer much faster. The visual is only as good as the data that you give it, so you'll still have to collect the data and organize it. The actual analytics, however, can be done for you or at least give you an excellent start.
