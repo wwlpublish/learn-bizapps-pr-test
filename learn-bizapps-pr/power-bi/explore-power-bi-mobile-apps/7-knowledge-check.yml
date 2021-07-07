@@ -34,8 +34,8 @@ quiz:
       isCorrect: false
       explanation: In the mobile apps you can apply filters to a report, then share that filtered view with colleagues.
     - content: Viewing reports you're creating in Power Desktop but haven't yet published to the Power BI service.
-        isCorrect: true	
-        explanation: In the mobile apps you can only view content that is available to you in your Power BI service account. You cannot see content that you're working on in Power BI Desktop.
+      isCorrect: true	
+      explanation: In the mobile apps you can only view content that is available to you in your Power BI service account. You cannot see content that you're working on in Power BI Desktop.
   - content: Which of the following can you do in the mobile app but not in the Power BI service?
     choices:
     - content: Cross-highlight data in visuals by selecting data points.
