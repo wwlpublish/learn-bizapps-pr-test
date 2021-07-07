@@ -1,5 +1,7 @@
 This unit explores the Power BI service and shows how it can help you turn your business intelligence data into data insights.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFP5X]
+
 The following are the tasks that you will complete in this module:
 - Upload reports
 - Create dashboards

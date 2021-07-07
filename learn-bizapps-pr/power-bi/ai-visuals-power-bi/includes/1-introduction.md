@@ -1,5 +1,7 @@
 Microsoft Power BI gives you a wide range of methods to analyze your data and get answers to your questions. This module examines the Power BI features that are based in advanced analytics and visualization.
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWFJCM]
+
 Occasionally, the fastest way to get an answer is to ask a question by using your own words. Power BI allows you to do exactly that method with its advanced analytics AI capabilities. One feature of Power BI is that it allows you to ask questions by using natural language, and then it will answer those questions for you.
 
 Similarly, your dataset is likely numerical, where it consists of numbers, amounts, measures, and so on. You've been successfully analyzing this numerical data to get insights. Analyzing non-numerical data can be difficult, but with the AI capabilities of Power BI, you can analyze text data to get more insights than before. For example, you might have an abundance of comments or reviews from customers or the results of an employee survey that have been left long forgotten in a database. Now, you can analyze this additional data and transform it into valuable information.
