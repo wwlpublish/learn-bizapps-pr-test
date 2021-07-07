@@ -21,4 +21,4 @@ To find the app settings, tap your profile picture in the upper-left corner of t
  
 This action gets  you to the settings page. The iOS and Android pages differ slightly.
 
-![Screenshot of the Settings gear on an iOS device](../media/6-configure-app-settings/power-bi-mobile-app-settings-page.png)
+![Screenshot of the Settings page on an iOS device](../media/6-configure-app-settings/power-bi-mobile-app-settings-page.png)

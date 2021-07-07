@@ -18,7 +18,7 @@ After you've created the Siri shortcut, you can access your dashboard or report 
 
 After you've created a Siri shortcut to some Power BI content, you can also add it to your device's home screen. Then, with a single tap on your home screen, you can open your content directly. To create a Sira home screen shortcut, follow the instructions on Apple support's [Shortcuts User Guide](https://support.apple.com/en-il/guide/shortcuts/apd735880972/ios) page.
 
-For more information, see [Using Siri shortcuts in the Power BI Mobile iOS App](power-bi/consumer/mobile/mobile-apps-ios-siri-shortcuts).
+For more information, see [Using Siri shortcuts in the Power BI Mobile iOS App](/power-bi/consumer/mobile/mobile-apps-ios-siri-shortcuts).
 
 On Android devices, you can also create shortcuts to put on your home screen. Select the **Add shortcut** option under the **More options(...)** menu on the report or dashboard's footer.
 
