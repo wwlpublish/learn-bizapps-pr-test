@@ -1,7 +1,7 @@
 Several options are available for your team to make the flows that they build more maintainable:
 
 - Use meaningful naming conventions and make sure that you consider admins and users.
-- Rename each action, such as renaming the **List wows** action to **List Account Contacts** instead.
+- Rename each action, such as renaming the **List rows** action to **List Account Contacts** instead.
 - Use comments on actions to document purpose.
 - Use child flows to prevent overly complex flows or repeated logic.
 
