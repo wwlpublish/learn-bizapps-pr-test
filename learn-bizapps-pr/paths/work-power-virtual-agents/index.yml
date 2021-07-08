@@ -3,12 +3,15 @@ uid: learn-bizapps.work-power-virtual-agents
 metadata:
   title: Create bots with Power Virtual Agents
   description: Learn how to create and manage bots with Power Virtual Agents.
-  ms.date: 08/21/2020
+  ms.date: 07/07/2021
   author: DaveBeasley
   ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-apps
 title: Create bots with Power Virtual Agents
+video:
+  title: "Create Bots with Power Virtual Agents"
+  url: https://www.microsoft.com/videoplayer/embed/RWFMft
 summary: |
   [!include[](../../includes/lp-banner.md)]
   Get started creating bots with Power Virtual Agents. This Learning Path starts with the creation of bots, enhancing the bots, and finishes with managing bots. 
