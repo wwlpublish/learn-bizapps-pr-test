@@ -8,7 +8,7 @@ In this exercise, you'll create a flow that extracts invoice data from scanned d
 
     ![Screenshot of the Display select file dialog action.](..\media\exercise-display-select-file-dialog-action.png)
 
-1. Add an **Extract text with OCR** action to the workspace and configure it to extract text from the previously selected image. In the **OCR engine seetings**, set the image width and height multipliers to 2.
+1. Add an **Extract text with OCR** action to the workspace and configure it to extract text from the previously selected image. In the **OCR engine settings**, set the image width and height multipliers to 2.
 
     ![Screenshot of the Extract text with O C R action.](..\media\exercise-extract-text-with-ocr-action.png)
 

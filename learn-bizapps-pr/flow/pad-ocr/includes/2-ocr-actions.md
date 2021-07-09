@@ -4,7 +4,7 @@ Power Automate Desktop provides a wide variety of optical character recognition 
 
 To perform any OCR operation, you have to initialize an OCR engine. OCR engines are software tools used to convert typed or handwritten content into a machine-readable and editable format.
 
-Power Automate Desktop supports thr Google Tesseract engine through the **Create Tesseract OCR engine** actions.
+Power Automate Desktop supports thr Google Tesseract engine through the **Create Tesseract OCR engine** action.
 
 ![Screenshot of the Create Tesseract O C R engine action.](..\media\create-tesseract-ocr-engine-action.png)
 
