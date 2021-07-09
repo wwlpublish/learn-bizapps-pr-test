@@ -28,14 +28,14 @@ The Excel document contains a list of customers. Each customer has a first name,
 
 1. Add five **Write to Excel worksheet** actions, one for each column (or header). In the first of these actions, set **Value to write** to **First Name**, and then set the **Column** property to **A**.
 
-![Screenshot of Write to Excel worksheet properties dialog.](..\media\write-to-excel-exercise.png)
+    ![Screenshot of Write to Excel worksheet properties dialog.](..\media\write-to-excel-exercise.png)
 
-The rest of the **Write to Excel worksheet** actions should be configured as follows:
+    The rest of the **Write to Excel worksheet** actions should be configured as follows:
 
-- **Last Name** — Column B
-- **Age** — Column C
-- **State** — Column D
-- **City** — Column E
+    - **Last Name** — Column B
+    - **Age** — Column C
+    - **State** — Column D
+    - **City** — Column E
 
 ### Switch positions of two columns
 
