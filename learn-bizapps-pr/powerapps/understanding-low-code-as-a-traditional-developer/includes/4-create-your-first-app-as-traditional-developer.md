@@ -3,11 +3,11 @@ In this unit, you'll create a mobile app to help which people in the field will 
 There are hundreds of data connectors that Power Apps can connect to out of the box, for lots of Microsoft products and services and for 3rd party services too. If there is no connector for what you need, a developer can build a custom connector to make that connection.
 
 > [!NOTE]
-> Power Apps requires either an Microsoft 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate.](https://docs.microsoft.com/powerapps/administrator/pricing-billing-skus)
+> Power Apps requires either an Microsoft 365 license or a free trial. Learn more about your licensing options. [Microsoft products include Microsoft Power Apps and Power Automate.](/powerapps/administrator/pricing-billing-skus)
 
 ## Connect to a data source
 
-To connect to a data source, use the following procedure: 
+To connect to a data source, use the following procedure:
 
 1. Download the [Flooring Inventory workbook](https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform/blob/master/power-apps/understand-low-code/FlooringInventory.xlsx?raw=true) and save it to OneDrive for Business.
 
@@ -24,14 +24,15 @@ To connect to a data source, use the following procedure:
 
 1. Under **OneDrive for Business**, select **Create**.  
 1. Under **Connections**, select **OneDrive for Business** and browse to the file location.
-    You might need to select **New Connection** to see the **OneDrive for Business** connection. 
+    You might need to select **New Connection** to see the **OneDrive for Business** connection.
 1. Under **Choose an Excel file**, select the **FlooringInventory.xlsx** file.
-1. Under **Choose a table**, select the **FlooringEstimates** table. 
+1. Under **Choose a table**, select the **FlooringEstimates** table.
 1. Select **Connect** on the bottom right.
 
 Power Apps generates the app by inspecting your data and matching it with Power Apps capabilities so that you get a working app as a starting point.
 
 ## Preview the generated app
+
 Your new three screen app now opens in Power Apps Studio.
 
 [![Power Apps main development window for Power Apps Studio.](../media/powerapps-full-screen.png)](../media/powerapps-full-screen.png#lightbox)
@@ -63,15 +64,15 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Select **BrowseScreen1** in the tree view to go back to the first screen, and select the **(+)** icon to select it.
 
-1. Choose the **OnSelect** property from theh dropdown list next to the formula bar, replace the contents of the formula bar with this:
+1. Choose the **OnSelect** property from the dropdown list next to the formula bar, replace the contents of the formula bar with this:
 
-    ```powerappsfl
+    ```powerapps
         Navigate(InventoryRequest, None)
     ```
 
 1. Hold down the ALT key, and select the **(+)** icon to test the Navigate function you just wrote; the app should load the InventoryRequest screen you created a moment ago.
 
-1. Now select **EditForm1_1** in the tree view, and press the _<Delete>_ key to delete the control.
+1. Now select **EditForm1_1** in the tree view, and press the **Delete** key to delete the control.
 
 ### Add controls to the new screen
 
@@ -97,7 +98,7 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Sort the items by name by entering the following formula:
 
-    ```powerappsfl
+    ```powerapps
         Sort(FlooringInventory, Name, Ascending)
     ```
 
@@ -117,7 +118,7 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 1. Change the icon's OnSelect formula to the formula below. This formula will send an email to yourself, asking for more inventory to be ordered.
 
-```powerappsfl
+```powerapps
 Office365Outlook.SendEmailV2(
     User().Email,
     "New Request: " & TextInput1.Text,
@@ -140,6 +141,7 @@ To make your app visible on the phone, it needs to be saved and published. Selec
 The first time you save a new app, it is automatically published, making the version you just saved "live". After that first save, additional saves do not automatically go live, but are just saved as new versions. In the future, you will need to select the **Publish** button that shows up on the save screen after you have clicked **Save**.
 
 ## Install the app on your device
+
 To see how the app runs on mobile, install the Power Apps Mobile app on your phone. When building an app, you should test it in the same form factor as your users.
 
 1. Download Power Apps Mobile from the app store for the platform that you want to use.
