@@ -99,7 +99,7 @@ The generated app includes a screen for adding rows of data by repurposing the d
 1. Sort the items by name by entering the following formula:
 
     ```powerapps
-        Sort(FlooringInventory, Name, Ascending)
+        Sort(FlooringEstimates, Name, Ascending)
     ```
 
     [![Power Apps Studio editing window showing errors in the app after the last step](../media/studio-with-errors.jpeg)](../media/studio-with-errors.jpeg#lightbox)
