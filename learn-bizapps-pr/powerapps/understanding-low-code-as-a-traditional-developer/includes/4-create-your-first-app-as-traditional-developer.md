@@ -46,22 +46,22 @@ All apps that are generated from data have the same set of screens that you can 
 
 ## Explore the generated app
 
-Click on the **(X)** icon in the upper-right corner to return the app to edit mode. Notice that the app, even while in edit mode, is actively running, as if in watch mode for a traditional application. As you make changes to control properties and Power Fx formulas, the app will automatically respond to those changes, even in edit mode.
+Select the **(X)** icon in the upper-right corner to return the app to edit mode. Notice that the app, even while in edit mode, is actively running, as if in watch mode for a traditional application. As you make changes to control properties and Power Fx formulas, the app will automatically respond to those changes, even in edit mode.
 
 > [!NOTE]
-> To temporarily switch to preview mode while in edit mode, hold down the **Alt** key on your keyboard. Note that when you're holding down that key, if you click on the app, it will act as it is in preview mode. When you release the key it will automatically spring back to edit mode and you can click on your app to select controls normally.
+> To temporarily switch to preview mode while in edit mode, hold down the **Alt** key on your keyboard. Note that when you're holding down that key, if you select the app, it will act as it is in preview mode. When you release the key it will automatically spring back to edit mode and you can select your app to select controls normally.
 
 ## Add the inventory request screen
 
 The generated app includes a screen for adding rows of data by repurposing the data edit screen, but our app will instead use the **(+)** icon in the app to give the user a way to request more inventory be added to the warehouse by the home office.
 
-1. Click on the **EditScreen1** control in the left-side Tree View panel's control tree.
+1. Select the **EditScreen1** control in the left-side Tree View panel's control tree.
 
-1. Click on the **...** on the right side of where EditScreen1 is now highlighted, and click on **Duplicate screen**.
+1. Select the **...** on the right side of where EditScreen1 is now highlighted, and select **Duplicate screen**.
 
-1. Right-click on **EditScreen1_1** on the tree view, and click on **Rename**. Type in **InventoryRequest** for a new name for the screen, and hit _<Enter>_ to save it.
+1. Right-click **EditScreen1_1** on the tree view, and select **Rename**. Type in **InventoryRequest** for a new name for the screen, and select **Enter** to save it.
 
-1. Click on **BrowseScreen1** in the tree view to go back to the first screen, and click on the **(+)** icon to select it.
+1. Select **BrowseScreen1** in the tree view to go back to the first screen, and select the **(+)** icon to select it.
 
 1. Choose the **OnSelect** property from theh dropdown list next to the formula bar, replace the contents of the formula bar with this:
 
@@ -69,31 +69,31 @@ The generated app includes a screen for adding rows of data by repurposing the d
         Navigate(InventoryRequest, None)
     ```
 
-1. Hold down the ALT key, and click on the **(+)** icon to test the Navigate function you just wrote; the app should load the InventoryRequest screen you created a moment ago.
+1. Hold down the ALT key, and select the **(+)** icon to test the Navigate function you just wrote; the app should load the InventoryRequest screen you created a moment ago.
 
-1. Now click on **EditForm1_1** in the tree view, and press the _<Delete>_ key to delete the control.
+1. Now select **EditForm1_1** in the tree view, and press the _<Delete>_ key to delete the control.
 
 ### Add controls to the new screen
 
-1. Click on the **+** icon on the left side of the screen to bring up the **Insert** panel.
+1. Select the **+** icon on the left side of the screen to bring up the **Insert** panel.
 
-1. Click on **Text Label**, and click on **Text Input** to add one of each type of control to the screen.
+1. Select **Text Label**, and select **Text Input** to add one of each type of control to the screen.
 
 1. Drag the two controls on the screen so they are below the header, and are aligned with the center of the screen. Note how Power Apps will help guide you to line things up with each other as you drag the controls around.
 
-1. Click on the label on the app screen to select it and in the right-side **Properties** panel, change the **Text** property value to say **Request Reason**.
+1. Select the label on the app screen to select it and in the right-side **Properties** panel, change the **Text** property value to say **Request Reason**.
 
-1. Click on the textbox on the app screen to select it and in the right-side **Properties** panel, change the **Default** property to say **Need inventory to cover customer needs**.
+1. Select the textbox on the app screen to select it and in the right-side **Properties** panel, change the **Default** property to say **Need inventory to cover customer needs**.
 
-1. Click on **Text label** in the **Insert** panel to add another label to the screen
+1. Select **Text label** in the **Insert** panel to add another label to the screen
 
-1. Use the search box on the **Insert** panel to search for **Drop**. Click on **Drop Down** to add a dropdown list box to the app.
+1. Use the search box on the **Insert** panel to search for **Drop**. Select **Drop Down** to add a dropdown list box to the app.
 
 1. Click and drag both controls to line up with the other controls and each other, and change the text on the new label to say **Inventory item**.
 
-1. Click on the drop down control to select it, and in the right-side properties panel, click on the **Items** property's dropdown and select **FlooringEstimates**. Then, click on the **Value** property's dropdown and select **Name**.
+1. Select the drop down control to select it, and in the right-side properties panel, select the **Items** property's dropdown and select **FlooringEstimates**. Then, select the **Value** property's dropdown and select **Name**.
 
-1. Click on the **Items** property label, and note that the cursor focus is now in the formula bar, with the Items property selected.
+1. Select the **Items** property label, and note that the cursor focus is now in the formula bar, with the Items property selected.
 
 1. Sort the items by name by entering the following formula:
 
@@ -105,15 +105,15 @@ The generated app includes a screen for adding rows of data by repurposing the d
 
 ### Fix the errors and add a data connection
 
-1. Click on the **✖** icon. Note that the icon's OnSelect property is shown in the formula bar. Change the formula to just say `Back()`.
+1. Select the **✖** icon. Note that the icon's OnSelect property is shown in the formula bar. Change the formula to just say `Back()`.
 
-1. Click on the data icon :::image type="icon" source="../media/powerapps-data-icon.png"::: on the left side of the screen to bring up the **Data** panel. Note that the FlooringInventory connection that we started the app with is listed there.
+1. Select the data icon :::image type="icon" source="../media/powerapps-data-icon.png"::: on the left side of the screen to bring up the **Data** panel. Note that the FlooringInventory connection that we started the app with is listed there.
 
-1. Click on **➕ Add data** to open the connection search panel and search for **Office 365 Outlook**.
+1. Select **➕ Add data** to open the connection search panel and search for **Office 365 Outlook**.
 
-1. If you already have a connection defined, click on that to add it. If no connection is listed, click on **Add connection**. When the panel for the new connection pops open on the right side, click on **Connect** to add the connection.
+1. If you already have a connection defined, select that to add it. If no connection is listed, select **Add connection**. When the panel for the new connection pops open on the right side, select **Connect** to add the connection.
 
-1. Click on the ✔ icon in the header of your app. Note that the OnSelect property for the icon has been selected for the formula bar.
+1. Select the ✔ icon in the header of your app. Note that the OnSelect property for the icon has been selected for the formula bar.
 
 1. Change the icon's OnSelect formula to the formula below. This formula will send an email to yourself, asking for more inventory to be ordered.
 
@@ -137,7 +137,7 @@ Back()
 
 To make your app visible on the phone, it needs to be saved and published. Select **File**, **Save as**. Replace the current title "App" with **Flooring Inventory**, and then select **Save**. You will see a green check mark when all changes are successfully saved. You can now open the app on your phone.
 
-The first time you save a new app, it is automatically published, making the version you just saved "live". After that first save, additional saves do not automatically go live, but are just saved as new versions. In the future, you will need to click on the **Publish** button that shows up on the save screen after you have clicked **Save**.
+The first time you save a new app, it is automatically published, making the version you just saved "live". After that first save, additional saves do not automatically go live, but are just saved as new versions. In the future, you will need to select the **Publish** button that shows up on the save screen after you have clicked **Save**.
 
 ## Install the app on your device
 To see how the app runs on mobile, install the Power Apps Mobile app on your phone. When building an app, you should test it in the same form factor as your users.
