@@ -3,10 +3,10 @@ uid: learn-bizapps.microsoft-vaccination-management-overview.4-integration-exter
 title: HL7 integration with external immunization systems
 metadata: 
   title: HL7 integration with external immunization systems
-  description: Learn how MVM integrates with states' immunization systems.
+  description: Learn how Microsoft Vaccination Management integrates with state immunization systems.
   ms.date: 06/11/2021 
-  author: KevSch 
-  ms.author: kschimke 
+  author: DaveBeasley  
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365-healthcare 
 durationInMinutes: 6

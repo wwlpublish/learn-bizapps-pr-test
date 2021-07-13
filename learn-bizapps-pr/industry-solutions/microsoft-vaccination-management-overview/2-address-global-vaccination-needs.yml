@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit 
 uid: learn-bizapps.microsoft-vaccination-management-overview.2-address-global-vaccination-needs 
-title: Addressing global vaccination needs
+title: Address global vaccination needs
 metadata: 
-  title: Addressing global vaccination needs
+  title: Address global vaccination needs
   description: Learn how Microsoft Vaccination Management can address global vaccination needs.
   ms.date: 06/11/2021 
-  author: KevSch 
-  ms.author: kschimke 
+  author: DaveBeasley  
+  ms.author: dbeasley  
   ms.topic: interactive-tutorial 
   ms.prod: learning-d365-healthcare 
 durationInMinutes: 1
