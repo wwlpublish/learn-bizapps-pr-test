@@ -14,7 +14,7 @@ In this task, you will go to the portal and book an appointment.
 	> It is important that you enter the exact date because the system validates you against this data.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the date of birth validation window.](../media/enter-birthdate.png)](../media/enter-birthdate.png#lightbox)
+	> [![Screenshot of the date of birth validation window.](../media/birthdate.png)](../media/birthdate.png#lightbox)
 
 1. After the appointment details have loaded, select **Cancel and reschedule**.
 
@@ -29,7 +29,7 @@ In this task, you will go to the portal and book an appointment.
 1. Confirm your date of birth again by using the same date of birth value that you provided during registration.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the confirmation window for the date of birth.](../media/confirm-birthdate.png)](../media/confirm-birthdate.png#lightbox)
+	> [![Screenshot of the confirmation window for the date of birth.](../media/birthdate.png)](../media/birthdate.png#lightbox)
 
 1. Your appointment will be canceled with a confirmation message. Select **Schedule a new appointment**.
 
@@ -39,7 +39,7 @@ In this task, you will go to the portal and book an appointment.
 1.  The booking experience will launch, which you can complete by using the steps in Exercise 3 as reference.
 
 	> [!div class="mx-imgBorder"]
-	> [![Screenshot of the enter date of birth window.](../media/birthdate-submit.png)](../media/birthdate-submit.png#lightbox)
+	> [![Screenshot of the enter date of birth window.](../media/birthdate.png)](../media/birthdate.png#lightbox)
 
 Congratulations, you have now canceled and rescheduled your appointment for vaccination.
 
