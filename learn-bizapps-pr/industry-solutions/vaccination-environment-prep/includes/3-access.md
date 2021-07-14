@@ -33,7 +33,7 @@ In this exercise, you will be playing the role of a system administrator and wil
     > [!div class="mx-imgBorder"]
     > [![Screenshot of finding the Object ID for your group.](../media/20-object-id.png)](../media/20-object-id.png)
 
-9.  Go to https://aka.ms/MVMAccess and fill in the required details to add your tenant and security group to the allow list. 
+9.  Go to https://aka.ms/MVMAccess and fill in the required details to add your tenant and security group to the allowlist. 
 
     > [!NOTE]
     > It might take three business days to add your organization's tenant and security group.
