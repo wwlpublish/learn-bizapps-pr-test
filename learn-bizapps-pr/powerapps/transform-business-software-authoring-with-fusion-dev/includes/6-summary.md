@@ -6,7 +6,7 @@ During this module, you met the team at VanArsdel Heating and Air Conditioning a
 - The capability of individuals to use the technology
 - And trust organizations have in deploying the technology
 
-Fusion Development Team gathers professionals from across the company to develop software by empowering Citizen Developers, or business professionals, to create applications that solve unique problems alongside and supported by their Professional Developer peers. Aspect of Fusion Development teams include:
+Fusion Development Teams gather professionals from across the company to develop software by empowering Citizen Developers, or business professionals, to create applications that solve unique problems alongside and supported by their Professional Developer peers. Aspects of Fusion Development teams include:
 
 - Citizen and Professional Developers brainstorming creating solutions to business problems from across the company.
 - Citizen Developers creating Power Apps that exactly solve their business needs.

@@ -57,7 +57,7 @@ with your company's logo.
 
 ![Edit Title content snippets](../media/edit-title-content-snippet.png)
 
-## Entity lists and entity forms
+## Table lists and table forms
 
 The strength of Power Apps portals is the ability to interact with information
 and data that is stored in Microsoft Dataverse. Table lists and table forms are used 

@@ -2,6 +2,8 @@ Consider the scenario where you have imported data into Power BI from
 several different sources and, when you examine the data, it is not
 prepared for analysis. What could make the data unprepared for analysis?
 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWG0Kd]
+
 When examining the data, you discover several issues, including:
 
 -   A column called **Employment status** only contains numerals.

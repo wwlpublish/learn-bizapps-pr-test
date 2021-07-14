@@ -3,9 +3,9 @@ uid: learn-bizapps.use-imperative-dev-techniques
 metadata: 
   title: Use imperative development techniques for canvas apps in Power Apps
   description: Learn how to use imperative vs. declarative development.
-  ms.date: 05/14/2020  
+  ms.date: 06/29/2021 
   author: DaveBeasley
-  ms.author: dbeasley  
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial  
   ms.prod: learning-powerapps  
 title: Use imperative development techniques for canvas apps in Power Apps 
@@ -35,6 +35,7 @@ units:
 - learn-bizapps.use-imperative-dev-techniques.4-contextual-variables 
 - learn-bizapps.use-imperative-dev-techniques.5-collections 
 - learn-bizapps.use-imperative-dev-techniques.6-additional-variables 
+- learn-bizapps.use-imperative-dev-techniques.6a-exercise-variables-collection
 - learn-bizapps.use-imperative-dev-techniques.7-knowledge-check 
 - learn-bizapps.use-imperative-dev-techniques.8-summary 
 badge: 

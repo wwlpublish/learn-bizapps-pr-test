@@ -91,6 +91,7 @@ Importing the solution is a required installation process that helps ensure that
 
 	> [!IMPORTANT]
 	> Extract the zip file after downloading and before moving on to the next step. The CoE Starter Kit compressed file contains all solution components and non-solution aware components that make up the CoE Starter Kit.
+	> For more information, see [Set up core components](/power-platform/guidance/coe/setup-core-components).
 
 1.  Create an environment in which to set up the CoE.
 
@@ -232,7 +233,7 @@ To configure CoE settings:
 	|     Email End-User Support          |     Email address   for your helpdesk or user computing support team                                                                                                                                                                                    |
 	|     Tenant Type                       |     The type of   tenant you have. Possible values:     Commercial   (use if your URL is [https://make.powerapps.com](https://make.powerapps.com/?azure-portal=true))     GCC (use if   your URL is [https://make.gov.powerapps.us](https://make.gov.powerapps.us/?azure-portal=true))     GCC High (use   if your URL is [https://make.high.powerapps.us](https://make.high.powerapps.us/?azure-portal=true))    |
 	|     Link to   Community Channel       |     Link to your   internal Microsoft Power Platform community (for example, Yammer or Teams)                                                                                                                                                           |
-	|     Link to   Learning Resource       |     Link to   internal Microsoft Power Platform learning resources, or you can link to [Create a canvas app in Power Apps](https://docs.microsoft.com/learn/paths/create-powerapps/?WT.mc_id=twitter-social-donasa/?azure-portal=true)                                                                                                                                                   |
+	|     Link to   Learning Resource       |     Link to   internal Microsoft Power Platform learning resources, or you can link to [Create a canvas app in Power Apps](/learn/paths/create-powerapps/?WT.mc_id=twitter-social-donasa/?azure-portal=true)                                                                                                                                                   |
 	|     Link to   Policy Documentation    |     Link to   internal Microsoft Power Platform policies; for example, a Teams channel or   SharePoint site                                                                                                                                             |
 	|     Version                           |     Set to 1.0                                                                                                                                                                                                                                          |
 

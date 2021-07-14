@@ -38,8 +38,8 @@ quiz:
   - content: What is the difference between Promotion and Certification when you are endorsing a dataset?
     choices: 
     - content: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
-      isCorrect: true 
-      explanation: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
-    - content: Promotion is for broad usage while Certification needs permission granted on the Admin Tenant settings.
       isCorrect: false 
       explanation: Promotion does not need specific permissions while Certification requires permission from the dataset owner to access to the dataset.
+    - content: Promotion is for broad usage while Certification needs permission granted on the Admin Tenant settings.
+      isCorrect: true
+      explanation: Promotion of a dataset can be enabled by dataset owners while dataset certification requires Power BI admin permissions.

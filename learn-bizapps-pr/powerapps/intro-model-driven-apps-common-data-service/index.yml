@@ -3,9 +3,9 @@ uid: learn-bizapps.intro-model-driven-apps-common-data-service
 metadata: 
  title: Introduction to model-driven apps and Microsoft Dataverse
  description: Do you want to quickly build apps with little to no code? This module will focus on the building blocks of Dataverse and model-driven apps. These key components will help you build quick business apps in your organization.   
- ms.date: 1/17/2020  
- author: KevSch  
- ms.author: kschimke  
+ ms.date: 06/29/2021 
+ author: DaveBeasley
+ ms.author: dbeasley
  ms.topic: interactive-tutorial  
  ms.prod: learning-power-apps  
 title: Introduction to model-driven apps and Dataverse 

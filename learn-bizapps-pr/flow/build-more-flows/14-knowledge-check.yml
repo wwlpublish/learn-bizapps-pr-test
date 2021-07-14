@@ -4,9 +4,9 @@ title: Check your knowledge
 metadata: 
   title: "Knowledge check: Build more complex flows with Power Automate" 
   description: This quiz tests your knowledge of how to create more complex flows.
-  ms.date: 03/04/2020
-  author: KevSch
-  ms.author: kschimke
+  ms.date: 06/08/2021
+  author: DaveBeasley
+  ms.author: dbeasley
   ms.topic: interactive-tutorial
   ms.prod: learning-power-automate
 durationInMinutes: 4
@@ -16,13 +16,13 @@ quiz:
   - content: What are connectors used for in Power Automate? 
     choices:  
     - content: Connectors are used to start a flow.
-      explanation: Connectors let you connect to a service like Twitter. 
+      explanation: Connectors let you connect to a services like Salesforce, Microsoft 365, Twitter. 
       isCorrect: false 
-    - content: Connectors let you share an app.
+    - content: Connectors let you build a flow that accepts user input.
       explanation: Connectors let you connect to a service like Twitter.
       isCorrect: false 
-    - content: Connectors let you connect to a service like Twitter.
-      explanation: Connectors are used to connect to services like Twitter.
+    - content: Connectors let you connect to a services like Salesforce, Microsoft 365, Twitter.
+      explanation: Connectors let you connect to a services like Salesforce, Microsoft 365, Twitter.
       isCorrect: true 
   - content: How can you define who has privileges to create, read, update, or delete a business process flow instance?
     choices: 
@@ -38,3 +38,17 @@ quiz:
     - content: Activate the business process flow, and select Edit Security Roles, and define who will have privileges. 
       explanation: You can use Edit Security Roles to define privileges to users. 
       isCorrect: true 
+  - content: When creating Button Flows you can use trigger tokens to capture device information like, GPS data, Date and Time, etc. Which of the following is NOT an available Button trigger token?
+    choices: 
+    - content: State
+      explanation: State is an available trigger token.
+      isCorrect: false 
+    - content: City
+      explanation: City is an available trigger token.
+      isCorrect: false 
+    - content: Phone number
+      explanation: Phone number is not an available trigger token.
+      isCorrect: true 
+    - content: Full address
+      explanation: Full address is an available trigger token. 
+      isCorrect: false 

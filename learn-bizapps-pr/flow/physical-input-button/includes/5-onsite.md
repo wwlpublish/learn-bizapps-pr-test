@@ -1,11 +1,10 @@
-You can build a flow, which is triggered by the Flic button, that lets your manager
-know that you are on site.
+You can build a flow, which is triggered by the Flic button, that lets your manager know that you are on site.
 
 1. Go to [Power Automate](https://flow.microsoft.com/?azure-portal=true) and sign in.
 
 1. Select **+ Create** on the left navigation pane.
 
-1. In the **Start from blank** area of the page, select **Automated flow**.
+1. In the **Start from blank** area of the page, select **Automated cloud flow**.
 
 1. In the **Flow name** field, enter **Inform manager** as the flow name. Under **Choose your flow's trigger**, search for **Flic**. Select **When a Flic is pressed** and then select **Create**.
 
@@ -15,7 +14,7 @@ know that you are on site.
 
 1. Select **+ New step**.
 
-1. In the **Choose an action** field, search for **compose** and then select the **Compose** action.
+1. In **Choose an action**, search for compose and select **Compose** action.
 
 1. In the **Inputs** field, enter your email address. Select the ellipsis (**...**) button on the upper right, select **Rename**, and then rename the action to **Email address**.
 
@@ -43,7 +42,4 @@ know that you are on site.
 
 1. Select the **Flow checker** icon on the upper right of the screen. If no errors occur, then select **Save**.
 
-Congratulations, you have now successfully built a flow that will trigger
-when you use a physical button. To test this feature, you need to have the Flic app open in your
-phone and then select the Flic button twice. The flow will send an email to
-your manager.
+Congratulations, you have now successfully built a flow that will trigger when you use a physical button. To test this feature, you need to have the Flic app open in your phone and then select the Flic button twice. The flow will send an email to your manager.

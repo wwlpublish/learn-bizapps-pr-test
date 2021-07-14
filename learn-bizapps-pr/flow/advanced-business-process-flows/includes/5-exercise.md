@@ -1,49 +1,47 @@
 In the previous exercise, you created a business process flow that includes logical
 branching for vehicles that were made in 1971 or before and all others that were made in
 1972 and beyond. Now, you will enhance that flow by adding a simple instant flow in
-Power Automate. You'll create an instant flow that sends an email to
+Power Automate. Instant flows can connect to hundreds of cloud services, extending your business
+process flow beyond data entry and basic logic. You'll create an instant flow that sends an email to
 the store manager (you) when a new customer check-in record is created.
 
 1. Sign in to [Power Automate](https://preview.flow.microsoft.com/?azure-portal=true) and select **My flows**.
 
 1. Select **+ New** in the ribbon in the left corner of the screen.
 
-1. Select the **+ Instant-from blank** option, as shown in the following screenshot.
+1. Select the **Instant cloud flow** option.
 
     ![Screenshot of Power Automate with New selected and the Instant--from blank option highlighted.](../media/18-create-instant-flow-dialog.png)
 
-1. Select the **Skip** button to open the flow instant designer.
+1. Select the **Skip** button to open the cloud flow designer.
 
     ![Screenshot of the Build an instant flow dialog with Flow name and Choose how to trigger this flow options. The Skip button is highlighted.](../media/19-select-skip-button-enter-flow-designer.png)
 
-1. Enter **Microsoft Dataverse** in the connector search dialog box, as shown in the following screenshot.
+1. First you need to define a trigger, or an event that will precipitate your flow. Search **Microsoft Dataverse** and select **When a row is added, modified, or deleted**.
 
     ![Screenshot of the search results for Dataverse with the When a record is created option highlighted.](../media/20-search-common-data-service.png)
 
-1. Select the Microsoft Dataverse connector and the **When a Record is created**
-   trigger. Select the **Environment** name that you used in the previous exercises,
-   select **Customer Check In** from the **Entity Name** field, select the **User**
-   in the **Scope** field, and then select **+ New step**, as shown in the following figure.
+1. Choose the change type **Create** and the table used in your business process flow, in this case **Customer Check In**. You must also choose a scope. 
+A scope determines whose actions trigger the flow, whether anyone in the organization, in your business unit, or yourself (user). For now, you can choose 
+**User** since you have yet to test this process. Once complete, select **+ New step**.
 
     ![Dataverse When a record is created trigger with the three values filled in and the New step button highlighted.](../media/21-fill-out-record-created-trigger.png)
 
-1. Enter **Send Email** in the actions search box and then select **Send an email notification (V3)**.
+1. Search for and select **Send an email (V2)**.
 
     ![Search for Send Email action by typing send email in search dialog.](../media/22-send-email-action.png)
 
 1. Enter the following information into the **Send an email notification (V3)** action:
 
-    - **To** - Enter your email address so you receive an email and can see how the instant flow works.
+    - **To** - Enter your email address to receive an email and test the instant flow.
 
     - **Subject** - Enter **A record was added to the Customer Check In entity**.
 
-    Select the **First Name** and **Last Name** fields from the list of fields under the Dynamic content option.
+    - **Email Body** - Enter **A new record for** and select the **First Name** and **Last Name** fields from the list of fields under the Dynamic content option, and then type **was entered today!**
 
-    - **Email Body** - Enter **A new record for** (select the **new_firstname** field and the **new_lastname** field), and then type **was entered today!**
+1. Select **Save**.
 
     ![Send an email notification with values added for To, Subject, and Email Body.](../media/23-fill-out-send-email-action.png)
-
-1. Save the flow by selecting **Save** in the top ribbon.
 
 ## Run the instant flow
 

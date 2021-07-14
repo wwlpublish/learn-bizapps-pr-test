@@ -1,6 +1,6 @@
 *Implicit* and *explicit* are two types of measures. Implicit measures are automatic behaviors that allow visuals to summarize model column data. Explicit measures, also known simply as *measures*, are calculations that you can add to your model. The following sections focus on how you can use implicit measures.
 
-In the **Fields** pane, a column that's shown with the sigma symbol (∑) indicates two facts:
+In the **Fields** pane, a column that's shown with the sigma symbol ( ∑ ) indicates two facts:
 
 -   It's a numeric column.
 
@@ -9,7 +9,7 @@ In the **Fields** pane, a column that's shown with the sigma symbol (∑) indica
 In the following image, notice that the Sales table includes only fields that can be summarized, including the **Profit Amount** calculated column.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the Sales table with fields that can be summarized.](../media/dax-sales-table-fields-ss.png)](../media/dax-sales-table-fields-ss.png#lightbox)
+> [![An image show the Fields pane for the Sales table. It comprises seven summarizable fields, and one of them is a calculated column. The Unit Price Discount Pct field isn't summarizable.](../media/dax-sales-table-fields-ss.png)](../media/dax-sales-table-fields-ss.png#lightbox)
 
 As a data modeler, you can control if and how the column summarizes by setting the **Summarization** property to **Don't summarize** or to a specific aggregation function. When you set the **Summarization** property to **Don't summarize**, the sigma symbol will no longer show next to the column in the **Fields** pane.
 
@@ -98,7 +98,7 @@ Several benefits are associated with implicit measures. Implicit measures are si
 Implicit measures do have limitations. Despite setting an appropriate summarization method, report authors could choose to aggregate a column in unsuitable ways. For example, in the matrix visual, you could modify the aggregate function of **Unit Price** to **Sum**.
 
 > [!div class="mx-imgBorder"]
-> [![Screenshot of the matrix visual with Sum of Unit Price.](../media/dax-matrix-visual-3-ss.png)](../media/dax-matrix-visual-3-ss.png#lightbox)
+> [![An image shows a matrix visual with year and month on the rows, and Sales Amount and Sum of Unit Price columns. Several rows of data are shown. The Unit Price values are very large because they're the sum of unit prices.](../media/dax-matrix-visual-3-ss.png)](../media/dax-matrix-visual-3-ss.png#lightbox)
 
 The report visual obeys your configuration, but it has now produced a **Sum of Unit Price** column, which contains misleading data.
 

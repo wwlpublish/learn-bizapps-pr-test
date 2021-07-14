@@ -6,7 +6,7 @@ To execute the flow of the exercise successfully, use the credentials of a valid
 
     ![Properties of the Build a flow dialog with the Flow name highlighted.](..\media\exercise-new-flow.png)
 
-1. Deploy a **Retrieve email messages** action and configure it to retrieve all the unread emails that contain the word **Ticket** in their subject line. Populate the **Mail folder** with the main inbox folder of your account.
+1. Deploy a **Retrieve email messages** action and configure it to retrieve all the unread emails that contain the word **Ticket** in their subject line. Populate the **Mail folder** field with the main inbox folder of your account.
 
     ![Properties of the Retrieve email messages action dialog.](..\media\exercise-retrieve-emails-action.png)
 
@@ -14,11 +14,15 @@ To execute the flow of the exercise successfully, use the credentials of a valid
 
     ![Properties of the IMAP server section of the Retrieve email messages action dialog.](..\media\exercise-retrieve-emails-action-imap.png)
 
-1. Add a **For each** loop to the workspace and set it to iterate through the list with the retrieved emails.
+1. Add a **For each** loop to the workspace and set it to iterate through the list that contains the retrieved emails.
 
     ![Properties of the For each action dialog.](..\media\exercise-for-each-action.png)
 
-1. Inside the loop, add a **Send email** action to send an email to each ticket owner. Set the email subject to contain the subject of the received email with a confirmation notation. The body can optionally include a confirmation text.
+1. Inside the loop, add a **Parse text** action to get the email address part of the **%CurrentItem['From']%** property. To get this specific text part, use the **<(.*?)>** regular expression.
+
+    ![Properties of the Parse text actions.](..\media\exercise-parse-text-action.png)
+
+1. Below the **Parse text** action, add a **Send email** action to send an email to each ticket owner. Set the email subject to contain the subject of the received email with a confirmation notation. The body can optionally include a confirmation text.
 
     ![Properties of the Send email action dialog.](..\media\exercise-send-email-action.png)
 

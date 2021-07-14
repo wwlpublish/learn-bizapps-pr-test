@@ -4,7 +4,7 @@ title: Check your knowledge
 metadata: 
  title: Check your knowledge
  description: Answer the following questions to see what you've learned.
- ms.date: 04/05/2021
+ ms.date: 04/20/2021
  author: DaveBeasley
  ms.author: dbeasley 
  ms.topic: interactive-tutorial
@@ -44,11 +44,8 @@ quiz:
   - content: You want to partition your solutions by creating separate solutions for each type of component. What is this called?
     choices: 
     - content: Horizontal splitting
-      isCorrect: false
-      explanation: Horizontal splitting refers to creating solutions that only contain components of the same type.
-    - content: Solution layering
       isCorrect: true
-      explanation: Solution layers describe the dependency chain for components of all solutions that affect the behavior of the component.
+      explanation: Horizontal splitting refers to creating solutions that only contain components of the same type.
     - content: Solution segmentation
       isCorrect: false
       explanation: Adding only what subcomponents are required to a solution is known as segmenting a solution.

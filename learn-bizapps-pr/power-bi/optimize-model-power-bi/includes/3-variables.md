@@ -61,7 +61,7 @@ In the following example, you test an expression that is assigned to a variable.
 Sales YoY Growth % =
 VAR SalesPriorYear =  CALCULATE([Sales], PARALLELPERIOD('Date'[Date], -12, MONTH))
 VAR SalesPriorYear% = DIVIDE(([Sales] - SalesPriorYear), SalesPriorYear)  
-RETURN  SalesPriorYear
+RETURN  SalesPriorYear%
 ```
 
 The RETURN expression will display the **SalesPriorYear** value only. This technique allows you to revert the expression when you have completed the debugging. It also makes calculations simpler to understand due to reduced complexity of the DAX code.

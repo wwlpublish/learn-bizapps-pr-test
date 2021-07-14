@@ -12,7 +12,7 @@ At the end of these exercises, you'll be able to:
 
 For this exercise, you need to have the following parameters set up in your environment:
 
-- A Power Apps portal that is provisioned. If you do not have a Power Apps portal available, follow the [Create Portal](https://docs.microsoft.com/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
+- A Power Apps portal that is provisioned. If you do not have a Power Apps portal available, follow the [Create Portal](/powerapps/maker/portals/create-portal/?azure-portal=true) instructions to create one.
 - Access to the Power Apps maker portal.
 
 ### High-level steps
@@ -56,10 +56,10 @@ To edit the source code, follow these steps:
 
    ```twig
    <h2>List of accounts</h2>
-   {% tableview logical_name:'account', name:'Active Accounts' %}
-   <p>We have {{ tableview.total_records }} accounts.</p>
+   {% entityview logical_name:'account', name:'Active Accounts' %}
+   <p>We have {{ entityview.total_records }} accounts.</p>
    <ul>
-     {% for account in tableview.records -%}
+     {% for account in entityview.records -%}
      <li>{{ account.name }}
        {% if account.telephone1 %}
        (<a href="tel:{{ account.telephone1 }}">{{ account.telephone1 }}</a>)
@@ -67,7 +67,7 @@ To edit the source code, follow these steps:
      </li>
      {% endfor %}
    </ul>
-   {% endtableview %}
+   {% endentityview %}
    ```
 
 1. Select **Save**.

@@ -34,7 +34,7 @@ To practice this concept, download the [**Adventure Works DW 2020 M01.pbix**
 > [!div class="mx-imgBorder"]
 > [![An image shows seven model tables. The Sales table is located at the center of the diagram. The other six tables are placed about the Sales table.](../media/dax-star-schema-1-ss.png)](../media/dax-star-schema-1-ss.png#lightbox)
 
-Notice that the model is comprised of seven tables, one of which is named **Sales**. The remaining tables are dimension tables, and they have the following names:
+Notice that the model is comprised of seven tables, one of which is named **Sales** and is the fact table. The remaining tables are dimension tables, and they have the following names:
 
 -   Customer
 

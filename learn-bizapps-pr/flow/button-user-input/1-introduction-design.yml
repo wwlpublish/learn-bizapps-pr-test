@@ -1,12 +1,12 @@
 ### YamlMime:ModuleUnit 
-uid: learn-bizapps.button-user-input.1-introduction-design 
-title: Introduction to the design process of a button flow with user input
+uid: learn-bizapps.button-user-input.1-introduction-design
+title: Introduction
 metadata: 
-  title: Introduction to the design process of a button flow with user input 
-  description: Learn about the design process of a button flow with user input
-  ms.date: 2/28/2020 
-  author: KevSch 
-  ms.author: kschimke 
+  title: Introduction
+  description: Let's build a button flow with user input.
+  ms.date: 06/21/2021 
+  author: DaveBeasley 
+  ms.author: dbeasley 
   ms.topic: interactive-tutorial 
   ms.prod: learning-power-automate 
 durationInMinutes: 7 
