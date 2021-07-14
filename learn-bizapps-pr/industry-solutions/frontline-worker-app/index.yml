@@ -3,7 +3,7 @@ uid: learn-bizapps.frontline-worker-app
 metadata: 
  title: Microsoft Vaccination Management Frontline worker app
  description: Workers at vaccination sites can use the Frontline worker app to distribute and administer vaccinations safely and effectively.
- ms.date: 06/15/2021  
+ ms.date: 07/14/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -27,7 +27,6 @@ roles:
 - business-user  
 products: 
 - industry-solutions
-- mscloud-healthcare 
 units: 
 - learn-bizapps.frontline-worker-app.1-introduction 
 - learn-bizapps.frontline-worker-app.2-overview 
