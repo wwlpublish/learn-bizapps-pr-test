@@ -3,7 +3,7 @@ uid: learn-bizapps.data-setup-vaccination-management-app
 metadata: 
  title: Data setup with the Vaccination management app
  description: This exercise covers the Microsoft Vaccination Management user experience and scenarios that are encountered by program administrators.
- ms.date: 06/15/2021  
+ ms.date: 07/14/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -25,7 +25,6 @@ roles:
 - administrator   
 products:  
 - industry-solutions 
-- mscloud-healthcare
 units: 
 - learn-bizapps.data-setup-vaccination-management-app.1-introduction 
 - learn-bizapps.data-setup-vaccination-management-app.2-connect-data 
