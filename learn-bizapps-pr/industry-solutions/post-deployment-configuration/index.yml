@@ -3,7 +3,7 @@ uid: learn-bizapps.post-deployment-configuration
 metadata: 
  title: Microsoft Vaccination Management post-deployment configuration
  description: Learn how to update portal bindings and Bing Maps settings, and learn how to enable, configure, and integrate Microsoft Vaccination Management.
- ms.date: 06/14/2021  
+ ms.date: 07/14/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -27,7 +27,6 @@ roles:
 - developer 
 products: 
 - industry-solutions
-- mscloud-healthcare 
 units: 
 - learn-bizapps.post-deployment-configuration.1-introduction 
 - learn-bizapps.post-deployment-configuration.2-exercise 
