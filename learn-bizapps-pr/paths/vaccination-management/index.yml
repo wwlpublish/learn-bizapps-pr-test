@@ -28,7 +28,9 @@ products:
 modules:
 - learn-bizapps.microsoft-vaccination-management-overview
 - learn-bizapps.cloud-licensing
-- learn-bizapps.data-setup-vaccination-management-app 
+- learn-bizapps.data-setup-vaccination-management-app
+- learn-bizapps.frontline-worker-app 
+- learn-bizapps.vaccination-dashboard 
 trophy:
   uid: learn.vaccination-management.trophy
 
