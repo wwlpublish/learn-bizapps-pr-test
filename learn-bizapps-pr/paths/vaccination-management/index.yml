@@ -31,6 +31,7 @@ modules:
 - learn-bizapps.vaccination-environment-prep 
 - learn-bizapps.post-deployment-configuration 
 - learn-bizapps.data-setup-vaccination-management-app
+- learn-bizapps.registration-booking-process 
 - learn-bizapps.frontline-worker-app 
 - learn-bizapps.vaccination-dashboard 
 trophy:
