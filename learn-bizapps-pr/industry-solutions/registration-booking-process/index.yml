@@ -3,7 +3,7 @@ uid: learn-bizapps.registration-booking-process
 metadata: 
  title: Registration and booking process in Microsoft Vaccination Management
  description: This lab covers Microsoft Vaccination Management user experiences and scenarios.
- ms.date: 06/15/2021  
+ ms.date: 07/14/2021  
  author: DaveBeasley  
  ms.author: dbeasley  
  ms.topic: interactive-tutorial  
@@ -26,7 +26,6 @@ roles:
 - administrator   
 products:  
 - industry-solutions 
-- mscloud-healthcare
 units: 
 - learn-bizapps.registration-booking-process.1-introduction 
 - learn-bizapps.registration-booking-process.2-portal-overview 
