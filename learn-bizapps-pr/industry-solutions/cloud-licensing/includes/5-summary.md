@@ -1,0 +1,1 @@
+In this module, you learned that Microsoft Vaccination Management is deployed through Microsoft Cloud Solution Center. Solution Center provides a central place to deploy and configure various solutions like Microsoft Vaccination Management. You also learned about the various licensing scenarios for Microsoft Vaccination Management and how to deploy it through Solution Center.
